@@ -57,7 +57,6 @@ pub struct ProviderDataset {
 	pub provider_count: usize,
 }
 
-#[cfg_attr(not(test), expect(dead_code, reason = "consumed by the next implementation stage"))]
 pub fn read_provider_dataset(
 	path: &Path,
 	mut read_provider: impl FnMut(&Provider) -> Result<()>,

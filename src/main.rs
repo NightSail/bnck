@@ -2,6 +2,7 @@ mod curation;
 mod importers;
 mod matcher;
 mod model;
+mod release;
 
 use std::path::PathBuf;
 
