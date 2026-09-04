@@ -3,3 +3,23 @@ name = 'ripgrep'
 
 homepage = 'https://burntsushi.net/ripgrep/'
 repository = 'https://github.com/BurntSushi/ripgrep'
+
+[[package]]
+channel = 'arch'
+name = 'ripgrep'
+
+[[package]]
+channel = 'crates.io'
+name = 'ripgrep'
+
+[[package]]
+channel = 'debian'
+name = 'ripgrep'
+
+[[package]]
+channel = 'fedora'
+name = 'ripgrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ripgrep'

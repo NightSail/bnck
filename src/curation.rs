@@ -21,6 +21,15 @@ struct Project {
 	documentation: Option<String>,
 	#[serde(default)]
 	issue_tracker: Option<String>,
+	#[serde(default, rename = "package")]
+	packages: Vec<ProjectPackage>,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+struct ProjectPackage {
+	channel: String,
+	name: String,
 }
 
 #[derive(Debug, Deserialize)]
@@ -28,8 +37,6 @@ struct Project {
 struct PackageCuration {
 	channel: String,
 	name: String,
-	#[serde(default)]
-	project: Option<String>,
 	#[serde(default)]
 	attribute: Vec<Attribution>,
 	#[serde(default)]
@@ -90,20 +97,22 @@ struct Acquisitions {
 pub fn generate(acquisitions: &Path, curations: &Path, output: &Path) -> Result<usize> {
 	validate_manifest(curations)?;
 	let projects = load_projects(&curations.join("projects"))?;
-	let packages = load_packages(&curations.join("packages"))?;
+	let owners = package_owners(&projects)?;
+	let overrides = load_package_curations(&curations.join("packages"))?;
+	validate_project_references(&overrides, &projects)?;
 	let acquisitions = load_candidates(acquisitions)?;
+	let package_keys = owners.keys().chain(overrides.keys()).cloned().collect::<BTreeSet<_>>();
 	let mut providers = BTreeSet::new();
 
-	for package in packages {
-		if !acquisitions.channels.contains(&package.channel) {
+	for key in package_keys {
+		if !acquisitions.channels.contains(&key.0) {
 			continue;
 		}
-		validate_project_references(&package, &projects)?;
-		let key = (package.channel.clone(), package.name.clone());
-		let acquired = acquisitions.packages.get(&key).with_context(|| {
-			format!("curated package ({}, {}) is absent from acquisition", package.channel, package.name)
-		})?;
-		providers.extend(resolve_package(&package, acquired)?);
+		let acquired = acquisitions
+			.packages
+			.get(&key)
+			.with_context(|| format!("curated package ({}, {}) is absent from acquisition", key.0, key.1))?;
+		providers.extend(resolve_package(&key, owners.get(&key).map(String::as_str), overrides.get(&key), acquired)?);
 	}
 
 	write_json_lines(output, providers)
@@ -117,7 +126,7 @@ fn validate_manifest(root: &Path) -> Result<()> {
 
 	let path = root.join("manifest.toml");
 	let manifest: Manifest = read_toml(&path)?;
-	ensure!(manifest.schema == 1, "unsupported curation schema {}", manifest.schema);
+	ensure!(manifest.schema == 0, "unsupported curation schema {}", manifest.schema);
 	Ok(())
 }
 
@@ -136,17 +145,35 @@ fn load_projects(path: &Path) -> Result<BTreeMap<String, Project>> {
 	Ok(projects)
 }
 
-fn load_packages(packages_root: &Path) -> Result<Vec<PackageCuration>> {
-	let mut packages = Vec::new();
-	let mut identities = BTreeSet::new();
+fn package_owners(projects: &BTreeMap<String, Project>) -> Result<BTreeMap<PackageKey, String>> {
+	let mut owners = BTreeMap::new();
+	for project in projects.values() {
+		for package in &project.packages {
+			validate_identifier("channel", &package.channel)?;
+			validate_identifier("package", &package.name)?;
+			let key = (package.channel.clone(), package.name.clone());
+			if let Some(owner) = owners.insert(key.clone(), project.id.clone()) {
+				bail!("package ({}, {}) is claimed by projects {owner} and {}", key.0, key.1, project.id)
+			}
+		}
+	}
+	Ok(owners)
+}
+
+fn load_package_curations(packages_root: &Path) -> Result<BTreeMap<PackageKey, PackageCuration>> {
+	let mut packages = BTreeMap::new();
+	if !packages_root.exists() {
+		return Ok(packages);
+	}
 	for path in toml_files(packages_root)? {
 		let package: PackageCuration = read_toml(&path)?;
 		validate_identifier("channel", &package.channel)?;
 		validate_identifier("package", &package.name)?;
 		validate_channel_directory(&path, &package.channel, packages_root)?;
 		let identity = (package.channel.clone(), package.name.clone());
-		ensure!(identities.insert(identity.clone()), "duplicate package identity ({}, {})", identity.0, identity.1);
-		packages.push(package);
+		if packages.insert(identity.clone(), package).is_some() {
+			bail!("duplicate package curation ({}, {})", identity.0, identity.1)
+		}
 	}
 	Ok(packages)
 }
@@ -179,58 +206,73 @@ fn load_candidates(path: &Path) -> Result<Acquisitions> {
 	Ok(Acquisitions { packages, channels })
 }
 
-fn validate_project_references(package: &PackageCuration, projects: &BTreeMap<String, Project>) -> Result<()> {
-	let mut references = Vec::new();
-	if let Some(project) = package.project.as_ref() {
-		references.push(project);
-	}
-	references.extend(package.attribute.iter().map(|rule| &rule.project));
-	references.extend(package.replace.iter().map(|rule| &rule.project));
-	references.extend(package.add.iter().map(|rule| &rule.project));
-	for project in references {
-		ensure!(projects.contains_key(project), "package {} references unknown project {project}", package.name);
+fn validate_project_references(
+	packages: &BTreeMap<PackageKey, PackageCuration>,
+	projects: &BTreeMap<String, Project>,
+) -> Result<()> {
+	for package in packages.values() {
+		let references = package
+			.attribute
+			.iter()
+			.map(|rule| &rule.project)
+			.chain(package.replace.iter().map(|rule| &rule.project))
+			.chain(package.add.iter().map(|rule| &rule.project));
+		for project in references {
+			ensure!(projects.contains_key(project), "package {} references unknown project {project}", package.name);
+		}
 	}
 	Ok(())
 }
 
-fn resolve_package(package: &PackageCuration, acquired: &BTreeMap<String, Candidate>) -> Result<BTreeSet<Provider>> {
+fn resolve_package(
+	key: &PackageKey,
+	default_project: Option<&str>,
+	override_rules: Option<&PackageCuration>,
+	acquired: &BTreeMap<String, Candidate>,
+) -> Result<BTreeSet<Provider>> {
 	let mut assignments = BTreeMap::<String, String>::new();
 	let mut removed = BTreeSet::new();
-	validate_rules(package, acquired)?;
+	if let Some(rules) = override_rules {
+		validate_rules(rules, acquired)?;
+		apply_rules(rules, &mut assignments, &mut removed)?;
+	}
 
-	for rule in &package.exclude {
-		removed.insert(rule.executable.clone());
-	}
-	for rule in &package.replace {
-		removed.insert(rule.acquired.clone());
-		insert_assignment(&mut assignments, &rule.executable, &rule.project, &package.name)?;
-	}
-	for rule in &package.attribute {
-		insert_assignment(&mut assignments, &rule.executable, &rule.project, &package.name)?;
-	}
 	for executable in acquired.keys().filter(|executable| !removed.contains(*executable)) {
 		if assignments.contains_key(executable) {
 			continue;
 		}
-		let project = package
-			.project
-			.as_ref()
-			.with_context(|| format!("mixed package {} does not attribute executable {executable}", package.name))?;
-		insert_assignment(&mut assignments, executable, project, &package.name)?;
+		let project = default_project
+			.with_context(|| format!("mixed package {} does not attribute executable {executable}", key.1))?;
+		insert_assignment(&mut assignments, executable, project, &key.1)?;
 	}
-	for rule in &package.add {
-		insert_assignment(&mut assignments, &rule.executable, &rule.project, &package.name)?;
+	if let Some(rules) = override_rules {
+		for rule in &rules.add {
+			insert_assignment(&mut assignments, &rule.executable, &rule.project, &key.1)?;
+		}
 	}
 
 	Ok(assignments
 		.into_iter()
-		.map(|(executable, project)| Provider {
-			project,
-			executable,
-			channel: package.channel.clone(),
-			package: package.name.clone(),
-		})
+		.map(|(executable, project)| Provider { project, executable, channel: key.0.clone(), package: key.1.clone() })
 		.collect())
+}
+
+fn apply_rules(
+	rules: &PackageCuration,
+	assignments: &mut BTreeMap<String, String>,
+	removed: &mut BTreeSet<String>,
+) -> Result<()> {
+	for rule in &rules.exclude {
+		removed.insert(rule.executable.clone());
+	}
+	for rule in &rules.replace {
+		removed.insert(rule.acquired.clone());
+		insert_assignment(assignments, &rule.executable, &rule.project, &rules.name)?;
+	}
+	for rule in &rules.attribute {
+		insert_assignment(assignments, &rule.executable, &rule.project, &rules.name)?;
+	}
+	Ok(())
 }
 
 fn validate_rules(package: &PackageCuration, acquired: &BTreeMap<String, Candidate>) -> Result<()> {
@@ -340,7 +382,7 @@ mod tests {
 	use super::generate;
 
 	#[test]
-	fn resolves_default_project_and_exclusion() {
+	fn resolves_project_package_and_exception() {
 		let root = tempdir().unwrap();
 		let acquisitions = root.path().join("acquired");
 		let curations = root.path().join("curations");
@@ -349,11 +391,15 @@ mod tests {
 		fs::create_dir_all(&acquisitions).unwrap();
 		fs::create_dir_all(&projects).unwrap();
 		fs::create_dir_all(&packages).unwrap();
-		fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
-		fs::write(projects.join("tool.toml"), "id = 'tool'\nname = 'Tool'\n").unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+		fs::write(
+			projects.join("tool.toml"),
+			"id = 'tool'\nname = 'Tool'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+		)
+		.unwrap();
 		fs::write(
 			packages.join("tool.toml"),
-			"channel = 'npm'\nname = 'tool'\nproject = 'tool'\n\n[[exclude]]\nexecutable = 'helper'\nreason = 'Not public'\n",
+			"channel = 'npm'\nname = 'tool'\n\n[[exclude]]\nexecutable = 'helper'\nreason = 'Not public'\n",
 		)
 		.unwrap();
 		fs::write(
@@ -373,5 +419,23 @@ mod tests {
 			fs::read_to_string(output).unwrap(),
 			"{\"project\":\"tool\",\"executable\":\"tool\",\"channel\":\"npm\",\"package\":\"tool\"}\n"
 		);
+	}
+
+	#[test]
+	fn rejects_package_claimed_by_two_projects() {
+		let root = tempdir().unwrap();
+		let projects = root.path().join("projects");
+		fs::create_dir_all(&projects).unwrap();
+		for id in ["one", "two"] {
+			fs::write(
+				projects.join(format!("{id}.toml")),
+				format!("id = '{id}'\nname = '{id}'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n"),
+			)
+			.unwrap();
+		}
+
+		let projects = super::load_projects(&projects).unwrap();
+		let error = super::package_owners(&projects).unwrap_err();
+		assert!(error.to_string().contains("claimed by projects"));
 	}
 }
