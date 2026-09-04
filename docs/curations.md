@@ -93,6 +93,20 @@ Optional project hints include:
 - `repository`
 - `documentation`
 - `issue_tracker`
+- `links`: Additional URLs that identify the project
+
+`homepage`, `repository`, `documentation`, and `issue_tracker` describe the project's primary URLs. `links` records additional official or ecosystem URLs under which package metadata may refer to the same project. This includes registry pages, former official locations, and additional project or documentation pages that do not fit one of the primary fields.
+
+For example, hledger packages may refer to either of two distinct Hackage pages in addition to the project homepage and source repository:
+
+```toml
+links = [
+	'https://hackage.haskell.org/package/hledger',
+	'https://hackage.haskell.org/package/hledger-ui',
+]
+```
+
+Links are matching evidence only. They do not establish package ownership automatically. Distribution packaging repositories, forks, and mirrors must not be added merely because a package record mentions them; a curator must verify that each link identifies the canonical upstream project.
 
 Each `package` entry requires:
 
