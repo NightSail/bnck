@@ -1,7 +1,10 @@
+use std::fs::{self, File};
+use std::io::{self, Write};
 use std::path::Path;
 
-use anyhow::{Result, ensure};
+use anyhow::{Context, Result, ensure};
 use rusqlite::{Connection, params};
+use tempfile::NamedTempFile;
 
 use crate::model::{ProviderDataset, read_provider_dataset};
 
@@ -14,8 +17,33 @@ pub struct SqliteMetadata<'a> {
 	pub generator_revision: &'a str,
 }
 
-#[cfg_attr(not(test), expect(dead_code, reason = "consumed by the next implementation stage"))]
-pub fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<'_>) -> Result<ProviderDataset> {
+pub fn generate_sqlite_artifact(input: &Path, output: &Path, metadata: &SqliteMetadata<'_>) -> Result<ProviderDataset> {
+	let parent = output
+		.parent()
+		.filter(|path| !path.as_os_str().is_empty())
+		.unwrap_or(Path::new("."));
+	fs::create_dir_all(parent).with_context(|| format!("create {}", parent.display()))?;
+	let database =
+		NamedTempFile::new_in(parent).with_context(|| format!("create temporary file in {}", parent.display()))?;
+	let dataset = write_sqlite_database(input, database.path(), metadata)?;
+	let mut artifact =
+		NamedTempFile::new_in(parent).with_context(|| format!("create temporary file in {}", parent.display()))?;
+
+	let source = File::open(database.path()).with_context(|| format!("open {}", database.path().display()))?;
+	let mut encoder = zstd::stream::write::Encoder::new(artifact.as_file_mut(), zstd::DEFAULT_COMPRESSION_LEVEL)?;
+	io::copy(&mut io::BufReader::new(source), &mut encoder)?;
+	let compressed = encoder.finish()?;
+	compressed.flush()?;
+	compressed.sync_all()?;
+	artifact
+		.persist(output)
+		.map_err(|error| error.error)
+		.with_context(|| format!("persist {}", output.display()))?;
+
+	Ok(dataset)
+}
+
+fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<'_>) -> Result<ProviderDataset> {
 	validate_metadata(metadata)?;
 	let mut connection = Connection::open(output)?;
 	let transaction = connection.transaction()?;
@@ -88,7 +116,7 @@ mod tests {
 	use rusqlite::Connection;
 	use tempfile::tempdir;
 
-	use super::{SQLITE_SCHEMA_VERSION, SqliteMetadata, write_sqlite_database};
+	use super::{SQLITE_SCHEMA_VERSION, SqliteMetadata, generate_sqlite_artifact};
 
 	const PROVIDERS: &str = concat!(
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
@@ -100,7 +128,7 @@ mod tests {
 	fn creates_queryable_database_with_release_metadata() {
 		let root = tempdir().unwrap();
 		let input = root.path().join("providers.jsonl");
-		let output = root.path().join("bnck.sqlite");
+		let output = root.path().join("bnck.sqlite.zst");
 		fs::write(&input, PROVIDERS).unwrap();
 		let metadata = SqliteMetadata {
 			dataset_release: "2026-04-16.1",
@@ -109,10 +137,14 @@ mod tests {
 			generator_revision: "0123456789abcdef",
 		};
 
-		let dataset = write_sqlite_database(&input, &output, &metadata).unwrap();
+		let dataset = generate_sqlite_artifact(&input, &output, &metadata).unwrap();
 		assert_eq!(dataset.provider_count, 3);
 
-		let connection = Connection::open(output).unwrap();
+		let database = root.path().join("bnck.sqlite");
+		let mut compressed = fs::File::open(output).unwrap();
+		let mut decompressed = fs::File::create(&database).unwrap();
+		zstd::stream::copy_decode(&mut compressed, &mut decompressed).unwrap();
+		let connection = Connection::open(database).unwrap();
 		let user_version: u32 = connection.query_row("PRAGMA user_version", [], |row| row.get(0)).unwrap();
 		assert_eq!(user_version, SQLITE_SCHEMA_VERSION);
 		assert_eq!(metadata_value(&connection, "schema_version"), SQLITE_SCHEMA_VERSION.to_string());
