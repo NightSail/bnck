@@ -125,9 +125,11 @@ Debian repositories expose a signed metadata tree below `dists/` and package art
 1. Fetch `InRelease`, or `Release` plus `Release.gpg`, for a selected suite and verify it against the Debian archive keyring
 2. Fetch the `Packages` index for every selected component and architecture using the checksums in the release file
 3. Fetch `Sources` indexes for source-package and upstream metadata
-4. Fetch `Contents-<architecture>` indexes for a cheap package-to-path mapping
+4. Fetch both `Contents-<architecture>` and `Contents-all` indexes for a cheap package-to-path mapping that includes architecture-independent packages
 
 `Packages` supplies binary package name, version, architecture, source package, description, homepage, dependencies, artifact path, and checksums. `Sources` supplies source package metadata, including `Homepage` and `Vcs-*` fields when maintainers provide them. `Contents` maps installed paths to binary packages and is an efficient first pass for command candidates.
+
+Current acquisition reads both the configured primary suite, stable by default, and unstable/sid. Their normalized records remain in separate JSON Lines files but use the same `debian` package namespace, allowing unstable-only packages to participate without creating a second canonical distribution channel.
 
 Repository labels such as `stable` move over time. For reproducibility, prefer a timestamped [snapshot.debian.org](https://snapshot.debian.org/) view, or retain the verified release tree and every referenced index. `by-hash` URLs avoid mirror-update races but do not replace historical retention.
 

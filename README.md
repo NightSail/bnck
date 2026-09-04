@@ -64,7 +64,7 @@ just fetch-distros
 just import-distros
 ```
 
-Each distro can also be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. The Fedora base URL, Debian suite and architecture, and Arch mirror and architecture can be changed through the environment variables defined in their justfiles.
+Each distro can also be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition includes both the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture can be changed through the environment variables defined in their justfiles.
 
 For a full crates.io import, download and process the crates.io database dump:
 
