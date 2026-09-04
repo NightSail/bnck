@@ -13,7 +13,6 @@ struct Package {
 	version: String,
 	source: Option<String>,
 	homepage: Option<String>,
-	repository: Option<String>,
 	description: Option<String>,
 }
 
@@ -23,7 +22,6 @@ pub fn import(packages: &Path, sources: &Path, contents: &Path, output: &Path) -
 	for package in packages.values_mut() {
 		if let Some(source) = package.source.as_ref().and_then(|source| source_metadata.get(source)) {
 			package.homepage = package.homepage.take().or_else(|| source.homepage.clone());
-			package.repository = source.repository.clone();
 		}
 	}
 
@@ -41,7 +39,7 @@ pub fn import(packages: &Path, sources: &Path, contents: &Path, output: &Path) -
 				evidence: "repository-file-listing".into(),
 				source_package: package.source.clone(),
 				homepage: package.homepage.clone(),
-				repository: package.repository.clone(),
+				repository: None,
 				description: package.description.clone(),
 			});
 		}
@@ -67,7 +65,6 @@ fn read_packages(path: &Path) -> Result<BTreeMap<String, Package>> {
 			),
 			homepage: fields.get("Homepage").cloned(),
 			description: fields.get("Description").cloned(),
-			..Package::default()
 		};
 		packages.insert(name.clone(), package);
 	}
@@ -82,12 +79,7 @@ fn read_sources(path: &Path) -> Result<BTreeMap<String, Package>> {
 		};
 		sources.insert(
 			name.clone(),
-			Package {
-				name: name.clone(),
-				homepage: fields.get("Homepage").cloned(),
-				repository: fields.get("Vcs-Git").cloned().or_else(|| fields.get("Vcs-Browser").cloned()),
-				..Package::default()
-			},
+			Package { name: name.clone(), homepage: fields.get("Homepage").cloned(), ..Package::default() },
 		);
 	}
 	Ok(sources)
@@ -162,7 +154,12 @@ fn public_executable(path: &str) -> Option<&str> {
 
 #[cfg(test)]
 mod tests {
-	use super::public_executable;
+	use std::fs;
+
+	use tempfile::tempdir;
+
+	use super::{import, public_executable};
+	use crate::model::read_candidates;
 
 	#[test]
 	fn recognizes_only_direct_public_commands() {
@@ -170,5 +167,33 @@ mod tests {
 		assert_eq!(public_executable("/bin/rg"), Some("rg"));
 		assert_eq!(public_executable("usr/lib/ripgrep/rg"), None);
 		assert_eq!(public_executable("usr/bin/helpers/rg"), None);
+	}
+
+	#[test]
+	fn ignores_debian_packaging_repositories() {
+		let root = tempdir().unwrap();
+		let packages = root.path().join("Packages");
+		let sources = root.path().join("Sources");
+		let contents = root.path().join("Contents");
+		let output = root.path().join("debian.jsonl");
+		fs::write(&packages, "Package: ripgrep\nVersion: 1\nSource: rust-ripgrep\n").unwrap();
+		fs::write(
+			&sources,
+			concat!(
+				"Package: rust-ripgrep\n",
+				"Homepage: https://github.com/BurntSushi/ripgrep\n",
+				"Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ripgrep]\n",
+				"Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/src/ripgrep\n",
+			),
+		)
+		.unwrap();
+		fs::write(&contents, "usr/bin/rg utils/ripgrep\n").unwrap();
+
+		import(&packages, &sources, &contents, &output).unwrap();
+		let candidates = read_candidates(&output).unwrap();
+
+		assert_eq!(candidates.len(), 1);
+		assert_eq!(candidates[0].homepage.as_deref(), Some("https://github.com/BurntSushi/ripgrep"));
+		assert_eq!(candidates[0].repository, None);
 	}
 }
