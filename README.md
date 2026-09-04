@@ -81,6 +81,25 @@ Show acquisition and provider record counts with:
 just stats
 ```
 
+## Curation suggestions
+
+Find acquired packages that may belong to a project:
+
+```sh
+cargo run -- suggest-packages \
+	--name ripgrep \
+	--homepage https://burntsushi.net/ripgrep/ \
+	--repository https://github.com/BurntSushi/ripgrep
+```
+
+Find curated or metadata-derived projects that may own a package:
+
+```sh
+cargo run -- suggest-projects --channel debian --package ripgrep
+```
+
+Suggestions are ranked using canonical repository and homepage URLs, package and source-package names, executable names, and existing curation ownership. Each result reports its matching evidence. The commands read only local acquisition and curation data and do not modify curations.
+
 ## Responsibilities
 
 Just recipes handle:

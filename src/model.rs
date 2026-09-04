@@ -5,6 +5,7 @@ use std::path::Path;
 
 use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
+use walkdir::WalkDir;
 
 #[derive(Clone, Debug, Deserialize, Eq, Ord, PartialEq, PartialOrd, Serialize)]
 pub struct Candidate {
@@ -46,6 +47,17 @@ where
 	writer.flush()?;
 
 	Ok(values.len())
+}
+
+pub fn read_candidate_directory(path: &Path) -> Result<Vec<Candidate>> {
+	let mut candidates = Vec::new();
+	for entry in WalkDir::new(path).follow_links(false) {
+		let entry = entry.with_context(|| format!("walk {}", path.display()))?;
+		if entry.file_type().is_file() && entry.path().extension().is_some_and(|value| value == "jsonl") {
+			candidates.extend(read_candidates(entry.path())?);
+		}
+	}
+	Ok(candidates)
 }
 
 pub fn read_candidates(path: &Path) -> Result<Vec<Candidate>> {

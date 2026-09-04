@@ -6,17 +6,17 @@ use anyhow::{Context, Result, bail, ensure};
 use serde::Deserialize;
 use walkdir::WalkDir;
 
-use crate::model::{Candidate, Provider, read_candidates, write_json_lines};
+use crate::model::{Candidate, Provider, read_candidate_directory, write_json_lines};
 
 #[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
-struct Project {
-	id: String,
-	name: String,
+pub(crate) struct Project {
+	pub(crate) id: String,
+	pub(crate) name: String,
 	#[serde(default)]
-	homepage: Option<String>,
+	pub(crate) homepage: Option<String>,
 	#[serde(default)]
-	repository: Option<String>,
+	pub(crate) repository: Option<String>,
 	#[serde(default)]
 	documentation: Option<String>,
 	#[serde(default)]
@@ -130,7 +130,7 @@ fn validate_manifest(root: &Path) -> Result<()> {
 	Ok(())
 }
 
-fn load_projects(path: &Path) -> Result<BTreeMap<String, Project>> {
+pub(crate) fn load_projects(path: &Path) -> Result<BTreeMap<String, Project>> {
 	let mut projects = BTreeMap::new();
 	for path in toml_files(path)? {
 		let project: Project = read_toml(&path)?;
@@ -158,6 +158,21 @@ fn package_owners(projects: &BTreeMap<String, Project>) -> Result<BTreeMap<Packa
 		}
 	}
 	Ok(owners)
+}
+
+pub(crate) fn curated_package_projects(root: &Path, channel: &str, name: &str) -> Result<BTreeSet<String>> {
+	let projects = load_projects(&root.join("projects"))?;
+	let owners = package_owners(&projects)?;
+	let packages = load_package_curations(&root.join("packages"))?;
+	validate_project_references(&packages, &projects)?;
+	let key = (channel.to_owned(), name.to_owned());
+	let mut project_ids = owners.get(&key).cloned().into_iter().collect::<BTreeSet<_>>();
+	if let Some(package) = packages.get(&key) {
+		project_ids.extend(package.attribute.iter().map(|rule| rule.project.clone()));
+		project_ids.extend(package.replace.iter().map(|rule| rule.project.clone()));
+		project_ids.extend(package.add.iter().map(|rule| rule.project.clone()));
+	}
+	Ok(project_ids)
 }
 
 fn load_package_curations(packages_root: &Path) -> Result<BTreeMap<PackageKey, PackageCuration>> {
@@ -188,20 +203,14 @@ fn validate_channel_directory(path: &Path, channel: &str, packages_root: &Path) 
 fn load_candidates(path: &Path) -> Result<Acquisitions> {
 	let mut packages = AcquiredPackages::new();
 	let mut channels = BTreeSet::new();
-	for entry in WalkDir::new(path).follow_links(false) {
-		let entry = entry.with_context(|| format!("walk {}", path.display()))?;
-		if !entry.file_type().is_file() || entry.path().extension().is_none_or(|value| value != "jsonl") {
-			continue;
-		}
-		for candidate in read_candidates(entry.path())? {
-			channels.insert(candidate.channel.clone());
-			let key = (candidate.channel.clone(), candidate.package.clone());
-			packages
-				.entry(key)
-				.or_default()
-				.entry(candidate.executable.clone())
-				.or_insert(candidate);
-		}
+	for candidate in read_candidate_directory(path)? {
+		channels.insert(candidate.channel.clone());
+		let key = (candidate.channel.clone(), candidate.package.clone());
+		packages
+			.entry(key)
+			.or_default()
+			.entry(candidate.executable.clone())
+			.or_insert(candidate);
 	}
 	Ok(Acquisitions { packages, channels })
 }
