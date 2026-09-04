@@ -31,7 +31,7 @@ curations/
 └── packages/
     ├── arch/
     │   └── ripgrep.toml
-    ├── crates-io/
+    ├── crates.io/
     │   ├── helix-term.toml
     │   └── ripgrep.toml
     ├── debian/
@@ -93,7 +93,7 @@ The package identity is the tuple formed by `channel` and `name`. Two files defi
 
 A package whose executable candidates all belong to one project uses a default attribution.
 
-`curations/packages/crates-io/helix-term.toml`:
+`curations/packages/crates.io/helix-term.toml`:
 
 ```toml
 channel = 'crates.io'
@@ -228,7 +228,7 @@ Dataset generation resolves one package curation against one acquired package in
 
 Rule ordering inside a TOML file does not change these semantics.
 
-Packages without an accepted curation do not produce provider records. Curations therefore establish the boundary between acquired candidates and released data.
+Packages without an accepted curation do not produce provider records. Curations therefore establish the boundary between acquired candidates and released data. Package curations for channels outside a generation run's selected acquisition inputs are not resolved; a curated package missing from a selected channel remains an error.
 
 Dataset generation resolves curations against pinned acquisition snapshots. Release provenance identifies those snapshots, the source revision containing the curations and generator, and the applicable schema versions.
 

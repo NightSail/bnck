@@ -229,7 +229,7 @@ Homebrew has two relevant package kinds:
 - Formulae: Build recipes that normally install Unix commands and libraries
 - Casks: macOS application installers that may optionally expose command-line binaries
 
-The authoritative recipe history is the Git history of a tap such as `Homebrew/homebrew-core`. The [Formula API](https://formulae.brew.sh/docs/api/) is a convenient generated view containing names, tap, description, homepage, source URLs and checksums, versions, bottle variants, and often `tap_git_head`. Acquisition should pin the tap commit first, parse that checkout statically, and accept an API response only when all records agree on the intended tap commit.
+The authoritative recipe history is the Git history of a tap such as `Homebrew/homebrew-core`. The [Formula API](https://formulae.brew.sh/docs/api/) is a convenient generated view containing names, tap, description, homepage, source URLs and checksums, versions, bottle variants, executable names, and often `tap_git_head`. Acquisition should pin the tap commit first, parse that checkout statically, and accept an API response only when all records agree on the intended tap commit.
 
 For formulae, use the API and formula source as static inputs. Bottle metadata identifies supported platform and architecture variants, but bottles are not downloaded merely to enumerate their files. Formula files are Ruby programs and must be parsed conservatively without evaluating them.
 
@@ -249,7 +249,7 @@ Use the fully qualified `tap/name` as package identity internally. Short names a
 
 #### Executable extraction
 
-Conservatively parse formula definitions for recognizable DSL actions such as `bin.install`, `sbin.install`, public symlink creation, and explicit destination renames. The installed basename is the command name. Do not infer paths from arbitrary Ruby, `system` build commands, or generic `make install` calls. Formulae whose commands cannot be determined statically remain unknown.
+Use the Formula API's `executables` list when present. Otherwise, conservatively parse formula definitions for recognizable DSL actions such as `bin.install`, `sbin.install`, public symlink creation, and explicit destination renames. The installed basename is the command name. Do not infer paths from arbitrary Ruby, `system` build commands, or generic `make install` calls. Formulae whose commands cannot be determined statically remain unknown.
 
 Bottle archive inspection and `brew install` are deferred. Consequently, platform-specific bottle differences are retained as metadata but do not produce additional executable observations.
 
@@ -363,7 +363,7 @@ A source distribution may declare scripts statically in `pyproject.toml` or `set
 | Debian | Signed release root at a snapshot timestamp | Source stanza and source package | `Contents` | Alternatives and missing file types |
 | Fedora | Set of `repomd.xml` digests | Primary metadata and source RPM name | `filelists` | Multiple repos and scriptlets |
 | Arch Linux | Archive date plus repository digests | Package URL, package base, and `PKGBUILD` | `.files` | Rolling state and missing file types |
-| Homebrew | Tap commit plus API response digests | Formula/cask metadata | Static formula and cask declarations | Arbitrary Ruby and implicit install paths |
+| Homebrew | Tap commit plus API response digests | Formula/cask metadata | API executable lists and static declarations | Arbitrary Ruby and implicit install paths |
 | crates.io | Index commit plus database-dump digest | Database-dump project fields | Database-dump `bin_names` | Missing per-target conditions |
 | npm | Replication sequence plus captured revisions | Version manifest in packument | Normalized `bin` mapping | Unpublishes and lifecycle scripts |
 | PyPI | Journal serial plus captured project pages | Core metadata sidecars | Static wheel entry points and scripts | Dynamic source metadata and wheel variants |
