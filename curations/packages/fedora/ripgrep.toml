@@ -1,0 +1,3 @@
+channel = 'fedora'
+name = 'ripgrep'
+project = 'ripgrep'

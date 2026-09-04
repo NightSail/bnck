@@ -1,0 +1,5 @@
+id = 'black'
+name = 'Black'
+
+homepage = 'https://black.readthedocs.io/'
+repository = 'https://github.com/psf/black'

@@ -1,0 +1,3 @@
+channel = 'debian'
+name = 'ripgrep'
+project = 'ripgrep'

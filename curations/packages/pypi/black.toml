@@ -1,0 +1,3 @@
+channel = 'pypi'
+name = 'black'
+project = 'black'

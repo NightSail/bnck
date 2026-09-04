@@ -1,0 +1,3 @@
+channel = 'homebrew'
+name = 'homebrew/core/ripgrep'
+project = 'ripgrep'

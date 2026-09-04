@@ -1,0 +1,5 @@
+id = 'ripgrep'
+name = 'ripgrep'
+
+homepage = 'https://burntsushi.net/ripgrep/'
+repository = 'https://github.com/BurntSushi/ripgrep'

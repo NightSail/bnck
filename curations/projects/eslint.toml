@@ -1,0 +1,5 @@
+id = 'eslint'
+name = 'ESLint'
+
+homepage = 'https://eslint.org/'
+repository = 'https://github.com/eslint/eslint'
