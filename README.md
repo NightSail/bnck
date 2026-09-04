@@ -81,6 +81,26 @@ Show acquisition and provider record counts with:
 just stats
 ```
 
+## SQLite artifact
+
+Generate the compressed SQLite consumer artifact from the canonical provider JSON Lines file:
+
+```sh
+just generate-sqlite 2026-04-16.1
+```
+
+This writes `var/bnck.sqlite.zst`. The command validates the canonical JSON Lines encoding, ordering, and uniqueness before building the database. It records the SHA-256 of the uncompressed JSON Lines content, provider count, release identifier, generation time, generator version, and Git revision in the SQLite metadata table.
+
+The artifact supports the queries documented in [`docs/release-format.md`](docs/release-format.md). Decompress it before opening it with SQLite:
+
+```sh
+zstd -d var/bnck.sqlite.zst -o var/bnck.sqlite
+sqlite3 var/bnck.sqlite \
+	"SELECT project, channel, package FROM providers WHERE executable = 'rg' ORDER BY project, channel, package;"
+```
+
+The SQLite command only builds the consumer artifact. It does not yet assemble the complete signed release directory described in the release-format document.
+
 ## Curation suggestions
 
 Find acquired packages that may belong to a project:

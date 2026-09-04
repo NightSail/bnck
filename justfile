@@ -31,6 +31,16 @@ generate acquisitions='var/acquired' output='var/providers.jsonl': build
     	--curations curations \
     	--output '{{ output }}'
 
+generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst': build
+    generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
+    	revision="$(git rev-parse HEAD)"; \
+    	./target/debug/bnck generate-sqlite \
+    		--input '{{ input }}' \
+    		--output '{{ output }}' \
+    		--dataset-release '{{ dataset_release }}' \
+    		--generated-at "$generated_at" \
+    		--generator-revision "$revision"
+
 fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 
 import-distros: import-debian import-fedora import-arch import-homebrew
