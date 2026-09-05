@@ -1,12 +1,18 @@
 {% extends 'base.html' %}
 {% from 'components.html' import search_form, snapshot_note, count_label with context %}
+{% macro highlighted_name(name) -%}
+	{%- for part in name | highlight_parts(page.query) -%}
+		{% if part.is_match %}<mark>{{ part.text }}</mark>{% else %}{{ part.text }}{% endif %}
+	{%- endfor -%}
+{%- endmacro %}
+
 {% macro related_rows(result, related) %}
 	<ul class='related-rows' role='list'>
 		{% for relation in related %}
 		<li>
 			<a class='related-name'
 				href='/projects/{{ result.name | path_segment }}#executable-{{ relation.name | path_segment }}'>
-				<code>{{ relation.name }}(1)</code></a>:
+				<code>{{ highlighted_name(relation.name) }}(1)</code></a>:
 			{% for channel in relation.channels %}
 			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
 			{% endfor %}
@@ -44,7 +50,7 @@
 					<header class='name-result-heading'>
 						<h3 id='result-{{ loop.index }}'>
 							<a href='/projects/{{ result.name | path_segment }}'>
-								<code>{{ result.name }}</code></a>
+								<code>{{ highlighted_name(result.name) }}</code></a>
 						</h3>
 					</header>
 					{{ related_rows(result, result.related[:page.related_name_limit]) }}

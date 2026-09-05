@@ -13,7 +13,7 @@ Public copy uses short, descriptive headings and instructions. It explains looku
 ## Views
 
 - Home: Search entry point, an example lookup, dataset counts, and browse links
-- Search: Executable names and project IDs grouped by owning project, with executable links, per-executable channels, and pagination
+- Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
 - Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, and generation date
@@ -37,6 +37,8 @@ Search folds ASCII letter case, but does not normalize Unicode or interpret wild
 Search returns one group per owning project, whether the query matches its ID or one of its executable names. Ownership comes from accepted provider records, never a shared prefix or an inferred main executable. Independently owned ecosystem tools remain separate projects. A command provided by multiple projects appears under each matching owner, with executable links opening the corresponding section on that owner's project page.
 
 Results use a minimal grouped layout without column headers, type labels, arrows, relationship prefixes, or channel counts. Each group shows an underlined project heading linking to project details, followed by executable rows. Each row has an underlined `name(1)` link followed by the distinct channels for that project/executable pair. Executable links open the executable's section on the owning project's page.
+
+Matching substrings in project and executable names are highlighted with semantic `mark` elements, preserving original spelling and HTML escaping. Highlighting uses the same literal, ASCII-case-insensitive matching as search, including repeated occurrences. Empty queries do not produce highlights.
 
 Each group previews up to three executable rows. Additional rows use the same format inside a native “N more executables” disclosure that works without JavaScript. Executables are ordered by match quality and then length and spelling, with nonmatches last; exact executable matches remain in the preview even for large projects. Empty-name browsing orders executable rows by exact name.
 

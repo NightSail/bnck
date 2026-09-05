@@ -522,6 +522,11 @@ thead th {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
+.name-result mark {
+	background: var(--green-surface);
+	color: inherit;
+	font-weight: 700;
+}
 .name-results {
 	list-style: none;
 	margin: 0;

@@ -709,6 +709,8 @@ fn render_page(database: &Database, template_name: &str, title: &str, page: Valu
 fn template_environment() -> Result<Environment<'static>> {
 	let mut environment = Environment::new();
 	environment.add_filter("number", format_number);
+	environment
+		.add_filter("highlight_parts", |name: &str, query: &str| Value::from_serialize(highlight_parts(name, query)));
 	environment.add_filter("path_segment", encode_path_segment);
 	environment.add_filter("channel_label", |channel: &str| channel_label(channel).to_owned());
 
@@ -763,6 +765,34 @@ fn html_response(status: StatusCode, body: String) -> Response {
 		body,
 	)
 		.into_response()
+}
+
+#[derive(Serialize)]
+struct HighlightPart<'a> {
+	text: &'a str,
+	is_match: bool,
+}
+
+fn highlight_parts<'a>(name: &'a str, query: &str) -> Vec<HighlightPart<'a>> {
+	if query.is_empty() {
+		return vec![HighlightPart { text: name, is_match: false }];
+	}
+	/* ASCII folding matches SQLite's lower() and preserves UTF-8 byte offsets. */
+	let folded_name = name.to_ascii_lowercase();
+	let folded_query = query.to_ascii_lowercase();
+	let mut parts = Vec::new();
+	let mut offset = 0;
+	for (start, matched) in folded_name.match_indices(&folded_query) {
+		if start > offset {
+			parts.push(HighlightPart { text: &name[offset..start], is_match: false });
+		}
+		offset = start + matched.len();
+		parts.push(HighlightPart { text: &name[start..offset], is_match: true });
+	}
+	if offset < name.len() {
+		parts.push(HighlightPart { text: &name[offset..], is_match: false });
+	}
+	parts
 }
 
 fn encode_path_segment(value: &str) -> String {

@@ -529,8 +529,8 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	let database = fixture(SHARED_RECORDS.iter().copied().map(provider));
 	let html = response_text(search_page(&database, search_query("eslint"))).await;
 	assert_eq!(html.matches("class='name-result'").count(), 1);
-	assert_eq!(html.matches("<code>eslint</code>").count(), 1);
-	assert_eq!(html.matches("<code>eslint(1)</code>").count(), 1);
+	assert_eq!(html.matches("<code><mark>eslint</mark></code>").count(), 1);
+	assert_eq!(html.matches("<code><mark>eslint</mark>(1)</code>").count(), 1);
 	assert!(!html.contains("Project:"));
 	assert!(!html.contains("class='result-summary'"));
 	assert!(!html.contains("3 channels"));
@@ -538,7 +538,10 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	assert_executable_row(&html, "eslint", "eslint", "Debian, Homebrew, npm");
 	assert_eq!(html.matches("href='/projects/eslint'").count(), 1);
 	let normalized = html.split_whitespace().collect::<Vec<_>>().join(" ");
-	assert!(normalized.contains("<h3 id='result-1'> <a href='/projects/eslint'> <code>eslint</code></a> </h3>"));
+	assert!(normalized.contains(concat!(
+		"<h3 id='result-1'> <a href='/projects/eslint'> ",
+		"<code><mark>eslint</mark></code></a> </h3>"
+	)));
 	assert!(!html.contains("Project details"));
 	assert!(html.contains("1 matching project"));
 	assert!(!html.contains("class='results-table'"));
@@ -563,7 +566,7 @@ async fn project_groups_include_nonprefixed_executables_and_use_project_counts()
 		assert_eq!(group.related[1].channels.len(), channels);
 		let html = response_text(search_page(&database, search)).await;
 		assert_eq!(html.matches("class='name-result'").count(), 1);
-		assert_eq!(html.matches("<code>aerc</code>").count(), 1);
+		assert_eq!(html.matches("<code><mark>aerc</mark></code>").count(), 1);
 		assert_executable_row(&html, "aerc", "aerc", "Debian");
 		assert_executable_row(
 			&html,
@@ -609,6 +612,71 @@ async fn grouped_executable_links_escape_names_and_encode_paths() {
 	assert!(html.contains("id='executable-&lt;tool&gt;&amp;&#x27;'"));
 }
 
+#[test]
+fn highlighting_preserves_spelling_and_matches_search_case_rules() {
+	for (name, query, expected) in [
+		("tool-tool", "TOOL", "[tool]-[tool]"),
+		("tool", "tool", "[tool]"),
+		("tool", "oo", "t[oo]l"),
+		("tool", "", "tool"),
+		("tool", "other", "tool"),
+		("", "tool", ""),
+		("éTool", "tO", "é[To]ol"),
+		("éTool", "é", "[é]Tool"),
+		("éTool", "É", "éTool"),
+		("tool%_.", "%_.", "tool[%_.]"),
+		("tool", ".*", "tool"),
+	] {
+		let parts = super::highlight_parts(name, query);
+		assert_eq!(parts.iter().map(|part| part.text).collect::<String>(), name);
+		let highlighted: String = parts
+			.iter()
+			.map(|part| if part.is_match { format!("[{}]", part.text) } else { part.text.to_owned() })
+			.collect();
+		assert_eq!(highlighted, expected);
+	}
+}
+
+#[tokio::test]
+async fn search_highlights_matches_in_project_and_executable_names() {
+	let database = fixture(
+		[("tool-tool", "Tool-helper-tool", "npm", "tools"), ("tool-tool", "helper", "npm", "tools")]
+			.into_iter()
+			.map(provider),
+	);
+	let html = response_text(search_page(&database, search_query("  TOOL  "))).await;
+	assert!(html.contains("<code><mark>tool</mark>-<mark>tool</mark></code>"));
+	assert!(html.contains("<code><mark>Tool</mark>-helper-<mark>tool</mark>(1)</code>"));
+	assert!(html.contains("<code>helper(1)</code>"));
+	assert_eq!(html.matches("<mark>").count(), 4);
+	assert_executable_row(&html, "tool-tool", "Tool-helper-tool", "npm");
+	for query in ["", "  "] {
+		let html = response_text(search_page(&database, search_query(query))).await;
+		assert!(!html.contains("<mark>"));
+		assert!(html.contains("<code>tool-tool</code>"));
+		assert!(html.contains("<code>Tool-helper-tool(1)</code>"));
+	}
+}
+
+#[tokio::test]
+async fn highlighted_names_remain_escaped_and_detail_links_remain_encoded() {
+	let executable = "<tool>&'";
+	let database = fixture([provider(("owner", executable, "debian", "tools"))]);
+	for (query, expected) in [
+		("", "&lt;tool&gt;&amp;&#x27;"),
+		("<tool>", "<mark>&lt;tool&gt;</mark>&amp;&#x27;"),
+		("tool", "&lt;<mark>tool</mark>&gt;&amp;&#x27;"),
+		("&'", "&lt;tool&gt;<mark>&amp;&#x27;</mark>"),
+	] {
+		let html = response_text(search_page(&database, search_query(query))).await;
+		assert!(html.contains("<code>owner</code>"));
+		assert!(html.contains(&format!("<code>{expected}(1)</code>")));
+		assert!(!html.contains(executable));
+		assert!(html.contains("href='/projects/owner'"));
+		assert_executable_row(&html, "owner", executable, "Debian");
+	}
+}
+
 #[tokio::test]
 async fn executable_rows_link_to_distinct_project_sections() {
 	let names = ["tool", "Tool", "tool%_", "tool#part", "étool"];
@@ -638,10 +706,13 @@ async fn grouped_lists_expand_without_javascript_and_keep_exact_matches_visible(
 			assert_eq!(preview.matches("class='related-name'").count(), 3);
 			assert!(expanded.contains("1 more executable"));
 			assert_executable_row(expanded, "tools", "command-3", "npm");
+			let html = response_text(search_page(&database, search_query("command"))).await;
+			let expanded = html.split_once("<details class='more-related'>").unwrap().1;
+			assert!(expanded.contains("<mark>command</mark>-3"));
 			let html = response_text(search_page(&database, search_query("command-3"))).await;
 			let preview = html.split_once("<details class='more-related'>").unwrap().0;
 			assert_executable_row(preview, "tools", "command-3", "npm");
-			assert!(preview.contains("<code>command-3(1)</code>"));
+			assert!(preview.contains("<mark>command-3</mark>"));
 		}
 	}
 }

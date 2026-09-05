@@ -122,7 +122,7 @@ Start the local search and browsing interface with the generated SQLite artifact
 just serve
 ```
 
-The site listens on `http://127.0.0.1:3000` by default. Search executable names and canonical project IDs, or leave the name empty to browse. Results group executables by owning project, with matching commands first, expandable executable lists, and channels for each executable. A distribution-channel filter narrows the results. Paginated results link to exact-name detail pages showing every accepted channel and package relation. All navigation works without JavaScript.
+The site listens on `http://127.0.0.1:3000` by default. Search executable names and canonical project IDs, or leave the name empty to browse. Results group executables by owning project, with matching commands first, expandable executable lists, and channels for each executable. Matching text is highlighted in project and executable names. A distribution-channel filter narrows the results. Paginated results link to exact-name detail pages showing every accepted channel and package relation. All navigation works without JavaScript.
 
 The dataset page at `/about` defines result fields, explains coverage limits, and lists channel counts and the release date. The [website design](docs/website.md) documents the views and search contract.
 
