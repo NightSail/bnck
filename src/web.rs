@@ -683,14 +683,7 @@ fn project_page(database: &Database, project: &str) -> Response {
 		Ok(providers) => match database.project_links(project) {
 			Ok(links) => {
 				let matrix = build_project_matrix(providers);
-				let executable_count = matrix.executables.len() as u64;
-				render_response(
-					database,
-					StatusCode::OK,
-					"project.html",
-					project,
-					context! { project, links, matrix, executable_count },
-				)
+				render_response(database, StatusCode::OK, "project.html", project, context! { project, links, matrix })
 			},
 			Err(error) => database_error(database, error),
 		},
@@ -990,7 +983,6 @@ mod tests {
 		assert_eq!(links[1].link_type, "repository");
 		assert_eq!(links[1].url, "https://github.com/helix-editor/helix");
 		let matrix = build_project_matrix(project_providers);
-		let executable_count = matrix.executables.len() as u64;
 		let project = render_page(
 			&database,
 			"project.html",
@@ -999,7 +991,6 @@ mod tests {
 				project => "helix",
 				links,
 				matrix,
-				executable_count,
 			},
 		)
 		.unwrap();

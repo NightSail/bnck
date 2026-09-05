@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
-{% from 'components.html' import package_link, snapshot_note, count_label with context %}
+{% from 'components.html' import package_link, snapshot_note with context %}
 {% block content %}
 <section class='page-heading detail-heading'>
 	<a class='back-link' href='/?q=&kind=project'>← Projects</a>
 	<p class='eyebrow'>Project</p>
 	<h1><code>{{ page.project }}</code></h1>
-	<p class='lead'>{{ count_label(page.executable_count, 'executable', 'executables') }}.</p>
 	{% if page.links %}
 	<ul class='project-links'>
 		{% for link in page.links %}

@@ -503,7 +503,7 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 	assert!(html.contains("Observed in this package."));
 	assert!(html.contains("Not observed in this dataset."));
 	assert!(html.contains("An unlisted command may still be available."));
-	assert!(html.contains("3 executables."));
+	assert!(!html.contains("3 executables."));
 	assert!(!html.contains("provider record"));
 	for url in [
 		"https:&#x2f;&#x2f;archlinux.org&#x2f;packages&#x2f;?q=tools",
@@ -553,7 +553,7 @@ async fn project_matrix_escapes_names_and_preserves_encoded_executable_links() {
 	assert!(html.contains("%40scope&#x2f;%3Cpackage%3E%26%27"));
 	assert!(!html.contains("<tool>"));
 	assert!(!html.contains("<package>"));
-	assert!(html.contains("1 executable."));
+	assert!(!html.contains("1 executable."));
 	assert!(!html.contains("provider record"));
 }
 
