@@ -630,25 +630,22 @@ thead th {
 	display: inline-block;
 	font-size: 11px;
 }
-.result-actions {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px 24px;
+.executable-reference {
+	display: inline-block;
+	max-width: 100%;
 }
-.identity-summary {
-	display: grid;
-	grid-template-columns: 100px minmax(0, 1fr);
-	gap: 16px;
+.more-executables {
+	margin-bottom: 12px;
+	font-size: 13px;
 }
-.identity-summary + .identity-summary {
-	margin-top: 16px;
-	padding-top: 16px;
-	border-top: 1px solid var(--line);
-}
-.identity-summary h4 {
-	margin: 0;
+.more-executables summary {
+	width: fit-content;
+	max-width: 100%;
 	color: var(--muted);
-	font: 11px/1.8 var(--mono);
+	cursor: pointer;
+}
+.more-executables[open] summary {
+	margin-bottom: 8px;
 }
 .related-name {
 	color: var(--green);
@@ -1222,10 +1219,6 @@ thead th {
 	}
 	.name-result {
 		padding: 18px 14px;
-	}
-	.identity-summary {
-		grid-template-columns: minmax(0, 1fr);
-		gap: 5px;
 	}
 	.pagination a {
 		padding: 8px;

@@ -13,7 +13,7 @@ Public copy uses short, descriptive headings and instructions. It explains looku
 ## Views
 
 - Home: Search entry point, an example record, dataset counts, and browse links
-- Search: Executable names and project IDs grouped by exact name, with explicit identity views, exact-match labels, relationship summaries, and pagination
+- Search: Executable names and project IDs grouped by owning project, with executable links, exact-match labels, relationship summaries, and pagination; type-specific searches retain flat indexes
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: All exact executable names attributed to the project, their channel packages, and curator-supplied project links
 - Dataset: Field definitions, record counts by channel, coverage limits, release identifier, and generation date
@@ -31,13 +31,15 @@ Search uses GET requests to `/` so results can be bookmarked and shared.
 | `channel` | A supported channel key, or empty for all channels | Empty |
 | `page` | Positive page number | `1` |
 
-Search folds ASCII letter case, but does not normalize Unicode or interpret wildcards. Results are ordered by exact spelling, case-insensitive equality, prefix, then other substring matches. Shorter names rank first within each class, followed by exact name. Empty-name browsing sorts by name.
+Search folds ASCII letter case, but does not normalize Unicode or interpret wildcards. Matches rank by exact spelling, case-insensitive equality, prefix, then other substring matches. Shorter matching names rank first within each class. “All types” ranks each project by its best matching project ID or executable name, breaking ties by project ID. Type-specific searches break ties by exact name. Empty-name browsing sorts by project ID or executable name, depending on the selected type.
 
-Each page contains at most 30 distinct, exact-spelling names. The total counts all matching names, not just the displayed page. Executable and project views of the same name stay together on one page; case variants remain separate results. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
+“All types” returns one group per owning project, whether the query matches its ID or one of its executable names. Ownership comes from accepted provider records, never a shared prefix or an inferred main executable. Independently owned ecosystem tools remain separate projects. A command provided by multiple projects appears under each matching owner, with executable links opening all providers for that exact name.
 
-“All types” groups results by exact name without conflating executable and project identities. A same-name pair receives one “Project with synonymous executable” summary when the executable is provided solely by that project across the full dataset. This summary shows the project's counts once, with separate links to executable providers and project details. Any other executables provided by the project appear on a separate “Other executables” line, excluding the synonymous name. Other name groups show a labelled summary and detail link for each matching identity, with separate counts. Type-specific searches retain single-purpose tables.
+Each project group shows its executable, channel, and provider-record counts once. It previews up to three executable links; additional names are available in a native disclosure that works without JavaScript. Executables are ordered by match quality and then length and spelling, with nonmatches last; browsing orders them by exact name. Exact executable matches are labelled and remain in the preview even for large projects. Project IDs link separately to project details.
 
-Relationship summaries link the actual related names when there are at most three, otherwise they show the relationship count. The same limit applies to the “Other executables” line, counting only the additional executables. A channel filter applies to both matches and their displayed counts and related names. It does not turn a name provided by multiple projects elsewhere in the dataset into a synonymous-project summary. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
+Each page contains at most 30 projects in “All types” and project-only searches, or 30 distinct exact-spelling names in executable-only searches. Totals count the corresponding groups across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
+
+Type-specific searches retain single-purpose tables and match only the selected identity type. Their relationship summaries link the actual related names when there are at most three, otherwise they show the relationship count. A channel filter applies to matches, group membership, counts, and executable lists. Project counts include all of the project's records in the selected channels, not only records for matching executable names. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
 
 Detail routes retain exact, case-sensitive lookup semantics:
 

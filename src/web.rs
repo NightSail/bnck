@@ -27,14 +27,29 @@ const SEARCH_RELATED_NAME_LIMIT: u64 = 3;
 const MAX_QUERY_CHARACTERS: usize = 100;
 
 /* Discovery folds ASCII case; grouping and detail lookups preserve exact identities. */
-const SEARCH_MATCHES: &str = "WITH matches AS (
-	SELECT executable AS name
+const SEARCH_MATCHES: &str = "WITH matching_names AS (
+	SELECT CASE WHEN ?3 = 'all' THEN project ELSE executable END AS name, executable AS matched_name
 	FROM providers
 	WHERE ?3 != 'project' AND instr(lower(executable), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
 	UNION
-	SELECT project AS name
+	SELECT project AS name, project AS matched_name
 	FROM providers
 	WHERE ?3 != 'executable' AND instr(lower(project), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
+), ranked_names AS (
+	SELECT name, matched_name,
+		CASE
+			WHEN matched_name = ?1 THEN 0
+			WHEN lower(matched_name) = lower(?1) THEN 1
+			WHEN instr(lower(matched_name), lower(?1)) = 1 THEN 2
+			ELSE 3
+		END AS match_rank
+	FROM matching_names
+), best_ranks AS (
+	SELECT name, min(match_rank) AS match_rank FROM ranked_names GROUP BY name
+), matches AS (
+	SELECT name, match_rank, min(length(matched_name)) AS match_length
+	FROM ranked_names JOIN best_ranks USING (name, match_rank)
+	GROUP BY name, match_rank
 )";
 
 pub async fn serve(database_path: &Path, address: SocketAddr) -> Result<()> {
@@ -134,16 +149,11 @@ impl Database {
 				.query_row(&format!("{SEARCH_MATCHES} SELECT count(*) FROM matches"), parameters, |row| row.get(0))?;
 		let mut statement = connection.prepare(&format!(
 			"{SEARCH_MATCHES} SELECT name FROM matches
-			 ORDER BY CASE
-				WHEN name = ?1 THEN 0
-				WHEN lower(name) = lower(?1) THEN 1
-				WHEN instr(lower(name), lower(?1)) = 1 THEN 2
-				ELSE 3
-			 END, CASE WHEN ?1 != '' THEN length(name) END, name
+			 ORDER BY match_rank, CASE WHEN ?1 != '' THEN match_length END, name
 			 LIMIT ?4 OFFSET ?5"
 		))?;
 		let offset = u64::from(search.page.saturating_sub(1)) * SEARCH_PAGE_SIZE;
-		/* Page exact names first so the two identity views can never cross a page boundary. */
+		/* Page groups before reading their executable lists so a project never crosses a page boundary. */
 		let names = statement
 			.query_map(params![query, search.channel, search.kind.as_str(), SEARCH_PAGE_SIZE, offset], |row| {
 				row.get::<_, String>(0)
@@ -315,14 +325,8 @@ struct SearchResults {
 #[derive(Serialize)]
 struct SearchResult {
 	name: String,
-	identities: Vec<SearchIdentity>,
-	synonymous_project: Option<SynonymousProjectSummary>,
-}
-
-#[derive(Serialize)]
-struct SynonymousProjectSummary {
-	other_executable_count: u64,
-	other_executables: Vec<String>,
+	identity: SearchIdentity,
+	project_executables: Vec<String>,
 }
 
 #[derive(Clone, Copy, Serialize)]
@@ -351,19 +355,14 @@ struct SearchIdentity {
 }
 
 fn read_search_result(connection: &Connection, name: String, search: &SearchQuery) -> Result<SearchResult> {
-	let kinds: &[IdentityKind] = match search.kind {
-		SearchKind::All => &[IdentityKind::Executable, IdentityKind::Project],
-		SearchKind::Executable => &[IdentityKind::Executable],
-		SearchKind::Project => &[IdentityKind::Project],
+	let kind = match search.kind {
+		SearchKind::All | SearchKind::Project => IdentityKind::Project,
+		SearchKind::Executable => IdentityKind::Executable,
 	};
-	let mut identities = Vec::new();
-	for &kind in kinds {
-		if let Some(identity) = read_search_identity(connection, &name, kind, &search.channel)? {
-			identities.push(identity);
-		}
-	}
-	let synonymous_project = read_synonymous_project_summary(connection, &name, &identities, &search.channel)?;
-	Ok(SearchResult { name, identities, synonymous_project })
+	let identity = read_search_identity(connection, &name, kind, &search.channel)?;
+	let project_executables =
+		if search.kind == SearchKind::All { read_search_executables(connection, &name, search)? } else { Vec::new() };
+	Ok(SearchResult { name, identity, project_executables })
 }
 
 fn read_search_identity(
@@ -371,7 +370,7 @@ fn read_search_identity(
 	name: &str,
 	kind: IdentityKind,
 	channel: &str,
-) -> Result<Option<SearchIdentity>> {
+) -> Result<SearchIdentity> {
 	/* Column names come only from the identity enum; dataset and search values remain bound parameters. */
 	let (column, related_column) = kind.columns();
 	let predicate = format!("FROM providers WHERE {column} = ?1 AND (?2 = '' OR channel = ?2)");
@@ -387,9 +386,6 @@ fn read_search_identity(
 			related_names: Vec::new(),
 		})
 	})?;
-	if identity.provider_count == 0 {
-		return Ok(None);
-	}
 	if identity.related_count <= SEARCH_RELATED_NAME_LIMIT {
 		let mut statement = connection
 			.prepare_cached(&format!("SELECT DISTINCT {related_column} {predicate} ORDER BY {related_column}"))?;
@@ -397,41 +393,25 @@ fn read_search_identity(
 			.query_map(params![name, channel], |row| row.get(0))?
 			.collect::<rusqlite::Result<_>>()?;
 	}
-	Ok(Some(identity))
+	Ok(identity)
 }
 
-fn read_synonymous_project_summary(
-	connection: &Connection,
-	name: &str,
-	identities: &[SearchIdentity],
-	channel: &str,
-) -> Result<Option<SynonymousProjectSummary>> {
-	let [executable, project] = identities else {
-		return Ok(None);
-	};
-	if executable.related_names != [name] {
-		return Ok(None);
-	}
-	/* Extra executables are allowed, but a channel filter must not hide competing projects for this name. */
-	let mut statement =
-		connection.prepare_cached("SELECT EXISTS(SELECT 1 FROM providers WHERE executable = ?1 AND project != ?1)")?;
-	let has_other_projects: bool = statement.query_row([name], |row| row.get(0))?;
-	if has_other_projects {
-		return Ok(None);
-	}
-	let other_executable_count = project.related_count - 1;
-	let mut other_executables = Vec::new();
-	if (1..=SEARCH_RELATED_NAME_LIMIT).contains(&other_executable_count) {
-		let mut statement = connection.prepare_cached(
-			"SELECT DISTINCT executable FROM providers
-			 WHERE project = ?1 AND executable != ?1 AND (?2 = '' OR channel = ?2)
-			 ORDER BY executable",
-		)?;
-		other_executables = statement
-			.query_map(params![name, channel], |row| row.get(0))?
-			.collect::<rusqlite::Result<_>>()?;
-	}
-	Ok(Some(SynonymousProjectSummary { other_executable_count, other_executables }))
+fn read_search_executables(connection: &Connection, project: &str, search: &SearchQuery) -> Result<Vec<String>> {
+	/* Keep exact and partial command matches in the preview, even for projects with many executables. */
+	let mut statement = connection.prepare_cached(
+		"SELECT DISTINCT executable FROM providers
+		 WHERE project = ?1 AND (?2 = '' OR channel = ?2)
+		 ORDER BY CASE
+			WHEN executable = ?3 THEN 0
+			WHEN lower(executable) = lower(?3) THEN 1
+			WHEN instr(lower(executable), lower(?3)) = 1 THEN 2
+			WHEN instr(lower(executable), lower(?3)) > 0 THEN 3
+			ELSE 4
+		 END, CASE WHEN ?3 != '' THEN length(executable) END, executable",
+	)?;
+	Ok(statement
+		.query_map(params![project, search.channel, search.query()], |row| row.get(0))?
+		.collect::<rusqlite::Result<_>>()?)
 }
 
 struct ProjectProvider {
@@ -647,7 +627,10 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			StatusCode::OK,
 			"search.html",
 			&if query.is_empty() { "Browse".to_owned() } else { format!("Search: {query}") },
-			context! { query, results, kind => search.kind, channel => search.channel },
+			context! {
+				query, results, kind => search.kind, channel => search.channel,
+				related_name_limit => SEARCH_RELATED_NAME_LIMIT,
+			},
 		),
 		Err(error) => database_error(database, error),
 	}
@@ -950,7 +933,7 @@ mod tests {
 		let database = Database::open(&artifact).unwrap();
 		assert_eq!(database.stats.providers, 3);
 		assert_eq!(database.stats.projects, 2);
-		assert_eq!(database.search(&search_query("HX")).unwrap().rows[0].name, "hx");
+		assert_eq!(database.search(&search_query("HX")).unwrap().rows[0].name, "helix");
 		assert_eq!(database.project_providers("helix").unwrap().len(), 2);
 		assert_eq!(database.executable_providers("rg").unwrap()[0].project, "ripgrep");
 		assert!(database.connection().unwrap().execute("DELETE FROM providers", []).is_err());
