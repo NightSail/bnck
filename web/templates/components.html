@@ -40,7 +40,6 @@
 	<div><dt>Executable names</dt><dd>{{ stats.executables | number }}</dd></div>
 	<div><dt>Projects</dt><dd>{{ stats.projects | number }}</dd></div>
 	<div><dt>Channels</dt><dd>{{ stats.channels | number }}</dd></div>
-	<div><dt>Provider records</dt><dd>{{ stats.providers | number }}</dd></div>
 </dl>
 {% endmacro %}
 
@@ -92,7 +91,7 @@
 {% macro snapshot_note() %}
 <section class='side-note'>
 	<h2>Coverage</h2>
-	<p>A missing record does not mean a command is unavailable.</p>
+	<p>An unlisted command may still be available.</p>
 	<a class='text-link' href='/about#coverage'>Dataset limits <span aria-hidden='true'>→</span></a>
 </section>
 {% endmacro %}

@@ -15,7 +15,6 @@
 	<div class='dataset-body'>
 		<section id='model'>
 			<h2>Fields</h2>
-			<p>A provider record lists a project, executable, distribution channel, and package.</p>
 			<dl class='definitions'>
 				<div><dt>Executable</dt><dd>Command name, preserving spelling and case.</dd></div>
 				<div><dt>Project</dt><dd>Software project ID used for lookup.</dd></div>
@@ -25,14 +24,14 @@
 		</section>
 		<section id='coverage'>
 			<h2>Coverage</h2>
-			<p>Only records in this release are shown. An unlisted command or package may still be available.</p>
-			<p>Records do not specify package versions or platform support.</p>
+			<p>An unlisted command or package may still be available.</p>
+			<p>This dataset does not specify package versions or platform support.</p>
 			<table class='coverage-table'>
-				<caption>Records by channel</caption>
+				<caption>Projects and packages by channel</caption>
 				<thead>
 					<tr>
 						<th scope='col'>Channel</th><th scope='col'>Projects</th>
-						<th scope='col'>Packages</th><th scope='col'>Records</th>
+						<th scope='col'>Packages</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -43,9 +42,8 @@
 						</th>
 						<td>{{ channel.projects | number }}</td>
 						<td>{{ channel.packages | number }}</td>
-						<td>{{ channel.providers | number }}</td>
 					</tr>
-					{% else %}<tr><td colspan='4'>No records in this release.</td></tr>{% endfor %}
+					{% else %}<tr><td colspan='3'>No channels listed in this release.</td></tr>{% endfor %}
 				</tbody>
 			</table>
 			<p class='fine-print'>Counts refer to this dataset, not the full contents of each channel.

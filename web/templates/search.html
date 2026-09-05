@@ -35,13 +35,6 @@
 	{% endif %}
 {% endmacro %}
 
-{% macro search_counts(identity) %}
-	{{ count_label(identity.channel_count, 'channel', 'channels') }}
-	<span class='provider-count'>
-		· {{ count_label(identity.provider_count, 'provider record', 'provider records') }}
-	</span>
-{% endmacro %}
-
 {% block content %}
 <section class='page-heading search-heading'>
 	<h1>{% if page.query %}Search results{% else %}Browse{% endif %}</h1>
@@ -64,7 +57,7 @@
 			{% endif %}
 		</div>
 		{% if page.channel %}
-		<p class='filter-notice'>Showing <strong>{{ page.channel | channel_label }}</strong> records.
+		<p class='filter-notice'>Showing matches in <strong>{{ page.channel | channel_label }}</strong>.
 			Open a result for all listed channels.</p>
 		{% endif %}
 		{% if page.results.rows %}
@@ -101,7 +94,7 @@
 				<tr>
 					<th scope='col'>Name</th>
 					<th scope='col'>{{ 'Projects' if page.kind == 'executable' else 'Executables' }}</th>
-					<th scope='col'>Provider records</th>
+					<th scope='col'>Channels</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -118,10 +111,7 @@
 						</span>
 					</th>
 					<td>{{ search_relationship(identity) }}</td>
-					<td>
-						<span>{{ identity.provider_count | number }}</span>
-						<span class='cell-note'>{{ count_label(identity.channel_count, 'channel', 'channels') }}</span>
-					</td>
+					<td>{{ identity.channel_count | number }}</td>
 				</tr>
 				{% endfor %}
 			</tbody>
@@ -153,8 +143,7 @@
 			{% if page.kind == 'all' %}
 			<p>Executables are grouped by owning project. Matching commands appear first;
 				counts cover the project.</p>
-			<p>Shared command names appear under each owner. Open an executable for all providers,
-				or select Executables for a flat name index.</p>
+			<p>Shared command names appear under each owner. Select Executables for a flat name index.</p>
 			{% endif %}
 		</section>
 		{{ snapshot_note() }}

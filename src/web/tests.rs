@@ -155,7 +155,6 @@ fn search_groups_by_owner_and_ranks_each_projects_best_match() {
 	assert_eq!(results.total, 4);
 	let group = &results.rows[0];
 	assert!(matches!(group.identity.kind, super::IdentityKind::Project));
-	assert_eq!(group.identity.provider_count, 2);
 	assert_eq!(group.identity.related_count, 1);
 	assert_eq!(group.identity.channel_count, 2);
 	assert_eq!(executable_names(group), ["hx"]);
@@ -179,7 +178,6 @@ fn executable_only_search_retains_flat_names_ranking_and_all_owners() {
 	assert_eq!(results.total, 3);
 	let identity = &results.rows[0].identity;
 	assert!(matches!(identity.kind, super::IdentityKind::Executable));
-	assert_eq!(identity.provider_count, 3);
 	assert_eq!(identity.related_count, 2);
 	assert_eq!(identity.channel_count, 3);
 	assert_eq!(identity.related_names, ["helix", "other"]);
@@ -195,7 +193,6 @@ fn channel_and_kind_filters_count_only_matching_relations() {
 	assert_eq!(results.total, 1);
 	assert!(results.rows[0].project_executables.is_empty());
 	let identity = &results.rows[0].identity;
-	assert_eq!(identity.provider_count, 1);
 	assert_eq!(identity.related_count, 1);
 	assert_eq!(identity.channel_count, 1);
 	assert_eq!(identity.related_names, ["other"]);
@@ -220,12 +217,11 @@ fn channel_and_kind_filters_count_only_matching_relations() {
 fn project_summaries_keep_counts_filtered_without_double_counting() {
 	let database = fixture(SHARED_RECORDS.iter().copied().map(provider));
 	let mut search = search_query("eslint");
-	for (channel, providers, channels) in [("", 4, 3), ("npm", 2, 1)] {
+	for (channel, channels) in [("", 3), ("npm", 1)] {
 		search.channel = channel.to_owned();
 		let results = database.search(&search).unwrap();
 		assert_eq!((results.total, results.start, results.end), (1, 1, 1));
 		let group = &results.rows[0];
-		assert_eq!(group.identity.provider_count, providers);
 		assert_eq!(group.identity.channel_count, channels);
 		assert_eq!(group.identity.related_count, 1);
 		assert_eq!(executable_names(group), ["eslint"]);
@@ -248,7 +244,6 @@ fn channel_filters_apply_to_project_matches_counts_and_executables() {
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 1);
 	assert_eq!(executable_names(&results.rows[0]), ["eslint"]);
-	assert_eq!(results.rows[0].identity.provider_count, 2);
 	search.q = Some("eslint-helper".to_owned());
 	assert_eq!(database.search(&search).unwrap().total, 0);
 	assert_eq!(database.executable_providers("eslint").unwrap().len(), 5);
@@ -423,7 +418,7 @@ fn pagination_encodes_query_parameters_and_handles_empty_data() {
 		minijinja::context! { stats => database.stats, channels => database.channels, example => database.example },
 	)
 	.unwrap();
-	assert!(html.contains("No records in this release."));
+	assert!(html.contains("No executables listed in this release."));
 }
 
 #[tokio::test]
@@ -505,10 +500,11 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 	assert!(html.contains("scope='col' rowspan='2'>Executable</th>"));
 	assert!(html.contains("role='region' aria-labelledby='providers-title' tabindex='0'"));
 	assert!(html.contains("aria-describedby='matrix-legend'"));
-	assert!(html.contains("No record in this dataset."));
-	assert!(html.contains("A missing record does not mean a command is unavailable."));
+	assert!(html.contains("Observed in this package."));
+	assert!(html.contains("Not observed in this dataset."));
+	assert!(html.contains("An unlisted command may still be available."));
 	assert!(html.contains("3 executables."));
-	assert!(html.contains("7 provider records."));
+	assert!(!html.contains("provider record"));
 	for url in [
 		"https:&#x2f;&#x2f;archlinux.org&#x2f;packages&#x2f;?q=tools",
 		"https:&#x2f;&#x2f;packages.debian.org&#x2f;tools",
@@ -529,7 +525,7 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 		assert_eq!(cells.len(), observed.len());
 		for (cell, is_observed) in cells.iter().zip(observed) {
 			assert_eq!(cell.contains("class='visually-hidden'>Observed</span>"), *is_observed);
-			assert_eq!(cell.contains("class='visually-hidden'>No record</span>"), !is_observed);
+			assert_eq!(cell.contains("class='visually-hidden'>Not observed</span>"), !is_observed);
 		}
 	}
 }
@@ -541,7 +537,7 @@ async fn project_matrix_shows_shared_package_once_and_excludes_other_projects() 
 	assert_eq!(html.matches("class='matrix-package'").count(), 1);
 	assert_eq!(html.matches("scope='row'").count(), 4);
 	assert_eq!(html.matches("class='visually-hidden'>Observed</span>").count(), 4);
-	assert!(!html.contains("class='visually-hidden'>No record</span>"));
+	assert!(!html.contains("class='visually-hidden'>Not observed</span>"));
 	assert!(!html.contains("age-plugin-yubikey"));
 	assert_eq!(html.matches("href='https:&#x2f;&#x2f;packages.debian.org&#x2f;age'").count(), 1);
 }
@@ -558,7 +554,7 @@ async fn project_matrix_escapes_names_and_preserves_encoded_executable_links() {
 	assert!(!html.contains("<tool>"));
 	assert!(!html.contains("<package>"));
 	assert!(html.contains("1 executable."));
-	assert!(html.contains("1 provider record."));
+	assert!(!html.contains("provider record"));
 }
 
 #[tokio::test]
@@ -593,14 +589,13 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 #[tokio::test]
 async fn project_groups_include_nonprefixed_executables_and_use_project_counts() {
 	let database = fixture(AERC_RECORDS.iter().copied().map(provider));
-	for (channel, providers, channels) in [("", 3, 2), ("debian", 2, 1)] {
+	for (channel, channels) in [("", 2), ("debian", 1)] {
 		let mut search = search_query("aerc");
 		search.channel = channel.to_owned();
 		let results = database.search(&search).unwrap();
 		assert_eq!(results.total, 1);
 		let group = &results.rows[0];
 		assert_eq!(executable_names(group), ["aerc", "carddav-query"]);
-		assert_eq!(group.identity.provider_count, providers);
 		assert_eq!(group.identity.channel_count, channels);
 		let html = response_text(search_page(&database, search)).await;
 		assert_eq!(html.matches("class='name-result'").count(), 1);
@@ -726,6 +721,46 @@ async fn type_specific_relationship_summaries_link_small_sets_and_count_large_se
 			assert!(identity.related_names.is_empty());
 			assert!(!html.contains("class='related-name'"));
 			assert!(html.contains("4 executables"));
+		}
+	}
+}
+
+#[tokio::test]
+async fn web_pages_hide_provider_record_details() {
+	for database in [Arc::new(sample_database()), Arc::new(fixture([]))] {
+		let mut pages = vec![
+			search_page(&database, SearchQuery { q: None, ..search_query("") }),
+			project_page(&database, "helix"),
+			executable_page(&database, "hx"),
+			about(State(database.clone())).await,
+		];
+		for kind in [SearchKind::All, SearchKind::Executable, SearchKind::Project] {
+			for channel in ["", "debian"] {
+				let search = SearchQuery { kind, channel: channel.to_owned(), ..search_query("") };
+				pages.push(search_page(&database, search));
+			}
+		}
+		for response in pages {
+			let html = response_text(response).await;
+			assert!(!html.to_ascii_lowercase().contains("provider record"));
+			assert!(!html.contains("provider_count"));
+			assert!(!html.contains("<th scope='col'>Records</th>"));
+		}
+	}
+}
+
+#[tokio::test]
+async fn type_specific_searches_show_channel_counts_without_record_counts() {
+	let database = sample_database();
+	for (kind, query, count) in [(SearchKind::Executable, "hx", 3), (SearchKind::Project, "helix", 2)] {
+		for (channel, expected) in [("", count), ("debian", 1)] {
+			let search = SearchQuery { kind, channel: channel.to_owned(), ..search_query(query) };
+			let html = response_text(search_page(&database, search)).await;
+			assert!(html.contains("<th scope='col'>Channels</th>"));
+			let row = html.split_once("<tbody>").unwrap().1.split_once("</tr>").unwrap().0;
+			let cells: Vec<_> = row.split("<td>").skip(1).collect();
+			assert_eq!(cells.len(), 2);
+			assert_eq!(cells[1].split_once("</td>").unwrap().0, expected.to_string());
 		}
 	}
 }

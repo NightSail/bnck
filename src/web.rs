@@ -273,12 +273,11 @@ fn read_stats(connection: &Connection) -> Result<DatasetStats> {
 
 fn read_channel_stats(connection: &Connection) -> Result<Vec<ChannelStats>> {
 	let mut statement = connection.prepare(
-		"SELECT channel, count(*), count(DISTINCT project), count(DISTINCT package)
+		"SELECT channel, count(DISTINCT project), count(DISTINCT package)
 		 FROM providers GROUP BY channel ORDER BY channel",
 	)?;
-	let rows = statement.query_map([], |row| {
-		Ok(ChannelStats { name: row.get(0)?, providers: row.get(1)?, projects: row.get(2)?, packages: row.get(3)? })
-	})?;
+	let rows = statement
+		.query_map([], |row| Ok(ChannelStats { name: row.get(0)?, projects: row.get(1)?, packages: row.get(2)? }))?;
 	Ok(rows.collect::<rusqlite::Result<_>>()?)
 }
 
@@ -298,6 +297,7 @@ fn read_example(connection: &Connection) -> Result<Option<Provider>> {
 
 #[derive(Clone, Copy, Serialize)]
 struct DatasetStats {
+	#[serde(skip_serializing)]
 	providers: u64,
 	projects: u64,
 	executables: u64,
@@ -307,7 +307,6 @@ struct DatasetStats {
 #[derive(Serialize)]
 struct ChannelStats {
 	name: String,
-	providers: u64,
 	projects: u64,
 	packages: u64,
 }
@@ -354,7 +353,6 @@ impl IdentityKind {
 #[derive(Serialize)]
 struct SearchIdentity {
 	kind: IdentityKind,
-	provider_count: u64,
 	related_count: u64,
 	channel_count: u64,
 	related_names: Vec<String>,
@@ -380,17 +378,10 @@ fn read_search_identity(
 	/* Column names come only from the identity enum; dataset and search values remain bound parameters. */
 	let (column, related_column) = kind.columns();
 	let predicate = format!("FROM providers WHERE {column} = ?1 AND (?2 = '' OR channel = ?2)");
-	let mut statement = connection.prepare_cached(&format!(
-		"SELECT count(*), count(DISTINCT {related_column}), count(DISTINCT channel) {predicate}"
-	))?;
+	let mut statement = connection
+		.prepare_cached(&format!("SELECT count(DISTINCT {related_column}), count(DISTINCT channel) {predicate}"))?;
 	let mut identity = statement.query_row(params![name, channel], |row| {
-		Ok(SearchIdentity {
-			kind,
-			provider_count: row.get(0)?,
-			related_count: row.get(1)?,
-			channel_count: row.get(2)?,
-			related_names: Vec::new(),
-		})
+		Ok(SearchIdentity { kind, related_count: row.get(0)?, channel_count: row.get(1)?, related_names: Vec::new() })
 	})?;
 	if identity.related_count <= SEARCH_RELATED_NAME_LIMIT {
 		let mut statement = connection
@@ -691,7 +682,6 @@ fn project_page(database: &Database, project: &str) -> Response {
 		),
 		Ok(providers) => match database.project_links(project) {
 			Ok(links) => {
-				let provider_count = providers.len() as u64;
 				let matrix = build_project_matrix(providers);
 				let executable_count = matrix.executables.len() as u64;
 				render_response(
@@ -699,7 +689,7 @@ fn project_page(database: &Database, project: &str) -> Response {
 					StatusCode::OK,
 					"project.html",
 					project,
-					context! { project, links, matrix, executable_count, provider_count },
+					context! { project, links, matrix, executable_count },
 				)
 			},
 			Err(error) => database_error(database, error),
@@ -721,7 +711,6 @@ fn executable_page(database: &Database, executable: &str) -> Response {
 			"No executable with this exact name is listed. Check spelling and case.",
 		),
 		Ok(providers) => {
-			let provider_count = providers.len() as u64;
 			let projects = group_executable_projects(providers);
 			let project_count = projects.len() as u64;
 			render_response(
@@ -729,7 +718,7 @@ fn executable_page(database: &Database, executable: &str) -> Response {
 				StatusCode::OK,
 				"executable.html",
 				executable,
-				context! { executable, projects, project_count, provider_count },
+				context! { executable, projects, project_count },
 			)
 		},
 		Err(error) => database_error(database, error),
@@ -1000,7 +989,6 @@ mod tests {
 		assert_eq!(links[0].url, "https://helix-editor.com/");
 		assert_eq!(links[1].link_type, "repository");
 		assert_eq!(links[1].url, "https://github.com/helix-editor/helix");
-		let project_provider_count = project_providers.len() as u64;
 		let matrix = build_project_matrix(project_providers);
 		let executable_count = matrix.executables.len() as u64;
 		let project = render_page(
@@ -1010,7 +998,6 @@ mod tests {
 			minijinja::context! {
 				project => "helix",
 				links,
-				provider_count => project_provider_count,
 				matrix,
 				executable_count,
 			},
@@ -1029,7 +1016,6 @@ mod tests {
 		assert_eq!(project.matches("href='/executables/hx'").count(), 1);
 
 		let executable_providers = database.executable_providers("hx").unwrap();
-		let executable_provider_count = executable_providers.len() as u64;
 		let projects = group_executable_projects(executable_providers);
 		let project_count = projects.len() as u64;
 		let executable = render_page(
@@ -1038,7 +1024,6 @@ mod tests {
 			"hx",
 			minijinja::context! {
 				executable => "hx",
-				provider_count => executable_provider_count,
 				projects,
 				project_count,
 			},

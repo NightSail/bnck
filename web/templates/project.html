@@ -5,8 +5,7 @@
 	<a class='back-link' href='/?q=&kind=project'>← Projects</a>
 	<p class='eyebrow'>Project</p>
 	<h1><code>{{ page.project }}</code></h1>
-	<p class='lead'>{{ count_label(page.executable_count, 'executable', 'executables') }}.
-		{{ count_label(page.provider_count, 'provider record', 'provider records') }}.</p>
+	<p class='lead'>{{ count_label(page.executable_count, 'executable', 'executables') }}.</p>
 	{% if page.links %}
 	<ul class='project-links'>
 		{% for link in page.links %}
@@ -24,12 +23,12 @@
 			<h2 id='providers-title'>Executables</h2>
 		</div>
 		<p class='matrix-legend' id='matrix-legend'>
-			<span class='matrix-observed' aria-hidden='true'>✓</span> Observed provider record.
-			<span aria-hidden='true'>·</span> No record in this dataset.
+			<span class='matrix-observed' aria-hidden='true'>✓</span> Observed in this package.
+			<span aria-hidden='true'>·</span> Not observed in this dataset.
 		</p>
 		<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
 			<table class='provider-matrix' aria-describedby='matrix-legend'>
-				<caption class='visually-hidden'>Observed executable providers for {{ page.project }}</caption>
+				<caption class='visually-hidden'>Executable coverage for {{ page.project }}</caption>
 				<colgroup span='1'></colgroup>
 				{% for channel in page.matrix.channels %}
 				<colgroup span='{{ channel.packages | length }}'></colgroup>
@@ -66,7 +65,7 @@
 							<span class='visually-hidden'>Observed</span>
 							{% else %}
 							<span class='muted' aria-hidden='true'>·</span>
-							<span class='visually-hidden'>No record</span>
+							<span class='visually-hidden'>Not observed</span>
 							{% endif %}
 						</td>
 						{% endfor %}

@@ -10,8 +10,8 @@
 		<p class='search-hint' id='search-hint'>Search by full or partial name.
 			<a href='/?q='>Browse names <span aria-hidden='true'>→</span></a></p>
 	</div>
-	<aside class='relation-card' aria-label='Example record'>
-		<header><span class='eyebrow'>Example record</span></header>
+	<aside class='relation-card' aria-label='Example lookup'>
+		<header><span class='eyebrow'>Example lookup</span></header>
 		{% if page.example %}
 		<dl class='example-record'>
 			<div>
@@ -27,7 +27,7 @@
 			<div><dt>Channel</dt><dd>{{ page.example.channel | channel_label }}</dd></div>
 			<div><dt>Package</dt><dd><code>{{ page.example.package }}</code></dd></div>
 		</dl>
-		{% else %}<p class='muted'>No records in this release.</p>{% endif %}
+		{% else %}<p class='muted'>No executables listed in this release.</p>{% endif %}
 	</aside>
 </section>
 {{ stats(page.stats) }}

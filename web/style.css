@@ -349,7 +349,7 @@ main {
 }
 .stats {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	margin: 0;
 	padding: 28px 0;
 	border-block: 1px solid var(--line);
@@ -584,11 +584,6 @@ thead th {
 	border-radius: 2px;
 	font: 10px/1.5 var(--mono);
 }
-.cell-note {
-	display: block;
-	color: var(--muted);
-	font-size: 11px;
-}
 .name-results {
 	list-style: none;
 	margin: 0;
@@ -631,10 +626,6 @@ thead th {
 }
 .executable-rows > li {
 	margin-bottom: 8px;
-}
-.provider-count {
-	display: inline-block;
-	font-size: 11px;
 }
 .more-executables {
 	margin-bottom: 12px;
@@ -1273,9 +1264,6 @@ thead th {
 	}
 	.exact-badge {
 		font-size: 9px;
-	}
-	.cell-note {
-		font-size: 10px;
 	}
 	.name-result {
 		padding: 18px 14px;
