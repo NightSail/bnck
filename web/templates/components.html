@@ -69,6 +69,51 @@
 </article>
 {% endmacro %}
 
+{% macro highlighted_name(name, query='') -%}
+	{%- for part in name | highlight_parts(query) -%}
+		{% if part.is_match %}<mark>{{ part.text }}</mark>{% else %}{{ part.text }}{% endif %}
+	{%- endfor -%}
+{%- endmacro %}
+
+{% macro related_rows(result, related, query='') %}
+	<ul class='related-rows' role='list'>
+		{% for relation in related %}
+		<li>
+			<a class='related-name'
+				href='/projects/{{ result.name | path_segment }}#executable-{{ relation.name | path_segment }}'>
+				<code>{{ highlighted_name(relation.name, query) }}(1)</code></a>:
+			{% for channel in relation.channels %}
+			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
+			{% endfor %}
+		</li>
+		{% endfor %}
+	</ul>
+{% endmacro %}
+
+{% macro search_result(result, heading_id, limit, query='', more_url=none) %}
+<article class='name-result' aria-labelledby='{{ heading_id }}'>
+	<header class='name-result-heading'>
+		<h3 id='{{ heading_id }}'>
+			<a href='/projects/{{ result.name | path_segment }}'>
+				<code>{{ highlighted_name(result.name, query) }}</code></a>
+		</h3>
+	</header>
+	{{ related_rows(result, result.related[:limit], query) }}
+	{% if result.related | length > limit %}
+	{% if more_url %}
+	<a class='more-related text-link' href='{{ more_url }}'>
+		{{ count_label(result.related | length - limit, 'more executable', 'more executables') }}</a>
+	{% else %}
+	<details class='more-related'>
+		<summary>{{ count_label(result.related | length - limit, 'more executable', 'more executables') }}
+			<span class='visually-hidden'> for {{ result.name }}</span></summary>
+		{{ related_rows(result, result.related[limit:], query) }}
+	</details>
+	{% endif %}
+	{% endif %}
+</article>
+{% endmacro %}
+
 {% macro snapshot_note() %}
 <section class='side-note'>
 	<h2>Coverage</h2>

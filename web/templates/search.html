@@ -1,25 +1,5 @@
 {% extends 'base.html' %}
-{% from 'components.html' import search_form, snapshot_note, count_label with context %}
-{% macro highlighted_name(name) -%}
-	{%- for part in name | highlight_parts(page.query) -%}
-		{% if part.is_match %}<mark>{{ part.text }}</mark>{% else %}{{ part.text }}{% endif %}
-	{%- endfor -%}
-{%- endmacro %}
-
-{% macro related_rows(result, related) %}
-	<ul class='related-rows' role='list'>
-		{% for relation in related %}
-		<li>
-			<a class='related-name'
-				href='/projects/{{ result.name | path_segment }}#executable-{{ relation.name | path_segment }}'>
-				<code>{{ highlighted_name(relation.name) }}(1)</code></a>:
-			{% for channel in relation.channels %}
-			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
-			{% endfor %}
-		</li>
-		{% endfor %}
-	</ul>
-{% endmacro %}
+{% from 'components.html' import search_form, snapshot_note, count_label, search_result with context %}
 
 {% block content %}
 <section class='page-heading search-heading'>
@@ -52,23 +32,7 @@
 		<ul class='name-results' role='list' aria-label='Matching projects'>
 			{% for result in page.results.rows %}
 			<li>
-				<article class='name-result' aria-labelledby='result-{{ loop.index }}'>
-					<header class='name-result-heading'>
-						<h3 id='result-{{ loop.index }}'>
-							<a href='/projects/{{ result.name | path_segment }}'>
-								<code>{{ highlighted_name(result.name) }}</code></a>
-						</h3>
-					</header>
-					{{ related_rows(result, result.related[:page.related_name_limit]) }}
-					{% if result.related | length > page.related_name_limit %}
-					<details class='more-related'>
-						<summary>{{ count_label(result.related | length - page.related_name_limit,
-							'more executable', 'more executables') }}
-							<span class='visually-hidden'> for {{ result.name }}</span></summary>
-						{{ related_rows(result, result.related[page.related_name_limit:]) }}
-					</details>
-					{% endif %}
-				</article>
+				{{ search_result(result, 'result-' ~ loop.index, page.related_name_limit, page.query) }}
 			</li>
 			{% endfor %}
 		</ul>
