@@ -17,6 +17,10 @@ channel = 'debian'
 name = 'atuin'
 
 [[package]]
+channel = 'debian'
+name = 'atuin-server'
+
+[[package]]
 channel = 'fedora'
 name = 'atuin'
 
