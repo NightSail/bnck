@@ -7,13 +7,20 @@
 	{% endfor %}
 {% endmacro %}
 
-{% macro executable_links(names) %}
-	{% for name in names %}
-	<span class='executable-reference'>
-		<a class='related-name' href='/executables/{{ name | path_segment }}'><code>{{ name }}</code></a>
-		{%- if name == page.query %} <span class='exact-badge'>Exact match</span>{% endif -%}
-	</span>{% if not loop.last %}, {% endif %}
-	{% endfor %}
+{% macro executable_rows(project, executables) %}
+	<ul class='executable-rows' role='list'>
+		{% for executable in executables %}
+		<li>
+			<a class='related-name'
+				href='/projects/{{ project | path_segment }}#executable-{{ executable.name | path_segment }}'>
+				<code>{{ executable.name }}(1)</code></a>:
+			{% for channel in executable.channels %}
+			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
+			{% endfor %}
+			{% if executable.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
+		</li>
+		{% endfor %}
+	</ul>
 {% endmacro %}
 
 {% macro search_relationship(identity) %}
@@ -67,28 +74,20 @@
 			<li>
 				<article class='name-result' aria-labelledby='result-{{ loop.index }}'>
 					<header class='name-result-heading'>
-						<h3 id='result-{{ loop.index }}'><code>{{ result.name }}</code></h3>
+						<h3 id='result-{{ loop.index }}'>
+							<a href='/projects/{{ result.name | path_segment }}'><code>{{ result.name }}</code></a>
+						</h3>
 						{% if result.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
 					</header>
-					<p class='result-summary'>Project ·
-						{{ count_label(result.identity.related_count, 'executable', 'executables') }} ·
-						{{ search_counts(result.identity) }}</p>
-					<p class='result-relationship'>Executables:
-						{{ executable_links(result.project_executables[:page.related_name_limit]) }}
-					</p>
+					{{ executable_rows(result.name, result.project_executables[:page.related_name_limit]) }}
 					{% if result.project_executables | length > page.related_name_limit %}
 					<details class='more-executables'>
 						<summary>{{ count_label(result.project_executables | length - page.related_name_limit,
 							'more executable', 'more executables') }}
 							<span class='visually-hidden'> from {{ result.name }}</span></summary>
-						<p class='result-relationship'>
-							{{ executable_links(result.project_executables[page.related_name_limit:]) }}
-						</p>
+						{{ executable_rows(result.name, result.project_executables[page.related_name_limit:]) }}
 					</details>
 					{% endif %}
-					<a class='text-link' href='/projects/{{ result.name | path_segment }}'>Project details
-						<span class='visually-hidden'> for {{ result.name }}</span><span aria-hidden='true'> →</span>
-					</a>
 				</article>
 			</li>
 			{% endfor %}

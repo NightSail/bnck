@@ -326,7 +326,13 @@ struct SearchResults {
 struct SearchResult {
 	name: String,
 	identity: SearchIdentity,
-	project_executables: Vec<String>,
+	project_executables: Vec<SearchExecutable>,
+}
+
+#[derive(Serialize)]
+struct SearchExecutable {
+	name: String,
+	channels: Vec<String>,
 }
 
 #[derive(Clone, Copy, Serialize)]
@@ -396,10 +402,14 @@ fn read_search_identity(
 	Ok(identity)
 }
 
-fn read_search_executables(connection: &Connection, project: &str, search: &SearchQuery) -> Result<Vec<String>> {
+fn read_search_executables(
+	connection: &Connection,
+	project: &str,
+	search: &SearchQuery,
+) -> Result<Vec<SearchExecutable>> {
 	/* Keep exact and partial command matches in the preview, even for projects with many executables. */
 	let mut statement = connection.prepare_cached(
-		"SELECT DISTINCT executable FROM providers
+		"SELECT DISTINCT executable, channel FROM providers
 		 WHERE project = ?1 AND (?2 = '' OR channel = ?2)
 		 ORDER BY CASE
 			WHEN executable = ?3 THEN 0
@@ -407,11 +417,20 @@ fn read_search_executables(connection: &Connection, project: &str, search: &Sear
 			WHEN instr(lower(executable), lower(?3)) = 1 THEN 2
 			WHEN instr(lower(executable), lower(?3)) > 0 THEN 3
 			ELSE 4
-		 END, CASE WHEN ?3 != '' THEN length(executable) END, executable",
+		 END, CASE WHEN ?3 != '' THEN length(executable) END, executable, channel",
 	)?;
-	Ok(statement
-		.query_map(params![project, search.channel, search.query()], |row| row.get(0))?
-		.collect::<rusqlite::Result<_>>()?)
+	let rows = statement.query_map(params![project, search.channel, search.query()], |row| {
+		Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
+	})?;
+	let mut executables = Vec::<SearchExecutable>::new();
+	for row in rows {
+		let (name, channel) = row?;
+		match executables.last_mut() {
+			Some(executable) if executable.name == name => executable.channels.push(channel),
+			_ => executables.push(SearchExecutable { name, channels: vec![channel] }),
+		}
+	}
+	Ok(executables)
 }
 
 struct ProjectProvider {

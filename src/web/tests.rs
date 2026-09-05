@@ -100,6 +100,28 @@ fn fixture(records: impl IntoIterator<Item = Provider>) -> Database {
 	Database::open(&artifact).unwrap()
 }
 
+fn executable_names(result: &super::SearchResult) -> Vec<&str> {
+	result
+		.project_executables
+		.iter()
+		.map(|executable| executable.name.as_str())
+		.collect()
+}
+
+fn assert_executable_row(html: &str, project: &str, executable: &str, channels: &str) {
+	let href = format!(
+		"href='/projects/{}#executable-{}'",
+		super::encode_path_segment(project),
+		super::encode_path_segment(executable),
+	);
+	assert_eq!(html.matches(&href).count(), 1);
+	let row = html.split_once(&href).unwrap().1.split_once("</li>").unwrap().0;
+	let row = row.split_whitespace().collect::<Vec<_>>().join(" ");
+	let channel_text = row.split_once("(1)</code></a>: ").unwrap().1;
+	let channel_text = channel_text.split_once("<span").map_or(channel_text, |(text, _)| text);
+	assert_eq!(channel_text.trim(), channels);
+}
+
 fn sample_database() -> Database {
 	fixture(RECORDS.iter().copied().map(provider))
 }
@@ -120,9 +142,9 @@ fn search_groups_by_owner_and_ranks_each_projects_best_match() {
 	assert_eq!(group.identity.provider_count, 2);
 	assert_eq!(group.identity.related_count, 1);
 	assert_eq!(group.identity.channel_count, 2);
-	assert_eq!(group.project_executables, ["hx"]);
-	assert_eq!(results.rows[1].project_executables, ["hx-admin"]);
-	assert_eq!(results.rows[2].project_executables, ["hx"]);
+	assert_eq!(executable_names(group), ["hx"]);
+	assert_eq!(executable_names(&results.rows[1]), ["hx-admin"]);
+	assert_eq!(executable_names(&results.rows[2]), ["hx"]);
 	assert_eq!(database.search(&search_query("HX")).unwrap().rows[0].name, "case");
 	assert_eq!(database.executable_providers("HX").unwrap().len(), 1);
 	assert_eq!(database.executable_providers("hx").unwrap().len(), 3);
@@ -190,7 +212,7 @@ fn project_summaries_keep_counts_filtered_without_double_counting() {
 		assert_eq!(group.identity.provider_count, providers);
 		assert_eq!(group.identity.channel_count, channels);
 		assert_eq!(group.identity.related_count, 1);
-		assert_eq!(group.project_executables, ["eslint"]);
+		assert_eq!(executable_names(group), ["eslint"]);
 	}
 }
 
@@ -204,12 +226,12 @@ fn channel_filters_apply_to_project_matches_counts_and_executables() {
 	let mut search = search_query("eslint");
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 2);
-	assert_eq!(results.rows[0].project_executables, ["eslint", "eslint-helper"]);
+	assert_eq!(executable_names(&results.rows[0]), ["eslint", "eslint-helper"]);
 	assert_eq!(results.rows[1].name, "other");
 	search.channel = "npm".to_owned();
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 1);
-	assert_eq!(results.rows[0].project_executables, ["eslint"]);
+	assert_eq!(executable_names(&results.rows[0]), ["eslint"]);
 	assert_eq!(results.rows[0].identity.provider_count, 2);
 	search.q = Some("eslint-helper".to_owned());
 	assert_eq!(database.search(&search).unwrap().total, 0);
@@ -225,17 +247,17 @@ fn companion_executables_group_by_ownership_not_prefix() {
 		assert_eq!(results.rows[0].name, "age");
 		assert_eq!(results.rows[0].project_executables.len(), 4);
 		assert_eq!(results.rows[1].name, "age-plugin-yubikey");
-		assert_eq!(results.rows[1].project_executables, ["age-plugin-yubikey"]);
+		assert_eq!(executable_names(&results.rows[1]), ["age-plugin-yubikey"]);
 	}
 	let results = database.search(&search_query("age-keygen")).unwrap();
 	assert_eq!(results.total, 1);
 	assert_eq!(results.rows[0].name, "age");
-	assert_eq!(results.rows[0].project_executables[0], "age-keygen");
+	assert_eq!(results.rows[0].project_executables[0].name, "age-keygen");
 
 	let database = fixture(AERC_RECORDS.iter().copied().map(provider));
 	let results = database.search(&search_query("")).unwrap();
 	assert_eq!(results.total, 1);
-	assert_eq!(results.rows[0].project_executables, ["aerc", "carddav-query"]);
+	assert_eq!(executable_names(&results.rows[0]), ["aerc", "carddav-query"]);
 }
 
 #[test]
@@ -248,9 +270,9 @@ fn matching_project_and_executable_names_do_not_establish_ownership() {
 	let results = database.search(&search_query("collision")).unwrap();
 	assert_eq!(results.total, 2);
 	assert_eq!(results.rows[0].name, "collision");
-	assert_eq!(results.rows[0].project_executables, ["different"]);
+	assert_eq!(executable_names(&results.rows[0]), ["different"]);
 	assert_eq!(results.rows[1].name, "other");
-	assert_eq!(results.rows[1].project_executables, ["collision"]);
+	assert_eq!(executable_names(&results.rows[1]), ["collision"]);
 }
 
 #[test]
@@ -265,8 +287,8 @@ fn case_variants_preserve_exact_executable_identities() {
 	assert_eq!(results.total, 2);
 	assert_eq!(results.rows[0].name, "tool");
 	assert_eq!(results.rows[1].name, "upper");
-	assert_eq!(results.rows[0].project_executables, ["tool"]);
-	assert_eq!(results.rows[1].project_executables, ["Tool"]);
+	assert_eq!(executable_names(&results.rows[0]), ["tool"]);
+	assert_eq!(executable_names(&results.rows[1]), ["Tool"]);
 	search.kind = SearchKind::Executable;
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 2);
@@ -280,7 +302,7 @@ fn project_ranking_uses_length_only_within_the_best_match_class() {
 	let results = database.search(&search_query("tool")).unwrap();
 	let names: Vec<_> = results.rows.iter().map(|row| row.name.as_str()).collect();
 	assert_eq!(names, ["z-exact", "short-prefix", "tool-prefix", "a-substring", "b-substring"]);
-	assert_eq!(results.rows[3].project_executables, ["tool-long-prefix", "xtool"]);
+	assert_eq!(executable_names(&results.rows[3]), ["tool-long-prefix", "xtool"]);
 }
 
 #[test]
@@ -290,7 +312,7 @@ fn search_treats_wildcards_and_sql_as_literal_text() {
 		let results = database.search(&search_query(query)).unwrap();
 		assert_eq!(results.total, 1);
 		assert_eq!(results.rows[0].name, "literal");
-		assert_eq!(results.rows[0].project_executables, ["tool%_"]);
+		assert_eq!(executable_names(&results.rows[0]), ["tool%_"]);
 	}
 	assert_eq!(database.search(&search_query("' OR 1=1 --")).unwrap().total, 0);
 	assert_eq!(database.search(&search_query("étool")).unwrap().total, 1);
@@ -409,7 +431,7 @@ async fn renders_detail_ambiguity_and_escapes_dataset_names() {
 	assert!(!html.contains("<tool>"));
 	assert!(html.contains("&lt;tool&gt;&amp;&#x27;"));
 	let html = response_text(search_page(&database, search_query("<tool>&'"))).await;
-	assert!(html.contains("href='/executables/%3Ctool%3E%26%27'"));
+	assert!(html.contains("href='/projects/escaping#executable-%3Ctool%3E%26%27'"));
 	let html = response_text(project_page(&database, "helix")).await;
 	assert!(html.contains("No project links listed."));
 	assert!(!html.contains("class='ambiguity-note'"));
@@ -420,13 +442,18 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	let database = fixture(SHARED_RECORDS.iter().copied().map(provider));
 	let html = response_text(search_page(&database, search_query("eslint"))).await;
 	assert_eq!(html.matches("class='name-result'").count(), 1);
-	assert_eq!(html.matches("<code>eslint</code>").count(), 2);
-	assert!(html.contains("Project ·"));
-	assert_eq!(html.matches("3 channels").count(), 1);
-	assert_eq!(html.matches("4 provider records").count(), 1);
-	assert_eq!(html.matches("href='/executables/eslint'").count(), 1);
+	assert_eq!(html.matches("<code>eslint</code>").count(), 1);
+	assert_eq!(html.matches("<code>eslint(1)</code>").count(), 1);
+	assert!(!html.contains("Project:"));
+	assert!(!html.contains("class='result-summary'"));
+	assert!(!html.contains("3 channels"));
+	assert!(!html.contains("4 provider records"));
+	assert_executable_row(&html, "eslint", "eslint", "Debian, Homebrew, npm");
 	assert_eq!(html.matches("href='/projects/eslint'").count(), 1);
-	assert!(html.contains("Project details"));
+	assert!(html.contains(
+		"<h3 id='result-1'>\n\t\t\t\t\t\t\t<a href='/projects/eslint'><code>eslint</code></a>\n\t\t\t\t\t\t</h3>"
+	));
+	assert!(!html.contains("Project details"));
 	assert!(html.contains("1 matching project"));
 	assert!(!html.contains("class='results-table'"));
 	for kind in [SearchKind::Executable, SearchKind::Project] {
@@ -448,21 +475,25 @@ async fn project_groups_include_nonprefixed_executables_and_use_project_counts()
 		let results = database.search(&search).unwrap();
 		assert_eq!(results.total, 1);
 		let group = &results.rows[0];
-		assert_eq!(group.project_executables, ["aerc", "carddav-query"]);
+		assert_eq!(executable_names(group), ["aerc", "carddav-query"]);
 		assert_eq!(group.identity.provider_count, providers);
 		assert_eq!(group.identity.channel_count, channels);
 		let html = response_text(search_page(&database, search)).await;
 		assert_eq!(html.matches("class='name-result'").count(), 1);
-		assert_eq!(html.matches("<code>aerc</code>").count(), 2);
-		assert_eq!(html.matches("href='/executables/carddav-query'").count(), 1);
-		assert_eq!(html.matches("href='/executables/aerc'").count(), 1);
+		assert_eq!(html.matches("<code>aerc</code>").count(), 1);
+		assert_executable_row(&html, "aerc", "aerc", "Debian");
+		assert_executable_row(
+			&html,
+			"aerc",
+			"carddav-query",
+			if channel.is_empty() { "Debian, Homebrew" } else { "Debian" },
+		);
 		assert_eq!(html.matches("href='/projects/aerc'").count(), 1);
-		assert!(html.contains(&format!("{providers} provider records")));
-		assert!(!html.contains("1 provider record"));
+		assert!(!html.contains("provider records"));
 	}
 	let results = database.search(&search_query("carddav-query")).unwrap();
 	assert_eq!(results.rows[0].name, "aerc");
-	assert_eq!(results.rows[0].project_executables, ["carddav-query", "aerc"]);
+	assert_eq!(executable_names(&results.rows[0]), ["carddav-query", "aerc"]);
 }
 
 #[tokio::test]
@@ -472,11 +503,12 @@ async fn channel_with_only_other_executables_shows_a_project_summary() {
 	search.channel = "homebrew".to_owned();
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 1);
-	assert_eq!(results.rows[0].project_executables, ["carddav-query"]);
+	assert_eq!(executable_names(&results.rows[0]), ["carddav-query"]);
 	let html = response_text(search_page(&database, search)).await;
-	assert!(html.contains("Project ·"));
-	assert!(html.contains("href='/executables/carddav-query'"));
-	assert!(!html.contains("href='/executables/aerc'"));
+	assert!(html.contains("<h3 id='result-1'>"));
+	assert!(!html.contains("Project:"));
+	assert_executable_row(&html, "aerc", "carddav-query", "Homebrew");
+	assert!(!html.contains("href='/projects/aerc#executable-aerc'"));
 }
 
 #[tokio::test]
@@ -487,9 +519,23 @@ async fn grouped_executable_links_escape_names_and_encode_paths() {
 		.chain([("eslint", "<tool>&'", "debian", "eslint")]);
 	let database = fixture(records.map(provider));
 	let html = response_text(search_page(&database, search_query("eslint"))).await;
-	assert!(html.contains("href='/executables/%3Ctool%3E%26%27'"));
-	assert!(html.contains("&lt;tool&gt;&amp;&#x27;"));
+	assert_executable_row(&html, "eslint", "<tool>&'", "Debian");
+	assert!(html.contains("&lt;tool&gt;&amp;&#x27;(1)"));
 	assert!(!html.contains("<tool>"));
+	let html = response_text(project_page(&database, "eslint")).await;
+	assert!(html.contains("id='executable-&lt;tool&gt;&amp;&#x27;'"));
+}
+
+#[tokio::test]
+async fn executable_rows_link_to_distinct_project_sections() {
+	let names = ["tool", "Tool", "tool%_", "tool#part", "étool"];
+	let database = fixture(names.map(|name| provider(("tools", name, "debian", "tools"))));
+	let search_html = response_text(search_page(&database, search_query("tools"))).await;
+	let project_html = response_text(project_page(&database, "tools")).await;
+	for name in names {
+		assert_executable_row(&search_html, "tools", name, "Debian");
+		assert_eq!(project_html.matches(&format!("id='executable-{name}'")).count(), 1);
+	}
 }
 
 #[tokio::test]
@@ -500,15 +546,18 @@ async fn grouped_lists_expand_without_javascript_and_keep_exact_matches_visible(
 		let html = response_text(search_page(&database, search_query(""))).await;
 		assert_eq!(html.matches("class='name-result'").count(), 1);
 		assert_eq!(html.matches("class='related-name'").count(), count);
+		for index in 0..count {
+			assert_executable_row(&html, "tools", &format!("command-{index}"), "npm");
+		}
 		assert_eq!(html.contains("<details class='more-executables'>"), count > 3);
 		if count > 3 {
 			let (preview, expanded) = html.split_once("<details class='more-executables'>").unwrap();
 			assert_eq!(preview.matches("class='related-name'").count(), 3);
 			assert!(expanded.contains("1 more executable"));
-			assert!(expanded.contains("href='/executables/command-3'"));
+			assert_executable_row(expanded, "tools", "command-3", "npm");
 			let html = response_text(search_page(&database, search_query("command-3"))).await;
 			let preview = html.split_once("<details class='more-executables'>").unwrap().0;
-			assert!(preview.contains("href='/executables/command-3'"));
+			assert_executable_row(preview, "tools", "command-3", "npm");
 			assert!(preview.contains("Exact match"));
 		}
 	}
@@ -522,8 +571,9 @@ async fn renders_shared_commands_under_every_matching_owner() {
 	assert!(html.contains("4 matching projects"));
 	assert!(html.contains("href='/projects/helix'"));
 	assert!(html.contains("href='/projects/other'"));
-	assert_eq!(html.matches("href='/executables/hx'").count(), 2);
-	assert!(html.contains("href='/executables/hx-admin'"));
+	assert_executable_row(&html, "helix", "hx", "crates.io, Debian");
+	assert_executable_row(&html, "other", "hx", "npm");
+	assert_executable_row(&html, "hx", "hx-admin", "Debian");
 	let mut search = search_query("hx");
 	search.channel = "npm".to_owned();
 	let html = response_text(search_page(&database, search)).await;
@@ -531,7 +581,7 @@ async fn renders_shared_commands_under_every_matching_owner() {
 	assert!(html.contains("href='/projects/other'"));
 	assert!(!html.contains("href='/projects/helix'"));
 	assert!(!html.contains("href='/projects/hx'"));
-	assert!(html.contains("href='/executables/hx'"));
+	assert_executable_row(&html, "other", "hx", "npm");
 }
 
 #[tokio::test]

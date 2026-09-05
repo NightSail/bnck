@@ -615,24 +615,26 @@ thead th {
 .name-result-heading h3 {
 	min-width: 0;
 	margin: 0;
+	font-family: var(--mono);
 	font-size: 18px;
 	font-weight: 500;
 }
-.result-summary,
-.result-relationship {
-	margin: 0 0 8px;
+.name-result-heading h3 a {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.executable-rows {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	font-size: 13px;
 }
-.result-summary {
-	color: var(--muted);
+.executable-rows > li {
+	margin-bottom: 8px;
 }
 .provider-count {
 	display: inline-block;
 	font-size: 11px;
-}
-.executable-reference {
-	display: inline-block;
-	max-width: 100%;
 }
 .more-executables {
 	margin-bottom: 12px;
