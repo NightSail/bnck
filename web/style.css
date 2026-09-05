@@ -767,6 +767,74 @@ thead th {
 	text-transform: none;
 	white-space: nowrap;
 }
+.matrix-legend {
+	color: var(--muted);
+	font-size: 12px;
+}
+.matrix-scroll {
+	--matrix-name-width: min(16rem, 45vw);
+	position: relative;
+	overflow-x: auto;
+	border: 1px solid var(--line);
+	border-radius: 4px;
+	scroll-padding-inline-start: var(--matrix-name-width);
+}
+.provider-matrix {
+	border-collapse: separate;
+	border-spacing: 0;
+	background: var(--surface);
+}
+.provider-matrix th,
+.provider-matrix td {
+	padding: 12px 16px;
+	text-align: center;
+}
+.provider-matrix th + th,
+.provider-matrix td {
+	border-left: 1px solid var(--line);
+}
+.provider-matrix tbody th,
+.provider-matrix td {
+	border-top: 1px solid var(--line);
+	font-size: 13px;
+}
+.provider-matrix th[scope='colgroup']:not([colspan='1']) {
+	text-align: left;
+}
+.matrix-channel {
+	display: inline-block;
+	position: sticky;
+	left: calc(var(--matrix-name-width) + 16px);
+}
+.provider-matrix .matrix-package {
+	min-width: 8rem;
+	max-width: 16rem;
+	color: var(--text);
+	font-size: 12px;
+	letter-spacing: 0;
+	text-transform: none;
+	vertical-align: top;
+}
+.provider-matrix .matrix-name {
+	position: sticky;
+	left: 0;
+	z-index: 1;
+	min-width: var(--matrix-name-width);
+	max-width: var(--matrix-name-width);
+	background: var(--surface);
+	box-shadow: 1px 0 var(--line);
+	text-align: left;
+}
+.provider-matrix thead .matrix-name {
+	background: var(--raised);
+}
+.provider-matrix tbody tr:hover > *,
+.provider-matrix tbody tr:target > * {
+	background: var(--hover);
+}
+.matrix-observed {
+	color: var(--green);
+}
 .provider-group {
 	margin-bottom: 22px;
 	border: 1px solid var(--line);
@@ -1312,6 +1380,13 @@ thead th {
 	.content-layout,
 	.dataset-layout {
 		display: block;
+	}
+	.matrix-scroll {
+		overflow: visible;
+	}
+	.provider-matrix .matrix-name,
+	.matrix-channel {
+		position: static;
 	}
 	.provider-group {
 		break-inside: avoid;

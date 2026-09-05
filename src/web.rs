@@ -1,4 +1,4 @@
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, BTreeSet};
 use std::fs::File;
 use std::io::{BufReader, Write};
 use std::net::SocketAddr;
@@ -452,9 +452,15 @@ struct ProjectLink {
 }
 
 #[derive(Serialize)]
-struct ExecutableGroup {
-	executable: String,
+struct ProjectMatrix {
 	channels: Vec<ChannelGroup>,
+	executables: Vec<ExecutableCoverage>,
+}
+
+#[derive(Serialize)]
+struct ExecutableCoverage {
+	executable: String,
+	observed: Vec<bool>,
 }
 
 #[derive(Serialize)]
@@ -475,18 +481,25 @@ struct PackageReference {
 	url: Option<String>,
 }
 
-fn group_project_executables(providers: Vec<ProjectProvider>) -> Vec<ExecutableGroup> {
-	let mut executables = BTreeMap::<String, Vec<(String, String)>>::new();
+fn build_project_matrix(providers: Vec<ProjectProvider>) -> ProjectMatrix {
+	let mut executables = BTreeMap::<String, BTreeSet<(String, String)>>::new();
 	for provider in providers {
 		executables
 			.entry(provider.executable)
 			.or_default()
-			.push((provider.channel, provider.package));
+			.insert((provider.channel, provider.package));
 	}
-	executables
+	/* Headers and cells share the same exact channel/package ordering. */
+	let packages: BTreeSet<_> = executables.values().flatten().cloned().collect();
+	let channels = group_channels(packages.iter().cloned().collect());
+	let executables = executables
 		.into_iter()
-		.map(|(executable, providers)| ExecutableGroup { executable, channels: group_channels(providers) })
-		.collect()
+		.map(|(executable, providers)| ExecutableCoverage {
+			executable,
+			observed: packages.iter().map(|package| providers.contains(package)).collect(),
+		})
+		.collect();
+	ProjectMatrix { channels, executables }
 }
 
 fn group_executable_projects(providers: Vec<ExecutableProvider>) -> Vec<ProjectGroup> {
@@ -679,14 +692,14 @@ fn project_page(database: &Database, project: &str) -> Response {
 		Ok(providers) => match database.project_links(project) {
 			Ok(links) => {
 				let provider_count = providers.len() as u64;
-				let executables = group_project_executables(providers);
-				let executable_count = executables.len() as u64;
+				let matrix = build_project_matrix(providers);
+				let executable_count = matrix.executables.len() as u64;
 				render_response(
 					database,
 					StatusCode::OK,
 					"project.html",
 					project,
-					context! { project, links, executables, executable_count, provider_count },
+					context! { project, links, matrix, executable_count, provider_count },
 				)
 			},
 			Err(error) => database_error(database, error),
@@ -905,8 +918,8 @@ mod tests {
 	use tempfile::tempdir;
 
 	use super::{
-		Database, canonical_package_url, encode_path_segment, format_number, group_executable_projects,
-		group_project_executables, render_page, stylesheet_content,
+		Database, build_project_matrix, canonical_package_url, encode_path_segment, format_number,
+		group_executable_projects, render_page, stylesheet_content,
 	};
 	use crate::release::{SqliteMetadata, generate_sqlite_artifact};
 
@@ -988,8 +1001,8 @@ mod tests {
 		assert_eq!(links[1].link_type, "repository");
 		assert_eq!(links[1].url, "https://github.com/helix-editor/helix");
 		let project_provider_count = project_providers.len() as u64;
-		let executables = group_project_executables(project_providers);
-		let executable_count = executables.len() as u64;
+		let matrix = build_project_matrix(project_providers);
+		let executable_count = matrix.executables.len() as u64;
 		let project = render_page(
 			&database,
 			"project.html",
@@ -998,7 +1011,7 @@ mod tests {
 				project => "helix",
 				links,
 				provider_count => project_provider_count,
-				executables,
+				matrix,
 				executable_count,
 			},
 		)

@@ -44,6 +44,15 @@
 </dl>
 {% endmacro %}
 
+{% macro package_link(package, channel) %}
+{% if package.url %}
+<a class='package-link' href='{{ package.url }}' rel='external'
+	aria-label='{{ package.name }} on {{ channel | channel_label }} (external package page)'>
+	<code>{{ package.name }}</code><span aria-hidden='true'>↗</span>
+</a>
+{% else %}<code>{{ package.name }}</code>{% endif %}
+{% endmacro %}
+
 {% macro provider_group(name, kind, channels) %}
 <article class='provider-group' id='{{ kind }}-{{ name }}'>
 	<header class='provider-group-header'>
@@ -69,12 +78,7 @@
 				<td>
 					<ul class='package-list'>
 						{% for package in channel.packages %}
-						<li>{% if package.url %}
-							<a class='package-link' href='{{ package.url }}' rel='external'
-								aria-label='{{ package.name }} on {{ channel.channel | channel_label }} (external package page)'>
-								<code>{{ package.name }}</code><span aria-hidden='true'>↗</span>
-							</a>
-						{% else %}<code>{{ package.name }}</code>{% endif %}</li>
+						<li>{{ package_link(package, channel.channel) }}</li>
 						{% endfor %}
 					</ul>
 				</td>

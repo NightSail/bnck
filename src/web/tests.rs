@@ -48,6 +48,22 @@ const AGE_RECORDS: &[(&str, &str, &str, &str)] = &[
 	("age-plugin-yubikey", "age-plugin-yubikey", "debian", "age-plugin-yubikey"),
 ];
 
+const MATRIX_RECORDS: &[(&str, &str, &str, &str)] = &[
+	("tools", "tool", "debian", "tools"),
+	("tools", "helper", "debian", "tools"),
+	("tools", "tool", "debian", "tools-extra"),
+	("tools", "helper", "arch", "tools"),
+	("tools", "Tool", "arch", "tools"),
+	("tools", "tool", "npm", "@scope/tools"),
+	("tools", "helper", "homebrew", "custom/tap/tools"),
+];
+
+const MATRIX_COVERAGE: &[(&str, [bool; 5])] = &[
+	("Tool", [true, false, false, false, false]),
+	("helper", [true, true, false, true, false]),
+	("tool", [false, true, true, false, true]),
+];
+
 const RANKING_RECORDS: &[(&str, &str, &str, &str)] = &[
 	("z-exact", "tool", "npm", "z-exact"),
 	("tool-prefix", "unrelated", "npm", "tool-prefix"),
@@ -435,6 +451,114 @@ async fn renders_detail_ambiguity_and_escapes_dataset_names() {
 	let html = response_text(project_page(&database, "helix")).await;
 	assert!(html.contains("No project links listed."));
 	assert!(!html.contains("class='ambiguity-note'"));
+}
+
+#[test]
+fn project_matrix_orders_and_deduplicates_exact_channel_package_relations() {
+	let database = fixture(MATRIX_RECORDS.iter().copied().map(provider));
+	let mut providers = database.project_providers("tools").unwrap();
+	providers.reverse();
+	providers.extend(database.project_providers("tools").unwrap());
+	let matrix = super::build_project_matrix(providers);
+	let columns: Vec<_> = matrix
+		.channels
+		.iter()
+		.flat_map(|channel| {
+			channel
+				.packages
+				.iter()
+				.map(|package| (channel.channel.as_str(), package.name.as_str()))
+		})
+		.collect();
+	assert_eq!(
+		columns,
+		[
+			("arch", "tools"),
+			("debian", "tools"),
+			("debian", "tools-extra"),
+			("homebrew", "custom/tap/tools"),
+			("npm", "@scope/tools"),
+		]
+	);
+	assert_eq!(matrix.executables.len(), MATRIX_COVERAGE.len());
+	for (row, (name, observed)) in matrix.executables.iter().zip(MATRIX_COVERAGE) {
+		assert_eq!(row.executable, *name);
+		assert_eq!(row.observed, observed);
+	}
+}
+
+#[tokio::test]
+async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
+	let database = fixture(MATRIX_RECORDS.iter().copied().map(provider));
+	let html = response_text(project_page(&database, "tools")).await;
+	assert_eq!(html.matches("<table ").count(), 1);
+	assert_eq!(html.matches("scope='colgroup'").count(), 4);
+	assert_eq!(html.matches("class='matrix-package' scope='col'").count(), 5);
+	let normalized = html.split_whitespace().collect::<Vec<_>>().join(" ");
+	assert!(
+		normalized.contains(concat!(
+			"<th scope='colgroup' colspan='2'> ",
+			"<span class='matrix-channel'>Debian</span> </th>"
+		))
+	);
+	assert!(html.contains("<colgroup span='2'></colgroup>"));
+	assert!(html.contains("scope='col' rowspan='2'>Executable</th>"));
+	assert!(html.contains("role='region' aria-labelledby='providers-title' tabindex='0'"));
+	assert!(html.contains("aria-describedby='matrix-legend'"));
+	assert!(html.contains("No record in this dataset."));
+	assert!(html.contains("A missing record does not mean a command is unavailable."));
+	assert!(html.contains("3 executables."));
+	assert!(html.contains("7 provider records."));
+	for url in [
+		"https:&#x2f;&#x2f;archlinux.org&#x2f;packages&#x2f;?q=tools",
+		"https:&#x2f;&#x2f;packages.debian.org&#x2f;tools",
+		"https:&#x2f;&#x2f;packages.debian.org&#x2f;tools-extra",
+		"https:&#x2f;&#x2f;www.npmjs.com&#x2f;package&#x2f;%40scope&#x2f;tools",
+	] {
+		assert_eq!(html.matches(&format!("href='{url}'")).count(), 1);
+	}
+	assert_eq!(html.matches("class='package-link'").count(), 4);
+	assert!(html.contains("<code>custom&#x2f;tap&#x2f;tools</code>"));
+	for (name, observed) in MATRIX_COVERAGE {
+		let anchor = format!("<tr id='executable-{name}'>");
+		assert_eq!(html.matches(&anchor).count(), 1);
+		let row = html.split_once(&anchor).unwrap().1.split_once("</tr>").unwrap().0;
+		assert!(row.contains("scope='row'"));
+		assert!(row.contains(&format!("href='/executables/{name}'")));
+		let cells: Vec<_> = row.split("<td>").skip(1).collect();
+		assert_eq!(cells.len(), observed.len());
+		for (cell, is_observed) in cells.iter().zip(observed) {
+			assert_eq!(cell.contains("class='visually-hidden'>Observed</span>"), *is_observed);
+			assert_eq!(cell.contains("class='visually-hidden'>No record</span>"), !is_observed);
+		}
+	}
+}
+
+#[tokio::test]
+async fn project_matrix_shows_shared_package_once_and_excludes_other_projects() {
+	let database = fixture(AGE_RECORDS.iter().copied().map(provider));
+	let html = response_text(project_page(&database, "age")).await;
+	assert_eq!(html.matches("class='matrix-package'").count(), 1);
+	assert_eq!(html.matches("scope='row'").count(), 4);
+	assert_eq!(html.matches("class='visually-hidden'>Observed</span>").count(), 4);
+	assert!(!html.contains("class='visually-hidden'>No record</span>"));
+	assert!(!html.contains("age-plugin-yubikey"));
+	assert_eq!(html.matches("href='https:&#x2f;&#x2f;packages.debian.org&#x2f;age'").count(), 1);
+}
+
+#[tokio::test]
+async fn project_matrix_escapes_names_and_preserves_encoded_executable_links() {
+	let database = fixture([provider(("tools", "<tool>&'", "npm", "@scope/<package>&'"))]);
+	let html = response_text(project_page(&database, "tools")).await;
+	assert!(html.contains("id='executable-&lt;tool&gt;&amp;&#x27;'"));
+	assert!(html.contains("href='/executables/%3Ctool%3E%26%27'"));
+	assert!(html.contains("<code>&lt;tool&gt;&amp;&#x27;</code>"));
+	assert!(html.contains("<code>@scope&#x2f;&lt;package&gt;&amp;&#x27;</code>"));
+	assert!(html.contains("%40scope&#x2f;%3Cpackage%3E%26%27"));
+	assert!(!html.contains("<tool>"));
+	assert!(!html.contains("<package>"));
+	assert!(html.contains("1 executable."));
+	assert!(html.contains("1 provider record."));
 }
 
 #[tokio::test]

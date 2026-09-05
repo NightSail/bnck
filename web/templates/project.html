@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% from 'components.html' import provider_group, snapshot_note, count_label with context %}
+{% from 'components.html' import package_link, snapshot_note, count_label with context %}
 {% block content %}
 <section class='page-heading detail-heading'>
 	<a class='back-link' href='/?q=&kind=project'>← Projects</a>
@@ -23,10 +23,57 @@
 		<div class='section-heading'>
 			<h2 id='providers-title'>Executables</h2>
 		</div>
-		<div class='provider-groups'>
-			{% for executable in page.executables %}
-			{{ provider_group(executable.executable, 'executable', executable.channels) }}
-			{% endfor %}
+		<p class='matrix-legend' id='matrix-legend'>
+			<span class='matrix-observed' aria-hidden='true'>✓</span> Observed provider record.
+			<span aria-hidden='true'>·</span> No record in this dataset.
+		</p>
+		<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
+			<table class='provider-matrix' aria-describedby='matrix-legend'>
+				<caption class='visually-hidden'>Observed executable providers for {{ page.project }}</caption>
+				<colgroup span='1'></colgroup>
+				{% for channel in page.matrix.channels %}
+				<colgroup span='{{ channel.packages | length }}'></colgroup>
+				{% endfor %}
+				<thead>
+					<tr>
+						<th class='matrix-name' scope='col' rowspan='2'>Executable</th>
+						{% for channel in page.matrix.channels %}
+						<th scope='colgroup' colspan='{{ channel.packages | length }}'>
+							<span class='matrix-channel'>{{ channel.channel | channel_label }}</span>
+						</th>
+						{% endfor %}
+					</tr>
+					<tr>
+						{% for channel in page.matrix.channels %}
+						{% for package in channel.packages %}
+						<th class='matrix-package' scope='col'>{{ package_link(package, channel.channel) }}</th>
+						{% endfor %}
+						{% endfor %}
+					</tr>
+				</thead>
+				<tbody>
+					{% for executable in page.matrix.executables %}
+					<tr id='executable-{{ executable.executable }}'>
+						<th class='matrix-name' scope='row'>
+							<a class='related-name' href='/executables/{{ executable.executable | path_segment }}'>
+								<code>{{ executable.executable }}</code>
+							</a>
+						</th>
+						{% for is_observed in executable.observed %}
+						<td>
+							{% if is_observed %}
+							<span class='matrix-observed' aria-hidden='true'>✓</span>
+							<span class='visually-hidden'>Observed</span>
+							{% else %}
+							<span class='muted' aria-hidden='true'>·</span>
+							<span class='visually-hidden'>No record</span>
+							{% endif %}
+						</td>
+						{% endfor %}
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
 		</div>
 	</section>
 	<aside class='side-column'>
