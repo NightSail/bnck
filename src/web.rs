@@ -961,6 +961,8 @@ mod tests {
 		)
 		.unwrap();
 		assert!(home.contains("<h1>Executable lookup</h1>"));
+		assert!(home.contains("href='/?q='>Browse names"));
+		assert!(!home.contains("class='entry-section'"));
 		assert!(home.contains("href='/executables/rg'"));
 		assert!(home.contains("aria-label='bnck(1): bin name check, home'"));
 		assert!(home.contains("<span class='brand-description'>bin name check</span>"));
