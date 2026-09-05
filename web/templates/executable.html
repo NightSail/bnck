@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% from 'components.html' import provider_group, snapshot_note, count_label with context %}
+{% block content %}
+<section class='page-heading detail-heading'>
+	<a class='back-link' href='/?q=&kind=executable'>← Executables</a>
+	<p class='eyebrow'>Executable</p>
+	<h1><span class='command-prefix' aria-hidden='true'>$ </span><code>{{ page.executable }}</code></h1>
+	<p class='lead'>{{ count_label(page.project_count, 'project', 'projects') }}.
+		{{ count_label(page.provider_count, 'provider record', 'provider records') }}.</p>
+</section>
+<div class='content-layout'>
+	<section aria-labelledby='providers-title'>
+		{% if page.project_count > 1 %}
+		<div class='ambiguity-note'>
+			<strong>Multiple projects provide this name.</strong>
+			Check the project before choosing a package.
+		</div>
+		{% endif %}
+		<div class='section-heading'>
+			<h2 id='providers-title'>Projects</h2>
+		</div>
+		<div class='provider-groups'>
+			{% for project in page.projects %}
+			{{ provider_group(project.project, 'project', project.channels) }}
+			{% endfor %}
+		</div>
+	</section>
+	<aside class='side-column'>
+		<section class='side-note'>
+			<h2>Packages</h2>
+			<p>Links open current package pages. Check versions and platform support there.</p>
+		</section>
+		{{ snapshot_note() }}
+	</aside>
+</div>
+{% endblock %}

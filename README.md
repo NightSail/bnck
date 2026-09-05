@@ -114,6 +114,28 @@ Release assembly does not expose a signing key to the generator. Produce `SHA256
 just sign-release var/releases/bnck-2026-04-16.1 /path/to/minisign.key
 ```
 
+## Website
+
+Start the local search and browsing interface with the generated SQLite artifact:
+
+```sh
+just serve
+```
+
+The site listens on `http://127.0.0.1:3000` by default. Search executable names and canonical project IDs, or leave the name empty to browse. Lookup-type and distribution-channel filters narrow the index, and paginated results link to exact-name detail pages showing every accepted channel and package relation. All navigation works without JavaScript.
+
+The dataset page at `/about` defines result fields, explains coverage limits, and lists channel counts and the release date. The [website design](docs/website.md) documents the views and search contract.
+
+HTML templates live under `web/templates/`, and the stylesheet is `web/style.css`. Debug builds reload these files from disk on every request, so edits appear after refreshing the browser without restarting the server. Release builds embed the same files in the executable.
+
+The server accepts either the compressed release artifact or an uncompressed SQLite database. A compressed artifact is decompressed to a temporary file, then every connection is opened read-only:
+
+```sh
+cargo run -- serve \
+	--database var/bnck.sqlite.zst \
+	--address 127.0.0.1:3000
+```
+
 ## Curation suggestions
 
 Find acquired packages that may belong to a project:

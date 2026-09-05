@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% from 'components.html' import provider_group, snapshot_note, count_label with context %}
+{% block content %}
+<section class='page-heading detail-heading'>
+	<a class='back-link' href='/?q=&kind=project'>← Projects</a>
+	<p class='eyebrow'>Project</p>
+	<h1><code>{{ page.project }}</code></h1>
+	<p class='lead'>{{ count_label(page.executable_count, 'executable', 'executables') }}.
+		{{ count_label(page.provider_count, 'provider record', 'provider records') }}.</p>
+</section>
+<div class='content-layout'>
+	<section aria-labelledby='providers-title'>
+		<div class='section-heading'>
+			<h2 id='providers-title'>Executables</h2>
+		</div>
+		<div class='provider-groups'>
+			{% for executable in page.executables %}
+			{{ provider_group(executable.executable, 'executable', executable.channels) }}
+			{% endfor %}
+		</div>
+	</section>
+	<aside class='side-column'>
+		<section class='side-note'>
+			<h2>Project links</h2>
+			{% if page.links %}
+			<ul class='project-links'>
+				{% for link in page.links %}
+				<li>
+					<a href='{{ link.url }}' rel='external'>
+						<span>{{ link.link_type | capitalize }} <span aria-hidden='true'>↗</span></span>
+						<small>{{ link.url }}</small>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+			{% else %}<p>No project links listed.</p>{% endif %}
+		</section>
+		{{ snapshot_note() }}
+	</aside>
+</div>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% from 'components.html' import search_form, stats with context %}
+{% block content %}
+<section class='hero'>
+	<div class='hero-copy'>
+		<h1>Executable lookup</h1>
+		<p class='lead'>Look up a command to find its projects and packages.
+			Look up a project to list its commands.</p>
+		{{ search_form() }}
+		<p class='search-hint' id='search-hint'>Search by full or partial name.
+			<a href='/?q='>Browse names <span aria-hidden='true'>→</span></a></p>
+	</div>
+	<aside class='relation-card' aria-label='Example record'>
+		<header><span class='eyebrow'>Example record</span></header>
+		{% if page.example %}
+		<dl class='example-record'>
+			<div>
+				<dt>Executable</dt>
+				<dd><a href='/executables/{{ page.example.executable | path_segment }}'>
+					<code>{{ page.example.executable }}</code></a></dd>
+			</div>
+			<div>
+				<dt>Project</dt>
+				<dd><a href='/projects/{{ page.example.project | path_segment }}'>
+					<code>{{ page.example.project }}</code></a></dd>
+			</div>
+			<div><dt>Channel</dt><dd>{{ page.example.channel | channel_label }}</dd></div>
+			<div><dt>Package</dt><dd><code>{{ page.example.package }}</code></dd></div>
+		</dl>
+		{% else %}<p class='muted'>No records in this release.</p>{% endif %}
+	</aside>
+</section>
+{{ stats(page.stats) }}
+<section class='entry-section' aria-labelledby='entry-title'>
+	<div class='section-heading'><h2 id='entry-title'>Browse</h2></div>
+	<div class='entry-grid'>
+		<a class='entry-card' href='/?q=&kind=executable'>
+			<h3>Executables <span aria-hidden='true'>→</span></h3>
+		</a>
+		<a class='entry-card' href='/?q=&kind=project'>
+			<h3>Projects <span aria-hidden='true'>→</span></h3>
+		</a>
+	</div>
+</section>
+<section class='channel-section' aria-labelledby='channels-title'>
+	<div><p class='eyebrow' id='channels-title'>Channels in this release</p></div>
+	<div class='channel-links'>
+		{% for channel in page.channels %}
+		<a href='/?q=&channel={{ channel.name | path_segment }}'>
+			{{ channel.name | channel_label }} <span aria-hidden='true'>→</span>
+		</a>
+		{% else %}<span class='muted'>No channels listed.</span>{% endfor %}
+	</div>
+</section>
+{% endblock %}

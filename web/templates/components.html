@@ -1,0 +1,94 @@
+{% macro count_label(count, singular, plural) -%}
+	{{ count | number }} {{ singular if count == 1 else plural }}
+{%- endmacro %}
+
+{% macro search_form(query='', kind='all', channel='') %}
+<form class='search-form' action='/' method='get' role='search'>
+	<label class='visually-hidden' for='q'>Executable name or project ID</label>
+	<div class='search-input'>
+		<span class='search-symbol' aria-hidden='true'>⌕</span>
+		<input id='q' name='q' type='search' value='{{ query }}' placeholder='Command or project'
+			maxlength='100' autocomplete='off' spellcheck='false' aria-describedby='search-hint'>
+		<button type='submit'>Search <span aria-hidden='true'>↵</span></button>
+	</div>
+	<div class='search-filters'>
+		<div>
+			<label for='kind'>Type</label>
+			<select id='kind' name='kind'>
+				<option value='all' {% if kind == 'all' %}selected{% endif %}>All types</option>
+				<option value='executable' {% if kind == 'executable' %}selected{% endif %}>Executables</option>
+				<option value='project' {% if kind == 'project' %}selected{% endif %}>Projects</option>
+			</select>
+		</div>
+		<div>
+			<label for='channel'>Channel</label>
+			<select id='channel' name='channel'>
+				<option value=''>All channels</option>
+				{% for name in site.channel_keys %}
+				<option value='{{ name }}' {% if channel == name %}selected{% endif %}>
+					{{ name | channel_label }}
+				</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+</form>
+{% endmacro %}
+
+{% macro stats(stats) %}
+<dl class='stats' aria-label='Current dataset statistics'>
+	<div><dt>Executable names</dt><dd>{{ stats.executables | number }}</dd></div>
+	<div><dt>Projects</dt><dd>{{ stats.projects | number }}</dd></div>
+	<div><dt>Channels</dt><dd>{{ stats.channels | number }}</dd></div>
+	<div><dt>Provider records</dt><dd>{{ stats.providers | number }}</dd></div>
+</dl>
+{% endmacro %}
+
+{% macro provider_group(name, kind, channels) %}
+<article class='provider-group'>
+	<header class='provider-group-header'>
+		<div>
+			<span class='eyebrow'>{{ kind }}</span>
+			<h3>
+				<a href='/{{ kind }}s/{{ name | path_segment }}'>
+					<code>{{ name }}</code> <span aria-hidden='true'>↗</span>
+				</a>
+			</h3>
+		</div>
+		<span class='badge'>{{ count_label(channels | length, 'channel', 'channels') }}</span>
+	</header>
+	<table class='provider-table'>
+		<caption class='visually-hidden'>Distribution packages for {{ name }}</caption>
+		<thead><tr><th scope='col'>Channel</th><th scope='col'>Package</th></tr></thead>
+		<tbody>
+			{% for channel in channels %}
+			<tr>
+				<th scope='row'>
+					<span class='channel-mark' aria-hidden='true'></span>{{ channel.channel | channel_label }}
+				</th>
+				<td>
+					<ul class='package-list'>
+						{% for package in channel.packages %}
+						<li>{% if package.url %}
+							<a class='package-link' href='{{ package.url }}' rel='external'
+								aria-label='{{ package.name }} on {{ channel.channel | channel_label }} (external package page)'>
+								<code>{{ package.name }}</code><span aria-hidden='true'>↗</span>
+							</a>
+						{% else %}<code>{{ package.name }}</code>{% endif %}</li>
+						{% endfor %}
+					</ul>
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</article>
+{% endmacro %}
+
+{% macro snapshot_note() %}
+<section class='side-note'>
+	<h2>Coverage</h2>
+	<p>A missing record does not mean a command is unavailable.</p>
+	<a class='text-link' href='/about#coverage'>Dataset limits <span aria-hidden='true'>→</span></a>
+</section>
+{% endmacro %}

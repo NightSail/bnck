@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% from 'components.html' import stats with context %}
+{% block content %}
+<section class='page-heading dataset-heading'>
+	<h1>Dataset</h1>
+	<p class='lead'>Executable names, their projects, and the packages that provide them.</p>
+</section>
+{{ stats(page.stats) }}
+<div class='dataset-layout'>
+	<nav class='section-nav' aria-label='On this page'>
+		<a href='#model'>Fields</a>
+		<a href='#coverage'>Coverage</a>
+		<a href='#bnck-database'>Release</a>
+	</nav>
+	<div class='dataset-body'>
+		<section id='model'>
+			<h2>Fields</h2>
+			<p>A provider record lists a project, executable, distribution channel, and package.</p>
+			<dl class='definitions'>
+				<div><dt>Executable</dt><dd>Command name, preserving spelling and case.</dd></div>
+				<div><dt>Project</dt><dd>Software project ID used for lookup.</dd></div>
+				<div><dt>Channel</dt><dd>Package source, such as Debian or crates.io.</dd></div>
+				<div><dt>Package</dt><dd>Package name within that channel.</dd></div>
+			</dl>
+		</section>
+		<section id='coverage'>
+			<h2>Coverage</h2>
+			<p>Only records in this release are shown. An unlisted command or package may still be available.</p>
+			<p>Records do not specify package versions or platform support.</p>
+			<table class='coverage-table'>
+				<caption>Records by channel</caption>
+				<thead>
+					<tr>
+						<th scope='col'>Channel</th><th scope='col'>Projects</th>
+						<th scope='col'>Packages</th><th scope='col'>Records</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for channel in page.channels %}
+					<tr>
+						<th scope='row'>
+							<a href='/?q=&channel={{ channel.name | path_segment }}'>{{ channel.name | channel_label }} →</a>
+						</th>
+						<td>{{ channel.projects | number }}</td>
+						<td>{{ channel.packages | number }}</td>
+						<td>{{ channel.providers | number }}</td>
+					</tr>
+					{% else %}<tr><td colspan='4'>No records in this release.</td></tr>{% endfor %}
+				</tbody>
+			</table>
+			<p class='fine-print'>Counts refer to this dataset, not the full contents of each channel.
+				Projects may appear in more than one channel.</p>
+		</section>
+		<section id='bnck-database'>
+			<h2>Release</h2>
+			<dl class='definitions metadata'>
+				<div><dt>Identifier</dt><dd><code>{{ page.metadata.dataset_release }}</code></dd></div>
+				<div>
+					<dt>Generated</dt>
+					<dd><time datetime='{{ page.metadata.generated_at }}'>
+						{{ page.metadata.generated_at | replace('T', ' ') | replace('Z', ' UTC') }}
+					</time></dd>
+				</div>
+			</dl>
+		</section>
+	</div>
+</div>
+{% endblock %}

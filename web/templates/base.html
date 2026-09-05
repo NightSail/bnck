@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta name='description'
+		content='bnck maps executable names to projects and distribution packages.'>
+	<title>{{ site.title }} · bnck(1)</title>
+	<link rel='stylesheet' href='/style.css'>
+</head>
+<body>
+	<a class='skip-link' href='#main'>Skip to content</a>
+	<header class='site-header'>
+		<a class='brand' href='/' aria-label='bnck(1): bin name check, home'>
+			<span title='Manual section 1: executable programs and shell commands'>bnck(1)</span>
+			<span class='brand-description'>bin name check</span>
+		</a>
+		<nav aria-label='Main navigation'>
+			<a href='/' {% if site.section == 'index' %}aria-current='page'{% endif %}>Search</a>
+			<a href='/about' {% if site.section == 'dataset' %}aria-current='page'{% endif %}>Dataset</a>
+		</nav>
+		<a class='release-tag' href='/about#bnck-database'><span>Release</span> {{ site.release }}</a>
+	</header>
+	<main id='main' tabindex='-1'>{% block content %}{% endblock %}</main>
+	<footer class='site-footer'>
+		<p><strong>bnck(1)</strong> <span>bin name check</span></p>
+		<a href='/about'>Dataset details <span aria-hidden='true'>→</span></a>
+	</footer>
+</body>
+</html>

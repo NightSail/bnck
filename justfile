@@ -1,5 +1,7 @@
 set shell := ['bash', '-eu', '-o', 'pipefail', '-c']
 
+bnck := 'cargo run --quiet --bin bnck --'
+
 import 'justfiles/arch.just'
 import 'justfiles/crates.just'
 import 'justfiles/debian.just'
@@ -58,6 +60,9 @@ sign-release release_directory secret_key:
     	-s '{{ secret_key }}' \
     	-m '{{ release_directory }}/SHA256SUMS' \
     	-x '{{ release_directory }}/SHA256SUMS.minisig'
+
+serve database='var/bnck.sqlite.zst' address='127.0.0.1:3000':
+    {{ bnck }} serve --database '{{ database }}' --address '{{ address }}'
 
 fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 

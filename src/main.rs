@@ -4,8 +4,10 @@ mod importers;
 mod matcher;
 mod model;
 mod release;
+mod web;
 
 use std::collections::BTreeMap;
+use std::net::SocketAddr;
 use std::path::PathBuf;
 
 use anyhow::{Result, ensure};
@@ -168,9 +170,16 @@ enum Command {
 		#[arg(long, default_value_t = 20)]
 		limit: usize,
 	},
+	Serve {
+		#[arg(long, default_value = "var/bnck.sqlite.zst")]
+		database: PathBuf,
+		#[arg(long, default_value = "127.0.0.1:3000")]
+		address: SocketAddr,
+	},
 }
 
-fn main() -> Result<()> {
+#[tokio::main]
+async fn main() -> Result<()> {
 	let cli = Cli::parse();
 	let scope = scope_map(cli.scope)?;
 	let count = match cli.command {
@@ -233,6 +242,10 @@ fn main() -> Result<()> {
 		Command::SuggestProjects { channel, package, acquisitions, curations, limit } => {
 			let suggestions = matcher::suggest_projects(&acquisitions, &curations, &channel, &package, limit)?;
 			print_project_suggestions(&suggestions);
+			return Ok(());
+		},
+		Command::Serve { database, address } => {
+			web::serve(&database, address).await?;
 			return Ok(());
 		},
 	};
