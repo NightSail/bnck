@@ -1,58 +1,34 @@
 {% extends 'base.html' %}
 {% from 'components.html' import search_form, snapshot_note, count_label with context %}
-{% macro related_name_links(names, kind) %}
-	{% for name in names %}
-	<a class='related-name' href='/{{ kind }}s/{{ name | path_segment }}'>
-		<code>{{ name }}</code></a>{% if not loop.last %}, {% endif %}
-	{% endfor %}
-{% endmacro %}
-
-{% macro executable_rows(project, executables) %}
-	<ul class='executable-rows' role='list'>
-		{% for executable in executables %}
+{% macro related_rows(result, related) %}
+	<ul class='related-rows' role='list'>
+		{% for relation in related %}
 		<li>
 			<a class='related-name'
-				href='/projects/{{ project | path_segment }}#executable-{{ executable.name | path_segment }}'>
-				<code>{{ executable.name }}(1)</code></a>:
-			{% for channel in executable.channels %}
+				href='/projects/{{ result.name | path_segment }}#executable-{{ relation.name | path_segment }}'>
+				<code>{{ relation.name }}(1)</code></a>:
+			{% for channel in relation.channels %}
 			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
 			{% endfor %}
-			{% if executable.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
 		</li>
 		{% endfor %}
 	</ul>
 {% endmacro %}
 
-{% macro search_relationship(identity) %}
-	{{ 'Provided by' if identity.kind == 'executable' else 'Provides' }}
-	{% if identity.related_names %}
-		{% set related_kind = 'project' if identity.kind == 'executable' else 'executable' %}
-		{{ related_name_links(identity.related_names, related_kind) }}
-	{% elif identity.kind == 'executable' %}
-		{{ count_label(identity.related_count, 'project', 'projects') }}
-	{% else %}
-		{{ count_label(identity.related_count, 'executable', 'executables') }}
-	{% endif %}
-{% endmacro %}
-
 {% block content %}
 <section class='page-heading search-heading'>
 	<h1>{% if page.query %}Search results{% else %}Browse{% endif %}</h1>
-	{{ search_form(page.query, page.kind, page.channel) }}
+	{{ search_form(page.query, page.channel) }}
 	<p class='search-hint' id='search-hint'>Leave blank to browse. Apply filters with Search.</p>
 </section>
 <div class='content-layout'>
 	<section class='search-results' aria-labelledby='results-title'>
 		<div class='results-heading'>
 			<h2 id='results-title'>
-				{% if page.kind == 'executable' %}
-				{{ count_label(page.results.total, 'matching executable', 'matching executables') }}
-				{% else %}
 				{{ count_label(page.results.total, 'matching project', 'matching projects') }}
-				{% endif %}
 				{% if page.query %}for <code>“{{ page.query }}”</code>{% endif %}
 			</h2>
-			{% if page.query or page.channel or page.kind != 'all' %}
+			{% if page.query or page.channel %}
 			<a class='text-link' href='/?q='>Reset search</a>
 			{% endif %}
 		</div>
@@ -61,62 +37,29 @@
 			Open a result for all listed channels.</p>
 		{% endif %}
 		{% if page.results.rows %}
-		{% if page.kind == 'all' %}
 		<ul class='name-results' role='list' aria-label='Matching projects'>
 			{% for result in page.results.rows %}
 			<li>
 				<article class='name-result' aria-labelledby='result-{{ loop.index }}'>
 					<header class='name-result-heading'>
 						<h3 id='result-{{ loop.index }}'>
-							<a href='/projects/{{ result.name | path_segment }}'><code>{{ result.name }}</code></a>
+							<a href='/projects/{{ result.name | path_segment }}'>
+								<code>{{ result.name }}</code></a>
 						</h3>
-						{% if result.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
 					</header>
-					{{ executable_rows(result.name, result.project_executables[:page.related_name_limit]) }}
-					{% if result.project_executables | length > page.related_name_limit %}
-					<details class='more-executables'>
-						<summary>{{ count_label(result.project_executables | length - page.related_name_limit,
+					{{ related_rows(result, result.related[:page.related_name_limit]) }}
+					{% if result.related | length > page.related_name_limit %}
+					<details class='more-related'>
+						<summary>{{ count_label(result.related | length - page.related_name_limit,
 							'more executable', 'more executables') }}
-							<span class='visually-hidden'> from {{ result.name }}</span></summary>
-						{{ executable_rows(result.name, result.project_executables[page.related_name_limit:]) }}
+							<span class='visually-hidden'> for {{ result.name }}</span></summary>
+						{{ related_rows(result, result.related[page.related_name_limit:]) }}
 					</details>
 					{% endif %}
 				</article>
 			</li>
 			{% endfor %}
 		</ul>
-		{% else %}
-		<table class='results-table'>
-			<caption class='visually-hidden'>
-				Matching {{ 'executable names' if page.kind == 'executable' else 'project IDs' }}
-			</caption>
-			<thead>
-				<tr>
-					<th scope='col'>Name</th>
-					<th scope='col'>{{ 'Projects' if page.kind == 'executable' else 'Executables' }}</th>
-					<th scope='col'>Channels</th>
-				</tr>
-			</thead>
-			<tbody>
-				{% for result in page.results.rows %}
-				{% set identity = result.identity %}
-				<tr>
-					<th scope='row'>
-						<a class='result-name' href='/{{ identity.kind }}s/{{ result.name | path_segment }}'>
-							<code>{{ result.name }}</code><span aria-hidden='true'>↗</span>
-						</a>
-						<span class='result-type'>
-							{{ identity.kind }}
-							{% if result.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
-						</span>
-					</th>
-					<td>{{ search_relationship(identity) }}</td>
-					<td>{{ identity.channel_count | number }}</td>
-				</tr>
-				{% endfor %}
-			</tbody>
-		</table>
-		{% endif %}
 		<nav class='pagination' aria-label='Result pages'>
 			<span>
 				{{ page.results.start | number }}–{{ page.results.end | number }} of {{ page.results.total | number }}
@@ -140,11 +83,8 @@
 			<h2>Search notes</h2>
 			<p>Matches parts of executable names and project IDs, not package names.</p>
 			<p>ASCII case is ignored. Exact matches appear first.</p>
-			{% if page.kind == 'all' %}
-			<p>Executables are grouped by owning project. Matching commands appear first;
-				counts cover the project.</p>
-			<p>Shared command names appear under each owner. Select Executables for a flat name index.</p>
-			{% endif %}
+			<p>Executables are grouped by owning project. Matching commands appear first.</p>
+			<p>Shared command names appear under each owner.</p>
 		</section>
 		{{ snapshot_note() }}
 	</aside>

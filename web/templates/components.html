@@ -2,7 +2,7 @@
 	{{ count | number }} {{ singular if count == 1 else plural }}
 {%- endmacro %}
 
-{% macro search_form(query='', kind='all', channel='') %}
+{% macro search_form(query='', channel='') %}
 <form class='search-form' action='/' method='get' role='search'>
 	<label class='visually-hidden' for='q'>Executable name or project ID</label>
 	<div class='search-input'>
@@ -12,14 +12,6 @@
 		<button type='submit'>Search <span aria-hidden='true'>↵</span></button>
 	</div>
 	<div class='search-filters'>
-		<div>
-			<label for='kind'>Type</label>
-			<select id='kind' name='kind'>
-				<option value='all' {% if kind == 'all' %}selected{% endif %}>All types</option>
-				<option value='executable' {% if kind == 'executable' %}selected{% endif %}>Executables</option>
-				<option value='project' {% if kind == 'project' %}selected{% endif %}>Projects</option>
-			</select>
-		</div>
 		<div>
 			<label for='channel'>Channel</label>
 			<select id='channel' name='channel'>

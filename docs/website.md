@@ -13,7 +13,7 @@ Public copy uses short, descriptive headings and instructions. It explains looku
 ## Views
 
 - Home: Search entry point, an example lookup, dataset counts, and browse links
-- Search: Executable names and project IDs grouped by owning project, with executable links, exact-match labels, relationship summaries, and pagination; type-specific searches retain flat indexes
+- Search: Executable names and project IDs grouped by owning project, with executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
 - Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, and generation date
@@ -29,19 +29,20 @@ Search uses GET requests to `/` so results can be bookmarked and shared.
 | Parameter | Meaning | Default |
 | --- | --- | --- |
 | `q` | Literal substring of an executable name or project ID; at most 100 Unicode characters after trimming surrounding whitespace | Absent shows the home page; empty browses the index |
-| `kind` | `all`, `executable`, or `project` | `all` |
 | `channel` | A supported channel key, or empty for all channels | Empty |
 | `page` | Positive page number | `1` |
 
-Search folds ASCII letter case, but does not normalize Unicode or interpret wildcards. Matches rank by exact spelling, case-insensitive equality, prefix, then other substring matches. Shorter matching names rank first within each class. “All types” ranks each project by its best matching project ID or executable name, breaking ties by project ID. Type-specific searches break ties by exact name. Empty-name browsing sorts by project ID or executable name, depending on the selected type.
+Search folds ASCII letter case, but does not normalize Unicode or interpret wildcards. Matches rank by exact spelling, case-insensitive equality, prefix, then other substring matches. Shorter matching names rank first within each class. Each project ranks by its best matching project ID or executable name, breaking ties by project ID. Empty-name browsing sorts by project ID.
 
-“All types” returns one group per owning project, whether the query matches its ID or one of its executable names. Ownership comes from accepted provider records, never a shared prefix or an inferred main executable. Independently owned ecosystem tools remain separate projects. A command provided by multiple projects appears under each matching owner, with executable links opening the corresponding section on that owner's project page.
+Search returns one group per owning project, whether the query matches its ID or one of its executable names. Ownership comes from accepted provider records, never a shared prefix or an inferred main executable. Independently owned ecosystem tools remain separate projects. A command provided by multiple projects appears under each matching owner, with executable links opening the corresponding section on that owner's project page.
 
-Each project group has an underlined project heading linking to project details. It previews up to three executable rows, each showing an underlined `name(1)` link followed by the distinct channels providing that executable within the project. Additional rows use the same format inside a native “X more executables” disclosure that works without JavaScript. Executables are ordered by match quality and then length and spelling, with nonmatches last; browsing orders them by exact name. Exact executable matches are labelled and remain in the preview even for large projects.
+Results use a minimal grouped layout without column headers, type labels, arrows, relationship prefixes, or channel counts. Each group shows an underlined project heading linking to project details, followed by executable rows. Each row has an underlined `name(1)` link followed by the distinct channels for that project/executable pair. Executable links open the executable's section on the owning project's page.
 
-Each page contains at most 30 projects in “All types” and project-only searches, or 30 distinct exact-spelling names in executable-only searches. Totals count the corresponding groups across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
+Each group previews up to three executable rows. Additional rows use the same format inside a native “N more executables” disclosure that works without JavaScript. Executables are ordered by match quality and then length and spelling, with nonmatches last; exact executable matches remain in the preview even for large projects. Empty-name browsing orders executable rows by exact name.
 
-Type-specific searches retain single-purpose tables and match only the selected identity type. Their relationship summaries link the actual related names when there are at most three, otherwise they show the relationship count. A channel filter applies to matches, group membership, counts, and executable lists. Project counts include all of the project's records in the selected channels, not only records for matching executable names. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
+Each page contains at most 30 projects. Totals count matching projects across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
+
+A channel filter applies to matches, group membership, totals, and executable rows. Each group includes all related names in the selected channel, not only matching names. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
 
 Detail routes retain exact, case-sensitive lookup semantics:
 

@@ -2,7 +2,7 @@
 {% from 'components.html' import provider_group, snapshot_note, count_label with context %}
 {% block content %}
 <section class='page-heading detail-heading'>
-	<a class='back-link' href='/?q=&kind=executable'>← Executables</a>
+	<a class='back-link' href='/?q='>← Browse names</a>
 	<p class='eyebrow'>Executable</p>
 	<h1><span class='command-prefix' aria-hidden='true'>$ </span><code>{{ page.executable }}</code></h1>
 	<p class='lead'>{{ count_label(page.project_count, 'project', 'projects') }}.</p>

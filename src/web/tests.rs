@@ -8,10 +8,7 @@ use axum::http::{StatusCode, Uri, header};
 use axum::response::Response;
 use tempfile::tempdir;
 
-use super::{
-	Database, SEARCH_PAGE_SIZE, SearchKind, SearchQuery, about, executable_page, home, project_page, render_page,
-	search_page,
-};
+use super::{Database, SEARCH_PAGE_SIZE, SearchQuery, about, executable_page, home, project_page, render_page, search_page};
 use crate::model::{Provider, write_json_lines};
 use crate::release::{SqliteMetadata, generate_sqlite_artifact};
 
@@ -74,7 +71,7 @@ const RANKING_RECORDS: &[(&str, &str, &str, &str)] = &[
 ];
 
 pub(super) fn search_query(query: &str) -> SearchQuery {
-	SearchQuery { q: Some(query.to_owned()), kind: SearchKind::All, channel: String::new(), page: 1 }
+	SearchQuery { q: Some(query.to_owned()), channel: String::new(), page: 1 }
 }
 
 fn provider(record: (&str, &str, &str, &str)) -> Provider {
@@ -117,11 +114,7 @@ fn fixture(records: impl IntoIterator<Item = Provider>) -> Database {
 }
 
 fn executable_names(result: &super::SearchResult) -> Vec<&str> {
-	result
-		.project_executables
-		.iter()
-		.map(|executable| executable.name.as_str())
-		.collect()
+	result.related.iter().map(|executable| executable.name.as_str()).collect()
 }
 
 fn assert_executable_row(html: &str, project: &str, executable: &str, channels: &str) {
@@ -134,7 +127,6 @@ fn assert_executable_row(html: &str, project: &str, executable: &str, channels: 
 	let row = html.split_once(&href).unwrap().1.split_once("</li>").unwrap().0;
 	let row = row.split_whitespace().collect::<Vec<_>>().join(" ");
 	let channel_text = row.split_once("(1)</code></a>: ").unwrap().1;
-	let channel_text = channel_text.split_once("<span").map_or(channel_text, |(text, _)| text);
 	assert_eq!(channel_text.trim(), channels);
 }
 
@@ -154,9 +146,7 @@ fn search_groups_by_owner_and_ranks_each_projects_best_match() {
 	assert_eq!(names, ["helix", "hx", "other", "case"]);
 	assert_eq!(results.total, 4);
 	let group = &results.rows[0];
-	assert!(matches!(group.identity.kind, super::IdentityKind::Project));
-	assert_eq!(group.identity.related_count, 1);
-	assert_eq!(group.identity.channel_count, 2);
+	assert_eq!(group.related[0].channels, ["crates.io", "debian"]);
 	assert_eq!(executable_names(group), ["hx"]);
 	assert_eq!(executable_names(&results.rows[1]), ["hx-admin"]);
 	assert_eq!(executable_names(&results.rows[2]), ["hx"]);
@@ -168,40 +158,20 @@ fn search_groups_by_owner_and_ranks_each_projects_best_match() {
 }
 
 #[test]
-fn executable_only_search_retains_flat_names_ranking_and_all_owners() {
+fn channel_filters_count_only_matching_relations() {
 	let database = sample_database();
 	let mut search = search_query("hx");
-	search.kind = SearchKind::Executable;
-	let results = database.search(&search).unwrap();
-	let names: Vec<_> = results.rows.iter().map(|row| row.name.as_str()).collect();
-	assert_eq!(names, ["hx", "HX", "hx-admin"]);
-	assert_eq!(results.total, 3);
-	let identity = &results.rows[0].identity;
-	assert!(matches!(identity.kind, super::IdentityKind::Executable));
-	assert_eq!(identity.related_count, 2);
-	assert_eq!(identity.channel_count, 3);
-	assert_eq!(identity.related_names, ["helix", "other"]);
-}
-
-#[test]
-fn channel_and_kind_filters_count_only_matching_relations() {
-	let database = sample_database();
-	let mut search = search_query("hx");
-	search.kind = SearchKind::Executable;
 	search.channel = "npm".to_owned();
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 1);
-	assert!(results.rows[0].project_executables.is_empty());
-	let identity = &results.rows[0].identity;
-	assert_eq!(identity.related_count, 1);
-	assert_eq!(identity.channel_count, 1);
-	assert_eq!(identity.related_names, ["other"]);
-	search.kind = SearchKind::Project;
-	assert_eq!(database.search(&search).unwrap().total, 0);
+	assert_eq!(results.rows[0].name, "other");
+	let related = &results.rows[0].related;
+	assert_eq!(related.len(), 1);
+	assert_eq!(related[0].name, "hx");
+	assert_eq!(related[0].channels, ["npm"]);
 	search.channel = "debian".to_owned();
 	let results = database.search(&search).unwrap();
-	assert_eq!(results.total, 1);
-	assert!(matches!(results.rows[0].identity.kind, super::IdentityKind::Project));
+	assert_eq!(results.total, 3);
 	assert_eq!(
 		database
 			.channels
@@ -222,8 +192,8 @@ fn project_summaries_keep_counts_filtered_without_double_counting() {
 		let results = database.search(&search).unwrap();
 		assert_eq!((results.total, results.start, results.end), (1, 1, 1));
 		let group = &results.rows[0];
-		assert_eq!(group.identity.channel_count, channels);
-		assert_eq!(group.identity.related_count, 1);
+		assert_eq!(group.related.len(), 1);
+		assert_eq!(group.related[0].channels.len(), channels);
 		assert_eq!(executable_names(group), ["eslint"]);
 	}
 }
@@ -256,14 +226,14 @@ fn companion_executables_group_by_ownership_not_prefix() {
 		let results = database.search(&search_query(query)).unwrap();
 		assert_eq!(results.total, 2);
 		assert_eq!(results.rows[0].name, "age");
-		assert_eq!(results.rows[0].project_executables.len(), 4);
+		assert_eq!(results.rows[0].related.len(), 4);
 		assert_eq!(results.rows[1].name, "age-plugin-yubikey");
 		assert_eq!(executable_names(&results.rows[1]), ["age-plugin-yubikey"]);
 	}
 	let results = database.search(&search_query("age-keygen")).unwrap();
 	assert_eq!(results.total, 1);
 	assert_eq!(results.rows[0].name, "age");
-	assert_eq!(results.rows[0].project_executables[0].name, "age-keygen");
+	assert_eq!(results.rows[0].related[0].name, "age-keygen");
 
 	let database = fixture(AERC_RECORDS.iter().copied().map(provider));
 	let results = database.search(&search_query("")).unwrap();
@@ -293,18 +263,13 @@ fn case_variants_preserve_exact_executable_identities() {
 			.into_iter()
 			.map(provider),
 	);
-	let mut search = search_query("tool");
+	let search = search_query("tool");
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 2);
 	assert_eq!(results.rows[0].name, "tool");
 	assert_eq!(results.rows[1].name, "upper");
 	assert_eq!(executable_names(&results.rows[0]), ["tool"]);
 	assert_eq!(executable_names(&results.rows[1]), ["Tool"]);
-	search.kind = SearchKind::Executable;
-	let results = database.search(&search).unwrap();
-	assert_eq!(results.total, 2);
-	assert_eq!(results.rows[0].name, "tool");
-	assert_eq!(results.rows[1].name, "Tool");
 }
 
 #[test]
@@ -332,10 +297,12 @@ fn search_treats_wildcards_and_sql_as_literal_text() {
 
 #[test]
 fn browse_paginates_every_result_without_duplicates() {
-	let database =
-		fixture((0..68).map(|index| provider(("tools", &format!("command-{index:03}"), "debian", "toolbox"))));
+	let database = fixture((0..68).flat_map(|index| {
+		(0..4).map(move |command| {
+			provider((&format!("owner-{index:03}"), &format!("command-{command}"), "debian", "toolbox"))
+		})
+	}));
 	let mut search = search_query("");
-	search.kind = SearchKind::Executable;
 	search.channel = "debian".to_owned();
 	let mut names = BTreeSet::new();
 	for page in 1..=3 {
@@ -349,9 +316,10 @@ fn browse_paginates_every_result_without_duplicates() {
 			let Query(parsed) = Query::<SearchQuery>::try_from_uri(&next.parse().unwrap()).unwrap();
 			assert_eq!(parsed.page, page + 1);
 			assert_eq!(parsed.channel, "debian");
-			assert!(parsed.kind == SearchKind::Executable);
+			assert!(!next.contains("kind="));
 		}
 		for row in results.rows {
+			assert_eq!(row.related.len(), 4);
 			assert!(names.insert(row.name));
 		}
 	}
@@ -361,7 +329,7 @@ fn browse_paginates_every_result_without_duplicates() {
 }
 
 #[test]
-fn all_types_paginates_projects_without_splitting_executable_lists() {
+fn search_paginates_projects_without_splitting_executable_lists() {
 	let database = fixture((0..68).flat_map(|index| {
 		let name = format!("tool-{index:03}");
 		let executable_count = if index == 0 { 40 } else { 2 };
@@ -385,11 +353,10 @@ fn all_types_paginates_projects_without_splitting_executable_lists() {
 			assert_eq!(parsed.page, page + 1);
 			assert_eq!(parsed.query(), "tool");
 			assert_eq!(parsed.channel, "debian");
-			assert!(parsed.kind == SearchKind::All);
+			assert!(!next.contains("kind="));
 		}
 		for row in results.rows {
-			assert_eq!(row.project_executables.len(), if row.name == "tool-000" { 40 } else { 2 });
-			assert_eq!(row.identity.related_count, row.project_executables.len() as u64);
+			assert_eq!(row.related.len(), if row.name == "tool-000" { 40 } else { 2 });
 			assert!(names.insert(row.name));
 		}
 	}
@@ -570,20 +537,17 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	assert!(!html.contains("4 provider records"));
 	assert_executable_row(&html, "eslint", "eslint", "Debian, Homebrew, npm");
 	assert_eq!(html.matches("href='/projects/eslint'").count(), 1);
-	assert!(html.contains(
-		"<h3 id='result-1'>\n\t\t\t\t\t\t\t<a href='/projects/eslint'><code>eslint</code></a>\n\t\t\t\t\t\t</h3>"
-	));
+	let normalized = html.split_whitespace().collect::<Vec<_>>().join(" ");
+	assert!(normalized.contains("<h3 id='result-1'> <a href='/projects/eslint'> <code>eslint</code></a> </h3>"));
 	assert!(!html.contains("Project details"));
 	assert!(html.contains("1 matching project"));
 	assert!(!html.contains("class='results-table'"));
-	for kind in [SearchKind::Executable, SearchKind::Project] {
-		let mut search = search_query("eslint");
-		search.kind = kind;
-		let html = response_text(search_page(&database, search)).await;
-		assert!(html.contains("class='results-table'"));
-		assert!(!html.contains("class='name-result'"));
-		assert!(html.contains("class='related-name'"));
-	}
+	assert!(!html.contains("name='kind'"));
+	assert!(!html.contains("class='result-type'"));
+	assert!(!html.contains("Provided by"));
+	assert!(!html.contains("Provides"));
+	assert!(!html.contains("class='exact-badge'"));
+	assert!(!html.contains("↗"));
 }
 
 #[tokio::test]
@@ -596,7 +560,7 @@ async fn project_groups_include_nonprefixed_executables_and_use_project_counts()
 		assert_eq!(results.total, 1);
 		let group = &results.rows[0];
 		assert_eq!(executable_names(group), ["aerc", "carddav-query"]);
-		assert_eq!(group.identity.channel_count, channels);
+		assert_eq!(group.related[1].channels.len(), channels);
 		let html = response_text(search_page(&database, search)).await;
 		assert_eq!(html.matches("class='name-result'").count(), 1);
 		assert_eq!(html.matches("<code>aerc</code>").count(), 1);
@@ -668,16 +632,16 @@ async fn grouped_lists_expand_without_javascript_and_keep_exact_matches_visible(
 		for index in 0..count {
 			assert_executable_row(&html, "tools", &format!("command-{index}"), "npm");
 		}
-		assert_eq!(html.contains("<details class='more-executables'>"), count > 3);
+		assert_eq!(html.contains("<details class='more-related'>"), count > 3);
 		if count > 3 {
-			let (preview, expanded) = html.split_once("<details class='more-executables'>").unwrap();
+			let (preview, expanded) = html.split_once("<details class='more-related'>").unwrap();
 			assert_eq!(preview.matches("class='related-name'").count(), 3);
 			assert!(expanded.contains("1 more executable"));
 			assert_executable_row(expanded, "tools", "command-3", "npm");
 			let html = response_text(search_page(&database, search_query("command-3"))).await;
-			let preview = html.split_once("<details class='more-executables'>").unwrap().0;
+			let preview = html.split_once("<details class='more-related'>").unwrap().0;
 			assert_executable_row(preview, "tools", "command-3", "npm");
-			assert!(preview.contains("Exact match"));
+			assert!(preview.contains("<code>command-3(1)</code>"));
 		}
 	}
 }
@@ -704,23 +668,36 @@ async fn renders_shared_commands_under_every_matching_owner() {
 }
 
 #[tokio::test]
-async fn type_specific_relationship_summaries_link_small_sets_and_count_large_sets() {
-	for count in [3, 4] {
-		let database =
-			fixture((0..count).map(|index| provider(("tools", &format!("command-{index}"), "npm", "tools"))));
-		let mut search = search_query("tools");
-		search.kind = SearchKind::Project;
+async fn search_previews_three_executables_and_expands_the_remainder() {
+	for count in [1, 2, 3, 4, 6] {
+		let database = fixture((0..count).flat_map(|index| {
+			let executable = format!("related-{index}");
+			/* Multiple packages in one channel must not duplicate rows or channel labels. */
+			[provider(("tools", &executable, "npm", "tools")), provider(("tools", &executable, "npm", "alias"))]
+		}));
+		let search = search_query("tools");
 		let results = database.search(&search).unwrap();
-		let identity = &results.rows[0].identity;
-		assert_eq!(identity.related_count, count);
+		assert_eq!(results.total, 1);
+		let related = &results.rows[0].related;
+		assert_eq!(related.len(), count);
+		for (index, relation) in related.iter().enumerate() {
+			assert_eq!(relation.name, format!("related-{index}"));
+			assert_eq!(relation.channels, ["npm"]);
+		}
 		let html = response_text(search_page(&database, search)).await;
-		if count == 3 {
-			assert_eq!(identity.related_names, ["command-0", "command-1", "command-2"]);
-			assert_eq!(html.matches("class='related-name'").count(), 3);
+		assert_eq!(html.matches("class='name-result'").count(), 1);
+		assert_eq!(html.matches("class='related-name'").count(), count);
+		assert!(!html.contains("Provides"));
+		assert!(!html.contains("Provided by"));
+		if count > 3 {
+			let (preview, expanded) = html.split_once("<details class='more-related'>").unwrap();
+			assert_eq!(preview.matches("class='related-name'").count(), 3);
+			assert!(!preview.contains("related-3"));
+			assert!(expanded.contains("related-3"));
+			let plural = if count == 4 { "" } else { "s" };
+			assert!(expanded.contains(&format!("{} more executable{plural}", count - 3)));
 		} else {
-			assert!(identity.related_names.is_empty());
-			assert!(!html.contains("class='related-name'"));
-			assert!(html.contains("4 executables"));
+			assert!(!html.contains("<details class='more-related'>"));
 		}
 	}
 }
@@ -734,34 +711,32 @@ async fn web_pages_hide_provider_record_details() {
 			executable_page(&database, "hx"),
 			about(State(database.clone())).await,
 		];
-		for kind in [SearchKind::All, SearchKind::Executable, SearchKind::Project] {
-			for channel in ["", "debian"] {
-				let search = SearchQuery { kind, channel: channel.to_owned(), ..search_query("") };
-				pages.push(search_page(&database, search));
-			}
+		for channel in ["", "debian"] {
+			let search = SearchQuery { channel: channel.to_owned(), ..search_query("") };
+			pages.push(search_page(&database, search));
 		}
 		for response in pages {
 			let html = response_text(response).await;
 			assert!(!html.to_ascii_lowercase().contains("provider record"));
 			assert!(!html.contains("provider_count"));
+			assert!(!html.contains("name='kind'"));
+			assert!(!html.contains("kind="));
 			assert!(!html.contains("<th scope='col'>Records</th>"));
 		}
 	}
 }
 
 #[tokio::test]
-async fn type_specific_searches_show_channel_counts_without_record_counts() {
+async fn legacy_type_parameters_use_the_same_project_grouped_search() {
 	let database = sample_database();
-	for (kind, query, count) in [(SearchKind::Executable, "hx", 3), (SearchKind::Project, "helix", 2)] {
-		for (channel, expected) in [("", count), ("debian", 1)] {
-			let search = SearchQuery { kind, channel: channel.to_owned(), ..search_query(query) };
-			let html = response_text(search_page(&database, search)).await;
-			assert!(html.contains("<th scope='col'>Channels</th>"));
-			let row = html.split_once("<tbody>").unwrap().1.split_once("</tr>").unwrap().0;
-			let cells: Vec<_> = row.split("<td>").skip(1).collect();
-			assert_eq!(cells.len(), 2);
-			assert_eq!(cells[1].split_once("</td>").unwrap().0, expected.to_string());
-		}
+	let expected = response_text(search_page(&database, search_query("hx"))).await;
+	for kind in ["all", "project", "executable", "unknown"] {
+		let uri = format!("/?q=hx&kind={kind}");
+		let Query(search) = Query::<SearchQuery>::try_from_uri(&uri.parse().unwrap()).unwrap();
+		let html = response_text(search_page(&database, search)).await;
+		assert_eq!(html, expected);
+		assert!(!html.contains("name='kind'"));
+		assert!(!html.contains("kind="));
 	}
 }
 
@@ -772,7 +747,7 @@ async fn handles_invalid_queries_and_missing_identities() {
 		let Query(search) = Query::<SearchQuery>::try_from_uri(&uri.parse().unwrap()).unwrap();
 		assert_eq!(search_page(&database, search).status(), StatusCode::BAD_REQUEST);
 	}
-	for uri in ["/?kind=package", "/?page=-1", "/?page=abc", "/?page=4294967296"] {
+	for uri in ["/?page=-1", "/?page=abc", "/?page=4294967296"] {
 		assert!(Query::<SearchQuery>::try_from_uri(&uri.parse().unwrap()).is_err());
 	}
 	assert_eq!(executable_page(&database, "Hx").status(), StatusCode::NOT_FOUND);
@@ -780,7 +755,7 @@ async fn handles_invalid_queries_and_missing_identities() {
 	let search = search_query("é".repeat(100).as_str());
 	assert_eq!(search_page(&database, search).status(), StatusCode::OK);
 	let database = Arc::new(database);
-	for uri in ["/?kind=package", "/?page=-1", "/?page=abc"] {
+	for uri in ["/?page=-1", "/?page=abc"] {
 		let query = Query::<SearchQuery>::try_from_uri(&uri.parse().unwrap());
 		let response = home(State(database.clone()), query).await;
 		assert_eq!(response.status(), StatusCode::BAD_REQUEST);

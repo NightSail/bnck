@@ -28,13 +28,13 @@ const MAX_QUERY_CHARACTERS: usize = 100;
 
 /* Discovery folds ASCII case; grouping and detail lookups preserve exact identities. */
 const SEARCH_MATCHES: &str = "WITH matching_names AS (
-	SELECT CASE WHEN ?3 = 'all' THEN project ELSE executable END AS name, executable AS matched_name
+	SELECT project AS name, executable AS matched_name
 	FROM providers
-	WHERE ?3 != 'project' AND instr(lower(executable), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
+	WHERE instr(lower(executable), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
 	UNION
 	SELECT project AS name, project AS matched_name
 	FROM providers
-	WHERE ?3 != 'executable' AND instr(lower(project), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
+	WHERE instr(lower(project), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
 ), ranked_names AS (
 	SELECT name, matched_name,
 		CASE
@@ -143,21 +143,19 @@ impl Database {
 	fn search(&self, search: &SearchQuery) -> Result<SearchResults> {
 		let connection = self.connection()?;
 		let query = search.query();
-		let parameters = params![query, search.channel, search.kind.as_str()];
+		let parameters = params![query, search.channel];
 		let total: u64 =
 			connection
 				.query_row(&format!("{SEARCH_MATCHES} SELECT count(*) FROM matches"), parameters, |row| row.get(0))?;
 		let mut statement = connection.prepare(&format!(
 			"{SEARCH_MATCHES} SELECT name FROM matches
 			 ORDER BY match_rank, CASE WHEN ?1 != '' THEN match_length END, name
-			 LIMIT ?4 OFFSET ?5"
+			 LIMIT ?3 OFFSET ?4"
 		))?;
 		let offset = u64::from(search.page.saturating_sub(1)) * SEARCH_PAGE_SIZE;
-		/* Page groups before reading their executable lists so a project never crosses a page boundary. */
+		/* Page identities before reading related rows so a group never crosses a page boundary. */
 		let names = statement
-			.query_map(params![query, search.channel, search.kind.as_str(), SEARCH_PAGE_SIZE, offset], |row| {
-				row.get::<_, String>(0)
-			})?;
+			.query_map(params![query, search.channel, SEARCH_PAGE_SIZE, offset], |row| row.get::<_, String>(0))?;
 		let rows = names
 			.map(|name| read_search_result(&connection, name?, search))
 			.collect::<Result<Vec<_>>>()?;
@@ -324,81 +322,22 @@ struct SearchResults {
 #[derive(Serialize)]
 struct SearchResult {
 	name: String,
-	identity: SearchIdentity,
-	project_executables: Vec<SearchExecutable>,
+	related: Vec<SearchRelation>,
 }
 
 #[derive(Serialize)]
-struct SearchExecutable {
+struct SearchRelation {
 	name: String,
 	channels: Vec<String>,
 }
 
-#[derive(Clone, Copy, Serialize)]
-#[serde(rename_all = "lowercase")]
-enum IdentityKind {
-	Executable,
-	Project,
-}
-
-impl IdentityKind {
-	fn columns(self) -> (&'static str, &'static str) {
-		match self {
-			Self::Executable => ("executable", "project"),
-			Self::Project => ("project", "executable"),
-		}
-	}
-}
-
-#[derive(Serialize)]
-struct SearchIdentity {
-	kind: IdentityKind,
-	related_count: u64,
-	channel_count: u64,
-	related_names: Vec<String>,
-}
-
 fn read_search_result(connection: &Connection, name: String, search: &SearchQuery) -> Result<SearchResult> {
-	let kind = match search.kind {
-		SearchKind::All | SearchKind::Project => IdentityKind::Project,
-		SearchKind::Executable => IdentityKind::Executable,
-	};
-	let identity = read_search_identity(connection, &name, kind, &search.channel)?;
-	let project_executables =
-		if search.kind == SearchKind::All { read_search_executables(connection, &name, search)? } else { Vec::new() };
-	Ok(SearchResult { name, identity, project_executables })
+	let related = read_search_relations(connection, &name, search)?;
+	Ok(SearchResult { name, related })
 }
 
-fn read_search_identity(
-	connection: &Connection,
-	name: &str,
-	kind: IdentityKind,
-	channel: &str,
-) -> Result<SearchIdentity> {
-	/* Column names come only from the identity enum; dataset and search values remain bound parameters. */
-	let (column, related_column) = kind.columns();
-	let predicate = format!("FROM providers WHERE {column} = ?1 AND (?2 = '' OR channel = ?2)");
-	let mut statement = connection
-		.prepare_cached(&format!("SELECT count(DISTINCT {related_column}), count(DISTINCT channel) {predicate}"))?;
-	let mut identity = statement.query_row(params![name, channel], |row| {
-		Ok(SearchIdentity { kind, related_count: row.get(0)?, channel_count: row.get(1)?, related_names: Vec::new() })
-	})?;
-	if identity.related_count <= SEARCH_RELATED_NAME_LIMIT {
-		let mut statement = connection
-			.prepare_cached(&format!("SELECT DISTINCT {related_column} {predicate} ORDER BY {related_column}"))?;
-		identity.related_names = statement
-			.query_map(params![name, channel], |row| row.get(0))?
-			.collect::<rusqlite::Result<_>>()?;
-	}
-	Ok(identity)
-}
-
-fn read_search_executables(
-	connection: &Connection,
-	project: &str,
-	search: &SearchQuery,
-) -> Result<Vec<SearchExecutable>> {
-	/* Keep exact and partial command matches in the preview, even for projects with many executables. */
+fn read_search_relations(connection: &Connection, name: &str, search: &SearchQuery) -> Result<Vec<SearchRelation>> {
+	/* Keep matching commands in the preview, even for projects with many executables. */
 	let mut statement = connection.prepare_cached(
 		"SELECT DISTINCT executable, channel FROM providers
 		 WHERE project = ?1 AND (?2 = '' OR channel = ?2)
@@ -410,18 +349,18 @@ fn read_search_executables(
 			ELSE 4
 		 END, CASE WHEN ?3 != '' THEN length(executable) END, executable, channel",
 	)?;
-	let rows = statement.query_map(params![project, search.channel, search.query()], |row| {
+	let rows = statement.query_map(params![name, search.channel, search.query()], |row| {
 		Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
 	})?;
-	let mut executables = Vec::<SearchExecutable>::new();
+	let mut related = Vec::<SearchRelation>::new();
 	for row in rows {
 		let (name, channel) = row?;
-		match executables.last_mut() {
-			Some(executable) if executable.name == name => executable.channels.push(channel),
-			_ => executables.push(SearchExecutable { name, channels: vec![channel] }),
+		match related.last_mut() {
+			Some(relation) if relation.name == name => relation.channels.push(channel),
+			_ => related.push(SearchRelation { name, channels: vec![channel] }),
 		}
 	}
-	Ok(executables)
+	Ok(related)
 }
 
 struct ProjectProvider {
@@ -551,30 +490,9 @@ fn encode_package_path(package: &str) -> String {
 	package.split('/').map(encode_path_segment).collect::<Vec<_>>().join("/")
 }
 
-#[derive(Clone, Copy, Default, Deserialize, PartialEq, Serialize)]
-#[serde(rename_all = "lowercase")]
-enum SearchKind {
-	#[default]
-	All,
-	Executable,
-	Project,
-}
-
-impl SearchKind {
-	fn as_str(self) -> &'static str {
-		match self {
-			Self::All => "all",
-			Self::Executable => "executable",
-			Self::Project => "project",
-		}
-	}
-}
-
 #[derive(Deserialize)]
 struct SearchQuery {
 	q: Option<String>,
-	#[serde(default)]
-	kind: SearchKind,
 	#[serde(default)]
 	channel: String,
 	#[serde(default = "first_page")]
@@ -591,12 +509,7 @@ impl SearchQuery {
 	}
 
 	fn page_url(&self, page: u32) -> String {
-		format!(
-			"/?q={}&kind={}&channel={}&page={page}",
-			encode_path_segment(self.query()),
-			self.kind.as_str(),
-			encode_path_segment(&self.channel),
-		)
+		format!("/?q={}&channel={}&page={page}", encode_path_segment(self.query()), encode_path_segment(&self.channel))
 	}
 }
 
@@ -608,7 +521,7 @@ async fn home(State(database): State<Arc<Database>>, search: Result<Query<Search
 				&database,
 				StatusCode::BAD_REQUEST,
 				"Invalid search",
-				"Select a type using the form below. Page numbers start at 1.",
+				"Check the search parameters. Page numbers must be positive integers.",
 			);
 		},
 	};
@@ -624,7 +537,7 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			"Select a channel using the form below. Page numbers start at 1.",
 		);
 	}
-	if search.q.is_none() && search.kind == SearchKind::All && search.channel.is_empty() && search.page == 1 {
+	if search.q.is_none() && search.channel.is_empty() && search.page == 1 {
 		return render_response(
 			database,
 			StatusCode::OK,
@@ -651,7 +564,7 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			"search.html",
 			&if query.is_empty() { "Browse".to_owned() } else { format!("Search: {query}") },
 			context! {
-				query, results, kind => search.kind, channel => search.channel,
+				query, results, channel => search.channel,
 				related_name_limit => SEARCH_RELATED_NAME_LIMIT,
 			},
 		),
@@ -970,7 +883,7 @@ mod tests {
 			&database,
 			"search.html",
 			"Search",
-			minijinja::context! { query => "<script>", results, kind => "all", channel => "" },
+			minijinja::context! { query => "<script>", results, channel => "" },
 		)
 		.unwrap();
 		assert!(search.contains("&lt;script&gt;"));
