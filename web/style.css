@@ -842,27 +842,17 @@ thead th {
 }
 .project-links {
 	list-style: none;
-	margin: 0;
-}
-.project-links li + li {
-	border-top: 1px solid var(--line);
-}
-.project-links a {
-	display: block;
-	padding: 12px 0;
-	color: var(--cyan);
+	margin: 22px 0 30px;
+	color: var(--muted);
 	font-size: 12px;
 }
-.project-links a > span {
-	display: flex;
-	justify-content: space-between;
-}
-.project-links small {
-	display: block;
-	margin-top: 5px;
-	color: var(--muted);
-	font: 10px/1.7 var(--mono);
+.project-links a {
+	color: var(--cyan);
 	overflow-wrap: anywhere;
+}
+.project-links a:hover {
+	color: var(--green);
+	text-decoration: underline;
 }
 .ambiguity-note {
 	padding: 18px 22px;

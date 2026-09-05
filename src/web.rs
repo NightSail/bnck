@@ -986,8 +986,13 @@ mod tests {
 		.unwrap();
 		assert!(project.contains("https:&#x2f;&#x2f;crates.io&#x2f;crates&#x2f;helix-term"));
 		assert!(project.contains("https:&#x2f;&#x2f;packages.debian.org&#x2f;helix"));
-		assert!(project.contains("Homepage <span"));
-		assert!(project.contains("Repository <span"));
+		let heading = project.split("<div class='content-layout'>").next().unwrap();
+		assert!(heading.contains("Homepage:"));
+		assert!(heading.contains("Repository:"));
+		assert!(heading.contains(concat!(
+			"<a href='https:&#x2f;&#x2f;helix-editor.com&#x2f;' rel='external'>",
+			"https:&#x2f;&#x2f;helix-editor.com&#x2f;</a>"
+		)));
 		assert!(project.contains("<code>helix-term</code>"));
 		assert_eq!(project.matches("href='/executables/hx'").count(), 1);
 
