@@ -1,12 +1,15 @@
+use std::collections::BTreeMap;
 use std::fs::{self, File};
 use std::io::{self, Write};
-use std::path::Path;
+use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result, ensure};
 use rusqlite::{Connection, params};
+use serde::Serialize;
 use tempfile::NamedTempFile;
 
-use crate::model::{ProviderDataset, read_provider_dataset};
+use crate::acquisition::{PackageStatus, file_identity, read_snapshot_directory};
+use crate::model::{PROVIDER_SCHEMA_VERSION, ProviderDataset, read_provider_dataset};
 
 pub const SQLITE_SCHEMA_VERSION: u32 = 1;
 
@@ -54,10 +57,10 @@ fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<
 		) WITHOUT ROWID;
 
 		CREATE TABLE providers (
-			project TEXT NOT NULL,
-			executable TEXT NOT NULL,
-			channel TEXT NOT NULL,
-			package TEXT NOT NULL,
+			project TEXT NOT NULL CHECK (length(project) > 0),
+			executable TEXT NOT NULL CHECK (length(executable) > 0 AND instr(executable, '/') = 0),
+			channel TEXT NOT NULL CHECK (channel IN ('arch', 'crates.io', 'debian', 'fedora', 'homebrew', 'npm', 'pypi')),
+			package TEXT NOT NULL CHECK (length(package) > 0),
 			PRIMARY KEY (project, executable, channel, package)
 		) WITHOUT ROWID;
 
@@ -78,6 +81,7 @@ fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<
 
 	let metadata_values = [
 		("schema_version", SQLITE_SCHEMA_VERSION.to_string()),
+		("dataset_schema_version", PROVIDER_SCHEMA_VERSION.to_string()),
 		("dataset_release", metadata.dataset_release.to_owned()),
 		("dataset_sha256", dataset.sha256.clone()),
 		("provider_count", dataset.provider_count.to_string()),
@@ -97,15 +101,285 @@ fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<
 	Ok(dataset)
 }
 
-fn validate_metadata(metadata: &SqliteMetadata<'_>) -> Result<()> {
-	for (name, value) in [
-		("dataset release", metadata.dataset_release),
-		("generation timestamp", metadata.generated_at),
-		("generator version", metadata.generator_version),
-		("generator revision", metadata.generator_revision),
-	] {
-		ensure!(!value.trim().is_empty(), "{name} is empty");
+#[derive(Serialize)]
+struct ReleaseManifest<'a> {
+	format: &'static str,
+	format_version: u32,
+	release: &'a str,
+	generated_at: &'a str,
+	dataset: DatasetManifest,
+	generator: GeneratorManifest<'a>,
+	artifacts: Vec<ArtifactManifest>,
+	channels: Vec<ChannelManifest>,
+}
+
+#[derive(Serialize)]
+struct DatasetManifest {
+	schema_version: u32,
+	sha256: String,
+	provider_count: usize,
+}
+
+#[derive(Serialize)]
+struct GeneratorManifest<'a> {
+	version: &'static str,
+	source_revision: &'a str,
+}
+
+#[derive(Serialize)]
+struct ArtifactManifest {
+	name: String,
+	media_type: &'static str,
+	compression: &'static str,
+	#[serde(skip_serializing_if = "Option::is_none")]
+	schema_version: Option<u32>,
+	sha256: String,
+	size: u64,
+}
+
+#[derive(Serialize)]
+struct ChannelManifest {
+	name: String,
+	scope: BTreeMap<String, String>,
+	snapshot_manifest: SnapshotManifest,
+	package_count: usize,
+	provider_count: usize,
+	status: String,
+}
+
+#[derive(Serialize)]
+struct SnapshotManifest {
+	path: String,
+	sha256: String,
+}
+
+pub struct ReleaseMetadata<'a> {
+	pub release: &'a str,
+	pub generated_at: &'a str,
+	pub generator_revision: &'a str,
+}
+
+pub fn assemble_release(
+	providers: &Path,
+	acquisitions: &Path,
+	output: &Path,
+	metadata: &ReleaseMetadata<'_>,
+) -> Result<ProviderDataset> {
+	validate_metadata(&SqliteMetadata {
+		dataset_release: metadata.release,
+		generated_at: metadata.generated_at,
+		generator_version: env!("CARGO_PKG_VERSION"),
+		generator_revision: metadata.generator_revision,
+	})?;
+	ensure!(!output.exists(), "release output already exists: {}", output.display());
+
+	let snapshots = read_snapshot_directory(acquisitions)?;
+	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", acquisitions.display());
+	let snapshot_channels = snapshots
+		.iter()
+		.map(|(_, snapshot)| snapshot.channel.as_str())
+		.collect::<std::collections::BTreeSet<_>>();
+	let mut provider_package_counts = BTreeMap::<(String, String), usize>::new();
+	let dataset = read_provider_dataset(providers, |provider| {
+		*provider_package_counts
+			.entry((provider.channel.clone(), provider.package.clone()))
+			.or_default() += 1;
+		Ok(())
+	})?;
+
+	let provider_channels = provider_package_counts
+		.keys()
+		.map(|(channel, _)| channel.as_ref())
+		.collect::<std::collections::BTreeSet<&str>>();
+	for channel in provider_channels {
+		ensure!(snapshot_channels.contains(channel), "provider channel {channel:?} has no snapshot manifest");
 	}
+	fs::create_dir_all(output.join("channel-manifests"))
+		.with_context(|| format!("create release directory {}", output.display()))?;
+
+	let providers_artifact = output.join("providers.jsonl.zst");
+	compress_file(providers, &providers_artifact)?;
+	let sqlite_artifact = output.join("bnck.sqlite.zst");
+	generate_sqlite_artifact(
+		providers,
+		&sqlite_artifact,
+		&SqliteMetadata {
+			dataset_release: metadata.release,
+			generated_at: metadata.generated_at,
+			generator_version: env!("CARGO_PKG_VERSION"),
+			generator_revision: metadata.generator_revision,
+		},
+	)?;
+
+	let artifacts = vec![
+		artifact_manifest(&providers_artifact, "application/x-ndjson", None)?,
+		artifact_manifest(&sqlite_artifact, "application/vnd.sqlite3", Some(SQLITE_SCHEMA_VERSION))?,
+	];
+	let mut channels = Vec::new();
+	for (source_path, snapshot) in snapshots {
+		let filename = format!("{}-{}.json", snapshot.channel.replace('.', "-"), snapshot.snapshot);
+		let relative_path = PathBuf::from("channel-manifests").join(filename);
+		let destination = output.join(&relative_path);
+		fs::copy(&source_path, &destination)
+			.with_context(|| format!("copy {} to {}", source_path.display(), destination.display()))?;
+		let (_, sha256) = file_identity(&destination)?;
+		let observed_packages = snapshot
+			.packages
+			.iter()
+			.filter(|package| package.status == PackageStatus::Observed)
+			.map(|package| package.name.as_str())
+			.collect::<std::collections::BTreeSet<_>>();
+		let provider_count = provider_package_counts
+			.iter()
+			.filter(|((channel, package), _)| {
+				channel == &snapshot.channel && observed_packages.contains(package.as_str())
+			})
+			.map(|(_, count)| count)
+			.sum();
+		channels.push(ChannelManifest {
+			name: snapshot.channel.clone(),
+			scope: snapshot.scope,
+			snapshot_manifest: SnapshotManifest { path: path_string(&relative_path)?, sha256 },
+			package_count: snapshot
+				.packages
+				.iter()
+				.filter(|package| package.status == PackageStatus::Observed)
+				.count(),
+			provider_count,
+			status: serde_json::to_value(snapshot.status)?
+				.as_str()
+				.context("serialize snapshot status")?
+				.to_owned(),
+		});
+	}
+	channels.sort_by(|left, right| {
+		(&left.name, &left.snapshot_manifest.path).cmp(&(&right.name, &right.snapshot_manifest.path))
+	});
+
+	let manifest = ReleaseManifest {
+		format: "bnck-dataset-release",
+		format_version: 1,
+		release: metadata.release,
+		generated_at: metadata.generated_at,
+		dataset: DatasetManifest {
+			schema_version: PROVIDER_SCHEMA_VERSION,
+			sha256: dataset.sha256.clone(),
+			provider_count: dataset.provider_count,
+		},
+		generator: GeneratorManifest {
+			version: env!("CARGO_PKG_VERSION"),
+			source_revision: metadata.generator_revision,
+		},
+		artifacts,
+		channels,
+	};
+	let manifest_path = output.join("manifest.json");
+	let mut bytes = serde_json::to_vec_pretty(&manifest)?;
+	bytes.push(b'\n');
+	fs::write(&manifest_path, bytes).with_context(|| format!("write {}", manifest_path.display()))?;
+	write_checksums(output)?;
+	Ok(dataset)
+}
+
+fn compress_file(input: &Path, output: &Path) -> Result<()> {
+	let source = File::open(input).with_context(|| format!("open {}", input.display()))?;
+	let target = File::create(output).with_context(|| format!("create {}", output.display()))?;
+	let mut encoder = zstd::stream::write::Encoder::new(target, zstd::DEFAULT_COMPRESSION_LEVEL)?;
+	io::copy(&mut io::BufReader::new(source), &mut encoder)?;
+	let target = encoder.finish()?;
+	target.sync_all()?;
+	Ok(())
+}
+
+fn artifact_manifest(path: &Path, media_type: &'static str, schema_version: Option<u32>) -> Result<ArtifactManifest> {
+	let (size, sha256) = file_identity(path)?;
+	Ok(ArtifactManifest {
+		name: path
+			.file_name()
+			.and_then(|value| value.to_str())
+			.context("artifact filename is not UTF-8")?
+			.to_owned(),
+		media_type,
+		compression: "zstd",
+		schema_version,
+		sha256,
+		size,
+	})
+}
+
+fn write_checksums(root: &Path) -> Result<()> {
+	let mut paths = vec![root.join("manifest.json"), root.join("providers.jsonl.zst"), root.join("bnck.sqlite.zst")];
+	for entry in fs::read_dir(root.join("channel-manifests"))? {
+		paths.push(entry?.path());
+	}
+	paths.sort();
+	let checksum_path = root.join("SHA256SUMS");
+	let mut writer = io::BufWriter::new(File::create(&checksum_path)?);
+	for path in paths {
+		let (_, sha256) = file_identity(&path)?;
+		let relative = path.strip_prefix(root).unwrap_or(&path);
+		writeln!(writer, "{sha256}  {}", path_string(relative)?)?;
+	}
+	writer.flush()?;
+	Ok(())
+}
+
+fn path_string(path: &Path) -> Result<String> {
+	Ok(path.to_str().context("release path is not UTF-8")?.replace('\\', "/"))
+}
+
+fn validate_metadata(metadata: &SqliteMetadata<'_>) -> Result<()> {
+	validate_release(metadata.dataset_release)?;
+	validate_timestamp(metadata.generated_at)?;
+	ensure!(!metadata.generator_version.trim().is_empty(), "generator version is empty");
+	ensure!(
+		(7..=64).contains(&metadata.generator_revision.len())
+			&& metadata.generator_revision.bytes().all(|byte| byte.is_ascii_hexdigit()),
+		"generator revision is not a hexadecimal Git revision"
+	);
+	Ok(())
+}
+
+fn validate_release(value: &str) -> Result<()> {
+	let (date, sequence) = value.split_once('.').context("dataset release must use YYYY-MM-DD.N")?;
+	validate_date(date, "dataset release")?;
+	let sequence = sequence.parse::<u32>().context("dataset release sequence is not an integer")?;
+	ensure!(sequence > 0, "dataset release sequence must be greater than zero");
+	Ok(())
+}
+
+fn validate_timestamp(value: &str) -> Result<()> {
+	ensure!(value.len() == 20 && value.ends_with('Z'), "generation timestamp must use YYYY-MM-DDTHH:MM:SSZ");
+	let (date, time) = value[..19].split_once('T').context("generation timestamp has no T separator")?;
+	validate_date(date, "generation timestamp")?;
+	let parts = time
+		.split(':')
+		.map(str::parse::<u32>)
+		.collect::<Result<Vec<_>, _>>()
+		.context("generation timestamp has a non-numeric time")?;
+	ensure!(parts.len() == 3, "generation timestamp must contain hours, minutes, and seconds");
+	ensure!(parts[0] < 24 && parts[1] < 60 && parts[2] < 60, "generation timestamp time is out of range");
+	Ok(())
+}
+
+fn validate_date(value: &str, field: &str) -> Result<()> {
+	ensure!(value.len() == 10, "{field} date must use YYYY-MM-DD");
+	let parts = value
+		.split('-')
+		.map(str::parse::<u32>)
+		.collect::<Result<Vec<_>, _>>()
+		.with_context(|| format!("{field} date is not numeric"))?;
+	ensure!(parts.len() == 3, "{field} date must use YYYY-MM-DD");
+	let (year, month, day) = (parts[0], parts[1], parts[2]);
+	ensure!(year > 0 && (1..=12).contains(&month), "{field} date is out of range");
+	let is_leap_year = year.is_multiple_of(4) && (!year.is_multiple_of(100) || year.is_multiple_of(400));
+	let days = match month {
+		2 if is_leap_year => 29,
+		2 => 28,
+		4 | 6 | 9 | 11 => 30,
+		_ => 31,
+	};
+	ensure!((1..=days).contains(&day), "{field} date is out of range");
 	Ok(())
 }
 
@@ -116,13 +390,66 @@ mod tests {
 	use rusqlite::Connection;
 	use tempfile::tempdir;
 
-	use super::{SQLITE_SCHEMA_VERSION, SqliteMetadata, generate_sqlite_artifact};
+	use super::{ReleaseMetadata, SQLITE_SCHEMA_VERSION, SqliteMetadata, assemble_release, generate_sqlite_artifact};
+	use crate::acquisition::{PackageObservation, SnapshotMetadata, write_snapshot_manifest};
 
 	const PROVIDERS: &str = concat!(
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"debian\",\"package\":\"helix\"}\n",
 		"{\"project\":\"ripgrep\",\"executable\":\"rg\",\"channel\":\"crates.io\",\"package\":\"ripgrep\"}\n",
 	);
+
+	#[test]
+	fn assembles_release_with_acquisition_provenance() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		let output = root.path().join("release");
+		fs::create_dir(&acquisitions).unwrap();
+		let candidates = acquisitions.join("crates-io.jsonl");
+		fs::write(
+			&candidates,
+			concat!(
+				"{\"channel\":\"crates.io\",\"package\":\"helix-term\",\"version\":\"1\",",
+				"\"executable\":\"hx\",\"evidence\":\"declared-entry-point\"}\n",
+			),
+		)
+		.unwrap();
+		write_snapshot_manifest(
+			&candidates,
+			SnapshotMetadata::complete(
+				"crates.io",
+				&[],
+				std::collections::BTreeMap::from([(
+					"release-policy".to_owned(),
+					"latest-non-yanked-stable".to_owned(),
+				)]),
+			),
+			[PackageObservation::observed("helix-term", "1")],
+		)
+		.unwrap();
+		let providers = root.path().join("providers.jsonl");
+		fs::write(
+			&providers,
+			"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
+		)
+		.unwrap();
+		let metadata = ReleaseMetadata {
+			release: "2026-04-16.1",
+			generated_at: "2026-04-16T12:00:00Z",
+			generator_revision: "0123456789abcdef",
+		};
+
+		let dataset = assemble_release(&providers, &acquisitions, &output, &metadata).unwrap();
+
+		assert_eq!(dataset.provider_count, 1);
+		for path in ["manifest.json", "providers.jsonl.zst", "bnck.sqlite.zst", "SHA256SUMS"] {
+			assert!(output.join(path).is_file(), "missing {path}");
+		}
+		let manifest: serde_json::Value =
+			serde_json::from_slice(&fs::read(output.join("manifest.json")).unwrap()).unwrap();
+		assert_eq!(manifest["dataset"]["schema_version"], 1);
+		assert_eq!(manifest["channels"][0]["name"], "crates.io");
+	}
 
 	#[test]
 	fn creates_queryable_database_with_release_metadata() {

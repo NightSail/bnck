@@ -126,6 +126,20 @@ enum Command {
 		#[arg(long)]
 		generator_revision: String,
 	},
+	AssembleRelease {
+		#[arg(long)]
+		input: PathBuf,
+		#[arg(long)]
+		acquisitions: PathBuf,
+		#[arg(long)]
+		output: PathBuf,
+		#[arg(long)]
+		dataset_release: String,
+		#[arg(long)]
+		generated_at: String,
+		#[arg(long)]
+		generator_revision: String,
+	},
 	SuggestPackages {
 		#[arg(long)]
 		name: String,
@@ -189,6 +203,14 @@ fn main() -> Result<()> {
 				generator_revision: &generator_revision,
 			};
 			release::generate_sqlite_artifact(&input, &output, &metadata)?.provider_count
+		},
+		Command::AssembleRelease { input, acquisitions, output, dataset_release, generated_at, generator_revision } => {
+			let metadata = release::ReleaseMetadata {
+				release: &dataset_release,
+				generated_at: &generated_at,
+				generator_revision: &generator_revision,
+			};
+			release::assemble_release(&input, &acquisitions, &output, &metadata)?.provider_count
 		},
 		Command::SuggestPackages { name, homepage, repository, acquisitions, limit } => {
 			let query = matcher::ProjectQuery { name, homepage, repository, links: Vec::new() };

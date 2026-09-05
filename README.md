@@ -102,7 +102,17 @@ sqlite3 var/bnck.sqlite \
 	"SELECT project, channel, package FROM providers WHERE executable = 'rg' ORDER BY project, channel, package;"
 ```
 
-The SQLite command only builds the consumer artifact. It does not yet assemble the complete signed release directory described in the release-format document.
+Assemble the release directory, including compressed provider and SQLite artifacts, acquisition manifests, `manifest.json`, and `SHA256SUMS`:
+
+```sh
+just release 2026-04-16.1
+```
+
+Release assembly does not expose a signing key to the generator. Produce `SHA256SUMS.minisig` with the separately managed release signing key before publication:
+
+```sh
+just sign-release var/releases/bnck-2026-04-16.1 /path/to/minisign.key
+```
 
 ## Curation suggestions
 

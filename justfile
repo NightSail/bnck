@@ -41,6 +41,24 @@ generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sql
     		--generated-at "$generated_at" \
     		--generator-revision "$revision"
 
+release dataset_release input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases': build
+    generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
+    	revision="$(git rev-parse HEAD)"; \
+    	./target/debug/bnck assemble-release \
+    		--input '{{ input }}' \
+    		--acquisitions '{{ acquisitions }}' \
+    		--output '{{ output }}/bnck-{{ dataset_release }}' \
+    		--dataset-release '{{ dataset_release }}' \
+    		--generated-at "$generated_at" \
+    		--generator-revision "$revision"
+
+sign-release release_directory secret_key:
+    test -f '{{ release_directory }}/SHA256SUMS'
+    minisign -S \
+    	-s '{{ secret_key }}' \
+    	-m '{{ release_directory }}/SHA256SUMS' \
+    	-x '{{ release_directory }}/SHA256SUMS.minisig'
+
 fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 
 import-distros: import-debian import-fedora import-arch import-homebrew

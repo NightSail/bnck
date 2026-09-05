@@ -8,6 +8,7 @@ use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
 use walkdir::WalkDir;
 
+pub const PROVIDER_SCHEMA_VERSION: u32 = 1;
 pub const CHANNELS: [&str; 7] = ["arch", "crates.io", "debian", "fedora", "homebrew", "npm", "pypi"];
 
 #[derive(Clone, Debug, Deserialize, Eq, Ord, PartialEq, PartialOrd, Serialize)]

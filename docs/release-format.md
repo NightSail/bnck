@@ -16,13 +16,13 @@ bnck-2026-03-24.1/
 ├── SHA256SUMS
 ├── SHA256SUMS.minisig
 └── channel-manifests/
-    ├── debian.json
-    ├── fedora.json
-    ├── arch.json
-    ├── homebrew.json
-    ├── crates-io.json
-    ├── npm.json
-    └── pypi.json
+    ├── debian-<snapshot>.json
+    ├── fedora-<snapshot>.json
+    ├── arch-<snapshot>.json
+    ├── homebrew-<snapshot>.json
+    ├── crates-io-<snapshot>.json
+    ├── npm-<snapshot>.json
+    └── pypi-<snapshot>.json
 ```
 
 The two dataset artifacts represent the same provider relations:
@@ -84,7 +84,7 @@ JSON Lines is preferred over a single JSON array because it supports streaming, 
 
 ### Schema
 
-The initial schema directly represents the canonical relation:
+SQLite schema version 2 directly represents the canonical relation and adds domain checks at the storage boundary:
 
 ```sql
 CREATE TABLE metadata (
@@ -93,10 +93,10 @@ CREATE TABLE metadata (
 ) WITHOUT ROWID;
 
 CREATE TABLE providers (
-	project TEXT NOT NULL,
-	executable TEXT NOT NULL,
-	channel TEXT NOT NULL,
-	package TEXT NOT NULL,
+	project TEXT NOT NULL CHECK (length(project) > 0),
+	executable TEXT NOT NULL CHECK (length(executable) > 0 AND instr(executable, '/') = 0),
+	channel TEXT NOT NULL CHECK (channel IN ('arch', 'crates.io', 'debian', 'fedora', 'homebrew', 'npm', 'pypi')),
+	package TEXT NOT NULL CHECK (length(package) > 0),
 
 	PRIMARY KEY (
 		project,
@@ -139,9 +139,10 @@ ORDER BY executable, channel, package;
 
 ### Metadata
 
-The `metadata` table should contain at least:
+The `metadata` table contains:
 
-- `schema_version`
+- `schema_version`: SQLite schema version
+- `dataset_schema_version`: Logical provider schema version
 - `dataset_release`
 - `dataset_sha256`
 - `provider_count`
@@ -198,7 +199,7 @@ A representative manifest is:
         "release_policy": "latest-non-yanked"
       },
       "snapshot_manifest": {
-        "path": "channel-manifests/crates-io.json",
+        "path": "channel-manifests/crates-io-<snapshot>.json",
         "sha256": "<channel manifest SHA-256>"
       },
       "package_count": 12345,
@@ -218,13 +219,13 @@ A representative manifest is:
 - `dataset`: Logical schema version, content digest, and record count
 - `generator`: Generator version and source revision
 - `artifacts`: Released artifact identities, formats, sizes, and digests
-- `channels`: Scope, provenance, counts, and acquisition status for each channel
+- `channels`: Scope, provenance, counts, and acquisition status for each channel snapshot; a channel may appear more than once when independently acquired scopes are combined
 
 Manifest consumers should ignore unknown fields under a known `format_version`. Removing a required field or changing the meaning or type of an existing field requires a new format version.
 
 ## Channel snapshot manifests
 
-Each channel entry references a content-addressed channel snapshot manifest. That manifest records:
+Each channel entry references a content-addressed channel snapshot manifest defined in [acquisition-format.md](acquisition-format.md). That manifest records:
 
 - Channel and acquisition scope
 - Channel-native snapshot boundary
@@ -290,7 +291,7 @@ The CalVer release is a human-facing identifier. The digest is the content ident
 - Every included channel snapshot manifest
 - Any notices or additional release artifacts
 
-`SHA256SUMS.minisig` should be a detached signature over `SHA256SUMS`. The corresponding public key must be distributed independently of the release location.
+`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. The corresponding public key must be distributed independently of the release location. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
 
 The release manifest also records artifact digests so clients can validate an artifact after trusting the manifest. The logical dataset digest provides a second check after decompressing `providers.jsonl.zst`.
 
@@ -366,6 +367,18 @@ A custom format may be smaller, but it would add implementation and compatibilit
 ### Delta releases
 
 Additions and removals between adjacent releases could later be published as separate JSON Lines artifacts. Initial releases should remain complete snapshots until update size demonstrates that deltas are necessary.
+
+## Assembly
+
+Run the implemented release assembler with:
+
+```sh
+just release 2026-04-16.1
+```
+
+The command validates canonical providers and all acquisition manifests, verifies that every provider channel has acquisition provenance, writes both compressed artifacts, copies content-identified channel manifests, writes `manifest.json`, and calculates `SHA256SUMS`. It refuses to overwrite an existing release directory.
+
+The release is publishable only after `SHA256SUMS.minisig` has been produced with the separately managed signing key.
 
 ## Initial contract
 
