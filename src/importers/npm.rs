@@ -6,21 +6,26 @@ use anyhow::{Context, Result};
 use serde_json::{Map, Value};
 use walkdir::WalkDir;
 
-use crate::model::{Candidate, write_json_lines};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::model::Candidate;
 
-pub fn import(input: &Path, output: &Path) -> Result<usize> {
+pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
 	let mut candidates = Vec::new();
+	let mut package_observations = Vec::new();
 	for entry in WalkDir::new(input).follow_links(false) {
 		let entry = entry.with_context(|| format!("walk {}", input.display()))?;
 		if !entry.file_type().is_file() || entry.path().extension().is_none_or(|value| value != "json") {
 			continue;
 		}
-		candidates.extend(import_packument(entry.path())?);
+		let (package_candidates, package_observation) = import_packument(entry.path())?;
+		candidates.extend(package_candidates);
+		package_observations.push(package_observation);
 	}
-	write_json_lines(output, candidates)
+	let inputs = [input.to_owned()];
+	write_acquisition(output, SnapshotMetadata::complete("npm", &inputs, scope), package_observations, candidates)
 }
 
-fn import_packument(path: &Path) -> Result<Vec<Candidate>> {
+fn import_packument(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
 	let file = File::open(path).with_context(|| format!("open {}", path.display()))?;
 	let document: Value =
 		serde_json::from_reader(BufReader::new(file)).with_context(|| format!("parse {}", path.display()))?;
@@ -42,12 +47,14 @@ fn import_packument(path: &Path) -> Result<Vec<Candidate>> {
 	let executables = bin_names(package, manifest);
 	let repository = repository_url(manifest.get("repository"));
 
-	Ok(executables
+	let candidates = executables
 		.into_iter()
 		.map(|executable| Candidate {
 			channel: "npm".into(),
 			package: package.to_owned(),
 			version: version.to_owned(),
+			variant: std::collections::BTreeMap::new(),
+			artifact_sha256: None,
 			executable,
 			evidence: "declared-entry-point".into(),
 			source_package: None,
@@ -55,7 +62,8 @@ fn import_packument(path: &Path) -> Result<Vec<Candidate>> {
 			repository: repository.clone(),
 			description: optional_string(manifest, "description"),
 		})
-		.collect())
+		.collect();
+	Ok((candidates, PackageObservation::observed(package, version)))
 }
 
 fn bin_names(package: &str, manifest: &Map<String, Value>) -> Vec<String> {

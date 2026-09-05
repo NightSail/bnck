@@ -9,7 +9,7 @@ This document analyzes how bnck can acquire package, project, and executable-nam
 
 Homebrew is a package manager rather than an operating-system distribution, but it behaves like a distro channel for this analysis: its packages install finished commands into a managed prefix.
 
-The goal is not to reproduce each channel. It is to produce auditable candidate mappings of the form:
+The goal is not to reproduce each channel. It is to produce auditable candidate mappings and package observations using the schema in [acquisition-format.md](acquisition-format.md). Candidate mappings have the form:
 
 ```text
 (channel, package name, observed package version, executable name, project hints, evidence)
@@ -46,7 +46,9 @@ A mutable label such as `stable`, `latest`, `updates`, or a dist-tag is not a re
 - Importer source revision and configuration
 - Any failed, missing, or deliberately excluded inputs
 
-The dataset release should refer to the digest of this manifest. The manifest, in turn, should content-address every retained input. This gives each dataset release an exact and independently inspectable meaning even when the upstream channel removes or replaces data.
+The dataset release refers to the digest of this manifest. The manifest, in turn, content-addresses every local input and the candidate artifact. This gives each dataset release an exact meaning while those inputs remain retained.
+
+Current importers emit the local input path, byte size, and SHA-256 digest, selected package releases and variants available from the parsed metadata, importer identity, scope, and completeness status. The just-based fetch layer does not yet record retrieval timestamps, original URI values in the manifest, or upstream signature-verification results. Those remain explicit collector gaps rather than implied guarantees.
 
 A channel-native boundary is necessary but not always sufficient. For example, a PyPI serial or npm change sequence identifies a logical point in an update stream, but it does not guarantee that an arbitrary later HTTP request can reconstruct that point. The collector must retain the static metadata responses it actually used, or acquire them through a snapshot-capable mirror.
 
@@ -386,7 +388,7 @@ This order exercises the common manifest, metadata cache, URL normalization, and
 
 Keep the previous channel snapshot and process only new repository roots, index commits, replication changes, or journal serials. Reuse artifacts by digest. Generate a fresh immutable snapshot manifest even when most objects are shared with the previous acquisition.
 
-A package removal must produce an explicit tombstone or visibility status in acquisition data. It must not delete old evidence needed to reproduce an earlier dataset release.
+The acquisition schema supports explicit `removed` and `failed` package statuses. Current full-snapshot importers emit observed packages and replace the preceding snapshot; incremental tombstone production is not implemented. Published releases retain their snapshot manifests and are not mutated.
 
 ### Validation
 

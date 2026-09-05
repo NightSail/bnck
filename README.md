@@ -15,7 +15,7 @@ The MVP imports all initial channels:
 - PyPI from Simple API metadata and statically inspected wheels
 - TOML curation resolution into canonical provider JSON Lines
 
-It does not install, build, import, or execute packages. Registry and artifact downloads are performed by command-line tools in just recipes. Rust importers only read local files and write normalized data.
+It does not install, build, import, or execute packages. Registry and artifact downloads are performed by command-line tools in just recipes. Rust importers only read local files and write normalized data. Each import writes candidate JSON Lines plus an adjacent, content-identified [acquisition snapshot manifest](docs/acquisition-format.md).
 
 ## Demo
 
@@ -25,16 +25,19 @@ Run a small live acquisition for ripgrep, ESLint, and Black:
 just demo
 ```
 
-The resulting files are:
+The resulting files include:
 
 ```text
 var/acquired/crates-io.jsonl
+var/acquired/crates-io.jsonl.manifest.json
 var/acquired/npm.jsonl
+var/acquired/npm.jsonl.manifest.json
 var/acquired/pypi.jsonl
+var/acquired/pypi.jsonl.manifest.json
 var/providers.jsonl
 ```
 
-`var/providers.jsonl` contains the provider records accepted by the sample curations under `curations/`.
+`var/providers.jsonl` contains the provider records accepted by the sample curations under `curations/`. Dataset generation requires the adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
 
 ## Jobs
 
@@ -133,6 +136,7 @@ Just recipes handle:
 Rust code handles:
 
 - CSV, JSON, TOML, and wheel metadata parsing
+- Acquisition snapshot manifests, package observations, and input digests
 - Release selection
 - Package and executable normalization
 - Curation validation and resolution

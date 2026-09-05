@@ -5,10 +5,12 @@ use std::path::Path;
 use anyhow::{Context, Result};
 use walkdir::WalkDir;
 
-use crate::model::{Candidate, write_json_lines};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::model::Candidate;
 
-pub fn import(input: &Path, output: &Path) -> Result<usize> {
+pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
 	let mut candidates = Vec::new();
+	let mut package_observations = Vec::new();
 	for entry in WalkDir::new(input).follow_links(false) {
 		let entry = entry.with_context(|| format!("walk {}", input.display()))?;
 		if !entry.file_type().is_file() || entry.file_name() != "files" {
@@ -22,6 +24,15 @@ pub fn import(input: &Path, output: &Path) -> Result<usize> {
 		let Some(package) = first(&fields, "NAME") else {
 			continue;
 		};
+		let version = first(&fields, "VERSION").unwrap_or_default();
+		let mut package_observation = PackageObservation::observed(package, version);
+		if let Some(architecture) = first(&fields, "ARCH") {
+			package_observation
+				.variant
+				.insert("architecture".to_owned(), architecture.to_owned());
+		}
+		package_observation.artifact_sha256 = first(&fields, "SHA256SUM").map(str::to_owned);
+		package_observations.push(package_observation);
 		for path in files.get("FILES").into_iter().flatten() {
 			let Some(executable) = public_executable(path) else {
 				continue;
@@ -29,7 +40,11 @@ pub fn import(input: &Path, output: &Path) -> Result<usize> {
 			candidates.push(Candidate {
 				channel: "arch".into(),
 				package: package.to_owned(),
-				version: first(&fields, "VERSION").unwrap_or_default().to_owned(),
+				version: version.to_owned(),
+				variant: first(&fields, "ARCH")
+					.map(|architecture| BTreeMap::from([("architecture".to_owned(), architecture.to_owned())]))
+					.unwrap_or_default(),
+				artifact_sha256: first(&fields, "SHA256SUM").map(str::to_owned),
 				executable: executable.to_owned(),
 				evidence: "repository-file-listing".into(),
 				source_package: first(&fields, "BASE").map(str::to_owned),
@@ -39,7 +54,15 @@ pub fn import(input: &Path, output: &Path) -> Result<usize> {
 			});
 		}
 	}
-	write_json_lines(output, candidates)
+	let mut inputs = vec![input.to_owned()];
+	if let Some(archives) = input
+		.parent()
+		.map(|parent| parent.join("archives"))
+		.filter(|path| path.is_dir())
+	{
+		inputs.push(archives);
+	}
+	write_acquisition(output, SnapshotMetadata::complete("arch", &inputs, scope), package_observations, candidates)
 }
 
 fn parse_sections(value: &str) -> BTreeMap<String, Vec<String>> {

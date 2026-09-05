@@ -8,7 +8,8 @@ use serde_json::Value;
 use walkdir::WalkDir;
 use zip::ZipArchive;
 
-use crate::model::{Candidate, write_json_lines};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
+use crate::model::Candidate;
 
 const MAX_METADATA_SIZE: u64 = 4 * 1024 * 1024;
 
@@ -44,16 +45,23 @@ pub fn plan(simple: &Path, output_directory: &Path, output: &Path) -> Result<usi
 	Ok(1)
 }
 
-pub fn import(input: &Path, output: &Path) -> Result<usize> {
+pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
 	let mut candidates = Vec::new();
+	let mut package_observations = Vec::new();
 	for entry in WalkDir::new(input).follow_links(false) {
 		let entry = entry.with_context(|| format!("walk {}", input.display()))?;
 		if !entry.file_type().is_file() || entry.path().extension().is_none_or(|value| value != "whl") {
 			continue;
 		}
-		candidates.extend(import_wheel(entry.path())?);
+		let (wheel_candidates, package_observation) = import_wheel(entry.path())?;
+		candidates.extend(wheel_candidates);
+		package_observations.push(package_observation);
 	}
-	write_json_lines(output, candidates)
+	let mut inputs = vec![input.to_owned()];
+	if let Some(simple) = input.parent().map(|parent| parent.join("simple")).filter(|path| path.is_dir()) {
+		inputs.push(simple);
+	}
+	write_acquisition(output, SnapshotMetadata::complete("pypi", &inputs, scope), package_observations, candidates)
 }
 
 struct PlannedWheel {
@@ -89,7 +97,7 @@ fn is_yanked(file: &Value) -> bool {
 	}
 }
 
-fn import_wheel(path: &Path) -> Result<Vec<Candidate>> {
+fn import_wheel(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
 	let file = File::open(path).with_context(|| format!("open {}", path.display()))?;
 	let mut archive = ZipArchive::new(file).with_context(|| format!("open wheel {}", path.display()))?;
 	let metadata_name = member_name(&mut archive, ".dist-info/METADATA")?
@@ -121,12 +129,15 @@ fn import_wheel(path: &Path) -> Result<Vec<Candidate>> {
 		}
 	}
 
-	Ok(executable_evidence
+	let artifact_sha256 = file_identity(path)?.1;
+	let candidates = executable_evidence
 		.into_iter()
 		.map(|(executable, evidence)| Candidate {
 			channel: "pypi".into(),
 			package: package.clone(),
 			version: version.clone(),
+			variant: std::collections::BTreeMap::new(),
+			artifact_sha256: Some(artifact_sha256.clone()),
 			executable,
 			evidence: evidence.into(),
 			source_package: None,
@@ -134,7 +145,10 @@ fn import_wheel(path: &Path) -> Result<Vec<Candidate>> {
 			repository: repository.clone(),
 			description: description.clone(),
 		})
-		.collect())
+		.collect();
+	let mut package_observation = PackageObservation::observed(package, version);
+	package_observation.artifact_sha256 = Some(artifact_sha256);
+	Ok((candidates, package_observation))
 }
 
 fn member_name(archive: &mut ZipArchive<File>, suffix: &str) -> Result<Option<String>> {

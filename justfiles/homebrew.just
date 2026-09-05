@@ -16,4 +16,6 @@ import-homebrew: build
     ./target/debug/bnck import-homebrew \
     	--formulae '{{ homebrew_input }}/formula.json' \
     	--casks '{{ homebrew_input }}/cask.json' \
-    	--output '{{ homebrew_output }}'
+    	--output '{{ homebrew_output }}' \
+    	--scope 'tap=homebrew/core,homebrew/cask' \
+    	--scope 'package-kinds=formula,cask'

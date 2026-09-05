@@ -113,7 +113,7 @@ Each `package` entry requires:
 - `channel`: Stable channel key
 - `name`: Exact channel-native package identity
 
-Project IDs must be stable, lowercase, human-readable, and independent of repository location. Repository moves and branding changes do not normally change the project ID.
+Project IDs must be stable, human-readable, and independent of repository location. They use lowercase ASCII letters, digits, hyphens, periods, and underscores. Repository moves and branding changes do not normally change the project ID.
 
 Project metadata helps curators assess package relationships. It does not establish a relationship automatically and does not need to be included in the canonical provider release.
 

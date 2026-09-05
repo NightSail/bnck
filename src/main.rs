@@ -1,12 +1,14 @@
+mod acquisition;
 mod curation;
 mod importers;
 mod matcher;
 mod model;
 mod release;
 
+use std::collections::BTreeMap;
 use std::path::PathBuf;
 
-use anyhow::Result;
+use anyhow::{Result, ensure};
 use anstyle::{AnsiColor, Style};
 use clap::{Parser, Subcommand};
 
@@ -18,6 +20,8 @@ const NAME_STYLE: Style = Style::new().bold();
 #[command(name = "bnck")]
 #[command(about = "Build the bnck executable-name dataset")]
 struct Cli {
+	#[arg(long = "scope", global = true, value_parser = parse_scope)]
+	scope: Vec<(String, String)>,
 	#[command(subcommand)]
 	command: Command,
 }
@@ -150,29 +154,30 @@ enum Command {
 
 fn main() -> Result<()> {
 	let cli = Cli::parse();
+	let scope = scope_map(cli.scope)?;
 	let count = match cli.command {
 		Command::ImportDebian { packages, sources, contents, output } => {
-			importers::debian::import(&packages, &sources, &contents, &output)?
+			importers::debian::import(&packages, &sources, &contents, &output, scope)?
 		},
 		Command::PlanFedora { repomd, base_url, output_directory, output } => {
 			importers::fedora::plan(&repomd, &base_url, &output_directory, &output)?
 		},
 		Command::ImportFedora { primary, filelists, output } => {
-			importers::fedora::import(&primary, &filelists, &output)?
+			importers::fedora::import(&primary, &filelists, &output, scope)?
 		},
-		Command::ImportArch { input, output } => importers::arch::import(&input, &output)?,
+		Command::ImportArch { input, output } => importers::arch::import(&input, &output, scope)?,
 		Command::ImportHomebrew { formulae, casks, core, output } => {
-			importers::homebrew::import(&formulae, &casks, core.as_deref(), &output)?
+			importers::homebrew::import(&formulae, &casks, core.as_deref(), &output, scope)?
 		},
 		Command::ImportCratesDump { crates, versions, output } => {
-			importers::crates_io::import_dump(&crates, &versions, &output)?
+			importers::crates_io::import_dump(&crates, &versions, &output, scope)?
 		},
-		Command::ImportCratesApi { input, output } => importers::crates_io::import_api(&input, &output)?,
-		Command::ImportNpm { input, output } => importers::npm::import(&input, &output)?,
+		Command::ImportCratesApi { input, output } => importers::crates_io::import_api(&input, &output, scope)?,
+		Command::ImportNpm { input, output } => importers::npm::import(&input, &output, scope)?,
 		Command::PlanPypi { simple, output_directory, output } => {
 			importers::pypi::plan(&simple, &output_directory, &output)?
 		},
-		Command::ImportPypi { input, output } => importers::pypi::import(&input, &output)?,
+		Command::ImportPypi { input, output } => importers::pypi::import(&input, &output, scope)?,
 		Command::Generate { acquisitions, curations, output } => {
 			curation::generate(&acquisitions, &curations, &output)?
 		},
@@ -186,7 +191,7 @@ fn main() -> Result<()> {
 			release::generate_sqlite_artifact(&input, &output, &metadata)?.provider_count
 		},
 		Command::SuggestPackages { name, homepage, repository, acquisitions, limit } => {
-			let query = matcher::ProjectQuery { name, homepage, repository };
+			let query = matcher::ProjectQuery { name, homepage, repository, links: Vec::new() };
 			let suggestions = matcher::suggest_packages(&acquisitions, &query, limit)?;
 			print_package_suggestions(&suggestions);
 			return Ok(());
@@ -199,6 +204,22 @@ fn main() -> Result<()> {
 	};
 	eprintln!("wrote {count} records");
 	Ok(())
+}
+
+fn parse_scope(value: &str) -> Result<(String, String), String> {
+	let (key, value) = value.split_once('=').ok_or_else(|| "scope must use key=value".to_owned())?;
+	if key.is_empty() || value.is_empty() {
+		return Err("scope key and value must not be empty".to_owned());
+	}
+	Ok((key.to_owned(), value.to_owned()))
+}
+
+fn scope_map(values: Vec<(String, String)>) -> Result<BTreeMap<String, String>> {
+	let mut scope = BTreeMap::new();
+	for (key, value) in values {
+		ensure!(scope.insert(key.clone(), value).is_none(), "duplicate scope key {key}");
+	}
+	Ok(scope)
 }
 
 fn print_package_suggestions(suggestions: &[matcher::PackageSuggestion]) {

@@ -37,14 +37,17 @@ _fetch-debian-suite suite input:
 
 import-debian: import-debian-stable import-debian-sid
 
-import-debian-stable: (_import-debian-suite debian_input debian_output)
+import-debian-stable: (_import-debian-suite debian_suite debian_input debian_output)
 
-import-debian-sid: (_import-debian-suite debian_sid_input debian_sid_output)
+import-debian-sid: (_import-debian-suite debian_sid_suite debian_sid_input debian_sid_output)
 
-_import-debian-suite input output: build
+_import-debian-suite suite input output: build
     mkdir -p 'var/acquired'
     ./target/debug/bnck import-debian \
         --packages '{{ input }}/Packages' \
         --sources '{{ input }}/Sources' \
         --contents '{{ input }}/Contents' \
-        --output '{{ output }}'
+        --output '{{ output }}' \
+        --scope 'suite={{ suite }}' \
+        --scope 'component={{ debian_component }}' \
+        --scope 'architecture={{ debian_arch }}'

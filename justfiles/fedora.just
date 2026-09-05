@@ -1,4 +1,6 @@
-fedora_base_url := env_var_or_default('FEDORA_BASE_URL', 'https://download.fedoraproject.org/pub/fedora/linux/releases/43/Everything/x86_64/os')
+fedora_release := env_var_or_default('FEDORA_RELEASE', '43')
+fedora_arch := env_var_or_default('FEDORA_ARCH', 'x86_64')
+fedora_base_url := env_var_or_default('FEDORA_BASE_URL', 'https://download.fedoraproject.org/pub/fedora/linux/releases/' + fedora_release + '/Everything/' + fedora_arch + '/os')
 fedora_input := 'var/input/fedora'
 fedora_output := 'var/acquired/fedora.jsonl'
 
@@ -25,4 +27,7 @@ import-fedora: build
     	./target/debug/bnck import-fedora \
     		--primary "$primary" \
     		--filelists "$filelists" \
-    		--output '{{ fedora_output }}'
+    		--output '{{ fedora_output }}' \
+    		--scope 'release={{ fedora_release }}' \
+    		--scope 'repository=everything' \
+    		--scope 'architecture={{ fedora_arch }}'

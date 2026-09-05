@@ -6,7 +6,11 @@ use anyhow::{Context, Result, bail, ensure};
 use serde::Deserialize;
 use walkdir::WalkDir;
 
-use crate::model::{Candidate, Provider, read_candidate_directory, write_json_lines};
+use crate::acquisition::{PackageStatus, SnapshotStatus, read_snapshot_directory};
+use crate::model::{
+	Provider, read_candidates, validate_channel, validate_executable, validate_identity, validate_project_id,
+	write_json_lines,
+};
 
 #[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -21,6 +25,8 @@ pub(crate) struct Project {
 	documentation: Option<String>,
 	#[serde(default)]
 	issue_tracker: Option<String>,
+	#[serde(default)]
+	pub(crate) links: Vec<String>,
 	#[serde(default, rename = "package")]
 	packages: Vec<ProjectPackage>,
 }
@@ -87,11 +93,12 @@ struct Addition {
 }
 
 type PackageKey = (String, String);
-type AcquiredPackages = BTreeMap<PackageKey, BTreeMap<String, Candidate>>;
+type AcquiredPackages = BTreeMap<PackageKey, BTreeSet<String>>;
 
 struct Acquisitions {
 	packages: AcquiredPackages,
-	channels: BTreeSet<String>,
+	selected_channels: BTreeSet<String>,
+	complete_channels: BTreeSet<String>,
 }
 
 pub fn generate(acquisitions: &Path, curations: &Path, output: &Path) -> Result<usize> {
@@ -105,13 +112,18 @@ pub fn generate(acquisitions: &Path, curations: &Path, output: &Path) -> Result<
 	let mut providers = BTreeSet::new();
 
 	for key in package_keys {
-		if !acquisitions.channels.contains(&key.0) {
+		if !acquisitions.selected_channels.contains(&key.0) {
 			continue;
 		}
-		let acquired = acquisitions
-			.packages
-			.get(&key)
-			.with_context(|| format!("curated package ({}, {}) is absent from acquisition", key.0, key.1))?;
+		let Some(acquired) = acquisitions.packages.get(&key) else {
+			ensure!(
+				!acquisitions.complete_channels.contains(&key.0),
+				"curated package ({}, {}) is absent from complete acquisition",
+				key.0,
+				key.1
+			);
+			continue;
+		};
 		providers.extend(resolve_package(&key, owners.get(&key).map(String::as_str), overrides.get(&key), acquired)?);
 	}
 
@@ -120,6 +132,7 @@ pub fn generate(acquisitions: &Path, curations: &Path, output: &Path) -> Result<
 
 fn validate_manifest(root: &Path) -> Result<()> {
 	#[derive(Deserialize)]
+	#[serde(deny_unknown_fields)]
 	struct Manifest {
 		schema: u64,
 	}
@@ -134,9 +147,18 @@ pub(crate) fn load_projects(path: &Path) -> Result<BTreeMap<String, Project>> {
 	let mut projects = BTreeMap::new();
 	for path in toml_files(path)? {
 		let project: Project = read_toml(&path)?;
-		validate_identifier("project ID", &project.id)?;
-		ensure!(!project.name.trim().is_empty(), "{} has an empty project name", path.display());
-		let _ = (&project.homepage, &project.repository, &project.documentation, &project.issue_tracker);
+		validate_project_id(&project.id)?;
+		validate_identity("project name", &project.name)?;
+		for link in project
+			.homepage
+			.iter()
+			.chain(project.repository.iter())
+			.chain(project.documentation.iter())
+			.chain(project.issue_tracker.iter())
+			.chain(project.links.iter())
+		{
+			validate_identity("project link", link)?;
+		}
 		let id = project.id.clone();
 		if projects.insert(id.clone(), project).is_some() {
 			bail!("duplicate project ID {id}")
@@ -149,8 +171,8 @@ fn package_owners(projects: &BTreeMap<String, Project>) -> Result<BTreeMap<Packa
 	let mut owners = BTreeMap::new();
 	for project in projects.values() {
 		for package in &project.packages {
-			validate_identifier("channel", &package.channel)?;
-			validate_identifier("package", &package.name)?;
+			validate_channel(&package.channel)?;
+			validate_identity("package", &package.name)?;
 			let key = (package.channel.clone(), package.name.clone());
 			if let Some(owner) = owners.insert(key.clone(), project.id.clone()) {
 				bail!("package ({}, {}) is claimed by projects {owner} and {}", key.0, key.1, project.id)
@@ -182,8 +204,8 @@ fn load_package_curations(packages_root: &Path) -> Result<BTreeMap<PackageKey, P
 	}
 	for path in toml_files(packages_root)? {
 		let package: PackageCuration = read_toml(&path)?;
-		validate_identifier("channel", &package.channel)?;
-		validate_identifier("package", &package.name)?;
+		validate_channel(&package.channel)?;
+		validate_identity("package", &package.name)?;
 		validate_channel_directory(&path, &package.channel, packages_root)?;
 		let identity = (package.channel.clone(), package.name.clone());
 		if packages.insert(identity.clone(), package).is_some() {
@@ -201,18 +223,57 @@ fn validate_channel_directory(path: &Path, channel: &str, packages_root: &Path) 
 }
 
 fn load_candidates(path: &Path) -> Result<Acquisitions> {
+	let snapshots = read_snapshot_directory(path)?;
+	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", path.display());
 	let mut packages = AcquiredPackages::new();
-	let mut channels = BTreeSet::new();
-	for candidate in read_candidate_directory(path)? {
-		channels.insert(candidate.channel.clone());
-		let key = (candidate.channel.clone(), candidate.package.clone());
-		packages
-			.entry(key)
+	let mut selected_channels = BTreeSet::new();
+	let mut candidate_paths = BTreeSet::new();
+	let mut channel_statuses = BTreeMap::<String, Vec<SnapshotStatus>>::new();
+
+	for (manifest_path, snapshot) in snapshots {
+		selected_channels.insert(snapshot.channel.clone());
+		channel_statuses
+			.entry(snapshot.channel.clone())
 			.or_default()
-			.entry(candidate.executable.clone())
-			.or_insert(candidate);
+			.push(snapshot.status);
+		for package in &snapshot.packages {
+			if package.status == PackageStatus::Observed {
+				packages.entry((snapshot.channel.clone(), package.name.clone())).or_default();
+			}
+		}
+		let candidate_path = manifest_path.parent().unwrap_or(Path::new(".")).join(&snapshot.candidates.path);
+		ensure!(
+			candidate_paths.insert(candidate_path.clone()),
+			"{} is referenced by multiple snapshot manifests",
+			candidate_path.display()
+		);
+		for candidate in read_candidates(&candidate_path)? {
+			let key = (candidate.channel, candidate.package);
+			ensure!(
+				packages.contains_key(&key),
+				"candidate package ({}, {}) is not observed by its snapshot",
+				key.0,
+				key.1
+			);
+			packages.entry(key).or_default().insert(candidate.executable);
+		}
 	}
-	Ok(Acquisitions { packages, channels })
+	for entry in WalkDir::new(path).follow_links(false) {
+		let entry = entry.with_context(|| format!("walk {}", path.display()))?;
+		if entry.file_type().is_file() && entry.path().extension().is_some_and(|value| value == "jsonl") {
+			ensure!(
+				candidate_paths.contains(entry.path()),
+				"{} has no acquisition snapshot manifest",
+				entry.path().display()
+			);
+		}
+	}
+	let complete_channels = channel_statuses
+		.into_iter()
+		.filter(|(_, statuses)| statuses.iter().all(|status| *status == SnapshotStatus::Complete))
+		.map(|(channel, _)| channel)
+		.collect();
+	Ok(Acquisitions { packages, selected_channels, complete_channels })
 }
 
 fn validate_project_references(
@@ -237,7 +298,7 @@ fn resolve_package(
 	key: &PackageKey,
 	default_project: Option<&str>,
 	override_rules: Option<&PackageCuration>,
-	acquired: &BTreeMap<String, Candidate>,
+	acquired: &BTreeSet<String>,
 ) -> Result<BTreeSet<Provider>> {
 	let mut assignments = BTreeMap::<String, String>::new();
 	let mut removed = BTreeSet::new();
@@ -246,7 +307,7 @@ fn resolve_package(
 		apply_rules(rules, &mut assignments, &mut removed)?;
 	}
 
-	for executable in acquired.keys().filter(|executable| !removed.contains(*executable)) {
+	for executable in acquired.iter().filter(|executable| !removed.contains(*executable)) {
 		if assignments.contains_key(executable) {
 			continue;
 		}
@@ -284,15 +345,15 @@ fn apply_rules(
 	Ok(())
 }
 
-fn validate_rules(package: &PackageCuration, acquired: &BTreeMap<String, Candidate>) -> Result<()> {
+fn validate_rules(package: &PackageCuration, acquired: &BTreeSet<String>) -> Result<()> {
 	let mut acquired_rules = BTreeSet::new();
 	for rule in &package.attribute {
 		validate_rule(&rule.executable, &rule.reason, acquired, &mut acquired_rules, &package.name)?;
-		let _ = &rule.references;
+		validate_references(&rule.references, &package.name)?;
 	}
 	for rule in &package.exclude {
 		validate_rule(&rule.executable, &rule.reason, acquired, &mut acquired_rules, &package.name)?;
-		let _ = &rule.references;
+		validate_references(&rule.references, &package.name)?;
 	}
 	let mut produced = BTreeSet::new();
 	for rule in &package.replace {
@@ -304,14 +365,15 @@ fn validate_rules(package: &PackageCuration, acquired: &BTreeMap<String, Candida
 			package.name,
 			rule.executable
 		);
-		let _ = &rule.references;
+		validate_references(&rule.references, &package.name)?;
 	}
 	for rule in &package.add {
 		validate_executable(&rule.executable)?;
 		ensure!(!rule.reason.trim().is_empty(), "package {} has an addition without a reason", package.name);
 		ensure!(!rule.references.is_empty(), "package {} addition {} has no reference", package.name, rule.executable);
+		validate_references(&rule.references, &package.name)?;
 		ensure!(
-			!acquired.contains_key(&rule.executable),
+			!acquired.contains(&rule.executable),
 			"package {} adds already acquired executable {}",
 			package.name,
 			rule.executable
@@ -326,16 +388,24 @@ fn validate_rules(package: &PackageCuration, acquired: &BTreeMap<String, Candida
 	Ok(())
 }
 
+fn validate_references(references: &[String], package: &str) -> Result<()> {
+	for reference in references {
+		validate_identity("rule reference", reference)
+			.with_context(|| format!("validate reference for package {package}"))?;
+	}
+	Ok(())
+}
+
 fn validate_rule(
 	executable: &str,
 	reason: &str,
-	acquired: &BTreeMap<String, Candidate>,
+	acquired: &BTreeSet<String>,
 	seen: &mut BTreeSet<String>,
 	package: &str,
 ) -> Result<()> {
 	validate_executable(executable)?;
 	ensure!(!reason.trim().is_empty(), "package {package} has a rule without a reason");
-	ensure!(acquired.contains_key(executable), "package {package} rule refers to absent executable {executable}");
+	ensure!(acquired.contains(executable), "package {package} rule refers to absent executable {executable}");
 	ensure!(seen.insert(executable.to_owned()), "package {package} has contradictory rules for {executable}");
 	Ok(())
 }
@@ -350,18 +420,6 @@ fn insert_assignment(
 	if assignments.insert(executable.to_owned(), project.to_owned()).is_some() {
 		bail!("package {package} attributes executable {executable} more than once")
 	}
-	Ok(())
-}
-
-fn validate_identifier(kind: &str, value: &str) -> Result<()> {
-	ensure!(!value.trim().is_empty(), "{kind} is empty");
-	ensure!(!value.contains('\0'), "{kind} contains NUL");
-	Ok(())
-}
-
-fn validate_executable(value: &str) -> Result<()> {
-	validate_identifier("executable", value)?;
-	ensure!(!value.contains('/'), "executable {value} contains /");
 	Ok(())
 }
 
@@ -384,11 +442,13 @@ fn read_toml<T: for<'de> Deserialize<'de>>(path: &Path) -> Result<T> {
 
 #[cfg(test)]
 mod tests {
+	use std::collections::BTreeMap;
 	use std::fs;
 
 	use tempfile::tempdir;
 
 	use super::generate;
+	use crate::acquisition::{PackageObservation, SnapshotMetadata, write_snapshot_manifest};
 
 	#[test]
 	fn resolves_project_package_and_exception() {
@@ -403,7 +463,10 @@ mod tests {
 		fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
 		fs::write(
 			projects.join("tool.toml"),
-			"id = 'tool'\nname = 'Tool'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+			concat!(
+				"id = 'tool'\nname = 'Tool'\nlinks = ['https://example.test/tool']\n",
+				"\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+			),
 		)
 		.unwrap();
 		fs::write(
@@ -411,14 +474,21 @@ mod tests {
 			"channel = 'npm'\nname = 'tool'\n\n[[exclude]]\nexecutable = 'helper'\nreason = 'Not public'\n",
 		)
 		.unwrap();
+		let candidate_path = acquisitions.join("npm.jsonl");
 		fs::write(
-			acquisitions.join("npm.jsonl"),
+			&candidate_path,
 			concat!(
 				"{\"channel\":\"npm\",\"package\":\"tool\",\"version\":\"1.0.0\",",
 				"\"executable\":\"helper\",\"evidence\":\"declared-entry-point\"}\n",
 				"{\"channel\":\"npm\",\"package\":\"tool\",\"version\":\"1.0.0\",",
 				"\"executable\":\"tool\",\"evidence\":\"declared-entry-point\"}\n",
 			),
+		)
+		.unwrap();
+		write_snapshot_manifest(
+			&candidate_path,
+			SnapshotMetadata::complete("npm", &[], BTreeMap::from([("registry".to_owned(), "test".to_owned())])),
+			[PackageObservation::observed("tool", "1.0.0")],
 		)
 		.unwrap();
 		let output = root.path().join("providers.jsonl");
@@ -428,6 +498,33 @@ mod tests {
 			fs::read_to_string(output).unwrap(),
 			"{\"project\":\"tool\",\"executable\":\"tool\",\"channel\":\"npm\",\"package\":\"tool\"}\n"
 		);
+	}
+
+	#[test]
+	fn distinguishes_observed_package_without_executables_from_missing_package() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		let curations = root.path().join("curations");
+		fs::create_dir_all(&acquisitions).unwrap();
+		fs::create_dir_all(curations.join("projects")).unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+		fs::write(
+			curations.join("projects/tool.toml"),
+			"id = 'tool'\nname = 'Tool'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+		)
+		.unwrap();
+		let candidate_path = acquisitions.join("npm.jsonl");
+		fs::write(&candidate_path, "").unwrap();
+		write_snapshot_manifest(
+			&candidate_path,
+			SnapshotMetadata::complete("npm", &[], BTreeMap::from([("registry".to_owned(), "test".to_owned())])),
+			[PackageObservation::observed("tool", "1.0.0")],
+		)
+		.unwrap();
+		let output = root.path().join("providers.jsonl");
+
+		assert_eq!(generate(&acquisitions, &curations, &output).unwrap(), 0);
+		assert_eq!(fs::read_to_string(output).unwrap(), "");
 	}
 
 	#[test]

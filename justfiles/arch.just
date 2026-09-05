@@ -23,4 +23,6 @@ import-arch: build
     mkdir -p 'var/acquired'
     ./target/debug/bnck import-arch \
     	--input '{{ arch_input }}/extracted' \
-    	--output '{{ arch_output }}'
+    	--output '{{ arch_output }}' \
+    	--scope 'repositories=core,extra' \
+    	--scope 'architecture={{ arch_arch }}'

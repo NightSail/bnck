@@ -8,7 +8,8 @@ use semver::Version;
 use serde::Deserialize;
 use serde_json::Value;
 
-use crate::model::{Candidate, write_json_lines};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::model::Candidate;
 
 #[derive(Debug, Deserialize)]
 struct CrateRow {
@@ -30,9 +31,16 @@ struct VersionRow {
 	yanked: bool,
 	#[serde(default)]
 	bin_names: String,
+	#[serde(default)]
+	checksum: String,
 }
 
-pub fn import_dump(crates_path: &Path, versions_path: &Path, output: &Path) -> Result<usize> {
+pub fn import_dump(
+	crates_path: &Path,
+	versions_path: &Path,
+	output: &Path,
+	scope: std::collections::BTreeMap<String, String>,
+) -> Result<usize> {
 	let crates = read_crates(crates_path)?;
 	let mut reader =
 		csv::Reader::from_path(versions_path).with_context(|| format!("open {}", versions_path.display()))?;
@@ -53,19 +61,26 @@ pub fn import_dump(crates_path: &Path, versions_path: &Path, output: &Path) -> R
 	}
 
 	let mut candidates = Vec::new();
+	let mut package_observations = Vec::new();
 	for (_, row) in selected.into_values() {
 		let Some(krate) = crates.get(&row.crate_id) else {
 			continue;
 		};
+		let mut package_observation = PackageObservation::observed(&krate.name, &row.num);
+		package_observation.artifact_sha256 = (row.checksum.len() == 64).then(|| row.checksum.clone());
+		package_observations.push(package_observation);
 		for executable in parse_bin_names(&row.bin_names)? {
-			candidates.push(candidate(krate, row.num.clone(), executable));
+			let artifact_sha256 = (row.checksum.len() == 64).then(|| row.checksum.clone());
+			candidates.push(candidate(krate, row.num.clone(), artifact_sha256, executable));
 		}
 	}
-	write_json_lines(output, candidates)
+	let inputs = [crates_path.to_owned(), versions_path.to_owned()];
+	write_acquisition(output, SnapshotMetadata::complete("crates.io", &inputs, scope), package_observations, candidates)
 }
 
-pub fn import_api(input: &Path, output: &Path) -> Result<usize> {
+pub fn import_api(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
 	let mut candidates = Vec::new();
+	let mut package_observations = Vec::new();
 	for path in json_files(input)? {
 		let file = File::open(&path).with_context(|| format!("open {}", path.display()))?;
 		let document: Value =
@@ -82,6 +97,14 @@ pub fn import_api(input: &Path, output: &Path) -> Result<usize> {
 		let selected = select_api_version(versions)
 			.with_context(|| format!("{} has no non-yanked stable version", path.display()))?;
 		let version = selected.get("num").and_then(Value::as_str).unwrap_or_default();
+		let artifact_sha256 = selected
+			.get("checksum")
+			.and_then(Value::as_str)
+			.filter(|checksum| checksum.len() == 64)
+			.map(str::to_owned);
+		let mut package_observation = PackageObservation::observed(name, version);
+		package_observation.artifact_sha256 = artifact_sha256.clone();
+		package_observations.push(package_observation);
 		let bin_names = selected.get("bin_names").and_then(Value::as_array);
 		let Some(bin_names) = bin_names else {
 			continue;
@@ -92,6 +115,8 @@ pub fn import_api(input: &Path, output: &Path) -> Result<usize> {
 				channel: "crates.io".into(),
 				package: name.to_owned(),
 				version: version.to_owned(),
+				variant: std::collections::BTreeMap::new(),
+				artifact_sha256: artifact_sha256.clone(),
 				executable: executable.to_owned(),
 				evidence: "declared-entry-point".into(),
 				source_package: None,
@@ -102,7 +127,8 @@ pub fn import_api(input: &Path, output: &Path) -> Result<usize> {
 		}
 	}
 
-	write_json_lines(output, candidates)
+	let inputs = [input.to_owned()];
+	write_acquisition(output, SnapshotMetadata::complete("crates.io", &inputs, scope), package_observations, candidates)
 }
 
 fn read_crates(path: &Path) -> Result<HashMap<u64, CrateRow>> {
@@ -115,11 +141,13 @@ fn read_crates(path: &Path) -> Result<HashMap<u64, CrateRow>> {
 	Ok(crates)
 }
 
-fn candidate(krate: &CrateRow, version: String, executable: String) -> Candidate {
+fn candidate(krate: &CrateRow, version: String, artifact_sha256: Option<String>, executable: String) -> Candidate {
 	Candidate {
 		channel: "crates.io".into(),
 		package: krate.name.clone(),
 		version,
+		variant: std::collections::BTreeMap::new(),
+		artifact_sha256,
 		executable,
 		evidence: "declared-entry-point".into(),
 		source_package: None,

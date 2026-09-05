@@ -5,7 +5,7 @@ use std::path::Path;
 use anyhow::{Result, ensure};
 
 use crate::curation::{curated_package_projects, load_projects};
-use crate::model::{Candidate, read_candidate_directory};
+use crate::model::{Candidate, read_candidate_directory, validate_channel, validate_identity};
 
 #[derive(Clone, Copy, Debug, Eq, Ord, PartialEq, PartialOrd)]
 pub enum Confidence {
@@ -31,6 +31,7 @@ pub struct ProjectQuery {
 	pub name: String,
 	pub homepage: Option<String>,
 	pub repository: Option<String>,
+	pub links: Vec<String>,
 }
 
 #[derive(Debug, Eq, PartialEq)]
@@ -100,8 +101,8 @@ pub fn suggest_projects(
 	package: &str,
 	limit: usize,
 ) -> Result<Vec<ProjectSuggestion>> {
-	ensure!(!channel.trim().is_empty(), "channel is empty");
-	ensure!(!package.trim().is_empty(), "package is empty");
+	validate_channel(channel)?;
+	validate_identity("package", package)?;
 	ensure!(limit > 0, "limit must be greater than zero");
 
 	let mut packages = group_packages(read_candidate_directory(acquisitions)?);
@@ -121,6 +122,7 @@ pub fn suggest_projects(
 					name: project.name.clone(),
 					homepage: project.homepage.clone(),
 					repository: project.repository.clone(),
+					links: project.links.clone(),
 				},
 				package,
 				&facts,
@@ -236,6 +238,10 @@ fn match_project(query: &ProjectQuery, package: &str, facts: &PackageFacts) -> O
 			.homepage
 			.as_deref()
 			.is_some_and(|homepage| urls_contain(&facts.repositories, homepage));
+	let has_link_match = query
+		.links
+		.iter()
+		.any(|link| urls_contain(&facts.homepages, link) || urls_contain(&facts.repositories, link));
 	let names = project_names(query);
 	let has_package_match = names.iter().any(|name| package_names(package).contains(name));
 	let has_source_package_match = facts
@@ -259,6 +265,9 @@ fn match_project(query: &ProjectQuery, package: &str, facts: &PackageFacts) -> O
 	if has_homepage_repository_match {
 		evidence.insert("homepage URL in package repository".to_owned());
 	}
+	if has_link_match {
+		evidence.insert("project link URL".to_owned());
+	}
 	if has_package_match {
 		evidence.insert("package name".to_owned());
 	}
@@ -275,6 +284,7 @@ fn match_project(query: &ProjectQuery, package: &str, facts: &PackageFacts) -> O
 	} else if has_homepage_match
 		|| has_repository_homepage_match
 		|| has_homepage_repository_match
+		|| has_link_match
 		|| has_name_and_executable_match
 	{
 		Confidence::Strong
@@ -390,14 +400,14 @@ mod tests {
 		fs::write(
 			root.path().join("packages.jsonl"),
 			concat!(
-				"{\"channel\":\"crates.io\",\"package\":\"ripgrep\",\"version\":\"1\",",
-				"\"executable\":\"rg\",\"evidence\":\"declared\",",
-				"\"repository\":\"git@github.com:BurntSushi/ripgrep.git\"}\n",
 				"{\"channel\":\"arch\",\"package\":\"ripgrep\",\"version\":\"1\",",
-				"\"executable\":\"rg\",\"evidence\":\"files\",",
+				"\"executable\":\"rg\",\"evidence\":\"repository-file-listing\",",
 				"\"homepage\":\"https://github.com/BurntSushi/ripgrep\"}\n",
+				"{\"channel\":\"crates.io\",\"package\":\"ripgrep\",\"version\":\"1\",",
+				"\"executable\":\"rg\",\"evidence\":\"declared-entry-point\",",
+				"\"repository\":\"git@github.com:BurntSushi/ripgrep.git\"}\n",
 				"{\"channel\":\"debian\",\"package\":\"ripgrep\",\"version\":\"1\",",
-				"\"executable\":\"rg\",\"evidence\":\"files\"}\n",
+				"\"executable\":\"rg\",\"evidence\":\"repository-file-listing\"}\n",
 			),
 		)
 		.unwrap();
@@ -408,6 +418,7 @@ mod tests {
 				name: "ripgrep".to_owned(),
 				homepage: None,
 				repository: Some("https://github.com/BurntSushi/ripgrep".to_owned()),
+				links: Vec::new(),
 			},
 			10,
 		)
@@ -439,7 +450,7 @@ mod tests {
 			acquisitions.join("debian.jsonl"),
 			concat!(
 				"{\"channel\":\"debian\",\"package\":\"ripgrep\",\"version\":\"1\",",
-				"\"executable\":\"rg\",\"evidence\":\"files\"}\n",
+				"\"executable\":\"rg\",\"evidence\":\"repository-file-listing\"}\n",
 			),
 		)
 		.unwrap();
@@ -468,9 +479,9 @@ mod tests {
 			acquisitions.join("debian.jsonl"),
 			concat!(
 				"{\"channel\":\"debian\",\"package\":\"tool-bundle\",\"version\":\"1\",",
-				"\"executable\":\"foo\",\"evidence\":\"files\"}\n",
+				"\"executable\":\"bar\",\"evidence\":\"repository-file-listing\"}\n",
 				"{\"channel\":\"debian\",\"package\":\"tool-bundle\",\"version\":\"1\",",
-				"\"executable\":\"bar\",\"evidence\":\"files\"}\n",
+				"\"executable\":\"foo\",\"evidence\":\"repository-file-listing\"}\n",
 			),
 		)
 		.unwrap();
@@ -509,7 +520,7 @@ mod tests {
 			acquisitions.join("crates.jsonl"),
 			concat!(
 				"{\"channel\":\"crates.io\",\"package\":\"helix-term\",\"version\":\"1\",",
-				"\"executable\":\"hx\",\"evidence\":\"declared\",",
+				"\"executable\":\"hx\",\"evidence\":\"declared-entry-point\",",
 				"\"repository\":\"https://github.com/helix-editor/helix\"}\n",
 			),
 		)

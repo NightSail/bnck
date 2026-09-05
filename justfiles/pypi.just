@@ -19,4 +19,6 @@ import-pypi: build
     mkdir -p 'var/acquired'
     ./target/debug/bnck import-pypi \
     	--input '{{ pypi_input }}/wheels' \
-    	--output '{{ pypi_output }}'
+    	--output '{{ pypi_output }}' \
+    	--scope 'index=https://pypi.org/simple/' \
+    	--scope 'release-policy=latest-listed-wheel'

@@ -5,7 +5,8 @@ use std::path::Path;
 
 use anyhow::{Context, Result};
 
-use crate::model::{Candidate, write_json_lines};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::model::Candidate;
 
 #[derive(Clone, Debug, Default)]
 struct Package {
@@ -14,9 +15,25 @@ struct Package {
 	source: Option<String>,
 	homepage: Option<String>,
 	description: Option<String>,
+	architecture: Option<String>,
+	artifact_sha256: Option<String>,
 }
 
-pub fn import(packages: &Path, sources: &Path, contents: &Path, output: &Path) -> Result<usize> {
+pub fn import(
+	packages: &Path,
+	sources: &Path,
+	contents: &Path,
+	output: &Path,
+	scope: std::collections::BTreeMap<String, String>,
+) -> Result<usize> {
+	let mut inputs = vec![packages.to_owned(), sources.to_owned(), contents.to_owned()];
+	if let Some(in_release) = packages
+		.parent()
+		.map(|parent| parent.join("InRelease"))
+		.filter(|path| path.is_file())
+	{
+		inputs.push(in_release);
+	}
 	let source_metadata = read_sources(sources)?;
 	let mut packages = read_packages(packages)?;
 	for package in packages.values_mut() {
@@ -35,6 +52,12 @@ pub fn import(packages: &Path, sources: &Path, contents: &Path, output: &Path) -
 				channel: "debian".into(),
 				package: package.name.clone(),
 				version: package.version.clone(),
+				variant: package
+					.architecture
+					.iter()
+					.map(|architecture| ("architecture".to_owned(), architecture.clone()))
+					.collect(),
+				artifact_sha256: package.artifact_sha256.clone(),
 				executable: executable.clone(),
 				evidence: "repository-file-listing".into(),
 				source_package: package.source.clone(),
@@ -44,7 +67,18 @@ pub fn import(packages: &Path, sources: &Path, contents: &Path, output: &Path) -
 			});
 		}
 	}
-	write_json_lines(output, candidates)
+	let package_observations = packages
+		.values()
+		.map(|package| {
+			let mut observation = PackageObservation::observed(&package.name, &package.version);
+			if let Some(architecture) = &package.architecture {
+				observation.variant.insert("architecture".to_owned(), architecture.clone());
+			}
+			observation.artifact_sha256 = package.artifact_sha256.clone();
+			observation
+		})
+		.collect::<Vec<_>>();
+	write_acquisition(output, SnapshotMetadata::complete("debian", &inputs, scope), package_observations, candidates)
 }
 
 fn read_packages(path: &Path) -> Result<BTreeMap<String, Package>> {
@@ -65,6 +99,8 @@ fn read_packages(path: &Path) -> Result<BTreeMap<String, Package>> {
 			),
 			homepage: fields.get("Homepage").cloned(),
 			description: fields.get("Description").cloned(),
+			architecture: fields.get("Architecture").cloned(),
+			artifact_sha256: fields.get("SHA256").cloned(),
 		};
 		packages.insert(name.clone(), package);
 	}
@@ -189,7 +225,14 @@ mod tests {
 		.unwrap();
 		fs::write(&contents, "usr/bin/rg utils/ripgrep\n").unwrap();
 
-		import(&packages, &sources, &contents, &output).unwrap();
+		import(
+			&packages,
+			&sources,
+			&contents,
+			&output,
+			std::collections::BTreeMap::from([("suite".to_owned(), "test".to_owned())]),
+		)
+		.unwrap();
 		let candidates = read_candidates(&output).unwrap();
 
 		assert_eq!(candidates.len(), 1);

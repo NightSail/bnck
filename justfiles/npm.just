@@ -11,4 +11,6 @@ import-npm: build
     mkdir -p 'var/acquired'
     ./target/debug/bnck import-npm \
     	--input '{{ npm_input }}' \
-    	--output '{{ npm_output }}'
+    	--output '{{ npm_output }}' \
+    	--scope 'registry=https://registry.npmjs.org' \
+    	--scope 'release-policy=latest-dist-tag'

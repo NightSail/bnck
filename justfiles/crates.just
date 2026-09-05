@@ -25,10 +25,14 @@ import-crates-dump: build
     	./target/debug/bnck import-crates-dump \
     		--crates "$crates_csv" \
     		--versions "$versions_csv" \
-    		--output '{{ crates_output }}'
+    		--output '{{ crates_output }}' \
+    		--scope 'registry=crates.io' \
+    		--scope 'release-policy=latest-non-yanked-stable'
 
 import-crates-api: build
     mkdir -p 'var/acquired'
     ./target/debug/bnck import-crates-api \
     	--input '{{ crates_api_directory }}' \
-    	--output '{{ crates_output }}'
+    	--output '{{ crates_output }}' \
+    	--scope 'registry=crates.io' \
+    	--scope 'release-policy=latest-non-yanked-stable'

@@ -10,7 +10,8 @@ use quick_xml::encoding::Decoder;
 use quick_xml::events::{BytesStart, Event};
 use xz2::read::XzDecoder;
 
-use crate::model::{Candidate, write_json_lines};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::model::Candidate;
 
 #[derive(Clone, Debug, Default)]
 struct Package {
@@ -19,6 +20,7 @@ struct Package {
 	source: Option<String>,
 	homepage: Option<String>,
 	description: Option<String>,
+	architecture: Option<String>,
 	checksum: String,
 }
 
@@ -62,10 +64,37 @@ pub fn plan(repomd: &Path, base_url: &str, output_directory: &Path, output: &Pat
 	Ok(downloads.len())
 }
 
-pub fn import(primary: &Path, filelists: &Path, output: &Path) -> Result<usize> {
+pub fn import(
+	primary: &Path,
+	filelists: &Path,
+	output: &Path,
+	scope: std::collections::BTreeMap<String, String>,
+) -> Result<usize> {
 	let packages = read_primary(primary)?;
 	let candidates = read_filelists(filelists, &packages)?;
-	write_json_lines(output, candidates)
+	let package_observations = packages
+		.values()
+		.map(|package| {
+			let mut observation = PackageObservation::observed(&package.name, &package.version);
+			if let Some(architecture) = &package.architecture {
+				observation.variant.insert("architecture".to_owned(), architecture.clone());
+			}
+			if package.checksum.len() == 64 {
+				observation.artifact_sha256 = Some(package.checksum.clone());
+			}
+			observation
+		})
+		.collect::<Vec<_>>();
+	let mut inputs = vec![primary.to_owned(), filelists.to_owned()];
+	if let Some(repomd) = primary
+		.parent()
+		.and_then(Path::parent)
+		.map(|parent| parent.join("repomd.xml"))
+		.filter(|path| path.is_file())
+	{
+		inputs.push(repomd);
+	}
+	write_acquisition(output, SnapshotMetadata::complete("fedora", &inputs, scope), package_observations, candidates)
 }
 
 fn read_primary(path: &Path) -> Result<HashMap<String, Package>> {
@@ -135,6 +164,12 @@ fn read_filelists(path: &Path, packages: &HashMap<String, Package>) -> Result<Ve
 						channel: "fedora".into(),
 						package: package.name.clone(),
 						version: package.version.clone(),
+						variant: package
+							.architecture
+							.iter()
+							.map(|architecture| ("architecture".to_owned(), architecture.clone()))
+							.collect(),
+						artifact_sha256: (package.checksum.len() == 64).then(|| package.checksum.clone()),
 						executable: executable.to_owned(),
 						evidence: "repository-file-listing".into(),
 						source_package: package.source.clone(),
@@ -160,6 +195,7 @@ enum Field {
 	Checksum,
 	Summary,
 	Description,
+	Architecture,
 	Url,
 	Source,
 }
@@ -171,6 +207,7 @@ impl Field {
 			b"checksum" => Some(Self::Checksum),
 			b"summary" => Some(Self::Summary),
 			b"description" => Some(Self::Description),
+			b"arch" => Some(Self::Architecture),
 			b"url" => Some(Self::Url),
 			b"sourcerpm" => Some(Self::Source),
 			_ => None,
@@ -184,6 +221,7 @@ impl Field {
 			Self::Summary => package.description = Some(value),
 			Self::Description if package.description.is_none() => package.description = Some(value),
 			Self::Description => {},
+			Self::Architecture => package.architecture = Some(value),
 			Self::Url => package.homepage = Some(value),
 			Self::Source => package.source = Some(source_rpm_name(&value).to_owned()),
 		}
