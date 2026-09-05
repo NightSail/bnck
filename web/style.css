@@ -279,48 +279,10 @@ main {
 	text-underline-offset: 3px;
 }
 .relation-card {
-	padding: 22px 26px 0;
 	border: 1px solid var(--line);
 	border-top-color: var(--line-strong);
 	border-radius: 2px;
 	background: var(--surface);
-}
-.relation-card > header {
-	display: flex;
-	justify-content: space-between;
-	gap: 12px;
-	padding-bottom: 17px;
-	margin-bottom: 22px;
-	border-bottom: 1px solid var(--line);
-}
-.relation-card header .eyebrow {
-	margin: 0;
-	font-size: 10px;
-}
-.example-record {
-	margin: 0 0 22px;
-}
-.example-record > div {
-	display: grid;
-	grid-template-columns: 100px minmax(0, 1fr);
-	gap: 12px;
-	padding: 12px 0;
-}
-.example-record dt {
-	color: var(--muted);
-	font: 12px/1.65 var(--mono);
-}
-.example-record dd {
-	margin: 0;
-	font-size: 14px;
-	overflow-wrap: anywhere;
-}
-.example-record a {
-	color: var(--green);
-}
-.example-record a:hover {
-	text-decoration: underline;
-	text-underline-offset: 3px;
 }
 .stats {
 	display: grid;
@@ -1108,9 +1070,6 @@ thead th {
 	}
 	.search-input button span {
 		display: none;
-	}
-	.relation-card {
-		padding-inline: 20px;
 	}
 	.stats dt {
 		font-size: 11px;

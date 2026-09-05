@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% from 'components.html' import search_form, stats with context %}
+{% from 'components.html' import search_form, stats, search_result with context %}
 {% block content %}
 <section class='hero'>
 	<div class='hero-copy'>
@@ -10,24 +10,11 @@
 		<p class='search-hint' id='search-hint'>Search by full or partial name.
 			<a href='/?q='>Browse names <span aria-hidden='true'>→</span></a></p>
 	</div>
-	<aside class='relation-card' aria-label='Example lookup'>
-		<header><span class='eyebrow'>Example lookup</span></header>
+	<aside class='relation-card' aria-label='Featured project'>
 		{% if page.example %}
-		<dl class='example-record'>
-			<div>
-				<dt>Executable</dt>
-				<dd><a href='/executables/{{ page.example.executable | path_segment }}'>
-					<code>{{ page.example.executable }}</code></a></dd>
-			</div>
-			<div>
-				<dt>Project</dt>
-				<dd><a href='/projects/{{ page.example.project | path_segment }}'>
-					<code>{{ page.example.project }}</code></a></dd>
-			</div>
-			<div><dt>Channel</dt><dd>{{ page.example.channel | channel_label }}</dd></div>
-			<div><dt>Package</dt><dd><code>{{ page.example.package }}</code></dd></div>
-		</dl>
-		{% else %}<p class='muted'>No executables listed in this release.</p>{% endif %}
+		{{ search_result(page.example, 'featured-project', 3,
+			more_url='/projects/' ~ (page.example.name | path_segment)) }}
+		{% else %}<p class='name-result muted'>No executables listed in this release.</p>{% endif %}
 	</aside>
 </section>
 {{ stats(page.stats) }}

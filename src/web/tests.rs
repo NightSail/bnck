@@ -495,6 +495,44 @@ async fn initial_filter_renders_available_links_above_results_and_on_empty_searc
 	assert!(navigation.contains(">All</a>"));
 }
 
+#[tokio::test]
+async fn landing_example_reuses_age_search_result_with_three_executables_and_project_link() {
+	let records = [
+		("age", "age", "arch", "age"),
+		("age", "age", "fedora", "age"),
+		("age", "age", "homebrew", "homebrew/core/age"),
+		("age", "age", "debian", "age-extra"),
+		("age", "age-plugin-pq", "debian", "age"),
+		("age", "age-plugin-tag", "debian", "age"),
+		("age", "age-plugin-tagpq", "debian", "age"),
+		("age", "age-plugin-tagtest", "debian", "age"),
+		("other", "age", "pypi", "unrelated"),
+	];
+	let database = fixture(RECORDS.iter().chain(AGE_RECORDS).chain(&records).copied().map(provider));
+	let example = database.example.as_ref().unwrap();
+	assert_eq!(example.name, "age");
+	let results = database.search(&search_query("age")).unwrap();
+	assert_eq!(executable_names(example), executable_names(&results.rows[0]));
+	assert_eq!(example.related.len(), 8);
+	assert_eq!(example.related[0].channels, ["arch", "debian", "fedora", "homebrew"]);
+
+	let html = response_text(search_page(&database, SearchQuery { q: None, ..search_query("") })).await;
+	let (_, card) = html.split_once("<aside class='relation-card'").unwrap();
+	let (card, _) = card.split_once("</aside>").unwrap();
+	let card = card.split_whitespace().collect::<Vec<_>>().join(" ");
+	assert!(card.contains("class='name-result'"));
+	assert_eq!(card.matches("class='related-name'").count(), 3);
+	for relation in &example.related[..3] {
+		assert!(card.contains(&format!("href='/projects/age#executable-{}'", relation.name)));
+	}
+	assert!(card.contains("Arch Linux, Debian, Fedora, Homebrew"));
+	assert!(card.contains("class='more-related text-link' href='&#x2f;projects&#x2f;age'> 5 more executables</a>"));
+	assert!(!card.contains("age-plugin-"));
+	assert!(!card.contains("<details"));
+	assert!(!card.contains("Package"));
+	assert!(!html.contains("Example lookup"));
+}
+
 #[test]
 fn pagination_encodes_query_parameters_and_handles_empty_data() {
 	let query = search_query("a & é?#");

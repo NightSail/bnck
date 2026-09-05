@@ -19,7 +19,7 @@ use rusqlite::{Connection, OpenFlags, params};
 use serde::{Deserialize, Serialize};
 use tempfile::NamedTempFile;
 
-use crate::model::{CHANNELS, Provider};
+use crate::model::CHANNELS;
 use crate::release::SQLITE_SCHEMA_VERSION;
 
 const SEARCH_PAGE_SIZE: u64 = 30;
@@ -96,7 +96,7 @@ struct Database {
 	metadata: BTreeMap<String, String>,
 	stats: DatasetStats,
 	channels: Vec<ChannelStats>,
-	example: Option<Provider>,
+	example: Option<SearchResult>,
 }
 
 impl Database {
@@ -290,18 +290,19 @@ fn read_channel_stats(connection: &Connection) -> Result<Vec<ChannelStats>> {
 	Ok(rows.collect::<rusqlite::Result<_>>()?)
 }
 
-fn read_example(connection: &Connection) -> Result<Option<Provider>> {
+fn read_example(connection: &Connection) -> Result<Option<SearchResult>> {
 	let mut statement = connection.prepare(
-		"SELECT project, executable, channel, package FROM providers
-		 ORDER BY CASE executable WHEN 'rg' THEN 0 WHEN 'hx' THEN 1 ELSE 2 END,
-		 project, executable, channel, package LIMIT 1",
+		"SELECT project, executable FROM providers
+		 ORDER BY CASE WHEN project = 'age' AND executable = 'age' THEN 0
+			WHEN executable = 'rg' THEN 1 WHEN executable = 'hx' THEN 2 ELSE 3 END,
+		 project, executable LIMIT 1",
 	)?;
 	let mut rows = statement.query([])?;
-	rows.next()?
-		.map(|row| {
-			Ok(Provider { project: row.get(0)?, executable: row.get(1)?, channel: row.get(2)?, package: row.get(3)? })
-		})
-		.transpose()
+	let Some(row) = rows.next()? else {
+		return Ok(None);
+	};
+	let search = SearchQuery { q: row.get(1)?, channel: String::new(), initial: String::new(), page: 1 };
+	read_search_result(connection, row.get(0)?, &search).map(Some)
 }
 
 #[derive(Clone, Copy, Serialize)]
@@ -963,7 +964,7 @@ mod tests {
 		assert!(home.contains("<h1>Executable lookup</h1>"));
 		assert!(home.contains("href='/?q='>Browse names"));
 		assert!(!home.contains("class='entry-section'"));
-		assert!(home.contains("href='/executables/rg'"));
+		assert!(home.contains("href='/projects/ripgrep#executable-rg'"));
 		assert!(home.contains("aria-label='bnck(1): bin name check, home'"));
 		assert!(home.contains("<span class='brand-description'>bin name check</span>"));
 		assert!(!home.contains("brand-mark"));
