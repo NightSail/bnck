@@ -1,0 +1,8 @@
+id = 'swaptop'
+name = 'swaptop'
+
+repository = 'https://github.com/luis-ota/swaptop'
+
+[[package]]
+channel = 'arch'
+name = 'swaptop'

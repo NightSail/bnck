@@ -1,0 +1,12 @@
+id = 'sl'
+name = 'sl'
+
+repository = 'https://github.com/mtoyoda/sl'
+
+[[package]]
+channel = 'fedora'
+name = 'sl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sl'

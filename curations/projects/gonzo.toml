@@ -1,0 +1,8 @@
+id = 'gonzo'
+name = 'gonzo'
+
+repository = 'https://github.com/control-theory/gonzo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gonzo'

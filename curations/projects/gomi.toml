@@ -1,0 +1,8 @@
+id = 'gomi'
+name = 'gomi'
+
+repository = 'https://github.com/babarot/gomi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gomi'

@@ -1,0 +1,13 @@
+id = 'xplr'
+name = 'xplr'
+
+homepage = 'https://xplr.dev'
+repository = 'https://github.com/sayanarijit/xplr'
+
+[[package]]
+channel = 'arch'
+name = 'xplr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xplr'

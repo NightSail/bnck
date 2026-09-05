@@ -1,0 +1,12 @@
+id = 'spotify-player'
+name = 'spotify-player'
+
+repository = 'https://github.com/aome510/spotify-player'
+
+[[package]]
+channel = 'arch'
+name = 'spotify-player'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spotify_player'

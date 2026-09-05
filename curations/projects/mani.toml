@@ -1,0 +1,8 @@
+id = 'mani'
+name = 'mani'
+
+repository = 'https://github.com/alajmo/mani'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mani'

@@ -1,0 +1,12 @@
+id = 'flawz'
+name = 'flawz'
+
+repository = 'https://github.com/orhun/flawz'
+
+[[package]]
+channel = 'arch'
+name = 'flawz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flawz'

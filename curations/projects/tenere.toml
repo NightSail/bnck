@@ -1,0 +1,8 @@
+id = 'tenere'
+name = 'tenere'
+
+repository = 'https://github.com/pythops/tenere'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tenere'

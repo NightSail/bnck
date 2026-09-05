@@ -1,0 +1,21 @@
+id = 'htop'
+name = 'htop'
+
+homepage = 'https://htop.dev'
+repository = 'https://github.com/htop-dev/htop'
+
+[[package]]
+channel = 'arch'
+name = 'htop'
+
+[[package]]
+channel = 'debian'
+name = 'htop'
+
+[[package]]
+channel = 'fedora'
+name = 'htop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htop'

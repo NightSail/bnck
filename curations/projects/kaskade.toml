@@ -1,0 +1,8 @@
+id = 'kaskade'
+name = 'kaskade'
+
+repository = 'https://github.com/sauljabin/kaskade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kaskade'

@@ -1,0 +1,17 @@
+id = 'micro'
+name = 'micro'
+
+homepage = 'https://micro-editor.github.io'
+repository = 'https://github.com/zyedidia/micro'
+
+[[package]]
+channel = 'arch'
+name = 'micro'
+
+[[package]]
+channel = 'debian'
+name = 'micro'
+
+[[package]]
+channel = 'fedora'
+name = 'micro'

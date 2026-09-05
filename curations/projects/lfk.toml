@@ -1,0 +1,8 @@
+id = 'lfk'
+name = 'lfk'
+
+repository = 'https://github.com/janosmiko/lfk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lfk'

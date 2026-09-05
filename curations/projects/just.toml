@@ -1,0 +1,16 @@
+id = 'just'
+name = 'just'
+
+repository = 'https://github.com/casey/just'
+
+[[package]]
+channel = 'arch'
+name = 'just'
+
+[[package]]
+channel = 'debian'
+name = 'just'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/just'

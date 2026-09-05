@@ -1,0 +1,8 @@
+id = 'moribito'
+name = 'moribito'
+
+repository = 'https://github.com/ericschmar/moribito'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moribito'

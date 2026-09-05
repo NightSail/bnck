@@ -1,0 +1,8 @@
+id = 'bibiman'
+name = 'bibiman'
+
+repository = 'https://codeberg.org/lukeflo/bibiman'
+
+[[package]]
+channel = 'debian'
+name = 'bibiman'

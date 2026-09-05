@@ -1,0 +1,12 @@
+id = 'navi'
+name = 'navi'
+
+repository = 'https://github.com/denisidoro/navi'
+
+[[package]]
+channel = 'arch'
+name = 'navi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/navi'

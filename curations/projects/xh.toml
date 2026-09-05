@@ -1,0 +1,16 @@
+id = 'xh'
+name = 'xh'
+
+repository = 'https://github.com/ducaale/xh'
+
+[[package]]
+channel = 'arch'
+name = 'xh'
+
+[[package]]
+channel = 'debian'
+name = 'xh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xh'

@@ -1,0 +1,8 @@
+id = 'lazyjournal'
+name = 'lazyjournal'
+
+repository = 'https://github.com/Lifailon/lazyjournal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazyjournal'

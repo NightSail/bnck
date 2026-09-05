@@ -1,0 +1,8 @@
+id = 'systemctl-tui'
+name = 'systemctl-tui'
+
+repository = 'https://github.com/rgwood/systemctl-tui'
+
+[[package]]
+channel = 'arch'
+name = 'systemctl-tui'

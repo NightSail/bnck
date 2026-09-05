@@ -1,0 +1,8 @@
+id = 'nemu'
+name = 'nemu'
+
+repository = 'https://github.com/nemuTUI/nemu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nemu'

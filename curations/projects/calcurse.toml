@@ -1,0 +1,20 @@
+id = 'calcurse'
+name = 'calcurse'
+
+homepage = 'https://calcurse.org'
+
+[[package]]
+channel = 'arch'
+name = 'calcurse'
+
+[[package]]
+channel = 'debian'
+name = 'calcurse'
+
+[[package]]
+channel = 'fedora'
+name = 'calcurse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/calcurse'

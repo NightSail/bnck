@@ -1,0 +1,9 @@
+id = 'orbiton'
+name = 'orbiton'
+
+homepage = 'https://orbiton.zip'
+repository = 'https://github.com/xyproto/orbiton'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/orbiton'

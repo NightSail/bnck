@@ -1,0 +1,8 @@
+id = 'ktea'
+name = 'ktea'
+
+repository = 'https://github.com/jonas-grgt/ktea'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktea'

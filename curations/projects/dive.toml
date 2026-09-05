@@ -1,0 +1,12 @@
+id = 'dive'
+name = 'dive'
+
+repository = 'https://github.com/wagoodman/dive'
+
+[[package]]
+channel = 'arch'
+name = 'dive'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dive'

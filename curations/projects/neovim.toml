@@ -1,0 +1,21 @@
+id = 'neovim'
+name = 'neovim'
+
+homepage = 'https://neovim.io'
+repository = 'https://github.com/neovim/neovim'
+
+[[package]]
+channel = 'arch'
+name = 'neovim'
+
+[[package]]
+channel = 'debian'
+name = 'neovim'
+
+[[package]]
+channel = 'fedora'
+name = 'neovim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neovim'

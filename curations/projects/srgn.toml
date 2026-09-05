@@ -1,0 +1,12 @@
+id = 'srgn'
+name = 'srgn'
+
+repository = 'https://github.com/alexpovel/srgn'
+
+[[package]]
+channel = 'arch'
+name = 'srgn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/srgn'

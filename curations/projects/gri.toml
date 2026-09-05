@@ -1,0 +1,8 @@
+id = 'gri'
+name = 'gri'
+
+repository = 'https://github.com/pycontribs/gri'
+
+[[package]]
+channel = 'debian'
+name = 'gri'

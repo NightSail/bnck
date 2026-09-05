@@ -1,0 +1,17 @@
+id = 's-tui'
+name = 's-tui'
+
+homepage = 'https://amanusk.github.io/s-tui'
+repository = 'https://github.com/amanusk/s-tui'
+
+[[package]]
+channel = 'arch'
+name = 's-tui'
+
+[[package]]
+channel = 'debian'
+name = 's-tui'
+
+[[package]]
+channel = 'fedora'
+name = 's-tui'

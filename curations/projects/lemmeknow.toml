@@ -1,0 +1,8 @@
+id = 'lemmeknow'
+name = 'lemmeknow'
+
+repository = 'https://github.com/swanandx/lemmeknow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lemmeknow'

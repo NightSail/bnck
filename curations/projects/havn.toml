@@ -1,0 +1,12 @@
+id = 'havn'
+name = 'havn'
+
+repository = 'https://github.com/mrjackwills/havn'
+
+[[package]]
+channel = 'arch'
+name = 'havn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/havn'

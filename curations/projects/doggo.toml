@@ -1,0 +1,12 @@
+id = 'doggo'
+name = 'doggo'
+
+repository = 'https://github.com/mr-karan/doggo'
+
+[[package]]
+channel = 'arch'
+name = 'doggo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doggo'

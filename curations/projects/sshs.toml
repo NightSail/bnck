@@ -1,0 +1,12 @@
+id = 'sshs'
+name = 'sshs'
+
+repository = 'https://github.com/quantumsheep/sshs'
+
+[[package]]
+channel = 'arch'
+name = 'sshs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshs'

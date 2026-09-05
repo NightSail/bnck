@@ -1,0 +1,20 @@
+id = 'cgdb'
+name = 'cgdb'
+
+repository = 'https://github.com/cgdb/cgdb'
+
+[[package]]
+channel = 'arch'
+name = 'cgdb'
+
+[[package]]
+channel = 'debian'
+name = 'cgdb'
+
+[[package]]
+channel = 'fedora'
+name = 'cgdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cgdb'

@@ -1,0 +1,8 @@
+id = 'recoverpy'
+name = 'recoverpy'
+
+repository = 'https://github.com/PabloLec/RecoverPy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recoverpy'

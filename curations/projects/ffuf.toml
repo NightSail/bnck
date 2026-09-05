@@ -1,0 +1,16 @@
+id = 'ffuf'
+name = 'ffuf'
+
+repository = 'https://github.com/ffuf/ffuf'
+
+[[package]]
+channel = 'debian'
+name = 'ffuf'
+
+[[package]]
+channel = 'fedora'
+name = 'ffuf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffuf'

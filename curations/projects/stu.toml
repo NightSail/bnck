@@ -1,0 +1,8 @@
+id = 'stu'
+name = 'stu'
+
+repository = 'https://github.com/lusingander/stu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stu'

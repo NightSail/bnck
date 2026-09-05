@@ -1,0 +1,12 @@
+id = 'fex'
+name = 'fex'
+
+repository = 'https://github.com/18alantom/fex'
+
+[[package]]
+channel = 'fedora'
+name = 'fex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fex'

@@ -1,0 +1,12 @@
+id = 'taskwarrior-tui'
+name = 'taskwarrior-tui'
+
+repository = 'https://github.com/kdheepak/taskwarrior-tui'
+
+[[package]]
+channel = 'arch'
+name = 'taskwarrior-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taskwarrior-tui'

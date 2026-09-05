@@ -1,0 +1,12 @@
+id = 'rhit'
+name = 'rhit'
+
+repository = 'https://github.com/Canop/rhit'
+
+[[package]]
+channel = 'arch'
+name = 'rhit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rhit'

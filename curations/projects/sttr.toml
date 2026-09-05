@@ -1,0 +1,8 @@
+id = 'sttr'
+name = 'sttr'
+
+repository = 'https://github.com/abhimanyu003/sttr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sttr'

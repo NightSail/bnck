@@ -1,0 +1,8 @@
+id = 't-rec'
+name = 't-rec'
+
+repository = 'https://github.com/sassman/t-rec-rs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/t-rec'

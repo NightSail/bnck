@@ -1,0 +1,8 @@
+id = 'torra'
+name = 'torra'
+
+repository = 'https://github.com/stabldev/torrra'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/torrra'

@@ -1,0 +1,8 @@
+id = 'textql'
+name = 'textql'
+
+repository = 'https://github.com/dinedal/textql'
+
+[[package]]
+channel = 'debian'
+name = 'textql'

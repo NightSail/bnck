@@ -1,0 +1,8 @@
+id = 'pet'
+name = 'pet'
+
+repository = 'https://github.com/knqyf263/pet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pet'

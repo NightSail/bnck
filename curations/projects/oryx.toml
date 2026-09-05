@@ -1,0 +1,8 @@
+id = 'oryx'
+name = 'oryx'
+
+repository = 'https://github.com/pythops/oryx'
+
+[[package]]
+channel = 'arch'
+name = 'oryx'

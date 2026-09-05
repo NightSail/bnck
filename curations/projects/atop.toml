@@ -1,0 +1,20 @@
+id = 'atop'
+name = 'atop'
+
+homepage = 'https://www.atoptool.nl'
+
+[[package]]
+channel = 'arch'
+name = 'atop'
+
+[[package]]
+channel = 'debian'
+name = 'atop'
+
+[[package]]
+channel = 'fedora'
+name = 'atop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atop'

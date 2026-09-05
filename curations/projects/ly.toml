@@ -1,0 +1,8 @@
+id = 'ly'
+name = 'ly'
+
+repository = 'https://codeberg.org/fairyglade/ly'
+
+[[package]]
+channel = 'arch'
+name = 'ly'

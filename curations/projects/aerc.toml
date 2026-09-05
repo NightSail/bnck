@@ -1,0 +1,21 @@
+id = 'aerc'
+name = 'aerc'
+
+homepage = 'https://aerc-mail.org'
+repository = 'https://git.sr.ht/~rjarry/aerc'
+
+[[package]]
+channel = 'arch'
+name = 'aerc'
+
+[[package]]
+channel = 'debian'
+name = 'aerc'
+
+[[package]]
+channel = 'fedora'
+name = 'aerc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aerc'

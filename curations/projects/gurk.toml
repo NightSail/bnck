@@ -1,0 +1,12 @@
+id = 'gurk'
+name = 'gurk'
+
+repository = 'https://github.com/boxdot/gurk-rs'
+
+[[package]]
+channel = 'arch'
+name = 'gurk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gurk'

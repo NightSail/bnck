@@ -1,0 +1,12 @@
+id = 'qman'
+name = 'qman'
+
+repository = 'https://github.com/plp13/qman'
+
+[[package]]
+channel = 'debian'
+name = 'qman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qman'

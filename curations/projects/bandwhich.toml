@@ -1,0 +1,16 @@
+id = 'bandwhich'
+name = 'bandwhich'
+
+repository = 'https://github.com/imsnif/bandwhich'
+
+[[package]]
+channel = 'arch'
+name = 'bandwhich'
+
+[[package]]
+channel = 'debian'
+name = 'bandwhich'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bandwhich'

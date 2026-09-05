@@ -1,0 +1,16 @@
+id = 'ollama'
+name = 'ollama'
+
+repository = 'https://github.com/ollama/ollama'
+
+[[package]]
+channel = 'arch'
+name = 'ollama'
+
+[[package]]
+channel = 'fedora'
+name = 'ollama'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ollama'

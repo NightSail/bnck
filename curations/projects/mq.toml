@@ -1,0 +1,8 @@
+id = 'mq'
+name = 'mq'
+
+repository = 'https://github.com/harehare/mq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mq'

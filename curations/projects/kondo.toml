@@ -1,0 +1,16 @@
+id = 'kondo'
+name = 'kondo'
+
+repository = 'https://github.com/tbillington/kondo'
+
+[[package]]
+channel = 'arch'
+name = 'kondo'
+
+[[package]]
+channel = 'arch'
+name = 'kondo-ui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kondo'

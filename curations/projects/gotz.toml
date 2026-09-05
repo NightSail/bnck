@@ -1,0 +1,8 @@
+id = 'gotz'
+name = 'gotz'
+
+repository = 'https://github.com/merschformann/gotz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotz'

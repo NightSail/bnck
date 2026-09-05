@@ -1,0 +1,8 @@
+id = 'bluetuith'
+name = 'bluetuith'
+
+repository = 'https://github.com/darkhz/bluetuith'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bluetuith'

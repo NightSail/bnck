@@ -1,0 +1,17 @@
+id = 'rizin'
+name = 'rizin'
+
+homepage = 'https://rizin.re'
+repository = 'https://github.com/rizinorg/rizin'
+
+[[package]]
+channel = 'arch'
+name = 'rizin'
+
+[[package]]
+channel = 'fedora'
+name = 'rizin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rizin'

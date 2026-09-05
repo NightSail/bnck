@@ -1,0 +1,16 @@
+id = 'lazygit'
+name = 'lazygit'
+
+repository = 'https://github.com/jesseduffield/lazygit'
+
+[[package]]
+channel = 'arch'
+name = 'lazygit'
+
+[[package]]
+channel = 'debian'
+name = 'lazygit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazygit'

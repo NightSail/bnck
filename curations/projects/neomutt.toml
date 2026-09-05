@@ -1,0 +1,21 @@
+id = 'neomutt'
+name = 'neomutt'
+
+homepage = 'https://neomutt.org'
+repository = 'https://github.com/neomutt/neomutt'
+
+[[package]]
+channel = 'arch'
+name = 'neomutt'
+
+[[package]]
+channel = 'debian'
+name = 'neomutt'
+
+[[package]]
+channel = 'fedora'
+name = 'neomutt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neomutt'

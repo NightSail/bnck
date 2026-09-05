@@ -1,0 +1,8 @@
+id = 'sen'
+name = 'sen'
+
+repository = 'https://github.com/TomasTomecek/sen'
+
+[[package]]
+channel = 'debian'
+name = 'sen'

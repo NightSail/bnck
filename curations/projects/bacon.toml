@@ -1,0 +1,16 @@
+id = 'bacon'
+name = 'bacon'
+
+repository = 'https://github.com/Canop/bacon'
+
+[[package]]
+channel = 'arch'
+name = 'bacon'
+
+[[package]]
+channel = 'debian'
+name = 'bacon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bacon'

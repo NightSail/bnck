@@ -1,0 +1,8 @@
+id = 'tukai'
+name = 'tukai'
+
+repository = 'https://github.com/hlsxx/tukai'
+
+[[package]]
+channel = 'arch'
+name = 'tukai'

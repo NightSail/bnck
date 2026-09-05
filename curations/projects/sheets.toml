@@ -1,0 +1,8 @@
+id = 'sheets'
+name = 'sheets'
+
+repository = 'https://github.com/maaslalani/sheets'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sheets'

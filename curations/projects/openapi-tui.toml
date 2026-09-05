@@ -1,0 +1,12 @@
+id = 'openapi-tui'
+name = 'openapi-tui'
+
+repository = 'https://github.com/zaghaghi/openapi-tui'
+
+[[package]]
+channel = 'arch'
+name = 'openapi-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openapi-tui'

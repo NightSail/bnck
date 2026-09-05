@@ -1,0 +1,12 @@
+id = 'pueue'
+name = 'pueue'
+
+repository = 'https://github.com/Nukesor/pueue'
+
+[[package]]
+channel = 'arch'
+name = 'pueue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pueue'

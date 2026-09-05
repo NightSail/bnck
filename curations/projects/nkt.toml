@@ -1,0 +1,8 @@
+id = 'nkt'
+name = 'nkt'
+
+repository = 'https://git.sr.ht/~fjebaker/nkt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nkt'

@@ -1,0 +1,8 @@
+id = 'wifitui'
+name = 'wifitui'
+
+repository = 'https://github.com/shazow/wifitui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wifitui'

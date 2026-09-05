@@ -1,0 +1,20 @@
+id = 'chezmoi'
+name = 'chezmoi'
+
+repository = 'https://github.com/twpayne/chezmoi'
+
+[[package]]
+channel = 'arch'
+name = 'chezmoi'
+
+[[package]]
+channel = 'debian'
+name = 'chezmoi'
+
+[[package]]
+channel = 'fedora'
+name = 'chezmoi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chezmoi'

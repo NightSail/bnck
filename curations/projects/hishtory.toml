@@ -1,0 +1,8 @@
+id = 'hishtory'
+name = 'hishtory'
+
+repository = 'https://github.com/ddworken/hishtory'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hishtory'

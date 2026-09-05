@@ -1,0 +1,20 @@
+id = 'yt-dlp'
+name = 'yt-dlp'
+
+repository = 'https://github.com/yt-dlp/yt-dlp'
+
+[[package]]
+channel = 'arch'
+name = 'yt-dlp'
+
+[[package]]
+channel = 'debian'
+name = 'yt-dlp'
+
+[[package]]
+channel = 'fedora'
+name = 'yt-dlp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yt-dlp'

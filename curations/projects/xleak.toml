@@ -1,0 +1,12 @@
+id = 'xleak'
+name = 'xleak'
+
+repository = 'https://github.com/bgreenwell/xleak'
+
+[[package]]
+channel = 'debian'
+name = 'xleak'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xleak'

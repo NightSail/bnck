@@ -1,0 +1,12 @@
+id = 'intelli-shell'
+name = 'intelli-shell'
+
+repository = 'https://github.com/lasantosr/intelli-shell'
+
+[[package]]
+channel = 'arch'
+name = 'intelli-shell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/intelli-shell'

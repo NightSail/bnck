@@ -1,0 +1,20 @@
+id = 'nvtop'
+name = 'nvtop'
+
+repository = 'https://github.com/Syllo/nvtop'
+
+[[package]]
+channel = 'arch'
+name = 'nvtop'
+
+[[package]]
+channel = 'debian'
+name = 'nvtop'
+
+[[package]]
+channel = 'fedora'
+name = 'nvtop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nvtop'

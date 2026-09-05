@@ -1,0 +1,8 @@
+id = 'parqeye'
+name = 'parqeye'
+
+repository = 'https://github.com/kaushiksrini/parqeye'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/parqeye'

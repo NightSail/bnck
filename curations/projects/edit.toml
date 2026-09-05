@@ -1,0 +1,8 @@
+id = 'edit'
+name = 'edit'
+
+repository = 'https://github.com/microsoft/edit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msedit'

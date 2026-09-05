@@ -1,0 +1,8 @@
+id = 'papis'
+name = 'papis'
+
+repository = 'https://github.com/papis/papis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/papis'

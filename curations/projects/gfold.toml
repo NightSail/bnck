@@ -1,0 +1,12 @@
+id = 'gfold'
+name = 'gfold'
+
+repository = 'https://github.com/nickgerace/gfold'
+
+[[package]]
+channel = 'arch'
+name = 'gfold'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gfold'

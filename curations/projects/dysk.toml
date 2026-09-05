@@ -1,0 +1,16 @@
+id = 'dysk'
+name = 'dysk'
+
+repository = 'https://github.com/canop/dysk'
+
+[[package]]
+channel = 'arch'
+name = 'dysk'
+
+[[package]]
+channel = 'debian'
+name = 'dysk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dysk'

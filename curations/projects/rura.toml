@@ -1,0 +1,8 @@
+id = 'rura'
+name = 'rura'
+
+repository = 'https://github.com/tlipinski/rura'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rura'

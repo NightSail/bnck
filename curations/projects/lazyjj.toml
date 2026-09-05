@@ -1,0 +1,12 @@
+id = 'lazyjj'
+name = 'lazyjj'
+
+repository = 'https://github.com/Cretezy/lazyjj'
+
+[[package]]
+channel = 'arch'
+name = 'lazyjj'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazyjj'

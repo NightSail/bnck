@@ -1,0 +1,8 @@
+id = 'patch-hub'
+name = 'patch-hub'
+
+repository = 'https://github.com/kworkflow/patch-hub'
+
+[[package]]
+channel = 'debian'
+name = 'patch-hub'

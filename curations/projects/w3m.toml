@@ -1,0 +1,13 @@
+id = 'w3m'
+name = 'w3m'
+
+homepage = 'https://w3m.sourceforge.net'
+repository = 'https://github.com/tats/w3m'
+
+[[package]]
+channel = 'fedora'
+name = 'w3m'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/w3m'

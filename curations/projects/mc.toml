@@ -1,0 +1,21 @@
+id = 'mc'
+name = 'mc'
+
+homepage = 'https://www.midnight-commander.org'
+repository = 'https://github.com/MidnightCommander/mc'
+
+[[package]]
+channel = 'arch'
+name = 'mc'
+
+[[package]]
+channel = 'debian'
+name = 'mc'
+
+[[package]]
+channel = 'fedora'
+name = 'mc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/midnight-commander'

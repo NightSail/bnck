@@ -1,0 +1,8 @@
+id = 'newsboat'
+name = 'newsboat'
+
+repository = 'https://github.com/newsboat/newsboat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newsboat'

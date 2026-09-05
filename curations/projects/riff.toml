@@ -1,0 +1,12 @@
+id = 'riff'
+name = 'riff'
+
+repository = 'https://github.com/walles/riff'
+
+[[package]]
+channel = 'debian'
+name = 'riff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/riff'

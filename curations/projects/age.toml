@@ -1,0 +1,20 @@
+id = 'age'
+name = 'age'
+
+repository = 'https://github.com/FiloSottile/age'
+
+[[package]]
+channel = 'arch'
+name = 'age'
+
+[[package]]
+channel = 'debian'
+name = 'age'
+
+[[package]]
+channel = 'fedora'
+name = 'age'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/age'

@@ -1,0 +1,16 @@
+id = 'atac'
+name = 'atac'
+
+repository = 'https://github.com/Julien-cpsn/ATAC'
+
+[[package]]
+channel = 'arch'
+name = 'atac'
+
+[[package]]
+channel = 'debian'
+name = 'atac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atac'

@@ -1,0 +1,8 @@
+id = 'hexpatch'
+name = 'hexpatch'
+
+repository = 'https://github.com/Etto48/HexPatch'
+
+[[package]]
+channel = 'arch'
+name = 'hexpatch'

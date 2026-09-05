@@ -1,0 +1,8 @@
+id = 'dolphie'
+name = 'dolphie'
+
+repository = 'https://github.com/charles-001/dolphie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dolphie'

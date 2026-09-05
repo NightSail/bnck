@@ -1,0 +1,8 @@
+id = 'fend'
+name = 'fend'
+
+repository = 'https://github.com/printfn/fend'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fend'

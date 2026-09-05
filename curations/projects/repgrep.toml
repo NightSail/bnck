@@ -1,0 +1,8 @@
+id = 'repgrep'
+name = 'repgrep'
+
+repository = 'https://github.com/acheronfail/repgrep'
+
+[[package]]
+channel = 'arch'
+name = 'repgrep'

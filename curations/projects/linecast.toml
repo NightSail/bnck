@@ -1,0 +1,8 @@
+id = 'linecast'
+name = 'linecast'
+
+repository = 'https://github.com/ashuttl/linecast'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/linecast'

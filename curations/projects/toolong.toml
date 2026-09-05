@@ -1,0 +1,8 @@
+id = 'toolong'
+name = 'toolong'
+
+repository = 'https://github.com/Textualize/toolong'
+
+[[package]]
+channel = 'debian'
+name = 'toolong'

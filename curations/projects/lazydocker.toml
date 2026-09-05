@@ -1,0 +1,12 @@
+id = 'lazydocker'
+name = 'lazydocker'
+
+repository = 'https://github.com/jesseduffield/lazydocker'
+
+[[package]]
+channel = 'arch'
+name = 'lazydocker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazydocker'

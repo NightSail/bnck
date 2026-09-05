@@ -1,0 +1,16 @@
+id = 'gopass'
+name = 'gopass'
+
+repository = 'https://github.com/gopasspw/gopass'
+
+[[package]]
+channel = 'arch'
+name = 'gopass'
+
+[[package]]
+channel = 'fedora'
+name = 'gopass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gopass'

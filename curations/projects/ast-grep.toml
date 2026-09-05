@@ -1,0 +1,12 @@
+id = 'ast-grep'
+name = 'ast-grep'
+
+repository = 'https://github.com/ast-grep/ast-grep'
+
+[[package]]
+channel = 'arch'
+name = 'ast-grep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ast-grep'

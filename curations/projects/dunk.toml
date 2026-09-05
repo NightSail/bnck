@@ -1,0 +1,8 @@
+id = 'dunk'
+name = 'dunk'
+
+repository = 'https://github.com/darrenburns/dunk'
+
+[[package]]
+channel = 'debian'
+name = 'dunk'

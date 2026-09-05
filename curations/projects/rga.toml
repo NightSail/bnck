@@ -1,0 +1,16 @@
+id = 'rga'
+name = 'rga'
+
+repository = 'https://github.com/phiresky/ripgrep-all'
+
+[[package]]
+channel = 'arch'
+name = 'ripgrep-all'
+
+[[package]]
+channel = 'debian'
+name = 'ripgrep-all'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ripgrep-all'

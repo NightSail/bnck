@@ -1,0 +1,17 @@
+id = 'hurl'
+name = 'hurl'
+
+homepage = 'https://hurl.dev'
+repository = 'https://github.com/Orange-OpenSource/hurl'
+
+[[package]]
+channel = 'arch'
+name = 'hurl'
+
+[[package]]
+channel = 'debian'
+name = 'hurl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hurl'

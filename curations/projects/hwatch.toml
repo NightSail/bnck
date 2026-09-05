@@ -1,0 +1,12 @@
+id = 'hwatch'
+name = 'hwatch'
+
+repository = 'https://github.com/blacknon/hwatch'
+
+[[package]]
+channel = 'debian'
+name = 'hwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hwatch'

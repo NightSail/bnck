@@ -1,0 +1,13 @@
+id = 'termscp'
+name = 'termscp'
+
+homepage = 'https://termscp.veeso.dev'
+repository = 'https://github.com/veeso/termscp'
+
+[[package]]
+channel = 'arch'
+name = 'termscp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termscp'

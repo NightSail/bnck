@@ -1,0 +1,8 @@
+id = 's3scanner'
+name = 's3scanner'
+
+repository = 'https://github.com/sa7mon/S3Scanner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s3scanner'

@@ -1,0 +1,9 @@
+id = 'dry'
+name = 'dry'
+
+homepage = 'https://moncho.github.io/dry'
+repository = 'https://github.com/moncho/dry'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dry'

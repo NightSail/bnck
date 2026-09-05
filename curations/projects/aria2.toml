@@ -1,0 +1,20 @@
+id = 'aria2'
+name = 'aria2'
+
+repository = 'https://github.com/aria2/aria2'
+
+[[package]]
+channel = 'arch'
+name = 'aria2'
+
+[[package]]
+channel = 'debian'
+name = 'aria2'
+
+[[package]]
+channel = 'fedora'
+name = 'aria2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aria2'

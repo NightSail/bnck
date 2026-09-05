@@ -1,0 +1,17 @@
+id = 'trippy'
+name = 'trippy'
+
+homepage = 'https://trippy.cli.rs'
+repository = 'https://github.com/fujiapple852/trippy'
+
+[[package]]
+channel = 'arch'
+name = 'trippy'
+
+[[package]]
+channel = 'debian'
+name = 'trippy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trippy'

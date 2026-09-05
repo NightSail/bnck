@@ -1,0 +1,12 @@
+id = 'tuptime'
+name = 'tuptime'
+
+repository = 'https://github.com/rfmoz/tuptime'
+
+[[package]]
+channel = 'debian'
+name = 'tuptime'
+
+[[package]]
+channel = 'fedora'
+name = 'tuptime'

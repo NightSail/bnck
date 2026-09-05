@@ -1,0 +1,8 @@
+id = 'octosql'
+name = 'octosql'
+
+repository = 'https://github.com/cube2222/octosql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/octosql'

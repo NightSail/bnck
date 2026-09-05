@@ -1,0 +1,8 @@
+id = 'mac-cleanup-go'
+name = 'mac-cleanup-go'
+
+repository = 'https://github.com/2ykwang/mac-cleanup-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mac-cleanup-go'

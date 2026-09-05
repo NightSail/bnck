@@ -1,0 +1,8 @@
+id = 'eget'
+name = 'eget'
+
+repository = 'https://github.com/zyedidia/eget'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eget'

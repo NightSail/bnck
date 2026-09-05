@@ -1,0 +1,8 @@
+id = 'youtube-dl'
+name = 'youtube-dl'
+
+repository = 'https://github.com/ytdl-org/youtube-dl'
+
+[[package]]
+channel = 'fedora'
+name = 'youtube-dl'

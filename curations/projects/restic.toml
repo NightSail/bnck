@@ -1,0 +1,21 @@
+id = 'restic'
+name = 'restic'
+
+homepage = 'https://restic.net'
+repository = 'https://github.com/restic/restic'
+
+[[package]]
+channel = 'arch'
+name = 'restic'
+
+[[package]]
+channel = 'debian'
+name = 'restic'
+
+[[package]]
+channel = 'fedora'
+name = 'restic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/restic'

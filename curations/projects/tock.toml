@@ -1,0 +1,8 @@
+id = 'tock'
+name = 'tock'
+
+repository = 'https://github.com/kriuchkov/tock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tock'

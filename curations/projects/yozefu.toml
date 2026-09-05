@@ -1,0 +1,8 @@
+id = 'yozefu'
+name = 'yozefu'
+
+repository = 'https://github.com/MAIF/yozefu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yozefu'

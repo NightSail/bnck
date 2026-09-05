@@ -1,0 +1,8 @@
+id = 'dirsearch'
+name = 'dirsearch'
+
+repository = 'https://github.com/maurosoria/dirsearch'
+
+[[package]]
+channel = 'debian'
+name = 'dirsearch'

@@ -1,0 +1,33 @@
+id = 'mtr'
+name = 'mtr'
+
+homepage = 'https://bitwizard.nl/mtr'
+repository = 'https://github.com/traviscross/mtr'
+
+[[package]]
+channel = 'arch'
+name = 'mtr'
+
+[[package]]
+channel = 'arch'
+name = 'mtr-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'mtr'
+
+[[package]]
+channel = 'debian'
+name = 'mtr-tiny'
+
+[[package]]
+channel = 'fedora'
+name = 'mtr'
+
+[[package]]
+channel = 'fedora'
+name = 'mtr-gtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mtr'

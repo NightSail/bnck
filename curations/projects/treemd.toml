@@ -1,0 +1,12 @@
+id = 'treemd'
+name = 'treemd'
+
+repository = 'https://github.com/epistates/treemd'
+
+[[package]]
+channel = 'arch'
+name = 'treemd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/treemd'

@@ -1,0 +1,12 @@
+id = 'oha'
+name = 'oha'
+
+repository = 'https://github.com/hatoo/oha'
+
+[[package]]
+channel = 'arch'
+name = 'oha'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oha'

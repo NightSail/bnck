@@ -1,0 +1,12 @@
+id = 'llmfit'
+name = 'llmfit'
+
+repository = 'https://github.com/AlexsJones/llmfit'
+
+[[package]]
+channel = 'arch'
+name = 'llmfit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llmfit'

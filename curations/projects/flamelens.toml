@@ -1,0 +1,8 @@
+id = 'flamelens'
+name = 'flamelens'
+
+repository = 'https://github.com/YS-L/flamelens'
+
+[[package]]
+channel = 'arch'
+name = 'flamelens'

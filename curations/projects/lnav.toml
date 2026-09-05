@@ -1,0 +1,8 @@
+id = 'lnav'
+name = 'lnav'
+
+repository = 'https://github.com/tstack/lnav'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lnav'

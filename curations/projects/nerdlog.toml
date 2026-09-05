@@ -1,0 +1,12 @@
+id = 'nerdlog'
+name = 'nerdlog'
+
+repository = 'https://github.com/dimonomid/nerdlog'
+
+[[package]]
+channel = 'debian'
+name = 'nerdlog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nerdlog'

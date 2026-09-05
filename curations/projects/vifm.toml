@@ -1,0 +1,8 @@
+id = 'vifm'
+name = 'vifm'
+
+repository = 'https://github.com/vifm/vifm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vifm'

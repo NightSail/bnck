@@ -1,0 +1,8 @@
+id = 'pdfgrep'
+name = 'pdfgrep'
+
+repository = 'https://gitlab.com/pdfgrep/pdfgrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfgrep'

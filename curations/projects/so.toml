@@ -1,0 +1,12 @@
+id = 'so'
+name = 'so'
+
+repository = 'https://github.com/samtay/so'
+
+[[package]]
+channel = 'debian'
+name = 'so'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/so'

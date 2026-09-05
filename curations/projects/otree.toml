@@ -1,0 +1,8 @@
+id = 'otree'
+name = 'otree'
+
+repository = 'https://github.com/fioncat/otree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/otree'

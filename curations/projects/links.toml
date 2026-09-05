@@ -1,0 +1,24 @@
+id = 'links'
+name = 'links'
+
+homepage = 'http://links.twibright.com'
+
+[[package]]
+channel = 'arch'
+name = 'links'
+
+[[package]]
+channel = 'arch'
+name = 'xlinks'
+
+[[package]]
+channel = 'debian'
+name = 'links'
+
+[[package]]
+channel = 'fedora'
+name = 'links'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/links'

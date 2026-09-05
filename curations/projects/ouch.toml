@@ -1,0 +1,12 @@
+id = 'ouch'
+name = 'ouch'
+
+repository = 'https://github.com/ouch-org/ouch'
+
+[[package]]
+channel = 'arch'
+name = 'ouch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ouch'

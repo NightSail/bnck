@@ -1,0 +1,8 @@
+id = 'oxker'
+name = 'oxker'
+
+repository = 'https://github.com/mrjackwills/oxker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oxker'

@@ -1,0 +1,9 @@
+id = 'ranger'
+name = 'ranger'
+
+homepage = 'https://ranger.fm'
+repository = 'https://github.com/ranger/ranger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ranger'

@@ -1,0 +1,12 @@
+id = 'hstr'
+name = 'hstr'
+
+repository = 'https://github.com/dvorka/hstr'
+
+[[package]]
+channel = 'debian'
+name = 'hstr'
+
+[[package]]
+channel = 'fedora'
+name = 'hstr'

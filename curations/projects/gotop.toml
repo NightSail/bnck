@@ -1,0 +1,8 @@
+id = 'gotop'
+name = 'gotop'
+
+repository = 'https://github.com/xxxserxxx/gotop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotop'

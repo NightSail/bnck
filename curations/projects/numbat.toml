@@ -1,0 +1,12 @@
+id = 'numbat'
+name = 'numbat'
+
+repository = 'https://github.com/sharkdp/numbat'
+
+[[package]]
+channel = 'arch'
+name = 'numbat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/numbat'

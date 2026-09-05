@@ -1,0 +1,12 @@
+id = 'slumber'
+name = 'slumber'
+
+repository = 'https://github.com/LucasPickering/slumber'
+
+[[package]]
+channel = 'arch'
+name = 'slumber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slumber'

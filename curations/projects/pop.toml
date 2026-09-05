@@ -1,0 +1,8 @@
+id = 'pop'
+name = 'pop'
+
+repository = 'https://github.com/charmbracelet/pop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pop'

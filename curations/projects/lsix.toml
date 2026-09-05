@@ -1,0 +1,16 @@
+id = 'lsix'
+name = 'lsix'
+
+repository = 'https://github.com/hackerb9/lsix'
+
+[[package]]
+channel = 'arch'
+name = 'lsix'
+
+[[package]]
+channel = 'debian'
+name = 'lsix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsix'

@@ -1,0 +1,9 @@
+id = 'blink'
+name = 'blink'
+
+homepage = 'https://justine.lol/blinkenlights'
+repository = 'https://github.com/jart/blink'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blink'

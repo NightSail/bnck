@@ -1,0 +1,12 @@
+id = 'fnm'
+name = 'fnm'
+
+repository = 'https://github.com/Schniz/fnm'
+
+[[package]]
+channel = 'arch'
+name = 'fnm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fnm'

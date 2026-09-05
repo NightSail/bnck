@@ -1,0 +1,12 @@
+id = 'gomuks'
+name = 'gomuks'
+
+repository = 'https://github.com/tulir/gomuks'
+
+[[package]]
+channel = 'arch'
+name = 'gomuks'
+
+[[package]]
+channel = 'debian'
+name = 'gomuks'

@@ -1,0 +1,12 @@
+id = 'serie'
+name = 'serie'
+
+repository = 'https://github.com/lusingander/serie'
+
+[[package]]
+channel = 'arch'
+name = 'serie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/serie'

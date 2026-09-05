@@ -1,0 +1,12 @@
+id = 'mdfried'
+name = 'mdfried'
+
+repository = 'https://github.com/benjajaja/mdfried'
+
+[[package]]
+channel = 'arch'
+name = 'mdfried'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdfried'

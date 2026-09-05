@@ -1,0 +1,8 @@
+id = 'scc'
+name = 'scc'
+
+repository = 'https://github.com/boyter/scc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scc'

@@ -1,0 +1,8 @@
+id = 'lazyssh'
+name = 'lazyssh'
+
+repository = 'https://github.com/Adembc/lazyssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazyssh'

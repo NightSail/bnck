@@ -1,0 +1,16 @@
+id = 'fq'
+name = 'fq'
+
+repository = 'https://github.com/wader/fq'
+
+[[package]]
+channel = 'arch'
+name = 'fq'
+
+[[package]]
+channel = 'debian'
+name = 'fq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fq'

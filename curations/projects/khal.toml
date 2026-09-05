@@ -1,0 +1,16 @@
+id = 'khal'
+name = 'khal'
+
+repository = 'https://github.com/pimutils/khal'
+
+[[package]]
+channel = 'debian'
+name = 'khal'
+
+[[package]]
+channel = 'fedora'
+name = 'khal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/khal'

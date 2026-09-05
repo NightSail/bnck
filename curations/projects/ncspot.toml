@@ -1,0 +1,12 @@
+id = 'ncspot'
+name = 'ncspot'
+
+repository = 'https://github.com/hrkfdn/ncspot'
+
+[[package]]
+channel = 'arch'
+name = 'ncspot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncspot'

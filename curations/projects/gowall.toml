@@ -1,0 +1,8 @@
+id = 'gowall'
+name = 'gowall'
+
+repository = 'https://github.com/Achno/gowall'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gowall'

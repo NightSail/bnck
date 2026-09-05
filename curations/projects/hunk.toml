@@ -1,0 +1,8 @@
+id = 'hunk'
+name = 'hunk'
+
+repository = 'https://github.com/modem-dev/hunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hunk'

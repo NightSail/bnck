@@ -1,0 +1,8 @@
+id = 'koji'
+name = 'koji'
+
+repository = 'https://github.com/cococonscious/koji'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/koji'

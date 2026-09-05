@@ -1,0 +1,8 @@
+id = 'kubecolor'
+name = 'kubecolor'
+
+repository = 'https://github.com/kubecolor/kubecolor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubecolor'

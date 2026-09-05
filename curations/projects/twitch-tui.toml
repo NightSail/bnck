@@ -1,0 +1,9 @@
+id = 'twitch-tui'
+name = 'twitch-tui'
+
+homepage = 'https://xithrius.github.io/twitch-tui'
+repository = 'https://github.com/Xithrius/twitch-tui'
+
+[[package]]
+channel = 'arch'
+name = 'twitch-tui'

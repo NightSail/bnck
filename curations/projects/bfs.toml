@@ -1,0 +1,20 @@
+id = 'bfs'
+name = 'bfs'
+
+repository = 'https://github.com/tavianator/bfs'
+
+[[package]]
+channel = 'arch'
+name = 'bfs'
+
+[[package]]
+channel = 'debian'
+name = 'bfs'
+
+[[package]]
+channel = 'fedora'
+name = 'bfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bfs'

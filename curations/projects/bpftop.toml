@@ -1,0 +1,16 @@
+id = 'bpftop'
+name = 'bpftop'
+
+repository = 'https://github.com/Netflix/bpftop'
+
+[[package]]
+channel = 'arch'
+name = 'bpftop'
+
+[[package]]
+channel = 'debian'
+name = 'bpftop'
+
+[[package]]
+channel = 'fedora'
+name = 'bpftop'

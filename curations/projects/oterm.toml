@@ -1,0 +1,8 @@
+id = 'oterm'
+name = 'oterm'
+
+repository = 'https://github.com/ggozad/oterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oterm'

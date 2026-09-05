@@ -1,0 +1,8 @@
+id = 'helix'
+name = 'helix'
+
+repository = 'https://github.com/helix-editor/helix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helix'

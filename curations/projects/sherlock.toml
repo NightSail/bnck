@@ -1,0 +1,16 @@
+id = 'sherlock'
+name = 'sherlock'
+
+repository = 'https://github.com/sherlock-project/sherlock'
+
+[[package]]
+channel = 'debian'
+name = 'sherlock'
+
+[[package]]
+channel = 'fedora'
+name = 'sherlock-project'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sherlock'

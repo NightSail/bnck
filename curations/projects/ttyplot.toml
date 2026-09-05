@@ -1,0 +1,16 @@
+id = 'ttyplot'
+name = 'ttyplot'
+
+repository = 'https://github.com/tenox7/ttyplot'
+
+[[package]]
+channel = 'debian'
+name = 'ttyplot'
+
+[[package]]
+channel = 'fedora'
+name = 'ttyplot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttyplot'

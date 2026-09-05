@@ -1,0 +1,8 @@
+id = 'pug'
+name = 'pug'
+
+repository = 'https://github.com/leg100/pug'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pug'

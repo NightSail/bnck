@@ -1,0 +1,8 @@
+id = 'redu'
+name = 'redu'
+
+repository = 'https://github.com/drdo/redu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redu'

@@ -1,0 +1,12 @@
+id = 'feluda'
+name = 'feluda'
+
+repository = 'https://github.com/anistark/feluda'
+
+[[package]]
+channel = 'debian'
+name = 'feluda'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/feluda'

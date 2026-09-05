@@ -1,0 +1,17 @@
+id = 'asciinema'
+name = 'asciinema'
+
+homepage = 'https://asciinema.org'
+repository = 'https://github.com/asciinema/asciinema'
+
+[[package]]
+channel = 'arch'
+name = 'asciinema'
+
+[[package]]
+channel = 'fedora'
+name = 'asciinema'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asciinema'

@@ -1,0 +1,17 @@
+id = 'eza'
+name = 'eza'
+
+homepage = 'https://eza.rocks'
+repository = 'https://github.com/eza-community/eza'
+
+[[package]]
+channel = 'arch'
+name = 'eza'
+
+[[package]]
+channel = 'debian'
+name = 'eza'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eza'

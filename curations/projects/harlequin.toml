@@ -1,0 +1,13 @@
+id = 'harlequin'
+name = 'harlequin'
+
+homepage = 'https://harlequin.sh'
+repository = 'https://github.com/tconbeer/harlequin'
+
+[[package]]
+channel = 'debian'
+name = 'harlequin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/harlequin'

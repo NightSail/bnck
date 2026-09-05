@@ -1,0 +1,8 @@
+id = 'hexhog'
+name = 'hexhog'
+
+repository = 'https://github.com/DVDTSB/hexhog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexhog'

@@ -1,0 +1,8 @@
+id = 'wrkflw'
+name = 'wrkflw'
+
+repository = 'https://github.com/bahdotsh/wrkflw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wrkflw'

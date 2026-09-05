@@ -1,0 +1,21 @@
+id = 'jq'
+name = 'jq'
+
+homepage = 'https://jqlang.github.io/jq'
+repository = 'https://github.com/jqlang/jq'
+
+[[package]]
+channel = 'arch'
+name = 'jq'
+
+[[package]]
+channel = 'debian'
+name = 'jq'
+
+[[package]]
+channel = 'fedora'
+name = 'jq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jq'

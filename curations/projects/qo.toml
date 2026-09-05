@@ -1,0 +1,8 @@
+id = 'qo'
+name = 'qo'
+
+repository = 'https://github.com/kiki-ki/go-qo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qo'

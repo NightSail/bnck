@@ -1,0 +1,8 @@
+id = 'tmux'
+name = 'tmux'
+
+repository = 'https://github.com/tmux/tmux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmux'

@@ -1,0 +1,20 @@
+id = 'diskonaut'
+name = 'diskonaut'
+
+repository = 'https://github.com/imsnif/diskonaut'
+
+[[package]]
+channel = 'arch'
+name = 'diskonaut'
+
+[[package]]
+channel = 'debian'
+name = 'diskonaut'
+
+[[package]]
+channel = 'fedora'
+name = 'diskonaut'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diskonaut'

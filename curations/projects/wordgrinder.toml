@@ -1,0 +1,8 @@
+id = 'wordgrinder'
+name = 'wordgrinder'
+
+repository = 'https://github.com/davidgiven/wordgrinder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wordgrinder'

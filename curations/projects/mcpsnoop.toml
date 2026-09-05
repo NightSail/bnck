@@ -1,0 +1,8 @@
+id = 'mcpsnoop'
+name = 'mcpsnoop'
+
+repository = 'https://github.com/kerlenton/mcpsnoop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcpsnoop'

@@ -1,0 +1,12 @@
+id = 'dra'
+name = 'dra'
+
+repository = 'https://github.com/devmatteini/dra'
+
+[[package]]
+channel = 'arch'
+name = 'dra'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dra'

@@ -1,0 +1,12 @@
+id = 'posting'
+name = 'posting'
+
+repository = 'https://github.com/darrenburns/posting'
+
+[[package]]
+channel = 'debian'
+name = 'posting'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/posting'

@@ -1,0 +1,12 @@
+id = 'eva'
+name = 'eva'
+
+repository = 'https://github.com/oppiliappan/eva'
+
+[[package]]
+channel = 'arch'
+name = 'eva'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eva'

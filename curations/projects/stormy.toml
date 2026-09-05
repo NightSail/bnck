@@ -1,0 +1,8 @@
+id = 'stormy'
+name = 'stormy'
+
+repository = 'https://github.com/ashish0kumar/stormy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stormy'

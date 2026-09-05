@@ -1,0 +1,8 @@
+id = 'wtfis'
+name = 'wtfis'
+
+repository = 'https://github.com/pirxthepilot/wtfis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wtfis'

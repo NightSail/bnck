@@ -1,0 +1,12 @@
+id = 'grex'
+name = 'grex'
+
+repository = 'https://github.com/pemistahl/grex'
+
+[[package]]
+channel = 'arch'
+name = 'grex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grex'

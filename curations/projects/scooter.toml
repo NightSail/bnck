@@ -1,0 +1,8 @@
+id = 'scooter'
+name = 'scooter'
+
+repository = 'https://github.com/thomasschafer/scooter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scooter'

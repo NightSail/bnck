@@ -1,0 +1,8 @@
+id = 'macmon'
+name = 'macmon'
+
+repository = 'https://github.com/vladkens/macmon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macmon'

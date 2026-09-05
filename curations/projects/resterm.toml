@@ -1,0 +1,8 @@
+id = 'resterm'
+name = 'resterm'
+
+repository = 'https://github.com/unkn0wn-root/resterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/resterm'

@@ -1,0 +1,8 @@
+id = 'oh-my-reddit'
+name = 'oh-my-reddit'
+
+repository = 'https://github.com/renatoworks/oh-my-reddit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oh-my-reddit'

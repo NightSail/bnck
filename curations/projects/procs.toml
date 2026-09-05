@@ -1,0 +1,16 @@
+id = 'procs'
+name = 'procs'
+
+repository = 'https://github.com/dalance/procs'
+
+[[package]]
+channel = 'arch'
+name = 'procs'
+
+[[package]]
+channel = 'debian'
+name = 'procs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/procs'

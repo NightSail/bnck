@@ -1,0 +1,12 @@
+id = 'gitu'
+name = 'gitu'
+
+repository = 'https://github.com/altsem/gitu'
+
+[[package]]
+channel = 'arch'
+name = 'gitu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitu'

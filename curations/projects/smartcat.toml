@@ -1,0 +1,8 @@
+id = 'smartcat'
+name = 'smartcat'
+
+repository = 'https://github.com/efugier/smartcat'
+
+[[package]]
+channel = 'arch'
+name = 'smartcat'

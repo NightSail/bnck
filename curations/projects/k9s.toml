@@ -1,0 +1,16 @@
+id = 'k9s'
+name = 'k9s'
+
+repository = 'https://github.com/derailed/k9s'
+
+[[package]]
+channel = 'arch'
+name = 'k9s'
+
+[[package]]
+channel = 'fedora'
+name = 'k9s'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/k9s'

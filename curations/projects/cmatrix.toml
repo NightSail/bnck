@@ -1,0 +1,20 @@
+id = 'cmatrix'
+name = 'cmatrix'
+
+repository = 'https://github.com/abishekvashok/cmatrix'
+
+[[package]]
+channel = 'arch'
+name = 'cmatrix'
+
+[[package]]
+channel = 'debian'
+name = 'cmatrix'
+
+[[package]]
+channel = 'fedora'
+name = 'cmatrix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmatrix'

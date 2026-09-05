@@ -1,0 +1,8 @@
+id = 'systeroid'
+name = 'systeroid'
+
+repository = 'https://github.com/orhun/systeroid'
+
+[[package]]
+channel = 'arch'
+name = 'systeroid'

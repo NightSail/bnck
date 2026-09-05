@@ -1,0 +1,8 @@
+id = 'pgcli'
+name = 'pgcli'
+
+repository = 'https://github.com/dbcli/pgcli'
+
+[[package]]
+channel = 'debian'
+name = 'pgcli'

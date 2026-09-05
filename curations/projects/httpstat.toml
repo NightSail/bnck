@@ -1,0 +1,8 @@
+id = 'httpstat'
+name = 'httpstat'
+
+repository = 'https://github.com/reorx/httpstat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpstat'

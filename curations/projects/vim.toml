@@ -1,0 +1,69 @@
+id = 'vim'
+name = 'vim'
+
+homepage = 'https://vim.org'
+repository = 'https://github.com/vim/vim'
+
+[[package]]
+channel = 'arch'
+name = 'gvim'
+
+[[package]]
+channel = 'arch'
+name = 'vim'
+
+[[package]]
+channel = 'debian'
+name = 'vim'
+
+[[package]]
+channel = 'debian'
+name = 'vim-common'
+
+[[package]]
+channel = 'debian'
+name = 'vim-gtk3'
+
+[[package]]
+channel = 'debian'
+name = 'vim-gui-common'
+
+[[package]]
+channel = 'debian'
+name = 'vim-motif'
+
+[[package]]
+channel = 'debian'
+name = 'vim-nox'
+
+[[package]]
+channel = 'debian'
+name = 'vim-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'vim-tiny'
+
+[[package]]
+channel = 'debian'
+name = 'xxd'
+
+[[package]]
+channel = 'fedora'
+name = 'vim-X11'
+
+[[package]]
+channel = 'fedora'
+name = 'vim-enhanced'
+
+[[package]]
+channel = 'fedora'
+name = 'vim-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'xxd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vim'

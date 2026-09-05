@@ -1,0 +1,8 @@
+id = 'toktop'
+name = 'toktop'
+
+repository = 'https://github.com/htin1/toktop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toktop'

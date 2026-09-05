@@ -1,0 +1,8 @@
+id = 'tz'
+name = 'tz'
+
+repository = 'https://github.com/oz/tz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tz'

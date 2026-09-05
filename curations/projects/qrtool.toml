@@ -1,0 +1,12 @@
+id = 'qrtool'
+name = 'qrtool'
+
+repository = 'https://github.com/sorairolake/qrtool'
+
+[[package]]
+channel = 'arch'
+name = 'qrtool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qrtool'

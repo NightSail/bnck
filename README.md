@@ -175,3 +175,9 @@ Rust code handles:
 - Deterministic JSON Lines generation
 
 Rust code does not shell out or perform network requests. Just recipes do not parse or reshape channel data beyond decompression and archive extraction.
+
+## Acknowledgements
+
+Project names for the initial seed curations were sourced from [Terminal Trove](https://terminaltrove.com/) and [tldr pages](https://tldr.sh/) as discovery hints. Projects were added after cross-checking multiple attributes and confirming that at least one distribution channel provides a package.
+
+We thank both projects and their contributors for their prior work cataloguing and documenting terminal tools.

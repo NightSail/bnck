@@ -1,0 +1,12 @@
+id = 'tere'
+name = 'tere'
+
+repository = 'https://github.com/mgunyho/tere'
+
+[[package]]
+channel = 'arch'
+name = 'tere'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tere'

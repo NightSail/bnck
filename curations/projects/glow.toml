@@ -1,0 +1,20 @@
+id = 'glow'
+name = 'glow'
+
+repository = 'https://github.com/charmbracelet/glow'
+
+[[package]]
+channel = 'arch'
+name = 'glow'
+
+[[package]]
+channel = 'debian'
+name = 'glow'
+
+[[package]]
+channel = 'fedora'
+name = 'glow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glow'

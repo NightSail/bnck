@@ -1,0 +1,8 @@
+id = 'tuios'
+name = 'tuios'
+
+repository = 'https://github.com/Gaurav-Gosain/tuios'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuios'

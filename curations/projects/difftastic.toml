@@ -1,0 +1,17 @@
+id = 'difftastic'
+name = 'difftastic'
+
+homepage = 'https://difftastic.wilfred.me.uk'
+repository = 'https://github.com/Wilfred/difftastic'
+
+[[package]]
+channel = 'arch'
+name = 'difftastic'
+
+[[package]]
+channel = 'fedora'
+name = 'difftastic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/difftastic'

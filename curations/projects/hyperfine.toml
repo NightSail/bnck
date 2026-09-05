@@ -1,0 +1,16 @@
+id = 'hyperfine'
+name = 'hyperfine'
+
+repository = 'https://github.com/sharkdp/hyperfine'
+
+[[package]]
+channel = 'arch'
+name = 'hyperfine'
+
+[[package]]
+channel = 'debian'
+name = 'hyperfine'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hyperfine'

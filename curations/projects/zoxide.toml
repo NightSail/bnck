@@ -1,0 +1,16 @@
+id = 'zoxide'
+name = 'zoxide'
+
+repository = 'https://github.com/ajeetdsouza/zoxide'
+
+[[package]]
+channel = 'arch'
+name = 'zoxide'
+
+[[package]]
+channel = 'debian'
+name = 'zoxide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zoxide'

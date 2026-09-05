@@ -1,0 +1,8 @@
+id = 'typtea'
+name = 'typtea'
+
+repository = 'https://github.com/ashish0kumar/typtea'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typtea'

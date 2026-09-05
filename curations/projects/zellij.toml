@@ -1,0 +1,13 @@
+id = 'zellij'
+name = 'zellij'
+
+homepage = 'https://zellij.dev'
+repository = 'https://github.com/zellij-org/zellij'
+
+[[package]]
+channel = 'arch'
+name = 'zellij'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zellij'

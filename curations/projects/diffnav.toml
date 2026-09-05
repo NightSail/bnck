@@ -1,0 +1,12 @@
+id = 'diffnav'
+name = 'diffnav'
+
+repository = 'https://github.com/dlvhdr/diffnav'
+
+[[package]]
+channel = 'arch'
+name = 'diffnav'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diffnav'

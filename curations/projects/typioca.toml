@@ -1,0 +1,8 @@
+id = 'typioca'
+name = 'typioca'
+
+repository = 'https://github.com/bloznelis/typioca'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typioca'

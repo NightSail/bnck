@@ -1,0 +1,8 @@
+id = 'soundscope'
+name = 'soundscope'
+
+repository = 'https://github.com/bananaofhappiness/soundscope'
+
+[[package]]
+channel = 'arch'
+name = 'soundscope'

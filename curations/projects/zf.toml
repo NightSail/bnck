@@ -1,0 +1,8 @@
+id = 'zf'
+name = 'zf'
+
+repository = 'https://github.com/natecraddock/zf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zf'

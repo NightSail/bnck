@@ -1,0 +1,16 @@
+id = 'bcal'
+name = 'bcal'
+
+repository = 'https://github.com/jarun/bcal'
+
+[[package]]
+channel = 'debian'
+name = 'bcal'
+
+[[package]]
+channel = 'fedora'
+name = 'bcal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bcal'

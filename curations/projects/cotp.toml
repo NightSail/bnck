@@ -1,0 +1,16 @@
+id = 'cotp'
+name = 'cotp'
+
+repository = 'https://github.com/replydev/cotp'
+
+[[package]]
+channel = 'arch'
+name = 'cotp'
+
+[[package]]
+channel = 'debian'
+name = 'cotp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cotp'

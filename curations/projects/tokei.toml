@@ -1,0 +1,12 @@
+id = 'tokei'
+name = 'tokei'
+
+repository = 'https://github.com/xampprocky/tokei'
+
+[[package]]
+channel = 'arch'
+name = 'tokei'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tokei'

@@ -1,0 +1,8 @@
+id = 'godap'
+name = 'godap'
+
+repository = 'https://github.com/Macmod/godap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/godap'

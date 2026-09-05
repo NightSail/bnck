@@ -1,0 +1,20 @@
+id = 'ncdu'
+name = 'ncdu'
+
+homepage = 'https://dev.yorhel.nl/ncdu'
+
+[[package]]
+channel = 'arch'
+name = 'ncdu'
+
+[[package]]
+channel = 'debian'
+name = 'ncdu'
+
+[[package]]
+channel = 'fedora'
+name = 'ncdu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncdu'

@@ -1,0 +1,8 @@
+id = 'whosthere'
+name = 'whosthere'
+
+repository = 'https://github.com/ramonvermeulen/whosthere'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whosthere'

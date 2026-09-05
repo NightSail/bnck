@@ -1,0 +1,20 @@
+id = 'toot'
+name = 'toot'
+
+repository = 'https://github.com/ihabunek/toot'
+
+[[package]]
+channel = 'arch'
+name = 'toot'
+
+[[package]]
+channel = 'debian'
+name = 'toot'
+
+[[package]]
+channel = 'fedora'
+name = 'toot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toot'

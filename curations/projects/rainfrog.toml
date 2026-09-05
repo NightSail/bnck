@@ -1,0 +1,12 @@
+id = 'rainfrog'
+name = 'rainfrog'
+
+repository = 'https://github.com/achristmascarl/rainfrog'
+
+[[package]]
+channel = 'arch'
+name = 'rainfrog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rainfrog'

@@ -1,0 +1,12 @@
+id = 'mise'
+name = 'mise'
+
+repository = 'https://github.com/jdx/mise'
+
+[[package]]
+channel = 'arch'
+name = 'mise'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mise'

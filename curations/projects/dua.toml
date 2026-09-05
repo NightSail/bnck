@@ -1,0 +1,20 @@
+id = 'dua'
+name = 'dua'
+
+repository = 'https://github.com/Byron/dua-cli'
+
+[[package]]
+channel = 'arch'
+name = 'dua-cli'
+
+[[package]]
+channel = 'debian'
+name = 'dua-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'dua-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dua-cli'

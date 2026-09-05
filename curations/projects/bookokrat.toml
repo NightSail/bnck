@@ -1,0 +1,8 @@
+id = 'bookokrat'
+name = 'bookokrat'
+
+repository = 'https://github.com/bugzmanov/bookokrat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bookokrat'

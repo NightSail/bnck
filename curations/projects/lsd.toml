@@ -1,0 +1,16 @@
+id = 'lsd'
+name = 'lsd'
+
+repository = 'https://github.com/lsd-rs/lsd'
+
+[[package]]
+channel = 'arch'
+name = 'lsd'
+
+[[package]]
+channel = 'debian'
+name = 'lsd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsd'

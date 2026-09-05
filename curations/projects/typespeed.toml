@@ -1,0 +1,12 @@
+id = 'typespeed'
+name = 'typespeed'
+
+homepage = 'https://typespeed.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'typespeed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typespeed'

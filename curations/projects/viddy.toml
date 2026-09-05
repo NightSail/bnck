@@ -1,0 +1,8 @@
+id = 'viddy'
+name = 'viddy'
+
+repository = 'https://github.com/sachaos/viddy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/viddy'

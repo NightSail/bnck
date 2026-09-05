@@ -1,0 +1,20 @@
+id = 'curl'
+name = 'curl'
+
+repository = 'https://github.com/curl/curl'
+
+[[package]]
+channel = 'arch'
+name = 'curl'
+
+[[package]]
+channel = 'debian'
+name = 'curl'
+
+[[package]]
+channel = 'fedora'
+name = 'curl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/curl'

@@ -1,0 +1,8 @@
+id = 'has'
+name = 'has'
+
+repository = 'https://github.com/kdabir/has'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/has'

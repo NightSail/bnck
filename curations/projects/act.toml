@@ -1,0 +1,16 @@
+id = 'act'
+name = 'act'
+
+repository = 'https://github.com/nektos/act'
+
+[[package]]
+channel = 'arch'
+name = 'act'
+
+[[package]]
+channel = 'fedora'
+name = 'act'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/act'

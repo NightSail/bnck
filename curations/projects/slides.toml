@@ -1,0 +1,8 @@
+id = 'slides'
+name = 'slides'
+
+repository = 'https://github.com/maaslalani/slides'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slides'

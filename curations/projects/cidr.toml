@@ -1,0 +1,12 @@
+id = 'cidr'
+name = 'cidr'
+
+repository = 'https://github.com/bschaatsbergen/cidr'
+
+[[package]]
+channel = 'debian'
+name = 'cidr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cidr'

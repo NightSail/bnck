@@ -1,0 +1,20 @@
+id = 'ddgr'
+name = 'ddgr'
+
+repository = 'https://github.com/jarun/ddgr'
+
+[[package]]
+channel = 'arch'
+name = 'ddgr'
+
+[[package]]
+channel = 'debian'
+name = 'ddgr'
+
+[[package]]
+channel = 'fedora'
+name = 'ddgr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddgr'

@@ -1,0 +1,17 @@
+id = 'cmus'
+name = 'cmus'
+
+homepage = 'https://cmus.github.io'
+repository = 'https://github.com/cmus/cmus'
+
+[[package]]
+channel = 'arch'
+name = 'cmus'
+
+[[package]]
+channel = 'debian'
+name = 'cmus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmus'

@@ -1,0 +1,8 @@
+id = 'x-cmd'
+name = 'x-cmd'
+
+repository = 'https://github.com/x-cmd/x-cmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x-cmd'

@@ -1,0 +1,16 @@
+id = 'cyme'
+name = 'cyme'
+
+repository = 'https://github.com/tuna-f1sh/cyme'
+
+[[package]]
+channel = 'arch'
+name = 'cyme'
+
+[[package]]
+channel = 'debian'
+name = 'cyme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyme'

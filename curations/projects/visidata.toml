@@ -1,0 +1,21 @@
+id = 'visidata'
+name = 'visidata'
+
+homepage = 'https://visidata.org'
+repository = 'https://github.com/saulpw/visidata'
+
+[[package]]
+channel = 'arch'
+name = 'visidata'
+
+[[package]]
+channel = 'debian'
+name = 'visidata'
+
+[[package]]
+channel = 'fedora'
+name = 'visidata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/visidata'

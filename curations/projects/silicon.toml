@@ -1,0 +1,12 @@
+id = 'silicon'
+name = 'silicon'
+
+repository = 'https://github.com/Aloxaf/silicon'
+
+[[package]]
+channel = 'arch'
+name = 'silicon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/silicon'

@@ -1,0 +1,12 @@
+id = 'hashcat'
+name = 'hashcat'
+
+repository = 'https://github.com/hashcat/hashcat'
+
+[[package]]
+channel = 'fedora'
+name = 'hashcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hashcat'

@@ -1,0 +1,12 @@
+id = 'tabiew'
+name = 'tabiew'
+
+repository = 'https://github.com/shshemi/tabiew'
+
+[[package]]
+channel = 'arch'
+name = 'tabiew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tabiew'

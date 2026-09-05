@@ -1,0 +1,8 @@
+id = 'tele'
+name = 'tele'
+
+repository = 'https://github.com/sorokin-vladimir/tele'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tele'

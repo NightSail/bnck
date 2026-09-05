@@ -1,0 +1,12 @@
+id = 'gpg-tui'
+name = 'gpg-tui'
+
+repository = 'https://github.com/orhun/gpg-tui'
+
+[[package]]
+channel = 'arch'
+name = 'gpg-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpg-tui'

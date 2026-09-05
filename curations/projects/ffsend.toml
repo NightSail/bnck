@@ -1,0 +1,8 @@
+id = 'ffsend'
+name = 'ffsend'
+
+repository = 'https://github.com/timvisee/ffsend'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffsend'

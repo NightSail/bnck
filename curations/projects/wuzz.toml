@@ -1,0 +1,8 @@
+id = 'wuzz'
+name = 'wuzz'
+
+repository = 'https://github.com/asciimoo/wuzz'
+
+[[package]]
+channel = 'debian'
+name = 'wuzz'

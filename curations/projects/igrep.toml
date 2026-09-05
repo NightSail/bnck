@@ -1,0 +1,12 @@
+id = 'igrep'
+name = 'igrep'
+
+repository = 'https://github.com/konradsz/igrep'
+
+[[package]]
+channel = 'arch'
+name = 'igrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/igrep'

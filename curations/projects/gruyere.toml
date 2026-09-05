@@ -1,0 +1,8 @@
+id = 'gruyere'
+name = 'gruyere'
+
+repository = 'https://github.com/savannahostrowski/gruyere'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gruyere'

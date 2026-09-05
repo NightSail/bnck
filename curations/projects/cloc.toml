@@ -1,0 +1,20 @@
+id = 'cloc'
+name = 'cloc'
+
+repository = 'https://github.com/AlDanial/cloc'
+
+[[package]]
+channel = 'arch'
+name = 'cloc'
+
+[[package]]
+channel = 'debian'
+name = 'cloc'
+
+[[package]]
+channel = 'fedora'
+name = 'cloc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloc'

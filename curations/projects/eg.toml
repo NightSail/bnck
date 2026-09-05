@@ -1,0 +1,16 @@
+id = 'eg'
+name = 'eg'
+
+repository = 'https://github.com/srsudar/eg'
+
+[[package]]
+channel = 'fedora'
+name = 'eg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eg-examples'

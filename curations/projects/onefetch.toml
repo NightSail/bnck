@@ -1,0 +1,12 @@
+id = 'onefetch'
+name = 'onefetch'
+
+repository = 'https://github.com/o2sh/onefetch'
+
+[[package]]
+channel = 'arch'
+name = 'onefetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/onefetch'

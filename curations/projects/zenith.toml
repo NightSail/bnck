@@ -1,0 +1,12 @@
+id = 'zenith'
+name = 'zenith'
+
+repository = 'https://github.com/bvaisvil/zenith'
+
+[[package]]
+channel = 'arch'
+name = 'zenith'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zenith'

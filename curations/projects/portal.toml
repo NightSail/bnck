@@ -1,0 +1,8 @@
+id = 'portal'
+name = 'portal'
+
+repository = 'https://github.com/SpatiumPortae/portal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/portal'

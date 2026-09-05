@@ -1,0 +1,8 @@
+id = 'nomino'
+name = 'nomino'
+
+repository = 'https://github.com/yaa110/nomino'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nomino'

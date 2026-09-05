@@ -1,0 +1,9 @@
+id = 'dug'
+name = 'dug'
+
+homepage = 'https://dug.unfrl.com'
+repository = 'https://github.com/unfrl/dug'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dug'

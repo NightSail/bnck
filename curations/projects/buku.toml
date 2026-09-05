@@ -1,0 +1,12 @@
+id = 'buku'
+name = 'buku'
+
+repository = 'https://github.com/jarun/buku'
+
+[[package]]
+channel = 'fedora'
+name = 'buku'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buku'

@@ -1,0 +1,8 @@
+id = 'dyff'
+name = 'dyff'
+
+repository = 'https://github.com/homeport/dyff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dyff'

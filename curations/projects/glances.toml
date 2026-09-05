@@ -1,0 +1,21 @@
+id = 'glances'
+name = 'glances'
+
+homepage = 'https://nicolargo.github.io/glances'
+repository = 'https://github.com/nicolargo/glances'
+
+[[package]]
+channel = 'arch'
+name = 'glances'
+
+[[package]]
+channel = 'debian'
+name = 'glances'
+
+[[package]]
+channel = 'fedora'
+name = 'glances'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glances'

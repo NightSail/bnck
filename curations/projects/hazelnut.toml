@@ -1,0 +1,8 @@
+id = 'hazelnut'
+name = 'hazelnut'
+
+repository = 'https://github.com/ricardodantas/hazelnut'
+
+[[package]]
+channel = 'arch'
+name = 'hazelnut'

@@ -1,0 +1,12 @@
+id = 'serpl'
+name = 'serpl'
+
+repository = 'https://github.com/yassinebridi/serpl'
+
+[[package]]
+channel = 'arch'
+name = 'serpl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/serpl'

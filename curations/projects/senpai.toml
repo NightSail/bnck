@@ -1,0 +1,12 @@
+id = 'senpai'
+name = 'senpai'
+
+repository = 'https://git.sr.ht/~delthas/senpai'
+
+[[package]]
+channel = 'arch'
+name = 'senpai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/senpai'

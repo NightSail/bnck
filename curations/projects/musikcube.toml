@@ -1,0 +1,9 @@
+id = 'musikcube'
+name = 'musikcube'
+
+homepage = 'https://musikcube.com'
+repository = 'https://github.com/clangen/musikcube'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/musikcube'

@@ -1,0 +1,8 @@
+id = 'mistral-vibe-cli'
+name = 'mistral-vibe-cli'
+
+repository = 'https://github.com/mistralai/mistral-vibe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mistral-vibe'

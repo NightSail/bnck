@@ -1,0 +1,16 @@
+id = 'chawan'
+name = 'chawan'
+
+repository = 'https://sr.ht/~bptato/chawan'
+
+[[package]]
+channel = 'arch'
+name = 'chawan'
+
+[[package]]
+channel = 'debian'
+name = 'chawan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chawan'

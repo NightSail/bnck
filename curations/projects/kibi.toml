@@ -1,0 +1,8 @@
+id = 'kibi'
+name = 'kibi'
+
+repository = 'https://github.com/ilai-deutel/kibi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kibi'

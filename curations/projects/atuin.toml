@@ -1,0 +1,29 @@
+id = 'atuin'
+name = 'atuin'
+
+homepage = 'https://atuin.sh'
+repository = 'https://github.com/atuinsh/atuin'
+
+[[package]]
+channel = 'arch'
+name = 'atuin'
+
+[[package]]
+channel = 'arch'
+name = 'atuin-server'
+
+[[package]]
+channel = 'debian'
+name = 'atuin'
+
+[[package]]
+channel = 'fedora'
+name = 'atuin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atuin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atuin-server'

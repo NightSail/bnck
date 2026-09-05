@@ -1,0 +1,8 @@
+id = 'heh'
+name = 'heh'
+
+repository = 'https://github.com/ndd7xv/heh'
+
+[[package]]
+channel = 'arch'
+name = 'heh'

@@ -1,0 +1,8 @@
+id = 'kdash'
+name = 'kdash'
+
+repository = 'https://github.com/kdash-rs/kdash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kdash'

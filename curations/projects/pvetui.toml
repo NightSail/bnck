@@ -1,0 +1,8 @@
+id = 'pvetui'
+name = 'pvetui'
+
+repository = 'https://github.com/devnullvoid/pvetui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pvetui'

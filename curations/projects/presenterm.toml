@@ -1,0 +1,17 @@
+id = 'presenterm'
+name = 'presenterm'
+
+homepage = 'https://mfontanini.github.io/presenterm'
+repository = 'https://github.com/mfontanini/presenterm'
+
+[[package]]
+channel = 'arch'
+name = 'presenterm'
+
+[[package]]
+channel = 'debian'
+name = 'presenterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/presenterm'

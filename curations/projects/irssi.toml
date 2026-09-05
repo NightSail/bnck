@@ -1,0 +1,21 @@
+id = 'irssi'
+name = 'irssi'
+
+homepage = 'https://irssi.org'
+repository = 'https://github.com/irssi/irssi'
+
+[[package]]
+channel = 'arch'
+name = 'irssi'
+
+[[package]]
+channel = 'debian'
+name = 'irssi'
+
+[[package]]
+channel = 'fedora'
+name = 'irssi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/irssi'

@@ -1,0 +1,12 @@
+id = 'mqttui'
+name = 'mqttui'
+
+repository = 'https://github.com/EdJoPaTo/mqttui'
+
+[[package]]
+channel = 'arch'
+name = 'mqttui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mqttui'

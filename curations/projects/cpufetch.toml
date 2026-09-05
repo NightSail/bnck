@@ -1,0 +1,20 @@
+id = 'cpufetch'
+name = 'cpufetch'
+
+repository = 'https://github.com/Dr-Noob/cpufetch'
+
+[[package]]
+channel = 'arch'
+name = 'cpufetch'
+
+[[package]]
+channel = 'debian'
+name = 'cpufetch'
+
+[[package]]
+channel = 'fedora'
+name = 'cpufetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpufetch'

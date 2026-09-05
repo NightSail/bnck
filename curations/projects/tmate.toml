@@ -1,0 +1,12 @@
+id = 'tmate'
+name = 'tmate'
+
+repository = 'https://github.com/tmate-io/tmate'
+
+[[package]]
+channel = 'arch'
+name = 'tmate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmate'

@@ -1,0 +1,8 @@
+id = 'lazyrsync'
+name = 'lazyrsync'
+
+repository = 'https://github.com/westpoint-io/lazyrsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazyrsync'

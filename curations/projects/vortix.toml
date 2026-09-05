@@ -1,0 +1,8 @@
+id = 'vortix'
+name = 'vortix'
+
+repository = 'https://github.com/Harry-kp/vortix'
+
+[[package]]
+channel = 'arch'
+name = 'vortix'

@@ -1,0 +1,8 @@
+id = 'mufetch'
+name = 'mufetch'
+
+repository = 'https://github.com/ashish0kumar/mufetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mufetch'

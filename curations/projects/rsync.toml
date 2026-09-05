@@ -1,0 +1,25 @@
+id = 'rsync'
+name = 'rsync'
+
+homepage = 'https://rsync.samba.org'
+repository = 'https://github.com/RsyncProject/rsync'
+
+[[package]]
+channel = 'arch'
+name = 'rsync'
+
+[[package]]
+channel = 'debian'
+name = 'rsync'
+
+[[package]]
+channel = 'fedora'
+name = 'rsync'
+
+[[package]]
+channel = 'fedora'
+name = 'rsync-rrsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsync'

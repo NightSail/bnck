@@ -1,0 +1,16 @@
+id = 'jaq'
+name = 'jaq'
+
+repository = 'https://github.com/01mf02/jaq'
+
+[[package]]
+channel = 'arch'
+name = 'jaq'
+
+[[package]]
+channel = 'debian'
+name = 'jaq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jaq'

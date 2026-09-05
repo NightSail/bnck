@@ -1,0 +1,12 @@
+id = 'xsv'
+name = 'xsv'
+
+repository = 'https://github.com/BurntSushi/xsv'
+
+[[package]]
+channel = 'arch'
+name = 'xsv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xsv'

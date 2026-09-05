@@ -1,0 +1,12 @@
+id = 'kew'
+name = 'kew'
+
+repository = 'https://codeberg.org/ravachol/kew'
+
+[[package]]
+channel = 'arch'
+name = 'kew'
+
+[[package]]
+channel = 'debian'
+name = 'kew'

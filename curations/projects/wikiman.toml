@@ -1,0 +1,8 @@
+id = 'wikiman'
+name = 'wikiman'
+
+repository = 'https://github.com/filiparag/wikiman'
+
+[[package]]
+channel = 'arch'
+name = 'wikiman'

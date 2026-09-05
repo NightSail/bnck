@@ -1,0 +1,8 @@
+id = 'netshow'
+name = 'netshow'
+
+repository = 'https://github.com/taylorwilsdon/netshow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netshow'

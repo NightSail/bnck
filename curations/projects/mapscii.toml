@@ -1,0 +1,8 @@
+id = 'mapscii'
+name = 'mapscii'
+
+repository = 'https://github.com/rastapasta/mapscii'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mapscii'

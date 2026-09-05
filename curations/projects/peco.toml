@@ -1,0 +1,16 @@
+id = 'peco'
+name = 'peco'
+
+repository = 'https://github.com/peco/peco'
+
+[[package]]
+channel = 'arch'
+name = 'peco'
+
+[[package]]
+channel = 'debian'
+name = 'peco'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/peco'

@@ -1,0 +1,16 @@
+id = 'fd'
+name = 'fd'
+
+repository = 'https://github.com/sharkdp/fd'
+
+[[package]]
+channel = 'arch'
+name = 'fd'
+
+[[package]]
+channel = 'debian'
+name = 'fd-find'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fd'

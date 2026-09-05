@@ -1,0 +1,8 @@
+id = 'herdr'
+name = 'herdr'
+
+repository = 'https://github.com/herdrdev/herdr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/herdr'

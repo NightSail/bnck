@@ -1,0 +1,8 @@
+id = 'lazysql'
+name = 'lazysql'
+
+repository = 'https://github.com/jorgerojas26/lazysql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazysql'

@@ -1,0 +1,12 @@
+id = 'gita'
+name = 'gita'
+
+repository = 'https://github.com/nosarthur/gita'
+
+[[package]]
+channel = 'debian'
+name = 'gita'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gita'

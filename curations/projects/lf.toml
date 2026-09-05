@@ -1,0 +1,16 @@
+id = 'lf'
+name = 'lf'
+
+repository = 'https://github.com/gokcehan/lf'
+
+[[package]]
+channel = 'arch'
+name = 'lf'
+
+[[package]]
+channel = 'debian'
+name = 'lf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lf'

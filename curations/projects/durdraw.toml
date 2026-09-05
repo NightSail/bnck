@@ -1,0 +1,13 @@
+id = 'durdraw'
+name = 'durdraw'
+
+homepage = 'https://durdraw.org'
+repository = 'https://github.com/cmang/durdraw'
+
+[[package]]
+channel = 'debian'
+name = 'durdraw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/durdraw'

@@ -1,0 +1,8 @@
+id = 'lychee'
+name = 'lychee'
+
+repository = 'https://github.com/lycheeverse/lychee'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lychee'

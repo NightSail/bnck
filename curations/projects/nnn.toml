@@ -1,0 +1,20 @@
+id = 'nnn'
+name = 'nnn'
+
+repository = 'https://github.com/jarun/nnn'
+
+[[package]]
+channel = 'arch'
+name = 'nnn'
+
+[[package]]
+channel = 'debian'
+name = 'nnn'
+
+[[package]]
+channel = 'fedora'
+name = 'nnn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nnn'

@@ -1,0 +1,16 @@
+id = 'hexyl'
+name = 'hexyl'
+
+repository = 'https://github.com/sharkdp/hexyl'
+
+[[package]]
+channel = 'arch'
+name = 'hexyl'
+
+[[package]]
+channel = 'debian'
+name = 'hexyl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexyl'

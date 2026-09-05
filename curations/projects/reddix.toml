@@ -1,0 +1,8 @@
+id = 'reddix'
+name = 'reddix'
+
+repository = 'https://github.com/ck-zhang/reddix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reddix'

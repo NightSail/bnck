@@ -1,0 +1,12 @@
+id = 'jujutsu'
+name = 'jujutsu'
+
+repository = 'https://github.com/jj-vcs/jj'
+
+[[package]]
+channel = 'arch'
+name = 'jujutsu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jj'

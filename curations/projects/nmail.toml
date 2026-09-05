@@ -1,0 +1,8 @@
+id = 'nmail'
+name = 'nmail'
+
+repository = 'https://github.com/d99kris/nmail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nmail'

@@ -1,0 +1,12 @@
+id = 'macchina'
+name = 'macchina'
+
+repository = 'https://github.com/Macchina-CLI/macchina'
+
+[[package]]
+channel = 'arch'
+name = 'macchina'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macchina'

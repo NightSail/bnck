@@ -1,0 +1,12 @@
+id = 'monolith'
+name = 'monolith'
+
+repository = 'https://github.com/Y2Z/monolith'
+
+[[package]]
+channel = 'arch'
+name = 'monolith'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monolith'

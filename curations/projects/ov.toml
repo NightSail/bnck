@@ -1,0 +1,13 @@
+id = 'ov'
+name = 'ov'
+
+homepage = 'https://noborus.github.io/ov'
+repository = 'https://github.com/noborus/ov'
+
+[[package]]
+channel = 'fedora'
+name = 'ov'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ov'

@@ -1,0 +1,48 @@
+id = 'ffmpeg'
+name = 'ffmpeg'
+
+homepage = 'https://ffmpeg.org'
+
+[[package]]
+channel = 'arch'
+name = 'ffmpeg'
+
+[[package]]
+channel = 'debian'
+name = 'ffmpeg'
+
+[[package]]
+channel = 'fedora'
+name = 'ffmpeg-free'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg-full'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg@2.8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg@4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg@5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg@6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg@7'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg@8'

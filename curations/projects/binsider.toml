@@ -1,0 +1,12 @@
+id = 'binsider'
+name = 'binsider'
+
+repository = 'https://github.com/orhun/binsider'
+
+[[package]]
+channel = 'arch'
+name = 'binsider'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/binsider'

@@ -1,0 +1,20 @@
+id = 'fastfetch'
+name = 'fastfetch'
+
+repository = 'https://github.com/fastfetch-cli/fastfetch'
+
+[[package]]
+channel = 'arch'
+name = 'fastfetch'
+
+[[package]]
+channel = 'debian'
+name = 'fastfetch'
+
+[[package]]
+channel = 'fedora'
+name = 'fastfetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastfetch'

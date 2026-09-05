@@ -1,0 +1,8 @@
+id = 'tuisky'
+name = 'tuisky'
+
+repository = 'https://github.com/sugyan/tuisky'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuisky'

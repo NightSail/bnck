@@ -1,0 +1,57 @@
+id = 'emacs'
+name = 'emacs'
+
+homepage = 'https://gnu.org/software/emacs'
+repository = 'https://github.com/emacs-mirror/emacs'
+
+[[package]]
+channel = 'arch'
+name = 'emacs'
+
+[[package]]
+channel = 'debian'
+name = 'emacs-bin-common'
+
+[[package]]
+channel = 'debian'
+name = 'emacs-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'emacs-lucid'
+
+[[package]]
+channel = 'debian'
+name = 'emacs-nox'
+
+[[package]]
+channel = 'debian'
+name = 'emacs-pgtk'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-common'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-gtk+x11'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-lucid'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-nw'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-pgtk'
+
+[[package]]
+channel = 'fedora'
+name = 'emacsclient'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emacs'

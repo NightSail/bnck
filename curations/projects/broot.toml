@@ -1,0 +1,17 @@
+id = 'broot'
+name = 'broot'
+
+homepage = 'https://dystroy.org/broot'
+repository = 'https://github.com/Canop/broot'
+
+[[package]]
+channel = 'arch'
+name = 'broot'
+
+[[package]]
+channel = 'debian'
+name = 'broot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/broot'

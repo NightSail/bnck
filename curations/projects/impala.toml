@@ -1,0 +1,8 @@
+id = 'impala'
+name = 'impala'
+
+repository = 'https://github.com/pythops/impala'
+
+[[package]]
+channel = 'arch'
+name = 'impala'

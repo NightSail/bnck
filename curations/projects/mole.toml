@@ -1,0 +1,8 @@
+id = 'mole'
+name = 'mole'
+
+repository = 'https://github.com/tw93/mole'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mole'

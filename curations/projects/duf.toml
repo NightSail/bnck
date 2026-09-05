@@ -1,0 +1,20 @@
+id = 'duf'
+name = 'duf'
+
+repository = 'https://github.com/muesli/duf'
+
+[[package]]
+channel = 'arch'
+name = 'duf'
+
+[[package]]
+channel = 'debian'
+name = 'duf'
+
+[[package]]
+channel = 'fedora'
+name = 'duf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duf'

@@ -1,0 +1,8 @@
+id = 'jrnl'
+name = 'jrnl'
+
+repository = 'https://github.com/jrnl-org/jrnl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jrnl'

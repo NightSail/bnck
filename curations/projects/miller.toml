@@ -1,0 +1,21 @@
+id = 'miller'
+name = 'miller'
+
+homepage = 'https://miller.readthedocs.io/en/6.10.0'
+repository = 'https://github.com/johnkerl/miller'
+
+[[package]]
+channel = 'arch'
+name = 'miller'
+
+[[package]]
+channel = 'debian'
+name = 'miller'
+
+[[package]]
+channel = 'fedora'
+name = 'miller'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/miller'

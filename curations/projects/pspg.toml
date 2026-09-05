@@ -1,0 +1,16 @@
+id = 'pspg'
+name = 'pspg'
+
+repository = 'https://github.com/okbob/pspg'
+
+[[package]]
+channel = 'debian'
+name = 'pspg'
+
+[[package]]
+channel = 'fedora'
+name = 'pspg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pspg'

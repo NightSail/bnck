@@ -1,0 +1,20 @@
+id = 'bmon'
+name = 'bmon'
+
+repository = 'https://github.com/tgraf/bmon'
+
+[[package]]
+channel = 'arch'
+name = 'bmon'
+
+[[package]]
+channel = 'debian'
+name = 'bmon'
+
+[[package]]
+channel = 'fedora'
+name = 'bmon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bmon'

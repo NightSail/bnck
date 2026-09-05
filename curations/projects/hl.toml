@@ -1,0 +1,12 @@
+id = 'hl'
+name = 'hl'
+
+repository = 'https://github.com/pamburus/hl'
+
+[[package]]
+channel = 'arch'
+name = 'hl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hl'

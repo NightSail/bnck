@@ -1,0 +1,8 @@
+id = 'hapless'
+name = 'hapless'
+
+repository = 'https://github.com/bmwant/hapless'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hapless'

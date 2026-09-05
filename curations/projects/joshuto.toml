@@ -1,0 +1,8 @@
+id = 'joshuto'
+name = 'joshuto'
+
+repository = 'https://github.com/kamiyaa/joshuto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/joshuto'

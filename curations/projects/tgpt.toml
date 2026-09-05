@@ -1,0 +1,12 @@
+id = 'tgpt'
+name = 'tgpt'
+
+repository = 'https://github.com/aandrew-me/tgpt'
+
+[[package]]
+channel = 'arch'
+name = 'tgpt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tgpt'

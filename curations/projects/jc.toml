@@ -1,0 +1,20 @@
+id = 'jc'
+name = 'jc'
+
+repository = 'https://github.com/kellyjonbrazil/jc'
+
+[[package]]
+channel = 'arch'
+name = 'jc'
+
+[[package]]
+channel = 'debian'
+name = 'jc'
+
+[[package]]
+channel = 'fedora'
+name = 'jc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jc'

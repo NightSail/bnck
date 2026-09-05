@@ -1,0 +1,8 @@
+id = 'gtrash'
+name = 'gtrash'
+
+repository = 'https://github.com/umlx5h/gtrash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtrash'

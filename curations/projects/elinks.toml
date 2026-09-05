@@ -1,0 +1,21 @@
+id = 'elinks'
+name = 'elinks'
+
+homepage = 'http://elinks.cz'
+repository = 'https://github.com/rkd77/elinks'
+
+[[package]]
+channel = 'arch'
+name = 'elinks'
+
+[[package]]
+channel = 'debian'
+name = 'elinks'
+
+[[package]]
+channel = 'fedora'
+name = 'elinks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/felinks'

@@ -1,0 +1,16 @@
+id = 'pastel'
+name = 'pastel'
+
+repository = 'https://github.com/sharkdp/pastel'
+
+[[package]]
+channel = 'arch'
+name = 'pastel'
+
+[[package]]
+channel = 'debian'
+name = 'pastel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pastel'

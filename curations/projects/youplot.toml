@@ -1,0 +1,12 @@
+id = 'youplot'
+name = 'youplot'
+
+repository = 'https://github.com/red-data-tools/YouPlot'
+
+[[package]]
+channel = 'debian'
+name = 'youplot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/youplot'

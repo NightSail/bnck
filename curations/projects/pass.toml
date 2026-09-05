@@ -1,0 +1,16 @@
+id = 'pass'
+name = 'pass'
+
+homepage = 'https://www.passwordstore.org'
+
+[[package]]
+channel = 'arch'
+name = 'pass'
+
+[[package]]
+channel = 'debian'
+name = 'pass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pass'

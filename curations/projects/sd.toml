@@ -1,0 +1,16 @@
+id = 'sd'
+name = 'sd'
+
+repository = 'https://github.com/chmln/sd'
+
+[[package]]
+channel = 'arch'
+name = 'sd'
+
+[[package]]
+channel = 'debian'
+name = 'sd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sd'

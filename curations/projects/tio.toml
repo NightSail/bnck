@@ -1,0 +1,8 @@
+id = 'tio'
+name = 'tio'
+
+repository = 'http://github.com/tio/tio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tio'

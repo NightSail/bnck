@@ -1,0 +1,20 @@
+id = 'delta'
+name = 'delta'
+
+repository = 'https://github.com/dandavison/delta'
+
+[[package]]
+channel = 'arch'
+name = 'git-delta'
+
+[[package]]
+channel = 'debian'
+name = 'git-delta'
+
+[[package]]
+channel = 'fedora'
+name = 'git-delta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-delta'

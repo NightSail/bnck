@@ -1,0 +1,12 @@
+id = 'erdtree'
+name = 'erdtree'
+
+repository = 'https://github.com/solidiquis/erdtree'
+
+[[package]]
+channel = 'arch'
+name = 'erdtree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erdtree'

@@ -1,0 +1,21 @@
+id = 'tig'
+name = 'tig'
+
+homepage = 'https://jonas.github.io/tig'
+repository = 'https://github.com/jonas/tig'
+
+[[package]]
+channel = 'arch'
+name = 'tig'
+
+[[package]]
+channel = 'debian'
+name = 'tig'
+
+[[package]]
+channel = 'fedora'
+name = 'tig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tig'

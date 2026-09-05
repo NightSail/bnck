@@ -1,0 +1,8 @@
+id = 'tracexec'
+name = 'tracexec'
+
+repository = 'https://github.com/kxxt/tracexec'
+
+[[package]]
+channel = 'arch'
+name = 'tracexec'

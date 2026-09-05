@@ -1,0 +1,20 @@
+id = 'fzf'
+name = 'fzf'
+
+repository = 'https://github.com/junegunn/fzf'
+
+[[package]]
+channel = 'arch'
+name = 'fzf'
+
+[[package]]
+channel = 'debian'
+name = 'fzf'
+
+[[package]]
+channel = 'fedora'
+name = 'fzf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fzf'

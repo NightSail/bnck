@@ -1,0 +1,12 @@
+id = 'jql'
+name = 'jql'
+
+repository = 'https://github.com/yamafaktory/jql'
+
+[[package]]
+channel = 'debian'
+name = 'jql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jql'

@@ -1,0 +1,16 @@
+id = 'tailspin'
+name = 'tailspin'
+
+repository = 'https://github.com/bensadeh/tailspin'
+
+[[package]]
+channel = 'arch'
+name = 'tailspin'
+
+[[package]]
+channel = 'debian'
+name = 'tailspin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tailspin'

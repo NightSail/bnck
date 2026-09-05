@@ -1,0 +1,8 @@
+id = 'tickrs'
+name = 'tickrs'
+
+repository = 'https://github.com/tarkah/tickrs'
+
+[[package]]
+channel = 'arch'
+name = 'tickrs'

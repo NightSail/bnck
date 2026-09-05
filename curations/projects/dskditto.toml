@@ -1,0 +1,8 @@
+id = 'dskditto'
+name = 'dskditto'
+
+repository = 'https://github.com/jdefrancesco/dskDitto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dskditto'

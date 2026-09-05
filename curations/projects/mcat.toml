@@ -1,0 +1,8 @@
+id = 'mcat'
+name = 'mcat'
+
+repository = 'https://github.com/Skardyy/mcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcat'

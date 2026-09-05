@@ -1,0 +1,16 @@
+id = 'wget'
+name = 'wget'
+
+homepage = 'https://www.gnu.org/software/wget'
+
+[[package]]
+channel = 'debian'
+name = 'wget'
+
+[[package]]
+channel = 'fedora'
+name = 'wget1-wget'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wget'

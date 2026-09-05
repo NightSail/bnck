@@ -1,0 +1,8 @@
+id = 'jolt'
+name = 'jolt'
+
+repository = 'https://github.com/jordond/jolt'
+
+[[package]]
+channel = 'arch'
+name = 'jolt'

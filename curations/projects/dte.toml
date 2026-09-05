@@ -1,0 +1,8 @@
+id = 'dte'
+name = 'dte'
+
+repository = 'https://github.com/craigbarnes/dte'
+
+[[package]]
+channel = 'debian'
+name = 'dte'

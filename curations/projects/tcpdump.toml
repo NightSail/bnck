@@ -1,0 +1,21 @@
+id = 'tcpdump'
+name = 'tcpdump'
+
+homepage = 'https://www.tcpdump.org'
+repository = 'https://github.com/the-tcpdump-group/tcpdump'
+
+[[package]]
+channel = 'arch'
+name = 'tcpdump'
+
+[[package]]
+channel = 'debian'
+name = 'tcpdump'
+
+[[package]]
+channel = 'fedora'
+name = 'tcpdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcpdump'

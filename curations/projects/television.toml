@@ -1,0 +1,12 @@
+id = 'television'
+name = 'television'
+
+repository = 'https://github.com/alexpasmantier/television'
+
+[[package]]
+channel = 'arch'
+name = 'television'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/television'

@@ -1,0 +1,8 @@
+id = 'tproxy'
+name = 'tproxy'
+
+repository = 'https://github.com/kevwan/tproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tproxy'

@@ -1,0 +1,8 @@
+id = 'taproom'
+name = 'taproom'
+
+repository = 'https://github.com/hzqtc/taproom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taproom'

@@ -1,0 +1,8 @@
+id = 'pik'
+name = 'pik'
+
+repository = 'https://github.com/jacek-kurlit/pik'
+
+[[package]]
+channel = 'arch'
+name = 'pik'

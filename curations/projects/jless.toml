@@ -1,0 +1,17 @@
+id = 'jless'
+name = 'jless'
+
+homepage = 'https://jless.io'
+repository = 'https://github.com/PaulJuliusMartinez/jless'
+
+[[package]]
+channel = 'arch'
+name = 'jless'
+
+[[package]]
+channel = 'debian'
+name = 'jless'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jless'

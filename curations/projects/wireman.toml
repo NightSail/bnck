@@ -1,0 +1,8 @@
+id = 'wireman'
+name = 'wireman'
+
+repository = 'https://github.com/preiter93/wireman'
+
+[[package]]
+channel = 'arch'
+name = 'wireman'

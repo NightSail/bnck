@@ -1,0 +1,8 @@
+id = 'rsyncy'
+name = 'rsyncy'
+
+repository = 'https://github.com/laktak/rsyncy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsyncy'

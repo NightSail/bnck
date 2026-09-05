@@ -1,0 +1,21 @@
+id = 'rclone'
+name = 'rclone'
+
+homepage = 'https://rclone.org'
+repository = 'https://github.com/rclone/rclone'
+
+[[package]]
+channel = 'arch'
+name = 'rclone'
+
+[[package]]
+channel = 'debian'
+name = 'rclone'
+
+[[package]]
+channel = 'fedora'
+name = 'rclone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rclone'

@@ -1,0 +1,12 @@
+id = 'ducker'
+name = 'ducker'
+
+repository = 'https://github.com/robertpsoane/ducker'
+
+[[package]]
+channel = 'arch'
+name = 'ducker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ducker'

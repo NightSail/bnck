@@ -1,0 +1,8 @@
+id = 'pwndbg'
+name = 'pwndbg'
+
+repository = 'https://github.com/pwndbg/pwndbg'
+
+[[package]]
+channel = 'arch'
+name = 'pwndbg'

@@ -1,0 +1,12 @@
+id = 'patat'
+name = 'patat'
+
+repository = 'https://github.com/jaspervdj/patat'
+
+[[package]]
+channel = 'debian'
+name = 'patat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/patat'

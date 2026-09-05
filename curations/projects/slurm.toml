@@ -1,0 +1,8 @@
+id = 'slurm'
+name = 'slurm'
+
+repository = 'https://github.com/mattthias/slurm'
+
+[[package]]
+channel = 'debian'
+name = 'slurm'

@@ -1,0 +1,8 @@
+id = 'vscli'
+name = 'vscli'
+
+repository = 'https://github.com/michidk/vscli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vscli'

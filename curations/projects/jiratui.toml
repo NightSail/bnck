@@ -1,0 +1,9 @@
+id = 'jiratui'
+name = 'jiratui'
+
+homepage = 'https://jiratui.sh'
+repository = 'https://github.com/whyisdifficult/jiratui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jiratui'

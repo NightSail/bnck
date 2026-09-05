@@ -1,0 +1,16 @@
+id = 'vhs'
+name = 'vhs'
+
+repository = 'https://github.com/charmbracelet/vhs'
+
+[[package]]
+channel = 'arch'
+name = 'vhs'
+
+[[package]]
+channel = 'fedora'
+name = 'vhs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vhs'

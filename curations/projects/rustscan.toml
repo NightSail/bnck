@@ -1,0 +1,8 @@
+id = 'rustscan'
+name = 'rustscan'
+
+repository = 'https://github.com/RustScan/RustScan'
+
+[[package]]
+channel = 'arch'
+name = 'rustscan'

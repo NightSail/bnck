@@ -1,0 +1,12 @@
+id = 'bombadillo'
+name = 'bombadillo'
+
+homepage = 'https://bombadillo.colorfield.space'
+
+[[package]]
+channel = 'debian'
+name = 'bombadillo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bombadillo'

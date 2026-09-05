@@ -1,0 +1,9 @@
+id = 'opencubicplayer'
+name = 'opencubicplayer'
+
+homepage = 'https://stian.cubic.org/project-ocp.php'
+repository = 'https://github.com/mywave82/opencubicplayer'
+
+[[package]]
+channel = 'debian'
+name = 'opencubicplayer'

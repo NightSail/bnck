@@ -1,0 +1,13 @@
+id = 'jwt-ui'
+name = 'jwt-ui'
+
+homepage = 'https://jwtui.cli.rs'
+repository = 'https://github.com/jwt-rs/jwt-ui'
+
+[[package]]
+channel = 'arch'
+name = 'jwt-ui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jwt-ui'

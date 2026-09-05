@@ -1,0 +1,16 @@
+id = 'gping'
+name = 'gping'
+
+repository = 'https://github.com/orf/gping'
+
+[[package]]
+channel = 'arch'
+name = 'gping'
+
+[[package]]
+channel = 'debian'
+name = 'gping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gping'

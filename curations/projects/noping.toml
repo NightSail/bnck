@@ -1,0 +1,17 @@
+id = 'noping'
+name = 'noping'
+
+homepage = 'https://noping.cc'
+repository = 'https://github.com/octo/liboping'
+
+[[package]]
+channel = 'debian'
+name = 'oping'
+
+[[package]]
+channel = 'fedora'
+name = 'liboping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liboping'

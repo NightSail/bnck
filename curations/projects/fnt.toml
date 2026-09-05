@@ -1,0 +1,12 @@
+id = 'fnt'
+name = 'fnt'
+
+repository = 'https://github.com/alexmyczko/fnt'
+
+[[package]]
+channel = 'debian'
+name = 'fnt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fnt'

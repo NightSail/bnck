@@ -1,0 +1,12 @@
+id = 'halp'
+name = 'halp'
+
+repository = 'https://github.com/orhun/halp'
+
+[[package]]
+channel = 'arch'
+name = 'halp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/halp'

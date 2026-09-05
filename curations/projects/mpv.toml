@@ -1,0 +1,8 @@
+id = 'mpv'
+name = 'mpv'
+
+repository = 'https://github.com/mpv-player/mpv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpv'

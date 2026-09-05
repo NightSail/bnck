@@ -1,0 +1,8 @@
+id = 'kudu'
+name = 'kudu'
+
+repository = 'https://github.com/pythops/kudu'
+
+[[package]]
+channel = 'arch'
+name = 'kudu'

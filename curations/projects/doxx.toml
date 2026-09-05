@@ -1,0 +1,16 @@
+id = 'doxx'
+name = 'doxx'
+
+repository = 'https://github.com/bgreenwell/doxx'
+
+[[package]]
+channel = 'arch'
+name = 'doxx'
+
+[[package]]
+channel = 'debian'
+name = 'doxx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doxx'

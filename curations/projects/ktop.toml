@@ -1,0 +1,8 @@
+id = 'ktop'
+name = 'ktop'
+
+repository = 'https://github.com/vladimirvivien/ktop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktop'

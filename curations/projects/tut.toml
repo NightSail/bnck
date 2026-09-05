@@ -1,0 +1,9 @@
+id = 'tut'
+name = 'tut'
+
+homepage = 'https://tut.anv.nu'
+repository = 'https://github.com/RasmusLindroth/tut'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tut'

@@ -1,0 +1,8 @@
+id = 'threatdeck'
+name = 'threatdeck'
+
+repository = 'https://github.com/gripebomb/threatdeck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/threatdeck'

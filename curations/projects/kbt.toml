@@ -1,0 +1,12 @@
+id = 'kbt'
+name = 'kbt'
+
+repository = 'https://github.com/bloznelis/kbt'
+
+[[package]]
+channel = 'arch'
+name = 'kbt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kbt'

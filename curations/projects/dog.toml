@@ -1,0 +1,9 @@
+id = 'dog'
+name = 'dog'
+
+homepage = 'https://dns.lookup.dog'
+repository = 'https://github.com/ogham/dog'
+
+[[package]]
+channel = 'arch'
+name = 'dog'

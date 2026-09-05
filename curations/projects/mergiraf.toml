@@ -1,0 +1,8 @@
+id = 'mergiraf'
+name = 'mergiraf'
+
+repository = 'https://codeberg.org/mergiraf/mergiraf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mergiraf'

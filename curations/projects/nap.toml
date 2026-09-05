@@ -1,0 +1,8 @@
+id = 'nap'
+name = 'nap'
+
+repository = 'https://github.com/maaslalani/nap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nap'

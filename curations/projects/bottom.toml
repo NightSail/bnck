@@ -1,0 +1,16 @@
+id = 'bottom'
+name = 'bottom'
+
+repository = 'https://github.com/ClementTsang/bottom'
+
+[[package]]
+channel = 'arch'
+name = 'bottom'
+
+[[package]]
+channel = 'debian'
+name = 'btm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bottom'

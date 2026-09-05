@@ -1,0 +1,8 @@
+id = 'lemurs'
+name = 'lemurs'
+
+repository = 'https://github.com/coastalwhite/lemurs'
+
+[[package]]
+channel = 'arch'
+name = 'lemurs'

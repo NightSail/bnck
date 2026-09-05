@@ -1,0 +1,16 @@
+id = 'sc-im'
+name = 'sc-im'
+
+repository = 'https://github.com/andmarti1424/sc-im'
+
+[[package]]
+channel = 'debian'
+name = 'sc-im'
+
+[[package]]
+channel = 'fedora'
+name = 'sc-im'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sc-im'

@@ -1,0 +1,9 @@
+id = 'radare2'
+name = 'radare2'
+
+homepage = 'https://www.radare.org/n'
+repository = 'https://github.com/radareorg/radare2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/radare2'

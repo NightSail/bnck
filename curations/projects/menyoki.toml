@@ -1,0 +1,8 @@
+id = 'menyoki'
+name = 'menyoki'
+
+repository = 'https://github.com/orhun/menyoki'
+
+[[package]]
+channel = 'arch'
+name = 'menyoki'

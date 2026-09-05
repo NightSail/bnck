@@ -1,0 +1,20 @@
+id = 'gdb'
+name = 'gdb'
+
+homepage = 'https://www.sourceware.org/gdb'
+
+[[package]]
+channel = 'arch'
+name = 'gdb'
+
+[[package]]
+channel = 'debian'
+name = 'gdb'
+
+[[package]]
+channel = 'fedora'
+name = 'gdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdb'

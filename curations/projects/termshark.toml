@@ -1,0 +1,12 @@
+id = 'termshark'
+name = 'termshark'
+
+repository = 'https://github.com/gcla/termshark'
+
+[[package]]
+channel = 'arch'
+name = 'termshark'
+
+[[package]]
+channel = 'debian'
+name = 'termshark'

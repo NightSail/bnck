@@ -1,0 +1,12 @@
+id = 'rustnet'
+name = 'rustnet'
+
+repository = 'https://github.com/domcyrus/rustnet'
+
+[[package]]
+channel = 'arch'
+name = 'rustnet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustnet'

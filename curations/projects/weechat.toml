@@ -1,0 +1,25 @@
+id = 'weechat'
+name = 'weechat'
+
+homepage = 'https://weechat.org'
+repository = 'https://github.com/weechat/weechat'
+
+[[package]]
+channel = 'arch'
+name = 'weechat'
+
+[[package]]
+channel = 'debian'
+name = 'weechat-curses'
+
+[[package]]
+channel = 'debian'
+name = 'weechat-headless'
+
+[[package]]
+channel = 'fedora'
+name = 'weechat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weechat'

@@ -1,0 +1,8 @@
+id = 'exosphere'
+name = 'exosphere'
+
+repository = 'https://github.com/mrdaemon/exosphere'
+
+[[package]]
+channel = 'debian'
+name = 'exosphere'

@@ -1,0 +1,20 @@
+id = 'cava'
+name = 'cava'
+
+repository = 'https://github.com/karlstav/cava'
+
+[[package]]
+channel = 'arch'
+name = 'cava'
+
+[[package]]
+channel = 'debian'
+name = 'cava'
+
+[[package]]
+channel = 'fedora'
+name = 'cava'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cava'

@@ -1,0 +1,12 @@
+id = 'xan'
+name = 'xan'
+
+repository = 'https://github.com/medialab/xan'
+
+[[package]]
+channel = 'arch'
+name = 'xan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xan'

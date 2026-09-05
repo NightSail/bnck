@@ -1,0 +1,16 @@
+id = 'nethogs'
+name = 'nethogs'
+
+repository = 'https://github.com/raboof/nethogs'
+
+[[package]]
+channel = 'arch'
+name = 'nethogs'
+
+[[package]]
+channel = 'debian'
+name = 'nethogs'
+
+[[package]]
+channel = 'fedora'
+name = 'nethogs'

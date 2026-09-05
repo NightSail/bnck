@@ -1,0 +1,8 @@
+id = 'network-doctor'
+name = 'network-doctor'
+
+repository = 'https://github.com/heymaikol/network-doctor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/network-doctor'

@@ -1,0 +1,12 @@
+id = 'jqp'
+name = 'jqp'
+
+repository = 'https://github.com/noahgorstein/jqp'
+
+[[package]]
+channel = 'debian'
+name = 'jqp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jqp'

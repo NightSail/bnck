@@ -1,0 +1,12 @@
+id = 'ugrep'
+name = 'ugrep'
+
+repository = 'https://github.com/Genivia/ugrep'
+
+[[package]]
+channel = 'arch'
+name = 'ugrep'
+
+[[package]]
+channel = 'fedora'
+name = 'ugrep'

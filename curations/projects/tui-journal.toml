@@ -1,0 +1,8 @@
+id = 'tui-journal'
+name = 'tui-journal'
+
+repository = 'https://github.com/AmmarAbouZor/tui-journal'
+
+[[package]]
+channel = 'arch'
+name = 'tui-journal'

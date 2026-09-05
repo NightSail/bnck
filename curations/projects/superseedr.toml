@@ -1,0 +1,8 @@
+id = 'superseedr'
+name = 'superseedr'
+
+repository = 'https://github.com/Jagalite/superseedr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/superseedr'

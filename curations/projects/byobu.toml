@@ -1,0 +1,13 @@
+id = 'byobu'
+name = 'byobu'
+
+homepage = 'https://www.byobu.org'
+repository = 'https://github.com/dustinkirkland/byobu'
+
+[[package]]
+channel = 'fedora'
+name = 'byobu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/byobu'

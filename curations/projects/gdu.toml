@@ -1,0 +1,20 @@
+id = 'gdu'
+name = 'gdu'
+
+repository = 'https://github.com/dundee/gdu'
+
+[[package]]
+channel = 'arch'
+name = 'gdu'
+
+[[package]]
+channel = 'debian'
+name = 'gdu'
+
+[[package]]
+channel = 'fedora'
+name = 'gdu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdu'

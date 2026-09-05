@@ -1,0 +1,9 @@
+id = 'flow-control'
+name = 'flow-control'
+
+homepage = 'https://flow-control.dev/'
+repository = 'https://github.com/programmersd21/flow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flow-control'

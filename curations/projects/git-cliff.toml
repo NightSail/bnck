@@ -1,0 +1,12 @@
+id = 'git-cliff'
+name = 'git-cliff'
+
+repository = 'https://github.com/orhun/git-cliff'
+
+[[package]]
+channel = 'arch'
+name = 'git-cliff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-cliff'

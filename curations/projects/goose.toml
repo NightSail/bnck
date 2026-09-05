@@ -1,0 +1,12 @@
+id = 'goose'
+name = 'goose'
+
+repository = 'https://github.com/pressly/goose'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pressly-goose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goose'

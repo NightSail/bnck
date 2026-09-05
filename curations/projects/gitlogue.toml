@@ -1,0 +1,12 @@
+id = 'gitlogue'
+name = 'gitlogue'
+
+repository = 'https://github.com/unhappychoice/gitlogue'
+
+[[package]]
+channel = 'arch'
+name = 'gitlogue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitlogue'

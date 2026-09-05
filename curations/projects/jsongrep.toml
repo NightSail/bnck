@@ -1,0 +1,8 @@
+id = 'jsongrep'
+name = 'jsongrep'
+
+repository = 'https://github.com/micahkepe/jsongrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsongrep'

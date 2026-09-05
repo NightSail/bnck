@@ -1,0 +1,8 @@
+id = 'wiremix'
+name = 'wiremix'
+
+repository = 'https://github.com/tsowell/wiremix'
+
+[[package]]
+channel = 'arch'
+name = 'wiremix'

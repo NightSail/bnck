@@ -1,0 +1,8 @@
+id = 'ttyper'
+name = 'ttyper'
+
+repository = 'https://github.com/max-niederman/ttyper'
+
+[[package]]
+channel = 'arch'
+name = 'ttyper'

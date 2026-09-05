@@ -1,0 +1,8 @@
+id = 'termframe'
+name = 'termframe'
+
+repository = 'https://github.com/pamburus/termframe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termframe'

@@ -1,0 +1,12 @@
+id = 'netscanner'
+name = 'netscanner'
+
+repository = 'https://github.com/Chleba/netscanner'
+
+[[package]]
+channel = 'arch'
+name = 'netscanner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netscanner'

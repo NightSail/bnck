@@ -1,0 +1,20 @@
+id = 'btop'
+name = 'btop'
+
+repository = 'https://github.com/aristocratos/btop'
+
+[[package]]
+channel = 'arch'
+name = 'btop'
+
+[[package]]
+channel = 'debian'
+name = 'btop'
+
+[[package]]
+channel = 'fedora'
+name = 'btop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btop'

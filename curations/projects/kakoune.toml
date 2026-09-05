@@ -1,0 +1,8 @@
+id = 'kakoune'
+name = 'kakoune'
+
+repository = 'https://github.com/mawww/kakoune'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kakoune'

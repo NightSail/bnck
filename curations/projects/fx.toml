@@ -1,0 +1,13 @@
+id = 'fx'
+name = 'fx'
+
+homepage = 'https://fx.wtf'
+repository = 'https://github.com/antonmedv/fx'
+
+[[package]]
+channel = 'arch'
+name = 'fx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fx'

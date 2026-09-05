@@ -1,0 +1,8 @@
+id = 'kmon'
+name = 'kmon'
+
+repository = 'https://github.com/orhun/kmon'
+
+[[package]]
+channel = 'arch'
+name = 'kmon'

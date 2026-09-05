@@ -1,0 +1,16 @@
+id = 'mdp'
+name = 'mdp'
+
+repository = 'https://github.com/visit1985/mdp'
+
+[[package]]
+channel = 'arch'
+name = 'mdp'
+
+[[package]]
+channel = 'debian'
+name = 'mdp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdp'

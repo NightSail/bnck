@@ -1,0 +1,8 @@
+id = 'rucola'
+name = 'rucola'
+
+repository = 'https://github.com/Linus-Mussmaecher/rucola'
+
+[[package]]
+channel = 'arch'
+name = 'rucola'

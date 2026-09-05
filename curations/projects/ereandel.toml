@@ -1,0 +1,8 @@
+id = 'ereandel'
+name = 'ereandel'
+
+repository = 'https://github.com/blmayer/ereandel'
+
+[[package]]
+channel = 'debian'
+name = 'ereandel'

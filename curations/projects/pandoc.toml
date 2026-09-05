@@ -1,0 +1,17 @@
+id = 'pandoc'
+name = 'pandoc'
+
+homepage = 'https://pandoc.org'
+repository = 'https://github.com/jgm/pandoc'
+
+[[package]]
+channel = 'arch'
+name = 'pandoc-cli'
+
+[[package]]
+channel = 'debian'
+name = 'pandoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pandoc'

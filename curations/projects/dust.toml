@@ -1,0 +1,16 @@
+id = 'dust'
+name = 'dust'
+
+repository = 'https://github.com/bootandy/dust'
+
+[[package]]
+channel = 'arch'
+name = 'dust'
+
+[[package]]
+channel = 'debian'
+name = 'du-dust'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dust'

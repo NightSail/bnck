@@ -1,0 +1,12 @@
+id = 'moc'
+name = 'moc'
+
+homepage = 'https://moc.daper.net'
+
+[[package]]
+channel = 'debian'
+name = 'moc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moc'

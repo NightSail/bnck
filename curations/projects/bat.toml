@@ -1,0 +1,20 @@
+id = 'bat'
+name = 'bat'
+
+repository = 'https://github.com/sharkdp/bat'
+
+[[package]]
+channel = 'arch'
+name = 'bat'
+
+[[package]]
+channel = 'debian'
+name = 'bat'
+
+[[package]]
+channel = 'fedora'
+name = 'bat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bat'

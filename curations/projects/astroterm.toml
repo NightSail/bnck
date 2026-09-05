@@ -1,0 +1,16 @@
+id = 'astroterm'
+name = 'astroterm'
+
+repository = 'https://github.com/da-luce/astroterm'
+
+[[package]]
+channel = 'arch'
+name = 'astroterm'
+
+[[package]]
+channel = 'fedora'
+name = 'astroterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/astroterm'

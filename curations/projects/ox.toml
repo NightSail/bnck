@@ -1,0 +1,8 @@
+id = 'ox'
+name = 'ox'
+
+repository = 'https://github.com/curlpipe/ox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ox'

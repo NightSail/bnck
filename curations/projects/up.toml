@@ -1,0 +1,12 @@
+id = 'up'
+name = 'up'
+
+repository = 'https://github.com/akavel/up'
+
+[[package]]
+channel = 'arch'
+name = 'up'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/up'

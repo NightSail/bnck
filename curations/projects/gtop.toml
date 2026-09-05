@@ -1,0 +1,12 @@
+id = 'gtop'
+name = 'gtop'
+
+repository = 'https://github.com/aksakalli/gtop'
+
+[[package]]
+channel = 'arch'
+name = 'gtop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtop'

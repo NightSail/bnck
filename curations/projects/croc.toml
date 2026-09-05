@@ -1,0 +1,16 @@
+id = 'croc'
+name = 'croc'
+
+repository = 'https://github.com/schollz/croc'
+
+[[package]]
+channel = 'arch'
+name = 'croc'
+
+[[package]]
+channel = 'fedora'
+name = 'croc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/croc'
