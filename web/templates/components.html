@@ -2,7 +2,7 @@
 	{{ count | number }} {{ singular if count == 1 else plural }}
 {%- endmacro %}
 
-{% macro search_form(query='', channel='') %}
+{% macro search_form(query='', channel='', initial='') %}
 <form class='search-form' action='/' method='get' role='search'>
 	<label class='visually-hidden' for='q'>Executable name or project ID</label>
 	<div class='search-input'>
@@ -12,6 +12,7 @@
 		<button type='submit'>Search <span aria-hidden='true'>↵</span></button>
 	</div>
 	{% if channel %}<input type='hidden' name='channel' value='{{ channel }}'>{% endif %}
+	{% if initial %}<input type='hidden' name='initial' value='{{ initial }}'>{% endif %}
 </form>
 {% endmacro %}
 

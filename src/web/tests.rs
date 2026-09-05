@@ -61,6 +61,20 @@ const MATRIX_COVERAGE: &[(&str, [bool; 5])] = &[
 	("tool", [false, true, true, false, true]),
 ];
 
+const INITIAL_RECORDS: &[(&str, &str, &str, &str)] = &[
+	("alpha", "lookup", "debian", "alpha"),
+	("alpha", "lookup", "npm", "alpha"),
+	("alpha", "helper", "debian", "alpha"),
+	("alpine", "lookup", "debian", "alpine"),
+	("beta", "lookup", "npm", "beta"),
+	("zeta", "other", "debian", "zeta"),
+	("0tool", "lookup", "npm", "numbers"),
+	("9tool", "lookup", "debian", "numbers"),
+	("-tool", "lookup", "npm", "symbols"),
+	(".tool", "lookup", "npm", "symbols"),
+	("_tool", "lookup", "npm", "symbols"),
+];
+
 const RANKING_RECORDS: &[(&str, &str, &str, &str)] = &[
 	("z-exact", "tool", "npm", "z-exact"),
 	("tool-prefix", "unrelated", "npm", "tool-prefix"),
@@ -71,7 +85,7 @@ const RANKING_RECORDS: &[(&str, &str, &str, &str)] = &[
 ];
 
 pub(super) fn search_query(query: &str) -> SearchQuery {
-	SearchQuery { q: Some(query.to_owned()), channel: String::new(), page: 1 }
+	SearchQuery { q: Some(query.to_owned()), channel: String::new(), initial: String::new(), page: 1 }
 }
 
 fn provider(record: (&str, &str, &str, &str)) -> Provider {
@@ -363,6 +377,122 @@ fn search_paginates_projects_without_splitting_executable_lists() {
 	assert_eq!(names.len(), 68);
 	search.page = 4;
 	assert_eq!(search_page(&database, search).status(), StatusCode::NOT_FOUND);
+}
+
+#[test]
+fn initial_filters_match_project_names_and_keep_complete_executable_lists() {
+	let database = fixture(INITIAL_RECORDS.iter().copied().map(provider));
+	for (initial, expected) in [
+		("#", vec!["-tool", ".tool", "0tool", "9tool", "_tool"]),
+		("A", vec!["alpha", "alpine"]),
+		("B", vec!["beta"]),
+		("Z", vec!["zeta"]),
+	] {
+		let search = SearchQuery { initial: initial.to_owned(), ..search_query("") };
+		let results = database.search(&search).unwrap();
+		assert_eq!(results.total, expected.len() as u64);
+		assert_eq!(results.rows.iter().map(|row| row.name.as_str()).collect::<Vec<_>>(), expected);
+		assert_eq!(
+			results.initial_links.iter().map(|link| link.label.as_str()).collect::<Vec<_>>(),
+			["All", "#", "A", "B", "Z"]
+		);
+		assert_eq!(results.initial_links.iter().filter(|link| link.is_current).count(), 1);
+	}
+	let search = SearchQuery { initial: "A".to_owned(), ..search_query("LOOKUP") };
+	let results = database.search(&search).unwrap();
+	assert_eq!(results.total, 2);
+	assert_eq!(results.rows[0].name, "alpha");
+	assert_eq!(executable_names(&results.rows[0]), ["lookup", "helper"]);
+	assert_eq!(results.rows[0].related[0].channels, ["debian", "npm"]);
+}
+
+#[test]
+fn available_initials_follow_query_and_channel_but_not_the_selected_initial() {
+	let database = fixture(INITIAL_RECORDS.iter().copied().map(provider));
+	for (query, channel, initial, expected) in [
+		("lookup", "", "", vec!["All", "#", "A", "B"]),
+		("lookup", "debian", "A", vec!["All", "#", "A"]),
+		("alpha", "", "B", vec!["All", "A"]),
+		("missing", "", "", vec!["All"]),
+	] {
+		let search = SearchQuery { channel: channel.to_owned(), initial: initial.to_owned(), ..search_query(query) };
+		let results = database.search(&search).unwrap();
+		assert_eq!(results.initial_links.iter().map(|link| link.label.as_str()).collect::<Vec<_>>(), expected);
+		if query == "alpha" || query == "missing" {
+			assert_eq!(results.total, 0);
+		}
+	}
+}
+
+#[test]
+fn initial_filters_apply_before_pagination_and_choices_cover_all_pages() {
+	let database = fixture(
+		(0..35)
+			.map(|index| provider((&format!("alpha-{index:03}"), "tool", "npm", "tools")))
+			.chain([provider(("zeta", "tool", "npm", "tools")), provider(("0tool", "tool", "npm", "tools"))]),
+	);
+	let mut search = SearchQuery { initial: "A".to_owned(), channel: "npm".to_owned(), ..search_query("tool") };
+	let mut names = BTreeSet::new();
+	for page in 1..=2 {
+		search.page = page;
+		let results = database.search(&search).unwrap();
+		assert_eq!(results.total, 35);
+		assert_eq!(results.rows.len(), if page == 1 { 30 } else { 5 });
+		assert_eq!(
+			results.initial_links.iter().map(|link| link.label.as_str()).collect::<Vec<_>>(),
+			["All", "#", "A", "Z"]
+		);
+		for row in results.rows {
+			assert!(row.name.starts_with('a'));
+			assert!(names.insert(row.name));
+		}
+		let url = if page == 1 { results.next.unwrap() } else { results.previous.unwrap() };
+		let Query(parsed) = Query::<SearchQuery>::try_from_uri(&url.parse().unwrap()).unwrap();
+		assert_eq!(parsed.initial, "A");
+		assert_eq!(parsed.query(), "tool");
+		assert_eq!(parsed.channel, "npm");
+		assert_eq!(parsed.page, if page == 1 { 2 } else { 1 });
+	}
+	assert_eq!(names.len(), 35);
+}
+
+#[test]
+fn initial_links_preserve_search_context_encode_symbols_and_reset_the_page() {
+	let search =
+		SearchQuery { initial: "A".to_owned(), channel: "npm".to_owned(), page: 4, ..search_query(" a & é?# ") };
+	let links = search.initial_links(["#", "A", "Z"].map(str::to_owned));
+	assert!(links[1].url.contains("initial=%23"));
+	for link in links {
+		let Query(parsed) = Query::<SearchQuery>::try_from_uri(&link.url.parse().unwrap()).unwrap();
+		assert_eq!(parsed.query(), "a & é?#");
+		assert_eq!(parsed.channel, "npm");
+		assert_eq!(parsed.page, 1);
+		assert_eq!(parsed.initial, if link.label == "All" { "" } else { &link.label });
+		assert_eq!(link.is_current, link.label == "A");
+	}
+}
+
+#[tokio::test]
+async fn initial_filter_renders_available_links_above_results_and_on_empty_searches() {
+	let database = fixture(INITIAL_RECORDS.iter().copied().map(provider));
+	let search = SearchQuery { q: None, initial: "A".to_owned(), channel: "debian".to_owned(), ..search_query("") };
+	let html = response_text(search_page(&database, search)).await;
+	let (_, navigation) = html.split_once("<nav class='initial-filter'").unwrap();
+	let (navigation, _) = navigation.split_once("</nav>").unwrap();
+	assert!(navigation.contains("aria-label='Filter projects by initial'"));
+	assert_eq!(navigation.matches("<a ").count(), 4);
+	assert_eq!(navigation.matches("aria-current='true'").count(), 1);
+	assert!(navigation.contains("Numbers and symbols"));
+	assert!(!navigation.contains(">B</a>"));
+	assert!(html.find("class='initial-filter'").unwrap() < html.find("class='name-results'").unwrap());
+	assert!(html.contains("<input type='hidden' name='initial' value='A'>"));
+	assert!(html.contains("2 matching projects"));
+	let html = response_text(search_page(&database, search_query("missing"))).await;
+	assert!(html.contains("No matches"));
+	let (_, navigation) = html.split_once("<nav class='initial-filter'").unwrap();
+	let (navigation, _) = navigation.split_once("</nav>").unwrap();
+	assert_eq!(navigation.matches("<a ").count(), 1);
+	assert!(navigation.contains(">All</a>"));
 }
 
 #[test]
@@ -850,6 +980,10 @@ async fn handles_invalid_queries_and_missing_identities() {
 	let database = sample_database();
 	for uri in ["/?page=0", "/?channel=unknown", &format!("/?q={}", "x".repeat(101))] {
 		let Query(search) = Query::<SearchQuery>::try_from_uri(&uri.parse().unwrap()).unwrap();
+		assert_eq!(search_page(&database, search).status(), StatusCode::BAD_REQUEST);
+	}
+	for initial in ["a", "AA", "1", "%", "É", "' OR 1=1 --"] {
+		let search = SearchQuery { initial: initial.to_owned(), ..search_query("") };
 		assert_eq!(search_page(&database, search).status(), StatusCode::BAD_REQUEST);
 	}
 	for uri in ["/?page=-1", "/?page=abc", "/?page=4294967296"] {

@@ -24,6 +24,7 @@ use crate::release::SQLITE_SCHEMA_VERSION;
 
 const SEARCH_PAGE_SIZE: u64 = 30;
 const SEARCH_RELATED_NAME_LIMIT: u64 = 3;
+const SEARCH_INITIALS: &str = "#ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const MAX_QUERY_CHARACTERS: usize = 100;
 
 /* Discovery folds ASCII case; grouping and detail lookups preserve exact identities. */
@@ -51,6 +52,10 @@ const SEARCH_MATCHES: &str = "WITH matching_names AS (
 	FROM ranked_names JOIN best_ranks USING (name, match_rank)
 	GROUP BY name, match_rank
 )";
+
+const SEARCH_INITIAL_FILTER: &str = "WHERE ?3 = ''
+	OR (?3 = '#' AND substr(name, 1, 1) NOT GLOB '[a-zA-Z]')
+	OR upper(substr(name, 1, 1)) = ?3";
 
 pub async fn serve(database_path: &Path, address: SocketAddr) -> Result<()> {
 	let database = Arc::new(Database::open(database_path)?);
@@ -143,24 +148,30 @@ impl Database {
 	fn search(&self, search: &SearchQuery) -> Result<SearchResults> {
 		let connection = self.connection()?;
 		let query = search.query();
-		let parameters = params![query, search.channel];
-		let total: u64 =
-			connection
-				.query_row(&format!("{SEARCH_MATCHES} SELECT count(*) FROM matches"), parameters, |row| row.get(0))?;
+		let parameters = params![query, search.channel, search.initial];
+		let total: u64 = connection.query_row(
+			&format!("{SEARCH_MATCHES} SELECT count(*) FROM matches {SEARCH_INITIAL_FILTER}"),
+			parameters,
+			|row| row.get(0),
+		)?;
 		let mut statement = connection.prepare(&format!(
-			"{SEARCH_MATCHES} SELECT name FROM matches
+			"{SEARCH_MATCHES} SELECT name FROM matches {SEARCH_INITIAL_FILTER}
 			 ORDER BY match_rank, CASE WHEN ?1 != '' THEN match_length END, name
-			 LIMIT ?3 OFFSET ?4"
+			 LIMIT ?4 OFFSET ?5"
 		))?;
 		let offset = u64::from(search.page.saturating_sub(1)) * SEARCH_PAGE_SIZE;
 		/* Page identities before reading related rows so a group never crosses a page boundary. */
 		let names = statement
-			.query_map(params![query, search.channel, SEARCH_PAGE_SIZE, offset], |row| row.get::<_, String>(0))?;
+			.query_map(params![query, search.channel, search.initial, SEARCH_PAGE_SIZE, offset], |row| {
+				row.get::<_, String>(0)
+			})?;
 		let rows = names
 			.map(|name| read_search_result(&connection, name?, search))
 			.collect::<Result<Vec<_>>>()?;
 		let end = offset + rows.len() as u64;
+		let initial_links = search.initial_links(read_search_initials(&connection, search)?);
 		Ok(SearchResults {
+			initial_links,
 			start: if rows.is_empty() { 0 } else { offset + 1 },
 			end,
 			total,
@@ -312,6 +323,7 @@ struct ChannelStats {
 #[derive(Serialize)]
 struct SearchResults {
 	rows: Vec<SearchResult>,
+	initial_links: Vec<InitialFilterLink>,
 	total: u64,
 	start: u64,
 	end: u64,
@@ -329,6 +341,18 @@ struct SearchResult {
 struct SearchRelation {
 	name: String,
 	channels: Vec<String>,
+}
+
+fn read_search_initials(connection: &Connection, search: &SearchQuery) -> Result<Vec<String>> {
+	/* Derive available initials from all query/channel matches, before initial filtering and pagination. */
+	let mut statement = connection.prepare(&format!(
+		"{SEARCH_MATCHES}
+		 SELECT DISTINCT CASE WHEN substr(name, 1, 1) GLOB '[a-zA-Z]'
+			THEN upper(substr(name, 1, 1)) ELSE '#' END AS initial
+		 FROM matching_names ORDER BY initial"
+	))?;
+	let initials = statement.query_map(params![search.query(), search.channel], |row| row.get(0))?;
+	Ok(initials.collect::<rusqlite::Result<_>>()?)
 }
 
 fn read_search_result(connection: &Connection, name: String, search: &SearchQuery) -> Result<SearchResult> {
@@ -495,8 +519,17 @@ struct SearchQuery {
 	q: Option<String>,
 	#[serde(default)]
 	channel: String,
+	#[serde(default)]
+	initial: String,
 	#[serde(default = "first_page")]
 	page: u32,
+}
+
+#[derive(Serialize)]
+struct InitialFilterLink {
+	label: String,
+	url: String,
+	is_current: bool,
 }
 
 fn first_page() -> u32 {
@@ -508,8 +541,32 @@ impl SearchQuery {
 		self.q.as_deref().unwrap_or_default().trim()
 	}
 
+	fn has_valid_initial(&self) -> bool {
+		self.initial.is_empty() || (self.initial.len() == 1 && SEARCH_INITIALS.contains(self.initial.as_str()))
+	}
+
 	fn page_url(&self, page: u32) -> String {
-		format!("/?q={}&channel={}&page={page}", encode_path_segment(self.query()), encode_path_segment(&self.channel))
+		self.url(&self.initial, page)
+	}
+
+	fn url(&self, initial: &str, page: u32) -> String {
+		format!(
+			"/?q={}&channel={}&initial={}&page={page}",
+			encode_path_segment(self.query()),
+			encode_path_segment(&self.channel),
+			encode_path_segment(initial),
+		)
+	}
+
+	fn initial_links(&self, initials: impl IntoIterator<Item = String>) -> Vec<InitialFilterLink> {
+		std::iter::once(String::new())
+			.chain(initials)
+			.map(|initial| InitialFilterLink {
+				label: if initial.is_empty() { "All".to_owned() } else { initial.clone() },
+				url: self.url(&initial, 1),
+				is_current: initial == self.initial,
+			})
+			.collect()
 	}
 }
 
@@ -529,15 +586,18 @@ async fn home(State(database): State<Arc<Database>>, search: Result<Query<Search
 }
 
 fn search_page(database: &Database, search: SearchQuery) -> Response {
-	if search.page == 0 || (!search.channel.is_empty() && !CHANNELS.contains(&search.channel.as_str())) {
+	if search.page == 0
+		|| (!search.channel.is_empty() && !CHANNELS.contains(&search.channel.as_str()))
+		|| !search.has_valid_initial()
+	{
 		return error_response(
 			database,
 			StatusCode::BAD_REQUEST,
 			"Invalid search",
-			"Check the channel and page number, or start a new search.",
+			"Check the initial, channel, and page number, or start a new search.",
 		);
 	}
-	if search.q.is_none() && search.channel.is_empty() && search.page == 1 {
+	if search.q.is_none() && search.channel.is_empty() && search.initial.is_empty() && search.page == 1 {
 		return render_response(
 			database,
 			StatusCode::OK,
@@ -564,7 +624,7 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			"search.html",
 			&if query.is_empty() { "Browse".to_owned() } else { format!("Search: {query}") },
 			context! {
-				query, results, channel => search.channel,
+				query, results, channel => &search.channel, initial => &search.initial,
 				related_name_limit => SEARCH_RELATED_NAME_LIMIT,
 			},
 		),

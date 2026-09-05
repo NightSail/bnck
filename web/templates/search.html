@@ -24,7 +24,7 @@
 {% block content %}
 <section class='page-heading search-heading'>
 	<h1>{% if page.query %}Search results{% else %}Browse{% endif %}</h1>
-	{{ search_form(page.query, page.channel) }}
+	{{ search_form(page.query, page.channel, page.initial) }}
 	<p class='search-hint' id='search-hint'>Leave blank to browse.</p>
 </section>
 <div class='content-layout'>
@@ -34,7 +34,7 @@
 				{{ count_label(page.results.total, 'matching project', 'matching projects') }}
 				{% if page.query %}for <code>“{{ page.query }}”</code>{% endif %}
 			</h2>
-			{% if page.query or page.channel %}
+			{% if page.query or page.channel or page.initial %}
 			<a class='text-link' href='/?q='>Reset search</a>
 			{% endif %}
 		</div>
@@ -42,6 +42,12 @@
 		<p class='filter-notice'>Showing matches in <strong>{{ page.channel | channel_label }}</strong>.
 			Open a result for all listed channels.</p>
 		{% endif %}
+		<nav class='initial-filter' aria-label='Filter projects by initial'>
+			{% for link in page.results.initial_links %}
+			<a href='{{ link.url }}'{% if link.is_current %} aria-current='true'{% endif %}
+				{% if link.label == '#' %} aria-label='Numbers and symbols'{% endif %}>{{ link.label }}</a>
+			{% endfor %}
+		</nav>
 		{% if page.results.rows %}
 		<ul class='name-results' role='list' aria-label='Matching projects'>
 			{% for result in page.results.rows %}

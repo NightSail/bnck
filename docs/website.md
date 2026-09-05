@@ -30,6 +30,7 @@ Search uses GET requests to `/` so results can be bookmarked and shared.
 | --- | --- | --- |
 | `q` | Literal substring of an executable name or project ID; at most 100 Unicode characters after trimming surrounding whitespace | Absent shows the home page; empty browses the index |
 | `channel` | A supported channel key, or empty for all channels | Empty |
+| `initial` | `A`–`Z` for the first character of the project ID, or `#` for numbers and symbols | Empty shows all initials |
 | `page` | Positive page number | `1` |
 
 Search folds ASCII letter case, but does not normalize Unicode or interpret wildcards. Matches rank by exact spelling, case-insensitive equality, prefix, then other substring matches. Shorter matching names rank first within each class. Each project ranks by its best matching project ID or executable name, breaking ties by project ID. Empty-name browsing sorts by project ID.
@@ -41,6 +42,8 @@ Results use a minimal grouped layout without column headers, type labels, arrows
 Matching substrings in project and executable names are highlighted with semantic `mark` elements, preserving original spelling and HTML escaping. Highlighting uses the same literal, ASCII-case-insensitive matching as search, including repeated occurrences. Empty queries do not produce highlights.
 
 Each group previews up to three executable rows. Additional rows use the same format inside a native “N more executables” disclosure that works without JavaScript. Executables are ordered by match quality and then length and spelling, with nonmatches last; exact executable matches remain in the preview even for large projects. Empty-name browsing orders executable rows by exact name.
+
+An initial filter above the results offers “All” and only the initials present in projects matching the current query and channel. Letters are shown as A–Z; `#` groups names starting with numbers or symbols. Available initials are computed before initial filtering and pagination, so selecting one does not hide the other choices. Selecting an initial preserves the query and channel and starts at page one; “All” clears only the initial filter. Refining the query preserves the selected initial.
 
 Each page contains at most 30 projects. Totals count matching projects across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
 
