@@ -23,21 +23,18 @@ use crate::model::{CHANNELS, Provider};
 use crate::release::SQLITE_SCHEMA_VERSION;
 
 const SEARCH_PAGE_SIZE: u64 = 30;
+const SEARCH_RELATED_NAME_LIMIT: u64 = 3;
 const MAX_QUERY_CHARACTERS: usize = 100;
 
 /* Discovery folds ASCII case; grouping and detail lookups preserve exact identities. */
 const SEARCH_MATCHES: &str = "WITH matches AS (
-	SELECT executable AS name, 'executable' AS kind, count(*) AS provider_count,
-		count(DISTINCT project) AS related_count, count(DISTINCT channel) AS channel_count
+	SELECT executable AS name
 	FROM providers
 	WHERE ?3 != 'project' AND instr(lower(executable), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
-	GROUP BY executable
-	UNION ALL
-	SELECT project AS name, 'project' AS kind, count(*) AS provider_count,
-		count(DISTINCT executable) AS related_count, count(DISTINCT channel) AS channel_count
+	UNION
+	SELECT project AS name
 	FROM providers
 	WHERE ?3 != 'executable' AND instr(lower(project), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
-	GROUP BY project
 )";
 
 pub async fn serve(database_path: &Path, address: SocketAddr) -> Result<()> {
@@ -136,29 +133,24 @@ impl Database {
 			connection
 				.query_row(&format!("{SEARCH_MATCHES} SELECT count(*) FROM matches"), parameters, |row| row.get(0))?;
 		let mut statement = connection.prepare(&format!(
-			"{SEARCH_MATCHES} SELECT name, kind, provider_count, related_count, channel_count FROM matches
+			"{SEARCH_MATCHES} SELECT name FROM matches
 			 ORDER BY CASE
 				WHEN name = ?1 THEN 0
 				WHEN lower(name) = lower(?1) THEN 1
 				WHEN instr(lower(name), lower(?1)) = 1 THEN 2
 				ELSE 3
-			 END, CASE WHEN ?1 != '' THEN length(name) END, name, kind
+			 END, CASE WHEN ?1 != '' THEN length(name) END, name
 			 LIMIT ?4 OFFSET ?5"
 		))?;
 		let offset = u64::from(search.page.saturating_sub(1)) * SEARCH_PAGE_SIZE;
-		let rows = statement.query_map(
-			params![query, search.channel, search.kind.as_str(), SEARCH_PAGE_SIZE, offset],
-			|row| {
-				Ok(SearchResult {
-					name: row.get(0)?,
-					kind: row.get(1)?,
-					provider_count: row.get(2)?,
-					related_count: row.get(3)?,
-					channel_count: row.get(4)?,
-				})
-			},
-		)?;
-		let rows: Vec<SearchResult> = rows.collect::<rusqlite::Result<_>>()?;
+		/* Page exact names first so the two identity views can never cross a page boundary. */
+		let names = statement
+			.query_map(params![query, search.channel, search.kind.as_str(), SEARCH_PAGE_SIZE, offset], |row| {
+				row.get::<_, String>(0)
+			})?;
+		let rows = names
+			.map(|name| read_search_result(&connection, name?, search))
+			.collect::<Result<Vec<_>>>()?;
 		let end = offset + rows.len() as u64;
 		Ok(SearchResults {
 			start: if rows.is_empty() { 0 } else { offset + 1 },
@@ -323,10 +315,123 @@ struct SearchResults {
 #[derive(Serialize)]
 struct SearchResult {
 	name: String,
-	kind: String,
+	identities: Vec<SearchIdentity>,
+	synonymous_project: Option<SynonymousProjectSummary>,
+}
+
+#[derive(Serialize)]
+struct SynonymousProjectSummary {
+	other_executable_count: u64,
+	other_executables: Vec<String>,
+}
+
+#[derive(Clone, Copy, Serialize)]
+#[serde(rename_all = "lowercase")]
+enum IdentityKind {
+	Executable,
+	Project,
+}
+
+impl IdentityKind {
+	fn columns(self) -> (&'static str, &'static str) {
+		match self {
+			Self::Executable => ("executable", "project"),
+			Self::Project => ("project", "executable"),
+		}
+	}
+}
+
+#[derive(Serialize)]
+struct SearchIdentity {
+	kind: IdentityKind,
 	provider_count: u64,
 	related_count: u64,
 	channel_count: u64,
+	related_names: Vec<String>,
+}
+
+fn read_search_result(connection: &Connection, name: String, search: &SearchQuery) -> Result<SearchResult> {
+	let kinds: &[IdentityKind] = match search.kind {
+		SearchKind::All => &[IdentityKind::Executable, IdentityKind::Project],
+		SearchKind::Executable => &[IdentityKind::Executable],
+		SearchKind::Project => &[IdentityKind::Project],
+	};
+	let mut identities = Vec::new();
+	for &kind in kinds {
+		if let Some(identity) = read_search_identity(connection, &name, kind, &search.channel)? {
+			identities.push(identity);
+		}
+	}
+	let synonymous_project = read_synonymous_project_summary(connection, &name, &identities, &search.channel)?;
+	Ok(SearchResult { name, identities, synonymous_project })
+}
+
+fn read_search_identity(
+	connection: &Connection,
+	name: &str,
+	kind: IdentityKind,
+	channel: &str,
+) -> Result<Option<SearchIdentity>> {
+	/* Column names come only from the identity enum; dataset and search values remain bound parameters. */
+	let (column, related_column) = kind.columns();
+	let predicate = format!("FROM providers WHERE {column} = ?1 AND (?2 = '' OR channel = ?2)");
+	let mut statement = connection.prepare_cached(&format!(
+		"SELECT count(*), count(DISTINCT {related_column}), count(DISTINCT channel) {predicate}"
+	))?;
+	let mut identity = statement.query_row(params![name, channel], |row| {
+		Ok(SearchIdentity {
+			kind,
+			provider_count: row.get(0)?,
+			related_count: row.get(1)?,
+			channel_count: row.get(2)?,
+			related_names: Vec::new(),
+		})
+	})?;
+	if identity.provider_count == 0 {
+		return Ok(None);
+	}
+	if identity.related_count <= SEARCH_RELATED_NAME_LIMIT {
+		let mut statement = connection
+			.prepare_cached(&format!("SELECT DISTINCT {related_column} {predicate} ORDER BY {related_column}"))?;
+		identity.related_names = statement
+			.query_map(params![name, channel], |row| row.get(0))?
+			.collect::<rusqlite::Result<_>>()?;
+	}
+	Ok(Some(identity))
+}
+
+fn read_synonymous_project_summary(
+	connection: &Connection,
+	name: &str,
+	identities: &[SearchIdentity],
+	channel: &str,
+) -> Result<Option<SynonymousProjectSummary>> {
+	let [executable, project] = identities else {
+		return Ok(None);
+	};
+	if executable.related_names != [name] {
+		return Ok(None);
+	}
+	/* Extra executables are allowed, but a channel filter must not hide competing projects for this name. */
+	let mut statement =
+		connection.prepare_cached("SELECT EXISTS(SELECT 1 FROM providers WHERE executable = ?1 AND project != ?1)")?;
+	let has_other_projects: bool = statement.query_row([name], |row| row.get(0))?;
+	if has_other_projects {
+		return Ok(None);
+	}
+	let other_executable_count = project.related_count - 1;
+	let mut other_executables = Vec::new();
+	if (1..=SEARCH_RELATED_NAME_LIMIT).contains(&other_executable_count) {
+		let mut statement = connection.prepare_cached(
+			"SELECT DISTINCT executable FROM providers
+			 WHERE project = ?1 AND executable != ?1 AND (?2 = '' OR channel = ?2)
+			 ORDER BY executable",
+		)?;
+		other_executables = statement
+			.query_map(params![name, channel], |row| row.get(0))?
+			.collect::<rusqlite::Result<_>>()?;
+	}
+	Ok(Some(SynonymousProjectSummary { other_executable_count, other_executables }))
 }
 
 struct ProjectProvider {

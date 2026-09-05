@@ -1,5 +1,38 @@
 {% extends 'base.html' %}
 {% from 'components.html' import search_form, snapshot_note, count_label with context %}
+{% macro related_name_links(names, kind) %}
+	{% for name in names %}
+	<a class='related-name' href='/{{ kind }}s/{{ name | path_segment }}'>
+		<code>{{ name }}</code></a>{% if not loop.last %}, {% endif %}
+	{% endfor %}
+{% endmacro %}
+
+{% macro search_relationship(identity) %}
+	{{ 'Provided by' if identity.kind == 'executable' else 'Provides' }}
+	{% if identity.related_names %}
+		{% set related_kind = 'project' if identity.kind == 'executable' else 'executable' %}
+		{{ related_name_links(identity.related_names, related_kind) }}
+	{% elif identity.kind == 'executable' %}
+		{{ count_label(identity.related_count, 'project', 'projects') }}
+	{% else %}
+		{{ count_label(identity.related_count, 'executable', 'executables') }}
+	{% endif %}
+{% endmacro %}
+
+{% macro search_counts(identity) %}
+	{{ count_label(identity.channel_count, 'channel', 'channels') }}
+	<span class='provider-count'>
+		· {{ count_label(identity.provider_count, 'provider record', 'provider records') }}
+	</span>
+{% endmacro %}
+
+{% macro identity_link(name, kind) %}
+	<a class='text-link' href='/{{ kind }}s/{{ name | path_segment }}'>
+		{{ 'Executable providers' if kind == 'executable' else 'Project details' }}
+		<span class='visually-hidden'> for {{ name }}</span><span aria-hidden='true'> →</span>
+	</a>
+{% endmacro %}
+
 {% block content %}
 <section class='page-heading search-heading'>
 	<h1>{% if page.query %}Search results{% else %}Browse{% endif %}</h1>
@@ -10,7 +43,7 @@
 	<section class='search-results' aria-labelledby='results-title'>
 		<div class='results-heading'>
 			<h2 id='results-title'>
-				{{ count_label(page.results.total, 'match', 'matches') }}
+				{{ count_label(page.results.total, 'matching name', 'matching names') }}
 				{% if page.query %}for <code>“{{ page.query }}”</code>{% endif %}
 			</h2>
 			{% if page.query or page.channel or page.kind != 'all' %}
@@ -22,41 +55,80 @@
 			Open a result for all listed channels.</p>
 		{% endif %}
 		{% if page.results.rows %}
+		{% if page.kind == 'all' %}
+		<ul class='name-results' role='list' aria-label='Matching names'>
+			{% for result in page.results.rows %}
+			<li>
+				<article class='name-result' aria-labelledby='result-{{ loop.index }}'>
+					<header class='name-result-heading'>
+						<h3 id='result-{{ loop.index }}'><code>{{ result.name }}</code></h3>
+						{% if result.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
+					</header>
+					{% if result.synonymous_project %}
+					<p class='result-summary'>Project with synonymous executable ·
+						{{ search_counts(result.identities[1]) }}</p>
+					{% if result.synonymous_project.other_executable_count %}
+					<p class='result-relationship'>Other executables:
+						{% if result.synonymous_project.other_executables %}
+						{{ related_name_links(result.synonymous_project.other_executables, 'executable') }}
+						{% else %}{{ result.synonymous_project.other_executable_count | number }}{% endif %}
+					</p>
+					{% endif %}
+					<div class='result-actions'>
+						{{ identity_link(result.name, 'executable') }}
+						{{ identity_link(result.name, 'project') }}
+					</div>
+					{% else %}
+					{% for identity in result.identities %}
+					<div class='identity-summary'>
+						<h4>{{ identity.kind | capitalize }}</h4>
+						<div>
+							<p class='result-relationship'>{{ search_relationship(identity) }}</p>
+							<p class='result-summary'>{{ search_counts(identity) }}</p>
+							{{ identity_link(result.name, identity.kind) }}
+						</div>
+					</div>
+					{% endfor %}
+					{% endif %}
+				</article>
+			</li>
+			{% endfor %}
+		</ul>
+		{% else %}
 		<table class='results-table'>
-			<caption class='visually-hidden'>Matching executable names and project IDs</caption>
+			<caption class='visually-hidden'>
+				Matching {{ 'executable names' if page.kind == 'executable' else 'project IDs' }}
+			</caption>
 			<thead>
 				<tr>
 					<th scope='col'>Name</th>
-					<th scope='col'>{{ 'Projects' if page.kind == 'executable' else
-						'Executables' if page.kind == 'project' else 'Projects / Executables' }}</th>
+					<th scope='col'>{{ 'Projects' if page.kind == 'executable' else 'Executables' }}</th>
 					<th scope='col'>Provider records</th>
 				</tr>
 			</thead>
 			<tbody>
 				{% for result in page.results.rows %}
+				{% set identity = result.identities[0] %}
 				<tr>
 					<th scope='row'>
-						<a class='result-name' href='/{{ result.kind }}s/{{ result.name | path_segment }}'>
+						<a class='result-name' href='/{{ identity.kind }}s/{{ result.name | path_segment }}'>
 							<code>{{ result.name }}</code><span aria-hidden='true'>↗</span>
 						</a>
 						<span class='result-type'>
-							{{ result.kind }}
+							{{ identity.kind }}
 							{% if result.name == page.query %}<span class='exact-badge'>Exact match</span>{% endif %}
 						</span>
 					</th>
+					<td>{{ search_relationship(identity) }}</td>
 					<td>
-						{% if result.kind == 'executable' %}
-						{{ count_label(result.related_count, 'project', 'projects') }}
-						{% else %}{{ count_label(result.related_count, 'executable', 'executables') }}{% endif %}
-					</td>
-					<td>
-						<span>{{ result.provider_count | number }}</span>
-						<span class='cell-note'>{{ count_label(result.channel_count, 'channel', 'channels') }}</span>
+						<span>{{ identity.provider_count | number }}</span>
+						<span class='cell-note'>{{ count_label(identity.channel_count, 'channel', 'channels') }}</span>
 					</td>
 				</tr>
 				{% endfor %}
 			</tbody>
 		</table>
+		{% endif %}
 		<nav class='pagination' aria-label='Result pages'>
 			<span>
 				{{ page.results.start | number }}–{{ page.results.end | number }} of {{ page.results.total | number }}
@@ -80,6 +152,10 @@
 			<h2>Search notes</h2>
 			<p>Matches parts of executable names and project IDs, not package names.</p>
 			<p>ASCII case is ignored. Exact matches appear first.</p>
+			{% if page.kind == 'all' %}
+			<p>A project and its same-name executable share a summary when no other project provides that name
+				in this dataset. Counts describe the project; its other executables are listed separately.</p>
+			{% endif %}
 		</section>
 		{{ snapshot_note() }}
 	</aside>

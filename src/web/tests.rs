@@ -27,6 +27,19 @@ const RECORDS: &[(&str, &str, &str, &str)] = &[
 	("escaping", "<tool>&'", "npm", "@scope/escaping"),
 ];
 
+const SHARED_RECORDS: &[(&str, &str, &str, &str)] = &[
+	("eslint", "eslint", "debian", "eslint"),
+	("eslint", "eslint", "npm", "eslint"),
+	("eslint", "eslint", "npm", "eslint-alias"),
+	("eslint", "eslint", "homebrew", "homebrew/core/eslint"),
+];
+
+const AERC_RECORDS: &[(&str, &str, &str, &str)] = &[
+	("aerc", "aerc", "debian", "aerc"),
+	("aerc", "carddav-query", "debian", "aerc"),
+	("aerc", "carddav-query", "homebrew", "homebrew/core/aerc"),
+];
+
 pub(super) fn search_query(query: &str) -> SearchQuery {
 	SearchQuery { q: Some(query.to_owned()), kind: SearchKind::All, channel: String::new(), page: 1 }
 }
@@ -79,14 +92,25 @@ async fn response_text(response: Response) -> String {
 }
 
 #[test]
-fn search_preserves_identities_and_ranks_exact_matches_first() {
+fn search_groups_exact_names_and_ranks_exact_matches_first() {
 	let database = sample_database();
 	let results = database.search(&search_query("hx")).unwrap();
-	let names: Vec<_> = results.rows.iter().map(|row| (row.name.as_str(), row.kind.as_str())).collect();
-	assert_eq!(names, [("hx", "executable"), ("hx", "project"), ("HX", "executable"), ("hx-admin", "executable")]);
-	assert_eq!(results.rows[0].provider_count, 3);
-	assert_eq!(results.rows[0].related_count, 2);
-	assert_eq!(results.rows[0].channel_count, 3);
+	let names: Vec<_> = results.rows.iter().map(|row| row.name.as_str()).collect();
+	assert_eq!(names, ["hx", "HX", "hx-admin"]);
+	assert_eq!(results.total, 3);
+	let group = &results.rows[0];
+	assert_eq!(group.identities.len(), 2);
+	assert!(group.synonymous_project.is_none());
+	let executable = &group.identities[0];
+	assert!(matches!(executable.kind, super::IdentityKind::Executable));
+	assert_eq!(executable.provider_count, 3);
+	assert_eq!(executable.related_count, 2);
+	assert_eq!(executable.channel_count, 3);
+	assert_eq!(executable.related_names, ["helix", "other"]);
+	let project = &group.identities[1];
+	assert!(matches!(project.kind, super::IdentityKind::Project));
+	assert_eq!(project.related_names, ["hx-admin"]);
+	assert_eq!(project.channel_count, 1);
 	assert_eq!(database.search(&search_query("HX")).unwrap().rows[0].name, "HX");
 	assert_eq!(database.executable_providers("HX").unwrap().len(), 1);
 	assert_eq!(database.executable_providers("hx").unwrap().len(), 3);
@@ -102,15 +126,19 @@ fn channel_and_kind_filters_count_only_matching_relations() {
 	search.channel = "npm".to_owned();
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 1);
-	assert_eq!(results.rows[0].provider_count, 1);
-	assert_eq!(results.rows[0].related_count, 1);
-	assert_eq!(results.rows[0].channel_count, 1);
+	assert_eq!(results.rows[0].identities.len(), 1);
+	let identity = &results.rows[0].identities[0];
+	assert_eq!(identity.provider_count, 1);
+	assert_eq!(identity.related_count, 1);
+	assert_eq!(identity.channel_count, 1);
+	assert_eq!(identity.related_names, ["other"]);
 	search.kind = SearchKind::Project;
 	assert_eq!(database.search(&search).unwrap().total, 0);
 	search.channel = "debian".to_owned();
 	let results = database.search(&search).unwrap();
 	assert_eq!(results.total, 1);
-	assert_eq!(results.rows[0].kind, "project");
+	assert_eq!(results.rows[0].identities.len(), 1);
+	assert!(matches!(results.rows[0].identities[0].kind, super::IdentityKind::Project));
 	assert_eq!(
 		database
 			.channels
@@ -120,6 +148,100 @@ fn channel_and_kind_filters_count_only_matching_relations() {
 			.packages,
 		3
 	);
+}
+
+#[test]
+fn synonymous_summaries_keep_counts_filtered_without_double_counting() {
+	let database = fixture(SHARED_RECORDS.iter().copied().map(provider));
+	let mut search = search_query("eslint");
+	for (channel, providers, channels) in [("", 4, 3), ("npm", 2, 1)] {
+		search.channel = channel.to_owned();
+		let results = database.search(&search).unwrap();
+		assert_eq!((results.total, results.start, results.end), (1, 1, 1));
+		let group = &results.rows[0];
+		let summary = group.synonymous_project.as_ref().unwrap();
+		assert_eq!(summary.other_executable_count, 0);
+		assert!(summary.other_executables.is_empty());
+		assert_eq!(group.identities.len(), 2);
+		for identity in &group.identities {
+			assert_eq!(identity.provider_count, providers);
+			assert_eq!(identity.channel_count, channels);
+			assert_eq!(identity.related_count, 1);
+			assert_eq!(identity.related_names, ["eslint"]);
+		}
+	}
+	search.kind = SearchKind::Project;
+	let results = database.search(&search).unwrap();
+	assert_eq!(results.rows[0].identities.len(), 1);
+	assert!(results.rows[0].synonymous_project.is_none());
+}
+
+#[test]
+fn channel_filters_do_not_hide_competing_projects_in_synonymous_summaries() {
+	let records = SHARED_RECORDS.iter().copied().chain([("other", "eslint", "debian", "other")]);
+	let database = fixture(records.map(provider));
+	for channel in ["", "npm"] {
+		let mut search = search_query("eslint");
+		search.channel = channel.to_owned();
+		let results = database.search(&search).unwrap();
+		assert_eq!(results.total, 1);
+		let group = &results.rows[0];
+		assert_eq!(group.identities.len(), 2);
+		assert!(group.synonymous_project.is_none());
+	}
+}
+
+#[test]
+fn other_executables_do_not_prevent_synonymous_summaries_and_respect_channel_filters() {
+	let records = SHARED_RECORDS
+		.iter()
+		.copied()
+		.chain([("eslint", "eslint-helper", "debian", "eslint")]);
+	let database = fixture(records.map(provider));
+	for (channel, count) in [("", 1), ("npm", 0)] {
+		let mut search = search_query("eslint");
+		search.channel = channel.to_owned();
+		let results = database.search(&search).unwrap();
+		let summary = results.rows[0].synonymous_project.as_ref().unwrap();
+		assert_eq!(summary.other_executable_count, count);
+		assert_eq!(summary.other_executables.len() as u64, count);
+		if count > 0 {
+			assert_eq!(summary.other_executables, ["eslint-helper"]);
+			assert_eq!(results.rows[1].name, "eslint-helper");
+		}
+	}
+}
+
+#[test]
+fn identical_counts_and_spelling_do_not_establish_a_synonymous_relationship() {
+	let database = fixture(
+		[("collision", "different", "npm", "collision"), ("other", "collision", "npm", "other")]
+			.into_iter()
+			.map(provider),
+	);
+	let results = database.search(&search_query("collision")).unwrap();
+	assert_eq!(results.total, 1);
+	let group = &results.rows[0];
+	assert_eq!(group.identities.len(), 2);
+	assert!(group.synonymous_project.is_none());
+	assert_eq!(group.identities[0].related_names, ["other"]);
+	assert_eq!(group.identities[1].related_names, ["different"]);
+}
+
+#[test]
+fn case_variants_remain_separate_name_groups() {
+	let database = fixture(
+		[("tool", "tool", "npm", "tool"), ("upper", "Tool", "debian", "upper")]
+			.into_iter()
+			.map(provider),
+	);
+	let results = database.search(&search_query("tool")).unwrap();
+	assert_eq!(results.total, 2);
+	assert_eq!(results.rows[0].name, "tool");
+	assert_eq!(results.rows[1].name, "Tool");
+	assert!(results.rows[0].synonymous_project.is_some());
+	assert_eq!(results.rows[1].identities.len(), 1);
+	assert!(results.rows[1].synonymous_project.is_none());
 }
 
 #[test]
@@ -157,6 +279,42 @@ fn browse_paginates_every_result_without_duplicates() {
 			assert!(parsed.kind == SearchKind::Executable);
 		}
 		for row in results.rows {
+			assert!(names.insert(row.name));
+		}
+	}
+	assert_eq!(names.len(), 68);
+	search.page = 4;
+	assert_eq!(search_page(&database, search).status(), StatusCode::NOT_FOUND);
+}
+
+#[test]
+fn all_types_paginates_name_groups_without_splitting_identity_views() {
+	let database = fixture((0..68).map(|index| {
+		let name = format!("tool-{index:03}");
+		provider((&name, &name, "debian", &name))
+	}));
+	let mut search = search_query("tool");
+	search.channel = "debian".to_owned();
+	let mut names = BTreeSet::new();
+	for page in 1..=3 {
+		search.page = page;
+		let results = database.search(&search).unwrap();
+		assert_eq!(results.total, 68);
+		assert_eq!(results.rows.len(), if page < 3 { 30 } else { 8 });
+		assert_eq!(results.start, u64::from(page - 1) * SEARCH_PAGE_SIZE + 1);
+		assert_eq!(results.end, (u64::from(page) * SEARCH_PAGE_SIZE).min(68));
+		assert_eq!(results.previous.is_some(), page > 1);
+		assert_eq!(results.next.is_some(), page < 3);
+		if let Some(next) = results.next {
+			let Query(parsed) = Query::<SearchQuery>::try_from_uri(&next.parse().unwrap()).unwrap();
+			assert_eq!(parsed.page, page + 1);
+			assert_eq!(parsed.query(), "tool");
+			assert_eq!(parsed.channel, "debian");
+			assert!(parsed.kind == SearchKind::All);
+		}
+		for row in results.rows {
+			assert_eq!(row.identities.len(), 2);
+			assert!(row.synonymous_project.is_some());
 			assert!(names.insert(row.name));
 		}
 	}
@@ -213,6 +371,178 @@ async fn renders_detail_ambiguity_and_escapes_dataset_names() {
 	let html = response_text(project_page(&database, "helix")).await;
 	assert!(html.contains("No project links listed."));
 	assert!(!html.contains("class='ambiguity-note'"));
+}
+
+#[tokio::test]
+async fn renders_synonymous_summary_once_with_two_explicit_destinations() {
+	let database = fixture(SHARED_RECORDS.iter().copied().map(provider));
+	let html = response_text(search_page(&database, search_query("eslint"))).await;
+	assert_eq!(html.matches("class='name-result'").count(), 1);
+	assert_eq!(html.matches("<code>eslint</code>").count(), 1);
+	assert_eq!(html.matches("Project with synonymous executable").count(), 1);
+	assert!(!html.contains("Executable and project"));
+	assert!(!html.contains("Other executables:"));
+	assert_eq!(html.matches("3 channels").count(), 1);
+	assert_eq!(html.matches("4 provider records").count(), 1);
+	assert_eq!(html.matches("href='/executables/eslint'").count(), 1);
+	assert_eq!(html.matches("href='/projects/eslint'").count(), 1);
+	assert!(html.contains("Executable providers"));
+	assert!(html.contains("Project details"));
+	assert!(html.contains("1 matching name"));
+	assert!(!html.contains("class='results-table'"));
+	assert!(!html.contains("class='identity-summary'"));
+	for kind in [SearchKind::Executable, SearchKind::Project] {
+		let mut search = search_query("eslint");
+		search.kind = kind;
+		let html = response_text(search_page(&database, search)).await;
+		assert!(html.contains("class='results-table'"));
+		assert!(!html.contains("class='name-result'"));
+		assert!(!html.contains("Project with synonymous executable"));
+		assert!(html.contains("class='related-name'"));
+	}
+}
+
+#[tokio::test]
+async fn synonymous_project_lists_other_executables_separately_and_uses_project_counts() {
+	let database = fixture(AERC_RECORDS.iter().copied().map(provider));
+	for (channel, providers, channels) in [("", 3, 2), ("debian", 2, 1)] {
+		let mut search = search_query("aerc");
+		search.channel = channel.to_owned();
+		let results = database.search(&search).unwrap();
+		assert_eq!(results.total, 1);
+		let group = &results.rows[0];
+		let summary = group.synonymous_project.as_ref().unwrap();
+		assert_eq!(summary.other_executable_count, 1);
+		assert_eq!(summary.other_executables, ["carddav-query"]);
+		assert_eq!(group.identities[0].provider_count, 1);
+		assert_eq!(group.identities[1].provider_count, providers);
+		assert_eq!(group.identities[1].channel_count, channels);
+		let html = response_text(search_page(&database, search)).await;
+		assert_eq!(html.matches("class='name-result'").count(), 1);
+		assert_eq!(html.matches("<code>aerc</code>").count(), 1);
+		assert_eq!(html.matches("Project with synonymous executable").count(), 1);
+		assert_eq!(html.matches("Other executables:").count(), 1);
+		assert_eq!(html.matches("href='/executables/carddav-query'").count(), 1);
+		assert_eq!(html.matches("href='/executables/aerc'").count(), 1);
+		assert_eq!(html.matches("href='/projects/aerc'").count(), 1);
+		assert!(html.contains(&format!("{providers} provider records")));
+		assert!(!html.contains("1 provider record"));
+		assert!(!html.contains("class='identity-summary'"));
+	}
+	let results = database.search(&search_query("carddav-query")).unwrap();
+	assert_eq!(results.rows[0].name, "carddav-query");
+	assert!(results.rows[0].synonymous_project.is_none());
+	assert_eq!(results.rows[0].identities[0].related_names, ["aerc"]);
+}
+
+#[tokio::test]
+async fn channel_with_only_other_executables_shows_a_project_summary() {
+	let database = fixture(AERC_RECORDS.iter().copied().map(provider));
+	let mut search = search_query("aerc");
+	search.channel = "homebrew".to_owned();
+	let results = database.search(&search).unwrap();
+	assert_eq!(results.total, 1);
+	assert_eq!(results.rows[0].identities.len(), 1);
+	assert!(results.rows[0].synonymous_project.is_none());
+	let html = response_text(search_page(&database, search)).await;
+	assert!(!html.contains("Project with synonymous executable"));
+	assert!(html.contains("<h4>Project</h4>"));
+	assert!(html.contains("href='/executables/carddav-query'"));
+	assert!(!html.contains("href='/executables/aerc'"));
+}
+
+#[tokio::test]
+async fn other_executable_links_escape_names_and_encode_paths() {
+	let records = SHARED_RECORDS
+		.iter()
+		.copied()
+		.chain([("eslint", "<tool>&'", "debian", "eslint")]);
+	let database = fixture(records.map(provider));
+	let html = response_text(search_page(&database, search_query("eslint"))).await;
+	assert!(html.contains("Project with synonymous executable"));
+	assert!(html.contains("Other executables:"));
+	assert!(html.contains("href='/executables/%3Ctool%3E%26%27'"));
+	assert!(html.contains("&lt;tool&gt;&amp;&#x27;"));
+	assert!(!html.contains("<tool>"));
+}
+
+#[tokio::test]
+async fn other_executable_link_limit_excludes_the_synonymous_name() {
+	for count in [3, 4] {
+		let other_executables =
+			(0..count).map(|index| provider(("tools", &format!("command-{index}"), "npm", "tools")));
+		let database = fixture(
+			[provider(("tools", "tools", "npm", "tools"))]
+				.into_iter()
+				.chain(other_executables),
+		);
+		let search = search_query("tools");
+		let results = database.search(&search).unwrap();
+		let summary = results.rows[0].synonymous_project.as_ref().unwrap();
+		assert_eq!(summary.other_executable_count, count);
+		let html = response_text(search_page(&database, search)).await;
+		assert!(html.contains("Project with synonymous executable"));
+		assert!(html.contains("Other executables:"));
+		assert_eq!(html.matches("<code>tools</code>").count(), 1);
+		if count == 3 {
+			assert_eq!(summary.other_executables, ["command-0", "command-1", "command-2"]);
+			assert_eq!(html.matches("class='related-name'").count(), 3);
+		} else {
+			assert!(summary.other_executables.is_empty());
+			assert!(!html.contains("class='related-name'"));
+			assert!(
+				html.split_whitespace()
+					.collect::<Vec<_>>()
+					.join(" ")
+					.contains("Other executables: 4")
+			);
+		}
+	}
+}
+
+#[tokio::test]
+async fn renders_distinct_identity_summaries_and_filtered_related_links() {
+	let database = sample_database();
+	let html = response_text(search_page(&database, search_query("hx"))).await;
+	assert_eq!(html.matches("<h3 id='result-1'><code>hx</code></h3>").count(), 1);
+	assert!(html.contains("<h4>Executable</h4>"));
+	assert!(html.contains("<h4>Project</h4>"));
+	assert!(!html.contains("Project with synonymous executable"));
+	assert!(html.contains("href='/projects/helix'"));
+	assert!(html.contains("href='/projects/other'"));
+	assert!(html.contains("href='/executables/hx-admin'"));
+	let mut search = search_query("hx");
+	search.channel = "npm".to_owned();
+	let html = response_text(search_page(&database, search)).await;
+	assert_eq!(html.matches("class='identity-summary'").count(), 1);
+	assert!(html.contains("href='/projects/other'"));
+	assert!(!html.contains("href='/projects/helix'"));
+	assert!(!html.contains("href='/projects/hx'"));
+	let html = response_text(search_page(&database, search_query("escaping"))).await;
+	assert!(html.contains("href='/executables/%3Ctool%3E%26%27'"));
+	assert!(html.contains("&lt;tool&gt;&amp;&#x27;"));
+	assert!(!html.contains("<tool>"));
+}
+
+#[tokio::test]
+async fn relationship_summaries_link_small_sets_and_count_large_sets() {
+	for count in [3, 4] {
+		let database =
+			fixture((0..count).map(|index| provider(("tools", &format!("command-{index}"), "npm", "tools"))));
+		let search = search_query("tools");
+		let results = database.search(&search).unwrap();
+		let identity = &results.rows[0].identities[0];
+		assert_eq!(identity.related_count, count);
+		let html = response_text(search_page(&database, search)).await;
+		if count == 3 {
+			assert_eq!(identity.related_names, ["command-0", "command-1", "command-2"]);
+			assert_eq!(html.matches("class='related-name'").count(), 3);
+		} else {
+			assert!(identity.related_names.is_empty());
+			assert!(!html.contains("class='related-name'"));
+			assert!(html.contains("4 executables"));
+		}
+	}
 }
 
 #[tokio::test]
