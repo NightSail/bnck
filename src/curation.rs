@@ -22,9 +22,9 @@ pub(crate) struct Project {
 	#[serde(default)]
 	pub(crate) repository: Option<String>,
 	#[serde(default)]
-	documentation: Option<String>,
+	pub(crate) documentation: Option<String>,
 	#[serde(default)]
-	issue_tracker: Option<String>,
+	pub(crate) issue_tracker: Option<String>,
 	#[serde(default)]
 	pub(crate) links: Vec<String>,
 	#[serde(default, rename = "package")]

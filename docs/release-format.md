@@ -84,7 +84,7 @@ JSON Lines is preferred over a single JSON array because it supports streaming, 
 
 ### Schema
 
-SQLite schema version 2 directly represents the canonical relation and adds domain checks at the storage boundary:
+SQLite schema version 2 represents the canonical relation, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
 
 ```sql
 CREATE TABLE metadata (
@@ -113,9 +113,20 @@ ON providers (
 	channel,
 	package
 );
+
+CREATE TABLE project_links (
+	project TEXT NOT NULL,
+	type TEXT NOT NULL CHECK (
+		type IN ('homepage', 'repository', 'documentation', 'issue tracker', 'link')
+	),
+	url TEXT NOT NULL CHECK (length(url) > 0),
+	PRIMARY KEY (project, type, url)
+) WITHOUT ROWID;
 ```
 
 The primary key supports project lookup and prevents duplicate provider records. The covering secondary index supports executable lookup without another table access.
+
+The `project_links` table contains only curator-supplied HTTP or HTTPS URLs. Its primary key supports project lookup; no additional index is required.
 
 No package index is required initially because package lookup is not one of the supported core queries. It can be added in a later schema version if a supported query requires it.
 
@@ -135,6 +146,15 @@ SELECT executable, channel, package
 FROM providers
 WHERE project = ?
 ORDER BY executable, channel, package;
+```
+
+### Query project links
+
+```sql
+SELECT type, url
+FROM project_links
+WHERE project = ?
+ORDER BY type, url;
 ```
 
 ### Metadata
@@ -337,12 +357,14 @@ The canonical provider artifacts do not include:
 - Package release history
 - Download counts or popularity
 - Full project descriptions
-- Source and artifact URLs
+- Package source and artifact URLs
 - Acquisition confidence or evidence
 - Failed acquisition details
 - Channel-native aliases
 
 These belong in channel manifests, curation sources, or future optional artifacts. Keeping them out of the provider relation preserves the small query-oriented data model.
+
+The derived SQLite artifact includes curated project homepages, repositories, documentation, issue trackers, and additional links. These links support consumer interfaces but are not provider records and do not affect the canonical provider dataset identity.
 
 ## Additional formats
 

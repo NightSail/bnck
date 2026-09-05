@@ -117,6 +117,8 @@ enum Command {
 	GenerateSqlite {
 		#[arg(long)]
 		input: PathBuf,
+		#[arg(long, default_value = "curations")]
+		curations: PathBuf,
 		#[arg(long)]
 		output: PathBuf,
 		#[arg(long)]
@@ -131,6 +133,8 @@ enum Command {
 		input: PathBuf,
 		#[arg(long)]
 		acquisitions: PathBuf,
+		#[arg(long, default_value = "curations")]
+		curations: PathBuf,
 		#[arg(long)]
 		output: PathBuf,
 		#[arg(long)]
@@ -195,22 +199,30 @@ fn main() -> Result<()> {
 		Command::Generate { acquisitions, curations, output } => {
 			curation::generate(&acquisitions, &curations, &output)?
 		},
-		Command::GenerateSqlite { input, output, dataset_release, generated_at, generator_revision } => {
+		Command::GenerateSqlite { input, curations, output, dataset_release, generated_at, generator_revision } => {
 			let metadata = release::SqliteMetadata {
 				dataset_release: &dataset_release,
 				generated_at: &generated_at,
 				generator_version: env!("CARGO_PKG_VERSION"),
 				generator_revision: &generator_revision,
 			};
-			release::generate_sqlite_artifact(&input, &output, &metadata)?.provider_count
+			release::generate_sqlite_artifact(&input, &curations, &output, &metadata)?.provider_count
 		},
-		Command::AssembleRelease { input, acquisitions, output, dataset_release, generated_at, generator_revision } => {
+		Command::AssembleRelease {
+			input,
+			acquisitions,
+			curations,
+			output,
+			dataset_release,
+			generated_at,
+			generator_revision,
+		} => {
 			let metadata = release::ReleaseMetadata {
 				release: &dataset_release,
 				generated_at: &generated_at,
 				generator_revision: &generator_revision,
 			};
-			release::assemble_release(&input, &acquisitions, &output, &metadata)?.provider_count
+			release::assemble_release(&input, &acquisitions, &curations, &output, &metadata)?.provider_count
 		},
 		Command::SuggestPackages { name, homepage, repository, acquisitions, limit } => {
 			let query = matcher::ProjectQuery { name, homepage, repository, links: Vec::new() };

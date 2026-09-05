@@ -9,9 +9,10 @@ use serde::Serialize;
 use tempfile::NamedTempFile;
 
 use crate::acquisition::{PackageStatus, file_identity, read_snapshot_directory};
+use crate::curation::{Project, load_projects};
 use crate::model::{PROVIDER_SCHEMA_VERSION, ProviderDataset, read_provider_dataset};
 
-pub const SQLITE_SCHEMA_VERSION: u32 = 1;
+pub const SQLITE_SCHEMA_VERSION: u32 = 2;
 
 pub struct SqliteMetadata<'a> {
 	pub dataset_release: &'a str,
@@ -20,7 +21,12 @@ pub struct SqliteMetadata<'a> {
 	pub generator_revision: &'a str,
 }
 
-pub fn generate_sqlite_artifact(input: &Path, output: &Path, metadata: &SqliteMetadata<'_>) -> Result<ProviderDataset> {
+pub fn generate_sqlite_artifact(
+	input: &Path,
+	curations: &Path,
+	output: &Path,
+	metadata: &SqliteMetadata<'_>,
+) -> Result<ProviderDataset> {
 	let parent = output
 		.parent()
 		.filter(|path| !path.as_os_str().is_empty())
@@ -28,7 +34,7 @@ pub fn generate_sqlite_artifact(input: &Path, output: &Path, metadata: &SqliteMe
 	fs::create_dir_all(parent).with_context(|| format!("create {}", parent.display()))?;
 	let database =
 		NamedTempFile::new_in(parent).with_context(|| format!("create temporary file in {}", parent.display()))?;
-	let dataset = write_sqlite_database(input, database.path(), metadata)?;
+	let dataset = write_sqlite_database(input, curations, database.path(), metadata)?;
 	let mut artifact =
 		NamedTempFile::new_in(parent).with_context(|| format!("create temporary file in {}", parent.display()))?;
 
@@ -46,8 +52,14 @@ pub fn generate_sqlite_artifact(input: &Path, output: &Path, metadata: &SqliteMe
 	Ok(dataset)
 }
 
-fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<'_>) -> Result<ProviderDataset> {
+fn write_sqlite_database(
+	input: &Path,
+	curations: &Path,
+	output: &Path,
+	metadata: &SqliteMetadata<'_>,
+) -> Result<ProviderDataset> {
 	validate_metadata(metadata)?;
+	let projects = load_projects(&curations.join("projects"))?;
 	let mut connection = Connection::open(output)?;
 	let transaction = connection.transaction()?;
 	transaction.execute_batch(
@@ -65,19 +77,45 @@ fn write_sqlite_database(input: &Path, output: &Path, metadata: &SqliteMetadata<
 		) WITHOUT ROWID;
 
 		CREATE INDEX providers_by_executable
-		ON providers (executable, project, channel, package);",
+		ON providers (executable, project, channel, package);
+
+		CREATE TABLE project_links (
+			project TEXT NOT NULL,
+			type TEXT NOT NULL CHECK (type IN ('homepage', 'repository', 'documentation', 'issue tracker', 'link')),
+			url TEXT NOT NULL CHECK (length(url) > 0),
+			PRIMARY KEY (project, type, url)
+		) WITHOUT ROWID;",
 	)?;
 
+	let mut dataset_projects = std::collections::BTreeSet::new();
 	let dataset = {
 		let mut statement = transaction.prepare_cached(
 			"INSERT INTO providers (project, executable, channel, package)
 			 VALUES (?1, ?2, ?3, ?4)",
 		)?;
 		read_provider_dataset(input, |provider| {
+			ensure!(
+				projects.contains_key(&provider.project),
+				"provider references unknown project {}",
+				provider.project
+			);
 			statement.execute(params![provider.project, provider.executable, provider.channel, provider.package])?;
+			dataset_projects.insert(provider.project.clone());
 			Ok(())
 		})?
 	};
+
+	{
+		let mut statement =
+			transaction.prepare_cached("INSERT INTO project_links (project, type, url) VALUES (?1, ?2, ?3)")?;
+		for project_id in dataset_projects {
+			let project = &projects[&project_id];
+			for (link_type, url) in project_links(project) {
+				ensure_web_url(url)?;
+				statement.execute((&project_id, link_type, url))?;
+			}
+		}
+	}
 
 	let metadata_values = [
 		("schema_version", SQLITE_SCHEMA_VERSION.to_string()),
@@ -162,6 +200,7 @@ pub struct ReleaseMetadata<'a> {
 pub fn assemble_release(
 	providers: &Path,
 	acquisitions: &Path,
+	curations: &Path,
 	output: &Path,
 	metadata: &ReleaseMetadata<'_>,
 ) -> Result<ProviderDataset> {
@@ -202,6 +241,7 @@ pub fn assemble_release(
 	let sqlite_artifact = output.join("bnck.sqlite.zst");
 	generate_sqlite_artifact(
 		providers,
+		curations,
 		&sqlite_artifact,
 		&SqliteMetadata {
 			dataset_release: metadata.release,
@@ -328,6 +368,27 @@ fn path_string(path: &Path) -> Result<String> {
 	Ok(path.to_str().context("release path is not UTF-8")?.replace('\\', "/"))
 }
 
+fn project_links(project: &Project) -> Vec<(&'static str, &str)> {
+	let mut links = Vec::new();
+	for (link_type, url) in [
+		("homepage", project.homepage.as_deref()),
+		("repository", project.repository.as_deref()),
+		("documentation", project.documentation.as_deref()),
+		("issue tracker", project.issue_tracker.as_deref()),
+	] {
+		if let Some(url) = url {
+			links.push((link_type, url));
+		}
+	}
+	links.extend(project.links.iter().map(|url| ("link", url.as_str())));
+	links
+}
+
+fn ensure_web_url(url: &str) -> Result<()> {
+	ensure!(url.starts_with("https://") || url.starts_with("http://"), "unsupported project link URL {url:?}");
+	Ok(())
+}
+
 fn validate_metadata(metadata: &SqliteMetadata<'_>) -> Result<()> {
 	validate_release(metadata.dataset_release)?;
 	validate_timestamp(metadata.generated_at)?;
@@ -403,6 +464,7 @@ mod tests {
 	fn assembles_release_with_acquisition_provenance() {
 		let root = tempdir().unwrap();
 		let acquisitions = root.path().join("acquired");
+		let curations = write_curations(root.path());
 		let output = root.path().join("release");
 		fs::create_dir(&acquisitions).unwrap();
 		let candidates = acquisitions.join("crates-io.jsonl");
@@ -439,7 +501,7 @@ mod tests {
 			generator_revision: "0123456789abcdef",
 		};
 
-		let dataset = assemble_release(&providers, &acquisitions, &output, &metadata).unwrap();
+		let dataset = assemble_release(&providers, &acquisitions, &curations, &output, &metadata).unwrap();
 
 		assert_eq!(dataset.provider_count, 1);
 		for path in ["manifest.json", "providers.jsonl.zst", "bnck.sqlite.zst", "SHA256SUMS"] {
@@ -455,6 +517,7 @@ mod tests {
 	fn creates_queryable_database_with_release_metadata() {
 		let root = tempdir().unwrap();
 		let input = root.path().join("providers.jsonl");
+		let curations = write_curations(root.path());
 		let output = root.path().join("bnck.sqlite.zst");
 		fs::write(&input, PROVIDERS).unwrap();
 		let metadata = SqliteMetadata {
@@ -464,7 +527,7 @@ mod tests {
 			generator_revision: "0123456789abcdef",
 		};
 
-		let dataset = generate_sqlite_artifact(&input, &output, &metadata).unwrap();
+		let dataset = generate_sqlite_artifact(&input, &curations, &output, &metadata).unwrap();
 		assert_eq!(dataset.provider_count, 3);
 
 		let database = root.path().join("bnck.sqlite");
@@ -499,6 +562,22 @@ mod tests {
 		);
 		assert_eq!(project_rows, [("rg".into(), "crates.io".into(), "ripgrep".into())]);
 
+		let project_links = connection
+			.prepare("SELECT type, url FROM project_links WHERE project = 'ripgrep' ORDER BY type, url")
+			.unwrap()
+			.query_map([], |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)))
+			.unwrap()
+			.collect::<Result<Vec<_>, _>>()
+			.unwrap();
+		assert_eq!(
+			project_links,
+			[
+				("homepage".into(), "https://example.test/ripgrep".into()),
+				("link".into(), "https://example.test/ripgrep/extra".into()),
+				("repository".into(), "https://example.test/ripgrep/source".into()),
+			]
+		);
+
 		let index_count: u32 = connection
 			.query_row(
 				"SELECT count(*) FROM sqlite_schema
@@ -508,6 +587,28 @@ mod tests {
 			)
 			.unwrap();
 		assert_eq!(index_count, 1);
+	}
+
+	fn write_curations(root: &std::path::Path) -> std::path::PathBuf {
+		let curations = root.join("curations");
+		let projects = curations.join("projects");
+		fs::create_dir_all(&projects).unwrap();
+		fs::write(
+			projects.join("helix.toml"),
+			"id = 'helix'\nname = 'Helix'\nhomepage = 'https://example.test/helix'\n",
+		)
+		.unwrap();
+		fs::write(
+			projects.join("ripgrep.toml"),
+			concat!(
+				"id = 'ripgrep'\nname = 'ripgrep'\n",
+				"homepage = 'https://example.test/ripgrep'\n",
+				"repository = 'https://example.test/ripgrep/source'\n",
+				"links = ['https://example.test/ripgrep/extra']\n",
+			),
+		)
+		.unwrap();
+		curations
 	}
 
 	fn metadata_value(connection: &Connection, key: &str) -> String {

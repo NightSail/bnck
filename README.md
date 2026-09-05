@@ -92,7 +92,7 @@ Generate the compressed SQLite consumer artifact from the canonical provider JSO
 just generate-sqlite 2026-04-16.1
 ```
 
-This writes `var/bnck.sqlite.zst`. The command validates the canonical JSON Lines encoding, ordering, and uniqueness before building the database. It records the SHA-256 of the uncompressed JSON Lines content, provider count, release identifier, generation time, generator version, and Git revision in the SQLite metadata table.
+This writes `var/bnck.sqlite.zst`. The command validates the canonical JSON Lines encoding, ordering, and uniqueness before building the database. It records the SHA-256 of the uncompressed JSON Lines content, provider count, release identifier, generation time, generator version, and Git revision in the SQLite metadata table. It also reads project metadata from `curations/` and includes curated homepages, repositories, documentation, issue trackers, and additional links in the derived SQLite artifact.
 
 The artifact supports the queries documented in [`docs/release-format.md`](docs/release-format.md). Decompress it before opening it with SQLite:
 
