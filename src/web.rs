@@ -602,7 +602,7 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			database,
 			StatusCode::OK,
 			"home.html",
-			"Executable name database",
+			"",
 			context! { stats => database.stats, channels => &database.channels, example => &database.example },
 		);
 	}
@@ -956,7 +956,7 @@ mod tests {
 		let home = render_page(
 			&database,
 			"home.html",
-			"Executable name database",
+			"",
 			minijinja::context! { stats => database.stats, channels => &database.channels, example => &database.example },
 		)
 		.unwrap();
