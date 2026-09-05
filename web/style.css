@@ -58,7 +58,6 @@ select {
 .search-input input,
 .search-input button,
 .button-link,
-.search-filters,
 .channel-links {
 	font-family: var(--mono);
 }
@@ -268,30 +267,6 @@ main {
 	border-color: var(--green-hover);
 	background: var(--green-hover);
 	color: var(--on-accent);
-}
-.search-filters {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px 22px;
-	padding: 10px 16px;
-	border-top: 1px solid var(--line);
-}
-.search-filters > div {
-	display: flex;
-	align-items: center;
-	gap: 5px;
-}
-.search-filters label {
-	color: var(--muted);
-	font-size: 11px;
-}
-.search-filters select {
-	max-width: 180px;
-	min-height: 28px;
-	border: 0;
-	background: transparent;
-	color: var(--text);
-	font-size: 12px;
 }
 .search-hint {
 	margin: 12px 0 0;
@@ -1032,9 +1007,6 @@ thead th {
 	.channel-links {
 		justify-content: flex-start;
 	}
-	.search-filters {
-		column-gap: 12px;
-	}
 }
 
 @media (max-width: 780px) {
@@ -1135,18 +1107,6 @@ thead th {
 	}
 	.search-input button span {
 		display: none;
-	}
-	.search-filters {
-		padding: 10px;
-	}
-	.search-filters > div {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 0;
-	}
-	.search-filters select {
-		width: 100%;
-		margin-left: -4px;
 	}
 	.relation-card {
 		padding-inline: 20px;

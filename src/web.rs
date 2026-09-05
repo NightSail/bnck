@@ -534,7 +534,7 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			database,
 			StatusCode::BAD_REQUEST,
 			"Invalid search",
-			"Select a channel using the form below. Page numbers start at 1.",
+			"Check the channel and page number, or start a new search.",
 		);
 	}
 	if search.q.is_none() && search.channel.is_empty() && search.page == 1 {
@@ -698,7 +698,6 @@ fn render_page(database: &Database, template_name: &str, title: &str, page: Valu
 			site => context! {
 				title,
 				release => database.metadata_value("dataset_release"),
-				channel_keys => CHANNELS,
 				section => if template_name == "dataset.html" { "dataset" } else { "index" },
 			},
 			page,

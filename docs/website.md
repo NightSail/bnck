@@ -44,7 +44,7 @@ Each group previews up to three executable rows. Additional rows use the same fo
 
 Each page contains at most 30 projects. Totals count matching projects across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
 
-A channel filter applies to matches, group membership, totals, and executable rows. Each group includes all related names in the selected channel, not only matching names. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
+Search boxes contain only the name field and submit button. Channel-specific browse links apply a channel filter to matches, group membership, totals, and executable rows. The active channel is shown above the results and preserved when refining the query; Reset search clears it. Each group includes all related names in the selected channel, not only matching names. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
 
 Detail routes retain exact, case-sensitive lookup semantics:
 

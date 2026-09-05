@@ -11,19 +11,7 @@
 			maxlength='100' autocomplete='off' spellcheck='false' aria-describedby='search-hint'>
 		<button type='submit'>Search <span aria-hidden='true'>↵</span></button>
 	</div>
-	<div class='search-filters'>
-		<div>
-			<label for='channel'>Channel</label>
-			<select id='channel' name='channel'>
-				<option value=''>All channels</option>
-				{% for name in site.channel_keys %}
-				<option value='{{ name }}' {% if channel == name %}selected{% endif %}>
-					{{ name | channel_label }}
-				</option>
-				{% endfor %}
-			</select>
-		</div>
-	</div>
+	{% if channel %}<input type='hidden' name='channel' value='{{ channel }}'>{% endif %}
 </form>
 {% endmacro %}
 

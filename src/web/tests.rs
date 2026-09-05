@@ -798,6 +798,40 @@ async fn web_pages_hide_provider_record_details() {
 }
 
 #[tokio::test]
+async fn search_boxes_have_no_channel_selector() {
+	let database = sample_database();
+	for search in [
+		SearchQuery { q: None, ..search_query("") },
+		search_query("hx"),
+		SearchQuery { channel: "debian".to_owned(), ..search_query("hx") },
+		SearchQuery { page: 0, ..search_query("") },
+	] {
+		let html = response_text(search_page(&database, search)).await;
+		let (_, form) = html.split_once("<form class='search-form'").unwrap();
+		let (form, _) = form.split_once("</form>").unwrap();
+		assert!(form.contains("name='q'"));
+		assert!(form.contains("type='submit'"));
+		assert!(!form.contains("<select"));
+		assert!(!form.contains("search-filters"));
+		assert!(!form.contains("for='channel'"));
+	}
+}
+
+#[tokio::test]
+async fn channel_browse_links_preserve_context_when_refining_search() {
+	let database = sample_database();
+	let home = response_text(search_page(&database, SearchQuery { q: None, ..search_query("") })).await;
+	assert!(home.contains("href='/?q=&channel=debian'"));
+	assert!(!home.contains("name='channel'"));
+	let search = SearchQuery { channel: "debian".to_owned(), ..search_query("hx") };
+	let html = response_text(search_page(&database, search)).await;
+	assert!(html.contains("<input type='hidden' name='channel' value='debian'>"));
+	assert!(html.contains("Showing matches in <strong>Debian</strong>"));
+	assert!(html.contains("href='/?q='>Reset search</a>"));
+	assert_executable_row(&html, "helix", "hx", "Debian");
+}
+
+#[tokio::test]
 async fn legacy_type_parameters_use_the_same_project_grouped_search() {
 	let database = sample_database();
 	let expected = response_text(search_page(&database, search_query("hx"))).await;
