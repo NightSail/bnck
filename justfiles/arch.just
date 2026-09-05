@@ -19,9 +19,9 @@ fetch-arch:
     		-C "{{ arch_input }}/extracted/$repository"; \
     done
 
-import-arch: build
+import-arch:
     mkdir -p 'var/acquired'
-    ./target/debug/bnck import-arch \
+    {{ bnck }} import-arch \
     	--input '{{ arch_input }}/extracted' \
     	--output '{{ arch_output }}' \
     	--scope 'repositories=core,extra' \

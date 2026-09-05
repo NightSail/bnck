@@ -26,27 +26,27 @@ format:
     cargo fmt
     for file in justfile justfiles/*.just; do just --fmt --justfile "$file"; done
 
-generate acquisitions='var/acquired' output='var/providers.jsonl': build
+generate acquisitions='var/acquired' output='var/providers.jsonl':
     mkdir -p "$(dirname '{{ output }}')"
-    ./target/debug/bnck generate \
+    {{ bnck }} generate \
     	--acquisitions '{{ acquisitions }}' \
     	--curations curations \
     	--output '{{ output }}'
 
-generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst': build
+generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst':
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
     	revision="$(git rev-parse HEAD)"; \
-    	./target/debug/bnck generate-sqlite \
+    	{{ bnck }} generate-sqlite \
     		--input '{{ input }}' \
     		--output '{{ output }}' \
     		--dataset-release '{{ dataset_release }}' \
     		--generated-at "$generated_at" \
     		--generator-revision "$revision"
 
-release dataset_release input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases': build
+release dataset_release input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases':
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
     	revision="$(git rev-parse HEAD)"; \
-    	./target/debug/bnck assemble-release \
+    	{{ bnck }} assemble-release \
     		--input '{{ input }}' \
     		--acquisitions '{{ acquisitions }}' \
     		--output '{{ output }}/bnck-{{ dataset_release }}' \

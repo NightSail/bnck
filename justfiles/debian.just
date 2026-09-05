@@ -41,9 +41,9 @@ import-debian-stable: (_import-debian-suite debian_suite debian_input debian_out
 
 import-debian-sid: (_import-debian-suite debian_sid_suite debian_sid_input debian_sid_output)
 
-_import-debian-suite suite input output: build
+_import-debian-suite suite input output:
     mkdir -p 'var/acquired'
-    ./target/debug/bnck import-debian \
+    {{ bnck }} import-debian \
         --packages '{{ input }}/Packages' \
         --sources '{{ input }}/Sources' \
         --contents '{{ input }}/Contents' \

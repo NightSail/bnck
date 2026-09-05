@@ -11,9 +11,9 @@ fetch-homebrew:
     	--output '{{ homebrew_input }}/cask.json' \
     	'{{ homebrew_api }}/cask.json'
 
-import-homebrew: build
+import-homebrew:
     mkdir -p 'var/acquired'
-    ./target/debug/bnck import-homebrew \
+    {{ bnck }} import-homebrew \
     	--formulae '{{ homebrew_input }}/formula.json' \
     	--casks '{{ homebrew_input }}/cask.json' \
     	--output '{{ homebrew_output }}' \

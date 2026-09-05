@@ -7,9 +7,9 @@ fetch-npm package:
     	--output '{{ npm_input }}/{{ package }}.json' \
     	'https://registry.npmjs.org/{{ package }}'
 
-import-npm: build
+import-npm:
     mkdir -p 'var/acquired'
-    ./target/debug/bnck import-npm \
+    {{ bnck }} import-npm \
     	--input '{{ npm_input }}' \
     	--output '{{ npm_output }}' \
     	--scope 'registry=https://registry.npmjs.org' \

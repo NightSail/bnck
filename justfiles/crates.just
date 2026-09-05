@@ -17,21 +17,21 @@ fetch-crate package:
     	--output '{{ crates_api_directory }}/{{ package }}.json' \
     	'https://crates.io/api/v1/crates/{{ package }}'
 
-import-crates-dump: build
+import-crates-dump:
     mkdir -p 'var/acquired'
     crates_csv="$(find '{{ crates_dump_directory }}' -name crates.csv -print -quit)"; \
     	versions_csv="$(find '{{ crates_dump_directory }}' -name versions.csv -print -quit)"; \
     	test -n "$crates_csv" && test -n "$versions_csv"; \
-    	./target/debug/bnck import-crates-dump \
+    	{{ bnck }} import-crates-dump \
     		--crates "$crates_csv" \
     		--versions "$versions_csv" \
     		--output '{{ crates_output }}' \
     		--scope 'registry=crates.io' \
     		--scope 'release-policy=latest-non-yanked-stable'
 
-import-crates-api: build
+import-crates-api:
     mkdir -p 'var/acquired'
-    ./target/debug/bnck import-crates-api \
+    {{ bnck }} import-crates-api \
     	--input '{{ crates_api_directory }}' \
     	--output '{{ crates_output }}' \
     	--scope 'registry=crates.io' \
