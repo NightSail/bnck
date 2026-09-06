@@ -1,51 +1,41 @@
-use std::collections::HashMap;
-use std::fs::File;
-use std::io::{BufReader, BufWriter, Read, Write};
-use std::path::{Path, PathBuf};
+mod selection;
 
-use anyhow::{Context, Result, bail};
-use serde_json::Value;
+#[cfg(test)]
+#[path = "pypi/tests.rs"]
+mod snapshot_tests;
+
+pub use selection::{plan, plan_snapshot};
+
+use std::collections::{BTreeMap, BTreeSet, HashMap};
+use std::fs::File;
+use std::io::Read;
+use std::path::Path;
+use std::str::FromStr;
+
+use anyhow::{Context, Result, bail, ensure};
+use pep440_rs::Version;
 use walkdir::WalkDir;
 use zip::ZipArchive;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
-use crate::model::Candidate;
+use crate::acquisition::{
+	PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, file_identity, write_acquisition,
+};
+use crate::model::{Candidate, validate_sha256};
+use crate::registry::{json_files, normalize_pypi_name, read_json};
+use selection::{Selection, WheelPlan};
 
 const MAX_METADATA_SIZE: u64 = 4 * 1024 * 1024;
 
-pub fn plan(simple: &Path, output_directory: &Path, output: &Path) -> Result<usize> {
-	let file = File::open(simple).with_context(|| format!("open {}", simple.display()))?;
-	let document: Value =
-		serde_json::from_reader(BufReader::new(file)).with_context(|| format!("parse {}", simple.display()))?;
-	let versions = document
-		.get("versions")
-		.and_then(Value::as_array)
-		.context("simple response has no versions")?;
-	let version = versions
-		.iter()
-		.rev()
-		.find_map(Value::as_str)
-		.context("simple response has no versions")?;
-	let files = document
-		.get("files")
-		.and_then(Value::as_array)
-		.context("simple response has no files")?;
-	let mut wheels: Vec<_> = files
-		.iter()
-		.filter(|file| !is_yanked(file))
-		.filter_map(|file| planned_wheel(file, version, output_directory))
-		.collect();
-	wheels.sort_by_key(|wheel| (!wheel.is_platform_independent, wheel.size));
-	let wheel = wheels.first().with_context(|| format!("no wheel for version {version}"))?;
-
-	let file = File::create(output).with_context(|| format!("create {}", output.display()))?;
-	let mut writer = BufWriter::new(file);
-	writeln!(writer, "{}\t{}", wheel.url, wheel.path.display())?;
-	writer.flush()?;
-	Ok(1)
-}
-
-pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
+pub fn import(input: &Path, output: &Path, mut scope: BTreeMap<String, String>) -> Result<usize> {
+	scope.insert("package-selection".to_owned(), "explicit-packages".to_owned());
+	if let Some(simple) = input.parent().map(|parent| parent.join("simple")).filter(|path| path.is_dir()) {
+		let inputs = json_files(&simple)?;
+		let packages = inputs
+			.iter()
+			.map(|path| selection::select(path, input))
+			.collect::<Result<Vec<_>>>()?;
+		return import_selections(WheelPlan { inputs, packages }, output, scope);
+	}
 	let mut candidates = Vec::new();
 	let mut package_observations = Vec::new();
 	for entry in WalkDir::new(input).follow_links(false) {
@@ -57,44 +47,66 @@ pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<Str
 		candidates.extend(wheel_candidates);
 		package_observations.push(package_observation);
 	}
-	let mut inputs = vec![input.to_owned()];
-	if let Some(simple) = input.parent().map(|parent| parent.join("simple")).filter(|path| path.is_dir()) {
-		inputs.push(simple);
+	let inputs = [input.to_owned()];
+	let mut metadata = SnapshotMetadata::complete("pypi", &inputs, scope);
+	metadata.status = SnapshotStatus::Partial;
+	write_acquisition(output, metadata, package_observations, candidates)
+}
+
+pub fn import_plan(path: &Path, output: &Path, mut scope: BTreeMap<String, String>) -> Result<usize> {
+	let mut plan: WheelPlan = read_json(path)?;
+	plan.inputs.push(path.to_owned());
+	scope.insert("package-selection".to_owned(), "curation-discovery".to_owned());
+	import_selections(plan, output, scope)
+}
+
+fn import_selections(mut plan: WheelPlan, output: &Path, scope: BTreeMap<String, String>) -> Result<usize> {
+	let mut candidates = Vec::new();
+	let mut packages = Vec::new();
+	let mut names = BTreeSet::new();
+	for selected in plan.packages {
+		match selected {
+			Selection::Wheel { package, version, sha256, path, filename, .. } => {
+				validate_sha256("planned wheel", &sha256)?;
+				ensure!(file_identity(&path)?.1 == sha256, "wheel SHA-256 mismatch: {}", path.display());
+				let (mut observed, mut observation) = import_wheel(&path)?;
+				ensure!(observation.name == package, "expected PyPI package {package}, found {}", observation.name);
+				ensure!(
+					Version::from_str(observation.version.as_deref().context("wheel has no version")?)?
+						== Version::from_str(&version)?,
+					"wheel version does not match selected release {package} {version}"
+				);
+				observation.variant.insert("wheel".to_owned(), filename);
+				for candidate in &mut observed {
+					candidate.variant = observation.variant.clone();
+				}
+				candidates.extend(observed);
+				packages.push(observation);
+				plan.inputs.push(path);
+			},
+			Selection::Unsupported { package, version, reason } => {
+				packages.push(PackageObservation {
+					name: package,
+					version,
+					artifact_sha256: None,
+					status: PackageStatus::Failed,
+					variant: BTreeMap::from([("reason".to_owned(), reason)]),
+				});
+			},
+		}
+		let package = packages.last().context("missing package observation")?;
+		ensure!(names.insert(package.name.clone()), "duplicate selected PyPI package {}", package.name);
 	}
-	write_acquisition(output, SnapshotMetadata::complete("pypi", &inputs, scope), package_observations, candidates)
-}
-
-struct PlannedWheel {
-	url: String,
-	path: PathBuf,
-	size: u64,
-	is_platform_independent: bool,
-}
-
-fn planned_wheel(file: &Value, version: &str, output_directory: &Path) -> Option<PlannedWheel> {
-	let filename = file.get("filename")?.as_str()?;
-	if !filename.ends_with(".whl") || wheel_version(filename)? != version {
-		return None;
+	let mut metadata = SnapshotMetadata::complete("pypi", &plan.inputs, scope);
+	if metadata
+		.scope
+		.get("package-selection")
+		.is_some_and(|selection| selection == "explicit-packages")
+		|| packages.iter().any(|package| package.status == PackageStatus::Failed)
+	{
+		metadata.status = SnapshotStatus::Partial;
 	}
-	let digest = file.pointer("/hashes/sha256")?.as_str()?;
-	Some(PlannedWheel {
-		url: file.get("url")?.as_str()?.to_owned(),
-		path: output_directory.join(format!("{digest}.whl")),
-		size: file.get("size").and_then(Value::as_u64).unwrap_or(u64::MAX),
-		is_platform_independent: filename.ends_with("-none-any.whl"),
-	})
-}
-
-fn wheel_version(filename: &str) -> Option<&str> {
-	filename.strip_suffix(".whl")?.split('-').nth(1)
-}
-
-fn is_yanked(file: &Value) -> bool {
-	match file.get("yanked") {
-		Some(Value::Bool(value)) => *value,
-		Some(Value::String(_)) => true,
-		_ => false,
-	}
+	write_acquisition(output, metadata, packages, candidates)
 }
 
 fn import_wheel(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
@@ -104,26 +116,28 @@ fn import_wheel(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
 		.with_context(|| format!("{} has no METADATA", path.display()))?;
 	let metadata = read_member(&mut archive, &metadata_name)?;
 	let fields = parse_metadata(&metadata);
-	let package = field(&fields, "Name")?;
+	let package = normalize_pypi_name(&field(&fields, "Name")?)?;
 	let version = field(&fields, "Version")?;
 	let homepage = first_field(&fields, "Home-page").or_else(|| project_url(&fields, &["homepage"]));
 	let repository = project_url(&fields, &["source", "source code", "repository"]);
 	let description = first_field(&fields, "Summary");
 	let mut executable_evidence = Vec::new();
 
-	if let Some(entry_points_name) = member_name(&mut archive, ".dist-info/entry_points.txt")? {
+	let entry_points_name = metadata_name.replace("/METADATA", "/entry_points.txt");
+	if archive.file_names().any(|name| name == entry_points_name) {
 		let entry_points = read_member(&mut archive, &entry_points_name)?;
 		for executable in parse_entry_points(&entry_points) {
 			executable_evidence.push((executable, "declared-entry-point"));
 		}
 	}
 
+	let scripts_prefix = metadata_name.replace(".dist-info/METADATA", ".data/scripts/");
 	for index in 0..archive.len() {
 		let member = archive.by_index(index)?;
-		let name = member.name();
 		if !member.is_dir()
-			&& name.contains(".data/scripts/")
-			&& let Some(executable) = name.rsplit('/').next().filter(|value| !value.is_empty())
+			&& let Some(executable) = member.name().strip_prefix(&scripts_prefix)
+			&& !executable.is_empty()
+			&& !executable.contains('/')
 		{
 			executable_evidence.push((executable.to_owned(), "artifact-metadata"));
 		}
@@ -152,13 +166,15 @@ fn import_wheel(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
 }
 
 fn member_name(archive: &mut ZipArchive<File>, suffix: &str) -> Result<Option<String>> {
+	let mut selected = None;
 	for index in 0..archive.len() {
 		let member = archive.by_index(index)?;
-		if member.name().ends_with(suffix) {
-			return Ok(Some(member.name().to_owned()));
+		if member.name().strip_suffix(suffix).is_some_and(|prefix| !prefix.contains('/')) {
+			ensure!(selected.is_none(), "wheel contains multiple {suffix} members");
+			selected = Some(member.name().to_owned());
 		}
 	}
-	Ok(None)
+	Ok(selected)
 }
 
 fn read_member(archive: &mut ZipArchive<File>, name: &str) -> Result<String> {
@@ -168,6 +184,7 @@ fn read_member(archive: &mut ZipArchive<File>, name: &str) -> Result<String> {
 	}
 	let mut value = String::new();
 	member.take(MAX_METADATA_SIZE + 1).read_to_string(&mut value)?;
+	ensure!(value.len() as u64 <= MAX_METADATA_SIZE, "wheel metadata member {name} exceeds size limit");
 	Ok(value)
 }
 
@@ -236,12 +253,7 @@ fn parse_entry_points(value: &str) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
-	use super::{parse_entry_points, wheel_version};
-
-	#[test]
-	fn parses_wheel_versions() {
-		assert_eq!(wheel_version("black-25.1.0-py3-none-any.whl"), Some("25.1.0"));
-	}
+	use super::parse_entry_points;
 
 	#[test]
 	fn reads_script_entry_point_groups() {

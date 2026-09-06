@@ -67,7 +67,7 @@ A snapshot manifest has this shape:
 
 The snapshot identity covers the channel, status, scope, input identities, candidate artifact, package observations, and importer identity. Manifest loading recomputes that identity and verifies local input and candidate sizes and SHA-256 digests.
 
-`status` is one of `complete`, `partial`, or `failed`. Package status is one of `observed`, `failed`, or `removed`. An observed package requires a version; failed and removed package records may omit it. Current importers emit complete snapshots and observed package releases when the import succeeds; they fail the whole import rather than writing partial results.
+`status` is one of `complete`, `partial`, or `failed`. Package status is one of `observed`, `failed`, or `removed`. An observed package requires a version; failed and removed package records may omit it. Distro and bulk crates.io importers emit complete snapshots when import succeeds. Planned npm/PyPI acquisitions become partial when selected metadata is unavailable or executable extraction is unsupported, with failed package observations and a `reason` in the variant map. Focused registry directory/API imports are partial with `package-selection=explicit-packages`, because they do not cover all curated packages. Malformed inputs, missing planned files, and digest mismatches fail import. See [language registry acquisition](language-registries.md) for selection and failure semantics.
 
 `scope` is supplied through repeated `--scope key=value` arguments. Import commands reject an empty scope.
 

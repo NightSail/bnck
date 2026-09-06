@@ -28,14 +28,14 @@ pub(crate) struct Project {
 	#[serde(default)]
 	pub(crate) links: Vec<String>,
 	#[serde(default, rename = "package")]
-	packages: Vec<ProjectPackage>,
+	pub(crate) packages: Vec<ProjectPackage>,
 }
 
 #[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
-struct ProjectPackage {
-	channel: String,
-	name: String,
+pub(crate) struct ProjectPackage {
+	pub(crate) channel: String,
+	pub(crate) name: String,
 }
 
 #[derive(Debug, Deserialize)]
@@ -128,6 +128,20 @@ pub fn generate(acquisitions: &Path, curations: &Path, output: &Path) -> Result<
 	}
 
 	write_json_lines(output, providers)
+}
+
+pub(crate) fn curated_packages(root: &Path, channel: &str) -> Result<BTreeSet<String>> {
+	validate_manifest(root)?;
+	let projects = load_projects(&root.join("projects"))?;
+	let owners = package_owners(&projects)?;
+	let exceptions = load_package_curations(&root.join("packages"))?;
+	validate_project_references(&exceptions, &projects)?;
+	Ok(owners
+		.keys()
+		.chain(exceptions.keys())
+		.filter(|key| key.0 == channel)
+		.map(|key| key.1.clone())
+		.collect())
 }
 
 fn validate_manifest(root: &Path) -> Result<()> {

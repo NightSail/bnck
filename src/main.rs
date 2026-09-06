@@ -3,6 +3,7 @@ mod curation;
 mod importers;
 mod matcher;
 mod model;
+mod registry;
 mod release;
 mod web;
 
@@ -76,6 +77,8 @@ enum Command {
 	},
 	ImportCratesDump {
 		#[arg(long)]
+		curations: Option<PathBuf>,
+		#[arg(long)]
 		crates: PathBuf,
 		#[arg(long)]
 		versions: PathBuf,
@@ -88,9 +91,29 @@ enum Command {
 		#[arg(long)]
 		output: PathBuf,
 	},
-	ImportNpm {
+	PlanNpmPage {
 		#[arg(long)]
 		input: PathBuf,
+		#[arg(long)]
+		output: PathBuf,
+	},
+	PlanRegistry {
+		#[arg(long)]
+		channel: String,
+		#[arg(long)]
+		index: PathBuf,
+		#[arg(long, default_value = "curations")]
+		curations: PathBuf,
+		#[arg(long)]
+		output_directory: PathBuf,
+		#[arg(long)]
+		output: PathBuf,
+	},
+	ImportNpm {
+		#[arg(long, required_unless_present = "plan", conflicts_with = "plan")]
+		input: Option<PathBuf>,
+		#[arg(long)]
+		plan: Option<PathBuf>,
 		#[arg(long)]
 		output: PathBuf,
 	},
@@ -102,9 +125,19 @@ enum Command {
 		#[arg(long)]
 		output: PathBuf,
 	},
-	ImportPypi {
+	PlanPypiSnapshot {
 		#[arg(long)]
-		input: PathBuf,
+		metadata: PathBuf,
+		#[arg(long)]
+		output_directory: PathBuf,
+		#[arg(long)]
+		output: PathBuf,
+	},
+	ImportPypi {
+		#[arg(long, required_unless_present = "plan", conflicts_with = "plan")]
+		input: Option<PathBuf>,
+		#[arg(long)]
+		plan: Option<PathBuf>,
 		#[arg(long)]
 		output: PathBuf,
 	},
@@ -145,6 +178,14 @@ enum Command {
 		generated_at: String,
 		#[arg(long)]
 		generator_revision: String,
+	},
+	SuggestRegistryPackages {
+		#[arg(long, default_value = "var/acquired")]
+		acquisitions: PathBuf,
+		#[arg(long, default_value = "curations")]
+		curations: PathBuf,
+		#[arg(long)]
+		output: PathBuf,
 	},
 	SuggestPackages {
 		#[arg(long)]
@@ -202,15 +243,28 @@ async fn main() -> Result<()> {
 		Command::ImportHomebrew { formulae, casks, core, output } => {
 			importers::homebrew::import(&formulae, &casks, core.as_deref(), &output, scope)?
 		},
-		Command::ImportCratesDump { crates, versions, output } => {
-			importers::crates_io::import_dump(&crates, &versions, &output, scope)?
+		Command::ImportCratesDump { crates, versions, output, curations } => {
+			importers::crates_io::import_dump(&crates, &versions, &output, scope, curations.as_deref())?
 		},
 		Command::ImportCratesApi { input, output } => importers::crates_io::import_api(&input, &output, scope)?,
-		Command::ImportNpm { input, output } => importers::npm::import(&input, &output, scope)?,
+		Command::PlanNpmPage { input, output } => registry::plan_npm_page(&input, &output)?,
+		Command::PlanRegistry { channel, index, curations, output_directory, output } => {
+			registry::plan_metadata(&channel, &index, &curations, &output_directory, &output)?
+		},
+		Command::ImportNpm { input, plan, output } => match plan {
+			Some(plan) => importers::npm::import_plan(&plan, &output, scope)?,
+			None => importers::npm::import(&input.expect("clap requires input or plan"), &output, scope)?,
+		},
 		Command::PlanPypi { simple, output_directory, output } => {
 			importers::pypi::plan(&simple, &output_directory, &output)?
 		},
-		Command::ImportPypi { input, output } => importers::pypi::import(&input, &output, scope)?,
+		Command::PlanPypiSnapshot { metadata, output_directory, output } => {
+			importers::pypi::plan_snapshot(&metadata, &output_directory, &output)?
+		},
+		Command::ImportPypi { input, plan, output } => match plan {
+			Some(plan) => importers::pypi::import_plan(&plan, &output, scope)?,
+			None => importers::pypi::import(&input.expect("clap requires input or plan"), &output, scope)?,
+		},
 		Command::Generate { acquisitions, curations, output } => {
 			curation::generate(&acquisitions, &curations, &output)?
 		},
@@ -238,6 +292,11 @@ async fn main() -> Result<()> {
 				generator_revision: &generator_revision,
 			};
 			release::assemble_release(&input, &acquisitions, &curations, &output, &metadata)?.provider_count
+		},
+		Command::SuggestRegistryPackages { acquisitions, curations, output } => {
+			let suggestions = matcher::suggest_registry_packages(&acquisitions, &curations)?;
+			registry::write_json(&output, &suggestions)?;
+			suggestions.len()
 		},
 		Command::SuggestPackages { name, homepage, repository, acquisitions, limit } => {
 			let query = matcher::ProjectQuery { name, homepage, repository, links: Vec::new() };

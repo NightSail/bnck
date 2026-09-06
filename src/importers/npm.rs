@@ -1,15 +1,20 @@
+#[cfg(test)]
+#[path = "npm_tests.rs"]
+mod snapshot_tests;
+
 use std::fs::File;
 use std::io::BufReader;
 use std::path::Path;
 
-use anyhow::{Context, Result};
+use anyhow::{Context, Result, ensure};
 use serde_json::{Map, Value};
 use walkdir::WalkDir;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, write_acquisition};
 use crate::model::Candidate;
+use crate::registry::{MetadataPlan, unavailable_metadata};
 
-pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
+pub fn import(input: &Path, output: &Path, mut scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
 	let mut candidates = Vec::new();
 	let mut package_observations = Vec::new();
 	for entry in WalkDir::new(input).follow_links(false) {
@@ -22,7 +27,43 @@ pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<Str
 		package_observations.push(package_observation);
 	}
 	let inputs = [input.to_owned()];
-	write_acquisition(output, SnapshotMetadata::complete("npm", &inputs, scope), package_observations, candidates)
+	scope.insert("package-selection".to_owned(), "explicit-packages".to_owned());
+	let mut metadata = SnapshotMetadata::complete("npm", &inputs, scope);
+	metadata.status = SnapshotStatus::Partial;
+	write_acquisition(output, metadata, package_observations, candidates)
+}
+
+pub fn import_plan(
+	plan_path: &Path,
+	output: &Path,
+	mut scope: std::collections::BTreeMap<String, String>,
+) -> Result<usize> {
+	let plan = MetadataPlan::read(plan_path, "npm")?;
+	let mut candidates = Vec::new();
+	let mut packages = Vec::new();
+	for selected in &plan.packages {
+		if let Some(reason) = unavailable_metadata(&selected.path)? {
+			packages.push(PackageObservation {
+				name: selected.name.clone(),
+				version: None,
+				artifact_sha256: None,
+				status: PackageStatus::Failed,
+				variant: std::collections::BTreeMap::from([("reason".to_owned(), reason)]),
+			});
+			continue;
+		}
+		let (observations, package) = import_packument(&selected.path)?;
+		ensure!(package.name == selected.name, "expected npm package {}, found {}", selected.name, package.name);
+		candidates.extend(observations);
+		packages.push(package);
+	}
+	let inputs = plan.input_paths(plan_path);
+	scope.insert("package-selection".to_owned(), "curation-discovery".to_owned());
+	let mut metadata = SnapshotMetadata::complete("npm", &inputs, scope);
+	if packages.iter().any(|package| package.status == PackageStatus::Failed) {
+		metadata.status = SnapshotStatus::Partial;
+	}
+	write_acquisition(output, metadata, packages, candidates)
 }
 
 fn import_packument(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
@@ -34,16 +75,40 @@ fn import_packument(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)>
 		.and_then(Value::as_str)
 		.or_else(|| document.get("_id").and_then(Value::as_str))
 		.with_context(|| format!("{} has no package name", path.display()))?;
-	let version = document
-		.pointer("/dist-tags/latest")
-		.and_then(Value::as_str)
-		.with_context(|| format!("{} has no latest dist-tag", path.display()))?;
+	let Some(version) = document.pointer("/dist-tags/latest").and_then(Value::as_str) else {
+		let status = if document.pointer("/time/unpublished").is_some() {
+			PackageStatus::Removed
+		} else {
+			PackageStatus::Failed
+		};
+		return Ok((
+			Vec::new(),
+			PackageObservation {
+				name: package.to_owned(),
+				version: None,
+				artifact_sha256: None,
+				status,
+				variant: std::collections::BTreeMap::from([("reason".to_owned(), "no-latest-dist-tag".to_owned())]),
+			},
+		));
+	};
 	let manifest = document
 		.get("versions")
 		.and_then(Value::as_object)
 		.and_then(|versions| versions.get(version))
 		.and_then(Value::as_object)
 		.with_context(|| format!("{} has no manifest for {version}", path.display()))?;
+	if manifest.get("bin").is_none_or(Value::is_null)
+		&& manifest.contains_key("directories")
+		&& manifest["directories"].get("bin").is_some()
+	{
+		let mut observation = PackageObservation::observed(package, version);
+		observation.status = PackageStatus::Failed;
+		observation
+			.variant
+			.insert("reason".to_owned(), "directories.bin-needs-artifact-inspection".to_owned());
+		return Ok((Vec::new(), observation));
+	}
 	let executables = bin_names(package, manifest);
 	let repository = repository_url(manifest.get("repository"));
 

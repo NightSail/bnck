@@ -64,14 +64,17 @@ just import-distros
 
 Each distro can also be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition includes both the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture can be changed through the environment variables defined in their justfiles.
 
-For a full crates.io import, download and process the crates.io database dump:
+Acquire the language channels from broad registry catalogs, selecting metadata related to existing curated projects:
 
 ```sh
-just fetch-crates-dump
-just import-crates-dump
+just fetch-languages var/input/languages-2026-09-06
+just import-languages var/input/languages-2026-09-06
+just generate
 ```
 
-The crates.io database dump and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, while normalized acquisition output is written under `var/acquired/`.
+Use a fresh snapshot directory for each collection. crates.io uses its full database dump; npm uses a complete replication catalog scan followed by selected packuments; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
+
+The crates.io database dump, npm catalog, and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
 
 Show acquisition and provider record counts with:
 
@@ -99,6 +102,14 @@ Find curated or metadata-derived projects that may own a package:
 ```sh
 cargo run -- suggest-projects --channel debian --package ripgrep
 ```
+
+Generate a batch report of unowned language-registry packages related to existing projects:
+
+```sh
+cargo run -- suggest-registry-packages --output var/registry-suggestions.json
+```
+
+Review the evidence and upstream identity before adding package attributions. Name matches and copied repository URLs alone do not establish ownership.
 
 Suggestions are ranked using canonical repository and homepage URLs, package and source-package names, executable names, and existing curation ownership. Each result reports its matching evidence. The commands read only local acquisition and curation data and do not modify curations.
 

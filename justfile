@@ -1,6 +1,7 @@
 set shell := ['bash', '-eu', '-o', 'pipefail', '-c']
 
 bnck := 'cargo run --quiet --bin bnck --'
+bnck_bulk := 'cargo run --release --quiet --bin bnck --'
 
 import 'justfiles/arch.just'
 import 'justfiles/crates.just'
@@ -9,6 +10,7 @@ import 'justfiles/fedora.just'
 import 'justfiles/homebrew.just'
 import 'justfiles/npm.just'
 import 'justfiles/pypi.just'
+import 'justfiles/registries.just'
 
 default:
     @just --list

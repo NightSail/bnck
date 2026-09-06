@@ -1,3 +1,7 @@
+#[cfg(test)]
+#[path = "crates_io_tests.rs"]
+mod snapshot_tests;
+
 use std::collections::HashMap;
 use std::fs::{self, File};
 use std::io::BufReader;
@@ -8,8 +12,9 @@ use semver::Version;
 use serde::Deserialize;
 use serde_json::Value;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, SnapshotStatus, write_acquisition};
 use crate::model::Candidate;
+use crate::registry::CuratedScope;
 
 #[derive(Debug, Deserialize)]
 struct CrateRow {
@@ -39,15 +44,23 @@ pub fn import_dump(
 	crates_path: &Path,
 	versions_path: &Path,
 	output: &Path,
-	scope: std::collections::BTreeMap<String, String>,
+	mut scope: std::collections::BTreeMap<String, String>,
+	curations: Option<&Path>,
 ) -> Result<usize> {
-	let crates = read_crates(crates_path)?;
+	let selection = curations.map(|root| CuratedScope::load(root, "crates.io")).transpose()?;
+	let crates = read_crates(crates_path, selection.as_ref())?;
+	if selection.is_some() {
+		scope.insert("package-selection".to_owned(), "curation-discovery".to_owned());
+	}
 	let mut reader =
 		csv::Reader::from_path(versions_path).with_context(|| format!("open {}", versions_path.display()))?;
 	let mut selected = HashMap::<u64, (Version, VersionRow)>::new();
 
 	for row in reader.deserialize::<VersionRow>() {
 		let row = row.with_context(|| format!("parse {}", versions_path.display()))?;
+		if !crates.contains_key(&row.crate_id) {
+			continue;
+		}
 		let Ok(version) = Version::parse(&row.num) else {
 			continue;
 		};
@@ -78,7 +91,7 @@ pub fn import_dump(
 	write_acquisition(output, SnapshotMetadata::complete("crates.io", &inputs, scope), package_observations, candidates)
 }
 
-pub fn import_api(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
+pub fn import_api(input: &Path, output: &Path, mut scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
 	let mut candidates = Vec::new();
 	let mut package_observations = Vec::new();
 	for path in json_files(input)? {
@@ -128,15 +141,20 @@ pub fn import_api(input: &Path, output: &Path, scope: std::collections::BTreeMap
 	}
 
 	let inputs = [input.to_owned()];
-	write_acquisition(output, SnapshotMetadata::complete("crates.io", &inputs, scope), package_observations, candidates)
+	scope.insert("package-selection".to_owned(), "explicit-packages".to_owned());
+	let mut metadata = SnapshotMetadata::complete("crates.io", &inputs, scope);
+	metadata.status = SnapshotStatus::Partial;
+	write_acquisition(output, metadata, package_observations, candidates)
 }
 
-fn read_crates(path: &Path) -> Result<HashMap<u64, CrateRow>> {
+fn read_crates(path: &Path, selection: Option<&CuratedScope>) -> Result<HashMap<u64, CrateRow>> {
 	let mut reader = csv::Reader::from_path(path).with_context(|| format!("open {}", path.display()))?;
 	let mut crates = HashMap::new();
 	for row in reader.deserialize::<CrateRow>() {
 		let row = row.with_context(|| format!("parse {}", path.display()))?;
-		crates.insert(row.id, row);
+		if selection.is_none_or(|selection| selection.matches_metadata(&row.name, &row.homepage, &row.repository)) {
+			crates.insert(row.id, row);
+		}
 	}
 	Ok(crates)
 }
@@ -218,7 +236,7 @@ fn optional_string(object: &serde_json::Map<String, Value>, field: &str) -> Opti
 }
 
 fn nonempty(value: &str) -> Option<String> {
-	(!value.is_empty()).then(|| value.to_owned())
+	(!value.is_empty() && value != "\\N").then(|| value.to_owned())
 }
 
 fn csv_bool<'de, D>(deserializer: D) -> Result<bool, D::Error>

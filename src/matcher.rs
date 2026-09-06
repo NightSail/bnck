@@ -4,10 +4,11 @@ use std::path::Path;
 
 use anyhow::{Result, ensure};
 
-use crate::curation::{curated_package_projects, load_projects};
+use crate::curation::{curated_package_projects, curated_packages, load_projects};
 use crate::model::{Candidate, read_candidate_directory, validate_channel, validate_identity};
 
-#[derive(Clone, Copy, Debug, Eq, Ord, PartialEq, PartialOrd)]
+#[derive(Clone, Copy, Debug, Eq, Ord, PartialEq, PartialOrd, serde::Serialize)]
+#[serde(rename_all = "lowercase")]
 pub enum Confidence {
 	Weak,
 	Possible,
@@ -34,7 +35,7 @@ pub struct ProjectQuery {
 	pub links: Vec<String>,
 }
 
-#[derive(Debug, Eq, PartialEq)]
+#[derive(Debug, Eq, PartialEq, serde::Serialize)]
 pub struct PackageSuggestion {
 	pub confidence: Confidence,
 	pub channel: String,
@@ -147,6 +148,58 @@ pub fn suggest_projects(
 		(Reverse(suggestion.confidence), suggestion.id.clone().unwrap_or_default(), suggestion.name.clone())
 	});
 	suggestions.truncate(limit);
+	Ok(suggestions)
+}
+
+#[derive(serde::Serialize)]
+pub struct RegistrySuggestion {
+	pub project: String,
+	#[serde(flatten)]
+	pub package: PackageSuggestion,
+}
+
+pub fn suggest_registry_packages(acquisitions: &Path, curations: &Path) -> Result<Vec<RegistrySuggestion>> {
+	let channels = ["crates.io", "npm", "pypi"];
+	let mut owned = BTreeSet::new();
+	for channel in channels {
+		for name in curated_packages(curations, channel)? {
+			owned.insert((channel.to_owned(), name));
+		}
+	}
+	let packages = group_packages(read_candidate_directory(acquisitions)?);
+	let projects = load_projects(&curations.join("projects"))?;
+	let mut suggestions = Vec::new();
+	for project in projects.into_values() {
+		let query = ProjectQuery {
+			name: project.name,
+			homepage: project.homepage,
+			repository: project.repository,
+			links: project.links,
+		};
+		for ((channel, package), facts) in &packages {
+			if !channels.contains(&channel.as_str()) || owned.contains(&(channel.clone(), package.clone())) {
+				continue;
+			}
+			let Some(matched) = match_project(&query, package, facts) else {
+				continue;
+			};
+			if matched.confidence < Confidence::Strong {
+				continue;
+			}
+			suggestions.push(RegistrySuggestion {
+				project: project.id.clone(),
+				package: PackageSuggestion {
+					confidence: matched.confidence,
+					channel: channel.clone(),
+					package: package.clone(),
+					executables: facts.executables.iter().cloned().collect(),
+					evidence: matched.evidence,
+					homepages: facts.homepages.iter().cloned().collect(),
+					repositories: facts.repositories.iter().cloned().collect(),
+				},
+			});
+		}
+	}
 	Ok(suggestions)
 }
 
@@ -317,7 +370,7 @@ fn package_names(package: &str) -> BTreeSet<String> {
 	names
 }
 
-fn normalize_name(value: &str) -> String {
+pub(crate) fn normalize_name(value: &str) -> String {
 	value
 		.chars()
 		.filter(|character| character.is_ascii_alphanumeric())
@@ -330,7 +383,7 @@ fn urls_contain(values: &BTreeSet<String>, expected: &str) -> bool {
 	!expected.is_empty() && values.iter().any(|value| normalize_url(value) == expected)
 }
 
-fn repository_name(repository: &str) -> Option<&str> {
+pub(crate) fn repository_name(repository: &str) -> Option<&str> {
 	let repository = repository
 		.split(['?', '#'])
 		.next()?
@@ -339,7 +392,7 @@ fn repository_name(repository: &str) -> Option<&str> {
 	repository.rsplit(['/', ':']).next().filter(|name| !name.is_empty())
 }
 
-fn normalize_url(value: &str) -> String {
+pub(crate) fn normalize_url(value: &str) -> String {
 	let mut value = value
 		.trim()
 		.split(['?', '#'])

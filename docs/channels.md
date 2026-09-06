@@ -261,6 +261,8 @@ For casks, a declared `binary` artifact directly supplies a command candidate; u
 
 ## Language repositories
 
+The implemented [language registry workflow](language-registries.md) reads broad catalogs and selects metadata relevant to existing curated projects. It uses the full crates.io database dump, a paginated npm `_all_docs` catalog scan, and the PyPI Simple API project list. npm/PyPI collection is a retained non-atomic scan, not an incremental point-in-time mirror. The channel analyses below also describe stronger snapshot boundaries and optional metadata that are not yet implemented.
+
 ### crates.io
 
 #### Relevant data and retrieval
@@ -388,7 +390,7 @@ This order exercises the common manifest, metadata cache, URL normalization, and
 
 Keep the previous channel snapshot and process only new repository roots, index commits, replication changes, or journal serials. Reuse artifacts by digest. Generate a fresh immutable snapshot manifest even when most objects are shared with the previous acquisition.
 
-The acquisition schema supports explicit `removed` and `failed` package statuses. Current full-snapshot importers emit observed packages and replace the preceding snapshot; incremental tombstone production is not implemented. Published releases retain their snapshot manifests and are not mutated.
+The acquisition schema supports explicit `removed` and `failed` package statuses. Imports replace the preceding snapshot. Planned npm/PyPI imports record unavailable metadata and unsupported extraction as failures; npm also recognizes explicit unpublish metadata. Incremental tombstone production is not implemented. Published releases retain their snapshot manifests and are not mutated.
 
 ### Validation
 
