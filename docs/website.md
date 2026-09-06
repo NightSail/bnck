@@ -53,6 +53,8 @@ Search boxes contain only the name field and submit button. Channel links above 
 
 Empty results offer links to search all channels or all initials when the corresponding filter is active. When both filters are active, a “Clear both filters” link preserves the query while removing both restrictions. The links do not promise additional matches and require no extra queries when rendering the page. Unfiltered empty searches suggest a shorter name; an empty index states that no names are listed in this release. Browsing the full index remains available.
 
+Project and executable pages replace the header's Search link with a compact name-only search form before the Dataset link, leaving the identity information and provider listings uninterrupted. On narrow screens, the search form and Dataset link wrap below the brand. The form starts empty and submits a new lookup across all channels and initials; an empty submission browses the index. Home and search pages retain their existing main search forms without a duplicate header form.
+
 Detail routes retain exact, case-sensitive lookup semantics:
 
 ```text

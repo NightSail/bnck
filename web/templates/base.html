@@ -1,3 +1,4 @@
+{% from 'components.html' import search_form with context %}
 <!doctype html>
 <html lang='en'>
 <head>
@@ -10,13 +11,20 @@
 </head>
 <body>
 	<a class='skip-link' href='#main'>Skip to content</a>
-	<header class='site-header'>
+	<header class='site-header{% if site.has_header_search %} has-search{% endif %}'>
 		<a class='brand' href='/' aria-label='bnck(1): bin name check, home'>
 			<span title='Manual section 1: executable programs and shell commands'>bnck(1)</span>
 			<span class='brand-description'>bin name check</span>
 		</a>
 		<nav aria-label='Main navigation'>
+			{% if site.has_header_search %}
+			<div class='header-search'>
+				{{ search_form() }}
+				<p class='visually-hidden' id='search-hint'>Search by full or partial name.</p>
+			</div>
+			{% else %}
 			<a href='/' {% if site.section == 'index' %}aria-current='page'{% endif %}>Search</a>
+			{% endif %}
 			<a href='/about' {% if site.section == 'dataset' %}aria-current='page'{% endif %}>Dataset</a>
 		</nav>
 		<a class='release-tag' href='/about#bnck-database'><span>Release</span> {{ site.release }}</a>

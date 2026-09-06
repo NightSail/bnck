@@ -141,6 +141,12 @@ main,
 	min-height: 102px;
 	border-bottom: 1px solid var(--line);
 }
+.site-header.has-search {
+	gap: 24px;
+}
+.site-header.has-search nav {
+	align-items: center;
+}
 .brand {
 	display: flex;
 	align-items: baseline;
@@ -277,6 +283,44 @@ main {
 	color: var(--green);
 	text-decoration: underline;
 	text-underline-offset: 3px;
+}
+.header-search {
+	flex: 0 1 280px;
+	min-width: 220px;
+}
+.header-search .search-form {
+	border-width: 0 0 1px;
+	border-color: var(--line);
+	border-radius: 0;
+	background: transparent;
+}
+.header-search .search-form:focus-within {
+	border-color: var(--green);
+	box-shadow: none;
+}
+.header-search .search-input {
+	padding: 0;
+	gap: 8px;
+}
+.header-search .search-input input,
+.header-search .search-input button {
+	min-height: 32px;
+	padding: 3px 0;
+	font-size: 13px;
+}
+.header-search .search-input button {
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	color: var(--muted);
+	font-weight: 400;
+}
+.header-search .search-input button:hover {
+	color: var(--green);
+}
+.header-search .search-symbol,
+.header-search .search-input button span {
+	display: none;
 }
 .relation-card {
 	border: 1px solid var(--line);
@@ -965,6 +1009,9 @@ thead th {
 }
 
 @media (max-width: 1050px) {
+	.site-header.has-search .release-tag {
+		display: none;
+	}
 	.site-header,
 	main,
 	.site-footer {
@@ -1002,6 +1049,22 @@ thead th {
 	}
 	.release-tag {
 		display: none;
+	}
+	.site-header.has-search {
+		flex-wrap: wrap;
+		gap: 12px 24px;
+		padding-block: 16px;
+	}
+	.site-header.has-search nav {
+		flex: 1 1 100%;
+		gap: 12px;
+	}
+	.header-search {
+		flex: 1;
+		min-width: 0;
+	}
+	.header-search .search-input input {
+		font-size: 16px;
 	}
 	.hero {
 		grid-template-columns: 1fr;
@@ -1202,6 +1265,7 @@ thead th {
 	}
 	.site-header nav,
 	.release-tag,
+	.header-search,
 	.search-form,
 	.search-hint,
 	.back-link,

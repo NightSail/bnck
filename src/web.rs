@@ -775,6 +775,7 @@ fn render_page(database: &Database, template_name: &str, title: &str, page: Valu
 				title,
 				release => database.metadata_value("dataset_release"),
 				section => if template_name == "dataset.html" { "dataset" } else { "index" },
+				has_header_search => matches!(template_name, "project.html" | "executable.html"),
 			},
 			page,
 		})

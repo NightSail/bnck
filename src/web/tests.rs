@@ -1141,6 +1141,59 @@ async fn search_previews_three_executables_and_expands_the_remainder() {
 }
 
 #[tokio::test]
+async fn detail_pages_offer_one_unfiltered_search_form_in_the_header() {
+	let database = sample_database();
+	for response in [project_page(&database, "helix"), executable_page(&database, "hx")] {
+		let html = response_text(response).await;
+		assert_eq!(html.matches("<form ").count(), 1);
+		assert_eq!(html.matches("id='q'").count(), 1);
+		assert_eq!(html.matches("id='search-hint'").count(), 1);
+		assert!(html.contains("<label class='visually-hidden' for='q'>Executable name or project ID</label>"));
+		let header = html.split_once("<header class='site-header has-search'>").unwrap().1;
+		let header = header.split_once("</header>").unwrap().0;
+		let navigation = header.split_once("<nav aria-label='Main navigation'>").unwrap().1;
+		let navigation = navigation.split_once("</nav>").unwrap().0;
+		assert!(!navigation.contains(">Search</a>"));
+		assert!(navigation.find("</form>").unwrap() < navigation.find("href='/about'").unwrap());
+		assert!(header.contains("<p class='visually-hidden' id='search-hint'>Search by full or partial name.</p>"));
+		let form = header.split_once("<form class='search-form'").unwrap().1;
+		let form = form.split_once("</form>").unwrap().0;
+		assert!(form.contains("action='/' method='get' role='search'"));
+		assert!(form.contains("name='q' type='search' value=''"));
+		assert!(form.contains("maxlength='100'"));
+		assert!(form.contains("aria-describedby='search-hint'"));
+		assert!(form.contains("type='submit'"));
+		for field in ["channel", "initial", "page"] {
+			assert!(!form.contains(&format!("name='{field}'")));
+		}
+		assert!(!form.contains("<select"));
+		let main = html.split_once("<main id='main' tabindex='-1'>").unwrap().1;
+		let main = main.split_once("</main>").unwrap().0;
+		assert!(!main.contains("<form "));
+	}
+}
+
+#[tokio::test]
+async fn other_pages_keep_their_existing_forms_without_a_header_search() {
+	let database = Arc::new(sample_database());
+	for (response, form_count) in [
+		(search_page(&database, SearchQuery { q: None, ..search_query("") }), 1),
+		(search_page(&database, search_query("hx")), 1),
+		(search_page(&database, SearchQuery { page: 0, ..search_query("") }), 1),
+		(about(State(database.clone())).await, 0),
+	] {
+		let html = response_text(response).await;
+		let header = html.split_once("<header class='site-header'>").unwrap().1;
+		let header = header.split_once("</header>").unwrap().0;
+		assert!(!header.contains("<form "));
+		assert!(header.contains(">Search</a>"));
+		assert_eq!(html.matches("<form ").count(), form_count);
+		assert_eq!(html.matches("id='q'").count(), form_count);
+		assert_eq!(html.matches("id='search-hint'").count(), form_count);
+	}
+}
+
+#[tokio::test]
 async fn web_pages_hide_provider_record_details() {
 	for database in [Arc::new(sample_database()), Arc::new(fixture([]))] {
 		let mut pages = vec![
