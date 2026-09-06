@@ -31,19 +31,23 @@ The report includes project IDs, package names, executable declarations, matchin
 
 ## Batch acquisition
 
-Choose a fresh snapshot directory for each collection:
+Fetch and import all language channels without arguments:
 
 ```sh
-just fetch-languages var/input/languages-2026-09-06
-just import-languages var/input/languages-2026-09-06
+just fetch-languages
+just import-languages
 just generate
 ```
+
+Each fetch automatically creates a unique UTC-timestamped directory under `var/input/languages/` and prints its path. After every fetch stage succeeds, it atomically updates `var/input/languages/current`, a file containing that directory's absolute path. Imports read this selection once and use the same retained directory for all three channels. A failed fetch never replaces the previous selection; importing before the first completed fetch produces an explicit error. Earlier input directories are retained rather than overwritten.
+
+The root `justfile` variable `languages_input` controls the storage location when a different input root is needed.
 
 Bulk jobs use an optimized Rust build. Fetching is performed by curl through just recipes; Rust planning and import commands only read local files. The crates.io dump and npm catalog are large. The dump recipe extracts only the two required CSV tables and dump metadata, not download-history or other unrelated tables.
 
 The batch imports replace `var/acquired/crates-io.jsonl`, `npm.jsonl`, and `pypi.jsonl` and their adjacent manifests. Existing distro acquisitions remain unchanged. Retain the original snapshot directories and selected wheels: acquisition validation verifies their content identities when generating providers or releases.
 
-Each stage can also be run separately:
+Each stage can also be run separately with explicit paths. These jobs do not change the automatic batch selection:
 
 ```sh
 just fetch-crates-dump var/input/crates-next

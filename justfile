@@ -2,6 +2,7 @@ set shell := ['bash', '-eu', '-o', 'pipefail', '-c']
 
 bnck := 'cargo run --quiet --bin bnck --'
 bnck_bulk := 'cargo run --release --quiet --bin bnck --'
+languages_input := 'var/input/languages'
 
 import 'justfiles/arch.just'
 import 'justfiles/crates.just'
@@ -23,7 +24,7 @@ check:
     for file in justfile justfiles/*.just; do just --fmt --check --justfile "$file"; done
     cargo clippy --all-targets -- -D warnings
     cargo test
-    bun test ./web/*.test.js
+    bun test ./web/*.test.js ./tests/*.test.js
 
 format:
     cargo fmt
@@ -78,25 +79,48 @@ fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 import-distros: import-debian import-fedora import-arch import-homebrew
 
 # Acquire fresh bulk catalogs, then metadata relevant to existing curated projects.
-fetch-languages snapshot:
-    mkdir -p "$(dirname '{{ snapshot }}')"
-    mkdir '{{ snapshot }}'
-    just fetch-crates-dump '{{ snapshot }}/crates'
-    just fetch-npm-index '{{ snapshot }}/npm-index'
-    just fetch-registry-metadata npm '{{ snapshot }}/npm-index' '{{ snapshot }}/npm'
-    just fetch-pypi-index '{{ snapshot }}/pypi-index.json'
-    just fetch-registry-metadata pypi '{{ snapshot }}/pypi-index.json' '{{ snapshot }}/pypi'
-    just fetch-pypi-wheels '{{ snapshot }}/pypi'
+fetch-languages:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    mkdir -p '{{ languages_input }}'
+    inputs="$(cd '{{ languages_input }}' && pwd -P)"
+    if test -d "$inputs/current"; then
+        printf 'Language input selection must be a file: %s/current\n' "$inputs" >&2
+        exit 1
+    fi
+    snapshot="$(mktemp -d "$inputs/$(date -u '+%Y-%m-%dT%H%M%SZ').XXXXXX")"
+    printf 'Fetching language metadata into %s\n' "$snapshot"
+    just fetch-crates-dump "$snapshot/crates"
+    just fetch-npm-index "$snapshot/npm-index"
+    just fetch-registry-metadata npm "$snapshot/npm-index" "$snapshot/npm"
+    just fetch-pypi-index "$snapshot/pypi-index.json"
+    just fetch-registry-metadata pypi "$snapshot/pypi-index.json" "$snapshot/pypi"
+    just fetch-pypi-wheels "$snapshot/pypi"
+    # Publish the selection only after every fetch succeeds.
+    printf '%s\n' "$snapshot" > "$snapshot/current"
+    mv -f "$snapshot/current" "$inputs/current"
 
-import-languages snapshot:
-    just import-crates-dump '{{ snapshot }}/crates'
+import-languages:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    selection='{{ languages_input }}/current'
+    if test ! -f "$selection"; then
+        printf 'No completed language fetch. Run just fetch-languages first.\n' >&2
+        exit 1
+    fi
+    # Pin the selection once so concurrent refreshes cannot mix channel inputs.
+    if ! IFS= read -r snapshot < "$selection" || test ! -d "$snapshot"; then
+        printf 'Invalid language input selection: %s\n' "$selection" >&2
+        exit 1
+    fi
+    just import-crates-dump "$snapshot/crates"
     mkdir -p var/acquired
-    {{ bnck_bulk }} import-npm --plan '{{ snapshot }}/npm/metadata.json' --output '{{ npm_output }}' \
-    	--scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag' \
-    	--scope 'catalog-policy=bounded-non-atomic-scan'
-    {{ bnck_bulk }} import-pypi --plan '{{ snapshot }}/pypi/wheels.json' --output '{{ pypi_output }}' \
-    	--scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
-    	--scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
+    {{ bnck_bulk }} import-npm --plan "$snapshot/npm/metadata.json" --output '{{ npm_output }}' \
+        --scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag' \
+        --scope 'catalog-policy=bounded-non-atomic-scan'
+    {{ bnck_bulk }} import-pypi --plan "$snapshot/pypi/wheels.json" --output '{{ pypi_output }}' \
+        --scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
+        --scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
 
 stats:
     for file in var/acquired/*.jsonl; do printf '%-32s %s\n' "$file" "$(wc -l < "$file")"; done

@@ -4,7 +4,7 @@ This guide covers development, acquisition jobs, curations, release publication,
 
 ## Development checks
 
-Run `just check` with Rust, just, and Bun installed. It includes formatting checks, Clippy, Rust tests, browser unit tests, and comparisons of the JavaScript search results against SQLite:
+Run `just check` with Rust, just, and Bun installed. It includes formatting checks, Clippy, Rust tests, browser unit tests, acquisition-job tests, and comparisons of the JavaScript search results against SQLite:
 
 ```sh
 just check
@@ -67,12 +67,14 @@ Each distro can also be processed independently with `fetch-debian`, `fetch-fedo
 Acquire the language channels from broad registry catalogs, selecting metadata related to existing curated projects:
 
 ```sh
-just fetch-languages var/input/languages-2026-09-06
-just import-languages var/input/languages-2026-09-06
+just fetch-languages
+just import-languages
 just generate
 ```
 
-Use a fresh snapshot directory for each collection. crates.io uses its full database dump; npm uses a complete replication catalog scan followed by selected packuments; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
+Both jobs run without arguments. Each fetch creates a fresh directory under `var/input/languages/`; imports use the most recently completed fetch. Failed refreshes leave the previous completed inputs selected, and earlier input directories are retained.
+
+crates.io uses its full database dump; npm uses a complete replication catalog scan followed by selected packuments; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
 
 The crates.io database dump, npm catalog, and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
 
