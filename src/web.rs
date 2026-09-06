@@ -85,6 +85,7 @@ fn router(database: Arc<Database>) -> Router {
 		.route("/executables/{executable}/providers.json", get(exports::executable))
 		.route("/style.css", get(stylesheet))
 		.route("/exports.js", get(exports::script))
+		.route("/search.js", get(search_script))
 		.fallback(not_found)
 		.with_state(database)
 }
@@ -723,20 +724,27 @@ async fn about(State(database): State<Arc<Database>>) -> Response {
 }
 
 async fn stylesheet() -> Response {
-	match stylesheet_content() {
-		Ok(stylesheet) => (
-			StatusCode::OK,
+	static_asset_response(stylesheet_content(), "text/css; charset=utf-8")
+}
+
+async fn search_script() -> Response {
+	static_asset_response(search_script_content(), "text/javascript; charset=utf-8")
+}
+
+fn static_asset_response(content: Result<String>, content_type: &'static str) -> Response {
+	match content {
+		Ok(content) => (
 			[
-				(header::CONTENT_TYPE, HeaderValue::from_static("text/css; charset=utf-8")),
+				(header::CONTENT_TYPE, HeaderValue::from_static(content_type)),
 				(header::CACHE_CONTROL, HeaderValue::from_static(asset_cache_control())),
 				(header::X_CONTENT_TYPE_OPTIONS, HeaderValue::from_static("nosniff")),
 			],
-			stylesheet,
+			content,
 		)
 			.into_response(),
 		Err(error) => {
-			eprintln!("website stylesheet error: {error:#}");
-			(StatusCode::INTERNAL_SERVER_ERROR, "stylesheet unavailable").into_response()
+			eprintln!("website asset error: {error:#}");
+			(StatusCode::INTERNAL_SERVER_ERROR, "asset unavailable").into_response()
 		},
 	}
 }
@@ -824,6 +832,17 @@ fn stylesheet_content() -> Result<String> {
 #[cfg(not(debug_assertions))]
 fn stylesheet_content() -> Result<String> {
 	Ok(include_str!("../web/style.css").to_owned())
+}
+
+#[cfg(debug_assertions)]
+fn search_script_content() -> Result<String> {
+	let path = Path::new(env!("CARGO_MANIFEST_DIR")).join("web/search.js");
+	std::fs::read_to_string(&path).with_context(|| format!("read {}", path.display()))
+}
+
+#[cfg(not(debug_assertions))]
+fn search_script_content() -> Result<String> {
+	Ok(include_str!("../web/search.js").to_owned())
 }
 
 const fn asset_cache_control() -> &'static str {

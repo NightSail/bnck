@@ -7,7 +7,7 @@ use axum::http::{HeaderValue, StatusCode, header};
 use axum::response::{IntoResponse, Response};
 use serde::Serialize;
 
-use super::{Database, asset_cache_control};
+use super::{Database, static_asset_response};
 use crate::model::Provider;
 
 #[derive(Serialize)]
@@ -64,21 +64,7 @@ pub(super) async fn executable(State(database): State<Arc<Database>>, Path(execu
 }
 
 pub(super) async fn script() -> Response {
-	match script_content() {
-		Ok(script) => (
-			[
-				(header::CONTENT_TYPE, HeaderValue::from_static("text/javascript; charset=utf-8")),
-				(header::CACHE_CONTROL, HeaderValue::from_static(asset_cache_control())),
-				(header::X_CONTENT_TYPE_OPTIONS, HeaderValue::from_static("nosniff")),
-			],
-			script,
-		)
-			.into_response(),
-		Err(error) => {
-			eprintln!("website export script error: {error:#}");
-			(StatusCode::INTERNAL_SERVER_ERROR, "export script unavailable").into_response()
-		},
-	}
+	static_asset_response(script_content(), "text/javascript; charset=utf-8")
 }
 
 #[cfg(debug_assertions)]

@@ -920,6 +920,35 @@ async fn copy_script_is_served_as_a_same_origin_asset() {
 	assert!(script.contains("Copy failed. Use View JSON to copy manually."));
 }
 
+#[tokio::test]
+async fn search_shortcut_script_is_served_with_the_standard_asset_headers() {
+	let response = super::search_script().await;
+	assert_eq!(response.status(), StatusCode::OK);
+	assert_eq!(response.headers()[header::CONTENT_TYPE], "text/javascript; charset=utf-8");
+	assert_eq!(response.headers()[header::X_CONTENT_TYPE_OPTIONS], "nosniff");
+	assert_eq!(response.headers()[header::CACHE_CONTROL], super::asset_cache_control());
+	let script = response_text(response).await;
+	assert!(script.contains("aria-keyshortcuts"));
+	assert!(script.contains("event.key !== '/'"));
+}
+
+#[tokio::test]
+async fn search_shortcut_is_loaded_once_on_main_and_detail_pages() {
+	let database = Arc::new(sample_database());
+	for response in [
+		search_page(&database, SearchQuery { q: None, ..search_query("") }),
+		search_page(&database, search_query("hx")),
+		search_page(&database, SearchQuery { page: 0, ..search_query("") }),
+		project_page(&database, "helix"),
+		executable_page(&database, "hx"),
+		about(State(database.clone())).await,
+	] {
+		let html = response_text(response).await;
+		assert_eq!(html.matches("<script type='module' src='/search.js'></script>").count(), 1);
+		assert!(!html.contains("onkeydown="));
+	}
+}
+
 #[test]
 fn project_matrix_orders_and_deduplicates_exact_channel_package_relations() {
 	let database = fixture(MATRIX_RECORDS.iter().copied().map(provider));
@@ -1317,6 +1346,7 @@ async fn detail_pages_offer_one_unfiltered_search_form_in_the_header() {
 		let form = form.split_once("</form>").unwrap().0;
 		assert!(form.contains("action='/' method='get' role='search'"));
 		assert!(form.contains("name='q' type='search' value=''"));
+		assert!(form.contains("placeholder='Press / to'"));
 		assert!(form.contains("maxlength='100'"));
 		assert!(form.contains("aria-describedby='search-hint'"));
 		assert!(form.contains("type='submit'"));
@@ -1387,6 +1417,7 @@ async fn search_boxes_have_no_channel_selector() {
 		let (_, form) = html.split_once("<form class='search-form'").unwrap();
 		let (form, _) = form.split_once("</form>").unwrap();
 		assert!(form.contains("name='q'"));
+		assert!(form.contains("placeholder='Press / to'"));
 		assert!(form.contains("type='submit'"));
 		assert!(!form.contains("<select"));
 		assert!(!form.contains("search-filters"));

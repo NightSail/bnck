@@ -55,6 +55,8 @@ Empty results offer links to search all channels or all initials when the corres
 
 Project and executable pages replace the header's Search link with a compact name-only search form before the Dataset link, leaving the identity information and provider listings uninterrupted. On narrow screens, the search form and Dataset link wrap below the brand. The form starts empty and submits a new lookup across all channels and initials; an empty submission browses the index. Home and search pages retain their existing main search forms without a duplicate header form.
 
+With JavaScript enabled, `/` focuses the page's search box and selects its current query. The shortcut ignores inputs, textareas, selects, editable content, IME composition, and events already handled elsewhere. Ctrl, Alt, and Meta combinations are left alone; Shift is allowed when needed to type `/` on a keyboard layout. The input advertises the shortcut through a tooltip and `aria-keyshortcuts`. Pages without a search box retain their normal keyboard behavior. The script is `web/search.js`, with tests run by `bun test ./web/search.test.js`.
+
 Detail routes retain exact, case-sensitive lookup semantics:
 
 ```text
@@ -94,7 +96,7 @@ Each successful response begins with `dataset_release`, prefixed with `bnck:rele
 
 Responses use `application/json` without an attachment disposition. Successful exports are tab-indented with a trailing newline. An unknown exact identity returns HTTP 404 with a JSON `error` message, not an empty result. Export failures return HTTP 500 with a JSON `error` message without internal database details. Query parameters do not filter or paginate these exports.
 
-SQLite reads and JSON serialization run on the blocking thread pool. Viewing exports requires no JavaScript. The optional clipboard script at `web/exports.js` adds no dependencies, data tables, or external services. Its unit tests run with `bun test web/exports.test.js`.
+SQLite reads and JSON serialization run on the blocking thread pool. Viewing exports requires no JavaScript. The optional clipboard script at `web/exports.js` adds no dependencies, data tables, or external services. Its unit tests run with `bun test ./web/exports.test.js`.
 
 ## Truthfulness
 
@@ -108,8 +110,8 @@ The dataset page identifies the release and generation date. Artifact schemas, d
 
 `src/web.rs` serves read-only SQLite queries through Axum and renders MiniJinja templates under `web/templates/`. Shared forms, statistics, provider tables, and snapshot notes live in `components.html`. The stylesheet is `web/style.css`.
 
-SQLite query tasks run on the blocking thread pool, with a separate read-only connection per operation. Search values are bound SQL parameters. Responses retain HTML escaping and encoded name segments. The HTML content security policy allows same-origin scripts and fetches for clipboard copying, while continuing to block inline scripts and third-party scripts or connections. JSON responses continue to disallow loaded resources through their content security policy.
+SQLite query tasks run on the blocking thread pool, with a separate read-only connection per operation. Search values are bound SQL parameters. Responses retain HTML escaping and encoded name segments. The HTML content security policy allows same-origin scripts for the search shortcut and clipboard copying, and same-origin fetches for exports, while continuing to block inline scripts and third-party scripts or connections. JSON responses continue to disallow loaded resources through their content security policy.
 
-Debug builds reload templates, CSS, and the clipboard script on each request. Release builds embed all three, including shared templates. The server accepts compressed or uncompressed SQLite artifacts and does not modify the source artifact.
+Debug builds reload templates, CSS, and the optional scripts on each request. Release builds embed the same assets, including shared templates. The server accepts compressed or uncompressed SQLite artifacts and does not modify the source artifact.
 
 Forms have explicit labels, tables have captions and scoped headings, keyboard navigation has visible focus and a skip link, and the layout works down to a 320-pixel viewport. Search and pagination work with JavaScript disabled.
