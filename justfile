@@ -77,6 +77,27 @@ fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 
 import-distros: import-debian import-fedora import-arch import-homebrew
 
+# Acquire fresh bulk catalogs, then metadata relevant to existing curated projects.
+fetch-languages snapshot:
+    mkdir -p "$(dirname '{{ snapshot }}')"
+    mkdir '{{ snapshot }}'
+    just fetch-crates-dump '{{ snapshot }}/crates'
+    just fetch-npm-index '{{ snapshot }}/npm-index'
+    just fetch-registry-metadata npm '{{ snapshot }}/npm-index' '{{ snapshot }}/npm'
+    just fetch-pypi-index '{{ snapshot }}/pypi-index.json'
+    just fetch-registry-metadata pypi '{{ snapshot }}/pypi-index.json' '{{ snapshot }}/pypi'
+    just fetch-pypi-wheels '{{ snapshot }}/pypi'
+
+import-languages snapshot:
+    just import-crates-dump '{{ snapshot }}/crates'
+    mkdir -p var/acquired
+    {{ bnck_bulk }} import-npm --plan '{{ snapshot }}/npm/metadata.json' --output '{{ npm_output }}' \
+    	--scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag' \
+    	--scope 'catalog-policy=bounded-non-atomic-scan'
+    {{ bnck_bulk }} import-pypi --plan '{{ snapshot }}/pypi/wheels.json' --output '{{ pypi_output }}' \
+    	--scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
+    	--scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
+
 stats:
     for file in var/acquired/*.jsonl; do printf '%-32s %s\n' "$file" "$(wc -l < "$file")"; done
     if test -f var/providers.jsonl; then printf '%-32s %s\n' var/providers.jsonl "$(wc -l < var/providers.jsonl)"; fi

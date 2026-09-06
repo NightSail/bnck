@@ -1,53 +1,3 @@
-pypi_wheel_cache := 'var/cache/pypi/wheels'
-
-# Acquire fresh bulk catalogs, then metadata relevant to existing curated projects.
-fetch-languages snapshot:
-    mkdir -p "$(dirname '{{ snapshot }}')"
-    mkdir '{{ snapshot }}'
-    just fetch-crates-dump '{{ snapshot }}/crates'
-    just fetch-npm-index '{{ snapshot }}/npm-index'
-    just fetch-registry-metadata npm '{{ snapshot }}/npm-index' '{{ snapshot }}/npm'
-    just fetch-pypi-index '{{ snapshot }}/pypi-index.json'
-    just fetch-registry-metadata pypi '{{ snapshot }}/pypi-index.json' '{{ snapshot }}/pypi'
-    just fetch-pypi-wheels '{{ snapshot }}/pypi'
-
-import-languages snapshot:
-    just import-crates-dump '{{ snapshot }}/crates'
-    mkdir -p var/acquired
-    {{ bnck_bulk }} import-npm --plan '{{ snapshot }}/npm/metadata.json' --output '{{ npm_output }}' \
-    	--scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag' \
-    	--scope 'catalog-policy=bounded-non-atomic-scan'
-    {{ bnck_bulk }} import-pypi --plan '{{ snapshot }}/pypi/wheels.json' --output '{{ pypi_output }}' \
-    	--scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
-    	--scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
-
-# Inclusive keyset pagination retains page responses without mirroring npm tarballs.
-fetch-npm-index directory:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    mkdir -p "$(dirname '{{ directory }}')"
-    mkdir '{{ directory }}'
-    url='https://replicate.npmjs.com/_all_docs?limit=10000'
-    page=0
-    while true; do
-        output="$(printf '{{ directory }}/%06d.json' "$page")"
-        curl --fail --location --compressed --retry 3 --connect-timeout 20 --max-time 180 \
-            --output "$output.tmp" "$url"
-        mv "$output.tmp" "$output"
-        {{ bnck_bulk }} plan-npm-page --input "$output" --output '{{ directory }}/next-url'
-        if ! IFS= read -r url < '{{ directory }}/next-url'; then break; fi
-        page=$((page + 1))
-        sleep 0.1
-    done
-    touch '{{ directory }}/complete'
-
-fetch-pypi-index output:
-    test ! -e '{{ output }}'
-    mkdir -p "$(dirname '{{ output }}')"
-    curl --fail --location --compressed --retry 3 --connect-timeout 20 --max-time 180 \
-    	--header 'Accept: application/vnd.pypi.simple.v1+json' --output '{{ output }}.tmp' 'https://pypi.org/simple/'
-    mv '{{ output }}.tmp' '{{ output }}'
-
 fetch-registry-metadata channel index snapshot:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -81,15 +31,3 @@ fetch-registry-plan channel downloads:
         mv "$output.tmp" "$output"
         sleep 0.1
     done < '{{ downloads }}'
-
-fetch-pypi-wheels snapshot:
-    mkdir -p '{{ pypi_wheel_cache }}'
-    {{ bnck_bulk }} plan-pypi-snapshot --metadata '{{ snapshot }}/metadata.json' \
-    	--output-directory '{{ pypi_wheel_cache }}' --output '{{ snapshot }}/wheels.json'
-    while IFS=$'\t' read -r url output; do \
-    	if test ! -f "$output"; then \
-    		curl --fail --location --retry 3 --connect-timeout 20 --max-time 600 \
-    			--proto '=https' --proto-redir '=https' --output "$output.tmp" "$url"; \
-    		mv "$output.tmp" "$output"; \
-    	fi; \
-    done < '{{ snapshot }}/wheels.tsv'

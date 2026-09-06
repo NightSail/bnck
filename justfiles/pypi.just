@@ -1,5 +1,6 @@
 pypi_input := 'var/input/pypi'
 pypi_output := 'var/acquired/pypi.jsonl'
+pypi_wheel_cache := 'var/cache/pypi/wheels'
 
 fetch-pypi package:
     mkdir -p '{{ pypi_input }}/simple' '{{ pypi_input }}/plans' '{{ pypi_input }}/wheels'
@@ -22,3 +23,22 @@ import-pypi:
     	--output '{{ pypi_output }}' \
     	--scope 'index=https://pypi.org/simple/' \
     	--scope 'release-policy=latest-listed-wheel'
+
+fetch-pypi-index output:
+    test ! -e '{{ output }}'
+    mkdir -p "$(dirname '{{ output }}')"
+    curl --fail --location --compressed --retry 3 --connect-timeout 20 --max-time 180 \
+    	--header 'Accept: application/vnd.pypi.simple.v1+json' --output '{{ output }}.tmp' 'https://pypi.org/simple/'
+    mv '{{ output }}.tmp' '{{ output }}'
+
+fetch-pypi-wheels snapshot:
+    mkdir -p '{{ pypi_wheel_cache }}'
+    {{ bnck_bulk }} plan-pypi-snapshot --metadata '{{ snapshot }}/metadata.json' \
+    	--output-directory '{{ pypi_wheel_cache }}' --output '{{ snapshot }}/wheels.json'
+    while IFS=$'\t' read -r url output; do \
+    	if test ! -f "$output"; then \
+    		curl --fail --location --retry 3 --connect-timeout 20 --max-time 600 \
+    			--proto '=https' --proto-redir '=https' --output "$output.tmp" "$url"; \
+    		mv "$output.tmp" "$output"; \
+    	fi; \
+    done < '{{ snapshot }}/wheels.tsv'
