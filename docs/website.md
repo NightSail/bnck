@@ -4,7 +4,7 @@
 
 The website is a reference interface to the [provider dataset](design.md), not a software directory or package installer. Its primary tasks are finding the projects and distribution packages behind an executable name, and finding the executables provided by a canonical project.
 
-The visual hierarchy follows those tasks: search first, identities second, provider relations next, and release context alongside the results. A dark, terminal-informed theme uses graphite surfaces, restrained green and cyan accents, and monospace headings, controls, and exact dataset values. Explanatory prose remains proportional, while forms, tables, and navigation retain web-native behavior. There is no simulated terminal window, command session, or animated cursor. Search, browsing, and JSON viewing work without JavaScript; clipboard copying is an optional enhancement. The site uses no external fonts or third-party services.
+The visual hierarchy follows those tasks: search first, identities second, provider relations next, and release context alongside the results. A dark, terminal-informed theme uses graphite surfaces, restrained green and cyan accents, and monospace headings, controls, and exact dataset values. Explanatory prose remains proportional, while forms, tables, and navigation retain web-native behavior. There is no simulated terminal window, command session, or animated cursor. Search, filtering, and pagination use vanilla JavaScript over a locally loaded dataset. Identity pages, dataset information, and JSON viewing are static and work without JavaScript; clipboard copying is an optional enhancement. The site uses no external fonts or third-party services.
 
 The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands.
 
@@ -24,7 +24,7 @@ Package links display the exact channel-native package name rather than the URL.
 
 ## Search contract
 
-Search uses GET requests to `/` so results can be bookmarked and shared.
+Search uses GET-style query URLs at `/` so results can be bookmarked and shared. The static home page reads those parameters and computes results in the browser. On the home/search page, forms, filter links, and pagination update browser history without reloading the document; Back/Forward navigation restores the URL's search state. Modified clicks and links to other pages retain native browser behavior.
 
 | Parameter | Meaning | Default |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Each group previews up to three executable rows. Additional rows use the same fo
 
 An initial filter above the results offers “All” and only the initials present in projects matching the current query and channel. Letters are shown as A–Z; `#` groups names starting with numbers or symbols. Available initials are computed before initial filtering and pagination, so selecting one does not hide the other choices. Selecting an initial preserves the query and channel and starts at page one; “All” clears only the initial filter. Refining the query preserves the selected initial.
 
-Each page contains at most 30 projects. Totals count matching projects across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results returns HTTP 404.
+Each page contains at most 30 projects. Totals count matching projects across all pages. A project's executable list is never split across pages. Case variants of executable names remain distinct. Pagination preserves the query and filters; submitting the search form starts at page one. A page beyond the available results displays an explicit error, not an empty match list. Invalid query parameters also display an error. Static hosting returns the same root HTML regardless of query parameters, so these errors do not change the HTTP status.
 
 Search boxes contain only the name field and submit button. Channel links above the results offer “All channels” and each supported channel, including channels without matching records. Selecting a channel preserves the query and initial filter and starts at page one. Channel filters apply to matches, group membership, totals, and executable rows. Active channel and initial filters are shown above the results with separate “Clear channel” and “Clear initial” links. Each clears only its own filter, preserving the query and the other filter and returning to page one. Reset search clears the query and both filters. Each group includes all related names in the selected channel, not only matching names. Detail links deliberately open the full identity across all channels. Search does not match package names or descriptions.
 
@@ -68,7 +68,7 @@ Detail routes retain exact, case-sensitive lookup semantics:
 
 ## JSON exports
 
-Project and executable detail pages offer “Copy JSON” and “View JSON” actions for their accepted mappings. View JSON is an ordinary link that opens formatted JSON inline for inspection and manual copying. Copy JSON is shown only when the first-party script loads and clipboard APIs are available in a secure context, normally HTTPS or localhost. The actions use the existing exact, case-sensitive lookups and include all related channels and packages, without pagination or filtering. No export payload is embedded in the page or fetched until an action is used.
+Project and executable detail pages offer “Copy JSON” and “View JSON” actions for their accepted mappings. View JSON is an ordinary link that opens formatted JSON inline for inspection and manual copying. Copy JSON is shown only when the first-party script loads and clipboard APIs are available in a secure context, normally HTTPS or localhost. The actions use the existing exact, case-sensitive lookups and include all related channels and packages, without pagination or filtering. No export payload is embedded in the detail page or fetched until an action is used. The separate browser search dataset contains the full accepted mappings and curated project links.
 
 Copy JSON fetches the export on demand and copies tab-indented plain text. After the clipboard write completes, the button shows “JSON copied” for two seconds before returning to “Copy JSON”. Loading and success announcements remain available to assistive technology without adding a visible line or shifting the surrounding content. Failed requests, invalid JSON, and rejected clipboard access produce an explicit failure message pointing to View JSON. Fetches time out after ten seconds, and the copy button is disabled while an attempt is pending. Where supported, a promised clipboard item starts the write during the click gesture so fetching does not lose user activation.
 
@@ -94,9 +94,9 @@ Each successful response begins with `dataset_release`, prefixed with `bnck:rele
 }
 ```
 
-Responses use `application/json` without an attachment disposition. Successful exports are tab-indented with a trailing newline. An unknown exact identity returns HTTP 404 with a JSON `error` message, not an empty result. Export failures return HTTP 500 with a JSON `error` message without internal database details. Query parameters do not filter or paginate these exports.
+Responses use `application/json` without an attachment disposition. Successful exports are tab-indented with a trailing newline. An unknown exact identity has no generated export file and returns the static host's HTTP 404 response, which need not be JSON. Query parameters do not filter or paginate these exports. Exports are generated with the rest of the site; generation failures abort publication rather than leaving partial pages or exports.
 
-SQLite reads and JSON serialization run on the blocking thread pool. Viewing exports requires no JavaScript. The optional clipboard script at `web/exports.js` adds no dependencies, data tables, or external services. Its unit tests run with `bun test ./web/exports.test.js`.
+SQLite reads and JSON serialization happen at build time. Viewing exports requires no JavaScript. The optional clipboard script at `web/exports.js` adds no dependencies or external services. Its unit tests run with `bun test ./web/exports.test.js`.
 
 ## Truthfulness
 
@@ -108,10 +108,33 @@ The dataset page identifies the release and generation date. Artifact schemas, d
 
 ## Implementation
 
-`src/web.rs` serves read-only SQLite queries through Axum and renders MiniJinja templates under `web/templates/`. Shared forms, statistics, provider tables, and snapshot notes live in `components.html`. The stylesheet is `web/style.css`.
+`src/web/static_site.rs` implements `generate-site`. It opens the compressed or uncompressed SQLite artifact read-only and reuses the MiniJinja environment and detail-page models in `src/web.rs`. Shared forms, statistics, provider tables, and snapshot notes live in `web/templates/components.html`. The stylesheet is `web/style.css`. Debug builds read templates and browser assets from disk during generation; release builds embed the same files.
 
-SQLite query tasks run on the blocking thread pool, with a separate read-only connection per operation. Search values are bound SQL parameters. Responses retain HTML escaping and encoded name segments. The HTML content security policy allows same-origin scripts for the search shortcut and clipboard copying, and same-origin fetches for exports, while continuing to block inline scripts and third-party scripts or connections. JSON responses continue to disallow loaded resources through their content security policy.
+The generated browser dataset has `schema_version`, `dataset_release`, `generated_at`, supported channel keys and labels, and projects containing exact names, curated links, and executable/channel/package relations. It is a derived website artifact, not a replacement for the canonical release formats. CSS and JavaScript modules share `/assets/app.<hash>/`, hashed only from those files, so relative module imports remain intact. The browser dataset is a separate `/assets/dataset.<hash>.json`, hashed from its JSON bytes. Generated HTML references both URLs explicitly. Dataset-only changes retain the application URLs, application-only changes retain the dataset URL, and byte-identical rebuilds retain both.
 
-Debug builds reload templates, CSS, and the optional scripts on each request. Release builds embed the same assets, including shared templates. The server accepts compressed or uncompressed SQLite artifacts and does not modify the source artifact.
+`web/dataset.js` lazily fetches JSON on the first search or browse request, checks its schema and release, and builds an in-memory index. Concurrent and subsequent lookups share that fetch and index. Loading the home page without search parameters or opening an identity page does not download the dataset. Failed loads time out after ten seconds and offer an explicit retry. HTTP caching handles repeat visits; there is no service worker, IndexedDB, SQLite runtime, or offline-availability guarantee.
 
-Forms have explicit labels, tables have captions and scoped headings, keyboard navigation has visible focus and a skip link, and the layout works down to a 320-pixel viewport. Search and pagination work with JavaScript disabled.
+`web/query.js` implements the search contract, including Rust-compatible whitespace trimming, ASCII case folding, Unicode scalar ordering, and whole-project pagination. `web/results.js` escapes all inserted dataset values and queries and encodes name segments in links. `web/browser.js` coordinates rendering, URLs, history, loading/error announcements, and stale-request protection. Search navigation focuses the main content, while initial loads do not take focus. The slash shortcut finds the current search input after navigation.
+
+Forms have explicit labels, tables have captions and scoped headings, keyboard navigation has visible focus and a skip link, and the layout works down to a 320-pixel viewport. Native executable disclosures require no additional JavaScript. A no-JavaScript notice on the home page explains that search and filtered browsing need scripting.
+
+`bun test ./web/*.test.js` tests query validation, rendering, caching, retry behavior, history, stale requests, and optional enhancements. Rust tests validate generated pages and exports, failure cleanup, deterministic asset identities, and browser/SQLite search parity; the parity test invokes Bun. The existing `serve` command retains the SQLite-backed interface for server-rendered development and query comparisons.
+
+## Static deployment
+
+Generate into a fresh output directory. The generator stages the entire build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`. The root contains `index.html`, `about/index.html`, `404.html`, `_headers`, and the content-addressed `assets/` directory.
+
+Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components cause generation to fail; case collisions on a case-insensitive build filesystem also fail rather than overwrite pages.
+
+The generated `_headers` file supplies settings for hosts supporting that convention. Other hosts must configure equivalent response headers:
+
+- HTML and JSON exports: `Cache-Control: no-cache`
+- `/assets/*`: `Cache-Control: public, max-age=31536000, immutable`
+- All responses: `X-Content-Type-Options: nosniff`
+- Content security policy: `default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'`
+
+Serve HTML as `text/html`, JSON as `application/json` without attachment disposition, CSS as `text/css`, and modules as `text/javascript` or `application/javascript`. Enable HTTP Brotli or gzip compression at the host; browsers decompress these responses automatically. No application-level compressed payload or decoder is shipped.
+
+Publish each build's pages and assets atomically, retaining previous application directories and dataset files so already-open pages can still load matching code and data. Regenerate all pages and exports from the same release; never change the contents at an existing content-addressed URL. Browser caches may evict files and must be allowed to fetch them again.
+
+`just preview` runs the dependency-free Bun server in `web/preview.js` on localhost. It serves generated files with directory index lookup, cache/security headers, and a real 404 fallback. It is a local preview tool, not a production hosting requirement.

@@ -116,25 +116,31 @@ just sign-release var/releases/bnck-2026-04-16.1 /path/to/minisign.key
 
 ## Website
 
-Start the local search and browsing interface with the generated SQLite artifact:
+Generate a fully static website from the compressed or uncompressed SQLite artifact, then preview it locally with Bun:
 
 ```sh
-just serve
+just generate-site
+just preview
 ```
 
-The site listens on `http://127.0.0.1:3000` by default. Search executable names and canonical project IDs, or leave the name empty to browse. Results group executables by owning project, with matching commands first, expandable executable lists, and channels for each executable. Matching text is highlighted in project and executable names. Channel-specific browse links narrow the results. An A–Z/# row filters project initials, showing only initials with matching results. Paginated results link to exact-name detail pages showing every accepted channel and package relation. All navigation works without JavaScript.
+The generator writes `var/site/` and refuses to overwrite an existing output directory. Use a fresh output path for each build. No application server or browser database runtime is required in production:
+
+```sh
+cargo run -- generate-site \
+	--database var/bnck.sqlite.zst \
+	--output var/site-next
+bun web/preview.js var/site-next 3000
+```
+
+The preview listens on `http://127.0.0.1:3000` by default. Search executable names and canonical project IDs, or leave the name empty to browse. Results group executables by owning project, with matching commands first, expandable executable lists, and channels for each executable. Matching text is highlighted in project and executable names. Channel-specific browse links narrow the results. An A–Z/# row filters project initials, showing only initials with matching results. Search, filtering, and pagination run locally in vanilla JavaScript after loading a versioned JSON dataset. Query URLs remain bookmarkable, and Back/Forward navigation restores the search state. Project pages, executable pages, dataset information, and per-identity JSON exports are pre-rendered and work without JavaScript.
 
 The dataset page at `/about` defines result fields, explains coverage limits, and lists channel counts and the release date. The [website design](docs/website.md) documents the views and search contract.
 
-HTML templates live under `web/templates/`, and the stylesheet is `web/style.css`. Debug builds reload these files from disk on every request, so edits appear after refreshing the browser without restarting the server. Release builds embed the same files in the executable.
+Publish the output directory at the origin root on a case-sensitive static host with directory index support. Paths such as `/projects/helix` resolve to `projects/helix/index.html`; hosts may redirect to a trailing slash. Configure the generated `404.html` as the error page, not an SPA fallback. Enable HTTP Brotli or gzip compression, serve `.json` as `application/json` and `.js` as JavaScript, and apply the generated `_headers` file or equivalent host settings. HTML and exports revalidate; the content-addressed `/assets/` files cache immutably. Application assets and the dataset have independent hashes, so a dataset update does not invalidate unchanged scripts or stylesheets. Deploy pages and assets together and retain previous application directories and dataset files so already-open pages can finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
 
-The server accepts either the compressed release artifact or an uncompressed SQLite database. A compressed artifact is decompressed to a temporary file, then every connection is opened read-only:
+HTML templates live under `web/templates/`, and the stylesheet is `web/style.css`. Debug builds read these files and browser modules from disk during generation; release builds embed them. Rebuild the static output after edits. The existing SQLite-backed interface remains available through `just serve` for server-rendered development and query comparisons.
 
-```sh
-cargo run -- serve \
-	--database var/bnck.sqlite.zst \
-	--address 127.0.0.1:3000
-```
+Run `just check` with Rust, just, and Bun installed. It includes Rust tests, browser unit tests, and comparisons of the JavaScript search results against SQLite.
 
 ## Curation suggestions
 
