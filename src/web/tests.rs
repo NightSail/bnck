@@ -142,13 +142,23 @@ fn assert_executable_row(html: &str, project: &str, executable: &str, channels: 
 	assert_eq!(html.matches(&href).count(), 1);
 	let row = html.split_once(&href).unwrap().1.split_once("</li>").unwrap().0;
 	let row = row.split_whitespace().collect::<Vec<_>>().join(" ");
-	let channel_text = row.split_once("(1)</code></a>: ").unwrap().1.trim();
+	let channel_text = row.split_once("(1)</code></a>").unwrap().1.trim();
 	let channel_text = channel_text.strip_suffix(EXACT_MATCH_TAG).unwrap_or(channel_text);
-	assert_eq!(channel_text.trim(), channels);
+	let expected = if channels.is_empty() { String::new() } else { format!(": {channels}") };
+	assert_eq!(channel_text.trim(), expected);
 }
 
 fn sample_database() -> Database {
 	fixture(RECORDS.iter().copied().map(provider))
+}
+
+fn search_link_query(html: &str, label: &str) -> SearchQuery {
+	let html = html.split_whitespace().collect::<Vec<_>>().join(" ");
+	let link = html.split("</a>").find(|link| link.ends_with(label)).unwrap();
+	let href = link.rsplit_once("href='").unwrap().1.split_once('\'').unwrap().0;
+	let uri = href.replace("&#x2f;", "/").replace("&amp;", "&").parse().unwrap();
+	let Query(search) = Query::<SearchQuery>::try_from_uri(&uri).unwrap();
+	search
 }
 
 async fn response_text(response: Response) -> String {
@@ -529,6 +539,118 @@ fn initial_links_preserve_search_context_encode_symbols_and_reset_the_page() {
 	}
 }
 
+#[test]
+fn channel_links_preserve_query_and_initial_while_resetting_pagination() {
+	for channel in ["", "npm"] {
+		let search =
+			SearchQuery { channel: channel.to_owned(), initial: "#".to_owned(), page: 4, ..search_query(" a & é?# ") };
+		let links = search.channel_links();
+		assert_eq!(links.len(), super::CHANNELS.len() + 1);
+		assert_eq!(links.iter().filter(|link| link.is_current).count(), 1);
+		for (link, expected_channel) in links.iter().zip(std::iter::once("").chain(super::CHANNELS)) {
+			let Query(parsed) = Query::<SearchQuery>::try_from_uri(&link.url.parse().unwrap()).unwrap();
+			assert_eq!(parsed.query(), "a & é?#");
+			assert_eq!(parsed.initial, "#");
+			assert_eq!(parsed.channel, expected_channel);
+			assert_eq!(parsed.page, 1);
+			assert_eq!(link.is_current, channel == expected_channel);
+		}
+	}
+}
+
+#[tokio::test]
+async fn channel_choices_remain_available_outside_the_search_form() {
+	for database in [sample_database(), fixture([])] {
+		let search = SearchQuery { channel: "npm".to_owned(), ..search_query("hx") };
+		let html = response_text(search_page(&database, search)).await;
+		let navigation = html.split_once("<nav class='channel-filter'").unwrap().1;
+		let navigation = navigation.split_once("</nav>").unwrap().0;
+		assert!(navigation.contains("aria-label='Filter matches by channel'"));
+		assert_eq!(navigation.matches("<a ").count(), super::CHANNELS.len() + 1);
+		assert_eq!(navigation.matches("aria-current='true'").count(), 1);
+		assert!(navigation.contains("aria-current='true'>npm</a>"));
+		assert!(navigation.contains(">All channels</a>"));
+		for channel in super::CHANNELS {
+			assert!(navigation.contains(&format!(">{}</a>", super::channel_label(channel))));
+		}
+		assert!(html.find("</form>").unwrap() < html.find("class='channel-filter'").unwrap());
+		assert!(html.find("class='channel-filter'").unwrap() < html.find("class='initial-filter'").unwrap());
+	}
+}
+
+#[tokio::test]
+async fn clearing_a_filter_preserves_the_query_and_other_filter_and_returns_to_page_one() {
+	const QUERY: &str = "a & é?#";
+	let database = fixture((0..35).map(|index| provider((&format!("alpha-{index:02}"), QUERY, "npm", "tools"))));
+	let search = SearchQuery {
+		channel: "npm".to_owned(),
+		initial: "A".to_owned(),
+		page: 2,
+		..search_query(&format!(" {QUERY} "))
+	};
+	let response = search_page(&database, search);
+	assert_eq!(response.status(), StatusCode::OK);
+	let html = response_text(response).await;
+	for (label, channel, initial) in [("Clear channel", "", "A"), ("Clear initial", "npm", "")] {
+		let parsed = search_link_query(&html, label);
+		assert_eq!(parsed.query(), QUERY);
+		assert_eq!(parsed.channel, channel);
+		assert_eq!(parsed.initial, initial);
+		assert_eq!(parsed.page, 1);
+		assert_eq!(search_page(&database, parsed).status(), StatusCode::OK);
+	}
+}
+
+#[tokio::test]
+async fn empty_results_offer_independent_filter_recovery_for_search_and_browse() {
+	let database = sample_database();
+	for query in ["hx", ""] {
+		let search = SearchQuery { channel: "npm".to_owned(), initial: "Z".to_owned(), ..search_query(query) };
+		let html = response_text(search_page(&database, search)).await;
+		let empty_state = html.split_once("<div class='empty-state'>").unwrap().1;
+		let empty_state = empty_state.split_once("</div>").unwrap().0;
+		for (filter, channel, initial) in [("channels", "", "Z"), ("initials", "npm", "")] {
+			let label = if query.is_empty() {
+				format!("Browse all {filter}")
+			} else {
+				format!("Search all {filter} for <code>“{query}”</code>")
+			};
+			let parsed = search_link_query(empty_state, &label);
+			assert_eq!(parsed.query(), query);
+			assert_eq!(parsed.channel, channel);
+			assert_eq!(parsed.initial, initial);
+			assert_eq!(parsed.page, 1);
+		}
+		let parsed = search_link_query(empty_state, "Clear both filters");
+		assert_eq!(parsed.query(), query);
+		assert!(parsed.channel.is_empty() && parsed.initial.is_empty());
+		assert_eq!(parsed.page, 1);
+		assert!(database.search(&parsed).unwrap().total > 0);
+	}
+}
+
+#[tokio::test]
+async fn filter_notices_and_recovery_actions_follow_active_filters_even_without_matches() {
+	let database = fixture([]);
+	for (channel, initial) in [("", ""), ("npm", ""), ("", "Z"), ("npm", "#")] {
+		let search =
+			SearchQuery { channel: channel.to_owned(), initial: initial.to_owned(), ..search_query("missing") };
+		let html = response_text(search_page(&database, search)).await;
+		assert_eq!(html.contains(">Clear channel</a>"), !channel.is_empty());
+		assert_eq!(html.contains(">Clear initial</a>"), !initial.is_empty());
+		assert_eq!(html.contains("Search all channels"), !channel.is_empty());
+		assert_eq!(html.contains("Search all initials"), !initial.is_empty());
+		assert_eq!(html.contains(">Clear both filters</a>"), !channel.is_empty() && !initial.is_empty());
+		if !initial.is_empty() {
+			let label = if initial == "#" { "Numbers and symbols" } else { initial };
+			assert!(html.contains(&format!("<strong>{label}</strong>")));
+		}
+	}
+	let html = response_text(search_page(&database, search_query(""))).await;
+	assert!(html.contains("No names are listed in this release."));
+	assert!(!html.contains("class='search-recovery'"));
+}
+
 #[tokio::test]
 async fn initial_filter_renders_available_links_above_results_and_on_empty_searches() {
 	let database = fixture(INITIAL_RECORDS.iter().copied().map(provider));
@@ -792,13 +914,8 @@ async fn project_groups_include_nonprefixed_executables_and_use_project_counts()
 		let html = response_text(search_page(&database, search)).await;
 		assert_eq!(html.matches("class='name-result'").count(), 1);
 		assert_eq!(html.matches("<code><mark>aerc</mark></code>").count(), 1);
-		assert_executable_row(&html, "aerc", "aerc", "Debian");
-		assert_executable_row(
-			&html,
-			"aerc",
-			"carddav-query",
-			if channel.is_empty() { "Debian, Homebrew" } else { "Debian" },
-		);
+		assert_executable_row(&html, "aerc", "aerc", if channel.is_empty() { "Debian" } else { "" });
+		assert_executable_row(&html, "aerc", "carddav-query", if channel.is_empty() { "Debian, Homebrew" } else { "" });
 		assert_eq!(html.matches("href='/projects/aerc'").count(), 1);
 		assert!(!html.contains("provider records"));
 	}
@@ -818,7 +935,7 @@ async fn channel_with_only_other_executables_shows_a_project_summary() {
 	let html = response_text(search_page(&database, search)).await;
 	assert!(html.contains("<h3 id='result-1'>"));
 	assert!(!html.contains("Project:"));
-	assert_executable_row(&html, "aerc", "carddav-query", "Homebrew");
+	assert_executable_row(&html, "aerc", "carddav-query", "");
 	assert!(!html.contains("href='/projects/aerc#executable-aerc'"));
 }
 
@@ -949,6 +1066,25 @@ async fn grouped_lists_expand_without_javascript_and_keep_exact_matches_visible(
 }
 
 #[tokio::test]
+async fn channel_filtered_previews_and_disclosures_omit_channel_lists() {
+	const EXECUTABLES: [&str; 4] = ["age", "age-inspect", "age-keygen", "age-plugin-batchpass"];
+	let database = fixture(AGE_RECORDS.iter().copied().map(provider));
+	for query in ["", "age", "age-plugin-batchpass"] {
+		let search = SearchQuery { channel: "debian".to_owned(), ..search_query(query) };
+		let html = response_text(search_page(&database, search)).await;
+		assert!(html.contains("Showing matches in <strong>Debian</strong>"));
+		assert!(html.contains("<details class='more-related'>"));
+		for executable in EXECUTABLES {
+			assert_executable_row(&html, "age", executable, "");
+		}
+		let unfiltered = response_text(search_page(&database, search_query(query))).await;
+		for executable in EXECUTABLES {
+			assert_executable_row(&unfiltered, "age", executable, "Debian");
+		}
+	}
+}
+
+#[tokio::test]
 async fn renders_shared_commands_under_every_matching_owner() {
 	let database = sample_database();
 	let html = response_text(search_page(&database, search_query("hx"))).await;
@@ -966,7 +1102,7 @@ async fn renders_shared_commands_under_every_matching_owner() {
 	assert!(html.contains("href='/projects/other'"));
 	assert!(!html.contains("href='/projects/helix'"));
 	assert!(!html.contains("href='/projects/hx'"));
-	assert_executable_row(&html, "other", "hx", "npm");
+	assert_executable_row(&html, "other", "hx", "");
 }
 
 #[tokio::test]
@@ -1059,7 +1195,7 @@ async fn channel_browse_links_preserve_context_when_refining_search() {
 	assert!(html.contains("<input type='hidden' name='channel' value='debian'>"));
 	assert!(html.contains("Showing matches in <strong>Debian</strong>"));
 	assert!(html.contains("href='/?q='>Reset search</a>"));
-	assert_executable_row(&html, "helix", "hx", "Debian");
+	assert_executable_row(&html, "helix", "hx", "");
 }
 
 #[tokio::test]

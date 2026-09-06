@@ -324,7 +324,7 @@ struct ChannelStats {
 #[derive(Serialize)]
 struct SearchResults {
 	rows: Vec<SearchResult>,
-	initial_links: Vec<InitialFilterLink>,
+	initial_links: Vec<SearchFilterLink>,
 	total: u64,
 	start: u64,
 	end: u64,
@@ -527,7 +527,7 @@ struct SearchQuery {
 }
 
 #[derive(Serialize)]
-struct InitialFilterLink {
+struct SearchFilterLink {
 	label: String,
 	url: String,
 	is_current: bool,
@@ -547,24 +547,35 @@ impl SearchQuery {
 	}
 
 	fn page_url(&self, page: u32) -> String {
-		self.url(&self.initial, page)
+		self.url(&self.channel, &self.initial, page)
 	}
 
-	fn url(&self, initial: &str, page: u32) -> String {
+	fn url(&self, channel: &str, initial: &str, page: u32) -> String {
 		format!(
 			"/?q={}&channel={}&initial={}&page={page}",
 			encode_path_segment(self.query()),
-			encode_path_segment(&self.channel),
+			encode_path_segment(channel),
 			encode_path_segment(initial),
 		)
 	}
 
-	fn initial_links(&self, initials: impl IntoIterator<Item = String>) -> Vec<InitialFilterLink> {
+	fn channel_links(&self) -> Vec<SearchFilterLink> {
+		std::iter::once("")
+			.chain(CHANNELS)
+			.map(|channel| SearchFilterLink {
+				label: if channel.is_empty() { "All channels" } else { channel_label(channel) }.to_owned(),
+				url: self.url(channel, &self.initial, 1),
+				is_current: channel == self.channel,
+			})
+			.collect()
+	}
+
+	fn initial_links(&self, initials: impl IntoIterator<Item = String>) -> Vec<SearchFilterLink> {
 		std::iter::once(String::new())
 			.chain(initials)
-			.map(|initial| InitialFilterLink {
+			.map(|initial| SearchFilterLink {
 				label: if initial.is_empty() { "All".to_owned() } else { initial.clone() },
-				url: self.url(&initial, 1),
+				url: self.url(&self.channel, &initial, 1),
 				is_current: initial == self.initial,
 			})
 			.collect()
@@ -626,6 +637,10 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 			&if query.is_empty() { "Browse".to_owned() } else { format!("Search: {query}") },
 			context! {
 				query, results, channel => &search.channel, initial => &search.initial,
+				channel_links => search.channel_links(),
+				clear_channel_url => search.url("", &search.initial, 1),
+				clear_initial_url => search.url(&search.channel, "", 1),
+				clear_filters_url => search.url("", "", 1),
 				related_name_limit => SEARCH_RELATED_NAME_LIMIT,
 			},
 		),

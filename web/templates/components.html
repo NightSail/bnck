@@ -75,23 +75,24 @@
 	{%- endfor -%}
 {%- endmacro %}
 
-{% macro related_rows(result, related, query='') %}
+{% macro related_rows(result, related, query='', selected_channel='') %}
 	<ul class='related-rows' role='list'>
 		{% for relation in related %}
 		<li>
 			<a class='related-name'
 				href='/projects/{{ result.name | path_segment }}#executable-{{ relation.name | path_segment }}'>
-				<code>{{ highlighted_name(relation.name, query) }}(1)</code></a>:
+				<code>{{ highlighted_name(relation.name, query) }}(1)</code></a>{% if not selected_channel %}:
 			{% for channel in relation.channels %}
 			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
 			{% endfor %}
+			{% endif %}
 			{% if query and relation.name == query %}<span class='exact-match'>Exact match</span>{% endif %}
 		</li>
 		{% endfor %}
 	</ul>
 {% endmacro %}
 
-{% macro search_result(result, heading_id, limit, query='', more_url=none) %}
+{% macro search_result(result, heading_id, limit, query='', more_url=none, selected_channel='') %}
 <article class='name-result' aria-labelledby='{{ heading_id }}'>
 	<header class='name-result-heading'>
 		<h3 id='{{ heading_id }}'>
@@ -100,7 +101,7 @@
 			{% if query and result.name == query %}<span class='exact-match'>Exact match</span>{% endif %}
 		</h3>
 	</header>
-	{{ related_rows(result, result.related[:limit], query) }}
+	{{ related_rows(result, result.related[:limit], query, selected_channel) }}
 	{% if result.related | length > limit %}
 	{% if more_url %}
 	<a class='more-related text-link' href='{{ more_url }}'>
@@ -109,7 +110,7 @@
 	<details class='more-related'>
 		<summary>{{ count_label(result.related | length - limit, 'more executable', 'more executables') }}
 			<span class='visually-hidden'> for {{ result.name }}</span></summary>
-		{{ related_rows(result, result.related[limit:], query) }}
+		{{ related_rows(result, result.related[limit:], query, selected_channel) }}
 	</details>
 	{% endif %}
 	{% endif %}
