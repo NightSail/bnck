@@ -3,7 +3,7 @@ use std::fs;
 use std::sync::Arc;
 
 use axum::body::to_bytes;
-use axum::extract::{Query, State};
+use axum::extract::{Path, Query, State};
 use axum::http::{StatusCode, Uri, header};
 use axum::response::Response;
 use tempfile::tempdir;
@@ -163,6 +163,25 @@ fn search_link_query(html: &str, label: &str) -> SearchQuery {
 
 async fn response_text(response: Response) -> String {
 	String::from_utf8(to_bytes(response.into_body(), 1_000_000).await.unwrap().to_vec()).unwrap()
+}
+
+async fn exported_providers(database: &Database, response: Response, query: serde_json::Value) -> Vec<Provider> {
+	assert_eq!(response.status(), StatusCode::OK);
+	assert_eq!(response.headers()[header::CONTENT_TYPE], "application/json");
+	assert!(!response.headers().contains_key(header::CONTENT_DISPOSITION));
+	assert_eq!(response.headers()[header::X_CONTENT_TYPE_OPTIONS], "nosniff");
+	assert_eq!(response.headers()[header::CONTENT_SECURITY_POLICY], "default-src 'none'; frame-ancestors 'none'");
+	let body = response_text(response).await;
+	assert!(body.starts_with("{\n\t\"dataset_release\": "));
+	assert!(body.ends_with('\n'));
+	let export: serde_json::Value = serde_json::from_str(&body).unwrap();
+	assert_eq!(export.as_object().unwrap().len(), 3);
+	assert_eq!(export["dataset_release"], format!("bnck:release:{}", database.metadata_value("dataset_release")));
+	assert_eq!(export["query"], query);
+	let providers: Vec<Provider> = serde_json::from_value(export["providers"].clone()).unwrap();
+	assert!(!providers.is_empty());
+	assert!(providers.windows(2).all(|pair| pair[0] < pair[1]));
+	providers
 }
 
 #[test]
@@ -761,6 +780,144 @@ async fn renders_detail_ambiguity_and_escapes_dataset_names() {
 	let html = response_text(project_page(&database, "helix")).await;
 	assert!(html.contains("No project links listed."));
 	assert!(!html.contains("class='ambiguity-note'"));
+}
+
+#[tokio::test]
+async fn project_exports_include_all_executables_channels_and_packages_for_one_owner() {
+	let records: Vec<_> = SHARED_RECORDS
+		.iter()
+		.chain(AGE_RECORDS)
+		.chain(MATRIX_RECORDS)
+		.copied()
+		.map(provider)
+		.collect();
+	let database = Arc::new(fixture(records.clone()));
+	for project in ["eslint", "age", "tools"] {
+		let response = super::exports::project(State(database.clone()), Path(project.to_owned())).await;
+		let exported = exported_providers(&database, response, serde_json::json!({ "project": project })).await;
+		let mut expected: Vec<_> = records.iter().filter(|provider| provider.project == project).cloned().collect();
+		expected.sort();
+		assert_eq!(exported, expected);
+	}
+}
+
+#[tokio::test]
+async fn executable_exports_preserve_exact_names_and_include_every_owner() {
+	let records: Vec<_> = RECORDS
+		.iter()
+		.copied()
+		.chain([("json-tool", "tool.json", "npm", "@scope/json-tool")])
+		.map(provider)
+		.collect();
+	let database = Arc::new(fixture(records.clone()));
+	for executable in ["hx", "HX", "tool%_", "étool", "<tool>&'", "tool.json"] {
+		let response = super::exports::executable(State(database.clone()), Path(executable.to_owned())).await;
+		let exported = exported_providers(&database, response, serde_json::json!({ "executable": executable })).await;
+		let mut expected: Vec<_> = records
+			.iter()
+			.filter(|provider| provider.executable == executable)
+			.cloned()
+			.collect();
+		expected.sort();
+		assert_eq!(exported, expected);
+	}
+}
+
+#[tokio::test]
+async fn repeated_exports_are_identical_and_leave_the_database_unchanged() {
+	let database = Arc::new(sample_database());
+	let before = fs::read(&database.path).unwrap();
+	let first = super::exports::executable(State(database.clone()), Path("hx".to_owned())).await;
+	let second = super::exports::executable(State(database.clone()), Path("hx".to_owned())).await;
+	assert_eq!(response_text(first).await, response_text(second).await);
+	assert_eq!(fs::read(&database.path).unwrap(), before);
+}
+
+#[tokio::test]
+async fn missing_export_identities_return_json_errors_instead_of_empty_results() {
+	for database in [Arc::new(sample_database()), Arc::new(fixture([]))] {
+		for name in ["missing", "Helix", "Hx", "%", "' OR 1=1 --"] {
+			for response in [
+				super::exports::project(State(database.clone()), Path(name.to_owned())).await,
+				super::exports::executable(State(database.clone()), Path(name.to_owned())).await,
+			] {
+				assert_eq!(response.status(), StatusCode::NOT_FOUND);
+				assert_eq!(response.headers()[header::CONTENT_TYPE], "application/json");
+				assert_eq!(response.headers()[header::X_CONTENT_TYPE_OPTIONS], "nosniff");
+				assert!(!response.headers().contains_key(header::CONTENT_DISPOSITION));
+				let error: serde_json::Value = serde_json::from_str(&response_text(response).await).unwrap();
+				assert_eq!(error.as_object().unwrap().len(), 1);
+				assert_eq!(
+					error["error"],
+					"No accepted mappings for this exact name are listed in this release. Check spelling and case."
+				);
+			}
+		}
+	}
+}
+
+#[tokio::test]
+async fn export_failures_return_json_without_exposing_database_details() {
+	let database = Arc::new(sample_database());
+	fs::remove_file(&database.path).unwrap();
+	for response in [
+		super::exports::project(State(database.clone()), Path("helix".to_owned())).await,
+		super::exports::executable(State(database.clone()), Path("hx".to_owned())).await,
+	] {
+		assert_eq!(response.status(), StatusCode::INTERNAL_SERVER_ERROR);
+		assert_eq!(response.headers()[header::CONTENT_TYPE], "application/json");
+		assert!(!response.headers().contains_key(header::CONTENT_DISPOSITION));
+		let error: serde_json::Value = serde_json::from_str(&response_text(response).await).unwrap();
+		assert_eq!(error, serde_json::json!({ "error": "The export could not be generated. Try again later." }));
+	}
+}
+
+#[tokio::test]
+async fn detail_pages_offer_inline_json_links_and_progressive_copy_controls() {
+	let database = sample_database();
+	let mut pages = vec![(project_page(&database, "helix"), "/projects/helix/providers.json".to_owned())];
+	for executable in ["hx", "HX", "tool%_", "étool", "<tool>&'"] {
+		let path = super::encode_path_segment(executable);
+		pages.push((executable_page(&database, executable), format!("/executables/{path}/providers.json")));
+	}
+	for (response, path) in pages {
+		let policy = response.headers()[header::CONTENT_SECURITY_POLICY].to_str().unwrap();
+		assert!(policy.contains("script-src 'self'"));
+		assert!(policy.contains("connect-src 'self'"));
+		assert!(!policy.contains("unsafe-inline") && !policy.contains("unsafe-eval"));
+		let html = response_text(response).await;
+		assert!(
+			html.replace("&#x2f;", "/")
+				.contains(&format!("href='{path}' data-view-json>View JSON</a>"))
+		);
+		assert!(html.contains("type='button' data-copy-json hidden>Copy JSON</button>"));
+		assert!(html.contains("class='export-status visually-hidden' role='status' aria-live='polite'></p>"));
+		assert_eq!(html.matches("src='/exports.js'").count(), 1);
+		assert!(html.contains("<script type='module' src='/exports.js'></script>"));
+		assert!(!html.contains("download") && !html.contains("<tool>"));
+	}
+	for response in [
+		project_page(&database, "missing"),
+		executable_page(&database, "missing"),
+		search_page(&database, search_query("hx")),
+		search_page(&database, SearchQuery { q: None, ..search_query("") }),
+	] {
+		let html = response_text(response).await;
+		assert!(!html.contains("/exports.js"));
+		assert!(!html.contains("data-json-export"));
+	}
+}
+
+#[tokio::test]
+async fn copy_script_is_served_as_a_same_origin_asset() {
+	let response = super::exports::script().await;
+	assert_eq!(response.status(), StatusCode::OK);
+	assert_eq!(response.headers()[header::CONTENT_TYPE], "text/javascript; charset=utf-8");
+	assert_eq!(response.headers()[header::X_CONTENT_TYPE_OPTIONS], "nosniff");
+	assert_eq!(response.headers()[header::CACHE_CONTROL], super::asset_cache_control());
+	let script = response_text(response).await;
+	assert!(script.contains("navigator.clipboard"));
+	assert!(script.contains("Copy failed. Use View JSON to copy manually."));
 }
 
 #[test]

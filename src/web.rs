@@ -1,3 +1,5 @@
+mod exports;
+
 use std::collections::{BTreeMap, BTreeSet};
 use std::fs::File;
 use std::io::{BufReader, Write};
@@ -78,8 +80,11 @@ fn router(database: Arc<Database>) -> Router {
 		.route("/", get(home))
 		.route("/about", get(about))
 		.route("/projects/{project}", get(project))
+		.route("/projects/{project}/providers.json", get(exports::project))
 		.route("/executables/{executable}", get(executable))
+		.route("/executables/{executable}/providers.json", get(exports::executable))
 		.route("/style.css", get(stylesheet))
+		.route("/exports.js", get(exports::script))
 		.fallback(not_found)
 		.with_state(database)
 }
@@ -833,9 +838,10 @@ fn html_response(status: StatusCode, body: String) -> Response {
 			(header::X_CONTENT_TYPE_OPTIONS, HeaderValue::from_static("nosniff")),
 			(
 				header::CONTENT_SECURITY_POLICY,
-				HeaderValue::from_static(
-					"default-src 'none'; style-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
-				),
+				HeaderValue::from_static(concat!(
+					"default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; ",
+					"form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+				)),
 			),
 		],
 		body,

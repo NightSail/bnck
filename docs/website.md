@@ -4,7 +4,7 @@
 
 The website is a reference interface to the [provider dataset](design.md), not a software directory or package installer. Its primary tasks are finding the projects and distribution packages behind an executable name, and finding the executables provided by a canonical project.
 
-The visual hierarchy follows those tasks: search first, identities second, provider relations next, and release context alongside the results. A dark, terminal-informed theme uses graphite surfaces, restrained green and cyan accents, and monospace headings, controls, and exact dataset values. Explanatory prose remains proportional, while forms, tables, and navigation retain web-native behavior. There is no simulated terminal window, command session, or animated cursor. It does not require JavaScript, external fonts, or third-party services.
+The visual hierarchy follows those tasks: search first, identities second, provider relations next, and release context alongside the results. A dark, terminal-informed theme uses graphite surfaces, restrained green and cyan accents, and monospace headings, controls, and exact dataset values. Explanatory prose remains proportional, while forms, tables, and navigation retain web-native behavior. There is no simulated terminal window, command session, or animated cursor. Search, browsing, and JSON viewing work without JavaScript; clipboard copying is an optional enhancement. The site uses no external fonts or third-party services.
 
 The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands.
 
@@ -64,20 +64,52 @@ Detail routes retain exact, case-sensitive lookup semantics:
 
 `/about` presents the dataset, retaining `#bnck-database` as the release metadata anchor.
 
+## JSON exports
+
+Project and executable detail pages offer “Copy JSON” and “View JSON” actions for their accepted mappings. View JSON is an ordinary link that opens formatted JSON inline for inspection and manual copying. Copy JSON is shown only when the first-party script loads and clipboard APIs are available in a secure context, normally HTTPS or localhost. The actions use the existing exact, case-sensitive lookups and include all related channels and packages, without pagination or filtering. No export payload is embedded in the page or fetched until an action is used.
+
+Copy JSON fetches the export on demand and copies tab-indented plain text. After the clipboard write completes, the button shows “JSON copied” for two seconds before returning to “Copy JSON”. Loading and success announcements remain available to assistive technology without adding a visible line or shifting the surrounding content. Failed requests, invalid JSON, and rejected clipboard access produce an explicit failure message pointing to View JSON. Fetches time out after ten seconds, and the copy button is disabled while an attempt is pending. Where supported, a promised clipboard item starts the write during the click gesture so fetching does not lose user activation.
+
+```text
+/projects/{project}/providers.json
+/executables/{executable}/providers.json
+```
+
+Each successful response begins with `dataset_release`, prefixed with `bnck:release:`, and a `query` object containing exactly one key: `project` or `executable`, with the exact requested name. The prefix namespaces the release identifier in exports without changing the stored identifier. The `providers` array contains four-field mappings, ordered by project, executable, channel, and package. Project exports include every executable attributed to that project; executable exports include every owning project. Names preserve their original spelling, and each mapping appears once. Project links, package versions, and installation instructions are not included.
+
+```json
+{
+	"dataset_release": "bnck:release:2026-04-16.1",
+	"query": { "executable": "hx" },
+	"providers": [
+		{
+			"project": "helix",
+			"executable": "hx",
+			"channel": "debian",
+			"package": "helix"
+		}
+	]
+}
+```
+
+Responses use `application/json` without an attachment disposition. Successful exports are tab-indented with a trailing newline. An unknown exact identity returns HTTP 404 with a JSON `error` message, not an empty result. Export failures return HTTP 500 with a JSON `error` message without internal database details. Query parameters do not filter or paginate these exports.
+
+SQLite reads and JSON serialization run on the blocking thread pool. Viewing exports requires no JavaScript. The optional clipboard script at `web/exports.js` adds no dependencies, data tables, or external services. Its unit tests run with `bun test web/exports.test.js`.
+
 ## Truthfulness
 
 All example records, statistics, and release metadata come from the opened SQLite artifact. The interface does not imply a live acquisition status, comprehensive channel coverage, historical availability, or installability.
 
 A missing identity or relation means there is no accepted provider record in this release. Empty results and detail pages explain this limitation. Channel counts describe accepted dataset records, not acquisition completeness. The SQLite artifact does not contain channel snapshot scope or failure details; those remain in the [release manifests](release-format.md).
 
-The dataset page identifies the release and generation date. Artifact schemas, digests, generator details, and SQL examples belong in the release documentation rather than the public pages. No artifact download endpoint is exposed by this SQLite-only server.
+The dataset page identifies the release and generation date. Artifact schemas, digests, generator details, and SQL examples belong in the release documentation rather than the public pages. Full release artifacts are not served; per-identity JSON exports are derived from the opened SQLite artifact.
 
 ## Implementation
 
 `src/web.rs` serves read-only SQLite queries through Axum and renders MiniJinja templates under `web/templates/`. Shared forms, statistics, provider tables, and snapshot notes live in `components.html`. The stylesheet is `web/style.css`.
 
-SQLite query tasks run on the blocking thread pool, with a separate read-only connection per operation. Search values are bound SQL parameters. Responses retain HTML escaping, encoded name segments, and a restrictive content security policy.
+SQLite query tasks run on the blocking thread pool, with a separate read-only connection per operation. Search values are bound SQL parameters. Responses retain HTML escaping and encoded name segments. The HTML content security policy allows same-origin scripts and fetches for clipboard copying, while continuing to block inline scripts and third-party scripts or connections. JSON responses continue to disallow loaded resources through their content security policy.
 
-Debug builds reload templates and CSS on each request. Release builds embed both, including shared templates. The server accepts compressed or uncompressed SQLite artifacts and does not modify the source artifact.
+Debug builds reload templates, CSS, and the clipboard script on each request. Release builds embed all three, including shared templates. The server accepts compressed or uncompressed SQLite artifacts and does not modify the source artifact.
 
 Forms have explicit labels, tables have captions and scoped headings, keyboard navigation has visible focus and a skip link, and the layout works down to a 320-pixel viewport. Search and pagination work with JavaScript disabled.

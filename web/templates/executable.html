@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-{% from 'components.html' import provider_group, snapshot_note, count_label with context %}
+{% from 'components.html' import provider_group, snapshot_note, count_label, export_actions with context %}
+{% block scripts %}<script type='module' src='/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>
 	<a class='back-link' href='/?q='>← Browse names</a>
@@ -15,8 +16,9 @@
 			Check the project before choosing a package.
 		</div>
 		{% endif %}
-		<div class='section-heading'>
+		<div class='section-heading export-heading'>
 			<h2 id='providers-title'>Projects</h2>
+			{{ export_actions('/executables/' ~ (page.executable | path_segment) ~ '/providers.json') }}
 		</div>
 		<div class='provider-groups'>
 			{% for project in page.projects %}

@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-{% from 'components.html' import package_link, snapshot_note with context %}
+{% from 'components.html' import package_link, snapshot_note, export_actions with context %}
+{% block scripts %}<script type='module' src='/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>
 	<a class='back-link' href='/?q='>← Browse names</a>
@@ -18,8 +19,9 @@
 </section>
 <div class='content-layout'>
 	<section aria-labelledby='providers-title'>
-		<div class='section-heading'>
+		<div class='section-heading export-heading'>
 			<h2 id='providers-title'>Executables</h2>
+			{{ export_actions('/projects/' ~ (page.project | path_segment) ~ '/providers.json') }}
 		</div>
 		<p class='matrix-legend' id='matrix-legend'>
 			<span class='matrix-observed' aria-hidden='true'>✓</span> Observed in this package.
