@@ -4,7 +4,8 @@ if (search) {
 	search.setAttribute('aria-keyshortcuts', '/');
 	search.title = 'Press / to focus search';
 	document.addEventListener('keydown', (event) => {
-		if (event.key !== '/' || event.ctrlKey || event.altKey || event.metaKey || event.isComposing ||
+		const search = document.querySelector('#q');
+		if (!search || event.key !== '/' || event.ctrlKey || event.altKey || event.metaKey || event.isComposing ||
 			event.defaultPrevented || search.disabled || search.hidden) {
 			return;
 		}

@@ -99,7 +99,7 @@ fn provider(record: (&str, &str, &str, &str)) -> Provider {
 	}
 }
 
-fn fixture(records: impl IntoIterator<Item = Provider>) -> Database {
+pub(super) fn fixture(records: impl IntoIterator<Item = Provider>) -> Database {
 	let root = tempdir().unwrap();
 	let projects = root.path().join("curations/projects");
 	fs::create_dir_all(&projects).unwrap();

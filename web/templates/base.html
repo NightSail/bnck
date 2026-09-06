@@ -7,8 +7,12 @@
 	<meta name='description'
 		content='bnck maps executable names to projects and distribution packages.'>
 	<title>{{ site.title }} · bnck(1)</title>
-	<link rel='stylesheet' href='/style.css'>
-	<script type='module' src='/search.js'></script>
+	<link rel='stylesheet' href='{{ site.assets }}/style.css'>
+	<script type='module' src='{{ site.assets }}/search.js'></script>
+	{% if site.client_search %}
+	<meta name='bnck-dataset' content='{{ site.dataset_url }}' data-release='{{ site.release }}'>
+	<script type='module' src='{{ site.assets }}/browser.js'></script>
+	{% endif %}
 	{% block scripts %}{% endblock %}
 </head>
 <body>
@@ -31,6 +35,11 @@
 		</nav>
 		<a class='release-tag' href='/about#bnck-database'><span>Release</span> {{ site.release }}</a>
 	</header>
+	{% if site.client_search %}
+	<noscript><p class='filter-notice'>Search and filtered browsing require JavaScript.
+		Project pages, executable pages, and JSON exports can be opened directly without it.</p></noscript>
+	<p id='search-status' class='visually-hidden' role='status' aria-live='polite'></p>
+	{% endif %}
 	<main id='main' tabindex='-1'>{% block content %}{% endblock %}</main>
 	<footer class='site-footer'>
 		<p><strong>bnck(1)</strong> <span>bin name check</span></p>

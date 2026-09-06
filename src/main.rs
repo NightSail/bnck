@@ -170,6 +170,12 @@ enum Command {
 		#[arg(long, default_value_t = 20)]
 		limit: usize,
 	},
+	GenerateSite {
+		#[arg(long, default_value = "var/bnck.sqlite.zst")]
+		database: PathBuf,
+		#[arg(long, default_value = "var/site")]
+		output: PathBuf,
+	},
 	Serve {
 		#[arg(long, default_value = "var/bnck.sqlite.zst")]
 		database: PathBuf,
@@ -242,6 +248,11 @@ async fn main() -> Result<()> {
 		Command::SuggestProjects { channel, package, acquisitions, curations, limit } => {
 			let suggestions = matcher::suggest_projects(&acquisitions, &curations, &channel, &package, limit)?;
 			print_project_suggestions(&suggestions);
+			return Ok(());
+		},
+		Command::GenerateSite { database, output } => {
+			web::generate_site(&database, &output)?;
+			eprintln!("wrote static website to {}", output.display());
 			return Ok(());
 		},
 		Command::Serve { database, address } => {

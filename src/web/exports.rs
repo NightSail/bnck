@@ -19,7 +19,7 @@ struct ProviderExport {
 
 #[derive(Serialize)]
 #[serde(rename_all = "snake_case")]
-enum ExportQuery {
+pub(super) enum ExportQuery {
 	Project(String),
 	Executable(String),
 }
@@ -104,6 +104,16 @@ fn export_response(database: &Database, query: ExportQuery) -> Result<Response> 
 			"No accepted mappings for this exact name are listed in this release. Check spelling and case.",
 		));
 	}
+	let body = serialize_export(database, query, providers)?;
+	Ok(([(header::CONTENT_TYPE, HeaderValue::from_static("application/json"))], body).into_response())
+}
+
+pub(super) fn export_bytes(database: &Database, query: ExportQuery) -> Result<Vec<u8>> {
+	let providers = query.read_providers(database)?;
+	serialize_export(database, query, providers)
+}
+
+fn serialize_export(database: &Database, query: ExportQuery, providers: Vec<Provider>) -> Result<Vec<u8>> {
 	let export = ProviderExport {
 		dataset_release: format!("bnck:release:{}", database.metadata_value("dataset_release")),
 		query,
@@ -114,7 +124,7 @@ fn export_response(database: &Database, query: ExportQuery) -> Result<Response> 
 	let mut serializer = serde_json::Serializer::with_formatter(&mut body, formatter);
 	export.serialize(&mut serializer).context("serialize provider export")?;
 	body.push(b'\n');
-	Ok(([(header::CONTENT_TYPE, HeaderValue::from_static("application/json"))], body).into_response())
+	Ok(body)
 }
 
 fn export_error(error: anyhow::Error) -> Response {

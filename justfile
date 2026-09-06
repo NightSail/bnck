@@ -21,6 +21,7 @@ check:
     for file in justfile justfiles/*.just; do just --fmt --check --justfile "$file"; done
     cargo clippy --all-targets -- -D warnings
     cargo test
+    bun test ./web/*.test.js
 
 format:
     cargo fmt
@@ -60,6 +61,12 @@ sign-release release_directory secret_key:
     	-s '{{ secret_key }}' \
     	-m '{{ release_directory }}/SHA256SUMS' \
     	-x '{{ release_directory }}/SHA256SUMS.minisig'
+
+generate-site database='var/bnck.sqlite.zst' output='var/site':
+    {{ bnck }} generate-site --database '{{ database }}' --output '{{ output }}'
+
+preview directory='var/site' port='3000':
+    bun web/preview.js '{{ directory }}' '{{ port }}'
 
 serve database='var/bnck.sqlite.zst' address='127.0.0.1:3000':
     {{ bnck }} serve --database '{{ database }}' --address '{{ address }}'

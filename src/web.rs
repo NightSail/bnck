@@ -1,4 +1,7 @@
 mod exports;
+mod static_site;
+
+pub use static_site::generate as generate_site;
 
 use std::collections::{BTreeMap, BTreeSet};
 use std::fs::File;
@@ -28,6 +31,10 @@ const SEARCH_PAGE_SIZE: u64 = 30;
 const SEARCH_RELATED_NAME_LIMIT: u64 = 3;
 const SEARCH_INITIALS: &str = "#ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const MAX_QUERY_CHARACTERS: usize = 100;
+const HTML_CSP: &str = concat!(
+	"default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; ",
+	"form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+);
 
 /* Discovery folds ASCII case; grouping and detail lookups preserve exact identities. */
 const SEARCH_MATCHES: &str = "WITH matching_names AS (
@@ -394,6 +401,7 @@ fn read_search_relations(connection: &Connection, name: &str, search: &SearchQue
 	Ok(related)
 }
 
+#[derive(Serialize)]
 struct ProjectProvider {
 	executable: String,
 	channel: String,
@@ -777,8 +785,23 @@ fn render_response(database: &Database, status: StatusCode, template_name: &str,
 	}
 }
 
+struct SiteAssets {
+	application: String,
+	dataset: String,
+}
+
 fn render_page(database: &Database, template_name: &str, title: &str, page: Value) -> Result<String> {
-	let environment = template_environment()?;
+	render_page_with_assets(&template_environment()?, database, template_name, title, page, None)
+}
+
+fn render_page_with_assets(
+	environment: &Environment<'_>,
+	database: &Database,
+	template_name: &str,
+	title: &str,
+	page: Value,
+	assets: Option<&SiteAssets>,
+) -> Result<String> {
 	let template = environment
 		.get_template(template_name)
 		.with_context(|| format!("load website template {template_name}"))?;
@@ -786,6 +809,9 @@ fn render_page(database: &Database, template_name: &str, title: &str, page: Valu
 		.render(context! {
 			site => context! {
 				title,
+				assets => assets.map(|assets| assets.application.as_str()).unwrap_or_default(),
+				dataset_url => assets.map(|assets| assets.dataset.as_str()),
+				client_search => assets.is_some() && template_name == "home.html",
 				release => database.metadata_value("dataset_release"),
 				section => if template_name == "dataset.html" { "dataset" } else { "index" },
 				has_header_search => matches!(template_name, "project.html" | "executable.html"),
@@ -855,13 +881,7 @@ fn html_response(status: StatusCode, body: String) -> Response {
 		[
 			(header::CONTENT_TYPE, HeaderValue::from_static("text/html; charset=utf-8")),
 			(header::X_CONTENT_TYPE_OPTIONS, HeaderValue::from_static("nosniff")),
-			(
-				header::CONTENT_SECURITY_POLICY,
-				HeaderValue::from_static(concat!(
-					"default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; ",
-					"form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
-				)),
-			),
+			(header::CONTENT_SECURITY_POLICY, HeaderValue::from_static(HTML_CSP)),
 		],
 		body,
 	)

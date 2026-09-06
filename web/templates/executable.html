@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% from 'components.html' import provider_group, snapshot_note, count_label, export_actions with context %}
-{% block scripts %}<script type='module' src='/exports.js'></script>{% endblock %}
+{% block scripts %}<script type='module' src='{{ site.assets }}/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>
 	<a class='back-link' href='/?q='>← Browse names</a>

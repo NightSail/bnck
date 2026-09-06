@@ -1,0 +1,32 @@
+{
+	"schema_version": 1,
+	"dataset_release": "test.1",
+	"generated_at": "2026-04-16T12:00:00Z",
+	"channels": [
+		{ "name": "arch", "label": "Arch Linux" },
+		{ "name": "debian", "label": "Debian" },
+		{ "name": "npm", "label": "npm" }
+	],
+	"projects": [
+		{
+			"name": "helix",
+			"links": [{ "link_type": "homepage", "url": "https://helix-editor.com/" }],
+			"providers": [
+				{ "executable": "hx", "channel": "debian", "package": "helix" },
+				{ "executable": "hx", "channel": "npm", "package": "helix" },
+				{ "executable": "hx", "channel": "npm", "package": "helix-alias" },
+				{ "executable": "helper", "channel": "debian", "package": "helix" }
+			]
+		},
+		{
+			"name": "hx",
+			"links": [],
+			"providers": [{ "executable": "hx-admin", "channel": "debian", "package": "hx-utils" }]
+		},
+		{
+			"name": "other",
+			"links": [],
+			"providers": [{ "executable": "hx", "channel": "npm", "package": "@scope/other" }]
+		}
+	]
+}

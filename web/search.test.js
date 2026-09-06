@@ -51,7 +51,7 @@ function initialize({ search = createSearch() } = {}) {
 		addEventListener: mock((event, handler) => { handlers[event] = handler; }),
 	};
 	runInNewContext(source, { document, HTMLElement: FakeElement });
-	return { search, document, press: (event) => handlers.keydown?.(event) };
+	return { search, document, press: (event) => handlers.keydown?.(event), replaceSearch: (next) => { search = next; } };
 }
 
 test('slash focuses search and selects the query without changing its contents', () => {
@@ -132,6 +132,15 @@ test('disabled or hidden search boxes do not consume slash', () => {
 		expect(state.search.focus).not.toHaveBeenCalled();
 		expect(event.preventDefault).not.toHaveBeenCalled();
 	}
+});
+
+test('slash follows the search box after browser-side navigation replaces it', () => {
+	const state = initialize();
+	const next = createSearch();
+	state.replaceSearch(next);
+	state.press(keyEvent());
+	expect(next.focus).toHaveBeenCalledTimes(1);
+	expect(state.search.focus).not.toHaveBeenCalled();
 });
 
 test('pages without search do not install a keyboard handler', () => {

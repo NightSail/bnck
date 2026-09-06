@@ -8,7 +8,8 @@
 	<div class='search-input'>
 		<span class='search-symbol' aria-hidden='true'>⌕</span>
 		<input id='q' name='q' type='search' value='{{ query }}' placeholder='Press / to'
-			maxlength='100' autocomplete='off' spellcheck='false' aria-describedby='search-hint'>
+			{% if not site.assets %}maxlength='100'{% endif %}
+			autocomplete='off' spellcheck='false' aria-describedby='search-hint'>
 		<button type='submit'>Search <span aria-hidden='true'>↵</span></button>
 	</div>
 	{% if channel %}<input type='hidden' name='channel' value='{{ channel }}'>{% endif %}
