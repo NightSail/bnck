@@ -465,6 +465,18 @@ thead th {
 	color: inherit;
 	font-weight: 700;
 }
+.exact-match {
+	display: inline-block;
+	margin-left: 6px;
+	padding: 1px 5px;
+	border: 1px solid var(--line-strong);
+	border-radius: 3px;
+	color: var(--cyan);
+	font: 400 10px/1.5 var(--mono);
+	letter-spacing: normal;
+	vertical-align: middle;
+	white-space: nowrap;
+}
 .name-results {
 	list-style: none;
 	margin: 0;

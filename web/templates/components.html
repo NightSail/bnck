@@ -85,6 +85,7 @@
 			{% for channel in relation.channels %}
 			{{ channel | channel_label }}{% if not loop.last %}, {% endif %}
 			{% endfor %}
+			{% if query and relation.name == query %}<span class='exact-match'>Exact match</span>{% endif %}
 		</li>
 		{% endfor %}
 	</ul>
@@ -96,6 +97,7 @@
 		<h3 id='{{ heading_id }}'>
 			<a href='/projects/{{ result.name | path_segment }}'>
 				<code>{{ highlighted_name(result.name, query) }}</code></a>
+			{% if query and result.name == query %}<span class='exact-match'>Exact match</span>{% endif %}
 		</h3>
 	</header>
 	{{ related_rows(result, result.related[:limit], query) }}

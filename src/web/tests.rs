@@ -12,6 +12,8 @@ use super::{Database, SEARCH_PAGE_SIZE, SearchQuery, about, executable_page, hom
 use crate::model::{Provider, write_json_lines};
 use crate::release::{SqliteMetadata, generate_sqlite_artifact};
 
+const EXACT_MATCH_TAG: &str = "<span class='exact-match'>Exact match</span>";
+
 const RECORDS: &[(&str, &str, &str, &str)] = &[
 	("helix", "hx", "crates.io", "helix-term"),
 	("helix", "hx", "debian", "helix"),
@@ -140,7 +142,8 @@ fn assert_executable_row(html: &str, project: &str, executable: &str, channels: 
 	assert_eq!(html.matches(&href).count(), 1);
 	let row = html.split_once(&href).unwrap().1.split_once("</li>").unwrap().0;
 	let row = row.split_whitespace().collect::<Vec<_>>().join(" ");
-	let channel_text = row.split_once("(1)</code></a>: ").unwrap().1;
+	let channel_text = row.split_once("(1)</code></a>: ").unwrap().1.trim();
+	let channel_text = channel_text.strip_suffix(EXACT_MATCH_TAG).unwrap_or(channel_text);
 	assert_eq!(channel_text.trim(), channels);
 }
 
@@ -169,6 +172,60 @@ fn search_groups_by_owner_and_ranks_each_projects_best_match() {
 	assert_eq!(database.executable_providers("hx").unwrap().len(), 3);
 	assert!(database.executable_providers("Hx").unwrap().is_empty());
 	assert!(database.project_providers("Helix").unwrap().is_empty());
+}
+
+#[tokio::test]
+async fn exact_match_tags_require_literal_case_sensitive_name_equality() {
+	let database = fixture(RECORDS.iter().chain(SHARED_RECORDS).copied().map(provider));
+	for (query, expected) in [
+		("hx", 3),
+		(" hx ", 3),
+		("HX", 1),
+		("Hx", 0),
+		("eslint", 2),
+		("helix", 1),
+		("h", 0),
+		("tool%_", 1),
+		("%", 0),
+		("étool", 1),
+		("Étool", 0),
+		("' OR 1=1 --", 0),
+		("missing", 0),
+		("", 0),
+		("  ", 0),
+	] {
+		let html = response_text(search_page(&database, search_query(query))).await;
+		assert_eq!(html.matches(EXACT_MATCH_TAG).count(), expected, "query: {query:?}");
+	}
+}
+
+#[tokio::test]
+async fn exact_match_tags_identify_projects_and_shared_executables_in_ranked_order() {
+	let database = sample_database();
+	let html = response_text(search_page(&database, search_query("hx"))).await;
+	let mut groups = html.split("<article class='name-result'").skip(1);
+	for (project, is_exact_project, is_exact_executable) in
+		[("helix", false, true), ("hx", true, false), ("other", false, true), ("case", false, false)]
+	{
+		let group = groups.next().unwrap().split_once("</article>").unwrap().0;
+		let (heading, executables) = group.split_once("</header>").unwrap();
+		assert!(heading.contains(&format!("href='/projects/{project}'")));
+		assert_eq!(heading.contains(EXACT_MATCH_TAG), is_exact_project);
+		assert_eq!(executables.contains(EXACT_MATCH_TAG), is_exact_executable);
+	}
+	assert!(groups.next().is_none());
+	assert_executable_row(&html, "helix", "hx", "crates.io, Debian");
+	assert_executable_row(&html, "other", "hx", "npm");
+}
+
+#[tokio::test]
+async fn exact_match_tags_follow_search_filters() {
+	let database = sample_database();
+	for (channel, initial, expected) in [("npm", "", 1), ("debian", "H", 2), ("pypi", "", 0), ("", "Z", 0)] {
+		let search = SearchQuery { channel: channel.to_owned(), initial: initial.to_owned(), ..search_query("hx") };
+		let html = response_text(search_page(&database, search)).await;
+		assert_eq!(html.matches(EXACT_MATCH_TAG).count(), expected);
+	}
 }
 
 #[test]
@@ -530,6 +587,7 @@ async fn landing_example_reuses_age_search_result_with_three_executables_and_pro
 	assert!(!card.contains("age-plugin-"));
 	assert!(!card.contains("<details"));
 	assert!(!card.contains("Package"));
+	assert!(!card.contains(EXACT_MATCH_TAG));
 	assert!(!html.contains("Example lookup"));
 }
 
@@ -706,9 +764,8 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	assert_executable_row(&html, "eslint", "eslint", "Debian, Homebrew, npm");
 	assert_eq!(html.matches("href='/projects/eslint'").count(), 1);
 	let normalized = html.split_whitespace().collect::<Vec<_>>().join(" ");
-	assert!(normalized.contains(concat!(
-		"<h3 id='result-1'> <a href='/projects/eslint'> ",
-		"<code><mark>eslint</mark></code></a> </h3>"
+	assert!(normalized.contains(&format!(
+		"<h3 id='result-1'> <a href='/projects/eslint'> <code><mark>eslint</mark></code></a> {EXACT_MATCH_TAG} </h3>"
 	)));
 	assert!(!html.contains("Project details"));
 	assert!(html.contains("1 matching project"));
@@ -717,7 +774,7 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	assert!(!html.contains("class='result-type'"));
 	assert!(!html.contains("Provided by"));
 	assert!(!html.contains("Provides"));
-	assert!(!html.contains("class='exact-badge'"));
+	assert_eq!(html.matches(EXACT_MATCH_TAG).count(), 2);
 	assert!(!html.contains("↗"));
 }
 
@@ -832,6 +889,7 @@ async fn highlighted_names_remain_escaped_and_detail_links_remain_encoded() {
 	let database = fixture([provider(("owner", executable, "debian", "tools"))]);
 	for (query, expected) in [
 		("", "&lt;tool&gt;&amp;&#x27;"),
+		(executable, "<mark>&lt;tool&gt;&amp;&#x27;</mark>"),
 		("<tool>", "<mark>&lt;tool&gt;</mark>&amp;&#x27;"),
 		("tool", "&lt;<mark>tool</mark>&gt;&amp;&#x27;"),
 		("&'", "&lt;tool&gt;<mark>&amp;&#x27;</mark>"),
@@ -839,6 +897,7 @@ async fn highlighted_names_remain_escaped_and_detail_links_remain_encoded() {
 		let html = response_text(search_page(&database, search_query(query))).await;
 		assert!(html.contains("<code>owner</code>"));
 		assert!(html.contains(&format!("<code>{expected}(1)</code>")));
+		assert_eq!(html.contains(EXACT_MATCH_TAG), query == executable);
 		assert!(!html.contains(executable));
 		assert!(html.contains("href='/projects/owner'"));
 		assert_executable_row(&html, "owner", executable, "Debian");
@@ -877,10 +936,14 @@ async fn grouped_lists_expand_without_javascript_and_keep_exact_matches_visible(
 			let html = response_text(search_page(&database, search_query("command"))).await;
 			let expanded = html.split_once("<details class='more-related'>").unwrap().1;
 			assert!(expanded.contains("<mark>command</mark>-3"));
-			let html = response_text(search_page(&database, search_query("command-3"))).await;
-			let preview = html.split_once("<details class='more-related'>").unwrap().0;
+			let search = search_query("command-3");
+			assert_eq!(database.search(&search).unwrap().rows[0].related[0].name, "command-3");
+			let html = response_text(search_page(&database, search)).await;
+			let (preview, expanded) = html.split_once("<details class='more-related'>").unwrap();
 			assert_executable_row(preview, "tools", "command-3", "npm");
 			assert!(preview.contains("<mark>command-3</mark>"));
+			assert_eq!(preview.matches(EXACT_MATCH_TAG).count(), 1);
+			assert!(!expanded.contains(EXACT_MATCH_TAG));
 		}
 	}
 }
