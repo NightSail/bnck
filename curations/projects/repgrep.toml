@@ -6,3 +6,7 @@ repository = 'https://github.com/acheronfail/repgrep'
 [[package]]
 channel = 'arch'
 name = 'repgrep'
+
+[[package]]
+channel = 'crates.io'
+name = 'repgrep'

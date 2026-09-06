@@ -4,6 +4,10 @@ name = 'jql'
 repository = 'https://github.com/yamafaktory/jql'
 
 [[package]]
+channel = 'crates.io'
+name = 'jql'
+
+[[package]]
 channel = 'debian'
 name = 'jql'
 

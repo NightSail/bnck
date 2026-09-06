@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'gpg-tui'
 
 [[package]]
+channel = 'crates.io'
+name = 'gpg-tui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gpg-tui'

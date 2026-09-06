@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'erdtree'
 
 [[package]]
+channel = 'crates.io'
+name = 'erdtree'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/erdtree'

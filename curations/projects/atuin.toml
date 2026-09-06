@@ -13,6 +13,14 @@ channel = 'arch'
 name = 'atuin-server'
 
 [[package]]
+channel = 'crates.io'
+name = 'atuin'
+
+[[package]]
+channel = 'crates.io'
+name = 'atuin-server'
+
+[[package]]
 channel = 'debian'
 name = 'atuin'
 

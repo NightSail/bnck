@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'binsider'
 
 [[package]]
+channel = 'crates.io'
+name = 'binsider'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/binsider'

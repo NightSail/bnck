@@ -6,3 +6,7 @@ repository = 'https://github.com/TomasTomecek/sen'
 [[package]]
 channel = 'debian'
 name = 'sen'
+
+[[package]]
+channel = 'pypi'
+name = 'sen'

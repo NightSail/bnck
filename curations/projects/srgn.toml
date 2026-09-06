@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'srgn'
 
 [[package]]
+channel = 'crates.io'
+name = 'srgn'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/srgn'

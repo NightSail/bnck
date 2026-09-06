@@ -4,5 +4,9 @@ name = 'wrkflw'
 repository = 'https://github.com/bahdotsh/wrkflw'
 
 [[package]]
+channel = 'crates.io'
+name = 'wrkflw'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/wrkflw'

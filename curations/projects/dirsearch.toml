@@ -6,3 +6,7 @@ repository = 'https://github.com/maurosoria/dirsearch'
 [[package]]
 channel = 'debian'
 name = 'dirsearch'
+
+[[package]]
+channel = 'pypi'
+name = 'dirsearch'

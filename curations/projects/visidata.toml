@@ -19,3 +19,7 @@ name = 'visidata'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/visidata'
+
+[[package]]
+channel = 'pypi'
+name = 'visidata'

@@ -8,5 +8,13 @@ channel = 'arch'
 name = 'yazi'
 
 [[package]]
+channel = 'crates.io'
+name = 'yazi-cli'
+
+[[package]]
+channel = 'crates.io'
+name = 'yazi-fm'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/yazi'

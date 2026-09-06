@@ -1,0 +1,27 @@
+channel = 'crates.io'
+name = 'jj-cli'
+
+[[exclude]]
+executable = 'fake-bisector'
+reason = 'Test fixture enabled by the test-fakes feature, not a user-facing command'
+references = ['https://github.com/jj-vcs/jj/blob/main/cli/Cargo.toml']
+
+[[exclude]]
+executable = 'fake-diff-editor'
+reason = 'Test fixture enabled by the test-fakes feature, not a user-facing command'
+references = ['https://github.com/jj-vcs/jj/blob/main/cli/Cargo.toml']
+
+[[exclude]]
+executable = 'fake-echo'
+reason = 'Test fixture enabled by the test-fakes feature, not a user-facing command'
+references = ['https://github.com/jj-vcs/jj/blob/main/cli/Cargo.toml']
+
+[[exclude]]
+executable = 'fake-editor'
+reason = 'Test fixture enabled by the test-fakes feature, not a user-facing command'
+references = ['https://github.com/jj-vcs/jj/blob/main/cli/Cargo.toml']
+
+[[exclude]]
+executable = 'fake-formatter'
+reason = 'Test fixture enabled by the test-fakes feature, not a user-facing command'
+references = ['https://github.com/jj-vcs/jj/blob/main/cli/Cargo.toml']

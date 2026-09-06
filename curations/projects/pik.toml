@@ -6,3 +6,7 @@ repository = 'https://github.com/jacek-kurlit/pik'
 [[package]]
 channel = 'arch'
 name = 'pik'
+
+[[package]]
+channel = 'crates.io'
+name = 'pik'

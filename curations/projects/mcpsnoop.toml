@@ -6,3 +6,7 @@ repository = 'https://github.com/kerlenton/mcpsnoop'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mcpsnoop'
+
+[[package]]
+channel = 'npm'
+name = 'mcpsnoop'

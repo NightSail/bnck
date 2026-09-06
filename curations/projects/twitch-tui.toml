@@ -7,3 +7,7 @@ repository = 'https://github.com/Xithrius/twitch-tui'
 [[package]]
 channel = 'arch'
 name = 'twitch-tui'
+
+[[package]]
+channel = 'crates.io'
+name = 'twitch-tui'

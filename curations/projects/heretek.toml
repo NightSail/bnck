@@ -6,3 +6,7 @@ repository = 'https://github.com/wcampbell0x2a/heretek'
 [[package]]
 channel = 'arch'
 name = 'heretek'
+
+[[package]]
+channel = 'crates.io'
+name = 'heretek'

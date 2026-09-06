@@ -8,5 +8,13 @@ channel = 'arch'
 name = 'mise'
 
 [[package]]
+channel = 'crates.io'
+name = 'mise'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mise'
+
+[[package]]
+channel = 'npm'
+name = 'mise'

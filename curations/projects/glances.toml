@@ -19,3 +19,7 @@ name = 'glances'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/glances'
+
+[[package]]
+channel = 'pypi'
+name = 'glances'

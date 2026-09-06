@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'openapi-tui'
 
 [[package]]
+channel = 'crates.io'
+name = 'openapi-tui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/openapi-tui'

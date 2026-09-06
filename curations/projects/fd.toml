@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'fd'
 
 [[package]]
+channel = 'crates.io'
+name = 'fd-find'
+
+[[package]]
 channel = 'debian'
 name = 'fd-find'
 

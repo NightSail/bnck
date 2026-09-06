@@ -6,3 +6,11 @@ repository = 'https://github.com/orhun/systeroid'
 [[package]]
 channel = 'arch'
 name = 'systeroid'
+
+[[package]]
+channel = 'crates.io'
+name = 'systeroid'
+
+[[package]]
+channel = 'crates.io'
+name = 'systeroid-tui'

@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'gping'
 
 [[package]]
+channel = 'crates.io'
+name = 'gping'
+
+[[package]]
 channel = 'debian'
 name = 'gping'
 

@@ -6,3 +6,7 @@ repository = 'https://github.com/AmmarAbouZor/tui-journal'
 [[package]]
 channel = 'arch'
 name = 'tui-journal'
+
+[[package]]
+channel = 'crates.io'
+name = 'tui-journal'

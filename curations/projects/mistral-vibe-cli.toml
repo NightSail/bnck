@@ -6,3 +6,7 @@ repository = 'https://github.com/mistralai/mistral-vibe'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mistral-vibe'
+
+[[package]]
+channel = 'pypi'
+name = 'mistral-vibe'

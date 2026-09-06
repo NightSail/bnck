@@ -4,5 +4,9 @@ name = 'kibi'
 repository = 'https://github.com/ilai-deutel/kibi'
 
 [[package]]
+channel = 'crates.io'
+name = 'kibi'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/kibi'

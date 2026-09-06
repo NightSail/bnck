@@ -9,6 +9,10 @@ channel = 'arch'
 name = 'eza'
 
 [[package]]
+channel = 'crates.io'
+name = 'eza'
+
+[[package]]
 channel = 'debian'
 name = 'eza'
 

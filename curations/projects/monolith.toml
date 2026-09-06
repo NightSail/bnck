@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'monolith'
 
 [[package]]
+channel = 'crates.io'
+name = 'monolith'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/monolith'

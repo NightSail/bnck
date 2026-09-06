@@ -4,5 +4,9 @@ name = 'lazyrsync'
 repository = 'https://github.com/westpoint-io/lazyrsync'
 
 [[package]]
+channel = 'crates.io'
+name = 'lazyrsync'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/lazyrsync'

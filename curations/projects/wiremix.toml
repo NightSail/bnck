@@ -6,3 +6,7 @@ repository = 'https://github.com/tsowell/wiremix'
 [[package]]
 channel = 'arch'
 name = 'wiremix'
+
+[[package]]
+channel = 'crates.io'
+name = 'wiremix'

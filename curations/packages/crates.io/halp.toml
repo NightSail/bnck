@@ -1,0 +1,7 @@
+channel = 'crates.io'
+name = 'halp'
+
+[[exclude]]
+executable = 'halp-test'
+reason = 'Empty argument-parser fixture for testing help output, not a user-facing command'
+references = ['https://github.com/orhun/halp/blob/main/src/bin/test.rs']

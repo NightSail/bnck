@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'fnm'
 
 [[package]]
+channel = 'crates.io'
+name = 'fnm'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/fnm'

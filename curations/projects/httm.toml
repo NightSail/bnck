@@ -4,5 +4,9 @@ name = 'httm'
 repository = 'https://github.com/kimono-koans/httm'
 
 [[package]]
+channel = 'crates.io'
+name = 'httm'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/httm'

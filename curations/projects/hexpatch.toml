@@ -6,3 +6,7 @@ repository = 'https://github.com/Etto48/HexPatch'
 [[package]]
 channel = 'arch'
 name = 'hexpatch'
+
+[[package]]
+channel = 'crates.io'
+name = 'hex-patch'

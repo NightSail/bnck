@@ -6,3 +6,7 @@ repository = 'https://github.com/kxxt/tracexec'
 [[package]]
 channel = 'arch'
 name = 'tracexec'
+
+[[package]]
+channel = 'crates.io'
+name = 'tracexec'

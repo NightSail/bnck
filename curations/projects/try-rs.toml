@@ -4,5 +4,9 @@ name = 'try-rs'
 repository = 'https://github.com/tassiovirginio/try-rs'
 
 [[package]]
+channel = 'crates.io'
+name = 'try-rs'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/try-rs'

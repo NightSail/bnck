@@ -18,3 +18,7 @@ name = 'ddgr'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ddgr'
+
+[[package]]
+channel = 'pypi'
+name = 'ddgr'

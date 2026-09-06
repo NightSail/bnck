@@ -6,3 +6,7 @@ repository = 'https://github.com/rgwood/systemctl-tui'
 [[package]]
 channel = 'arch'
 name = 'systemctl-tui'
+
+[[package]]
+channel = 'crates.io'
+name = 'systemctl-tui'

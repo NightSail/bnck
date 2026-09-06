@@ -6,3 +6,7 @@ repository = 'https://github.com/ggozad/oterm'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/oterm'
+
+[[package]]
+channel = 'pypi'
+name = 'oterm'

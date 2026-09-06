@@ -6,3 +6,7 @@ repository = 'https://github.com/sa7mon/S3Scanner'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/s3scanner'
+
+[[package]]
+channel = 'pypi'
+name = 's3scanner'

@@ -8,5 +8,13 @@ channel = 'arch'
 name = 'ast-grep'
 
 [[package]]
+channel = 'crates.io'
+name = 'ast-grep'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ast-grep'
+
+[[package]]
+channel = 'npm'
+name = '@ast-grep/cli'

@@ -11,3 +11,7 @@ name = 'harlequin'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/harlequin'
+
+[[package]]
+channel = 'pypi'
+name = 'harlequin'

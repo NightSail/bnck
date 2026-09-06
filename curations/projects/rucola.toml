@@ -6,3 +6,7 @@ repository = 'https://github.com/Linus-Mussmaecher/rucola'
 [[package]]
 channel = 'arch'
 name = 'rucola'
+
+[[package]]
+channel = 'crates.io'
+name = 'rucola-notes'

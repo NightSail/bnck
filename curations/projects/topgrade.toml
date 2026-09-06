@@ -4,5 +4,9 @@ name = 'topgrade'
 repository = 'https://github.com/topgrade-rs/topgrade'
 
 [[package]]
+channel = 'crates.io'
+name = 'topgrade'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/topgrade'

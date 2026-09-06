@@ -4,5 +4,9 @@ name = 'tldrc'
 repository = 'https://github.com/tldr-pages/tlrc'
 
 [[package]]
+channel = 'crates.io'
+name = 'tlrc'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tlrc'

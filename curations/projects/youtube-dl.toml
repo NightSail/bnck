@@ -6,3 +6,7 @@ repository = 'https://github.com/ytdl-org/youtube-dl'
 [[package]]
 channel = 'fedora'
 name = 'youtube-dl'
+
+[[package]]
+channel = 'pypi'
+name = 'youtube-dl'

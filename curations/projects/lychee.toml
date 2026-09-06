@@ -4,5 +4,9 @@ name = 'lychee'
 repository = 'https://github.com/lycheeverse/lychee'
 
 [[package]]
+channel = 'crates.io'
+name = 'lychee'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/lychee'

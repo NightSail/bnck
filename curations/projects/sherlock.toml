@@ -14,3 +14,7 @@ name = 'sherlock-project'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/sherlock'
+
+[[package]]
+channel = 'pypi'
+name = 'sherlock-project'

@@ -6,3 +6,7 @@ repository = 'https://github.com/jordond/jolt'
 [[package]]
 channel = 'arch'
 name = 'jolt'
+
+[[package]]
+channel = 'crates.io'
+name = 'jolt-tui'

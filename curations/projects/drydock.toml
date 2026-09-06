@@ -2,3 +2,7 @@ id = 'drydock'
 name = 'drydock'
 
 repository = 'https://github.com/yetidevworks/drydock'
+
+[[package]]
+channel = 'crates.io'
+name = 'drydock'

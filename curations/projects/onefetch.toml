@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'onefetch'
 
 [[package]]
+channel = 'crates.io'
+name = 'onefetch'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/onefetch'

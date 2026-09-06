@@ -11,3 +11,7 @@ name = 'fx'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/fx'
+
+[[package]]
+channel = 'npm'
+name = 'fx'

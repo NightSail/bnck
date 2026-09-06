@@ -4,6 +4,10 @@ name = 'xleak'
 repository = 'https://github.com/bgreenwell/xleak'
 
 [[package]]
+channel = 'crates.io'
+name = 'xleak'
+
+[[package]]
 channel = 'debian'
 name = 'xleak'
 

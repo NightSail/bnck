@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'navi'
 
 [[package]]
+channel = 'crates.io'
+name = 'navi'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/navi'

@@ -5,5 +5,9 @@ homepage = 'https://simonomi.dev/hexapoda'
 repository = 'https://github.com/simonomi/hexapoda'
 
 [[package]]
+channel = 'crates.io'
+name = 'hexapoda'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/hexapoda'

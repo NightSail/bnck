@@ -4,5 +4,9 @@ name = 'stu'
 repository = 'https://github.com/lusingander/stu'
 
 [[package]]
+channel = 'crates.io'
+name = 'stu'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/stu'

@@ -6,3 +6,7 @@ repository = 'https://github.com/ndd7xv/heh'
 [[package]]
 channel = 'arch'
 name = 'heh'
+
+[[package]]
+channel = 'crates.io'
+name = 'heh'

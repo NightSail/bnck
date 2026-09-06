@@ -6,3 +6,7 @@ repository = 'https://github.com/hlsxx/tukai'
 [[package]]
 channel = 'arch'
 name = 'tukai'
+
+[[package]]
+channel = 'crates.io'
+name = 'tukai'

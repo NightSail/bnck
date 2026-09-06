@@ -4,5 +4,9 @@ name = 'sabiql'
 repository = 'https://github.com/riii111/sabiql'
 
 [[package]]
+channel = 'crates.io'
+name = 'sabiql'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/sabiql'

@@ -6,3 +6,7 @@ repository = 'https://github.com/efugier/smartcat'
 [[package]]
 channel = 'arch'
 name = 'smartcat'
+
+[[package]]
+channel = 'crates.io'
+name = 'smartcat'

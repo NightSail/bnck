@@ -6,3 +6,7 @@ repository = 'https://github.com/PabloLec/RecoverPy'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/recoverpy'
+
+[[package]]
+channel = 'pypi'
+name = 'recoverpy'

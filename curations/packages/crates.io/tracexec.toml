@@ -1,0 +1,22 @@
+channel = 'crates.io'
+name = 'tracexec'
+
+[[exclude]]
+executable = 'corrupted-envp'
+reason = 'Executable tracing test fixture, not a user-facing command'
+references = ['https://github.com/kxxt/tracexec/blob/main/Cargo.toml']
+
+[[exclude]]
+executable = 'empty-argv'
+reason = 'Executable tracing test fixture, not a user-facing command'
+references = ['https://github.com/kxxt/tracexec/blob/main/Cargo.toml']
+
+[[exclude]]
+executable = 'exec-file'
+reason = 'Executable tracing test fixture, not a user-facing command'
+references = ['https://github.com/kxxt/tracexec/blob/main/Cargo.toml']
+
+[[exclude]]
+executable = 'exec-stress'
+reason = 'Executable tracing test fixture, not a user-facing command'
+references = ['https://github.com/kxxt/tracexec/blob/main/Cargo.toml']

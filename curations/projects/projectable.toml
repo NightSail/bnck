@@ -4,5 +4,9 @@ name = 'projectable'
 repository = 'https://github.com/dzfrias/projectable'
 
 [[package]]
+channel = 'crates.io'
+name = 'projectable'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/projectable'

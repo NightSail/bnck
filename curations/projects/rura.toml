@@ -4,5 +4,9 @@ name = 'rura'
 repository = 'https://github.com/tlipinski/rura'
 
 [[package]]
+channel = 'crates.io'
+name = 'rura'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/rura'

@@ -4,6 +4,10 @@ name = 'so'
 repository = 'https://github.com/samtay/so'
 
 [[package]]
+channel = 'crates.io'
+name = 'so'
+
+[[package]]
 channel = 'debian'
 name = 'so'
 

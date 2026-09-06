@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'tailspin'
 
 [[package]]
+channel = 'crates.io'
+name = 'tailspin'
+
+[[package]]
 channel = 'debian'
 name = 'tailspin'
 

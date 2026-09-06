@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'lsd'
 
 [[package]]
+channel = 'crates.io'
+name = 'lsd'
+
+[[package]]
 channel = 'debian'
 name = 'lsd'
 

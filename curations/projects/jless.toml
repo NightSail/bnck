@@ -9,6 +9,10 @@ channel = 'arch'
 name = 'jless'
 
 [[package]]
+channel = 'crates.io'
+name = 'jless'
+
+[[package]]
 channel = 'debian'
 name = 'jless'
 

@@ -4,5 +4,9 @@ name = 'nomino'
 repository = 'https://github.com/yaa110/nomino'
 
 [[package]]
+channel = 'crates.io'
+name = 'nomino'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/nomino'

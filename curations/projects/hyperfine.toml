@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'hyperfine'
 
 [[package]]
+channel = 'crates.io'
+name = 'hyperfine'
+
+[[package]]
 channel = 'debian'
 name = 'hyperfine'
 

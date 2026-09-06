@@ -6,3 +6,7 @@ repository = 'https://github.com/pythops/bluetui'
 [[package]]
 channel = 'arch'
 name = 'bluetui'
+
+[[package]]
+channel = 'crates.io'
+name = 'bluetui'

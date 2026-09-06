@@ -4,6 +4,10 @@ name = 'hwatch'
 repository = 'https://github.com/blacknon/hwatch'
 
 [[package]]
+channel = 'crates.io'
+name = 'hwatch'
+
+[[package]]
 channel = 'debian'
 name = 'hwatch'
 

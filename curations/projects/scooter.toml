@@ -4,5 +4,9 @@ name = 'scooter'
 repository = 'https://github.com/thomasschafer/scooter'
 
 [[package]]
+channel = 'crates.io'
+name = 'scooter'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/scooter'

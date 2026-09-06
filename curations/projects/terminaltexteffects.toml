@@ -6,3 +6,7 @@ repository = 'https://github.com/ChrisBuilds/terminaltexteffects'
 [[package]]
 channel = 'debian'
 name = 'python3-terminaltexteffects'
+
+[[package]]
+channel = 'pypi'
+name = 'terminaltexteffects'

@@ -8,5 +8,13 @@ channel = 'arch'
 name = 'git-cliff'
 
 [[package]]
+channel = 'crates.io'
+name = 'git-cliff'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/git-cliff'
+
+[[package]]
+channel = 'npm'
+name = 'git-cliff'

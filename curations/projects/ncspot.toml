@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'ncspot'
 
 [[package]]
+channel = 'crates.io'
+name = 'ncspot'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ncspot'

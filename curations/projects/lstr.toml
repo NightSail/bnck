@@ -4,5 +4,9 @@ name = 'lstr'
 repository = 'https://github.com/bgreenwell/lstr'
 
 [[package]]
+channel = 'crates.io'
+name = 'lstr'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/lstr'

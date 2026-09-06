@@ -18,3 +18,7 @@ name = 'yt-dlp'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/yt-dlp'
+
+[[package]]
+channel = 'pypi'
+name = 'yt-dlp'

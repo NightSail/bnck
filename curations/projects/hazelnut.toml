@@ -6,3 +6,7 @@ repository = 'https://github.com/ricardodantas/hazelnut'
 [[package]]
 channel = 'arch'
 name = 'hazelnut'
+
+[[package]]
+channel = 'crates.io'
+name = 'hazelnut'

@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'parallel-disk-usage'
 
 [[package]]
+channel = 'crates.io'
+name = 'parallel-disk-usage'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/parallel-disk-usage'

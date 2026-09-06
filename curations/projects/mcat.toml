@@ -4,5 +4,9 @@ name = 'mcat'
 repository = 'https://github.com/Skardyy/mcat'
 
 [[package]]
+channel = 'crates.io'
+name = 'mcat'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mcat'

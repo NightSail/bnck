@@ -10,3 +10,7 @@ name = 'gtop'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gtop'
+
+[[package]]
+channel = 'npm'
+name = 'gtop'

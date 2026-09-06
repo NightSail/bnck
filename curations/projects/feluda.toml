@@ -4,6 +4,10 @@ name = 'feluda'
 repository = 'https://github.com/anistark/feluda'
 
 [[package]]
+channel = 'crates.io'
+name = 'feluda'
+
+[[package]]
 channel = 'debian'
 name = 'feluda'
 

@@ -4,5 +4,9 @@ name = 'dnsglobe'
 repository = 'https://github.com/514-labs/dnsglobe'
 
 [[package]]
+channel = 'crates.io'
+name = 'dnsglobe'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/dnsglobe'

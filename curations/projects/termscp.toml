@@ -9,5 +9,9 @@ channel = 'arch'
 name = 'termscp'
 
 [[package]]
+channel = 'crates.io'
+name = 'termscp'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/termscp'

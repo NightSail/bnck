@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'llmfit'
 
 [[package]]
+channel = 'crates.io'
+name = 'llmfit'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/llmfit'

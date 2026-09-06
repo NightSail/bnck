@@ -10,3 +10,7 @@ name = 'posting'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/posting'
+
+[[package]]
+channel = 'pypi'
+name = 'posting'

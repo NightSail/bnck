@@ -6,3 +6,7 @@ repository = 'https://github.com/bananaofhappiness/soundscope'
 [[package]]
 channel = 'arch'
 name = 'soundscope'
+
+[[package]]
+channel = 'crates.io'
+name = 'soundscope'

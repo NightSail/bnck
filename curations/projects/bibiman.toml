@@ -4,5 +4,9 @@ name = 'bibiman'
 repository = 'https://codeberg.org/lukeflo/bibiman'
 
 [[package]]
+channel = 'crates.io'
+name = 'bibiman'
+
+[[package]]
 channel = 'debian'
 name = 'bibiman'

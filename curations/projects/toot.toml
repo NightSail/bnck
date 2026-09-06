@@ -18,3 +18,7 @@ name = 'toot'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/toot'
+
+[[package]]
+channel = 'pypi'
+name = 'toot'

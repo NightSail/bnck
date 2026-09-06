@@ -6,3 +6,7 @@ repository = 'https://github.com/pycontribs/gri'
 [[package]]
 channel = 'debian'
 name = 'gri'
+
+[[package]]
+channel = 'pypi'
+name = 'gri'

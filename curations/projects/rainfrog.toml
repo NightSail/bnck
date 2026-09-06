@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'rainfrog'
 
 [[package]]
+channel = 'crates.io'
+name = 'rainfrog'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/rainfrog'

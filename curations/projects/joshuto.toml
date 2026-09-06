@@ -4,5 +4,9 @@ name = 'joshuto'
 repository = 'https://github.com/kamiyaa/joshuto'
 
 [[package]]
+channel = 'crates.io'
+name = 'joshuto'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/joshuto'

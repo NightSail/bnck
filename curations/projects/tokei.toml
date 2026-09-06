@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'tokei'
 
 [[package]]
+channel = 'crates.io'
+name = 'tokei'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tokei'

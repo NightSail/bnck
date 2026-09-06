@@ -6,3 +6,11 @@ repository = 'https://github.com/Harry-kp/vortix'
 [[package]]
 channel = 'arch'
 name = 'vortix'
+
+[[package]]
+channel = 'crates.io'
+name = 'vortix'
+
+[[package]]
+channel = 'npm'
+name = '@harry-kp/vortix'

@@ -9,9 +9,17 @@ channel = 'arch'
 name = 'asciinema'
 
 [[package]]
+channel = 'crates.io'
+name = 'asciinema'
+
+[[package]]
 channel = 'fedora'
 name = 'asciinema'
 
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/asciinema'
+
+[[package]]
+channel = 'pypi'
+name = 'asciinema'

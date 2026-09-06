@@ -9,9 +9,21 @@ channel = 'arch'
 name = 'hurl'
 
 [[package]]
+channel = 'crates.io'
+name = 'hurl'
+
+[[package]]
+channel = 'crates.io'
+name = 'hurlfmt'
+
+[[package]]
 channel = 'debian'
 name = 'hurl'
 
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/hurl'
+
+[[package]]
+channel = 'npm'
+name = '@orangeopensource/hurl'

@@ -6,3 +6,7 @@ repository = 'https://github.com/ynqa/sig'
 [[package]]
 channel = 'arch'
 name = 'sig'
+
+[[package]]
+channel = 'crates.io'
+name = 'sigrs'

@@ -4,5 +4,9 @@ name = 'tuisky'
 repository = 'https://github.com/sugyan/tuisky'
 
 [[package]]
+channel = 'crates.io'
+name = 'tuisky'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tuisky'

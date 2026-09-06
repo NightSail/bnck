@@ -4,5 +4,9 @@ name = 'redu'
 repository = 'https://github.com/drdo/redu'
 
 [[package]]
+channel = 'crates.io'
+name = 'redu'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/redu'

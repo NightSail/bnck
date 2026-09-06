@@ -14,3 +14,7 @@ name = 'khal'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/khal'
+
+[[package]]
+channel = 'pypi'
+name = 'khal'

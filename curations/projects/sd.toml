@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'sd'
 
 [[package]]
+channel = 'crates.io'
+name = 'sd'
+
+[[package]]
 channel = 'debian'
 name = 'sd'
 

@@ -9,6 +9,10 @@ channel = 'arch'
 name = 'difftastic'
 
 [[package]]
+channel = 'crates.io'
+name = 'difftastic'
+
+[[package]]
 channel = 'fedora'
 name = 'difftastic'
 

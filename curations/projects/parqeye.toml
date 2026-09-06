@@ -4,5 +4,9 @@ name = 'parqeye'
 repository = 'https://github.com/kaushiksrini/parqeye'
 
 [[package]]
+channel = 'crates.io'
+name = 'parqeye'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/parqeye'

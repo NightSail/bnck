@@ -9,5 +9,9 @@ channel = 'arch'
 name = 'xplr'
 
 [[package]]
+channel = 'crates.io'
+name = 'xplr'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/xplr'

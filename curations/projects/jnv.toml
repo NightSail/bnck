@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'jnv'
 
 [[package]]
+channel = 'crates.io'
+name = 'jnv'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jnv'

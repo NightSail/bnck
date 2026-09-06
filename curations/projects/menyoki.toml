@@ -6,3 +6,7 @@ repository = 'https://github.com/orhun/menyoki'
 [[package]]
 channel = 'arch'
 name = 'menyoki'
+
+[[package]]
+channel = 'crates.io'
+name = 'menyoki'

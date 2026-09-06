@@ -9,5 +9,9 @@ channel = 'arch'
 name = 'jwt-ui'
 
 [[package]]
+channel = 'crates.io'
+name = 'jwt-ui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jwt-ui'

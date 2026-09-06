@@ -4,5 +4,9 @@ name = 't-rec'
 repository = 'https://github.com/sassman/t-rec-rs'
 
 [[package]]
+channel = 'crates.io'
+name = 't-rec'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/t-rec'

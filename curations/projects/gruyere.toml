@@ -6,3 +6,7 @@ repository = 'https://github.com/savannahostrowski/gruyere'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gruyere'
+
+[[package]]
+channel = 'pypi'
+name = 'gruyere'

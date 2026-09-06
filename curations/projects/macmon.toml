@@ -4,5 +4,9 @@ name = 'macmon'
 repository = 'https://github.com/vladkens/macmon'
 
 [[package]]
+channel = 'crates.io'
+name = 'macmon'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/macmon'

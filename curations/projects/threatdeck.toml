@@ -4,5 +4,9 @@ name = 'threatdeck'
 repository = 'https://github.com/gripebomb/threatdeck'
 
 [[package]]
+channel = 'crates.io'
+name = 'ThreatDeck'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/threatdeck'

@@ -7,3 +7,7 @@ repository = 'https://github.com/whyisdifficult/jiratui'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jiratui'
+
+[[package]]
+channel = 'pypi'
+name = 'jiratui'

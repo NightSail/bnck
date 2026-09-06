@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'gitlogue'
 
 [[package]]
+channel = 'crates.io'
+name = 'gitlogue'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gitlogue'

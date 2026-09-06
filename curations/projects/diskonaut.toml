@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'diskonaut'
 
 [[package]]
+channel = 'crates.io'
+name = 'diskonaut'
+
+[[package]]
 channel = 'debian'
 name = 'diskonaut'
 

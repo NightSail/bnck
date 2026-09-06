@@ -6,3 +6,7 @@ repository = 'https://github.com/YS-L/flamelens'
 [[package]]
 channel = 'arch'
 name = 'flamelens'
+
+[[package]]
+channel = 'crates.io'
+name = 'flamelens'

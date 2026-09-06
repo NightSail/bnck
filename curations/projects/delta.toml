@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'git-delta'
 
 [[package]]
+channel = 'crates.io'
+name = 'git-delta'
+
+[[package]]
 channel = 'debian'
 name = 'git-delta'
 

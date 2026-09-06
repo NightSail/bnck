@@ -6,3 +6,7 @@ repository = 'https://github.com/RustScan/RustScan'
 [[package]]
 channel = 'arch'
 name = 'rustscan'
+
+[[package]]
+channel = 'crates.io'
+name = 'rustscan'

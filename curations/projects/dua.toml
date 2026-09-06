@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'dua-cli'
 
 [[package]]
+channel = 'crates.io'
+name = 'dua-cli'
+
+[[package]]
 channel = 'debian'
 name = 'dua-cli'
 

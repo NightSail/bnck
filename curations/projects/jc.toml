@@ -18,3 +18,7 @@ name = 'jc'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jc'
+
+[[package]]
+channel = 'pypi'
+name = 'jc'

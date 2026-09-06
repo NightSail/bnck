@@ -4,5 +4,9 @@ name = 'mergiraf'
 repository = 'https://codeberg.org/mergiraf/mergiraf'
 
 [[package]]
+channel = 'crates.io'
+name = 'mergiraf'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mergiraf'

@@ -6,3 +6,7 @@ repository = 'https://github.com/orhun/kmon'
 [[package]]
 channel = 'arch'
 name = 'kmon'
+
+[[package]]
+channel = 'crates.io'
+name = 'kmon'

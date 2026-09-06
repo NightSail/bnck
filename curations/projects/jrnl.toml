@@ -6,3 +6,7 @@ repository = 'https://github.com/jrnl-org/jrnl'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jrnl'
+
+[[package]]
+channel = 'pypi'
+name = 'jrnl'

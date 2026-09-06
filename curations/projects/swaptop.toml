@@ -6,3 +6,7 @@ repository = 'https://github.com/luis-ota/swaptop'
 [[package]]
 channel = 'arch'
 name = 'swaptop'
+
+[[package]]
+channel = 'crates.io'
+name = 'swaptop'

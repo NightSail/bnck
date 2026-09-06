@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'treemd'
 
 [[package]]
+channel = 'crates.io'
+name = 'treemd'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/treemd'

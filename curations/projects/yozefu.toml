@@ -4,5 +4,9 @@ name = 'yozefu'
 repository = 'https://github.com/MAIF/yozefu'
 
 [[package]]
+channel = 'crates.io'
+name = 'yozefu'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/yozefu'

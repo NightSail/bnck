@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'bat'
 
 [[package]]
+channel = 'crates.io'
+name = 'bat'
+
+[[package]]
 channel = 'debian'
 name = 'bat'
 

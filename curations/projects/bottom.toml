@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'bottom'
 
 [[package]]
+channel = 'crates.io'
+name = 'bottom'
+
+[[package]]
 channel = 'debian'
 name = 'btm'
 

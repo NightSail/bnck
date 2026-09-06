@@ -6,3 +6,7 @@ repository = 'https://github.com/tarkah/tickrs'
 [[package]]
 channel = 'arch'
 name = 'tickrs'
+
+[[package]]
+channel = 'crates.io'
+name = 'tickrs'

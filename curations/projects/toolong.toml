@@ -6,3 +6,7 @@ repository = 'https://github.com/Textualize/toolong'
 [[package]]
 channel = 'debian'
 name = 'toolong'
+
+[[package]]
+channel = 'pypi'
+name = 'toolong'

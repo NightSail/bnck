@@ -4,5 +4,9 @@ name = 'kdash'
 repository = 'https://github.com/kdash-rs/kdash'
 
 [[package]]
+channel = 'crates.io'
+name = 'kdash'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/kdash'

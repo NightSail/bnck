@@ -4,5 +4,9 @@ name = 'bookokrat'
 repository = 'https://github.com/bugzmanov/bookokrat'
 
 [[package]]
+channel = 'crates.io'
+name = 'bookokrat'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/bookokrat'

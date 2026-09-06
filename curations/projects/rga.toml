@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'ripgrep-all'
 
 [[package]]
+channel = 'crates.io'
+name = 'ripgrep_all'
+
+[[package]]
 channel = 'debian'
 name = 'ripgrep-all'
 

@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'cotp'
 
 [[package]]
+channel = 'crates.io'
+name = 'cotp'
+
+[[package]]
 channel = 'debian'
 name = 'cotp'
 
