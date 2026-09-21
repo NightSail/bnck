@@ -57,6 +57,29 @@ function fetchSnapshot() {
 	return snapshot;
 }
 
+test('crates acquisition exposes only dump jobs and the demo avoids the dump', () => {
+	const summary = Bun.spawnSync([just, '--justfile', justfile, '--summary']);
+	expect(summary.exitCode).toBe(0);
+	const recipes = summary.stdout.toString().trim().split(/\s+/);
+	expect(recipes).toContain('fetch-crates-dump');
+	expect(recipes).toContain('import-crates-dump');
+	expect(recipes).not.toContain('fetch-crate');
+	expect(recipes).not.toContain('import-crates-api');
+	const dump = Bun.spawnSync([just, '--justfile', justfile, '--dry-run', 'fetch-crates-dump']);
+	expect(dump.exitCode).toBe(0);
+	const fetch = dump.stderr.toString();
+	expect(fetch.match(/curl /g)?.length).toBe(1);
+	expect(fetch).toContain('https://static.crates.io/db-dump.tar.gz');
+	expect(fetch).toContain('*/data/crates.csv');
+	expect(fetch).toContain('*/data/versions.csv');
+	expect(fetch).not.toContain('crates.io/api/');
+	const demo = Bun.spawnSync([just, '--justfile', justfile, '--dry-run', 'demo']);
+	expect(demo.exitCode).toBe(0);
+	expect(demo.stderr.toString()).toContain('https://registry.npmjs.org/eslint');
+	expect(demo.stderr.toString()).toContain('https://pypi.org/simple/black/');
+	expect(demo.stderr.toString()).not.toContain('crates.io');
+});
+
 test('argument-free fetches create distinct retained snapshots under var/input/languages', () => {
 	const first = fetchSnapshot();
 	expect(dirname(first)).toBe(inputs);

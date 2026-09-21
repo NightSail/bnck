@@ -85,12 +85,6 @@ enum Command {
 		#[arg(long)]
 		output: PathBuf,
 	},
-	ImportCratesApi {
-		#[arg(long)]
-		input: PathBuf,
-		#[arg(long)]
-		output: PathBuf,
-	},
 	PlanNpmPage {
 		#[arg(long)]
 		input: PathBuf,
@@ -246,7 +240,6 @@ async fn main() -> Result<()> {
 		Command::ImportCratesDump { crates, versions, output, curations } => {
 			importers::crates_io::import_dump(&crates, &versions, &output, scope, curations.as_deref())?
 		},
-		Command::ImportCratesApi { input, output } => importers::crates_io::import_api(&input, &output, scope)?,
 		Command::PlanNpmPage { input, output } => registry::plan_npm_page(&input, &output)?,
 		Command::PlanRegistry { channel, index, curations, output_directory, output } => {
 			registry::plan_metadata(&channel, &index, &curations, &output_directory, &output)?

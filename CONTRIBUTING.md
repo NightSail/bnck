@@ -12,7 +12,7 @@ just check
 
 ## Demo
 
-Run a small live acquisition for ripgrep, ESLint, and Black:
+Run a small live acquisition for ESLint and Black:
 
 ```sh
 just demo
@@ -21,8 +21,6 @@ just demo
 The resulting files include:
 
 ```text
-var/acquired/crates-io.jsonl
-var/acquired/crates-io.jsonl.manifest.json
 var/acquired/npm.jsonl
 var/acquired/npm.jsonl.manifest.json
 var/acquired/pypi.jsonl
@@ -42,14 +40,12 @@ List available jobs:
 just
 ```
 
-Fetch and import individual packages:
+Fetch and import individual npm/PyPI packages:
 
 ```sh
-just fetch-crate ripgrep
 just fetch-npm eslint
 just fetch-pypi black
 
-just import-crates-api
 just import-npm
 just import-pypi
 just generate
@@ -74,7 +70,7 @@ just generate
 
 Both jobs run without arguments. Each fetch creates a fresh directory under `var/input/languages/`; imports use the most recently completed fetch. Failed refreshes leave the previous completed inputs selected, and earlier input directories are retained.
 
-crates.io uses its full database dump; npm uses a complete replication catalog scan followed by selected packuments; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
+crates.io uses its full database dump without per-package API requests; npm uses a complete replication catalog scan followed by selected packuments; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
 
 The crates.io database dump, npm catalog, and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
 

@@ -10,7 +10,7 @@ The MVP imports all initial channels:
 - Fedora from DNF primary and filelists metadata
 - Arch Linux from repository file databases
 - Homebrew from formula and cask API metadata
-- crates.io from the database dump or per-crate API responses
+- crates.io from the database dump
 - npm from package packuments
 - PyPI from Simple API metadata and statically inspected wheels
 - TOML curation resolution into canonical provider JSON Lines

@@ -126,5 +126,5 @@ stats:
     for file in var/acquired/*.jsonl; do printf '%-32s %s\n' "$file" "$(wc -l < "$file")"; done
     if test -f var/providers.jsonl; then printf '%-32s %s\n' var/providers.jsonl "$(wc -l < var/providers.jsonl)"; fi
 
-demo: (fetch-crate 'ripgrep') (fetch-npm 'eslint') (fetch-pypi 'black') import-crates-api import-npm import-pypi generate
+demo: (fetch-npm 'eslint') (fetch-pypi 'black') import-npm import-pypi generate
     @printf 'Generated %s provider records in var/providers.jsonl\n' "$(wc -l < var/providers.jsonl)"

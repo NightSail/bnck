@@ -10,7 +10,7 @@ The collectors read broad registry catalogs and retain metadata for packages pla
 - npm: Scan the replication service's complete `_all_docs` catalog with inclusive keyset pagination, then download selected package packuments
 - PyPI: Download the complete Simple API project list, then selected project responses and one wheel per supported current release
 
-npm and PyPI do not provide a crates.io-style dump containing every executable declaration. Their bulk catalogs provide package names; npm packuments contain `bin` declarations, while PyPI requires static wheel inspection. Neither npm tarballs nor crates.io package artifacts are downloaded. No packages are installed, built, imported, or executed.
+npm and PyPI do not provide a crates.io-style dump containing every executable declaration. Their bulk catalogs provide package names; npm packuments contain `bin` declarations, while PyPI requires static wheel inspection. Neither npm tarballs nor crates.io package artifacts are downloaded. The crates.io dump supplies all required package and executable metadata; no per-package API requests are made. No packages are installed, built, imported, or executed.
 
 ## Discovery and attribution
 
@@ -70,7 +70,7 @@ just fetch-registry-plan pypi var/input/pypi-next/metadata.tsv
 
 Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output and scope for individual snapshot imports. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
 
-The original per-package fetch commands remain available for focused checks and `just demo`. Their directory/API imports mark the channel snapshot partial with `package-selection=explicit-packages`; they do not claim to cover all curated packages.
+The npm/PyPI per-package fetch commands remain available for focused checks and `just demo`. Their directory imports mark the channel snapshot partial with `package-selection=explicit-packages`; they do not claim to cover all curated packages.
 
 ## Release and wheel selection
 
