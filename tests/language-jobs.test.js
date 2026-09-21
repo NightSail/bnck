@@ -75,8 +75,10 @@ test('crates acquisition exposes only dump jobs and the demo avoids the dump', (
 	expect(fetch).not.toContain('crates.io/api/');
 	const demo = Bun.spawnSync([just, '--justfile', justfile, '--dry-run', 'demo']);
 	expect(demo.exitCode).toBe(0);
-	expect(demo.stderr.toString()).toContain('https://registry.npmjs.org/eslint');
-	expect(demo.stderr.toString()).toContain('https://pypi.org/simple/black/');
+	expect(demo.stderr.toString()).toContain('var/demo/run.XXXXXX');
+	expect(demo.stderr.toString()).toContain('just fetch-npm "$snapshot/npm"');
+	expect(demo.stderr.toString()).toContain('"$snapshot/acquired/pypi.jsonl" fetch-pypi black import-pypi');
+	expect(demo.stderr.toString()).not.toContain('var/acquired');
 	expect(demo.stderr.toString()).not.toContain('crates.io');
 });
 
@@ -86,8 +88,7 @@ test('argument-free fetches create distinct retained snapshots under var/input/l
 	expect(basename(first)).toMatch(/^\d{4}-\d{2}-\d{2}T\d{6}Z\.[a-zA-Z0-9]+$/);
 	expect(commands()).toEqual([
 		['just', 'fetch-crates-dump', `${first}/crates`],
-		['just', 'fetch-npm-index', `${first}/npm-index`],
-		['just', 'fetch-registry-metadata', 'npm', `${first}/npm-index`, `${first}/npm`],
+		['just', 'fetch-npm', `${first}/npm`],
 		['just', 'fetch-pypi-index', `${first}/pypi-index.json`],
 		['just', 'fetch-registry-metadata', 'pypi', `${first}/pypi-index.json`, `${first}/pypi`],
 		['just', 'fetch-pypi-wheels', `${first}/pypi`],
@@ -101,7 +102,7 @@ test('argument-free fetches create distinct retained snapshots under var/input/l
 });
 
 test('a failed first fetch is not selected for import', () => {
-	expect(run('fetch-languages', { BNCK_TEST_FAIL_JOB: 'fetch-npm-index' }).exitCode).not.toBe(0);
+	expect(run('fetch-languages', { BNCK_TEST_FAIL_JOB: 'fetch-npm' }).exitCode).not.toBe(0);
 	expect(existsSync(selection)).toBe(false);
 	writeFileSync(log, '');
 	const result = run('import-languages');
@@ -112,7 +113,7 @@ test('a failed first fetch is not selected for import', () => {
 
 test('failure at any fetch stage leaves the last completed inputs selected', () => {
 	const previous = fetchSnapshot();
-	for (const job of ['fetch-crates-dump', 'fetch-npm-index', 'fetch-registry-metadata',
+	for (const job of ['fetch-crates-dump', 'fetch-npm', 'fetch-registry-metadata',
 		'fetch-pypi-index', 'fetch-pypi-wheels']) {
 		const result = run('fetch-languages', { BNCK_TEST_FAIL_JOB: job });
 		expect(result.exitCode).not.toBe(0);
@@ -130,9 +131,7 @@ test('argument-free imports pin one completed snapshot even if selection changes
 	expect(readFileSync(selection, 'utf8')).toBe(`${first}\n`);
 	expect(commands()).toEqual([
 		['just', 'import-crates-dump', `${second}/crates`],
-		['bnck-test', 'import-npm', '--plan', `${second}/npm/metadata.json`, '--output', 'var/acquired/npm.jsonl',
-			'--scope', 'registry=https://registry.npmjs.org', '--scope', 'release-policy=latest-dist-tag',
-			'--scope', 'catalog-policy=bounded-non-atomic-scan'],
+		['just', 'import-npm', `${second}/npm`, 'var/acquired/npm.jsonl'],
 		['bnck-test', 'import-pypi', '--plan', `${second}/pypi/wheels.json`, '--output', 'var/acquired/pypi.jsonl',
 			'--scope', 'index=https://pypi.org/simple/', '--scope', 'release-policy=latest-non-yanked-stable',
 			'--scope', 'wheel-policy=prefer-universal-then-smallest', '--scope', 'catalog-policy=bounded-non-atomic-scan'],

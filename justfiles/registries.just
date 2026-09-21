@@ -1,7 +1,10 @@
 fetch-registry-metadata channel index snapshot:
     #!/usr/bin/env bash
     set -euo pipefail
-    if test '{{ channel }}' = npm && test -d '{{ index }}'; then test -f '{{ index }}/complete'; fi
+    if test '{{ channel }}' != pypi; then
+        printf 'Catalog metadata fetching supports pypi; use just fetch-npm for npm.\n' >&2
+        exit 1
+    fi
     mkdir -p "$(dirname '{{ snapshot }}')"
     mkdir '{{ snapshot }}'
     {{ bnck_bulk }} plan-registry --channel '{{ channel }}' --index '{{ index }}' --curations curations \
@@ -18,7 +21,12 @@ fetch-registry-plan channel downloads:
         *) printf 'Unknown registry channel\n' >&2; exit 1 ;;
     esac
     while IFS=$'\t' read -r url output; do
-        if test -f "$output"; then continue; fi
+        if test -f "$output" && test -f "${output%.json}.status"; then
+            case "$(< "${output%.json}.status")" in
+                200|404|410) continue ;;
+                *) printf 'Invalid retained metadata status: %s\n' "$output" >&2; exit 1 ;;
+            esac
+        fi
         if ! status="$(curl --fail-with-body --location --compressed --retry 3 --connect-timeout 20 --max-time 180 \
             --proto '=https' --proto-redir '=https' --header "$header" \
             --write-out '%{http_code}' --output "$output.tmp" "$url")"; then
@@ -27,6 +35,10 @@ fetch-registry-plan channel downloads:
                 *) printf 'Metadata download failed: %s (HTTP %s)\n' "$url" "$status" >&2; exit 1 ;;
             esac
         fi
+        case "$status" in
+            200|404|410) ;;
+            *) printf 'Unexpected metadata response: %s (HTTP %s)\n' "$url" "$status" >&2; exit 1 ;;
+        esac
         printf '%s\n' "$status" > "${output%.json}.status"
         mv "$output.tmp" "$output"
         sleep 0.1

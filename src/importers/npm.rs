@@ -8,30 +8,10 @@ use std::path::Path;
 
 use anyhow::{Context, Result, ensure};
 use serde_json::{Map, Value};
-use walkdir::WalkDir;
 
 use crate::acquisition::{PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, write_acquisition};
 use crate::model::Candidate;
 use crate::registry::{MetadataPlan, unavailable_metadata};
-
-pub fn import(input: &Path, output: &Path, mut scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
-	let mut candidates = Vec::new();
-	let mut package_observations = Vec::new();
-	for entry in WalkDir::new(input).follow_links(false) {
-		let entry = entry.with_context(|| format!("walk {}", input.display()))?;
-		if !entry.file_type().is_file() || entry.path().extension().is_none_or(|value| value != "json") {
-			continue;
-		}
-		let (package_candidates, package_observation) = import_packument(entry.path())?;
-		candidates.extend(package_candidates);
-		package_observations.push(package_observation);
-	}
-	let inputs = [input.to_owned()];
-	scope.insert("package-selection".to_owned(), "explicit-packages".to_owned());
-	let mut metadata = SnapshotMetadata::complete("npm", &inputs, scope);
-	metadata.status = SnapshotStatus::Partial;
-	write_acquisition(output, metadata, package_observations, candidates)
-}
 
 pub fn import_plan(
 	plan_path: &Path,
@@ -52,13 +32,15 @@ pub fn import_plan(
 			});
 			continue;
 		}
-		let (observations, package) = import_packument(&selected.path)?;
+		let (observations, package) = import_manifest(&selected.path)?;
 		ensure!(package.name == selected.name, "expected npm package {}, found {}", selected.name, package.name);
 		candidates.extend(observations);
 		packages.push(package);
 	}
 	let inputs = plan.input_paths(plan_path);
-	scope.insert("package-selection".to_owned(), "curation-discovery".to_owned());
+	scope.insert("package-selection".to_owned(), "curated-packages".to_owned());
+	scope.insert("release-policy".to_owned(), "latest-dist-tag".to_owned());
+	scope.insert("catalog-policy".to_owned(), "bounded-non-atomic-scan".to_owned());
 	let mut metadata = SnapshotMetadata::complete("npm", &inputs, scope);
 	if packages.iter().any(|package| package.status == PackageStatus::Failed) {
 		metadata.status = SnapshotStatus::Partial;
@@ -66,38 +48,18 @@ pub fn import_plan(
 	write_acquisition(output, metadata, packages, candidates)
 }
 
-fn import_packument(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
+fn import_manifest(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)> {
 	let file = File::open(path).with_context(|| format!("open {}", path.display()))?;
-	let document: Value =
+	let manifest: Map<String, Value> =
 		serde_json::from_reader(BufReader::new(file)).with_context(|| format!("parse {}", path.display()))?;
-	let package = document
+	let package = manifest
 		.get("name")
 		.and_then(Value::as_str)
-		.or_else(|| document.get("_id").and_then(Value::as_str))
 		.with_context(|| format!("{} has no package name", path.display()))?;
-	let Some(version) = document.pointer("/dist-tags/latest").and_then(Value::as_str) else {
-		let status = if document.pointer("/time/unpublished").is_some() {
-			PackageStatus::Removed
-		} else {
-			PackageStatus::Failed
-		};
-		return Ok((
-			Vec::new(),
-			PackageObservation {
-				name: package.to_owned(),
-				version: None,
-				artifact_sha256: None,
-				status,
-				variant: std::collections::BTreeMap::from([("reason".to_owned(), "no-latest-dist-tag".to_owned())]),
-			},
-		));
-	};
-	let manifest = document
-		.get("versions")
-		.and_then(Value::as_object)
-		.and_then(|versions| versions.get(version))
-		.and_then(Value::as_object)
-		.with_context(|| format!("{} has no manifest for {version}", path.display()))?;
+	let version = manifest
+		.get("version")
+		.and_then(Value::as_str)
+		.with_context(|| format!("{} has no release version", path.display()))?;
 	if manifest.get("bin").is_none_or(Value::is_null)
 		&& manifest.contains_key("directories")
 		&& manifest["directories"].get("bin").is_some()
@@ -109,7 +71,7 @@ fn import_packument(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)>
 			.insert("reason".to_owned(), "directories.bin-needs-artifact-inspection".to_owned());
 		return Ok((Vec::new(), observation));
 	}
-	let executables = bin_names(package, manifest);
+	let executables = bin_names(package, &manifest).with_context(|| format!("parse {} bin", path.display()))?;
 	let repository = repository_url(manifest.get("repository"));
 
 	let candidates = executables
@@ -123,19 +85,23 @@ fn import_packument(path: &Path) -> Result<(Vec<Candidate>, PackageObservation)>
 			executable,
 			evidence: "declared-entry-point".into(),
 			source_package: None,
-			homepage: optional_string(manifest, "homepage"),
+			homepage: optional_string(&manifest, "homepage"),
 			repository: repository.clone(),
-			description: optional_string(manifest, "description"),
+			description: optional_string(&manifest, "description"),
 		})
 		.collect();
 	Ok((candidates, PackageObservation::observed(package, version)))
 }
 
-fn bin_names(package: &str, manifest: &Map<String, Value>) -> Vec<String> {
+fn bin_names(package: &str, manifest: &Map<String, Value>) -> Result<Vec<String>> {
 	match manifest.get("bin") {
-		Some(Value::String(_)) => vec![package.rsplit('/').next().unwrap_or(package).to_owned()],
-		Some(Value::Object(entries)) => entries.keys().cloned().collect(),
-		_ => Vec::new(),
+		Some(Value::String(_)) => Ok(vec![package.rsplit('/').next().unwrap_or(package).to_owned()]),
+		Some(Value::Object(entries)) => {
+			ensure!(entries.values().all(Value::is_string), "bin targets must be strings");
+			Ok(entries.keys().cloned().collect())
+		},
+		None | Some(Value::Null) => Ok(Vec::new()),
+		_ => anyhow::bail!("bin must be a string or an object"),
 	}
 }
 
@@ -164,9 +130,9 @@ mod tests {
 	#[test]
 	fn reads_object_and_string_bin_declarations() {
 		let object = json!({"bin": {"eslint": "bin/eslint.js"}});
-		assert_eq!(bin_names("eslint", object.as_object().unwrap()), ["eslint"]);
+		assert_eq!(bin_names("eslint", object.as_object().unwrap()).unwrap(), ["eslint"]);
 
 		let string = json!({"bin": "cli.js"});
-		assert_eq!(bin_names("@scope/tool", string.as_object().unwrap()), ["tool"]);
+		assert_eq!(bin_names("@scope/tool", string.as_object().unwrap()).unwrap(), ["tool"]);
 	}
 }

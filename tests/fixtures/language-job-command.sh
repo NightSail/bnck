@@ -13,8 +13,13 @@ if test "$1" = "${BNCK_TEST_FAIL_JOB:-}"; then
 fi
 
 case "$1" in
-	fetch-crates-dump|fetch-npm-index)
+	fetch-crates-dump)
 		mkdir -p "$2"
+		;;
+	fetch-npm)
+		mkdir -p "$2"
+		printf '{}\n' > "$2/metadata.json"
+		touch "$2/complete"
 		;;
 	fetch-pypi-index)
 		printf '{}\n' > "$2"

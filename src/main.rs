@@ -85,9 +85,11 @@ enum Command {
 		#[arg(long)]
 		output: PathBuf,
 	},
-	PlanNpmPage {
+	PlanNpm {
+		#[arg(long, default_value = "curations")]
+		curations: PathBuf,
 		#[arg(long)]
-		input: PathBuf,
+		output_directory: PathBuf,
 		#[arg(long)]
 		output: PathBuf,
 	},
@@ -104,10 +106,8 @@ enum Command {
 		output: PathBuf,
 	},
 	ImportNpm {
-		#[arg(long, required_unless_present = "plan", conflicts_with = "plan")]
-		input: Option<PathBuf>,
 		#[arg(long)]
-		plan: Option<PathBuf>,
+		plan: PathBuf,
 		#[arg(long)]
 		output: PathBuf,
 	},
@@ -240,14 +240,13 @@ async fn main() -> Result<()> {
 		Command::ImportCratesDump { crates, versions, output, curations } => {
 			importers::crates_io::import_dump(&crates, &versions, &output, scope, curations.as_deref())?
 		},
-		Command::PlanNpmPage { input, output } => registry::plan_npm_page(&input, &output)?,
+		Command::PlanNpm { curations, output_directory, output } => {
+			registry::plan_npm(&curations, &output_directory, &output)?
+		},
 		Command::PlanRegistry { channel, index, curations, output_directory, output } => {
 			registry::plan_metadata(&channel, &index, &curations, &output_directory, &output)?
 		},
-		Command::ImportNpm { input, plan, output } => match plan {
-			Some(plan) => importers::npm::import_plan(&plan, &output, scope)?,
-			None => importers::npm::import(&input.expect("clap requires input or plan"), &output, scope)?,
-		},
+		Command::ImportNpm { plan, output } => importers::npm::import_plan(&plan, &output, scope)?,
 		Command::PlanPypi { simple, output_directory, output } => {
 			importers::pypi::plan(&simple, &output_directory, &output)?
 		},

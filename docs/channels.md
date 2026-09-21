@@ -113,7 +113,7 @@ These are discovery anchors, not snapshot identifiers. Mirror URLs and API respo
 | Arch Linux | `https://archive.archlinux.org/repos/<year>/<month>/<day>/<repo>/os/<arch>/` |
 | Homebrew | A tap Git checkout, `https://formulae.brew.sh/api/formula.json`, and `cask.json` |
 | crates.io | The crates.io index and `https://static.crates.io/db-dump.tar.gz` |
-| npm | `https://replicate.npmjs.com/_changes` and `https://registry.npmjs.org/<package>` |
+| npm | `https://registry.npmjs.org/<encoded-package>/latest` for explicitly curated packages |
 | PyPI | `https://pypi.org/simple/` and `https://pypi.org/simple/<normalized-project>/` |
 
 ## Distro channels
@@ -261,7 +261,7 @@ For casks, a declared `binary` artifact directly supplies a command candidate; u
 
 ## Language repositories
 
-The implemented [language registry workflow](language-registries.md) reads broad catalogs and selects metadata relevant to existing curated projects. It uses the full crates.io database dump, a paginated npm `_all_docs` catalog scan, and the PyPI Simple API project list. npm/PyPI collection is a retained non-atomic scan, not an incremental point-in-time mirror. The channel analyses below also describe stronger snapshot boundaries and optional metadata that are not yet implemented.
+The implemented [language registry workflow](language-registries.md) uses the full crates.io database dump and PyPI Simple API project list to discover relevant packages. For npm, it fetches only the `latest` release manifests of explicitly curated packages, without scanning a catalog. npm/PyPI collection is a retained non-atomic scan, not an incremental point-in-time mirror. The channel analyses below also describe stronger snapshot boundaries and optional metadata that are not yet implemented.
 
 ### crates.io
 
@@ -298,33 +298,29 @@ The dump does not preserve all target conditions, such as `required-features`, w
 
 #### Relevant data and retrieval
 
-The npm registry exposes CouchDB-style package documents, commonly called packuments. A packument contains package-level metadata, dist-tags, time data, and a manifest for each visible version. Each version's `dist` object identifies its tarball and integrity digest.
+Request `https://registry.npmjs.org/<encoded-package>/latest` for each explicit npm package name in project curations and package overrides. The endpoint resolves the current `latest` dist-tag and returns that release's manifest, including its version, project fields, and `bin` declarations. Scoped package names are URL-encoded without changing their identity.
 
-For bulk acquisition, consume the registry replication/change feed rather than attempting to discover names through search. Process changes in sequence, fetch the corresponding document revision, and retain it locally. For focused refreshes, `https://registry.npmjs.org/<package>` is sufficient. The replication service is operational infrastructure rather than a promise that old revisions will remain fetchable forever, so responses must be captured as they are processed.
-
-Each version manifest embedded in the packument includes project fields, command declarations, platform constraints, and a `dist` object. Record `dist.integrity`, or `dist.shasum` when a stronger Subresource Integrity value is unavailable, without downloading the tarball.
+A refresh requires one small response per curated package, excluding retries. Do not enumerate `_all_docs` or fetch full packuments: neither the complete name catalog nor historical versions are needed to refresh known packages. No package archives are downloaded.
 
 The package identity is the exact registry name, including npm scope. Dist-tags are mutable aliases and are never package versions.
 
 #### Channel-data version
 
-Record the registry origin, opaque replication `last_seq`, package document ID and `_rev`, captured packument digest, selected semantic version, tarball URL, and `dist.integrity`. A snapshot-capable registry replica should retain all document revisions processed through the chosen sequence.
+Retain the package plan, release response bodies, and HTTP status sidecars. The acquisition manifest records their content identities, the registry origin, and each observed release version. This is a bounded non-atomic scan, not a replication checkpoint or point-in-time mirror.
 
-A sequence alone is not reproducible if old revisions have been compacted. Retained, content-addressed packuments make the metadata boundary durable; the upstream-reported tarball integrity value identifies the release artifact without requiring it to be stored. Unpublished versions, deprecated versions, changed dist-tags, and replaced document revisions should remain represented in acquisition status.
+Fresh snapshots re-request each selected package because dist-tags and metadata can change. Resuming a snapshot only downloads unfinished responses. HTTP 404/410 means the requested latest release is unavailable; it does not independently prove that a package was unpublished.
 
 #### Project extraction
 
-Use `repository`, `homepage`, `bugs`, `description`, license, funding, and author/maintainer fields from the version-specific manifest embedded in the packument. Prefer version-specific metadata over the packument's package-level summary because project URLs can change between releases.
-
-Repository fields can include a `directory` for monorepos. Preserve it. Do not merge packages merely because they share a repository: JavaScript monorepos frequently publish many independently meaningful projects.
+Use `repository`, `homepage`, and `description` from the selected release manifest. Project ownership comes from explicit curations, not from matching these fields. Do not merge packages merely because they share a repository: JavaScript monorepos frequently publish many independently meaningful projects.
 
 #### Executable extraction
 
-Read the normalized `bin` mapping from the selected release manifest embedded in the packument. Object keys are command names and values are package-relative script paths. A string-valued `bin` denotes the package's default command name according to npm's package-manifest normalization. Legacy `directories.bin` declarations should be expanded using npm-compatible normalization rather than ad hoc rules.
+Read the normalized `bin` mapping from the selected release manifest. Object keys are command names and values are package-relative script paths. A string-valued `bin` denotes the package's default command name, using the unscoped basename. Legacy `directories.bin` without a resolved `bin` mapping is recorded as unsupported rather than inferring commands from a directory name.
 
 Treat the normalized `bin` key as the command because npm-compatible installers create links or platform wrappers from that declaration. Without downloading the tarball, acquisition cannot confirm that the target exists, is a regular file, or has a valid shebang; preserve that limitation rather than rejecting the declaration.
 
-Lifecycle scripts can download or generate additional commands, but they are nondeterministic and outside static acquisition. Do not infer commands from `scripts` or dependencies. Platform constraints in `os`, `cpu`, `libc`, and `engines` should be retained with the observation.
+Lifecycle scripts can download or generate additional commands, but they are nondeterministic and outside static acquisition. Do not infer commands from `scripts` or dependencies. Platform constraints remain available in the retained manifest but are not evaluated by executable extraction.
 
 ### PyPI
 
@@ -371,13 +367,13 @@ A source distribution may declare scripts statically in `pyproject.toml` or `set
 | Arch Linux | Archive date plus repository digests | Package URL, package base, and `PKGBUILD` | `.files` | Rolling state and missing file types |
 | Homebrew | Tap commit plus API response digests | Formula/cask metadata | API executable lists and static declarations | Arbitrary Ruby and implicit install paths |
 | crates.io | Index commit plus database-dump digest | Database-dump project fields | Database-dump `bin_names` | Missing per-target conditions |
-| npm | Replication sequence plus captured revisions | Version manifest in packument | Normalized `bin` mapping | Unpublishes and lifecycle scripts |
+| npm | Package plan plus release response digests | Curated ownership and release manifest | Normalized `bin` mapping | Curated packages only; lifecycle scripts |
 | PyPI | Journal serial plus captured project pages | Core metadata sidecars | Static wheel entry points and scripts | Dynamic source metadata and wheel variants |
 
 A practical implementation order is:
 
 1. crates.io, because binary target names are present in the database dump
-2. npm, because `bin` is explicit once reliable bulk replication is in place
+2. npm, because `bin` is explicit in each curated package's latest release manifest
 3. PyPI wheels, while deferring source-only projects that lack supported static declarations
 4. Debian, Fedora, and Arch Linux using repository file indexes only
 5. Homebrew using conservatively recognized formula and cask declarations
@@ -390,7 +386,7 @@ This order exercises the common manifest, metadata cache, URL normalization, and
 
 Keep the previous channel snapshot and process only new repository roots, index commits, replication changes, or journal serials. Reuse artifacts by digest. Generate a fresh immutable snapshot manifest even when most objects are shared with the previous acquisition.
 
-The acquisition schema supports explicit `removed` and `failed` package statuses. Imports replace the preceding snapshot. Planned npm/PyPI imports record unavailable metadata and unsupported extraction as failures; npm also recognizes explicit unpublish metadata. Incremental tombstone production is not implemented. Published releases retain their snapshot manifests and are not mutated.
+The acquisition schema supports explicit `removed` and `failed` package statuses. Imports replace the preceding snapshot. Planned npm/PyPI imports record unavailable metadata and unsupported extraction as failures; an unavailable latest release is not treated as proof of unpublishing. Incremental tombstone production is not implemented. Published releases retain their snapshot manifests and are not mutated.
 
 ### Validation
 

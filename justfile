@@ -78,7 +78,7 @@ fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 
 import-distros: import-debian import-fedora import-arch import-homebrew
 
-# Acquire fresh bulk catalogs, then metadata relevant to existing curated projects.
+# Acquire crates.io/PyPI catalogs and refresh curated npm packages.
 fetch-languages:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -91,8 +91,7 @@ fetch-languages:
     snapshot="$(mktemp -d "$inputs/$(date -u '+%Y-%m-%dT%H%M%SZ').XXXXXX")"
     printf 'Fetching language metadata into %s\n' "$snapshot"
     just fetch-crates-dump "$snapshot/crates"
-    just fetch-npm-index "$snapshot/npm-index"
-    just fetch-registry-metadata npm "$snapshot/npm-index" "$snapshot/npm"
+    just fetch-npm "$snapshot/npm"
     just fetch-pypi-index "$snapshot/pypi-index.json"
     just fetch-registry-metadata pypi "$snapshot/pypi-index.json" "$snapshot/pypi"
     just fetch-pypi-wheels "$snapshot/pypi"
@@ -115,9 +114,7 @@ import-languages:
     fi
     just import-crates-dump "$snapshot/crates"
     mkdir -p var/acquired
-    {{ bnck_bulk }} import-npm --plan "$snapshot/npm/metadata.json" --output '{{ npm_output }}' \
-        --scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag' \
-        --scope 'catalog-policy=bounded-non-atomic-scan'
+    just import-npm "$snapshot/npm" '{{ npm_output }}'
     {{ bnck_bulk }} import-pypi --plan "$snapshot/pypi/wheels.json" --output '{{ pypi_output }}' \
         --scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
         --scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
@@ -126,5 +123,14 @@ stats:
     for file in var/acquired/*.jsonl; do printf '%-32s %s\n' "$file" "$(wc -l < "$file")"; done
     if test -f var/providers.jsonl; then printf '%-32s %s\n' var/providers.jsonl "$(wc -l < var/providers.jsonl)"; fi
 
-demo: (fetch-npm 'eslint') (fetch-pypi 'black') import-npm import-pypi generate
-    @printf 'Generated %s provider records in var/providers.jsonl\n' "$(wc -l < var/providers.jsonl)"
+# Keep demo inputs and acquisitions separate from production snapshots and providers.
+demo:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    mkdir -p var/demo
+    snapshot="$(mktemp -d 'var/demo/run.XXXXXX')"
+    just fetch-npm "$snapshot/npm"
+    just import-npm "$snapshot/npm" "$snapshot/acquired/npm.jsonl"
+    just --set pypi_input "$snapshot/pypi" --set pypi_output "$snapshot/acquired/pypi.jsonl" fetch-pypi black import-pypi
+    just generate "$snapshot/acquired" "$snapshot/providers.jsonl"
+    printf 'Generated %s provider records in %s/providers.jsonl\n' "$(wc -l < "$snapshot/providers.jsonl")" "$snapshot"

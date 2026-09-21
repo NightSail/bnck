@@ -12,23 +12,15 @@ just check
 
 ## Demo
 
-Run a small live acquisition for ESLint and Black:
+Run a small live acquisition for all curated npm packages and Black:
 
 ```sh
 just demo
 ```
 
-The resulting files include:
+Each demo creates a fresh directory under `var/demo/` and prints its path. It contains `acquired/npm.jsonl`, `acquired/pypi.jsonl`, their adjacent manifests, and `providers.jsonl`. Demo jobs do not change production acquisitions, provider output, or default input selections.
 
-```text
-var/acquired/npm.jsonl
-var/acquired/npm.jsonl.manifest.json
-var/acquired/pypi.jsonl
-var/acquired/pypi.jsonl.manifest.json
-var/providers.jsonl
-```
-
-`var/providers.jsonl` contains the provider records accepted by the checked-in curations under `curations/`. Dataset generation requires the adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
+Provider records are accepted through the checked-in curations under `curations/`. Dataset generation requires the adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
 
 ## Acquisition jobs
 
@@ -40,16 +32,17 @@ List available jobs:
 just
 ```
 
-Fetch and import individual npm/PyPI packages:
+Fetch and import all curated npm packages, without arguments:
 
 ```sh
-just fetch-npm eslint
-just fetch-pypi black
-
+just fetch-npm
 just import-npm
-just import-pypi
 just generate
 ```
+
+`fetch-npm` creates a fresh planned snapshot under `var/input/npm/` and selects it only after all requests finish. `import-npm` imports that selection, not the old per-package cache. For explicit snapshots, use `just fetch-npm <snapshot>` and `just import-npm <snapshot>`. Resume interrupted downloads with `just resume-npm <snapshot>`, then import that path explicitly. An optional second argument to `import-npm` selects an output path.
+
+The older PyPI focused workflow remains available as `just fetch-pypi black` followed by `just import-pypi`. It produces a partial acquisition; use `just demo` to keep a focused run separate from production data.
 
 Fetch and import distro metadata:
 
@@ -60,7 +53,7 @@ just import-distros
 
 Each distro can also be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition includes both the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture can be changed through the environment variables defined in their justfiles.
 
-Acquire the language channels from broad registry catalogs, selecting metadata related to existing curated projects:
+Acquire all language channels, using broad crates.io/PyPI catalogs and explicit npm package curations:
 
 ```sh
 just fetch-languages
@@ -70,9 +63,9 @@ just generate
 
 Both jobs run without arguments. Each fetch creates a fresh directory under `var/input/languages/`; imports use the most recently completed fetch. Failed refreshes leave the previous completed inputs selected, and earlier input directories are retained.
 
-crates.io uses its full database dump without per-package API requests; npm uses a complete replication catalog scan followed by selected packuments; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
+crates.io uses its full database dump without per-package API requests; npm fetches one small `latest` release manifest per explicitly curated package, without a catalog scan, full version histories, or package archives; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
 
-The crates.io database dump, npm catalog, and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
+The crates.io database dump and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
 
 Show acquisition and provider record counts with:
 

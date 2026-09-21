@@ -2,7 +2,7 @@
 #[path = "registry/tests.rs"]
 mod tests;
 
-use std::collections::{BTreeMap, BTreeSet};
+use std::collections::BTreeSet;
 use std::fs::{self, File};
 use std::io::{BufReader, Write};
 use std::path::{Path, PathBuf};
@@ -15,15 +15,11 @@ use crate::curation::{curated_packages, load_projects};
 use crate::matcher::{normalize_name, normalize_url, repository_name};
 use crate::model::validate_identity;
 
-pub const NPM_PAGE_SIZE: usize = 10_000;
-pub const NPM_INDEX_URL: &str = "https://replicate.npmjs.com/_all_docs?limit=10000";
-
 /* This narrows acquisition, never project ownership. Similar names still need curation. */
 pub struct CuratedScope {
 	pub packages: BTreeSet<String>,
 	names: BTreeSet<String>,
 	urls: BTreeSet<String>,
-	npm_scopes: BTreeMap<String, BTreeSet<String>>,
 }
 
 impl CuratedScope {
@@ -32,7 +28,6 @@ impl CuratedScope {
 		let projects = load_projects(&root.join("projects"))?;
 		let mut names = BTreeSet::new();
 		let mut urls = BTreeSet::new();
-		let mut npm_scopes = BTreeMap::<String, BTreeSet<String>>::new();
 		for project in projects.values() {
 			let mut project_names = BTreeSet::from([normalize_name(&project.id), normalize_name(&project.name)]);
 			if let Some(name) = project.repository.as_deref().and_then(repository_name) {
@@ -43,16 +38,6 @@ impl CuratedScope {
 				project_names.insert(normalize_name(name));
 			}
 			project_names.remove("");
-			let mut scopes = BTreeSet::from([normalize_name(&project.id)]);
-			if let Some(repository) = &project.repository {
-				let url = normalize_url(repository);
-				if let Some(owner) = url.split('/').nth(1) {
-					scopes.insert(normalize_name(owner));
-				}
-			}
-			for scope in scopes {
-				npm_scopes.entry(scope).or_default().extend(project_names.iter().cloned());
-			}
 			names.extend(project_names);
 			for url in project
 				.homepage
@@ -65,19 +50,12 @@ impl CuratedScope {
 		}
 		names.remove("");
 		urls.remove("");
-		Ok(Self { packages, names, urls, npm_scopes })
+		Ok(Self { packages, names, urls })
 	}
 
 	pub fn matches_name(&self, package: &str) -> bool {
 		if self.packages.contains(package) {
 			return true;
-		}
-		if let Some((scope, name)) = package.strip_prefix('@').and_then(|value| value.split_once('/')) {
-			/* A shared basename under an unrelated npm scope is not a useful discovery hint. */
-			return self
-				.npm_scopes
-				.get(&normalize_name(scope))
-				.is_some_and(|names| name == "cli" || names.contains(&normalize_name(name)));
 		}
 		self.names.contains(&normalize_name(package))
 	}
@@ -133,16 +111,6 @@ impl MetadataPlan {
 }
 
 #[derive(Deserialize)]
-struct NpmPage {
-	rows: Vec<NpmRow>,
-}
-
-#[derive(Deserialize)]
-struct NpmRow {
-	id: String,
-}
-
-#[derive(Deserialize)]
 struct PypiIndex {
 	projects: Vec<PypiProject>,
 }
@@ -152,54 +120,35 @@ struct PypiProject {
 	name: String,
 }
 
-pub fn plan_npm_page(input: &Path, output: &Path) -> Result<usize> {
-	let page: NpmPage = read_json(input)?;
-	ensure!(page.rows.len() <= NPM_PAGE_SIZE, "npm index page exceeds requested limit");
-	let next = if page.rows.len() == NPM_PAGE_SIZE {
-		let last = &page.rows.last().context("npm index page is empty")?.id;
-		validate_identity("npm index cursor", last)?;
-		/* Inclusive keyset pagination avoids skipping the next name if the cursor is deleted. */
-		format!("{NPM_INDEX_URL}&startkey={}\n", encode_segment(&serde_json::to_string(last)?))
-	} else {
-		String::new()
-	};
-	fs::write(output, &next).with_context(|| format!("write {}", output.display()))?;
-	Ok(usize::from(!next.is_empty()))
+pub fn plan_npm(curations: &Path, directory: &Path, output: &Path) -> Result<usize> {
+	let packages = curated_packages(curations, "npm")?;
+	write_metadata_plan("npm", Vec::new(), packages, directory, output)
 }
 
 pub fn plan_metadata(channel: &str, index: &Path, curations: &Path, directory: &Path, output: &Path) -> Result<usize> {
-	ensure!(matches!(channel, "npm" | "pypi"), "metadata planning supports npm and pypi");
+	ensure!(channel == "pypi", "catalog metadata planning supports pypi; use plan-npm for npm");
 	let selection = CuratedScope::load(curations, channel)?;
 	let mut selected = BTreeSet::new();
-	let mut consider = |name: String| -> Result<()> {
-		let name = if channel == "pypi" { normalize_pypi_name(&name)? } else { name };
+	let catalog: PypiIndex = read_json(index)?;
+	for project in catalog.projects {
+		let name = normalize_pypi_name(&project.name)?;
 		if selection.matches_name(&name) {
-			validate_identity("registry package", &name)?;
 			selected.insert(name);
-		}
-		Ok(())
-	};
-	if channel == "npm" {
-		ensure!(!index.is_dir() || index.join("complete").is_file(), "npm catalog scan is incomplete");
-		let pages = json_files(index)?;
-		ensure!(!pages.is_empty(), "npm index contains no pages");
-		for path in pages {
-			let page: NpmPage = read_json(&path)?;
-			for row in page.rows {
-				if !row.id.starts_with('_') {
-					consider(row.id)?;
-				}
-			}
-		}
-	} else {
-		let index: PypiIndex = read_json(index)?;
-		for project in index.projects {
-			consider(project.name)?;
 		}
 	}
 	for package in &selection.packages {
 		ensure!(selected.contains(package), "curated {channel} package {package} is absent from registry index");
 	}
+	write_metadata_plan(channel, vec![std::path::absolute(index)?], selected, directory, output)
+}
+
+fn write_metadata_plan(
+	channel: &str,
+	inputs: Vec<PathBuf>,
+	selected: BTreeSet<String>,
+	directory: &Path,
+	output: &Path,
+) -> Result<usize> {
 	let directory = std::path::absolute(directory)?;
 	fs::create_dir_all(&directory)?;
 	let packages = selected
@@ -209,13 +158,13 @@ pub fn plan_metadata(channel: &str, index: &Path, curations: &Path, directory: &
 			MetadataPackage { name, path }
 		})
 		.collect::<Vec<_>>();
-	let plan = MetadataPlan { channel: channel.to_owned(), inputs: vec![std::path::absolute(index)?], packages };
+	let plan = MetadataPlan { channel: channel.to_owned(), inputs, packages };
 	write_json(output, &plan)?;
 	let mut downloads = File::create(output.with_extension("tsv"))?;
 	for package in &plan.packages {
 		let name = encode_segment(&package.name);
 		let url = if channel == "npm" {
-			format!("https://registry.npmjs.org/{name}")
+			format!("https://registry.npmjs.org/{name}/latest")
 		} else {
 			format!("https://pypi.org/simple/{name}/")
 		};
