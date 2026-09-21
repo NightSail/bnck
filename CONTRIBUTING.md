@@ -53,7 +53,7 @@ just import-distros
 
 Each distro can also be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition includes both the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture can be changed through the environment variables defined in their justfiles.
 
-Acquire all language channels, using broad crates.io/PyPI catalogs and explicit npm package curations:
+Acquire all language channels, using the crates.io dump and explicit npm/PyPI package curations:
 
 ```sh
 just fetch-languages
@@ -63,7 +63,7 @@ just generate
 
 Both jobs run without arguments. Each fetch creates a fresh directory under `var/input/languages/`; imports use the most recently completed fetch. Failed refreshes leave the previous completed inputs selected, and earlier input directories are retained.
 
-crates.io uses its full database dump without per-package API requests; npm fetches one small `latest` release manifest per explicitly curated package, without a catalog scan, full version histories, or package archives; PyPI uses its full project index followed by selected Simple API responses and statically inspected wheels. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
+crates.io uses its full database dump without per-package API requests; npm fetches one small `latest` release manifest per explicitly curated package, without a catalog scan, full version histories, or package archives; PyPI fetches Simple API responses only for explicitly curated packages, then downloads and statically inspects selected wheels without scanning the full project index. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
 
 The crates.io database dump and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
 

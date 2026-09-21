@@ -78,7 +78,7 @@ fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 
 import-distros: import-debian import-fedora import-arch import-homebrew
 
-# Acquire crates.io/PyPI catalogs and refresh curated npm packages.
+# Acquire the crates.io dump and refresh explicitly curated npm/PyPI packages.
 fetch-languages:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -92,8 +92,7 @@ fetch-languages:
     printf 'Fetching language metadata into %s\n' "$snapshot"
     just fetch-crates-dump "$snapshot/crates"
     just fetch-npm "$snapshot/npm"
-    just fetch-pypi-index "$snapshot/pypi-index.json"
-    just fetch-registry-metadata pypi "$snapshot/pypi-index.json" "$snapshot/pypi"
+    just fetch-pypi-metadata "$snapshot/pypi"
     just fetch-pypi-wheels "$snapshot/pypi"
     # Publish the selection only after every fetch succeeds.
     printf '%s\n' "$snapshot" > "$snapshot/current"

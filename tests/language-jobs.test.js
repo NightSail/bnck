@@ -31,7 +31,8 @@ afterEach(() => rmSync(root, { recursive: true, force: true }));
 function run(job, environment = {}, variables = {}) {
 	const commandArguments = ['--justfile', justfile, '--working-directory', root, '--set', 'bnck_bulk', 'bnck-test'];
 	for (const [key, value] of Object.entries(variables)) commandArguments.push('--set', key, value);
-	const result = Bun.spawnSync([just, ...commandArguments, job], {
+	const jobs = Array.isArray(job) ? job : [job];
+	const result = Bun.spawnSync([just, ...commandArguments, ...jobs], {
 		env: {
 			...process.env,
 			PATH: `${join(root, 'bin')}:${process.env.PATH}`,
@@ -82,6 +83,28 @@ test('crates acquisition exposes only dump jobs and the demo avoids the dump', (
 	expect(demo.stderr.toString()).not.toContain('crates.io');
 });
 
+test('PyPI metadata fetching plans curated packages directly without a global index', () => {
+	const snapshot = join(root, 'pypi snapshot');
+	expect(run(['fetch-pypi-metadata', snapshot]).exitCode).toBe(0);
+	expect(commands()).toEqual([
+		['bnck-test', 'plan-pypi-metadata', '--curations', 'curations',
+			'--output-directory', `${snapshot}/packages`, '--output', `${snapshot}/metadata.json`],
+		['just', 'fetch-registry-plan', 'pypi', `${snapshot}/metadata.tsv`],
+	]);
+	writeFileSync(log, '');
+	expect(run(['fetch-pypi-metadata', snapshot]).exitCode).not.toBe(0);
+	expect(commands()).toEqual([]);
+	const failed = join(root, 'failed snapshot');
+	expect(run(['fetch-pypi-metadata', failed], { BNCK_TEST_FAIL_JOB: 'plan-pypi-metadata' }).exitCode).not.toBe(0);
+	expect(commands().length).toBe(1);
+	const summary = Bun.spawnSync([just, '--justfile', justfile, '--summary']);
+	expect(summary.exitCode).toBe(0);
+	const recipes = summary.stdout.toString().trim().split(/\s+/);
+	expect(recipes).toContain('fetch-pypi-metadata');
+	expect(recipes).not.toContain('fetch-pypi-index');
+	expect(recipes).not.toContain('fetch-registry-metadata');
+});
+
 test('argument-free fetches create distinct retained snapshots under var/input/languages', () => {
 	const first = fetchSnapshot();
 	expect(dirname(first)).toBe(inputs);
@@ -89,8 +112,7 @@ test('argument-free fetches create distinct retained snapshots under var/input/l
 	expect(commands()).toEqual([
 		['just', 'fetch-crates-dump', `${first}/crates`],
 		['just', 'fetch-npm', `${first}/npm`],
-		['just', 'fetch-pypi-index', `${first}/pypi-index.json`],
-		['just', 'fetch-registry-metadata', 'pypi', `${first}/pypi-index.json`, `${first}/pypi`],
+		['just', 'fetch-pypi-metadata', `${first}/pypi`],
 		['just', 'fetch-pypi-wheels', `${first}/pypi`],
 	]);
 	writeFileSync(join(first, 'npm/metadata.json'), 'retained input');
@@ -113,8 +135,7 @@ test('a failed first fetch is not selected for import', () => {
 
 test('failure at any fetch stage leaves the last completed inputs selected', () => {
 	const previous = fetchSnapshot();
-	for (const job of ['fetch-crates-dump', 'fetch-npm', 'fetch-registry-metadata',
-		'fetch-pypi-index', 'fetch-pypi-wheels']) {
+	for (const job of ['fetch-crates-dump', 'fetch-npm', 'fetch-pypi-metadata', 'fetch-pypi-wheels']) {
 		const result = run('fetch-languages', { BNCK_TEST_FAIL_JOB: job });
 		expect(result.exitCode).not.toBe(0);
 		expect(result.stderr).toContain(`Simulated failure: ${job}`);

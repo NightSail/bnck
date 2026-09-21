@@ -114,7 +114,7 @@ These are discovery anchors, not snapshot identifiers. Mirror URLs and API respo
 | Homebrew | A tap Git checkout, `https://formulae.brew.sh/api/formula.json`, and `cask.json` |
 | crates.io | The crates.io index and `https://static.crates.io/db-dump.tar.gz` |
 | npm | `https://registry.npmjs.org/<encoded-package>/latest` for explicitly curated packages |
-| PyPI | `https://pypi.org/simple/` and `https://pypi.org/simple/<normalized-project>/` |
+| PyPI | `https://pypi.org/simple/<normalized-project>/` for explicitly curated packages |
 
 ## Distro channels
 
@@ -261,7 +261,7 @@ For casks, a declared `binary` artifact directly supplies a command candidate; u
 
 ## Language repositories
 
-The implemented [language registry workflow](language-registries.md) uses the full crates.io database dump and PyPI Simple API project list to discover relevant packages. For npm, it fetches only the `latest` release manifests of explicitly curated packages, without scanning a catalog. npm/PyPI collection is a retained non-atomic scan, not an incremental point-in-time mirror. The channel analyses below also describe stronger snapshot boundaries and optional metadata that are not yet implemented.
+The implemented [language registry workflow](language-registries.md) uses the full crates.io database dump to discover relevant packages. npm and PyPI fetch metadata only for explicitly curated packages, without scanning catalogs. npm uses `latest` release manifests; PyPI uses per-project Simple API responses and selected wheels. npm/PyPI collection is a retained non-atomic scan, not an incremental point-in-time mirror. The channel analyses below also describe stronger snapshot boundaries and optional metadata that are not yet implemented.
 
 ### crates.io
 
@@ -326,23 +326,17 @@ Lifecycle scripts can download or generate additional commands, but they are non
 
 #### Relevant data and retrieval
 
-PyPI's standards-based discovery interface is the [Simple Repository API](https://packaging.python.org/en/latest/specifications/simple-repository-api/):
+Fetch `https://pypi.org/simple/<normalized-project>/` for each explicit PyPI package name in project curations and package overrides, using the PEP 691 JSON media type from the [Simple Repository API](https://packaging.python.org/en/latest/specifications/simple-repository-api/). Each response lists distribution files, hashes, upload times, yanked state, Python requirements, and optional core-metadata hashes.
 
-- The root project list from PEP 503 HTML or PEP 691 JSON
-- A per-project response listing distribution files, hashes, upload times, yanked state, Python requirements, and optional core-metadata hashes
-- Wheel and source-distribution artifacts
-
-Use the PEP 691 JSON media type when available. Prefer PEP 658 core-metadata sidecars for project information so full distributions do not need to be downloaded. The PyPI JSON project API can supplement descriptions and project URLs, but it is not a complete, snapshot-consistent bulk interface.
-
-For large-scale or incremental collection, use a PEP 381-compatible mirror implementation such as bandersnatch. PyPI exposes `X-PyPI-Last-Serial` and per-response `_last-serial` values so a mirror can determine whether its local project state is current.
+Do not fetch the root project list or infer additional package names from project names and repository URLs. Select each package's newest non-yanked stable release, then prefer a platform-independent wheel and smaller declared size. Cache selected wheels by SHA-256 and inspect them statically; a current release without a wheel is unsupported, not a reason to fall back to an older release.
 
 The package identity is the distribution project's normalized name for lookup, while the original core-metadata `Name` should be retained for display and provenance.
 
 #### Channel-data version
 
-Use a PyPI journal serial as the logical snapshot boundary. Retain the root and project responses, their reported serials, and their content digests, plus every selected file's filename, upload time, yanked state, and SHA-256 digest.
+Retain the explicit package plan, per-project responses, HTTP status sidecars, wheel plan, and selected wheels. Their content identities define the acquisition inputs. The responses constitute a bounded non-atomic scan, not a journal checkpoint or point-in-time mirror.
 
-A crawler that starts at one serial and finishes at another does not have a coherent snapshot merely because it records the final header. It must process journal changes through a fixed serial with a mirror, or retain enough per-project serial information to describe the acquisition as a bounded but non-atomic scan. PyPI file hashes identify artifacts, but removed files and changed metadata make the serial and captured responses necessary.
+PyPI file hashes identify artifacts, but releases can be added, removed, or yanked. Fresh snapshots request the curated project responses again; existing wheels are reused when their digests match the selected artifacts.
 
 #### Project extraction
 
@@ -368,7 +362,7 @@ A source distribution may declare scripts statically in `pyproject.toml` or `set
 | Homebrew | Tap commit plus API response digests | Formula/cask metadata | API executable lists and static declarations | Arbitrary Ruby and implicit install paths |
 | crates.io | Index commit plus database-dump digest | Database-dump project fields | Database-dump `bin_names` | Missing per-target conditions |
 | npm | Package plan plus release response digests | Curated ownership and release manifest | Normalized `bin` mapping | Curated packages only; lifecycle scripts |
-| PyPI | Journal serial plus captured project pages | Core metadata sidecars | Static wheel entry points and scripts | Dynamic source metadata and wheel variants |
+| PyPI | Package and wheel plans plus retained input digests | Selected wheel core metadata | Static wheel entry points and scripts | Curated packages only; source-only releases and wheel variants |
 
 A practical implementation order is:
 

@@ -1,17 +1,17 @@
 use std::collections::BTreeMap;
 use std::fs::{self, File};
 use std::io::Write;
-use std::path::Path;
+use std::path::{Path, PathBuf};
 
 use serde_json::{Value, json};
 use tempfile::tempdir;
 use zip::write::SimpleFileOptions;
 
 use super::selection::{Selection, WheelPlan, select};
-use super::{import, import_plan};
+use super::{import, import_plan, plan_snapshot};
 use crate::acquisition::{PackageStatus, SnapshotStatus, file_identity, read_snapshot_directory};
 use crate::model::read_candidates;
-use crate::registry::write_json;
+use crate::registry::{MetadataPlan, plan_pypi_metadata, write_json};
 
 const DIGEST: &str = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 const ENTRY_POINTS: &str = "[console_scripts]\ntool = package:main\n[gui_scripts]\ntool-gui = package:gui\n";
@@ -148,6 +148,73 @@ fn imports_only_the_current_selection_and_checks_its_digest_and_metadata() {
 			.to_string()
 			.contains("SHA-256 mismatch")
 	);
+}
+
+fn curated_metadata(root: &Path) -> (PathBuf, MetadataPlan) {
+	let curations = root.join("curations");
+	fs::create_dir_all(curations.join("projects")).unwrap();
+	fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+	fs::write(
+		curations.join("projects/tool.toml"),
+		"id = 'tool'\nname = 'Tool'\n[[package]]\nchannel = 'pypi'\nname = 'some-tool'\n",
+	)
+	.unwrap();
+	let path = root.join("metadata.json");
+	assert_eq!(plan_pypi_metadata(&curations, &root.join("packages"), &path).unwrap(), 1);
+	let plan = MetadataPlan::read(&path, "pypi").unwrap();
+	(path, plan)
+}
+
+#[test]
+fn curated_metadata_flows_through_wheel_selection_and_import_without_an_index() {
+	let root = tempdir().unwrap();
+	let (metadata_path, metadata) = curated_metadata(root.path());
+	let cache = root.path().join("wheels");
+	fs::create_dir(&cache).unwrap();
+	let temporary = cache.join("download.whl");
+	create_wheel(&temporary, "Some.Tool", "1.0");
+	let digest = file_identity(&temporary).unwrap().1;
+	fs::rename(&temporary, cache.join(format!("{digest}.whl"))).unwrap();
+	let mut current = wheel("1.0");
+	current["hashes"]["sha256"] = json!(digest);
+	simple(&metadata.packages[0].path, vec![current]);
+	fs::write(metadata.packages[0].path.with_extension("status"), "200\n").unwrap();
+	fs::write(root.path().join("packages/unplanned.json"), "not selected").unwrap();
+	let wheels_path = root.path().join("wheels.json");
+	assert_eq!(plan_snapshot(&metadata_path, &cache, &wheels_path).unwrap(), 1);
+	let output = root.path().join("acquired");
+	fs::create_dir(&output).unwrap();
+	assert_eq!(import_plan(&wheels_path, &output.join("pypi.jsonl"), scope()).unwrap(), 3);
+	let snapshots = read_snapshot_directory(&output).unwrap();
+	let snapshot = &snapshots[0].1;
+	assert_eq!(snapshot.status, SnapshotStatus::Complete);
+	assert_eq!(snapshot.scope["package-selection"], "curated-packages");
+	assert_eq!(snapshot.packages.len(), 1);
+	assert_eq!(snapshot.packages[0].name, "some-tool");
+	/* Metadata plan, selected response and status, wheel plan, and selected wheel only. */
+	assert_eq!(snapshot.inputs.len(), 5);
+}
+
+#[test]
+fn unavailable_curated_packages_are_retained_as_failed_observations_without_wheel_requests() {
+	let root = tempdir().unwrap();
+	let (metadata_path, metadata) = curated_metadata(root.path());
+	let wheels_path = root.path().join("wheels.json");
+	let output = root.path().join("acquired");
+	fs::create_dir(&output).unwrap();
+	for status in ["404", "410"] {
+		fs::write(&metadata.packages[0].path, "unavailable response").unwrap();
+		fs::write(metadata.packages[0].path.with_extension("status"), status).unwrap();
+		assert_eq!(plan_snapshot(&metadata_path, &root.path().join("cache"), &wheels_path).unwrap(), 0);
+		assert_eq!(fs::read_to_string(wheels_path.with_extension("tsv")).unwrap(), "");
+		assert_eq!(import_plan(&wheels_path, &output.join("pypi.jsonl"), scope()).unwrap(), 0);
+		let snapshots = read_snapshot_directory(&output).unwrap();
+		let snapshot = &snapshots[0].1;
+		assert_eq!(snapshot.status, SnapshotStatus::Partial);
+		assert_eq!(snapshot.scope["package-selection"], "curated-packages");
+		assert_eq!(snapshot.packages[0].status, PackageStatus::Failed);
+		assert_eq!(snapshot.packages[0].variant["reason"], format!("http-{status}"));
+	}
 }
 
 #[test]

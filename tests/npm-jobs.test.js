@@ -176,14 +176,11 @@ test('invalid HTTP responses never mark the snapshot complete', () => {
 	}
 });
 
-test('catalog jobs are removed and legacy catalog fetching fails with migration guidance', () => {
+test('catalog jobs are removed', () => {
 	const summary = Bun.spawnSync([just, '--justfile', justfile, '--summary']);
 	expect(summary.exitCode).toBe(0);
 	expect(summary.stdout.toString().split(/\s+/)).not.toContain('fetch-npm-index');
-	const result = run(['fetch-registry-metadata', 'npm', 'old-index', 'unused-snapshot']);
-	expect(result.exitCode).not.toBe(0);
-	expect(result.stderr).toContain('use just fetch-npm');
-	expect(commands()).toEqual([]);
+	expect(summary.stdout.toString().split(/\s+/)).not.toContain('fetch-registry-metadata');
 });
 
 test('resume refetches a body without status and rejects invalid retained status', () => {

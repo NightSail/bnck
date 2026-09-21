@@ -4,21 +4,21 @@
 
 Language channels follow the same ownership boundary as distro channels: acquisition discovers packages and executable declarations; only explicit package attributions in `curations/` produce canonical providers. A matching package name or repository URL never changes ownership automatically.
 
-The collectors use broad crates.io/PyPI catalogs and explicit npm package curations:
+The collectors use the crates.io dump and explicit npm/PyPI package curations:
 
 - crates.io: Download the full database dump, extract the crate and version tables, and stream them to select relevant packages and their newest non-yanked stable releases
 - npm: Fetch the `latest` release manifest for each explicit npm package name in project curations and package overrides
-- PyPI: Download the complete Simple API project list, then selected project responses and one wheel per supported current release
+- PyPI: Fetch Simple API project responses for explicit PyPI package names in project curations and package overrides, then one wheel per supported current release
 
-npm release manifests contain `bin` declarations. PyPI's project index provides only names, so executable extraction requires selected project responses and static wheel inspection. Neither npm tarballs nor crates.io package artifacts are downloaded. The crates.io dump supplies all required package and executable metadata; no per-package API requests are made. No packages are installed, built, imported, or executed.
+npm release manifests contain `bin` declarations. PyPI executable extraction requires project responses and static wheel inspection; the global project-name index is not fetched. Neither npm tarballs nor crates.io package artifacts are downloaded. The crates.io dump supplies all required package and executable metadata; no per-package API requests are made. No packages are installed, built, imported, or executed.
 
 ## Discovery and attribution
 
-crates.io/PyPI discovery includes explicitly curated registry package names, project IDs, project names, repository basenames, and existing channel package names. Name hints ignore ASCII case and punctuation. The crates.io dump also permits discovery by normalized repository or homepage URL, including packages whose registry names differ from the project ID.
+crates.io discovery includes explicitly curated registry package names, project IDs, project names, repository basenames, and existing channel package names. Name hints ignore ASCII case and punctuation. The crates.io dump also permits discovery by normalized repository or homepage URL, including packages whose registry names differ from the project ID.
 
-npm acquisition refreshes known packages rather than discovering names. Only explicit npm package names in curations are selected, including scoped names and package overrides. Add verified npm package names to curations before fetching.
+npm/PyPI acquisition refreshes known packages rather than discovering names. Only explicit package names in curations are selected, including scoped npm names and package overrides. Add verified native package names to curations before fetching. PyPI curations must use normalized names: lowercase, with each run of dots, underscores, or hyphens replaced by one hyphen. Non-normalized names fail planning rather than losing their exact curation attribution.
 
-Discovery hints are not identity decisions. PyPI's name-only catalog cannot discover every differently named package from its repository URL. Add a verified native package name to the project's curations when necessary, then generate a new metadata plan. PyPI planning fails if an explicitly curated package is absent from its catalog; unavailable npm packages are recorded from their HTTP responses.
+Discovery hints are not identity decisions. Unavailable npm/PyPI packages are recorded from their HTTP responses; neither channel performs registry-wide discovery.
 
 Review unowned registry packages with strong or exact matching evidence:
 
@@ -58,8 +58,7 @@ just import-crates-dump var/input/crates-next
 just fetch-npm var/input/npm-next
 just import-npm var/input/npm-next
 
-just fetch-pypi-index var/input/pypi-index-next.json
-just fetch-registry-metadata pypi var/input/pypi-index-next.json var/input/pypi-next
+just fetch-pypi-metadata var/input/pypi-next
 just fetch-pypi-wheels var/input/pypi-next
 ```
 
@@ -70,7 +69,7 @@ just resume-npm var/input/npm-next
 just fetch-registry-plan pypi var/input/pypi-next/metadata.tsv
 ```
 
-Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output and scope for individual snapshot imports. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
+Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output and scope for individual snapshot imports. After switching from catalog-based PyPI discovery, create a fresh metadata plan to narrow acquisition to curated packages; existing digest-cached wheels remain reusable. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
 
 PyPI's per-package fetch and directory import remain available for focused checks. Their imports mark the channel snapshot partial with `package-selection=explicit-packages`; they do not claim to cover all curated packages. `just demo` acquires curated npm packages and Black into a fresh directory under `var/demo/`, without replacing production inputs or output.
 
@@ -96,8 +95,8 @@ Wheel downloads are reused by SHA-256 under `var/cache/pypi/wheels/`. Imports ve
 
 ## Completeness and failures
 
-npm release responses and PyPI catalogs with subsequent package responses constitute retained, bounded, non-atomic scans, not point-in-time mirrors. npm publishes a fetch completion marker only after every planned request finishes; this includes retained HTTP 404/410 responses, which make the imported snapshot partial. PyPI journal reconciliation is not implemented.
+npm release responses and PyPI project responses constitute retained, bounded, non-atomic scans, not point-in-time mirrors. npm publishes a fetch completion marker only after every planned request finishes; this includes retained HTTP 404/410 responses, which make the imported snapshot partial. PyPI journal reconciliation is not implemented.
 
 HTTP 404 and 410 responses are retained with status sidecars and become failed package observations. Other HTTP errors, interrupted downloads, malformed metadata, missing planned responses, and digest mismatches fail the job. Unsupported PyPI releases and npm executable declarations carry a `reason` in the package observation's variant map. These failures make the snapshot partial; they are never represented as successful packages with no commands.
 
-A complete npm snapshot uses `package-selection=curated-packages` and means every package in the retained plan was observed. A complete crates.io/PyPI curation-discovery snapshot means all selected inputs were processed, not that the entire registry or every possible relationship to a curated project has been acquired. Published providers remain limited to reviewed curations. Acquisition manifests retain scope and failure details outside the canonical four-field provider relation.
+A complete npm/PyPI snapshot uses `package-selection=curated-packages` and means every package in the retained plan was observed. A complete crates.io curation-discovery snapshot means all selected inputs were processed, not that the entire registry or every possible relationship to a curated project has been acquired. Published providers remain limited to reviewed curations. Acquisition manifests retain scope and failure details outside the canonical four-field provider relation.

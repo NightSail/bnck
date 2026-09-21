@@ -56,7 +56,7 @@ pub fn import(input: &Path, output: &Path, mut scope: BTreeMap<String, String>) 
 pub fn import_plan(path: &Path, output: &Path, mut scope: BTreeMap<String, String>) -> Result<usize> {
 	let mut plan: WheelPlan = read_json(path)?;
 	plan.inputs.push(path.to_owned());
-	scope.insert("package-selection".to_owned(), "curation-discovery".to_owned());
+	scope.insert("package-selection".to_owned(), "curated-packages".to_owned());
 	import_selections(plan, output, scope)
 }
 

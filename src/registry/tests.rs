@@ -1,9 +1,8 @@
 use std::fs;
 
-use serde_json::json;
 use tempfile::tempdir;
 
-use super::{CuratedScope, MetadataPlan, normalize_pypi_name, plan_metadata, plan_npm, write_json};
+use super::{CuratedScope, MetadataPlan, normalize_pypi_name, plan_npm, plan_pypi_metadata};
 
 fn curations(root: &std::path::Path) {
 	fs::create_dir_all(root.join("projects")).unwrap();
@@ -86,41 +85,62 @@ fn unavailable_metadata_is_explicit() {
 	assert_eq!(super::unavailable_metadata(&response).unwrap(), None);
 }
 
-#[test]
-fn a_missing_curated_pypi_package_or_malformed_index_is_an_error() {
-	let root = tempdir().unwrap();
-	let curated = root.path().join("curations");
-	curations(&curated);
+fn pypi_curation(root: &std::path::Path, name: &str) {
 	fs::write(
-		curated.join("projects/required.toml"),
-		"id = 'required'\nname = 'Required'\n[[package]]\nchannel = 'pypi'\nname = 'required'\n",
+		root.join("projects/required.toml"),
+		format!("id = 'required-project'\nname = 'Required Project'\n[[package]]\nchannel = 'pypi'\nname = '{name}'\n"),
 	)
 	.unwrap();
-	let index = root.path().join("index.json");
-	let output = root.path().join("plan.json");
-	for value in [json!({"projects": []}), json!({"error": "unavailable"})] {
-		write_json(&index, &value).unwrap();
-		assert!(plan_metadata("pypi", &index, &curated, &root.path().join("metadata"), &output).is_err());
-	}
 }
 
 #[test]
-fn pypi_catalog_normalizes_names_and_does_not_depend_on_catalog_order() {
+fn pypi_planning_selects_only_explicit_packages_and_overrides_without_a_catalog() {
 	let root = tempdir().unwrap();
 	let curated = root.path().join("curations");
 	curations(&curated);
-	let index = root.path().join("index.json");
-	write_json(
-		&index,
-		&json!({"projects": [
-			{"name": "Tool__Suite"}, {"name": "unrelated"}, {"name": "TOOL"}, {"name": "tool"},
-		]}),
-	)
-	.unwrap();
+	pypi_curation(&curated, "required");
+	let overrides = curated.join("packages/pypi");
+	fs::create_dir_all(&overrides).unwrap();
+	fs::write(overrides.join("required.toml"), "channel = 'pypi'\nname = 'required'\n").unwrap();
+	fs::write(overrides.join("override.toml"), "channel = 'pypi'\nname = 'override-only'\n").unwrap();
 	let output = root.path().join("plan.json");
-	assert_eq!(plan_metadata("pypi", &index, &curated, &root.path().join("metadata"), &output).unwrap(), 2);
+	let directory = root.path().join("metadata");
+	assert_eq!(plan_pypi_metadata(&curated, &directory, &output).unwrap(), 2);
 	let plan = MetadataPlan::read(&output, "pypi").unwrap();
-	assert_eq!(plan.packages.iter().map(|package| package.name.as_str()).collect::<Vec<_>>(), ["tool", "tool-suite"]);
+	assert_eq!(
+		plan.packages.iter().map(|package| package.name.as_str()).collect::<Vec<_>>(),
+		["override-only", "required"]
+	);
+	assert!(plan.inputs.is_empty());
+	assert!(plan.packages.iter().all(|package| package.path.is_absolute()));
+	let downloads = fs::read_to_string(output.with_extension("tsv")).unwrap();
+	assert!(downloads.contains("https://pypi.org/simple/required/\t"));
+	assert!(downloads.contains("https://pypi.org/simple/override-only/\t"));
+	assert_eq!(downloads.lines().count(), 2);
+	assert!(MetadataPlan::read(&output, "npm").is_err());
+	let before = fs::read(&output).unwrap();
+	plan_pypi_metadata(&curated, &directory, &output).unwrap();
+	assert_eq!(before, fs::read(&output).unwrap());
+}
+
+#[test]
+fn pypi_planning_handles_an_empty_selection_without_using_project_name_hints() {
+	let root = tempdir().unwrap();
+	curations(root.path());
+	let output = root.path().join("plan.json");
+	assert_eq!(plan_pypi_metadata(root.path(), &root.path().join("metadata"), &output).unwrap(), 0);
+	assert_eq!(fs::read_to_string(output.with_extension("tsv")).unwrap(), "");
+}
+
+#[test]
+fn pypi_curations_require_normalized_names_to_match_wheel_package_identities() {
+	let root = tempdir().unwrap();
+	curations(root.path());
+	let output = root.path().join("plan.json");
+	for name in ["Some.Tool", "some_tool", "some--tool", "../tool", "tool/other"] {
+		pypi_curation(root.path(), name);
+		assert!(plan_pypi_metadata(root.path(), &root.path().join("metadata"), &output).is_err());
+	}
 	assert_eq!(normalize_pypi_name("Some._-Tool").unwrap(), "some-tool");
 	for name in ["", "../tool", "-tool", "tool/other", "tool\n"] {
 		assert!(normalize_pypi_name(name).is_err());

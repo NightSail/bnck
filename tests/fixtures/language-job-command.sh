@@ -21,15 +21,31 @@ case "$1" in
 		printf '{}\n' > "$2/metadata.json"
 		touch "$2/complete"
 		;;
-	fetch-pypi-index)
-		printf '{}\n' > "$2"
-		;;
-	fetch-registry-metadata)
-		mkdir -p "$4"
-		printf '{}\n' > "$4/metadata.json"
+	fetch-pypi-metadata)
+		mkdir -p "$2"
+		printf '{}\n' > "$2/metadata.json"
 		;;
 	fetch-pypi-wheels)
 		printf '{}\n' > "$2/wheels.json"
+		;;
+	plan-pypi-metadata)
+		shift
+		while test "$#" -gt 0; do
+			case "$1" in
+				--curations) ;;
+				--output-directory) directory="$2" ;;
+				--output) plan="$2" ;;
+				*) exit 1 ;;
+			esac
+			shift 2
+		done
+		mkdir -p "$directory"
+		printf '{}\n' > "$plan"
+		printf 'https://pypi.org/simple/tool/\t%s/tool.json\n' "$directory" > "${plan%.json}.tsv"
+		;;
+	fetch-registry-plan)
+		test "$2" = pypi
+		test -f "$3"
 		;;
 	import-crates-dump)
 		if test -n "${BNCK_TEST_RESELECT:-}"; then

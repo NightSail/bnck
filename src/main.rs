@@ -93,11 +93,7 @@ enum Command {
 		#[arg(long)]
 		output: PathBuf,
 	},
-	PlanRegistry {
-		#[arg(long)]
-		channel: String,
-		#[arg(long)]
-		index: PathBuf,
+	PlanPypiMetadata {
 		#[arg(long, default_value = "curations")]
 		curations: PathBuf,
 		#[arg(long)]
@@ -243,8 +239,8 @@ async fn main() -> Result<()> {
 		Command::PlanNpm { curations, output_directory, output } => {
 			registry::plan_npm(&curations, &output_directory, &output)?
 		},
-		Command::PlanRegistry { channel, index, curations, output_directory, output } => {
-			registry::plan_metadata(&channel, &index, &curations, &output_directory, &output)?
+		Command::PlanPypiMetadata { curations, output_directory, output } => {
+			registry::plan_pypi_metadata(&curations, &output_directory, &output)?
 		},
 		Command::ImportNpm { plan, output } => importers::npm::import_plan(&plan, &output, scope)?,
 		Command::PlanPypi { simple, output_directory, output } => {

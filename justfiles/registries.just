@@ -1,16 +1,3 @@
-fetch-registry-metadata channel index snapshot:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    if test '{{ channel }}' != pypi; then
-        printf 'Catalog metadata fetching supports pypi; use just fetch-npm for npm.\n' >&2
-        exit 1
-    fi
-    mkdir -p "$(dirname '{{ snapshot }}')"
-    mkdir '{{ snapshot }}'
-    {{ bnck_bulk }} plan-registry --channel '{{ channel }}' --index '{{ index }}' --curations curations \
-        --output-directory '{{ snapshot }}/packages' --output '{{ snapshot }}/metadata.json'
-    just fetch-registry-plan '{{ channel }}' '{{ snapshot }}/metadata.tsv'
-
 # Resume an existing plan without fetching completed responses again.
 fetch-registry-plan channel downloads:
     #!/usr/bin/env bash

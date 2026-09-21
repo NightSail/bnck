@@ -110,45 +110,22 @@ impl MetadataPlan {
 	}
 }
 
-#[derive(Deserialize)]
-struct PypiIndex {
-	projects: Vec<PypiProject>,
-}
-
-#[derive(Deserialize)]
-struct PypiProject {
-	name: String,
-}
-
 pub fn plan_npm(curations: &Path, directory: &Path, output: &Path) -> Result<usize> {
 	let packages = curated_packages(curations, "npm")?;
-	write_metadata_plan("npm", Vec::new(), packages, directory, output)
+	write_metadata_plan("npm", packages, directory, output)
 }
 
-pub fn plan_metadata(channel: &str, index: &Path, curations: &Path, directory: &Path, output: &Path) -> Result<usize> {
-	ensure!(channel == "pypi", "catalog metadata planning supports pypi; use plan-npm for npm");
-	let selection = CuratedScope::load(curations, channel)?;
-	let mut selected = BTreeSet::new();
-	let catalog: PypiIndex = read_json(index)?;
-	for project in catalog.projects {
-		let name = normalize_pypi_name(&project.name)?;
-		if selection.matches_name(&name) {
-			selected.insert(name);
-		}
+pub fn plan_pypi_metadata(curations: &Path, directory: &Path, output: &Path) -> Result<usize> {
+	let packages = curated_packages(curations, "pypi")?;
+	for name in &packages {
+		let normalized = normalize_pypi_name(name)?;
+		/* Curation resolution uses exact identities; aliases must not silently lose attribution. */
+		ensure!(name == &normalized, "curated PyPI package {name:?} must use normalized name {normalized:?}");
 	}
-	for package in &selection.packages {
-		ensure!(selected.contains(package), "curated {channel} package {package} is absent from registry index");
-	}
-	write_metadata_plan(channel, vec![std::path::absolute(index)?], selected, directory, output)
+	write_metadata_plan("pypi", packages, directory, output)
 }
 
-fn write_metadata_plan(
-	channel: &str,
-	inputs: Vec<PathBuf>,
-	selected: BTreeSet<String>,
-	directory: &Path,
-	output: &Path,
-) -> Result<usize> {
+fn write_metadata_plan(channel: &str, selected: BTreeSet<String>, directory: &Path, output: &Path) -> Result<usize> {
 	let directory = std::path::absolute(directory)?;
 	fs::create_dir_all(&directory)?;
 	let packages = selected
@@ -158,7 +135,7 @@ fn write_metadata_plan(
 			MetadataPackage { name, path }
 		})
 		.collect::<Vec<_>>();
-	let plan = MetadataPlan { channel: channel.to_owned(), inputs, packages };
+	let plan = MetadataPlan { channel: channel.to_owned(), inputs: Vec::new(), packages };
 	write_json(output, &plan)?;
 	let mut downloads = File::create(output.with_extension("tsv"))?;
 	for package in &plan.packages {

@@ -24,12 +24,13 @@ import-pypi:
     	--scope 'index=https://pypi.org/simple/' \
     	--scope 'release-policy=latest-listed-wheel'
 
-fetch-pypi-index output:
-    test ! -e '{{ output }}'
-    mkdir -p "$(dirname '{{ output }}')"
-    curl --fail --location --compressed --retry 3 --connect-timeout 20 --max-time 180 \
-    	--header 'Accept: application/vnd.pypi.simple.v1+json' --output '{{ output }}.tmp' 'https://pypi.org/simple/'
-    mv '{{ output }}.tmp' '{{ output }}'
+# Plan and fetch only explicitly curated PyPI packages, without the global project index.
+fetch-pypi-metadata snapshot:
+    mkdir -p "$(dirname '{{ snapshot }}')"
+    mkdir '{{ snapshot }}'
+    {{ bnck_bulk }} plan-pypi-metadata --curations curations \
+        --output-directory '{{ snapshot }}/packages' --output '{{ snapshot }}/metadata.json'
+    just fetch-registry-plan pypi '{{ snapshot }}/metadata.tsv'
 
 fetch-pypi-wheels snapshot:
     mkdir -p '{{ pypi_wheel_cache }}'

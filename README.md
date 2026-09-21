@@ -12,7 +12,7 @@ The MVP imports all initial channels:
 - Homebrew from formula and cask API metadata
 - crates.io from the database dump
 - npm from the `latest` release manifests of explicitly curated packages
-- PyPI from Simple API metadata and statically inspected wheels
+- PyPI from Simple API metadata and statically inspected wheels for explicitly curated packages
 - TOML curation resolution into canonical provider JSON Lines
 
 It does not install, build, import, or execute packages.
