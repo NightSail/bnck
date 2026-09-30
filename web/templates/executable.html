@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% from 'components.html' import provider_group, coverage_note, count_label, export_actions with context %}
+{% block title %}Executable: {{ page.executable }}{% endblock %}
 {% block scripts %}<script type='module' src='{{ site.assets }}/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>

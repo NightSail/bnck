@@ -1080,6 +1080,7 @@ mod tests {
 			},
 		)
 		.unwrap();
+		assert!(project.contains("<title>Project: helix · bnck(1)</title>"));
 		assert!(project.contains("https:&#x2f;&#x2f;crates.io&#x2f;crates&#x2f;helix-term"));
 		assert!(project.contains("https:&#x2f;&#x2f;packages.debian.org&#x2f;helix"));
 		let heading = project.split("<div class='content-layout'>").next().unwrap();
@@ -1106,6 +1107,7 @@ mod tests {
 			},
 		)
 		.unwrap();
+		assert!(executable.contains("<title>Executable: hx · bnck(1)</title>"));
 		assert!(executable.contains("crates.io"));
 		assert!(executable.contains("Debian"));
 		assert_eq!(executable.matches("href='/projects/helix'").count(), 1);

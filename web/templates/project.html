@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% from 'components.html' import package_link, coverage_note, export_actions with context %}
+{% block title %}Project: {{ page.project }}{% endblock %}
 {% block scripts %}<script type='module' src='{{ site.assets }}/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>

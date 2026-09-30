@@ -6,7 +6,7 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<meta name='description'
 		content='bnck maps executable names to projects and distribution packages.'>
-	<title>{{ site.title }} · bnck(1)</title>
+	<title>{% block title %}{{ site.title }}{% endblock %} · bnck(1)</title>
 	<link rel='stylesheet' href='{{ site.assets }}/style.css'>
 	<script type='module' src='{{ site.assets }}/search.js'></script>
 	{% if site.client_search %}
