@@ -139,7 +139,7 @@ just generate-site
 just preview
 ```
 
-The preview listens on `http://127.0.0.1:3000` by default. The generator writes `var/site/` and refuses to overwrite an existing output directory. Use a fresh output path for each build. No application server or browser database runtime is required in production:
+The preview listens on `http://127.0.0.1:3000` by default. `generate-site` clears its output directory before rebuilding, so repeated runs replace the previous site. The underlying generator still refuses an existing output directory; use a fresh output path when invoking it directly. No application server or browser database runtime is required in production:
 
 ```sh
 cargo run -- generate-site \

@@ -71,7 +71,9 @@ sign-release release_directory secret_key:
     	-x '{{ release_directory }}/SHA256SUMS.minisig'
     @{{ size }} 'Signed {{ release_directory }}' '{{ release_directory }}'
 
+# Rebuild the static site, replacing any previous output at the destination.
 generate-site database='var/bnck.sqlite.zst' output='var/site':
+    rm -rf '{{ output }}'
     {{ bnck }} generate-site --database '{{ database }}' --output '{{ output }}'
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
