@@ -137,4 +137,4 @@ Serve HTML as `text/html`, JSON as `application/json` without attachment disposi
 
 Publish each build's pages and assets atomically, retaining previous application directories and dataset files so already-open pages can still load matching code and data. Regenerate all pages and exports from the same release; never change the contents at an existing content-addressed URL. Browser caches may evict files and must be allowed to fetch them again.
 
-`just preview` runs the dependency-free Bun server in `web/preview.js` on localhost. It serves generated files with directory index lookup, cache/security headers, and a real 404 fallback. It is a local preview tool, not a production hosting requirement.
+`just preview` runs the dependency-free Bun server in `web/preview.js`, binding `127.0.0.1:3000` by default and accepting a `HOST:PORT` address. It serves generated files with directory index lookup, cache/security headers, and a real 404 fallback. It is a local preview tool, not a production hosting requirement.

@@ -1,8 +1,20 @@
 import { realpath, stat } from 'node:fs/promises';
 import { resolve, sep } from 'node:path';
 
+function parseAddress(value) {
+	let url;
+	try {
+		url = new URL(`http://${value}`);
+	} catch {
+		throw new Error(`invalid address ${JSON.stringify(value)}; expected HOST:PORT`);
+	}
+	const isValid = url.port && url.pathname === '/' && !url.search && !url.hash && !url.username && !url.password;
+	if (!isValid) throw new Error(`invalid address ${JSON.stringify(value)}; expected HOST:PORT`);
+	return { hostname: url.hostname, port: Number(url.port) };
+}
+
 const root = await realpath(process.argv[2] ?? 'var/site');
-const port = Number(process.argv[3] ?? 3000);
+const { hostname, port } = parseAddress(process.argv[3] ?? '127.0.0.1:3000');
 const policy = "default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; " +
 	"form-action 'self'; base-uri 'none'; frame-ancestors 'none'";
 
@@ -32,7 +44,7 @@ async function readFile(path) {
 }
 
 const server = Bun.serve({
-	hostname: '127.0.0.1',
+	hostname,
 	port,
 	async fetch(request) {
 		if (!['GET', 'HEAD'].includes(request.method)) {

@@ -77,8 +77,8 @@ generate-site database='var/bnck.sqlite.zst' output='var/site':
     {{ bnck }} generate-site --database '{{ database }}' --output '{{ output }}'
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
-preview directory='var/site' port='3000':
-    bun web/preview.js '{{ directory }}' '{{ port }}'
+preview directory='var/site' address='127.0.0.1:3000':
+    bun web/preview.js '{{ directory }}' '{{ address }}'
 
 serve database='var/bnck.sqlite.zst' address='127.0.0.1:3000':
     {{ bnck }} serve --database '{{ database }}' --address '{{ address }}'

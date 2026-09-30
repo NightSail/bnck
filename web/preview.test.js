@@ -22,7 +22,7 @@ test('static preview preserves paths, headers, HEAD, and 404s without exposing o
 	for (const [path, contents] of Object.entries(files)) await writeFile(join(root, path), contents);
 	await writeFile(join(directory, 'secret.txt'), 'private');
 	await symlink(join(directory, 'secret.txt'), join(root, 'outside.txt'));
-	const child = Bun.spawn([process.execPath, join(import.meta.dir, 'preview.js'), root, '0'], {
+	const child = Bun.spawn([process.execPath, join(import.meta.dir, 'preview.js'), root, '127.0.0.1:0'], {
 		stdout: 'pipe', stderr: 'inherit',
 	});
 	try {

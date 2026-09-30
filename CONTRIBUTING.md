@@ -139,13 +139,13 @@ just generate-site
 just preview
 ```
 
-The preview listens on `http://127.0.0.1:3000` by default. `generate-site` clears its output directory before rebuilding, so repeated runs replace the previous site. The underlying generator still refuses an existing output directory; use a fresh output path when invoking it directly. No application server or browser database runtime is required in production:
+The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just preview var/site 0.0.0.0:8080`, to change it. `generate-site` clears its output directory before rebuilding, so repeated runs replace the previous site. The underlying generator still refuses an existing output directory; use a fresh output path when invoking it directly. No application server or browser database runtime is required in production:
 
 ```sh
 cargo run -- generate-site \
 	--database var/bnck.sqlite.zst \
 	--output var/site-next
-bun web/preview.js var/site-next 3000
+bun web/preview.js var/site-next 127.0.0.1:3000
 ```
 
 Publish the output directory at the origin root on a case-sensitive static host with directory index support. Paths such as `/projects/helix` resolve to `projects/helix/index.html`; hosts may redirect to a trailing slash. Configure the generated `404.html` as the error page, not an SPA fallback. Enable HTTP Brotli or gzip compression, serve `.json` as `application/json` and `.js` as JavaScript, and apply the generated `_headers` file or equivalent host settings. HTML and exports revalidate; the content-addressed `/assets/` files cache immutably. Application assets and the dataset have independent hashes, so a dataset update does not invalidate unchanged scripts or stylesheets. Deploy pages and assets together and retain previous application directories and dataset files so already-open pages can finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
