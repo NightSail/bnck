@@ -18,7 +18,7 @@ Public copy uses short, descriptive headings and instructions. It explains looku
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
 - Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, and generation date
 
-Project pages use one coverage matrix, with executable names as rows and packages as columns grouped under channel headings. Each channel/package pair appears once; marks identify executables observed in each package, while dots mean not observed in this dataset, not unavailability. Executable rows preserve the anchors used by search links and link to executable details. Rows and channel/package columns sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping executable names visible.
+Project pages use one coverage matrix, with packages as rows grouped under channel headings and executable names as columns. Each channel/package pair appears once; marks identify executables observed in each package, while dots mean not observed in this dataset, not unavailability. Executable column headers preserve the anchors used by search links and link to executable details. Executables and channels/packages sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping package names and channel headings visible.
 
 Package links display the exact channel-native package name rather than the URL. They point to current external channel pages, not pinned acquisition evidence or installation instructions. Unknown package-page mappings remain plain text.
 

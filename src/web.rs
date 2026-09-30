@@ -422,13 +422,20 @@ struct ProjectLink {
 
 #[derive(Serialize)]
 struct ProjectMatrix {
-	channels: Vec<ChannelGroup>,
-	executables: Vec<ExecutableCoverage>,
+	channels: Vec<MatrixChannel>,
+	executables: Vec<String>,
 }
 
 #[derive(Serialize)]
-struct ExecutableCoverage {
-	executable: String,
+struct MatrixChannel {
+	channel: String,
+	packages: Vec<MatrixPackage>,
+}
+
+#[derive(Serialize)]
+struct MatrixPackage {
+	reference: PackageReference,
+	/* Observed executables, aligned with ProjectMatrix::executables. */
 	observed: Vec<bool>,
 }
 
@@ -451,22 +458,35 @@ struct PackageReference {
 }
 
 fn build_project_matrix(providers: Vec<ProjectProvider>) -> ProjectMatrix {
-	let mut executables = BTreeMap::<String, BTreeSet<(String, String)>>::new();
+	let mut packages = BTreeMap::<(String, String), BTreeSet<String>>::new();
 	for provider in providers {
-		executables
-			.entry(provider.executable)
+		packages
+			.entry((provider.channel, provider.package))
 			.or_default()
-			.insert((provider.channel, provider.package));
+			.insert(provider.executable);
 	}
-	/* Headers and cells share the same exact channel/package ordering. */
-	let packages: BTreeSet<_> = executables.values().flatten().cloned().collect();
-	let channels = group_channels(packages.iter().cloned().collect());
-	let executables = executables
+	/* Executable columns and package rows share one exact ordering. */
+	let executables: Vec<String> = packages
+		.values()
+		.flatten()
+		.cloned()
+		.collect::<BTreeSet<_>>()
 		.into_iter()
-		.map(|(executable, providers)| ExecutableCoverage {
-			executable,
-			observed: packages.iter().map(|package| providers.contains(package)).collect(),
-		})
+		.collect();
+	let mut channels = BTreeMap::<String, Vec<MatrixPackage>>::new();
+	for ((channel, package), observed_executables) in packages {
+		let observed = executables
+			.iter()
+			.map(|executable| observed_executables.contains(executable))
+			.collect();
+		channels.entry(channel.clone()).or_default().push(MatrixPackage {
+			reference: PackageReference { url: canonical_package_url(&channel, &package), name: package },
+			observed,
+		});
+	}
+	let channels = channels
+		.into_iter()
+		.map(|(channel, packages)| MatrixChannel { channel, packages })
 		.collect();
 	ProjectMatrix { channels, executables }
 }

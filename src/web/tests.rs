@@ -57,11 +57,11 @@ const MATRIX_RECORDS: &[(&str, &str, &str, &str)] = &[
 	("tools", "helper", "homebrew", "custom/tap/tools"),
 ];
 
-const MATRIX_COVERAGE: &[(&str, [bool; 5])] = &[
-	("Tool", [true, false, false, false, false]),
-	("helper", [true, true, false, true, false]),
-	("tool", [false, true, true, false, true]),
-];
+const MATRIX_EXECUTABLES: &[&str] = &["Tool", "helper", "tool"];
+
+/* Observed executables per package, in the flattened channel/package order. */
+const MATRIX_PACKAGE_COVERAGE: &[[bool; 3]] =
+	&[[true, true, false], [false, true, true], [false, false, true], [false, true, false], [false, false, true]];
 
 const INITIAL_RECORDS: &[(&str, &str, &str, &str)] = &[
 	("alpha", "lookup", "debian", "alpha"),
@@ -963,7 +963,7 @@ fn project_matrix_orders_and_deduplicates_exact_channel_package_relations() {
 			channel
 				.packages
 				.iter()
-				.map(|package| (channel.channel.as_str(), package.name.as_str()))
+				.map(|package| (channel.channel.as_str(), package.reference.name.as_str()))
 		})
 		.collect();
 	assert_eq!(
@@ -976,11 +976,13 @@ fn project_matrix_orders_and_deduplicates_exact_channel_package_relations() {
 			("npm", "@scope/tools"),
 		]
 	);
-	assert_eq!(matrix.executables.len(), MATRIX_COVERAGE.len());
-	for (row, (name, observed)) in matrix.executables.iter().zip(MATRIX_COVERAGE) {
-		assert_eq!(row.executable, *name);
-		assert_eq!(row.observed, observed);
-	}
+	assert_eq!(matrix.executables, MATRIX_EXECUTABLES);
+	let observed: Vec<_> = matrix
+		.channels
+		.iter()
+		.flat_map(|channel| channel.packages.iter().map(|package| package.observed.clone()))
+		.collect();
+	assert_eq!(observed, MATRIX_PACKAGE_COVERAGE);
 }
 
 #[tokio::test]
@@ -988,17 +990,13 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 	let database = fixture(MATRIX_RECORDS.iter().copied().map(provider));
 	let html = response_text(project_page(&database, "tools")).await;
 	assert_eq!(html.matches("<table ").count(), 1);
-	assert_eq!(html.matches("scope='colgroup'").count(), 4);
-	assert_eq!(html.matches("class='matrix-package' scope='col'").count(), 5);
-	let normalized = html.split_whitespace().collect::<Vec<_>>().join(" ");
-	assert!(
-		normalized.contains(concat!(
-			"<th scope='colgroup' colspan='2'> ",
-			"<span class='matrix-channel'>Debian</span> </th>"
-		))
-	);
-	assert!(html.contains("<colgroup span='2'></colgroup>"));
-	assert!(html.contains("scope='col' rowspan='2'>Executable</th>"));
+	assert_eq!(html.matches("scope='col'>Package</th>").count(), 1);
+	assert_eq!(html.matches("class='matrix-executable' scope='col'").count(), MATRIX_EXECUTABLES.len());
+	assert_eq!(html.matches("class='matrix-name' scope='row'").count(), MATRIX_PACKAGE_COVERAGE.len());
+	assert_eq!(html.matches("scope='rowgroup'").count(), 4);
+	assert!(html.contains("colspan='4'"));
+	assert!(html.contains("<span class='matrix-channel-label'>Debian</span>"));
+	assert!(html.contains("<span class='matrix-channel-label'>Arch Linux</span>"));
 	assert!(html.contains("role='region' aria-labelledby='providers-title' tabindex='0'"));
 	assert!(html.contains("aria-describedby='matrix-legend'"));
 	assert!(html.contains("Observed in this package."));
@@ -1016,12 +1014,16 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 	}
 	assert_eq!(html.matches("class='package-link'").count(), 4);
 	assert!(html.contains("<code>custom&#x2f;tap&#x2f;tools</code>"));
-	for (name, observed) in MATRIX_COVERAGE {
-		let anchor = format!("<tr id='executable-{name}'>");
-		assert_eq!(html.matches(&anchor).count(), 1);
-		let row = html.split_once(&anchor).unwrap().1.split_once("</tr>").unwrap().0;
-		assert!(row.contains("scope='row'"));
-		assert!(row.contains(&format!("href='/executables/{name}'")));
+	for executable in MATRIX_EXECUTABLES {
+		assert_eq!(html.matches(&format!("id='executable-{executable}'")).count(), 1);
+		assert!(html.contains(&format!("href='/executables/{executable}'")));
+	}
+	let rows: Vec<_> = html
+		.split("<tr>")
+		.filter(|row| row.contains("class='matrix-name' scope='row'"))
+		.collect();
+	assert_eq!(rows.len(), MATRIX_PACKAGE_COVERAGE.len());
+	for (row, observed) in rows.iter().zip(MATRIX_PACKAGE_COVERAGE) {
 		let cells: Vec<_> = row.split("<td>").skip(1).collect();
 		assert_eq!(cells.len(), observed.len());
 		for (cell, is_observed) in cells.iter().zip(observed) {
@@ -1035,8 +1037,8 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 async fn project_matrix_shows_shared_package_once_and_excludes_other_projects() {
 	let database = fixture(AGE_RECORDS.iter().copied().map(provider));
 	let html = response_text(project_page(&database, "age")).await;
-	assert_eq!(html.matches("class='matrix-package'").count(), 1);
-	assert_eq!(html.matches("scope='row'").count(), 4);
+	assert_eq!(html.matches("class='matrix-name' scope='row'").count(), 1);
+	assert_eq!(html.matches("class='matrix-executable' scope='col'").count(), 4);
 	assert_eq!(html.matches("class='visually-hidden'>Observed</span>").count(), 4);
 	assert!(!html.contains("class='visually-hidden'>Not observed</span>"));
 	assert!(!html.contains("age-plugin-yubikey"));

@@ -29,36 +29,29 @@
 	<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
 		<table class='provider-matrix' aria-describedby='matrix-legend'>
 			<caption class='visually-hidden'>Executable coverage for {{ page.project }}</caption>
-			<colgroup span='1'></colgroup>
-			{% for channel in page.matrix.channels %}
-			<colgroup span='{{ channel.packages | length }}'></colgroup>
-			{% endfor %}
 			<thead>
 				<tr>
-					<th class='matrix-name' scope='col' rowspan='2'>Executable</th>
-					{% for channel in page.matrix.channels %}
-					<th scope='colgroup' colspan='{{ channel.packages | length }}'>
-						<span class='matrix-channel'>{{ channel.channel | channel_label }}</span>
+					<th class='matrix-name' scope='col'>Package</th>
+					{% for executable in page.matrix.executables %}
+					<th class='matrix-executable' scope='col' id='executable-{{ executable }}'>
+						<a class='related-name' href='/executables/{{ executable | path_segment }}'>
+							<code>{{ executable }}</code>
+						</a>
 					</th>
-					{% endfor %}
-				</tr>
-				<tr>
-					{% for channel in page.matrix.channels %}
-					{% for package in channel.packages %}
-					<th class='matrix-package' scope='col'>{{ package_link(package, channel.channel) }}</th>
-					{% endfor %}
 					{% endfor %}
 				</tr>
 			</thead>
 			<tbody>
-				{% for executable in page.matrix.executables %}
-				<tr id='executable-{{ executable.executable }}'>
-					<th class='matrix-name' scope='row'>
-						<a class='related-name' href='/executables/{{ executable.executable | path_segment }}'>
-							<code>{{ executable.executable }}</code>
-						</a>
+				{% for channel in page.matrix.channels %}
+				<tr>
+					<th class='matrix-channel' scope='rowgroup' colspan='{{ page.matrix.executables | length + 1 }}'>
+						<span class='matrix-channel-label'>{{ channel.channel | channel_label }}</span>
 					</th>
-					{% for is_observed in executable.observed %}
+				</tr>
+				{% for package in channel.packages %}
+				<tr>
+					<th class='matrix-name' scope='row'>{{ package_link(package.reference, channel.channel) }}</th>
+					{% for is_observed in package.observed %}
 					<td>
 						{% if is_observed %}
 						<span class='matrix-observed' aria-hidden='true'>✓</span>
@@ -70,6 +63,7 @@
 					</td>
 					{% endfor %}
 				</tr>
+				{% endfor %}
 				{% endfor %}
 			</tbody>
 		</table>

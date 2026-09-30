@@ -784,15 +784,7 @@ thead th {
 	border-top: 1px solid var(--line);
 	font-size: 13px;
 }
-.provider-matrix th[scope='colgroup']:not([colspan='1']) {
-	text-align: left;
-}
-.matrix-channel {
-	display: inline-block;
-	position: sticky;
-	left: calc(var(--matrix-name-width) + 16px);
-}
-.provider-matrix .matrix-package {
+.provider-matrix .matrix-executable {
 	min-width: 8rem;
 	max-width: 16rem;
 	color: var(--text);
@@ -800,6 +792,15 @@ thead th {
 	letter-spacing: 0;
 	text-transform: none;
 	vertical-align: top;
+}
+.provider-matrix .matrix-channel {
+	text-align: left;
+	background: var(--raised);
+}
+.matrix-channel-label {
+	display: inline-block;
+	position: sticky;
+	left: calc(var(--matrix-name-width) + 16px);
 }
 .provider-matrix .matrix-name {
 	position: sticky;
@@ -810,12 +811,16 @@ thead th {
 	background: var(--surface);
 	box-shadow: 1px 0 var(--line);
 	text-align: left;
+	font-size: 12px;
+	vertical-align: top;
 }
 .provider-matrix thead .matrix-name {
 	background: var(--raised);
 }
-.provider-matrix tbody tr:hover > *,
-.provider-matrix tbody tr:target > * {
+.provider-matrix tbody tr:hover > * {
+	background: var(--hover);
+}
+.provider-matrix th:target {
 	background: var(--hover);
 }
 .matrix-observed {
@@ -1334,7 +1339,7 @@ thead th {
 		overflow: visible;
 	}
 	.provider-matrix .matrix-name,
-	.matrix-channel {
+	.matrix-channel-label {
 		position: static;
 	}
 	.provider-group {
