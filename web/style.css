@@ -752,6 +752,11 @@ thead th {
 	color: var(--muted);
 	font-size: 12px;
 }
+.detail-note {
+	margin-top: 20px;
+	color: var(--muted);
+	font-size: 12px;
+}
 .matrix-scroll {
 	--matrix-name-width: min(16rem, 45vw);
 	position: relative;

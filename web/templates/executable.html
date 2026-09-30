@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% from 'components.html' import provider_group, snapshot_note, count_label, export_actions with context %}
+{% from 'components.html' import provider_group, coverage_note, count_label, export_actions with context %}
 {% block scripts %}<script type='module' src='{{ site.assets }}/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>
@@ -8,30 +8,23 @@
 	<h1><span class='command-prefix' aria-hidden='true'>$ </span><code>{{ page.executable }}</code></h1>
 	<p class='lead'>{{ count_label(page.project_count, 'project', 'projects') }}.</p>
 </section>
-<div class='content-layout'>
-	<section aria-labelledby='providers-title'>
-		{% if page.project_count > 1 %}
-		<div class='ambiguity-note'>
-			<strong>Multiple projects provide this name.</strong>
-			Check the project before choosing a package.
-		</div>
-		{% endif %}
-		<div class='section-heading export-heading'>
-			<h2 id='providers-title'>Projects</h2>
-			{{ export_actions('/executables/' ~ (page.executable | path_segment) ~ '/providers.json') }}
-		</div>
-		<div class='provider-groups'>
-			{% for project in page.projects %}
-			{{ provider_group(project.project, 'project', project.channels) }}
-			{% endfor %}
-		</div>
-	</section>
-	<aside class='side-column'>
-		<section class='side-note'>
-			<h2>Packages</h2>
-			<p>Links open current package pages. Check versions and platform support there.</p>
-		</section>
-		{{ snapshot_note() }}
-	</aside>
-</div>
+<section aria-labelledby='providers-title'>
+	{% if page.project_count > 1 %}
+	<div class='ambiguity-note'>
+		<strong>Multiple projects provide this name.</strong>
+		Check the project before choosing a package.
+	</div>
+	{% endif %}
+	<div class='section-heading export-heading'>
+		<h2 id='providers-title'>Projects</h2>
+		{{ export_actions('/executables/' ~ (page.executable | path_segment) ~ '/providers.json') }}
+	</div>
+	<div class='provider-groups'>
+		{% for project in page.projects %}
+		{{ provider_group(project.project, 'project', project.channels) }}
+		{% endfor %}
+	</div>
+</section>
+<p class='detail-note'>Links open current package pages. Check versions and platform support there.</p>
+{{ coverage_note() }}
 {% endblock %}
