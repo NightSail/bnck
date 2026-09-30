@@ -18,6 +18,7 @@ fetch-fedora:
     while IFS=$'\t' read -r url output; do \
     	curl --fail --location --retry 3 --continue-at - --output "$output" "$url"; \
     done < '{{ fedora_input }}/downloads.tsv'
+    @{{ size }} 'Pulled into {{ fedora_input }}' '{{ fedora_input }}'
 
 import-fedora:
     mkdir -p 'var/acquired'
@@ -31,3 +32,4 @@ import-fedora:
     		--scope 'release={{ fedora_release }}' \
     		--scope 'repository=everything' \
     		--scope 'architecture={{ fedora_arch }}'
+    @{{ size }} 'Wrote {{ fedora_output }}' '{{ fedora_output }}'

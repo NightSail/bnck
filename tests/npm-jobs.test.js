@@ -62,6 +62,7 @@ function fetchSnapshot() {
 	expect(result.exitCode).toBe(0);
 	const snapshot = readFileSync(selection, 'utf8').trimEnd();
 	expect(result.stdout).toContain(snapshot);
+	expect(result.stdout).toContain(`Pulled into ${snapshot}: `);
 	expect(existsSync(join(snapshot, 'complete'))).toBe(true);
 	return snapshot;
 }
@@ -81,7 +82,9 @@ test('argument-free fetch and import use one planned snapshot, never the old per
 		expect(request[request.indexOf('--retry') + 1]).toBe('3');
 	}
 	writeFileSync(log, '');
-	expect(run(['import-npm']).exitCode).toBe(0);
+	const imported = run(['import-npm']);
+	expect(imported.exitCode).toBe(0);
+	expect(imported.stdout).toContain('Wrote var/acquired/npm.jsonl: ');
 	expect(commands()).toEqual([['bnck-test', 'import-npm', '--plan', `${snapshot}/metadata.json`,
 		'--output', 'var/acquired/npm.jsonl', '--scope', 'registry=https://registry.npmjs.org',
 		'--scope', 'release-policy=latest-dist-tag']]);

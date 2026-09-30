@@ -34,6 +34,7 @@ _fetch-debian-suite suite input:
     xz -dc '{{ input }}/Packages.xz' > '{{ input }}/Packages'
     xz -dc '{{ input }}/Sources.xz' > '{{ input }}/Sources'
     gzip -dc '{{ input }}/Contents.gz' '{{ input }}/Contents-all.gz' > '{{ input }}/Contents'
+    @{{ size }} 'Pulled into {{ input }}' '{{ input }}'
 
 import-debian: import-debian-stable import-debian-sid
 
@@ -51,3 +52,4 @@ _import-debian-suite suite input output:
         --scope 'suite={{ suite }}' \
         --scope 'component={{ debian_component }}' \
         --scope 'architecture={{ debian_arch }}'
+    @{{ size }} 'Wrote {{ output }}' '{{ output }}'

@@ -11,6 +11,7 @@ fetch-crates-dump directory=crates_dump_directory:
     mv '{{ directory }}/db-dump.tar.gz.tmp' '{{ directory }}/db-dump.tar.gz'
     tar -xzf '{{ directory }}/db-dump.tar.gz' -C '{{ directory }}' --wildcards \
     	'*/data/crates.csv' '*/data/versions.csv' '*/metadata.json'
+    @{{ size }} 'Pulled into {{ directory }}' '{{ directory }}'
 
 import-crates-dump directory=crates_dump_directory:
     mkdir -p 'var/acquired'
@@ -24,3 +25,4 @@ import-crates-dump directory=crates_dump_directory:
     		--output '{{ crates_output }}' \
     		--scope 'registry=crates.io' \
     		--scope 'release-policy=latest-non-yanked-stable'
+    @{{ size }} 'Wrote {{ crates_output }}' '{{ crates_output }}'

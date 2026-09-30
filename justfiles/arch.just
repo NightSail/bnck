@@ -18,6 +18,7 @@ fetch-arch:
     	tar -xf "{{ arch_input }}/archives/$repository.files" \
     		-C "{{ arch_input }}/extracted/$repository"; \
     done
+    @{{ size }} 'Pulled into {{ arch_input }}' '{{ arch_input }}'
 
 import-arch:
     mkdir -p 'var/acquired'
@@ -26,3 +27,4 @@ import-arch:
     	--output '{{ arch_output }}' \
     	--scope 'repositories=core,extra' \
     	--scope 'architecture={{ arch_arch }}'
+    @{{ size }} 'Wrote {{ arch_output }}' '{{ arch_output }}'

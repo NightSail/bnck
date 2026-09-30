@@ -73,6 +73,8 @@ Show acquisition and provider record counts with:
 just stats
 ```
 
+Fetch jobs end with the on-disk size of the inputs they retain; import, generate, and release jobs end with the size of the artifacts they write. Each summary line names the path and its size in IEC units.
+
 ## Curations
 
 Project definitions and package ownership rules live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, and validation requirements.

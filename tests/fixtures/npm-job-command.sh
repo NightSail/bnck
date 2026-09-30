@@ -30,7 +30,15 @@ case "${0##*/}" in
 					printf 'https://registry.npmjs.org/%%40scope%%2Ftwo/latest\t%s/two.json\n' "$directory"
 				} > "${plan%.json}.tsv"
 				;;
-			import-npm) ;;
+			import-npm)
+				shift
+				while test "$#" -gt 0; do
+					if test "$1" = --output; then output="$2"; fi
+					shift
+				done
+				mkdir -p "$(dirname "$output")"
+				printf '{}\n' > "$output"
+				;;
 			*) exit 1 ;;
 		esac
 		;;

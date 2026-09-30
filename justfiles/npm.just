@@ -29,6 +29,7 @@ fetch-npm snapshot='':
         printf '%s\n' "$snapshot" > "$snapshot/current"
         mv -f "$snapshot/current" "$selection"
     fi
+    {{ size }} "Pulled into $snapshot" "$snapshot"
 
 # Resume only the retained plan, without selecting a different snapshot for default imports.
 resume-npm snapshot:
@@ -59,3 +60,4 @@ import-npm snapshot='' output=npm_output:
     mkdir -p "$(dirname '{{ output }}')"
     {{ bnck_bulk }} import-npm --plan "$snapshot/metadata.json" --output '{{ output }}' \
         --scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag'
+    {{ size }} 'Wrote {{ output }}' '{{ output }}'

@@ -15,6 +15,7 @@ fetch-pypi package:
     while IFS=$'\t' read -r url output; do \
     	curl --fail --location --retry 3 --continue-at - --output "$output" "$url"; \
     done < '{{ pypi_input }}/plans/{{ package }}.tsv'
+    @{{ size }} 'Pulled into {{ pypi_input }}' '{{ pypi_input }}'
 
 import-pypi:
     mkdir -p 'var/acquired'
@@ -23,6 +24,7 @@ import-pypi:
     	--output '{{ pypi_output }}' \
     	--scope 'index=https://pypi.org/simple/' \
     	--scope 'release-policy=latest-listed-wheel'
+    @{{ size }} 'Wrote {{ pypi_output }}' '{{ pypi_output }}'
 
 # Plan and fetch only explicitly curated PyPI packages, without the global project index.
 fetch-pypi-metadata snapshot:
@@ -31,6 +33,7 @@ fetch-pypi-metadata snapshot:
     {{ bnck_bulk }} plan-pypi-metadata --curations curations \
         --output-directory '{{ snapshot }}/packages' --output '{{ snapshot }}/metadata.json'
     just fetch-registry-plan pypi '{{ snapshot }}/metadata.tsv'
+    @{{ size }} 'Pulled into {{ snapshot }}' '{{ snapshot }}'
 
 fetch-pypi-wheels snapshot:
     mkdir -p '{{ pypi_wheel_cache }}'
@@ -43,3 +46,4 @@ fetch-pypi-wheels snapshot:
     		mv "$output.tmp" "$output"; \
     	fi; \
     done < '{{ snapshot }}/wheels.tsv'
+    @{{ size }} 'Pulled into {{ pypi_wheel_cache }}' '{{ pypi_wheel_cache }}'

@@ -3,6 +3,8 @@ set shell := ['bash', '-eu', '-o', 'pipefail', '-c']
 bnck := 'cargo run --quiet --bin bnck --'
 bnck_bulk := 'cargo run --release --quiet --bin bnck --'
 languages_input := 'var/input/languages'
+# Report the on-disk size of a job's fetched inputs or written artifacts.
+size := justfile_directory() + '/justfiles/size.sh'
 
 import 'justfiles/arch.just'
 import 'justfiles/crates.just'
@@ -36,6 +38,7 @@ generate acquisitions='var/acquired' output='var/providers.jsonl':
     	--acquisitions '{{ acquisitions }}' \
     	--curations curations \
     	--output '{{ output }}'
+    @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
 generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst':
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
@@ -46,6 +49,7 @@ generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sql
     		--dataset-release '{{ dataset_release }}' \
     		--generated-at "$generated_at" \
     		--generator-revision "$revision"
+    @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
 release dataset_release input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases':
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
@@ -57,6 +61,7 @@ release dataset_release input='var/providers.jsonl' acquisitions='var/acquired' 
     		--dataset-release '{{ dataset_release }}' \
     		--generated-at "$generated_at" \
     		--generator-revision "$revision"
+    @{{ size }} 'Wrote {{ output }}/bnck-{{ dataset_release }}' '{{ output }}/bnck-{{ dataset_release }}'
 
 sign-release release_directory secret_key:
     test -f '{{ release_directory }}/SHA256SUMS'
@@ -64,9 +69,11 @@ sign-release release_directory secret_key:
     	-s '{{ secret_key }}' \
     	-m '{{ release_directory }}/SHA256SUMS' \
     	-x '{{ release_directory }}/SHA256SUMS.minisig'
+    @{{ size }} 'Signed {{ release_directory }}' '{{ release_directory }}'
 
 generate-site database='var/bnck.sqlite.zst' output='var/site':
     {{ bnck }} generate-site --database '{{ database }}' --output '{{ output }}'
+    @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
 preview directory='var/site' port='3000':
     bun web/preview.js '{{ directory }}' '{{ port }}'
@@ -97,6 +104,7 @@ fetch-languages:
     # Publish the selection only after every fetch succeeds.
     printf '%s\n' "$snapshot" > "$snapshot/current"
     mv -f "$snapshot/current" "$inputs/current"
+    {{ size }} "Pulled into $snapshot" "$snapshot"
 
 import-languages:
     #!/usr/bin/env bash
@@ -117,6 +125,7 @@ import-languages:
     {{ bnck_bulk }} import-pypi --plan "$snapshot/pypi/wheels.json" --output '{{ pypi_output }}' \
         --scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
         --scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
+    {{ size }} 'Wrote var/acquired' 'var/acquired'
 
 stats:
     for file in var/acquired/*.jsonl; do printf '%-32s %s\n' "$file" "$(wc -l < "$file")"; done

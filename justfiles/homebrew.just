@@ -10,6 +10,7 @@ fetch-homebrew:
     curl --fail --location --retry 3 \
     	--output '{{ homebrew_input }}/cask.json' \
     	'{{ homebrew_api }}/cask.json'
+    @{{ size }} 'Pulled into {{ homebrew_input }}' '{{ homebrew_input }}'
 
 import-homebrew:
     mkdir -p 'var/acquired'
@@ -19,3 +20,4 @@ import-homebrew:
     	--output '{{ homebrew_output }}' \
     	--scope 'tap=homebrew/core,homebrew/cask' \
     	--scope 'package-kinds=formula,cask'
+    @{{ size }} 'Wrote {{ homebrew_output }}' '{{ homebrew_output }}'
