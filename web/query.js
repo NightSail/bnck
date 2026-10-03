@@ -1,5 +1,6 @@
 export const PAGE_SIZE = 30;
 export const RELATED_LIMIT = 3;
+export const PAGE_SIBLINGS = 2;
 
 export function foldAscii(value) {
 	return value.replace(/[A-Z]/g, (letter) => letter.toLowerCase());
@@ -45,6 +46,24 @@ export function searchUrl(search, changes = {}) {
 	const { query, channel, initial, page } = { ...search, ...changes };
 	return `/?q=${encodeSegment(query)}&channel=${encodeSegment(channel)}` +
 		`&initial=${encodeSegment(initial)}&page=${page}`;
+}
+
+/* Page numbers around the current page, with null marking an elided range. */
+export function pageNumbers(page, pages, siblings = PAGE_SIBLINGS) {
+	if (pages < 2) return [];
+	const visible = new Set([1, pages]);
+	for (let number = page - siblings; number <= page + siblings; number++) {
+		if (number >= 1 && number <= pages) visible.add(number);
+	}
+	const numbers = [...visible].sort((left, right) => left - right);
+	const items = [];
+	let previous = 0;
+	for (const number of numbers) {
+		if (previous && number - previous > 1) items.push(number - previous === 2 ? previous + 1 : null);
+		items.push(number);
+		previous = number;
+	}
+	return items;
 }
 
 function searchableName(name) {
@@ -105,10 +124,19 @@ export function queryIndex(index, search) {
 	const offset = (search.page - 1) * PAGE_SIZE;
 	const rows = filtered.slice(offset, offset + PAGE_SIZE);
 	if (search.page > 1 && !rows.length) throw new Error('No results on this page. Start a new search or browse names.');
+	const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+	const page_links = pageNumbers(search.page, pages).map((number) => number === null ? {
+		label: '…', url: null, is_current: false,
+	} : {
+		label: String(number), url: searchUrl(search, { page: number }), is_current: number === search.page,
+	});
 	return {
 		rows, initials, total: filtered.length,
 		start: rows.length ? offset + 1 : 0,
 		end: offset + rows.length,
+		page: search.page,
+		pages,
+		page_links,
 		previous: search.page > 1 ? searchUrl(search, { page: search.page - 1 }) : null,
 		next: offset + rows.length < filtered.length ? searchUrl(search, { page: search.page + 1 }) : null,
 	};

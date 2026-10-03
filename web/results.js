@@ -110,12 +110,37 @@ function emptyResults(search) {
 	</div>`;
 }
 
-function pagination(results) {
+function pageList(results) {
+	return `<ol class='page-list'>${results.page_links.map((item) => item.url
+		? `<li>${link(item.url, escapeHtml(item.label),
+			`class='page-link'${item.is_current ? " aria-current='page'" : ''}`)}</li>`
+		: `<li><span class='page-gap' aria-hidden='true'>${escapeHtml(item.label)}</span></li>`
+	).join('')}</ol>`;
+}
+
+function pageJump(search, results) {
+	const hidden = (name, value) => `<input type='hidden' name='${name}' value='${escapeHtml(value)}'>`;
+	return `<form class='page-jump' action='/' method='get'>
+		${hidden('q', search.query)}${hidden('channel', search.channel)}${hidden('initial', search.initial)}
+		<label for='page-jump'>Go to page</label>
+		<input id='page-jump' name='page' type='number' min='1' max='${results.pages}' value='${results.page}'
+			inputmode='numeric' required>
+		<button type='submit'>Go</button>
+	</form>`;
+}
+
+function pagination(search, results) {
 	return `<nav class='pagination' aria-label='Result pages'>
-		<span>${number(results.start)}–${number(results.end)} of ${number(results.total)}</span><div>
-			${results.previous ? link(results.previous, '← Previous', 'rel=\'prev\'') : ''}
-			${results.next ? link(results.next, 'Next →', 'rel=\'next\'') : ''}
-		</div></nav>`;
+		<span class='page-summary'>${number(results.start)}–${number(results.end)} of ${number(results.total)}</span>
+		<div class='page-controls'>
+			${results.previous ? link(results.previous, '← Previous', "class='page-step' rel='prev'")
+				: '<span class=\'page-step is-disabled\'>← Previous</span>'}
+			${results.page_links.length ? pageList(results) : ''}
+			${results.next ? link(results.next, 'Next →', "class='page-step' rel='next'")
+				: '<span class=\'page-step is-disabled\'>Next →</span>'}
+		</div>
+		${pageJump(search, results)}
+	</nav>`;
 }
 
 export function resultSummary(search, results) {
@@ -144,7 +169,7 @@ export function renderResults(search, results, channels) {
 			${filterLinks(search, initialFilters, 'initial')}</nav>
 		${results.rows.length ? `<ul class='name-results' role='list' aria-label='Matching projects'>
 			${results.rows.map((project, index) => projectResult(project, index + 1, search, labels)).join('')}
-			</ul>${pagination(results)}` : emptyResults(search)}
+			</ul>${results.pages > 1 ? pagination(search, results) : ''}` : emptyResults(search)}
 	</section><aside class='side-column'><section class='side-note'>
 		<h2>Search notes</h2><p>Matches parts of executable names and project IDs, not package names.</p>
 	</section><section class='side-note'><h2>Coverage</h2><p>An unlisted command may still be available.</p>

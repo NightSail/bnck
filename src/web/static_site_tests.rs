@@ -196,7 +196,7 @@ fn browser_queries_match_sqlite() {
 	let records = records
 		.into_iter()
 		.map(|(project, executable, channel)| provider(project, executable, channel))
-		.chain((0..40).map(|index| provider(&format!("page-{index:02}"), "tool", "npm")));
+		.chain((0..120).map(|index| provider(&format!("page-{index:03}"), "tool", "npm")));
 	let database = fixture(records);
 	let projects = read_names(&database, "SELECT DISTINCT project FROM providers ORDER BY project").unwrap();
 	let dataset = browser_dataset(&database, &projects).unwrap();
@@ -204,7 +204,7 @@ fn browser_queries_match_sqlite() {
 	for query in ["", "hx", "HX", "age", "tool", "%_", "<tool>&'", "É", "é", "\u{85}hx\u{85}", "\u{feff}hx"] {
 		for channel in ["", "npm", "debian", "arch"] {
 			for initial in ["", "#", "A"] {
-				for page in [1, 2, 3] {
+				for page in [1, 2, 3, 4, 5] {
 					let search = SearchQuery {
 						q: Some(query.to_owned()),
 						channel: channel.to_owned(),

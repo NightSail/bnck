@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% from 'components.html' import search_form, snapshot_note, count_label, search_result with context %}
+{% from 'components.html' import search_form, snapshot_note, count_label, search_result, pagination with context %}
 
 {% block content %}
 <section class='page-heading search-heading'>
@@ -48,15 +48,7 @@
 			</li>
 			{% endfor %}
 		</ul>
-		<nav class='pagination' aria-label='Result pages'>
-			<span>
-				{{ page.results.start | number }}–{{ page.results.end | number }} of {{ page.results.total | number }}
-			</span>
-			<div>
-				{% if page.results.previous %}<a href='{{ page.results.previous }}' rel='prev'>← Previous</a>{% endif %}
-				{% if page.results.next %}<a href='{{ page.results.next }}' rel='next'>Next →</a>{% endif %}
-			</div>
-		</nav>
+		{% if page.results.pages > 1 %}{{ pagination(page.results, page.query, page.channel, page.initial) }}{% endif %}
 		{% else %}
 		<div class='empty-state'>
 			<span class='empty-symbol' aria-hidden='true'>∅</span>

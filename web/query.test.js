@@ -1,6 +1,8 @@
 import { expect, test } from 'bun:test';
 import dataset from './fixtures/dataset.json';
-import { buildIndex, compareNames, encodeSegment, foldAscii, parseSearch, queryIndex, searchUrl } from './query.js';
+import {
+	buildIndex, compareNames, encodeSegment, foldAscii, pageNumbers, parseSearch, queryIndex, searchUrl,
+} from './query.js';
 import { escapeHtml, highlightName, renderResults } from './results.js';
 
 const parse = (query) => parseSearch(new URLSearchParams(query), dataset.channels);
@@ -71,14 +73,28 @@ test('pagination counts whole projects, with out-of-range pages rejected', () =>
 	})) };
 	const index = buildIndex(expanded);
 	const first = queryIndex(index, parse('q='));
-	const second = queryIndex(index, parse('q=&page=2'));
+	const secondSearch = parse('q=&page=2');
+	const second = queryIndex(index, secondSearch);
 	const last = queryIndex(index, parse('q=&page=3'));
 	expect([first.rows.length, second.rows.length, last.rows.length]).toEqual([30, 30, 5]);
 	expect([second.start, second.end, second.total]).toEqual([31, 60, 65]);
 	expect(second.previous).toContain('page=1');
 	expect(second.next).toContain('page=3');
 	expect(last.next).toBe(null);
+	expect([first.pages, second.pages, last.pages]).toEqual([3, 3, 3]);
+	expect(second.page).toBe(2);
+	expect(second.page_links.map((item) => item.label)).toEqual(['1', '2', '3']);
+	expect(second.page_links[1]).toEqual({ label: '2', url: searchUrl(secondSearch, { page: 2 }), is_current: true });
 	expect(() => queryIndex(index, parse('q=&page=4'))).toThrow('No results on this page');
+});
+
+test('page shortcuts keep the first, last, and a window around the current page', () => {
+	expect(pageNumbers(6, 20)).toEqual([1, null, 4, 5, 6, 7, 8, null, 20]);
+	expect(pageNumbers(1, 10)).toEqual([1, 2, 3, null, 10]);
+	expect(pageNumbers(10, 10)).toEqual([1, null, 8, 9, 10]);
+	expect(pageNumbers(3, 6)).toEqual([1, 2, 3, 4, 5, 6]);
+	expect(pageNumbers(6, 10)).toEqual([1, null, 4, 5, 6, 7, 8, 9, 10]);
+	expect(pageNumbers(1, 1)).toEqual([]);
 });
 
 test('highlights preserve literal spelling, escaping, and nonoverlapping matches', () => {
@@ -96,6 +112,7 @@ test('rendering preserves exact tags, labels, and filter recovery links', () => 
 	expect(html).toContain("href='/projects/helix#executable-hx'");
 	expect(html).toContain('Debian, npm');
 	expect(html).toContain('Arch Linux');
+	expect(html).not.toContain("aria-label='Result pages'");
 	const filtered = renderResults(parse('q=hx&channel=npm'), query('q=hx&channel=npm'), dataset.channels);
 	expect(filtered).not.toContain('Debian, npm');
 	const empty = renderResults(parse('q=hx&channel=npm&initial=A'),
@@ -103,6 +120,22 @@ test('rendering preserves exact tags, labels, and filter recovery links', () => 
 	expect(empty).toContain('Clear both filters');
 	expect(empty).toContain('Search all channels');
 	expect(empty).toContain('Search all initials');
+});
+
+test('pagination markup exposes shortcuts, the current page, and a go-to form', () => {
+	const expanded = { ...dataset, projects: Array.from({ length: 65 }, (_, index) => ({
+		...dataset.projects[0], name: `project-${String(index).padStart(2, '0')}`,
+	})) };
+	const search = parse('q=&page=2');
+	const html = renderResults(search, queryIndex(buildIndex(expanded), search), dataset.channels);
+	expect(html).toContain("aria-label='Result pages'");
+	expect(html).toContain("class='page-list'");
+	expect(html.match(/aria-current='page'/g)).toHaveLength(1);
+	expect(html).toContain("class='page-jump'");
+	expect(html).toContain("name='page' type='number' min='1' max='3'");
+	expect(html).toContain("value='2'");
+	expect(html).toContain("rel='prev'");
+	expect(html).toContain("rel='next'");
 });
 
 test('untrusted dataset names and queries cannot inject HTML or link attributes', () => {

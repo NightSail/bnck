@@ -17,6 +17,45 @@
 </form>
 {% endmacro %}
 
+{% macro pagination(results, query='', channel='', initial='') %}
+<nav class='pagination' aria-label='Result pages'>
+	<span class='page-summary'>
+		{{ results.start | number }}–{{ results.end | number }} of {{ results.total | number }}
+	</span>
+	<div class='page-controls'>
+		{% if results.previous %}
+		<a class='page-step' href='{{ results.previous }}' rel='prev'>← Previous</a>
+		{% else %}
+		<span class='page-step is-disabled'>← Previous</span>
+		{% endif %}
+		<ol class='page-list'>
+			{% for item in results.page_links %}
+			{% if item.url %}
+			<li><a class='page-link' href='{{ item.url }}'
+				{% if item.is_current %} aria-current='page'{% endif %}>{{ item.label }}</a></li>
+			{% else %}
+			<li><span class='page-gap' aria-hidden='true'>{{ item.label }}</span></li>
+			{% endif %}
+			{% endfor %}
+		</ol>
+		{% if results.next %}
+		<a class='page-step' href='{{ results.next }}' rel='next'>Next →</a>
+		{% else %}
+		<span class='page-step is-disabled'>Next →</span>
+		{% endif %}
+	</div>
+	<form class='page-jump' action='/' method='get'>
+		<input type='hidden' name='q' value='{{ query }}'>
+		{% if channel %}<input type='hidden' name='channel' value='{{ channel }}'>{% endif %}
+		{% if initial %}<input type='hidden' name='initial' value='{{ initial }}'>{% endif %}
+		<label for='page-jump'>Go to page</label>
+		<input id='page-jump' name='page' type='number' min='1' max='{{ results.pages }}' value='{{ results.page }}'
+			inputmode='numeric' required>
+		<button type='submit'>Go</button>
+	</form>
+</nav>
+{% endmacro %}
+
 {% macro stats(stats) %}
 <dl class='stats' aria-label='Current dataset statistics'>
 	<div><dt>Executable names</dt><dd>{{ stats.executables | number }}</dd></div>

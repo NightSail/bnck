@@ -742,6 +742,8 @@ fn pagination_encodes_query_parameters_and_handles_empty_data() {
 	let database = fixture([]);
 	let results = database.search(&search_query("")).unwrap();
 	assert_eq!((results.total, results.start, results.end), (0, 0, 0));
+	assert_eq!((results.page, results.pages), (1, 1));
+	assert!(results.page_links.is_empty());
 	assert!(results.previous.is_none() && results.next.is_none());
 	assert!(database.channels.is_empty());
 	assert!(database.example.is_none());
@@ -753,6 +755,51 @@ fn pagination_encodes_query_parameters_and_handles_empty_data() {
 	)
 	.unwrap();
 	assert!(html.contains("No executables listed in this release."));
+}
+
+#[test]
+fn page_shortcuts_keep_the_first_last_and_current_window() {
+	let labels = |page: u32, pages: u32| {
+		super::search_page_links(&SearchQuery { page, ..search_query("") }, pages)
+			.into_iter()
+			.map(|link| link.label)
+			.collect::<Vec<_>>()
+	};
+	assert_eq!(labels(6, 20), ["1", "…", "4", "5", "6", "7", "8", "…", "20"]);
+	assert_eq!(labels(1, 10), ["1", "2", "3", "…", "10"]);
+	assert_eq!(labels(10, 10), ["1", "…", "8", "9", "10"]);
+	assert_eq!(labels(3, 6), ["1", "2", "3", "4", "5", "6"]);
+	assert_eq!(labels(6, 10), ["1", "…", "4", "5", "6", "7", "8", "9", "10"]);
+	assert!(labels(1, 1).is_empty());
+	let links = super::search_page_links(&SearchQuery { page: 6, ..search_query("") }, 20);
+	assert_eq!(links.iter().filter(|link| link.is_current).count(), 1);
+	assert!(
+		links
+			.iter()
+			.any(|link| link.is_current && link.url.as_deref().unwrap().contains("page=6"))
+	);
+	assert!(links.iter().any(|link| link.url.is_none()));
+}
+
+#[tokio::test]
+async fn search_page_renders_page_shortcuts_and_a_go_to_input() {
+	let database = fixture((0..68).map(|index| provider((&format!("tool-{index:03}"), "tool", "debian", "toolbox"))));
+	let html = response_text(search_page(&database, SearchQuery { page: 2, ..search_query("tool") })).await;
+	assert!(html.contains("aria-label='Result pages'"));
+	let pagination = html
+		.split_once("aria-label='Result pages'")
+		.unwrap()
+		.1
+		.split_once("</nav>")
+		.unwrap()
+		.0;
+	assert!(pagination.contains("class='page-list'"));
+	assert_eq!(pagination.matches("aria-current='page'").count(), 1);
+	assert!(pagination.contains("class='page-jump'"));
+	assert!(pagination.contains("name='page' type='number' min='1' max='3'"));
+	assert!(pagination.contains("value='2'"));
+	assert!(pagination.contains("rel='prev'"));
+	assert!(pagination.contains("rel='next'"));
 }
 
 #[tokio::test]

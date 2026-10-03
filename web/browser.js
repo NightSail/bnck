@@ -75,7 +75,7 @@ export function mountSearch(window, document, loadDataset) {
 function bindNavigation(window, document, navigate, showLocation) {
 	document.addEventListener('submit', (event) => {
 		const form = event.target;
-		if (event.defaultPrevented || !form.matches('form.search-form')) return;
+		if (event.defaultPrevented || !form.matches('form.search-form, form.page-jump')) return;
 		event.preventDefault();
 		const url = new URL('/', window.location.href);
 		url.search = new URLSearchParams(new FormData(form)).toString();

@@ -28,6 +28,7 @@ use crate::model::CHANNELS;
 use crate::release::SQLITE_SCHEMA_VERSION;
 
 const SEARCH_PAGE_SIZE: u64 = 30;
+const SEARCH_PAGE_SIBLINGS: u32 = 2;
 const SEARCH_RELATED_NAME_LIMIT: u64 = 3;
 const SEARCH_INITIALS: &str = "#ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const MAX_QUERY_CHARACTERS: usize = 100;
@@ -182,12 +183,16 @@ impl Database {
 			.map(|name| read_search_result(&connection, name?, search))
 			.collect::<Result<Vec<_>>>()?;
 		let end = offset + rows.len() as u64;
+		let pages = total.div_ceil(SEARCH_PAGE_SIZE).max(1) as u32;
 		let initial_links = search.initial_links(read_search_initials(&connection, search)?);
 		Ok(SearchResults {
 			initial_links,
 			start: if rows.is_empty() { 0 } else { offset + 1 },
 			end,
 			total,
+			page: search.page,
+			pages,
+			page_links: search_page_links(search, pages),
 			previous: (search.page > 1).then(|| search.page_url(search.page - 1)),
 			next: (end < total).then(|| search.page_url(search.page + 1)),
 			rows,
@@ -341,8 +346,52 @@ struct SearchResults {
 	total: u64,
 	start: u64,
 	end: u64,
+	page: u32,
+	pages: u32,
+	page_links: Vec<SearchPageLink>,
 	previous: Option<String>,
 	next: Option<String>,
+}
+
+#[derive(Serialize)]
+struct SearchPageLink {
+	label: String,
+	/* Absent on an elided range, which renders as an ellipsis. */
+	url: Option<String>,
+	is_current: bool,
+}
+
+/* First, last, and a window around the current page, eliding longer gaps. */
+fn search_page_links(search: &SearchQuery, pages: u32) -> Vec<SearchPageLink> {
+	if pages < 2 {
+		return Vec::new();
+	}
+	let start = search.page.saturating_sub(SEARCH_PAGE_SIBLINGS).max(1);
+	let end = search.page.saturating_add(SEARCH_PAGE_SIBLINGS).min(pages);
+	let mut numbers = vec![1, pages];
+	numbers.extend(start..=end);
+	numbers.sort_unstable();
+	numbers.dedup();
+	let page_link = |number: u32| SearchPageLink {
+		label: number.to_string(),
+		url: Some(search.page_url(number)),
+		is_current: number == search.page,
+	};
+	let mut links = Vec::with_capacity(numbers.len() + 2);
+	let mut previous = 0;
+	for number in numbers {
+		if previous != 0 && number - previous > 1 {
+			/* A single missing page is cheaper to show than to elide. */
+			if number - previous == 2 {
+				links.push(page_link(previous + 1));
+			} else {
+				links.push(SearchPageLink { label: "…".to_owned(), url: None, is_current: false });
+			}
+		}
+		links.push(page_link(number));
+		previous = number;
+	}
+	links
 }
 
 #[derive(Serialize)]
