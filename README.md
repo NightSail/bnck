@@ -4,24 +4,23 @@ bnck builds an executable-name database from distribution-channel metadata and c
 
 ## MVP
 
-The MVP imports all initial channels:
+Imported channels:
 
 - Debian from `Packages`, `Sources`, and `Contents` indexes
 - Fedora from DNF primary and filelists metadata
 - Arch Linux from repository file databases
 - Homebrew from formula and cask API metadata
 - crates.io from the database dump
-- npm from the `latest` release manifests of explicitly curated packages
-- PyPI from Simple API metadata and statically inspected wheels for explicitly curated packages
-- TOML curation resolution into canonical provider JSON Lines
+- npm from the `latest` release manifests of curated packages
+- PyPI from Simple API metadata and statically inspected wheels of curated packages
 
-It does not install, build, import, or execute packages.
+TOML curations resolve these acquisitions into canonical provider JSON Lines. bnck does not install, build, import, or execute packages.
 
 ## SQLite artifact
 
-`bnck.sqlite.zst` is the compressed SQLite consumer artifact. It includes provider relations, curated project links, and release metadata.
+`bnck.sqlite.zst` is the compressed SQLite consumer artifact: provider relations, curated project links, and release metadata.
 
-The artifact supports the queries documented in [`docs/release-format.md`](docs/release-format.md). Decompress it before opening it with SQLite:
+It supports the queries in [`docs/release-format.md`](docs/release-format.md). Decompress before opening it with SQLite:
 
 ```sh
 zstd -d var/bnck.sqlite.zst -o var/bnck.sqlite
@@ -31,10 +30,8 @@ sqlite3 var/bnck.sqlite \
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs, curation workflows, release generation and signing, website development and deployment, and implementation responsibilities.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs, curation workflows, release generation and signing, and website deployment.
 
 ## Acknowledgements
 
-Project names for the initial seed curations were sourced from [Terminal Trove](https://terminaltrove.com/) and [tldr pages](https://tldr.sh/) as discovery hints. Projects were added after cross-checking multiple attributes and confirming that at least one distribution channel provides a package.
-
-We thank both projects and their contributors for their prior work cataloguing and documenting terminal tools.
+Initial seed curations used [Terminal Trove](https://terminaltrove.com/) and [tldr pages](https://tldr.sh/) as discovery hints. Each project was added after cross-checking multiple attributes and confirming that at least one channel packages it.

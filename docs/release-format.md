@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This document defines the artifacts, schemas, versioning, provenance, integrity, and compatibility rules for bnck dataset releases. A release contains the canonical provider relations described in [design.md](design.md), plus enough provenance to trace them to the channel snapshots described in [channels.md](channels.md).
+This document defines the artifacts, schemas, versioning, provenance, integrity, and compatibility rules for bnck dataset releases. A release contains the canonical provider relations from [design.md](design.md) plus enough provenance to trace them to the channel snapshots described in [channels.md](channels.md).
 
 ## Release contents
 
-Each immutable release should contain:
+Each immutable release contains:
 
 ```text
 bnck-2026-03-24.1/
@@ -30,7 +30,7 @@ The two dataset artifacts represent the same provider relations:
 - `providers.jsonl.zst`: Canonical, portable, streamable representation
 - `bnck.sqlite.zst`: Derived representation optimized for the supported queries
 
-The JSON Lines artifact defines the logical dataset identity. SQLite is the recommended artifact for applications.
+The JSON Lines artifact defines the logical dataset identity; SQLite is the recommended artifact for applications.
 
 ## Provider record schema
 
@@ -40,51 +40,47 @@ Each provider record has exactly four fields:
 (project, executable, channel, package)
 ```
 
-Their meanings are:
-
 - `project`: Stable curation key for the canonical project
 - `executable`: Exact logical command name, including case
 - `channel`: Stable machine-readable distribution channel key
 - `package`: Exact channel-native package identity
 
-Package identities retain required channel qualification. For example, scoped npm names retain their scope and non-core Homebrew formulae retain their tap when needed to avoid ambiguity.
+Package identities retain required channel qualification: scoped npm names keep their scope, and non-core Homebrew formulae keep their tap when needed to avoid ambiguity.
 
-Observed package versions, architectures, artifact paths, and acquisition evidence do not belong in provider records. They describe how a relation was acquired, not the canonical relation itself, and remain in channel snapshot manifests.
+Observed package versions, architectures, artifact paths, and acquisition evidence describe how a relation was acquired, not the relation itself. They stay in channel snapshot manifests.
 
 ## Canonical JSON Lines
 
-`providers.jsonl.zst` is the canonical representation. Its uncompressed content uses one JSON object per line:
+`providers.jsonl.zst` is the canonical representation. Uncompressed, it holds one JSON object per line:
 
 ```json
 {"project":"helix","executable":"hx","channel":"crates.io","package":"helix-term"}
 {"project":"helix","executable":"hx","channel":"debian","package":"helix"}
 ```
 
-The encoding rules are:
+Encoding rules:
 
 - UTF-8 without a byte-order mark
-- One record per line
-- LF line endings
-- No blank lines
-- Field order of `project`, `executable`, `channel`, then `package`
+- One record per line, LF line endings, no blank lines
+- Field order `project`, `executable`, `channel`, `package`
 - Compact JSON without insignificant whitespace
 - No duplicate records
-- Bytewise record sorting by `project`, `executable`, `channel`, then `package`
+- Bytewise record sorting by `project`, `executable`, `channel`, `package`
 - A final LF after the last record
 
-Strings use JSON escaping and otherwise preserve their exact dataset value. In particular, executable names are not case-folded or Unicode-normalized during serialization.
+Strings use JSON escaping and otherwise preserve their exact dataset value; executable names are not case-folded or Unicode-normalized during serialization.
 
-The SHA-256 digest of the uncompressed canonical JSON Lines content is the logical dataset identity. Hashing the uncompressed representation makes this identity independent of the Zstandard implementation and compression level.
+The SHA-256 digest of the uncompressed canonical JSON Lines is the logical dataset identity, independent of the Zstandard implementation and compression level.
 
-JSON Lines is preferred over a single JSON array because it supports streaming, bounded-memory processing, incremental validation, and straightforward conversion to other formats.
+JSON Lines supports streaming, bounded-memory processing, incremental validation, and straightforward conversion to other formats.
 
 ## SQLite
 
-`bnck.sqlite.zst` is the primary consumer artifact. It should use only broadly supported SQLite features and should not require extensions.
+`bnck.sqlite.zst` is the primary consumer artifact. It uses only broadly supported SQLite features without extensions.
 
 ### Schema
 
-SQLite schema version 2 represents the canonical relation, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
+Schema version 2 represents the canonical relation, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
 
 ```sql
 CREATE TABLE metadata (
@@ -124,11 +120,11 @@ CREATE TABLE project_links (
 ) WITHOUT ROWID;
 ```
 
-The primary key supports project lookup and prevents duplicate provider records. The covering secondary index supports executable lookup without another table access.
+The primary key supports project lookup and prevents duplicate provider records; the covering secondary index supports executable lookup without another table access.
 
-The `project_links` table contains only curator-supplied HTTP or HTTPS URLs. Its primary key supports project lookup; no additional index is required.
+`project_links` contains only curator-supplied HTTP or HTTPS URLs. Its primary key supports project lookup; no further index is required.
 
-No package index is required initially because package lookup is not one of the supported core queries. It can be added in a later schema version if a supported query requires it.
+No package index exists initially because package lookup is not a supported core query. A later schema version can add one if a supported query requires it.
 
 ### Query by executable
 
@@ -170,15 +166,13 @@ The `metadata` table contains:
 - `generator_version`
 - `generator_revision`
 
-`PRAGMA user_version` should contain the same numeric SQLite schema version as `metadata.schema_version`.
+`PRAGMA user_version` contains the same numeric SQLite schema version as `metadata.schema_version`.
 
-The SQLite artifact is derived from the canonical JSON Lines artifact. Consumers must not treat SQLite page layout, row order without `ORDER BY`, or internal row identifiers as part of the release contract.
+SQLite is derived from the canonical JSON Lines. Consumers must not treat page layout, row order without `ORDER BY`, or internal row identifiers as part of the release contract.
 
 ## Release manifest
 
-`manifest.json` describes the release and its provenance. It does not repeat provider records.
-
-A representative manifest is:
+`manifest.json` describes the release and its provenance; it does not repeat provider records.
 
 ```json
 {
@@ -230,22 +224,22 @@ A representative manifest is:
 }
 ```
 
-### Required top-level fields
+Required top-level fields:
 
 - `format`: Constant identifying a bnck dataset release manifest
 - `format_version`: Integer version of the manifest format
-- `release`: Human-facing immutable dataset release identifier
+- `release`: Immutable dataset release identifier
 - `generated_at`: UTC release-generation timestamp in RFC 3339 form
 - `dataset`: Logical schema version, content digest, and record count
 - `generator`: Generator version and source revision
 - `artifacts`: Released artifact identities, formats, sizes, and digests
-- `channels`: Scope, provenance, counts, and acquisition status for each channel snapshot; a channel may appear more than once when independently acquired scopes are combined
+- `channels`: Scope, provenance, counts, and acquisition status per channel snapshot; a channel may appear more than once when independently acquired scopes are combined
 
-Manifest consumers should ignore unknown fields under a known `format_version`. Removing a required field or changing the meaning or type of an existing field requires a new format version.
+Consumers ignore unknown fields under a known `format_version`. Removing a required field or changing the meaning or type of an existing field requires a new format version.
 
 ## Channel snapshot manifests
 
-Each channel entry references a content-addressed channel snapshot manifest defined in [acquisition-format.md](acquisition-format.md). That manifest records:
+Each channel entry references a content-addressed snapshot manifest defined in [acquisition-format.md](acquisition-format.md), which records:
 
 - Channel and acquisition scope
 - Channel-native snapshot boundary
@@ -257,9 +251,9 @@ Each channel entry references a content-addressed channel snapshot manifest defi
 - Importer source revision and configuration
 - Failed, missing, unsupported, or deliberately excluded inputs
 
-Channel manifests provide acquisition provenance without adding package versions or evidence fields to every canonical provider record.
+Channel manifests provide acquisition provenance without adding package versions or evidence fields to canonical provider records.
 
-A channel with incomplete acquisition should have a non-`complete` status in the release manifest. A failed package must not be indistinguishable from a successfully observed package with no executables.
+A channel with incomplete acquisition has a non-`complete` status. A failed package must not be indistinguishable from a successfully observed package with no executables.
 
 ## Versioning
 
@@ -267,7 +261,7 @@ Dataset content and format contracts use separate versions.
 
 ### Dataset release
 
-Use calendar versioning with a same-day sequence:
+Calendar versioning with a same-day sequence:
 
 ```text
 2026-03-24.1
@@ -275,9 +269,7 @@ Use calendar versioning with a same-day sequence:
 2026-04-02.1
 ```
 
-Adding or removing provider records is a data update, not a semantic API change. Semantic versioning therefore does not describe dataset releases well.
-
-A published release is immutable. Corrections produce a new release even when they occur on the same day. A mutable `latest` pointer may identify the recommended release but is not itself a version.
+Adding or removing provider records is a data update, not a semantic API change, so semantic versioning does not fit. A published release is immutable; corrections produce a new release even on the same day. A mutable `latest` pointer may identify the recommended release but is not itself a version.
 
 ### Manifest format
 
@@ -289,21 +281,19 @@ A published release is immutable. Corrections produce a new release even when th
 
 ### SQLite schema
 
-The SQLite schema has its own integer version. Increment it whenever consumers must account for changed tables, columns, constraints, or query behavior.
+The SQLite schema has its own integer version, incremented whenever consumers must account for changed tables, columns, constraints, or query behavior.
 
 ### Dataset identity
-
-The exact dataset identity is:
 
 ```text
 sha256:<digest of uncompressed providers.jsonl>
 ```
 
-The CalVer release is a human-facing identifier. The digest is the content identity.
+The CalVer release is a human-facing identifier; the digest is the content identity.
 
 ## Integrity and signing
 
-`SHA256SUMS` should cover:
+`SHA256SUMS` covers:
 
 - `manifest.json`
 - `providers.jsonl.zst`
@@ -311,9 +301,9 @@ The CalVer release is a human-facing identifier. The digest is the content ident
 - Every included channel snapshot manifest
 - Any notices or additional release artifacts
 
-`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. The corresponding public key must be distributed independently of the release location. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
+`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. Distribute the public key independently of the release location. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
 
-The release manifest also records artifact digests so clients can validate an artifact after trusting the manifest. The logical dataset digest provides a second check after decompressing `providers.jsonl.zst`.
+The release manifest also records artifact digests for validation after trusting the manifest, and the logical dataset digest provides a second check after decompressing `providers.jsonl.zst`.
 
 A transparency-log or Sigstore attestation can be added later without changing the provider schema.
 
@@ -321,9 +311,9 @@ A transparency-log or Sigstore attestation can be added later without changing t
 
 ### Project keys
 
-A project key is a stable curation identifier, not a display name or a repository URL derived at release time. Project keys should not change merely because a project moves repositories or changes branding.
+A project key is a stable curation identifier, not a display name or a repository URL derived at release time. It does not change because a project moves repositories or changes branding.
 
-If project-key aliases or replacements become necessary, they should be modeled explicitly in a future schema rather than silently changing identity.
+Aliases or replacements, if needed, are modeled explicitly in a future schema rather than silently changing identity.
 
 ### Executable names
 
@@ -331,7 +321,7 @@ Executable names preserve exact spelling and case. The dataset does not add plat
 
 ### Channel keys
 
-Channel keys are stable machine identifiers. Initial values are:
+Channel keys are stable machine identifiers:
 
 ```text
 debian
@@ -343,15 +333,15 @@ npm
 pypi
 ```
 
-Changing a display label does not change the channel key.
+Changing a display label does not change the key.
 
 ### Package names
 
-Package names preserve channel-native identity and case rules. Consumers must interpret a package name together with its channel.
+Package names preserve channel-native identity and case rules. Interpret a package name together with its channel.
 
 ## Excluded data
 
-The canonical provider artifacts do not include:
+The canonical provider artifacts exclude:
 
 - Historical observations
 - Package release history
@@ -362,37 +352,15 @@ The canonical provider artifacts do not include:
 - Failed acquisition details
 - Channel-native aliases
 
-These belong in channel manifests, curation sources, or future optional artifacts. Keeping them out of the provider relation preserves the small query-oriented data model.
+These belong in channel manifests, curation sources, or future optional artifacts.
 
-The derived SQLite artifact includes curated project homepages, repositories, documentation, issue trackers, and additional links. These links support consumer interfaces but are not provider records and do not affect the canonical provider dataset identity.
+The derived SQLite artifact includes curated project homepages, repositories, documentation, issue trackers, and additional links. They support consumer interfaces but are not provider records and do not affect the canonical dataset identity.
 
 ## Additional formats
 
-Additional derived artifacts may be introduced without changing the canonical provider schema.
-
-### Parquet
-
-Parquet may be useful for bulk analytics, but it is not required for the two supported lookup directions and is less widely embedded than SQLite.
-
-### CSV or TSV
-
-Delimited text is compact but introduces escaping and parser-compatibility concerns. JSON Lines is a safer canonical interchange format.
-
-### Single JSON document
-
-One large JSON array requires whole-document parsing and is less suitable for streaming.
-
-### Custom binary format
-
-A custom format may be smaller, but it would add implementation and compatibility costs before there is evidence that SQLite is insufficient.
-
-### Delta releases
-
-Additions and removals between adjacent releases could later be published as separate JSON Lines artifacts. Initial releases should remain complete snapshots until update size demonstrates that deltas are necessary.
+Derived artifacts may be introduced without changing the canonical provider schema. Candidate options include Parquet for bulk analytics, delimited text, a single JSON document, a custom binary format, and delta releases between adjacent versions. None is required today: the two supported lookup directions need no more than SQLite, and complete JSON Lines snapshots suffice while update size is small. Any canonical-format change must preserve streaming and exact content identity.
 
 ## Assembly
-
-Run the implemented release assembler with:
 
 ```sh
 just release 2026-04-16.1
@@ -401,17 +369,3 @@ just release 2026-04-16.1
 The command validates canonical providers and all acquisition manifests, verifies that every provider channel has acquisition provenance, writes both compressed artifacts, copies content-identified channel manifests, writes `manifest.json`, and calculates `SHA256SUMS`. It refuses to overwrite an existing release directory.
 
 The release is publishable only after `SHA256SUMS.minisig` has been produced with the separately managed signing key.
-
-## Initial contract
-
-The initial release contract is:
-
-- Canonical content: `providers.jsonl.zst`
-- Consumer artifact: `bnck.sqlite.zst`
-- Release metadata: `manifest.json`
-- Provenance: Content-addressed channel snapshot manifests
-- Human version: CalVer with a same-day sequence
-- Content identity: SHA-256 of uncompressed canonical JSON Lines
-- Integrity: Signed SHA-256 checksum list
-
-This format keeps the public dataset small and query-oriented while preserving exact content identity and channel-level provenance.

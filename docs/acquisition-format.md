@@ -2,13 +2,13 @@
 
 ## Purpose
 
-Each importer writes two files: canonical candidate JSON Lines and an adjacent snapshot manifest named `<candidates>.manifest.json`. The candidate file contains executable observations. The manifest identifies the acquisition scope, inputs, package releases, completeness, and candidate artifact.
+Each importer writes candidate JSON Lines and an adjacent snapshot manifest named `<candidates>.manifest.json`. Candidates hold executable observations; the manifest identifies the acquisition scope, inputs, package releases, completeness, and candidate artifact.
 
-Keeping package observations separate from executable candidates allows bnck to distinguish a package that was observed with no executable candidates from a package that was absent or failed.
+Separate package observations let bnck distinguish a package observed with no executable candidates from one that was absent or failed.
 
 ## Candidate records
 
-A candidate record has these required fields:
+Required fields:
 
 - `channel`: Stable channel key
 - `package`: Exact channel-native package identity
@@ -16,13 +16,11 @@ A candidate record has these required fields:
 - `executable`: Exact logical command name
 - `evidence`: One of `declared-entry-point`, `repository-file-listing`, `static-recipe-action`, or `artifact-metadata`
 
-It may contain a `variant` map, `artifact_sha256`, and the project hints `source_package`, `homepage`, `repository`, and `description`. The release identity fields on a candidate match one observed package release in the adjacent manifest. Unknown fields are rejected.
+Optional fields: `variant` map, `artifact_sha256`, and the project hints `source_package`, `homepage`, `repository`, and `description`. The release identity fields must match one observed package release in the adjacent manifest. Unknown fields are rejected.
 
-Candidates are sorted and deduplicated as complete records. Observations from separate snapshot files are not collapsed. Dataset generation unions their executable names only after validating every snapshot.
+Candidates are sorted and deduplicated as complete records. Observations from separate snapshots are not collapsed; dataset generation unions their executable names only after validating every snapshot.
 
 ## Snapshot manifest
-
-A snapshot manifest has this shape:
 
 ```json
 {
@@ -65,16 +63,18 @@ A snapshot manifest has this shape:
 }
 ```
 
-The snapshot identity covers the channel, status, scope, input identities, candidate artifact, package observations, and importer identity. Manifest loading recomputes that identity and verifies local input and candidate sizes and SHA-256 digests.
+The snapshot identity covers the channel, status, scope, input identities, candidate artifact, package observations, and importer identity. Manifest loading recomputes it and verifies local input and candidate sizes and digests.
 
-`status` is one of `complete`, `partial`, or `failed`. Package status is one of `observed`, `failed`, or `removed`. An observed package requires a version; failed and removed package records may omit it. Distro and bulk crates.io importers emit complete snapshots when import succeeds. Planned npm/PyPI acquisitions become partial when selected metadata is unavailable or executable extraction is unsupported, with failed package observations and a `reason` in the variant map. Planned npm/PyPI imports use `package-selection=curated-packages`. Focused PyPI directory imports are partial with `package-selection=explicit-packages`, because they do not cover all curated packages. Malformed inputs, missing planned files, and digest mismatches fail import. See [language registry acquisition](language-registries.md) for selection and failure semantics.
+`status` is `complete`, `partial`, or `failed`. Package status is `observed`, `failed`, or `removed`. An observed package requires a version; failed and removed packages may omit it.
 
-`scope` is supplied through repeated `--scope key=value` arguments. Import commands reject an empty scope.
+Distro and bulk crates.io importers emit complete snapshots on success. Planned npm/PyPI acquisitions become partial with failed package observations and a `reason` in the variant map when selected metadata is unavailable or executable extraction is unsupported, and use `package-selection=curated-packages`. Focused PyPI directory imports are partial with `package-selection=explicit-packages`, because they do not cover all curated packages. Malformed inputs, missing planned files, and digest mismatches fail import. See [language registry acquisition](language-registries.md) for selection and failure semantics.
 
-Input `uri` values are supported by the schema but current local import commands do not populate them. Retrieval timestamps, upstream signature results, and incremental tombstone production remain collector responsibilities and are not yet emitted by the just-based fetch layer.
+`scope` comes from repeated `--scope key=value` arguments; import commands reject an empty scope.
+
+The schema supports input `uri` values, but current local import commands do not populate them. Retrieval timestamps, upstream signature results, and incremental tombstones remain collector responsibilities and are not emitted by the just-based fetch layer.
 
 ## Generation rules
 
-Dataset generation requires snapshot manifests. It validates every manifest before resolving curations.
+Dataset generation requires snapshot manifests and validates every one before resolving curations.
 
-For complete channel snapshots, a curated package absent from every observed package list is an error. For a partial channel acquisition, absence does not make curation stale and the package is skipped. An observed package with no candidate records is valid and resolves to no providers unless curation adds an executable explicitly.
+For complete channel snapshots, a curated package absent from every observed package list is an error. For a partial acquisition, absence does not make curation stale and the package is skipped. An observed package with no candidates is valid and yields no providers unless curation adds an executable.

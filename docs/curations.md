@@ -2,9 +2,7 @@
 
 ## Purpose
 
-Curations connect acquired channel packages and executable names to canonical projects. They are the human-maintained source of truth for decisions that channel metadata cannot establish safely.
-
-Curations define:
+Curations connect acquired channel packages and executable names to canonical projects. They are the human-maintained source of truth for decisions that channel metadata cannot establish safely:
 
 - Canonical project identities
 - Channel packages belonging to each project
@@ -13,13 +11,11 @@ Curations define:
 - Replacements for incorrectly reported executable names
 - Additions that static acquisition cannot observe
 
-Acquired package metadata and executable lists remain outside curation files. Dataset generation combines immutable acquisition snapshots with a specific curation revision to produce provider records.
+Acquired package metadata and executable lists stay out of curation files. Dataset generation combines immutable acquisition snapshots with a specific curation revision to produce provider records.
 
 ## Format
 
-Curations use TOML because it is human-readable, comment-friendly, strictly parseable, and non-executable. Ordinary package attribution is project-centric so that one project and all its channel packages can be maintained in one file.
-
-The directory layout is:
+Curations are TOML: human-readable, comment-friendly, strictly parseable, and non-executable. Package attribution is project-centric, so one project and all its packages live in one file.
 
 ```text
 curations/
@@ -34,23 +30,23 @@ curations/
         └── example.toml
 ```
 
-Files under `projects/` define projects and ordinary package ownership. Files under `packages/<channel>/` are needed only for exceptional package-level executable rules. The package directory must agree with the exception file's `channel` field.
+Files under `projects/` define projects and ordinary package ownership. Files under `packages/<channel>/` hold only exceptional package-level executable rules; the directory must agree with the exception file's `channel` field.
 
-Base filenames are organizational and do not establish identity. Exact project and package identities come from fields inside each file. This avoids filename encoding rules for scoped npm packages, Homebrew taps, and other package names containing `/`.
+Base filenames are organizational and do not establish identity. Exact project and package identities come from fields inside each file, which avoids filename encoding rules for scoped npm packages, Homebrew taps, and names containing `/`.
 
 ## Schema version
 
-`curations/manifest.toml` declares the curation schema version:
+`curations/manifest.toml` declares the schema version:
 
 ```toml
 schema = 0
 ```
 
-The curation schema version is independent of the provider and release manifest schema versions. An incompatible curation format change increments this value and migrates affected files atomically.
+This version is independent of the provider and release manifest schema versions. An incompatible change increments it and migrates affected files atomically.
 
 ## Project definitions
 
-Each canonical project has one file under `curations/projects/`. The file contains project metadata and every ordinary channel package attributed to it.
+Each canonical project has one file under `curations/projects/`, containing project metadata and every ordinary channel package attributed to it.
 
 `curations/projects/ripgrep.toml`:
 
@@ -82,22 +78,14 @@ channel = 'homebrew'
 name = 'homebrew/core/ripgrep'
 ```
 
-Required project fields are:
+Required fields:
 
 - `id`: Stable machine-readable curation identity
 - `name`: Human-readable project name
 
-Optional project hints include:
+Optional project hints: `homepage`, `repository`, `documentation`, `issue_tracker`, and `links`.
 
-- `homepage`
-- `repository`
-- `documentation`
-- `issue_tracker`
-- `links`: Additional URLs that identify the project
-
-`homepage`, `repository`, `documentation`, and `issue_tracker` describe the project's primary URLs. `links` records additional official or ecosystem URLs under which package metadata may refer to the same project. This includes registry pages, former official locations, and additional project or documentation pages that do not fit one of the primary fields.
-
-For example, hledger packages may refer to either of two distinct Hackage pages in addition to the project homepage and source repository:
+The first four describe the project's primary URLs. `links` records additional official or ecosystem URLs that package metadata may use for the same project: registry pages, former locations, and further project or documentation pages. For example, hledger packages may refer to either of two Hackage pages:
 
 ```toml
 links = [
@@ -106,32 +94,28 @@ links = [
 ]
 ```
 
-Links are matching evidence only. They do not establish package ownership automatically. Distribution packaging repositories, forks, and mirrors must not be added merely because a package record mentions them; a curator must verify that each link identifies the canonical upstream project.
+Links are matching evidence only; they never establish ownership. Do not add distribution packaging repositories, forks, or mirrors merely because a package record mentions them.
 
 Each `package` entry requires:
 
 - `channel`: Stable channel key
 - `name`: Exact channel-native package identity
 
-Project IDs must be stable, human-readable, and independent of repository location. They use lowercase ASCII letters, digits, hyphens, periods, and underscores. Repository moves and branding changes do not normally change the project ID.
+Project IDs use lowercase ASCII letters, digits, hyphens, periods, and underscores. They must be stable and independent of repository location or branding.
 
-Project metadata helps curators assess package relationships. It does not establish a relationship automatically and does not need to be included in the canonical provider release.
+Project metadata aids curator review but establishes no relationship and need not appear in the canonical provider release.
 
 ## Package ownership
 
-A package identity is the tuple `(channel, name)`. A package listed by one project gives that project default ownership of every acquired executable from the package, subject to an exceptional package curation.
+A package identity is the tuple `(channel, name)`. Listing it in a project file gives that project default ownership of every acquired executable from the package, subject to an exceptional package curation.
 
-A package may be listed by at most one project. Multiple project files claiming the same package are a validation error.
+A package may be listed by at most one project; multiple claims are a validation error.
 
-Packages containing executables from multiple projects are not listed as ordinary packages in any project file. Their attribution is defined entirely by an exceptional package curation.
-
-Packages without ordinary ownership or exceptional mixed-package attribution do not produce provider records.
+Packages containing executables from multiple projects are not listed as ordinary packages. Their attribution comes entirely from an exceptional package curation. Packages with neither ordinary ownership nor mixed-package attribution produce no provider records.
 
 ## Exceptional package curations
 
-Files under `curations/packages/<channel>/` contain only package-level exceptions. Most packages do not need one.
-
-An exception file identifies the package but does not repeat its default project:
+Files under `curations/packages/<channel>/` contain only package-level exceptions. Most packages need none. An exception file identifies the package without repeating its default project:
 
 ```toml
 channel = 'fedora'
@@ -145,7 +129,7 @@ references = [
 ]
 ```
 
-The default project comes from the project file that claims `(fedora, example)`.
+The default project is the one claiming `(fedora, example)`.
 
 ### Mixed packages
 
@@ -166,11 +150,11 @@ project = 'bar'
 reason = 'Built from the bundled Bar project'
 ```
 
-Without ordinary project ownership, every acquired executable must be handled by an `attribute`, `replace`, or `exclude` rule. An unhandled executable is a validation error.
+Every acquired executable must be handled by an `attribute`, `replace`, or `exclude` rule; an unhandled one is a validation error.
 
 ## Executable rules
 
-Rules match exact executable names. They do not use patterns, inferred aliases, or normalized names.
+Rules match exact executable names: no patterns, inferred aliases, or name normalization.
 
 ### Attribute
 
@@ -186,22 +170,11 @@ references = [
 ]
 ```
 
-The executable must be present in acquisition data for the selected package.
+The executable must exist in acquisition data for the selected package.
 
 ### Exclude
 
-An `exclude` rule suppresses a false or unsuitable acquired candidate:
-
-```toml
-[[exclude]]
-executable = 'example-data'
-reason = 'The path is non-executable despite being installed under /usr/bin'
-references = [
-	'https://src.fedoraproject.org/rpms/example',
-]
-```
-
-Exclusions require a reason because they override acquired channel data.
+An `exclude` rule suppresses a false or unsuitable acquired candidate, as in the exception-file example above. A reason is required because the rule overrides acquired channel data.
 
 ### Replace
 
@@ -218,13 +191,7 @@ references = [
 ]
 ```
 
-Replacement has exact semantics:
-
-1. Suppress the executable named by `acquired`
-2. Add the executable named by `executable`
-3. Attribute the replacement to `project`
-
-The acquired name must exist. Replacement does not perform fuzzy matching or general name normalization.
+Replacement suppresses `acquired`, adds `executable`, and attributes it to `project`. The acquired name must exist. No fuzzy matching or general name normalization is performed.
 
 ### Add
 
@@ -240,7 +207,7 @@ references = [
 ]
 ```
 
-Additions require a reason and at least one durable reference. They do not claim that the executable was observed by the importer.
+Additions require a reason and at least one durable reference, and do not claim the executable was observed by the importer.
 
 ## Resolution
 
@@ -249,35 +216,25 @@ Dataset generation resolves each curated package in this order:
 1. Find ordinary ownership from project package declarations
 2. Find the optional exceptional package curation
 3. Load the acquired executable set
-4. Validate all exceptional rules against the unmodified acquired set
-5. Apply exact exclusions
-6. Apply exact replacements
-7. Apply explicit per-executable attributions
+4. Validate exceptional rules against the unmodified acquired set
+5. Apply exclusions
+6. Apply replacements
+7. Apply per-executable attributions
 8. Attribute remaining executables to the ordinary owner
-9. Apply explicit additions
+9. Apply additions
 10. Validate that each resulting executable has exactly one project attribution
 
-Rule ordering inside a TOML file does not change these semantics.
+Rule order inside a TOML file does not change these semantics.
 
-Package curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a selected channel remains an error.
+Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a selected channel is an error.
 
-Dataset generation resolves curations against pinned acquisition snapshots. Release provenance identifies those snapshots, the source revision containing the curations and generator, and the applicable schema versions.
+Release provenance identifies the pinned acquisition snapshots, the source revision containing the curations and generator, and the applicable schema versions.
 
 ## Scale
 
-Let:
-
-- `P` be the number of curated projects
-- `M` be the number of ordinary project-to-package relationships
-- `E` be the number of exceptional packages
-
-The format stores `O(P + M)` facts because every package relationship must be represented, but it uses only `O(P + E)` files. Ordinary projects use one file regardless of how many channels distribute them.
-
-If exceptional package files become numerous enough to create filesystem problems, their directory layout can be sharded without changing package identity.
+The format stores `O(P + M)` facts for `P` projects and `M` ordinary project-to-package relationships, but uses `O(P + E)` files for `E` exceptional packages. Ordinary projects need one file regardless of channel count. Exceptional package files can be sharded by directory without changing package identity.
 
 ## Deliberately unsupported rules
-
-The initial schema does not support:
 
 - Regular expressions
 - Globs
@@ -288,13 +245,13 @@ The initial schema does not support:
 - Architecture-dependent conditions
 - Channel-specific embedded rule languages
 
-Pattern rules could silently match new upstream data that no curator reviewed. Version ranges would also move the curation model toward historical observations, which the dataset does not provide.
+Pattern rules could silently match upstream data no curator reviewed. Version ranges would move curation toward historical observations, which the dataset does not provide.
 
-Architecture- or release-specific rules should be added only after concrete cases demonstrate that the current channel-level model cannot represent necessary attribution.
+Add architecture- or release-specific rules only after concrete cases show the channel-level model cannot represent necessary attribution.
 
 ## Validation
 
-Curation validation fails on:
+Validation fails on:
 
 - Unknown project IDs
 - Unknown channel keys
@@ -306,18 +263,18 @@ Curation validation fails on:
 - Unsafe executable names containing `/` or NUL
 - An executable that is both excluded and attributed
 - A replacement whose acquired name is independently excluded or attributed
-- An addition that duplicates an acquired or replaced executable
+- An addition duplicating an acquired or replaced executable
 - A mixed package with unhandled acquired executables
 - A rule referring to an acquired executable that no longer exists
 - A curated package absent from the selected complete channel snapshot
 
-Validation must distinguish stale curation from incomplete acquisition. A failed or partial importer run must not make valid curation appear stale.
+Validation must distinguish stale curation from incomplete acquisition: a failed or partial importer run must not make valid curation appear stale.
 
-Curation validation reports warnings for:
+Validation warns on:
 
 - Project metadata disagreeing with current channel hints
 - Repository URLs that redirect
-- New executables appearing under an ordinarily owned package
+- New executables under an ordinarily owned package
 - Acquired executable sets changing between snapshots
 - Projects with no currently observed packages
 

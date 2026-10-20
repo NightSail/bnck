@@ -1,10 +1,10 @@
 # Contributing
 
-This guide covers development, acquisition jobs, curations, release publication, and website maintenance. See [README.md](README.md) for the project overview and artifact usage.
+Covers development, acquisition jobs, curations, release publication, and the website. See [README.md](README.md) for the project overview and artifact usage.
 
 ## Development checks
 
-Run `just check` with Rust, just, and Bun installed. It includes formatting checks, Clippy, Rust tests, browser unit tests, acquisition-job tests, and comparisons of the JavaScript search results against SQLite:
+Run `just check` with Rust, just, and Bun installed. It runs formatting checks, Clippy, Rust tests, browser unit tests, acquisition-job tests, and JavaScript/SQLite search comparisons:
 
 ```sh
 just check
@@ -12,19 +12,17 @@ just check
 
 ## Demo
 
-Run a small live acquisition for all curated npm packages and Black:
-
 ```sh
 just demo
 ```
 
-Each demo creates a fresh directory under `var/demo/` and prints its path. It contains `acquired/npm.jsonl`, `acquired/pypi.jsonl`, their adjacent manifests, and `providers.jsonl`. Demo jobs do not change production acquisitions, provider output, or default input selections.
+Acquires curated npm packages and Black into a fresh `var/demo/` directory and prints its path. It contains `acquired/npm.jsonl`, `acquired/pypi.jsonl`, their manifests, and `providers.jsonl`. Demo jobs never change production acquisitions, provider output, or default input selections.
 
-Provider records are accepted through the checked-in curations under `curations/`. Dataset generation requires the adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
+Provider records are accepted only through the checked-in curations under `curations/`. Dataset generation requires adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
 
 ## Acquisition jobs
 
-Registry and artifact downloads are performed by command-line tools in just recipes. Rust importers only read local files and write normalized data. Each import writes candidate JSON Lines plus an adjacent, content-identified [acquisition snapshot manifest](docs/acquisition-format.md).
+Command-line tools in just recipes perform registry and artifact downloads. Rust importers only read local files and write normalized data: candidate JSON Lines plus an adjacent, content-identified [acquisition snapshot manifest](docs/acquisition-format.md).
 
 List available jobs:
 
@@ -32,7 +30,7 @@ List available jobs:
 just
 ```
 
-Fetch and import all curated npm packages, without arguments:
+Fetch and import all curated npm packages:
 
 ```sh
 just fetch-npm
@@ -40,9 +38,16 @@ just import-npm
 just generate
 ```
 
-`fetch-npm` creates a fresh planned snapshot under `var/input/npm/` and selects it only after all requests finish. `import-npm` imports that selection, not the old per-package cache. For explicit snapshots, use `just fetch-npm <snapshot>` and `just import-npm <snapshot>`. Resume interrupted downloads with `just resume-npm <snapshot>`, then import that path explicitly. An optional second argument to `import-npm` selects an output path.
+`fetch-npm` creates a fresh planned snapshot under `var/input/npm/` and selects it only after all requests finish; `import-npm` imports that selection. For explicit snapshots, pass the path to both. Resume interrupted downloads with `just resume-npm <snapshot>`, then import that path explicitly. An optional second argument to `import-npm` sets the output path.
 
-The older PyPI focused workflow remains available as `just fetch-pypi black` followed by `just import-pypi`. It produces a partial acquisition; use `just demo` to keep a focused run separate from production data.
+A focused PyPI run is also available:
+
+```sh
+just fetch-pypi black
+just import-pypi
+```
+
+It produces a partial acquisition; use `just demo` to keep a focused run separate from production data.
 
 Fetch and import distro metadata:
 
@@ -51,9 +56,9 @@ just fetch-distros
 just import-distros
 ```
 
-Each distro can also be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition includes both the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture can be changed through the environment variables defined in their justfiles.
+Each distro can be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition covers the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture are set through environment variables in their justfiles.
 
-Acquire all language channels, using the crates.io dump and explicit npm/PyPI package curations:
+Acquire all language channels:
 
 ```sh
 just fetch-languages
@@ -61,19 +66,17 @@ just import-languages
 just generate
 ```
 
-Both jobs run without arguments. Each fetch creates a fresh directory under `var/input/languages/`; imports use the most recently completed fetch. Failed refreshes leave the previous completed inputs selected, and earlier input directories are retained.
+Both jobs run without arguments; imports use the most recently completed fetch. crates.io uses its full database dump; npm and PyPI fetch metadata only for explicitly curated packages. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limits.
 
-crates.io uses its full database dump without per-package API requests; npm fetches one small `latest` release manifest per explicitly curated package, without a catalog scan, full version histories, or package archives; PyPI fetches Simple API responses only for explicitly curated packages, then downloads and statically inspects selected wheels without scanning the full project index. Only explicitly attributed packages enter the provider dataset. See [language registry acquisition](docs/language-registries.md) for individual jobs, resuming downloads, release selection, and coverage limitations.
+The crates.io dump and distro metadata sets are large. Fetch jobs retain inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output goes to `var/acquired/`.
 
-The crates.io database dump and distro metadata sets are large. Fetch jobs retain their inputs under `var/input/`, selected PyPI wheels are cached by digest under `var/cache/pypi/wheels/`, and normalized acquisition output is written under `var/acquired/`.
-
-Show acquisition and provider record counts with:
+Show acquisition and provider record counts:
 
 ```sh
 just stats
 ```
 
-Fetch jobs end with the on-disk size of the inputs they retain; import, generate, and release jobs end with the size of the artifacts they write. Each summary line names the path and its size in IEC units.
+Fetch jobs end with the on-disk size of the inputs they retain; import, generate, and release jobs end with the size of the artifacts they write. Each summary line names the path and its IEC size.
 
 ## Curations
 
@@ -96,33 +99,31 @@ Find curated or metadata-derived projects that may own a package:
 cargo run -- suggest-projects --channel debian --package ripgrep
 ```
 
-Generate a batch report of unowned language-registry packages related to existing projects:
+Report unowned language-registry packages related to existing projects:
 
 ```sh
 cargo run -- suggest-registry-packages --output var/registry-suggestions.json
 ```
 
-Review the evidence and upstream identity before adding package attributions. Name matches and copied repository URLs alone do not establish ownership.
-
-Suggestions are ranked using canonical repository and homepage URLs, package and source-package names, executable names, and existing curation ownership. Each result reports its matching evidence. The commands read only local acquisition and curation data and do not modify curations.
+Review the evidence and upstream identity before adding attributions. Name matches and copied repository URLs alone do not establish ownership. Suggestions rank results by canonical repository and homepage URLs, package and source-package names, executable names, and existing curation ownership, and report the matching evidence. The commands read only local acquisition and curation data.
 
 ## Release artifacts
 
-Generate the compressed SQLite consumer artifact from the canonical provider JSON Lines file:
+Generate the compressed SQLite consumer artifact from the canonical provider JSON Lines:
 
 ```sh
 just generate-sqlite 2026-04-16.1
 ```
 
-This writes `var/bnck.sqlite.zst`. The command validates the canonical JSON Lines encoding, ordering, and uniqueness before building the database. It records the SHA-256 of the uncompressed JSON Lines content, provider count, release identifier, generation time, generator version, and Git revision in the SQLite metadata table. It also reads project metadata from `curations/` and includes curated homepages, repositories, documentation, issue trackers, and additional links in the derived SQLite artifact.
+This writes `var/bnck.sqlite.zst` after validating the canonical JSON Lines encoding, ordering, and uniqueness. The SQLite metadata table records the SHA-256 of the uncompressed JSON Lines, provider count, release identifier, generation time, generator version, and Git revision. Curated homepages, repositories, documentation, issue trackers, and additional links are included as project metadata.
 
-Assemble the release directory, including compressed provider and SQLite artifacts, acquisition manifests, `manifest.json`, and `SHA256SUMS`:
+Assemble the release directory with compressed provider and SQLite artifacts, acquisition manifests, `manifest.json`, and `SHA256SUMS`:
 
 ```sh
 just release 2026-04-16.1
 ```
 
-Release assembly does not expose a signing key to the generator. Produce `SHA256SUMS.minisig` with the separately managed release signing key before publication:
+Assembly does not expose a signing key to the generator. Produce `SHA256SUMS.minisig` with the separately managed release signing key before publication:
 
 ```sh
 just sign-release var/releases/bnck-2026-04-16.1 /path/to/minisign.key
@@ -139,7 +140,7 @@ just generate-site
 just preview
 ```
 
-The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just preview var/site 0.0.0.0:8080`, to change it. `generate-site` clears its output directory before rebuilding, so repeated runs replace the previous site. The underlying generator still refuses an existing output directory; use a fresh output path when invoking it directly. No application server or browser database runtime is required in production:
+The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just preview var/site 0.0.0.0:8080`, to change it. `generate-site` clears its output directory before rebuilding. The generator itself refuses an existing output directory, so use a fresh path when invoking it directly:
 
 ```sh
 cargo run -- generate-site \
@@ -148,27 +149,12 @@ cargo run -- generate-site \
 bun web/preview.js var/site-next 127.0.0.1:3000
 ```
 
-Publish the output directory at the origin root on a case-sensitive static host with directory index support. Paths such as `/projects/helix` resolve to `projects/helix/index.html`; hosts may redirect to a trailing slash. Configure the generated `404.html` as the error page, not an SPA fallback. Enable HTTP Brotli or gzip compression, serve `.json` as `application/json` and `.js` as JavaScript, and apply the generated `_headers` file or equivalent host settings. HTML and exports revalidate; the content-addressed `/assets/` files cache immutably. Application assets and the dataset have independent hashes, so a dataset update does not invalidate unchanged scripts or stylesheets. Deploy pages and assets together and retain previous application directories and dataset files so already-open pages can finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
+Production needs no application server or browser database runtime. Publish the output at the origin root of a case-sensitive static host with directory index support: `/projects/helix` resolves to `projects/helix/index.html`, and hosts may redirect to a trailing slash. Configure the generated `404.html` as the error page rather than an SPA fallback, enable HTTP compression, and apply the generated `_headers` file or equivalents. Deploy pages and assets together and retain previous application directories and dataset files so open pages finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
 
-HTML templates live under `web/templates/`, and the stylesheet is `web/style.css`. Debug builds read these files and browser modules from disk during generation; release builds embed them. Rebuild the static output after edits. The existing SQLite-backed interface remains available through `just serve` for server-rendered development and query comparisons.
+HTML templates live under `web/templates/` and the stylesheet is `web/style.css`. Debug builds read templates, stylesheets, and browser modules from disk during generation; release builds embed them. Rebuild the static output after edits. `just serve` keeps the SQLite-backed server-rendered interface for development and query comparisons.
 
 ## Responsibilities
 
-Just recipes handle:
+Just recipes handle directory creation, HTTP downloads, archive extraction, job ordering, and passing local paths between steps. They parse or reshape channel data only for decompression and archive extraction.
 
-- Directory creation
-- HTTP downloads
-- Archive extraction
-- Job ordering
-- Passing local paths between steps
-
-Rust code handles:
-
-- CSV, JSON, TOML, and wheel metadata parsing
-- Acquisition snapshot manifests, package observations, and input digests
-- Release selection
-- Package and executable normalization
-- Curation validation and resolution
-- Deterministic JSON Lines generation
-
-Rust code does not shell out or perform network requests. Just recipes do not parse or reshape channel data beyond decompression and archive extraction.
+Rust code handles CSV, JSON, TOML, and wheel metadata parsing; acquisition snapshot manifests, package observations, and input digests; release selection; package and executable normalization; curation validation and resolution; and deterministic JSON Lines generation. It does not shell out or perform network requests.
