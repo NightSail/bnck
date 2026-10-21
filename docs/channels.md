@@ -36,11 +36,11 @@ The manifest records:
 
 Candidate records include the package release, executable name, evidence kind, variant, artifact digest when known, and project hints.
 
-Current manifests do not record retrieval timestamps, original URIs, media types, signature results, or a channel-native snapshot boundary. The schema has an optional `uri` field, but current import commands leave it empty.
+Current manifests do not record retrieval timestamps, original URIs, media types, signature results, or a channel-native snapshot boundary. The schema has an optional `uri` field, but current import commands leave it empty. Input paths are recorded relative to the repository root when they are under it; release assembly rejects absolute and parent-relative paths.
 
 Distro and bulk crates.io imports produce complete snapshots on success. Planned npm and PyPI imports produce complete snapshots unless a package is unavailable or unsupported, in which case the snapshot is partial and the package carries a failure reason. Focused PyPI directory imports are always partial. A hard import failure aborts without writing a failed snapshot.
 
-Retained inputs stay under `var/input/` by default; normalized candidates are written under `var/acquired/`. Dataset releases copy channel manifests but not candidate or input artifacts.
+Retained inputs stay under `var/input/` by default; normalized candidates are written under `var/acquired/`. Dataset releases copy channel manifests and candidate files, but not raw channel inputs.
 
 ### Package identity and release selection
 
@@ -162,7 +162,7 @@ The global project index is not fetched. PEP 658 metadata sidecars, source distr
 - No `removed` package observations, and hard failures do not produce a `failed` snapshot
 - No archive inspection beyond selected PyPI wheel metadata
 - No acquisition metrics
-- Release artifacts include channel manifests but not the candidate or input files they reference
+- Release artifacts include candidate files but not raw channel inputs; input identities remain in channel manifests
 
 ## Curation boundary
 

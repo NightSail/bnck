@@ -251,7 +251,7 @@ pub fn write_snapshot_manifest(
 		.iter()
 		.map(|path| {
 			let (size, sha256) = file_identity(path)?;
-			Ok(SnapshotInput { path: path.display().to_string(), size, sha256, uri: None })
+			Ok(SnapshotInput { path: recorded_input_path(path)?, size, sha256, uri: None })
 		})
 		.collect::<Result<Vec<_>>>()?;
 	let (candidate_size, candidate_sha256) = file_identity(candidate_path)?;
@@ -325,6 +325,15 @@ fn snapshot_manifest_path(candidate_path: &Path) -> Result<PathBuf> {
 	Ok(candidate_path.with_file_name(format!("{filename}.manifest.json")))
 }
 
+/* Keep published manifests independent of the producer's local filesystem. */
+fn recorded_input_path(path: &Path) -> Result<String> {
+	if path.is_relative() {
+		return Ok(path.display().to_string());
+	}
+	let current = std::env::current_dir().context("read current directory")?;
+	Ok(path.strip_prefix(&current).unwrap_or(path).display().to_string())
+}
+
 fn snapshot_identity(snapshot: &ChannelSnapshot) -> String {
 	let mut digest = Sha256::new();
 	for value in [
@@ -391,4 +400,18 @@ fn hash_reader(reader: &mut impl Read, digest: &mut Sha256) -> Result<()> {
 		digest.update(&buffer[..count]);
 	}
 	Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+	use std::path::Path;
+
+	use super::recorded_input_path;
+
+	#[test]
+	fn records_working_tree_paths_relative_to_the_repository_root() {
+		let current = std::env::current_dir().unwrap();
+		assert_eq!(recorded_input_path(&current.join("Cargo.toml")).unwrap(), "Cargo.toml");
+		assert_eq!(recorded_input_path(Path::new("var/input/Packages")).unwrap(), "var/input/Packages");
+	}
 }

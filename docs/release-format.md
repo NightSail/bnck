@@ -18,12 +18,19 @@ bnck-2026-03-24.1/
 ├── SHA256SUMS.minisig
 └── channel-manifests/
     ├── debian-<snapshot>.json
+    ├── debian.jsonl
     ├── fedora-<snapshot>.json
+    ├── fedora.jsonl
     ├── arch-<snapshot>.json
+    ├── arch.jsonl
     ├── homebrew-<snapshot>.json
+    ├── homebrew.jsonl
     ├── crates-io-<snapshot>.json
+    ├── crates-io.jsonl
     ├── npm-<snapshot>.json
-    └── pypi-<snapshot>.json
+    ├── npm.jsonl
+    ├── pypi-<snapshot>.json
+    └── pypi.jsonl
 ```
 
 The two dataset artifacts represent the same provider relations:
@@ -32,6 +39,8 @@ The two dataset artifacts represent the same provider relations:
 - `bnck.sqlite.zst`: Derived representation optimized for the supported queries
 
 The JSON Lines artifact defines the logical dataset identity; SQLite is the recommended artifact for applications.
+
+Candidate JSON Lines files sit beside their channel manifests. Raw channel inputs are not distributed; the manifests record their identities. Input paths are relative to the repository root, and assembly rejects absolute or parent-relative paths. Snapshots containing such paths must be re-imported from the repository root.
 
 ## Provider record schema
 
@@ -300,7 +309,7 @@ The CalVer release is a human-facing identifier; the digest is the content ident
 - `providers.jsonl.zst`
 - `bnck.sqlite.zst`
 - `LICENSE`
-- Every included channel snapshot manifest
+- Every included channel snapshot manifest and candidate artifact
 - Any notices or additional release artifacts
 
 `SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. Distribute the public key independently of the release location. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
@@ -368,6 +377,6 @@ Derived artifacts may be introduced without changing the canonical provider sche
 just release 2026-04-16.1
 ```
 
-The command validates canonical providers and all acquisition manifests, verifies that every provider channel has acquisition provenance, writes both compressed artifacts, copies content-identified channel manifests, writes `manifest.json`, and calculates `SHA256SUMS`. It refuses to overwrite an existing release directory.
+The command validates canonical providers and all acquisition manifests, verifies that every provider channel has acquisition provenance, writes both compressed artifacts, copies content-identified channel manifests and candidate artifacts, writes `manifest.json`, and calculates `SHA256SUMS`. It refuses to overwrite an existing release directory.
 
 The release is publishable only after `SHA256SUMS.minisig` has been produced with the separately managed signing key.

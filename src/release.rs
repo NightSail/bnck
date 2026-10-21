@@ -1,7 +1,7 @@
 use std::collections::BTreeMap;
 use std::fs::{self, File};
 use std::io::{self, Write};
-use std::path::{Path, PathBuf};
+use std::path::{Component, Path, PathBuf};
 
 use anyhow::{Context, Result, ensure};
 use rusqlite::{Connection, params};
@@ -216,6 +216,26 @@ pub fn assemble_release(
 
 	let snapshots = read_snapshot_directory(acquisitions)?;
 	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", acquisitions.display());
+	for (_, snapshot) in &snapshots {
+		for input in &snapshot.inputs {
+			let input_path = Path::new(&input.path);
+			ensure!(
+				!input_path.is_absolute(),
+				"channel snapshot {} records an absolute input path {}; record inputs under the repository root and re-import",
+				snapshot.snapshot,
+				input.path
+			);
+			ensure!(
+				!input_path.components().any(|component| matches!(
+					component,
+					Component::CurDir | Component::ParentDir | Component::RootDir | Component::Prefix(_)
+				)),
+				"channel snapshot {} records a non-relative input path {}",
+				snapshot.snapshot,
+				input.path
+			);
+		}
+	}
 	let snapshot_channels = snapshots
 		.iter()
 		.map(|(_, snapshot)| snapshot.channel.as_str())
@@ -267,6 +287,29 @@ pub fn assemble_release(
 		fs::copy(&source_path, &destination)
 			.with_context(|| format!("copy {} to {}", source_path.display(), destination.display()))?;
 		let (_, sha256) = file_identity(&destination)?;
+		let candidate_path = Path::new(&snapshot.candidates.path);
+		ensure!(
+			candidate_path.components().count() == 1 && candidate_path.file_name().is_some(),
+			"candidate artifact path {:?} is not a single file name",
+			snapshot.candidates.path
+		);
+		let candidate_name = candidate_path
+			.file_name()
+			.and_then(|value| value.to_str())
+			.context("candidate artifact path is not UTF-8")?;
+		let candidate_source = source_path.parent().unwrap_or(Path::new(".")).join(candidate_path);
+		let candidate_destination = output.join("channel-manifests").join(candidate_name);
+		ensure!(
+			!candidate_destination.exists(),
+			"candidate artifact {candidate_name} is referenced by multiple snapshots"
+		);
+		fs::copy(&candidate_source, &candidate_destination)
+			.with_context(|| format!("copy {} to {}", candidate_source.display(), candidate_destination.display()))?;
+		let (candidate_size, candidate_sha256) = file_identity(&candidate_destination)?;
+		ensure!(
+			candidate_size == snapshot.candidates.size && candidate_sha256 == snapshot.candidates.sha256,
+			"copied candidate artifact {candidate_name} does not match its manifest"
+		);
 		let observed_packages = snapshot
 			.packages
 			.iter()
@@ -519,12 +562,64 @@ mod tests {
 		let license = fs::read_to_string(output.join("LICENSE")).unwrap();
 		assert!(license.contains("ISC License"));
 		assert!(license.contains("Night Sail Crew"));
+		let candidate_artifact = output.join("channel-manifests/crates-io.jsonl");
+		assert!(candidate_artifact.is_file());
+		assert_eq!(fs::read_to_string(candidate_artifact).unwrap(), fs::read_to_string(&candidates).unwrap());
 		let checksums = fs::read_to_string(output.join("SHA256SUMS")).unwrap();
 		assert!(checksums.contains("  LICENSE\n"));
+		assert!(checksums.contains("  channel-manifests/crates-io.jsonl\n"));
 		let manifest: serde_json::Value =
 			serde_json::from_slice(&fs::read(output.join("manifest.json")).unwrap()).unwrap();
 		assert_eq!(manifest["dataset"]["schema_version"], 1);
 		assert_eq!(manifest["channels"][0]["name"], "crates.io");
+	}
+
+	#[test]
+	fn rejects_absolute_input_paths() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		let curations = write_curations(root.path());
+		let output = root.path().join("release");
+		fs::create_dir(&acquisitions).unwrap();
+		let input = root.path().join("Packages");
+		fs::write(&input, "Package: ripgrep\nVersion: 1\n").unwrap();
+		let candidates = acquisitions.join("crates-io.jsonl");
+		fs::write(
+			&candidates,
+			concat!(
+				"{\"channel\":\"crates.io\",\"package\":\"helix-term\",\"version\":\"1\",",
+				"\"executable\":\"hx\",\"evidence\":\"declared-entry-point\"}\n",
+			),
+		)
+		.unwrap();
+		write_snapshot_manifest(
+			&candidates,
+			SnapshotMetadata::complete(
+				"crates.io",
+				std::slice::from_ref(&input),
+				std::collections::BTreeMap::from([(
+					"release-policy".to_owned(),
+					"latest-non-yanked-stable".to_owned(),
+				)]),
+			),
+			[PackageObservation::observed("helix-term", "1")],
+		)
+		.unwrap();
+		let providers = root.path().join("providers.jsonl");
+		fs::write(
+			&providers,
+			"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
+		)
+		.unwrap();
+		let metadata = ReleaseMetadata {
+			release: "2026-04-16.1",
+			generated_at: "2026-04-16T12:00:00Z",
+			generator_revision: "0123456789abcdef",
+		};
+
+		let error = assemble_release(&providers, &acquisitions, &curations, &output, &metadata).unwrap_err();
+		assert!(error.to_string().contains("absolute input path"));
+		assert!(!output.exists());
 	}
 
 	#[test]
