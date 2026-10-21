@@ -16,7 +16,7 @@ Public copy uses short, descriptive headings and instructions, explains lookup b
 - Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
-- Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, and generation date
+- Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, and license statement
 
 Project pages use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Marks identify executables observed in each package; dots mean not observed in this dataset, not unavailable. Executable column headers preserve the anchors used by search links and link to executable details. Executables and channels/packages sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping package names and channel headings visible.
 

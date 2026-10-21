@@ -13,6 +13,7 @@ bnck-2026-03-24.1/
 ├── manifest.json
 ├── providers.jsonl.zst
 ├── bnck.sqlite.zst
+├── LICENSE
 ├── SHA256SUMS
 ├── SHA256SUMS.minisig
 └── channel-manifests/
@@ -298,6 +299,7 @@ The CalVer release is a human-facing identifier; the digest is the content ident
 - `manifest.json`
 - `providers.jsonl.zst`
 - `bnck.sqlite.zst`
+- `LICENSE`
 - Every included channel snapshot manifest
 - Any notices or additional release artifacts
 

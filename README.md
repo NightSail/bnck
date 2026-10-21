@@ -35,3 +35,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs,
 ## Acknowledgements
 
 Initial seed curations used [Terminal Trove](https://terminaltrove.com/) and [tldr pages](https://tldr.sh/) as discovery hints. Each project was added after cross-checking multiple attributes and confirming that at least one channel packages it.
+
+## License
+
+bnck source code, build tooling, curations, dataset artifacts, documentation, and website content are licensed under the [ISC License](LICENSE).
+
+Upstream package metadata remains subject to its source terms. The acknowledgements above record discovery sources and do not impose additional license conditions.

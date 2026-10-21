@@ -13,6 +13,8 @@ use crate::curation::{Project, load_projects};
 use crate::model::{PROVIDER_SCHEMA_VERSION, ProviderDataset, read_provider_dataset};
 
 pub const SQLITE_SCHEMA_VERSION: u32 = 2;
+const LICENSE_TEXT: &str = include_str!("../LICENSE");
+const LICENSE_FILE: &str = "LICENSE";
 
 pub struct SqliteMetadata<'a> {
 	pub dataset_release: &'a str,
@@ -235,6 +237,8 @@ pub fn assemble_release(
 	}
 	fs::create_dir_all(output.join("channel-manifests"))
 		.with_context(|| format!("create release directory {}", output.display()))?;
+	fs::write(output.join(LICENSE_FILE), LICENSE_TEXT)
+		.with_context(|| format!("write {LICENSE_FILE} to {}", output.display()))?;
 
 	let providers_artifact = output.join("providers.jsonl.zst");
 	compress_file(providers, &providers_artifact)?;
@@ -348,7 +352,12 @@ fn artifact_manifest(path: &Path, media_type: &'static str, schema_version: Opti
 }
 
 fn write_checksums(root: &Path) -> Result<()> {
-	let mut paths = vec![root.join("manifest.json"), root.join("providers.jsonl.zst"), root.join("bnck.sqlite.zst")];
+	let mut paths = vec![
+		root.join("manifest.json"),
+		root.join("providers.jsonl.zst"),
+		root.join("bnck.sqlite.zst"),
+		root.join(LICENSE_FILE),
+	];
 	for entry in fs::read_dir(root.join("channel-manifests"))? {
 		paths.push(entry?.path());
 	}
@@ -504,9 +513,14 @@ mod tests {
 		let dataset = assemble_release(&providers, &acquisitions, &curations, &output, &metadata).unwrap();
 
 		assert_eq!(dataset.provider_count, 1);
-		for path in ["manifest.json", "providers.jsonl.zst", "bnck.sqlite.zst", "SHA256SUMS"] {
+		for path in ["manifest.json", "providers.jsonl.zst", "bnck.sqlite.zst", "LICENSE", "SHA256SUMS"] {
 			assert!(output.join(path).is_file(), "missing {path}");
 		}
+		let license = fs::read_to_string(output.join("LICENSE")).unwrap();
+		assert!(license.contains("ISC License"));
+		assert!(license.contains("Night Sail Crew"));
+		let checksums = fs::read_to_string(output.join("SHA256SUMS")).unwrap();
+		assert!(checksums.contains("  LICENSE\n"));
 		let manifest: serde_json::Value =
 			serde_json::from_slice(&fs::read(output.join("manifest.json")).unwrap()).unwrap();
 		assert_eq!(manifest["dataset"]["schema_version"], 1);
