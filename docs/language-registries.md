@@ -65,19 +65,17 @@ just resume-npm var/input/npm-next
 just fetch-registry-plan pypi var/input/pypi-next/metadata.tsv
 ```
 
-Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output and scope for individual snapshot imports. After switching from catalog-based PyPI discovery, create a fresh metadata plan to narrow acquisition to curated packages; digest-cached wheels remain reusable. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
+Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output and scope for individual snapshot imports. Create the metadata plan from current curations before fetching; digest-cached wheels remain reusable. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
 
 PyPI's per-package fetch and directory import produce partial snapshots with `package-selection=explicit-packages`; they do not claim to cover all curated packages. `just demo` acquires curated npm packages and Black into a fresh directory under `var/demo/` without touching production inputs or output.
 
 ## npm refresh jobs
 
-`just fetch-npm` and `just import-npm` form a standalone pair. Fetching creates a fresh UTC-timestamped directory under `var/input/npm/` and writes its absolute path to `var/input/npm/current` only after downloading every planned response; imports require that completed snapshot. Neither job reads old per-package JSON files directly under `var/input/npm/`.
+`just fetch-npm` and `just import-npm` form a standalone pair. Fetching creates a fresh UTC-timestamped directory under `var/input/npm/` and writes its absolute path to `var/input/npm/current` only after downloading every planned response; imports require that completed snapshot. Imports read only the selected snapshot; unrelated files under `var/input/npm/` are ignored.
 
 With an explicit snapshot path, the same recipes serve `fetch-languages` and `import-languages`. Explicit fetches create a new directory and never change the standalone or batch selection. Resume with `just resume-npm <snapshot>`, which neither regenerates the plan nor changes the selection, then `just import-npm <snapshot>`. An optional second argument to `import-npm` sets the acquisition output path.
 
 Planning deduplicates package names and requests `https://registry.npmjs.org/<encoded-package>/latest` once per package: one release manifest from the `latest` dist-tag, not a packument or version history. No `_all_docs` scan, name search, or tarball download is performed. Fresh snapshots re-request each release because tags and metadata can change; resumed snapshots reuse completed responses. Requests are sequential and compressed, with a 0.1-second pause, curl retry backoff, and `Retry-After` handling.
-
-Old catalog/packument snapshots are incompatible with release-manifest imports; run a fresh `fetch-npm` or `fetch-languages` first.
 
 ## Release and wheel selection
 
