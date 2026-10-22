@@ -1,32 +1,70 @@
 # bnck
 
-bnck builds an executable-name database from distribution-channel metadata and checked-in curations.
+bnck builds an executable-name database from distribution-channel metadata and manual curations.
 
-## MVP
+A searchable web interface is at <https://bnck.dev/>. Datasets are published under <https://bnck.dev/data/>, with the latest always at <https://bnck.dev/data/latest>.
 
-Imported channels:
+## Dataset
 
-- Debian from `Packages`, `Sources`, and `Contents` indexes
-- Fedora from DNF primary and filelists metadata
-- Arch Linux from repository file databases
-- Homebrew from formula and cask API metadata
-- crates.io from the database dump
-- npm from the `latest` release manifests of curated packages
-- PyPI from Simple API metadata and statically inspected wheels of curated packages
+Each release contains:
+
+- `providers.jsonl.zst`: Canonical provider relations
+- `bnck.sqlite.zst`: SQLite artifact with provider relations, curated project links, and release metadata
+- `LICENSE`, `SHA256SUMS`, and `SHA256SUMS.minisig`
+- Channel manifests and candidate JSON Lines files
+
+The provider relation is `(project, executable, channel, package)`. The JSON Lines artifact defines the logical dataset identity; SQLite is the recommended artifact for applications.
+
+Coverage is curated and channel-scoped. npm and PyPI include only explicitly curated packages. Channel counts describe accepted dataset records, not the complete contents of each channel. A missing record means the relation was not observed in that release, not that it is unavailable. The dataset does not specify package versions, platform support, or installation instructions.
+
+## Verify a release
+
+Releases are signed with minisign public key `RWQUa6eV3UMbNP1mzF+QIsKhdhswoQSM3EVOJaBwEmiiS/ZGd1VyPI9I`.
+
+Download a release from the canonical release page and run the following from the extracted release directory:
+
+```sh
+sha256sum -c SHA256SUMS
+minisign -Vm SHA256SUMS -P RWQUa6eV3UMbNP1mzF+QIsKhdhswoQSM3EVOJaBwEmiiS/ZGd1VyPI9I
+```
+
+## Query
+
+Decompress the SQLite artifact then run queries on it:
+
+```sh
+zstd -d bnck.sqlite.zst -o bnck.sqlite
+sqlite3 bnck.sqlite \
+	"SELECT project, channel, package FROM providers WHERE executable = 'rg' ORDER BY project, channel, package;"
+```
+
+See [`docs/release-format.md`](docs/release-format.md) for the schema and supported queries.
+
+## Channels
+
+Imported distribution channels:
+
+- Distros and OSes:
+	- Debian, from `Packages`, `Sources`, and `Contents` indexes
+	- Fedora, from DNF primary and filelists metadata
+	- Arch Linux, from repository file databases
+	- Homebrew, from formula and cask API metadata
+- Language registries:
+	- crates.io, from the database dump
+	- npm, from the `latest` release manifests of curated packages
+	- PyPI, from Simple API metadata and statically inspected wheels of curated packages
 
 TOML curations resolve these acquisitions into canonical provider JSON Lines. bnck does not install, build, import, or execute packages.
 
-## SQLite artifact
+## Documentation
 
-`bnck.sqlite.zst` is the compressed SQLite consumer artifact: provider relations, curated project links, and release metadata.
-
-It supports the queries in [`docs/release-format.md`](docs/release-format.md). Decompress before opening it with SQLite:
-
-```sh
-zstd -d var/bnck.sqlite.zst -o var/bnck.sqlite
-sqlite3 var/bnck.sqlite \
-	"SELECT project, channel, package FROM providers WHERE executable = 'rg' ORDER BY project, channel, package;"
-```
+- [Core design](docs/design.md)
+- [Acquisition snapshot format](docs/acquisition-format.md)
+- [Distribution channel acquisition](docs/channels.md)
+- [Curation format](docs/curations.md)
+- [Language registry acquisition](docs/language-registries.md)
+- [Dataset release format](docs/release-format.md)
+- [Website](docs/website.md)
 
 ## Contributing
 
