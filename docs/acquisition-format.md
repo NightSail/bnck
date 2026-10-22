@@ -73,6 +73,10 @@ Distro and bulk crates.io importers emit complete snapshots on success. Planned 
 
 The schema supports input `uri` values, but current local import commands do not populate them. Retrieval timestamps, upstream signature results, and incremental tombstones remain collector responsibilities and are not emitted by the just-based fetch layer.
 
+## Versioning
+
+`format_version` is `1`. Increment it for changes to candidate or snapshot field names, types, requiredness, meaning, identity inputs, or the supported channel key set. Current readers reject unknown fields, so adding a field is also incompatible. The acquisition format version is independent of the provider, release, curation, and browser schemas.
+
 ## Generation rules
 
 Dataset generation requires snapshot manifests and validates every one before resolving curations.

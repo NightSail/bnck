@@ -26,8 +26,8 @@ The canonical fact is a provider relation:
 ```
 
 ```text
-helix | hx | crates.io | helix-term
-helix | hx | Debian    | helix
+ripgrep | rg | arch | ripgrep
+ripgrep | rg | crates.io | ripgrep
 ```
 
 Multiple projects may provide the same executable name, and a package may contain executables attributed to multiple projects.

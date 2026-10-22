@@ -12,7 +12,7 @@ use crate::acquisition::{PackageStatus, file_identity, read_snapshot_directory};
 use crate::curation::{Project, load_projects};
 use crate::model::{PROVIDER_SCHEMA_VERSION, ProviderDataset, read_provider_dataset};
 
-pub const SQLITE_SCHEMA_VERSION: u32 = 2;
+pub const SQLITE_SCHEMA_VERSION: u32 = 1;
 const LICENSE_TEXT: &str = include_str!("../LICENSE");
 const LICENSE_FILE: &str = "LICENSE";
 

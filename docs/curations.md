@@ -42,7 +42,7 @@ Base filenames are organizational and do not establish identity. Exact project a
 schema = 0
 ```
 
-This version is independent of the provider and release manifest schema versions. An incompatible change increments it and migrates affected files atomically.
+This version is independent of the provider, release, acquisition, and browser schema versions. An incompatible change increments it and migrates affected files atomically. Changes to field names, types, required fields, or resolution semantics are incompatible; current readers reject unknown fields, so adding a field is also incompatible.
 
 ## Project definitions
 

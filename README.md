@@ -30,7 +30,7 @@ sqlite3 var/bnck.sqlite \
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs, curation workflows, release generation and signing, and website deployment.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs, curation workflows, release generation and signing, and website deployment. See [CHANGELOG.md](CHANGELOG.md) for notable changes and schema transitions.
 
 ## Acknowledgements
 

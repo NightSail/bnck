@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This document defines the artifacts, schemas, versioning, provenance, integrity, and compatibility rules for bnck dataset releases. A release contains the canonical provider relations from [design.md](design.md) plus enough provenance to trace them to the channel snapshots described in [channels.md](channels.md).
+This document defines the artifacts, schemas, versioning, provenance, integrity, and compatibility rules for bnck dataset releases. A release contains the canonical provider relations from [design.md](design.md), acquisition provenance from [acquisition-format.md](acquisition-format.md), and channel-specific behavior from [channels.md](channels.md).
 
 ## Release contents
 
-Each immutable release contains:
+Each published release contains:
 
 ```text
 bnck-2026-03-24.1/
@@ -42,6 +42,8 @@ The JSON Lines artifact defines the logical dataset identity; SQLite is the reco
 
 Candidate JSON Lines files sit beside their channel manifests. Raw channel inputs are not distributed; the manifests record their identities. Input paths are relative to the repository root, and assembly rejects absolute or parent-relative paths. Snapshots containing such paths must be re-imported from the repository root.
 
+Assembly writes these files except `SHA256SUMS.minisig`; signing adds the detached signature after assembly.
+
 ## Provider record schema
 
 Each provider record has exactly four fields:
@@ -64,8 +66,8 @@ Observed package versions, architectures, artifact paths, and acquisition eviden
 `providers.jsonl.zst` is the canonical representation. Uncompressed, it holds one JSON object per line:
 
 ```json
-{"project":"helix","executable":"hx","channel":"crates.io","package":"helix-term"}
-{"project":"helix","executable":"hx","channel":"debian","package":"helix"}
+{"project":"ripgrep","executable":"rg","channel":"arch","package":"ripgrep"}
+{"project":"ripgrep","executable":"rg","channel":"debian","package":"ripgrep"}
 ```
 
 Encoding rules:
@@ -90,7 +92,7 @@ JSON Lines supports streaming, bounded-memory processing, incremental validation
 
 ### Schema
 
-Schema version 2 represents the canonical relation, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
+Schema version 1 represents the canonical relation, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
 
 ```sql
 CREATE TABLE metadata (
@@ -220,7 +222,7 @@ SQLite is derived from the canonical JSON Lines. Consumers must not treat page l
     {
       "name": "crates.io",
       "scope": {
-        "release_policy": "latest-non-yanked"
+        "release-policy": "latest-non-yanked-stable"
       },
       "snapshot_manifest": {
         "path": "channel-manifests/crates-io-<snapshot>.json",
@@ -251,15 +253,14 @@ Consumers ignore unknown fields under a known `format_version`. Removing a requi
 
 Each channel entry references a content-addressed snapshot manifest defined in [acquisition-format.md](acquisition-format.md), which records:
 
-- Channel and acquisition scope
-- Channel-native snapshot boundary
-- Retrieval time
-- Selected release policy
-- Input URIs, sizes, and cryptographic digests
-- Signature verification results where applicable
-- Selected package releases and variants
-- Importer source revision and configuration
-- Failed, missing, unsupported, or deliberately excluded inputs
+- Channel, status, and acquisition scope
+- Input paths, sizes, and SHA-256 digests, with optional URIs
+- Candidate artifact path, size, SHA-256 digest, and record count
+- Package observations with status, release, variant, and artifact digest
+- Importer version and optional source revision
+- The snapshot content identity
+
+Candidate artifacts are distributed beside the channel manifests. Raw channel inputs are not distributed. Current snapshots do not record retrieval times, signatures, media types, or original input URIs; the optional `uri` field is left empty.
 
 Channel manifests provide acquisition provenance without adding package versions or evidence fields to canonical provider records.
 
@@ -267,7 +268,23 @@ A channel with incomplete acquisition has a non-`complete` status. A failed pack
 
 ## Versioning
 
-Dataset content and format contracts use separate versions.
+Schema version fields are independent. Each increments only for an incompatible change to its own contract. Schema transitions are recorded in [CHANGELOG.md](../CHANGELOG.md).
+
+### Schema version fields
+
+| Field | Location | Meaning | Current |
+| --- | --- | --- | --- |
+| `format_version` | `manifest.json` | Release manifest format | 1 |
+| `dataset.schema_version` | `manifest.json` | Canonical provider schema | 1 |
+| `dataset_schema_version` | SQLite `metadata` | Canonical provider schema | 1 |
+| `schema_version` | SQLite `metadata` | SQLite schema | 1 |
+| `user_version` | SQLite `PRAGMA` | SQLite schema | 1 |
+| `schema_version` | SQLite artifact in `manifest.json` | SQLite schema | 1 |
+| `format_version` | Acquisition snapshot manifest | Acquisition snapshot format | 1 |
+| `schema` | Curation manifest | Curation format | 0 |
+| `schema_version` | Browser dataset | Website data format | 1 |
+
+`metadata.schema_version`, `PRAGMA user_version`, and the SQLite artifact's `schema_version` must agree. The provider schema version appears as `dataset.schema_version` in the release manifest and `dataset_schema_version` in SQLite metadata. Acquisition, curation, and browser versions are independent; see [acquisition-format.md](acquisition-format.md#versioning), [curations.md](curations.md#schema-version), and [website.md](website.md#implementation).
 
 ### Dataset release
 
@@ -281,23 +298,33 @@ Calendar versioning with a same-day sequence:
 
 Adding or removing provider records is a data update, not a semantic API change, so semantic versioning does not fit. A published release is immutable; corrections produce a new release even on the same day. A mutable `latest` pointer may identify the recommended release but is not itself a version.
 
-### Manifest format
+### Release manifest format
 
-`format_version` is an integer beginning at `1`. Increment it for incompatible changes to `manifest.json`.
+`format_version` is an integer beginning at `1`. Increment it when changing the type or meaning of a field, removing a required field, or changing how consumers must interpret the manifest. Adding optional fields is compatible because consumers ignore unknown fields. Provider record changes do not increment this version.
 
 ### Provider schema
 
-`dataset.schema_version` is an integer beginning at `1`. Increment it when the logical provider representation changes incompatibly.
+`dataset.schema_version` and `metadata.dataset_schema_version` are integers beginning at `1`. Increment the provider schema when the canonical provider record shape, field meaning, channel key set, or canonical encoding changes in a way consumers must handle. Adding or removing provider records is a data update, not a schema change.
 
 ### SQLite schema
 
-The SQLite schema has its own integer version, incremented whenever consumers must account for changed tables, columns, constraints, or query behavior.
+`metadata.schema_version`, `PRAGMA user_version`, and the SQLite artifact's `schema_version` are integers beginning at `1`. Increment the SQLite schema when consumers must account for changed tables, columns, indexes, constraints, or query behavior. Data-only updates do not change it. The initial schema is `1`; pre-publication development artifacts labeled `2` are not release-compatible.
+
+### Acquisition snapshot format
+
+The acquisition snapshot manifest has its own `format_version`, currently `1`. Increment it for changes to candidate or snapshot field names, types, requiredness, meaning, or identity inputs. Current readers reject unknown fields, so adding a field is also incompatible. See [acquisition-format.md](acquisition-format.md#versioning).
+
+### Curation format
+
+The curation manifest has its own `schema` value, currently `0`. Increment it for incompatible changes to curation fields or resolution semantics. Current readers reject unknown fields, so adding a field is also incompatible. See [curations.md](curations.md#schema-version).
+
+### Browser dataset
+
+The generated browser dataset has its own `schema_version`, currently `1`. Increment it when the project, link, or provider shape changes incompatibly. See [website.md](website.md#implementation).
 
 ### Dataset identity
 
-```text
-sha256:<digest of uncompressed providers.jsonl>
-```
+The dataset identity is the SHA-256 digest of the uncompressed `providers.jsonl`. Stored fields use lowercase hexadecimal; the `sha256:` form is notation, not part of the stored value.
 
 The CalVer release is a human-facing identifier; the digest is the content identity.
 
