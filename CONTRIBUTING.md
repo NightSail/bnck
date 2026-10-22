@@ -117,15 +117,13 @@ just generate-sqlite 2026-04-16.1
 
 This writes `var/bnck.sqlite.zst` after validating the canonical JSON Lines encoding, ordering, and uniqueness. The SQLite metadata table records the SHA-256 of the uncompressed JSON Lines, provider count, release identifier, generation time, generator version, and Git revision. Curated homepages, repositories, documentation, issue trackers, and additional links are included as project metadata.
 
-Assemble the release directory with compressed provider and SQLite artifacts, acquisition manifests, `manifest.json`, and `SHA256SUMS`:
+Assemble, sign, verify, and package a release:
 
 ```sh
 just release 2026-04-16.1
 ```
 
-Assembly produces an unsigned release. Signing and publication are handled outside local generation; the secret key is never exposed to the generator or committed. For a local rehearsal only, use `just sign-release <release-directory> <secret-key>`.
-
-See the [README](README.md) for public release verification.
+This writes the release directory and `var/releases/bnck-2026-04-16.1.tar.zst`. It uses `minisign.key` and `minisign.pub` by default and requires `minisign` and `zstd`. The secret key is never committed. See the [README](README.md) for public release verification.
 
 ## Website development
 

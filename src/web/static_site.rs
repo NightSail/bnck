@@ -18,6 +18,8 @@ use super::{
 };
 use crate::model::{CHANNELS, validate_executable, validate_project_id};
 
+const REDIRECTS: &str = include_str!("../../web/_redirects");
+
 const APPLICATION_ASSETS: [(&str, &str); 7] = [
 	("style.css", include_str!("../../web/style.css")),
 	("search.js", include_str!("../../web/search.js")),
@@ -88,7 +90,8 @@ fn build(database: &Database, root: &Path) -> Result<()> {
 	for executable in &executables {
 		site.write_executable(executable)?;
 	}
-	write_headers(root)
+	write_headers(root)?;
+	write_redirects(root)
 }
 
 fn write_headers(root: &Path) -> Result<()> {
@@ -99,6 +102,10 @@ fn write_headers(root: &Path) -> Result<()> {
 	}
 	headers.push_str("\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n");
 	write_file(root, "_headers", headers.as_bytes())
+}
+
+fn write_redirects(root: &Path) -> Result<()> {
+	write_file(root, "_redirects", REDIRECTS.as_bytes())
 }
 
 fn read_names(database: &Database, sql: &str) -> Result<Vec<String>> {

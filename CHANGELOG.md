@@ -12,9 +12,12 @@ No public release has been made.
 - ISC licensing for code, curations, dataset artifacts, documentation, and website content
 - Candidate JSON Lines artifacts in release provenance
 - Release verification instructions and public key documentation
+- Signed release packaging as `.tar.zst` for GitHub Releases
+- Canonical dataset redirects in the generated `_redirects` file
 - Release assembly rejects absolute and parent-relative input paths
 
 ### Changed
 
 - SQLite schema version is 1 for the first public schema. Pre-publication development artifacts labeled 2 are not release-compatible.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.
+- The release workflow is now a single `just release` command that assembles, signs, verifies, and packages the release.

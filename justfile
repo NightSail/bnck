@@ -35,9 +35,9 @@ format:
 generate acquisitions='var/acquired' output='var/providers.jsonl':
     mkdir -p "$(dirname '{{ output }}')"
     {{ bnck }} generate \
-    	--acquisitions '{{ acquisitions }}' \
-    	--curations curations \
-    	--output '{{ output }}'
+        --acquisitions '{{ acquisitions }}' \
+        --curations curations \
+        --output '{{ output }}'
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
 generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst':
@@ -51,25 +51,31 @@ generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sql
     		--generator-revision "$revision"
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
-release dataset_release input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases':
-    generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
-    	revision="$(git rev-parse HEAD)"; \
-    	{{ bnck }} assemble-release \
-    		--input '{{ input }}' \
-    		--acquisitions '{{ acquisitions }}' \
-    		--output '{{ output }}/bnck-{{ dataset_release }}' \
-    		--dataset-release '{{ dataset_release }}' \
-    		--generated-at "$generated_at" \
-    		--generator-revision "$revision"
-    @{{ size }} 'Wrote {{ output }}/bnck-{{ dataset_release }}' '{{ output }}/bnck-{{ dataset_release }}'
-
-sign-release release_directory secret_key:
-    test -f '{{ release_directory }}/SHA256SUMS'
-    minisign -S \
-    	-s '{{ secret_key }}' \
-    	-m '{{ release_directory }}/SHA256SUMS' \
-    	-x '{{ release_directory }}/SHA256SUMS.minisig'
-    @{{ size }} 'Signed {{ release_directory }}' '{{ release_directory }}'
+release dataset_release secret_key='minisign.key' public_key='minisign.pub' input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases':
+    #!/usr/bin/env bash
+    set -euo pipefail
+    release='{{ output }}/bnck-{{ dataset_release }}'
+    archive="${release}.tar.zst"
+    test ! -e "$release" || { printf 'Release directory already exists: %s\n' "$release" >&2; exit 1; }
+    test ! -e "$archive" || { printf 'Release archive already exists: %s\n' "$archive" >&2; exit 1; }
+    test -f '{{ secret_key }}' || { printf 'Signing key not found: %s\n' '{{ secret_key }}' >&2; exit 1; }
+    test -f '{{ public_key }}' || { printf 'Public key not found: %s\n' '{{ public_key }}' >&2; exit 1; }
+    command -v minisign >/dev/null || { printf 'minisign is required to release\n' >&2; exit 1; }
+    command -v zstd >/dev/null || { printf 'zstd is required to package a release\n' >&2; exit 1; }
+    generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+    revision="$(git rev-parse HEAD)"
+    {{ bnck }} assemble-release \
+        --input '{{ input }}' \
+        --acquisitions '{{ acquisitions }}' \
+        --output "$release" \
+        --dataset-release '{{ dataset_release }}' \
+        --generated-at "$generated_at" \
+        --generator-revision "$revision"
+    minisign -S -s '{{ secret_key }}' -m "$release/SHA256SUMS" -x "$release/SHA256SUMS.minisig"
+    minisign -Vm "$release/SHA256SUMS" -p '{{ public_key }}'
+    tar --zstd -cf "$archive" -C "$(dirname "$release")" "$(basename "$release")"
+    {{ size }} 'Wrote release directory' "$release"
+    {{ size }} 'Wrote release archive' "$archive"
 
 # Rebuild the static site, replacing any previous output at the destination.
 generate-site database='var/bnck.sqlite.zst' output='var/site':

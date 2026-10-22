@@ -339,7 +339,7 @@ The CalVer release is a human-facing identifier; the digest is the content ident
 - Every included channel snapshot manifest and candidate artifact
 - Any notices or additional release artifacts
 
-`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. The public key is published independently of release artifacts; see the [README](../README.md) for verification. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
+`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. The public key is published independently of release artifacts; see the [README](../README.md) for verification. The `bnck assemble-release` command writes every release artifact and `SHA256SUMS` but does not sign. The `just release` wrapper signs and verifies the checksums using the provided key pair.
 
 The release manifest also records artifact digests for validation after trusting the manifest, and the logical dataset digest provides a second check after decompressing `providers.jsonl.zst`.
 
@@ -398,12 +398,12 @@ The derived SQLite artifact includes curated project homepages, repositories, do
 
 Derived artifacts may be introduced without changing the canonical provider schema. Candidate options include Parquet for bulk analytics, delimited text, a single JSON document, a custom binary format, and delta releases between adjacent versions. None is required today: the two supported lookup directions need no more than SQLite, and complete JSON Lines snapshots suffice while update size is small. Any canonical-format change must preserve streaming and exact content identity.
 
-## Assembly
+## Release command
 
 ```sh
 just release 2026-04-16.1
 ```
 
-The command validates canonical providers and all acquisition manifests, verifies that every provider channel has acquisition provenance, writes both compressed artifacts, copies content-identified channel manifests and candidate artifacts, writes `manifest.json`, and calculates `SHA256SUMS`. It refuses to overwrite an existing release directory.
+The command validates canonical providers and all acquisition manifests, verifies that every provider channel has acquisition provenance, writes both compressed artifacts, copies content-identified channel manifests and candidate artifacts, writes `manifest.json`, and calculates `SHA256SUMS`. It then signs `SHA256SUMS` with `minisign.key`, verifies the signature with `minisign.pub`, and writes `bnck-<CalVer>.tar.zst` beside the release directory. It refuses to overwrite an existing release directory or archive.
 
-The release is publishable only after `SHA256SUMS.minisig` has been produced with the separately managed signing key.
+The default key paths can be overridden with positional arguments. Release signing requires `minisign`; packaging requires `zstd`. The archive contains the complete release directory, including `SHA256SUMS` and `SHA256SUMS.minisig`. Publish it under the GitHub Release tag `bnck-<CalVer>`.
