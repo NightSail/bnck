@@ -339,7 +339,7 @@ The CalVer release is a human-facing identifier; the digest is the content ident
 - Every included channel snapshot manifest and candidate artifact
 - Any notices or additional release artifacts
 
-`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. Distribute the public key independently of the release location. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
+`SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. The public key is published independently of release artifacts; see the [README](../README.md) for verification. The `assemble-release` command writes every release artifact and `SHA256SUMS`; signing remains a separate publication step because release keys are not exposed to the generator.
 
 The release manifest also records artifact digests for validation after trusting the manifest, and the logical dataset digest provides a second check after decompressing `providers.jsonl.zst`.
 

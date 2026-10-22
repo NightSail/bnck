@@ -123,13 +123,9 @@ Assemble the release directory with compressed provider and SQLite artifacts, ac
 just release 2026-04-16.1
 ```
 
-Assembly does not expose a signing key to the generator. Produce `SHA256SUMS.minisig` with the separately managed release signing key before publication:
+Assembly produces an unsigned release. Signing and publication are handled outside local generation; the secret key is never exposed to the generator or committed. For a local rehearsal only, use `just sign-release <release-directory> <secret-key>`.
 
-```sh
-just sign-release var/releases/bnck-2026-04-16.1 /path/to/minisign.key
-```
-
-See the [release format](docs/release-format.md) for artifact schemas, provenance, integrity, and compatibility rules.
+See the [README](README.md) for public release verification.
 
 ## Website development
 

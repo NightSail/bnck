@@ -11,6 +11,7 @@ No public release has been made.
 - Initial development pipeline for channel acquisition, TOML curations, provider JSON Lines, SQLite artifacts, and the static website
 - ISC licensing for code, curations, dataset artifacts, documentation, and website content
 - Candidate JSON Lines artifacts in release provenance
+- Release verification instructions and public key documentation
 - Release assembly rejects absolute and parent-relative input paths
 
 ### Changed
