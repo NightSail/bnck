@@ -107,11 +107,11 @@ Project metadata aids curator review but establishes no relationship and need no
 
 ## Package ownership
 
-A package identity is the tuple `(channel, name)`. Listing it in a project file gives that project default ownership of every acquired executable from the package, subject to an exceptional package curation.
+A package identity is the tuple `(channel, name)`. Listing it in a project file gives that project default ownership of every acquired executable from the package, subject to exceptional package curation.
 
 A package may be listed by at most one project; multiple claims are a validation error.
 
-Packages containing executables from multiple projects are not listed as ordinary packages. Their attribution comes entirely from an exceptional package curation. Packages with neither ordinary ownership nor mixed-package attribution produce no provider records.
+A package can have an ordinary owner and exceptional executable rules. The remaining executables are attributed to the ordinary owner. A package without an ordinary owner is mixed: every acquired executable must be handled by an `attribute`, `replace`, or `exclude` rule. Packages with neither ordinary ownership nor mixed-package attribution produce no provider records.
 
 ## Exceptional package curations
 
@@ -129,11 +129,11 @@ references = [
 ]
 ```
 
-The default project is the one claiming `(fedora, example)`.
+The default project is the one claiming `(fedora, example)`. If no project claims the package, the exception must handle every acquired executable as a mixed package.
 
 ### Mixed packages
 
-A mixed package is not claimed by a project file. Its exception file explicitly attributes every acquired executable that is not excluded or replaced:
+A mixed package has no ordinary owner. Its exception file explicitly attributes every acquired executable that is not excluded or replaced:
 
 ```toml
 channel = 'debian'
@@ -226,7 +226,7 @@ Dataset generation resolves each curated package in this order:
 
 Rule order inside a TOML file does not change these semantics.
 
-Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a selected channel is an error.
+Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a complete selected channel snapshot is an error. Absence from a partial acquisition is skipped, not treated as stale curation.
 
 Release provenance identifies the pinned acquisition snapshots, the source revision containing the curations and generator, and the applicable schema versions.
 
@@ -270,12 +270,4 @@ Validation fails on:
 
 Validation must distinguish stale curation from incomplete acquisition: a failed or partial importer run must not make valid curation appear stale.
 
-Validation warns on:
-
-- Project metadata disagreeing with current channel hints
-- Repository URLs that redirect
-- New executables under an ordinarily owned package
-- Acquired executable sets changing between snapshots
-- Projects with no currently observed packages
-
-Warnings do not block dataset generation.
+Validation is strict: detected issues fail generation rather than producing non-blocking warnings.
