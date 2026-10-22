@@ -12,13 +12,13 @@ Public copy uses short, descriptive headings and instructions, explains lookup b
 
 ## Views
 
-- Home: Search entry point, an example lookup, dataset counts, and browse links
+- Home: Search entry point, a featured project, dataset counts, and browse links
 - Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
 - Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, and license statement
 
-Project pages use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Marks identify executables observed in each package; dots mean not observed in this dataset, not unavailable. Executable column headers preserve the anchors used by search links and link to executable details. Executables and channels/packages sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping package names and channel headings visible.
+Project pages use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Checkmarks identify executables observed in each package; hyphens mean not observed in this dataset, not unavailable. Executable column headers preserve the anchors used by search links and link to executable details. Executables and channels/packages sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping package names and channel headings visible.
 
 Package links display the exact channel-native package name rather than the URL. They point to current external channel pages, not pinned acquisition evidence or installation instructions. Unknown package-page mappings remain plain text.
 
@@ -47,7 +47,7 @@ Each group previews up to three executable rows; additional rows use the same fo
 
 An initial filter above the results offers "All" and only the initials present among projects matching the current query and channel. Available initials are computed before initial filtering and pagination, so selecting one does not hide the other choices. Selecting an initial preserves query and channel and starts at page one; "All" clears only the initial filter. Refining the query preserves the selected initial.
 
-Each page contains at most 30 projects, with totals counting matches across all pages. A project's executable list is never split across pages, and case variants of executable names remain distinct. Pagination preserves query and filters; submitting the search form starts at page one. A page beyond the available results, or any invalid query parameter, displays an explicit error. Static hosting returns the same root HTML regardless of parameters, so these errors do not change the HTTP status.
+Each page contains at most 30 projects, with totals counting matches across all pages. A project's executable list is never split across pages, and case variants of executable names remain distinct. Pagination shows numbered shortcuts for the first, last, and nearby pages, with ellipses for gaps, plus a "Go to page" form. Pagination preserves query and filters; submitting the search form starts at page one. A page beyond the available results, or any invalid query parameter, displays an explicit error. Static hosting returns the same root HTML regardless of parameters, so these errors do not change the HTTP status.
 
 Search boxes contain only the name field and submit button. Channel links above the results offer "All channels" and every supported channel, including channels without matching records; selecting one preserves the query and initial filter, applies to matches, group membership, totals, and executable rows, and starts at page one. Active channel and initial filters are shown above the results with separate "Clear channel" and "Clear initial" links, each clearing only its own filter and returning to page one. Reset search clears the query and both filters. Each group includes all related names in the selected channel, not only matching ones, while detail links open the full identity across all channels. Search does not match package names or descriptions.
 
@@ -82,13 +82,13 @@ Each successful response begins with `dataset_release`, prefixed with `bnck:rele
 ```json
 {
 	"dataset_release": "bnck:release:2026-04-16.1",
-	"query": { "executable": "hx" },
+	"query": { "executable": "rg" },
 	"providers": [
 		{
-			"project": "helix",
-			"executable": "hx",
-			"channel": "debian",
-			"package": "helix"
+			"project": "ripgrep",
+			"executable": "rg",
+			"channel": "arch",
+			"package": "ripgrep"
 		}
 	]
 }
