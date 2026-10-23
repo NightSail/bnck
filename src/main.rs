@@ -1,6 +1,7 @@
 mod acquisition;
 mod curation;
 mod importers;
+mod ingest;
 mod matcher;
 mod model;
 mod registry;
@@ -173,6 +174,18 @@ enum Command {
 		#[arg(long)]
 		candidate_only: bool,
 	},
+	IngestHints {
+		#[arg(long, default_value = "var/hints")]
+		hints: PathBuf,
+		#[arg(long, default_value = "var/acquired")]
+		acquisitions: PathBuf,
+		#[arg(long, default_value = "curations")]
+		curations: PathBuf,
+		#[arg(long)]
+		report: Option<PathBuf>,
+		#[arg(long)]
+		apply: bool,
+	},
 	SuggestRegistryPackages {
 		#[arg(long, default_value = "var/acquired")]
 		acquisitions: PathBuf,
@@ -295,6 +308,10 @@ async fn main() -> Result<()> {
 				acquisition::SnapshotValidationMode::Full
 			};
 			release::assemble_release(&input, &acquisitions, &curations, &output, &metadata, mode)?.provider_count
+		},
+		Command::IngestHints { hints, acquisitions, curations, report, apply } => {
+			ingest::ingest_hints(&hints, &acquisitions, &curations, report.as_deref(), apply)?;
+			return Ok(());
 		},
 		Command::SuggestRegistryPackages { acquisitions, curations, output } => {
 			let suggestions = matcher::suggest_registry_packages(&acquisitions, &curations)?;

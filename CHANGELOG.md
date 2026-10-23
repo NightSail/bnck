@@ -21,6 +21,9 @@ No public release has been made.
 - Dataset release tags namespaced as `bnck-dataset-<CalVer>`
 - Unchanged provider datasets skipped during scheduled publication
 - Latest dataset redirects resolve to the current release tag
+- Automatic curation ingestion from normalized Terminal Trove and tldr hints
+- Persistent hint rejections for candidates that must not be re-ingested
+- Expanded seed curations from Terminal Trove and tldr hint batches
 
 ### Changed
 

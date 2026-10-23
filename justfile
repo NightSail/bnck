@@ -43,6 +43,23 @@ generate acquisitions='var/acquired' output='var/providers.jsonl':
         $candidate_only
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
+# Preview automatic curation from normalized Terminal Trove and tldr hints.
+ingest-hints hints='var/hints' acquisitions='var/acquired' report='var/hint-ingestion.json':
+    {{ bnck }} ingest-hints \
+        --hints '{{ hints }}' \
+        --acquisitions '{{ acquisitions }}' \
+        --curations curations \
+        --report '{{ report }}'
+
+# Apply automatic curation from normalized Terminal Trove and tldr hints.
+apply-hints hints='var/hints' acquisitions='var/acquired' report='var/hint-ingestion.json':
+    {{ bnck }} ingest-hints \
+        --hints '{{ hints }}' \
+        --acquisitions '{{ acquisitions }}' \
+        --curations curations \
+        --report '{{ report }}' \
+        --apply
+
 generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst':
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
     	revision="$(git rev-parse HEAD)"; \

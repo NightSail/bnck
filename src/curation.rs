@@ -161,24 +161,42 @@ pub(crate) fn load_projects(path: &Path) -> Result<BTreeMap<String, Project>> {
 	let mut projects = BTreeMap::new();
 	for path in toml_files(path)? {
 		let project: Project = read_toml(&path)?;
-		validate_project_id(&project.id)?;
-		validate_identity("project name", &project.name)?;
-		for link in project
-			.homepage
-			.iter()
-			.chain(project.repository.iter())
-			.chain(project.documentation.iter())
-			.chain(project.issue_tracker.iter())
-			.chain(project.links.iter())
-		{
-			validate_identity("project link", link)?;
-		}
+		validate_project(&project)?;
 		let id = project.id.clone();
 		if projects.insert(id.clone(), project).is_some() {
 			bail!("duplicate project ID {id}")
 		}
 	}
 	Ok(projects)
+}
+
+pub(crate) fn project_paths(path: &Path) -> Result<BTreeMap<String, PathBuf>> {
+	let mut projects = BTreeMap::new();
+	for path in toml_files(path)? {
+		let project: Project = read_toml(&path)?;
+		validate_project(&project)?;
+		let id = project.id.clone();
+		if projects.insert(id.clone(), path).is_some() {
+			bail!("duplicate project ID {id}")
+		}
+	}
+	Ok(projects)
+}
+
+fn validate_project(project: &Project) -> Result<()> {
+	validate_project_id(&project.id)?;
+	validate_identity("project name", &project.name)?;
+	for link in project
+		.homepage
+		.iter()
+		.chain(project.repository.iter())
+		.chain(project.documentation.iter())
+		.chain(project.issue_tracker.iter())
+		.chain(project.links.iter())
+	{
+		validate_identity("project link", link)?;
+	}
+	Ok(())
 }
 
 fn package_owners(projects: &BTreeMap<String, Project>) -> Result<BTreeMap<PackageKey, String>> {

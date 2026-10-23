@@ -57,17 +57,17 @@ pub struct ProjectSuggestion {
 }
 
 #[derive(Default)]
-struct PackageFacts {
-	executables: BTreeSet<String>,
-	source_packages: BTreeSet<String>,
-	homepages: BTreeSet<String>,
-	repositories: BTreeSet<String>,
+pub(crate) struct PackageFacts {
+	pub(crate) executables: BTreeSet<String>,
+	pub(crate) source_packages: BTreeSet<String>,
+	pub(crate) homepages: BTreeSet<String>,
+	pub(crate) repositories: BTreeSet<String>,
 }
 
 #[derive(Debug)]
-struct Match {
-	confidence: Confidence,
-	evidence: Vec<String>,
+pub(crate) struct Match {
+	pub(crate) confidence: Confidence,
+	pub(crate) evidence: Vec<String>,
 }
 
 pub fn suggest_packages(acquisitions: &Path, query: &ProjectQuery, limit: usize) -> Result<Vec<PackageSuggestion>> {
@@ -253,7 +253,7 @@ fn validate_query(query: &ProjectQuery, limit: usize) -> Result<()> {
 	Ok(())
 }
 
-fn group_packages(candidates: Vec<Candidate>) -> BTreeMap<(String, String), PackageFacts> {
+pub(crate) fn group_packages(candidates: Vec<Candidate>) -> BTreeMap<(String, String), PackageFacts> {
 	let mut packages = BTreeMap::<(String, String), PackageFacts>::new();
 	for candidate in candidates {
 		let facts = packages.entry((candidate.channel, candidate.package)).or_default();
@@ -271,7 +271,7 @@ fn group_packages(candidates: Vec<Candidate>) -> BTreeMap<(String, String), Pack
 	packages
 }
 
-fn match_project(query: &ProjectQuery, package: &str, facts: &PackageFacts) -> Option<Match> {
+pub(crate) fn match_project(query: &ProjectQuery, package: &str, facts: &PackageFacts) -> Option<Match> {
 	let mut evidence = BTreeSet::new();
 	let has_repository_match = query
 		.repository

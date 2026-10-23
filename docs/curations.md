@@ -234,6 +234,48 @@ Release provenance identifies the pinned acquisition snapshots, the source revis
 
 The format stores `O(P + M)` facts for `P` projects and `M` ordinary project-to-package relationships, but uses `O(P + E)` files for `E` exceptional packages. Ordinary projects need one file regardless of channel count. Exceptional package files can be sharded by directory without changing package identity.
 
+## Automatic hint ingestion
+
+Terminal Trove and tldr pages are discovery hints, not ownership decisions. Normalized hint records are JSON Lines with `source`, `source_id`, `name`, and optional `executable`, `repository`, `homepage`, and `references` fields. Provenance for a batch is recorded beside the hint files.
+
+`bnck ingest-hints` reads a hint directory, cross-checks every candidate against acquired packages, and adds only packages with URL identity plus package, source-package, or executable-name evidence. It skips packages already claimed by a curation, drops ambiguous package attributions, and never removes or rewrites existing project metadata. A candidate for an existing project URL appends its unclaimed packages; otherwise a new project file is written. The command previews by default, applies with `--apply`, and can record an audit report.
+
+Ingestion is idempotent. Re-running the same or a newer hint batch does not duplicate project files or package declarations.
+
+## Hint rejections
+
+`curations/rejections.toml` records automatic candidates that must not be submitted again. Rejections affect hint ingestion only; they do not change dataset generation.
+
+Reject a whole candidate by its normalized project URL:
+
+```toml
+[[rejection]]
+key = 'github.com/example/tool'
+reason = 'The hint identifies the wrong upstream project'
+```
+
+Hint records without a URL use a source-prefixed key such as `terminaltrove:tool` or `tldr:common/tool`. Add a `source` to keep the rejection effective if the URL changes:
+
+```toml
+[[rejection]]
+key = 'github.com/example/tool'
+source = 'terminaltrove:tool'
+reason = 'The hint identifies the wrong upstream project'
+```
+
+The key and source are both matched; either one rejects the candidate. Reject one package association while keeping the candidate's other packages by adding both `channel` and `package`:
+
+```toml
+[[rejection]]
+key = 'github.com/example/tool'
+source = 'terminaltrove:tool'
+channel = 'debian'
+package = 'tool-extra'
+reason = 'The Debian package is a different project'
+```
+
+Each rejection requires a non-empty reason. Remove the entry to allow the candidate to be considered again. When rejecting a whole automatically created project, also delete its project curation; otherwise the existing curation remains in the dataset.
+
 ## Deliberately unsupported rules
 
 - Regular expressions

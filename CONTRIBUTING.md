@@ -82,6 +82,22 @@ Fetch jobs end with the on-disk size of the inputs they retain; import, generate
 
 Project definitions and package ownership rules live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, and validation requirements.
 
+### Hint ingestion
+
+Normalized Terminal Trove and tldr hints live under `var/hints/`. Preview automatic project creation and package extension from local acquisitions:
+
+```sh
+just ingest-hints
+```
+
+Apply the same plan and write an audit report:
+
+```sh
+just apply-hints
+```
+
+The command requires URL identity and package or executable evidence, skips packages already claimed by a curation, and does not rewrite existing project metadata. Review the preview before applying, especially when a hint batch is large. Add reviewed exceptions to `curations/rejections.toml`; see [hint rejections](docs/curations.md#hint-rejections).
+
 ### Suggestions
 
 Find acquired packages that may belong to a project:
@@ -135,7 +151,7 @@ Manually dispatching with an empty release input assigns the next `YYYY-MM-DD.N`
 
 Required `cloudflare-pages` deployment environment configuration:
 
-- `MINISIGN_SECRET_KEY` secret: an unencrypted CI signing key. Generate it with `minisign -G -W`; an empty passphrase still encrypts the key. Remove an existing passphrase with `minisign -C -W -s minisign.key`.
+- `MINISIGN_SECRET_KEY` secret: an unencrypted CI signing key, set from the complete `minisign.key` file. Generate it with `minisign -G -W`; an empty passphrase still encrypts the key. Remove an existing passphrase with `minisign -C -W -s minisign.key`.
 - `CLOUDFLARE_API_TOKEN` secret with account-level `Cloudflare Pages` edit permission
 - `CLOUDFLARE_ACCOUNT_ID` secret
 - `CLOUDFLARE_PROJECT_NAME` environment variable
