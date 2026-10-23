@@ -1,8 +1,8 @@
 /data /data/latest 302
 /data/ /data/latest 302
-/data/latest https://github.com/NightSail/bnck/releases/latest 302
-/data/latest/ https://github.com/NightSail/bnck/releases/latest 302
-/data/latest/* https://github.com/NightSail/bnck/releases/latest/download/:splat 302
-/data/:release https://github.com/NightSail/bnck/releases/tag/bnck-:release 302
-/data/:release/ https://github.com/NightSail/bnck/releases/tag/bnck-:release 302
-/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-:release/:splat 301
+/data/latest https://github.com/NightSail/bnck/releases/tag/bnck-dataset-{{release}} 302
+/data/latest/ https://github.com/NightSail/bnck/releases/tag/bnck-dataset-{{release}} 302
+/data/latest/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-{{release}}/:splat 302
+/data/:release https://github.com/NightSail/bnck/releases/tag/bnck-dataset-:release 302
+/data/:release/ https://github.com/NightSail/bnck/releases/tag/bnck-dataset-:release 302
+/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301

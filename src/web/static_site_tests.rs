@@ -94,11 +94,13 @@ fn generates_complete_versioned_site_without_modifying_database() {
 	assert!(headers.contains("Content-Security-Policy"));
 	assert!(!headers.split("\n\n").next().unwrap().contains("Cache-Control"));
 	let redirects = fs::read_to_string(output.join("_redirects")).unwrap();
-	assert!(redirects.contains("/data/latest https://github.com/NightSail/bnck/releases/latest 302"));
 	assert!(
-		redirects
-			.contains("/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-:release/:splat 301")
+		redirects.contains("/data/latest https://github.com/NightSail/bnck/releases/tag/bnck-dataset-2026-04-16.1 302")
 	);
+	assert!(redirects.contains(
+		"/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301"
+	));
+	assert!(!redirects.contains("{{release}}"));
 	generate(&database.path, &root.path().join("second")).unwrap();
 	let second_assets = asset_path(&root.path().join("second"), "app.");
 	let second_dataset = asset_path(&root.path().join("second"), "dataset.");

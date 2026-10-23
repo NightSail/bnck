@@ -91,7 +91,7 @@ fn build(database: &Database, root: &Path) -> Result<()> {
 		site.write_executable(executable)?;
 	}
 	write_headers(root)?;
-	write_redirects(root)
+	write_redirects(root, dataset.dataset_release)
 }
 
 fn write_headers(root: &Path) -> Result<()> {
@@ -104,8 +104,9 @@ fn write_headers(root: &Path) -> Result<()> {
 	write_file(root, "_headers", headers.as_bytes())
 }
 
-fn write_redirects(root: &Path) -> Result<()> {
-	write_file(root, "_redirects", REDIRECTS.as_bytes())
+fn write_redirects(root: &Path, release: &str) -> Result<()> {
+	let redirects = REDIRECTS.replace("{{release}}", release);
+	write_file(root, "_redirects", redirects.as_bytes())
 }
 
 fn read_names(database: &Database, sql: &str) -> Result<Vec<String>> {

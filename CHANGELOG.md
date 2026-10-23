@@ -20,6 +20,7 @@ No public release has been made.
 - Daily scheduled release runs with automatic CalVer assignment from dataset tags
 - Dataset release tags namespaced as `bnck-dataset-<CalVer>`
 - Unchanged provider datasets skipped during scheduled publication
+- Latest dataset redirects resolve to the current release tag
 
 ### Changed
 
