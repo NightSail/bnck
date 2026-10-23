@@ -17,6 +17,9 @@ No public release has been made.
 - Release assembly rejects absolute and parent-relative input paths
 - Candidate-only validation mode for split acquisition and release pipelines
 - GitHub Actions release workflow with per-channel acquisition jobs and site deployment
+- Daily scheduled release runs with automatic CalVer assignment from dataset tags
+- Dataset release tags namespaced as `bnck-dataset-<CalVer>`
+- Unchanged provider datasets skipped during scheduled publication
 
 ### Changed
 

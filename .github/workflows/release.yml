@@ -1,25 +1,87 @@
 name: Release
 
 on:
+  schedule:
+    - cron: '17 3 * * *'
   workflow_dispatch:
     inputs:
       release:
-        description: CalVer release identifier, for example 2026-10-22.1
-        required: true
+        description: Optional CalVer identifier; leave blank to assign the next one
+        required: false
         type: string
 
-run-name: Release ${{ inputs.release }}
+run-name: Dataset release ${{ inputs.release || 'automatic' }}
 
 permissions:
   contents: read
 
 concurrency:
-  group: release-${{ inputs.release }}
+  group: release
   cancel-in-progress: false
 
 jobs:
+  plan:
+    name: Plan dataset release
+    runs-on: ubuntu-latest
+    outputs:
+      release: ${{ steps.plan.outputs.release }}
+      tag: ${{ steps.plan.outputs.tag }}
+      previous_tag: ${{ steps.plan.outputs.previous_tag }}
+      force: ${{ steps.plan.outputs.force }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve release identifier
+        id: plan
+        env:
+          RELEASE_INPUT: ${{ inputs.release }}
+        run: |
+          set -euo pipefail
+          previous_tag="$(
+            git ls-remote --tags --refs origin 'refs/tags/bnck-dataset-*' |
+              sed 's#.*refs/tags/##' |
+              sort -V |
+              tail -n 1
+          )"
+          if [ -n "$RELEASE_INPUT" ]; then
+            release="$RELEASE_INPUT"
+            if ! [[ "$release" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}\.[1-9][0-9]*$ ]]; then
+              printf 'Release identifier must use YYYY-MM-DD.N: %s\n' "$release" >&2
+              exit 1
+            fi
+            date_part="${release%%.*}"
+            normalized_date="$(date -u -d "$date_part" '+%F')"
+            if [ "$normalized_date" != "$date_part" ]; then
+              printf 'Release date is invalid: %s\n' "$date_part" >&2
+              exit 1
+            fi
+            tag="bnck-dataset-$release"
+            if git ls-remote --tags origin "refs/tags/$tag" | grep -q .; then
+              printf 'Tag already exists: %s\n' "$tag" >&2
+              exit 1
+            fi
+            force=true
+          else
+            date_part="$(date -u '+%F')"
+            sequence="$(
+              git ls-remote --tags --refs origin "refs/tags/bnck-dataset-$date_part.*" |
+                sed "s#.*refs/tags/bnck-dataset-$date_part\.##" |
+                sort -n |
+                tail -n 1
+            )"
+            last_sequence="${sequence:-0}"
+            release="$date_part.$((last_sequence + 1))"
+            tag="bnck-dataset-$release"
+            force=false
+          fi
+          printf 'release=%s\n' "$release" >> "$GITHUB_OUTPUT"
+          printf 'tag=%s\n' "$tag" >> "$GITHUB_OUTPUT"
+          printf 'previous_tag=%s\n' "$previous_tag" >> "$GITHUB_OUTPUT"
+          printf 'force=%s\n' "$force" >> "$GITHUB_OUTPUT"
+          printf 'Planned dataset release `%s`\n' "$release" >> "$GITHUB_STEP_SUMMARY"
+
   acquire:
     name: Acquire ${{ matrix.channel }}
+    needs: plan
     runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
@@ -94,13 +156,16 @@ jobs:
           retention-days: 7
 
   build:
-    name: Build and publish
-    needs: acquire
+    name: Build dataset
+    needs: [plan, acquire]
     runs-on: ubuntu-latest
     timeout-minutes: 120
     environment: cloudflare-pages
     permissions:
       contents: write
+    outputs:
+      changed: ${{ steps.digest.outputs.changed }}
+      dataset_tag: ${{ steps.dataset.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
       - uses: extractions/setup-just@v2
@@ -120,11 +185,44 @@ jobs:
           pattern: acquired-*
           path: var/acquired
           merge-multiple: true
+      - name: Generate providers
+        env:
+          BNCK_CANDIDATE_ONLY: '1'
+        run: just generate
+      - name: Check for dataset changes
+        id: digest
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORCE: ${{ needs.plan.outputs.force }}
+          PREVIOUS_TAG: ${{ needs.plan.outputs.previous_tag }}
+        run: |
+          set -euo pipefail
+          current_sha="$(sha256sum var/providers.jsonl | cut -d' ' -f1)"
+          changed=true
+          if [ "$FORCE" != 'true' ] && [ -n "$PREVIOUS_TAG" ]; then
+            mkdir -p var/latest-release
+            gh release download "$PREVIOUS_TAG" --pattern manifest.json --dir var/latest-release
+            previous_sha="$(jq -r '.dataset.sha256' var/latest-release/manifest.json)"
+            if ! [[ "$previous_sha" =~ ^[0-9a-f]{64}$ ]]; then
+              printf 'Invalid dataset digest in %s\n' "$PREVIOUS_TAG" >&2
+              exit 1
+            fi
+            if [ "$current_sha" = "$previous_sha" ]; then
+              changed=false
+            fi
+          fi
+          printf 'changed=%s\n' "$changed" >> "$GITHUB_OUTPUT"
+          printf 'Dataset SHA-256: `%s`\n' "$current_sha" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$changed" = 'false' ]; then
+            printf 'Dataset unchanged; skipping publication.\n' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Install release tools
+        if: steps.digest.outputs.changed == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y minisign zstd
       - name: Configure signing key
+        if: steps.digest.outputs.changed == 'true'
         env:
           MINISIGN_SECRET_KEY: ${{ secrets.MINISIGN_SECRET_KEY }}
         run: |
@@ -133,36 +231,47 @@ jobs:
           printf '%s\n' "$MINISIGN_SECRET_KEY" > minisign.key
           chmod 600 minisign.key
           test -f minisign.pub
-      - name: Generate and release
+      - name: Build and sign release
+        if: steps.digest.outputs.changed == 'true'
         env:
           BNCK_CANDIDATE_ONLY: '1'
-          RELEASE: ${{ inputs.release }}
-        run: |
-          set -euo pipefail
-          just generate
-          just release "$RELEASE"
+          RELEASE: ${{ needs.plan.outputs.release }}
+        run: just release "$RELEASE"
       - name: Publish GitHub Release
+        if: steps.digest.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-          RELEASE: ${{ inputs.release }}
+          RELEASE: ${{ needs.plan.outputs.release }}
+          TAG: ${{ needs.plan.outputs.tag }}
         run: |
           set -euo pipefail
-          tag="bnck-$RELEASE"
-          if gh release view "$tag" >/dev/null 2>&1; then
-            printf 'Release %s already exists\n' "$tag" >&2
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            printf 'Release %s already exists\n' "$TAG" >&2
             exit 1
           fi
-          gh release create "$tag" \
+          gh release create "$TAG" \
             "var/releases/bnck-$RELEASE.tar.zst" \
+            "var/releases/bnck-$RELEASE/manifest.json" \
+            "var/releases/bnck-$RELEASE/bnck.sqlite.zst" \
             "var/releases/bnck-$RELEASE/SHA256SUMS" \
             "var/releases/bnck-$RELEASE/SHA256SUMS.minisig" \
-            --title "bnck $RELEASE" \
+            --title "bnck dataset $RELEASE" \
             --notes "Dataset release $RELEASE."
-      - uses: actions/upload-artifact@v4
-        with:
-          name: dataset-sqlite
-          path: var/releases/bnck-${{ inputs.release }}/bnck.sqlite.zst
-          retention-days: 7
+      - name: Select dataset release tag
+        id: dataset
+        env:
+          CHANGED: ${{ steps.digest.outputs.changed }}
+          NEW_TAG: ${{ needs.plan.outputs.tag }}
+          PREVIOUS_TAG: ${{ needs.plan.outputs.previous_tag }}
+        run: |
+          set -euo pipefail
+          if [ "$CHANGED" = 'true' ]; then
+            tag="$NEW_TAG"
+          else
+            tag="$PREVIOUS_TAG"
+          fi
+          test -n "$tag"
+          printf 'tag=%s\n' "$tag" >> "$GITHUB_OUTPUT"
 
   site:
     name: Build and deploy site
@@ -184,10 +293,14 @@ jobs:
           key: cargo-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}-site
           restore-keys: |
             cargo-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}-
-      - uses: actions/download-artifact@v4
-        with:
-          name: dataset-sqlite
-          path: var
+      - name: Download released SQLite artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ needs.build.outputs.dataset_tag }}
+        run: |
+          set -euo pipefail
+          mkdir -p var
+          gh release download "$TAG" --pattern bnck.sqlite.zst --dir var
       - name: Generate static site
         run: just generate-site
       - name: Deploy Cloudflare Pages
