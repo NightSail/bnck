@@ -79,6 +79,10 @@ just stats
 
 Fetch jobs end with the on-disk size of the inputs they retain; import, generate, and release jobs end with the size of the artifacts they write. Each summary line names the path and its IEC size.
 
+## Curation diagnostics
+
+`just generate` and `just release` write acquisition diagnostics to `var/diagnostics/report.json` and compare against `var/diagnostics/baseline.json`. The first run creates the baseline. Warnings report new or removed executables, changed package sets, projects without observed packages, and project metadata conflicts; they do not block generation. Pass `--baseline` a previous acquisitions or release directory to compare against a fixed historical state without updating it.
+
 ## Curations
 
 Project definitions, package ownership rules, and name associations live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, name associations, and validation requirements.

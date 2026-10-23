@@ -3,6 +3,8 @@ set shell := ['bash', '-eu', '-o', 'pipefail', '-c']
 bnck := 'cargo run --quiet --bin bnck --'
 bnck_bulk := 'cargo run --release --quiet --bin bnck --'
 languages_input := 'var/input/languages'
+diagnostics_report := 'var/diagnostics/report.json'
+diagnostics_baseline := 'var/diagnostics/baseline.json'
 # Report the on-disk size of a job's fetched inputs or written artifacts.
 size := justfile_directory() + '/justfiles/size.sh'
 
@@ -41,6 +43,8 @@ generate acquisitions='var/acquired' output='var/providers.jsonl':
         --acquisitions '{{ acquisitions }}' \
         --curations curations \
         --output '{{ output }}' \
+        --diagnostics '{{ diagnostics_report }}' \
+        --baseline '{{ diagnostics_baseline }}' \
         $candidate_only
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
@@ -96,6 +100,8 @@ release dataset_release secret_key='minisign.key' public_key='minisign.pub' inpu
         --dataset-release '{{ dataset_release }}' \
         --generated-at "$generated_at" \
         --generator-revision "$revision" \
+        --diagnostics '{{ diagnostics_report }}' \
+        --baseline '{{ diagnostics_baseline }}' \
         $candidate_only
     minisign -S -s '{{ secret_key }}' -m "$release/SHA256SUMS" -x "$release/SHA256SUMS.minisig"
     minisign -Vm "$release/SHA256SUMS" -p '{{ public_key }}'

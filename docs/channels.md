@@ -156,6 +156,22 @@ Acquisition fetches the PEP 691 JSON response from `https://pypi.org/simple/<nor
 
 The global project index is not fetched. PEP 658 metadata sidecars, source distributions, and multiple wheel variants are not inspected. A current release without a wheel is recorded as unsupported; acquisition does not fall back to an older release.
 
+## Curation diagnostics
+
+`just generate` and `just release` write a non-blocking acquisition diagnostics report and compare the selected acquisitions with a baseline. Warnings are printed to standard error and never fail dataset generation.
+
+The default paths are `var/diagnostics/report.json` and `var/diagnostics/baseline.json`. When the baseline file does not exist, the first successful run writes the current acquisition state as the baseline. Later runs compare package and executable sets only for channels that are complete in both states. A file baseline is replaced after a successful run; a directory baseline, such as previous acquisitions or an extracted release directory, is read without modification.
+
+Diagnostics cover:
+
+- New or removed executables under ordinarily owned packages
+- Changed executable sets for other packages
+- New or removed packages
+- Projects with no currently observed packages
+- Project homepage or repository metadata that disagrees with package hints
+
+Package change warnings skip partial or failed snapshots to avoid treating incomplete acquisition as deletion. The report uses stable JSON with a `format` of `bnck-acquisition-diagnostics`. Repository redirect warnings are not part of generation because they require network requests.
+
 ## Current limitations
 
 - No signature verification

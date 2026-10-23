@@ -33,6 +33,7 @@ No public release has been made.
 - TypeScript static site generation and browser modules
 - Short name map pages at `/short/2` and `/short/{letter}` covering every two- and three-letter lowercase executable name
 - Hot-reloading website development server with no runtime dependencies
+- Non-blocking acquisition diagnostics for executable-set changes, unobserved projects, and project metadata conflicts, with a JSON report and comparison baseline
 
 ### Changed
 

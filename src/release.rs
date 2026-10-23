@@ -259,6 +259,7 @@ pub struct ReleaseMetadata<'a> {
 	pub generator_revision: &'a str,
 }
 
+#[cfg(test)]
 pub fn assemble_release(
 	providers: &Path,
 	names: &Path,
@@ -268,6 +269,31 @@ pub fn assemble_release(
 	metadata: &ReleaseMetadata<'_>,
 	mode: SnapshotValidationMode,
 ) -> Result<DatasetSummary> {
+	assemble_release_with_options(
+		providers,
+		names,
+		acquisitions,
+		curations,
+		output,
+		metadata,
+		&ReleaseOptions { mode, diagnostics: None },
+	)
+}
+
+pub struct ReleaseOptions<'a> {
+	pub mode: SnapshotValidationMode,
+	pub diagnostics: Option<&'a crate::diagnostics::Options>,
+}
+
+pub fn assemble_release_with_options(
+	providers: &Path,
+	names: &Path,
+	acquisitions: &Path,
+	curations: &Path,
+	output: &Path,
+	metadata: &ReleaseMetadata<'_>,
+	options: &ReleaseOptions<'_>,
+) -> Result<DatasetSummary> {
 	validate_metadata(&SqliteMetadata {
 		dataset_release: metadata.release,
 		generated_at: metadata.generated_at,
@@ -276,7 +302,11 @@ pub fn assemble_release(
 	})?;
 	ensure!(!output.exists(), "release output already exists: {}", output.display());
 
-	let snapshots = read_snapshot_directory_with_mode(acquisitions, mode)?;
+	let diagnostics = options
+		.diagnostics
+		.map(|diagnostics| crate::diagnostics::prepare(acquisitions, curations, options.mode, diagnostics))
+		.transpose()?;
+	let snapshots = read_snapshot_directory_with_mode(acquisitions, options.mode)?;
 	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", acquisitions.display());
 	for (_, snapshot) in &snapshots {
 		for input in &snapshot.inputs {
@@ -436,6 +466,9 @@ pub fn assemble_release(
 	bytes.push(b'\n');
 	fs::write(&manifest_path, bytes).with_context(|| format!("write {}", manifest_path.display()))?;
 	write_checksums(output)?;
+	if let Some((diagnostics, acquisitions)) = diagnostics {
+		diagnostics.emit(&acquisitions)?;
+	}
 	Ok(dataset)
 }
 
@@ -575,7 +608,10 @@ mod tests {
 	use rusqlite::Connection;
 	use tempfile::tempdir;
 
-	use super::{ReleaseMetadata, SQLITE_SCHEMA_VERSION, SqliteMetadata, assemble_release, generate_sqlite_artifact};
+	use super::{
+		ReleaseMetadata, ReleaseOptions, SQLITE_SCHEMA_VERSION, SqliteMetadata, assemble_release,
+		assemble_release_with_options, generate_sqlite_artifact,
+	};
 	use crate::acquisition::{PackageObservation, SnapshotMetadata, SnapshotValidationMode, write_snapshot_manifest};
 
 	const PROVIDERS: &str = concat!(
@@ -662,6 +698,69 @@ mod tests {
 		assert_eq!(manifest["dataset"]["name_associations"]["schema_version"], 1);
 		assert_eq!(manifest["dataset"]["name_associations"]["association_count"], 1);
 		assert_eq!(manifest["channels"][0]["name"], "crates.io");
+	}
+
+	#[test]
+	fn assembles_release_with_non_blocking_diagnostics() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		let curations = write_curations(root.path());
+		let output = root.path().join("release");
+		let report = root.path().join("diagnostics/report.json");
+		let baseline = root.path().join("diagnostics/baseline.json");
+		fs::create_dir(&acquisitions).unwrap();
+		let candidates = acquisitions.join("crates-io.jsonl");
+		fs::write(
+			&candidates,
+			concat!(
+				"{\"channel\":\"crates.io\",\"package\":\"helix-term\",\"version\":\"1\",",
+				"\"executable\":\"hx\",\"evidence\":\"declared-entry-point\"}\n",
+			),
+		)
+		.unwrap();
+		write_snapshot_manifest(
+			&candidates,
+			SnapshotMetadata::complete(
+				"crates.io",
+				&[],
+				std::collections::BTreeMap::from([(
+					"release-policy".to_owned(),
+					"latest-non-yanked-stable".to_owned(),
+				)]),
+			),
+			[PackageObservation::observed("helix-term", "1")],
+		)
+		.unwrap();
+		let providers = root.path().join("providers.jsonl");
+		fs::write(
+			&providers,
+			"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
+		)
+		.unwrap();
+		let names = root.path().join("names.jsonl");
+		fs::write(&names, NAMES).unwrap();
+		let metadata = ReleaseMetadata {
+			release: "2026-04-16.1",
+			generated_at: "2026-04-16T12:00:00Z",
+			generator_revision: "0123456789abcdef",
+		};
+		let diagnostics =
+			crate::diagnostics::Options { report: Some(report.clone()), baseline: Some(baseline.clone()) };
+
+		assemble_release_with_options(
+			&providers,
+			&names,
+			&acquisitions,
+			&curations,
+			&output,
+			&metadata,
+			&ReleaseOptions { mode: SnapshotValidationMode::Full, diagnostics: Some(&diagnostics) },
+		)
+		.unwrap();
+
+		assert!(output.join("manifest.json").is_file());
+		assert!(report.is_file());
+		assert!(baseline.is_file());
 	}
 
 	#[test]

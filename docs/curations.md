@@ -387,4 +387,4 @@ Validation fails on:
 
 Validation must distinguish stale curation from incomplete acquisition: a failed or partial importer run must not make valid curation appear stale.
 
-Validation is strict: detected issues fail generation rather than producing non-blocking warnings.
+Validation is strict: attribution and structural issues fail generation rather than producing non-blocking warnings. Acquisition drift and project metadata conflicts are reported separately by acquisition diagnostics; see [channel acquisition](channels.md#curation-diagnostics).

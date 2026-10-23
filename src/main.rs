@@ -1,5 +1,6 @@
 mod acquisition;
 mod curation;
+mod diagnostics;
 mod importers;
 mod ingest;
 mod matcher;
@@ -141,6 +142,10 @@ enum Command {
 		names_output: Option<PathBuf>,
 		#[arg(long)]
 		candidate_only: bool,
+		#[arg(long)]
+		diagnostics: Option<PathBuf>,
+		#[arg(long)]
+		baseline: Option<PathBuf>,
 	},
 	GenerateSqlite {
 		#[arg(long)]
@@ -177,6 +182,10 @@ enum Command {
 		generator_revision: String,
 		#[arg(long)]
 		candidate_only: bool,
+		#[arg(long)]
+		diagnostics: Option<PathBuf>,
+		#[arg(long)]
+		baseline: Option<PathBuf>,
 	},
 	IngestHints {
 		#[arg(long, default_value = "var/hints")]
@@ -261,14 +270,17 @@ fn main() -> Result<()> {
 			Some(plan) => importers::pypi::import_plan(&plan, &output, scope)?,
 			None => importers::pypi::import(&input.expect("clap requires input or plan"), &output, scope)?,
 		},
-		Command::Generate { acquisitions, curations, output, names_output, candidate_only } => {
+		Command::Generate { acquisitions, curations, output, names_output, candidate_only, diagnostics, baseline } => {
 			let mode = if candidate_only {
 				acquisition::SnapshotValidationMode::CandidateOnly
 			} else {
 				acquisition::SnapshotValidationMode::Full
 			};
 			let names_output = names_output.unwrap_or_else(|| output.with_file_name("names.jsonl"));
-			let dataset = curation::generate(&acquisitions, &curations, &output, &names_output, mode)?;
+			let diagnostics = (diagnostics.is_some() || baseline.is_some())
+				.then_some(diagnostics::Options { report: diagnostics, baseline });
+			let options = curation::GenerateOptions { mode, diagnostics: diagnostics.as_ref() };
+			let dataset = curation::generate_with_options(&acquisitions, &curations, &output, &names_output, &options)?;
 			eprintln!(
 				"wrote {} provider records and {} name associations",
 				dataset.provider_count, dataset.association_count
@@ -307,6 +319,8 @@ fn main() -> Result<()> {
 			generated_at,
 			generator_revision,
 			candidate_only,
+			diagnostics,
+			baseline,
 		} => {
 			let metadata = release::ReleaseMetadata {
 				release: &dataset_release,
@@ -318,8 +332,18 @@ fn main() -> Result<()> {
 			} else {
 				acquisition::SnapshotValidationMode::Full
 			};
-			let dataset =
-				release::assemble_release(&input, &names_input, &acquisitions, &curations, &output, &metadata, mode)?;
+			let diagnostics = (diagnostics.is_some() || baseline.is_some())
+				.then_some(diagnostics::Options { report: diagnostics, baseline });
+			let options = release::ReleaseOptions { mode, diagnostics: diagnostics.as_ref() };
+			let dataset = release::assemble_release_with_options(
+				&input,
+				&names_input,
+				&acquisitions,
+				&curations,
+				&output,
+				&metadata,
+				&options,
+			)?;
 			eprintln!(
 				"wrote {} provider records and {} name associations",
 				dataset.providers.provider_count, dataset.associations.association_count

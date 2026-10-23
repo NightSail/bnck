@@ -40,7 +40,7 @@ pub(crate) struct ProjectPackage {
 
 #[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
-struct PackageCuration {
+pub(crate) struct PackageCuration {
 	channel: String,
 	name: String,
 	#[serde(default)]
@@ -114,15 +114,28 @@ pub struct GeneratedDataset {
 	pub association_count: usize,
 }
 
-type PackageKey = (String, String);
-type AcquiredPackages = BTreeMap<PackageKey, BTreeSet<String>>;
+pub(crate) type PackageKey = (String, String);
+pub(crate) type AcquiredPackages = BTreeMap<PackageKey, BTreeSet<String>>;
 
-struct Acquisitions {
-	packages: AcquiredPackages,
-	selected_channels: BTreeSet<String>,
-	complete_channels: BTreeSet<String>,
+#[derive(Default)]
+pub(crate) struct PackageHints {
+	pub(crate) homepages: BTreeSet<String>,
+	pub(crate) repositories: BTreeSet<String>,
 }
 
+pub(crate) struct Acquisitions {
+	pub(crate) packages: AcquiredPackages,
+	pub(crate) hints: BTreeMap<PackageKey, PackageHints>,
+	pub(crate) selected_channels: BTreeSet<String>,
+	pub(crate) complete_channels: BTreeSet<String>,
+}
+
+pub struct GenerateOptions<'a> {
+	pub mode: SnapshotValidationMode,
+	pub diagnostics: Option<&'a crate::diagnostics::Options>,
+}
+
+#[cfg(test)]
 pub fn generate(
 	acquisitions: &Path,
 	curations: &Path,
@@ -130,13 +143,27 @@ pub fn generate(
 	names_output: &Path,
 	mode: SnapshotValidationMode,
 ) -> Result<GeneratedDataset> {
+	generate_with_options(acquisitions, curations, output, names_output, &GenerateOptions { mode, diagnostics: None })
+}
+
+pub fn generate_with_options(
+	acquisitions: &Path,
+	curations: &Path,
+	output: &Path,
+	names_output: &Path,
+	options: &GenerateOptions<'_>,
+) -> Result<GeneratedDataset> {
 	validate_manifest(curations)?;
 	let projects = load_projects(&curations.join("projects"))?;
 	let owners = package_owners(&projects)?;
 	let overrides = load_package_curations(&curations.join("packages"))?;
 	validate_project_references(&overrides, &projects)?;
 	let associations = load_name_associations(curations, &projects)?;
-	let acquisitions = load_candidates(acquisitions, mode)?;
+	let acquisitions = load_candidates(acquisitions, options.mode)?;
+	let diagnostics = options
+		.diagnostics
+		.map(|diagnostics| crate::diagnostics::analyze(&acquisitions, &projects, &owners, &overrides, diagnostics))
+		.transpose()?;
 	let package_keys = owners.keys().chain(overrides.keys()).cloned().collect::<BTreeSet<_>>();
 	let mut providers = BTreeSet::new();
 
@@ -158,6 +185,9 @@ pub fn generate(
 
 	let provider_count = write_json_lines(output, providers)?;
 	let association_count = write_json_lines(names_output, associations)?;
+	if let Some(diagnostics) = diagnostics {
+		diagnostics.emit(&acquisitions)?;
+	}
 	Ok(GeneratedDataset { provider_count, association_count })
 }
 
@@ -268,7 +298,7 @@ fn validate_project(project: &Project) -> Result<()> {
 	Ok(())
 }
 
-fn package_owners(projects: &BTreeMap<String, Project>) -> Result<BTreeMap<PackageKey, String>> {
+pub(crate) fn package_owners(projects: &BTreeMap<String, Project>) -> Result<BTreeMap<PackageKey, String>> {
 	let mut owners = BTreeMap::new();
 	for project in projects.values() {
 		for package in &project.packages {
@@ -298,7 +328,7 @@ pub(crate) fn curated_package_projects(root: &Path, channel: &str, name: &str) -
 	Ok(project_ids)
 }
 
-fn load_package_curations(packages_root: &Path) -> Result<BTreeMap<PackageKey, PackageCuration>> {
+pub(crate) fn load_package_curations(packages_root: &Path) -> Result<BTreeMap<PackageKey, PackageCuration>> {
 	let mut packages = BTreeMap::new();
 	if !packages_root.exists() {
 		return Ok(packages);
@@ -323,10 +353,11 @@ fn validate_channel_directory(path: &Path, channel: &str, packages_root: &Path) 
 	Ok(())
 }
 
-fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Result<Acquisitions> {
+pub(crate) fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Result<Acquisitions> {
 	let snapshots = read_snapshot_directory_with_mode(path, mode)?;
 	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", path.display());
 	let mut packages = AcquiredPackages::new();
+	let mut hints = BTreeMap::<PackageKey, PackageHints>::new();
 	let mut selected_channels = BTreeSet::new();
 	let mut candidate_paths = BTreeSet::new();
 	let mut channel_statuses = BTreeMap::<String, Vec<SnapshotStatus>>::new();
@@ -356,6 +387,13 @@ fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Result<Acquisit
 				key.0,
 				key.1
 			);
+			let package_hints = hints.entry(key.clone()).or_default();
+			if let Some(homepage) = &candidate.homepage {
+				package_hints.homepages.insert(homepage.clone());
+			}
+			if let Some(repository) = &candidate.repository {
+				package_hints.repositories.insert(repository.clone());
+			}
 			packages.entry(key).or_default().insert(candidate.executable);
 		}
 	}
@@ -374,7 +412,7 @@ fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Result<Acquisit
 		.filter(|(_, statuses)| statuses.iter().all(|status| *status == SnapshotStatus::Complete))
 		.map(|(channel, _)| channel)
 		.collect();
-	Ok(Acquisitions { packages, selected_channels, complete_channels })
+	Ok(Acquisitions { packages, hints, selected_channels, complete_channels })
 }
 
 fn validate_project_references(
