@@ -138,6 +138,8 @@ enum Command {
 		curations: PathBuf,
 		#[arg(long)]
 		output: PathBuf,
+		#[arg(long)]
+		candidate_only: bool,
 	},
 	GenerateSqlite {
 		#[arg(long)]
@@ -168,6 +170,8 @@ enum Command {
 		generated_at: String,
 		#[arg(long)]
 		generator_revision: String,
+		#[arg(long)]
+		candidate_only: bool,
 	},
 	SuggestRegistryPackages {
 		#[arg(long, default_value = "var/acquired")]
@@ -253,8 +257,13 @@ async fn main() -> Result<()> {
 			Some(plan) => importers::pypi::import_plan(&plan, &output, scope)?,
 			None => importers::pypi::import(&input.expect("clap requires input or plan"), &output, scope)?,
 		},
-		Command::Generate { acquisitions, curations, output } => {
-			curation::generate(&acquisitions, &curations, &output)?
+		Command::Generate { acquisitions, curations, output, candidate_only } => {
+			let mode = if candidate_only {
+				acquisition::SnapshotValidationMode::CandidateOnly
+			} else {
+				acquisition::SnapshotValidationMode::Full
+			};
+			curation::generate(&acquisitions, &curations, &output, mode)?
 		},
 		Command::GenerateSqlite { input, curations, output, dataset_release, generated_at, generator_revision } => {
 			let metadata = release::SqliteMetadata {
@@ -273,13 +282,19 @@ async fn main() -> Result<()> {
 			dataset_release,
 			generated_at,
 			generator_revision,
+			candidate_only,
 		} => {
 			let metadata = release::ReleaseMetadata {
 				release: &dataset_release,
 				generated_at: &generated_at,
 				generator_revision: &generator_revision,
 			};
-			release::assemble_release(&input, &acquisitions, &curations, &output, &metadata)?.provider_count
+			let mode = if candidate_only {
+				acquisition::SnapshotValidationMode::CandidateOnly
+			} else {
+				acquisition::SnapshotValidationMode::Full
+			};
+			release::assemble_release(&input, &acquisitions, &curations, &output, &metadata, mode)?.provider_count
 		},
 		Command::SuggestRegistryPackages { acquisitions, curations, output } => {
 			let suggestions = matcher::suggest_registry_packages(&acquisitions, &curations)?;

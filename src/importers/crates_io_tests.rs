@@ -59,5 +59,14 @@ fn bulk_selection_discovers_renamed_packages_by_repository_and_uses_current_stab
 	assert_eq!(suggestions[0].package.package, "renamed-cli");
 	assert_eq!(fs::read(curations.join("projects/tool.toml")).unwrap(), before);
 	/* Discovery is not ownership: neither package produces a canonical provider yet. */
-	assert_eq!(crate::curation::generate(&acquired, &curations, &root.path().join("providers.jsonl")).unwrap(), 0);
+	assert_eq!(
+		crate::curation::generate(
+			&acquired,
+			&curations,
+			&root.path().join("providers.jsonl"),
+			crate::acquisition::SnapshotValidationMode::Full,
+		)
+		.unwrap(),
+		0
+	);
 }

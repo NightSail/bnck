@@ -13,6 +13,12 @@ use crate::model::{Candidate, read_candidates, validate_channel, validate_identi
 pub const ACQUISITION_FORMAT: &str = "bnck-channel-snapshot";
 pub const ACQUISITION_FORMAT_VERSION: u32 = 1;
 
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub enum SnapshotValidationMode {
+	Full,
+	CandidateOnly,
+}
+
 #[derive(Clone, Debug, Deserialize, Eq, Ord, PartialEq, PartialOrd, Serialize)]
 #[serde(deny_unknown_fields)]
 pub struct PackageObservation {
@@ -110,7 +116,7 @@ pub struct ChannelSnapshot {
 }
 
 impl ChannelSnapshot {
-	pub fn validate(&self, manifest_path: &Path) -> Result<()> {
+	pub fn validate(&self, manifest_path: &Path, mode: SnapshotValidationMode) -> Result<()> {
 		ensure!(self.format == ACQUISITION_FORMAT, "unsupported acquisition format {}", self.format);
 		ensure!(
 			self.format_version == ACQUISITION_FORMAT_VERSION,
@@ -127,10 +133,12 @@ impl ChannelSnapshot {
 		for input in &self.inputs {
 			validate_identity("snapshot input path", &input.path)?;
 			validate_sha256("snapshot input", &input.sha256)?;
-			let input_path = Path::new(&input.path);
-			let (size, sha256) = file_identity(input_path)?;
-			ensure!(size == input.size, "{} size does not match its snapshot manifest", input_path.display());
-			ensure!(sha256 == input.sha256, "{} digest does not match its snapshot manifest", input_path.display());
+			if mode == SnapshotValidationMode::Full {
+				let input_path = Path::new(&input.path);
+				let (size, sha256) = file_identity(input_path)?;
+				ensure!(size == input.size, "{} size does not match its snapshot manifest", input_path.display());
+				ensure!(sha256 == input.sha256, "{} digest does not match its snapshot manifest", input_path.display());
+			}
 		}
 		let package_set = self.packages.iter().cloned().collect::<BTreeSet<_>>();
 		ensure!(package_set.len() == self.packages.len(), "snapshot has duplicate package observations");
@@ -287,7 +295,15 @@ pub fn write_snapshot_manifest(
 	Ok(manifest_path)
 }
 
+#[cfg(test)]
 pub fn read_snapshot_directory(path: &Path) -> Result<Vec<(PathBuf, ChannelSnapshot)>> {
+	read_snapshot_directory_with_mode(path, SnapshotValidationMode::Full)
+}
+
+pub fn read_snapshot_directory_with_mode(
+	path: &Path,
+	mode: SnapshotValidationMode,
+) -> Result<Vec<(PathBuf, ChannelSnapshot)>> {
 	let mut manifests = Vec::new();
 	let mut snapshot_ids = BTreeSet::new();
 	for entry in WalkDir::new(path).follow_links(false) {
@@ -299,7 +315,7 @@ pub fn read_snapshot_directory(path: &Path) -> Result<Vec<(PathBuf, ChannelSnaps
 		let file = File::open(&manifest_path).with_context(|| format!("open {}", manifest_path.display()))?;
 		let manifest: ChannelSnapshot = serde_json::from_reader(BufReader::new(file))
 			.with_context(|| format!("parse {}", manifest_path.display()))?;
-		manifest.validate(&manifest_path)?;
+		manifest.validate(&manifest_path, mode)?;
 		ensure!(snapshot_ids.insert(manifest.snapshot.clone()), "duplicate snapshot ID {}", manifest.snapshot);
 		manifests.push((manifest_path, manifest));
 	}
@@ -404,14 +420,56 @@ fn hash_reader(reader: &mut impl Read, digest: &mut Sha256) -> Result<()> {
 
 #[cfg(test)]
 mod tests {
+	use std::collections::BTreeMap;
+	use std::fs;
 	use std::path::Path;
 
-	use super::recorded_input_path;
+	use tempfile::tempdir;
+
+	use super::{
+		PackageObservation, SnapshotMetadata, SnapshotValidationMode, read_snapshot_directory,
+		read_snapshot_directory_with_mode, recorded_input_path, write_snapshot_manifest,
+	};
 
 	#[test]
 	fn records_working_tree_paths_relative_to_the_repository_root() {
 		let current = std::env::current_dir().unwrap();
 		assert_eq!(recorded_input_path(&current.join("Cargo.toml")).unwrap(), "Cargo.toml");
 		assert_eq!(recorded_input_path(Path::new("var/input/Packages")).unwrap(), "var/input/Packages");
+	}
+
+	#[test]
+	fn candidate_only_validation_does_not_read_raw_inputs() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		fs::create_dir(&acquisitions).unwrap();
+		let input = root.path().join("Packages");
+		fs::write(&input, "Packages").unwrap();
+		let candidate_path = acquisitions.join("npm.jsonl");
+		fs::write(
+			&candidate_path,
+			concat!(
+				"{\"channel\":\"npm\",\"package\":\"tool\",\"version\":\"1.0.0\",",
+				"\"executable\":\"tool\",\"evidence\":\"declared-entry-point\"}\n",
+			),
+		)
+		.unwrap();
+		write_snapshot_manifest(
+			&candidate_path,
+			SnapshotMetadata::complete(
+				"npm",
+				std::slice::from_ref(&input),
+				BTreeMap::from([("registry".to_owned(), "test".to_owned())]),
+			),
+			[PackageObservation::observed("tool", "1.0.0")],
+		)
+		.unwrap();
+		fs::remove_file(input).unwrap();
+
+		assert!(read_snapshot_directory(&acquisitions).is_err());
+		let snapshots =
+			read_snapshot_directory_with_mode(&acquisitions, SnapshotValidationMode::CandidateOnly).unwrap();
+		assert_eq!(snapshots.len(), 1);
+		assert_eq!(snapshots[0].1.channel, "npm");
 	}
 }

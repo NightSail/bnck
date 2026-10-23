@@ -15,6 +15,7 @@ No public release has been made.
 - Signed release packaging as `.tar.zst` for GitHub Releases
 - Canonical dataset redirects in the generated `_redirects` file
 - Release assembly rejects absolute and parent-relative input paths
+- Candidate-only validation mode for split acquisition and release pipelines
 
 ### Changed
 

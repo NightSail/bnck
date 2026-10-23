@@ -6,7 +6,7 @@ use anyhow::{Context, Result, bail, ensure};
 use serde::Deserialize;
 use walkdir::WalkDir;
 
-use crate::acquisition::{PackageStatus, SnapshotStatus, read_snapshot_directory};
+use crate::acquisition::{PackageStatus, SnapshotStatus, SnapshotValidationMode, read_snapshot_directory_with_mode};
 use crate::model::{
 	Provider, read_candidates, validate_channel, validate_executable, validate_identity, validate_project_id,
 	write_json_lines,
@@ -101,13 +101,13 @@ struct Acquisitions {
 	complete_channels: BTreeSet<String>,
 }
 
-pub fn generate(acquisitions: &Path, curations: &Path, output: &Path) -> Result<usize> {
+pub fn generate(acquisitions: &Path, curations: &Path, output: &Path, mode: SnapshotValidationMode) -> Result<usize> {
 	validate_manifest(curations)?;
 	let projects = load_projects(&curations.join("projects"))?;
 	let owners = package_owners(&projects)?;
 	let overrides = load_package_curations(&curations.join("packages"))?;
 	validate_project_references(&overrides, &projects)?;
-	let acquisitions = load_candidates(acquisitions)?;
+	let acquisitions = load_candidates(acquisitions, mode)?;
 	let package_keys = owners.keys().chain(overrides.keys()).cloned().collect::<BTreeSet<_>>();
 	let mut providers = BTreeSet::new();
 
@@ -236,8 +236,8 @@ fn validate_channel_directory(path: &Path, channel: &str, packages_root: &Path) 
 	Ok(())
 }
 
-fn load_candidates(path: &Path) -> Result<Acquisitions> {
-	let snapshots = read_snapshot_directory(path)?;
+fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Result<Acquisitions> {
+	let snapshots = read_snapshot_directory_with_mode(path, mode)?;
 	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", path.display());
 	let mut packages = AcquiredPackages::new();
 	let mut selected_channels = BTreeSet::new();
@@ -462,7 +462,7 @@ mod tests {
 	use tempfile::tempdir;
 
 	use super::generate;
-	use crate::acquisition::{PackageObservation, SnapshotMetadata, write_snapshot_manifest};
+	use crate::acquisition::{PackageObservation, SnapshotMetadata, SnapshotValidationMode, write_snapshot_manifest};
 
 	#[test]
 	fn resolves_project_package_and_exception() {
@@ -507,7 +507,7 @@ mod tests {
 		.unwrap();
 		let output = root.path().join("providers.jsonl");
 
-		assert_eq!(generate(&acquisitions, &curations, &output).unwrap(), 1);
+		assert_eq!(generate(&acquisitions, &curations, &output, SnapshotValidationMode::Full).unwrap(), 1);
 		assert_eq!(
 			fs::read_to_string(output).unwrap(),
 			"{\"project\":\"tool\",\"executable\":\"tool\",\"channel\":\"npm\",\"package\":\"tool\"}\n"
@@ -537,7 +537,7 @@ mod tests {
 		.unwrap();
 		let output = root.path().join("providers.jsonl");
 
-		assert_eq!(generate(&acquisitions, &curations, &output).unwrap(), 0);
+		assert_eq!(generate(&acquisitions, &curations, &output, SnapshotValidationMode::Full).unwrap(), 0);
 		assert_eq!(fs::read_to_string(output).unwrap(), "");
 	}
 

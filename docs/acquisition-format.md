@@ -81,4 +81,6 @@ The schema supports input `uri` values, but current local import commands do not
 
 Dataset generation requires snapshot manifests and validates every one before resolving curations.
 
+`bnck generate` and `bnck assemble-release` accept `--candidate-only`, which validates manifest identity, candidate artifact size and digest, candidate count, and package observations without reopening raw input files. `just generate` and `just release` enable this mode with `BNCK_CANDIDATE_ONLY=1`. Use it only when a separate acquisition job has already validated the raw inputs and only candidate artifacts are transferred.
+
 For complete channel snapshots, a curated package absent from every observed package list is an error. For a partial acquisition, absence does not make curation stale and the package is skipped. An observed package with no candidates is valid and yields no providers unless curation adds an executable.

@@ -8,7 +8,7 @@ use rusqlite::{Connection, params};
 use serde::Serialize;
 use tempfile::NamedTempFile;
 
-use crate::acquisition::{PackageStatus, file_identity, read_snapshot_directory};
+use crate::acquisition::{PackageStatus, SnapshotValidationMode, file_identity, read_snapshot_directory_with_mode};
 use crate::curation::{Project, load_projects};
 use crate::model::{PROVIDER_SCHEMA_VERSION, ProviderDataset, read_provider_dataset};
 
@@ -205,6 +205,7 @@ pub fn assemble_release(
 	curations: &Path,
 	output: &Path,
 	metadata: &ReleaseMetadata<'_>,
+	mode: SnapshotValidationMode,
 ) -> Result<ProviderDataset> {
 	validate_metadata(&SqliteMetadata {
 		dataset_release: metadata.release,
@@ -214,7 +215,7 @@ pub fn assemble_release(
 	})?;
 	ensure!(!output.exists(), "release output already exists: {}", output.display());
 
-	let snapshots = read_snapshot_directory(acquisitions)?;
+	let snapshots = read_snapshot_directory_with_mode(acquisitions, mode)?;
 	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", acquisitions.display());
 	for (_, snapshot) in &snapshots {
 		for input in &snapshot.inputs {
@@ -504,7 +505,7 @@ mod tests {
 	use tempfile::tempdir;
 
 	use super::{ReleaseMetadata, SQLITE_SCHEMA_VERSION, SqliteMetadata, assemble_release, generate_sqlite_artifact};
-	use crate::acquisition::{PackageObservation, SnapshotMetadata, write_snapshot_manifest};
+	use crate::acquisition::{PackageObservation, SnapshotMetadata, SnapshotValidationMode, write_snapshot_manifest};
 
 	const PROVIDERS: &str = concat!(
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
@@ -553,7 +554,9 @@ mod tests {
 			generator_revision: "0123456789abcdef",
 		};
 
-		let dataset = assemble_release(&providers, &acquisitions, &curations, &output, &metadata).unwrap();
+		let dataset =
+			assemble_release(&providers, &acquisitions, &curations, &output, &metadata, SnapshotValidationMode::Full)
+				.unwrap();
 
 		assert_eq!(dataset.provider_count, 1);
 		for path in ["manifest.json", "providers.jsonl.zst", "bnck.sqlite.zst", "LICENSE", "SHA256SUMS"] {
@@ -617,7 +620,9 @@ mod tests {
 			generator_revision: "0123456789abcdef",
 		};
 
-		let error = assemble_release(&providers, &acquisitions, &curations, &output, &metadata).unwrap_err();
+		let error =
+			assemble_release(&providers, &acquisitions, &curations, &output, &metadata, SnapshotValidationMode::Full)
+				.unwrap_err();
 		assert!(error.to_string().contains("absolute input path"));
 		assert!(!output.exists());
 	}

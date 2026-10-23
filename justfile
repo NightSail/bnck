@@ -34,10 +34,13 @@ format:
 
 generate acquisitions='var/acquired' output='var/providers.jsonl':
     mkdir -p "$(dirname '{{ output }}')"
+    candidate_only=''; \
+    if [ "${BNCK_CANDIDATE_ONLY:-0}" = '1' ]; then candidate_only='--candidate-only'; fi; \
     {{ bnck }} generate \
         --acquisitions '{{ acquisitions }}' \
         --curations curations \
-        --output '{{ output }}'
+        --output '{{ output }}' \
+        $candidate_only
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
 generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst':
@@ -64,13 +67,16 @@ release dataset_release secret_key='minisign.key' public_key='minisign.pub' inpu
     command -v zstd >/dev/null || { printf 'zstd is required to package a release\n' >&2; exit 1; }
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
     revision="$(git rev-parse HEAD)"
+    candidate_only=''
+    if [ "${BNCK_CANDIDATE_ONLY:-0}" = '1' ]; then candidate_only='--candidate-only'; fi
     {{ bnck }} assemble-release \
         --input '{{ input }}' \
         --acquisitions '{{ acquisitions }}' \
         --output "$release" \
         --dataset-release '{{ dataset_release }}' \
         --generated-at "$generated_at" \
-        --generator-revision "$revision"
+        --generator-revision "$revision" \
+        $candidate_only
     minisign -S -s '{{ secret_key }}' -m "$release/SHA256SUMS" -x "$release/SHA256SUMS.minisig"
     minisign -Vm "$release/SHA256SUMS" -p '{{ public_key }}'
     tar --zstd -cf "$archive" -C "$(dirname "$release")" "$(basename "$release")"
