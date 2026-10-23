@@ -21,13 +21,13 @@ Coverage is curated and channel-scoped. npm and PyPI include only explicitly cur
 
 ## Verify a release
 
-Releases are signed with minisign public key `RWQUa6eV3UMbNP1mzF+QIsKhdhswoQSM3EVOJaBwEmiiS/ZGd1VyPI9I`.
+Releases are signed with minisign public key `RWQSlyUkDwCyJF9mBUymWcUWbOu1dLyAHKSm/W0PVqCSPKB1091ZzVeO`.
 
 Download a release from the canonical release page and run the following from the extracted release directory:
 
 ```sh
 sha256sum -c SHA256SUMS
-minisign -Vm SHA256SUMS -P RWQUa6eV3UMbNP1mzF+QIsKhdhswoQSM3EVOJaBwEmiiS/ZGd1VyPI9I
+minisign -Vm SHA256SUMS -P RWQSlyUkDwCyJF9mBUymWcUWbOu1dLyAHKSm/W0PVqCSPKB1091ZzVeO
 ```
 
 ## Query
