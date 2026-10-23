@@ -2,6 +2,8 @@
 # Fetch and import one acquisition channel into var/acquired.
 set -euo pipefail
 
+mkdir -p var/acquired
+
 case "$CHANNEL" in
 	debian)
 		just fetch-debian
