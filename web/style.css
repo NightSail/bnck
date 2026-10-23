@@ -71,6 +71,9 @@ a {
 	outline: 2px solid var(--green);
 	outline-offset: 4px;
 }
+main:focus-visible {
+	outline: none;
+}
 ::selection {
 	background: var(--green);
 	color: var(--on-accent);
