@@ -5,7 +5,7 @@ use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result, ensure};
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
+use crate::acquisition::{AcquisitionContext, PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
 use crate::model::Candidate;
 
 #[derive(Clone, Debug, Default)]
@@ -25,9 +25,22 @@ pub fn import(
 	contents: &Path,
 	output: &Path,
 	scope: std::collections::BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
 ) -> Result<usize> {
-	let in_release = verify_release_files(packages, &scope)?;
-	let inputs = vec![packages.to_owned(), sources.to_owned(), contents.to_owned(), in_release];
+	let (in_release, boundary) = verify_release_files(packages, &scope)?;
+	let directory = packages.parent().context("Debian package index has no parent directory")?;
+	let inputs = [
+		packages.to_owned(),
+		sources.to_owned(),
+		contents.to_owned(),
+		in_release,
+		directory.join("Packages.xz"),
+		directory.join("Sources.xz"),
+		directory.join("Contents.gz"),
+		directory.join("Contents-all.gz"),
+	];
+
 	let source_metadata = read_sources(sources)?;
 	let mut packages = read_packages(packages)?;
 	for package in packages.values_mut() {
@@ -72,10 +85,17 @@ pub fn import(
 			observation
 		})
 		.collect::<Vec<_>>();
-	write_acquisition(output, SnapshotMetadata::complete("debian", &inputs, scope), package_observations, candidates)
+	let mut metadata = SnapshotMetadata::complete("debian", &inputs, scope);
+	metadata.boundary = boundary;
+	metadata.context = context;
+	metadata.previous = previous;
+	write_acquisition(output, metadata, package_observations, candidates)
 }
 
-fn verify_release_files(packages: &Path, scope: &BTreeMap<String, String>) -> Result<PathBuf> {
+fn verify_release_files(
+	packages: &Path,
+	scope: &BTreeMap<String, String>,
+) -> Result<(PathBuf, BTreeMap<String, String>)> {
 	let directory = packages.parent().context("Debian package index has no parent directory")?;
 	let in_release = directory.join("InRelease");
 	ensure!(in_release.is_file(), "missing Debian InRelease beside {}", packages.display());
@@ -100,7 +120,16 @@ fn verify_release_files(packages: &Path, scope: &BTreeMap<String, String>) -> Re
 		ensure!(size == *expected_size, "{} size does not match InRelease", path.display());
 		ensure!(sha256 == *expected_sha256, "{} digest does not match InRelease", path.display());
 	}
-	Ok(in_release)
+	let mut boundary = BTreeMap::new();
+	if let Some(date) = fs::read_to_string(&in_release)?
+		.lines()
+		.find_map(|line| line.strip_prefix("Date: "))
+		.map(str::trim)
+		.filter(|date| !date.is_empty())
+	{
+		boundary.insert("release-date".to_owned(), date.to_owned());
+	}
+	Ok((in_release, boundary))
 }
 
 fn read_release_checksums(path: &Path) -> Result<BTreeMap<String, (u64, String)>> {
@@ -290,6 +319,8 @@ mod tests {
 				("component".to_owned(), "main".to_owned()),
 				("architecture".to_owned(), "amd64".to_owned()),
 			]),
+			None,
+			None,
 		)
 		.unwrap();
 		let candidates = read_candidates(&output).unwrap();
@@ -322,6 +353,8 @@ mod tests {
 				("component".to_owned(), "main".to_owned()),
 				("architecture".to_owned(), "amd64".to_owned()),
 			]),
+			None,
+			None,
 		)
 		.unwrap_err();
 		assert!(error.to_string().contains("does not match InRelease"));

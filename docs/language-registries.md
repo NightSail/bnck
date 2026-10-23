@@ -12,6 +12,8 @@ Collectors use the crates.io dump and explicit npm/PyPI curations:
 
 npm manifests declare `bin` entries. PyPI extraction requires project responses and static wheel inspection; the global project-name index is not fetched. No npm tarballs or crates.io artifacts are downloaded, and no package is installed, built, imported, or executed.
 
+Fetch jobs write `acquisition-context.tsv` files containing request URLs, response media types, retrieval times, and wheel URLs. Import commands read it with `--context`; snapshots therefore retain retrieval provenance without distributing raw responses or wheels. PyPI snapshots record the maximum Simple API `_last-serial` as a boundary. npm change sequences and crates.io index commits are not recorded.
+
 ## Discovery and attribution
 
 crates.io discovery uses explicitly curated registry package names, project IDs, project names, repository basenames, existing channel package names, and normalized repository or homepage URLs. Name hints ignore ASCII case and punctuation, so packages whose registry names differ from the project ID can still be found.
@@ -58,14 +60,14 @@ just fetch-pypi-metadata var/input/pypi-next
 just fetch-pypi-wheels var/input/pypi-next
 ```
 
-A metadata snapshot contains `metadata.json` (the package-to-response plan) and `metadata.tsv` (its download list). Resume interrupted downloads without repeating completed responses:
+A metadata snapshot contains `metadata.json` (the package-to-response plan), `metadata.tsv` (its download list), and `acquisition-context.tsv` (retrieval provenance). Resume interrupted downloads without repeating completed responses:
 
 ```sh
 just resume-npm var/input/npm-next
 just fetch-registry-plan pypi var/input/pypi-next/metadata.tsv
 ```
 
-Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output and scope for individual snapshot imports. Create the metadata plan from current curations before fetching; digest-cached wheels remain reusable. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
+Use `import-npm --plan <snapshot>/metadata.json` or `import-pypi --plan <snapshot>/wheels.json` with the desired output, scope, and `--context <snapshot>/acquisition-context.tsv` for individual snapshot imports. Create the metadata plan from current curations before fetching; digest-cached wheels remain reusable. Plans reference absolute local paths. Unplanned files in the response directory or wheel cache do not participate in import or its input digest.
 
 PyPI's per-package fetch and directory import produce partial snapshots with `package-selection=explicit-packages`; they do not claim to cover all curated packages. `just demo` acquires curated npm packages and Black into a fresh directory under `var/demo/` without touching production inputs or output.
 
@@ -94,3 +96,5 @@ npm release responses and PyPI project responses are retained, bounded, non-atom
 HTTP 404/410 responses are retained with status sidecars and become failed package observations. Other HTTP errors, interrupted downloads, malformed metadata, missing planned responses, and digest mismatches fail the job. Unsupported PyPI releases and npm executable declarations carry a `reason` in the package observation's variant map. These failures make the snapshot partial; they are never recorded as successful packages with no commands.
 
 A complete npm/PyPI snapshot uses `package-selection=curated-packages` and means every package in the plan was observed. A complete crates.io curation-discovery snapshot means all selected inputs were processed, not that the whole registry was scanned. Published providers remain limited to reviewed curations. Acquisition manifests retain scope and failure details outside the canonical four-field provider relation.
+
+Import commands write `failed` snapshots when parsing or validation fails. Pass `--previous` a preceding acquisitions or release directory to add `removed` package observations for packages absent from the current complete snapshot with the same channel and scope.

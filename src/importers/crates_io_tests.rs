@@ -44,7 +44,7 @@ fn bulk_selection_discovers_renamed_packages_by_repository_and_uses_current_stab
 	fs::create_dir(&acquired).unwrap();
 	let output = acquired.join("crates.jsonl");
 	let scope = BTreeMap::from([("registry".to_owned(), "crates.io".to_owned())]);
-	assert_eq!(import_dump(&crates, &versions, &output, scope, Some(&curations)).unwrap(), 1);
+	assert_eq!(import_dump(&crates, &versions, &output, scope, Some(&curations), None, None).unwrap(), 1);
 	let candidates = read_candidates(&output).unwrap();
 	assert_eq!(candidates[0].package, "renamed-cli");
 	assert_eq!(candidates[0].executable, "current");

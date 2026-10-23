@@ -5,10 +5,16 @@ use std::path::Path;
 use anyhow::{Context, Result};
 use walkdir::WalkDir;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{AcquisitionContext, PackageObservation, SnapshotMetadata, write_acquisition};
 use crate::model::Candidate;
 
-pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<String, String>) -> Result<usize> {
+pub fn import(
+	input: &Path,
+	output: &Path,
+	scope: std::collections::BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
+) -> Result<usize> {
 	let mut candidates = Vec::new();
 	let mut package_observations = Vec::new();
 	for entry in WalkDir::new(input).follow_links(false) {
@@ -60,9 +66,18 @@ pub fn import(input: &Path, output: &Path, scope: std::collections::BTreeMap<Str
 		.map(|parent| parent.join("archives"))
 		.filter(|path| path.is_dir())
 	{
-		inputs.push(archives);
+		for entry in WalkDir::new(archives).follow_links(false) {
+			let entry = entry?;
+			if entry.file_type().is_file() {
+				inputs.push(entry.into_path());
+			}
+		}
 	}
-	write_acquisition(output, SnapshotMetadata::complete("arch", &inputs, scope), package_observations, candidates)
+	inputs.sort();
+	let mut metadata = SnapshotMetadata::complete("arch", &inputs, scope);
+	metadata.context = context;
+	metadata.previous = previous;
+	write_acquisition(output, metadata, package_observations, candidates)
 }
 
 fn parse_sections(value: &str) -> BTreeMap<String, Vec<String>> {

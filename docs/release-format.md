@@ -327,14 +327,15 @@ Consumers ignore unknown fields under a known `format_version`. Removing a requi
 
 Each channel entry references a content-addressed snapshot manifest defined in [acquisition-format.md](acquisition-format.md), which records:
 
-- Channel, status, and acquisition scope
-- Input paths, sizes, and SHA-256 digests, with optional URIs
+- Channel, status, acquisition scope, and channel-native boundary
+- Input paths, sizes, SHA-256 digests, URIs, media types, retrieval timestamps, and signature results
 - Candidate artifact path, size, SHA-256 digest, and record count
 - Package observations with status, release, variant, and artifact digest
+- Derived acquisition metrics and optional failure summary
 - Importer version and optional source revision
 - The snapshot content identity
 
-Candidate artifacts are distributed beside the channel manifests. Raw channel inputs are not distributed. Current snapshots do not record retrieval times, signatures, media types, or original input URIs; the optional `uri` field is left empty.
+Candidate artifacts are distributed beside the channel manifests. Raw channel inputs are not distributed. Input provenance describes retrieval and verification; it is excluded from the content identity.
 
 Channel manifests provide acquisition provenance without adding package versions or evidence fields to canonical provider records.
 
@@ -356,7 +357,7 @@ Schema version fields are independent. Each increments only for an incompatible 
 | `schema_version` | SQLite `metadata` | SQLite schema | 2 |
 | `user_version` | SQLite `PRAGMA` | SQLite schema | 2 |
 | `schema_version` | SQLite artifact in `manifest.json` | SQLite schema | 2 |
-| `format_version` | Acquisition snapshot manifest | Acquisition snapshot format | 1 |
+| `format_version` | Acquisition snapshot manifest | Acquisition snapshot format | 2 |
 | `schema` | Curation manifest | Curation format | 1 |
 | `schema_version` | Browser dataset | Website data format | 2 |
 
@@ -392,7 +393,7 @@ Adding or removing provider records is a data update, not a semantic API change,
 
 ### Acquisition snapshot format
 
-The acquisition snapshot manifest has its own `format_version`, currently `1`. Increment it for changes to candidate or snapshot field names, types, requiredness, meaning, or identity inputs. Current readers reject unknown fields, so adding a field is also incompatible. See [acquisition-format.md](acquisition-format.md#versioning).
+The acquisition snapshot manifest has its own `format_version`, currently `2`. Increment it for changes to candidate or snapshot field names, types, requiredness, meaning, or identity inputs. Current readers reject unknown fields, so adding a field is also incompatible. Version 2 adds input provenance, channel boundaries, metrics, failure summaries, and removed observations. See [acquisition-format.md](acquisition-format.md#versioning).
 
 ### Curation format
 

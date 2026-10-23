@@ -86,8 +86,8 @@ test('argument-free fetch and import use one planned snapshot, never the old per
 	expect(imported.exitCode).toBe(0);
 	expect(imported.stdout).toContain('Wrote var/acquired/npm.jsonl: ');
 	expect(commands()).toEqual([['bnck-test', 'import-npm', '--plan', `${snapshot}/metadata.json`,
-		'--output', 'var/acquired/npm.jsonl', '--scope', 'registry=https://registry.npmjs.org',
-		'--scope', 'release-policy=latest-dist-tag']]);
+		'--output', 'var/acquired/npm.jsonl', '--context', `${snapshot}/acquisition-context.tsv`,
+		'--scope', 'registry=https://registry.npmjs.org', '--scope', 'release-policy=latest-dist-tag']]);
 	expect(readFileSync(join(inputs, 'eslint.json'), 'utf8')).toBe('old demo cache');
 });
 
@@ -134,8 +134,8 @@ test('an explicit snapshot and output do not change default selections or produc
 	const output = join(root, 'demo/npm.jsonl');
 	expect(run(['import-npm', snapshot, output]).exitCode).toBe(0);
 	expect(commands()[0]).toEqual(['bnck-test', 'import-npm', '--plan', `${snapshot}/metadata.json`,
-		'--output', output, '--scope', 'registry=https://registry.npmjs.org',
-		'--scope', 'release-policy=latest-dist-tag']);
+		'--output', output, '--context', `${snapshot}/acquisition-context.tsv`,
+		'--scope', 'registry=https://registry.npmjs.org', '--scope', 'release-policy=latest-dist-tag']);
 });
 
 test('missing selections, failed plans, and incomplete snapshots fail before importing', () => {

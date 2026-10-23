@@ -125,6 +125,7 @@ pub(crate) struct PackageHints {
 
 pub(crate) struct Acquisitions {
 	pub(crate) packages: AcquiredPackages,
+	pub(crate) removed: BTreeSet<PackageKey>,
 	pub(crate) hints: BTreeMap<PackageKey, PackageHints>,
 	pub(crate) selected_channels: BTreeSet<String>,
 	pub(crate) complete_channels: BTreeSet<String>,
@@ -172,6 +173,9 @@ pub fn generate_with_options(
 			continue;
 		}
 		let Some(acquired) = acquisitions.packages.get(&key) else {
+			if acquisitions.removed.contains(&key) {
+				continue;
+			}
 			ensure!(
 				!acquisitions.complete_channels.contains(&key.0),
 				"curated package ({}, {}) is absent from complete acquisition",
@@ -357,6 +361,7 @@ pub(crate) fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Resu
 	let snapshots = read_snapshot_directory_with_mode(path, mode)?;
 	ensure!(!snapshots.is_empty(), "{} contains no acquisition snapshot manifests", path.display());
 	let mut packages = AcquiredPackages::new();
+	let mut removed = BTreeSet::new();
 	let mut hints = BTreeMap::<PackageKey, PackageHints>::new();
 	let mut selected_channels = BTreeSet::new();
 	let mut candidate_paths = BTreeSet::new();
@@ -369,8 +374,15 @@ pub(crate) fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Resu
 			.or_default()
 			.push(snapshot.status);
 		for package in &snapshot.packages {
-			if package.status == PackageStatus::Observed {
-				packages.entry((snapshot.channel.clone(), package.name.clone())).or_default();
+			let key = (snapshot.channel.clone(), package.name.clone());
+			match package.status {
+				PackageStatus::Observed => {
+					packages.entry(key).or_default();
+				},
+				PackageStatus::Removed => {
+					removed.insert(key);
+				},
+				PackageStatus::Failed => {},
 			}
 		}
 		let candidate_path = manifest_path.parent().unwrap_or(Path::new(".")).join(&snapshot.candidates.path);
@@ -412,7 +424,7 @@ pub(crate) fn load_candidates(path: &Path, mode: SnapshotValidationMode) -> Resu
 		.filter(|(_, statuses)| statuses.iter().all(|status| *status == SnapshotStatus::Complete))
 		.map(|(channel, _)| channel)
 		.collect();
-	Ok(Acquisitions { packages, hints, selected_channels, complete_channels })
+	Ok(Acquisitions { packages, removed, hints, selected_channels, complete_channels })
 }
 
 fn validate_project_references(
@@ -685,6 +697,38 @@ mod tests {
 		assert_eq!(dataset.association_count, 0);
 		assert_eq!(fs::read_to_string(output).unwrap(), "");
 		assert_eq!(fs::read_to_string(names_output).unwrap(), "");
+	}
+
+	#[test]
+	fn treats_removed_packages_as_explicit_absence() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		let curations = root.path().join("curations");
+		fs::create_dir_all(&acquisitions).unwrap();
+		fs::create_dir_all(curations.join("projects")).unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
+		fs::write(
+			curations.join("projects/tool.toml"),
+			"id = 'tool'\nname = 'Tool'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+		)
+		.unwrap();
+		let candidate_path = acquisitions.join("npm.jsonl");
+		fs::write(&candidate_path, "").unwrap();
+		let mut removed = PackageObservation::observed("tool", "1.0.0");
+		removed.status = crate::acquisition::PackageStatus::Removed;
+		write_snapshot_manifest(
+			&candidate_path,
+			SnapshotMetadata::complete("npm", &[], BTreeMap::from([("registry".to_owned(), "test".to_owned())])),
+			[removed],
+		)
+		.unwrap();
+		let output = root.path().join("providers.jsonl");
+		let names_output = root.path().join("names.jsonl");
+
+		let dataset =
+			generate(&acquisitions, &curations, &output, &names_output, SnapshotValidationMode::Full).unwrap();
+		assert_eq!(dataset.provider_count, 0);
+		assert_eq!(fs::read_to_string(output).unwrap(), "");
 	}
 
 	#[test]

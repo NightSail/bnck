@@ -3,15 +3,26 @@ crates_dump_directory := 'var/input/crates-dump'
 crates_output := 'var/acquired/crates-io.jsonl'
 
 fetch-crates-dump directory=crates_dump_directory:
-    mkdir -p "$(dirname '{{ directory }}')"
-    mkdir '{{ directory }}'
+    #!/usr/bin/env bash
+    set -euo pipefail
+    directory='{{ directory }}'
+    context="$directory/acquisition-context.tsv"
+    retrieved_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+    mkdir -p "$(dirname "$directory")"
+    mkdir "$directory"
+    {{ context }} reset "$context"
     curl --fail --location --retry 3 --connect-timeout 20 \
-    	--output '{{ directory }}/db-dump.tar.gz.tmp' \
-    	'{{ crates_dump_url }}'
-    mv '{{ directory }}/db-dump.tar.gz.tmp' '{{ directory }}/db-dump.tar.gz'
-    tar -xzf '{{ directory }}/db-dump.tar.gz' -C '{{ directory }}' --wildcards \
-    	'*/data/crates.csv' '*/data/versions.csv' '*/metadata.json'
-    @{{ size }} 'Pulled into {{ directory }}' '{{ directory }}'
+        --output "$directory/db-dump.tar.gz.tmp" \
+        '{{ crates_dump_url }}'
+    mv "$directory/db-dump.tar.gz.tmp" "$directory/db-dump.tar.gz"
+    tar -xzf "$directory/db-dump.tar.gz" -C "$directory" --wildcards \
+        '*/data/crates.csv' '*/data/versions.csv' '*/metadata.json'
+    for file in crates versions; do
+        path="$(find "$directory" -name "$file.csv" -print -quit)"
+        test -n "$path"
+        {{ context }} input "$context" "$path" '{{ crates_dump_url }}' 'text/csv' "$retrieved_at" '' '' ''
+    done
+    {{ size }} 'Pulled into {{ directory }}' '{{ directory }}'
 
 import-crates-dump directory=crates_dump_directory:
     mkdir -p 'var/acquired'
@@ -22,7 +33,7 @@ import-crates-dump directory=crates_dump_directory:
     		--crates "${crates_csv[0]}" \
     		--versions "${versions_csv[0]}" \
     		--curations curations \
-    		--output '{{ crates_output }}' \
+    		--output '{{ crates_output }}' --context '{{ directory }}/acquisition-context.tsv' \
     		--scope 'registry=crates.io' \
     		--scope 'release-policy=latest-non-yanked-stable'
     @{{ size }} 'Wrote {{ crates_output }}' '{{ crates_output }}'

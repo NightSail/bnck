@@ -28,17 +28,21 @@ Each import writes candidate JSON Lines and an adjacent snapshot manifest named 
 
 The manifest records:
 
-- Channel, status, and scope
-- Input paths, sizes, and SHA-256 digests
+- Channel, status, scope, and channel-native boundary
+- Input paths, sizes, SHA-256 digests, original URIs, media types, retrieval timestamps, and signature results
 - Candidate artifact path, size, digest, and record count
-- Package observations with observed or failed status; the schema also defines removed
+- Package observations with observed, failed, or removed status
+- Derived input, package, and candidate metrics
+- Optional failure summary
 - Importer version and optional source revision
 
 Candidate records include the package release, executable name, evidence kind, variant, artifact digest when known, and project hints.
 
-Current manifests do not record retrieval timestamps, original URIs, media types, signature results, or a channel-native snapshot boundary. The schema has an optional `uri` field, but current import commands leave it empty. Input paths are recorded relative to the repository root when they are under it; release assembly rejects absolute and parent-relative paths.
+Fetch recipes write an `acquisition-context.tsv` beside their inputs and pass it to import commands with `--context`. The context records original request URLs, media types, retrieval times, signature results, and channel boundaries. Derived files without a remote origin omit the URI. Inputs omitted from the context fall back to local modification times. Input paths are recorded relative to the repository root when they are under it; release assembly rejects absolute and parent-relative paths.
 
-Distro and bulk crates.io imports produce complete snapshots on success. Planned npm and PyPI imports produce complete snapshots unless a package is unavailable or unsupported, in which case the snapshot is partial and the package carries a failure reason. Focused PyPI directory imports are always partial. A hard import failure aborts without writing a failed snapshot.
+Distro and bulk crates.io imports produce complete snapshots on success. Planned npm and PyPI imports produce complete snapshots unless a package is unavailable or unsupported, in which case the snapshot is partial and the package carries a failure reason. Focused PyPI directory imports are always partial.
+
+A hard import failure writes a `failed` snapshot with an empty candidate artifact and the error summary. Passing `--previous` a preceding acquisitions or release directory adds `removed` observations for complete snapshots with the same channel and scope. Partial snapshots never infer removals.
 
 Retained inputs stay under `var/input/` by default; normalized candidates are written under `var/acquired/`. Dataset releases copy channel manifests and candidate files, but not raw channel inputs.
 
@@ -56,7 +60,7 @@ Current release selection:
 - npm: The registry's `latest` dist-tag
 - PyPI: The newest non-yanked stable release, followed by a supported wheel requirement
 
-Yanked and prerelease releases are excluded. Deprecations, unpublishes, and repository removals are not emitted as package observations.
+Yanked and prerelease releases are excluded. Deprecations and unpublishes are only reported as `removed` when a complete preceding snapshot is supplied with `--previous`.
 
 ### Executable extraction
 
@@ -90,7 +94,7 @@ License URLs, issue-tracker URLs, documentation URLs, and source archive URLs ar
 
 `just fetch-debian` fetches `InRelease`, `Packages.xz`, `Sources.xz`, `Contents-<architecture>.gz`, and `Contents-all.gz` for the configured stable suite and unstable suite. It verifies `InRelease` with `gpgv` and the Debian archive keyring before downloading indexes. Set `DEBIAN_KEYRING` when the keyring is not at `/usr/share/keyrings/debian-archive-keyring.gpg`. The indexes are decompressed before import.
 
-`import-debian` verifies every downloaded index against the SHA-256 checksums and sizes in `InRelease`. The base URL, suite, component, and architecture come from the Debian justfile variables; signature verification does not cover package archives because they are not downloaded.
+`import-debian` verifies every downloaded index against the SHA-256 checksums and sizes in `InRelease`. The snapshot boundary records the `InRelease` release date, and its input signature records the verifying key fingerprint. The base URL, suite, component, and architecture come from the Debian justfile variables; signature verification does not cover package archives because they are not downloaded.
 
 `import-debian` parses:
 
@@ -109,7 +113,7 @@ The package identity is the binary package name. Stable and unstable records use
 - `primary` for package name, version, architecture, summary or description, URL, source RPM, and checksum
 - `filelists` for public command paths
 
-`import-fedora` verifies the downloaded `primary` and `filelists` metadata against the sizes and SHA-256 checksums declared by `repomd.xml`. Fedora mirrors do not publish a `repomd.xml` signature at the configured endpoint, so repository XML is trusted through HTTPS and verified by its declared metadata checksums. Metalink discovery, `updateinfo`, updates repositories, modular repositories, repository priority, and duplicate NEVRA handling are not implemented. Downloading source RPMs or inspecting spec files is deferred.
+`import-fedora` verifies the downloaded `primary` and `filelists` metadata against the sizes and SHA-256 checksums declared by `repomd.xml`. The snapshot boundary records the `repomd.xml` revision and metadata checksums. Fedora mirrors do not publish a `repomd.xml` signature at the configured endpoint, so repository XML is trusted through HTTPS and verified by its declared metadata checksums. Metalink discovery, `updateinfo`, updates repositories, modular repositories, repository priority, and duplicate NEVRA handling are not implemented. Downloading source RPMs or inspecting spec files is deferred.
 
 The package identity is the binary RPM name. The source RPM name is preserved as a hint.
 
@@ -117,7 +121,7 @@ The package identity is the binary RPM name. The source RPM name is preserved as
 
 `just fetch-arch` downloads the current `core` and `extra` repository databases and file databases from `ARCH_MIRROR`. It extracts the file databases; the importer reads the extracted `desc` and `files` data.
 
-`import-arch` reads package name, version, architecture, package base, URL, description, and SHA-256 digest from `desc`, and public command paths from `files`. The configured Arch mirrors do not publish database signatures, so database verification is limited to HTTPS transport and archive extraction; package signatures require package-archive inspection, which is deferred. Arch Linux Archive dates and `.db` metadata import are not implemented. Checking out packaging repositories or `PKGBUILD` files is deferred, as is package-archive inspection.
+`import-arch` reads package name, version, architecture, package base, URL, description, and SHA-256 digest from `desc`, and public command paths from `files`. The snapshot boundary records the HTTP `Last-Modified` value of each downloaded database. The configured Arch mirrors do not publish database signatures, so database verification is limited to HTTPS transport and archive extraction; package signatures require package-archive inspection, which is deferred. Arch Linux Archive dates and `.db` metadata import are not implemented. Checking out packaging repositories or `PKGBUILD` files is deferred, as is package-archive inspection.
 
 The package identity is the binary package name, not the package base. The package base is preserved as a hint.
 
@@ -130,7 +134,7 @@ The package identity is the binary package name, not the package base. The packa
 
 When `--core` points at a Homebrew tap checkout and the Formula API has no `executables` list, the importer statically parses direct `bin.install`, `sbin.install`, and install-symlink actions. The standard just recipes do not fetch a tap checkout.
 
-Homebrew package identities are fully qualified as `tap/name`. Bottle metadata, bottle digests, cask artifact digests, and tap commit pinning are not recorded. Bottle archive inspection and `brew install` are deferred.
+Homebrew package identities are fully qualified as `tap/name`. Snapshots record the Formula and Cask API `tap_git_head` values as boundaries and reject disagreement within either response. Bottle metadata, bottle digests, cask artifact digests, and a pinned tap checkout are not recorded. Bottle archive inspection and `brew install` are deferred.
 
 ### crates.io
 
@@ -138,7 +142,7 @@ Homebrew package identities are fully qualified as `tap/name`. Bottle metadata, 
 
 When curations are supplied, the importer narrows crates by curated package names, project names, repository basenames, and normalized repository or homepage URLs. For each selected crate it chooses the newest non-yanked, non-prerelease semantic version, records the release, and reads `bin_names` as declared executable candidates.
 
-The crates.io index is not acquired. Dump timestamps, index commits, license, readme, features, `rust_version`, edition, and `has_lib` are not imported. Crate archives are not downloaded.
+The crates.io index is not acquired. Dump timestamps and index commits are not recorded as a boundary; license, readme, features, `rust_version`, edition, and `has_lib` are not imported. Crate archives are not downloaded.
 
 ### npm
 
@@ -146,7 +150,7 @@ The crates.io index is not acquired. Dump timestamps, index commits, license, re
 
 The importer records the exact release version, package name, project fields, and `bin` declarations. An object-valued `bin` supplies command keys; a string-valued `bin` supplies the unscoped package basename. A `directories.bin` declaration without a resolved `bin` mapping is recorded as an unsupported extraction failure.
 
-No packument, full version history, `_all_docs` scan, name search, or tarball download is performed. Lifecycle scripts, dependencies, and platform constraints are not used to infer commands.
+No packument, full version history, `_all_docs` scan, name search, or tarball download is performed. Lifecycle scripts, dependencies, and platform constraints are not used to infer commands. The npm change sequence is not recorded.
 
 ### PyPI
 
@@ -154,7 +158,7 @@ Acquisition fetches the PEP 691 JSON response from `https://pypi.org/simple/<nor
 
 `import-pypi` reads `.dist-info/METADATA`, `.dist-info/entry_points.txt`, and `.data/scripts/` from the selected wheel. Commands come from `console_scripts` and `gui_scripts` entry points and from script files directly under `.data/scripts/`.
 
-The global project index is not fetched. PEP 658 metadata sidecars, source distributions, and multiple wheel variants are not inspected. A current release without a wheel is recorded as unsupported; acquisition does not fall back to an older release.
+The snapshot boundary records the maximum PyPI Simple API `_last-serial` across selected project responses. The global project index is not fetched. PEP 658 metadata sidecars, source distributions, and multiple wheel variants are not inspected. A current release without a wheel is recorded as unsupported; acquisition does not fall back to an older release.
 
 ## Curation diagnostics
 
@@ -175,11 +179,9 @@ Package change warnings skip partial or failed snapshots to avoid treating incom
 ## Current limitations
 
 - No general upstream signature verification; Debian `InRelease` is verified, while Fedora and Arch do not publish signatures at the configured endpoints
-- No retrieval timestamps, original URIs, media types, or channel-native snapshot boundaries
-- No incremental acquisition or tombstones; imports replace the preceding snapshot
-- No `removed` package observations, and hard failures do not produce a `failed` snapshot
+- No incremental acquisition or change journals; removals require an explicit `--previous` snapshot set
+- Missing channel-native boundaries: Debian snapshot timestamp, Arch Linux Archive date, crates.io index commit, and npm change sequence
 - No archive inspection beyond selected PyPI wheel metadata
-- No acquisition metrics
 - Release artifacts include candidate files but not raw channel inputs; input identities remain in channel manifests
 
 ## Curation boundary

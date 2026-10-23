@@ -36,9 +36,14 @@ No public release has been made.
 - Non-blocking acquisition diagnostics for executable-set changes, unobserved projects, and project metadata conflicts, with a JSON report and comparison baseline
 - Debian `InRelease` signature and release-index checksum verification during acquisition
 - Fedora `repomd.xml` metadata size and SHA-256 verification during import
+- Acquisition snapshot format version 2 with input URIs, media types, retrieval timestamps, signature results, channel boundaries, metrics, and failure summaries
+- Debian, Fedora, Arch, Homebrew, crates.io, npm, and PyPI fetch jobs record acquisition context for import provenance
+- Failed imports write `failed` snapshots with an empty candidate artifact
+- Optional `--previous` acquisition comparison emits `removed` package observations
 
 ### Changed
 
+- Acquisition snapshot manifest readers now require format version 2; re-import version 1 acquisitions
 - Website headings, navigation, controls, and labels use lowercase; prose keeps sentence case.
 - Dataset details moved from `/about` to `/dataset`; `/about` now presents the project.
 - SQLite schema version is 2 for provider relations and name associations.

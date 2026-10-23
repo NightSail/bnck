@@ -25,7 +25,16 @@ fn wheel(version: &str) -> Value {
 }
 
 fn simple(path: &Path, files: Vec<Value>) {
-	write_json(path, &json!({"name": "Some.Tool", "files": files, "versions": ["999.0", "1.0"]})).unwrap();
+	write_json(
+		path,
+		&json!({
+			"name": "Some.Tool",
+			"files": files,
+			"versions": ["999.0", "1.0"],
+			"meta": {"_last-serial": 1234}
+		}),
+	)
+	.unwrap();
 }
 
 fn selected_version(path: &Path) -> String {
@@ -128,7 +137,7 @@ fn imports_only_the_current_selection_and_checks_its_digest_and_metadata() {
 	current["hashes"]["sha256"] = json!(digest);
 	simple(&metadata.join("tool.json"), vec![current]);
 	let providers = output.join("pypi.jsonl");
-	assert_eq!(import(&cache, &providers, scope()).unwrap(), 3);
+	assert_eq!(import(&cache, &providers, scope(), None, None).unwrap(), 3);
 	let candidates = read_candidates(&providers).unwrap();
 	assert!(candidates.iter().all(|candidate| candidate.package == "some-tool"));
 	assert_eq!(
@@ -138,12 +147,14 @@ fn imports_only_the_current_selection_and_checks_its_digest_and_metadata() {
 			.collect::<Vec<_>>(),
 		["direct", "tool", "tool-gui"]
 	);
-	assert_eq!(read_snapshot_directory(&output).unwrap()[0].1.status, SnapshotStatus::Partial);
+	let snapshot = &read_snapshot_directory(&output).unwrap()[0].1;
+	assert_eq!(snapshot.status, SnapshotStatus::Partial);
+	assert_eq!(snapshot.boundary["pypi-serial"], "1234");
 	fs::write(cache.join("another-old.whl"), "not included in input identity").unwrap();
 	assert!(read_snapshot_directory(&output).is_ok());
 	fs::write(&wheel_path, "corrupted").unwrap();
 	assert!(
-		import(&cache, &providers, scope())
+		import(&cache, &providers, scope(), None, None)
 			.unwrap_err()
 			.to_string()
 			.contains("SHA-256 mismatch")
@@ -184,7 +195,7 @@ fn curated_metadata_flows_through_wheel_selection_and_import_without_an_index() 
 	assert_eq!(plan_snapshot(&metadata_path, &cache, &wheels_path).unwrap(), 1);
 	let output = root.path().join("acquired");
 	fs::create_dir(&output).unwrap();
-	assert_eq!(import_plan(&wheels_path, &output.join("pypi.jsonl"), scope()).unwrap(), 3);
+	assert_eq!(import_plan(&wheels_path, &output.join("pypi.jsonl"), scope(), None, None).unwrap(), 3);
 	let snapshots = read_snapshot_directory(&output).unwrap();
 	let snapshot = &snapshots[0].1;
 	assert_eq!(snapshot.status, SnapshotStatus::Complete);
@@ -207,7 +218,7 @@ fn unavailable_curated_packages_are_retained_as_failed_observations_without_whee
 		fs::write(metadata.packages[0].path.with_extension("status"), status).unwrap();
 		assert_eq!(plan_snapshot(&metadata_path, &root.path().join("cache"), &wheels_path).unwrap(), 0);
 		assert_eq!(fs::read_to_string(wheels_path.with_extension("tsv")).unwrap(), "");
-		assert_eq!(import_plan(&wheels_path, &output.join("pypi.jsonl"), scope()).unwrap(), 0);
+		assert_eq!(import_plan(&wheels_path, &output.join("pypi.jsonl"), scope(), None, None).unwrap(), 0);
 		let snapshots = read_snapshot_directory(&output).unwrap();
 		let snapshot = &snapshots[0].1;
 		assert_eq!(snapshot.status, SnapshotStatus::Partial);
@@ -225,6 +236,7 @@ fn snapshot_plan_preserves_unsupported_packages_as_partial_acquisition() {
 		&plan_path,
 		&WheelPlan {
 			inputs: Vec::new(),
+			serial: None,
 			packages: vec![Selection::Unsupported {
 				package: "source-only".to_owned(),
 				version: Some("2.0".to_owned()),
@@ -235,7 +247,7 @@ fn snapshot_plan_preserves_unsupported_packages_as_partial_acquisition() {
 	.unwrap();
 	let output = root.path().join("acquired");
 	fs::create_dir(&output).unwrap();
-	assert_eq!(import_plan(&plan_path, &output.join("pypi.jsonl"), scope()).unwrap(), 0);
+	assert_eq!(import_plan(&plan_path, &output.join("pypi.jsonl"), scope(), None, None).unwrap(), 0);
 	let snapshots = read_snapshot_directory(&output).unwrap();
 	assert_eq!(snapshots[0].1.status, SnapshotStatus::Partial);
 	assert_eq!(snapshots[0].1.packages[0].status, PackageStatus::Failed);
@@ -250,6 +262,7 @@ fn a_valid_digest_does_not_allow_a_wheel_for_another_package_or_version() {
 		create_wheel(&path, name, version);
 		let plan = WheelPlan {
 			inputs: Vec::new(),
+			serial: None,
 			packages: vec![Selection::Wheel {
 				package: "some-tool".to_owned(),
 				version: "1.0".to_owned(),
@@ -261,6 +274,6 @@ fn a_valid_digest_does_not_allow_a_wheel_for_another_package_or_version() {
 		};
 		let plan_path = root.path().join("plan.json");
 		write_json(&plan_path, &plan).unwrap();
-		assert!(import_plan(&plan_path, &root.path().join("output.jsonl"), scope()).is_err());
+		assert!(import_plan(&plan_path, &root.path().join("output.jsonl"), scope(), None, None).is_err());
 	}
 }

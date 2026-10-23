@@ -9,7 +9,7 @@ use anyhow::{Context, Result, bail};
 use semver::Version;
 use serde::Deserialize;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{AcquisitionContext, PackageObservation, SnapshotMetadata, write_acquisition};
 use crate::model::Candidate;
 use crate::registry::CuratedScope;
 
@@ -43,6 +43,8 @@ pub fn import_dump(
 	output: &Path,
 	mut scope: std::collections::BTreeMap<String, String>,
 	curations: Option<&Path>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
 ) -> Result<usize> {
 	let selection = curations.map(|root| CuratedScope::load(root, "crates.io")).transpose()?;
 	let crates = read_crates(crates_path, selection.as_ref())?;
@@ -85,7 +87,10 @@ pub fn import_dump(
 		}
 	}
 	let inputs = [crates_path.to_owned(), versions_path.to_owned()];
-	write_acquisition(output, SnapshotMetadata::complete("crates.io", &inputs, scope), package_observations, candidates)
+	let mut metadata = SnapshotMetadata::complete("crates.io", &inputs, scope);
+	metadata.context = context;
+	metadata.previous = previous;
+	write_acquisition(output, metadata, package_observations, candidates)
 }
 
 fn read_crates(path: &Path, selection: Option<&CuratedScope>) -> Result<HashMap<u64, CrateRow>> {

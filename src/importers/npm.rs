@@ -9,7 +9,9 @@ use std::path::Path;
 use anyhow::{Context, Result, ensure};
 use serde_json::{Map, Value};
 
-use crate::acquisition::{PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, write_acquisition};
+use crate::acquisition::{
+	AcquisitionContext, PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, write_acquisition,
+};
 use crate::model::Candidate;
 use crate::registry::{MetadataPlan, unavailable_metadata};
 
@@ -17,6 +19,8 @@ pub fn import_plan(
 	plan_path: &Path,
 	output: &Path,
 	mut scope: std::collections::BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
 ) -> Result<usize> {
 	let plan = MetadataPlan::read(plan_path, "npm")?;
 	let mut candidates = Vec::new();
@@ -42,6 +46,8 @@ pub fn import_plan(
 	scope.insert("release-policy".to_owned(), "latest-dist-tag".to_owned());
 	scope.insert("catalog-policy".to_owned(), "bounded-non-atomic-scan".to_owned());
 	let mut metadata = SnapshotMetadata::complete("npm", &inputs, scope);
+	metadata.context = context;
+	metadata.previous = previous;
 	if packages.iter().any(|package| package.status == PackageStatus::Failed) {
 		metadata.status = SnapshotStatus::Partial;
 	}

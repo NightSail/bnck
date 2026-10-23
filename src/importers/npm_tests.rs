@@ -41,7 +41,7 @@ impl Snapshot {
 	}
 
 	fn import(&self) -> anyhow::Result<usize> {
-		import_plan(&self.plan, &self.output, BTreeMap::new())
+		import_plan(&self.plan, &self.output, BTreeMap::new(), None, None)
 	}
 }
 

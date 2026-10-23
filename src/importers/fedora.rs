@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::{BTreeMap, HashMap};
 use std::fs::File;
 use std::io::{BufRead, BufReader, BufWriter, Write};
 use std::path::Path;
@@ -10,7 +10,7 @@ use quick_xml::encoding::Decoder;
 use quick_xml::events::{BytesStart, Event};
 use xz2::read::XzDecoder;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
+use crate::acquisition::{AcquisitionContext, PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
 use crate::model::Candidate;
 
 #[derive(Clone, Debug, Default)]
@@ -26,7 +26,7 @@ struct Package {
 
 pub fn plan(repomd: &Path, base_url: &str, output_directory: &Path, output: &Path) -> Result<usize> {
 	let mut downloads = Vec::new();
-	for entry in read_repomd(repomd)? {
+	for entry in read_repomd(repomd)?.entries {
 		if !matches!(entry.kind.as_str(), "primary" | "filelists") {
 			continue;
 		}
@@ -48,6 +48,12 @@ pub fn plan(repomd: &Path, base_url: &str, output_directory: &Path, output: &Pat
 }
 
 #[derive(Clone, Debug, Default)]
+struct Repomd {
+	revision: Option<String>,
+	entries: Vec<RepomdEntry>,
+}
+
+#[derive(Clone, Debug, Default)]
 struct RepomdEntry {
 	kind: String,
 	location: String,
@@ -56,13 +62,14 @@ struct RepomdEntry {
 	size: Option<u64>,
 }
 
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Eq, PartialEq)]
 enum RepomdField {
 	Checksum,
 	Size,
+	Revision,
 }
 
-fn read_repomd(path: &Path) -> Result<Vec<RepomdEntry>> {
+fn read_repomd(path: &Path) -> Result<Repomd> {
 	let file = File::open(path).with_context(|| format!("open {}", path.display()))?;
 	let mut reader = Reader::from_reader(BufReader::new(file));
 	reader.config_mut().trim_text(true);
@@ -70,6 +77,7 @@ fn read_repomd(path: &Path) -> Result<Vec<RepomdEntry>> {
 	let mut current = None::<RepomdEntry>;
 	let mut field = None::<RepomdField>;
 	let mut entries = Vec::new();
+	let mut revision = None;
 
 	loop {
 		match reader.read_event_into(&mut buffer)? {
@@ -94,21 +102,31 @@ fn read_repomd(path: &Path) -> Result<Vec<RepomdEntry>> {
 			Event::Start(event) if event.local_name().as_ref() == b"size" => {
 				field = Some(RepomdField::Size);
 			},
+			Event::Start(event) if event.local_name().as_ref() == b"revision" => {
+				field = Some(RepomdField::Revision);
+			},
 			Event::Text(text) if field.is_some() => {
-				if let Some(entry) = current.as_mut() {
-					let value = text.decode()?.trim().to_owned();
-					match field {
-						Some(RepomdField::Checksum) => entry.checksum = Some(value),
-						Some(RepomdField::Size) => {
+				let value = text.decode()?.trim().to_owned();
+				match field {
+					Some(RepomdField::Checksum) => {
+						if let Some(entry) = current.as_mut() {
+							entry.checksum = Some(value);
+						}
+					},
+					Some(RepomdField::Size) => {
+						if let Some(entry) = current.as_mut() {
 							entry.size = Some(value.parse().with_context(|| {
 								format!("parse repomd.xml size for {} in {}", entry.kind, path.display())
 							})?);
-						},
-						None => {},
-					}
+						}
+					},
+					Some(RepomdField::Revision) => revision = Some(value),
+					None => {},
 				}
 			},
-			Event::End(event) if matches!(event.local_name().as_ref(), b"checksum" | b"size") => field = None,
+			Event::End(event) if matches!(event.local_name().as_ref(), b"checksum" | b"size" | b"revision") => {
+				field = None;
+			},
 			Event::End(event) if event.local_name().as_ref() == b"data" => {
 				if let Some(entry) = current.take() {
 					entries.push(entry);
@@ -120,13 +138,32 @@ fn read_repomd(path: &Path) -> Result<Vec<RepomdEntry>> {
 		}
 		buffer.clear();
 	}
-	Ok(entries)
+	Ok(Repomd { revision, entries })
 }
 
-fn verify_repomd_metadata(repomd: &Path, primary: &Path, filelists: &Path) -> Result<()> {
-	let entries = read_repomd(repomd)?;
+fn verify_repomd_metadata(repomd: &Path, primary: &Path, filelists: &Path) -> Result<BTreeMap<String, String>> {
+	let repomd = read_repomd(repomd)?;
+	let mut boundary = BTreeMap::new();
+	if let Some(revision) = repomd.revision {
+		boundary.insert("repomd-revision".to_owned(), revision);
+	}
+	for entry in &repomd.entries {
+		if entry.checksum_type.as_deref() == Some("sha256")
+			&& let Some(checksum) = &entry.checksum
+			&& !entry.kind.is_empty()
+		{
+			let key = format!("{}-sha256", entry.kind);
+			ensure!(
+				boundary
+					.insert(key.clone(), checksum.clone())
+					.is_none_or(|previous| previous == *checksum),
+				"repomd.xml has conflicting checksums for {key}"
+			);
+		}
+	}
 	for (kind, path) in [("primary", primary), ("filelists", filelists)] {
-		let entry = entries
+		let entry = repomd
+			.entries
 			.iter()
 			.find(|entry| entry.kind == kind)
 			.with_context(|| format!("repomd.xml has no {kind} metadata entry"))?;
@@ -143,7 +180,7 @@ fn verify_repomd_metadata(repomd: &Path, primary: &Path, filelists: &Path) -> Re
 		ensure!(size == expected_size, "{} size does not match repomd.xml", path.display());
 		ensure!(sha256 == expected_sha256, "{} digest does not match repomd.xml", path.display());
 	}
-	Ok(())
+	Ok(boundary)
 }
 
 pub fn import(
@@ -151,7 +188,16 @@ pub fn import(
 	filelists: &Path,
 	output: &Path,
 	scope: std::collections::BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
 ) -> Result<usize> {
+	let repomd = primary
+		.parent()
+		.and_then(Path::parent)
+		.map(|parent| parent.join("repomd.xml"))
+		.with_context(|| format!("find repomd.xml for {}", primary.display()))?;
+	ensure!(repomd.is_file(), "missing {}", repomd.display());
+	let boundary = verify_repomd_metadata(&repomd, primary, filelists)?;
 	let packages = read_primary(primary)?;
 	let candidates = read_filelists(filelists, &packages)?;
 	let package_observations = packages
@@ -167,15 +213,12 @@ pub fn import(
 			observation
 		})
 		.collect::<Vec<_>>();
-	let repomd = primary
-		.parent()
-		.and_then(Path::parent)
-		.map(|parent| parent.join("repomd.xml"))
-		.with_context(|| format!("find repomd.xml for {}", primary.display()))?;
-	ensure!(repomd.is_file(), "missing {}", repomd.display());
-	verify_repomd_metadata(&repomd, primary, filelists)?;
 	let inputs = vec![primary.to_owned(), filelists.to_owned(), repomd];
-	write_acquisition(output, SnapshotMetadata::complete("fedora", &inputs, scope), package_observations, candidates)
+	let mut metadata = SnapshotMetadata::complete("fedora", &inputs, scope);
+	metadata.boundary = boundary;
+	metadata.context = context;
+	metadata.previous = previous;
+	write_acquisition(output, metadata, package_observations, candidates)
 }
 
 fn read_primary(path: &Path) -> Result<HashMap<String, Package>> {

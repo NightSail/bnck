@@ -18,7 +18,8 @@ use walkdir::WalkDir;
 use zip::ZipArchive;
 
 use crate::acquisition::{
-	PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, file_identity, write_acquisition,
+	AcquisitionContext, PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, file_identity,
+	write_acquisition,
 };
 use crate::model::{Candidate, validate_sha256};
 use crate::registry::{json_files, normalize_pypi_name, read_json};
@@ -26,15 +27,25 @@ use selection::{Selection, WheelPlan};
 
 const MAX_METADATA_SIZE: u64 = 4 * 1024 * 1024;
 
-pub fn import(input: &Path, output: &Path, mut scope: BTreeMap<String, String>) -> Result<usize> {
+pub fn import(
+	input: &Path,
+	output: &Path,
+	mut scope: BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
+) -> Result<usize> {
 	scope.insert("package-selection".to_owned(), "explicit-packages".to_owned());
 	if let Some(simple) = input.parent().map(|parent| parent.join("simple")).filter(|path| path.is_dir()) {
 		let inputs = json_files(&simple)?;
-		let packages = inputs
-			.iter()
-			.map(|path| selection::select(path, input))
-			.collect::<Result<Vec<_>>>()?;
-		return import_selections(WheelPlan { inputs, packages }, output, scope);
+		let mut serial = None;
+		let mut packages = Vec::new();
+		for path in &inputs {
+			if let Some(value) = selection::last_serial(path)? {
+				serial = Some(serial.unwrap_or(0).max(value));
+			}
+			packages.push(selection::select(path, input)?);
+		}
+		return import_selections(WheelPlan { inputs, serial, packages }, output, scope, context, previous);
 	}
 	let mut candidates = Vec::new();
 	let mut package_observations = Vec::new();
@@ -53,14 +64,27 @@ pub fn import(input: &Path, output: &Path, mut scope: BTreeMap<String, String>) 
 	write_acquisition(output, metadata, package_observations, candidates)
 }
 
-pub fn import_plan(path: &Path, output: &Path, mut scope: BTreeMap<String, String>) -> Result<usize> {
+pub fn import_plan(
+	path: &Path,
+	output: &Path,
+	mut scope: BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
+) -> Result<usize> {
 	let mut plan: WheelPlan = read_json(path)?;
 	plan.inputs.push(path.to_owned());
 	scope.insert("package-selection".to_owned(), "curated-packages".to_owned());
-	import_selections(plan, output, scope)
+	import_selections(plan, output, scope, context, previous)
 }
 
-fn import_selections(mut plan: WheelPlan, output: &Path, scope: BTreeMap<String, String>) -> Result<usize> {
+fn import_selections(
+	mut plan: WheelPlan,
+	output: &Path,
+	scope: BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
+) -> Result<usize> {
+	let serial = plan.serial;
 	let mut candidates = Vec::new();
 	let mut packages = Vec::new();
 	let mut names = BTreeSet::new();
@@ -98,6 +122,11 @@ fn import_selections(mut plan: WheelPlan, output: &Path, scope: BTreeMap<String,
 		ensure!(names.insert(package.name.clone()), "duplicate selected PyPI package {}", package.name);
 	}
 	let mut metadata = SnapshotMetadata::complete("pypi", &plan.inputs, scope);
+	metadata.context = context;
+	metadata.previous = previous;
+	if let Some(serial) = serial {
+		metadata.boundary.insert("pypi-serial".to_owned(), serial.to_string());
+	}
 	if metadata
 		.scope
 		.get("package-selection")

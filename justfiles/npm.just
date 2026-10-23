@@ -22,8 +22,12 @@ fetch-npm snapshot='':
         snapshot="$(cd "$snapshot" && pwd -P)"
     fi
     printf 'Fetching npm release metadata into %s\n' "$snapshot"
+    context="$snapshot/acquisition-context.tsv"
+    {{ context }} reset "$context"
     {{ bnck_bulk }} plan-npm --curations curations \
         --output-directory "$snapshot/packages" --output "$snapshot/metadata.json"
+    {{ context }} input "$context" "$snapshot/metadata.json" '' 'application/json' \
+        "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" '' '' ''
     just resume-npm "$snapshot"
     if test -n "$selection"; then
         printf '%s\n' "$snapshot" > "$snapshot/current"
@@ -33,9 +37,26 @@ fetch-npm snapshot='':
 
 # Resume only the retained plan, without selecting a different snapshot for default imports.
 resume-npm snapshot:
-    test -f '{{ snapshot }}/metadata.json'
-    just fetch-registry-plan npm '{{ snapshot }}/metadata.tsv'
-    touch '{{ snapshot }}/complete'
+    #!/usr/bin/env bash
+    set -euo pipefail
+    snapshot='{{ snapshot }}'
+    test -f "$snapshot/metadata.json"
+    context="$snapshot/acquisition-context.tsv"
+    if test ! -f "$context"; then
+        {{ context }} reset "$context"
+        {{ context }} input "$context" "$snapshot/metadata.json" '' 'application/json' \
+            "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" '' '' ''
+    fi
+    just fetch-registry-plan npm "$snapshot/metadata.tsv"
+    retrieved_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+    while IFS=$'\t' read -r url path; do
+        {{ context }} input "$context" "$path" "$url" 'application/json' "$retrieved_at" '' '' ''
+        status="${path%.json}.status"
+        if test -f "$status"; then
+            {{ context }} input "$context" "$status" '' 'text/plain' "$retrieved_at" '' '' ''
+        fi
+    done < "$snapshot/metadata.tsv"
+    touch "$snapshot/complete"
 
 # Import the last completed standalone fetch, or the exact snapshot supplied by the caller.
 import-npm snapshot='' output=npm_output:
@@ -59,5 +80,6 @@ import-npm snapshot='' output=npm_output:
     fi
     mkdir -p "$(dirname '{{ output }}')"
     {{ bnck_bulk }} import-npm --plan "$snapshot/metadata.json" --output '{{ output }}' \
+        --context "$snapshot/acquisition-context.tsv" \
         --scope 'registry=https://registry.npmjs.org' --scope 'release-policy=latest-dist-tag'
     {{ size }} 'Wrote {{ output }}' '{{ output }}'

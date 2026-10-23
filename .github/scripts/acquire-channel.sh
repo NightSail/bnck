@@ -39,6 +39,7 @@ case "$CHANNEL" in
 		cargo run --release --quiet --bin bnck -- import-pypi \
 			--plan "$snapshot/wheels.json" \
 			--output 'var/acquired/pypi.jsonl' \
+			--context "$snapshot/acquisition-context.tsv" \
 			--scope 'index=https://pypi.org/simple/' \
 			--scope 'release-policy=latest-non-yanked-stable' \
 			--scope 'wheel-policy=prefer-universal-then-smallest' \

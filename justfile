@@ -7,6 +7,7 @@ diagnostics_report := 'var/diagnostics/report.json'
 diagnostics_baseline := 'var/diagnostics/baseline.json'
 # Report the on-disk size of a job's fetched inputs or written artifacts.
 size := justfile_directory() + '/justfiles/size.sh'
+context := justfile_directory() + '/justfiles/context.sh'
 
 import 'justfiles/arch.just'
 import 'justfiles/crates.just'
@@ -165,6 +166,7 @@ import-languages:
     mkdir -p var/acquired
     just import-npm "$snapshot/npm" '{{ npm_output }}'
     {{ bnck_bulk }} import-pypi --plan "$snapshot/pypi/wheels.json" --output '{{ pypi_output }}' \
+        --context "$snapshot/pypi/acquisition-context.tsv" \
         --scope 'index=https://pypi.org/simple/' --scope 'release-policy=latest-non-yanked-stable' \
         --scope 'wheel-policy=prefer-universal-then-smallest' --scope 'catalog-policy=bounded-non-atomic-scan'
     {{ size }} 'Wrote var/acquired' 'var/acquired'

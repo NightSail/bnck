@@ -14,6 +14,8 @@ use crate::registry::{MetadataPlan, normalize_pypi_name, read_json, unavailable_
 #[serde(deny_unknown_fields)]
 pub struct WheelPlan {
 	pub inputs: Vec<PathBuf>,
+	#[serde(default, skip_serializing_if = "Option::is_none")]
+	pub serial: Option<u64>,
 	pub packages: Vec<Selection>,
 }
 
@@ -36,10 +38,14 @@ pub fn plan(simple: &Path, directory: &Path, output: &Path) -> Result<usize> {
 pub fn plan_snapshot(metadata_path: &Path, directory: &Path, output: &Path) -> Result<usize> {
 	let metadata = MetadataPlan::read(metadata_path, "pypi")?;
 	let mut packages = Vec::new();
+	let mut serial = None;
 	for package in &metadata.packages {
 		if let Some(reason) = unavailable_metadata(&package.path)? {
 			packages.push(Selection::Unsupported { package: package.name.clone(), version: None, reason });
 			continue;
+		}
+		if let Some(value) = last_serial(&package.path)? {
+			serial = Some(serial.unwrap_or(0).max(value));
 		}
 		let selection = select(&package.path, directory)?;
 		let selected_name = match &selection {
@@ -48,7 +54,7 @@ pub fn plan_snapshot(metadata_path: &Path, directory: &Path, output: &Path) -> R
 		ensure!(selected_name == &package.name, "expected PyPI package {}, found {selected_name}", package.name);
 		packages.push(selection);
 	}
-	let plan = WheelPlan { inputs: metadata.input_paths(metadata_path), packages };
+	let plan = WheelPlan { inputs: metadata.input_paths(metadata_path), serial, packages };
 	write_json(output, &plan)?;
 	let mut downloads = File::create(output.with_extension("tsv"))?;
 	let mut count = 0;
@@ -59,6 +65,11 @@ pub fn plan_snapshot(metadata_path: &Path, directory: &Path, output: &Path) -> R
 		}
 	}
 	Ok(count)
+}
+
+pub fn last_serial(path: &Path) -> Result<Option<u64>> {
+	let document: Value = read_json(path)?;
+	Ok(document.pointer("/meta/_last-serial").and_then(Value::as_u64))
 }
 
 pub fn select(simple: &Path, directory: &Path) -> Result<Selection> {

@@ -1,10 +1,11 @@
+use std::collections::BTreeSet;
 use std::fs;
 use std::path::Path;
 
-use anyhow::{Context, Result};
+use anyhow::{Context, Result, ensure};
 use serde_json::Value;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{AcquisitionContext, PackageObservation, SnapshotMetadata, write_acquisition};
 use crate::model::Candidate;
 
 pub fn import(
@@ -13,27 +14,51 @@ pub fn import(
 	core: Option<&Path>,
 	output: &Path,
 	scope: std::collections::BTreeMap<String, String>,
+	context: Option<&AcquisitionContext>,
+	previous: Option<&Path>,
 ) -> Result<usize> {
-	let (mut candidates, mut package_observations) = import_formulae(formulae, core)?;
-	let (cask_candidates, cask_packages) = import_casks(casks)?;
+	let (mut candidates, mut package_observations, formula_heads) = import_formulae(formulae, core)?;
+	let (cask_candidates, cask_packages, cask_heads) = import_casks(casks)?;
 	candidates.extend(cask_candidates);
 	package_observations.extend(cask_packages);
+	ensure!(formula_heads.len() <= 1, "Homebrew formula API records disagree on tap_git_head");
+	ensure!(cask_heads.len() <= 1, "Homebrew cask API records disagree on tap_git_head");
 	let mut inputs = vec![formulae.to_owned(), casks.to_owned()];
 	inputs.extend(core.map(Path::to_owned));
-	write_acquisition(output, SnapshotMetadata::complete("homebrew", &inputs, scope), package_observations, candidates)
+	let mut metadata = SnapshotMetadata::complete("homebrew", &inputs, scope);
+	metadata.context = context;
+	metadata.previous = previous;
+	if let Some(head) = formula_heads.into_iter().next() {
+		metadata.boundary.insert("formula-tap-git-head".to_owned(), head);
+	}
+	if let Some(head) = cask_heads.into_iter().next() {
+		metadata.boundary.insert("cask-tap-git-head".to_owned(), head);
+	}
+	write_acquisition(output, metadata, package_observations, candidates)
 }
 
-fn import_formulae(path: &Path, core: Option<&Path>) -> Result<(Vec<Candidate>, Vec<PackageObservation>)> {
+fn import_formulae(
+	path: &Path,
+	core: Option<&Path>,
+) -> Result<(Vec<Candidate>, Vec<PackageObservation>, BTreeSet<String>)> {
 	let data = fs::read(path).with_context(|| format!("read {}", path.display()))?;
 	let formulae: Value = serde_json::from_slice(&data).with_context(|| format!("parse {}", path.display()))?;
 	let formulae = formulae.as_array().context("formula response is not an array")?;
 	let mut candidates = Vec::new();
 	let mut packages = Vec::new();
+	let mut tap_heads = BTreeSet::new();
 
 	for formula in formulae {
 		let Some(name) = formula.get("name").and_then(Value::as_str) else {
 			continue;
 		};
+		if let Some(head) = formula
+			.get("tap_git_head")
+			.and_then(Value::as_str)
+			.filter(|head| !head.is_empty())
+		{
+			tap_heads.insert(head.to_owned());
+		}
 		let tap = formula.get("tap").and_then(Value::as_str).unwrap_or("homebrew/core");
 		let package = format!("{tap}/{name}");
 		let version = formula.pointer("/versions/stable").and_then(Value::as_str).unwrap_or_default();
@@ -74,20 +99,24 @@ fn import_formulae(path: &Path, core: Option<&Path>) -> Result<(Vec<Candidate>, 
 			});
 		}
 	}
-	Ok((candidates, packages))
+	Ok((candidates, packages, tap_heads))
 }
 
-fn import_casks(path: &Path) -> Result<(Vec<Candidate>, Vec<PackageObservation>)> {
+fn import_casks(path: &Path) -> Result<(Vec<Candidate>, Vec<PackageObservation>, BTreeSet<String>)> {
 	let data = fs::read(path).with_context(|| format!("read {}", path.display()))?;
 	let casks: Value = serde_json::from_slice(&data).with_context(|| format!("parse {}", path.display()))?;
 	let casks = casks.as_array().context("cask response is not an array")?;
 	let mut candidates = Vec::new();
 	let mut packages = Vec::new();
+	let mut tap_heads = BTreeSet::new();
 
 	for cask in casks {
 		let Some(token) = cask.get("token").and_then(Value::as_str) else {
 			continue;
 		};
+		if let Some(head) = cask.get("tap_git_head").and_then(Value::as_str).filter(|head| !head.is_empty()) {
+			tap_heads.insert(head.to_owned());
+		}
 		let package = format!("homebrew/cask/{token}");
 		let version = cask.get("version").and_then(Value::as_str).unwrap_or_default();
 		packages.push(PackageObservation::observed(&package, version));
@@ -107,7 +136,7 @@ fn import_casks(path: &Path) -> Result<(Vec<Candidate>, Vec<PackageObservation>)
 			});
 		}
 	}
-	Ok((candidates, packages))
+	Ok((candidates, packages, tap_heads))
 }
 
 fn cask_executables(cask: &Value) -> Vec<String> {

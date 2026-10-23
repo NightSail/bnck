@@ -154,6 +154,7 @@ test('argument-free imports pin one completed snapshot even if selection changes
 		['just', 'import-crates-dump', `${second}/crates`],
 		['just', 'import-npm', `${second}/npm`, 'var/acquired/npm.jsonl'],
 		['bnck-test', 'import-pypi', '--plan', `${second}/pypi/wheels.json`, '--output', 'var/acquired/pypi.jsonl',
+			'--context', `${second}/pypi/acquisition-context.tsv`,
 			'--scope', 'index=https://pypi.org/simple/', '--scope', 'release-policy=latest-non-yanked-stable',
 			'--scope', 'wheel-policy=prefer-universal-then-smallest', '--scope', 'catalog-policy=bounded-non-atomic-scan'],
 	]);

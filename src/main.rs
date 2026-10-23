@@ -9,7 +9,7 @@ mod registry;
 mod release;
 
 use std::collections::BTreeMap;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 
 use anyhow::{Result, ensure};
 use anstyle::{AnsiColor, Style};
@@ -25,6 +25,10 @@ const NAME_STYLE: Style = Style::new().bold();
 struct Cli {
 	#[arg(long = "scope", global = true, value_parser = parse_scope)]
 	scope: Vec<(String, String)>,
+	#[arg(long, global = true)]
+	context: Option<PathBuf>,
+	#[arg(long, global = true)]
+	previous: Option<PathBuf>,
 	#[command(subcommand)]
 	command: Command,
 }
@@ -236,22 +240,80 @@ enum Command {
 fn main() -> Result<()> {
 	let cli = Cli::parse();
 	let scope = scope_map(cli.scope)?;
+	let context = cli.context.as_deref().map(acquisition::AcquisitionContext::read).transpose()?;
+	let previous = cli.previous;
 	let count = match cli.command {
 		Command::ImportDebian { packages, sources, contents, output } => {
-			importers::debian::import(&packages, &sources, &contents, &output, scope)?
+			let directory = packages.parent().map_or_else(|| Path::new("."), |path| path);
+			let inputs = vec![
+				packages.clone(),
+				sources.clone(),
+				contents.clone(),
+				directory.join("InRelease"),
+				directory.join("Packages.xz"),
+				directory.join("Sources.xz"),
+				directory.join("Contents.gz"),
+				directory.join("Contents-all.gz"),
+			];
+			run_import(&output, "debian", scope, &inputs, context.as_ref(), |scope| {
+				importers::debian::import(
+					&packages,
+					&sources,
+					&contents,
+					&output,
+					scope,
+					context.as_ref(),
+					previous.as_deref(),
+				)
+			})?
 		},
 		Command::PlanFedora { repomd, base_url, output_directory, output } => {
 			importers::fedora::plan(&repomd, &base_url, &output_directory, &output)?
 		},
 		Command::ImportFedora { primary, filelists, output } => {
-			importers::fedora::import(&primary, &filelists, &output, scope)?
+			let repomd = primary
+				.parent()
+				.and_then(Path::parent)
+				.map_or_else(|| primary.with_file_name("repomd.xml"), |path| path.join("repomd.xml"));
+			let inputs = vec![primary.clone(), filelists.clone(), repomd];
+			run_import(&output, "fedora", scope, &inputs, context.as_ref(), |scope| {
+				importers::fedora::import(&primary, &filelists, &output, scope, context.as_ref(), previous.as_deref())
+			})?
 		},
-		Command::ImportArch { input, output } => importers::arch::import(&input, &output, scope)?,
+		Command::ImportArch { input, output } => {
+			let inputs = vec![input.clone(), input.with_file_name("archives")];
+			run_import(&output, "arch", scope, &inputs, context.as_ref(), |scope| {
+				importers::arch::import(&input, &output, scope, context.as_ref(), previous.as_deref())
+			})?
+		},
 		Command::ImportHomebrew { formulae, casks, core, output } => {
-			importers::homebrew::import(&formulae, &casks, core.as_deref(), &output, scope)?
+			let mut inputs = vec![formulae.clone(), casks.clone()];
+			inputs.extend(core.clone());
+			run_import(&output, "homebrew", scope, &inputs, context.as_ref(), |scope| {
+				importers::homebrew::import(
+					&formulae,
+					&casks,
+					core.as_deref(),
+					&output,
+					scope,
+					context.as_ref(),
+					previous.as_deref(),
+				)
+			})?
 		},
 		Command::ImportCratesDump { crates, versions, output, curations } => {
-			importers::crates_io::import_dump(&crates, &versions, &output, scope, curations.as_deref())?
+			let inputs = vec![crates.clone(), versions.clone()];
+			run_import(&output, "crates.io", scope, &inputs, context.as_ref(), |scope| {
+				importers::crates_io::import_dump(
+					&crates,
+					&versions,
+					&output,
+					scope,
+					curations.as_deref(),
+					context.as_ref(),
+					previous.as_deref(),
+				)
+			})?
 		},
 		Command::PlanNpm { curations, output_directory, output } => {
 			registry::plan_npm(&curations, &output_directory, &output)?
@@ -259,16 +321,33 @@ fn main() -> Result<()> {
 		Command::PlanPypiMetadata { curations, output_directory, output } => {
 			registry::plan_pypi_metadata(&curations, &output_directory, &output)?
 		},
-		Command::ImportNpm { plan, output } => importers::npm::import_plan(&plan, &output, scope)?,
+		Command::ImportNpm { plan, output } => {
+			let inputs = vec![plan.clone()];
+			run_import(&output, "npm", scope, &inputs, context.as_ref(), |scope| {
+				importers::npm::import_plan(&plan, &output, scope, context.as_ref(), previous.as_deref())
+			})?
+		},
 		Command::PlanPypi { simple, output_directory, output } => {
 			importers::pypi::plan(&simple, &output_directory, &output)?
 		},
 		Command::PlanPypiSnapshot { metadata, output_directory, output } => {
 			importers::pypi::plan_snapshot(&metadata, &output_directory, &output)?
 		},
-		Command::ImportPypi { input, plan, output } => match plan {
-			Some(plan) => importers::pypi::import_plan(&plan, &output, scope)?,
-			None => importers::pypi::import(&input.expect("clap requires input or plan"), &output, scope)?,
+		Command::ImportPypi { input, plan, output } => {
+			let source = plan.clone().or_else(|| input.clone()).unwrap_or_else(|| PathBuf::from("."));
+			let inputs = vec![source];
+			run_import(&output, "pypi", scope, &inputs, context.as_ref(), |scope| match plan {
+				Some(plan) => {
+					importers::pypi::import_plan(&plan, &output, scope, context.as_ref(), previous.as_deref())
+				},
+				None => importers::pypi::import(
+					&input.expect("clap requires input or plan"),
+					&output,
+					scope,
+					context.as_ref(),
+					previous.as_deref(),
+				),
+			})?
 		},
 		Command::Generate { acquisitions, curations, output, names_output, candidate_only, diagnostics, baseline } => {
 			let mode = if candidate_only {
@@ -373,6 +452,27 @@ fn main() -> Result<()> {
 	};
 	eprintln!("wrote {count} records");
 	Ok(())
+}
+
+fn run_import(
+	output: &Path,
+	channel: &str,
+	scope: BTreeMap<String, String>,
+	inputs: &[PathBuf],
+	context: Option<&acquisition::AcquisitionContext>,
+	import: impl FnOnce(BTreeMap<String, String>) -> Result<usize>,
+) -> Result<usize> {
+	match import(scope.clone()) {
+		Ok(count) => Ok(count),
+		Err(error) => {
+			if let Err(write_error) =
+				acquisition::write_failed_snapshot(output, channel, scope, inputs, context, &error)
+			{
+				return Err(error.context(format!("also failed to write a failed snapshot: {write_error}")));
+			}
+			Err(error)
+		},
+	}
 }
 
 fn parse_scope(value: &str) -> Result<(String, String), String> {
