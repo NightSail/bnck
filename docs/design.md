@@ -30,7 +30,7 @@ ripgrep | rg | arch | ripgrep
 ripgrep | rg | crates.io | ripgrep
 ```
 
-Multiple projects may provide the same executable name, and a package may contain executables attributed to multiple projects.
+Multiple projects may provide the same executable name, and a package may contain executables attributed to multiple projects. A provider record means the package exposes the command name, directly or through an installed alias; it does not mean the project implements, emulates, or is compatible with that command.
 
 ## Acquisition and curation
 

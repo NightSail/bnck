@@ -62,6 +62,8 @@ Yanked and prerelease releases are excluded. Deprecations, unpublishes, and repo
 
 Distro-like channels treat paths in public command directories, normally `bin` and `sbin`, as executable candidates. Paths under `libexec`, manual pages, libraries, desktop files, and shell completions are excluded. Repository metadata does not reliably expose file type or mode, so a public path is evidence rather than proof that the path is executable.
 
+Names created only by install-time mechanisms, such as alternatives or post-install symlinks, are not observed and require reviewed curation additions. Multicall applets and shell builtins are not candidates unless the channel lists them as public command paths.
+
 Language repositories use declared entry points. Each observation carries one evidence kind:
 
 - `declared-entry-point`: A crate target, npm `bin` key, or Python entry point

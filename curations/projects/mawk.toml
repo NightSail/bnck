@@ -1,0 +1,16 @@
+id = 'mawk'
+name = 'mawk'
+
+homepage = 'https://invisible-island.net/mawk/'
+
+[[package]]
+channel = 'debian'
+name = 'mawk'
+
+[[package]]
+channel = 'fedora'
+name = 'mawk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mawk'

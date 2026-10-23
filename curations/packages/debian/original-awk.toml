@@ -1,0 +1,20 @@
+channel = 'debian'
+name = 'original-awk'
+
+[[add]]
+executable = 'awk'
+project = 'one-true-awk'
+reason = 'Debian declares Provides: awk and registers /usr/bin/awk through update-alternatives'
+references = [
+	'https://packages.debian.org/sid/original-awk',
+	'https://sources.debian.org/src/original-awk/',
+]
+
+[[add]]
+executable = 'nawk'
+project = 'one-true-awk'
+reason = 'Debian registers /usr/bin/nawk as a slave of the awk alternative'
+references = [
+	'https://packages.debian.org/sid/original-awk',
+	'https://sources.debian.org/src/original-awk/',
+]

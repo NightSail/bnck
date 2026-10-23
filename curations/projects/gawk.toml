@@ -1,0 +1,21 @@
+id = 'gawk'
+name = 'GNU awk'
+
+homepage = 'https://www.gnu.org/software/gawk/'
+repository = 'https://git.savannah.gnu.org/git/gawk.git'
+
+[[package]]
+channel = 'arch'
+name = 'gawk'
+
+[[package]]
+channel = 'debian'
+name = 'gawk'
+
+[[package]]
+channel = 'fedora'
+name = 'gawk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gawk'

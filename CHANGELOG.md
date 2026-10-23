@@ -24,6 +24,7 @@ No public release has been made.
 - Automatic curation ingestion from normalized Terminal Trove and tldr hints
 - Persistent hint rejections for candidates that must not be re-ingested
 - Expanded seed curations from Terminal Trove and tldr hint batches
+- Base command curation for GNU coreutils and separate gawk, mawk, and one-true-awk projects, including Debian awk and nawk alternatives
 - Separate website About and Dataset pages with source, issue, release, contributing, and license links
 - Dataset page links to the latest release alias, latest tag, GitHub Releases, and current artifact downloads
 - TypeScript static site generation and browser modules

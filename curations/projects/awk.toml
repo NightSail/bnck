@@ -1,8 +1,0 @@
-id = 'awk'
-name = 'awk'
-
-repository = 'https://github.com/onetrueawk/awk'
-
-[[package]]
-channel = 'homebrew'
-name = 'homebrew/core/awk'

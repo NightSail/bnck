@@ -1,0 +1,20 @@
+channel = 'debian'
+name = 'mawk'
+
+[[add]]
+executable = 'awk'
+project = 'mawk'
+reason = 'Debian declares Provides: awk and registers /usr/bin/awk through update-alternatives'
+references = [
+	'https://packages.debian.org/sid/mawk',
+	'https://sources.debian.org/src/mawk/',
+]
+
+[[add]]
+executable = 'nawk'
+project = 'mawk'
+reason = 'Debian registers /usr/bin/nawk as a slave of the awk alternative'
+references = [
+	'https://packages.debian.org/sid/mawk',
+	'https://sources.debian.org/src/mawk/',
+]

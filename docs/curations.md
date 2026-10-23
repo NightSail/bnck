@@ -209,6 +209,37 @@ references = [
 
 Additions require a reason and at least one durable reference, and do not claim the executable was observed by the importer.
 
+An addition also covers a command name that a channel creates at install time. Debian registers `/usr/bin/awk` and `/usr/bin/nawk` through `update-alternatives`, while `Contents` lists only the implementation binaries. Each package that registers the alternative receives its own addition:
+
+```toml
+[[add]]
+executable = 'awk'
+project = 'gawk'
+reason = 'Debian declares Provides: awk and registers /usr/bin/awk through update-alternatives'
+references = [
+	'https://packages.debian.org/sid/gawk',
+	'https://sources.debian.org/src/gawk/',
+]
+```
+
+## Bundled and indirect commands
+
+A provider record means the package exposes the command name, directly or through an installed alias. It does not mean the project implements, emulates, or is compatible with that command.
+
+### Bundled commands
+
+Packages that install several commands use ordinary package ownership. One project file with the package entries attributes every acquired executable. Do not list individual commands in curation; the acquired executable set stays authoritative. For example, `coreutils` owns `ls`, `cat`, `cp`, and the rest of its installed commands without executable rules.
+
+### Alternative command names
+
+A channel can create a command name that its file listings do not expose. Debian's `gawk`, `mawk`, and `original-awk` packages declare `Provides: awk` and register `/usr/bin/awk` and `/usr/bin/nawk` through `update-alternatives`. Each package that registers the alternative receives an `add` rule. Do not use `replace`: the implementation's own command remains installed. Add the name only for channels and packages where the mechanism is present; the same project may provide it on one channel and not another.
+
+### Multicall binaries and applets
+
+Multicall packages expose a dispatcher or an applet namespace, not every applet as a command. Record only the names the package installs or exposes through a documented channel mechanism. BusyBox and ToyBox applets are not separate provider records; uutils packages in Fedora and Arch install `uu_ls` and `uu-ls`, and its Debian package installs a `coreutils` multicall binary. A drop-in replacement is a project property, not a provider relation.
+
+Shell builtins are also not provider records unless the package installs a command for the name.
+
 ## Resolution
 
 Dataset generation resolves each curated package in this order:

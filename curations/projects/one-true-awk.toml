@@ -1,0 +1,20 @@
+id = 'one-true-awk'
+name = 'one true awk'
+
+repository = 'https://github.com/onetrueawk/awk'
+
+[[package]]
+channel = 'arch'
+name = 'nawk'
+
+[[package]]
+channel = 'debian'
+name = 'original-awk'
+
+[[package]]
+channel = 'fedora'
+name = 'nawk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awk'
