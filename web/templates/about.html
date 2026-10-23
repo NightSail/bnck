@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class='page-heading doc-heading'>
+	<p class='eyebrow'>About</p>
+	<h1>bnck(1)</h1>
+	<p class='lead'>bnck maps executable names to the projects and distribution packages that provide them.</p>
+</section>
+<div class='doc-layout'>
+	<nav class='section-nav' aria-label='On this page'>
+		<a href='#lookup'>Lookup</a>
+		<a href='#data'>Data</a>
+		<a href='#project'>Project</a>
+	</nav>
+	<div class='doc-body'>
+		<section id='lookup'>
+			<h2>Lookup</h2>
+			<p>Search for a command to find its projects and packages, or search for a project to list its commands.
+				Matches use full or partial executable names and project IDs; package names are not searched.</p>
+			<p>Project pages show package coverage across channels. Executable pages show every project that provides
+				the exact name. Package links open the current channel pages.</p>
+			<p>bnck does not install, build, or execute packages, and the dataset does not include package versions,
+				platform support, or installation instructions.</p>
+		</section>
+		<section id='data'>
+			<h2>Data</h2>
+			<p>The dataset is built from Debian, Fedora, Arch Linux, Homebrew, crates.io, npm, and PyPI metadata,
+				then resolved through curated project mappings.</p>
+			<p>Coverage is limited to accepted records in each release. A missing command or package may still be
+				available, and channel counts do not describe the full contents of a channel.</p>
+			<p><a class='text-link' href='/dataset'>Dataset fields, coverage, and releases
+				<span aria-hidden='true'>→</span></a></p>
+		</section>
+		<section id='project'>
+			<h2>Project</h2>
+			<p>bnck is open source under the ISC License. Source code, issues, documentation, and dataset releases
+				are hosted on GitHub.</p>
+			<dl class='definitions'>
+				<div>
+					<dt>Source code</dt>
+					<dd><a href='{{ site.repository_url }}' rel='external'>
+						github.com/NightSail/bnck <span aria-hidden='true'>↗</span></a></dd>
+				</div>
+				<div>
+					<dt>Issues</dt>
+					<dd><a href='{{ site.repository_url }}/issues' rel='external'>
+						github.com/NightSail/bnck/issues <span aria-hidden='true'>↗</span></a></dd>
+				</div>
+				<div>
+					<dt>Releases</dt>
+					<dd><a href='{{ site.releases_url }}' rel='external'>
+						GitHub Releases <span aria-hidden='true'>↗</span></a></dd>
+				</div>
+				<div>
+					<dt>Contributing</dt>
+					<dd><a href='{{ site.repository_url }}/blob/master/CONTRIBUTING.md' rel='external'>
+						CONTRIBUTING.md <span aria-hidden='true'>↗</span></a></dd>
+				</div>
+				<div>
+					<dt>License</dt>
+					<dd><a href='{{ site.license_url }}' rel='external'>
+						ISC License <span aria-hidden='true'>↗</span></a></dd>
+				</div>
+			</dl>
+		</section>
+	</div>
+</div>
+{% endblock %}

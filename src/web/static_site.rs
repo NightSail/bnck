@@ -97,7 +97,17 @@ fn build(database: &Database, root: &Path) -> Result<()> {
 fn write_headers(root: &Path) -> Result<()> {
 	let mut headers = format!("/*\n  X-Content-Type-Options: nosniff\n  Content-Security-Policy: {HTML_CSP}\n");
 	/* Avoid overlapping cache rules: some hosts combine rather than override matching headers. */
-	for path in ["/", "/index.html", "/about", "/about/*", "/projects/*", "/executables/*", "/404.html"] {
+	for path in [
+		"/",
+		"/index.html",
+		"/about",
+		"/about/*",
+		"/dataset",
+		"/dataset/*",
+		"/projects/*",
+		"/executables/*",
+		"/404.html",
+	] {
 		headers.push_str(&format!("\n{path}\n  Cache-Control: no-cache\n"));
 	}
 	headers.push_str("\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n");
@@ -212,8 +222,9 @@ impl Site<'_> {
 				stats => database.stats, channels => &database.channels, example => &database.example,
 			},
 		)?;
+		self.render("about/index.html", "about.html", "About", context! {})?;
 		self.render(
-			"about/index.html",
+			"dataset/index.html",
 			"dataset.html",
 			"Dataset",
 			context! {

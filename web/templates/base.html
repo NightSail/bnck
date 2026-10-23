@@ -31,9 +31,10 @@
 			{% else %}
 			<a href='/' {% if site.section == 'index' %}aria-current='page'{% endif %}>Search</a>
 			{% endif %}
-			<a href='/about' {% if site.section == 'dataset' %}aria-current='page'{% endif %}>Dataset</a>
+			<a href='/dataset' {% if site.section == 'dataset' %}aria-current='page'{% endif %}>Dataset</a>
+			<a href='/about' {% if site.section == 'about' %}aria-current='page'{% endif %}>About</a>
 		</nav>
-		<a class='release-tag' href='/about#bnck-database'><span>Release</span> {{ site.release }}</a>
+		<a class='release-tag' href='/dataset#release'><span>Release</span> {{ site.release }}</a>
 	</header>
 	{% if site.client_search %}
 	<noscript><p class='filter-notice'>Search and filtered browsing require JavaScript.
@@ -43,7 +44,12 @@
 	<main id='main' tabindex='-1'>{% block content %}{% endblock %}</main>
 	<footer class='site-footer'>
 		<p><strong>bnck(1)</strong> <span>bin name check</span></p>
-		<a href='/about'>Dataset details <span aria-hidden='true'>→</span></a>
+		<nav class='footer-links' aria-label='Project links'>
+			<a href='/dataset'>Dataset</a>
+			<a href='/about'>About</a>
+			<a href='{{ site.releases_url }}' rel='external'>Releases <span aria-hidden='true'>↗</span></a>
+			<a href='{{ site.repository_url }}' rel='external'>Source <span aria-hidden='true'>↗</span></a>
+		</nav>
 	</footer>
 </body>
 </html>

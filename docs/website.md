@@ -6,7 +6,7 @@ The website is a reference interface to the [provider dataset](design.md), not a
 
 The visual hierarchy follows those tasks: search first, identities second, provider relations next, release context alongside results. A dark, terminal-informed theme uses graphite surfaces, restrained green and cyan accents, and monospace headings, controls, and exact dataset values. Explanatory prose stays proportional, while forms, tables, and navigation retain web-native behavior: no simulated terminal window, command session, or animated cursor. Search, filtering, and pagination use vanilla JavaScript over a locally loaded dataset. Identity pages, dataset information, and JSON views are static and work without JavaScript; clipboard copying is an optional enhancement. The site uses no external fonts or third-party services.
 
-The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands.
+The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands. Main navigation links to search or the current search form, Dataset, and About. The footer repeats the site sections and links to dataset releases and source code.
 
 Public copy uses short, descriptive headings and instructions, explains lookup behavior and dataset limits, and avoids slogans and implementation details. It does not show provider-record terminology or counts; summaries speak of executables, projects, channels, and packages.
 
@@ -16,7 +16,8 @@ Public copy uses short, descriptive headings and instructions, explains lookup b
 - Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
-- Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, and license statement
+- Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, latest release alias, latest tag, GitHub Releases, artifact downloads, and license statement
+- About: Lookup behavior, data sources and limits, and links to source code, issues, releases, contributing guidance, and license
 
 Project pages use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Checkmarks identify executables observed in each package; hyphens mean not observed in this dataset, not unavailable. Executable column headers preserve the anchors used by search links and link to executable details. Executables and channels/packages sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping package names and channel headings visible.
 
@@ -53,7 +54,7 @@ Search boxes contain only the name field and submit button. Channel links above 
 
 Empty results offer links to search all channels or all initials when the corresponding filter is active. When both are active, "Clear both filters" preserves the query and removes both. The links do not promise additional matches. Unfiltered empty searches suggest a shorter name; an empty index states that no names are listed in this release.
 
-Project and executable pages replace the header's Search link with a compact name-only search form before the Dataset link, leaving identity information and provider listings uninterrupted. On narrow screens the form and Dataset link wrap below the brand. The form starts empty and submits a lookup across all channels and initials; an empty submission browses the index. Home and search pages keep their main search form without a duplicate header form.
+Project and executable pages replace the header's Search link with a compact name-only search form before the Dataset and About links, leaving identity information and provider listings uninterrupted. On narrow screens the form and navigation wrap below the brand. The form starts empty and submits a lookup across all channels and initials; an empty submission browses the index. Home and search pages keep their main search form without a duplicate header form.
 
 With JavaScript enabled, `/` focuses the page's search box and selects its current query. The shortcut ignores inputs, textareas, selects, editable content, IME composition, and events already handled elsewhere; Ctrl, Alt, and Meta combinations are left alone, and Shift is allowed when needed to type `/` on a keyboard layout. The input advertises the shortcut through a tooltip and `aria-keyshortcuts`. Pages without a search box keep normal keyboard behavior. The script is `web/search.js`, tested by `bun test ./web/search.test.js`.
 
@@ -64,7 +65,7 @@ Detail routes retain exact, case-sensitive lookup semantics:
 /projects/{project}
 ```
 
-`/about` presents the dataset, retaining `#bnck-database` as the release metadata anchor.
+`/dataset` presents the dataset and its release artifacts. `/about` presents the project and links to external resources. The dataset release section keeps `#release` as its anchor.
 
 ## JSON exports
 
@@ -104,7 +105,7 @@ All example records, statistics, and release metadata come from the opened SQLit
 
 A missing identity or relation means there is no accepted provider record in this release; empty results and detail pages explain this limitation. Channel counts describe accepted dataset records, not acquisition completeness. The SQLite artifact lacks channel snapshot scope and failure details, which stay in the [release manifests](release-format.md).
 
-The dataset page identifies the release and generation date. Artifact schemas, digests, generator details, and SQL examples belong in the release documentation, not public pages. Full release artifacts are not served; per-identity JSON exports derive from the opened SQLite artifact.
+The dataset page identifies the release and generation date and links to the latest release alias, the matching GitHub tag, all GitHub Releases, and current artifact downloads. Artifact schemas, generator details, and SQL examples belong in the release documentation, not public pages. Full release artifacts are hosted on GitHub Releases rather than copied into the site; per-identity JSON exports derive from the opened SQLite artifact.
 
 ## Implementation
 
@@ -122,9 +123,9 @@ Forms have explicit labels, tables have captions and scoped headings, keyboard n
 
 ## Static deployment
 
-Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
+Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `dataset/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
 
-Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
+Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
 
 The generated `_headers` file supplies settings for hosts supporting that convention; others must configure equivalents:
 

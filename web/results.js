@@ -173,7 +173,7 @@ export function renderResults(search, results, channels) {
 	</section><aside class='side-column'><section class='side-note'>
 		<h2>Search notes</h2><p>Matches parts of executable names and project IDs, not package names.</p>
 	</section><section class='side-note'><h2>Coverage</h2><p>An unlisted command may still be available.</p>
-		${link('/about#coverage', 'Dataset limits <span aria-hidden=\'true\'>→</span>', 'class=\'text-link\'')}
+		${link('/dataset#coverage', 'Dataset limits <span aria-hidden=\'true\'>→</span>', 'class=\'text-link\'')}
 	</section></aside></div>`;
 }
 

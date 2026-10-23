@@ -72,6 +72,7 @@ fn generates_complete_versioned_site_without_modifying_database() {
 	}
 	for path in [
 		"about/index.html",
+		"dataset/index.html",
 		"404.html",
 		"projects/helix/index.html",
 		"executables/hx/index.html",
@@ -80,6 +81,13 @@ fn generates_complete_versioned_site_without_modifying_database() {
 	] {
 		assert!(output.join(path).is_file(), "missing {path}");
 	}
+	let dataset_page = fs::read_to_string(output.join("dataset/index.html")).unwrap();
+	assert!(dataset_page.contains("href='/data/latest'"));
+	assert!(dataset_page.contains("releases/tag/bnck-dataset-2026-04-16.1"));
+	assert!(dataset_page.contains("href='/data/latest/bnck.sqlite.zst'"));
+	let about = fs::read_to_string(output.join("about/index.html")).unwrap();
+	assert!(about.contains("maps executable names to the projects"));
+	assert!(about.contains("github.com&#x2f;NightSail&#x2f;bnck"));
 	let project = fs::read_to_string(output.join("projects/helix/index.html")).unwrap();
 	assert!(project.contains("https:&#x2f;&#x2f;helix-editor.com&#x2f;"));
 	assert!(!project.contains("browser.js"));
@@ -90,6 +98,7 @@ fn generates_complete_versioned_site_without_modifying_database() {
 	assert_eq!(export["providers"].as_array().unwrap().len(), 3);
 	assert_eq!(export["query"], json!({ "executable": "hx" }));
 	let headers = fs::read_to_string(output.join("_headers")).unwrap();
+	assert!(headers.contains("/dataset\n  Cache-Control: no-cache"));
 	assert!(headers.contains("max-age=31536000, immutable"));
 	assert!(headers.contains("Content-Security-Policy"));
 	assert!(!headers.split("\n\n").next().unwrap().contains("Cache-Control"));

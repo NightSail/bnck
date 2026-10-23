@@ -32,6 +32,9 @@ const SEARCH_PAGE_SIBLINGS: u32 = 2;
 const SEARCH_RELATED_NAME_LIMIT: u64 = 3;
 const SEARCH_INITIALS: &str = "#ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const MAX_QUERY_CHARACTERS: usize = 100;
+const REPOSITORY_URL: &str = "https://github.com/NightSail/bnck";
+const RELEASES_URL: &str = "https://github.com/NightSail/bnck/releases";
+const LICENSE_URL: &str = "https://opensource.org/license/isc";
 const HTML_CSP: &str = concat!(
 	"default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; ",
 	"form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
@@ -87,6 +90,7 @@ fn router(database: Arc<Database>) -> Router {
 	Router::new()
 		.route("/", get(home))
 		.route("/about", get(about))
+		.route("/dataset", get(dataset))
 		.route("/projects/{project}", get(project))
 		.route("/projects/{project}/providers.json", get(exports::project))
 		.route("/executables/{executable}", get(executable))
@@ -791,6 +795,10 @@ fn executable_page(database: &Database, executable: &str) -> Response {
 }
 
 async fn about(State(database): State<Arc<Database>>) -> Response {
+	render_response(&database, StatusCode::OK, "about.html", "About", context! {})
+}
+
+async fn dataset(State(database): State<Arc<Database>>) -> Response {
 	render_response(
 		&database,
 		StatusCode::OK,
@@ -882,7 +890,14 @@ fn render_page_with_assets(
 				dataset_url => assets.map(|assets| assets.dataset.as_str()),
 				client_search => assets.is_some() && template_name == "home.html",
 				release => database.metadata_value("dataset_release"),
-				section => if template_name == "dataset.html" { "dataset" } else { "index" },
+				repository_url => REPOSITORY_URL,
+				releases_url => RELEASES_URL,
+				license_url => LICENSE_URL,
+				section => match template_name {
+					"about.html" => "about",
+					"dataset.html" => "dataset",
+					_ => "index",
+				},
 				has_header_search => matches!(template_name, "project.html" | "executable.html"),
 			},
 			page,
@@ -903,6 +918,7 @@ fn template_environment() -> Result<Environment<'static>> {
 
 	#[cfg(not(debug_assertions))]
 	for (name, source) in [
+		("about.html", include_str!("../web/templates/about.html")),
 		("base.html", include_str!("../web/templates/base.html")),
 		("error.html", include_str!("../web/templates/error.html")),
 		("executable.html", include_str!("../web/templates/executable.html")),
@@ -1169,12 +1185,19 @@ mod tests {
 		)
 		.unwrap();
 		assert!(dataset.contains("<h2>Fields</h2>"));
-		assert!(!dataset.contains("SQLite"));
-		assert!(!dataset.contains("SHA-256"));
+		assert!(dataset.contains("<h2>Downloads</h2>"));
 		assert!(!dataset.contains("SELECT"));
-		assert!(dataset.contains("id='bnck-database'"));
+		assert!(dataset.contains("id='release'"));
 		assert!(dataset.contains("2026-04-16.1"));
 		assert!(dataset.contains("2026-04-16 12:00:00 UTC"));
+		assert!(dataset.contains("href='/data/latest'"));
+		assert!(dataset.contains("href='/data/latest/bnck.sqlite.zst'"));
+		assert!(dataset.contains("href='/data/latest/SHA256SUMS'"));
+
+		let about = render_page(&database, "about.html", "About", minijinja::context! {}).unwrap();
+		assert!(about.contains("<h1>bnck(1)</h1>"));
+		assert!(about.contains("href='https:&#x2f;&#x2f;github.com&#x2f;NightSail&#x2f;bnck'"));
+		assert!(about.contains("href='/dataset'"));
 
 		let error = render_page(
 			&database,

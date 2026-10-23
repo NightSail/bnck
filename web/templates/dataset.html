@@ -1,19 +1,21 @@
 {% extends 'base.html' %}
 {% from 'components.html' import stats with context %}
+{% set release = page.metadata.dataset_release %}
 {% block content %}
-<section class='page-heading dataset-heading'>
+<section class='page-heading doc-heading'>
 	<h1>Dataset</h1>
-	<p class='lead'>Executable names, their projects, and the packages that provide them.</p>
+	<p class='lead'>Fields, coverage, and release artifacts for the current bnck dataset.</p>
 </section>
 {{ stats(page.stats) }}
-<div class='dataset-layout'>
+<div class='doc-layout'>
 	<nav class='section-nav' aria-label='On this page'>
-		<a href='#model'>Fields</a>
+		<a href='#fields'>Fields</a>
 		<a href='#coverage'>Coverage</a>
-		<a href='#bnck-database'>Release</a>
+		<a href='#release'>Release</a>
+		<a href='#downloads'>Downloads</a>
 	</nav>
-	<div class='dataset-body'>
-		<section id='model'>
+	<div class='doc-body'>
+		<section id='fields'>
 			<h2>Fields</h2>
 			<dl class='definitions'>
 				<div><dt>Executable</dt><dd>Command name, preserving spelling and case.</dd></div>
@@ -49,19 +51,61 @@
 			<p class='fine-print'>Counts refer to this dataset, not the full contents of each channel.
 				Projects may appear in more than one channel.</p>
 		</section>
-		<section id='bnck-database'>
+		<section id='release'>
 			<h2>Release</h2>
 			<dl class='definitions metadata'>
-				<div><dt>Identifier</dt><dd><code>{{ page.metadata.dataset_release }}</code></dd></div>
+				<div><dt>Identifier</dt><dd><code>{{ release }}</code></dd></div>
 				<div>
 					<dt>Generated</dt>
 					<dd><time datetime='{{ page.metadata.generated_at }}'>
 						{{ page.metadata.generated_at | replace('T', ' ') | replace('Z', ' UTC') }}
 					</time></dd>
 				</div>
+				<div>
+					<dt>Latest release</dt>
+					<dd><a href='/data/latest'>/data/latest <span aria-hidden='true'>→</span></a>,
+						the stable link to this dataset</dd>
+				</div>
+				<div>
+					<dt>Latest tag</dt>
+					<dd><a href='{{ site.releases_url }}/tag/bnck-dataset-{{ release }}' rel='external'>
+						<code>bnck-dataset-{{ release }}</code> <span aria-hidden='true'>↗</span></a></dd>
+				</div>
+				<div>
+					<dt>All releases</dt>
+					<dd><a href='{{ site.releases_url }}' rel='external'>
+						GitHub Releases <span aria-hidden='true'>↗</span></a></dd>
+				</div>
 			</dl>
 			<p class='fine-print'>bnck and its dataset are licensed under the
-				<a href='https://opensource.org/license/isc'>ISC License</a>.</p>
+				<a href='{{ site.license_url }}' rel='external'>ISC License <span aria-hidden='true'>↗</span></a>.</p>
+		</section>
+		<section id='downloads'>
+			<h2>Downloads</h2>
+			<p>Use <code>/data/latest</code> for the current release or open the versioned tag for a fixed snapshot.</p>
+			<dl class='definitions'>
+				<div>
+					<dt>SQLite dataset</dt>
+					<dd><a href='/data/latest/bnck.sqlite.zst'><code>bnck.sqlite.zst</code></a>:
+						names, projects, packages, and project links</dd>
+				</div>
+				<div>
+					<dt>Release archive</dt>
+					<dd><a href='/data/latest/bnck-{{ release }}.tar.zst'>
+						<code>bnck-{{ release }}.tar.zst</code></a>: complete release</dd>
+				</div>
+				<div>
+					<dt>Manifest</dt>
+					<dd><a href='/data/latest/manifest.json'><code>manifest.json</code></a>:
+						release metadata and artifact digests</dd>
+				</div>
+				<div>
+					<dt>Checksums</dt>
+					<dd><a href='/data/latest/SHA256SUMS'><code>SHA256SUMS</code></a> and
+						<a href='/data/latest/SHA256SUMS.minisig'><code>SHA256SUMS.minisig</code></a></dd>
+				</div>
+			</dl>
+			<p class='fine-print'>Verify checksums and signatures before using a downloaded artifact.</p>
 		</section>
 	</div>
 </div>

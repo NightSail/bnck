@@ -24,9 +24,12 @@ No public release has been made.
 - Automatic curation ingestion from normalized Terminal Trove and tldr hints
 - Persistent hint rejections for candidates that must not be re-ingested
 - Expanded seed curations from Terminal Trove and tldr hint batches
+- Separate website About and Dataset pages with source, issue, release, contributing, and license links
+- Dataset page links to the latest release alias, latest tag, GitHub Releases, and current artifact downloads
 
 ### Changed
 
+- Dataset details moved from `/about` to `/dataset`; `/about` now presents the project.
 - SQLite schema version is 1 for the first public schema. Pre-publication development artifacts labeled 2 are not release-compatible.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.
 - The release workflow is now a single `just release` command that assembles, signs, verifies, and packages the release.

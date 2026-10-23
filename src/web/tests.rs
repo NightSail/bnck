@@ -8,7 +8,10 @@ use axum::http::{StatusCode, Uri, header};
 use axum::response::Response;
 use tempfile::tempdir;
 
-use super::{Database, SEARCH_PAGE_SIZE, SearchQuery, about, executable_page, home, project_page, render_page, search_page};
+use super::{
+	Database, SEARCH_PAGE_SIZE, SearchQuery, about, dataset, executable_page, home, project_page, render_page,
+	search_page,
+};
 use crate::model::{Provider, write_json_lines};
 use crate::release::{SqliteMetadata, generate_sqlite_artifact};
 
@@ -989,6 +992,7 @@ async fn search_shortcut_is_loaded_once_on_main_and_detail_pages() {
 		project_page(&database, "helix"),
 		executable_page(&database, "hx"),
 		about(State(database.clone())).await,
+		dataset(State(database.clone())).await,
 	] {
 		let html = response_text(response).await;
 		assert_eq!(html.matches("<script type='module' src='/search.js'></script>").count(), 1);
@@ -1132,7 +1136,9 @@ async fn renders_one_project_summary_with_explicit_executable_links() {
 	assert!(!html.contains("Provided by"));
 	assert!(!html.contains("Provides"));
 	assert_eq!(html.matches(EXACT_MATCH_TAG).count(), 2);
-	assert!(!html.contains("↗"));
+	let main = html.split_once("<main id='main' tabindex='-1'>").unwrap().1;
+	let main = main.split_once("</main>").unwrap().0;
+	assert!(!main.contains("↗"));
 }
 
 #[tokio::test]
@@ -1389,7 +1395,10 @@ async fn detail_pages_offer_one_unfiltered_search_form_in_the_header() {
 		let navigation = header.split_once("<nav aria-label='Main navigation'>").unwrap().1;
 		let navigation = navigation.split_once("</nav>").unwrap().0;
 		assert!(!navigation.contains(">Search</a>"));
-		assert!(navigation.find("</form>").unwrap() < navigation.find("href='/about'").unwrap());
+		let form = navigation.find("</form>").unwrap();
+		let dataset = navigation.find("href='/dataset'").unwrap();
+		let about = navigation.find("href='/about'").unwrap();
+		assert!(form < dataset && dataset < about);
 		assert!(header.contains("<p class='visually-hidden' id='search-hint'>Search by full or partial name.</p>"));
 		let form = header.split_once("<form class='search-form'").unwrap().1;
 		let form = form.split_once("</form>").unwrap().0;
@@ -1417,12 +1426,15 @@ async fn other_pages_keep_their_existing_forms_without_a_header_search() {
 		(search_page(&database, search_query("hx")), 1),
 		(search_page(&database, SearchQuery { page: 0, ..search_query("") }), 1),
 		(about(State(database.clone())).await, 0),
+		(dataset(State(database.clone())).await, 0),
 	] {
 		let html = response_text(response).await;
 		let header = html.split_once("<header class='site-header'>").unwrap().1;
 		let header = header.split_once("</header>").unwrap().0;
 		assert!(!header.contains("<form "));
 		assert!(header.contains(">Search</a>"));
+		assert!(header.contains("href='/dataset'"));
+		assert!(header.contains("href='/about'"));
 		assert_eq!(html.matches("<form ").count(), form_count);
 		assert_eq!(html.matches("id='q'").count(), form_count);
 		assert_eq!(html.matches("id='search-hint'").count(), form_count);
@@ -1437,6 +1449,7 @@ async fn web_pages_hide_provider_record_details() {
 			project_page(&database, "helix"),
 			executable_page(&database, "hx"),
 			about(State(database.clone())).await,
+			dataset(State(database.clone())).await,
 		];
 		for channel in ["", "debian"] {
 			let search = SearchQuery { channel: channel.to_owned(), ..search_query("") };
@@ -1529,7 +1542,24 @@ async fn handles_invalid_queries_and_missing_identities() {
 	}
 	let query = Query::<SearchQuery>::try_from_uri(&"/".parse().unwrap());
 	assert_eq!(home(State(database.clone()), query).await.status(), StatusCode::OK);
-	let html = response_text(about(State(database)).await).await;
+	let html = response_text(dataset(State(database.clone())).await).await;
 	assert!(html.contains("An unlisted command or package may still be available."));
 	assert!(html.contains("2026-04-16.1"));
+	for href in [
+		"href='/data/latest'",
+		"href='https:&#x2f;&#x2f;github.com&#x2f;NightSail&#x2f;bnck&#x2f;releases/tag/bnck-dataset-2026-04-16.1'",
+		"href='https:&#x2f;&#x2f;github.com&#x2f;NightSail&#x2f;bnck&#x2f;releases'",
+		"href='/data/latest/bnck.sqlite.zst'",
+		"href='/data/latest/bnck-2026-04-16.1.tar.zst'",
+		"href='/data/latest/manifest.json'",
+		"href='/data/latest/SHA256SUMS'",
+		"href='/data/latest/SHA256SUMS.minisig'",
+	] {
+		assert!(html.contains(href), "missing {href}");
+	}
+	let html = response_text(about(State(database)).await).await;
+	assert!(html.contains("bnck maps executable names to the projects and distribution packages"));
+	assert!(html.contains("href='/dataset'"));
+	assert!(html.contains("href='https:&#x2f;&#x2f;github.com&#x2f;NightSail&#x2f;bnck/issues'"));
+	assert!(html.contains("href='https:&#x2f;&#x2f;github.com&#x2f;NightSail&#x2f;bnck/blob/master/CONTRIBUTING.md'"));
 }

@@ -166,8 +166,10 @@ main,
 }
 .site-header nav {
 	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	justify-content: flex-end;
 	gap: 28px;
-	margin-left: auto;
 	font-size: 13px;
 }
 .site-header nav a {
@@ -991,14 +993,14 @@ thead th {
 	display: block;
 	margin-bottom: 3px;
 }
-.dataset-heading {
+.doc-heading {
 	padding-bottom: 44px;
 }
-.dataset-heading .lead {
+.doc-heading .lead {
 	max-width: 650px;
 	margin: 0;
 }
-.dataset-layout {
+.doc-layout {
 	display: grid;
 	grid-template-columns: 230px minmax(0, 1fr);
 	gap: 80px;
@@ -1012,22 +1014,22 @@ thead th {
 	gap: 14px;
 	font-size: 12px;
 }
-.dataset-body > section {
+.doc-body > section {
 	margin-bottom: 52px;
 	padding-bottom: 44px;
 	border-bottom: 1px solid var(--line);
 	scroll-margin-top: 30px;
 }
-.dataset-body > section:last-child {
+.doc-body > section:last-child {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
-.dataset-body h2 {
+.doc-body h2 {
 	font-size: 30px;
 	margin-bottom: 22px;
 }
-.dataset-body p {
+.doc-body p {
 	color: var(--muted);
 	font-size: 14px;
 }
@@ -1049,6 +1051,14 @@ thead th {
 	margin: 0;
 	color: var(--muted);
 	overflow-wrap: anywhere;
+}
+.definitions a {
+	color: var(--cyan);
+}
+.definitions a:hover {
+	color: var(--green);
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
 .metadata code {
 	color: var(--cyan);
@@ -1075,7 +1085,7 @@ thead th {
 	font-family: var(--mono);
 	font-size: 12px;
 }
-.dataset-body .fine-print {
+.doc-body .fine-print {
 	font-size: 12px;
 }
 .error-page {
@@ -1117,6 +1127,11 @@ thead th {
 .site-footer a {
 	color: var(--green);
 }
+.footer-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 18px;
+}
 
 @media (min-width: 1440px) {
 	.hero {
@@ -1144,7 +1159,7 @@ thead th {
 		gap: 28px;
 		grid-template-columns: minmax(0, 1fr) 210px;
 	}
-	.dataset-layout {
+	.doc-layout {
 		gap: 40px;
 		grid-template-columns: 190px minmax(0, 1fr);
 	}
@@ -1159,20 +1174,19 @@ thead th {
 }
 
 @media (max-width: 780px) {
-	.site-header {
-		min-height: 85px;
-		gap: 24px;
-	}
-	.release-tag {
-		display: none;
-	}
+	.site-header,
 	.site-header.has-search {
 		flex-wrap: wrap;
 		gap: 12px 24px;
 		padding-block: 16px;
 	}
+	.release-tag {
+		display: none;
+	}
+	.site-header nav,
 	.site-header.has-search nav {
 		flex: 1 1 100%;
+		justify-content: flex-start;
 		gap: 12px;
 	}
 	.header-search {
@@ -1220,7 +1234,7 @@ thead th {
 	.side-note + .side-note {
 		border-top: 0;
 	}
-	.dataset-layout {
+	.doc-layout {
 		grid-template-columns: 1fr;
 		gap: 36px;
 	}
@@ -1328,7 +1342,7 @@ thead th {
 	.provider-group-header h3 {
 		font-size: 20px;
 	}
-	.dataset-body h2 {
+	.doc-body h2 {
 		font-size: 26px;
 	}
 	.definitions > div {
@@ -1397,7 +1411,7 @@ thead th {
 		width: 100%;
 	}
 	.content-layout,
-	.dataset-layout {
+	.doc-layout {
 		display: block;
 	}
 	.matrix-scroll {

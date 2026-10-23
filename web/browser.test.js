@@ -89,7 +89,7 @@ test('modified clicks, fragments, detail pages, and external links retain native
 		{ altKey: true }, { button: 1 }, { defaultPrevented: true }]) {
 		expect(click(state, '/?q=hx', overrides).preventDefault).not.toHaveBeenCalled();
 	}
-	for (const path of ['/projects/helix', '/about', '/#main', 'https://example.org/?q=hx']) {
+	for (const path of ['/projects/helix', '/about', '/dataset', '/#main', 'https://example.org/?q=hx']) {
 		expect(click(state, path).preventDefault).not.toHaveBeenCalled();
 	}
 	expect(state.window.history.pushState).not.toHaveBeenCalled();
