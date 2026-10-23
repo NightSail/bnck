@@ -1,5 +1,5 @@
-/data /data/latest 302
-/data/ /data/latest 302
+/data https://github.com/NightSail/bnck/releases/ 302
+/data/ https://github.com/NightSail/bnck/releases/ 302
 /data/latest https://github.com/NightSail/bnck/releases/tag/bnck-dataset-{{release}} 302
 /data/latest/ https://github.com/NightSail/bnck/releases/tag/bnck-dataset-{{release}} 302
 /data/latest/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-{{release}}/:splat 302
