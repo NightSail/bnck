@@ -137,7 +137,7 @@ Required `cloudflare-pages` deployment environment configuration:
 - `CLOUDFLARE_PROJECT_NAME` environment variable
 - A committed `minisign.pub` matching the CI signing key
 
-The build and deployment jobs use this environment, so environment protection rules also apply to release signing.
+The build and deployment jobs use this environment, so environment protection rules also apply to release signing. The Pages deployment targets the repository default branch; the Pages project's production branch must match it.
 
 The workflow passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
 
