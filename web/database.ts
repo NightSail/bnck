@@ -3,11 +3,14 @@ import { stat } from 'node:fs/promises';
 import { extname } from 'node:path';
 
 import { SEARCH_PAGE_SIZE, SEARCH_PAGE_SIBLINGS } from './config';
-import { encodeSegment } from './naming';
+import { compareNames, encodeSegment, foldAscii } from './naming';
 import type {
+	AssociationRole,
 	ChannelStats,
 	DatasetStats,
+	ExecutableAssociation,
 	ExecutableProvider,
+	ProjectAssociation,
 	ProjectLink,
 	ProjectProvider,
 	SearchFilterLink,
@@ -26,6 +29,14 @@ const SEARCH_MATCHES = `WITH matching_names AS (
 	SELECT project AS name, project AS matched_name
 	FROM providers
 	WHERE instr(lower(project), lower(?1)) > 0 AND (?2 = '' OR channel = ?2)
+	UNION
+	SELECT project AS name, executable AS matched_name
+	FROM name_associations
+	WHERE ?2 = '' AND instr(lower(executable), lower(?1)) > 0
+	UNION
+	SELECT project AS name, project AS matched_name
+	FROM name_associations
+	WHERE ?2 = '' AND instr(lower(project), lower(?1)) > 0
 ), ranked_names AS (
 	SELECT name, matched_name,
 		CASE
@@ -49,9 +60,12 @@ const SEARCH_INITIAL_FILTER = `WHERE ?3 = ''
 
 const REQUIRED_METADATA = [
 	'dataset_schema_version',
+	'association_schema_version',
 	'dataset_release',
 	'dataset_sha256',
 	'provider_count',
+	'association_sha256',
+	'association_count',
 	'generated_at',
 	'generator_version',
 	'generator_revision',
@@ -126,12 +140,20 @@ export class WebsiteDatabase {
 		for (const key of REQUIRED_METADATA) requiredMetadata(metadata, key);
 
 		const stats = readStats(database);
+		parseInteger(requiredMetadata(metadata, 'association_schema_version'), 'metadata association_schema_version');
 		const expectedProviderCount = parseInteger(
 			requiredMetadata(metadata, 'provider_count'),
 			'metadata provider_count',
 		);
 		if (stats.providers !== expectedProviderCount) {
 			throw new Error('provider count does not match database metadata');
+		}
+		const expectedAssociationCount = parseInteger(
+			requiredMetadata(metadata, 'association_count'),
+			'metadata association_count',
+		);
+		if (readAssociationCount(database) !== expectedAssociationCount) {
+			throw new Error('name association count does not match database metadata');
 		}
 
 		const channels = readChannelStats(database);
@@ -148,20 +170,33 @@ export class WebsiteDatabase {
 	}
 
 	listProjects(): string[] {
-		return (this.database.query('SELECT DISTINCT project AS name FROM providers ORDER BY project')
-			.all() as { name: string }[]).map((row) => row.name);
+		return (this.database.query(
+			`SELECT name FROM (
+				SELECT project AS name FROM providers
+				UNION
+				SELECT project AS name FROM name_associations
+			) ORDER BY name`,
+		).all() as { name: string }[]).map((row) => row.name);
 	}
 
 	listExecutables(): string[] {
-		return (this.database.query('SELECT DISTINCT executable AS name FROM providers ORDER BY executable')
-			.all() as { name: string }[]).map((row) => row.name);
+		return (this.database.query(
+			`SELECT name FROM (
+				SELECT executable AS name FROM providers
+				UNION
+				SELECT executable AS name FROM name_associations
+			) ORDER BY name`,
+		).all() as { name: string }[]).map((row) => row.name);
 	}
 
 	shortNameUsage(): Map<string, number> {
 		const rows = this.database.query(
-			`SELECT executable AS name, count(DISTINCT project) AS projects
-			 FROM providers WHERE length(executable) IN (2, 3)
-			 GROUP BY executable`,
+			`SELECT name, count(DISTINCT project) AS projects FROM (
+				SELECT executable AS name, project FROM providers
+				UNION
+				SELECT executable AS name, project FROM name_associations
+			) WHERE length(name) IN (2, 3)
+			GROUP BY name`,
 		).all() as { name: string; projects: number }[];
 		return new Map(rows.map((row) => [row.name, row.projects]));
 	}
@@ -190,6 +225,22 @@ export class WebsiteDatabase {
 		return this.database
 			.query('SELECT project, channel, package FROM providers WHERE executable = ?1 ORDER BY project, channel, package')
 			.all(executable) as ExecutableProvider[];
+	}
+
+	projectAssociations(project: string): ProjectAssociation[] {
+		return this.database.query(
+			`SELECT executable, role FROM name_associations
+			 WHERE project = ?1
+			 ORDER BY CASE role WHEN 'reference' THEN 0 ELSE 1 END, executable`,
+		).all(project) as ProjectAssociation[];
+	}
+
+	executableAssociations(executable: string): ExecutableAssociation[] {
+		return this.database.query(
+			`SELECT project, role FROM name_associations
+			 WHERE executable = ?1
+			 ORDER BY CASE role WHEN 'reference' THEN 0 ELSE 1 END, project`,
+		).all(executable) as ExecutableAssociation[];
 	}
 
 	search(search: SearchQuery): SearchResults {
@@ -245,24 +296,42 @@ export class WebsiteDatabase {
 
 function readSearchRelations(database: Database, name: string, search: SearchQuery): SearchResult['related'] {
 	/* Keep matching commands in the preview, even for projects with many executables. */
+	const query = searchQueryText(search);
 	const rows = database.query(
 		`SELECT DISTINCT executable, channel FROM providers
 		 WHERE project = ?1 AND (?2 = '' OR channel = ?2)
-		 ORDER BY CASE
-			WHEN executable = ?3 THEN 0
-			WHEN lower(executable) = lower(?3) THEN 1
-			WHEN instr(lower(executable), lower(?3)) = 1 THEN 2
-			WHEN instr(lower(executable), lower(?3)) > 0 THEN 3
-			ELSE 4
-		 END, CASE WHEN ?3 != '' THEN length(executable) END, executable, channel`,
-	).all(name, search.channel, searchQueryText(search)) as { executable: string; channel: string }[];
+		 ORDER BY executable, channel`,
+	).all(name, search.channel) as { executable: string; channel: string }[];
 	const related: SearchResult['related'] = [];
 	for (const row of rows) {
 		const previous = related.at(-1);
 		if (previous?.name === row.executable) previous.channels.push(row.channel);
 		else related.push({ name: row.executable, channels: [row.channel] });
 	}
+	if (!search.channel) {
+		const associations = database.query(
+			`SELECT executable, role FROM name_associations
+			 WHERE project = ?1 ORDER BY executable`,
+		).all(name) as { executable: string; role: AssociationRole }[];
+		for (const association of associations) {
+			if (!related.some((relation) => relation.name === association.executable)) {
+				related.push({ name: association.executable, channels: [], role: association.role });
+			}
+		}
+	}
+	related.sort((left, right) => relationRank(left.name, query) - relationRank(right.name, query) ||
+		(query ? left.name.length - right.name.length : 0) || compareNames(left.name, right.name));
 	return related;
+}
+
+function relationRank(name: string, query: string): number {
+	const folded = foldAscii(name);
+	const foldedQuery = foldAscii(query);
+	if (name === query) return 0;
+	if (folded === foldedQuery) return 1;
+	if (folded.startsWith(foldedQuery)) return 2;
+	if (folded.includes(foldedQuery)) return 3;
+	return 4;
 }
 
 function readUserVersion(database: Database): number {
@@ -284,9 +353,14 @@ function requiredMetadata(metadata: ReadonlyMap<string, string>, key: string): s
 
 function readStats(database: Database): DatasetStats {
 	const row = database.query(
-		`SELECT count(*) AS providers, count(DISTINCT project) AS projects,
-			count(DISTINCT executable) AS executables, count(DISTINCT channel) AS channels
-		 FROM providers`,
+		`SELECT (SELECT count(*) FROM providers) AS providers,
+			(SELECT count(*) FROM (
+				SELECT project FROM providers UNION SELECT project FROM name_associations
+			)) AS projects,
+			(SELECT count(*) FROM (
+				SELECT executable FROM providers UNION SELECT executable FROM name_associations
+			)) AS executables,
+			(SELECT count(DISTINCT channel) FROM providers) AS channels`,
 	).get();
 	if (!isRecord(row)) throw new Error('dataset statistics are unavailable');
 	return {
@@ -295,6 +369,12 @@ function readStats(database: Database): DatasetStats {
 		executables: requireNumber(row.executables, 'executable count'),
 		channels: requireNumber(row.channels, 'channel count'),
 	};
+}
+
+function readAssociationCount(database: Database): number {
+	const row = database.query('SELECT count(*) AS count FROM name_associations').get();
+	if (!isRecord(row)) throw new Error('name association count is unavailable');
+	return requireNumber(row.count, 'name association count');
 }
 
 function readChannelStats(database: Database): ChannelStats[] {

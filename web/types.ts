@@ -24,6 +24,18 @@ export interface ProjectLink {
 	url: string;
 }
 
+export type AssociationRole = 'reference' | 'implementation';
+
+export interface ProjectAssociation {
+	executable: string;
+	role: AssociationRole;
+}
+
+export interface ExecutableAssociation {
+	project: string;
+	role: AssociationRole;
+}
+
 export interface DatasetStats {
 	providers: number;
 	projects: number;
@@ -47,6 +59,7 @@ export interface SearchQuery {
 export interface SearchRelation {
 	name: string;
 	channels: string[];
+	role?: AssociationRole;
 }
 
 export interface SearchResult {
@@ -129,6 +142,7 @@ export interface BrowserProject {
 	name: string;
 	links: ProjectLink[];
 	providers: ProjectProvider[];
+	associations: ProjectAssociation[];
 }
 
 export interface BrowserDataset {

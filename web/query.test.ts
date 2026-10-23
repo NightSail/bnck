@@ -142,7 +142,7 @@ test('pagination markup exposes shortcuts, the current page, and a go-to form', 
 
 test('untrusted dataset names and queries cannot inject HTML or link attributes', () => {
 	const malicious: BrowserDataset = { ...dataset, projects: [{ name: "<img src=x onerror='bad'>",
-		links: [], providers: [
+		links: [], associations: [], providers: [
 			{ executable: "<script>alert('x')</script>", channel: 'npm', package: 'safe' },
 		] }] };
 	const search = parse('q=script');
@@ -151,4 +151,22 @@ test('untrusted dataset names and queries cannot inject HTML or link attributes'
 	expect(html).not.toContain('<script>');
 	expect(html).toContain('%3Cimg%20src%3Dx%20onerror%3D%27bad%27%3E');
 	expect(html).toContain('&lt;');
+});
+test('name associations search without a channel and stay separate from provider rows', () => {
+	const associated: BrowserDataset = { ...dataset, projects: [
+		...dataset.projects,
+		{ name: 'implementation', links: [], associations: [{ executable: 'cat', role: 'implementation' }],
+			providers: [{ executable: 'uu-cat', channel: 'debian', package: 'uutils' }] },
+	] };
+	const index = buildIndex(associated);
+	const results = queryIndex(index, parse('q=cat'));
+	const project = results.rows.find((row) => row.name === 'implementation');
+	expect(project?.related[0]).toEqual({
+		name: 'cat', folded: 'cat', length: 3, channels: [], role: 'implementation', rank: 0,
+	});
+	const html = renderResults(parse('q=cat'), results, dataset.channels);
+	expect(html).toContain("href='/executables/cat'");
+	expect(html).toContain("<span class='badge'>implementation</span>");
+	const filtered = queryIndex(index, parse('q=cat&channel=debian')).rows.find((row) => row.name === 'implementation');
+	expect(filtered?.related.some((relation) => relation.role === 'implementation')).toBe(false);
 });

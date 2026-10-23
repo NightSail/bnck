@@ -31,7 +31,13 @@ test('browser queries match the SQLite search contract', async () => {
 		provider('unicode', 'tool\u{10000}', 'npm'),
 		...Array.from({ length: 120 }, (_, index) => provider(`page-${String(index).padStart(3, '0')}`, 'tool', 'npm')),
 	];
-	const fixture = await createFixture(records);
+	const fixture = await createFixture(records, [], {
+		associations: [
+			{ project: 'assoc-only', executable: 'tool', role: 'reference' },
+			{ project: 'implementation', executable: 'hx', role: 'implementation' },
+			{ project: 'implementation', executable: 'tool', role: 'implementation' },
+		],
+	});
 	try {
 		const database = await WebsiteDatabase.open(fixture.path);
 		try {
@@ -63,7 +69,7 @@ test('browser queries match the SQLite search contract', async () => {
 								})),
 								rows: actual.rows.map((row) => ({
 									name: row.name,
-									related: row.related.map(({ name, channels }) => ({ name, channels })),
+									related: row.related.map(({ name, channels, role }) => ({ name, channels, role })),
 								})),
 							}, label).toEqual({ ...expected, initials: undefined });
 						}

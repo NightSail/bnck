@@ -26,7 +26,11 @@ function validateDataset(dataset: unknown, release: string): BrowserDataset {
 		if (!isRecord(project) || typeof project.name !== 'string' || !project.name ||
 			!Array.isArray(project.providers) ||
 			!project.providers.every((provider) => isRecord(provider) && typeof provider.executable === 'string' &&
-				provider.executable && channels.has(provider.channel as string) && typeof provider.package === 'string')) {
+				provider.executable && channels.has(provider.channel as string) && typeof provider.package === 'string') ||
+			!Array.isArray(project.associations) ||
+			!project.associations.every((association) => isRecord(association) &&
+				typeof association.executable === 'string' && association.executable &&
+				(association.role === 'reference' || association.role === 'implementation'))) {
 			throw new Error('The search dataset contains invalid records. Reload the page and try again.');
 		}
 	}

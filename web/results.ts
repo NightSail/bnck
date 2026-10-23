@@ -78,10 +78,14 @@ function filterNotices(search: Search, labels: Map<string, string>): string {
 function relatedRows(project: RankedProject, relations: RankedRelation[], search: Search,
 	labels: Map<string, string>): string {
 	return `<ul class='related-rows' role='list'>${relations.map((relation) => {
-		const url = `/projects/${encodeSegment(project.name)}#executable-${encodeSegment(relation.name)}`;
+		const url = relation.role
+			? `/executables/${encodeSegment(relation.name)}`
+			: `/projects/${encodeSegment(project.name)}#executable-${encodeSegment(relation.name)}`;
 		const name = `<code>${highlightName(relation.name, search.query)}(1)</code>`;
-		const channels = search.channel ? '' : `: ${relation.channels.map((channel) =>
-			escapeHtml(labels.get(channel))).join(', ')}`;
+		const channels = relation.role
+			? ` <span class='badge'>${escapeHtml(relation.role)}</span>`
+			: search.channel ? '' : `: ${relation.channels.map((channel) =>
+				escapeHtml(labels.get(channel))).join(', ')}`;
 		return `<li>${link(url, name, 'class=\'related-name\'')}${channels}
 			${exactTag(relation.name, search.query)}</li>`;
 	}).join('')}</ul>`;

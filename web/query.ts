@@ -4,7 +4,7 @@ import {
 	SEARCH_RELATED_NAME_LIMIT,
 } from './config';
 import { compareNames, encodeSegment, foldAscii } from './naming';
-import type { BrowserDataset, SearchPageLink } from './types';
+import type { AssociationRole, BrowserDataset, SearchPageLink } from './types';
 
 export { compareNames, encodeSegment, foldAscii };
 export const PAGE_SIZE = SEARCH_PAGE_SIZE;
@@ -27,6 +27,7 @@ export interface IndexedName {
 
 export interface IndexedRelation extends IndexedName {
 	channels: string[];
+	role?: AssociationRole;
 }
 
 export interface IndexedProject extends IndexedName {
@@ -114,13 +115,21 @@ export function buildIndex(dataset: BrowserDataset): IndexedProject[] {
 			channels.add(provider.channel);
 			executables.set(provider.executable, channels);
 		}
-		return {
-			...searchableName(project.name),
-			related: [...executables].map(([name, channels]) => ({
-				...searchableName(name),
-				channels: [...channels].sort(compareNames),
-			})),
-		};
+		const related: IndexedRelation[] = [...executables].map(([name, channels]) => ({
+			...searchableName(name),
+			channels: [...channels].sort(compareNames),
+		}));
+		/* Associations supplement provider relations; they have no channel scope. */
+		for (const association of project.associations) {
+			if (!executables.has(association.executable)) {
+				related.push({
+					...searchableName(association.executable),
+					channels: [],
+					role: association.role,
+				});
+			}
+		}
+		return { ...searchableName(project.name), related };
 	});
 }
 

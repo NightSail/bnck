@@ -26,7 +26,7 @@ test('network, HTTP, parsing, and schema failures are explicit and retryable', a
 		() => { throw new Error('Network unavailable'); },
 		() => new Response('Not found', { status: 404 }),
 		() => new Response('{'),
-		() => Response.json({ ...dataset, schema_version: 2 }),
+		() => Response.json({ ...dataset, schema_version: 3 }),
 		() => Response.json({ ...dataset, dataset_release: 'old' }),
 		() => Response.json({ ...dataset, projects: [{ name: 'bad', providers: [{}] }] }),
 	]) {

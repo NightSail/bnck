@@ -95,6 +95,7 @@ export function browserDataset(database: WebsiteDatabase, projects: string[]): B
 		name,
 		links: database.projectLinks(name),
 		providers: database.projectProviders(name),
+		associations: database.projectAssociations(name),
 	}));
 	return {
 		schema_version: BROWSER_DATASET_SCHEMA_VERSION,

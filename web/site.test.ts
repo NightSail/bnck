@@ -21,7 +21,10 @@ test('generates a complete versioned site without modifying the database', async
 		provider('other', 'hx', 'npm'),
 		provider('other', 'HX', 'npm'),
 		provider('escaping', "é%&'<>#?", 'npm'),
-	], [{ project: 'helix', link_type: 'homepage', url: 'https://helix-editor.com/' }], { compressed: true });
+	], [{ project: 'helix', link_type: 'homepage', url: 'https://helix-editor.com/' }], {
+		compressed: true,
+		associations: [{ project: 'helix', executable: 'cat', role: 'implementation' }],
+	});
 	const root = await mkdtemp(join(tmpdir(), 'bnck-site-'));
 	try {
 		const output = join(root, 'site');
@@ -40,12 +43,13 @@ test('generates a complete versioned site without modifying the database', async
 		expect(home).toContain(`content='/assets/${datasetName}'`);
 
 		const dataset = JSON.parse(await readFile(datasetPath, 'utf8'));
-		expect(dataset.schema_version).toBe(1);
+		expect(dataset.schema_version).toBe(2);
 		expect(dataset.dataset_release).toBe('2026-04-16.1');
 		expect(dataset.channels).toHaveLength(7);
 		expect(dataset.projects).toHaveLength(3);
 		expect(dataset.projects[1].links[0].url).toBe('https://helix-editor.com/');
 		expect(dataset.projects[1].providers).toHaveLength(2);
+		expect(dataset.projects[1].associations).toEqual([{ executable: 'cat', role: 'implementation' }]);
 
 		for (const asset of ['style.css', 'search.js', 'exports.js', 'browser.js']) {
 			expect(await readdir(applicationDirectory)).toContain(asset);
@@ -60,6 +64,7 @@ test('generates a complete versioned site without modifying the database', async
 			'projects/helix/index.html',
 			'executables/hx/index.html',
 			'executables/HX/index.html',
+			'executables/cat/index.html',
 			"executables/é%&'<>#?/index.html",
 		]) {
 			expect((await readFile(join(output, path))).length).toBeGreaterThan(0);
@@ -74,6 +79,7 @@ test('generates a complete versioned site without modifying the database', async
 		expect(about).toContain('github.com/NightSail/bnck');
 		const project = await readFile(join(output, 'projects/helix/index.html'), 'utf8');
 		expect(project).toContain('https://helix-editor.com/');
+		expect(project).toContain("<h2 id='associations-title'>name associations</h2>");
 		expect(project).not.toContain('browser.js');
 		expect((await readdir(join(output, 'short'))).sort())
 			.toEqual(['2', ...'abcdefghijklmnopqrstuvwxyz']);
@@ -92,7 +98,17 @@ test('generates a complete versioned site without modifying the database', async
 		expect(exported.endsWith('\n')).toBe(true);
 		const payload = JSON.parse(exported);
 		expect(payload.providers).toHaveLength(3);
+		expect(payload.associations).toEqual([]);
 		expect(payload.query).toEqual({ executable: 'hx' });
+
+		const associationExport = JSON.parse(
+			await readFile(join(output, 'executables/cat/providers.json'), 'utf8'),
+		);
+		expect(associationExport.providers).toEqual([]);
+		expect(associationExport.associations).toEqual([{ project: 'helix', role: 'implementation' }]);
+
+		const projectExport = JSON.parse(await readFile(join(output, 'projects/helix/providers.json'), 'utf8'));
+		expect(projectExport.associations).toEqual([{ executable: 'cat', role: 'implementation' }]);
 
 		const headers = await readFile(join(output, '_headers'), 'utf8');
 		expect(headers).toContain('/dataset\n  Cache-Control: no-cache');

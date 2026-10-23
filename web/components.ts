@@ -82,6 +82,19 @@ export function providerGroup(name: string, kind: 'project' | 'executable', chan
 </article>`;
 }
 
+export function associationList(
+	items: { name: string; role: string }[],
+	kind: 'project' | 'executable',
+): Html {
+	const base = kind === 'project' ? 'projects' : 'executables';
+	return html`<ul class='association-list'>
+		${items.map((item) => html`<li>
+			<a href='/${base}/${encodeSegment(item.name)}'><code>${item.name}</code></a>
+			<span class='badge'>${item.role}</span>
+		</li>`)}
+	</ul>`;
+}
+
 export function exportActions(url: string): Html {
 	return html`<div class='export-actions' data-json-export>
 	<div class='export-buttons'>
@@ -138,9 +151,13 @@ export function relatedRows(
 ): Html {
 	return html`<ul class='related-rows' role='list'>
 	${relations.map((relation) => {
-		const url = `/projects/${encodeSegment(result.name)}#executable-${encodeSegment(relation.name)}`;
-		const channels = selectedChannel ? '' : html`: ${relation.channels.map((channel, index) =>
-			html`${index > 0 ? ', ' : ''}${channelLabel(channel)}`)}`;
+		const url = relation.role
+			? `/executables/${encodeSegment(relation.name)}`
+			: `/projects/${encodeSegment(result.name)}#executable-${encodeSegment(relation.name)}`;
+		const channels = relation.role
+			? html` <span class='badge'>${relation.role}</span>`
+			: selectedChannel ? '' : html`: ${relation.channels.map((channel, index) =>
+				html`${index > 0 ? ', ' : ''}${channelLabel(channel)}`)}`;
 		return html`<li>
 			<a class='related-name' href='${url}'>
 				<code>${highlightedName(relation.name, query)}(1)</code></a>${channels}

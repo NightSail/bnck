@@ -87,3 +87,38 @@ test('ambiguous executables list every owning project', async () => {
 		await fixture.cleanup();
 	}
 });
+test('executable and project pages show name associations separately from packages', async () => {
+	const fixture = await createFixture(
+		[provider('coreutils', 'ls', 'debian', 'coreutils')],
+		[],
+		{
+			associations: [
+				{ project: 'coreutils', executable: 'ls', role: 'reference' },
+				{ project: 'uutils-coreutils', executable: 'ls', role: 'implementation' },
+			],
+		},
+	);
+	const database = await WebsiteDatabase.open(fixture.path);
+	try {
+		const executable = executablePage(database, 'ls', context);
+		expect(executable).toContain("class='reference-note'");
+		expect(executable).toContain("href='/projects/coreutils'");
+		expect(executable).toContain("href='/projects/uutils-coreutils'");
+		expect(executable).toContain("<h2 id='implementations-title'>known implementations</h2>");
+		expect(executable.match(/class='provider-group'/g)).toHaveLength(1);
+		expect(executable).toContain("href='/projects/coreutils'");
+
+		const project = projectPage(database, 'coreutils', context);
+		expect(project).toContain("<h2 id='associations-title'>name associations</h2>");
+		expect(project).toContain("<h3>reference</h3>");
+		expect(project).toContain("href='/executables/ls'");
+
+		const implementation = projectPage(database, 'uutils-coreutils', context);
+		expect(implementation).toContain('No current channel packages are curated for this project.');
+		expect(implementation).toContain("<h3>implements</h3>");
+		expect(implementation).toContain("href='/executables/ls'");
+	} finally {
+		database.close();
+		await fixture.cleanup();
+	}
+});

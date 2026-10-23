@@ -14,8 +14,8 @@ Public copy uses short, descriptive headings and instructions, explains lookup b
 
 - Home: Search entry point, a featured project, dataset counts, and browse links
 - Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
-- Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
-- Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
+- Executable: All projects providing the exact command name, each grouped with its channel packages; reference and implementation associations appear separately, and multiple provider identities receive an ambiguity notice
+- Project: A coverage matrix of exact executable names and channel packages, curated name associations, and curator-supplied project links
 - Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, latest release alias, latest tag, GitHub Releases, artifact downloads, and license statement
 - Short: Separate pages for every two- and three-letter lowercase name, linked from a shared section navigation; names seen in at least one project link to their executable pages, while unseen names remain plain and muted
 - About: Lookup behavior, data sources and limits, and links to source code, issues, releases, contributing guidance, and license
@@ -41,7 +41,7 @@ Search folds ASCII letter case but does not normalize Unicode or interpret wildc
 
 An inline "Exact match" tag identifies each project ID or executable name equal to the trimmed query, preserving case and literal spelling. Project tags follow the project name; executable tags appear at the end of the row, after any channels. Shared executable names receive a tag under each matching owner; a project and its executable can both be tagged. Partial and case-insensitive-only matches are not tagged. Tags follow the active filters and do not appear when browsing.
 
-Results return one group per owning project, whether the query matches its ID or one of its executable names. Ownership comes from accepted provider records, never a shared prefix or inferred main executable; independently owned ecosystem tools remain separate projects. A command provided by multiple projects appears under each owner, with executable links opening that section on the owner's project page.
+Results return one group per owning project, whether the query matches its ID or one of its executable names. Ownership comes from accepted provider records, never a shared prefix or inferred main executable; independently owned ecosystem tools remain separate projects. A command provided by multiple projects appears under each owner, with executable links opening that section on the owner's project page. Name associations add project rows for names a project implements under another command or through an applet namespace; these rows link to the executable page and carry a `reference` or `implementation` badge.
 
 Results use a minimal grouped layout without column headers or type labels: an underlined project heading linked to project details, followed by executable rows, each with an underlined `name(1)` link. Without a channel filter, rows also show the distinct channels for that project/executable pair; with one, rows omit the channel list and the active channel stays visible above the results.
 
@@ -72,7 +72,7 @@ Detail routes retain exact, case-sensitive lookup semantics:
 
 ## JSON exports
 
-Project and executable detail pages offer "Copy JSON" and "View JSON" actions for their accepted mappings. View JSON is an ordinary link that opens formatted JSON inline. Copy JSON appears only when the first-party script loads and clipboard APIs are available in a secure context, normally HTTPS or localhost. Both use the exact, case-sensitive lookups and include all related channels and packages, without pagination or filtering. No export payload is embedded in the detail page or fetched until an action is used. The separate browser search dataset contains the full accepted mappings and curated project links.
+Project and executable detail pages offer "Copy JSON" and "View JSON" actions for their accepted mappings. View JSON is an ordinary link that opens formatted JSON inline. Copy JSON appears only when the first-party script loads and clipboard APIs are available in a secure context, normally HTTPS or localhost. Both use the exact, case-sensitive lookups and include all related channels and packages, without pagination or filtering. No export payload is embedded in the detail page or fetched until an action is used. The separate browser search dataset contains the full accepted mappings, curated project links, and name associations.
 
 Copy JSON fetches the export on demand and copies tab-indented plain text, then shows "JSON copied" for two seconds. Loading and success announcements reach assistive technology without adding a visible line or shifting content. Failed requests, invalid JSON, and rejected clipboard access produce an explicit failure message pointing to View JSON. Fetches time out after ten seconds, and the button is disabled while a copy is pending. Where supported, a promised clipboard item starts the write during the click gesture so fetching does not lose user activation.
 
@@ -81,7 +81,7 @@ Copy JSON fetches the export on demand and copies tab-indented plain text, then 
 /executables/{executable}/providers.json
 ```
 
-Each successful response begins with `dataset_release`, prefixed with `bnck:release:`, and a `query` object with exactly one key, `project` or `executable`, holding the exact requested name. The prefix namespaces the release identifier in exports without changing the stored identifier. The `providers` array holds four-field mappings ordered by project, executable, channel, and package. Project exports include every executable attributed to that project; executable exports include every owning project. Names preserve their original spelling, and each mapping appears once. Project links, package versions, and installation instructions are not included.
+Each successful response begins with `dataset_release`, prefixed with `bnck:release:`, and a `query` object with exactly one key, `project` or `executable`, holding the exact requested name. The prefix namespaces the release identifier in exports without changing the stored identifier. The `providers` array holds four-field mappings ordered by project, executable, channel, and package. Project exports include every executable attributed to that project; executable exports include every owning project. The `associations` array holds channel-independent name associations: project exports list associated executables, and executable exports list associated projects, with `reference` or `implementation` roles. Names preserve their original spelling, and each relation appears once. Project links, package versions, and installation instructions are not included.
 
 ```json
 {
@@ -94,6 +94,9 @@ Each successful response begins with `dataset_release`, prefixed with `bnck:rele
 			"channel": "arch",
 			"package": "ripgrep"
 		}
+	],
+	"associations": [
+		{ "project": "ripgrep", "role": "reference" }
 	]
 }
 ```
@@ -106,7 +109,7 @@ SQLite reads and JSON serialization happen at build time; viewing exports requir
 
 All example records, statistics, and release metadata come from the opened SQLite artifact. The interface never implies a live acquisition status, comprehensive channel coverage, historical availability, or installability.
 
-A missing identity or relation means there is no accepted provider record in this release; empty results and detail pages explain this limitation. Channel counts describe accepted dataset records, not acquisition completeness. The SQLite artifact lacks channel snapshot scope and failure details, which stay in the [release manifests](release-format.md).
+A missing identity or relation means there is no accepted provider record or name association in this release; empty results and detail pages explain this limitation. Channel counts describe accepted dataset records, not acquisition completeness. The SQLite artifact lacks channel snapshot scope and failure details, which stay in the [release manifests](release-format.md).
 
 The dataset page identifies the release and generation date and links to the latest release alias, the matching GitHub tag, all GitHub Releases, and current artifact downloads. Artifact schemas, generator details, and SQL examples belong in the release documentation, not public pages. Full release artifacts are hosted on GitHub Releases rather than copied into the site; per-identity JSON exports derive from the opened SQLite artifact.
 
@@ -114,7 +117,7 @@ The dataset page identifies the release and generation date and links to the lat
 
 `web/generate.ts` implements static generation. `web/database.ts` opens the compressed or uncompressed SQLite artifact in memory and exposes the dataset queries; `web/site.ts` stages the complete output; `web/pages.ts` and `web/components.ts` render the HTML. The stylesheet is `web/style.css`. The generator bundles the TypeScript browser entry points with Bun and reads every source file from disk on each build.
 
-The generated browser dataset has `schema_version`, `dataset_release`, `generated_at`, supported channel keys and labels, and projects containing exact names, curated links, and executable/channel/package relations. Its `schema_version` is independent of the release and provider schemas; increment it when the project, link, or provider shape changes incompatibly. It is a derived website artifact, not a replacement for the canonical release formats. The stylesheet and bundled JavaScript entry points share `/assets/app.<hash>/`, hashed only from those files. The browser dataset is a separate `/assets/dataset.<hash>.json`, hashed from its JSON bytes. Generated HTML references both URLs explicitly: dataset-only changes retain the application URLs, application-only changes retain the dataset URL, and byte-identical rebuilds retain both.
+The generated browser dataset has `schema_version`, `dataset_release`, `generated_at`, supported channel keys and labels, and projects containing exact names, curated links, executable/channel/package relations, and name associations. Its `schema_version` is independent of the release, provider, and association schemas; increment it when the project, link, provider, or association shape changes incompatibly. It is a derived website artifact, not a replacement for the canonical release formats. The stylesheet and bundled JavaScript entry points share `/assets/app.<hash>/`, hashed only from those files. The browser dataset is a separate `/assets/dataset.<hash>.json`, hashed from its JSON bytes. Generated HTML references both URLs explicitly: dataset-only changes retain the application URLs, application-only changes retain the dataset URL, and byte-identical rebuilds retain both.
 
 `web/dataset.ts` lazily fetches JSON on the first search or browse request, checks its schema and release, and builds an in-memory index shared by concurrent and later lookups. Loading the home page without parameters or opening an identity page downloads no dataset. Failed loads time out after ten seconds and offer an explicit retry. HTTP caching handles repeat visits; there is no service worker, IndexedDB, SQLite runtime, or offline guarantee.
 

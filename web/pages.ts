@@ -6,6 +6,7 @@ import {
 	channelLabel,
 } from './config';
 import {
+	associationList,
 	countLabel,
 	coverageNote,
 	exportActions,
@@ -176,6 +177,8 @@ ${stats(database.stats)}
 				<div><dt>project</dt><dd>Software project ID used for lookup.</dd></div>
 				<div><dt>channel</dt><dd>Package source, such as Debian or crates.io.</dd></div>
 				<div><dt>package</dt><dd>Package name within that channel.</dd></div>
+				<div><dt>association</dt><dd>Curated reference or implementation link between a name and a project.
+					An association does not claim that a package installs the name.</dd></div>
 			</dl>
 		</section>
 		<section id='coverage'>
@@ -239,7 +242,7 @@ ${stats(database.stats)}
 				<div>
 					<dt>SQLite dataset</dt>
 					<dd><a href='/data/latest/bnck.sqlite.zst'><code>bnck.sqlite.zst</code></a>:
-						names, projects, packages, and project links</dd>
+						names, projects, packages, associations, and project links</dd>
 				</div>
 				<div>
 					<dt>release archive</dt>
@@ -296,7 +299,15 @@ ${renderShortSection(section, label, description)}`,
 
 export function projectPage(database: WebsiteDatabase, project: string, context: PageContext): string {
 	const links = database.projectLinks(project);
-	const matrix = buildProjectMatrix(database.projectProviders(project));
+	const providers = database.projectProviders(project);
+	const matrix = buildProjectMatrix(providers);
+	const associations = database.projectAssociations(project);
+	const references = associations
+		.filter((association) => association.role === 'reference')
+		.map((association) => ({ name: association.executable, role: association.role }));
+	const implementations = associations
+		.filter((association) => association.role === 'implementation')
+		.map((association) => ({ name: association.executable, role: association.role }));
 	const projectLinks = links.length
 		? html`<ul class='project-links'>
 			${links.map((link) => html`<li>
@@ -305,6 +316,59 @@ export function projectPage(database: WebsiteDatabase, project: string, context:
 			</li>`)}
 		</ul>`
 		: html`<p class='project-links'>No project links listed.</p>`;
+	const associationSection = associations.length
+		? html`<section class='association-section' aria-labelledby='associations-title'>
+	<h2 id='associations-title'>name associations</h2>
+	<p class='fine-print'>Curated context about names this project is known for, not package relations.</p>
+	${references.length ? html`<div class='association-group'>
+		<h3>reference</h3>
+		${associationList(references, 'executable')}
+	</div>` : ''}
+	${implementations.length ? html`<div class='association-group'>
+		<h3>implements</h3>
+		${associationList(implementations, 'executable')}
+	</div>` : ''}
+</section>`
+		: '';
+	const providerSection = matrix.channels.length
+		? html`<p class='matrix-legend' id='matrix-legend'>
+	<span class='matrix-observed' aria-hidden='true'>✓</span> Observed in this package.
+	<span aria-hidden='true'>-</span> Not observed in this dataset.
+</p>
+<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
+	<table class='provider-matrix' aria-describedby='matrix-legend'>
+		<caption class='visually-hidden'>executable coverage for ${project}</caption>
+		<thead>
+			<tr>
+				<th class='matrix-name' scope='col'>package</th>
+				${matrix.executables.map((executable) => html`<th class='matrix-executable' scope='col'
+					id='executable-${executable}'>
+					<a class='related-name' href='/executables/${encodeSegment(executable)}'>
+						<code>${executable}</code>
+					</a>
+				</th>`)}
+			</tr>
+		</thead>
+		<tbody>
+			${matrix.channels.map((channel) => html`<tr>
+				<th class='matrix-channel' scope='rowgroup' colspan='${matrix.executables.length + 1}'>
+					<span class='matrix-channel-label'>${channelLabel(channel.channel)}</span>
+				</th>
+			</tr>
+			${channel.packages.map((packageReference) => html`<tr>
+				<th class='matrix-name' scope='row'>${packageLink(packageReference.reference, channel.channel)}</th>
+				${packageReference.observed.map((isObserved) => html`<td>
+					${isObserved
+						? html`<span class='matrix-observed' aria-hidden='true'>✓</span>
+							<span class='visually-hidden'>observed</span>`
+						: html`<span class='muted' aria-hidden='true'>-</span>
+							<span class='visually-hidden'>not observed</span>`}
+				</td>`)}
+			</tr>`)}`)}
+		</tbody>
+	</table>
+</div>`
+		: html`<p class='detail-note'>No current channel packages are curated for this project.</p>`;
 	return renderPage({
 		title: `project: ${project}`,
 		applicationAssets: context.applicationAssets,
@@ -320,55 +384,52 @@ export function projectPage(database: WebsiteDatabase, project: string, context:
 	<h1><code>${project}</code></h1>
 	${projectLinks}
 </section>
+${associationSection}
 <section aria-labelledby='providers-title'>
 	<div class='section-heading export-heading'>
 		<h2 id='providers-title'>executables</h2>
 		${exportActions(`/projects/${encodeSegment(project)}/providers.json`)}
 	</div>
-	<p class='matrix-legend' id='matrix-legend'>
-		<span class='matrix-observed' aria-hidden='true'>✓</span> Observed in this package.
-		<span aria-hidden='true'>-</span> Not observed in this dataset.
-	</p>
-	<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
-		<table class='provider-matrix' aria-describedby='matrix-legend'>
-			<caption class='visually-hidden'>executable coverage for ${project}</caption>
-			<thead>
-				<tr>
-					<th class='matrix-name' scope='col'>package</th>
-					${matrix.executables.map((executable) => html`<th class='matrix-executable' scope='col'
-						id='executable-${executable}'>
-						<a class='related-name' href='/executables/${encodeSegment(executable)}'>
-							<code>${executable}</code>
-						</a>
-					</th>`)}
-				</tr>
-			</thead>
-			<tbody>
-				${matrix.channels.map((channel) => html`<tr>
-					<th class='matrix-channel' scope='rowgroup' colspan='${matrix.executables.length + 1}'>
-						<span class='matrix-channel-label'>${channelLabel(channel.channel)}</span>
-					</th>
-				</tr>
-				${channel.packages.map((packageReference) => html`<tr>
-					<th class='matrix-name' scope='row'>${packageLink(packageReference.reference, channel.channel)}</th>
-					${packageReference.observed.map((isObserved) => html`<td>
-						${isObserved
-							? html`<span class='matrix-observed' aria-hidden='true'>✓</span>
-								<span class='visually-hidden'>observed</span>`
-							: html`<span class='muted' aria-hidden='true'>-</span>
-								<span class='visually-hidden'>not observed</span>`}
-					</td>`)}
-				</tr>`)}`)}
-			</tbody>
-		</table>
-	</div>
+	${providerSection}
 </section>
 ${coverageNote()}`,
 	});
 }
 
 export function executablePage(database: WebsiteDatabase, executable: string, context: PageContext): string {
-	const projects = groupExecutableProjects(database.executableProviders(executable));
+	const providers = database.executableProviders(executable);
+	const projects = groupExecutableProjects(providers);
+	const associations = database.executableAssociations(executable);
+	const references = associations
+		.filter((association) => association.role === 'reference')
+		.map((association) => ({ name: association.project, role: association.role }));
+	const implementations = associations
+		.filter((association) => association.role === 'implementation' &&
+			!projects.some((project) => project.project === association.project))
+		.map((association) => ({ name: association.project, role: association.role }));
+	const projectCount = new Set([
+		...projects.map((project) => project.project),
+		...associations.map((association) => association.project),
+	]).size;
+	const referenceSection = references.length
+		? html`<div class='reference-note'>
+	<span class='eyebrow'>reference</span>
+	${associationList(references, 'project')}
+</div>`
+		: '';
+	const providerSection = projects.length
+		? html`<div class='provider-groups'>
+	${projects.map((project) => providerGroup(project.project, 'project', project.channels))}
+</div>`
+		: html`<p class='detail-note'>No current channel packages are curated as providers for this name.</p>`;
+	const implementationSection = implementations.length
+		? html`<section class='association-section' aria-labelledby='implementations-title'>
+	<h2 id='implementations-title'>known implementations</h2>
+	<p class='fine-print'>These projects are associated with the name but are not listed as providing it
+		as an installed command.</p>
+	${associationList(implementations, 'project')}
+</section>`
+		: '';
 	return renderPage({
 		title: `executable: ${executable}`,
 		applicationAssets: context.applicationAssets,
@@ -382,8 +443,9 @@ export function executablePage(database: WebsiteDatabase, executable: string, co
 	<a class='back-link' href='/?q='>← browse names</a>
 	<p class='eyebrow'>executable</p>
 	<h1><span class='command-prefix' aria-hidden='true'>$ </span><code>${executable}</code></h1>
-	<p class='lead'>${countLabel(projects.length, 'project', 'projects')}.</p>
+	<p class='lead'>${countLabel(projectCount, 'project', 'projects')}.</p>
 </section>
+${referenceSection}
 <section aria-labelledby='providers-title'>
 	${projects.length > 1 ? html`<div class='ambiguity-note'>
 		<strong>Multiple projects provide this name.</strong>
@@ -393,10 +455,9 @@ export function executablePage(database: WebsiteDatabase, executable: string, co
 		<h2 id='providers-title'>projects</h2>
 		${exportActions(`/executables/${encodeSegment(executable)}/providers.json`)}
 	</div>
-	<div class='provider-groups'>
-		${projects.map((project) => providerGroup(project.project, 'project', project.channels))}
-	</div>
+	${providerSection}
 </section>
+${implementationSection}
 <p class='detail-note'>Links open current package pages. Check versions and platform support there.</p>
 ${coverageNote()}`,
 	});
