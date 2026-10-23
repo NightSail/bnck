@@ -125,6 +125,22 @@ just release 2026-04-16.1
 
 This writes the release directory and `var/releases/bnck-2026-04-16.1.tar.zst`. It uses `minisign.key` and `minisign.pub` by default and requires `minisign` and `zstd`. The secret key is never committed. See the [README](README.md) for public release verification.
 
+## Release automation
+
+The `Release` workflow is manually dispatched with a CalVer identifier. It runs one acquisition job per channel, downloads the candidate artifacts into a build job, generates and publishes the dataset, then builds and deploys the site.
+
+Required `cloudflare-pages` deployment environment configuration:
+
+- `MINISIGN_SECRET_KEY` secret: an unencrypted CI signing key. Minisign cannot accept a passphrase non-interactively.
+- `CLOUDFLARE_API_TOKEN` secret with account-level `Cloudflare Pages` edit permission
+- `CLOUDFLARE_ACCOUNT_ID` secret
+- `CLOUDFLARE_PROJECT_NAME` environment variable
+- A committed `minisign.pub` matching the CI signing key
+
+The build and deployment jobs use this environment, so environment protection rules also apply to release signing.
+
+The workflow passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
+
 ## Website development
 
 Generate a fully static website from the compressed or uncompressed SQLite artifact, then preview it locally with Bun:
