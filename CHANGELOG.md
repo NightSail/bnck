@@ -47,6 +47,7 @@ No public release has been made.
 - Acquisition snapshot manifest readers now require format version 2; re-import version 1 acquisitions
 - Website headings, navigation, controls, and labels use lowercase; prose keeps sentence case.
 - Dataset details moved from `/about` to `/dataset`; `/about` now presents the project.
+- Dataset pages link artifacts to the rendered release and distinguish the versioned release link from the moving latest alias; versioned release redirects are permanent.
 - SQLite schema version is 2 for provider relations and name associations.
 - Curation schema is 1, release manifest format is 2, and the browser dataset schema is 2.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.

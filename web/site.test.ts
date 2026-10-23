@@ -71,9 +71,11 @@ test('generates a complete versioned site without modifying the database', async
 		}
 
 		const datasetPage = await readFile(join(output, 'dataset/index.html'), 'utf8');
+		expect(datasetPage).toContain("href='/data/2026-04-16.1'");
 		expect(datasetPage).toContain("href='/data/latest'");
 		expect(datasetPage).toContain('releases/tag/bnck-dataset-2026-04-16.1');
-		expect(datasetPage).toContain("href='/data/latest/bnck.sqlite.zst'");
+		expect(datasetPage).toContain("href='/data/2026-04-16.1/bnck.sqlite.zst'");
+		expect(datasetPage).not.toContain("href='/data/latest/bnck");
 		const about = await readFile(join(output, 'about/index.html'), 'utf8');
 		expect(about).toContain('maps executable names to the projects');
 		expect(about).toContain('github.com/NightSail/bnck');
@@ -119,6 +121,12 @@ test('generates a complete versioned site without modifying the database', async
 		const redirects = await readFile(join(output, '_redirects'), 'utf8');
 		expect(redirects).toContain(
 			'/data/latest https://github.com/NightSail/bnck/releases/tag/bnck-dataset-2026-04-16.1 302',
+		);
+		expect(redirects).toContain(
+			'/data/:release https://github.com/NightSail/bnck/releases/tag/bnck-dataset-:release 301',
+		);
+		expect(redirects).toContain(
+			'/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301',
 		);
 		expect(redirects).not.toContain('{{release}}');
 

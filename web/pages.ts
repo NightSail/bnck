@@ -217,12 +217,17 @@ ${stats(database.stats)}
 					</time></dd>
 				</div>
 				<div>
-					<dt>latest release</dt>
-					<dd><a href='/data/latest'>/data/latest <span aria-hidden='true'>→</span></a>,
-						the stable link to this dataset</dd>
+					<dt>release link</dt>
+					<dd><a href='/data/${release}'>/data/${release} <span aria-hidden='true'>→</span></a>,
+						the versioned link to this dataset</dd>
 				</div>
 				<div>
-					<dt>latest tag</dt>
+					<dt>latest alias</dt>
+					<dd><a href='/data/latest'>/data/latest <span aria-hidden='true'>→</span></a>,
+						always the current release</dd>
+				</div>
+				<div>
+					<dt>tag</dt>
 					<dd><a href='${RELEASES_URL}/tag/bnck-dataset-${release}' rel='external'>
 						<code>bnck-dataset-${release}</code> <span aria-hidden='true'>↗</span></a></dd>
 				</div>
@@ -237,27 +242,27 @@ ${stats(database.stats)}
 		</section>
 		<section id='downloads'>
 			<h2>downloads</h2>
-			<p>Use <code>/data/latest</code> for the current release or open the versioned tag for a fixed snapshot.</p>
+			<p>Every link below points to this release. Use <code>/data/latest</code> for the current release.</p>
 			<dl class='definitions'>
 				<div>
 					<dt>SQLite dataset</dt>
-					<dd><a href='/data/latest/bnck.sqlite.zst'><code>bnck.sqlite.zst</code></a>:
+					<dd><a href='/data/${release}/bnck.sqlite.zst'><code>bnck.sqlite.zst</code></a>:
 						names, projects, packages, associations, and project links</dd>
 				</div>
 				<div>
 					<dt>release archive</dt>
-					<dd><a href='/data/latest/bnck-${release}.tar.zst'>
+					<dd><a href='/data/${release}/bnck-${release}.tar.zst'>
 						<code>bnck-${release}.tar.zst</code></a>: complete release</dd>
 				</div>
 				<div>
 					<dt>manifest</dt>
-					<dd><a href='/data/latest/manifest.json'><code>manifest.json</code></a>:
+					<dd><a href='/data/${release}/manifest.json'><code>manifest.json</code></a>:
 						release metadata and artifact digests</dd>
 				</div>
 				<div>
 					<dt>checksums</dt>
-					<dd><a href='/data/latest/SHA256SUMS'><code>SHA256SUMS</code></a> and
-						<a href='/data/latest/SHA256SUMS.minisig'><code>SHA256SUMS.minisig</code></a></dd>
+					<dd><a href='/data/${release}/SHA256SUMS'><code>SHA256SUMS</code></a> and
+						<a href='/data/${release}/SHA256SUMS.minisig'><code>SHA256SUMS.minisig</code></a></dd>
 				</div>
 			</dl>
 			<p class='fine-print'>Verify checksums and signatures before using a downloaded artifact.</p>

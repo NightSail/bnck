@@ -16,7 +16,7 @@ Public copy uses short, descriptive headings and instructions, explains lookup b
 - Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, each grouped with its channel packages; reference and implementation associations appear separately, and multiple provider identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, curated name associations, and curator-supplied project links
-- Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, latest release alias, latest tag, GitHub Releases, artifact downloads, and license statement
+- Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, versioned release link, latest alias, tag, GitHub Releases, artifact downloads, and license statement
 - Short: Separate pages for every two- and three-letter lowercase name, linked from a shared section navigation; names seen in at least one project link to their executable pages, while unseen names remain plain and muted
 - About: Lookup behavior, data sources and limits, and links to source code, issues, releases, contributing guidance, and license
 
@@ -111,7 +111,7 @@ All example records, statistics, and release metadata come from the opened SQLit
 
 A missing identity or relation means there is no accepted provider record or name association in this release; empty results and detail pages explain this limitation. Channel counts describe accepted dataset records, not acquisition completeness. The SQLite artifact lacks channel snapshot scope and failure details, which stay in the [release manifests](release-format.md).
 
-The dataset page identifies the release and generation date and links to the latest release alias, the matching GitHub tag, all GitHub Releases, and current artifact downloads. Artifact schemas, generator details, and SQL examples belong in the release documentation, not public pages. Full release artifacts are hosted on GitHub Releases rather than copied into the site; per-identity JSON exports derive from the opened SQLite artifact.
+The dataset page identifies the release and generation date and links to the versioned release, the latest alias, the matching GitHub tag, all GitHub Releases, and artifact downloads for that release. Artifact schemas, generator details, and SQL examples belong in the release documentation, not public pages. Full release artifacts are hosted on GitHub Releases rather than copied into the site; per-identity JSON exports derive from the opened SQLite artifact.
 
 ## Implementation
 
@@ -147,7 +147,7 @@ The redirect map template lives in `web/_redirects`; the generator substitutes t
 - `/data` and `/data/`: 302 to `/data/latest`
 - `/data/latest`: 302 to the current dataset release page
 - `/data/latest/*`: 302 to the corresponding current dataset release asset
-- `/data/:release`: 302 to the `bnck-dataset-:release` page
+- `/data/:release`: 301 to the `bnck-dataset-:release` page
 - `/data/:release/*`: 301 to the corresponding versioned release asset
 
 Serve HTML as `text/html`, JSON as `application/json` without attachment disposition, CSS as `text/css`, and modules as `text/javascript` or `application/javascript`. Enable HTTP Brotli or gzip compression at the host; browsers decompress automatically, and no application-level compressed payload or decoder is shipped.
