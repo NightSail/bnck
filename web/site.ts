@@ -6,7 +6,7 @@ import { WebsiteDatabase } from './database';
 import { browserDataset } from './data';
 import { exportBytes } from './export-data';
 import { HTML_CSP } from './config';
-import { aboutPage, datasetPage, executablePage, homePage, notFoundPage, projectPage } from './pages';
+import { aboutPage, datasetPage, executablePage, homePage, notFoundPage, projectPage, shortPage } from './pages';
 import type { PageContext } from './pages';
 
 const WEB_ROOT = import.meta.dir;
@@ -47,6 +47,7 @@ export async function buildSite(
 	addText(files, 'index.html', homePage(database, context));
 	addText(files, 'about/index.html', aboutPage(context));
 	addText(files, 'dataset/index.html', datasetPage(database, context));
+	addText(files, 'short/index.html', shortPage(database, context));
 	addText(files, '404.html', notFoundPage(context));
 	for (const project of projects) {
 		addText(files, `projects/${project}/index.html`, projectPage(database, project, context));
@@ -160,6 +161,8 @@ function writeHeaders(files: Map<string, Uint8Array>): void {
 		'/about/*',
 		'/dataset',
 		'/dataset/*',
+		'/short',
+		'/short/*',
 		'/projects/*',
 		'/executables/*',
 		'/404.html',

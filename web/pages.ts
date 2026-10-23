@@ -15,11 +15,12 @@ import {
 	searchResult,
 	stats,
 } from './components';
-import { buildProjectMatrix, groupExecutableProjects } from './data';
+import { buildProjectMatrix, buildShortNameSections, groupExecutableProjects } from './data';
 import { encodeSegment, formatNumber } from './naming';
-import { html } from './html';
+import { html, type Html } from './html';
 import { renderPage } from './layout';
 import type { WebsiteDatabase } from './database';
+import type { ShortNameSection } from './types';
 
 export interface PageContext {
 	applicationAssets: string;
@@ -263,6 +264,37 @@ ${stats(database.stats)}
 	});
 }
 
+export function shortPage(database: WebsiteDatabase, context: PageContext): string {
+	const sections = buildShortNameSections(database.shortNameUsage());
+	const [twoLetter, ...threeLetter] = sections;
+	const total = sections.reduce((count, section) => count + section.cells.length, 0);
+	const used = sections.reduce((count, section) => count + section.used, 0);
+	return renderPage({
+		title: 'short names',
+		applicationAssets: context.applicationAssets,
+		clientSearch: false,
+		release: context.release,
+		section: 'short',
+		hasHeaderSearch: false,
+		liveReload: context.liveReload,
+		content: html`<section class='page-heading short-heading'>
+	<p class='eyebrow'>short names</p>
+	<h1>short name map</h1>
+	<p class='lead'>All 2- and 3-letter lowercase command names.
+		Linked names are seen in at least 1 project in this dataset;
+		plain grey names are unseen.</p>
+	<p class='short-summary'>${countLabel(used, 'name')} seen of ${formatNumber(total)}.</p>
+</section>
+<nav class='short-nav' aria-label='Short name sections'>
+	<a href='#short-2'>2 letters</a>
+	${threeLetter.map((section) => html`<a href='#short-${section.prefix}'>${section.prefix}</a>`)}
+</nav>
+${renderShortSection(twoLetter, '2 letters', 'two-letter names')}
+${threeLetter.map((section) => renderShortSection(section, `3 letters: ${section.prefix}`,
+	`three-letter names starting with ${section.prefix}`))}`,
+	});
+}
+
 export function projectPage(database: WebsiteDatabase, project: string, context: PageContext): string {
 	const links = database.projectLinks(project);
 	const matrix = buildProjectMatrix(database.projectProviders(project));
@@ -369,6 +401,24 @@ export function executablePage(database: WebsiteDatabase, executable: string, co
 <p class='detail-note'>Links open current package pages. Check versions and platform support there.</p>
 ${coverageNote()}`,
 	});
+}
+
+function renderShortSection(section: ShortNameSection, label: string, description: string): Html {
+	const id = section.prefix === '' ? 'short-2' : `short-${section.prefix}`;
+	return html`<section class='short-section' id='${id}' aria-labelledby='${id}-title'>
+	<header class='short-section-heading'>
+		<h2 id='${id}-title'>${label}</h2>
+		<p class='short-section-count'>${formatNumber(section.used)} of ${formatNumber(section.cells.length)} seen</p>
+	</header>
+	<div class='short-grid-scroll' role='region' aria-label='${description}' tabindex='0'>
+		<div class='short-grid'>
+			${section.cells.map((cell) => cell.projects > 0
+				? html`<a class='short-name seen' href='/executables/${encodeSegment(cell.name)}'
+					aria-label='${cell.name}: ${countLabel(cell.projects, 'project')}'>${cell.name}</a>`
+				: html`<span class='short-name'>${cell.name}</span>`)}
+		</div>
+	</div>
+</section>`;
 }
 
 export function notFoundPage(context: PageContext): string {

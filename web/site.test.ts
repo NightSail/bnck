@@ -53,6 +53,7 @@ test('generates a complete versioned site without modifying the database', async
 		for (const path of [
 			'about/index.html',
 			'dataset/index.html',
+			'short/index.html',
 			'404.html',
 			'projects/helix/index.html',
 			'executables/hx/index.html',
@@ -72,6 +73,10 @@ test('generates a complete versioned site without modifying the database', async
 		const project = await readFile(join(output, 'projects/helix/index.html'), 'utf8');
 		expect(project).toContain('https://helix-editor.com/');
 		expect(project).not.toContain('browser.js');
+		const short = await readFile(join(output, 'short/index.html'), 'utf8');
+		expect(short).toContain('short name map');
+		expect(short).toContain("href='/executables/hx'");
+		expect(home).toContain("href='/short'");
 
 		const exported = await readFile(join(output, 'executables/hx/providers.json'), 'utf8');
 		expect(exported).toContain('\n\t"dataset_release"');
@@ -82,6 +87,7 @@ test('generates a complete versioned site without modifying the database', async
 
 		const headers = await readFile(join(output, '_headers'), 'utf8');
 		expect(headers).toContain('/dataset\n  Cache-Control: no-cache');
+		expect(headers).toContain('/short\n  Cache-Control: no-cache');
 		expect(headers).toContain('max-age=31536000, immutable');
 		expect(headers).toContain('Content-Security-Policy');
 		expect(headers.split('\n\n')[0]).not.toContain('Cache-Control');

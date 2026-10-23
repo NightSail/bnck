@@ -157,6 +157,15 @@ export class WebsiteDatabase {
 			.all() as { name: string }[]).map((row) => row.name);
 	}
 
+	shortNameUsage(): Map<string, number> {
+		const rows = this.database.query(
+			`SELECT executable AS name, count(DISTINCT project) AS projects
+			 FROM providers WHERE length(executable) IN (2, 3)
+			 GROUP BY executable`,
+		).all() as { name: string; projects: number }[];
+		return new Map(rows.map((row) => [row.name, row.projects]));
+	}
+
 	projectProviders(project: string): ProjectProvider[] {
 		return this.database
 			.query('SELECT executable, channel, package FROM providers WHERE project = ?1 ORDER BY executable, channel, package')

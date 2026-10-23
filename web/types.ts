@@ -109,6 +109,17 @@ export interface ProjectGroup {
 	channels: ChannelGroup[];
 }
 
+export interface ShortNameCell {
+	name: string;
+	projects: number;
+}
+
+export interface ShortNameSection {
+	prefix: string;
+	cells: ShortNameCell[];
+	used: number;
+}
+
 export interface BrowserChannel {
 	name: string;
 	label: string;

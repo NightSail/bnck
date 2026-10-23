@@ -6,7 +6,7 @@ The website is a reference interface to the [provider dataset](design.md), not a
 
 The visual hierarchy follows those tasks: search first, identities second, provider relations next, release context alongside results. A dark, terminal-informed theme uses graphite surfaces, restrained green and cyan accents, and monospace headings, controls, and exact dataset values. Explanatory prose stays proportional, while forms, tables, and navigation retain web-native behavior: no simulated terminal window, command session, or animated cursor. Search, filtering, and pagination use vanilla JavaScript over a locally loaded dataset. Identity pages, dataset information, and JSON views are static and work without JavaScript; clipboard copying is an optional enhancement. The site uses no external fonts or third-party services.
 
-The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands. Main navigation links to search or the current search form, Dataset, and About. The footer repeats the site sections and links to dataset releases and source code.
+The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands. Main navigation links to search or the current search form, Short, Dataset, and About. The footer repeats the site sections and links to dataset releases and source code.
 
 Public copy uses short, descriptive headings and instructions, explains lookup behavior and dataset limits, and avoids slogans and implementation details. It does not show provider-record terminology or counts; summaries speak of executables, projects, channels, and packages. Headings, navigation, controls, and labels use lowercase; sentence case is reserved for prose and proper names.
 
@@ -17,7 +17,10 @@ Public copy uses short, descriptive headings and instructions, explains lookup b
 - Executable: All projects providing the exact command name, each grouped with its channel packages; multiple project identities receive an ambiguity notice
 - Project: A coverage matrix of exact executable names and channel packages, plus curator-supplied project links
 - Dataset: Field definitions, project and package counts by channel, coverage limits, release identifier, generation date, latest release alias, latest tag, GitHub Releases, artifact downloads, and license statement
+- Short: A map of every two- and three-letter lowercase name; names provided by at least one project link to their executable pages, while unused names remain plain and muted
 - About: Lookup behavior, data sources and limits, and links to source code, issues, releases, contributing guidance, and license
+
+Short name sections list `aa` through `zz` for two-letter names. Three-letter names use one section per leading letter, each listing that letter followed by `aa` through `zz`. Section counts describe used names within that section. The map reflects the current dataset release and does not imply historical availability.
 
 Project pages use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Checkmarks identify executables observed in each package; hyphens mean not observed in this dataset, not unavailable. Executable column headers preserve the anchors used by search links and link to executable details. Executables and channels/packages sort by exact name. The matrix scrolls horizontally with keyboard access on narrow screens, keeping package names and channel headings visible.
 
@@ -65,7 +68,7 @@ Detail routes retain exact, case-sensitive lookup semantics:
 /projects/{project}
 ```
 
-`/dataset` presents the dataset and its release artifacts. `/about` presents the project and links to external resources. The dataset release section keeps `#release` as its anchor.
+`/short` presents the short name map. `/dataset` presents the dataset and its release artifacts. `/about` presents the project and links to external resources. The dataset release section keeps `#release` as its anchor.
 
 ## JSON exports
 
@@ -125,9 +128,9 @@ Forms have explicit labels, tables have captions and scoped headings, keyboard n
 
 ## Static deployment
 
-Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `dataset/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
+Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `dataset/index.html`, `short/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
 
-Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
+Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
 
 The generated `_headers` file supplies settings for hosts supporting that convention; others must configure equivalents:
 

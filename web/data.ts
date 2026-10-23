@@ -9,8 +9,23 @@ import type {
 	ProjectGroup,
 	ProjectMatrix,
 	ProjectProvider,
+	ShortNameSection,
 } from './types';
 import type { WebsiteDatabase } from './database';
+
+const ALPHABET = [...'abcdefghijklmnopqrstuvwxyz'];
+
+export function buildShortNameSections(usage: ReadonlyMap<string, number>): ShortNameSection[] {
+	return [shortSection('', usage), ...ALPHABET.map((prefix) => shortSection(prefix, usage))];
+}
+
+function shortSection(prefix: string, usage: ReadonlyMap<string, number>): ShortNameSection {
+	const cells = ALPHABET.flatMap((left) => ALPHABET.map((right) => {
+		const name = `${prefix}${left}${right}`;
+		return { name, projects: usage.get(name) ?? 0 };
+	}));
+	return { prefix, cells, used: cells.filter((cell) => cell.projects > 0).length };
+}
 
 export function buildProjectMatrix(providers: ProjectProvider[]): ProjectMatrix {
 	const packages = new Map<string, Set<string>>();
