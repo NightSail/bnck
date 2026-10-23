@@ -152,12 +152,11 @@ Manually dispatching with an empty release input assigns the next `YYYY-MM-DD.N`
 Required `cloudflare-pages` deployment environment configuration:
 
 - `MINISIGN_SECRET_KEY` secret: an unencrypted CI signing key, set from the complete `minisign.key` file. Generate it with `minisign -G -W`; an empty passphrase still encrypts the key. Remove an existing passphrase with `minisign -C -W -s minisign.key`.
-- `CLOUDFLARE_API_TOKEN` secret with account-level `Cloudflare Pages` edit permission
+- `CLOUDFLARE_API_TOKEN` secret with `Editor` access scoped to the site Worker
 - `CLOUDFLARE_ACCOUNT_ID` secret
-- `CLOUDFLARE_PROJECT_NAME` environment variable
 - A committed `minisign.pub` matching the CI signing key
 
-The build and deployment jobs use this environment, so environment protection rules also apply to release signing. The Pages deployment targets the repository default branch; the Pages project's production branch must match it.
+The build and deployment jobs use this environment, so environment protection rules also apply to release signing. The Worker deployment updates production directly; its custom domain is attached in the Cloudflare dashboard, so the deployment token needs no zone-level Workers Routes permission.
 
 The workflow tags releases `bnck-dataset-<CalVer>` so dataset releases remain distinct from other releases in the repository. It passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
 

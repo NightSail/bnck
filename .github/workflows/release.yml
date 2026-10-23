@@ -167,9 +167,9 @@ jobs:
         run: ./.github/scripts/download-released-sqlite.sh
       - name: Generate static site
         run: just generate-site
-      - name: Deploy Cloudflare Pages
+      - name: Deploy Cloudflare Worker
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy var/site --project-name=${{ vars.CLOUDFLARE_PROJECT_NAME }} --branch=${{ github.event.repository.default_branch }}
+          command: deploy

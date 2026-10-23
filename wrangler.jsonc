@@ -1,0 +1,10 @@
+{
+	// The custom domain is attached in the Cloudflare dashboard, not here, so CI needs only
+	// Worker Editor access and no zone-level Workers Routes permission.
+	"name": "bnck",
+	"compatibility_date": "2026-10-23",
+	"assets": {
+		"directory": "./var/site",
+		"not_found_handling": "404-page"
+	}
+}
