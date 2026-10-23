@@ -1,0 +1,8 @@
+id = 'snort'
+name = 'snort'
+
+homepage = 'https://www.snort.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snort'

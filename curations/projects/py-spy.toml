@@ -1,0 +1,8 @@
+id = 'py-spy'
+name = 'py-spy'
+
+repository = 'https://github.com/benfred/py-spy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/py-spy'

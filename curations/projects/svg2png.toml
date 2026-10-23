@@ -1,0 +1,8 @@
+id = 'svg2png'
+name = 'svg2png'
+
+homepage = 'https://cairographics.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svg2png'

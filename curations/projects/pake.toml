@@ -1,0 +1,8 @@
+id = 'pake'
+name = 'pake'
+
+homepage = 'https://github.com/tw93/Pake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pake'

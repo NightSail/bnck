@@ -1,0 +1,8 @@
+id = 'gpu-screen-recorder'
+name = 'gpu-screen-recorder'
+
+homepage = 'https://git.dec05eba.com/gpu-screen-recorder/about'
+
+[[package]]
+channel = 'debian'
+name = 'gpu-screen-recorder-cli'

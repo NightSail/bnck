@@ -1,0 +1,20 @@
+id = 'icoextract'
+name = 'icoextract'
+
+homepage = 'https://github.com/jlu5/icoextract'
+
+[[package]]
+channel = 'debian'
+name = 'icoextract'
+
+[[package]]
+channel = 'debian'
+name = 'icoextract-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-icoextract'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-icoextract'

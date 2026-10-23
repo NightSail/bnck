@@ -1,0 +1,16 @@
+id = 'cliphist'
+name = 'cliphist'
+
+homepage = 'https://github.com/sentriz/cliphist'
+
+[[package]]
+channel = 'arch'
+name = 'cliphist'
+
+[[package]]
+channel = 'debian'
+name = 'cliphist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cliphist'

@@ -1,0 +1,12 @@
+id = 'iredis'
+name = 'iredis'
+
+repository = 'https://github.com/laixintao/iredis'
+
+[[package]]
+channel = 'debian'
+name = 'iredis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iredis'

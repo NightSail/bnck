@@ -1,0 +1,28 @@
+id = 'msmtp'
+name = 'msmtp'
+
+homepage = 'https://marlam.de/msmtp'
+
+[[package]]
+channel = 'arch'
+name = 'msmtp'
+
+[[package]]
+channel = 'arch'
+name = 'msmtp-mta'
+
+[[package]]
+channel = 'debian'
+name = 'msmtp'
+
+[[package]]
+channel = 'debian'
+name = 'msmtp-mta'
+
+[[package]]
+channel = 'fedora'
+name = 'msmtp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msmtp'

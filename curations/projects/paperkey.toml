@@ -1,0 +1,20 @@
+id = 'paperkey'
+name = 'paperkey'
+
+homepage = 'http://www.jabberwocky.com/software/paperkey'
+
+[[package]]
+channel = 'arch'
+name = 'paperkey'
+
+[[package]]
+channel = 'debian'
+name = 'paperkey'
+
+[[package]]
+channel = 'fedora'
+name = 'paperkey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/paperkey'

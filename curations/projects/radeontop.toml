@@ -1,0 +1,16 @@
+id = 'radeontop'
+name = 'radeontop'
+
+homepage = 'https://github.com/clbr/radeontop'
+
+[[package]]
+channel = 'arch'
+name = 'radeontop'
+
+[[package]]
+channel = 'debian'
+name = 'radeontop'
+
+[[package]]
+channel = 'fedora'
+name = 'radeontop'

@@ -1,0 +1,12 @@
+id = 'par2cmdline'
+name = 'par2cmdline'
+
+homepage = 'https://github.com/Parchive/par2cmdline'
+
+[[package]]
+channel = 'debian'
+name = 'par2'
+
+[[package]]
+channel = 'fedora'
+name = 'par2cmdline'

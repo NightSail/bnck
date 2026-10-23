@@ -1,0 +1,8 @@
+id = 'gitui'
+name = 'gitui'
+
+repository = 'https://github.com/gitui-org/gitui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitui'

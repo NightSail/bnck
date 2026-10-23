@@ -1,0 +1,16 @@
+id = 'xdp-tools'
+name = 'xdp-tools'
+
+homepage = 'https://github.com/xdp-project/xdp-tools'
+
+[[package]]
+channel = 'arch'
+name = 'xdp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'xdp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'xdp-tools'

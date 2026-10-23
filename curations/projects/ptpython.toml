@@ -1,0 +1,20 @@
+id = 'ptpython'
+name = 'ptpython'
+
+repository = 'https://github.com/prompt-toolkit/ptpython'
+
+[[package]]
+channel = 'debian'
+name = 'ptpython'
+
+[[package]]
+channel = 'fedora'
+name = 'ptpython3'
+
+[[package]]
+channel = 'fedora'
+name = 'ptpython3+ptipython'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ptpython'

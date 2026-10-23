@@ -1,0 +1,8 @@
+id = 'loc'
+name = 'loc'
+
+homepage = 'https://github.com/cgag/loc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/loc'

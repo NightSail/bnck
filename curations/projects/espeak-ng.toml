@@ -1,0 +1,24 @@
+id = 'espeak-ng'
+name = 'espeak-ng'
+
+repository = 'https://github.com/espeak-ng/espeak-ng'
+
+[[package]]
+channel = 'arch'
+name = 'espeak-ng'
+
+[[package]]
+channel = 'debian'
+name = 'espeak-ng'
+
+[[package]]
+channel = 'debian'
+name = 'espeak-ng-espeak'
+
+[[package]]
+channel = 'fedora'
+name = 'espeak-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/espeak-ng'

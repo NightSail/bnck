@@ -1,0 +1,16 @@
+id = 'sshfs'
+name = 'sshfs'
+
+homepage = 'https://github.com/libfuse/sshfs'
+
+[[package]]
+channel = 'arch'
+name = 'sshfs'
+
+[[package]]
+channel = 'debian'
+name = 'sshfs'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-sshfs'

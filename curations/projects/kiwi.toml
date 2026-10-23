@@ -1,0 +1,24 @@
+id = 'kiwi'
+name = 'kiwi'
+
+homepage = 'http://osinside.github.io/kiwi'
+
+[[package]]
+channel = 'debian'
+name = 'kiwi'
+
+[[package]]
+channel = 'debian'
+name = 'kiwi-dracut-verity'
+
+[[package]]
+channel = 'fedora'
+name = 'dracut-kiwi-verity'
+
+[[package]]
+channel = 'fedora'
+name = 'kiwi-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-kiwi'

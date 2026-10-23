@@ -1,0 +1,8 @@
+id = 'trayer'
+name = 'trayer'
+
+homepage = 'https://github.com/sargon/trayer-srg'
+
+[[package]]
+channel = 'debian'
+name = 'trayer'

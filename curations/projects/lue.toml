@@ -1,0 +1,8 @@
+id = 'lue'
+name = 'lue'
+
+repository = 'https://github.com/superstarryeyes/lue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lue-reader'

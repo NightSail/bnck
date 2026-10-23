@@ -1,0 +1,12 @@
+id = 'rofi'
+name = 'rofi'
+
+repository = 'https://github.com/davatorium/rofi'
+
+[[package]]
+channel = 'fedora'
+name = 'rofi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rofi'

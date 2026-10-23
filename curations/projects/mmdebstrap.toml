@@ -1,0 +1,8 @@
+id = 'mmdebstrap'
+name = 'mmdebstrap'
+
+homepage = 'https://gitlab.mister-muffin.de/josch/mmdebstrap'
+
+[[package]]
+channel = 'debian'
+name = 'mmdebstrap'

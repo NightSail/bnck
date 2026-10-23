@@ -1,0 +1,8 @@
+id = 'freerdp'
+name = 'freerdp'
+
+repository = 'https://github.com/FreeRDP/FreeRDP'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freerdp'

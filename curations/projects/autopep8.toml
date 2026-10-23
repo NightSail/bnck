@@ -1,0 +1,16 @@
+id = 'autopep8'
+name = 'autopep8'
+
+homepage = 'https://github.com/hhatto/autopep8'
+
+[[package]]
+channel = 'arch'
+name = 'autopep8'
+
+[[package]]
+channel = 'debian'
+name = 'python3-autopep8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autopep8'

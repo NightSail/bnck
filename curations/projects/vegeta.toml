@@ -1,0 +1,12 @@
+id = 'vegeta'
+name = 'vegeta'
+
+homepage = 'https://github.com/tsenart/vegeta'
+
+[[package]]
+channel = 'arch'
+name = 'vegeta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vegeta'

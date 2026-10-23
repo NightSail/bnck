@@ -1,0 +1,24 @@
+id = 'conky'
+name = 'conky'
+
+homepage = 'https://github.com/brndnmtthws/conky'
+
+[[package]]
+channel = 'arch'
+name = 'conky'
+
+[[package]]
+channel = 'debian'
+name = 'conky-all'
+
+[[package]]
+channel = 'debian'
+name = 'conky-cli'
+
+[[package]]
+channel = 'debian'
+name = 'conky-std'
+
+[[package]]
+channel = 'fedora'
+name = 'conky'

@@ -1,0 +1,8 @@
+id = 'puppet'
+name = 'puppet'
+
+homepage = 'https://github.com/puppetlabs/puppet'
+
+[[package]]
+channel = 'debian'
+name = 'puppet-agent'

@@ -1,0 +1,16 @@
+id = 'help2man'
+name = 'help2man'
+
+homepage = 'https://www.gnu.org/software/help2man'
+
+[[package]]
+channel = 'arch'
+name = 'help2man'
+
+[[package]]
+channel = 'fedora'
+name = 'help2man'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/help2man'

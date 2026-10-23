@@ -1,0 +1,8 @@
+id = 'sf'
+name = 'sf'
+
+homepage = 'https://developer.salesforce.com/tools/salesforcecli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sf'

@@ -1,0 +1,8 @@
+id = 'svgcleaner'
+name = 'svgcleaner'
+
+homepage = 'https://github.com/RazrFalcon/SVGCleaner'
+
+[[package]]
+channel = 'arch'
+name = 'svgcleaner'

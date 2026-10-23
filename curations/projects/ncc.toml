@@ -1,0 +1,8 @@
+id = 'ncc'
+name = 'ncc'
+
+homepage = 'https://github.com/vercel/ncc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncc'

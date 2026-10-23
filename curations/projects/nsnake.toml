@@ -1,0 +1,12 @@
+id = 'nsnake'
+name = 'nsnake'
+
+repository = 'https://github.com/alexdantas/nSnake'
+
+[[package]]
+channel = 'fedora'
+name = 'nsnake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nsnake'

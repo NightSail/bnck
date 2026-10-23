@@ -1,0 +1,16 @@
+id = 'gitleaks'
+name = 'gitleaks'
+
+repository = 'https://github.com/gitleaks/gitleaks'
+
+[[package]]
+channel = 'arch'
+name = 'gitleaks'
+
+[[package]]
+channel = 'debian'
+name = 'gitleaks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitleaks'

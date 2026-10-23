@@ -1,0 +1,8 @@
+id = 'tuc'
+name = 'tuc'
+
+repository = 'https://github.com/riquito/tuc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuc'

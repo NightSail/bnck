@@ -1,0 +1,20 @@
+id = 'sysbench'
+name = 'sysbench'
+
+repository = 'https://github.com/akopytov/sysbench'
+
+[[package]]
+channel = 'arch'
+name = 'sysbench'
+
+[[package]]
+channel = 'debian'
+name = 'sysbench'
+
+[[package]]
+channel = 'fedora'
+name = 'sysbench'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sysbench'

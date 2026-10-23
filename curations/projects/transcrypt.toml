@@ -1,0 +1,8 @@
+id = 'transcrypt'
+name = 'transcrypt'
+
+repository = 'https://github.com/elasticdog/transcrypt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/transcrypt'

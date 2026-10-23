@@ -1,0 +1,8 @@
+id = 'vsce'
+name = 'vsce'
+
+repository = 'https://github.com/microsoft/vscode-vsce'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vsce'

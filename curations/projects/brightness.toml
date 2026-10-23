@@ -1,0 +1,8 @@
+id = 'brightness'
+name = 'brightness'
+
+repository = 'https://github.com/nriley/brightness'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brightness'

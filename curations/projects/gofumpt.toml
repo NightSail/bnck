@@ -1,0 +1,16 @@
+id = 'gofumpt'
+name = 'gofumpt'
+
+repository = 'https://github.com/mvdan/gofumpt'
+
+[[package]]
+channel = 'arch'
+name = 'gofumpt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-mvdan-gofumpt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gofumpt'

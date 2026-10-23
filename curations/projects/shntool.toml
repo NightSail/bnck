@@ -1,0 +1,16 @@
+id = 'shntool'
+name = 'shntool'
+
+homepage = 'http://shnutils.freeshell.org/shntool'
+
+[[package]]
+channel = 'debian'
+name = 'shntool'
+
+[[package]]
+channel = 'fedora'
+name = 'shntool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shntool'

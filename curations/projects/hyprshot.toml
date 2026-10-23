@@ -1,0 +1,8 @@
+id = 'hyprshot'
+name = 'hyprshot'
+
+homepage = 'https://github.com/Gustash/Hyprshot'
+
+[[package]]
+channel = 'arch'
+name = 'hyprshot'

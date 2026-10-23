@@ -1,0 +1,12 @@
+id = 'htmlq'
+name = 'htmlq'
+
+repository = 'https://github.com/mgdm/htmlq'
+
+[[package]]
+channel = 'arch'
+name = 'htmlq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmlq'

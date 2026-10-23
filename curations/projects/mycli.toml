@@ -1,0 +1,8 @@
+id = 'mycli'
+name = 'mycli'
+
+repository = 'https://github.com/dbcli/mycli'
+
+[[package]]
+channel = 'debian'
+name = 'mycli'

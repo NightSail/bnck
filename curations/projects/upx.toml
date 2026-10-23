@@ -1,0 +1,16 @@
+id = 'upx'
+name = 'upx'
+
+repository = 'https://github.com/upx/upx'
+
+[[package]]
+channel = 'arch'
+name = 'upx'
+
+[[package]]
+channel = 'fedora'
+name = 'upx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/upx'

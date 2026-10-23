@@ -1,0 +1,12 @@
+id = 'far2l'
+name = 'far2l'
+
+homepage = 'https://github.com/elfmz/far2l'
+
+[[package]]
+channel = 'debian'
+name = 'far2l'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/far2l-tty'

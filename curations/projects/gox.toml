@@ -1,0 +1,12 @@
+id = 'gox'
+name = 'gox'
+
+homepage = 'https://github.com/mitchellh/gox'
+
+[[package]]
+channel = 'arch'
+name = 'gox'
+
+[[package]]
+channel = 'debian'
+name = 'gox'

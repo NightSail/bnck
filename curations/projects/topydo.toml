@@ -1,0 +1,12 @@
+id = 'topydo'
+name = 'topydo'
+
+homepage = 'https://github.com/topydo/topydo'
+
+[[package]]
+channel = 'debian'
+name = 'topydo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/topydo'

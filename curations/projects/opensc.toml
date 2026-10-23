@@ -1,0 +1,8 @@
+id = 'opensc'
+name = 'opensc'
+
+repository = 'https://github.com/OpenSC/OpenSC'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opensc'

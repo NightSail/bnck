@@ -1,0 +1,16 @@
+id = 'waybar'
+name = 'waybar'
+
+homepage = 'https://github.com/Alexays/Waybar'
+
+[[package]]
+channel = 'arch'
+name = 'waybar'
+
+[[package]]
+channel = 'debian'
+name = 'waybar'
+
+[[package]]
+channel = 'fedora'
+name = 'waybar'

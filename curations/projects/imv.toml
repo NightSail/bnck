@@ -1,0 +1,16 @@
+id = 'imv'
+name = 'imv'
+
+homepage = 'https://sr.ht/~exec64/imv'
+
+[[package]]
+channel = 'arch'
+name = 'imv'
+
+[[package]]
+channel = 'debian'
+name = 'imv'
+
+[[package]]
+channel = 'fedora'
+name = 'imv'

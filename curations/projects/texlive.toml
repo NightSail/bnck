@@ -1,0 +1,8 @@
+id = 'texlive'
+name = 'texlive'
+
+homepage = 'https://www.tug.org/texlive'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texlive'

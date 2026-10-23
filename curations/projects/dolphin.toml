@@ -1,0 +1,12 @@
+id = 'dolphin'
+name = 'dolphin'
+
+homepage = 'https://apps.kde.org/dolphin'
+
+[[package]]
+channel = 'arch'
+name = 'dolphin'
+
+[[package]]
+channel = 'debian'
+name = 'dolphin'

@@ -1,0 +1,16 @@
+id = 'go-containerregistry'
+name = 'go-containerregistry'
+
+repository = 'https://github.com/google/go-containerregistry'
+
+[[package]]
+channel = 'arch'
+name = 'crane'
+
+[[package]]
+channel = 'debian'
+name = 'crane'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crane'

@@ -1,0 +1,12 @@
+id = 'npm-check-updates'
+name = 'npm-check-updates'
+
+homepage = 'https://github.com/raineorshine/npm-check-updates'
+
+[[package]]
+channel = 'arch'
+name = 'npm-check-updates'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/npm-check-updates'

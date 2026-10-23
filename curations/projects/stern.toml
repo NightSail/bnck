@@ -1,0 +1,12 @@
+id = 'stern'
+name = 'stern'
+
+repository = 'https://github.com/stern/stern'
+
+[[package]]
+channel = 'arch'
+name = 'stern'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stern'

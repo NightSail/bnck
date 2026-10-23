@@ -1,0 +1,12 @@
+id = 'trufflehog'
+name = 'trufflehog'
+
+repository = 'https://github.com/trufflesecurity/trufflehog'
+
+[[package]]
+channel = 'debian'
+name = 'trufflehog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trufflehog'

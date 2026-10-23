@@ -1,0 +1,8 @@
+id = 'esptool'
+name = 'esptool'
+
+homepage = 'https://docs.espressif.com/projects/esptool/en/latest/esp32'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/esptool'

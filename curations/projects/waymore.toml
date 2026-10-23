@@ -1,0 +1,8 @@
+id = 'waymore'
+name = 'waymore'
+
+homepage = 'https://github.com/xnl-h4ck3r/waymore'
+
+[[package]]
+channel = 'debian'
+name = 'waymore'

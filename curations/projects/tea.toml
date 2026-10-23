@@ -1,0 +1,12 @@
+id = 'tea'
+name = 'tea'
+
+repository = 'https://gitea.com/gitea/tea'
+
+[[package]]
+channel = 'arch'
+name = 'tea'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tea'

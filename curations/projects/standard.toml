@@ -1,0 +1,8 @@
+id = 'standard'
+name = 'standard'
+
+homepage = 'https://standardjs.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/standard'

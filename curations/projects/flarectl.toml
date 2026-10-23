@@ -1,0 +1,12 @@
+id = 'flarectl'
+name = 'flarectl'
+
+repository = 'https://github.com/cloudflare/cloudflare-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cloudflare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flarectl'

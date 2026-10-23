@@ -1,0 +1,8 @@
+id = 'virtualboxvm'
+name = 'virtualboxvm'
+
+homepage = 'https://virtualbox.org'
+
+[[package]]
+channel = 'arch'
+name = 'virtualbox'

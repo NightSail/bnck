@@ -1,0 +1,8 @@
+id = 'cloudflared'
+name = 'cloudflared'
+
+homepage = 'https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudflared'

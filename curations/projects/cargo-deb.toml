@@ -1,0 +1,8 @@
+id = 'cargo-deb'
+name = 'cargo-deb'
+
+homepage = 'https://github.com/kornelski/cargo-deb'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-deb'

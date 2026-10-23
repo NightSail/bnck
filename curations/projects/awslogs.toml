@@ -1,0 +1,8 @@
+id = 'awslogs'
+name = 'awslogs'
+
+repository = 'https://github.com/jorgebastida/awslogs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awslogs'

@@ -1,0 +1,16 @@
+id = 'bird'
+name = 'bird'
+
+homepage = 'https://bird.network.cz'
+
+[[package]]
+channel = 'arch'
+name = 'bird'
+
+[[package]]
+channel = 'debian'
+name = 'bird2'
+
+[[package]]
+channel = 'debian'
+name = 'bird3'

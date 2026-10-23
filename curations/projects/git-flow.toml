@@ -1,0 +1,8 @@
+id = 'git-flow'
+name = 'git-flow'
+
+repository = 'https://github.com/nvie/gitflow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-flow'

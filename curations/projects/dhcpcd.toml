@@ -1,0 +1,12 @@
+id = 'dhcpcd'
+name = 'dhcpcd'
+
+homepage = 'http://roy.marples.name/projects/dhcpcd'
+
+[[package]]
+channel = 'arch'
+name = 'dhcpcd'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcpcd'

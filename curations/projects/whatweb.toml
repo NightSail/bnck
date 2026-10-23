@@ -1,0 +1,8 @@
+id = 'whatweb'
+name = 'whatweb'
+
+homepage = 'https://github.com/urbanadventurer/WhatWeb'
+
+[[package]]
+channel = 'debian'
+name = 'whatweb'

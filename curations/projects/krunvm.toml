@@ -1,0 +1,8 @@
+id = 'krunvm'
+name = 'krunvm'
+
+homepage = 'https://github.com/containers/krunvm'
+
+[[package]]
+channel = 'arch'
+name = 'krunvm'

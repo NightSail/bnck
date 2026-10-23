@@ -1,0 +1,16 @@
+id = 'zeroclaw'
+name = 'zeroclaw'
+
+repository = 'https://github.com/zeroclaw-labs/zeroclaw'
+
+[[package]]
+channel = 'arch'
+name = 'zeroclaw'
+
+[[package]]
+channel = 'arch'
+name = 'zerocode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zeroclaw'

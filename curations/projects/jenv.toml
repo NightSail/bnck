@@ -1,0 +1,12 @@
+id = 'jenv'
+name = 'jenv'
+
+repository = 'https://github.com/jenv/jenv'
+
+[[package]]
+channel = 'arch'
+name = 'jenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jenv'

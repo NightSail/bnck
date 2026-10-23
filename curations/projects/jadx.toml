@@ -1,0 +1,12 @@
+id = 'jadx'
+name = 'jadx'
+
+repository = 'https://github.com/skylot/jadx'
+
+[[package]]
+channel = 'arch'
+name = 'jadx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jadx'

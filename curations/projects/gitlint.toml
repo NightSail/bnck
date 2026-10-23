@@ -1,0 +1,12 @@
+id = 'gitlint'
+name = 'gitlint'
+
+homepage = 'https://jorisroovers.com/gitlint'
+
+[[package]]
+channel = 'debian'
+name = 'gitlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitlint'

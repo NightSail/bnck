@@ -1,0 +1,12 @@
+id = 'plasma-workspace'
+name = 'plasma-workspace'
+
+homepage = 'https://invent.kde.org/plasma/plasma-workspace'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-workspace'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-workspace'

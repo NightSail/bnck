@@ -1,0 +1,12 @@
+id = 'libkscreen'
+name = 'libkscreen'
+
+homepage = 'https://invent.kde.org/plasma/libkscreen'
+
+[[package]]
+channel = 'debian'
+name = 'libkscreen-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libkscreen'

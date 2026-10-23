@@ -1,0 +1,12 @@
+id = 'nbtscan'
+name = 'nbtscan'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/nbtscan'
+
+[[package]]
+channel = 'arch'
+name = 'nbtscan'
+
+[[package]]
+channel = 'debian'
+name = 'nbtscan'

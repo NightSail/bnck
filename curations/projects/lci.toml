@@ -1,0 +1,8 @@
+id = 'lci'
+name = 'lci'
+
+repository = 'https://github.com/justinmeza/lci'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lolcode'

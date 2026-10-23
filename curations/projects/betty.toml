@@ -1,0 +1,8 @@
+id = 'betty'
+name = 'betty'
+
+homepage = 'https://github.com/pickhardt/betty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/betty'

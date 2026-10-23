@@ -1,0 +1,12 @@
+id = 'kubie'
+name = 'kubie'
+
+homepage = 'https://github.com/sbstp/kubie'
+
+[[package]]
+channel = 'arch'
+name = 'kubie'
+
+[[package]]
+channel = 'debian'
+name = 'kubie'

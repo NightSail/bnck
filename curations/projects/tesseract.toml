@@ -1,0 +1,20 @@
+id = 'tesseract'
+name = 'tesseract'
+
+repository = 'https://github.com/tesseract-ocr/tesseract'
+
+[[package]]
+channel = 'arch'
+name = 'tesseract'
+
+[[package]]
+channel = 'fedora'
+name = 'tesseract'
+
+[[package]]
+channel = 'fedora'
+name = 'tesseract-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tesseract'

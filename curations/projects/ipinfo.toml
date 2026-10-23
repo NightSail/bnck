@@ -1,0 +1,8 @@
+id = 'ipinfo'
+name = 'ipinfo'
+
+repository = 'https://github.com/ipinfo/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipinfo-cli'

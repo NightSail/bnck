@@ -1,0 +1,16 @@
+id = 'miniserve'
+name = 'miniserve'
+
+homepage = 'https://github.com/svenstaro/miniserve'
+
+[[package]]
+channel = 'arch'
+name = 'miniserve'
+
+[[package]]
+channel = 'debian'
+name = 'miniserve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/miniserve'

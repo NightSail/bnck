@@ -1,0 +1,8 @@
+id = 'xidel'
+name = 'xidel'
+
+homepage = 'https://www.videlibri.de/xidel.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xidel'

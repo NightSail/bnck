@@ -1,0 +1,8 @@
+id = 'pcapfix'
+name = 'pcapfix'
+
+homepage = 'http://f00l.de/pcapfix'
+
+[[package]]
+channel = 'debian'
+name = 'pcapfix'

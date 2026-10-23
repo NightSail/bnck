@@ -1,0 +1,8 @@
+id = 'homeshick'
+name = 'homeshick'
+
+repository = 'https://github.com/andsens/homeshick'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/homeshick'

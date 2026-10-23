@@ -1,0 +1,8 @@
+id = 'aider'
+name = 'aider'
+
+repository = 'https://github.com/Aider-AI/aider'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aider'

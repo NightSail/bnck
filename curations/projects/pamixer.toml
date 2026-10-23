@@ -1,0 +1,16 @@
+id = 'pamixer'
+name = 'pamixer'
+
+homepage = 'https://github.com/cdemoulins/pamixer'
+
+[[package]]
+channel = 'arch'
+name = 'pamixer'
+
+[[package]]
+channel = 'debian'
+name = 'pamixer'
+
+[[package]]
+channel = 'fedora'
+name = 'pamixer'

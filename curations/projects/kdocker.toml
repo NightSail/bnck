@@ -1,0 +1,8 @@
+id = 'kdocker'
+name = 'kdocker'
+
+homepage = 'https://github.com/user-none/KDocker'
+
+[[package]]
+channel = 'debian'
+name = 'kdocker'

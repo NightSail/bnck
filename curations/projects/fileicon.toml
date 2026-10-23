@@ -1,0 +1,8 @@
+id = 'fileicon'
+name = 'fileicon'
+
+homepage = 'https://github.com/mklement0/fileicon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fileicon'

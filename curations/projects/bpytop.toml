@@ -1,0 +1,16 @@
+id = 'bpytop'
+name = 'bpytop'
+
+repository = 'https://github.com/aristocratos/bpytop'
+
+[[package]]
+channel = 'arch'
+name = 'bpytop'
+
+[[package]]
+channel = 'debian'
+name = 'bpytop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bpytop'

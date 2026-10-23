@@ -1,0 +1,12 @@
+id = 'arjun'
+name = 'arjun'
+
+homepage = 'https://github.com/s0md3v/Arjun'
+
+[[package]]
+channel = 'debian'
+name = 'arjun'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arjun'

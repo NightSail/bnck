@@ -1,0 +1,8 @@
+id = 'rake'
+name = 'rake'
+
+homepage = 'https://ruby.github.io/rake'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rake'

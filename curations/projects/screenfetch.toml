@@ -1,0 +1,20 @@
+id = 'screenfetch'
+name = 'screenfetch'
+
+repository = 'https://github.com/KittyKatt/screenFetch'
+
+[[package]]
+channel = 'arch'
+name = 'screenfetch'
+
+[[package]]
+channel = 'debian'
+name = 'screenfetch'
+
+[[package]]
+channel = 'fedora'
+name = 'screenfetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/screenfetch'

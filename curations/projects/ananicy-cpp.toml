@@ -1,0 +1,8 @@
+id = 'ananicy-cpp'
+name = 'ananicy-cpp'
+
+homepage = 'https://gitlab.com/ananicy-cpp/ananicy-cpp'
+
+[[package]]
+channel = 'arch'
+name = 'ananicy-cpp'

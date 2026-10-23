@@ -1,0 +1,12 @@
+id = 'plasma-desktop'
+name = 'plasma-desktop'
+
+homepage = 'https://invent.kde.org/plasma/plasma-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-desktop'

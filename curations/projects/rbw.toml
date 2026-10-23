@@ -1,0 +1,12 @@
+id = 'rbw'
+name = 'rbw'
+
+repository = 'https://github.com/doy/rbw'
+
+[[package]]
+channel = 'debian'
+name = 'rbw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbw'

@@ -1,0 +1,24 @@
+id = 'moreutils'
+name = 'moreutils'
+
+homepage = 'https://joeyh.name/code/moreutils'
+
+[[package]]
+channel = 'arch'
+name = 'moreutils'
+
+[[package]]
+channel = 'debian'
+name = 'moreutils'
+
+[[package]]
+channel = 'fedora'
+name = 'moreutils'
+
+[[package]]
+channel = 'fedora'
+name = 'moreutils-parallel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moreutils'

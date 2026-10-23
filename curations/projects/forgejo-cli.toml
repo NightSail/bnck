@@ -1,0 +1,12 @@
+id = 'forgejo-cli'
+name = 'forgejo-cli'
+
+repository = 'https://codeberg.org/forgejo-contrib/forgejo-cli'
+
+[[package]]
+channel = 'arch'
+name = 'forgejo-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forgejo-cli'

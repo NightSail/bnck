@@ -1,0 +1,12 @@
+id = 'gosec'
+name = 'gosec'
+
+repository = 'https://github.com/securego/gosec'
+
+[[package]]
+channel = 'fedora'
+name = 'gosec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gosec'

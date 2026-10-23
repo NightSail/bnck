@@ -1,0 +1,8 @@
+id = 'strip-nondeterminism'
+name = 'strip-nondeterminism'
+
+repository = 'https://salsa.debian.org/reproducible-builds/strip-nondeterminism'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/strip-nondeterminism'

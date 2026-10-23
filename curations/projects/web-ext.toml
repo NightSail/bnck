@@ -1,0 +1,8 @@
+id = 'web-ext'
+name = 'web-ext'
+
+homepage = 'https://github.com/mozilla/web-ext'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/web-ext'

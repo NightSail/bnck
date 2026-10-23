@@ -1,0 +1,8 @@
+id = 'qsv'
+name = 'qsv'
+
+homepage = 'https://qsv.dathere.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qsv'

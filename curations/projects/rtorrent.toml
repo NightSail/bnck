@@ -1,0 +1,12 @@
+id = 'rtorrent'
+name = 'rtorrent'
+
+homepage = 'https://github.com/rakshasa/rtorrent'
+
+[[package]]
+channel = 'fedora'
+name = 'rtorrent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtorrent'

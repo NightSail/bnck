@@ -1,0 +1,20 @@
+id = 'fwupd'
+name = 'fwupd'
+
+repository = 'https://github.com/fwupd/fwupd'
+
+[[package]]
+channel = 'arch'
+name = 'fwupd'
+
+[[package]]
+channel = 'debian'
+name = 'fwupd'
+
+[[package]]
+channel = 'fedora'
+name = 'fwupd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fwupd'

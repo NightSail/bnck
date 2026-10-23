@@ -1,0 +1,12 @@
+id = 'bob'
+name = 'bob'
+
+homepage = 'https://github.com/MordechaiHadad/bob'
+
+[[package]]
+channel = 'arch'
+name = 'bob'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bob'

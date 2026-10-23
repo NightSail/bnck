@@ -1,0 +1,12 @@
+id = 'drawing'
+name = 'drawing'
+
+homepage = 'https://maoschanz.github.io/drawing'
+
+[[package]]
+channel = 'arch'
+name = 'drawing'
+
+[[package]]
+channel = 'debian'
+name = 'drawing'

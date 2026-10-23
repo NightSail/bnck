@@ -1,0 +1,8 @@
+id = 'dtrx'
+name = 'dtrx'
+
+homepage = 'https://github.com/dtrx-py/dtrx'
+
+[[package]]
+channel = 'debian'
+name = 'dtrx'

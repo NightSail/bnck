@@ -1,0 +1,16 @@
+id = 'brightnessctl'
+name = 'brightnessctl'
+
+homepage = 'https://github.com/Hummer12007/brightnessctl'
+
+[[package]]
+channel = 'arch'
+name = 'brightnessctl'
+
+[[package]]
+channel = 'debian'
+name = 'brightnessctl'
+
+[[package]]
+channel = 'fedora'
+name = 'brightnessctl'

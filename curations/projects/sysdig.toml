@@ -1,0 +1,8 @@
+id = 'sysdig'
+name = 'sysdig'
+
+repository = 'https://github.com/draios/sysdig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sysdig'

@@ -1,0 +1,8 @@
+id = 'hf'
+name = 'hf'
+
+homepage = 'https://huggingface.co/docs/huggingface_hub/guides/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hf'

@@ -1,0 +1,8 @@
+id = 'termdown'
+name = 'termdown'
+
+homepage = 'https://github.com/trehn/termdown'
+
+[[package]]
+channel = 'arch'
+name = 'termdown'

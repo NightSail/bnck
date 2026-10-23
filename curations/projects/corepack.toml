@@ -1,0 +1,16 @@
+id = 'corepack'
+name = 'corepack'
+
+homepage = 'https://github.com/nodejs/corepack'
+
+[[package]]
+channel = 'arch'
+name = 'corepack'
+
+[[package]]
+channel = 'debian'
+name = 'node-corepack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/corepack'

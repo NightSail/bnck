@@ -1,0 +1,20 @@
+id = 'kustomize'
+name = 'kustomize'
+
+repository = 'https://github.com/kubernetes-sigs/kustomize'
+
+[[package]]
+channel = 'arch'
+name = 'kustomize'
+
+[[package]]
+channel = 'debian'
+name = 'kustomize'
+
+[[package]]
+channel = 'fedora'
+name = 'kustomize'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kustomize'

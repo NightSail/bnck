@@ -1,0 +1,8 @@
+id = 'komac'
+name = 'komac'
+
+repository = 'https://github.com/russellbanks/Komac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/komac'

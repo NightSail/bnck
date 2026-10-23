@@ -1,0 +1,8 @@
+id = 'ghcid'
+name = 'ghcid'
+
+repository = 'https://github.com/ndmitchell/ghcid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghcid'

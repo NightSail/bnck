@@ -1,0 +1,16 @@
+id = 'cosign'
+name = 'cosign'
+
+repository = 'https://github.com/sigstore/cosign'
+
+[[package]]
+channel = 'arch'
+name = 'cosign'
+
+[[package]]
+channel = 'debian'
+name = 'cosign'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cosign'

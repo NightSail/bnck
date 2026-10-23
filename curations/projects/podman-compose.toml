@@ -1,0 +1,20 @@
+id = 'podman-compose'
+name = 'podman-compose'
+
+homepage = 'https://github.com/containers/podman-compose'
+
+[[package]]
+channel = 'arch'
+name = 'podman-compose'
+
+[[package]]
+channel = 'debian'
+name = 'podman-compose'
+
+[[package]]
+channel = 'fedora'
+name = 'podman-compose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podman-compose'

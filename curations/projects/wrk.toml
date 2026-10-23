@@ -1,0 +1,12 @@
+id = 'wrk'
+name = 'wrk'
+
+repository = 'https://github.com/wg/wrk'
+
+[[package]]
+channel = 'debian'
+name = 'wrk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wrk'

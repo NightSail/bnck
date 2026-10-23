@@ -1,0 +1,16 @@
+id = 'fscrypt'
+name = 'fscrypt'
+
+homepage = 'https://github.com/google/fscrypt'
+
+[[package]]
+channel = 'arch'
+name = 'fscrypt'
+
+[[package]]
+channel = 'debian'
+name = 'fscrypt'
+
+[[package]]
+channel = 'fedora'
+name = 'fscrypt'

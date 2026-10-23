@@ -1,0 +1,8 @@
+id = 'httpflow'
+name = 'httpflow'
+
+repository = 'https://github.com/six-ddc/httpflow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpflow'

@@ -1,0 +1,8 @@
+id = 'autoflake'
+name = 'autoflake'
+
+homepage = 'https://github.com/PyCQA/autoflake'
+
+[[package]]
+channel = 'debian'
+name = 'autoflake'

@@ -1,0 +1,12 @@
+id = 'bore'
+name = 'bore'
+
+repository = 'https://github.com/ekzhang/bore'
+
+[[package]]
+channel = 'arch'
+name = 'bore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bore-cli'

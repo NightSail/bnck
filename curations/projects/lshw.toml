@@ -1,0 +1,16 @@
+id = 'lshw'
+name = 'lshw'
+
+homepage = 'http://ezix.org/project/wiki/HardwareLiSter'
+
+[[package]]
+channel = 'arch'
+name = 'lshw'
+
+[[package]]
+channel = 'fedora'
+name = 'lshw'
+
+[[package]]
+channel = 'fedora'
+name = 'lshw-gui'

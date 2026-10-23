@@ -1,0 +1,8 @@
+id = 'speedread'
+name = 'speedread'
+
+repository = 'https://github.com/pasky/speedread'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speedread'

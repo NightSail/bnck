@@ -1,0 +1,16 @@
+id = 'liquidctl'
+name = 'liquidctl'
+
+repository = 'https://github.com/liquidctl/liquidctl'
+
+[[package]]
+channel = 'arch'
+name = 'liquidctl'
+
+[[package]]
+channel = 'debian'
+name = 'liquidctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liquidctl'

@@ -1,0 +1,12 @@
+id = 'ansiweather'
+name = 'ansiweather'
+
+repository = 'https://github.com/fcambus/ansiweather'
+
+[[package]]
+channel = 'debian'
+name = 'ansiweather'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansiweather'

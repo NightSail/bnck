@@ -1,0 +1,8 @@
+id = 'sbctl'
+name = 'sbctl'
+
+homepage = 'https://github.com/Foxboron/sbctl'
+
+[[package]]
+channel = 'arch'
+name = 'sbctl'

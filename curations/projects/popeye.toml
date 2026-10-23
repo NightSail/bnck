@@ -1,0 +1,8 @@
+id = 'popeye'
+name = 'popeye'
+
+homepage = 'https://github.com/derailed/popeye'
+
+[[package]]
+channel = 'arch'
+name = 'popeye'

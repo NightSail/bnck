@@ -1,0 +1,12 @@
+id = 'goenv'
+name = 'goenv'
+
+homepage = 'https://github.com/go-nv/goenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goenv@2'

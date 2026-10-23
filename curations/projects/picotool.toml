@@ -1,0 +1,12 @@
+id = 'picotool'
+name = 'picotool'
+
+repository = 'https://github.com/raspberrypi/picotool'
+
+[[package]]
+channel = 'debian'
+name = 'picotool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picotool'

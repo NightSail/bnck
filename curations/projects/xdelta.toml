@@ -1,0 +1,24 @@
+id = 'xdelta'
+name = 'xdelta'
+
+homepage = 'https://github.com/jmacd/xdelta'
+
+[[package]]
+channel = 'arch'
+name = 'xdelta3'
+
+[[package]]
+channel = 'debian'
+name = 'libxdelta2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xdelta'
+
+[[package]]
+channel = 'fedora'
+name = 'xdelta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xdelta'

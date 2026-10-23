@@ -1,0 +1,8 @@
+id = 'impacket'
+name = 'impacket'
+
+homepage = 'https://github.com/fortra/impacket'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-impacket'

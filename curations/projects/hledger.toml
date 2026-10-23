@@ -1,0 +1,9 @@
+id = 'hledger'
+name = 'hledger'
+
+homepage = 'https://hledger.org/1.32/hledger-ui.html'
+repository = 'https://github.com/simonmichael/hledger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hledger'

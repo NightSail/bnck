@@ -1,0 +1,16 @@
+id = 'img2pdf'
+name = 'img2pdf'
+
+homepage = 'https://gitlab.mister-muffin.de/josch/img2pdf'
+
+[[package]]
+channel = 'arch'
+name = 'img2pdf'
+
+[[package]]
+channel = 'debian'
+name = 'img2pdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/img2pdf'

@@ -1,0 +1,24 @@
+id = 'mediainfo'
+name = 'mediainfo'
+
+homepage = 'http://mediaarea.net/MediaInfo'
+
+[[package]]
+channel = 'debian'
+name = 'mediainfo'
+
+[[package]]
+channel = 'debian'
+name = 'mediainfo-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'mediainfo'
+
+[[package]]
+channel = 'fedora'
+name = 'mediainfo-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'mediainfo-qt'

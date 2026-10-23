@@ -1,0 +1,8 @@
+id = 'gyb'
+name = 'gyb'
+
+repository = 'https://github.com/GAM-team/got-your-back'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gyb'

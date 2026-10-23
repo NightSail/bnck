@@ -1,0 +1,12 @@
+id = 'ostree'
+name = 'ostree'
+
+homepage = 'https://ostreedev.github.io/ostree'
+
+[[package]]
+channel = 'arch'
+name = 'ostree'
+
+[[package]]
+channel = 'fedora'
+name = 'ostree'

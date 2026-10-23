@@ -1,0 +1,8 @@
+id = 'libinput'
+name = 'libinput'
+
+homepage = 'https://wayland.freedesktop.org/libinput/doc/latest'
+
+[[package]]
+channel = 'arch'
+name = 'libinput-tools'

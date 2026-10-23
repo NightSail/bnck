@@ -1,0 +1,8 @@
+id = 'legit'
+name = 'legit'
+
+homepage = 'https://frostming.github.io/legit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/legit'

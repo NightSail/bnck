@@ -1,0 +1,40 @@
+id = 'cloud-utils'
+name = 'cloud-utils'
+
+homepage = 'https://github.com/canonical/cloud-utils'
+
+[[package]]
+channel = 'arch'
+name = 'cloud-guest-utils'
+
+[[package]]
+channel = 'arch'
+name = 'cloud-image-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-cloud-localds'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-ec2metadata'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-growpart'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-mount-image-callback'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-resize-part-image'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-vcs-run'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-utils-write-mime-multipart'

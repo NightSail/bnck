@@ -1,0 +1,8 @@
+id = 'psgrep'
+name = 'psgrep'
+
+homepage = 'https://jvz.github.io/psgrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psgrep'

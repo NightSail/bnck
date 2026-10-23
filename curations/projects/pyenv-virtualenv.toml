@@ -1,0 +1,8 @@
+id = 'pyenv-virtualenv'
+name = 'pyenv-virtualenv'
+
+repository = 'https://github.com/pyenv/pyenv-virtualenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyenv-virtualenv'

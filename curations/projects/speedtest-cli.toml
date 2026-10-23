@@ -1,0 +1,24 @@
+id = 'speedtest-cli'
+name = 'speedtest-cli'
+
+repository = 'https://github.com/sivel/speedtest-cli'
+
+[[package]]
+channel = 'arch'
+name = 'speedtest-cli'
+
+[[package]]
+channel = 'debian'
+name = 'speedtest-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-speedtest-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'speedtest-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speedtest-cli'

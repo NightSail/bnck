@@ -1,0 +1,8 @@
+id = 'gitwatch'
+name = 'gitwatch'
+
+repository = 'https://github.com/gitwatch/gitwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitwatch'

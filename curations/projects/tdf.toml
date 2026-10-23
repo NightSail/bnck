@@ -1,0 +1,12 @@
+id = 'tdf'
+name = 'tdf'
+
+homepage = 'https://github.com/itsjunetime/tdf'
+
+[[package]]
+channel = 'arch'
+name = 'tdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tdf'

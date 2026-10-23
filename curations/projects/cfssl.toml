@@ -1,0 +1,16 @@
+id = 'cfssl'
+name = 'cfssl'
+
+repository = 'https://github.com/cloudflare/cfssl'
+
+[[package]]
+channel = 'debian'
+name = 'golang-cfssl'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cloudflare-cfssl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfssl'

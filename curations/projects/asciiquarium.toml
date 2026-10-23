@@ -1,0 +1,16 @@
+id = 'asciiquarium'
+name = 'asciiquarium'
+
+homepage = 'http://www.robobunny.com/projects/asciiquarium/html'
+
+[[package]]
+channel = 'arch'
+name = 'asciiquarium'
+
+[[package]]
+channel = 'fedora'
+name = 'asciiquarium'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asciiquarium'

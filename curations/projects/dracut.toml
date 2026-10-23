@@ -1,0 +1,8 @@
+id = 'dracut'
+name = 'dracut'
+
+homepage = 'https://github.com/dracut-ng/dracut-ng'
+
+[[package]]
+channel = 'arch'
+name = 'dracut'

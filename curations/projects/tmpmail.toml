@@ -1,0 +1,8 @@
+id = 'tmpmail'
+name = 'tmpmail'
+
+repository = 'https://github.com/sdushantha/tmpmail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmpmail'

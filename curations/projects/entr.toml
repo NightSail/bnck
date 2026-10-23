@@ -1,0 +1,20 @@
+id = 'entr'
+name = 'entr'
+
+homepage = 'http://eradman.com/entrproject'
+
+[[package]]
+channel = 'arch'
+name = 'entr'
+
+[[package]]
+channel = 'debian'
+name = 'entr'
+
+[[package]]
+channel = 'fedora'
+name = 'entr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/entr'

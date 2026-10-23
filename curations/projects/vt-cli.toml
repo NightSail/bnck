@@ -1,0 +1,8 @@
+id = 'vt-cli'
+name = 'vt-cli'
+
+homepage = 'https://github.com/VirusTotal/vt-cli'
+
+[[package]]
+channel = 'debian'
+name = 'vt-cli'

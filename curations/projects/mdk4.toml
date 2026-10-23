@@ -1,0 +1,12 @@
+id = 'mdk4'
+name = 'mdk4'
+
+homepage = 'https://github.com/aircrack-ng/mdk4'
+
+[[package]]
+channel = 'arch'
+name = 'mdk4'
+
+[[package]]
+channel = 'debian'
+name = 'mdk4'

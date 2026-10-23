@@ -1,0 +1,8 @@
+id = 'fastmod'
+name = 'fastmod'
+
+homepage = 'https://github.com/facebookincubator/fastmod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastmod'

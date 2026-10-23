@@ -1,0 +1,8 @@
+id = 'runlim'
+name = 'runlim'
+
+homepage = 'http://fmv.jku.at/runlim'
+
+[[package]]
+channel = 'debian'
+name = 'runlim'

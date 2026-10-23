@@ -1,0 +1,20 @@
+id = 's3cmd'
+name = 's3cmd'
+
+homepage = 'https://s3tools.org/s3cmd'
+
+[[package]]
+channel = 'arch'
+name = 's3cmd'
+
+[[package]]
+channel = 'debian'
+name = 's3cmd'
+
+[[package]]
+channel = 'fedora'
+name = 's3cmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s3cmd'

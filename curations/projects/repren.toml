@@ -1,0 +1,8 @@
+id = 'repren'
+name = 'repren'
+
+homepage = 'https://github.com/jlevy/repren'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/repren'

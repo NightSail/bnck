@@ -1,0 +1,8 @@
+id = 'nikto'
+name = 'nikto'
+
+homepage = 'https://cirt.net/nikto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nikto'

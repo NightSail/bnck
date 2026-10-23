@@ -1,0 +1,8 @@
+id = 'wait4x'
+name = 'wait4x'
+
+homepage = 'https://github.com/wait4x/wait4x'
+
+[[package]]
+channel = 'debian'
+name = 'wait4x'

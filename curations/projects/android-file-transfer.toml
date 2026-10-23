@@ -1,0 +1,8 @@
+id = 'android-file-transfer'
+name = 'android-file-transfer'
+
+homepage = 'https://github.com/whoozle/android-file-transfer-linux'
+
+[[package]]
+channel = 'fedora'
+name = 'android-file-transfer'

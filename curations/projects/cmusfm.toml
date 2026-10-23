@@ -1,0 +1,8 @@
+id = 'cmusfm'
+name = 'cmusfm'
+
+homepage = 'https://github.com/Arkq/cmusfm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmusfm'

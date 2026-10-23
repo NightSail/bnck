@@ -1,0 +1,16 @@
+id = 'gocryptfs'
+name = 'gocryptfs'
+
+homepage = 'https://github.com/rfjakob/gocryptfs'
+
+[[package]]
+channel = 'arch'
+name = 'gocryptfs'
+
+[[package]]
+channel = 'debian'
+name = 'gocryptfs'
+
+[[package]]
+channel = 'fedora'
+name = 'gocryptfs'

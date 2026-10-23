@@ -23,3 +23,7 @@ name = 'homebrew/core/asciinema'
 [[package]]
 channel = 'pypi'
 name = 'asciinema'
+
+[[package]]
+channel = 'debian'
+name = 'asciinema'

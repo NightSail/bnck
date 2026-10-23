@@ -1,0 +1,16 @@
+id = 'rage'
+name = 'rage'
+
+repository = 'https://github.com/str4d/rage'
+
+[[package]]
+channel = 'arch'
+name = 'rage-encryption'
+
+[[package]]
+channel = 'debian'
+name = 'rage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rage'

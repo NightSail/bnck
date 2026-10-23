@@ -1,0 +1,8 @@
+id = 'solo1-cli'
+name = 'solo1-cli'
+
+homepage = 'https://github.com/solokeys/solo1-cli'
+
+[[package]]
+channel = 'debian'
+name = 'solo1-cli'

@@ -1,0 +1,8 @@
+id = 'mocha'
+name = 'mocha'
+
+homepage = 'https://mochajs.org'
+
+[[package]]
+channel = 'debian'
+name = 'mocha'

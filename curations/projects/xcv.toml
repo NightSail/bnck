@@ -1,0 +1,8 @@
+id = 'xcv'
+name = 'xcv'
+
+repository = 'https://github.com/busterc/xcv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcv'

@@ -1,0 +1,8 @@
+id = 'todoist'
+name = 'todoist'
+
+repository = 'https://github.com/sachaos/todoist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/todoist-cli-go'

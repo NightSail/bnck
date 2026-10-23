@@ -1,0 +1,8 @@
+id = 'semver'
+name = 'semver'
+
+homepage = 'https://github.com/npm/node-semver'
+
+[[package]]
+channel = 'arch'
+name = 'semver'

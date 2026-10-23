@@ -1,0 +1,8 @@
+id = 'gatsby-cli'
+name = 'gatsby-cli'
+
+homepage = 'https://www.gatsbyjs.com/docs/reference/gatsby-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gatsby-cli'

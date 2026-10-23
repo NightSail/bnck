@@ -1,0 +1,8 @@
+id = 'vgmstream'
+name = 'vgmstream'
+
+repository = 'https://github.com/vgmstream/vgmstream'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vgmstream'

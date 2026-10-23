@@ -1,0 +1,8 @@
+id = 'debootstrap'
+name = 'debootstrap'
+
+homepage = 'https://wiki.debian.org/Debootstrap'
+
+[[package]]
+channel = 'fedora'
+name = 'debootstrap'

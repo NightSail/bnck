@@ -1,0 +1,12 @@
+id = 'whisper'
+name = 'whisper'
+
+repository = 'https://github.com/openai/whisper'
+
+[[package]]
+channel = 'arch'
+name = 'python-openai-whisper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openai-whisper'

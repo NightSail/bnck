@@ -1,0 +1,16 @@
+id = 'b3sum'
+name = 'b3sum'
+
+homepage = 'https://github.com/BLAKE3-team/BLAKE3'
+
+[[package]]
+channel = 'arch'
+name = 'b3sum'
+
+[[package]]
+channel = 'debian'
+name = 'b3sum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/b3sum'

@@ -1,0 +1,16 @@
+id = 'ripmime'
+name = 'ripmime'
+
+homepage = 'http://www.pldaniels.com/ripmime'
+
+[[package]]
+channel = 'debian'
+name = 'ripmime'
+
+[[package]]
+channel = 'fedora'
+name = 'ripmime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ripmime'

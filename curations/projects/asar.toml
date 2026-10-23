@@ -1,0 +1,8 @@
+id = 'asar'
+name = 'asar'
+
+homepage = 'https://github.com/electron/asar'
+
+[[package]]
+channel = 'arch'
+name = 'asar'

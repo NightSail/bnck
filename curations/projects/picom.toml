@@ -1,0 +1,12 @@
+id = 'picom'
+name = 'picom'
+
+homepage = 'https://github.com/yshui/picom'
+
+[[package]]
+channel = 'debian'
+name = 'picom'
+
+[[package]]
+channel = 'fedora'
+name = 'picom'

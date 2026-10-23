@@ -1,0 +1,8 @@
+id = 'lavat'
+name = 'lavat'
+
+repository = 'https://github.com/AngelJumbo/lavat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lavat'

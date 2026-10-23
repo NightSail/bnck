@@ -1,0 +1,8 @@
+id = 'you-get'
+name = 'you-get'
+
+homepage = 'https://you-get.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/you-get'

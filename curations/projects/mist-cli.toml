@@ -1,0 +1,8 @@
+id = 'mist-cli'
+name = 'mist-cli'
+
+repository = 'https://github.com/ninxsoft/mist-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mist-cli'

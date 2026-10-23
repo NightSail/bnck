@@ -1,0 +1,12 @@
+id = 'latexdiff'
+name = 'latexdiff'
+
+homepage = 'https://www.ctan.org/pkg/latexdiff'
+
+[[package]]
+channel = 'debian'
+name = 'latexdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/latexdiff'

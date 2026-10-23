@@ -1,0 +1,8 @@
+id = 'htp'
+name = 'htp'
+
+homepage = 'https://www.vervest.org/htp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htpdate'

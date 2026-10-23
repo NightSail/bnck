@@ -1,0 +1,8 @@
+id = 'flips'
+name = 'flips'
+
+homepage = 'https://git.disroot.org/Sir_Walrus/Flips'
+
+[[package]]
+channel = 'arch'
+name = 'flips'

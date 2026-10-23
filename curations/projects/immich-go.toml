@@ -1,0 +1,16 @@
+id = 'immich-go'
+name = 'immich-go'
+
+repository = 'https://github.com/simulot/immich-go'
+
+[[package]]
+channel = 'arch'
+name = 'immich-go'
+
+[[package]]
+channel = 'debian'
+name = 'immich-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/immich-go'

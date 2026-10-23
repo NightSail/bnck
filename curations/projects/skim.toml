@@ -1,0 +1,16 @@
+id = 'skim'
+name = 'skim'
+
+repository = 'https://github.com/skim-rs/skim'
+
+[[package]]
+channel = 'arch'
+name = 'skim'
+
+[[package]]
+channel = 'debian'
+name = 'skim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sk'

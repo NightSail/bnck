@@ -1,0 +1,8 @@
+id = 'tlsx'
+name = 'tlsx'
+
+repository = 'https://github.com/projectdiscovery/tlsx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tlsx'

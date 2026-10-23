@@ -1,0 +1,8 @@
+id = 'shpotify'
+name = 'shpotify'
+
+repository = 'https://github.com/hnarayanan/shpotify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shpotify'

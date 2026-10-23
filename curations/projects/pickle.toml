@@ -1,0 +1,8 @@
+id = 'pickle'
+name = 'pickle'
+
+homepage = 'https://github.com/FriendsOfPHP/pickle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pickle'

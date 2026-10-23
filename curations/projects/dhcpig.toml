@@ -1,0 +1,8 @@
+id = 'dhcpig'
+name = 'dhcpig'
+
+homepage = 'https://github.com/kamorin/DHCPig'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpig'

@@ -1,0 +1,12 @@
+id = 'playerctl'
+name = 'playerctl'
+
+homepage = 'https://github.com/altdesktop/playerctl'
+
+[[package]]
+channel = 'arch'
+name = 'playerctl'
+
+[[package]]
+channel = 'debian'
+name = 'playerctl'

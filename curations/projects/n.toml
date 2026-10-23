@@ -1,0 +1,8 @@
+id = 'n'
+name = 'n'
+
+repository = 'https://github.com/tj/n'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/n'

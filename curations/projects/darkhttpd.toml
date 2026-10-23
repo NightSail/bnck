@@ -1,0 +1,8 @@
+id = 'darkhttpd'
+name = 'darkhttpd'
+
+homepage = 'https://github.com/emikulic/darkhttpd'
+
+[[package]]
+channel = 'fedora'
+name = 'darkhttpd'

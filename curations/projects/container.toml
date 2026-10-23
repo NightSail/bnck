@@ -1,0 +1,8 @@
+id = 'container'
+name = 'container'
+
+repository = 'https://github.com/apple/container'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/container'

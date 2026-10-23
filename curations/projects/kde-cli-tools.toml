@@ -1,0 +1,16 @@
+id = 'kde-cli-tools'
+name = 'kde-cli-tools'
+
+homepage = 'https://invent.kde.org/plasma/kde-cli-tools'
+
+[[package]]
+channel = 'debian'
+name = 'kde-cli-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kde-cli-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kdesu'

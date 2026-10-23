@@ -1,0 +1,8 @@
+id = 'libjxl'
+name = 'libjxl'
+
+homepage = 'https://github.com/libjxl/libjxl'
+
+[[package]]
+channel = 'debian'
+name = 'libjxl-tools'

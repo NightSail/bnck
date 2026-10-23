@@ -1,0 +1,8 @@
+id = 'chars'
+name = 'chars'
+
+repository = 'https://github.com/boinkor-net/chars'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chars'

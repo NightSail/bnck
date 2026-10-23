@@ -1,0 +1,8 @@
+id = 'smbnetfs'
+name = 'smbnetfs'
+
+homepage = 'https://sourceforge.net/projects/smbnetfs'
+
+[[package]]
+channel = 'debian'
+name = 'smbnetfs'

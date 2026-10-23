@@ -1,0 +1,8 @@
+id = 'cuyo'
+name = 'cuyo'
+
+homepage = 'https://www.karimmi.de/cuyo'
+
+[[package]]
+channel = 'arch'
+name = 'cuyo'

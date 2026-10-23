@@ -1,0 +1,8 @@
+id = 'xfce4-screenshooter'
+name = 'xfce4-screenshooter'
+
+homepage = 'https://docs.xfce.org/apps/xfce4-screenshooter/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-screenshooter'

@@ -1,0 +1,8 @@
+id = 'ajson'
+name = 'ajson'
+
+homepage = 'https://github.com/spyzhov/ajson'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-spyzhov-ajson'

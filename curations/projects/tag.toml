@@ -1,0 +1,8 @@
+id = 'tag'
+name = 'tag'
+
+repository = 'https://github.com/jdberry/tag'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tag'

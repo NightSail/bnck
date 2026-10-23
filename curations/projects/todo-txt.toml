@@ -1,0 +1,8 @@
+id = 'todo-txt'
+name = 'todo-txt'
+
+repository = 'https://github.com/todotxt/todo.txt-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/todo-txt'

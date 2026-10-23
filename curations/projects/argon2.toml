@@ -1,0 +1,20 @@
+id = 'argon2'
+name = 'argon2'
+
+repository = 'https://github.com/P-H-C/phc-winner-argon2'
+
+[[package]]
+channel = 'arch'
+name = 'argon2'
+
+[[package]]
+channel = 'debian'
+name = 'argon2'
+
+[[package]]
+channel = 'fedora'
+name = 'argon2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argon2'

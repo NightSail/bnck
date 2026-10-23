@@ -1,0 +1,12 @@
+id = 'scrcpy'
+name = 'scrcpy'
+
+homepage = 'https://github.com/Genymobile/scrcpy'
+
+[[package]]
+channel = 'arch'
+name = 'scrcpy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scrcpy'

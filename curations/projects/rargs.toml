@@ -1,0 +1,8 @@
+id = 'rargs'
+name = 'rargs'
+
+homepage = 'https://github.com/lotabout/rargs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rargs'

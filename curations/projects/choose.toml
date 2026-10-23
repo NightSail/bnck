@@ -1,0 +1,16 @@
+id = 'choose'
+name = 'choose'
+
+homepage = 'https://github.com/theryangeary/choose'
+
+[[package]]
+channel = 'arch'
+name = 'choose'
+
+[[package]]
+channel = 'debian'
+name = 'choose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/choose-rust'

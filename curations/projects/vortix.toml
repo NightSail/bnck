@@ -14,3 +14,7 @@ name = 'vortix'
 [[package]]
 channel = 'npm'
 name = '@harry-kp/vortix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vortix'

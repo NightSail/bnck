@@ -1,0 +1,8 @@
+id = 'exrex'
+name = 'exrex'
+
+homepage = 'https://github.com/asciimoo/exrex'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-exrex'

@@ -1,0 +1,8 @@
+id = 'ludusavi'
+name = 'ludusavi'
+
+homepage = 'https://github.com/mtkennerly/ludusavi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ludusavi'

@@ -1,0 +1,16 @@
+id = 'wf-recorder'
+name = 'wf-recorder'
+
+homepage = 'https://github.com/ammen99/wf-recorder'
+
+[[package]]
+channel = 'arch'
+name = 'wf-recorder'
+
+[[package]]
+channel = 'debian'
+name = 'wf-recorder'
+
+[[package]]
+channel = 'fedora'
+name = 'wf-recorder'

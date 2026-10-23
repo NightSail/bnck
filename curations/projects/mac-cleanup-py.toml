@@ -1,0 +1,8 @@
+id = 'mac-cleanup-py'
+name = 'mac-cleanup-py'
+
+repository = 'https://github.com/mac-cleanup/mac-cleanup-py'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mac-cleanup-py'

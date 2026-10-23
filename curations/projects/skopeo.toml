@@ -1,0 +1,16 @@
+id = 'skopeo'
+name = 'skopeo'
+
+homepage = 'https://github.com/containers/skopeo'
+
+[[package]]
+channel = 'arch'
+name = 'skopeo'
+
+[[package]]
+channel = 'debian'
+name = 'skopeo'
+
+[[package]]
+channel = 'fedora'
+name = 'skopeo'

@@ -1,0 +1,12 @@
+id = 'cheat'
+name = 'cheat'
+
+repository = 'https://github.com/cheat/cheat'
+
+[[package]]
+channel = 'fedora'
+name = 'cheat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cheat'

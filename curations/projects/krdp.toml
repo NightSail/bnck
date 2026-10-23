@@ -1,0 +1,12 @@
+id = 'krdp'
+name = 'krdp'
+
+homepage = 'https://invent.kde.org/plasma/krdp'
+
+[[package]]
+channel = 'debian'
+name = 'krdp'
+
+[[package]]
+channel = 'fedora'
+name = 'krdp'

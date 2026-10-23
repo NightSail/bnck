@@ -1,0 +1,12 @@
+id = 'viu'
+name = 'viu'
+
+repository = 'https://github.com/atanunq/viu'
+
+[[package]]
+channel = 'arch'
+name = 'viu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/viu'

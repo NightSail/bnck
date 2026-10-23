@@ -1,0 +1,12 @@
+id = 'hostess'
+name = 'hostess'
+
+repository = 'https://github.com/cbednarski/hostess'
+
+[[package]]
+channel = 'arch'
+name = 'hostess'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hostess'

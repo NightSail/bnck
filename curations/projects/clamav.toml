@@ -1,0 +1,56 @@
+id = 'clamav'
+name = 'clamav'
+
+homepage = 'https://www.clamav.net'
+
+[[package]]
+channel = 'arch'
+name = 'clamav'
+
+[[package]]
+channel = 'debian'
+name = 'clamav'
+
+[[package]]
+channel = 'debian'
+name = 'clamav-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'clamav-freshclam'
+
+[[package]]
+channel = 'debian'
+name = 'clamav-milter'
+
+[[package]]
+channel = 'debian'
+name = 'clamdscan'
+
+[[package]]
+channel = 'debian'
+name = 'libclamav-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'clamav'
+
+[[package]]
+channel = 'fedora'
+name = 'clamav-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'clamav-freshclam'
+
+[[package]]
+channel = 'fedora'
+name = 'clamav-milter'
+
+[[package]]
+channel = 'fedora'
+name = 'clamd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clamav'

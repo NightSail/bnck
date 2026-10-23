@@ -1,0 +1,8 @@
+id = 'mailsy'
+name = 'mailsy'
+
+homepage = 'https://github.com/BalliAsghar/Mailsy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mailsy'

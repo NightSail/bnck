@@ -1,0 +1,8 @@
+id = 'vivaldi'
+name = 'vivaldi'
+
+homepage = 'https://vivaldi.com'
+
+[[package]]
+channel = 'arch'
+name = 'vivaldi'

@@ -1,0 +1,8 @@
+id = 'amass'
+name = 'amass'
+
+repository = 'https://github.com/owasp-amass/amass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amass'

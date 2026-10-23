@@ -1,0 +1,8 @@
+id = 'pprof'
+name = 'pprof'
+
+homepage = 'https://github.com/google/pprof'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-google-pprof'

@@ -1,0 +1,8 @@
+id = 'fbgrab'
+name = 'fbgrab'
+
+homepage = 'https://github.com/GunnarMonell/fbgrab'
+
+[[package]]
+channel = 'arch'
+name = 'fbgrab'

@@ -1,0 +1,8 @@
+id = 'virt-manager'
+name = 'virt-manager'
+
+repository = 'https://github.com/virt-manager/virt-manager'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virt-manager'

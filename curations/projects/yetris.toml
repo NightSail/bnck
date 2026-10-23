@@ -1,0 +1,8 @@
+id = 'yetris'
+name = 'yetris'
+
+homepage = 'https://github.com/alexdantas/yetris'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yetris'

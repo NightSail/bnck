@@ -1,0 +1,8 @@
+id = 'colima'
+name = 'colima'
+
+repository = 'https://github.com/abiosoft/colima'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/colima'

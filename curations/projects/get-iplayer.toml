@@ -1,0 +1,12 @@
+id = 'get-iplayer'
+name = 'get_iplayer'
+
+repository = 'https://github.com/get-iplayer/get_iplayer'
+
+[[package]]
+channel = 'fedora'
+name = 'get_iplayer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/get_iplayer'

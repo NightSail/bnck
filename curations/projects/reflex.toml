@@ -1,0 +1,12 @@
+id = 'reflex'
+name = 'reflex'
+
+repository = 'https://github.com/cespare/reflex'
+
+[[package]]
+channel = 'debian'
+name = 'reflex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reflex'

@@ -1,0 +1,8 @@
+id = 'googler'
+name = 'googler'
+
+homepage = 'https://github.com/jarun/googler'
+
+[[package]]
+channel = 'fedora'
+name = 'googler'

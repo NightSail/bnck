@@ -1,0 +1,8 @@
+id = 'daemonize'
+name = 'daemonize'
+
+homepage = 'http://software.clapper.org/daemonize'
+
+[[package]]
+channel = 'debian'
+name = 'daemonize'

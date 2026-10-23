@@ -1,0 +1,8 @@
+id = 'terminal-notifier'
+name = 'terminal-notifier'
+
+repository = 'https://github.com/julienXX/terminal-notifier'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terminal-notifier'

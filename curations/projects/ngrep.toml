@@ -1,0 +1,20 @@
+id = 'ngrep'
+name = 'ngrep'
+
+homepage = 'https://github.com/jpr5/ngrep'
+
+[[package]]
+channel = 'arch'
+name = 'ngrep'
+
+[[package]]
+channel = 'debian'
+name = 'ngrep'
+
+[[package]]
+channel = 'fedora'
+name = 'ngrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ngrep'

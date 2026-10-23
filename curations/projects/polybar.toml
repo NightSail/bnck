@@ -1,0 +1,8 @@
+id = 'polybar'
+name = 'polybar'
+
+homepage = 'https://github.com/polybar/polybar'
+
+[[package]]
+channel = 'arch'
+name = 'polybar'

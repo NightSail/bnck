@@ -1,0 +1,8 @@
+id = 'smbmap'
+name = 'smbmap'
+
+homepage = 'https://github.com/ShawnDEvans/smbmap'
+
+[[package]]
+channel = 'debian'
+name = 'smbmap'

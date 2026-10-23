@@ -1,0 +1,8 @@
+id = 'ghdl'
+name = 'ghdl'
+
+homepage = 'https://ghdl.github.io/ghdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/ghdl'

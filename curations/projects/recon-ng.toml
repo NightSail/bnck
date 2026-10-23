@@ -1,0 +1,12 @@
+id = 'recon-ng'
+name = 'recon-ng'
+
+homepage = 'https://github.com/lanmaster53/recon-ng'
+
+[[package]]
+channel = 'debian'
+name = 'recon-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recon-ng'

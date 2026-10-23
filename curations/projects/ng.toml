@@ -1,0 +1,8 @@
+id = 'ng'
+name = 'ng'
+
+homepage = 'https://angular.dev/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/angular-cli'

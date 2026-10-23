@@ -1,0 +1,8 @@
+id = 'aws-google-auth'
+name = 'aws-google-auth'
+
+repository = 'https://github.com/cevoaustralia/aws-google-auth'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-google-auth'

@@ -1,0 +1,12 @@
+id = 'gops'
+name = 'gops'
+
+repository = 'https://github.com/google/gops'
+
+[[package]]
+channel = 'fedora'
+name = 'gops'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gops'

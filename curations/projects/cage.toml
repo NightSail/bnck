@@ -1,0 +1,8 @@
+id = 'cage'
+name = 'cage'
+
+homepage = 'https://github.com/cage-kiosk/cage'
+
+[[package]]
+channel = 'debian'
+name = 'cage'

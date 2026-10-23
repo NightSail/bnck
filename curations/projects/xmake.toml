@@ -1,0 +1,16 @@
+id = 'xmake'
+name = 'xmake'
+
+homepage = 'https://xmake.io'
+
+[[package]]
+channel = 'debian'
+name = 'xmake'
+
+[[package]]
+channel = 'fedora'
+name = 'xmake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmake'

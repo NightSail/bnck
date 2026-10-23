@@ -1,0 +1,8 @@
+id = 'goldeneye'
+name = 'goldeneye'
+
+homepage = 'https://github.com/jseidl/GoldenEye'
+
+[[package]]
+channel = 'debian'
+name = 'goldeneye'

@@ -1,0 +1,12 @@
+id = 'ptyxis'
+name = 'ptyxis'
+
+homepage = 'https://gitlab.gnome.org/chergert/ptyxis'
+
+[[package]]
+channel = 'arch'
+name = 'ptyxis'
+
+[[package]]
+channel = 'fedora'
+name = 'ptyxis'

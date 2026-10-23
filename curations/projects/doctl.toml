@@ -1,0 +1,8 @@
+id = 'doctl'
+name = 'doctl'
+
+homepage = 'https://docs.digitalocean.com/reference/doctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doctl'

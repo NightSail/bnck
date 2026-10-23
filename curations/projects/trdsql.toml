@@ -1,0 +1,8 @@
+id = 'trdsql'
+name = 'trdsql'
+
+homepage = 'https://noborus.github.io/trdsql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trdsql'

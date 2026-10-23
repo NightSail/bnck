@@ -1,0 +1,12 @@
+id = 'massdns'
+name = 'massdns'
+
+homepage = 'https://github.com/blechschmidt/massdns'
+
+[[package]]
+channel = 'fedora'
+name = 'massdns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/massdns'

@@ -1,0 +1,21 @@
+id = 'bear'
+name = 'bear'
+
+homepage = 'https://github.com/rizsotto/bear'
+repository = 'https://github.com/rizsotto/Bear'
+
+[[package]]
+channel = 'arch'
+name = 'bear'
+
+[[package]]
+channel = 'debian'
+name = 'bear'
+
+[[package]]
+channel = 'fedora'
+name = 'bear'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bear'

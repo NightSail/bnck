@@ -1,0 +1,12 @@
+id = 'udiskie'
+name = 'udiskie'
+
+homepage = 'https://github.com/coldfix/udiskie'
+
+[[package]]
+channel = 'debian'
+name = 'udiskie'
+
+[[package]]
+channel = 'fedora'
+name = 'udiskie'

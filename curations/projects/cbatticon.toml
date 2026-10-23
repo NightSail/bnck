@@ -1,0 +1,12 @@
+id = 'cbatticon'
+name = 'cbatticon'
+
+homepage = 'https://github.com/valr/cbatticon'
+
+[[package]]
+channel = 'arch'
+name = 'cbatticon'
+
+[[package]]
+channel = 'debian'
+name = 'cbatticon'

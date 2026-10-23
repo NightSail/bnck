@@ -1,0 +1,8 @@
+id = 'clang-format'
+name = 'clang-format'
+
+homepage = 'https://clang.llvm.org/docs/ClangFormat.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clang-format'

@@ -1,0 +1,8 @@
+id = 'fprintd'
+name = 'fprintd'
+
+homepage = 'https://fprint.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'fprintd'

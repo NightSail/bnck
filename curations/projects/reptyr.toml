@@ -1,0 +1,16 @@
+id = 'reptyr'
+name = 'reptyr'
+
+homepage = 'http://github.com/nelhage/reptyr'
+
+[[package]]
+channel = 'arch'
+name = 'reptyr'
+
+[[package]]
+channel = 'debian'
+name = 'reptyr'
+
+[[package]]
+channel = 'fedora'
+name = 'reptyr'

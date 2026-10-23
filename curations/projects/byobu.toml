@@ -11,3 +11,7 @@ name = 'byobu'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/byobu'
+
+[[package]]
+channel = 'debian'
+name = 'byobu'

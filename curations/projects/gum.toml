@@ -1,0 +1,20 @@
+id = 'gum'
+name = 'gum'
+
+repository = 'https://github.com/charmbracelet/gum'
+
+[[package]]
+channel = 'arch'
+name = 'gum'
+
+[[package]]
+channel = 'debian'
+name = 'gum'
+
+[[package]]
+channel = 'fedora'
+name = 'gum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gum'

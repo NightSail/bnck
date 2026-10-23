@@ -1,0 +1,20 @@
+id = 'glab'
+name = 'glab'
+
+repository = 'https://gitlab.com/gitlab-org/cli'
+
+[[package]]
+channel = 'arch'
+name = 'glab'
+
+[[package]]
+channel = 'debian'
+name = 'glab'
+
+[[package]]
+channel = 'fedora'
+name = 'glab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glab'

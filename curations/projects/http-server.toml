@@ -1,0 +1,13 @@
+id = 'http-server'
+name = 'http-server'
+
+homepage = 'https://github.com/http-party/http-server#readme'
+repository = 'https://github.com/http-party/http-server'
+
+[[package]]
+channel = 'debian'
+name = 'node-http-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/http-server'

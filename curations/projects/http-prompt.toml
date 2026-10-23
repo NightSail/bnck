@@ -1,0 +1,8 @@
+id = 'http-prompt'
+name = 'http-prompt'
+
+repository = 'https://github.com/httpie/http-prompt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/http-prompt'

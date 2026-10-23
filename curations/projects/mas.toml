@@ -1,0 +1,8 @@
+id = 'mas'
+name = 'mas'
+
+repository = 'https://github.com/mas-cli/mas'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mas'

@@ -1,0 +1,8 @@
+id = 'highlight'
+name = 'highlight'
+
+homepage = 'http://andre-simon.de/doku/highlight/en/highlight.php'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/highlight'

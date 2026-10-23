@@ -1,0 +1,16 @@
+id = 'bitwise'
+name = 'bitwise'
+
+homepage = 'https://github.com/mellowcandle/bitwise'
+
+[[package]]
+channel = 'debian'
+name = 'bitwise'
+
+[[package]]
+channel = 'fedora'
+name = 'bitwise'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bitwise'

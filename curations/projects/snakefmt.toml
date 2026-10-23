@@ -1,0 +1,8 @@
+id = 'snakefmt'
+name = 'snakefmt'
+
+repository = 'https://github.com/snakemake/snakefmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snakefmt'

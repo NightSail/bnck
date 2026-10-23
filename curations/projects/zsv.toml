@@ -1,0 +1,12 @@
+id = 'zsv'
+name = 'zsv'
+
+repository = 'https://github.com/liquidaty/zsv'
+
+[[package]]
+channel = 'debian'
+name = 'zsv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsv'

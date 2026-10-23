@@ -1,0 +1,16 @@
+id = 'autojump'
+name = 'autojump'
+
+repository = 'https://github.com/wting/autojump'
+
+[[package]]
+channel = 'debian'
+name = 'autojump'
+
+[[package]]
+channel = 'fedora'
+name = 'autojump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autojump'

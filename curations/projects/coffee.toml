@@ -1,0 +1,16 @@
+id = 'coffee'
+name = 'coffee'
+
+homepage = 'https://coffeescript.org'
+
+[[package]]
+channel = 'arch'
+name = 'coffeescript'
+
+[[package]]
+channel = 'debian'
+name = 'coffeescript'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coffeescript'

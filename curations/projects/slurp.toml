@@ -1,0 +1,12 @@
+id = 'slurp'
+name = 'slurp'
+
+homepage = 'https://github.com/emersion/slurp'
+
+[[package]]
+channel = 'arch'
+name = 'slurp'
+
+[[package]]
+channel = 'fedora'
+name = 'slurp'

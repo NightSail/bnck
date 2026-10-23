@@ -1,0 +1,8 @@
+id = 'aiac'
+name = 'aiac'
+
+repository = 'https://github.com/gofireflyio/aiac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aiac'

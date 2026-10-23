@@ -1,0 +1,8 @@
+id = 'slackcat'
+name = 'slackcat'
+
+homepage = 'https://github.com/bcicen/slackcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slackcat'

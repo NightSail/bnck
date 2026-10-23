@@ -1,0 +1,8 @@
+id = 'kubetail'
+name = 'kubetail'
+
+homepage = 'https://github.com/johanhaleby/kubetail'
+
+[[package]]
+channel = 'debian'
+name = 'kubetail'

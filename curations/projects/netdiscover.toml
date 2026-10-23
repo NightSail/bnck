@@ -1,0 +1,8 @@
+id = 'netdiscover'
+name = 'netdiscover'
+
+homepage = 'https://github.com/netdiscover-scanner/netdiscover'
+
+[[package]]
+channel = 'debian'
+name = 'netdiscover'

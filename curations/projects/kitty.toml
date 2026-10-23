@@ -1,0 +1,16 @@
+id = 'kitty'
+name = 'kitty'
+
+homepage = 'https://sw.kovidgoyal.net/kitty'
+
+[[package]]
+channel = 'debian'
+name = 'kitty'
+
+[[package]]
+channel = 'fedora'
+name = 'kitty'
+
+[[package]]
+channel = 'fedora'
+name = 'kitty-kitten'

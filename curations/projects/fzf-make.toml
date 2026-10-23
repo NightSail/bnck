@@ -1,0 +1,8 @@
+id = 'fzf-make'
+name = 'fzf-make'
+
+repository = 'https://github.com/kyu08/fzf-make'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fzf-make'

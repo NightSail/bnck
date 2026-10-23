@@ -1,0 +1,8 @@
+id = 'rustup'
+name = 'rustup'
+
+homepage = 'https://rust-lang.github.io/rustup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustup'

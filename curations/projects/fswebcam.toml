@@ -1,0 +1,12 @@
+id = 'fswebcam'
+name = 'fswebcam'
+
+homepage = 'http://www.sanslogic.co.uk/fswebcam'
+
+[[package]]
+channel = 'debian'
+name = 'fswebcam'
+
+[[package]]
+channel = 'fedora'
+name = 'fswebcam'

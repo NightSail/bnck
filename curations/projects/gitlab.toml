@@ -1,0 +1,8 @@
+id = 'gitlab'
+name = 'gitlab'
+
+homepage = 'https://narkoz.github.io/gitlab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitlab-gem'

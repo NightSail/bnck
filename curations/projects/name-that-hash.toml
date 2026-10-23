@@ -1,0 +1,8 @@
+id = 'name-that-hash'
+name = 'name-that-hash'
+
+repository = 'https://github.com/bee-san/Name-That-Hash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/name-that-hash'

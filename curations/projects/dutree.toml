@@ -1,0 +1,8 @@
+id = 'dutree'
+name = 'dutree'
+
+repository = 'https://github.com/nachoparker/dutree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dutree'

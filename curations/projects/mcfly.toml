@@ -1,0 +1,12 @@
+id = 'mcfly'
+name = 'mcfly'
+
+repository = 'https://github.com/cantino/mcfly'
+
+[[package]]
+channel = 'arch'
+name = 'mcfly'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcfly'

@@ -1,0 +1,12 @@
+id = 'json5'
+name = 'json5'
+
+homepage = 'https://json5.org'
+
+[[package]]
+channel = 'debian'
+name = 'node-json5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/json5'

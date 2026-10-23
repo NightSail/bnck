@@ -1,0 +1,8 @@
+id = 'lima'
+name = 'lima'
+
+repository = 'https://github.com/lima-vm/lima'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lima'

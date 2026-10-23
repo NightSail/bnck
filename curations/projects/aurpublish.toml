@@ -1,0 +1,8 @@
+id = 'aurpublish'
+name = 'aurpublish'
+
+homepage = 'https://github.com/eli-schwartz/aurpublish'
+
+[[package]]
+channel = 'arch'
+name = 'aurpublish'

@@ -1,0 +1,8 @@
+id = 'amdgpu-top'
+name = 'amdgpu_top'
+
+homepage = 'https://github.com/Umio-Yasuno/amdgpu_top'
+
+[[package]]
+channel = 'arch'
+name = 'amdgpu_top'

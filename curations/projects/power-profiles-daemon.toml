@@ -1,0 +1,16 @@
+id = 'power-profiles-daemon'
+name = 'power-profiles-daemon'
+
+homepage = 'https://gitlab.freedesktop.org/upower/power-profiles-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'power-profiles-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'power-profiles-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'power-profiles-daemon'

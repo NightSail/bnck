@@ -1,0 +1,8 @@
+id = 'gitsome'
+name = 'gitsome'
+
+homepage = 'https://github.com/donnemartin/gitsome'
+
+[[package]]
+channel = 'debian'
+name = 'gitsome'

@@ -1,0 +1,20 @@
+id = 'arp-scan'
+name = 'arp-scan'
+
+repository = 'https://github.com/royhills/arp-scan'
+
+[[package]]
+channel = 'arch'
+name = 'arp-scan'
+
+[[package]]
+channel = 'debian'
+name = 'arp-scan'
+
+[[package]]
+channel = 'fedora'
+name = 'arp-scan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arp-scan'

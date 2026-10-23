@@ -1,0 +1,8 @@
+id = 'http-load'
+name = 'http_load'
+
+homepage = 'https://www.acme.com/software/http_load'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/http_load'

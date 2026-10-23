@@ -1,0 +1,12 @@
+id = 'ntfy'
+name = 'ntfy'
+
+repository = 'https://github.com/binwiederhier/ntfy'
+
+[[package]]
+channel = 'debian'
+name = 'ntfy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ntfy'

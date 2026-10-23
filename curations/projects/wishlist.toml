@@ -1,0 +1,12 @@
+id = 'wishlist'
+name = 'wishlist'
+
+repository = 'https://github.com/charmbracelet/wishlist'
+
+[[package]]
+channel = 'arch'
+name = 'wishlist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wishlist'

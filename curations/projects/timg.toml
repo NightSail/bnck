@@ -1,0 +1,16 @@
+id = 'timg'
+name = 'timg'
+
+repository = 'https://github.com/hzeller/timg'
+
+[[package]]
+channel = 'debian'
+name = 'timg'
+
+[[package]]
+channel = 'fedora'
+name = 'timg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/timg'

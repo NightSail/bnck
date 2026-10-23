@@ -1,0 +1,12 @@
+id = 'openai'
+name = 'openai'
+
+homepage = 'https://github.com/openai/openai-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-openai'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openai'

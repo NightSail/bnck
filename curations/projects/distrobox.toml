@@ -1,0 +1,12 @@
+id = 'distrobox'
+name = 'distrobox'
+
+repository = 'https://github.com/89luca89/distrobox'
+
+[[package]]
+channel = 'fedora'
+name = 'distrobox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/distrobox'

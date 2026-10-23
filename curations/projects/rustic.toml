@@ -1,0 +1,12 @@
+id = 'rustic'
+name = 'rustic'
+
+repository = 'https://github.com/rustic-rs/rustic'
+
+[[package]]
+channel = 'arch'
+name = 'rustic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustic'

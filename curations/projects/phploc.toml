@@ -1,0 +1,8 @@
+id = 'phploc'
+name = 'phploc'
+
+homepage = 'https://github.com/sebastianbergmann/phploc'
+
+[[package]]
+channel = 'debian'
+name = 'phploc'

@@ -1,0 +1,16 @@
+id = 'ydotool'
+name = 'ydotool'
+
+homepage = 'https://github.com/ReimuNotMoe/ydotool'
+
+[[package]]
+channel = 'arch'
+name = 'ydotool'
+
+[[package]]
+channel = 'debian'
+name = 'ydotool'
+
+[[package]]
+channel = 'fedora'
+name = 'ydotool'

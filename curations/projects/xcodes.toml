@@ -1,0 +1,8 @@
+id = 'xcodes'
+name = 'xcodes'
+
+homepage = 'https://github.com/XcodesOrg/xcodes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcodes'

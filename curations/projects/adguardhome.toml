@@ -1,0 +1,8 @@
+id = 'adguardhome'
+name = 'adguardhome'
+
+homepage = 'https://github.com/AdguardTeam/AdGuardHome'
+
+[[package]]
+channel = 'arch'
+name = 'adguardhome'

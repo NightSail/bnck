@@ -1,0 +1,20 @@
+id = 'zopfli'
+name = 'zopfli'
+
+repository = 'https://github.com/google/zopfli'
+
+[[package]]
+channel = 'arch'
+name = 'zopfli'
+
+[[package]]
+channel = 'debian'
+name = 'zopfli'
+
+[[package]]
+channel = 'fedora'
+name = 'zopfli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zopfli'

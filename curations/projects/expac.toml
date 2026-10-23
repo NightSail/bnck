@@ -1,0 +1,8 @@
+id = 'expac'
+name = 'expac'
+
+homepage = 'https://github.com/falconindy/expac'
+
+[[package]]
+channel = 'arch'
+name = 'expac'

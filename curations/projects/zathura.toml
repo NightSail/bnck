@@ -1,0 +1,20 @@
+id = 'zathura'
+name = 'zathura'
+
+homepage = 'http://pwmt.org/projects/zathura'
+
+[[package]]
+channel = 'arch'
+name = 'zathura'
+
+[[package]]
+channel = 'debian'
+name = 'zathura'
+
+[[package]]
+channel = 'debian'
+name = 'zathura-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'zathura'

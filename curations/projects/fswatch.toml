@@ -1,0 +1,16 @@
+id = 'fswatch'
+name = 'fswatch'
+
+homepage = 'http://emcrisostomo.github.io/fswatch'
+
+[[package]]
+channel = 'arch'
+name = 'fswatch'
+
+[[package]]
+channel = 'debian'
+name = 'fswatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fswatch'

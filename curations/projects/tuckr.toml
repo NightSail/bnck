@@ -1,0 +1,8 @@
+id = 'tuckr'
+name = 'tuckr'
+
+repository = 'https://github.com/RaphGL/Tuckr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuckr'

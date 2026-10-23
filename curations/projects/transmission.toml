@@ -1,0 +1,52 @@
+id = 'transmission'
+name = 'transmission'
+
+homepage = 'http://www.transmissionbt.com'
+
+[[package]]
+channel = 'arch'
+name = 'transmission-cli'
+
+[[package]]
+channel = 'arch'
+name = 'transmission-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'transmission-qt'
+
+[[package]]
+channel = 'debian'
+name = 'transmission-cli'
+
+[[package]]
+channel = 'debian'
+name = 'transmission-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'transmission-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'transmission-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'transmission-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'transmission-common'
+
+[[package]]
+channel = 'fedora'
+name = 'transmission-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'transmission-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'transmission-qt'

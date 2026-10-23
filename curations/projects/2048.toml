@@ -1,0 +1,8 @@
+id = '2048'
+name = '2048'
+
+repository = 'https://github.com/mevdschee/2048.c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c2048'

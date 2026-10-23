@@ -1,0 +1,8 @@
+id = 'sequin'
+name = 'sequin'
+
+repository = 'https://github.com/charmbracelet/sequin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sequin'

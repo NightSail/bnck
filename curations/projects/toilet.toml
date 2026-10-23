@@ -1,0 +1,16 @@
+id = 'toilet'
+name = 'toilet'
+
+homepage = 'http://caca.zoy.org/wiki/toilet'
+
+[[package]]
+channel = 'debian'
+name = 'toilet'
+
+[[package]]
+channel = 'fedora'
+name = 'toilet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toilet'

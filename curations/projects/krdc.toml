@@ -1,0 +1,8 @@
+id = 'krdc'
+name = 'krdc'
+
+homepage = 'https://invent.kde.org/network/krdc'
+
+[[package]]
+channel = 'fedora'
+name = 'krdc'

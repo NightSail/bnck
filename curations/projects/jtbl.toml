@@ -1,0 +1,8 @@
+id = 'jtbl'
+name = 'jtbl'
+
+repository = 'https://github.com/kellyjonbrazil/jtbl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jtbl'

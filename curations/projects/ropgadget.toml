@@ -1,0 +1,8 @@
+id = 'ropgadget'
+name = 'ropgadget'
+
+homepage = 'https://github.com/JonathanSalwan/ROPgadget'
+
+[[package]]
+channel = 'arch'
+name = 'ropgadget'

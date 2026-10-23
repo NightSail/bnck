@@ -1,0 +1,8 @@
+id = 'mpremote'
+name = 'mpremote'
+
+homepage = 'https://docs.micropython.org/en/latest/reference/mpremote.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpremote'

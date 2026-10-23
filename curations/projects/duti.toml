@@ -1,0 +1,8 @@
+id = 'duti'
+name = 'duti'
+
+repository = 'https://github.com/moretension/duti'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duti'

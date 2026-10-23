@@ -1,0 +1,8 @@
+id = 'pup'
+name = 'pup'
+
+homepage = 'https://github.com/ericchiang/pup'
+
+[[package]]
+channel = 'debian'
+name = 'pup'

@@ -1,0 +1,12 @@
+id = 'copilot-cli'
+name = 'copilot-cli'
+
+homepage = 'https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/copilot-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/copilot-cli@prerelease'

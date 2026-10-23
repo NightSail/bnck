@@ -1,0 +1,12 @@
+id = 'fdroidcl'
+name = 'fdroidcl'
+
+repository = 'https://github.com/Hoverth/fdroidcl'
+
+[[package]]
+channel = 'debian'
+name = 'fdroidcl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fdroidcl'

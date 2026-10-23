@@ -1,0 +1,8 @@
+id = 'the-platinum-searcher'
+name = 'the_platinum_searcher'
+
+repository = 'https://github.com/monochromegane/the_platinum_searcher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/the_platinum_searcher'

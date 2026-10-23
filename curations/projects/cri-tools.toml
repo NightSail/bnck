@@ -1,0 +1,40 @@
+id = 'cri-tools'
+name = 'cri-tools'
+
+repository = 'https://github.com/kubernetes-sigs/cri-tools'
+
+[[package]]
+channel = 'arch'
+name = 'crictl'
+
+[[package]]
+channel = 'arch'
+name = 'critest'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-tools1.30'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-tools1.31'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-tools1.32'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-tools1.33'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-tools1.34'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cri-tools'

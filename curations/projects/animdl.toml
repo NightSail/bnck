@@ -1,0 +1,8 @@
+id = 'animdl'
+name = 'animdl'
+
+repository = 'https://github.com/justfoolingaround/animdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/animdl'

@@ -1,0 +1,8 @@
+id = 'q'
+name = 'q'
+
+homepage = 'http://harelba.github.io/q'
+
+[[package]]
+channel = 'debian'
+name = 'python3-q-text-as-data'

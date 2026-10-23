@@ -1,0 +1,20 @@
+id = 'fdupes'
+name = 'fdupes'
+
+homepage = 'https://github.com/adrianlopezroche/fdupes'
+
+[[package]]
+channel = 'arch'
+name = 'fdupes'
+
+[[package]]
+channel = 'debian'
+name = 'fdupes'
+
+[[package]]
+channel = 'fedora'
+name = 'fdupes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fdupes'

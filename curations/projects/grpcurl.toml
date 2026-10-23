@@ -1,0 +1,12 @@
+id = 'grpcurl'
+name = 'grpcurl'
+
+repository = 'https://github.com/fullstorydev/grpcurl'
+
+[[package]]
+channel = 'fedora'
+name = 'grpcurl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grpcurl'

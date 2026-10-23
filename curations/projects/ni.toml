@@ -1,0 +1,8 @@
+id = 'ni'
+name = 'ni'
+
+homepage = 'https://github.com/antfu-collective/ni'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ni'

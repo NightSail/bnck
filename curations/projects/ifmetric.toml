@@ -1,0 +1,8 @@
+id = 'ifmetric'
+name = 'ifmetric'
+
+homepage = 'http://0pointer.de/lennart/projects/ifmetric'
+
+[[package]]
+channel = 'debian'
+name = 'ifmetric'

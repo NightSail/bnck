@@ -1,0 +1,8 @@
+id = 'yj'
+name = 'yj'
+
+repository = 'https://github.com/sclevine/yj'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yj'

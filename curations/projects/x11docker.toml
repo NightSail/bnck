@@ -1,0 +1,8 @@
+id = 'x11docker'
+name = 'x11docker'
+
+homepage = 'https://github.com/mviereck/x11docker'
+
+[[package]]
+channel = 'fedora'
+name = 'x11docker'

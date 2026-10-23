@@ -1,0 +1,8 @@
+id = 'shpool'
+name = 'shpool'
+
+repository = 'https://github.com/shell-pool/shpool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shpool'

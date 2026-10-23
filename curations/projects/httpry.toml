@@ -1,0 +1,12 @@
+id = 'httpry'
+name = 'httpry'
+
+homepage = 'http://dumpsterventures.com/jason/httpry'
+
+[[package]]
+channel = 'debian'
+name = 'httpry'
+
+[[package]]
+channel = 'fedora'
+name = 'httpry'

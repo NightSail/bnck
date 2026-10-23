@@ -1,0 +1,12 @@
+id = 'sops'
+name = 'sops'
+
+repository = 'https://github.com/getsops/sops'
+
+[[package]]
+channel = 'arch'
+name = 'sops'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sops'

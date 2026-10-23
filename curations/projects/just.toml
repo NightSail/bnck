@@ -18,3 +18,7 @@ name = 'just'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/just'
+
+[[package]]
+channel = 'crates.io'
+name = 'pub-just'

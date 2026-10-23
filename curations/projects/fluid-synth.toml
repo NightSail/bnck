@@ -1,0 +1,13 @@
+id = 'fluid-synth'
+name = 'fluid-synth'
+
+homepage = 'https://github.com/Fluidsynth/fluidsynth'
+repository = 'https://github.com/FluidSynth/fluidsynth'
+
+[[package]]
+channel = 'debian'
+name = 'fluidsynth'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fluid-synth'

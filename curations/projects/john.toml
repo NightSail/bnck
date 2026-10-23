@@ -1,0 +1,24 @@
+id = 'john'
+name = 'john'
+
+homepage = 'http://www.openwall.com/john'
+
+[[package]]
+channel = 'arch'
+name = 'john'
+
+[[package]]
+channel = 'debian'
+name = 'john'
+
+[[package]]
+channel = 'fedora'
+name = 'john'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/john'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/john-jumbo'

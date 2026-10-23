@@ -1,0 +1,8 @@
+id = 'duperemove'
+name = 'duperemove'
+
+homepage = 'https://markfasheh.github.io/duperemove'
+
+[[package]]
+channel = 'debian'
+name = 'duperemove'

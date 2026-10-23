@@ -1,0 +1,20 @@
+id = 'ioping'
+name = 'ioping'
+
+repository = 'https://github.com/koct9i/ioping'
+
+[[package]]
+channel = 'arch'
+name = 'ioping'
+
+[[package]]
+channel = 'debian'
+name = 'ioping'
+
+[[package]]
+channel = 'fedora'
+name = 'ioping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ioping'

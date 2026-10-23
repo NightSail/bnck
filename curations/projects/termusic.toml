@@ -1,0 +1,12 @@
+id = 'termusic'
+name = 'termusic'
+
+repository = 'https://github.com/tramhao/termusic'
+
+[[package]]
+channel = 'arch'
+name = 'termusic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termusic'

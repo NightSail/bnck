@@ -1,0 +1,8 @@
+id = 'watson'
+name = 'watson'
+
+repository = 'https://github.com/jazzband/Watson'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/watson'

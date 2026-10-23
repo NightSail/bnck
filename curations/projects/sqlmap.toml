@@ -1,0 +1,8 @@
+id = 'sqlmap'
+name = 'sqlmap'
+
+repository = 'https://github.com/sqlmapproject/sqlmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlmap'

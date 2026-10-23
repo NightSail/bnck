@@ -1,0 +1,8 @@
+id = 'rip'
+name = 'rip'
+
+repository = 'https://github.com/nivekuil/rip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rm-improved'

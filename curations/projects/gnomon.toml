@@ -1,0 +1,8 @@
+id = 'gnomon'
+name = 'gnomon'
+
+homepage = 'https://github.com/paypal/gnomon'
+
+[[package]]
+channel = 'arch'
+name = 'gnomon'

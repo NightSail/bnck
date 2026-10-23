@@ -1,0 +1,16 @@
+id = 'git-sizer'
+name = 'git-sizer'
+
+repository = 'https://github.com/github/git-sizer'
+
+[[package]]
+channel = 'arch'
+name = 'git-sizer'
+
+[[package]]
+channel = 'debian'
+name = 'git-sizer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-sizer'

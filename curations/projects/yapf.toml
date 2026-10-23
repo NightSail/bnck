@@ -1,0 +1,20 @@
+id = 'yapf'
+name = 'yapf'
+
+repository = 'https://github.com/google/yapf'
+
+[[package]]
+channel = 'arch'
+name = 'yapf'
+
+[[package]]
+channel = 'debian'
+name = 'yapf3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-yapf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yapf'

@@ -1,0 +1,8 @@
+id = 'waifu2x-ncnn-vulkan'
+name = 'waifu2x-ncnn-vulkan'
+
+homepage = 'https://github.com/nihui/waifu2x-ncnn-vulkan'
+
+[[package]]
+channel = 'arch'
+name = 'waifu2x-ncnn-vulkan'

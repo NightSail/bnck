@@ -1,0 +1,8 @@
+id = 'tailcat'
+name = 'tailcat'
+
+repository = 'https://github.com/tailscale/tailcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tailcat'

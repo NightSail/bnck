@@ -10,3 +10,7 @@ name = 'rustscan'
 [[package]]
 channel = 'crates.io'
 name = 'rustscan'
+
+[[package]]
+channel = 'crates.io'
+name = 'myrustscan'

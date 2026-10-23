@@ -1,0 +1,12 @@
+id = 'translate-shell'
+name = 'translate-shell'
+
+repository = 'https://github.com/soimort/translate-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'translate-shell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/translate-shell'

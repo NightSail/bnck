@@ -1,0 +1,8 @@
+id = 'swagger-codegen'
+name = 'swagger-codegen'
+
+repository = 'https://github.com/swagger-api/swagger-codegen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swagger-codegen'

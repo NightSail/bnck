@@ -1,0 +1,12 @@
+id = 'cbonsai'
+name = 'cbonsai'
+
+homepage = 'https://gitlab.com/jallbrit/cbonsai'
+
+[[package]]
+channel = 'fedora'
+name = 'cbonsai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cbonsai'

@@ -1,0 +1,12 @@
+id = 'niri'
+name = 'niri'
+
+homepage = 'https://github.com/YaLTeR/niri'
+
+[[package]]
+channel = 'arch'
+name = 'niri'
+
+[[package]]
+channel = 'fedora'
+name = 'niri'

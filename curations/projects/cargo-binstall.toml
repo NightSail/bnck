@@ -1,0 +1,12 @@
+id = 'cargo-binstall'
+name = 'cargo-binstall'
+
+repository = 'https://github.com/cargo-bins/cargo-binstall'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-binstall'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-binstall'

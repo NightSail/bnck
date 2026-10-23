@@ -1,0 +1,20 @@
+id = 'socat'
+name = 'socat'
+
+homepage = 'http://www.dest-unreach.org/socat'
+
+[[package]]
+channel = 'arch'
+name = 'socat'
+
+[[package]]
+channel = 'debian'
+name = 'socat'
+
+[[package]]
+channel = 'fedora'
+name = 'socat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/socat'

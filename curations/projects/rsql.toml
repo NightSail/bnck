@@ -1,0 +1,8 @@
+id = 'rsql'
+name = 'rsql'
+
+repository = 'https://github.com/theseus-rs/rsql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsql'

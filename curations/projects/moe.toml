@@ -1,0 +1,12 @@
+id = 'moe'
+name = 'moe'
+
+homepage = 'http://www.gnu.org/software/moe/moe.html'
+
+[[package]]
+channel = 'fedora'
+name = 'moe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moe'

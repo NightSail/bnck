@@ -1,0 +1,16 @@
+id = 'pre-commit'
+name = 'pre-commit'
+
+homepage = 'https://pre-commit.com'
+
+[[package]]
+channel = 'debian'
+name = 'pre-commit'
+
+[[package]]
+channel = 'fedora'
+name = 'pre-commit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pre-commit'

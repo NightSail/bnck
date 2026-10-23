@@ -1,0 +1,12 @@
+id = 'androguard'
+name = 'androguard'
+
+homepage = 'https://github.com/androguard/androguard'
+
+[[package]]
+channel = 'debian'
+name = 'androguard'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-androguard'

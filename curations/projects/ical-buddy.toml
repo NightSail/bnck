@@ -1,0 +1,8 @@
+id = 'ical-buddy'
+name = 'ical-buddy'
+
+homepage = 'https://hasseg.org/icalBuddy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ical-buddy'

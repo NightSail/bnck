@@ -1,0 +1,12 @@
+id = 'vgrep'
+name = 'vgrep'
+
+repository = 'https://github.com/vrothberg/vgrep'
+
+[[package]]
+channel = 'fedora'
+name = 'vgrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vgrep'

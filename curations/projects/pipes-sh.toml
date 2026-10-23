@@ -1,0 +1,8 @@
+id = 'pipes-sh'
+name = 'pipes-sh'
+
+repository = 'https://github.com/pipeseroni/pipes.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipes-sh'

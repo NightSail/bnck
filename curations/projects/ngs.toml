@@ -1,0 +1,8 @@
+id = 'ngs'
+name = 'ngs'
+
+repository = 'https://github.com/ngs-lang/ngs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ngs'

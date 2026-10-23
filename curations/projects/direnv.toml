@@ -1,0 +1,12 @@
+id = 'direnv'
+name = 'direnv'
+
+repository = 'https://github.com/direnv/direnv'
+
+[[package]]
+channel = 'fedora'
+name = 'direnv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/direnv'

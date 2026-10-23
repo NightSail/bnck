@@ -1,0 +1,16 @@
+id = 'git-filter-repo'
+name = 'git-filter-repo'
+
+homepage = 'https://github.com/newren/git-filter-repo'
+
+[[package]]
+channel = 'arch'
+name = 'git-filter-repo'
+
+[[package]]
+channel = 'debian'
+name = 'git-filter-repo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-filter-repo'

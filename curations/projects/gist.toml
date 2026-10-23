@@ -1,0 +1,20 @@
+id = 'gist'
+name = 'gist'
+
+repository = 'https://github.com/defunkt/gist'
+
+[[package]]
+channel = 'arch'
+name = 'gist'
+
+[[package]]
+channel = 'debian'
+name = 'gist'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-gist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gist'

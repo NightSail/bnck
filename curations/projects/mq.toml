@@ -6,3 +6,7 @@ repository = 'https://github.com/harehare/mq'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mq'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-run'

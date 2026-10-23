@@ -1,0 +1,8 @@
+id = 'asciiart'
+name = 'asciiart'
+
+homepage = 'https://github.com/nodanaonlyzuul/asciiart'
+
+[[package]]
+channel = 'debian'
+name = 'asciiart'

@@ -1,0 +1,8 @@
+id = 's'
+name = 's'
+
+repository = 'https://github.com/zquestz/s'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s-search'

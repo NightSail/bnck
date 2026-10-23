@@ -10,3 +10,7 @@ name = 'buku'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/buku'
+
+[[package]]
+channel = 'debian'
+name = 'buku'

@@ -1,0 +1,8 @@
+id = 'melt'
+name = 'melt'
+
+repository = 'https://github.com/charmbracelet/melt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/melt'

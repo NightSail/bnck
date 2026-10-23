@@ -1,0 +1,8 @@
+id = 'informant'
+name = 'informant'
+
+homepage = 'https://github.com/bradford-smith94/informant'
+
+[[package]]
+channel = 'arch'
+name = 'informant'

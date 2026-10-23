@@ -1,0 +1,8 @@
+id = 'm-cli'
+name = 'm-cli'
+
+repository = 'https://github.com/rgcr/m-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/m-cli'

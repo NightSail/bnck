@@ -1,0 +1,8 @@
+id = 'ncbi-entrez-direct'
+name = 'ncbi-entrez-direct'
+
+homepage = 'http://www.ncbi.nlm.nih.gov/books/NBK179288'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-entrez-direct'

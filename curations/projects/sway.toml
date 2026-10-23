@@ -1,0 +1,8 @@
+id = 'sway'
+name = 'sway'
+
+homepage = 'https://github.com/swaywm/sway'
+
+[[package]]
+channel = 'fedora'
+name = 'sway'

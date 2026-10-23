@@ -1,0 +1,8 @@
+id = 'carthage'
+name = 'carthage'
+
+repository = 'https://github.com/Carthage/Carthage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/carthage'

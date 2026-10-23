@@ -1,0 +1,8 @@
+id = 'nodenv'
+name = 'nodenv'
+
+repository = 'https://github.com/nodenv/nodenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nodenv'

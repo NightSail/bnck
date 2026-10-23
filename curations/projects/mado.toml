@@ -1,0 +1,12 @@
+id = 'mado'
+name = 'mado'
+
+repository = 'https://github.com/akiomik/mado'
+
+[[package]]
+channel = 'arch'
+name = 'mado'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mado'

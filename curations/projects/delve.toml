@@ -1,0 +1,20 @@
+id = 'delve'
+name = 'delve'
+
+repository = 'https://github.com/go-delve/delve'
+
+[[package]]
+channel = 'arch'
+name = 'delve'
+
+[[package]]
+channel = 'debian'
+name = 'delve'
+
+[[package]]
+channel = 'fedora'
+name = 'delve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/delve'

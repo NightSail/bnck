@@ -1,0 +1,8 @@
+id = 'pacutils'
+name = 'pacutils'
+
+homepage = 'https://github.com/andrewgregory/pacutils'
+
+[[package]]
+channel = 'arch'
+name = 'pacutils'

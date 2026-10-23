@@ -1,0 +1,16 @@
+id = 'acme-sh'
+name = 'acme.sh'
+
+homepage = 'https://github.com/acmesh-official/acme.sh'
+
+[[package]]
+channel = 'arch'
+name = 'acme.sh'
+
+[[package]]
+channel = 'debian'
+name = 'acme.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/acme.sh'

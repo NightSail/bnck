@@ -1,0 +1,8 @@
+id = 'nodemon'
+name = 'nodemon'
+
+homepage = 'https://github.com/remy/nodemon'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-nodemon'

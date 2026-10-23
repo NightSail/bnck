@@ -1,0 +1,12 @@
+id = 'pie'
+name = 'pie'
+
+homepage = 'https://github.com/php/pie'
+
+[[package]]
+channel = 'fedora'
+name = 'pie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pie'

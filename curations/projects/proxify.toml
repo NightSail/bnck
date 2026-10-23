@@ -1,0 +1,8 @@
+id = 'proxify'
+name = 'proxify'
+
+repository = 'https://github.com/projectdiscovery/proxify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proxify'

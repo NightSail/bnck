@@ -1,0 +1,12 @@
+id = 'rpi-imager'
+name = 'rpi-imager'
+
+homepage = 'https://github.com/raspberrypi/rpi-imager'
+
+[[package]]
+channel = 'arch'
+name = 'rpi-imager'
+
+[[package]]
+channel = 'fedora'
+name = 'rpi-imager'

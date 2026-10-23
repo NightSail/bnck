@@ -1,0 +1,8 @@
+id = 'boxxy'
+name = 'boxxy'
+
+homepage = 'https://github.com/queer/boxxy'
+
+[[package]]
+channel = 'arch'
+name = 'boxxy'

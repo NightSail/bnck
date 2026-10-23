@@ -1,0 +1,8 @@
+id = 'lando'
+name = 'lando'
+
+homepage = 'https://docs.lando.dev/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lando-cli'

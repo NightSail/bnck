@@ -1,0 +1,16 @@
+id = 'git-extras'
+name = 'git-extras'
+
+repository = 'https://github.com/tj/git-extras'
+
+[[package]]
+channel = 'debian'
+name = 'git-extras'
+
+[[package]]
+channel = 'fedora'
+name = 'git-extras'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-extras'

@@ -1,0 +1,8 @@
+id = 'apparmor'
+name = 'apparmor'
+
+homepage = 'https://gitlab.com/apparmor/apparmor'
+
+[[package]]
+channel = 'arch'
+name = 'apparmor'

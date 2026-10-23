@@ -1,0 +1,8 @@
+id = 'gau'
+name = 'gau'
+
+repository = 'https://github.com/lc/gau'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gau'

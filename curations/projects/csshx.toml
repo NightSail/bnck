@@ -1,0 +1,8 @@
+id = 'csshx'
+name = 'csshx'
+
+repository = 'https://github.com/brockgr/csshx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csshx'

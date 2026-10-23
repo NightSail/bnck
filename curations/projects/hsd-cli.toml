@@ -1,0 +1,8 @@
+id = 'hsd-cli'
+name = 'hsd-cli'
+
+homepage = 'https://handshake.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hsd'

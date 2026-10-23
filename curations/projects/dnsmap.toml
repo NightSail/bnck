@@ -1,0 +1,16 @@
+id = 'dnsmap'
+name = 'dnsmap'
+
+repository = 'https://github.com/resurrecting-open-source-projects/dnsmap'
+
+[[package]]
+channel = 'debian'
+name = 'dnsmap'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsmap'

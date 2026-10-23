@@ -1,0 +1,20 @@
+id = 'progress'
+name = 'progress'
+
+repository = 'https://github.com/Xfennec/progress'
+
+[[package]]
+channel = 'arch'
+name = 'progress'
+
+[[package]]
+channel = 'debian'
+name = 'progress'
+
+[[package]]
+channel = 'fedora'
+name = 'progress'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/progress'

@@ -1,0 +1,16 @@
+id = 'jid'
+name = 'jid'
+
+repository = 'https://github.com/simeji/jid'
+
+[[package]]
+channel = 'debian'
+name = 'jid'
+
+[[package]]
+channel = 'fedora'
+name = 'jid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jid'

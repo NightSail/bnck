@@ -1,0 +1,8 @@
+id = 'hr'
+name = 'hr'
+
+repository = 'https://github.com/LuRsT/hr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hr'

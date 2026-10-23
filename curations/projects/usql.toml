@@ -1,0 +1,8 @@
+id = 'usql'
+name = 'usql'
+
+homepage = 'https://github.com/xo/usql'
+
+[[package]]
+channel = 'debian'
+name = 'usql'

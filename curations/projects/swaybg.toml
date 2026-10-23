@@ -1,0 +1,16 @@
+id = 'swaybg'
+name = 'swaybg'
+
+homepage = 'https://github.com/swaywm/swaybg'
+
+[[package]]
+channel = 'arch'
+name = 'swaybg'
+
+[[package]]
+channel = 'debian'
+name = 'swaybg'
+
+[[package]]
+channel = 'fedora'
+name = 'swaybg'

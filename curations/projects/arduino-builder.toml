@@ -1,0 +1,8 @@
+id = 'arduino-builder'
+name = 'arduino-builder'
+
+homepage = 'https://github.com/arduino/arduino-builder'
+
+[[package]]
+channel = 'debian'
+name = 'arduino-builder'

@@ -1,0 +1,8 @@
+id = 'tracker'
+name = 'tracker'
+
+repository = 'https://github.com/ShenMian/tracker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/satellite-tracker'

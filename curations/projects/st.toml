@@ -1,0 +1,8 @@
+id = 'st'
+name = 'st'
+
+repository = 'https://github.com/nferraz/st'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/st'

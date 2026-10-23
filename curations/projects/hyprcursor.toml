@@ -1,0 +1,16 @@
+id = 'hyprcursor'
+name = 'hyprcursor'
+
+homepage = 'https://github.com/hyprwm/hyprcursor'
+
+[[package]]
+channel = 'arch'
+name = 'hyprcursor'
+
+[[package]]
+channel = 'debian'
+name = 'hyprcursor-util'
+
+[[package]]
+channel = 'fedora'
+name = 'hyprcursor'

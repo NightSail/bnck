@@ -1,0 +1,12 @@
+id = 'tuicr'
+name = 'tuicr'
+
+repository = 'https://github.com/agavra/tuicr'
+
+[[package]]
+channel = 'arch'
+name = 'tuicr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuicr'

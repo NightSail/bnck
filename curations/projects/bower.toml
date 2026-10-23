@@ -1,0 +1,12 @@
+id = 'bower'
+name = 'bower'
+
+homepage = 'https://bower.io'
+
+[[package]]
+channel = 'arch'
+name = 'bower'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bower'

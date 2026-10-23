@@ -1,0 +1,12 @@
+id = 'yacas'
+name = 'yacas'
+
+homepage = 'http://www.yacas.org'
+
+[[package]]
+channel = 'debian'
+name = 'yacas'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yacas'

@@ -1,0 +1,8 @@
+id = 'lsyncd'
+name = 'lsyncd'
+
+homepage = 'https://github.com/lsyncd/lsyncd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsyncd'

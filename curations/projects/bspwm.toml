@@ -1,0 +1,16 @@
+id = 'bspwm'
+name = 'bspwm'
+
+homepage = 'https://github.com/baskerville/bspwm'
+
+[[package]]
+channel = 'arch'
+name = 'bspwm'
+
+[[package]]
+channel = 'debian'
+name = 'bspwm'
+
+[[package]]
+channel = 'fedora'
+name = 'bspwm'

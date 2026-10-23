@@ -1,0 +1,8 @@
+id = 'gup'
+name = 'gup'
+
+repository = 'https://github.com/nao1215/gup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gup'

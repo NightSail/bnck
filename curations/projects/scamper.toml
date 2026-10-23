@@ -1,0 +1,8 @@
+id = 'scamper'
+name = 'scamper'
+
+homepage = 'https://www.caida.org/catalog/software/scamper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scamper'

@@ -1,0 +1,8 @@
+id = 'sqlx'
+name = 'sqlx'
+
+homepage = 'https://github.com/launchbadge/sqlx'
+
+[[package]]
+channel = 'arch'
+name = 'sqlx-cli'

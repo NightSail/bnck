@@ -1,0 +1,12 @@
+id = 'asnmap'
+name = 'asnmap'
+
+repository = 'https://github.com/projectdiscovery/asnmap'
+
+[[package]]
+channel = 'fedora'
+name = 'asnmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asnmap'

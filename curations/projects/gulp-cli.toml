@@ -1,0 +1,8 @@
+id = 'gulp-cli'
+name = 'gulp-cli'
+
+homepage = 'https://github.com/gulpjs/gulp-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gulp-cli'

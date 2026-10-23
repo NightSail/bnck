@@ -1,0 +1,12 @@
+id = 'jdupes'
+name = 'jdupes'
+
+homepage = 'https://codeberg.org/jbruchon/jdupes'
+
+[[package]]
+channel = 'fedora'
+name = 'jdupes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jdupes'

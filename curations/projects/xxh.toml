@@ -1,0 +1,8 @@
+id = 'xxh'
+name = 'xxh'
+
+homepage = 'https://github.com/xxh/xxh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xxh'

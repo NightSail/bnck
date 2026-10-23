@@ -1,0 +1,12 @@
+id = 'minisign'
+name = 'minisign'
+
+homepage = 'https://jedisct1.github.io/minisign'
+
+[[package]]
+channel = 'debian'
+name = 'minisign'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minisign'

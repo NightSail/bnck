@@ -1,0 +1,12 @@
+id = 'rekor'
+name = 'rekor'
+
+homepage = 'https://github.com/sigstore/rekor'
+
+[[package]]
+channel = 'arch'
+name = 'rekor'
+
+[[package]]
+channel = 'debian'
+name = 'rekor'

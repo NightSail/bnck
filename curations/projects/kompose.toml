@@ -1,0 +1,12 @@
+id = 'kompose'
+name = 'kompose'
+
+repository = 'https://github.com/kubernetes/kompose'
+
+[[package]]
+channel = 'arch'
+name = 'kompose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kompose'

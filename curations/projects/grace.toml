@@ -1,0 +1,16 @@
+id = 'grace'
+name = 'grace'
+
+homepage = 'http://plasma-gate.weizmann.ac.il/Grace'
+
+[[package]]
+channel = 'debian'
+name = 'grace'
+
+[[package]]
+channel = 'fedora'
+name = 'grace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grace'

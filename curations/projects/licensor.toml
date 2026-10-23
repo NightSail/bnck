@@ -1,0 +1,8 @@
+id = 'licensor'
+name = 'licensor'
+
+repository = 'https://github.com/raftario/licensor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/licensor'

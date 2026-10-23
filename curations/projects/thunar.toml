@@ -1,0 +1,12 @@
+id = 'thunar'
+name = 'thunar'
+
+homepage = 'https://docs.xfce.org/xfce/thunar/start'
+
+[[package]]
+channel = 'arch'
+name = 'thunar'
+
+[[package]]
+channel = 'debian'
+name = 'thunar'

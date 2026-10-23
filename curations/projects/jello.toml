@@ -1,0 +1,12 @@
+id = 'jello'
+name = 'jello'
+
+homepage = 'https://github.com/kellyjonbrazil/jello'
+
+[[package]]
+channel = 'fedora'
+name = 'jello'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jello'

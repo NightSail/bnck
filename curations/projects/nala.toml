@@ -1,0 +1,8 @@
+id = 'nala'
+name = 'nala'
+
+homepage = 'https://gitlab.com/volian/nala'
+
+[[package]]
+channel = 'debian'
+name = 'nala'

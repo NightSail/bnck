@@ -1,0 +1,24 @@
+id = 'unison'
+name = 'unison'
+
+repository = 'https://github.com/bcpierce00/unison'
+
+[[package]]
+channel = 'arch'
+name = 'unison'
+
+[[package]]
+channel = 'fedora'
+name = 'unison'
+
+[[package]]
+channel = 'fedora'
+name = 'unison-gtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/unison-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unison'

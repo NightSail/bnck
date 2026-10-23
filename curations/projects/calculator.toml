@@ -1,0 +1,8 @@
+id = 'calculator'
+name = 'Calculator'
+
+homepage = 'https://wiki.gnome.org/Apps/Calculator'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-calculator'

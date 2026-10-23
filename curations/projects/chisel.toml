@@ -1,0 +1,8 @@
+id = 'chisel'
+name = 'chisel'
+
+repository = 'https://github.com/jpillora/chisel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chisel-tunnel'

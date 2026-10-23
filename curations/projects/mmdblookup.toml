@@ -1,0 +1,8 @@
+id = 'mmdblookup'
+name = 'mmdblookup'
+
+homepage = 'https://maxmind.github.io/libmaxminddb/mmdblookup.html'
+
+[[package]]
+channel = 'arch'
+name = 'mmdblookup'

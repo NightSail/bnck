@@ -1,0 +1,12 @@
+id = 'ldapdomaindump'
+name = 'ldapdomaindump'
+
+homepage = 'https://github.com/dirkjanm/ldapdomaindump'
+
+[[package]]
+channel = 'arch'
+name = 'python-ldapdomaindump'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ldapdomaindump'

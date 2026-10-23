@@ -1,0 +1,12 @@
+id = 'gamescope'
+name = 'gamescope'
+
+homepage = 'https://github.com/ValveSoftware/gamescope'
+
+[[package]]
+channel = 'arch'
+name = 'gamescope'
+
+[[package]]
+channel = 'fedora'
+name = 'gamescope'

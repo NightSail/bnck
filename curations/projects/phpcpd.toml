@@ -1,0 +1,12 @@
+id = 'phpcpd'
+name = 'phpcpd'
+
+homepage = 'https://github.com/sebastianbergmann/phpcpd'
+
+[[package]]
+channel = 'debian'
+name = 'phpcpd'
+
+[[package]]
+channel = 'fedora'
+name = 'phpcpd'

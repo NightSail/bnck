@@ -1,0 +1,12 @@
+id = 'typos'
+name = 'typos'
+
+homepage = 'https://github.com/crate-ci/typos'
+
+[[package]]
+channel = 'arch'
+name = 'typos'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typos-cli'

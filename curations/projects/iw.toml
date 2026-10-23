@@ -1,0 +1,8 @@
+id = 'iw'
+name = 'iw'
+
+homepage = 'https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html'
+
+[[package]]
+channel = 'fedora'
+name = 'iw'

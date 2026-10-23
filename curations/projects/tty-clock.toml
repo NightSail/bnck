@@ -1,0 +1,12 @@
+id = 'tty-clock'
+name = 'tty-clock'
+
+repository = 'https://github.com/xorg62/tty-clock'
+
+[[package]]
+channel = 'debian'
+name = 'tty-clock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tty-clock'

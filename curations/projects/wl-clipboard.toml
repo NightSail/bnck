@@ -1,0 +1,16 @@
+id = 'wl-clipboard'
+name = 'wl-clipboard'
+
+homepage = 'https://github.com/bugaevc/wl-clipboard'
+
+[[package]]
+channel = 'arch'
+name = 'wl-clipboard'
+
+[[package]]
+channel = 'debian'
+name = 'wl-clipboard'
+
+[[package]]
+channel = 'fedora'
+name = 'wl-clipboard'

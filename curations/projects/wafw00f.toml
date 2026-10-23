@@ -1,0 +1,8 @@
+id = 'wafw00f'
+name = 'wafw00f'
+
+homepage = 'https://github.com/EnableSecurity/wafw00f'
+
+[[package]]
+channel = 'debian'
+name = 'wafw00f'

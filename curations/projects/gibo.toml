@@ -1,0 +1,8 @@
+id = 'gibo'
+name = 'gibo'
+
+repository = 'https://github.com/simonwhitaker/gibo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gibo'

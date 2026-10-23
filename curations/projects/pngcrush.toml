@@ -1,0 +1,8 @@
+id = 'pngcrush'
+name = 'pngcrush'
+
+homepage = 'https://pmt.sourceforge.io/pngcrush'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pngcrush'

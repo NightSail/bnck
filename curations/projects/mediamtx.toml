@@ -1,0 +1,8 @@
+id = 'mediamtx'
+name = 'mediamtx'
+
+repository = 'https://github.com/bluenviron/mediamtx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mediamtx'

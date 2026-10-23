@@ -1,0 +1,12 @@
+id = 'kind'
+name = 'kind'
+
+repository = 'https://github.com/kubernetes-sigs/kind'
+
+[[package]]
+channel = 'debian'
+name = 'kind'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kind'

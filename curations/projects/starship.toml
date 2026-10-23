@@ -1,0 +1,16 @@
+id = 'starship'
+name = 'starship'
+
+homepage = 'https://starship.rs'
+
+[[package]]
+channel = 'arch'
+name = 'starship'
+
+[[package]]
+channel = 'debian'
+name = 'starship'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/starship'

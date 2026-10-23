@@ -1,0 +1,8 @@
+id = 'sublist3r'
+name = 'sublist3r'
+
+homepage = 'https://github.com/aboul3la/Sublist3r'
+
+[[package]]
+channel = 'debian'
+name = 'sublist3r'

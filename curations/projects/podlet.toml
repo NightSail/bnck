@@ -1,0 +1,12 @@
+id = 'podlet'
+name = 'podlet'
+
+repository = 'https://github.com/containers/podlet'
+
+[[package]]
+channel = 'arch'
+name = 'podlet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podlet'

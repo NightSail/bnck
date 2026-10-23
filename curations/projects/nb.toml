@@ -1,0 +1,8 @@
+id = 'nb'
+name = 'nb'
+
+repository = 'https://github.com/xwmx/nb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nb'

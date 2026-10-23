@@ -1,0 +1,24 @@
+id = 'gifsicle'
+name = 'gifsicle'
+
+homepage = 'http://www.lcdf.org/gifsicle'
+
+[[package]]
+channel = 'arch'
+name = 'gifsicle'
+
+[[package]]
+channel = 'debian'
+name = 'gifsicle'
+
+[[package]]
+channel = 'fedora'
+name = 'gifsicle'
+
+[[package]]
+channel = 'fedora'
+name = 'gifview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gifsicle'

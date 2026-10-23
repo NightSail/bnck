@@ -1,0 +1,8 @@
+id = 'hlint'
+name = 'hlint'
+
+homepage = 'https://hackage.haskell.org/package/hlint'
+
+[[package]]
+channel = 'fedora'
+name = 'hlint'

@@ -1,0 +1,8 @@
+id = 'ttl'
+name = 'ttl'
+
+repository = 'https://github.com/lance0/ttl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttl'

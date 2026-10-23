@@ -1,0 +1,8 @@
+id = 'phive'
+name = 'phive'
+
+homepage = 'https://phar.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phive'

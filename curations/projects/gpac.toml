@@ -1,0 +1,8 @@
+id = 'gpac'
+name = 'gpac'
+
+repository = 'https://github.com/gpac/gpac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpac'

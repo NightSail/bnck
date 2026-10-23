@@ -1,0 +1,12 @@
+id = 'czkawka'
+name = 'czkawka'
+
+repository = 'https://github.com/qarmin/czkawka'
+
+[[package]]
+channel = 'debian'
+name = 'czkawka-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/czkawka'

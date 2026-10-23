@@ -1,0 +1,32 @@
+id = 'mangohud'
+name = 'mangohud'
+
+homepage = 'https://github.com/flightlessmango/MangoHud'
+
+[[package]]
+channel = 'arch'
+name = 'mangohud'
+
+[[package]]
+channel = 'debian'
+name = 'mangoapp'
+
+[[package]]
+channel = 'debian'
+name = 'mangohud'
+
+[[package]]
+channel = 'debian'
+name = 'mangohudctl'
+
+[[package]]
+channel = 'debian'
+name = 'mangoplot'
+
+[[package]]
+channel = 'fedora'
+name = 'mangohud'
+
+[[package]]
+channel = 'fedora'
+name = 'mangohud-mangoplot'

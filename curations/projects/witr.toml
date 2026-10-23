@@ -1,0 +1,12 @@
+id = 'witr'
+name = 'witr'
+
+homepage = 'https://github.com/pranshuparmar/witr'
+
+[[package]]
+channel = 'debian'
+name = 'witr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/witr'

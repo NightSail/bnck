@@ -1,0 +1,8 @@
+id = 'httprobe'
+name = 'httprobe'
+
+homepage = 'https://github.com/tomnomnom/httprobe'
+
+[[package]]
+channel = 'fedora'
+name = 'httprobe'

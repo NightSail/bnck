@@ -1,0 +1,12 @@
+id = 'powertop'
+name = 'powertop'
+
+homepage = 'https://github.com/fenrus75/powertop'
+
+[[package]]
+channel = 'arch'
+name = 'powertop'
+
+[[package]]
+channel = 'debian'
+name = 'powertop'

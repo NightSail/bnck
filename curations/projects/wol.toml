@@ -1,0 +1,8 @@
+id = 'wol'
+name = 'wol'
+
+homepage = 'http://sourceforge.net/projects/wake-on-lan'
+
+[[package]]
+channel = 'fedora'
+name = 'wol'

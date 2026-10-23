@@ -1,0 +1,20 @@
+id = 'hcloud'
+name = 'hcloud'
+
+repository = 'https://github.com/hetznercloud/cli'
+
+[[package]]
+channel = 'arch'
+name = 'hcloud'
+
+[[package]]
+channel = 'debian'
+name = 'hcloud-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'hcloud'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hcloud'

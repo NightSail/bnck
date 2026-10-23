@@ -1,0 +1,12 @@
+id = 'lz4'
+name = 'lz4'
+
+repository = 'https://github.com/lz4/lz4'
+
+[[package]]
+channel = 'debian'
+name = 'lz4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lz4'

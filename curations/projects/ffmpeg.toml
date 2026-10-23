@@ -46,3 +46,7 @@ name = 'homebrew/core/ffmpeg@7'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ffmpeg@8'
+
+[[package]]
+channel = 'debian'
+name = 'ffplay'

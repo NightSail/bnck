@@ -1,0 +1,12 @@
+id = 'duff'
+name = 'duff'
+
+homepage = 'https://github.com/elmindreda/duff'
+
+[[package]]
+channel = 'debian'
+name = 'duff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duff'

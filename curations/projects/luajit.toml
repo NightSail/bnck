@@ -1,0 +1,8 @@
+id = 'luajit'
+name = 'luajit'
+
+homepage = 'https://luajit.org/luajit.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luajit'

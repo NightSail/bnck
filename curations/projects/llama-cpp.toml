@@ -1,0 +1,28 @@
+id = 'llama-cpp'
+name = 'llama-cpp'
+
+repository = 'https://github.com/ggml-org/llama.cpp'
+
+[[package]]
+channel = 'arch'
+name = 'llama-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'llama.cpp-examples'
+
+[[package]]
+channel = 'debian'
+name = 'llama.cpp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'llama.cpp-tools-extra'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gguf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llama.cpp'

@@ -1,0 +1,8 @@
+id = 'apkleaks'
+name = 'apkleaks'
+
+homepage = 'https://github.com/dwisiswant0/apkleaks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apkleaks'

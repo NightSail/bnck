@@ -1,0 +1,12 @@
+id = 'jwt-cli'
+name = 'jwt-cli'
+
+repository = 'https://github.com/mike-engel/jwt-cli'
+
+[[package]]
+channel = 'arch'
+name = 'jwt-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jwt-cli'

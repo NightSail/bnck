@@ -1,0 +1,16 @@
+id = 'ttyd'
+name = 'ttyd'
+
+repository = 'https://github.com/tsl0922/ttyd'
+
+[[package]]
+channel = 'debian'
+name = 'ttyd'
+
+[[package]]
+channel = 'fedora'
+name = 'ttyd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttyd'

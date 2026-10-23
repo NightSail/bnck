@@ -1,0 +1,8 @@
+id = 'toipe'
+name = 'toipe'
+
+homepage = 'https://github.com/Samyak2/toipe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toipe'

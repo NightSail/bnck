@@ -1,0 +1,8 @@
+id = 'dockutil'
+name = 'dockutil'
+
+repository = 'https://github.com/kcrawford/dockutil'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockutil'

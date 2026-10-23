@@ -1,0 +1,12 @@
+id = 'tex-fmt'
+name = 'tex-fmt'
+
+repository = 'https://github.com/WGUNDERWOOD/tex-fmt'
+
+[[package]]
+channel = 'debian'
+name = 'tex-fmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tex-fmt'

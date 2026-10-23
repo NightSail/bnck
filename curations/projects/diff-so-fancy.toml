@@ -1,0 +1,16 @@
+id = 'diff-so-fancy'
+name = 'diff-so-fancy'
+
+repository = 'https://github.com/so-fancy/diff-so-fancy'
+
+[[package]]
+channel = 'arch'
+name = 'diff-so-fancy'
+
+[[package]]
+channel = 'fedora'
+name = 'diff-so-fancy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diff-so-fancy'

@@ -1,0 +1,8 @@
+id = 'travis'
+name = 'travis'
+
+homepage = 'https://github.com/travis-ci/travis.rb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/travis'

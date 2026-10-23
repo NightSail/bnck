@@ -1,0 +1,12 @@
+id = 'kscreen'
+name = 'kscreen'
+
+homepage = 'https://invent.kde.org/plasma/kscreen'
+
+[[package]]
+channel = 'debian'
+name = 'kscreen'
+
+[[package]]
+channel = 'fedora'
+name = 'kscreen'

@@ -1,0 +1,8 @@
+id = 'speedometer'
+name = 'speedometer'
+
+homepage = 'https://excess.org/speedometer'
+
+[[package]]
+channel = 'debian'
+name = 'speedometer'

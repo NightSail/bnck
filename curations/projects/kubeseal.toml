@@ -1,0 +1,8 @@
+id = 'kubeseal'
+name = 'kubeseal'
+
+homepage = 'https://github.com/bitnami-labs/sealed-secrets'
+
+[[package]]
+channel = 'arch'
+name = 'kubeseal'

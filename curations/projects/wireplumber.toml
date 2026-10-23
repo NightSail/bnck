@@ -1,0 +1,16 @@
+id = 'wireplumber'
+name = 'wireplumber'
+
+homepage = 'https://pipewire.pages.freedesktop.org/wireplumber'
+
+[[package]]
+channel = 'arch'
+name = 'wireplumber'
+
+[[package]]
+channel = 'fedora'
+name = 'wireplumber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wireplumber'

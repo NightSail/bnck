@@ -1,0 +1,12 @@
+id = 'awww'
+name = 'awww'
+
+homepage = 'https://codeberg.org/LGFae/awww'
+
+[[package]]
+channel = 'arch'
+name = 'awww'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awww'

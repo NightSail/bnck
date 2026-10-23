@@ -1,0 +1,8 @@
+id = 'plenv'
+name = 'plenv'
+
+repository = 'https://github.com/tokuhirom/plenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plenv'

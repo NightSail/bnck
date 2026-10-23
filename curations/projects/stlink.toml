@@ -1,0 +1,28 @@
+id = 'stlink'
+name = 'stlink'
+
+repository = 'https://github.com/stlink-org/stlink'
+
+[[package]]
+channel = 'arch'
+name = 'stlink'
+
+[[package]]
+channel = 'debian'
+name = 'stlink-gui'
+
+[[package]]
+channel = 'debian'
+name = 'stlink-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'stlink'
+
+[[package]]
+channel = 'fedora'
+name = 'stlink-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stlink'

@@ -1,0 +1,12 @@
+id = 'gcalcli'
+name = 'gcalcli'
+
+repository = 'https://github.com/insanum/gcalcli'
+
+[[package]]
+channel = 'debian'
+name = 'gcalcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcalcli'

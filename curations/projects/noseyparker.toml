@@ -1,0 +1,8 @@
+id = 'noseyparker'
+name = 'noseyparker'
+
+repository = 'https://github.com/praetorian-inc/noseyparker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/noseyparker'

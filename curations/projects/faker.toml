@@ -1,0 +1,8 @@
+id = 'faker'
+name = 'faker'
+
+homepage = 'https://faker.readthedocs.io/en/master'
+
+[[package]]
+channel = 'arch'
+name = 'python-faker'

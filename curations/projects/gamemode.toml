@@ -1,0 +1,16 @@
+id = 'gamemode'
+name = 'gamemode'
+
+homepage = 'https://github.com/FeralInteractive/gamemode'
+
+[[package]]
+channel = 'arch'
+name = 'gamemode'
+
+[[package]]
+channel = 'debian'
+name = 'gamemode-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'gamemode'

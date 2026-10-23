@@ -1,0 +1,8 @@
+id = 'shiori'
+name = 'shiori'
+
+homepage = 'https://github.com/go-shiori/shiori'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/go-shiori'

@@ -1,0 +1,8 @@
+id = 'auto-cpufreq'
+name = 'auto-cpufreq'
+
+homepage = 'https://github.com/AdnanHodzic/auto-cpufreq'
+
+[[package]]
+channel = 'debian'
+name = 'auto-cpufreq'

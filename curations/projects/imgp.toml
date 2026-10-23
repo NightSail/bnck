@@ -1,0 +1,16 @@
+id = 'imgp'
+name = 'imgp'
+
+homepage = 'https://github.com/jarun/imgp'
+
+[[package]]
+channel = 'debian'
+name = 'imgp'
+
+[[package]]
+channel = 'fedora'
+name = 'imgp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imgp'

@@ -1,0 +1,8 @@
+id = 'postcss-cli'
+name = 'postcss-cli'
+
+homepage = 'https://github.com/postcss/postcss-cli#readme'
+
+[[package]]
+channel = 'debian'
+name = 'node-postcss-cli'

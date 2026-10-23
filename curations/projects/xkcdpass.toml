@@ -1,0 +1,12 @@
+id = 'xkcdpass'
+name = 'xkcdpass'
+
+homepage = 'https://github.com/redacted/XKCD-password-generator'
+
+[[package]]
+channel = 'arch'
+name = 'xkcdpass'
+
+[[package]]
+channel = 'debian'
+name = 'xkcdpass'

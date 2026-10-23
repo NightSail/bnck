@@ -1,0 +1,8 @@
+id = 'nrm'
+name = 'nrm'
+
+homepage = 'https://github.com/Pana/nrm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nrm'

@@ -1,0 +1,8 @@
+id = 'sofka'
+name = 'sofka'
+
+repository = 'https://github.com/nklmilojevic/sofka'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sofka'

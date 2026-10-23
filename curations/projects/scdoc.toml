@@ -1,0 +1,16 @@
+id = 'scdoc'
+name = 'scdoc'
+
+homepage = 'https://git.sr.ht/~sircmpwn/scdoc'
+
+[[package]]
+channel = 'arch'
+name = 'scdoc'
+
+[[package]]
+channel = 'debian'
+name = 'scdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'scdoc'

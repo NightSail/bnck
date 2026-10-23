@@ -1,0 +1,12 @@
+id = 'git-imerge'
+name = 'git-imerge'
+
+repository = 'https://github.com/mhagger/git-imerge'
+
+[[package]]
+channel = 'debian'
+name = 'git-imerge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-imerge'

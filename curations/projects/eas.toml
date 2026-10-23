@@ -1,0 +1,8 @@
+id = 'eas'
+name = 'eas'
+
+homepage = 'https://docs.expo.dev/eas'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eas-cli'

@@ -1,0 +1,8 @@
+id = 'balena-cli'
+name = 'balena-cli'
+
+homepage = 'https://docs.balena.io/reference/balena-cli/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/balena-cli'

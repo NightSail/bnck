@@ -1,0 +1,12 @@
+id = 'gdown'
+name = 'gdown'
+
+repository = 'https://github.com/wkentaro/gdown'
+
+[[package]]
+channel = 'debian'
+name = 'gdown'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdown'

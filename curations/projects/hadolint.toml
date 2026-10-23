@@ -1,0 +1,8 @@
+id = 'hadolint'
+name = 'hadolint'
+
+homepage = 'https://github.com/hadolint/hadolint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hadolint'

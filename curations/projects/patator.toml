@@ -1,0 +1,8 @@
+id = 'patator'
+name = 'patator'
+
+homepage = 'https://github.com/lanjelot/patator'
+
+[[package]]
+channel = 'debian'
+name = 'patator'

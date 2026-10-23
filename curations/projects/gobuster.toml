@@ -1,0 +1,16 @@
+id = 'gobuster'
+name = 'gobuster'
+
+repository = 'https://github.com/OJ/gobuster'
+
+[[package]]
+channel = 'arch'
+name = 'gobuster'
+
+[[package]]
+channel = 'debian'
+name = 'gobuster'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gobuster'

@@ -1,0 +1,16 @@
+id = 'samply'
+name = 'samply'
+
+repository = 'https://github.com/mstange/samply'
+
+[[package]]
+channel = 'arch'
+name = 'samply'
+
+[[package]]
+channel = 'debian'
+name = 'samply'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/samply'

@@ -1,0 +1,12 @@
+id = 'nerdctl'
+name = 'nerdctl'
+
+repository = 'https://github.com/containerd/nerdctl'
+
+[[package]]
+channel = 'arch'
+name = 'nerdctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nerdctl'

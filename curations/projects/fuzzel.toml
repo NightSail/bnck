@@ -1,0 +1,16 @@
+id = 'fuzzel'
+name = 'fuzzel'
+
+homepage = 'https://codeberg.org/dnkl/fuzzel'
+
+[[package]]
+channel = 'arch'
+name = 'fuzzel'
+
+[[package]]
+channel = 'debian'
+name = 'fuzzel'
+
+[[package]]
+channel = 'fedora'
+name = 'fuzzel'

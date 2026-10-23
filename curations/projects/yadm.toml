@@ -1,0 +1,8 @@
+id = 'yadm'
+name = 'yadm'
+
+homepage = 'https://github.com/TheLocehiliosan/yadm'
+
+[[package]]
+channel = 'debian'
+name = 'yadm'

@@ -1,0 +1,8 @@
+id = 'kerl'
+name = 'kerl'
+
+repository = 'https://github.com/kerl/kerl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kerl'

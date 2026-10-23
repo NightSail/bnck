@@ -1,0 +1,8 @@
+id = 'flyctl'
+name = 'flyctl'
+
+repository = 'https://github.com/superfly/flyctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flyctl'

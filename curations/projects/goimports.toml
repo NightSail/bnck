@@ -1,0 +1,8 @@
+id = 'goimports'
+name = 'goimports'
+
+homepage = 'https://pkg.go.dev/golang.org/x/tools/cmd/goimports'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goimports'

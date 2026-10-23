@@ -1,0 +1,12 @@
+id = 'imapsync'
+name = 'imapsync'
+
+homepage = 'https://imapsync.lamiral.info'
+
+[[package]]
+channel = 'arch'
+name = 'imapsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imapsync'

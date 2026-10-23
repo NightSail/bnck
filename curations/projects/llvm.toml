@@ -1,0 +1,8 @@
+id = 'llvm'
+name = 'llvm'
+
+repository = 'https://github.com/llvm/llvm-project'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm'

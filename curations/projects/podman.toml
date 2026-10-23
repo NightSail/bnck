@@ -1,0 +1,16 @@
+id = 'podman'
+name = 'podman'
+
+homepage = 'https://github.com/containers/podman'
+
+[[package]]
+channel = 'debian'
+name = 'podman'
+
+[[package]]
+channel = 'debian'
+name = 'podman-docker'
+
+[[package]]
+channel = 'debian'
+name = 'podman-remote'

@@ -1,0 +1,12 @@
+id = 'protontricks'
+name = 'protontricks'
+
+homepage = 'https://github.com/Matoking/protontricks'
+
+[[package]]
+channel = 'arch'
+name = 'protontricks'
+
+[[package]]
+channel = 'fedora'
+name = 'protontricks'

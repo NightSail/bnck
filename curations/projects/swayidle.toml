@@ -1,0 +1,16 @@
+id = 'swayidle'
+name = 'swayidle'
+
+homepage = 'https://github.com/swaywm/swayidle'
+
+[[package]]
+channel = 'arch'
+name = 'swayidle'
+
+[[package]]
+channel = 'debian'
+name = 'swayidle'
+
+[[package]]
+channel = 'fedora'
+name = 'swayidle'

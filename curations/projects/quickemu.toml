@@ -1,0 +1,12 @@
+id = 'quickemu'
+name = 'quickemu'
+
+homepage = 'https://github.com/quickemu-project/quickemu'
+
+[[package]]
+channel = 'debian'
+name = 'quickemu'
+
+[[package]]
+channel = 'fedora'
+name = 'quickemu'

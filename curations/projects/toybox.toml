@@ -1,0 +1,8 @@
+id = 'toybox'
+name = 'toybox'
+
+homepage = 'https://www.landley.net/toybox'
+
+[[package]]
+channel = 'debian'
+name = 'toybox'

@@ -1,0 +1,8 @@
+id = 'globalprotect-openconnect'
+name = 'globalprotect-openconnect'
+
+homepage = 'https://github.com/yuezk/GlobalProtect-openconnect'
+
+[[package]]
+channel = 'arch'
+name = 'globalprotect-openconnect'

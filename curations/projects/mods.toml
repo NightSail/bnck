@@ -1,0 +1,8 @@
+id = 'mods'
+name = 'mods'
+
+repository = 'https://github.com/charmbracelet/mods'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mods'

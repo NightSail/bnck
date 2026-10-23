@@ -1,0 +1,8 @@
+id = 'theharvester'
+name = 'theharvester'
+
+repository = 'https://github.com/laramies/theHarvester'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/theharvester'

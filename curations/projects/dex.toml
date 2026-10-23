@@ -1,0 +1,12 @@
+id = 'dex'
+name = 'dex'
+
+homepage = 'https://github.com/jceb/dex'
+
+[[package]]
+channel = 'arch'
+name = 'dex'
+
+[[package]]
+channel = 'debian'
+name = 'dex'

@@ -1,0 +1,12 @@
+id = 'stylua'
+name = 'stylua'
+
+homepage = 'https://github.com/JohnnyMorganz/StyLua'
+
+[[package]]
+channel = 'arch'
+name = 'stylua'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stylua'

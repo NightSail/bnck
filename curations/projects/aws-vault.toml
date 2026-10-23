@@ -1,0 +1,8 @@
+id = 'aws-vault'
+name = 'aws-vault'
+
+homepage = 'https://github.com/99designs/aws-vault'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/aws-vault-binary'

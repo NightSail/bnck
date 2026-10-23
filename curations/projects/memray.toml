@@ -1,0 +1,12 @@
+id = 'memray'
+name = 'memray'
+
+homepage = 'https://github.com/bloomberg/memray'
+
+[[package]]
+channel = 'arch'
+name = 'memray'
+
+[[package]]
+channel = 'debian'
+name = 'python3-memray'

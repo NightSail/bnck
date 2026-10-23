@@ -1,0 +1,8 @@
+id = 'nudoku'
+name = 'nudoku'
+
+homepage = 'https://jubalh.github.io/nudoku'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nudoku'

@@ -1,0 +1,12 @@
+id = 'frp'
+name = 'frp'
+
+repository = 'https://github.com/fatedier/frp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/frpc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/frps'

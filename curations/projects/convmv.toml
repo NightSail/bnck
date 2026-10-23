@@ -1,0 +1,8 @@
+id = 'convmv'
+name = 'convmv'
+
+homepage = 'https://www.j3e.de/linux/convmv/man'
+
+[[package]]
+channel = 'debian'
+name = 'convmv'

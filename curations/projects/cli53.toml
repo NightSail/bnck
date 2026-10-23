@@ -1,0 +1,12 @@
+id = 'cli53'
+name = 'cli53'
+
+repository = 'https://github.com/barnybug/cli53'
+
+[[package]]
+channel = 'debian'
+name = 'cli53'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cli53'
