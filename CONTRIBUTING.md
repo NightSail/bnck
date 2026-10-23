@@ -57,7 +57,7 @@ just fetch-distros
 just import-distros
 ```
 
-Each distro can be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition covers the configured primary suite, stable by default, and unstable/sid. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture are set through environment variables in their justfiles.
+Each distro can be processed independently with `fetch-debian`, `fetch-fedora`, `fetch-arch`, `fetch-homebrew`, and the corresponding import job. Debian acquisition covers the configured primary suite, stable by default, and unstable/sid. Debian fetch requires `gpgv` and a Debian archive keyring, normally from the `debian-archive-keyring` package; set `DEBIAN_KEYRING` for another location. import jobs verify Debian release checksums and Fedora `repomd.xml` metadata checksums. The Fedora base URL, Debian suites and architecture, and Arch mirror and architecture are set through environment variables in their justfiles.
 
 Acquire all language channels:
 

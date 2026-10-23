@@ -88,9 +88,9 @@ License URLs, issue-tracker URLs, documentation URLs, and source archive URLs ar
 
 ### Debian
 
-`just fetch-debian` fetches `InRelease`, `Packages.xz`, `Sources.xz`, `Contents-<architecture>.gz`, and `Contents-all.gz` for the configured stable suite and unstable suite. The indexes are decompressed before import.
+`just fetch-debian` fetches `InRelease`, `Packages.xz`, `Sources.xz`, `Contents-<architecture>.gz`, and `Contents-all.gz` for the configured stable suite and unstable suite. It verifies `InRelease` with `gpgv` and the Debian archive keyring before downloading indexes. Set `DEBIAN_KEYRING` when the keyring is not at `/usr/share/keyrings/debian-archive-keyring.gpg`. The indexes are decompressed before import.
 
-Acquisition does not verify `InRelease` signatures or compare indexes against release-file checksums. The base URL, suite, component, and architecture come from the Debian justfile variables.
+`import-debian` verifies every downloaded index against the SHA-256 checksums and sizes in `InRelease`. The base URL, suite, component, and architecture come from the Debian justfile variables; signature verification does not cover package archives because they are not downloaded.
 
 `import-debian` parses:
 
@@ -109,7 +109,7 @@ The package identity is the binary package name. Stable and unstable records use
 - `primary` for package name, version, architecture, summary or description, URL, source RPM, and checksum
 - `filelists` for public command paths
 
-Metadata checksums declared by `repomd.xml` are not verified. Metalink discovery, `updateinfo`, updates repositories, modular repositories, repository priority, and duplicate NEVRA handling are not implemented. Downloading source RPMs or inspecting spec files is deferred.
+`import-fedora` verifies the downloaded `primary` and `filelists` metadata against the sizes and SHA-256 checksums declared by `repomd.xml`. Fedora mirrors do not publish a `repomd.xml` signature at the configured endpoint, so repository XML is trusted through HTTPS and verified by its declared metadata checksums. Metalink discovery, `updateinfo`, updates repositories, modular repositories, repository priority, and duplicate NEVRA handling are not implemented. Downloading source RPMs or inspecting spec files is deferred.
 
 The package identity is the binary RPM name. The source RPM name is preserved as a hint.
 
@@ -117,7 +117,7 @@ The package identity is the binary RPM name. The source RPM name is preserved as
 
 `just fetch-arch` downloads the current `core` and `extra` repository databases and file databases from `ARCH_MIRROR`. It extracts the file databases; the importer reads the extracted `desc` and `files` data.
 
-`import-arch` reads package name, version, architecture, package base, URL, description, and SHA-256 digest from `desc`, and public command paths from `files`. Database signatures, Arch Linux Archive dates, and `.db` metadata import are not implemented. Checking out packaging repositories or `PKGBUILD` files is deferred, as is package-archive inspection.
+`import-arch` reads package name, version, architecture, package base, URL, description, and SHA-256 digest from `desc`, and public command paths from `files`. The configured Arch mirrors do not publish database signatures, so database verification is limited to HTTPS transport and archive extraction; package signatures require package-archive inspection, which is deferred. Arch Linux Archive dates and `.db` metadata import are not implemented. Checking out packaging repositories or `PKGBUILD` files is deferred, as is package-archive inspection.
 
 The package identity is the binary package name, not the package base. The package base is preserved as a hint.
 
@@ -174,7 +174,7 @@ Package change warnings skip partial or failed snapshots to avoid treating incom
 
 ## Current limitations
 
-- No signature verification
+- No general upstream signature verification; Debian `InRelease` is verified, while Fedora and Arch do not publish signatures at the configured endpoints
 - No retrieval timestamps, original URIs, media types, or channel-native snapshot boundaries
 - No incremental acquisition or tombstones; imports replace the preceding snapshot
 - No `removed` package observations, and hard failures do not produce a `failed` snapshot

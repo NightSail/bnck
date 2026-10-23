@@ -34,6 +34,8 @@ No public release has been made.
 - Short name map pages at `/short/2` and `/short/{letter}` covering every two- and three-letter lowercase executable name
 - Hot-reloading website development server with no runtime dependencies
 - Non-blocking acquisition diagnostics for executable-set changes, unobserved projects, and project metadata conflicts, with a JSON report and comparison baseline
+- Debian `InRelease` signature and release-index checksum verification during acquisition
+- Fedora `repomd.xml` metadata size and SHA-256 verification during import
 
 ### Changed
 

@@ -3,14 +3,14 @@ use std::fs::File;
 use std::io::{BufRead, BufReader, BufWriter, Write};
 use std::path::Path;
 
-use anyhow::{Context, Result};
+use anyhow::{Context, Result, ensure};
 use flate2::read::GzDecoder;
 use quick_xml::Reader;
 use quick_xml::encoding::Decoder;
 use quick_xml::events::{BytesStart, Event};
 use xz2::read::XzDecoder;
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
 use crate::model::Candidate;
 
 #[derive(Clone, Debug, Default)]
@@ -25,34 +25,17 @@ struct Package {
 }
 
 pub fn plan(repomd: &Path, base_url: &str, output_directory: &Path, output: &Path) -> Result<usize> {
-	let file = File::open(repomd).with_context(|| format!("open {}", repomd.display()))?;
-	let mut reader = Reader::from_reader(BufReader::new(file));
-	reader.config_mut().trim_text(true);
-	let mut buffer = Vec::new();
-	let mut selected_type = None::<String>;
 	let mut downloads = Vec::new();
-
-	loop {
-		match reader.read_event_into(&mut buffer)? {
-			Event::Start(event) if event.local_name().as_ref() == b"data" => {
-				selected_type = attribute(&event, b"type", reader.decoder())?
-					.filter(|value| matches!(value.as_str(), "primary" | "filelists"));
-			},
-			Event::Empty(event) if event.local_name().as_ref() == b"location" && selected_type.is_some() => {
-				if let Some(href) = attribute(&event, b"href", reader.decoder())? {
-					let kind = selected_type.as_deref().unwrap_or_default();
-					let filename = href.rsplit('/').next().unwrap_or(kind);
-					downloads.push((
-						format!("{}/{}", base_url.trim_end_matches('/'), href.trim_start_matches('/')),
-						output_directory.join(format!("{kind}-{filename}")),
-					));
-				}
-			},
-			Event::End(event) if event.local_name().as_ref() == b"data" => selected_type = None,
-			Event::Eof => break,
-			_ => {},
+	for entry in read_repomd(repomd)? {
+		if !matches!(entry.kind.as_str(), "primary" | "filelists") {
+			continue;
 		}
-		buffer.clear();
+		ensure!(!entry.location.is_empty(), "repomd.xml {} has a metadata entry without a location", entry.kind);
+		let filename = entry.location.rsplit('/').next().unwrap_or(&entry.kind);
+		downloads.push((
+			format!("{}/{}", base_url.trim_end_matches('/'), entry.location.trim_start_matches('/')),
+			output_directory.join(format!("{}-{filename}", entry.kind)),
+		));
 	}
 
 	let file = File::create(output).with_context(|| format!("create {}", output.display()))?;
@@ -62,6 +45,105 @@ pub fn plan(repomd: &Path, base_url: &str, output_directory: &Path, output: &Pat
 	}
 	writer.flush()?;
 	Ok(downloads.len())
+}
+
+#[derive(Clone, Debug, Default)]
+struct RepomdEntry {
+	kind: String,
+	location: String,
+	checksum_type: Option<String>,
+	checksum: Option<String>,
+	size: Option<u64>,
+}
+
+#[derive(Clone, Copy)]
+enum RepomdField {
+	Checksum,
+	Size,
+}
+
+fn read_repomd(path: &Path) -> Result<Vec<RepomdEntry>> {
+	let file = File::open(path).with_context(|| format!("open {}", path.display()))?;
+	let mut reader = Reader::from_reader(BufReader::new(file));
+	reader.config_mut().trim_text(true);
+	let mut buffer = Vec::new();
+	let mut current = None::<RepomdEntry>;
+	let mut field = None::<RepomdField>;
+	let mut entries = Vec::new();
+
+	loop {
+		match reader.read_event_into(&mut buffer)? {
+			Event::Start(event) if event.local_name().as_ref() == b"data" => {
+				current = Some(RepomdEntry {
+					kind: attribute(&event, b"type", reader.decoder())?.unwrap_or_default(),
+					..RepomdEntry::default()
+				});
+				field = None;
+			},
+			Event::Empty(event) if event.local_name().as_ref() == b"location" => {
+				if let Some(entry) = current.as_mut() {
+					entry.location = attribute(&event, b"href", reader.decoder())?.unwrap_or_default();
+				}
+			},
+			Event::Start(event) if event.local_name().as_ref() == b"checksum" => {
+				if let Some(entry) = current.as_mut() {
+					entry.checksum_type = attribute(&event, b"type", reader.decoder())?;
+				}
+				field = Some(RepomdField::Checksum);
+			},
+			Event::Start(event) if event.local_name().as_ref() == b"size" => {
+				field = Some(RepomdField::Size);
+			},
+			Event::Text(text) if field.is_some() => {
+				if let Some(entry) = current.as_mut() {
+					let value = text.decode()?.trim().to_owned();
+					match field {
+						Some(RepomdField::Checksum) => entry.checksum = Some(value),
+						Some(RepomdField::Size) => {
+							entry.size = Some(value.parse().with_context(|| {
+								format!("parse repomd.xml size for {} in {}", entry.kind, path.display())
+							})?);
+						},
+						None => {},
+					}
+				}
+			},
+			Event::End(event) if matches!(event.local_name().as_ref(), b"checksum" | b"size") => field = None,
+			Event::End(event) if event.local_name().as_ref() == b"data" => {
+				if let Some(entry) = current.take() {
+					entries.push(entry);
+				}
+				field = None;
+			},
+			Event::Eof => break,
+			_ => {},
+		}
+		buffer.clear();
+	}
+	Ok(entries)
+}
+
+fn verify_repomd_metadata(repomd: &Path, primary: &Path, filelists: &Path) -> Result<()> {
+	let entries = read_repomd(repomd)?;
+	for (kind, path) in [("primary", primary), ("filelists", filelists)] {
+		let entry = entries
+			.iter()
+			.find(|entry| entry.kind == kind)
+			.with_context(|| format!("repomd.xml has no {kind} metadata entry"))?;
+		ensure!(
+			entry.checksum_type.as_deref() == Some("sha256"),
+			"repomd.xml {kind} entry does not declare a SHA-256 checksum"
+		);
+		let expected_sha256 = entry
+			.checksum
+			.as_deref()
+			.with_context(|| format!("repomd.xml {kind} entry has no checksum"))?;
+		let expected_size = entry.size.with_context(|| format!("repomd.xml {kind} entry has no size"))?;
+		let (size, sha256) = file_identity(path)?;
+		ensure!(size == expected_size, "{} size does not match repomd.xml", path.display());
+		ensure!(sha256 == expected_sha256, "{} digest does not match repomd.xml", path.display());
+	}
+	Ok(())
 }
 
 pub fn import(
@@ -85,15 +167,14 @@ pub fn import(
 			observation
 		})
 		.collect::<Vec<_>>();
-	let mut inputs = vec![primary.to_owned(), filelists.to_owned()];
-	if let Some(repomd) = primary
+	let repomd = primary
 		.parent()
 		.and_then(Path::parent)
 		.map(|parent| parent.join("repomd.xml"))
-		.filter(|path| path.is_file())
-	{
-		inputs.push(repomd);
-	}
+		.with_context(|| format!("find repomd.xml for {}", primary.display()))?;
+	ensure!(repomd.is_file(), "missing {}", repomd.display());
+	verify_repomd_metadata(&repomd, primary, filelists)?;
+	let inputs = vec![primary.to_owned(), filelists.to_owned(), repomd];
 	write_acquisition(output, SnapshotMetadata::complete("fedora", &inputs, scope), package_observations, candidates)
 }
 
@@ -281,9 +362,14 @@ fn public_executable(path: &str) -> Option<&str> {
 
 #[cfg(test)]
 mod tests {
-	use quick_xml::Reader;
+	use std::fs;
 
-	use super::{public_executable, rpm_version, source_rpm_name};
+	use quick_xml::Reader;
+	use sha2::{Digest, Sha256};
+	use tempfile::tempdir;
+
+	use super::{public_executable, rpm_version, source_rpm_name, verify_repomd_metadata};
+	use crate::acquisition::file_identity;
 
 	#[test]
 	fn formats_nevra_version() {
@@ -302,5 +388,30 @@ mod tests {
 	fn recognizes_public_commands() {
 		assert_eq!(public_executable("/usr/bin/rg"), Some("rg"));
 		assert_eq!(public_executable("/usr/libexec/rg"), None);
+	}
+
+	#[test]
+	fn verifies_repomd_declared_metadata_checksums() {
+		let root = tempdir().unwrap();
+		let primary = root.path().join("primary.xml.zst");
+		let filelists = root.path().join("filelists.xml.zst");
+		fs::write(&primary, "primary metadata").unwrap();
+		fs::write(&filelists, "filelists metadata").unwrap();
+		let repomd = root.path().join("repomd.xml");
+		let (primary_size, primary_sha256) = file_identity(&primary).unwrap();
+		let (filelists_size, filelists_sha256) = file_identity(&filelists).unwrap();
+		let xml = format!(
+			"<repomd><data type=\"primary\"><checksum type=\"sha256\">{primary_sha256}</checksum>\
+			 <location href=\"repodata/primary.xml.zst\"/><size>{primary_size}</size></data>\
+			 <data type=\"filelists\"><checksum type=\"sha256\">{filelists_sha256}</checksum>\
+			 <location href=\"repodata/filelists.xml.zst\"/><size>{filelists_size}</size></data></repomd>"
+		);
+		fs::write(&repomd, xml).unwrap();
+		verify_repomd_metadata(&repomd, &primary, &filelists).unwrap();
+
+		fs::write(&primary, "tampered").unwrap();
+		let error = verify_repomd_metadata(&repomd, &primary, &filelists).unwrap_err();
+		assert!(error.to_string().contains("does not match repomd.xml"));
+		assert_eq!(format!("{:x}", Sha256::digest(b"primary metadata")), primary_sha256);
 	}
 }

@@ -59,6 +59,11 @@ jobs:
           key: cargo-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}-${{ matrix.channel }}
           restore-keys: |
             cargo-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}-
+      - name: Install Debian archive keyring
+        if: matrix.channel == 'debian'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y debian-archive-keyring gnupg
       - name: Acquire channel
         env:
           CHANNEL: ${{ matrix.channel }}

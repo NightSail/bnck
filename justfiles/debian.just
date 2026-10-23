@@ -3,6 +3,7 @@ debian_suite := env_var_or_default('DEBIAN_SUITE', 'stable')
 debian_sid_suite := env_var_or_default('DEBIAN_SID_SUITE', 'unstable')
 debian_component := env_var_or_default('DEBIAN_COMPONENT', 'main')
 debian_arch := env_var_or_default('DEBIAN_ARCH', 'amd64')
+debian_keyring := env_var_or_default('DEBIAN_KEYRING', '/usr/share/keyrings/debian-archive-keyring.gpg')
 debian_input := 'var/input/debian'
 debian_sid_input := 'var/input/debian-sid'
 debian_output := 'var/acquired/debian.jsonl'
@@ -19,6 +20,12 @@ _fetch-debian-suite suite input:
     curl --fail --location --retry 3 \
         --output '{{ input }}/InRelease' \
         '{{ debian_base_url }}/dists/{{ suite }}/InRelease'
+    test -f '{{ debian_keyring }}' || { \
+        printf 'Debian archive keyring not found: %s\n' '{{ debian_keyring }}' >&2; \
+        printf 'Install debian-archive-keyring or set DEBIAN_KEYRING.\n' >&2; \
+        exit 1; \
+    }
+    gpgv --keyring '{{ debian_keyring }}' '{{ input }}/InRelease'
     curl --fail --location --retry 3 \
         --output '{{ input }}/Packages.xz' \
         '{{ debian_base_url }}/dists/{{ suite }}/{{ debian_component }}/binary-{{ debian_arch }}/Packages.xz'

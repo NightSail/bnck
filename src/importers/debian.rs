@@ -1,11 +1,11 @@
 use std::collections::{BTreeMap, BTreeSet};
-use std::fs::File;
+use std::fs::{self, File};
 use std::io::{BufRead, BufReader};
-use std::path::Path;
+use std::path::{Path, PathBuf};
 
-use anyhow::{Context, Result};
+use anyhow::{Context, Result, ensure};
 
-use crate::acquisition::{PackageObservation, SnapshotMetadata, write_acquisition};
+use crate::acquisition::{PackageObservation, SnapshotMetadata, file_identity, write_acquisition};
 use crate::model::Candidate;
 
 #[derive(Clone, Debug, Default)]
@@ -26,14 +26,8 @@ pub fn import(
 	output: &Path,
 	scope: std::collections::BTreeMap<String, String>,
 ) -> Result<usize> {
-	let mut inputs = vec![packages.to_owned(), sources.to_owned(), contents.to_owned()];
-	if let Some(in_release) = packages
-		.parent()
-		.map(|parent| parent.join("InRelease"))
-		.filter(|path| path.is_file())
-	{
-		inputs.push(in_release);
-	}
+	let in_release = verify_release_files(packages, &scope)?;
+	let inputs = vec![packages.to_owned(), sources.to_owned(), contents.to_owned(), in_release];
 	let source_metadata = read_sources(sources)?;
 	let mut packages = read_packages(packages)?;
 	for package in packages.values_mut() {
@@ -79,6 +73,64 @@ pub fn import(
 		})
 		.collect::<Vec<_>>();
 	write_acquisition(output, SnapshotMetadata::complete("debian", &inputs, scope), package_observations, candidates)
+}
+
+fn verify_release_files(packages: &Path, scope: &BTreeMap<String, String>) -> Result<PathBuf> {
+	let directory = packages.parent().context("Debian package index has no parent directory")?;
+	let in_release = directory.join("InRelease");
+	ensure!(in_release.is_file(), "missing Debian InRelease beside {}", packages.display());
+	let checksums = read_release_checksums(&in_release)?;
+	let component = scope
+		.get("component")
+		.context("Debian release verification requires component scope")?;
+	let architecture = scope
+		.get("architecture")
+		.context("Debian release verification requires architecture scope")?;
+	let expected = [
+		(format!("{component}/binary-{architecture}/Packages.xz"), directory.join("Packages.xz")),
+		(format!("{component}/source/Sources.xz"), directory.join("Sources.xz")),
+		(format!("{component}/Contents-{architecture}.gz"), directory.join("Contents.gz")),
+		(format!("{component}/Contents-all.gz"), directory.join("Contents-all.gz")),
+	];
+	for (relative, path) in expected {
+		let (expected_size, expected_sha256) = checksums
+			.get(&relative)
+			.with_context(|| format!("InRelease has no SHA-256 for {relative}"))?;
+		let (size, sha256) = file_identity(&path)?;
+		ensure!(size == *expected_size, "{} size does not match InRelease", path.display());
+		ensure!(sha256 == *expected_sha256, "{} digest does not match InRelease", path.display());
+	}
+	Ok(in_release)
+}
+
+fn read_release_checksums(path: &Path) -> Result<BTreeMap<String, (u64, String)>> {
+	let value = fs::read_to_string(path).with_context(|| format!("read {}", path.display()))?;
+	let mut checksums = BTreeMap::new();
+	for line in value.lines() {
+		let Some(line) = line.strip_prefix(' ') else {
+			continue;
+		};
+		let mut parts = line.split_whitespace();
+		let (Some(sha256), Some(size), Some(relative), None) = (parts.next(), parts.next(), parts.next(), parts.next())
+		else {
+			continue;
+		};
+		if sha256.len() != 64 || !sha256.bytes().all(|byte| byte.is_ascii_hexdigit()) {
+			continue;
+		}
+		let size = size
+			.parse::<u64>()
+			.with_context(|| format!("parse size for {relative} in {}", path.display()))?;
+		let checksum = (size, sha256.to_ascii_lowercase());
+		ensure!(
+			checksums
+				.insert(relative.to_owned(), checksum.clone())
+				.is_none_or(|previous| previous == checksum),
+			"InRelease has conflicting checksums for {relative}"
+		);
+	}
+	ensure!(!checksums.is_empty(), "{} has no SHA-256 release checksums", path.display());
+	Ok(checksums)
 }
 
 fn read_packages(path: &Path) -> Result<BTreeMap<String, Package>> {
@@ -190,8 +242,10 @@ fn public_executable(path: &str) -> Option<&str> {
 
 #[cfg(test)]
 mod tests {
+	use std::collections::BTreeMap;
 	use std::fs;
 
+	use sha2::{Digest, Sha256};
 	use tempfile::tempdir;
 
 	use super::{import, public_executable};
@@ -224,13 +278,18 @@ mod tests {
 		)
 		.unwrap();
 		fs::write(&contents, "usr/bin/rg utils/ripgrep\n").unwrap();
+		write_release_fixture(root.path());
 
 		import(
 			&packages,
 			&sources,
 			&contents,
 			&output,
-			std::collections::BTreeMap::from([("suite".to_owned(), "test".to_owned())]),
+			BTreeMap::from([
+				("suite".to_owned(), "test".to_owned()),
+				("component".to_owned(), "main".to_owned()),
+				("architecture".to_owned(), "amd64".to_owned()),
+			]),
 		)
 		.unwrap();
 		let candidates = read_candidates(&output).unwrap();
@@ -238,5 +297,48 @@ mod tests {
 		assert_eq!(candidates.len(), 1);
 		assert_eq!(candidates[0].homepage.as_deref(), Some("https://github.com/BurntSushi/ripgrep"));
 		assert_eq!(candidates[0].repository, None);
+	}
+
+	#[test]
+	fn rejects_indexes_that_do_not_match_inrelease() {
+		let root = tempdir().unwrap();
+		let packages = root.path().join("Packages");
+		let sources = root.path().join("Sources");
+		let contents = root.path().join("Contents");
+		let output = root.path().join("debian.jsonl");
+		fs::write(&packages, "Package: ripgrep\nVersion: 1\n").unwrap();
+		fs::write(&sources, "").unwrap();
+		fs::write(&contents, "").unwrap();
+		write_release_fixture(root.path());
+		fs::write(root.path().join("Packages.xz"), "tampered").unwrap();
+
+		let error = import(
+			&packages,
+			&sources,
+			&contents,
+			&output,
+			BTreeMap::from([
+				("suite".to_owned(), "test".to_owned()),
+				("component".to_owned(), "main".to_owned()),
+				("architecture".to_owned(), "amd64".to_owned()),
+			]),
+		)
+		.unwrap_err();
+		assert!(error.to_string().contains("does not match InRelease"));
+	}
+
+	fn write_release_fixture(root: &std::path::Path) {
+		let files = [
+			("main/binary-amd64/Packages.xz", "Packages.xz", b"packages".as_slice()),
+			("main/source/Sources.xz", "Sources.xz", b"sources".as_slice()),
+			("main/Contents-amd64.gz", "Contents.gz", b"contents".as_slice()),
+			("main/Contents-all.gz", "Contents-all.gz", b"contents-all".as_slice()),
+		];
+		let mut release = "SHA256:\n".to_owned();
+		for (relative, name, bytes) in files {
+			fs::write(root.join(name), bytes).unwrap();
+			release.push_str(&format!(" {:x} {} {relative}\n", Sha256::digest(bytes), bytes.len()));
+		}
+		fs::write(root.join("InRelease"), release).unwrap();
 	}
 }
