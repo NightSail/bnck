@@ -1,17 +1,17 @@
 {% extends 'base.html' %}
 {% from 'components.html' import package_link, coverage_note, export_actions with context %}
-{% block title %}Project: {{ page.project }}{% endblock %}
+{% block title %}project: {{ page.project }}{% endblock %}
 {% block scripts %}<script type='module' src='{{ site.assets }}/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>
-	<a class='back-link' href='/?q='>← Browse names</a>
-	<p class='eyebrow'>Project</p>
+	<a class='back-link' href='/?q='>← browse names</a>
+	<p class='eyebrow'>project</p>
 	<h1><code>{{ page.project }}</code></h1>
 	{% if page.links %}
 	<ul class='project-links'>
 		{% for link in page.links %}
 		<li>
-			{{ link.link_type | capitalize }}:
+			{{ link.link_type }}:
 			<a href='{{ link.url }}' rel='external'>{{ link.url }}</a>
 		</li>
 		{% endfor %}
@@ -20,7 +20,7 @@
 </section>
 <section aria-labelledby='providers-title'>
 	<div class='section-heading export-heading'>
-		<h2 id='providers-title'>Executables</h2>
+		<h2 id='providers-title'>executables</h2>
 		{{ export_actions('/projects/' ~ (page.project | path_segment) ~ '/providers.json') }}
 	</div>
 	<p class='matrix-legend' id='matrix-legend'>
@@ -29,10 +29,10 @@
 	</p>
 	<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
 		<table class='provider-matrix' aria-describedby='matrix-legend'>
-			<caption class='visually-hidden'>Executable coverage for {{ page.project }}</caption>
+			<caption class='visually-hidden'>executable coverage for {{ page.project }}</caption>
 			<thead>
 				<tr>
-					<th class='matrix-name' scope='col'>Package</th>
+					<th class='matrix-name' scope='col'>package</th>
 					{% for executable in page.matrix.executables %}
 					<th class='matrix-executable' scope='col' id='executable-{{ executable }}'>
 						<a class='related-name' href='/executables/{{ executable | path_segment }}'>
@@ -56,10 +56,10 @@
 					<td>
 						{% if is_observed %}
 						<span class='matrix-observed' aria-hidden='true'>✓</span>
-						<span class='visually-hidden'>Observed</span>
+						<span class='visually-hidden'>observed</span>
 						{% else %}
 						<span class='muted' aria-hidden='true'>-</span>
-						<span class='visually-hidden'>Not observed</span>
+						<span class='visually-hidden'>not observed</span>
 						{% endif %}
 					</td>
 					{% endfor %}

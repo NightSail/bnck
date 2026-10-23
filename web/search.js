@@ -2,7 +2,7 @@ const search = document.querySelector('#q');
 
 if (search) {
 	search.setAttribute('aria-keyshortcuts', '/');
-	search.title = 'Press / to focus search';
+	search.title = 'press / to focus search';
 	document.addEventListener('keydown', (event) => {
 		const search = document.querySelector('#q');
 		if (!search || event.key !== '/' || event.ctrlKey || event.altKey || event.metaKey || event.isComposing ||

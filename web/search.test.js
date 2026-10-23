@@ -57,7 +57,7 @@ function initialize({ search = createSearch() } = {}) {
 test('slash focuses search and selects the query without changing its contents', () => {
 	const state = initialize();
 	expect(state.search.attributes.get('aria-keyshortcuts')).toBe('/');
-	expect(state.search.title).toBe('Press / to focus search');
+	expect(state.search.title).toBe('press / to focus search');
 	expect(state.search.focus).not.toHaveBeenCalled();
 	const event = keyEvent();
 	state.press(event);

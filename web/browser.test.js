@@ -11,7 +11,7 @@ function initialize(path = '/', loadDataset = mock(async () => loaded)) {
 	const windowHandlers = {};
 	const attributes = new Map();
 	const main = {
-		innerHTML: '<h1>Executable lookup</h1>', focus: mock(() => {}),
+		innerHTML: '<h1>executable lookup</h1>', focus: mock(() => {}),
 		setAttribute: (key, value) => attributes.set(key, value), removeAttribute: (key) => attributes.delete(key),
 	};
 	const status = { textContent: '' };
@@ -46,7 +46,7 @@ function click(state, path, overrides = {}) {
 test('home remains pre-rendered without fetching the dataset', async () => {
 	const state = initialize('/?utm_source=terminal');
 	await state.ready;
-	expect(state.main.innerHTML).toContain('Executable lookup');
+	expect(state.main.innerHTML).toContain('executable lookup');
 	expect(state.loadDataset).not.toHaveBeenCalled();
 	expect(state.main.focus).not.toHaveBeenCalled();
 });
@@ -54,9 +54,9 @@ test('home remains pre-rendered without fetching the dataset', async () => {
 test('bookmarked searches render results, update the title, and announce totals', async () => {
 	const state = initialize('/?q=hx&channel=npm');
 	await state.ready;
-	expect(state.main.innerHTML).toContain('Search results');
+	expect(state.main.innerHTML).toContain('search results');
 	expect(state.main.innerHTML).toContain("value='hx'");
-	expect(state.document.title).toBe('Search: hx · bnck(1)');
+	expect(state.document.title).toBe('search: hx · bnck(1)');
 	expect(state.status.textContent).toBe('2 matching projects for “hx”');
 	expect(state.attributes.has('aria-busy')).toBe(false);
 	expect(state.window.history.pushState).not.toHaveBeenCalled();
@@ -74,11 +74,11 @@ test('ordinary search links update history; Back and Forward restore URL state',
 	state.window.location = new URL('https://bnck.test/');
 	state.windowHandlers.popstate();
 	await tick();
-	expect(state.main.innerHTML).toContain('Executable lookup');
+	expect(state.main.innerHTML).toContain('executable lookup');
 	state.window.location = new URL('https://bnck.test/?q=hx');
 	state.windowHandlers.popstate();
 	await tick();
-	expect(state.main.innerHTML).toContain('Search results');
+	expect(state.main.innerHTML).toContain('search results');
 	expect(state.window.history.pushState).toHaveBeenCalledTimes(1);
 });
 
@@ -102,8 +102,8 @@ test('a stale fetch cannot replace a newer home navigation', async () => {
 	click(state, '/');
 	deferred.resolve(loaded);
 	await state.ready;
-	expect(state.main.innerHTML).toContain('Executable lookup');
-	expect(state.main.innerHTML).not.toContain('Search results');
+	expect(state.main.innerHTML).toContain('executable lookup');
+	expect(state.main.innerHTML).not.toContain('search results');
 	expect(state.attributes.has('aria-busy')).toBe(false);
 });
 
@@ -114,14 +114,14 @@ test('failed loads show an explicit retry action and retry without adding histor
 		return loaded;
 	});
 	await state.ready;
-	expect(state.main.innerHTML).toContain('Search unavailable');
+	expect(state.main.innerHTML).toContain('search unavailable');
 	expect(state.main.innerHTML).toContain('data-retry-search');
 	expect(state.status.textContent).toContain('Offline');
 	state.documentHandlers.click({ button: 0, target: {
 		closest: (selector) => selector === '[data-retry-search]' ? {} : null,
 	} });
 	await tick();
-	expect(state.main.innerHTML).toContain('Search results');
+	expect(state.main.innerHTML).toContain('search results');
 	expect(state.window.history.pushState).not.toHaveBeenCalled();
 });
 
@@ -129,8 +129,8 @@ test('invalid searches and out-of-range pages show errors rather than misleading
 	for (const path of ['/?page=0', '/?q=hx&page=2', '/?channel=unknown', '/?q=a&q=b']) {
 		const state = initialize(path);
 		await state.ready;
-		expect(state.main.innerHTML).toContain('Invalid search');
-		expect(state.main.innerHTML).not.toContain('No matches');
+		expect(state.main.innerHTML).toContain('invalid search');
+		expect(state.main.innerHTML).not.toContain('no matches');
 		expect(state.main.innerHTML).not.toContain('data-retry-search');
 	}
 });

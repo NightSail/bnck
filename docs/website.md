@@ -8,7 +8,7 @@ The visual hierarchy follows those tasks: search first, identities second, provi
 
 The header uses `bnck(1)` followed by `bin name check`, a plain monospace label in manual-page style. `(1)` denotes the manual section for executable programs and shell commands. Main navigation links to search or the current search form, Dataset, and About. The footer repeats the site sections and links to dataset releases and source code.
 
-Public copy uses short, descriptive headings and instructions, explains lookup behavior and dataset limits, and avoids slogans and implementation details. It does not show provider-record terminology or counts; summaries speak of executables, projects, channels, and packages.
+Public copy uses short, descriptive headings and instructions, explains lookup behavior and dataset limits, and avoids slogans and implementation details. It does not show provider-record terminology or counts; summaries speak of executables, projects, channels, and packages. Headings, navigation, controls, and labels use lowercase; sentence case is reserved for prose and proper names.
 
 ## Views
 

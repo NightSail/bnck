@@ -117,9 +117,9 @@ test('rendering preserves exact tags, labels, and filter recovery links', () => 
 	expect(filtered).not.toContain('Debian, npm');
 	const empty = renderResults(parse('q=hx&channel=npm&initial=A'),
 		query('q=hx&channel=npm&initial=A'), dataset.channels);
-	expect(empty).toContain('Clear both filters');
-	expect(empty).toContain('Search all channels');
-	expect(empty).toContain('Search all initials');
+	expect(empty).toContain('clear both filters');
+	expect(empty).toContain('search all channels');
+	expect(empty).toContain('search all initials');
 });
 
 test('pagination markup exposes shortcuts, the current page, and a go-to form', () => {

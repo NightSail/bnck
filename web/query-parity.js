@@ -15,7 +15,7 @@ for (const { url, results } of cases) {
 		...actual,
 		initials: undefined,
 		initial_links: ['', ...actual.initials].map((initial) => ({
-			label: initial || 'All', url: searchUrl(search, { initial, page: 1 }), is_current: initial === search.initial,
+			label: initial || 'all', url: searchUrl(search, { initial, page: 1 }), is_current: initial === search.initial,
 		})),
 		rows: actual.rows.map((row) => ({
 			name: row.name, related: row.related.map(({ name, channels }) => ({ name, channels })),

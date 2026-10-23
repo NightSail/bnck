@@ -222,11 +222,11 @@ impl Site<'_> {
 				stats => database.stats, channels => &database.channels, example => &database.example,
 			},
 		)?;
-		self.render("about/index.html", "about.html", "About", context! {})?;
+		self.render("about/index.html", "about.html", "about", context! {})?;
 		self.render(
 			"dataset/index.html",
 			"dataset.html",
-			"Dataset",
+			"dataset",
 			context! {
 				metadata => &database.metadata, stats => database.stats, channels => &database.channels,
 			},
@@ -234,9 +234,9 @@ impl Site<'_> {
 		self.render(
 			"404.html",
 			"error.html",
-			"Page not found",
+			"page not found",
 			context! {
-				status => 404, title => "Page not found", message => "Check the address or use the search below.",
+				status => 404, title => "page not found", message => "Check the address or use the search below.",
 			},
 		)
 	}

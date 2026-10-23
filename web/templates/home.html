@@ -3,12 +3,12 @@
 {% block content %}
 <section class='hero'>
 	<div class='hero-copy'>
-		<h1>Executable lookup</h1>
+		<h1>executable lookup</h1>
 		<p class='lead'>Look up a command to find its projects and packages.
 			Look up a project to list its commands.</p>
 		{{ search_form() }}
 		<p class='search-hint' id='search-hint'>Search by full or partial name.
-			<a href='/?q='>Browse names <span aria-hidden='true'>→</span></a></p>
+			<a href='/?q='>browse names <span aria-hidden='true'>→</span></a></p>
 	</div>
 	<aside class='relation-card' aria-label='Featured project'>
 		{% if page.example %}
@@ -19,7 +19,7 @@
 </section>
 {{ stats(page.stats) }}
 <section class='channel-section' aria-labelledby='channels-title'>
-	<div><p class='eyebrow' id='channels-title'>Channels in this release</p></div>
+	<div><p class='eyebrow' id='channels-title'>channels in this release</p></div>
 	<div class='channel-links'>
 		{% for channel in page.channels %}
 		<a href='/?q=&channel={{ channel.name | path_segment }}'>

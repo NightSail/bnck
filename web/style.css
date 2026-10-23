@@ -199,7 +199,6 @@ main {
 	color: var(--muted);
 	font: 11px/1.6 var(--mono);
 	letter-spacing: 0.07em;
-	text-transform: uppercase;
 }
 .lead {
 	color: var(--muted);
@@ -553,7 +552,6 @@ thead th {
 	color: var(--muted);
 	font: 10px/1.5 var(--mono);
 	letter-spacing: 0.03em;
-	text-transform: uppercase;
 }
 .name-result mark {
 	background: var(--green-surface);

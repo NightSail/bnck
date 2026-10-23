@@ -650,7 +650,7 @@ impl SearchQuery {
 		std::iter::once("")
 			.chain(CHANNELS)
 			.map(|channel| SearchFilterLink {
-				label: if channel.is_empty() { "All channels" } else { channel_label(channel) }.to_owned(),
+				label: if channel.is_empty() { "all channels" } else { channel_label(channel) }.to_owned(),
 				url: self.url(channel, &self.initial, 1),
 				is_current: channel == self.channel,
 			})
@@ -661,7 +661,7 @@ impl SearchQuery {
 		std::iter::once(String::new())
 			.chain(initials)
 			.map(|initial| SearchFilterLink {
-				label: if initial.is_empty() { "All".to_owned() } else { initial.clone() },
+				label: if initial.is_empty() { "all".to_owned() } else { initial.clone() },
 				url: self.url(&self.channel, &initial, 1),
 				is_current: initial == self.initial,
 			})
@@ -676,7 +676,7 @@ async fn home(State(database): State<Arc<Database>>, search: Result<Query<Search
 			return error_response(
 				&database,
 				StatusCode::BAD_REQUEST,
-				"Invalid search",
+				"invalid search",
 				"Check the search parameters. Page numbers must be positive integers.",
 			);
 		},
@@ -692,7 +692,7 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 		return error_response(
 			database,
 			StatusCode::BAD_REQUEST,
-			"Invalid search",
+			"invalid search",
 			"Check the initial, channel, and page number, or start a new search.",
 		);
 	}
@@ -707,21 +707,21 @@ fn search_page(database: &Database, search: SearchQuery) -> Response {
 	}
 	let query = search.query();
 	if query.chars().count() > MAX_QUERY_CHARACTERS {
-		return error_response(database, StatusCode::BAD_REQUEST, "Query too long", "Use at most 100 characters.");
+		return error_response(database, StatusCode::BAD_REQUEST, "query too long", "Use at most 100 characters.");
 	}
 
 	match database.search(&search) {
 		Ok(results) if search.page > 1 && results.rows.is_empty() => error_response(
 			database,
 			StatusCode::NOT_FOUND,
-			"No results on this page",
+			"no results on this page",
 			"Start a new search or browse names.",
 		),
 		Ok(results) => render_response(
 			database,
 			StatusCode::OK,
 			"search.html",
-			&if query.is_empty() { "Browse".to_owned() } else { format!("Search: {query}") },
+			&if query.is_empty() { "browse".to_owned() } else { format!("search: {query}") },
 			context! {
 				query, results, channel => &search.channel, initial => &search.initial,
 				channel_links => search.channel_links(),
@@ -753,7 +753,7 @@ fn project_page(database: &Database, project: &str) -> Response {
 		Ok(providers) if providers.is_empty() => error_response(
 			database,
 			StatusCode::NOT_FOUND,
-			"Project not found",
+			"project not found",
 			"No project with this exact ID is listed. Check spelling and case.",
 		),
 		Ok(providers) => match database.project_links(project) {
@@ -776,7 +776,7 @@ fn executable_page(database: &Database, executable: &str) -> Response {
 		Ok(providers) if providers.is_empty() => error_response(
 			database,
 			StatusCode::NOT_FOUND,
-			"Executable not found",
+			"executable not found",
 			"No executable with this exact name is listed. Check spelling and case.",
 		),
 		Ok(providers) => {
@@ -795,7 +795,7 @@ fn executable_page(database: &Database, executable: &str) -> Response {
 }
 
 async fn about(State(database): State<Arc<Database>>) -> Response {
-	render_response(&database, StatusCode::OK, "about.html", "About", context! {})
+	render_response(&database, StatusCode::OK, "about.html", "about", context! {})
 }
 
 async fn dataset(State(database): State<Arc<Database>>) -> Response {
@@ -803,7 +803,7 @@ async fn dataset(State(database): State<Arc<Database>>) -> Response {
 		&database,
 		StatusCode::OK,
 		"dataset.html",
-		"Dataset",
+		"dataset",
 		context! { metadata => &database.metadata, stats => database.stats, channels => &database.channels },
 	)
 }
@@ -835,7 +835,7 @@ fn static_asset_response(content: Result<String>, content_type: &'static str) ->
 }
 
 async fn not_found(State(database): State<Arc<Database>>) -> Response {
-	error_response(&database, StatusCode::NOT_FOUND, "Page not found", "Check the address or use the search below.")
+	error_response(&database, StatusCode::NOT_FOUND, "page not found", "Check the address or use the search below.")
 }
 
 fn database_error(database: &Database, error: anyhow::Error) -> Response {
@@ -843,7 +843,7 @@ fn database_error(database: &Database, error: anyhow::Error) -> Response {
 	error_response(
 		database,
 		StatusCode::INTERNAL_SERVER_ERROR,
-		"Lookup unavailable",
+		"lookup unavailable",
 		"The lookup failed. Try again later.",
 	)
 }
@@ -1107,8 +1107,8 @@ mod tests {
 			minijinja::context! { stats => database.stats, channels => &database.channels, example => &database.example },
 		)
 		.unwrap();
-		assert!(home.contains("<h1>Executable lookup</h1>"));
-		assert!(home.contains("href='/?q='>Browse names"));
+		assert!(home.contains("<h1>executable lookup</h1>"));
+		assert!(home.contains("href='/?q='>browse names"));
 		assert!(!home.contains("class='entry-section'"));
 		assert!(home.contains("href='/projects/ripgrep#executable-rg'"));
 		assert!(home.contains("aria-label='bnck(1): bin name check, home'"));
@@ -1120,7 +1120,7 @@ mod tests {
 		let search = render_page(
 			&database,
 			"search.html",
-			"Search",
+			"search",
 			minijinja::context! { query => "<script>", results, channel => "" },
 		)
 		.unwrap();
@@ -1145,12 +1145,12 @@ mod tests {
 			},
 		)
 		.unwrap();
-		assert!(project.contains("<title>Project: helix · bnck(1)</title>"));
+		assert!(project.contains("<title>project: helix · bnck(1)</title>"));
 		assert!(project.contains("https:&#x2f;&#x2f;crates.io&#x2f;crates&#x2f;helix-term"));
 		assert!(project.contains("https:&#x2f;&#x2f;packages.debian.org&#x2f;helix"));
 		let heading = project.split("<div class='content-layout'>").next().unwrap();
-		assert!(heading.contains("Homepage:"));
-		assert!(heading.contains("Repository:"));
+		assert!(heading.contains("homepage:"));
+		assert!(heading.contains("repository:"));
 		assert!(heading.contains(concat!(
 			"<a href='https:&#x2f;&#x2f;helix-editor.com&#x2f;' rel='external'>",
 			"https:&#x2f;&#x2f;helix-editor.com&#x2f;</a>"
@@ -1172,7 +1172,7 @@ mod tests {
 			},
 		)
 		.unwrap();
-		assert!(executable.contains("<title>Executable: hx · bnck(1)</title>"));
+		assert!(executable.contains("<title>executable: hx · bnck(1)</title>"));
 		assert!(executable.contains("crates.io"));
 		assert!(executable.contains("Debian"));
 		assert_eq!(executable.matches("href='/projects/helix'").count(), 1);
@@ -1180,12 +1180,12 @@ mod tests {
 		let dataset = render_page(
 			&database,
 			"dataset.html",
-			"Dataset",
+			"dataset",
 			minijinja::context! { metadata => &database.metadata, stats => database.stats, channels => &database.channels },
 		)
 		.unwrap();
-		assert!(dataset.contains("<h2>Fields</h2>"));
-		assert!(dataset.contains("<h2>Downloads</h2>"));
+		assert!(dataset.contains("<h2>fields</h2>"));
+		assert!(dataset.contains("<h2>downloads</h2>"));
 		assert!(!dataset.contains("SELECT"));
 		assert!(dataset.contains("id='release'"));
 		assert!(dataset.contains("2026-04-16.1"));
@@ -1194,7 +1194,7 @@ mod tests {
 		assert!(dataset.contains("href='/data/latest/bnck.sqlite.zst'"));
 		assert!(dataset.contains("href='/data/latest/SHA256SUMS'"));
 
-		let about = render_page(&database, "about.html", "About", minijinja::context! {}).unwrap();
+		let about = render_page(&database, "about.html", "about", minijinja::context! {}).unwrap();
 		assert!(about.contains("<h1>bnck(1)</h1>"));
 		assert!(about.contains("href='https:&#x2f;&#x2f;github.com&#x2f;NightSail&#x2f;bnck'"));
 		assert!(about.contains("href='/dataset'"));
@@ -1202,11 +1202,11 @@ mod tests {
 		let error = render_page(
 			&database,
 			"error.html",
-			"Not found",
-			minijinja::context! { status => 404, title => "Not found", message => "Missing" },
+			"not found",
+			minijinja::context! { status => 404, title => "not found", message => "Missing" },
 		)
 		.unwrap();
-		assert!(error.contains("Error 404"));
+		assert!(error.contains("error 404"));
 		assert!(stylesheet_content().unwrap().contains(".relation-card"));
 		assert_eq!(fs::read(&artifact).unwrap(), artifact_before);
 	}

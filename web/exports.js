@@ -14,7 +14,7 @@ if (window.isSecureContext && (supportsClipboardItems || typeof navigator.clipbo
 			const isCopied = await copyJson(view.href, button, status);
 			if (isCopied) {
 				restoreLabelTimeout = setTimeout(() => {
-					button.textContent = 'Copy JSON';
+					button.textContent = 'copy JSON';
 					status.textContent = '';
 				}, 2000);
 			}
@@ -25,9 +25,9 @@ if (window.isSecureContext && (supportsClipboardItems || typeof navigator.clipbo
 
 async function copyJson(url, button, status) {
 	button.disabled = true;
-	button.textContent = 'Copying…';
+	button.textContent = 'copying…';
 	status.classList.add('visually-hidden');
-	status.textContent = 'Copying JSON…';
+	status.textContent = 'copying JSON…';
 	const controller = new AbortController();
 	const timeout = setTimeout(() => controller.abort(), 10000);
 	try {
@@ -38,9 +38,9 @@ async function copyJson(url, button, status) {
 		return true;
 	} catch {
 		controller.abort();
-		button.textContent = 'Copy JSON';
+		button.textContent = 'copy JSON';
 		status.classList.remove('visually-hidden');
-		status.textContent = 'Copy failed. Use View JSON to copy manually.';
+		status.textContent = 'Copy failed. Use view JSON to copy manually.';
 		return false;
 	} finally {
 		clearTimeout(timeout);

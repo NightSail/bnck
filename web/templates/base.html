@@ -16,10 +16,10 @@
 	{% block scripts %}{% endblock %}
 </head>
 <body>
-	<a class='skip-link' href='#main'>Skip to content</a>
+	<a class='skip-link' href='#main'>skip to content</a>
 	<header class='site-header{% if site.has_header_search %} has-search{% endif %}'>
 		<a class='brand' href='/' aria-label='bnck(1): bin name check, home'>
-			<span title='Manual section 1: executable programs and shell commands'>bnck(1)</span>
+			<span title='manual section 1: executable programs and shell commands'>bnck(1)</span>
 			<span class='brand-description'>bin name check</span>
 		</a>
 		<nav aria-label='Main navigation'>
@@ -29,12 +29,12 @@
 				<p class='visually-hidden' id='search-hint'>Search by full or partial name.</p>
 			</div>
 			{% else %}
-			<a href='/' {% if site.section == 'index' %}aria-current='page'{% endif %}>Search</a>
+			<a href='/' {% if site.section == 'index' %}aria-current='page'{% endif %}>search</a>
 			{% endif %}
-			<a href='/dataset' {% if site.section == 'dataset' %}aria-current='page'{% endif %}>Dataset</a>
-			<a href='/about' {% if site.section == 'about' %}aria-current='page'{% endif %}>About</a>
+			<a href='/dataset' {% if site.section == 'dataset' %}aria-current='page'{% endif %}>dataset</a>
+			<a href='/about' {% if site.section == 'about' %}aria-current='page'{% endif %}>about</a>
 		</nav>
-		<a class='release-tag' href='/dataset#release'><span>Release</span> {{ site.release }}</a>
+		<a class='release-tag' href='/dataset#release'><span>release</span> {{ site.release }}</a>
 	</header>
 	{% if site.client_search %}
 	<noscript><p class='filter-notice'>Search and filtered browsing require JavaScript.
@@ -45,10 +45,10 @@
 	<footer class='site-footer'>
 		<p><strong>bnck(1)</strong> <span>bin name check</span></p>
 		<nav class='footer-links' aria-label='Project links'>
-			<a href='/dataset'>Dataset</a>
-			<a href='/about'>About</a>
-			<a href='{{ site.releases_url }}' rel='external'>Releases <span aria-hidden='true'>↗</span></a>
-			<a href='{{ site.repository_url }}' rel='external'>Source <span aria-hidden='true'>↗</span></a>
+			<a href='/dataset'>dataset</a>
+			<a href='/about'>about</a>
+			<a href='{{ site.releases_url }}' rel='external'>releases <span aria-hidden='true'>↗</span></a>
+			<a href='{{ site.repository_url }}' rel='external'>source <span aria-hidden='true'>↗</span></a>
 		</nav>
 	</footer>
 </body>

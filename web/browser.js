@@ -16,7 +16,7 @@ export function mountSearch(window, document, loadDataset) {
 		status.textContent = summary;
 		const input = document.querySelector('#q');
 		input?.setAttribute('aria-keyshortcuts', '/');
-		if (input) input.title = 'Press / to focus search';
+		if (input) input.title = 'press / to focus search';
 		if (options.shouldFocus) {
 			main.focus();
 			window.scrollTo(0, 0);
@@ -35,7 +35,7 @@ export function mountSearch(window, document, loadDataset) {
 			initial: parameters.get('initial') ?? '',
 		};
 		const loading = 'Loading the search dataset…';
-		display(renderMessage('Loading search', loading, { search: searchInput }), 'Search · bnck(1)', loading, {});
+		display(renderMessage('loading search', loading, { search: searchInput }), 'search · bnck(1)', loading, {});
 		main.setAttribute('aria-busy', 'true');
 		let loaded;
 		try {
@@ -43,8 +43,8 @@ export function mountSearch(window, document, loadDataset) {
 		} catch (error) {
 			if (current !== navigation) return;
 			const message = `Search could not be loaded. Check your connection and retry. ${error.message}`;
-			display(renderMessage('Search unavailable', message, { canRetry: true, search: searchInput }),
-				'Search unavailable · bnck(1)', message, options);
+			display(renderMessage('search unavailable', message, { canRetry: true, search: searchInput }),
+				'search unavailable · bnck(1)', message, options);
 			return;
 		}
 		/* A slow fetch must not overwrite a newer navigation, including returning to the home page. */
@@ -57,9 +57,9 @@ export function mountSearch(window, document, loadDataset) {
 			}
 			const results = queryIndex(loaded.index, search);
 			display(renderResults(search, results, loaded.dataset.channels),
-				`${search.query ? `Search: ${search.query}` : 'Browse'} · bnck(1)`, resultSummary(search, results), options);
+				`${search.query ? `search: ${search.query}` : 'browse'} · bnck(1)`, resultSummary(search, results), options);
 		} catch (error) {
-			display(renderMessage('Invalid search', error.message), 'Invalid search · bnck(1)', error.message, options);
+			display(renderMessage('invalid search', error.message), 'invalid search · bnck(1)', error.message, options);
 		}
 	}
 

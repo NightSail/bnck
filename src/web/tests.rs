@@ -15,7 +15,7 @@ use super::{
 use crate::model::{Provider, write_json_lines};
 use crate::release::{SqliteMetadata, generate_sqlite_artifact};
 
-const EXACT_MATCH_TAG: &str = "<span class='exact-match'>Exact match</span>";
+const EXACT_MATCH_TAG: &str = "<span class='exact-match'>exact match</span>";
 
 const RECORDS: &[(&str, &str, &str, &str)] = &[
 	("helix", "hx", "crates.io", "helix-term"),
@@ -483,7 +483,7 @@ fn initial_filters_match_project_names_and_keep_complete_executable_lists() {
 		assert_eq!(results.rows.iter().map(|row| row.name.as_str()).collect::<Vec<_>>(), expected);
 		assert_eq!(
 			results.initial_links.iter().map(|link| link.label.as_str()).collect::<Vec<_>>(),
-			["All", "#", "A", "B", "Z"]
+			["all", "#", "A", "B", "Z"]
 		);
 		assert_eq!(results.initial_links.iter().filter(|link| link.is_current).count(), 1);
 	}
@@ -499,10 +499,10 @@ fn initial_filters_match_project_names_and_keep_complete_executable_lists() {
 fn available_initials_follow_query_and_channel_but_not_the_selected_initial() {
 	let database = fixture(INITIAL_RECORDS.iter().copied().map(provider));
 	for (query, channel, initial, expected) in [
-		("lookup", "", "", vec!["All", "#", "A", "B"]),
-		("lookup", "debian", "A", vec!["All", "#", "A"]),
-		("alpha", "", "B", vec!["All", "A"]),
-		("missing", "", "", vec!["All"]),
+		("lookup", "", "", vec!["all", "#", "A", "B"]),
+		("lookup", "debian", "A", vec!["all", "#", "A"]),
+		("alpha", "", "B", vec!["all", "A"]),
+		("missing", "", "", vec!["all"]),
 	] {
 		let search = SearchQuery { channel: channel.to_owned(), initial: initial.to_owned(), ..search_query(query) };
 		let results = database.search(&search).unwrap();
@@ -529,7 +529,7 @@ fn initial_filters_apply_before_pagination_and_choices_cover_all_pages() {
 		assert_eq!(results.rows.len(), if page == 1 { 30 } else { 5 });
 		assert_eq!(
 			results.initial_links.iter().map(|link| link.label.as_str()).collect::<Vec<_>>(),
-			["All", "#", "A", "Z"]
+			["all", "#", "A", "Z"]
 		);
 		for row in results.rows {
 			assert!(row.name.starts_with('a'));
@@ -556,7 +556,7 @@ fn initial_links_preserve_search_context_encode_symbols_and_reset_the_page() {
 		assert_eq!(parsed.query(), "a & é?#");
 		assert_eq!(parsed.channel, "npm");
 		assert_eq!(parsed.page, 1);
-		assert_eq!(parsed.initial, if link.label == "All" { "" } else { &link.label });
+		assert_eq!(parsed.initial, if link.label == "all" { "" } else { &link.label });
 		assert_eq!(link.is_current, link.label == "A");
 	}
 }
@@ -591,7 +591,7 @@ async fn channel_choices_remain_available_outside_the_search_form() {
 		assert_eq!(navigation.matches("<a ").count(), super::CHANNELS.len() + 1);
 		assert_eq!(navigation.matches("aria-current='true'").count(), 1);
 		assert!(navigation.contains("aria-current='true'>npm</a>"));
-		assert!(navigation.contains(">All channels</a>"));
+		assert!(navigation.contains(">all channels</a>"));
 		for channel in super::CHANNELS {
 			assert!(navigation.contains(&format!(">{}</a>", super::channel_label(channel))));
 		}
@@ -613,7 +613,7 @@ async fn clearing_a_filter_preserves_the_query_and_other_filter_and_returns_to_p
 	let response = search_page(&database, search);
 	assert_eq!(response.status(), StatusCode::OK);
 	let html = response_text(response).await;
-	for (label, channel, initial) in [("Clear channel", "", "A"), ("Clear initial", "npm", "")] {
+	for (label, channel, initial) in [("clear channel", "", "A"), ("clear initial", "npm", "")] {
 		let parsed = search_link_query(&html, label);
 		assert_eq!(parsed.query(), QUERY);
 		assert_eq!(parsed.channel, channel);
@@ -633,9 +633,9 @@ async fn empty_results_offer_independent_filter_recovery_for_search_and_browse()
 		let empty_state = empty_state.split_once("</div>").unwrap().0;
 		for (filter, channel, initial) in [("channels", "", "Z"), ("initials", "npm", "")] {
 			let label = if query.is_empty() {
-				format!("Browse all {filter}")
+				format!("browse all {filter}")
 			} else {
-				format!("Search all {filter} for <code>“{query}”</code>")
+				format!("search all {filter} for <code>“{query}”</code>")
 			};
 			let parsed = search_link_query(empty_state, &label);
 			assert_eq!(parsed.query(), query);
@@ -643,7 +643,7 @@ async fn empty_results_offer_independent_filter_recovery_for_search_and_browse()
 			assert_eq!(parsed.initial, initial);
 			assert_eq!(parsed.page, 1);
 		}
-		let parsed = search_link_query(empty_state, "Clear both filters");
+		let parsed = search_link_query(empty_state, "clear both filters");
 		assert_eq!(parsed.query(), query);
 		assert!(parsed.channel.is_empty() && parsed.initial.is_empty());
 		assert_eq!(parsed.page, 1);
@@ -658,13 +658,13 @@ async fn filter_notices_and_recovery_actions_follow_active_filters_even_without_
 		let search =
 			SearchQuery { channel: channel.to_owned(), initial: initial.to_owned(), ..search_query("missing") };
 		let html = response_text(search_page(&database, search)).await;
-		assert_eq!(html.contains(">Clear channel</a>"), !channel.is_empty());
-		assert_eq!(html.contains(">Clear initial</a>"), !initial.is_empty());
-		assert_eq!(html.contains("Search all channels"), !channel.is_empty());
-		assert_eq!(html.contains("Search all initials"), !initial.is_empty());
-		assert_eq!(html.contains(">Clear both filters</a>"), !channel.is_empty() && !initial.is_empty());
+		assert_eq!(html.contains(">clear channel</a>"), !channel.is_empty());
+		assert_eq!(html.contains(">clear initial</a>"), !initial.is_empty());
+		assert_eq!(html.contains("search all channels"), !channel.is_empty());
+		assert_eq!(html.contains("search all initials"), !initial.is_empty());
+		assert_eq!(html.contains(">clear both filters</a>"), !channel.is_empty() && !initial.is_empty());
 		if !initial.is_empty() {
-			let label = if initial == "#" { "Numbers and symbols" } else { initial };
+			let label = if initial == "#" { "numbers and symbols" } else { initial };
 			assert!(html.contains(&format!("<strong>{label}</strong>")));
 		}
 	}
@@ -683,17 +683,17 @@ async fn initial_filter_renders_available_links_above_results_and_on_empty_searc
 	assert!(navigation.contains("aria-label='Filter projects by initial'"));
 	assert_eq!(navigation.matches("<a ").count(), 4);
 	assert_eq!(navigation.matches("aria-current='true'").count(), 1);
-	assert!(navigation.contains("Numbers and symbols"));
+	assert!(navigation.contains("numbers and symbols"));
 	assert!(!navigation.contains(">B</a>"));
 	assert!(html.find("class='initial-filter'").unwrap() < html.find("class='name-results'").unwrap());
 	assert!(html.contains("<input type='hidden' name='initial' value='A'>"));
 	assert!(html.contains("2 matching projects"));
 	let html = response_text(search_page(&database, search_query("missing"))).await;
-	assert!(html.contains("No matches"));
+	assert!(html.contains("no matches"));
 	let (_, navigation) = html.split_once("<nav class='initial-filter'").unwrap();
 	let (navigation, _) = navigation.split_once("</nav>").unwrap();
 	assert_eq!(navigation.matches("<a ").count(), 1);
-	assert!(navigation.contains(">All</a>"));
+	assert!(navigation.contains(">all</a>"));
 }
 
 #[tokio::test]
@@ -938,9 +938,9 @@ async fn detail_pages_offer_inline_json_links_and_progressive_copy_controls() {
 		let html = response_text(response).await;
 		assert!(
 			html.replace("&#x2f;", "/")
-				.contains(&format!("href='{path}' data-view-json>View JSON</a>"))
+				.contains(&format!("href='{path}' data-view-json>view JSON</a>"))
 		);
-		assert!(html.contains("type='button' data-copy-json hidden>Copy JSON</button>"));
+		assert!(html.contains("type='button' data-copy-json hidden>copy JSON</button>"));
 		assert!(html.contains("class='export-status visually-hidden' role='status' aria-live='polite'></p>"));
 		assert_eq!(html.matches("src='/exports.js'").count(), 1);
 		assert!(html.contains("<script type='module' src='/exports.js'></script>"));
@@ -967,7 +967,7 @@ async fn copy_script_is_served_as_a_same_origin_asset() {
 	assert_eq!(response.headers()[header::CACHE_CONTROL], super::asset_cache_control());
 	let script = response_text(response).await;
 	assert!(script.contains("navigator.clipboard"));
-	assert!(script.contains("Copy failed. Use View JSON to copy manually."));
+	assert!(script.contains("Copy failed. Use view JSON to copy manually."));
 }
 
 #[tokio::test]
@@ -1041,7 +1041,7 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 	let database = fixture(MATRIX_RECORDS.iter().copied().map(provider));
 	let html = response_text(project_page(&database, "tools")).await;
 	assert_eq!(html.matches("<table ").count(), 1);
-	assert_eq!(html.matches("scope='col'>Package</th>").count(), 1);
+	assert_eq!(html.matches("scope='col'>package</th>").count(), 1);
 	assert_eq!(html.matches("class='matrix-executable' scope='col'").count(), MATRIX_EXECUTABLES.len());
 	assert_eq!(html.matches("class='matrix-name' scope='row'").count(), MATRIX_PACKAGE_COVERAGE.len());
 	assert_eq!(html.matches("scope='rowgroup'").count(), 4);
@@ -1078,8 +1078,8 @@ async fn project_matrix_renders_grouped_headers_links_and_exact_coverage() {
 		let cells: Vec<_> = row.split("<td>").skip(1).collect();
 		assert_eq!(cells.len(), observed.len());
 		for (cell, is_observed) in cells.iter().zip(observed) {
-			assert_eq!(cell.contains("class='visually-hidden'>Observed</span>"), *is_observed);
-			assert_eq!(cell.contains("class='visually-hidden'>Not observed</span>"), !is_observed);
+			assert_eq!(cell.contains("class='visually-hidden'>observed</span>"), *is_observed);
+			assert_eq!(cell.contains("class='visually-hidden'>not observed</span>"), !is_observed);
 		}
 	}
 }
@@ -1090,8 +1090,8 @@ async fn project_matrix_shows_shared_package_once_and_excludes_other_projects() 
 	let html = response_text(project_page(&database, "age")).await;
 	assert_eq!(html.matches("class='matrix-name' scope='row'").count(), 1);
 	assert_eq!(html.matches("class='matrix-executable' scope='col'").count(), 4);
-	assert_eq!(html.matches("class='visually-hidden'>Observed</span>").count(), 4);
-	assert!(!html.contains("class='visually-hidden'>Not observed</span>"));
+	assert_eq!(html.matches("class='visually-hidden'>observed</span>").count(), 4);
+	assert!(!html.contains("class='visually-hidden'>not observed</span>"));
 	assert!(!html.contains("age-plugin-yubikey"));
 	assert_eq!(html.matches("href='https:&#x2f;&#x2f;packages.debian.org&#x2f;age'").count(), 1);
 }
@@ -1389,12 +1389,12 @@ async fn detail_pages_offer_one_unfiltered_search_form_in_the_header() {
 		assert_eq!(html.matches("<form ").count(), 1);
 		assert_eq!(html.matches("id='q'").count(), 1);
 		assert_eq!(html.matches("id='search-hint'").count(), 1);
-		assert!(html.contains("<label class='visually-hidden' for='q'>Executable name or project ID</label>"));
+		assert!(html.contains("<label class='visually-hidden' for='q'>executable name or project ID</label>"));
 		let header = html.split_once("<header class='site-header has-search'>").unwrap().1;
 		let header = header.split_once("</header>").unwrap().0;
 		let navigation = header.split_once("<nav aria-label='Main navigation'>").unwrap().1;
 		let navigation = navigation.split_once("</nav>").unwrap().0;
-		assert!(!navigation.contains(">Search</a>"));
+		assert!(!navigation.contains(">search</a>"));
 		let form = navigation.find("</form>").unwrap();
 		let dataset = navigation.find("href='/dataset'").unwrap();
 		let about = navigation.find("href='/about'").unwrap();
@@ -1404,7 +1404,7 @@ async fn detail_pages_offer_one_unfiltered_search_form_in_the_header() {
 		let form = form.split_once("</form>").unwrap().0;
 		assert!(form.contains("action='/' method='get' role='search'"));
 		assert!(form.contains("name='q' type='search' value=''"));
-		assert!(form.contains("placeholder='Press / to'"));
+		assert!(form.contains("placeholder='press / to'"));
 		assert!(form.contains("maxlength='100'"));
 		assert!(form.contains("aria-describedby='search-hint'"));
 		assert!(form.contains("type='submit'"));
@@ -1432,7 +1432,7 @@ async fn other_pages_keep_their_existing_forms_without_a_header_search() {
 		let header = html.split_once("<header class='site-header'>").unwrap().1;
 		let header = header.split_once("</header>").unwrap().0;
 		assert!(!header.contains("<form "));
-		assert!(header.contains(">Search</a>"));
+		assert!(header.contains(">search</a>"));
 		assert!(header.contains("href='/dataset'"));
 		assert!(header.contains("href='/about'"));
 		assert_eq!(html.matches("<form ").count(), form_count);
@@ -1479,7 +1479,7 @@ async fn search_boxes_have_no_channel_selector() {
 		let (_, form) = html.split_once("<form class='search-form'").unwrap();
 		let (form, _) = form.split_once("</form>").unwrap();
 		assert!(form.contains("name='q'"));
-		assert!(form.contains("placeholder='Press / to'"));
+		assert!(form.contains("placeholder='press / to'"));
 		assert!(form.contains("type='submit'"));
 		assert!(!form.contains("<select"));
 		assert!(!form.contains("search-filters"));
@@ -1497,7 +1497,7 @@ async fn channel_browse_links_preserve_context_when_refining_search() {
 	let html = response_text(search_page(&database, search)).await;
 	assert!(html.contains("<input type='hidden' name='channel' value='debian'>"));
 	assert!(html.contains("Showing matches in <strong>Debian</strong>"));
-	assert!(html.contains("href='/?q='>Reset search</a>"));
+	assert!(html.contains("href='/?q='>reset search</a>"));
 	assert_executable_row(&html, "helix", "hx", "");
 }
 
@@ -1538,7 +1538,7 @@ async fn handles_invalid_queries_and_missing_identities() {
 		let query = Query::<SearchQuery>::try_from_uri(&uri.parse().unwrap());
 		let response = home(State(database.clone()), query).await;
 		assert_eq!(response.status(), StatusCode::BAD_REQUEST);
-		assert!(response_text(response).await.contains("Invalid search"));
+		assert!(response_text(response).await.contains("invalid search"));
 	}
 	let query = Query::<SearchQuery>::try_from_uri(&"/".parse().unwrap());
 	assert_eq!(home(State(database.clone()), query).await.status(), StatusCode::OK);

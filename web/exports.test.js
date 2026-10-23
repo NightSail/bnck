@@ -10,7 +10,7 @@ const payload = {
 	providers: [{ project: 'age', executable: 'age', channel: 'debian', package: 'age' }],
 };
 const formattedJson = JSON.stringify(payload, null, '\t') + '\n';
-const failureMessage = 'Copy failed. Use View JSON to copy manually.';
+const failureMessage = 'Copy failed. Use view JSON to copy manually.';
 
 class FakeClipboardItem {
 	constructor(data) {
@@ -58,7 +58,7 @@ function initialize({
 	const button = {
 		hidden: true,
 		disabled: false,
-		textContent: 'Copy JSON',
+		textContent: 'copy JSON',
 		addEventListener: (event, handler) => { handlers[event] = handler; },
 	};
 	const classes = new Set(['visually-hidden']);
@@ -126,7 +126,7 @@ test('success appears in the button without a visible status line and resets aft
 	expect(state.status.textContent).toBe('JSON copied.');
 	expect(state.status.classList.contains('visually-hidden')).toBe(true);
 	state.timers.run(2000);
-	expect(state.button.textContent).toBe('Copy JSON');
+	expect(state.button.textContent).toBe('copy JSON');
 	expect(state.status.textContent).toBe('');
 });
 
@@ -138,15 +138,15 @@ test('a new attempt cancels the previous label reset while its request is pendin
 	});
 	await state.click();
 	const copying = state.click();
-	expect(state.button.textContent).toBe('Copying…');
+	expect(state.button.textContent).toBe('copying…');
 	expect(state.status.classList.contains('visually-hidden')).toBe(true);
 	state.timers.run(2000);
-	expect(state.button.textContent).toBe('Copying…');
+	expect(state.button.textContent).toBe('copying…');
 	response.resolve(new Response(JSON.stringify(payload)));
 	await copying;
 	expect(state.button.textContent).toBe('JSON copied');
 	state.timers.run(2000);
-	expect(state.button.textContent).toBe('Copy JSON');
+	expect(state.button.textContent).toBe('copy JSON');
 });
 
 test('clipboard items preserve user activation and success waits for the write', async () => {
@@ -157,12 +157,12 @@ test('clipboard items preserve user activation and success waits for the write',
 	const copying = state.click();
 	expect(clipboard.write).toHaveBeenCalledTimes(1);
 	expect(state.button.disabled).toBe(true);
-	expect(state.status.textContent).toBe('Copying JSON…');
+	expect(state.status.textContent).toBe('copying JSON…');
 	response.resolve(new Response(JSON.stringify(payload)));
 	const blob = await clipboard.write.mock.calls[0][0][0].data['text/plain'];
 	expect(blob.type.split(';')[0]).toBe('text/plain');
 	expect(await blob.text()).toBe(formattedJson);
-	expect(state.status.textContent).toBe('Copying JSON…');
+	expect(state.status.textContent).toBe('copying JSON…');
 	write.resolve();
 	await copying;
 	expect(state.status.textContent).toBe('JSON copied.');
@@ -174,13 +174,13 @@ for (const [name, fetch] of [
 	['invalid JSON', async () => new Response('<html>Not JSON</html>')],
 	['network errors', async () => { throw new Error('Offline'); }],
 ]) {
-	test(`${name} leave View JSON available and do not copy an error response`, async () => {
+	test(`${name} leave view JSON available and do not copy an error response`, async () => {
 		const state = initialize({ fetch: mock(fetch) });
 		await state.click();
 		expect(state.clipboard.writeText).not.toHaveBeenCalled();
 		expect(state.status.textContent).toBe(failureMessage);
 		expect(state.status.classList.contains('visually-hidden')).toBe(false);
-		expect(state.button.textContent).toBe('Copy JSON');
+		expect(state.button.textContent).toBe('copy JSON');
 		expect(state.button.disabled).toBe(false);
 		expect(state.view.href).toBe(exportUrl);
 	});

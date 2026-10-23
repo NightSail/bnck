@@ -3,37 +3,37 @@
 {% set release = page.metadata.dataset_release %}
 {% block content %}
 <section class='page-heading doc-heading'>
-	<h1>Dataset</h1>
+	<h1>dataset</h1>
 	<p class='lead'>Fields, coverage, and release artifacts for the current bnck dataset.</p>
 </section>
 {{ stats(page.stats) }}
 <div class='doc-layout'>
 	<nav class='section-nav' aria-label='On this page'>
-		<a href='#fields'>Fields</a>
-		<a href='#coverage'>Coverage</a>
-		<a href='#release'>Release</a>
-		<a href='#downloads'>Downloads</a>
+		<a href='#fields'>fields</a>
+		<a href='#coverage'>coverage</a>
+		<a href='#release'>release</a>
+		<a href='#downloads'>downloads</a>
 	</nav>
 	<div class='doc-body'>
 		<section id='fields'>
-			<h2>Fields</h2>
+			<h2>fields</h2>
 			<dl class='definitions'>
-				<div><dt>Executable</dt><dd>Command name, preserving spelling and case.</dd></div>
-				<div><dt>Project</dt><dd>Software project ID used for lookup.</dd></div>
-				<div><dt>Channel</dt><dd>Package source, such as Debian or crates.io.</dd></div>
-				<div><dt>Package</dt><dd>Package name within that channel.</dd></div>
+				<div><dt>executable</dt><dd>Command name, preserving spelling and case.</dd></div>
+				<div><dt>project</dt><dd>Software project ID used for lookup.</dd></div>
+				<div><dt>channel</dt><dd>Package source, such as Debian or crates.io.</dd></div>
+				<div><dt>package</dt><dd>Package name within that channel.</dd></div>
 			</dl>
 		</section>
 		<section id='coverage'>
-			<h2>Coverage</h2>
+			<h2>coverage</h2>
 			<p>An unlisted command or package may still be available.</p>
 			<p>This dataset does not specify package versions or platform support.</p>
 			<table class='coverage-table'>
-				<caption>Projects and packages by channel</caption>
+				<caption>projects and packages by channel</caption>
 				<thead>
 					<tr>
-						<th scope='col'>Channel</th><th scope='col'>Projects</th>
-						<th scope='col'>Packages</th>
+						<th scope='col'>channel</th><th scope='col'>projects</th>
+						<th scope='col'>packages</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -52,27 +52,27 @@
 				Projects may appear in more than one channel.</p>
 		</section>
 		<section id='release'>
-			<h2>Release</h2>
+			<h2>release</h2>
 			<dl class='definitions metadata'>
-				<div><dt>Identifier</dt><dd><code>{{ release }}</code></dd></div>
+				<div><dt>identifier</dt><dd><code>{{ release }}</code></dd></div>
 				<div>
-					<dt>Generated</dt>
+					<dt>generated</dt>
 					<dd><time datetime='{{ page.metadata.generated_at }}'>
 						{{ page.metadata.generated_at | replace('T', ' ') | replace('Z', ' UTC') }}
 					</time></dd>
 				</div>
 				<div>
-					<dt>Latest release</dt>
+					<dt>latest release</dt>
 					<dd><a href='/data/latest'>/data/latest <span aria-hidden='true'>→</span></a>,
 						the stable link to this dataset</dd>
 				</div>
 				<div>
-					<dt>Latest tag</dt>
+					<dt>latest tag</dt>
 					<dd><a href='{{ site.releases_url }}/tag/bnck-dataset-{{ release }}' rel='external'>
 						<code>bnck-dataset-{{ release }}</code> <span aria-hidden='true'>↗</span></a></dd>
 				</div>
 				<div>
-					<dt>All releases</dt>
+					<dt>all releases</dt>
 					<dd><a href='{{ site.releases_url }}' rel='external'>
 						GitHub Releases <span aria-hidden='true'>↗</span></a></dd>
 				</div>
@@ -81,7 +81,7 @@
 				<a href='{{ site.license_url }}' rel='external'>ISC License <span aria-hidden='true'>↗</span></a>.</p>
 		</section>
 		<section id='downloads'>
-			<h2>Downloads</h2>
+			<h2>downloads</h2>
 			<p>Use <code>/data/latest</code> for the current release or open the versioned tag for a fixed snapshot.</p>
 			<dl class='definitions'>
 				<div>
@@ -90,17 +90,17 @@
 						names, projects, packages, and project links</dd>
 				</div>
 				<div>
-					<dt>Release archive</dt>
+					<dt>release archive</dt>
 					<dd><a href='/data/latest/bnck-{{ release }}.tar.zst'>
 						<code>bnck-{{ release }}.tar.zst</code></a>: complete release</dd>
 				</div>
 				<div>
-					<dt>Manifest</dt>
+					<dt>manifest</dt>
 					<dd><a href='/data/latest/manifest.json'><code>manifest.json</code></a>:
 						release metadata and artifact digests</dd>
 				</div>
 				<div>
-					<dt>Checksums</dt>
+					<dt>checksums</dt>
 					<dd><a href='/data/latest/SHA256SUMS'><code>SHA256SUMS</code></a> and
 						<a href='/data/latest/SHA256SUMS.minisig'><code>SHA256SUMS.minisig</code></a></dd>
 				</div>

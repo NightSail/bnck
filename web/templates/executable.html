@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% from 'components.html' import provider_group, coverage_note, count_label, export_actions with context %}
-{% block title %}Executable: {{ page.executable }}{% endblock %}
+{% block title %}executable: {{ page.executable }}{% endblock %}
 {% block scripts %}<script type='module' src='{{ site.assets }}/exports.js'></script>{% endblock %}
 {% block content %}
 <section class='page-heading detail-heading'>
-	<a class='back-link' href='/?q='>← Browse names</a>
-	<p class='eyebrow'>Executable</p>
+	<a class='back-link' href='/?q='>← browse names</a>
+	<p class='eyebrow'>executable</p>
 	<h1><span class='command-prefix' aria-hidden='true'>$ </span><code>{{ page.executable }}</code></h1>
 	<p class='lead'>{{ count_label(page.project_count, 'project', 'projects') }}.</p>
 </section>
@@ -17,7 +17,7 @@
 	</div>
 	{% endif %}
 	<div class='section-heading export-heading'>
-		<h2 id='providers-title'>Projects</h2>
+		<h2 id='providers-title'>projects</h2>
 		{{ export_actions('/executables/' ~ (page.executable | path_segment) ~ '/providers.json') }}
 	</div>
 	<div class='provider-groups'>

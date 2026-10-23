@@ -22,18 +22,18 @@ export function highlightName(name, query) {
 
 const number = (value) => String(value).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 const countLabel = (count, singular, plural = `${singular}s`) => `${number(count)} ${count === 1 ? singular : plural}`;
-const exactTag = (name, query) => query && name === query ? '<span class=\'exact-match\'>Exact match</span>' : '';
+const exactTag = (name, query) => query && name === query ? '<span class=\'exact-match\'>exact match</span>' : '';
 const link = (url, text, attributes = '') => `<a href='${escapeHtml(url)}' ${attributes}>${text}</a>`;
 
 function searchForm(search = { query: '', channel: '', initial: '' }) {
 	return `<form class='search-form' action='/' method='get' role='search'>
-		<label class='visually-hidden' for='q'>Executable name or project ID</label>
+		<label class='visually-hidden' for='q'>executable name or project ID</label>
 		<div class='search-input'>
 			<span class='search-symbol' aria-hidden='true'>⌕</span>
-			<input id='q' name='q' type='search' value='${escapeHtml(search.query)}' placeholder='Press / to'
+			<input id='q' name='q' type='search' value='${escapeHtml(search.query)}' placeholder='press / to'
 				autocomplete='off' spellcheck='false' aria-describedby='search-hint'
-				aria-keyshortcuts='/' title='Press / to focus search'>
-			<button type='submit'>Search <span aria-hidden='true'>↵</span></button>
+				aria-keyshortcuts='/' title='press / to focus search'>
+			<button type='submit'>search <span aria-hidden='true'>↵</span></button>
 		</div>
 		${search.channel ? `<input type='hidden' name='channel' value='${escapeHtml(search.channel)}'>` : ''}
 		${search.initial ? `<input type='hidden' name='initial' value='${escapeHtml(search.initial)}'>` : ''}
@@ -44,7 +44,7 @@ function filterLinks(search, values, field) {
 	return values.map(({ value, label }) => link(
 		searchUrl(search, { [field]: value, page: 1 }), escapeHtml(label),
 		`${search[field] === value ? 'aria-current=\'true\'' : ''}
-		${field === 'initial' && value === '#' ? 'aria-label=\'Numbers and symbols\'' : ''}`,
+		${field === 'initial' && value === '#' ? 'aria-label=\'numbers and symbols\'' : ''}`,
 	)).join('');
 }
 
@@ -53,12 +53,12 @@ function filterNotices(search, labels) {
 	if (search.channel) {
 		html += `<p class='filter-notice'>Showing matches in <strong>${escapeHtml(labels.get(search.channel))}</strong>.
 			Open a result for all listed channels.
-			${link(searchUrl(search, { channel: '', page: 1 }), 'Clear channel', 'class=\'text-link\'')}</p>`;
+			${link(searchUrl(search, { channel: '', page: 1 }), 'clear channel', 'class=\'text-link\'')}</p>`;
 	}
 	if (search.initial) {
-		const label = search.initial === '#' ? 'Numbers and symbols' : search.initial;
-		html += `<p class='filter-notice'>Project initial: <strong>${escapeHtml(label)}</strong>.
-			${link(searchUrl(search, { initial: '', page: 1 }), 'Clear initial', 'class=\'text-link\'')}</p>`;
+		const label = search.initial === '#' ? 'numbers and symbols' : search.initial;
+		html += `<p class='filter-notice'>project initial: <strong>${escapeHtml(label)}</strong>.
+			${link(searchUrl(search, { initial: '', page: 1 }), 'clear initial', 'class=\'text-link\'')}</p>`;
 	}
 	return html;
 }
@@ -94,19 +94,19 @@ function projectResult(project, position, search, labels) {
 function emptyResults(search) {
 	const hasFilters = search.channel || search.initial;
 	const queryLabel = search.query ? `for <code>“${escapeHtml(search.query)}”</code>` : '';
-	const action = search.query ? 'Search' : 'Browse';
+	const action = search.query ? 'search' : 'browse';
 	const recoveries = ['channel', 'initial'].filter((field) => search[field]).map((field) =>
 		`<li>${link(searchUrl(search, { [field]: '', page: 1 }), `${action} all ${field}s ${queryLabel}`,
 			'class=\'text-link\'')}</li>`);
 	if (search.channel && search.initial) {
 		recoveries.push(`<li>${link(searchUrl(search, { channel: '', initial: '', page: 1 }),
-			'Clear both filters', 'class=\'text-link\'')}</li>`);
+			'clear both filters', 'class=\'text-link\'')}</li>`);
 	}
-	return `<div class='empty-state'><span class='empty-symbol' aria-hidden='true'>∅</span><h3>No matches</h3>
+	return `<div class='empty-state'><span class='empty-symbol' aria-hidden='true'>∅</span><h3>no matches</h3>
 		<p>${hasFilters ? 'Try removing a filter.' : search.query ?
 			'Try a shorter name.' : 'No names are listed in this release.'}</p>
 		${hasFilters ? `<ul class='search-recovery' role='list'>${recoveries.join('')}</ul>` : ''}
-		${link('/?q=', 'Browse names <span aria-hidden=\'true\'>→</span>', 'class=\'button-link\'')}
+		${link('/?q=', 'browse names <span aria-hidden=\'true\'>→</span>', 'class=\'button-link\'')}
 	</div>`;
 }
 
@@ -122,10 +122,10 @@ function pageJump(search, results) {
 	const hidden = (name, value) => `<input type='hidden' name='${name}' value='${escapeHtml(value)}'>`;
 	return `<form class='page-jump' action='/' method='get'>
 		${hidden('q', search.query)}${hidden('channel', search.channel)}${hidden('initial', search.initial)}
-		<label for='page-jump'>Go to page</label>
+		<label for='page-jump'>go to page</label>
 		<input id='page-jump' name='page' type='number' min='1' max='${results.pages}' value='${results.page}'
 			inputmode='numeric' required>
-		<button type='submit'>Go</button>
+		<button type='submit'>go</button>
 	</form>`;
 }
 
@@ -133,11 +133,11 @@ function pagination(search, results) {
 	return `<nav class='pagination' aria-label='Result pages'>
 		<span class='page-summary'>${number(results.start)}–${number(results.end)} of ${number(results.total)}</span>
 		<div class='page-controls'>
-			${results.previous ? link(results.previous, '← Previous', "class='page-step' rel='prev'")
-				: '<span class=\'page-step is-disabled\'>← Previous</span>'}
+			${results.previous ? link(results.previous, '← previous', "class='page-step' rel='prev'")
+				: '<span class=\'page-step is-disabled\'>← previous</span>'}
 			${results.page_links.length ? pageList(results) : ''}
-			${results.next ? link(results.next, 'Next →', "class='page-step' rel='next'")
-				: '<span class=\'page-step is-disabled\'>Next →</span>'}
+			${results.next ? link(results.next, 'next →', "class='page-step' rel='next'")
+				: '<span class=\'page-step is-disabled\'>next →</span>'}
 		</div>
 		${pageJump(search, results)}
 	</nav>`;
@@ -149,19 +149,19 @@ export function resultSummary(search, results) {
 
 export function renderResults(search, results, channels) {
 	const labels = new Map(channels.map((channel) => [channel.name, channel.label]));
-	const channelFilters = [{ value: '', label: 'All channels' },
+	const channelFilters = [{ value: '', label: 'all channels' },
 		...channels.map((channel) => ({ value: channel.name, label: channel.label }))];
-	const initialFilters = [{ value: '', label: 'All' },
+	const initialFilters = [{ value: '', label: 'all' },
 		...results.initials.map((initial) => ({ value: initial, label: initial }))];
 	return `<section class='page-heading search-heading'>
-		<h1>${search.query ? 'Search results' : 'Browse'}</h1>${searchForm(search)}
+		<h1>${search.query ? 'search results' : 'browse'}</h1>${searchForm(search)}
 		<p class='search-hint' id='search-hint'>Leave blank to browse.</p>
 	</section><div class='content-layout'><section class='search-results' aria-labelledby='results-title'>
 		<div class='results-heading'><h2 id='results-title'>
 			${countLabel(results.total, 'matching project')}
 			${search.query ? `for <code>“${escapeHtml(search.query)}”</code>` : ''}</h2>
 			${search.query || search.channel || search.initial ?
-				link('/?q=', 'Reset search', 'class=\'text-link\'') : ''}</div>
+				link('/?q=', 'reset search', 'class=\'text-link\'') : ''}</div>
 		<nav class='channel-filter' aria-label='Filter matches by channel'>
 			${filterLinks(search, channelFilters, 'channel')}</nav>
 		${filterNotices(search, labels)}
@@ -171,16 +171,16 @@ export function renderResults(search, results, channels) {
 			${results.rows.map((project, index) => projectResult(project, index + 1, search, labels)).join('')}
 			</ul>${results.pages > 1 ? pagination(search, results) : ''}` : emptyResults(search)}
 	</section><aside class='side-column'><section class='side-note'>
-		<h2>Search notes</h2><p>Matches parts of executable names and project IDs, not package names.</p>
-	</section><section class='side-note'><h2>Coverage</h2><p>An unlisted command may still be available.</p>
-		${link('/dataset#coverage', 'Dataset limits <span aria-hidden=\'true\'>→</span>', 'class=\'text-link\'')}
+		<h2>search notes</h2><p>Matches parts of executable names and project IDs, not package names.</p>
+	</section><section class='side-note'><h2>coverage</h2><p>An unlisted command may still be available.</p>
+		${link('/dataset#coverage', 'dataset limits <span aria-hidden=\'true\'>→</span>', 'class=\'text-link\'')}
 	</section></aside></div>`;
 }
 
 export function renderMessage(title, message, options = {}) {
 	return `<section class='error-page'><h1>${escapeHtml(title)}</h1><p class='lead'>${escapeHtml(message)}</p>
-		${options.canRetry ? '<button type=\'button\' class=\'button-link\' data-retry-search>Retry</button>' : ''}
+		${options.canRetry ? '<button type=\'button\' class=\'button-link\' data-retry-search>retry</button>' : ''}
 		${searchForm(options.search)}
 		<p class='search-hint' id='search-hint'>Search by full or partial name.
-			${link('/?q=', 'Browse names →')}</p></section>`;
+			${link('/?q=', 'browse names →')}</p></section>`;
 }

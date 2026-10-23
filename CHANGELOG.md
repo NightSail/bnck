@@ -29,6 +29,7 @@ No public release has been made.
 
 ### Changed
 
+- Website headings, navigation, controls, and labels use lowercase; prose keeps sentence case.
 - Dataset details moved from `/about` to `/dataset`; `/about` now presents the project.
 - SQLite schema version is 1 for the first public schema. Pre-publication development artifacts labeled 2 are not release-compatible.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.

@@ -3,7 +3,7 @@
 
 {% block content %}
 <section class='page-heading search-heading'>
-	<h1>{% if page.query %}Search results{% else %}Browse{% endif %}</h1>
+	<h1>{% if page.query %}search results{% else %}browse{% endif %}</h1>
 	{{ search_form(page.query, page.channel, page.initial) }}
 	<p class='search-hint' id='search-hint'>Leave blank to browse.</p>
 </section>
@@ -15,7 +15,7 @@
 				{% if page.query %}for <code>“{{ page.query }}”</code>{% endif %}
 			</h2>
 			{% if page.query or page.channel or page.initial %}
-			<a class='text-link' href='/?q='>Reset search</a>
+			<a class='text-link' href='/?q='>reset search</a>
 			{% endif %}
 		</div>
 		<nav class='channel-filter' aria-label='Filter matches by channel'>
@@ -26,17 +26,17 @@
 		{% if page.channel %}
 		<p class='filter-notice'>Showing matches in <strong>{{ page.channel | channel_label }}</strong>.
 			Open a result for all listed channels.
-			<a class='text-link' href='{{ page.clear_channel_url }}'>Clear channel</a></p>
+			<a class='text-link' href='{{ page.clear_channel_url }}'>clear channel</a></p>
 		{% endif %}
 		{% if page.initial %}
-		<p class='filter-notice'>Project initial:
-			<strong>{{ 'Numbers and symbols' if page.initial == '#' else page.initial }}</strong>.
-			<a class='text-link' href='{{ page.clear_initial_url }}'>Clear initial</a></p>
+		<p class='filter-notice'>project initial:
+			<strong>{{ 'numbers and symbols' if page.initial == '#' else page.initial }}</strong>.
+			<a class='text-link' href='{{ page.clear_initial_url }}'>clear initial</a></p>
 		{% endif %}
 		<nav class='initial-filter' aria-label='Filter projects by initial'>
 			{% for link in page.results.initial_links %}
 			<a href='{{ link.url }}'{% if link.is_current %} aria-current='true'{% endif %}
-				{% if link.label == '#' %} aria-label='Numbers and symbols'{% endif %}>{{ link.label }}</a>
+				{% if link.label == '#' %} aria-label='numbers and symbols'{% endif %}>{{ link.label }}</a>
 			{% endfor %}
 		</nav>
 		{% if page.results.rows %}
@@ -52,33 +52,33 @@
 		{% else %}
 		<div class='empty-state'>
 			<span class='empty-symbol' aria-hidden='true'>∅</span>
-			<h3>No matches</h3>
+			<h3>no matches</h3>
 			{% if page.channel or page.initial %}
 			<p>Try removing a filter.</p>
 			<ul class='search-recovery' role='list'>
 				{% if page.channel %}
 				<li><a class='text-link' href='{{ page.clear_channel_url }}'>
-					{{ 'Search' if page.query else 'Browse' }} all channels{% if page.query %}
+					{{ 'search' if page.query else 'browse' }} all channels{% if page.query %}
 					for <code>“{{ page.query }}”</code>{% endif %}</a></li>
 				{% endif %}
 				{% if page.initial %}
 				<li><a class='text-link' href='{{ page.clear_initial_url }}'>
-					{{ 'Search' if page.query else 'Browse' }} all initials{% if page.query %}
+					{{ 'search' if page.query else 'browse' }} all initials{% if page.query %}
 					for <code>“{{ page.query }}”</code>{% endif %}</a></li>
 				{% endif %}
 				{% if page.channel and page.initial %}
-				<li><a class='text-link' href='{{ page.clear_filters_url }}'>Clear both filters</a></li>
+				<li><a class='text-link' href='{{ page.clear_filters_url }}'>clear both filters</a></li>
 				{% endif %}
 			</ul>
 			{% elif page.query %}<p>Try a shorter name.</p>
 			{% else %}<p>No names are listed in this release.</p>{% endif %}
-			<a class='button-link' href='/?q='>Browse names <span aria-hidden='true'>→</span></a>
+			<a class='button-link' href='/?q='>browse names <span aria-hidden='true'>→</span></a>
 		</div>
 		{% endif %}
 	</section>
 	<aside class='side-column'>
 		<section class='side-note'>
-			<h2>Search notes</h2>
+			<h2>search notes</h2>
 			<p>Matches parts of executable names and project IDs, not package names.</p>
 		</section>
 		{{ snapshot_note() }}
