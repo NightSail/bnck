@@ -7,6 +7,8 @@ if gh release view "$TAG" >/dev/null 2>&1; then
 	exit 1
 fi
 
+notes="$(./.github/scripts/render-release-report.sh "var/releases/bnck-$RELEASE/manifest.json")"
+
 gh release create "$TAG" \
 	"var/releases/bnck-$RELEASE.tar.zst" \
 	"var/releases/bnck-$RELEASE/manifest.json" \
@@ -14,4 +16,4 @@ gh release create "$TAG" \
 	"var/releases/bnck-$RELEASE/SHA256SUMS" \
 	"var/releases/bnck-$RELEASE/SHA256SUMS.minisig" \
 	--title "bnck dataset $RELEASE" \
-	--notes "Dataset release $RELEASE."
+	--notes "$notes"

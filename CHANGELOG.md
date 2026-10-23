@@ -40,6 +40,7 @@ No public release has been made.
 - Debian, Fedora, Arch, Homebrew, crates.io, npm, and PyPI fetch jobs record acquisition context for import provenance
 - Failed imports write `failed` snapshots with an empty candidate artifact
 - Optional `--previous` acquisition comparison emits `removed` package observations
+- GitHub Release notes summarizing provider and name association counts plus observed packages and provider records per channel
 
 ### Changed
 
