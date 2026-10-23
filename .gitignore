@@ -1,4 +1,5 @@
 /target/
 /var/
 /worktrees/
+/minisign.key
 *.tmp

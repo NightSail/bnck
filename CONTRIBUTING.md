@@ -135,7 +135,7 @@ Manually dispatching with an empty release input assigns the next `YYYY-MM-DD.N`
 
 Required `cloudflare-pages` deployment environment configuration:
 
-- `MINISIGN_SECRET_KEY` secret: an unencrypted CI signing key. Minisign cannot accept a passphrase non-interactively.
+- `MINISIGN_SECRET_KEY` secret: an unencrypted CI signing key. Generate it with `minisign -G -W`; an empty passphrase still encrypts the key. Remove an existing passphrase with `minisign -C -W -s minisign.key`.
 - `CLOUDFLARE_API_TOKEN` secret with account-level `Cloudflare Pages` edit permission
 - `CLOUDFLARE_ACCOUNT_ID` secret
 - `CLOUDFLARE_PROJECT_NAME` environment variable
