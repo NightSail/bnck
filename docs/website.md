@@ -133,7 +133,7 @@ The generated `_headers` file supplies settings for hosts supporting that conven
 - All responses: `X-Content-Type-Options: nosniff`
 - Content security policy: `default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'`
 
-The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Pages applies the generated `_redirects` file directly; other hosts must configure equivalent redirects:
+The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Workers applies the generated `_redirects` file directly; other hosts must configure equivalent redirects:
 
 - `/data` and `/data/`: 302 to `/data/latest`
 - `/data/latest`: 302 to the current dataset release page
