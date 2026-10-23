@@ -3,7 +3,7 @@ import { mkdir, mkdtemp, readFile, rename, rm, stat, writeFile } from 'node:fs/p
 import { basename, dirname, join, resolve } from 'node:path';
 
 import { WebsiteDatabase } from './database';
-import { browserDataset } from './data';
+import { browserDataset, buildShortNameSections, shortSectionSlug } from './data';
 import { exportBytes } from './export-data';
 import { HTML_CSP } from './config';
 import { aboutPage, datasetPage, executablePage, homePage, notFoundPage, projectPage, shortPage } from './pages';
@@ -29,6 +29,7 @@ export async function buildSite(
 ): Promise<Map<string, Uint8Array>> {
 	const projects = database.listProjects();
 	const executables = database.listExecutables();
+	const shortSections = buildShortNameSections(database.shortNameUsage());
 	for (const project of projects) validateFileName(project);
 	for (const executable of executables) validateFileName(executable);
 
@@ -47,7 +48,9 @@ export async function buildSite(
 	addText(files, 'index.html', homePage(database, context));
 	addText(files, 'about/index.html', aboutPage(context));
 	addText(files, 'dataset/index.html', datasetPage(database, context));
-	addText(files, 'short/index.html', shortPage(database, context));
+	for (const section of shortSections) {
+		addText(files, `short/${shortSectionSlug(section)}/index.html`, shortPage(section, shortSections, context));
+	}
 	addText(files, '404.html', notFoundPage(context));
 	for (const project of projects) {
 		addText(files, `projects/${project}/index.html`, projectPage(database, project, context));

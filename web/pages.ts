@@ -15,9 +15,9 @@ import {
 	searchResult,
 	stats,
 } from './components';
-import { buildProjectMatrix, buildShortNameSections, groupExecutableProjects } from './data';
+import { buildProjectMatrix, groupExecutableProjects, shortSectionSlug } from './data';
 import { encodeSegment, formatNumber } from './naming';
-import { html, type Html } from './html';
+import { html, raw, type Html } from './html';
 import { renderPage } from './layout';
 import type { WebsiteDatabase } from './database';
 import type { ShortNameSection } from './types';
@@ -264,13 +264,15 @@ ${stats(database.stats)}
 	});
 }
 
-export function shortPage(database: WebsiteDatabase, context: PageContext): string {
-	const sections = buildShortNameSections(database.shortNameUsage());
-	const [twoLetter, ...threeLetter] = sections;
-	const total = sections.reduce((count, section) => count + section.cells.length, 0);
-	const used = sections.reduce((count, section) => count + section.used, 0);
+export function shortPage(section: ShortNameSection, sections: ShortNameSection[],
+	context: PageContext): string {
+	const total = sections.reduce((count, candidate) => count + candidate.cells.length, 0);
+	const used = sections.reduce((count, candidate) => count + candidate.used, 0);
+	const label = section.prefix === '' ? '2 letters' : `3 letters: ${section.prefix}`;
+	const description = section.prefix === '' ? 'two-letter names'
+		: `three-letter names starting with ${section.prefix}`;
 	return renderPage({
-		title: 'short names',
+		title: `short names: ${section.prefix === '' ? '2 letters' : section.prefix}`,
 		applicationAssets: context.applicationAssets,
 		clientSearch: false,
 		release: context.release,
@@ -286,12 +288,9 @@ export function shortPage(database: WebsiteDatabase, context: PageContext): stri
 	<p class='short-summary'>${countLabel(used, 'name')} seen of ${formatNumber(total)}.</p>
 </section>
 <nav class='short-nav' aria-label='Short name sections'>
-	<a href='#short-2'>2 letters</a>
-	${threeLetter.map((section) => html`<a href='#short-${section.prefix}'>${section.prefix}</a>`)}
+	${sections.map((candidate) => shortNavLink(candidate, section))}
 </nav>
-${renderShortSection(twoLetter, '2 letters', 'two-letter names')}
-${threeLetter.map((section) => renderShortSection(section, `3 letters: ${section.prefix}`,
-	`three-letter names starting with ${section.prefix}`))}`,
+${renderShortSection(section, label, description)}`,
 	});
 }
 
@@ -401,6 +400,12 @@ export function executablePage(database: WebsiteDatabase, executable: string, co
 <p class='detail-note'>Links open current package pages. Check versions and platform support there.</p>
 ${coverageNote()}`,
 	});
+}
+
+function shortNavLink(section: ShortNameSection, active: ShortNameSection): Html {
+	const label = section.prefix === '' ? '2 letters' : section.prefix;
+	const current = section === active ? raw("aria-current='page'") : '';
+	return html`<a href='/short/${shortSectionSlug(section)}' ${current}>${label}</a>`;
 }
 
 function renderShortSection(section: ShortNameSection, label: string, description: string): Html {

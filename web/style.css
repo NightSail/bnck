@@ -474,6 +474,7 @@ main {
 	font-size: 11px;
 	text-align: center;
 }
+.short-nav a[aria-current='page'],
 .short-nav a:hover {
 	border-color: var(--line-strong);
 	background: var(--green-surface);

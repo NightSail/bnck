@@ -19,6 +19,10 @@ export function buildShortNameSections(usage: ReadonlyMap<string, number>): Shor
 	return [shortSection('', usage), ...ALPHABET.map((prefix) => shortSection(prefix, usage))];
 }
 
+export function shortSectionSlug(section: ShortNameSection): string {
+	return section.prefix === '' ? '2' : section.prefix;
+}
+
 function shortSection(prefix: string, usage: ReadonlyMap<string, number>): ShortNameSection {
 	const cells = ALPHABET.flatMap((left) => ALPHABET.map((right) => {
 		const name = `${prefix}${left}${right}`;

@@ -27,7 +27,7 @@ No public release has been made.
 - Separate website About and Dataset pages with source, issue, release, contributing, and license links
 - Dataset page links to the latest release alias, latest tag, GitHub Releases, and current artifact downloads
 - TypeScript static site generation and browser modules
-- Short name map at `/short` with every two- and three-letter lowercase executable name
+- Short name map pages at `/short/2` and `/short/{letter}` covering every two- and three-letter lowercase executable name
 - Hot-reloading website development server with no runtime dependencies
 
 ### Changed

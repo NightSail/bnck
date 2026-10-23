@@ -53,7 +53,9 @@ test('generates a complete versioned site without modifying the database', async
 		for (const path of [
 			'about/index.html',
 			'dataset/index.html',
-			'short/index.html',
+			'short/2/index.html',
+			'short/a/index.html',
+			'short/z/index.html',
 			'404.html',
 			'projects/helix/index.html',
 			'executables/hx/index.html',
@@ -73,10 +75,17 @@ test('generates a complete versioned site without modifying the database', async
 		const project = await readFile(join(output, 'projects/helix/index.html'), 'utf8');
 		expect(project).toContain('https://helix-editor.com/');
 		expect(project).not.toContain('browser.js');
-		const short = await readFile(join(output, 'short/index.html'), 'utf8');
+		expect((await readdir(join(output, 'short'))).sort())
+			.toEqual(['2', ...'abcdefghijklmnopqrstuvwxyz']);
+		const short = await readFile(join(output, 'short/2/index.html'), 'utf8');
 		expect(short).toContain('short name map');
+		expect(short).toContain("href='/short/2' aria-current='page'");
 		expect(short).toContain("href='/executables/hx'");
-		expect(home).toContain("href='/short'");
+		const shortH = await readFile(join(output, 'short/h/index.html'), 'utf8');
+		expect(shortH).toContain("id='short-h'");
+		expect(shortH).toContain("href='/short/h' aria-current='page'");
+		expect(shortH).not.toContain("href='/executables/hx'");
+		expect(home).toContain("href='/short/2'");
 
 		const exported = await readFile(join(output, 'executables/hx/providers.json'), 'utf8');
 		expect(exported).toContain('\n\t"dataset_release"');

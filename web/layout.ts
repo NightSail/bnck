@@ -29,9 +29,9 @@ export function renderPage(shell: PageShell): string {
 			${searchForm()}
 			<p class='visually-hidden' id='search-hint'>Search by full or partial name.</p>
 		</div>
-		<a href='/short' ${current(shell.section, 'short')}>short names</a>`
+		<a href='/short/2' ${current(shell.section, 'short')}>short names</a>`
 		: html`<a href='/' ${current(shell.section, 'index')}>search</a>
-		<a href='/short' ${current(shell.section, 'short')}>short names</a>`;
+		<a href='/short/2' ${current(shell.section, 'short')}>short names</a>`;
 	const clientNotices = shell.clientSearch
 		? html`<noscript><p class='filter-notice'>Search and filtered browsing require JavaScript.
 	Project pages, executable pages, and JSON exports can be opened directly without it.</p></noscript>
@@ -73,7 +73,7 @@ export function renderPage(shell: PageShell): string {
 	<footer class='site-footer'>
 		<p><strong>bnck(1)</strong> <span>bin name check</span></p>
 		<nav class='footer-links' aria-label='Project links'>
-			<a href='/short'>short names</a>
+			<a href='/short/2'>short names</a>
 			<a href='/dataset'>dataset</a>
 			<a href='/about'>about</a>
 			<a href='${RELEASES_URL}' rel='external'>releases <span aria-hidden='true'>↗</span></a>
