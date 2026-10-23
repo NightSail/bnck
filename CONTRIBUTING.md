@@ -171,7 +171,7 @@ Run the website directly against the compressed or uncompressed SQLite artifact:
 just site-dev
 ```
 
-The dev server binds `127.0.0.1:3000` by default. It builds the site into a temporary directory, watches `web/` and the database artifact, and reloads connected pages after a successful rebuild. Pass a different database or address as `just site-dev var/other.sqlite.zst 0.0.0.0:8080`.
+The dev server binds `127.0.0.1:3000` by default. It builds the site into a temporary directory, watches `web/` and the database artifact, and reloads connected pages after a successful rebuild. Pass a different address or database as `just site-dev 0.0.0.0:8080 var/other.sqlite.zst`.
 
 Generate a static site and serve that exact output with Bun:
 
@@ -180,7 +180,7 @@ just site-build
 just site-preview
 ```
 
-The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just site-preview var/site 0.0.0.0:8080`, to change it. `site-build` clears its output directory before rebuilding. The generator itself refuses an existing output directory, so use a fresh path when invoking it directly:
+The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just site-preview 0.0.0.0:8080 var/site`, to change it. `site-build` clears its output directory before rebuilding. The generator itself refuses an existing output directory, so use a fresh path when invoking it directly:
 
 ```sh
 bun web/generate.ts \

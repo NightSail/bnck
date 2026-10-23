@@ -108,11 +108,11 @@ site-build database='var/bnck.sqlite.zst' output='var/site':
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
 # Serve a built static site from disk.
-site-preview directory='var/site' address='127.0.0.1:3000':
+site-preview address='127.0.0.1:3000' directory='var/site':
     bun web/preview.ts '{{ directory }}' '{{ address }}'
 
 # Run the site against a SQLite artifact with hot reloading.
-site-dev database='var/bnck.sqlite.zst' address='127.0.0.1:3000':
+site-dev address='127.0.0.1:3000' database='var/bnck.sqlite.zst':
     bun web/dev.ts --database '{{ database }}' --address '{{ address }}'
 
 fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
