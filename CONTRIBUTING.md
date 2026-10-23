@@ -127,7 +127,9 @@ This writes the release directory and `var/releases/bnck-2026-04-16.1.tar.zst`. 
 
 ## Release automation
 
-The `Release` workflow is manually dispatched with a CalVer identifier. It runs one acquisition job per channel, downloads the candidate artifacts into a build job, generates and publishes the dataset, then builds and deploys the site.
+The `Release` workflow runs daily at 03:17 UTC and can also be dispatched manually. It runs one acquisition job per channel, generates the dataset, and publishes only when the canonical provider digest differs from the latest dataset release. The site is rebuilt and deployed from the published SQLite artifact even when the dataset is unchanged.
+
+Manually dispatching with an empty release input assigns the next `YYYY-MM-DD.N` from the existing `bnck-dataset-*` tags. Supplying an identifier forces that release and bypasses the unchanged-dataset check. The tags are the sequence source of truth; deleting a tag allows its sequence to be reused.
 
 Required `cloudflare-pages` deployment environment configuration:
 
@@ -139,7 +141,9 @@ Required `cloudflare-pages` deployment environment configuration:
 
 The build and deployment jobs use this environment, so environment protection rules also apply to release signing. The Pages deployment targets the repository default branch; the Pages project's production branch must match it.
 
-The workflow passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
+The workflow tags releases `bnck-dataset-<CalVer>` so dataset releases remain distinct from other releases in the repository. It passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
+
+The unchanged check compares the canonical provider digest. Curation-only changes that do not alter provider relations require a manual dispatch to force a new release.
 
 ## Website development
 

@@ -133,12 +133,12 @@ The generated `_headers` file supplies settings for hosts supporting that conven
 - All responses: `X-Content-Type-Options: nosniff`
 - Content security policy: `default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'`
 
-The redirect map lives in `web/_redirects`. Cloudflare Pages applies the generated `_redirects` file directly; other hosts must configure equivalent redirects:
+The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Pages applies the generated `_redirects` file directly; other hosts must configure equivalent redirects:
 
 - `/data` and `/data/`: 302 to `/data/latest`
-- `/data/latest`: 302 to the latest GitHub Release page
-- `/data/latest/*`: 302 to the corresponding latest release asset
-- `/data/:release`: 302 to the versioned GitHub Release page
+- `/data/latest`: 302 to the current dataset release page
+- `/data/latest/*`: 302 to the corresponding current dataset release asset
+- `/data/:release`: 302 to the `bnck-dataset-:release` page
 - `/data/:release/*`: 301 to the corresponding versioned release asset
 
 Serve HTML as `text/html`, JSON as `application/json` without attachment disposition, CSS as `text/css`, and modules as `text/javascript` or `application/javascript`. Enable HTTP Brotli or gzip compression at the host; browsers decompress automatically, and no application-level compressed payload or decoder is shipped.
