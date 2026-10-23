@@ -129,6 +129,8 @@ This writes the release directory and `var/releases/bnck-2026-04-16.1.tar.zst`. 
 
 The `Release` workflow runs daily at 03:17 UTC and can also be dispatched manually. It runs one acquisition job per channel, generates the dataset, and publishes only when the canonical provider digest differs from the latest dataset release. The site is rebuilt and deployed from the published SQLite artifact even when the dataset is unchanged.
 
+Job steps call the scripts in `.github/scripts/`; the workflow supplies their inputs and secrets through step environment variables.
+
 Manually dispatching with an empty release input assigns the next `YYYY-MM-DD.N` from the existing `bnck-dataset-*` tags. Supplying an identifier forces that release and bypasses the unchanged-dataset check. The tags are the sequence source of truth; deleting a tag allows its sequence to be reused.
 
 Required `cloudflare-pages` deployment environment configuration:
