@@ -51,5 +51,6 @@ No public release has been made.
 - SQLite schema version is 2 for provider relations and name associations.
 - Curation schema is 1, release manifest format is 2, and the browser dataset schema is 2.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.
+- Debian acquisition fetches the active archive and release signing keys from ftp-master instead of relying on the runner's `debian-archive-keyring` package.
 - The release workflow is now a single `just release` command that assembles, signs, verifies, and packages the release.
 - Website generation and development serving moved from Rust to Bun and TypeScript. `just site-build` generates the static site and `just site-dev` runs the hot-reloading server.

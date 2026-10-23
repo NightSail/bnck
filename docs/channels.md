@@ -92,7 +92,7 @@ License URLs, issue-tracker URLs, documentation URLs, and source archive URLs ar
 
 ### Debian
 
-`just fetch-debian` fetches `InRelease`, `Packages.xz`, `Sources.xz`, `Contents-<architecture>.gz`, and `Contents-all.gz` for the configured stable suite and unstable suite. It verifies `InRelease` with `gpgv` and the Debian archive keyring before downloading indexes. Set `DEBIAN_KEYRING` when the keyring is not at `/usr/share/keyrings/debian-archive-keyring.gpg`. The indexes are decompressed before import.
+`just fetch-debian` fetches `InRelease`, `Packages.xz`, `Sources.xz`, `Contents-<architecture>.gz`, and `Contents-all.gz` for the configured stable suite and unstable suite. It downloads the active archive and release signing keys from `https://ftp-master.debian.org/keys/` into `var/cache/debian/archive-keyring.gpg`, then verifies `InRelease` with `gpgv` before downloading indexes. The key list in the Debian justfile must be updated when Debian publishes new active keys. Set `DEBIAN_KEYRING` to use another keyring. The indexes are decompressed before import.
 
 `import-debian` verifies every downloaded index against the SHA-256 checksums and sizes in `InRelease`. The snapshot boundary records the `InRelease` release date, and its input signature records the verifying key fingerprint. The base URL, suite, component, and architecture come from the Debian justfile variables; signature verification does not cover package archives because they are not downloaded.
 

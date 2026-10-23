@@ -3,17 +3,42 @@ debian_suite := env_var_or_default('DEBIAN_SUITE', 'stable')
 debian_sid_suite := env_var_or_default('DEBIAN_SID_SUITE', 'unstable')
 debian_component := env_var_or_default('DEBIAN_COMPONENT', 'main')
 debian_arch := env_var_or_default('DEBIAN_ARCH', 'amd64')
-debian_keyring := env_var_or_default('DEBIAN_KEYRING', '/usr/share/keyrings/debian-archive-keyring.gpg')
+debian_key_url := env_var_or_default('DEBIAN_KEY_URL', 'https://ftp-master.debian.org/keys')
+# Active archive and release keys listed at https://ftp-master.debian.org/keys.html.
+debian_signing_keys := 'archive-key-11.asc archive-key-12.asc archive-key-13.asc release-11.asc release-12.asc release-13.asc'
+debian_keyring := env_var_or_default('DEBIAN_KEYRING', 'var/cache/debian/archive-keyring.gpg')
 debian_input := 'var/input/debian'
 debian_sid_input := 'var/input/debian-sid'
 debian_output := 'var/acquired/debian.jsonl'
 debian_sid_output := 'var/acquired/debian-sid.jsonl'
 
-fetch-debian: fetch-debian-stable fetch-debian-sid
+fetch-debian: _fetch-debian-keys fetch-debian-stable fetch-debian-sid
 
-fetch-debian-stable: (_fetch-debian-suite debian_suite debian_input)
+fetch-debian-stable: _fetch-debian-keys (_fetch-debian-suite debian_suite debian_input)
 
-fetch-debian-sid: (_fetch-debian-suite debian_sid_suite debian_sid_input)
+fetch-debian-sid: _fetch-debian-keys (_fetch-debian-suite debian_sid_suite debian_sid_input)
+
+_fetch-debian-keys:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if [[ -n "${DEBIAN_KEYRING:-}" ]]; then
+        printf 'Using Debian keyring from DEBIAN_KEYRING: %s\n' "$DEBIAN_KEYRING" >&2
+        exit 0
+    fi
+    base='{{ debian_key_url }}'
+    output='{{ debian_keyring }}'
+    keys=({{ debian_signing_keys }})
+    mkdir -p "$(dirname "$output")"
+    temporary="$(mktemp "${output}.XXXXXX")"
+    trap 'rm -f "$temporary"' EXIT
+    for key in "${keys[@]}"; do
+        curl --fail --location --retry 3 "$base/$key" | gpg --dearmor >> "$temporary"
+    done
+    test -s "$temporary"
+    chmod 644 "$temporary"
+    mv "$temporary" "$output"
+    trap - EXIT
+    {{ size }} 'Pulled Debian signing keys into {{ debian_keyring }}' '{{ debian_keyring }}'
 
 _fetch-debian-suite suite input:
     #!/usr/bin/env bash
@@ -29,7 +54,7 @@ _fetch-debian-suite suite input:
     mkdir -p "$input"
     test -f "$keyring" || {
         printf 'Debian archive keyring not found: %s\n' "$keyring" >&2
-        printf 'Install debian-archive-keyring or set DEBIAN_KEYRING.\n' >&2
+        printf 'Set DEBIAN_KEYRING to a Debian archive keyring.\n' >&2
         exit 1
     }
     {{ context }} reset "$context"
