@@ -66,6 +66,7 @@ generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sql
     	revision="$(git rev-parse HEAD)"; \
     	{{ bnck }} generate-sqlite \
     		--input '{{ input }}' \
+        --names-input '{{ names_input }}' \
     		--output '{{ output }}' \
     		--dataset-release '{{ dataset_release }}' \
     		--generated-at "$generated_at" \
@@ -89,6 +90,7 @@ release dataset_release secret_key='minisign.key' public_key='minisign.pub' inpu
     if [ "${BNCK_CANDIDATE_ONLY:-0}" = '1' ]; then candidate_only='--candidate-only'; fi
     {{ bnck }} assemble-release \
         --input '{{ input }}' \
+        --names-input '{{ names_input }}' \
         --acquisitions '{{ acquisitions }}' \
         --output "$release" \
         --dataset-release '{{ dataset_release }}' \

@@ -133,6 +133,20 @@ test('generates a complete versioned site without modifying the database', async
 	}
 });
 
+test('rejects an unsupported SQLite schema with a rebuild message', async () => {
+	const fixture = await createFixture([provider('helix', 'hx', 'debian')]);
+	try {
+		const database = new Database(fixture.path);
+		database.exec("UPDATE metadata SET value = '1' WHERE key = 'schema_version'; PRAGMA user_version = 1;");
+		database.close();
+		await expect(WebsiteDatabase.open(fixture.path)).rejects.toThrow(
+			'database SQLite schema 1 is unsupported; expected 2',
+		);
+	} finally {
+		await fixture.cleanup();
+	}
+});
+
 test('project link changes only invalidate the dataset', async () => {
 	const fixture = await createFixture([provider('helix', 'hx', 'debian')]);
 	const root = await mkdtemp(join(tmpdir(), 'bnck-site-'));

@@ -2,7 +2,7 @@ import { Database } from 'bun:sqlite';
 import { stat } from 'node:fs/promises';
 import { extname } from 'node:path';
 
-import { SEARCH_PAGE_SIZE, SEARCH_PAGE_SIBLINGS } from './config';
+import { ASSOCIATION_SCHEMA_VERSION, SEARCH_PAGE_SIZE, SEARCH_PAGE_SIBLINGS, SQLITE_SCHEMA_VERSION } from './config';
 import { compareNames, encodeSegment, foldAscii } from './naming';
 import type {
 	AssociationRole,
@@ -132,15 +132,26 @@ export class WebsiteDatabase {
 		database.exec('PRAGMA query_only = ON;');
 
 		const schemaVersion = readUserVersion(database);
+		if (schemaVersion !== SQLITE_SCHEMA_VERSION) {
+			throw new Error(`database SQLite schema ${schemaVersion} is unsupported; expected ${SQLITE_SCHEMA_VERSION}`);
+		}
 		const metadata = readMetadata(database);
 		const metadataSchema = parseInteger(requiredMetadata(metadata, 'schema_version'), 'metadata schema_version');
 		if (metadataSchema !== schemaVersion) {
 			throw new Error('SQLite and metadata schema versions disagree');
 		}
 		for (const key of REQUIRED_METADATA) requiredMetadata(metadata, key);
+		const associationSchema = parseInteger(
+			requiredMetadata(metadata, 'association_schema_version'),
+			'metadata association_schema_version',
+		);
+		if (associationSchema !== ASSOCIATION_SCHEMA_VERSION) {
+			throw new Error(
+				`database association schema ${associationSchema} is unsupported; expected ${ASSOCIATION_SCHEMA_VERSION}`,
+			);
+		}
 
 		const stats = readStats(database);
-		parseInteger(requiredMetadata(metadata, 'association_schema_version'), 'metadata association_schema_version');
 		const expectedProviderCount = parseInteger(
 			requiredMetadata(metadata, 'provider_count'),
 			'metadata provider_count',

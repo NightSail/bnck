@@ -2,6 +2,8 @@ export const CHANNELS = ['arch', 'crates.io', 'debian', 'fedora', 'homebrew', 'n
 export const SEARCH_PAGE_SIZE = 30;
 export const SEARCH_PAGE_SIBLINGS = 2;
 export const SEARCH_RELATED_NAME_LIMIT = 3;
+export const SQLITE_SCHEMA_VERSION = 2;
+export const ASSOCIATION_SCHEMA_VERSION = 1;
 export const BROWSER_DATASET_SCHEMA_VERSION = 2;
 
 export const REPOSITORY_URL = 'https://github.com/NightSail/bnck';
