@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"site:build": "bun web/generate.ts",
+		"site:dev": "bun web/dev.ts",
+		"site:preview": "bun web/preview.ts",
+		"test": "bun test ./web/*.test.ts ./tests/*.test.js",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.4.4",
+		"typescript": "^7.0.2"
+	}
+}

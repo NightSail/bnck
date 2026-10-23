@@ -26,6 +26,8 @@ No public release has been made.
 - Expanded seed curations from Terminal Trove and tldr hint batches
 - Separate website About and Dataset pages with source, issue, release, contributing, and license links
 - Dataset page links to the latest release alias, latest tag, GitHub Releases, and current artifact downloads
+- TypeScript static site generation and browser modules
+- Hot-reloading website development server with no runtime dependencies
 
 ### Changed
 
@@ -34,3 +36,4 @@ No public release has been made.
 - SQLite schema version is 1 for the first public schema. Pre-publication development artifacts labeled 2 are not release-compatible.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.
 - The release workflow is now a single `just release` command that assembles, signs, verifies, and packages the release.
+- Website generation and development serving moved from Rust to Bun and TypeScript. `just site-build` generates the static site and `just site-dev` runs the hot-reloading server.

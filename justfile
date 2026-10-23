@@ -26,7 +26,8 @@ check:
     for file in justfile justfiles/*.just; do just --fmt --check --justfile "$file"; done
     cargo clippy --all-targets -- -D warnings
     cargo test
-    bun test ./web/*.test.js ./tests/*.test.js
+    bun run typecheck
+    bun test ./web/*.test.ts ./tests/*.test.js
 
 format:
     cargo fmt
@@ -100,17 +101,19 @@ release dataset_release secret_key='minisign.key' public_key='minisign.pub' inpu
     {{ size }} 'Wrote release directory' "$release"
     {{ size }} 'Wrote release archive' "$archive"
 
-# Rebuild the static site, replacing any previous output at the destination.
-generate-site database='var/bnck.sqlite.zst' output='var/site':
+# Build the static site, replacing any previous output at the destination.
+site-build database='var/bnck.sqlite.zst' output='var/site':
     rm -rf '{{ output }}'
-    {{ bnck }} generate-site --database '{{ database }}' --output '{{ output }}'
+    bun web/generate.ts --database '{{ database }}' --output '{{ output }}'
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
-preview directory='var/site' address='127.0.0.1:3000':
-    bun web/preview.js '{{ directory }}' '{{ address }}'
+# Serve a built static site from disk.
+site-preview directory='var/site' address='127.0.0.1:3000':
+    bun web/preview.ts '{{ directory }}' '{{ address }}'
 
-serve database='var/bnck.sqlite.zst' address='127.0.0.1:3000':
-    {{ bnck }} serve --database '{{ database }}' --address '{{ address }}'
+# Run the site against a SQLite artifact with hot reloading.
+site-dev database='var/bnck.sqlite.zst' address='127.0.0.1:3000':
+    bun web/dev.ts --database '{{ database }}' --address '{{ address }}'
 
 fetch-distros: fetch-debian fetch-fedora fetch-arch fetch-homebrew
 

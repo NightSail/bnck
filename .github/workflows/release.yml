@@ -148,25 +148,19 @@ jobs:
     environment: cloudflare-pages
     steps:
       - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.4'
       - uses: extractions/setup-just@v2
         with:
           just-version: '1.58.0'
-      - uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cargo/registry
-            ~/.cargo/git
-            target
-          key: cargo-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}-site
-          restore-keys: |
-            cargo-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}-
       - name: Download released SQLite artifact
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ needs.build.outputs.dataset_tag }}
         run: ./.github/scripts/download-released-sqlite.sh
       - name: Generate static site
-        run: just generate-site
+        run: just site-build
       - name: Deploy Cloudflare Worker
         uses: cloudflare/wrangler-action@v4
         with:

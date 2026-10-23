@@ -4,9 +4,10 @@ Covers development, acquisition jobs, curations, release publication, and the we
 
 ## Development checks
 
-Run `just check` with Rust, just, and Bun installed. It runs formatting checks, Clippy, Rust tests, browser unit tests, acquisition-job tests, and JavaScript/SQLite search comparisons:
+Run `just check` with Rust, just, and Bun installed. Install the TypeScript tooling once, then run the checks. They cover formatting, Clippy, Rust tests, TypeScript types, browser unit tests, acquisition-job tests, and browser/SQLite search comparisons:
 
 ```sh
+bun install
 just check
 ```
 
@@ -164,28 +165,38 @@ The unchanged check compares the canonical provider digest. Curation-only change
 
 ## Website development
 
-Generate a fully static website from the compressed or uncompressed SQLite artifact, then preview it locally with Bun:
+Run the website directly against the compressed or uncompressed SQLite artifact:
 
 ```sh
-just generate-site
-just preview
+just site-dev
 ```
 
-The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just preview var/site 0.0.0.0:8080`, to change it. `generate-site` clears its output directory before rebuilding. The generator itself refuses an existing output directory, so use a fresh path when invoking it directly:
+The dev server binds `127.0.0.1:3000` by default. It builds the site into a temporary directory, watches `web/` and the database artifact, and reloads connected pages after a successful rebuild. Pass a different database or address as `just site-dev var/other.sqlite.zst 0.0.0.0:8080`.
+
+Generate a static site and serve that exact output with Bun:
 
 ```sh
-cargo run -- generate-site \
+just site-build
+just site-preview
+```
+
+The preview binds `127.0.0.1:3000` by default; pass `HOST:PORT`, as in `just site-preview var/site 0.0.0.0:8080`, to change it. `site-build` clears its output directory before rebuilding. The generator itself refuses an existing output directory, so use a fresh path when invoking it directly:
+
+```sh
+bun web/generate.ts \
 	--database var/bnck.sqlite.zst \
 	--output var/site-next
-bun web/preview.js var/site-next 127.0.0.1:3000
+bun web/preview.ts var/site-next 127.0.0.1:3000
 ```
 
 Production needs no application server or browser database runtime. Publish the output at the origin root of a case-sensitive static host with directory index support: `/projects/helix` resolves to `projects/helix/index.html`, and hosts may redirect to a trailing slash. Configure the generated `404.html` as the error page rather than an SPA fallback, enable HTTP compression, and apply the generated `_headers` file or equivalents. Deploy pages and assets together and retain previous application directories and dataset files so open pages finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
 
-HTML templates live under `web/templates/` and the stylesheet is `web/style.css`. Debug builds read templates, stylesheets, and browser modules from disk during generation; release builds embed them. Rebuild the static output after edits. `just serve` keeps the SQLite-backed server-rendered interface for development and query comparisons.
+Page renderers live in `web/pages.ts`, shared markup in `web/components.ts`, and the stylesheet is `web/style.css`. Browser entry points are TypeScript modules under `web/`; the generator bundles them with Bun. Source edits automatically rebuild the dev site, while a static output needs `just site-build` again.
 
 ## Responsibilities
 
 Just recipes handle directory creation, HTTP downloads, archive extraction, job ordering, and passing local paths between steps. They parse or reshape channel data only for decompression and archive extraction.
 
 Rust code handles CSV, JSON, TOML, and wheel metadata parsing; acquisition snapshot manifests, package observations, and input digests; release selection; package and executable normalization; curation validation and resolution; and deterministic JSON Lines generation. It does not shell out or perform network requests.
+
+TypeScript code in `web/` reads the SQLite artifact, renders the static site and JSON exports, and serves the development and preview interfaces.

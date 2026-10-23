@@ -3,3 +3,4 @@
 /worktrees/
 /minisign.key
 *.tmp
+/node_modules/
