@@ -17,9 +17,9 @@ just check
 just demo
 ```
 
-Acquires curated npm packages and Black into a fresh `var/demo/` directory and prints its path. It contains `acquired/npm.jsonl`, `acquired/pypi.jsonl`, their manifests, and `providers.jsonl`. Demo jobs never change production acquisitions, provider output, or default input selections.
+Acquires curated npm packages and Black into a fresh `var/demo/` directory and prints its path. It contains `acquired/npm.jsonl`, `acquired/pypi.jsonl`, their manifests, `providers.jsonl`, and `names.jsonl`. Demo jobs never change production acquisitions, provider output, name associations, or default input selections.
 
-Provider records are accepted only through the checked-in curations under `curations/`. Dataset generation requires adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
+Provider records and name associations are accepted only through the checked-in curations under `curations/`. Dataset generation requires adjacent snapshot manifests; rerun the import jobs after upgrading from candidate-only acquisition files.
 
 ## Acquisition jobs
 
@@ -81,7 +81,7 @@ Fetch jobs end with the on-disk size of the inputs they retain; import, generate
 
 ## Curations
 
-Project definitions and package ownership rules live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, and validation requirements.
+Project definitions, package ownership rules, and name associations live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, name associations, and validation requirements.
 
 ### Hint ingestion
 
@@ -132,7 +132,7 @@ Generate the compressed SQLite consumer artifact from the canonical provider JSO
 just generate-sqlite 2026-04-16.1
 ```
 
-This writes `var/bnck.sqlite.zst` after validating the canonical JSON Lines encoding, ordering, and uniqueness. The SQLite metadata table records the SHA-256 of the uncompressed JSON Lines, provider count, release identifier, generation time, generator version, and Git revision. Curated homepages, repositories, documentation, issue trackers, and additional links are included as project metadata.
+This writes `var/bnck.sqlite.zst` after validating the canonical provider and name association JSON Lines encoding, ordering, and uniqueness. The SQLite metadata table records the SHA-256 and count of both uncompressed JSON Lines artifacts, release identifier, generation time, generator version, and Git revision. Curated homepages, repositories, documentation, issue trackers, additional links, and name associations are included.
 
 Assemble, sign, verify, and package a release:
 
@@ -144,7 +144,7 @@ This writes the release directory and `var/releases/bnck-2026-04-16.1.tar.zst`. 
 
 ## Release automation
 
-The `Release` workflow runs daily at 03:17 UTC and can also be dispatched manually. It runs one acquisition job per channel, generates the dataset, and publishes only when the canonical provider digest differs from the latest dataset release. The site is rebuilt and deployed from the published SQLite artifact even when the dataset is unchanged.
+The `Release` workflow runs daily at 03:17 UTC and can also be dispatched manually. It runs one acquisition job per channel, generates the dataset, and publishes only when a canonical provider or name association digest differs from the latest dataset release. The site is rebuilt and deployed from the published SQLite artifact even when the dataset is unchanged.
 
 Job steps call the scripts in `.github/scripts/`; the workflow supplies their inputs and secrets through step environment variables.
 
@@ -161,7 +161,7 @@ The build and deployment jobs use this environment, so environment protection ru
 
 The workflow tags releases `bnck-dataset-<CalVer>` so dataset releases remain distinct from other releases in the repository. It passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
 
-The unchanged check compares the canonical provider digest. Curation-only changes that do not alter provider relations require a manual dispatch to force a new release.
+The unchanged check compares both canonical JSON Lines digests. Curation-only changes that do not alter either digest require a manual dispatch to force a new release.
 
 ## Website development
 

@@ -168,7 +168,7 @@ The global project index is not fetched. PEP 658 metadata sidecars, source distr
 
 ## Curation boundary
 
-Importers never decide that packages from different channels belong to the same project from names or URLs alone. They emit hints and package observations; curations accept or reject project attribution and assign individual executables when a package mixes projects.
+Importers never decide that packages from different channels belong to the same project from names or URLs alone. They emit hints and package observations; curations accept or reject project attribution and assign individual executables when a package mixes projects. Name associations are editorial context and do not affect acquisition or provider resolution.
 
 ## Further specifications
 

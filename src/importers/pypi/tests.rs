@@ -153,7 +153,7 @@ fn imports_only_the_current_selection_and_checks_its_digest_and_metadata() {
 fn curated_metadata(root: &Path) -> (PathBuf, MetadataPlan) {
 	let curations = root.join("curations");
 	fs::create_dir_all(curations.join("projects")).unwrap();
-	fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+	fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
 	fs::write(
 		curations.join("projects/tool.toml"),
 		"id = 'tool'\nname = 'Tool'\n[[package]]\nchannel = 'pypi'\nname = 'some-tool'\n",

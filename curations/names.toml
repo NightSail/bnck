@@ -1,0 +1,80 @@
+# Name associations are editorial identity relations, not package provider
+# records. A reference names the project most strongly associated with a
+# command; an implementation names a project known to implement it under
+# another command or through an applet namespace.
+
+[[association]]
+executable = 'cat'
+project = 'coreutils'
+role = 'reference'
+reason = 'GNU coreutils is the reference implementation of the POSIX cat utility'
+references = [
+	'https://pubs.opengroup.org/onlinepubs/9699919799/utilities/cat.html',
+	'https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html',
+]
+
+[[association]]
+executable = 'cat'
+project = 'uutils-coreutils'
+role = 'implementation'
+reason = 'uutils implements cat under uu-cat, uu_cat, and the coreutils multicall binary'
+references = ['https://github.com/uutils/coreutils']
+
+[[association]]
+executable = 'cat'
+project = 'busybox'
+role = 'implementation'
+reason = 'BusyBox implements cat as an applet through the busybox dispatcher'
+references = ['https://busybox.net/downloads/BusyBox.html']
+
+[[association]]
+executable = 'cat'
+project = 'toybox'
+role = 'implementation'
+reason = 'Toybox implements cat as an applet through the toybox dispatcher'
+references = ['https://landley.net/toybox/help.html']
+
+[[association]]
+executable = 'ls'
+project = 'coreutils'
+role = 'reference'
+reason = 'GNU coreutils is the reference implementation of the POSIX ls utility'
+references = [
+	'https://pubs.opengroup.org/onlinepubs/9699919799/utilities/ls.html',
+	'https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html',
+]
+
+[[association]]
+executable = 'ls'
+project = 'uutils-coreutils'
+role = 'implementation'
+reason = 'uutils implements ls under uu-ls, uu_ls, and the coreutils multicall binary'
+references = ['https://github.com/uutils/coreutils']
+
+[[association]]
+executable = 'ls'
+project = 'busybox'
+role = 'implementation'
+reason = 'BusyBox implements ls as an applet through the busybox dispatcher'
+references = ['https://busybox.net/downloads/BusyBox.html']
+
+[[association]]
+executable = 'ls'
+project = 'toybox'
+role = 'implementation'
+reason = 'Toybox implements ls as an applet through the toybox dispatcher'
+references = ['https://landley.net/toybox/help.html']
+
+[[association]]
+executable = 'awk'
+project = 'one-true-awk'
+role = 'reference'
+reason = 'The original AWK implementation and the historical referent of the awk command'
+references = ['https://github.com/onetrueawk/awk']
+
+[[association]]
+executable = 'awk'
+project = 'busybox'
+role = 'implementation'
+reason = 'BusyBox implements awk as an applet through the busybox dispatcher'
+references = ['https://busybox.net/downloads/BusyBox.html']

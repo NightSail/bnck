@@ -1,0 +1,21 @@
+id = 'uutils-coreutils'
+name = 'uutils coreutils'
+
+homepage = 'https://uutils.github.io/coreutils/'
+repository = 'https://github.com/uutils/coreutils'
+
+[[package]]
+channel = 'arch'
+name = 'uutils-coreutils'
+
+[[package]]
+channel = 'debian'
+name = 'rust-coreutils'
+
+[[package]]
+channel = 'fedora'
+name = 'uutils-coreutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uutils-coreutils'

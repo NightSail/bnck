@@ -10,6 +10,7 @@ Curations connect acquired channel packages and executable names to canonical pr
 - Exclusions for false executable candidates
 - Replacements for incorrectly reported executable names
 - Additions that static acquisition cannot observe
+- Editorial associations between executable names and reference or implementation projects
 
 Acquired package metadata and executable lists stay out of curation files. Dataset generation combines immutable acquisition snapshots with a specific curation revision to produce provider records.
 
@@ -20,6 +21,7 @@ Curations are TOML: human-readable, comment-friendly, strictly parseable, and no
 ```text
 curations/
 ├── manifest.toml
+├── names.toml
 ├── projects/
 │   ├── helix.toml
 │   └── ripgrep.toml
@@ -39,10 +41,10 @@ Base filenames are organizational and do not establish identity. Exact project a
 `curations/manifest.toml` declares the schema version:
 
 ```toml
-schema = 0
+schema = 1
 ```
 
-This version is independent of the provider, release, acquisition, and browser schema versions. An incompatible change increments it and migrates affected files atomically. Changes to field names, types, required fields, or resolution semantics are incompatible; current readers reject unknown fields, so adding a field is also incompatible.
+This version is independent of the provider, release, acquisition, and browser schema versions. An incompatible change increments it and migrates affected files atomically. Changes to field names, types, required fields, or resolution semantics are incompatible; current readers reject unknown fields, so adding a field is also incompatible. Schema 1 adds name associations.
 
 ## Project definitions
 
@@ -240,6 +242,41 @@ Multicall packages expose a dispatcher or an applet namespace, not every applet 
 
 Shell builtins are also not provider records unless the package installs a command for the name.
 
+## Name associations
+
+`curations/names.toml` records editorial associations between executable names and projects. They supplement provider records; they never assert that a package installs the name.
+
+```toml
+[[association]]
+executable = 'ls'
+project = 'coreutils'
+role = 'reference'
+reason = 'GNU coreutils is the reference implementation of the POSIX ls utility'
+references = [
+	'https://pubs.opengroup.org/onlinepubs/9699919799/utilities/ls.html',
+	'https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html',
+]
+
+[[association]]
+executable = 'ls'
+project = 'uutils-coreutils'
+role = 'implementation'
+reason = 'uutils implements ls under uu-ls, uu_ls, and the coreutils multicall binary'
+references = ['https://github.com/uutils/coreutils']
+```
+
+Each association requires:
+
+- `executable`: Exact command name
+- `project`: Existing project ID
+- `role`: Either `reference` or `implementation`
+- `reason`: Non-empty explanation
+- `references`: At least one durable reference
+
+`reference` identifies the project most strongly associated with the name. At most one reference is allowed per executable. `implementation` identifies a project known to implement the name under another command or through an applet namespace. An association may name a project with no current provider record for that executable; that is the purpose of the separate relation.
+
+Associations do not affect provider resolution. Duplicate `(executable, project)` pairs and multiple references for one executable are validation errors.
+
 ## Resolution
 
 Dataset generation resolves each curated package in this order:
@@ -259,11 +296,13 @@ Rule order inside a TOML file does not change these semantics.
 
 Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a complete selected channel snapshot is an error. Absence from a partial acquisition is skipped, not treated as stale curation.
 
+Name associations are resolved independently of package resolution. They are emitted separately from provider records.
+
 Release provenance identifies the pinned acquisition snapshots, the source revision containing the curations and generator, and the applicable schema versions.
 
 ## Scale
 
-The format stores `O(P + M)` facts for `P` projects and `M` ordinary project-to-package relationships, but uses `O(P + E)` files for `E` exceptional packages. Ordinary projects need one file regardless of channel count. Exceptional package files can be sharded by directory without changing package identity.
+The format stores `O(P + M)` facts for `P` projects and `M` ordinary project-to-package relationships, but uses `O(P + E)` files for `E` exceptional packages. Ordinary projects need one file regardless of channel count. Exceptional package files can be sharded by directory without changing package identity. Name associations add `O(A)` facts in one file.
 
 ## Automatic hint ingestion
 
@@ -340,6 +379,11 @@ Validation fails on:
 - A mixed package with unhandled acquired executables
 - A rule referring to an acquired executable that no longer exists
 - A curated package absent from the selected complete channel snapshot
+- An association referencing an unknown project
+- An unknown association role
+- An association without a reason or reference
+- A duplicate association for one executable and project
+- Multiple reference associations for one executable
 
 Validation must distinguish stale curation from incomplete acquisition: a failed or partial importer run must not make valid curation appear stale.
 

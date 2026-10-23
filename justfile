@@ -61,7 +61,7 @@ apply-hints hints='var/hints' acquisitions='var/acquired' report='var/hint-inges
         --report '{{ report }}' \
         --apply
 
-generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst':
+generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sqlite.zst' names_input='var/names.jsonl':
     generated_at="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"; \
     	revision="$(git rev-parse HEAD)"; \
     	{{ bnck }} generate-sqlite \
@@ -72,7 +72,7 @@ generate-sqlite dataset_release input='var/providers.jsonl' output='var/bnck.sql
     		--generator-revision "$revision"
     @{{ size }} 'Wrote {{ output }}' '{{ output }}'
 
-release dataset_release secret_key='minisign.key' public_key='minisign.pub' input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases':
+release dataset_release secret_key='minisign.key' public_key='minisign.pub' input='var/providers.jsonl' acquisitions='var/acquired' output='var/releases' names_input='var/names.jsonl':
     #!/usr/bin/env bash
     set -euo pipefail
     release='{{ output }}/bnck-{{ dataset_release }}'
@@ -164,6 +164,7 @@ import-languages:
 stats:
     for file in var/acquired/*.jsonl; do printf '%-32s %s\n' "$file" "$(wc -l < "$file")"; done
     if test -f var/providers.jsonl; then printf '%-32s %s\n' var/providers.jsonl "$(wc -l < var/providers.jsonl)"; fi
+    if test -f var/names.jsonl; then printf '%-32s %s\n' var/names.jsonl "$(wc -l < var/names.jsonl)"; fi
 
 # Keep demo inputs and acquisitions separate from production snapshots and providers.
 demo:

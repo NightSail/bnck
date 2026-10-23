@@ -1,0 +1,16 @@
+id = 'busybox'
+name = 'BusyBox'
+
+homepage = 'https://busybox.net'
+
+[[package]]
+channel = 'arch'
+name = 'busybox'
+
+[[package]]
+channel = 'debian'
+name = 'busybox'
+
+[[package]]
+channel = 'fedora'
+name = 'busybox'

@@ -75,7 +75,7 @@ The schema supports input `uri` values, but current local import commands do not
 
 ## Versioning
 
-`format_version` is `1`. Increment it for changes to candidate or snapshot field names, types, requiredness, meaning, identity inputs, or the supported channel key set. Current readers reject unknown fields, so adding a field is also incompatible. The acquisition format version is independent of the provider, release, curation, and browser schemas.
+`format_version` is `1`. Increment it for changes to candidate or snapshot field names, types, requiredness, meaning, identity inputs, or the supported channel key set. Current readers reject unknown fields, so adding a field is also incompatible. The acquisition format version is independent of the provider, name association, release, curation, and browser schemas.
 
 ## Generation rules
 

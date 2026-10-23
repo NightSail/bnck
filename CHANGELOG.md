@@ -25,6 +25,9 @@ No public release has been made.
 - Persistent hint rejections for candidates that must not be re-ingested
 - Expanded seed curations from Terminal Trove and tldr hint batches
 - Base command curation for GNU coreutils and separate gawk, mawk, and one-true-awk projects, including Debian awk and nawk alternatives
+- BusyBox and uutils coreutils curations
+- Name associations with `reference` and `implementation` roles, released as `names.jsonl` and the SQLite `name_associations` table
+- Executable and project pages show reference and implementation associations separately from package providers
 - Separate website About and Dataset pages with source, issue, release, contributing, and license links
 - Dataset page links to the latest release alias, latest tag, GitHub Releases, and current artifact downloads
 - TypeScript static site generation and browser modules
@@ -35,7 +38,8 @@ No public release has been made.
 
 - Website headings, navigation, controls, and labels use lowercase; prose keeps sentence case.
 - Dataset details moved from `/about` to `/dataset`; `/about` now presents the project.
-- SQLite schema version is 1 for the first public schema. Pre-publication development artifacts labeled 2 are not release-compatible.
+- SQLite schema version is 2 for provider relations and name associations.
+- Curation schema is 1, release manifest format is 2, and the browser dataset schema is 2.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.
 - The release workflow is now a single `just release` command that assembles, signs, verifies, and packages the release.
 - Website generation and development serving moved from Rust to Bun and TypeScript. `just site-build` generates the static site and `just site-dev` runs the hot-reloading server.

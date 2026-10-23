@@ -6,7 +6,7 @@ use super::{CuratedScope, MetadataPlan, normalize_pypi_name, plan_npm, plan_pypi
 
 fn curations(root: &std::path::Path) {
 	fs::create_dir_all(root.join("projects")).unwrap();
-	fs::write(root.join("manifest.toml"), "schema = 0\n").unwrap();
+	fs::write(root.join("manifest.toml"), "schema = 1\n").unwrap();
 	fs::write(
 		root.join("projects/tool.toml"),
 		concat!(

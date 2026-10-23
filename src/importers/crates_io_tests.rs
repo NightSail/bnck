@@ -30,7 +30,7 @@ fn bulk_selection_discovers_renamed_packages_by_repository_and_uses_current_stab
 	let root = tempdir().unwrap();
 	let curations = root.path().join("curations");
 	fs::create_dir_all(curations.join("projects")).unwrap();
-	fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+	fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
 	fs::write(
 		curations.join("projects/tool.toml"),
 		"id = 'tool'\nname = 'Tool'\nrepository = 'https://github.com/owner/tool'\n",
@@ -64,9 +64,11 @@ fn bulk_selection_discovers_renamed_packages_by_repository_and_uses_current_stab
 			&acquired,
 			&curations,
 			&root.path().join("providers.jsonl"),
+			&root.path().join("names.jsonl"),
 			crate::acquisition::SnapshotValidationMode::Full,
 		)
-		.unwrap(),
+		.unwrap()
+		.provider_count,
 		0
 	);
 }

@@ -9,13 +9,14 @@ A searchable web interface is at <https://bnck.dev/>. Datasets are published und
 Each release contains:
 
 - `providers.jsonl.zst`: Canonical provider relations
-- `bnck.sqlite.zst`: SQLite artifact with provider relations, curated project links, and release metadata
+- `names.jsonl.zst`: Canonical name associations with `reference` or `implementation` roles
+- `bnck.sqlite.zst`: SQLite artifact with provider relations, name associations, curated project links, and release metadata
 - `LICENSE`, `SHA256SUMS`, and `SHA256SUMS.minisig`
 - Channel manifests and candidate JSON Lines files
 
 GitHub Releases provides each release as a `.tar.zst` archive.
 
-The provider relation is `(project, executable, channel, package)`. The JSON Lines artifact defines the logical dataset identity; SQLite is the recommended artifact for applications.
+The provider relation is `(project, executable, channel, package)`. Name associations are `(executable, project, role)` and remain separate from package availability. The JSON Lines artifacts define the logical dataset identities; SQLite is the recommended artifact for applications.
 
 Coverage is curated and channel-scoped. npm and PyPI include only explicitly curated packages. Channel counts describe accepted dataset records, not the complete contents of each channel. A missing record means the relation was not observed in that release, not that it is unavailable. The dataset does not specify package versions, platform support, or installation instructions.
 
@@ -38,6 +39,8 @@ Decompress the SQLite artifact then run queries on it:
 zstd -d bnck.sqlite.zst -o bnck.sqlite
 sqlite3 bnck.sqlite \
 	"SELECT project, channel, package FROM providers WHERE executable = 'rg' ORDER BY project, channel, package;"
+sqlite3 bnck.sqlite \
+	"SELECT project, role FROM name_associations WHERE executable = 'awk' ORDER BY role, project;"
 ```
 
 See [`docs/release-format.md`](docs/release-format.md) for the schema and supported queries.

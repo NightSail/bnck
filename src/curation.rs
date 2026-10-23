@@ -8,8 +8,8 @@ use walkdir::WalkDir;
 
 use crate::acquisition::{PackageStatus, SnapshotStatus, SnapshotValidationMode, read_snapshot_directory_with_mode};
 use crate::model::{
-	Provider, read_candidates, validate_channel, validate_executable, validate_identity, validate_project_id,
-	write_json_lines,
+	NameAssociation, Provider, read_candidates, validate_association_role, validate_channel, validate_executable,
+	validate_identity, validate_project_id, write_json_lines,
 };
 
 #[derive(Debug, Deserialize)]
@@ -92,6 +92,28 @@ struct Addition {
 	references: Vec<String>,
 }
 
+#[derive(Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+struct NameCuration {
+	#[serde(default, rename = "association")]
+	associations: Vec<AssociationRule>,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+struct AssociationRule {
+	executable: String,
+	project: String,
+	role: String,
+	reason: String,
+	references: Vec<String>,
+}
+
+pub struct GeneratedDataset {
+	pub provider_count: usize,
+	pub association_count: usize,
+}
+
 type PackageKey = (String, String);
 type AcquiredPackages = BTreeMap<PackageKey, BTreeSet<String>>;
 
@@ -101,12 +123,19 @@ struct Acquisitions {
 	complete_channels: BTreeSet<String>,
 }
 
-pub fn generate(acquisitions: &Path, curations: &Path, output: &Path, mode: SnapshotValidationMode) -> Result<usize> {
+pub fn generate(
+	acquisitions: &Path,
+	curations: &Path,
+	output: &Path,
+	names_output: &Path,
+	mode: SnapshotValidationMode,
+) -> Result<GeneratedDataset> {
 	validate_manifest(curations)?;
 	let projects = load_projects(&curations.join("projects"))?;
 	let owners = package_owners(&projects)?;
 	let overrides = load_package_curations(&curations.join("packages"))?;
 	validate_project_references(&overrides, &projects)?;
+	let associations = load_name_associations(curations, &projects)?;
 	let acquisitions = load_candidates(acquisitions, mode)?;
 	let package_keys = owners.keys().chain(overrides.keys()).cloned().collect::<BTreeSet<_>>();
 	let mut providers = BTreeSet::new();
@@ -127,7 +156,9 @@ pub fn generate(acquisitions: &Path, curations: &Path, output: &Path, mode: Snap
 		providers.extend(resolve_package(&key, owners.get(&key).map(String::as_str), overrides.get(&key), acquired)?);
 	}
 
-	write_json_lines(output, providers)
+	let provider_count = write_json_lines(output, providers)?;
+	let association_count = write_json_lines(names_output, associations)?;
+	Ok(GeneratedDataset { provider_count, association_count })
 }
 
 pub(crate) fn curated_packages(root: &Path, channel: &str) -> Result<BTreeSet<String>> {
@@ -144,7 +175,7 @@ pub(crate) fn curated_packages(root: &Path, channel: &str) -> Result<BTreeSet<St
 		.collect())
 }
 
-fn validate_manifest(root: &Path) -> Result<()> {
+pub(crate) fn validate_manifest(root: &Path) -> Result<()> {
 	#[derive(Deserialize)]
 	#[serde(deny_unknown_fields)]
 	struct Manifest {
@@ -153,7 +184,7 @@ fn validate_manifest(root: &Path) -> Result<()> {
 
 	let path = root.join("manifest.toml");
 	let manifest: Manifest = read_toml(&path)?;
-	ensure!(manifest.schema == 0, "unsupported curation schema {}", manifest.schema);
+	ensure!(manifest.schema == 1, "unsupported curation schema {}", manifest.schema);
 	Ok(())
 }
 
@@ -181,6 +212,44 @@ pub(crate) fn project_paths(path: &Path) -> Result<BTreeMap<String, PathBuf>> {
 		}
 	}
 	Ok(projects)
+}
+
+pub(crate) fn load_name_associations(
+	root: &Path,
+	projects: &BTreeMap<String, Project>,
+) -> Result<BTreeSet<NameAssociation>> {
+	let path = root.join("names.toml");
+	if !path.exists() {
+		return Ok(BTreeSet::new());
+	}
+	let curation: NameCuration = read_toml(&path)?;
+	let mut associations = BTreeSet::new();
+	let mut seen = BTreeSet::<(String, String)>::new();
+	let mut references = BTreeMap::<String, String>::new();
+	for rule in curation.associations {
+		validate_executable(&rule.executable)?;
+		ensure!(projects.contains_key(&rule.project), "name association references unknown project {}", rule.project);
+		validate_association_role(&rule.role)?;
+		ensure!(!rule.reason.trim().is_empty(), "name association {} has no reason", rule.executable);
+		ensure!(!rule.references.is_empty(), "name association {} has no reference", rule.executable);
+		for reference in &rule.references {
+			validate_identity("association reference", reference)?;
+		}
+		let key = (rule.executable.clone(), rule.project.clone());
+		ensure!(
+			seen.insert(key),
+			"name association for {} and {} appears more than once",
+			rule.executable,
+			rule.project
+		);
+		if rule.role == "reference"
+			&& let Some(existing) = references.insert(rule.executable.clone(), rule.project.clone())
+		{
+			bail!("executable {} has multiple reference projects: {} and {}", rule.executable, existing, rule.project);
+		}
+		associations.insert(NameAssociation { executable: rule.executable, project: rule.project, role: rule.role });
+	}
+	Ok(associations)
 }
 
 fn validate_project(project: &Project) -> Result<()> {
@@ -492,7 +561,7 @@ mod tests {
 		fs::create_dir_all(&acquisitions).unwrap();
 		fs::create_dir_all(&projects).unwrap();
 		fs::create_dir_all(&packages).unwrap();
-		fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
 		fs::write(
 			projects.join("tool.toml"),
 			concat!(
@@ -523,12 +592,28 @@ mod tests {
 			[PackageObservation::observed("tool", "1.0.0")],
 		)
 		.unwrap();
+		fs::write(
+			curations.join("names.toml"),
+			concat!(
+				"[[association]]\nexecutable = 'tool'\nproject = 'tool'\nrole = 'reference'\n",
+				"reason = 'Reference implementation'\nreferences = ['https://example.test/tool']\n",
+			),
+		)
+		.unwrap();
 		let output = root.path().join("providers.jsonl");
+		let names_output = root.path().join("names.jsonl");
 
-		assert_eq!(generate(&acquisitions, &curations, &output, SnapshotValidationMode::Full).unwrap(), 1);
+		let dataset =
+			generate(&acquisitions, &curations, &output, &names_output, SnapshotValidationMode::Full).unwrap();
+		assert_eq!(dataset.provider_count, 1);
+		assert_eq!(dataset.association_count, 1);
 		assert_eq!(
 			fs::read_to_string(output).unwrap(),
 			"{\"project\":\"tool\",\"executable\":\"tool\",\"channel\":\"npm\",\"package\":\"tool\"}\n"
+		);
+		assert_eq!(
+			fs::read_to_string(names_output).unwrap(),
+			"{\"executable\":\"tool\",\"project\":\"tool\",\"role\":\"reference\"}\n"
 		);
 	}
 
@@ -539,7 +624,7 @@ mod tests {
 		let curations = root.path().join("curations");
 		fs::create_dir_all(&acquisitions).unwrap();
 		fs::create_dir_all(curations.join("projects")).unwrap();
-		fs::write(curations.join("manifest.toml"), "schema = 0\n").unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
 		fs::write(
 			curations.join("projects/tool.toml"),
 			"id = 'tool'\nname = 'Tool'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
@@ -554,9 +639,14 @@ mod tests {
 		)
 		.unwrap();
 		let output = root.path().join("providers.jsonl");
+		let names_output = root.path().join("names.jsonl");
 
-		assert_eq!(generate(&acquisitions, &curations, &output, SnapshotValidationMode::Full).unwrap(), 0);
+		let dataset =
+			generate(&acquisitions, &curations, &output, &names_output, SnapshotValidationMode::Full).unwrap();
+		assert_eq!(dataset.provider_count, 0);
+		assert_eq!(dataset.association_count, 0);
 		assert_eq!(fs::read_to_string(output).unwrap(), "");
+		assert_eq!(fs::read_to_string(names_output).unwrap(), "");
 	}
 
 	#[test]
@@ -575,5 +665,29 @@ mod tests {
 		let projects = super::load_projects(&projects).unwrap();
 		let error = super::package_owners(&projects).unwrap_err();
 		assert!(error.to_string().contains("claimed by projects"));
+	}
+
+	#[test]
+	fn rejects_multiple_reference_associations() {
+		let root = tempdir().unwrap();
+		let curations = root.path().join("curations");
+		let projects = curations.join("projects");
+		fs::create_dir_all(&projects).unwrap();
+		fs::write(projects.join("coreutils.toml"), "id = 'coreutils'\nname = 'coreutils'\n").unwrap();
+		fs::write(projects.join("busybox.toml"), "id = 'busybox'\nname = 'busybox'\n").unwrap();
+		fs::write(
+			curations.join("names.toml"),
+			concat!(
+				"[[association]]\nexecutable = 'ls'\nproject = 'coreutils'\nrole = 'reference'\n",
+				"reason = 'Reference'\nreferences = ['https://example.test/coreutils']\n",
+				"[[association]]\nexecutable = 'ls'\nproject = 'busybox'\nrole = 'reference'\n",
+				"reason = 'Reference'\nreferences = ['https://example.test/busybox']\n",
+			),
+		)
+		.unwrap();
+
+		let projects = super::load_projects(&projects).unwrap();
+		let error = super::load_name_associations(&curations, &projects).unwrap_err();
+		assert!(error.to_string().contains("multiple reference projects"));
 	}
 }

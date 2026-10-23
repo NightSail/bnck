@@ -9,12 +9,22 @@ use serde::Serialize;
 use tempfile::NamedTempFile;
 
 use crate::acquisition::{PackageStatus, SnapshotValidationMode, file_identity, read_snapshot_directory_with_mode};
-use crate::curation::{Project, load_projects};
-use crate::model::{PROVIDER_SCHEMA_VERSION, ProviderDataset, read_provider_dataset};
+use crate::curation::{Project, load_name_associations, load_projects, validate_manifest};
+use crate::model::{
+	ASSOCIATION_SCHEMA_VERSION, NameAssociationDataset, PROVIDER_SCHEMA_VERSION, ProviderDataset,
+	read_name_association_dataset, read_provider_dataset,
+};
 
-pub const SQLITE_SCHEMA_VERSION: u32 = 1;
+pub const RELEASE_FORMAT_VERSION: u32 = 2;
+pub const SQLITE_SCHEMA_VERSION: u32 = 2;
 const LICENSE_TEXT: &str = include_str!("../LICENSE");
 const LICENSE_FILE: &str = "LICENSE";
+
+#[derive(Debug)]
+pub struct DatasetSummary {
+	pub providers: ProviderDataset,
+	pub associations: NameAssociationDataset,
+}
 
 pub struct SqliteMetadata<'a> {
 	pub dataset_release: &'a str,
@@ -25,10 +35,11 @@ pub struct SqliteMetadata<'a> {
 
 pub fn generate_sqlite_artifact(
 	input: &Path,
+	names: &Path,
 	curations: &Path,
 	output: &Path,
 	metadata: &SqliteMetadata<'_>,
-) -> Result<ProviderDataset> {
+) -> Result<DatasetSummary> {
 	let parent = output
 		.parent()
 		.filter(|path| !path.as_os_str().is_empty())
@@ -36,7 +47,7 @@ pub fn generate_sqlite_artifact(
 	fs::create_dir_all(parent).with_context(|| format!("create {}", parent.display()))?;
 	let database =
 		NamedTempFile::new_in(parent).with_context(|| format!("create temporary file in {}", parent.display()))?;
-	let dataset = write_sqlite_database(input, curations, database.path(), metadata)?;
+	let dataset = write_sqlite_database(input, names, curations, database.path(), metadata)?;
 	let mut artifact =
 		NamedTempFile::new_in(parent).with_context(|| format!("create temporary file in {}", parent.display()))?;
 
@@ -56,12 +67,15 @@ pub fn generate_sqlite_artifact(
 
 fn write_sqlite_database(
 	input: &Path,
+	names: &Path,
 	curations: &Path,
 	output: &Path,
 	metadata: &SqliteMetadata<'_>,
-) -> Result<ProviderDataset> {
+) -> Result<DatasetSummary> {
 	validate_metadata(metadata)?;
+	validate_manifest(curations)?;
 	let projects = load_projects(&curations.join("projects"))?;
+	let curated_associations = load_name_associations(curations, &projects)?;
 	let mut connection = Connection::open(output)?;
 	let transaction = connection.transaction()?;
 	transaction.execute_batch(
@@ -81,6 +95,16 @@ fn write_sqlite_database(
 		CREATE INDEX providers_by_executable
 		ON providers (executable, project, channel, package);
 
+		CREATE TABLE name_associations (
+			executable TEXT NOT NULL CHECK (length(executable) > 0 AND instr(executable, '/') = 0),
+			project TEXT NOT NULL CHECK (length(project) > 0),
+			role TEXT NOT NULL CHECK (role IN ('reference', 'implementation')),
+			PRIMARY KEY (executable, project)
+		) WITHOUT ROWID;
+
+		CREATE INDEX name_associations_by_project
+		ON name_associations (project, executable, role);
+
 		CREATE TABLE project_links (
 			project TEXT NOT NULL,
 			type TEXT NOT NULL CHECK (type IN ('homepage', 'repository', 'documentation', 'issue tracker', 'link')),
@@ -90,7 +114,7 @@ fn write_sqlite_database(
 	)?;
 
 	let mut dataset_projects = std::collections::BTreeSet::new();
-	let dataset = {
+	let providers = {
 		let mut statement = transaction.prepare_cached(
 			"INSERT INTO providers (project, executable, channel, package)
 			 VALUES (?1, ?2, ?3, ?4)",
@@ -107,10 +131,35 @@ fn write_sqlite_database(
 		})?
 	};
 
+	let mut dataset_associations = std::collections::BTreeSet::new();
+	let associations = {
+		let mut statement = transaction
+			.prepare_cached("INSERT INTO name_associations (executable, project, role) VALUES (?1, ?2, ?3)")?;
+		read_name_association_dataset(names, |association| {
+			ensure!(
+				projects.contains_key(&association.project),
+				"name association references unknown project {}",
+				association.project
+			);
+			ensure!(
+				curated_associations.contains(association),
+				"name association for {} and {} is not present in curation",
+				association.executable,
+				association.project
+			);
+			statement.execute(params![association.executable, association.project, association.role])?;
+			dataset_associations.insert(association.clone());
+			Ok(())
+		})?
+	};
+	ensure!(dataset_associations == curated_associations, "name association artifact does not match curation");
+
 	{
 		let mut statement =
 			transaction.prepare_cached("INSERT INTO project_links (project, type, url) VALUES (?1, ?2, ?3)")?;
-		for project_id in dataset_projects {
+		let mut linked_projects = dataset_projects.clone();
+		linked_projects.extend(dataset_associations.iter().map(|association| association.project.clone()));
+		for project_id in linked_projects {
 			let project = &projects[&project_id];
 			for (link_type, url) in project_links(project) {
 				ensure_web_url(url)?;
@@ -122,9 +171,12 @@ fn write_sqlite_database(
 	let metadata_values = [
 		("schema_version", SQLITE_SCHEMA_VERSION.to_string()),
 		("dataset_schema_version", PROVIDER_SCHEMA_VERSION.to_string()),
+		("association_schema_version", ASSOCIATION_SCHEMA_VERSION.to_string()),
 		("dataset_release", metadata.dataset_release.to_owned()),
-		("dataset_sha256", dataset.sha256.clone()),
-		("provider_count", dataset.provider_count.to_string()),
+		("dataset_sha256", providers.sha256.clone()),
+		("provider_count", providers.provider_count.to_string()),
+		("association_sha256", associations.sha256.clone()),
+		("association_count", associations.association_count.to_string()),
 		("generated_at", metadata.generated_at.to_owned()),
 		("generator_version", metadata.generator_version.to_owned()),
 		("generator_revision", metadata.generator_revision.to_owned()),
@@ -138,7 +190,7 @@ fn write_sqlite_database(
 	transaction.pragma_update(None, "user_version", SQLITE_SCHEMA_VERSION)?;
 	transaction.commit()?;
 
-	Ok(dataset)
+	Ok(DatasetSummary { providers, associations })
 }
 
 #[derive(Serialize)]
@@ -158,6 +210,14 @@ struct DatasetManifest {
 	schema_version: u32,
 	sha256: String,
 	provider_count: usize,
+	name_associations: NameAssociationManifest,
+}
+
+#[derive(Serialize)]
+struct NameAssociationManifest {
+	schema_version: u32,
+	sha256: String,
+	association_count: usize,
 }
 
 #[derive(Serialize)]
@@ -201,12 +261,13 @@ pub struct ReleaseMetadata<'a> {
 
 pub fn assemble_release(
 	providers: &Path,
+	names: &Path,
 	acquisitions: &Path,
 	curations: &Path,
 	output: &Path,
 	metadata: &ReleaseMetadata<'_>,
 	mode: SnapshotValidationMode,
-) -> Result<ProviderDataset> {
+) -> Result<DatasetSummary> {
 	validate_metadata(&SqliteMetadata {
 		dataset_release: metadata.release,
 		generated_at: metadata.generated_at,
@@ -242,7 +303,7 @@ pub fn assemble_release(
 		.map(|(_, snapshot)| snapshot.channel.as_str())
 		.collect::<std::collections::BTreeSet<_>>();
 	let mut provider_package_counts = BTreeMap::<(String, String), usize>::new();
-	let dataset = read_provider_dataset(providers, |provider| {
+	read_provider_dataset(providers, |provider| {
 		*provider_package_counts
 			.entry((provider.channel.clone(), provider.package.clone()))
 			.or_default() += 1;
@@ -261,11 +322,10 @@ pub fn assemble_release(
 	fs::write(output.join(LICENSE_FILE), LICENSE_TEXT)
 		.with_context(|| format!("write {LICENSE_FILE} to {}", output.display()))?;
 
-	let providers_artifact = output.join("providers.jsonl.zst");
-	compress_file(providers, &providers_artifact)?;
 	let sqlite_artifact = output.join("bnck.sqlite.zst");
-	generate_sqlite_artifact(
+	let dataset = generate_sqlite_artifact(
 		providers,
+		names,
 		curations,
 		&sqlite_artifact,
 		&SqliteMetadata {
@@ -275,9 +335,14 @@ pub fn assemble_release(
 			generator_revision: metadata.generator_revision,
 		},
 	)?;
+	let providers_artifact = output.join("providers.jsonl.zst");
+	compress_file(providers, &providers_artifact)?;
+	let names_artifact = output.join("names.jsonl.zst");
+	compress_file(names, &names_artifact)?;
 
 	let artifacts = vec![
 		artifact_manifest(&providers_artifact, "application/x-ndjson", None)?,
+		artifact_manifest(&names_artifact, "application/x-ndjson", None)?,
 		artifact_manifest(&sqlite_artifact, "application/vnd.sqlite3", Some(SQLITE_SCHEMA_VERSION))?,
 	];
 	let mut channels = Vec::new();
@@ -346,13 +411,18 @@ pub fn assemble_release(
 
 	let manifest = ReleaseManifest {
 		format: "bnck-dataset-release",
-		format_version: 1,
+		format_version: RELEASE_FORMAT_VERSION,
 		release: metadata.release,
 		generated_at: metadata.generated_at,
 		dataset: DatasetManifest {
 			schema_version: PROVIDER_SCHEMA_VERSION,
-			sha256: dataset.sha256.clone(),
-			provider_count: dataset.provider_count,
+			sha256: dataset.providers.sha256.clone(),
+			provider_count: dataset.providers.provider_count,
+			name_associations: NameAssociationManifest {
+				schema_version: ASSOCIATION_SCHEMA_VERSION,
+				sha256: dataset.associations.sha256.clone(),
+				association_count: dataset.associations.association_count,
+			},
 		},
 		generator: GeneratorManifest {
 			version: env!("CARGO_PKG_VERSION"),
@@ -399,6 +469,7 @@ fn write_checksums(root: &Path) -> Result<()> {
 	let mut paths = vec![
 		root.join("manifest.json"),
 		root.join("providers.jsonl.zst"),
+		root.join("names.jsonl.zst"),
 		root.join("bnck.sqlite.zst"),
 		root.join(LICENSE_FILE),
 	];
@@ -512,6 +583,7 @@ mod tests {
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"debian\",\"package\":\"helix\"}\n",
 		"{\"project\":\"ripgrep\",\"executable\":\"rg\",\"channel\":\"crates.io\",\"package\":\"ripgrep\"}\n",
 	);
+	const NAMES: &str = "{\"executable\":\"rg\",\"project\":\"ripgrep\",\"role\":\"reference\"}\n";
 
 	#[test]
 	fn assembles_release_with_acquisition_provenance() {
@@ -548,18 +620,30 @@ mod tests {
 			"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
 		)
 		.unwrap();
+		let names = root.path().join("names.jsonl");
+		fs::write(&names, NAMES).unwrap();
 		let metadata = ReleaseMetadata {
 			release: "2026-04-16.1",
 			generated_at: "2026-04-16T12:00:00Z",
 			generator_revision: "0123456789abcdef",
 		};
 
-		let dataset =
-			assemble_release(&providers, &acquisitions, &curations, &output, &metadata, SnapshotValidationMode::Full)
-				.unwrap();
+		let dataset = assemble_release(
+			&providers,
+			&names,
+			&acquisitions,
+			&curations,
+			&output,
+			&metadata,
+			SnapshotValidationMode::Full,
+		)
+		.unwrap();
 
-		assert_eq!(dataset.provider_count, 1);
-		for path in ["manifest.json", "providers.jsonl.zst", "bnck.sqlite.zst", "LICENSE", "SHA256SUMS"] {
+		assert_eq!(dataset.providers.provider_count, 1);
+		assert_eq!(dataset.associations.association_count, 1);
+		for path in
+			["manifest.json", "providers.jsonl.zst", "names.jsonl.zst", "bnck.sqlite.zst", "LICENSE", "SHA256SUMS"]
+		{
 			assert!(output.join(path).is_file(), "missing {path}");
 		}
 		let license = fs::read_to_string(output.join("LICENSE")).unwrap();
@@ -573,7 +657,10 @@ mod tests {
 		assert!(checksums.contains("  channel-manifests/crates-io.jsonl\n"));
 		let manifest: serde_json::Value =
 			serde_json::from_slice(&fs::read(output.join("manifest.json")).unwrap()).unwrap();
+		assert_eq!(manifest["format_version"], 2);
 		assert_eq!(manifest["dataset"]["schema_version"], 1);
+		assert_eq!(manifest["dataset"]["name_associations"]["schema_version"], 1);
+		assert_eq!(manifest["dataset"]["name_associations"]["association_count"], 1);
 		assert_eq!(manifest["channels"][0]["name"], "crates.io");
 	}
 
@@ -614,15 +701,24 @@ mod tests {
 			"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
 		)
 		.unwrap();
+		let names = root.path().join("names.jsonl");
+		fs::write(&names, NAMES).unwrap();
 		let metadata = ReleaseMetadata {
 			release: "2026-04-16.1",
 			generated_at: "2026-04-16T12:00:00Z",
 			generator_revision: "0123456789abcdef",
 		};
 
-		let error =
-			assemble_release(&providers, &acquisitions, &curations, &output, &metadata, SnapshotValidationMode::Full)
-				.unwrap_err();
+		let error = assemble_release(
+			&providers,
+			&names,
+			&acquisitions,
+			&curations,
+			&output,
+			&metadata,
+			SnapshotValidationMode::Full,
+		)
+		.unwrap_err();
 		assert!(error.to_string().contains("absolute input path"));
 		assert!(!output.exists());
 	}
@@ -631,9 +727,11 @@ mod tests {
 	fn creates_queryable_database_with_release_metadata() {
 		let root = tempdir().unwrap();
 		let input = root.path().join("providers.jsonl");
+		let names = root.path().join("names.jsonl");
 		let curations = write_curations(root.path());
 		let output = root.path().join("bnck.sqlite.zst");
 		fs::write(&input, PROVIDERS).unwrap();
+		fs::write(&names, NAMES).unwrap();
 		let metadata = SqliteMetadata {
 			dataset_release: "2026-04-16.1",
 			generated_at: "2026-04-16T12:00:00Z",
@@ -641,8 +739,9 @@ mod tests {
 			generator_revision: "0123456789abcdef",
 		};
 
-		let dataset = generate_sqlite_artifact(&input, &curations, &output, &metadata).unwrap();
-		assert_eq!(dataset.provider_count, 3);
+		let dataset = generate_sqlite_artifact(&input, &names, &curations, &output, &metadata).unwrap();
+		assert_eq!(dataset.providers.provider_count, 3);
+		assert_eq!(dataset.associations.association_count, 1);
 
 		let database = root.path().join("bnck.sqlite");
 		let mut compressed = fs::File::open(output).unwrap();
@@ -653,8 +752,10 @@ mod tests {
 		assert_eq!(user_version, SQLITE_SCHEMA_VERSION);
 		assert_eq!(metadata_value(&connection, "schema_version"), SQLITE_SCHEMA_VERSION.to_string());
 		assert_eq!(metadata_value(&connection, "dataset_release"), "2026-04-16.1");
-		assert_eq!(metadata_value(&connection, "dataset_sha256"), dataset.sha256);
+		assert_eq!(metadata_value(&connection, "dataset_sha256"), dataset.providers.sha256);
 		assert_eq!(metadata_value(&connection, "provider_count"), "3");
+		assert_eq!(metadata_value(&connection, "association_sha256"), dataset.associations.sha256);
+		assert_eq!(metadata_value(&connection, "association_count"), "1");
 
 		let executable_rows = query_rows(
 			&connection,
@@ -692,6 +793,15 @@ mod tests {
 			]
 		);
 
+		let association_rows = connection
+			.prepare("SELECT project, role FROM name_associations WHERE executable = 'rg' ORDER BY project, role")
+			.unwrap()
+			.query_map([], |row| Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?)))
+			.unwrap()
+			.collect::<Result<Vec<_>, _>>()
+			.unwrap();
+		assert_eq!(association_rows, [("ripgrep".into(), "reference".into())]);
+
 		let index_count: u32 = connection
 			.query_row(
 				"SELECT count(*) FROM sqlite_schema
@@ -701,12 +811,30 @@ mod tests {
 			)
 			.unwrap();
 		assert_eq!(index_count, 1);
+		let association_index_count: u32 = connection
+			.query_row(
+				"SELECT count(*) FROM sqlite_schema
+				 WHERE type = 'index' AND name = 'name_associations_by_project'",
+				[],
+				|row| row.get(0),
+			)
+			.unwrap();
+		assert_eq!(association_index_count, 1);
 	}
 
 	fn write_curations(root: &std::path::Path) -> std::path::PathBuf {
 		let curations = root.join("curations");
 		let projects = curations.join("projects");
 		fs::create_dir_all(&projects).unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
+		fs::write(
+			curations.join("names.toml"),
+			concat!(
+				"[[association]]\nexecutable = 'rg'\nproject = 'ripgrep'\nrole = 'reference'\n",
+				"reason = 'Reference implementation'\nreferences = ['https://example.test/ripgrep']\n",
+			),
+		)
+		.unwrap();
 		fs::write(
 			projects.join("helix.toml"),
 			"id = 'helix'\nname = 'Helix'\nhomepage = 'https://example.test/helix'\n",

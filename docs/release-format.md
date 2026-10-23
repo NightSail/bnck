@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the artifacts, schemas, versioning, provenance, integrity, and compatibility rules for bnck dataset releases. A release contains the canonical provider relations from [design.md](design.md), acquisition provenance from [acquisition-format.md](acquisition-format.md), and channel-specific behavior from [channels.md](channels.md).
+This document defines the artifacts, schemas, versioning, provenance, integrity, and compatibility rules for bnck dataset releases. A release contains the canonical provider relations and name associations from [design.md](design.md), acquisition provenance from [acquisition-format.md](acquisition-format.md), and channel-specific behavior from [channels.md](channels.md).
 
 ## Release contents
 
@@ -12,6 +12,7 @@ Each published release contains:
 bnck-2026-03-24.1/
 ├── manifest.json
 ├── providers.jsonl.zst
+├── names.jsonl.zst
 ├── bnck.sqlite.zst
 ├── LICENSE
 ├── SHA256SUMS
@@ -33,12 +34,12 @@ bnck-2026-03-24.1/
     └── pypi.jsonl
 ```
 
-The two dataset artifacts represent the same provider relations:
+The canonical JSON Lines artifacts hold the two curated relations:
 
-- `providers.jsonl.zst`: Canonical, portable, streamable representation
-- `bnck.sqlite.zst`: Derived representation optimized for the supported queries
+- `providers.jsonl.zst`: Package-to-executable provider relations
+- `names.jsonl.zst`: Channel-independent name associations
 
-The JSON Lines artifact defines the logical dataset identity; SQLite is the recommended artifact for applications.
+`bnck.sqlite.zst` is the derived representation optimized for the supported queries. Each JSON Lines artifact has its own content digest; SQLite is the recommended artifact for applications.
 
 Candidate JSON Lines files sit beside their channel manifests. Raw channel inputs are not distributed; the manifests record their identities. Input paths are relative to the repository root, and assembly rejects absolute or parent-relative paths. Snapshots containing such paths must be re-imported from the repository root.
 
@@ -61,9 +62,25 @@ Package identities retain required channel qualification: scoped npm names keep 
 
 Observed package versions, architectures, artifact paths, and acquisition evidence describe how a relation was acquired, not the relation itself. They stay in channel snapshot manifests.
 
+## Name association schema
+
+Each name association has exactly three fields:
+
+```text
+(executable, project, role)
+```
+
+- `executable`: Exact logical command name, including case
+- `project`: Stable curation key for the associated project
+- `role`: `reference` or `implementation`
+
+`reference` identifies the project most strongly associated with the name. At most one reference is allowed per executable. `implementation` identifies a project known to implement the name under another command or through an applet namespace. Associations do not claim that a package installs the name.
+
+Name associations are channel-independent. A project may have an association without any current provider record for the pair.
+
 ## Canonical JSON Lines
 
-`providers.jsonl.zst` is the canonical representation. Uncompressed, it holds one JSON object per line:
+`providers.jsonl.zst` is the canonical provider representation. Uncompressed, it holds one JSON object per line:
 
 ```json
 {"project":"ripgrep","executable":"rg","channel":"arch","package":"ripgrep"}
@@ -82,7 +99,16 @@ Encoding rules:
 
 Strings use JSON escaping and otherwise preserve their exact dataset value; executable names are not case-folded or Unicode-normalized during serialization.
 
-The SHA-256 digest of the uncompressed canonical JSON Lines is the logical dataset identity, independent of the Zstandard implementation and compression level.
+`names.jsonl.zst` uses the same encoding rules with field order `executable`, `project`, `role`. Uncompressed, it holds one JSON object per line:
+
+```json
+{"executable":"awk","project":"busybox","role":"implementation"}
+{"executable":"awk","project":"one-true-awk","role":"reference"}
+```
+
+Records are sorted by `executable`, `project`, and `role`; duplicate `(executable, project)` pairs are invalid.
+
+The SHA-256 digest of each uncompressed canonical JSON Lines artifact is its logical identity, independent of the Zstandard implementation and compression level.
 
 JSON Lines supports streaming, bounded-memory processing, incremental validation, and straightforward conversion to other formats.
 
@@ -92,7 +118,7 @@ JSON Lines supports streaming, bounded-memory processing, incremental validation
 
 ### Schema
 
-Schema version 1 represents the canonical relation, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
+Schema version 2 represents the canonical provider relation and name associations, adds domain checks at the storage boundary, and includes curated project links for consumer interfaces:
 
 ```sql
 CREATE TABLE metadata (
@@ -122,6 +148,21 @@ ON providers (
 	package
 );
 
+CREATE TABLE name_associations (
+	executable TEXT NOT NULL CHECK (length(executable) > 0 AND instr(executable, '/') = 0),
+	project TEXT NOT NULL CHECK (length(project) > 0),
+	role TEXT NOT NULL CHECK (role IN ('reference', 'implementation')),
+
+	PRIMARY KEY (executable, project)
+) WITHOUT ROWID;
+
+CREATE INDEX name_associations_by_project
+ON name_associations (
+	project,
+	executable,
+	role
+);
+
 CREATE TABLE project_links (
 	project TEXT NOT NULL,
 	type TEXT NOT NULL CHECK (
@@ -132,7 +173,7 @@ CREATE TABLE project_links (
 ) WITHOUT ROWID;
 ```
 
-The primary key supports project lookup and prevents duplicate provider records; the covering secondary index supports executable lookup without another table access.
+The provider primary key supports project lookup and prevents duplicate provider records; the covering secondary index supports executable lookup without another table access. The name association primary key prevents duplicate executable/project pairs, and its secondary index supports project lookup.
 
 `project_links` contains only curator-supplied HTTP or HTTPS URLs. Its primary key supports project lookup; no further index is required.
 
@@ -156,6 +197,24 @@ WHERE project = ?
 ORDER BY executable, channel, package;
 ```
 
+### Query name associations by executable
+
+```sql
+SELECT project, role
+FROM name_associations
+WHERE executable = ?
+ORDER BY CASE role WHEN 'reference' THEN 0 ELSE 1 END, project;
+```
+
+### Query name associations by project
+
+```sql
+SELECT executable, role
+FROM name_associations
+WHERE project = ?
+ORDER BY CASE role WHEN 'reference' THEN 0 ELSE 1 END, executable;
+```
+
 ### Query project links
 
 ```sql
@@ -171,16 +230,19 @@ The `metadata` table contains:
 
 - `schema_version`: SQLite schema version
 - `dataset_schema_version`: Logical provider schema version
+- `association_schema_version`: Logical name association schema version
 - `dataset_release`
-- `dataset_sha256`
+- `dataset_sha256`: Provider JSON Lines SHA-256
 - `provider_count`
+- `association_sha256`: Name association JSON Lines SHA-256
+- `association_count`
 - `generated_at`
 - `generator_version`
 - `generator_revision`
 
 `PRAGMA user_version` contains the same numeric SQLite schema version as `metadata.schema_version`.
 
-SQLite is derived from the canonical JSON Lines. Consumers must not treat page layout, row order without `ORDER BY`, or internal row identifiers as part of the release contract.
+SQLite is derived from the canonical JSON Lines artifacts. Consumers must not treat page layout, row order without `ORDER BY`, or internal row identifiers as part of the release contract.
 
 ## Release manifest
 
@@ -189,13 +251,18 @@ SQLite is derived from the canonical JSON Lines. Consumers must not treat page l
 ```json
 {
   "format": "bnck-dataset-release",
-  "format_version": 1,
+  "format_version": 2,
   "release": "2026-03-24.1",
   "generated_at": "2026-03-24T18:30:00Z",
   "dataset": {
     "schema_version": 1,
     "sha256": "<uncompressed providers.jsonl SHA-256>",
-    "provider_count": 123456
+    "provider_count": 123456,
+    "name_associations": {
+      "schema_version": 1,
+      "sha256": "<uncompressed names.jsonl SHA-256>",
+      "association_count": 10
+    }
   },
   "generator": {
     "version": "0.1.0",
@@ -210,10 +277,17 @@ SQLite is derived from the canonical JSON Lines. Consumers must not treat page l
       "size": 1234567
     },
     {
+      "name": "names.jsonl.zst",
+      "media_type": "application/x-ndjson",
+      "compression": "zstd",
+      "sha256": "<compressed artifact SHA-256>",
+      "size": 1234
+    },
+    {
       "name": "bnck.sqlite.zst",
       "media_type": "application/vnd.sqlite3",
       "compression": "zstd",
-      "schema_version": 1,
+      "schema_version": 2,
       "sha256": "<compressed artifact SHA-256>",
       "size": 2345678
     }
@@ -242,7 +316,7 @@ Required top-level fields:
 - `format_version`: Integer version of the manifest format
 - `release`: Immutable dataset release identifier
 - `generated_at`: UTC release-generation timestamp in RFC 3339 form
-- `dataset`: Logical schema version, content digest, and record count
+- `dataset`: Provider schema version, content digest, and record count, plus the name association schema, digest, and record count
 - `generator`: Generator version and source revision
 - `artifacts`: Released artifact identities, formats, sizes, and digests
 - `channels`: Scope, provenance, counts, and acquisition status per channel snapshot; a channel may appear more than once when independently acquired scopes are combined
@@ -274,17 +348,19 @@ Schema version fields are independent. Each increments only for an incompatible 
 
 | Field | Location | Meaning | Current |
 | --- | --- | --- | --- |
-| `format_version` | `manifest.json` | Release manifest format | 1 |
+| `format_version` | `manifest.json` | Release manifest format | 2 |
 | `dataset.schema_version` | `manifest.json` | Canonical provider schema | 1 |
+| `dataset.name_associations.schema_version` | `manifest.json` | Canonical name association schema | 1 |
 | `dataset_schema_version` | SQLite `metadata` | Canonical provider schema | 1 |
-| `schema_version` | SQLite `metadata` | SQLite schema | 1 |
-| `user_version` | SQLite `PRAGMA` | SQLite schema | 1 |
-| `schema_version` | SQLite artifact in `manifest.json` | SQLite schema | 1 |
+| `association_schema_version` | SQLite `metadata` | Canonical name association schema | 1 |
+| `schema_version` | SQLite `metadata` | SQLite schema | 2 |
+| `user_version` | SQLite `PRAGMA` | SQLite schema | 2 |
+| `schema_version` | SQLite artifact in `manifest.json` | SQLite schema | 2 |
 | `format_version` | Acquisition snapshot manifest | Acquisition snapshot format | 1 |
-| `schema` | Curation manifest | Curation format | 0 |
-| `schema_version` | Browser dataset | Website data format | 1 |
+| `schema` | Curation manifest | Curation format | 1 |
+| `schema_version` | Browser dataset | Website data format | 2 |
 
-`metadata.schema_version`, `PRAGMA user_version`, and the SQLite artifact's `schema_version` must agree. The provider schema version appears as `dataset.schema_version` in the release manifest and `dataset_schema_version` in SQLite metadata. Acquisition, curation, and browser versions are independent; see [acquisition-format.md](acquisition-format.md#versioning), [curations.md](curations.md#schema-version), and [website.md](website.md#implementation).
+`metadata.schema_version`, `PRAGMA user_version`, and the SQLite artifact's `schema_version` must agree. The provider schema version appears as `dataset.schema_version` in the release manifest and `dataset_schema_version` in SQLite metadata. The name association schema appears under `dataset.name_associations` and as `association_schema_version` in SQLite metadata. Acquisition, curation, and browser versions are independent; see [acquisition-format.md](acquisition-format.md#versioning), [curations.md](curations.md#schema-version), and [website.md](website.md#implementation).
 
 ### Dataset release
 
@@ -300,15 +376,19 @@ Adding or removing provider records is a data update, not a semantic API change,
 
 ### Release manifest format
 
-`format_version` is an integer beginning at `1`. Increment it when changing the type or meaning of a field, removing a required field, or changing how consumers must interpret the manifest. Adding optional fields is compatible because consumers ignore unknown fields. Provider record changes do not increment this version.
+`format_version` is an integer beginning at `1`. Increment it when changing the type or meaning of a field, removing a required field, or changing how consumers must interpret the manifest. Adding optional fields is compatible because consumers ignore unknown fields. Provider or name association record changes do not increment this version. Version 2 adds the name association artifact and manifest section.
 
 ### Provider schema
 
 `dataset.schema_version` and `metadata.dataset_schema_version` are integers beginning at `1`. Increment the provider schema when the canonical provider record shape, field meaning, channel key set, or canonical encoding changes in a way consumers must handle. Adding or removing provider records is a data update, not a schema change.
 
+### Name association schema
+
+`dataset.name_associations.schema_version` and `metadata.association_schema_version` are integers beginning at `1`. Increment the association schema when the canonical association record shape, role set, or encoding changes in a way consumers must handle.
+
 ### SQLite schema
 
-`metadata.schema_version`, `PRAGMA user_version`, and the SQLite artifact's `schema_version` are integers beginning at `1`. Increment the SQLite schema when consumers must account for changed tables, columns, indexes, constraints, or query behavior. Data-only updates do not change it. The initial schema is `1`; pre-publication development artifacts labeled `2` are not release-compatible.
+`metadata.schema_version`, `PRAGMA user_version`, and the SQLite artifact's `schema_version` are integers beginning at `1`. Increment the SQLite schema when consumers must account for changed tables, columns, indexes, constraints, or query behavior. Data-only updates do not change it. Schema 2 adds name associations.
 
 ### Acquisition snapshot format
 
@@ -316,15 +396,15 @@ The acquisition snapshot manifest has its own `format_version`, currently `1`. I
 
 ### Curation format
 
-The curation manifest has its own `schema` value, currently `0`. Increment it for incompatible changes to curation fields or resolution semantics. Current readers reject unknown fields, so adding a field is also incompatible. See [curations.md](curations.md#schema-version).
+The curation manifest has its own `schema` value, currently `1`. Increment it for incompatible changes to curation fields or resolution semantics. Current readers reject unknown fields, so adding a field is also incompatible. Schema 1 adds name associations. See [curations.md](curations.md#schema-version).
 
 ### Browser dataset
 
-The generated browser dataset has its own `schema_version`, currently `1`. Increment it when the project, link, or provider shape changes incompatibly. See [website.md](website.md#implementation).
+The generated browser dataset has its own `schema_version`, currently `2`. Increment it when the project, link, provider, or association shape changes incompatibly. See [website.md](website.md#implementation).
 
 ### Dataset identity
 
-The dataset identity is the SHA-256 digest of the uncompressed `providers.jsonl`. Stored fields use lowercase hexadecimal; the `sha256:` form is notation, not part of the stored value.
+The provider identity is the SHA-256 digest of the uncompressed `providers.jsonl`. The association identity is the SHA-256 digest of the uncompressed `names.jsonl`. Both are recorded in the release manifest. Stored fields use lowercase hexadecimal; the `sha256:` form is notation, not part of the stored value.
 
 The CalVer release is a human-facing identifier; the digest is the content identity.
 
@@ -334,6 +414,7 @@ The CalVer release is a human-facing identifier; the digest is the content ident
 
 - `manifest.json`
 - `providers.jsonl.zst`
+- `names.jsonl.zst`
 - `bnck.sqlite.zst`
 - `LICENSE`
 - Every included channel snapshot manifest and candidate artifact
@@ -341,7 +422,7 @@ The CalVer release is a human-facing identifier; the digest is the content ident
 
 `SHA256SUMS.minisig` is a detached signature over `SHA256SUMS`. The public key is published independently of release artifacts; see the [README](../README.md) for verification. The `bnck assemble-release` command writes every release artifact and `SHA256SUMS` but does not sign. The `just release` wrapper signs and verifies the checksums using the provided key pair.
 
-The release manifest also records artifact digests for validation after trusting the manifest, and the logical dataset digest provides a second check after decompressing `providers.jsonl.zst`.
+The release manifest also records artifact digests for validation after trusting the manifest, and the logical dataset digests provide a second check after decompressing `providers.jsonl.zst` and `names.jsonl.zst`.
 
 A transparency-log or Sigstore attestation can be added later without changing the provider schema.
 
@@ -377,6 +458,10 @@ Changing a display label does not change the key.
 
 Package names preserve channel-native identity and case rules. Interpret a package name together with its channel.
 
+### Name association roles
+
+`reference` and `implementation` are stable machine values. A reference is unique per executable; implementations may be multiple. Associations do not imply package availability.
+
 ## Excluded data
 
 The canonical provider artifacts exclude:
@@ -392,11 +477,13 @@ The canonical provider artifacts exclude:
 
 These belong in channel manifests, curation sources, or future optional artifacts.
 
-The derived SQLite artifact includes curated project homepages, repositories, documentation, issue trackers, and additional links. They support consumer interfaces but are not provider records and do not affect the canonical dataset identity.
+Name associations are editorial context, not package observations. They are distributed separately from provider records and do not imply installability.
+
+The derived SQLite artifact includes curated project homepages, repositories, documentation, issue trackers, additional links, and name associations. They support consumer interfaces but are not provider records and do not affect the provider dataset identity.
 
 ## Additional formats
 
-Derived artifacts may be introduced without changing the canonical provider schema. Candidate options include Parquet for bulk analytics, delimited text, a single JSON document, a custom binary format, and delta releases between adjacent versions. None is required today: the two supported lookup directions need no more than SQLite, and complete JSON Lines snapshots suffice while update size is small. Any canonical-format change must preserve streaming and exact content identity.
+Derived artifacts may be introduced without changing the canonical provider or name association schemas. Candidate options include Parquet for bulk analytics, delimited text, a single JSON document, a custom binary format, and delta releases between adjacent versions. None is required today: the supported lookup directions need no more than SQLite, and complete JSON Lines snapshots suffice while update size is small. Any canonical-format change must preserve streaming and exact content identity.
 
 ## Release command
 

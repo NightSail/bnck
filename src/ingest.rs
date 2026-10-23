@@ -994,7 +994,7 @@ mod tests {
 
 	fn write_curations(root: &std::path::Path) {
 		fs::create_dir_all(root.join("projects")).unwrap();
-		fs::write(root.join("manifest.toml"), "schema = 0\n").unwrap();
+		fs::write(root.join("manifest.toml"), "schema = 1\n").unwrap();
 	}
 
 	fn write_candidate(root: &std::path::Path, package: &str, executable: &str, repository: &str) {

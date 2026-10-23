@@ -9,7 +9,9 @@ use sha2::{Digest, Sha256};
 use walkdir::WalkDir;
 
 pub const PROVIDER_SCHEMA_VERSION: u32 = 1;
+pub const ASSOCIATION_SCHEMA_VERSION: u32 = 1;
 pub const CHANNELS: [&str; 7] = ["arch", "crates.io", "debian", "fedora", "homebrew", "npm", "pypi"];
+pub const ASSOCIATION_ROLES: [&str; 2] = ["reference", "implementation"];
 
 #[derive(Clone, Debug, Deserialize, Eq, Ord, PartialEq, PartialOrd, Serialize)]
 #[serde(deny_unknown_fields)]
@@ -52,6 +54,23 @@ impl Provider {
 	}
 }
 
+#[derive(Clone, Debug, Deserialize, Eq, Ord, PartialEq, PartialOrd, Serialize)]
+#[serde(deny_unknown_fields)]
+pub struct NameAssociation {
+	pub executable: String,
+	pub project: String,
+	pub role: String,
+}
+
+impl NameAssociation {
+	pub fn validate(&self) -> Result<()> {
+		validate_executable(&self.executable)?;
+		validate_project_id(&self.project)?;
+		validate_association_role(&self.role)?;
+		Ok(())
+	}
+}
+
 pub fn validate_project_id(value: &str) -> Result<()> {
 	validate_identity("project ID", value)?;
 	ensure!(
@@ -65,6 +84,11 @@ pub fn validate_project_id(value: &str) -> Result<()> {
 
 pub fn validate_channel(value: &str) -> Result<()> {
 	ensure!(CHANNELS.contains(&value), "unknown channel {value}");
+	Ok(())
+}
+
+pub fn validate_association_role(value: &str) -> Result<()> {
+	ensure!(ASSOCIATION_ROLES.contains(&value), "unknown name association role {value}");
 	Ok(())
 }
 
@@ -112,6 +136,12 @@ pub struct ProviderDataset {
 	pub provider_count: usize,
 }
 
+#[derive(Debug, Eq, PartialEq)]
+pub struct NameAssociationDataset {
+	pub sha256: String,
+	pub association_count: usize,
+}
+
 pub fn read_provider_dataset(
 	path: &Path,
 	mut read_provider: impl FnMut(&Provider) -> Result<()>,
@@ -156,6 +186,60 @@ pub fn read_provider_dataset(
 	}
 
 	Ok(ProviderDataset { sha256: format!("{:x}", digest.finalize()), provider_count })
+}
+
+pub fn read_name_association_dataset(
+	path: &Path,
+	mut read_association: impl FnMut(&NameAssociation) -> Result<()>,
+) -> Result<NameAssociationDataset> {
+	let file = File::open(path).with_context(|| format!("open {}", path.display()))?;
+	let mut reader = BufReader::new(file);
+	let mut digest = Sha256::new();
+	let mut previous = None::<NameAssociation>;
+	let mut keys = BTreeSet::new();
+	let mut association_count = 0;
+	let mut bytes = Vec::new();
+
+	loop {
+		bytes.clear();
+		if reader.read_until(b'\n', &mut bytes)? == 0 {
+			break;
+		}
+		let line_number = association_count + 1;
+		ensure!(bytes.ends_with(b"\n"), "{} line {line_number} has no final LF", path.display());
+		digest.update(&bytes);
+		bytes.pop();
+		ensure!(!bytes.is_empty(), "{} line {line_number} is blank", path.display());
+
+		let line = std::str::from_utf8(&bytes)
+			.with_context(|| format!("{} line {line_number} is not UTF-8", path.display()))?;
+		let association: NameAssociation =
+			serde_json::from_str(line).with_context(|| format!("parse {} line {line_number}", path.display()))?;
+		let canonical = serde_json::to_string(&association)?;
+		ensure!(line == canonical, "{} line {line_number} is not canonical JSON", path.display());
+		association
+			.validate()
+			.with_context(|| format!("validate {} line {line_number}", path.display()))?;
+		ensure!(
+			keys.insert((association.executable.clone(), association.project.clone())),
+			"{} line {line_number} duplicates a name association for {} and {}",
+			path.display(),
+			association.executable,
+			association.project
+		);
+		if let Some(previous) = previous.as_ref() {
+			if association == *previous {
+				bail!("{} line {line_number} duplicates the preceding name association", path.display());
+			}
+			ensure!(association > *previous, "{} line {line_number} is not sorted", path.display());
+		}
+
+		read_association(&association).with_context(|| format!("process {} line {line_number}", path.display()))?;
+		previous = Some(association);
+		association_count += 1;
+	}
+
+	Ok(NameAssociationDataset { sha256: format!("{:x}", digest.finalize()), association_count })
 }
 
 pub fn read_candidate_directory(path: &Path) -> Result<Vec<Candidate>> {
@@ -232,11 +316,15 @@ mod tests {
 
 	use tempfile::tempdir;
 
-	use super::{Provider, read_provider_dataset};
+	use super::{NameAssociation, Provider, read_name_association_dataset, read_provider_dataset};
 
 	const PROVIDERS: &str = concat!(
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"crates.io\",\"package\":\"helix-term\"}\n",
 		"{\"project\":\"helix\",\"executable\":\"hx\",\"channel\":\"debian\",\"package\":\"helix\"}\n",
+	);
+	const NAMES: &str = concat!(
+		"{\"executable\":\"ls\",\"project\":\"busybox\",\"role\":\"implementation\"}\n",
+		"{\"executable\":\"ls\",\"project\":\"coreutils\",\"role\":\"reference\"}\n",
 	);
 
 	#[test]
@@ -283,6 +371,52 @@ mod tests {
 			let path = root.path().join(format!("{name}.jsonl"));
 			fs::write(&path, value).unwrap();
 			assert!(read_provider_dataset(&path, |_| Ok(())).is_err(), "accepted {name}");
+		}
+	}
+
+	#[test]
+	fn reads_and_hashes_canonical_name_associations() {
+		let root = tempdir().unwrap();
+		let path = root.path().join("names.jsonl");
+		fs::write(&path, NAMES).unwrap();
+		let mut associations = Vec::<NameAssociation>::new();
+
+		let dataset = read_name_association_dataset(&path, |association| {
+			associations.push(association.clone());
+			Ok(())
+		})
+		.unwrap();
+
+		assert_eq!(dataset.association_count, 2);
+		assert_eq!(associations[0].project, "busybox");
+		assert_eq!(associations[1].role, "reference");
+	}
+
+	#[test]
+	fn rejects_invalid_name_association_records() {
+		let cases = [
+			("unknown-role", "{\"executable\":\"ls\",\"project\":\"coreutils\",\"role\":\"owner\"}\n"),
+			("unsafe-executable", "{\"executable\":\"bin/ls\",\"project\":\"coreutils\",\"role\":\"reference\"}\n"),
+			(
+				"unsorted",
+				concat!(
+					"{\"executable\":\"ls\",\"project\":\"coreutils\",\"role\":\"reference\"}\n",
+					"{\"executable\":\"cat\",\"project\":\"coreutils\",\"role\":\"reference\"}\n",
+				),
+			),
+			(
+				"duplicate-project",
+				concat!(
+					"{\"executable\":\"ls\",\"project\":\"coreutils\",\"role\":\"implementation\"}\n",
+					"{\"executable\":\"ls\",\"project\":\"coreutils\",\"role\":\"reference\"}\n",
+				),
+			),
+		];
+		for (name, value) in cases {
+			let root = tempdir().unwrap();
+			let path = root.path().join(format!("{name}.jsonl"));
+			fs::write(&path, value).unwrap();
+			assert!(read_name_association_dataset(&path, |_| Ok(())).is_err(), "accepted {name}");
 		}
 	}
 }

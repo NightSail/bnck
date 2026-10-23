@@ -138,11 +138,15 @@ enum Command {
 		#[arg(long)]
 		output: PathBuf,
 		#[arg(long)]
+		names_output: Option<PathBuf>,
+		#[arg(long)]
 		candidate_only: bool,
 	},
 	GenerateSqlite {
 		#[arg(long)]
 		input: PathBuf,
+		#[arg(long, default_value = "var/names.jsonl")]
+		names_input: PathBuf,
 		#[arg(long, default_value = "curations")]
 		curations: PathBuf,
 		#[arg(long)]
@@ -157,6 +161,8 @@ enum Command {
 	AssembleRelease {
 		#[arg(long)]
 		input: PathBuf,
+		#[arg(long, default_value = "var/names.jsonl")]
+		names_input: PathBuf,
 		#[arg(long)]
 		acquisitions: PathBuf,
 		#[arg(long, default_value = "curations")]
@@ -255,25 +261,45 @@ fn main() -> Result<()> {
 			Some(plan) => importers::pypi::import_plan(&plan, &output, scope)?,
 			None => importers::pypi::import(&input.expect("clap requires input or plan"), &output, scope)?,
 		},
-		Command::Generate { acquisitions, curations, output, candidate_only } => {
+		Command::Generate { acquisitions, curations, output, names_output, candidate_only } => {
 			let mode = if candidate_only {
 				acquisition::SnapshotValidationMode::CandidateOnly
 			} else {
 				acquisition::SnapshotValidationMode::Full
 			};
-			curation::generate(&acquisitions, &curations, &output, mode)?
+			let names_output = names_output.unwrap_or_else(|| output.with_file_name("names.jsonl"));
+			let dataset = curation::generate(&acquisitions, &curations, &output, &names_output, mode)?;
+			eprintln!(
+				"wrote {} provider records and {} name associations",
+				dataset.provider_count, dataset.association_count
+			);
+			return Ok(());
 		},
-		Command::GenerateSqlite { input, curations, output, dataset_release, generated_at, generator_revision } => {
+		Command::GenerateSqlite {
+			input,
+			names_input,
+			curations,
+			output,
+			dataset_release,
+			generated_at,
+			generator_revision,
+		} => {
 			let metadata = release::SqliteMetadata {
 				dataset_release: &dataset_release,
 				generated_at: &generated_at,
 				generator_version: env!("CARGO_PKG_VERSION"),
 				generator_revision: &generator_revision,
 			};
-			release::generate_sqlite_artifact(&input, &curations, &output, &metadata)?.provider_count
+			let dataset = release::generate_sqlite_artifact(&input, &names_input, &curations, &output, &metadata)?;
+			eprintln!(
+				"wrote {} provider records and {} name associations",
+				dataset.providers.provider_count, dataset.associations.association_count
+			);
+			return Ok(());
 		},
 		Command::AssembleRelease {
 			input,
+			names_input,
 			acquisitions,
 			curations,
 			output,
@@ -292,7 +318,13 @@ fn main() -> Result<()> {
 			} else {
 				acquisition::SnapshotValidationMode::Full
 			};
-			release::assemble_release(&input, &acquisitions, &curations, &output, &metadata, mode)?.provider_count
+			let dataset =
+				release::assemble_release(&input, &names_input, &acquisitions, &curations, &output, &metadata, mode)?;
+			eprintln!(
+				"wrote {} provider records and {} name associations",
+				dataset.providers.provider_count, dataset.associations.association_count
+			);
+			return Ok(());
 		},
 		Command::IngestHints { hints, acquisitions, curations, report, apply } => {
 			ingest::ingest_hints(&hints, &acquisitions, &curations, report.as_deref(), apply)?;
