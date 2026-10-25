@@ -1,7 +1,7 @@
 id = 'gpstrans'
 name = 'gpstrans'
 
-homepage = 'ftp://ftp.fu-berlin.de/pub/unix/misc/gps'
+homepage = 'https://gpstrans.sourceforge.net/'
 
 [[package]]
 channel = 'debian'

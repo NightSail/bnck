@@ -1,7 +1,7 @@
 id = 'matrix-eno-bot'
 name = 'matrix-eno-bot'
 
-homepage = '<insert the upstream URL, if relevant>'
+homepage = 'https://github.com/8go/matrix-eno-bot'
 
 [[package]]
 channel = 'debian'

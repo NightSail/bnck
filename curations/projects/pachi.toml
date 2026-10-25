@@ -1,7 +1,7 @@
 id = 'pachi'
 name = 'pachi'
 
-homepage = 'lang=en'
+homepage = 'https://pachi.or.cz/'
 repository = 'https://github.com/pasky/pachi.git'
 
 [[package]]

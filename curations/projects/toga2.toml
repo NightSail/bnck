@@ -1,7 +1,7 @@
 id = 'toga2'
 name = 'toga2'
 
-homepage = 't=66174'
+homepage = 'https://www.toga2.org/'
 
 [[package]]
 channel = 'fedora'

@@ -1,7 +1,7 @@
 id = 'ucpp'
 name = 'ucpp'
 
-homepage = 'http://http://code.google.com/p/ucpp'
+homepage = 'https://gitlab.com/scarabeusiv/ucpp'
 
 [[package]]
 channel = 'debian'
