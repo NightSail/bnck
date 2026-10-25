@@ -442,7 +442,6 @@ main {
 	font-size: 11px;
 }
 .channel-links a span {
-	margin-left: 6px;
 	color: var(--muted);
 }
 .channel-links a:hover {
