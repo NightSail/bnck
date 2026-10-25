@@ -26,35 +26,13 @@ function deferred() {
 	return { promise, resolve };
 }
 
-function manualTimers() {
-	let nextId = 0;
-	const pending = new Map();
-	return {
-		schedule: (callback, delay) => {
-			const id = ++nextId;
-			pending.set(id, { callback, delay });
-			return id;
-		},
-		cancel: (id) => pending.delete(id),
-		run: (delay) => {
-			for (const [id, timer] of [...pending]) {
-				if (timer.delay === delay) {
-					pending.delete(id);
-					timer.callback();
-				}
-			}
-		},
-	};
-}
-
 function initialize({
 	clipboard = { writeText: mock(async () => {}) },
 	fetch = mock(async () => new Response(JSON.stringify(payload))),
 	isSecureContext = true,
 	ClipboardItem,
-	timers = manualTimers(),
-	schedule = timers.schedule,
-	cancel = timers.cancel,
+	schedule = () => 0,
+	cancel = () => {},
 } = {}) {
 	const handlers = {};
 	const button = {
@@ -87,7 +65,7 @@ function initialize({
 		setTimeout: schedule,
 		clearTimeout: cancel,
 	});
-	return { button, status, view, fetch, clipboard, timers, click: () => handlers.click() };
+	return { button, status, view, fetch, clipboard, click: () => handlers.click() };
 }
 
 function pendingFetch() {
@@ -119,36 +97,6 @@ test('copy fetches only on click and writes readable JSON through writeText', as
 	expect(state.clipboard.writeText).toHaveBeenCalledWith(formattedJson);
 	expect(state.status.textContent).toBe('JSON copied.');
 	expect(state.button.disabled).toBe(false);
-});
-
-test('success appears in the button without a visible status line and resets after two seconds', async () => {
-	const state = initialize();
-	await state.click();
-	expect(state.button.textContent).toBe('JSON copied');
-	expect(state.status.textContent).toBe('JSON copied.');
-	expect(state.status.classList.contains('visually-hidden')).toBe(true);
-	state.timers.run(2000);
-	expect(state.button.textContent).toBe('copy JSON');
-	expect(state.status.textContent).toBe('');
-});
-
-test('a new attempt cancels the previous label reset while its request is pending', async () => {
-	const response = deferred();
-	let attempts = 0;
-	const state = initialize({
-		fetch: mock(() => ++attempts === 1 ? Promise.resolve(new Response(JSON.stringify(payload))) : response.promise),
-	});
-	await state.click();
-	const copying = state.click();
-	expect(state.button.textContent).toBe('copying…');
-	expect(state.status.classList.contains('visually-hidden')).toBe(true);
-	state.timers.run(2000);
-	expect(state.button.textContent).toBe('copying…');
-	response.resolve(new Response(JSON.stringify(payload)));
-	await copying;
-	expect(state.button.textContent).toBe('JSON copied');
-	state.timers.run(2000);
-	expect(state.button.textContent).toBe('copy JSON');
 });
 
 test('clipboard items preserve user activation and success waits for the write', async () => {

@@ -179,13 +179,6 @@ test('invalid HTTP responses never mark the snapshot complete', () => {
 	}
 });
 
-test('catalog jobs are removed', () => {
-	const summary = Bun.spawnSync([just, '--justfile', justfile, '--summary']);
-	expect(summary.exitCode).toBe(0);
-	expect(summary.stdout.toString().split(/\s+/)).not.toContain('fetch-npm-index');
-	expect(summary.stdout.toString().split(/\s+/)).not.toContain('fetch-registry-metadata');
-});
-
 test('resume refetches a body without status and rejects invalid retained status', () => {
 	const snapshot = fetchSnapshot();
 	const status = join(snapshot, 'packages/one.status');

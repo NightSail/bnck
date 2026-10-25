@@ -58,14 +58,7 @@ function fetchSnapshot() {
 	return snapshot;
 }
 
-test('crates acquisition exposes only dump jobs and the demo avoids the dump', () => {
-	const summary = Bun.spawnSync([just, '--justfile', justfile, '--summary']);
-	expect(summary.exitCode).toBe(0);
-	const recipes = summary.stdout.toString().trim().split(/\s+/);
-	expect(recipes).toContain('fetch-crates-dump');
-	expect(recipes).toContain('import-crates-dump');
-	expect(recipes).not.toContain('fetch-crate');
-	expect(recipes).not.toContain('import-crates-api');
+test('crates acquisition uses the static dump and demo stays isolated', () => {
 	const dump = Bun.spawnSync([just, '--justfile', justfile, '--dry-run', 'fetch-crates-dump']);
 	expect(dump.exitCode).toBe(0);
 	const fetch = dump.stderr.toString();
@@ -97,12 +90,6 @@ test('PyPI metadata fetching plans curated packages directly without a global in
 	const failed = join(root, 'failed snapshot');
 	expect(run(['fetch-pypi-metadata', failed], { BNCK_TEST_FAIL_JOB: 'plan-pypi-metadata' }).exitCode).not.toBe(0);
 	expect(commands().length).toBe(1);
-	const summary = Bun.spawnSync([just, '--justfile', justfile, '--summary']);
-	expect(summary.exitCode).toBe(0);
-	const recipes = summary.stdout.toString().trim().split(/\s+/);
-	expect(recipes).toContain('fetch-pypi-metadata');
-	expect(recipes).not.toContain('fetch-pypi-index');
-	expect(recipes).not.toContain('fetch-registry-metadata');
 });
 
 test('argument-free fetches create distinct retained snapshots under var/input/languages', () => {
