@@ -74,7 +74,7 @@ TOML curations resolve these acquisitions into canonical provider JSON Lines. bn
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs, curation workflows, release generation and signing, and website deployment. See [CHANGELOG.md](CHANGELOG.md) for notable changes and schema transitions.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs, curation workflows, release generation and signing, and website deployment.
 
 ## Acknowledgements
 

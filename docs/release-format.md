@@ -343,7 +343,7 @@ A channel with incomplete acquisition has a non-`complete` status. A failed pack
 
 ## Versioning
 
-Schema version fields are independent. Each increments only for an incompatible change to its own contract. Schema transitions are recorded in [CHANGELOG.md](../CHANGELOG.md).
+Schema version fields are independent. Each increments only for an incompatible change to its own contract. Each transition is described in its versioning section below.
 
 ### Schema version fields
 
