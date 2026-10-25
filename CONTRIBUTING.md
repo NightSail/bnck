@@ -199,7 +199,7 @@ bun web/generate.ts \
 bun web/preview.ts var/site-next 127.0.0.1:3000
 ```
 
-Production needs no application server or browser database runtime. Publish the output at the origin root of a case-sensitive static host with directory index support: `/projects/helix` resolves to `projects/helix/index.html`, and hosts may redirect to a trailing slash. Configure the generated `404.html` as the error page rather than an SPA fallback, enable HTTP compression, and apply the generated `_headers` file or equivalents. Deploy pages and assets together and retain previous application directories and dataset files so open pages finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
+Production needs no application server or browser database runtime. Publish the output at the origin root of a case-sensitive static host with extensionless HTML file support: `/projects/helix` resolves to `projects/helix.html`, while `/projects/helix/` redirects to the file path. Configure the generated `404.html` as the error page rather than an SPA fallback, enable HTTP compression, and apply the generated `_headers` and `_redirects` files or equivalents. Deploy pages and assets together and retain previous application directories and dataset files so open pages finish loading their matching versions. See [static deployment](docs/website.md#static-deployment) for details.
 
 Page renderers live in `web/pages.ts`, shared markup in `web/components.ts`, and the stylesheet is `web/style.css`. Browser entry points are TypeScript modules under `web/`; the generator bundles them with Bun. Source edits automatically rebuild the dev site, while a static output needs `just site-build` again.
 

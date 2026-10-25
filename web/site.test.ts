@@ -55,41 +55,41 @@ test('generates a complete versioned site without modifying the database', async
 			expect(await readdir(applicationDirectory)).toContain(asset);
 		}
 		for (const path of [
-			'about/index.html',
-			'dataset/index.html',
-			'short/2/index.html',
-			'short/a/index.html',
-			'short/z/index.html',
+			'about.html',
+			'dataset.html',
+			'short/2.html',
+			'short/a.html',
+			'short/z.html',
 			'404.html',
-			'projects/helix/index.html',
-			'executables/hx/index.html',
-			'executables/HX/index.html',
-			'executables/cat/index.html',
-			"executables/é%&'<>#?/index.html",
+			'projects/helix.html',
+			'executables/hx.html',
+			'executables/HX.html',
+			'executables/cat.html',
+			"executables/é%&'<>#?.html",
 		]) {
 			expect((await readFile(join(output, path))).length).toBeGreaterThan(0);
 		}
 
-		const datasetPage = await readFile(join(output, 'dataset/index.html'), 'utf8');
+		const datasetPage = await readFile(join(output, 'dataset.html'), 'utf8');
 		expect(datasetPage).toContain("href='/data/2026-04-16.1'");
 		expect(datasetPage).toContain("href='/data/latest'");
 		expect(datasetPage).toContain('releases/tag/bnck-dataset-2026-04-16.1');
 		expect(datasetPage).toContain("href='/data/2026-04-16.1/bnck.sqlite.zst'");
 		expect(datasetPage).not.toContain("href='/data/latest/bnck");
-		const about = await readFile(join(output, 'about/index.html'), 'utf8');
+		const about = await readFile(join(output, 'about.html'), 'utf8');
 		expect(about).toContain('maps executable names to the projects');
 		expect(about).toContain('github.com/NightSail/bnck');
-		const project = await readFile(join(output, 'projects/helix/index.html'), 'utf8');
+		const project = await readFile(join(output, 'projects/helix.html'), 'utf8');
 		expect(project).toContain('https://helix-editor.com/');
 		expect(project).toContain("<h2 id='associations-title'>name associations</h2>");
 		expect(project).not.toContain('browser.js');
 		expect((await readdir(join(output, 'short'))).sort())
-			.toEqual(['2', ...'abcdefghijklmnopqrstuvwxyz']);
-		const short = await readFile(join(output, 'short/2/index.html'), 'utf8');
+			.toEqual(['2', ...'abcdefghijklmnopqrstuvwxyz'].map((name) => `${name}.html`));
+		const short = await readFile(join(output, 'short/2.html'), 'utf8');
 		expect(short).toContain('short name map');
 		expect(short).toContain("href='/short/2' aria-current='page'");
 		expect(short).toContain("href='/executables/hx'");
-		const shortH = await readFile(join(output, 'short/h/index.html'), 'utf8');
+		const shortH = await readFile(join(output, 'short/h.html'), 'utf8');
 		expect(shortH).toContain("id='short-h'");
 		expect(shortH).toContain("href='/short/h' aria-current='page'");
 		expect(shortH).not.toContain("href='/executables/hx'");
@@ -128,6 +128,10 @@ test('generates a complete versioned site without modifying the database', async
 		expect(redirects).toContain(
 			'/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301',
 		);
+		for (const path of ['/about/', '/dataset/', '/short/:section/', '/projects/:project/',
+			'/executables/:executable/']) {
+			expect(redirects).toContain(`${path} ${path.slice(0, -1)} 301`);
+		}
 		expect(redirects).not.toContain('{{release}}');
 
 		const second = join(root, 'second');
@@ -199,7 +203,7 @@ test('empty datasets still generate a usable site', async () => {
 		await generateSite(fixture.path, output);
 		const home = await readFile(join(output, 'index.html'), 'utf8');
 		expect(home).toContain('No executables listed in this release.');
-		const datasetPage = await readFile(join(output, 'dataset/index.html'), 'utf8');
+		const datasetPage = await readFile(join(output, 'dataset.html'), 'utf8');
 		expect(datasetPage).toContain('No channels listed in this release.');
 	} finally {
 		await fixture.cleanup();
@@ -213,7 +217,7 @@ test('live reload builds reference the development endpoint', async () => {
 	try {
 		const files = await buildSite(database, { liveReload: true });
 		const home = new TextDecoder().decode(files.get('index.html'));
-		const project = new TextDecoder().decode(files.get('projects/helix/index.html'));
+		const project = new TextDecoder().decode(files.get('projects/helix.html'));
 		expect(home).toContain("src='/__reload.js'");
 		expect(project).toContain("src='/__reload.js'");
 	} finally {

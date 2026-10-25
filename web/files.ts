@@ -9,11 +9,25 @@ export interface StaticFile {
 }
 
 export async function readStaticFile(root: string, pathname: string): Promise<StaticFile | null> {
+	const candidates = pathname.endsWith('/')
+		? [resolve(root, `.${pathname}index.html`)]
+		: [
+			resolve(root, `.${pathname}`),
+			resolve(root, `.${pathname}.html`),
+			resolve(root, `.${pathname}/index.html`),
+		];
+	for (const candidate of candidates) {
+		const file = await readFile(candidate, root);
+		if (file) return file;
+	}
+	return null;
+}
+
+async function readFile(candidate: string, root: string): Promise<StaticFile | null> {
 	try {
-		let resolved = await realpath(resolve(root, `.${pathname}`));
+		const resolved = await realpath(candidate);
 		if (!resolved.startsWith(`${root}${sep}`) && resolved !== root) return null;
-		if ((await stat(resolved)).isDirectory()) resolved = await realpath(resolve(resolved, 'index.html'));
-		if (!resolved.startsWith(`${root}${sep}`)) return null;
+		if (!(await stat(resolved)).isFile()) return null;
 		return { file: Bun.file(resolved), path: resolved };
 	} catch (error) {
 		if (['ENOENT', 'ENOTDIR'].includes((error as NodeJS.ErrnoException).code ?? '')) return null;

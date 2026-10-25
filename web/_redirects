@@ -1,3 +1,7 @@
+# Leaf pages use file paths; directory-style URLs redirect to them.
+/about/ /about 301
+/dataset/ /dataset 301
+
 /data https://github.com/NightSail/bnck/releases/ 302
 /data/ https://github.com/NightSail/bnck/releases/ 302
 /data/latest https://github.com/NightSail/bnck/releases/tag/bnck-dataset-{{release}} 302
@@ -6,3 +10,7 @@
 /data/:release https://github.com/NightSail/bnck/releases/tag/bnck-dataset-:release 301
 /data/:release/ https://github.com/NightSail/bnck/releases/tag/bnck-dataset-:release 301
 /data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301
+
+/short/:section/ /short/:section 301
+/projects/:project/ /projects/:project 301
+/executables/:executable/ /executables/:executable 301

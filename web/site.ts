@@ -46,18 +46,18 @@ export async function buildSite(
 	};
 
 	addText(files, 'index.html', homePage(database, context));
-	addText(files, 'about/index.html', aboutPage(context));
-	addText(files, 'dataset/index.html', datasetPage(database, context));
+	addText(files, 'about.html', aboutPage(context));
+	addText(files, 'dataset.html', datasetPage(database, context));
 	for (const section of shortSections) {
-		addText(files, `short/${shortSectionSlug(section)}/index.html`, shortPage(section, shortSections, context));
+		addText(files, `short/${shortSectionSlug(section)}.html`, shortPage(section, shortSections, context));
 	}
 	addText(files, '404.html', notFoundPage(context));
 	for (const project of projects) {
-		addText(files, `projects/${project}/index.html`, projectPage(database, project, context));
+		addText(files, `projects/${project}.html`, projectPage(database, project, context));
 		addBytes(files, `projects/${project}/providers.json`, exportBytes(database, { project }));
 	}
 	for (const executable of executables) {
-		addText(files, `executables/${executable}/index.html`, executablePage(database, executable, context));
+		addText(files, `executables/${executable}.html`, executablePage(database, executable, context));
 		addBytes(files, `executables/${executable}/providers.json`, exportBytes(database, { executable }));
 	}
 	for (const [name, content] of applicationAssets) {

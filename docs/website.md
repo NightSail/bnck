@@ -131,9 +131,9 @@ Forms have explicit labels, tables have captions and scoped headings, keyboard n
 
 ## Static deployment
 
-The `Site` workflow builds and deploys the output from a released SQLite artifact without running acquisition or publishing the dataset. Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `dataset/index.html`, `short/2/index.html`, `short/{letter}/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
+The `Site` workflow builds and deploys the output from a released SQLite artifact without running acquisition or publishing the dataset. Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity pages are `projects/{project}.html` and `executables/{executable}.html`, with exports in `projects/{project}/providers.json` and `executables/{executable}/providers.json`; the root contains `index.html`, `about.html`, `dataset.html`, `short/2.html`, `short/{letter}.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
 
-Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short/2`, `/short/{letter}`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
+Serve the site from an origin root on a case-sensitive filesystem/host. Extensionless HTML file lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Trailing slashes on leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static path components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
 
 The generated `_headers` file supplies settings for hosts supporting that convention; others must configure equivalents:
 
@@ -144,6 +144,7 @@ The generated `_headers` file supplies settings for hosts supporting that conven
 
 The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Workers applies the generated `_redirects` file directly; other hosts must configure equivalent redirects:
 
+- `/about/`, `/dataset/`, `/short/{section}/`, `/projects/{project}/`, `/executables/{executable}/`: 301 to the corresponding file path
 - `/data` and `/data/`: 302 to `/data/latest`
 - `/data/latest`: 302 to the current dataset release page
 - `/data/latest/*`: 302 to the corresponding current dataset release asset
@@ -154,4 +155,4 @@ Serve HTML as `text/html`, JSON as `application/json` without attachment disposi
 
 Publish each build's pages and assets atomically, retaining previous application directories and dataset files so open pages can load matching code and data. Regenerate all pages and exports from the same release; never change contents at an existing content-addressed URL. Browser caches may evict files and must be allowed to fetch them again.
 
-`just site-preview` runs the dependency-free Bun server in `web/preview.ts`, binding `127.0.0.1:3000` by default and accepting a `HOST:PORT` address. It serves generated files with directory index lookup, cache/security headers, and a real 404 fallback. It does not evaluate host redirects. It is a local preview tool, not a production hosting requirement.
+`just site-preview` runs the dependency-free Bun server in `web/preview.ts`, binding `127.0.0.1:3000` by default and accepting a `HOST:PORT` address. It serves generated files with extensionless HTML file and directory index lookup, cache/security headers, and a real 404 fallback. It does not evaluate host redirects. It is a local preview tool, not a production hosting requirement.
