@@ -162,7 +162,6 @@ fn write_sqlite_database(
 		for project_id in linked_projects {
 			let project = &projects[&project_id];
 			for (link_type, url) in project_links(project) {
-				ensure_web_url(url)?;
 				statement.execute((&project_id, link_type, url))?;
 			}
 		}
@@ -539,11 +538,6 @@ fn project_links(project: &Project) -> Vec<(&'static str, &str)> {
 	}
 	links.extend(project.links.iter().map(|url| ("link", url.as_str())));
 	links
-}
-
-fn ensure_web_url(url: &str) -> Result<()> {
-	ensure!(url.starts_with("https://") || url.starts_with("http://"), "unsupported project link URL {url:?}");
-	Ok(())
 }
 
 fn validate_metadata(metadata: &SqliteMetadata<'_>) -> Result<()> {

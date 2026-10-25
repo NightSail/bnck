@@ -288,8 +288,34 @@ fn validate_project(project: &Project) -> Result<()> {
 		.chain(project.issue_tracker.iter())
 		.chain(project.links.iter())
 	{
-		validate_identity("project link", link)?;
+		validate_web_url(link)?;
 	}
+	Ok(())
+}
+
+fn validate_web_url(url: &str) -> Result<()> {
+	ensure!(url.starts_with("https://") || url.starts_with("http://"), "unsupported project link URL {url:?}");
+	ensure!(!url.chars().any(char::is_whitespace), "project link URL contains whitespace: {url:?}");
+	let authority = url
+		.split_once("://")
+		.and_then(|(_, rest)| rest.split(['/', '?', '#']).next())
+		.unwrap_or_default();
+	let host = match authority.rsplit_once(':') {
+		Some((host, port)) => {
+			ensure!(
+				!port.is_empty() && port.bytes().all(|byte| byte.is_ascii_digit()),
+				"project link URL has an invalid port: {url:?}"
+			);
+			host
+		},
+		None => authority,
+	};
+	ensure!(!host.is_empty(), "project link URL has no host: {url:?}");
+	ensure!(
+		host.chars()
+			.all(|character| character.is_ascii_alphanumeric() || matches!(character, '.' | '-' | '_')),
+		"project link URL has an invalid host: {url:?}"
+	);
 	Ok(())
 }
 
@@ -793,5 +819,28 @@ mod tests {
 		let projects = super::load_projects(&projects).unwrap();
 		let error = super::load_name_associations(&curations, &projects).unwrap_err();
 		assert!(error.to_string().contains("multiple reference projects"));
+	}
+
+	#[test]
+	fn validates_project_web_urls() {
+		for url in [
+			"https://example.test/tool",
+			"http://example.test",
+			"https://example.test:8443/tool?q=1#top",
+			"https://user.example.test/tool",
+		] {
+			super::validate_web_url(url).unwrap();
+		}
+		for url in [
+			"https:/example.test/tool",
+			"ftp://example.test/tool",
+			"http://http://example.test/tool",
+			"https://",
+			"https:///tool",
+			"https://example.test:invalid/tool",
+			"https://example .test/tool",
+		] {
+			assert!(super::validate_web_url(url).is_err(), "accepted {url:?}");
+		}
 	}
 }

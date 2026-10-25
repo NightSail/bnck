@@ -82,7 +82,7 @@ links = [
 ]
 ```
 
-Links are matching evidence only. Do not add distribution packaging repositories, forks, or mirrors merely because a package record mentions them. Project metadata supports review and consumer interfaces; it establishes no package ownership.
+Links are matching evidence only. Do not add distribution packaging repositories, forks, or mirrors merely because a package record mentions them. Project metadata supports review and consumer interfaces; it establishes no package ownership. Project URLs must be absolute HTTP or HTTPS URLs.
 
 Each `package` entry requires `channel` (stable channel key) and `name` (exact channel-native package identity). Project IDs use lowercase ASCII letters, digits, hyphens, periods, and underscores. They must be stable and independent of repository location or branding.
 
