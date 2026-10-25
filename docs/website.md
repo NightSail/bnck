@@ -22,7 +22,7 @@ Project pages normally use one coverage matrix: packages as rows grouped under c
 
 A project with more than 10,000 package/name combinations uses a sparse coverage view instead: an alphabetical executable index, then one row per package listing only the executable names observed in it. The same per-executable anchors remain available. This avoids a dense cross-product and keeps browser rendering responsive; absence still means not observed in this dataset.
 
-Project and executable pages are rendered in the browser from the shared dataset. The host serves one `/identity.html` shell for both route families.
+Project and executable pages are rendered in the browser from the shared dataset. The Cloudflare Worker serves one `/identity.html` shell for both route families without changing the requested URL.
 
 ## Search contract
 
@@ -62,7 +62,7 @@ Detail routes retain exact, case-sensitive lookup semantics:
 /about
 ```
 
-The host serves the shared `/identity.html` shell for `/projects/*` and `/executables/*`. The browser decodes the path once and looks up the exact identity in the dataset; unknown identities render a searchable not-found page. The dataset release section keeps `#release` as its anchor.
+The Cloudflare Worker routes `/projects/*` and `/executables/*` to the shared `/identity.html` shell without changing the requested URL. The browser decodes the path once and looks up the exact identity in the dataset; unknown identities render a searchable not-found page. The dataset release section keeps `#release` as its anchor.
 
 ## JSON exports
 
@@ -98,7 +98,7 @@ A missing identity or relation means there is no accepted provider record or nam
 
 ## Implementation
 
-`web/generate.ts` implements static generation. `web/database.ts` opens the compressed or uncompressed SQLite artifact and exposes dataset queries; `web/site.ts` stages the complete output; `web/pages.ts`, `web/identity-view.ts`, and `web/components.ts` render HTML. `web/identity.ts` mounts project and executable pages in the browser, and `web/exports.ts` handles JSON actions. The stylesheet is `web/style.css`. The generator bundles TypeScript browser entry points with Bun and reads source files from disk on each build.
+`web/generate.ts` implements static generation. `web/database.ts` opens the compressed or uncompressed SQLite artifact and exposes dataset queries; `web/site.ts` stages the complete output; `web/pages.ts`, `web/identity-view.ts`, and `web/components.ts` render HTML. `web/identity.ts` mounts project and executable pages in the browser, `web/exports.ts` handles JSON actions, and `web/worker.ts` routes identity requests on Cloudflare. The stylesheet is `web/style.css`. The generator bundles TypeScript browser entry points with Bun and reads source files from disk on each build.
 
 The generated browser dataset has `schema_version`, `dataset_release`, `generated_at`, supported channel keys and labels, and projects containing exact names, curated links, executable/channel/package relations, and name associations. Its `schema_version` is independent of the release, provider, and association schemas; increment it when the project, link, provider, or association shape changes incompatibly. It is a derived website artifact, not a replacement for the canonical release formats.
 
@@ -120,7 +120,7 @@ The `Site` workflow builds and deploys the output from a released SQLite artifac
 
 The output root contains `index.html`, `about.html`, `dataset.html`, `identity.html`, `short/2.html`, `short/{letter}.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory. It generates no files per project or executable, so output file count stays bounded as the dataset grows.
 
-Serve the site from an origin root. Extensionless HTML file lookup must resolve `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Proxy `/projects/*` and `/executables/*` to `/identity.html` with status 200 while preserving the original path. Trailing slashes on leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once; the browser performs identity lookup. Configure `404.html` as the error page, not a catch-all rewrite. Generation fails if any output file exceeds the host's 25 MiB asset limit or the output exceeds its 20,000-file limit.
+Serve the site from an origin root. The Cloudflare Worker has `run_worker_first` enabled for `/projects/*` and `/executables/*`; it serves `/identity.html` for valid identities, redirects trailing slashes and old export paths, and otherwise delegates to the asset binding. Extensionless HTML file lookup must resolve `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Trailing slashes on other leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once; the browser performs identity lookup. Configure `404.html` as the error page, not a catch-all rewrite. Generation fails if any output file exceeds the host's 25 MiB asset limit or the output exceeds its 20,000-file limit.
 
 The generated `_headers` file supplies settings for hosts supporting that convention; others must configure equivalents:
 
@@ -129,17 +129,15 @@ The generated `_headers` file supplies settings for hosts supporting that conven
 - All responses: `X-Content-Type-Options: nosniff`
 - Content security policy: `default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'`
 
-The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Workers applies the generated `_redirects` file directly; other hosts must configure equivalent redirects and rewrites:
+Cloudflare Workers applies the generated `_redirects` file directly. The Worker handles identity routing before `_redirects`, including trailing-slash and old export-path redirects. Other hosts must configure equivalent routing and redirects:
 
-- `/about/`, `/dataset/`, `/short/{section}/`, `/projects/{project}/`, `/executables/{executable}/`: 301 to the corresponding path
-- `/projects/*` and `/executables/*`: 200 proxy to `/identity.html`
-- `/projects/{project}/providers.json` and `/executables/{executable}/providers.json`: 301 to the identity page
+- `/about/`, `/dataset/`, `/short/{section}/`: 301 to the corresponding path
 - `/data` and `/data/`: 302 to `/data/latest`
 - `/data/latest`: 302 to the current dataset release page
 - `/data/latest/*`: 302 to the corresponding current dataset release asset
 - `/data/:release`: 301 to the `bnck-dataset-:release` page
 - `/data/:release/*`: 301 to the corresponding versioned release asset
 
-Publish each build's pages, identity shell, and assets atomically, retaining previous application directories and dataset files so open pages can load matching code and data. Regenerate everything from the same release; never change contents at an existing content-addressed URL.
+The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Publish each build's pages, identity shell, and assets atomically, retaining previous application directories and dataset files so open pages can load matching code and data. Regenerate everything from the same release; never change contents at an existing content-addressed URL.
 
 `just site-preview` runs the dependency-free Bun server in `web/preview.ts`, binding `127.0.0.1:3000` by default and accepting a `HOST:PORT` address. It serves generated files with extensionless HTML and directory index lookup, cache and security headers, the shared identity shell for `/projects/{project}` and `/executables/{executable}`, and a real 404 fallback. It does not evaluate host redirects.

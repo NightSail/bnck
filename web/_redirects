@@ -12,12 +12,5 @@
 /data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301
 
 /short/:section/ /short/:section 301
-/projects/:project/ /projects/:project 301
-/executables/:executable/ /executables/:executable 301
 
-# Identity pages are rendered from the browser dataset by one shared shell.
-# Old per-object JSON export paths now open the identity page instead.
-/projects/:project/providers.json /projects/:project 301
-/executables/:executable/providers.json /executables/:executable 301
-/projects/* /identity.html 200
-/executables/* /identity.html 200
+# Identity routes are handled by web/worker.ts before redirects.

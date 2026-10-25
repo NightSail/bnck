@@ -165,7 +165,9 @@ function writeHeaders(files: Map<string, Uint8Array>): void {
 		'/short/*',
 		'/projects/*',
 		'/executables/*',
+		'/identity',
 		'/identity.html',
+		'/404',
 		'/404.html',
 	]) {
 		headers += `\n${path}\n  Cache-Control: no-cache\n`;

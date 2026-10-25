@@ -173,7 +173,7 @@ just site-preview
 
 `site-preview` binds `127.0.0.1:3000` by default; pass `HOST:PORT` and a directory to change both. `site-build` clears its output directory.
 
-Publish the output at the origin root of a case-sensitive static host with extensionless HTML file support. Configure `404.html` as the error page rather than an SPA fallback, rewrite `/projects/*` and `/executables/*` to `/identity.html` with status 200, enable HTTP compression, and apply the generated `_headers` and `_redirects` files or equivalents. Deploy pages, the identity shell, and assets together and retain previous release assets so open pages finish loading their matching versions. See [website](docs/website.md) for routes, JSON actions, and deployment details.
+Publish the output at the origin root of a case-sensitive host. The Cloudflare Worker in `web/worker.ts` runs first for `/projects/*` and `/executables/*`, serving `/identity.html` without changing the URL and redirecting trailing slashes and old export paths. Configure `404.html` as the error page rather than an SPA fallback, enable HTTP compression, and apply the generated `_headers` and `_redirects` files or equivalents. Deploy pages, the identity shell, and assets together and retain previous release assets so open pages finish loading their matching versions. See [website](docs/website.md) for routes, JSON actions, and deployment details.
 
 ## Responsibilities
 

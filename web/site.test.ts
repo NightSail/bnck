@@ -113,13 +113,11 @@ test('generates a complete versioned site without per-identity files', async () 
 		expect(redirects).toContain(
 			'/data/:release/* https://github.com/NightSail/bnck/releases/download/bnck-dataset-:release/:splat 301',
 		);
-		for (const path of ['/about/', '/dataset/', '/short/:section/', '/projects/:project/',
-			'/executables/:executable/']) {
+		for (const path of ['/about/', '/dataset/', '/short/:section/']) {
 			expect(redirects).toContain(`${path} ${path.slice(0, -1)} 301`);
 		}
-		expect(redirects).toContain('/projects/* /identity.html 200');
-		expect(redirects).toContain('/executables/* /identity.html 200');
-		expect(redirects).toContain('/projects/:project/providers.json /projects/:project 301');
+		expect(redirects).not.toContain('/projects/*');
+		expect(redirects).not.toContain('/executables/*');
 		expect(redirects).not.toContain('{{release}}');
 
 		const second = join(root, 'second');

@@ -1,11 +1,15 @@
 {
 	// The custom domain is attached in the Cloudflare dashboard, not here, so CI needs only
-	// Worker Editor access and no zone-level Workers Routes permission.
+	// Worker Editor access and no zone-level Workers Routes permission. The Worker handles
+	// identity routes first and delegates everything else to the static assets.
 	"name": "bnck",
+	"main": "./web/worker.ts",
 	"compatibility_date": "2026-10-23",
 	"assets": {
 		"directory": "./var/site",
+		"binding": "ASSETS",
 		"html_handling": "auto-trailing-slash",
-		"not_found_handling": "404-page"
+		"not_found_handling": "404-page",
+		"run_worker_first": ["/projects/*", "/executables/*"]
 	}
 }
