@@ -1,0 +1,8 @@
+id = 'rhdb-utils'
+name = 'rhdb-utils'
+
+homepage = 'https://github.com/df7cb/pg_filedump'
+
+[[package]]
+channel = 'fedora'
+name = 'rhdb-utils'

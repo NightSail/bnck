@@ -1,0 +1,20 @@
+id = 'unzip'
+name = 'unzip'
+
+homepage = 'http://infozip.sourceforge.net/UnZip.html'
+
+[[package]]
+channel = 'arch'
+name = 'unzip'
+
+[[package]]
+channel = 'debian'
+name = 'unzip'
+
+[[package]]
+channel = 'fedora'
+name = 'unzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unzip'

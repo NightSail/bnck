@@ -1,0 +1,12 @@
+id = 'proofgeneral'
+name = 'proofgeneral'
+
+homepage = 'https://proofgeneral.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'proofgeneral'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-common-proofgeneral'

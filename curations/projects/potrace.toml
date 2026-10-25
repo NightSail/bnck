@@ -1,0 +1,20 @@
+id = 'potrace'
+name = 'potrace'
+
+homepage = 'https://potrace.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'potrace'
+
+[[package]]
+channel = 'debian'
+name = 'potrace'
+
+[[package]]
+channel = 'fedora'
+name = 'potrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/potrace'

@@ -1,0 +1,8 @@
+id = 'hime'
+name = 'hime'
+
+homepage = 'https://hime-ime.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'hime'

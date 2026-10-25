@@ -1,0 +1,16 @@
+id = 'libvpl-tools'
+name = 'libvpl-tools'
+
+homepage = 'https://github.com/intel/libvpl-tools'
+
+[[package]]
+channel = 'arch'
+name = 'libvpl-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libvpl-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libvpl-tools'

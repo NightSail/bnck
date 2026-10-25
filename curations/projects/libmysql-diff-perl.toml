@@ -1,0 +1,8 @@
+id = 'libmysql-diff-perl'
+name = 'libmysql-diff-perl'
+
+homepage = 'https://metacpan.org/release/MySQL-Diff'
+
+[[package]]
+channel = 'debian'
+name = 'libmysql-diff-perl'

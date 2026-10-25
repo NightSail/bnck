@@ -1,0 +1,12 @@
+id = 'pcl-tools'
+name = 'pcl-tools'
+
+homepage = 'https://www.pointclouds.org'
+
+[[package]]
+channel = 'debian'
+name = 'pcl-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pcl-tools'

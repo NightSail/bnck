@@ -1,0 +1,12 @@
+id = 'io-aio'
+name = 'IO-AIO'
+
+homepage = 'https://metacpan.org/release/IO-AIO'
+
+[[package]]
+channel = 'debian'
+name = 'libio-aio-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'treescan'

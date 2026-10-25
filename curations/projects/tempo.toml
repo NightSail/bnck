@@ -1,0 +1,8 @@
+id = 'tempo'
+name = 'tempo'
+
+homepage = 'https://grafana.com/oss/tempo'
+
+[[package]]
+channel = 'arch'
+name = 'tempo'

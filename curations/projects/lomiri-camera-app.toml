@@ -1,0 +1,8 @@
+id = 'lomiri-camera-app'
+name = 'lomiri-camera-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-camera-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-camera-app'

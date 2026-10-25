@@ -1,0 +1,8 @@
+id = 'python-pysmi'
+name = 'python-pysmi'
+
+homepage = 'https://github.com/lextudio/pysmi'
+
+[[package]]
+channel = 'arch'
+name = 'python-pysmi'

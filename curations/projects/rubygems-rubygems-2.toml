@@ -1,0 +1,6 @@
+id = 'rubygems-rubygems-2'
+name = 'rubygems'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygems'

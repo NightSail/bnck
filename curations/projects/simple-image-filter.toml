@@ -1,0 +1,8 @@
+id = 'simple-image-filter'
+name = 'simple-image-filter'
+
+homepage = 'https://github.com/dependon/simple-image-filter'
+
+[[package]]
+channel = 'debian'
+name = 'simple-image-filter'

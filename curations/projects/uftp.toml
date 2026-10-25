@@ -1,0 +1,12 @@
+id = 'uftp'
+name = 'uftp'
+
+homepage = 'https://uftp-multicast.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'uftp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uftp'

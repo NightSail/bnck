@@ -1,0 +1,12 @@
+id = 'e00compr'
+name = 'e00compr'
+
+homepage = 'http://avce00.maptools.org/e00compr'
+
+[[package]]
+channel = 'debian'
+name = 'e00compr'
+
+[[package]]
+channel = 'fedora'
+name = 'e00compr-tools'

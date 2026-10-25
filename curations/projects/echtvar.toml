@@ -1,0 +1,8 @@
+id = 'echtvar'
+name = 'echtvar'
+
+homepage = 'https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac931/6775383'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/echtvar'

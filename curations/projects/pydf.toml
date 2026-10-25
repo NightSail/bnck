@@ -1,0 +1,12 @@
+id = 'pydf'
+name = 'pydf'
+
+homepage = 'http://kassiopeia.juls.savba.sk/~garabik/software/pydf'
+
+[[package]]
+channel = 'arch'
+name = 'pydf'
+
+[[package]]
+channel = 'debian'
+name = 'pydf'

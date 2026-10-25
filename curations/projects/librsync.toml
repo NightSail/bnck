@@ -1,0 +1,12 @@
+id = 'librsync'
+name = 'librsync'
+
+homepage = 'https://github.com/librsync/librsync'
+
+[[package]]
+channel = 'arch'
+name = 'librsync'
+
+[[package]]
+channel = 'debian'
+name = 'rdiff'

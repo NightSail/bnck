@@ -1,0 +1,8 @@
+id = 'imageindex'
+name = 'imageindex'
+
+homepage = 'http://www.edwinh.org/imageindex'
+
+[[package]]
+channel = 'debian'
+name = 'imageindex'

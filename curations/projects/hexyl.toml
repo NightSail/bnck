@@ -16,5 +16,9 @@ channel = 'debian'
 name = 'hexyl'
 
 [[package]]
+channel = 'fedora'
+name = 'hexyl'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/hexyl'

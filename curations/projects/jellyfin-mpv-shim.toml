@@ -1,0 +1,8 @@
+id = 'jellyfin-mpv-shim'
+name = 'jellyfin-mpv-shim'
+
+homepage = 'https://github.com/jellyfin/jellyfin-mpv-shim'
+
+[[package]]
+channel = 'arch'
+name = 'jellyfin-mpv-shim'

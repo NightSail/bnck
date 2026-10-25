@@ -1,0 +1,8 @@
+id = 'tworld'
+name = 'tworld'
+
+homepage = 'http://www.muppetlabs.com/~breadbox/software/tworld'
+
+[[package]]
+channel = 'fedora'
+name = 'tworld'

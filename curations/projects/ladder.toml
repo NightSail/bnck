@@ -1,0 +1,8 @@
+id = 'ladder'
+name = 'ladder'
+
+repository = 'https://github.com/everywall/ladder.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ladder'

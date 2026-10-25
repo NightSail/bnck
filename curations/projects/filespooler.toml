@@ -1,0 +1,8 @@
+id = 'filespooler'
+name = 'filespooler'
+
+homepage = 'https://www.complete.org/filespooler'
+
+[[package]]
+channel = 'debian'
+name = 'filespooler'

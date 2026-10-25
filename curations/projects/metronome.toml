@@ -1,0 +1,12 @@
+id = 'metronome'
+name = 'metronome'
+
+homepage = 'https://gitlab.gnome.org/World/metronome'
+
+[[package]]
+channel = 'arch'
+name = 'metronome'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-metronome'

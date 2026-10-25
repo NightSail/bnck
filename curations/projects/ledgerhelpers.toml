@@ -1,0 +1,8 @@
+id = 'ledgerhelpers'
+name = 'ledgerhelpers'
+
+homepage = 'https://github.com/Rudd-O/ledgerhelpers'
+
+[[package]]
+channel = 'debian'
+name = 'ledgerhelpers'

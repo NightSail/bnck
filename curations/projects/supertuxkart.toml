@@ -1,0 +1,12 @@
+id = 'supertuxkart'
+name = 'supertuxkart'
+
+homepage = 'https://supertuxkart-evolution.com'
+
+[[package]]
+channel = 'arch'
+name = 'supertuxkart'
+
+[[package]]
+channel = 'fedora'
+name = 'supertuxkart'

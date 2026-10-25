@@ -1,0 +1,8 @@
+id = 'qabc'
+name = 'qabc'
+
+homepage = 'http://brouits.free.fr/qabc'
+
+[[package]]
+channel = 'debian'
+name = 'qabc'

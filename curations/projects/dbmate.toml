@@ -1,0 +1,12 @@
+id = 'dbmate'
+name = 'dbmate'
+
+repository = 'https://github.com/amacneil/dbmate.git'
+
+[[package]]
+channel = 'arch'
+name = 'dbmate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbmate'

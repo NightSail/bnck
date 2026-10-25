@@ -1,0 +1,8 @@
+id = 'graphviz2drawio'
+name = 'graphviz2drawio'
+
+homepage = 'https://github.com/hbmartin/graphviz2drawio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphviz2drawio'

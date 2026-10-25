@@ -1,0 +1,8 @@
+id = 'nsight-compute'
+name = 'nsight-compute'
+
+homepage = 'https://developer.nvidia.com/nsight-compute'
+
+[[package]]
+channel = 'arch'
+name = 'nsight-compute'

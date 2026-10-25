@@ -1,0 +1,8 @@
+id = 'pf-bb-config'
+name = 'pf-bb-config'
+
+homepage = 'https://github.com/intel/pf-bb-config'
+
+[[package]]
+channel = 'fedora'
+name = 'pf-bb-config'

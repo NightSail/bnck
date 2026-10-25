@@ -1,0 +1,8 @@
+id = 'gmidimonitor'
+name = 'gmidimonitor'
+
+homepage = 'http://home.gna.org/gmidimonitor'
+
+[[package]]
+channel = 'debian'
+name = 'gmidimonitor'

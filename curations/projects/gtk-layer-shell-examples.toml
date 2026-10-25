@@ -1,0 +1,8 @@
+id = 'gtk-layer-shell-examples'
+name = 'gtk-layer-shell-examples'
+
+homepage = 'https://github.com/wmww/gtk-layer-shell'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-layer-shell-examples'

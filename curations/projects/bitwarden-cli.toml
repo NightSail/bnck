@@ -1,0 +1,13 @@
+id = 'bitwarden-cli'
+name = 'bitwarden-cli'
+
+homepage = 'https://bitwarden.com'
+repository = 'https://github.com/bitwarden/clients.git'
+
+[[package]]
+channel = 'arch'
+name = 'bitwarden-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bitwarden-cli'

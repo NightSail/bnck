@@ -1,0 +1,16 @@
+id = 'neovide'
+name = 'neovide'
+
+homepage = 'https://github.com/neovide/neovide'
+
+[[package]]
+channel = 'arch'
+name = 'neovide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/neovide-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neovide'

@@ -1,0 +1,6 @@
+id = 'ollama-ollama-2'
+name = 'ollama'
+
+[[package]]
+channel = 'crates.io'
+name = 'ollama'

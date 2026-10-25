@@ -1,0 +1,16 @@
+id = 'udisks'
+name = 'udisks'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/udisks'
+
+[[package]]
+channel = 'arch'
+name = 'udisks2'
+
+[[package]]
+channel = 'debian'
+name = 'udisks2'
+
+[[package]]
+channel = 'fedora'
+name = 'udisks'

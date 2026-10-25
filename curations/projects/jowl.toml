@@ -1,0 +1,8 @@
+id = 'jowl'
+name = 'jowl'
+
+homepage = 'https://jowl.app'
+
+[[package]]
+channel = 'fedora'
+name = 'jowl'

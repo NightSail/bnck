@@ -1,0 +1,8 @@
+id = 'meshbird'
+name = 'meshbird'
+
+homepage = 'https://github.com/meshbird/meshbird'
+
+[[package]]
+channel = 'arch'
+name = 'meshbird'

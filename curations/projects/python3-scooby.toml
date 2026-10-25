@@ -1,0 +1,12 @@
+id = 'python3-scooby'
+name = 'python3-scooby'
+
+homepage = 'https://github.com/banesullivan/scooby'
+
+[[package]]
+channel = 'debian'
+name = 'python3-scooby'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-scooby'

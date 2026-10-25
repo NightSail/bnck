@@ -1,0 +1,12 @@
+id = 'ocrfeeder'
+name = 'ocrfeeder'
+
+homepage = 'https://wiki.gnome.org/Apps/OCRFeeder'
+
+[[package]]
+channel = 'arch'
+name = 'ocrfeeder'
+
+[[package]]
+channel = 'debian'
+name = 'ocrfeeder'

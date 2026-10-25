@@ -1,0 +1,8 @@
+id = 'hivemind'
+name = 'hivemind'
+
+repository = 'https://github.com/DarthSim/hivemind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hivemind'

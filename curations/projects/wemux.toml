@@ -1,0 +1,12 @@
+id = 'wemux'
+name = 'wemux'
+
+repository = 'https://github.com/zolrath/wemux.git'
+
+[[package]]
+channel = 'fedora'
+name = 'wemux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wemux'

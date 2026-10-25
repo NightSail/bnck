@@ -14,3 +14,7 @@ name = 'skopeo'
 [[package]]
 channel = 'fedora'
 name = 'skopeo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skopeo'

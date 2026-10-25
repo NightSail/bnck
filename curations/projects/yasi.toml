@@ -1,0 +1,12 @@
+id = 'yasi'
+name = 'yasi'
+
+homepage = 'https://yasi.jonathancarter.org'
+
+[[package]]
+channel = 'debian'
+name = 'yasi-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'yasi-webclient'

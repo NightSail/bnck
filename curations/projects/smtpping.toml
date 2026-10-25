@@ -1,0 +1,12 @@
+id = 'smtpping'
+name = 'smtpping'
+
+homepage = 'https://github.com/halonsecurity/smtpping'
+
+[[package]]
+channel = 'debian'
+name = 'smtpping'
+
+[[package]]
+channel = 'fedora'
+name = 'smtpping'

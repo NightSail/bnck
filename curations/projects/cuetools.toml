@@ -1,0 +1,20 @@
+id = 'cuetools'
+name = 'cuetools'
+
+repository = 'https://github.com/svend/cuetools.git'
+
+[[package]]
+channel = 'arch'
+name = 'cuetools'
+
+[[package]]
+channel = 'debian'
+name = 'cuetools'
+
+[[package]]
+channel = 'fedora'
+name = 'cuetools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cuetools'

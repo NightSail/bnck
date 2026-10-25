@@ -1,0 +1,8 @@
+id = 'ripser'
+name = 'ripser'
+
+homepage = 'http://ripser.org'
+
+[[package]]
+channel = 'debian'
+name = 'ripser'

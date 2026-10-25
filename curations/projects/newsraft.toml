@@ -1,0 +1,12 @@
+id = 'newsraft'
+name = 'newsraft'
+
+homepage = 'https://codeberg.org/newsraft/newsraft'
+
+[[package]]
+channel = 'debian'
+name = 'newsraft'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newsraft'

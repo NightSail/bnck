@@ -1,0 +1,12 @@
+id = 'emptty'
+name = 'emptty'
+
+homepage = 'https://github.com/tvrzna/emptty'
+
+[[package]]
+channel = 'arch'
+name = 'emptty'
+
+[[package]]
+channel = 'debian'
+name = 'emptty'

@@ -1,0 +1,8 @@
+id = 'libvmdk-utils'
+name = 'libvmdk-utils'
+
+homepage = 'https://github.com/libyal/libvmdk'
+
+[[package]]
+channel = 'debian'
+name = 'libvmdk-utils'

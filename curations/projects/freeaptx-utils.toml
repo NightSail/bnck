@@ -1,0 +1,8 @@
+id = 'freeaptx-utils'
+name = 'freeaptx-utils'
+
+homepage = 'https://github.com/iamthehorker/libfreeaptx'
+
+[[package]]
+channel = 'debian'
+name = 'freeaptx-utils'

@@ -1,0 +1,8 @@
+id = 'python3-virt-firmware'
+name = 'python3-virt-firmware'
+
+homepage = 'https://pypi.org/project/virt-firmware'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-virt-firmware'

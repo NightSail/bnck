@@ -1,0 +1,8 @@
+id = 'ocaml-crunch'
+name = 'ocaml-crunch'
+
+homepage = 'https://github.com/mirage/ocaml-crunch'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-crunch'

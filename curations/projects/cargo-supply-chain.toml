@@ -1,0 +1,8 @@
+id = 'cargo-supply-chain'
+name = 'cargo-supply-chain'
+
+homepage = 'https://github.com/rust-secure-code/cargo-supply-chain'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-supply-chain'

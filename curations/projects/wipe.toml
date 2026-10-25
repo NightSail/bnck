@@ -1,0 +1,16 @@
+id = 'wipe'
+name = 'wipe'
+
+homepage = 'http://wipe.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'wipe'
+
+[[package]]
+channel = 'debian'
+name = 'wipe'
+
+[[package]]
+channel = 'fedora'
+name = 'wipe'

@@ -6,3 +6,11 @@ homepage = 'https://virtualbox.org'
 [[package]]
 channel = 'arch'
 name = 'virtualbox'
+
+[[package]]
+channel = 'arch'
+name = 'virtualbox-guest-utils'
+
+[[package]]
+channel = 'arch'
+name = 'virtualbox-guest-utils-nox'

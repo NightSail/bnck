@@ -1,0 +1,16 @@
+id = 'gnome-applets'
+name = 'gnome-applets'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeApplets'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-applets'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-applets'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-applets'

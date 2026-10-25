@@ -1,0 +1,8 @@
+id = 'libvirt-daemon-plugin-sanlock'
+name = 'libvirt-daemon-plugin-sanlock'
+
+homepage = 'https://libvirt.org/kbase/locking-sanlock.html'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-daemon-plugin-sanlock'

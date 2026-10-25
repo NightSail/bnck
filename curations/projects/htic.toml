@@ -1,0 +1,8 @@
+id = 'htic'
+name = 'htic'
+
+homepage = 'https://gitlab.com/sev/htic'
+
+[[package]]
+channel = 'debian'
+name = 'htic'

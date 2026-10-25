@@ -1,0 +1,8 @@
+id = 'squiid'
+name = 'squiid'
+
+homepage = 'https://imaginaryinfinity.net/projects/squiid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/squiid'

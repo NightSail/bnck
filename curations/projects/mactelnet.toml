@@ -1,0 +1,12 @@
+id = 'mactelnet'
+name = 'mactelnet'
+
+homepage = 'https://github.com/haakonnessjoen/MAC-Telnet'
+
+[[package]]
+channel = 'debian'
+name = 'mactelnet-client'
+
+[[package]]
+channel = 'debian'
+name = 'mactelnet-server'

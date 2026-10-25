@@ -1,0 +1,8 @@
+id = 'python-tempest'
+name = 'python-tempest'
+
+homepage = 'https://docs.openstack.org/tempest/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-tempest'

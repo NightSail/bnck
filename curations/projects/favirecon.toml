@@ -1,0 +1,9 @@
+id = 'favirecon'
+name = 'favirecon'
+
+homepage = 'https://edoardottt.com'
+repository = 'https://github.com/edoardottt/favirecon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/favirecon'

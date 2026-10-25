@@ -1,0 +1,8 @@
+id = 'golang-github-shopify-sarama'
+name = 'golang-github-shopify-sarama'
+
+homepage = 'https://github.com/Shopify/sarama'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-shopify-sarama'

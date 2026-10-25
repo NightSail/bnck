@@ -1,0 +1,6 @@
+id = 'newsx'
+name = 'newsx'
+
+[[package]]
+channel = 'fedora'
+name = 'newsx'

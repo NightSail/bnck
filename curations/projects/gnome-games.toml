@@ -1,0 +1,8 @@
+id = 'gnome-games'
+name = 'gnome-games'
+
+homepage = 'https://wiki.gnome.org/Apps/Games'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-games'

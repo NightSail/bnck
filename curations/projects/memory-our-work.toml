@@ -1,0 +1,16 @@
+id = 'memory-our-work'
+name = 'memory'
+
+homepage = 'https://citp.princeton.edu/our-work/memory/code'
+
+[[package]]
+channel = 'debian'
+name = 'aesfix'
+
+[[package]]
+channel = 'debian'
+name = 'aeskeyfind'
+
+[[package]]
+channel = 'debian'
+name = 'rsakeyfind'

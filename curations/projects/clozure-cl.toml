@@ -1,0 +1,9 @@
+id = 'clozure-cl'
+name = 'clozure-cl'
+
+homepage = 'https://ccl.clozure.com'
+repository = 'https://github.com/Clozure/ccl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clozure-cl'

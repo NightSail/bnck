@@ -1,0 +1,8 @@
+id = 'minetestmapper'
+name = 'minetestmapper'
+
+homepage = 'https://github.com/minetest/minetestmapper'
+
+[[package]]
+channel = 'fedora'
+name = 'minetestmapper'

@@ -1,0 +1,20 @@
+id = 'stress-ng'
+name = 'stress-ng'
+
+homepage = 'https://wiki.ubuntu.com/Kernel/Reference/stress-ng'
+
+[[package]]
+channel = 'arch'
+name = 'stress-ng'
+
+[[package]]
+channel = 'debian'
+name = 'stress-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'stress-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stress-ng'

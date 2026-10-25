@@ -1,0 +1,8 @@
+id = 'rd-agent'
+name = 'rd-agent'
+
+homepage = 'https://crates.io/crates/rd-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'rd-agent'

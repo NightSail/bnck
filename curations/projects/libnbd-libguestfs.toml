@@ -1,0 +1,12 @@
+id = 'libnbd-libguestfs'
+name = 'libnbd'
+
+homepage = 'https://github.com/libguestfs/libnbd'
+
+[[package]]
+channel = 'debian'
+name = 'libnbd-bin'
+
+[[package]]
+channel = 'debian'
+name = 'python3-libnbd'

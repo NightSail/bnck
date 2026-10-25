@@ -1,0 +1,8 @@
+id = 'evilwm'
+name = 'evilwm'
+
+homepage = 'https://www.6809.org.uk/evilwm'
+
+[[package]]
+channel = 'debian'
+name = 'evilwm'

@@ -1,0 +1,16 @@
+id = 'call-cc'
+name = 'call-cc'
+
+homepage = 'https://call-cc.org'
+
+[[package]]
+channel = 'arch'
+name = 'chicken'
+
+[[package]]
+channel = 'debian'
+name = 'chicken-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'chicken'

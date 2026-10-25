@@ -1,0 +1,12 @@
+id = 'rocksndiamonds'
+name = 'rocksndiamonds'
+
+homepage = 'https://www.artsoft.org/rocksndiamonds'
+
+[[package]]
+channel = 'arch'
+name = 'rocksndiamonds'
+
+[[package]]
+channel = 'fedora'
+name = 'rocksndiamonds'

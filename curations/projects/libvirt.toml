@@ -1,0 +1,120 @@
+id = 'libvirt'
+name = 'libvirt'
+
+homepage = 'https://libvirt.org'
+
+[[package]]
+channel = 'arch'
+name = 'libvirt'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-clients'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-clients-qemu'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-daemon-common'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-dbus'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-login-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-client'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-client-qemu'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-common'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-ch'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-interface'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-libxl'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-lxc'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-network'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-nodedev'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-nwfilter'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-qemu'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-secret'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-storage-core'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-driver-vbox'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-lock'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-log'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-plugin-sanlock'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-daemon-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-dbus'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-login-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-sandbox'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Sys-Virt-TCK'

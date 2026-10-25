@@ -1,0 +1,12 @@
+id = 'fatcat'
+name = 'fatcat'
+
+homepage = 'https://github.com/Gregwar/fatcat'
+
+[[package]]
+channel = 'debian'
+name = 'fatcat'
+
+[[package]]
+channel = 'fedora'
+name = 'fatcat'

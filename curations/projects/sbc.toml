@@ -1,0 +1,8 @@
+id = 'sbc'
+name = 'sbc'
+
+homepage = 'https://git.kernel.org/pub/scm/bluetooth/sbc.git'
+
+[[package]]
+channel = 'arch'
+name = 'sbc'

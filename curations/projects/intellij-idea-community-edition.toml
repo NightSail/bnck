@@ -1,0 +1,8 @@
+id = 'intellij-idea-community-edition'
+name = 'intellij-idea-community-edition'
+
+homepage = 'https://www.jetbrains.com/idea'
+
+[[package]]
+channel = 'arch'
+name = 'intellij-idea-community-edition'

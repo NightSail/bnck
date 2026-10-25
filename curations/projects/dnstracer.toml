@@ -1,0 +1,16 @@
+id = 'dnstracer'
+name = 'dnstracer'
+
+homepage = 'https://www.mavetju.org/unix/dnstracer.php'
+
+[[package]]
+channel = 'debian'
+name = 'dnstracer'
+
+[[package]]
+channel = 'fedora'
+name = 'dnstracer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnstracer'

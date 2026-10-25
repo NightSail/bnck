@@ -1,0 +1,8 @@
+id = 'golang-github-projectdiscovery-chaos-client'
+name = 'golang-github-projectdiscovery-chaos-client'
+
+homepage = 'https://github.com/projectdiscovery/chaos-client'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-projectdiscovery-chaos-client'

@@ -1,0 +1,6 @@
+id = 'quickml'
+name = 'quickml'
+
+[[package]]
+channel = 'debian'
+name = 'quickml'

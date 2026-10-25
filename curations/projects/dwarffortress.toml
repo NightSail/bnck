@@ -1,0 +1,8 @@
+id = 'dwarffortress'
+name = 'dwarffortress'
+
+homepage = 'https://www.bay12games.com/dwarves'
+
+[[package]]
+channel = 'arch'
+name = 'dwarffortress'

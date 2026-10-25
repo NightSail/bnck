@@ -1,0 +1,12 @@
+id = 'glew'
+name = 'glew'
+
+homepage = 'https://github.com/nigels-com/glew'
+
+[[package]]
+channel = 'arch'
+name = 'glew'
+
+[[package]]
+channel = 'fedora'
+name = 'glew'

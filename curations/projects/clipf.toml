@@ -1,0 +1,8 @@
+id = 'clipf'
+name = 'clipf'
+
+homepage = 'https://github.com/atsb/clipf'
+
+[[package]]
+channel = 'debian'
+name = 'clipf'

@@ -1,0 +1,10 @@
+id = 'glimpse'
+name = 'glimpse'
+
+[[package]]
+channel = 'debian'
+name = 'glimpse'
+
+[[package]]
+channel = 'fedora'
+name = 'glimpse'

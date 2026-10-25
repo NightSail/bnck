@@ -1,0 +1,8 @@
+id = 'ocsigenserver'
+name = 'ocsigenserver'
+
+homepage = 'https://ocsigen.org/ocsigenserver'
+
+[[package]]
+channel = 'debian'
+name = 'ocsigenserver'

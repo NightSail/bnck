@@ -1,0 +1,28 @@
+id = 'nx-libs'
+name = 'nx-libs'
+
+homepage = 'https://github.com/ArcticaProject/nx-libs'
+
+[[package]]
+channel = 'debian'
+name = 'nxagent'
+
+[[package]]
+channel = 'debian'
+name = 'nxdialog'
+
+[[package]]
+channel = 'debian'
+name = 'nxproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'nxagent'
+
+[[package]]
+channel = 'fedora'
+name = 'nxdialog'
+
+[[package]]
+channel = 'fedora'
+name = 'nxproxy'

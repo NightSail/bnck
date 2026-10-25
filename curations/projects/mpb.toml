@@ -1,0 +1,12 @@
+id = 'mpb'
+name = 'mpb'
+
+homepage = 'https://mpb.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'mpb'
+
+[[package]]
+channel = 'debian'
+name = 'mpb-mpi'

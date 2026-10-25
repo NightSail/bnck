@@ -1,0 +1,8 @@
+id = 'python3-sgqlc'
+name = 'python3-sgqlc'
+
+homepage = 'https://github.com/profusion/sgqlc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sgqlc'

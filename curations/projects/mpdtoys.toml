@@ -1,0 +1,8 @@
+id = 'mpdtoys'
+name = 'mpdtoys'
+
+homepage = 'https://joeyh.name/code/mpdtoys'
+
+[[package]]
+channel = 'debian'
+name = 'mpdtoys'

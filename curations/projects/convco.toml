@@ -1,0 +1,9 @@
+id = 'convco'
+name = 'convco'
+
+homepage = 'https://convco.github.io'
+repository = 'https://github.com/convco/convco.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/convco'

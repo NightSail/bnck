@@ -1,0 +1,20 @@
+id = 'siege'
+name = 'siege'
+
+homepage = 'https://www.joedog.org/siege'
+
+[[package]]
+channel = 'arch'
+name = 'siege'
+
+[[package]]
+channel = 'debian'
+name = 'siege'
+
+[[package]]
+channel = 'fedora'
+name = 'siege'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/siege'

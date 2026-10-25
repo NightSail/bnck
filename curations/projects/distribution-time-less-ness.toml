@@ -1,0 +1,8 @@
+id = 'distribution-time-less-ness'
+name = 'distribution'
+
+repository = 'https://github.com/time-less-ness/distribution.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/distribution'

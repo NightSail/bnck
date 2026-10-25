@@ -1,0 +1,8 @@
+id = 'im-config'
+name = 'im-config'
+
+homepage = 'https://salsa.debian.org/input-method-team/im-config'
+
+[[package]]
+channel = 'debian'
+name = 'im-config'

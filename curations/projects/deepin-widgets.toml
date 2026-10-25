@@ -1,0 +1,8 @@
+id = 'deepin-widgets'
+name = 'deepin-widgets'
+
+homepage = 'https://github.com/linuxdeepin/dde-widgets'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-widgets'

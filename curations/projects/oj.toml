@@ -1,0 +1,8 @@
+id = 'oj'
+name = 'oj'
+
+repository = 'https://github.com/ohler55/ojg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oj'

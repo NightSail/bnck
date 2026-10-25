@@ -1,0 +1,8 @@
+id = 'gkrellm-cpufreq'
+name = 'gkrellm-cpufreq'
+
+homepage = 'http://chw.populus.org/rub/7'
+
+[[package]]
+channel = 'debian'
+name = 'gkrellm-cpufreq'

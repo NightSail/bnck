@@ -1,0 +1,8 @@
+id = 'gitinspector'
+name = 'gitinspector'
+
+homepage = 'https://github.com/ejwa/gitinspector'
+
+[[package]]
+channel = 'debian'
+name = 'gitinspector'

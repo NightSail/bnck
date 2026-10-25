@@ -1,0 +1,8 @@
+id = 'hyperqueue'
+name = 'hyperqueue'
+
+homepage = 'https://github.com/It4innovations/hyperqueue'
+
+[[package]]
+channel = 'arch'
+name = 'hyperqueue'

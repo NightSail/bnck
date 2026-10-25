@@ -1,0 +1,8 @@
+id = 'playitslowly'
+name = 'playitslowly'
+
+homepage = 'https://29a.ch/playitslowly'
+
+[[package]]
+channel = 'arch'
+name = 'playitslowly'

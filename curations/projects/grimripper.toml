@@ -1,0 +1,8 @@
+id = 'grimripper'
+name = 'grimripper'
+
+homepage = 'https://gitlab.gnome.org/Salamandar/GrimRipper'
+
+[[package]]
+channel = 'debian'
+name = 'grimripper'

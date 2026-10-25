@@ -1,0 +1,8 @@
+id = 'libfile-copy-link-perl'
+name = 'libfile-copy-link-perl'
+
+homepage = 'https://metacpan.org/release/File-Copy-Link'
+
+[[package]]
+channel = 'debian'
+name = 'libfile-copy-link-perl'

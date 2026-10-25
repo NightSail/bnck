@@ -1,0 +1,8 @@
+id = 'nscde'
+name = 'NsCDE'
+
+homepage = 'https://github.com/NsCDE/NsCDE'
+
+[[package]]
+channel = 'fedora'
+name = 'NsCDE'

@@ -1,0 +1,12 @@
+id = 'bitcoin-knots'
+name = 'bitcoin-knots'
+
+homepage = 'https://bitcoinknots.org'
+
+[[package]]
+channel = 'debian'
+name = 'bitcoin-knots'
+
+[[package]]
+channel = 'debian'
+name = 'bitcoin-knots-gui'

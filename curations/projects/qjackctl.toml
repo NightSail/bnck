@@ -1,0 +1,21 @@
+id = 'qjackctl'
+name = 'qjackctl'
+
+homepage = 'https://qjackctl.sourceforge.io'
+repository = 'https://git.code.sf.net/p/qjackctl/code.git'
+
+[[package]]
+channel = 'arch'
+name = 'qjackctl'
+
+[[package]]
+channel = 'debian'
+name = 'qjackctl'
+
+[[package]]
+channel = 'fedora'
+name = 'qjackctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qjackctl'

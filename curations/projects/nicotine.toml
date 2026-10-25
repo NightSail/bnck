@@ -1,0 +1,16 @@
+id = 'nicotine'
+name = 'nicotine+'
+
+homepage = 'https://github.com/Nicotine-Plus/nicotine-plus'
+
+[[package]]
+channel = 'arch'
+name = 'nicotine+'
+
+[[package]]
+channel = 'debian'
+name = 'nicotine'
+
+[[package]]
+channel = 'fedora'
+name = 'nicotine+'

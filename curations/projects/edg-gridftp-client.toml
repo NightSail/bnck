@@ -1,0 +1,8 @@
+id = 'edg-gridftp-client'
+name = 'edg-gridftp-client'
+
+homepage = 'http://jra1mw.cvs.cern.ch:8180/cgi-bin/jra1mw.cgi/edg-gridftp-client'
+
+[[package]]
+channel = 'fedora'
+name = 'edg-gridftp-client'

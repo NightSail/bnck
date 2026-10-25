@@ -1,0 +1,12 @@
+id = 'rmtfs'
+name = 'rmtfs'
+
+homepage = 'https://github.com/linux-msm/rmtfs'
+
+[[package]]
+channel = 'debian'
+name = 'rmtfs'
+
+[[package]]
+channel = 'fedora'
+name = 'rmtfs'

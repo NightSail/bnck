@@ -1,0 +1,8 @@
+id = 'pulp'
+name = 'pulp'
+
+homepage = 'https://github.com/purescript-contrib/pulp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulp'

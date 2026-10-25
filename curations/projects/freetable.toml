@@ -1,0 +1,8 @@
+id = 'freetable'
+name = 'freetable'
+
+homepage = 'https://sourceforge.net/projects/freetable'
+
+[[package]]
+channel = 'debian'
+name = 'freetable'

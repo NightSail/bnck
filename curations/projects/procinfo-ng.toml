@@ -1,0 +1,12 @@
+id = 'procinfo-ng'
+name = 'procinfo-ng'
+
+homepage = 'http://procinfo-ng.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'procinfo-ng'
+
+[[package]]
+channel = 'debian'
+name = 'procinfo'

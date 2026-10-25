@@ -1,0 +1,8 @@
+id = 'piep'
+name = 'piep'
+
+homepage = 'https://github.com/gfxmonk/piep'
+
+[[package]]
+channel = 'arch'
+name = 'piep'

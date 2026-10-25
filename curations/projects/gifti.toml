@@ -1,0 +1,12 @@
+id = 'gifti'
+name = 'gifti'
+
+homepage = 'http://www.nitrc.org/projects/gifti'
+
+[[package]]
+channel = 'debian'
+name = 'gifti-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gifticlib'

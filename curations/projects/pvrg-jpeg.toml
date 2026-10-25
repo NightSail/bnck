@@ -1,0 +1,8 @@
+id = 'pvrg-jpeg'
+name = 'pvrg-jpeg'
+
+homepage = 'https://jpeg.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pvrg-jpeg'

@@ -1,0 +1,8 @@
+id = 'sonobuoy'
+name = 'sonobuoy'
+
+homepage = 'https://sonobuoy.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sonobuoy'

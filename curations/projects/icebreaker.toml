@@ -1,0 +1,8 @@
+id = 'icebreaker'
+name = 'icebreaker'
+
+homepage = 'http://www.mattdm.org/icebreaker'
+
+[[package]]
+channel = 'fedora'
+name = 'icebreaker'

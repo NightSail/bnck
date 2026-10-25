@@ -1,0 +1,8 @@
+id = 'shippy'
+name = 'shippy'
+
+homepage = 'http://www.identicalsoftware.com/shippy1984'
+
+[[package]]
+channel = 'fedora'
+name = 'shippy'

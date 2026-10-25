@@ -1,0 +1,8 @@
+id = 'python3-klaus'
+name = 'python3-klaus'
+
+homepage = 'https://github.com/jonashaag/klaus'
+
+[[package]]
+channel = 'debian'
+name = 'python3-klaus'

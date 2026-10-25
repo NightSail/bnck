@@ -1,0 +1,8 @@
+id = 'tuxtype2'
+name = 'tuxtype2'
+
+homepage = 'https://github.com/tux4kids/tuxtype'
+
+[[package]]
+channel = 'fedora'
+name = 'tuxtype2'

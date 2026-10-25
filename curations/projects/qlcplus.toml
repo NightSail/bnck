@@ -1,0 +1,8 @@
+id = 'qlcplus'
+name = 'qlcplus'
+
+homepage = 'https://www.qlcplus.org'
+
+[[package]]
+channel = 'debian'
+name = 'qlcplus'

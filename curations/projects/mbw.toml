@@ -1,0 +1,12 @@
+id = 'mbw'
+name = 'mbw'
+
+homepage = 'https://github.com/raas/mbw'
+
+[[package]]
+channel = 'debian'
+name = 'mbw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mbw'

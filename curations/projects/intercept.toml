@@ -1,0 +1,9 @@
+id = 'intercept'
+name = 'intercept'
+
+homepage = 'https://intercept.cc'
+repository = 'https://github.com/xfhg/intercept.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/intercept'

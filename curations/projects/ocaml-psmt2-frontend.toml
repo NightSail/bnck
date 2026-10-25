@@ -1,0 +1,8 @@
+id = 'ocaml-psmt2-frontend'
+name = 'ocaml-psmt2-frontend'
+
+homepage = 'https://acoquereau.github.io/psmt2-frontend'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-psmt2-frontend'

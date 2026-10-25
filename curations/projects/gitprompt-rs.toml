@@ -1,0 +1,8 @@
+id = 'gitprompt-rs'
+name = 'gitprompt-rs'
+
+homepage = 'https://github.com/9ary/gitprompt-rs'
+
+[[package]]
+channel = 'arch'
+name = 'gitprompt-rs'

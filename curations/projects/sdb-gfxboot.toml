@@ -1,0 +1,12 @@
+id = 'sdb-gfxboot'
+name = 'SDB:Gfxboot'
+
+homepage = 'https://en.opensuse.org/SDB:Gfxboot'
+
+[[package]]
+channel = 'debian'
+name = 'gfxboot'
+
+[[package]]
+channel = 'debian'
+name = 'gfxboot-dev'

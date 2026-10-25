@@ -1,0 +1,8 @@
+id = 'droast'
+name = 'droast'
+
+homepage = 'https://ewry.net/droast-dockerfile-linter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/droast'

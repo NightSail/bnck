@@ -1,0 +1,8 @@
+id = 'ums2net'
+name = 'ums2net'
+
+homepage = 'https://github.com/grandpaul/ums2net'
+
+[[package]]
+channel = 'debian'
+name = 'ums2net'

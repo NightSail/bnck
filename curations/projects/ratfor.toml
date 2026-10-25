@@ -1,0 +1,12 @@
+id = 'ratfor'
+name = 'ratfor'
+
+homepage = 'http://www.dgate.org/ratfor'
+
+[[package]]
+channel = 'debian'
+name = 'ratfor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ratfor'

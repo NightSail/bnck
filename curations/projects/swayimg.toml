@@ -1,0 +1,16 @@
+id = 'swayimg'
+name = 'swayimg'
+
+homepage = 'https://github.com/artemsen/swayimg'
+
+[[package]]
+channel = 'arch'
+name = 'swayimg'
+
+[[package]]
+channel = 'debian'
+name = 'swayimg'
+
+[[package]]
+channel = 'fedora'
+name = 'swayimg'

@@ -1,0 +1,12 @@
+id = 'kdiamond'
+name = 'kdiamond'
+
+homepage = 'https://apps.kde.org/kdiamond'
+
+[[package]]
+channel = 'arch'
+name = 'kdiamond'
+
+[[package]]
+channel = 'fedora'
+name = 'kdiamond'

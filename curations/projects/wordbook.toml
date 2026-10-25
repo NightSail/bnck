@@ -1,0 +1,8 @@
+id = 'wordbook'
+name = 'wordbook'
+
+homepage = 'https://apps.gnome.org/Wordbook'
+
+[[package]]
+channel = 'debian'
+name = 'wordbook'

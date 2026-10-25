@@ -1,0 +1,12 @@
+id = 'pop-launcher'
+name = 'pop-launcher'
+
+homepage = 'https://github.com/pop-os/launcher'
+
+[[package]]
+channel = 'arch'
+name = 'pop-launcher'
+
+[[package]]
+channel = 'fedora'
+name = 'pop-launcher'

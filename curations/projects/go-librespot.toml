@@ -1,0 +1,8 @@
+id = 'go-librespot'
+name = 'go-librespot'
+
+repository = 'https://github.com/devgianlu/go-librespot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-librespot'

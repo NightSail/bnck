@@ -1,0 +1,8 @@
+id = 'jpdfbookmarks'
+name = 'jpdfbookmarks'
+
+homepage = 'https://sourceforge.net/projects/jpdfbookmarks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpdfbookmarks'

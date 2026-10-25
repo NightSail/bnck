@@ -1,0 +1,8 @@
+id = 'golang-github-burntsushi-toml-test'
+name = 'golang-github-burntsushi-toml-test'
+
+homepage = 'https://github.com/BurntSushi/toml-test'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-burntsushi-toml-test'

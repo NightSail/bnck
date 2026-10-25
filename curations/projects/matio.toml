@@ -1,0 +1,12 @@
+id = 'matio'
+name = 'matio'
+
+homepage = 'https://sourceforge.net/projects/matio'
+
+[[package]]
+channel = 'arch'
+name = 'libmatio'
+
+[[package]]
+channel = 'fedora'
+name = 'matio'

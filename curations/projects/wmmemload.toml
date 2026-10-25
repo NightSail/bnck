@@ -1,0 +1,8 @@
+id = 'wmmemload'
+name = 'wmmemload'
+
+homepage = 'https://www.dockapps.net/wmmemload'
+
+[[package]]
+channel = 'debian'
+name = 'wmmemload'

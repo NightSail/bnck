@@ -1,0 +1,8 @@
+id = 'nylon'
+name = 'nylon'
+
+homepage = 'https://github.com/smeinecke/nylon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nylon'

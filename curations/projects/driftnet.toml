@@ -1,0 +1,8 @@
+id = 'driftnet'
+name = 'driftnet'
+
+homepage = 'https://github.com/deiv/driftnet'
+
+[[package]]
+channel = 'debian'
+name = 'driftnet'

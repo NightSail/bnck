@@ -1,0 +1,12 @@
+id = 'boomaga'
+name = 'boomaga'
+
+homepage = 'https://github.com/Boomaga/boomaga'
+
+[[package]]
+channel = 'debian'
+name = 'boomaga'
+
+[[package]]
+channel = 'fedora'
+name = 'boomaga'

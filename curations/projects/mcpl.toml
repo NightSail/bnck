@@ -1,0 +1,8 @@
+id = 'mcpl'
+name = 'mcpl'
+
+homepage = 'https://mctools.github.io/mcpl'
+
+[[package]]
+channel = 'debian'
+name = 'mcpl'

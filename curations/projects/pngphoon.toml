@@ -1,0 +1,8 @@
+id = 'pngphoon'
+name = 'pngphoon'
+
+homepage = 'https://git.h8u.de/svolli/pngphoon'
+
+[[package]]
+channel = 'debian'
+name = 'pngphoon'

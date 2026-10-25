@@ -1,0 +1,6 @@
+id = 'gnome-shell-extension-manager'
+name = 'gnome-shell-extension-manager'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-shell-extension-manager'

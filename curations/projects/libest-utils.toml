@@ -1,0 +1,8 @@
+id = 'libest-utils'
+name = 'libest-utils'
+
+homepage = 'https://github.com/cisco/libest'
+
+[[package]]
+channel = 'debian'
+name = 'libest-utils'

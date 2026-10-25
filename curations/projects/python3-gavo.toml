@@ -1,0 +1,8 @@
+id = 'python3-gavo'
+name = 'python3-gavo'
+
+homepage = 'http://vo.ari.uni-heidelberg.de/docs/DaCHS'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gavo'

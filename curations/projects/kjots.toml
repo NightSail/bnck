@@ -1,0 +1,8 @@
+id = 'kjots'
+name = 'kjots'
+
+homepage = 'https://userbase.kde.org/KJots'
+
+[[package]]
+channel = 'fedora'
+name = 'kjots'

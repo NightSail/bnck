@@ -1,0 +1,12 @@
+id = 'source-to-image'
+name = 'source-to-image'
+
+repository = 'https://github.com/openshift/source-to-image.git'
+
+[[package]]
+channel = 'fedora'
+name = 'source-to-image'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/source-to-image'

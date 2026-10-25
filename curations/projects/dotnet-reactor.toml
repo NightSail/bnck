@@ -1,0 +1,8 @@
+id = 'dotnet-reactor'
+name = 'dotnet-reactor'
+
+homepage = 'https://www.eziriz.com/dotnet_reactor.htm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dotnet-reactor'

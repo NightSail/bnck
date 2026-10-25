@@ -1,0 +1,8 @@
+id = 'zimg-devel'
+name = 'zimg-devel'
+
+homepage = 'https://github.com/sekrit-twc/zimg'
+
+[[package]]
+channel = 'fedora'
+name = 'zimg-devel'

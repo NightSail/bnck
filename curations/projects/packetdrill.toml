@@ -1,0 +1,8 @@
+id = 'packetdrill'
+name = 'packetdrill'
+
+homepage = 'https://github.com/google/packetdrill'
+
+[[package]]
+channel = 'fedora'
+name = 'packetdrill'

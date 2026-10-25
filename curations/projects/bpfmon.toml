@@ -1,0 +1,12 @@
+id = 'bpfmon'
+name = 'bpfmon'
+
+homepage = 'https://github.com/bbonev/bpfmon'
+
+[[package]]
+channel = 'debian'
+name = 'bpfmon'
+
+[[package]]
+channel = 'fedora'
+name = 'bpfmon'

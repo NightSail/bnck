@@ -1,0 +1,20 @@
+id = 'marisa-trie'
+name = 'marisa-trie'
+
+homepage = 'https://github.com/s-yata/marisa-trie'
+
+[[package]]
+channel = 'arch'
+name = 'marisa'
+
+[[package]]
+channel = 'debian'
+name = 'marisa'
+
+[[package]]
+channel = 'fedora'
+name = 'marisa-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marisa'

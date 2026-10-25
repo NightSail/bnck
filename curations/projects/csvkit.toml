@@ -1,0 +1,16 @@
+id = 'csvkit'
+name = 'csvkit'
+
+homepage = 'https://csvkit.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'csvkit'
+
+[[package]]
+channel = 'debian'
+name = 'csvkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csvkit'

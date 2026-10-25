@@ -1,0 +1,6 @@
+id = 'spfquery'
+name = 'spfquery'
+
+[[package]]
+channel = 'debian'
+name = 'spfquery'

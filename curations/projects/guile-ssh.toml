@@ -1,0 +1,8 @@
+id = 'guile-ssh'
+name = 'guile-ssh'
+
+homepage = 'https://github.com/artyom-poptsov/guile-ssh'
+
+[[package]]
+channel = 'debian'
+name = 'guile-ssh'

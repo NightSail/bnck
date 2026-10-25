@@ -1,0 +1,12 @@
+id = 'liblxqt'
+name = 'liblxqt'
+
+homepage = 'https://github.com/lxqt/liblxqt'
+
+[[package]]
+channel = 'arch'
+name = 'liblxqt'
+
+[[package]]
+channel = 'debian'
+name = 'liblxqt-backlight-helper'

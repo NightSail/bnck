@@ -1,0 +1,20 @@
+id = 'bzip2'
+name = 'bzip2'
+
+homepage = 'https://sourceware.org/bzip2'
+
+[[package]]
+channel = 'arch'
+name = 'bzip2'
+
+[[package]]
+channel = 'debian'
+name = 'bzip2'
+
+[[package]]
+channel = 'fedora'
+name = 'bzip2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bzip2'

@@ -1,0 +1,8 @@
+id = 'ruby-rake-compiler-dock'
+name = 'ruby-rake-compiler-dock'
+
+homepage = 'https://github.com/rake-compiler/rake-compiler-dock'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rake-compiler-dock'

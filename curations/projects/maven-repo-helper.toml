@@ -1,0 +1,8 @@
+id = 'maven-repo-helper'
+name = 'maven-repo-helper'
+
+homepage = 'https://wiki.debian.org/Java/MavenRepoSpec'
+
+[[package]]
+channel = 'debian'
+name = 'maven-repo-helper'

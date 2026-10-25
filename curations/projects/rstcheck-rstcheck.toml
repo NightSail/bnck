@@ -1,0 +1,8 @@
+id = 'rstcheck-rstcheck'
+name = 'rstcheck'
+
+homepage = 'https://github.com/rstcheck'
+
+[[package]]
+channel = 'debian'
+name = 'rstcheck'

@@ -1,0 +1,12 @@
+id = 'cosmic-settings-daemon'
+name = 'cosmic-settings-daemon'
+
+homepage = 'https://github.com/pop-os/cosmic-settings-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-settings-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-settings-daemon'

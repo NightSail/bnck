@@ -1,0 +1,12 @@
+id = 'speakersafetyd'
+name = 'speakersafetyd'
+
+homepage = 'https://github.com/AsahiLinux/speakersafetyd'
+
+[[package]]
+channel = 'debian'
+name = 'speakersafetyd'
+
+[[package]]
+channel = 'fedora'
+name = 'speakersafetyd'

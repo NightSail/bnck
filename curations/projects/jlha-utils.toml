@@ -1,0 +1,8 @@
+id = 'jlha-utils'
+name = 'jlha-utils'
+
+homepage = 'http://sourceforge.net/projects/jlhafrontend'
+
+[[package]]
+channel = 'debian'
+name = 'jlha-utils'

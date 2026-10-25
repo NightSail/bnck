@@ -1,0 +1,8 @@
+id = 'feed2imap'
+name = 'feed2imap'
+
+homepage = 'https://github.com/feed2imap/feed2imap'
+
+[[package]]
+channel = 'debian'
+name = 'feed2imap'

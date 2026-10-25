@@ -1,0 +1,9 @@
+id = 'faas-cli'
+name = 'faas-cli'
+
+homepage = 'https://www.openfaas.com'
+repository = 'https://github.com/openfaas/faas-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faas-cli'

@@ -1,0 +1,16 @@
+id = 'timeshift'
+name = 'timeshift'
+
+homepage = 'https://github.com/linuxmint/timeshift'
+
+[[package]]
+channel = 'arch'
+name = 'timeshift'
+
+[[package]]
+channel = 'debian'
+name = 'timeshift'
+
+[[package]]
+channel = 'fedora'
+name = 'timeshift'

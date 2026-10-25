@@ -1,0 +1,8 @@
+id = 'welcome2l'
+name = 'welcome2l'
+
+homepage = 'https://github.com/voyageur/welcome2l'
+
+[[package]]
+channel = 'debian'
+name = 'welcome2l'

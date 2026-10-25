@@ -1,0 +1,12 @@
+id = 'librsync-librsync'
+name = 'librsync'
+
+homepage = 'https://librsync.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'librsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librsync'

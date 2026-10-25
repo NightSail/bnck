@@ -1,0 +1,8 @@
+id = 'got'
+name = 'got'
+
+homepage = 'https://gameoftrees.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/got'

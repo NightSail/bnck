@@ -1,0 +1,16 @@
+id = 'argcomplete'
+name = 'argcomplete'
+
+homepage = 'https://github.com/kislyuk/argcomplete'
+
+[[package]]
+channel = 'arch'
+name = 'python-argcomplete'
+
+[[package]]
+channel = 'debian'
+name = 'python3-argcomplete'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-argcomplete'

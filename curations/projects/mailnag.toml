@@ -1,0 +1,16 @@
+id = 'mailnag'
+name = 'mailnag'
+
+homepage = 'https://github.com/pulb/mailnag'
+
+[[package]]
+channel = 'arch'
+name = 'mailnag'
+
+[[package]]
+channel = 'debian'
+name = 'mailnag'
+
+[[package]]
+channel = 'fedora'
+name = 'mailnag'

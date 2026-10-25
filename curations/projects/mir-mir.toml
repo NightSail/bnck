@@ -1,0 +1,16 @@
+id = 'mir-mir'
+name = 'mir'
+
+homepage = 'https://canonical.com/mir'
+
+[[package]]
+channel = 'fedora'
+name = 'mir-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'mir-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mir-test-tools'

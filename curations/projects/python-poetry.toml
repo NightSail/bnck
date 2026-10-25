@@ -1,0 +1,16 @@
+id = 'python-poetry'
+name = 'python-poetry'
+
+homepage = 'https://python-poetry.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-poetry'
+
+[[package]]
+channel = 'debian'
+name = 'python3-poetry'
+
+[[package]]
+channel = 'fedora'
+name = 'poetry'

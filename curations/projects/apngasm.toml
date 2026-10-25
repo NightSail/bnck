@@ -1,0 +1,13 @@
+id = 'apngasm'
+name = 'apngasm'
+
+homepage = 'https://sourceforge.net/projects/apngasm'
+repository = 'https://github.com/apngasm/apngasm.git'
+
+[[package]]
+channel = 'debian'
+name = 'apngasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apngasm'

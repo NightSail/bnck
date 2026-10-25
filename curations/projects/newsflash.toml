@@ -1,0 +1,8 @@
+id = 'newsflash'
+name = 'newsflash'
+
+homepage = 'https://apps.gnome.org/NewsFlash'
+
+[[package]]
+channel = 'arch'
+name = 'newsflash'

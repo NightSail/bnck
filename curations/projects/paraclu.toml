@@ -1,0 +1,8 @@
+id = 'paraclu'
+name = 'paraclu'
+
+homepage = 'https://gitlab.com/mcfrith/paraclu'
+
+[[package]]
+channel = 'debian'
+name = 'paraclu'

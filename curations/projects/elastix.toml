@@ -1,0 +1,8 @@
+id = 'elastix'
+name = 'elastix'
+
+homepage = 'http://elastix.isi.uu.nl'
+
+[[package]]
+channel = 'debian'
+name = 'elastix'

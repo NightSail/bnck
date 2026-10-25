@@ -1,0 +1,8 @@
+id = 'go-rpmdb'
+name = 'go-rpmdb'
+
+homepage = 'https://github.com/knqyf263/go-rpmdb'
+
+[[package]]
+channel = 'debian'
+name = 'go-rpmdb'

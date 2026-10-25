@@ -1,0 +1,8 @@
+id = 'wx-cli'
+name = 'wx-cli'
+
+homepage = 'https://github.com/jackwener/wx-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wx-cli'

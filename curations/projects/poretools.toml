@@ -1,0 +1,8 @@
+id = 'poretools'
+name = 'poretools'
+
+homepage = 'https://poretools.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'poretools'

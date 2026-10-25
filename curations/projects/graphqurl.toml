@@ -1,0 +1,8 @@
+id = 'graphqurl'
+name = 'graphqurl'
+
+homepage = 'https://github.com/hasura/graphqurl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphqurl'

@@ -1,0 +1,12 @@
+id = 'dnsenum'
+name = 'dnsenum'
+
+homepage = 'https://github.com/SparrowOchon/dnsenum2'
+
+[[package]]
+channel = 'debian'
+name = 'dnsenum'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsenum'

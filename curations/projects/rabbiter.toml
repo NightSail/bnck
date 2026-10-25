@@ -1,0 +1,8 @@
+id = 'rabbiter'
+name = 'rabbiter'
+
+homepage = 'https://rabbit-shocker.org/en/rabbiter'
+
+[[package]]
+channel = 'debian'
+name = 'rabbiter'

@@ -1,0 +1,21 @@
+id = 'ettercap'
+name = 'ettercap'
+
+homepage = 'https://ettercap.github.io/ettercap'
+repository = 'https://github.com/Ettercap/ettercap.git'
+
+[[package]]
+channel = 'debian'
+name = 'ettercap-graphical'
+
+[[package]]
+channel = 'debian'
+name = 'ettercap-text-only'
+
+[[package]]
+channel = 'fedora'
+name = 'ettercap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ettercap'

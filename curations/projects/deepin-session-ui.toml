@@ -1,0 +1,8 @@
+id = 'deepin-session-ui'
+name = 'deepin-session-ui'
+
+homepage = 'https://github.com/linuxdeepin/dde-session-ui'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-session-ui'

@@ -1,0 +1,8 @@
+id = 'git-mob'
+name = 'git-mob'
+
+homepage = 'https://github.com/rkotze/git-mob/blob/master/packages/git-mob'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-mob'

@@ -1,0 +1,8 @@
+id = 'git-machete'
+name = 'git-machete'
+
+homepage = 'https://github.com/VirtusLab/git-machete'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-machete'

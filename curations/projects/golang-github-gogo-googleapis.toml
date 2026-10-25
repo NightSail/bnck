@@ -1,0 +1,8 @@
+id = 'golang-github-gogo-googleapis'
+name = 'golang-github-gogo-googleapis'
+
+homepage = 'https://github.com/gogo/googleapis'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gogo-googleapis'

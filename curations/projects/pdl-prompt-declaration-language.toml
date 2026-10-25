@@ -1,0 +1,8 @@
+id = 'pdl-prompt-declaration-language'
+name = 'pdl'
+
+homepage = 'https://ibm.github.io/prompt-declaration-language'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/pdl'

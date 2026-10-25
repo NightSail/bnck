@@ -1,0 +1,8 @@
+id = 'jmapviewer'
+name = 'jmapviewer'
+
+homepage = 'https://wiki.openstreetmap.org/wiki/JMapViewer'
+
+[[package]]
+channel = 'debian'
+name = 'jmapviewer'

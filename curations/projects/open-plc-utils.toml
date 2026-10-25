@@ -1,0 +1,12 @@
+id = 'open-plc-utils'
+name = 'open-plc-utils'
+
+homepage = 'https://github.com/qca/open-plc-utils'
+
+[[package]]
+channel = 'debian'
+name = 'plc-utils'
+
+[[package]]
+channel = 'debian'
+name = 'plc-utils-extra'

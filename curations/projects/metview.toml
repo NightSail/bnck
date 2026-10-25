@@ -1,0 +1,12 @@
+id = 'metview'
+name = 'metview'
+
+homepage = 'https://metview.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'metview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metview'

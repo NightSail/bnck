@@ -1,0 +1,8 @@
+id = 'strawberry-graphql'
+name = 'strawberry-graphql'
+
+homepage = 'https://github.com/strawberry-graphql/strawberry'
+
+[[package]]
+channel = 'debian'
+name = 'strawberry-graphql'

@@ -1,0 +1,8 @@
+id = 'asyncapi'
+name = 'asyncapi'
+
+homepage = 'https://www.asyncapi.com/tools/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asyncapi'

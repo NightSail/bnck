@@ -1,0 +1,16 @@
+id = 'berkeley-db'
+name = 'berkeley-db'
+
+homepage = 'http://www.oracle.com/database/berkeley-db'
+
+[[package]]
+channel = 'fedora'
+name = 'libdb-convert-util'
+
+[[package]]
+channel = 'fedora'
+name = 'libdb-sql-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libdb-utils'

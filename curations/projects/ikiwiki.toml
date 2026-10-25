@@ -1,0 +1,12 @@
+id = 'ikiwiki'
+name = 'ikiwiki'
+
+homepage = 'https://ikiwiki.info'
+
+[[package]]
+channel = 'debian'
+name = 'ikiwiki'
+
+[[package]]
+channel = 'fedora'
+name = 'ikiwiki'

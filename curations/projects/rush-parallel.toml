@@ -1,0 +1,8 @@
+id = 'rush-parallel'
+name = 'rush-parallel'
+
+homepage = 'https://github.com/shenwei356/rush'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rush-parallel'

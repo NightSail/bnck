@@ -1,0 +1,16 @@
+id = 'liblzf'
+name = 'liblzf'
+
+homepage = 'http://oldhome.schmorp.de/marc/liblzf.html'
+
+[[package]]
+channel = 'arch'
+name = 'liblzf'
+
+[[package]]
+channel = 'fedora'
+name = 'liblzf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liblzf'

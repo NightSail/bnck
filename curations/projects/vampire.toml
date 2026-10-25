@@ -1,0 +1,8 @@
+id = 'vampire'
+name = 'vampire'
+
+homepage = 'https://vprover.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vampire'

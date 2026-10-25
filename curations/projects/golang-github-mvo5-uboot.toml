@@ -1,0 +1,8 @@
+id = 'golang-github-mvo5-uboot'
+name = 'golang-github-mvo5-uboot'
+
+homepage = 'https://github.com/mvo5/uboot-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-mvo5-uboot'

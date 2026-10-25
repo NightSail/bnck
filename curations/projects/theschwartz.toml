@@ -1,0 +1,12 @@
+id = 'theschwartz'
+name = 'TheSchwartz'
+
+homepage = 'https://metacpan.org/release/TheSchwartz'
+
+[[package]]
+channel = 'debian'
+name = 'libtheschwartz-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-TheSchwartz'

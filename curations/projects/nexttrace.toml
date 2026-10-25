@@ -1,0 +1,9 @@
+id = 'nexttrace'
+name = 'nexttrace'
+
+homepage = 'https://www.nxtrace.org'
+repository = 'https://github.com/nxtrace/NTrace-core.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nexttrace'

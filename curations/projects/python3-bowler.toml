@@ -1,0 +1,8 @@
+id = 'python3-bowler'
+name = 'python3-bowler'
+
+homepage = 'https://pybowler.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bowler'

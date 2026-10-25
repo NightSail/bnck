@@ -1,0 +1,20 @@
+id = 'guvcview'
+name = 'guvcview'
+
+homepage = 'https://guvcview.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'guvcview'
+
+[[package]]
+channel = 'arch'
+name = 'guvcview-qt'
+
+[[package]]
+channel = 'debian'
+name = 'guvcview'
+
+[[package]]
+channel = 'fedora'
+name = 'guvcview'

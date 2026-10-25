@@ -1,0 +1,12 @@
+id = 'tftp'
+name = 'tftp'
+
+homepage = 'http://www.kernel.org/pub/software/network/tftp'
+
+[[package]]
+channel = 'fedora'
+name = 'tftp'
+
+[[package]]
+channel = 'fedora'
+name = 'tftp-server'

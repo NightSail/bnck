@@ -1,0 +1,8 @@
+id = 'sv2v'
+name = 'sv2v'
+
+homepage = 'https://github.com/zachjs/sv2v'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sv2v'

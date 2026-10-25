@@ -1,0 +1,8 @@
+id = 'zisofs-tools'
+name = 'zisofs-tools'
+
+homepage = 'http://www.kernel.org/pub/linux/utils/fs/zisofs'
+
+[[package]]
+channel = 'fedora'
+name = 'zisofs-tools'

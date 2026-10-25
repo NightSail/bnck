@@ -1,0 +1,8 @@
+id = 'gencolormap'
+name = 'gencolormap'
+
+homepage = 'https://marlam.de/gencolormap'
+
+[[package]]
+channel = 'fedora'
+name = 'gencolormap'

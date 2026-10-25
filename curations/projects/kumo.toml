@@ -1,0 +1,8 @@
+id = 'kumo'
+name = 'kumo'
+
+homepage = 'https://github.com/kennycason/kumo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kumo'

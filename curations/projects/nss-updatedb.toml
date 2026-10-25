@@ -1,0 +1,12 @@
+id = 'nss-updatedb'
+name = 'nss-updatedb'
+
+homepage = 'https://github.com/PADL/nss_updatedb'
+
+[[package]]
+channel = 'debian'
+name = 'nss-updatedb'
+
+[[package]]
+channel = 'fedora'
+name = 'nss_updatedb'

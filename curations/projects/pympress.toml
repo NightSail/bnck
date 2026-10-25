@@ -1,0 +1,13 @@
+id = 'pympress'
+name = 'pympress'
+
+homepage = 'https://cimbali.github.io/pympress'
+repository = 'https://github.com/Cimbali/pympress.git'
+
+[[package]]
+channel = 'debian'
+name = 'pympress'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pympress'

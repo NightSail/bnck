@@ -1,0 +1,12 @@
+id = 'setroubleshoot'
+name = 'setroubleshoot'
+
+homepage = 'https://gitlab.com/setroubleshoot/setroubleshoot'
+
+[[package]]
+channel = 'fedora'
+name = 'setroubleshoot'
+
+[[package]]
+channel = 'fedora'
+name = 'setroubleshoot-server'

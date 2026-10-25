@@ -1,0 +1,8 @@
+id = 'sqlsh'
+name = 'sqlsh'
+
+homepage = 'https://metacpan.org/release/SQL-Shell'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlsh'

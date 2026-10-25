@@ -1,0 +1,20 @@
+id = 's-lang'
+name = 's-lang'
+
+homepage = 'https://www.jedsoft.org/slang'
+
+[[package]]
+channel = 'arch'
+name = 'slang'
+
+[[package]]
+channel = 'debian'
+name = 'slsh'
+
+[[package]]
+channel = 'fedora'
+name = 'slang-slsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s-lang'

@@ -1,0 +1,8 @@
+id = 'libopaque-bin'
+name = 'libopaque-bin'
+
+homepage = 'https://github.com/stef/libopaque'
+
+[[package]]
+channel = 'debian'
+name = 'libopaque-bin'

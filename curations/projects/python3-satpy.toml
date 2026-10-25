@@ -1,0 +1,8 @@
+id = 'python3-satpy'
+name = 'python3-satpy'
+
+homepage = 'https://github.com/pytroll/satpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-satpy'

@@ -1,0 +1,8 @@
+id = 'fts-rest-client'
+name = 'fts-rest-client'
+
+homepage = 'https://fts.web.cern.ch'
+
+[[package]]
+channel = 'fedora'
+name = 'fts-rest-client'

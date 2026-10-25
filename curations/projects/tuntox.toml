@@ -1,0 +1,13 @@
+id = 'tuntox'
+name = 'tuntox'
+
+homepage = 'https://gdr.name/tuntox'
+repository = 'https://github.com/gjedeer/tuntox.git'
+
+[[package]]
+channel = 'arch'
+name = 'tuntox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuntox'

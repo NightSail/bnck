@@ -1,0 +1,17 @@
+id = 'enter-tex'
+name = 'enter-tex'
+
+homepage = 'https://gitlab.gnome.org/World/gedit/enter-tex'
+repository = 'https://gitlab.gnome.org/swilmet/enter-tex.git'
+
+[[package]]
+channel = 'arch'
+name = 'enter-tex'
+
+[[package]]
+channel = 'debian'
+name = 'enter-tex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enter-tex'

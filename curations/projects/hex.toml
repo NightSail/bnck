@@ -1,0 +1,12 @@
+id = 'hex'
+name = 'hex'
+
+repository = 'https://github.com/sitkevij/hex.git'
+
+[[package]]
+channel = 'arch'
+name = 'hex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hex'

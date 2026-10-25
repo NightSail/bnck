@@ -1,0 +1,16 @@
+id = 'jpegxl'
+name = 'jpegxl'
+
+homepage = 'https://jpeg.org/jpegxl'
+
+[[package]]
+channel = 'arch'
+name = 'libjxl'
+
+[[package]]
+channel = 'fedora'
+name = 'libjxl-devtools'
+
+[[package]]
+channel = 'fedora'
+name = 'libjxl-utils'

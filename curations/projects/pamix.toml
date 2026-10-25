@@ -1,0 +1,12 @@
+id = 'pamix'
+name = 'pamix'
+
+homepage = 'https://github.com/patroclos/PAmix'
+
+[[package]]
+channel = 'debian'
+name = 'pamix'
+
+[[package]]
+channel = 'fedora'
+name = 'pamix'

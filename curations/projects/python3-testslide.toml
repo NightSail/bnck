@@ -1,0 +1,8 @@
+id = 'python3-testslide'
+name = 'python3-testslide'
+
+homepage = 'https://github.com/facebook/TestSlide'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-testslide'

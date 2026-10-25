@@ -1,0 +1,12 @@
+id = 'networkmanager-networkmanager'
+name = 'NetworkManager'
+
+homepage = 'http://www.gnome.org/projects/NetworkManager'
+
+[[package]]
+channel = 'fedora'
+name = 'network-manager-applet'
+
+[[package]]
+channel = 'fedora'
+name = 'nm-connection-editor'

@@ -1,0 +1,9 @@
+id = 'prqlc'
+name = 'prqlc'
+
+homepage = 'https://prql-lang.org'
+repository = 'https://github.com/prql/prql.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prqlc'

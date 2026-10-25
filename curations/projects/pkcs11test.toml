@@ -1,0 +1,8 @@
+id = 'pkcs11test'
+name = 'pkcs11test'
+
+homepage = 'https://github.com/google/pkcs11test'
+
+[[package]]
+channel = 'fedora'
+name = 'pkcs11test'

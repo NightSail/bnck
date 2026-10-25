@@ -1,0 +1,8 @@
+id = 'molds'
+name = 'molds'
+
+homepage = 'https://osdn.net/projects/molds'
+
+[[package]]
+channel = 'debian'
+name = 'molds'

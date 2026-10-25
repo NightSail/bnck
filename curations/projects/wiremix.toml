@@ -10,3 +10,7 @@ name = 'wiremix'
 [[package]]
 channel = 'crates.io'
 name = 'wiremix'
+
+[[package]]
+channel = 'fedora'
+name = 'wiremix'

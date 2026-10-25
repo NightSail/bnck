@@ -1,0 +1,8 @@
+id = 'qnm'
+name = 'qnm'
+
+homepage = 'https://github.com/ranyitz/qnm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qnm'

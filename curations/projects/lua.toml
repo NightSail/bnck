@@ -1,0 +1,60 @@
+id = 'lua'
+name = 'lua'
+
+homepage = 'https://www.lua.org'
+
+[[package]]
+channel = 'arch'
+name = 'lua'
+
+[[package]]
+channel = 'arch'
+name = 'lua51'
+
+[[package]]
+channel = 'arch'
+name = 'lua52'
+
+[[package]]
+channel = 'arch'
+name = 'lua53'
+
+[[package]]
+channel = 'arch'
+name = 'lua54'
+
+[[package]]
+channel = 'debian'
+name = 'lua5.1'
+
+[[package]]
+channel = 'debian'
+name = 'lua5.2'
+
+[[package]]
+channel = 'debian'
+name = 'lua5.3'
+
+[[package]]
+channel = 'debian'
+name = 'lua5.4'
+
+[[package]]
+channel = 'debian'
+name = 'lua5.5'
+
+[[package]]
+channel = 'fedora'
+name = 'compat-lua'
+
+[[package]]
+channel = 'fedora'
+name = 'lua'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lua'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lua@5.4'

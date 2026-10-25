@@ -1,0 +1,8 @@
+id = 'gnome-abrt'
+name = 'gnome-abrt'
+
+homepage = 'https://github.com/abrt/gnome-abrt'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-abrt'

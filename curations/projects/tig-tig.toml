@@ -1,0 +1,6 @@
+id = 'tig-tig'
+name = 'tig'
+
+[[package]]
+channel = 'crates.io'
+name = 'tig'

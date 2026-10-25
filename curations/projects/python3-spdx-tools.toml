@@ -1,0 +1,12 @@
+id = 'python3-spdx-tools'
+name = 'python3-spdx-tools'
+
+homepage = 'https://github.com/spdx/tools-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-spdx-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-spdx-tools'

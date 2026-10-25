@@ -1,0 +1,16 @@
+id = 'gnome-usage'
+name = 'gnome-usage'
+
+homepage = 'https://wiki.gnome.org/Apps/Usage'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-usage'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-usage'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-usage'

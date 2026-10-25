@@ -1,0 +1,12 @@
+id = 'makebootfat'
+name = 'makebootfat'
+
+homepage = 'http://advancemame.sourceforge.net/boot-readme.html'
+
+[[package]]
+channel = 'debian'
+name = 'makebootfat'
+
+[[package]]
+channel = 'fedora'
+name = 'makebootfat'

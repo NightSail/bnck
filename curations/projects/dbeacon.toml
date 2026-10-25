@@ -1,0 +1,8 @@
+id = 'dbeacon'
+name = 'dbeacon'
+
+homepage = 'https://github.com/uoaerg/dbeacon'
+
+[[package]]
+channel = 'debian'
+name = 'dbeacon'

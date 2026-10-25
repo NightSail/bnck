@@ -1,0 +1,16 @@
+id = 'jkriege2'
+name = 'jkriege2'
+
+homepage = 'http://jkriege2.github.io/JKQtPlotter'
+
+[[package]]
+channel = 'arch'
+name = 'jkqtplotter'
+
+[[package]]
+channel = 'debian'
+name = 'jkqtplotter-tests'
+
+[[package]]
+channel = 'debian'
+name = 'libjkqtplotter-dev'

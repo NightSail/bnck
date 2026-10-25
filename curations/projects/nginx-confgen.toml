@@ -1,0 +1,8 @@
+id = 'nginx-confgen'
+name = 'nginx-confgen'
+
+homepage = 'https://dev.yorhel.nl/nginx-confgen'
+
+[[package]]
+channel = 'debian'
+name = 'nginx-confgen'

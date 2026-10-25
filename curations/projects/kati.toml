@@ -1,0 +1,12 @@
+id = 'kati'
+name = 'kati'
+
+homepage = 'https://android.googlesource.com/platform/build/kati'
+
+[[package]]
+channel = 'debian'
+name = 'ckati'
+
+[[package]]
+channel = 'debian'
+name = 'kati'

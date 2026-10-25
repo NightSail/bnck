@@ -1,0 +1,9 @@
+id = 'wolfssl'
+name = 'wolfssl'
+
+homepage = 'https://www.wolfssl.com'
+repository = 'https://github.com/wolfSSL/wolfssl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wolfssl'

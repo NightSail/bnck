@@ -1,0 +1,12 @@
+id = 'net-mqtt-simple'
+name = 'Net-MQTT-Simple'
+
+homepage = 'https://metacpan.org/release/Net-MQTT-Simple'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-mqtt-simple-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-MQTT-Simple'

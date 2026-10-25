@@ -6,3 +6,7 @@ homepage = 'https://faker.readthedocs.io/en/master'
 [[package]]
 channel = 'arch'
 name = 'python-faker'
+
+[[package]]
+channel = 'debian'
+name = 'faker'

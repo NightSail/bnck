@@ -1,0 +1,17 @@
+id = 'check-postgres'
+name = 'check_postgres'
+
+homepage = 'https://bucardo.org/check_postgres'
+repository = 'https://github.com/bucardo/check_postgres.git'
+
+[[package]]
+channel = 'debian'
+name = 'check-postgres'
+
+[[package]]
+channel = 'fedora'
+name = 'check_postgres'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/check_postgres'

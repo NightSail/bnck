@@ -1,0 +1,8 @@
+id = 'gebug'
+name = 'gebug'
+
+repository = 'https://github.com/moshebe/gebug.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gebug'

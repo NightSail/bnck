@@ -1,0 +1,12 @@
+id = 'qcad'
+name = 'qcad'
+
+homepage = 'https://www.qcad.org'
+
+[[package]]
+channel = 'arch'
+name = 'qcad'
+
+[[package]]
+channel = 'fedora'
+name = 'qcad'

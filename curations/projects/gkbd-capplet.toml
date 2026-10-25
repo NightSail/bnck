@@ -1,0 +1,6 @@
+id = 'gkbd-capplet'
+name = 'gkbd-capplet'
+
+[[package]]
+channel = 'debian'
+name = 'gkbd-capplet'

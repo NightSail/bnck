@@ -1,0 +1,8 @@
+id = 'python3-dltlyse'
+name = 'python3-dltlyse'
+
+homepage = 'https://github.com/bmwcarit/dltlyse'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dltlyse'

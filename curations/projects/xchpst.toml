@@ -1,0 +1,6 @@
+id = 'xchpst'
+name = 'xchpst'
+
+[[package]]
+channel = 'debian'
+name = 'xchpst'

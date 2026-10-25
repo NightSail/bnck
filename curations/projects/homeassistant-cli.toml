@@ -1,0 +1,13 @@
+id = 'homeassistant-cli'
+name = 'homeassistant-cli'
+
+homepage = 'https://github.com/home-assistant/home-assistant-cli'
+repository = 'https://github.com/home-assistant-ecosystem/home-assistant-cli.git'
+
+[[package]]
+channel = 'fedora'
+name = 'home-assistant-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/homeassistant-cli'

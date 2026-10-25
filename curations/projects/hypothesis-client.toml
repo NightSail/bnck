@@ -1,0 +1,8 @@
+id = 'hypothesis-client'
+name = 'hypothesis-client'
+
+homepage = 'https://github.com/out-of-cheese-error/rust-hypothesis'
+
+[[package]]
+channel = 'debian'
+name = 'hypothesis-client'

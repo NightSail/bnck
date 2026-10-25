@@ -1,0 +1,8 @@
+id = 'giver'
+name = 'giver'
+
+homepage = 'http://code.google.com/p/giver'
+
+[[package]]
+channel = 'fedora'
+name = 'giver'

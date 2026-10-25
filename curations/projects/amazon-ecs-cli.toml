@@ -1,0 +1,9 @@
+id = 'amazon-ecs-cli'
+name = 'amazon-ecs-cli'
+
+homepage = 'https://aws.amazon.com/ecs'
+repository = 'https://github.com/aws/amazon-ecs-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amazon-ecs-cli'

@@ -1,0 +1,32 @@
+id = 'cri-o'
+name = 'cri-o'
+
+homepage = 'https://github.com/cri-o/cri-o'
+
+[[package]]
+channel = 'arch'
+name = 'cri-o'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-o'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-o1.30'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-o1.31'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-o1.32'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-o1.33'
+
+[[package]]
+channel = 'fedora'
+name = 'cri-o1.34'

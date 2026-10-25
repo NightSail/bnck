@@ -1,0 +1,6 @@
+id = 'awardeco'
+name = 'awardeco'
+
+[[package]]
+channel = 'debian'
+name = 'awardeco'

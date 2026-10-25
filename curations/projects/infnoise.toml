@@ -1,0 +1,8 @@
+id = 'infnoise'
+name = 'infnoise'
+
+homepage = 'https://github.com/leetronics/infnoise'
+
+[[package]]
+channel = 'debian'
+name = 'infnoise'

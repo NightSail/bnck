@@ -1,0 +1,8 @@
+id = 'tilde'
+name = 'tilde'
+
+homepage = 'https://os.ghalkes.nl/tilde.html'
+
+[[package]]
+channel = 'debian'
+name = 'tilde'

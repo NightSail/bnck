@@ -1,0 +1,8 @@
+id = 'bio-rainbow'
+name = 'bio-rainbow'
+
+homepage = 'http://sourceforge.net/projects/bio-rainbow'
+
+[[package]]
+channel = 'debian'
+name = 'bio-rainbow'

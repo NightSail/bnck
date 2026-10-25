@@ -1,0 +1,8 @@
+id = 'logjam'
+name = 'logjam'
+
+homepage = 'http://logjam.danga.com'
+
+[[package]]
+channel = 'fedora'
+name = 'logjam'

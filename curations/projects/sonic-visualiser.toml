@@ -1,0 +1,16 @@
+id = 'sonic-visualiser'
+name = 'sonic-visualiser'
+
+homepage = 'https://www.sonicvisualiser.org'
+
+[[package]]
+channel = 'arch'
+name = 'sonic-visualiser'
+
+[[package]]
+channel = 'debian'
+name = 'sonic-visualiser'
+
+[[package]]
+channel = 'fedora'
+name = 'sonic-visualiser'

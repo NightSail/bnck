@@ -1,0 +1,12 @@
+id = 'icu-icu'
+name = 'icu'
+
+homepage = 'https://icu.unicode.org/home'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icu4c@77'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icu4c@78'

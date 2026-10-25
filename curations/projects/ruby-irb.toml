@@ -1,0 +1,8 @@
+id = 'ruby-irb'
+name = 'ruby-irb'
+
+homepage = 'https://github.com/ruby/irb'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-irb'

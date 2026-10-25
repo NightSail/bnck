@@ -1,0 +1,8 @@
+id = 'prometheus-ssl-exporter'
+name = 'prometheus-ssl-exporter'
+
+homepage = 'https://github.com/piotrkochan/ssl_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-ssl-exporter'

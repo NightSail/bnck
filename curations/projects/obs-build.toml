@@ -1,0 +1,10 @@
+id = 'obs-build'
+name = 'obs-build'
+
+[[package]]
+channel = 'debian'
+name = 'obs-build'
+
+[[package]]
+channel = 'fedora'
+name = 'obs-build'

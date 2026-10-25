@@ -1,0 +1,8 @@
+id = 'songrec'
+name = 'songrec'
+
+homepage = 'https://github.com/marin-m/SongRec'
+
+[[package]]
+channel = 'arch'
+name = 'songrec'

@@ -1,0 +1,8 @@
+id = 'asmc-linux'
+name = 'asmc-linux'
+
+homepage = 'https://github.com/nidud/asmc_linux'
+
+[[package]]
+channel = 'debian'
+name = 'asmc-linux'

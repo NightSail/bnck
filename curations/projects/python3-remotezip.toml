@@ -1,0 +1,8 @@
+id = 'python3-remotezip'
+name = 'python3-remotezip'
+
+homepage = 'https://github.com/gtsystem/python-remotezip'
+
+[[package]]
+channel = 'debian'
+name = 'python3-remotezip'

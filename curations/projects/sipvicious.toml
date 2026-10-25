@@ -1,0 +1,8 @@
+id = 'sipvicious'
+name = 'sipvicious'
+
+homepage = 'https://github.com/EnableSecurity/sipvicious'
+
+[[package]]
+channel = 'debian'
+name = 'sipvicious'

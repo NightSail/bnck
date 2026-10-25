@@ -1,0 +1,20 @@
+id = 'flex'
+name = 'flex'
+
+repository = 'https://github.com/westes/flex.git'
+
+[[package]]
+channel = 'arch'
+name = 'flex'
+
+[[package]]
+channel = 'debian'
+name = 'flex'
+
+[[package]]
+channel = 'fedora'
+name = 'flex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flex'

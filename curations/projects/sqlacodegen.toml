@@ -1,0 +1,12 @@
+id = 'sqlacodegen'
+name = 'sqlacodegen'
+
+homepage = 'https://github.com/agronholm/sqlacodegen'
+
+[[package]]
+channel = 'debian'
+name = 'sqlacodegen'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sqlacodegen'

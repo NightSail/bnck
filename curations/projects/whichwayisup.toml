@@ -1,0 +1,8 @@
+id = 'whichwayisup'
+name = 'whichwayisup'
+
+homepage = 'http://www.oletus.fi/static/whichwayisup'
+
+[[package]]
+channel = 'fedora'
+name = 'whichwayisup'

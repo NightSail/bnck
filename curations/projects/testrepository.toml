@@ -1,0 +1,16 @@
+id = 'testrepository'
+name = 'testrepository'
+
+homepage = 'https://github.com/testing-cabal/testrepository'
+
+[[package]]
+channel = 'debian'
+name = 'inquest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-testrepository'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-testrepository'

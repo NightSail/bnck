@@ -1,0 +1,8 @@
+id = 'fred'
+name = 'fred'
+
+homepage = 'https://fred.stlouisfed.org/docs/api/fred'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fred'

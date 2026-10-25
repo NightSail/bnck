@@ -1,0 +1,8 @@
+id = 'tilemaker'
+name = 'tilemaker'
+
+homepage = 'https://tilemaker.org'
+
+[[package]]
+channel = 'debian'
+name = 'tilemaker'

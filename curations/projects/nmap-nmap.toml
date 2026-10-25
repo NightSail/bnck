@@ -1,0 +1,9 @@
+id = 'nmap-nmap'
+name = 'nmap'
+
+homepage = 'https://nmap.org'
+repository = 'https://svn.nmap.org/nmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nmap'

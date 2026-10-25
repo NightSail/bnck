@@ -1,0 +1,12 @@
+id = 'sedutil'
+name = 'sedutil'
+
+homepage = 'https://github.com/Drive-Trust-Alliance/sedutil'
+
+[[package]]
+channel = 'debian'
+name = 'sedutil'
+
+[[package]]
+channel = 'fedora'
+name = 'sedutil'

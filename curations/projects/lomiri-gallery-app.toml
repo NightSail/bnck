@@ -1,0 +1,8 @@
+id = 'lomiri-gallery-app'
+name = 'lomiri-gallery-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-gallery-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-gallery-app'

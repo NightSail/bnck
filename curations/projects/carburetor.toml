@@ -1,0 +1,8 @@
+id = 'carburetor'
+name = 'carburetor'
+
+homepage = 'https://tractor.frama.io/carburetor'
+
+[[package]]
+channel = 'debian'
+name = 'carburetor'

@@ -1,0 +1,9 @@
+id = 'getdns'
+name = 'getdns'
+
+homepage = 'https://getdnsapi.net'
+repository = 'https://github.com/getdnsapi/getdns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/getdns'

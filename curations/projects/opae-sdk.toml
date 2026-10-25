@@ -1,0 +1,16 @@
+id = 'opae-sdk'
+name = 'opae-sdk'
+
+homepage = 'https://github.com/OPAE/opae-sdk'
+
+[[package]]
+channel = 'fedora'
+name = 'opae'
+
+[[package]]
+channel = 'fedora'
+name = 'opae-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'opae-extra-tools'

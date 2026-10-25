@@ -1,0 +1,12 @@
+id = 'plack'
+name = 'Plack'
+
+homepage = 'https://metacpan.org/release/Plack'
+
+[[package]]
+channel = 'debian'
+name = 'libplack-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Plack'

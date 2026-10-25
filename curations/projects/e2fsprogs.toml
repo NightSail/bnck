@@ -1,0 +1,52 @@
+id = 'e2fsprogs'
+name = 'e2fsprogs'
+
+homepage = 'http://e2fsprogs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'e2fsprogs'
+
+[[package]]
+channel = 'arch'
+name = 'fuse2fs'
+
+[[package]]
+channel = 'debian'
+name = 'comerr-dev'
+
+[[package]]
+channel = 'debian'
+name = 'e2fsck-static'
+
+[[package]]
+channel = 'debian'
+name = 'e2fsprogs'
+
+[[package]]
+channel = 'debian'
+name = 'fuse2fs'
+
+[[package]]
+channel = 'debian'
+name = 'logsave'
+
+[[package]]
+channel = 'debian'
+name = 'ss-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'e2fsprogs'
+
+[[package]]
+channel = 'fedora'
+name = 'e2scrub'
+
+[[package]]
+channel = 'fedora'
+name = 'libcom_err-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libss-devel'

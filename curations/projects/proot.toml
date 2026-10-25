@@ -1,0 +1,6 @@
+id = 'proot'
+name = 'proot'
+
+[[package]]
+channel = 'debian'
+name = 'proot'

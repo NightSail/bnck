@@ -1,0 +1,12 @@
+id = 'moserial'
+name = 'moserial'
+
+homepage = 'https://wiki.gnome.org/Apps/Moserial'
+
+[[package]]
+channel = 'arch'
+name = 'moserial'
+
+[[package]]
+channel = 'fedora'
+name = 'moserial'

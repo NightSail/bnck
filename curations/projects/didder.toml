@@ -1,0 +1,8 @@
+id = 'didder'
+name = 'didder'
+
+homepage = 'https://github.com/makew0rld/didder'
+
+[[package]]
+channel = 'debian'
+name = 'didder'

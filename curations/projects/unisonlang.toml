@@ -1,0 +1,9 @@
+id = 'unisonlang'
+name = 'unisonlang'
+
+homepage = 'https://unison-lang.org'
+repository = 'https://github.com/unisonweb/unison.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unisonlang'

@@ -1,0 +1,8 @@
+id = 'jskeus'
+name = 'jskeus'
+
+homepage = 'https://github.com/euslisp/jskeus'
+
+[[package]]
+channel = 'debian'
+name = 'jskeus'

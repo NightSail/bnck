@@ -1,0 +1,8 @@
+id = 'extract-url'
+name = 'extract_url'
+
+homepage = 'https://www.memoryhole.net/~kyle/extract_url'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/extract_url'

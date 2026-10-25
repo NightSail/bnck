@@ -1,0 +1,8 @@
+id = 'shmdata'
+name = 'shmdata'
+
+homepage = 'https://gitlab.com/sat-mtl/tools/shmdata'
+
+[[package]]
+channel = 'arch'
+name = 'shmdata'

@@ -1,0 +1,12 @@
+id = 'dracut-ng'
+name = 'dracut-ng'
+
+homepage = 'https://github.com/dracut-ng/dracut-ng/wiki'
+
+[[package]]
+channel = 'fedora'
+name = 'dracut'
+
+[[package]]
+channel = 'fedora'
+name = 'dracut-tools'

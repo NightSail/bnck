@@ -1,0 +1,10 @@
+id = 'u2f-host'
+name = 'u2f-host'
+
+[[package]]
+channel = 'debian'
+name = 'u2f-host'
+
+[[package]]
+channel = 'fedora'
+name = 'u2f-host'

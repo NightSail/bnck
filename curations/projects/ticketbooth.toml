@@ -1,0 +1,8 @@
+id = 'ticketbooth'
+name = 'ticketbooth'
+
+homepage = 'https://github.com/aleiepure/ticketbooth'
+
+[[package]]
+channel = 'debian'
+name = 'ticketbooth'

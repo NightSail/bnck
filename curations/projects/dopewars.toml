@@ -1,0 +1,12 @@
+id = 'dopewars'
+name = 'dopewars'
+
+homepage = 'https://dopewars.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'dopewars'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dopewars'

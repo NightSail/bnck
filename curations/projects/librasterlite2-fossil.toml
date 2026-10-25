@@ -1,0 +1,8 @@
+id = 'librasterlite2-fossil'
+name = 'librasterlite2'
+
+homepage = 'https://www.gaia-gis.it/fossil/librasterlite2/index'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librasterlite2'

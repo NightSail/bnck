@@ -1,0 +1,6 @@
+id = 'sidplay-base'
+name = 'sidplay-base'
+
+[[package]]
+channel = 'debian'
+name = 'sidplay-base'

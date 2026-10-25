@@ -1,0 +1,6 @@
+id = 'python-yubico-tools'
+name = 'python-yubico-tools'
+
+[[package]]
+channel = 'debian'
+name = 'python-yubico-tools'

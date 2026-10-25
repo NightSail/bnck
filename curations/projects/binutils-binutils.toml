@@ -1,0 +1,188 @@
+id = 'binutils-binutils'
+name = 'binutils'
+
+homepage = 'https://sourceware.org/binutils'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-aarch64-none-elf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-arm-none-eabi'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-bpf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-msp430-unknown-elf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-or1k-elf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-riscv64-unknown-elf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-sh-elf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-xtensa-lx106'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-aarch64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-alpha-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-arc-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-arm-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-avr32-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-bfin-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-bpf-unknown-none'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-c6x-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-cris-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-frv-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-gold'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-gprofng'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-h8300-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-hppa-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-hppa64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-ia64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-m32r-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-m68k-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-metag-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-microblaze-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-mips64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-mn10300-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-openrisc-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-ppc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-ppc64le-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-riscv32-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-riscv64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-s390x-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-score-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-sh-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-sparc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-tile-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-x86_64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'binutils-xtensa-linux-gnu'

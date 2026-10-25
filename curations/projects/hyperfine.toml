@@ -16,5 +16,13 @@ channel = 'debian'
 name = 'hyperfine'
 
 [[package]]
+channel = 'debian'
+name = 'hyperfine-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperfine'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/hyperfine'

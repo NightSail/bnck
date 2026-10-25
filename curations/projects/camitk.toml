@@ -1,0 +1,20 @@
+id = 'camitk'
+name = 'camitk'
+
+homepage = 'https://camitk.imag.fr'
+
+[[package]]
+channel = 'debian'
+name = 'camitk-actionstatemachine'
+
+[[package]]
+channel = 'debian'
+name = 'camitk-config'
+
+[[package]]
+channel = 'debian'
+name = 'camitk-imp'
+
+[[package]]
+channel = 'debian'
+name = 'libcamitk-dev'

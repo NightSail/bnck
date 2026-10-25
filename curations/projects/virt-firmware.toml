@@ -1,0 +1,12 @@
+id = 'virt-firmware'
+name = 'virt-firmware'
+
+homepage = 'https://gitlab.com/kraxel/virt-firmware'
+
+[[package]]
+channel = 'arch'
+name = 'virt-firmware'
+
+[[package]]
+channel = 'debian'
+name = 'python3-virt-firmware'

@@ -1,0 +1,8 @@
+id = 'nave'
+name = 'nave'
+
+repository = 'https://github.com/isaacs/nave.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nave'

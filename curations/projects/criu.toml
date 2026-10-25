@@ -1,0 +1,28 @@
+id = 'criu'
+name = 'criu'
+
+homepage = 'https://criu.org'
+
+[[package]]
+channel = 'arch'
+name = 'criu'
+
+[[package]]
+channel = 'debian'
+name = 'criu'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pycriu'
+
+[[package]]
+channel = 'fedora'
+name = 'crit'
+
+[[package]]
+channel = 'fedora'
+name = 'criu'
+
+[[package]]
+channel = 'fedora'
+name = 'criu-ns'

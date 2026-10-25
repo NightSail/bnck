@@ -1,0 +1,8 @@
+id = 'python3-kasa'
+name = 'python3-kasa'
+
+homepage = 'https://github.com/python-kasa/python-kasa'
+
+[[package]]
+channel = 'debian'
+name = 'python3-kasa'

@@ -1,0 +1,8 @@
+id = 'tthsum'
+name = 'tthsum'
+
+homepage = 'http://tthsum.devs.nu'
+
+[[package]]
+channel = 'debian'
+name = 'tthsum'

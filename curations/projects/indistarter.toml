@@ -1,0 +1,8 @@
+id = 'indistarter'
+name = 'indistarter'
+
+homepage = 'https://github.com/pchev/indistarter'
+
+[[package]]
+channel = 'fedora'
+name = 'indistarter'

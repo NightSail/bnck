@@ -1,0 +1,28 @@
+id = 'icewm'
+name = 'icewm'
+
+homepage = 'https://ice-wm.org'
+
+[[package]]
+channel = 'arch'
+name = 'icewm'
+
+[[package]]
+channel = 'debian'
+name = 'icewm'
+
+[[package]]
+channel = 'debian'
+name = 'icewm-common'
+
+[[package]]
+channel = 'debian'
+name = 'icewm-experimental'
+
+[[package]]
+channel = 'debian'
+name = 'icewm-lite'
+
+[[package]]
+channel = 'fedora'
+name = 'icewm'

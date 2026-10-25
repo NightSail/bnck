@@ -1,0 +1,12 @@
+id = 'send2trash'
+name = 'send2trash'
+
+homepage = 'https://github.com/hsoft/send2trash'
+
+[[package]]
+channel = 'arch'
+name = 'python-send2trash'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-send2trash'

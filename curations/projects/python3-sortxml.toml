@@ -1,0 +1,8 @@
+id = 'python3-sortxml'
+name = 'python3-sortxml'
+
+homepage = 'https://github.com/Kopachris/sortxml'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sortxml'

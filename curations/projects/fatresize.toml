@@ -1,0 +1,16 @@
+id = 'fatresize'
+name = 'fatresize'
+
+homepage = 'https://sourceforge.net/projects/fatresize'
+
+[[package]]
+channel = 'arch'
+name = 'fatresize'
+
+[[package]]
+channel = 'debian'
+name = 'fatresize'
+
+[[package]]
+channel = 'fedora'
+name = 'fatresize'

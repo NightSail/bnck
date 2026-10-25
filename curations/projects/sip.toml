@@ -1,0 +1,21 @@
+id = 'sip'
+name = 'sip'
+
+homepage = 'https://www.riverbankcomputing.com'
+repository = 'https://github.com/Python-SIP/sip.git'
+
+[[package]]
+channel = 'arch'
+name = 'sip'
+
+[[package]]
+channel = 'debian'
+name = 'sip-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'sip6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sip'

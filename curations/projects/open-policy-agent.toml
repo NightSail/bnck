@@ -1,0 +1,8 @@
+id = 'open-policy-agent'
+name = 'open-policy-agent'
+
+homepage = 'https://github.com/open-policy-agent/opa'
+
+[[package]]
+channel = 'arch'
+name = 'open-policy-agent'

@@ -1,0 +1,9 @@
+id = 'openvdb-academysoftwarefoundation-2'
+name = 'openvdb'
+
+homepage = 'https://www.openvdb.org'
+repository = 'https://github.com/AcademySoftwareFoundation/openvdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openvdb'

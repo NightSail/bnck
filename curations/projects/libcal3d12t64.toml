@@ -1,0 +1,8 @@
+id = 'libcal3d12t64'
+name = 'libcal3d12t64'
+
+homepage = 'https://mp3butcher.github.io/Cal3D'
+
+[[package]]
+channel = 'debian'
+name = 'libcal3d12t64'

@@ -1,0 +1,17 @@
+id = 'gmsh'
+name = 'gmsh'
+
+homepage = 'https://gmsh.info'
+repository = 'https://gitlab.onelab.info/gmsh/gmsh.git'
+
+[[package]]
+channel = 'debian'
+name = 'gmsh'
+
+[[package]]
+channel = 'fedora'
+name = 'gmsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gmsh'

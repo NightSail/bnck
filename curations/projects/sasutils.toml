@@ -1,0 +1,8 @@
+id = 'sasutils'
+name = 'sasutils'
+
+homepage = 'https://github.com/stanford-rc/sasutils'
+
+[[package]]
+channel = 'fedora'
+name = 'sasutils'

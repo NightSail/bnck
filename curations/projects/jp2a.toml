@@ -1,0 +1,16 @@
+id = 'jp2a'
+name = 'jp2a'
+
+homepage = 'https://github.com/Talinx/jp2a'
+
+[[package]]
+channel = 'arch'
+name = 'jp2a'
+
+[[package]]
+channel = 'debian'
+name = 'jp2a'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jp2a'

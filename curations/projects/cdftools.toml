@@ -1,0 +1,8 @@
+id = 'cdftools'
+name = 'cdftools'
+
+homepage = 'https://github.com/meom-group/CDFTOOLS'
+
+[[package]]
+channel = 'debian'
+name = 'cdftools'

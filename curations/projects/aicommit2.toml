@@ -1,0 +1,8 @@
+id = 'aicommit2'
+name = 'aicommit2'
+
+homepage = 'https://github.com/tak-bro/aicommit2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aicommit2'

@@ -1,0 +1,16 @@
+id = 'qt6ct'
+name = 'qt6ct'
+
+homepage = 'https://www.opencode.net/trialuser/qt6ct'
+
+[[package]]
+channel = 'arch'
+name = 'qt6ct'
+
+[[package]]
+channel = 'debian'
+name = 'qt6ct'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6ct'

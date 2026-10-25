@@ -1,0 +1,8 @@
+id = 'pkcs11-data'
+name = 'pkcs11-data'
+
+homepage = 'https://github.com/alonbl/pkcs11-data'
+
+[[package]]
+channel = 'debian'
+name = 'pkcs11-data'

@@ -1,0 +1,16 @@
+id = 'calls'
+name = 'calls'
+
+homepage = 'https://gitlab.gnome.org/GNOME/calls'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-calls'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-calls'
+
+[[package]]
+channel = 'fedora'
+name = 'calls'

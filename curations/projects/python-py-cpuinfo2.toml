@@ -1,0 +1,8 @@
+id = 'python-py-cpuinfo2'
+name = 'python-py-cpuinfo2'
+
+homepage = 'https://github.com/akx/py-cpuinfo2'
+
+[[package]]
+channel = 'arch'
+name = 'python-py-cpuinfo2'

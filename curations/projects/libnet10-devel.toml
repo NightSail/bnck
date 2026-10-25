@@ -1,0 +1,8 @@
+id = 'libnet10-devel'
+name = 'libnet10-devel'
+
+homepage = 'http://www.packetfactory.net/libnet'
+
+[[package]]
+channel = 'fedora'
+name = 'libnet10-devel'

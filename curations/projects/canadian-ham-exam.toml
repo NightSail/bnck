@@ -1,0 +1,8 @@
+id = 'canadian-ham-exam'
+name = 'canadian-ham-exam'
+
+homepage = 'https://launchpad.net/canadian-ham-exam'
+
+[[package]]
+channel = 'debian'
+name = 'canadian-ham-exam'

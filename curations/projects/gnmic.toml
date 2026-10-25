@@ -1,0 +1,9 @@
+id = 'gnmic'
+name = 'gnmic'
+
+homepage = 'https://gnmic.openconfig.net'
+repository = 'https://github.com/openconfig/gnmic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnmic'

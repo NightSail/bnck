@@ -1,0 +1,9 @@
+id = 'rune'
+name = 'rune'
+
+homepage = 'https://rune-rs.github.io'
+repository = 'https://github.com/rune-rs/rune.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rune'

@@ -1,0 +1,12 @@
+id = 'idris-lang'
+name = 'idris-lang'
+
+homepage = 'https://www.idris-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'idris'
+
+[[package]]
+channel = 'fedora'
+name = 'idris2'

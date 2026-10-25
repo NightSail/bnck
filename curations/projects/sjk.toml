@@ -1,0 +1,8 @@
+id = 'sjk'
+name = 'sjk'
+
+homepage = 'https://github.com/aragozin/jvm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sjk'

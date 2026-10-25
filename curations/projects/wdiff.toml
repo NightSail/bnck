@@ -1,0 +1,20 @@
+id = 'wdiff'
+name = 'wdiff'
+
+homepage = 'https://www.gnu.org/software/wdiff'
+
+[[package]]
+channel = 'arch'
+name = 'wdiff'
+
+[[package]]
+channel = 'debian'
+name = 'wdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'wdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wdiff'

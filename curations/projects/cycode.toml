@@ -1,0 +1,8 @@
+id = 'cycode'
+name = 'cycode'
+
+repository = 'https://github.com/cycodehq/cycode-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cycode'

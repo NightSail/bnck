@@ -1,0 +1,8 @@
+id = 'tcode'
+name = 'tcode'
+
+homepage = 'https://www.iro.umontreal.ca/~simardr/ssj/ssj-source.html'
+
+[[package]]
+channel = 'debian'
+name = 'tcode'

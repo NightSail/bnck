@@ -1,0 +1,16 @@
+id = 'ufw'
+name = 'ufw'
+
+homepage = 'https://launchpad.net/ufw'
+
+[[package]]
+channel = 'arch'
+name = 'ufw'
+
+[[package]]
+channel = 'debian'
+name = 'ufw'
+
+[[package]]
+channel = 'fedora'
+name = 'ufw'

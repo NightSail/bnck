@@ -1,0 +1,16 @@
+id = 'swappy'
+name = 'swappy'
+
+homepage = 'https://github.com/jtheoof/swappy'
+
+[[package]]
+channel = 'arch'
+name = 'swappy'
+
+[[package]]
+channel = 'debian'
+name = 'swappy'
+
+[[package]]
+channel = 'fedora'
+name = 'swappy'

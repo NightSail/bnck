@@ -1,0 +1,13 @@
+id = 'vimpager'
+name = 'vimpager'
+
+homepage = 'https://www.vim.org/scripts/script.php'
+repository = 'https://github.com/rkitover/vimpager.git'
+
+[[package]]
+channel = 'arch'
+name = 'vimpager'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vimpager'

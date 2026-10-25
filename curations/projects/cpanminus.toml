@@ -1,0 +1,8 @@
+id = 'cpanminus'
+name = 'cpanminus'
+
+repository = 'https://github.com/miyagawa/cpanminus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpanminus'

@@ -1,0 +1,8 @@
+id = 'bashacks'
+name = 'bashacks'
+
+homepage = 'https://github.com/merces/bashacks'
+
+[[package]]
+channel = 'debian'
+name = 'bashacks'

@@ -1,0 +1,12 @@
+id = 'bluedevil'
+name = 'bluedevil'
+
+homepage = 'https://invent.kde.org/plasma/bluedevil'
+
+[[package]]
+channel = 'debian'
+name = 'bluedevil'
+
+[[package]]
+channel = 'fedora'
+name = 'bluedevil'

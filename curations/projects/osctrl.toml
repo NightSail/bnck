@@ -1,0 +1,13 @@
+id = 'osctrl'
+name = 'osctrl'
+
+homepage = 'https://osctrl.net'
+repository = 'https://github.com/jmpsec/osctrl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osctrl-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osctrl-mcp'

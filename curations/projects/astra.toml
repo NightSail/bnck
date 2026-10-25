@@ -1,0 +1,8 @@
+id = 'astra'
+name = 'astra'
+
+homepage = 'https://docs.datastax.com/en/astra-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/astra'

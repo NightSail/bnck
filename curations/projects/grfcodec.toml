@@ -1,0 +1,12 @@
+id = 'grfcodec'
+name = 'grfcodec'
+
+homepage = 'https://github.com/OpenTTD/grfcodec'
+
+[[package]]
+channel = 'debian'
+name = 'grfcodec'
+
+[[package]]
+channel = 'fedora'
+name = 'grfcodec'

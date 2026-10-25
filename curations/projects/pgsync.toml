@@ -1,0 +1,8 @@
+id = 'pgsync'
+name = 'pgsync'
+
+homepage = 'https://github.com/ankane/pgsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgsync'

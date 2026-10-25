@@ -1,0 +1,21 @@
+id = 'medusa'
+name = 'medusa'
+
+homepage = 'http://www.foofus.net/jmk/medusa/medusa.html'
+repository = 'https://github.com/crytic/medusa.git'
+
+[[package]]
+channel = 'arch'
+name = 'medusa'
+
+[[package]]
+channel = 'debian'
+name = 'medusa'
+
+[[package]]
+channel = 'fedora'
+name = 'medusa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/medusa'

@@ -1,0 +1,12 @@
+id = 'j2cli'
+name = 'j2cli'
+
+homepage = 'https://github.com/kolypto/j2cli'
+
+[[package]]
+channel = 'arch'
+name = 'python-j2cli'
+
+[[package]]
+channel = 'debian'
+name = 'j2cli'

@@ -1,0 +1,8 @@
+id = 'mussort'
+name = 'mussort'
+
+homepage = 'https://www.zerodogg.org/mussort'
+
+[[package]]
+channel = 'debian'
+name = 'mussort'

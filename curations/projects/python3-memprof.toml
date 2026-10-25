@@ -1,0 +1,8 @@
+id = 'python3-memprof'
+name = 'python3-memprof'
+
+homepage = 'https://jmdana.github.io/memprof'
+
+[[package]]
+channel = 'debian'
+name = 'python3-memprof'

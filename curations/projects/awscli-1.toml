@@ -1,0 +1,8 @@
+id = 'awscli-1'
+name = 'awscli@1'
+
+homepage = 'https://aws.amazon.com/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awscli@1'

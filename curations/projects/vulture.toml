@@ -1,0 +1,16 @@
+id = 'vulture'
+name = 'vulture'
+
+homepage = 'https://github.com/jendrikseipp/vulture'
+
+[[package]]
+channel = 'arch'
+name = 'vulture'
+
+[[package]]
+channel = 'debian'
+name = 'vulture'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vulture'

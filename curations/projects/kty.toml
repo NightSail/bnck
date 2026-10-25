@@ -1,0 +1,9 @@
+id = 'kty'
+name = 'kty'
+
+homepage = 'https://kty.dev'
+repository = 'https://github.com/grampelberg/kty.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kty'

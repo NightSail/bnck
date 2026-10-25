@@ -1,0 +1,8 @@
+id = 'libmarc-lint-perl'
+name = 'libmarc-lint-perl'
+
+homepage = 'https://metacpan.org/release/MARC-Lint'
+
+[[package]]
+channel = 'debian'
+name = 'libmarc-lint-perl'

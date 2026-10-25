@@ -1,0 +1,20 @@
+id = 'sshuttle'
+name = 'sshuttle'
+
+repository = 'https://github.com/sshuttle/sshuttle.git'
+
+[[package]]
+channel = 'arch'
+name = 'sshuttle'
+
+[[package]]
+channel = 'debian'
+name = 'sshuttle'
+
+[[package]]
+channel = 'fedora'
+name = 'sshuttle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshuttle'

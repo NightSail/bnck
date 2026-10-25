@@ -1,0 +1,8 @@
+id = 'xorsearch'
+name = 'xorsearch'
+
+homepage = 'http://blog.didierstevens.com/programs/xorsearch'
+
+[[package]]
+channel = 'fedora'
+name = 'xorsearch'

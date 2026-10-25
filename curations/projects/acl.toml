@@ -1,0 +1,20 @@
+id = 'acl'
+name = 'acl'
+
+homepage = 'https://savannah.nongnu.org/projects/acl'
+
+[[package]]
+channel = 'arch'
+name = 'acl'
+
+[[package]]
+channel = 'debian'
+name = 'acl'
+
+[[package]]
+channel = 'fedora'
+name = 'acl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/acl'

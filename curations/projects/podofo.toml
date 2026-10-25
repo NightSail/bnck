@@ -1,0 +1,16 @@
+id = 'podofo'
+name = 'podofo'
+
+homepage = 'http://podofo.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'podofo-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libpodofo-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'podofo0.9-tools'

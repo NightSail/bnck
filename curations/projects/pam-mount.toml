@@ -1,0 +1,12 @@
+id = 'pam-mount'
+name = 'pam_mount'
+
+homepage = 'https://inai.de/projects/pam_mount'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-mount-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'pam_mount'

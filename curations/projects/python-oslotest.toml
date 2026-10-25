@@ -1,0 +1,8 @@
+id = 'python-oslotest'
+name = 'python-oslotest'
+
+homepage = 'https://github.com/openstack/oslotest'
+
+[[package]]
+channel = 'arch'
+name = 'python-oslotest'

@@ -1,0 +1,8 @@
+id = 'golang-github-sourcegraph-syntaxhighlight'
+name = 'golang-github-sourcegraph-syntaxhighlight'
+
+homepage = 'https://github.com/sourcegraph/syntaxhighlight'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-sourcegraph-syntaxhighlight'

@@ -1,0 +1,8 @@
+id = 'gambit'
+name = 'gambit'
+
+homepage = 'https://www.gambit-project.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gambit'

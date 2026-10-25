@@ -1,0 +1,8 @@
+id = 'jbake'
+name = 'jbake'
+
+homepage = 'https://jbake.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jbake'

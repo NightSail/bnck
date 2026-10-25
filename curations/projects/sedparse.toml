@@ -1,0 +1,8 @@
+id = 'sedparse'
+name = 'sedparse'
+
+homepage = 'https://github.com/aureliojargas/sedparse'
+
+[[package]]
+channel = 'debian'
+name = 'sedparse'

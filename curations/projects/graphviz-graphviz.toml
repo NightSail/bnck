@@ -1,0 +1,9 @@
+id = 'graphviz-graphviz'
+name = 'graphviz'
+
+homepage = 'https://graphviz.org'
+repository = 'https://gitlab.com/graphviz/graphviz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphviz'

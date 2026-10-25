@@ -1,0 +1,8 @@
+id = 'python-hjson'
+name = 'python-hjson'
+
+homepage = 'https://github.com/laktak/hjson-py'
+
+[[package]]
+channel = 'arch'
+name = 'python-hjson'

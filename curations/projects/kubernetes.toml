@@ -1,0 +1,36 @@
+id = 'kubernetes'
+name = 'kubernetes'
+
+homepage = 'https://kubernetes.io'
+
+[[package]]
+channel = 'arch'
+name = 'kube-apiserver'
+
+[[package]]
+channel = 'arch'
+name = 'kube-controller-manager'
+
+[[package]]
+channel = 'arch'
+name = 'kube-proxy'
+
+[[package]]
+channel = 'arch'
+name = 'kube-scheduler'
+
+[[package]]
+channel = 'arch'
+name = 'kubeadm'
+
+[[package]]
+channel = 'arch'
+name = 'kubectl'
+
+[[package]]
+channel = 'arch'
+name = 'kubelet'
+
+[[package]]
+channel = 'debian'
+name = 'kubectl'

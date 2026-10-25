@@ -1,0 +1,8 @@
+id = 'ulauncher'
+name = 'ulauncher'
+
+homepage = 'https://github.com/Ulauncher/Ulauncher'
+
+[[package]]
+channel = 'fedora'
+name = 'ulauncher'

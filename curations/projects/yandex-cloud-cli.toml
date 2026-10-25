@@ -1,0 +1,8 @@
+id = 'yandex-cloud-cli'
+name = 'yandex-cloud-cli'
+
+homepage = 'https://cloud.yandex.com/docs/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/yandex-cloud-cli'

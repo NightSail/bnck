@@ -1,0 +1,8 @@
+id = 'golist'
+name = 'golist'
+
+homepage = 'https://pagure.io/golist'
+
+[[package]]
+channel = 'fedora'
+name = 'golist'

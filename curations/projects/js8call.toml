@@ -1,0 +1,12 @@
+id = 'js8call'
+name = 'js8call'
+
+homepage = 'http://js8call.com'
+
+[[package]]
+channel = 'debian'
+name = 'js8call'
+
+[[package]]
+channel = 'fedora'
+name = 'js8call'

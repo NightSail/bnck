@@ -1,0 +1,8 @@
+id = 'ypserv'
+name = 'ypserv'
+
+homepage = 'https://www.thkukuk.de/nis/nis/ypserv'
+
+[[package]]
+channel = 'fedora'
+name = 'ypserv'

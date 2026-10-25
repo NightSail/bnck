@@ -1,0 +1,8 @@
+id = 'wp2latex'
+name = 'wp2latex'
+
+homepage = 'http://ftsoft.com.cz/wp2latex/wp2latex.htm'
+
+[[package]]
+channel = 'debian'
+name = 'wp2latex'

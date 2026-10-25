@@ -1,0 +1,8 @@
+id = 'mdv'
+name = 'mdv'
+
+homepage = 'https://github.com/axiros/terminal_markdown_viewer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdv'

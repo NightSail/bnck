@@ -1,0 +1,8 @@
+id = 'xcrysden'
+name = 'xcrysden'
+
+homepage = 'http://www.xcrysden.org'
+
+[[package]]
+channel = 'debian'
+name = 'xcrysden'

@@ -1,0 +1,9 @@
+id = 'pdm-pdm-project'
+name = 'pdm'
+
+homepage = 'https://pdm-project.org'
+repository = 'https://github.com/pdm-project/pdm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdm'

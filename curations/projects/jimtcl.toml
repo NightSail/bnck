@@ -1,0 +1,12 @@
+id = 'jimtcl'
+name = 'jimtcl'
+
+homepage = 'https://jim.tcl.tk/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'jimtcl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jimtcl'

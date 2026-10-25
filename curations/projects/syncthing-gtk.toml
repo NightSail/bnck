@@ -1,0 +1,8 @@
+id = 'syncthing-gtk'
+name = 'syncthing-gtk'
+
+homepage = 'https://github.com/syncthing/syncthing-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'syncthing-gtk'

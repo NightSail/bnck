@@ -1,0 +1,16 @@
+id = 'sawfish'
+name = 'sawfish'
+
+homepage = 'https://sawfish.tuxfamily.org'
+
+[[package]]
+channel = 'debian'
+name = 'librep-dev'
+
+[[package]]
+channel = 'debian'
+name = 'rep'
+
+[[package]]
+channel = 'debian'
+name = 'sawfish'

@@ -1,0 +1,17 @@
+id = 'snapraid'
+name = 'snapraid'
+
+homepage = 'https://www.snapraid.it'
+repository = 'https://github.com/amadvance/snapraid.git'
+
+[[package]]
+channel = 'debian'
+name = 'snapraid'
+
+[[package]]
+channel = 'fedora'
+name = 'snapraid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snapraid'

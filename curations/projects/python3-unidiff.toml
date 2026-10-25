@@ -1,0 +1,12 @@
+id = 'python3-unidiff'
+name = 'python3-unidiff'
+
+homepage = 'https://github.com/matiasb/python-unidiff'
+
+[[package]]
+channel = 'debian'
+name = 'python3-unidiff'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-unidiff'

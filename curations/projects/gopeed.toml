@@ -1,0 +1,9 @@
+id = 'gopeed'
+name = 'gopeed'
+
+homepage = 'https://gopeed.com'
+repository = 'https://github.com/GopeedLab/gopeed.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gopeed'

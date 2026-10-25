@@ -1,0 +1,8 @@
+id = 'perl-pod-checker'
+name = 'perl-Pod-Checker'
+
+homepage = 'https://metacpan.org/release/Pod-Checker'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Checker'

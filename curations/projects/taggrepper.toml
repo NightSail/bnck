@@ -1,0 +1,8 @@
+id = 'taggrepper'
+name = 'taggrepper'
+
+homepage = 'https://github.com/kumanna/taggrepper'
+
+[[package]]
+channel = 'debian'
+name = 'taggrepper'

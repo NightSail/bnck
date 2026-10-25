@@ -1,0 +1,8 @@
+id = 'go-rpm-macros'
+name = 'go-rpm-macros'
+
+homepage = 'https://gitlab.com/fedora/sigs/go/go-rpm-macros'
+
+[[package]]
+channel = 'fedora'
+name = 'go-rpm-macros'

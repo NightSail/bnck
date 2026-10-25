@@ -1,0 +1,8 @@
+id = 'python3-pydeconz'
+name = 'python3-pydeconz'
+
+homepage = 'https://github.com/Kane610/deconz'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pydeconz'

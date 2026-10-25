@@ -1,0 +1,16 @@
+id = 'djangoproject'
+name = 'djangoproject'
+
+homepage = 'http://www.djangoproject.com'
+
+[[package]]
+channel = 'arch'
+name = 'python-django'
+
+[[package]]
+channel = 'debian'
+name = 'python3-django'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-django'

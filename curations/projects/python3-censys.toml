@@ -1,0 +1,8 @@
+id = 'python3-censys'
+name = 'python3-censys'
+
+homepage = 'https://github.com/censys/censys-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-censys'

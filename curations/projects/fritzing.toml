@@ -1,0 +1,12 @@
+id = 'fritzing'
+name = 'fritzing'
+
+homepage = 'https://fritzing.org'
+
+[[package]]
+channel = 'debian'
+name = 'fritzing'
+
+[[package]]
+channel = 'fedora'
+name = 'fritzing'

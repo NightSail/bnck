@@ -1,0 +1,16 @@
+id = 'squeak-vm'
+name = 'squeak-vm'
+
+homepage = 'http://squeakvm.org'
+
+[[package]]
+channel = 'arch'
+name = 'squeak-vm'
+
+[[package]]
+channel = 'debian'
+name = 'squeak-vm'
+
+[[package]]
+channel = 'fedora'
+name = 'squeak-vm'

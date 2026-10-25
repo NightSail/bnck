@@ -1,0 +1,8 @@
+id = 'python3-ament-index'
+name = 'python3-ament-index'
+
+homepage = 'https://github.com/ament/ament_index'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-index'

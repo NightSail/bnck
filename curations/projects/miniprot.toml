@@ -1,0 +1,8 @@
+id = 'miniprot'
+name = 'miniprot'
+
+homepage = 'https://lh3.github.io/miniprot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/miniprot'

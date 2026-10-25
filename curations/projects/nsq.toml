@@ -1,0 +1,9 @@
+id = 'nsq'
+name = 'nsq'
+
+homepage = 'https://nsq.io'
+repository = 'https://github.com/nsqio/nsq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nsq'

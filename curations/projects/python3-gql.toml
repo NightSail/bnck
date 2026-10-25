@@ -1,0 +1,12 @@
+id = 'python3-gql'
+name = 'python3-gql'
+
+homepage = 'https://github.com/graphql-python/gql'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gql'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gql'

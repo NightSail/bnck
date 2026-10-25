@@ -1,0 +1,8 @@
+id = 'ufdbguard'
+name = 'ufdbGuard'
+
+homepage = 'https://www.urlfilterdb.com'
+
+[[package]]
+channel = 'fedora'
+name = 'ufdbGuard'

@@ -1,0 +1,12 @@
+id = 'meilisearch'
+name = 'meilisearch'
+
+homepage = 'https://docs.meilisearch.com'
+
+[[package]]
+channel = 'arch'
+name = 'meilisearch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/meilisearch'

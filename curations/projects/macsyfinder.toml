@@ -1,0 +1,8 @@
+id = 'macsyfinder'
+name = 'macsyfinder'
+
+homepage = 'https://github.com/gem-pasteur/macsyfinder'
+
+[[package]]
+channel = 'debian'
+name = 'macsyfinder'

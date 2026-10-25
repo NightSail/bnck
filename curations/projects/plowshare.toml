@@ -1,0 +1,8 @@
+id = 'plowshare'
+name = 'plowshare'
+
+homepage = 'https://github.com/mcrapet/plowshare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plowshare'

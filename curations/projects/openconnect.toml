@@ -1,0 +1,21 @@
+id = 'openconnect'
+name = 'openconnect'
+
+homepage = 'https://www.infradead.org/openconnect'
+repository = 'git://git.infradead.org/users/dwmw2/openconnect.git'
+
+[[package]]
+channel = 'arch'
+name = 'openconnect'
+
+[[package]]
+channel = 'debian'
+name = 'openconnect'
+
+[[package]]
+channel = 'fedora'
+name = 'openconnect'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openconnect'

@@ -1,0 +1,12 @@
+id = 'mininet'
+name = 'mininet'
+
+homepage = 'https://mininet.org'
+
+[[package]]
+channel = 'debian'
+name = 'mininet'
+
+[[package]]
+channel = 'fedora'
+name = 'mininet'

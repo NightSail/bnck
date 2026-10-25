@@ -1,0 +1,8 @@
+id = 'xsc'
+name = 'xsc'
+
+homepage = 'http://www.panix.com/~mbh/projects.html'
+
+[[package]]
+channel = 'fedora'
+name = 'xsc'

@@ -1,0 +1,8 @@
+id = 'buteo-syncfw'
+name = 'buteo-syncfw'
+
+homepage = 'https://github.com/sailfishos/buteo-syncfw'
+
+[[package]]
+channel = 'debian'
+name = 'buteo-syncfw'

@@ -1,0 +1,12 @@
+id = 'hdf5-hdf5-2'
+name = 'hdf5'
+
+homepage = 'https://www.hdfgroup.org/hdf5'
+
+[[package]]
+channel = 'arch'
+name = 'hdf5'
+
+[[package]]
+channel = 'arch'
+name = 'hdf5-openmpi'

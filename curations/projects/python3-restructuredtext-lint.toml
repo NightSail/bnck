@@ -1,0 +1,8 @@
+id = 'python3-restructuredtext-lint'
+name = 'python3-restructuredtext-lint'
+
+homepage = 'https://pypi.python.org/pypi/restructuredtext_lint'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-restructuredtext-lint'

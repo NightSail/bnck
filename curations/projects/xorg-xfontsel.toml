@@ -1,0 +1,8 @@
+id = 'xorg-xfontsel'
+name = 'xorg-xfontsel'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xfontsel'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xfontsel'

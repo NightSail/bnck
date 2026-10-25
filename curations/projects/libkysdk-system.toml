@@ -1,0 +1,8 @@
+id = 'libkysdk-system'
+name = 'libkysdk-system'
+
+homepage = 'https://gitee.com/openkylin/libkysdk-system'
+
+[[package]]
+channel = 'debian'
+name = 'libkysdk-system'

@@ -1,0 +1,8 @@
+id = 'libhugetlbfs-bin'
+name = 'libhugetlbfs-bin'
+
+homepage = 'https://github.com/libhugetlbfs/libhugetlbfs'
+
+[[package]]
+channel = 'debian'
+name = 'libhugetlbfs-bin'

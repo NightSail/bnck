@@ -1,0 +1,24 @@
+id = 'libtool'
+name = 'libtool'
+
+homepage = 'https://www.gnu.org/software/libtool'
+
+[[package]]
+channel = 'arch'
+name = 'libtool'
+
+[[package]]
+channel = 'debian'
+name = 'libtool'
+
+[[package]]
+channel = 'debian'
+name = 'libtool-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libtool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtool'

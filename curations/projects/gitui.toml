@@ -2,11 +2,16 @@ id = 'gitui'
 name = 'gitui'
 
 repository = 'https://github.com/gitui-org/gitui'
-
-links = ['https://github.com/extrawurst/gitui']
+links = [
+	'https://github.com/extrawurst/gitui',
+]
 
 [[package]]
 channel = 'arch'
+name = 'gitui'
+
+[[package]]
+channel = 'fedora'
 name = 'gitui'
 
 [[package]]

@@ -1,0 +1,8 @@
+id = 'audaspace'
+name = 'audaspace'
+
+homepage = 'https://audaspace.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'audaspace'

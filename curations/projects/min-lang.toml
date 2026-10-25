@@ -1,0 +1,8 @@
+id = 'min-lang'
+name = 'min-lang'
+
+homepage = 'https://min-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/min-lang'

@@ -1,0 +1,21 @@
+id = 'zfp'
+name = 'zfp'
+
+homepage = 'https://computing.llnl.gov/projects/floating-point-compression'
+repository = 'https://github.com/llnl/zfp.git'
+
+[[package]]
+channel = 'arch'
+name = 'zfp'
+
+[[package]]
+channel = 'debian'
+name = 'zfp'
+
+[[package]]
+channel = 'fedora'
+name = 'zfp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zfp'

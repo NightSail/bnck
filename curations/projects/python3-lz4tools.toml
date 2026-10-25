@@ -1,0 +1,8 @@
+id = 'python3-lz4tools'
+name = 'python3-lz4tools'
+
+homepage = 'https://github.com/darkdragn/lz4tools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-lz4tools'

@@ -1,0 +1,9 @@
+id = 'cuttlefish'
+name = 'cuttlefish'
+
+homepage = 'https://combine-lab.github.io/cuttlefish'
+repository = 'https://github.com/COMBINE-lab/cuttlefish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cuttlefish'

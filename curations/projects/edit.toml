@@ -4,9 +4,21 @@ name = 'edit'
 repository = 'https://github.com/microsoft/edit'
 
 [[package]]
-channel = 'homebrew'
-name = 'homebrew/core/msedit'
+channel = 'arch'
+name = 'msedit'
+
+[[package]]
+channel = 'crates.io'
+name = 'chedit'
 
 [[package]]
 channel = 'crates.io'
 name = 'msedit'
+
+[[package]]
+channel = 'fedora'
+name = 'msedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msedit'

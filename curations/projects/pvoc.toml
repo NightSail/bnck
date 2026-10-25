@@ -1,0 +1,8 @@
+id = 'pvoc'
+name = 'pvoc'
+
+homepage = 'http://quitte.de/dsp/pvoc.html'
+
+[[package]]
+channel = 'arch'
+name = 'pvoc'

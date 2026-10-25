@@ -1,0 +1,24 @@
+id = 'sagemath'
+name = 'sagemath'
+
+homepage = 'https://www.sagemath.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-cysignals'
+
+[[package]]
+channel = 'arch'
+name = 'rubiks'
+
+[[package]]
+channel = 'arch'
+name = 'sagemath'
+
+[[package]]
+channel = 'arch'
+name = 'sympow'
+
+[[package]]
+channel = 'debian'
+name = 'sagemath'

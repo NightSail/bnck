@@ -1,0 +1,8 @@
+id = 'libpdf-fromhtml-perl'
+name = 'libpdf-fromhtml-perl'
+
+homepage = 'https://metacpan.org/release/PDF-FromHTML'
+
+[[package]]
+channel = 'debian'
+name = 'libpdf-fromhtml-perl'

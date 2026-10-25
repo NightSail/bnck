@@ -1,0 +1,9 @@
+id = 'kubectl-cnpg'
+name = 'kubectl-cnpg'
+
+homepage = 'https://cloudnative-pg.io'
+repository = 'https://github.com/cloudnative-pg/cloudnative-pg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectl-cnpg'

@@ -1,0 +1,8 @@
+id = 'python-editorconfig'
+name = 'python-editorconfig'
+
+homepage = 'https://github.com/editorconfig/editorconfig-core-py'
+
+[[package]]
+channel = 'arch'
+name = 'python-editorconfig'

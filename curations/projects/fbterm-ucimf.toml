@@ -1,0 +1,8 @@
+id = 'fbterm-ucimf'
+name = 'fbterm-ucimf'
+
+homepage = 'https://github.com/matlinuxer2/ucimf'
+
+[[package]]
+channel = 'debian'
+name = 'fbterm-ucimf'

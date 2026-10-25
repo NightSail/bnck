@@ -1,0 +1,12 @@
+id = 'terminfo'
+name = 'terminfo'
+
+homepage = 'https://github.com/xo/terminfo'
+
+[[package]]
+channel = 'debian'
+name = 'terminfo'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-xo-terminfo'

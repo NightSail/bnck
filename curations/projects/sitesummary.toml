@@ -1,0 +1,12 @@
+id = 'sitesummary'
+name = 'sitesummary'
+
+homepage = 'https://wiki.debian.org/DebianEdu/HowTo/SiteSummary'
+
+[[package]]
+channel = 'debian'
+name = 'sitesummary'
+
+[[package]]
+channel = 'debian'
+name = 'sitesummary-client'

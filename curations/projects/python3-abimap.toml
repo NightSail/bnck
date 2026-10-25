@@ -1,0 +1,8 @@
+id = 'python3-abimap'
+name = 'python3-abimap'
+
+homepage = 'https://github.com/ansasaki/abimap'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-abimap'

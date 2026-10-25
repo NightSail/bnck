@@ -1,0 +1,13 @@
+id = 'yaws'
+name = 'yaws'
+
+homepage = 'http://yaws.hyber.org'
+repository = 'https://github.com/erlyaws/yaws.git'
+
+[[package]]
+channel = 'debian'
+name = 'yaws'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaws'

@@ -1,0 +1,12 @@
+id = 'xfdesktop'
+name = 'xfdesktop'
+
+homepage = 'https://docs.xfce.org/xfce/xfdesktop/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfdesktop'
+
+[[package]]
+channel = 'debian'
+name = 'xfdesktop4'

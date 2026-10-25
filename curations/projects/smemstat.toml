@@ -1,0 +1,8 @@
+id = 'smemstat'
+name = 'smemstat'
+
+homepage = 'https://github.com/ColinIanKing/smemstat'
+
+[[package]]
+channel = 'debian'
+name = 'smemstat'

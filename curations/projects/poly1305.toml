@@ -1,0 +1,8 @@
+id = 'poly1305'
+name = 'poly1305'
+
+homepage = 'https://lib1305.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'poly1305'

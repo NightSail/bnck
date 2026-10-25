@@ -1,0 +1,8 @@
+id = 'seccure'
+name = 'seccure'
+
+homepage = 'http://point-at-infinity.org/seccure'
+
+[[package]]
+channel = 'debian'
+name = 'seccure'

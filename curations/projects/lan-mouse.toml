@@ -1,0 +1,8 @@
+id = 'lan-mouse'
+name = 'lan-mouse'
+
+homepage = 'https://github.com/feschber/lan-mouse'
+
+[[package]]
+channel = 'arch'
+name = 'lan-mouse'

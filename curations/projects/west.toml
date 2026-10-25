@@ -1,0 +1,12 @@
+id = 'west'
+name = 'west'
+
+repository = 'https://github.com/zephyrproject-rtos/west.git'
+
+[[package]]
+channel = 'debian'
+name = 'west'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/west'

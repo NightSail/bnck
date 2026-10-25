@@ -1,0 +1,8 @@
+id = 'chrome-export'
+name = 'chrome-export'
+
+homepage = 'https://github.com/bdesham/chrome-export'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chrome-export'

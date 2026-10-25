@@ -1,0 +1,6 @@
+id = 'hp-search-mac'
+name = 'hp-search-mac'
+
+[[package]]
+channel = 'debian'
+name = 'hp-search-mac'

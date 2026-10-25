@@ -1,0 +1,6 @@
+id = 'xfonts-utils'
+name = 'xfonts-utils'
+
+[[package]]
+channel = 'debian'
+name = 'xfonts-utils'

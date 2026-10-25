@@ -1,0 +1,8 @@
+id = 'inotify-hookable'
+name = 'inotify-hookable'
+
+homepage = 'https://metacpan.org/release/App-Inotify-Hookable'
+
+[[package]]
+channel = 'debian'
+name = 'inotify-hookable'

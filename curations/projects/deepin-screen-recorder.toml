@@ -1,0 +1,12 @@
+id = 'deepin-screen-recorder'
+name = 'deepin-screen-recorder'
+
+homepage = 'https://github.com/linuxdeepin/deepin-screen-recorder'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-screen-recorder'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-screen-recorder'

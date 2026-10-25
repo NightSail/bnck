@@ -1,0 +1,12 @@
+id = 'dieharder'
+name = 'dieharder'
+
+homepage = 'https://github.com/eddelbuettel/dieharder'
+
+[[package]]
+channel = 'debian'
+name = 'dieharder'
+
+[[package]]
+channel = 'fedora'
+name = 'dieharder'

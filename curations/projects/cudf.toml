@@ -1,0 +1,12 @@
+id = 'cudf'
+name = 'cudf'
+
+homepage = 'https://www.mancoosi.org/cudf'
+
+[[package]]
+channel = 'debian'
+name = 'cudf-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-cudf'

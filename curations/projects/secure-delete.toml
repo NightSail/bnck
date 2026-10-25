@@ -1,0 +1,8 @@
+id = 'secure-delete'
+name = 'secure-delete'
+
+homepage = 'https://www.thc.org'
+
+[[package]]
+channel = 'debian'
+name = 'secure-delete'

@@ -1,0 +1,12 @@
+id = 'jitterdebugger'
+name = 'jitterdebugger'
+
+homepage = 'https://github.com/igaw/jitterdebugger'
+
+[[package]]
+channel = 'debian'
+name = 'jitterdebugger'
+
+[[package]]
+channel = 'debian'
+name = 'jitterdebugger-utils'

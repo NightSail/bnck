@@ -1,0 +1,8 @@
+id = 'piping-server'
+name = 'piping-server'
+
+homepage = 'https://github.com/nwtgck/piping-server-rust'
+
+[[package]]
+channel = 'arch'
+name = 'piping-server'

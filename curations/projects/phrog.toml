@@ -1,0 +1,8 @@
+id = 'phrog'
+name = 'phrog'
+
+homepage = 'https://github.com/samcday/phrog'
+
+[[package]]
+channel = 'debian'
+name = 'phrog'

@@ -4,6 +4,10 @@ name = 'icoextract'
 homepage = 'https://github.com/jlu5/icoextract'
 
 [[package]]
+channel = 'arch'
+name = 'icoextract'
+
+[[package]]
 channel = 'debian'
 name = 'icoextract'
 

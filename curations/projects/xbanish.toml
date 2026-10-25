@@ -1,0 +1,12 @@
+id = 'xbanish'
+name = 'xbanish'
+
+homepage = 'https://github.com/jcs/xbanish'
+
+[[package]]
+channel = 'debian'
+name = 'xbanish'
+
+[[package]]
+channel = 'fedora'
+name = 'xbanish'

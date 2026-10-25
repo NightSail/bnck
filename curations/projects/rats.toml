@@ -1,0 +1,12 @@
+id = 'rats'
+name = 'rats'
+
+homepage = 'https://security.web.cern.ch/security/recommendations/en/codetools/rats.shtml'
+
+[[package]]
+channel = 'fedora'
+name = 'rats'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rats'

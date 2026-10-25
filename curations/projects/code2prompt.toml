@@ -1,0 +1,9 @@
+id = 'code2prompt'
+name = 'code2prompt'
+
+homepage = 'https://code2prompt.dev'
+repository = 'https://github.com/mufeedvh/code2prompt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/code2prompt'

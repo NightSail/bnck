@@ -1,0 +1,12 @@
+id = 'kallisto'
+name = 'kallisto'
+
+homepage = 'https://pachterlab.github.io/kallisto'
+
+[[package]]
+channel = 'debian'
+name = 'kallisto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kallisto'

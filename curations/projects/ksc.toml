@@ -1,0 +1,8 @@
+id = 'ksc'
+name = 'ksc'
+
+homepage = 'https://github.com/RedHatOfficial/ksc'
+
+[[package]]
+channel = 'fedora'
+name = 'ksc'

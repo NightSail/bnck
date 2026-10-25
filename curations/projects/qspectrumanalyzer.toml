@@ -1,0 +1,8 @@
+id = 'qspectrumanalyzer'
+name = 'qspectrumanalyzer'
+
+homepage = 'https://github.com/xmikos/qspectrumanalyzer'
+
+[[package]]
+channel = 'arch'
+name = 'qspectrumanalyzer'

@@ -4,5 +4,9 @@ name = 'mandown'
 repository = 'https://github.com/Titor8115/mandown'
 
 [[package]]
+channel = 'arch'
+name = 'mandown'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mandown'

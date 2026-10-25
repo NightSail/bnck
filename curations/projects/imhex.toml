@@ -1,0 +1,8 @@
+id = 'imhex'
+name = 'imhex'
+
+homepage = 'https://imhex.werwolv.net'
+
+[[package]]
+channel = 'fedora'
+name = 'imhex'

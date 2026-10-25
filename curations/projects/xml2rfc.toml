@@ -1,0 +1,9 @@
+id = 'xml2rfc'
+name = 'xml2rfc'
+
+homepage = 'https://xml2rfc.tools.ietf.org'
+repository = 'https://github.com/ietf-tools/xml2rfc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xml2rfc'

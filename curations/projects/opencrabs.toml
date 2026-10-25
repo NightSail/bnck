@@ -1,0 +1,9 @@
+id = 'opencrabs'
+name = 'opencrabs'
+
+homepage = 'https://opencrabs.com'
+repository = 'https://github.com/adolfousier/opencrabs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencrabs'

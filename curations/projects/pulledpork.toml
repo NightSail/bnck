@@ -1,0 +1,12 @@
+id = 'pulledpork'
+name = 'pulledpork'
+
+repository = 'https://github.com/shirkdog/pulledpork.git'
+
+[[package]]
+channel = 'fedora'
+name = 'pulledpork'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulledpork'

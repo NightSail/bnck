@@ -1,0 +1,12 @@
+id = 'kreversi'
+name = 'kreversi'
+
+homepage = 'https://apps.kde.org/kreversi'
+
+[[package]]
+channel = 'arch'
+name = 'kreversi'
+
+[[package]]
+channel = 'fedora'
+name = 'kreversi'

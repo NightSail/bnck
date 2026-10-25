@@ -1,0 +1,12 @@
+id = '2ping'
+name = '2ping'
+
+homepage = 'https://www.finnie.org/software/2ping'
+
+[[package]]
+channel = 'debian'
+name = '2ping'
+
+[[package]]
+channel = 'fedora'
+name = '2ping'

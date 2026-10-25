@@ -1,0 +1,8 @@
+id = 'dia2code'
+name = 'dia2code'
+
+homepage = 'https://sourceforge.net/projects/dia2code'
+
+[[package]]
+channel = 'debian'
+name = 'dia2code'

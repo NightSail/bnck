@@ -1,0 +1,8 @@
+id = 'two-ms'
+name = 'two-ms'
+
+repository = 'https://github.com/Checkmarx/2ms.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/two-ms'

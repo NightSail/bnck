@@ -1,0 +1,8 @@
+id = 'chiaki'
+name = 'chiaki'
+
+homepage = 'https://git.sr.ht/~thestr4ng3r/chiaki'
+
+[[package]]
+channel = 'debian'
+name = 'chiaki'

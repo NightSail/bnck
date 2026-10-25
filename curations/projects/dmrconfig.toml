@@ -1,0 +1,8 @@
+id = 'dmrconfig'
+name = 'dmrconfig'
+
+homepage = 'https://github.com/OpenRTX/dmrconfig'
+
+[[package]]
+channel = 'debian'
+name = 'dmrconfig'

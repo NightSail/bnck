@@ -1,0 +1,8 @@
+id = 'fcml'
+name = 'fcml'
+
+homepage = 'http://www.fcml-lib.com'
+
+[[package]]
+channel = 'debian'
+name = 'fcml'

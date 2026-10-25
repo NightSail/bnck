@@ -1,0 +1,8 @@
+id = 'apple-bom'
+name = 'apple-bom'
+
+homepage = 'https://crates.io/crates/apple-bom'
+
+[[package]]
+channel = 'fedora'
+name = 'apple-bom'

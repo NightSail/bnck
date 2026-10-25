@@ -1,0 +1,9 @@
+id = 'gnu-tar'
+name = 'gnu-tar'
+
+homepage = 'https://www.gnu.org/software/tar'
+repository = 'https://git.savannah.gnu.org/git/tar.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-tar'

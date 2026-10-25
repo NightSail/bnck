@@ -1,0 +1,8 @@
+id = 'cvsd'
+name = 'cvsd'
+
+homepage = 'https://arthurdejong.org/cvsd'
+
+[[package]]
+channel = 'debian'
+name = 'cvsd'

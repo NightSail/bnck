@@ -1,0 +1,8 @@
+id = 'jvmtop'
+name = 'jvmtop'
+
+homepage = 'https://github.com/patric-r/jvmtop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jvmtop'

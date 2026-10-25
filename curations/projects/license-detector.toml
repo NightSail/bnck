@@ -1,0 +1,8 @@
+id = 'license-detector'
+name = 'license-detector'
+
+homepage = 'https://github.com/go-enry/go-license-detector'
+
+[[package]]
+channel = 'debian'
+name = 'license-detector'

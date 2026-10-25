@@ -1,0 +1,52 @@
+id = 'exim'
+name = 'exim'
+
+homepage = 'https://exim.org'
+
+[[package]]
+channel = 'arch'
+name = 'exim'
+
+[[package]]
+channel = 'debian'
+name = 'exim4-base'
+
+[[package]]
+channel = 'debian'
+name = 'exim4-config'
+
+[[package]]
+channel = 'debian'
+name = 'exim4-daemon-heavy'
+
+[[package]]
+channel = 'debian'
+name = 'exim4-daemon-light'
+
+[[package]]
+channel = 'debian'
+name = 'exim4-daemon-mod'
+
+[[package]]
+channel = 'debian'
+name = 'exim4-dev'
+
+[[package]]
+channel = 'debian'
+name = 'eximon4'
+
+[[package]]
+channel = 'fedora'
+name = 'exim'
+
+[[package]]
+channel = 'fedora'
+name = 'exim-clamav'
+
+[[package]]
+channel = 'fedora'
+name = 'exim-mon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exim'

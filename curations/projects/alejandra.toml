@@ -1,0 +1,9 @@
+id = 'alejandra'
+name = 'alejandra'
+
+homepage = 'https://kamadorueda.com/alejandra'
+repository = 'https://github.com/kamadorueda/alejandra.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alejandra'

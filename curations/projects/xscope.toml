@@ -1,0 +1,8 @@
+id = 'xscope'
+name = 'xscope'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xscope'
+
+[[package]]
+channel = 'fedora'
+name = 'xscope'

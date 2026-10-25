@@ -1,0 +1,16 @@
+id = 'iaito'
+name = 'iaito'
+
+homepage = 'https://github.com/radareorg/iaito'
+
+[[package]]
+channel = 'arch'
+name = 'iaito'
+
+[[package]]
+channel = 'debian'
+name = 'iaito'
+
+[[package]]
+channel = 'fedora'
+name = 'iaito'

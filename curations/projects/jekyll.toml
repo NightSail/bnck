@@ -1,0 +1,16 @@
+id = 'jekyll'
+name = 'jekyll'
+
+homepage = 'https://github.com/jekyll/jekyll'
+
+[[package]]
+channel = 'arch'
+name = 'jekyll'
+
+[[package]]
+channel = 'debian'
+name = 'jekyll'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-jekyll'

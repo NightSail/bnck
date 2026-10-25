@@ -1,0 +1,16 @@
+id = 'f-droid'
+name = 'f-droid'
+
+homepage = 'https://f-droid.org'
+
+[[package]]
+channel = 'debian'
+name = 'fdroidserver'
+
+[[package]]
+channel = 'debian'
+name = 'sdkmanager'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fdroidserver'

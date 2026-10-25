@@ -1,0 +1,116 @@
+id = 'samba'
+name = 'samba'
+
+homepage = 'https://www.samba.org'
+
+[[package]]
+channel = 'arch'
+name = 'samba'
+
+[[package]]
+channel = 'arch'
+name = 'smbclient'
+
+[[package]]
+channel = 'debian'
+name = 'ctdb'
+
+[[package]]
+channel = 'debian'
+name = 'ldb-tools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-samba'
+
+[[package]]
+channel = 'debian'
+name = 'registry-tools'
+
+[[package]]
+channel = 'debian'
+name = 'samba'
+
+[[package]]
+channel = 'debian'
+name = 'samba-ad-dc'
+
+[[package]]
+channel = 'debian'
+name = 'samba-common-bin'
+
+[[package]]
+channel = 'debian'
+name = 'samba-testsuite'
+
+[[package]]
+channel = 'debian'
+name = 'smbclient'
+
+[[package]]
+channel = 'debian'
+name = 'tdb-tools'
+
+[[package]]
+channel = 'debian'
+name = 'winbind'
+
+[[package]]
+channel = 'fedora'
+name = 'ctdb'
+
+[[package]]
+channel = 'fedora'
+name = 'ldb-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'samba'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-client'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-common-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-dc'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-gpupdate'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-pidl'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-prometheus'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-test'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-winbind'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-winbind-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'samba-winexe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/samba'

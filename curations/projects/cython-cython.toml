@@ -1,0 +1,9 @@
+id = 'cython-cython'
+name = 'cython'
+
+homepage = 'https://cython.org'
+repository = 'https://github.com/cython/cython.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cython'

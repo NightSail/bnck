@@ -1,0 +1,8 @@
+id = 'openclaw-cli'
+name = 'openclaw-cli'
+
+homepage = 'https://openclaw.ai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openclaw-cli'

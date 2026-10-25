@@ -1,0 +1,8 @@
+id = 'python3-yappi'
+name = 'python3-yappi'
+
+homepage = 'https://github.com/sumerc/yappi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yappi'

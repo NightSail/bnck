@@ -1,0 +1,8 @@
+id = 'morserunner'
+name = 'morserunner'
+
+homepage = 'https://github.com/fritzsche/MorseRunner'
+
+[[package]]
+channel = 'debian'
+name = 'morserunner'

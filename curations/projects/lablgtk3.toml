@@ -1,0 +1,8 @@
+id = 'lablgtk3'
+name = 'lablgtk3'
+
+homepage = 'http://lablgtk.forge.ocamlcore.org'
+
+[[package]]
+channel = 'arch'
+name = 'lablgtk3'

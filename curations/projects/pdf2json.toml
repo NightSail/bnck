@@ -1,0 +1,8 @@
+id = 'pdf2json'
+name = 'pdf2json'
+
+homepage = 'https://github.com/flexpaper/pdf2json'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdf2json'

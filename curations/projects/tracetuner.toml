@@ -1,0 +1,8 @@
+id = 'tracetuner'
+name = 'tracetuner'
+
+homepage = 'https://sourceforge.net/projects/tracetuner'
+
+[[package]]
+channel = 'debian'
+name = 'tracetuner'

@@ -1,0 +1,16 @@
+id = 'thunar-volman'
+name = 'thunar-volman'
+
+homepage = 'https://docs.xfce.org/xfce/thunar/thunar-volman'
+
+[[package]]
+channel = 'arch'
+name = 'thunar-volman'
+
+[[package]]
+channel = 'debian'
+name = 'thunar-volman'
+
+[[package]]
+channel = 'fedora'
+name = 'thunar-volman'

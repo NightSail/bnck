@@ -1,0 +1,16 @@
+id = 'xchm'
+name = 'xchm'
+
+homepage = 'https://github.com/rzvncj/xCHM'
+
+[[package]]
+channel = 'arch'
+name = 'xchm'
+
+[[package]]
+channel = 'debian'
+name = 'xchm'
+
+[[package]]
+channel = 'fedora'
+name = 'xchm'

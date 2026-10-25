@@ -1,0 +1,8 @@
+id = 'read-it-later'
+name = 'read-it-later'
+
+homepage = 'https://gitlab.gnome.org/World/read-it-later'
+
+[[package]]
+channel = 'arch'
+name = 'read-it-later'

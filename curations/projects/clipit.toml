@@ -1,0 +1,12 @@
+id = 'clipit'
+name = 'clipit'
+
+homepage = 'https://github.com/CristianHenzel/ClipIt'
+
+[[package]]
+channel = 'debian'
+name = 'clipit'
+
+[[package]]
+channel = 'fedora'
+name = 'clipit'

@@ -1,0 +1,8 @@
+id = 'choqok'
+name = 'choqok'
+
+homepage = 'https://github.com/KDE/choqok'
+
+[[package]]
+channel = 'fedora'
+name = 'choqok'

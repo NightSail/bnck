@@ -1,0 +1,8 @@
+id = 'cinecli'
+name = 'cinecli'
+
+repository = 'https://github.com/eyeblech/cinecli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cinecli'

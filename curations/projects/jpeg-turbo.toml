@@ -1,0 +1,9 @@
+id = 'jpeg-turbo'
+name = 'jpeg-turbo'
+
+homepage = 'https://www.libjpeg-turbo.org'
+repository = 'https://github.com/libjpeg-turbo/libjpeg-turbo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpeg-turbo'

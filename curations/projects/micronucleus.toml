@@ -1,0 +1,12 @@
+id = 'micronucleus'
+name = 'micronucleus'
+
+homepage = 'https://github.com/micronucleus/micronucleus'
+
+[[package]]
+channel = 'arch'
+name = 'micronucleus'
+
+[[package]]
+channel = 'fedora'
+name = 'micronucleus'

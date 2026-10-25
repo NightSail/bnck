@@ -1,0 +1,8 @@
+id = 'shdoc'
+name = 'shdoc'
+
+homepage = 'https://github.com/reconquest/shdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'shdoc'

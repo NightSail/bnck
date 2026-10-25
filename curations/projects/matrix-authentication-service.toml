@@ -1,0 +1,8 @@
+id = 'matrix-authentication-service'
+name = 'matrix-authentication-service'
+
+homepage = 'https://github.com/element-hq/matrix-authentication-service'
+
+[[package]]
+channel = 'arch'
+name = 'matrix-authentication-service'

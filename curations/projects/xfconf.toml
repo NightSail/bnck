@@ -1,0 +1,12 @@
+id = 'xfconf'
+name = 'xfconf'
+
+homepage = 'https://docs.xfce.org/xfce/xfconf/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfconf'
+
+[[package]]
+channel = 'debian'
+name = 'xfconf'

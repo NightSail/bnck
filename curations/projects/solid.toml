@@ -1,0 +1,12 @@
+id = 'solid'
+name = 'solid'
+
+homepage = 'https://invent.kde.org/frameworks/solid'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5solid-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6solid-bin'

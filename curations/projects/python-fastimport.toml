@@ -1,0 +1,12 @@
+id = 'python-fastimport'
+name = 'python-fastimport'
+
+homepage = 'https://github.com/jelmer/python-fastimport'
+
+[[package]]
+channel = 'arch'
+name = 'python-fastimport'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fastimport'

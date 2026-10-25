@@ -1,0 +1,8 @@
+id = 'mustang-plug'
+name = 'mustang-plug'
+
+homepage = 'http://piorekf.org/plug'
+
+[[package]]
+channel = 'debian'
+name = 'mustang-plug'

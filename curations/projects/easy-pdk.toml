@@ -1,0 +1,8 @@
+id = 'easy-pdk'
+name = 'easy-pdk'
+
+homepage = 'https://github.com/free-pdk/easy-pdk-programmer-software'
+
+[[package]]
+channel = 'arch'
+name = 'easy-pdk'

@@ -1,0 +1,9 @@
+id = 'apache-spark'
+name = 'apache-spark'
+
+homepage = 'https://spark.apache.org'
+repository = 'https://github.com/apache/spark.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-spark'

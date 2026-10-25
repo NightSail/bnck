@@ -1,0 +1,8 @@
+id = 'uusi'
+name = 'uusi'
+
+homepage = 'https://github.com/berberman/uusi'
+
+[[package]]
+channel = 'arch'
+name = 'uusi'

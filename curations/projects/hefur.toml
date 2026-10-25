@@ -1,0 +1,8 @@
+id = 'hefur'
+name = 'hefur'
+
+homepage = 'https://github.com/abique/hefur'
+
+[[package]]
+channel = 'arch'
+name = 'hefur'

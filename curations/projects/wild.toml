@@ -1,0 +1,12 @@
+id = 'wild'
+name = 'wild'
+
+homepage = 'https://github.com/wild-linker/wild'
+
+[[package]]
+channel = 'arch'
+name = 'wild'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wild'

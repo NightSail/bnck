@@ -1,0 +1,12 @@
+id = 'prr'
+name = 'prr'
+
+repository = 'https://github.com/danobi/prr.git'
+
+[[package]]
+channel = 'debian'
+name = 'prr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prr'

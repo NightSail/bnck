@@ -1,0 +1,21 @@
+id = 'sslsplit'
+name = 'sslsplit'
+
+homepage = 'https://www.roe.ch/SSLsplit'
+repository = 'https://github.com/droe/sslsplit.git'
+
+[[package]]
+channel = 'arch'
+name = 'sslsplit'
+
+[[package]]
+channel = 'debian'
+name = 'sslsplit'
+
+[[package]]
+channel = 'fedora'
+name = 'sslsplit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sslsplit'

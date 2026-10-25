@@ -1,0 +1,8 @@
+id = 'webalizer'
+name = 'webalizer'
+
+homepage = 'http://www.mrunix.net/webalizer'
+
+[[package]]
+channel = 'fedora'
+name = 'webalizer'

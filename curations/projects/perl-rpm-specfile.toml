@@ -1,0 +1,8 @@
+id = 'perl-rpm-specfile'
+name = 'perl-RPM-Specfile'
+
+homepage = 'https://metacpan.org/release/RPM-Specfile'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-RPM-Specfile'

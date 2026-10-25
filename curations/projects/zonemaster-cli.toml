@@ -1,0 +1,8 @@
+id = 'zonemaster-cli'
+name = 'zonemaster-cli'
+
+homepage = 'https://zonemaster.net'
+
+[[package]]
+channel = 'debian'
+name = 'zonemaster-cli'

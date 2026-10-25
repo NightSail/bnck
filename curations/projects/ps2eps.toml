@@ -1,0 +1,12 @@
+id = 'ps2eps'
+name = 'ps2eps'
+
+homepage = 'https://github.com/roland-bless/ps2eps'
+
+[[package]]
+channel = 'debian'
+name = 'ps2eps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ps2eps'

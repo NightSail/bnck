@@ -1,0 +1,8 @@
+id = 'apngdis'
+name = 'apngdis'
+
+homepage = 'https://sourceforge.net/projects/apngdis'
+
+[[package]]
+channel = 'debian'
+name = 'apngdis'

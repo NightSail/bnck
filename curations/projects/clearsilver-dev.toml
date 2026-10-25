@@ -1,0 +1,8 @@
+id = 'clearsilver-dev'
+name = 'clearsilver-dev'
+
+homepage = 'http://www.clearsilver.net'
+
+[[package]]
+channel = 'debian'
+name = 'clearsilver-dev'

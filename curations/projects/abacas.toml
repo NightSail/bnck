@@ -1,0 +1,8 @@
+id = 'abacas'
+name = 'abacas'
+
+homepage = 'http://abacas.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'abacas'

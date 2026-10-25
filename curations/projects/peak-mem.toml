@@ -1,0 +1,8 @@
+id = 'peak-mem'
+name = 'peak-mem'
+
+homepage = 'https://git.sr.ht/~charmitro/peak-mem'
+
+[[package]]
+channel = 'debian'
+name = 'peak-mem'

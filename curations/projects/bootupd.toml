@@ -1,0 +1,8 @@
+id = 'bootupd'
+name = 'bootupd'
+
+homepage = 'https://github.com/coreos/bootupd'
+
+[[package]]
+channel = 'fedora'
+name = 'bootupd'

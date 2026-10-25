@@ -1,0 +1,12 @@
+id = 'python3-keep'
+name = 'python3-keep'
+
+homepage = 'https://github.com/orkohunter/keep'
+
+[[package]]
+channel = 'debian'
+name = 'python3-keep'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-keep'

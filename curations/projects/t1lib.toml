@@ -1,0 +1,8 @@
+id = 't1lib'
+name = 't1lib'
+
+homepage = 'https://www.t1lib.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/t1lib'

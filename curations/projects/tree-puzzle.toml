@@ -1,0 +1,12 @@
+id = 'tree-puzzle'
+name = 'tree-puzzle'
+
+homepage = 'http://www.tree-puzzle.de'
+
+[[package]]
+channel = 'debian'
+name = 'tree-ppuzzle'
+
+[[package]]
+channel = 'debian'
+name = 'tree-puzzle'

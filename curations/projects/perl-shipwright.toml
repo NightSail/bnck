@@ -1,0 +1,8 @@
+id = 'perl-shipwright'
+name = 'perl-Shipwright'
+
+homepage = 'https://metacpan.org/release/Shipwright'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Shipwright'

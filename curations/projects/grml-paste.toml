@@ -1,0 +1,8 @@
+id = 'grml-paste'
+name = 'grml-paste'
+
+homepage = 'https://github.com/grml/grml-paste'
+
+[[package]]
+channel = 'debian'
+name = 'grml-paste'

@@ -1,0 +1,8 @@
+id = 'fauna-shell'
+name = 'fauna-shell'
+
+homepage = 'https://fauna.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fauna-shell'

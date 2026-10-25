@@ -1,0 +1,8 @@
+id = 'paraview-catalyst'
+name = 'paraview-catalyst'
+
+homepage = 'https://gitlab.kitware.com/paraview/catalyst'
+
+[[package]]
+channel = 'arch'
+name = 'paraview-catalyst'

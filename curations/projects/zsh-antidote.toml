@@ -1,0 +1,8 @@
+id = 'zsh-antidote'
+name = 'zsh-antidote'
+
+homepage = 'https://github.com/mattmc3/antidote'
+
+[[package]]
+channel = 'debian'
+name = 'zsh-antidote'

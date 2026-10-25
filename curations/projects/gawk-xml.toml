@@ -1,0 +1,8 @@
+id = 'gawk-xml'
+name = 'gawk-xml'
+
+homepage = 'https://sourceforge.net/projects/gawkextlib'
+
+[[package]]
+channel = 'fedora'
+name = 'gawk-xml'

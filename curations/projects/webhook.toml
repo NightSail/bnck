@@ -1,0 +1,16 @@
+id = 'webhook'
+name = 'webhook'
+
+repository = 'https://github.com/adnanh/webhook.git'
+
+[[package]]
+channel = 'arch'
+name = 'webhook'
+
+[[package]]
+channel = 'debian'
+name = 'webhook'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webhook'

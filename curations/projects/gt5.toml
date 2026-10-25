@@ -1,0 +1,12 @@
+id = 'gt5'
+name = 'gt5'
+
+homepage = 'https://launchpad.net/gt5'
+
+[[package]]
+channel = 'debian'
+name = 'gt5'
+
+[[package]]
+channel = 'fedora'
+name = 'gt5'

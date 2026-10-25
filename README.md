@@ -78,7 +78,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development checks, acquisition jobs,
 
 ## Acknowledgements
 
-Curations are seeded and periodically extended from [Terminal Trove](https://terminaltrove.com/) and [tldr pages](https://tldr.sh/) discovery hints. Automatic ingestion requires cross-checked URL and package or executable evidence; reviewed rejections are recorded in `curations/rejections.toml`.
+Curations are seeded from [Terminal Trove](https://terminaltrove.com/) and [tldr pages](https://tldr.sh/) discovery hints, then extended with package metadata acquired from distribution channels and language registries. Automatic hint ingestion requires cross-checked URL and package or executable evidence; reviewed rejections are recorded in `curations/rejections.toml`.
 
 ## License
 

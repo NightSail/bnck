@@ -1,0 +1,8 @@
+id = 'libiio-utils'
+name = 'libiio-utils'
+
+homepage = 'https://analogdevicesinc.github.io/libiio'
+
+[[package]]
+channel = 'fedora'
+name = 'libiio-utils'

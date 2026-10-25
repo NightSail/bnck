@@ -1,0 +1,28 @@
+id = 'commoncpp'
+name = 'commoncpp'
+
+homepage = 'https://www.gnu.org/software/commoncpp'
+
+[[package]]
+channel = 'debian'
+name = 'libucommon-dev'
+
+[[package]]
+channel = 'debian'
+name = 'ucommon-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'commoncpp2-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'ucommon-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'ucommon-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ucommon'

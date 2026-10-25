@@ -1,0 +1,8 @@
+id = 'omniwm'
+name = 'omniwm'
+
+homepage = 'https://omniwm.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/omniwm'

@@ -1,0 +1,16 @@
+id = 'msktutil'
+name = 'msktutil'
+
+homepage = 'https://github.com/msktutil/msktutil'
+
+[[package]]
+channel = 'debian'
+name = 'msktutil'
+
+[[package]]
+channel = 'fedora'
+name = 'msktutil'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msktutil'

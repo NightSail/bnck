@@ -1,0 +1,6 @@
+id = 'tolua-devel'
+name = 'tolua++-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'tolua++-devel'

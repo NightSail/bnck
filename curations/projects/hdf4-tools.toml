@@ -1,0 +1,8 @@
+id = 'hdf4-tools'
+name = 'hdf4-tools'
+
+homepage = 'http://www.hdfgroup.com'
+
+[[package]]
+channel = 'debian'
+name = 'hdf4-tools'

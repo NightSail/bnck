@@ -1,0 +1,8 @@
+id = 'pompem'
+name = 'pompem'
+
+homepage = 'https://github.com/rfunix/Pompem'
+
+[[package]]
+channel = 'debian'
+name = 'pompem'

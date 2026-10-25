@@ -1,0 +1,16 @@
+id = 'kbd'
+name = 'kbd'
+
+homepage = 'http://www.kbd-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'kbd'
+
+[[package]]
+channel = 'debian'
+name = 'kbd'
+
+[[package]]
+channel = 'fedora'
+name = 'kbd'

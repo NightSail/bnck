@@ -1,0 +1,16 @@
+id = 'kig'
+name = 'kig'
+
+homepage = 'https://apps.kde.org/kig'
+
+[[package]]
+channel = 'arch'
+name = 'kig'
+
+[[package]]
+channel = 'debian'
+name = 'kig'
+
+[[package]]
+channel = 'fedora'
+name = 'kig'

@@ -1,0 +1,8 @@
+id = 'nitrokey-app2'
+name = 'nitrokey-app2'
+
+homepage = 'https://docs.nitrokey.com/software/nk-app2'
+
+[[package]]
+channel = 'debian'
+name = 'nitrokey-app2'

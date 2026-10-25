@@ -1,0 +1,12 @@
+id = 'python3-hl7'
+name = 'python3-hl7'
+
+homepage = 'https://github.com/johnpaulett/python-hl7'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hl7'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hl7'

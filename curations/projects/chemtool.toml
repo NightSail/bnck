@@ -1,0 +1,12 @@
+id = 'chemtool'
+name = 'chemtool'
+
+homepage = 'http://ruby.chemie.uni-freiburg.de/~martin/chemtool'
+
+[[package]]
+channel = 'debian'
+name = 'chemtool'
+
+[[package]]
+channel = 'fedora'
+name = 'chemtool'

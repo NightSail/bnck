@@ -1,0 +1,8 @@
+id = 'xclogparser'
+name = 'xclogparser'
+
+homepage = 'https://github.com/MobileNativeFoundation/XCLogParser'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xclogparser'

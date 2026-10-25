@@ -1,0 +1,8 @@
+id = 'python3-nabu'
+name = 'python3-nabu'
+
+homepage = 'https://gitlab.esrf.fr/tomotools/nabu'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nabu'

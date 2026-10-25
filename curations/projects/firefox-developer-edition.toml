@@ -1,0 +1,8 @@
+id = 'firefox-developer-edition'
+name = 'firefox-developer-edition'
+
+homepage = 'https://www.mozilla.org/firefox/developer'
+
+[[package]]
+channel = 'arch'
+name = 'firefox-developer-edition'

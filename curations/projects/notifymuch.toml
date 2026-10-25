@@ -1,0 +1,8 @@
+id = 'notifymuch'
+name = 'notifymuch'
+
+homepage = 'https://github.com/kspi/notifymuch'
+
+[[package]]
+channel = 'debian'
+name = 'notifymuch'

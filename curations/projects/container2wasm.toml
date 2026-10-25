@@ -1,0 +1,9 @@
+id = 'container2wasm'
+name = 'container2wasm'
+
+homepage = 'https://ktock.github.io/container2wasm-demo'
+repository = 'https://github.com/container2wasm/container2wasm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/container2wasm'

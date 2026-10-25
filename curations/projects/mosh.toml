@@ -1,0 +1,21 @@
+id = 'mosh'
+name = 'mosh'
+
+homepage = 'https://mosh.org'
+repository = 'https://github.com/mobile-shell/mosh.git'
+
+[[package]]
+channel = 'arch'
+name = 'mosh'
+
+[[package]]
+channel = 'debian'
+name = 'mosh'
+
+[[package]]
+channel = 'fedora'
+name = 'mosh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mosh'

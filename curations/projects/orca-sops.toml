@@ -1,0 +1,8 @@
+id = 'orca-sops'
+name = 'orca-sops'
+
+homepage = 'https://github.com/chrys87/simple-orca-plugin-system'
+
+[[package]]
+channel = 'debian'
+name = 'orca-sops'

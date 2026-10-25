@@ -1,0 +1,8 @@
+id = 'gap-scscp'
+name = 'gap-scscp'
+
+homepage = 'https://www.gap-system.org/Packages/scscp.html'
+
+[[package]]
+channel = 'debian'
+name = 'gap-scscp'

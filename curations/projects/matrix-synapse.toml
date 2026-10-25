@@ -1,0 +1,16 @@
+id = 'matrix-synapse'
+name = 'matrix-synapse'
+
+homepage = 'https://github.com/element-hq/synapse'
+
+[[package]]
+channel = 'arch'
+name = 'matrix-synapse'
+
+[[package]]
+channel = 'debian'
+name = 'matrix-synapse'
+
+[[package]]
+channel = 'fedora'
+name = 'matrix-synapse'

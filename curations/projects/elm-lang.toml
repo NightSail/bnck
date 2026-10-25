@@ -1,0 +1,16 @@
+id = 'elm-lang'
+name = 'elm-lang'
+
+homepage = 'https://elm-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'elm-compiler'
+
+[[package]]
+channel = 'debian'
+name = 'elm-compiler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elm'

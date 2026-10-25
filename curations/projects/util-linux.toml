@@ -1,0 +1,60 @@
+id = 'util-linux'
+name = 'util-linux'
+
+homepage = 'https://github.com/util-linux/util-linux'
+
+[[package]]
+channel = 'arch'
+name = 'util-linux'
+
+[[package]]
+channel = 'debian'
+name = 'bsdextrautils'
+
+[[package]]
+channel = 'debian'
+name = 'bsdutils'
+
+[[package]]
+channel = 'debian'
+name = 'eject'
+
+[[package]]
+channel = 'debian'
+name = 'fdisk'
+
+[[package]]
+channel = 'debian'
+name = 'lastlog2'
+
+[[package]]
+channel = 'debian'
+name = 'login'
+
+[[package]]
+channel = 'debian'
+name = 'mount'
+
+[[package]]
+channel = 'debian'
+name = 'rfkill'
+
+[[package]]
+channel = 'debian'
+name = 'util-linux'
+
+[[package]]
+channel = 'debian'
+name = 'util-linux-extra'
+
+[[package]]
+channel = 'debian'
+name = 'uuid-runtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-getopt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/util-linux'

@@ -1,0 +1,8 @@
+id = 'ttyrec'
+name = 'ttyrec'
+
+homepage = 'http://0xcc.net/ttyrec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttyrec'

@@ -1,0 +1,9 @@
+id = 'wails'
+name = 'wails'
+
+homepage = 'https://wails.io'
+repository = 'https://github.com/wailsapp/wails.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wails'

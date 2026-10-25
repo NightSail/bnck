@@ -1,0 +1,8 @@
+id = 'libtrace'
+name = 'libtrace'
+
+homepage = 'https://github.com/LibtraceTeam/libtrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtrace'

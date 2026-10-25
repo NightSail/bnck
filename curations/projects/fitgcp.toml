@@ -1,0 +1,8 @@
+id = 'fitgcp'
+name = 'fitgcp'
+
+homepage = 'http://sourceforge.net/projects/fitgcp'
+
+[[package]]
+channel = 'debian'
+name = 'fitgcp'

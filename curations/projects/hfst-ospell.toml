@@ -1,0 +1,8 @@
+id = 'hfst-ospell'
+name = 'hfst-ospell'
+
+homepage = 'https://github.com/hfst/hfst-ospell'
+
+[[package]]
+channel = 'debian'
+name = 'hfst-ospell'

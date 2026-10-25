@@ -1,0 +1,8 @@
+id = 'libgo-perl'
+name = 'libgo-perl'
+
+homepage = 'http://geneontology.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libgo-perl'

@@ -1,0 +1,24 @@
+id = 'mutter'
+name = 'mutter'
+
+homepage = 'https://gitlab.gnome.org/GNOME/mutter'
+
+[[package]]
+channel = 'arch'
+name = 'mutter'
+
+[[package]]
+channel = 'arch'
+name = 'mutter46'
+
+[[package]]
+channel = 'debian'
+name = 'mutter'
+
+[[package]]
+channel = 'debian'
+name = 'mutter-common'
+
+[[package]]
+channel = 'debian'
+name = 'mutter-common-bin'

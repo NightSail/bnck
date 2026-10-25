@@ -1,0 +1,12 @@
+id = 'planets'
+name = 'planets'
+
+homepage = 'https://ocaml.org/p/planets/latest'
+
+[[package]]
+channel = 'debian'
+name = 'planets'
+
+[[package]]
+channel = 'fedora'
+name = 'planets'

@@ -1,0 +1,8 @@
+id = 'git-series'
+name = 'git-series'
+
+homepage = 'https://github.com/git-series/git-series'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-series'

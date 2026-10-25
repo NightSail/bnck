@@ -1,0 +1,8 @@
+id = 'quasi88'
+name = 'quasi88'
+
+homepage = 'https://www.eonet.ne.jp/~showtime/quasi88'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quasi88'

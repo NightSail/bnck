@@ -1,0 +1,16 @@
+id = 'gnome-commander'
+name = 'gnome-commander'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/gnome-commander'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-commander'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-commander'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-commander'

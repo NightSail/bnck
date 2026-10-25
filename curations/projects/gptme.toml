@@ -1,0 +1,9 @@
+id = 'gptme'
+name = 'gptme'
+
+homepage = 'https://gptme.org/docs'
+repository = 'https://github.com/ErikBjare/gptme.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gptme'

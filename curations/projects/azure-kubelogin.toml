@@ -1,0 +1,8 @@
+id = 'azure-kubelogin'
+name = 'azure-kubelogin'
+
+homepage = 'https://github.com/Azure/kubelogin'
+
+[[package]]
+channel = 'arch'
+name = 'azure-kubelogin'

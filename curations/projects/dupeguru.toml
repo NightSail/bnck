@@ -1,0 +1,8 @@
+id = 'dupeguru'
+name = 'dupeguru'
+
+homepage = 'https://dupeguru.voltaicideas.net'
+
+[[package]]
+channel = 'debian'
+name = 'dupeguru'

@@ -1,0 +1,12 @@
+id = 'swayosd'
+name = 'swayosd'
+
+homepage = 'https://github.com/ErikReider/SwayOSD'
+
+[[package]]
+channel = 'arch'
+name = 'swayosd'
+
+[[package]]
+channel = 'debian'
+name = 'swayosd'

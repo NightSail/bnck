@@ -1,0 +1,8 @@
+id = 'aprsd'
+name = 'aprsd'
+
+homepage = 'http://sourceforge.net/projects/aprsd'
+
+[[package]]
+channel = 'fedora'
+name = 'aprsd'

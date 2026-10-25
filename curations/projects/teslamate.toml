@@ -1,0 +1,8 @@
+id = 'teslamate'
+name = 'teslamate'
+
+homepage = 'https://docs.teslamate.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/teslamate'

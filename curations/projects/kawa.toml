@@ -1,0 +1,12 @@
+id = 'kawa'
+name = 'kawa'
+
+homepage = 'https://www.gnu.org/software/kawa'
+
+[[package]]
+channel = 'fedora'
+name = 'kawa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kawa'

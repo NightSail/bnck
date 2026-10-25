@@ -1,0 +1,6 @@
+id = 'fdpowermon'
+name = 'fdpowermon'
+
+[[package]]
+channel = 'debian'
+name = 'fdpowermon'

@@ -1,0 +1,20 @@
+id = 'macchanger'
+name = 'macchanger'
+
+homepage = 'https://github.com/shilch/macchanger'
+
+[[package]]
+channel = 'arch'
+name = 'macchanger'
+
+[[package]]
+channel = 'debian'
+name = 'macchanger'
+
+[[package]]
+channel = 'fedora'
+name = 'macchanger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macchanger'

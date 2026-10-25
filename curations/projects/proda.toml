@@ -1,0 +1,8 @@
+id = 'proda'
+name = 'proda'
+
+homepage = 'http://proda.stanford.edu'
+
+[[package]]
+channel = 'debian'
+name = 'proda'

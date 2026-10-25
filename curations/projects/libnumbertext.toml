@@ -1,0 +1,12 @@
+id = 'libnumbertext'
+name = 'libnumbertext'
+
+homepage = 'https://github.com/Numbertext/libnumbertext'
+
+[[package]]
+channel = 'arch'
+name = 'libnumbertext'
+
+[[package]]
+channel = 'fedora'
+name = 'libnumbertext'

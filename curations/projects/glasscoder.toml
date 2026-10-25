@@ -1,0 +1,12 @@
+id = 'glasscoder'
+name = 'glasscoder'
+
+homepage = 'https://github.com/ElvishArtisan/GlassCoder'
+
+[[package]]
+channel = 'debian'
+name = 'glasscoder'
+
+[[package]]
+channel = 'debian'
+name = 'glassgui'

@@ -4,5 +4,17 @@ name = 'luajit'
 homepage = 'https://luajit.org/luajit.html'
 
 [[package]]
+channel = 'arch'
+name = 'luajit'
+
+[[package]]
+channel = 'debian'
+name = 'luajit'
+
+[[package]]
+channel = 'fedora'
+name = 'luajit'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/luajit'

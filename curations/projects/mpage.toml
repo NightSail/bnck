@@ -1,0 +1,12 @@
+id = 'mpage'
+name = 'mpage'
+
+homepage = 'https://mesa.nl/pub/mpage/README'
+
+[[package]]
+channel = 'fedora'
+name = 'mpage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpage'

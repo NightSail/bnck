@@ -1,0 +1,16 @@
+id = 'kgraphviewer'
+name = 'kgraphviewer'
+
+homepage = 'https://apps.kde.org/kgraphviewer'
+
+[[package]]
+channel = 'arch'
+name = 'kgraphviewer'
+
+[[package]]
+channel = 'debian'
+name = 'kgraphviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'kgraphviewer'

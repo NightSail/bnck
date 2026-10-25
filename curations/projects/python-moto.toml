@@ -1,0 +1,8 @@
+id = 'python-moto'
+name = 'python-moto'
+
+homepage = 'https://github.com/spulec/moto'
+
+[[package]]
+channel = 'arch'
+name = 'python-moto'

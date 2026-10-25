@@ -1,0 +1,20 @@
+id = 'yamllint'
+name = 'yamllint'
+
+repository = 'https://github.com/adrienverge/yamllint.git'
+
+[[package]]
+channel = 'arch'
+name = 'yamllint'
+
+[[package]]
+channel = 'debian'
+name = 'yamllint'
+
+[[package]]
+channel = 'fedora'
+name = 'yamllint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yamllint'

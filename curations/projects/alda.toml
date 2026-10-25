@@ -1,0 +1,8 @@
+id = 'alda'
+name = 'alda'
+
+homepage = 'https://alda.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alda'

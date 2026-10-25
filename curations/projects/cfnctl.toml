@@ -1,0 +1,8 @@
+id = 'cfnctl'
+name = 'cfnctl'
+
+repository = 'https://github.com/rogerwelin/cfnctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfnctl'

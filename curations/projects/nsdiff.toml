@@ -1,0 +1,12 @@
+id = 'nsdiff'
+name = 'nsdiff'
+
+homepage = 'https://dotat.at/prog/nsdiff'
+
+[[package]]
+channel = 'debian'
+name = 'nsdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'nsdiff'

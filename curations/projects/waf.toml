@@ -1,0 +1,12 @@
+id = 'waf'
+name = 'waf'
+
+homepage = 'http://waf.io'
+
+[[package]]
+channel = 'arch'
+name = 'waf'
+
+[[package]]
+channel = 'fedora'
+name = 'waf'

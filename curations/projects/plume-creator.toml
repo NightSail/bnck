@@ -1,0 +1,8 @@
+id = 'plume-creator'
+name = 'plume-creator'
+
+homepage = 'http://www.plume-creator.eu'
+
+[[package]]
+channel = 'debian'
+name = 'plume-creator'

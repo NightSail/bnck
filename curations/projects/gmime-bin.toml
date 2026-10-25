@@ -1,0 +1,8 @@
+id = 'gmime-bin'
+name = 'gmime-bin'
+
+homepage = 'https://github.com/jstedfast/gmime'
+
+[[package]]
+channel = 'debian'
+name = 'gmime-bin'

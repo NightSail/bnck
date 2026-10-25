@@ -1,0 +1,6 @@
+id = 'basket'
+name = 'basket'
+
+[[package]]
+channel = 'debian'
+name = 'basket'

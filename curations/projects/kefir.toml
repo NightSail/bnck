@@ -1,0 +1,8 @@
+id = 'kefir'
+name = 'kefir'
+
+homepage = 'https://kefir.protopopov.lv'
+
+[[package]]
+channel = 'fedora'
+name = 'kefir'

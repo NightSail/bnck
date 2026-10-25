@@ -1,0 +1,8 @@
+id = 'python3-xypattern'
+name = 'python3-xypattern'
+
+homepage = 'https://github.com/CPrescher/xypattern'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xypattern'

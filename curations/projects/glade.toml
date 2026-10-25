@@ -1,0 +1,20 @@
+id = 'glade'
+name = 'glade'
+
+homepage = 'https://glade.gnome.org'
+
+[[package]]
+channel = 'arch'
+name = 'glade'
+
+[[package]]
+channel = 'debian'
+name = 'glade'
+
+[[package]]
+channel = 'fedora'
+name = 'glade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glade'

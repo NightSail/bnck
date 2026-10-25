@@ -1,0 +1,20 @@
+id = 'proxytunnel'
+name = 'proxytunnel'
+
+homepage = 'https://github.com/proxytunnel/proxytunnel'
+
+[[package]]
+channel = 'arch'
+name = 'proxytunnel'
+
+[[package]]
+channel = 'debian'
+name = 'proxytunnel'
+
+[[package]]
+channel = 'fedora'
+name = 'proxytunnel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proxytunnel'

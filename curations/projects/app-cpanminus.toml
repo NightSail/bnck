@@ -1,0 +1,12 @@
+id = 'app-cpanminus'
+name = 'App-cpanminus'
+
+homepage = 'https://metacpan.org/release/App-cpanminus'
+
+[[package]]
+channel = 'debian'
+name = 'cpanminus'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-cpanminus'

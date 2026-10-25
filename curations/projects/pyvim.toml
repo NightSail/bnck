@@ -1,0 +1,8 @@
+id = 'pyvim'
+name = 'pyvim'
+
+homepage = 'https://github.com/prompt-toolkit/pyvim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyvim'

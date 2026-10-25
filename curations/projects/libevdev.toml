@@ -1,0 +1,20 @@
+id = 'libevdev'
+name = 'libevdev'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/libevdev'
+
+[[package]]
+channel = 'arch'
+name = 'libevdev'
+
+[[package]]
+channel = 'debian'
+name = 'libevdev-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libevdev-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libevdev'

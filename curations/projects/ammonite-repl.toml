@@ -1,0 +1,8 @@
+id = 'ammonite-repl'
+name = 'ammonite-repl'
+
+homepage = 'https://ammonite.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ammonite-repl'

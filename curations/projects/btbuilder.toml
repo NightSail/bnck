@@ -1,0 +1,8 @@
+id = 'btbuilder'
+name = 'btbuilder'
+
+homepage = 'http://www.identicalsoftware.com/btbuilder'
+
+[[package]]
+channel = 'fedora'
+name = 'btbuilder'

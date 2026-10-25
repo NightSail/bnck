@@ -1,0 +1,8 @@
+id = 'mogui'
+name = 'mogui'
+
+homepage = 'https://github.com/cea-hpc/mogui'
+
+[[package]]
+channel = 'fedora'
+name = 'mogui'

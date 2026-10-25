@@ -1,0 +1,8 @@
+id = 'pnc'
+name = 'pnc'
+
+homepage = 'https://git.sr.ht/~anjan/pnc'
+
+[[package]]
+channel = 'debian'
+name = 'pnc'

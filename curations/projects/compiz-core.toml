@@ -1,0 +1,16 @@
+id = 'compiz-core'
+name = 'compiz-core'
+
+homepage = 'https://gitlab.com/compiz/compiz-core'
+
+[[package]]
+channel = 'debian'
+name = 'compiz-core'
+
+[[package]]
+channel = 'debian'
+name = 'compiz-gnome'
+
+[[package]]
+channel = 'fedora'
+name = 'compiz'

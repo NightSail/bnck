@@ -1,0 +1,16 @@
+id = 'gnulib'
+name = 'gnulib'
+
+homepage = 'https://www.gnu.org/software/gnulib'
+
+[[package]]
+channel = 'debian'
+name = 'gnulib'
+
+[[package]]
+channel = 'fedora'
+name = 'git-merge-changelog'
+
+[[package]]
+channel = 'fedora'
+name = 'gnulib-devel'

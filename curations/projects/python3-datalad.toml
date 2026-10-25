@@ -1,0 +1,8 @@
+id = 'python3-datalad'
+name = 'python3-datalad'
+
+homepage = 'https://github.com/datalad/datalad'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-datalad'

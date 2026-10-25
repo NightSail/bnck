@@ -1,0 +1,8 @@
+id = 'ugit'
+name = 'ugit'
+
+homepage = 'https://bhupesh.me/undo-your-last-git-mistake-with-ugit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ugit'

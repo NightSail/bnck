@@ -1,0 +1,6 @@
+id = 'xwpe'
+name = 'xwpe'
+
+[[package]]
+channel = 'debian'
+name = 'xwpe'

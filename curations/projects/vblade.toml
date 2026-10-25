@@ -1,0 +1,8 @@
+id = 'vblade'
+name = 'vblade'
+
+homepage = 'https://github.com/OpenAoE/vblade'
+
+[[package]]
+channel = 'debian'
+name = 'vblade'

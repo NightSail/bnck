@@ -1,0 +1,8 @@
+id = 'divxcomp'
+name = 'divxcomp'
+
+homepage = 'http://users.telenet.be/cr50624/projects.html'
+
+[[package]]
+channel = 'debian'
+name = 'divxcomp'

@@ -1,0 +1,12 @@
+id = 'docutils-docutils'
+name = 'docutils'
+
+homepage = 'http://docutils.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'python-docutils'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-docutils'

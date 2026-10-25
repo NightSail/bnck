@@ -1,0 +1,8 @@
+id = 'sasm'
+name = 'sasm'
+
+homepage = 'https://github.com/Dman95/SASM'
+
+[[package]]
+channel = 'debian'
+name = 'sasm'

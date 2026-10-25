@@ -1,0 +1,8 @@
+id = 'powermanga'
+name = 'powermanga'
+
+homepage = 'http://linux.tlk.fr/games/Powermanga'
+
+[[package]]
+channel = 'fedora'
+name = 'powermanga'

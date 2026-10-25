@@ -1,0 +1,8 @@
+id = 'dumptorrent'
+name = 'dumptorrent'
+
+homepage = 'https://github.com/tomcdj71/dumptorrent'
+
+[[package]]
+channel = 'arch'
+name = 'dumptorrent'

@@ -1,0 +1,21 @@
+id = 'mairix'
+name = 'mairix'
+
+homepage = 'http://www.rc0.org.uk/mairix'
+repository = 'https://github.com/vandry/mairix.git'
+
+[[package]]
+channel = 'arch'
+name = 'mairix'
+
+[[package]]
+channel = 'debian'
+name = 'mairix'
+
+[[package]]
+channel = 'fedora'
+name = 'mairix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mairix'

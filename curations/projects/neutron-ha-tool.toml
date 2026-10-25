@@ -1,0 +1,8 @@
+id = 'neutron-ha-tool'
+name = 'neutron-ha-tool'
+
+homepage = 'https://salsa.debian.org/openstack-team/services/neutron-ha-tool'
+
+[[package]]
+channel = 'debian'
+name = 'neutron-ha-tool'

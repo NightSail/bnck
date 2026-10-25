@@ -1,0 +1,8 @@
+id = 'ruby-oauth'
+name = 'ruby-oauth'
+
+homepage = 'https://github.com/oauth-xx/oauth-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-oauth'

@@ -1,0 +1,8 @@
+id = 'pantheon-tasks'
+name = 'pantheon-tasks'
+
+homepage = 'https://github.com/elementary/tasks'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-tasks'

@@ -1,0 +1,12 @@
+id = 'libmawk'
+name = 'libmawk'
+
+homepage = 'http://repo.hu/projects/libmawk'
+
+[[package]]
+channel = 'debian'
+name = 'libmawk1t64'
+
+[[package]]
+channel = 'fedora'
+name = 'libmawk'

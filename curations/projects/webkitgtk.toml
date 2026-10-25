@@ -1,0 +1,24 @@
+id = 'webkitgtk'
+name = 'webkitgtk'
+
+homepage = 'https://webkitgtk.org'
+
+[[package]]
+channel = 'arch'
+name = 'webkitgtk-6.0'
+
+[[package]]
+channel = 'debian'
+name = 'libjavascriptcoregtk-bin'
+
+[[package]]
+channel = 'debian'
+name = 'webkitgtk-webdriver'
+
+[[package]]
+channel = 'fedora'
+name = 'webkitgtk6.0'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webkitgtk'

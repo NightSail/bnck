@@ -1,0 +1,8 @@
+id = 'slice'
+name = 'slice'
+
+homepage = 'https://github.com/thewml/website-meta-language/tree/master/src/wml_backend/p9_slice'
+
+[[package]]
+channel = 'debian'
+name = 'slice'

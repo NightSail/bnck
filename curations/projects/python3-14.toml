@@ -1,0 +1,34 @@
+id = 'python3-14'
+name = 'python3.14'
+
+[[package]]
+channel = 'debian'
+name = 'idle-python3.14'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3.14-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3.14-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3.14'
+
+[[package]]
+channel = 'debian'
+name = 'python3.14-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'python3.14-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3.14-minimal'
+
+[[package]]
+channel = 'debian'
+name = 'python3.14-nopie'

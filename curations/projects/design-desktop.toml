@@ -1,0 +1,8 @@
+id = 'design-desktop'
+name = 'design-desktop'
+
+homepage = 'https://wiki.debian.org/Design'
+
+[[package]]
+channel = 'debian'
+name = 'design-desktop'

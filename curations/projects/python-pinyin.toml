@@ -1,0 +1,12 @@
+id = 'python-pinyin'
+name = 'python-pinyin'
+
+homepage = 'https://github.com/mozillazg/python-pinyin'
+
+[[package]]
+channel = 'arch'
+name = 'pypinyin'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pypinyin'

@@ -1,0 +1,8 @@
+id = 'python3-totpcgi'
+name = 'python3-totpcgi'
+
+homepage = 'https://github.com/mricon/totp-cgi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-totpcgi'

@@ -1,0 +1,12 @@
+id = 'fedpkg'
+name = 'fedpkg'
+
+homepage = 'https://pagure.io/fedpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'fedpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'fedpkg-stage'

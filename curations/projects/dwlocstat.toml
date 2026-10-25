@@ -1,0 +1,8 @@
+id = 'dwlocstat'
+name = 'dwlocstat'
+
+homepage = 'https://github.com/pmachata/dwlocstat'
+
+[[package]]
+channel = 'fedora'
+name = 'dwlocstat'

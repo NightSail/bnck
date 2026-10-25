@@ -1,0 +1,8 @@
+id = '4th'
+name = '4th'
+
+homepage = 'https://thebeez.home.xs4all.nl/4tH'
+
+[[package]]
+channel = 'fedora'
+name = '4th'

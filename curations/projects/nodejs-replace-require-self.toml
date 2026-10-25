@@ -1,0 +1,8 @@
+id = 'nodejs-replace-require-self'
+name = 'nodejs-replace-require-self'
+
+homepage = 'https://github.com/kemitchell/replace-require-self.js.git'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-replace-require-self'

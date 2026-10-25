@@ -1,0 +1,12 @@
+id = 'jupyterlab'
+name = 'jupyterlab'
+
+homepage = 'https://github.com/jupyterlab/jupyterlab'
+
+[[package]]
+channel = 'arch'
+name = 'jupyterlab'
+
+[[package]]
+channel = 'debian'
+name = 'jupyterlab'

@@ -1,0 +1,17 @@
+id = 'glbinding'
+name = 'glbinding'
+
+homepage = 'http://www.glbinding.org'
+repository = 'https://github.com/cginternals/glbinding.git'
+
+[[package]]
+channel = 'arch'
+name = 'glbinding'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glbinding'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glbinding@2'

@@ -1,0 +1,9 @@
+id = 'rtp2httpd'
+name = 'rtp2httpd'
+
+homepage = 'https://rtp2httpd.com'
+repository = 'https://github.com/stackia/rtp2httpd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtp2httpd'

@@ -1,0 +1,8 @@
+id = 'python-mistune'
+name = 'python-mistune'
+
+homepage = 'https://mistune.lepture.com'
+
+[[package]]
+channel = 'arch'
+name = 'python-mistune'

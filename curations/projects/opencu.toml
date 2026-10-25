@@ -1,0 +1,8 @@
+id = 'opencu'
+name = 'opencu'
+
+homepage = 'https://github.com/tobhe/opencu'
+
+[[package]]
+channel = 'debian'
+name = 'opencu'

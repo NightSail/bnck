@@ -1,0 +1,8 @@
+id = 'dum'
+name = 'dum'
+
+repository = 'https://github.com/egoist/dum.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dum'

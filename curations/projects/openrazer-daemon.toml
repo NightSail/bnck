@@ -1,0 +1,12 @@
+id = 'openrazer-daemon'
+name = 'openrazer-daemon'
+
+homepage = 'https://openrazer.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'openrazer-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'openrazer-daemon'

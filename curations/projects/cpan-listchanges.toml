@@ -1,0 +1,8 @@
+id = 'cpan-listchanges'
+name = 'cpan-listchanges'
+
+homepage = 'https://metacpan.org/release/cpan-listchanges'
+
+[[package]]
+channel = 'debian'
+name = 'cpan-listchanges'

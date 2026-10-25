@@ -1,0 +1,8 @@
+id = 'syndicationd'
+name = 'syndicationd'
+
+homepage = 'https://github.com/ymgyt/syndicationd'
+
+[[package]]
+channel = 'arch'
+name = 'syndicationd'

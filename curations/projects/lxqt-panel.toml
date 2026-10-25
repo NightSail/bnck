@@ -1,0 +1,12 @@
+id = 'lxqt-panel'
+name = 'lxqt-panel'
+
+homepage = 'https://github.com/lxqt/lxqt-panel'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-panel'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-panel'

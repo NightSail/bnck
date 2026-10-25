@@ -1,0 +1,13 @@
+id = 'drone-cli'
+name = 'drone-cli'
+
+homepage = 'https://docs.drone.io/cli'
+repository = 'https://github.com/harness/drone-cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'drone-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/drone-cli'

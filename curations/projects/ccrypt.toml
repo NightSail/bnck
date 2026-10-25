@@ -1,0 +1,12 @@
+id = 'ccrypt'
+name = 'ccrypt'
+
+homepage = 'https://ccrypt.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ccrypt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccrypt'

@@ -1,0 +1,8 @@
+id = 'pgagent'
+name = 'pgagent'
+
+homepage = 'https://www.pgadmin.org/docs/pgadmin4/latest/pgagent.html'
+
+[[package]]
+channel = 'debian'
+name = 'pgagent'

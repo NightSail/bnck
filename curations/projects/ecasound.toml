@@ -1,0 +1,16 @@
+id = 'ecasound'
+name = 'ecasound'
+
+homepage = 'https://www.eca.cx/ecasound'
+
+[[package]]
+channel = 'debian'
+name = 'ecasound'
+
+[[package]]
+channel = 'debian'
+name = 'ecatools'
+
+[[package]]
+channel = 'debian'
+name = 'libecasoundc-dev'

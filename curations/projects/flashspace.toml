@@ -1,0 +1,8 @@
+id = 'flashspace'
+name = 'flashspace'
+
+homepage = 'https://github.com/wojciech-kulik/FlashSpace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/flashspace'

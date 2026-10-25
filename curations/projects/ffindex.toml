@@ -1,0 +1,8 @@
+id = 'ffindex'
+name = 'ffindex'
+
+homepage = 'https://github.com/ahcm/ffindex'
+
+[[package]]
+channel = 'debian'
+name = 'ffindex'

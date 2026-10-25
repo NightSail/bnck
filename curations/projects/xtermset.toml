@@ -1,0 +1,8 @@
+id = 'xtermset'
+name = 'xtermset'
+
+homepage = 'https://sourceforge.net/projects/clts'
+
+[[package]]
+channel = 'debian'
+name = 'xtermset'

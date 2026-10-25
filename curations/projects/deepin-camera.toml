@@ -1,0 +1,8 @@
+id = 'deepin-camera'
+name = 'deepin-camera'
+
+homepage = 'https://github.com/linuxdeepin/deepin-camera'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-camera'

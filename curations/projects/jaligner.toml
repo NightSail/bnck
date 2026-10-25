@@ -1,0 +1,8 @@
+id = 'jaligner'
+name = 'jaligner'
+
+homepage = 'https://github.com/ahmedmoustafa/JAligner'
+
+[[package]]
+channel = 'debian'
+name = 'jaligner'

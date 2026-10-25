@@ -1,0 +1,6 @@
+id = 'msp430mcu'
+name = 'msp430mcu'
+
+[[package]]
+channel = 'debian'
+name = 'msp430mcu'

@@ -1,0 +1,16 @@
+id = 'incron'
+name = 'incron'
+
+homepage = 'https://github.com/ar-/incron'
+
+[[package]]
+channel = 'arch'
+name = 'incron'
+
+[[package]]
+channel = 'debian'
+name = 'incron'
+
+[[package]]
+channel = 'fedora'
+name = 'incron'

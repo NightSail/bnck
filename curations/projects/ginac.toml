@@ -1,0 +1,20 @@
+id = 'ginac'
+name = 'ginac'
+
+homepage = 'https://www.ginac.de'
+
+[[package]]
+channel = 'arch'
+name = 'ginac'
+
+[[package]]
+channel = 'debian'
+name = 'ginac-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ginac-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ginac'

@@ -1,0 +1,16 @@
+id = 'wvdial'
+name = 'wvdial'
+
+homepage = 'https://web.archive.org/web/20110504183753/http://alumnit.ca:80/wiki/index.php'
+
+[[package]]
+channel = 'arch'
+name = 'wvdial'
+
+[[package]]
+channel = 'debian'
+name = 'wvdial'
+
+[[package]]
+channel = 'fedora'
+name = 'wvdial'

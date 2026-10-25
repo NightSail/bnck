@@ -1,0 +1,8 @@
+id = 'selenium-server'
+name = 'selenium-server'
+
+homepage = 'https://www.selenium.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/selenium-server'

@@ -1,0 +1,12 @@
+id = 'lego'
+name = 'lego'
+
+homepage = 'https://github.com/go-acme/lego'
+
+[[package]]
+channel = 'debian'
+name = 'lego'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-acme-lego'

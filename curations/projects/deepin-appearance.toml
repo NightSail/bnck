@@ -1,0 +1,8 @@
+id = 'deepin-appearance'
+name = 'deepin-appearance'
+
+homepage = 'https://github.com/linuxdeepin/dde-appearance'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-appearance'

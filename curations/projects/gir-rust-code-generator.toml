@@ -1,0 +1,8 @@
+id = 'gir-rust-code-generator'
+name = 'gir-rust-code-generator'
+
+homepage = 'https://github.com/gtk-rs/gir'
+
+[[package]]
+channel = 'debian'
+name = 'gir-rust-code-generator'

@@ -1,0 +1,12 @@
+id = 'gst-devtools'
+name = 'gst-devtools'
+
+homepage = 'https://gstreamer.freedesktop.org/src/gst-devtools'
+
+[[package]]
+channel = 'fedora'
+name = 'gst-debug-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'gst-devtools'

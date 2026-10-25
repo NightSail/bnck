@@ -1,0 +1,8 @@
+id = 'extrace'
+name = 'extrace'
+
+homepage = 'https://git.vuxu.org/extrace/about'
+
+[[package]]
+channel = 'debian'
+name = 'extrace'

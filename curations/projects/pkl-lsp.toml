@@ -1,0 +1,8 @@
+id = 'pkl-lsp'
+name = 'pkl-lsp'
+
+homepage = 'https://pkl-lang.org/lsp/current/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkl-lsp'

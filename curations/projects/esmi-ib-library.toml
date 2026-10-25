@@ -1,0 +1,12 @@
+id = 'esmi-ib-library'
+name = 'esmi_ib_library'
+
+homepage = 'https://github.com/amd/esmi_ib_library'
+
+[[package]]
+channel = 'debian'
+name = 'libe-smi64-1'
+
+[[package]]
+channel = 'fedora'
+name = 'e_smi_tool'

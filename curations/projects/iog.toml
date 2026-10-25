@@ -1,0 +1,8 @@
+id = 'iog'
+name = 'iog'
+
+homepage = 'http://www.dynw.com/iog'
+
+[[package]]
+channel = 'debian'
+name = 'iog'

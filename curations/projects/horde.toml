@@ -1,0 +1,80 @@
+id = 'horde'
+name = 'horde'
+
+homepage = 'http://www.horde.org'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-ansel'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-content'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-db'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-groupware'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-imp'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-ingo'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-kronolith'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-mnemo'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-nag'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-prefs'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-service-weather'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-sesha'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-trean'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-turba'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-vfs'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-webmail'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-whups'
+
+[[package]]
+channel = 'debian'
+name = 'php-horde-wicked'

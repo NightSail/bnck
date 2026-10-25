@@ -1,0 +1,8 @@
+id = 'cig'
+name = 'cig'
+
+repository = 'https://github.com/stevenjack/cig.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cig'

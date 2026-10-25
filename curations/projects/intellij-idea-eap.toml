@@ -1,0 +1,8 @@
+id = 'intellij-idea-eap'
+name = 'intellij-idea@eap'
+
+homepage = 'https://www.jetbrains.com/idea/nextversion'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/intellij-idea@eap'

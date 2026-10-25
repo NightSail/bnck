@@ -1,0 +1,8 @@
+id = 'roca-detect'
+name = 'roca-detect'
+
+homepage = 'https://crocs.fi.muni.cz/public/papers/rsa_ccs17'
+
+[[package]]
+channel = 'fedora'
+name = 'roca-detect'

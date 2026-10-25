@@ -1,0 +1,12 @@
+id = 'html-gentoc'
+name = 'HTML-GenToc'
+
+homepage = 'https://metacpan.org/release/HTML-GenToc'
+
+[[package]]
+channel = 'debian'
+name = 'libhtml-gentoc-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-GenToc'

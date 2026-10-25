@@ -1,0 +1,8 @@
+id = 'lw-scanner'
+name = 'lw-scanner'
+
+homepage = 'https://github.com/lacework/lacework-vulnerability-scanner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/lw-scanner'

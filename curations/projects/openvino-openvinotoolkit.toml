@@ -1,0 +1,9 @@
+id = 'openvino-openvinotoolkit'
+name = 'openvino'
+
+homepage = 'https://docs.openvino.ai'
+repository = 'https://github.com/openvinotoolkit/openvino.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openvino'

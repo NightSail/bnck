@@ -1,0 +1,6 @@
+id = 'netsend'
+name = 'netsend'
+
+[[package]]
+channel = 'debian'
+name = 'netsend'

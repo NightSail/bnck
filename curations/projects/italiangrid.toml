@@ -1,0 +1,20 @@
+id = 'italiangrid'
+name = 'italiangrid'
+
+homepage = 'https://italiangrid.github.io/voms'
+
+[[package]]
+channel = 'debian'
+name = 'voms-clients'
+
+[[package]]
+channel = 'debian'
+name = 'voms-server'
+
+[[package]]
+channel = 'fedora'
+name = 'voms-clients-cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'voms-server'

@@ -1,0 +1,12 @@
+id = 'av1an'
+name = 'av1an'
+
+repository = 'https://github.com/rust-av/Av1an.git'
+
+[[package]]
+channel = 'arch'
+name = 'av1an'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/av1an'

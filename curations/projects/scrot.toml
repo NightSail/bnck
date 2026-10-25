@@ -1,0 +1,16 @@
+id = 'scrot'
+name = 'scrot'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/scrot'
+
+[[package]]
+channel = 'arch'
+name = 'scrot'
+
+[[package]]
+channel = 'debian'
+name = 'scrot'
+
+[[package]]
+channel = 'fedora'
+name = 'scrot'

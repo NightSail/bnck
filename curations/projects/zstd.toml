@@ -1,0 +1,21 @@
+id = 'zstd'
+name = 'zstd'
+
+homepage = 'https://facebook.github.io/zstd'
+repository = 'https://github.com/facebook/zstd.git'
+
+[[package]]
+channel = 'arch'
+name = 'zstd'
+
+[[package]]
+channel = 'debian'
+name = 'zstd'
+
+[[package]]
+channel = 'fedora'
+name = 'zstd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zstd'

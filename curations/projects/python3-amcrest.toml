@@ -1,0 +1,8 @@
+id = 'python3-amcrest'
+name = 'python3-amcrest'
+
+homepage = 'https://github.com/tchellomello/python-amcrest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-amcrest'

@@ -1,0 +1,21 @@
+id = 'patchutils'
+name = 'patchutils'
+
+homepage = 'http://cyberelk.net/tim/patchutils'
+repository = 'https://github.com/twaugh/patchutils.git'
+
+[[package]]
+channel = 'arch'
+name = 'patchutils'
+
+[[package]]
+channel = 'debian'
+name = 'patchutils'
+
+[[package]]
+channel = 'fedora'
+name = 'patchutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/patchutils'

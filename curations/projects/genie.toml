@@ -1,0 +1,8 @@
+id = 'genie'
+name = 'GENie'
+
+homepage = 'https://github.com/bkaradzic/GENie'
+
+[[package]]
+channel = 'fedora'
+name = 'GENie'

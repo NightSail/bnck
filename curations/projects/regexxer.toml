@@ -1,0 +1,8 @@
+id = 'regexxer'
+name = 'regexxer'
+
+homepage = 'http://regexxer.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'regexxer'

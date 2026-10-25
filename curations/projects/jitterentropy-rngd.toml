@@ -1,0 +1,8 @@
+id = 'jitterentropy-rngd'
+name = 'jitterentropy-rngd'
+
+homepage = 'https://www.chronox.de/jent.html'
+
+[[package]]
+channel = 'debian'
+name = 'jitterentropy-rngd'

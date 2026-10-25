@@ -1,0 +1,8 @@
+id = 'mp3burn'
+name = 'mp3burn'
+
+homepage = 'https://sourceforge.net/projects/mp3burn'
+
+[[package]]
+channel = 'debian'
+name = 'mp3burn'

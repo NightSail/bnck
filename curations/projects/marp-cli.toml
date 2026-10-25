@@ -1,0 +1,8 @@
+id = 'marp-cli'
+name = 'marp-cli'
+
+homepage = 'https://github.com/marp-team/marp-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marp-cli'

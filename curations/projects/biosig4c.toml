@@ -1,0 +1,8 @@
+id = 'biosig4c'
+name = 'biosig4c++'
+
+homepage = 'https://sourceforge.net/projects/biosig'
+
+[[package]]
+channel = 'fedora'
+name = 'biosig4c++'

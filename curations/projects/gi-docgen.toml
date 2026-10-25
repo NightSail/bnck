@@ -1,0 +1,21 @@
+id = 'gi-docgen'
+name = 'gi-docgen'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/gi-docgen'
+repository = 'https://gitlab.gnome.org/GNOME/gi-docgen.git'
+
+[[package]]
+channel = 'arch'
+name = 'gi-docgen'
+
+[[package]]
+channel = 'debian'
+name = 'gi-docgen'
+
+[[package]]
+channel = 'fedora'
+name = 'gi-docgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gi-docgen'

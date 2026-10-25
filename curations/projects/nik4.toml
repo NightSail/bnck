@@ -1,0 +1,8 @@
+id = 'nik4'
+name = 'nik4'
+
+homepage = 'https://github.com/Zverik/Nik4'
+
+[[package]]
+channel = 'debian'
+name = 'nik4'

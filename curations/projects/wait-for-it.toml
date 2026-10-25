@@ -1,0 +1,8 @@
+id = 'wait-for-it'
+name = 'wait-for-it'
+
+homepage = 'https://github.com/vishnubob/wait-for-it'
+
+[[package]]
+channel = 'debian'
+name = 'wait-for-it'

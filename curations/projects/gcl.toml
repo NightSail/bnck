@@ -1,0 +1,16 @@
+id = 'gcl'
+name = 'gcl'
+
+homepage = 'http://gnu.org/software/gcl'
+
+[[package]]
+channel = 'debian'
+name = 'gcl'
+
+[[package]]
+channel = 'debian'
+name = 'gcl27'
+
+[[package]]
+channel = 'fedora'
+name = 'gcl'

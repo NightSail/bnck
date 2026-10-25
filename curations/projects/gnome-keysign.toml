@@ -1,0 +1,12 @@
+id = 'gnome-keysign'
+name = 'gnome-keysign'
+
+homepage = 'https://github.com/gnome-keysign/gnome-keysign'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-keysign'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-keysign'

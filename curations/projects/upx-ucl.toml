@@ -1,0 +1,8 @@
+id = 'upx-ucl'
+name = 'upx-ucl'
+
+homepage = 'https://upx.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'upx-ucl'

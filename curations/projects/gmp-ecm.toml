@@ -1,0 +1,21 @@
+id = 'gmp-ecm'
+name = 'gmp-ecm'
+
+homepage = 'https://github.com/sethtroisi/gmp-ecm'
+repository = 'https://gitlab.inria.fr/zimmerma/ecm.git'
+
+[[package]]
+channel = 'arch'
+name = 'gmp-ecm'
+
+[[package]]
+channel = 'debian'
+name = 'gmp-ecm'
+
+[[package]]
+channel = 'fedora'
+name = 'gmp-ecm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gmp-ecm'

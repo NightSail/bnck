@@ -1,0 +1,8 @@
+id = 'kata-containers'
+name = 'kata-containers'
+
+homepage = 'https://github.com/kata-containers/kata-containers'
+
+[[package]]
+channel = 'fedora'
+name = 'kata-containers'

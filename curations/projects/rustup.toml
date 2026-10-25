@@ -4,5 +4,17 @@ name = 'rustup'
 homepage = 'https://rust-lang.github.io/rustup'
 
 [[package]]
+channel = 'arch'
+name = 'rustup'
+
+[[package]]
+channel = 'debian'
+name = 'rustup'
+
+[[package]]
+channel = 'fedora'
+name = 'rustup'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/rustup'

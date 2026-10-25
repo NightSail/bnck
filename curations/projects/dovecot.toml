@@ -1,0 +1,32 @@
+id = 'dovecot'
+name = 'dovecot'
+
+homepage = 'https://dovecot.org'
+
+[[package]]
+channel = 'arch'
+name = 'dovecot'
+
+[[package]]
+channel = 'arch'
+name = 'dovecot23'
+
+[[package]]
+channel = 'debian'
+name = 'dovecot-core'
+
+[[package]]
+channel = 'debian'
+name = 'dovecot-sieve'
+
+[[package]]
+channel = 'fedora'
+name = 'dovecot'
+
+[[package]]
+channel = 'fedora'
+name = 'dovecot-pigeonhole'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dovecot'

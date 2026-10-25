@@ -1,0 +1,8 @@
+id = 'netr'
+name = 'netr'
+
+homepage = 'https://www.usenix.org.uk/content/net.html'
+
+[[package]]
+channel = 'debian'
+name = 'netr'

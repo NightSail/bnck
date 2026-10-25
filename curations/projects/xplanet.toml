@@ -1,0 +1,20 @@
+id = 'xplanet'
+name = 'xplanet'
+
+homepage = 'https://xplanet.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'xplanet'
+
+[[package]]
+channel = 'debian'
+name = 'xplanet'
+
+[[package]]
+channel = 'fedora'
+name = 'xplanet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xplanet'

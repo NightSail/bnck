@@ -1,0 +1,12 @@
+id = 'tslib'
+name = 'tslib'
+
+homepage = 'https://github.com/kergoth/tslib'
+
+[[package]]
+channel = 'arch'
+name = 'tslib'
+
+[[package]]
+channel = 'fedora'
+name = 'tslib'

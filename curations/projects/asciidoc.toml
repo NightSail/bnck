@@ -1,0 +1,25 @@
+id = 'asciidoc'
+name = 'asciidoc'
+
+homepage = 'https://asciidoc-py.github.io'
+repository = 'https://github.com/asciidoc-py/asciidoc-py.git'
+
+[[package]]
+channel = 'arch'
+name = 'asciidoc'
+
+[[package]]
+channel = 'debian'
+name = 'asciidoc-base'
+
+[[package]]
+channel = 'debian'
+name = 'asciidoc-tests'
+
+[[package]]
+channel = 'fedora'
+name = 'asciidoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asciidoc'

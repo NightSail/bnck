@@ -1,0 +1,8 @@
+id = 'open-tyrian'
+name = 'open-tyrian'
+
+repository = 'https://github.com/opentyrian/opentyrian.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-tyrian'

@@ -1,0 +1,12 @@
+id = 'irclog2html'
+name = 'irclog2html'
+
+homepage = 'https://mg.pov.lt/irclog2html'
+
+[[package]]
+channel = 'debian'
+name = 'irclog2html'
+
+[[package]]
+channel = 'fedora'
+name = 'irclog2html'

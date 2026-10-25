@@ -1,0 +1,8 @@
+id = 'xfdashboard'
+name = 'xfdashboard'
+
+homepage = 'http://goodies.xfce.org/projects/applications/xfdashboard/start'
+
+[[package]]
+channel = 'fedora'
+name = 'xfdashboard'

@@ -1,0 +1,8 @@
+id = 'greenbone-feed-sync'
+name = 'greenbone-feed-sync'
+
+homepage = 'https://github.com/greenbone/greenbone-feed-sync'
+
+[[package]]
+channel = 'debian'
+name = 'greenbone-feed-sync'

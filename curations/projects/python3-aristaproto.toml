@@ -1,0 +1,8 @@
+id = 'python3-aristaproto'
+name = 'python3-aristaproto'
+
+homepage = 'https://github.com/aristanetworks/python-aristaproto'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aristaproto'

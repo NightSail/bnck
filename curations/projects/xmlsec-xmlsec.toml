@@ -1,0 +1,8 @@
+id = 'xmlsec-xmlsec'
+name = 'xmlsec'
+
+homepage = 'https://www.aleksey.com/xmlsec/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'xmlsec'

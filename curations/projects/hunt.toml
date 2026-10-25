@@ -1,0 +1,12 @@
+id = 'hunt'
+name = 'hunt'
+
+homepage = 'http://lin.fsid.cvut.cz/~kra/hunt'
+
+[[package]]
+channel = 'debian'
+name = 'hunt'
+
+[[package]]
+channel = 'fedora'
+name = 'hunt'

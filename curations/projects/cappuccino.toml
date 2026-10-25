@@ -1,0 +1,8 @@
+id = 'cappuccino'
+name = 'cappuccino'
+
+homepage = 'https://labs.truelite.it/projects/cappuccino'
+
+[[package]]
+channel = 'debian'
+name = 'cappuccino'

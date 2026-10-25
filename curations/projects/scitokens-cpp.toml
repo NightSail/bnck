@@ -1,0 +1,12 @@
+id = 'scitokens-cpp'
+name = 'scitokens-cpp'
+
+homepage = 'https://github.com/scitokens/scitokens-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'scitokens-cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'scitokens-cpp'

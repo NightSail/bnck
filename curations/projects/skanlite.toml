@@ -1,0 +1,16 @@
+id = 'skanlite'
+name = 'skanlite'
+
+homepage = 'https://apps.kde.org/skanlite'
+
+[[package]]
+channel = 'arch'
+name = 'skanlite'
+
+[[package]]
+channel = 'debian'
+name = 'skanlite'
+
+[[package]]
+channel = 'fedora'
+name = 'skanlite'

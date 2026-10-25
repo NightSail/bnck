@@ -1,0 +1,8 @@
+id = 'clonalorigin'
+name = 'clonalorigin'
+
+homepage = 'https://github.com/xavierdidelot/clonalorigin'
+
+[[package]]
+channel = 'debian'
+name = 'clonalorigin'

@@ -1,0 +1,16 @@
+id = 'fractalgenerator'
+name = 'fractalgenerator'
+
+homepage = 'https://www.nntb.no/~dreibh/fractalgenerator'
+
+[[package]]
+channel = 'debian'
+name = 'clifractgen'
+
+[[package]]
+channel = 'debian'
+name = 'fractgen'
+
+[[package]]
+channel = 'debian'
+name = 'kfractgen'

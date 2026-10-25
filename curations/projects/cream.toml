@@ -1,0 +1,8 @@
+id = 'cream'
+name = 'cream'
+
+homepage = 'https://cream.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'cream'

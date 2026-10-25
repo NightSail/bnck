@@ -1,0 +1,12 @@
+id = 'devilspie'
+name = 'devilspie'
+
+homepage = 'https://www.burtonini.com/blog/tag/devilspie.html'
+
+[[package]]
+channel = 'arch'
+name = 'devilspie'
+
+[[package]]
+channel = 'debian'
+name = 'devilspie'

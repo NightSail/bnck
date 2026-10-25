@@ -1,0 +1,12 @@
+id = 'mapproxy'
+name = 'mapproxy'
+
+homepage = 'https://mapproxy.org'
+
+[[package]]
+channel = 'debian'
+name = 'mapproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mapproxy'

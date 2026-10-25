@@ -1,0 +1,6 @@
+id = 'backupchecker'
+name = 'backupchecker'
+
+[[package]]
+channel = 'debian'
+name = 'backupchecker'

@@ -1,0 +1,8 @@
+id = 'python3-pyprosegur'
+name = 'python3-pyprosegur'
+
+homepage = 'https://github.com/dgomes/pyprosegur'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyprosegur'

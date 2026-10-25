@@ -1,0 +1,8 @@
+id = 'prename'
+name = 'prename'
+
+homepage = 'https://metacpan.org/release/PEDERST/rename-1.14'
+
+[[package]]
+channel = 'fedora'
+name = 'prename'

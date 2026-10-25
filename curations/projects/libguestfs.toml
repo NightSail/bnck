@@ -1,0 +1,88 @@
+id = 'libguestfs'
+name = 'libguestfs'
+
+homepage = 'https://libguestfs.org'
+
+[[package]]
+channel = 'arch'
+name = 'erlang-libguestfs'
+
+[[package]]
+channel = 'arch'
+name = 'guestfs-tools'
+
+[[package]]
+channel = 'arch'
+name = 'hivex'
+
+[[package]]
+channel = 'arch'
+name = 'libguestfs'
+
+[[package]]
+channel = 'debian'
+name = 'guestfish'
+
+[[package]]
+channel = 'debian'
+name = 'guestfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'guestfsd'
+
+[[package]]
+channel = 'debian'
+name = 'guestmount'
+
+[[package]]
+channel = 'debian'
+name = 'libguestfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libhivex-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libwin-hivex-perl'
+
+[[package]]
+channel = 'debian'
+name = 'virt-p2v'
+
+[[package]]
+channel = 'debian'
+name = 'virt-v2v'
+
+[[package]]
+channel = 'fedora'
+name = 'guestfs-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'hivex'
+
+[[package]]
+channel = 'fedora'
+name = 'libguestfs'
+
+[[package]]
+channel = 'fedora'
+name = 'libguestfs-rescue'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-hivex'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-p2v'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-win-reg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hivex'

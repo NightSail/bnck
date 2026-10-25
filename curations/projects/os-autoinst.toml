@@ -1,0 +1,20 @@
+id = 'os-autoinst'
+name = 'os-autoinst'
+
+homepage = 'http://os-autoinst.github.io/openQA'
+
+[[package]]
+channel = 'fedora'
+name = 'openqa-client'
+
+[[package]]
+channel = 'fedora'
+name = 'openqa-local-db'
+
+[[package]]
+channel = 'fedora'
+name = 'openqa-python-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'os-autoinst'

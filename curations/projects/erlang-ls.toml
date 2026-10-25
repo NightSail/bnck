@@ -1,0 +1,8 @@
+id = 'erlang-ls'
+name = 'erlang_ls'
+
+homepage = 'https://erlang-ls.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlang_ls'

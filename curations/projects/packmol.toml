@@ -1,0 +1,17 @@
+id = 'packmol'
+name = 'packmol'
+
+homepage = 'http://m3g.iqm.unicamp.br/packmol'
+repository = 'https://github.com/m3g/packmol.git'
+
+[[package]]
+channel = 'debian'
+name = 'packmol'
+
+[[package]]
+channel = 'fedora'
+name = 'packmol'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/packmol'

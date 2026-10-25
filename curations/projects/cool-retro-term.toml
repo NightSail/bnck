@@ -1,0 +1,16 @@
+id = 'cool-retro-term'
+name = 'cool-retro-term'
+
+homepage = 'https://github.com/Swordfish90/cool-retro-term'
+
+[[package]]
+channel = 'arch'
+name = 'cool-retro-term'
+
+[[package]]
+channel = 'debian'
+name = 'cool-retro-term'
+
+[[package]]
+channel = 'fedora'
+name = 'cool-retro-term'

@@ -1,0 +1,16 @@
+id = 'deepin-terminal'
+name = 'deepin-terminal'
+
+homepage = 'https://github.com/linuxdeepin/deepin-terminal'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-terminal'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-terminal'

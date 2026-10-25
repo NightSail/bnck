@@ -1,0 +1,16 @@
+id = 'pappl'
+name = 'pappl'
+
+homepage = 'https://www.msweet.org/pappl'
+
+[[package]]
+channel = 'arch'
+name = 'pappl'
+
+[[package]]
+channel = 'debian'
+name = 'libpappl-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'pappl-devel'

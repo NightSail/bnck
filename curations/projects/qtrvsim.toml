@@ -1,0 +1,8 @@
+id = 'qtrvsim'
+name = 'qtrvsim'
+
+homepage = 'https://github.com/cvut/qtrvsim'
+
+[[package]]
+channel = 'debian'
+name = 'qtrvsim'

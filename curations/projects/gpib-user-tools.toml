@@ -1,0 +1,8 @@
+id = 'gpib-user-tools'
+name = 'gpib-user-tools'
+
+homepage = 'https://linux-gpib.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'gpib-user-tools'

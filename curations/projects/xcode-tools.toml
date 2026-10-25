@@ -1,0 +1,8 @@
+id = 'xcode-tools'
+name = 'xcode-tools'
+
+homepage = 'https://github.com/gnustep/libs-xcode'
+
+[[package]]
+channel = 'debian'
+name = 'xcode-tools'

@@ -1,0 +1,12 @@
+id = 'iptux'
+name = 'iptux'
+
+homepage = 'https://github.com/iptux-src/iptux'
+
+[[package]]
+channel = 'arch'
+name = 'iptux'
+
+[[package]]
+channel = 'debian'
+name = 'iptux'

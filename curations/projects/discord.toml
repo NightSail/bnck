@@ -1,0 +1,8 @@
+id = 'discord'
+name = 'discord'
+
+homepage = 'https://discord.com'
+
+[[package]]
+channel = 'arch'
+name = 'discord'

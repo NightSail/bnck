@@ -1,0 +1,8 @@
+id = 'python3-mdanse'
+name = 'python3-mdanse'
+
+homepage = 'https://github.com/ISISNeutronMuon/MDANSE'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mdanse'

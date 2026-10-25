@@ -1,0 +1,13 @@
+id = 'worktrunk'
+name = 'worktrunk'
+
+homepage = 'https://worktrunk.dev'
+repository = 'https://github.com/max-sixty/worktrunk.git'
+
+[[package]]
+channel = 'arch'
+name = 'worktrunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/worktrunk'

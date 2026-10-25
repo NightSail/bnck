@@ -1,0 +1,8 @@
+id = 'libhid'
+name = 'libhid'
+
+homepage = 'http://libhid.alioth.debian.org'
+
+[[package]]
+channel = 'fedora'
+name = 'libhid'

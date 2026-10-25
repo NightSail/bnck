@@ -1,0 +1,8 @@
+id = 'slitherer'
+name = 'slitherer'
+
+homepage = 'https://gitlab.com/VelocityLimitless/Projects/slitherer'
+
+[[package]]
+channel = 'fedora'
+name = 'slitherer'

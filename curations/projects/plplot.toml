@@ -1,0 +1,24 @@
+id = 'plplot'
+name = 'plplot'
+
+homepage = 'https://plplot.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'plplot-tcl-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'plplot'
+
+[[package]]
+channel = 'fedora'
+name = 'plplot-tk'
+
+[[package]]
+channel = 'fedora'
+name = 'plplot-wxGTK'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plplot'

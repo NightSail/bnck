@@ -1,0 +1,20 @@
+id = 'gputils'
+name = 'gputils'
+
+homepage = 'https://gputils.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'gputils'
+
+[[package]]
+channel = 'debian'
+name = 'gputils'
+
+[[package]]
+channel = 'fedora'
+name = 'gputils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gputils'

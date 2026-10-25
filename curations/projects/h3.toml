@@ -1,0 +1,8 @@
+id = 'h3'
+name = 'h3'
+
+homepage = 'https://uber.github.io/h3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/h3'

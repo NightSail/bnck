@@ -1,0 +1,8 @@
+id = 'flexc'
+name = 'flexc++'
+
+homepage = 'https://fbb-git.gitlab.io/flexcpp'
+
+[[package]]
+channel = 'debian'
+name = 'flexc++'

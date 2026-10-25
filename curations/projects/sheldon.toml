@@ -1,0 +1,13 @@
+id = 'sheldon'
+name = 'sheldon'
+
+homepage = 'https://sheldon.cli.rs'
+repository = 'https://github.com/rossmacarthur/sheldon.git'
+
+[[package]]
+channel = 'arch'
+name = 'sheldon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sheldon'

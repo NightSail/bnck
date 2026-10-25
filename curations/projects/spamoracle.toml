@@ -1,0 +1,8 @@
+id = 'spamoracle'
+name = 'spamoracle'
+
+homepage = 'https://github.com/xavierleroy/spamoracle'
+
+[[package]]
+channel = 'debian'
+name = 'spamoracle'

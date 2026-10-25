@@ -1,0 +1,8 @@
+id = 'jmodeltest'
+name = 'jmodeltest'
+
+homepage = 'https://github.com//ddarriba/jmodeltest2'
+
+[[package]]
+channel = 'debian'
+name = 'jmodeltest'

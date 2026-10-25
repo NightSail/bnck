@@ -1,0 +1,12 @@
+id = 'vaultwarden'
+name = 'vaultwarden'
+
+homepage = 'https://github.com/dani-garcia/vaultwarden'
+
+[[package]]
+channel = 'arch'
+name = 'vaultwarden'
+
+[[package]]
+channel = 'fedora'
+name = 'vaultwarden'

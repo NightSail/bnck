@@ -1,0 +1,8 @@
+id = 'linhpsdr'
+name = 'linhpsdr'
+
+homepage = 'https://github.com/g0orx/linhpsdr'
+
+[[package]]
+channel = 'fedora'
+name = 'linhpsdr'

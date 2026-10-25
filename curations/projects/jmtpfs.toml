@@ -1,0 +1,12 @@
+id = 'jmtpfs'
+name = 'jmtpfs'
+
+homepage = 'https://github.com/JasonFerrara/jmtpfs'
+
+[[package]]
+channel = 'debian'
+name = 'jmtpfs'
+
+[[package]]
+channel = 'fedora'
+name = 'jmtpfs'

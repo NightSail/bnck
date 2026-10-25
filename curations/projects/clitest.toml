@@ -1,0 +1,20 @@
+id = 'clitest'
+name = 'clitest'
+
+repository = 'https://github.com/aureliojargas/clitest.git'
+
+[[package]]
+channel = 'arch'
+name = 'clitest'
+
+[[package]]
+channel = 'debian'
+name = 'clitest'
+
+[[package]]
+channel = 'fedora'
+name = 'clitest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clitest'

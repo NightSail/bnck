@@ -1,0 +1,9 @@
+id = 'lavinmq'
+name = 'lavinmq'
+
+homepage = 'https://lavinmq.com'
+repository = 'https://github.com/cloudamqp/lavinmq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lavinmq'

@@ -1,0 +1,12 @@
+id = 'python3-novaclient'
+name = 'python3-novaclient'
+
+homepage = 'https://github.com/openstack/python-novaclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-novaclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-novaclient'

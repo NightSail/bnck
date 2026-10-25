@@ -1,0 +1,12 @@
+id = 'toastfreeware'
+name = 'toastfreeware'
+
+homepage = 'https://www.toastfreeware.priv.at'
+
+[[package]]
+channel = 'debian'
+name = 'fullquottel'
+
+[[package]]
+channel = 'debian'
+name = 'mailtextbody'

@@ -1,0 +1,8 @@
+id = 'orbit2-devel'
+name = 'ORBit2-devel'
+
+homepage = 'http://www.gnome.org/projects/ORBit2'
+
+[[package]]
+channel = 'fedora'
+name = 'ORBit2-devel'

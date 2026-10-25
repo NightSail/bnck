@@ -1,0 +1,8 @@
+id = 'python3-oauth2token'
+name = 'python3-oauth2token'
+
+homepage = 'https://github.com/VannTen/oauth2token'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oauth2token'

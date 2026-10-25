@@ -1,0 +1,8 @@
+id = 'dmraid'
+name = 'dmraid'
+
+homepage = 'https://people.redhat.com/~heinzm/sw/dmraid'
+
+[[package]]
+channel = 'arch'
+name = 'dmraid'

@@ -1,0 +1,8 @@
+id = 'rustfilt'
+name = 'rustfilt'
+
+homepage = 'https://github.com/luser/rustfilt'
+
+[[package]]
+channel = 'debian'
+name = 'rustfilt'

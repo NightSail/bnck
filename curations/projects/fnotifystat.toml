@@ -1,0 +1,8 @@
+id = 'fnotifystat'
+name = 'fnotifystat'
+
+homepage = 'https://github.com/ColinIanKing/fnotifystat'
+
+[[package]]
+channel = 'debian'
+name = 'fnotifystat'

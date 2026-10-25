@@ -1,0 +1,8 @@
+id = 'ghi'
+name = 'ghi'
+
+repository = 'https://github.com/drazisil/ghi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghi'

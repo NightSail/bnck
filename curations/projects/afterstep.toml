@@ -1,0 +1,12 @@
+id = 'afterstep'
+name = 'afterstep'
+
+homepage = 'http://www.afterstep.org'
+
+[[package]]
+channel = 'debian'
+name = 'afterstep'
+
+[[package]]
+channel = 'debian'
+name = 'libafterimage-dev'

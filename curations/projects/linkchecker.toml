@@ -1,0 +1,12 @@
+id = 'linkchecker'
+name = 'linkchecker'
+
+homepage = 'https://linkcheck.github.io/linkchecker'
+
+[[package]]
+channel = 'debian'
+name = 'linkchecker'
+
+[[package]]
+channel = 'fedora'
+name = 'linkchecker'

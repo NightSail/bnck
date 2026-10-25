@@ -1,0 +1,8 @@
+id = 'jftp'
+name = 'jftp'
+
+homepage = 'http://j-ftp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jftp'

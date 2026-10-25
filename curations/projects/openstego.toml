@@ -1,0 +1,8 @@
+id = 'openstego'
+name = 'OpenStego'
+
+homepage = 'http://openstego.sourceforge.net/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenStego'

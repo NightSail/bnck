@@ -1,0 +1,16 @@
+id = 'mimic'
+name = 'mimic'
+
+homepage = 'https://github.com/MycroftAI/mimic1'
+
+[[package]]
+channel = 'debian'
+name = 'mimic'
+
+[[package]]
+channel = 'fedora'
+name = 'mimic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mimic'

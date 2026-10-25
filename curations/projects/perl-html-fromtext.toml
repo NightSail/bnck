@@ -1,0 +1,8 @@
+id = 'perl-html-fromtext'
+name = 'perl-HTML-FromText'
+
+homepage = 'https://metacpan.org/release/HTML-FromText'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-FromText'

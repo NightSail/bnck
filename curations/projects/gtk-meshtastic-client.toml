@@ -1,0 +1,8 @@
+id = 'gtk-meshtastic-client'
+name = 'gtk-meshtastic-client'
+
+homepage = 'https://gitlab.com/kop316/gtk-meshtastic-client'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-meshtastic-client'

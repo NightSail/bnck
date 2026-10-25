@@ -1,0 +1,12 @@
+id = 'ktuberling'
+name = 'ktuberling'
+
+homepage = 'https://apps.kde.org/ktuberling'
+
+[[package]]
+channel = 'arch'
+name = 'ktuberling'
+
+[[package]]
+channel = 'fedora'
+name = 'ktuberling'

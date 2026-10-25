@@ -1,0 +1,12 @@
+id = 'python-json-pointer'
+name = 'python-json-pointer'
+
+homepage = 'https://github.com/stefankoegl/python-json-pointer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-json-pointer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jsonpointer'

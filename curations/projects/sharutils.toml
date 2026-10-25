@@ -1,0 +1,16 @@
+id = 'sharutils'
+name = 'sharutils'
+
+homepage = 'https://www.gnu.org/software/sharutils'
+
+[[package]]
+channel = 'arch'
+name = 'sharutils'
+
+[[package]]
+channel = 'debian'
+name = 'sharutils'
+
+[[package]]
+channel = 'fedora'
+name = 'sharutils'

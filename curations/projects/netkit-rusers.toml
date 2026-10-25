@@ -1,0 +1,10 @@
+id = 'netkit-rusers'
+name = 'netkit-rusers'
+
+[[package]]
+channel = 'debian'
+name = 'rusers'
+
+[[package]]
+channel = 'debian'
+name = 'rusersd'

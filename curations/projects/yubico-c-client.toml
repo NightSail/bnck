@@ -1,0 +1,12 @@
+id = 'yubico-c-client'
+name = 'yubico-c-client'
+
+homepage = 'https://github.com/Yubico/yubico-c-client'
+
+[[package]]
+channel = 'arch'
+name = 'yubico-c-client'
+
+[[package]]
+channel = 'debian'
+name = 'libykclient-dev'

@@ -1,0 +1,8 @@
+id = 'leafpad'
+name = 'leafpad'
+
+homepage = 'http://tarot.freeshell.org/leafpad'
+
+[[package]]
+channel = 'fedora'
+name = 'leafpad'

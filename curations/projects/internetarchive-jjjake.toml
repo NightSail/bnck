@@ -1,0 +1,8 @@
+id = 'internetarchive-jjjake'
+name = 'internetarchive'
+
+repository = 'https://github.com/jjjake/internetarchive.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/internetarchive'

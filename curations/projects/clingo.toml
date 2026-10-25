@@ -1,0 +1,12 @@
+id = 'clingo'
+name = 'clingo'
+
+homepage = 'https://www.potassco.org/clingo'
+
+[[package]]
+channel = 'debian'
+name = 'gringo'
+
+[[package]]
+channel = 'fedora'
+name = 'clingo'

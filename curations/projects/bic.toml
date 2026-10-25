@@ -1,0 +1,8 @@
+id = 'bic'
+name = 'bic'
+
+repository = 'https://github.com/hexagonal-sun/bic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bic'

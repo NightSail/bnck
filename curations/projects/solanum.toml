@@ -1,0 +1,8 @@
+id = 'solanum'
+name = 'solanum'
+
+homepage = 'https://apps.gnome.org/Solanum'
+
+[[package]]
+channel = 'arch'
+name = 'solanum'

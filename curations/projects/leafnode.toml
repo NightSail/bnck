@@ -1,0 +1,8 @@
+id = 'leafnode'
+name = 'leafnode'
+
+homepage = 'http://leafnode.org'
+
+[[package]]
+channel = 'debian'
+name = 'leafnode'

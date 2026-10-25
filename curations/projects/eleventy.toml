@@ -1,0 +1,9 @@
+id = 'eleventy'
+name = 'eleventy'
+
+homepage = 'https://www.11ty.dev'
+repository = 'https://github.com/11ty/eleventy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eleventy'

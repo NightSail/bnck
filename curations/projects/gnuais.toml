@@ -1,0 +1,12 @@
+id = 'gnuais'
+name = 'gnuais'
+
+homepage = 'http://gnuais.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gnuais'
+
+[[package]]
+channel = 'debian'
+name = 'gnuaisgui'

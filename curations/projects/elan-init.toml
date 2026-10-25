@@ -1,0 +1,8 @@
+id = 'elan-init'
+name = 'elan-init'
+
+repository = 'https://github.com/leanprover/elan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elan-init'

@@ -1,0 +1,12 @@
+id = 'pykwalify'
+name = 'pykwalify'
+
+homepage = 'https://github.com/grokzen/pykwalify'
+
+[[package]]
+channel = 'debian'
+name = 'pykwalify'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pykwalify'

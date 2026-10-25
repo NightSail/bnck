@@ -1,0 +1,16 @@
+id = 'ipvsadm'
+name = 'ipvsadm'
+
+homepage = 'http://www.linuxvirtualserver.org/software/ipvs.html'
+
+[[package]]
+channel = 'arch'
+name = 'ipvsadm'
+
+[[package]]
+channel = 'debian'
+name = 'ipvsadm'
+
+[[package]]
+channel = 'fedora'
+name = 'ipvsadm'

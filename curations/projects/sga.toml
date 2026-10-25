@@ -1,0 +1,8 @@
+id = 'sga'
+name = 'sga'
+
+homepage = 'https://github.com/jts/sga'
+
+[[package]]
+channel = 'debian'
+name = 'sga'

@@ -1,0 +1,8 @@
+id = 'python3-uvicorn'
+name = 'python3-uvicorn'
+
+homepage = 'https://www.uvicorn.org'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-uvicorn'

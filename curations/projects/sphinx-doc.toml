@@ -1,0 +1,20 @@
+id = 'sphinx-doc'
+name = 'sphinx-doc'
+
+homepage = 'http://www.sphinx-doc.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphinx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx'
+
+[[package]]
+channel = 'debian'
+name = 'sphinx-common'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx'

@@ -1,0 +1,16 @@
+id = 'umoci'
+name = 'umoci'
+
+homepage = 'https://umo.ci'
+
+[[package]]
+channel = 'arch'
+name = 'umoci'
+
+[[package]]
+channel = 'debian'
+name = 'umoci'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/umoci'

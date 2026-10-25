@@ -1,0 +1,16 @@
+id = 'cargo-insta'
+name = 'cargo-insta'
+
+homepage = 'https://insta.rs'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-insta'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo-insta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-insta'

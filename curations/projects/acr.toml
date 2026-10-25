@@ -1,0 +1,8 @@
+id = 'acr'
+name = 'acr'
+
+homepage = 'https://github.com/radareorg/acr'
+
+[[package]]
+channel = 'debian'
+name = 'acr'

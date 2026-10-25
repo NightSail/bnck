@@ -1,0 +1,8 @@
+id = 'geni'
+name = 'geni'
+
+homepage = 'https://github.com/emilpriver/geni'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geni'

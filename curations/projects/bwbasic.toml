@@ -1,0 +1,12 @@
+id = 'bwbasic'
+name = 'bwbasic'
+
+homepage = 'http://sourceforge.net/projects/bwbasic'
+
+[[package]]
+channel = 'debian'
+name = 'bwbasic'
+
+[[package]]
+channel = 'fedora'
+name = 'bwbasic'

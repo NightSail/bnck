@@ -1,0 +1,8 @@
+id = 'yorick-mira'
+name = 'yorick-mira'
+
+homepage = 'https://cral.univ-lyon1.fr/labo/perso/eric.thiebaut'
+
+[[package]]
+channel = 'debian'
+name = 'yorick-mira'

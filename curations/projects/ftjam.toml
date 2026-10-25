@@ -1,0 +1,8 @@
+id = 'ftjam'
+name = 'ftjam'
+
+homepage = 'https://freetype.org/jam'
+
+[[package]]
+channel = 'arch'
+name = 'ftjam'

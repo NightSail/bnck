@@ -1,0 +1,8 @@
+id = 'ot-urchin-standalone'
+name = 'ot-urchin-standalone'
+
+homepage = 'https://punklabs.com/ot-urchin'
+
+[[package]]
+channel = 'arch'
+name = 'ot-urchin-standalone'

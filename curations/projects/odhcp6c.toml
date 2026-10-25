@@ -1,0 +1,8 @@
+id = 'odhcp6c'
+name = 'odhcp6c'
+
+homepage = 'https://git.openwrt.org'
+
+[[package]]
+channel = 'fedora'
+name = 'odhcp6c'

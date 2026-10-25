@@ -1,0 +1,12 @@
+id = 'squirrel-lang'
+name = 'squirrel-lang'
+
+homepage = 'http://squirrel-lang.org'
+
+[[package]]
+channel = 'debian'
+name = 'squirrel3'
+
+[[package]]
+channel = 'fedora'
+name = 'squirrel'

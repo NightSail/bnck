@@ -1,0 +1,8 @@
+id = 'rolldice'
+name = 'rolldice'
+
+homepage = 'https://github.com/sstrickl/rolldice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rolldice'

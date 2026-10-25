@@ -1,0 +1,8 @@
+id = 'golang-github-urfave-cli-v2-dev'
+name = 'golang-github-urfave-cli-v2-dev'
+
+homepage = 'https://github.com/urfave/cli'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-urfave-cli-v2-dev'

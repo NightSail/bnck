@@ -1,0 +1,8 @@
+id = 'node-build'
+name = 'node-build'
+
+repository = 'https://github.com/nodenv/node-build.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/node-build'

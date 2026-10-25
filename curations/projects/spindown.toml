@@ -1,0 +1,8 @@
+id = 'spindown'
+name = 'spindown'
+
+homepage = 'http://code.google.com/p/spindown'
+
+[[package]]
+channel = 'fedora'
+name = 'spindown'

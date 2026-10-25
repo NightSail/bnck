@@ -1,0 +1,8 @@
+id = 'python3-moss'
+name = 'python3-moss'
+
+homepage = 'https://github.com/mwaskom/moss'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-moss'

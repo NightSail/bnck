@@ -1,0 +1,16 @@
+id = 'libevent'
+name = 'libevent'
+
+homepage = 'https://libevent.org'
+
+[[package]]
+channel = 'arch'
+name = 'libevent'
+
+[[package]]
+channel = 'fedora'
+name = 'libevent-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libevent'

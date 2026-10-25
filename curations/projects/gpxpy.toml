@@ -1,0 +1,16 @@
+id = 'gpxpy'
+name = 'gpxpy'
+
+homepage = 'https://github.com/tkrajina/gpxpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-gpxpy'
+
+[[package]]
+channel = 'debian'
+name = 'gpxinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gpxpy'

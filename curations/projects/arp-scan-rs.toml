@@ -1,0 +1,8 @@
+id = 'arp-scan-rs'
+name = 'arp-scan-rs'
+
+repository = 'https://github.com/kongbytes/arp-scan-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arp-scan-rs'

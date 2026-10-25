@@ -1,0 +1,8 @@
+id = 'oclgrind'
+name = 'oclgrind'
+
+homepage = 'https://github.com/jrprice/Oclgrind'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oclgrind'

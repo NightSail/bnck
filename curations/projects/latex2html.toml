@@ -1,0 +1,20 @@
+id = 'latex2html'
+name = 'latex2html'
+
+homepage = 'https://www.latex2html.org'
+
+[[package]]
+channel = 'arch'
+name = 'latex2html'
+
+[[package]]
+channel = 'debian'
+name = 'latex2html'
+
+[[package]]
+channel = 'fedora'
+name = 'latex2html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/latex2html'

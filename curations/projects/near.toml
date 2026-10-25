@@ -1,0 +1,8 @@
+id = 'near'
+name = 'near'
+
+homepage = 'https://near.cli.rs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/near'

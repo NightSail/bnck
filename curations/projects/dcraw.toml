@@ -1,0 +1,20 @@
+id = 'dcraw'
+name = 'dcraw'
+
+homepage = 'https://dechifro.org/dcraw'
+
+[[package]]
+channel = 'arch'
+name = 'dcraw'
+
+[[package]]
+channel = 'debian'
+name = 'dcraw'
+
+[[package]]
+channel = 'fedora'
+name = 'dcraw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcraw'

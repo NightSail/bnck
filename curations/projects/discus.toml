@@ -1,0 +1,8 @@
+id = 'discus'
+name = 'discus'
+
+homepage = 'https://github.com/ncarrier/discus'
+
+[[package]]
+channel = 'debian'
+name = 'discus'

@@ -1,0 +1,8 @@
+id = 'faultstat'
+name = 'faultstat'
+
+homepage = 'https://github.com/ColinIanKing/faultstat'
+
+[[package]]
+channel = 'debian'
+name = 'faultstat'

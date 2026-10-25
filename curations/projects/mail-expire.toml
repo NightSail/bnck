@@ -1,0 +1,6 @@
+id = 'mail-expire'
+name = 'mail-expire'
+
+[[package]]
+channel = 'debian'
+name = 'mail-expire'

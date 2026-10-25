@@ -1,0 +1,34 @@
+id = 'python3-15'
+name = 'python3.15'
+
+[[package]]
+channel = 'debian'
+name = 'idle-python3.15'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3.15-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3.15-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3.15'
+
+[[package]]
+channel = 'debian'
+name = 'python3.15-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'python3.15-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3.15-minimal'
+
+[[package]]
+channel = 'debian'
+name = 'python3.15-nopie'

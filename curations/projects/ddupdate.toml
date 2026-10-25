@@ -1,0 +1,12 @@
+id = 'ddupdate'
+name = 'ddupdate'
+
+homepage = 'https://github.com/leamas/ddupdate'
+
+[[package]]
+channel = 'debian'
+name = 'ddupdate'
+
+[[package]]
+channel = 'fedora'
+name = 'ddupdate'

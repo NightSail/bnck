@@ -1,0 +1,8 @@
+id = 'clash-meta'
+name = 'clash-meta'
+
+homepage = 'https://github.com/metacubex/mihomo'
+
+[[package]]
+channel = 'fedora'
+name = 'clash-meta'

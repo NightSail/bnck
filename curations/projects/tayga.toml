@@ -1,0 +1,16 @@
+id = 'tayga'
+name = 'tayga'
+
+homepage = 'http://www.litech.org/tayga'
+
+[[package]]
+channel = 'debian'
+name = 'tayga'
+
+[[package]]
+channel = 'debian'
+name = 'tayga-core'
+
+[[package]]
+channel = 'fedora'
+name = 'tayga'

@@ -1,0 +1,8 @@
+id = 'pollen'
+name = 'pollen'
+
+homepage = 'http://launchpad.net/pollen'
+
+[[package]]
+channel = 'debian'
+name = 'pollen'

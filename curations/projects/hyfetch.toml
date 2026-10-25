@@ -1,0 +1,20 @@
+id = 'hyfetch'
+name = 'hyfetch'
+
+homepage = 'https://github.com/hykilpikonna/hyfetch'
+
+[[package]]
+channel = 'arch'
+name = 'hyfetch'
+
+[[package]]
+channel = 'debian'
+name = 'hyfetch'
+
+[[package]]
+channel = 'debian'
+name = 'neowofetch'
+
+[[package]]
+channel = 'fedora'
+name = 'hyfetch'

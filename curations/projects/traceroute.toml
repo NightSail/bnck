@@ -1,0 +1,16 @@
+id = 'traceroute'
+name = 'traceroute'
+
+homepage = 'http://traceroute.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'traceroute'
+
+[[package]]
+channel = 'debian'
+name = 'traceroute'
+
+[[package]]
+channel = 'fedora'
+name = 'traceroute'

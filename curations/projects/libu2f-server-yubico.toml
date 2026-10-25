@@ -1,0 +1,8 @@
+id = 'libu2f-server-yubico'
+name = 'libu2f-server'
+
+homepage = 'https://github.com/Yubico/libu2f-server'
+
+[[package]]
+channel = 'arch'
+name = 'libu2f-server'

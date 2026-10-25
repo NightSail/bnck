@@ -1,0 +1,29 @@
+id = 'redshift'
+name = 'redshift'
+
+homepage = 'http://jonls.dk/redshift'
+repository = 'https://github.com/sharpbracket/redshift.git'
+
+[[package]]
+channel = 'arch'
+name = 'redshift'
+
+[[package]]
+channel = 'debian'
+name = 'redshift'
+
+[[package]]
+channel = 'debian'
+name = 'redshift-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'redshift'
+
+[[package]]
+channel = 'fedora'
+name = 'redshift-gtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redshift'

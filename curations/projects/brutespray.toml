@@ -1,0 +1,8 @@
+id = 'brutespray'
+name = 'brutespray'
+
+homepage = 'https://github.com/x90skysn3k/brutespray'
+
+[[package]]
+channel = 'debian'
+name = 'brutespray'

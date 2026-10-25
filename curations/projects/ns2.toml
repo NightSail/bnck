@@ -1,0 +1,8 @@
+id = 'ns2'
+name = 'ns2'
+
+homepage = 'http://www.isi.edu/nsnam/ns'
+
+[[package]]
+channel = 'debian'
+name = 'ns2'

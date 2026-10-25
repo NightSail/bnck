@@ -1,0 +1,8 @@
+id = 'spiffe-helper'
+name = 'spiffe-helper'
+
+repository = 'https://github.com/spiffe/spiffe-helper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spiffe-helper'

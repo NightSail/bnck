@@ -1,0 +1,8 @@
+id = 'tfenv'
+name = 'tfenv'
+
+repository = 'https://github.com/tfutils/tfenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfenv'

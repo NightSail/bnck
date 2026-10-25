@@ -1,0 +1,6 @@
+id = 'skksearch'
+name = 'skksearch'
+
+[[package]]
+channel = 'debian'
+name = 'skksearch'

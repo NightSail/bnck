@@ -1,0 +1,8 @@
+id = 'python3-webdav4'
+name = 'python3-webdav4'
+
+homepage = 'https://github.com/skshetry/webdav4'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-webdav4'

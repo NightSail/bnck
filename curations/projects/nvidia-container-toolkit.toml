@@ -1,0 +1,12 @@
+id = 'nvidia-container-toolkit'
+name = 'nvidia-container-toolkit'
+
+homepage = 'https://github.com/NVIDIA/nvidia-container-toolkit'
+
+[[package]]
+channel = 'arch'
+name = 'nvidia-container-toolkit'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-nvidia-container-toolkit'

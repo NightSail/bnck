@@ -1,0 +1,12 @@
+id = 'zezere'
+name = 'zezere'
+
+homepage = 'https://github.com/fedora-iot/zezere'
+
+[[package]]
+channel = 'fedora'
+name = 'zezere'
+
+[[package]]
+channel = 'fedora'
+name = 'zezere-ignition'

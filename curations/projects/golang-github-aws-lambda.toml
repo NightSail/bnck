@@ -1,0 +1,8 @@
+id = 'golang-github-aws-lambda'
+name = 'golang-github-aws-lambda'
+
+homepage = 'https://github.com/aws/aws-lambda-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-aws-lambda'

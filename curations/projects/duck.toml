@@ -1,0 +1,13 @@
+id = 'duck'
+name = 'duck'
+
+homepage = 'https://salsa.debian.org/debian/duck'
+repository = 'https://github.com/iterate-ch/cyberduck.git'
+
+[[package]]
+channel = 'debian'
+name = 'duck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duck'

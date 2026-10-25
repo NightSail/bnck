@@ -1,0 +1,13 @@
+id = 'edbrowse'
+name = 'edbrowse'
+
+homepage = 'https://edbrowse.org'
+repository = 'https://github.com/edbrowse/edbrowse.git'
+
+[[package]]
+channel = 'debian'
+name = 'edbrowse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/edbrowse'

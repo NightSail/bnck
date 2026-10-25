@@ -1,0 +1,9 @@
+id = 'vgt'
+name = 'vgt'
+
+homepage = 'https://threedots.tech/post/go-test-parallelism'
+repository = 'https://github.com/roblaszczak/vgt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vgt'

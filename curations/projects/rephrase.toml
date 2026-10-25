@@ -1,0 +1,8 @@
+id = 'rephrase'
+name = 'rephrase'
+
+homepage = 'https://www.roguedaemon.net/rephrase'
+
+[[package]]
+channel = 'debian'
+name = 'rephrase'

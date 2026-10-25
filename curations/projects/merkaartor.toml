@@ -1,0 +1,16 @@
+id = 'merkaartor'
+name = 'merkaartor'
+
+homepage = 'http://merkaartor.be'
+
+[[package]]
+channel = 'arch'
+name = 'merkaartor'
+
+[[package]]
+channel = 'debian'
+name = 'merkaartor'
+
+[[package]]
+channel = 'fedora'
+name = 'merkaartor'

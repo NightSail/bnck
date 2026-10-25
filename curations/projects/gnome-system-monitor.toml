@@ -1,0 +1,16 @@
+id = 'gnome-system-monitor'
+name = 'gnome-system-monitor'
+
+homepage = 'https://apps.gnome.org/SystemMonitor'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-system-monitor'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-system-monitor'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-system-monitor'

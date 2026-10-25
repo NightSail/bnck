@@ -1,0 +1,12 @@
+id = 'kismet'
+name = 'kismet'
+
+homepage = 'https://www.kismetwireless.net'
+
+[[package]]
+channel = 'arch'
+name = 'kismet'
+
+[[package]]
+channel = 'fedora'
+name = 'kismet'

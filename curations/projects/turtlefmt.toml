@@ -1,0 +1,8 @@
+id = 'turtlefmt'
+name = 'turtlefmt'
+
+homepage = 'https://github.com/helsing-ai/turtlefmt'
+
+[[package]]
+channel = 'debian'
+name = 'turtlefmt'

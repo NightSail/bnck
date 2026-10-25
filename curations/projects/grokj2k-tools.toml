@@ -1,0 +1,8 @@
+id = 'grokj2k-tools'
+name = 'grokj2k-tools'
+
+homepage = 'https://github.com/GrokImageCompression/grok'
+
+[[package]]
+channel = 'debian'
+name = 'grokj2k-tools'

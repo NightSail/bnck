@@ -1,0 +1,8 @@
+id = 'python-commonmark'
+name = 'python-commonmark'
+
+homepage = 'https://pypi.org/project/commonmark'
+
+[[package]]
+channel = 'arch'
+name = 'python-commonmark'

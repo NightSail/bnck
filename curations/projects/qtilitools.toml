@@ -1,0 +1,8 @@
+id = 'qtilitools'
+name = 'qtilitools'
+
+homepage = 'https://github.com/qtilities/qtilitools'
+
+[[package]]
+channel = 'fedora'
+name = 'qtilitools'

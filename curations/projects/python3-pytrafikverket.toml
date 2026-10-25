@@ -1,0 +1,8 @@
+id = 'python3-pytrafikverket'
+name = 'python3-pytrafikverket'
+
+homepage = 'https://github.com/gjohansson-ST/pytrafikverket'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pytrafikverket'

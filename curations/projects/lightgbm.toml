@@ -1,0 +1,9 @@
+id = 'lightgbm'
+name = 'lightgbm'
+
+homepage = 'https://lightgbm.readthedocs.io/en/latest'
+repository = 'https://github.com/lightgbm-org/LightGBM.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lightgbm'

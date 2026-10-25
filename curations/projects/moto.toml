@@ -1,0 +1,8 @@
+id = 'moto'
+name = 'moto'
+
+homepage = 'http://getmoto.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moto'

@@ -1,0 +1,8 @@
+id = 'pipsi'
+name = 'pipsi'
+
+homepage = 'https://github.com/mitsuhiko/pipsi'
+
+[[package]]
+channel = 'debian'
+name = 'pipsi'

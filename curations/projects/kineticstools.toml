@@ -1,0 +1,8 @@
+id = 'kineticstools'
+name = 'kineticstools'
+
+homepage = 'https://github.com/PacificBiosciences/kineticsTools'
+
+[[package]]
+channel = 'debian'
+name = 'kineticstools'

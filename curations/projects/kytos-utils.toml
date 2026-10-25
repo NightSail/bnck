@@ -1,0 +1,8 @@
+id = 'kytos-utils'
+name = 'kytos-utils'
+
+homepage = 'https://github.com/kytos/kytos-utils'
+
+[[package]]
+channel = 'debian'
+name = 'kytos-utils'

@@ -1,0 +1,8 @@
+id = 'golang-x-debug'
+name = 'golang-x-debug'
+
+homepage = 'https://github.com/golang/debug'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-debug'

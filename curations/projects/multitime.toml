@@ -1,0 +1,8 @@
+id = 'multitime'
+name = 'multitime'
+
+homepage = 'https://tratt.net/laurie/src/multitime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/multitime'

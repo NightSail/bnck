@@ -1,0 +1,16 @@
+id = 'parley'
+name = 'parley'
+
+homepage = 'https://apps.kde.org/parley'
+
+[[package]]
+channel = 'arch'
+name = 'parley'
+
+[[package]]
+channel = 'debian'
+name = 'parley'
+
+[[package]]
+channel = 'fedora'
+name = 'parley'

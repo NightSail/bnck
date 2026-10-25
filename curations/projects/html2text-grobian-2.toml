@@ -1,0 +1,8 @@
+id = 'html2text-grobian-2'
+name = 'html2text'
+
+repository = 'https://gitlab.com/grobian/html2text.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/html2text'

@@ -1,0 +1,16 @@
+id = 'slick-greeter'
+name = 'slick-greeter'
+
+homepage = 'https://github.com/linuxmint/slick-greeter'
+
+[[package]]
+channel = 'arch'
+name = 'lightdm-slick-greeter'
+
+[[package]]
+channel = 'debian'
+name = 'slick-greeter'
+
+[[package]]
+channel = 'fedora'
+name = 'slick-greeter'

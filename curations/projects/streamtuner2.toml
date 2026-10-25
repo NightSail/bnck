@@ -1,0 +1,8 @@
+id = 'streamtuner2'
+name = 'streamtuner2'
+
+homepage = 'http://sf.net/projects/streamtuner2'
+
+[[package]]
+channel = 'debian'
+name = 'streamtuner2'

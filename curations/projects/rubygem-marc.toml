@@ -1,0 +1,8 @@
+id = 'rubygem-marc'
+name = 'rubygem-marc'
+
+homepage = 'https://github.com/ruby-marc/ruby-marc'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-marc'

@@ -1,0 +1,8 @@
+id = 'fx-xandkar'
+name = 'fx'
+
+repository = 'https://github.com/xandkar/fx'
+
+[[package]]
+channel = 'crates.io'
+name = 'fx'

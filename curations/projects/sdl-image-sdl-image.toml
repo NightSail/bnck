@@ -1,0 +1,8 @@
+id = 'sdl-image-sdl-image'
+name = 'SDL_image'
+
+homepage = 'http://www.libsdl.org/projects/SDL_image'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL_image'

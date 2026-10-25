@@ -1,0 +1,8 @@
+id = 'sigsum-c'
+name = 'sigsum-c'
+
+homepage = 'https://git.glasklar.is/sigsum/core/sigsum-c'
+
+[[package]]
+channel = 'debian'
+name = 'sigsum-c'

@@ -1,0 +1,9 @@
+id = 'uhd-ettusresearch'
+name = 'uhd'
+
+homepage = 'https://files.ettus.com/manual'
+repository = 'https://github.com/EttusResearch/uhd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uhd'

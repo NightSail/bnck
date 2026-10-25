@@ -1,0 +1,8 @@
+id = 'dxpy'
+name = 'dxpy'
+
+homepage = 'https://github.com/dnanexus/dx-toolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dxpy'

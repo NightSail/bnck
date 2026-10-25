@@ -1,0 +1,8 @@
+id = 'nucleus'
+name = 'nucleus'
+
+homepage = 'https://codeberg.org/lo-vely/nucleus'
+
+[[package]]
+channel = 'debian'
+name = 'nucleus'

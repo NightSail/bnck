@@ -1,0 +1,12 @@
+id = 'cloudcompare'
+name = 'cloudcompare'
+
+homepage = 'https://www.danielgm.net/cc'
+
+[[package]]
+channel = 'debian'
+name = 'cloudcompare'
+
+[[package]]
+channel = 'fedora'
+name = 'cloudcompare'

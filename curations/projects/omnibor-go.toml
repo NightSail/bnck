@@ -1,0 +1,8 @@
+id = 'omnibor-go'
+name = 'omnibor-go'
+
+homepage = 'https://github.com/omnibor/omnibor-go'
+
+[[package]]
+channel = 'debian'
+name = 'omnibor-go'

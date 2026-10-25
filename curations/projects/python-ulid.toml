@@ -1,0 +1,12 @@
+id = 'python-ulid'
+name = 'python-ulid'
+
+homepage = 'https://github.com/mdomke/python-ulid'
+
+[[package]]
+channel = 'arch'
+name = 'python-ulid'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-python-ulid'

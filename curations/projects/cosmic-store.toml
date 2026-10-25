@@ -1,0 +1,12 @@
+id = 'cosmic-store'
+name = 'cosmic-store'
+
+homepage = 'https://github.com/pop-os/cosmic-store'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-store'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-store'

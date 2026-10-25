@@ -1,0 +1,8 @@
+id = 'callisto'
+name = 'callisto'
+
+homepage = 'http://www.e-callisto.org'
+
+[[package]]
+channel = 'debian'
+name = 'callisto'

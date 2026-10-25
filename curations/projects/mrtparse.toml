@@ -1,0 +1,8 @@
+id = 'mrtparse'
+name = 'mrtparse'
+
+homepage = 'https://github.com/YoshiyukiYamauchi/mrtparse'
+
+[[package]]
+channel = 'debian'
+name = 'mrtparse'

@@ -1,0 +1,8 @@
+id = 'ng-utils'
+name = 'ng-utils'
+
+homepage = 'https://salsa.debian.org/debian/ng-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ng-utils'

@@ -1,0 +1,20 @@
+id = 'opendap'
+name = 'opendap'
+
+homepage = 'https://www.opendap.org'
+
+[[package]]
+channel = 'debian'
+name = 'libdap-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libdap-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libdap'
+
+[[package]]
+channel = 'fedora'
+name = 'libdap-devel'

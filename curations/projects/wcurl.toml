@@ -1,0 +1,8 @@
+id = 'wcurl'
+name = 'wcurl'
+
+homepage = 'https://github.com/curl/wcurl'
+
+[[package]]
+channel = 'fedora'
+name = 'wcurl'

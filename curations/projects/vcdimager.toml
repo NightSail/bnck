@@ -1,0 +1,20 @@
+id = 'vcdimager'
+name = 'vcdimager'
+
+homepage = 'https://www.gnu.org/software/vcdimager'
+
+[[package]]
+channel = 'arch'
+name = 'vcdimager'
+
+[[package]]
+channel = 'debian'
+name = 'vcdimager'
+
+[[package]]
+channel = 'fedora'
+name = 'vcdimager'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcdimager'

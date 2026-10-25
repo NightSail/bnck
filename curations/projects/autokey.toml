@@ -1,0 +1,28 @@
+id = 'autokey'
+name = 'autokey'
+
+homepage = 'https://github.com/autokey/autokey'
+
+[[package]]
+channel = 'debian'
+name = 'autokey-common'
+
+[[package]]
+channel = 'debian'
+name = 'autokey-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'autokey-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'autokey-common'
+
+[[package]]
+channel = 'fedora'
+name = 'autokey-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'autokey-qt'

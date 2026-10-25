@@ -1,0 +1,8 @@
+id = 'censys'
+name = 'censys'
+
+repository = 'https://github.com/censys/censys-python.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/censys'

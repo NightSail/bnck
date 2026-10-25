@@ -1,0 +1,8 @@
+id = 'chain-bench'
+name = 'chain-bench'
+
+repository = 'https://github.com/aquasecurity/chain-bench.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chain-bench'

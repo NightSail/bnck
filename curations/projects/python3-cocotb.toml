@@ -1,0 +1,8 @@
+id = 'python3-cocotb'
+name = 'python3-cocotb'
+
+homepage = 'https://www.cocotb.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cocotb'

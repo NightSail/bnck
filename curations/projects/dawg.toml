@@ -1,0 +1,8 @@
+id = 'dawg'
+name = 'dawg'
+
+homepage = 'https://github.com/reedacartwright/dawg'
+
+[[package]]
+channel = 'debian'
+name = 'dawg'

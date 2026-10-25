@@ -1,0 +1,8 @@
+id = 'redet'
+name = 'redet'
+
+homepage = 'https://www.billposer.org/Software/redet.html'
+
+[[package]]
+channel = 'debian'
+name = 'redet'

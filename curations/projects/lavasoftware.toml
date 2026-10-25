@@ -1,0 +1,20 @@
+id = 'lavasoftware'
+name = 'lavasoftware'
+
+homepage = 'https://www.lavasoftware.org'
+
+[[package]]
+channel = 'debian'
+name = 'lava-coordinator'
+
+[[package]]
+channel = 'debian'
+name = 'lava-dispatcher'
+
+[[package]]
+channel = 'debian'
+name = 'lava-dispatcher-host'
+
+[[package]]
+channel = 'debian'
+name = 'lava-server'

@@ -1,0 +1,8 @@
+id = 'dynomite'
+name = 'dynomite'
+
+homepage = 'https://github.com/Netflix/dynomite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dynomite'

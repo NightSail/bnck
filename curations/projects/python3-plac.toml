@@ -1,0 +1,12 @@
+id = 'python3-plac'
+name = 'python3-plac'
+
+homepage = 'https://github.com/ialbert/plac'
+
+[[package]]
+channel = 'debian'
+name = 'python3-plac'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-plac'

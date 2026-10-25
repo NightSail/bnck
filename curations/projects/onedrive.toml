@@ -1,0 +1,12 @@
+id = 'onedrive'
+name = 'onedrive'
+
+homepage = 'https://github.com/abraunegg/onedrive'
+
+[[package]]
+channel = 'debian'
+name = 'onedrive'
+
+[[package]]
+channel = 'fedora'
+name = 'onedrive'

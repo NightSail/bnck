@@ -1,0 +1,10 @@
+id = 'datefudge'
+name = 'datefudge'
+
+[[package]]
+channel = 'debian'
+name = 'datefudge'
+
+[[package]]
+channel = 'fedora'
+name = 'datefudge'

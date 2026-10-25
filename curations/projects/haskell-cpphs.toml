@@ -1,0 +1,8 @@
+id = 'haskell-cpphs'
+name = 'haskell-cpphs'
+
+homepage = 'https://github.com/haskell-pkg-janitors/cpphs'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-cpphs'

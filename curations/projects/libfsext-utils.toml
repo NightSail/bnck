@@ -1,0 +1,8 @@
+id = 'libfsext-utils'
+name = 'libfsext-utils'
+
+homepage = 'https://github.com/libyal/libfsext'
+
+[[package]]
+channel = 'debian'
+name = 'libfsext-utils'

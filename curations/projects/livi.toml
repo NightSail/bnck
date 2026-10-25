@@ -1,0 +1,8 @@
+id = 'livi'
+name = 'livi'
+
+homepage = 'https://gitlab.gnome.org/guidog/livi'
+
+[[package]]
+channel = 'debian'
+name = 'livi'

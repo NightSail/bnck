@@ -1,0 +1,8 @@
+id = 'go-cowsql'
+name = 'go-cowsql'
+
+homepage = 'https://github.com/cowsql/go-cowsql'
+
+[[package]]
+channel = 'debian'
+name = 'go-cowsql'

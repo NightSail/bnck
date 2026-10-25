@@ -1,0 +1,9 @@
+id = 'gerust'
+name = 'gerust'
+
+homepage = 'https://gerust.rs'
+repository = 'https://github.com/mainmatter/gerust.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gerust'

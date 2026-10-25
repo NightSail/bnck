@@ -1,0 +1,8 @@
+id = 'cql-proxy'
+name = 'cql-proxy'
+
+repository = 'https://github.com/datastax/cql-proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cql-proxy'

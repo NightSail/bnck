@@ -1,0 +1,8 @@
+id = 'lexicon'
+name = 'lexicon'
+
+repository = 'https://github.com/dns-lexicon/dns-lexicon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lexicon'

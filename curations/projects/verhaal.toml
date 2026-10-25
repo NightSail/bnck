@@ -1,0 +1,8 @@
+id = 'verhaal'
+name = 'verhaal'
+
+homepage = 'https://git.sr.ht/~gregkh/verhaal'
+
+[[package]]
+channel = 'debian'
+name = 'verhaal'

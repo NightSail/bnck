@@ -1,0 +1,8 @@
+id = 'emmylua-ls'
+name = 'emmylua_ls'
+
+repository = 'https://github.com/EmmyLuaLs/emmylua-analyzer-rust.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emmylua_ls'

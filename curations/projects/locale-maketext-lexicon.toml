@@ -1,0 +1,12 @@
+id = 'locale-maketext-lexicon'
+name = 'Locale-Maketext-Lexicon'
+
+homepage = 'https://metacpan.org/release/Locale-Maketext-Lexicon'
+
+[[package]]
+channel = 'debian'
+name = 'liblocale-maketext-lexicon-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Locale-Maketext-Lexicon'

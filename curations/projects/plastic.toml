@@ -1,0 +1,12 @@
+id = 'plastic'
+name = 'plastic'
+
+homepage = 'https://github.com/Amjad50/plastic'
+
+[[package]]
+channel = 'arch'
+name = 'plastic'
+
+[[package]]
+channel = 'arch'
+name = 'plastic_tui'

@@ -1,0 +1,8 @@
+id = 'fake'
+name = 'fake'
+
+homepage = 'https://projects.horms.net/projects/fake'
+
+[[package]]
+channel = 'debian'
+name = 'fake'

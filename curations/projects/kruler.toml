@@ -1,0 +1,16 @@
+id = 'kruler'
+name = 'kruler'
+
+homepage = 'https://apps.kde.org/kruler'
+
+[[package]]
+channel = 'arch'
+name = 'kruler'
+
+[[package]]
+channel = 'debian'
+name = 'kruler'
+
+[[package]]
+channel = 'fedora'
+name = 'kruler'

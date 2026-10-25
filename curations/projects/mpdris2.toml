@@ -1,0 +1,12 @@
+id = 'mpdris2'
+name = 'mpdris2'
+
+homepage = 'https://github.com/eonpatapon/mpDris2'
+
+[[package]]
+channel = 'debian'
+name = 'mpdris2'
+
+[[package]]
+channel = 'fedora'
+name = 'mpdris2'

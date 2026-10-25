@@ -1,0 +1,12 @@
+id = 'bedtools'
+name = 'bedtools'
+
+homepage = 'https://github.com/arq5x/bedtools2'
+
+[[package]]
+channel = 'debian'
+name = 'bedtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bedtools'

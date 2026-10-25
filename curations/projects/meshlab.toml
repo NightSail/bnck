@@ -1,0 +1,12 @@
+id = 'meshlab'
+name = 'meshlab'
+
+homepage = 'https://www.meshlab.net'
+
+[[package]]
+channel = 'debian'
+name = 'meshlab'
+
+[[package]]
+channel = 'fedora'
+name = 'meshlab'

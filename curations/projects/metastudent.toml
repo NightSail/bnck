@@ -1,0 +1,6 @@
+id = 'metastudent'
+name = 'metastudent'
+
+[[package]]
+channel = 'debian'
+name = 'metastudent'

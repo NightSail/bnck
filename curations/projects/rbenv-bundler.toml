@@ -1,0 +1,8 @@
+id = 'rbenv-bundler'
+name = 'rbenv-bundler'
+
+repository = 'https://github.com/carsomyr/rbenv-bundler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-bundler'

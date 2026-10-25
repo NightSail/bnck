@@ -1,0 +1,20 @@
+id = 'libcheck'
+name = 'libcheck'
+
+homepage = 'https://libcheck.github.io/check'
+
+[[package]]
+channel = 'arch'
+name = 'check'
+
+[[package]]
+channel = 'debian'
+name = 'check'
+
+[[package]]
+channel = 'fedora'
+name = 'check-checkmk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/check'

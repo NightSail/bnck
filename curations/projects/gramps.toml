@@ -1,0 +1,16 @@
+id = 'gramps'
+name = 'gramps'
+
+homepage = 'https://gramps-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'gramps'
+
+[[package]]
+channel = 'debian'
+name = 'gramps'
+
+[[package]]
+channel = 'fedora'
+name = 'gramps'

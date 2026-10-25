@@ -1,0 +1,8 @@
+id = 'hieroglyphic'
+name = 'hieroglyphic'
+
+homepage = 'https://apps.gnome.org/Hieroglyphic'
+
+[[package]]
+channel = 'arch'
+name = 'hieroglyphic'

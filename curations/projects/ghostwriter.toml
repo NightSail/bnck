@@ -1,0 +1,16 @@
+id = 'ghostwriter'
+name = 'ghostwriter'
+
+homepage = 'https://ghostwriter.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'ghostwriter'
+
+[[package]]
+channel = 'debian'
+name = 'ghostwriter'
+
+[[package]]
+channel = 'fedora'
+name = 'ghostwriter'

@@ -1,0 +1,20 @@
+id = 'kerberos-kerberos'
+name = 'kerberos'
+
+homepage = 'https://web.mit.edu/kerberos/www'
+
+[[package]]
+channel = 'fedora'
+name = 'krb5-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'krb5-server'
+
+[[package]]
+channel = 'fedora'
+name = 'krb5-server-ldap'
+
+[[package]]
+channel = 'fedora'
+name = 'krb5-workstation'

@@ -1,0 +1,8 @@
+id = 'seahorse-daemon'
+name = 'seahorse-daemon'
+
+homepage = 'http://developer.gnome.org/libcryptui'
+
+[[package]]
+channel = 'debian'
+name = 'seahorse-daemon'

@@ -1,0 +1,6 @@
+id = 'xfonts-traditional'
+name = 'xfonts-traditional'
+
+[[package]]
+channel = 'debian'
+name = 'xfonts-traditional'

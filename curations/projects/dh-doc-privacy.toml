@@ -1,0 +1,8 @@
+id = 'dh-doc-privacy'
+name = 'dh-doc-privacy'
+
+homepage = 'https://salsa.debian.org/debian/dh-doc-privacy'
+
+[[package]]
+channel = 'debian'
+name = 'dh-doc-privacy'

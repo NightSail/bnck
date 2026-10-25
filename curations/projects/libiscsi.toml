@@ -1,0 +1,20 @@
+id = 'libiscsi'
+name = 'libiscsi'
+
+repository = 'https://github.com/sahlberg/libiscsi.git'
+
+[[package]]
+channel = 'arch'
+name = 'libiscsi'
+
+[[package]]
+channel = 'debian'
+name = 'libiscsi-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libiscsi-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libiscsi'

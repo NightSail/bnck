@@ -1,0 +1,16 @@
+id = 'juk'
+name = 'juk'
+
+homepage = 'https://apps.kde.org/juk'
+
+[[package]]
+channel = 'arch'
+name = 'juk'
+
+[[package]]
+channel = 'debian'
+name = 'juk'
+
+[[package]]
+channel = 'fedora'
+name = 'juk'

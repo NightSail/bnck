@@ -1,0 +1,8 @@
+id = 'wikipedia2text'
+name = 'wikipedia2text'
+
+homepage = 'https://github.com/chrisbra/wikipedia2text'
+
+[[package]]
+channel = 'debian'
+name = 'wikipedia2text'

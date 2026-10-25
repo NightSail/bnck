@@ -1,0 +1,9 @@
+id = 'rrdtool-oetiker'
+name = 'rrdtool'
+
+homepage = 'https://oss.oetiker.ch/rrdtool'
+repository = 'https://github.com/oetiker/rrdtool-1.x.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rrdtool'

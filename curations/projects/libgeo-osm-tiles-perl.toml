@@ -1,0 +1,8 @@
+id = 'libgeo-osm-tiles-perl'
+name = 'libgeo-osm-tiles-perl'
+
+homepage = 'https://metacpan.org/release/Geo-OSM-Tiles'
+
+[[package]]
+channel = 'debian'
+name = 'libgeo-osm-tiles-perl'

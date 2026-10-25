@@ -1,0 +1,12 @@
+id = 'cwiid'
+name = 'cwiid'
+
+homepage = 'https://github.com/abstrakraft/cwiid'
+
+[[package]]
+channel = 'debian'
+name = 'lswm'
+
+[[package]]
+channel = 'debian'
+name = 'wminput'

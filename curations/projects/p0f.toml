@@ -1,0 +1,16 @@
+id = 'p0f'
+name = 'p0f'
+
+homepage = 'http://lcamtuf.coredump.cx/p0f3'
+
+[[package]]
+channel = 'arch'
+name = 'p0f'
+
+[[package]]
+channel = 'debian'
+name = 'p0f'
+
+[[package]]
+channel = 'fedora'
+name = 'p0f'

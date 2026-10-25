@@ -1,0 +1,12 @@
+id = 'maxmind'
+name = 'maxmind'
+
+homepage = 'https://maxmind.github.io/libmaxminddb'
+
+[[package]]
+channel = 'debian'
+name = 'mmdb-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libmaxminddb'

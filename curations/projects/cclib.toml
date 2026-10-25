@@ -1,0 +1,12 @@
+id = 'cclib'
+name = 'cclib'
+
+homepage = 'http://cclib.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'cclib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cclib'

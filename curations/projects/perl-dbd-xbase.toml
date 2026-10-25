@@ -1,0 +1,8 @@
+id = 'perl-dbd-xbase'
+name = 'perl-DBD-XBase'
+
+homepage = 'http://www.adelton.com/perl/DBD-XBase'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBD-XBase'

@@ -1,0 +1,16 @@
+id = 'logwatch'
+name = 'logwatch'
+
+homepage = 'https://sourceforge.net/projects/logwatch/files'
+
+[[package]]
+channel = 'arch'
+name = 'logwatch'
+
+[[package]]
+channel = 'debian'
+name = 'logwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'logwatch'

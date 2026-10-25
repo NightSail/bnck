@@ -1,0 +1,8 @@
+id = 'python-shodan'
+name = 'python-shodan'
+
+homepage = 'https://shodan.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-shodan'

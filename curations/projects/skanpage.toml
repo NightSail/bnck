@@ -1,0 +1,16 @@
+id = 'skanpage'
+name = 'skanpage'
+
+homepage = 'https://apps.kde.org/skanpage'
+
+[[package]]
+channel = 'arch'
+name = 'skanpage'
+
+[[package]]
+channel = 'debian'
+name = 'skanpage'
+
+[[package]]
+channel = 'fedora'
+name = 'skanpage'

@@ -1,0 +1,8 @@
+id = 'wallpaper'
+name = 'wallpaper'
+
+repository = 'https://github.com/sindresorhus/macos-wallpaper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wallpaper'

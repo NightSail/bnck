@@ -1,0 +1,16 @@
+id = 'kamoso'
+name = 'kamoso'
+
+homepage = 'https://apps.kde.org/kamoso'
+
+[[package]]
+channel = 'arch'
+name = 'kamoso'
+
+[[package]]
+channel = 'debian'
+name = 'kamoso'
+
+[[package]]
+channel = 'fedora'
+name = 'kamoso'

@@ -1,0 +1,12 @@
+id = 'chrootuid'
+name = 'chrootuid'
+
+homepage = 'http://ftp.porcupine.org/pub/security/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'chrootuid'
+
+[[package]]
+channel = 'debian'
+name = 'chrootuid'

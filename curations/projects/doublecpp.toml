@@ -1,0 +1,8 @@
+id = 'doublecpp'
+name = 'doublecpp'
+
+homepage = 'https://doublecpp.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doublecpp'

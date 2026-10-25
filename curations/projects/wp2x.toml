@@ -1,0 +1,8 @@
+id = 'wp2x'
+name = 'wp2x'
+
+homepage = 'ftp://ftp.penguin.cz/pub/users/mhi/wp2x'
+
+[[package]]
+channel = 'debian'
+name = 'wp2x'

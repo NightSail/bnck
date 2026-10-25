@@ -1,0 +1,8 @@
+id = 'organicmaps'
+name = 'organicmaps'
+
+homepage = 'https://organicmaps.app'
+
+[[package]]
+channel = 'debian'
+name = 'organicmaps'

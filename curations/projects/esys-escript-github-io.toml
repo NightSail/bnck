@@ -1,0 +1,12 @@
+id = 'esys-escript-github-io'
+name = 'esys-escript.github.io'
+
+homepage = 'https://github.com/esys-escript/esys-escript.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-escript'
+
+[[package]]
+channel = 'debian'
+name = 'python3-escript-mpi'

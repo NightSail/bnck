@@ -1,0 +1,8 @@
+id = 'sceptre'
+name = 'sceptre'
+
+homepage = 'https://docs.sceptre-project.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sceptre'

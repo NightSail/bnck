@@ -1,0 +1,9 @@
+id = 'pipx-pypa'
+name = 'pipx'
+
+homepage = 'https://pipx.pypa.io'
+repository = 'https://github.com/pypa/pipx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipx'

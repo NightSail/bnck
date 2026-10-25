@@ -1,0 +1,9 @@
+id = 'filebrowser'
+name = 'filebrowser'
+
+homepage = 'https://filebrowser.org'
+repository = 'https://github.com/filebrowser/filebrowser.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/filebrowser'

@@ -1,0 +1,8 @@
+id = 'tscriptify'
+name = 'tscriptify'
+
+repository = 'https://github.com/tkrajina/typescriptify-golang-structs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tscriptify'

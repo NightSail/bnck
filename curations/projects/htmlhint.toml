@@ -1,0 +1,8 @@
+id = 'htmlhint'
+name = 'htmlhint'
+
+homepage = 'https://htmlhint.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmlhint'

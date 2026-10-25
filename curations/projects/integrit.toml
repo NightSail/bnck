@@ -1,0 +1,8 @@
+id = 'integrit'
+name = 'integrit'
+
+homepage = 'https://github.com/integrit/integrit'
+
+[[package]]
+channel = 'debian'
+name = 'integrit'

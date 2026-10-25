@@ -1,0 +1,8 @@
+id = 'lsdisplay'
+name = 'lsdisplay'
+
+homepage = 'https://github.com/AGuyMarc/lsdisplay'
+
+[[package]]
+channel = 'debian'
+name = 'lsdisplay'

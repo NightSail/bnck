@@ -1,0 +1,12 @@
+id = 'device-serialport'
+name = 'Device-SerialPort'
+
+homepage = 'https://metacpan.org/release/Device-SerialPort'
+
+[[package]]
+channel = 'debian'
+name = 'libdevice-serialport-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Device-SerialPort'

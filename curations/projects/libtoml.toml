@@ -1,0 +1,8 @@
+id = 'libtoml'
+name = 'libtoml'
+
+homepage = 'https://github.com/ajwans/libtoml'
+
+[[package]]
+channel = 'fedora'
+name = 'libtoml'

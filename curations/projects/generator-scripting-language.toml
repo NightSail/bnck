@@ -1,0 +1,8 @@
+id = 'generator-scripting-language'
+name = 'generator-scripting-language'
+
+homepage = 'https://github.com/zeromq/gsl'
+
+[[package]]
+channel = 'debian'
+name = 'generator-scripting-language'

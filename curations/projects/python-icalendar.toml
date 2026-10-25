@@ -1,0 +1,8 @@
+id = 'python-icalendar'
+name = 'python-icalendar'
+
+homepage = 'https://github.com/collective/icalendar'
+
+[[package]]
+channel = 'arch'
+name = 'python-icalendar'

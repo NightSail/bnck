@@ -1,0 +1,12 @@
+id = 'python3-pyshacl'
+name = 'python3-pyshacl'
+
+homepage = 'https://github.com/RDFLib/pySHACL'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyshacl'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyshacl'

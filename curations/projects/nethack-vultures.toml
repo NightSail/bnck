@@ -1,0 +1,8 @@
+id = 'nethack-vultures'
+name = 'nethack-vultures'
+
+homepage = 'http://www.darkarts.co.za/vulture-for-nethack'
+
+[[package]]
+channel = 'fedora'
+name = 'nethack-vultures'

@@ -1,0 +1,12 @@
+id = 'sbt'
+name = 'sbt'
+
+homepage = 'https://www.scala-sbt.org'
+
+[[package]]
+channel = 'arch'
+name = 'sbt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sbt'

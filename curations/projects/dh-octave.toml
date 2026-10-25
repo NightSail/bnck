@@ -1,0 +1,10 @@
+id = 'dh-octave'
+name = 'dh-octave'
+
+[[package]]
+channel = 'debian'
+name = 'dh-octave'
+
+[[package]]
+channel = 'debian'
+name = 'dh-octave-autopkgtest'

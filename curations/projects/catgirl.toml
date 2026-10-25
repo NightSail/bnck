@@ -1,0 +1,12 @@
+id = 'catgirl'
+name = 'catgirl'
+
+homepage = 'https://git.causal.agency/catgirl/about'
+
+[[package]]
+channel = 'debian'
+name = 'catgirl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/catgirl'

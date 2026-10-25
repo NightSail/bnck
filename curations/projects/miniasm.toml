@@ -1,0 +1,8 @@
+id = 'miniasm'
+name = 'miniasm'
+
+homepage = 'https://github.com/lh3/miniasm'
+
+[[package]]
+channel = 'debian'
+name = 'miniasm'

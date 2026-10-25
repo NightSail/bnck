@@ -1,0 +1,8 @@
+id = 'android-boringssl'
+name = 'android-boringssl'
+
+homepage = 'https://android.googlesource.com/platform/external/boringssl'
+
+[[package]]
+channel = 'debian'
+name = 'android-boringssl'

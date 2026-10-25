@@ -1,0 +1,12 @@
+id = 'mdevctl'
+name = 'mdevctl'
+
+homepage = 'https://github.com/mdevctl/mdevctl'
+
+[[package]]
+channel = 'debian'
+name = 'mdevctl'
+
+[[package]]
+channel = 'fedora'
+name = 'mdevctl'

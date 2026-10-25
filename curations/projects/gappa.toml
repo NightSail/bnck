@@ -1,0 +1,12 @@
+id = 'gappa'
+name = 'gappa'
+
+homepage = 'https://gappa.gitlabpages.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'gappa'
+
+[[package]]
+channel = 'fedora'
+name = 'gappa'

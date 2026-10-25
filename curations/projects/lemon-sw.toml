@@ -1,0 +1,8 @@
+id = 'lemon-sw'
+name = 'lemon'
+
+homepage = 'https://www.hwaci.com/sw/lemon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lemon'

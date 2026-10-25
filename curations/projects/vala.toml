@@ -1,0 +1,32 @@
+id = 'vala'
+name = 'vala'
+
+homepage = 'https://wiki.gnome.org/Projects/Vala'
+
+[[package]]
+channel = 'arch'
+name = 'vala'
+
+[[package]]
+channel = 'debian'
+name = 'valac'
+
+[[package]]
+channel = 'debian'
+name = 'valac-bin'
+
+[[package]]
+channel = 'debian'
+name = 'valadoc'
+
+[[package]]
+channel = 'fedora'
+name = 'vala'
+
+[[package]]
+channel = 'fedora'
+name = 'valadoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vala'

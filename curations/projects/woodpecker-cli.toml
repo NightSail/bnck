@@ -1,0 +1,9 @@
+id = 'woodpecker-cli'
+name = 'woodpecker-cli'
+
+homepage = 'https://woodpecker-ci.org'
+repository = 'https://github.com/woodpecker-ci/woodpecker.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/woodpecker-cli'

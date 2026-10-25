@@ -1,0 +1,6 @@
+id = 'wlc'
+name = 'wlc'
+
+[[package]]
+channel = 'debian'
+name = 'wlc'

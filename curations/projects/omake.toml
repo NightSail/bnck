@@ -1,0 +1,12 @@
+id = 'omake'
+name = 'omake'
+
+homepage = 'http://projects.camlcity.org/projects/omake.html'
+
+[[package]]
+channel = 'debian'
+name = 'omake'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-omake'

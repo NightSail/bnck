@@ -1,0 +1,8 @@
+id = 'crun-containers'
+name = 'crun'
+
+repository = 'https://github.com/containers/crun.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crun'

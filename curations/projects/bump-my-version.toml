@@ -1,0 +1,9 @@
+id = 'bump-my-version'
+name = 'bump-my-version'
+
+homepage = 'https://callowayproject.github.io/bump-my-version'
+repository = 'https://github.com/callowayproject/bump-my-version.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bump-my-version'

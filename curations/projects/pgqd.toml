@@ -1,0 +1,8 @@
+id = 'pgqd'
+name = 'pgqd'
+
+homepage = 'https://github.com/pgq/pgqd'
+
+[[package]]
+channel = 'debian'
+name = 'pgqd'

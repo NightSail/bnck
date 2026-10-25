@@ -1,0 +1,8 @@
+id = 'signalbackup-tools'
+name = 'signalbackup-tools'
+
+homepage = 'https://github.com/bepaald/signalbackup-tools'
+
+[[package]]
+channel = 'debian'
+name = 'signalbackup-tools'

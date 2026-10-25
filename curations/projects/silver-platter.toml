@@ -1,0 +1,6 @@
+id = 'silver-platter'
+name = 'silver-platter'
+
+[[package]]
+channel = 'debian'
+name = 'silver-platter'

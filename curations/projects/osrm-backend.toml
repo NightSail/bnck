@@ -1,0 +1,13 @@
+id = 'osrm-backend'
+name = 'osrm-backend'
+
+homepage = 'https://project-osrm.org'
+repository = 'https://github.com/Project-OSRM/osrm-backend.git'
+
+[[package]]
+channel = 'debian'
+name = 'osrm-backend'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osrm-backend'

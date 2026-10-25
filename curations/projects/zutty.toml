@@ -1,0 +1,12 @@
+id = 'zutty'
+name = 'zutty'
+
+homepage = 'https://tomscii.sig7.se/zutty'
+
+[[package]]
+channel = 'arch'
+name = 'zutty'
+
+[[package]]
+channel = 'debian'
+name = 'zutty'

@@ -1,0 +1,8 @@
+id = 'syrep'
+name = 'syrep'
+
+homepage = 'http://0pointer.de/lennart/projects/syrep'
+
+[[package]]
+channel = 'debian'
+name = 'syrep'

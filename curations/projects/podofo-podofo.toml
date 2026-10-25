@@ -1,0 +1,8 @@
+id = 'podofo-podofo'
+name = 'podofo'
+
+repository = 'https://github.com/podofo/podofo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podofo'

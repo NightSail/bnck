@@ -1,0 +1,8 @@
+id = 'lemonldap-ng-fastcgi-server'
+name = 'lemonldap-ng-fastcgi-server'
+
+homepage = 'https://lemonldap-ng.org'
+
+[[package]]
+channel = 'debian'
+name = 'lemonldap-ng-fastcgi-server'

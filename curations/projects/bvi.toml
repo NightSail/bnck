@@ -1,0 +1,16 @@
+id = 'bvi'
+name = 'bvi'
+
+homepage = 'https://bvi.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'bvi'
+
+[[package]]
+channel = 'fedora'
+name = 'bvi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bvi'

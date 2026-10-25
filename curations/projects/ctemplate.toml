@@ -1,0 +1,12 @@
+id = 'ctemplate'
+name = 'ctemplate'
+
+homepage = 'https://github.com/olafvdspek/ctemplate'
+
+[[package]]
+channel = 'arch'
+name = 'ctemplate'
+
+[[package]]
+channel = 'debian'
+name = 'libctemplate-dev'

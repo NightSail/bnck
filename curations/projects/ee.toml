@@ -1,0 +1,20 @@
+id = 'ee'
+name = 'ee'
+
+homepage = 'https://ee.lbl.gov'
+
+[[package]]
+channel = 'arch'
+name = 'arpwatch'
+
+[[package]]
+channel = 'debian'
+name = 'arpwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'arpwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cf'

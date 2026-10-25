@@ -1,0 +1,12 @@
+id = 'showcert'
+name = 'showcert'
+
+repository = 'https://github.com/yaroslaff/showcert.git'
+
+[[package]]
+channel = 'fedora'
+name = 'showcert'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/showcert'

@@ -1,0 +1,8 @@
+id = 'arch-signoff'
+name = 'arch-signoff'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/arch-signoff'
+
+[[package]]
+channel = 'arch'
+name = 'arch-signoff'

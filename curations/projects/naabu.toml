@@ -1,0 +1,9 @@
+id = 'naabu'
+name = 'naabu'
+
+homepage = 'https://docs.projectdiscovery.io/tools/naabu/overview'
+repository = 'https://github.com/projectdiscovery/naabu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/naabu'

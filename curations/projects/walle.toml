@@ -1,0 +1,8 @@
+id = 'walle'
+name = 'walle'
+
+homepage = 'https://github.com/walle/wiki'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wiki'

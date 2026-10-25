@@ -1,0 +1,12 @@
+id = 'ferm'
+name = 'ferm'
+
+homepage = 'http://ferm.foo-projects.org'
+
+[[package]]
+channel = 'arch'
+name = 'ferm'
+
+[[package]]
+channel = 'debian'
+name = 'ferm'

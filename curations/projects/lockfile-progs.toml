@@ -1,0 +1,16 @@
+id = 'lockfile-progs'
+name = 'lockfile-progs'
+
+homepage = 'https://packages.debian.org/unstable/misc/lockfile-progs'
+
+[[package]]
+channel = 'arch'
+name = 'lockfile-progs'
+
+[[package]]
+channel = 'debian'
+name = 'lockfile-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'lockfile-progs'

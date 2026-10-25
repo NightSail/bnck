@@ -1,0 +1,16 @@
+id = 'passwdqc'
+name = 'passwdqc'
+
+homepage = 'https://www.openwall.com/passwdqc'
+
+[[package]]
+channel = 'debian'
+name = 'passwdqc'
+
+[[package]]
+channel = 'fedora'
+name = 'passwdqc-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/passwdqc'

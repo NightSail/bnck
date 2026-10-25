@@ -1,0 +1,12 @@
+id = 'pkcs11-dump'
+name = 'pkcs11-dump'
+
+homepage = 'https://github.com/alonbl/pkcs11-dump'
+
+[[package]]
+channel = 'debian'
+name = 'pkcs11-dump'
+
+[[package]]
+channel = 'fedora'
+name = 'pkcs11-dump'

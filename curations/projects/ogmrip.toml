@@ -1,0 +1,8 @@
+id = 'ogmrip'
+name = 'ogmrip'
+
+homepage = 'https://ogmrip.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ogmrip'

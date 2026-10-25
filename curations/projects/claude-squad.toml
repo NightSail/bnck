@@ -1,0 +1,9 @@
+id = 'claude-squad'
+name = 'claude-squad'
+
+homepage = 'https://smtg-ai.github.io/claude-squad'
+repository = 'https://github.com/smtg-ai/claude-squad.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claude-squad'

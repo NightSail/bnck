@@ -1,0 +1,8 @@
+id = 'arm-trusted-firmware-tools'
+name = 'arm-trusted-firmware-tools'
+
+homepage = 'https://www.trustedfirmware.org'
+
+[[package]]
+channel = 'debian'
+name = 'arm-trusted-firmware-tools'

@@ -1,0 +1,9 @@
+id = 'oauth2-proxy'
+name = 'oauth2_proxy'
+
+homepage = 'https://oauth2-proxy.github.io/oauth2-proxy'
+repository = 'https://github.com/oauth2-proxy/oauth2-proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oauth2_proxy'

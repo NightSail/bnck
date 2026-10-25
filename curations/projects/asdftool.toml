@@ -1,0 +1,8 @@
+id = 'asdftool'
+name = 'asdftool'
+
+homepage = 'https://github.com/asdf-format/asdf'
+
+[[package]]
+channel = 'debian'
+name = 'asdftool'

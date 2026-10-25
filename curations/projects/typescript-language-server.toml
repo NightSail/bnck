@@ -1,0 +1,12 @@
+id = 'typescript-language-server'
+name = 'typescript-language-server'
+
+homepage = 'https://github.com/typescript-language-server/typescript-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'typescript-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typescript-language-server'

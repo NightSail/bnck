@@ -1,0 +1,8 @@
+id = 'xd'
+name = 'xd'
+
+homepage = 'https://fbb-git.gitlab.io/xd'
+
+[[package]]
+channel = 'debian'
+name = 'xd'

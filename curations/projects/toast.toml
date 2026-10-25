@@ -1,0 +1,8 @@
+id = 'toast'
+name = 'toast'
+
+repository = 'https://github.com/stepchowfun/toast.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toast'

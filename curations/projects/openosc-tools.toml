@@ -1,0 +1,8 @@
+id = 'openosc-tools'
+name = 'openosc-tools'
+
+homepage = 'https://github.com/cisco/openosc'
+
+[[package]]
+channel = 'fedora'
+name = 'openosc-tools'

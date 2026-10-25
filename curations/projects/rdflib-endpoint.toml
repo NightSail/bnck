@@ -1,0 +1,8 @@
+id = 'rdflib-endpoint'
+name = 'rdflib-endpoint'
+
+homepage = 'https://github.com/vemonet/rdflib-endpoint'
+
+[[package]]
+channel = 'debian'
+name = 'rdflib-endpoint'

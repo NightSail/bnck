@@ -1,0 +1,8 @@
+id = 'asm-lsp'
+name = 'asm-lsp'
+
+repository = 'https://github.com/bergercookie/asm-lsp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asm-lsp'

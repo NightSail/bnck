@@ -1,0 +1,8 @@
+id = 'edict'
+name = 'edict'
+
+homepage = 'http://www.csse.monash.edu.au/~jwb/edict.html'
+
+[[package]]
+channel = 'debian'
+name = 'edict'

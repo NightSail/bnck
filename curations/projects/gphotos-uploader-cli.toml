@@ -1,0 +1,8 @@
+id = 'gphotos-uploader-cli'
+name = 'gphotos-uploader-cli'
+
+homepage = 'https://gphotosuploader.github.io/gphotos-uploader-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gphotos-uploader-cli'

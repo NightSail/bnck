@@ -1,0 +1,8 @@
+id = 'mcrcon'
+name = 'mcrcon'
+
+homepage = 'https://github.com/Tiiffi/mcrcon'
+
+[[package]]
+channel = 'fedora'
+name = 'mcrcon'

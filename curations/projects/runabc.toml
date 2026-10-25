@@ -1,0 +1,16 @@
+id = 'runabc'
+name = 'runabc'
+
+homepage = 'https://ifdo.ca/~seymour/runabc/top.html'
+
+[[package]]
+channel = 'debian'
+name = 'abcmidi'
+
+[[package]]
+channel = 'fedora'
+name = 'abcMIDI'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abcmidi'

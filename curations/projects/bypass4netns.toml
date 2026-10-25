@@ -1,0 +1,8 @@
+id = 'bypass4netns'
+name = 'bypass4netns'
+
+homepage = 'https://github.com/rootless-containers/bypass4netns'
+
+[[package]]
+channel = 'debian'
+name = 'bypass4netns'

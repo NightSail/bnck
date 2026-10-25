@@ -1,0 +1,16 @@
+id = 'libemf'
+name = 'libEMF'
+
+homepage = 'https://libemf.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libemf'
+
+[[package]]
+channel = 'debian'
+name = 'printemf'
+
+[[package]]
+channel = 'fedora'
+name = 'libEMF'

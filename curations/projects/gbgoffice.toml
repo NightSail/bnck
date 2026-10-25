@@ -1,0 +1,8 @@
+id = 'gbgoffice'
+name = 'gbgoffice'
+
+homepage = 'http://gbgoffice.info'
+
+[[package]]
+channel = 'debian'
+name = 'gbgoffice'

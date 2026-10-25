@@ -1,0 +1,12 @@
+id = 'nfsometer'
+name = 'nfsometer'
+
+homepage = 'https://wiki.linux-nfs.org/wiki/index.php/NFSometer'
+
+[[package]]
+channel = 'debian'
+name = 'nfsometer'
+
+[[package]]
+channel = 'fedora'
+name = 'nfsometer'

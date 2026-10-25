@@ -1,0 +1,8 @@
+id = 'python3-bioblend'
+name = 'python3-bioblend'
+
+homepage = 'https://github.com/galaxyproject/bioblend'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bioblend'

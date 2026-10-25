@@ -1,0 +1,12 @@
+id = 'usd'
+name = 'usd'
+
+homepage = 'https://openusd.org'
+
+[[package]]
+channel = 'arch'
+name = 'usd'
+
+[[package]]
+channel = 'fedora'
+name = 'usd'

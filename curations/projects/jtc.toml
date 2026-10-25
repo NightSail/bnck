@@ -1,0 +1,8 @@
+id = 'jtc'
+name = 'jtc'
+
+homepage = 'https://github.com/ldn-softdev/jtc'
+
+[[package]]
+channel = 'fedora'
+name = 'jtc'

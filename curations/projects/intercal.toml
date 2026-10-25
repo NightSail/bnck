@@ -1,0 +1,13 @@
+id = 'intercal'
+name = 'intercal'
+
+homepage = 'http://intercal.freeshell.org'
+repository = 'https://gitlab.com/esr/intercal.git'
+
+[[package]]
+channel = 'debian'
+name = 'intercal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/intercal'

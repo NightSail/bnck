@@ -1,0 +1,8 @@
+id = 'node-coveralls'
+name = 'node-coveralls'
+
+homepage = 'https://github.com/nickmerwin/node-coveralls'
+
+[[package]]
+channel = 'debian'
+name = 'node-coveralls'

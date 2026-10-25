@@ -1,0 +1,17 @@
+id = 'libtar'
+name = 'libtar'
+
+homepage = 'https://repo.or.cz/w/libtar.git'
+repository = 'https://repo.or.cz/libtar.git'
+
+[[package]]
+channel = 'arch'
+name = 'libtar'
+
+[[package]]
+channel = 'fedora'
+name = 'libtar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtar'

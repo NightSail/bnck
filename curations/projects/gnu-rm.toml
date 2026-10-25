@@ -1,0 +1,12 @@
+id = 'gnu-rm'
+name = 'gnu-rm'
+
+homepage = 'https://developer.arm.com/open-source/gnu-toolchain/gnu-rm'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-aarch64-none-elf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-arm-none-eabi'

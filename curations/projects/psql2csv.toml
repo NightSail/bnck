@@ -1,0 +1,8 @@
+id = 'psql2csv'
+name = 'psql2csv'
+
+homepage = 'https://github.com/fphilipe/psql2csv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psql2csv'

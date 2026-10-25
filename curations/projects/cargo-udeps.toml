@@ -1,0 +1,12 @@
+id = 'cargo-udeps'
+name = 'cargo-udeps'
+
+homepage = 'https://github.com/est31/cargo-udeps'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-udeps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-udeps'

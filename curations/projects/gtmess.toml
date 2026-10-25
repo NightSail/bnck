@@ -1,0 +1,9 @@
+id = 'gtmess'
+name = 'gtmess'
+
+homepage = 'https://gtmess.sourceforge.net'
+repository = 'https://github.com/geotz/gtmess.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtmess'

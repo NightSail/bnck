@@ -1,0 +1,8 @@
+id = 'flavours'
+name = 'flavours'
+
+repository = 'https://github.com/Misterio77/flavours.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flavours'

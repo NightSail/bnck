@@ -1,0 +1,16 @@
+id = 'danmaq'
+name = 'danmaq'
+
+homepage = 'https://github.com/tuna/danmaQ'
+
+[[package]]
+channel = 'arch'
+name = 'danmaq'
+
+[[package]]
+channel = 'debian'
+name = 'danmaq'
+
+[[package]]
+channel = 'fedora'
+name = 'danmaq'

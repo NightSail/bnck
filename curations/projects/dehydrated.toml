@@ -1,0 +1,20 @@
+id = 'dehydrated'
+name = 'dehydrated'
+
+homepage = 'https://dehydrated.io'
+
+[[package]]
+channel = 'arch'
+name = 'dehydrated'
+
+[[package]]
+channel = 'debian'
+name = 'dehydrated'
+
+[[package]]
+channel = 'fedora'
+name = 'dehydrated'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dehydrated'

@@ -1,0 +1,16 @@
+id = 'neochat'
+name = 'neochat'
+
+homepage = 'https://apps.kde.org/neochat'
+
+[[package]]
+channel = 'arch'
+name = 'neochat'
+
+[[package]]
+channel = 'debian'
+name = 'neochat'
+
+[[package]]
+channel = 'fedora'
+name = 'neochat'

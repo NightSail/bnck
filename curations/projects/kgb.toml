@@ -1,0 +1,6 @@
+id = 'kgb'
+name = 'kgb'
+
+[[package]]
+channel = 'debian'
+name = 'kgb'

@@ -1,0 +1,20 @@
+id = 'openshot'
+name = 'openshot'
+
+homepage = 'https://www.openshot.org'
+
+[[package]]
+channel = 'debian'
+name = 'libopenshot-audio-test-sound'
+
+[[package]]
+channel = 'debian'
+name = 'openshot-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'libopenshot-audio-demo'
+
+[[package]]
+channel = 'fedora'
+name = 'openshot'

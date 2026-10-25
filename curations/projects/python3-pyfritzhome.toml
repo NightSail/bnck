@@ -1,0 +1,8 @@
+id = 'python3-pyfritzhome'
+name = 'python3-pyfritzhome'
+
+homepage = 'https://github.com/hthiery/python-fritzhome'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyfritzhome'

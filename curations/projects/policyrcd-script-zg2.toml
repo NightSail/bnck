@@ -1,0 +1,8 @@
+id = 'policyrcd-script-zg2'
+name = 'policyrcd-script-zg2'
+
+homepage = 'https://tracker.debian.org/pkg/policyrcd-script-zg2'
+
+[[package]]
+channel = 'debian'
+name = 'policyrcd-script-zg2'

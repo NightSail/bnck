@@ -1,0 +1,9 @@
+id = 'appium'
+name = 'appium'
+
+homepage = 'https://appium.io'
+repository = 'https://github.com/appium/appium.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/appium'

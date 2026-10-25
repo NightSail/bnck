@@ -1,0 +1,20 @@
+id = 'sblim'
+name = 'sblim'
+
+homepage = 'https://sourceforge.net/projects/sblim'
+
+[[package]]
+channel = 'debian'
+name = 'sblim-wbemcli'
+
+[[package]]
+channel = 'fedora'
+name = 'sblim-cmpi-syslog'
+
+[[package]]
+channel = 'fedora'
+name = 'sblim-gather'
+
+[[package]]
+channel = 'fedora'
+name = 'sblim-wbemcli'

@@ -1,0 +1,8 @@
+id = 'autorenamer'
+name = 'autorenamer'
+
+homepage = 'https://marcin.owsiany.pl/autorenamer-page'
+
+[[package]]
+channel = 'debian'
+name = 'autorenamer'

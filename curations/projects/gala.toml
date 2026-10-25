@@ -1,0 +1,12 @@
+id = 'gala'
+name = 'gala'
+
+homepage = 'https://github.com/elementary/gala'
+
+[[package]]
+channel = 'arch'
+name = 'gala'
+
+[[package]]
+channel = 'fedora'
+name = 'gala'

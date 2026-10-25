@@ -1,0 +1,8 @@
+id = 'pccts'
+name = 'pccts'
+
+homepage = 'http://www.polhode.com/pccts.html'
+
+[[package]]
+channel = 'debian'
+name = 'pccts'

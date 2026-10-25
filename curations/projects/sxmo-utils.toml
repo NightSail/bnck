@@ -1,0 +1,8 @@
+id = 'sxmo-utils'
+name = 'sxmo-utils'
+
+homepage = 'https://git.sr.ht/~mil/sxmo-utils'
+
+[[package]]
+channel = 'debian'
+name = 'sxmo-utils'

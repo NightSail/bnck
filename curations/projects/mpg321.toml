@@ -1,0 +1,12 @@
+id = 'mpg321'
+name = 'mpg321'
+
+homepage = 'https://mpg321.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mpg321'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpg321'

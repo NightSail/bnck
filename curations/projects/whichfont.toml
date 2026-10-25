@@ -1,0 +1,8 @@
+id = 'whichfont'
+name = 'whichfont'
+
+homepage = 'https://github.com/sudipshil9862/whichfont'
+
+[[package]]
+channel = 'fedora'
+name = 'whichfont'

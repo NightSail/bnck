@@ -1,0 +1,8 @@
+id = 'crowdsec-firewall-bouncer'
+name = 'crowdsec-firewall-bouncer'
+
+homepage = 'https://github.com/crowdsecurity/cs-firewall-bouncer'
+
+[[package]]
+channel = 'debian'
+name = 'crowdsec-firewall-bouncer'

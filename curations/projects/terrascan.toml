@@ -1,0 +1,9 @@
+id = 'terrascan'
+name = 'terrascan'
+
+homepage = 'https://runterrascan.io'
+repository = 'https://github.com/tenable/terrascan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terrascan'

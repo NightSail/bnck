@@ -4,6 +4,10 @@ name = 'udiskie'
 homepage = 'https://github.com/coldfix/udiskie'
 
 [[package]]
+channel = 'arch'
+name = 'udiskie'
+
+[[package]]
 channel = 'debian'
 name = 'udiskie'
 

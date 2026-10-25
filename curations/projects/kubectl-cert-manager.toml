@@ -1,0 +1,8 @@
+id = 'kubectl-cert-manager'
+name = 'kubectl-cert-manager'
+
+homepage = 'https://github.com/jetstack/cert-manager'
+
+[[package]]
+channel = 'arch'
+name = 'kubectl-cert-manager'

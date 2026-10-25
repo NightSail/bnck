@@ -1,0 +1,13 @@
+id = 'cvs-fast-export'
+name = 'cvs-fast-export'
+
+homepage = 'http://www.catb.org/esr/cvs-fast-export'
+repository = 'https://gitlab.com/esr/cvs-fast-export.git'
+
+[[package]]
+channel = 'debian'
+name = 'cvs-fast-export'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cvs-fast-export'

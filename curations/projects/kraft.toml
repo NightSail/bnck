@@ -1,0 +1,8 @@
+id = 'kraft'
+name = 'kraft'
+
+homepage = 'https://volle-kraft-voraus.de'
+
+[[package]]
+channel = 'debian'
+name = 'kraft'

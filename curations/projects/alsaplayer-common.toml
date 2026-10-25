@@ -1,0 +1,8 @@
+id = 'alsaplayer-common'
+name = 'alsaplayer-common'
+
+homepage = 'https://alsaplayer.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'alsaplayer-common'

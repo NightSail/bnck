@@ -1,0 +1,8 @@
+id = 'plopfolio-app'
+name = 'plopfolio.app'
+
+homepage = 'https://mediawiki.gnustep.org/index.php/PlopFolio.app'
+
+[[package]]
+channel = 'debian'
+name = 'plopfolio.app'

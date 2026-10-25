@@ -1,0 +1,12 @@
+id = 'xmlschema'
+name = 'xmlschema'
+
+homepage = 'https://github.com/sissaschool/xmlschema'
+
+[[package]]
+channel = 'arch'
+name = 'python-xmlschema'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xmlschema'

@@ -1,0 +1,12 @@
+id = 'blahtexml'
+name = 'blahtexml'
+
+homepage = 'https://github.com/gvanas/blahtexml'
+
+[[package]]
+channel = 'debian'
+name = 'blahtexml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blahtexml'

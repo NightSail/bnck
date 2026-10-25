@@ -1,0 +1,8 @@
+id = 'bio-eagle'
+name = 'bio-eagle'
+
+homepage = 'https://data.broadinstitute.org/alkesgroup/Eagle'
+
+[[package]]
+channel = 'debian'
+name = 'bio-eagle'

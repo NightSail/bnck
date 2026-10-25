@@ -1,0 +1,13 @@
+id = 'pulumi'
+name = 'pulumi'
+
+homepage = 'https://www.pulumi.com'
+repository = 'https://github.com/pulumi/pulumi.git'
+
+[[package]]
+channel = 'arch'
+name = 'pulumi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulumi'

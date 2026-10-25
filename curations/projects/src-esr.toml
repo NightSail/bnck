@@ -1,0 +1,9 @@
+id = 'src-esr'
+name = 'src'
+
+homepage = 'http://www.catb.org/~esr/src'
+repository = 'https://gitlab.com/esr/src.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/src'

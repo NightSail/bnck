@@ -1,0 +1,8 @@
+id = 'rich-cli'
+name = 'rich-cli'
+
+homepage = 'https://www.textualize.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rich-cli'

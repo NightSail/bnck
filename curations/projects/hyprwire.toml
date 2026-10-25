@@ -1,0 +1,12 @@
+id = 'hyprwire'
+name = 'hyprwire'
+
+homepage = 'https://github.com/hyprwm/hyprwire'
+
+[[package]]
+channel = 'arch'
+name = 'hyprwire'
+
+[[package]]
+channel = 'debian'
+name = 'hyprwire-scanner'

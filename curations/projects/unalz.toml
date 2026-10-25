@@ -1,0 +1,8 @@
+id = 'unalz'
+name = 'unalz'
+
+homepage = 'https://kippler.com/win/unalz'
+
+[[package]]
+channel = 'debian'
+name = 'unalz'

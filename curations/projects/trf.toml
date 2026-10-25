@@ -1,0 +1,8 @@
+id = 'trf'
+name = 'trf'
+
+homepage = 'https://tandem.bu.edu/trf/trf.html'
+
+[[package]]
+channel = 'debian'
+name = 'trf'

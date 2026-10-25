@@ -1,0 +1,9 @@
+id = 'gstreamer-gstreamer'
+name = 'gstreamer'
+
+homepage = 'https://gstreamer.freedesktop.org'
+repository = 'https://gitlab.freedesktop.org/gstreamer/gstreamer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gstreamer'

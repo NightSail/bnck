@@ -1,0 +1,8 @@
+id = 'heudiconv'
+name = 'heudiconv'
+
+homepage = 'https://github.com/nipy/heudiconv'
+
+[[package]]
+channel = 'debian'
+name = 'heudiconv'

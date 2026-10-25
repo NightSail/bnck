@@ -1,0 +1,8 @@
+id = 'iv'
+name = 'iv'
+
+homepage = 'https://github.com/neuronsimulator/iv'
+
+[[package]]
+channel = 'fedora'
+name = 'iv'

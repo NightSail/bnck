@@ -1,0 +1,16 @@
+id = 'qtawesome'
+name = 'qtawesome'
+
+homepage = 'https://github.com/spyder-ide/qtawesome'
+
+[[package]]
+channel = 'arch'
+name = 'python-qtawesome'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qtawesome'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-QtAwesome'

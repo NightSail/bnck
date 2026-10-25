@@ -1,0 +1,16 @@
+id = 'keepass'
+name = 'keepass'
+
+homepage = 'https://keepass.info'
+
+[[package]]
+channel = 'arch'
+name = 'keepass'
+
+[[package]]
+channel = 'debian'
+name = 'keepass2'
+
+[[package]]
+channel = 'fedora'
+name = 'keepass'

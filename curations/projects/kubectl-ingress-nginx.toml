@@ -1,0 +1,8 @@
+id = 'kubectl-ingress-nginx'
+name = 'kubectl-ingress-nginx'
+
+homepage = 'https://github.com/kubernetes/ingress-nginx'
+
+[[package]]
+channel = 'arch'
+name = 'kubectl-ingress-nginx'

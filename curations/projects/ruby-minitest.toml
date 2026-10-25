@@ -1,0 +1,8 @@
+id = 'ruby-minitest'
+name = 'ruby-minitest'
+
+homepage = 'https://github.com/seattlerb/minitest'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-minitest'

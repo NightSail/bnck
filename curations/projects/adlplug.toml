@@ -1,0 +1,12 @@
+id = 'adlplug'
+name = 'adlplug'
+
+homepage = 'https://github.com/jpcima/ADLplug'
+
+[[package]]
+channel = 'arch'
+name = 'adlplug-standalone'
+
+[[package]]
+channel = 'arch'
+name = 'opnplug-standalone'

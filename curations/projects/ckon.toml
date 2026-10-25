@@ -1,0 +1,6 @@
+id = 'ckon'
+name = 'ckon'
+
+[[package]]
+channel = 'debian'
+name = 'ckon'

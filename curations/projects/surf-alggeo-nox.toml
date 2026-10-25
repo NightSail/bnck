@@ -1,0 +1,8 @@
+id = 'surf-alggeo-nox'
+name = 'surf-alggeo-nox'
+
+homepage = 'https://surf.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'surf-alggeo-nox'

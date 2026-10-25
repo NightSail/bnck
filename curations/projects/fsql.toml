@@ -1,0 +1,8 @@
+id = 'fsql'
+name = 'fsql'
+
+repository = 'https://github.com/kashav/fsql.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fsql'

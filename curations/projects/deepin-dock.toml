@@ -1,0 +1,8 @@
+id = 'deepin-dock'
+name = 'deepin-dock'
+
+homepage = 'https://github.com/linuxdeepin/dde-dock'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-dock'

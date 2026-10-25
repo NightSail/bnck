@@ -4,5 +4,13 @@ name = 'sway'
 homepage = 'https://github.com/swaywm/sway'
 
 [[package]]
+channel = 'arch'
+name = 'sway'
+
+[[package]]
+channel = 'debian'
+name = 'sway'
+
+[[package]]
 channel = 'fedora'
 name = 'sway'

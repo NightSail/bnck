@@ -1,0 +1,8 @@
+id = 'xctesthtmlreport'
+name = 'xctesthtmlreport'
+
+repository = 'https://github.com/XCTestHTMLReport/XCTestHTMLReport.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xctesthtmlreport'

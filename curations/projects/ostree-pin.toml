@@ -1,0 +1,8 @@
+id = 'ostree-pin'
+name = 'ostree-pin'
+
+homepage = 'https://hackage.haskell.org/package/ostree-pin'
+
+[[package]]
+channel = 'fedora'
+name = 'ostree-pin'

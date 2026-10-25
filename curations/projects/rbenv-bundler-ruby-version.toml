@@ -1,0 +1,8 @@
+id = 'rbenv-bundler-ruby-version'
+name = 'rbenv-bundler-ruby-version'
+
+repository = 'https://github.com/aripollak/rbenv-bundler-ruby-version.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-bundler-ruby-version'

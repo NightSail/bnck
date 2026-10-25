@@ -1,0 +1,8 @@
+id = 'python3-denon-rs232'
+name = 'python3-denon-rs232'
+
+homepage = 'https://github.com/home-assistant-libs/denon-rs232'
+
+[[package]]
+channel = 'debian'
+name = 'python3-denon-rs232'

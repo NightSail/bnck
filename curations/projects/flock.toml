@@ -1,0 +1,8 @@
+id = 'flock'
+name = 'flock'
+
+homepage = 'https://github.com/discoteq/flock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flock'

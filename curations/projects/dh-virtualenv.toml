@@ -1,0 +1,8 @@
+id = 'dh-virtualenv'
+name = 'dh-virtualenv'
+
+homepage = 'https://www.github.com/spotify/dh-virtualenv'
+
+[[package]]
+channel = 'debian'
+name = 'dh-virtualenv'

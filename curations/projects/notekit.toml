@@ -1,0 +1,8 @@
+id = 'notekit'
+name = 'notekit'
+
+homepage = 'https://github.com/blackhole89/notekit'
+
+[[package]]
+channel = 'fedora'
+name = 'notekit'

@@ -1,0 +1,12 @@
+id = 'ripasso'
+name = 'ripasso'
+
+homepage = 'https://github.com/cortex/ripasso'
+
+[[package]]
+channel = 'arch'
+name = 'ripasso'
+
+[[package]]
+channel = 'debian'
+name = 'ripasso-cursive'

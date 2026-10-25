@@ -1,0 +1,8 @@
+id = 'python3-pyqt-distutils'
+name = 'python3-pyqt-distutils'
+
+homepage = 'https://github.com/ColinDuquesnoy/pyqt_distutils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyqt-distutils'

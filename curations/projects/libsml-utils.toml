@@ -1,0 +1,8 @@
+id = 'libsml-utils'
+name = 'libsml-utils'
+
+homepage = 'https://github.com/volkszaehler/libsml'
+
+[[package]]
+channel = 'debian'
+name = 'libsml-utils'

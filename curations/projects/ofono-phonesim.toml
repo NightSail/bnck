@@ -1,0 +1,8 @@
+id = 'ofono-phonesim'
+name = 'ofono-phonesim'
+
+homepage = 'https://git.kernel.org/pub/scm/network/ofono/phonesim.git'
+
+[[package]]
+channel = 'debian'
+name = 'ofono-phonesim'

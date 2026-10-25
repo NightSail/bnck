@@ -1,0 +1,8 @@
+id = 'grype'
+name = 'grype'
+
+repository = 'https://github.com/anchore/grype.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grype'

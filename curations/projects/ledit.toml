@@ -1,0 +1,12 @@
+id = 'ledit'
+name = 'ledit'
+
+homepage = 'https://pauillac.inria.fr/~ddr/ledit'
+
+[[package]]
+channel = 'debian'
+name = 'ledit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ledit'

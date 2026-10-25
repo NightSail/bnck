@@ -1,0 +1,8 @@
+id = 'agreader'
+name = 'AGReader'
+
+homepage = 'http://main.aminet.net/misc/unix'
+
+[[package]]
+channel = 'fedora'
+name = 'AGReader'

@@ -1,0 +1,8 @@
+id = 'dnsdiag'
+name = 'dnsdiag'
+
+homepage = 'https://dnsdiag.org'
+
+[[package]]
+channel = 'debian'
+name = 'dnsdiag'

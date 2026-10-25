@@ -1,0 +1,8 @@
+id = 'mstpd'
+name = 'mstpd'
+
+homepage = 'https://github.com/mstpd/mstpd'
+
+[[package]]
+channel = 'debian'
+name = 'mstpd'

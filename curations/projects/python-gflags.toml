@@ -1,0 +1,8 @@
+id = 'python-gflags'
+name = 'python-gflags'
+
+homepage = 'https://github.com/google/python-gflags'
+
+[[package]]
+channel = 'arch'
+name = 'python-gflags'

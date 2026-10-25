@@ -1,0 +1,8 @@
+id = 'python-ipyparallel'
+name = 'python-ipyparallel'
+
+homepage = 'https://pypi.org/project/ipyparallel'
+
+[[package]]
+channel = 'arch'
+name = 'python-ipyparallel'

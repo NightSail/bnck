@@ -1,0 +1,8 @@
+id = 'libimage-exiftool-perl'
+name = 'libimage-exiftool-perl'
+
+homepage = 'https://exiftool.org'
+
+[[package]]
+channel = 'debian'
+name = 'libimage-exiftool-perl'

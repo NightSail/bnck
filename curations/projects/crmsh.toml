@@ -1,0 +1,8 @@
+id = 'crmsh'
+name = 'crmsh'
+
+homepage = 'https://crmsh.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'crmsh'

@@ -1,0 +1,8 @@
+id = 'eoconv'
+name = 'eoconv'
+
+homepage = 'http://en.nothingisreal.com/wiki/Eoconv'
+
+[[package]]
+channel = 'debian'
+name = 'eoconv'

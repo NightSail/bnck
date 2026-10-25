@@ -1,0 +1,12 @@
+id = 'fastbit'
+name = 'fastbit'
+
+homepage = 'https://sdm.lbl.gov/fastbit'
+
+[[package]]
+channel = 'fedora'
+name = 'fastbit'
+
+[[package]]
+channel = 'fedora'
+name = 'fastbit-devel'

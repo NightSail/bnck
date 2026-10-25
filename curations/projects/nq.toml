@@ -1,0 +1,17 @@
+id = 'nq'
+name = 'nq'
+
+homepage = 'https://git.vuxu.org/nq/about'
+repository = 'https://github.com/leahneukirchen/nq.git'
+
+[[package]]
+channel = 'debian'
+name = 'nq'
+
+[[package]]
+channel = 'fedora'
+name = 'nq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nq'

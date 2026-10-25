@@ -1,0 +1,12 @@
+id = 'module-scandeps'
+name = 'Module-ScanDeps'
+
+homepage = 'https://metacpan.org/release/Module-ScanDeps'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-scandeps-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-ScanDeps'

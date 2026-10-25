@@ -1,0 +1,8 @@
+id = 'postsrsd'
+name = 'postsrsd'
+
+homepage = 'https://github.com/roehling/postsrsd'
+
+[[package]]
+channel = 'debian'
+name = 'postsrsd'

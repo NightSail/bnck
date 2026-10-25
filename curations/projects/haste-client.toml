@@ -1,0 +1,9 @@
+id = 'haste-client'
+name = 'haste-client'
+
+homepage = 'https://hastebin.com'
+repository = 'https://github.com/toptal/haste-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haste-client'

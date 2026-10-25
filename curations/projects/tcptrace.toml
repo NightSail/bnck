@@ -1,0 +1,8 @@
+id = 'tcptrace'
+name = 'tcptrace'
+
+homepage = 'http://www.tcptrace.org'
+
+[[package]]
+channel = 'debian'
+name = 'tcptrace'

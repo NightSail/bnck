@@ -1,0 +1,8 @@
+id = 'dropbox-uploader'
+name = 'dropbox-uploader'
+
+homepage = 'https://www.andreafabrizi.it/2016/01/01/Dropbox-Uploader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dropbox-uploader'

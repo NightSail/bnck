@@ -1,0 +1,8 @@
+id = 'syntaxerl'
+name = 'syntaxerl'
+
+homepage = 'https://github.com/ten0s/syntaxerl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/syntaxerl'

@@ -1,0 +1,6 @@
+id = 'xjdic'
+name = 'xjdic'
+
+[[package]]
+channel = 'debian'
+name = 'xjdic'

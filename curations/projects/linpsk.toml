@@ -1,0 +1,8 @@
+id = 'linpsk'
+name = 'linpsk'
+
+homepage = 'http://linpsk.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'linpsk'

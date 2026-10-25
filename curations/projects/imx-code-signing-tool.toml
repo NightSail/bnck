@@ -1,0 +1,6 @@
+id = 'imx-code-signing-tool'
+name = 'imx-code-signing-tool'
+
+[[package]]
+channel = 'debian'
+name = 'imx-code-signing-tool'

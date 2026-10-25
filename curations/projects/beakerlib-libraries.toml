@@ -1,0 +1,8 @@
+id = 'beakerlib-libraries'
+name = 'beakerlib-libraries'
+
+homepage = 'https://pagure.io/beakerlib-libraries'
+
+[[package]]
+channel = 'fedora'
+name = 'beakerlib-libraries'

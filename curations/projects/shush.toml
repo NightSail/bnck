@@ -1,0 +1,13 @@
+id = 'shush'
+name = 'shush'
+
+homepage = 'https://web.taranis.org/shush'
+repository = 'https://github.com/realestate-com-au/shush.git'
+
+[[package]]
+channel = 'debian'
+name = 'shush'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shush'

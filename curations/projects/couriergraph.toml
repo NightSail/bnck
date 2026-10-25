@@ -1,0 +1,6 @@
+id = 'couriergraph'
+name = 'couriergraph'
+
+[[package]]
+channel = 'debian'
+name = 'couriergraph'

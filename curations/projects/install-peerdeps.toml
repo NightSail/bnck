@@ -1,0 +1,8 @@
+id = 'install-peerdeps'
+name = 'install-peerdeps'
+
+homepage = 'https://github.com/nathanhleung/install-peerdeps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/install-peerdeps'

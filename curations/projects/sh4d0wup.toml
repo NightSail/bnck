@@ -1,0 +1,12 @@
+id = 'sh4d0wup'
+name = 'sh4d0wup'
+
+homepage = 'https://github.com/kpcyrd/sh4d0wup'
+
+[[package]]
+channel = 'arch'
+name = 'sh4d0wup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sh4d0wup'

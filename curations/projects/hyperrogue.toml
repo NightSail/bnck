@@ -1,0 +1,8 @@
+id = 'hyperrogue'
+name = 'hyperrogue'
+
+homepage = 'http://www.roguetemple.com/z/hyper'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperrogue'

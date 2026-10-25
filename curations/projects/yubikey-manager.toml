@@ -1,0 +1,16 @@
+id = 'yubikey-manager'
+name = 'yubikey-manager'
+
+homepage = 'https://developers.yubico.com/yubikey-manager'
+
+[[package]]
+channel = 'arch'
+name = 'yubikey-manager'
+
+[[package]]
+channel = 'debian'
+name = 'yubikey-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'yubikey-manager'

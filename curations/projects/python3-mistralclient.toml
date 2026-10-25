@@ -1,0 +1,12 @@
+id = 'python3-mistralclient'
+name = 'python3-mistralclient'
+
+homepage = 'https://opendev.org/openstack/python-mistralclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mistralclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mistralclient'

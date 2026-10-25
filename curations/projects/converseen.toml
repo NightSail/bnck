@@ -1,0 +1,16 @@
+id = 'converseen'
+name = 'converseen'
+
+homepage = 'https://converseen.fasterland.net'
+
+[[package]]
+channel = 'arch'
+name = 'converseen'
+
+[[package]]
+channel = 'debian'
+name = 'converseen'
+
+[[package]]
+channel = 'fedora'
+name = 'converseen'

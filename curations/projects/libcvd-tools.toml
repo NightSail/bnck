@@ -1,0 +1,8 @@
+id = 'libcvd-tools'
+name = 'libcvd-tools'
+
+homepage = 'http://www.edwardrosten.com/cvd'
+
+[[package]]
+channel = 'debian'
+name = 'libcvd-tools'

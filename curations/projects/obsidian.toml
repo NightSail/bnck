@@ -1,0 +1,12 @@
+id = 'obsidian'
+name = 'obsidian'
+
+homepage = 'https://obsidian.md'
+
+[[package]]
+channel = 'arch'
+name = 'obsidian'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/obsidian'

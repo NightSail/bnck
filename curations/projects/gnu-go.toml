@@ -1,0 +1,21 @@
+id = 'gnu-go'
+name = 'gnu-go'
+
+homepage = 'https://www.gnu.org/software/gnugo'
+repository = 'https://git.savannah.gnu.org/git/gnugo.git'
+
+[[package]]
+channel = 'arch'
+name = 'gnugo'
+
+[[package]]
+channel = 'debian'
+name = 'gnugo'
+
+[[package]]
+channel = 'fedora'
+name = 'gnugo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-go'

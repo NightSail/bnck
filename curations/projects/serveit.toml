@@ -1,0 +1,8 @@
+id = 'serveit'
+name = 'serveit'
+
+repository = 'https://github.com/garybernhardt/serveit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/serveit'

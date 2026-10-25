@@ -1,0 +1,8 @@
+id = 'weaver'
+name = 'weaver'
+
+homepage = 'https://github.com/scribd/Weaver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weaver'

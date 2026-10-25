@@ -1,0 +1,8 @@
+id = 'owl-lisp'
+name = 'owl-lisp'
+
+homepage = 'https://gitlab.com/owl-lisp/owl.git'
+
+[[package]]
+channel = 'arch'
+name = 'owl-lisp'

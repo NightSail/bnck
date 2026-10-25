@@ -1,0 +1,8 @@
+id = 'djvu2pdf'
+name = 'djvu2pdf'
+
+homepage = 'https://0x2a.at/site/projects/djvu2pdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djvu2pdf'

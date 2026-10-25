@@ -1,0 +1,16 @@
+id = 'bitlbee'
+name = 'bitlbee'
+
+homepage = 'https://www.bitlbee.org'
+
+[[package]]
+channel = 'debian'
+name = 'bitlbee'
+
+[[package]]
+channel = 'debian'
+name = 'bitlbee-libpurple'
+
+[[package]]
+channel = 'fedora'
+name = 'bitlbee'

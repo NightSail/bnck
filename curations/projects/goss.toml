@@ -1,0 +1,8 @@
+id = 'goss'
+name = 'goss'
+
+homepage = 'https://github.com/goss-org/goss'
+
+[[package]]
+channel = 'debian'
+name = 'goss'

@@ -1,0 +1,9 @@
+id = 'libgphoto2'
+name = 'libgphoto2'
+
+homepage = 'http://www.gphoto.org/proj/libgphoto2'
+repository = 'https://github.com/gphoto/libgphoto2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgphoto2'

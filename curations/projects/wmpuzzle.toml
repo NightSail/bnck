@@ -1,0 +1,6 @@
+id = 'wmpuzzle'
+name = 'wmpuzzle'
+
+[[package]]
+channel = 'debian'
+name = 'wmpuzzle'

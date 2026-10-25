@@ -1,0 +1,13 @@
+id = 'navidrome'
+name = 'navidrome'
+
+homepage = 'https://www.navidrome.org'
+repository = 'https://github.com/navidrome/navidrome.git'
+
+[[package]]
+channel = 'arch'
+name = 'navidrome'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/navidrome'

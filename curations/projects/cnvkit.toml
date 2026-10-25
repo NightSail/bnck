@@ -1,0 +1,8 @@
+id = 'cnvkit'
+name = 'cnvkit'
+
+homepage = 'https://cnvkit.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'cnvkit'

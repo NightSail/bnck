@@ -1,0 +1,8 @@
+id = 'tmux-mem-cpu-load'
+name = 'tmux-mem-cpu-load'
+
+repository = 'https://github.com/thewtex/tmux-mem-cpu-load.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmux-mem-cpu-load'

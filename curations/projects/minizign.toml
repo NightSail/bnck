@@ -1,0 +1,8 @@
+id = 'minizign'
+name = 'minizign'
+
+repository = 'https://github.com/jedisct1/zig-minisign.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minizign'

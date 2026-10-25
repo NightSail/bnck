@@ -1,0 +1,8 @@
+id = 'dvanalyzer'
+name = 'dvanalyzer'
+
+homepage = 'https://mediaarea.net/DVAnalyzer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvanalyzer'

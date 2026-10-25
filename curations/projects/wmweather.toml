@@ -1,0 +1,14 @@
+id = 'wmweather'
+name = 'wmweather'
+
+[[package]]
+channel = 'debian'
+name = 'wmweather'
+
+[[package]]
+channel = 'debian'
+name = 'wmweather+'
+
+[[package]]
+channel = 'fedora'
+name = 'wmweather+'

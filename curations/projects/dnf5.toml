@@ -1,0 +1,32 @@
+id = 'dnf5'
+name = 'dnf5'
+
+homepage = 'https://github.com/rpm-software-management/dnf5'
+
+[[package]]
+channel = 'arch'
+name = 'dnf5'
+
+[[package]]
+channel = 'debian'
+name = 'dnf5'
+
+[[package]]
+channel = 'debian'
+name = 'dnf5-server'
+
+[[package]]
+channel = 'fedora'
+name = 'dnf5'
+
+[[package]]
+channel = 'fedora'
+name = 'dnf5-plugin-automatic'
+
+[[package]]
+channel = 'fedora'
+name = 'dnf5daemon-client'
+
+[[package]]
+channel = 'fedora'
+name = 'dnf5daemon-server'

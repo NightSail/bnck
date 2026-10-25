@@ -1,0 +1,8 @@
+id = 'aliyunpan'
+name = 'aliyunpan'
+
+repository = 'https://github.com/tickstep/aliyunpan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aliyunpan'

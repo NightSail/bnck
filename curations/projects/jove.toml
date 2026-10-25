@@ -1,0 +1,12 @@
+id = 'jove'
+name = 'jove'
+
+homepage = 'https://directory.fsf.org/wiki/Jove'
+
+[[package]]
+channel = 'debian'
+name = 'jove'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jove'

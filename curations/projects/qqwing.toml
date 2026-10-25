@@ -1,0 +1,16 @@
+id = 'qqwing'
+name = 'qqwing'
+
+homepage = 'https://qqwing.com'
+
+[[package]]
+channel = 'arch'
+name = 'qqwing'
+
+[[package]]
+channel = 'debian'
+name = 'qqwing'
+
+[[package]]
+channel = 'fedora'
+name = 'qqwing'

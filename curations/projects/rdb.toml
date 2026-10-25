@@ -1,0 +1,8 @@
+id = 'rdb'
+name = 'rdb'
+
+repository = 'https://github.com/HDT3213/rdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rdb'

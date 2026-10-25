@@ -1,0 +1,8 @@
+id = 'spectools'
+name = 'spectools'
+
+homepage = 'https://www.kismetwireless.net/static/spectools'
+
+[[package]]
+channel = 'debian'
+name = 'spectools'

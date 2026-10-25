@@ -1,0 +1,8 @@
+id = 'python3-impacket'
+name = 'python3-impacket'
+
+homepage = 'https://github.com/SecureAuthCorp/impacket'
+
+[[package]]
+channel = 'debian'
+name = 'python3-impacket'

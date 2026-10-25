@@ -1,0 +1,8 @@
+id = 'azurite'
+name = 'azurite'
+
+homepage = 'https://github.com/Azure/Azurite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azurite'

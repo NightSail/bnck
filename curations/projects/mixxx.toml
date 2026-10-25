@@ -1,0 +1,12 @@
+id = 'mixxx'
+name = 'mixxx'
+
+homepage = 'https://www.mixxx.org'
+
+[[package]]
+channel = 'arch'
+name = 'mixxx'
+
+[[package]]
+channel = 'debian'
+name = 'mixxx'

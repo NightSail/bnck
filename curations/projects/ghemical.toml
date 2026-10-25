@@ -1,0 +1,8 @@
+id = 'ghemical'
+name = 'ghemical'
+
+homepage = 'http://www.bioinformatics.org/ghemical/ghemical/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'ghemical'

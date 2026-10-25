@@ -1,0 +1,8 @@
+id = 'perl-template-toolkit'
+name = 'perl-Template-Toolkit'
+
+homepage = 'http://www.template-toolkit.org'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Template-Toolkit'

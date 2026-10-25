@@ -1,0 +1,8 @@
+id = 'userv-utils'
+name = 'userv-utils'
+
+homepage = 'https://www.chiark.greenend.org.uk/ucgi/~ian/git'
+
+[[package]]
+channel = 'debian'
+name = 'userv-utils'

@@ -1,0 +1,8 @@
+id = 'goaurrpc'
+name = 'goaurrpc'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/goaurrpc'
+
+[[package]]
+channel = 'arch'
+name = 'goaurrpc'

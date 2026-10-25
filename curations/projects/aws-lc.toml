@@ -1,0 +1,8 @@
+id = 'aws-lc'
+name = 'aws-lc'
+
+homepage = 'https://github.com/aws/aws-lc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-lc'

@@ -1,0 +1,12 @@
+id = 'redwax-tool'
+name = 'redwax-tool'
+
+homepage = 'https://redwax.eu/rt'
+
+[[package]]
+channel = 'fedora'
+name = 'redwax-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redwax-tool'

@@ -1,0 +1,8 @@
+id = 'libhtml-tidy5-perl'
+name = 'libhtml-tidy5-perl'
+
+homepage = 'https://metacpan.org/release/HTML-Tidy5'
+
+[[package]]
+channel = 'debian'
+name = 'libhtml-tidy5-perl'

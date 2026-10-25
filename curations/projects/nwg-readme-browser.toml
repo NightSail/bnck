@@ -1,0 +1,8 @@
+id = 'nwg-readme-browser'
+name = 'nwg-readme-browser'
+
+homepage = 'https://github.com/nwg-piotr/nwg-readme-browser'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-readme-browser'

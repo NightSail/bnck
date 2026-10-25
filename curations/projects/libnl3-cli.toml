@@ -1,0 +1,8 @@
+id = 'libnl3-cli'
+name = 'libnl3-cli'
+
+homepage = 'http://www.infradead.org/~tgr/libnl'
+
+[[package]]
+channel = 'fedora'
+name = 'libnl3-cli'

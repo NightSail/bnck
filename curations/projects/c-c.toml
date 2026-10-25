@@ -1,0 +1,12 @@
+id = 'c-c'
+name = 'c'
+
+homepage = 'https://www.maxmind.com/app/c'
+
+[[package]]
+channel = 'arch'
+name = 'geoip'
+
+[[package]]
+channel = 'fedora'
+name = 'GeoIP'

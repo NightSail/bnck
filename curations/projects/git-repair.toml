@@ -1,0 +1,16 @@
+id = 'git-repair'
+name = 'git-repair'
+
+homepage = 'https://git-repair.branchable.com'
+
+[[package]]
+channel = 'arch'
+name = 'git-repair'
+
+[[package]]
+channel = 'debian'
+name = 'git-repair'
+
+[[package]]
+channel = 'fedora'
+name = 'git-repair'

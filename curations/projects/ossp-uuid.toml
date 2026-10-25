@@ -1,0 +1,10 @@
+id = 'ossp-uuid'
+name = 'ossp-uuid'
+
+[[package]]
+channel = 'debian'
+name = 'libossp-uuid-dev'
+
+[[package]]
+channel = 'debian'
+name = 'uuid'

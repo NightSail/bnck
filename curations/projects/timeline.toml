@@ -1,0 +1,8 @@
+id = 'timeline'
+name = 'timeline'
+
+homepage = 'http://thetimelineproj.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'timeline'

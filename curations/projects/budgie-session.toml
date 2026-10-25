@@ -1,0 +1,16 @@
+id = 'budgie-session'
+name = 'budgie-session'
+
+homepage = 'https://github.com/BuddiesOfBudgie/budgie-session'
+
+[[package]]
+channel = 'arch'
+name = 'budgie-session'
+
+[[package]]
+channel = 'debian'
+name = 'budgie-session'
+
+[[package]]
+channel = 'fedora'
+name = 'budgie-session'

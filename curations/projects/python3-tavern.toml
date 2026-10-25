@@ -1,0 +1,8 @@
+id = 'python3-tavern'
+name = 'python3-tavern'
+
+homepage = 'https://taverntesting.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tavern'

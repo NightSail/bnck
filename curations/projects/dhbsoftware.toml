@@ -1,0 +1,16 @@
+id = 'dhbsoftware'
+name = 'dhbsoftware'
+
+homepage = 'https://www.davidhbailey.com/dhbsoftware'
+
+[[package]]
+channel = 'arch'
+name = 'qd'
+
+[[package]]
+channel = 'fedora'
+name = 'qd-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qd'

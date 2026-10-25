@@ -1,0 +1,8 @@
+id = 'libykneomgr'
+name = 'libykneomgr'
+
+homepage = 'http://opensource.yubico.com/libykneomgr'
+
+[[package]]
+channel = 'fedora'
+name = 'libykneomgr'

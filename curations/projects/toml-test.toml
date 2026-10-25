@@ -1,0 +1,8 @@
+id = 'toml-test'
+name = 'toml-test'
+
+homepage = 'https://github.com/toml-lang/toml-test'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toml-test'

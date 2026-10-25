@@ -1,0 +1,8 @@
+id = 'evcxr-repl'
+name = 'evcxr_repl'
+
+homepage = 'https://github.com/evcxr/evcxr'
+
+[[package]]
+channel = 'arch'
+name = 'evcxr_repl'

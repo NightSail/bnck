@@ -1,0 +1,16 @@
+id = 'nheko'
+name = 'nheko'
+
+homepage = 'https://nheko.im/nheko-reborn/nheko'
+
+[[package]]
+channel = 'arch'
+name = 'nheko'
+
+[[package]]
+channel = 'debian'
+name = 'nheko'
+
+[[package]]
+channel = 'fedora'
+name = 'nheko'

@@ -1,0 +1,8 @@
+id = 'arpalert'
+name = 'arpalert'
+
+homepage = 'https://www.arpalert.org/arpalert.html'
+
+[[package]]
+channel = 'debian'
+name = 'arpalert'

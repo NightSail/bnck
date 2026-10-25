@@ -1,0 +1,6 @@
+id = 'diffmon'
+name = 'diffmon'
+
+[[package]]
+channel = 'debian'
+name = 'diffmon'

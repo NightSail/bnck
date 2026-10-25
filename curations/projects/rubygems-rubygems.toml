@@ -1,0 +1,8 @@
+id = 'rubygems-rubygems'
+name = 'rubygems'
+
+homepage = 'https://rubygems.org'
+
+[[package]]
+channel = 'arch'
+name = 'rubygems'

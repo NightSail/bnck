@@ -1,0 +1,12 @@
+id = 'read-edid'
+name = 'read-edid'
+
+homepage = 'http://www.polypux.org/projects/read-edid'
+
+[[package]]
+channel = 'arch'
+name = 'read-edid'
+
+[[package]]
+channel = 'debian'
+name = 'read-edid'

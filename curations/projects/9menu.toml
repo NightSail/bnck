@@ -1,0 +1,8 @@
+id = '9menu'
+name = '9menu'
+
+homepage = 'https://github.com/arnoldrobbins/9menu'
+
+[[package]]
+channel = 'debian'
+name = '9menu'

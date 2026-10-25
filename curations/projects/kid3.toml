@@ -1,0 +1,44 @@
+id = 'kid3'
+name = 'kid3'
+
+homepage = 'https://kid3.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'kid3'
+
+[[package]]
+channel = 'arch'
+name = 'kid3-common'
+
+[[package]]
+channel = 'arch'
+name = 'kid3-qt'
+
+[[package]]
+channel = 'debian'
+name = 'kid3'
+
+[[package]]
+channel = 'debian'
+name = 'kid3-cli'
+
+[[package]]
+channel = 'debian'
+name = 'kid3-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'kid3'
+
+[[package]]
+channel = 'fedora'
+name = 'kid3-common'
+
+[[package]]
+channel = 'fedora'
+name = 'kid3-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kid3'

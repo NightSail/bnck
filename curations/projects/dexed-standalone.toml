@@ -1,0 +1,8 @@
+id = 'dexed-standalone'
+name = 'dexed-standalone'
+
+homepage = 'https://asb2m10.github.io/dexed'
+
+[[package]]
+channel = 'arch'
+name = 'dexed-standalone'

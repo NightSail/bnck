@@ -1,0 +1,8 @@
+id = 'gocloc'
+name = 'gocloc'
+
+repository = 'https://github.com/hhatto/gocloc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gocloc'

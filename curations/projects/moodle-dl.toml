@@ -1,0 +1,8 @@
+id = 'moodle-dl'
+name = 'moodle-dl'
+
+homepage = 'https://github.com/C0D3D3V/Moodle-DL'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moodle-dl'

@@ -1,0 +1,8 @@
+id = 'three-body'
+name = 'three-body'
+
+repository = 'https://github.com/rustq/3body-lang.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/three-body'

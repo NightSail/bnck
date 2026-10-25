@@ -1,0 +1,8 @@
+id = 'maui-mauiman'
+name = 'maui-mauiman'
+
+homepage = 'https://invent.kde.org/maui/mauiman'
+
+[[package]]
+channel = 'fedora'
+name = 'maui-mauiman'

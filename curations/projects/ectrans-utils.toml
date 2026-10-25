@@ -1,0 +1,8 @@
+id = 'ectrans-utils'
+name = 'ectrans-utils'
+
+homepage = 'https://github.com/ecmwf-ifs/ectrans'
+
+[[package]]
+channel = 'debian'
+name = 'ectrans-utils'

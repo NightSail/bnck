@@ -1,0 +1,9 @@
+id = 'parsedmarc'
+name = 'parsedmarc'
+
+homepage = 'https://domainaware.github.io/parsedmarc'
+repository = 'https://github.com/domainaware/parsedmarc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/parsedmarc'

@@ -1,0 +1,8 @@
+id = 'ministat'
+name = 'ministat'
+
+homepage = 'https://man.freebsd.org/cgi/man.cgi'
+
+[[package]]
+channel = 'debian'
+name = 'ministat'

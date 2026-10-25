@@ -10,3 +10,7 @@ name = 'powertop'
 [[package]]
 channel = 'debian'
 name = 'powertop'
+
+[[package]]
+channel = 'fedora'
+name = 'powertop'

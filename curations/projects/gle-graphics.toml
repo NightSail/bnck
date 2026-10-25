@@ -1,0 +1,12 @@
+id = 'gle-graphics'
+name = 'gle-graphics'
+
+homepage = 'http://www.gle-graphics.org'
+
+[[package]]
+channel = 'fedora'
+name = 'gle'
+
+[[package]]
+channel = 'fedora'
+name = 'qgle'

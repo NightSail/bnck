@@ -1,0 +1,6 @@
+id = 'gnome-menus'
+name = 'gnome-menus'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-menus'

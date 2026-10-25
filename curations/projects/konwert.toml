@@ -1,0 +1,8 @@
+id = 'konwert'
+name = 'konwert'
+
+homepage = 'https://web.archive.org/web/20041207025451/http://qrczak.ids.net.pl/programy/linux/konwert'
+
+[[package]]
+channel = 'debian'
+name = 'konwert'

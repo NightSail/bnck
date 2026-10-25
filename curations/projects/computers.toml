@@ -1,0 +1,12 @@
+id = 'computers'
+name = 'computers'
+
+homepage = 'http://web.archive.org/web/20070817165301/http://www.hcs.harvard.edu/~dholland/computers/netkit.html'
+
+[[package]]
+channel = 'fedora'
+name = 'talk'
+
+[[package]]
+channel = 'fedora'
+name = 'talk-server'

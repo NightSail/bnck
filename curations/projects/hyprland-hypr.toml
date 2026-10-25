@@ -1,0 +1,8 @@
+id = 'hyprland-hypr'
+name = 'hyprland'
+
+homepage = 'https://hypr.land'
+
+[[package]]
+channel = 'debian'
+name = 'hyprland'

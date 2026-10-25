@@ -1,0 +1,8 @@
+id = 'clojurescript'
+name = 'clojurescript'
+
+repository = 'https://github.com/clojure/clojurescript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clojurescript'

@@ -1,0 +1,8 @@
+id = 'libadasockets-dev'
+name = 'libadasockets-dev'
+
+homepage = 'https://www.rfc1149.net/devel/adasockets.html'
+
+[[package]]
+channel = 'debian'
+name = 'libadasockets-dev'

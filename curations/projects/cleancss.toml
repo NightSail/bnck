@@ -1,0 +1,8 @@
+id = 'cleancss'
+name = 'cleancss'
+
+homepage = 'https://github.com/jakubpawlowicz/clean-css'
+
+[[package]]
+channel = 'debian'
+name = 'cleancss'

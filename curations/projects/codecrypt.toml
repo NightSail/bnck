@@ -1,0 +1,6 @@
+id = 'codecrypt'
+name = 'codecrypt'
+
+[[package]]
+channel = 'debian'
+name = 'codecrypt'

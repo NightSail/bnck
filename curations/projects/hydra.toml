@@ -1,0 +1,8 @@
+id = 'hydra'
+name = 'hydra'
+
+repository = 'https://github.com/vanhauser-thc/thc-hydra.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hydra'

@@ -1,0 +1,8 @@
+id = 'pmidi'
+name = 'pmidi'
+
+homepage = 'https://www.parabola.me.uk/alsa/pmidi.html'
+
+[[package]]
+channel = 'debian'
+name = 'pmidi'

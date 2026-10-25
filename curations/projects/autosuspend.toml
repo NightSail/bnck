@@ -1,0 +1,8 @@
+id = 'autosuspend'
+name = 'autosuspend'
+
+homepage = 'https://github.com/languitar/autosuspend'
+
+[[package]]
+channel = 'debian'
+name = 'autosuspend'

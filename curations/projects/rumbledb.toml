@@ -1,0 +1,8 @@
+id = 'rumbledb'
+name = 'rumbledb'
+
+homepage = 'https://rumbledb.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rumbledb'

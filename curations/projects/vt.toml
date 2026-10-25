@@ -1,0 +1,8 @@
+id = 'vt'
+name = 'vt'
+
+homepage = 'https://genome.sph.umich.edu/wiki/Vt'
+
+[[package]]
+channel = 'debian'
+name = 'vt'

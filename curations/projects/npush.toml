@@ -1,0 +1,9 @@
+id = 'npush'
+name = 'npush'
+
+homepage = 'https://npush.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/npush/code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/npush'

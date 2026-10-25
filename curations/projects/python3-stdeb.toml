@@ -1,0 +1,8 @@
+id = 'python3-stdeb'
+name = 'python3-stdeb'
+
+homepage = 'https://github.com/astraw/stdeb'
+
+[[package]]
+channel = 'debian'
+name = 'python3-stdeb'

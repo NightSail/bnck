@@ -1,0 +1,8 @@
+id = 'hfsleuth'
+name = 'hfsleuth'
+
+homepage = 'https://newosxbook.com/tools/hfsleuth.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/hfsleuth'

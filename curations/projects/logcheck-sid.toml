@@ -1,0 +1,8 @@
+id = 'logcheck-sid'
+name = 'logcheck'
+
+homepage = 'https://packages.debian.org/sid/logcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logcheck'

@@ -1,0 +1,16 @@
+id = 'sserver'
+name = 'sserver'
+
+homepage = 'http://sourceforge.net/projects/sserver'
+
+[[package]]
+channel = 'fedora'
+name = 'rcssmonitor'
+
+[[package]]
+channel = 'fedora'
+name = 'rcssserver'
+
+[[package]]
+channel = 'fedora'
+name = 'rcssserver-gui'

@@ -1,0 +1,16 @@
+id = 'pg-auto-failover'
+name = 'pg_auto_failover'
+
+homepage = 'https://github.com/citusdata/pg_auto_failover'
+
+[[package]]
+channel = 'arch'
+name = 'pg_auto_failover'
+
+[[package]]
+channel = 'debian'
+name = 'pg-auto-failover-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'pg_auto_failover'

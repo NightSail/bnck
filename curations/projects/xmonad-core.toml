@@ -1,0 +1,8 @@
+id = 'xmonad-core'
+name = 'xmonad-core'
+
+homepage = 'https://hackage.haskell.org/package/xmonad'
+
+[[package]]
+channel = 'fedora'
+name = 'xmonad-core'

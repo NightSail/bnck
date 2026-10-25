@@ -1,0 +1,8 @@
+id = 'netstress'
+name = 'netstress'
+
+homepage = 'http://sourceforge.net/projects/netstress'
+
+[[package]]
+channel = 'debian'
+name = 'netstress'

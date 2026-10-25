@@ -1,0 +1,8 @@
+id = 'dda'
+name = 'dda'
+
+homepage = 'https://github.com/DataDog/datadog-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dda'

@@ -1,0 +1,8 @@
+id = 'node-buble'
+name = 'node-buble'
+
+homepage = 'https://github.com/bublejs/buble'
+
+[[package]]
+channel = 'debian'
+name = 'node-buble'

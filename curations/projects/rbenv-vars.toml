@@ -1,0 +1,8 @@
+id = 'rbenv-vars'
+name = 'rbenv-vars'
+
+repository = 'https://github.com/rbenv/rbenv-vars.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-vars'

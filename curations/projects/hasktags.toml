@@ -1,0 +1,12 @@
+id = 'hasktags'
+name = 'hasktags'
+
+homepage = 'https://github.com/MarcWeber/hasktags'
+
+[[package]]
+channel = 'arch'
+name = 'hasktags'
+
+[[package]]
+channel = 'debian'
+name = 'hasktags'

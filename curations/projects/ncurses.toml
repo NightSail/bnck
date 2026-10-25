@@ -1,0 +1,16 @@
+id = 'ncurses'
+name = 'ncurses'
+
+homepage = 'https://invisible-island.net/ncurses/ncurses.html'
+
+[[package]]
+channel = 'arch'
+name = 'ncurses'
+
+[[package]]
+channel = 'fedora'
+name = 'ncurses'
+
+[[package]]
+channel = 'fedora'
+name = 'ncurses-devel'

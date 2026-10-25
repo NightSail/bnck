@@ -1,0 +1,9 @@
+id = 'videoalchemy'
+name = 'videoalchemy'
+
+homepage = 'https://viddotech.github.io/videoalchemy'
+repository = 'https://github.com/viddotech/videoalchemy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/videoalchemy'

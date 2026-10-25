@@ -1,0 +1,8 @@
+id = 'auto-07p'
+name = 'auto-07p'
+
+homepage = 'https://github.com/auto-07p/auto-07p'
+
+[[package]]
+channel = 'debian'
+name = 'auto-07p'

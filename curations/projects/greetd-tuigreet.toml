@@ -1,0 +1,8 @@
+id = 'greetd-tuigreet'
+name = 'greetd-tuigreet'
+
+homepage = 'https://github.com/tuigreet/tuigreet'
+
+[[package]]
+channel = 'arch'
+name = 'greetd-tuigreet'

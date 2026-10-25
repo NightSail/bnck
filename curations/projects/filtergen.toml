@@ -1,0 +1,8 @@
+id = 'filtergen'
+name = 'filtergen'
+
+homepage = 'https://spacepants.org/src/filtergen'
+
+[[package]]
+channel = 'debian'
+name = 'filtergen'

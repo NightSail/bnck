@@ -1,0 +1,12 @@
+id = 'editor'
+name = 'editor'
+
+homepage = 'https://github.com/istoph/editor'
+
+[[package]]
+channel = 'debian'
+name = 'chr'
+
+[[package]]
+channel = 'debian'
+name = 'chr-tiny'

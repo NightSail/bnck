@@ -1,0 +1,8 @@
+id = 'soundgrain'
+name = 'soundgrain'
+
+homepage = 'https://github.com/belangeo/soundgrain'
+
+[[package]]
+channel = 'debian'
+name = 'soundgrain'

@@ -1,0 +1,8 @@
+id = 'xfce4-terminal-theme-selector'
+name = 'xfce4-terminal-theme-selector'
+
+homepage = 'https://github.com/krekhovx/xfce4-terminal-theme-selector'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-terminal-theme-selector'

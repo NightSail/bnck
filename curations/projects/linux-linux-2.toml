@@ -1,0 +1,12 @@
+id = 'linux-linux-2'
+name = 'linux'
+
+homepage = 'https://computing.llnl.gov/linux/whatsup.html'
+
+[[package]]
+channel = 'fedora'
+name = 'whatsup'
+
+[[package]]
+channel = 'fedora'
+name = 'whatsup-pingd'

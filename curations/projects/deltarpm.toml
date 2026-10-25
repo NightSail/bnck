@@ -1,0 +1,20 @@
+id = 'deltarpm'
+name = 'deltarpm'
+
+homepage = 'https://github.com/rpm-software-management/deltarpm'
+
+[[package]]
+channel = 'debian'
+name = 'deltarpm'
+
+[[package]]
+channel = 'fedora'
+name = 'deltaiso'
+
+[[package]]
+channel = 'fedora'
+name = 'deltarpm'
+
+[[package]]
+channel = 'fedora'
+name = 'drpmsync'

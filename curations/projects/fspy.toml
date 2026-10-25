@@ -1,0 +1,8 @@
+id = 'fspy'
+name = 'fspy'
+
+homepage = 'http://mytty.org/fspy'
+
+[[package]]
+channel = 'debian'
+name = 'fspy'

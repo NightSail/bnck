@@ -1,0 +1,12 @@
+id = 'checkmake'
+name = 'checkmake'
+
+repository = 'https://github.com/checkmake/checkmake.git'
+
+[[package]]
+channel = 'debian'
+name = 'checkmake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checkmake'

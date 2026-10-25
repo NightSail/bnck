@@ -1,0 +1,8 @@
+id = 'grive2'
+name = 'grive2'
+
+homepage = 'http://yourcmc.ru/wiki/Grive2'
+
+[[package]]
+channel = 'fedora'
+name = 'grive2'

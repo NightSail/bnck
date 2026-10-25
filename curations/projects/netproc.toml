@@ -1,0 +1,8 @@
+id = 'netproc'
+name = 'netproc'
+
+homepage = 'https://github.com/berghetti/netproc'
+
+[[package]]
+channel = 'debian'
+name = 'netproc'

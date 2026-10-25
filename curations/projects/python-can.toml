@@ -1,0 +1,16 @@
+id = 'python-can'
+name = 'python-can'
+
+homepage = 'https://github.com/hardbyte/python-can'
+
+[[package]]
+channel = 'arch'
+name = 'python-can'
+
+[[package]]
+channel = 'debian'
+name = 'python3-can'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-can'

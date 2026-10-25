@@ -1,0 +1,8 @@
+id = 'golangci-lint-langserver'
+name = 'golangci-lint-langserver'
+
+repository = 'https://github.com/nametake/golangci-lint-langserver.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/golangci-lint-langserver'

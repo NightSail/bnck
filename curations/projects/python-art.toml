@@ -1,0 +1,8 @@
+id = 'python-art'
+name = 'python-art'
+
+homepage = 'https://github.com/sepandhaghighi/art'
+
+[[package]]
+channel = 'arch'
+name = 'python-art'

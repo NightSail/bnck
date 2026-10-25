@@ -1,0 +1,8 @@
+id = 'deviceinfo-tools'
+name = 'deviceinfo-tools'
+
+homepage = 'https://gitlab.com/ubports/development/core/deviceinfo'
+
+[[package]]
+channel = 'debian'
+name = 'deviceinfo-tools'

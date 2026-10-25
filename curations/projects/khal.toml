@@ -4,6 +4,10 @@ name = 'khal'
 repository = 'https://github.com/pimutils/khal'
 
 [[package]]
+channel = 'arch'
+name = 'khal'
+
+[[package]]
 channel = 'debian'
 name = 'khal'
 

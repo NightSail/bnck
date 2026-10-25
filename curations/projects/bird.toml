@@ -14,3 +14,7 @@ name = 'bird2'
 [[package]]
 channel = 'debian'
 name = 'bird3'
+
+[[package]]
+channel = 'fedora'
+name = 'bird'

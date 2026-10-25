@@ -1,0 +1,8 @@
+id = 'range2cidr'
+name = 'range2cidr'
+
+homepage = 'https://ipinfo.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/range2cidr'

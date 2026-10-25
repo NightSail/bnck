@@ -1,0 +1,8 @@
+id = 'python3-spython'
+name = 'python3-spython'
+
+homepage = 'https://github.com/singularityhub/singularity-cli'
+
+[[package]]
+channel = 'debian'
+name = 'python3-spython'

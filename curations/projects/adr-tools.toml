@@ -1,0 +1,12 @@
+id = 'adr-tools'
+name = 'adr-tools'
+
+homepage = 'https://github.com/npryce/adr-tools'
+
+[[package]]
+channel = 'debian'
+name = 'adr-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adr-tools'

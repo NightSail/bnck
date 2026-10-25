@@ -1,0 +1,8 @@
+id = 'pe-bear'
+name = 'pe-bear'
+
+homepage = 'https://github.com/hasherezade/pe-bear'
+
+[[package]]
+channel = 'fedora'
+name = 'pe-bear'

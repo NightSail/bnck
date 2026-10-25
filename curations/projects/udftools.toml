@@ -1,0 +1,16 @@
+id = 'udftools'
+name = 'udftools'
+
+homepage = 'https://github.com/pali/udftools'
+
+[[package]]
+channel = 'arch'
+name = 'udftools'
+
+[[package]]
+channel = 'debian'
+name = 'udftools'
+
+[[package]]
+channel = 'fedora'
+name = 'udftools'

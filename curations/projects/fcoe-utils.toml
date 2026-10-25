@@ -1,0 +1,12 @@
+id = 'fcoe-utils'
+name = 'fcoe-utils'
+
+homepage = 'https://github.com/openSUSE/fcoe-utils'
+
+[[package]]
+channel = 'debian'
+name = 'fcoe-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'fcoe-utils'

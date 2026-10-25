@@ -1,0 +1,8 @@
+id = 'inertiablast'
+name = 'inertiablast'
+
+homepage = 'http://identicalsoftware.com/inertiablast'
+
+[[package]]
+channel = 'fedora'
+name = 'inertiablast'

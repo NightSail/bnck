@@ -1,0 +1,8 @@
+id = 'pajeng'
+name = 'pajeng'
+
+homepage = 'https://github.com/schnorr/pajeng'
+
+[[package]]
+channel = 'debian'
+name = 'pajeng'

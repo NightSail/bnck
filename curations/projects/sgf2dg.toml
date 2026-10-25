@@ -1,0 +1,6 @@
+id = 'sgf2dg'
+name = 'sgf2dg'
+
+[[package]]
+channel = 'debian'
+name = 'sgf2dg'

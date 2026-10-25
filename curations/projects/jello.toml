@@ -4,6 +4,10 @@ name = 'jello'
 homepage = 'https://github.com/kellyjonbrazil/jello'
 
 [[package]]
+channel = 'debian'
+name = 'jello'
+
+[[package]]
 channel = 'fedora'
 name = 'jello'
 

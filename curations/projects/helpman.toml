@@ -1,0 +1,8 @@
+id = 'helpman'
+name = 'helpman'
+
+homepage = 'https://git.fosscommunity.in/SRNathan/Helpman'
+
+[[package]]
+channel = 'debian'
+name = 'helpman'

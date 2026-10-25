@@ -1,0 +1,8 @@
+id = 'zenlisp'
+name = 'zenlisp'
+
+homepage = 'https://www.t3x.org'
+
+[[package]]
+channel = 'debian'
+name = 'zenlisp'

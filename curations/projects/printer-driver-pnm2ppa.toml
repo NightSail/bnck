@@ -1,0 +1,8 @@
+id = 'printer-driver-pnm2ppa'
+name = 'printer-driver-pnm2ppa'
+
+homepage = 'http://pnm2ppa.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-pnm2ppa'

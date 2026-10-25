@@ -1,0 +1,8 @@
+id = 'bindep'
+name = 'bindep'
+
+homepage = 'https://docs.opendev.org/opendev/bindep'
+
+[[package]]
+channel = 'fedora'
+name = 'bindep'

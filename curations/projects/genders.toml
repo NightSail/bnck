@@ -1,0 +1,16 @@
+id = 'genders'
+name = 'genders'
+
+homepage = 'https://github.com/chaos/genders'
+
+[[package]]
+channel = 'debian'
+name = 'genders'
+
+[[package]]
+channel = 'fedora'
+name = 'genders'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/genders'

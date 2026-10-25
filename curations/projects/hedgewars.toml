@@ -1,0 +1,16 @@
+id = 'hedgewars'
+name = 'hedgewars'
+
+homepage = 'https://hedgewars.org'
+
+[[package]]
+channel = 'arch'
+name = 'hedgewars'
+
+[[package]]
+channel = 'fedora'
+name = 'hedgewars'
+
+[[package]]
+channel = 'fedora'
+name = 'hedgewars-server'

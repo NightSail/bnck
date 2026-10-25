@@ -1,0 +1,8 @@
+id = 'node-pre-gyp'
+name = 'node-pre-gyp'
+
+homepage = 'https://github.com/mapbox/node-pre-gyp'
+
+[[package]]
+channel = 'debian'
+name = 'node-pre-gyp'

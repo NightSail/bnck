@@ -1,0 +1,8 @@
+id = 'envstore'
+name = 'envstore'
+
+homepage = 'http://derf.homelinux.org/projects/envstore'
+
+[[package]]
+channel = 'debian'
+name = 'envstore'

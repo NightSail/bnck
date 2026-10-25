@@ -1,0 +1,8 @@
+id = 'tauon-music-box'
+name = 'tauon-music-box'
+
+homepage = 'https://tauonmusicbox.rocks'
+
+[[package]]
+channel = 'arch'
+name = 'tauon-music-box'

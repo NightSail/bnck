@@ -1,0 +1,8 @@
+id = 'connect'
+name = 'connect'
+
+repository = 'https://github.com/gotoh/ssh-connect.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/connect'

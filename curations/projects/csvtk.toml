@@ -1,0 +1,9 @@
+id = 'csvtk'
+name = 'csvtk'
+
+homepage = 'https://bioinf.shenwei.me/csvtk'
+repository = 'https://github.com/shenwei356/csvtk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csvtk'

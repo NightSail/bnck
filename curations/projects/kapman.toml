@@ -1,0 +1,12 @@
+id = 'kapman'
+name = 'kapman'
+
+homepage = 'https://apps.kde.org/kapman'
+
+[[package]]
+channel = 'arch'
+name = 'kapman'
+
+[[package]]
+channel = 'fedora'
+name = 'kapman'

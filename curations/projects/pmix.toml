@@ -1,0 +1,9 @@
+id = 'pmix'
+name = 'pmix'
+
+homepage = 'https://openpmix.org'
+repository = 'https://github.com/openpmix/openpmix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pmix'

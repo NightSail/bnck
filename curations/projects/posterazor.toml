@@ -1,0 +1,12 @@
+id = 'posterazor'
+name = 'posterazor'
+
+homepage = 'https://github.com/aportale/posterazor'
+
+[[package]]
+channel = 'arch'
+name = 'posterazor'
+
+[[package]]
+channel = 'debian'
+name = 'posterazor'

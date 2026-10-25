@@ -1,0 +1,12 @@
+id = 'counterfeiter'
+name = 'counterfeiter'
+
+repository = 'https://github.com/maxbrunsfeld/counterfeiter.git'
+
+[[package]]
+channel = 'debian'
+name = 'counterfeiter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/counterfeiter'

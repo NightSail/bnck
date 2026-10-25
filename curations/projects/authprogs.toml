@@ -1,0 +1,8 @@
+id = 'authprogs'
+name = 'authprogs'
+
+homepage = 'https://github.com/daethnir/authprogs'
+
+[[package]]
+channel = 'debian'
+name = 'authprogs'

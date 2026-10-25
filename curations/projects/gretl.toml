@@ -1,0 +1,12 @@
+id = 'gretl'
+name = 'gretl'
+
+homepage = 'http://gretl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gretl'
+
+[[package]]
+channel = 'fedora'
+name = 'gretl'

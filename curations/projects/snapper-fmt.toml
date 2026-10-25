@@ -1,0 +1,8 @@
+id = 'snapper-fmt'
+name = 'snapper-fmt'
+
+homepage = 'https://github.com/TurtleTech-ehf/snapper'
+
+[[package]]
+channel = 'arch'
+name = 'snapper-fmt'

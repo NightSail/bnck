@@ -1,0 +1,9 @@
+id = 'hidapi'
+name = 'hidapi'
+
+homepage = 'https://libusb.info/hidapi'
+repository = 'https://github.com/libusb/hidapi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hidapi'

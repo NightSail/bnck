@@ -1,0 +1,13 @@
+id = 'phoronix-test-suite'
+name = 'phoronix-test-suite'
+
+homepage = 'http://phoronix-test-suite.com'
+repository = 'https://github.com/phoronix-test-suite/phoronix-test-suite.git'
+
+[[package]]
+channel = 'fedora'
+name = 'phoronix-test-suite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phoronix-test-suite'

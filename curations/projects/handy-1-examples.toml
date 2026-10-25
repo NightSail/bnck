@@ -1,0 +1,8 @@
+id = 'handy-1-examples'
+name = 'handy-1-examples'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/libhandy'
+
+[[package]]
+channel = 'debian'
+name = 'handy-1-examples'

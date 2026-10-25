@@ -1,0 +1,8 @@
+id = 'sqruff'
+name = 'sqruff'
+
+repository = 'https://github.com/quarylabs/sqruff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqruff'

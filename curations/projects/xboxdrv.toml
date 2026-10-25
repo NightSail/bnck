@@ -1,0 +1,8 @@
+id = 'xboxdrv'
+name = 'xboxdrv'
+
+homepage = 'https://xboxdrv.gitlab.io'
+
+[[package]]
+channel = 'debian'
+name = 'xboxdrv'

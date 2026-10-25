@@ -1,0 +1,8 @@
+id = 'opengl-games-utils'
+name = 'opengl-games-utils'
+
+homepage = 'http://fedoraproject.org/wiki/SIGs/Games'
+
+[[package]]
+channel = 'fedora'
+name = 'opengl-games-utils'

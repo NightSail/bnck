@@ -1,0 +1,8 @@
+id = 'perl-pod2pdf'
+name = 'perl-pod2pdf'
+
+homepage = 'https://metacpan.org/release/pod2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-pod2pdf'

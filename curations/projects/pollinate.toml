@@ -1,0 +1,8 @@
+id = 'pollinate'
+name = 'pollinate'
+
+homepage = 'http://launchpad.net/pollinate'
+
+[[package]]
+channel = 'debian'
+name = 'pollinate'

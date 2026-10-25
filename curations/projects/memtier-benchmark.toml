@@ -1,0 +1,8 @@
+id = 'memtier-benchmark'
+name = 'memtier_benchmark'
+
+homepage = 'https://github.com/redis/memtier_benchmark'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/memtier_benchmark'

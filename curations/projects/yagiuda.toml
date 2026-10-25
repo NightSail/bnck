@@ -1,0 +1,8 @@
+id = 'yagiuda'
+name = 'yagiuda'
+
+homepage = 'https://www.g8wrb.co.uk/yagi'
+
+[[package]]
+channel = 'debian'
+name = 'yagiuda'

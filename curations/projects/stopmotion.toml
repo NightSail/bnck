@@ -1,0 +1,12 @@
+id = 'stopmotion'
+name = 'stopmotion'
+
+homepage = 'https://invent.kde.org/multimedia/stopmotion'
+
+[[package]]
+channel = 'arch'
+name = 'stopmotion'
+
+[[package]]
+channel = 'debian'
+name = 'stopmotion'

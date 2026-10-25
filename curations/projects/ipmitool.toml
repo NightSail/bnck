@@ -1,0 +1,12 @@
+id = 'ipmitool'
+name = 'ipmitool'
+
+homepage = 'https://codeberg.org/IPMITool/ipmitool'
+
+[[package]]
+channel = 'arch'
+name = 'ipmitool'
+
+[[package]]
+channel = 'debian'
+name = 'ipmitool'

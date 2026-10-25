@@ -1,0 +1,16 @@
+id = 'xpad'
+name = 'xpad'
+
+homepage = 'https://launchpad.net/xpad'
+
+[[package]]
+channel = 'arch'
+name = 'xpad'
+
+[[package]]
+channel = 'debian'
+name = 'xpad'
+
+[[package]]
+channel = 'fedora'
+name = 'xpad'

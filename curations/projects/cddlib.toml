@@ -1,0 +1,12 @@
+id = 'cddlib'
+name = 'cddlib'
+
+homepage = 'https://www.inf.ethz.ch/personal/fukudak/cdd_home'
+
+[[package]]
+channel = 'arch'
+name = 'cddlib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cddlib'

@@ -1,0 +1,8 @@
+id = 'crossgrader'
+name = 'crossgrader'
+
+homepage = 'https://salsa.debian.org/crossgrading-team/debian-crossgrading'
+
+[[package]]
+channel = 'debian'
+name = 'crossgrader'

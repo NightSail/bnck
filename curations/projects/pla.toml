@@ -1,0 +1,8 @@
+id = 'pla'
+name = 'pla'
+
+homepage = 'https://www.arpalert.org/pla.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pla'

@@ -1,0 +1,16 @@
+id = 'acpi'
+name = 'acpi'
+
+homepage = 'https://sourceforge.net/projects/acpiclient/files/acpiclient'
+
+[[package]]
+channel = 'arch'
+name = 'acpi'
+
+[[package]]
+channel = 'debian'
+name = 'acpi'
+
+[[package]]
+channel = 'fedora'
+name = 'acpi'

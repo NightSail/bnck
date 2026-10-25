@@ -1,0 +1,8 @@
+id = 'miniconda'
+name = 'miniconda'
+
+homepage = 'https://www.anaconda.com/docs/getting-started/miniconda/main'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/miniconda'

@@ -1,0 +1,20 @@
+id = 'mapnik'
+name = 'mapnik'
+
+homepage = 'https://mapnik.org'
+
+[[package]]
+channel = 'arch'
+name = 'mapnik'
+
+[[package]]
+channel = 'debian'
+name = 'libmapnik-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mapnik-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mapnik-utils'

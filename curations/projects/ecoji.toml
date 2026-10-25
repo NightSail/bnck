@@ -1,0 +1,9 @@
+id = 'ecoji'
+name = 'ecoji'
+
+homepage = 'https://ecoji.io'
+repository = 'https://github.com/keith-turner/ecoji.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ecoji'

@@ -1,0 +1,6 @@
+id = 'textdraw'
+name = 'textdraw'
+
+[[package]]
+channel = 'debian'
+name = 'textdraw'

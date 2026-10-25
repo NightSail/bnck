@@ -1,0 +1,8 @@
+id = 'analizo'
+name = 'analizo'
+
+homepage = 'https://www.analizo.org'
+
+[[package]]
+channel = 'debian'
+name = 'analizo'

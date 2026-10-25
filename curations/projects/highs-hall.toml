@@ -1,0 +1,8 @@
+id = 'highs-hall'
+name = 'highs'
+
+homepage = 'https://www.maths.ed.ac.uk/hall/HiGHS'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/highs'

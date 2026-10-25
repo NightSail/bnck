@@ -1,0 +1,8 @@
+id = 'edlin'
+name = 'edlin'
+
+homepage = 'https://github.com/FDOS/edlin'
+
+[[package]]
+channel = 'debian'
+name = 'edlin'

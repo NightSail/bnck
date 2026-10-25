@@ -1,0 +1,8 @@
+id = 'oculante'
+name = 'oculante'
+
+homepage = 'https://github.com/woelper/oculante'
+
+[[package]]
+channel = 'arch'
+name = 'oculante'

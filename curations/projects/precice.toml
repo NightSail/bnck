@@ -1,0 +1,9 @@
+id = 'precice'
+name = 'precice'
+
+homepage = 'https://precice.org'
+repository = 'https://github.com/precice/precice.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/precice'

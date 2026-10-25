@@ -1,0 +1,8 @@
+id = 'gmrun'
+name = 'gmrun'
+
+homepage = 'https://github.com/wdlkmpx/gmrun'
+
+[[package]]
+channel = 'debian'
+name = 'gmrun'

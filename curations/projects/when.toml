@@ -1,0 +1,17 @@
+id = 'when'
+name = 'when'
+
+homepage = 'http://www.lightandmatter.com/when/when.html'
+repository = 'https://bitbucket.org/ben-crowell/when.git'
+
+[[package]]
+channel = 'arch'
+name = 'when'
+
+[[package]]
+channel = 'debian'
+name = 'when'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/when'

@@ -1,0 +1,12 @@
+id = 'spring'
+name = 'spring'
+
+homepage = 'https://github.com/rails/spring'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-spring'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-spring'

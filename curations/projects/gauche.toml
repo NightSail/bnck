@@ -1,0 +1,24 @@
+id = 'gauche'
+name = 'gauche'
+
+homepage = 'https://practical-scheme.net/gauche'
+
+[[package]]
+channel = 'debian'
+name = 'gauche'
+
+[[package]]
+channel = 'debian'
+name = 'gauche-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'gauche'
+
+[[package]]
+channel = 'fedora'
+name = 'gauche-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gauche'

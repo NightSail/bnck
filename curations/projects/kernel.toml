@@ -1,0 +1,120 @@
+id = 'kernel'
+name = 'kernel'
+
+homepage = 'https://www.kernel.org'
+
+[[package]]
+channel = 'arch'
+name = 'bootconfig'
+
+[[package]]
+channel = 'arch'
+name = 'bpf'
+
+[[package]]
+channel = 'arch'
+name = 'cpupower'
+
+[[package]]
+channel = 'arch'
+name = 'hyperv'
+
+[[package]]
+channel = 'arch'
+name = 'intel-speed-select'
+
+[[package]]
+channel = 'arch'
+name = 'kcpuid'
+
+[[package]]
+channel = 'arch'
+name = 'keyutils'
+
+[[package]]
+channel = 'arch'
+name = 'perf'
+
+[[package]]
+channel = 'arch'
+name = 'tmon'
+
+[[package]]
+channel = 'arch'
+name = 'turbostat'
+
+[[package]]
+channel = 'arch'
+name = 'usbip'
+
+[[package]]
+channel = 'arch'
+name = 'x86_energy_perf_policy'
+
+[[package]]
+channel = 'debian'
+name = 'bpftool'
+
+[[package]]
+channel = 'debian'
+name = 'hyperv-daemons'
+
+[[package]]
+channel = 'debian'
+name = 'intel-sdsi'
+
+[[package]]
+channel = 'debian'
+name = 'linux-cpupower'
+
+[[package]]
+channel = 'debian'
+name = 'linux-misc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'linux-perf'
+
+[[package]]
+channel = 'debian'
+name = 'rtla'
+
+[[package]]
+channel = 'debian'
+name = 'usbip'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperv-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'hypervfcopyd'
+
+[[package]]
+channel = 'fedora'
+name = 'hypervkvpd'
+
+[[package]]
+channel = 'fedora'
+name = 'hypervvssd'
+
+[[package]]
+channel = 'fedora'
+name = 'kernel-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'perf'
+
+[[package]]
+channel = 'fedora'
+name = 'rtla'
+
+[[package]]
+channel = 'fedora'
+name = 'rv'
+
+[[package]]
+channel = 'fedora'
+name = 'usbip'

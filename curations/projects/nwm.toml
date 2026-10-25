@@ -1,0 +1,8 @@
+id = 'nwm'
+name = 'nwm'
+
+homepage = 'https://github.com/tinyopsec/nwm'
+
+[[package]]
+channel = 'debian'
+name = 'nwm'

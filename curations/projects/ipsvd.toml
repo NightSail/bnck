@@ -1,0 +1,8 @@
+id = 'ipsvd'
+name = 'ipsvd'
+
+homepage = 'https://smarden.org/ipsvd'
+
+[[package]]
+channel = 'debian'
+name = 'ipsvd'

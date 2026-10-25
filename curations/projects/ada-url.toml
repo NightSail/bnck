@@ -1,0 +1,9 @@
+id = 'ada-url'
+name = 'ada-url'
+
+homepage = 'https://ada-url.com'
+repository = 'https://github.com/ada-url/ada.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ada-url'

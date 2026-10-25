@@ -1,0 +1,8 @@
+id = 'dawn-tools'
+name = 'dawn-tools'
+
+homepage = 'https://dawn.googlesource.com/dawn'
+
+[[package]]
+channel = 'debian'
+name = 'dawn-tools'

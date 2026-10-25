@@ -1,0 +1,8 @@
+id = 'rtl-ais'
+name = 'rtl-ais'
+
+homepage = 'https://github.com/dgiardini/rtl-ais'
+
+[[package]]
+channel = 'debian'
+name = 'rtl-ais'

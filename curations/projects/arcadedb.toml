@@ -1,0 +1,8 @@
+id = 'arcadedb'
+name = 'arcadedb'
+
+homepage = 'https://arcadedb.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arcadedb'

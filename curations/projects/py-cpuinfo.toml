@@ -1,0 +1,12 @@
+id = 'py-cpuinfo'
+name = 'py-cpuinfo'
+
+homepage = 'https://github.com/workhorsy/py-cpuinfo'
+
+[[package]]
+channel = 'debian'
+name = 'py-cpuinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cpuinfo'

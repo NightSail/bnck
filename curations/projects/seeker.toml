@@ -1,0 +1,8 @@
+id = 'seeker'
+name = 'seeker'
+
+homepage = 'http://www.linuxinsight.com/how_fast_is_your_disk.html'
+
+[[package]]
+channel = 'fedora'
+name = 'seeker'

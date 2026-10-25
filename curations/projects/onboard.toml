@@ -1,0 +1,12 @@
+id = 'onboard'
+name = 'onboard'
+
+homepage = 'https://launchpad.net/onboard'
+
+[[package]]
+channel = 'arch'
+name = 'onboard'
+
+[[package]]
+channel = 'debian'
+name = 'onboard'

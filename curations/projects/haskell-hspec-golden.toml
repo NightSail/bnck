@@ -1,0 +1,8 @@
+id = 'haskell-hspec-golden'
+name = 'haskell-hspec-golden'
+
+homepage = 'https://github.com/stackbuilders/hspec-golden'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hspec-golden'

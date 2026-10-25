@@ -1,0 +1,8 @@
+id = 'haskell-citeproc'
+name = 'haskell-citeproc'
+
+homepage = 'https://github.com/jgm/citeproc'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-citeproc'

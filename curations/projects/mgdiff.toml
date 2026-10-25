@@ -1,0 +1,6 @@
+id = 'mgdiff'
+name = 'mgdiff'
+
+[[package]]
+channel = 'debian'
+name = 'mgdiff'

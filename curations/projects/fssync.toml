@@ -1,0 +1,8 @@
+id = 'fssync'
+name = 'fssync'
+
+homepage = 'https://github.com/jmuchemb/fssync'
+
+[[package]]
+channel = 'debian'
+name = 'fssync'

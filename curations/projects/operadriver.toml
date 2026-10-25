@@ -1,0 +1,8 @@
+id = 'operadriver'
+name = 'operadriver'
+
+homepage = 'https://github.com/operasoftware/operachromiumdriver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/operadriver'

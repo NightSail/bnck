@@ -1,0 +1,8 @@
+id = 'icecream-icecream'
+name = 'icecream'
+
+homepage = 'https://en.opensuse.org/Icecream'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icecream'

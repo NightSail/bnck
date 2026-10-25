@@ -1,0 +1,8 @@
+id = 'python3-screed'
+name = 'python3-screed'
+
+homepage = 'https://screed.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-screed'

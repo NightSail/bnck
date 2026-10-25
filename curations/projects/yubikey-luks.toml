@@ -1,0 +1,8 @@
+id = 'yubikey-luks'
+name = 'yubikey-luks'
+
+homepage = 'https://github.com/cornelinux/yubikey-luks'
+
+[[package]]
+channel = 'debian'
+name = 'yubikey-luks'

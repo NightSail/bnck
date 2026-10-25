@@ -1,0 +1,8 @@
+id = 'eflite'
+name = 'eflite'
+
+homepage = 'https://eflite.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'eflite'

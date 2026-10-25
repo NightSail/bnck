@@ -1,0 +1,9 @@
+id = 'esbmc'
+name = 'esbmc'
+
+homepage = 'https://esbmc.github.io'
+repository = 'https://github.com/esbmc/esbmc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/esbmc'

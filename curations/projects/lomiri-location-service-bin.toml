@@ -1,0 +1,8 @@
+id = 'lomiri-location-service-bin'
+name = 'lomiri-location-service-bin'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-location-service'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-location-service-bin'

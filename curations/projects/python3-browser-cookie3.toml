@@ -1,0 +1,8 @@
+id = 'python3-browser-cookie3'
+name = 'python3-browser-cookie3'
+
+homepage = 'https://github.com/borisbabic/browser_cookie3'
+
+[[package]]
+channel = 'debian'
+name = 'python3-browser-cookie3'

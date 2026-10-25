@@ -1,0 +1,12 @@
+id = 'py7zr'
+name = 'py7zr'
+
+homepage = 'https://github.com/miurahr/py7zr'
+
+[[package]]
+channel = 'arch'
+name = 'python-py7zr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-py7zr'

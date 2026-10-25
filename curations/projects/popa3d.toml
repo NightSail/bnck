@@ -1,0 +1,8 @@
+id = 'popa3d'
+name = 'popa3d'
+
+homepage = 'http://www.openwall.com/popa3d'
+
+[[package]]
+channel = 'debian'
+name = 'popa3d'

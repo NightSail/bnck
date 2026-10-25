@@ -1,0 +1,8 @@
+id = 'testssl-sh'
+name = 'testssl.sh'
+
+homepage = 'https://github.com/testssl/testssl.sh'
+
+[[package]]
+channel = 'arch'
+name = 'testssl.sh'

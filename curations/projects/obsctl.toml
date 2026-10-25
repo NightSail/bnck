@@ -1,0 +1,8 @@
+id = 'obsctl'
+name = 'obsctl'
+
+homepage = 'https://gitlab.com/datto/engineering/DevOps/obsctl'
+
+[[package]]
+channel = 'fedora'
+name = 'obsctl'

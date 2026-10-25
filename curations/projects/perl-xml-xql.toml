@@ -1,0 +1,8 @@
+id = 'perl-xml-xql'
+name = 'perl-XML-XQL'
+
+homepage = 'https://metacpan.org/release/XML-XQL'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-XQL'

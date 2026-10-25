@@ -1,0 +1,8 @@
+id = 'lodepng-utils'
+name = 'lodepng-utils'
+
+homepage = 'http://lodev.org/lodepng'
+
+[[package]]
+channel = 'debian'
+name = 'lodepng-utils'

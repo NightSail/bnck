@@ -1,0 +1,8 @@
+id = 'gir2pas'
+name = 'gir2pas'
+
+homepage = 'https://gitlab.com/gtk4pas/gir2pas'
+
+[[package]]
+channel = 'debian'
+name = 'gir2pas'

@@ -1,0 +1,24 @@
+id = 'opencv'
+name = 'opencv'
+
+homepage = 'https://opencv.org'
+
+[[package]]
+channel = 'arch'
+name = 'opencv'
+
+[[package]]
+channel = 'arch'
+name = 'opencv-cuda'
+
+[[package]]
+channel = 'debian'
+name = 'libopencv-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'opencv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencv@4'

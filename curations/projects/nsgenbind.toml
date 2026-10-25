@@ -1,0 +1,8 @@
+id = 'nsgenbind'
+name = 'nsgenbind'
+
+homepage = 'https://git.netsurf-browser.org/nsgenbind.git'
+
+[[package]]
+channel = 'arch'
+name = 'nsgenbind'

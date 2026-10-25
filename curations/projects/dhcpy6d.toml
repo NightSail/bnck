@@ -1,0 +1,8 @@
+id = 'dhcpy6d'
+name = 'dhcpy6d'
+
+homepage = 'https://dhcpy6d.de'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpy6d'

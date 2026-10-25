@@ -1,0 +1,12 @@
+id = 'objective-see'
+name = 'objective-see'
+
+homepage = 'https://objective-see.org/products/utilities.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/filemonitor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/processmonitor'

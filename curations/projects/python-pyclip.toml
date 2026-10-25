@@ -1,0 +1,8 @@
+id = 'python-pyclip'
+name = 'python-pyclip'
+
+homepage = 'https://pypi.org/project/pyclip'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyclip'

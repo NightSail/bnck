@@ -1,0 +1,8 @@
+id = 'vips'
+name = 'vips'
+
+homepage = 'https://github.com/libvips/libvips'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vips'

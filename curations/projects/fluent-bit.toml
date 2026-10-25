@@ -1,0 +1,13 @@
+id = 'fluent-bit'
+name = 'fluent-bit'
+
+homepage = 'https://fluentbit.io'
+repository = 'https://github.com/fluent/fluent-bit.git'
+
+[[package]]
+channel = 'fedora'
+name = 'fluent-bit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fluent-bit'

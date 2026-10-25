@@ -1,0 +1,8 @@
+id = 'sfeed'
+name = 'sfeed'
+
+homepage = 'https://codemadness.org/sfeed.html'
+
+[[package]]
+channel = 'debian'
+name = 'sfeed'

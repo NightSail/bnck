@@ -1,0 +1,8 @@
+id = 'dexidp'
+name = 'dexidp'
+
+homepage = 'https://dexidp.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dexidp'

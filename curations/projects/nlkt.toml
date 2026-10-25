@@ -1,0 +1,8 @@
+id = 'nlkt'
+name = 'nlkt'
+
+homepage = 'http://sf.net/projects/nlkt'
+
+[[package]]
+channel = 'debian'
+name = 'nlkt'

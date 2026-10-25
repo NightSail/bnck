@@ -1,0 +1,8 @@
+id = 'vavoom-engine'
+name = 'vavoom-engine'
+
+homepage = 'http://vavoom-engine.com'
+
+[[package]]
+channel = 'fedora'
+name = 'vavoom-engine'

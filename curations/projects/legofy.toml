@@ -1,0 +1,8 @@
+id = 'legofy'
+name = 'legofy'
+
+homepage = 'https://github.com/JuanPotato/Legofy'
+
+[[package]]
+channel = 'fedora'
+name = 'legofy'

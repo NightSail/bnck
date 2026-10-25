@@ -1,0 +1,13 @@
+id = 'ratty'
+name = 'ratty'
+
+homepage = 'https://ratty-term.org'
+repository = 'https://github.com/orhun/ratty.git'
+
+[[package]]
+channel = 'arch'
+name = 'ratty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ratty'

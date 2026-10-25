@@ -1,0 +1,8 @@
+id = 'python-crc32c'
+name = 'python-crc32c'
+
+homepage = 'https://github.com/ICRAR/crc32c'
+
+[[package]]
+channel = 'arch'
+name = 'python-crc32c'

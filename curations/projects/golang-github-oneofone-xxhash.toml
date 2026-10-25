@@ -1,0 +1,8 @@
+id = 'golang-github-oneofone-xxhash'
+name = 'golang-github-oneofone-xxhash'
+
+homepage = 'https://github.com/OneOfOne/xxhash'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-oneofone-xxhash'

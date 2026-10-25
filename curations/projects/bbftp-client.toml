@@ -1,0 +1,8 @@
+id = 'bbftp-client'
+name = 'bbftp-client'
+
+repository = 'https://gitlab.in2p3.fr/cc-in2p3-hpss-service/bbftp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bbftp-client'

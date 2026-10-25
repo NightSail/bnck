@@ -1,0 +1,8 @@
+id = 'dummydroid'
+name = 'dummydroid'
+
+homepage = 'http://www.onyxbits.de/dummydroid'
+
+[[package]]
+channel = 'debian'
+name = 'dummydroid'

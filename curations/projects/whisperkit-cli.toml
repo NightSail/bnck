@@ -1,0 +1,8 @@
+id = 'whisperkit-cli'
+name = 'whisperkit-cli'
+
+homepage = 'https://github.com/argmaxinc/argmax-oss-swift'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whisperkit-cli'

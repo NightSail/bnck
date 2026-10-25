@@ -1,0 +1,8 @@
+id = 'python3-hjson'
+name = 'python3-hjson'
+
+homepage = 'https://hjson.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hjson'

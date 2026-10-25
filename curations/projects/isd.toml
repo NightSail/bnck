@@ -1,0 +1,8 @@
+id = 'isd'
+name = 'isd'
+
+homepage = 'https://kainctl.github.io/isd'
+
+[[package]]
+channel = 'arch'
+name = 'isd'

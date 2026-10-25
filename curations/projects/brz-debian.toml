@@ -1,0 +1,6 @@
+id = 'brz-debian'
+name = 'brz-debian'
+
+[[package]]
+channel = 'debian'
+name = 'brz-debian'

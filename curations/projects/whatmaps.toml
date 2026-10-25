@@ -1,0 +1,8 @@
+id = 'whatmaps'
+name = 'whatmaps'
+
+homepage = 'https://honk.sigxcpu.org/piki/projects/whatmaps'
+
+[[package]]
+channel = 'debian'
+name = 'whatmaps'

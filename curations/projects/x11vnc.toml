@@ -1,0 +1,21 @@
+id = 'x11vnc'
+name = 'x11vnc'
+
+homepage = 'http://www.karlrunge.com/x11vnc'
+repository = 'https://github.com/LibVNC/x11vnc.git'
+
+[[package]]
+channel = 'arch'
+name = 'x11vnc'
+
+[[package]]
+channel = 'debian'
+name = 'x11vnc'
+
+[[package]]
+channel = 'fedora'
+name = 'x11vnc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x11vnc'

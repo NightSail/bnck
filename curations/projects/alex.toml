@@ -1,0 +1,16 @@
+id = 'alex'
+name = 'alex'
+
+homepage = 'https://hackage.haskell.org/package/alex'
+
+[[package]]
+channel = 'arch'
+name = 'alex'
+
+[[package]]
+channel = 'debian'
+name = 'alex'
+
+[[package]]
+channel = 'fedora'
+name = 'alex'

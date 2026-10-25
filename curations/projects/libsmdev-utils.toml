@@ -1,0 +1,8 @@
+id = 'libsmdev-utils'
+name = 'libsmdev-utils'
+
+homepage = 'https://github.com/libyal/libsmdev'
+
+[[package]]
+channel = 'debian'
+name = 'libsmdev-utils'

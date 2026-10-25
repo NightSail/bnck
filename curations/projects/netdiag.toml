@@ -1,0 +1,6 @@
+id = 'netdiag'
+name = 'netdiag'
+
+[[package]]
+channel = 'debian'
+name = 'netdiag'

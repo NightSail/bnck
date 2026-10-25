@@ -1,0 +1,8 @@
+id = 'wxhexeditor'
+name = 'wxhexeditor'
+
+homepage = 'https://github.com/EUA/wxHexEditor'
+
+[[package]]
+channel = 'debian'
+name = 'wxhexeditor'

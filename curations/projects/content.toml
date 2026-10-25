@@ -1,0 +1,12 @@
+id = 'content'
+name = 'content'
+
+homepage = 'http://www.kde-apps.org/content/show.php'
+
+[[package]]
+channel = 'fedora'
+name = 'koverartist'
+
+[[package]]
+channel = 'fedora'
+name = 'soundkonverter'

@@ -1,0 +1,12 @@
+id = 'xinit'
+name = 'xinit'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xinit'
+
+[[package]]
+channel = 'debian'
+name = 'xinit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xinit'

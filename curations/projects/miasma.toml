@@ -1,0 +1,8 @@
+id = 'miasma'
+name = 'miasma'
+
+homepage = 'https://github.com/austin-weeks/miasma'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/miasma'

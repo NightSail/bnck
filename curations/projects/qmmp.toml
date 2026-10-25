@@ -1,0 +1,20 @@
+id = 'qmmp'
+name = 'qmmp'
+
+homepage = 'https://qmmp.ylsoftware.com'
+
+[[package]]
+channel = 'arch'
+name = 'qmmp'
+
+[[package]]
+channel = 'debian'
+name = 'qmmp'
+
+[[package]]
+channel = 'fedora'
+name = 'qmmp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qmmp'

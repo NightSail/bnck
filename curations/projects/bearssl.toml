@@ -1,0 +1,8 @@
+id = 'bearssl'
+name = 'bearssl'
+
+homepage = 'https://bearssl.org'
+
+[[package]]
+channel = 'arch'
+name = 'bearssl'

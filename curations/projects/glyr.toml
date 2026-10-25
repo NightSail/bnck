@@ -1,0 +1,16 @@
+id = 'glyr'
+name = 'glyr'
+
+homepage = 'https://github.com/sahib/glyr'
+
+[[package]]
+channel = 'arch'
+name = 'glyr'
+
+[[package]]
+channel = 'debian'
+name = 'glyrc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glyr'

@@ -1,0 +1,16 @@
+id = 'regina-rexx'
+name = 'regina-rexx'
+
+homepage = 'https://regina-rexx.sourceforge.io'
+
+[[package]]
+channel = 'fedora'
+name = 'regina-rexx'
+
+[[package]]
+channel = 'fedora'
+name = 'regina-rexx-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regina-rexx'

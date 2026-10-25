@@ -1,0 +1,8 @@
+id = 'todocli'
+name = 'todocli'
+
+homepage = 'https://github.com/okulbilisim/todo.py'
+
+[[package]]
+channel = 'fedora'
+name = 'todocli'

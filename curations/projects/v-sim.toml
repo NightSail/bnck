@@ -1,0 +1,8 @@
+id = 'v-sim'
+name = 'v-sim'
+
+homepage = 'https://gitlab.com/l_sim/v_sim'
+
+[[package]]
+channel = 'debian'
+name = 'v-sim'

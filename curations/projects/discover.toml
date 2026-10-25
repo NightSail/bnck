@@ -1,0 +1,12 @@
+id = 'discover'
+name = 'discover'
+
+homepage = 'https://apps.kde.org/discover'
+
+[[package]]
+channel = 'arch'
+name = 'discover'
+
+[[package]]
+channel = 'debian'
+name = 'discover'

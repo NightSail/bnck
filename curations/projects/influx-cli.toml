@@ -1,0 +1,8 @@
+id = 'influx-cli'
+name = 'influx-cli'
+
+homepage = 'https://github.com/InfluxData/influx-cli'
+
+[[package]]
+channel = 'arch'
+name = 'influx-cli'

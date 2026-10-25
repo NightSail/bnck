@@ -1,0 +1,8 @@
+id = 'akmods'
+name = 'akmods'
+
+homepage = 'http://rpmfusion.org/Packaging/KernelModules/Akmods'
+
+[[package]]
+channel = 'fedora'
+name = 'akmods'

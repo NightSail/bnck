@@ -1,0 +1,8 @@
+id = 'mktxp'
+name = 'mktxp'
+
+homepage = 'https://github.com/akpw/mktxp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mktxp'

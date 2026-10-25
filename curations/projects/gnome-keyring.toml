@@ -1,0 +1,16 @@
+id = 'gnome-keyring'
+name = 'gnome-keyring'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeKeyring'
+
+[[package]]
+channel = 'debian'
+name = 'gcr'
+
+[[package]]
+channel = 'debian'
+name = 'gcr4'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-keyring'

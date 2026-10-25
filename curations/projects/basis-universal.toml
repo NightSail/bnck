@@ -1,0 +1,12 @@
+id = 'basis-universal'
+name = 'basis-universal'
+
+homepage = 'https://github.com/BinomialLLC/basis_universal'
+
+[[package]]
+channel = 'arch'
+name = 'basis-universal'
+
+[[package]]
+channel = 'debian'
+name = 'gpu-basis-universal'

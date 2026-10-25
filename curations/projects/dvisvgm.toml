@@ -1,0 +1,16 @@
+id = 'dvisvgm'
+name = 'dvisvgm'
+
+homepage = 'https://dvisvgm.de'
+
+[[package]]
+channel = 'arch'
+name = 'dvisvgm'
+
+[[package]]
+channel = 'debian'
+name = 'dvisvgm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvisvgm'

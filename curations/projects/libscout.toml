@@ -1,0 +1,8 @@
+id = 'libscout'
+name = 'libscout'
+
+homepage = 'https://github.com/reddr/LibScout'
+
+[[package]]
+channel = 'debian'
+name = 'libscout'

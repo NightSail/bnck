@@ -1,0 +1,12 @@
+id = 'mfoc'
+name = 'mfoc'
+
+repository = 'https://github.com/nfc-tools/mfoc.git'
+
+[[package]]
+channel = 'debian'
+name = 'mfoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mfoc'

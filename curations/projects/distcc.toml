@@ -1,0 +1,37 @@
+id = 'distcc'
+name = 'distcc'
+
+homepage = 'https://distcc.github.io'
+repository = 'https://github.com/distcc/distcc.git'
+
+[[package]]
+channel = 'arch'
+name = 'distcc'
+
+[[package]]
+channel = 'debian'
+name = 'distcc'
+
+[[package]]
+channel = 'debian'
+name = 'distcc-pump'
+
+[[package]]
+channel = 'debian'
+name = 'distccmon-gnome'
+
+[[package]]
+channel = 'fedora'
+name = 'distcc'
+
+[[package]]
+channel = 'fedora'
+name = 'distcc-gnome'
+
+[[package]]
+channel = 'fedora'
+name = 'distcc-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/distcc'

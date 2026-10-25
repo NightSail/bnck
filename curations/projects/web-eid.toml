@@ -1,0 +1,8 @@
+id = 'web-eid'
+name = 'web-eid'
+
+homepage = 'https://github.com/web-eid/web-eid-app'
+
+[[package]]
+channel = 'fedora'
+name = 'web-eid'

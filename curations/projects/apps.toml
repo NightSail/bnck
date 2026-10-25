@@ -1,0 +1,12 @@
+id = 'apps'
+name = 'apps'
+
+homepage = 'https://apps.gnome.org/Resources'
+
+[[package]]
+channel = 'arch'
+name = 'resources'
+
+[[package]]
+channel = 'debian'
+name = 'resources'

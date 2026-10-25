@@ -1,0 +1,12 @@
+id = 'qmidictl'
+name = 'qmidictl'
+
+homepage = 'https://qmidictl.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qmidictl'
+
+[[package]]
+channel = 'debian'
+name = 'qmidictl'

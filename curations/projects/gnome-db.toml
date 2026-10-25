@@ -1,0 +1,20 @@
+id = 'gnome-db'
+name = 'gnome-db'
+
+homepage = 'http://www.gnome-db.org'
+
+[[package]]
+channel = 'debian'
+name = 'libgda-5.0-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libgda-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libgda5-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libgda5-ui-devel'

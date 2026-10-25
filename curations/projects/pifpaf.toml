@@ -1,0 +1,8 @@
+id = 'pifpaf'
+name = 'pifpaf'
+
+homepage = 'https://github.com/jd/pifpaf'
+
+[[package]]
+channel = 'arch'
+name = 'pifpaf'

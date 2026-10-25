@@ -1,0 +1,24 @@
+id = 'vinyl-cache'
+name = 'vinyl-cache'
+
+homepage = 'https://www.vinyl-cache.org'
+
+[[package]]
+channel = 'arch'
+name = 'vinyl-cache'
+
+[[package]]
+channel = 'debian'
+name = 'libvarnishapi-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libvinylapi-dev'
+
+[[package]]
+channel = 'debian'
+name = 'varnish'
+
+[[package]]
+channel = 'debian'
+name = 'vinyl-cache'

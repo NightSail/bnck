@@ -1,0 +1,8 @@
+id = 'perl-podlinkcheck'
+name = 'perl-podlinkcheck'
+
+homepage = 'https://metacpan.org/release/podlinkcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-podlinkcheck'

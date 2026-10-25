@@ -1,0 +1,8 @@
+id = 'fastaq'
+name = 'fastaq'
+
+homepage = 'https://github.com/sanger-pathogens/Fastaq'
+
+[[package]]
+channel = 'debian'
+name = 'fastaq'

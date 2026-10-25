@@ -1,0 +1,8 @@
+id = 'openlierox'
+name = 'openlierox'
+
+homepage = 'http://openlierox.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'openlierox'

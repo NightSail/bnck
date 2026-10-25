@@ -1,0 +1,12 @@
+id = 'rbspy'
+name = 'rbspy'
+
+homepage = 'https://rbspy.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'rbspy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbspy'

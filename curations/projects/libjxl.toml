@@ -5,4 +5,8 @@ homepage = 'https://github.com/libjxl/libjxl'
 
 [[package]]
 channel = 'debian'
+name = 'libjxl-devtools'
+
+[[package]]
+channel = 'debian'
 name = 'libjxl-tools'

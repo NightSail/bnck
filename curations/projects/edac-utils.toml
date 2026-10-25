@@ -1,0 +1,16 @@
+id = 'edac-utils'
+name = 'edac-utils'
+
+homepage = 'https://github.com/grondo/edac-utils'
+
+[[package]]
+channel = 'debian'
+name = 'edac-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'edac-ctl'
+
+[[package]]
+channel = 'fedora'
+name = 'edac-util'

@@ -1,0 +1,12 @@
+id = 'melange'
+name = 'melange'
+
+repository = 'https://github.com/chainguard-dev/melange.git'
+
+[[package]]
+channel = 'arch'
+name = 'melange'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/melange'

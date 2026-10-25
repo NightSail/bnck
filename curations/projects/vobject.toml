@@ -1,0 +1,12 @@
+id = 'vobject'
+name = 'vobject'
+
+homepage = 'http://sabre.io/vobject'
+
+[[package]]
+channel = 'debian'
+name = 'php-sabre-vobject'
+
+[[package]]
+channel = 'fedora'
+name = 'php-sabre-vobject4'

@@ -1,0 +1,8 @@
+id = 'triton'
+name = 'triton'
+
+homepage = 'https://www.npmjs.com/package/triton'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/triton'

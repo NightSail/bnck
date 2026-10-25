@@ -1,0 +1,16 @@
+id = 'xsensors'
+name = 'xsensors'
+
+homepage = 'https://github.com/Mystro256/xsensors'
+
+[[package]]
+channel = 'arch'
+name = 'xsensors'
+
+[[package]]
+channel = 'debian'
+name = 'xsensors'
+
+[[package]]
+channel = 'fedora'
+name = 'xsensors'

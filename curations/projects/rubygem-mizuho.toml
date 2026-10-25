@@ -1,0 +1,8 @@
+id = 'rubygem-mizuho'
+name = 'rubygem-mizuho'
+
+homepage = 'https://github.com/FooBarWidget/mizuho'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-mizuho'

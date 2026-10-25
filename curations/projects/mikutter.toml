@@ -1,0 +1,13 @@
+id = 'mikutter'
+name = 'mikutter'
+
+homepage = 'https://mikutter.hachune.net'
+repository = 'git://mikutter.hachune.net/mikutter.git'
+
+[[package]]
+channel = 'debian'
+name = 'mikutter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mikutter'

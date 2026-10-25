@@ -1,0 +1,8 @@
+id = 'kazam'
+name = 'kazam'
+
+homepage = 'https://launchpad.net/kazam'
+
+[[package]]
+channel = 'debian'
+name = 'kazam'

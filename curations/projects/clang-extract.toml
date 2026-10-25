@@ -1,0 +1,8 @@
+id = 'clang-extract'
+name = 'clang-extract'
+
+homepage = 'https://github.com/SUSE/clang-extract'
+
+[[package]]
+channel = 'debian'
+name = 'clang-extract'

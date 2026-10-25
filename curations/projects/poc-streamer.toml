@@ -1,0 +1,8 @@
+id = 'poc-streamer'
+name = 'poc-streamer'
+
+homepage = 'https://bl0rg.net/software/poc'
+
+[[package]]
+channel = 'debian'
+name = 'poc-streamer'

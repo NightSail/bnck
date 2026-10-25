@@ -1,0 +1,8 @@
+id = 'dnsgen'
+name = 'dnsgen'
+
+repository = 'https://github.com/AlephNullSK/dnsgen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsgen'

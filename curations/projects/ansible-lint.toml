@@ -1,0 +1,12 @@
+id = 'ansible-lint'
+name = 'ansible-lint'
+
+homepage = 'https://github.com/ansible/ansible-lint'
+
+[[package]]
+channel = 'arch'
+name = 'ansible-lint'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ansible-lint'

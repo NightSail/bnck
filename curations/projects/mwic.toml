@@ -1,0 +1,8 @@
+id = 'mwic'
+name = 'mwic'
+
+homepage = 'https://jwilk.net/software/mwic'
+
+[[package]]
+channel = 'debian'
+name = 'mwic'

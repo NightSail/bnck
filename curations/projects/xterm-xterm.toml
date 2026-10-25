@@ -1,0 +1,8 @@
+id = 'xterm-xterm'
+name = 'xterm'
+
+homepage = 'https://invisible-island.net/xterm/xterm.html'
+
+[[package]]
+channel = 'debian'
+name = 'xterm'

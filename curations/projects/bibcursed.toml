@@ -1,0 +1,6 @@
+id = 'bibcursed'
+name = 'bibcursed'
+
+[[package]]
+channel = 'debian'
+name = 'bibcursed'

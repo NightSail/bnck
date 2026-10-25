@@ -1,0 +1,8 @@
+id = 'godns'
+name = 'godns'
+
+repository = 'https://github.com/TimothyYe/godns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/godns'

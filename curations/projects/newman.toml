@@ -1,0 +1,8 @@
+id = 'newman'
+name = 'newman'
+
+homepage = 'https://www.getpostman.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newman'

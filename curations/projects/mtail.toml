@@ -1,0 +1,6 @@
+id = 'mtail'
+name = 'mtail'
+
+[[package]]
+channel = 'debian'
+name = 'mtail'

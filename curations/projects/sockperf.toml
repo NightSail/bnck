@@ -1,0 +1,12 @@
+id = 'sockperf'
+name = 'sockperf'
+
+homepage = 'https://github.com/Mellanox/sockperf'
+
+[[package]]
+channel = 'debian'
+name = 'sockperf'
+
+[[package]]
+channel = 'fedora'
+name = 'sockperf'

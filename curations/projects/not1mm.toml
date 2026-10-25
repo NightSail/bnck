@@ -1,0 +1,8 @@
+id = 'not1mm'
+name = 'not1mm'
+
+homepage = 'https://github.com/mbridak/not1mm'
+
+[[package]]
+channel = 'debian'
+name = 'not1mm'

@@ -1,0 +1,8 @@
+id = 'astrometry-net'
+name = 'astrometry-net'
+
+homepage = 'https://github.com/dstndstn/astrometry.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/astrometry-net'

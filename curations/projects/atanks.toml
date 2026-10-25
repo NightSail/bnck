@@ -1,0 +1,8 @@
+id = 'atanks'
+name = 'atanks'
+
+homepage = 'http://atanks.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'atanks'

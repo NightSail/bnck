@@ -1,0 +1,8 @@
+id = 'publish'
+name = 'publish'
+
+repository = 'https://github.com/JohnSundell/Publish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/publish'

@@ -1,0 +1,8 @@
+id = 'vsh'
+name = 'vsh'
+
+homepage = 'https://github.com/fishi0x01/vsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vsh'

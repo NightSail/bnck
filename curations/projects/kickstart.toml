@@ -1,0 +1,8 @@
+id = 'kickstart'
+name = 'kickstart'
+
+homepage = 'https://github.com/Keats/kickstart'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kickstart'

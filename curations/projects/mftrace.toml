@@ -1,0 +1,17 @@
+id = 'mftrace'
+name = 'mftrace'
+
+homepage = 'https://lilypond.org/mftrace/index.html'
+repository = 'https://github.com/hanwen/mftrace.git'
+
+[[package]]
+channel = 'debian'
+name = 'mftrace'
+
+[[package]]
+channel = 'fedora'
+name = 'mftrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mftrace'

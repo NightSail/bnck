@@ -1,0 +1,8 @@
+id = 'migrate'
+name = 'migrate'
+
+homepage = 'https://github.com/golang-migrate/migrate'
+
+[[package]]
+channel = 'fedora'
+name = 'migrate'

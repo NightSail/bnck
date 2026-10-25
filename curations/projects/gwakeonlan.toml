@@ -1,0 +1,12 @@
+id = 'gwakeonlan'
+name = 'gwakeonlan'
+
+homepage = 'http://www.muflone.com/gwakeonlan'
+
+[[package]]
+channel = 'arch'
+name = 'gwakeonlan'
+
+[[package]]
+channel = 'debian'
+name = 'gwakeonlan'

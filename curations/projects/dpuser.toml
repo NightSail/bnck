@@ -1,0 +1,12 @@
+id = 'dpuser'
+name = 'dpuser'
+
+homepage = 'https://www.mpe.mpg.de/~ott/dpuser/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'dpuser'
+
+[[package]]
+channel = 'debian'
+name = 'qfitsview'

@@ -1,0 +1,8 @@
+id = 'asylum'
+name = 'asylum'
+
+homepage = 'http://sdl-asylum.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'asylum'

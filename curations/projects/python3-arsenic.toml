@@ -1,0 +1,8 @@
+id = 'python3-arsenic'
+name = 'python3-arsenic'
+
+homepage = 'https://github.com/HDE/arsenic'
+
+[[package]]
+channel = 'debian'
+name = 'python3-arsenic'

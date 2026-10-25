@@ -1,0 +1,8 @@
+id = 'yacreader'
+name = 'yacreader'
+
+homepage = 'https://www.yacreader.com'
+
+[[package]]
+channel = 'fedora'
+name = 'yacreader'

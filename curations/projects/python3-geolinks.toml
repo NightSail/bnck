@@ -1,0 +1,8 @@
+id = 'python3-geolinks'
+name = 'python3-geolinks'
+
+homepage = 'https://github.com/geopython/geolinks'
+
+[[package]]
+channel = 'debian'
+name = 'python3-geolinks'

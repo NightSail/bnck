@@ -1,0 +1,8 @@
+id = 'pmacct'
+name = 'pmacct'
+
+homepage = 'http://www.pmacct.net'
+
+[[package]]
+channel = 'debian'
+name = 'pmacct'

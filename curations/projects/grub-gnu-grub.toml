@@ -1,0 +1,8 @@
+id = 'grub-gnu-grub'
+name = 'grub'
+
+homepage = 'https://gnu-grub.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'grub'

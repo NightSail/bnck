@@ -1,0 +1,9 @@
+id = 'virtualenv-pypa'
+name = 'virtualenv'
+
+homepage = 'https://virtualenv.pypa.io'
+repository = 'https://github.com/pypa/virtualenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virtualenv'

@@ -1,0 +1,8 @@
+id = 'lamarc'
+name = 'lamarc'
+
+homepage = 'https://evolution.gs.washington.edu/lamarc'
+
+[[package]]
+channel = 'debian'
+name = 'lamarc'

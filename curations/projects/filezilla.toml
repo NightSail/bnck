@@ -1,0 +1,16 @@
+id = 'filezilla'
+name = 'filezilla'
+
+homepage = 'https://filezilla-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'filezilla'
+
+[[package]]
+channel = 'debian'
+name = 'filezilla'
+
+[[package]]
+channel = 'fedora'
+name = 'filezilla'

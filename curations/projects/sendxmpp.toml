@@ -1,0 +1,12 @@
+id = 'sendxmpp'
+name = 'sendxmpp'
+
+homepage = 'https://github.com/lhost/sendxmpp'
+
+[[package]]
+channel = 'debian'
+name = 'sendxmpp'
+
+[[package]]
+channel = 'fedora'
+name = 'sendxmpp'

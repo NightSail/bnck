@@ -1,0 +1,8 @@
+id = 'git-number'
+name = 'git-number'
+
+homepage = 'https://github.com/holygeek/git-number'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-number'

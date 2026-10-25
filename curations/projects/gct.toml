@@ -1,0 +1,156 @@
+id = 'gct'
+name = 'gct'
+
+homepage = 'https://github.com/gridcf/gct'
+
+[[package]]
+channel = 'debian'
+name = 'globus-common-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gass-cache-program'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gass-copy-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gass-server-ez-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gatekeeper'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gfork-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gram-audit'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gram-client-tools'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gram-job-manager'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gram-job-manager-fork'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gram-job-manager-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gridftp-server-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gsi-cert-utils-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-gss-assist-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-proxy-utils'
+
+[[package]]
+channel = 'debian'
+name = 'globus-scheduler-event-generator-progs'
+
+[[package]]
+channel = 'debian'
+name = 'globus-simple-ca'
+
+[[package]]
+channel = 'debian'
+name = 'globus-xioperf'
+
+[[package]]
+channel = 'debian'
+name = 'libglobus-common-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-common-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-common-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gass-cache-program'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gass-copy-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gass-server-ez-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gatekeeper'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gfork-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gram-audit'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gram-client-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gram-job-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gram-job-manager-fork-setup-seg'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gram-job-manager-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gridftp-server-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gsi-cert-utils-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-gss-assist-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-proxy-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-scheduler-event-generator-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-simple-ca'
+
+[[package]]
+channel = 'fedora'
+name = 'globus-xioperf'

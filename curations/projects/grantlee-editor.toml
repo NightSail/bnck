@@ -1,0 +1,12 @@
+id = 'grantlee-editor'
+name = 'grantlee-editor'
+
+homepage = 'https://invent.kde.org/pim/grantlee-editor'
+
+[[package]]
+channel = 'debian'
+name = 'kdepim-themeeditors'
+
+[[package]]
+channel = 'fedora'
+name = 'grantlee-editor'

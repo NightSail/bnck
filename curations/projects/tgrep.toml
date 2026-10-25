@@ -1,0 +1,8 @@
+id = 'tgrep'
+name = 'tgrep'
+
+repository = 'https://github.com/microsoft/tgrep.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tgrep'

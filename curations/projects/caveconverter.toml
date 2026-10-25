@@ -1,0 +1,8 @@
+id = 'caveconverter'
+name = 'caveconverter'
+
+homepage = 'http://wscc.darkgem.com/caveconverter'
+
+[[package]]
+channel = 'debian'
+name = 'caveconverter'

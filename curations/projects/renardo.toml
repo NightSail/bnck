@@ -1,0 +1,12 @@
+id = 'renardo'
+name = 'renardo'
+
+homepage = 'https://renardo.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-renardo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-renardo-gatherer'

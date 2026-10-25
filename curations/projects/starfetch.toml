@@ -1,0 +1,8 @@
+id = 'starfetch'
+name = 'starfetch'
+
+homepage = 'https://github.com/Haruno19/starfetch'
+
+[[package]]
+channel = 'debian'
+name = 'starfetch'

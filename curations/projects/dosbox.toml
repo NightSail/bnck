@@ -1,0 +1,16 @@
+id = 'dosbox'
+name = 'dosbox'
+
+homepage = 'http://dosbox.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'dosbox'
+
+[[package]]
+channel = 'debian'
+name = 'dosbox'
+
+[[package]]
+channel = 'debian'
+name = 'dosbox-debug'

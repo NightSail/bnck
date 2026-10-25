@@ -1,0 +1,8 @@
+id = 'protoc-gen-connect-go'
+name = 'protoc-gen-connect-go'
+
+homepage = 'https://github.com/connectrpc/connect-go'
+
+[[package]]
+channel = 'debian'
+name = 'protoc-gen-connect-go'

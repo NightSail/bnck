@@ -1,0 +1,8 @@
+id = 'golang-github-markbates-pkger'
+name = 'golang-github-markbates-pkger'
+
+homepage = 'https://github.com/markbates/pkger'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-markbates-pkger'

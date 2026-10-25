@@ -1,0 +1,12 @@
+id = 'hipfort'
+name = 'hipfort'
+
+homepage = 'https://github.com/ROCm/hipfort'
+
+[[package]]
+channel = 'debian'
+name = 'hipfort'
+
+[[package]]
+channel = 'fedora'
+name = 'hipfort'

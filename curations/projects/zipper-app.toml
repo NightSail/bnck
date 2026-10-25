@@ -1,0 +1,8 @@
+id = 'zipper-app'
+name = 'zipper.app'
+
+homepage = 'https://gap.nongnu.org/zipper'
+
+[[package]]
+channel = 'debian'
+name = 'zipper.app'

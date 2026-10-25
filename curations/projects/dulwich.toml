@@ -1,0 +1,16 @@
+id = 'dulwich'
+name = 'dulwich'
+
+homepage = 'https://www.dulwich.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-dulwich'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dulwich'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dulwich'

@@ -1,0 +1,12 @@
+id = 'iraf-community'
+name = 'iraf-community'
+
+homepage = 'https://iraf-community.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'iraf'
+
+[[package]]
+channel = 'debian'
+name = 'iraf-dev'

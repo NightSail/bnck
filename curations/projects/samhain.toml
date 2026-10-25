@@ -1,0 +1,8 @@
+id = 'samhain'
+name = 'samhain'
+
+homepage = 'http://la-samhna.de/samhain/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'samhain'

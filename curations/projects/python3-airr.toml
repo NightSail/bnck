@@ -1,0 +1,8 @@
+id = 'python3-airr'
+name = 'python3-airr'
+
+homepage = 'https://docs.airr-community.org/en/latest/packages/airr-python/overview.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-airr'

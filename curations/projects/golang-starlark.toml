@@ -1,0 +1,8 @@
+id = 'golang-starlark'
+name = 'golang-starlark'
+
+homepage = 'https://github.com/google/starlark-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-starlark'

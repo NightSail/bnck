@@ -1,0 +1,8 @@
+id = 'python3-datalad-next'
+name = 'python3-datalad-next'
+
+homepage = 'https://datalad-next.rtfd.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-datalad-next'

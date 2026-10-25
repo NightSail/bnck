@@ -1,0 +1,8 @@
+id = 'gnuradio-osmosdr'
+name = 'gnuradio-osmosdr'
+
+homepage = 'https://osmocom.org/projects/gr-osmosdr'
+
+[[package]]
+channel = 'arch'
+name = 'gnuradio-osmosdr'

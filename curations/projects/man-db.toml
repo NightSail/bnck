@@ -1,0 +1,20 @@
+id = 'man-db'
+name = 'man-db'
+
+homepage = 'https://man-db.gitlab.io/man-db'
+
+[[package]]
+channel = 'arch'
+name = 'man-db'
+
+[[package]]
+channel = 'debian'
+name = 'man-db'
+
+[[package]]
+channel = 'fedora'
+name = 'man-db'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/man-db'

@@ -1,0 +1,9 @@
+id = 'solod'
+name = 'solod'
+
+homepage = 'https://solod.dev'
+repository = 'https://github.com/solod-dev/solod.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solod'

@@ -1,0 +1,13 @@
+id = 'changie'
+name = 'changie'
+
+homepage = 'https://changie.dev'
+repository = 'https://github.com/miniscruff/changie.git'
+
+[[package]]
+channel = 'debian'
+name = 'changie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/changie'

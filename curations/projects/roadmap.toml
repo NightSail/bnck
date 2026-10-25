@@ -1,0 +1,8 @@
+id = 'roadmap'
+name = 'roadmap'
+
+homepage = 'https://gitlab.com/larswirzenius/roadmap'
+
+[[package]]
+channel = 'debian'
+name = 'roadmap'

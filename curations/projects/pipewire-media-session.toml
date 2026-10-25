@@ -1,0 +1,8 @@
+id = 'pipewire-media-session'
+name = 'pipewire-media-session'
+
+homepage = 'https://gitlab.freedesktop.org/pipewire/media-session'
+
+[[package]]
+channel = 'arch'
+name = 'pipewire-media-session'

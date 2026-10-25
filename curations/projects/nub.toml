@@ -1,0 +1,8 @@
+id = 'nub'
+name = 'nub'
+
+homepage = 'https://nubjs.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nub'

@@ -1,0 +1,12 @@
+id = 'hyprlauncher'
+name = 'hyprlauncher'
+
+homepage = 'https://github.com/hyprwm/hyprlauncher'
+
+[[package]]
+channel = 'arch'
+name = 'hyprlauncher'
+
+[[package]]
+channel = 'debian'
+name = 'hyprlauncher'

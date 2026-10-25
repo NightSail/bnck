@@ -1,0 +1,12 @@
+id = 'ulfius'
+name = 'ulfius'
+
+homepage = 'https://github.com/babelouest/ulfius'
+
+[[package]]
+channel = 'arch'
+name = 'ulfius'
+
+[[package]]
+channel = 'debian'
+name = 'uwsc'

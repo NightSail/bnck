@@ -1,0 +1,8 @@
+id = 'blockdomains'
+name = 'blockdomains'
+
+homepage = 'https://git.rrq.au/rrq/blockdomains.git'
+
+[[package]]
+channel = 'debian'
+name = 'blockdomains'

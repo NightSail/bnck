@@ -1,0 +1,8 @@
+id = 'qlog'
+name = 'qlog'
+
+homepage = 'https://github.com/foldynl/QLog'
+
+[[package]]
+channel = 'debian'
+name = 'qlog'

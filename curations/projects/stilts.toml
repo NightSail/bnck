@@ -1,0 +1,8 @@
+id = 'stilts'
+name = 'stilts'
+
+homepage = 'https://www.star.bristol.ac.uk/mbt/stilts'
+
+[[package]]
+channel = 'debian'
+name = 'stilts'

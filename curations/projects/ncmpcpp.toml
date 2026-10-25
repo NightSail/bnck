@@ -1,0 +1,21 @@
+id = 'ncmpcpp'
+name = 'ncmpcpp'
+
+homepage = 'http://ncmpcpp.rybczak.net'
+repository = 'https://github.com/ncmpcpp/ncmpcpp.git'
+
+[[package]]
+channel = 'arch'
+name = 'ncmpcpp'
+
+[[package]]
+channel = 'debian'
+name = 'ncmpcpp'
+
+[[package]]
+channel = 'fedora'
+name = 'ncmpcpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncmpcpp'

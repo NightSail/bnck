@@ -1,0 +1,8 @@
+id = 'node-shapefile'
+name = 'node-shapefile'
+
+homepage = 'http://github.com/mbostock/shapefile'
+
+[[package]]
+channel = 'debian'
+name = 'node-shapefile'

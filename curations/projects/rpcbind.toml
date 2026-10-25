@@ -1,0 +1,16 @@
+id = 'rpcbind'
+name = 'rpcbind'
+
+homepage = 'http://rpcbind.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'rpcbind'
+
+[[package]]
+channel = 'debian'
+name = 'rpcbind'
+
+[[package]]
+channel = 'fedora'
+name = 'rpcbind'

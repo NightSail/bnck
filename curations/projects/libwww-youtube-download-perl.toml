@@ -1,0 +1,8 @@
+id = 'libwww-youtube-download-perl'
+name = 'libwww-youtube-download-perl'
+
+homepage = 'https://metacpan.org/release/WWW-YouTube-Download'
+
+[[package]]
+channel = 'debian'
+name = 'libwww-youtube-download-perl'

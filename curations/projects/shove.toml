@@ -1,0 +1,8 @@
+id = 'shove'
+name = 'shove'
+
+homepage = 'https://github.com/progrhyme/shove'
+
+[[package]]
+channel = 'debian'
+name = 'shove'

@@ -1,0 +1,16 @@
+id = 'sendemail'
+name = 'sendemail'
+
+homepage = 'http://caspian.dotconf.net/menu/Software/SendEmail'
+
+[[package]]
+channel = 'debian'
+name = 'sendemail'
+
+[[package]]
+channel = 'fedora'
+name = 'sendemail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sendemail'

@@ -1,0 +1,8 @@
+id = 'eztrace'
+name = 'eztrace'
+
+homepage = 'https://eztrace.gitlab.io/eztrace'
+
+[[package]]
+channel = 'debian'
+name = 'eztrace'

@@ -1,0 +1,8 @@
+id = 'python-tabview'
+name = 'python-tabview'
+
+homepage = 'https://github.com/TabViewer/tabview'
+
+[[package]]
+channel = 'arch'
+name = 'python-tabview'

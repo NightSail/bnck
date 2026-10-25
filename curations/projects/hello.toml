@@ -1,0 +1,16 @@
+id = 'hello'
+name = 'hello'
+
+homepage = 'https://www.gnu.org/software/hello'
+
+[[package]]
+channel = 'debian'
+name = 'hello'
+
+[[package]]
+channel = 'fedora'
+name = 'hello'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hello'

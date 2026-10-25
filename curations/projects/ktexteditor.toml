@@ -1,0 +1,12 @@
+id = 'ktexteditor'
+name = 'ktexteditor'
+
+homepage = 'https://invent.kde.org/frameworks/ktexteditor'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6texteditor-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-ktexteditor'

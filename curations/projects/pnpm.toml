@@ -1,0 +1,29 @@
+id = 'pnpm'
+name = 'pnpm'
+
+homepage = 'https://pnpm.io'
+repository = 'https://github.com/pnpm/pnpm.git'
+
+[[package]]
+channel = 'arch'
+name = 'pnpm'
+
+[[package]]
+channel = 'fedora'
+name = 'pnpm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pnpm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pnpm@10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pnpm@11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pnpm@9'

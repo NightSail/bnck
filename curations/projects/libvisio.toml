@@ -1,0 +1,16 @@
+id = 'libvisio'
+name = 'libvisio'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libvisio'
+
+[[package]]
+channel = 'arch'
+name = 'libvisio'
+
+[[package]]
+channel = 'fedora'
+name = 'libvisio-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libvisio'

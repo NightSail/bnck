@@ -1,0 +1,12 @@
+id = 'portal-portal'
+name = 'portal'
+
+homepage = 'https://portal.hdfgroup.org'
+
+[[package]]
+channel = 'fedora'
+name = 'hdf'
+
+[[package]]
+channel = 'fedora'
+name = 'hdf-devel'

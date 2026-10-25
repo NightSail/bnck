@@ -1,0 +1,8 @@
+id = 'ultimateultimateguitar'
+name = 'ultimateultimateguitar'
+
+homepage = 'https://codeberg.org/ltworf/ultimateultimateguitar'
+
+[[package]]
+channel = 'debian'
+name = 'ultimateultimateguitar'

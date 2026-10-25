@@ -1,0 +1,12 @@
+id = 'lucky-commit'
+name = 'lucky-commit'
+
+homepage = 'https://github.com/not-an-aardvark/lucky-commit'
+
+[[package]]
+channel = 'arch'
+name = 'lucky-commit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lucky-commit'

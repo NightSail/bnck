@@ -1,0 +1,12 @@
+id = 'prs'
+name = 'prs'
+
+homepage = 'https://timvisee.com/projects/prs'
+
+[[package]]
+channel = 'debian'
+name = 'prs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prs'

@@ -1,0 +1,8 @@
+id = 'luksy'
+name = 'luksy'
+
+homepage = 'https://github.com/containers/luksy'
+
+[[package]]
+channel = 'debian'
+name = 'luksy'

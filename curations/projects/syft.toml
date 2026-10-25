@@ -1,0 +1,12 @@
+id = 'syft'
+name = 'syft'
+
+repository = 'https://github.com/anchore/syft.git'
+
+[[package]]
+channel = 'arch'
+name = 'syft'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/syft'

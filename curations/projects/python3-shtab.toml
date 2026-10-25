@@ -1,0 +1,6 @@
+id = 'python3-shtab'
+name = 'python3-shtab'
+
+[[package]]
+channel = 'debian'
+name = 'python3-shtab'

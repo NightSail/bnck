@@ -1,0 +1,8 @@
+id = 'haskell-clientsession'
+name = 'haskell-clientsession'
+
+homepage = 'https://github.com/yesodweb/clientsession/tree/master'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-clientsession'

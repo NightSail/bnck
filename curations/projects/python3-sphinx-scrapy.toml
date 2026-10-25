@@ -1,0 +1,8 @@
+id = 'python3-sphinx-scrapy'
+name = 'python3-sphinx-scrapy'
+
+homepage = 'https://github.com/scrapy/sphinx-scrapy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-scrapy'

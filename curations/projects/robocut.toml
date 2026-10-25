@@ -1,0 +1,6 @@
+id = 'robocut'
+name = 'robocut'
+
+[[package]]
+channel = 'debian'
+name = 'robocut'

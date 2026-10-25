@@ -1,0 +1,8 @@
+id = 'spd'
+name = 'spd'
+
+homepage = 'http://forge.epn-campus.eu/projects/azimuthal'
+
+[[package]]
+channel = 'debian'
+name = 'spd'

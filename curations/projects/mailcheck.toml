@@ -1,0 +1,12 @@
+id = 'mailcheck'
+name = 'mailcheck'
+
+homepage = 'https://mailcheck.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mailcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mailcheck'

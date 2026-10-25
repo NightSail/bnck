@@ -1,0 +1,20 @@
+id = 'jose'
+name = 'jose'
+
+homepage = 'https://github.com/latchset/jose'
+
+[[package]]
+channel = 'arch'
+name = 'jose'
+
+[[package]]
+channel = 'debian'
+name = 'jose'
+
+[[package]]
+channel = 'fedora'
+name = 'jose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jose'

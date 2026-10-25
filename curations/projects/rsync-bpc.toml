@@ -1,0 +1,8 @@
+id = 'rsync-bpc'
+name = 'rsync-bpc'
+
+homepage = 'https://github.com/backuppc/rsync-bpc'
+
+[[package]]
+channel = 'fedora'
+name = 'rsync-bpc'

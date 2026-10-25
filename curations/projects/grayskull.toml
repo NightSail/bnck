@@ -1,0 +1,9 @@
+id = 'grayskull'
+name = 'grayskull'
+
+homepage = 'https://conda.github.io/grayskull'
+repository = 'https://github.com/conda/grayskull.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grayskull'

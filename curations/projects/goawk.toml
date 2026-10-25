@@ -1,0 +1,13 @@
+id = 'goawk'
+name = 'goawk'
+
+homepage = 'https://benhoyt.com/writings/goawk'
+repository = 'https://github.com/benhoyt/goawk.git'
+
+[[package]]
+channel = 'debian'
+name = 'goawk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goawk'

@@ -1,0 +1,12 @@
+id = 'daemon'
+name = 'daemon'
+
+homepage = 'https://libslack.org/daemon'
+
+[[package]]
+channel = 'debian'
+name = 'daemon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/daemon'

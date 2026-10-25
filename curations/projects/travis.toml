@@ -4,5 +4,9 @@ name = 'travis'
 homepage = 'https://github.com/travis-ci/travis.rb'
 
 [[package]]
+channel = 'debian'
+name = 'travis'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/travis'

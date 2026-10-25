@@ -1,0 +1,8 @@
+id = 'clide'
+name = 'clide'
+
+homepage = 'http://suso.suso.org/xulu/Clide'
+
+[[package]]
+channel = 'fedora'
+name = 'clide'

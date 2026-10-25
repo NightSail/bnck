@@ -1,0 +1,12 @@
+id = 'burrow'
+name = 'burrow'
+
+repository = 'https://github.com/linkedin/Burrow.git'
+
+[[package]]
+channel = 'debian'
+name = 'burrow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/burrow'

@@ -1,0 +1,8 @@
+id = 'bosh'
+name = 'bosh'
+
+homepage = 'https://bosh.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'bosh'

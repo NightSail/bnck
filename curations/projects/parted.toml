@@ -6,3 +6,11 @@ homepage = 'https://www.gnu.org/software/parted/parted.html'
 [[package]]
 channel = 'arch'
 name = 'parted'
+
+[[package]]
+channel = 'debian'
+name = 'parted'
+
+[[package]]
+channel = 'fedora'
+name = 'parted'

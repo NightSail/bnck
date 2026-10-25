@@ -1,0 +1,16 @@
+id = 'lzip'
+name = 'lzip'
+
+homepage = 'https://www.nongnu.org/lzip/lzip.html'
+
+[[package]]
+channel = 'arch'
+name = 'lzip'
+
+[[package]]
+channel = 'debian'
+name = 'lzip'
+
+[[package]]
+channel = 'fedora'
+name = 'lzip'

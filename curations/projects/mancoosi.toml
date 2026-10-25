@@ -1,0 +1,24 @@
+id = 'mancoosi'
+name = 'mancoosi'
+
+homepage = 'https://www.mancoosi.org/software'
+
+[[package]]
+channel = 'debian'
+name = 'apt-cudf'
+
+[[package]]
+channel = 'debian'
+name = 'dose-builddebcheck'
+
+[[package]]
+channel = 'debian'
+name = 'dose-distcheck'
+
+[[package]]
+channel = 'debian'
+name = 'dose-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'dose3-tools'

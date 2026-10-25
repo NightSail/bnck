@@ -1,0 +1,8 @@
+id = 'mpd-sima'
+name = 'mpd-sima'
+
+homepage = 'https://kaliko.me/mpd-sima'
+
+[[package]]
+channel = 'debian'
+name = 'mpd-sima'

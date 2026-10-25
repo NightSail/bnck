@@ -1,0 +1,8 @@
+id = 'casacore-tools'
+name = 'casacore-tools'
+
+homepage = 'https://casacore.github.io/casacore'
+
+[[package]]
+channel = 'debian'
+name = 'casacore-tools'

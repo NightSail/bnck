@@ -1,0 +1,12 @@
+id = 'papermill'
+name = 'papermill'
+
+homepage = 'https://github.com/nteract/papermill'
+
+[[package]]
+channel = 'arch'
+name = 'python-papermill'
+
+[[package]]
+channel = 'debian'
+name = 'python3-papermill'

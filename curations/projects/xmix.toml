@@ -1,0 +1,6 @@
+id = 'xmix'
+name = 'xmix'
+
+[[package]]
+channel = 'debian'
+name = 'xmix'

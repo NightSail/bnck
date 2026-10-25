@@ -1,0 +1,12 @@
+id = 'le'
+name = 'le'
+
+homepage = 'https://github.com/lavv17/le'
+
+[[package]]
+channel = 'debian'
+name = 'le'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/le'

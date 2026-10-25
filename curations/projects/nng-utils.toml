@@ -1,0 +1,8 @@
+id = 'nng-utils'
+name = 'nng-utils'
+
+homepage = 'https://nanomsg.github.io/nng'
+
+[[package]]
+channel = 'fedora'
+name = 'nng-utils'

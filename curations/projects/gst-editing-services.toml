@@ -1,0 +1,8 @@
+id = 'gst-editing-services'
+name = 'gst-editing-services'
+
+homepage = 'http://cgit.freedesktop.org/gstreamer/gst-editing-services'
+
+[[package]]
+channel = 'fedora'
+name = 'gst-editing-services'

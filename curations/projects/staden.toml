@@ -1,0 +1,16 @@
+id = 'staden'
+name = 'staden'
+
+homepage = 'https://sourceforge.net/projects/staden'
+
+[[package]]
+channel = 'debian'
+name = 'staden'
+
+[[package]]
+channel = 'fedora'
+name = 'staden-io_lib'
+
+[[package]]
+channel = 'fedora'
+name = 'staden-io_lib-devel'

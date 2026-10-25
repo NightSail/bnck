@@ -1,0 +1,8 @@
+id = 'prelude-lml-rules'
+name = 'prelude-lml-rules'
+
+homepage = 'https://www.prelude-siem.org'
+
+[[package]]
+channel = 'debian'
+name = 'prelude-lml-rules'

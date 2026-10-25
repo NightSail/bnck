@@ -1,0 +1,8 @@
+id = 'makeicns'
+name = 'makeicns'
+
+homepage = 'http://www.amnoid.de/icns/makeicns.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/makeicns'

@@ -1,0 +1,16 @@
+id = 'mupen64plus'
+name = 'mupen64plus'
+
+homepage = 'http://www.mupen64plus.org'
+
+[[package]]
+channel = 'arch'
+name = 'mupen64plus'
+
+[[package]]
+channel = 'fedora'
+name = 'mupen64plus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mupen64plus'

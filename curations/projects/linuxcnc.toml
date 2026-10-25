@@ -1,0 +1,12 @@
+id = 'linuxcnc'
+name = 'linuxcnc'
+
+homepage = 'https://linuxcnc.org'
+
+[[package]]
+channel = 'debian'
+name = 'linuxcnc-uspace'
+
+[[package]]
+channel = 'debian'
+name = 'linuxcnc-uspace-dev'

@@ -1,0 +1,12 @@
+id = 'cargo-flamegraph'
+name = 'cargo-flamegraph'
+
+repository = 'https://github.com/flamegraph-rs/flamegraph.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-flamegraph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-flamegraph'

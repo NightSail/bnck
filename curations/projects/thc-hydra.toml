@@ -1,0 +1,24 @@
+id = 'thc-hydra'
+name = 'thc-hydra'
+
+homepage = 'https://github.com/vanhauser-thc/thc-hydra'
+
+[[package]]
+channel = 'arch'
+name = 'hydra'
+
+[[package]]
+channel = 'debian'
+name = 'hydra'
+
+[[package]]
+channel = 'debian'
+name = 'hydra-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'hydra'
+
+[[package]]
+channel = 'fedora'
+name = 'hydra-frontend'

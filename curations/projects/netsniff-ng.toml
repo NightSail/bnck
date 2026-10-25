@@ -1,0 +1,16 @@
+id = 'netsniff-ng'
+name = 'netsniff-ng'
+
+homepage = 'http://netsniff-ng.org'
+
+[[package]]
+channel = 'arch'
+name = 'netsniff-ng'
+
+[[package]]
+channel = 'debian'
+name = 'netsniff-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'netsniff-ng'

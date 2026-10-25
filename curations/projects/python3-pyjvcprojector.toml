@@ -1,0 +1,8 @@
+id = 'python3-pyjvcprojector'
+name = 'python3-pyjvcprojector'
+
+homepage = 'https://github.com/SteveEasley/pyjvcprojector'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyjvcprojector'

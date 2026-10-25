@@ -1,0 +1,8 @@
+id = 'tfmv'
+name = 'tfmv'
+
+repository = 'https://github.com/suzuki-shunsuke/tfmv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfmv'

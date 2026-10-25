@@ -4,6 +4,10 @@ name = 'mergiraf'
 repository = 'https://codeberg.org/mergiraf/mergiraf'
 
 [[package]]
+channel = 'arch'
+name = 'mergiraf'
+
+[[package]]
 channel = 'crates.io'
 name = 'mergiraf'
 

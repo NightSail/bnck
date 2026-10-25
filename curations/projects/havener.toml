@@ -1,0 +1,8 @@
+id = 'havener'
+name = 'havener'
+
+repository = 'https://github.com/homeport/havener.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/havener'

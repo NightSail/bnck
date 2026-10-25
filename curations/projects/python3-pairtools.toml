@@ -1,0 +1,8 @@
+id = 'python3-pairtools'
+name = 'python3-pairtools'
+
+homepage = 'https://github.com/mirnylab/pairtools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pairtools'

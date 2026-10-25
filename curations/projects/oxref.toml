@@ -1,0 +1,8 @@
+id = 'oxref'
+name = 'oxref'
+
+homepage = 'https://fbb-git.gitlab.io/oxref'
+
+[[package]]
+channel = 'debian'
+name = 'oxref'

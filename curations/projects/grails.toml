@@ -1,0 +1,8 @@
+id = 'grails'
+name = 'grails'
+
+homepage = 'https://grails.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grails'

@@ -1,0 +1,8 @@
+id = 'rapid-mlx'
+name = 'rapid-mlx'
+
+homepage = 'https://github.com/raullenchai/Rapid-MLX'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rapid-mlx'

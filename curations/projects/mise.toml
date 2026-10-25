@@ -12,6 +12,10 @@ channel = 'crates.io'
 name = 'mise'
 
 [[package]]
+channel = 'crates.io'
+name = 'vfox'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/mise'
 

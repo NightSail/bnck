@@ -1,0 +1,8 @@
+id = 'dis51'
+name = 'dis51'
+
+homepage = 'http://plit.de/asem-51/dis51.html'
+
+[[package]]
+channel = 'debian'
+name = 'dis51'

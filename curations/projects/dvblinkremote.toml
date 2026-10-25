@@ -1,0 +1,8 @@
+id = 'dvblinkremote'
+name = 'dvblinkremote'
+
+homepage = 'https://github.com/marefr/dvblinkremote'
+
+[[package]]
+channel = 'fedora'
+name = 'dvblinkremote'

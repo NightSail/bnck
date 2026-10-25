@@ -1,0 +1,12 @@
+id = 'linuxtv'
+name = 'linuxtv'
+
+homepage = 'https://linuxtv.org'
+
+[[package]]
+channel = 'arch'
+name = 'tvtime'
+
+[[package]]
+channel = 'arch'
+name = 'v4l-utils'

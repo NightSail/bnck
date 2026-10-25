@@ -1,0 +1,8 @@
+id = 'genchemlab'
+name = 'genchemlab'
+
+homepage = 'http://genchemlab.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'genchemlab'

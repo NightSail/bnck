@@ -1,0 +1,12 @@
+id = 'code-tidyall'
+name = 'Code-TidyAll'
+
+homepage = 'https://metacpan.org/release/Code-TidyAll'
+
+[[package]]
+channel = 'debian'
+name = 'libcode-tidyall-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Code-TidyAll'

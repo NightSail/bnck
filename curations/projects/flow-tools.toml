@@ -1,0 +1,16 @@
+id = 'flow-tools'
+name = 'flow-tools'
+
+homepage = 'https://code.google.com/archive/p/flow-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'flow-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'flow-tools-rrdtool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flow-tools'

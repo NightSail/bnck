@@ -1,0 +1,8 @@
+id = 'hoteldruid'
+name = 'hoteldruid'
+
+homepage = 'http://www.hoteldruid.com'
+
+[[package]]
+channel = 'debian'
+name = 'hoteldruid'

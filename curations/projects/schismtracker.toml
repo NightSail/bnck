@@ -1,0 +1,16 @@
+id = 'schismtracker'
+name = 'schismtracker'
+
+homepage = 'https://schismtracker.org'
+
+[[package]]
+channel = 'arch'
+name = 'schismtracker'
+
+[[package]]
+channel = 'debian'
+name = 'schism'
+
+[[package]]
+channel = 'fedora'
+name = 'schismtracker'

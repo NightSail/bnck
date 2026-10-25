@@ -1,0 +1,8 @@
+id = 'x42-plugins-standalone'
+name = 'x42-plugins-standalone'
+
+homepage = 'https://x42-plugins.com/x42'
+
+[[package]]
+channel = 'arch'
+name = 'x42-plugins-standalone'

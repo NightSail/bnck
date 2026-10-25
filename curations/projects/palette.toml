@@ -1,0 +1,8 @@
+id = 'palette'
+name = 'palette'
+
+homepage = 'https://gitlab.gnome.org/World/design/palette'
+
+[[package]]
+channel = 'arch'
+name = 'palette'

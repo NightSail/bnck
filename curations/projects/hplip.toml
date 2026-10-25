@@ -1,0 +1,8 @@
+id = 'hplip'
+name = 'hplip'
+
+homepage = 'https://hplipopensource.com'
+
+[[package]]
+channel = 'arch'
+name = 'hplip'

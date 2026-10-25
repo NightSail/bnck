@@ -1,0 +1,8 @@
+id = 'commandbox'
+name = 'commandbox'
+
+homepage = 'https://www.ortussolutions.com/products/commandbox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/commandbox'

@@ -1,0 +1,8 @@
+id = 'sfk'
+name = 'sfk'
+
+homepage = 'http://stahlworks.com/dev/swiss-file-knife.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sfk'

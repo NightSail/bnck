@@ -1,0 +1,8 @@
+id = 'mstore'
+name = 'mstore'
+
+homepage = 'https://github.com/grimme-lab/mstore'
+
+[[package]]
+channel = 'fedora'
+name = 'mstore'

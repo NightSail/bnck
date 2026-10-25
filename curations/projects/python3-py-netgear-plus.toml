@@ -1,0 +1,8 @@
+id = 'python3-py-netgear-plus'
+name = 'python3-py-netgear-plus'
+
+homepage = 'https://github.com/foxey/py-netgear-plus'
+
+[[package]]
+channel = 'debian'
+name = 'python3-py-netgear-plus'

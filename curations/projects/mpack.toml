@@ -1,0 +1,6 @@
+id = 'mpack'
+name = 'mpack'
+
+[[package]]
+channel = 'debian'
+name = 'mpack'

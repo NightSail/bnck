@@ -1,0 +1,16 @@
+id = 'kjournald'
+name = 'kjournald'
+
+homepage = 'https://apps.kde.org/kjournaldbrowser'
+
+[[package]]
+channel = 'arch'
+name = 'kjournald'
+
+[[package]]
+channel = 'debian'
+name = 'kjournaldbrowser'
+
+[[package]]
+channel = 'fedora'
+name = 'kjournald'

@@ -1,0 +1,8 @@
+id = 'golang-github-cockroachdb-pebble'
+name = 'golang-github-cockroachdb-pebble'
+
+homepage = 'https://github.com/cockroachdb/pebble'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cockroachdb-pebble'

@@ -1,0 +1,12 @@
+id = 'astroid'
+name = 'astroid'
+
+homepage = 'https://github.com/astroidmail/astroid'
+
+[[package]]
+channel = 'arch'
+name = 'astroid'
+
+[[package]]
+channel = 'debian'
+name = 'astroid'

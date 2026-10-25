@@ -1,0 +1,12 @@
+id = 'x-wr-timezone'
+name = 'x-wr-timezone'
+
+homepage = 'https://github.com/niccokunzmann/x-wr-timezone'
+
+[[package]]
+channel = 'arch'
+name = 'python-x-wr-timezone'
+
+[[package]]
+channel = 'debian'
+name = 'python3-x-wr-timezone'

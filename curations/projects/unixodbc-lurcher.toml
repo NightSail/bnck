@@ -1,0 +1,9 @@
+id = 'unixodbc-lurcher'
+name = 'unixodbc'
+
+homepage = 'https://www.unixodbc.org'
+repository = 'https://github.com/lurcher/unixODBC.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unixodbc'

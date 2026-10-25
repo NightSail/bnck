@@ -1,0 +1,8 @@
+id = 'modem-cmd'
+name = 'modem-cmd'
+
+homepage = 'https://github.com/imZack/modem-cmd'
+
+[[package]]
+channel = 'debian'
+name = 'modem-cmd'

@@ -1,0 +1,8 @@
+id = 'xwatch'
+name = 'xwatch'
+
+homepage = 'https://packages.debian.org/xwatch'
+
+[[package]]
+channel = 'debian'
+name = 'xwatch'

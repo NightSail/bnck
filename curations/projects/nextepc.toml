@@ -1,0 +1,24 @@
+id = 'nextepc'
+name = 'nextepc'
+
+homepage = 'https://nextepc.org'
+
+[[package]]
+channel = 'debian'
+name = 'nextepc-hss'
+
+[[package]]
+channel = 'debian'
+name = 'nextepc-mme'
+
+[[package]]
+channel = 'debian'
+name = 'nextepc-pcrf'
+
+[[package]]
+channel = 'debian'
+name = 'nextepc-pgw'
+
+[[package]]
+channel = 'debian'
+name = 'nextepc-sgw'

@@ -1,0 +1,8 @@
+id = 'sql-lint'
+name = 'sql-lint'
+
+homepage = 'https://github.com/joereynolds/sql-lint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sql-lint'

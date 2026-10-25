@@ -1,0 +1,8 @@
+id = 'kcat-edenhill'
+name = 'kcat'
+
+repository = 'https://github.com/edenhill/kcat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kcat'

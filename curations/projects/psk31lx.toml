@@ -1,0 +1,6 @@
+id = 'psk31lx'
+name = 'psk31lx'
+
+[[package]]
+channel = 'debian'
+name = 'psk31lx'

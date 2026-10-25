@@ -1,0 +1,8 @@
+id = 'foomatic'
+name = 'foomatic'
+
+homepage = 'https://github.com/OpenPrinting/foomatic-db-engine'
+
+[[package]]
+channel = 'fedora'
+name = 'foomatic'

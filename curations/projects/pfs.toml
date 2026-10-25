@@ -1,0 +1,12 @@
+id = 'pfs'
+name = 'pfs'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/pfs'
+
+[[package]]
+channel = 'debian'
+name = 'pfs-demo'
+
+[[package]]
+channel = 'debian'
+name = 'pfs-utils'

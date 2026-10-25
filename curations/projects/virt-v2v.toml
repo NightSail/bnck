@@ -1,0 +1,8 @@
+id = 'virt-v2v'
+name = 'virt-v2v'
+
+homepage = 'https://github.com/libguestfs/virt-v2v'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-v2v'

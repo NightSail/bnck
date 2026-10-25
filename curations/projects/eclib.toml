@@ -1,0 +1,12 @@
+id = 'eclib'
+name = 'eclib'
+
+homepage = 'https://github.com/JohnCremona/eclib'
+
+[[package]]
+channel = 'arch'
+name = 'eclib'
+
+[[package]]
+channel = 'debian'
+name = 'eclib-tools'

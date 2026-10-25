@@ -1,0 +1,8 @@
+id = 'qcumber'
+name = 'qcumber'
+
+homepage = 'https://gitlab.com/RKIBioinformaticsPipelines/QCumber'
+
+[[package]]
+channel = 'debian'
+name = 'qcumber'

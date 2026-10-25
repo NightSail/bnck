@@ -1,0 +1,20 @@
+id = 'jacktrip'
+name = 'jacktrip'
+
+homepage = 'https://github.com/jacktrip/jacktrip'
+
+[[package]]
+channel = 'arch'
+name = 'jacktrip'
+
+[[package]]
+channel = 'debian'
+name = 'jacktrip'
+
+[[package]]
+channel = 'debian'
+name = 'jacktrip-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'jacktrip'

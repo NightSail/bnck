@@ -1,0 +1,12 @@
+id = 'pyp'
+name = 'pyp'
+
+homepage = 'https://github.com/hauntsaninja/pyp'
+
+[[package]]
+channel = 'debian'
+name = 'pyp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyp'

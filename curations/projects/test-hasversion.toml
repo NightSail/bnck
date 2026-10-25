@@ -1,0 +1,12 @@
+id = 'test-hasversion'
+name = 'Test-HasVersion'
+
+homepage = 'https://metacpan.org/release/Test-HasVersion'
+
+[[package]]
+channel = 'debian'
+name = 'libtest-hasversion-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-HasVersion'

@@ -1,0 +1,8 @@
+id = 'python3-sfdnormalize'
+name = 'python3-sfdnormalize'
+
+homepage = 'https://github.com/alerque/sfdnormalize'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sfdnormalize'

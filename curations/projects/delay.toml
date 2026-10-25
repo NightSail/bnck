@@ -1,0 +1,8 @@
+id = 'delay'
+name = 'delay'
+
+homepage = 'https://github.com/rom1v/delay'
+
+[[package]]
+channel = 'debian'
+name = 'delay'

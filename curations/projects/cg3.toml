@@ -1,0 +1,8 @@
+id = 'cg3'
+name = 'cg3'
+
+homepage = 'https://edu.visl.dk/cg3.html'
+
+[[package]]
+channel = 'debian'
+name = 'cg3'

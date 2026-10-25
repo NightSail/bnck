@@ -1,0 +1,8 @@
+id = 'minijks'
+name = 'minijks'
+
+homepage = 'https://github.com/lwithers/minijks'
+
+[[package]]
+channel = 'debian'
+name = 'minijks'

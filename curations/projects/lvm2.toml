@@ -1,0 +1,48 @@
+id = 'lvm2'
+name = 'lvm2'
+
+homepage = 'https://sourceware.org/lvm2'
+
+[[package]]
+channel = 'arch'
+name = 'lvm2'
+
+[[package]]
+channel = 'debian'
+name = 'dmeventd'
+
+[[package]]
+channel = 'debian'
+name = 'dmsetup'
+
+[[package]]
+channel = 'debian'
+name = 'lvm2'
+
+[[package]]
+channel = 'debian'
+name = 'lvm2-dbusd'
+
+[[package]]
+channel = 'debian'
+name = 'lvm2-lockd'
+
+[[package]]
+channel = 'fedora'
+name = 'device-mapper-event'
+
+[[package]]
+channel = 'fedora'
+name = 'lvm2'
+
+[[package]]
+channel = 'fedora'
+name = 'lvm2-dbusd'
+
+[[package]]
+channel = 'fedora'
+name = 'lvm2-lockd'
+
+[[package]]
+channel = 'fedora'
+name = 'lvm2-testsuite'

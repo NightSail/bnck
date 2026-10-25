@@ -1,0 +1,20 @@
+id = 'kservice'
+name = 'kservice'
+
+homepage = 'https://invent.kde.org/frameworks/kservice'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5service-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6service-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kservice'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kservice'

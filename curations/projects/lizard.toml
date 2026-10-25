@@ -1,0 +1,8 @@
+id = 'lizard'
+name = 'lizard'
+
+homepage = 'https://github.com/inikep/lizard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lizard'

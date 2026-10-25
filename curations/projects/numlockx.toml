@@ -1,0 +1,16 @@
+id = 'numlockx'
+name = 'numlockx'
+
+homepage = 'https://github.com/rg3/numlockx'
+
+[[package]]
+channel = 'arch'
+name = 'numlockx'
+
+[[package]]
+channel = 'debian'
+name = 'numlockx'
+
+[[package]]
+channel = 'fedora'
+name = 'numlockx'

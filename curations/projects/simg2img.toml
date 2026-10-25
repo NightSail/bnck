@@ -1,0 +1,8 @@
+id = 'simg2img'
+name = 'simg2img'
+
+repository = 'https://github.com/anestisb/android-simg2img.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/simg2img'

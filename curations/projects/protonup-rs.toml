@@ -1,0 +1,8 @@
+id = 'protonup-rs'
+name = 'protonup-rs'
+
+homepage = 'https://github.com/auyer/protonup-rs'
+
+[[package]]
+channel = 'debian'
+name = 'protonup-rs'

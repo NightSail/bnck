@@ -1,0 +1,8 @@
+id = 'abicheck'
+name = 'abicheck'
+
+homepage = 'https://sourceforge.net/projects/abicheck'
+
+[[package]]
+channel = 'debian'
+name = 'abicheck'

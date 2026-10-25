@@ -1,0 +1,8 @@
+id = 'deployer'
+name = 'deployer'
+
+homepage = 'https://deployer.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deployer'

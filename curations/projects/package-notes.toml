@@ -1,0 +1,8 @@
+id = 'package-notes'
+name = 'package-notes'
+
+homepage = 'https://github.com/systemd/package-notes'
+
+[[package]]
+channel = 'arch'
+name = 'package-notes'

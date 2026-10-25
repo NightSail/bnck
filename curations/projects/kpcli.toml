@@ -1,0 +1,16 @@
+id = 'kpcli'
+name = 'kpcli'
+
+homepage = 'https://kpcli.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'kpcli'
+
+[[package]]
+channel = 'fedora'
+name = 'kpcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kpcli'

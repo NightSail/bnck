@@ -1,0 +1,16 @@
+id = 'pngcheck'
+name = 'pngcheck'
+
+homepage = 'https://github.com/pnggroup/pngcheck'
+
+[[package]]
+channel = 'debian'
+name = 'pngcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'pngcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pngcheck'

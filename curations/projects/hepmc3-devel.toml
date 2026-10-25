@@ -1,0 +1,8 @@
+id = 'hepmc3-devel'
+name = 'HepMC3-devel'
+
+homepage = 'https://hepmc.web.cern.ch/hepmc'
+
+[[package]]
+channel = 'fedora'
+name = 'HepMC3-devel'

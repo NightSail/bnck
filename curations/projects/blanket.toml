@@ -1,0 +1,12 @@
+id = 'blanket'
+name = 'blanket'
+
+homepage = 'https://apps.gnome.org/Blanket'
+
+[[package]]
+channel = 'arch'
+name = 'blanket'
+
+[[package]]
+channel = 'debian'
+name = 'blanket'

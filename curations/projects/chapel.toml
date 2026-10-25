@@ -1,0 +1,9 @@
+id = 'chapel'
+name = 'chapel'
+
+homepage = 'https://chapel-lang.org'
+repository = 'https://github.com/chapel-lang/chapel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chapel'

@@ -1,0 +1,9 @@
+id = 'talisman'
+name = 'talisman'
+
+homepage = 'https://thoughtworks.github.io/talisman'
+repository = 'https://github.com/thoughtworks/talisman.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/talisman'

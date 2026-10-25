@@ -1,0 +1,16 @@
+id = 'qgit'
+name = 'qgit'
+
+homepage = 'https://github.com/tibirna/qgit'
+
+[[package]]
+channel = 'arch'
+name = 'qgit'
+
+[[package]]
+channel = 'debian'
+name = 'qgit'
+
+[[package]]
+channel = 'fedora'
+name = 'qgit'

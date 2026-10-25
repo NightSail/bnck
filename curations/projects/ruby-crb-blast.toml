@@ -1,0 +1,8 @@
+id = 'ruby-crb-blast'
+name = 'ruby-crb-blast'
+
+homepage = 'https://github.com/cboursnell/crb-blast'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-crb-blast'

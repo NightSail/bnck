@@ -1,0 +1,16 @@
+id = 'easy-rsa'
+name = 'easy-rsa'
+
+repository = 'https://github.com/OpenVPN/easy-rsa.git'
+
+[[package]]
+channel = 'arch'
+name = 'easy-rsa'
+
+[[package]]
+channel = 'debian'
+name = 'easy-rsa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/easy-rsa'

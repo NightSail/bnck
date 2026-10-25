@@ -1,0 +1,8 @@
+id = 'nsis-nsis'
+name = 'nsis'
+
+homepage = 'https://nsis.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'nsis'

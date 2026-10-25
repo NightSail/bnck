@@ -1,0 +1,8 @@
+id = 'libdng-utils'
+name = 'libdng-utils'
+
+homepage = 'https://gitlab.com/megapixels-org/libdng'
+
+[[package]]
+channel = 'debian'
+name = 'libdng-utils'

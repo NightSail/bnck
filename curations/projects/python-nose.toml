@@ -1,0 +1,8 @@
+id = 'python-nose'
+name = 'python-nose'
+
+homepage = 'https://readthedocs.org/docs/nose'
+
+[[package]]
+channel = 'arch'
+name = 'python-nose'

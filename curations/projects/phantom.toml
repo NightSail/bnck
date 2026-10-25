@@ -1,0 +1,8 @@
+id = 'phantom'
+name = 'phantom'
+
+homepage = 'https://github.com/phantompane/phantom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phantom'

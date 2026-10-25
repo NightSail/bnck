@@ -1,0 +1,9 @@
+id = 'goku'
+name = 'goku'
+
+homepage = 'https://goku.observabilityinsight.com'
+repository = 'https://github.com/jcaromiq/goku.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goku'

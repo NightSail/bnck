@@ -1,0 +1,8 @@
+id = 'phyx'
+name = 'phyx'
+
+homepage = 'https://github.com/FePhyFoFum/phyx'
+
+[[package]]
+channel = 'debian'
+name = 'phyx'

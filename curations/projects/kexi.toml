@@ -1,0 +1,12 @@
+id = 'kexi'
+name = 'kexi'
+
+homepage = 'https://www.kexi-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'kexi'
+
+[[package]]
+channel = 'fedora'
+name = 'kexi'

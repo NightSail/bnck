@@ -1,0 +1,16 @@
+id = 'diceware'
+name = 'diceware'
+
+homepage = 'https://github.com/ulif/diceware'
+
+[[package]]
+channel = 'debian'
+name = 'diceware'
+
+[[package]]
+channel = 'fedora'
+name = 'diceware'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diceware'

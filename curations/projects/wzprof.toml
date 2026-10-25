@@ -1,0 +1,8 @@
+id = 'wzprof'
+name = 'wzprof'
+
+repository = 'https://github.com/dispatchrun/wzprof.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wzprof'

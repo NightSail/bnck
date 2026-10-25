@@ -1,0 +1,24 @@
+id = 'ddcutil'
+name = 'ddcutil'
+
+homepage = 'https://www.ddcutil.com'
+
+[[package]]
+channel = 'arch'
+name = 'ddcutil'
+
+[[package]]
+channel = 'debian'
+name = 'ddcui'
+
+[[package]]
+channel = 'debian'
+name = 'ddcutil'
+
+[[package]]
+channel = 'fedora'
+name = 'ddcutil'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddcutil'

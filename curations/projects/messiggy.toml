@@ -1,0 +1,8 @@
+id = 'messiggy'
+name = 'messiggy'
+
+homepage = 'http://www.coyotegulch.com/products/messiggy/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'messiggy'

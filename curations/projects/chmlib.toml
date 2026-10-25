@@ -1,0 +1,16 @@
+id = 'chmlib'
+name = 'chmlib'
+
+homepage = 'https://web.archive.org/web/20260415074851/https://www.jedrea.com/chmlib'
+
+[[package]]
+channel = 'arch'
+name = 'chmlib'
+
+[[package]]
+channel = 'fedora'
+name = 'chmlib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chmlib'

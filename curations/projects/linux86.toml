@@ -1,0 +1,10 @@
+id = 'linux86'
+name = 'linux86'
+
+[[package]]
+channel = 'debian'
+name = 'bcc'
+
+[[package]]
+channel = 'debian'
+name = 'bin86'

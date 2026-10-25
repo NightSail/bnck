@@ -1,0 +1,20 @@
+id = 'rhino'
+name = 'rhino'
+
+homepage = 'https://mozilla.github.io/rhino'
+
+[[package]]
+channel = 'arch'
+name = 'rhino'
+
+[[package]]
+channel = 'debian'
+name = 'rhino'
+
+[[package]]
+channel = 'fedora'
+name = 'rhino'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rhino'

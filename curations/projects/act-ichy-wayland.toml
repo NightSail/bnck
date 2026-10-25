@@ -1,0 +1,8 @@
+id = 'act-ichy-wayland'
+name = 'act'
+
+repository = 'https://github.com/ichy-wayland/act'
+
+[[package]]
+channel = 'crates.io'
+name = 'act'

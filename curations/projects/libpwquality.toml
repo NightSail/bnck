@@ -1,0 +1,16 @@
+id = 'libpwquality'
+name = 'libpwquality'
+
+homepage = 'https://github.com/libpwquality/libpwquality'
+
+[[package]]
+channel = 'arch'
+name = 'libpwquality'
+
+[[package]]
+channel = 'debian'
+name = 'libpwquality-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libpwquality'

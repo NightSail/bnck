@@ -1,0 +1,16 @@
+id = 'pyupgrade'
+name = 'pyupgrade'
+
+repository = 'https://github.com/asottile/pyupgrade.git'
+
+[[package]]
+channel = 'arch'
+name = 'pyupgrade'
+
+[[package]]
+channel = 'debian'
+name = 'pyupgrade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyupgrade'

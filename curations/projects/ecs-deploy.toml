@@ -1,0 +1,8 @@
+id = 'ecs-deploy'
+name = 'ecs-deploy'
+
+homepage = 'https://github.com/fabfuel/ecs-deploy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ecs-deploy'

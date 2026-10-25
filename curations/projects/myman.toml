@@ -1,0 +1,8 @@
+id = 'myman'
+name = 'myman'
+
+homepage = 'https://myman.sourceforge.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/myman'

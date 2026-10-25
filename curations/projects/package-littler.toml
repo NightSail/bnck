@@ -1,0 +1,12 @@
+id = 'package-littler'
+name = 'package=littler'
+
+homepage = 'https://cran.r-project.org/package=littler'
+
+[[package]]
+channel = 'debian'
+name = 'r-cran-littler'
+
+[[package]]
+channel = 'fedora'
+name = 'R-littler'

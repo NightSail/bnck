@@ -1,0 +1,16 @@
+id = 'treetop'
+name = 'treetop'
+
+homepage = 'https://github.com/cjheath/treetop'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-treetop'
+
+[[package]]
+channel = 'debian'
+name = 'treetop'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-treetop'

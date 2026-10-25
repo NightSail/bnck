@@ -1,0 +1,8 @@
+id = 'session-manager-plugin'
+name = 'session-manager-plugin'
+
+homepage = 'https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/session-manager-plugin'

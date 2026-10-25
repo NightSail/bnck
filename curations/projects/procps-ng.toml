@@ -1,0 +1,8 @@
+id = 'procps-ng'
+name = 'procps-ng'
+
+homepage = 'https://sourceforge.net/projects/procps-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'procps-ng'

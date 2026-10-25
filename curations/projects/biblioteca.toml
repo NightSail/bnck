@@ -1,0 +1,8 @@
+id = 'biblioteca'
+name = 'biblioteca'
+
+homepage = 'https://apps.gnome.org/Biblioteca'
+
+[[package]]
+channel = 'arch'
+name = 'biblioteca'

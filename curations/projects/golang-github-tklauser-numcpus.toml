@@ -1,0 +1,8 @@
+id = 'golang-github-tklauser-numcpus'
+name = 'golang-github-tklauser-numcpus'
+
+homepage = 'https://github.com/tklauser/numcpus'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-tklauser-numcpus'

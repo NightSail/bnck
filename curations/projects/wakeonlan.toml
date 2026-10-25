@@ -1,0 +1,16 @@
+id = 'wakeonlan'
+name = 'wakeonlan'
+
+homepage = 'https://github.com/jpoliv/wakeonlan'
+
+[[package]]
+channel = 'arch'
+name = 'wakeonlan'
+
+[[package]]
+channel = 'debian'
+name = 'wakeonlan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wakeonlan'

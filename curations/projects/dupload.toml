@@ -1,0 +1,6 @@
+id = 'dupload'
+name = 'dupload'
+
+[[package]]
+channel = 'debian'
+name = 'dupload'

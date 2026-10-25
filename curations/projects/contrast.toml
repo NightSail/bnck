@@ -1,0 +1,8 @@
+id = 'contrast'
+name = 'contrast'
+
+homepage = 'https://gitlab.gnome.org/World/design/contrast'
+
+[[package]]
+channel = 'arch'
+name = 'contrast'

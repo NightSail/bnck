@@ -1,0 +1,8 @@
+id = 'tmex'
+name = 'tmex'
+
+homepage = 'https://github.com/evnp/tmex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmex'

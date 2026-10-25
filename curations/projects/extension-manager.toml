@@ -1,0 +1,8 @@
+id = 'extension-manager'
+name = 'extension-manager'
+
+homepage = 'https://mattjakeman.com/apps/extension-manager'
+
+[[package]]
+channel = 'arch'
+name = 'extension-manager'

@@ -1,0 +1,12 @@
+id = 'rasterio'
+name = 'rasterio'
+
+homepage = 'https://github.com/rasterio/rasterio'
+
+[[package]]
+channel = 'debian'
+name = 'rasterio'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rasterio'

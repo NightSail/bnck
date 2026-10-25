@@ -1,0 +1,8 @@
+id = 'litl-tools'
+name = 'litl-tools'
+
+homepage = 'https://github.com/trahay/LiTL'
+
+[[package]]
+channel = 'debian'
+name = 'litl-tools'

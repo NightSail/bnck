@@ -1,0 +1,12 @@
+id = 'python3-gpiozero'
+name = 'python3-gpiozero'
+
+homepage = 'https://github.com/RPi-Distro/python-gpiozero'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gpiozero'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gpiozero'

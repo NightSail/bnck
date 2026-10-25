@@ -1,0 +1,12 @@
+id = 'sugar-toolkit-gtk3'
+name = 'sugar-toolkit-gtk3'
+
+homepage = 'https://github.com/sugarlabs/sugar-toolkit-gtk3'
+
+[[package]]
+channel = 'arch'
+name = 'sugar-toolkit-gtk3'
+
+[[package]]
+channel = 'fedora'
+name = 'sugar-toolkit-gtk3'

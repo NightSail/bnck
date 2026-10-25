@@ -1,0 +1,8 @@
+id = 'dool'
+name = 'dool'
+
+homepage = 'https://github.com/scottchiefbaker/dool'
+
+[[package]]
+channel = 'arch'
+name = 'dool'

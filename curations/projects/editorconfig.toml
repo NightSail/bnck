@@ -1,0 +1,13 @@
+id = 'editorconfig'
+name = 'editorconfig'
+
+homepage = 'https://editorconfig.org'
+repository = 'https://github.com/editorconfig/editorconfig-core-c.git'
+
+[[package]]
+channel = 'debian'
+name = 'editorconfig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/editorconfig'

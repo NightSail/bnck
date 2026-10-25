@@ -1,0 +1,12 @@
+id = 'python3-kaptan'
+name = 'python3-kaptan'
+
+homepage = 'https://github.com/emre/kaptan'
+
+[[package]]
+channel = 'debian'
+name = 'python3-kaptan'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-kaptan'

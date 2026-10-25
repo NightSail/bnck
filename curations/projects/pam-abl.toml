@@ -1,0 +1,12 @@
+id = 'pam-abl'
+name = 'pam_abl'
+
+homepage = 'http://pam-abl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-abl'
+
+[[package]]
+channel = 'fedora'
+name = 'pam_abl'

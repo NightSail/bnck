@@ -1,0 +1,8 @@
+id = 'dpaste'
+name = 'dpaste'
+
+homepage = 'https://github.com/sim590/dpaste'
+
+[[package]]
+channel = 'debian'
+name = 'dpaste'

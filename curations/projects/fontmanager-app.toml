@@ -1,0 +1,6 @@
+id = 'fontmanager-app'
+name = 'fontmanager.app'
+
+[[package]]
+channel = 'debian'
+name = 'fontmanager.app'

@@ -1,0 +1,8 @@
+id = 'vkd3d'
+name = 'vkd3d'
+
+homepage = 'https://wiki.winehq.org/Vkd3d'
+
+[[package]]
+channel = 'arch'
+name = 'vkd3d'

@@ -1,0 +1,32 @@
+id = 'xonotic'
+name = 'xonotic'
+
+homepage = 'https://xonotic.org'
+
+[[package]]
+channel = 'arch'
+name = 'xonotic'
+
+[[package]]
+channel = 'fedora'
+name = 'darkplaces'
+
+[[package]]
+channel = 'fedora'
+name = 'darkplaces-quake'
+
+[[package]]
+channel = 'fedora'
+name = 'darkplaces-quake-server'
+
+[[package]]
+channel = 'fedora'
+name = 'darkplaces-server'
+
+[[package]]
+channel = 'fedora'
+name = 'xonotic'
+
+[[package]]
+channel = 'fedora'
+name = 'xonotic-server'

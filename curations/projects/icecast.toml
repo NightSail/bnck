@@ -1,0 +1,32 @@
+id = 'icecast'
+name = 'icecast'
+
+homepage = 'https://icecast.org'
+
+[[package]]
+channel = 'arch'
+name = 'libshout'
+
+[[package]]
+channel = 'debian'
+name = 'icecast2'
+
+[[package]]
+channel = 'debian'
+name = 'libshout-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'icecast'
+
+[[package]]
+channel = 'fedora'
+name = 'libshout'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icecast'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libshout'

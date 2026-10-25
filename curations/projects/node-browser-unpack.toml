@@ -1,0 +1,8 @@
+id = 'node-browser-unpack'
+name = 'node-browser-unpack'
+
+homepage = 'https://github.com/substack/browser-unpack'
+
+[[package]]
+channel = 'debian'
+name = 'node-browser-unpack'

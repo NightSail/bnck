@@ -1,0 +1,8 @@
+id = 'wfuzz'
+name = 'wfuzz'
+
+homepage = 'http://www.edge-security.com/wfuzz.php'
+
+[[package]]
+channel = 'debian'
+name = 'wfuzz'

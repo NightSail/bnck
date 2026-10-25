@@ -1,0 +1,8 @@
+id = 'ripper'
+name = 'ripper'
+
+homepage = 'https://github.com/odeke-em/ripper'
+
+[[package]]
+channel = 'debian'
+name = 'ripper'

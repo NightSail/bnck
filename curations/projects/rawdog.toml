@@ -1,0 +1,8 @@
+id = 'rawdog'
+name = 'rawdog'
+
+repository = 'https://github.com/granawkins/rawdog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rawdog'

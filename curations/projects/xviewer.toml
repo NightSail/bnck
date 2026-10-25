@@ -1,0 +1,8 @@
+id = 'xviewer'
+name = 'xviewer'
+
+homepage = 'https://github.com/linuxmint/xviewer'
+
+[[package]]
+channel = 'arch'
+name = 'xviewer'

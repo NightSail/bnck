@@ -1,0 +1,8 @@
+id = 'vc4asm'
+name = 'vc4asm'
+
+homepage = 'https://maazl.de/project/vc4asm/doc/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vc4asm'

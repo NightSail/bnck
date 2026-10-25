@@ -1,0 +1,8 @@
+id = 'shader-slang'
+name = 'shader-slang'
+
+homepage = 'https://github.com/shader-slang/slang'
+
+[[package]]
+channel = 'arch'
+name = 'shader-slang'

@@ -1,0 +1,8 @@
+id = 'python-uv-dynamic-versioning'
+name = 'python-uv-dynamic-versioning'
+
+homepage = 'https://github.com/ninoseki/uv-dynamic-versioning'
+
+[[package]]
+channel = 'arch'
+name = 'python-uv-dynamic-versioning'

@@ -1,0 +1,8 @@
+id = 'teller'
+name = 'teller'
+
+repository = 'https://github.com/tellerops/teller.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/teller'

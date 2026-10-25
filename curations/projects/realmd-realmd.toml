@@ -1,0 +1,8 @@
+id = 'realmd-realmd'
+name = 'realmd'
+
+homepage = 'https://gitlab.freedesktop.org/realmd/realmd'
+
+[[package]]
+channel = 'fedora'
+name = 'realmd'

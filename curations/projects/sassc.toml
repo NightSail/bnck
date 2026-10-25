@@ -1,0 +1,16 @@
+id = 'sassc'
+name = 'sassc'
+
+repository = 'https://github.com/sass/sassc.git'
+
+[[package]]
+channel = 'debian'
+name = 'sassc'
+
+[[package]]
+channel = 'fedora'
+name = 'sassc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sassc'

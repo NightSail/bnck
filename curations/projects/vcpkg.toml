@@ -1,0 +1,17 @@
+id = 'vcpkg'
+name = 'vcpkg'
+
+homepage = 'https://vcpkg.io'
+repository = 'https://github.com/microsoft/vcpkg-tool.git'
+
+[[package]]
+channel = 'arch'
+name = 'vcpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'vcpkg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcpkg'

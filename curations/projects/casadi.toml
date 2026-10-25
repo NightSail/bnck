@@ -1,0 +1,8 @@
+id = 'casadi'
+name = 'casadi'
+
+homepage = 'https://casadi.org'
+
+[[package]]
+channel = 'debian'
+name = 'casadi'

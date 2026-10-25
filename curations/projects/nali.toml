@@ -1,0 +1,8 @@
+id = 'nali'
+name = 'nali'
+
+repository = 'https://github.com/zu1k/nali.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nali'

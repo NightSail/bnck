@@ -1,0 +1,12 @@
+id = 'aumix'
+name = 'aumix'
+
+homepage = 'https://sourceforge.net/projects/aumix'
+
+[[package]]
+channel = 'debian'
+name = 'aumix'
+
+[[package]]
+channel = 'debian'
+name = 'aumix-common'

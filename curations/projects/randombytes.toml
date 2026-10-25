@@ -1,0 +1,8 @@
+id = 'randombytes'
+name = 'randombytes'
+
+homepage = 'https://randombytes.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'randombytes'

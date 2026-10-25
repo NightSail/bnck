@@ -1,0 +1,8 @@
+id = 'goredo'
+name = 'goredo'
+
+homepage = 'http://www.goredo.stargrave.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goredo'

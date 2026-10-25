@@ -1,0 +1,16 @@
+id = 'kaidan'
+name = 'kaidan'
+
+homepage = 'https://www.kaidan.im'
+
+[[package]]
+channel = 'arch'
+name = 'kaidan'
+
+[[package]]
+channel = 'debian'
+name = 'kaidan'
+
+[[package]]
+channel = 'fedora'
+name = 'kaidan'

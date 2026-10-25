@@ -1,0 +1,16 @@
+id = 'libilbc'
+name = 'libilbc'
+
+homepage = 'https://github.com/TimothyGu/libilbc'
+
+[[package]]
+channel = 'arch'
+name = 'libilbc'
+
+[[package]]
+channel = 'fedora'
+name = 'ilbc-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libilbc'

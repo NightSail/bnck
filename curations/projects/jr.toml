@@ -1,0 +1,9 @@
+id = 'jr'
+name = 'jr'
+
+homepage = 'https://jrnd.io'
+repository = 'https://github.com/jrnd-io/jr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jr'

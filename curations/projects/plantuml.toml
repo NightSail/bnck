@@ -1,0 +1,24 @@
+id = 'plantuml'
+name = 'plantuml'
+
+homepage = 'https://plantuml.com'
+
+[[package]]
+channel = 'arch'
+name = 'plantuml'
+
+[[package]]
+channel = 'arch'
+name = 'plantuml-server'
+
+[[package]]
+channel = 'debian'
+name = 'plantuml'
+
+[[package]]
+channel = 'fedora'
+name = 'plantuml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plantuml'

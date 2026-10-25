@@ -1,0 +1,28 @@
+id = 'hunspell'
+name = 'hunspell'
+
+homepage = 'https://hunspell.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'hunspell'
+
+[[package]]
+channel = 'debian'
+name = 'hunspell'
+
+[[package]]
+channel = 'debian'
+name = 'hunspell-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'hunspell'
+
+[[package]]
+channel = 'fedora'
+name = 'hunspell-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hunspell'

@@ -1,0 +1,8 @@
+id = 'git-game'
+name = 'git-game'
+
+homepage = 'https://github.com/jsomers/git-game'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-game'

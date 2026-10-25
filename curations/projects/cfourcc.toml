@@ -1,0 +1,8 @@
+id = 'cfourcc'
+name = 'cfourcc'
+
+homepage = 'https://github.com/mypapit/cfourcc'
+
+[[package]]
+channel = 'debian'
+name = 'cfourcc'

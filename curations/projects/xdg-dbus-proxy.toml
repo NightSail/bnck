@@ -1,0 +1,16 @@
+id = 'xdg-dbus-proxy'
+name = 'xdg-dbus-proxy'
+
+homepage = 'https://github.com/flatpak/xdg-dbus-proxy'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-dbus-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-dbus-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'xdg-dbus-proxy'

@@ -1,0 +1,12 @@
+id = 'python3-asysocks'
+name = 'python3-asysocks'
+
+homepage = 'https://github.com/skelsec/asysocks'
+
+[[package]]
+channel = 'debian'
+name = 'python3-asysocks'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-asysocks'

@@ -1,0 +1,8 @@
+id = 'todo-txt-base'
+name = 'todo.txt-base'
+
+homepage = 'https://github.com/davesteele/todo.txt-base'
+
+[[package]]
+channel = 'debian'
+name = 'todo.txt-base'

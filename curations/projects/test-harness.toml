@@ -1,0 +1,12 @@
+id = 'test-harness'
+name = 'Test-Harness'
+
+homepage = 'https://metacpan.org/release/Test-Harness'
+
+[[package]]
+channel = 'debian'
+name = 'libtest-harness-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Harness'

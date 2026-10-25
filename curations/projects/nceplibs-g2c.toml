@@ -1,0 +1,12 @@
+id = 'nceplibs-g2c'
+name = 'nceplibs-g2c'
+
+homepage = 'https://github.com/NOAA-EMC/NCEPLIBS-g2c'
+
+[[package]]
+channel = 'debian'
+name = 'libg2c-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'g2clib-utils'

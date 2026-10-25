@@ -1,0 +1,8 @@
+id = 'previsat'
+name = 'previsat'
+
+homepage = 'http://astropedia.free.fr'
+
+[[package]]
+channel = 'debian'
+name = 'previsat'

@@ -1,0 +1,8 @@
+id = 'python3-networking-l2gw'
+name = 'python3-networking-l2gw'
+
+homepage = 'https://opendev.org/x/networking-l2gw'
+
+[[package]]
+channel = 'debian'
+name = 'python3-networking-l2gw'

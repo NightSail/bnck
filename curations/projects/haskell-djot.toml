@@ -1,0 +1,8 @@
+id = 'haskell-djot'
+name = 'haskell-djot'
+
+homepage = 'https://github.com/jgm/djoths'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-djot'

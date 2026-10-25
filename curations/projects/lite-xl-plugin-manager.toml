@@ -1,0 +1,8 @@
+id = 'lite-xl-plugin-manager'
+name = 'lite-xl-plugin-manager'
+
+homepage = 'https://github.com/lite-xl/lite-xl-plugin-manager'
+
+[[package]]
+channel = 'arch'
+name = 'lite-xl-plugin-manager'

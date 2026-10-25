@@ -1,0 +1,16 @@
+id = 'psftools'
+name = 'psftools'
+
+homepage = 'https://www.seasip.info/Unix/PSF'
+
+[[package]]
+channel = 'debian'
+name = 'psftools'
+
+[[package]]
+channel = 'fedora'
+name = 'psftools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psftools'

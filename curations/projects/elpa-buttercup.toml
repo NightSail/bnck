@@ -1,0 +1,8 @@
+id = 'elpa-buttercup'
+name = 'elpa-buttercup'
+
+homepage = 'https://github.com/jorgenschaefer/emacs-buttercup'
+
+[[package]]
+channel = 'debian'
+name = 'elpa-buttercup'

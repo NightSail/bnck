@@ -1,0 +1,8 @@
+id = 'wstroke'
+name = 'wstroke'
+
+homepage = 'https://github.com/dkondor/wstroke'
+
+[[package]]
+channel = 'debian'
+name = 'wstroke'

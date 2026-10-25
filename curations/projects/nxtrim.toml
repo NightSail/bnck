@@ -1,0 +1,8 @@
+id = 'nxtrim'
+name = 'nxtrim'
+
+homepage = 'https://github.com/sequencing/NxTrim'
+
+[[package]]
+channel = 'debian'
+name = 'nxtrim'

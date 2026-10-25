@@ -1,0 +1,8 @@
+id = 'pique'
+name = 'pique'
+
+homepage = 'https://github.com/tony-travis/PIQUE'
+
+[[package]]
+channel = 'debian'
+name = 'pique'

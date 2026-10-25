@@ -1,0 +1,8 @@
+id = 'libucl'
+name = 'libucl'
+
+homepage = 'https://github.com/vstakhov/libucl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libucl'

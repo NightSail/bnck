@@ -1,0 +1,8 @@
+id = 'postgresql-filedump'
+name = 'postgresql-filedump'
+
+homepage = 'https://wiki.postgresql.org/wiki/Pg_filedump'
+
+[[package]]
+channel = 'debian'
+name = 'postgresql-filedump'

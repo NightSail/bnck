@@ -1,0 +1,8 @@
+id = 'historian'
+name = 'historian'
+
+homepage = 'https://github.com/jcsalterego/historian'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/historian'

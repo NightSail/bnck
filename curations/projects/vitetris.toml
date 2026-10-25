@@ -1,0 +1,9 @@
+id = 'vitetris'
+name = 'vitetris'
+
+homepage = 'https://www.victornils.net/tetris'
+repository = 'https://github.com/vicgeralds/vitetris.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vitetris'

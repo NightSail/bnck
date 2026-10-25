@@ -1,0 +1,8 @@
+id = 'ansible-core'
+name = 'ansible-core'
+
+homepage = 'https://github.com/ansible/ansible'
+
+[[package]]
+channel = 'debian'
+name = 'ansible-core'

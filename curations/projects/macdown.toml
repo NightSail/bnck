@@ -1,0 +1,8 @@
+id = 'macdown'
+name = 'macdown'
+
+homepage = 'https://macdown.uranusjr.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/macdown'

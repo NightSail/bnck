@@ -1,0 +1,12 @@
+id = 'mahonia'
+name = 'mahonia'
+
+homepage = 'https://github.com/axgle/mahonia'
+
+[[package]]
+channel = 'debian'
+name = 'mahonia'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-axgle-mahonia'

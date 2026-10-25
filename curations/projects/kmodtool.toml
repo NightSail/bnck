@@ -1,0 +1,8 @@
+id = 'kmodtool'
+name = 'kmodtool'
+
+homepage = 'http://rpmfusion.org/Packaging/KernelModules/Kmods2'
+
+[[package]]
+channel = 'fedora'
+name = 'kmodtool'

@@ -1,0 +1,8 @@
+id = 'elan'
+name = 'elan'
+
+homepage = 'https://github.com/leanprover/elan'
+
+[[package]]
+channel = 'debian'
+name = 'elan'

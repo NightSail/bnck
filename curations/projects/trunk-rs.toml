@@ -1,0 +1,8 @@
+id = 'trunk-rs'
+name = 'trunk-rs'
+
+homepage = 'https://github.com/trunk-rs/trunk'
+
+[[package]]
+channel = 'fedora'
+name = 'trunk'

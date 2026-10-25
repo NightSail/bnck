@@ -1,0 +1,8 @@
+id = 'smithery-cli'
+name = 'smithery-cli'
+
+homepage = 'https://smithery.ai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smithery-cli'

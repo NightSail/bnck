@@ -1,0 +1,8 @@
+id = 'steptalk'
+name = 'steptalk'
+
+homepage = 'http://wwwmain.gnustep.org/experience/StepTalk.html'
+
+[[package]]
+channel = 'debian'
+name = 'steptalk'

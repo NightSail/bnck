@@ -1,0 +1,20 @@
+id = 'baloo'
+name = 'baloo'
+
+homepage = 'https://invent.kde.org/frameworks/baloo'
+
+[[package]]
+channel = 'debian'
+name = 'baloo-kf5'
+
+[[package]]
+channel = 'debian'
+name = 'baloo6'
+
+[[package]]
+channel = 'debian'
+name = 'libbaloowidgets-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-baloo'

@@ -1,0 +1,12 @@
+id = 'sympa'
+name = 'sympa'
+
+homepage = 'https://www.sympa.community'
+
+[[package]]
+channel = 'debian'
+name = 'sympa'
+
+[[package]]
+channel = 'fedora'
+name = 'sympa'

@@ -1,0 +1,16 @@
+id = 'vdo'
+name = 'vdo'
+
+homepage = 'https://docs.kernel.org/admin-guide/device-mapper/vdo.html'
+
+[[package]]
+channel = 'debian'
+name = 'vdo'
+
+[[package]]
+channel = 'fedora'
+name = 'vdo'
+
+[[package]]
+channel = 'fedora'
+name = 'vdo-support'

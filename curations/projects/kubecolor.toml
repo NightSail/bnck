@@ -4,5 +4,9 @@ name = 'kubecolor'
 repository = 'https://github.com/kubecolor/kubecolor'
 
 [[package]]
+channel = 'debian'
+name = 'kubecolor'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/kubecolor'

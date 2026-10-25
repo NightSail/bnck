@@ -1,0 +1,8 @@
+id = 'fbpager'
+name = 'fbpager'
+
+homepage = 'https://github.com/fluxbox/fbpager'
+
+[[package]]
+channel = 'debian'
+name = 'fbpager'

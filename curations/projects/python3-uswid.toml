@@ -1,0 +1,8 @@
+id = 'python3-uswid'
+name = 'python3-uswid'
+
+homepage = 'https://github.com/hughsie/python-uswid'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-uswid'

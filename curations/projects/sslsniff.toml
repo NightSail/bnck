@@ -1,0 +1,8 @@
+id = 'sslsniff'
+name = 'sslsniff'
+
+homepage = 'https://github.com/moxie0/sslsniff'
+
+[[package]]
+channel = 'debian'
+name = 'sslsniff'

@@ -1,0 +1,12 @@
+id = 'jetty'
+name = 'jetty'
+
+homepage = 'https://jetty.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jetty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jetty-runner'

@@ -1,0 +1,8 @@
+id = 'dirdiff'
+name = 'dirdiff'
+
+homepage = 'https://samba.org/ftp/paulus'
+
+[[package]]
+channel = 'debian'
+name = 'dirdiff'

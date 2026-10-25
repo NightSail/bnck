@@ -1,0 +1,13 @@
+id = 'prrte'
+name = 'prrte'
+
+homepage = 'https://pmix.org'
+repository = 'https://github.com/openpmix/prrte.git'
+
+[[package]]
+channel = 'arch'
+name = 'prrte'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prrte'

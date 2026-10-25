@@ -1,0 +1,6 @@
+id = 'vdr-markad'
+name = 'vdr-markad'
+
+[[package]]
+channel = 'debian'
+name = 'vdr-markad'

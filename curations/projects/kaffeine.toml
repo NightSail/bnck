@@ -1,0 +1,16 @@
+id = 'kaffeine'
+name = 'kaffeine'
+
+homepage = 'https://apps.kde.org/kaffeine'
+
+[[package]]
+channel = 'arch'
+name = 'kaffeine'
+
+[[package]]
+channel = 'debian'
+name = 'kaffeine'
+
+[[package]]
+channel = 'fedora'
+name = 'kaffeine'

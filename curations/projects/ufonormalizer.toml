@@ -1,0 +1,8 @@
+id = 'ufonormalizer'
+name = 'ufonormalizer'
+
+homepage = 'https://github.com/unified-font-object/ufoNormalizer'
+
+[[package]]
+channel = 'debian'
+name = 'ufonormalizer'

@@ -1,0 +1,8 @@
+id = 'vercel'
+name = 'vercel'
+
+homepage = 'https://vercel.com/home'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vercel'

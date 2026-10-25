@@ -1,0 +1,16 @@
+id = 'gensio'
+name = 'gensio'
+
+homepage = 'https://github.com/cminyard/gensio'
+
+[[package]]
+channel = 'debian'
+name = 'gensio-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gensio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gensio'

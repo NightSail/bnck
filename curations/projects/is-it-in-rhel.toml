@@ -1,0 +1,8 @@
+id = 'is-it-in-rhel'
+name = 'is-it-in-rhel'
+
+homepage = 'https://pagure.io/is-it-in-rhel'
+
+[[package]]
+channel = 'fedora'
+name = 'is-it-in-rhel'

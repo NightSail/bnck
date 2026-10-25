@@ -1,0 +1,12 @@
+id = 'pbuilder'
+name = 'pbuilder'
+
+homepage = 'https://pbuilder-team.pages.debian.net/pbuilder'
+
+[[package]]
+channel = 'debian'
+name = 'pbuilder'
+
+[[package]]
+channel = 'fedora'
+name = 'pbuilder'

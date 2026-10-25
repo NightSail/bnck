@@ -1,0 +1,8 @@
+id = 'redot'
+name = 'redot'
+
+homepage = 'https://redotengine.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/redot'

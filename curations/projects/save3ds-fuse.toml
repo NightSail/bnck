@@ -1,0 +1,8 @@
+id = 'save3ds-fuse'
+name = 'save3ds_fuse'
+
+homepage = 'https://github.com/wwylele/save3ds'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/save3ds_fuse'

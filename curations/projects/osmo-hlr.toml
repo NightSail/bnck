@@ -1,0 +1,12 @@
+id = 'osmo-hlr'
+name = 'osmo-hlr'
+
+homepage = 'https://projects.osmocom.org/projects/osmo-hlr'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-hlr'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-mslookup-utils'

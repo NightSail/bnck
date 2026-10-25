@@ -1,0 +1,52 @@
+id = 'gambas'
+name = 'gambas'
+
+homepage = 'http://gambas.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gambas3-dev-tools'
+
+[[package]]
+channel = 'arch'
+name = 'gambas3-ide'
+
+[[package]]
+channel = 'arch'
+name = 'gambas3-runtime'
+
+[[package]]
+channel = 'arch'
+name = 'gambas3-script'
+
+[[package]]
+channel = 'debian'
+name = 'gambas3-devel'
+
+[[package]]
+channel = 'debian'
+name = 'gambas3-ide'
+
+[[package]]
+channel = 'debian'
+name = 'gambas3-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'gambas3-scripter'
+
+[[package]]
+channel = 'fedora'
+name = 'gambas3-dev-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gambas3-ide'
+
+[[package]]
+channel = 'fedora'
+name = 'gambas3-runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'gambas3-scripter'

@@ -1,0 +1,8 @@
+id = 'lx-gdb'
+name = 'lx-gdb'
+
+homepage = 'https://packages.debian.org/lx-gdb'
+
+[[package]]
+channel = 'debian'
+name = 'lx-gdb'

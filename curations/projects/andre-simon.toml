@@ -1,0 +1,16 @@
+id = 'andre-simon'
+name = 'andre-simon'
+
+homepage = 'http://www.andre-simon.de'
+
+[[package]]
+channel = 'debian'
+name = 'highlight'
+
+[[package]]
+channel = 'fedora'
+name = 'highlight'
+
+[[package]]
+channel = 'fedora'
+name = 'highlight-gui'

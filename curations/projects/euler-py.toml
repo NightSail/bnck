@@ -1,0 +1,8 @@
+id = 'euler-py'
+name = 'euler-py'
+
+repository = 'https://github.com/iKevinY/EulerPy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/euler-py'

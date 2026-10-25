@@ -1,0 +1,8 @@
+id = 'amazon-ec2-net-utils'
+name = 'amazon-ec2-net-utils'
+
+homepage = 'https://github.com/amazonlinux/amazon-ec2-net-utils'
+
+[[package]]
+channel = 'debian'
+name = 'amazon-ec2-net-utils'

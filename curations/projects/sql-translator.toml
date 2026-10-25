@@ -1,0 +1,12 @@
+id = 'sql-translator'
+name = 'SQL-Translator'
+
+homepage = 'https://metacpan.org/release/SQL-Translator'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SQL-Translator'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlt-graph'

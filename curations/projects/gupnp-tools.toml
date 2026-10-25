@@ -1,0 +1,8 @@
+id = 'gupnp-tools'
+name = 'gupnp-tools'
+
+homepage = 'https://wiki.gnome.org/GUPnP'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gupnp-tools'

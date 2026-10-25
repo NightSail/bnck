@@ -1,0 +1,8 @@
+id = 'dgit-dgit'
+name = 'dgit'
+
+homepage = 'https://browse.dgit.debian.org/dgit.git'
+
+[[package]]
+channel = 'fedora'
+name = 'dgit'

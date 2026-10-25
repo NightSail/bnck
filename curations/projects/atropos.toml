@@ -1,0 +1,8 @@
+id = 'atropos'
+name = 'atropos'
+
+homepage = 'https://github.com/jdidion/atropos'
+
+[[package]]
+channel = 'debian'
+name = 'atropos'

@@ -1,0 +1,8 @@
+id = 'tmuxp-tmuxp'
+name = 'tmuxp'
+
+homepage = 'https://tmuxp.git-pull.com/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'tmuxp'

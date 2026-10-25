@@ -1,0 +1,8 @@
+id = 'plotsauce'
+name = 'plotsauce'
+
+homepage = 'https://github.com/Cavewhere/plotsauce'
+
+[[package]]
+channel = 'debian'
+name = 'plotsauce'

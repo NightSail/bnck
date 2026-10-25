@@ -1,0 +1,9 @@
+id = 'arabica'
+name = 'arabica'
+
+homepage = 'https://www.jezuk.co.uk/tags/arabica.html'
+repository = 'https://github.com/jezhiggins/arabica.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arabica'

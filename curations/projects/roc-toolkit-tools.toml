@@ -1,0 +1,8 @@
+id = 'roc-toolkit-tools'
+name = 'roc-toolkit-tools'
+
+homepage = 'https://roc-streaming.org'
+
+[[package]]
+channel = 'debian'
+name = 'roc-toolkit-tools'

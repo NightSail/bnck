@@ -1,0 +1,8 @@
+id = 'perl-attean'
+name = 'perl-Attean'
+
+homepage = 'https://metacpan.org/release/Attean'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Attean'

@@ -1,0 +1,16 @@
+id = 'balboa'
+name = 'balboa'
+
+homepage = 'https://github.com/DCSO/balboa'
+
+[[package]]
+channel = 'debian'
+name = 'balboa'
+
+[[package]]
+channel = 'debian'
+name = 'balboa-backend-common'
+
+[[package]]
+channel = 'debian'
+name = 'balboa-backend-rocksdb'

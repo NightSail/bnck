@@ -1,0 +1,16 @@
+id = 'dino'
+name = 'dino'
+
+homepage = 'https://dino.im'
+
+[[package]]
+channel = 'arch'
+name = 'dino'
+
+[[package]]
+channel = 'debian'
+name = 'dino-im'
+
+[[package]]
+channel = 'fedora'
+name = 'dino'

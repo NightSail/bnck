@@ -1,0 +1,12 @@
+id = 'zh-autoconvert'
+name = 'zh-autoconvert'
+
+homepage = 'https://code.google.com/archive/p/libhz'
+
+[[package]]
+channel = 'arch'
+name = 'zh-autoconvert'
+
+[[package]]
+channel = 'debian'
+name = 'zh-autoconvert'

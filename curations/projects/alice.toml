@@ -1,0 +1,8 @@
+id = 'alice'
+name = 'alice'
+
+homepage = 'https://github.com/leedo/alice'
+
+[[package]]
+channel = 'debian'
+name = 'alice'

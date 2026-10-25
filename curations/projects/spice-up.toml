@@ -1,0 +1,8 @@
+id = 'spice-up'
+name = 'spice-up'
+
+homepage = 'https://github.com/Philip-Scott/Spice-up'
+
+[[package]]
+channel = 'arch'
+name = 'spice-up'

@@ -1,0 +1,8 @@
+id = 'fedora-sig-onboard'
+name = 'fedora-sig-onboard'
+
+homepage = 'https://pagure.io/fedora-sig-onboard'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-sig-onboard'

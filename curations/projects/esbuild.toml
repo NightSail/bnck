@@ -1,0 +1,16 @@
+id = 'esbuild'
+name = 'esbuild'
+
+homepage = 'https://github.com/evanw/esbuild'
+
+[[package]]
+channel = 'debian'
+name = 'esbuild'
+
+[[package]]
+channel = 'debian'
+name = 'esbuild-wasm'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-evanw-esbuild'

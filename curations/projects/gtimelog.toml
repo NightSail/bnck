@@ -1,0 +1,12 @@
+id = 'gtimelog'
+name = 'gtimelog'
+
+homepage = 'https://gtimelog.org'
+
+[[package]]
+channel = 'debian'
+name = 'gtimelog'
+
+[[package]]
+channel = 'fedora'
+name = 'gtimelog'

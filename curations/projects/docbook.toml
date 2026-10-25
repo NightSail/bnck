@@ -1,0 +1,12 @@
+id = 'docbook'
+name = 'docbook'
+
+homepage = 'http://docbook.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'docbook-dsssl'
+
+[[package]]
+channel = 'fedora'
+name = 'docbook-style-dsssl'

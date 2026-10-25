@@ -1,0 +1,8 @@
+id = 'libtango-tools'
+name = 'libtango-tools'
+
+homepage = 'https://www.tango-controls.org'
+
+[[package]]
+channel = 'debian'
+name = 'libtango-tools'

@@ -1,0 +1,8 @@
+id = 'kube-bench'
+name = 'kube-bench'
+
+repository = 'https://github.com/aquasecurity/kube-bench.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kube-bench'

@@ -1,0 +1,8 @@
+id = 'wmsysmon'
+name = 'wmsysmon'
+
+homepage = 'https://github.com/voyageur/wmsysmon'
+
+[[package]]
+channel = 'debian'
+name = 'wmsysmon'

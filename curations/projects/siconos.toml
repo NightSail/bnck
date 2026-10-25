@@ -1,0 +1,12 @@
+id = 'siconos'
+name = 'siconos'
+
+homepage = 'https://nonsmooth.gricad-pages.univ-grenoble-alpes.fr/siconos/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'siconos'
+
+[[package]]
+channel = 'debian'
+name = 'siconos-mechanics-tools'

@@ -1,0 +1,9 @@
+id = 'polaris'
+name = 'polaris'
+
+homepage = 'https://www.fairwinds.com/polaris'
+repository = 'https://github.com/FairwindsOps/polaris.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/polaris'

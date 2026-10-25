@@ -1,0 +1,8 @@
+id = 'civl'
+name = 'civl'
+
+homepage = 'https://vsl.cis.udel.edu/civl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/civl'

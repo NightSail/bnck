@@ -1,0 +1,24 @@
+id = 'hfs'
+name = 'hfs'
+
+homepage = 'https://www.mars.org/home/rob/proj/hfs'
+
+[[package]]
+channel = 'debian'
+name = 'hfsutils'
+
+[[package]]
+channel = 'debian'
+name = 'hfsutils-tcltk'
+
+[[package]]
+channel = 'fedora'
+name = 'hfsutils'
+
+[[package]]
+channel = 'fedora'
+name = 'hfsutils-x11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hfsutils'

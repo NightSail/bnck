@@ -1,0 +1,20 @@
+id = 'two-lame'
+name = 'two-lame'
+
+homepage = 'https://www.twolame.org'
+
+[[package]]
+channel = 'arch'
+name = 'twolame'
+
+[[package]]
+channel = 'debian'
+name = 'twolame'
+
+[[package]]
+channel = 'fedora'
+name = 'twolame'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/two-lame'

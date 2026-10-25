@@ -1,0 +1,12 @@
+id = 'wmname'
+name = 'wmname'
+
+homepage = 'https://tools.suckless.org/x/wmname'
+
+[[package]]
+channel = 'arch'
+name = 'wmname'
+
+[[package]]
+channel = 'fedora'
+name = 'wmname'

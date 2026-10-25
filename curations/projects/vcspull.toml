@@ -1,0 +1,8 @@
+id = 'vcspull'
+name = 'vcspull'
+
+homepage = 'https://vcspull.git-pull.com'
+
+[[package]]
+channel = 'arch'
+name = 'vcspull'

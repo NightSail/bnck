@@ -1,0 +1,12 @@
+id = 'wcslib'
+name = 'wcslib'
+
+homepage = 'https://www.atnf.csiro.au/computing/software/wcs'
+
+[[package]]
+channel = 'arch'
+name = 'wcslib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wcslib'

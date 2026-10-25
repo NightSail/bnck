@@ -1,0 +1,8 @@
+id = 'pandoc-plantuml-filter'
+name = 'pandoc-plantuml-filter'
+
+homepage = 'https://github.com/timofurrer/pandoc-plantuml-filter'
+
+[[package]]
+channel = 'debian'
+name = 'pandoc-plantuml-filter'

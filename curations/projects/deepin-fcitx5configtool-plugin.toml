@@ -1,0 +1,8 @@
+id = 'deepin-fcitx5configtool-plugin'
+name = 'deepin-fcitx5configtool-plugin'
+
+homepage = 'https://github.com/linuxdeepin/deepin-fcitx5configtool-plugin'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-fcitx5configtool-plugin'

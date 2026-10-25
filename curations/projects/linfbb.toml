@@ -1,0 +1,16 @@
+id = 'linfbb'
+name = 'linfbb'
+
+homepage = 'https://sourceforge.net/projects/linfbb'
+
+[[package]]
+channel = 'debian'
+name = 'fbb'
+
+[[package]]
+channel = 'fedora'
+name = 'fbb'
+
+[[package]]
+channel = 'fedora'
+name = 'fbb-gui'

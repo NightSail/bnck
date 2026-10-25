@@ -1,0 +1,8 @@
+id = 'tinysshd'
+name = 'tinysshd'
+
+homepage = 'https://github.com/janmojzis/tinyssh'
+
+[[package]]
+channel = 'debian'
+name = 'tinysshd'

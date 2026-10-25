@@ -1,0 +1,8 @@
+id = 'xmacro'
+name = 'xmacro'
+
+homepage = 'https://xmacro.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xmacro'

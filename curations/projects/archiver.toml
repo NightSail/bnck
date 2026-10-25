@@ -1,0 +1,8 @@
+id = 'archiver'
+name = 'archiver'
+
+repository = 'https://github.com/mholt/archiver.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/archiver'

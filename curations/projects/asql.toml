@@ -1,0 +1,8 @@
+id = 'asql'
+name = 'asql'
+
+homepage = 'https://www.steve.org.uk/Software/asql'
+
+[[package]]
+channel = 'debian'
+name = 'asql'

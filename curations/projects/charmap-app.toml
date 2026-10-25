@@ -1,0 +1,8 @@
+id = 'charmap-app'
+name = 'charmap.app'
+
+homepage = 'https://www.nongnu.org/charmap'
+
+[[package]]
+channel = 'debian'
+name = 'charmap.app'

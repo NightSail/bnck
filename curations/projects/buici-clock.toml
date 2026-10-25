@@ -1,0 +1,8 @@
+id = 'buici-clock'
+name = 'buici-clock'
+
+homepage = 'https://github.com/rosorio/buici-clock'
+
+[[package]]
+channel = 'debian'
+name = 'buici-clock'

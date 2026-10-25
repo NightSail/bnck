@@ -1,0 +1,13 @@
+id = 'zabbix-cli'
+name = 'zabbix-cli'
+
+homepage = 'https://unioslo.github.io/zabbix-cli'
+repository = 'https://github.com/unioslo/zabbix-cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zabbix-cli'

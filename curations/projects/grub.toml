@@ -1,0 +1,48 @@
+id = 'grub'
+name = 'grub'
+
+homepage = 'https://www.gnu.org/software/grub'
+
+[[package]]
+channel = 'debian'
+name = 'grub-common'
+
+[[package]]
+channel = 'debian'
+name = 'grub-emu'
+
+[[package]]
+channel = 'debian'
+name = 'grub-pc'
+
+[[package]]
+channel = 'debian'
+name = 'grub2-common'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-efi-ia32'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-efi-x64'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-emu'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-tools-efi'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-tools-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'grub2-tools-minimal'

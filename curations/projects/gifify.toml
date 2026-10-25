@@ -1,0 +1,8 @@
+id = 'gifify'
+name = 'gifify'
+
+repository = 'https://github.com/jclem/gifify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gifify'

@@ -1,0 +1,17 @@
+id = 'device-mapper'
+name = 'device-mapper'
+
+homepage = 'http://sourceware.org/dm'
+repository = 'https://gitlab.com/lvmteam/lvm2.git'
+
+[[package]]
+channel = 'arch'
+name = 'device-mapper'
+
+[[package]]
+channel = 'fedora'
+name = 'device-mapper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/device-mapper'

@@ -1,0 +1,12 @@
+id = 'stressapptest'
+name = 'stressapptest'
+
+homepage = 'https://github.com/stressapptest/stressapptest'
+
+[[package]]
+channel = 'debian'
+name = 'stressapptest'
+
+[[package]]
+channel = 'fedora'
+name = 'stressapptest'

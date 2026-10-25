@@ -1,0 +1,8 @@
+id = 'testdisk-cgsecurity'
+name = 'testdisk'
+
+homepage = 'https://www.cgsecurity.org/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'testdisk'

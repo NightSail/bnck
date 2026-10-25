@@ -1,0 +1,12 @@
+id = 'vite'
+name = 'vite'
+
+homepage = 'https://vitejs.dev'
+
+[[package]]
+channel = 'debian'
+name = 'vite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vite'

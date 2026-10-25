@@ -1,0 +1,8 @@
+id = 'mueval'
+name = 'mueval'
+
+homepage = 'https://github.com/TerenceNg03/mueval'
+
+[[package]]
+channel = 'debian'
+name = 'mueval'

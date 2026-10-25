@@ -1,0 +1,12 @@
+id = 'vcflib'
+name = 'vcflib'
+
+homepage = 'https://github.com/vcflib/vcflib'
+
+[[package]]
+channel = 'debian'
+name = 'libvcflib-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcflib'

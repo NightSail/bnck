@@ -1,0 +1,9 @@
+id = 'murex'
+name = 'murex'
+
+homepage = 'https://murex.rocks'
+repository = 'https://github.com/lmorg/murex.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/murex'

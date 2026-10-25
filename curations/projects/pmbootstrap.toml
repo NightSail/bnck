@@ -1,0 +1,16 @@
+id = 'pmbootstrap'
+name = 'pmbootstrap'
+
+homepage = 'https://gitlab.postmarketos.org/postmarketOS/pmbootstrap'
+
+[[package]]
+channel = 'arch'
+name = 'pmbootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'pmbootstrap'
+
+[[package]]
+channel = 'fedora'
+name = 'pmbootstrap'

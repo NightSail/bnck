@@ -1,0 +1,12 @@
+id = 'poe-test-loops'
+name = 'POE-Test-Loops'
+
+homepage = 'https://metacpan.org/release/POE-Test-Loops'
+
+[[package]]
+channel = 'debian'
+name = 'libpoe-test-loops-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-POE-Test-Loops'

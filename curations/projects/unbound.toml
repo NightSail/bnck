@@ -1,0 +1,37 @@
+id = 'unbound'
+name = 'unbound'
+
+homepage = 'https://unbound.net'
+repository = 'https://github.com/NLnetLabs/unbound.git'
+
+[[package]]
+channel = 'arch'
+name = 'unbound'
+
+[[package]]
+channel = 'debian'
+name = 'unbound'
+
+[[package]]
+channel = 'debian'
+name = 'unbound-anchor'
+
+[[package]]
+channel = 'debian'
+name = 'unbound-host'
+
+[[package]]
+channel = 'fedora'
+name = 'unbound'
+
+[[package]]
+channel = 'fedora'
+name = 'unbound-anchor'
+
+[[package]]
+channel = 'fedora'
+name = 'unbound-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unbound'

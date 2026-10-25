@@ -1,0 +1,8 @@
+id = 'bashdb'
+name = 'bashdb'
+
+homepage = 'https://bashdb.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bashdb'

@@ -1,0 +1,8 @@
+id = 'gmssl'
+name = 'gmssl'
+
+repository = 'https://github.com/guanzhi/GmSSL.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gmssl'

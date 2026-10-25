@@ -1,0 +1,16 @@
+id = 'arandr'
+name = 'arandr'
+
+homepage = 'https://christian.amsuess.com/tools/arandr'
+
+[[package]]
+channel = 'arch'
+name = 'arandr'
+
+[[package]]
+channel = 'debian'
+name = 'arandr'
+
+[[package]]
+channel = 'fedora'
+name = 'arandr'

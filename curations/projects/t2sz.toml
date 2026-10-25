@@ -1,0 +1,8 @@
+id = 't2sz'
+name = 't2sz'
+
+homepage = 'https://github.com/martinellimarco/t2sz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/t2sz'

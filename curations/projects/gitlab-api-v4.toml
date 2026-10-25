@@ -1,0 +1,12 @@
+id = 'gitlab-api-v4'
+name = 'GitLab-API-v4'
+
+homepage = 'https://metacpan.org/release/GitLab-API-v4'
+
+[[package]]
+channel = 'debian'
+name = 'libgitlab-api-v4-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-GitLab-API-v4'

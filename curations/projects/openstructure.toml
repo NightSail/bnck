@@ -1,0 +1,8 @@
+id = 'openstructure'
+name = 'openstructure'
+
+homepage = 'https://www.openstructure.org'
+
+[[package]]
+channel = 'debian'
+name = 'openstructure'

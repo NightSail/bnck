@@ -1,0 +1,8 @@
+id = 'docdiff'
+name = 'docdiff'
+
+homepage = 'https://github.com/hisashim/docdiff'
+
+[[package]]
+channel = 'debian'
+name = 'docdiff'

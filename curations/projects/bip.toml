@@ -1,0 +1,8 @@
+id = 'bip'
+name = 'bip'
+
+homepage = 'https://bip.milkypond.org'
+
+[[package]]
+channel = 'debian'
+name = 'bip'

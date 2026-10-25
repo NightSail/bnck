@@ -1,0 +1,8 @@
+id = 'rbase64'
+name = 'rbase64'
+
+homepage = 'https://github.com/uhmarcel/rbase64'
+
+[[package]]
+channel = 'debian'
+name = 'rbase64'

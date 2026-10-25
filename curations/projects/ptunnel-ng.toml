@@ -1,0 +1,8 @@
+id = 'ptunnel-ng'
+name = 'ptunnel-ng'
+
+homepage = 'https://github.com/lnslbrty/ptunnel-ng'
+
+[[package]]
+channel = 'debian'
+name = 'ptunnel-ng'

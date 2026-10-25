@@ -1,0 +1,12 @@
+id = 'teensy'
+name = 'teensy'
+
+homepage = 'https://www.pjrc.com/teensy/loader_cli.html'
+
+[[package]]
+channel = 'arch'
+name = 'teensy_loader_cli'
+
+[[package]]
+channel = 'debian'
+name = 'teensy-loader-cli'

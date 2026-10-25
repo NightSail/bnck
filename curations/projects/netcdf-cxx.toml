@@ -1,0 +1,8 @@
+id = 'netcdf-cxx'
+name = 'netcdf-cxx'
+
+homepage = 'https://github.com/Unidata/netcdf-cxx4'
+
+[[package]]
+channel = 'arch'
+name = 'netcdf-cxx'

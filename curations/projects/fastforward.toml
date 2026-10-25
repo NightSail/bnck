@@ -1,0 +1,8 @@
+id = 'fastforward'
+name = 'fastforward'
+
+homepage = 'https://cr.yp.to/fastforward.html'
+
+[[package]]
+channel = 'debian'
+name = 'fastforward'

@@ -1,0 +1,8 @@
+id = 'pyspectral-bin'
+name = 'pyspectral-bin'
+
+homepage = 'https://github.com/pytroll/pyspectral'
+
+[[package]]
+channel = 'debian'
+name = 'pyspectral-bin'

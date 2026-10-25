@@ -1,0 +1,8 @@
+id = 'arch-hs'
+name = 'arch-hs'
+
+homepage = 'https://github.com/berberman/arch-hs'
+
+[[package]]
+channel = 'arch'
+name = 'arch-hs'

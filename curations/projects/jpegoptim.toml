@@ -1,0 +1,12 @@
+id = 'jpegoptim'
+name = 'jpegoptim'
+
+repository = 'https://github.com/tjko/jpegoptim.git'
+
+[[package]]
+channel = 'arch'
+name = 'jpegoptim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpegoptim'

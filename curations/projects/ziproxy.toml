@@ -1,0 +1,12 @@
+id = 'ziproxy'
+name = 'ziproxy'
+
+homepage = 'http://ziproxy.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'ziproxy'
+
+[[package]]
+channel = 'debian'
+name = 'ziproxy'

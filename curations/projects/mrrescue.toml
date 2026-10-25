@@ -1,0 +1,8 @@
+id = 'mrrescue'
+name = 'mrrescue'
+
+homepage = 'http://tangramgames.dk/games/mrrescue'
+
+[[package]]
+channel = 'fedora'
+name = 'mrrescue'

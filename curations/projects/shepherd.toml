@@ -1,0 +1,12 @@
+id = 'shepherd'
+name = 'shepherd'
+
+homepage = 'https://www.gnu.org/software/shepherd'
+
+[[package]]
+channel = 'debian'
+name = 'shepherd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shepherd'

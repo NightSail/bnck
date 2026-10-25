@@ -1,0 +1,8 @@
+id = 'bento4'
+name = 'bento4'
+
+homepage = 'https://www.bento4.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bento4'

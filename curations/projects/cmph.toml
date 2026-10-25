@@ -1,0 +1,12 @@
+id = 'cmph'
+name = 'cmph'
+
+homepage = 'https://cmph.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libcmph-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcmph'

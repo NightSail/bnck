@@ -1,0 +1,16 @@
+id = 'plocate'
+name = 'plocate'
+
+homepage = 'https://plocate.sesse.net'
+
+[[package]]
+channel = 'arch'
+name = 'plocate'
+
+[[package]]
+channel = 'debian'
+name = 'plocate'
+
+[[package]]
+channel = 'fedora'
+name = 'plocate'

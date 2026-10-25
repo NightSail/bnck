@@ -1,0 +1,12 @@
+id = 'abpoa'
+name = 'abpoa'
+
+repository = 'https://github.com/yangao07/abPOA.git'
+
+[[package]]
+channel = 'debian'
+name = 'abpoa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abpoa'

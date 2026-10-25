@@ -1,0 +1,8 @@
+id = 'searchmonkey'
+name = 'searchmonkey'
+
+homepage = 'http://sourceforge.net/projects/searchmonkey'
+
+[[package]]
+channel = 'debian'
+name = 'searchmonkey'

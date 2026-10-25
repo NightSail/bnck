@@ -1,0 +1,6 @@
+id = 'dh-python'
+name = 'dh-python'
+
+[[package]]
+channel = 'debian'
+name = 'dh-python'

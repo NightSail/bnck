@@ -1,0 +1,8 @@
+id = 'devtunnel'
+name = 'devtunnel'
+
+homepage = 'https://aka.ms/devtunnels/docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/devtunnel'

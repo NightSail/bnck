@@ -1,0 +1,8 @@
+id = 'notifiers'
+name = 'notifiers'
+
+homepage = 'https://pypi.org/project/notifiers'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notifiers'

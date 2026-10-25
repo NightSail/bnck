@@ -1,0 +1,8 @@
+id = 'idwcc'
+name = 'idwcc'
+
+homepage = 'https://github.com/babelouest/iddawc'
+
+[[package]]
+channel = 'debian'
+name = 'idwcc'

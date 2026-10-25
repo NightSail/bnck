@@ -1,0 +1,8 @@
+id = 'tygo'
+name = 'tygo'
+
+repository = 'https://github.com/gzuidhof/tygo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tygo'

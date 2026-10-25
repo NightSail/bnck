@@ -1,0 +1,8 @@
+id = 'jets3t'
+name = 'jets3t'
+
+homepage = 'https://jets3t.s3.amazonaws.com/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'jets3t'

@@ -1,0 +1,8 @@
+id = 'webcamoid'
+name = 'webcamoid'
+
+homepage = 'https://webcamoid.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'webcamoid'

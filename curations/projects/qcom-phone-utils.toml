@@ -1,0 +1,8 @@
+id = 'qcom-phone-utils'
+name = 'qcom-phone-utils'
+
+homepage = 'https://salsa.debian.org/DebianOnMobile-team/qcom-phone-utils'
+
+[[package]]
+channel = 'debian'
+name = 'qcom-phone-utils'

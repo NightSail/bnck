@@ -1,0 +1,8 @@
+id = 'neutron-common'
+name = 'neutron-common'
+
+homepage = 'http://neutron.openstack.org'
+
+[[package]]
+channel = 'debian'
+name = 'neutron-common'

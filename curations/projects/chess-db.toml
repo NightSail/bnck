@@ -1,0 +1,8 @@
+id = 'chess-db'
+name = 'chess_db'
+
+homepage = 'https://github.com/pychess/chess_db'
+
+[[package]]
+channel = 'fedora'
+name = 'chess_db'

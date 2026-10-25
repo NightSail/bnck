@@ -1,0 +1,10 @@
+id = 'lam'
+name = 'lam'
+
+[[package]]
+channel = 'debian'
+name = 'lam-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'lam4-dev'

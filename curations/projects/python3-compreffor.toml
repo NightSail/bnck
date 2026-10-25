@@ -1,0 +1,12 @@
+id = 'python3-compreffor'
+name = 'python3-compreffor'
+
+homepage = 'https://github.com/googlefonts/compreffor'
+
+[[package]]
+channel = 'debian'
+name = 'python3-compreffor'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-compreffor'

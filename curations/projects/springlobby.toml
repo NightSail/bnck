@@ -1,0 +1,12 @@
+id = 'springlobby'
+name = 'springlobby'
+
+homepage = 'https://github.com/springlobby/springlobby'
+
+[[package]]
+channel = 'arch'
+name = 'springlobby'
+
+[[package]]
+channel = 'fedora'
+name = 'springlobby'

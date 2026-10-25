@@ -1,0 +1,8 @@
+id = 'golang-x-mobile'
+name = 'golang-x-mobile'
+
+homepage = 'https://github.com/golang/mobile'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-mobile'

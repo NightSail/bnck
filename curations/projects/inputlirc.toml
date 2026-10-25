@@ -1,0 +1,8 @@
+id = 'inputlirc'
+name = 'inputlirc'
+
+homepage = 'https://git.sliepen.org/inputlirc'
+
+[[package]]
+channel = 'debian'
+name = 'inputlirc'

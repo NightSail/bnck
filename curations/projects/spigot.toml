@@ -1,0 +1,12 @@
+id = 'spigot'
+name = 'spigot'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/spigot'
+
+[[package]]
+channel = 'debian'
+name = 'spigot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spigot'

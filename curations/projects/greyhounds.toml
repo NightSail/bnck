@@ -1,0 +1,8 @@
+id = 'greyhounds'
+name = 'greyhounds'
+
+homepage = 'http://sourceforge.net/projects/byghound'
+
+[[package]]
+channel = 'fedora'
+name = 'greyhounds'

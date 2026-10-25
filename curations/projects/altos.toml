@@ -1,0 +1,8 @@
+id = 'altos'
+name = 'altos'
+
+homepage = 'http://altusmetrum.org/AltOS'
+
+[[package]]
+channel = 'debian'
+name = 'altos'

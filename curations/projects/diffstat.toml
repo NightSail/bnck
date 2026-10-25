@@ -1,0 +1,20 @@
+id = 'diffstat'
+name = 'diffstat'
+
+homepage = 'https://invisible-island.net/diffstat'
+
+[[package]]
+channel = 'arch'
+name = 'diffstat'
+
+[[package]]
+channel = 'debian'
+name = 'diffstat'
+
+[[package]]
+channel = 'fedora'
+name = 'diffstat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diffstat'

@@ -1,0 +1,12 @@
+id = 'axmail'
+name = 'axmail'
+
+homepage = 'https://sourceforge.net/projects/axmail'
+
+[[package]]
+channel = 'debian'
+name = 'axmail'
+
+[[package]]
+channel = 'fedora'
+name = 'axmail'

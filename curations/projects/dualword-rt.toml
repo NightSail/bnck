@@ -1,0 +1,8 @@
+id = 'dualword-rt'
+name = 'dualword-rt'
+
+homepage = 'https://github.com/dualword/dualword-rt'
+
+[[package]]
+channel = 'debian'
+name = 'dualword-rt'

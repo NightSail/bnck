@@ -1,0 +1,8 @@
+id = 'crypto-policies-scripts'
+name = 'crypto-policies-scripts'
+
+homepage = 'https://gitlab.com/redhat-crypto/fedora-crypto-policies'
+
+[[package]]
+channel = 'fedora'
+name = 'crypto-policies-scripts'

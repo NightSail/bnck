@@ -1,0 +1,9 @@
+id = 'go-blueprint'
+name = 'go-blueprint'
+
+homepage = 'https://docs.go-blueprint.dev'
+repository = 'https://github.com/Melkeydev/go-blueprint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-blueprint'

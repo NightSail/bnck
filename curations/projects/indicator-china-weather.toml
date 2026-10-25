@@ -1,0 +1,8 @@
+id = 'indicator-china-weather'
+name = 'indicator-china-weather'
+
+homepage = 'https://github.com/UbuntuKylin/indicator-china-weather'
+
+[[package]]
+channel = 'arch'
+name = 'indicator-china-weather'

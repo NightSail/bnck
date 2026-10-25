@@ -1,0 +1,8 @@
+id = 'kuserfeedback-console'
+name = 'kuserfeedback-console'
+
+homepage = 'https://invent.kde.org/libraries/kuserfeedback'
+
+[[package]]
+channel = 'fedora'
+name = 'kuserfeedback-console'

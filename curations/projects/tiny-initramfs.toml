@@ -1,0 +1,12 @@
+id = 'tiny-initramfs'
+name = 'tiny-initramfs'
+
+homepage = 'https://github.com/chris-se/tiny-initramfs'
+
+[[package]]
+channel = 'debian'
+name = 'tiny-initramfs'
+
+[[package]]
+channel = 'debian'
+name = 'tiny-initramfs-core'

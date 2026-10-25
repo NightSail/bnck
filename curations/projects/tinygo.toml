@@ -1,0 +1,12 @@
+id = 'tinygo'
+name = 'tinygo'
+
+homepage = 'https://github.com/tinygo-org/tinygo'
+
+[[package]]
+channel = 'arch'
+name = 'tinygo'
+
+[[package]]
+channel = 'fedora'
+name = 'tinygo'

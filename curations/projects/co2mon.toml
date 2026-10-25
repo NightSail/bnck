@@ -1,0 +1,8 @@
+id = 'co2mon'
+name = 'co2mon'
+
+homepage = 'https://github.com/dmage/co2mon'
+
+[[package]]
+channel = 'fedora'
+name = 'co2mon'

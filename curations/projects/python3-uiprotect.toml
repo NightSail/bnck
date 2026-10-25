@@ -1,0 +1,8 @@
+id = 'python3-uiprotect'
+name = 'python3-uiprotect'
+
+homepage = 'https://github.com/uilibs/uiprotect'
+
+[[package]]
+channel = 'debian'
+name = 'python3-uiprotect'

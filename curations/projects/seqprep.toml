@@ -1,0 +1,8 @@
+id = 'seqprep'
+name = 'seqprep'
+
+homepage = 'http://seqanswers.com/wiki/SeqPrep'
+
+[[package]]
+channel = 'debian'
+name = 'seqprep'

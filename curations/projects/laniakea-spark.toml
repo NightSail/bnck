@@ -1,0 +1,8 @@
+id = 'laniakea-spark'
+name = 'laniakea-spark'
+
+homepage = 'https://github.com/lkhq/laniakea-spark'
+
+[[package]]
+channel = 'debian'
+name = 'laniakea-spark'

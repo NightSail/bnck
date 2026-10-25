@@ -1,0 +1,8 @@
+id = 'bib2html'
+name = 'bib2html'
+
+homepage = 'http://www.litech.org/~wkiri/bib2html'
+
+[[package]]
+channel = 'fedora'
+name = 'bib2html'

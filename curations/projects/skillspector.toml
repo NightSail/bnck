@@ -1,0 +1,8 @@
+id = 'skillspector'
+name = 'skillspector'
+
+homepage = 'https://github.com/NVIDIA/SkillSpector'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skillspector'

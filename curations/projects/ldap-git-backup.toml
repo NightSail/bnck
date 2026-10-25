@@ -1,0 +1,8 @@
+id = 'ldap-git-backup'
+name = 'ldap-git-backup'
+
+homepage = 'https://github.com/elmar/ldap-git-backup'
+
+[[package]]
+channel = 'debian'
+name = 'ldap-git-backup'

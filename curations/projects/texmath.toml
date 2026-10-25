@@ -1,0 +1,9 @@
+id = 'texmath'
+name = 'texmath'
+
+homepage = 'https://johnmacfarlane.net/texmath.html'
+repository = 'https://github.com/jgm/texmath.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texmath'

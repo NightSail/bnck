@@ -1,0 +1,12 @@
+id = 'kiwix-desktop'
+name = 'kiwix-desktop'
+
+homepage = 'https://github.com/kiwix/kiwix-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'kiwix-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'kiwix-desktop'

@@ -1,0 +1,20 @@
+id = 'rxvt-unicode'
+name = 'rxvt-unicode'
+
+homepage = 'https://software.schmorp.de/pkg/rxvt-unicode.html'
+
+[[package]]
+channel = 'arch'
+name = 'rxvt-unicode'
+
+[[package]]
+channel = 'debian'
+name = 'rxvt-unicode'
+
+[[package]]
+channel = 'fedora'
+name = 'rxvt-unicode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rxvt-unicode'

@@ -1,0 +1,8 @@
+id = 'yap'
+name = 'yap'
+
+repository = 'https://github.com/finnvoor/yap.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yap'

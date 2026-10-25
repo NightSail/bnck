@@ -1,0 +1,20 @@
+id = 'nfs-ganesha'
+name = 'nfs-ganesha'
+
+homepage = 'https://github.com/nfs-ganesha/nfs-ganesha'
+
+[[package]]
+channel = 'debian'
+name = 'nfs-ganesha'
+
+[[package]]
+channel = 'debian'
+name = 'nfs-ganesha-mount-9p'
+
+[[package]]
+channel = 'debian'
+name = 'nfs-ganesha-rados-grace'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nfs-ganesha'

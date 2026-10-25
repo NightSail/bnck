@@ -1,0 +1,8 @@
+id = 'enchive'
+name = 'enchive'
+
+repository = 'https://github.com/skeeto/enchive.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enchive'

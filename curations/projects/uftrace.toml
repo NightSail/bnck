@@ -1,0 +1,13 @@
+id = 'uftrace'
+name = 'uftrace'
+
+homepage = 'https://uftrace.github.io/slide'
+repository = 'https://github.com/namhyung/uftrace.git'
+
+[[package]]
+channel = 'debian'
+name = 'uftrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uftrace'

@@ -1,0 +1,8 @@
+id = 'python-pint'
+name = 'python-pint'
+
+homepage = 'https://pint.readthedocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pint'

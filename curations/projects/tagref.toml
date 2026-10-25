@@ -1,0 +1,8 @@
+id = 'tagref'
+name = 'tagref'
+
+homepage = 'https://github.com/stepchowfun/tagref'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tagref'

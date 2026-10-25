@@ -1,0 +1,8 @@
+id = 'rpmdeplint'
+name = 'rpmdeplint'
+
+homepage = 'https://github.com/fedora-ci/rpmdeplint'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmdeplint'

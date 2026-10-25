@@ -1,0 +1,8 @@
+id = 'gtk-v4l'
+name = 'gtk-v4l'
+
+homepage = 'https://github.com/jwrdegoede/gtk-v4l'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk-v4l'

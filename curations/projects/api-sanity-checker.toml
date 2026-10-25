@@ -1,0 +1,12 @@
+id = 'api-sanity-checker'
+name = 'api-sanity-checker'
+
+homepage = 'https://github.com/lvc/api-sanity-checker'
+
+[[package]]
+channel = 'debian'
+name = 'api-sanity-checker'
+
+[[package]]
+channel = 'fedora'
+name = 'api-sanity-checker'

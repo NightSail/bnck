@@ -1,0 +1,8 @@
+id = 'lua-loop'
+name = 'lua-loop'
+
+homepage = 'http://loop.luaforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'lua-loop'

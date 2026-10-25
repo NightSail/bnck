@@ -1,0 +1,8 @@
+id = 'araxis-merge'
+name = 'araxis-merge'
+
+homepage = 'https://www.araxis.com/merge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/araxis-merge'

@@ -1,0 +1,12 @@
+id = 'ksshaskpass'
+name = 'ksshaskpass'
+
+homepage = 'https://invent.kde.org/plasma/ksshaskpass'
+
+[[package]]
+channel = 'debian'
+name = 'ksshaskpass'
+
+[[package]]
+channel = 'fedora'
+name = 'ksshaskpass'

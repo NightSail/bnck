@@ -1,0 +1,8 @@
+id = 'cecilia'
+name = 'cecilia'
+
+homepage = 'http://ajaxsoundstudio.com/software/cecilia'
+
+[[package]]
+channel = 'debian'
+name = 'cecilia'

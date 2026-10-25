@@ -1,0 +1,8 @@
+id = 'python3-psrecord'
+name = 'python3-psrecord'
+
+homepage = 'https://github.com/astrofrog/psrecord'
+
+[[package]]
+channel = 'debian'
+name = 'python3-psrecord'

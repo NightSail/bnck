@@ -1,0 +1,12 @@
+id = 'kmplayer'
+name = 'kmplayer'
+
+homepage = 'https://kmplayer.kde.org'
+
+[[package]]
+channel = 'debian'
+name = 'kmplayer'
+
+[[package]]
+channel = 'fedora'
+name = 'kmplayer'

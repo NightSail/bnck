@@ -1,0 +1,16 @@
+id = 'colord-kde'
+name = 'colord-kde'
+
+homepage = 'https://userbase.kde.org/Color_Management'
+
+[[package]]
+channel = 'arch'
+name = 'colord-kde'
+
+[[package]]
+channel = 'debian'
+name = 'colord-kde'
+
+[[package]]
+channel = 'fedora'
+name = 'colord-kde'

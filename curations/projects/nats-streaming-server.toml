@@ -1,0 +1,9 @@
+id = 'nats-streaming-server'
+name = 'nats-streaming-server'
+
+homepage = 'https://nats.io'
+repository = 'https://github.com/nats-io/nats-streaming-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nats-streaming-server'

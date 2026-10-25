@@ -1,0 +1,8 @@
+id = 'node-is-docker'
+name = 'node-is-docker'
+
+homepage = 'https://github.com/sindresorhus/is-docker'
+
+[[package]]
+channel = 'debian'
+name = 'node-is-docker'

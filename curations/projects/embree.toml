@@ -1,0 +1,16 @@
+id = 'embree'
+name = 'embree'
+
+homepage = 'https://embree.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'embree'
+
+[[package]]
+channel = 'debian'
+name = 'embree-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'embree'

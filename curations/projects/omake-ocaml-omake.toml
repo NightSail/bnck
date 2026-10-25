@@ -1,0 +1,9 @@
+id = 'omake-ocaml-omake'
+name = 'omake'
+
+homepage = 'http://projects.camlcity.org/projects/omake.html'
+repository = 'https://github.com/ocaml-omake/omake.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/omake'

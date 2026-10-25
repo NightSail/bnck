@@ -1,0 +1,21 @@
+id = 'libcap-ng'
+name = 'libcap-ng'
+
+homepage = 'https://people.redhat.com/sgrubb/libcap-ng'
+repository = 'https://github.com/stevegrubb/libcap-ng.git'
+
+[[package]]
+channel = 'arch'
+name = 'libcap-ng'
+
+[[package]]
+channel = 'debian'
+name = 'libcap-ng-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libcap-ng-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcap-ng'

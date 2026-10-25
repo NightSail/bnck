@@ -1,0 +1,8 @@
+id = 'isochron'
+name = 'isochron'
+
+homepage = 'https://github.com/NXP/isochron'
+
+[[package]]
+channel = 'debian'
+name = 'isochron'

@@ -1,0 +1,8 @@
+id = 'ggc'
+name = 'ggc'
+
+repository = 'https://github.com/bmf-san/ggc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ggc'

@@ -1,0 +1,12 @@
+id = 'rna-star'
+name = 'rna-star'
+
+homepage = 'https://github.com/alexdobin/STAR'
+
+[[package]]
+channel = 'debian'
+name = 'rna-star'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rna-star'

@@ -1,0 +1,16 @@
+id = 'kmer'
+name = 'kmer'
+
+homepage = 'http://kmer.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'leaff'
+
+[[package]]
+channel = 'debian'
+name = 'meryl'
+
+[[package]]
+channel = 'debian'
+name = 'sim4db'

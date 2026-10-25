@@ -1,0 +1,12 @@
+id = 'ppx-base'
+name = 'ppx-base'
+
+homepage = 'https://github.com/janestreet/ppx_base'
+
+[[package]]
+channel = 'debian'
+name = 'libppx-base-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ppx-base'

@@ -1,0 +1,13 @@
+id = 'pcb'
+name = 'pcb'
+
+homepage = 'http://pcb.geda-project.org/index.html'
+repository = 'git://git.geda-project.org/pcb.git'
+
+[[package]]
+channel = 'fedora'
+name = 'pcb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcb'

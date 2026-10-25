@@ -1,0 +1,16 @@
+id = 'libsmbios'
+name = 'libsmbios'
+
+homepage = 'https://github.com/dell/libsmbios'
+
+[[package]]
+channel = 'arch'
+name = 'libsmbios'
+
+[[package]]
+channel = 'fedora'
+name = 'smbios-utils-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'smbios-utils-python'

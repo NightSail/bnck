@@ -1,0 +1,9 @@
+id = 'geph4'
+name = 'geph4'
+
+homepage = 'https://geph.io'
+repository = 'https://github.com/geph-official/geph4-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geph4'

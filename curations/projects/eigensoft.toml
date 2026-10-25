@@ -1,0 +1,8 @@
+id = 'eigensoft'
+name = 'eigensoft'
+
+homepage = 'http://www.hsph.harvard.edu/faculty/alkes-price/software'
+
+[[package]]
+channel = 'debian'
+name = 'eigensoft'

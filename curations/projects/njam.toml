@@ -1,0 +1,8 @@
+id = 'njam'
+name = 'njam'
+
+homepage = 'http://njam.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'njam'

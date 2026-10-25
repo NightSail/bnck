@@ -1,0 +1,8 @@
+id = 'libcdr-tools'
+name = 'libcdr-tools'
+
+homepage = 'http://freedesktop.org/wiki/Software/libcdr'
+
+[[package]]
+channel = 'debian'
+name = 'libcdr-tools'

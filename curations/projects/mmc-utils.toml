@@ -1,0 +1,16 @@
+id = 'mmc-utils'
+name = 'mmc-utils'
+
+homepage = 'https://mmc-utils.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'mmc-utils'
+
+[[package]]
+channel = 'debian'
+name = 'mmc-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mmc-utils'

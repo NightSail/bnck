@@ -1,0 +1,8 @@
+id = 'perl-cpan-inject'
+name = 'perl-CPAN-Inject'
+
+homepage = 'https://metacpan.org/release/CPAN-Inject'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPAN-Inject'

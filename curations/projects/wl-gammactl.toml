@@ -1,0 +1,8 @@
+id = 'wl-gammactl'
+name = 'wl-gammactl'
+
+homepage = 'https://github.com/mischw/wl-gammactl'
+
+[[package]]
+channel = 'fedora'
+name = 'wl-gammactl'

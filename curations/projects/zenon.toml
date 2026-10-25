@@ -1,0 +1,8 @@
+id = 'zenon'
+name = 'zenon'
+
+homepage = 'http://zenon-prover.org'
+
+[[package]]
+channel = 'fedora'
+name = 'zenon'

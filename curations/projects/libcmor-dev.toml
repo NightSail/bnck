@@ -1,0 +1,8 @@
+id = 'libcmor-dev'
+name = 'libcmor-dev'
+
+homepage = 'https://pcmdi.github.io/cmor-site'
+
+[[package]]
+channel = 'debian'
+name = 'libcmor-dev'

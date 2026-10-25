@@ -1,0 +1,12 @@
+id = 'python-pskc'
+name = 'python-pskc'
+
+homepage = 'https://arthurdejong.org/python-pskc'
+
+[[package]]
+channel = 'arch'
+name = 'python-pskc'
+
+[[package]]
+channel = 'debian'
+name = 'pskc-utils'

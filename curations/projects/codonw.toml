@@ -1,0 +1,8 @@
+id = 'codonw'
+name = 'codonw'
+
+homepage = 'https://codonw.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'codonw'

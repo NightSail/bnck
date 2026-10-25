@@ -1,0 +1,8 @@
+id = 'ecopcr'
+name = 'ecopcr'
+
+homepage = 'https://git.metabarcoding.org/obitools/ecopcr/wikis/home'
+
+[[package]]
+channel = 'debian'
+name = 'ecopcr'

@@ -1,0 +1,16 @@
+id = 'git-remote-gcrypt'
+name = 'git-remote-gcrypt'
+
+homepage = 'https://spwhitton.name/tech/code/git-remote-gcrypt'
+
+[[package]]
+channel = 'debian'
+name = 'git-remote-gcrypt'
+
+[[package]]
+channel = 'fedora'
+name = 'git-remote-gcrypt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-remote-gcrypt'

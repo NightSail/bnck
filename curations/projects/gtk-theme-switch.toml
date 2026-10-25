@@ -1,0 +1,8 @@
+id = 'gtk-theme-switch'
+name = 'gtk-theme-switch'
+
+homepage = 'https://web.archive.org/web/20170502235700/http://gna.org:80/projects/gtk-theme-switch'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-theme-switch'

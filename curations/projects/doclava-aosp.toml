@@ -1,0 +1,8 @@
+id = 'doclava-aosp'
+name = 'doclava-aosp'
+
+homepage = 'https://android.googlesource.com/platform/external/doclava'
+
+[[package]]
+channel = 'debian'
+name = 'doclava-aosp'

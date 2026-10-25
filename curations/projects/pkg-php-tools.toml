@@ -1,0 +1,6 @@
+id = 'pkg-php-tools'
+name = 'pkg-php-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pkg-php-tools'

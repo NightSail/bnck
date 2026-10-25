@@ -1,0 +1,8 @@
+id = 'golang-ariga-atlas'
+name = 'golang-ariga-atlas'
+
+homepage = 'https://github.com/ariga/atlas'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-ariga-atlas'

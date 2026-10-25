@@ -1,0 +1,8 @@
+id = 'aws-cdk'
+name = 'aws-cdk'
+
+homepage = 'https://github.com/aws/aws-cdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-cdk'

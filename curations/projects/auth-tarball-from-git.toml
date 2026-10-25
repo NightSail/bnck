@@ -1,0 +1,8 @@
+id = 'auth-tarball-from-git'
+name = 'auth-tarball-from-git'
+
+homepage = 'https://github.com/kpcyrd/auth-tarball-from-git'
+
+[[package]]
+channel = 'arch'
+name = 'auth-tarball-from-git'

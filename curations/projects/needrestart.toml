@@ -1,0 +1,12 @@
+id = 'needrestart'
+name = 'needrestart'
+
+homepage = 'https://github.com/liske/needrestart'
+
+[[package]]
+channel = 'debian'
+name = 'needrestart'
+
+[[package]]
+channel = 'fedora'
+name = 'needrestart'

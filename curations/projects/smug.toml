@@ -1,0 +1,8 @@
+id = 'smug'
+name = 'smug'
+
+homepage = 'https://github.com/ivaaaan/smug'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smug'

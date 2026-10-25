@@ -1,0 +1,12 @@
+id = 'python-markdown'
+name = 'python-markdown'
+
+homepage = 'https://python-markdown.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-markdown'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-markdown'

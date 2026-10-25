@@ -1,0 +1,8 @@
+id = 'tiff2png'
+name = 'tiff2png'
+
+homepage = 'http://www.libpng.org/pub/png/apps/tiff2png.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tiff2png'

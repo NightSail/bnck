@@ -1,0 +1,8 @@
+id = 'seascope'
+name = 'seascope'
+
+homepage = 'https://github.com/anilFree/seascope'
+
+[[package]]
+channel = 'debian'
+name = 'seascope'

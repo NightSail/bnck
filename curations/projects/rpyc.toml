@@ -1,0 +1,12 @@
+id = 'rpyc'
+name = 'rpyc'
+
+homepage = 'https://github.com/tomerfiliba-org/rpyc'
+
+[[package]]
+channel = 'arch'
+name = 'python-rpyc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rpyc'

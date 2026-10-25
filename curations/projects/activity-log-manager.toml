@@ -1,0 +1,8 @@
+id = 'activity-log-manager'
+name = 'activity-log-manager'
+
+homepage = 'https://launchpad.net/activity-log-manager'
+
+[[package]]
+channel = 'arch'
+name = 'activity-log-manager'

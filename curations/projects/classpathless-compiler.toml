@@ -1,0 +1,8 @@
+id = 'classpathless-compiler'
+name = 'classpathless-compiler'
+
+homepage = 'https://github.com/mkoncek/classpathless-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'classpathless-compiler'

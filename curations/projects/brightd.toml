@@ -1,0 +1,8 @@
+id = 'brightd'
+name = 'brightd'
+
+homepage = 'https://pberndt.com/Programme/Linux/brightd'
+
+[[package]]
+channel = 'debian'
+name = 'brightd'

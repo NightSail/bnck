@@ -1,0 +1,8 @@
+id = 'cthumb'
+name = 'cthumb'
+
+homepage = 'https://web.archive.org/web/20161009151909/http://cthumb.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cthumb'

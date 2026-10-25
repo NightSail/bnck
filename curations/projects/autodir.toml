@@ -1,0 +1,8 @@
+id = 'autodir'
+name = 'autodir'
+
+homepage = 'https://github.com/fpl/autodir'
+
+[[package]]
+channel = 'debian'
+name = 'autodir'

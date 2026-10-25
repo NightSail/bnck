@@ -1,0 +1,12 @@
+id = 'python3-trimesh'
+name = 'python3-trimesh'
+
+homepage = 'https://github.com/mikedh/trimesh'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trimesh'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-trimesh'

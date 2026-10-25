@@ -1,0 +1,8 @@
+id = 'python3-webscrapbook'
+name = 'python3-webscrapbook'
+
+homepage = 'https://github.com/danny0838/PyWebScrapBook'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-webscrapbook'

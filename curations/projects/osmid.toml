@@ -1,0 +1,8 @@
+id = 'osmid'
+name = 'osmid'
+
+homepage = 'https://github.com/llloret/osmid'
+
+[[package]]
+channel = 'debian'
+name = 'osmid'

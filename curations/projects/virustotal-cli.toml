@@ -1,0 +1,8 @@
+id = 'virustotal-cli'
+name = 'virustotal-cli'
+
+homepage = 'https://virustotal.github.io/vt-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virustotal-cli'

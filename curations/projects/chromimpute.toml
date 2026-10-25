@@ -1,0 +1,8 @@
+id = 'chromimpute'
+name = 'chromimpute'
+
+homepage = 'https://www.biolchem.ucla.edu/labs/ernst/ChromImpute'
+
+[[package]]
+channel = 'debian'
+name = 'chromimpute'

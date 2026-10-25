@@ -1,0 +1,24 @@
+id = 'autogen'
+name = 'autogen'
+
+homepage = 'https://www.gnu.org/software/autogen'
+
+[[package]]
+channel = 'arch'
+name = 'autogen'
+
+[[package]]
+channel = 'debian'
+name = 'autogen'
+
+[[package]]
+channel = 'debian'
+name = 'libopts25-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'autogen'
+
+[[package]]
+channel = 'fedora'
+name = 'autogen-libopts-devel'

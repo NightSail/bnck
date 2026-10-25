@@ -1,0 +1,8 @@
+id = 'swiftly'
+name = 'swiftly'
+
+repository = 'https://github.com/swiftlang/swiftly.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swiftly'

@@ -1,0 +1,16 @@
+id = 'nageru'
+name = 'nageru'
+
+homepage = 'https://nageru.sesse.net'
+
+[[package]]
+channel = 'arch'
+name = 'nageru'
+
+[[package]]
+channel = 'debian'
+name = 'futatabi'
+
+[[package]]
+channel = 'debian'
+name = 'nageru'

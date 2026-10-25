@@ -1,0 +1,8 @@
+id = 'abr2gbr'
+name = 'abr2gbr'
+
+homepage = 'https://www.sunnyspot.org/gimp/tools.html'
+
+[[package]]
+channel = 'debian'
+name = 'abr2gbr'

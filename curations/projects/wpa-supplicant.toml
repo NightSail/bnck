@@ -1,0 +1,32 @@
+id = 'wpa-supplicant'
+name = 'wpa_supplicant'
+
+homepage = 'https://w1.fi/wpa_supplicant'
+
+[[package]]
+channel = 'arch'
+name = 'wpa_supplicant'
+
+[[package]]
+channel = 'debian'
+name = 'eapoltest'
+
+[[package]]
+channel = 'debian'
+name = 'hostapd'
+
+[[package]]
+channel = 'debian'
+name = 'wpagui'
+
+[[package]]
+channel = 'debian'
+name = 'wpasupplicant'
+
+[[package]]
+channel = 'fedora'
+name = 'wpa_supplicant'
+
+[[package]]
+channel = 'fedora'
+name = 'wpa_supplicant-gui'

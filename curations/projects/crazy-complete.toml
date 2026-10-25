@@ -1,0 +1,12 @@
+id = 'crazy-complete'
+name = 'crazy-complete'
+
+homepage = 'https://github.com/crazy-complete/crazy-complete'
+
+[[package]]
+channel = 'arch'
+name = 'python-crazy-complete'
+
+[[package]]
+channel = 'debian'
+name = 'crazy-complete'

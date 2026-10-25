@@ -1,0 +1,8 @@
+id = 'nats'
+name = 'nats'
+
+repository = 'https://github.com/nats-io/natscli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nats'

@@ -1,0 +1,12 @@
+id = 'python-titlecase'
+name = 'python-titlecase'
+
+homepage = 'https://github.com/ppannuto/python-titlecase'
+
+[[package]]
+channel = 'arch'
+name = 'python-titlecase'
+
+[[package]]
+channel = 'debian'
+name = 'python3-titlecase'

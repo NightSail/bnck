@@ -1,0 +1,17 @@
+id = 'libgxps'
+name = 'libgxps'
+
+homepage = 'https://wiki.gnome.org/Projects/libgxps'
+repository = 'https://gitlab.gnome.org/GNOME/libgxps.git'
+
+[[package]]
+channel = 'arch'
+name = 'libgxps'
+
+[[package]]
+channel = 'fedora'
+name = 'libgxps-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgxps'

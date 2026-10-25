@@ -1,0 +1,8 @@
+id = 'imagineer'
+name = 'imagineer'
+
+repository = 'https://github.com/foresterre/imagineer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imagineer'

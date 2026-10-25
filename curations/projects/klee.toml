@@ -1,0 +1,9 @@
+id = 'klee'
+name = 'klee'
+
+homepage = 'https://klee-se.org'
+repository = 'https://github.com/klee/klee.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/klee'

@@ -1,0 +1,9 @@
+id = 'git-integration'
+name = 'git-integration'
+
+homepage = 'https://johnkeeping.github.io/git-integration'
+repository = 'https://github.com/johnkeeping/git-integration.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-integration'

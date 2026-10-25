@@ -1,0 +1,8 @@
+id = 'freedroid'
+name = 'freedroid'
+
+homepage = 'https://github.com/ReinhardPrix/FreedroidClassic'
+
+[[package]]
+channel = 'fedora'
+name = 'freedroid'

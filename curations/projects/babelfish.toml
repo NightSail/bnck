@@ -1,0 +1,8 @@
+id = 'babelfish'
+name = 'babelfish'
+
+repository = 'https://github.com/bouk/babelfish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/babelfish'

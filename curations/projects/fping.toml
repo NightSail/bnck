@@ -1,0 +1,21 @@
+id = 'fping'
+name = 'fping'
+
+homepage = 'https://www.fping.org'
+repository = 'https://github.com/schweikert/fping.git'
+
+[[package]]
+channel = 'arch'
+name = 'fping'
+
+[[package]]
+channel = 'debian'
+name = 'fping'
+
+[[package]]
+channel = 'fedora'
+name = 'fping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fping'

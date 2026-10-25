@@ -1,0 +1,8 @@
+id = 'slugify'
+name = 'slugify'
+
+repository = 'https://github.com/JabberLabs/slugify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slugify'

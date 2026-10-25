@@ -1,0 +1,12 @@
+id = 'sequoia-chameleon-gnupg'
+name = 'sequoia-chameleon-gnupg'
+
+homepage = 'https://gitlab.com/sequoia-pgp/sequoia-chameleon-gnupg'
+
+[[package]]
+channel = 'arch'
+name = 'sequoia-chameleon-gnupg'
+
+[[package]]
+channel = 'fedora'
+name = 'sequoia-chameleon-gnupg'

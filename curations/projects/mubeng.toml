@@ -1,0 +1,8 @@
+id = 'mubeng'
+name = 'mubeng'
+
+repository = 'https://github.com/mubeng/mubeng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mubeng'

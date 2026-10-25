@@ -1,0 +1,8 @@
+id = 'node-carto'
+name = 'node-carto'
+
+homepage = 'https://github.com/mapbox/carto'
+
+[[package]]
+channel = 'debian'
+name = 'node-carto'

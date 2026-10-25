@@ -1,0 +1,8 @@
+id = 'golang-github-dave-jennifer'
+name = 'golang-github-dave-jennifer'
+
+homepage = 'https://github.com/dave/jennifer'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-dave-jennifer'

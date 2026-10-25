@@ -1,0 +1,8 @@
+id = 'gptline'
+name = 'gptline'
+
+repository = 'https://github.com/gnachman/gptline.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gptline'

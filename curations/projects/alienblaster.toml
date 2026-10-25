@@ -1,0 +1,8 @@
+id = 'alienblaster'
+name = 'alienblaster'
+
+homepage = 'http://www.schwardtnet.de/alienblaster'
+
+[[package]]
+channel = 'fedora'
+name = 'alienblaster'

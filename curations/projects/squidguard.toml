@@ -1,0 +1,12 @@
+id = 'squidguard'
+name = 'squidGuard'
+
+homepage = 'http://www.squidguard.org'
+
+[[package]]
+channel = 'debian'
+name = 'squidguard'
+
+[[package]]
+channel = 'fedora'
+name = 'squidGuard'

@@ -1,0 +1,8 @@
+id = 'blobby2'
+name = 'blobby2'
+
+homepage = 'http://sourceforge.net/projects/blobby'
+
+[[package]]
+channel = 'arch'
+name = 'blobby2'

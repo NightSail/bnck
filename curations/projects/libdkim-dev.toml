@@ -1,0 +1,8 @@
+id = 'libdkim-dev'
+name = 'libdkim-dev'
+
+homepage = 'http://libdkim.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libdkim-dev'

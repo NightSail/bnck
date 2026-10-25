@@ -1,0 +1,8 @@
+id = 'dib-utils'
+name = 'dib-utils'
+
+homepage = 'https://git.openstack.org/cgit/openstack/dib-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'dib-utils'

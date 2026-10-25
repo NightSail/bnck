@@ -1,0 +1,8 @@
+id = 'dpcmd'
+name = 'dpcmd'
+
+homepage = 'https://github.com/DediProgSW/SF100Linux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dpcmd'

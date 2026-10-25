@@ -1,0 +1,12 @@
+id = 'tripwire'
+name = 'tripwire'
+
+homepage = 'https://github.com/Tripwire/tripwire-open-source'
+
+[[package]]
+channel = 'debian'
+name = 'tripwire'
+
+[[package]]
+channel = 'fedora'
+name = 'tripwire'

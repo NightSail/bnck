@@ -1,0 +1,9 @@
+id = 'ltex-ls'
+name = 'ltex-ls'
+
+homepage = 'https://valentjn.github.io/ltex'
+repository = 'https://github.com/valentjn/ltex-ls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ltex-ls'

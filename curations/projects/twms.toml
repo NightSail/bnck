@@ -1,0 +1,8 @@
+id = 'twms'
+name = 'twms'
+
+homepage = 'https://github.com/Komzpa/twms'
+
+[[package]]
+channel = 'debian'
+name = 'twms'

@@ -1,0 +1,12 @@
+id = 'devel-cover'
+name = 'Devel-Cover'
+
+homepage = 'https://metacpan.org/release/Devel-Cover'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-cover-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-Cover'

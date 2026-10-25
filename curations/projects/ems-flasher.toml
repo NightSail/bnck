@@ -1,0 +1,8 @@
+id = 'ems-flasher'
+name = 'ems-flasher'
+
+homepage = 'https://lacklustre.net/projects/ems-flasher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ems-flasher'

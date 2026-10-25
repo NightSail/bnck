@@ -1,0 +1,16 @@
+id = 'nmon'
+name = 'nmon'
+
+homepage = 'http://nmon.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'nmon'
+
+[[package]]
+channel = 'debian'
+name = 'nmon'
+
+[[package]]
+channel = 'fedora'
+name = 'nmon'

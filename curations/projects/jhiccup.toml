@@ -1,0 +1,8 @@
+id = 'jhiccup'
+name = 'jhiccup'
+
+homepage = 'https://www.azul.com/products/components/jhiccup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jhiccup'

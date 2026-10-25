@@ -1,0 +1,8 @@
+id = 'grab'
+name = 'grab'
+
+homepage = 'https://github.com/cavaliergopher/grab'
+
+[[package]]
+channel = 'debian'
+name = 'grab'

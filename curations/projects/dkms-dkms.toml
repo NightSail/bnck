@@ -1,0 +1,8 @@
+id = 'dkms-dkms'
+name = 'dkms'
+
+homepage = 'http://linux.dell.com/dkms'
+
+[[package]]
+channel = 'fedora'
+name = 'dkms'

@@ -1,0 +1,8 @@
+id = 'snappy-tools'
+name = 'snappy-tools'
+
+homepage = 'https://sr.ht/~nabijaczleweli/snappy-tools'
+
+[[package]]
+channel = 'debian'
+name = 'snappy-tools'

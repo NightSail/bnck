@@ -1,0 +1,8 @@
+id = 'autocycler'
+name = 'autocycler'
+
+repository = 'https://github.com/rrwick/Autocycler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autocycler'

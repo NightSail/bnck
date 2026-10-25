@@ -1,0 +1,8 @@
+id = 'dev86'
+name = 'dev86'
+
+homepage = 'http://v3.sk/~lkundrak/dev86'
+
+[[package]]
+channel = 'fedora'
+name = 'dev86'

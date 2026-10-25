@@ -1,0 +1,8 @@
+id = 'katana'
+name = 'katana'
+
+repository = 'https://github.com/projectdiscovery/katana.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/katana'

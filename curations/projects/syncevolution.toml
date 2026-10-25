@@ -1,0 +1,32 @@
+id = 'syncevolution'
+name = 'syncevolution'
+
+homepage = 'http://syncevolution.org'
+
+[[package]]
+channel = 'debian'
+name = 'sync-ui'
+
+[[package]]
+channel = 'debian'
+name = 'syncevolution'
+
+[[package]]
+channel = 'debian'
+name = 'syncevolution-common'
+
+[[package]]
+channel = 'debian'
+name = 'syncevolution-http'
+
+[[package]]
+channel = 'fedora'
+name = 'syncevolution'
+
+[[package]]
+channel = 'fedora'
+name = 'syncevolution-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'syncevolution-perl'

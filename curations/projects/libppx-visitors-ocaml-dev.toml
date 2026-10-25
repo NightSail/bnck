@@ -1,0 +1,8 @@
+id = 'libppx-visitors-ocaml-dev'
+name = 'libppx-visitors-ocaml-dev'
+
+homepage = 'https://gitlab.inria.fr/fpottier/visitors'
+
+[[package]]
+channel = 'debian'
+name = 'libppx-visitors-ocaml-dev'

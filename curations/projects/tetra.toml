@@ -1,0 +1,8 @@
+id = 'tetra'
+name = 'tetra'
+
+homepage = 'https://tetragon.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tetra'

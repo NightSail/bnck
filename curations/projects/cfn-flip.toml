@@ -1,0 +1,8 @@
+id = 'cfn-flip'
+name = 'cfn-flip'
+
+homepage = 'https://github.com/awslabs/aws-cfn-template-flip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfn-flip'

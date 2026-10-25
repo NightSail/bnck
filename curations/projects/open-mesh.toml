@@ -1,0 +1,20 @@
+id = 'open-mesh'
+name = 'open-mesh'
+
+homepage = 'https://www.open-mesh.org'
+
+[[package]]
+channel = 'arch'
+name = 'batctl'
+
+[[package]]
+channel = 'debian'
+name = 'batctl'
+
+[[package]]
+channel = 'debian'
+name = 'batmand'
+
+[[package]]
+channel = 'fedora'
+name = 'batctl'

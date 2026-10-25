@@ -1,0 +1,8 @@
+id = 'shadowenv'
+name = 'shadowenv'
+
+homepage = 'https://shopify.github.io/shadowenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shadowenv'

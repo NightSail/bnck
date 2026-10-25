@@ -1,0 +1,12 @@
+id = 'fedora-upgrade'
+name = 'fedora-upgrade'
+
+homepage = 'https://github.com/xsuchy/fedora-upgrade'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-upgrade'
+
+[[package]]
+channel = 'fedora'
+name = 'remove-retired-packages'

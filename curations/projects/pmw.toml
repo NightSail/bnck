@@ -1,0 +1,8 @@
+id = 'pmw'
+name = 'pmw'
+
+homepage = 'https://philiphazel.github.io/pmw'
+
+[[package]]
+channel = 'debian'
+name = 'pmw'

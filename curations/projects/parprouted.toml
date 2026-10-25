@@ -1,0 +1,8 @@
+id = 'parprouted'
+name = 'parprouted'
+
+homepage = 'http://www.hazard.maks.net/parprouted'
+
+[[package]]
+channel = 'debian'
+name = 'parprouted'

@@ -9,6 +9,14 @@ channel = 'arch'
 name = 'emacs'
 
 [[package]]
+channel = 'arch'
+name = 'emacs-nox'
+
+[[package]]
+channel = 'arch'
+name = 'emacs-wayland'
+
+[[package]]
 channel = 'debian'
 name = 'emacs-bin-common'
 

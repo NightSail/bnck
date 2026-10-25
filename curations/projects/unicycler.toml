@@ -1,0 +1,8 @@
+id = 'unicycler'
+name = 'unicycler'
+
+homepage = 'https://github.com/rrwick/Unicycler'
+
+[[package]]
+channel = 'debian'
+name = 'unicycler'

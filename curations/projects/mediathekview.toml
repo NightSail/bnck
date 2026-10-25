@@ -1,0 +1,12 @@
+id = 'mediathekview'
+name = 'mediathekview'
+
+homepage = 'https://github.com/mediathekview/mediathekview'
+
+[[package]]
+channel = 'arch'
+name = 'mediathekview'
+
+[[package]]
+channel = 'debian'
+name = 'mediathekview'

@@ -1,0 +1,8 @@
+id = 'likwid'
+name = 'likwid'
+
+homepage = 'https://github.com/rrze-likwid/likwid'
+
+[[package]]
+channel = 'debian'
+name = 'likwid'

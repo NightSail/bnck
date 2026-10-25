@@ -1,0 +1,8 @@
+id = 'gprofng-gui'
+name = 'gprofng-gui'
+
+homepage = 'http://savannah.gnu.org/projects/gprofng-gui'
+
+[[package]]
+channel = 'debian'
+name = 'gprofng-gui'

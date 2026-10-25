@@ -1,0 +1,16 @@
+id = 'perltidy'
+name = 'perltidy'
+
+homepage = 'https://perltidy.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'perltidy'
+
+[[package]]
+channel = 'fedora'
+name = 'perltidy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/perltidy'

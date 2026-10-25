@@ -1,0 +1,6 @@
+id = 'search-citeseer'
+name = 'search-citeseer'
+
+[[package]]
+channel = 'debian'
+name = 'search-citeseer'

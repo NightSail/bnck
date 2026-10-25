@@ -1,0 +1,8 @@
+id = 'zuo'
+name = 'zuo'
+
+homepage = 'https://github.com/racket/zuo'
+
+[[package]]
+channel = 'debian'
+name = 'zuo'

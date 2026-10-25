@@ -1,0 +1,12 @@
+id = 'libtecla'
+name = 'libtecla'
+
+homepage = 'https://sites.astro.caltech.edu/~mcs/tecla'
+
+[[package]]
+channel = 'arch'
+name = 'libtecla'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtecla'

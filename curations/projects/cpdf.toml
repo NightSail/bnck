@@ -1,0 +1,12 @@
+id = 'cpdf'
+name = 'cpdf'
+
+homepage = 'https://github.com/johnwhitington/cpdf-source'
+
+[[package]]
+channel = 'debian'
+name = 'cpdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpdf'

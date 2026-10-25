@@ -1,0 +1,12 @@
+id = 'ktechlab'
+name = 'ktechlab'
+
+homepage = 'https://invent.kde.org/sdk/ktechlab'
+
+[[package]]
+channel = 'debian'
+name = 'ktechlab'
+
+[[package]]
+channel = 'fedora'
+name = 'ktechlab'

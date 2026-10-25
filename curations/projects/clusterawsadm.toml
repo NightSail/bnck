@@ -1,0 +1,9 @@
+id = 'clusterawsadm'
+name = 'clusterawsadm'
+
+homepage = 'https://cluster-api-aws.sigs.k8s.io/clusterawsadm/clusterawsadm.html'
+repository = 'https://github.com/kubernetes-sigs/cluster-api-provider-aws.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clusterawsadm'

@@ -1,0 +1,8 @@
+id = 'perforate'
+name = 'perforate'
+
+homepage = 'https://perforate-linux.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'perforate'

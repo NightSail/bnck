@@ -1,0 +1,24 @@
+id = 'qdbm'
+name = 'qdbm'
+
+homepage = 'https://fallabs.com/qdbm'
+
+[[package]]
+channel = 'debian'
+name = 'qdbm-util'
+
+[[package]]
+channel = 'fedora'
+name = 'qdbm'
+
+[[package]]
+channel = 'fedora'
+name = 'qdbm++'
+
+[[package]]
+channel = 'fedora'
+name = 'qdbm-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby-qdbm'

@@ -1,0 +1,8 @@
+id = 'systemfd'
+name = 'systemfd'
+
+homepage = 'https://github.com/mitsuhiko/systemfd'
+
+[[package]]
+channel = 'arch'
+name = 'systemfd'

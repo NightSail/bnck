@@ -1,0 +1,8 @@
+id = 'photopc'
+name = 'photopc'
+
+homepage = 'http://sourceforge.net/projects/photopc'
+
+[[package]]
+channel = 'debian'
+name = 'photopc'

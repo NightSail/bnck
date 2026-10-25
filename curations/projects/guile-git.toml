@@ -1,0 +1,9 @@
+id = 'guile-git'
+name = 'guile'
+
+homepage = 'https://www.gnu.org/software/guile'
+repository = 'https://git.savannah.gnu.org/git/guile.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/guile'

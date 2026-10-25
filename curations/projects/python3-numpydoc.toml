@@ -1,0 +1,8 @@
+id = 'python3-numpydoc'
+name = 'python3-numpydoc'
+
+homepage = 'https://pypi.python.org/pypi/numpydoc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-numpydoc'

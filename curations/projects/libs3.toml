@@ -1,0 +1,12 @@
+id = 'libs3'
+name = 'libs3'
+
+homepage = 'https://github.com/bji/libs3'
+
+[[package]]
+channel = 'debian'
+name = 'libs3-2'
+
+[[package]]
+channel = 'fedora'
+name = 'libs3'

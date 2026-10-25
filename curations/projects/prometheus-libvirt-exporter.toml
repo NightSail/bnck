@@ -1,0 +1,8 @@
+id = 'prometheus-libvirt-exporter'
+name = 'prometheus-libvirt-exporter'
+
+homepage = 'https://github.com/kumina/libvirt_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-libvirt-exporter'

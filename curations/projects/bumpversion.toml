@@ -1,0 +1,12 @@
+id = 'bumpversion'
+name = 'bumpversion'
+
+homepage = 'https://github.com/peritus/bumpversion'
+
+[[package]]
+channel = 'debian'
+name = 'bumpversion'
+
+[[package]]
+channel = 'fedora'
+name = 'bumpversion'

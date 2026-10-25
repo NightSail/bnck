@@ -1,0 +1,8 @@
+id = 'gpgmngr'
+name = 'gpgmngr'
+
+homepage = 'https://github.com/manuwarfare/gpgmngr'
+
+[[package]]
+channel = 'debian'
+name = 'gpgmngr'

@@ -1,0 +1,12 @@
+id = 'srt-srtalliance'
+name = 'srt'
+
+homepage = 'https://www.srtalliance.org'
+
+[[package]]
+channel = 'arch'
+name = 'srt'
+
+[[package]]
+channel = 'fedora'
+name = 'srt'

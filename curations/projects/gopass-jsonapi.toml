@@ -1,0 +1,16 @@
+id = 'gopass-jsonapi'
+name = 'gopass-jsonapi'
+
+repository = 'https://github.com/gopasspw/gopass-jsonapi.git'
+
+[[package]]
+channel = 'arch'
+name = 'gopass-jsonapi'
+
+[[package]]
+channel = 'fedora'
+name = 'gopass-jsonapi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gopass-jsonapi'

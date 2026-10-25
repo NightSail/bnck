@@ -1,0 +1,8 @@
+id = 'gnome-screensaver'
+name = 'gnome-screensaver'
+
+homepage = 'https://wiki.gnome.org/GnomeScreensaver'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-screensaver'

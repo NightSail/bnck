@@ -1,0 +1,9 @@
+id = 'risor'
+name = 'risor'
+
+homepage = 'https://risor.io'
+repository = 'https://github.com/deepnoodle-ai/risor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/risor'

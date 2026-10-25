@@ -1,0 +1,8 @@
+id = 'ldb'
+name = 'ldb'
+
+homepage = 'https://ldb.samba.org'
+
+[[package]]
+channel = 'arch'
+name = 'ldb'

@@ -1,0 +1,9 @@
+id = 'qtshadertools'
+name = 'qtshadertools'
+
+homepage = 'https://www.qt.io'
+repository = 'https://code.qt.io/qt/qtshadertools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qtshadertools'

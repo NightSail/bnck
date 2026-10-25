@@ -1,0 +1,8 @@
+id = 'cloudflare-ddns'
+name = 'cloudflare-ddns'
+
+homepage = 'https://github.com/Tachi107/cloudflare-ddns'
+
+[[package]]
+channel = 'debian'
+name = 'cloudflare-ddns'

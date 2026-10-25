@@ -1,0 +1,8 @@
+id = 'kosmindoormap-demo'
+name = 'kosmindoormap-demo'
+
+homepage = 'https://invent.kde.org/libraries/kosmindoormap'
+
+[[package]]
+channel = 'debian'
+name = 'kosmindoormap-demo'

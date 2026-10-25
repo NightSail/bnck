@@ -1,0 +1,9 @@
+id = 'weighttp'
+name = 'weighttp'
+
+homepage = 'https://redmine.lighttpd.net/projects/weighttp/wiki'
+repository = 'https://git.lighttpd.net/lighttpd/weighttp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weighttp'

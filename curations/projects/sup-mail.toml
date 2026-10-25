@@ -1,0 +1,8 @@
+id = 'sup-mail'
+name = 'sup-mail'
+
+homepage = 'https://sup-heliotrope.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'sup-mail'

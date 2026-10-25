@@ -1,0 +1,8 @@
+id = 'libmseed'
+name = 'libmseed'
+
+homepage = 'https://www.iris.edu/ds/nodes/dmc/software/downloads/libmseed'
+
+[[package]]
+channel = 'fedora'
+name = 'libmseed'

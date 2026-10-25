@@ -1,0 +1,12 @@
+id = 'exabgp'
+name = 'exabgp'
+
+homepage = 'https://github.com/Exa-Networks/exabgp'
+
+[[package]]
+channel = 'debian'
+name = 'python3-exabgp'
+
+[[package]]
+channel = 'fedora'
+name = 'exabgp'

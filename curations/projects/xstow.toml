@@ -1,0 +1,8 @@
+id = 'xstow'
+name = 'xstow'
+
+homepage = 'http://xstow.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'xstow'

@@ -1,0 +1,12 @@
+id = 'mediawiki'
+name = 'mediawiki'
+
+homepage = 'https://www.pgpool.net/mediawiki/index.php/Main_Page'
+
+[[package]]
+channel = 'debian'
+name = 'pgpool2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgpool-ii'

@@ -1,0 +1,8 @@
+id = 'openvi'
+name = 'openvi'
+
+repository = 'https://github.com/johnsonjh/OpenVi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openvi'

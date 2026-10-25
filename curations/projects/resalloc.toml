@@ -1,0 +1,20 @@
+id = 'resalloc'
+name = 'resalloc'
+
+homepage = 'https://github.com/praiskup/resalloc'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc-agent-spawner'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc-helpers'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc-server'

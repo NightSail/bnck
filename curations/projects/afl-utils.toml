@@ -1,0 +1,8 @@
+id = 'afl-utils'
+name = 'afl-utils'
+
+homepage = 'https://gitlab.com/rc0r/afl-utils'
+
+[[package]]
+channel = 'arch'
+name = 'afl-utils'

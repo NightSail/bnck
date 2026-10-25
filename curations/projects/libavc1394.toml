@@ -1,0 +1,16 @@
+id = 'libavc1394'
+name = 'libavc1394'
+
+homepage = 'https://sourceforge.net/projects/libavc1394'
+
+[[package]]
+channel = 'arch'
+name = 'libavc1394'
+
+[[package]]
+channel = 'debian'
+name = 'libavc1394-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libavc1394'

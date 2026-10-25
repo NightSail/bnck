@@ -1,0 +1,9 @@
+id = 'roadrunner'
+name = 'roadrunner'
+
+homepage = 'https://docs.roadrunner.dev/docs'
+repository = 'https://github.com/roadrunner-server/roadrunner.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/roadrunner'

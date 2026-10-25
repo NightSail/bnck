@@ -1,0 +1,16 @@
+id = 'gron'
+name = 'gron'
+
+repository = 'https://github.com/tomnomnom/gron.git'
+
+[[package]]
+channel = 'arch'
+name = 'gron'
+
+[[package]]
+channel = 'debian'
+name = 'gron'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gron'

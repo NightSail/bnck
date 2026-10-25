@@ -1,0 +1,8 @@
+id = 'naga'
+name = 'naga'
+
+homepage = 'https://github.com/anayjoshi/naga'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/naga'

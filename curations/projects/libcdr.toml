@@ -1,0 +1,16 @@
+id = 'libcdr'
+name = 'libcdr'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libcdr'
+
+[[package]]
+channel = 'arch'
+name = 'libcdr'
+
+[[package]]
+channel = 'fedora'
+name = 'libcdr-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcdr'

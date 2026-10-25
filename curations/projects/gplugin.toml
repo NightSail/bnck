@@ -1,0 +1,16 @@
+id = 'gplugin'
+name = 'gplugin'
+
+homepage = 'https://keep.imfreedom.org/gplugin/gplugin'
+
+[[package]]
+channel = 'fedora'
+name = 'gplugin'
+
+[[package]]
+channel = 'fedora'
+name = 'gplugin-gtk4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gplugin'

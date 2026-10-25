@@ -1,0 +1,16 @@
+id = 'accerciser'
+name = 'accerciser'
+
+homepage = 'https://wiki.gnome.org/Apps/Accerciser'
+
+[[package]]
+channel = 'arch'
+name = 'accerciser'
+
+[[package]]
+channel = 'debian'
+name = 'accerciser'
+
+[[package]]
+channel = 'fedora'
+name = 'accerciser'

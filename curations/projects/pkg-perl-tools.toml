@@ -1,0 +1,8 @@
+id = 'pkg-perl-tools'
+name = 'pkg-perl-tools'
+
+homepage = 'https://wiki.debian.org/Teams/DebianPerlGroup'
+
+[[package]]
+channel = 'debian'
+name = 'pkg-perl-tools'

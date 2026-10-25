@@ -1,0 +1,8 @@
+id = 'wineglass'
+name = 'wineglass'
+
+homepage = 'https://github.com/aggalex/Wineglass'
+
+[[package]]
+channel = 'fedora'
+name = 'wineglass'

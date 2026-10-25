@@ -1,0 +1,8 @@
+id = 'debmake'
+name = 'debmake'
+
+homepage = 'https://salsa.debian.org/debian/debmake'
+
+[[package]]
+channel = 'debian'
+name = 'debmake'

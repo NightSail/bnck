@@ -1,0 +1,8 @@
+id = 'wandio'
+name = 'wandio'
+
+homepage = 'https://github.com/LibtraceTeam/wandio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wandio'

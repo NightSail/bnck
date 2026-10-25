@@ -1,0 +1,8 @@
+id = 'hyper-mcp'
+name = 'hyper-mcp'
+
+repository = 'https://github.com/hyper-mcp-rs/hyper-mcp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hyper-mcp'

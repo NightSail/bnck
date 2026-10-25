@@ -1,0 +1,8 @@
+id = 'prometheus-hacluster-exporter'
+name = 'prometheus-hacluster-exporter'
+
+homepage = 'https://github.com/ClusterLabs/ha_cluster_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-hacluster-exporter'

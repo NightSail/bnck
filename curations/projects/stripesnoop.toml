@@ -1,0 +1,8 @@
+id = 'stripesnoop'
+name = 'stripesnoop'
+
+homepage = 'http://stripesnoop.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'stripesnoop'

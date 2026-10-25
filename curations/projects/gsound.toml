@@ -1,0 +1,16 @@
+id = 'gsound'
+name = 'gsound'
+
+homepage = 'https://wiki.gnome.org/Projects/GSound'
+
+[[package]]
+channel = 'arch'
+name = 'gsound'
+
+[[package]]
+channel = 'debian'
+name = 'gsound-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gsound'

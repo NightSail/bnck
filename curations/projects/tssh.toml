@@ -1,0 +1,8 @@
+id = 'tssh'
+name = 'tssh'
+
+homepage = 'https://github.com/luanruisong/tssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tssh'

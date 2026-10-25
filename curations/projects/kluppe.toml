@@ -1,0 +1,8 @@
+id = 'kluppe'
+name = 'kluppe'
+
+homepage = 'http://kluppe.klingt.org'
+
+[[package]]
+channel = 'debian'
+name = 'kluppe'

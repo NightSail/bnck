@@ -1,0 +1,12 @@
+id = 'yaml-language-server'
+name = 'yaml-language-server'
+
+homepage = 'https://github.com/redhat-developer/yaml-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'yaml-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaml-language-server'

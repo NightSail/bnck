@@ -1,0 +1,9 @@
+id = 'ssh-mitm'
+name = 'ssh-mitm'
+
+homepage = 'https://docs.ssh-mitm.at'
+repository = 'https://github.com/ssh-mitm/ssh-mitm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssh-mitm'

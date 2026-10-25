@@ -1,0 +1,8 @@
+id = 'ruby-combustion'
+name = 'ruby-combustion'
+
+homepage = 'https://github.com/pat/combustion'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-combustion'

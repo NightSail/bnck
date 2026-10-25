@@ -1,0 +1,8 @@
+id = 'dftd4'
+name = 'dftd4'
+
+homepage = 'https://dftd4.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'dftd4'

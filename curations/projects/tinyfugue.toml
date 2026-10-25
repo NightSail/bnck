@@ -1,0 +1,12 @@
+id = 'tinyfugue'
+name = 'tinyfugue'
+
+homepage = 'http://tinyfugue.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'tf5'
+
+[[package]]
+channel = 'fedora'
+name = 'tinyfugue'

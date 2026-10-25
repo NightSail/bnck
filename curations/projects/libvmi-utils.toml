@@ -1,0 +1,8 @@
+id = 'libvmi-utils'
+name = 'libvmi-utils'
+
+homepage = 'http://libvmi.com'
+
+[[package]]
+channel = 'fedora'
+name = 'libvmi-utils'

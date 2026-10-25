@@ -1,0 +1,9 @@
+id = 'skillshare'
+name = 'skillshare'
+
+homepage = 'https://skillshare.runkids.cc'
+repository = 'https://github.com/runkids/skillshare.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skillshare'

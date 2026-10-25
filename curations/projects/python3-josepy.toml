@@ -1,0 +1,8 @@
+id = 'python3-josepy'
+name = 'python3-josepy'
+
+homepage = 'https://pypi.python.org/pypi/josepy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-josepy'

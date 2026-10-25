@@ -1,0 +1,8 @@
+id = 'gascity'
+name = 'gascity'
+
+repository = 'https://github.com/gastownhall/gascity.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gascity'

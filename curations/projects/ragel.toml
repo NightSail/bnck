@@ -1,0 +1,24 @@
+id = 'ragel'
+name = 'ragel'
+
+homepage = 'https://www.colm.net/open-source/ragel'
+
+[[package]]
+channel = 'arch'
+name = 'ragel'
+
+[[package]]
+channel = 'arch'
+name = 'ragel6'
+
+[[package]]
+channel = 'debian'
+name = 'ragel'
+
+[[package]]
+channel = 'fedora'
+name = 'ragel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ragel'

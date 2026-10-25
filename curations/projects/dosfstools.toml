@@ -1,0 +1,16 @@
+id = 'dosfstools'
+name = 'dosfstools'
+
+homepage = 'https://github.com/dosfstools/dosfstools'
+
+[[package]]
+channel = 'arch'
+name = 'dosfstools'
+
+[[package]]
+channel = 'debian'
+name = 'dosfstools'
+
+[[package]]
+channel = 'fedora'
+name = 'dosfstools'

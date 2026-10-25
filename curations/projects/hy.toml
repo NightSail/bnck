@@ -1,0 +1,16 @@
+id = 'hy'
+name = 'hy'
+
+homepage = 'https://github.com/hylang/hy'
+
+[[package]]
+channel = 'arch'
+name = 'hy'
+
+[[package]]
+channel = 'debian'
+name = 'hy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hy'

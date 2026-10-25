@@ -1,0 +1,9 @@
+id = 'infracost'
+name = 'infracost'
+
+homepage = 'https://www.infracost.io/docs'
+repository = 'https://github.com/infracost/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/infracost'

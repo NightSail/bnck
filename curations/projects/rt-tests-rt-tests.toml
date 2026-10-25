@@ -1,0 +1,6 @@
+id = 'rt-tests-rt-tests'
+name = 'rt-tests'
+
+[[package]]
+channel = 'debian'
+name = 'rt-tests'

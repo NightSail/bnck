@@ -1,0 +1,8 @@
+id = 'pal2nal'
+name = 'pal2nal'
+
+homepage = 'http://www.bork.embl.de/pal2nal'
+
+[[package]]
+channel = 'debian'
+name = 'pal2nal'

@@ -1,0 +1,8 @@
+id = 'syntax-highlight'
+name = 'syntax-highlight'
+
+homepage = 'https://github.com/sbarex/SourceCodeSyntaxHighlight'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/syntax-highlight'

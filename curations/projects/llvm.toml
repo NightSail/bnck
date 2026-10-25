@@ -5,4 +5,16 @@ repository = 'https://github.com/llvm/llvm-project'
 
 [[package]]
 channel = 'homebrew'
+name = 'homebrew/core/flang'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lld'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lldb'
+
+[[package]]
+channel = 'homebrew'
 name = 'homebrew/core/llvm'

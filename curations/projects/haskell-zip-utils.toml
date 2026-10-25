@@ -1,0 +1,8 @@
+id = 'haskell-zip-utils'
+name = 'haskell-zip-utils'
+
+homepage = 'https://github.com/mrkkrp/zip'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-zip-utils'

@@ -1,0 +1,21 @@
+id = 'rhash'
+name = 'rhash'
+
+homepage = 'http://rhash.sourceforge.net'
+repository = 'https://github.com/rhash/RHash.git'
+
+[[package]]
+channel = 'arch'
+name = 'rhash'
+
+[[package]]
+channel = 'debian'
+name = 'rhash'
+
+[[package]]
+channel = 'fedora'
+name = 'rhash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rhash'

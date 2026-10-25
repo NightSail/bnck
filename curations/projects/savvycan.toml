@@ -1,0 +1,8 @@
+id = 'savvycan'
+name = 'savvycan'
+
+homepage = 'https://www.savvycan.com'
+
+[[package]]
+channel = 'debian'
+name = 'savvycan'

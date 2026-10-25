@@ -1,0 +1,9 @@
+id = 'pixie'
+name = 'pixie'
+
+homepage = 'https://px.dev'
+repository = 'https://github.com/pixie-io/pixie.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixie'

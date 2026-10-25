@@ -1,0 +1,12 @@
+id = 'procps'
+name = 'procps'
+
+homepage = 'https://gitlab.com/procps-ng/procps'
+
+[[package]]
+channel = 'arch'
+name = 'procps-ng'
+
+[[package]]
+channel = 'debian'
+name = 'procps'

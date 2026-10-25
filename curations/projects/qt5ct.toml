@@ -1,0 +1,16 @@
+id = 'qt5ct'
+name = 'qt5ct'
+
+homepage = 'https://qt5ct.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qt5ct'
+
+[[package]]
+channel = 'debian'
+name = 'qt5ct'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5ct'

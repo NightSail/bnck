@@ -1,0 +1,8 @@
+id = 'libsimage-dev'
+name = 'libsimage-dev'
+
+homepage = 'https://www.coin3d.org/simage/html'
+
+[[package]]
+channel = 'debian'
+name = 'libsimage-dev'

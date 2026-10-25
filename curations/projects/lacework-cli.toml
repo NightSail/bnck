@@ -1,0 +1,8 @@
+id = 'lacework-cli'
+name = 'lacework-cli'
+
+repository = 'https://github.com/lacework/go-sdk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lacework-cli'

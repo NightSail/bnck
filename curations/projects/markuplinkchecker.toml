@@ -1,0 +1,8 @@
+id = 'markuplinkchecker'
+name = 'markuplinkchecker'
+
+homepage = 'https://github.com/becheran/mlc'
+
+[[package]]
+channel = 'arch'
+name = 'markuplinkchecker'

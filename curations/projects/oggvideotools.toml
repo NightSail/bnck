@@ -1,0 +1,12 @@
+id = 'oggvideotools'
+name = 'oggvideotools'
+
+homepage = 'http://www.streamnik.de/oggvideotools.html'
+
+[[package]]
+channel = 'debian'
+name = 'oggvideotools'
+
+[[package]]
+channel = 'fedora'
+name = 'oggvideotools'

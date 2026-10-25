@@ -1,0 +1,20 @@
+id = 'pengutronix'
+name = 'pengutronix'
+
+homepage = 'https://www.pengutronix.de/en/software/labgrid.html'
+
+[[package]]
+channel = 'debian'
+name = 'labgrid-client'
+
+[[package]]
+channel = 'debian'
+name = 'labgrid-coordinator'
+
+[[package]]
+channel = 'debian'
+name = 'labgrid-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'labgrid-utils'

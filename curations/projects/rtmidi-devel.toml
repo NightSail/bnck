@@ -1,0 +1,8 @@
+id = 'rtmidi-devel'
+name = 'rtmidi-devel'
+
+homepage = 'https://www.music.mcgill.ca/~gary/rtmidi/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'rtmidi-devel'

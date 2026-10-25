@@ -1,0 +1,8 @@
+id = 'songwrite'
+name = 'songwrite'
+
+homepage = 'https://www.lesfleursdunormal.fr/static/informatique/songwrite/index_en.html'
+
+[[package]]
+channel = 'debian'
+name = 'songwrite'

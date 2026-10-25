@@ -1,0 +1,8 @@
+id = 'minised'
+name = 'minised'
+
+homepage = 'https://exactcode.com/opensource/minised'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minised'

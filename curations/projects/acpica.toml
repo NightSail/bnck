@@ -1,0 +1,21 @@
+id = 'acpica'
+name = 'acpica'
+
+homepage = 'https://acpica.org'
+repository = 'https://github.com/acpica/acpica.git'
+
+[[package]]
+channel = 'arch'
+name = 'acpica'
+
+[[package]]
+channel = 'debian'
+name = 'acpica-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'acpica-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/acpica'

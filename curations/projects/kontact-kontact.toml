@@ -1,0 +1,8 @@
+id = 'kontact-kontact'
+name = 'kontact'
+
+homepage = 'https://apps.kde.org/kontact'
+
+[[package]]
+channel = 'arch'
+name = 'kontact'

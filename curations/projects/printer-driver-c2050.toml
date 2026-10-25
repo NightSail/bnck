@@ -1,0 +1,8 @@
+id = 'printer-driver-c2050'
+name = 'printer-driver-c2050'
+
+homepage = 'http://www.prato.linux.it/~mnencia/lexmark2050'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-c2050'

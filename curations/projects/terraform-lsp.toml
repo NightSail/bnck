@@ -1,0 +1,8 @@
+id = 'terraform-lsp'
+name = 'terraform-lsp'
+
+repository = 'https://github.com/juliosueiras/terraform-lsp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-lsp'

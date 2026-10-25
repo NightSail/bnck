@@ -1,0 +1,8 @@
+id = 'kotofetch'
+name = 'kotofetch'
+
+homepage = 'https://github.com/hxpe-dev/kotofetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kotofetch'

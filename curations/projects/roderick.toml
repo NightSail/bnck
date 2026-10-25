@@ -1,0 +1,12 @@
+id = 'roderick'
+name = '~roderick'
+
+homepage = 'http://www.argon.org/~roderick'
+
+[[package]]
+channel = 'debian'
+name = 'ftp-upload'
+
+[[package]]
+channel = 'debian'
+name = 'mime-construct'

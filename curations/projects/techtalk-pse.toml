@@ -1,0 +1,8 @@
+id = 'techtalk-pse'
+name = 'techtalk-pse'
+
+homepage = 'http://git.annexia.org'
+
+[[package]]
+channel = 'fedora'
+name = 'techtalk-pse'

@@ -1,0 +1,8 @@
+id = 'wishbone-utils'
+name = 'wishbone-utils'
+
+homepage = 'https://github.com/litex-hub/wishbone-utils'
+
+[[package]]
+channel = 'arch'
+name = 'wishbone-utils'

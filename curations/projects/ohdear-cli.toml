@@ -1,0 +1,8 @@
+id = 'ohdear-cli'
+name = 'ohdear-cli'
+
+homepage = 'https://ohdear.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ohdear-cli'

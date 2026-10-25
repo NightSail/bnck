@@ -1,0 +1,12 @@
+id = 'bazelisk'
+name = 'bazelisk'
+
+repository = 'https://github.com/bazelbuild/bazelisk.git'
+
+[[package]]
+channel = 'arch'
+name = 'bazelisk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazelisk'

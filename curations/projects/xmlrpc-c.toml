@@ -1,0 +1,20 @@
+id = 'xmlrpc-c'
+name = 'xmlrpc-c'
+
+homepage = 'http://xmlrpc-c.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libxmlrpc-core-c3-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xmlrpc-api-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'xmlrpc-c-apps'
+
+[[package]]
+channel = 'fedora'
+name = 'xmlrpc-c-devel'

@@ -1,0 +1,8 @@
+id = 'dsmidiwifi'
+name = 'dsmidiwifi'
+
+homepage = 'http://dsmi.tobw.net'
+
+[[package]]
+channel = 'debian'
+name = 'dsmidiwifi'

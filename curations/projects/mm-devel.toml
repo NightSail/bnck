@@ -1,0 +1,8 @@
+id = 'mm-devel'
+name = 'mm-devel'
+
+homepage = 'http://www.ossp.org/pkg/lib/mm'
+
+[[package]]
+channel = 'fedora'
+name = 'mm-devel'

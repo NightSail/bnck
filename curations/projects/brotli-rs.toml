@@ -1,0 +1,8 @@
+id = 'brotli-rs'
+name = 'brotli-rs'
+
+homepage = 'https://github.com/dropbox/rust-brotli'
+
+[[package]]
+channel = 'debian'
+name = 'brotli-rs'

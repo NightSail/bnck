@@ -1,0 +1,12 @@
+id = 'xxhash-cespare'
+name = 'xxhash'
+
+homepage = 'https://github.com/cespare/xxhash'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cespare-xxhash'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cespare-xxhash2'

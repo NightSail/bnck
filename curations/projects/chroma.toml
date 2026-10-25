@@ -1,0 +1,20 @@
+id = 'chroma'
+name = 'chroma'
+
+homepage = 'https://github.com/alecthomas/chroma'
+
+[[package]]
+channel = 'debian'
+name = 'golang-chroma'
+
+[[package]]
+channel = 'debian'
+name = 'golang-chroma-v2'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-alecthomas-chroma'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-alecthomas-chroma-2'

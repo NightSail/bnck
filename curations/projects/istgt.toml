@@ -1,0 +1,8 @@
+id = 'istgt'
+name = 'istgt'
+
+homepage = 'http://www.peach.ne.jp/archives/istgt'
+
+[[package]]
+channel = 'debian'
+name = 'istgt'

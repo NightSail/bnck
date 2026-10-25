@@ -1,0 +1,8 @@
+id = 'openh264'
+name = 'openh264'
+
+homepage = 'https://www.openh264.org'
+
+[[package]]
+channel = 'arch'
+name = 'openh264'

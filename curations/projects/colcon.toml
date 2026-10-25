@@ -1,0 +1,12 @@
+id = 'colcon'
+name = 'colcon'
+
+homepage = 'https://colcon.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'colcon'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-colcon-core'

@@ -1,0 +1,10 @@
+id = 'pwauth'
+name = 'pwauth'
+
+[[package]]
+channel = 'debian'
+name = 'pwauth'
+
+[[package]]
+channel = 'fedora'
+name = 'pwauth'

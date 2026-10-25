@@ -1,0 +1,8 @@
+id = 'myrescue'
+name = 'myrescue'
+
+homepage = 'https://myrescue.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'myrescue'

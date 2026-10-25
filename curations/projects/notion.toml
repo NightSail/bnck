@@ -1,0 +1,12 @@
+id = 'notion'
+name = 'notion'
+
+homepage = 'https://notionwm.net'
+
+[[package]]
+channel = 'arch'
+name = 'notion'
+
+[[package]]
+channel = 'debian'
+name = 'notion'

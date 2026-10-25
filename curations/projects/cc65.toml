@@ -1,0 +1,21 @@
+id = 'cc65'
+name = 'cc65'
+
+homepage = 'https://cc65.github.io/cc65'
+repository = 'https://github.com/cc65/cc65.git'
+
+[[package]]
+channel = 'debian'
+name = 'cc65'
+
+[[package]]
+channel = 'fedora'
+name = 'cc65'
+
+[[package]]
+channel = 'fedora'
+name = 'cc65-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cc65'

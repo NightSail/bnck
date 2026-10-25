@@ -1,0 +1,8 @@
+id = 'tigr-glimmer'
+name = 'tigr-glimmer'
+
+homepage = 'http://ccb.jhu.edu/software/glimmer/index.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'tigr-glimmer'

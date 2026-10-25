@@ -1,0 +1,8 @@
+id = 'node-y-websocket'
+name = 'node-y-websocket'
+
+homepage = 'https://github.com/yjs/y-websocket'
+
+[[package]]
+channel = 'debian'
+name = 'node-y-websocket'

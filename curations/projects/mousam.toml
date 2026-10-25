@@ -1,0 +1,8 @@
+id = 'mousam'
+name = 'mousam'
+
+homepage = 'https://github.com/amit9838/mousam'
+
+[[package]]
+channel = 'debian'
+name = 'mousam'

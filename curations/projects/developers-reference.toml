@@ -1,0 +1,8 @@
+id = 'developers-reference'
+name = 'developers-reference'
+
+homepage = 'https://www.debian.org/doc/devel-manuals'
+
+[[package]]
+channel = 'debian'
+name = 'developers-reference'

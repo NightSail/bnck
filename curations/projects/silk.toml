@@ -1,0 +1,8 @@
+id = 'silk'
+name = 'silk'
+
+homepage = 'https://tools.netsa.cert.org/silk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/silk'

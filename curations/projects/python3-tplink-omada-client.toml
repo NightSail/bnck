@@ -1,0 +1,8 @@
+id = 'python3-tplink-omada-client'
+name = 'python3-tplink-omada-client'
+
+homepage = 'https://github.com/MarkGodwin/tplink-omada-api'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tplink-omada-client'

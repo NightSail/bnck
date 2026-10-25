@@ -1,0 +1,12 @@
+id = 'xssstate'
+name = 'xssstate'
+
+homepage = 'https://tools.suckless.org/x/xssstate'
+
+[[package]]
+channel = 'arch'
+name = 'xssstate'
+
+[[package]]
+channel = 'fedora'
+name = 'xssstate'

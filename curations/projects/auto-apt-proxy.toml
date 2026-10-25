@@ -1,0 +1,8 @@
+id = 'auto-apt-proxy'
+name = 'auto-apt-proxy'
+
+homepage = 'https://salsa.debian.org/debian/auto-apt-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'auto-apt-proxy'

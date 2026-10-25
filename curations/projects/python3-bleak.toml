@@ -1,0 +1,8 @@
+id = 'python3-bleak'
+name = 'python3-bleak'
+
+homepage = 'https://github.com/hbldh/bleak'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bleak'

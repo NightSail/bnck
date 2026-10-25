@@ -1,0 +1,12 @@
+id = 'grap'
+name = 'grap'
+
+homepage = 'https://www.lunabase.org/~faber/Vault/software/grap'
+
+[[package]]
+channel = 'debian'
+name = 'grap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grap'

@@ -1,0 +1,8 @@
+id = 'icecc-monitor'
+name = 'icecc-monitor'
+
+homepage = 'https://github.com/icecc/icemon'
+
+[[package]]
+channel = 'debian'
+name = 'icecc-monitor'

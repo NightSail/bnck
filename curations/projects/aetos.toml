@@ -1,0 +1,8 @@
+id = 'aetos'
+name = 'aetos'
+
+homepage = 'https://opendev.org/openstack/aetos'
+
+[[package]]
+channel = 'debian'
+name = 'aetos'

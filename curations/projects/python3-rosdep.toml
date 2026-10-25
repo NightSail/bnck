@@ -1,0 +1,8 @@
+id = 'python3-rosdep'
+name = 'python3-rosdep'
+
+homepage = 'http://ros.org/wiki/rosdep'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rosdep'

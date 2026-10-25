@@ -1,0 +1,12 @@
+id = 'apt-swarm'
+name = 'apt-swarm'
+
+homepage = 'https://github.com/kpcyrd/apt-swarm'
+
+[[package]]
+channel = 'arch'
+name = 'apt-swarm'
+
+[[package]]
+channel = 'debian'
+name = 'apt-swarm'

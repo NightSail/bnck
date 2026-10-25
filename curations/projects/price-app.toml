@@ -1,0 +1,8 @@
+id = 'price-app'
+name = 'price.app'
+
+homepage = 'http://price.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'price.app'

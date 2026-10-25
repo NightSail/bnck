@@ -1,0 +1,12 @@
+id = 'cosmic-app-library'
+name = 'cosmic-app-library'
+
+homepage = 'https://github.com/pop-os/cosmic-applibrary'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-app-library'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-app-library'

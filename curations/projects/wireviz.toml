@@ -1,0 +1,8 @@
+id = 'wireviz'
+name = 'wireviz'
+
+homepage = 'https://github.com/WireViz/wireviz'
+
+[[package]]
+channel = 'debian'
+name = 'wireviz'

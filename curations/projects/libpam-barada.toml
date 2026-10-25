@@ -1,0 +1,8 @@
+id = 'libpam-barada'
+name = 'libpam-barada'
+
+homepage = 'https://barada.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-barada'

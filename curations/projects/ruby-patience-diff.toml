@@ -1,0 +1,8 @@
+id = 'ruby-patience-diff'
+name = 'ruby-patience_diff'
+
+homepage = 'https://github.com/watt/ruby_patience_diff'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-patience_diff'

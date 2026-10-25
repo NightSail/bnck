@@ -1,0 +1,12 @@
+id = 'open-source'
+name = 'open-source'
+
+homepage = 'https://www.tuxera.com/company/open-source'
+
+[[package]]
+channel = 'fedora'
+name = 'ntfs-3g'
+
+[[package]]
+channel = 'fedora'
+name = 'ntfsprogs'

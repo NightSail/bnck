@@ -1,0 +1,9 @@
+id = 'modflow6'
+name = 'modflow6'
+
+homepage = 'https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model'
+repository = 'https://github.com/MODFLOW-ORG/modflow6.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/modflow6'

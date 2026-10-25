@@ -1,0 +1,12 @@
+id = 'go-l2tp'
+name = 'go-l2tp'
+
+homepage = 'https://github.com/katalix/go-l2tp'
+
+[[package]]
+channel = 'debian'
+name = 'go-l2tp'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-katalix-l2tp'

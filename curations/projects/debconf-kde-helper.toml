@@ -1,0 +1,6 @@
+id = 'debconf-kde-helper'
+name = 'debconf-kde-helper'
+
+[[package]]
+channel = 'debian'
+name = 'debconf-kde-helper'

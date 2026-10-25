@@ -1,0 +1,8 @@
+id = 'triangle'
+name = 'triangle'
+
+homepage = 'https://github.com/esimov/triangle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/triangle'

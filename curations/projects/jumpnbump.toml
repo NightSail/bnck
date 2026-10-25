@@ -1,0 +1,12 @@
+id = 'jumpnbump'
+name = 'jumpnbump'
+
+homepage = 'https://gitlab.com/LibreGames/jumpnbump'
+
+[[package]]
+channel = 'fedora'
+name = 'jumpnbump'
+
+[[package]]
+channel = 'fedora'
+name = 'jumpnbump-menu'

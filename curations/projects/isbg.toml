@@ -1,0 +1,8 @@
+id = 'isbg'
+name = 'isbg'
+
+homepage = 'https://gitlab.com/isbg/isbg'
+
+[[package]]
+channel = 'debian'
+name = 'isbg'

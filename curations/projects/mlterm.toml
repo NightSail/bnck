@@ -1,0 +1,16 @@
+id = 'mlterm'
+name = 'mlterm'
+
+homepage = 'https://mlterm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mlterm'
+
+[[package]]
+channel = 'debian'
+name = 'mlterm-tiny'
+
+[[package]]
+channel = 'debian'
+name = 'mlterm-tools'

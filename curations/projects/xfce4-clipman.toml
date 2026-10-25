@@ -1,0 +1,8 @@
+id = 'xfce4-clipman'
+name = 'xfce4-clipman'
+
+homepage = 'https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-clipman'

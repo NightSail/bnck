@@ -1,0 +1,6 @@
+id = 'ocp'
+name = 'ocp'
+
+[[package]]
+channel = 'fedora'
+name = 'ocp'

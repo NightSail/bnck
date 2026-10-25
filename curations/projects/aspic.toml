@@ -1,0 +1,8 @@
+id = 'aspic'
+name = 'aspic'
+
+homepage = 'https://github.com/PhilipHazel/aspic'
+
+[[package]]
+channel = 'debian'
+name = 'aspic'

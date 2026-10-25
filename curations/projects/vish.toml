@@ -1,0 +1,8 @@
+id = 'vish'
+name = 'vish'
+
+homepage = 'http://www.librevisa.org'
+
+[[package]]
+channel = 'debian'
+name = 'vish'

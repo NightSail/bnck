@@ -1,0 +1,8 @@
+id = 'detach'
+name = 'detach'
+
+homepage = 'https://inglorion.net/software/detach'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/detach'

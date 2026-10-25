@@ -1,0 +1,9 @@
+id = 'mariadb-connector-c'
+name = 'mariadb-connector-c'
+
+homepage = 'https://mariadb.org/download'
+repository = 'https://github.com/mariadb-corporation/mariadb-connector-c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb-connector-c'

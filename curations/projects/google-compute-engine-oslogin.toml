@@ -1,0 +1,12 @@
+id = 'google-compute-engine-oslogin'
+name = 'google-compute-engine-oslogin'
+
+homepage = 'https://cloud.google.com'
+
+[[package]]
+channel = 'debian'
+name = 'google-compute-engine-oslogin'
+
+[[package]]
+channel = 'fedora'
+name = 'google-compute-engine-oslogin'

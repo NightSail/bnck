@@ -1,0 +1,12 @@
+id = 'nullmailer'
+name = 'nullmailer'
+
+homepage = 'https://www.untroubled.org/nullmailer'
+
+[[package]]
+channel = 'arch'
+name = 'nullmailer'
+
+[[package]]
+channel = 'debian'
+name = 'nullmailer'

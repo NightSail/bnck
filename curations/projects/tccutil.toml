@@ -1,0 +1,8 @@
+id = 'tccutil'
+name = 'tccutil'
+
+repository = 'https://github.com/jacobsalmela/tccutil.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tccutil'

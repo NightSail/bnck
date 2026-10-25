@@ -1,0 +1,8 @@
+id = 'voctomix-outcasts'
+name = 'voctomix-outcasts'
+
+homepage = 'https://github.com/CarlFK/voctomix-outcasts'
+
+[[package]]
+channel = 'debian'
+name = 'voctomix-outcasts'

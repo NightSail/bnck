@@ -1,0 +1,8 @@
+id = 'freephone'
+name = 'freephone'
+
+homepage = 'https://github.com/poretsky/freespeech'
+
+[[package]]
+channel = 'debian'
+name = 'freephone'

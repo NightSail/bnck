@@ -1,0 +1,12 @@
+id = 'opencascade'
+name = 'opencascade'
+
+homepage = 'https://dev.opencascade.org'
+
+[[package]]
+channel = 'arch'
+name = 'opencascade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencascade'

@@ -1,0 +1,8 @@
+id = 'moraine'
+name = 'moraine'
+
+homepage = 'https://github.com/TheJonaz/moraine-backup'
+
+[[package]]
+channel = 'debian'
+name = 'moraine'

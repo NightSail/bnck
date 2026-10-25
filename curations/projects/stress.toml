@@ -1,0 +1,20 @@
+id = 'stress'
+name = 'stress'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/stress'
+
+[[package]]
+channel = 'arch'
+name = 'stress'
+
+[[package]]
+channel = 'debian'
+name = 'stress'
+
+[[package]]
+channel = 'fedora'
+name = 'stress'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stress'

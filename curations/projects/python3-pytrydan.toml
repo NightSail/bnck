@@ -1,0 +1,8 @@
+id = 'python3-pytrydan'
+name = 'python3-pytrydan'
+
+homepage = 'https://github.com/dgomes/pytrydan'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pytrydan'

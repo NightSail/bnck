@@ -1,0 +1,16 @@
+id = 'tokenize-rt'
+name = 'tokenize-rt'
+
+homepage = 'https://github.com/asottile/tokenize-rt'
+
+[[package]]
+channel = 'arch'
+name = 'python-tokenize-rt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tokenize-rt'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tokenize-rt'

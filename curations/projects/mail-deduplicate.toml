@@ -1,0 +1,9 @@
+id = 'mail-deduplicate'
+name = 'mail-deduplicate'
+
+homepage = 'https://kdeldycke.github.io/mail-deduplicate'
+repository = 'https://github.com/kdeldycke/mail-deduplicate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mail-deduplicate'

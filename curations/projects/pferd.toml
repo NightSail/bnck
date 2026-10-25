@@ -1,0 +1,8 @@
+id = 'pferd'
+name = 'pferd'
+
+homepage = 'https://github.com/Garmelon/PFERD'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pferd'

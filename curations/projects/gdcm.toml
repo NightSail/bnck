@@ -1,0 +1,12 @@
+id = 'gdcm'
+name = 'gdcm'
+
+homepage = 'https://sourceforge.net/projects/gdcm'
+
+[[package]]
+channel = 'fedora'
+name = 'gdcm-applications'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdcm'

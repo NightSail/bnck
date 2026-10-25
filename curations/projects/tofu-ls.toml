@@ -1,0 +1,9 @@
+id = 'tofu-ls'
+name = 'tofu-ls'
+
+homepage = 'https://opentofu.org'
+repository = 'https://github.com/opentofu/tofu-ls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tofu-ls'

@@ -1,0 +1,12 @@
+id = 'trezor-agent'
+name = 'trezor-agent'
+
+homepage = 'https://github.com/romanz/trezor-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keepkey-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trezor-agent'

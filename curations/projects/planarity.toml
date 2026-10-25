@@ -1,0 +1,16 @@
+id = 'planarity'
+name = 'planarity'
+
+homepage = 'https://github.com/graph-algorithms/edge-addition-planarity-suite'
+
+[[package]]
+channel = 'arch'
+name = 'planarity'
+
+[[package]]
+channel = 'debian'
+name = 'planarity'
+
+[[package]]
+channel = 'fedora'
+name = 'planarity'

@@ -1,0 +1,16 @@
+id = 'kshutdown'
+name = 'kshutdown'
+
+homepage = 'https://kshutdown.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'kshutdown'
+
+[[package]]
+channel = 'debian'
+name = 'kshutdown'
+
+[[package]]
+channel = 'fedora'
+name = 'kshutdown'

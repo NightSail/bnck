@@ -1,0 +1,8 @@
+id = 'tuxguitar'
+name = 'tuxguitar'
+
+homepage = 'https://www.tuxguitar.app'
+
+[[package]]
+channel = 'debian'
+name = 'tuxguitar'

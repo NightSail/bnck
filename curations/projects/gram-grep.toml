@@ -1,0 +1,8 @@
+id = 'gram-grep'
+name = 'gram_grep'
+
+homepage = 'https://github.com/BenHanson/gram_grep'
+
+[[package]]
+channel = 'fedora'
+name = 'gram_grep'

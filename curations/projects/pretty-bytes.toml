@@ -1,0 +1,8 @@
+id = 'pretty-bytes'
+name = 'pretty-bytes'
+
+homepage = 'https://crates.io/crates/pretty-bytes'
+
+[[package]]
+channel = 'fedora'
+name = 'pretty-bytes'

@@ -1,0 +1,33 @@
+id = 'valkey'
+name = 'valkey'
+
+homepage = 'https://valkey.io'
+repository = 'https://github.com/valkey-io/valkey.git'
+
+[[package]]
+channel = 'arch'
+name = 'valkey'
+
+[[package]]
+channel = 'debian'
+name = 'valkey-sentinel'
+
+[[package]]
+channel = 'debian'
+name = 'valkey-server'
+
+[[package]]
+channel = 'debian'
+name = 'valkey-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'valkey'
+
+[[package]]
+channel = 'fedora'
+name = 'valkey-compat-redis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/valkey'

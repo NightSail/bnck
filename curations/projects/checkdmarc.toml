@@ -1,0 +1,9 @@
+id = 'checkdmarc'
+name = 'checkdmarc'
+
+homepage = 'https://domainaware.github.io/checkdmarc'
+repository = 'https://github.com/domainaware/checkdmarc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checkdmarc'

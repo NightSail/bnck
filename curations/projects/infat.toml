@@ -1,0 +1,8 @@
+id = 'infat'
+name = 'infat'
+
+repository = 'https://github.com/philocalyst/infat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/infat'

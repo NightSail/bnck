@@ -1,0 +1,8 @@
+id = 'node-replace-in-file'
+name = 'node-replace-in-file'
+
+homepage = 'https://github.com/adamreisnz/replace-in-file'
+
+[[package]]
+channel = 'debian'
+name = 'node-replace-in-file'

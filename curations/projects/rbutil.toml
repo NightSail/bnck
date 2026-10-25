@@ -1,0 +1,8 @@
+id = 'rbutil'
+name = 'rbutil'
+
+homepage = 'https://www.rockbox.org/twiki/bin/view/Main/RockboxUtility'
+
+[[package]]
+channel = 'arch'
+name = 'rbutil'

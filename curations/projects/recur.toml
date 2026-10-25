@@ -1,0 +1,8 @@
+id = 'recur'
+name = 'recur'
+
+homepage = 'https://github.com/dbohdan/recur'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recur'

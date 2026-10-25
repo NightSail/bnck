@@ -1,0 +1,12 @@
+id = 'uefitool'
+name = 'uefitool'
+
+homepage = 'https://github.com/LongSoft/UEFITool'
+
+[[package]]
+channel = 'debian'
+name = 'uefitool'
+
+[[package]]
+channel = 'debian'
+name = 'uefitool-cli'

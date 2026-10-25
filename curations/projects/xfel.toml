@@ -1,0 +1,8 @@
+id = 'xfel'
+name = 'xfel'
+
+homepage = 'https://github.com/xboot/xfel'
+
+[[package]]
+channel = 'debian'
+name = 'xfel'

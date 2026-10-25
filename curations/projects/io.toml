@@ -1,0 +1,9 @@
+id = 'io'
+name = 'io'
+
+homepage = 'http://iolanguage.com'
+repository = 'https://github.com/IoLanguage/io.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/io'

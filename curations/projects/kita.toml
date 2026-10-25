@@ -1,0 +1,8 @@
+id = 'kita'
+name = 'kita'
+
+homepage = 'http://sourceforge.jp/projects/kita'
+
+[[package]]
+channel = 'fedora'
+name = 'kita'

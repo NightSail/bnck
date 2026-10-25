@@ -1,0 +1,16 @@
+id = 'phosh'
+name = 'phosh'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/phosh'
+
+[[package]]
+channel = 'arch'
+name = 'phosh'
+
+[[package]]
+channel = 'debian'
+name = 'phosh'
+
+[[package]]
+channel = 'fedora'
+name = 'phosh'

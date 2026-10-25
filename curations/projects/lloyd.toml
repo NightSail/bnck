@@ -1,0 +1,12 @@
+id = 'lloyd'
+name = 'lloyd'
+
+homepage = 'https://lloyd.github.io/yajl'
+
+[[package]]
+channel = 'debian'
+name = 'yajl-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yajl'

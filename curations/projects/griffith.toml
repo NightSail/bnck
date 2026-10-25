@@ -1,0 +1,8 @@
+id = 'griffith'
+name = 'griffith'
+
+homepage = 'https://gitlab.com/Strit/griffith'
+
+[[package]]
+channel = 'arch'
+name = 'griffith'

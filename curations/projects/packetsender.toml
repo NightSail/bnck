@@ -1,0 +1,8 @@
+id = 'packetsender'
+name = 'packetsender'
+
+homepage = 'https://packetsender.com'
+
+[[package]]
+channel = 'debian'
+name = 'packetsender'

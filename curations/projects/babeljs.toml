@@ -1,0 +1,24 @@
+id = 'babeljs'
+name = 'babeljs'
+
+homepage = 'https://babeljs.io'
+
+[[package]]
+channel = 'arch'
+name = 'babel-cli'
+
+[[package]]
+channel = 'debian'
+name = 'babel-minify'
+
+[[package]]
+channel = 'debian'
+name = 'node-babel7'
+
+[[package]]
+channel = 'debian'
+name = 'node-babylon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/babel'

@@ -1,0 +1,8 @@
+id = 'dgen-sdl'
+name = 'dgen-sdl'
+
+homepage = 'https://dgen.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'dgen-sdl'

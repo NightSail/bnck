@@ -1,0 +1,12 @@
+id = 'qcomicbook'
+name = 'qcomicbook'
+
+homepage = 'http://github.com/stolowski/QComicBook'
+
+[[package]]
+channel = 'debian'
+name = 'qcomicbook'
+
+[[package]]
+channel = 'fedora'
+name = 'qcomicbook'

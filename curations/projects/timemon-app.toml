@@ -1,0 +1,8 @@
+id = 'timemon-app'
+name = 'timemon.app'
+
+homepage = 'https://www.nongnu.org/gap/timemon/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'timemon.app'

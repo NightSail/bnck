@@ -1,0 +1,8 @@
+id = 'plover'
+name = 'plover'
+
+homepage = 'https://www.openstenoproject.org/plover'
+
+[[package]]
+channel = 'debian'
+name = 'plover'

@@ -1,0 +1,12 @@
+id = 'kcmutils'
+name = 'kcmutils'
+
+homepage = 'https://invent.kde.org/frameworks/kcmutils'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6kcmutils-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kcmutils'

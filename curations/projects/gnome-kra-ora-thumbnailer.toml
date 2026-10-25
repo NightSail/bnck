@@ -1,0 +1,8 @@
+id = 'gnome-kra-ora-thumbnailer'
+name = 'gnome-kra-ora-thumbnailer'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-kra-ora-thumbnailer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-kra-ora-thumbnailer'

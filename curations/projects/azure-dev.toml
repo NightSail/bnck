@@ -1,0 +1,9 @@
+id = 'azure-dev'
+name = 'azure-dev'
+
+homepage = 'https://aka.ms/azd'
+repository = 'https://github.com/Azure/azure-dev.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azure-dev'

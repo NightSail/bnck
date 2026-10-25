@@ -1,0 +1,12 @@
+id = 'electric'
+name = 'electric'
+
+homepage = 'https://electric-sql.com'
+
+[[package]]
+channel = 'debian'
+name = 'electric'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/electric'

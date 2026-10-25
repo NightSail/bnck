@@ -1,0 +1,9 @@
+id = 'pkgsite'
+name = 'pkgsite'
+
+homepage = 'https://pkg.go.dev/golang.org/x/pkgsite'
+repository = 'https://go.googlesource.com/pkgsite.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkgsite'

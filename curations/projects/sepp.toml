@@ -1,0 +1,8 @@
+id = 'sepp'
+name = 'sepp'
+
+homepage = 'https://github.com/smirarab/sepp'
+
+[[package]]
+channel = 'debian'
+name = 'sepp'

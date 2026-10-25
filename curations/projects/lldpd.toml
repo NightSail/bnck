@@ -1,0 +1,20 @@
+id = 'lldpd'
+name = 'lldpd'
+
+homepage = 'https://lldpd.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'lldpd'
+
+[[package]]
+channel = 'debian'
+name = 'lldpd'
+
+[[package]]
+channel = 'fedora'
+name = 'lldpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lldpd'

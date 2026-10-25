@@ -1,0 +1,12 @@
+id = 'misfortune'
+name = 'misfortune'
+
+homepage = 'https://github.com/ncfavier/misfortune'
+
+[[package]]
+channel = 'arch'
+name = 'misfortune'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-misfortune'

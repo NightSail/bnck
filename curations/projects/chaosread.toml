@@ -1,0 +1,8 @@
+id = 'chaosread'
+name = 'chaosread'
+
+homepage = 'http://chaoskey.org'
+
+[[package]]
+channel = 'debian'
+name = 'chaosread'

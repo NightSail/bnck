@@ -1,0 +1,25 @@
+id = 'radvd'
+name = 'radvd'
+
+homepage = 'https://www.litech.org/radvd'
+repository = 'https://github.com/radvd-project/radvd.git'
+
+[[package]]
+channel = 'arch'
+name = 'radvd'
+
+[[package]]
+channel = 'debian'
+name = 'radvd'
+
+[[package]]
+channel = 'debian'
+name = 'radvdump'
+
+[[package]]
+channel = 'fedora'
+name = 'radvd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/radvd'

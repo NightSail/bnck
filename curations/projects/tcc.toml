@@ -1,0 +1,17 @@
+id = 'tcc'
+name = 'tcc'
+
+homepage = 'https://bellard.org/tcc'
+repository = 'https://repo.or.cz/tinycc.git'
+
+[[package]]
+channel = 'arch'
+name = 'tcc'
+
+[[package]]
+channel = 'debian'
+name = 'tcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcc'

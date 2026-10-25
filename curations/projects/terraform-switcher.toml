@@ -1,0 +1,8 @@
+id = 'terraform-switcher'
+name = 'terraform-switcher'
+
+homepage = 'https://github.com/warrensbox/terraform-switcher'
+
+[[package]]
+channel = 'debian'
+name = 'terraform-switcher'

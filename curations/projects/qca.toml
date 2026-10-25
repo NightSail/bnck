@@ -1,0 +1,33 @@
+id = 'qca'
+name = 'qca'
+
+homepage = 'https://userbase.kde.org/QCA'
+repository = 'https://invent.kde.org/libraries/qca.git'
+
+[[package]]
+channel = 'arch'
+name = 'qca-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'qca-qt5-2-utils'
+
+[[package]]
+channel = 'debian'
+name = 'qca-qt6-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'qca'
+
+[[package]]
+channel = 'fedora'
+name = 'qca-qt5'
+
+[[package]]
+channel = 'fedora'
+name = 'qca-qt6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qca'

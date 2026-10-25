@@ -4,5 +4,21 @@ name = 'ng'
 homepage = 'https://angular.dev/cli'
 
 [[package]]
+channel = 'debian'
+name = 'ng-cjk'
+
+[[package]]
+channel = 'debian'
+name = 'ng-cjk-canna'
+
+[[package]]
+channel = 'debian'
+name = 'ng-common'
+
+[[package]]
+channel = 'debian'
+name = 'ng-latin'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/angular-cli'

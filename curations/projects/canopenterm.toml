@@ -1,0 +1,8 @@
+id = 'canopenterm'
+name = 'canopenterm'
+
+homepage = 'https://canopenterm.de'
+
+[[package]]
+channel = 'debian'
+name = 'canopenterm'

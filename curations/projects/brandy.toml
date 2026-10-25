@@ -1,0 +1,8 @@
+id = 'brandy'
+name = 'brandy'
+
+homepage = 'https://brandy.matrixnetwork.co.uk'
+
+[[package]]
+channel = 'debian'
+name = 'brandy'

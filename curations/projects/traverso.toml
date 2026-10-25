@@ -1,0 +1,10 @@
+id = 'traverso'
+name = 'traverso'
+
+[[package]]
+channel = 'debian'
+name = 'traverso'
+
+[[package]]
+channel = 'fedora'
+name = 'traverso'

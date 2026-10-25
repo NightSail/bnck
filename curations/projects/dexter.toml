@@ -1,0 +1,8 @@
+id = 'dexter'
+name = 'dexter'
+
+homepage = 'https://github.com/ankane/dexter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dexter'

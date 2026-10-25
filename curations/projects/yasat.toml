@@ -1,0 +1,8 @@
+id = 'yasat'
+name = 'yasat'
+
+homepage = 'http://yasat.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'yasat'

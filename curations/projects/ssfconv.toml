@@ -1,0 +1,12 @@
+id = 'ssfconv'
+name = 'ssfconv'
+
+homepage = 'https://www.fkxxyz.com/d/ssfconv'
+
+[[package]]
+channel = 'arch'
+name = 'ssfconv'
+
+[[package]]
+channel = 'debian'
+name = 'ssfconv'

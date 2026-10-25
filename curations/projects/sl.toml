@@ -4,6 +4,10 @@ name = 'sl'
 repository = 'https://github.com/mtoyoda/sl'
 
 [[package]]
+channel = 'arch'
+name = 'sl'
+
+[[package]]
 channel = 'fedora'
 name = 'sl'
 

@@ -1,0 +1,21 @@
+id = 'ccache'
+name = 'ccache'
+
+homepage = 'https://ccache.dev'
+repository = 'https://github.com/ccache/ccache.git'
+
+[[package]]
+channel = 'arch'
+name = 'ccache'
+
+[[package]]
+channel = 'debian'
+name = 'ccache'
+
+[[package]]
+channel = 'fedora'
+name = 'ccache'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccache'

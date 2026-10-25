@@ -1,0 +1,300 @@
+id = 'mate-desktop'
+name = 'mate-desktop'
+
+homepage = 'https://mate-desktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'atril'
+
+[[package]]
+channel = 'arch'
+name = 'caja'
+
+[[package]]
+channel = 'arch'
+name = 'caja-actions'
+
+[[package]]
+channel = 'arch'
+name = 'caja-sendto'
+
+[[package]]
+channel = 'arch'
+name = 'engrampa'
+
+[[package]]
+channel = 'arch'
+name = 'eom'
+
+[[package]]
+channel = 'arch'
+name = 'marco'
+
+[[package]]
+channel = 'arch'
+name = 'mate-applets'
+
+[[package]]
+channel = 'arch'
+name = 'mate-calc'
+
+[[package]]
+channel = 'arch'
+name = 'mate-control-center'
+
+[[package]]
+channel = 'arch'
+name = 'mate-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'mate-media'
+
+[[package]]
+channel = 'arch'
+name = 'mate-netbook'
+
+[[package]]
+channel = 'arch'
+name = 'mate-notification-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'mate-panel'
+
+[[package]]
+channel = 'arch'
+name = 'mate-power-manager'
+
+[[package]]
+channel = 'arch'
+name = 'mate-screensaver'
+
+[[package]]
+channel = 'arch'
+name = 'mate-session-manager'
+
+[[package]]
+channel = 'arch'
+name = 'mate-system-monitor'
+
+[[package]]
+channel = 'arch'
+name = 'mate-terminal'
+
+[[package]]
+channel = 'arch'
+name = 'mate-user-share'
+
+[[package]]
+channel = 'arch'
+name = 'mate-utils'
+
+[[package]]
+channel = 'arch'
+name = 'mozo'
+
+[[package]]
+channel = 'arch'
+name = 'pluma'
+
+[[package]]
+channel = 'debian'
+name = 'atril'
+
+[[package]]
+channel = 'debian'
+name = 'caja'
+
+[[package]]
+channel = 'debian'
+name = 'caja-sendto'
+
+[[package]]
+channel = 'debian'
+name = 'engrampa'
+
+[[package]]
+channel = 'debian'
+name = 'eom'
+
+[[package]]
+channel = 'debian'
+name = 'marco'
+
+[[package]]
+channel = 'debian'
+name = 'mate-applets'
+
+[[package]]
+channel = 'debian'
+name = 'mate-calc'
+
+[[package]]
+channel = 'debian'
+name = 'mate-common'
+
+[[package]]
+channel = 'debian'
+name = 'mate-control-center'
+
+[[package]]
+channel = 'debian'
+name = 'mate-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'mate-media'
+
+[[package]]
+channel = 'debian'
+name = 'mate-netbook'
+
+[[package]]
+channel = 'debian'
+name = 'mate-notification-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'mate-panel'
+
+[[package]]
+channel = 'debian'
+name = 'mate-polkit-bin'
+
+[[package]]
+channel = 'debian'
+name = 'mate-power-manager'
+
+[[package]]
+channel = 'debian'
+name = 'mate-screensaver'
+
+[[package]]
+channel = 'debian'
+name = 'mate-session-manager'
+
+[[package]]
+channel = 'debian'
+name = 'mate-system-monitor'
+
+[[package]]
+channel = 'debian'
+name = 'mate-terminal'
+
+[[package]]
+channel = 'debian'
+name = 'mate-user-share'
+
+[[package]]
+channel = 'debian'
+name = 'mate-utils'
+
+[[package]]
+channel = 'debian'
+name = 'mozo'
+
+[[package]]
+channel = 'debian'
+name = 'pluma'
+
+[[package]]
+channel = 'fedora'
+name = 'atril'
+
+[[package]]
+channel = 'fedora'
+name = 'caja'
+
+[[package]]
+channel = 'fedora'
+name = 'caja-sendto'
+
+[[package]]
+channel = 'fedora'
+name = 'engrampa'
+
+[[package]]
+channel = 'fedora'
+name = 'eom'
+
+[[package]]
+channel = 'fedora'
+name = 'marco'
+
+[[package]]
+channel = 'fedora'
+name = 'marco-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-applets'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-calc'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-common'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-control-center'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-dictionary'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-disk-image-mounter'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-disk-usage-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-media'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-notification-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-panel'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-screenshot'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-search-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-system-log'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-system-monitor'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'mozo'
+
+[[package]]
+channel = 'fedora'
+name = 'pluma'

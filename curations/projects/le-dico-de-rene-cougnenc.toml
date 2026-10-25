@@ -1,0 +1,6 @@
+id = 'le-dico-de-rene-cougnenc'
+name = 'le-dico-de-rene-cougnenc'
+
+[[package]]
+channel = 'debian'
+name = 'le-dico-de-rene-cougnenc'

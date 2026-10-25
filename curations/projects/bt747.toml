@@ -1,0 +1,8 @@
+id = 'bt747'
+name = 'bt747'
+
+homepage = 'https://www.bt747.org'
+
+[[package]]
+channel = 'arch'
+name = 'bt747'

@@ -1,0 +1,8 @@
+id = 'cargo2rpm'
+name = 'cargo2rpm'
+
+homepage = 'https://pagure.io/fedora-rust/cargo2rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo2rpm'

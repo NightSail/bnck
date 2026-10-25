@@ -1,0 +1,12 @@
+id = 'kdepim-addons'
+name = 'kdepim-addons'
+
+homepage = 'https://invent.kde.org/pim/kdepim-addons'
+
+[[package]]
+channel = 'debian'
+name = 'kdepim-addons'
+
+[[package]]
+channel = 'fedora'
+name = 'kdepim-addons'

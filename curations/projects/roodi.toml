@@ -1,0 +1,8 @@
+id = 'roodi'
+name = 'roodi'
+
+homepage = 'https://github.com/roodi/roodi'
+
+[[package]]
+channel = 'debian'
+name = 'roodi'

@@ -1,0 +1,8 @@
+id = 'libmemory-usage-perl'
+name = 'libmemory-usage-perl'
+
+homepage = 'https://metacpan.org/release/Memory-Usage'
+
+[[package]]
+channel = 'debian'
+name = 'libmemory-usage-perl'

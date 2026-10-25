@@ -1,0 +1,9 @@
+id = 'carrot2'
+name = 'carrot2'
+
+homepage = 'https://search.carrot2.org'
+repository = 'https://github.com/carrot2/carrot2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/carrot2'

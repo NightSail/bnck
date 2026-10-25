@@ -1,0 +1,8 @@
+id = 'binfmt-dispatcher'
+name = 'binfmt-dispatcher'
+
+homepage = 'https://crates.io/crates/binfmt-dispatcher'
+
+[[package]]
+channel = 'fedora'
+name = 'binfmt-dispatcher'

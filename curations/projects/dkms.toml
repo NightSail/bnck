@@ -1,0 +1,12 @@
+id = 'dkms'
+name = 'dkms'
+
+homepage = 'https://github.com/dell/dkms'
+
+[[package]]
+channel = 'debian'
+name = 'dh-dkms'
+
+[[package]]
+channel = 'debian'
+name = 'dkms'

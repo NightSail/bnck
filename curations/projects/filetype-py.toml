@@ -1,0 +1,16 @@
+id = 'filetype-py'
+name = 'filetype.py'
+
+homepage = 'https://github.com/h2non/filetype.py'
+
+[[package]]
+channel = 'arch'
+name = 'python-filetype'
+
+[[package]]
+channel = 'debian'
+name = 'python3-filetype'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-filetype'

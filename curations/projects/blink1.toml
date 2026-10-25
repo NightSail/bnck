@@ -1,0 +1,9 @@
+id = 'blink1'
+name = 'blink1'
+
+homepage = 'https://blink1.thingm.com'
+repository = 'https://github.com/todbot/blink1-tool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blink1'

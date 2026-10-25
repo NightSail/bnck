@@ -1,0 +1,8 @@
+id = 'opgpcard'
+name = 'opgpcard'
+
+homepage = 'https://github.com/juga0/opgpcard'
+
+[[package]]
+channel = 'debian'
+name = 'opgpcard'

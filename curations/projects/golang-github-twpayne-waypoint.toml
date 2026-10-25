@@ -1,0 +1,8 @@
+id = 'golang-github-twpayne-waypoint'
+name = 'golang-github-twpayne-waypoint'
+
+homepage = 'https://github.com/twpayne/go-waypoint'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-twpayne-waypoint'

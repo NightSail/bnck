@@ -1,0 +1,16 @@
+id = 'go-toml'
+name = 'go-toml'
+
+homepage = 'https://github.com/pelletier/go-toml'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-pelletier-go-toml'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pelletier-toml'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pelletier-toml-2'

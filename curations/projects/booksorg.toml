@@ -1,0 +1,8 @@
+id = 'booksorg'
+name = 'booksorg'
+
+homepage = 'https://github.com/zakariakov/booksorg'
+
+[[package]]
+channel = 'fedora'
+name = 'booksorg'

@@ -1,0 +1,8 @@
+id = 'excel-compare'
+name = 'excel-compare'
+
+homepage = 'https://github.com/na-ka-na/ExcelCompare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/excel-compare'

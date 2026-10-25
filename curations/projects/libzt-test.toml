@@ -1,0 +1,8 @@
+id = 'libzt-test'
+name = 'libzt-test'
+
+homepage = 'https://github.com/zyga/libzt'
+
+[[package]]
+channel = 'debian'
+name = 'libzt-test'

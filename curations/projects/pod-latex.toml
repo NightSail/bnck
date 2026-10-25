@@ -1,0 +1,12 @@
+id = 'pod-latex'
+name = 'Pod-LaTeX'
+
+homepage = 'https://metacpan.org/release/Pod-LaTeX'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-latex-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-LaTeX'

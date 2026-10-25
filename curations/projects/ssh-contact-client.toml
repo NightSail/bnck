@@ -1,0 +1,8 @@
+id = 'ssh-contact-client'
+name = 'ssh-contact-client'
+
+homepage = 'http://telepathy.freedesktop.org/wiki/SSH-Contact'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-contact-client'

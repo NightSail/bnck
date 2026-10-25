@@ -1,0 +1,16 @@
+id = 'wp-cli'
+name = 'wp-cli'
+
+homepage = 'https://wp-cli.org'
+
+[[package]]
+channel = 'arch'
+name = 'wp-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'wp-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wp-cli'

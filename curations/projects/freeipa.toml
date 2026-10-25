@@ -1,0 +1,44 @@
+id = 'freeipa'
+name = 'freeipa'
+
+homepage = 'http://www.freeipa.org'
+
+[[package]]
+channel = 'debian'
+name = 'freeipa-client'
+
+[[package]]
+channel = 'debian'
+name = 'freeipa-client-epn'
+
+[[package]]
+channel = 'debian'
+name = 'freeipa-client-samba'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-client'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-client-epn'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-client-samba'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-server'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-server-dns'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-server-trust-ad'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ipatests'

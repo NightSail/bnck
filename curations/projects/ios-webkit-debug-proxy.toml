@@ -1,0 +1,8 @@
+id = 'ios-webkit-debug-proxy'
+name = 'ios-webkit-debug-proxy'
+
+repository = 'https://github.com/google/ios-webkit-debug-proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ios-webkit-debug-proxy'

@@ -1,0 +1,8 @@
+id = 'plink2'
+name = 'plink2'
+
+homepage = 'https://www.cog-genomics.org/plink/2.0'
+
+[[package]]
+channel = 'debian'
+name = 'plink2'

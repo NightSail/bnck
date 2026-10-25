@@ -1,0 +1,8 @@
+id = 'python3-shade'
+name = 'python3-shade'
+
+homepage = 'https://pypi.python.org/pypi/shade'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-shade'

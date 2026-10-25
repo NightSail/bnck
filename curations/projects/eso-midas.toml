@@ -1,0 +1,8 @@
+id = 'eso-midas'
+name = 'eso-midas'
+
+homepage = 'https://www.eso.org/projects/esomidas'
+
+[[package]]
+channel = 'debian'
+name = 'eso-midas'

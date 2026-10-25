@@ -1,0 +1,8 @@
+id = 'tarsnapper'
+name = 'tarsnapper'
+
+homepage = 'https://github.com/miracle2k/tarsnapper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tarsnapper'

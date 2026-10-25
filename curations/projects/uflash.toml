@@ -1,0 +1,8 @@
+id = 'uflash'
+name = 'uflash'
+
+homepage = 'https://github.com/ntoll/uflash'
+
+[[package]]
+channel = 'fedora'
+name = 'uflash'

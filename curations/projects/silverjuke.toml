@@ -1,0 +1,8 @@
+id = 'silverjuke'
+name = 'silverjuke'
+
+homepage = 'https://www.silverjuke.net'
+
+[[package]]
+channel = 'debian'
+name = 'silverjuke'

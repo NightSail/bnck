@@ -1,0 +1,17 @@
+id = 'f3'
+name = 'f3'
+
+homepage = 'https://fight-flash-fraud.readthedocs.io/en/stable'
+repository = 'https://github.com/AltraMayor/f3.git'
+
+[[package]]
+channel = 'debian'
+name = 'f3'
+
+[[package]]
+channel = 'fedora'
+name = 'f3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/f3'

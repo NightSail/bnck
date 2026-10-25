@@ -1,0 +1,17 @@
+id = 'spawn-fcgi'
+name = 'spawn-fcgi'
+
+homepage = 'https://redmine.lighttpd.net/projects/spawn-fcgi'
+repository = 'https://git.lighttpd.net/lighttpd/spawn-fcgi.git'
+
+[[package]]
+channel = 'arch'
+name = 'spawn-fcgi'
+
+[[package]]
+channel = 'debian'
+name = 'spawn-fcgi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spawn-fcgi'

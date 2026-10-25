@@ -1,0 +1,13 @@
+id = 'dish'
+name = 'dish'
+
+homepage = 'http://dish.mirendom.net'
+repository = 'https://github.com/thevxn/dish.git'
+
+[[package]]
+channel = 'debian'
+name = 'dish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dish'

@@ -1,0 +1,17 @@
+id = 'librime'
+name = 'librime'
+
+homepage = 'https://rime.im'
+repository = 'https://github.com/rime/librime.git'
+
+[[package]]
+channel = 'arch'
+name = 'librime'
+
+[[package]]
+channel = 'debian'
+name = 'librime-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librime'

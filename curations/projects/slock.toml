@@ -1,0 +1,12 @@
+id = 'slock'
+name = 'slock'
+
+homepage = 'https://tools.suckless.org/slock'
+
+[[package]]
+channel = 'arch'
+name = 'slock'
+
+[[package]]
+channel = 'fedora'
+name = 'slock'

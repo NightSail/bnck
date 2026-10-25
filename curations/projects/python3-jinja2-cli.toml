@@ -1,0 +1,8 @@
+id = 'python3-jinja2-cli'
+name = 'python3-jinja2-cli'
+
+homepage = 'https://pypi.python.org/pypi/jinja2-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jinja2-cli'

@@ -1,0 +1,9 @@
+id = 'temporal'
+name = 'temporal'
+
+homepage = 'https://temporal.io'
+repository = 'https://github.com/temporalio/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/temporal'

@@ -1,0 +1,8 @@
+id = 'libsafec-check'
+name = 'libsafec-check'
+
+homepage = 'https://github.com/rurban/safeclib'
+
+[[package]]
+channel = 'fedora'
+name = 'libsafec-check'

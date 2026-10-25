@@ -1,0 +1,8 @@
+id = 'tcpreen'
+name = 'tcpreen'
+
+homepage = 'https://www.remlab.net/tcpreen'
+
+[[package]]
+channel = 'debian'
+name = 'tcpreen'

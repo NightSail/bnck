@@ -1,0 +1,8 @@
+id = 'snap-templates'
+name = 'snap-templates'
+
+homepage = 'http://snapframework.com'
+
+[[package]]
+channel = 'debian'
+name = 'snap-templates'

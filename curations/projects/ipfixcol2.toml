@@ -1,0 +1,8 @@
+id = 'ipfixcol2'
+name = 'ipfixcol2'
+
+homepage = 'https://github.com/CESNET/ipfixcol2'
+
+[[package]]
+channel = 'debian'
+name = 'ipfixcol2'

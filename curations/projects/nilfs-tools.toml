@@ -1,0 +1,8 @@
+id = 'nilfs-tools'
+name = 'nilfs-tools'
+
+homepage = 'https://nilfs.osdn.jp/en'
+
+[[package]]
+channel = 'debian'
+name = 'nilfs-tools'

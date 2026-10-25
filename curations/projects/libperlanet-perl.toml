@@ -1,0 +1,8 @@
+id = 'libperlanet-perl'
+name = 'libperlanet-perl'
+
+homepage = 'https://perlanet.mag-sol.com'
+
+[[package]]
+channel = 'debian'
+name = 'libperlanet-perl'

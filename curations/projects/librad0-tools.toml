@@ -1,0 +1,6 @@
+id = 'librad0-tools'
+name = 'librad0-tools'
+
+[[package]]
+channel = 'debian'
+name = 'librad0-tools'

@@ -1,0 +1,8 @@
+id = 'chadwick'
+name = 'chadwick'
+
+homepage = 'https://chadwick.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chadwick'

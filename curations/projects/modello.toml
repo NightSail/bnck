@@ -1,0 +1,8 @@
+id = 'modello'
+name = 'modello'
+
+homepage = 'https://codehaus-plexus.github.io/modello'
+
+[[package]]
+channel = 'fedora'
+name = 'modello'

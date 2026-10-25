@@ -1,0 +1,12 @@
+id = 'alembic-alembic'
+name = 'alembic'
+
+homepage = 'https://pypi.io/project/alembic'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-alembic'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-alembic1.14'

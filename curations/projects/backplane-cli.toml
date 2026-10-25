@@ -1,0 +1,8 @@
+id = 'backplane-cli'
+name = 'backplane-cli'
+
+repository = 'https://github.com/openshift/backplane-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/backplane-cli'

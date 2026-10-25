@@ -1,0 +1,8 @@
+id = 'ttf2eot'
+name = 'ttf2eot'
+
+homepage = 'https://github.com/wget/ttf2eot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttf2eot'

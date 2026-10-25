@@ -1,0 +1,8 @@
+id = 'docker-machine-nfs'
+name = 'docker-machine-nfs'
+
+homepage = 'https://github.com/adlogix/docker-machine-nfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-machine-nfs'

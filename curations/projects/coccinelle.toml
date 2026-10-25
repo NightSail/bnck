@@ -1,0 +1,17 @@
+id = 'coccinelle'
+name = 'coccinelle'
+
+homepage = 'http://coccinelle.lip6.fr'
+repository = 'https://github.com/coccinelle/coccinelle.git'
+
+[[package]]
+channel = 'debian'
+name = 'coccinelle'
+
+[[package]]
+channel = 'fedora'
+name = 'coccinelle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coccinelle'

@@ -1,0 +1,8 @@
+id = 'crontabs'
+name = 'crontabs'
+
+homepage = 'https://github.com/cronie-crond/crontabs'
+
+[[package]]
+channel = 'fedora'
+name = 'crontabs'

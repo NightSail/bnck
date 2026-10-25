@@ -1,0 +1,8 @@
+id = 'switchboard-plug-parental-controls'
+name = 'switchboard-plug-parental-controls'
+
+homepage = 'https://github.com/elementary/switchboard-plug-parental-controls'
+
+[[package]]
+channel = 'arch'
+name = 'switchboard-plug-parental-controls'

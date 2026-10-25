@@ -1,0 +1,8 @@
+id = 'igvm-tools'
+name = 'igvm-tools'
+
+homepage = 'https://github.com/microsoft/igvm'
+
+[[package]]
+channel = 'fedora'
+name = 'igvm-tools'

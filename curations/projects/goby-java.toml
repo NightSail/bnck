@@ -1,0 +1,8 @@
+id = 'goby-java'
+name = 'goby-java'
+
+homepage = 'https://campagnelab.org/software/goby'
+
+[[package]]
+channel = 'debian'
+name = 'goby-java'

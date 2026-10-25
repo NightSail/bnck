@@ -1,0 +1,12 @@
+id = 'vsearch'
+name = 'vsearch'
+
+homepage = 'https://github.com/torognes/vsearch'
+
+[[package]]
+channel = 'debian'
+name = 'vsearch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vsearch'

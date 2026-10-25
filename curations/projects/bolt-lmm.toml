@@ -1,0 +1,8 @@
+id = 'bolt-lmm'
+name = 'bolt-lmm'
+
+homepage = 'https://data.broadinstitute.org/alkesgroup/BOLT-LMM'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-lmm'

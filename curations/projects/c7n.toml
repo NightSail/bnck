@@ -1,0 +1,8 @@
+id = 'c7n'
+name = 'c7n'
+
+homepage = 'https://cloudcustodian.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c7n'

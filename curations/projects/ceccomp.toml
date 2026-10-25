@@ -1,0 +1,12 @@
+id = 'ceccomp'
+name = 'ceccomp'
+
+homepage = 'https://github.com/ceccomp/ceccomp'
+
+[[package]]
+channel = 'arch'
+name = 'ceccomp'
+
+[[package]]
+channel = 'debian'
+name = 'ceccomp'

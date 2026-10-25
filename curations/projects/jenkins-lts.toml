@@ -1,0 +1,8 @@
+id = 'jenkins-lts'
+name = 'jenkins-lts'
+
+homepage = 'https://www.jenkins.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jenkins-lts'

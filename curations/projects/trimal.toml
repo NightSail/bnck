@@ -1,0 +1,9 @@
+id = 'trimal'
+name = 'trimal'
+
+homepage = 'https://trimal.readthedocs.io'
+repository = 'https://github.com/inab/trimal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trimal'

@@ -1,0 +1,16 @@
+id = 'libfido2'
+name = 'libfido2'
+
+homepage = 'https://developers.yubico.com/libfido2'
+
+[[package]]
+channel = 'arch'
+name = 'libfido2'
+
+[[package]]
+channel = 'debian'
+name = 'fido2-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfido2'

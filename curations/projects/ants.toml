@@ -1,0 +1,14 @@
+id = 'ants'
+name = 'ants'
+
+[[package]]
+channel = 'debian'
+name = 'ants'
+
+[[package]]
+channel = 'fedora'
+name = 'ants'
+
+[[package]]
+channel = 'fedora'
+name = 'ants-level-editor'

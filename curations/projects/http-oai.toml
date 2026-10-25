@@ -1,0 +1,12 @@
+id = 'http-oai'
+name = 'HTTP-OAI'
+
+homepage = 'https://metacpan.org/release/HTTP-OAI'
+
+[[package]]
+channel = 'debian'
+name = 'libhttp-oai-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTTP-OAI'

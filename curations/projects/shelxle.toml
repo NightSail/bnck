@@ -1,0 +1,8 @@
+id = 'shelxle'
+name = 'shelxle'
+
+homepage = 'https://www.shelxle.org'
+
+[[package]]
+channel = 'debian'
+name = 'shelxle'

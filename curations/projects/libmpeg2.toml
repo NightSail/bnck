@@ -1,0 +1,12 @@
+id = 'libmpeg2'
+name = 'libmpeg2'
+
+homepage = 'https://libmpeg2.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'libmpeg2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmpeg2'

@@ -1,0 +1,8 @@
+id = 'theme-switcher'
+name = 'theme-switcher'
+
+homepage = 'https://github.com/Latesil/theme-switcher'
+
+[[package]]
+channel = 'fedora'
+name = 'theme-switcher'

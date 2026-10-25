@@ -1,0 +1,8 @@
+id = 'ctemplate-olafvdspek'
+name = 'ctemplate'
+
+repository = 'https://github.com/olafvdspek/ctemplate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctemplate'

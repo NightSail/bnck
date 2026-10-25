@@ -1,0 +1,8 @@
+id = 'cargo-watch'
+name = 'cargo-watch'
+
+homepage = 'https://github.com/watchexec/cargo-watch'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-watch'

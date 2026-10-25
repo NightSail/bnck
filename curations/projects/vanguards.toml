@@ -1,0 +1,8 @@
+id = 'vanguards'
+name = 'vanguards'
+
+homepage = 'https://github.com/mikeperry-tor/vanguards'
+
+[[package]]
+channel = 'debian'
+name = 'vanguards'

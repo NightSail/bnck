@@ -1,0 +1,8 @@
+id = 'overwitch'
+name = 'overwitch'
+
+homepage = 'https://dagargo.github.io/overwitch'
+
+[[package]]
+channel = 'arch'
+name = 'overwitch'

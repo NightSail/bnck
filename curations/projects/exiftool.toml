@@ -1,0 +1,9 @@
+id = 'exiftool'
+name = 'exiftool'
+
+homepage = 'https://exiftool.org'
+repository = 'https://git.code.sf.net/p/exiftool/code.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exiftool'

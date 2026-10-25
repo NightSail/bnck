@@ -1,0 +1,8 @@
+id = 'golang-github-cilium-ebpf'
+name = 'golang-github-cilium-ebpf'
+
+homepage = 'https://github.com/cilium/ebpf'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cilium-ebpf'

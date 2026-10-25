@@ -1,0 +1,8 @@
+id = 'ratools'
+name = 'ratools'
+
+homepage = 'https://www.nonattached.net/ratools'
+
+[[package]]
+channel = 'fedora'
+name = 'ratools'

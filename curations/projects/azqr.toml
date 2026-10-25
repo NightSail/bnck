@@ -1,0 +1,9 @@
+id = 'azqr'
+name = 'azqr'
+
+homepage = 'https://azure.github.io/azqr'
+repository = 'https://github.com/Azure/azqr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azqr'

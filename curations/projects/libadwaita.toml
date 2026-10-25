@@ -1,0 +1,16 @@
+id = 'libadwaita'
+name = 'libadwaita'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/libadwaita'
+
+[[package]]
+channel = 'arch'
+name = 'libadwaita-demos'
+
+[[package]]
+channel = 'debian'
+name = 'libadwaita-1-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'libadwaita'

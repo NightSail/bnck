@@ -1,0 +1,8 @@
+id = 'node-d3-geo-projection'
+name = 'node-d3-geo-projection'
+
+homepage = 'https://d3js.org/d3-geo-projection'
+
+[[package]]
+channel = 'debian'
+name = 'node-d3-geo-projection'

@@ -1,0 +1,12 @@
+id = 'tiny-dfr'
+name = 'tiny-dfr'
+
+homepage = 'https://github.com/AsahiLinux/tiny-dfr'
+
+[[package]]
+channel = 'debian'
+name = 'tiny-dfr'
+
+[[package]]
+channel = 'fedora'
+name = 'tiny-dfr'

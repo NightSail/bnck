@@ -1,0 +1,8 @@
+id = 'liboctavius-ocaml-dev'
+name = 'liboctavius-ocaml-dev'
+
+homepage = 'https://github.com/ocaml-doc/octavius'
+
+[[package]]
+channel = 'debian'
+name = 'liboctavius-ocaml-dev'

@@ -1,0 +1,20 @@
+id = 'pyenv'
+name = 'pyenv'
+
+repository = 'https://github.com/pyenv/pyenv.git'
+
+[[package]]
+channel = 'arch'
+name = 'pyenv'
+
+[[package]]
+channel = 'debian'
+name = 'pyenv'
+
+[[package]]
+channel = 'debian'
+name = 'pyenv-runtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyenv'

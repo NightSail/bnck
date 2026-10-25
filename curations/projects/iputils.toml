@@ -1,0 +1,28 @@
+id = 'iputils'
+name = 'iputils'
+
+homepage = 'https://github.com/iputils/iputils'
+
+[[package]]
+channel = 'arch'
+name = 'iputils'
+
+[[package]]
+channel = 'debian'
+name = 'iputils-arping'
+
+[[package]]
+channel = 'debian'
+name = 'iputils-clockdiff'
+
+[[package]]
+channel = 'debian'
+name = 'iputils-ping'
+
+[[package]]
+channel = 'debian'
+name = 'iputils-tracepath'
+
+[[package]]
+channel = 'fedora'
+name = 'iputils'

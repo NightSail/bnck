@@ -1,0 +1,8 @@
+id = 'resty'
+name = 'resty'
+
+repository = 'https://github.com/micha/resty.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/resty'

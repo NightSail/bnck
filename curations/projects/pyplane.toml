@@ -1,0 +1,8 @@
+id = 'pyplane'
+name = 'pyplane'
+
+homepage = 'https://github.com/TUD-RST/pyplane'
+
+[[package]]
+channel = 'fedora'
+name = 'pyplane'

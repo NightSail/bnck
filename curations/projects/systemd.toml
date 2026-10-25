@@ -1,0 +1,104 @@
+id = 'systemd'
+name = 'systemd'
+
+homepage = 'https://systemd.io'
+
+[[package]]
+channel = 'debian'
+name = 'systemd'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-boot-tools'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-container'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-coredump'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-cryptsetup'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-homed'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-oomd'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-repart'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-resolved'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-standalone-sysusers'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-standalone-tmpfiles'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-sysv'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-ukify'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-userdbd'
+
+[[package]]
+channel = 'debian'
+name = 'udev'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-container'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-networkd'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-resolved'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-standalone-repart'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-standalone-sysusers'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-standalone-tmpfiles'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-sysusers'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-udev'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-ukify'

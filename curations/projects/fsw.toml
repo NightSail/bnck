@@ -1,0 +1,8 @@
+id = 'fsw'
+name = 'fsw'
+
+homepage = 'https://emcrisostomo.github.io/fsw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fsw'

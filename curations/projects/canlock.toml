@@ -1,0 +1,12 @@
+id = 'canlock'
+name = 'canlock'
+
+homepage = 'https://micha.freeshell.org/libcanlock'
+
+[[package]]
+channel = 'debian'
+name = 'canlock'
+
+[[package]]
+channel = 'fedora'
+name = 'canlock'

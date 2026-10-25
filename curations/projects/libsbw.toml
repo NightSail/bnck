@@ -1,0 +1,8 @@
+id = 'libsbw'
+name = 'libsbw'
+
+homepage = 'http://sourceforge.net/projects/sbw'
+
+[[package]]
+channel = 'fedora'
+name = 'libsbw'

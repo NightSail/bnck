@@ -1,0 +1,8 @@
+id = 'go-tuf'
+name = 'go-tuf'
+
+homepage = 'https://github.com/theupdateframework/go-tuf'
+
+[[package]]
+channel = 'debian'
+name = 'go-tuf'

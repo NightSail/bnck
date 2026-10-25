@@ -1,0 +1,8 @@
+id = 'ewftools'
+name = 'ewftools'
+
+homepage = 'http://sourceforge.net/projects/libewf'
+
+[[package]]
+channel = 'fedora'
+name = 'ewftools'

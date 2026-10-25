@@ -1,0 +1,20 @@
+id = 'ruff'
+name = 'ruff'
+
+homepage = 'https://github.com/astral-sh/ruff'
+
+[[package]]
+channel = 'arch'
+name = 'ruff'
+
+[[package]]
+channel = 'debian'
+name = 'ruff'
+
+[[package]]
+channel = 'debian'
+name = 'ty'
+
+[[package]]
+channel = 'fedora'
+name = 'ruff'

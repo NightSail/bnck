@@ -1,0 +1,8 @@
+id = 'shikane'
+name = 'shikane'
+
+homepage = 'https://gitlab.com/w0lff/shikane'
+
+[[package]]
+channel = 'arch'
+name = 'shikane'

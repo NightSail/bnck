@@ -1,0 +1,6 @@
+id = 'killer'
+name = 'killer'
+
+[[package]]
+channel = 'debian'
+name = 'killer'

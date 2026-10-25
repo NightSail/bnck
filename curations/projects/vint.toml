@@ -1,0 +1,12 @@
+id = 'vint'
+name = 'vint'
+
+repository = 'https://github.com/Vimjas/vint.git'
+
+[[package]]
+channel = 'arch'
+name = 'vint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vint'

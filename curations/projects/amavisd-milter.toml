@@ -1,0 +1,16 @@
+id = 'amavisd-milter'
+name = 'amavisd-milter'
+
+homepage = 'http://amavisd-milter.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'amavisd-milter'
+
+[[package]]
+channel = 'debian'
+name = 'amavisd-milter'
+
+[[package]]
+channel = 'fedora'
+name = 'amavisd-milter'

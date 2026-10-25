@@ -1,0 +1,8 @@
+id = 'dwgsim'
+name = 'dwgsim'
+
+homepage = 'https://github.com/nh13/DWGSIM'
+
+[[package]]
+channel = 'debian'
+name = 'dwgsim'

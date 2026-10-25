@@ -1,0 +1,12 @@
+id = 'kblackbox'
+name = 'kblackbox'
+
+homepage = 'https://apps.kde.org/kblackbox'
+
+[[package]]
+channel = 'arch'
+name = 'kblackbox'
+
+[[package]]
+channel = 'fedora'
+name = 'kblackbox'

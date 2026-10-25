@@ -1,0 +1,8 @@
+id = 'baka-mplayer'
+name = 'baka-mplayer'
+
+homepage = 'http://bakamplayer.u8sand.net'
+
+[[package]]
+channel = 'arch'
+name = 'baka-mplayer'

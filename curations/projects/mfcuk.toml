@@ -1,0 +1,12 @@
+id = 'mfcuk'
+name = 'mfcuk'
+
+homepage = 'https://github.com/nfc-tools/mfcuk'
+
+[[package]]
+channel = 'debian'
+name = 'mfcuk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mfcuk'

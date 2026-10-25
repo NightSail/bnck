@@ -1,0 +1,8 @@
+id = 'truststore'
+name = 'truststore'
+
+homepage = 'https://github.com/smallstep/truststore'
+
+[[package]]
+channel = 'debian'
+name = 'truststore'

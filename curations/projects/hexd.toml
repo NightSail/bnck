@@ -1,0 +1,8 @@
+id = 'hexd'
+name = 'hexd'
+
+homepage = 'https://github.com/FireyFly/hexd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexd'

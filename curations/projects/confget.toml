@@ -1,0 +1,8 @@
+id = 'confget'
+name = 'confget'
+
+homepage = 'https://devel.ringlet.net/textproc/confget'
+
+[[package]]
+channel = 'debian'
+name = 'confget'

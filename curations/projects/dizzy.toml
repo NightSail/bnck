@@ -1,0 +1,8 @@
+id = 'dizzy'
+name = 'dizzy'
+
+homepage = 'https://penma.de/code/dizzy'
+
+[[package]]
+channel = 'debian'
+name = 'dizzy'

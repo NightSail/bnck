@@ -1,0 +1,8 @@
+id = 'pkgconf-pkgconf-2'
+name = 'pkgconf'
+
+repository = 'https://github.com/pkgconf/pkgconf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkgconf'

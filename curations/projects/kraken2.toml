@@ -1,0 +1,13 @@
+id = 'kraken2'
+name = 'kraken2'
+
+homepage = 'https://www.ccb.jhu.edu/software/kraken2'
+repository = 'https://github.com/DerrickWood/kraken2.git'
+
+[[package]]
+channel = 'debian'
+name = 'kraken2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kraken2'

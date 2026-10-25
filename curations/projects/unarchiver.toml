@@ -1,0 +1,8 @@
+id = 'unarchiver'
+name = 'unarchiver'
+
+homepage = 'https://github.com/MacPaw/XADMaster'
+
+[[package]]
+channel = 'arch'
+name = 'unarchiver'

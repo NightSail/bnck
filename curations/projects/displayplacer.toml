@@ -1,0 +1,8 @@
+id = 'displayplacer'
+name = 'displayplacer'
+
+repository = 'https://github.com/jakehilborn/displayplacer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/displayplacer'

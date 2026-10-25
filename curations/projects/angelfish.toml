@@ -1,0 +1,16 @@
+id = 'angelfish'
+name = 'angelfish'
+
+homepage = 'https://apps.kde.org/angelfish'
+
+[[package]]
+channel = 'arch'
+name = 'angelfish'
+
+[[package]]
+channel = 'debian'
+name = 'angelfish'
+
+[[package]]
+channel = 'fedora'
+name = 'angelfish'

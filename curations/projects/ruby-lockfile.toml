@@ -1,0 +1,6 @@
+id = 'ruby-lockfile'
+name = 'ruby-lockfile'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-lockfile'

@@ -1,0 +1,12 @@
+id = 'antlr4'
+name = 'antlr4'
+
+homepage = 'https://www.antlr.org/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'antlr4'
+
+[[package]]
+channel = 'debian'
+name = 'antlr4'

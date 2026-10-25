@@ -1,0 +1,6 @@
+id = 'dnscap'
+name = 'dnscap'
+
+[[package]]
+channel = 'debian'
+name = 'dnscap'

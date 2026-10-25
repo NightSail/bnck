@@ -1,0 +1,16 @@
+id = 'openal-soft'
+name = 'openal-soft'
+
+homepage = 'https://github.com/kcat/openal-soft'
+
+[[package]]
+channel = 'arch'
+name = 'openal'
+
+[[package]]
+channel = 'arch'
+name = 'openal-examples'
+
+[[package]]
+channel = 'debian'
+name = 'openal-tools'

@@ -1,0 +1,8 @@
+id = 'python-xmljson'
+name = 'python-xmljson'
+
+homepage = 'https://github.com/sanand0/xmljson'
+
+[[package]]
+channel = 'arch'
+name = 'python-xmljson'

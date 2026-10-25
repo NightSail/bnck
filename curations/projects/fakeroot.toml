@@ -1,0 +1,20 @@
+id = 'fakeroot'
+name = 'fakeroot'
+
+homepage = 'https://tracker.debian.org/pkg/fakeroot'
+
+[[package]]
+channel = 'arch'
+name = 'fakeroot'
+
+[[package]]
+channel = 'debian'
+name = 'fakeroot'
+
+[[package]]
+channel = 'fedora'
+name = 'fakeroot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fakeroot'

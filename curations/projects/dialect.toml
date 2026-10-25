@@ -1,0 +1,16 @@
+id = 'dialect'
+name = 'dialect'
+
+homepage = 'https://apps.gnome.org/Dialect'
+
+[[package]]
+channel = 'arch'
+name = 'dialect'
+
+[[package]]
+channel = 'debian'
+name = 'dialect'
+
+[[package]]
+channel = 'fedora'
+name = 'dialect'

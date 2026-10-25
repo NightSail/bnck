@@ -1,0 +1,8 @@
+id = 'libtranscript-dev'
+name = 'libtranscript-dev'
+
+homepage = 'https://os.ghalkes.nl/libtranscript.html'
+
+[[package]]
+channel = 'debian'
+name = 'libtranscript-dev'

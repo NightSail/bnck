@@ -1,0 +1,12 @@
+id = 'nulib2'
+name = 'nulib2'
+
+homepage = 'https://nulib.com'
+
+[[package]]
+channel = 'debian'
+name = 'nulib2'
+
+[[package]]
+channel = 'fedora'
+name = 'nulib2'

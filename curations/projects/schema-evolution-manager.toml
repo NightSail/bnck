@@ -1,0 +1,8 @@
+id = 'schema-evolution-manager'
+name = 'schema-evolution-manager'
+
+homepage = 'https://github.com/mbryzek/schema-evolution-manager'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/schema-evolution-manager'

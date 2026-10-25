@@ -1,0 +1,8 @@
+id = 'metalfinder'
+name = 'metalfinder'
+
+homepage = 'https://gitlab.com/baldurmen/metalfinder'
+
+[[package]]
+channel = 'debian'
+name = 'metalfinder'

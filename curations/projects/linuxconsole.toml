@@ -1,0 +1,24 @@
+id = 'linuxconsole'
+name = 'linuxconsole'
+
+homepage = 'https://sourceforge.net/projects/linuxconsole'
+
+[[package]]
+channel = 'arch'
+name = 'joyutils'
+
+[[package]]
+channel = 'arch'
+name = 'linuxconsole'
+
+[[package]]
+channel = 'debian'
+name = 'inputattach'
+
+[[package]]
+channel = 'debian'
+name = 'joystick'
+
+[[package]]
+channel = 'fedora'
+name = 'linuxconsoletools'

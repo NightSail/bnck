@@ -1,0 +1,12 @@
+id = 'commons-daemon'
+name = 'commons-daemon'
+
+homepage = 'https://commons.apache.org/proper/commons-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'java-jsvc'
+
+[[package]]
+channel = 'debian'
+name = 'jsvc'

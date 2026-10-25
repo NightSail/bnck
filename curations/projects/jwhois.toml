@@ -1,0 +1,8 @@
+id = 'jwhois'
+name = 'jwhois'
+
+homepage = 'http://www.gnu.org/software/jwhois'
+
+[[package]]
+channel = 'fedora'
+name = 'jwhois'

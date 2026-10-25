@@ -1,0 +1,8 @@
+id = 'slibtool'
+name = 'slibtool'
+
+homepage = 'http://git.midipix.org/cgit.cgi/slibtool'
+
+[[package]]
+channel = 'fedora'
+name = 'slibtool'

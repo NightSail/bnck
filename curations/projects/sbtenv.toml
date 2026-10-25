@@ -1,0 +1,8 @@
+id = 'sbtenv'
+name = 'sbtenv'
+
+repository = 'https://github.com/sbtenv/sbtenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sbtenv'

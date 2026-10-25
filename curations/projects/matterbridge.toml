@@ -1,0 +1,16 @@
+id = 'matterbridge'
+name = 'matterbridge'
+
+repository = 'https://github.com/42wim/matterbridge.git'
+
+[[package]]
+channel = 'arch'
+name = 'matterbridge'
+
+[[package]]
+channel = 'fedora'
+name = 'matterbridge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/matterbridge'

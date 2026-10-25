@@ -1,0 +1,8 @@
+id = 'gap-anupq'
+name = 'gap-anupq'
+
+homepage = 'https://www.gap-system.org/Packages/anupq.html'
+
+[[package]]
+channel = 'debian'
+name = 'gap-anupq'

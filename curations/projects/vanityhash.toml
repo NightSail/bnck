@@ -1,0 +1,8 @@
+id = 'vanityhash'
+name = 'vanityhash'
+
+homepage = 'http://www.finnie.org/software/vanityhash'
+
+[[package]]
+channel = 'fedora'
+name = 'vanityhash'

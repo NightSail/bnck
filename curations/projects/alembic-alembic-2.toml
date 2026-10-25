@@ -1,0 +1,9 @@
+id = 'alembic-alembic-2'
+name = 'alembic'
+
+homepage = 'http://www.alembic.io'
+repository = 'https://github.com/alembic/alembic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alembic'

@@ -1,0 +1,8 @@
+id = 'xttitle'
+name = 'xttitle'
+
+homepage = 'http://www.jarvis.com/xttitle'
+
+[[package]]
+channel = 'debian'
+name = 'xttitle'

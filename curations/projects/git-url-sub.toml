@@ -1,0 +1,9 @@
+id = 'git-url-sub'
+name = 'git-url-sub'
+
+homepage = 'https://gosuri.github.io/git-url-sub'
+repository = 'https://github.com/gosuri/git-url-sub.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-url-sub'

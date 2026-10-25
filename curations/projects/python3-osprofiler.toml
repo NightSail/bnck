@@ -1,0 +1,8 @@
+id = 'python3-osprofiler'
+name = 'python3-osprofiler'
+
+homepage = 'https://opendev.org/openstack/osprofiler'
+
+[[package]]
+channel = 'debian'
+name = 'python3-osprofiler'

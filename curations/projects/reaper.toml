@@ -1,0 +1,8 @@
+id = 'reaper'
+name = 'reaper'
+
+homepage = 'https://reaper.fm'
+
+[[package]]
+channel = 'arch'
+name = 'reaper'

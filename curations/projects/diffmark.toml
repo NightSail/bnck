@@ -1,0 +1,8 @@
+id = 'diffmark'
+name = 'diffmark'
+
+homepage = 'http://www.mangrove.cz/diffmark'
+
+[[package]]
+channel = 'fedora'
+name = 'diffmark'

@@ -1,0 +1,8 @@
+id = 'ink'
+name = 'ink'
+
+homepage = 'https://ink.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ink'

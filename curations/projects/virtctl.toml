@@ -1,0 +1,9 @@
+id = 'virtctl'
+name = 'virtctl'
+
+homepage = 'https://kubevirt.io'
+repository = 'https://github.com/kubevirt/kubevirt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virtctl'

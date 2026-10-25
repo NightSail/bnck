@@ -1,0 +1,16 @@
+id = 'crow-translate'
+name = 'crow-translate'
+
+homepage = 'https://apps.kde.org/crowtranslate'
+
+[[package]]
+channel = 'arch'
+name = 'crow-translate'
+
+[[package]]
+channel = 'debian'
+name = 'crow-translate'
+
+[[package]]
+channel = 'fedora'
+name = 'crow-translate'

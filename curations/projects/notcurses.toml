@@ -1,0 +1,24 @@
+id = 'notcurses'
+name = 'notcurses'
+
+homepage = 'https://nick-black.com/dankwiki/index.php/Notcurses'
+
+[[package]]
+channel = 'arch'
+name = 'notcurses'
+
+[[package]]
+channel = 'debian'
+name = 'notcurses-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'notcurses-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-notcurses'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notcurses'

@@ -1,0 +1,8 @@
+id = 'protection-domain-mapper'
+name = 'protection-domain-mapper'
+
+homepage = 'https://github.com/linux-msm/pd-mapper'
+
+[[package]]
+channel = 'debian'
+name = 'protection-domain-mapper'

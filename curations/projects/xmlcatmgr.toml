@@ -1,0 +1,8 @@
+id = 'xmlcatmgr'
+name = 'xmlcatmgr'
+
+homepage = 'https://xmlcatmgr.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmlcatmgr'

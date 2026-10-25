@@ -1,0 +1,8 @@
+id = 'pftools'
+name = 'pftools'
+
+homepage = 'https://github.com/sib-swiss/pftools3'
+
+[[package]]
+channel = 'debian'
+name = 'pftools'

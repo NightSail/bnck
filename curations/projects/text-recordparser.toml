@@ -1,0 +1,12 @@
+id = 'text-recordparser'
+name = 'Text-RecordParser'
+
+homepage = 'https://metacpan.org/release/Text-RecordParser'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-recordparser-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-RecordParser-tools'

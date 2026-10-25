@@ -1,0 +1,12 @@
+id = 'python-email-validator'
+name = 'python-email-validator'
+
+homepage = 'https://github.com/JoshData/python-email-validator'
+
+[[package]]
+channel = 'arch'
+name = 'python-email-validator'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-email-validator'

@@ -1,0 +1,8 @@
+id = 'helmsman'
+name = 'helmsman'
+
+repository = 'https://github.com/mkubaczyk/helmsman.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helmsman'

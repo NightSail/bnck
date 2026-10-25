@@ -1,0 +1,12 @@
+id = 'googleworkspace-cli'
+name = 'googleworkspace-cli'
+
+homepage = 'https://developers.google.com/workspace'
+
+[[package]]
+channel = 'arch'
+name = 'googleworkspace-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/googleworkspace-cli'

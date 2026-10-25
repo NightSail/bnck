@@ -1,0 +1,16 @@
+id = 'gtypist'
+name = 'gtypist'
+
+homepage = 'https://www.gnu.org/software/gtypist'
+
+[[package]]
+channel = 'debian'
+name = 'gtypist'
+
+[[package]]
+channel = 'fedora'
+name = 'gtypist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-typist'

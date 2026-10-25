@@ -1,0 +1,8 @@
+id = 'devin-cli'
+name = 'devin-cli'
+
+homepage = 'https://cli.devin.ai/docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/devin-cli'

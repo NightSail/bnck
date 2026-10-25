@@ -1,0 +1,20 @@
+id = 'buildah'
+name = 'buildah'
+
+homepage = 'https://github.com/podman-container-tools/buildah'
+
+[[package]]
+channel = 'arch'
+name = 'buildah'
+
+[[package]]
+channel = 'debian'
+name = 'buildah'
+
+[[package]]
+channel = 'fedora'
+name = 'buildah'
+
+[[package]]
+channel = 'fedora'
+name = 'buildah-tests'

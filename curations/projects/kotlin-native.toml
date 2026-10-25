@@ -1,0 +1,8 @@
+id = 'kotlin-native'
+name = 'kotlin-native'
+
+homepage = 'https://kotlinlang.org/docs/reference/native-overview.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kotlin-native'

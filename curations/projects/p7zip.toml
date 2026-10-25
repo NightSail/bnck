@@ -1,0 +1,20 @@
+id = 'p7zip'
+name = 'p7zip'
+
+homepage = 'https://github.com/p7zip-project/p7zip'
+
+[[package]]
+channel = 'fedora'
+name = 'p7zip'
+
+[[package]]
+channel = 'fedora'
+name = 'p7zip-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'p7zip-plugins'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/p7zip'

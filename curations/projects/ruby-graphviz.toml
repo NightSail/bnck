@@ -1,0 +1,8 @@
+id = 'ruby-graphviz'
+name = 'ruby-graphviz'
+
+homepage = 'https://github.com/glejeune/Ruby-Graphviz'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-graphviz'

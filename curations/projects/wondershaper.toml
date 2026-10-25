@@ -1,0 +1,8 @@
+id = 'wondershaper'
+name = 'wondershaper'
+
+homepage = 'http://sourceforge.net/projects/wondershaper'
+
+[[package]]
+channel = 'fedora'
+name = 'wondershaper'

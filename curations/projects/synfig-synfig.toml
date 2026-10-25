@@ -1,0 +1,9 @@
+id = 'synfig-synfig'
+name = 'synfig'
+
+homepage = 'https://www.synfig.org'
+repository = 'https://github.com/synfig/synfig.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/synfig'

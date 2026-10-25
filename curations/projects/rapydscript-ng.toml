@@ -1,0 +1,8 @@
+id = 'rapydscript-ng'
+name = 'rapydscript-ng'
+
+homepage = 'https://github.com/kovidgoyal/rapydscript-ng'
+
+[[package]]
+channel = 'arch'
+name = 'rapydscript-ng'

@@ -1,0 +1,9 @@
+id = 'pass-import'
+name = 'pass-import'
+
+homepage = 'https://www.passwordstore.org'
+repository = 'https://github.com/roddhjav/pass-import.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pass-import'

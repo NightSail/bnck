@@ -1,0 +1,8 @@
+id = 'matekbd-keyboard-display'
+name = 'matekbd-keyboard-display'
+
+homepage = 'https://tari.in/www/software/matekbd-keyboard-display'
+
+[[package]]
+channel = 'debian'
+name = 'matekbd-keyboard-display'

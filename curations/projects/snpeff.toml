@@ -1,0 +1,8 @@
+id = 'snpeff'
+name = 'snpeff'
+
+homepage = 'https://pcingola.github.io/SnpEff'
+
+[[package]]
+channel = 'debian'
+name = 'snpeff'

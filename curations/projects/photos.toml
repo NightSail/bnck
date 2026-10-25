@@ -1,0 +1,12 @@
+id = 'photos'
+name = 'photos'
+
+homepage = 'https://github.com/elementary/photos'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-photos'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-photos'

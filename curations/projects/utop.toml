@@ -1,0 +1,12 @@
+id = 'utop'
+name = 'utop'
+
+homepage = 'https://github.com/ocaml-community/utop'
+
+[[package]]
+channel = 'debian'
+name = 'utop'
+
+[[package]]
+channel = 'fedora'
+name = 'utop'

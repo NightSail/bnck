@@ -1,0 +1,8 @@
+id = 'quarry'
+name = 'quarry'
+
+homepage = 'http://home.gna.org/quarry'
+
+[[package]]
+channel = 'fedora'
+name = 'quarry'

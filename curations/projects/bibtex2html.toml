@@ -1,0 +1,13 @@
+id = 'bibtex2html'
+name = 'bibtex2html'
+
+homepage = 'https://www.lri.fr/~filliatr/bibtex2html/index.en.html'
+repository = 'https://github.com/backtracking/bibtex2html.git'
+
+[[package]]
+channel = 'debian'
+name = 'bibtex2html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bibtex2html'

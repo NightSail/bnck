@@ -1,0 +1,8 @@
+id = 'gitlab-ci-linter'
+name = 'gitlab-ci-linter'
+
+repository = 'https://gitlab.com/orobardet/gitlab-ci-linter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitlab-ci-linter'

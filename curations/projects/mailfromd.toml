@@ -1,0 +1,6 @@
+id = 'mailfromd'
+name = 'mailfromd'
+
+[[package]]
+channel = 'debian'
+name = 'mailfromd'

@@ -1,0 +1,12 @@
+id = 'wcd'
+name = 'wcd'
+
+homepage = 'https://waterlan.home.xs4all.nl/wcd.html'
+
+[[package]]
+channel = 'debian'
+name = 'wcd'
+
+[[package]]
+channel = 'fedora'
+name = 'wcd'

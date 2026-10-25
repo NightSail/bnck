@@ -1,0 +1,8 @@
+id = 'python3-certstream'
+name = 'python3-certstream'
+
+homepage = 'https://github.com/CaliDog/certstream-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-certstream'

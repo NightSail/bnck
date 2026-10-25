@@ -1,0 +1,16 @@
+id = 'bochs'
+name = 'bochs'
+
+homepage = 'https://bochs.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'bochs'
+
+[[package]]
+channel = 'debian'
+name = 'bximage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bochs'

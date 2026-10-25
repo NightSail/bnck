@@ -1,0 +1,12 @@
+id = 'xdms'
+name = 'xdms'
+
+homepage = 'http://zakalwe.fi/~shd/foss/xdms'
+
+[[package]]
+channel = 'debian'
+name = 'xdms'
+
+[[package]]
+channel = 'fedora'
+name = 'xdms'

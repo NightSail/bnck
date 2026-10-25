@@ -1,0 +1,8 @@
+id = 'unhide-rb'
+name = 'unhide.rb'
+
+homepage = 'https://launchpad.net/unhide.rb'
+
+[[package]]
+channel = 'debian'
+name = 'unhide.rb'

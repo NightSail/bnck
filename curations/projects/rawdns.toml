@@ -1,0 +1,8 @@
+id = 'rawdns'
+name = 'rawdns'
+
+homepage = 'https://github.com/tianon/rawdns'
+
+[[package]]
+channel = 'debian'
+name = 'rawdns'

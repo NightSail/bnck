@@ -1,0 +1,8 @@
+id = 'zidrav'
+name = 'zidrav'
+
+homepage = 'https://sourceforge.net/projects/zidrav'
+
+[[package]]
+channel = 'fedora'
+name = 'zidrav'

@@ -1,0 +1,9 @@
+id = 'happy-coder'
+name = 'happy-coder'
+
+homepage = 'https://happy.engineering'
+repository = 'https://github.com/slopus/happy-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/happy-coder'

@@ -1,0 +1,9 @@
+id = 'freeswitch'
+name = 'freeswitch'
+
+homepage = 'https://freeswitch.org'
+repository = 'https://github.com/signalwire/freeswitch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freeswitch'

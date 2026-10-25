@@ -1,0 +1,16 @@
+id = 'ark'
+name = 'ark'
+
+homepage = 'https://apps.kde.org/ark'
+
+[[package]]
+channel = 'arch'
+name = 'ark'
+
+[[package]]
+channel = 'debian'
+name = 'ark'
+
+[[package]]
+channel = 'fedora'
+name = 'ark'

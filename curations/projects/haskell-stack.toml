@@ -1,0 +1,12 @@
+id = 'haskell-stack'
+name = 'haskell-stack'
+
+homepage = 'https://haskellstack.org'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-stack'
+
+[[package]]
+channel = 'fedora'
+name = 'stack'

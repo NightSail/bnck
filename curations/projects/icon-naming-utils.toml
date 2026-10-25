@@ -1,0 +1,8 @@
+id = 'icon-naming-utils'
+name = 'icon-naming-utils'
+
+homepage = 'http://tango.freedesktop.org/Standard_Icon_Naming_Specification'
+
+[[package]]
+channel = 'fedora'
+name = 'icon-naming-utils'

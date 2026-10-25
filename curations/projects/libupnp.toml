@@ -1,0 +1,8 @@
+id = 'libupnp'
+name = 'libupnp'
+
+homepage = 'https://pupnp.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'libupnp'

@@ -1,0 +1,8 @@
+id = 'xyscan'
+name = 'xyscan'
+
+homepage = 'https://star.physics.yale.edu/~ullrich/xyscanDistributionPage'
+
+[[package]]
+channel = 'debian'
+name = 'xyscan'

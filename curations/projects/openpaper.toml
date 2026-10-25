@@ -1,0 +1,16 @@
+id = 'openpaper'
+name = 'openpaper'
+
+homepage = 'https://openpaper.work'
+
+[[package]]
+channel = 'arch'
+name = 'paperwork'
+
+[[package]]
+channel = 'debian'
+name = 'paperwork-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'paperwork-shell'

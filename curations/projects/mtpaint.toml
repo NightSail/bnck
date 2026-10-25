@@ -1,0 +1,16 @@
+id = 'mtpaint'
+name = 'mtpaint'
+
+homepage = 'https://github.com/wjaguar/mtpaint'
+
+[[package]]
+channel = 'arch'
+name = 'mtpaint'
+
+[[package]]
+channel = 'debian'
+name = 'mtpaint'
+
+[[package]]
+channel = 'fedora'
+name = 'mtpaint'

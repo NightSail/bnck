@@ -1,0 +1,8 @@
+id = 'perl-protocol-websocket'
+name = 'perl-Protocol-WebSocket'
+
+homepage = 'https://metacpan.org/release/Protocol-WebSocket'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Protocol-WebSocket'

@@ -1,0 +1,8 @@
+id = 'nvpy'
+name = 'nvpy'
+
+homepage = 'https://github.com/cpbotha/nvpy'
+
+[[package]]
+channel = 'debian'
+name = 'nvpy'

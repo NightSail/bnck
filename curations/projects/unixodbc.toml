@@ -1,0 +1,20 @@
+id = 'unixodbc'
+name = 'unixODBC'
+
+homepage = 'http://www.unixodbc.org'
+
+[[package]]
+channel = 'arch'
+name = 'unixodbc'
+
+[[package]]
+channel = 'debian'
+name = 'odbcinst'
+
+[[package]]
+channel = 'debian'
+name = 'unixodbc'
+
+[[package]]
+channel = 'fedora'
+name = 'unixODBC'

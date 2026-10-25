@@ -1,0 +1,16 @@
+id = 'modemmanager'
+name = 'modemmanager'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/ModemManager'
+
+[[package]]
+channel = 'arch'
+name = 'modemmanager'
+
+[[package]]
+channel = 'debian'
+name = 'modemmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'ModemManager'

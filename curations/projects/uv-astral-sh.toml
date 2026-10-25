@@ -1,0 +1,9 @@
+id = 'uv-astral-sh'
+name = 'uv'
+
+homepage = 'https://docs.astral.sh/uv'
+repository = 'https://github.com/astral-sh/uv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uv'

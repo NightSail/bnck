@@ -1,0 +1,8 @@
+id = 'glci'
+name = 'glci'
+
+repository = 'https://gitlab.com/gitlab-org/ci-cd/runner-tools/glci.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glci'

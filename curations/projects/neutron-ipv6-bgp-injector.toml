@@ -1,0 +1,8 @@
+id = 'neutron-ipv6-bgp-injector'
+name = 'neutron-ipv6-bgp-injector'
+
+homepage = 'https://salsa.debian.org/openstack-team/services/neutron-ipv6-bgp-injector'
+
+[[package]]
+channel = 'debian'
+name = 'neutron-ipv6-bgp-injector'

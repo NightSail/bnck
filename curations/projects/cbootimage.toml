@@ -1,0 +1,12 @@
+id = 'cbootimage'
+name = 'cbootimage'
+
+homepage = 'https://github.com/NVIDIA/cbootimage'
+
+[[package]]
+channel = 'debian'
+name = 'cbootimage'
+
+[[package]]
+channel = 'fedora'
+name = 'cbootimage'

@@ -1,0 +1,8 @@
+id = 'rubygem-mongo'
+name = 'rubygem-mongo'
+
+homepage = 'https://docs.mongodb.com/ruby-driver/current'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-mongo'

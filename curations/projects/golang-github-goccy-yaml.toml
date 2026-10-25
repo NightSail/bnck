@@ -1,0 +1,8 @@
+id = 'golang-github-goccy-yaml'
+name = 'golang-github-goccy-yaml'
+
+homepage = 'https://github.com/goccy/go-yaml'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-goccy-yaml'

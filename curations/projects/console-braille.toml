@@ -1,0 +1,8 @@
+id = 'console-braille'
+name = 'console-braille'
+
+homepage = 'http://brl.thefreecat.org'
+
+[[package]]
+channel = 'debian'
+name = 'console-braille'

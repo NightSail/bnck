@@ -1,0 +1,8 @@
+id = 'raster3d'
+name = 'raster3d'
+
+homepage = 'http://www.bmsc.washington.edu/raster3d/raster3d.html'
+
+[[package]]
+channel = 'debian'
+name = 'raster3d'

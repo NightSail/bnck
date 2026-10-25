@@ -1,0 +1,9 @@
+id = 'brogue'
+name = 'brogue'
+
+homepage = 'https://sites.google.com/site/broguegame'
+repository = 'https://github.com/tmewett/BrogueCE.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brogue'

@@ -1,0 +1,12 @@
+id = 'mistletoe'
+name = 'mistletoe'
+
+homepage = 'https://github.com/miyuchina/mistletoe'
+
+[[package]]
+channel = 'arch'
+name = 'python-mistletoe'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mistletoe'

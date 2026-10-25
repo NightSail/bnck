@@ -1,0 +1,13 @@
+id = 'tinymist'
+name = 'tinymist'
+
+homepage = 'https://myriad-dreamin.github.io/tinymist'
+repository = 'https://github.com/Myriad-Dreamin/tinymist.git'
+
+[[package]]
+channel = 'arch'
+name = 'tinymist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinymist'

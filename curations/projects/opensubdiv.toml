@@ -1,0 +1,8 @@
+id = 'opensubdiv'
+name = 'opensubdiv'
+
+homepage = 'https://www.opensubdiv.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opensubdiv'

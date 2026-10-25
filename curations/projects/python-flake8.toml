@@ -1,0 +1,8 @@
+id = 'python-flake8'
+name = 'python-flake8'
+
+homepage = 'https://flake8.pycqa.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-flake8'

@@ -1,0 +1,9 @@
+id = 'oras-oras-project'
+name = 'oras'
+
+homepage = 'https://oras.land'
+repository = 'https://github.com/oras-project/oras.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oras'

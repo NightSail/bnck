@@ -1,0 +1,12 @@
+id = 'renderdoc'
+name = 'renderdoc'
+
+homepage = 'https://github.com/baldurk/renderdoc'
+
+[[package]]
+channel = 'arch'
+name = 'renderdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'renderdoc'

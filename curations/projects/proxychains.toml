@@ -1,0 +1,8 @@
+id = 'proxychains'
+name = 'proxychains'
+
+homepage = 'http://proxychains.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'proxychains'

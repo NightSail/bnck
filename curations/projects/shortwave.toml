@@ -1,0 +1,12 @@
+id = 'shortwave'
+name = 'shortwave'
+
+homepage = 'https://apps.gnome.org/Shortwave'
+
+[[package]]
+channel = 'arch'
+name = 'shortwave'
+
+[[package]]
+channel = 'debian'
+name = 'shortwave'

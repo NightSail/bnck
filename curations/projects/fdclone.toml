@@ -1,0 +1,12 @@
+id = 'fdclone'
+name = 'fdclone'
+
+homepage = 'https://hp.vector.co.jp/authors/VA012337/soft/fd'
+
+[[package]]
+channel = 'debian'
+name = 'fdclone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fdclone'

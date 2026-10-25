@@ -1,0 +1,10 @@
+id = 'dhall'
+name = 'dhall'
+
+[[package]]
+channel = 'debian'
+name = 'dhall'
+
+[[package]]
+channel = 'fedora'
+name = 'dhall'

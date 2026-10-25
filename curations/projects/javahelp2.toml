@@ -1,0 +1,8 @@
+id = 'javahelp2'
+name = 'javahelp2'
+
+homepage = 'http://javahelp.java.net'
+
+[[package]]
+channel = 'debian'
+name = 'javahelp2'

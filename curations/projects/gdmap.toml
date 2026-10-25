@@ -1,0 +1,8 @@
+id = 'gdmap'
+name = 'gdmap'
+
+homepage = 'https://gitlab.com/sjohannes/gdmap'
+
+[[package]]
+channel = 'debian'
+name = 'gdmap'

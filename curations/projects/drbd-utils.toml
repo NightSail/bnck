@@ -1,0 +1,12 @@
+id = 'drbd-utils'
+name = 'drbd-utils'
+
+homepage = 'https://www.drbd.org'
+
+[[package]]
+channel = 'debian'
+name = 'drbd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'drbd-utils'

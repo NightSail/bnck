@@ -1,0 +1,8 @@
+id = 'bambootracker'
+name = 'bambootracker'
+
+homepage = 'https://github.com/rerrahkr/BambooTracker'
+
+[[package]]
+channel = 'debian'
+name = 'bambootracker'

@@ -1,0 +1,13 @@
+id = 'asc'
+name = 'asc'
+
+homepage = 'http://www.asc-hq.org'
+repository = 'https://github.com/rorkai/App-Store-Connect-CLI.git'
+
+[[package]]
+channel = 'fedora'
+name = 'asc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asc'

@@ -1,0 +1,8 @@
+id = 'alicloud-vault'
+name = 'alicloud-vault'
+
+homepage = 'https://github.com/arafato/alicloud-vault'
+
+[[package]]
+channel = 'arch'
+name = 'alicloud-vault'

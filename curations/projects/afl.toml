@@ -1,0 +1,12 @@
+id = 'afl'
+name = 'afl++'
+
+homepage = 'https://aflplus.plus'
+
+[[package]]
+channel = 'arch'
+name = 'afl++'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/afl++'

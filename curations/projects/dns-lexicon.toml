@@ -1,0 +1,16 @@
+id = 'dns-lexicon'
+name = 'dns-lexicon'
+
+homepage = 'https://github.com/dns-lexicon/dns-lexicon'
+
+[[package]]
+channel = 'arch'
+name = 'dns-lexicon'
+
+[[package]]
+channel = 'debian'
+name = 'lexicon'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dns-lexicon'

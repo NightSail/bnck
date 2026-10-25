@@ -1,0 +1,9 @@
+id = 'fortio'
+name = 'fortio'
+
+homepage = 'https://fortio.org'
+repository = 'https://github.com/fortio/fortio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fortio'

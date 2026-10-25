@@ -1,0 +1,8 @@
+id = 'google-disk-expand'
+name = 'google-disk-expand'
+
+homepage = 'https://github.com/GoogleCloudPlatform/guest-diskexpand'
+
+[[package]]
+channel = 'fedora'
+name = 'google-disk-expand'

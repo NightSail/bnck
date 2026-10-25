@@ -1,0 +1,8 @@
+id = 'fsm-lite'
+name = 'fsm-lite'
+
+homepage = 'https://github.com/nvalimak/fsm-lite'
+
+[[package]]
+channel = 'debian'
+name = 'fsm-lite'

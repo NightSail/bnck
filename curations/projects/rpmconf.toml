@@ -1,0 +1,8 @@
+id = 'rpmconf'
+name = 'rpmconf'
+
+homepage = 'https://github.com/xsuchy/rpmconf'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmconf'

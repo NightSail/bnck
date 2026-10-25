@@ -1,0 +1,8 @@
+id = 'gitbutler'
+name = 'gitbutler'
+
+homepage = 'https://gitbutler.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gitbutler'

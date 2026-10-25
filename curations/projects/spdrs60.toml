@@ -1,0 +1,8 @@
+id = 'spdrs60'
+name = 'spdrs60'
+
+homepage = 'http://spdrs60.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'spdrs60'

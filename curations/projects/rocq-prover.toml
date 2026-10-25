@@ -1,0 +1,12 @@
+id = 'rocq-prover'
+name = 'rocq-prover'
+
+homepage = 'https://rocq-prover.org'
+
+[[package]]
+channel = 'arch'
+name = 'rocq'
+
+[[package]]
+channel = 'arch'
+name = 'rocqide'

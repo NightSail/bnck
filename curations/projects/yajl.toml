@@ -1,0 +1,12 @@
+id = 'yajl'
+name = 'yajl'
+
+homepage = 'https://github.com/lloyd/yajl'
+
+[[package]]
+channel = 'arch'
+name = 'yajl'
+
+[[package]]
+channel = 'fedora'
+name = 'yajl'

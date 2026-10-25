@@ -1,0 +1,6 @@
+id = 'wmwork'
+name = 'wmwork'
+
+[[package]]
+channel = 'debian'
+name = 'wmwork'

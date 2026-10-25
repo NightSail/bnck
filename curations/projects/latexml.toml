@@ -1,0 +1,17 @@
+id = 'latexml'
+name = 'latexml'
+
+homepage = 'https://dlmf.nist.gov/LaTeXML'
+repository = 'https://github.com/brucemiller/LaTeXML.git'
+
+[[package]]
+channel = 'debian'
+name = 'latexml'
+
+[[package]]
+channel = 'fedora'
+name = 'LaTeXML'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/latexml'

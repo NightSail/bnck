@@ -1,0 +1,12 @@
+id = 'kdevelop-pg-qt'
+name = 'kdevelop-pg-qt'
+
+homepage = 'https://techbase.kde.org/Development/KDevelop-PG-Qt_Introduction'
+
+[[package]]
+channel = 'debian'
+name = 'kdevelop-pg-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'kdevelop-pg-qt'

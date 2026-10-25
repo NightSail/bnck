@@ -1,0 +1,12 @@
+id = 'ledmon'
+name = 'ledmon'
+
+homepage = 'https://github.com/intel/ledmon'
+
+[[package]]
+channel = 'debian'
+name = 'ledmon'
+
+[[package]]
+channel = 'fedora'
+name = 'ledmon'

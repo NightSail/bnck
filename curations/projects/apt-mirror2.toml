@@ -1,0 +1,8 @@
+id = 'apt-mirror2'
+name = 'apt-mirror2'
+
+homepage = 'https://gitlab.com/apt-mirror2/apt-mirror2'
+
+[[package]]
+channel = 'debian'
+name = 'apt-mirror2'

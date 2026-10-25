@@ -1,0 +1,12 @@
+id = 'fastp'
+name = 'fastp'
+
+repository = 'https://github.com/OpenGene/fastp.git'
+
+[[package]]
+channel = 'debian'
+name = 'fastp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastp'

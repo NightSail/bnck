@@ -1,0 +1,16 @@
+id = 'exif'
+name = 'exif'
+
+homepage = 'https://libexif.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'exif'
+
+[[package]]
+channel = 'fedora'
+name = 'exif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exif'

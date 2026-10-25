@@ -1,0 +1,12 @@
+id = 'intelhex'
+name = 'intelhex'
+
+homepage = 'https://github.com/python-intelhex/intelhex'
+
+[[package]]
+channel = 'arch'
+name = 'python-intelhex'
+
+[[package]]
+channel = 'fedora'
+name = 'intelhex'

@@ -1,0 +1,20 @@
+id = 'txt2tags'
+name = 'txt2tags'
+
+homepage = 'http://www.txt2tags.org'
+
+[[package]]
+channel = 'arch'
+name = 'txt2tags'
+
+[[package]]
+channel = 'debian'
+name = 'txt2tags'
+
+[[package]]
+channel = 'fedora'
+name = 'txt2tags'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/txt2tags'

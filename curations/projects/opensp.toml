@@ -1,0 +1,6 @@
+id = 'opensp'
+name = 'opensp'
+
+[[package]]
+channel = 'debian'
+name = 'opensp'

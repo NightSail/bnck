@@ -1,0 +1,8 @@
+id = 'pyflow'
+name = 'pyflow'
+
+homepage = 'https://github.com/David-OConnor/pyflow'
+
+[[package]]
+channel = 'arch'
+name = 'pyflow'

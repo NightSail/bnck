@@ -1,0 +1,9 @@
+id = 'panache'
+name = 'panache'
+
+homepage = 'https://panache.bz'
+repository = 'https://github.com/jolars/panache.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/panache'

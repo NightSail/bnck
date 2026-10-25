@@ -1,0 +1,8 @@
+id = 'lens-magic'
+name = 'lens-magic'
+
+homepage = 'https://github.com/SlouchyButton/lens-magic'
+
+[[package]]
+channel = 'fedora'
+name = 'lens-magic'

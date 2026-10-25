@@ -1,0 +1,8 @@
+id = 'meteo-qt'
+name = 'meteo-qt'
+
+homepage = 'https://github.com/dglent/meteo-qt'
+
+[[package]]
+channel = 'debian'
+name = 'meteo-qt'

@@ -1,0 +1,20 @@
+id = 'xmltoman'
+name = 'xmltoman'
+
+homepage = 'https://sourceforge.net/projects/xmltoman'
+
+[[package]]
+channel = 'arch'
+name = 'xmltoman'
+
+[[package]]
+channel = 'debian'
+name = 'xmltoman'
+
+[[package]]
+channel = 'fedora'
+name = 'xmltoman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmltoman'

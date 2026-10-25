@@ -1,0 +1,8 @@
+id = 'slt'
+name = 'slt'
+
+homepage = 'https://github.com/inconshreveable/slt'
+
+[[package]]
+channel = 'debian'
+name = 'slt'

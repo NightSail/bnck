@@ -1,0 +1,32 @@
+id = 'racket-lang'
+name = 'racket-lang'
+
+homepage = 'https://racket-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'racket'
+
+[[package]]
+channel = 'arch'
+name = 'racket-minimal'
+
+[[package]]
+channel = 'debian'
+name = 'racket'
+
+[[package]]
+channel = 'fedora'
+name = 'racket'
+
+[[package]]
+channel = 'fedora'
+name = 'racket-minimal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/racket'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minimal-racket'

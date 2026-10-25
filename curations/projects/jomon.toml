@@ -1,0 +1,8 @@
+id = 'jomon'
+name = 'jomon'
+
+homepage = 'https://github.com/jo-lund/jomon'
+
+[[package]]
+channel = 'arch'
+name = 'jomon'

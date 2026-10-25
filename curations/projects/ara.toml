@@ -1,0 +1,12 @@
+id = 'ara'
+name = 'ara'
+
+homepage = 'https://codeberg.org/ansible-community/ara'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ara'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ara+server'

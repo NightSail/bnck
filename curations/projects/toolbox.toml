@@ -1,0 +1,20 @@
+id = 'toolbox'
+name = 'ToolBox'
+
+homepage = 'https://www.ncbi.nlm.nih.gov/IEB/ToolBox'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-cn3d'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-data'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-tools-bin'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-tools-x11'

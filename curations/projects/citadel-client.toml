@@ -1,0 +1,8 @@
+id = 'citadel-client'
+name = 'citadel-client'
+
+homepage = 'http://www.citadel.org'
+
+[[package]]
+channel = 'debian'
+name = 'citadel-client'

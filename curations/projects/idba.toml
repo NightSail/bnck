@@ -1,0 +1,12 @@
+id = 'idba'
+name = 'idba'
+
+homepage = 'https://github.com/loneknightpy/idba'
+
+[[package]]
+channel = 'debian'
+name = 'idba'
+
+[[package]]
+channel = 'debian'
+name = 'idba-extra'

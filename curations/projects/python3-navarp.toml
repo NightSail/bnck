@@ -1,0 +1,8 @@
+id = 'python3-navarp'
+name = 'python3-navarp'
+
+homepage = 'https://gitlab.com/fbisti/navarp'
+
+[[package]]
+channel = 'debian'
+name = 'python3-navarp'

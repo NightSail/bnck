@@ -1,0 +1,8 @@
+id = 'plasma-print-manager'
+name = 'plasma-print-manager'
+
+homepage = 'https://invent.kde.org/plasma/print-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-print-manager'

@@ -1,0 +1,8 @@
+id = 'lxrandr'
+name = 'lxrandr'
+
+homepage = 'https://github.com/lxde/lxrandr'
+
+[[package]]
+channel = 'arch'
+name = 'lxrandr'

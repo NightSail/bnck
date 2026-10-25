@@ -1,0 +1,8 @@
+id = 'lgeneral'
+name = 'lgeneral'
+
+homepage = 'https://lgames.sourceforge.io/LGeneral'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lgeneral'

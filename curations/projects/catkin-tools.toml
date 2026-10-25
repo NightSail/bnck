@@ -1,0 +1,8 @@
+id = 'catkin-tools'
+name = 'catkin-tools'
+
+homepage = 'https://github.com/catkin/catkin_tools'
+
+[[package]]
+channel = 'debian'
+name = 'catkin-tools'

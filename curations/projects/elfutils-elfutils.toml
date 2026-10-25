@@ -1,0 +1,16 @@
+id = 'elfutils-elfutils'
+name = 'elfutils'
+
+homepage = 'http://elfutils.org'
+
+[[package]]
+channel = 'fedora'
+name = 'elfutils'
+
+[[package]]
+channel = 'fedora'
+name = 'elfutils-debuginfod'
+
+[[package]]
+channel = 'fedora'
+name = 'elfutils-debuginfod-client'

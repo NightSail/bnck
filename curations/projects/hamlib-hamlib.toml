@@ -1,0 +1,8 @@
+id = 'hamlib-hamlib'
+name = 'hamlib'
+
+homepage = 'https://hamlib.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'hamlib'

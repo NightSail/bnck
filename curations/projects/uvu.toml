@@ -1,0 +1,8 @@
+id = 'uvu'
+name = 'uvu'
+
+homepage = 'https://github.com/lukeed/uvu'
+
+[[package]]
+channel = 'debian'
+name = 'uvu'

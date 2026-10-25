@@ -1,0 +1,8 @@
+id = 'liberation-circuit'
+name = 'liberation-circuit'
+
+homepage = 'https://linleyh.itch.io/liberation-circuit'
+
+[[package]]
+channel = 'fedora'
+name = 'liberation-circuit'

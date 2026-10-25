@@ -1,0 +1,8 @@
+id = 'ghc-pretty-simple-devel'
+name = 'ghc-pretty-simple-devel'
+
+homepage = 'https://hackage.haskell.org/package/pretty-simple'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-pretty-simple-devel'

@@ -1,0 +1,13 @@
+id = 'butane'
+name = 'butane'
+
+homepage = 'https://coreos.github.io/butane'
+repository = 'https://github.com/coreos/butane.git'
+
+[[package]]
+channel = 'fedora'
+name = 'butane'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/butane'

@@ -1,0 +1,8 @@
+id = 'hugs98'
+name = 'hugs98'
+
+homepage = 'http://www.haskell.org/hugs'
+
+[[package]]
+channel = 'fedora'
+name = 'hugs98'

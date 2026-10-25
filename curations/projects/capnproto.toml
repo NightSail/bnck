@@ -1,0 +1,16 @@
+id = 'capnproto'
+name = 'capnproto'
+
+homepage = 'https://capnproto.org'
+
+[[package]]
+channel = 'arch'
+name = 'capnproto'
+
+[[package]]
+channel = 'debian'
+name = 'capnproto'
+
+[[package]]
+channel = 'fedora'
+name = 'capnproto'

@@ -1,0 +1,12 @@
+id = 'travelccm'
+name = 'travelccm'
+
+homepage = 'https://github.com/airsim/travelccm'
+
+[[package]]
+channel = 'fedora'
+name = 'travelccm'
+
+[[package]]
+channel = 'fedora'
+name = 'travelccm-devel'

@@ -1,0 +1,8 @@
+id = 'mathic-tools'
+name = 'mathic-tools'
+
+homepage = 'https://github.com/Macaulay2/mathic'
+
+[[package]]
+channel = 'fedora'
+name = 'mathic-tools'

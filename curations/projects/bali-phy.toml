@@ -1,0 +1,8 @@
+id = 'bali-phy'
+name = 'bali-phy'
+
+homepage = 'http://www.bali-phy.org'
+
+[[package]]
+channel = 'debian'
+name = 'bali-phy'

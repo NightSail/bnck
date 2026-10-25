@@ -1,0 +1,8 @@
+id = 'nama'
+name = 'nama'
+
+homepage = 'https://freeshell.de/~bolangi/nama'
+
+[[package]]
+channel = 'debian'
+name = 'nama'

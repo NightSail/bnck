@@ -1,0 +1,8 @@
+id = 'resfinder'
+name = 'resfinder'
+
+homepage = 'https://bitbucket.org/genomicepidemiology/resfinder'
+
+[[package]]
+channel = 'debian'
+name = 'resfinder'

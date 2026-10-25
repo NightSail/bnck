@@ -1,0 +1,8 @@
+id = 'fgetty'
+name = 'fgetty'
+
+homepage = 'https://www.fefe.de/fgetty'
+
+[[package]]
+channel = 'debian'
+name = 'fgetty'

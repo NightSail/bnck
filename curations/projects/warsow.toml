@@ -1,0 +1,16 @@
+id = 'warsow'
+name = 'warsow'
+
+homepage = 'https://www.warsow.net'
+
+[[package]]
+channel = 'arch'
+name = 'warsow'
+
+[[package]]
+channel = 'fedora'
+name = 'warsow'
+
+[[package]]
+channel = 'fedora'
+name = 'warsow-server'

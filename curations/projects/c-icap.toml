@@ -1,0 +1,28 @@
+id = 'c-icap'
+name = 'c-icap'
+
+homepage = 'http://c-icap.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'c-icap'
+
+[[package]]
+channel = 'debian'
+name = 'libc-icap-mod-urlcheck'
+
+[[package]]
+channel = 'debian'
+name = 'libicapapi-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'c-icap'
+
+[[package]]
+channel = 'fedora'
+name = 'c-icap-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'c-icap-modules'

@@ -1,0 +1,12 @@
+id = 'epix'
+name = 'epix'
+
+homepage = 'https://mathcs.holycross.edu/~ahwang/current/ePiX.html'
+
+[[package]]
+channel = 'debian'
+name = 'epix'
+
+[[package]]
+channel = 'fedora'
+name = 'epix'

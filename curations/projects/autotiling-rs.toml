@@ -1,0 +1,8 @@
+id = 'autotiling-rs'
+name = 'autotiling-rs'
+
+homepage = 'https://github.com/ammgws/autotiling-rs'
+
+[[package]]
+channel = 'arch'
+name = 'autotiling-rs'

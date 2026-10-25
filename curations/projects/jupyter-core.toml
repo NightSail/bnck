@@ -1,0 +1,8 @@
+id = 'jupyter-core'
+name = 'jupyter-core'
+
+homepage = 'https://github.com/jupyter/jupyter_core'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-core'

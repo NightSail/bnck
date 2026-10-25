@@ -1,0 +1,16 @@
+id = 'liblc3'
+name = 'liblc3'
+
+homepage = 'https://github.com/google/liblc3'
+
+[[package]]
+channel = 'arch'
+name = 'liblc3'
+
+[[package]]
+channel = 'debian'
+name = 'liblc3-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'liblc3-utils'

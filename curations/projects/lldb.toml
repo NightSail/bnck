@@ -1,0 +1,24 @@
+id = 'lldb'
+name = 'lldb'
+
+homepage = 'https://lldb.llvm.org'
+
+[[package]]
+channel = 'arch'
+name = 'lldb'
+
+[[package]]
+channel = 'arch'
+name = 'lldb-mi'
+
+[[package]]
+channel = 'fedora'
+name = 'lldb'
+
+[[package]]
+channel = 'fedora'
+name = 'lldb19'
+
+[[package]]
+channel = 'fedora'
+name = 'lldb20'

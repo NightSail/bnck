@@ -1,0 +1,8 @@
+id = 'sxcs'
+name = 'sxcs'
+
+homepage = 'https://codeberg.org/NRK/sxcs'
+
+[[package]]
+channel = 'debian'
+name = 'sxcs'

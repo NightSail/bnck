@@ -1,0 +1,8 @@
+id = 'fuelmanager'
+name = 'fuelmanager'
+
+homepage = 'https://gitlab.com/kc8hfi/fuelmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'fuelmanager'

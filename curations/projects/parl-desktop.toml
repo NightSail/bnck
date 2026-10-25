@@ -1,0 +1,8 @@
+id = 'parl-desktop'
+name = 'parl-desktop'
+
+homepage = 'https://wiki.debian.org/DebianParl'
+
+[[package]]
+channel = 'debian'
+name = 'parl-desktop'

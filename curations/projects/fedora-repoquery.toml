@@ -1,0 +1,12 @@
+id = 'fedora-repoquery'
+name = 'fedora-repoquery'
+
+homepage = 'https://hackage.haskell.org/package/fedora-repoquery'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-repoquery'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-repoquery-short'

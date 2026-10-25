@@ -1,0 +1,8 @@
+id = 'ihaskell'
+name = 'ihaskell'
+
+homepage = 'https://github.com/gibiansky/IHaskell'
+
+[[package]]
+channel = 'arch'
+name = 'ihaskell'

@@ -1,0 +1,12 @@
+id = 'goverlay'
+name = 'goverlay'
+
+homepage = 'https://github.com/benjamimgois/goverlay'
+
+[[package]]
+channel = 'arch'
+name = 'goverlay'
+
+[[package]]
+channel = 'fedora'
+name = 'goverlay'

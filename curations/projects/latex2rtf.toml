@@ -1,0 +1,17 @@
+id = 'latex2rtf'
+name = 'latex2rtf'
+
+homepage = 'http://latex2rtf.sourceforge.net'
+repository = 'https://github.com/latex2rtf/latex2rtf.git'
+
+[[package]]
+channel = 'debian'
+name = 'latex2rtf'
+
+[[package]]
+channel = 'fedora'
+name = 'latex2rtf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/latex2rtf'

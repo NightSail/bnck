@@ -1,0 +1,32 @@
+id = 'qastools'
+name = 'qastools'
+
+homepage = 'https://gitlab.com/sebholt/qastools'
+
+[[package]]
+channel = 'arch'
+name = 'qastools'
+
+[[package]]
+channel = 'debian'
+name = 'qasconfig'
+
+[[package]]
+channel = 'debian'
+name = 'qashctl'
+
+[[package]]
+channel = 'debian'
+name = 'qasmixer'
+
+[[package]]
+channel = 'fedora'
+name = 'qasconfig'
+
+[[package]]
+channel = 'fedora'
+name = 'qashctl'
+
+[[package]]
+channel = 'fedora'
+name = 'qasmixer'

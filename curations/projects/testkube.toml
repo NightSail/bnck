@@ -1,0 +1,9 @@
+id = 'testkube'
+name = 'testkube'
+
+homepage = 'https://testkube.io'
+repository = 'https://github.com/kubeshop/testkube.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/testkube'

@@ -1,0 +1,8 @@
+id = 'runawk'
+name = 'runawk'
+
+homepage = 'https://github.com/cheusov/runawk'
+
+[[package]]
+channel = 'debian'
+name = 'runawk'

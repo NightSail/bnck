@@ -1,0 +1,8 @@
+id = 'ftpcopy'
+name = 'ftpcopy'
+
+homepage = 'https://www.ohse.de/uwe/ftpcopy.html'
+
+[[package]]
+channel = 'debian'
+name = 'ftpcopy'

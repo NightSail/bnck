@@ -1,0 +1,8 @@
+id = 'aws-amplify'
+name = 'aws-amplify'
+
+homepage = 'https://aws.amazon.com/amplify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-amplify'

@@ -1,0 +1,12 @@
+id = 'cargo-hack'
+name = 'cargo-hack'
+
+repository = 'https://github.com/taiki-e/cargo-hack.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-hack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-hack'

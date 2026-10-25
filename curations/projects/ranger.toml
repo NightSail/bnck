@@ -5,5 +5,17 @@ homepage = 'https://ranger.fm'
 repository = 'https://github.com/ranger/ranger'
 
 [[package]]
+channel = 'arch'
+name = 'ranger'
+
+[[package]]
+channel = 'debian'
+name = 'ranger'
+
+[[package]]
+channel = 'fedora'
+name = 'ranger'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ranger'

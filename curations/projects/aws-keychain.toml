@@ -1,0 +1,8 @@
+id = 'aws-keychain'
+name = 'aws-keychain'
+
+homepage = 'https://github.com/pda/aws-keychain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-keychain'

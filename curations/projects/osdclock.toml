@@ -1,0 +1,6 @@
+id = 'osdclock'
+name = 'osdclock'
+
+[[package]]
+channel = 'debian'
+name = 'osdclock'

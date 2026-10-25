@@ -1,0 +1,8 @@
+id = 'ruby-puppet-metadata'
+name = 'ruby-puppet_metadata'
+
+homepage = 'https://github.com/voxpupuli/puppet_metadata'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-puppet_metadata'

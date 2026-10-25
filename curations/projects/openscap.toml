@@ -1,0 +1,28 @@
+id = 'openscap'
+name = 'openscap'
+
+homepage = 'https://www.open-scap.org'
+
+[[package]]
+channel = 'arch'
+name = 'openscap'
+
+[[package]]
+channel = 'debian'
+name = 'openscap-scanner'
+
+[[package]]
+channel = 'debian'
+name = 'openscap-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'openscap-containers'
+
+[[package]]
+channel = 'fedora'
+name = 'openscap-scanner'
+
+[[package]]
+channel = 'fedora'
+name = 'openscap-utils'

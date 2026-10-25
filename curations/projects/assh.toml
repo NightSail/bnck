@@ -1,0 +1,9 @@
+id = 'assh'
+name = 'assh'
+
+homepage = 'https://v1.manfred.life/assh'
+repository = 'https://github.com/moul/assh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/assh'

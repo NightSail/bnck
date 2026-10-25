@@ -1,0 +1,8 @@
+id = 'postfix-tlspol'
+name = 'postfix-tlspol'
+
+homepage = 'https://github.com/Zuplu/postfix-tlspol'
+
+[[package]]
+channel = 'arch'
+name = 'postfix-tlspol'

@@ -1,0 +1,8 @@
+id = 'cutter-re'
+name = 'cutter-re'
+
+homepage = 'https://cutter.re'
+
+[[package]]
+channel = 'fedora'
+name = 'cutter-re'

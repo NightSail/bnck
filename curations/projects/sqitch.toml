@@ -1,0 +1,8 @@
+id = 'sqitch'
+name = 'sqitch'
+
+homepage = 'https://sqitch.org'
+
+[[package]]
+channel = 'debian'
+name = 'sqitch'

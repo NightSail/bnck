@@ -1,0 +1,8 @@
+id = 'flexbar'
+name = 'flexbar'
+
+homepage = 'https://github.com/seqan/flexbar'
+
+[[package]]
+channel = 'debian'
+name = 'flexbar'

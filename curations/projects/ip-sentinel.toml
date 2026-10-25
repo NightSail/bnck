@@ -1,0 +1,8 @@
+id = 'ip-sentinel'
+name = 'ip-sentinel'
+
+homepage = 'http://www.nongnu.org/ip-sentinel'
+
+[[package]]
+channel = 'fedora'
+name = 'ip-sentinel'

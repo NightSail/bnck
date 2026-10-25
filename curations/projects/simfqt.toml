@@ -1,0 +1,12 @@
+id = 'simfqt'
+name = 'simfqt'
+
+homepage = 'https://github.com/airsim/simfqt'
+
+[[package]]
+channel = 'fedora'
+name = 'simfqt'
+
+[[package]]
+channel = 'fedora'
+name = 'simfqt-devel'

@@ -1,0 +1,8 @@
+id = 'interception-dual-function-keys'
+name = 'interception-dual-function-keys'
+
+homepage = 'https://gitlab.com/interception/linux/plugins/dual-function-keys'
+
+[[package]]
+channel = 'arch'
+name = 'interception-dual-function-keys'

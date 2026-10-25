@@ -1,0 +1,12 @@
+id = 'qvge'
+name = 'qvge'
+
+homepage = 'https://github.com/ArsMasiuk/qvge'
+
+[[package]]
+channel = 'debian'
+name = 'qvge'
+
+[[package]]
+channel = 'fedora'
+name = 'qvge'

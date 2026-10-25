@@ -1,0 +1,8 @@
+id = 'ruby-network-interface'
+name = 'ruby-network_interface'
+
+homepage = 'https://github.com/rapid7/network_interface'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-network_interface'

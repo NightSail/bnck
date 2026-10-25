@@ -1,0 +1,8 @@
+id = 'ndiff'
+name = 'ndiff'
+
+homepage = 'https://www.math.utah.edu/~beebe/software/ndiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ndiff'

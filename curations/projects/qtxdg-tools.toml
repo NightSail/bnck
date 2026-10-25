@@ -1,0 +1,12 @@
+id = 'qtxdg-tools'
+name = 'qtxdg-tools'
+
+homepage = 'https://github.com/lxqt/qtxdg-tools'
+
+[[package]]
+channel = 'arch'
+name = 'qtxdg-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qtxdg-tools'

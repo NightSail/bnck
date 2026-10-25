@@ -1,0 +1,37 @@
+id = 'imagemagick'
+name = 'imagemagick'
+
+homepage = 'https://www.imagemagick.org'
+repository = 'https://github.com/ImageMagick/ImageMagick.git'
+
+[[package]]
+channel = 'arch'
+name = 'imagemagick'
+
+[[package]]
+channel = 'debian'
+name = 'imagemagick-7.q16'
+
+[[package]]
+channel = 'debian'
+name = 'imagemagick-7.q16hdri'
+
+[[package]]
+channel = 'fedora'
+name = 'ImageMagick'
+
+[[package]]
+channel = 'fedora'
+name = 'ImageMagick-c++-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'ImageMagick-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imagemagick'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imagemagick-full'

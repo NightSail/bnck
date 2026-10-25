@@ -8,6 +8,14 @@ channel = 'arch'
 name = 'lshw'
 
 [[package]]
+channel = 'debian'
+name = 'lshw'
+
+[[package]]
+channel = 'debian'
+name = 'lshw-gtk'
+
+[[package]]
 channel = 'fedora'
 name = 'lshw'
 

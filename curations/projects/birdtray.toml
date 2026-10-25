@@ -1,0 +1,8 @@
+id = 'birdtray'
+name = 'birdtray'
+
+homepage = 'https://github.com/gyunaev/birdtray'
+
+[[package]]
+channel = 'debian'
+name = 'birdtray'

@@ -1,0 +1,16 @@
+id = 'dblatex'
+name = 'dblatex'
+
+homepage = 'https://dblatex.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'dblatex'
+
+[[package]]
+channel = 'debian'
+name = 'dblatex'
+
+[[package]]
+channel = 'fedora'
+name = 'dblatex'

@@ -1,0 +1,16 @@
+id = 'bash-language-server'
+name = 'bash-language-server'
+
+homepage = 'https://github.com/bash-lsp/bash-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'bash-language-server'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-bash-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bash-language-server'

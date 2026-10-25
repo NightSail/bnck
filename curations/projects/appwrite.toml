@@ -1,0 +1,8 @@
+id = 'appwrite'
+name = 'appwrite'
+
+homepage = 'https://appwrite.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/appwrite'

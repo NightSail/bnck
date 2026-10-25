@@ -1,0 +1,8 @@
+id = 'uarmsolver'
+name = 'uARMSolver'
+
+homepage = 'https://github.com/firefly-cpp/uARMSolver'
+
+[[package]]
+channel = 'fedora'
+name = 'uARMSolver'

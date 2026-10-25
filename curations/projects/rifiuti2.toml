@@ -1,0 +1,8 @@
+id = 'rifiuti2'
+name = 'rifiuti2'
+
+homepage = 'https://abelcheung.github.io/rifiuti2'
+
+[[package]]
+channel = 'debian'
+name = 'rifiuti2'

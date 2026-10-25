@@ -1,0 +1,8 @@
+id = 'tta'
+name = 'tta'
+
+homepage = 'https://sourceforge.net/projects/tta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tta'

@@ -1,0 +1,16 @@
+id = 'awesome'
+name = 'awesome'
+
+homepage = 'https://awesomewm.org'
+
+[[package]]
+channel = 'arch'
+name = 'awesome'
+
+[[package]]
+channel = 'debian'
+name = 'awesome'
+
+[[package]]
+channel = 'fedora'
+name = 'awesome'

@@ -1,0 +1,20 @@
+id = 'gengetopt'
+name = 'gengetopt'
+
+homepage = 'https://www.gnu.org/software/gengetopt'
+
+[[package]]
+channel = 'arch'
+name = 'gengetopt'
+
+[[package]]
+channel = 'debian'
+name = 'gengetopt'
+
+[[package]]
+channel = 'fedora'
+name = 'gengetopt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gengetopt'

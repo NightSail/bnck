@@ -1,0 +1,8 @@
+id = 'bladerf-nuand'
+name = 'bladerf'
+
+homepage = 'https://github.com/Nuand/bladeRF'
+
+[[package]]
+channel = 'arch'
+name = 'bladerf'

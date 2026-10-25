@@ -1,0 +1,21 @@
+id = 'mujs'
+name = 'mujs'
+
+homepage = 'https://mujs.com'
+repository = 'https://codeberg.org/ccxvii/mujs.git'
+
+[[package]]
+channel = 'arch'
+name = 'mujs'
+
+[[package]]
+channel = 'debian'
+name = 'mujs'
+
+[[package]]
+channel = 'fedora'
+name = 'mujs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mujs'

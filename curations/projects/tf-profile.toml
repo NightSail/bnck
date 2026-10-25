@@ -1,0 +1,8 @@
+id = 'tf-profile'
+name = 'tf-profile'
+
+repository = 'https://github.com/datarootsio/tf-profile.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tf-profile'

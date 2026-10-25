@@ -1,0 +1,36 @@
+id = 'xapian'
+name = 'xapian'
+
+homepage = 'https://xapian.org'
+
+[[package]]
+channel = 'arch'
+name = 'xapian-core'
+
+[[package]]
+channel = 'debian'
+name = 'libxapian-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xapian-omega'
+
+[[package]]
+channel = 'debian'
+name = 'xapian-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'xapian-core'
+
+[[package]]
+channel = 'fedora'
+name = 'xapian-core-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/omega'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xapian'

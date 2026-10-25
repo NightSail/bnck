@@ -1,0 +1,20 @@
+id = 'mpop'
+name = 'mpop'
+
+homepage = 'https://marlam.de/mpop'
+
+[[package]]
+channel = 'arch'
+name = 'mpop'
+
+[[package]]
+channel = 'debian'
+name = 'mpop'
+
+[[package]]
+channel = 'fedora'
+name = 'mpop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpop'

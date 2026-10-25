@@ -1,0 +1,12 @@
+id = 'shyaml'
+name = 'shyaml'
+
+repository = 'https://github.com/0k/shyaml.git'
+
+[[package]]
+channel = 'fedora'
+name = 'shyaml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shyaml'

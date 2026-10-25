@@ -1,0 +1,8 @@
+id = 'ruby-geocoder'
+name = 'ruby-geocoder'
+
+homepage = 'http://www.rubygeocoder.com'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-geocoder'

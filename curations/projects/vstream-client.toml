@@ -1,0 +1,6 @@
+id = 'vstream-client'
+name = 'vstream-client'
+
+[[package]]
+channel = 'debian'
+name = 'vstream-client'

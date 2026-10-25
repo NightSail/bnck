@@ -1,0 +1,8 @@
+id = 'python3-raygeo'
+name = 'python3-raygeo'
+
+homepage = 'https://github.com/barebaric/raygeo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-raygeo'

@@ -1,0 +1,17 @@
+id = 'jsonnet'
+name = 'jsonnet'
+
+homepage = 'https://jsonnet.org'
+repository = 'https://github.com/google/jsonnet.git'
+
+[[package]]
+channel = 'debian'
+name = 'jsonnet'
+
+[[package]]
+channel = 'fedora'
+name = 'jsonnet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsonnet'

@@ -1,0 +1,8 @@
+id = 'portmidi-tools'
+name = 'portmidi-tools'
+
+homepage = 'http://portmedia.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'portmidi-tools'

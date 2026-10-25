@@ -1,0 +1,8 @@
+id = 'dgae'
+name = 'dgae'
+
+homepage = 'http://membres.lycos.fr/agisite/agisite.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'dgae'

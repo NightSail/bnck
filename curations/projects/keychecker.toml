@@ -1,0 +1,8 @@
+id = 'keychecker'
+name = 'keychecker'
+
+homepage = 'https://github.com/jds2001/keychecker'
+
+[[package]]
+channel = 'fedora'
+name = 'keychecker'

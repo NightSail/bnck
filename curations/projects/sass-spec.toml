@@ -1,0 +1,8 @@
+id = 'sass-spec'
+name = 'sass-spec'
+
+homepage = 'https://github.com/sass/sass-spec'
+
+[[package]]
+channel = 'debian'
+name = 'sass-spec'

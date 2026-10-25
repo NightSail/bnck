@@ -1,0 +1,8 @@
+id = 'sigsum-log-go'
+name = 'sigsum-log-go'
+
+homepage = 'https://git.glasklar.is/sigsum/core/log-go'
+
+[[package]]
+channel = 'debian'
+name = 'sigsum-log-go'

@@ -1,0 +1,12 @@
+id = 'base64'
+name = 'base64'
+
+homepage = 'https://github.com/aklomp/base64'
+
+[[package]]
+channel = 'debian'
+name = 'aklomp-base64-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aklomp-base64'

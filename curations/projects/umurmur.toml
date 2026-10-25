@@ -1,0 +1,8 @@
+id = 'umurmur'
+name = 'umurmur'
+
+homepage = 'https://github.com/umurmur/umurmur'
+
+[[package]]
+channel = 'arch'
+name = 'umurmur'

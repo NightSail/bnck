@@ -14,3 +14,7 @@ name = 'nethogs'
 [[package]]
 channel = 'fedora'
 name = 'nethogs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nethogs'

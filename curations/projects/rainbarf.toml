@@ -1,0 +1,8 @@
+id = 'rainbarf'
+name = 'rainbarf'
+
+repository = 'https://github.com/creaktive/rainbarf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rainbarf'

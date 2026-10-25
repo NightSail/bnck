@@ -1,0 +1,8 @@
+id = 'xlax'
+name = 'xlax'
+
+homepage = 'https://hea-www.harvard.edu/~fine/Tech/xlax.html'
+
+[[package]]
+channel = 'debian'
+name = 'xlax'

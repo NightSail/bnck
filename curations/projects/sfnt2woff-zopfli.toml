@@ -1,0 +1,12 @@
+id = 'sfnt2woff-zopfli'
+name = 'sfnt2woff-zopfli'
+
+homepage = 'https://github.com/bramstein/sfnt2woff-zopfli'
+
+[[package]]
+channel = 'debian'
+name = 'sfnt2woff-zopfli'
+
+[[package]]
+channel = 'fedora'
+name = 'sfnt2woff-zopfli'

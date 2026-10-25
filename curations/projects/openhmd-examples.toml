@@ -1,0 +1,8 @@
+id = 'openhmd-examples'
+name = 'openhmd-examples'
+
+homepage = 'http://www.openhmd.net'
+
+[[package]]
+channel = 'fedora'
+name = 'openhmd-examples'

@@ -1,0 +1,8 @@
+id = 'python3-advanced-alchemy'
+name = 'python3-advanced-alchemy'
+
+homepage = 'https://github.com/litestar-org/advanced-alchemy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-advanced-alchemy'

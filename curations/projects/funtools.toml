@@ -1,0 +1,8 @@
+id = 'funtools'
+name = 'funtools'
+
+homepage = 'https://github.com/ericmandel/funtools'
+
+[[package]]
+channel = 'debian'
+name = 'funtools'

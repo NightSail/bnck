@@ -1,0 +1,8 @@
+id = 'xrootd-xrootd'
+name = 'xrootd'
+
+homepage = 'https://xrootd.slac.stanford.edu'
+
+[[package]]
+channel = 'arch'
+name = 'xrootd'

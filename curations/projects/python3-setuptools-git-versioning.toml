@@ -1,0 +1,8 @@
+id = 'python3-setuptools-git-versioning'
+name = 'python3-setuptools-git-versioning'
+
+homepage = 'https://setuptools-git-versioning.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-setuptools-git-versioning'

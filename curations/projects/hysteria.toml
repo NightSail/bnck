@@ -1,0 +1,9 @@
+id = 'hysteria'
+name = 'hysteria'
+
+homepage = 'https://hysteria.network'
+repository = 'https://github.com/apernet/hysteria.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hysteria'

@@ -1,0 +1,16 @@
+id = 'pgbackrest'
+name = 'pgbackrest'
+
+homepage = 'https://www.pgbackrest.org'
+
+[[package]]
+channel = 'arch'
+name = 'pgbackrest'
+
+[[package]]
+channel = 'debian'
+name = 'pgbackrest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgbackrest'

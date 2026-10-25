@@ -1,0 +1,8 @@
+id = 'fpm'
+name = 'fpm'
+
+homepage = 'https://fpm.fortran-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fpm'

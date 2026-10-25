@@ -1,0 +1,32 @@
+id = 'ndctl'
+name = 'ndctl'
+
+homepage = 'https://github.com/pmem/ndctl'
+
+[[package]]
+channel = 'arch'
+name = 'ndctl'
+
+[[package]]
+channel = 'debian'
+name = 'cxl'
+
+[[package]]
+channel = 'debian'
+name = 'daxctl'
+
+[[package]]
+channel = 'debian'
+name = 'ndctl'
+
+[[package]]
+channel = 'fedora'
+name = 'cxl-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'daxctl'
+
+[[package]]
+channel = 'fedora'
+name = 'ndctl'

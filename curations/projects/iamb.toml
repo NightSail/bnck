@@ -1,0 +1,8 @@
+id = 'iamb'
+name = 'iamb'
+
+homepage = 'https://iamb.chat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iamb'

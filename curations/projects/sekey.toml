@@ -1,0 +1,8 @@
+id = 'sekey'
+name = 'sekey'
+
+homepage = 'https://github.com/sekey/sekey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sekey'

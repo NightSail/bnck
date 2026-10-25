@@ -1,0 +1,17 @@
+id = 'todoman'
+name = 'todoman'
+
+homepage = 'https://todoman.readthedocs.io'
+repository = 'https://github.com/pimutils/todoman.git'
+
+[[package]]
+channel = 'arch'
+name = 'todoman'
+
+[[package]]
+channel = 'debian'
+name = 'todoman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/todoman'

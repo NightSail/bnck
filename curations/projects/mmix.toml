@@ -1,0 +1,8 @@
+id = 'mmix'
+name = 'mmix'
+
+homepage = 'https://mmix.cs.hm.edu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmix'

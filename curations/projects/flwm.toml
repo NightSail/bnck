@@ -1,0 +1,8 @@
+id = 'flwm'
+name = 'flwm'
+
+homepage = 'http://flwm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'flwm'

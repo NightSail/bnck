@@ -1,0 +1,9 @@
+id = 'opencv-opencv'
+name = 'opencv'
+
+homepage = 'https://opencv.org'
+repository = 'https://github.com/opencv/opencv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencv'

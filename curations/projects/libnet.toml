@@ -1,0 +1,20 @@
+id = 'libnet'
+name = 'libnet'
+
+homepage = 'https://codedocs.xyz/libnet/libnet'
+
+[[package]]
+channel = 'arch'
+name = 'libnet'
+
+[[package]]
+channel = 'debian'
+name = 'libnet1-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libnet-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnet'

@@ -1,0 +1,8 @@
+id = 'calamares-settings-mobian'
+name = 'calamares-settings-mobian'
+
+homepage = 'https://salsa.debian.org/Mobian-team/calamares-settings-mobian'
+
+[[package]]
+channel = 'debian'
+name = 'calamares-settings-mobian'

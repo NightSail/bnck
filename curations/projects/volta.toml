@@ -1,0 +1,9 @@
+id = 'volta'
+name = 'volta'
+
+homepage = 'https://volta.sh'
+repository = 'https://github.com/volta-cli/volta.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/volta'

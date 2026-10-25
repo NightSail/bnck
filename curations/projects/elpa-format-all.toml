@@ -1,0 +1,8 @@
+id = 'elpa-format-all'
+name = 'elpa-format-all'
+
+homepage = 'https://github.com/lassik/emacs-format-all-the-code'
+
+[[package]]
+channel = 'debian'
+name = 'elpa-format-all'

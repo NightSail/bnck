@@ -1,0 +1,8 @@
+id = 'psortb'
+name = 'psortb'
+
+homepage = 'https://www.psort.org'
+
+[[package]]
+channel = 'debian'
+name = 'psortb'

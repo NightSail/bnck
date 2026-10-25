@@ -1,0 +1,8 @@
+id = 'zsh-patina'
+name = 'zsh-patina'
+
+repository = 'https://github.com/michel-kraemer/zsh-patina.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsh-patina'

@@ -1,0 +1,12 @@
+id = 'statik'
+name = 'statik'
+
+homepage = 'https://github.com/rakyll/statik'
+
+[[package]]
+channel = 'debian'
+name = 'golang-statik'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-rakyll-statik'

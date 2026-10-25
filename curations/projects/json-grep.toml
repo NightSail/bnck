@@ -1,0 +1,8 @@
+id = 'json-grep'
+name = 'json-grep'
+
+repository = 'https://gitlab.com/cky/json-grep'
+
+[[package]]
+channel = 'crates.io'
+name = 'json-grep'

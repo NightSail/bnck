@@ -1,0 +1,8 @@
+id = 'glogic'
+name = 'glogic'
+
+homepage = 'https://launchpad.net/glogic'
+
+[[package]]
+channel = 'debian'
+name = 'glogic'

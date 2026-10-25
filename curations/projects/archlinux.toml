@@ -1,0 +1,12 @@
+id = 'archlinux'
+name = 'archlinux'
+
+homepage = 'https://archlinux.org'
+
+[[package]]
+channel = 'arch'
+name = 'cauchy'
+
+[[package]]
+channel = 'arch'
+name = 'rpmextract'

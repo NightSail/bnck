@@ -1,0 +1,8 @@
+id = 'wmbutton'
+name = 'wmbutton'
+
+homepage = 'https://www.dockapps.net/wmbutton'
+
+[[package]]
+channel = 'debian'
+name = 'wmbutton'

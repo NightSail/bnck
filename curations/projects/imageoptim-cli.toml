@@ -1,0 +1,9 @@
+id = 'imageoptim-cli'
+name = 'imageoptim-cli'
+
+homepage = 'https://jamiemason.github.io/ImageOptim-CLI'
+repository = 'https://github.com/JamieMason/ImageOptim-CLI.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imageoptim-cli'

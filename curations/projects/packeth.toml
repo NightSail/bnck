@@ -1,0 +1,16 @@
+id = 'packeth'
+name = 'packeth'
+
+homepage = 'http://packeth.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'packeth'
+
+[[package]]
+channel = 'debian'
+name = 'packeth'
+
+[[package]]
+channel = 'fedora'
+name = 'packETH'

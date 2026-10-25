@@ -1,0 +1,12 @@
+id = 'cargo-show-asm'
+name = 'cargo-show-asm'
+
+repository = 'https://github.com/pacak/cargo-show-asm.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-show-asm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-show-asm'

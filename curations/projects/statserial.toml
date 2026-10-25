@@ -1,0 +1,12 @@
+id = 'statserial'
+name = 'statserial'
+
+homepage = 'http://www.oocities.org/jefftranter@rogers.com'
+
+[[package]]
+channel = 'debian'
+name = 'statserial'
+
+[[package]]
+channel = 'fedora'
+name = 'statserial'

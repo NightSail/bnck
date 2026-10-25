@@ -1,0 +1,8 @@
+id = 'prestd'
+name = 'prestd'
+
+repository = 'https://github.com/prest/prest.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prestd'

@@ -1,0 +1,9 @@
+id = 'vacuum'
+name = 'vacuum'
+
+homepage = 'https://quobix.com/vacuum'
+repository = 'https://github.com/daveshanley/vacuum.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vacuum'

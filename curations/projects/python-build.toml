@@ -1,0 +1,8 @@
+id = 'python-build'
+name = 'python-build'
+
+repository = 'https://github.com/pypa/build.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-build'

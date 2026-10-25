@@ -1,0 +1,8 @@
+id = 'r2spec'
+name = 'R2spec'
+
+homepage = 'https://fedorahosted.org/r2spec'
+
+[[package]]
+channel = 'fedora'
+name = 'R2spec'

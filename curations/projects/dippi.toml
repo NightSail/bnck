@@ -1,0 +1,8 @@
+id = 'dippi'
+name = 'dippi'
+
+homepage = 'https://github.com/cassidyjames/dippi'
+
+[[package]]
+channel = 'fedora'
+name = 'dippi'

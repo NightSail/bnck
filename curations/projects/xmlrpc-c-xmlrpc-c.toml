@@ -1,0 +1,8 @@
+id = 'xmlrpc-c-xmlrpc-c'
+name = 'xmlrpc-c'
+
+homepage = 'https://xmlrpc-c.sourceforge.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmlrpc-c'

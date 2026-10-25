@@ -1,0 +1,8 @@
+id = 'affiche-app'
+name = 'affiche.app'
+
+homepage = 'http://wiki.gnustep.org/index.php/Affiche.app'
+
+[[package]]
+channel = 'debian'
+name = 'affiche.app'

@@ -1,0 +1,28 @@
+id = 'miniupnp'
+name = 'miniupnp'
+
+homepage = 'https://miniupnp.tuxfamily.org'
+
+[[package]]
+channel = 'arch'
+name = 'miniupnpc'
+
+[[package]]
+channel = 'arch'
+name = 'miniupnpd'
+
+[[package]]
+channel = 'debian'
+name = 'miniupnpc'
+
+[[package]]
+channel = 'debian'
+name = 'miniupnpd-iptables'
+
+[[package]]
+channel = 'debian'
+name = 'miniupnpd-nftables'
+
+[[package]]
+channel = 'fedora'
+name = 'miniupnpd'

@@ -1,0 +1,8 @@
+id = 'zxcvbn-c'
+name = 'zxcvbn-c'
+
+homepage = 'https://github.com/tsyrogit/zxcvbn-c'
+
+[[package]]
+channel = 'fedora'
+name = 'zxcvbn-c'

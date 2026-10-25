@@ -1,0 +1,8 @@
+id = 'lief-patchelf'
+name = 'lief-patchelf'
+
+homepage = 'https://lief.re/doc/latest/tools/lief-patchelf/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lief-patchelf'

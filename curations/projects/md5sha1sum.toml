@@ -1,0 +1,8 @@
+id = 'md5sha1sum'
+name = 'md5sha1sum'
+
+homepage = 'http://microbrew.org/tools/md5sha1sum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/md5sha1sum'

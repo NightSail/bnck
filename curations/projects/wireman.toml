@@ -10,3 +10,7 @@ name = 'wireman'
 [[package]]
 channel = 'crates.io'
 name = 'wireman'
+
+[[package]]
+channel = 'crates.io'
+name = 'wireman-config'

@@ -1,0 +1,12 @@
+id = 'consul-template'
+name = 'consul-template'
+
+repository = 'https://github.com/hashicorp/consul-template.git'
+
+[[package]]
+channel = 'arch'
+name = 'consul-template'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/consul-template'

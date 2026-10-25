@@ -1,0 +1,12 @@
+id = 'wlogout'
+name = 'wlogout'
+
+homepage = 'https://github.com/ArtsyMacaw/wlogout'
+
+[[package]]
+channel = 'debian'
+name = 'wlogout'
+
+[[package]]
+channel = 'fedora'
+name = 'wlogout'

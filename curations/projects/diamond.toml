@@ -1,0 +1,12 @@
+id = 'diamond'
+name = 'diamond'
+
+homepage = 'https://github.com/bbuchfink/diamond'
+
+[[package]]
+channel = 'debian'
+name = 'diamond-aligner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diamond'

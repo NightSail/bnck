@@ -1,0 +1,12 @@
+id = 'tup'
+name = 'tup'
+
+homepage = 'http://gittup.org/tup/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'tup'
+
+[[package]]
+channel = 'debian'
+name = 'tup'

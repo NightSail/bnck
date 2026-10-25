@@ -1,0 +1,16 @@
+id = 'rednotebook'
+name = 'rednotebook'
+
+homepage = 'https://rednotebook.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'rednotebook'
+
+[[package]]
+channel = 'debian'
+name = 'rednotebook'
+
+[[package]]
+channel = 'fedora'
+name = 'rednotebook'

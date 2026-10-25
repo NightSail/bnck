@@ -1,0 +1,12 @@
+id = 'gnome-podcasts'
+name = 'gnome-podcasts'
+
+homepage = 'https://apps.gnome.org/Podcasts'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-podcasts'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-podcasts'

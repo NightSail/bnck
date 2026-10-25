@@ -1,0 +1,12 @@
+id = 'orcus'
+name = 'orcus'
+
+homepage = 'https://gitlab.com/orcus/orcus'
+
+[[package]]
+channel = 'debian'
+name = 'liborcus-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'liborcus-tools'

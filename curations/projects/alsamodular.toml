@@ -1,0 +1,24 @@
+id = 'alsamodular'
+name = 'alsamodular'
+
+homepage = 'http://alsamodular.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'ams'
+
+[[package]]
+channel = 'arch'
+name = 'qmidiroute'
+
+[[package]]
+channel = 'debian'
+name = 'ams'
+
+[[package]]
+channel = 'debian'
+name = 'qmidiroute'
+
+[[package]]
+channel = 'fedora'
+name = 'ams'

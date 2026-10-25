@@ -1,0 +1,8 @@
+id = 'hexwalk'
+name = 'hexwalk'
+
+homepage = 'https://www.hexwalk.com'
+
+[[package]]
+channel = 'debian'
+name = 'hexwalk'

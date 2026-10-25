@@ -1,0 +1,8 @@
+id = 'g2o'
+name = 'g2o'
+
+homepage = 'https://openslam-org.github.io/g2o.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/g2o'

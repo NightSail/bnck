@@ -1,0 +1,12 @@
+id = 'boxbackup'
+name = 'boxbackup'
+
+homepage = 'http://boxbackup.org'
+
+[[package]]
+channel = 'debian'
+name = 'boxbackup-client'
+
+[[package]]
+channel = 'debian'
+name = 'boxbackup-server'

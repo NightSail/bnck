@@ -1,0 +1,12 @@
+id = 'hyprshutdown'
+name = 'hyprshutdown'
+
+homepage = 'https://github.com/hyprwm/hyprshutdown'
+
+[[package]]
+channel = 'arch'
+name = 'hyprshutdown'
+
+[[package]]
+channel = 'debian'
+name = 'hyprshutdown'

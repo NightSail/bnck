@@ -1,0 +1,8 @@
+id = 'sediment'
+name = 'sediment'
+
+homepage = 'https://github.com/wcohen/sediment'
+
+[[package]]
+channel = 'fedora'
+name = 'sediment'

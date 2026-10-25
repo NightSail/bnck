@@ -1,0 +1,17 @@
+id = 'pgbadger'
+name = 'pgbadger'
+
+homepage = 'https://dalibo.github.io/pgbadger'
+repository = 'https://github.com/darold/pgbadger.git'
+
+[[package]]
+channel = 'debian'
+name = 'pgbadger'
+
+[[package]]
+channel = 'fedora'
+name = 'pgbadger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgbadger'

@@ -1,0 +1,8 @@
+id = 'libcamera-apps'
+name = 'libcamera-apps'
+
+homepage = 'https://github.com/raspberrypi/libcamera-apps'
+
+[[package]]
+channel = 'fedora'
+name = 'libcamera-apps'

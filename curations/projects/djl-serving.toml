@@ -1,0 +1,8 @@
+id = 'djl-serving'
+name = 'djl-serving'
+
+homepage = 'https://github.com/deepjavalibrary/djl-serving'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djl-serving'

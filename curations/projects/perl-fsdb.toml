@@ -1,0 +1,8 @@
+id = 'perl-fsdb'
+name = 'perl-Fsdb'
+
+homepage = 'http://www.isi.edu/~johnh/SOFTWARE/FSDB'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Fsdb'

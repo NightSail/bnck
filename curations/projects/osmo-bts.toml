@@ -1,0 +1,8 @@
+id = 'osmo-bts'
+name = 'osmo-bts'
+
+homepage = 'http://openbsc.osmocom.org/trac/wiki/OsmoBTS'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-bts'

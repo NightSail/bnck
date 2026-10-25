@@ -1,0 +1,28 @@
+id = 'libsolv'
+name = 'libsolv'
+
+homepage = 'https://github.com/openSUSE/libsolv'
+
+[[package]]
+channel = 'arch'
+name = 'libsolv'
+
+[[package]]
+channel = 'debian'
+name = 'libsolv-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libsolv-demo'
+
+[[package]]
+channel = 'fedora'
+name = 'libsolv-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libsolv-tools-base'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsolv'

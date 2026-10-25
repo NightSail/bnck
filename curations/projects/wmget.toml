@@ -1,0 +1,8 @@
+id = 'wmget'
+name = 'wmget'
+
+homepage = 'https://www.dockapps.net/wmget'
+
+[[package]]
+channel = 'debian'
+name = 'wmget'

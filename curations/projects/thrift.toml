@@ -1,0 +1,21 @@
+id = 'thrift'
+name = 'thrift'
+
+homepage = 'https://thrift.apache.org'
+repository = 'https://github.com/apache/thrift.git'
+
+[[package]]
+channel = 'arch'
+name = 'thrift'
+
+[[package]]
+channel = 'debian'
+name = 'thrift-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'thrift'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/thrift'

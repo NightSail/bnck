@@ -1,0 +1,9 @@
+id = 'betterleaks'
+name = 'betterleaks'
+
+homepage = 'https://betterleaks.com'
+repository = 'https://github.com/betterleaks/betterleaks.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/betterleaks'

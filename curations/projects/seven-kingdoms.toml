@@ -1,0 +1,8 @@
+id = 'seven-kingdoms'
+name = 'seven-kingdoms'
+
+homepage = 'https://7kfans.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seven-kingdoms'

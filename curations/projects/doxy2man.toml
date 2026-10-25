@@ -1,0 +1,8 @@
+id = 'doxy2man'
+name = 'doxy2man'
+
+homepage = 'https://github.com/gsauthof/doxy2man'
+
+[[package]]
+channel = 'fedora'
+name = 'doxy2man'

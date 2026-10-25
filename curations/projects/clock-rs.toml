@@ -1,0 +1,8 @@
+id = 'clock-rs'
+name = 'clock-rs'
+
+repository = 'https://github.com/Oughie/clock-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clock-rs'

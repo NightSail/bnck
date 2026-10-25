@@ -1,0 +1,13 @@
+id = 'rename'
+name = 'rename'
+
+homepage = 'https://metacpan.org/release/File-Rename'
+repository = 'https://github.com/ap/rename.git'
+
+[[package]]
+channel = 'debian'
+name = 'rename'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rename'

@@ -1,0 +1,8 @@
+id = 'cdcover'
+name = 'cdcover'
+
+homepage = 'https://github.com/karlp/cdcover'
+
+[[package]]
+channel = 'debian'
+name = 'cdcover'

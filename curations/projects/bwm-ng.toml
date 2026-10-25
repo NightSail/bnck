@@ -1,0 +1,21 @@
+id = 'bwm-ng'
+name = 'bwm-ng'
+
+homepage = 'https://www.gropp.org'
+repository = 'https://github.com/vgropp/bwm-ng.git'
+
+[[package]]
+channel = 'arch'
+name = 'bwm-ng'
+
+[[package]]
+channel = 'debian'
+name = 'bwm-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'bwm-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bwm-ng'

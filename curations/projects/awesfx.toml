@@ -1,0 +1,12 @@
+id = 'awesfx'
+name = 'awesfx'
+
+homepage = 'http://www.alsa-project.org/~iwai/awedrv.html'
+
+[[package]]
+channel = 'debian'
+name = 'awesfx'
+
+[[package]]
+channel = 'fedora'
+name = 'awesfx'

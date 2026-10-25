@@ -1,0 +1,9 @@
+id = 'swig-swig'
+name = 'swig'
+
+homepage = 'https://www.swig.org'
+repository = 'https://github.com/swig/swig.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swig'

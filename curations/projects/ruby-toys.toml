@@ -1,0 +1,8 @@
+id = 'ruby-toys'
+name = 'ruby-toys'
+
+homepage = 'https://github.com/dazuma/toys'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-toys'

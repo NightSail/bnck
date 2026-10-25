@@ -1,0 +1,8 @@
+id = 'node-webfont'
+name = 'node-webfont'
+
+homepage = 'https://github.com/itgalaxy/webfont'
+
+[[package]]
+channel = 'debian'
+name = 'node-webfont'

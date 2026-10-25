@@ -1,0 +1,12 @@
+id = 'pytest-benchmark'
+name = 'pytest-benchmark'
+
+homepage = 'https://github.com/ionelmc/pytest-benchmark'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytest-benchmark'
+
+[[package]]
+channel = 'debian'
+name = 'pytest-benchmark'

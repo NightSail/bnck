@@ -1,0 +1,8 @@
+id = 'rsign2'
+name = 'rsign2'
+
+homepage = 'https://github.com/jedisct1/rsign2'
+
+[[package]]
+channel = 'debian'
+name = 'rsign2'

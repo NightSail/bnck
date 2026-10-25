@@ -1,0 +1,8 @@
+id = 'openstereogram'
+name = 'openstereogram'
+
+homepage = 'http://sites.google.com/site/gfcaprojects/openstereogram'
+
+[[package]]
+channel = 'debian'
+name = 'openstereogram'

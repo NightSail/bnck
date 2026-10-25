@@ -1,0 +1,6 @@
+id = 'configure-debian'
+name = 'configure-debian'
+
+[[package]]
+channel = 'debian'
+name = 'configure-debian'

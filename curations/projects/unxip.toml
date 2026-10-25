@@ -1,0 +1,8 @@
+id = 'unxip'
+name = 'unxip'
+
+repository = 'https://github.com/saagarjha/unxip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unxip'

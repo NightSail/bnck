@@ -1,0 +1,8 @@
+id = 'seqan-needle'
+name = 'seqan-needle'
+
+homepage = 'https://github.com/seqan/needle'
+
+[[package]]
+channel = 'debian'
+name = 'seqan-needle'

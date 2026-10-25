@@ -1,0 +1,13 @@
+id = 'subfinder'
+name = 'subfinder'
+
+homepage = 'https://projectdiscovery.io'
+repository = 'https://github.com/projectdiscovery/subfinder.git'
+
+[[package]]
+channel = 'fedora'
+name = 'subfinder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/subfinder'

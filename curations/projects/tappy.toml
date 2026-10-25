@@ -1,0 +1,8 @@
+id = 'tappy'
+name = 'tappy'
+
+homepage = 'https://github.com/python-tap/tappy'
+
+[[package]]
+channel = 'debian'
+name = 'tappy'

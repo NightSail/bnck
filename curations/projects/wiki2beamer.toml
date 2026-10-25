@@ -1,0 +1,8 @@
+id = 'wiki2beamer'
+name = 'wiki2beamer'
+
+homepage = 'https://wiki2beamer.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'wiki2beamer'

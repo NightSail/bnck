@@ -1,0 +1,8 @@
+id = 'gjots2'
+name = 'gjots2'
+
+homepage = 'http://bhepple.freeshell.org/gjots'
+
+[[package]]
+channel = 'fedora'
+name = 'gjots2'

@@ -1,0 +1,8 @@
+id = 'xva-img'
+name = 'xva-img'
+
+homepage = 'https://github.com/eriklax/xva-img'
+
+[[package]]
+channel = 'debian'
+name = 'xva-img'

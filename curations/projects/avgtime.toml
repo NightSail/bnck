@@ -1,0 +1,8 @@
+id = 'avgtime'
+name = 'avgtime'
+
+homepage = 'https://github.com/jmcabo/avgtime'
+
+[[package]]
+channel = 'fedora'
+name = 'avgtime'

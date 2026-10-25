@@ -1,0 +1,8 @@
+id = 'contextfree'
+name = 'contextfree'
+
+homepage = 'https://www.contextfreeart.org/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'contextfree'

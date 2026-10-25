@@ -1,0 +1,8 @@
+id = 'jrnl-janicklntz'
+name = 'jrnl'
+
+repository = 'https://github.com/JanickLntz/jrnl'
+
+[[package]]
+channel = 'crates.io'
+name = 'jrnl'

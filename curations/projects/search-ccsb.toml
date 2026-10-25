@@ -1,0 +1,6 @@
+id = 'search-ccsb'
+name = 'search-ccsb'
+
+[[package]]
+channel = 'debian'
+name = 'search-ccsb'

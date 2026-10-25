@@ -1,0 +1,8 @@
+id = 'dictionaryreader-app'
+name = 'dictionaryreader.app'
+
+homepage = 'http://etoileos.com'
+
+[[package]]
+channel = 'debian'
+name = 'dictionaryreader.app'

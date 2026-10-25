@@ -1,0 +1,9 @@
+id = 'zero'
+name = 'zero'
+
+homepage = 'https://zero.gitlawb.com'
+repository = 'https://github.com/Gitlawb/zero.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zero'

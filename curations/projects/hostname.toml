@@ -1,0 +1,10 @@
+id = 'hostname'
+name = 'hostname'
+
+[[package]]
+channel = 'debian'
+name = 'hostname'
+
+[[package]]
+channel = 'fedora'
+name = 'hostname'

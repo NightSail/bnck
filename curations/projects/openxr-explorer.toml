@@ -1,0 +1,8 @@
+id = 'openxr-explorer'
+name = 'openxr-explorer'
+
+homepage = 'https://github.com/maluoi/openxr-explorer'
+
+[[package]]
+channel = 'fedora'
+name = 'openxr-explorer'

@@ -1,0 +1,6 @@
+id = 'gubbins'
+name = 'gubbins'
+
+[[package]]
+channel = 'debian'
+name = 'gubbins'

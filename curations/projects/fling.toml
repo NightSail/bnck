@@ -1,0 +1,8 @@
+id = 'fling'
+name = 'fling'
+
+homepage = 'https://github.com/rjek/fling'
+
+[[package]]
+channel = 'debian'
+name = 'fling'

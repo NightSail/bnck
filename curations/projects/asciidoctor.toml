@@ -1,0 +1,20 @@
+id = 'asciidoctor'
+name = 'asciidoctor'
+
+homepage = 'https://asciidoctor.org'
+
+[[package]]
+channel = 'arch'
+name = 'asciidoctor'
+
+[[package]]
+channel = 'debian'
+name = 'asciidoctor'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-asciidoctor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asciidoctor'

@@ -1,0 +1,8 @@
+id = 'libopenapi-validator'
+name = 'libopenapi-validator'
+
+homepage = 'https://github.com/pb33f/libopenapi-validator'
+
+[[package]]
+channel = 'debian'
+name = 'libopenapi-validator'

@@ -1,0 +1,8 @@
+id = 'xoo'
+name = 'xoo'
+
+homepage = 'http://www.freedesktop.org/wiki/Software/xoo'
+
+[[package]]
+channel = 'fedora'
+name = 'xoo'

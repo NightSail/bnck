@@ -1,0 +1,20 @@
+id = 'kpackage'
+name = 'kpackage'
+
+homepage = 'https://invent.kde.org/frameworks/kpackage'
+
+[[package]]
+channel = 'debian'
+name = 'kpackagetool5'
+
+[[package]]
+channel = 'debian'
+name = 'kpackagetool6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kpackage'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kpackage'

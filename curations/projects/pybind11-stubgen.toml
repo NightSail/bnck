@@ -1,0 +1,8 @@
+id = 'pybind11-stubgen'
+name = 'pybind11-stubgen'
+
+homepage = 'https://github.com/pybind/pybind11-stubgen'
+
+[[package]]
+channel = 'debian'
+name = 'pybind11-stubgen'

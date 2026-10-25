@@ -1,0 +1,8 @@
+id = 'icmptx'
+name = 'icmptx'
+
+homepage = 'https://codeberg.com/jakkarth/icmptx'
+
+[[package]]
+channel = 'debian'
+name = 'icmptx'

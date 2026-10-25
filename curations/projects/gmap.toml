@@ -1,0 +1,8 @@
+id = 'gmap'
+name = 'gmap'
+
+homepage = 'http://research-pub.gene.com/gmap'
+
+[[package]]
+channel = 'debian'
+name = 'gmap'

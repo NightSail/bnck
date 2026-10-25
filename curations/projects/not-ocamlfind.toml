@@ -1,0 +1,12 @@
+id = 'not-ocamlfind'
+name = 'not-ocamlfind'
+
+homepage = 'https://github.com/chetmurthy/not-ocamlfind'
+
+[[package]]
+channel = 'debian'
+name = 'not-ocamlfind'
+
+[[package]]
+channel = 'fedora'
+name = 'not-ocamlfind'

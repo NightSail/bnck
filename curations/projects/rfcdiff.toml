@@ -1,0 +1,10 @@
+id = 'rfcdiff'
+name = 'rfcdiff'
+
+[[package]]
+channel = 'debian'
+name = 'rfcdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'rfcdiff'

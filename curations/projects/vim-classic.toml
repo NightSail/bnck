@@ -1,0 +1,8 @@
+id = 'vim-classic'
+name = 'vim-classic'
+
+homepage = 'https://vim-classic.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vim-classic'

@@ -1,0 +1,8 @@
+id = 't2html'
+name = 't2html'
+
+homepage = 'https://github.com/jaalto/project--perl-text2html'
+
+[[package]]
+channel = 'debian'
+name = 't2html'

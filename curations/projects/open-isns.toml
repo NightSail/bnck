@@ -1,0 +1,20 @@
+id = 'open-isns'
+name = 'open-isns'
+
+homepage = 'https://github.com/open-iscsi/open-isns'
+
+[[package]]
+channel = 'debian'
+name = 'open-isns-discoveryd'
+
+[[package]]
+channel = 'debian'
+name = 'open-isns-server'
+
+[[package]]
+channel = 'debian'
+name = 'open-isns-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'isns-utils'

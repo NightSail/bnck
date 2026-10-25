@@ -1,0 +1,8 @@
+id = 'python3-oslo-messaging'
+name = 'python3-oslo.messaging'
+
+homepage = 'https://github.com/openstack/oslo.messaging'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslo.messaging'

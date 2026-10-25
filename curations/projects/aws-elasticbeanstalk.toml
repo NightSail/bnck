@@ -1,0 +1,8 @@
+id = 'aws-elasticbeanstalk'
+name = 'aws-elasticbeanstalk'
+
+homepage = 'https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-elasticbeanstalk'

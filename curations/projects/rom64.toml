@@ -1,0 +1,8 @@
+id = 'rom64'
+name = 'rom64'
+
+homepage = 'https://github.com/mroach/rom64'
+
+[[package]]
+channel = 'fedora'
+name = 'rom64'

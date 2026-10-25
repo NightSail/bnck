@@ -1,0 +1,8 @@
+id = 'drs4eb'
+name = 'drs4eb'
+
+homepage = 'https://www.psi.ch/en/drs/software-download'
+
+[[package]]
+channel = 'debian'
+name = 'drs4eb'

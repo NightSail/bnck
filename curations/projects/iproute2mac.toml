@@ -1,0 +1,8 @@
+id = 'iproute2mac'
+name = 'iproute2mac'
+
+homepage = 'https://github.com/brona/iproute2mac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iproute2mac'

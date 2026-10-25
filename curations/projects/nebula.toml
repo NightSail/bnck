@@ -1,0 +1,20 @@
+id = 'nebula'
+name = 'nebula'
+
+repository = 'https://github.com/slackhq/nebula.git'
+
+[[package]]
+channel = 'arch'
+name = 'nebula'
+
+[[package]]
+channel = 'debian'
+name = 'nebula'
+
+[[package]]
+channel = 'fedora'
+name = 'nebula'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nebula'

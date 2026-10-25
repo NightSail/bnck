@@ -1,0 +1,12 @@
+id = 'probcons'
+name = 'probcons'
+
+homepage = 'http://probcons.stanford.edu'
+
+[[package]]
+channel = 'debian'
+name = 'probcons'
+
+[[package]]
+channel = 'debian'
+name = 'probcons-extra'

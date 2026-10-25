@@ -1,0 +1,12 @@
+id = 'barectf'
+name = 'barectf'
+
+homepage = 'http://barectf.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-barectf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-barectf'

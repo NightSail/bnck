@@ -1,0 +1,12 @@
+id = 'score-p'
+name = 'score-p'
+
+homepage = 'http://score-p.org'
+
+[[package]]
+channel = 'fedora'
+name = 'otf2'
+
+[[package]]
+channel = 'fedora'
+name = 'otf2-devel'

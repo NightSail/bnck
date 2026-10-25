@@ -1,0 +1,8 @@
+id = 'python3-cantools'
+name = 'python3-cantools'
+
+homepage = 'https://github.com/cantools/cantools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cantools'

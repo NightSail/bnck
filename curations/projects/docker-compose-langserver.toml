@@ -1,0 +1,8 @@
+id = 'docker-compose-langserver'
+name = 'docker-compose-langserver'
+
+homepage = 'https://github.com/microsoft/vscode-containers'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-compose-langserver'

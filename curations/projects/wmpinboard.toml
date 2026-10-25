@@ -1,0 +1,8 @@
+id = 'wmpinboard'
+name = 'wmpinboard'
+
+homepage = 'https://github.com/bbidulock/wmpinboard'
+
+[[package]]
+channel = 'debian'
+name = 'wmpinboard'

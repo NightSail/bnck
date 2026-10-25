@@ -1,0 +1,12 @@
+id = 'photoflare'
+name = 'photoflare'
+
+homepage = 'https://photoflare.io'
+
+[[package]]
+channel = 'arch'
+name = 'photoflare'
+
+[[package]]
+channel = 'debian'
+name = 'photoflare'

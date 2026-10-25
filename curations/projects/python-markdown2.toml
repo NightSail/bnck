@@ -1,0 +1,16 @@
+id = 'python-markdown2'
+name = 'python-markdown2'
+
+homepage = 'https://github.com/trentm/python-markdown2'
+
+[[package]]
+channel = 'arch'
+name = 'python-markdown2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-markdown2'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-markdown2'

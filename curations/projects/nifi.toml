@@ -1,0 +1,12 @@
+id = 'nifi'
+name = 'nifi'
+
+homepage = 'https://nifi.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nifi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nifi-toolkit'

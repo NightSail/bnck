@@ -1,0 +1,9 @@
+id = 'flow-cli'
+name = 'flow-cli'
+
+homepage = 'https://onflow.org'
+repository = 'https://github.com/onflow/flow-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flow-cli'

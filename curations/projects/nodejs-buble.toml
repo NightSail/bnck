@@ -1,0 +1,8 @@
+id = 'nodejs-buble'
+name = 'nodejs-buble'
+
+homepage = 'https://gitlab.com/Rich-Harris/buble'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-buble'

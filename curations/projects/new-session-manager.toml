@@ -1,0 +1,8 @@
+id = 'new-session-manager'
+name = 'new-session-manager'
+
+homepage = 'https://github.com/jackaudio/new-session-manager'
+
+[[package]]
+channel = 'arch'
+name = 'new-session-manager'

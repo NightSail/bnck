@@ -1,0 +1,12 @@
+id = 'fooyin'
+name = 'fooyin'
+
+homepage = 'https://fooyin.org'
+
+[[package]]
+channel = 'arch'
+name = 'fooyin'
+
+[[package]]
+channel = 'fedora'
+name = 'fooyin'

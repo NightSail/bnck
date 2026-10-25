@@ -1,0 +1,8 @@
+id = 'metabase'
+name = 'metabase'
+
+homepage = 'https://www.metabase.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metabase'

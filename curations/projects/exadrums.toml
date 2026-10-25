@@ -1,0 +1,8 @@
+id = 'exadrums'
+name = 'exadrums'
+
+homepage = 'https://exadrums.com'
+
+[[package]]
+channel = 'debian'
+name = 'exadrums'

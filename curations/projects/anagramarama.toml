@@ -1,0 +1,8 @@
+id = 'anagramarama'
+name = 'anagramarama'
+
+homepage = 'http://identicalsoftware.com/anagramarama'
+
+[[package]]
+channel = 'fedora'
+name = 'anagramarama'

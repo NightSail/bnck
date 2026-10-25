@@ -1,0 +1,20 @@
+id = 'keyring'
+name = 'keyring'
+
+homepage = 'https://github.com/jaraco/keyring'
+
+[[package]]
+channel = 'arch'
+name = 'python-keyring'
+
+[[package]]
+channel = 'debian'
+name = 'python3-keyring'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-keyring'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keyring'

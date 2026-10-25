@@ -1,0 +1,16 @@
+id = 'ptex'
+name = 'ptex'
+
+homepage = 'http://ptex.us'
+
+[[package]]
+channel = 'arch'
+name = 'ptex'
+
+[[package]]
+channel = 'fedora'
+name = 'ptex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ptex'

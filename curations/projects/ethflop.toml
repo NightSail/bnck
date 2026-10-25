@@ -1,0 +1,8 @@
+id = 'ethflop'
+name = 'ethflop'
+
+homepage = 'http://ethflop.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ethflop'

@@ -1,0 +1,8 @@
+id = 'nanolyse'
+name = 'nanolyse'
+
+homepage = 'https://github.com/wdecoster/nanolyse'
+
+[[package]]
+channel = 'debian'
+name = 'nanolyse'

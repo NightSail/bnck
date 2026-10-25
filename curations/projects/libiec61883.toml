@@ -1,0 +1,8 @@
+id = 'libiec61883'
+name = 'libiec61883'
+
+homepage = 'https://www.kernel.org/pub/linux/libs/ieee1394'
+
+[[package]]
+channel = 'arch'
+name = 'libiec61883'

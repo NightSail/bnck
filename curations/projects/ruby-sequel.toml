@@ -1,0 +1,12 @@
+id = 'ruby-sequel'
+name = 'ruby-sequel'
+
+homepage = 'https://github.com/jeremyevans/sequel'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-sequel'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-sequel'

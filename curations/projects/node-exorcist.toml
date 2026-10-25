@@ -1,0 +1,8 @@
+id = 'node-exorcist'
+name = 'node-exorcist'
+
+homepage = 'https://github.com/thlorenz/exorcist'
+
+[[package]]
+channel = 'debian'
+name = 'node-exorcist'

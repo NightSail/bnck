@@ -1,0 +1,8 @@
+id = 'golang-github-pact-foundation'
+name = 'golang-github-pact-foundation'
+
+homepage = 'https://github.com/pact-foundation/pact-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pact-foundation'

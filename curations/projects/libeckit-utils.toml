@@ -1,0 +1,8 @@
+id = 'libeckit-utils'
+name = 'libeckit-utils'
+
+homepage = 'https://github.com/ecmwf/eckit'
+
+[[package]]
+channel = 'debian'
+name = 'libeckit-utils'

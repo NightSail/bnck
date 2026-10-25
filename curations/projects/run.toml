@@ -1,0 +1,8 @@
+id = 'run'
+name = 'run'
+
+homepage = 'https://github.com/TekWizely/run'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/run'

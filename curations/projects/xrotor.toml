@@ -1,0 +1,8 @@
+id = 'xrotor'
+name = 'xrotor'
+
+homepage = 'http://web.mit.edu/drela/Public/web/xrotor'
+
+[[package]]
+channel = 'fedora'
+name = 'xrotor'

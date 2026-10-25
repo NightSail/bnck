@@ -1,0 +1,8 @@
+id = 'liblockfile-bin'
+name = 'liblockfile-bin'
+
+homepage = 'https://github.com/miquels/liblockfile'
+
+[[package]]
+channel = 'debian'
+name = 'liblockfile-bin'

@@ -1,0 +1,8 @@
+id = 'libusb-compat'
+name = 'libusb-compat'
+
+homepage = 'http://libusb.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libusb-compat'

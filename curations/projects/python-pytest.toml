@@ -1,0 +1,8 @@
+id = 'python-pytest'
+name = 'python-pytest'
+
+homepage = 'https://docs.pytest.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytest'

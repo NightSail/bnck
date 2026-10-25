@@ -1,0 +1,12 @@
+id = 'calculator-elementary'
+name = 'calculator'
+
+homepage = 'https://github.com/elementary/calculator'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-calculator'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-calculator'

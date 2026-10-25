@@ -1,0 +1,8 @@
+id = 'ucto'
+name = 'ucto'
+
+homepage = 'http://languagemachines.github.io/ucto'
+
+[[package]]
+channel = 'debian'
+name = 'ucto'

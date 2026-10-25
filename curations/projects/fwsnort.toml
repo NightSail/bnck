@@ -1,0 +1,8 @@
+id = 'fwsnort'
+name = 'fwsnort'
+
+homepage = 'https://www.cipherdyne.org/fwsnort'
+
+[[package]]
+channel = 'debian'
+name = 'fwsnort'

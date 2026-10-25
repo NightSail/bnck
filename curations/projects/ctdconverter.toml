@@ -1,0 +1,8 @@
+id = 'ctdconverter'
+name = 'ctdconverter'
+
+homepage = 'https://github.com/WorkflowConversion/CTDConverter'
+
+[[package]]
+channel = 'debian'
+name = 'ctdconverter'

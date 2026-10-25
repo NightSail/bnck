@@ -1,0 +1,17 @@
+id = 'tinysparql'
+name = 'tinysparql'
+
+homepage = 'https://tinysparql.org'
+repository = 'https://gitlab.gnome.org/GNOME/tinysparql.git'
+
+[[package]]
+channel = 'arch'
+name = 'tinysparql'
+
+[[package]]
+channel = 'fedora'
+name = 'tinysparql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinysparql'

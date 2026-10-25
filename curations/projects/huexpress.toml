@@ -1,0 +1,8 @@
+id = 'huexpress'
+name = 'huexpress'
+
+repository = 'https://github.com/kallisti5/huexpress.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/huexpress'

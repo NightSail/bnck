@@ -1,0 +1,8 @@
+id = 'golang-github-cpu-goacmedns'
+name = 'golang-github-cpu-goacmedns'
+
+homepage = 'https://github.com/cpu/goacmedns'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cpu-goacmedns'

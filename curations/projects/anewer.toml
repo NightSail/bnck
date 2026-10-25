@@ -1,0 +1,8 @@
+id = 'anewer'
+name = 'anewer'
+
+homepage = 'https://github.com/ysf/anewer'
+
+[[package]]
+channel = 'arch'
+name = 'anewer'

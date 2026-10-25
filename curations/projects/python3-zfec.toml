@@ -1,0 +1,8 @@
+id = 'python3-zfec'
+name = 'python3-zfec'
+
+homepage = 'http://tahoe-lafs.org/trac/zfec'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zfec'

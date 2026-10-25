@@ -1,0 +1,9 @@
+id = 'ssh3'
+name = 'ssh3'
+
+homepage = 'https://arxiv.org/abs/2312.08396'
+repository = 'https://github.com/francoismichel/ssh3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssh3'

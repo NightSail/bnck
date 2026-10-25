@@ -1,0 +1,8 @@
+id = 'node-package-preamble'
+name = 'node-package-preamble'
+
+homepage = 'https://github.com/mbostock/preamble'
+
+[[package]]
+channel = 'debian'
+name = 'node-package-preamble'

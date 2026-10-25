@@ -1,0 +1,9 @@
+id = 'solo2-cli'
+name = 'solo2-cli'
+
+homepage = 'https://solokeys.com'
+repository = 'https://github.com/solokeys/solo2-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solo2-cli'

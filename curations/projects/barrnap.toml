@@ -1,0 +1,8 @@
+id = 'barrnap'
+name = 'barrnap'
+
+homepage = 'http://www.vicbioinformatics.com/software.barrnap.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'barrnap'

@@ -1,0 +1,12 @@
+id = 'isatapd'
+name = 'isatapd'
+
+homepage = 'http://www.saschahlusiak.de/linux/isatap.htm'
+
+[[package]]
+channel = 'arch'
+name = 'isatapd'
+
+[[package]]
+channel = 'debian'
+name = 'isatapd'

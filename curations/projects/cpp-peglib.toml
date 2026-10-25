@@ -1,0 +1,8 @@
+id = 'cpp-peglib'
+name = 'cpp-peglib'
+
+homepage = 'https://yhirose.github.io/cpp-peglib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpp-peglib'

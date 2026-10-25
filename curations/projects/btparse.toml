@@ -1,0 +1,8 @@
+id = 'btparse'
+name = 'btparse'
+
+homepage = 'https://metacpan.org/dist/Text-BibTeX/view/btparse/doc/btparse.pod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btparse'

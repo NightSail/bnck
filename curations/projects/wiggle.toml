@@ -1,0 +1,16 @@
+id = 'wiggle'
+name = 'wiggle'
+
+homepage = 'https://github.com/neilbrown/wiggle'
+
+[[package]]
+channel = 'debian'
+name = 'wiggle'
+
+[[package]]
+channel = 'fedora'
+name = 'wiggle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wiggle'

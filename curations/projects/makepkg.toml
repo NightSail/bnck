@@ -1,0 +1,9 @@
+id = 'makepkg'
+name = 'makepkg'
+
+homepage = 'https://wiki.archlinux.org/index.php/makepkg'
+repository = 'https://gitlab.archlinux.org/pacman/pacman.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/makepkg'

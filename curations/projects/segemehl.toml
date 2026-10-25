@@ -1,0 +1,8 @@
+id = 'segemehl'
+name = 'segemehl'
+
+homepage = 'http://www.bioinf.uni-leipzig.de/Software/segemehl'
+
+[[package]]
+channel = 'debian'
+name = 'segemehl'

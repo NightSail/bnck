@@ -1,0 +1,8 @@
+id = 'sff'
+name = 'sff'
+
+homepage = 'https://codeberg.org/sylphenix/sff'
+
+[[package]]
+channel = 'debian'
+name = 'sff'

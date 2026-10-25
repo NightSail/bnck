@@ -1,0 +1,12 @@
+id = 'starman'
+name = 'starman'
+
+homepage = 'https://metacpan.org/release/Starman'
+
+[[package]]
+channel = 'debian'
+name = 'starman'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Starman'

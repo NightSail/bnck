@@ -1,0 +1,12 @@
+id = 'mbox-importer'
+name = 'mbox-importer'
+
+homepage = 'https://invent.kde.org/pim/mbox-importer'
+
+[[package]]
+channel = 'debian'
+name = 'mbox-importer'
+
+[[package]]
+channel = 'fedora'
+name = 'mbox-importer'

@@ -1,0 +1,8 @@
+id = 'feeluown'
+name = 'feeluown'
+
+homepage = 'https://github.com/feeluown/FeelUOwn'
+
+[[package]]
+channel = 'arch'
+name = 'feeluown'

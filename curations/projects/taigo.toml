@@ -1,0 +1,8 @@
+id = 'taigo'
+name = 'taigo'
+
+homepage = 'https://github.com/Appadeia/taigo'
+
+[[package]]
+channel = 'fedora'
+name = 'taigo'

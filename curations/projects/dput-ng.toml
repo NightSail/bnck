@@ -1,0 +1,12 @@
+id = 'dput-ng'
+name = 'dput-ng'
+
+homepage = 'https://debian.pages.debian.net/dput-ng'
+
+[[package]]
+channel = 'debian'
+name = 'dput-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'dput-ng'

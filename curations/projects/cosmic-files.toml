@@ -1,0 +1,12 @@
+id = 'cosmic-files'
+name = 'cosmic-files'
+
+homepage = 'https://github.com/pop-os/cosmic-files'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-files'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-files'

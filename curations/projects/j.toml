@@ -1,0 +1,8 @@
+id = 'j'
+name = 'j'
+
+homepage = 'https://www.jsoftware.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/j'

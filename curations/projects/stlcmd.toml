@@ -1,0 +1,8 @@
+id = 'stlcmd'
+name = 'stlcmd'
+
+homepage = 'https://www.github.com/AllwineDesigns/stl_cmd'
+
+[[package]]
+channel = 'debian'
+name = 'stlcmd'

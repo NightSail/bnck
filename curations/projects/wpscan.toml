@@ -1,0 +1,8 @@
+id = 'wpscan'
+name = 'wpscan'
+
+homepage = 'https://wpscan.org'
+
+[[package]]
+channel = 'arch'
+name = 'wpscan'

@@ -1,0 +1,8 @@
+id = 'krep'
+name = 'krep'
+
+homepage = 'https://github.com/davidesantangelo/krep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/krep'

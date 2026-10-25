@@ -1,0 +1,12 @@
+id = 'sratoolkit'
+name = 'sratoolkit'
+
+repository = 'https://github.com/ncbi/sra-tools.git'
+
+[[package]]
+channel = 'debian'
+name = 'sra-toolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sratoolkit'

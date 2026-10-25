@@ -1,0 +1,20 @@
+id = 'digikam'
+name = 'digikam'
+
+homepage = 'https://www.digikam.org'
+
+[[package]]
+channel = 'arch'
+name = 'digikam'
+
+[[package]]
+channel = 'debian'
+name = 'digikam'
+
+[[package]]
+channel = 'debian'
+name = 'showfoto'
+
+[[package]]
+channel = 'fedora'
+name = 'digikam'

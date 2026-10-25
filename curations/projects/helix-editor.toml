@@ -1,0 +1,20 @@
+id = 'helix-editor'
+name = 'helix-editor'
+
+homepage = 'https://helix-editor.com'
+
+[[package]]
+channel = 'arch'
+name = 'helix'
+
+[[package]]
+channel = 'debian'
+name = 'hx'
+
+[[package]]
+channel = 'debian'
+name = 'hx-plugin-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'helix'

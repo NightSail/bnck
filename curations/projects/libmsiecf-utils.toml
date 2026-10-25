@@ -1,0 +1,8 @@
+id = 'libmsiecf-utils'
+name = 'libmsiecf-utils'
+
+homepage = 'https://github.com/libyal/libmsiecf'
+
+[[package]]
+channel = 'debian'
+name = 'libmsiecf-utils'

@@ -1,0 +1,8 @@
+id = 'capnet-assist'
+name = 'capnet-assist'
+
+homepage = 'https://github.com/elementary/capnet-assist'
+
+[[package]]
+channel = 'arch'
+name = 'capnet-assist'

@@ -1,0 +1,8 @@
+id = 'plasmidid'
+name = 'plasmidid'
+
+homepage = 'https://github.com/BU-ISCIII/plasmidID'
+
+[[package]]
+channel = 'debian'
+name = 'plasmidid'

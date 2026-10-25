@@ -1,0 +1,13 @@
+id = 'timelimit'
+name = 'timelimit'
+
+homepage = 'https://devel.ringlet.net/sysutils/timelimit'
+repository = 'https://gitlab.com/timelimit/timelimit.git'
+
+[[package]]
+channel = 'debian'
+name = 'timelimit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/timelimit'

@@ -1,0 +1,8 @@
+id = 'lla'
+name = 'lla'
+
+homepage = 'https://github.com/chaqchase/lla'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lla'

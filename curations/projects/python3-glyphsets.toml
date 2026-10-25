@@ -1,0 +1,8 @@
+id = 'python3-glyphsets'
+name = 'python3-glyphsets'
+
+homepage = 'https://github.com/googlefonts/glyphsets'
+
+[[package]]
+channel = 'debian'
+name = 'python3-glyphsets'

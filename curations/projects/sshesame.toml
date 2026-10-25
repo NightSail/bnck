@@ -1,0 +1,8 @@
+id = 'sshesame'
+name = 'sshesame'
+
+homepage = 'https://github.com/jaksi/sshesame'
+
+[[package]]
+channel = 'debian'
+name = 'sshesame'

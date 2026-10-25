@@ -1,0 +1,8 @@
+id = 'kylin-calendar'
+name = 'kylin-calendar'
+
+homepage = 'https://gitee.com/openkylin/kylin-calendar'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-calendar'

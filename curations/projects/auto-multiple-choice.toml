@@ -1,0 +1,12 @@
+id = 'auto-multiple-choice'
+name = 'auto-multiple-choice'
+
+homepage = 'https://www.auto-multiple-choice.net'
+
+[[package]]
+channel = 'arch'
+name = 'auto-multiple-choice'
+
+[[package]]
+channel = 'debian'
+name = 'auto-multiple-choice'

@@ -1,0 +1,17 @@
+id = 'open-mpi'
+name = 'open-mpi'
+
+homepage = 'https://www.open-mpi.org'
+repository = 'https://github.com/open-mpi/ompi.git'
+
+[[package]]
+channel = 'arch'
+name = 'openmpi'
+
+[[package]]
+channel = 'debian'
+name = 'openmpi-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-mpi'

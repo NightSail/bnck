@@ -1,0 +1,8 @@
+id = 'aescrypt'
+name = 'aescrypt'
+
+homepage = 'https://aescrypt.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aescrypt'

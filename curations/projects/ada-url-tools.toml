@@ -1,0 +1,8 @@
+id = 'ada-url-tools'
+name = 'ada-url-tools'
+
+homepage = 'https://www.ada-url.com'
+
+[[package]]
+channel = 'fedora'
+name = 'ada-url-tools'

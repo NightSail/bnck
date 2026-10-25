@@ -1,0 +1,8 @@
+id = 'python3-bidi'
+name = 'python3-bidi'
+
+homepage = 'https://github.com/MeirKriheli/python-bidi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bidi'

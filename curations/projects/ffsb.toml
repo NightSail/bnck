@@ -1,0 +1,8 @@
+id = 'ffsb'
+name = 'ffsb'
+
+homepage = 'http://sourceforge.net/projects/ffsb'
+
+[[package]]
+channel = 'fedora'
+name = 'ffsb'

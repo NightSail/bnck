@@ -1,0 +1,8 @@
+id = 'noctalia'
+name = 'noctalia'
+
+homepage = 'https://github.com/noctalia-dev/noctalia'
+
+[[package]]
+channel = 'arch'
+name = 'noctalia'

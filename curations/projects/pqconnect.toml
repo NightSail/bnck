@@ -1,0 +1,8 @@
+id = 'pqconnect'
+name = 'pqconnect'
+
+homepage = 'https://www.pqconnect.net'
+
+[[package]]
+channel = 'debian'
+name = 'pqconnect'

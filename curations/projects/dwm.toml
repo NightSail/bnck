@@ -1,0 +1,13 @@
+id = 'dwm'
+name = 'dwm'
+
+homepage = 'http://dwm.suckless.org'
+repository = 'https://git.suckless.org/dwm'
+
+[[package]]
+channel = 'debian'
+name = 'dwm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dwm'

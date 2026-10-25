@@ -1,0 +1,6 @@
+id = 'libforms-bin'
+name = 'libforms-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libforms-bin'

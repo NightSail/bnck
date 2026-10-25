@@ -1,0 +1,8 @@
+id = 'dphys-swapfile'
+name = 'dphys-swapfile'
+
+homepage = 'http://neil.franklin.ch/Projects/dphys-swapfile'
+
+[[package]]
+channel = 'debian'
+name = 'dphys-swapfile'

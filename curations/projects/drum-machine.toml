@@ -1,0 +1,8 @@
+id = 'drum-machine'
+name = 'drum-machine'
+
+homepage = 'https://apps.gnome.org/DrumMachine'
+
+[[package]]
+channel = 'debian'
+name = 'drum-machine'

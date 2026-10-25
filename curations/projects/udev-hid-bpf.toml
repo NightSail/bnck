@@ -1,0 +1,16 @@
+id = 'udev-hid-bpf'
+name = 'udev-hid-bpf'
+
+homepage = 'https://gitlab.freedesktop.org/libevdev/udev-hid-bpf'
+
+[[package]]
+channel = 'arch'
+name = 'udev-hid-bpf'
+
+[[package]]
+channel = 'debian'
+name = 'udev-hid-bpf'
+
+[[package]]
+channel = 'fedora'
+name = 'udev-hid-bpf'

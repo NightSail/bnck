@@ -1,0 +1,8 @@
+id = 'askalono-cli'
+name = 'askalono-cli'
+
+homepage = 'https://crates.io/crates/askalono-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'askalono-cli'

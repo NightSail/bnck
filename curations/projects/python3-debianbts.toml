@@ -1,0 +1,10 @@
+id = 'python3-debianbts'
+name = 'python3-debianbts'
+
+[[package]]
+channel = 'debian'
+name = 'python3-debianbts'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-debianbts'

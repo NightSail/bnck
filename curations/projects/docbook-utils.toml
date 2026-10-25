@@ -1,0 +1,12 @@
+id = 'docbook-utils'
+name = 'docbook-utils'
+
+homepage = 'https://github.com/devexp-db/docbook-utils'
+
+[[package]]
+channel = 'arch'
+name = 'docbook-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'docbook-utils'

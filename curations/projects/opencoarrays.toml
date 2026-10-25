@@ -1,0 +1,9 @@
+id = 'opencoarrays'
+name = 'opencoarrays'
+
+homepage = 'http://www.opencoarrays.org'
+repository = 'https://github.com/sourceryinstitute/opencoarrays.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencoarrays'

@@ -1,0 +1,8 @@
+id = 'install-nothing'
+name = 'install-nothing'
+
+repository = 'https://github.com/buyukakyuz/install-nothing.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/install-nothing'

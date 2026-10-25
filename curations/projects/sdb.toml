@@ -1,0 +1,9 @@
+id = 'sdb'
+name = 'sdb'
+
+homepage = 'https://www.radare.org'
+repository = 'https://github.com/radareorg/sdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdb'

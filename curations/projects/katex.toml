@@ -1,0 +1,8 @@
+id = 'katex'
+name = 'katex'
+
+homepage = 'https://github.com/Khan/KaTeX'
+
+[[package]]
+channel = 'debian'
+name = 'katex'

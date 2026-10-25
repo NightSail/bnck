@@ -1,0 +1,8 @@
+id = 'python3-plotpy'
+name = 'python3-plotpy'
+
+homepage = 'https://github.com/PlotPyStack/plotpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-plotpy'

@@ -1,0 +1,8 @@
+id = 'qttinysa'
+name = 'qttinysa'
+
+homepage = 'https://github.com/g4ixt/QtTinySA'
+
+[[package]]
+channel = 'debian'
+name = 'qttinysa'

@@ -1,0 +1,16 @@
+id = 'quickgit'
+name = 'quickgit'
+
+homepage = 'https://quickgit.kde.org'
+
+[[package]]
+channel = 'fedora'
+name = 'kuser'
+
+[[package]]
+channel = 'fedora'
+name = 'kwalletmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'soprano'

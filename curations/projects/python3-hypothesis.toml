@@ -1,0 +1,12 @@
+id = 'python3-hypothesis'
+name = 'python3-hypothesis'
+
+homepage = 'https://github.com/HypothesisWorks/hypothesis'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hypothesis'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hypothesis'

@@ -1,0 +1,8 @@
+id = 'rubygem-yaml-lint'
+name = 'rubygem-yaml-lint'
+
+homepage = 'https://github.com/Pryz/yaml-lint'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-yaml-lint'

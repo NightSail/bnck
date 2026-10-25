@@ -1,0 +1,8 @@
+id = 'perl-www-orangehrm-client'
+name = 'perl-WWW-OrangeHRM-Client'
+
+homepage = 'http://ppisar.fedorapeople.org/WWW-OrangeHRM-Client'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-WWW-OrangeHRM-Client'

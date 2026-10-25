@@ -1,0 +1,12 @@
+id = 'teleports'
+name = 'teleports'
+
+homepage = 'https://gitlab.com/ubports/development/apps/teleports'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-radio-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-teleports-app'

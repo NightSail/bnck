@@ -1,0 +1,12 @@
+id = 'net-ipv4addr'
+name = 'Net-IPv4Addr'
+
+homepage = 'https://metacpan.org/release/Net-IPv4Addr'
+
+[[package]]
+channel = 'debian'
+name = 'libnetwork-ipv4addr-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-IPv4Addr'

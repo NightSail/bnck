@@ -1,0 +1,8 @@
+id = 'plip'
+name = 'plip'
+
+homepage = 'https://projects.biotec.tu-dresden.de/plip-web/plip'
+
+[[package]]
+channel = 'debian'
+name = 'plip'

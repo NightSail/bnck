@@ -1,0 +1,16 @@
+id = 'lzfse'
+name = 'lzfse'
+
+homepage = 'https://github.com/lzfse/lzfse'
+
+[[package]]
+channel = 'debian'
+name = 'lzfse'
+
+[[package]]
+channel = 'fedora'
+name = 'lzfse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lzfse'

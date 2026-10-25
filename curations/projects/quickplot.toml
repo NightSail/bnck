@@ -1,0 +1,8 @@
+id = 'quickplot'
+name = 'quickplot'
+
+homepage = 'https://quickplot.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'quickplot'

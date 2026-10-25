@@ -1,0 +1,8 @@
+id = 'plasma-login-manager'
+name = 'plasma-login-manager'
+
+homepage = 'https://invent.kde.org/plasma/plasma-login-manager'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-login-manager'

@@ -1,0 +1,6 @@
+id = 'mate-session-manager'
+name = 'mate-session-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-session-manager'

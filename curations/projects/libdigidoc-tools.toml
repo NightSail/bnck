@@ -1,0 +1,8 @@
+id = 'libdigidoc-tools'
+name = 'libdigidoc-tools'
+
+homepage = 'https://github.com/open-eid/libdigidoc'
+
+[[package]]
+channel = 'debian'
+name = 'libdigidoc-tools'

@@ -1,0 +1,8 @@
+id = 'python-sympy'
+name = 'python-sympy'
+
+homepage = 'https://sympy.org/en/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'python-sympy'

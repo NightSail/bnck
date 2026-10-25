@@ -1,0 +1,8 @@
+id = 'steamguard-cli'
+name = 'steamguard-cli'
+
+repository = 'https://github.com/dyc3/steamguard-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/steamguard-cli'

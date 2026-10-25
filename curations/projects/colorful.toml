@@ -1,0 +1,8 @@
+id = 'colorful'
+name = 'colorful'
+
+homepage = 'https://svgames.pl'
+
+[[package]]
+channel = 'fedora'
+name = 'colorful'

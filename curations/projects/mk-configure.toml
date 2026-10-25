@@ -1,0 +1,20 @@
+id = 'mk-configure'
+name = 'mk-configure'
+
+homepage = 'https://github.com/cheusov/mk-configure'
+
+[[package]]
+channel = 'arch'
+name = 'mk-configure'
+
+[[package]]
+channel = 'debian'
+name = 'mk-configure'
+
+[[package]]
+channel = 'fedora'
+name = 'mk-configure'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mk-configure'

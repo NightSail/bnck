@@ -1,0 +1,8 @@
+id = 'vtwm'
+name = 'vtwm'
+
+homepage = 'http://www.vtwm.org'
+
+[[package]]
+channel = 'debian'
+name = 'vtwm'

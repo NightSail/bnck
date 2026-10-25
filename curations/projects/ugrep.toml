@@ -8,5 +8,13 @@ channel = 'arch'
 name = 'ugrep'
 
 [[package]]
+channel = 'debian'
+name = 'ugrep'
+
+[[package]]
 channel = 'fedora'
 name = 'ugrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ugrep'

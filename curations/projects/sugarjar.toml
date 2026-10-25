@@ -1,0 +1,16 @@
+id = 'sugarjar'
+name = 'sugarjar'
+
+homepage = 'https://github.com/jaymzh/sugarjar'
+
+[[package]]
+channel = 'debian'
+name = 'sugarjar'
+
+[[package]]
+channel = 'fedora'
+name = 'sugarjar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sugarjar'

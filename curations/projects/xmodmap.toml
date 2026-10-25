@@ -1,0 +1,8 @@
+id = 'xmodmap'
+name = 'xmodmap'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xmodmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmodmap'

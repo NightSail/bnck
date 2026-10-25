@@ -1,0 +1,8 @@
+id = 'eqonomize'
+name = 'eqonomize'
+
+homepage = 'https://eqonomize.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'eqonomize'

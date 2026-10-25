@@ -1,0 +1,16 @@
+id = 'pygments'
+name = 'pygments'
+
+homepage = 'https://pygments.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pygments'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pygments'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pygments'

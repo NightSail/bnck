@@ -1,0 +1,9 @@
+id = 'cozypkg'
+name = 'cozypkg'
+
+homepage = 'https://cozystack.io'
+repository = 'https://github.com/cozystack/cozystack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cozypkg'

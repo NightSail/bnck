@@ -1,0 +1,16 @@
+id = 'earlyoom'
+name = 'earlyoom'
+
+homepage = 'https://github.com/rfjakob/earlyoom'
+
+[[package]]
+channel = 'arch'
+name = 'earlyoom'
+
+[[package]]
+channel = 'debian'
+name = 'earlyoom'
+
+[[package]]
+channel = 'fedora'
+name = 'earlyoom'

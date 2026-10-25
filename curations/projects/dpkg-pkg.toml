@@ -1,0 +1,20 @@
+id = 'dpkg-pkg'
+name = 'dpkg'
+
+homepage = 'https://tracker.debian.org/pkg/dpkg'
+
+[[package]]
+channel = 'arch'
+name = 'dpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'dpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'dpkg-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'dselect'

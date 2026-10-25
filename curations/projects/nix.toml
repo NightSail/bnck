@@ -1,0 +1,12 @@
+id = 'nix'
+name = 'nix'
+
+homepage = 'https://nixos.org/nix'
+
+[[package]]
+channel = 'arch'
+name = 'nix'
+
+[[package]]
+channel = 'debian'
+name = 'nix-bin'

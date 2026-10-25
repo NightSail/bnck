@@ -1,0 +1,8 @@
+id = 'bornagain'
+name = 'bornagain'
+
+homepage = 'https://bornagainproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'bornagain'

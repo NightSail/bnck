@@ -1,0 +1,8 @@
+id = 'whisper-cpp-tools'
+name = 'whisper.cpp-tools'
+
+homepage = 'https://github.com/ggml-org/whisper.cpp'
+
+[[package]]
+channel = 'debian'
+name = 'whisper.cpp-tools'

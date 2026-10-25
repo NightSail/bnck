@@ -1,0 +1,16 @@
+id = 'xfce4-dict'
+name = 'xfce4-dict'
+
+homepage = 'https://docs.xfce.org/apps/xfce4-dict/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-dict'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-dict'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-dict'

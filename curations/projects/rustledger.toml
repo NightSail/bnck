@@ -1,0 +1,9 @@
+id = 'rustledger'
+name = 'rustledger'
+
+homepage = 'https://rustledger.github.io'
+repository = 'https://github.com/rustledger/rustledger.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustledger'

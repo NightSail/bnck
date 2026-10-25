@@ -1,0 +1,20 @@
+id = 'odt2txt'
+name = 'odt2txt'
+
+homepage = 'https://github.com/dstosberg/odt2txt'
+
+[[package]]
+channel = 'arch'
+name = 'odt2txt'
+
+[[package]]
+channel = 'debian'
+name = 'odt2txt'
+
+[[package]]
+channel = 'fedora'
+name = 'odt2txt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/odt2txt'

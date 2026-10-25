@@ -1,0 +1,12 @@
+id = 'cdist'
+name = 'cdist'
+
+homepage = 'https://cdi.st'
+
+[[package]]
+channel = 'debian'
+name = 'cdist'
+
+[[package]]
+channel = 'fedora'
+name = 'cdist'

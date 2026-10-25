@@ -1,0 +1,12 @@
+id = 'billposer-billposer'
+name = 'billposer'
+
+homepage = 'http://billposer.org/Software/libuninum.html'
+
+[[package]]
+channel = 'debian'
+name = 'numconv'
+
+[[package]]
+channel = 'fedora'
+name = 'libuninum'

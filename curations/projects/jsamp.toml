@@ -1,0 +1,8 @@
+id = 'jsamp'
+name = 'jsamp'
+
+homepage = 'http://www.star.bristol.ac.uk/~mbt/jsamp'
+
+[[package]]
+channel = 'debian'
+name = 'jsamp'

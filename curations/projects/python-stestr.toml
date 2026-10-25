@@ -1,0 +1,8 @@
+id = 'python-stestr'
+name = 'python-stestr'
+
+homepage = 'https://stestr.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-stestr'

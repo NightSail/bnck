@@ -1,0 +1,6 @@
+id = 'python3-refnx'
+name = 'python3-refnx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-refnx'

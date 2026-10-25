@@ -1,0 +1,8 @@
+id = 'kwartz-client'
+name = 'kwartz-client'
+
+homepage = 'https://usb.freeduc.org'
+
+[[package]]
+channel = 'debian'
+name = 'kwartz-client'

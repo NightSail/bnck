@@ -5,6 +5,14 @@ homepage = 'https://w3m.sourceforge.net'
 repository = 'https://github.com/tats/w3m'
 
 [[package]]
+channel = 'arch'
+name = 'w3m'
+
+[[package]]
+channel = 'debian'
+name = 'w3m'
+
+[[package]]
 channel = 'fedora'
 name = 'w3m'
 

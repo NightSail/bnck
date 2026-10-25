@@ -1,0 +1,12 @@
+id = 'journal-brief'
+name = 'journal-brief'
+
+homepage = 'https://github.com/twaugh/journal-brief'
+
+[[package]]
+channel = 'debian'
+name = 'journal-brief'
+
+[[package]]
+channel = 'fedora'
+name = 'journal-brief'

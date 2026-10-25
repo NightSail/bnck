@@ -1,0 +1,8 @@
+id = 'deepin-compressor'
+name = 'deepin-compressor'
+
+homepage = 'https://github.com/linuxdeepin/deepin-compressor'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-compressor'

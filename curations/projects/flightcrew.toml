@@ -1,0 +1,8 @@
+id = 'flightcrew'
+name = 'flightcrew'
+
+homepage = 'https://github.com/Sigil-Ebook/flightcrew'
+
+[[package]]
+channel = 'debian'
+name = 'flightcrew'

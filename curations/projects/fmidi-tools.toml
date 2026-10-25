@@ -1,0 +1,8 @@
+id = 'fmidi-tools'
+name = 'fmidi-tools'
+
+homepage = 'https://github.com/jpcima/fmidi'
+
+[[package]]
+channel = 'fedora'
+name = 'fmidi-tools'

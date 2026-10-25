@@ -1,0 +1,8 @@
+id = 'rmtrash'
+name = 'rmtrash'
+
+repository = 'https://github.com/TBXark/rmtrash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmtrash'

@@ -1,0 +1,6 @@
+id = 'cricket'
+name = 'cricket'
+
+[[package]]
+channel = 'debian'
+name = 'cricket'

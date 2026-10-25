@@ -1,0 +1,8 @@
+id = 'shy'
+name = 'shy'
+
+homepage = 'https://github.com/xvxx/shy'
+
+[[package]]
+channel = 'arch'
+name = 'shy'

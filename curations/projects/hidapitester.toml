@@ -1,0 +1,8 @@
+id = 'hidapitester'
+name = 'hidapitester'
+
+repository = 'https://github.com/todbot/hidapitester.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hidapitester'

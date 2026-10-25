@@ -1,0 +1,8 @@
+id = 'pdf-stapler'
+name = 'pdf-stapler'
+
+homepage = 'https://github.com/hellerbarde/stapler'
+
+[[package]]
+channel = 'fedora'
+name = 'pdf-stapler'

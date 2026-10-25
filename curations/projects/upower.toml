@@ -1,0 +1,16 @@
+id = 'upower'
+name = 'upower'
+
+homepage = 'https://upower.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'upower'
+
+[[package]]
+channel = 'debian'
+name = 'upower'
+
+[[package]]
+channel = 'fedora'
+name = 'upower'

@@ -1,0 +1,9 @@
+id = 'nuitka'
+name = 'nuitka'
+
+homepage = 'https://nuitka.net'
+repository = 'https://github.com/Nuitka/Nuitka.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuitka'

@@ -1,0 +1,6 @@
+id = 'vmfs-tools'
+name = 'vmfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'vmfs-tools'

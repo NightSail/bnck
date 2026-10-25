@@ -1,0 +1,8 @@
+id = 'sddl'
+name = 'sddl'
+
+homepage = 'https://github.com/cloudsoda/sddl'
+
+[[package]]
+channel = 'debian'
+name = 'sddl'

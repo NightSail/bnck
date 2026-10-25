@@ -1,0 +1,9 @@
+id = 'showkey'
+name = 'showkey'
+
+homepage = 'http://www.catb.org/~esr/showkey'
+repository = 'https://gitlab.com/esr/showkey.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/showkey'

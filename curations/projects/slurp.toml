@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'slurp'
 
 [[package]]
+channel = 'debian'
+name = 'slurp'
+
+[[package]]
 channel = 'fedora'
 name = 'slurp'

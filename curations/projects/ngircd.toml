@@ -1,0 +1,16 @@
+id = 'ngircd'
+name = 'ngircd'
+
+homepage = 'https://ngircd.barton.de'
+
+[[package]]
+channel = 'debian'
+name = 'ngircd'
+
+[[package]]
+channel = 'fedora'
+name = 'ngircd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ngircd'

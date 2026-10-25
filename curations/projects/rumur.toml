@@ -1,0 +1,8 @@
+id = 'rumur'
+name = 'rumur'
+
+homepage = 'https://github.com/Smattr/rumur'
+
+[[package]]
+channel = 'debian'
+name = 'rumur'

@@ -1,0 +1,8 @@
+id = 'flamegraph'
+name = 'flamegraph'
+
+repository = 'https://github.com/brendangregg/FlameGraph.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flamegraph'

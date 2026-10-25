@@ -1,0 +1,8 @@
+id = 'scorchwentbonkers'
+name = 'scorchwentbonkers'
+
+homepage = 'http://wasyl.eu/games/scorch-went-bonkers.html'
+
+[[package]]
+channel = 'fedora'
+name = 'scorchwentbonkers'

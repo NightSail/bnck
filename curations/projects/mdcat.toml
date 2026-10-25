@@ -1,0 +1,8 @@
+id = 'mdcat'
+name = 'mdcat'
+
+repository = 'https://github.com/BIRSAx2/mdcat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdcat'

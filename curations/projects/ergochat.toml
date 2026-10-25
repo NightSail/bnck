@@ -1,0 +1,8 @@
+id = 'ergochat'
+name = 'ergochat'
+
+homepage = 'https://github.com/ergochat/ergo'
+
+[[package]]
+channel = 'debian'
+name = 'ergochat'

@@ -1,0 +1,8 @@
+id = 'xtruss'
+name = 'xtruss'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/xtruss'
+
+[[package]]
+channel = 'debian'
+name = 'xtruss'

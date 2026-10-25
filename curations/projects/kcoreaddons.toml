@@ -1,0 +1,12 @@
+id = 'kcoreaddons'
+name = 'kcoreaddons'
+
+homepage = 'https://invent.kde.org/frameworks/kcoreaddons'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5coreaddons-dev-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kcoreaddons'

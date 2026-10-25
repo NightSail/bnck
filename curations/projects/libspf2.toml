@@ -1,0 +1,8 @@
+id = 'libspf2'
+name = 'libspf2'
+
+homepage = 'https://www.libspf2.net'
+
+[[package]]
+channel = 'arch'
+name = 'libspf2'

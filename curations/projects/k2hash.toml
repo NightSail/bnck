@@ -1,0 +1,8 @@
+id = 'k2hash'
+name = 'k2hash'
+
+homepage = 'https://github.com/yahoojapan/k2hash'
+
+[[package]]
+channel = 'fedora'
+name = 'k2hash'

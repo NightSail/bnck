@@ -1,0 +1,8 @@
+id = 'umka-lang'
+name = 'umka-lang'
+
+repository = 'https://github.com/vtereshkov/umka-lang.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/umka-lang'

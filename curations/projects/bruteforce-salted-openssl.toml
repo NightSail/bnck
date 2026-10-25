@@ -1,0 +1,8 @@
+id = 'bruteforce-salted-openssl'
+name = 'bruteforce-salted-openssl'
+
+homepage = 'https://github.com/glv2/bruteforce-salted-openssl'
+
+[[package]]
+channel = 'debian'
+name = 'bruteforce-salted-openssl'

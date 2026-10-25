@@ -1,0 +1,12 @@
+id = 'kdepim-runtime'
+name = 'kdepim-runtime'
+
+homepage = 'https://invent.kde.org/pim/kdepim-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'kdepim-runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'kdepim-runtime'

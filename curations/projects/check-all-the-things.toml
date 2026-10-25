@@ -1,0 +1,6 @@
+id = 'check-all-the-things'
+name = 'check-all-the-things'
+
+[[package]]
+channel = 'debian'
+name = 'check-all-the-things'

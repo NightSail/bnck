@@ -1,0 +1,16 @@
+id = 'topcom'
+name = 'topcom'
+
+homepage = 'https://www.wm.uni-bayreuth.de/de/team/rambau_joerg/TOPCOM/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'topcom'
+
+[[package]]
+channel = 'debian'
+name = 'topcom'
+
+[[package]]
+channel = 'fedora'
+name = 'TOPCOM'

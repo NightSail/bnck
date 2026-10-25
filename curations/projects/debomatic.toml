@@ -1,0 +1,8 @@
+id = 'debomatic'
+name = 'debomatic'
+
+homepage = 'https://debomatic.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'debomatic'

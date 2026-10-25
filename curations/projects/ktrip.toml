@@ -1,0 +1,16 @@
+id = 'ktrip'
+name = 'ktrip'
+
+homepage = 'https://apps.kde.org/ktrip'
+
+[[package]]
+channel = 'arch'
+name = 'ktrip'
+
+[[package]]
+channel = 'debian'
+name = 'ktrip'
+
+[[package]]
+channel = 'fedora'
+name = 'ktrip'

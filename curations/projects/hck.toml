@@ -1,0 +1,12 @@
+id = 'hck'
+name = 'hck'
+
+repository = 'https://github.com/sstadick/hck.git'
+
+[[package]]
+channel = 'arch'
+name = 'hck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hck'

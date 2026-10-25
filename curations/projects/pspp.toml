@@ -1,0 +1,12 @@
+id = 'pspp'
+name = 'pspp'
+
+homepage = 'http://savannah.gnu.org/projects/pspp'
+
+[[package]]
+channel = 'debian'
+name = 'pspp'
+
+[[package]]
+channel = 'fedora'
+name = 'pspp'

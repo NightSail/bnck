@@ -1,0 +1,12 @@
+id = 'python3-trml2pdf'
+name = 'python3-trml2pdf'
+
+homepage = 'https://github.com/romanlv/trml2pdf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trml2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-trml2pdf'

@@ -1,0 +1,8 @@
+id = 'ansible-lint-ansible-community'
+name = 'ansible-lint'
+
+homepage = 'https://github.com/ansible-community/ansible-lint'
+
+[[package]]
+channel = 'debian'
+name = 'ansible-lint'

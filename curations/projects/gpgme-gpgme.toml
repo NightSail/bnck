@@ -1,0 +1,12 @@
+id = 'gpgme-gpgme'
+name = 'gpgme'
+
+homepage = 'https://gnupg.org/software/gpgme'
+
+[[package]]
+channel = 'debian'
+name = 'gpgme-json'
+
+[[package]]
+channel = 'debian'
+name = 'libgpgme-dev'

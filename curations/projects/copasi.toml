@@ -1,0 +1,12 @@
+id = 'copasi'
+name = 'COPASI'
+
+homepage = 'http://copasi.org'
+
+[[package]]
+channel = 'fedora'
+name = 'COPASI'
+
+[[package]]
+channel = 'fedora'
+name = 'COPASI-gui'

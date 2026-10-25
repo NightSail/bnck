@@ -1,0 +1,14 @@
+id = 'tcltk-defaults'
+name = 'tcltk-defaults'
+
+[[package]]
+channel = 'debian'
+name = 'tcl'
+
+[[package]]
+channel = 'debian'
+name = 'tcl-dev'
+
+[[package]]
+channel = 'debian'
+name = 'tk'

@@ -1,0 +1,12 @@
+id = 'pim-sieve-editor'
+name = 'pim-sieve-editor'
+
+homepage = 'https://invent.kde.org/pim/pim-sieve-editor'
+
+[[package]]
+channel = 'debian'
+name = 'pim-sieve-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'pim-sieve-editor'

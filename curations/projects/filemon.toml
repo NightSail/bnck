@@ -1,0 +1,8 @@
+id = 'filemon'
+name = 'filemon'
+
+homepage = 'https://newosxbook.com/tools/filemon.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/filemon'

@@ -1,0 +1,16 @@
+id = 'sugar'
+name = 'sugar'
+
+homepage = 'http://wiki.sugarlabs.org/go/Sugar'
+
+[[package]]
+channel = 'debian'
+name = 'python3-carquinyol'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sugar3'
+
+[[package]]
+channel = 'debian'
+name = 'sugar-session'

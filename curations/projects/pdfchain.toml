@@ -1,0 +1,8 @@
+id = 'pdfchain'
+name = 'pdfchain'
+
+homepage = 'http://pdfchain.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pdfchain'

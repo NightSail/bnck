@@ -1,0 +1,13 @@
+id = 'editorconfig-checker'
+name = 'editorconfig-checker'
+
+homepage = 'https://editorconfig-checker.github.io'
+repository = 'https://github.com/editorconfig-checker/editorconfig-checker.git'
+
+[[package]]
+channel = 'arch'
+name = 'editorconfig-checker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/editorconfig-checker'

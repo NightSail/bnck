@@ -1,0 +1,24 @@
+id = 'openexr'
+name = 'openexr'
+
+homepage = 'https://www.openexr.com'
+
+[[package]]
+channel = 'arch'
+name = 'openexr'
+
+[[package]]
+channel = 'debian'
+name = 'openexr'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenEXR_Viewers'
+
+[[package]]
+channel = 'fedora'
+name = 'openexr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openexr'

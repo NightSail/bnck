@@ -1,0 +1,8 @@
+id = 'joyce'
+name = 'joyce'
+
+homepage = 'https://www.seasip.info/Unix/Joyce/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/joyce'

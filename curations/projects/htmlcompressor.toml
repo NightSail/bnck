@@ -1,0 +1,8 @@
+id = 'htmlcompressor'
+name = 'htmlcompressor'
+
+homepage = 'https://code.google.com/archive/p/htmlcompressor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmlcompressor'

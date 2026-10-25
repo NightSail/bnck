@@ -12,5 +12,9 @@ channel = 'crates.io'
 name = 'navi'
 
 [[package]]
+channel = 'fedora'
+name = 'navi'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/navi'

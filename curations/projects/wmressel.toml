@@ -1,0 +1,8 @@
+id = 'wmressel'
+name = 'wmressel'
+
+homepage = 'https://www.dockapps.net/wmressel'
+
+[[package]]
+channel = 'debian'
+name = 'wmressel'

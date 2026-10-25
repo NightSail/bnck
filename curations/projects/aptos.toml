@@ -1,0 +1,9 @@
+id = 'aptos'
+name = 'aptos'
+
+homepage = 'https://aptosfoundation.org'
+repository = 'https://github.com/aptos-labs/aptos-core.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aptos'

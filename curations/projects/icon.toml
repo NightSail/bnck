@@ -1,0 +1,24 @@
+id = 'icon'
+name = 'icon'
+
+homepage = 'https://www2.cs.arizona.edu/icon'
+
+[[package]]
+channel = 'debian'
+name = 'icont'
+
+[[package]]
+channel = 'debian'
+name = 'iconx'
+
+[[package]]
+channel = 'fedora'
+name = 'icon'
+
+[[package]]
+channel = 'fedora'
+name = 'icon-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icon'

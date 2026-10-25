@@ -1,0 +1,12 @@
+id = 'google-guest-agent'
+name = 'google-guest-agent'
+
+homepage = 'https://github.com/GoogleCloudPlatform/guest-agent'
+
+[[package]]
+channel = 'debian'
+name = 'google-guest-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'google-guest-agent'

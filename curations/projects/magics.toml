@@ -1,0 +1,10 @@
+id = 'magics'
+name = 'magics++'
+
+[[package]]
+channel = 'debian'
+name = 'libmagics++-dev'
+
+[[package]]
+channel = 'debian'
+name = 'magics++'

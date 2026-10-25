@@ -1,0 +1,6 @@
+id = 'cloop-utils'
+name = 'cloop-utils'
+
+[[package]]
+channel = 'debian'
+name = 'cloop-utils'

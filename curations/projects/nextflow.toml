@@ -1,0 +1,8 @@
+id = 'nextflow'
+name = 'nextflow'
+
+homepage = 'https://nextflow.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nextflow'

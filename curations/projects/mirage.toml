@@ -1,0 +1,12 @@
+id = 'mirage'
+name = 'mirage'
+
+homepage = 'https://gitlab.com/thomasross/mirage'
+
+[[package]]
+channel = 'debian'
+name = 'mirage'
+
+[[package]]
+channel = 'fedora'
+name = 'mirage'

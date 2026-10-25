@@ -1,0 +1,16 @@
+id = 'kwordquiz'
+name = 'kwordquiz'
+
+homepage = 'https://apps.kde.org/kwordquiz'
+
+[[package]]
+channel = 'arch'
+name = 'kwordquiz'
+
+[[package]]
+channel = 'debian'
+name = 'kwordquiz'
+
+[[package]]
+channel = 'fedora'
+name = 'kwordquiz'

@@ -1,0 +1,8 @@
+id = 'gqlplus'
+name = 'gqlplus'
+
+homepage = 'https://gqlplus.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gqlplus'

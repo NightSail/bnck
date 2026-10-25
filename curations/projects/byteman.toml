@@ -1,0 +1,13 @@
+id = 'byteman'
+name = 'byteman'
+
+homepage = 'http://www.jboss.org/byteman'
+repository = 'https://github.com/bytemanproject/byteman.git'
+
+[[package]]
+channel = 'fedora'
+name = 'byteman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/byteman'

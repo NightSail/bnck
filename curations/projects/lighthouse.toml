@@ -1,0 +1,8 @@
+id = 'lighthouse'
+name = 'lighthouse'
+
+homepage = 'https://lighthouse.sigmaprime.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lighthouse'

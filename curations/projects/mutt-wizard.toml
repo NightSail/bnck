@@ -1,0 +1,8 @@
+id = 'mutt-wizard'
+name = 'mutt-wizard'
+
+homepage = 'https://github.com/LukeSmithxyz/mutt-wizard'
+
+[[package]]
+channel = 'debian'
+name = 'mutt-wizard'

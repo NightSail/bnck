@@ -1,0 +1,8 @@
+id = 'procstatd'
+name = 'procstatd'
+
+homepage = 'https://sourceforge.net/projects/herdtools'
+
+[[package]]
+channel = 'arch'
+name = 'procstatd'

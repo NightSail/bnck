@@ -1,0 +1,8 @@
+id = 'golang-github-awslabs-aws-multi-module-repository-tools'
+name = 'golang-github-awslabs-aws-multi-module-repository-tools'
+
+homepage = 'https://github.com/awslabs/aws-go-multi-module-repository-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-awslabs-aws-multi-module-repository-tools'

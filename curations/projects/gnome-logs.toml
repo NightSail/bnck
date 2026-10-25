@@ -1,0 +1,16 @@
+id = 'gnome-logs'
+name = 'gnome-logs'
+
+homepage = 'https://apps.gnome.org/Logs'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-logs'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-logs'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-logs'

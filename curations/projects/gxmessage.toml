@@ -1,0 +1,12 @@
+id = 'gxmessage'
+name = 'gxmessage'
+
+homepage = 'https://trmusson.dreamhosters.com/programs.html'
+
+[[package]]
+channel = 'arch'
+name = 'gxmessage'
+
+[[package]]
+channel = 'debian'
+name = 'gxmessage'

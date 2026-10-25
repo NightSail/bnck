@@ -1,0 +1,8 @@
+id = 'bluetoothconnector'
+name = 'bluetoothconnector'
+
+repository = 'https://github.com/lapfelix/BluetoothConnector.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bluetoothconnector'

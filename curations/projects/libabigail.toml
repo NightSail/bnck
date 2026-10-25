@@ -1,0 +1,20 @@
+id = 'libabigail'
+name = 'libabigail'
+
+homepage = 'https://sourceware.org/libabigail'
+
+[[package]]
+channel = 'arch'
+name = 'libabigail'
+
+[[package]]
+channel = 'debian'
+name = 'abigail-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libabigail'
+
+[[package]]
+channel = 'fedora'
+name = 'libabigail-fedora'

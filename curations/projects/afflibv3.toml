@@ -1,0 +1,16 @@
+id = 'afflibv3'
+name = 'afflibv3'
+
+homepage = 'https://github.com/sshock/AFFLIBv3'
+
+[[package]]
+channel = 'debian'
+name = 'afflib-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'afftools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/afflib'

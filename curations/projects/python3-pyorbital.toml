@@ -1,0 +1,8 @@
+id = 'python3-pyorbital'
+name = 'python3-pyorbital'
+
+homepage = 'https://github.com/pytroll/pyorbital'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyorbital'

@@ -1,0 +1,16 @@
+id = 'esh'
+name = 'esh'
+
+homepage = 'https://github.com/jirutka/esh'
+
+[[package]]
+channel = 'arch'
+name = 'esh'
+
+[[package]]
+channel = 'debian'
+name = 'esh'
+
+[[package]]
+channel = 'fedora'
+name = 'esh'

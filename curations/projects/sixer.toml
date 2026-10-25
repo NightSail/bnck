@@ -1,0 +1,8 @@
+id = 'sixer'
+name = 'sixer'
+
+homepage = 'https://github.com/haypo/sixer'
+
+[[package]]
+channel = 'debian'
+name = 'sixer'

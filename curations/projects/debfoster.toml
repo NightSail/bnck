@@ -1,0 +1,8 @@
+id = 'debfoster'
+name = 'debfoster'
+
+homepage = 'https://salsa.debian.org/debian/debfoster'
+
+[[package]]
+channel = 'debian'
+name = 'debfoster'

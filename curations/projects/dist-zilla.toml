@@ -1,0 +1,12 @@
+id = 'dist-zilla'
+name = 'Dist-Zilla'
+
+homepage = 'https://metacpan.org/release/Dist-Zilla'
+
+[[package]]
+channel = 'debian'
+name = 'libdist-zilla-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Dist-Zilla'

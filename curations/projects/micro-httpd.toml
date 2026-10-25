@@ -1,0 +1,8 @@
+id = 'micro-httpd'
+name = 'micro-httpd'
+
+homepage = 'https://www.acme.com/software/micro_httpd'
+
+[[package]]
+channel = 'debian'
+name = 'micro-httpd'

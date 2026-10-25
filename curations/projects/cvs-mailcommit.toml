@@ -1,0 +1,8 @@
+id = 'cvs-mailcommit'
+name = 'cvs-mailcommit'
+
+homepage = 'https://www.infodrom.org/Infodrom/tools/cvs-mailcommit.html'
+
+[[package]]
+channel = 'debian'
+name = 'cvs-mailcommit'

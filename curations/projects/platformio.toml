@@ -1,0 +1,17 @@
+id = 'platformio'
+name = 'platformio'
+
+homepage = 'https://platformio.org'
+repository = 'https://github.com/platformio/platformio-core.git'
+
+[[package]]
+channel = 'arch'
+name = 'platformio-core'
+
+[[package]]
+channel = 'fedora'
+name = 'platformio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/platformio'

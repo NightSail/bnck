@@ -1,0 +1,16 @@
+id = 'rio'
+name = 'rio'
+
+homepage = 'https://github.com/raphamorim/rio'
+
+[[package]]
+channel = 'arch'
+name = 'rio'
+
+[[package]]
+channel = 'debian'
+name = 'rio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/rio'

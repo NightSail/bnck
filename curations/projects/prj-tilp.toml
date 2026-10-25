@@ -1,0 +1,12 @@
+id = 'prj-tilp'
+name = 'prj_tilp'
+
+homepage = 'http://lpg.ticalc.org/prj_tilp'
+
+[[package]]
+channel = 'fedora'
+name = 'gfm'
+
+[[package]]
+channel = 'fedora'
+name = 'tilp'

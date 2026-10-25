@@ -1,0 +1,12 @@
+id = 'kalm'
+name = 'kalm'
+
+homepage = 'https://apps.kde.org/kalm'
+
+[[package]]
+channel = 'arch'
+name = 'kalm'
+
+[[package]]
+channel = 'fedora'
+name = 'kalm'

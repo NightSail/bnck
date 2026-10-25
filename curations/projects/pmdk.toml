@@ -1,0 +1,16 @@
+id = 'pmdk'
+name = 'pmdk'
+
+homepage = 'https://pmem.io/pmdk'
+
+[[package]]
+channel = 'debian'
+name = 'pmdk-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'daxio'
+
+[[package]]
+channel = 'fedora'
+name = 'pmempool'

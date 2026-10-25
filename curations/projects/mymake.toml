@@ -1,0 +1,8 @@
+id = 'mymake'
+name = 'mymake'
+
+homepage = 'https://github.com/fstromback/mymake'
+
+[[package]]
+channel = 'debian'
+name = 'mymake'

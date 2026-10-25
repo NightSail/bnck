@@ -1,0 +1,8 @@
+id = 'matugen'
+name = 'matugen'
+
+homepage = 'https://github.com/InioX/matugen'
+
+[[package]]
+channel = 'arch'
+name = 'matugen'

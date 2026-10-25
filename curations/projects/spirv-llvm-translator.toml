@@ -1,0 +1,40 @@
+id = 'spirv-llvm-translator'
+name = 'spirv-llvm-translator'
+
+homepage = 'https://github.com/KhronosGroup/SPIRV-LLVM-Translator'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-spirv-14'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-spirv-17'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-spirv-18'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-spirv-19'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-spirv-21'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-spirv-22'
+
+[[package]]
+channel = 'fedora'
+name = 'spirv-llvm-translator-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'spirv-llvm15.0-translator-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spirv-llvm-translator'

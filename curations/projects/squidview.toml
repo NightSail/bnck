@@ -1,0 +1,8 @@
+id = 'squidview'
+name = 'squidview'
+
+homepage = 'http://www.rillion.net/squidview'
+
+[[package]]
+channel = 'debian'
+name = 'squidview'

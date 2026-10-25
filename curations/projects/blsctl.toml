@@ -1,0 +1,8 @@
+id = 'blsctl'
+name = 'blsctl'
+
+homepage = 'https://crates.io/crates/blsctl'
+
+[[package]]
+channel = 'fedora'
+name = 'blsctl'

@@ -1,0 +1,8 @@
+id = 'python3-aw-client'
+name = 'python3-aw-client'
+
+homepage = 'https://github.com/ActivityWatch/aw-client'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-aw-client'

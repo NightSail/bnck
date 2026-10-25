@@ -1,0 +1,8 @@
+id = 'haskell-language-glsl'
+name = 'haskell-language-glsl'
+
+homepage = 'https://github.com/noteed/language-glsl'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-language-glsl'

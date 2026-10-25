@@ -1,0 +1,8 @@
+id = 'proxelar'
+name = 'proxelar'
+
+homepage = 'https://proxelar.micheletti.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proxelar'

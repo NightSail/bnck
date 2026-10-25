@@ -1,0 +1,8 @@
+id = 'gla11y'
+name = 'gla11y'
+
+homepage = 'https://github.com/hypra/gla11y'
+
+[[package]]
+channel = 'debian'
+name = 'gla11y'

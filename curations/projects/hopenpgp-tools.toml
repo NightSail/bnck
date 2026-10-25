@@ -1,0 +1,17 @@
+id = 'hopenpgp-tools'
+name = 'hopenpgp-tools'
+
+homepage = 'https://salsa.debian.org/clint/hopenpgp-tools'
+repository = 'https://salsa.debian.org/clint/hOpenPGP.git'
+
+[[package]]
+channel = 'arch'
+name = 'hopenpgp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'hopenpgp-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hopenpgp-tools'

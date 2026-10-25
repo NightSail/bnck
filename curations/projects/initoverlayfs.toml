@@ -1,0 +1,8 @@
+id = 'initoverlayfs'
+name = 'initoverlayfs'
+
+homepage = 'https://github.com/containers/initoverlayfs'
+
+[[package]]
+channel = 'fedora'
+name = 'initoverlayfs'

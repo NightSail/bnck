@@ -1,0 +1,9 @@
+id = 'hg-fast-export'
+name = 'hg-fast-export'
+
+homepage = 'https://repo.or.cz/fast-export.git'
+repository = 'https://github.com/frej/fast-export.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hg-fast-export'

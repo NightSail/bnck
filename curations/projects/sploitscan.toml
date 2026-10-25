@@ -1,0 +1,8 @@
+id = 'sploitscan'
+name = 'sploitscan'
+
+homepage = 'https://github.com/xaitax/SploitScan'
+
+[[package]]
+channel = 'debian'
+name = 'sploitscan'

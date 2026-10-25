@@ -1,0 +1,9 @@
+id = 'chicken'
+name = 'chicken'
+
+homepage = 'https://www.call-cc.org'
+repository = 'https://code.call-cc.org/git/chicken-core.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chicken'

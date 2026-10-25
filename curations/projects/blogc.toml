@@ -1,0 +1,25 @@
+id = 'blogc'
+name = 'blogc'
+
+homepage = 'https://blogc.rgm.io'
+repository = 'https://github.com/blogc/blogc.git'
+
+[[package]]
+channel = 'fedora'
+name = 'blogc'
+
+[[package]]
+channel = 'fedora'
+name = 'blogc-git-receiver'
+
+[[package]]
+channel = 'fedora'
+name = 'blogc-make'
+
+[[package]]
+channel = 'fedora'
+name = 'blogc-runserver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blogc'

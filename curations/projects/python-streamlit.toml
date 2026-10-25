@@ -1,0 +1,8 @@
+id = 'python-streamlit'
+name = 'python-streamlit'
+
+homepage = 'https://streamlit.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-streamlit'

@@ -1,0 +1,9 @@
+id = 'telegram-downloader'
+name = 'telegram-downloader'
+
+homepage = 'https://docs.iyear.me/tdl'
+repository = 'https://github.com/iyear/tdl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/telegram-downloader'

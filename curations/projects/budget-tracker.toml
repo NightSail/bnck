@@ -1,0 +1,8 @@
+id = 'budget-tracker'
+name = 'budget-tracker'
+
+repository = 'https://github.com/Feromond/budget-tracker-tui.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/budget-tracker'

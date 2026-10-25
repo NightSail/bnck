@@ -1,0 +1,12 @@
+id = 'nodeenv-ekalinin'
+name = 'nodeenv'
+
+homepage = 'https://github.com/ekalinin/nodeenv'
+
+[[package]]
+channel = 'arch'
+name = 'python-nodeenv'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nodeenv'

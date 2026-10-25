@@ -1,0 +1,10 @@
+id = 'trace-cmd'
+name = 'trace-cmd'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trace-cmd'
+
+[[package]]
+channel = 'debian'
+name = 'trace-cmd'

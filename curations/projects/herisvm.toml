@@ -1,0 +1,8 @@
+id = 'herisvm'
+name = 'herisvm'
+
+homepage = 'https://github.com/cheusov/herisvm'
+
+[[package]]
+channel = 'debian'
+name = 'herisvm'

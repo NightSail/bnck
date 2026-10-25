@@ -1,0 +1,16 @@
+id = 'urh'
+name = 'urh'
+
+repository = 'https://github.com/jopohl/urh.git'
+
+[[package]]
+channel = 'arch'
+name = 'urh'
+
+[[package]]
+channel = 'fedora'
+name = 'urh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urh'

@@ -1,0 +1,8 @@
+id = 'lsuio'
+name = 'lsuio'
+
+homepage = 'https://github.com/missinglinkelectronics/libuio'
+
+[[package]]
+channel = 'debian'
+name = 'lsuio'

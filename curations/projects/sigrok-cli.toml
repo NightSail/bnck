@@ -1,0 +1,17 @@
+id = 'sigrok-cli'
+name = 'sigrok-cli'
+
+homepage = 'https://www.sigrok.org/wiki/Sigrok-cli'
+repository = 'git://sigrok.org/sigrok-cli'
+
+[[package]]
+channel = 'arch'
+name = 'sigrok-cli'
+
+[[package]]
+channel = 'debian'
+name = 'sigrok-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sigrok-cli'

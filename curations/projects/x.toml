@@ -1,0 +1,12 @@
+id = 'x'
+name = 'x'
+
+homepage = 'https://golang.org/x/tools'
+
+[[package]]
+channel = 'debian'
+name = 'golang-golang-x-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gopls'

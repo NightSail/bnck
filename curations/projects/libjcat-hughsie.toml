@@ -1,0 +1,8 @@
+id = 'libjcat-hughsie'
+name = 'libjcat'
+
+repository = 'https://github.com/hughsie/libjcat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libjcat'

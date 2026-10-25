@@ -1,0 +1,13 @@
+id = 'swift-format'
+name = 'swift-format'
+
+homepage = 'https://github.com/nicklockwood/SwiftFormat'
+repository = 'https://github.com/swiftlang/swift-format.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swift-format'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swiftformat'

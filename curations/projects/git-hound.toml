@@ -1,0 +1,8 @@
+id = 'git-hound'
+name = 'git-hound'
+
+repository = 'https://github.com/ezekg/git-hound.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-hound'

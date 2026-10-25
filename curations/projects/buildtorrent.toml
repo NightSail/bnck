@@ -1,0 +1,8 @@
+id = 'buildtorrent'
+name = 'buildtorrent'
+
+homepage = 'https://mathr.co.uk/web/buildtorrent.html'
+
+[[package]]
+channel = 'debian'
+name = 'buildtorrent'

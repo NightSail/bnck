@@ -1,0 +1,12 @@
+id = 'pod-parser'
+name = 'Pod-Parser'
+
+homepage = 'https://metacpan.org/release/Pod-Parser'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-parser-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Parser'

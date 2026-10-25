@@ -1,0 +1,13 @@
+id = 'talosctl'
+name = 'talosctl'
+
+homepage = 'https://www.talos.dev'
+repository = 'https://github.com/siderolabs/talos.git'
+
+[[package]]
+channel = 'arch'
+name = 'talosctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/talosctl'

@@ -1,0 +1,8 @@
+id = 'pacman-contrib'
+name = 'pacman-contrib'
+
+homepage = 'https://gitlab.archlinux.org/pacman/pacman-contrib'
+
+[[package]]
+channel = 'arch'
+name = 'pacman-contrib'

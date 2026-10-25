@@ -1,0 +1,12 @@
+id = 'photocollage'
+name = 'photocollage'
+
+homepage = 'https://github.com/adrienverge/PhotoCollage'
+
+[[package]]
+channel = 'debian'
+name = 'photocollage'
+
+[[package]]
+channel = 'fedora'
+name = 'photocollage'

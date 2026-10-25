@@ -1,0 +1,8 @@
+id = 'unitycatalog'
+name = 'unitycatalog'
+
+homepage = 'https://unitycatalog.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unitycatalog'

@@ -1,0 +1,8 @@
+id = 'ssh-agent-filter'
+name = 'ssh-agent-filter'
+
+homepage = 'https://git.tiwe.de/ssh-agent-filter.git'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-agent-filter'

@@ -1,0 +1,36 @@
+id = 'dict'
+name = 'dict'
+
+homepage = 'https://dict.org/bin/Dict'
+
+[[package]]
+channel = 'arch'
+name = 'dictd'
+
+[[package]]
+channel = 'debian'
+name = 'dict'
+
+[[package]]
+channel = 'debian'
+name = 'dictd'
+
+[[package]]
+channel = 'debian'
+name = 'dictfmt'
+
+[[package]]
+channel = 'debian'
+name = 'dictzip'
+
+[[package]]
+channel = 'fedora'
+name = 'dictd'
+
+[[package]]
+channel = 'fedora'
+name = 'dictd-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dict'

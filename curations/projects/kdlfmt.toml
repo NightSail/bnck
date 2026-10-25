@@ -1,0 +1,8 @@
+id = 'kdlfmt'
+name = 'kdlfmt'
+
+homepage = 'https://github.com/hougesen/kdlfmt'
+
+[[package]]
+channel = 'arch'
+name = 'kdlfmt'

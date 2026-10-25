@@ -1,0 +1,8 @@
+id = 'crd2pulumi'
+name = 'crd2pulumi'
+
+repository = 'https://github.com/pulumi/crd2pulumi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crd2pulumi'

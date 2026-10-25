@@ -1,0 +1,12 @@
+id = 'eth-fast-fabric'
+name = 'eth-fast-fabric'
+
+homepage = 'https://github.com/intel/eth-fast-fabric'
+
+[[package]]
+channel = 'fedora'
+name = 'eth-tools-basic'
+
+[[package]]
+channel = 'fedora'
+name = 'eth-tools-fastfabric'

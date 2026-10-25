@@ -1,0 +1,16 @@
+id = 'mit-scheme'
+name = 'mit-scheme'
+
+homepage = 'https://www.gnu.org/software/mit-scheme'
+
+[[package]]
+channel = 'debian'
+name = 'mit-scheme'
+
+[[package]]
+channel = 'debian'
+name = 'mit-scheme-svm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mit-scheme'

@@ -1,0 +1,8 @@
+id = 'python3-cyclopts'
+name = 'python3-cyclopts'
+
+homepage = 'https://github.com/BrianPugh/cyclopts'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cyclopts'

@@ -1,0 +1,8 @@
+id = 'picoc'
+name = 'picoc'
+
+repository = 'https://gitlab.com/zsaleeba/picoc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picoc'

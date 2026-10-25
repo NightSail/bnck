@@ -1,0 +1,12 @@
+id = 'sniffit'
+name = 'sniffit'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/sniffit'
+
+[[package]]
+channel = 'arch'
+name = 'sniffit'
+
+[[package]]
+channel = 'debian'
+name = 'sniffit'

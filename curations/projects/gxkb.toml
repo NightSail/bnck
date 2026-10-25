@@ -1,0 +1,16 @@
+id = 'gxkb'
+name = 'gxkb'
+
+homepage = 'https://zen-tools.github.io/gxkb'
+
+[[package]]
+channel = 'arch'
+name = 'gxkb'
+
+[[package]]
+channel = 'debian'
+name = 'gxkb'
+
+[[package]]
+channel = 'fedora'
+name = 'gxkb'

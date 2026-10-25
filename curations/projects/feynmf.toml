@@ -1,0 +1,8 @@
+id = 'feynmf'
+name = 'feynmf'
+
+homepage = 'http://xml.web.cern.ch/XML/textproc/feynmf.html'
+
+[[package]]
+channel = 'debian'
+name = 'feynmf'

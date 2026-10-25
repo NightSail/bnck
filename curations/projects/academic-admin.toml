@@ -1,0 +1,8 @@
+id = 'academic-admin'
+name = 'academic-admin'
+
+homepage = 'https://github.com/GetRD/academic-file-converter'
+
+[[package]]
+channel = 'fedora'
+name = 'academic-admin'

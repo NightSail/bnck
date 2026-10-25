@@ -1,0 +1,8 @@
+id = 'ruby-unleash'
+name = 'ruby-unleash'
+
+homepage = 'https://github.com/unleash/unleash-client-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-unleash'

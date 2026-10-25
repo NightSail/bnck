@@ -1,0 +1,8 @@
+id = 'alevt'
+name = 'alevt'
+
+homepage = 'https://gitlab.com/alevt/alevt'
+
+[[package]]
+channel = 'debian'
+name = 'alevt'

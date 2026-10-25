@@ -1,0 +1,16 @@
+id = 'kalarm'
+name = 'kalarm'
+
+homepage = 'https://apps.kde.org/kalarm'
+
+[[package]]
+channel = 'arch'
+name = 'kalarm'
+
+[[package]]
+channel = 'debian'
+name = 'kalarm'
+
+[[package]]
+channel = 'fedora'
+name = 'kalarm'

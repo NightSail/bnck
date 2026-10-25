@@ -1,0 +1,21 @@
+id = 'povray'
+name = 'povray'
+
+homepage = 'https://www.povray.org'
+repository = 'https://github.com/POV-Ray/povray.git'
+
+[[package]]
+channel = 'arch'
+name = 'povray'
+
+[[package]]
+channel = 'debian'
+name = 'povray'
+
+[[package]]
+channel = 'fedora'
+name = 'povray'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/povray'

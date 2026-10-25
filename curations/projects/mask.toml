@@ -1,0 +1,8 @@
+id = 'mask'
+name = 'mask'
+
+homepage = 'https://github.com/jacobdeichert/mask'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mask'

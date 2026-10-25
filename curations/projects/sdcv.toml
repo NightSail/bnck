@@ -1,0 +1,21 @@
+id = 'sdcv'
+name = 'sdcv'
+
+homepage = 'https://dushistov.github.io/sdcv'
+repository = 'https://github.com/Dushistov/sdcv.git'
+
+[[package]]
+channel = 'arch'
+name = 'sdcv'
+
+[[package]]
+channel = 'debian'
+name = 'sdcv'
+
+[[package]]
+channel = 'fedora'
+name = 'sdcv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdcv'

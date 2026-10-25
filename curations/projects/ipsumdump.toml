@@ -1,0 +1,9 @@
+id = 'ipsumdump'
+name = 'ipsumdump'
+
+homepage = 'https://read.seas.harvard.edu/~kohler/ipsumdump'
+repository = 'https://github.com/kohler/ipsumdump.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipsumdump'

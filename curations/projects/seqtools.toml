@@ -1,0 +1,16 @@
+id = 'seqtools'
+name = 'seqtools'
+
+homepage = 'https://www.sanger.ac.uk/science/tools/seqtools'
+
+[[package]]
+channel = 'debian'
+name = 'belvu'
+
+[[package]]
+channel = 'debian'
+name = 'blixem'
+
+[[package]]
+channel = 'debian'
+name = 'dotter'

@@ -1,0 +1,8 @@
+id = 'fgbio'
+name = 'fgbio'
+
+homepage = 'https://fulcrumgenomics.github.io/fgbio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fgbio'

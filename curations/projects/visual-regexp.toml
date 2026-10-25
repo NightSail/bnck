@@ -1,0 +1,8 @@
+id = 'visual-regexp'
+name = 'visual-regexp'
+
+homepage = 'http://laurent.riesterer.free.fr/regexp'
+
+[[package]]
+channel = 'debian'
+name = 'visual-regexp'

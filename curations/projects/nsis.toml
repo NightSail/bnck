@@ -1,0 +1,12 @@
+id = 'nsis'
+name = 'nsis'
+
+homepage = 'https://nsis.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw-nsis-base'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/makensis'

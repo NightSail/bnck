@@ -1,0 +1,16 @@
+id = 'twinkle'
+name = 'twinkle'
+
+homepage = 'http://twinkle.dolezel.info'
+
+[[package]]
+channel = 'debian'
+name = 'twinkle'
+
+[[package]]
+channel = 'debian'
+name = 'twinkle-console'
+
+[[package]]
+channel = 'fedora'
+name = 'twinkle'

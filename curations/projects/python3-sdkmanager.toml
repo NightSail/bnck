@@ -1,0 +1,8 @@
+id = 'python3-sdkmanager'
+name = 'python3-sdkmanager'
+
+homepage = 'https://gitlab.com/fdroid/sdkmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sdkmanager'

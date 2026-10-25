@@ -4,6 +4,14 @@ name = 'jdupes'
 homepage = 'https://codeberg.org/jbruchon/jdupes'
 
 [[package]]
+channel = 'arch'
+name = 'jdupes'
+
+[[package]]
+channel = 'debian'
+name = 'jdupes'
+
+[[package]]
 channel = 'fedora'
 name = 'jdupes'
 

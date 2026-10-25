@@ -1,0 +1,8 @@
+id = 'apt-venv'
+name = 'apt-venv'
+
+homepage = 'https://github.com/LeoIannacone/apt-venv'
+
+[[package]]
+channel = 'debian'
+name = 'apt-venv'

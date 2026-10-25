@@ -1,0 +1,8 @@
+id = 'libts-bin'
+name = 'libts-bin'
+
+homepage = 'http://tslib.org'
+
+[[package]]
+channel = 'debian'
+name = 'libts-bin'

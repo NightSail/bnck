@@ -1,0 +1,8 @@
+id = 'mongo-orchestration'
+name = 'mongo-orchestration'
+
+repository = 'https://github.com/mongodb-labs/mongo-orchestration.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mongo-orchestration'

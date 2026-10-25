@@ -1,0 +1,8 @@
+id = 'pianod'
+name = 'pianod'
+
+homepage = 'https://deviousfish.com/pianod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pianod'

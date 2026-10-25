@@ -1,0 +1,8 @@
+id = 'libpod-2-docbook-perl'
+name = 'libpod-2-docbook-perl'
+
+homepage = 'https://metacpan.org/release/Pod-2-DocBook'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-2-docbook-perl'

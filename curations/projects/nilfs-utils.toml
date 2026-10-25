@@ -1,0 +1,12 @@
+id = 'nilfs-utils'
+name = 'nilfs-utils'
+
+homepage = 'http://nilfs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'nilfs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'nilfs-utils'

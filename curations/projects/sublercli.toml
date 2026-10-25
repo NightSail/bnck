@@ -1,0 +1,8 @@
+id = 'sublercli'
+name = 'sublercli'
+
+homepage = 'https://bitbucket.org/galad87/sublercli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sublercli'

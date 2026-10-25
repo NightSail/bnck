@@ -1,0 +1,12 @@
+id = 'cronolog'
+name = 'cronolog'
+
+homepage = 'http://www.cronolog.org'
+
+[[package]]
+channel = 'debian'
+name = 'cronolog'
+
+[[package]]
+channel = 'fedora'
+name = 'cronolog'

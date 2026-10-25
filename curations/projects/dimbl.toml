@@ -1,0 +1,8 @@
+id = 'dimbl'
+name = 'dimbl'
+
+homepage = 'https://github.com/LanguageMachines/dimbl'
+
+[[package]]
+channel = 'debian'
+name = 'dimbl'

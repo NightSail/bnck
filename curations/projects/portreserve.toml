@@ -1,0 +1,8 @@
+id = 'portreserve'
+name = 'portreserve'
+
+homepage = 'http://cyberelk.net/tim/portreserve'
+
+[[package]]
+channel = 'fedora'
+name = 'portreserve'

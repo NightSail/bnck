@@ -1,0 +1,8 @@
+id = 'hub-tool'
+name = 'hub-tool'
+
+repository = 'https://github.com/docker/hub-tool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hub-tool'

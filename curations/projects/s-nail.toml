@@ -1,0 +1,20 @@
+id = 's-nail'
+name = 's-nail'
+
+homepage = 'https://www.sdaoden.eu/code.html'
+
+[[package]]
+channel = 'arch'
+name = 's-nail'
+
+[[package]]
+channel = 'debian'
+name = 's-nail'
+
+[[package]]
+channel = 'fedora'
+name = 's-nail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s-nail'

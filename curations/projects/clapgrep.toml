@@ -1,0 +1,8 @@
+id = 'clapgrep'
+name = 'clapgrep'
+
+homepage = 'https://github.com/luleyleo/clapgrep'
+
+[[package]]
+channel = 'arch'
+name = 'clapgrep'

@@ -1,0 +1,12 @@
+id = 'srslte'
+name = 'srslte'
+
+homepage = 'https://www.srslte.com'
+
+[[package]]
+channel = 'arch'
+name = 'srslte'
+
+[[package]]
+channel = 'arch'
+name = 'srslte-avx2'

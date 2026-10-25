@@ -1,0 +1,12 @@
+id = 'yubikey-personalization-gui'
+name = 'yubikey-personalization-gui'
+
+homepage = 'https://github.com/Yubico/yubikey-personalization-gui'
+
+[[package]]
+channel = 'arch'
+name = 'yubikey-personalization-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'yubikey-personalization-gui'

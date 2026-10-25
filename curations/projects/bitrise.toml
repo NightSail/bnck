@@ -1,0 +1,8 @@
+id = 'bitrise'
+name = 'bitrise'
+
+repository = 'https://github.com/bitrise-io/bitrise.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bitrise'

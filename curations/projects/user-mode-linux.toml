@@ -1,0 +1,12 @@
+id = 'user-mode-linux'
+name = 'user-mode-linux'
+
+homepage = 'http://user-mode-linux.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'uml-utilities'
+
+[[package]]
+channel = 'debian'
+name = 'user-mode-linux'

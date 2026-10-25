@@ -1,0 +1,16 @@
+id = 'jack-mixer'
+name = 'jack_mixer'
+
+homepage = 'https://github.com/jack-mixer/jack_mixer'
+
+[[package]]
+channel = 'arch'
+name = 'jack_mixer'
+
+[[package]]
+channel = 'debian'
+name = 'jack-mixer'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-mixer'

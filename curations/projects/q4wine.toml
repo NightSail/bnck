@@ -1,0 +1,12 @@
+id = 'q4wine'
+name = 'q4wine'
+
+homepage = 'https://web.archive.org/web/http://q4wine.brezblock.org.ua'
+
+[[package]]
+channel = 'debian'
+name = 'q4wine'
+
+[[package]]
+channel = 'fedora'
+name = 'q4wine'

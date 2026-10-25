@@ -1,0 +1,12 @@
+id = 'bat-extras'
+name = 'bat-extras'
+
+homepage = 'https://github.com/eth-p/bat-extras'
+
+[[package]]
+channel = 'arch'
+name = 'bat-extras'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bat-extras'

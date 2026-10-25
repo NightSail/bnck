@@ -1,0 +1,20 @@
+id = 'sillycycle'
+name = 'sillycycle'
+
+homepage = 'http://sillycycle.com/xlockmore.html'
+
+[[package]]
+channel = 'arch'
+name = 'xlockmore'
+
+[[package]]
+channel = 'fedora'
+name = 'xlockmore'
+
+[[package]]
+channel = 'fedora'
+name = 'xlockmore-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'xlockmore-motif'

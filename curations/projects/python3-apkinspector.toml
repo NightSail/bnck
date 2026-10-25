@@ -1,0 +1,12 @@
+id = 'python3-apkinspector'
+name = 'python3-apkinspector'
+
+homepage = 'https://github.com/erev0s/apkInspector'
+
+[[package]]
+channel = 'debian'
+name = 'python3-apkinspector'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-apkinspector'

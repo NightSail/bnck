@@ -1,0 +1,41 @@
+id = 'ansible'
+name = 'ansible'
+
+homepage = 'https://pypi.org/project/ansible'
+repository = 'https://github.com/ansible/ansible.git'
+
+[[package]]
+channel = 'arch'
+name = 'ansible'
+
+[[package]]
+channel = 'arch'
+name = 'ansible-core'
+
+[[package]]
+channel = 'debian'
+name = 'ansible'
+
+[[package]]
+channel = 'fedora'
+name = 'ansible'
+
+[[package]]
+channel = 'fedora'
+name = 'ansible-core'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible@10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible@12'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible@13'

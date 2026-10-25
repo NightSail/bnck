@@ -1,0 +1,12 @@
+id = 'sonic-waywardgeek'
+name = 'sonic'
+
+homepage = 'https://github.com/waywardgeek/sonic'
+
+[[package]]
+channel = 'arch'
+name = 'libsonic'
+
+[[package]]
+channel = 'debian'
+name = 'sonic'

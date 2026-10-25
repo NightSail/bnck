@@ -1,0 +1,8 @@
+id = 'nthash'
+name = 'nthash'
+
+homepage = 'https://github.com/bcgsc/ntHash'
+
+[[package]]
+channel = 'debian'
+name = 'nthash'

@@ -1,0 +1,8 @@
+id = 'golang-bug-serial-1'
+name = 'golang-bug-serial-1'
+
+homepage = 'https://github.com/bugst/go-serial'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-bug-serial-1'

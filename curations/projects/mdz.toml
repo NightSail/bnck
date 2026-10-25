@@ -1,0 +1,8 @@
+id = 'mdz'
+name = 'mdz'
+
+repository = 'https://github.com/LerianStudio/midaz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdz'

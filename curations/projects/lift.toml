@@ -1,0 +1,8 @@
+id = 'lift'
+name = 'lift'
+
+homepage = 'https://github.com/Malizor/lift'
+
+[[package]]
+channel = 'debian'
+name = 'lift'

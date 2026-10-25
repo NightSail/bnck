@@ -1,0 +1,6 @@
+id = 'insserv'
+name = 'insserv'
+
+[[package]]
+channel = 'debian'
+name = 'insserv'

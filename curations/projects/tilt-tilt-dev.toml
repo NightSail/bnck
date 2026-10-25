@@ -1,0 +1,9 @@
+id = 'tilt-tilt-dev'
+name = 'tilt'
+
+homepage = 'https://tilt.dev'
+repository = 'https://github.com/tilt-dev/tilt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tilt'

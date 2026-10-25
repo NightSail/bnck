@@ -1,0 +1,12 @@
+id = 'pysquashfsimage'
+name = 'pysquashfsimage'
+
+homepage = 'https://github.com/matteomattei/PySquashfsImage'
+
+[[package]]
+channel = 'arch'
+name = 'python-pysquashfsimage'
+
+[[package]]
+channel = 'debian'
+name = 'pysquashfsimage'

@@ -1,0 +1,12 @@
+id = 'pytaglib'
+name = 'pytaglib'
+
+homepage = 'https://github.com/supermihi/pytaglib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-taglib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytaglib'

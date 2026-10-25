@@ -1,0 +1,8 @@
+id = 'libfsapfs-utils'
+name = 'libfsapfs-utils'
+
+homepage = 'https://github.com/libyal/libfsapfs'
+
+[[package]]
+channel = 'debian'
+name = 'libfsapfs-utils'

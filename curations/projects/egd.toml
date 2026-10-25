@@ -1,0 +1,8 @@
+id = 'egd'
+name = 'egd'
+
+homepage = 'http://egd.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'egd'

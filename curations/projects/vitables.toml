@@ -1,0 +1,8 @@
+id = 'vitables'
+name = 'vitables'
+
+homepage = 'https://vitables.org'
+
+[[package]]
+channel = 'debian'
+name = 'vitables'

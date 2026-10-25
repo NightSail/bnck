@@ -1,0 +1,12 @@
+id = 'efibootguard'
+name = 'efibootguard'
+
+homepage = 'https://github.com/siemens/efibootguard'
+
+[[package]]
+channel = 'debian'
+name = 'efibootguard'
+
+[[package]]
+channel = 'debian'
+name = 'efibootguard-tools'

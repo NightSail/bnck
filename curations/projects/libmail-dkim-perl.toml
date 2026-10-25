@@ -1,0 +1,8 @@
+id = 'libmail-dkim-perl'
+name = 'libmail-dkim-perl'
+
+homepage = 'https://dkimproxy.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libmail-dkim-perl'

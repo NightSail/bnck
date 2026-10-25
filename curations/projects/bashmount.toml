@@ -1,0 +1,8 @@
+id = 'bashmount'
+name = 'bashmount'
+
+homepage = 'https://github.com/jamielinux/bashmount'
+
+[[package]]
+channel = 'fedora'
+name = 'bashmount'

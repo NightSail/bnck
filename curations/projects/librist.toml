@@ -1,0 +1,16 @@
+id = 'librist'
+name = 'librist'
+
+homepage = 'https://code.videolan.org/rist/librist'
+
+[[package]]
+channel = 'arch'
+name = 'librist'
+
+[[package]]
+channel = 'debian'
+name = 'rist-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'rist-tools'

@@ -1,0 +1,8 @@
+id = 'vl-convert'
+name = 'vl-convert'
+
+homepage = 'https://github.com/vega/vl-convert'
+
+[[package]]
+channel = 'arch'
+name = 'vl-convert'

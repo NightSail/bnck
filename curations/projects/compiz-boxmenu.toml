@@ -1,0 +1,8 @@
+id = 'compiz-boxmenu'
+name = 'compiz-boxmenu'
+
+homepage = 'https://gitlab.com/compiz/compiz-boxmenu'
+
+[[package]]
+channel = 'debian'
+name = 'compiz-boxmenu'

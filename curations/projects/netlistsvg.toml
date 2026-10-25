@@ -1,0 +1,8 @@
+id = 'netlistsvg'
+name = 'netlistsvg'
+
+homepage = 'https://github.com/nturley/netlistsvg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netlistsvg'

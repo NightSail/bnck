@@ -1,0 +1,9 @@
+id = 'vault-cli'
+name = 'vault-cli'
+
+homepage = 'https://jackrabbit.apache.org/filevault/index.html'
+repository = 'https://github.com/apache/jackrabbit-filevault.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vault-cli'

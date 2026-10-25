@@ -1,0 +1,13 @@
+id = 'bulletty'
+name = 'bulletty'
+
+homepage = 'https://bulletty.croci.dev'
+repository = 'https://github.com/CrociDB/bulletty.git'
+
+[[package]]
+channel = 'arch'
+name = 'bulletty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bulletty'

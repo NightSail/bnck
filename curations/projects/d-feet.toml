@@ -1,0 +1,12 @@
+id = 'd-feet'
+name = 'd-feet'
+
+homepage = 'https://wiki.gnome.org/Apps/DFeet'
+
+[[package]]
+channel = 'debian'
+name = 'd-feet'
+
+[[package]]
+channel = 'fedora'
+name = 'd-feet'

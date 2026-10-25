@@ -1,0 +1,8 @@
+id = 'fcitx-ui-qimpanel'
+name = 'fcitx-ui-qimpanel'
+
+homepage = 'https://github.com/UbuntuKylin/fcitx-qimpanel'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx-ui-qimpanel'

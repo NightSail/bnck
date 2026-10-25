@@ -1,0 +1,8 @@
+id = 'youtubedl-gui'
+name = 'youtubedl-gui'
+
+homepage = 'https://github.com/JaGoLi/ytdl-gui'
+
+[[package]]
+channel = 'debian'
+name = 'youtubedl-gui'

@@ -1,0 +1,12 @@
+id = 'rmol'
+name = 'rmol'
+
+homepage = 'https://github.com/airsim/rmol'
+
+[[package]]
+channel = 'fedora'
+name = 'rmol'
+
+[[package]]
+channel = 'fedora'
+name = 'rmol-devel'

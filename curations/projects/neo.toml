@@ -1,0 +1,12 @@
+id = 'neo'
+name = 'neo'
+
+homepage = 'https://github.com/st3w/neo'
+
+[[package]]
+channel = 'debian'
+name = 'neo-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'neo'

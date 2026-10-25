@@ -1,0 +1,17 @@
+id = 'mage'
+name = 'mage'
+
+homepage = 'https://magefile.org'
+repository = 'https://github.com/magefile/mage.git'
+
+[[package]]
+channel = 'arch'
+name = 'mage'
+
+[[package]]
+channel = 'debian'
+name = 'mage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mage'

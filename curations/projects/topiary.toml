@@ -1,0 +1,8 @@
+id = 'topiary'
+name = 'topiary'
+
+homepage = 'https://topiary.tweag.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/topiary'

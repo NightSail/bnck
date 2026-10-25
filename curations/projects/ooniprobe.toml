@@ -1,0 +1,9 @@
+id = 'ooniprobe'
+name = 'ooniprobe'
+
+homepage = 'https://ooni.org'
+repository = 'https://github.com/ooni/probe-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ooniprobe'

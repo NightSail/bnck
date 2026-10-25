@@ -1,0 +1,8 @@
+id = 'litetlog'
+name = 'litetlog'
+
+homepage = 'https://github.com/FiloSottile/litetlog'
+
+[[package]]
+channel = 'debian'
+name = 'litetlog'

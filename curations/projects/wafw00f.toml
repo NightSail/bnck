@@ -6,3 +6,7 @@ homepage = 'https://github.com/EnableSecurity/wafw00f'
 [[package]]
 channel = 'debian'
 name = 'wafw00f'
+
+[[package]]
+channel = 'fedora'
+name = 'wafw00f'

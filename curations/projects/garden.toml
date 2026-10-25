@@ -1,0 +1,13 @@
+id = 'garden'
+name = 'garden'
+
+homepage = 'http://garden.sourceforge.net'
+repository = 'https://github.com/garden-rs/garden.git'
+
+[[package]]
+channel = 'fedora'
+name = 'garden'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/garden'

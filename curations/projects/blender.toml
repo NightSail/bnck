@@ -1,0 +1,16 @@
+id = 'blender'
+name = 'blender'
+
+homepage = 'https://www.blender.org'
+
+[[package]]
+channel = 'arch'
+name = 'blender'
+
+[[package]]
+channel = 'debian'
+name = 'blender'
+
+[[package]]
+channel = 'fedora'
+name = 'blender'

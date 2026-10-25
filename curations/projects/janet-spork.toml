@@ -1,0 +1,8 @@
+id = 'janet-spork'
+name = 'janet-spork'
+
+homepage = 'https://github.com/janet-lang/spork'
+
+[[package]]
+channel = 'arch'
+name = 'janet-spork'

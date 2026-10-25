@@ -1,0 +1,16 @@
+id = 'chrpath'
+name = 'chrpath'
+
+homepage = 'https://codeberg.org/pere/chrpath'
+
+[[package]]
+channel = 'arch'
+name = 'chrpath'
+
+[[package]]
+channel = 'debian'
+name = 'chrpath'
+
+[[package]]
+channel = 'fedora'
+name = 'chrpath'

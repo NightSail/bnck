@@ -4,5 +4,9 @@ name = 'cargo-geiger'
 repository = 'https://github.com/geiger-rs/cargo-geiger'
 
 [[package]]
+channel = 'arch'
+name = 'cargo-geiger'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/cargo-geiger'

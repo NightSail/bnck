@@ -1,0 +1,8 @@
+id = 'kamene'
+name = 'kamene'
+
+homepage = 'https://github.com/phaethon/kamene'
+
+[[package]]
+channel = 'arch'
+name = 'kamene'

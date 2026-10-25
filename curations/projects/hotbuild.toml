@@ -1,0 +1,9 @@
+id = 'hotbuild'
+name = 'hotbuild'
+
+homepage = 'https://hotbuild.rustpub.com'
+repository = 'https://github.com/wandercn/hotbuild.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hotbuild'

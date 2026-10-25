@@ -1,0 +1,8 @@
+id = 'acme-user'
+name = 'acme-user'
+
+homepage = 'https://github.com/ArchangeGabriel/acme-user'
+
+[[package]]
+channel = 'arch'
+name = 'acme-user'

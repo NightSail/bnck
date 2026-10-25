@@ -1,0 +1,8 @@
+id = 'perl-snowball-swedish'
+name = 'perl-Snowball-Swedish'
+
+homepage = 'https://metacpan.org/release/Snowball-Swedish'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Snowball-Swedish'

@@ -1,0 +1,9 @@
+id = 'calicoctl'
+name = 'calicoctl'
+
+homepage = 'https://www.tigera.io/project-calico'
+repository = 'https://github.com/projectcalico/calico.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/calicoctl'

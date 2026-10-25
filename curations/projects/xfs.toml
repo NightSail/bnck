@@ -1,0 +1,24 @@
+id = 'xfs'
+name = 'xfs'
+
+homepage = 'https://xfs.wiki.kernel.org'
+
+[[package]]
+channel = 'arch'
+name = 'xfsprogs'
+
+[[package]]
+channel = 'debian'
+name = 'xfsprogs'
+
+[[package]]
+channel = 'fedora'
+name = 'xfsprogs'
+
+[[package]]
+channel = 'fedora'
+name = 'xfsprogs-xfs_extras'
+
+[[package]]
+channel = 'fedora'
+name = 'xfsprogs-xfs_scrub'

@@ -1,0 +1,9 @@
+id = 'vice'
+name = 'vice'
+
+homepage = 'https://sourceforge.net/projects/vice-emu'
+repository = 'https://svn.code.sf.net/p/vice-emu/code/trunk/vice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vice'

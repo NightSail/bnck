@@ -1,0 +1,9 @@
+id = 'ssdb'
+name = 'ssdb'
+
+homepage = 'https://ssdb.io'
+repository = 'https://github.com/ideawu/ssdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssdb'

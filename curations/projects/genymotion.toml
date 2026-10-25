@@ -1,0 +1,8 @@
+id = 'genymotion'
+name = 'genymotion'
+
+homepage = 'https://www.genymotion.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/genymotion'

@@ -1,0 +1,8 @@
+id = 'python-sanic'
+name = 'python-sanic'
+
+homepage = 'https://sanic.dev'
+
+[[package]]
+channel = 'arch'
+name = 'python-sanic'

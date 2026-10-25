@@ -1,0 +1,8 @@
+id = 'iyfct'
+name = 'iyfct'
+
+homepage = 'https://github.com/SimonLarsen/iyfct'
+
+[[package]]
+channel = 'fedora'
+name = 'iyfct'

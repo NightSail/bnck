@@ -1,0 +1,8 @@
+id = 'how-can-i-help'
+name = 'how-can-i-help'
+
+homepage = 'https://wiki.debian.org/how-can-i-help'
+
+[[package]]
+channel = 'debian'
+name = 'how-can-i-help'

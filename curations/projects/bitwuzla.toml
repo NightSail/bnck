@@ -1,0 +1,12 @@
+id = 'bitwuzla'
+name = 'bitwuzla'
+
+homepage = 'https://bitwuzla.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'bitwuzla'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bitwuzla'

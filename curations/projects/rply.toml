@@ -1,0 +1,8 @@
+id = 'rply'
+name = 'rply'
+
+homepage = 'https://www.tecgraf.puc-rio.br/~diego/professional/rply'
+
+[[package]]
+channel = 'fedora'
+name = 'rply'

@@ -1,0 +1,12 @@
+id = 'rocminfo'
+name = 'rocminfo'
+
+homepage = 'https://github.com/ROCm/rocminfo'
+
+[[package]]
+channel = 'debian'
+name = 'rocminfo'
+
+[[package]]
+channel = 'fedora'
+name = 'rocminfo'

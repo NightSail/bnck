@@ -1,0 +1,16 @@
+id = 'dogtag-pki'
+name = 'dogtag-pki'
+
+homepage = 'https://www.dogtagpki.org'
+
+[[package]]
+channel = 'fedora'
+name = 'dogtag-pki-base'
+
+[[package]]
+channel = 'fedora'
+name = 'dogtag-pki-server'
+
+[[package]]
+channel = 'fedora'
+name = 'dogtag-pki-tools'

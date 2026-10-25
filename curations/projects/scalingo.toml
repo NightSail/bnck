@@ -1,0 +1,8 @@
+id = 'scalingo'
+name = 'scalingo'
+
+homepage = 'https://doc.scalingo.com/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scalingo'

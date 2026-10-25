@@ -1,0 +1,8 @@
+id = 'checkpwn'
+name = 'checkpwn'
+
+repository = 'https://github.com/brycx/checkpwn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checkpwn'

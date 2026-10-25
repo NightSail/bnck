@@ -1,0 +1,16 @@
+id = 'hardinfo2'
+name = 'hardinfo2'
+
+homepage = 'https://www.hardinfo2.org'
+
+[[package]]
+channel = 'arch'
+name = 'hardinfo2'
+
+[[package]]
+channel = 'debian'
+name = 'hardinfo2'
+
+[[package]]
+channel = 'fedora'
+name = 'hardinfo2'

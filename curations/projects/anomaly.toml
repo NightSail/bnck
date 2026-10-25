@@ -1,0 +1,8 @@
+id = 'anomaly'
+name = 'anomaly'
+
+homepage = 'https://github.com/GothenburgBitFactory/anomaly'
+
+[[package]]
+channel = 'debian'
+name = 'anomaly'

@@ -1,0 +1,17 @@
+id = 'augustus'
+name = 'augustus'
+
+homepage = 'https://github.com/Keriew/augustus'
+repository = 'https://github.com/Gaius-Augustus/Augustus.git'
+
+[[package]]
+channel = 'arch'
+name = 'augustus'
+
+[[package]]
+channel = 'debian'
+name = 'augustus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/augustus'

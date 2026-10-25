@@ -1,0 +1,12 @@
+id = 'deviceinsight'
+name = 'deviceinsight'
+
+homepage = 'https://deviceinsight.github.io/kafkactl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kafkactl-aws-plugin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kafkactl-azure-plugin'

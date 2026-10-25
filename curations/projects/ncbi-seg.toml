@@ -1,0 +1,8 @@
+id = 'ncbi-seg'
+name = 'ncbi-seg'
+
+homepage = 'https://ftp.ncbi.nih.gov/pub/seg/seg'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-seg'

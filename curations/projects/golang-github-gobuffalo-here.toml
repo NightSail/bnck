@@ -1,0 +1,8 @@
+id = 'golang-github-gobuffalo-here'
+name = 'golang-github-gobuffalo-here'
+
+homepage = 'https://github.com/gobuffalo/here'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gobuffalo-here'

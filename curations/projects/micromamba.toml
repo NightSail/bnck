@@ -1,0 +1,8 @@
+id = 'micromamba'
+name = 'micromamba'
+
+repository = 'https://github.com/mamba-org/mamba.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/micromamba'

@@ -1,0 +1,8 @@
+id = 'fcitx5-frontend-fbterm'
+name = 'fcitx5-frontend-fbterm'
+
+homepage = 'https://github.com/fcitx/fcitx5-fbterm'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-frontend-fbterm'

@@ -1,0 +1,9 @@
+id = 'sloth-cli'
+name = 'sloth-cli'
+
+homepage = 'https://sloth.dev'
+repository = 'https://github.com/slok/sloth.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sloth-cli'

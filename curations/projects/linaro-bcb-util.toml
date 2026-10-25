@@ -1,0 +1,8 @@
+id = 'linaro-bcb-util'
+name = 'linaro-bcb-util'
+
+homepage = 'https://gitlab.com/grandpaul/linaro-bcb-util'
+
+[[package]]
+channel = 'debian'
+name = 'linaro-bcb-util'

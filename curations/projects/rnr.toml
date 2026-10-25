@@ -1,0 +1,8 @@
+id = 'rnr'
+name = 'rnr'
+
+homepage = 'https://github.com/ismaelgv/rnr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rnr'

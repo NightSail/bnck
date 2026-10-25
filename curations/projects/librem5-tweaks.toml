@@ -1,0 +1,8 @@
+id = 'librem5-tweaks'
+name = 'librem5-tweaks'
+
+homepage = 'https://salsa.debian.org/DebianOnMobile-team/mobile-tweaks'
+
+[[package]]
+channel = 'debian'
+name = 'librem5-tweaks'

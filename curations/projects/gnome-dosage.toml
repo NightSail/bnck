@@ -1,0 +1,8 @@
+id = 'gnome-dosage'
+name = 'gnome-dosage'
+
+homepage = 'https://github.com/diegopvlk/Dosage'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-dosage'

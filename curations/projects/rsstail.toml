@@ -1,0 +1,8 @@
+id = 'rsstail'
+name = 'rsstail'
+
+homepage = 'https://www.vanheusden.com/rsstail'
+
+[[package]]
+channel = 'debian'
+name = 'rsstail'

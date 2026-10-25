@@ -1,0 +1,8 @@
+id = 'hintview'
+name = 'hintview'
+
+homepage = 'https://hint.userweb.mwn.de/hint/hintview.html'
+
+[[package]]
+channel = 'debian'
+name = 'hintview'

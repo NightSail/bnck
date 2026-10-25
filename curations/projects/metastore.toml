@@ -1,0 +1,8 @@
+id = 'metastore'
+name = 'metastore'
+
+homepage = 'https://github.com/przemoc/metastore'
+
+[[package]]
+channel = 'debian'
+name = 'metastore'

@@ -1,0 +1,8 @@
+id = 'joern'
+name = 'joern'
+
+homepage = 'https://joern.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/joern'

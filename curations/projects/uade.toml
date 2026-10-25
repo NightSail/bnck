@@ -1,0 +1,9 @@
+id = 'uade'
+name = 'uade'
+
+homepage = 'https://zakalwe.fi/uade'
+repository = 'https://gitlab.com/uade-music-player/uade.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uade'

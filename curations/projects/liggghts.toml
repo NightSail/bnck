@@ -1,0 +1,8 @@
+id = 'liggghts'
+name = 'liggghts'
+
+homepage = 'https://www.liggghts.com'
+
+[[package]]
+channel = 'debian'
+name = 'liggghts'

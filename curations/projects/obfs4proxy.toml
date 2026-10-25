@@ -1,0 +1,8 @@
+id = 'obfs4proxy'
+name = 'obfs4proxy'
+
+repository = 'https://gitlab.com/yawning/obfs4.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/obfs4proxy'

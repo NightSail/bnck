@@ -1,0 +1,8 @@
+id = 'conan-1'
+name = 'conan@1'
+
+homepage = 'https://conan.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/conan@1'

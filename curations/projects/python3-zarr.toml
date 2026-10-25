@@ -1,0 +1,8 @@
+id = 'python3-zarr'
+name = 'python3-zarr'
+
+homepage = 'https://github.com/zarr-developers/zarr-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zarr'

@@ -1,0 +1,8 @@
+id = 'xlbiff'
+name = 'xlbiff'
+
+homepage = 'https://www.edsantiago.com/xlbiff'
+
+[[package]]
+channel = 'debian'
+name = 'xlbiff'

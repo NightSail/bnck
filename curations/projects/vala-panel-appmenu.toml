@@ -1,0 +1,12 @@
+id = 'vala-panel-appmenu'
+name = 'vala-panel-appmenu'
+
+homepage = 'https://gitlab.com/vala-panel-project/vala-panel-appmenu'
+
+[[package]]
+channel = 'debian'
+name = 'mate-applet-appmenu'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-appmenu-plugin'

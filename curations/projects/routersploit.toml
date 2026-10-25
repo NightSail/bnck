@@ -1,0 +1,8 @@
+id = 'routersploit'
+name = 'routersploit'
+
+homepage = 'https://github.com/threat9/routersploit'
+
+[[package]]
+channel = 'arch'
+name = 'routersploit'

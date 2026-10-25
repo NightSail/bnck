@@ -1,0 +1,16 @@
+id = 'labplot'
+name = 'LabPlot'
+
+homepage = 'https://labplot.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'labplot'
+
+[[package]]
+channel = 'debian'
+name = 'labplot'
+
+[[package]]
+channel = 'fedora'
+name = 'LabPlot'

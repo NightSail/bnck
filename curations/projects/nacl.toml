@@ -1,0 +1,8 @@
+id = 'nacl'
+name = 'nacl'
+
+homepage = 'http://nacl.cace-project.eu'
+
+[[package]]
+channel = 'fedora'
+name = 'nacl'

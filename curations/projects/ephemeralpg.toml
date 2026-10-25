@@ -1,0 +1,8 @@
+id = 'ephemeralpg'
+name = 'ephemeralpg'
+
+homepage = 'https://eradman.com/ephemeralpg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ephemeralpg'

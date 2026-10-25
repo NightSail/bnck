@@ -1,0 +1,8 @@
+id = 'lieer'
+name = 'lieer'
+
+homepage = 'https://github.com/gauteh/lieer'
+
+[[package]]
+channel = 'debian'
+name = 'lieer'

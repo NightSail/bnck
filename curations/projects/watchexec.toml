@@ -1,0 +1,13 @@
+id = 'watchexec'
+name = 'watchexec'
+
+homepage = 'https://watchexec.github.io'
+repository = 'https://github.com/watchexec/watchexec.git'
+
+[[package]]
+channel = 'arch'
+name = 'watchexec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/watchexec'

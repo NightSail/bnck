@@ -1,0 +1,8 @@
+id = 'perl-module-metadata-changes'
+name = 'perl-Module-Metadata-Changes'
+
+homepage = 'https://metacpan.org/release/Module-Metadata-Changes'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Metadata-Changes'

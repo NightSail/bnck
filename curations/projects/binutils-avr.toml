@@ -1,0 +1,8 @@
+id = 'binutils-avr'
+name = 'binutils-avr'
+
+homepage = 'https://www.gnu.org/s/binutils'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-avr'

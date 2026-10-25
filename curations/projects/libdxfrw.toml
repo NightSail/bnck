@@ -1,0 +1,8 @@
+id = 'libdxfrw'
+name = 'libdxfrw'
+
+homepage = 'https://github.com/LibreCAD/libdxfrw'
+
+[[package]]
+channel = 'fedora'
+name = 'libdxfrw'

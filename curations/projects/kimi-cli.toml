@@ -1,0 +1,9 @@
+id = 'kimi-cli'
+name = 'kimi-cli'
+
+homepage = 'https://moonshotai.github.io/kimi-cli'
+repository = 'https://github.com/MoonshotAI/kimi-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kimi-cli'

@@ -1,0 +1,8 @@
+id = 'apache-cloudstack-cloudmonkey'
+name = 'apache-cloudstack-cloudmonkey'
+
+homepage = 'https://github.com/apache/cloudstack-cloudmonkey'
+
+[[package]]
+channel = 'fedora'
+name = 'apache-cloudstack-cloudmonkey'

@@ -1,0 +1,16 @@
+id = 'linux-nis'
+name = 'linux-nis'
+
+homepage = 'http://www.linux-nis.org'
+
+[[package]]
+channel = 'debian'
+name = 'yp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ypbind-mt'
+
+[[package]]
+channel = 'debian'
+name = 'ypserv'

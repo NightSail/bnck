@@ -1,0 +1,8 @@
+id = 'zoph'
+name = 'zoph'
+
+homepage = 'http://www.zoph.org'
+
+[[package]]
+channel = 'debian'
+name = 'zoph'

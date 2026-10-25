@@ -1,0 +1,20 @@
+id = 'libnfs'
+name = 'libnfs'
+
+homepage = 'https://github.com/sahlberg/libnfs'
+
+[[package]]
+channel = 'arch'
+name = 'libnfs'
+
+[[package]]
+channel = 'debian'
+name = 'libnfs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libnfs-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnfs'

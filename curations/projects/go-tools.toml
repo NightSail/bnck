@@ -1,0 +1,12 @@
+id = 'go-tools'
+name = 'go-tools'
+
+homepage = 'https://github.com/dominikh/go-tools'
+
+[[package]]
+channel = 'debian'
+name = 'go-staticcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-honnef-tools'

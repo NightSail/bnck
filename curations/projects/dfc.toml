@@ -1,0 +1,21 @@
+id = 'dfc'
+name = 'dfc'
+
+homepage = 'http://projects.gw-computing.net/projects/dfc'
+repository = 'https://github.com/Rolinh/dfc.git'
+
+[[package]]
+channel = 'arch'
+name = 'dfc'
+
+[[package]]
+channel = 'debian'
+name = 'dfc'
+
+[[package]]
+channel = 'fedora'
+name = 'dfc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dfc'

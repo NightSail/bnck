@@ -1,0 +1,8 @@
+id = 'aobook'
+name = 'aobook'
+
+homepage = 'http://azsky2.html.xdomain.jp/soft/aobook.html'
+
+[[package]]
+channel = 'debian'
+name = 'aobook'

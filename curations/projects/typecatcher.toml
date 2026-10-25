@@ -1,0 +1,8 @@
+id = 'typecatcher'
+name = 'typecatcher'
+
+homepage = 'https://launchpad.net/typecatcher'
+
+[[package]]
+channel = 'debian'
+name = 'typecatcher'

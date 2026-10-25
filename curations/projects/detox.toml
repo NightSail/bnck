@@ -1,0 +1,20 @@
+id = 'detox'
+name = 'detox'
+
+homepage = 'https://detox.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'detox'
+
+[[package]]
+channel = 'debian'
+name = 'detox'
+
+[[package]]
+channel = 'fedora'
+name = 'detox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/detox'

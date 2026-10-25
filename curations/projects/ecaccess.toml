@@ -1,0 +1,6 @@
+id = 'ecaccess'
+name = 'ecaccess'
+
+[[package]]
+channel = 'debian'
+name = 'ecaccess'

@@ -1,0 +1,8 @@
+id = 'abe'
+name = 'abe'
+
+homepage = 'http://abe.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'abe'

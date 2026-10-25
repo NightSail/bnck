@@ -1,0 +1,8 @@
+id = 'rpitalk'
+name = 'rpitalk'
+
+homepage = 'https://github.com/JohnHeim/rpitalk'
+
+[[package]]
+channel = 'debian'
+name = 'rpitalk'

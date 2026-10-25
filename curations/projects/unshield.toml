@@ -1,0 +1,20 @@
+id = 'unshield'
+name = 'unshield'
+
+repository = 'https://github.com/twogood/unshield.git'
+
+[[package]]
+channel = 'arch'
+name = 'unshield'
+
+[[package]]
+channel = 'debian'
+name = 'unshield'
+
+[[package]]
+channel = 'fedora'
+name = 'unshield'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unshield'

@@ -1,0 +1,8 @@
+id = 'clippy-sarif'
+name = 'clippy-sarif'
+
+homepage = 'https://crates.io/crates/clippy-sarif'
+
+[[package]]
+channel = 'fedora'
+name = 'clippy-sarif'

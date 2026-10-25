@@ -1,0 +1,8 @@
+id = 'kwalify'
+name = 'kwalify'
+
+homepage = 'http://www.kuwata-lab.com/kwalify'
+
+[[package]]
+channel = 'debian'
+name = 'kwalify'

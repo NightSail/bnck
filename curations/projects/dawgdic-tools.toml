@@ -1,0 +1,6 @@
+id = 'dawgdic-tools'
+name = 'dawgdic-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dawgdic-tools'

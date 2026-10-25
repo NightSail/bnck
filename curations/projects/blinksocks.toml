@@ -1,0 +1,8 @@
+id = 'blinksocks'
+name = 'blinksocks'
+
+homepage = 'https://github.com/blinksocks/blinksocks'
+
+[[package]]
+channel = 'arch'
+name = 'blinksocks'

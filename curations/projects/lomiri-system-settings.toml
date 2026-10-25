@@ -1,0 +1,8 @@
+id = 'lomiri-system-settings'
+name = 'lomiri-system-settings'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-system-settings'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-system-settings'

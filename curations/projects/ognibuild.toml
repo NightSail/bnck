@@ -1,0 +1,8 @@
+id = 'ognibuild'
+name = 'ognibuild'
+
+homepage = 'https://github.com/jelmer/ognibuild'
+
+[[package]]
+channel = 'debian'
+name = 'ognibuild'

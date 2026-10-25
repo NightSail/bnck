@@ -1,0 +1,12 @@
+id = 'sdrpp'
+name = 'sdrpp'
+
+homepage = 'https://github.com/AlexandreRouma/SDRPlusPlus'
+
+[[package]]
+channel = 'debian'
+name = 'sdrpp'
+
+[[package]]
+channel = 'fedora'
+name = 'sdrpp'

@@ -1,0 +1,8 @@
+id = 'pixivbiu'
+name = 'pixivbiu'
+
+homepage = 'https://github.com/txperl/PixivBiu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixivbiu'

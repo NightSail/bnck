@@ -1,0 +1,16 @@
+id = 'libfreehand'
+name = 'libfreehand'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libfreehand'
+
+[[package]]
+channel = 'arch'
+name = 'libfreehand'
+
+[[package]]
+channel = 'fedora'
+name = 'libfreehand-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfreehand'

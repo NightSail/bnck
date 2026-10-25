@@ -1,0 +1,12 @@
+id = 'hexcurse'
+name = 'hexcurse'
+
+homepage = 'https://github.com/LonnyGomes/hexcurse'
+
+[[package]]
+channel = 'debian'
+name = 'hexcurse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexcurse'

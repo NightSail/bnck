@@ -1,0 +1,16 @@
+id = 'dcfldd'
+name = 'dcfldd'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/dcfldd'
+
+[[package]]
+channel = 'debian'
+name = 'dcfldd'
+
+[[package]]
+channel = 'fedora'
+name = 'dcfldd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcfldd'

@@ -1,0 +1,16 @@
+id = 'fragments'
+name = 'fragments'
+
+homepage = 'https://apps.gnome.org/Fragments'
+
+[[package]]
+channel = 'arch'
+name = 'fragments'
+
+[[package]]
+channel = 'debian'
+name = 'fragments'
+
+[[package]]
+channel = 'fedora'
+name = 'fragments'

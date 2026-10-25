@@ -1,0 +1,8 @@
+id = 'reniced'
+name = 'reniced'
+
+homepage = 'https://github.com/mmitch/reniced'
+
+[[package]]
+channel = 'debian'
+name = 'reniced'

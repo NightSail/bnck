@@ -4,5 +4,9 @@ name = 'smbnetfs'
 homepage = 'https://sourceforge.net/projects/smbnetfs'
 
 [[package]]
+channel = 'arch'
+name = 'smbnetfs'
+
+[[package]]
 channel = 'debian'
 name = 'smbnetfs'

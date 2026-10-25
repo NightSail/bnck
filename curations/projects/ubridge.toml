@@ -1,0 +1,8 @@
+id = 'ubridge'
+name = 'ubridge'
+
+homepage = 'https://github.com/GNS3/ubridge'
+
+[[package]]
+channel = 'fedora'
+name = 'ubridge'

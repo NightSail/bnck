@@ -1,0 +1,8 @@
+id = 'wqy-zenhei'
+name = 'wqy-zenhei'
+
+homepage = 'https://wenq.org/enindex.cgi'
+
+[[package]]
+channel = 'arch'
+name = 'wqy-zenhei'

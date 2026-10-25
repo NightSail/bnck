@@ -1,0 +1,8 @@
+id = 'scantpaper'
+name = 'scantpaper'
+
+homepage = 'https://github.com/carygravel/scantpaper'
+
+[[package]]
+channel = 'debian'
+name = 'scantpaper'

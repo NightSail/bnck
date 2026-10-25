@@ -1,0 +1,8 @@
+id = 'python-jsonschema'
+name = 'python-jsonschema'
+
+homepage = 'https://github.com/python-jsonschema/jsonschema'
+
+[[package]]
+channel = 'arch'
+name = 'python-jsonschema'

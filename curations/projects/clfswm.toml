@@ -1,0 +1,8 @@
+id = 'clfswm'
+name = 'clfswm'
+
+homepage = 'https://common-lisp.net/project/clfswm'
+
+[[package]]
+channel = 'debian'
+name = 'clfswm'

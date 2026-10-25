@@ -1,0 +1,12 @@
+id = 'ustreamer'
+name = 'ustreamer'
+
+homepage = 'https://pikvm.org'
+
+[[package]]
+channel = 'debian'
+name = 'ustreamer'
+
+[[package]]
+channel = 'fedora'
+name = 'ustreamer'

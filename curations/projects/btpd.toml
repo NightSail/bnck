@@ -1,0 +1,8 @@
+id = 'btpd'
+name = 'btpd'
+
+homepage = 'https://github.com/btpd/btpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btpd'

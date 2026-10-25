@@ -1,0 +1,24 @@
+id = 'mkdocs'
+name = 'mkdocs'
+
+homepage = 'https://www.mkdocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'mkdocs'
+
+[[package]]
+channel = 'arch'
+name = 'mkdocs-get-deps'
+
+[[package]]
+channel = 'debian'
+name = 'mkdocs'
+
+[[package]]
+channel = 'fedora'
+name = 'mkdocs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkdocs'

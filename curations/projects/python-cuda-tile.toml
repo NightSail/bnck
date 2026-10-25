@@ -1,0 +1,8 @@
+id = 'python-cuda-tile'
+name = 'python-cuda-tile'
+
+homepage = 'https://docs.nvidia.com/cuda/cutile-python'
+
+[[package]]
+channel = 'arch'
+name = 'python-cuda-tile'

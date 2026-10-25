@@ -1,0 +1,8 @@
+id = 'python3-tatsu-lts'
+name = 'python3-tatsu-lts'
+
+homepage = 'https://github.com/dnicolodi/TatSu-LTS'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tatsu-lts'

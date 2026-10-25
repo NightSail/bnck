@@ -1,0 +1,8 @@
+id = 'python-av'
+name = 'python-av'
+
+homepage = 'https://github.com/PyAV-Org/PyAV'
+
+[[package]]
+channel = 'arch'
+name = 'python-av'

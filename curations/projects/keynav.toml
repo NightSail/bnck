@@ -1,0 +1,8 @@
+id = 'keynav'
+name = 'keynav'
+
+homepage = 'https://www.semicomplete.com/projects/keynav'
+
+[[package]]
+channel = 'debian'
+name = 'keynav'

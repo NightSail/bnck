@@ -1,0 +1,12 @@
+id = 'xmlindent'
+name = 'xmlindent'
+
+homepage = 'http://xmlindent.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xmlindent'
+
+[[package]]
+channel = 'fedora'
+name = 'xmlindent'

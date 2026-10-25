@@ -1,0 +1,8 @@
+id = 'python3-parmed'
+name = 'python3-parmed'
+
+homepage = 'https://parmed.github.io/ParmEd/html/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-parmed'

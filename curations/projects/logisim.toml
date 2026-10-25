@@ -1,0 +1,8 @@
+id = 'logisim'
+name = 'logisim'
+
+homepage = 'http://www.cburch.com/logisim'
+
+[[package]]
+channel = 'debian'
+name = 'logisim'

@@ -1,0 +1,8 @@
+id = 'python-chardet'
+name = 'python-chardet'
+
+homepage = 'https://chardet.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-chardet'

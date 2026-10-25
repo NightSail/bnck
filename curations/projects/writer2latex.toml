@@ -1,0 +1,12 @@
+id = 'writer2latex'
+name = 'writer2latex'
+
+homepage = 'https://writer2latex.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libreoffice-extension-writer2latex'
+
+[[package]]
+channel = 'debian'
+name = 'writer2latex'

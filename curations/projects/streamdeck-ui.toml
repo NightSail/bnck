@@ -1,0 +1,8 @@
+id = 'streamdeck-ui'
+name = 'streamdeck-ui'
+
+homepage = 'https://github.com/timothycrosley/streamdeck-ui'
+
+[[package]]
+channel = 'debian'
+name = 'streamdeck-ui'

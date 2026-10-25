@@ -1,0 +1,8 @@
+id = 'perl-data-faker'
+name = 'perl-Data-Faker'
+
+homepage = 'https://metacpan.org/release/Data-Faker'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Data-Faker'

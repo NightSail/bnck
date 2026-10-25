@@ -1,0 +1,8 @@
+id = 'd-shlibs'
+name = 'd-shlibs'
+
+homepage = 'https://tracker.debian.org/pkg/d-shlibs'
+
+[[package]]
+channel = 'debian'
+name = 'd-shlibs'

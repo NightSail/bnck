@@ -1,0 +1,8 @@
+id = 'ruby-growl'
+name = 'ruby-growl'
+
+homepage = 'https://github.com/drbrain/ruby-growl'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-growl'

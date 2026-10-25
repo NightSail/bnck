@@ -1,0 +1,9 @@
+id = 'ls-lint'
+name = 'ls-lint'
+
+homepage = 'https://ls-lint.org'
+repository = 'https://github.com/loeffel-io/ls-lint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ls-lint'

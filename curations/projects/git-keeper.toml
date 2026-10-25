@@ -1,0 +1,8 @@
+id = 'git-keeper'
+name = 'git-keeper'
+
+homepage = 'https://github.com/taoky/git-keeper'
+
+[[package]]
+channel = 'debian'
+name = 'git-keeper'

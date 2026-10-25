@@ -1,0 +1,8 @@
+id = 'python-gcp-devrel-py-tools'
+name = 'python-gcp-devrel-py-tools'
+
+homepage = 'https://github.com/GoogleCloudPlatform/python-repo-tools'
+
+[[package]]
+channel = 'arch'
+name = 'python-gcp-devrel-py-tools'

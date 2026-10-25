@@ -1,0 +1,24 @@
+id = 'tensorflow'
+name = 'tensorflow'
+
+homepage = 'https://www.tensorflow.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-tensorflow'
+
+[[package]]
+channel = 'arch'
+name = 'python-tensorflow-cuda'
+
+[[package]]
+channel = 'arch'
+name = 'python-tensorflow-opt'
+
+[[package]]
+channel = 'arch'
+name = 'python-tensorflow-opt-cuda'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtensorflow'

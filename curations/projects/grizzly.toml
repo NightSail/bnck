@@ -1,0 +1,9 @@
+id = 'grizzly'
+name = 'grizzly'
+
+homepage = 'https://grafana.github.io/grizzly'
+repository = 'https://github.com/grafana-cold-storage/grizzly.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grizzly'

@@ -1,0 +1,8 @@
+id = 'bingo'
+name = 'bingo'
+
+homepage = 'https://github.com/bwplotka/bingo'
+
+[[package]]
+channel = 'debian'
+name = 'bingo'

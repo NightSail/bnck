@@ -1,0 +1,8 @@
+id = 'python3-bimmer-connected'
+name = 'python3-bimmer-connected'
+
+homepage = 'https://github.com/bimmerconnected/bimmer_connected'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bimmer-connected'

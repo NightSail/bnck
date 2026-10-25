@@ -1,0 +1,8 @@
+id = 'ffproxy'
+name = 'ffproxy'
+
+homepage = 'http://ffproxy.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ffproxy'

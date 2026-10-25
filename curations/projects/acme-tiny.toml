@@ -1,0 +1,20 @@
+id = 'acme-tiny'
+name = 'acme-tiny'
+
+homepage = 'https://github.com/diafygi/acme-tiny'
+
+[[package]]
+channel = 'arch'
+name = 'acme-tiny'
+
+[[package]]
+channel = 'debian'
+name = 'acme-tiny'
+
+[[package]]
+channel = 'fedora'
+name = 'acme-tiny'
+
+[[package]]
+channel = 'fedora'
+name = 'acme-tiny-core'

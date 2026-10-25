@@ -1,0 +1,16 @@
+id = 'nuget'
+name = 'nuget'
+
+homepage = 'https://www.nuget.org'
+
+[[package]]
+channel = 'arch'
+name = 'nuget'
+
+[[package]]
+channel = 'fedora'
+name = 'nuget'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuget'

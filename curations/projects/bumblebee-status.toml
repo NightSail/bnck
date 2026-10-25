@@ -1,0 +1,8 @@
+id = 'bumblebee-status'
+name = 'bumblebee-status'
+
+homepage = 'https://github.com/tobi-wan-kenobi/bumblebee-status'
+
+[[package]]
+channel = 'debian'
+name = 'bumblebee-status'

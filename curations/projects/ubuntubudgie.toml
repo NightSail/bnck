@@ -1,0 +1,12 @@
+id = 'ubuntubudgie'
+name = 'ubuntubudgie'
+
+homepage = 'https://ubuntubudgie.org'
+
+[[package]]
+channel = 'debian'
+name = 'budgie-extras-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'budgie-quickchar'

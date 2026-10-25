@@ -1,0 +1,8 @@
+id = 'libmetal'
+name = 'libmetal'
+
+homepage = 'https://github.com/OpenAMP/libmetal'
+
+[[package]]
+channel = 'fedora'
+name = 'libmetal'

@@ -1,0 +1,8 @@
+id = 'haskell-cheapskate'
+name = 'haskell-cheapskate'
+
+homepage = 'https://github.com/jgm/cheapskate'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-cheapskate'

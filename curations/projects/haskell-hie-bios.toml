@@ -1,0 +1,8 @@
+id = 'haskell-hie-bios'
+name = 'haskell-hie-bios'
+
+homepage = 'https://github.com/mpickering/hie-bios'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hie-bios'

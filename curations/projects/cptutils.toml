@@ -1,0 +1,8 @@
+id = 'cptutils'
+name = 'cptutils'
+
+homepage = 'https://jjg.gitlab.io/en/code/cptutils'
+
+[[package]]
+channel = 'fedora'
+name = 'cptutils'

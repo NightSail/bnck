@@ -1,0 +1,8 @@
+id = 'browserify'
+name = 'browserify'
+
+homepage = 'http://browserify.org'
+
+[[package]]
+channel = 'arch'
+name = 'browserify'

@@ -1,0 +1,8 @@
+id = 'xfce4-notes-plugin-panel-plugins'
+name = 'xfce4-notes-plugin'
+
+homepage = 'https://docs.xfce.org/panel-plugins/xfce4-notes-plugin/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-notes-plugin'

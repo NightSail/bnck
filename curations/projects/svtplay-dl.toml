@@ -1,0 +1,12 @@
+id = 'svtplay-dl'
+name = 'svtplay-dl'
+
+homepage = 'https://svtplay-dl.se'
+
+[[package]]
+channel = 'debian'
+name = 'svtplay-dl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svtplay-dl'

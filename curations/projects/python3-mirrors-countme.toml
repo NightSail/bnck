@@ -1,0 +1,8 @@
+id = 'python3-mirrors-countme'
+name = 'python3-mirrors-countme'
+
+homepage = 'https://github.com/fedora-infra/mirrors-countme'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mirrors-countme'

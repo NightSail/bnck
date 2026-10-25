@@ -1,0 +1,8 @@
+id = 'kertish-dos'
+name = 'kertish-dos'
+
+repository = 'https://github.com/freakmaxi/kertish-dos.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kertish-dos'

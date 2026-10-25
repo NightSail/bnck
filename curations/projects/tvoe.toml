@@ -1,0 +1,8 @@
+id = 'tvoe'
+name = 'tvoe'
+
+homepage = 'https://github.com/dominikpaulus/tvoe'
+
+[[package]]
+channel = 'debian'
+name = 'tvoe'

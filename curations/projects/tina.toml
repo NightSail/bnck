@@ -1,0 +1,8 @@
+id = 'tina'
+name = 'tina'
+
+homepage = 'https://devel.ringlet.net/misc/tina'
+
+[[package]]
+channel = 'debian'
+name = 'tina'

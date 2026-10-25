@@ -1,0 +1,60 @@
+id = 'lumina-desktop'
+name = 'lumina-desktop'
+
+homepage = 'http://lumina-desktop.org'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-archiver'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-config'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-fileinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-fm'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-info'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-mediaplayer'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-open'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-photo'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-screenshot'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-search'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-textedit'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-themeengine'
+
+[[package]]
+channel = 'fedora'
+name = 'lumina-xconfig'

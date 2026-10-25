@@ -1,0 +1,12 @@
+id = 'powerstat'
+name = 'powerstat'
+
+homepage = 'https://github.com/ColinIanKing/powerstat'
+
+[[package]]
+channel = 'debian'
+name = 'powerstat'
+
+[[package]]
+channel = 'fedora'
+name = 'powerstat'

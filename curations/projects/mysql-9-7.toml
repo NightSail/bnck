@@ -1,0 +1,24 @@
+id = 'mysql-9-7'
+name = 'mysql-9.7'
+
+homepage = 'http://dev.mysql.com'
+
+[[package]]
+channel = 'debian'
+name = 'libmysqlclient-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mysql-client'
+
+[[package]]
+channel = 'debian'
+name = 'mysql-client-core'
+
+[[package]]
+channel = 'debian'
+name = 'mysql-server-core'
+
+[[package]]
+channel = 'debian'
+name = 'mysql-testsuite'

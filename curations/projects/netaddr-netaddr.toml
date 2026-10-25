@@ -1,0 +1,9 @@
+id = 'netaddr-netaddr'
+name = 'netaddr'
+
+homepage = 'https://netaddr.readthedocs.io/en/latest'
+repository = 'https://github.com/netaddr/netaddr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netaddr'

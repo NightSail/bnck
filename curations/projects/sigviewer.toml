@@ -1,0 +1,8 @@
+id = 'sigviewer'
+name = 'sigviewer'
+
+homepage = 'https://github.com/cbrnr/sigviewer'
+
+[[package]]
+channel = 'debian'
+name = 'sigviewer'

@@ -1,0 +1,20 @@
+id = 'dnsperf'
+name = 'dnsperf'
+
+homepage = 'https://www.dns-oarc.net/tools/dnsperf'
+
+[[package]]
+channel = 'debian'
+name = 'dnsperf'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsperf'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsperf-queryparse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsperf'

@@ -1,0 +1,8 @@
+id = 'odio-sacd'
+name = 'odio-sacd'
+
+homepage = 'https://tari.in/www/software/odio-sacd'
+
+[[package]]
+channel = 'fedora'
+name = 'odio-sacd'

@@ -1,0 +1,16 @@
+id = 'bliss'
+name = 'bliss'
+
+homepage = 'https://users.aalto.fi/~tjunttil/bliss'
+
+[[package]]
+channel = 'arch'
+name = 'bliss'
+
+[[package]]
+channel = 'debian'
+name = 'bliss'
+
+[[package]]
+channel = 'fedora'
+name = 'bliss'

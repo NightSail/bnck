@@ -1,0 +1,8 @@
+id = 'btyacc'
+name = 'btyacc'
+
+homepage = 'https://www.siber.com/btyacc'
+
+[[package]]
+channel = 'debian'
+name = 'btyacc'

@@ -1,0 +1,8 @@
+id = 'hana'
+name = 'hana'
+
+homepage = 'https://apps.kde.org/hana'
+
+[[package]]
+channel = 'arch'
+name = 'hana'

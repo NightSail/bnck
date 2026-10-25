@@ -1,0 +1,8 @@
+id = 'solvespace'
+name = 'solvespace'
+
+homepage = 'https://solvespace.com'
+
+[[package]]
+channel = 'debian'
+name = 'solvespace'

@@ -1,0 +1,8 @@
+id = 'mmapper'
+name = 'mmapper'
+
+homepage = 'https://github.com/MUME/MMapper'
+
+[[package]]
+channel = 'fedora'
+name = 'mmapper'

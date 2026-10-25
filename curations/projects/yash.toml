@@ -1,0 +1,17 @@
+id = 'yash'
+name = 'yash'
+
+homepage = 'https://yash.osdn.jp'
+repository = 'https://github.com/magicant/yash.git'
+
+[[package]]
+channel = 'debian'
+name = 'yash'
+
+[[package]]
+channel = 'fedora'
+name = 'yash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yash'

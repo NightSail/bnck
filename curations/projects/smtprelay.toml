@@ -1,0 +1,8 @@
+id = 'smtprelay'
+name = 'smtprelay'
+
+homepage = 'https://github.com/decke/smtprelay'
+
+[[package]]
+channel = 'fedora'
+name = 'smtprelay'

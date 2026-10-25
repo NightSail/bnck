@@ -1,0 +1,8 @@
+id = 'curblaster'
+name = 'curblaster'
+
+homepage = 'https://codeberg.org/gwync/curblaster'
+
+[[package]]
+channel = 'fedora'
+name = 'curblaster'

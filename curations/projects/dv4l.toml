@@ -1,0 +1,8 @@
+id = 'dv4l'
+name = 'dv4l'
+
+homepage = 'http://dv4l.berlios.de'
+
+[[package]]
+channel = 'debian'
+name = 'dv4l'

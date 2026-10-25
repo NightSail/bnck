@@ -1,0 +1,28 @@
+id = 'amanda'
+name = 'amanda'
+
+homepage = 'http://www.amanda.org'
+
+[[package]]
+channel = 'debian'
+name = 'amanda-client'
+
+[[package]]
+channel = 'debian'
+name = 'amanda-common'
+
+[[package]]
+channel = 'debian'
+name = 'amanda-server'
+
+[[package]]
+channel = 'fedora'
+name = 'amanda'
+
+[[package]]
+channel = 'fedora'
+name = 'amanda-client'
+
+[[package]]
+channel = 'fedora'
+name = 'amanda-server'

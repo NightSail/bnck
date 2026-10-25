@@ -1,0 +1,16 @@
+id = 'newlisp'
+name = 'newlisp'
+
+homepage = 'https://www.newlisp.org'
+
+[[package]]
+channel = 'debian'
+name = 'newlisp'
+
+[[package]]
+channel = 'fedora'
+name = 'newlisp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newlisp'

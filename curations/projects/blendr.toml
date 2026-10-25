@@ -1,0 +1,8 @@
+id = 'blendr'
+name = 'blendr'
+
+homepage = 'https://github.com/dmtrKovalenko/blendr'
+
+[[package]]
+channel = 'arch'
+name = 'blendr'

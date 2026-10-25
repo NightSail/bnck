@@ -1,0 +1,9 @@
+id = 'snowflake-cli'
+name = 'snowflake-cli'
+
+homepage = 'https://docs.snowflake.com/developer-guide/snowflake-cli/index'
+repository = 'https://github.com/snowflakedb/snowflake-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snowflake-cli'

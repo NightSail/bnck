@@ -1,0 +1,8 @@
+id = 'ruby-guard'
+name = 'ruby-guard'
+
+homepage = 'https://github.com/guard/guard'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-guard'

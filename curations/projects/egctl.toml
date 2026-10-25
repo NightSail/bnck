@@ -1,0 +1,13 @@
+id = 'egctl'
+name = 'egctl'
+
+homepage = 'https://github.com/unterwulf/egctl'
+repository = 'https://github.com/envoyproxy/gateway.git'
+
+[[package]]
+channel = 'debian'
+name = 'egctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/egctl'

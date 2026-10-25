@@ -1,0 +1,12 @@
+id = 'input-leap'
+name = 'input-leap'
+
+homepage = 'https://github.com/input-leap/input-leap'
+
+[[package]]
+channel = 'arch'
+name = 'input-leap'
+
+[[package]]
+channel = 'fedora'
+name = 'input-leap'

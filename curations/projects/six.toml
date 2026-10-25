@@ -1,0 +1,8 @@
+id = 'six'
+name = 'six'
+
+homepage = 'http://six.retes.hu'
+
+[[package]]
+channel = 'fedora'
+name = 'six'

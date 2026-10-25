@@ -1,0 +1,16 @@
+id = 'rofimoji'
+name = 'rofimoji'
+
+homepage = 'https://github.com/fdw/rofimoji'
+
+[[package]]
+channel = 'arch'
+name = 'rofimoji'
+
+[[package]]
+channel = 'debian'
+name = 'rofimoji'
+
+[[package]]
+channel = 'fedora'
+name = 'rofimoji'

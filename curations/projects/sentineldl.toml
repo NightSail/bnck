@@ -1,0 +1,8 @@
+id = 'sentineldl'
+name = 'sentineldl'
+
+homepage = 'https://gitlab.com/simon-s-upstream/sentineldl'
+
+[[package]]
+channel = 'debian'
+name = 'sentineldl'

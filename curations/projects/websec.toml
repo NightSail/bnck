@@ -1,0 +1,8 @@
+id = 'websec'
+name = 'websec'
+
+homepage = 'https://github.com/baruch/websec'
+
+[[package]]
+channel = 'fedora'
+name = 'websec'

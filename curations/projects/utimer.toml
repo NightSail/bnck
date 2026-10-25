@@ -1,0 +1,8 @@
+id = 'utimer'
+name = 'utimer'
+
+homepage = 'https://launchpad.net/utimer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/utimer'

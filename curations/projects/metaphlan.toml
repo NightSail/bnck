@@ -1,0 +1,8 @@
+id = 'metaphlan'
+name = 'metaphlan'
+
+homepage = 'https://github.com/biobakery/MetaPhlAn'
+
+[[package]]
+channel = 'debian'
+name = 'metaphlan'

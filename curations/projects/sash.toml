@@ -1,0 +1,8 @@
+id = 'sash'
+name = 'sash'
+
+homepage = 'https://members.tip.net.au/~dbell'
+
+[[package]]
+channel = 'debian'
+name = 'sash'

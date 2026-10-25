@@ -1,0 +1,8 @@
+id = 'chalk-cli'
+name = 'chalk-cli'
+
+homepage = 'https://github.com/chalk/chalk-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chalk-cli'

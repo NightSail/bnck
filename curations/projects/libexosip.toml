@@ -1,0 +1,8 @@
+id = 'libexosip'
+name = 'libexosip'
+
+homepage = 'https://savannah.nongnu.org/projects/exosip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libexosip'

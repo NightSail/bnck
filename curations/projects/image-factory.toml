@@ -1,0 +1,12 @@
+id = 'image-factory'
+name = 'image-factory'
+
+homepage = 'https://github.com/ionos-enterprise/image-factory'
+
+[[package]]
+channel = 'debian'
+name = 'image-factory'
+
+[[package]]
+channel = 'fedora'
+name = 'imagefactory'

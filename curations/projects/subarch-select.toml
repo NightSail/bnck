@@ -1,0 +1,8 @@
+id = 'subarch-select'
+name = 'subarch-select'
+
+homepage = 'https://github.com/ekg/subarch-select'
+
+[[package]]
+channel = 'debian'
+name = 'subarch-select'

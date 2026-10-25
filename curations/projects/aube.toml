@@ -1,0 +1,8 @@
+id = 'aube'
+name = 'aube'
+
+homepage = 'https://aube.en.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aube'

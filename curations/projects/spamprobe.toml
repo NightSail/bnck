@@ -1,0 +1,8 @@
+id = 'spamprobe'
+name = 'spamprobe'
+
+homepage = 'http://spamprobe.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'spamprobe'

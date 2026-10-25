@@ -1,0 +1,12 @@
+id = 'cargo-nextest'
+name = 'cargo-nextest'
+
+homepage = 'https://nexte.st'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-nextest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-nextest'

@@ -1,0 +1,8 @@
+id = 'prottest'
+name = 'prottest'
+
+homepage = 'https://github.com/ddarriba/prottest3'
+
+[[package]]
+channel = 'debian'
+name = 'prottest'

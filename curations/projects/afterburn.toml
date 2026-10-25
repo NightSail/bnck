@@ -1,0 +1,8 @@
+id = 'afterburn'
+name = 'afterburn'
+
+homepage = 'https://crates.io/crates/afterburn'
+
+[[package]]
+channel = 'fedora'
+name = 'afterburn'

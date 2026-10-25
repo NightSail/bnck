@@ -1,0 +1,12 @@
+id = 'pleaser'
+name = 'pleaser'
+
+homepage = 'https://www.usenix.org.uk/content/please.html'
+
+[[package]]
+channel = 'debian'
+name = 'pleaser'
+
+[[package]]
+channel = 'fedora'
+name = 'pleaser'

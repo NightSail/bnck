@@ -1,0 +1,12 @@
+id = 'lomiri-content-hub'
+name = 'lomiri-content-hub'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-content-hub'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-content-hub'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-content-hub-testability'

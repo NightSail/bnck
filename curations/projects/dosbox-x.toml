@@ -1,0 +1,13 @@
+id = 'dosbox-x'
+name = 'dosbox-x'
+
+homepage = 'https://dosbox-x.com'
+repository = 'https://github.com/joncampbell123/dosbox-x.git'
+
+[[package]]
+channel = 'debian'
+name = 'dosbox-x'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dosbox-x'

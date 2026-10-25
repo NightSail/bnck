@@ -1,0 +1,24 @@
+id = 'quantlib'
+name = 'QuantLib'
+
+homepage = 'https://www.quantlib.org'
+
+[[package]]
+channel = 'debian'
+name = 'libquantlib0-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libquantlib0v5'
+
+[[package]]
+channel = 'debian'
+name = 'quantlib-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'QuantLib-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'QuantLib-test'

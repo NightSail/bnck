@@ -1,0 +1,16 @@
+id = 'findutils'
+name = 'findutils'
+
+homepage = 'https://www.gnu.org/software/findutils'
+
+[[package]]
+channel = 'arch'
+name = 'findutils'
+
+[[package]]
+channel = 'fedora'
+name = 'findutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/findutils'

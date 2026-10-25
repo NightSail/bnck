@@ -1,0 +1,8 @@
+id = 'python-latex2mathml'
+name = 'python-latex2mathml'
+
+homepage = 'https://github.com/roniemartinez/latex2mathml'
+
+[[package]]
+channel = 'arch'
+name = 'python-latex2mathml'

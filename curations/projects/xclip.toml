@@ -1,0 +1,20 @@
+id = 'xclip'
+name = 'xclip'
+
+homepage = 'https://github.com/astrand/xclip'
+
+[[package]]
+channel = 'arch'
+name = 'xclip'
+
+[[package]]
+channel = 'debian'
+name = 'xclip'
+
+[[package]]
+channel = 'fedora'
+name = 'xclip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xclip'

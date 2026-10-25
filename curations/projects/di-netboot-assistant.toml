@@ -1,0 +1,8 @@
+id = 'di-netboot-assistant'
+name = 'di-netboot-assistant'
+
+homepage = 'https://wiki.debian.org/DebianInstaller/NetbootAssistant'
+
+[[package]]
+channel = 'debian'
+name = 'di-netboot-assistant'

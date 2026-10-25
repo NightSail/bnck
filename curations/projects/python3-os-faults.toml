@@ -1,0 +1,8 @@
+id = 'python3-os-faults'
+name = 'python3-os-faults'
+
+homepage = 'http://os-faults.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-os-faults'

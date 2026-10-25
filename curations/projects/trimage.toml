@@ -1,0 +1,8 @@
+id = 'trimage'
+name = 'trimage'
+
+homepage = 'https://trimage.org'
+
+[[package]]
+channel = 'debian'
+name = 'trimage'

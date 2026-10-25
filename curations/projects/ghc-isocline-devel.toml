@@ -1,0 +1,8 @@
+id = 'ghc-isocline-devel'
+name = 'ghc-isocline-devel'
+
+homepage = 'https://hackage.haskell.org/package/isocline'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-isocline-devel'

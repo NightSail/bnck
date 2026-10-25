@@ -1,0 +1,8 @@
+id = 'libusbg-utils'
+name = 'libusbg-utils'
+
+homepage = 'https://github.com/libusbgx/libusbgx'
+
+[[package]]
+channel = 'fedora'
+name = 'libusbg-utils'

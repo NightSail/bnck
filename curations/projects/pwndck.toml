@@ -1,0 +1,8 @@
+id = 'pwndck'
+name = 'pwndck'
+
+homepage = 'https://github.com/davesteele/pwndck'
+
+[[package]]
+channel = 'debian'
+name = 'pwndck'

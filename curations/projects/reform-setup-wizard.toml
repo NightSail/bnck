@@ -1,0 +1,8 @@
+id = 'reform-setup-wizard'
+name = 'reform-setup-wizard'
+
+homepage = 'https://source.mnt.re/reform/mnt-reform-setup-wizard'
+
+[[package]]
+channel = 'debian'
+name = 'reform-setup-wizard'

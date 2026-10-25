@@ -1,0 +1,8 @@
+id = 'gravity-beams-and-evaporating-stars'
+name = 'gravity-beams-and-evaporating-stars'
+
+homepage = 'https://github.com/dextero/LD30'
+
+[[package]]
+channel = 'fedora'
+name = 'gravity-beams-and-evaporating-stars'

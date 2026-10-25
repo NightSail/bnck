@@ -1,0 +1,20 @@
+id = 'libavif'
+name = 'libavif'
+
+homepage = 'https://github.com/AOMediaCodec/libavif'
+
+[[package]]
+channel = 'arch'
+name = 'libavif'
+
+[[package]]
+channel = 'debian'
+name = 'libavif-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libavif-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libavif'

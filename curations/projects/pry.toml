@@ -1,0 +1,16 @@
+id = 'pry'
+name = 'pry'
+
+homepage = 'https://pry.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-pry'
+
+[[package]]
+channel = 'debian'
+name = 'pry'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-pry'

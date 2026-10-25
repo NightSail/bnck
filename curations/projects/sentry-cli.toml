@@ -1,0 +1,12 @@
+id = 'sentry-cli'
+name = 'sentry-cli'
+
+homepage = 'https://docs.sentry.io/cli'
+
+[[package]]
+channel = 'arch'
+name = 'sentry-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sentry-cli'

@@ -1,0 +1,12 @@
+id = 'kiriki'
+name = 'kiriki'
+
+homepage = 'https://apps.kde.org/kiriki'
+
+[[package]]
+channel = 'arch'
+name = 'kiriki'
+
+[[package]]
+channel = 'fedora'
+name = 'kiriki'

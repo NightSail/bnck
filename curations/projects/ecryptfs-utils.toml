@@ -1,0 +1,16 @@
+id = 'ecryptfs-utils'
+name = 'ecryptfs-utils'
+
+homepage = 'https://launchpad.net/ecryptfs'
+
+[[package]]
+channel = 'arch'
+name = 'ecryptfs-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ecryptfs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'ecryptfs-utils'

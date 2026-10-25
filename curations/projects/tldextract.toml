@@ -1,0 +1,12 @@
+id = 'tldextract'
+name = 'tldextract'
+
+homepage = 'https://github.com/john-kurkowski/tldextract'
+
+[[package]]
+channel = 'arch'
+name = 'python-tldextract'
+
+[[package]]
+channel = 'debian'
+name = 'tldextract'

@@ -1,0 +1,9 @@
+id = 'svgbob'
+name = 'svgbob'
+
+homepage = 'https://ivanceras.github.io/svgbob-editor'
+repository = 'https://github.com/ivanceras/svgbob.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svgbob'

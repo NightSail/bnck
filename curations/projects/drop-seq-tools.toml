@@ -1,0 +1,8 @@
+id = 'drop-seq-tools'
+name = 'drop-seq-tools'
+
+homepage = 'https://github.com/broadinstitute/Drop-seq'
+
+[[package]]
+channel = 'debian'
+name = 'drop-seq-tools'

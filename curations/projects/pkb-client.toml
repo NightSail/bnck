@@ -1,0 +1,8 @@
+id = 'pkb-client'
+name = 'pkb-client'
+
+homepage = 'https://github.com/infinityofspace/pkb_client'
+
+[[package]]
+channel = 'debian'
+name = 'pkb-client'

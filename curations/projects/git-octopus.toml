@@ -1,0 +1,12 @@
+id = 'git-octopus'
+name = 'git-octopus'
+
+homepage = 'https://github.com/lesfurets/git-octopus'
+
+[[package]]
+channel = 'fedora'
+name = 'git-octopus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-octopus'

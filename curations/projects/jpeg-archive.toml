@@ -1,0 +1,12 @@
+id = 'jpeg-archive'
+name = 'jpeg-archive'
+
+homepage = 'https://github.com/danielgtaylor/jpeg-archive'
+
+[[package]]
+channel = 'arch'
+name = 'jpeg-archive'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpeg-archive'

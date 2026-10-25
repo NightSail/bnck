@@ -1,0 +1,8 @@
+id = 'dmucs'
+name = 'dmucs'
+
+homepage = 'http://dmucs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dmucs'

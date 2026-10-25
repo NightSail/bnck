@@ -1,0 +1,8 @@
+id = 'briss'
+name = 'briss'
+
+homepage = 'https://briss.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/briss'

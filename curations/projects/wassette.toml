@@ -1,0 +1,9 @@
+id = 'wassette'
+name = 'wassette'
+
+homepage = 'https://microsoft.github.io/wassette'
+repository = 'https://github.com/microsoft/wassette.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wassette'

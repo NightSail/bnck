@@ -1,0 +1,8 @@
+id = 'python3-sphinx-chango'
+name = 'python3-sphinx-chango'
+
+homepage = 'https://chango.readthedocs.io/latest/sphinx_ext.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-chango'

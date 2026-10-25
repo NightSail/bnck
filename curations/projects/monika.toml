@@ -1,0 +1,8 @@
+id = 'monika'
+name = 'monika'
+
+homepage = 'https://monika.hyperjump.tech'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monika'

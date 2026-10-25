@@ -1,0 +1,8 @@
+id = 'rpmdevtools'
+name = 'rpmdevtools'
+
+homepage = 'https://pagure.io/rpmdevtools'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmdevtools'

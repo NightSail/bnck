@@ -1,0 +1,8 @@
+id = 'nailing-cargo'
+name = 'nailing-cargo'
+
+homepage = 'https://salsa.debian.org/iwj/nailing-cargo'
+
+[[package]]
+channel = 'debian'
+name = 'nailing-cargo'

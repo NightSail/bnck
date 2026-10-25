@@ -1,0 +1,8 @@
+id = 'sip-tester'
+name = 'sip-tester'
+
+homepage = 'https://sipp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sip-tester'

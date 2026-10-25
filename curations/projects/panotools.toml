@@ -1,0 +1,20 @@
+id = 'panotools'
+name = 'panotools'
+
+homepage = 'https://panotools.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libpano13'
+
+[[package]]
+channel = 'debian'
+name = 'libpano13-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libpano13-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpano'

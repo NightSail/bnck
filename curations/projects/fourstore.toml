@@ -1,0 +1,8 @@
+id = 'fourstore'
+name = 'fourstore'
+
+homepage = 'https://4store.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fourstore'

@@ -1,0 +1,24 @@
+id = 'fedora-java'
+name = 'fedora-java'
+
+homepage = 'https://fedora-java.github.io/xmvn'
+
+[[package]]
+channel = 'fedora'
+name = 'xmvn'
+
+[[package]]
+channel = 'fedora'
+name = 'xmvn-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'xmvn-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'xmvn5-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'xmvn5-tools'

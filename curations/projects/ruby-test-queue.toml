@@ -1,0 +1,8 @@
+id = 'ruby-test-queue'
+name = 'ruby-test-queue'
+
+homepage = 'https://github.com/tmm1/test-queue'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-test-queue'

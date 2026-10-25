@@ -1,0 +1,8 @@
+id = 'mhwaveedit'
+name = 'mhwaveedit'
+
+homepage = 'https://github.com/magnush/mhwaveedit'
+
+[[package]]
+channel = 'debian'
+name = 'mhwaveedit'

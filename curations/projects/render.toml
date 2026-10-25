@@ -1,0 +1,9 @@
+id = 'render'
+name = 'render'
+
+homepage = 'https://render.com/docs/cli'
+repository = 'https://github.com/render-oss/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/render'

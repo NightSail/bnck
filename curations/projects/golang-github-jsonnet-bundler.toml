@@ -1,0 +1,8 @@
+id = 'golang-github-jsonnet-bundler'
+name = 'golang-github-jsonnet-bundler'
+
+homepage = 'https://github.com/jsonnet-bundler/jsonnet-bundler'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-jsonnet-bundler'

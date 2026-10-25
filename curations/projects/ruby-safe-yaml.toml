@@ -1,0 +1,8 @@
+id = 'ruby-safe-yaml'
+name = 'ruby-safe_yaml'
+
+homepage = 'https://github.com/dtao/safe_yaml'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-safe_yaml'

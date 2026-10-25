@@ -1,0 +1,8 @@
+id = 'python3-vconnector'
+name = 'python3-vconnector'
+
+homepage = 'https://github.com/dnaeon/py-vconnector'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vconnector'

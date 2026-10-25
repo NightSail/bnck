@@ -1,0 +1,12 @@
+id = 'io-lib'
+name = 'io_lib'
+
+homepage = 'https://github.com/jkbonfield/io_lib'
+
+[[package]]
+channel = 'debian'
+name = 'libstaden-read-dev'
+
+[[package]]
+channel = 'debian'
+name = 'staden-io-lib-utils'

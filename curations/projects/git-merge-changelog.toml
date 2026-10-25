@@ -1,0 +1,6 @@
+id = 'git-merge-changelog'
+name = 'git-merge-changelog'
+
+[[package]]
+channel = 'debian'
+name = 'git-merge-changelog'

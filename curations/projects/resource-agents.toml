@@ -1,0 +1,20 @@
+id = 'resource-agents'
+name = 'resource-agents'
+
+homepage = 'https://github.com/ClusterLabs/resource-agents'
+
+[[package]]
+channel = 'debian'
+name = 'ldirectord'
+
+[[package]]
+channel = 'debian'
+name = 'resource-agents'
+
+[[package]]
+channel = 'fedora'
+name = 'ldirectord'
+
+[[package]]
+channel = 'fedora'
+name = 'resource-agents'

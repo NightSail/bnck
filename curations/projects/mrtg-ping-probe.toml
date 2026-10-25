@@ -1,0 +1,6 @@
+id = 'mrtg-ping-probe'
+name = 'mrtg-ping-probe'
+
+[[package]]
+channel = 'debian'
+name = 'mrtg-ping-probe'

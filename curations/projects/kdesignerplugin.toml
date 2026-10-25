@@ -1,0 +1,12 @@
+id = 'kdesignerplugin'
+name = 'kdesignerplugin'
+
+homepage = 'https://invent.kde.org/frameworks/kdesignerplugin'
+
+[[package]]
+channel = 'debian'
+name = 'kgendesignerplugin-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kdesignerplugin'

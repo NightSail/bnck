@@ -1,0 +1,8 @@
+id = 'ssvnc'
+name = 'ssvnc'
+
+homepage = 'http://www.karlrunge.com/x11vnc/ssvnc.html'
+
+[[package]]
+channel = 'debian'
+name = 'ssvnc'

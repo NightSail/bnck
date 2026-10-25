@@ -4,6 +4,14 @@ name = 'rofi'
 repository = 'https://github.com/davatorium/rofi'
 
 [[package]]
+channel = 'arch'
+name = 'rofi'
+
+[[package]]
+channel = 'debian'
+name = 'rofi'
+
+[[package]]
 channel = 'fedora'
 name = 'rofi'
 

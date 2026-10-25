@@ -1,0 +1,20 @@
+id = 'aqbanking'
+name = 'aqbanking'
+
+homepage = 'https://www.aquamaniac.de/rdm/projects/aqbanking'
+
+[[package]]
+channel = 'arch'
+name = 'aqbanking'
+
+[[package]]
+channel = 'fedora'
+name = 'aqbanking'
+
+[[package]]
+channel = 'fedora'
+name = 'aqbanking-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aqbanking'

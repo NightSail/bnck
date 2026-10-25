@@ -1,0 +1,8 @@
+id = 'mmmulti'
+name = 'mmmulti'
+
+homepage = 'https://github.com/ekg/mmmulti'
+
+[[package]]
+channel = 'debian'
+name = 'mmmulti'

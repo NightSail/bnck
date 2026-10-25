@@ -1,0 +1,9 @@
+id = 'pay'
+name = 'pay'
+
+homepage = 'https://pay.sh'
+repository = 'https://github.com/solana-foundation/pay.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pay'

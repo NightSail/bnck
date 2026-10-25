@@ -1,0 +1,8 @@
+id = 'certinfo'
+name = 'certinfo'
+
+homepage = 'https://github.com/pete911/certinfo'
+
+[[package]]
+channel = 'debian'
+name = 'certinfo'

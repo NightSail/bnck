@@ -1,0 +1,8 @@
+id = 'deets'
+name = 'deets'
+
+homepage = 'https://salsa.debian.org/clint/deets'
+
+[[package]]
+channel = 'debian'
+name = 'deets'

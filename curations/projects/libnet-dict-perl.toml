@@ -1,0 +1,8 @@
+id = 'libnet-dict-perl'
+name = 'libnet-dict-perl'
+
+homepage = 'https://metacpan.org/release/Net-Dict'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-dict-perl'

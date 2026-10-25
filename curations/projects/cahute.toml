@@ -1,0 +1,9 @@
+id = 'cahute'
+name = 'cahute'
+
+homepage = 'https://cahute.org'
+repository = 'https://gitlab.com/cahute/cahute.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cahute'

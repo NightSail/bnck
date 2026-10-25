@@ -1,0 +1,12 @@
+id = 'xwallpaper'
+name = 'xwallpaper'
+
+homepage = 'https://github.com/stoeckmann/xwallpaper'
+
+[[package]]
+channel = 'arch'
+name = 'xwallpaper'
+
+[[package]]
+channel = 'debian'
+name = 'xwallpaper'

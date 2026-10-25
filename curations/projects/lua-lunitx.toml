@@ -1,0 +1,8 @@
+id = 'lua-lunitx'
+name = 'lua-lunitx'
+
+homepage = 'https://github.com/dcurrie/lunit'
+
+[[package]]
+channel = 'fedora'
+name = 'lua-lunitx'

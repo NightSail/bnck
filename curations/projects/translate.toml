@@ -1,0 +1,8 @@
+id = 'translate'
+name = 'translate'
+
+homepage = 'https://salsa.debian.org/debian/translate'
+
+[[package]]
+channel = 'debian'
+name = 'translate'

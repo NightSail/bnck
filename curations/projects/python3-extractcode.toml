@@ -1,0 +1,8 @@
+id = 'python3-extractcode'
+name = 'python3-extractcode'
+
+homepage = 'https://github.com/aboutcode-org/extractcode'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-extractcode'

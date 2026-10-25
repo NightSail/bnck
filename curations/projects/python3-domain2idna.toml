@@ -1,0 +1,8 @@
+id = 'python3-domain2idna'
+name = 'python3-domain2idna'
+
+homepage = 'https://github.com/PyFunceble/domain2idna'
+
+[[package]]
+channel = 'debian'
+name = 'python3-domain2idna'

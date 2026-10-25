@@ -1,0 +1,8 @@
+id = 'marshalparser'
+name = 'marshalparser'
+
+homepage = 'https://github.com/fedora-python/marshalparser'
+
+[[package]]
+channel = 'fedora'
+name = 'marshalparser'

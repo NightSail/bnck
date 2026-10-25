@@ -1,0 +1,12 @@
+id = 'parser'
+name = 'parser'
+
+homepage = 'https://github.com/whitequark/parser'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-parser'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-whitequark-parser'

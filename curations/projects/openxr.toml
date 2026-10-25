@@ -1,0 +1,8 @@
+id = 'openxr'
+name = 'openxr'
+
+homepage = 'https://www.khronos.org/openxr'
+
+[[package]]
+channel = 'arch'
+name = 'openxr'

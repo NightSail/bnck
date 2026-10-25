@@ -1,0 +1,8 @@
+id = 'octl'
+name = 'octl'
+
+repository = 'https://github.com/outscale/octl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/octl'

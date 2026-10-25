@@ -1,0 +1,8 @@
+id = 'pat'
+name = 'pat'
+
+homepage = 'https://getpat.io'
+
+[[package]]
+channel = 'debian'
+name = 'pat'

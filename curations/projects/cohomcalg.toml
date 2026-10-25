@@ -1,0 +1,12 @@
+id = 'cohomcalg'
+name = 'cohomCalg'
+
+homepage = 'https://github.com/BenjaminJurke/cohomCalg'
+
+[[package]]
+channel = 'debian'
+name = 'cohomcalg'
+
+[[package]]
+channel = 'fedora'
+name = 'cohomCalg'

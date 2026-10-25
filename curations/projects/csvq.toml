@@ -1,0 +1,9 @@
+id = 'csvq'
+name = 'csvq'
+
+homepage = 'https://mithrandie.github.io/csvq'
+repository = 'https://github.com/mithrandie/csvq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csvq'

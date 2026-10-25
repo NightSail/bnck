@@ -1,0 +1,16 @@
+id = 'smb4k'
+name = 'smb4k'
+
+homepage = 'https://smb4k.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'smb4k'
+
+[[package]]
+channel = 'debian'
+name = 'smb4k'
+
+[[package]]
+channel = 'fedora'
+name = 'smb4k'

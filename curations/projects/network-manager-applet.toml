@@ -1,0 +1,12 @@
+id = 'network-manager-applet'
+name = 'network-manager-applet'
+
+homepage = 'https://gitlab.gnome.org/GNOME/network-manager-applet'
+
+[[package]]
+channel = 'arch'
+name = 'network-manager-applet'
+
+[[package]]
+channel = 'arch'
+name = 'nm-connection-editor'

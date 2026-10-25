@@ -1,0 +1,16 @@
+id = 'chkrootkit'
+name = 'chkrootkit'
+
+homepage = 'https://www.chkrootkit.org'
+
+[[package]]
+channel = 'debian'
+name = 'chkrootkit'
+
+[[package]]
+channel = 'fedora'
+name = 'chkrootkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chkrootkit'

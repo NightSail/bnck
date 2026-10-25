@@ -1,0 +1,8 @@
+id = 'pamu2fcfg'
+name = 'pamu2fcfg'
+
+homepage = 'https://github.com/Yubico/pam-u2f'
+
+[[package]]
+channel = 'fedora'
+name = 'pamu2fcfg'

@@ -1,0 +1,20 @@
+id = 'syncplay'
+name = 'syncplay'
+
+homepage = 'http://syncplay.pl'
+
+[[package]]
+channel = 'arch'
+name = 'syncplay'
+
+[[package]]
+channel = 'debian'
+name = 'syncplay'
+
+[[package]]
+channel = 'debian'
+name = 'syncplay-server'
+
+[[package]]
+channel = 'fedora'
+name = 'syncplay'

@@ -1,0 +1,24 @@
+id = 'dhcp'
+name = 'dhcp'
+
+homepage = 'https://www.isc.org/dhcp'
+
+[[package]]
+channel = 'arch'
+name = 'dhclient'
+
+[[package]]
+channel = 'arch'
+name = 'dhcp'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcp-client'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcp-relay'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcp-server'

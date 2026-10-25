@@ -1,0 +1,8 @@
+id = 'perl-app-githooks'
+name = 'perl-App-GitHooks'
+
+homepage = 'https://metacpan.org/release/App-GitHooks'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-GitHooks'

@@ -1,0 +1,12 @@
+id = 'dssp'
+name = 'dssp'
+
+homepage = 'https://github.com/PDB-REDO/dssp'
+
+[[package]]
+channel = 'debian'
+name = 'dssp'
+
+[[package]]
+channel = 'fedora'
+name = 'dssp'

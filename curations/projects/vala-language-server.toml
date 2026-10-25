@@ -1,0 +1,12 @@
+id = 'vala-language-server'
+name = 'vala-language-server'
+
+homepage = 'https://github.com/vala-lang/vala-language-server'
+
+[[package]]
+channel = 'fedora'
+name = 'vala-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vala-language-server'

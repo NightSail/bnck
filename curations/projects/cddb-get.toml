@@ -1,0 +1,12 @@
+id = 'cddb-get'
+name = 'CDDB_get'
+
+homepage = 'https://metacpan.org/release/CDDB_get'
+
+[[package]]
+channel = 'debian'
+name = 'libcddb-get-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CDDB_get'

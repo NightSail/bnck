@@ -1,0 +1,8 @@
+id = 'mpd-mpris'
+name = 'mpd-mpris'
+
+homepage = 'https://github.com/natsukagami/mpd-mpris'
+
+[[package]]
+channel = 'arch'
+name = 'mpd-mpris'

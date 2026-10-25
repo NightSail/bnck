@@ -1,0 +1,9 @@
+id = 'mdzk'
+name = 'mdzk'
+
+homepage = 'https://mdzk.app'
+repository = 'https://github.com/mdzk-rs/mdzk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdzk'

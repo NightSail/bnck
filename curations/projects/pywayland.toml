@@ -1,0 +1,16 @@
+id = 'pywayland'
+name = 'pywayland'
+
+homepage = 'https://github.com/flacjacket/pywayland'
+
+[[package]]
+channel = 'arch'
+name = 'python-pywayland'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pywayland'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pywayland'

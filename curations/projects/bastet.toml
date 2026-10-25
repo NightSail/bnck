@@ -4,5 +4,9 @@ name = 'bastet'
 homepage = 'https://fph.altervista.org/prog/bastet.html'
 
 [[package]]
+channel = 'fedora'
+name = 'bastet'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/bastet'

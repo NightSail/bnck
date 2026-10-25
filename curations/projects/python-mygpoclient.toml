@@ -1,0 +1,8 @@
+id = 'python-mygpoclient'
+name = 'python-mygpoclient'
+
+homepage = 'https://github.com/gpodder/mygpoclient'
+
+[[package]]
+channel = 'arch'
+name = 'python-mygpoclient'

@@ -1,0 +1,8 @@
+id = 'mecab-ko'
+name = 'mecab-ko'
+
+homepage = 'https://bitbucket.org/eunjeon/mecab-ko'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mecab-ko'

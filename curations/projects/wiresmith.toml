@@ -1,0 +1,8 @@
+id = 'wiresmith'
+name = 'wiresmith'
+
+homepage = 'https://github.com/svenstaro/wiresmith'
+
+[[package]]
+channel = 'arch'
+name = 'wiresmith'

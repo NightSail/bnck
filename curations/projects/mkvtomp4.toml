@@ -1,0 +1,8 @@
+id = 'mkvtomp4'
+name = 'mkvtomp4'
+
+repository = 'https://github.com/gavinbeatty/mkvtomp4.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkvtomp4'

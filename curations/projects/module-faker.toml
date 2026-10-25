@@ -1,0 +1,12 @@
+id = 'module-faker'
+name = 'Module-Faker'
+
+homepage = 'https://metacpan.org/release/Module-Faker'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-faker-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Faker'

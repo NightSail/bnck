@@ -1,0 +1,8 @@
+id = 'rasmol'
+name = 'rasmol'
+
+homepage = 'http://rasmol.org'
+
+[[package]]
+channel = 'debian'
+name = 'rasmol'

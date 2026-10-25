@@ -1,0 +1,8 @@
+id = 'libns3-dev'
+name = 'libns3-dev'
+
+homepage = 'https://www.nsnam.org'
+
+[[package]]
+channel = 'debian'
+name = 'libns3-dev'

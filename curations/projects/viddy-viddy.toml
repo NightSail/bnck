@@ -1,0 +1,6 @@
+id = 'viddy-viddy'
+name = 'viddy'
+
+[[package]]
+channel = 'crates.io'
+name = 'viddy'

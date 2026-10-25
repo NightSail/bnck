@@ -1,0 +1,20 @@
+id = 'ebook-tools'
+name = 'ebook-tools'
+
+homepage = 'https://sourceforge.net/projects/ebook-tools'
+
+[[package]]
+channel = 'arch'
+name = 'ebook-tools'
+
+[[package]]
+channel = 'debian'
+name = 'epub-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'ebook-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ebook-tools'

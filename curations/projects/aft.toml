@@ -1,0 +1,8 @@
+id = 'aft'
+name = 'aft'
+
+homepage = 'http://www.maplefish.com/todd/aft.html'
+
+[[package]]
+channel = 'debian'
+name = 'aft'

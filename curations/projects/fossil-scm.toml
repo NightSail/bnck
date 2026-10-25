@@ -1,0 +1,20 @@
+id = 'fossil-scm'
+name = 'fossil-scm'
+
+homepage = 'https://www.fossil-scm.org'
+
+[[package]]
+channel = 'arch'
+name = 'fossil'
+
+[[package]]
+channel = 'debian'
+name = 'fossil'
+
+[[package]]
+channel = 'fedora'
+name = 'fossil'
+
+[[package]]
+channel = 'fedora'
+name = 'fossil-doc'

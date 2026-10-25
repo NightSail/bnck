@@ -1,0 +1,8 @@
+id = 'tundra'
+name = 'tundra'
+
+homepage = 'https://github.com/deplinenoise/tundra'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tundra'

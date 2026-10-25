@@ -1,0 +1,8 @@
+id = 'deblur'
+name = 'deblur'
+
+homepage = 'https://github.com/biocore/deblur'
+
+[[package]]
+channel = 'debian'
+name = 'deblur'

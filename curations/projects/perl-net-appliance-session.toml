@@ -1,0 +1,8 @@
+id = 'perl-net-appliance-session'
+name = 'perl-Net-Appliance-Session'
+
+homepage = 'https://metacpan.org/release/Net-Appliance-Session'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-Appliance-Session'

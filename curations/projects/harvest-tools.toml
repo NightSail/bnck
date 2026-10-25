@@ -1,0 +1,8 @@
+id = 'harvest-tools'
+name = 'harvest-tools'
+
+homepage = 'https://harvest.readthedocs.org/en/latest/content/harvest-tools.html'
+
+[[package]]
+channel = 'debian'
+name = 'harvest-tools'

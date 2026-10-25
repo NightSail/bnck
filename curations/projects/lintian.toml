@@ -1,0 +1,8 @@
+id = 'lintian'
+name = 'lintian'
+
+homepage = 'https://lintian.debian.org'
+
+[[package]]
+channel = 'debian'
+name = 'lintian'

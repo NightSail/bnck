@@ -1,0 +1,8 @@
+id = 'vscode-langservers-extracted'
+name = 'vscode-langservers-extracted'
+
+homepage = 'https://github.com/hrsh7th/vscode-langservers-extracted'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vscode-langservers-extracted'

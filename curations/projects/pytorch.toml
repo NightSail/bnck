@@ -1,0 +1,48 @@
+id = 'pytorch'
+name = 'pytorch'
+
+homepage = 'https://pytorch.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-cuda'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-opt'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-opt-cuda'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-opt-rocm'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-opt-xpu'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-rocm'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytorch-xpu'
+
+[[package]]
+channel = 'debian'
+name = 'python3-torch'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-torch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pytorch'

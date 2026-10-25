@@ -1,0 +1,8 @@
+id = 'spor'
+name = 'spor'
+
+homepage = 'http://code.google.com/p/spor'
+
+[[package]]
+channel = 'fedora'
+name = 'spor'

@@ -1,0 +1,8 @@
+id = 'python3-aiozmq'
+name = 'python3-aiozmq'
+
+homepage = 'https://aiozmq.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiozmq'

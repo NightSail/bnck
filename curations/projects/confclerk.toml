@@ -1,0 +1,8 @@
+id = 'confclerk'
+name = 'confclerk'
+
+homepage = 'https://www.toastfreeware.priv.at/confclerk'
+
+[[package]]
+channel = 'debian'
+name = 'confclerk'

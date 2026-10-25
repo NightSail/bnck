@@ -1,0 +1,21 @@
+id = 'sccache'
+name = 'sccache'
+
+homepage = 'https://crates.io/crates/sccache'
+repository = 'https://github.com/mozilla/sccache.git'
+
+[[package]]
+channel = 'arch'
+name = 'sccache'
+
+[[package]]
+channel = 'debian'
+name = 'sccache'
+
+[[package]]
+channel = 'fedora'
+name = 'sccache'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sccache'

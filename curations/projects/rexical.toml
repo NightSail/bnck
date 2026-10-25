@@ -1,0 +1,8 @@
+id = 'rexical'
+name = 'rexical'
+
+homepage = 'https://github.com/tenderlove/rexical'
+
+[[package]]
+channel = 'debian'
+name = 'rexical'

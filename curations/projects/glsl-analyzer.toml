@@ -1,0 +1,8 @@
+id = 'glsl-analyzer'
+name = 'glsl-analyzer'
+
+homepage = 'https://github.com/nolanderc/glsl_analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'glsl-analyzer'

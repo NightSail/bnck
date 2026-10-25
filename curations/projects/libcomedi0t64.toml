@@ -1,0 +1,8 @@
+id = 'libcomedi0t64'
+name = 'libcomedi0t64'
+
+homepage = 'http://www.comedi.org'
+
+[[package]]
+channel = 'debian'
+name = 'libcomedi0t64'

@@ -1,0 +1,8 @@
+id = 'loadlin'
+name = 'loadlin'
+
+homepage = 'http://youpibouh.thefreecat.org/loadlin'
+
+[[package]]
+channel = 'debian'
+name = 'loadlin'

@@ -1,0 +1,6 @@
+id = 'startpar'
+name = 'startpar'
+
+[[package]]
+channel = 'debian'
+name = 'startpar'

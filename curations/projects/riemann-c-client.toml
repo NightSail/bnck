@@ -1,0 +1,12 @@
+id = 'riemann-c-client'
+name = 'riemann-c-client'
+
+homepage = 'https://git.madhouse-project.org/algernon/riemann-c-client'
+
+[[package]]
+channel = 'debian'
+name = 'riemann-c-client'
+
+[[package]]
+channel = 'fedora'
+name = 'riemann-c-client'

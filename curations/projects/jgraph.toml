@@ -1,0 +1,8 @@
+id = 'jgraph'
+name = 'jgraph'
+
+homepage = 'https://web.eecs.utk.edu/~jplank/plank/jgraph/jgraph.html'
+
+[[package]]
+channel = 'debian'
+name = 'jgraph'

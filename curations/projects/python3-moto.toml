@@ -1,0 +1,8 @@
+id = 'python3-moto'
+name = 'python3-moto'
+
+homepage = 'https://github.com/getmoto/moto'
+
+[[package]]
+channel = 'debian'
+name = 'python3-moto'

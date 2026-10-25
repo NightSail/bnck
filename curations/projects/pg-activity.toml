@@ -1,0 +1,10 @@
+id = 'pg-activity'
+name = 'pg-activity'
+
+[[package]]
+channel = 'debian'
+name = 'pg-activity'
+
+[[package]]
+channel = 'fedora'
+name = 'pg_activity'

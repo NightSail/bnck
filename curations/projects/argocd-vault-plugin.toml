@@ -1,0 +1,9 @@
+id = 'argocd-vault-plugin'
+name = 'argocd-vault-plugin'
+
+homepage = 'https://argocd-vault-plugin.readthedocs.io'
+repository = 'https://github.com/argoproj-labs/argocd-vault-plugin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argocd-vault-plugin'

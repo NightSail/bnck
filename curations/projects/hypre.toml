@@ -1,0 +1,8 @@
+id = 'hypre'
+name = 'hypre'
+
+homepage = 'https://github.com/hypre-space/hypre'
+
+[[package]]
+channel = 'arch'
+name = 'hypre'

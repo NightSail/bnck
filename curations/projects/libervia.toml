@@ -1,0 +1,16 @@
+id = 'libervia'
+name = 'libervia'
+
+homepage = 'https://libervia.org'
+
+[[package]]
+channel = 'debian'
+name = 'libervia-backend'
+
+[[package]]
+channel = 'debian'
+name = 'libervia-cli'
+
+[[package]]
+channel = 'debian'
+name = 'libervia-tui'

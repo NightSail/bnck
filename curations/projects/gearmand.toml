@@ -1,0 +1,12 @@
+id = 'gearmand'
+name = 'gearmand'
+
+homepage = 'http://launchpad.net/gearmand'
+
+[[package]]
+channel = 'debian'
+name = 'gearman-job-server'
+
+[[package]]
+channel = 'debian'
+name = 'gearman-tools'

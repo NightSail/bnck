@@ -1,0 +1,8 @@
+id = 'k3guitune'
+name = 'k3guitune'
+
+homepage = 'http://home.planet.nl/~lamer024/k3guitune.html'
+
+[[package]]
+channel = 'fedora'
+name = 'k3guitune'

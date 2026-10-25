@@ -1,0 +1,8 @@
+id = 'go-dqlite'
+name = 'go-dqlite'
+
+homepage = 'https://github.com/canonical/go-dqlite'
+
+[[package]]
+channel = 'debian'
+name = 'go-dqlite'

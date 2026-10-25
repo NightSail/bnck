@@ -1,0 +1,8 @@
+id = 'slacknimate'
+name = 'slacknimate'
+
+repository = 'https://github.com/mroth/slacknimate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slacknimate'

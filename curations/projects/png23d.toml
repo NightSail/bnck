@@ -1,0 +1,8 @@
+id = 'png23d'
+name = 'png23d'
+
+homepage = 'https://github.com/kyllikki/png23d'
+
+[[package]]
+channel = 'debian'
+name = 'png23d'

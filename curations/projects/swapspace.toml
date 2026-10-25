@@ -1,0 +1,8 @@
+id = 'swapspace'
+name = 'swapspace'
+
+homepage = 'https://github.com/Tookmund/Swapspace'
+
+[[package]]
+channel = 'debian'
+name = 'swapspace'

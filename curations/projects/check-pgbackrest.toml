@@ -1,0 +1,8 @@
+id = 'check-pgbackrest'
+name = 'check-pgbackrest'
+
+homepage = 'https://github.com/pgstef/check_pgbackrest'
+
+[[package]]
+channel = 'debian'
+name = 'check-pgbackrest'

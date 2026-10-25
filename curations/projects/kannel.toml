@@ -1,0 +1,12 @@
+id = 'kannel'
+name = 'kannel'
+
+homepage = 'https://www.kannel.org'
+
+[[package]]
+channel = 'debian'
+name = 'kannel'
+
+[[package]]
+channel = 'debian'
+name = 'kannel-dev'

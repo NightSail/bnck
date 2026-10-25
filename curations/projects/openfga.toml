@@ -1,0 +1,9 @@
+id = 'openfga'
+name = 'openfga'
+
+homepage = 'https://openfga.dev'
+repository = 'https://github.com/openfga/openfga.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openfga'

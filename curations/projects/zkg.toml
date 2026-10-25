@@ -1,0 +1,8 @@
+id = 'zkg'
+name = 'zkg'
+
+homepage = 'https://docs.zeek.org/projects/package-manager'
+
+[[package]]
+channel = 'debian'
+name = 'zkg'

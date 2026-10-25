@@ -1,0 +1,8 @@
+id = 'abc'
+name = 'abc'
+
+homepage = 'https://github.com/berkeley-abc/abc'
+
+[[package]]
+channel = 'arch'
+name = 'abc'

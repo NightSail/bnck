@@ -1,0 +1,8 @@
+id = 'wraplinux'
+name = 'wraplinux'
+
+homepage = 'https://cdn.kernel.org/pub/linux/utils/boot/wraplinux'
+
+[[package]]
+channel = 'debian'
+name = 'wraplinux'

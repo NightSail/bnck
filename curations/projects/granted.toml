@@ -1,0 +1,9 @@
+id = 'granted'
+name = 'granted'
+
+homepage = 'https://granted.dev'
+repository = 'https://github.com/fwdcloudsec/granted.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/granted'

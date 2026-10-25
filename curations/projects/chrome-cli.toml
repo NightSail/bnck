@@ -1,0 +1,8 @@
+id = 'chrome-cli'
+name = 'chrome-cli'
+
+repository = 'https://github.com/prasmussen/chrome-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chrome-cli'

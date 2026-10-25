@@ -1,0 +1,8 @@
+id = 'artemis'
+name = 'artemis'
+
+homepage = 'https://sanger-pathogens.github.io/Artemis/Artemis'
+
+[[package]]
+channel = 'debian'
+name = 'artemis'

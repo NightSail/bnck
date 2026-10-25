@@ -1,0 +1,32 @@
+id = 'virt-manager-virt-manager'
+name = 'virt-manager'
+
+homepage = 'https://virt-manager.org'
+
+[[package]]
+channel = 'arch'
+name = 'virt-install'
+
+[[package]]
+channel = 'arch'
+name = 'virt-manager'
+
+[[package]]
+channel = 'debian'
+name = 'virt-install'
+
+[[package]]
+channel = 'debian'
+name = 'virt-manager'
+
+[[package]]
+channel = 'debian'
+name = 'virt-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-install'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-manager'

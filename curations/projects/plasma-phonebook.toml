@@ -1,0 +1,12 @@
+id = 'plasma-phonebook'
+name = 'plasma-phonebook'
+
+homepage = 'https://invent.kde.org/plasma-mobile/plasma-phonebook'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-phonebook'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-phonebook'

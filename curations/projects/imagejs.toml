@@ -1,0 +1,8 @@
+id = 'imagejs'
+name = 'imagejs'
+
+repository = 'https://github.com/jklmnn/imagejs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imagejs'

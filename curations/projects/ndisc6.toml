@@ -1,0 +1,20 @@
+id = 'ndisc6'
+name = 'ndisc6'
+
+homepage = 'https://www.remlab.net/ndisc6'
+
+[[package]]
+channel = 'arch'
+name = 'ndisc6'
+
+[[package]]
+channel = 'debian'
+name = 'ndisc6'
+
+[[package]]
+channel = 'debian'
+name = 'rdnssd'
+
+[[package]]
+channel = 'fedora'
+name = 'ndisc6'

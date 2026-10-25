@@ -1,0 +1,12 @@
+id = 'gnujump'
+name = 'gnujump'
+
+homepage = 'http://gnujump.es.gnu.org'
+
+[[package]]
+channel = 'arch'
+name = 'gnujump'
+
+[[package]]
+channel = 'fedora'
+name = 'gnujump'

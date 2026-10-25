@@ -1,0 +1,8 @@
+id = 'perl-unicode-map'
+name = 'perl-Unicode-Map'
+
+homepage = 'https://metacpan.org/release/Unicode-Map'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Unicode-Map'

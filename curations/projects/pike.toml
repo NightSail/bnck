@@ -1,0 +1,12 @@
+id = 'pike'
+name = 'pike'
+
+homepage = 'https://pike.lysator.liu.se'
+
+[[package]]
+channel = 'debian'
+name = 'pike8.0-core'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pike'

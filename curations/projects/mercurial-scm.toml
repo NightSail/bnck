@@ -1,0 +1,28 @@
+id = 'mercurial-scm'
+name = 'mercurial-scm'
+
+homepage = 'https://mercurial-scm.org'
+
+[[package]]
+channel = 'arch'
+name = 'mercurial'
+
+[[package]]
+channel = 'debian'
+name = 'mercurial'
+
+[[package]]
+channel = 'debian'
+name = 'mercurial-common'
+
+[[package]]
+channel = 'fedora'
+name = 'mercurial'
+
+[[package]]
+channel = 'fedora'
+name = 'mercurial-chg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mercurial'

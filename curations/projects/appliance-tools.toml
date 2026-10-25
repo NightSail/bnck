@@ -1,0 +1,8 @@
+id = 'appliance-tools'
+name = 'appliance-tools'
+
+homepage = 'https://pagure.io/appliance-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'appliance-tools'

@@ -1,0 +1,8 @@
+id = 'speed-dreams'
+name = 'speed-dreams'
+
+homepage = 'https://www.speed-dreams.net'
+
+[[package]]
+channel = 'fedora'
+name = 'speed-dreams'

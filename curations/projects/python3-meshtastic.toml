@@ -1,0 +1,8 @@
+id = 'python3-meshtastic'
+name = 'python3-meshtastic'
+
+homepage = 'https://github.com/meshtastic/Meshtastic-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-meshtastic'

@@ -1,0 +1,20 @@
+id = 'ffmpegthumbnailer'
+name = 'ffmpegthumbnailer'
+
+repository = 'https://github.com/dirkvdb/ffmpegthumbnailer.git'
+
+[[package]]
+channel = 'arch'
+name = 'ffmpegthumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'ffmpegthumbnailer'
+
+[[package]]
+channel = 'fedora'
+name = 'ffmpegthumbnailer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpegthumbnailer'

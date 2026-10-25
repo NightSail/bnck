@@ -1,0 +1,8 @@
+id = 'cmdshelf'
+name = 'cmdshelf'
+
+homepage = 'https://github.com/toshi0383/cmdshelf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmdshelf'

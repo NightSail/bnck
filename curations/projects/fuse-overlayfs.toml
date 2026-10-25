@@ -1,0 +1,20 @@
+id = 'fuse-overlayfs'
+name = 'fuse-overlayfs'
+
+homepage = 'https://github.com/containers/fuse-overlayfs'
+
+[[package]]
+channel = 'arch'
+name = 'fuse-overlayfs'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-overlayfs'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-overlayfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fuse-overlayfs'

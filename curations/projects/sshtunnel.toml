@@ -1,0 +1,16 @@
+id = 'sshtunnel'
+name = 'sshtunnel'
+
+homepage = 'https://github.com/pahaz/sshtunnel'
+
+[[package]]
+channel = 'arch'
+name = 'sshtunnel'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sshtunnel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sshtunnel'

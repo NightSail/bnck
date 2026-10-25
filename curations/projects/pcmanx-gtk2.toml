@@ -1,0 +1,8 @@
+id = 'pcmanx-gtk2'
+name = 'pcmanx-gtk2'
+
+homepage = 'https://github.com/pcman-bbs/pcmanx'
+
+[[package]]
+channel = 'fedora'
+name = 'pcmanx-gtk2'

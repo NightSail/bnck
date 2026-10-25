@@ -1,0 +1,8 @@
+id = 'perl-dbix-runsql'
+name = 'perl-DBIx-RunSQL'
+
+homepage = 'https://metacpan.org/release/DBIx-RunSQL'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBIx-RunSQL'

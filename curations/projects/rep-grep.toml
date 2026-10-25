@@ -1,0 +1,8 @@
+id = 'rep-grep'
+name = 'rep-grep'
+
+repository = 'https://github.com/robenkleene/rep-grep.git'
+
+[[package]]
+channel = 'crates.io'
+name = 'rep-grep'

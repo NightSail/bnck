@@ -1,0 +1,8 @@
+id = 'nuxi'
+name = 'nuxi'
+
+repository = 'https://github.com/nuxt/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuxi'

@@ -1,0 +1,8 @@
+id = 'ttysvr'
+name = 'ttysvr'
+
+homepage = 'https://github.com/cxreiff/ttysvr'
+
+[[package]]
+channel = 'arch'
+name = 'ttysvr'

@@ -1,0 +1,12 @@
+id = 'request-tracker'
+name = 'request-tracker'
+
+homepage = 'https://bestpractical.com/request-tracker'
+
+[[package]]
+channel = 'fedora'
+name = 'rt'
+
+[[package]]
+channel = 'fedora'
+name = 'rt-mailgate'

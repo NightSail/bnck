@@ -1,0 +1,9 @@
+id = 'kubevela'
+name = 'kubevela'
+
+homepage = 'https://kubevela.io'
+repository = 'https://github.com/kubevela/kubevela.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubevela'

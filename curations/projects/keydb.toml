@@ -1,0 +1,12 @@
+id = 'keydb'
+name = 'keydb'
+
+homepage = 'https://keydb.dev'
+
+[[package]]
+channel = 'fedora'
+name = 'keydb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keydb'

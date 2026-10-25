@@ -1,0 +1,16 @@
+id = 'nokogiri'
+name = 'nokogiri'
+
+homepage = 'https://nokogiri.org'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-nokogiri'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-nokogiri'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-nokogiri'

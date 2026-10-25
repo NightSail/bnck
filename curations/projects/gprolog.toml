@@ -1,0 +1,12 @@
+id = 'gprolog'
+name = 'gprolog'
+
+homepage = 'http://www.gprolog.org'
+
+[[package]]
+channel = 'fedora'
+name = 'gprolog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-prolog'

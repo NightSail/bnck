@@ -1,0 +1,8 @@
+id = 'shmux'
+name = 'shmux'
+
+homepage = 'https://github.com/shmux/shmux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shmux'

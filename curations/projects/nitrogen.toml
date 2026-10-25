@@ -1,0 +1,12 @@
+id = 'nitrogen'
+name = 'nitrogen'
+
+homepage = 'http://projects.l3ib.org/nitrogen'
+
+[[package]]
+channel = 'debian'
+name = 'nitrogen'
+
+[[package]]
+channel = 'fedora'
+name = 'nitrogen'

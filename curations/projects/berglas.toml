@@ -1,0 +1,8 @@
+id = 'berglas'
+name = 'berglas'
+
+repository = 'https://github.com/GoogleCloudPlatform/berglas.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/berglas'

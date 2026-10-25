@@ -1,0 +1,8 @@
+id = 'golang-github-cucumber-godog'
+name = 'golang-github-cucumber-godog'
+
+homepage = 'https://github.com/cucumber/godog'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cucumber-godog'

@@ -1,0 +1,16 @@
+id = 'base58'
+name = 'base58'
+
+homepage = 'https://github.com/keis/base58'
+
+[[package]]
+channel = 'arch'
+name = 'python-base58'
+
+[[package]]
+channel = 'debian'
+name = 'base58'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-base58'

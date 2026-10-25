@@ -4,7 +4,15 @@ name = 'rbw'
 repository = 'https://github.com/doy/rbw'
 
 [[package]]
+channel = 'arch'
+name = 'rbw'
+
+[[package]]
 channel = 'debian'
+name = 'rbw'
+
+[[package]]
+channel = 'fedora'
 name = 'rbw'
 
 [[package]]

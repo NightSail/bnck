@@ -1,0 +1,20 @@
+id = 'libwnck'
+name = 'libwnck'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libwnck'
+
+[[package]]
+channel = 'arch'
+name = 'libwnck3'
+
+[[package]]
+channel = 'debian'
+name = 'libwnck-3-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libwnck3'
+
+[[package]]
+channel = 'fedora'
+name = 'libwnck3-devel'

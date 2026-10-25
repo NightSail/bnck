@@ -1,0 +1,8 @@
+id = 'python3-macsylib'
+name = 'python3-macsylib'
+
+homepage = 'https://github.com/gem-pasteur/macsylib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-macsylib'

@@ -1,0 +1,24 @@
+id = 'taskwarrior'
+name = 'taskwarrior'
+
+homepage = 'https://taskwarrior.org'
+
+[[package]]
+channel = 'arch'
+name = 'task'
+
+[[package]]
+channel = 'debian'
+name = 'taskwarrior'
+
+[[package]]
+channel = 'fedora'
+name = 'task'
+
+[[package]]
+channel = 'fedora'
+name = 'task2'
+
+[[package]]
+channel = 'fedora'
+name = 'tasksh'

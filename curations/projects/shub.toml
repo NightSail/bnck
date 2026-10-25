@@ -1,0 +1,9 @@
+id = 'shub'
+name = 'shub'
+
+homepage = 'https://shub.readthedocs.io/en/latest'
+repository = 'https://github.com/scrapinghub/shub.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shub'

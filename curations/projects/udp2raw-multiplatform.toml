@@ -1,0 +1,8 @@
+id = 'udp2raw-multiplatform'
+name = 'udp2raw-multiplatform'
+
+homepage = 'https://github.com/wangyu-/udp2raw-multiplatform'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/udp2raw-multiplatform'

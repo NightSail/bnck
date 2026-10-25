@@ -1,0 +1,8 @@
+id = 'nodebrew'
+name = 'nodebrew'
+
+repository = 'https://github.com/hokaccha/nodebrew.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nodebrew'

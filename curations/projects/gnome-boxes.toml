@@ -1,0 +1,16 @@
+id = 'gnome-boxes'
+name = 'gnome-boxes'
+
+homepage = 'https://apps.gnome.org/Boxes'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-boxes'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-boxes'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-boxes'

@@ -1,0 +1,24 @@
+id = 'selinux-selinuxproject'
+name = 'selinux'
+
+homepage = 'https://github.com/SELinuxProject/selinux/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'secilc'
+
+[[package]]
+channel = 'fedora'
+name = 'libselinux-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libsepol-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mcstrans'
+
+[[package]]
+channel = 'fedora'
+name = 'secilc'

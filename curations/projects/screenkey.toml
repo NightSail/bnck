@@ -1,0 +1,16 @@
+id = 'screenkey'
+name = 'screenkey'
+
+homepage = 'https://www.thregr.org/~wavexx/software/screenkey'
+
+[[package]]
+channel = 'arch'
+name = 'screenkey'
+
+[[package]]
+channel = 'debian'
+name = 'screenkey'
+
+[[package]]
+channel = 'fedora'
+name = 'screenkey'

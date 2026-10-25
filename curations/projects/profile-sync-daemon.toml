@@ -1,0 +1,12 @@
+id = 'profile-sync-daemon'
+name = 'profile-sync-daemon'
+
+homepage = 'https://github.com/graysky2/profile-sync-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'profile-sync-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'profile-sync-daemon'

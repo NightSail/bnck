@@ -1,0 +1,12 @@
+id = 'menhir'
+name = 'menhir'
+
+homepage = 'https://gallium.inria.fr/~fpottier/menhir'
+
+[[package]]
+channel = 'debian'
+name = 'menhir'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-menhir'

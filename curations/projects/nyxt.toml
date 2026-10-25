@@ -1,0 +1,8 @@
+id = 'nyxt'
+name = 'nyxt'
+
+homepage = 'https://nyxt.atlas.engineer'
+
+[[package]]
+channel = 'arch'
+name = 'nyxt'

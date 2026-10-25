@@ -1,0 +1,16 @@
+id = 'ptunnel'
+name = 'ptunnel'
+
+homepage = 'https://www.cs.uit.no/~daniels/PingTunnel'
+
+[[package]]
+channel = 'arch'
+name = 'ptunnel'
+
+[[package]]
+channel = 'debian'
+name = 'ptunnel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ptunnel'

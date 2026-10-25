@@ -1,0 +1,12 @@
+id = 'ccal'
+name = 'ccal'
+
+homepage = 'https://ccal.chinesebay.com/ccal/ccal.htm'
+
+[[package]]
+channel = 'debian'
+name = 'ccal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccal'

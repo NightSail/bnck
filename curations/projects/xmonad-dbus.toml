@@ -1,0 +1,8 @@
+id = 'xmonad-dbus'
+name = 'xmonad-dbus'
+
+homepage = 'https://github.com/troydm/xmonad-dbus'
+
+[[package]]
+channel = 'arch'
+name = 'xmonad-dbus'

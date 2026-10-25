@@ -1,0 +1,9 @@
+id = 'open-code-review'
+name = 'open-code-review'
+
+homepage = 'https://open-codereview.ai'
+repository = 'https://github.com/alibaba/open-code-review.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-code-review'

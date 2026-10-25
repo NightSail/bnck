@@ -1,0 +1,8 @@
+id = 'quictls'
+name = 'quictls'
+
+homepage = 'https://github.com/quictls/openssl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quictls'

@@ -1,0 +1,9 @@
+id = 'libbladerf'
+name = 'libbladerf'
+
+homepage = 'https://nuand.com'
+repository = 'https://github.com/Nuand/bladeRF.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libbladerf'

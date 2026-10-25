@@ -1,0 +1,24 @@
+id = 'libcaca'
+name = 'libcaca'
+
+homepage = 'http://caca.zoy.org/wiki/libcaca'
+
+[[package]]
+channel = 'arch'
+name = 'libcaca'
+
+[[package]]
+channel = 'debian'
+name = 'caca-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libcaca-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'caca-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libcaca-devel'

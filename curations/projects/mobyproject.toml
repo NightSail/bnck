@@ -1,0 +1,12 @@
+id = 'mobyproject'
+name = 'mobyproject'
+
+homepage = 'https://mobyproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'docker-cli'
+
+[[package]]
+channel = 'debian'
+name = 'docker.io'

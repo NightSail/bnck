@@ -1,0 +1,8 @@
+id = 'whalebuilder'
+name = 'whalebuilder'
+
+homepage = 'https://www.uhoreg.ca/programming/debian/whalebuilder'
+
+[[package]]
+channel = 'debian'
+name = 'whalebuilder'

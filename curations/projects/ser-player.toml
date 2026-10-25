@@ -1,0 +1,8 @@
+id = 'ser-player'
+name = 'ser-player'
+
+homepage = 'https://github.com/cgarry/ser-player'
+
+[[package]]
+channel = 'debian'
+name = 'ser-player'

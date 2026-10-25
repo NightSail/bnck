@@ -1,0 +1,8 @@
+id = 'qmapshack-maproom'
+name = 'qmapshack'
+
+homepage = 'https://github.com/Maproom/qmapshack'
+
+[[package]]
+channel = 'arch'
+name = 'qmapshack'

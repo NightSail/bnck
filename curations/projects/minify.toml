@@ -1,0 +1,12 @@
+id = 'minify'
+name = 'minify'
+
+homepage = 'https://github.com/tdewolff/minify'
+
+[[package]]
+channel = 'debian'
+name = 'minify'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-tdewolff-minify'

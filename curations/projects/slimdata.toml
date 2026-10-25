@@ -1,0 +1,8 @@
+id = 'slimdata'
+name = 'slimdata'
+
+homepage = 'http://slimdata.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'slimdata'

@@ -1,0 +1,9 @@
+id = 'surfer'
+name = 'surfer'
+
+homepage = 'https://surfer-project.org'
+repository = 'https://gitlab.com/surfer-project/surfer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/surfer'

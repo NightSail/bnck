@@ -1,0 +1,8 @@
+id = 'hbase'
+name = 'hbase'
+
+homepage = 'https://hbase.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hbase'

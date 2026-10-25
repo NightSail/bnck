@@ -1,0 +1,8 @@
+id = 'autoradio'
+name = 'autoradio'
+
+homepage = 'https://github.com/pat1/autoradio'
+
+[[package]]
+channel = 'debian'
+name = 'autoradio'

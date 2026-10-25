@@ -1,0 +1,8 @@
+id = 'bash-completion'
+name = 'bash-completion'
+
+homepage = 'https://github.com/scop/bash-completion'
+
+[[package]]
+channel = 'debian'
+name = 'bash-completion'

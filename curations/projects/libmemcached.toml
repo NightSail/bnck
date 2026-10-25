@@ -1,0 +1,8 @@
+id = 'libmemcached'
+name = 'libmemcached'
+
+homepage = 'https://libmemcached.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmemcached'

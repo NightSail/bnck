@@ -1,0 +1,8 @@
+id = 'calligrastage'
+name = 'calligrastage'
+
+homepage = 'https://www.calligra.org/stage'
+
+[[package]]
+channel = 'debian'
+name = 'calligrastage'

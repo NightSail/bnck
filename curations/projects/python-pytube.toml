@@ -1,0 +1,8 @@
+id = 'python-pytube'
+name = 'python-pytube'
+
+homepage = 'https://github.com/pytube/pytube'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytube'

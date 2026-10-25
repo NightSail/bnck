@@ -1,0 +1,6 @@
+id = 'gmpc'
+name = 'gmpc'
+
+[[package]]
+channel = 'debian'
+name = 'gmpc'

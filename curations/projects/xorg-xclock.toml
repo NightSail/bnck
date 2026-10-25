@@ -1,0 +1,8 @@
+id = 'xorg-xclock'
+name = 'xorg-xclock'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xclock'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xclock'

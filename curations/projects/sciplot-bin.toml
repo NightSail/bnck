@@ -1,0 +1,8 @@
+id = 'sciplot-bin'
+name = 'sciplot-bin'
+
+homepage = 'https://github.com/barak/sciplot'
+
+[[package]]
+channel = 'debian'
+name = 'sciplot-bin'

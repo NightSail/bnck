@@ -1,0 +1,12 @@
+id = 'anytun'
+name = 'anytun'
+
+homepage = 'http://www.anytun.org'
+
+[[package]]
+channel = 'debian'
+name = 'anytun'
+
+[[package]]
+channel = 'debian'
+name = 'uanytun'

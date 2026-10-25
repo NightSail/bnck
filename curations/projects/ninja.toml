@@ -1,0 +1,9 @@
+id = 'ninja'
+name = 'ninja'
+
+homepage = 'https://ninja-build.org'
+repository = 'https://github.com/ninja-build/ninja.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ninja'

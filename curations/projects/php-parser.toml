@@ -1,0 +1,20 @@
+id = 'php-parser'
+name = 'php-parser'
+
+homepage = 'https://github.com/nikic/PHP-Parser'
+
+[[package]]
+channel = 'debian'
+name = 'php-parser'
+
+[[package]]
+channel = 'fedora'
+name = 'php-nikic-php-parser3'
+
+[[package]]
+channel = 'fedora'
+name = 'php-nikic-php-parser4'
+
+[[package]]
+channel = 'fedora'
+name = 'php-nikic-php-parser5'

@@ -1,0 +1,9 @@
+id = 'comrak'
+name = 'comrak'
+
+homepage = 'https://comrak.ee'
+repository = 'https://github.com/kivikakk/comrak.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/comrak'

@@ -1,0 +1,21 @@
+id = 'gpsim'
+name = 'gpsim'
+
+homepage = 'http://gpsim.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/gpsim/code/trunk'
+
+[[package]]
+channel = 'arch'
+name = 'gpsim'
+
+[[package]]
+channel = 'debian'
+name = 'gpsim'
+
+[[package]]
+channel = 'fedora'
+name = 'gpsim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpsim'

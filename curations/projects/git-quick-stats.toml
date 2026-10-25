@@ -1,0 +1,12 @@
+id = 'git-quick-stats'
+name = 'git-quick-stats'
+
+homepage = 'https://git-quick-stats.sh'
+
+[[package]]
+channel = 'debian'
+name = 'git-quick-stats'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-quick-stats'

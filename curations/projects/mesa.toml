@@ -1,0 +1,9 @@
+id = 'mesa'
+name = 'mesa'
+
+homepage = 'https://www.mesa3d.org'
+repository = 'https://gitlab.freedesktop.org/mesa/mesa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mesa'

@@ -1,0 +1,16 @@
+id = 'pyliblo3'
+name = 'pyliblo3'
+
+homepage = 'https://github.com/gesellkammer/pyliblo3'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyliblo3'
+
+[[package]]
+channel = 'debian'
+name = 'pyliblo-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyliblo3'

@@ -1,0 +1,168 @@
+id = 'ceph'
+name = 'ceph'
+
+homepage = 'http://ceph.com'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-base'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-common'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-immutable-object-cache'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-mds'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-mgr'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-mon'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-osd'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-test'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-volume'
+
+[[package]]
+channel = 'debian'
+name = 'cephadm'
+
+[[package]]
+channel = 'debian'
+name = 'cephfs-mirror'
+
+[[package]]
+channel = 'debian'
+name = 'cephfs-shell'
+
+[[package]]
+channel = 'debian'
+name = 'cephfs-top'
+
+[[package]]
+channel = 'debian'
+name = 'libcephfs-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'librados-dev'
+
+[[package]]
+channel = 'debian'
+name = 'radosgw'
+
+[[package]]
+channel = 'debian'
+name = 'rbd-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'rbd-mirror'
+
+[[package]]
+channel = 'debian'
+name = 'rbd-nbd'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-base'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-common'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-immutable-object-cache'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-mds'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-mgr'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-mon'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-node-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-osd'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-radosgw'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-test'
+
+[[package]]
+channel = 'fedora'
+name = 'ceph-volume'
+
+[[package]]
+channel = 'fedora'
+name = 'cephadm'
+
+[[package]]
+channel = 'fedora'
+name = 'cephfs-mirror'
+
+[[package]]
+channel = 'fedora'
+name = 'cephfs-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'cephfs-top'
+
+[[package]]
+channel = 'fedora'
+name = 'librados-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'rbd-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'rbd-mirror'
+
+[[package]]
+channel = 'fedora'
+name = 'rbd-nbd'

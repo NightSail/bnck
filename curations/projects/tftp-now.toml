@@ -1,0 +1,8 @@
+id = 'tftp-now'
+name = 'tftp-now'
+
+repository = 'https://github.com/puhitaku/tftp-now.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tftp-now'

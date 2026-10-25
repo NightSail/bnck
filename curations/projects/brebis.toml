@@ -1,0 +1,8 @@
+id = 'brebis'
+name = 'brebis'
+
+homepage = 'http://www.brebisproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'brebis'

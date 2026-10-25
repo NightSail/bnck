@@ -1,0 +1,16 @@
+id = 'rzip'
+name = 'rzip'
+
+homepage = 'https://rzip.samba.org'
+
+[[package]]
+channel = 'debian'
+name = 'rzip'
+
+[[package]]
+channel = 'fedora'
+name = 'rzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rzip'

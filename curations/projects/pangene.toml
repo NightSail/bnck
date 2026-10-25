@@ -1,0 +1,8 @@
+id = 'pangene'
+name = 'pangene'
+
+repository = 'https://github.com/lh3/pangene.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pangene'

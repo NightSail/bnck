@@ -1,0 +1,12 @@
+id = 'planner'
+name = 'planner'
+
+homepage = 'https://wiki.gnome.org/Apps/Planner'
+
+[[package]]
+channel = 'arch'
+name = 'planner'
+
+[[package]]
+channel = 'debian'
+name = 'planner'

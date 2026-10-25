@@ -1,0 +1,52 @@
+id = 'netcdf'
+name = 'netcdf'
+
+homepage = 'https://www.unidata.ucar.edu/software/netcdf'
+
+[[package]]
+channel = 'arch'
+name = 'netcdf'
+
+[[package]]
+channel = 'arch'
+name = 'netcdf-openmpi'
+
+[[package]]
+channel = 'debian'
+name = 'libnetcdf-c++4-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libnetcdf-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libnetcdff-dev'
+
+[[package]]
+channel = 'debian'
+name = 'netcdf-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'netcdf'
+
+[[package]]
+channel = 'fedora'
+name = 'netcdf-cxx4-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'netcdf-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'netcdf-fortran-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netcdf-cxx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netcdf-fortran'

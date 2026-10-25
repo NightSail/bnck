@@ -1,0 +1,21 @@
+id = 'clazy'
+name = 'clazy'
+
+homepage = 'https://www.kdab.com'
+repository = 'https://invent.kde.org/sdk/clazy.git'
+
+[[package]]
+channel = 'arch'
+name = 'clazy'
+
+[[package]]
+channel = 'debian'
+name = 'clazy'
+
+[[package]]
+channel = 'fedora'
+name = 'clazy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clazy'

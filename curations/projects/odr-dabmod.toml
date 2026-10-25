@@ -1,0 +1,8 @@
+id = 'odr-dabmod'
+name = 'odr-dabmod'
+
+homepage = 'https://www.opendigitalradio.org/mmbtools'
+
+[[package]]
+channel = 'debian'
+name = 'odr-dabmod'

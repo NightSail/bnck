@@ -1,0 +1,12 @@
+id = 'magic'
+name = 'magic'
+
+homepage = 'http://opencircuitdesign.com/magic/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'magic'
+
+[[package]]
+channel = 'fedora'
+name = 'magic'

@@ -1,0 +1,6 @@
+id = 'innduct'
+name = 'innduct'
+
+[[package]]
+channel = 'debian'
+name = 'innduct'

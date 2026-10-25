@@ -1,0 +1,8 @@
+id = 'lomiri-dialer-app'
+name = 'lomiri-dialer-app'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-dialer-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-dialer-app'

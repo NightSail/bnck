@@ -1,0 +1,36 @@
+id = 'smlnj'
+name = 'smlnj'
+
+homepage = 'https://www.smlnj.org'
+
+[[package]]
+channel = 'arch'
+name = 'smlnj'
+
+[[package]]
+channel = 'debian'
+name = 'ml-burg'
+
+[[package]]
+channel = 'debian'
+name = 'ml-lex'
+
+[[package]]
+channel = 'debian'
+name = 'ml-lpt'
+
+[[package]]
+channel = 'debian'
+name = 'ml-nlffigen'
+
+[[package]]
+channel = 'debian'
+name = 'ml-yacc'
+
+[[package]]
+channel = 'debian'
+name = 'nowhere'
+
+[[package]]
+channel = 'debian'
+name = 'smlnj'

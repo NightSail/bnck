@@ -1,0 +1,8 @@
+id = 'haskell-dav'
+name = 'haskell-dav'
+
+homepage = 'http://floss.scru.org/hDAV'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-dav'

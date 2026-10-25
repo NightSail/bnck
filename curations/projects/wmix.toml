@@ -1,0 +1,8 @@
+id = 'wmix'
+name = 'wmix'
+
+homepage = 'https://www.dockapps.net/wmix'
+
+[[package]]
+channel = 'debian'
+name = 'wmix'

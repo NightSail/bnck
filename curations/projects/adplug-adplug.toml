@@ -1,0 +1,9 @@
+id = 'adplug-adplug'
+name = 'adplug'
+
+homepage = 'https://adplug.github.io'
+repository = 'https://github.com/adplug/adplug.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adplug'

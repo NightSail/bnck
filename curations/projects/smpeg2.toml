@@ -1,0 +1,9 @@
+id = 'smpeg2'
+name = 'smpeg2'
+
+homepage = 'https://icculus.org/smpeg'
+repository = 'https://github.com/icculus/smpeg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smpeg2'

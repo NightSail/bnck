@@ -1,0 +1,8 @@
+id = 'chunkfs'
+name = 'chunkfs'
+
+homepage = 'https://chunkfs.florz.de'
+
+[[package]]
+channel = 'fedora'
+name = 'chunkfs'

@@ -1,0 +1,16 @@
+id = 'ocproxy'
+name = 'ocproxy'
+
+repository = 'https://github.com/cernekee/ocproxy.git'
+
+[[package]]
+channel = 'debian'
+name = 'ocproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'ocproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocproxy'

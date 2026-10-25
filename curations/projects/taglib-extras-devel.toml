@@ -1,0 +1,8 @@
+id = 'taglib-extras-devel'
+name = 'taglib-extras-devel'
+
+homepage = 'http://websvn.kde.org/trunk/kdesupport/taglib-extras'
+
+[[package]]
+channel = 'fedora'
+name = 'taglib-extras-devel'

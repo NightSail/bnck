@@ -1,0 +1,12 @@
+id = 'scamp'
+name = 'scamp'
+
+homepage = 'https://www.astromatic.net/software/scamp'
+
+[[package]]
+channel = 'debian'
+name = 'scamp'
+
+[[package]]
+channel = 'fedora'
+name = 'scamp'

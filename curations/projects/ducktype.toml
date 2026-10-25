@@ -1,0 +1,8 @@
+id = 'ducktype'
+name = 'ducktype'
+
+homepage = 'https://github.com/projectmallard/mallard-ducktype'
+
+[[package]]
+channel = 'debian'
+name = 'ducktype'

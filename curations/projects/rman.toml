@@ -1,0 +1,8 @@
+id = 'rman'
+name = 'rman'
+
+homepage = 'http://sourceforge.net/projects/polyglotman'
+
+[[package]]
+channel = 'debian'
+name = 'rman'

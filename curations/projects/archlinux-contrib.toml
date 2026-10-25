@@ -1,0 +1,8 @@
+id = 'archlinux-contrib'
+name = 'archlinux-contrib'
+
+homepage = 'https://github.com/archlinux/contrib'
+
+[[package]]
+channel = 'arch'
+name = 'archlinux-contrib'

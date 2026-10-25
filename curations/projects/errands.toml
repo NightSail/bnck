@@ -1,0 +1,12 @@
+id = 'errands'
+name = 'errands'
+
+homepage = 'https://apps.gnome.org/List'
+
+[[package]]
+channel = 'arch'
+name = 'errands'
+
+[[package]]
+channel = 'debian'
+name = 'errands'

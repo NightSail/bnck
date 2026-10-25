@@ -1,0 +1,8 @@
+id = 'ruby-qed'
+name = 'ruby-qed'
+
+homepage = 'https://github.com/rubyworks/qed'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-qed'

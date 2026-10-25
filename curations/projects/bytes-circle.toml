@@ -1,0 +1,8 @@
+id = 'bytes-circle'
+name = 'bytes-circle'
+
+homepage = 'https://circulosmeos.wordpress.com/2015/10/10/statistics-circle-for-analysing-byte-entropy-in-files'
+
+[[package]]
+channel = 'debian'
+name = 'bytes-circle'

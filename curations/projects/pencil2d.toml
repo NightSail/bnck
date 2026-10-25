@@ -1,0 +1,16 @@
+id = 'pencil2d'
+name = 'Pencil2D'
+
+homepage = 'https://www.pencil2d.org'
+
+[[package]]
+channel = 'arch'
+name = 'pencil2d'
+
+[[package]]
+channel = 'debian'
+name = 'pencil2d'
+
+[[package]]
+channel = 'fedora'
+name = 'Pencil2D'

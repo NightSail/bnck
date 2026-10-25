@@ -1,0 +1,12 @@
+id = 'xtrkcad'
+name = 'xtrkcad'
+
+homepage = 'http://xtrkcad.org'
+
+[[package]]
+channel = 'debian'
+name = 'xtrkcad'
+
+[[package]]
+channel = 'fedora'
+name = 'xtrkcad'

@@ -1,0 +1,8 @@
+id = 'leaves'
+name = 'leaves'
+
+repository = 'https://github.com/patonw/leaves.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leaves'

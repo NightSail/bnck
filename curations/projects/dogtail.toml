@@ -1,0 +1,16 @@
+id = 'dogtail'
+name = 'dogtail'
+
+homepage = 'https://gitlab.com/dogtail/dogtail'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dogtail'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dogtail2'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dogtail-scripts'

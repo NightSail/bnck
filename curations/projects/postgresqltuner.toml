@@ -1,0 +1,8 @@
+id = 'postgresqltuner'
+name = 'postgresqltuner'
+
+homepage = 'https://github.com/jfcoz/postgresqltuner'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresqltuner'

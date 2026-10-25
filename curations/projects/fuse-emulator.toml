@@ -1,0 +1,20 @@
+id = 'fuse-emulator'
+name = 'fuse-emulator'
+
+homepage = 'http://fuse-emulator.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-emulator-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-emulator-sdl'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-emulator-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-emulator'

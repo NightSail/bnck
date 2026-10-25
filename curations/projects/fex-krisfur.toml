@@ -1,0 +1,8 @@
+id = 'fex-krisfur'
+name = 'fex'
+
+repository = 'https://github.com/krisfur/fex'
+
+[[package]]
+channel = 'crates.io'
+name = 'fex'

@@ -1,0 +1,8 @@
+id = 'cowfortune'
+name = 'cowfortune'
+
+homepage = 'https://github.com/anthraxx/cowfortune'
+
+[[package]]
+channel = 'arch'
+name = 'cowfortune'

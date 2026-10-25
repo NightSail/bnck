@@ -1,0 +1,16 @@
+id = 'jsonpath-ng'
+name = 'jsonpath-ng'
+
+homepage = 'https://github.com/h2non/jsonpath-ng'
+
+[[package]]
+channel = 'arch'
+name = 'python-jsonpath-ng'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jsonpath-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jsonpath-ng'

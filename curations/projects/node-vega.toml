@@ -1,0 +1,8 @@
+id = 'node-vega'
+name = 'node-vega'
+
+homepage = 'https://github.com/vega/vega'
+
+[[package]]
+channel = 'debian'
+name = 'node-vega'

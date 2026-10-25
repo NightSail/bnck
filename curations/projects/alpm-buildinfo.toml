@@ -1,0 +1,8 @@
+id = 'alpm-buildinfo'
+name = 'alpm-buildinfo'
+
+homepage = 'https://alpm.archlinux.page/alpm-buildinfo/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-buildinfo'

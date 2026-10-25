@@ -1,0 +1,16 @@
+id = 'receptor'
+name = 'receptor'
+
+homepage = 'https://github.com/ansible/receptor'
+
+[[package]]
+channel = 'debian'
+name = 'python3-receptor-python-worker'
+
+[[package]]
+channel = 'debian'
+name = 'python3-receptorctl'
+
+[[package]]
+channel = 'debian'
+name = 'receptor'

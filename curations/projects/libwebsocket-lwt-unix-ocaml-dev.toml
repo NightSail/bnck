@@ -1,0 +1,8 @@
+id = 'libwebsocket-lwt-unix-ocaml-dev'
+name = 'libwebsocket-lwt-unix-ocaml-dev'
+
+homepage = 'https://github.com/vbmithr/ocaml-websocket'
+
+[[package]]
+channel = 'debian'
+name = 'libwebsocket-lwt-unix-ocaml-dev'

@@ -1,0 +1,8 @@
+id = 'gauth'
+name = 'gauth'
+
+repository = 'https://github.com/pcarrier/gauth.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gauth'

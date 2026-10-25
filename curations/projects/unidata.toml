@@ -1,0 +1,16 @@
+id = 'unidata'
+name = 'unidata'
+
+homepage = 'https://unidata.github.io/netcdf4-python'
+
+[[package]]
+channel = 'arch'
+name = 'python-netcdf4'
+
+[[package]]
+channel = 'arch'
+name = 'python-netcdf4-openmpi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-netcdf4'

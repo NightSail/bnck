@@ -1,0 +1,8 @@
+id = 'rigsync'
+name = 'rigsync'
+
+homepage = 'https://github.com/daveriesz/rigsync'
+
+[[package]]
+channel = 'fedora'
+name = 'rigsync'

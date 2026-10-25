@@ -1,0 +1,8 @@
+id = 'ufomerge'
+name = 'ufomerge'
+
+homepage = 'https://github.com/googlefonts/ufomerge'
+
+[[package]]
+channel = 'debian'
+name = 'ufomerge'

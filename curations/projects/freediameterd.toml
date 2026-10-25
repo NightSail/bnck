@@ -1,0 +1,8 @@
+id = 'freediameterd'
+name = 'freediameterd'
+
+homepage = 'https://www.freediameter.net/trac'
+
+[[package]]
+channel = 'debian'
+name = 'freediameterd'

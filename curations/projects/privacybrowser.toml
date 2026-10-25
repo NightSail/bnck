@@ -1,0 +1,8 @@
+id = 'privacybrowser'
+name = 'privacybrowser'
+
+homepage = 'https://www.stoutner.com/privacy-browser-pc'
+
+[[package]]
+channel = 'debian'
+name = 'privacybrowser'

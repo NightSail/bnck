@@ -1,0 +1,12 @@
+id = 'xfce4-clipman-plugin'
+name = 'xfce4-clipman-plugin'
+
+homepage = 'https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-clipman-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-clipman-plugin'

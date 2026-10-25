@@ -1,0 +1,8 @@
+id = 'faad2-faac'
+name = 'faad2'
+
+homepage = 'https://sourceforge.net/projects/faac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faad2'

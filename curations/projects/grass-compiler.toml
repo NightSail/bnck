@@ -1,0 +1,8 @@
+id = 'grass-compiler'
+name = 'grass-compiler'
+
+homepage = 'https://docs.rs/grass'
+
+[[package]]
+channel = 'fedora'
+name = 'grass-compiler'

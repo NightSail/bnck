@@ -1,0 +1,8 @@
+id = 'tinyscheme'
+name = 'tinyscheme'
+
+homepage = 'http://tinyscheme.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'tinyscheme'

@@ -1,0 +1,8 @@
+id = 'wmshutdown'
+name = 'wmshutdown'
+
+homepage = 'https://www.dockapps.net/wmshutdown'
+
+[[package]]
+channel = 'debian'
+name = 'wmshutdown'

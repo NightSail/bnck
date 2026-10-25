@@ -1,0 +1,16 @@
+id = 'evemu'
+name = 'evemu'
+
+homepage = 'https://www.freedesktop.org/wiki/Evemu'
+
+[[package]]
+channel = 'arch'
+name = 'evemu'
+
+[[package]]
+channel = 'debian'
+name = 'evemu-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'evemu'

@@ -1,0 +1,8 @@
+id = 'hashrat'
+name = 'hashrat'
+
+homepage = 'https://github.com/ColumPaget/Hashrat'
+
+[[package]]
+channel = 'debian'
+name = 'hashrat'

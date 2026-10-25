@@ -1,0 +1,8 @@
+id = 'redress'
+name = 'redress'
+
+repository = 'https://github.com/goretk/redress.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redress'

@@ -1,0 +1,8 @@
+id = 'python3-elastic-apm'
+name = 'python3-elastic-apm'
+
+homepage = 'https://github.com/elastic/apm-agent-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-elastic-apm'

@@ -1,0 +1,21 @@
+id = 'lowdown'
+name = 'lowdown'
+
+homepage = 'https://kristaps.bsd.lv/lowdown'
+repository = 'https://github.com/kristapsdz/lowdown.git'
+
+[[package]]
+channel = 'arch'
+name = 'lowdown'
+
+[[package]]
+channel = 'debian'
+name = 'lowdown'
+
+[[package]]
+channel = 'fedora'
+name = 'lowdown'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lowdown'

@@ -1,0 +1,9 @@
+id = 'the-silver-searcher-ggreer'
+name = 'the_silver_searcher'
+
+homepage = 'https://geoff.greer.fm/ag'
+repository = 'https://github.com/ggreer/the_silver_searcher.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/the_silver_searcher'

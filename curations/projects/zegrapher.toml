@@ -1,0 +1,12 @@
+id = 'zegrapher'
+name = 'zegrapher'
+
+homepage = 'https://zegrapher.com'
+
+[[package]]
+channel = 'debian'
+name = 'zegrapher'
+
+[[package]]
+channel = 'fedora'
+name = 'zegrapher'

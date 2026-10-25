@@ -1,0 +1,8 @@
+id = 'boxshade'
+name = 'boxshade'
+
+homepage = 'http://www.ch.embnet.org/software/BOX_form.html'
+
+[[package]]
+channel = 'debian'
+name = 'boxshade'

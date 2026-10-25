@@ -1,0 +1,13 @@
+id = 'mmseqs2'
+name = 'mmseqs2'
+
+homepage = 'https://mmseqs.com'
+repository = 'https://github.com/soedinglab/MMseqs2.git'
+
+[[package]]
+channel = 'debian'
+name = 'mmseqs2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmseqs2'

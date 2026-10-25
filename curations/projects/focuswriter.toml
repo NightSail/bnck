@@ -1,0 +1,16 @@
+id = 'focuswriter'
+name = 'focuswriter'
+
+homepage = 'https://gottcode.org/focuswriter'
+
+[[package]]
+channel = 'arch'
+name = 'focuswriter'
+
+[[package]]
+channel = 'debian'
+name = 'focuswriter'
+
+[[package]]
+channel = 'fedora'
+name = 'focuswriter'

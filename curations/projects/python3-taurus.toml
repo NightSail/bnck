@@ -1,0 +1,8 @@
+id = 'python3-taurus'
+name = 'python3-taurus'
+
+homepage = 'http://www.taurus-scada.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-taurus'

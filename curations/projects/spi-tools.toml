@@ -1,0 +1,12 @@
+id = 'spi-tools'
+name = 'spi-tools'
+
+homepage = 'https://github.com/cpb-/spi-tools'
+
+[[package]]
+channel = 'debian'
+name = 'spi-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'spi-tools'

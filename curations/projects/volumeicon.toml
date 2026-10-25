@@ -1,0 +1,12 @@
+id = 'volumeicon'
+name = 'volumeicon'
+
+homepage = 'https://github.com/Maato/volumeicon'
+
+[[package]]
+channel = 'arch'
+name = 'volumeicon'
+
+[[package]]
+channel = 'fedora'
+name = 'volumeicon'

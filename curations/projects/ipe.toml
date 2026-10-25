@@ -1,0 +1,12 @@
+id = 'ipe'
+name = 'ipe'
+
+homepage = 'https://ipe.otfried.org'
+
+[[package]]
+channel = 'debian'
+name = 'ipe'
+
+[[package]]
+channel = 'fedora'
+name = 'ipe'

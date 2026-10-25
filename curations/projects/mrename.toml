@@ -1,0 +1,8 @@
+id = 'mrename'
+name = 'mrename'
+
+homepage = 'https://web.archive.org/web/20070812161828/http://alfalinux.sourceforge.net/mrename.php3'
+
+[[package]]
+channel = 'debian'
+name = 'mrename'

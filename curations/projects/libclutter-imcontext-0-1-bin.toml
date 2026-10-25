@@ -1,0 +1,8 @@
+id = 'libclutter-imcontext-0-1-bin'
+name = 'libclutter-imcontext-0.1-bin'
+
+homepage = 'https://blogs.gnome.org/clutter'
+
+[[package]]
+channel = 'debian'
+name = 'libclutter-imcontext-0.1-bin'

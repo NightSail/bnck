@@ -1,0 +1,8 @@
+id = 'infamousplugins'
+name = 'infamousplugins'
+
+homepage = 'https://ssj71.github.io/infamousPlugins'
+
+[[package]]
+channel = 'arch'
+name = 'infamousplugins'

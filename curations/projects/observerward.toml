@@ -1,0 +1,8 @@
+id = 'observerward'
+name = 'observerward'
+
+homepage = 'https://blog.kali-team.cn/projects/observer_ward'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/observerward'

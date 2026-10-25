@@ -1,0 +1,12 @@
+id = 'findutils-findutils'
+name = 'findutils'
+
+homepage = 'https://savannah.gnu.org/projects/findutils'
+
+[[package]]
+channel = 'debian'
+name = 'findutils'
+
+[[package]]
+channel = 'debian'
+name = 'locate'

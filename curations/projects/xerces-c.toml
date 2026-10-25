@@ -1,0 +1,16 @@
+id = 'xerces-c'
+name = 'xerces-c'
+
+homepage = 'https://xerces.apache.org/xerces-c'
+
+[[package]]
+channel = 'arch'
+name = 'xerces-c'
+
+[[package]]
+channel = 'debian'
+name = 'libxerces-c-samples'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xerces-c'

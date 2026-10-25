@@ -1,0 +1,8 @@
+id = 'mqtt-randompub'
+name = 'mqtt-randompub'
+
+homepage = 'https://github.com/fabaff/mqtt-randompub'
+
+[[package]]
+channel = 'fedora'
+name = 'mqtt-randompub'

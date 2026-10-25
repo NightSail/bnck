@@ -1,0 +1,8 @@
+id = 'govulncheck'
+name = 'govulncheck'
+
+repository = 'https://github.com/golang/vuln.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/govulncheck'

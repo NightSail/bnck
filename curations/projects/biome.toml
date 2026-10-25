@@ -1,0 +1,13 @@
+id = 'biome'
+name = 'biome'
+
+homepage = 'https://biomejs.dev'
+repository = 'https://github.com/biomejs/biome.git'
+
+[[package]]
+channel = 'arch'
+name = 'biome'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/biome'

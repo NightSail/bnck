@@ -1,0 +1,9 @@
+id = 'safety'
+name = 'safety'
+
+homepage = 'https://safetycli.com/product/safety-cli'
+repository = 'https://github.com/pyupio/safety.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/safety'

@@ -1,0 +1,9 @@
+id = 'virtuoso'
+name = 'virtuoso'
+
+homepage = 'https://virtuoso.openlinksw.com'
+repository = 'https://github.com/openlink/virtuoso-opensource.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virtuoso'

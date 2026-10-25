@@ -1,0 +1,9 @@
+id = 'copa'
+name = 'copa'
+
+homepage = 'https://project-copacetic.github.io/copacetic'
+repository = 'https://github.com/project-copacetic/copacetic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/copa'

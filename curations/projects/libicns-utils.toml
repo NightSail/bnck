@@ -1,0 +1,8 @@
+id = 'libicns-utils'
+name = 'libicns-utils'
+
+homepage = 'http://icns.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'libicns-utils'

@@ -1,0 +1,8 @@
+id = 'ipscan'
+name = 'ipscan'
+
+homepage = 'https://angryip.org'
+
+[[package]]
+channel = 'debian'
+name = 'ipscan'

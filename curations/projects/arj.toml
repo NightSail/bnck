@@ -1,0 +1,16 @@
+id = 'arj'
+name = 'arj'
+
+homepage = 'http://arj.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'arj'
+
+[[package]]
+channel = 'debian'
+name = 'arj'
+
+[[package]]
+channel = 'fedora'
+name = 'arj'

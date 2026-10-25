@@ -1,0 +1,8 @@
+id = 'xapps'
+name = 'xapps'
+
+homepage = 'https://github.com/linuxmint/xapps'
+
+[[package]]
+channel = 'fedora'
+name = 'xapps'

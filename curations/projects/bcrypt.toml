@@ -1,0 +1,12 @@
+id = 'bcrypt'
+name = 'bcrypt'
+
+homepage = 'https://bcrypt.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'bcrypt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bcrypt'

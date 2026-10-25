@@ -1,0 +1,8 @@
+id = 'technitium-dns'
+name = 'technitium-dns'
+
+homepage = 'https://technitium.com/dns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/technitium-dns'

@@ -1,0 +1,8 @@
+id = 'doona'
+name = 'doona'
+
+homepage = 'https://github.com/wireghoul/doona'
+
+[[package]]
+channel = 'debian'
+name = 'doona'

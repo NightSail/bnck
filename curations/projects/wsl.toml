@@ -1,0 +1,8 @@
+id = 'wsl'
+name = 'wsl'
+
+homepage = 'https://github.com/dell/wsl'
+
+[[package]]
+channel = 'debian'
+name = 'wsl'

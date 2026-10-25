@@ -1,0 +1,12 @@
+id = 'anymeal'
+name = 'anymeal'
+
+homepage = 'https://wedesoft.github.io/anymeal'
+
+[[package]]
+channel = 'debian'
+name = 'anymeal'
+
+[[package]]
+channel = 'fedora'
+name = 'anymeal'

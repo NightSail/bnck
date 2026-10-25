@@ -1,0 +1,8 @@
+id = 'cargo-lichking'
+name = 'cargo-lichking'
+
+homepage = 'https://github.com/Nemo157/cargo-lichking'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-lichking'

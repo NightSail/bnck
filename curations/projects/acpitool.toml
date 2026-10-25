@@ -1,0 +1,12 @@
+id = 'acpitool'
+name = 'acpitool'
+
+homepage = 'http://sourceforge.net/projects/acpitool'
+
+[[package]]
+channel = 'debian'
+name = 'acpitool'
+
+[[package]]
+channel = 'fedora'
+name = 'acpitool'

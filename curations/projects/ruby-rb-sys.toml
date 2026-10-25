@@ -1,0 +1,8 @@
+id = 'ruby-rb-sys'
+name = 'ruby-rb-sys'
+
+homepage = 'https://oxidize-rb.github.io/rb-sys'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rb-sys'

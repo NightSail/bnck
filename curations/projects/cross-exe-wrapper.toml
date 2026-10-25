@@ -1,0 +1,6 @@
+id = 'cross-exe-wrapper'
+name = 'cross-exe-wrapper'
+
+[[package]]
+channel = 'debian'
+name = 'cross-exe-wrapper'

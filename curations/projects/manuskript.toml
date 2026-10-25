@@ -1,0 +1,8 @@
+id = 'manuskript'
+name = 'manuskript'
+
+homepage = 'http://www.theologeek.ch/manuskript'
+
+[[package]]
+channel = 'debian'
+name = 'manuskript'

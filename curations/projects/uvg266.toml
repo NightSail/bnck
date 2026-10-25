@@ -1,0 +1,8 @@
+id = 'uvg266'
+name = 'uvg266'
+
+repository = 'https://github.com/ultravideo/uvg266.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uvg266'

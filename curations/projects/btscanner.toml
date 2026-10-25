@@ -1,0 +1,8 @@
+id = 'btscanner'
+name = 'btscanner'
+
+homepage = 'https://salsa.debian.org/pkg-security-team/btscanner'
+
+[[package]]
+channel = 'debian'
+name = 'btscanner'

@@ -1,0 +1,12 @@
+id = 'hamster-time-tracker'
+name = 'hamster-time-tracker'
+
+homepage = 'https://github.com/projecthamster/hamster'
+
+[[package]]
+channel = 'arch'
+name = 'hamster-time-tracker'
+
+[[package]]
+channel = 'debian'
+name = 'hamster-time-tracker'

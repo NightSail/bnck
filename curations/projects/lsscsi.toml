@@ -1,0 +1,16 @@
+id = 'lsscsi'
+name = 'lsscsi'
+
+homepage = 'http://sg.danny.cz/scsi/lsscsi.html'
+
+[[package]]
+channel = 'arch'
+name = 'lsscsi'
+
+[[package]]
+channel = 'debian'
+name = 'lsscsi'
+
+[[package]]
+channel = 'fedora'
+name = 'lsscsi'

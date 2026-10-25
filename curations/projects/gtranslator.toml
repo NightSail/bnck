@@ -1,0 +1,20 @@
+id = 'gtranslator'
+name = 'gtranslator'
+
+homepage = 'https://wiki.gnome.org/Design/Apps/Translator'
+
+[[package]]
+channel = 'arch'
+name = 'gtranslator'
+
+[[package]]
+channel = 'debian'
+name = 'gtranslator'
+
+[[package]]
+channel = 'fedora'
+name = 'gtranslator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtranslator'

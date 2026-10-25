@@ -1,0 +1,12 @@
+id = 'keyutils'
+name = 'keyutils'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git'
+
+[[package]]
+channel = 'debian'
+name = 'keyutils'
+
+[[package]]
+channel = 'fedora'
+name = 'keyutils'

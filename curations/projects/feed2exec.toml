@@ -1,0 +1,8 @@
+id = 'feed2exec'
+name = 'feed2exec'
+
+homepage = 'https://gitlab.com/anarcat/feed2exec'
+
+[[package]]
+channel = 'debian'
+name = 'feed2exec'

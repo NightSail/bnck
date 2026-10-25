@@ -1,0 +1,8 @@
+id = 'hadolint-sarif'
+name = 'hadolint-sarif'
+
+homepage = 'https://crates.io/crates/hadolint-sarif'
+
+[[package]]
+channel = 'fedora'
+name = 'hadolint-sarif'

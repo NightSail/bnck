@@ -1,0 +1,21 @@
+id = 'syslog-ng'
+name = 'syslog-ng'
+
+homepage = 'https://www.syslog-ng.com'
+repository = 'https://github.com/syslog-ng/syslog-ng.git'
+
+[[package]]
+channel = 'arch'
+name = 'syslog-ng'
+
+[[package]]
+channel = 'debian'
+name = 'syslog-ng-core'
+
+[[package]]
+channel = 'debian'
+name = 'syslog-ng-mod-slog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/syslog-ng'

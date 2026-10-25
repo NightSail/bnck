@@ -1,0 +1,8 @@
+id = 'spice-crypt'
+name = 'spice-crypt'
+
+homepage = 'https://github.com/jtsylve/spice-crypt'
+
+[[package]]
+channel = 'debian'
+name = 'spice-crypt'

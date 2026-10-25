@@ -1,0 +1,8 @@
+id = 'sqlitestudio'
+name = 'sqlitestudio'
+
+homepage = 'https://sqlitestudio.pl'
+
+[[package]]
+channel = 'debian'
+name = 'sqlitestudio'

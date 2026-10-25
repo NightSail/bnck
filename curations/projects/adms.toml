@@ -1,0 +1,12 @@
+id = 'adms'
+name = 'adms'
+
+homepage = 'https://github.com/Qucs/ADMS'
+
+[[package]]
+channel = 'debian'
+name = 'adms'
+
+[[package]]
+channel = 'fedora'
+name = 'mot-adms'

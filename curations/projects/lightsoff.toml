@@ -1,0 +1,12 @@
+id = 'lightsoff'
+name = 'lightsoff'
+
+homepage = 'https://wiki.gnome.org/Apps/Lightsoff'
+
+[[package]]
+channel = 'arch'
+name = 'lightsoff'
+
+[[package]]
+channel = 'fedora'
+name = 'lightsoff'

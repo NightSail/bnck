@@ -1,0 +1,16 @@
+id = 'procmail'
+name = 'procmail'
+
+homepage = 'https://github.com/BuGlessRB/procmail'
+
+[[package]]
+channel = 'debian'
+name = 'procmail'
+
+[[package]]
+channel = 'fedora'
+name = 'procmail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/procmail'

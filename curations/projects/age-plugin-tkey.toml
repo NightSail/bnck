@@ -1,0 +1,8 @@
+id = 'age-plugin-tkey'
+name = 'age-plugin-tkey'
+
+homepage = 'https://github.com/quite/age-plugin-tkey'
+
+[[package]]
+channel = 'arch'
+name = 'age-plugin-tkey'

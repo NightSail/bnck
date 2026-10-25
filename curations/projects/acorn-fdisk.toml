@@ -1,0 +1,8 @@
+id = 'acorn-fdisk'
+name = 'acorn-fdisk'
+
+homepage = 'https://www.arm.linux.org.uk/machines/riscpc/stage-2'
+
+[[package]]
+channel = 'debian'
+name = 'acorn-fdisk'

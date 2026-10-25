@@ -1,0 +1,8 @@
+id = 'rebels-in-the-sky'
+name = 'rebels-in-the-sky'
+
+homepage = 'https://github.com/ricott1/rebels-in-the-sky'
+
+[[package]]
+channel = 'arch'
+name = 'rebels-in-the-sky'

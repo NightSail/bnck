@@ -1,0 +1,8 @@
+id = 'terraform-docs'
+name = 'terraform-docs'
+
+homepage = 'https://terraform-docs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-docs'

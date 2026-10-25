@@ -1,0 +1,12 @@
+id = 'licensecheck'
+name = 'licensecheck'
+
+homepage = 'https://metacpan.org/pod/App::Licensecheck'
+
+[[package]]
+channel = 'debian'
+name = 'licensecheck'
+
+[[package]]
+channel = 'fedora'
+name = 'licensecheck'

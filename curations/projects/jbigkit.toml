@@ -1,0 +1,21 @@
+id = 'jbigkit'
+name = 'jbigkit'
+
+homepage = 'https://www.cl.cam.ac.uk/~mgk25/jbigkit'
+repository = 'https://www.cl.cam.ac.uk/~mgk25/git/jbigkit'
+
+[[package]]
+channel = 'arch'
+name = 'jbigkit'
+
+[[package]]
+channel = 'debian'
+name = 'jbigkit-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'jbigkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jbigkit'

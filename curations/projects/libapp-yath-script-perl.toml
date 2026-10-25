@@ -1,0 +1,8 @@
+id = 'libapp-yath-script-perl'
+name = 'libapp-yath-script-perl'
+
+homepage = 'https://metacpan.org/release/App-Yath-Script'
+
+[[package]]
+channel = 'debian'
+name = 'libapp-yath-script-perl'

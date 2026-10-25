@@ -1,0 +1,8 @@
+id = 'sha1dc'
+name = 'sha1dc'
+
+repository = 'https://github.com/cr-marcstevens/sha1collisiondetection.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sha1dc'

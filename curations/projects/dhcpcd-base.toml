@@ -1,0 +1,8 @@
+id = 'dhcpcd-base'
+name = 'dhcpcd-base'
+
+homepage = 'https://github.com/NetworkConfiguration/dhcpcd'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpcd-base'

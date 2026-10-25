@@ -1,0 +1,12 @@
+id = 'c-paho'
+name = 'c'
+
+homepage = 'https://eclipse.dev/paho/clients/c'
+
+[[package]]
+channel = 'fedora'
+name = 'paho-c'
+
+[[package]]
+channel = 'fedora'
+name = 'paho-c-devel'

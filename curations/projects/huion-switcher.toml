@@ -1,0 +1,8 @@
+id = 'huion-switcher'
+name = 'huion-switcher'
+
+homepage = 'https://github.com/whot/huion-switcher'
+
+[[package]]
+channel = 'fedora'
+name = 'huion-switcher'

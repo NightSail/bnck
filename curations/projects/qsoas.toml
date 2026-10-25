@@ -1,0 +1,8 @@
+id = 'qsoas'
+name = 'qsoas'
+
+homepage = 'https://bip.cnrs.fr/groups/bip06/software'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qsoas'

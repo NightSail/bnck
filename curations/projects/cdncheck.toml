@@ -1,0 +1,9 @@
+id = 'cdncheck'
+name = 'cdncheck'
+
+homepage = 'https://projectdiscovery.io'
+repository = 'https://github.com/projectdiscovery/cdncheck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdncheck'

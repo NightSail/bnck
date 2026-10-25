@@ -1,0 +1,8 @@
+id = 'lire'
+name = 'lire'
+
+homepage = 'https://launchpad.net/ubuntu/trusty/+package/lire'
+
+[[package]]
+channel = 'arch'
+name = 'lire'

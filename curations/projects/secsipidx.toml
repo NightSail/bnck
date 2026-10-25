@@ -1,0 +1,8 @@
+id = 'secsipidx'
+name = 'secsipidx'
+
+homepage = 'https://github.com/asipto/secsipidx'
+
+[[package]]
+channel = 'debian'
+name = 'secsipidx'

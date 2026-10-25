@@ -1,0 +1,6 @@
+id = 'preview-app'
+name = 'preview.app'
+
+[[package]]
+channel = 'debian'
+name = 'preview.app'

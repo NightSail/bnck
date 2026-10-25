@@ -1,0 +1,8 @@
+id = 'vgrabbj'
+name = 'vgrabbj'
+
+homepage = 'https://sourceforge.net/projects/vgrabbj'
+
+[[package]]
+channel = 'debian'
+name = 'vgrabbj'

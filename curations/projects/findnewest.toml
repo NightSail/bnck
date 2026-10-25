@@ -1,0 +1,8 @@
+id = 'findnewest'
+name = 'findnewest'
+
+homepage = 'https://github.com/0-wiz-0/findnewest'
+
+[[package]]
+channel = 'arch'
+name = 'findnewest'

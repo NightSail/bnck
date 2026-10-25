@@ -1,0 +1,8 @@
+id = 'anonip'
+name = 'anonip'
+
+homepage = 'https://github.com/DigitaleGesellschaft/Anonip'
+
+[[package]]
+channel = 'debian'
+name = 'anonip'

@@ -1,0 +1,8 @@
+id = 'tsx'
+name = 'tsx'
+
+homepage = 'https://tsx.hirok.io'
+
+[[package]]
+channel = 'debian'
+name = 'tsx'

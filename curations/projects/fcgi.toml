@@ -1,0 +1,16 @@
+id = 'fcgi'
+name = 'fcgi'
+
+homepage = 'https://fastcgi-archives.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'fcgi'
+
+[[package]]
+channel = 'fedora'
+name = 'fcgi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fcgi'

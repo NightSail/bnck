@@ -1,0 +1,12 @@
+id = 'jmeter'
+name = 'jmeter'
+
+homepage = 'https://jmeter.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'jmeter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jmeter'

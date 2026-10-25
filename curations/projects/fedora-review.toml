@@ -1,0 +1,8 @@
+id = 'fedora-review'
+name = 'fedora-review'
+
+homepage = 'https://pagure.io/FedoraReview'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-review'

@@ -1,0 +1,8 @@
+id = 'cargo-bundle'
+name = 'cargo-bundle'
+
+repository = 'https://github.com/burtonageo/cargo-bundle.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-bundle'

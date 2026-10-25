@@ -1,0 +1,8 @@
+id = 'datamodel-codegen'
+name = 'datamodel-codegen'
+
+homepage = 'https://github.com/koxudaxi/datamodel-code-generator'
+
+[[package]]
+channel = 'debian'
+name = 'datamodel-codegen'

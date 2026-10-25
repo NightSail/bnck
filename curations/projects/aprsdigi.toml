@@ -1,0 +1,12 @@
+id = 'aprsdigi'
+name = 'aprsdigi'
+
+homepage = 'https://github.com/n2ygk/aprsdigi'
+
+[[package]]
+channel = 'debian'
+name = 'aprsdigi'
+
+[[package]]
+channel = 'fedora'
+name = 'aprsdigi'

@@ -1,0 +1,16 @@
+id = 'gpick'
+name = 'gpick'
+
+homepage = 'http://www.gpick.org'
+
+[[package]]
+channel = 'arch'
+name = 'gpick'
+
+[[package]]
+channel = 'debian'
+name = 'gpick'
+
+[[package]]
+channel = 'fedora'
+name = 'gpick'

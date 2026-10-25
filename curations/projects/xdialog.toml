@@ -1,0 +1,8 @@
+id = 'xdialog'
+name = 'xdialog'
+
+homepage = 'http://xdialog.free.fr'
+
+[[package]]
+channel = 'fedora'
+name = 'xdialog'

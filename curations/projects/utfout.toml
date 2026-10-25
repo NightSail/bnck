@@ -1,0 +1,8 @@
+id = 'utfout'
+name = 'utfout'
+
+homepage = 'https://code.launchpad.net/utfout'
+
+[[package]]
+channel = 'debian'
+name = 'utfout'

@@ -1,0 +1,8 @@
+id = 'cif-linguist'
+name = 'cif-linguist'
+
+homepage = 'https://github.com/COMCIFS/cif_api'
+
+[[package]]
+channel = 'debian'
+name = 'cif-linguist'

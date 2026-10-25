@@ -1,0 +1,20 @@
+id = 'blackbox'
+name = 'blackbox'
+
+homepage = 'https://github.com/StackExchange/blackbox'
+
+[[package]]
+channel = 'arch'
+name = 'blackbox'
+
+[[package]]
+channel = 'debian'
+name = 'blackbox'
+
+[[package]]
+channel = 'fedora'
+name = 'blackbox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blackbox'

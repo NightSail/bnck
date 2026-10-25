@@ -1,0 +1,12 @@
+id = 'cargo-about'
+name = 'cargo-about'
+
+repository = 'https://github.com/EmbarkStudios/cargo-about.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-about'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-about'

@@ -1,0 +1,13 @@
+id = 'cfonts'
+name = 'cfonts'
+
+homepage = 'https://crates.io/crates/cfonts'
+repository = 'https://github.com/dominikwilkowski/cfonts.git'
+
+[[package]]
+channel = 'fedora'
+name = 'cfonts'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfonts'

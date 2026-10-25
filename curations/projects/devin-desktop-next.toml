@@ -1,0 +1,8 @@
+id = 'devin-desktop-next'
+name = 'devin-desktop@next'
+
+homepage = 'https://devin.ai/download'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/devin-desktop@next'

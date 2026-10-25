@@ -1,0 +1,8 @@
+id = 'libksysguard-bin'
+name = 'libksysguard-bin'
+
+homepage = 'https://invent.kde.org/plasma/libksysguard'
+
+[[package]]
+channel = 'debian'
+name = 'libksysguard-bin'

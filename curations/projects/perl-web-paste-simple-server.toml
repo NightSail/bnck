@@ -1,0 +1,8 @@
+id = 'perl-web-paste-simple-server'
+name = 'perl-Web-Paste-Simple-server'
+
+homepage = 'https://metacpan.org/release/Web-Paste-Simple'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Web-Paste-Simple-server'

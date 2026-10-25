@@ -1,0 +1,9 @@
+id = 'serialosc'
+name = 'serialosc'
+
+homepage = 'https://github.com/monome/docs/blob/gh-pages/serialosc/osc.md'
+repository = 'https://github.com/monome/serialosc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/serialosc'

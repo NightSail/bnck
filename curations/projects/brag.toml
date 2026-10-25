@@ -1,0 +1,12 @@
+id = 'brag'
+name = 'brag'
+
+homepage = 'https://brag.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'brag'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brag'

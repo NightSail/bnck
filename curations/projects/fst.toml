@@ -1,0 +1,8 @@
+id = 'fst'
+name = 'fst'
+
+repository = 'https://github.com/BurntSushi/fst.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fst'

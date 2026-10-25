@@ -1,0 +1,8 @@
+id = 'beast-mcmc'
+name = 'beast-mcmc'
+
+homepage = 'http://beast.bio.ed.ac.uk'
+
+[[package]]
+channel = 'debian'
+name = 'beast-mcmc'

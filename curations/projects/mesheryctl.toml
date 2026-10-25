@@ -1,0 +1,9 @@
+id = 'mesheryctl'
+name = 'mesheryctl'
+
+homepage = 'https://meshery.io'
+repository = 'https://github.com/meshery/meshery.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mesheryctl'

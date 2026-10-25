@@ -1,0 +1,9 @@
+id = 'tfel'
+name = 'tfel'
+
+homepage = 'https://thelfer.github.io/tfel/web/index.html'
+repository = 'https://github.com/thelfer/tfel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfel'

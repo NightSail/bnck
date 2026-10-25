@@ -1,0 +1,12 @@
+id = 'nss-tls'
+name = 'nss-tls'
+
+homepage = 'https://github.com/dimkr/nss-tls'
+
+[[package]]
+channel = 'debian'
+name = 'nss-tlsd'
+
+[[package]]
+channel = 'debian'
+name = 'tlslookup'

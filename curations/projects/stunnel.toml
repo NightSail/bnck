@@ -1,0 +1,24 @@
+id = 'stunnel'
+name = 'stunnel'
+
+homepage = 'https://www.stunnel.org'
+
+[[package]]
+channel = 'arch'
+name = 'stunnel'
+
+[[package]]
+channel = 'debian'
+name = 'stunnel'
+
+[[package]]
+channel = 'debian'
+name = 'stunnel4'
+
+[[package]]
+channel = 'fedora'
+name = 'stunnel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stunnel'

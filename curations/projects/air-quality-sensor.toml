@@ -1,0 +1,8 @@
+id = 'air-quality-sensor'
+name = 'air-quality-sensor'
+
+homepage = 'https://salsa.debian.org/tinker-team/air-quality-sensor-debian'
+
+[[package]]
+channel = 'debian'
+name = 'air-quality-sensor'

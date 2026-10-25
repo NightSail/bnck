@@ -1,0 +1,8 @@
+id = 'wpmeta'
+name = 'wpmeta'
+
+homepage = 'https://github.com/AOSC-Dev/wpmeta'
+
+[[package]]
+channel = 'arch'
+name = 'wpmeta'

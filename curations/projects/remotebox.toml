@@ -1,0 +1,8 @@
+id = 'remotebox'
+name = 'RemoteBox'
+
+homepage = 'http://remotebox.knobgoblin.org.uk'
+
+[[package]]
+channel = 'fedora'
+name = 'RemoteBox'

@@ -1,0 +1,20 @@
+id = 'tryton'
+name = 'tryton'
+
+homepage = 'https://www.tryton.org'
+
+[[package]]
+channel = 'debian'
+name = 'tryton-client'
+
+[[package]]
+channel = 'debian'
+name = 'tryton-modules-country'
+
+[[package]]
+channel = 'debian'
+name = 'tryton-modules-currency'
+
+[[package]]
+channel = 'debian'
+name = 'tryton-server'

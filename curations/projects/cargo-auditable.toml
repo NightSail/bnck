@@ -1,0 +1,16 @@
+id = 'cargo-auditable'
+name = 'cargo-auditable'
+
+repository = 'https://github.com/rust-secure-code/cargo-auditable.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-auditable'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-auditable'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-auditable'

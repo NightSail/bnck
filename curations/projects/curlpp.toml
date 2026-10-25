@@ -1,0 +1,16 @@
+id = 'curlpp'
+name = 'curlpp'
+
+homepage = 'https://www.curlpp.org'
+
+[[package]]
+channel = 'debian'
+name = 'libcurlpp-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'curlpp-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/curlpp'

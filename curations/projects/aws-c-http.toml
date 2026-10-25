@@ -1,0 +1,8 @@
+id = 'aws-c-http'
+name = 'aws-c-http'
+
+homepage = 'https://github.com/awslabs/aws-c-http'
+
+[[package]]
+channel = 'arch'
+name = 'aws-c-http'

@@ -1,0 +1,12 @@
+id = 'impressive'
+name = 'impressive'
+
+homepage = 'http://impressive.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'impressive'
+
+[[package]]
+channel = 'fedora'
+name = 'impressive'

@@ -1,0 +1,12 @@
+id = 'uglify-js'
+name = 'uglify-js'
+
+homepage = 'https://github.com/mishoo/UglifyJS'
+
+[[package]]
+channel = 'debian'
+name = 'uglifyjs'
+
+[[package]]
+channel = 'fedora'
+name = 'uglify-js'

@@ -1,0 +1,8 @@
+id = 'rosenpass'
+name = 'rosenpass'
+
+homepage = 'https://rosenpass.eu'
+
+[[package]]
+channel = 'arch'
+name = 'rosenpass'

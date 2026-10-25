@@ -1,0 +1,8 @@
+id = 'deepin-album'
+name = 'deepin-album'
+
+homepage = 'https://github.com/linuxdeepin/deepin-album'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-album'

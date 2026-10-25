@@ -1,0 +1,12 @@
+id = 'python3-cvss'
+name = 'python3-cvss'
+
+homepage = 'https://github.com/skontar/cvss'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cvss'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cvss'

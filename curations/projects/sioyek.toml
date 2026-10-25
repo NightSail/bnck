@@ -1,0 +1,8 @@
+id = 'sioyek'
+name = 'sioyek'
+
+homepage = 'https://sioyek.info'
+
+[[package]]
+channel = 'debian'
+name = 'sioyek'

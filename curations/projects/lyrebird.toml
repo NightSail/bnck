@@ -1,0 +1,8 @@
+id = 'lyrebird'
+name = 'lyrebird'
+
+homepage = 'https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird'
+
+[[package]]
+channel = 'debian'
+name = 'lyrebird'

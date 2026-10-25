@@ -1,0 +1,12 @@
+id = 'recap'
+name = 'recap'
+
+homepage = 'https://github.com/rackerlabs/recap'
+
+[[package]]
+channel = 'debian'
+name = 'recap'
+
+[[package]]
+channel = 'fedora'
+name = 'recap'

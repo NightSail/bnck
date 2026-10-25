@@ -1,0 +1,8 @@
+id = 'ppss'
+name = 'ppss'
+
+homepage = 'https://github.com/louwrentius/PPSS'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ppss'

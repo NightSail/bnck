@@ -1,0 +1,8 @@
+id = 'fondu'
+name = 'fondu'
+
+homepage = 'http://www.sourceforge.net/projects/fondu'
+
+[[package]]
+channel = 'debian'
+name = 'fondu'

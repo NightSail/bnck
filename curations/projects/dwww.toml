@@ -1,0 +1,6 @@
+id = 'dwww'
+name = 'dwww'
+
+[[package]]
+channel = 'debian'
+name = 'dwww'

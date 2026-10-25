@@ -1,0 +1,12 @@
+id = 'rain'
+name = 'rain'
+
+repository = 'https://github.com/aws-cloudformation/rain.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-console'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfn-format'

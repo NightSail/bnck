@@ -1,0 +1,20 @@
+id = 'msxpertsuite'
+name = 'msxpertsuite'
+
+homepage = 'http://www.msxpertsuite.org'
+
+[[package]]
+channel = 'debian'
+name = 'massxpert2'
+
+[[package]]
+channel = 'debian'
+name = 'massxpert3'
+
+[[package]]
+channel = 'debian'
+name = 'minexpert2'
+
+[[package]]
+channel = 'debian'
+name = 'minexpert3'

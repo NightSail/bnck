@@ -1,0 +1,16 @@
+id = 'chirp'
+name = 'chirp'
+
+homepage = 'https://chirpmyradio.com'
+
+[[package]]
+channel = 'debian'
+name = 'chirp'
+
+[[package]]
+channel = 'fedora'
+name = 'chirp'
+
+[[package]]
+channel = 'fedora'
+name = 'chirp+wx'

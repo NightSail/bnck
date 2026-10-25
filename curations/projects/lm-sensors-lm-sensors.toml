@@ -1,0 +1,12 @@
+id = 'lm-sensors-lm-sensors'
+name = 'lm_sensors'
+
+homepage = 'http://github.com/lm-sensors/lm-sensors'
+
+[[package]]
+channel = 'fedora'
+name = 'lm_sensors'
+
+[[package]]
+channel = 'fedora'
+name = 'lm_sensors-sensord'

@@ -1,0 +1,16 @@
+id = 'fastnetmon'
+name = 'fastnetmon'
+
+homepage = 'https://github.com/pavel-odintsov/fastnetmon'
+
+[[package]]
+channel = 'debian'
+name = 'fastnetmon'
+
+[[package]]
+channel = 'fedora'
+name = 'fastnetmon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastnetmon'

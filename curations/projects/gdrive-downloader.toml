@@ -1,0 +1,8 @@
+id = 'gdrive-downloader'
+name = 'gdrive-downloader'
+
+repository = 'https://github.com/Akianonymus/gdrive-downloader.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdrive-downloader'

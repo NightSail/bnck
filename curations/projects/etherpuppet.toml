@@ -1,0 +1,8 @@
+id = 'etherpuppet'
+name = 'etherpuppet'
+
+homepage = 'http://www.secdev.org/projects/etherpuppet'
+
+[[package]]
+channel = 'debian'
+name = 'etherpuppet'

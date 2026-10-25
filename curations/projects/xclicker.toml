@@ -1,0 +1,8 @@
+id = 'xclicker'
+name = 'xclicker'
+
+homepage = 'https://xclicker.xyz'
+
+[[package]]
+channel = 'debian'
+name = 'xclicker'

@@ -1,0 +1,8 @@
+id = 'mailutils-mailutils'
+name = 'mailutils'
+
+homepage = 'https://mailutils.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mailutils'

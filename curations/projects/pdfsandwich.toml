@@ -1,0 +1,13 @@
+id = 'pdfsandwich'
+name = 'pdfsandwich'
+
+homepage = 'http://www.tobias-elze.de/pdfsandwich/index.html'
+repository = 'https://svn.code.sf.net/p/pdfsandwich/code/trunk/src'
+
+[[package]]
+channel = 'debian'
+name = 'pdfsandwich'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfsandwich'

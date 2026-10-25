@@ -1,0 +1,8 @@
+id = 'python-merge3'
+name = 'python-merge3'
+
+homepage = 'https://github.com/breezy-team/merge3'
+
+[[package]]
+channel = 'arch'
+name = 'python-merge3'

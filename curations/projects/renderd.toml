@@ -1,0 +1,8 @@
+id = 'renderd'
+name = 'renderd'
+
+homepage = 'https://wiki.openstreetmap.org/wiki/Mod_tile'
+
+[[package]]
+channel = 'debian'
+name = 'renderd'

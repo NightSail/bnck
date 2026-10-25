@@ -1,0 +1,12 @@
+id = 'python3-pathos'
+name = 'python3-pathos'
+
+homepage = 'https://github.com/uqfoundation/pathos'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pathos'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pathos'

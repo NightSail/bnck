@@ -1,0 +1,8 @@
+id = 'dlt-viewer'
+name = 'dlt-viewer'
+
+homepage = 'https://github.com/COVESA/dlt-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'dlt-viewer'

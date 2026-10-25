@@ -1,0 +1,8 @@
+id = 'metar'
+name = 'metar'
+
+homepage = 'https://github.com/keesL/metar'
+
+[[package]]
+channel = 'debian'
+name = 'metar'

@@ -1,0 +1,6 @@
+id = 'codecgraph'
+name = 'codecgraph'
+
+[[package]]
+channel = 'debian'
+name = 'codecgraph'

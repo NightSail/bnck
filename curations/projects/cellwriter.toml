@@ -1,0 +1,8 @@
+id = 'cellwriter'
+name = 'cellwriter'
+
+homepage = 'https://github.com/risujin/cellwriter'
+
+[[package]]
+channel = 'fedora'
+name = 'cellwriter'

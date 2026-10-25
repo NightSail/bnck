@@ -1,0 +1,12 @@
+id = 'labwc-menu-generator'
+name = 'labwc-menu-generator'
+
+homepage = 'https://github.com/labwc/labwc-menu-generator'
+
+[[package]]
+channel = 'debian'
+name = 'labwc-menu-generator'
+
+[[package]]
+channel = 'fedora'
+name = 'labwc-menu-generator'

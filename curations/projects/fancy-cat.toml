@@ -1,0 +1,8 @@
+id = 'fancy-cat'
+name = 'fancy-cat'
+
+homepage = 'https://github.com/freref/fancy-cat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fancy-cat'

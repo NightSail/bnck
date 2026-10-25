@@ -1,0 +1,12 @@
+id = 'killbots'
+name = 'killbots'
+
+homepage = 'https://apps.kde.org/killbots'
+
+[[package]]
+channel = 'arch'
+name = 'killbots'
+
+[[package]]
+channel = 'fedora'
+name = 'killbots'

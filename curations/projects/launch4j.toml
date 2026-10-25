@@ -1,0 +1,9 @@
+id = 'launch4j'
+name = 'launch4j'
+
+homepage = 'https://launch4j.sourceforge.net'
+repository = 'https://git.code.sf.net/p/launch4j/git.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/launch4j'

@@ -1,0 +1,8 @@
+id = 'taoup'
+name = 'taoup'
+
+homepage = 'https://github.com/globalcitizen/taoup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taoup'

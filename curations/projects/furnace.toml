@@ -1,0 +1,16 @@
+id = 'furnace'
+name = 'furnace'
+
+homepage = 'https://github.com/tildearrow/furnace'
+
+[[package]]
+channel = 'arch'
+name = 'furnace'
+
+[[package]]
+channel = 'debian'
+name = 'furnace'
+
+[[package]]
+channel = 'fedora'
+name = 'furnace'

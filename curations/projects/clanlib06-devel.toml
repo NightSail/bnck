@@ -1,0 +1,8 @@
+id = 'clanlib06-devel'
+name = 'ClanLib06-devel'
+
+homepage = 'http://www.clanlib.org'
+
+[[package]]
+channel = 'fedora'
+name = 'ClanLib06-devel'

@@ -1,0 +1,8 @@
+id = 'libdecor-tests'
+name = 'libdecor-tests'
+
+homepage = 'https://gitlab.freedesktop.org/libdecor/libdecor'
+
+[[package]]
+channel = 'debian'
+name = 'libdecor-tests'

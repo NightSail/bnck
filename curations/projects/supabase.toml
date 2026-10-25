@@ -1,0 +1,9 @@
+id = 'supabase'
+name = 'supabase'
+
+homepage = 'https://supabase.com/docs/reference/cli/about'
+repository = 'https://github.com/supabase/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/supabase'

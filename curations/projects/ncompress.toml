@@ -1,0 +1,21 @@
+id = 'ncompress'
+name = 'ncompress'
+
+homepage = 'https://vapier.github.io/ncompress'
+repository = 'https://github.com/vapier/ncompress.git'
+
+[[package]]
+channel = 'arch'
+name = 'ncompress'
+
+[[package]]
+channel = 'debian'
+name = 'ncompress'
+
+[[package]]
+channel = 'fedora'
+name = 'ncompress'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncompress'

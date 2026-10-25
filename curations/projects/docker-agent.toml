@@ -1,0 +1,9 @@
+id = 'docker-agent'
+name = 'docker-agent'
+
+homepage = 'https://docker.github.io/docker-agent'
+repository = 'https://github.com/docker/docker-agent.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-agent'

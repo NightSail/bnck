@@ -1,0 +1,8 @@
+id = 'forge-sparks'
+name = 'forge-sparks'
+
+homepage = 'https://apps.gnome.org/ForgeSparks'
+
+[[package]]
+channel = 'arch'
+name = 'forge-sparks'

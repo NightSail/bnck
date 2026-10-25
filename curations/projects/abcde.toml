@@ -1,0 +1,17 @@
+id = 'abcde'
+name = 'abcde'
+
+homepage = 'https://abcde.einval.com'
+repository = 'https://git.einval.com/git/abcde.git'
+
+[[package]]
+channel = 'debian'
+name = 'abcde'
+
+[[package]]
+channel = 'fedora'
+name = 'abcde'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abcde'

@@ -1,0 +1,8 @@
+id = 'complyctl'
+name = 'complyctl'
+
+homepage = 'https://github.com/complytime/complyctl'
+
+[[package]]
+channel = 'fedora'
+name = 'complyctl'

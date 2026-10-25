@@ -1,0 +1,12 @@
+id = 'dumb'
+name = 'dumb'
+
+homepage = 'https://dumb.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'dumb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dumb'

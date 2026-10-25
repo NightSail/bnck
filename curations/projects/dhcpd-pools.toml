@@ -1,0 +1,12 @@
+id = 'dhcpd-pools'
+name = 'dhcpd-pools'
+
+homepage = 'http://dhcpd-pools.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpd-pools'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcpd-pools'

@@ -1,0 +1,12 @@
+id = 'gbdfed'
+name = 'gbdfed'
+
+homepage = 'https://github.com/andrewshadura/gbdfed'
+
+[[package]]
+channel = 'debian'
+name = 'gbdfed'
+
+[[package]]
+channel = 'fedora'
+name = 'gbdfed'

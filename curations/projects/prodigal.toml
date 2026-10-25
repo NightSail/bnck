@@ -1,0 +1,12 @@
+id = 'prodigal'
+name = 'prodigal'
+
+homepage = 'https://github.com/hyattpd/Prodigal'
+
+[[package]]
+channel = 'debian'
+name = 'prodigal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prodigal'

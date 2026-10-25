@@ -1,0 +1,16 @@
+id = 'gupnp-gupnp'
+name = 'gupnp'
+
+homepage = 'http://www.gupnp.org'
+
+[[package]]
+channel = 'fedora'
+name = 'gssdp-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'gupnp-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gupnp-dlna'

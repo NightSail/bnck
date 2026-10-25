@@ -1,0 +1,12 @@
+id = 'gtk4-layer-shell'
+name = 'gtk4-layer-shell'
+
+homepage = 'https://github.com/wmww/gtk4-layer-shell'
+
+[[package]]
+channel = 'arch'
+name = 'gtk4-layer-shell'
+
+[[package]]
+channel = 'debian'
+name = 'gtk4-layer-shell-examples'

@@ -1,0 +1,8 @@
+id = 'phpantom-lsp'
+name = 'phpantom-lsp'
+
+homepage = 'https://github.com/PHPantom-dev/phpantom_lsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phpantom-lsp'

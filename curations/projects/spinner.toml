@@ -1,0 +1,6 @@
+id = 'spinner'
+name = 'spinner'
+
+[[package]]
+channel = 'debian'
+name = 'spinner'

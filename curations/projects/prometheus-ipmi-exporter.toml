@@ -1,0 +1,12 @@
+id = 'prometheus-ipmi-exporter'
+name = 'prometheus-ipmi-exporter'
+
+homepage = 'https://github.com/prometheus-community/ipmi_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-ipmi-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-ipmi-exporter'

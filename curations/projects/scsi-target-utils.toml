@@ -1,0 +1,8 @@
+id = 'scsi-target-utils'
+name = 'scsi-target-utils'
+
+homepage = 'http://stgt.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'scsi-target-utils'

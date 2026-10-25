@@ -1,0 +1,12 @@
+id = 'macaulay2'
+name = 'Macaulay2'
+
+homepage = 'http://macaulay2.com'
+
+[[package]]
+channel = 'debian'
+name = 'macaulay2'
+
+[[package]]
+channel = 'fedora'
+name = 'Macaulay2'

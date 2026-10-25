@@ -1,0 +1,12 @@
+id = 'fig2ps'
+name = 'fig2ps'
+
+homepage = 'http://sourceforge.net/projects/fig2ps'
+
+[[package]]
+channel = 'debian'
+name = 'fig2ps'
+
+[[package]]
+channel = 'fedora'
+name = 'fig2ps'

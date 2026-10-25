@@ -10,3 +10,7 @@ name = 'playerctl'
 [[package]]
 channel = 'debian'
 name = 'playerctl'
+
+[[package]]
+channel = 'fedora'
+name = 'playerctl'

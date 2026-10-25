@@ -1,0 +1,12 @@
+id = 'reprozip'
+name = 'reprozip'
+
+homepage = 'https://www.reprozip.org'
+
+[[package]]
+channel = 'debian'
+name = 'reprounzip'
+
+[[package]]
+channel = 'debian'
+name = 'reprozip'

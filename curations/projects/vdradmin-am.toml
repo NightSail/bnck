@@ -1,0 +1,6 @@
+id = 'vdradmin-am'
+name = 'vdradmin-am'
+
+[[package]]
+channel = 'debian'
+name = 'vdradmin-am'

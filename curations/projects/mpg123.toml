@@ -1,0 +1,20 @@
+id = 'mpg123'
+name = 'mpg123'
+
+homepage = 'https://mpg123.de'
+
+[[package]]
+channel = 'arch'
+name = 'mpg123'
+
+[[package]]
+channel = 'debian'
+name = 'mpg123'
+
+[[package]]
+channel = 'fedora'
+name = 'mpg123'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpg123'

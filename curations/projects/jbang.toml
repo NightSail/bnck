@@ -1,0 +1,8 @@
+id = 'jbang'
+name = 'jbang'
+
+homepage = 'https://jbang.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jbang'

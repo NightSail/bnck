@@ -1,0 +1,8 @@
+id = 'jison'
+name = 'jison'
+
+homepage = 'http://jison.org'
+
+[[package]]
+channel = 'debian'
+name = 'jison'

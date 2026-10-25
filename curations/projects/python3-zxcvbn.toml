@@ -1,0 +1,8 @@
+id = 'python3-zxcvbn'
+name = 'python3-zxcvbn'
+
+homepage = 'https://github.com/dwolfhub/zxcvbn-python/tree/master'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zxcvbn'

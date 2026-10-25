@@ -1,0 +1,8 @@
+id = 'elasticmq'
+name = 'elasticmq'
+
+homepage = 'https://softwaremill.com/open-source'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elasticmq'

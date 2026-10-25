@@ -1,0 +1,12 @@
+id = 'agent'
+name = 'agent'
+
+homepage = 'https://github.com/grafana/agent'
+
+[[package]]
+channel = 'arch'
+name = 'grafana-agent'
+
+[[package]]
+channel = 'arch'
+name = 'grafana-agentctl'

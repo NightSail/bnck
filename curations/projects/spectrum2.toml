@@ -1,0 +1,8 @@
+id = 'spectrum2'
+name = 'spectrum2'
+
+homepage = 'https://spectrum.im'
+
+[[package]]
+channel = 'debian'
+name = 'spectrum2'

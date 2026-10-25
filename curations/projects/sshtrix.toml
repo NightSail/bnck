@@ -1,0 +1,8 @@
+id = 'sshtrix'
+name = 'sshtrix'
+
+homepage = 'https://nullsecurity.net/tools/cracker.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshtrix'

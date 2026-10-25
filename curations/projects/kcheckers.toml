@@ -1,0 +1,8 @@
+id = 'kcheckers'
+name = 'kcheckers'
+
+homepage = 'http://qcheckers.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'kcheckers'

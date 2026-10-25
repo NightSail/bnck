@@ -1,0 +1,8 @@
+id = 'vdr-epgsearch'
+name = 'vdr-epgsearch'
+
+homepage = 'https://github.com/vdr-projects/vdr-plugin-epgsearch'
+
+[[package]]
+channel = 'fedora'
+name = 'vdr-epgsearch'

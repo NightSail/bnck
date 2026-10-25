@@ -1,0 +1,8 @@
+id = 'libgtg-tools'
+name = 'libgtg-tools'
+
+homepage = 'https://github.com/trahay/Generic-Trace-Generator'
+
+[[package]]
+channel = 'debian'
+name = 'libgtg-tools'

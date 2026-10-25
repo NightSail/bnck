@@ -1,0 +1,22 @@
+id = 'php-defaults'
+name = 'php-defaults'
+
+[[package]]
+channel = 'debian'
+name = 'php-cgi'
+
+[[package]]
+channel = 'debian'
+name = 'php-cli'
+
+[[package]]
+channel = 'debian'
+name = 'php-common'
+
+[[package]]
+channel = 'debian'
+name = 'php-dev'
+
+[[package]]
+channel = 'debian'
+name = 'php-phpdbg'

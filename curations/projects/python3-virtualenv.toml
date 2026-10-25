@@ -1,0 +1,8 @@
+id = 'python3-virtualenv'
+name = 'python3-virtualenv'
+
+homepage = 'http://pypi.python.org/pypi/virtualenv'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-virtualenv'

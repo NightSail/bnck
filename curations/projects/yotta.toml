@@ -1,0 +1,8 @@
+id = 'yotta'
+name = 'yotta'
+
+homepage = 'https://github.com/ARMmbed/yotta'
+
+[[package]]
+channel = 'debian'
+name = 'yotta'

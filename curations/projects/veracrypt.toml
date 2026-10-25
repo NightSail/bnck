@@ -1,0 +1,8 @@
+id = 'veracrypt'
+name = 'veracrypt'
+
+homepage = 'https://www.veracrypt.fr'
+
+[[package]]
+channel = 'arch'
+name = 'veracrypt'

@@ -1,0 +1,8 @@
+id = 'lolcrab'
+name = 'lolcrab'
+
+repository = 'https://github.com/mazznoer/lolcrab.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lolcrab'

@@ -1,0 +1,24 @@
+id = 'mcrypt'
+name = 'mcrypt'
+
+homepage = 'http://mcrypt.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libmcrypt'
+
+[[package]]
+channel = 'debian'
+name = 'libmcrypt-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mcrypt'
+
+[[package]]
+channel = 'fedora'
+name = 'libmcrypt-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mcrypt'

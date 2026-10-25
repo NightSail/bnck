@@ -1,0 +1,8 @@
+id = 'ttdl'
+name = 'ttdl'
+
+homepage = 'https://github.com/VladimirMarkelov/ttdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttdl'

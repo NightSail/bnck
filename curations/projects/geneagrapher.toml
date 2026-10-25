@@ -1,0 +1,8 @@
+id = 'geneagrapher'
+name = 'geneagrapher'
+
+homepage = 'https://github.com/davidalber/Geneagrapher'
+
+[[package]]
+channel = 'debian'
+name = 'geneagrapher'

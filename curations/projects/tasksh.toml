@@ -1,0 +1,13 @@
+id = 'tasksh'
+name = 'tasksh'
+
+homepage = 'https://taskwarrior.org'
+repository = 'https://github.com/GothenburgBitFactory/taskshell.git'
+
+[[package]]
+channel = 'debian'
+name = 'tasksh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tasksh'

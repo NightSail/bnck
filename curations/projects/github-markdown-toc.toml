@@ -1,0 +1,8 @@
+id = 'github-markdown-toc'
+name = 'github-markdown-toc'
+
+homepage = 'https://github.com/ekalinin/github-markdown-toc.go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/github-markdown-toc'

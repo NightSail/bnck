@@ -1,0 +1,8 @@
+id = 'ncaptool'
+name = 'ncaptool'
+
+homepage = 'https://www.dns-oarc.net/tools/ncap'
+
+[[package]]
+channel = 'debian'
+name = 'ncaptool'

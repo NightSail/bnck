@@ -1,0 +1,8 @@
+id = 'utalk'
+name = 'utalk'
+
+homepage = 'https://utalk.ourproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'utalk'

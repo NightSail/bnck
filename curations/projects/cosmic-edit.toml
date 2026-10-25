@@ -1,0 +1,12 @@
+id = 'cosmic-edit'
+name = 'cosmic-edit'
+
+homepage = 'https://github.com/pop-os/cosmic-edit'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-text-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-edit'

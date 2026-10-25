@@ -1,0 +1,8 @@
+id = 'codeburn'
+name = 'codeburn'
+
+homepage = 'https://codeburn.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codeburn'

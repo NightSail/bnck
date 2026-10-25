@@ -1,0 +1,16 @@
+id = 'trawl'
+name = 'trawl'
+
+homepage = 'https://github.com/regolith-linux/trawl'
+
+[[package]]
+channel = 'debian'
+name = 'trawlcat'
+
+[[package]]
+channel = 'debian'
+name = 'trawld'
+
+[[package]]
+channel = 'debian'
+name = 'trawldb'

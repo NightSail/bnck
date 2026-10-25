@@ -1,0 +1,8 @@
+id = 'coreboot-utils'
+name = 'coreboot-utils'
+
+homepage = 'https://www.coreboot.org'
+
+[[package]]
+channel = 'debian'
+name = 'coreboot-utils'

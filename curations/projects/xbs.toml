@@ -1,0 +1,6 @@
+id = 'xbs'
+name = 'xbs'
+
+[[package]]
+channel = 'debian'
+name = 'xbs'

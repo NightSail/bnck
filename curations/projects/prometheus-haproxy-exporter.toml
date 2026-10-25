@@ -1,0 +1,8 @@
+id = 'prometheus-haproxy-exporter'
+name = 'prometheus-haproxy-exporter'
+
+homepage = 'https://github.com/prometheus/haproxy_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-haproxy-exporter'

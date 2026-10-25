@@ -1,0 +1,8 @@
+id = 'igblast'
+name = 'igblast'
+
+homepage = 'https://ncbi.github.io/igblast'
+
+[[package]]
+channel = 'debian'
+name = 'igblast'

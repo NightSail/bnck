@@ -1,0 +1,8 @@
+id = 'unworkable'
+name = 'unworkable'
+
+homepage = 'https://github.com/niallo/Unworkable'
+
+[[package]]
+channel = 'debian'
+name = 'unworkable'

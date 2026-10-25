@@ -1,0 +1,12 @@
+id = 'pyprof2calltree'
+name = 'pyprof2calltree'
+
+homepage = 'https://github.com/pwaller/pyprof2calltree'
+
+[[package]]
+channel = 'arch'
+name = 'pyprof2calltree'
+
+[[package]]
+channel = 'debian'
+name = 'pyprof2calltree'

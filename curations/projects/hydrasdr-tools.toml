@@ -1,0 +1,8 @@
+id = 'hydrasdr-tools'
+name = 'hydrasdr-tools'
+
+homepage = 'https://hydrasdr.com'
+
+[[package]]
+channel = 'debian'
+name = 'hydrasdr-tools'

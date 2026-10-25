@@ -1,0 +1,12 @@
+id = 'kinfocenter'
+name = 'kinfocenter'
+
+homepage = 'https://invent.kde.org/plasma/kinfocenter'
+
+[[package]]
+channel = 'debian'
+name = 'kinfocenter'
+
+[[package]]
+channel = 'fedora'
+name = 'kinfocenter'

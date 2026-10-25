@@ -1,0 +1,12 @@
+id = 'gtk-gnutella'
+name = 'gtk-gnutella'
+
+homepage = 'https://gtk-gnutella.sourceforge.io'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk-gnutella'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtk-gnutella'

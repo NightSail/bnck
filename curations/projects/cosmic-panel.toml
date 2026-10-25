@@ -1,0 +1,12 @@
+id = 'cosmic-panel'
+name = 'cosmic-panel'
+
+homepage = 'https://github.com/pop-os/cosmic-panel'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-panel'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-panel'

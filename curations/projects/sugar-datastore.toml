@@ -1,0 +1,8 @@
+id = 'sugar-datastore'
+name = 'sugar-datastore'
+
+homepage = 'https://github.com/sugarlabs/sugar-datastore'
+
+[[package]]
+channel = 'arch'
+name = 'sugar-datastore'

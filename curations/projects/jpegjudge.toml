@@ -1,0 +1,8 @@
+id = 'jpegjudge'
+name = 'jpegjudge'
+
+homepage = 'https://oldhome.schmorp.de/marc/judge.html'
+
+[[package]]
+channel = 'debian'
+name = 'jpegjudge'

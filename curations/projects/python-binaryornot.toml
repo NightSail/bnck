@@ -1,0 +1,8 @@
+id = 'python-binaryornot'
+name = 'python-binaryornot'
+
+homepage = 'https://github.com/binaryornot/binaryornot'
+
+[[package]]
+channel = 'arch'
+name = 'python-binaryornot'

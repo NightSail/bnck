@@ -1,0 +1,8 @@
+id = 'python3-sadisplay'
+name = 'python3-sadisplay'
+
+homepage = 'https://bitbucket.org/estin/sadisplay/wiki/Home'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sadisplay'

@@ -1,0 +1,9 @@
+id = 'apfel'
+name = 'apfel'
+
+homepage = 'https://apfel.franzai.com'
+repository = 'https://github.com/Arthur-Ficial/apfel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apfel'

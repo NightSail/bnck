@@ -1,0 +1,9 @@
+id = 'diesel'
+name = 'diesel'
+
+homepage = 'https://diesel.rs'
+repository = 'https://github.com/diesel-rs/diesel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diesel'

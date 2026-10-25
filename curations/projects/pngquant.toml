@@ -1,0 +1,21 @@
+id = 'pngquant'
+name = 'pngquant'
+
+homepage = 'https://pngquant.org'
+repository = 'https://github.com/kornelski/pngquant.git'
+
+[[package]]
+channel = 'arch'
+name = 'pngquant'
+
+[[package]]
+channel = 'debian'
+name = 'pngquant'
+
+[[package]]
+channel = 'fedora'
+name = 'pngquant'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pngquant'

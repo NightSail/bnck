@@ -1,0 +1,16 @@
+id = 'amsynth'
+name = 'amsynth'
+
+homepage = 'https://amsynth.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'amsynth-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'amsynth'
+
+[[package]]
+channel = 'fedora'
+name = 'amsynth'

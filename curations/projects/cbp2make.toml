@@ -1,0 +1,8 @@
+id = 'cbp2make'
+name = 'cbp2make'
+
+homepage = 'https://sourceforge.net/projects/cbp2make'
+
+[[package]]
+channel = 'debian'
+name = 'cbp2make'

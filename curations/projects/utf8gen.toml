@@ -1,0 +1,8 @@
+id = 'utf8gen'
+name = 'utf8gen'
+
+homepage = 'https://unifoundry.com/utf8gen'
+
+[[package]]
+channel = 'debian'
+name = 'utf8gen'

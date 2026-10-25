@@ -1,0 +1,16 @@
+id = 'cppunit'
+name = 'cppunit'
+
+homepage = 'https://wiki.freedesktop.org/www/Software/cppunit'
+
+[[package]]
+channel = 'arch'
+name = 'cppunit'
+
+[[package]]
+channel = 'fedora'
+name = 'cppunit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cppunit'

@@ -1,0 +1,20 @@
+id = 'ppp'
+name = 'ppp'
+
+homepage = 'https://www.samba.org/ppp'
+
+[[package]]
+channel = 'arch'
+name = 'ppp'
+
+[[package]]
+channel = 'debian'
+name = 'ppp'
+
+[[package]]
+channel = 'debian'
+name = 'ppp-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ppp'

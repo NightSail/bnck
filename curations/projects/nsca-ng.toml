@@ -1,0 +1,20 @@
+id = 'nsca-ng'
+name = 'nsca-ng'
+
+homepage = 'https://github.com/weiss/nsca-ng'
+
+[[package]]
+channel = 'debian'
+name = 'nsca-ng-client'
+
+[[package]]
+channel = 'debian'
+name = 'nsca-ng-server'
+
+[[package]]
+channel = 'fedora'
+name = 'nsca-ng-client'
+
+[[package]]
+channel = 'fedora'
+name = 'nsca-ng-server'

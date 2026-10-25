@@ -1,0 +1,8 @@
+id = 'python3-wikkid'
+name = 'python3-wikkid'
+
+homepage = 'https://github.com/wikkid-team/wikkid'
+
+[[package]]
+channel = 'debian'
+name = 'python3-wikkid'

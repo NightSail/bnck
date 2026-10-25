@@ -1,0 +1,8 @@
+id = 'pgpgpg'
+name = 'pgpgpg'
+
+homepage = 'https://mroth.net/pgpgpg/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'pgpgpg'

@@ -1,0 +1,12 @@
+id = 'hypridle'
+name = 'hypridle'
+
+homepage = 'https://github.com/hyprwm/hypridle'
+
+[[package]]
+channel = 'arch'
+name = 'hypridle'
+
+[[package]]
+channel = 'debian'
+name = 'hypridle'

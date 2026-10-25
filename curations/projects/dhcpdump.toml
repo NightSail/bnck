@@ -1,0 +1,16 @@
+id = 'dhcpdump'
+name = 'dhcpdump'
+
+homepage = 'https://github.com/dhcpdump-org/dhcpdump'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpdump'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcpdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhcpdump'

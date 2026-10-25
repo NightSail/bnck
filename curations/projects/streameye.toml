@@ -1,0 +1,8 @@
+id = 'streameye'
+name = 'streameye'
+
+homepage = 'https://github.com/ccrisan/streameye'
+
+[[package]]
+channel = 'fedora'
+name = 'streameye'

@@ -1,0 +1,8 @@
+id = 'ripe-atlas-tools'
+name = 'ripe-atlas-tools'
+
+homepage = 'https://github.com/RIPE-NCC/ripe-atlas-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ripe-atlas-tools'

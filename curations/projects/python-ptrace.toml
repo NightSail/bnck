@@ -1,0 +1,12 @@
+id = 'python-ptrace'
+name = 'python-ptrace'
+
+homepage = 'https://github.com/vstinner/python-ptrace'
+
+[[package]]
+channel = 'arch'
+name = 'python-ptrace'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ptrace'

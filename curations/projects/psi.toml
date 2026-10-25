@@ -1,0 +1,12 @@
+id = 'psi'
+name = 'psi'
+
+homepage = 'https://psi-im.org'
+
+[[package]]
+channel = 'arch'
+name = 'psi'
+
+[[package]]
+channel = 'debian'
+name = 'psi'

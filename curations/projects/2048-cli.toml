@@ -1,0 +1,16 @@
+id = '2048-cli'
+name = '2048-cli'
+
+homepage = 'https://github.com/Tiehuis/2048-cli'
+
+[[package]]
+channel = 'fedora'
+name = '2048-cli'
+
+[[package]]
+channel = 'fedora'
+name = '2048-cli-nocurses'
+
+[[package]]
+channel = 'fedora'
+name = '2048-cli-sdl'

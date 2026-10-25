@@ -1,0 +1,8 @@
+id = 'u2o'
+name = 'u2o'
+
+homepage = 'https://github.com/adyeths/u2o'
+
+[[package]]
+channel = 'debian'
+name = 'u2o'

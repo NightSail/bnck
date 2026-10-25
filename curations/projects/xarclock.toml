@@ -1,0 +1,8 @@
+id = 'xarclock'
+name = 'xarclock'
+
+homepage = 'https://www.ibiblio.org/pub/Linux/X11/clocks'
+
+[[package]]
+channel = 'debian'
+name = 'xarclock'

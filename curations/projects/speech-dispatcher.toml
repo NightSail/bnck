@@ -1,0 +1,8 @@
+id = 'speech-dispatcher'
+name = 'speech-dispatcher'
+
+homepage = 'http://www.freebsoft.org/speechd'
+
+[[package]]
+channel = 'arch'
+name = 'speech-dispatcher'

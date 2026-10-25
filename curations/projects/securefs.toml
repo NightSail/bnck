@@ -1,0 +1,12 @@
+id = 'securefs'
+name = 'securefs'
+
+repository = 'https://github.com/netheril96/securefs.git'
+
+[[package]]
+channel = 'debian'
+name = 'securefs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/securefs'

@@ -1,0 +1,8 @@
+id = 'libirecovery-utils'
+name = 'libirecovery-utils'
+
+homepage = 'https://github.com/libimobiledevice/libirecovery'
+
+[[package]]
+channel = 'fedora'
+name = 'libirecovery-utils'

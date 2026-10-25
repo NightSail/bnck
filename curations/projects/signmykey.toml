@@ -1,0 +1,9 @@
+id = 'signmykey'
+name = 'signmykey'
+
+homepage = 'https://signmykey.io'
+repository = 'https://github.com/signmykeyio/signmykey.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/signmykey'

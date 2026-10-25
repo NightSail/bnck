@@ -1,0 +1,8 @@
+id = 'weaviate'
+name = 'weaviate'
+
+homepage = 'https://weaviate.io/developers/weaviate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weaviate'

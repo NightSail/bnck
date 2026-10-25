@@ -1,0 +1,8 @@
+id = 'asroute'
+name = 'asroute'
+
+repository = 'https://github.com/stevenpack/asroute.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asroute'

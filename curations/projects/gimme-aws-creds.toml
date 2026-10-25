@@ -1,0 +1,8 @@
+id = 'gimme-aws-creds'
+name = 'gimme-aws-creds'
+
+repository = 'https://github.com/Nike-Inc/gimme-aws-creds.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gimme-aws-creds'

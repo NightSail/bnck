@@ -1,0 +1,16 @@
+id = 'alembic'
+name = 'alembic'
+
+homepage = 'http://www.alembic.io'
+
+[[package]]
+channel = 'arch'
+name = 'alembic'
+
+[[package]]
+channel = 'debian'
+name = 'alembic-graphics'
+
+[[package]]
+channel = 'fedora'
+name = 'alembic'

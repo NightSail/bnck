@@ -1,0 +1,12 @@
+id = 'tcptraceroute'
+name = 'tcptraceroute'
+
+repository = 'https://github.com/mct/tcptraceroute.git'
+
+[[package]]
+channel = 'debian'
+name = 'tcptraceroute'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcptraceroute'

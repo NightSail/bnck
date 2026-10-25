@@ -1,0 +1,28 @@
+id = 'linuxquota'
+name = 'linuxquota'
+
+homepage = 'https://sourceforge.net/projects/linuxquota'
+
+[[package]]
+channel = 'arch'
+name = 'quota-tools'
+
+[[package]]
+channel = 'debian'
+name = 'quota'
+
+[[package]]
+channel = 'fedora'
+name = 'quota'
+
+[[package]]
+channel = 'fedora'
+name = 'quota-nld'
+
+[[package]]
+channel = 'fedora'
+name = 'quota-rpc'
+
+[[package]]
+channel = 'fedora'
+name = 'quota-warnquota'

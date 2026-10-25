@@ -1,0 +1,8 @@
+id = 'coan'
+name = 'coan'
+
+homepage = 'http://coan2.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'coan'

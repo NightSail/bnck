@@ -1,0 +1,12 @@
+id = 'nodejs-yaml'
+name = 'nodejs-yaml'
+
+homepage = 'https://eemeli.org/yaml'
+
+[[package]]
+channel = 'arch'
+name = 'nodejs-yaml'
+
+[[package]]
+channel = 'debian'
+name = 'node-js-yaml'

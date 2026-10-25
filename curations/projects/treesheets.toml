@@ -1,0 +1,12 @@
+id = 'treesheets'
+name = 'treesheets'
+
+homepage = 'https://strlen.com/treesheets'
+
+[[package]]
+channel = 'arch'
+name = 'treesheets'
+
+[[package]]
+channel = 'debian'
+name = 'treesheets'

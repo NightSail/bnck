@@ -1,0 +1,8 @@
+id = 'libnjb-tools'
+name = 'libnjb-tools'
+
+homepage = 'http://libnjb.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libnjb-tools'

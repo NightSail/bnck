@@ -1,0 +1,8 @@
+id = 'libfsxfs-utils'
+name = 'libfsxfs-utils'
+
+homepage = 'https://github.com/libyal/libfsxfs'
+
+[[package]]
+channel = 'debian'
+name = 'libfsxfs-utils'

@@ -1,0 +1,16 @@
+id = 'tokodon'
+name = 'tokodon'
+
+homepage = 'https://apps.kde.org/tokodon'
+
+[[package]]
+channel = 'arch'
+name = 'tokodon'
+
+[[package]]
+channel = 'debian'
+name = 'tokodon'
+
+[[package]]
+channel = 'fedora'
+name = 'tokodon'

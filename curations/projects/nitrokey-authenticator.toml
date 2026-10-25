@@ -1,0 +1,8 @@
+id = 'nitrokey-authenticator'
+name = 'nitrokey-authenticator'
+
+homepage = 'https://gitlab.com/prezu-debian/nitrokeyauthenticator'
+
+[[package]]
+channel = 'debian'
+name = 'nitrokey-authenticator'

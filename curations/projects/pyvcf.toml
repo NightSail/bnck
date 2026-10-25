@@ -1,0 +1,8 @@
+id = 'pyvcf'
+name = 'pyvcf'
+
+homepage = 'https://github.com/jamescasbon/PyVCF'
+
+[[package]]
+channel = 'debian'
+name = 'pyvcf'

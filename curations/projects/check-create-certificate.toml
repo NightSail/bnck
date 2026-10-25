@@ -1,0 +1,8 @@
+id = 'check-create-certificate'
+name = 'check-create-certificate'
+
+homepage = 'https://github.com/jdsn/check-create-certificate'
+
+[[package]]
+channel = 'fedora'
+name = 'check-create-certificate'

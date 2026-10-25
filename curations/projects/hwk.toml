@@ -1,0 +1,8 @@
+id = 'hwk'
+name = 'hwk'
+
+homepage = 'https://hackage.haskell.org/package/hwk'
+
+[[package]]
+channel = 'fedora'
+name = 'hwk'

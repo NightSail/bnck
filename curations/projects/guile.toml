@@ -1,0 +1,52 @@
+id = 'guile'
+name = 'guile'
+
+homepage = 'https://www.gnu.org/software/guile'
+
+[[package]]
+channel = 'arch'
+name = 'guile'
+
+[[package]]
+channel = 'arch'
+name = 'guile2.2'
+
+[[package]]
+channel = 'debian'
+name = 'guile-2.2'
+
+[[package]]
+channel = 'debian'
+name = 'guile-2.2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'guile-3.0'
+
+[[package]]
+channel = 'debian'
+name = 'guile-3.0-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'compat-guile18'
+
+[[package]]
+channel = 'fedora'
+name = 'compat-guile18-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'guile22'
+
+[[package]]
+channel = 'fedora'
+name = 'guile22-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'guile30'
+
+[[package]]
+channel = 'fedora'
+name = 'guile30-devel'

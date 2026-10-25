@@ -1,0 +1,20 @@
+id = 'nickle'
+name = 'nickle'
+
+homepage = 'https://www.nickle.org'
+
+[[package]]
+channel = 'arch'
+name = 'nickle'
+
+[[package]]
+channel = 'debian'
+name = 'nickle'
+
+[[package]]
+channel = 'fedora'
+name = 'nickle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nickle'

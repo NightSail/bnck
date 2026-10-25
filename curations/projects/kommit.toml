@@ -1,0 +1,16 @@
+id = 'kommit'
+name = 'kommit'
+
+homepage = 'https://github.com/vigo/kommit'
+
+[[package]]
+channel = 'arch'
+name = 'kommit'
+
+[[package]]
+channel = 'fedora'
+name = 'kommit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kommit'

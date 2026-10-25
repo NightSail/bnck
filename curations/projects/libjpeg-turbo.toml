@@ -1,0 +1,12 @@
+id = 'libjpeg-turbo'
+name = 'libjpeg-turbo'
+
+homepage = 'https://libjpeg-turbo.org'
+
+[[package]]
+channel = 'arch'
+name = 'libjpeg-turbo'
+
+[[package]]
+channel = 'debian'
+name = 'libjpeg-turbo-progs'

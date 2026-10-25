@@ -1,0 +1,10 @@
+id = 'kcc'
+name = 'kcc'
+
+[[package]]
+channel = 'debian'
+name = 'kcc'
+
+[[package]]
+channel = 'fedora'
+name = 'kcc'

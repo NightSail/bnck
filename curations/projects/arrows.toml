@@ -1,0 +1,8 @@
+id = 'arrows'
+name = 'arrows'
+
+homepage = 'http://noreason.ca'
+
+[[package]]
+channel = 'fedora'
+name = 'arrows'

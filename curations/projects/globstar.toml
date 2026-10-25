@@ -1,0 +1,9 @@
+id = 'globstar'
+name = 'globstar'
+
+homepage = 'https://globstar.dev'
+repository = 'https://github.com/DeepSourceCorp/globstar.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/globstar'

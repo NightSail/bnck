@@ -1,0 +1,8 @@
+id = 'desktopfolder'
+name = 'desktopfolder'
+
+homepage = 'https://github.com/spheras/desktopfolder'
+
+[[package]]
+channel = 'debian'
+name = 'desktopfolder'

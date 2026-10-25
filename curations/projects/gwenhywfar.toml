@@ -1,0 +1,24 @@
+id = 'gwenhywfar'
+name = 'gwenhywfar'
+
+homepage = 'https://www.aquamaniac.de/rdm/projects/gwenhywfar'
+
+[[package]]
+channel = 'arch'
+name = 'gwenhywfar'
+
+[[package]]
+channel = 'debian'
+name = 'gwenhywfar-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gwenhywfar'
+
+[[package]]
+channel = 'fedora'
+name = 'gwenhywfar-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gwenhywfar'

@@ -1,0 +1,8 @@
+id = 'pyscanfcs'
+name = 'pyscanfcs'
+
+homepage = 'https://fcs-analysis.github.io/PyScanFCS'
+
+[[package]]
+channel = 'debian'
+name = 'pyscanfcs'

@@ -1,0 +1,8 @@
+id = 'libcdio-paranoia'
+name = 'libcdio-paranoia'
+
+homepage = 'https://github.com/libcdio/libcdio-paranoia'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcdio-paranoia'

@@ -1,0 +1,12 @@
+id = 'python3-heatclient'
+name = 'python3-heatclient'
+
+homepage = 'https://github.com/openstack/python-heatclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-heatclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-heatclient'

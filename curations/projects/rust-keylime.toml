@@ -1,0 +1,16 @@
+id = 'rust-keylime'
+name = 'rust-keylime'
+
+homepage = 'https://github.com/keylime/rust-keylime'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-agent-rust'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-agent-rust-ima-emulator'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-agent-rust-push'

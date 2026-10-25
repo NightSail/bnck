@@ -1,0 +1,8 @@
+id = 'fcitx-fbterm'
+name = 'fcitx-fbterm'
+
+homepage = 'http://code.google.com/p/fcitx'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx-fbterm'

@@ -1,0 +1,12 @@
+id = 'cdw'
+name = 'cdw'
+
+homepage = 'https://cdw.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cdw'
+
+[[package]]
+channel = 'fedora'
+name = 'cdw'

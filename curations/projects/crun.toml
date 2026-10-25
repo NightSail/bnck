@@ -1,0 +1,28 @@
+id = 'crun'
+name = 'crun'
+
+homepage = 'https://github.com/containers/crun'
+
+[[package]]
+channel = 'arch'
+name = 'crun'
+
+[[package]]
+channel = 'arch'
+name = 'krun'
+
+[[package]]
+channel = 'debian'
+name = 'crun'
+
+[[package]]
+channel = 'fedora'
+name = 'crun'
+
+[[package]]
+channel = 'fedora'
+name = 'crun-krun'
+
+[[package]]
+channel = 'fedora'
+name = 'crun-wasm'

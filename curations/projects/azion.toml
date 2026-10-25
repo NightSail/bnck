@@ -1,0 +1,8 @@
+id = 'azion'
+name = 'azion'
+
+repository = 'https://github.com/aziontech/azion.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azion'

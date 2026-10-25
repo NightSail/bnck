@@ -1,0 +1,8 @@
+id = 'hypnotix'
+name = 'hypnotix'
+
+homepage = 'https://github.com/linuxmint/hypnotix'
+
+[[package]]
+channel = 'arch'
+name = 'hypnotix'

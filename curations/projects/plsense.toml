@@ -1,0 +1,8 @@
+id = 'plsense'
+name = 'plsense'
+
+homepage = 'https://github.com/aki2o/plsense'
+
+[[package]]
+channel = 'debian'
+name = 'plsense'

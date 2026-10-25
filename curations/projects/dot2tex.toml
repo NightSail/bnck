@@ -1,0 +1,16 @@
+id = 'dot2tex'
+name = 'dot2tex'
+
+homepage = 'https://dot2tex.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'dot2tex'
+
+[[package]]
+channel = 'debian'
+name = 'dot2tex'
+
+[[package]]
+channel = 'fedora'
+name = 'dot2tex'

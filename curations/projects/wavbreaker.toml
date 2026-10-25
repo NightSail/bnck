@@ -1,0 +1,12 @@
+id = 'wavbreaker'
+name = 'wavbreaker'
+
+homepage = 'http://wavbreaker.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wavbreaker'
+
+[[package]]
+channel = 'fedora'
+name = 'wavbreaker'

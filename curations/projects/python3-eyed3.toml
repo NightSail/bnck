@@ -1,0 +1,8 @@
+id = 'python3-eyed3'
+name = 'python3-eyed3'
+
+homepage = 'https://github.com/nicfit/eyeD3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-eyed3'

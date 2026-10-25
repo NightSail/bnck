@@ -1,0 +1,13 @@
+id = 'ko'
+name = 'ko'
+
+homepage = 'https://ko.build'
+repository = 'https://github.com/ko-build/ko.git'
+
+[[package]]
+channel = 'arch'
+name = 'ko'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ko'

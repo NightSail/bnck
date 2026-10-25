@@ -1,0 +1,8 @@
+id = 'zoneminder'
+name = 'zoneminder'
+
+homepage = 'https://www.zoneminder.com'
+
+[[package]]
+channel = 'debian'
+name = 'zoneminder'

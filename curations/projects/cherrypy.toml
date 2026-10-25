@@ -1,0 +1,16 @@
+id = 'cherrypy'
+name = 'cherrypy'
+
+homepage = 'https://cherrypy.dev'
+
+[[package]]
+channel = 'arch'
+name = 'python-cherrypy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cherrypy3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cherrypy'

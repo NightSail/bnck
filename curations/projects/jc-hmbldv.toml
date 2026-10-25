@@ -1,0 +1,8 @@
+id = 'jc-hmbldv'
+name = 'jc'
+
+repository = 'https://github.com/hmbldv/jc'
+
+[[package]]
+channel = 'crates.io'
+name = 'jc'

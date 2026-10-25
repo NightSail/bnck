@@ -1,0 +1,20 @@
+id = 'libmwaw'
+name = 'libmwaw'
+
+homepage = 'https://sourceforge.net/p/libmwaw/wiki/Home'
+
+[[package]]
+channel = 'arch'
+name = 'libmwaw'
+
+[[package]]
+channel = 'debian'
+name = 'libmwaw-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libmwaw-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmwaw'

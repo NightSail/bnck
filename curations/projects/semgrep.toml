@@ -1,0 +1,9 @@
+id = 'semgrep'
+name = 'semgrep'
+
+homepage = 'https://semgrep.dev'
+repository = 'https://github.com/semgrep/semgrep.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/semgrep'

@@ -1,0 +1,8 @@
+id = 'nss-wrapper'
+name = 'nss_wrapper'
+
+homepage = 'https://cwrap.org'
+
+[[package]]
+channel = 'fedora'
+name = 'nss_wrapper'

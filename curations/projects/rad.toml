@@ -1,0 +1,9 @@
+id = 'rad'
+name = 'rad'
+
+homepage = 'https://amterp.dev/rad'
+repository = 'https://github.com/amterp/rad.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rad'

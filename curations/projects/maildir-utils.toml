@@ -1,0 +1,12 @@
+id = 'maildir-utils'
+name = 'maildir-utils'
+
+homepage = 'https://www.djcbsoftware.nl/code/mu'
+
+[[package]]
+channel = 'debian'
+name = 'maildir-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'maildir-utils'

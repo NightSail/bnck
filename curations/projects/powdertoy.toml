@@ -1,0 +1,8 @@
+id = 'powdertoy'
+name = 'powdertoy'
+
+homepage = 'https://powdertoy.co.uk'
+
+[[package]]
+channel = 'fedora'
+name = 'powdertoy'

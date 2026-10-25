@@ -1,0 +1,16 @@
+id = 'unhide-forensics'
+name = 'unhide-forensics'
+
+homepage = 'https://www.unhide-forensics.info'
+
+[[package]]
+channel = 'debian'
+name = 'unhide'
+
+[[package]]
+channel = 'debian'
+name = 'unhide-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'unhide'

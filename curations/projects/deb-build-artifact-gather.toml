@@ -1,0 +1,8 @@
+id = 'deb-build-artifact-gather'
+name = 'deb-build-artifact-gather'
+
+homepage = 'https://salsa.debian.org/debian/deb-build-artifact-gather'
+
+[[package]]
+channel = 'debian'
+name = 'deb-build-artifact-gather'

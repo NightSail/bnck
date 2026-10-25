@@ -1,0 +1,21 @@
+id = 'chafa'
+name = 'chafa'
+
+homepage = 'https://hpjansson.org/chafa'
+repository = 'https://github.com/hpjansson/chafa.git'
+
+[[package]]
+channel = 'arch'
+name = 'chafa'
+
+[[package]]
+channel = 'debian'
+name = 'chafa'
+
+[[package]]
+channel = 'fedora'
+name = 'chafa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chafa'

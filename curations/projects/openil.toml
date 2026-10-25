@@ -1,0 +1,12 @@
+id = 'openil'
+name = 'openil'
+
+homepage = 'http://openil.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libdevil1c2'
+
+[[package]]
+channel = 'fedora'
+name = 'DevIL'

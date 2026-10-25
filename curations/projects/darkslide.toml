@@ -1,0 +1,8 @@
+id = 'darkslide'
+name = 'darkslide'
+
+homepage = 'https://github.com/ionelmc/python-darkslide'
+
+[[package]]
+channel = 'debian'
+name = 'darkslide'

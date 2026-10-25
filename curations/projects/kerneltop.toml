@@ -1,0 +1,8 @@
+id = 'kerneltop'
+name = 'kerneltop'
+
+homepage = 'http://www.infradead.org/~rdunlap/src'
+
+[[package]]
+channel = 'debian'
+name = 'kerneltop'

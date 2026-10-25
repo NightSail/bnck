@@ -1,0 +1,8 @@
+id = 'lsr'
+name = 'lsr'
+
+repository = 'https://tangled.org/rockorager.dev/lsr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsr'

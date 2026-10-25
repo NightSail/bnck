@@ -1,0 +1,8 @@
+id = 'trino'
+name = 'trino'
+
+homepage = 'https://trino.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trino'

@@ -1,0 +1,8 @@
+id = 'osmocom-analog'
+name = 'osmocom-analog'
+
+homepage = 'https://github.com/osmocom/osmocom-analog'
+
+[[package]]
+channel = 'debian'
+name = 'osmocom-analog'

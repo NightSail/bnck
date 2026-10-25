@@ -1,0 +1,8 @@
+id = 'python-oslo-log'
+name = 'python-oslo-log'
+
+homepage = 'https://pypi.python.org/pypi/oslo.log/8.3.2'
+
+[[package]]
+channel = 'arch'
+name = 'python-oslo-log'

@@ -1,0 +1,8 @@
+id = 'node-tape'
+name = 'node-tape'
+
+homepage = 'https://github.com/ljharb/tape'
+
+[[package]]
+channel = 'debian'
+name = 'node-tape'

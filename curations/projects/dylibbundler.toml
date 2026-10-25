@@ -1,0 +1,8 @@
+id = 'dylibbundler'
+name = 'dylibbundler'
+
+repository = 'https://github.com/auriamg/macdylibbundler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dylibbundler'

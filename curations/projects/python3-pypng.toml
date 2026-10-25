@@ -1,0 +1,8 @@
+id = 'python3-pypng'
+name = 'python3-pypng'
+
+homepage = 'http://pypi.python.org/pypi/pypng'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pypng'

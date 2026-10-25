@@ -1,0 +1,12 @@
+id = 'filtlong'
+name = 'filtlong'
+
+homepage = 'https://github.com/rrwick/Filtlong'
+
+[[package]]
+channel = 'debian'
+name = 'filtlong'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/filtlong'

@@ -1,0 +1,8 @@
+id = 'nftlb'
+name = 'nftlb'
+
+homepage = 'https://github.com/zevenet/nftlb'
+
+[[package]]
+channel = 'debian'
+name = 'nftlb'

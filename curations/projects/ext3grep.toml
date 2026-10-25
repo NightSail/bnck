@@ -1,0 +1,12 @@
+id = 'ext3grep'
+name = 'ext3grep'
+
+homepage = 'https://code.google.com/archive/p/ext3grep'
+
+[[package]]
+channel = 'arch'
+name = 'ext3grep'
+
+[[package]]
+channel = 'debian'
+name = 'ext3grep'

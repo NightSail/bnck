@@ -1,0 +1,16 @@
+id = 'vuln'
+name = 'vuln'
+
+homepage = 'https://github.com/golang/vuln'
+
+[[package]]
+channel = 'arch'
+name = 'govulncheck'
+
+[[package]]
+channel = 'debian'
+name = 'govulncheck'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-vuln'

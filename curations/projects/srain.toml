@@ -1,0 +1,8 @@
+id = 'srain'
+name = 'srain'
+
+homepage = 'https://srain.silverrainz.me'
+
+[[package]]
+channel = 'debian'
+name = 'srain'

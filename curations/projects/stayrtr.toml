@@ -1,0 +1,8 @@
+id = 'stayrtr'
+name = 'stayrtr'
+
+homepage = 'https://github.com/bgp/stayrtr'
+
+[[package]]
+channel = 'debian'
+name = 'stayrtr'

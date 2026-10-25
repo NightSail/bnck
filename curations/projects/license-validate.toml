@@ -1,0 +1,8 @@
+id = 'license-validate'
+name = 'license-validate'
+
+homepage = 'https://pagure.io/copr/license-validate'
+
+[[package]]
+channel = 'fedora'
+name = 'license-validate'

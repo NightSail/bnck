@@ -1,0 +1,8 @@
+id = 'pconsole'
+name = 'pconsole'
+
+homepage = 'https://walterdejong.github.io/pconsole'
+
+[[package]]
+channel = 'debian'
+name = 'pconsole'

@@ -1,0 +1,8 @@
+id = 'mailpit'
+name = 'mailpit'
+
+homepage = 'https://mailpit.axllent.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mailpit'

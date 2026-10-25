@@ -1,0 +1,8 @@
+id = 'gitkraken-cli'
+name = 'gitkraken-cli'
+
+homepage = 'https://github.com/gitkraken/gk-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gitkraken-cli'

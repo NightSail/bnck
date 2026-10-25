@@ -1,0 +1,12 @@
+id = 'frozen-bubble'
+name = 'frozen-bubble'
+
+homepage = 'http://www.frozen-bubble.org'
+
+[[package]]
+channel = 'fedora'
+name = 'frozen-bubble'
+
+[[package]]
+channel = 'fedora'
+name = 'frozen-bubble-server'

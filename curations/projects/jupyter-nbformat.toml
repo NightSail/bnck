@@ -1,0 +1,8 @@
+id = 'jupyter-nbformat'
+name = 'jupyter-nbformat'
+
+homepage = 'https://github.com/jupyter/nbformat'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-nbformat'

@@ -1,0 +1,9 @@
+id = 'libslax'
+name = 'libslax'
+
+homepage = 'https://github.com/Juniper/libslax/wiki'
+repository = 'https://github.com/Juniper/libslax.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libslax'

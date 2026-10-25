@@ -1,0 +1,12 @@
+id = 'dq'
+name = 'dq'
+
+homepage = 'https://mojzis.com/software/dq'
+
+[[package]]
+channel = 'debian'
+name = 'dq'
+
+[[package]]
+channel = 'debian'
+name = 'dqcache'

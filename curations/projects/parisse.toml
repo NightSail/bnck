@@ -1,0 +1,16 @@
+id = 'parisse'
+name = '~parisse'
+
+homepage = 'https://www-fourier.ujf-grenoble.fr/~parisse/giac.html'
+
+[[package]]
+channel = 'debian'
+name = 'xcas'
+
+[[package]]
+channel = 'fedora'
+name = 'giac'
+
+[[package]]
+channel = 'fedora'
+name = 'giac-xcas'

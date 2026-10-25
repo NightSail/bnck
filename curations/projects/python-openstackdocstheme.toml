@@ -1,0 +1,8 @@
+id = 'python-openstackdocstheme'
+name = 'python-openstackdocstheme'
+
+homepage = 'https://opendev.org/openstack/openstackdocstheme'
+
+[[package]]
+channel = 'arch'
+name = 'python-openstackdocstheme'

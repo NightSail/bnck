@@ -1,0 +1,12 @@
+id = 'buildkit-moby'
+name = 'buildkit'
+
+repository = 'https://github.com/moby/buildkit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buildkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buildkitd'

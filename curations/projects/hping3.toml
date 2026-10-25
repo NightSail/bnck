@@ -1,0 +1,12 @@
+id = 'hping3'
+name = 'hping3'
+
+homepage = 'http://www.hping.org'
+
+[[package]]
+channel = 'debian'
+name = 'hping3'
+
+[[package]]
+channel = 'fedora'
+name = 'hping3'

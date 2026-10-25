@@ -1,0 +1,12 @@
+id = 'gfs'
+name = 'gfs'
+
+homepage = 'http://gfs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gerris'
+
+[[package]]
+channel = 'debian'
+name = 'gfsview-batch'

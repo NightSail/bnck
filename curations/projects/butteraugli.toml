@@ -1,0 +1,8 @@
+id = 'butteraugli'
+name = 'butteraugli'
+
+homepage = 'https://github.com/google/butteraugli'
+
+[[package]]
+channel = 'debian'
+name = 'butteraugli'

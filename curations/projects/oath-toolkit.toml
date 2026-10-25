@@ -1,0 +1,20 @@
+id = 'oath-toolkit'
+name = 'oath-toolkit'
+
+homepage = 'https://www.nongnu.org/oath-toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'oathtool'
+
+[[package]]
+channel = 'debian'
+name = 'pskctool'
+
+[[package]]
+channel = 'fedora'
+name = 'oathtool'
+
+[[package]]
+channel = 'fedora'
+name = 'pskctool'

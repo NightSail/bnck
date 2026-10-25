@@ -1,0 +1,8 @@
+id = 'ob-xf-standalone'
+name = 'ob-xf-standalone'
+
+homepage = 'https://github.com/surge-synthesizer/OB-Xf'
+
+[[package]]
+channel = 'arch'
+name = 'ob-xf-standalone'

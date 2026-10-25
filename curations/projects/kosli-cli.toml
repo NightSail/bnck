@@ -1,0 +1,9 @@
+id = 'kosli-cli'
+name = 'kosli-cli'
+
+homepage = 'https://docs.kosli.com'
+repository = 'https://github.com/kosli-dev/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kosli-cli'

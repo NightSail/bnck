@@ -1,0 +1,8 @@
+id = 'pynx'
+name = 'pynx'
+
+homepage = 'https://gitlab.esrf.fr/favre/PyNX'
+
+[[package]]
+channel = 'debian'
+name = 'pynx'

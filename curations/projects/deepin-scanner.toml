@@ -1,0 +1,8 @@
+id = 'deepin-scanner'
+name = 'deepin-scanner'
+
+homepage = 'https://github.com/linuxdeepin/deepin-scanner'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-scanner'

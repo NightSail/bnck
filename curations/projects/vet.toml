@@ -1,0 +1,8 @@
+id = 'vet'
+name = 'vet'
+
+homepage = 'https://safedep.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vet'

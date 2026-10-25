@@ -1,0 +1,8 @@
+id = 'rmcast'
+name = 'rmcast'
+
+homepage = 'https://web.archive.org/web/20250722003825/https://www.land.ufrj.br/tools/rmcast/rmcast.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmcast'

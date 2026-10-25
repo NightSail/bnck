@@ -1,0 +1,12 @@
+id = 'hnb'
+name = 'hnb'
+
+homepage = 'http://hnb.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'hnb'
+
+[[package]]
+channel = 'fedora'
+name = 'hnb'

@@ -1,0 +1,8 @@
+id = 'python3-aioptdevices'
+name = 'python3-aioptdevices'
+
+homepage = 'https://github.com/ParemTech-Inc/aioptdevices'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aioptdevices'

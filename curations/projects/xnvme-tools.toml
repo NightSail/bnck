@@ -1,0 +1,8 @@
+id = 'xnvme-tools'
+name = 'xnvme-tools'
+
+homepage = 'https://github.com/xnvme/xnvme'
+
+[[package]]
+channel = 'fedora'
+name = 'xnvme-tools'

@@ -1,0 +1,8 @@
+id = 'cweb'
+name = 'cweb'
+
+homepage = 'https://cs.stanford.edu/~knuth/cweb.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cweb'

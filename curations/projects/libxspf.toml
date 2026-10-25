@@ -1,0 +1,8 @@
+id = 'libxspf'
+name = 'libxspf'
+
+homepage = 'https://libspiff.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxspf'

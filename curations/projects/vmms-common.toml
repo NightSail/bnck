@@ -1,0 +1,8 @@
+id = 'vmms-common'
+name = 'vmms-common'
+
+homepage = 'https://salsa.debian.org/openstack-team/services/vmms'
+
+[[package]]
+channel = 'debian'
+name = 'vmms-common'

@@ -1,0 +1,8 @@
+id = 'python3-portpicker'
+name = 'python3-portpicker'
+
+homepage = 'https://github.com/google/python_portpicker'
+
+[[package]]
+channel = 'debian'
+name = 'python3-portpicker'

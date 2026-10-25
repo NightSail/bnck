@@ -1,0 +1,12 @@
+id = 'hdfs'
+name = 'hdfs'
+
+homepage = 'https://github.com/colinmarc/hdfs'
+
+[[package]]
+channel = 'debian'
+name = 'hdfs-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-colinmarc-hdfs-2'

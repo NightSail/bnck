@@ -1,0 +1,12 @@
+id = 's3ql'
+name = 's3ql'
+
+homepage = 'https://github.com/s3ql/s3ql'
+
+[[package]]
+channel = 'debian'
+name = 's3ql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s3ql'

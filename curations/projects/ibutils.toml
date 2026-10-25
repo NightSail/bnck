@@ -1,0 +1,8 @@
+id = 'ibutils'
+name = 'ibutils'
+
+homepage = 'https://www.openfabrics.org/downloads/ibutils'
+
+[[package]]
+channel = 'debian'
+name = 'ibutils'

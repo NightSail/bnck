@@ -1,0 +1,8 @@
+id = 'golang-gitlab-commonmark-linkify'
+name = 'golang-gitlab-commonmark-linkify'
+
+homepage = 'https://gitlab.com/golang-commonmark/linkify'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-gitlab-commonmark-linkify'

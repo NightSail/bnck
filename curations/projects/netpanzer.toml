@@ -1,0 +1,8 @@
+id = 'netpanzer'
+name = 'netpanzer'
+
+homepage = 'http://www.netpanzer.info'
+
+[[package]]
+channel = 'fedora'
+name = 'netpanzer'

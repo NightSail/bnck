@@ -1,0 +1,20 @@
+id = 'khard'
+name = 'khard'
+
+homepage = 'https://khard.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'khard'
+
+[[package]]
+channel = 'debian'
+name = 'khard'
+
+[[package]]
+channel = 'fedora'
+name = 'khard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/khard'

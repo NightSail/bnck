@@ -1,0 +1,8 @@
+id = 'cbflib-bin'
+name = 'cbflib-bin'
+
+homepage = 'http://www.bernstein-plus-sons.com/software/CBF'
+
+[[package]]
+channel = 'debian'
+name = 'cbflib-bin'

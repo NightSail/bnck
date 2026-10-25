@@ -1,0 +1,8 @@
+id = 'datum-gateway'
+name = 'datum-gateway'
+
+homepage = 'https://ocean.xyz'
+
+[[package]]
+channel = 'debian'
+name = 'datum-gateway'

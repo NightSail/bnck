@@ -1,0 +1,8 @@
+id = 'levmar-devel'
+name = 'levmar-devel'
+
+homepage = 'https://www.ics.forth.gr/~lourakis/levmar'
+
+[[package]]
+channel = 'fedora'
+name = 'levmar-devel'

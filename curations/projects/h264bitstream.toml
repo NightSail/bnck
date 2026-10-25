@@ -1,0 +1,8 @@
+id = 'h264bitstream'
+name = 'h264bitstream'
+
+homepage = 'https://h264bitstream.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/h264bitstream'

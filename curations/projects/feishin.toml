@@ -1,0 +1,8 @@
+id = 'feishin'
+name = 'feishin'
+
+homepage = 'https://github.com/jeffvli/feishin'
+
+[[package]]
+channel = 'arch'
+name = 'feishin'

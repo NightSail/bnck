@@ -1,0 +1,8 @@
+id = 'uefi-run'
+name = 'uefi-run'
+
+homepage = 'https://crates.io/crates/uefi-run'
+
+[[package]]
+channel = 'fedora'
+name = 'uefi-run'

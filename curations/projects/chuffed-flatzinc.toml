@@ -1,0 +1,8 @@
+id = 'chuffed-flatzinc'
+name = 'chuffed-flatzinc'
+
+homepage = 'https://github.com/chuffed/chuffed'
+
+[[package]]
+channel = 'debian'
+name = 'chuffed-flatzinc'

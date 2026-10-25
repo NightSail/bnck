@@ -1,0 +1,8 @@
+id = 'libmusicxml'
+name = 'libmusicxml'
+
+homepage = 'https://github.com/grame-cncm/libmusicxml'
+
+[[package]]
+channel = 'arch'
+name = 'libmusicxml'

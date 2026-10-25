@@ -1,0 +1,8 @@
+id = 'lspmux'
+name = 'lspmux'
+
+repository = 'https://codeberg.org/p2502/lspmux.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lspmux'

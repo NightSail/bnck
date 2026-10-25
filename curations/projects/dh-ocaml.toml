@@ -1,0 +1,6 @@
+id = 'dh-ocaml'
+name = 'dh-ocaml'
+
+[[package]]
+channel = 'debian'
+name = 'dh-ocaml'

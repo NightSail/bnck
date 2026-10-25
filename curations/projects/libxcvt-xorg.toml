@@ -1,0 +1,9 @@
+id = 'libxcvt-xorg'
+name = 'libxcvt'
+
+homepage = 'https://www.x.org'
+repository = 'https://gitlab.freedesktop.org/xorg/lib/libxcvt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxcvt'

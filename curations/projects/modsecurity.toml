@@ -1,0 +1,12 @@
+id = 'modsecurity'
+name = 'modsecurity'
+
+homepage = 'https://github.com/owasp-modsecurity/ModSecurity'
+
+[[package]]
+channel = 'fedora'
+name = 'libmodsecurity'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/modsecurity'

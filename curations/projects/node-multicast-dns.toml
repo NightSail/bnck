@@ -1,0 +1,8 @@
+id = 'node-multicast-dns'
+name = 'node-multicast-dns'
+
+homepage = 'https://github.com/mafintosh/multicast-dns'
+
+[[package]]
+channel = 'debian'
+name = 'node-multicast-dns'

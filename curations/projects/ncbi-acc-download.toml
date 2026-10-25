@@ -1,0 +1,8 @@
+id = 'ncbi-acc-download'
+name = 'ncbi-acc-download'
+
+homepage = 'https://github.com/kblin/ncbi-acc-download'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-acc-download'

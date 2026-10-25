@@ -1,0 +1,8 @@
+id = 'jdnssec-tools'
+name = 'jdnssec-tools'
+
+repository = 'https://github.com/dblacka/jdnssec-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jdnssec-tools'

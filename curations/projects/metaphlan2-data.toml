@@ -1,0 +1,8 @@
+id = 'metaphlan2-data'
+name = 'metaphlan2-data'
+
+homepage = 'https://bitbucket.org/biobakery/metaphlan2'
+
+[[package]]
+channel = 'debian'
+name = 'metaphlan2-data'

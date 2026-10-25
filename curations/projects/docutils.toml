@@ -1,0 +1,12 @@
+id = 'docutils'
+name = 'docutils'
+
+homepage = 'https://docutils.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-docutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docutils'

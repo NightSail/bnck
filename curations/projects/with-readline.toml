@@ -1,0 +1,8 @@
+id = 'with-readline'
+name = 'with-readline'
+
+homepage = 'https://www.greenend.org.uk/rjk/sw/withreadline.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/with-readline'

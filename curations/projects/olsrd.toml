@@ -1,0 +1,8 @@
+id = 'olsrd'
+name = 'olsrd'
+
+homepage = 'https://github.com/OLSR/olsrd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/olsrd'

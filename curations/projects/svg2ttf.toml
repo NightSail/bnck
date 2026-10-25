@@ -1,0 +1,8 @@
+id = 'svg2ttf'
+name = 'svg2ttf'
+
+homepage = 'https://github.com/fontello/svg2ttf'
+
+[[package]]
+channel = 'debian'
+name = 'svg2ttf'

@@ -1,0 +1,9 @@
+id = 'tracy-genomics'
+name = 'tracy-genomics'
+
+homepage = 'https://www.gear-genomics.com/docs/tracy'
+repository = 'https://github.com/gear-genomics/tracy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tracy-genomics'

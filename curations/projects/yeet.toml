@@ -1,0 +1,8 @@
+id = 'yeet'
+name = 'yeet'
+
+repository = 'https://github.com/TecharoHQ/yeet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yeet'

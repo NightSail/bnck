@@ -1,0 +1,8 @@
+id = 'rust-grep'
+name = 'rust-grep'
+
+homepage = 'https://github.com/uutils/grep'
+
+[[package]]
+channel = 'debian'
+name = 'rust-grep'

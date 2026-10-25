@@ -1,0 +1,9 @@
+id = 'redex'
+name = 'redex'
+
+homepage = 'https://fbredex.com'
+repository = 'https://github.com/facebook/redex.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redex'

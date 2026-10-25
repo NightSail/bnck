@@ -1,0 +1,8 @@
+id = 'python3-songpal'
+name = 'python3-songpal'
+
+homepage = 'https://github.com/rytilahti/python-songpal'
+
+[[package]]
+channel = 'debian'
+name = 'python3-songpal'

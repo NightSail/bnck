@@ -1,0 +1,8 @@
+id = 'python3-propka'
+name = 'python3-propka'
+
+homepage = 'http://propka.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-propka'

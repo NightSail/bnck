@@ -1,0 +1,8 @@
+id = 'msdl'
+name = 'msdl'
+
+homepage = 'https://msdl.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msdl'

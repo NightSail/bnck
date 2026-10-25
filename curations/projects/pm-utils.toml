@@ -1,0 +1,8 @@
+id = 'pm-utils'
+name = 'pm-utils'
+
+homepage = 'http://pm-utils.freedesktop.org'
+
+[[package]]
+channel = 'debian'
+name = 'pm-utils'

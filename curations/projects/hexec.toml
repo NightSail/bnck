@@ -1,0 +1,8 @@
+id = 'hexec'
+name = 'hexec'
+
+homepage = 'http://sourceforge.net/projects/hexec'
+
+[[package]]
+channel = 'debian'
+name = 'hexec'

@@ -1,0 +1,24 @@
+id = 'openscad'
+name = 'openscad'
+
+homepage = 'https://www.openscad.org'
+
+[[package]]
+channel = 'arch'
+name = 'openscad'
+
+[[package]]
+channel = 'debian'
+name = 'openscad'
+
+[[package]]
+channel = 'debian'
+name = 'openscad-testing'
+
+[[package]]
+channel = 'fedora'
+name = 'openscad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/openscad'

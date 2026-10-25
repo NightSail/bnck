@@ -1,0 +1,13 @@
+id = 'conan'
+name = 'conan'
+
+homepage = 'https://conan.io'
+repository = 'https://github.com/conan-io/conan.git'
+
+[[package]]
+channel = 'fedora'
+name = 'conan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/conan'

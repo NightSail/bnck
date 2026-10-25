@@ -1,0 +1,6 @@
+id = 'installation-report'
+name = 'installation-report'
+
+[[package]]
+channel = 'debian'
+name = 'installation-report'

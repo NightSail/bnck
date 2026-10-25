@@ -1,0 +1,8 @@
+id = 'terraphast'
+name = 'terraphast'
+
+homepage = 'https://github.com/amkozlov/terraphast-one'
+
+[[package]]
+channel = 'debian'
+name = 'terraphast'

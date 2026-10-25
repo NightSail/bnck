@@ -1,0 +1,8 @@
+id = 'node-browserslist'
+name = 'node-browserslist'
+
+homepage = 'https://github.com/ai/browserslist'
+
+[[package]]
+channel = 'debian'
+name = 'node-browserslist'

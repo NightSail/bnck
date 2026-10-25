@@ -1,0 +1,8 @@
+id = 'python-flask'
+name = 'python-flask'
+
+homepage = 'https://flask.palletsprojects.com'
+
+[[package]]
+channel = 'arch'
+name = 'python-flask'

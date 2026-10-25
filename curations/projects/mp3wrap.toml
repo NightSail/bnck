@@ -1,0 +1,12 @@
+id = 'mp3wrap'
+name = 'mp3wrap'
+
+homepage = 'https://mp3wrap.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mp3wrap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3wrap'

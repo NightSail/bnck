@@ -1,0 +1,12 @@
+id = 'gearman-server'
+name = 'gearman-server'
+
+homepage = 'https://metacpan.org/release/Gearman-Server'
+
+[[package]]
+channel = 'debian'
+name = 'gearman-server'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Gearman-Server'

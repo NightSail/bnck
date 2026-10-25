@@ -1,0 +1,8 @@
+id = 'twlog'
+name = 'twlog'
+
+homepage = 'http://wa0eir.bcts.info/twlog.html'
+
+[[package]]
+channel = 'fedora'
+name = 'twlog'

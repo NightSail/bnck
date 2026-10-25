@@ -1,0 +1,13 @@
+id = 'pocsuite3'
+name = 'pocsuite3'
+
+homepage = 'https://pocsuite.org'
+repository = 'https://github.com/knownsec/pocsuite3.git'
+
+[[package]]
+channel = 'debian'
+name = 'pocsuite3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pocsuite3'

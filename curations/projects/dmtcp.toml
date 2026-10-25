@@ -1,0 +1,12 @@
+id = 'dmtcp'
+name = 'dmtcp'
+
+homepage = 'https://dmtcp.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'dmtcp'
+
+[[package]]
+channel = 'fedora'
+name = 'dmtcp'

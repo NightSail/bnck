@@ -1,0 +1,16 @@
+id = 'fuse-zip'
+name = 'fuse-zip'
+
+homepage = 'https://bitbucket.org/agalanin/fuse-zip'
+
+[[package]]
+channel = 'arch'
+name = 'fuse-zip'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-zip'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-zip'

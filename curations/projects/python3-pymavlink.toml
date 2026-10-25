@@ -1,0 +1,8 @@
+id = 'python3-pymavlink'
+name = 'python3-pymavlink'
+
+homepage = 'https://github.com/ArduPilot/pymavlink'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pymavlink'

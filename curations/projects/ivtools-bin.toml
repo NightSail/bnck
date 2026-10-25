@@ -1,0 +1,8 @@
+id = 'ivtools-bin'
+name = 'ivtools-bin'
+
+homepage = 'http://www.ivtools.org'
+
+[[package]]
+channel = 'debian'
+name = 'ivtools-bin'

@@ -1,0 +1,12 @@
+id = 'debbugs-team'
+name = 'debbugs-team'
+
+homepage = 'https://salsa.debian.org/debbugs-team'
+
+[[package]]
+channel = 'debian'
+name = 'debbugs'
+
+[[package]]
+channel = 'debian'
+name = 'debbugs-local'

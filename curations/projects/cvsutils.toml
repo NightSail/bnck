@@ -1,0 +1,16 @@
+id = 'cvsutils'
+name = 'cvsutils'
+
+homepage = 'https://www.red-bean.com/cvsutils'
+
+[[package]]
+channel = 'debian'
+name = 'cvsutils'
+
+[[package]]
+channel = 'fedora'
+name = 'cvsutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cvsutils'

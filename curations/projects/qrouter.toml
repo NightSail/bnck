@@ -1,0 +1,8 @@
+id = 'qrouter'
+name = 'qrouter'
+
+homepage = 'http://opencircuitdesign.com/qrouter'
+
+[[package]]
+channel = 'debian'
+name = 'qrouter'

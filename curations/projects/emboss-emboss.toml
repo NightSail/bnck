@@ -1,0 +1,8 @@
+id = 'emboss-emboss'
+name = 'EMBOSS'
+
+homepage = 'http://emboss.sf.net'
+
+[[package]]
+channel = 'fedora'
+name = 'EMBOSS'

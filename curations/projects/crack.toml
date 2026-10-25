@@ -1,0 +1,16 @@
+id = 'crack'
+name = 'crack'
+
+homepage = 'https://alecmuffett.com/alecm/software/crack'
+
+[[package]]
+channel = 'debian'
+name = 'crack'
+
+[[package]]
+channel = 'debian'
+name = 'crack-md5'
+
+[[package]]
+channel = 'fedora'
+name = 'crack'

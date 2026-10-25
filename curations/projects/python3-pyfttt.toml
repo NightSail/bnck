@@ -1,0 +1,8 @@
+id = 'python3-pyfttt'
+name = 'python3-pyfttt'
+
+homepage = 'https://github.com/briandconnelly/pyfttt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyfttt'

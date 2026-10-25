@@ -1,0 +1,8 @@
+id = 'liblatex-driver-perl'
+name = 'liblatex-driver-perl'
+
+homepage = 'https://metacpan.org/release/LaTeX-Driver'
+
+[[package]]
+channel = 'debian'
+name = 'liblatex-driver-perl'

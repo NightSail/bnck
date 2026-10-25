@@ -1,0 +1,8 @@
+id = 'grabc'
+name = 'grabc'
+
+homepage = 'https://muquit.com/muquit/software/grabc/grabc.html'
+
+[[package]]
+channel = 'debian'
+name = 'grabc'

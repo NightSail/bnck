@@ -1,0 +1,12 @@
+id = 'drbl'
+name = 'drbl'
+
+homepage = 'https://github.com/stevenshiau/drbl'
+
+[[package]]
+channel = 'arch'
+name = 'drbl'
+
+[[package]]
+channel = 'debian'
+name = 'drbl'

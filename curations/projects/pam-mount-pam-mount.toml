@@ -1,0 +1,8 @@
+id = 'pam-mount-pam-mount'
+name = 'pam_mount'
+
+homepage = 'http://pam-mount.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'pam_mount'

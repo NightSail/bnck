@@ -1,0 +1,20 @@
+id = 'debusine'
+name = 'debusine'
+
+homepage = 'https://salsa.debian.org/freexian-team/debusine'
+
+[[package]]
+channel = 'debian'
+name = 'debusine-client'
+
+[[package]]
+channel = 'debian'
+name = 'debusine-server'
+
+[[package]]
+channel = 'debian'
+name = 'debusine-signing'
+
+[[package]]
+channel = 'debian'
+name = 'debusine-worker'

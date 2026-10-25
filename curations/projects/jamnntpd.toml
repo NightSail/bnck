@@ -1,0 +1,8 @@
+id = 'jamnntpd'
+name = 'jamnntpd'
+
+homepage = 'https://ftnapps.sourceforge.net/jamnntpd.html'
+
+[[package]]
+channel = 'debian'
+name = 'jamnntpd'

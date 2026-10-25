@@ -1,0 +1,12 @@
+id = 'd52'
+name = 'd52'
+
+homepage = 'https://github.com/jblang/d52'
+
+[[package]]
+channel = 'debian'
+name = 'd52'
+
+[[package]]
+channel = 'fedora'
+name = 'd52'

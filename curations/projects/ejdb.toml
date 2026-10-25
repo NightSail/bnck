@@ -1,0 +1,9 @@
+id = 'ejdb'
+name = 'ejdb'
+
+homepage = 'https://ejdb.org'
+repository = 'https://github.com/Softmotions/ejdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ejdb'

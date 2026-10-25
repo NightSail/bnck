@@ -1,0 +1,8 @@
+id = 'kcbench'
+name = 'kcbench'
+
+homepage = 'https://gitlab.com/knurd42/kcbench'
+
+[[package]]
+channel = 'fedora'
+name = 'kcbench'

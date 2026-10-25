@@ -1,0 +1,8 @@
+id = 'python3-chevron'
+name = 'python3-chevron'
+
+homepage = 'https://github.com/noahmorrison/chevron'
+
+[[package]]
+channel = 'debian'
+name = 'python3-chevron'

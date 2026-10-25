@@ -1,0 +1,8 @@
+id = 'wmbubble'
+name = 'wmbubble'
+
+homepage = 'https://github.com/rnjacobs/wmbubble'
+
+[[package]]
+channel = 'debian'
+name = 'wmbubble'

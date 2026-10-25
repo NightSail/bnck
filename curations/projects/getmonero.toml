@@ -1,0 +1,12 @@
+id = 'getmonero'
+name = 'getmonero'
+
+homepage = 'https://getmonero.org'
+
+[[package]]
+channel = 'arch'
+name = 'monero'
+
+[[package]]
+channel = 'arch'
+name = 'monero-gui'

@@ -1,0 +1,8 @@
+id = 'xerces-j2'
+name = 'xerces-j2'
+
+homepage = 'https://xerces.apache.org/xerces2-j'
+
+[[package]]
+channel = 'fedora'
+name = 'xerces-j2'

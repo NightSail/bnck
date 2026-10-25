@@ -1,0 +1,8 @@
+id = 'tintii'
+name = 'tintii'
+
+homepage = 'https://indii.org/software/tintii'
+
+[[package]]
+channel = 'debian'
+name = 'tintii'

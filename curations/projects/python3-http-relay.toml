@@ -1,0 +1,8 @@
+id = 'python3-http-relay'
+name = 'python3-http-relay'
+
+homepage = 'https://github.com/ctu-vras/http_relay'
+
+[[package]]
+channel = 'debian'
+name = 'python3-http-relay'

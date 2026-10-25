@@ -1,0 +1,6 @@
+id = 'belenios-tool'
+name = 'belenios-tool'
+
+[[package]]
+channel = 'debian'
+name = 'belenios-tool'

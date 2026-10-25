@@ -1,0 +1,8 @@
+id = 'herold'
+name = 'herold'
+
+homepage = 'http://www.dbdoclet.org'
+
+[[package]]
+channel = 'debian'
+name = 'herold'

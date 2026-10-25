@@ -1,0 +1,8 @@
+id = 'libsmi-libsmi'
+name = 'libsmi'
+
+homepage = 'http://www.ibr.cs.tu-bs.de/projects/libsmi/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'libsmi'

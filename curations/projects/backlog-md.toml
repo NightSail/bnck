@@ -1,0 +1,8 @@
+id = 'backlog-md'
+name = 'backlog-md'
+
+homepage = 'https://github.com/MrLesk/Backlog.md'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/backlog-md'

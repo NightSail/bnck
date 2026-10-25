@@ -1,0 +1,8 @@
+id = 'python3-webassets'
+name = 'python3-webassets'
+
+homepage = 'https://github.com/miracle2k/webassets'
+
+[[package]]
+channel = 'debian'
+name = 'python3-webassets'

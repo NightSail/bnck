@@ -1,0 +1,8 @@
+id = 'python-datasets'
+name = 'python-datasets'
+
+homepage = 'https://github.com/huggingface/datasets'
+
+[[package]]
+channel = 'arch'
+name = 'python-datasets'

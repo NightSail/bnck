@@ -1,0 +1,8 @@
+id = 'python3-oletools'
+name = 'python3-oletools'
+
+homepage = 'https://www.decalage.info/python/oletools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-oletools'

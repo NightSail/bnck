@@ -1,0 +1,8 @@
+id = 'mvnvm'
+name = 'mvnvm'
+
+repository = 'https://bitbucket.org/mjensen/mvnvm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mvnvm'

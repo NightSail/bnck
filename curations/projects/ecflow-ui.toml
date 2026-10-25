@@ -1,0 +1,8 @@
+id = 'ecflow-ui'
+name = 'ecflow-ui'
+
+homepage = 'https://ecflow.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ecflow-ui'

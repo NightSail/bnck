@@ -1,0 +1,8 @@
+id = 'haskell-pretty-show'
+name = 'haskell-pretty-show'
+
+homepage = 'https://github.com/yav/pretty-show'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-pretty-show'

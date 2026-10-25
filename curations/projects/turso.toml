@@ -1,0 +1,8 @@
+id = 'turso'
+name = 'turso'
+
+repository = 'https://github.com/tursodatabase/turso.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/turso'

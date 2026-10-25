@@ -1,0 +1,13 @@
+id = 'cue'
+name = 'cue'
+
+homepage = 'https://cuelang.org'
+repository = 'https://github.com/cue-lang/cue.git'
+
+[[package]]
+channel = 'arch'
+name = 'cue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cue'

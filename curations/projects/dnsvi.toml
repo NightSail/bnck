@@ -1,0 +1,8 @@
+id = 'dnsvi'
+name = 'dnsvi'
+
+homepage = 'https://github.com/df7cb/dnsvi'
+
+[[package]]
+channel = 'debian'
+name = 'dnsvi'

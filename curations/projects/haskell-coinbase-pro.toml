@@ -1,0 +1,8 @@
+id = 'haskell-coinbase-pro'
+name = 'haskell-coinbase-pro'
+
+homepage = 'https://github.com/mdunnio/coinbase-pro'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-coinbase-pro'

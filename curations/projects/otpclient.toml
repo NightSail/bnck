@@ -1,0 +1,12 @@
+id = 'otpclient'
+name = 'otpclient'
+
+homepage = 'https://github.com/paolostivanin/OTPClient'
+
+[[package]]
+channel = 'debian'
+name = 'otpclient'
+
+[[package]]
+channel = 'debian'
+name = 'otpclient-cli'

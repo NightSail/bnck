@@ -1,0 +1,24 @@
+id = 'gradle'
+name = 'gradle'
+
+homepage = 'https://www.gradle.org'
+
+[[package]]
+channel = 'arch'
+name = 'gradle'
+
+[[package]]
+channel = 'debian'
+name = 'gradle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gradle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gradle@7'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gradle@8'

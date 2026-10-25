@@ -1,0 +1,8 @@
+id = 'usleep'
+name = 'usleep'
+
+homepage = 'https://github.com/cpeuvrel/usleep-aur'
+
+[[package]]
+channel = 'arch'
+name = 'usleep'

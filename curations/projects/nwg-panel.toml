@@ -1,0 +1,12 @@
+id = 'nwg-panel'
+name = 'nwg-panel'
+
+homepage = 'https://github.com/nwg-piotr/nwg-panel'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-panel'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-panel'

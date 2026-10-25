@@ -1,0 +1,8 @@
+id = 'canto-curses'
+name = 'canto-curses'
+
+homepage = 'https://github.com/themoken/canto-curses'
+
+[[package]]
+channel = 'arch'
+name = 'canto-curses'

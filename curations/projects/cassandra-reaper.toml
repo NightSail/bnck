@@ -1,0 +1,8 @@
+id = 'cassandra-reaper'
+name = 'cassandra-reaper'
+
+homepage = 'https://cassandra-reaper.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cassandra-reaper'

@@ -1,0 +1,16 @@
+id = 'netperf'
+name = 'netperf'
+
+homepage = 'https://github.com/HewlettPackard/netperf'
+
+[[package]]
+channel = 'arch'
+name = 'netperf'
+
+[[package]]
+channel = 'debian'
+name = 'netperf'
+
+[[package]]
+channel = 'fedora'
+name = 'netperf'

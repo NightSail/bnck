@@ -1,0 +1,8 @@
+id = 'libscrappy-perl'
+name = 'libscrappy-perl'
+
+homepage = 'https://metacpan.org/release/Scrappy'
+
+[[package]]
+channel = 'debian'
+name = 'libscrappy-perl'

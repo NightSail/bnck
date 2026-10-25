@@ -1,0 +1,8 @@
+id = 'xorg-iceauth'
+name = 'xorg-iceauth'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/iceauth'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-iceauth'

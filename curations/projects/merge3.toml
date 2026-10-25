@@ -1,0 +1,8 @@
+id = 'merge3'
+name = 'merge3'
+
+homepage = 'https://github.com/breezy-team/merge3-rs'
+
+[[package]]
+channel = 'debian'
+name = 'merge3'

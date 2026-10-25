@@ -1,0 +1,8 @@
+id = 'yh'
+name = 'yh'
+
+repository = 'https://github.com/andreazorzetto/yh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yh'

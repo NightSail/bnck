@@ -1,0 +1,9 @@
+id = 'wxwidgets-wxwidgets'
+name = 'wxwidgets'
+
+homepage = 'https://www.wxwidgets.org'
+repository = 'https://github.com/wxWidgets/wxWidgets.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wxwidgets'

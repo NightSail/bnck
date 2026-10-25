@@ -1,0 +1,6 @@
+id = 'sockstat'
+name = 'sockstat'
+
+[[package]]
+channel = 'debian'
+name = 'sockstat'

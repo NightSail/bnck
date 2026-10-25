@@ -1,0 +1,8 @@
+id = 'pretty-git-prompt'
+name = 'pretty-git-prompt'
+
+homepage = 'https://crates.io/crates/pretty-git-prompt'
+
+[[package]]
+channel = 'fedora'
+name = 'pretty-git-prompt'

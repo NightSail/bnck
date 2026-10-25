@@ -1,0 +1,16 @@
+id = 'iptraf-ng'
+name = 'iptraf-ng'
+
+homepage = 'https://github.com/iptraf-ng/iptraf-ng'
+
+[[package]]
+channel = 'arch'
+name = 'iptraf-ng'
+
+[[package]]
+channel = 'debian'
+name = 'iptraf-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'iptraf-ng'

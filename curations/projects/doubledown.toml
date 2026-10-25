@@ -1,0 +1,8 @@
+id = 'doubledown'
+name = 'doubledown'
+
+repository = 'https://github.com/devstructure/doubledown.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doubledown'

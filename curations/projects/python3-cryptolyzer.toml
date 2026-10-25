@@ -1,0 +1,6 @@
+id = 'python3-cryptolyzer'
+name = 'python3-cryptolyzer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cryptolyzer'

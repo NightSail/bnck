@@ -1,0 +1,12 @@
+id = 'flash'
+name = 'flash'
+
+homepage = 'https://github.com/hypriot/flash'
+
+[[package]]
+channel = 'debian'
+name = 'flash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flash'

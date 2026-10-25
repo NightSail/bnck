@@ -1,0 +1,12 @@
+id = 'fdm'
+name = 'fdm'
+
+homepage = 'https://github.com/nicm/fdm'
+
+[[package]]
+channel = 'arch'
+name = 'fdm'
+
+[[package]]
+channel = 'debian'
+name = 'fdm'

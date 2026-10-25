@@ -1,0 +1,8 @@
+id = 'ospray'
+name = 'ospray'
+
+homepage = 'https://www.ospray.org'
+
+[[package]]
+channel = 'arch'
+name = 'ospray'

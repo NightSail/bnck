@@ -1,0 +1,12 @@
+id = 'igsc'
+name = 'igsc'
+
+homepage = 'https://github.com/intel/igsc'
+
+[[package]]
+channel = 'arch'
+name = 'igsc'
+
+[[package]]
+channel = 'debian'
+name = 'igsc'

@@ -1,0 +1,8 @@
+id = 'resalloc-ibm-cloud'
+name = 'resalloc-ibm-cloud'
+
+homepage = 'https://github.com/fedora-copr/resalloc-ibm-cloud'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc-ibm-cloud'

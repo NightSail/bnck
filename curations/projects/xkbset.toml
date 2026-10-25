@@ -1,0 +1,12 @@
+id = 'xkbset'
+name = 'xkbset'
+
+homepage = 'https://faculty.missouri.edu/~stephen/software'
+
+[[package]]
+channel = 'debian'
+name = 'xkbset'
+
+[[package]]
+channel = 'fedora'
+name = 'xkbset'

@@ -1,0 +1,8 @@
+id = 'dayflow'
+name = 'dayflow'
+
+homepage = 'https://github.com/JerryZLiu/Dayflow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dayflow'

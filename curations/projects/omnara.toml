@@ -1,0 +1,8 @@
+id = 'omnara'
+name = 'omnara'
+
+homepage = 'https://omnara.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/omnara'

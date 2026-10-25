@@ -1,0 +1,16 @@
+id = 'initscripts'
+name = 'initscripts'
+
+homepage = 'https://salsa.debian.org/debian/sysvinit'
+
+[[package]]
+channel = 'debian'
+name = 'initscripts'
+
+[[package]]
+channel = 'fedora'
+name = 'initscripts'
+
+[[package]]
+channel = 'fedora'
+name = 'initscripts-service'

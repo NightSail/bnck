@@ -1,0 +1,10 @@
+id = 'vkeybd'
+name = 'vkeybd'
+
+[[package]]
+channel = 'debian'
+name = 'vkeybd'
+
+[[package]]
+channel = 'fedora'
+name = 'vkeybd'

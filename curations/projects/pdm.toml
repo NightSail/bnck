@@ -1,0 +1,12 @@
+id = 'pdm'
+name = 'pdm'
+
+homepage = 'https://github.com/pdm-project/pdm'
+
+[[package]]
+channel = 'arch'
+name = 'python-pdm'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pdm'

@@ -1,0 +1,17 @@
+id = 'mdbook'
+name = 'mdbook'
+
+homepage = 'https://rust-lang.github.io/mdBook'
+repository = 'https://github.com/rust-lang/mdBook.git'
+
+[[package]]
+channel = 'arch'
+name = 'mdbook'
+
+[[package]]
+channel = 'debian'
+name = 'mdbook'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdbook'

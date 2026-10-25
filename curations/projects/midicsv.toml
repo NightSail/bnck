@@ -1,0 +1,12 @@
+id = 'midicsv'
+name = 'midicsv'
+
+homepage = 'https://www.fourmilab.ch/webtools/midicsv'
+
+[[package]]
+channel = 'debian'
+name = 'midicsv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/midicsv'

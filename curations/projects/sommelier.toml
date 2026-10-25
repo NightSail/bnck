@@ -1,0 +1,8 @@
+id = 'sommelier'
+name = 'sommelier'
+
+homepage = 'https://chromium.googlesource.com/chromiumos/platform2'
+
+[[package]]
+channel = 'fedora'
+name = 'sommelier'

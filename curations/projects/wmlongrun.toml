@@ -1,0 +1,8 @@
+id = 'wmlongrun'
+name = 'wmlongrun'
+
+homepage = 'https://www.dockapps.net/wmlongrun'
+
+[[package]]
+channel = 'debian'
+name = 'wmlongrun'

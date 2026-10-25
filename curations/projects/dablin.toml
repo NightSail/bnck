@@ -1,0 +1,8 @@
+id = 'dablin'
+name = 'dablin'
+
+homepage = 'http://www.opendigitalradio.org'
+
+[[package]]
+channel = 'debian'
+name = 'dablin'

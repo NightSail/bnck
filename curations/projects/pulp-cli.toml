@@ -1,0 +1,12 @@
+id = 'pulp-cli'
+name = 'pulp-cli'
+
+repository = 'https://github.com/pulp/pulp-cli.git'
+
+[[package]]
+channel = 'fedora'
+name = 'pulp-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulp-cli'

@@ -1,0 +1,8 @@
+id = 'ghkl'
+name = 'ghkl'
+
+homepage = 'https://repo.or.cz/hkl.git'
+
+[[package]]
+channel = 'debian'
+name = 'ghkl'

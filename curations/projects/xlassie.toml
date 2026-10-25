@@ -1,0 +1,8 @@
+id = 'xlassie'
+name = 'xlassie'
+
+homepage = 'https://users.speakeasy.net/~xyzzy/xlassie'
+
+[[package]]
+channel = 'debian'
+name = 'xlassie'

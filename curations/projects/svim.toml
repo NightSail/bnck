@@ -1,0 +1,8 @@
+id = 'svim'
+name = 'svim'
+
+homepage = 'https://github.com/eldariont/svim'
+
+[[package]]
+channel = 'debian'
+name = 'svim'

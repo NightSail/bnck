@@ -1,0 +1,12 @@
+id = 'rr'
+name = 'rr'
+
+homepage = 'https://rr-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'rr'
+
+[[package]]
+channel = 'fedora'
+name = 'rr'

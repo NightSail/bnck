@@ -1,0 +1,8 @@
+id = 'ani-cli'
+name = 'ani-cli'
+
+homepage = 'https://github.com/pystardust/ani-cli'
+
+[[package]]
+channel = 'debian'
+name = 'ani-cli'

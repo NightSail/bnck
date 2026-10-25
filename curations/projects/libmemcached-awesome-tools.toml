@@ -1,0 +1,8 @@
+id = 'libmemcached-awesome-tools'
+name = 'libmemcached-awesome-tools'
+
+homepage = 'https://github.com/awesomized/libmemcached'
+
+[[package]]
+channel = 'fedora'
+name = 'libmemcached-awesome-tools'

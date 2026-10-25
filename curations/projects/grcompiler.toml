@@ -1,0 +1,8 @@
+id = 'grcompiler'
+name = 'grcompiler'
+
+homepage = 'https://github.com/silnrsi/grcompiler'
+
+[[package]]
+channel = 'debian'
+name = 'grcompiler'

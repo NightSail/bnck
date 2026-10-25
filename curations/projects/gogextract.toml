@@ -1,0 +1,8 @@
+id = 'gogextract'
+name = 'gogextract'
+
+homepage = 'https://github.com/Yepoleb/gogextract'
+
+[[package]]
+channel = 'fedora'
+name = 'gogextract'

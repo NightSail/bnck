@@ -1,0 +1,16 @@
+id = 'alligator'
+name = 'alligator'
+
+homepage = 'https://apps.kde.org/alligator'
+
+[[package]]
+channel = 'arch'
+name = 'alligator'
+
+[[package]]
+channel = 'debian'
+name = 'alligator'
+
+[[package]]
+channel = 'fedora'
+name = 'alligator'

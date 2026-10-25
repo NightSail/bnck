@@ -1,0 +1,8 @@
+id = 'cli-common-dev'
+name = 'cli-common-dev'
+
+homepage = 'https://salsa.debian.org/dotnet-team/cli-common'
+
+[[package]]
+channel = 'debian'
+name = 'cli-common-dev'

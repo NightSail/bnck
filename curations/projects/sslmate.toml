@@ -1,0 +1,8 @@
+id = 'sslmate'
+name = 'sslmate'
+
+homepage = 'https://sslmate.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sslmate'

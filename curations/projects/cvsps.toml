@@ -1,0 +1,12 @@
+id = 'cvsps'
+name = 'cvsps'
+
+homepage = 'http://www.cobite.com/cvsps'
+
+[[package]]
+channel = 'debian'
+name = 'cvsps'
+
+[[package]]
+channel = 'fedora'
+name = 'cvsps'

@@ -1,0 +1,8 @@
+id = 'python-igraph'
+name = 'python-igraph'
+
+homepage = 'https://igraph.org/python'
+
+[[package]]
+channel = 'arch'
+name = 'python-igraph'

@@ -1,0 +1,8 @@
+id = 'lefthook'
+name = 'lefthook'
+
+repository = 'https://github.com/evilmartians/lefthook.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lefthook'

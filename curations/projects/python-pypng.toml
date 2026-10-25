@@ -1,0 +1,8 @@
+id = 'python-pypng'
+name = 'python-pypng'
+
+homepage = 'https://gitlab.com/drj11/pypng'
+
+[[package]]
+channel = 'arch'
+name = 'python-pypng'

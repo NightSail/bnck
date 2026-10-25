@@ -1,0 +1,8 @@
+id = 'perl-mo'
+name = 'perl-Mo'
+
+homepage = 'https://metacpan.org/release/Mo'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mo'

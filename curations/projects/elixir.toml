@@ -1,0 +1,21 @@
+id = 'elixir'
+name = 'elixir'
+
+homepage = 'https://elixir-lang.org'
+repository = 'https://github.com/elixir-lang/elixir.git'
+
+[[package]]
+channel = 'arch'
+name = 'elixir'
+
+[[package]]
+channel = 'debian'
+name = 'elixir'
+
+[[package]]
+channel = 'fedora'
+name = 'elixir'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elixir'

@@ -1,0 +1,12 @@
+id = 'wlrctl'
+name = 'wlrctl'
+
+homepage = 'https://git.sr.ht/~brocellous/wlrctl'
+
+[[package]]
+channel = 'debian'
+name = 'wlrctl'
+
+[[package]]
+channel = 'fedora'
+name = 'wlrctl'

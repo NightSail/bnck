@@ -1,0 +1,8 @@
+id = 'fantom'
+name = 'fantom'
+
+homepage = 'https://fantom.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fantom'

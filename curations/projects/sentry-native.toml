@@ -1,0 +1,12 @@
+id = 'sentry-native'
+name = 'sentry-native'
+
+homepage = 'https://docs.sentry.io/platforms/native'
+
+[[package]]
+channel = 'arch'
+name = 'sentry-native'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sentry-native'

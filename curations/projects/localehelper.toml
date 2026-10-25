@@ -1,0 +1,8 @@
+id = 'localehelper'
+name = 'localehelper'
+
+homepage = 'https://jwilk.net/software/localehelper'
+
+[[package]]
+channel = 'debian'
+name = 'localehelper'

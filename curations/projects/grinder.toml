@@ -1,0 +1,8 @@
+id = 'grinder'
+name = 'grinder'
+
+homepage = 'https://sourceforge.net/projects/biogrinder'
+
+[[package]]
+channel = 'debian'
+name = 'grinder'

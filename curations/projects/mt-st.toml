@@ -1,0 +1,12 @@
+id = 'mt-st'
+name = 'mt-st'
+
+homepage = 'https://github.com/iustin/mt-st'
+
+[[package]]
+channel = 'debian'
+name = 'mt-st'
+
+[[package]]
+channel = 'fedora'
+name = 'mt-st'

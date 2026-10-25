@@ -1,0 +1,20 @@
+id = 'lcov'
+name = 'lcov'
+
+repository = 'https://github.com/linux-test-project/lcov.git'
+
+[[package]]
+channel = 'arch'
+name = 'lcov'
+
+[[package]]
+channel = 'debian'
+name = 'lcov'
+
+[[package]]
+channel = 'fedora'
+name = 'lcov'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lcov'

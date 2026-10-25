@@ -1,0 +1,8 @@
+id = 'openrefine'
+name = 'openrefine'
+
+homepage = 'https://openrefine.org'
+
+[[package]]
+channel = 'debian'
+name = 'openrefine'

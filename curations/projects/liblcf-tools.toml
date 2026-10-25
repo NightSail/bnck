@@ -1,0 +1,8 @@
+id = 'liblcf-tools'
+name = 'liblcf-tools'
+
+homepage = 'https://github.com/EasyRPG/liblcf'
+
+[[package]]
+channel = 'fedora'
+name = 'liblcf-tools'

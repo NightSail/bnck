@@ -1,0 +1,8 @@
+id = 'harminv'
+name = 'harminv'
+
+homepage = 'https://github.com/stevengj/harminv'
+
+[[package]]
+channel = 'debian'
+name = 'harminv'

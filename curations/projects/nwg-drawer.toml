@@ -1,0 +1,12 @@
+id = 'nwg-drawer'
+name = 'nwg-drawer'
+
+homepage = 'https://github.com/nwg-piotr/nwg-drawer'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-drawer'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-drawer'

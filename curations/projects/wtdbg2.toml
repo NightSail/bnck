@@ -1,0 +1,8 @@
+id = 'wtdbg2'
+name = 'wtdbg2'
+
+homepage = 'https://github.com/ruanjue/wtdbg2'
+
+[[package]]
+channel = 'debian'
+name = 'wtdbg2'

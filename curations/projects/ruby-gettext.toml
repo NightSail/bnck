@@ -1,0 +1,12 @@
+id = 'ruby-gettext'
+name = 'ruby-gettext'
+
+homepage = 'https://github.com/ruby-gettext/gettext'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-gettext'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-gettext'

@@ -1,0 +1,8 @@
+id = 'pycharm-community-edition'
+name = 'pycharm-community-edition'
+
+homepage = 'https://www.jetbrains.com/pycharm'
+
+[[package]]
+channel = 'arch'
+name = 'pycharm-community-edition'

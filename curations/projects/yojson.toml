@@ -1,0 +1,12 @@
+id = 'yojson'
+name = 'yojson'
+
+homepage = 'https://github.com/ocaml-community/yojson'
+
+[[package]]
+channel = 'debian'
+name = 'yojson-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-yojson'

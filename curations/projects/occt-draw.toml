@@ -1,0 +1,6 @@
+id = 'occt-draw'
+name = 'occt-draw'
+
+[[package]]
+channel = 'debian'
+name = 'occt-draw'

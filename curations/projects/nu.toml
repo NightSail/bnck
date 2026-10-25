@@ -1,0 +1,13 @@
+id = 'nu'
+name = 'nu'
+
+homepage = 'https://crates.io/crates/nu'
+repository = 'https://github.com/programming-nu/nu.git'
+
+[[package]]
+channel = 'fedora'
+name = 'nu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nu'

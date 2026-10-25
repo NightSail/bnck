@@ -1,0 +1,16 @@
+id = 'cowpatty'
+name = 'cowpatty'
+
+homepage = 'https://github.com/joswr1ght/cowpatty'
+
+[[package]]
+channel = 'arch'
+name = 'cowpatty'
+
+[[package]]
+channel = 'debian'
+name = 'cowpatty'
+
+[[package]]
+channel = 'fedora'
+name = 'cowpatty'

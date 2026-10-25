@@ -1,0 +1,8 @@
+id = 'xtail'
+name = 'xtail'
+
+homepage = 'https://www.unicom.com/sw/xtail'
+
+[[package]]
+channel = 'debian'
+name = 'xtail'

@@ -1,0 +1,8 @@
+id = 'caspar'
+name = 'caspar'
+
+homepage = 'http://mdcc.cx/caspar'
+
+[[package]]
+channel = 'debian'
+name = 'caspar'

@@ -1,0 +1,12 @@
+id = 'kmahjongg'
+name = 'kmahjongg'
+
+homepage = 'https://apps.kde.org/kmahjongg'
+
+[[package]]
+channel = 'arch'
+name = 'kmahjongg'
+
+[[package]]
+channel = 'fedora'
+name = 'kmahjongg'

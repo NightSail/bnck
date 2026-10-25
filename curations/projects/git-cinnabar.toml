@@ -1,0 +1,16 @@
+id = 'git-cinnabar'
+name = 'git-cinnabar'
+
+repository = 'https://github.com/glandium/git-cinnabar.git'
+
+[[package]]
+channel = 'arch'
+name = 'git-cinnabar'
+
+[[package]]
+channel = 'debian'
+name = 'git-cinnabar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-cinnabar'

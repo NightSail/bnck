@@ -1,0 +1,8 @@
+id = 'eancheck'
+name = 'eancheck'
+
+homepage = 'http://joe-baldwin.net/eancheck'
+
+[[package]]
+channel = 'debian'
+name = 'eancheck'

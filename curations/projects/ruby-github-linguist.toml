@@ -1,0 +1,8 @@
+id = 'ruby-github-linguist'
+name = 'ruby-github-linguist'
+
+homepage = 'https://github.com/github-linguist/linguist'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-github-linguist'

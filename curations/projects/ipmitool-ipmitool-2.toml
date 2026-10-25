@@ -1,0 +1,8 @@
+id = 'ipmitool-ipmitool-2'
+name = 'ipmitool'
+
+repository = 'https://codeberg.org/IPMITool/ipmitool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipmitool'

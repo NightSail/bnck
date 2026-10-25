@@ -1,0 +1,16 @@
+id = 'light-locker'
+name = 'light-locker'
+
+homepage = 'https://github.com/the-cavalry/light-locker'
+
+[[package]]
+channel = 'arch'
+name = 'light-locker'
+
+[[package]]
+channel = 'debian'
+name = 'light-locker'
+
+[[package]]
+channel = 'fedora'
+name = 'light-locker'

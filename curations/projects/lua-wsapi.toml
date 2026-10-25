@@ -1,0 +1,8 @@
+id = 'lua-wsapi'
+name = 'lua-wsapi'
+
+homepage = 'http://keplerproject.github.io/wsapi'
+
+[[package]]
+channel = 'debian'
+name = 'lua-wsapi'

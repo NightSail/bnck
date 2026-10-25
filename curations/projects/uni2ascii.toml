@@ -1,0 +1,12 @@
+id = 'uni2ascii'
+name = 'uni2ascii'
+
+homepage = 'https://billposer.org/Software/uni2ascii.html'
+
+[[package]]
+channel = 'debian'
+name = 'uni2ascii'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uni2ascii'

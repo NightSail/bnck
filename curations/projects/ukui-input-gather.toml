@@ -1,0 +1,8 @@
+id = 'ukui-input-gather'
+name = 'ukui-input-gather'
+
+homepage = 'https://gitee.com/openkylin/ukui-input-gather'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-input-gather'

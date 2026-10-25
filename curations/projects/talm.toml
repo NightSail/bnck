@@ -1,0 +1,8 @@
+id = 'talm'
+name = 'talm'
+
+repository = 'https://github.com/cozystack/talm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/talm'

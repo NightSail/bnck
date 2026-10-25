@@ -1,0 +1,6 @@
+id = 'socket'
+name = 'socket'
+
+[[package]]
+channel = 'debian'
+name = 'socket'

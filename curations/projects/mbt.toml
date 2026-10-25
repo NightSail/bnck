@@ -1,0 +1,9 @@
+id = 'mbt'
+name = 'mbt'
+
+homepage = 'https://sap.github.io/cloud-mta-build-tool'
+repository = 'https://github.com/SAP/cloud-mta-build-tool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mbt'

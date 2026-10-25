@@ -1,0 +1,8 @@
+id = 'haiti'
+name = 'haiti'
+
+homepage = 'https://noraj.github.io/haiti'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haiti'

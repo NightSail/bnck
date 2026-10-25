@@ -1,0 +1,8 @@
+id = 'rust2rpm'
+name = 'rust2rpm'
+
+homepage = 'https://pagure.io/fedora-rust/rust2rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'rust2rpm'

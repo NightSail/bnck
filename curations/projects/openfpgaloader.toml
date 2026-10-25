@@ -1,0 +1,17 @@
+id = 'openfpgaloader'
+name = 'openfpgaloader'
+
+homepage = 'https://trabucayre.github.io/openFPGALoader'
+repository = 'https://github.com/trabucayre/openFPGALoader.git'
+
+[[package]]
+channel = 'arch'
+name = 'openfpgaloader'
+
+[[package]]
+channel = 'debian'
+name = 'openfpgaloader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openfpgaloader'

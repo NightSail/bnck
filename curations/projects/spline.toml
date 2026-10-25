@@ -1,0 +1,6 @@
+id = 'spline'
+name = 'spline'
+
+[[package]]
+channel = 'debian'
+name = 'spline'

@@ -1,0 +1,8 @@
+id = 'golang-x-exp'
+name = 'golang-x-exp'
+
+homepage = 'https://github.com/golang/exp'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-exp'

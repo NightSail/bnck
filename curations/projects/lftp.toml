@@ -1,0 +1,20 @@
+id = 'lftp'
+name = 'lftp'
+
+homepage = 'https://lftp.yar.ru'
+
+[[package]]
+channel = 'arch'
+name = 'lftp'
+
+[[package]]
+channel = 'debian'
+name = 'lftp'
+
+[[package]]
+channel = 'fedora'
+name = 'lftp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lftp'

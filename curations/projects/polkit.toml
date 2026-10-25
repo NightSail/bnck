@@ -1,0 +1,24 @@
+id = 'polkit'
+name = 'polkit'
+
+homepage = 'https://github.com/polkit-org/polkit'
+
+[[package]]
+channel = 'arch'
+name = 'polkit'
+
+[[package]]
+channel = 'debian'
+name = 'pkexec'
+
+[[package]]
+channel = 'debian'
+name = 'polkitd'
+
+[[package]]
+channel = 'fedora'
+name = 'polkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/polkit'

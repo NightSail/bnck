@@ -1,0 +1,8 @@
+id = 'perl-depends'
+name = 'perl-depends'
+
+homepage = 'https://github.com/jaalto/project--perl-depends'
+
+[[package]]
+channel = 'debian'
+name = 'perl-depends'

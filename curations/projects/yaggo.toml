@@ -1,0 +1,8 @@
+id = 'yaggo'
+name = 'yaggo'
+
+homepage = 'https://github.com/gmarcais/yaggo'
+
+[[package]]
+channel = 'debian'
+name = 'yaggo'

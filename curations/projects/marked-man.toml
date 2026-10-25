@@ -1,0 +1,12 @@
+id = 'marked-man'
+name = 'marked-man'
+
+homepage = 'https://github.com/kapouer/marked-man'
+
+[[package]]
+channel = 'arch'
+name = 'marked-man'
+
+[[package]]
+channel = 'debian'
+name = 'node-marked-man'

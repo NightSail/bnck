@@ -1,0 +1,8 @@
+id = 'bacon-ls'
+name = 'bacon-ls'
+
+repository = 'https://github.com/crisidev/bacon-ls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bacon-ls'

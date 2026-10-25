@@ -1,0 +1,8 @@
+id = 'gnurobbo'
+name = 'gnurobbo'
+
+homepage = 'http://gnurobbo.sf.net'
+
+[[package]]
+channel = 'fedora'
+name = 'gnurobbo'

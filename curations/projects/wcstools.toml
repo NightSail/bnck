@@ -1,0 +1,16 @@
+id = 'wcstools'
+name = 'wcstools'
+
+homepage = 'http://tdc-www.harvard.edu/wcstools'
+
+[[package]]
+channel = 'debian'
+name = 'wcstools'
+
+[[package]]
+channel = 'fedora'
+name = 'wcstools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wcstools'

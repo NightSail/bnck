@@ -1,0 +1,36 @@
+id = 'xrootd'
+name = 'xrootd'
+
+homepage = 'https://xrootd.web.cern.ch'
+
+[[package]]
+channel = 'debian'
+name = 'libxrootd-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xrootd-client'
+
+[[package]]
+channel = 'debian'
+name = 'xrootd-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'xrootd-server'
+
+[[package]]
+channel = 'fedora'
+name = 'xrootd-client'
+
+[[package]]
+channel = 'fedora'
+name = 'xrootd-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'xrootd-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'xrootd-server'

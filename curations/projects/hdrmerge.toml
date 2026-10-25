@@ -1,0 +1,8 @@
+id = 'hdrmerge'
+name = 'hdrmerge'
+
+homepage = 'https://github.com/jcelaya/hdrmerge'
+
+[[package]]
+channel = 'debian'
+name = 'hdrmerge'

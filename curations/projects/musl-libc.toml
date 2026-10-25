@@ -1,0 +1,16 @@
+id = 'musl-libc'
+name = 'musl-libc'
+
+homepage = 'https://www.musl-libc.org'
+
+[[package]]
+channel = 'arch'
+name = 'musl'
+
+[[package]]
+channel = 'arch'
+name = 'musl-aarch64'
+
+[[package]]
+channel = 'arch'
+name = 'musl-riscv64'

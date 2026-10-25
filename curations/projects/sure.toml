@@ -1,0 +1,16 @@
+id = 'sure'
+name = 'sure'
+
+homepage = 'https://github.com/gabrielfalcao/sure'
+
+[[package]]
+channel = 'arch'
+name = 'python-sure'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sure'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sure'

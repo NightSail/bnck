@@ -1,0 +1,17 @@
+id = 'shc'
+name = 'shc'
+
+homepage = 'https://neurobin.org/projects/softwares/unix/shc'
+repository = 'https://github.com/neurobin/shc.git'
+
+[[package]]
+channel = 'debian'
+name = 'shc'
+
+[[package]]
+channel = 'fedora'
+name = 'shc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shc'

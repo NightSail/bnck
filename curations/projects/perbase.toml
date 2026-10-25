@@ -1,0 +1,8 @@
+id = 'perbase'
+name = 'perbase'
+
+repository = 'https://github.com/sstadick/perbase.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/perbase'

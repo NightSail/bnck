@@ -1,0 +1,8 @@
+id = 'python3-fastavro'
+name = 'python3-fastavro'
+
+homepage = 'https://github.com/fastavro/fastavro'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fastavro'

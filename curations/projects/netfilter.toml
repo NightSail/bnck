@@ -1,0 +1,20 @@
+id = 'netfilter'
+name = 'netfilter'
+
+homepage = 'https://www.netfilter.org'
+
+[[package]]
+channel = 'debian'
+name = 'arptables'
+
+[[package]]
+channel = 'debian'
+name = 'ebtables'
+
+[[package]]
+channel = 'debian'
+name = 'iptables'
+
+[[package]]
+channel = 'debian'
+name = 'nftables'

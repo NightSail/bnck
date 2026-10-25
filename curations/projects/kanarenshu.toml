@@ -1,0 +1,8 @@
+id = 'kanarenshu'
+name = 'kanarenshu'
+
+homepage = 'https://github.com/nuixyz/kanarenshu'
+
+[[package]]
+channel = 'debian'
+name = 'kanarenshu'

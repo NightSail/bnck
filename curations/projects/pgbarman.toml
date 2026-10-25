@@ -1,0 +1,28 @@
+id = 'pgbarman'
+name = 'pgbarman'
+
+homepage = 'https://www.pgbarman.org'
+
+[[package]]
+channel = 'debian'
+name = 'barman'
+
+[[package]]
+channel = 'debian'
+name = 'barman-cli'
+
+[[package]]
+channel = 'debian'
+name = 'barman-cli-cloud'
+
+[[package]]
+channel = 'fedora'
+name = 'barman'
+
+[[package]]
+channel = 'fedora'
+name = 'barman-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/barman'

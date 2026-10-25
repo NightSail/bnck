@@ -1,0 +1,16 @@
+id = 'fluxbox'
+name = 'fluxbox'
+
+homepage = 'http://www.fluxbox.org'
+
+[[package]]
+channel = 'arch'
+name = 'fluxbox'
+
+[[package]]
+channel = 'debian'
+name = 'fluxbox'
+
+[[package]]
+channel = 'fedora'
+name = 'fluxbox'

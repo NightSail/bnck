@@ -1,0 +1,8 @@
+id = 'vinetto'
+name = 'vinetto'
+
+homepage = 'https://github.com/AtesComp/Vinetto'
+
+[[package]]
+channel = 'debian'
+name = 'vinetto'

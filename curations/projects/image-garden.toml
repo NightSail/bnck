@@ -1,0 +1,12 @@
+id = 'image-garden'
+name = 'image-garden'
+
+homepage = 'https://gitlab.com/zygoon/image-garden'
+
+[[package]]
+channel = 'debian'
+name = 'image-garden'
+
+[[package]]
+channel = 'fedora'
+name = 'image-garden'

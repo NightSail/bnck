@@ -1,0 +1,12 @@
+id = 'devel-dprof'
+name = 'Devel-DProf'
+
+homepage = 'https://metacpan.org/release/Devel-DProf'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-dprof-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-DProf'

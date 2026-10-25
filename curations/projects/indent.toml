@@ -1,0 +1,20 @@
+id = 'indent'
+name = 'indent'
+
+homepage = 'https://www.gnu.org/software/indent'
+
+[[package]]
+channel = 'arch'
+name = 'indent'
+
+[[package]]
+channel = 'debian'
+name = 'indent'
+
+[[package]]
+channel = 'fedora'
+name = 'indent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-indent'

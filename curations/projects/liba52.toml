@@ -1,0 +1,12 @@
+id = 'liba52'
+name = 'liba52'
+
+homepage = 'http://liba52.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'liba52-0.7.4-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'a52dec'

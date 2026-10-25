@@ -1,0 +1,20 @@
+id = 'ocrmypdf'
+name = 'ocrmypdf'
+
+homepage = 'https://ocrmypdf.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'ocrmypdf'
+
+[[package]]
+channel = 'fedora'
+name = 'ocrmypdf'
+
+[[package]]
+channel = 'fedora'
+name = 'ocrmypdf+watcher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocrmypdf'

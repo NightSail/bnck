@@ -1,0 +1,12 @@
+id = 'wgcf'
+name = 'wgcf'
+
+repository = 'https://github.com/ViRb3/wgcf.git'
+
+[[package]]
+channel = 'arch'
+name = 'wgcf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wgcf'

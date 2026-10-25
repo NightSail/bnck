@@ -1,0 +1,8 @@
+id = 'resalloc-aws'
+name = 'resalloc-aws'
+
+homepage = 'https://github.com/praiskup/resalloc-aws'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc-aws'

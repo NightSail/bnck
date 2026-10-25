@@ -1,0 +1,9 @@
+id = 'lcdf-typetools'
+name = 'lcdf-typetools'
+
+homepage = 'https://www.lcdf.org/type'
+repository = 'https://github.com/kohler/lcdf-typetools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lcdf-typetools'

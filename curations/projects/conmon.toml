@@ -1,0 +1,16 @@
+id = 'conmon'
+name = 'conmon'
+
+homepage = 'https://github.com/containers/conmon'
+
+[[package]]
+channel = 'arch'
+name = 'conmon'
+
+[[package]]
+channel = 'debian'
+name = 'conmon'
+
+[[package]]
+channel = 'fedora'
+name = 'conmon'

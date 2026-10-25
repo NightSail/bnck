@@ -1,0 +1,20 @@
+id = 'snd'
+name = 'snd'
+
+homepage = 'https://ccrma.stanford.edu/software/snd'
+
+[[package]]
+channel = 'arch'
+name = 'snd'
+
+[[package]]
+channel = 'debian'
+name = 'snd-gui-jack'
+
+[[package]]
+channel = 'debian'
+name = 'snd-gui-pulse'
+
+[[package]]
+channel = 'debian'
+name = 'snd-nox'

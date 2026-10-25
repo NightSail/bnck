@@ -1,0 +1,8 @@
+id = 'noip'
+name = 'noip'
+
+homepage = 'http://www.no-ip.com'
+
+[[package]]
+channel = 'fedora'
+name = 'noip'

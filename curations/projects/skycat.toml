@@ -1,0 +1,8 @@
+id = 'skycat'
+name = 'skycat'
+
+homepage = 'https://www.eso.org/sci/observing/tools/skycat.html'
+
+[[package]]
+channel = 'debian'
+name = 'skycat'

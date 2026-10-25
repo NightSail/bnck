@@ -1,0 +1,8 @@
+id = 'ukui-media'
+name = 'ukui-media'
+
+homepage = 'https://gitee.com/openkylin/ukui-media'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-media'

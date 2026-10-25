@@ -1,0 +1,12 @@
+id = 'ddpt'
+name = 'ddpt'
+
+homepage = 'https://sg.danny.cz/sg/ddpt.html'
+
+[[package]]
+channel = 'debian'
+name = 'ddpt'
+
+[[package]]
+channel = 'fedora'
+name = 'ddpt'

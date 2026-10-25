@@ -1,0 +1,8 @@
+id = 'aqbanking-tools'
+name = 'aqbanking-tools'
+
+homepage = 'http://www.aquamaniac.de/aqbanking'
+
+[[package]]
+channel = 'debian'
+name = 'aqbanking-tools'

@@ -1,0 +1,12 @@
+id = 'rumdl'
+name = 'rumdl'
+
+homepage = 'https://github.com/rvben/rumdl'
+
+[[package]]
+channel = 'arch'
+name = 'rumdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rumdl'

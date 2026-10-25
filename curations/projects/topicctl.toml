@@ -1,0 +1,8 @@
+id = 'topicctl'
+name = 'topicctl'
+
+repository = 'https://github.com/segmentio/topicctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/topicctl'

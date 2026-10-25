@@ -1,0 +1,8 @@
+id = 'mate-common'
+name = 'mate-common'
+
+homepage = 'https://github.com/mate-desktop/mate-common'
+
+[[package]]
+channel = 'arch'
+name = 'mate-common'

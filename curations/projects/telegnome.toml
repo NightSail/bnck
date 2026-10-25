@@ -1,0 +1,8 @@
+id = 'telegnome'
+name = 'telegnome'
+
+homepage = 'https://telegnome.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'telegnome'

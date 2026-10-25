@@ -1,0 +1,8 @@
+id = 'kalibrate-rtl'
+name = 'kalibrate-rtl'
+
+homepage = 'http://github.com/steve-m/kalibrate-rtl'
+
+[[package]]
+channel = 'fedora'
+name = 'kalibrate-rtl'

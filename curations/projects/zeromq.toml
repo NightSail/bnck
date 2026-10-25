@@ -1,0 +1,17 @@
+id = 'zeromq'
+name = 'zeromq'
+
+homepage = 'http://www.zeromq.org'
+repository = 'https://github.com/zeromq/libzmq.git'
+
+[[package]]
+channel = 'arch'
+name = 'zeromq'
+
+[[package]]
+channel = 'fedora'
+name = 'zeromq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zeromq'

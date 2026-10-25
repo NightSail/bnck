@@ -1,0 +1,8 @@
+id = 'getstream'
+name = 'getstream'
+
+homepage = 'http://silicon-verl.de/home/flo/projects/streaming'
+
+[[package]]
+channel = 'debian'
+name = 'getstream'

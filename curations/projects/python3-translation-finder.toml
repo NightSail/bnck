@@ -1,0 +1,8 @@
+id = 'python3-translation-finder'
+name = 'python3-translation-finder'
+
+homepage = 'https://github.com/WeblateOrg/translation-finder'
+
+[[package]]
+channel = 'debian'
+name = 'python3-translation-finder'

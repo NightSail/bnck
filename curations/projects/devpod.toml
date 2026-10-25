@@ -1,0 +1,8 @@
+id = 'devpod'
+name = 'devpod'
+
+homepage = 'https://devpod.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/devpod'

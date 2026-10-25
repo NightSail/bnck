@@ -1,0 +1,16 @@
+id = 'cdlabelgen'
+name = 'cdlabelgen'
+
+homepage = 'https://www.aczoom.com/tools/cdinsert'
+
+[[package]]
+channel = 'debian'
+name = 'cdlabelgen'
+
+[[package]]
+channel = 'fedora'
+name = 'cdlabelgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdlabelgen'

@@ -1,0 +1,8 @@
+id = 'looktxt'
+name = 'looktxt'
+
+homepage = 'https://gitlab.com/soleil-data-treatment/soleil-software-projects/looktxt'
+
+[[package]]
+channel = 'debian'
+name = 'looktxt'

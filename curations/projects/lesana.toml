@@ -1,0 +1,8 @@
+id = 'lesana'
+name = 'lesana'
+
+homepage = 'https://lesana.trueelena.org'
+
+[[package]]
+channel = 'debian'
+name = 'lesana'

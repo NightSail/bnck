@@ -1,0 +1,8 @@
+id = 'vmg'
+name = 'vmg'
+
+homepage = 'https://magnifier.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'vmg'

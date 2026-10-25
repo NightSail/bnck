@@ -1,0 +1,8 @@
+id = 'perl-convert-binhex'
+name = 'perl-Convert-BinHex'
+
+homepage = 'https://metacpan.org/release/Convert-BinHex'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Convert-BinHex'

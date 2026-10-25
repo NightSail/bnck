@@ -1,0 +1,12 @@
+id = 'shtool'
+name = 'shtool'
+
+homepage = 'https://www.gnu.org/software/shtool'
+
+[[package]]
+channel = 'debian'
+name = 'shtool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shtool'

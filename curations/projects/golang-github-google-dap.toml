@@ -1,0 +1,8 @@
+id = 'golang-github-google-dap'
+name = 'golang-github-google-dap'
+
+homepage = 'https://github.com/google/go-dap'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-google-dap'

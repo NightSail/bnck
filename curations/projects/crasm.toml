@@ -1,0 +1,8 @@
+id = 'crasm'
+name = 'crasm'
+
+homepage = 'https://htmlpreview.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'crasm'

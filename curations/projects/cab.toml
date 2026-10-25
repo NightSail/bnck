@@ -1,0 +1,8 @@
+id = 'cab'
+name = 'cab'
+
+homepage = 'https://hackage.haskell.org/package/cab'
+
+[[package]]
+channel = 'fedora'
+name = 'cab'

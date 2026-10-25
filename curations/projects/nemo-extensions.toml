@@ -1,0 +1,44 @@
+id = 'nemo-extensions'
+name = 'nemo-extensions'
+
+homepage = 'https://github.com/linuxmint/nemo-extensions'
+
+[[package]]
+channel = 'arch'
+name = 'nemo-compare'
+
+[[package]]
+channel = 'arch'
+name = 'nemo-media-columns'
+
+[[package]]
+channel = 'arch'
+name = 'nemo-pastebin'
+
+[[package]]
+channel = 'arch'
+name = 'nemo-repairer'
+
+[[package]]
+channel = 'arch'
+name = 'nemo-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo-compare'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo-pastebin'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo-preview'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo-seahorse'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo-terminal'

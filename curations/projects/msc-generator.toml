@@ -1,0 +1,16 @@
+id = 'msc-generator'
+name = 'msc-generator'
+
+homepage = 'https://gitlab.com/msc-generator/msc-generator'
+
+[[package]]
+channel = 'debian'
+name = 'msc-generator'
+
+[[package]]
+channel = 'debian'
+name = 'msc-generator-nox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msc-generator'

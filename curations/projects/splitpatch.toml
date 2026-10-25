@@ -1,0 +1,8 @@
+id = 'splitpatch'
+name = 'splitpatch'
+
+homepage = 'http://www.clearchain.com/blog/posts/splitting-a-patch'
+
+[[package]]
+channel = 'debian'
+name = 'splitpatch'

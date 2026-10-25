@@ -1,0 +1,8 @@
+id = 'whitakers-words'
+name = 'whitakers-words'
+
+homepage = 'http://mk270.github.io/whitakers-words'
+
+[[package]]
+channel = 'debian'
+name = 'whitakers-words'

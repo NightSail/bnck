@@ -1,0 +1,8 @@
+id = 'due'
+name = 'due'
+
+homepage = 'https://github.com/CumulusNetworks/DUE'
+
+[[package]]
+channel = 'debian'
+name = 'due'

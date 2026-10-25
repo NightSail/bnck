@@ -1,0 +1,16 @@
+id = 'netperfmeter'
+name = 'netperfmeter'
+
+homepage = 'https://www.nntb.no/~dreibh/netperfmeter'
+
+[[package]]
+channel = 'debian'
+name = 'netperfmeter'
+
+[[package]]
+channel = 'debian'
+name = 'netperfmeter-plotting'
+
+[[package]]
+channel = 'debian'
+name = 'pdfproctools'

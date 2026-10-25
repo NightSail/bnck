@@ -1,0 +1,9 @@
+id = 'openal-soft-kcat'
+name = 'openal-soft'
+
+homepage = 'https://openal-soft.org'
+repository = 'https://github.com/kcat/openal-soft.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openal-soft'

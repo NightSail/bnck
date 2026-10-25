@@ -1,0 +1,8 @@
+id = 'go-camo'
+name = 'go-camo'
+
+repository = 'https://github.com/cactus/go-camo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-camo'

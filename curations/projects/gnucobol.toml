@@ -1,0 +1,25 @@
+id = 'gnucobol'
+name = 'gnucobol'
+
+homepage = 'https://www.gnu.org/software/gnucobol'
+repository = 'https://svn.code.sf.net/p/gnucobol/code/trunk'
+
+[[package]]
+channel = 'debian'
+name = 'gnucobol3'
+
+[[package]]
+channel = 'debian'
+name = 'gnucobol4'
+
+[[package]]
+channel = 'fedora'
+name = 'gnucobol'
+
+[[package]]
+channel = 'fedora'
+name = 'gnucobol-esql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnucobol'

@@ -1,0 +1,8 @@
+id = 'xmlbeans'
+name = 'xmlbeans'
+
+homepage = 'http://xmlbeans.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'xmlbeans'

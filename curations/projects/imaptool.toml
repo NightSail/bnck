@@ -1,0 +1,8 @@
+id = 'imaptool'
+name = 'imaptool'
+
+homepage = 'http://www.sspitzer.org/imaptool'
+
+[[package]]
+channel = 'debian'
+name = 'imaptool'

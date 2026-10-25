@@ -1,0 +1,8 @@
+id = 'hexer-hobu'
+name = 'hexer-hobu'
+
+homepage = 'https://github.com/hobu/hexer'
+
+[[package]]
+channel = 'arch'
+name = 'hexer-hobu'

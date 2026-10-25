@@ -1,0 +1,8 @@
+id = 'postproof'
+name = 'postproof'
+
+homepage = 'https://github.com/sys4/postproof'
+
+[[package]]
+channel = 'fedora'
+name = 'postproof'

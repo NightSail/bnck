@@ -1,0 +1,9 @@
+id = 'fakecloud'
+name = 'fakecloud'
+
+homepage = 'https://fakecloud.dev'
+repository = 'https://github.com/faiscadev/fakecloud.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fakecloud'

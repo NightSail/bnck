@@ -1,0 +1,8 @@
+id = 'pdfmerge'
+name = 'pdfmerge'
+
+homepage = 'http://dmaphy.github.com/pdfmerge'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfmerge'

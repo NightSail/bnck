@@ -1,0 +1,8 @@
+id = 'fresh-editor'
+name = 'fresh-editor'
+
+homepage = 'https://sinelaw.github.io/fresh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fresh-editor'

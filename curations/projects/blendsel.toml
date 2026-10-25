@@ -1,0 +1,6 @@
+id = 'blendsel'
+name = 'blendsel'
+
+[[package]]
+channel = 'debian'
+name = 'blendsel'

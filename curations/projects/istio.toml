@@ -1,0 +1,8 @@
+id = 'istio'
+name = 'istio'
+
+homepage = 'https://github.com/istio/istio'
+
+[[package]]
+channel = 'arch'
+name = 'istio'

@@ -1,0 +1,12 @@
+id = 'ansible-creator'
+name = 'ansible-creator'
+
+homepage = 'https://ansible.readthedocs.io/projects/creator'
+
+[[package]]
+channel = 'arch'
+name = 'ansible-creator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible-creator'

@@ -1,0 +1,8 @@
+id = 'crossplane'
+name = 'crossplane'
+
+repository = 'https://github.com/crossplane/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crossplane'

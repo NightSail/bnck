@@ -1,0 +1,8 @@
+id = 'mcelog'
+name = 'mcelog'
+
+homepage = 'https://github.com/andikleen/mcelog'
+
+[[package]]
+channel = 'fedora'
+name = 'mcelog'

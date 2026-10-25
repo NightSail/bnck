@@ -1,0 +1,8 @@
+id = 'vcsi'
+name = 'vcsi'
+
+homepage = 'https://github.com/amietn/vcsi'
+
+[[package]]
+channel = 'arch'
+name = 'vcsi'

@@ -1,0 +1,8 @@
+id = 'ddrescueview'
+name = 'ddrescueview'
+
+homepage = 'https://sourceforge.net/projects/ddrescueview'
+
+[[package]]
+channel = 'debian'
+name = 'ddrescueview'

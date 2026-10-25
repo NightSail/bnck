@@ -1,0 +1,64 @@
+id = 'lxde'
+name = 'lxde'
+
+homepage = 'https://www.lxde.org'
+
+[[package]]
+channel = 'debian'
+name = 'lxdm'
+
+[[package]]
+channel = 'debian'
+name = 'lxlauncher'
+
+[[package]]
+channel = 'debian'
+name = 'lxmusic'
+
+[[package]]
+channel = 'debian'
+name = 'lxrandr'
+
+[[package]]
+channel = 'debian'
+name = 'lxtask'
+
+[[package]]
+channel = 'debian'
+name = 'lxterminal'
+
+[[package]]
+channel = 'debian'
+name = 'openbox-lxde-session'
+
+[[package]]
+channel = 'fedora'
+name = 'lxappearance'
+
+[[package]]
+channel = 'fedora'
+name = 'lxdm'
+
+[[package]]
+channel = 'fedora'
+name = 'lxinput'
+
+[[package]]
+channel = 'fedora'
+name = 'lxlauncher'
+
+[[package]]
+channel = 'fedora'
+name = 'lxmusic'
+
+[[package]]
+channel = 'fedora'
+name = 'lxpanel'
+
+[[package]]
+channel = 'fedora'
+name = 'lxrandr'
+
+[[package]]
+channel = 'fedora'
+name = 'lxshortcut'

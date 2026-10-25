@@ -1,0 +1,12 @@
+id = 'ser2net-ser2net'
+name = 'ser2net'
+
+homepage = 'https://sourceforge.net/projects/ser2net'
+
+[[package]]
+channel = 'arch'
+name = 'gensio'
+
+[[package]]
+channel = 'arch'
+name = 'ser2net'

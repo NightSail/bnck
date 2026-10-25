@@ -1,0 +1,13 @@
+id = 'pgxnclient'
+name = 'pgxnclient'
+
+homepage = 'https://pgxn.github.io/pgxnclient'
+repository = 'https://github.com/pgxn/pgxnclient.git'
+
+[[package]]
+channel = 'debian'
+name = 'pgxnclient'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgxnclient'

@@ -1,0 +1,12 @@
+id = 'pimd'
+name = 'pimd'
+
+homepage = 'https://github.com/troglobit/pimd'
+
+[[package]]
+channel = 'debian'
+name = 'pimd'
+
+[[package]]
+channel = 'fedora'
+name = 'pimd'

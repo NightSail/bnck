@@ -1,0 +1,8 @@
+id = 'rxp'
+name = 'rxp'
+
+homepage = 'http://www.cogsci.ed.ac.uk/~richard/rxp.html'
+
+[[package]]
+channel = 'debian'
+name = 'rxp'

@@ -1,0 +1,8 @@
+id = 'apt-move'
+name = 'apt-move'
+
+homepage = 'http://sourceforge.net/projects/apt-move'
+
+[[package]]
+channel = 'debian'
+name = 'apt-move'

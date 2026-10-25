@@ -5,6 +5,10 @@ repository = 'https://github.com/str4d/rage'
 
 [[package]]
 channel = 'arch'
+name = 'rage'
+
+[[package]]
+channel = 'arch'
 name = 'rage-encryption'
 
 [[package]]

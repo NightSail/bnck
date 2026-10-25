@@ -1,0 +1,8 @@
+id = 'edtsurf'
+name = 'edtsurf'
+
+homepage = 'https://zhanglab.ccmb.med.umich.edu/EDTSurf'
+
+[[package]]
+channel = 'debian'
+name = 'edtsurf'

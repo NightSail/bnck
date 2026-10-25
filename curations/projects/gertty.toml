@@ -1,0 +1,8 @@
+id = 'gertty'
+name = 'gertty'
+
+homepage = 'https://opendev.org/ttygroup/gertty'
+
+[[package]]
+channel = 'debian'
+name = 'gertty'

@@ -1,0 +1,8 @@
+id = 'kuzco'
+name = 'kuzco'
+
+repository = 'https://github.com/RoseSecurity/Kuzco.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kuzco'

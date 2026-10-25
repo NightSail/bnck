@@ -1,0 +1,8 @@
+id = 'vkquake'
+name = 'vkquake'
+
+homepage = 'https://github.com/Novum/vkquake'
+
+[[package]]
+channel = 'arch'
+name = 'vkquake'

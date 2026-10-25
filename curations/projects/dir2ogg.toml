@@ -1,0 +1,8 @@
+id = 'dir2ogg'
+name = 'dir2ogg'
+
+homepage = 'http://jak-linux.org/projects/dir2ogg'
+
+[[package]]
+channel = 'debian'
+name = 'dir2ogg'

@@ -1,0 +1,8 @@
+id = 'smb-nat'
+name = 'smb-nat'
+
+homepage = 'http://www.tux.org/pub/security/secnet/tools/nat10'
+
+[[package]]
+channel = 'debian'
+name = 'smb-nat'

@@ -1,0 +1,8 @@
+id = 'maskprocessor'
+name = 'maskprocessor'
+
+homepage = 'https://github.com/hashcat/maskprocessor'
+
+[[package]]
+channel = 'debian'
+name = 'maskprocessor'

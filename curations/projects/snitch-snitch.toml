@@ -1,0 +1,6 @@
+id = 'snitch-snitch'
+name = 'snitch'
+
+[[package]]
+channel = 'crates.io'
+name = 'snitch'

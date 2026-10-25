@@ -1,0 +1,8 @@
+id = 'liquibase'
+name = 'liquibase'
+
+homepage = 'https://www.liquibase.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liquibase'

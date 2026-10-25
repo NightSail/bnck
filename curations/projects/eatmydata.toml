@@ -1,0 +1,12 @@
+id = 'eatmydata'
+name = 'eatmydata'
+
+homepage = 'https://www.flamingspork.com/projects/libeatmydata'
+
+[[package]]
+channel = 'debian'
+name = 'eatmydata'
+
+[[package]]
+channel = 'fedora'
+name = 'eatmydata'

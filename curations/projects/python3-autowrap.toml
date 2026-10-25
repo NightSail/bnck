@@ -1,0 +1,8 @@
+id = 'python3-autowrap'
+name = 'python3-autowrap'
+
+homepage = 'https://pypi.org/project/autowrap'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-autowrap'

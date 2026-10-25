@@ -1,0 +1,12 @@
+id = 'sdl-mixer'
+name = 'SDL_mixer'
+
+homepage = 'https://www.libsdl.org/projects/SDL_mixer'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL2_mixer'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL_mixer'

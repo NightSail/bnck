@@ -1,0 +1,12 @@
+id = 'cosmic-osd'
+name = 'cosmic-osd'
+
+homepage = 'https://github.com/pop-os/cosmic-osd'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-osd'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-osd'

@@ -1,0 +1,8 @@
+id = 'xygrib'
+name = 'xygrib'
+
+homepage = 'https://www.opengribs.org'
+
+[[package]]
+channel = 'debian'
+name = 'xygrib'

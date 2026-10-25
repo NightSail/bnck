@@ -1,0 +1,12 @@
+id = 'dm-zoned-tools'
+name = 'dm-zoned-tools'
+
+homepage = 'https://github.com/westerndigitalcorporation/dm-zoned-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dm-zoned-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'dm-zoned-tools'

@@ -1,0 +1,17 @@
+id = 'logstalgia'
+name = 'logstalgia'
+
+homepage = 'http://logstalgia.io'
+repository = 'https://github.com/acaudwell/Logstalgia.git'
+
+[[package]]
+channel = 'debian'
+name = 'logstalgia'
+
+[[package]]
+channel = 'fedora'
+name = 'logstalgia'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logstalgia'

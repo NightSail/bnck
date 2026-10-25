@@ -1,0 +1,8 @@
+id = 'pscan-tfbs'
+name = 'pscan-tfbs'
+
+homepage = 'http://www.beaconlab.it/pscan'
+
+[[package]]
+channel = 'debian'
+name = 'pscan-tfbs'

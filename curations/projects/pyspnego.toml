@@ -1,0 +1,16 @@
+id = 'pyspnego'
+name = 'pyspnego'
+
+homepage = 'https://github.com/jborean93/pyspnego'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyspnego'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyspnego'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-spnego'

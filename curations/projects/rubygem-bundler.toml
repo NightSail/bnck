@@ -1,0 +1,6 @@
+id = 'rubygem-bundler'
+name = 'rubygem-bundler'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-bundler'

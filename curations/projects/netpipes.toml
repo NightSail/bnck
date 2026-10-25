@@ -1,0 +1,8 @@
+id = 'netpipes'
+name = 'netpipes'
+
+homepage = 'http://web.purplefrog.com/~thoth/netpipes'
+
+[[package]]
+channel = 'debian'
+name = 'netpipes'

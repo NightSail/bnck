@@ -1,0 +1,8 @@
+id = 'mapcrafter'
+name = 'mapcrafter'
+
+homepage = 'https://github.com/mapcrafter/mapcrafter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mapcrafter'

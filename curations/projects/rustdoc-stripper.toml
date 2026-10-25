@@ -1,0 +1,8 @@
+id = 'rustdoc-stripper'
+name = 'rustdoc-stripper'
+
+homepage = 'https://github.com/GuillaumeGomez/rustdoc-stripper'
+
+[[package]]
+channel = 'debian'
+name = 'rustdoc-stripper'

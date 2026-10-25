@@ -1,0 +1,8 @@
+id = 'fleet'
+name = 'fleet'
+
+homepage = 'https://www.jetbrains.com/fleet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/fleet'

@@ -1,0 +1,8 @@
+id = 'arch-repro-status'
+name = 'arch-repro-status'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/arch-repro-status'
+
+[[package]]
+channel = 'arch'
+name = 'arch-repro-status'

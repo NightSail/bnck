@@ -1,0 +1,12 @@
+id = 'chromedriver'
+name = 'chromedriver'
+
+homepage = 'https://chromedriver.chromium.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/chromedriver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/chromedriver@beta'

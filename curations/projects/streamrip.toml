@@ -1,0 +1,12 @@
+id = 'streamrip'
+name = 'streamrip'
+
+homepage = 'https://github.com/nathom/streamrip'
+
+[[package]]
+channel = 'debian'
+name = 'streamrip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/streamrip'

@@ -1,0 +1,8 @@
+id = 'printer-driver-pxljr'
+name = 'printer-driver-pxljr'
+
+homepage = 'http://sourceforge.net/projects/hp-pxl-jetready'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-pxljr'

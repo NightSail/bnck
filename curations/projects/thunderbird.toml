@@ -1,0 +1,16 @@
+id = 'thunderbird'
+name = 'thunderbird'
+
+homepage = 'https://www.thunderbird.net'
+
+[[package]]
+channel = 'arch'
+name = 'thunderbird'
+
+[[package]]
+channel = 'debian'
+name = 'thunderbird'
+
+[[package]]
+channel = 'fedora'
+name = 'thunderbird'

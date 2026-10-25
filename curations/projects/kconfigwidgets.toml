@@ -1,0 +1,12 @@
+id = 'kconfigwidgets'
+name = 'kconfigwidgets'
+
+homepage = 'https://invent.kde.org/frameworks/kconfigwidgets'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5configwidgets-data'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kconfigwidgets-devel'

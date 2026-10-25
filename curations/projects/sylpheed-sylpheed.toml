@@ -1,0 +1,12 @@
+id = 'sylpheed-sylpheed'
+name = 'sylpheed'
+
+homepage = 'https://sylpheed.sraoss.jp/en'
+
+[[package]]
+channel = 'debian'
+name = 'sylpheed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sylpheed'

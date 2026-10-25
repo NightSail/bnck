@@ -1,0 +1,8 @@
+id = 'gvncviewer'
+name = 'gvncviewer'
+
+homepage = 'https://wiki.gnome.org/Projects/gtk-vnc'
+
+[[package]]
+channel = 'debian'
+name = 'gvncviewer'

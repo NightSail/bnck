@@ -1,0 +1,8 @@
+id = 'niri-companion'
+name = 'niri-companion'
+
+homepage = 'https://github.com/dybdeskarphet/niri-companion'
+
+[[package]]
+channel = 'debian'
+name = 'niri-companion'

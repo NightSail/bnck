@@ -1,0 +1,8 @@
+id = 'droopy'
+name = 'droopy'
+
+homepage = 'https://github.com/stackp/Droopy'
+
+[[package]]
+channel = 'debian'
+name = 'droopy'

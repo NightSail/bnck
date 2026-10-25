@@ -12,5 +12,9 @@ channel = 'debian'
 name = 'jql'
 
 [[package]]
+channel = 'fedora'
+name = 'jql'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jql'

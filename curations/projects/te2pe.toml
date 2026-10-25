@@ -1,0 +1,8 @@
+id = 'te2pe'
+name = 'TE2PE'
+
+homepage = 'https://github.com/LongSoft/TE2PE'
+
+[[package]]
+channel = 'fedora'
+name = 'TE2PE'

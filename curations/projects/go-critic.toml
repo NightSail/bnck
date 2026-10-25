@@ -1,0 +1,9 @@
+id = 'go-critic'
+name = 'go-critic'
+
+homepage = 'https://go-critic.com'
+repository = 'https://github.com/go-critic/go-critic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-critic'

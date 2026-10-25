@@ -1,0 +1,12 @@
+id = 'cvise'
+name = 'cvise'
+
+homepage = 'https://github.com/marxin/cvise'
+
+[[package]]
+channel = 'debian'
+name = 'cvise'
+
+[[package]]
+channel = 'fedora'
+name = 'cvise'

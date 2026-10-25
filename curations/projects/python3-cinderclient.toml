@@ -1,0 +1,12 @@
+id = 'python3-cinderclient'
+name = 'python3-cinderclient'
+
+homepage = 'https://github.com/openstack/python-cinderclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cinderclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cinderclient'

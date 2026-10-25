@@ -1,0 +1,8 @@
+id = 'uisp'
+name = 'uisp'
+
+homepage = 'http://www.nongnu.org/uisp'
+
+[[package]]
+channel = 'debian'
+name = 'uisp'

@@ -1,0 +1,8 @@
+id = 'kirc'
+name = 'kirc'
+
+homepage = 'https://github.com/mcpcpc/kirc'
+
+[[package]]
+channel = 'fedora'
+name = 'kirc'

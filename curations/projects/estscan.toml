@@ -1,0 +1,8 @@
+id = 'estscan'
+name = 'estscan'
+
+homepage = 'http://estscan.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'estscan'

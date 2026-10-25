@@ -1,0 +1,8 @@
+id = 'perl-test-run-cmdline'
+name = 'perl-Test-Run-CmdLine'
+
+homepage = 'https://metacpan.org/release/Test-Run-CmdLine'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Run-CmdLine'

@@ -1,0 +1,8 @@
+id = 'lumpy-sv'
+name = 'lumpy-sv'
+
+homepage = 'https://github.com/arq5x/lumpy-sv'
+
+[[package]]
+channel = 'debian'
+name = 'lumpy-sv'

@@ -1,0 +1,16 @@
+id = 'samurai'
+name = 'samurai'
+
+repository = 'https://github.com/michaelforney/samurai.git'
+
+[[package]]
+channel = 'arch'
+name = 'samurai'
+
+[[package]]
+channel = 'fedora'
+name = 'samurai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/samurai'

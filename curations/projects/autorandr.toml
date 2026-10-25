@@ -1,0 +1,16 @@
+id = 'autorandr'
+name = 'autorandr'
+
+homepage = 'https://github.com/phillipberndt/autorandr'
+
+[[package]]
+channel = 'arch'
+name = 'autorandr'
+
+[[package]]
+channel = 'debian'
+name = 'autorandr'
+
+[[package]]
+channel = 'fedora'
+name = 'autorandr'

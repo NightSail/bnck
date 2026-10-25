@@ -1,0 +1,9 @@
+id = 'ltex-ls-plus'
+name = 'ltex-ls-plus'
+
+homepage = 'https://ltex-plus.github.io/ltex-plus'
+repository = 'https://github.com/ltex-plus/ltex-ls-plus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ltex-ls-plus'

@@ -1,0 +1,8 @@
+id = 'jigl'
+name = 'jigl'
+
+homepage = 'http://xome.net/projects/jigl'
+
+[[package]]
+channel = 'debian'
+name = 'jigl'

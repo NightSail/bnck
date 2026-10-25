@@ -1,0 +1,8 @@
+id = 'idsgrep'
+name = 'idsgrep'
+
+homepage = 'https://tsukurimashou.org/idsgrep.php.en'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/idsgrep'

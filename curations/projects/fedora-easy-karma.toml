@@ -1,0 +1,8 @@
+id = 'fedora-easy-karma'
+name = 'fedora-easy-karma'
+
+homepage = 'https://fedoraproject.org/wiki/Fedora_Easy_Karma'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-easy-karma'

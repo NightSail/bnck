@@ -1,0 +1,8 @@
+id = 'pylibtiff'
+name = 'pylibtiff'
+
+homepage = 'https://github.com/pearu/pylibtiff'
+
+[[package]]
+channel = 'debian'
+name = 'pylibtiff'

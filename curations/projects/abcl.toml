@@ -1,0 +1,13 @@
+id = 'abcl'
+name = 'abcl'
+
+homepage = 'https://abcl.org'
+repository = 'https://abcl.org/svn/trunk/abcl'
+
+[[package]]
+channel = 'debian'
+name = 'abcl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abcl'

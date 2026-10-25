@@ -1,0 +1,8 @@
+id = 'mabel'
+name = 'mabel'
+
+repository = 'https://github.com/smmr-software/mabel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mabel'

@@ -1,0 +1,16 @@
+id = 'piper'
+name = 'piper'
+
+homepage = 'https://github.com/libratbag/piper'
+
+[[package]]
+channel = 'arch'
+name = 'piper'
+
+[[package]]
+channel = 'debian'
+name = 'piper'
+
+[[package]]
+channel = 'fedora'
+name = 'piper'

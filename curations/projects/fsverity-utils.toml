@@ -1,0 +1,12 @@
+id = 'fsverity-utils'
+name = 'fsverity-utils'
+
+homepage = 'https://git.kernel.org/pub/scm/fs/fsverity/fsverity-utils.git'
+
+[[package]]
+channel = 'arch'
+name = 'fsverity-utils'
+
+[[package]]
+channel = 'debian'
+name = 'fsverity'

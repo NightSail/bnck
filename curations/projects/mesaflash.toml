@@ -1,0 +1,12 @@
+id = 'mesaflash'
+name = 'mesaflash'
+
+homepage = 'https://github.com/LinuxCNC/mesaflash'
+
+[[package]]
+channel = 'debian'
+name = 'mesaflash'
+
+[[package]]
+channel = 'fedora'
+name = 'mesaflash'

@@ -1,0 +1,20 @@
+id = 'algol68g'
+name = 'algol68g'
+
+homepage = 'https://algol68genie.nl/en/algol-68-genie'
+
+[[package]]
+channel = 'arch'
+name = 'algol68g'
+
+[[package]]
+channel = 'debian'
+name = 'algol68g'
+
+[[package]]
+channel = 'fedora'
+name = 'algol68g'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/algol68g'

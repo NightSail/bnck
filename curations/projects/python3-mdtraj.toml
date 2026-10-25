@@ -1,0 +1,8 @@
+id = 'python3-mdtraj'
+name = 'python3-mdtraj'
+
+homepage = 'https://mdtraj.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mdtraj'

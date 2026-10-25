@@ -1,0 +1,12 @@
+id = 'pinto'
+name = 'pinto'
+
+homepage = 'https://metacpan.org/release/Pinto'
+
+[[package]]
+channel = 'debian'
+name = 'pinto'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pinto'

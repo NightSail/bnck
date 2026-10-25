@@ -1,0 +1,8 @@
+id = 'ruby-ruby-parser'
+name = 'ruby-ruby-parser'
+
+homepage = 'https://github.com/seattlerb/ruby_parser'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-ruby-parser'

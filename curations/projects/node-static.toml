@@ -1,0 +1,8 @@
+id = 'node-static'
+name = 'node-static'
+
+homepage = 'https://github.com/cloudhead/node-static'
+
+[[package]]
+channel = 'debian'
+name = 'node-static'

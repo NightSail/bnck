@@ -1,0 +1,8 @@
+id = 'lexido'
+name = 'lexido'
+
+repository = 'https://github.com/micr0-dev/lexido.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lexido'

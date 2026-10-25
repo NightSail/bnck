@@ -1,0 +1,8 @@
+id = 'metaproxy'
+name = 'metaproxy'
+
+homepage = 'https://www.indexdata.com/resources/software/metaproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metaproxy'

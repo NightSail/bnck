@@ -1,0 +1,9 @@
+id = 'itpp'
+name = 'itpp'
+
+homepage = 'https://itpp.sourceforge.net'
+repository = 'https://git.code.sf.net/p/itpp/git.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/itpp'

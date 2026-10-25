@@ -1,0 +1,12 @@
+id = 'kpatch'
+name = 'kpatch'
+
+homepage = 'https://github.com/dynup/kpatch'
+
+[[package]]
+channel = 'debian'
+name = 'kpatch'
+
+[[package]]
+channel = 'debian'
+name = 'kpatch-build'

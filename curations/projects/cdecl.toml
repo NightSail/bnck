@@ -1,0 +1,16 @@
+id = 'cdecl'
+name = 'cdecl'
+
+homepage = 'https://github.com/paul-j-lucas/cdecl'
+
+[[package]]
+channel = 'debian'
+name = 'cdecl'
+
+[[package]]
+channel = 'fedora'
+name = 'cdecl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdecl'

@@ -1,0 +1,16 @@
+id = 'kdsoap'
+name = 'kdsoap'
+
+homepage = 'https://github.com/KDAB/KDSoap'
+
+[[package]]
+channel = 'arch'
+name = 'kdsoap'
+
+[[package]]
+channel = 'fedora'
+name = 'kdsoap-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'kdsoap6-devel'

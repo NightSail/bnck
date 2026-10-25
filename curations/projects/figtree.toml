@@ -1,0 +1,8 @@
+id = 'figtree'
+name = 'figtree'
+
+homepage = 'http://tree.bio.ed.ac.uk/software/figtree'
+
+[[package]]
+channel = 'debian'
+name = 'figtree'

@@ -1,0 +1,9 @@
+id = 'adios2-ornladios'
+name = 'adios2'
+
+homepage = 'https://adios2.readthedocs.io'
+repository = 'https://github.com/ornladios/ADIOS2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adios2'

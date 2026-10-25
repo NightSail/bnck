@@ -1,0 +1,8 @@
+id = 'sbws'
+name = 'sbws'
+
+homepage = 'https://tpo.pages.torproject.net/network-health/sbws'
+
+[[package]]
+channel = 'debian'
+name = 'sbws'

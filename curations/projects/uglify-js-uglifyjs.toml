@@ -1,0 +1,12 @@
+id = 'uglify-js-uglifyjs'
+name = 'uglify-js'
+
+homepage = 'http://lisperator.net/uglifyjs'
+
+[[package]]
+channel = 'arch'
+name = 'uglify-js'
+
+[[package]]
+channel = 'debian'
+name = 'node-uglify'

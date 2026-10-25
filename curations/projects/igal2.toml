@@ -1,0 +1,8 @@
+id = 'igal2'
+name = 'igal2'
+
+homepage = 'http://igal.trexler.at'
+
+[[package]]
+channel = 'debian'
+name = 'igal2'

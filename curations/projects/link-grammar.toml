@@ -1,0 +1,21 @@
+id = 'link-grammar'
+name = 'link-grammar'
+
+homepage = 'https://opencog.github.io/link-grammar-website'
+repository = 'https://github.com/opencog/link-grammar.git'
+
+[[package]]
+channel = 'arch'
+name = 'link-grammar'
+
+[[package]]
+channel = 'debian'
+name = 'link-grammar'
+
+[[package]]
+channel = 'fedora'
+name = 'link-grammar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/link-grammar'

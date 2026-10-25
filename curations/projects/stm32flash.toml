@@ -1,0 +1,12 @@
+id = 'stm32flash'
+name = 'stm32flash'
+
+homepage = 'https://sourceforge.net/projects/stm32flash'
+
+[[package]]
+channel = 'debian'
+name = 'stm32flash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stm32flash'

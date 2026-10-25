@@ -1,0 +1,8 @@
+id = 'node-sync-content'
+name = 'node-sync-content'
+
+homepage = 'https://github.com/isaacs/sync-content'
+
+[[package]]
+channel = 'debian'
+name = 'node-sync-content'

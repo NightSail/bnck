@@ -1,0 +1,8 @@
+id = 'lighter'
+name = 'lighter'
+
+homepage = 'https://github.com/mourisl/Lighter'
+
+[[package]]
+channel = 'debian'
+name = 'lighter'

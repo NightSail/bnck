@@ -1,0 +1,8 @@
+id = 'python3-pglast'
+name = 'python3-pglast'
+
+homepage = 'https://github.com/lelit/pglast'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pglast'

@@ -1,0 +1,8 @@
+id = 'minibwa'
+name = 'minibwa'
+
+homepage = 'https://github.com/lh3/minibwa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minibwa'

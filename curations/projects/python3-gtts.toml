@@ -1,0 +1,8 @@
+id = 'python3-gtts'
+name = 'python3-gtts'
+
+homepage = 'https://gtts.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gtts'

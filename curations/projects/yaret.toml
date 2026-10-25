@@ -1,0 +1,8 @@
+id = 'yaret'
+name = 'yaret'
+
+homepage = 'https://www.nongnu.org/yaret'
+
+[[package]]
+channel = 'debian'
+name = 'yaret'

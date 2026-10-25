@@ -1,0 +1,8 @@
+id = 'libason'
+name = 'libason'
+
+homepage = 'https://github.com/sadmac7000/libason'
+
+[[package]]
+channel = 'fedora'
+name = 'libason'

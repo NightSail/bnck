@@ -1,0 +1,16 @@
+id = 'cvm'
+name = 'cvm'
+
+homepage = 'https://untroubled.org/cvm/cvm.html'
+
+[[package]]
+channel = 'debian'
+name = 'cvm'
+
+[[package]]
+channel = 'debian'
+name = 'cvm-mysql'
+
+[[package]]
+channel = 'debian'
+name = 'cvm-pgsql'

@@ -1,0 +1,9 @@
+id = 'f2'
+name = 'f2'
+
+homepage = 'https://f2.freshman.tech'
+repository = 'https://github.com/ayoisaiah/f2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/f2'

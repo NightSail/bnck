@@ -1,0 +1,8 @@
+id = 'libitpp-dev'
+name = 'libitpp-dev'
+
+homepage = 'http://itpp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libitpp-dev'

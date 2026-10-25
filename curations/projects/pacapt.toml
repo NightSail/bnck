@@ -1,0 +1,8 @@
+id = 'pacapt'
+name = 'pacapt'
+
+homepage = 'https://github.com/icy/pacapt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pacapt'

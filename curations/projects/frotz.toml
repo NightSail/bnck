@@ -1,0 +1,29 @@
+id = 'frotz'
+name = 'frotz'
+
+homepage = 'https://661.org/proj/if/frotz'
+repository = 'https://gitlab.com/DavidGriffith/frotz.git'
+
+[[package]]
+channel = 'arch'
+name = 'frotz-dumb'
+
+[[package]]
+channel = 'arch'
+name = 'frotz-ncurses'
+
+[[package]]
+channel = 'arch'
+name = 'frotz-sdl'
+
+[[package]]
+channel = 'fedora'
+name = 'frotz'
+
+[[package]]
+channel = 'fedora'
+name = 'frotz-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/frotz'

@@ -1,0 +1,8 @@
+id = 'juliaup'
+name = 'juliaup'
+
+repository = 'https://github.com/JuliaLang/juliaup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/juliaup'

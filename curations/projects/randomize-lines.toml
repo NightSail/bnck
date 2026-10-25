@@ -1,0 +1,8 @@
+id = 'randomize-lines'
+name = 'randomize-lines'
+
+homepage = 'https://arthurdejong.org/rl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/randomize-lines'

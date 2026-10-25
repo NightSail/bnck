@@ -1,0 +1,8 @@
+id = 'camorama'
+name = 'camorama'
+
+homepage = 'https://github.com/alessio/camorama'
+
+[[package]]
+channel = 'fedora'
+name = 'camorama'

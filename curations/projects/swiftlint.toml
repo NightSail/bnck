@@ -1,0 +1,13 @@
+id = 'swiftlint'
+name = 'swiftlint'
+
+homepage = 'https://realm.github.io/SwiftLint'
+repository = 'https://github.com/realm/SwiftLint.git'
+
+[[package]]
+channel = 'fedora'
+name = 'swiftlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swiftlint'

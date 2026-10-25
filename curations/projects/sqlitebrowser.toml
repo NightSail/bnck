@@ -1,0 +1,16 @@
+id = 'sqlitebrowser'
+name = 'sqlitebrowser'
+
+homepage = 'https://sqlitebrowser.org'
+
+[[package]]
+channel = 'arch'
+name = 'sqlitebrowser'
+
+[[package]]
+channel = 'debian'
+name = 'sqlitebrowser'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlitebrowser'

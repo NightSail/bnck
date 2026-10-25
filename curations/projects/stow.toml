@@ -1,0 +1,20 @@
+id = 'stow'
+name = 'stow'
+
+homepage = 'https://www.gnu.org/software/stow'
+
+[[package]]
+channel = 'arch'
+name = 'stow'
+
+[[package]]
+channel = 'debian'
+name = 'stow'
+
+[[package]]
+channel = 'fedora'
+name = 'stow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stow'

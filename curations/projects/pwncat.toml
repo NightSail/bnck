@@ -1,0 +1,9 @@
+id = 'pwncat'
+name = 'pwncat'
+
+homepage = 'https://pwncat.org'
+repository = 'https://github.com/cytopia/pwncat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pwncat'

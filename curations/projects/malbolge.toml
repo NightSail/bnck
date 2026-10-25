@@ -1,0 +1,8 @@
+id = 'malbolge'
+name = 'malbolge'
+
+homepage = 'https://esoteric.sange.fi/orphaned/malbolge/README.txt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/malbolge'

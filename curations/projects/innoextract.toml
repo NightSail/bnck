@@ -1,0 +1,21 @@
+id = 'innoextract'
+name = 'innoextract'
+
+homepage = 'https://constexpr.org/innoextract'
+repository = 'https://github.com/dscharrer/innoextract.git'
+
+[[package]]
+channel = 'arch'
+name = 'innoextract'
+
+[[package]]
+channel = 'debian'
+name = 'innoextract'
+
+[[package]]
+channel = 'fedora'
+name = 'innoextract'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/innoextract'

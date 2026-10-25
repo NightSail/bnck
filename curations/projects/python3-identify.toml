@@ -1,0 +1,10 @@
+id = 'python3-identify'
+name = 'python3-identify'
+
+[[package]]
+channel = 'debian'
+name = 'python3-identify'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-identify'

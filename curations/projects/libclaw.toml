@@ -1,0 +1,12 @@
+id = 'libclaw'
+name = 'libclaw'
+
+homepage = 'http://libclaw.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libclaw-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libclaw-devel'

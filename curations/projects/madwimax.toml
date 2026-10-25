@@ -1,0 +1,8 @@
+id = 'madwimax'
+name = 'madwimax'
+
+homepage = 'https://github.com/ago/madwimax'
+
+[[package]]
+channel = 'debian'
+name = 'madwimax'

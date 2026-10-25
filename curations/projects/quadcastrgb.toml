@@ -1,0 +1,9 @@
+id = 'quadcastrgb'
+name = 'quadcastrgb'
+
+homepage = 'https://ors1mer.xyz/quadcastrgb.html'
+repository = 'https://github.com/Ors1mer/QuadcastRGB.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quadcastrgb'

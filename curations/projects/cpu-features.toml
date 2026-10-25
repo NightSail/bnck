@@ -1,0 +1,8 @@
+id = 'cpu-features'
+name = 'cpu_features'
+
+repository = 'https://github.com/google/cpu_features.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpu_features'

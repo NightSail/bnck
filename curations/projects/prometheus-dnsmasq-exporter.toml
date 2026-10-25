@@ -1,0 +1,8 @@
+id = 'prometheus-dnsmasq-exporter'
+name = 'prometheus-dnsmasq-exporter'
+
+homepage = 'https://github.com/google/dnsmasq_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-dnsmasq-exporter'

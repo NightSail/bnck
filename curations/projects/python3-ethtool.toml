@@ -1,0 +1,12 @@
+id = 'python3-ethtool'
+name = 'python3-ethtool'
+
+homepage = 'https://github.com/fedora-python/python-ethtool'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ethtool'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ethtool'

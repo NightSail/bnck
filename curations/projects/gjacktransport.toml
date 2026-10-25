@@ -1,0 +1,8 @@
+id = 'gjacktransport'
+name = 'gjacktransport'
+
+homepage = 'http://gjacktransport.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gjacktransport'

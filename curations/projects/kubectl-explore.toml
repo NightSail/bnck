@@ -1,0 +1,8 @@
+id = 'kubectl-explore'
+name = 'kubectl-explore'
+
+homepage = 'https://github.com/keisku/kubectl-explore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectl-explore'

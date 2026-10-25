@@ -1,0 +1,8 @@
+id = 'goda'
+name = 'goda'
+
+homepage = 'https://github.com/loov/goda'
+
+[[package]]
+channel = 'debian'
+name = 'goda'

@@ -1,0 +1,8 @@
+id = 'python3-nitrate'
+name = 'python3-nitrate'
+
+homepage = 'https://github.com/psss/python-nitrate'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nitrate'

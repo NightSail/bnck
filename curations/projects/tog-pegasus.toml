@@ -1,0 +1,8 @@
+id = 'tog-pegasus'
+name = 'tog-pegasus'
+
+homepage = 'http://www.openpegasus.org'
+
+[[package]]
+channel = 'fedora'
+name = 'tog-pegasus'

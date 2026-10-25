@@ -1,0 +1,13 @@
+id = 'nmh'
+name = 'nmh'
+
+homepage = 'https://savannah.nongnu.org/projects/nmh'
+repository = 'https://git.savannah.nongnu.org/git/nmh.git'
+
+[[package]]
+channel = 'fedora'
+name = 'nmh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nmh'

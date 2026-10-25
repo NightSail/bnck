@@ -1,0 +1,8 @@
+id = 'mimo-code'
+name = 'mimo-code'
+
+homepage = 'https://github.com/XiaomiMiMo/MiMo-Code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mimo-code'

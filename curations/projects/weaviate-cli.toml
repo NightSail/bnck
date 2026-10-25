@@ -1,0 +1,8 @@
+id = 'weaviate-cli'
+name = 'weaviate-cli'
+
+homepage = 'https://pypi.org/project/weaviate-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weaviate-cli'

@@ -1,0 +1,8 @@
+id = 'gromit'
+name = 'gromit'
+
+homepage = 'http://www.home.unix-ag.org/simon/gromit'
+
+[[package]]
+channel = 'debian'
+name = 'gromit'

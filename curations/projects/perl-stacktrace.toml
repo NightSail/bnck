@@ -1,0 +1,8 @@
+id = 'perl-stacktrace'
+name = 'perl-stacktrace'
+
+homepage = 'https://metacpan.org/release/App-Stacktrace'
+
+[[package]]
+channel = 'debian'
+name = 'perl-stacktrace'

@@ -1,0 +1,8 @@
+id = 'simavr'
+name = 'simavr'
+
+homepage = 'https://github.com/buserror/simavr'
+
+[[package]]
+channel = 'debian'
+name = 'simavr'

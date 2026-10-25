@@ -1,0 +1,8 @@
+id = 'pff-tools'
+name = 'pff-tools'
+
+homepage = 'https://github.com/libyal/libpff'
+
+[[package]]
+channel = 'debian'
+name = 'pff-tools'

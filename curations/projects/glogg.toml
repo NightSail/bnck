@@ -1,0 +1,12 @@
+id = 'glogg'
+name = 'glogg'
+
+homepage = 'http://glogg.bonnefon.org'
+
+[[package]]
+channel = 'debian'
+name = 'glogg'
+
+[[package]]
+channel = 'fedora'
+name = 'glogg'

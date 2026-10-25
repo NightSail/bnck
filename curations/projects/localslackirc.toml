@@ -1,0 +1,8 @@
+id = 'localslackirc'
+name = 'localslackirc'
+
+homepage = 'https://codeberg.org/ltworf/localslackirc'
+
+[[package]]
+channel = 'debian'
+name = 'localslackirc'

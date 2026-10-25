@@ -1,0 +1,8 @@
+id = 'open-infrastructure-compute-tools'
+name = 'open-infrastructure-compute-tools'
+
+homepage = 'https://open-infrastructure.net/software/compute-tools'
+
+[[package]]
+channel = 'debian'
+name = 'open-infrastructure-compute-tools'

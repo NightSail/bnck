@@ -1,0 +1,12 @@
+id = 'status-notifier-item'
+name = 'status-notifier-item'
+
+homepage = 'https://github.com/IvanMalison/status-notifier-item'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-status-notifier-item'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-status-notifier-item-utils'

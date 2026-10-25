@@ -1,0 +1,8 @@
+id = 'python-invoke'
+name = 'python-invoke'
+
+homepage = 'https://github.com/pyinvoke/invoke'
+
+[[package]]
+channel = 'arch'
+name = 'python-invoke'

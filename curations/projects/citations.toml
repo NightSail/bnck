@@ -1,0 +1,8 @@
+id = 'citations'
+name = 'citations'
+
+homepage = 'https://apps.gnome.org/Citations'
+
+[[package]]
+channel = 'arch'
+name = 'citations'

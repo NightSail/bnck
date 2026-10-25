@@ -1,0 +1,13 @@
+id = 'eye-d3'
+name = 'eye-d3'
+
+homepage = 'http://eyed3.nicfit.net'
+repository = 'https://github.com/nicfit/eyeD3.git'
+
+[[package]]
+channel = 'debian'
+name = 'eyed3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eye-d3'

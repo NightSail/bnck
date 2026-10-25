@@ -1,0 +1,8 @@
+id = 'bitsnpicas'
+name = 'bitsnpicas'
+
+homepage = 'https://github.com/kreativekorp/bitsnpicas'
+
+[[package]]
+channel = 'debian'
+name = 'bitsnpicas'

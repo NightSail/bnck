@@ -1,0 +1,8 @@
+id = 'aperture-0-examples'
+name = 'aperture-0-examples'
+
+homepage = 'https://gitlab.gnome.org/jwestman/libaperture'
+
+[[package]]
+channel = 'debian'
+name = 'aperture-0-examples'

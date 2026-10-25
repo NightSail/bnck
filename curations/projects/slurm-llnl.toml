@@ -1,0 +1,8 @@
+id = 'slurm-llnl'
+name = 'slurm-llnl'
+
+homepage = 'https://www.schedmd.com'
+
+[[package]]
+channel = 'arch'
+name = 'slurm-llnl'

@@ -1,0 +1,12 @@
+id = 'usort'
+name = 'usort'
+
+homepage = 'https://github.com/facebookexperimental/usort'
+
+[[package]]
+channel = 'arch'
+name = 'usort'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-usort'

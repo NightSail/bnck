@@ -1,0 +1,6 @@
+id = 'mdetect'
+name = 'mdetect'
+
+[[package]]
+channel = 'debian'
+name = 'mdetect'

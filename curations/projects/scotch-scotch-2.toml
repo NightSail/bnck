@@ -1,0 +1,8 @@
+id = 'scotch-scotch-2'
+name = 'scotch'
+
+repository = 'https://gitlab.inria.fr/scotch/scotch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scotch'

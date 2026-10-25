@@ -1,0 +1,8 @@
+id = 'python3-transformers'
+name = 'python3-transformers'
+
+homepage = 'https://github.com/huggingface/transformers'
+
+[[package]]
+channel = 'debian'
+name = 'python3-transformers'

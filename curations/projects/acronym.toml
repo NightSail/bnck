@@ -1,0 +1,8 @@
+id = 'acronym'
+name = 'acronym'
+
+homepage = 'https://github.com/bacook17/acronym'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/acronym'

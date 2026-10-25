@@ -1,0 +1,12 @@
+id = 'kspaceduel'
+name = 'kspaceduel'
+
+homepage = 'https://apps.kde.org/kspaceduel'
+
+[[package]]
+channel = 'arch'
+name = 'kspaceduel'
+
+[[package]]
+channel = 'fedora'
+name = 'kspaceduel'

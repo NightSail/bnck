@@ -1,0 +1,8 @@
+id = 'python3-deepdish'
+name = 'python3-deepdish'
+
+homepage = 'https://github.com/uchicago-cs/deepdish'
+
+[[package]]
+channel = 'debian'
+name = 'python3-deepdish'

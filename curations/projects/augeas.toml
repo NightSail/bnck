@@ -1,0 +1,21 @@
+id = 'augeas'
+name = 'augeas'
+
+homepage = 'https://augeas.net'
+repository = 'https://github.com/hercules-team/augeas.git'
+
+[[package]]
+channel = 'arch'
+name = 'augeas'
+
+[[package]]
+channel = 'debian'
+name = 'augeas-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'augeas'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/augeas'

@@ -1,0 +1,12 @@
+id = 'warp'
+name = 'warp'
+
+homepage = 'https://apps.gnome.org/Warp'
+
+[[package]]
+channel = 'arch'
+name = 'warp'
+
+[[package]]
+channel = 'debian'
+name = 'warp'

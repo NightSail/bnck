@@ -1,0 +1,8 @@
+id = 'mkrdns'
+name = 'mkrdns'
+
+homepage = 'https://github.com/oasys/mkrdns'
+
+[[package]]
+channel = 'fedora'
+name = 'mkrdns'

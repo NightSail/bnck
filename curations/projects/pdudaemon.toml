@@ -1,0 +1,12 @@
+id = 'pdudaemon'
+name = 'pdudaemon'
+
+homepage = 'http://github.com/pdudaemon'
+
+[[package]]
+channel = 'debian'
+name = 'pdudaemon'
+
+[[package]]
+channel = 'debian'
+name = 'pdudaemon-client'

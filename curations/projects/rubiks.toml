@@ -1,0 +1,8 @@
+id = 'rubiks'
+name = 'rubiks'
+
+homepage = 'https://git.sagemath.org/sage.git/plain/build/pkgs/rubiks'
+
+[[package]]
+channel = 'debian'
+name = 'rubiks'

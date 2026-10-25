@@ -1,0 +1,8 @@
+id = 'perl-mime-tools'
+name = 'perl-MIME-tools'
+
+homepage = 'https://metacpan.org/release/MIME-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-MIME-tools'

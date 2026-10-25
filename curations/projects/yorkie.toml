@@ -1,0 +1,9 @@
+id = 'yorkie'
+name = 'yorkie'
+
+homepage = 'https://yorkie.dev'
+repository = 'https://github.com/yorkie-team/yorkie.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yorkie'

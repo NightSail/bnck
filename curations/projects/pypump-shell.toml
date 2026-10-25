@@ -1,0 +1,8 @@
+id = 'pypump-shell'
+name = 'pypump-shell'
+
+homepage = 'https://github.com/xray7224/PyPump'
+
+[[package]]
+channel = 'debian'
+name = 'pypump-shell'

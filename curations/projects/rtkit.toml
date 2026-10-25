@@ -1,0 +1,16 @@
+id = 'rtkit'
+name = 'rtkit'
+
+homepage = 'https://gitlab.freedesktop.org/pipewire/rtkit'
+
+[[package]]
+channel = 'arch'
+name = 'rtkit'
+
+[[package]]
+channel = 'debian'
+name = 'rtkit'
+
+[[package]]
+channel = 'fedora'
+name = 'rtkit'

@@ -1,0 +1,12 @@
+id = 'irstlm'
+name = 'irstlm'
+
+homepage = 'https://hlt-mt.fbk.eu/technologies/irstlm'
+
+[[package]]
+channel = 'debian'
+name = 'irstlm'
+
+[[package]]
+channel = 'fedora'
+name = 'irstlm-tools'

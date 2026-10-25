@@ -1,0 +1,12 @@
+id = 'distro-info'
+name = 'distro-info'
+
+homepage = 'https://salsa.debian.org/debian/distro-info'
+
+[[package]]
+channel = 'arch'
+name = 'distro-info'
+
+[[package]]
+channel = 'debian'
+name = 'distro-info'

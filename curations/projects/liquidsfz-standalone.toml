@@ -1,0 +1,8 @@
+id = 'liquidsfz-standalone'
+name = 'liquidsfz-standalone'
+
+homepage = 'https://github.com/swesterfeld/liquidsfz'
+
+[[package]]
+channel = 'arch'
+name = 'liquidsfz-standalone'

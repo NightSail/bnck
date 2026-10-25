@@ -1,0 +1,8 @@
+id = 'tipcutils'
+name = 'tipcutils'
+
+homepage = 'http://tipc.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'tipcutils'

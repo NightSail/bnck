@@ -1,0 +1,12 @@
+id = 'python3-pastescript'
+name = 'python3-pastescript'
+
+homepage = 'https://github.com/pasteorg/pastescript'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pastescript'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-paste-script'

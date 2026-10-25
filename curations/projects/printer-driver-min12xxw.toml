@@ -1,0 +1,8 @@
+id = 'printer-driver-min12xxw'
+name = 'printer-driver-min12xxw'
+
+homepage = 'http://www.hinterbergen.de/mala/min12xxw'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-min12xxw'

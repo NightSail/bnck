@@ -1,0 +1,8 @@
+id = 'glom'
+name = 'glom'
+
+homepage = 'https://glom.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glom'

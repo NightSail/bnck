@@ -4,6 +4,14 @@ name = 'hashcat'
 repository = 'https://github.com/hashcat/hashcat'
 
 [[package]]
+channel = 'arch'
+name = 'hashcat'
+
+[[package]]
+channel = 'debian'
+name = 'hashcat'
+
+[[package]]
 channel = 'fedora'
 name = 'hashcat'
 

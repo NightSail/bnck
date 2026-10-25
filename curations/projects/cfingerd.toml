@@ -1,0 +1,8 @@
+id = 'cfingerd'
+name = 'cfingerd'
+
+homepage = 'https://www.infodrom.org/projects/cfingerd'
+
+[[package]]
+channel = 'debian'
+name = 'cfingerd'

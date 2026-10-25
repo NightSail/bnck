@@ -1,0 +1,8 @@
+id = 'archmage'
+name = 'archmage'
+
+homepage = 'https://github.com/dottedmag/archmage'
+
+[[package]]
+channel = 'debian'
+name = 'archmage'

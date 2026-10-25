@@ -1,0 +1,8 @@
+id = 'howl'
+name = 'howl'
+
+homepage = 'https://howl.io'
+
+[[package]]
+channel = 'fedora'
+name = 'howl'

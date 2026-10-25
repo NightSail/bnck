@@ -1,0 +1,8 @@
+id = 'xgrav'
+name = 'xgrav'
+
+homepage = 'http://aass.oru.se/~mbl/xgrav'
+
+[[package]]
+channel = 'fedora'
+name = 'xgrav'

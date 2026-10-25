@@ -1,0 +1,8 @@
+id = 'archey4'
+name = 'archey4'
+
+homepage = 'https://github.com/HorlogeSkynet/archey4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/archey4'

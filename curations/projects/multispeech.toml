@@ -1,0 +1,8 @@
+id = 'multispeech'
+name = 'multispeech'
+
+homepage = 'https://github.com/poretsky/multispeech'
+
+[[package]]
+channel = 'debian'
+name = 'multispeech'

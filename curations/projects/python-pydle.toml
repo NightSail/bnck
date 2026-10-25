@@ -1,0 +1,8 @@
+id = 'python-pydle'
+name = 'python-pydle'
+
+homepage = 'https://codeberg.org/shiz/pydle'
+
+[[package]]
+channel = 'arch'
+name = 'python-pydle'

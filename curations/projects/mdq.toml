@@ -1,0 +1,8 @@
+id = 'mdq'
+name = 'mdq'
+
+repository = 'https://github.com/yshavit/mdq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdq'

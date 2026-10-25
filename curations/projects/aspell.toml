@@ -1,0 +1,28 @@
+id = 'aspell'
+name = 'aspell'
+
+homepage = 'http://aspell.net'
+
+[[package]]
+channel = 'arch'
+name = 'aspell'
+
+[[package]]
+channel = 'debian'
+name = 'aspell'
+
+[[package]]
+channel = 'debian'
+name = 'libpspell-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'aspell'
+
+[[package]]
+channel = 'fedora'
+name = 'aspell-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aspell'

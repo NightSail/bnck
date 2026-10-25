@@ -1,0 +1,20 @@
+id = 'tor'
+name = 'tor'
+
+homepage = 'https://www.torproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'tor'
+
+[[package]]
+channel = 'debian'
+name = 'tor'
+
+[[package]]
+channel = 'fedora'
+name = 'tor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tor'

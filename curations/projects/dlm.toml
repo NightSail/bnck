@@ -1,0 +1,12 @@
+id = 'dlm'
+name = 'dlm'
+
+homepage = 'https://pagure.io/dlm'
+
+[[package]]
+channel = 'debian'
+name = 'dlm-controld'
+
+[[package]]
+channel = 'fedora'
+name = 'dlm'

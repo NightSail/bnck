@@ -1,0 +1,8 @@
+id = 'mona'
+name = 'mona'
+
+homepage = 'https://www.brics.dk/mona'
+
+[[package]]
+channel = 'debian'
+name = 'mona'

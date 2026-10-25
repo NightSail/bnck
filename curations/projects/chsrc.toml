@@ -1,0 +1,9 @@
+id = 'chsrc'
+name = 'chsrc'
+
+homepage = 'https://chsrc.run'
+repository = 'https://github.com/RubyMetric/chsrc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chsrc'

@@ -1,0 +1,8 @@
+id = 'dnf-utils'
+name = 'dnf-utils'
+
+homepage = 'https://github.com/rpm-software-management/dnf-plugins-core'
+
+[[package]]
+channel = 'fedora'
+name = 'dnf-utils'

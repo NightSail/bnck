@@ -1,0 +1,8 @@
+id = 'deepin-font-manager'
+name = 'deepin-font-manager'
+
+homepage = 'https://github.com/linuxdeepin/deepin-font-manager'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-font-manager'

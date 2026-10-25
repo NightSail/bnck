@@ -1,0 +1,8 @@
+id = 'fiche'
+name = 'fiche'
+
+homepage = 'https://github.com/solusipse/fiche'
+
+[[package]]
+channel = 'debian'
+name = 'fiche'

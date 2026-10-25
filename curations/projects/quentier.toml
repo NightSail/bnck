@@ -1,0 +1,8 @@
+id = 'quentier'
+name = 'quentier'
+
+homepage = 'https://github.com/d1vanov/quentier'
+
+[[package]]
+channel = 'fedora'
+name = 'quentier'

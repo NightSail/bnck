@@ -1,0 +1,8 @@
+id = 'sumtrees'
+name = 'sumtrees'
+
+homepage = 'https://jeetsukumaran.github.io/DendroPy'
+
+[[package]]
+channel = 'debian'
+name = 'sumtrees'

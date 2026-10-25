@@ -1,0 +1,16 @@
+id = 'cmusphinx'
+name = 'cmusphinx'
+
+homepage = 'https://cmusphinx.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pocketsphinx'
+
+[[package]]
+channel = 'debian'
+name = 'sphinxbase-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmuclmtk'

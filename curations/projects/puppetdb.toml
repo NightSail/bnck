@@ -1,0 +1,8 @@
+id = 'puppetdb'
+name = 'puppetdb'
+
+homepage = 'https://github.com/puppetlabs/puppetdb'
+
+[[package]]
+channel = 'debian'
+name = 'puppetdb'

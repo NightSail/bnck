@@ -1,0 +1,8 @@
+id = 'cargo-wizard'
+name = 'cargo-wizard'
+
+homepage = 'https://github.com/Kobzol/cargo-wizard'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-wizard'

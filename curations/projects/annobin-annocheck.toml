@@ -1,0 +1,8 @@
+id = 'annobin-annocheck'
+name = 'annobin-annocheck'
+
+homepage = 'https://sourceware.org/annobin'
+
+[[package]]
+channel = 'fedora'
+name = 'annobin-annocheck'

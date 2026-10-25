@@ -1,0 +1,8 @@
+id = 'prokka'
+name = 'prokka'
+
+homepage = 'https://github.com/tseemann/prokka'
+
+[[package]]
+channel = 'debian'
+name = 'prokka'

@@ -1,0 +1,12 @@
+id = 'python3-qtsass'
+name = 'python3-qtsass'
+
+homepage = 'https://github.com/spyder-ide/qtsass'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qtsass'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qtsass'

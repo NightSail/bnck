@@ -1,0 +1,13 @@
+id = 'tanka'
+name = 'tanka'
+
+homepage = 'https://tanka.dev'
+repository = 'https://github.com/grafana/tanka.git'
+
+[[package]]
+channel = 'arch'
+name = 'tanka'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tanka'

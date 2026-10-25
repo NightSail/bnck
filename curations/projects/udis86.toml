@@ -1,0 +1,12 @@
+id = 'udis86'
+name = 'udis86'
+
+homepage = 'https://sourceforge.net/projects/udis86'
+
+[[package]]
+channel = 'fedora'
+name = 'udis86'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/udis86'

@@ -1,0 +1,20 @@
+id = 'tcpreplay'
+name = 'tcpreplay'
+
+homepage = 'https://tcpreplay.appneta.com'
+
+[[package]]
+channel = 'arch'
+name = 'tcpreplay'
+
+[[package]]
+channel = 'debian'
+name = 'tcpreplay'
+
+[[package]]
+channel = 'fedora'
+name = 'tcpreplay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcpreplay'

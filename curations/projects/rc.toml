@@ -1,0 +1,12 @@
+id = 'rc'
+name = 'rc'
+
+homepage = 'https://github.com/rakitzis/rc'
+
+[[package]]
+channel = 'debian'
+name = 'rc'
+
+[[package]]
+channel = 'fedora'
+name = 'rc'

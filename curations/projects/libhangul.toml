@@ -1,0 +1,12 @@
+id = 'libhangul'
+name = 'libhangul'
+
+homepage = 'https://github.com/libhangul/libhangul'
+
+[[package]]
+channel = 'arch'
+name = 'libhangul'
+
+[[package]]
+channel = 'fedora'
+name = 'libhangul'

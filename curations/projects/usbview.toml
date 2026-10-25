@@ -1,0 +1,16 @@
+id = 'usbview'
+name = 'usbview'
+
+homepage = 'http://www.kroah.com/linux/usb'
+
+[[package]]
+channel = 'arch'
+name = 'usbview'
+
+[[package]]
+channel = 'debian'
+name = 'usbview'
+
+[[package]]
+channel = 'fedora'
+name = 'usbview'

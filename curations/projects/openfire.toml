@@ -1,0 +1,8 @@
+id = 'openfire'
+name = 'openfire'
+
+homepage = 'https://www.igniterealtime.org/projects/openfire'
+
+[[package]]
+channel = 'arch'
+name = 'openfire'

@@ -1,0 +1,12 @@
+id = 'opensurge2d'
+name = 'opensurge2d'
+
+homepage = 'https://opensurge2d.org'
+
+[[package]]
+channel = 'fedora'
+name = 'opensurge'
+
+[[package]]
+channel = 'fedora'
+name = 'surgescript'

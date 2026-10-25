@@ -1,0 +1,8 @@
+id = 'bdbvu'
+name = 'bdbvu'
+
+homepage = 'https://github.com/ferruccio/bdbvu'
+
+[[package]]
+channel = 'debian'
+name = 'bdbvu'

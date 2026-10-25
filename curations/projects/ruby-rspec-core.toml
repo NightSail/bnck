@@ -1,0 +1,8 @@
+id = 'ruby-rspec-core'
+name = 'ruby-rspec-core'
+
+homepage = 'https://github.com/rspec/rspec'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rspec-core'

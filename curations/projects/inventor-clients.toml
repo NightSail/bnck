@@ -1,0 +1,8 @@
+id = 'inventor-clients'
+name = 'inventor-clients'
+
+homepage = 'https://github.com/aumuell/open-inventor'
+
+[[package]]
+channel = 'debian'
+name = 'inventor-clients'

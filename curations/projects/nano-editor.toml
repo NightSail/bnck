@@ -1,0 +1,20 @@
+id = 'nano-editor'
+name = 'nano-editor'
+
+homepage = 'https://www.nano-editor.org'
+
+[[package]]
+channel = 'arch'
+name = 'nano'
+
+[[package]]
+channel = 'debian'
+name = 'nano'
+
+[[package]]
+channel = 'debian'
+name = 'nano-tiny'
+
+[[package]]
+channel = 'fedora'
+name = 'nano'

@@ -1,0 +1,8 @@
+id = 'libeccodes-tools'
+name = 'libeccodes-tools'
+
+homepage = 'https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home'
+
+[[package]]
+channel = 'debian'
+name = 'libeccodes-tools'

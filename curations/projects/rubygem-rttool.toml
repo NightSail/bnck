@@ -1,0 +1,8 @@
+id = 'rubygem-rttool'
+name = 'rubygem-rttool'
+
+homepage = 'https://github.com/genki/rttool'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rttool'

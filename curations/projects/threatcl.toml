@@ -1,0 +1,8 @@
+id = 'threatcl'
+name = 'threatcl'
+
+repository = 'https://github.com/threatcl/threatcl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/threatcl'

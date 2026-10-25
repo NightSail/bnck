@@ -1,0 +1,8 @@
+id = 'ratt'
+name = 'ratt'
+
+homepage = 'https://github.com/debian/ratt'
+
+[[package]]
+channel = 'debian'
+name = 'ratt'

@@ -1,0 +1,8 @@
+id = 'ghc-pretty-show-devel'
+name = 'ghc-pretty-show-devel'
+
+homepage = 'https://hackage.haskell.org/package/pretty-show'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-pretty-show-devel'

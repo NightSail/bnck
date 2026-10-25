@@ -1,0 +1,8 @@
+id = 'bubblemon'
+name = 'bubblemon'
+
+homepage = 'http://www.ne.jp/asahi/linux/timecop'
+
+[[package]]
+channel = 'fedora'
+name = 'bubblemon'

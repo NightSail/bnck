@@ -1,0 +1,12 @@
+id = 'jl'
+name = 'jl'
+
+homepage = 'https://github.com/mightyguava/jl'
+
+[[package]]
+channel = 'debian'
+name = 'jl'
+
+[[package]]
+channel = 'fedora'
+name = 'jl'

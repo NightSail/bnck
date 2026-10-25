@@ -1,0 +1,8 @@
+id = 'simspark-devel'
+name = 'simspark-devel'
+
+homepage = 'http://simspark.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'simspark-devel'

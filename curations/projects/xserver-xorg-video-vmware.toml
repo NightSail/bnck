@@ -1,0 +1,6 @@
+id = 'xserver-xorg-video-vmware'
+name = 'xserver-xorg-video-vmware'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xorg-video-vmware'

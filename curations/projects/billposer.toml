@@ -1,0 +1,16 @@
+id = 'billposer'
+name = 'billposer'
+
+homepage = 'http://www.billposer.org/Software/msort.html'
+
+[[package]]
+channel = 'debian'
+name = 'msort'
+
+[[package]]
+channel = 'debian'
+name = 'msort-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'msort'

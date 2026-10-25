@@ -1,0 +1,8 @@
+id = 'snapshot-snapshot'
+name = 'snapshot'
+
+homepage = 'https://apps.gnome.org/Snapshot'
+
+[[package]]
+channel = 'arch'
+name = 'snapshot'

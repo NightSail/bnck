@@ -1,0 +1,16 @@
+id = 'webmproject'
+name = 'webmproject'
+
+homepage = 'https://www.webmproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'libvpx'
+
+[[package]]
+channel = 'debian'
+name = 'vpx-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libwebp-tools'

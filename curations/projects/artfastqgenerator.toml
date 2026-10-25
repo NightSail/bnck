@@ -1,0 +1,8 @@
+id = 'artfastqgenerator'
+name = 'artfastqgenerator'
+
+homepage = 'https://sourceforge.net/projects/artfastqgen'
+
+[[package]]
+channel = 'debian'
+name = 'artfastqgenerator'

@@ -1,0 +1,12 @@
+id = 'openjpeg'
+name = 'openjpeg'
+
+homepage = 'https://github.com/uclouvain/openjpeg'
+
+[[package]]
+channel = 'arch'
+name = 'openjpeg2'
+
+[[package]]
+channel = 'fedora'
+name = 'openjpeg-tools'

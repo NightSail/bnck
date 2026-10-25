@@ -1,0 +1,12 @@
+id = 'module-package-rdf'
+name = 'Module-Package-RDF'
+
+homepage = 'https://metacpan.org/release/Module-Package-RDF'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-package-rdf-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Package-RDF'

@@ -1,0 +1,12 @@
+id = 'hawkeye'
+name = 'hawkeye'
+
+homepage = 'https://github.com/korandoru/hawkeye'
+
+[[package]]
+channel = 'arch'
+name = 'hawkeye'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hawkeye'

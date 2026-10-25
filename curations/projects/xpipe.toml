@@ -1,0 +1,8 @@
+id = 'xpipe'
+name = 'xpipe'
+
+homepage = 'https://www.netmeister.org/apps/xpipe.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xpipe'

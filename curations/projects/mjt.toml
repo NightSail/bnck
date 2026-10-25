@@ -1,0 +1,16 @@
+id = 'mjt'
+name = 'mjt'
+
+homepage = 'https://www.corpit.ru/mjt/udns.html'
+
+[[package]]
+channel = 'arch'
+name = 'udns'
+
+[[package]]
+channel = 'debian'
+name = 'udns-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'udns'

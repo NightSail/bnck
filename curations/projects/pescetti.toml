@@ -1,0 +1,8 @@
+id = 'pescetti'
+name = 'pescetti'
+
+homepage = 'http://www.matthew.ath.cx/projects/pescetti'
+
+[[package]]
+channel = 'debian'
+name = 'pescetti'

@@ -1,0 +1,12 @@
+id = 'fv'
+name = 'fv'
+
+homepage = 'https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/ftools/fv'
+
+[[package]]
+channel = 'debian'
+name = 'ftools-fv'
+
+[[package]]
+channel = 'debian'
+name = 'ftools-pow'

@@ -1,0 +1,6 @@
+id = 'svg2pdf'
+name = 'svg2pdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svg2pdf'

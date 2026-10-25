@@ -1,0 +1,16 @@
+id = 'myrepos'
+name = 'myrepos'
+
+homepage = 'https://myrepos.branchable.com'
+
+[[package]]
+channel = 'arch'
+name = 'myrepos'
+
+[[package]]
+channel = 'debian'
+name = 'myrepos'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mr'

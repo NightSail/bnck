@@ -1,0 +1,8 @@
+id = 'python3-toml-adapt'
+name = 'python3-toml-adapt'
+
+homepage = 'https://github.com/firefly-cpp/toml-adapt'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-toml-adapt'

@@ -1,0 +1,9 @@
+id = 'scrapy-scrapy'
+name = 'scrapy'
+
+homepage = 'https://scrapy.org'
+repository = 'https://github.com/scrapy/scrapy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scrapy'

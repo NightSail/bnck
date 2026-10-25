@@ -1,0 +1,8 @@
+id = 'webvtt'
+name = 'webvtt'
+
+homepage = 'https://github.com/glut23/webvtt-py'
+
+[[package]]
+channel = 'debian'
+name = 'webvtt'

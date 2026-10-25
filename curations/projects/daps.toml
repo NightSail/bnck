@@ -1,0 +1,8 @@
+id = 'daps'
+name = 'daps'
+
+homepage = 'http://opensuse.github.io/daps'
+
+[[package]]
+channel = 'debian'
+name = 'daps'

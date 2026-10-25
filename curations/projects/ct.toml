@@ -1,0 +1,8 @@
+id = 'ct'
+name = 'ct'
+
+homepage = 'https://github.com/flatcar/container-linux-config-transpiler'
+
+[[package]]
+channel = 'arch'
+name = 'ct'

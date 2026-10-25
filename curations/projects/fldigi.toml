@@ -1,0 +1,8 @@
+id = 'fldigi'
+name = 'fldigi'
+
+homepage = 'http://www.w1hkj.com/Fldigi.html'
+
+[[package]]
+channel = 'fedora'
+name = 'fldigi'

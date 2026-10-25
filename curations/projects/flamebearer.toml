@@ -1,0 +1,8 @@
+id = 'flamebearer'
+name = 'flamebearer'
+
+homepage = 'https://github.com/mapbox/flamebearer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flamebearer'

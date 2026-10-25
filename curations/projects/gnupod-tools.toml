@@ -1,0 +1,8 @@
+id = 'gnupod-tools'
+name = 'gnupod-tools'
+
+homepage = 'http://www.gnu.org/software/gnupod'
+
+[[package]]
+channel = 'debian'
+name = 'gnupod-tools'

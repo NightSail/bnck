@@ -1,0 +1,8 @@
+id = 'caracal'
+name = 'caracal'
+
+repository = 'https://github.com/crytic/caracal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/caracal'

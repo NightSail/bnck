@@ -1,0 +1,8 @@
+id = 'xfce4-mixer'
+name = 'xfce4-mixer'
+
+homepage = 'https://docs.xfce.org/apps/xfce4-mixer/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-mixer'

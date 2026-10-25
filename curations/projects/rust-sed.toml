@@ -1,0 +1,8 @@
+id = 'rust-sed'
+name = 'rust-sed'
+
+homepage = 'https://github.com/uutils/sed'
+
+[[package]]
+channel = 'debian'
+name = 'rust-sed'

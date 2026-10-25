@@ -1,0 +1,16 @@
+id = 'mdadm'
+name = 'mdadm'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/mdadm'
+
+[[package]]
+channel = 'arch'
+name = 'mdadm'
+
+[[package]]
+channel = 'debian'
+name = 'mdadm'
+
+[[package]]
+channel = 'fedora'
+name = 'mdadm'

@@ -1,0 +1,12 @@
+id = 'ntpstat'
+name = 'ntpstat'
+
+homepage = 'https://github.com/darkhelmet/ntpstat'
+
+[[package]]
+channel = 'debian'
+name = 'ntpstat'
+
+[[package]]
+channel = 'fedora'
+name = 'ntpstat'

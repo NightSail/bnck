@@ -1,0 +1,8 @@
+id = 'ukwm'
+name = 'ukwm'
+
+homepage = 'http://www.ukui.org'
+
+[[package]]
+channel = 'debian'
+name = 'ukwm'

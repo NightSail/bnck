@@ -1,0 +1,8 @@
+id = 'python3-pyzbar'
+name = 'python3-pyzbar'
+
+homepage = 'https://github.com/NaturalHistoryMuseum/pyzbar'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyzbar'

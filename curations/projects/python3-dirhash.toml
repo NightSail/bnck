@@ -1,0 +1,12 @@
+id = 'python3-dirhash'
+name = 'python3-dirhash'
+
+homepage = 'https://github.com/andhus/dirhash-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dirhash'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dirhash'

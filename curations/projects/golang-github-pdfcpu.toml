@@ -1,0 +1,8 @@
+id = 'golang-github-pdfcpu'
+name = 'golang-github-pdfcpu'
+
+homepage = 'https://github.com/pdfcpu/pdfcpu'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pdfcpu'

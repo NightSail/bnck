@@ -4,5 +4,9 @@ name = 'desed'
 repository = 'https://github.com/SoptikHa2/desed'
 
 [[package]]
+channel = 'fedora'
+name = 'desed'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/desed'

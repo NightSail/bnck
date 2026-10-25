@@ -1,0 +1,8 @@
+id = 'python-josepy'
+name = 'python-josepy'
+
+homepage = 'https://github.com/certbot/josepy'
+
+[[package]]
+channel = 'arch'
+name = 'python-josepy'

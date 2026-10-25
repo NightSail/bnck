@@ -1,0 +1,10 @@
+id = 'bwbar'
+name = 'bwbar'
+
+[[package]]
+channel = 'debian'
+name = 'bwbar'
+
+[[package]]
+channel = 'fedora'
+name = 'bwbar'

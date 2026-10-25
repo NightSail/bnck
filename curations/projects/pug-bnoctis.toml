@@ -1,0 +1,8 @@
+id = 'pug-bnoctis'
+name = 'pug'
+
+repository = 'https://github.com/bnoctis/pug-rs'
+
+[[package]]
+channel = 'crates.io'
+name = 'pug'

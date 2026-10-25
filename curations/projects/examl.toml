@@ -1,0 +1,8 @@
+id = 'examl'
+name = 'examl'
+
+homepage = 'https://github.com/stamatak/ExaML'
+
+[[package]]
+channel = 'debian'
+name = 'examl'

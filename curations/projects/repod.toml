@@ -1,0 +1,8 @@
+id = 'repod'
+name = 'repod'
+
+homepage = 'https://repod.archlinux.page'
+
+[[package]]
+channel = 'arch'
+name = 'repod'

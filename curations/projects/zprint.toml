@@ -1,0 +1,8 @@
+id = 'zprint'
+name = 'zprint'
+
+homepage = 'https://github.com/kkinnear/zprint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/zprint'

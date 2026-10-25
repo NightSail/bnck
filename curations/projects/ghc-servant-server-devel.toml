@@ -1,0 +1,8 @@
+id = 'ghc-servant-server-devel'
+name = 'ghc-servant-server-devel'
+
+homepage = 'https://hackage.haskell.org/package/servant-server'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-servant-server-devel'

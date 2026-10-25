@@ -1,0 +1,40 @@
+id = 'fltk'
+name = 'fltk'
+
+homepage = 'https://www.fltk.org'
+
+[[package]]
+channel = 'arch'
+name = 'fltk'
+
+[[package]]
+channel = 'arch'
+name = 'fltk1.3'
+
+[[package]]
+channel = 'debian'
+name = 'fltk-options'
+
+[[package]]
+channel = 'debian'
+name = 'fluid'
+
+[[package]]
+channel = 'debian'
+name = 'libfltk1.3-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libfltk1.4-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'fltk-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'fltk-fluid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fltk@1.3'

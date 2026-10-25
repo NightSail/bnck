@@ -1,0 +1,12 @@
+id = 'libgpod'
+name = 'libgpod'
+
+homepage = 'https://sourceforge.net/projects/gtkpod'
+
+[[package]]
+channel = 'arch'
+name = 'libgpod'
+
+[[package]]
+channel = 'fedora'
+name = 'libgpod'

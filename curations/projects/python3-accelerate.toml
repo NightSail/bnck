@@ -1,0 +1,8 @@
+id = 'python3-accelerate'
+name = 'python3-accelerate'
+
+homepage = 'https://github.com/huggingface/accelerate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-accelerate'

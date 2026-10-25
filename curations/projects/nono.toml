@@ -1,0 +1,8 @@
+id = 'nono'
+name = 'nono'
+
+homepage = 'https://nono.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nono'

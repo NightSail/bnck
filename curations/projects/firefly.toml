@@ -1,0 +1,9 @@
+id = 'firefly'
+name = 'firefly'
+
+homepage = 'https://hyperledger-firefly.github.io/firefly/latest'
+repository = 'https://github.com/hyperledger-firefly/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/firefly'

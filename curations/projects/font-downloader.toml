@@ -1,0 +1,8 @@
+id = 'font-downloader'
+name = 'font-downloader'
+
+homepage = 'https://github.com/GustavoPeredo/Font-Downloader'
+
+[[package]]
+channel = 'debian'
+name = 'font-downloader'

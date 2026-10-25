@@ -1,0 +1,68 @@
+id = 'gdb-gdb'
+name = 'gdb'
+
+homepage = 'https://www.gnu.org/software/gdb'
+
+[[package]]
+channel = 'arch'
+name = 'aarch64-linux-gnu-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'arm-none-eabi-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'avr-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'lm32-elf-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'loongarch64-linux-gnu-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'or1k-elf-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'ppc64le-elf-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'riscv32-elf-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'riscv64-elf-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'riscv64-linux-gnu-gdb'
+
+[[package]]
+channel = 'arch'
+name = 'sh2-elf-gdb'
+
+[[package]]
+channel = 'debian'
+name = 'gdb-bpf'
+
+[[package]]
+channel = 'debian'
+name = 'gdb-mingw-w64'
+
+[[package]]
+channel = 'fedora'
+name = 'gdb-gdbserver'
+
+[[package]]
+channel = 'fedora'
+name = 'gdb-headless'
+
+[[package]]
+channel = 'fedora'
+name = 'gdb-minimal'

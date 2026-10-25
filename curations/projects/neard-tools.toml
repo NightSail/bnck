@@ -1,0 +1,12 @@
+id = 'neard-tools'
+name = 'neard-tools'
+
+homepage = 'https://01.org/linux-nfc'
+
+[[package]]
+channel = 'debian'
+name = 'neard-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'neard-tools'

@@ -4,5 +4,17 @@ name = 'opensc'
 repository = 'https://github.com/OpenSC/OpenSC'
 
 [[package]]
+channel = 'arch'
+name = 'opensc'
+
+[[package]]
+channel = 'debian'
+name = 'opensc'
+
+[[package]]
+channel = 'fedora'
+name = 'opensc'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/opensc'

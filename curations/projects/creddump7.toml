@@ -1,0 +1,8 @@
+id = 'creddump7'
+name = 'creddump7'
+
+homepage = 'https://github.com/CiscoCXSecurity/creddump7'
+
+[[package]]
+channel = 'debian'
+name = 'creddump7'

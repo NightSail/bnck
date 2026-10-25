@@ -1,0 +1,8 @@
+id = 'transmageddon'
+name = 'transmageddon'
+
+homepage = 'http://www.linuxrising.org'
+
+[[package]]
+channel = 'arch'
+name = 'transmageddon'

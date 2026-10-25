@@ -1,0 +1,8 @@
+id = 'python3-openleadr-python'
+name = 'python3-openleadr-python'
+
+homepage = 'https://github.com/OpenLEADR/openleadr-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-openleadr-python'

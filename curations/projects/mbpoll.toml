@@ -1,0 +1,13 @@
+id = 'mbpoll'
+name = 'mbpoll'
+
+homepage = 'https://epsilonrt.fr'
+repository = 'https://github.com/epsilonrt/mbpoll.git'
+
+[[package]]
+channel = 'debian'
+name = 'mbpoll'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mbpoll'

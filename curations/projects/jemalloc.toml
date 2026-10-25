@@ -1,0 +1,20 @@
+id = 'jemalloc'
+name = 'jemalloc'
+
+homepage = 'https://jemalloc.net'
+
+[[package]]
+channel = 'arch'
+name = 'jemalloc'
+
+[[package]]
+channel = 'debian'
+name = 'libjemalloc-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'jemalloc'
+
+[[package]]
+channel = 'fedora'
+name = 'jemalloc-devel'

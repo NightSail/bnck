@@ -1,0 +1,8 @@
+id = 'python3-evalidate'
+name = 'python3-evalidate'
+
+homepage = 'https://github.com/yaroslaff/evalidate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-evalidate'

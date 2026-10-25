@@ -1,0 +1,8 @@
+id = 'mini-soong'
+name = 'mini-soong'
+
+homepage = 'https://salsa.debian.org/android-tools-team/mini-soong'
+
+[[package]]
+channel = 'debian'
+name = 'mini-soong'

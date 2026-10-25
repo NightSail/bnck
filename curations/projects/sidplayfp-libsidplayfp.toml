@@ -1,0 +1,8 @@
+id = 'sidplayfp-libsidplayfp'
+name = 'sidplayfp'
+
+homepage = 'https://github.com/libsidplayfp'
+
+[[package]]
+channel = 'fedora'
+name = 'sidplayfp'

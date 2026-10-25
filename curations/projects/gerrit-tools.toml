@@ -1,0 +1,8 @@
+id = 'gerrit-tools'
+name = 'gerrit-tools'
+
+repository = 'https://github.com/indirect/gerrit-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gerrit-tools'

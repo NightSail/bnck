@@ -1,0 +1,8 @@
+id = 'stalin'
+name = 'stalin'
+
+homepage = 'http://www.ece.purdue.edu/~qobi/software'
+
+[[package]]
+channel = 'debian'
+name = 'stalin'

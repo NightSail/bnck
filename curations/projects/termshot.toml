@@ -1,0 +1,8 @@
+id = 'termshot'
+name = 'termshot'
+
+homepage = 'https://github.com/homeport/termshot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termshot'

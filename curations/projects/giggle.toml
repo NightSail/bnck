@@ -1,0 +1,8 @@
+id = 'giggle'
+name = 'giggle'
+
+homepage = 'https://wiki.gnome.org/Apps/giggle'
+
+[[package]]
+channel = 'arch'
+name = 'giggle'

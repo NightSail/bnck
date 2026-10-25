@@ -1,0 +1,12 @@
+id = 'ergo'
+name = 'ergo'
+
+homepage = 'http://ergoscf.org'
+
+[[package]]
+channel = 'debian'
+name = 'ergo'
+
+[[package]]
+channel = 'fedora'
+name = 'ergo'

@@ -1,0 +1,8 @@
+id = 'seqan-apps'
+name = 'seqan-apps'
+
+homepage = 'https://www.seqan.de'
+
+[[package]]
+channel = 'debian'
+name = 'seqan-apps'

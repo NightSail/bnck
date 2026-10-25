@@ -1,0 +1,9 @@
+id = 'autocorrect'
+name = 'autocorrect'
+
+homepage = 'https://huacnlee.github.io/autocorrect'
+repository = 'https://github.com/huacnlee/autocorrect.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autocorrect'

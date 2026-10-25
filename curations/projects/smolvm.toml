@@ -1,0 +1,8 @@
+id = 'smolvm'
+name = 'smolvm'
+
+homepage = 'https://github.com/smol-machines/smolvm'
+
+[[package]]
+channel = 'arch'
+name = 'smolvm'

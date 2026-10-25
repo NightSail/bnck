@@ -1,0 +1,12 @@
+id = 'gussoundfont'
+name = 'GusSoundfont'
+
+homepage = 'http://alsa.opensrc.org/GusSoundfont'
+
+[[package]]
+channel = 'fedora'
+name = 'gt'
+
+[[package]]
+channel = 'fedora'
+name = 'soundfont-utils'

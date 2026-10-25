@@ -1,0 +1,8 @@
+id = 'lf-reminia'
+name = 'lf'
+
+repository = 'https://github.com/reminia/lf-rs'
+
+[[package]]
+channel = 'crates.io'
+name = 'lf'

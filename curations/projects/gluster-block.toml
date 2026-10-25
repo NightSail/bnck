@@ -1,0 +1,8 @@
+id = 'gluster-block'
+name = 'gluster-block'
+
+homepage = 'https://github.com/gluster/gluster-block'
+
+[[package]]
+channel = 'fedora'
+name = 'gluster-block'

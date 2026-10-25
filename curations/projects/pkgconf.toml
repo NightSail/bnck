@@ -1,0 +1,28 @@
+id = 'pkgconf'
+name = 'pkgconf'
+
+homepage = 'http://pkgconf.org'
+
+[[package]]
+channel = 'debian'
+name = 'bomtool'
+
+[[package]]
+channel = 'debian'
+name = 'pkgconf'
+
+[[package]]
+channel = 'debian'
+name = 'pkgconf-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'bomtool'
+
+[[package]]
+channel = 'fedora'
+name = 'pkgconf'
+
+[[package]]
+channel = 'fedora'
+name = 'pkgconf-pkg-config'

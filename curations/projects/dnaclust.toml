@@ -1,0 +1,8 @@
+id = 'dnaclust'
+name = 'dnaclust'
+
+homepage = 'https://dnaclust.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dnaclust'

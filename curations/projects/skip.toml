@@ -1,0 +1,9 @@
+id = 'skip'
+name = 'skip'
+
+homepage = 'https://skip.dev'
+repository = 'https://github.com/skiptools/skipstone.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skip'

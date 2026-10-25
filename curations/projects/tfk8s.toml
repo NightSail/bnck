@@ -1,0 +1,12 @@
+id = 'tfk8s'
+name = 'tfk8s'
+
+repository = 'https://github.com/jrhouston/tfk8s.git'
+
+[[package]]
+channel = 'debian'
+name = 'tfk8s'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfk8s'

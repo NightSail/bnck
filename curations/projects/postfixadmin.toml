@@ -1,0 +1,8 @@
+id = 'postfixadmin'
+name = 'postfixadmin'
+
+homepage = 'https://postfixadmin.github.io/postfixadmin'
+
+[[package]]
+channel = 'debian'
+name = 'postfixadmin'

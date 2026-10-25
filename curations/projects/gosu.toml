@@ -1,0 +1,13 @@
+id = 'gosu'
+name = 'gosu'
+
+homepage = 'https://github.com/tianon/gosu'
+repository = 'https://github.com/gosu-lang/gosu-lang.git'
+
+[[package]]
+channel = 'debian'
+name = 'gosu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gosu'

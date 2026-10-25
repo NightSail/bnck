@@ -1,0 +1,8 @@
+id = 'qrq'
+name = 'qrq'
+
+homepage = 'https://fkurz.net/ham/qrq.html'
+
+[[package]]
+channel = 'debian'
+name = 'qrq'

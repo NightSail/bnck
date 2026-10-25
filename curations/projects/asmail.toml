@@ -1,0 +1,8 @@
+id = 'asmail'
+name = 'asmail'
+
+homepage = 'https://web.archive.org/web/20160601220455/http://tigr.net/afterstep/download/asmail'
+
+[[package]]
+channel = 'debian'
+name = 'asmail'

@@ -1,0 +1,8 @@
+id = 'gxlimg'
+name = 'gxlimg'
+
+homepage = 'https://github.com/repk/gxlimg'
+
+[[package]]
+channel = 'debian'
+name = 'gxlimg'

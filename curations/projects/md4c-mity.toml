@@ -1,0 +1,8 @@
+id = 'md4c-mity'
+name = 'md4c'
+
+repository = 'https://github.com/mity/md4c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/md4c'

@@ -1,0 +1,8 @@
+id = 'testu01'
+name = 'testu01'
+
+homepage = 'http://simul.iro.umontreal.ca/testu01/tu01.html'
+
+[[package]]
+channel = 'arch'
+name = 'testu01'

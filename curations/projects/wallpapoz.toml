@@ -1,0 +1,8 @@
+id = 'wallpapoz'
+name = 'wallpapoz'
+
+homepage = 'http://vajrasky.wordpress.com/wallpapoz'
+
+[[package]]
+channel = 'fedora'
+name = 'wallpapoz'

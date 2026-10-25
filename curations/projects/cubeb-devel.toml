@@ -1,0 +1,8 @@
+id = 'cubeb-devel'
+name = 'cubeb-devel'
+
+homepage = 'https://github.com/mozilla/cubeb'
+
+[[package]]
+channel = 'fedora'
+name = 'cubeb-devel'

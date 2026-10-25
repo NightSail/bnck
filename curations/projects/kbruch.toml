@@ -1,0 +1,16 @@
+id = 'kbruch'
+name = 'kbruch'
+
+homepage = 'https://apps.kde.org/kbruch'
+
+[[package]]
+channel = 'arch'
+name = 'kbruch'
+
+[[package]]
+channel = 'debian'
+name = 'kbruch'
+
+[[package]]
+channel = 'fedora'
+name = 'kbruch'

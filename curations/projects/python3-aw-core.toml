@@ -1,0 +1,8 @@
+id = 'python3-aw-core'
+name = 'python3-aw-core'
+
+homepage = 'https://github.com/ActivityWatch/aw-core'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-aw-core'

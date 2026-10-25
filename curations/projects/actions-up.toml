@@ -1,0 +1,8 @@
+id = 'actions-up'
+name = 'actions-up'
+
+homepage = 'https://github.com/azat-io/actions-up'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/actions-up'

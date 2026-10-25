@@ -1,0 +1,8 @@
+id = 'golang-github-opencontainers-runtime-tools'
+name = 'golang-github-opencontainers-runtime-tools'
+
+homepage = 'https://github.com/opencontainers/runtime-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-opencontainers-runtime-tools'

@@ -1,0 +1,8 @@
+id = 'glosstex'
+name = 'glosstex'
+
+homepage = 'https://ctan.org/pkg/glosstex'
+
+[[package]]
+channel = 'debian'
+name = 'glosstex'

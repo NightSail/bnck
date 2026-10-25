@@ -1,0 +1,17 @@
+id = 'bup'
+name = 'bup'
+
+homepage = 'https://bup.github.io'
+repository = 'https://github.com/bup/bup.git'
+
+[[package]]
+channel = 'arch'
+name = 'bup'
+
+[[package]]
+channel = 'debian'
+name = 'bup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bup'

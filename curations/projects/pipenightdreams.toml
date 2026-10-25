@@ -1,0 +1,8 @@
+id = 'pipenightdreams'
+name = 'pipenightdreams'
+
+homepage = 'http://www.libsdl.org/projects/pipenightdreams'
+
+[[package]]
+channel = 'fedora'
+name = 'pipenightdreams'

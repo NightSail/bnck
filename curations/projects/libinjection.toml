@@ -1,0 +1,12 @@
+id = 'libinjection'
+name = 'libinjection'
+
+homepage = 'https://github.com/libinjection/libinjection'
+
+[[package]]
+channel = 'fedora'
+name = 'libinjection'
+
+[[package]]
+channel = 'fedora'
+name = 'libinjection-tests'

@@ -1,0 +1,12 @@
+id = 'rabbitmqadmin-ng'
+name = 'rabbitmqadmin-ng'
+
+homepage = 'https://github.com/rabbitmq/rabbitmqadmin-ng'
+
+[[package]]
+channel = 'arch'
+name = 'rabbitmqadmin'
+
+[[package]]
+channel = 'debian'
+name = 'rabbitmqadmin-ng'

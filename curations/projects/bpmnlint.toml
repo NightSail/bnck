@@ -1,0 +1,8 @@
+id = 'bpmnlint'
+name = 'bpmnlint'
+
+homepage = 'https://github.com/bpmn-io/bpmnlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bpmnlint'

@@ -1,0 +1,8 @@
+id = 'simpleproxy'
+name = 'simpleproxy'
+
+homepage = 'https://github.com/vzaliva/simpleproxy'
+
+[[package]]
+channel = 'debian'
+name = 'simpleproxy'

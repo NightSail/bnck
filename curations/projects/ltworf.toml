@@ -1,0 +1,12 @@
+id = 'ltworf'
+name = 'ltworf'
+
+homepage = 'https://ltworf.codeberg.page/relational'
+
+[[package]]
+channel = 'debian'
+name = 'relational'
+
+[[package]]
+channel = 'debian'
+name = 'relational-cli'

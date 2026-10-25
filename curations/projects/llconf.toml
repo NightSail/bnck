@@ -1,0 +1,8 @@
+id = 'llconf'
+name = 'llconf'
+
+homepage = 'http://code.google.com/p/llconf'
+
+[[package]]
+channel = 'fedora'
+name = 'llconf'

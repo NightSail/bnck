@@ -1,0 +1,8 @@
+id = 'prinseq-lite'
+name = 'prinseq-lite'
+
+homepage = 'http://prinseq.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'prinseq-lite'

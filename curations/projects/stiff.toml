@@ -1,0 +1,8 @@
+id = 'stiff'
+name = 'stiff'
+
+homepage = 'https://www.astromatic.net/software/stiff'
+
+[[package]]
+channel = 'debian'
+name = 'stiff'

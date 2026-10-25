@@ -1,0 +1,8 @@
+id = 'diodon'
+name = 'diodon'
+
+homepage = 'https://launchpad.net/diodon'
+
+[[package]]
+channel = 'debian'
+name = 'diodon'

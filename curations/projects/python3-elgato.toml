@@ -1,0 +1,8 @@
+id = 'python3-elgato'
+name = 'python3-elgato'
+
+homepage = 'https://github.com/frenck/python-elgato'
+
+[[package]]
+channel = 'debian'
+name = 'python3-elgato'

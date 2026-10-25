@@ -1,0 +1,16 @@
+id = 'wasm-tools'
+name = 'wasm-tools'
+
+repository = 'https://github.com/bytecodealliance/wasm-tools.git'
+
+[[package]]
+channel = 'arch'
+name = 'wasm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'wasm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasm-tools'

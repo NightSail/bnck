@@ -1,0 +1,9 @@
+id = 'istioctl'
+name = 'istioctl'
+
+homepage = 'https://istio.io'
+repository = 'https://github.com/istio/istio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/istioctl'

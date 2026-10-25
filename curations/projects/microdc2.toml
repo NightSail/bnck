@@ -1,0 +1,8 @@
+id = 'microdc2'
+name = 'microdc2'
+
+homepage = 'http://corsair626.no-ip.org/microdc'
+
+[[package]]
+channel = 'debian'
+name = 'microdc2'

@@ -1,0 +1,8 @@
+id = 'cyclonedx-npm'
+name = 'cyclonedx-npm'
+
+homepage = 'https://github.com/CycloneDX/cyclonedx-node-npm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyclonedx-npm'

@@ -1,0 +1,8 @@
+id = 'lunchy-go'
+name = 'lunchy-go'
+
+repository = 'https://github.com/sosedoff/lunchy-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lunchy-go'

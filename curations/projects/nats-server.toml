@@ -1,0 +1,13 @@
+id = 'nats-server'
+name = 'nats-server'
+
+homepage = 'https://nats.io'
+repository = 'https://github.com/nats-io/nats-server.git'
+
+[[package]]
+channel = 'debian'
+name = 'nats-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nats-server'

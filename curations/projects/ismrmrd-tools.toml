@@ -1,0 +1,8 @@
+id = 'ismrmrd-tools'
+name = 'ismrmrd-tools'
+
+homepage = 'https://ismrmrd.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'ismrmrd-tools'

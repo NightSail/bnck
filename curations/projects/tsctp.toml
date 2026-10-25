@@ -1,0 +1,8 @@
+id = 'tsctp'
+name = 'tsctp'
+
+homepage = 'https://www.nntb.no/~dreibh/tsctp'
+
+[[package]]
+channel = 'debian'
+name = 'tsctp'

@@ -1,0 +1,12 @@
+id = 'quodlibet-quodlibet'
+name = 'quodlibet'
+
+homepage = 'https://quodlibet.readthedocs.org/en/latest'
+
+[[package]]
+channel = 'fedora'
+name = 'exfalso'
+
+[[package]]
+channel = 'fedora'
+name = 'quodlibet'

@@ -1,0 +1,8 @@
+id = 'cgasm'
+name = 'cgasm'
+
+homepage = 'https://github.com/bnagy/cgasm'
+
+[[package]]
+channel = 'arch'
+name = 'cgasm'

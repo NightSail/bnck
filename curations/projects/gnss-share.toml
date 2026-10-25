@@ -1,0 +1,8 @@
+id = 'gnss-share'
+name = 'gnss-share'
+
+homepage = 'https://gitlab.com/postmarketOS/gnss-share'
+
+[[package]]
+channel = 'debian'
+name = 'gnss-share'

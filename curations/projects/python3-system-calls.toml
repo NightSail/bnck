@@ -1,0 +1,8 @@
+id = 'python3-system-calls'
+name = 'python3-system-calls'
+
+homepage = 'https://github.com/hrw/python-syscalls'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-system-calls'

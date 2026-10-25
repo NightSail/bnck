@@ -1,0 +1,8 @@
+id = 'gem'
+name = 'gem'
+
+homepage = 'https://gem.iem.at'
+
+[[package]]
+channel = 'debian'
+name = 'gem'

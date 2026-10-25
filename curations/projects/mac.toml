@@ -1,0 +1,12 @@
+id = 'mac'
+name = 'mac'
+
+homepage = 'https://www.monkeysaudio.com'
+
+[[package]]
+channel = 'fedora'
+name = 'mac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mac'

@@ -1,0 +1,44 @@
+id = 'notmuchmail'
+name = 'notmuchmail'
+
+homepage = 'https://notmuchmail.org'
+
+[[package]]
+channel = 'arch'
+name = 'notmuch'
+
+[[package]]
+channel = 'arch'
+name = 'notmuch-mutt'
+
+[[package]]
+channel = 'arch'
+name = 'notmuch-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'notmuch'
+
+[[package]]
+channel = 'debian'
+name = 'notmuch-git'
+
+[[package]]
+channel = 'debian'
+name = 'notmuch-mutt'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-notmuch'
+
+[[package]]
+channel = 'fedora'
+name = 'notmuch'
+
+[[package]]
+channel = 'fedora'
+name = 'notmuch-git'
+
+[[package]]
+channel = 'fedora'
+name = 'notmuch-mutt'

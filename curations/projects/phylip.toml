@@ -1,0 +1,8 @@
+id = 'phylip'
+name = 'phylip'
+
+homepage = 'https://evolution.genetics.washington.edu/phylip.html'
+
+[[package]]
+channel = 'debian'
+name = 'phylip'

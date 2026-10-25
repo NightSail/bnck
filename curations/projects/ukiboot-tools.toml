@@ -1,0 +1,8 @@
+id = 'ukiboot-tools'
+name = 'ukiboot-tools'
+
+homepage = 'https://gitlab.com/CentOS/automotive/src/ukiboot'
+
+[[package]]
+channel = 'debian'
+name = 'ukiboot-tools'

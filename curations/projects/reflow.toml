@@ -1,0 +1,8 @@
+id = 'reflow'
+name = 'reflow'
+
+homepage = 'https://metacpan.org/release/Text-Reflow'
+
+[[package]]
+channel = 'fedora'
+name = 'reflow'

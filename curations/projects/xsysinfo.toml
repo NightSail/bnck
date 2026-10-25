@@ -1,0 +1,8 @@
+id = 'xsysinfo'
+name = 'xsysinfo'
+
+homepage = 'https://sourceforge.net/projects/xsysinfo'
+
+[[package]]
+channel = 'debian'
+name = 'xsysinfo'

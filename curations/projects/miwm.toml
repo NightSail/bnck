@@ -1,0 +1,8 @@
+id = 'miwm'
+name = 'miwm'
+
+homepage = 'http://sourceforge.net/projects/miwm'
+
+[[package]]
+channel = 'debian'
+name = 'miwm'

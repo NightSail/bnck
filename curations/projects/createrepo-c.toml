@@ -1,0 +1,16 @@
+id = 'createrepo-c'
+name = 'createrepo_c'
+
+homepage = 'http://rpm-software-management.github.io/createrepo_c'
+
+[[package]]
+channel = 'arch'
+name = 'createrepo_c'
+
+[[package]]
+channel = 'debian'
+name = 'createrepo-c'
+
+[[package]]
+channel = 'fedora'
+name = 'createrepo_c'

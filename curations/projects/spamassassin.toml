@@ -1,0 +1,20 @@
+id = 'spamassassin'
+name = 'spamassassin'
+
+homepage = 'https://www.spamassassin.org'
+
+[[package]]
+channel = 'debian'
+name = 'sa-compile'
+
+[[package]]
+channel = 'debian'
+name = 'spamassassin'
+
+[[package]]
+channel = 'debian'
+name = 'spamc'
+
+[[package]]
+channel = 'debian'
+name = 'spamd'

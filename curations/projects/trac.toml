@@ -1,0 +1,12 @@
+id = 'trac'
+name = 'trac'
+
+homepage = 'http://trac.edgewall.com'
+
+[[package]]
+channel = 'debian'
+name = 'trac'
+
+[[package]]
+channel = 'fedora'
+name = 'trac'

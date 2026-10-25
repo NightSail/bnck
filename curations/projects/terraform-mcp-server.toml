@@ -1,0 +1,8 @@
+id = 'terraform-mcp-server'
+name = 'terraform-mcp-server'
+
+repository = 'https://github.com/hashicorp/terraform-mcp-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-mcp-server'

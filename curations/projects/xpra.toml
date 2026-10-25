@@ -1,0 +1,20 @@
+id = 'xpra'
+name = 'xpra'
+
+homepage = 'https://github.com/Xpra-org/xpra'
+
+[[package]]
+channel = 'arch'
+name = 'xpra'
+
+[[package]]
+channel = 'debian'
+name = 'xpra'
+
+[[package]]
+channel = 'fedora'
+name = 'xpra'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/xpra'

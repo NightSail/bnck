@@ -1,0 +1,6 @@
+id = 'simulpic'
+name = 'simulpic'
+
+[[package]]
+channel = 'debian'
+name = 'simulpic'

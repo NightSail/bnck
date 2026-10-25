@@ -1,0 +1,8 @@
+id = 'proxycheck'
+name = 'proxycheck'
+
+homepage = 'https://www.corpit.ru/mjt/proxycheck.html'
+
+[[package]]
+channel = 'debian'
+name = 'proxycheck'

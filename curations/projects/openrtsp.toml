@@ -1,0 +1,8 @@
+id = 'openrtsp'
+name = 'openrtsp'
+
+homepage = 'http://www.live555.com/openRTSP'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openrtsp'

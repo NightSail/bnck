@@ -1,0 +1,8 @@
+id = 'e-wrapper'
+name = 'e-wrapper'
+
+homepage = 'https://github.com/kilobyte/e'
+
+[[package]]
+channel = 'debian'
+name = 'e-wrapper'

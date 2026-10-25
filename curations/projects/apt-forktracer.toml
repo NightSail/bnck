@@ -1,0 +1,8 @@
+id = 'apt-forktracer'
+name = 'apt-forktracer'
+
+homepage = 'https://owsiany.pl/apt-forktracer-page'
+
+[[package]]
+channel = 'debian'
+name = 'apt-forktracer'

@@ -1,0 +1,28 @@
+id = 'znc'
+name = 'znc'
+
+homepage = 'https://wiki.znc.in/ZNC'
+
+[[package]]
+channel = 'arch'
+name = 'znc'
+
+[[package]]
+channel = 'debian'
+name = 'znc'
+
+[[package]]
+channel = 'debian'
+name = 'znc-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'znc'
+
+[[package]]
+channel = 'fedora'
+name = 'znc-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/znc'

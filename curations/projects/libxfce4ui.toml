@@ -1,0 +1,12 @@
+id = 'libxfce4ui'
+name = 'libxfce4ui'
+
+homepage = 'https://docs.xfce.org/xfce/libxfce4ui/start'
+
+[[package]]
+channel = 'arch'
+name = 'libxfce4ui'
+
+[[package]]
+channel = 'debian'
+name = 'libxfce4ui-utils'

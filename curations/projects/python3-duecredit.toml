@@ -1,0 +1,8 @@
+id = 'python3-duecredit'
+name = 'python3-duecredit'
+
+homepage = 'https://github.com/duecredit/duecredit'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-duecredit'

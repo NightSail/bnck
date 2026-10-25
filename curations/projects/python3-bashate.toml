@@ -1,0 +1,12 @@
+id = 'python3-bashate'
+name = 'python3-bashate'
+
+homepage = 'https://github.com/openstack-dev/bashate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bashate'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bashate'

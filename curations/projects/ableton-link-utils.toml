@@ -1,0 +1,8 @@
+id = 'ableton-link-utils'
+name = 'ableton-link-utils'
+
+homepage = 'https://www.ableton.com/en/link'
+
+[[package]]
+channel = 'debian'
+name = 'ableton-link-utils'

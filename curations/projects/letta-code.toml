@@ -1,0 +1,8 @@
+id = 'letta-code'
+name = 'letta-code'
+
+homepage = 'https://docs.letta.com/letta-code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/letta-code'

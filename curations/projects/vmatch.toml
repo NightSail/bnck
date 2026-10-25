@@ -1,0 +1,8 @@
+id = 'vmatch'
+name = 'vmatch'
+
+homepage = 'http://www.vmatch.de'
+
+[[package]]
+channel = 'debian'
+name = 'vmatch'

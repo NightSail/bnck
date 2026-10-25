@@ -1,0 +1,8 @@
+id = 'seergdb'
+name = 'seergdb'
+
+homepage = 'https://github.com/epasveer/seer'
+
+[[package]]
+channel = 'debian'
+name = 'seergdb'

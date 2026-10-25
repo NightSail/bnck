@@ -1,0 +1,8 @@
+id = 'ippsample'
+name = 'ippsample'
+
+homepage = 'https://istopwg.github.io/ippsample'
+
+[[package]]
+channel = 'debian'
+name = 'ippsample'

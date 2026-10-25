@@ -1,0 +1,12 @@
+id = 'gnome-dictionary'
+name = 'gnome-dictionary'
+
+homepage = 'https://wiki.gnome.org/Apps/Dictionary'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-dictionary'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-dictionary'

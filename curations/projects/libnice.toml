@@ -1,0 +1,17 @@
+id = 'libnice'
+name = 'libnice'
+
+homepage = 'https://libnice.freedesktop.org'
+repository = 'https://gitlab.freedesktop.org/libnice/libnice.git'
+
+[[package]]
+channel = 'arch'
+name = 'libnice'
+
+[[package]]
+channel = 'fedora'
+name = 'libnice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnice'

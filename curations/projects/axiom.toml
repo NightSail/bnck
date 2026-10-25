@@ -1,0 +1,10 @@
+id = 'axiom'
+name = 'axiom'
+
+[[package]]
+channel = 'debian'
+name = 'axiom'
+
+[[package]]
+channel = 'debian'
+name = 'axiom-test'

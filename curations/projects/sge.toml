@@ -1,0 +1,24 @@
+id = 'sge'
+name = 'SGE'
+
+homepage = 'https://arc.liv.ac.uk/trac/SGE'
+
+[[package]]
+channel = 'debian'
+name = 'gridengine-client'
+
+[[package]]
+channel = 'debian'
+name = 'gridengine-common'
+
+[[package]]
+channel = 'debian'
+name = 'gridengine-exec'
+
+[[package]]
+channel = 'debian'
+name = 'gridengine-master'
+
+[[package]]
+channel = 'debian'
+name = 'gridengine-qmon'

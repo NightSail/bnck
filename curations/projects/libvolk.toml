@@ -1,0 +1,12 @@
+id = 'libvolk'
+name = 'libvolk'
+
+homepage = 'https://www.libvolk.org'
+
+[[package]]
+channel = 'arch'
+name = 'libvolk'
+
+[[package]]
+channel = 'debian'
+name = 'libvolk-bin'

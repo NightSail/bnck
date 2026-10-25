@@ -1,0 +1,9 @@
+id = 'nuclei'
+name = 'nuclei'
+
+homepage = 'https://docs.projectdiscovery.io/tools/nuclei/overview'
+repository = 'https://github.com/projectdiscovery/nuclei.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuclei'

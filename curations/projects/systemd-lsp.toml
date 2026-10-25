@@ -1,0 +1,12 @@
+id = 'systemd-lsp'
+name = 'systemd-lsp'
+
+homepage = 'https://github.com/JFryy/systemd-lsp'
+
+[[package]]
+channel = 'arch'
+name = 'systemd-lsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/systemd-lsp'

@@ -1,0 +1,8 @@
+id = 'python3-magnum'
+name = 'python3-magnum'
+
+homepage = 'https://github.com/openstack/magnum'
+
+[[package]]
+channel = 'debian'
+name = 'python3-magnum'

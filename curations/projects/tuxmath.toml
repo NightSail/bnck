@@ -1,0 +1,8 @@
+id = 'tuxmath'
+name = 'tuxmath'
+
+homepage = 'http://tux4kids.alioth.debian.org'
+
+[[package]]
+channel = 'fedora'
+name = 'tuxmath'

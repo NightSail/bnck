@@ -1,0 +1,8 @@
+id = 'ic-wasm'
+name = 'ic-wasm'
+
+homepage = 'https://github.com/dfinity/ic-wasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ic-wasm'

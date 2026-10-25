@@ -1,0 +1,8 @@
+id = 'gnome-keyring-gnome'
+name = 'gnome-keyring'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-keyring'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-keyring'

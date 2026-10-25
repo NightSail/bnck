@@ -1,0 +1,16 @@
+id = 'qmlkonsole'
+name = 'qmlkonsole'
+
+homepage = 'https://apps.kde.org/qmlkonsole'
+
+[[package]]
+channel = 'arch'
+name = 'qmlkonsole'
+
+[[package]]
+channel = 'debian'
+name = 'qmlkonsole'
+
+[[package]]
+channel = 'fedora'
+name = 'qmlkonsole'

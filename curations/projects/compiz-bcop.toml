@@ -1,0 +1,12 @@
+id = 'compiz-bcop'
+name = 'compiz-bcop'
+
+homepage = 'https://gitlab.com/compiz/compiz-bcop'
+
+[[package]]
+channel = 'debian'
+name = 'compiz-bcop'
+
+[[package]]
+channel = 'fedora'
+name = 'compiz-bcop'

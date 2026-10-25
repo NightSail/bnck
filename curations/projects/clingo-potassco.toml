@@ -1,0 +1,9 @@
+id = 'clingo-potassco'
+name = 'clingo'
+
+homepage = 'https://potassco.org/clingo'
+repository = 'https://github.com/potassco/clingo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clingo'

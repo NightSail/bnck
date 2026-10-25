@@ -1,0 +1,12 @@
+id = 'mayavi'
+name = 'Mayavi'
+
+homepage = 'http://code.enthought.com/projects/mayavi'
+
+[[package]]
+channel = 'debian'
+name = 'mayavi2'
+
+[[package]]
+channel = 'fedora'
+name = 'Mayavi'

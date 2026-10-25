@@ -1,0 +1,8 @@
+id = 'ipfixprobe'
+name = 'ipfixprobe'
+
+homepage = 'https://github.com/CESNET/ipfixprobe'
+
+[[package]]
+channel = 'debian'
+name = 'ipfixprobe'

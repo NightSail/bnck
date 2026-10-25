@@ -1,0 +1,16 @@
+id = 'git-evtag'
+name = 'git-evtag'
+
+homepage = 'https://github.com/cgwalters/git-evtag'
+
+[[package]]
+channel = 'arch'
+name = 'git-evtag'
+
+[[package]]
+channel = 'debian'
+name = 'git-evtag'
+
+[[package]]
+channel = 'fedora'
+name = 'git-evtag'

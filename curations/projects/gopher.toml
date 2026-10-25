@@ -1,0 +1,6 @@
+id = 'gopher'
+name = 'gopher'
+
+[[package]]
+channel = 'debian'
+name = 'gopher'

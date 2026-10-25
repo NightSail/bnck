@@ -1,0 +1,6 @@
+id = 'restorecond'
+name = 'restorecond'
+
+[[package]]
+channel = 'debian'
+name = 'restorecond'

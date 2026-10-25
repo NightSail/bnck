@@ -1,0 +1,8 @@
+id = 'wxedid'
+name = 'wxedid'
+
+homepage = 'https://sourceforge.net/projects/wxedid'
+
+[[package]]
+channel = 'debian'
+name = 'wxedid'

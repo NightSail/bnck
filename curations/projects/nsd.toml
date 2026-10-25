@@ -1,0 +1,20 @@
+id = 'nsd'
+name = 'nsd'
+
+homepage = 'https://www.nlnetlabs.nl/projects/nsd'
+
+[[package]]
+channel = 'arch'
+name = 'nsd'
+
+[[package]]
+channel = 'debian'
+name = 'nsd'
+
+[[package]]
+channel = 'fedora'
+name = 'nsd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nsd'

@@ -1,0 +1,8 @@
+id = 'python3-idstools'
+name = 'python3-idstools'
+
+homepage = 'https://github.com/jasonish/py-idstools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-idstools'

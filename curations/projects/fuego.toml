@@ -1,0 +1,9 @@
+id = 'fuego'
+name = 'fuego'
+
+homepage = 'https://fuego.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/fuego/code/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fuego'

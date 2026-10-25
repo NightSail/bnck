@@ -1,0 +1,8 @@
+id = 'llvm-bolt'
+name = 'llvm-bolt'
+
+homepage = 'https://github.com/llvm/llvm-project/tree/main/bolt'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm-bolt'

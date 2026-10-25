@@ -1,0 +1,9 @@
+id = 'pygments-pygments'
+name = 'pygments'
+
+homepage = 'https://pygments.org'
+repository = 'https://github.com/pygments/pygments.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pygments'

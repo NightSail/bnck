@@ -1,0 +1,12 @@
+id = 'latencytop'
+name = 'latencytop'
+
+homepage = 'http://www.latencytop.org'
+
+[[package]]
+channel = 'fedora'
+name = 'latencytop'
+
+[[package]]
+channel = 'fedora'
+name = 'latencytop-tui'

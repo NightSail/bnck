@@ -1,0 +1,8 @@
+id = 'smstools'
+name = 'smstools'
+
+homepage = 'http://smstools3.kekekasvi.com'
+
+[[package]]
+channel = 'debian'
+name = 'smstools'

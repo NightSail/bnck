@@ -1,0 +1,9 @@
+id = 'pixi-pack'
+name = 'pixi-pack'
+
+homepage = 'https://pixi.sh/latest/advanced/production_deployment'
+repository = 'https://github.com/quantco/pixi-pack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixi-pack'

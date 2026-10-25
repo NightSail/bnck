@@ -1,0 +1,8 @@
+id = 'python3-genson'
+name = 'python3-genson'
+
+homepage = 'https://github.com/wolverdude/genson'
+
+[[package]]
+channel = 'debian'
+name = 'python3-genson'

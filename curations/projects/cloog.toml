@@ -1,0 +1,12 @@
+id = 'cloog'
+name = 'cloog'
+
+homepage = 'https://github.com/periscop/cloog'
+
+[[package]]
+channel = 'fedora'
+name = 'cloog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloog'

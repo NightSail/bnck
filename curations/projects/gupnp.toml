@@ -1,0 +1,36 @@
+id = 'gupnp'
+name = 'gupnp'
+
+homepage = 'https://wiki.gnome.org/Projects/GUPnP'
+
+[[package]]
+channel = 'arch'
+name = 'gssdp'
+
+[[package]]
+channel = 'arch'
+name = 'gupnp'
+
+[[package]]
+channel = 'arch'
+name = 'gupnp-dlna'
+
+[[package]]
+channel = 'arch'
+name = 'gupnp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gssdp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gupnp-dlna-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gupnp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gupnp-tools'

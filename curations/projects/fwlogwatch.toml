@@ -1,0 +1,8 @@
+id = 'fwlogwatch'
+name = 'fwlogwatch'
+
+homepage = 'http://fwlogwatch.inside-security.de'
+
+[[package]]
+channel = 'debian'
+name = 'fwlogwatch'

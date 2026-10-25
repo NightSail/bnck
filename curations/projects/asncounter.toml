@@ -1,0 +1,8 @@
+id = 'asncounter'
+name = 'asncounter'
+
+homepage = 'https://gitlab.com/anarcat/asncounter'
+
+[[package]]
+channel = 'debian'
+name = 'asncounter'

@@ -1,0 +1,8 @@
+id = 'libvshadow-utils'
+name = 'libvshadow-utils'
+
+homepage = 'https://github.com/libyal/libvshadow'
+
+[[package]]
+channel = 'debian'
+name = 'libvshadow-utils'

@@ -1,0 +1,8 @@
+id = 'gnome-packagekit-gnome'
+name = 'gnome-packagekit'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-packagekit'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-packagekit'

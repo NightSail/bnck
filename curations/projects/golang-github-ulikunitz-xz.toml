@@ -1,0 +1,8 @@
+id = 'golang-github-ulikunitz-xz'
+name = 'golang-github-ulikunitz-xz'
+
+homepage = 'https://github.com/ulikunitz/xz'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-ulikunitz-xz'

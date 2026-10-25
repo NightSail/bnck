@@ -1,0 +1,12 @@
+id = 'pflogsumm'
+name = 'pflogsumm'
+
+homepage = 'https://athena.linxnet.com/postfix_contrib.html'
+
+[[package]]
+channel = 'arch'
+name = 'pflogsumm'
+
+[[package]]
+channel = 'debian'
+name = 'pflogsumm'

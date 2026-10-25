@@ -1,0 +1,12 @@
+id = 'seafile-haiwen'
+name = 'seafile'
+
+homepage = 'https://github.com/haiwen/seafile'
+
+[[package]]
+channel = 'debian'
+name = 'seafile-cli'
+
+[[package]]
+channel = 'debian'
+name = 'seafile-daemon'

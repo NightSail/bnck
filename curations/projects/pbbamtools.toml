@@ -1,0 +1,8 @@
+id = 'pbbamtools'
+name = 'pbbamtools'
+
+homepage = 'https://pbbam.readthedocs.org/en/latest/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'pbbamtools'

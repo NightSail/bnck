@@ -1,0 +1,8 @@
+id = 'microdnf'
+name = 'microdnf'
+
+homepage = 'https://github.com/rpm-software-management/microdnf'
+
+[[package]]
+channel = 'fedora'
+name = 'microdnf'

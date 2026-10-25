@@ -1,0 +1,10 @@
+id = 'gnome-pkg-tools'
+name = 'gnome-pkg-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-pkg-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-pkg-tools'

@@ -1,0 +1,9 @@
+id = 'pyscn'
+name = 'pyscn'
+
+homepage = 'https://ludo-technologies.github.io/pyscn'
+repository = 'https://github.com/ludo-technologies/pyscn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyscn'

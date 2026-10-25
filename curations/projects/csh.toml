@@ -1,0 +1,8 @@
+id = 'csh'
+name = 'csh'
+
+homepage = 'https://www.openbsd.org/cgi-bin/cvsweb/src/bin/csh'
+
+[[package]]
+channel = 'debian'
+name = 'csh'

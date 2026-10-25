@@ -1,0 +1,12 @@
+id = 'rsibreak'
+name = 'rsibreak'
+
+homepage = 'https://apps.kde.org/rsibreak'
+
+[[package]]
+channel = 'arch'
+name = 'rsibreak'
+
+[[package]]
+channel = 'debian'
+name = 'rsibreak'

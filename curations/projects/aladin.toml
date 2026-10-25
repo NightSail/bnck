@@ -1,0 +1,8 @@
+id = 'aladin'
+name = 'aladin'
+
+homepage = 'https://aladin.u-strasbg.fr'
+
+[[package]]
+channel = 'debian'
+name = 'aladin'

@@ -1,0 +1,13 @@
+id = 'execline'
+name = 'execline'
+
+homepage = 'https://skarnet.org/software/execline'
+repository = 'git://git.skarnet.org/execline'
+
+[[package]]
+channel = 'debian'
+name = 'execline'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/execline'

@@ -1,0 +1,9 @@
+id = 'iam-policy-json-to-terraform'
+name = 'iam-policy-json-to-terraform'
+
+homepage = 'https://flosell.github.io/iam-policy-json-to-terraform'
+repository = 'https://github.com/flosell/iam-policy-json-to-terraform.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iam-policy-json-to-terraform'

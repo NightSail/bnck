@@ -1,0 +1,16 @@
+id = 'nextcloud-spreed-signaling'
+name = 'nextcloud-spreed-signaling'
+
+homepage = 'https://github.com/strukturag/nextcloud-spreed-signaling'
+
+[[package]]
+channel = 'debian'
+name = 'nextcloud-spreed-signaling'
+
+[[package]]
+channel = 'debian'
+name = 'nextcloud-spreed-signaling-client'
+
+[[package]]
+channel = 'debian'
+name = 'nextcloud-spreed-signaling-proxy'

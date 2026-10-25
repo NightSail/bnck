@@ -1,0 +1,6 @@
+id = 'linecast-linecast'
+name = 'linecast'
+
+[[package]]
+channel = 'crates.io'
+name = 'linecast'

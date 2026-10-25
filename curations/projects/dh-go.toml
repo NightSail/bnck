@@ -1,0 +1,6 @@
+id = 'dh-go'
+name = 'dh-go'
+
+[[package]]
+channel = 'debian'
+name = 'dh-go'

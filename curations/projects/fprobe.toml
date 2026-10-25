@@ -1,0 +1,8 @@
+id = 'fprobe'
+name = 'fprobe'
+
+homepage = 'https://fprobe.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fprobe'

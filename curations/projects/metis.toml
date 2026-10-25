@@ -1,0 +1,20 @@
+id = 'metis'
+name = 'metis'
+
+homepage = 'https://papers.karypis.org/glaros/software/metis/overview.html'
+
+[[package]]
+channel = 'debian'
+name = 'metis'
+
+[[package]]
+channel = 'fedora'
+name = 'metis'
+
+[[package]]
+channel = 'fedora'
+name = 'metis64'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metis'

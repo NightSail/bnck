@@ -1,0 +1,16 @@
+id = 'mirbsd'
+name = 'mirbsd'
+
+homepage = 'http://www.mirbsd.org/jupp.htm'
+
+[[package]]
+channel = 'debian'
+name = 'joe-jupp'
+
+[[package]]
+channel = 'debian'
+name = 'jupp'
+
+[[package]]
+channel = 'fedora'
+name = 'jupp'

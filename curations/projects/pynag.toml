@@ -1,0 +1,6 @@
+id = 'pynag'
+name = 'pynag'
+
+[[package]]
+channel = 'debian'
+name = 'pynag'

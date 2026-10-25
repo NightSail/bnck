@@ -1,0 +1,12 @@
+id = 'muon-meson'
+name = 'muon-meson'
+
+homepage = 'https://muon.build'
+
+[[package]]
+channel = 'debian'
+name = 'muon-meson'
+
+[[package]]
+channel = 'fedora'
+name = 'muon-meson'

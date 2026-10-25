@@ -1,0 +1,9 @@
+id = 'jsonpp'
+name = 'jsonpp'
+
+homepage = 'https://jmhodges.github.io/jsonpp'
+repository = 'https://github.com/jmhodges/jsonpp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsonpp'

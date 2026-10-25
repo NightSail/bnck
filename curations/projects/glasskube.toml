@@ -1,0 +1,9 @@
+id = 'glasskube'
+name = 'glasskube'
+
+homepage = 'https://glasskube.dev/products/package-manager/docs'
+repository = 'https://github.com/glasskube/glasskube.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glasskube'

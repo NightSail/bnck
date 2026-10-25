@@ -1,0 +1,16 @@
+id = 'sqlsmith'
+name = 'sqlsmith'
+
+repository = 'https://github.com/anse1/sqlsmith.git'
+
+[[package]]
+channel = 'arch'
+name = 'sqlsmith'
+
+[[package]]
+channel = 'debian'
+name = 'sqlsmith'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlsmith'

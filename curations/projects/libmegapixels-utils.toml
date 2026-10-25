@@ -1,0 +1,8 @@
+id = 'libmegapixels-utils'
+name = 'libmegapixels-utils'
+
+homepage = 'https://gitlab.com/megapixels-org/libmegapixels'
+
+[[package]]
+channel = 'debian'
+name = 'libmegapixels-utils'

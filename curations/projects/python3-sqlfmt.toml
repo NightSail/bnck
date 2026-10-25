@@ -1,0 +1,8 @@
+id = 'python3-sqlfmt'
+name = 'python3-sqlfmt'
+
+homepage = 'https://github.com/tconbeer/sqlfmt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sqlfmt'

@@ -1,0 +1,21 @@
+id = 'tree-sitter-cli'
+name = 'tree-sitter-cli'
+
+homepage = 'https://tree-sitter.github.io/tree-sitter'
+repository = 'https://github.com/tree-sitter/tree-sitter.git'
+
+[[package]]
+channel = 'arch'
+name = 'tree-sitter-cli'
+
+[[package]]
+channel = 'debian'
+name = 'tree-sitter-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'tree-sitter-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tree-sitter-cli'

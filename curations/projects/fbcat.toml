@@ -1,0 +1,8 @@
+id = 'fbcat'
+name = 'fbcat'
+
+homepage = 'https://jwilk.net/software/fbcat'
+
+[[package]]
+channel = 'debian'
+name = 'fbcat'

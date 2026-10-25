@@ -1,0 +1,16 @@
+id = 'spytrap-adb'
+name = 'spytrap-adb'
+
+homepage = 'https://github.com/spytrap-org/spytrap-adb'
+
+[[package]]
+channel = 'arch'
+name = 'spytrap-adb'
+
+[[package]]
+channel = 'debian'
+name = 'spytrap-adb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spytrap-adb'

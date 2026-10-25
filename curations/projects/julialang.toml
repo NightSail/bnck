@@ -1,0 +1,24 @@
+id = 'julialang'
+name = 'julialang'
+
+homepage = 'https://julialang.org'
+
+[[package]]
+channel = 'arch'
+name = 'julia'
+
+[[package]]
+channel = 'fedora'
+name = 'julia'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/julia-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/julia-app@lts'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/julia-app@nightly'

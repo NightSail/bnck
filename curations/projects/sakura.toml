@@ -1,0 +1,16 @@
+id = 'sakura'
+name = 'sakura'
+
+homepage = 'https://launchpad.net/sakura'
+
+[[package]]
+channel = 'arch'
+name = 'sakura'
+
+[[package]]
+channel = 'debian'
+name = 'sakura'
+
+[[package]]
+channel = 'fedora'
+name = 'sakura'

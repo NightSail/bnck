@@ -1,0 +1,21 @@
+id = 'babeld'
+name = 'babeld'
+
+homepage = 'https://www.irif.fr/~jch/software/babel'
+repository = 'https://github.com/jech/babeld.git'
+
+[[package]]
+channel = 'arch'
+name = 'babeld'
+
+[[package]]
+channel = 'debian'
+name = 'babeld'
+
+[[package]]
+channel = 'fedora'
+name = 'babeld'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/babeld'

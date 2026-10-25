@@ -1,0 +1,21 @@
+id = 'hexedit'
+name = 'hexedit'
+
+homepage = 'https://rigaux.org/hexedit.html'
+repository = 'https://github.com/pixel/hexedit.git'
+
+[[package]]
+channel = 'arch'
+name = 'hexedit'
+
+[[package]]
+channel = 'debian'
+name = 'hexedit'
+
+[[package]]
+channel = 'fedora'
+name = 'hexedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexedit'

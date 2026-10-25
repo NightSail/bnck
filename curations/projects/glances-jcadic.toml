@@ -1,0 +1,8 @@
+id = 'glances-jcadic'
+name = 'glances'
+
+repository = 'https://github.com/jcadic/rust-glances'
+
+[[package]]
+channel = 'crates.io'
+name = 'glances'

@@ -1,0 +1,12 @@
+id = 'mlmmj'
+name = 'mlmmj'
+
+homepage = 'http://mlmmj.org'
+
+[[package]]
+channel = 'debian'
+name = 'mlmmj'
+
+[[package]]
+channel = 'fedora'
+name = 'mlmmj'

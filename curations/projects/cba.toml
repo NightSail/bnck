@@ -1,0 +1,8 @@
+id = 'cba'
+name = 'cba'
+
+homepage = 'http://cbeam.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cba'

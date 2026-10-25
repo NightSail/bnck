@@ -1,0 +1,8 @@
+id = 'megra'
+name = 'megra'
+
+homepage = 'https://codeberg.org/parkellipsen/megra.rs'
+
+[[package]]
+channel = 'arch'
+name = 'megra'

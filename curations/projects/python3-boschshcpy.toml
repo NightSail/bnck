@@ -1,0 +1,8 @@
+id = 'python3-boschshcpy'
+name = 'python3-boschshcpy'
+
+homepage = 'https://github.com/tschamm/boschshcpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-boschshcpy'

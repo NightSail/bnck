@@ -1,0 +1,8 @@
+id = 'react-native-cli'
+name = 'react-native-cli'
+
+homepage = 'https://facebook.github.io/react-native'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/react-native-cli'

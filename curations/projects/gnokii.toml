@@ -1,0 +1,24 @@
+id = 'gnokii'
+name = 'gnokii'
+
+homepage = 'http://gnokii.org'
+
+[[package]]
+channel = 'debian'
+name = 'gnokii-cli'
+
+[[package]]
+channel = 'debian'
+name = 'gnokii-smsd'
+
+[[package]]
+channel = 'fedora'
+name = 'gnokii'
+
+[[package]]
+channel = 'fedora'
+name = 'gnokii-smsd'
+
+[[package]]
+channel = 'fedora'
+name = 'xgnokii'

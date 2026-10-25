@@ -1,0 +1,8 @@
+id = 'kettle'
+name = 'kettle'
+
+homepage = 'https://pentaho.com/products/pentaho-data-integration'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kettle'

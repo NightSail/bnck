@@ -1,0 +1,12 @@
+id = 'cairo-dock-core'
+name = 'cairo-dock-core'
+
+homepage = 'http://www.glx-dock.org'
+
+[[package]]
+channel = 'debian'
+name = 'cairo-dock-core'
+
+[[package]]
+channel = 'fedora'
+name = 'cairo-dock-core'

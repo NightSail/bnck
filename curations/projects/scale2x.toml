@@ -1,0 +1,8 @@
+id = 'scale2x'
+name = 'scale2x'
+
+homepage = 'https://www.scale2x.it'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scale2x'

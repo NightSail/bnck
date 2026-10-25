@@ -1,0 +1,8 @@
+id = 'darnwdl'
+name = 'darnwdl'
+
+homepage = 'https://github.com/grandpaul/darnwdl'
+
+[[package]]
+channel = 'debian'
+name = 'darnwdl'

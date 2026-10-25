@@ -1,0 +1,21 @@
+id = 'ldc'
+name = 'ldc'
+
+homepage = 'https://wiki.dlang.org/LDC'
+repository = 'https://github.com/ldc-developers/ldc.git'
+
+[[package]]
+channel = 'arch'
+name = 'ldc'
+
+[[package]]
+channel = 'debian'
+name = 'ldc'
+
+[[package]]
+channel = 'fedora'
+name = 'ldc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldc'

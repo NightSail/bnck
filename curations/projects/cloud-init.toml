@@ -1,0 +1,16 @@
+id = 'cloud-init'
+name = 'cloud-init'
+
+homepage = 'https://cloud-init.io'
+
+[[package]]
+channel = 'arch'
+name = 'cloud-init'
+
+[[package]]
+channel = 'debian'
+name = 'cloud-init'
+
+[[package]]
+channel = 'fedora'
+name = 'cloud-init'

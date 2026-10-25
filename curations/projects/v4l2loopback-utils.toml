@@ -1,0 +1,12 @@
+id = 'v4l2loopback-utils'
+name = 'v4l2loopback-utils'
+
+homepage = 'https://github.com/umlaeute/v4l2loopback'
+
+[[package]]
+channel = 'arch'
+name = 'v4l2loopback-utils'
+
+[[package]]
+channel = 'debian'
+name = 'v4l2loopback-utils'

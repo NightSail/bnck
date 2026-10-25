@@ -1,0 +1,13 @@
+id = 'keystone'
+name = 'keystone'
+
+homepage = 'https://www.keystone-engine.org'
+repository = 'https://github.com/keystone-engine/keystone.git'
+
+[[package]]
+channel = 'arch'
+name = 'keystone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keystone'

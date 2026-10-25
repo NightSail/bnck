@@ -1,0 +1,8 @@
+id = 'jaero'
+name = 'jaero'
+
+homepage = 'http://jontio.zapto.org/hda1/jaero.html'
+
+[[package]]
+channel = 'fedora'
+name = 'jaero'

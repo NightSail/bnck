@@ -1,0 +1,8 @@
+id = 'shineenc'
+name = 'shineenc'
+
+homepage = 'https://github.com/savonet/shine'
+
+[[package]]
+channel = 'debian'
+name = 'shineenc'

@@ -1,0 +1,8 @@
+id = 'gifcap'
+name = 'gifcap'
+
+repository = 'https://github.com/outlook/gifcap.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gifcap'

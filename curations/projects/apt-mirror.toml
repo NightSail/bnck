@@ -1,0 +1,8 @@
+id = 'apt-mirror'
+name = 'apt-mirror'
+
+homepage = 'https://apt-mirror.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'apt-mirror'

@@ -1,0 +1,8 @@
+id = 'wmbiff'
+name = 'wmbiff'
+
+homepage = 'https://www.dockapps.net/wmbiff'
+
+[[package]]
+channel = 'debian'
+name = 'wmbiff'

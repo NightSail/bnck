@@ -1,0 +1,8 @@
+id = 'python3-git-os-job'
+name = 'python3-git-os-job'
+
+homepage = 'https://github.com/dhellmann/git-os-job'
+
+[[package]]
+channel = 'debian'
+name = 'python3-git-os-job'

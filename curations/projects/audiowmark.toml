@@ -1,0 +1,12 @@
+id = 'audiowmark'
+name = 'audiowmark'
+
+homepage = 'https://uplex.de/audiowmark'
+
+[[package]]
+channel = 'debian'
+name = 'audiowmark'
+
+[[package]]
+channel = 'debian'
+name = 'videowmark'

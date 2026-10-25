@@ -1,0 +1,8 @@
+id = 'libweb-mrest-cli-perl'
+name = 'libweb-mrest-cli-perl'
+
+homepage = 'https://metacpan.org/pod/Web::MREST::CLI'
+
+[[package]]
+channel = 'debian'
+name = 'libweb-mrest-cli-perl'

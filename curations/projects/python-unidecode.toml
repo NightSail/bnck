@@ -1,0 +1,8 @@
+id = 'python-unidecode'
+name = 'python-unidecode'
+
+homepage = 'https://github.com/avian2/unidecode'
+
+[[package]]
+channel = 'arch'
+name = 'python-unidecode'

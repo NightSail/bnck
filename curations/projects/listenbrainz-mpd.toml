@@ -1,0 +1,12 @@
+id = 'listenbrainz-mpd'
+name = 'listenbrainz-mpd'
+
+homepage = 'https://codeberg.org/elomatreb/listenbrainz-mpd'
+
+[[package]]
+channel = 'arch'
+name = 'listenbrainz-mpd'
+
+[[package]]
+channel = 'debian'
+name = 'listenbrainz-mpd'

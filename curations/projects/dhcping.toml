@@ -1,0 +1,16 @@
+id = 'dhcping'
+name = 'dhcping'
+
+homepage = 'https://www.mavetju.org/unix/general.php'
+
+[[package]]
+channel = 'arch'
+name = 'dhcping'
+
+[[package]]
+channel = 'debian'
+name = 'dhcping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhcping'

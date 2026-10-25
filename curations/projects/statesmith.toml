@@ -1,0 +1,8 @@
+id = 'statesmith'
+name = 'statesmith'
+
+homepage = 'https://github.com/StateSmith/StateSmith'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/statesmith'

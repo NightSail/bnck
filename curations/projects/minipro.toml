@@ -1,0 +1,12 @@
+id = 'minipro'
+name = 'minipro'
+
+repository = 'https://gitlab.com/DavidGriffith/minipro.git'
+
+[[package]]
+channel = 'fedora'
+name = 'minipro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minipro'

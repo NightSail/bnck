@@ -1,0 +1,8 @@
+id = 'gitless'
+name = 'gitless'
+
+homepage = 'https://gitless.com'
+
+[[package]]
+channel = 'debian'
+name = 'gitless'

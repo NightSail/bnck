@@ -1,0 +1,8 @@
+id = 'python3-sfepy'
+name = 'python3-sfepy'
+
+homepage = 'https://sfepy.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sfepy'

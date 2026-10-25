@@ -1,0 +1,8 @@
+id = 'gbrowse'
+name = 'gbrowse'
+
+homepage = 'http://gmod.org/wiki/GBrowse'
+
+[[package]]
+channel = 'debian'
+name = 'gbrowse'

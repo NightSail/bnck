@@ -1,0 +1,8 @@
+id = 'asitop'
+name = 'asitop'
+
+homepage = 'https://tlkh.github.io/asitop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asitop'

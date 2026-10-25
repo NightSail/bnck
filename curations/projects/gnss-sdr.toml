@@ -1,0 +1,8 @@
+id = 'gnss-sdr'
+name = 'gnss-sdr'
+
+homepage = 'https://gnss-sdr.org'
+
+[[package]]
+channel = 'debian'
+name = 'gnss-sdr'

@@ -1,0 +1,8 @@
+id = 'golang-github-youpy-wav'
+name = 'golang-github-youpy-wav'
+
+homepage = 'https://github.com/youpy/go-wav'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-youpy-wav'

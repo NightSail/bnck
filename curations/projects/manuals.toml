@@ -1,0 +1,12 @@
+id = 'manuals'
+name = 'manuals'
+
+homepage = 'https://apps.gnome.org/Manuals'
+
+[[package]]
+channel = 'arch'
+name = 'manuals'
+
+[[package]]
+channel = 'debian'
+name = 'manuals'

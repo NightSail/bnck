@@ -1,0 +1,8 @@
+id = 'obs-studio-plugin-vkcapture'
+name = 'obs-studio-plugin-vkcapture'
+
+homepage = 'https://github.com/nowrep/obs-vkcapture'
+
+[[package]]
+channel = 'fedora'
+name = 'obs-studio-plugin-vkcapture'

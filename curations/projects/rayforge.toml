@@ -1,0 +1,8 @@
+id = 'rayforge'
+name = 'rayforge'
+
+homepage = 'https://github.com/barebaric/rayforge'
+
+[[package]]
+channel = 'debian'
+name = 'rayforge'

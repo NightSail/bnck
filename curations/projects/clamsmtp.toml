@@ -1,0 +1,8 @@
+id = 'clamsmtp'
+name = 'clamsmtp'
+
+homepage = 'http://thewalter.net/stef/software/clamsmtp'
+
+[[package]]
+channel = 'debian'
+name = 'clamsmtp'

@@ -1,0 +1,12 @@
+id = 'minuet'
+name = 'minuet'
+
+homepage = 'https://apps.kde.org/minuet'
+
+[[package]]
+channel = 'arch'
+name = 'minuet'
+
+[[package]]
+channel = 'debian'
+name = 'minuet'

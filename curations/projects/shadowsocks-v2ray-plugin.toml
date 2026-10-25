@@ -1,0 +1,8 @@
+id = 'shadowsocks-v2ray-plugin'
+name = 'shadowsocks-v2ray-plugin'
+
+homepage = 'https://github.com/teddysun/v2ray-plugin'
+
+[[package]]
+channel = 'arch'
+name = 'shadowsocks-v2ray-plugin'

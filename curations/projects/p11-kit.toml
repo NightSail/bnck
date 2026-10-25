@@ -1,0 +1,17 @@
+id = 'p11-kit'
+name = 'p11-kit'
+
+homepage = 'https://p11-glue.freedesktop.org'
+repository = 'https://github.com/p11-glue/p11-kit.git'
+
+[[package]]
+channel = 'arch'
+name = 'p11-kit'
+
+[[package]]
+channel = 'debian'
+name = 'p11-kit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/p11-kit'

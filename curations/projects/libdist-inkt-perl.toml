@@ -1,0 +1,8 @@
+id = 'libdist-inkt-perl'
+name = 'libdist-inkt-perl'
+
+homepage = 'https://metacpan.org/release/Dist-Inkt'
+
+[[package]]
+channel = 'debian'
+name = 'libdist-inkt-perl'

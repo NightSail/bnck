@@ -1,0 +1,16 @@
+id = 'plasma-mobile'
+name = 'plasma-mobile'
+
+homepage = 'https://plasma-mobile.org'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-mobile'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-mobile'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-mobile'

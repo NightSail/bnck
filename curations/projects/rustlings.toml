@@ -1,0 +1,8 @@
+id = 'rustlings'
+name = 'rustlings'
+
+homepage = 'https://github.com/rust-lang/rustlings'
+
+[[package]]
+channel = 'arch'
+name = 'rustlings'

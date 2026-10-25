@@ -1,0 +1,24 @@
+id = 'drobilla-drobilla-2'
+name = 'drobilla'
+
+homepage = 'https://drobilla.net/software/jalv.html'
+
+[[package]]
+channel = 'arch'
+name = 'jalv'
+
+[[package]]
+channel = 'debian'
+name = 'jalv'
+
+[[package]]
+channel = 'fedora'
+name = 'jalv'
+
+[[package]]
+channel = 'fedora'
+name = 'jalv-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'jalv-qt'

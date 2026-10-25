@@ -1,0 +1,8 @@
+id = 'python3-autopep8'
+name = 'python3-autopep8'
+
+homepage = 'http://pypi.python.org/pypi/autopep8'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-autopep8'

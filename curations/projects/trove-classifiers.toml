@@ -1,0 +1,16 @@
+id = 'trove-classifiers'
+name = 'trove-classifiers'
+
+homepage = 'https://github.com/pypa/trove-classifiers'
+
+[[package]]
+channel = 'arch'
+name = 'python-trove-classifiers'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trove-classifiers'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-trove-classifiers'

@@ -1,0 +1,12 @@
+id = 'elf2uf2-rs'
+name = 'elf2uf2-rs'
+
+homepage = 'https://github.com/JoNil/elf2uf2-rs'
+
+[[package]]
+channel = 'arch'
+name = 'elf2uf2-rs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elf2uf2-rs'

@@ -1,0 +1,8 @@
+id = 'libdasm'
+name = 'libdasm'
+
+homepage = 'https://github.com/jtpereyda/libdasm'
+
+[[package]]
+channel = 'fedora'
+name = 'libdasm'

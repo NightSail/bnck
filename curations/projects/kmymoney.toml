@@ -1,0 +1,20 @@
+id = 'kmymoney'
+name = 'kmymoney'
+
+homepage = 'https://kmymoney.org'
+
+[[package]]
+channel = 'arch'
+name = 'kmymoney'
+
+[[package]]
+channel = 'debian'
+name = 'kmymoney'
+
+[[package]]
+channel = 'fedora'
+name = 'kmymoney'
+
+[[package]]
+channel = 'fedora'
+name = 'libalkimia-qt6'

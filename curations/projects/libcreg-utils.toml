@@ -1,0 +1,8 @@
+id = 'libcreg-utils'
+name = 'libcreg-utils'
+
+homepage = 'https://github.com/libyal/libcreg'
+
+[[package]]
+channel = 'debian'
+name = 'libcreg-utils'

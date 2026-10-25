@@ -1,0 +1,12 @@
+id = 'rq'
+name = 'rq'
+
+homepage = 'https://github.com/dflemstr/rq'
+
+[[package]]
+channel = 'arch'
+name = 'rq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/rq'

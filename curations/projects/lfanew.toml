@@ -1,0 +1,8 @@
+id = 'lfanew'
+name = 'lfanew'
+
+homepage = 'https://codeberg.org/tkchia/lfanew'
+
+[[package]]
+channel = 'debian'
+name = 'lfanew'

@@ -1,0 +1,8 @@
+id = 'rsem'
+name = 'rsem'
+
+homepage = 'https://deweylab.github.io/RSEM'
+
+[[package]]
+channel = 'debian'
+name = 'rsem'

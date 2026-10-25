@@ -1,0 +1,12 @@
+id = 'yambar'
+name = 'yambar'
+
+homepage = 'https://codeberg.org/dnkl/yambar'
+
+[[package]]
+channel = 'debian'
+name = 'yambar'
+
+[[package]]
+channel = 'fedora'
+name = 'yambar'

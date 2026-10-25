@@ -1,0 +1,8 @@
+id = 'cfdg-fe'
+name = 'cfdg-fe'
+
+homepage = 'http://impulzus.com/~tchibo'
+
+[[package]]
+channel = 'fedora'
+name = 'cfdg-fe'

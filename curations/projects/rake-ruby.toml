@@ -1,0 +1,12 @@
+id = 'rake-ruby'
+name = 'rake'
+
+homepage = 'https://github.com/ruby/rake'
+
+[[package]]
+channel = 'debian'
+name = 'rake'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rake'

@@ -1,0 +1,9 @@
+id = 'hexo'
+name = 'hexo'
+
+homepage = 'https://hexo.io'
+repository = 'https://github.com/hexojs/hexo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexo'

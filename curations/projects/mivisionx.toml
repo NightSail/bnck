@@ -1,0 +1,8 @@
+id = 'mivisionx'
+name = 'mivisionx'
+
+homepage = 'https://github.com/ROCm/MIVisionX'
+
+[[package]]
+channel = 'fedora'
+name = 'mivisionx'

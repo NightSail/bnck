@@ -1,0 +1,8 @@
+id = 'aa3d'
+name = 'aa3d'
+
+homepage = 'https://aa-project.sourceforge.net/aa3d'
+
+[[package]]
+channel = 'debian'
+name = 'aa3d'

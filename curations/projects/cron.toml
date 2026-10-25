@@ -1,0 +1,8 @@
+id = 'cron'
+name = 'cron'
+
+homepage = 'https://ftp.isc.org/isc/cron'
+
+[[package]]
+channel = 'debian'
+name = 'cron'

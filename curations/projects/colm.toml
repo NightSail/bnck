@@ -1,0 +1,12 @@
+id = 'colm'
+name = 'colm'
+
+homepage = 'https://www.colm.net/open-source/colm'
+
+[[package]]
+channel = 'arch'
+name = 'colm'
+
+[[package]]
+channel = 'fedora'
+name = 'colm'

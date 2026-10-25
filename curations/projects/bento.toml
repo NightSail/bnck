@@ -1,0 +1,8 @@
+id = 'bento'
+name = 'bento'
+
+homepage = 'https://warpstreamlabs.github.io/bento'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bento'

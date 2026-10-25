@@ -1,0 +1,13 @@
+id = 'cvs-cvs-2'
+name = 'cvs'
+
+homepage = 'https://mandoc.bsd.lv'
+repository = 'anoncvs@mandoc.bsd.lv:/cvs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mandoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texi2mdoc'

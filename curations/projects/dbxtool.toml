@@ -1,0 +1,8 @@
+id = 'dbxtool'
+name = 'dbxtool'
+
+homepage = 'https://github.com/rhboot/dbxtool'
+
+[[package]]
+channel = 'arch'
+name = 'dbxtool'

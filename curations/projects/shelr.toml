@@ -1,0 +1,8 @@
+id = 'shelr'
+name = 'shelr'
+
+homepage = 'https://github.com/shelr/shelr.tv'
+
+[[package]]
+channel = 'debian'
+name = 'shelr'

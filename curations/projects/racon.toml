@@ -1,0 +1,8 @@
+id = 'racon'
+name = 'racon'
+
+homepage = 'https://github.com/lbcb-sci/racon'
+
+[[package]]
+channel = 'debian'
+name = 'racon'

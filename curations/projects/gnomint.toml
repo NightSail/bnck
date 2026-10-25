@@ -1,0 +1,6 @@
+id = 'gnomint'
+name = 'gnomint'
+
+[[package]]
+channel = 'debian'
+name = 'gnomint'

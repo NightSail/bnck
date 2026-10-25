@@ -1,0 +1,12 @@
+id = 'xpenguins'
+name = 'xpenguins'
+
+homepage = 'https://www.ratrabbit.nl/ratrabbit/software/xpenguins/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'xpenguins'
+
+[[package]]
+channel = 'fedora'
+name = 'xpenguins'

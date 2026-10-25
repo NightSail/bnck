@@ -1,0 +1,8 @@
+id = 'cargo-psp'
+name = 'cargo-psp'
+
+homepage = 'https://github.com/overdrivenpotato/rust-psp'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-psp'

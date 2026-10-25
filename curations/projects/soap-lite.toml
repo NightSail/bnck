@@ -1,0 +1,12 @@
+id = 'soap-lite'
+name = 'SOAP-Lite'
+
+homepage = 'https://metacpan.org/release/SOAP-Lite'
+
+[[package]]
+channel = 'debian'
+name = 'libsoap-lite-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SOAP-Lite'

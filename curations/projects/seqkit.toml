@@ -1,0 +1,13 @@
+id = 'seqkit'
+name = 'seqkit'
+
+homepage = 'https://bioinf.shenwei.me/seqkit'
+repository = 'https://github.com/shenwei356/seqkit.git'
+
+[[package]]
+channel = 'debian'
+name = 'seqkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seqkit'

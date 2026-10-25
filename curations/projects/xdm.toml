@@ -1,0 +1,8 @@
+id = 'xdm'
+name = 'xdm'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xdm'
+
+[[package]]
+channel = 'debian'
+name = 'xdm'

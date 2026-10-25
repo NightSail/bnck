@@ -1,0 +1,9 @@
+id = 'astro'
+name = 'astro'
+
+homepage = 'https://www.astronomer.io'
+repository = 'https://github.com/astronomer/astro-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/astro'

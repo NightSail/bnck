@@ -1,0 +1,8 @@
+id = 'pod2man'
+name = 'pod2man'
+
+homepage = 'https://www.eyrie.org/~eagle/software/podlators'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pod2man'

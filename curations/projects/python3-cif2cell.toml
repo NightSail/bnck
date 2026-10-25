@@ -1,0 +1,8 @@
+id = 'python3-cif2cell'
+name = 'python3-cif2cell'
+
+homepage = 'https://github.com/torbjornbjorkman/cif2cell'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cif2cell'

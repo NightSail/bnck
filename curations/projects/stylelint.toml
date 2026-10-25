@@ -1,0 +1,8 @@
+id = 'stylelint'
+name = 'stylelint'
+
+homepage = 'https://stylelint.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stylelint'

@@ -1,0 +1,36 @@
+id = 'openstack-cluster-installer'
+name = 'openstack-cluster-installer'
+
+homepage = 'https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-agent'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-cli'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-common'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-live-image-builder'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-openstack-ci'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-poc'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-cluster-installer-utils'

@@ -1,0 +1,10 @@
+id = 'makepasswd'
+name = 'makepasswd'
+
+[[package]]
+channel = 'debian'
+name = 'makepasswd'
+
+[[package]]
+channel = 'fedora'
+name = 'makepasswd'

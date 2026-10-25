@@ -1,0 +1,6 @@
+id = 'storebackup'
+name = 'storebackup'
+
+[[package]]
+channel = 'debian'
+name = 'storebackup'

@@ -1,0 +1,12 @@
+id = 'flip-link'
+name = 'flip-link'
+
+homepage = 'https://github.com/knurling-rs/flip-link'
+
+[[package]]
+channel = 'arch'
+name = 'flip-link'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flip-link'

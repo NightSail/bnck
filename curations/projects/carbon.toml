@@ -1,0 +1,12 @@
+id = 'carbon'
+name = 'carbon'
+
+homepage = 'https://github.com/graphite-project/carbon'
+
+[[package]]
+channel = 'debian'
+name = 'graphite-carbon'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-carbon'

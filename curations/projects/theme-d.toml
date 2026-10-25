@@ -1,0 +1,20 @@
+id = 'theme-d'
+name = 'theme-d'
+
+homepage = 'http://www.iki.fi/tohoyn/theme-d'
+
+[[package]]
+channel = 'debian'
+name = 'theme-d-bootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'theme-d-rte'
+
+[[package]]
+channel = 'debian'
+name = 'theme-d-stdlib'
+
+[[package]]
+channel = 'debian'
+name = 'theme-d-translator'

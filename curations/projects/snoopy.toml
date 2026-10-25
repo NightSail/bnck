@@ -1,0 +1,8 @@
+id = 'snoopy'
+name = 'snoopy'
+
+homepage = 'https://github.com/a2o/snoopy'
+
+[[package]]
+channel = 'fedora'
+name = 'snoopy'

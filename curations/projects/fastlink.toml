@@ -1,0 +1,8 @@
+id = 'fastlink'
+name = 'fastlink'
+
+homepage = 'https://www.ncbi.nlm.nih.gov/CBBResearch/Schaffer/fastlink.html'
+
+[[package]]
+channel = 'debian'
+name = 'fastlink'

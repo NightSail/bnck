@@ -1,0 +1,9 @@
+id = 'macpine'
+name = 'macpine'
+
+homepage = 'https://beringresearch.github.io/macpine'
+repository = 'https://github.com/beringresearch/macpine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macpine'

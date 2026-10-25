@@ -1,0 +1,20 @@
+id = 'byacc'
+name = 'byacc'
+
+homepage = 'https://invisible-island.net/byacc'
+
+[[package]]
+channel = 'arch'
+name = 'byacc'
+
+[[package]]
+channel = 'debian'
+name = 'byacc'
+
+[[package]]
+channel = 'fedora'
+name = 'byacc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/byacc'

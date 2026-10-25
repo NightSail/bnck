@@ -1,0 +1,16 @@
+id = 'nuttcp'
+name = 'nuttcp'
+
+homepage = 'http://www.nuttcp.net/nuttcp'
+
+[[package]]
+channel = 'debian'
+name = 'nuttcp'
+
+[[package]]
+channel = 'fedora'
+name = 'nuttcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuttcp'

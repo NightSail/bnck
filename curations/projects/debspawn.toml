@@ -1,0 +1,8 @@
+id = 'debspawn'
+name = 'debspawn'
+
+homepage = 'https://github.com/lkhq/debspawn'
+
+[[package]]
+channel = 'debian'
+name = 'debspawn'

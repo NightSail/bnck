@@ -1,0 +1,12 @@
+id = 'wifite'
+name = 'wifite'
+
+homepage = 'https://github.com/kimocoder/wifite2'
+
+[[package]]
+channel = 'arch'
+name = 'wifite'
+
+[[package]]
+channel = 'debian'
+name = 'wifite'

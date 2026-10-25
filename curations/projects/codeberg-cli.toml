@@ -1,0 +1,8 @@
+id = 'codeberg-cli'
+name = 'codeberg-cli'
+
+repository = 'https://codeberg.org/Aviac/codeberg-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codeberg-cli'

@@ -1,0 +1,8 @@
+id = 'dns323-firmware-tools'
+name = 'dns323-firmware-tools'
+
+homepage = 'http://theshed.hezmatt.org/dns323-firmware-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dns323-firmware-tools'

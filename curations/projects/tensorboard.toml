@@ -1,0 +1,8 @@
+id = 'tensorboard'
+name = 'tensorboard'
+
+homepage = 'https://github.com/tensorflow/tensorboard'
+
+[[package]]
+channel = 'arch'
+name = 'tensorboard'

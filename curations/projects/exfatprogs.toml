@@ -1,0 +1,16 @@
+id = 'exfatprogs'
+name = 'exfatprogs'
+
+homepage = 'https://github.com/exfatprogs/exfatprogs'
+
+[[package]]
+channel = 'arch'
+name = 'exfatprogs'
+
+[[package]]
+channel = 'debian'
+name = 'exfatprogs'
+
+[[package]]
+channel = 'fedora'
+name = 'exfatprogs'

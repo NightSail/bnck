@@ -1,0 +1,12 @@
+id = 'form'
+name = 'form'
+
+homepage = 'https://www.nikhef.nl/~form'
+
+[[package]]
+channel = 'debian'
+name = 'form'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/form'

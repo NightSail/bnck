@@ -1,0 +1,8 @@
+id = 'nvram-wakeup'
+name = 'nvram-wakeup'
+
+homepage = 'http://sourceforge.net/projects/nvram-wakeup'
+
+[[package]]
+channel = 'debian'
+name = 'nvram-wakeup'

@@ -1,0 +1,8 @@
+id = 'cloud-enum'
+name = 'cloud-enum'
+
+homepage = 'https://github.com/initstring/cloud_enum'
+
+[[package]]
+channel = 'debian'
+name = 'cloud-enum'

@@ -1,0 +1,12 @@
+id = 'proxygen'
+name = 'proxygen'
+
+repository = 'https://github.com/facebook/proxygen.git'
+
+[[package]]
+channel = 'fedora'
+name = 'proxygen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proxygen'

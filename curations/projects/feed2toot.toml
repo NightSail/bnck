@@ -1,0 +1,8 @@
+id = 'feed2toot'
+name = 'feed2toot'
+
+homepage = 'https://gitlab.com/chaica/feed2toot'
+
+[[package]]
+channel = 'debian'
+name = 'feed2toot'

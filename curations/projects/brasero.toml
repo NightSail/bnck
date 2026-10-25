@@ -1,0 +1,16 @@
+id = 'brasero'
+name = 'brasero'
+
+homepage = 'https://wiki.gnome.org/Apps/Brasero'
+
+[[package]]
+channel = 'arch'
+name = 'brasero'
+
+[[package]]
+channel = 'debian'
+name = 'brasero'
+
+[[package]]
+channel = 'fedora'
+name = 'brasero'

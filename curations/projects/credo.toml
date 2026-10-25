@@ -1,0 +1,8 @@
+id = 'credo'
+name = 'credo'
+
+homepage = 'https://github.com/rrrene/credo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/credo'

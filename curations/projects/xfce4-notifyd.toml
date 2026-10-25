@@ -1,0 +1,16 @@
+id = 'xfce4-notifyd'
+name = 'xfce4-notifyd'
+
+homepage = 'https://docs.xfce.org/apps/notifyd/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-notifyd'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-notifyd'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-notifyd'

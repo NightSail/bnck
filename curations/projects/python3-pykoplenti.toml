@@ -1,0 +1,8 @@
+id = 'python3-pykoplenti'
+name = 'python3-pykoplenti'
+
+homepage = 'https://github.com/stegm/pyclient_koplenti'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pykoplenti'

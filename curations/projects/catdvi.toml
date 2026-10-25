@@ -1,0 +1,8 @@
+id = 'catdvi'
+name = 'catdvi'
+
+homepage = 'https://catdvi.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'catdvi'

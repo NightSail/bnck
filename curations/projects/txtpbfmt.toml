@@ -1,0 +1,8 @@
+id = 'txtpbfmt'
+name = 'txtpbfmt'
+
+homepage = 'https://github.com/protocolbuffers/txtpbfmt'
+
+[[package]]
+channel = 'debian'
+name = 'txtpbfmt'

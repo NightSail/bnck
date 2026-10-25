@@ -1,0 +1,8 @@
+id = 'tiosmod'
+name = 'tiosmod'
+
+homepage = 'https://github.com/debrouxl/tiosmod'
+
+[[package]]
+channel = 'fedora'
+name = 'tiosmod'

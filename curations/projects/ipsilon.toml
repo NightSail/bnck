@@ -1,0 +1,16 @@
+id = 'ipsilon'
+name = 'ipsilon'
+
+homepage = 'https://pagure.io/ipsilon'
+
+[[package]]
+channel = 'fedora'
+name = 'ipsilon'
+
+[[package]]
+channel = 'fedora'
+name = 'ipsilon-base'
+
+[[package]]
+channel = 'fedora'
+name = 'ipsilon-client'

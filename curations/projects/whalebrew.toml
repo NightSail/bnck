@@ -1,0 +1,8 @@
+id = 'whalebrew'
+name = 'whalebrew'
+
+repository = 'https://github.com/whalebrew/whalebrew.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whalebrew'

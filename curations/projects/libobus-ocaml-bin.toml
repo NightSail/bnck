@@ -1,0 +1,8 @@
+id = 'libobus-ocaml-bin'
+name = 'libobus-ocaml-bin'
+
+homepage = 'https://github.com/ocaml-community/obus'
+
+[[package]]
+channel = 'debian'
+name = 'libobus-ocaml-bin'

@@ -1,0 +1,8 @@
+id = 'surpyvor'
+name = 'surpyvor'
+
+homepage = 'https://github.com/wdecoster/surpyvor'
+
+[[package]]
+channel = 'debian'
+name = 'surpyvor'

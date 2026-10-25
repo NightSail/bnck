@@ -1,0 +1,6 @@
+id = 'aaphoto'
+name = 'aaphoto'
+
+[[package]]
+channel = 'debian'
+name = 'aaphoto'

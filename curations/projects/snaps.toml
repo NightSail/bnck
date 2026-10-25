@@ -1,0 +1,12 @@
+id = 'snaps'
+name = 'snaps'
+
+homepage = 'http://brick.kernel.dk/snaps'
+
+[[package]]
+channel = 'fedora'
+name = 'blktrace'
+
+[[package]]
+channel = 'fedora'
+name = 'iowatcher'

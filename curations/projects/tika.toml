@@ -1,0 +1,8 @@
+id = 'tika'
+name = 'tika'
+
+homepage = 'https://tika.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tika'

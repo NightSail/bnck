@@ -1,0 +1,12 @@
+id = 'jupyter-notebook'
+name = 'jupyter-notebook'
+
+homepage = 'https://github.com/jupyter/notebook'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-notebook'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-notebook'

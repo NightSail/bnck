@@ -1,0 +1,8 @@
+id = 'chessx'
+name = 'chessx'
+
+homepage = 'https://sourceforge.net/projects/chessx'
+
+[[package]]
+channel = 'fedora'
+name = 'chessx'

@@ -1,0 +1,12 @@
+id = 'qreator'
+name = 'qreator'
+
+homepage = 'https://gitlab.com/qreator-dev/qreator'
+
+[[package]]
+channel = 'arch'
+name = 'qreator'
+
+[[package]]
+channel = 'debian'
+name = 'qreator'

@@ -1,0 +1,8 @@
+id = 'python3-concord232'
+name = 'python3-concord232'
+
+homepage = 'https://github.com/JasonCarter80/concord232'
+
+[[package]]
+channel = 'debian'
+name = 'python3-concord232'

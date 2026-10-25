@@ -4,5 +4,9 @@ name = 'htp'
 homepage = 'https://www.vervest.org/htp'
 
 [[package]]
+channel = 'debian'
+name = 'htp'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/htpdate'

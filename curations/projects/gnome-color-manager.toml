@@ -1,0 +1,16 @@
+id = 'gnome-color-manager'
+name = 'gnome-color-manager'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-color-manager'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-color-manager'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-color-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-color-manager'

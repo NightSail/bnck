@@ -1,0 +1,8 @@
+id = 'elf2nucleus'
+name = 'elf2nucleus'
+
+homepage = 'https://github.com/kpcyrd/elf2nucleus'
+
+[[package]]
+channel = 'arch'
+name = 'elf2nucleus'

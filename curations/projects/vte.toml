@@ -1,0 +1,24 @@
+id = 'vte'
+name = 'VTE'
+
+homepage = 'https://wiki.gnome.org/Apps/Terminal/VTE'
+
+[[package]]
+channel = 'arch'
+name = 'vte3-utils'
+
+[[package]]
+channel = 'arch'
+name = 'vte4-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'vte291-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'vte291-gtk4-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vte3'

@@ -1,0 +1,12 @@
+id = 'monajat'
+name = 'monajat'
+
+homepage = 'https://www.launchpad.net/monajat'
+
+[[package]]
+channel = 'debian'
+name = 'monajat-applet'
+
+[[package]]
+channel = 'debian'
+name = 'monajat-mod'

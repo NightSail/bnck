@@ -1,0 +1,8 @@
+id = 'ghc-clientsession-devel'
+name = 'ghc-clientsession-devel'
+
+homepage = 'https://hackage.haskell.org/package/clientsession'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-clientsession-devel'

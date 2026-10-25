@@ -1,0 +1,8 @@
+id = 'prism-cli'
+name = 'prism-cli'
+
+homepage = 'https://stoplight.io/open-source/prism'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prism-cli'

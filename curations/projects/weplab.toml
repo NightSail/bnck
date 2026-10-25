@@ -1,0 +1,8 @@
+id = 'weplab'
+name = 'weplab'
+
+homepage = 'http://weplab.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'weplab'

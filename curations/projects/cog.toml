@@ -1,0 +1,12 @@
+id = 'cog'
+name = 'cog'
+
+homepage = 'https://nedbatchelder.com/code/cog'
+
+[[package]]
+channel = 'arch'
+name = 'python-cogapp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cogapp'

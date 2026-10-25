@@ -1,0 +1,9 @@
+id = 'muon'
+name = 'muon'
+
+homepage = 'https://muon.build'
+repository = 'https://git.sr.ht/~lattis/muon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/muon'

@@ -1,0 +1,8 @@
+id = 'python3-aodhclient'
+name = 'python3-aodhclient'
+
+homepage = 'https://launchpad.net/python-aodhclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-aodhclient'

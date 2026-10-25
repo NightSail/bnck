@@ -1,0 +1,8 @@
+id = 'mediaelch'
+name = 'mediaelch'
+
+homepage = 'https://www.mediaelch.de/mediaelch'
+
+[[package]]
+channel = 'arch'
+name = 'mediaelch'

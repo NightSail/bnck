@@ -1,0 +1,8 @@
+id = 'tardy'
+name = 'tardy'
+
+homepage = 'http://sourceforge.net/projects/tardy'
+
+[[package]]
+channel = 'debian'
+name = 'tardy'

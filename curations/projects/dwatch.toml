@@ -1,0 +1,8 @@
+id = 'dwatch'
+name = 'dwatch'
+
+homepage = 'https://siag.nu/dwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dwatch'

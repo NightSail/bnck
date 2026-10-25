@@ -1,0 +1,16 @@
+id = 'libvips'
+name = 'libvips'
+
+homepage = 'https://libvips.github.io/libvips'
+
+[[package]]
+channel = 'arch'
+name = 'libvips'
+
+[[package]]
+channel = 'debian'
+name = 'libvips-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'nip2'

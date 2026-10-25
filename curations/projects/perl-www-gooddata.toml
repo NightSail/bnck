@@ -1,0 +1,8 @@
+id = 'perl-www-gooddata'
+name = 'perl-WWW-GoodData'
+
+homepage = 'https://metacpan.org/release/WWW-GoodData'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-WWW-GoodData'

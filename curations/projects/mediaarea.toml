@@ -1,0 +1,12 @@
+id = 'mediaarea'
+name = 'mediaarea'
+
+homepage = 'https://mediaarea.net'
+
+[[package]]
+channel = 'arch'
+name = 'mediainfo'
+
+[[package]]
+channel = 'arch'
+name = 'mediainfo-gui'

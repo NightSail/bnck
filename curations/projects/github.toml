@@ -1,0 +1,16 @@
+id = 'github'
+name = 'github'
+
+homepage = 'https://desktop.github.com'
+
+[[package]]
+channel = 'debian'
+name = 'git-hub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/github'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/github@beta'

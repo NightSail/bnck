@@ -1,0 +1,13 @@
+id = 'datalad'
+name = 'datalad'
+
+homepage = 'https://datalad.org'
+repository = 'https://github.com/datalad/datalad.git'
+
+[[package]]
+channel = 'debian'
+name = 'datalad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/datalad'

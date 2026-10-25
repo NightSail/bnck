@@ -1,0 +1,12 @@
+id = 'goimapnotify'
+name = 'goimapnotify'
+
+repository = 'https://gitlab.com/shackra/goimapnotify.git'
+
+[[package]]
+channel = 'arch'
+name = 'goimapnotify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goimapnotify'

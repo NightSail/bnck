@@ -1,0 +1,8 @@
+id = 'anyzig'
+name = 'anyzig'
+
+homepage = 'https://github.com/marler8997/anyzig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/anyzig'

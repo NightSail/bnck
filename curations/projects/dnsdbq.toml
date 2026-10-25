@@ -1,0 +1,8 @@
+id = 'dnsdbq'
+name = 'dnsdbq'
+
+homepage = 'https://github.com/dnsdb/dnsdbq'
+
+[[package]]
+channel = 'debian'
+name = 'dnsdbq'

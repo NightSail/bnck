@@ -1,0 +1,8 @@
+id = 'perl-swim'
+name = 'perl-Swim'
+
+homepage = 'https://metacpan.org/release/Swim'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Swim'

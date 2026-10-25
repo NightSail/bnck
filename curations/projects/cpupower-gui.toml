@@ -1,0 +1,8 @@
+id = 'cpupower-gui'
+name = 'cpupower-gui'
+
+homepage = 'https://github.com/vagnum08/cpupower-gui'
+
+[[package]]
+channel = 'debian'
+name = 'cpupower-gui'

@@ -1,0 +1,16 @@
+id = 'astrometry'
+name = 'astrometry'
+
+homepage = 'http://www.astrometry.net'
+
+[[package]]
+channel = 'debian'
+name = 'astrometry.net'
+
+[[package]]
+channel = 'fedora'
+name = 'astrometry'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-astrometry'

@@ -1,0 +1,8 @@
+id = 'mysql-router'
+name = 'mysql-router'
+
+homepage = 'https://dev.mysql.com/doc/mysql-router/9.7/en'
+
+[[package]]
+channel = 'debian'
+name = 'mysql-router'

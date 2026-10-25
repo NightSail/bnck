@@ -1,0 +1,14 @@
+id = 'kookbook'
+name = 'kookbook'
+
+[[package]]
+channel = 'debian'
+name = 'kookbook'
+
+[[package]]
+channel = 'fedora'
+name = 'kookbook'
+
+[[package]]
+channel = 'fedora'
+name = 'kookbook-touch'

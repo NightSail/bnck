@@ -1,0 +1,13 @@
+id = 'airspyhf'
+name = 'airspyhf'
+
+homepage = 'https://airspy.com/airspy-hf-plus'
+repository = 'https://github.com/airspy/airspyhf.git'
+
+[[package]]
+channel = 'debian'
+name = 'airspyhf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/airspyhf'

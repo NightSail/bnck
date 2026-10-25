@@ -1,0 +1,8 @@
+id = 'pdfsign'
+name = 'pdfsign'
+
+homepage = 'https://github.com/opensignature/pdfsign'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfsign'

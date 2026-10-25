@@ -1,0 +1,16 @@
+id = 'empy'
+name = 'empy'
+
+homepage = 'http://www.alcyone.com/software/empy'
+
+[[package]]
+channel = 'arch'
+name = 'python-empy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-empy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-empy'

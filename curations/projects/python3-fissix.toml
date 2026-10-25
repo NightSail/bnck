@@ -1,0 +1,8 @@
+id = 'python3-fissix'
+name = 'python3-fissix'
+
+homepage = 'https://github.com/jreese/fissix'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fissix'

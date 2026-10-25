@@ -1,0 +1,8 @@
+id = 'perlprimer'
+name = 'perlprimer'
+
+homepage = 'https://perlprimer.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'perlprimer'

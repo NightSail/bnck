@@ -1,0 +1,28 @@
+id = 'coq'
+name = 'coq'
+
+homepage = 'http://coq.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'coq'
+
+[[package]]
+channel = 'debian'
+name = 'coqide'
+
+[[package]]
+channel = 'debian'
+name = 'rocqide'
+
+[[package]]
+channel = 'fedora'
+name = 'coq-coqide'
+
+[[package]]
+channel = 'fedora'
+name = 'coq-coqide-server'
+
+[[package]]
+channel = 'fedora'
+name = 'coq-core'

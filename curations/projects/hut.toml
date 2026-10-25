@@ -1,0 +1,21 @@
+id = 'hut'
+name = 'hut'
+
+homepage = 'https://sr.ht/~xenrox/hut'
+repository = 'https://git.sr.ht/~xenrox/hut'
+
+[[package]]
+channel = 'arch'
+name = 'hut'
+
+[[package]]
+channel = 'debian'
+name = 'hut'
+
+[[package]]
+channel = 'fedora'
+name = 'hut'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hut'

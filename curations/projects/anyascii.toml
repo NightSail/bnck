@@ -1,0 +1,8 @@
+id = 'anyascii'
+name = 'anyascii'
+
+homepage = 'https://anyascii.com'
+
+[[package]]
+channel = 'debian'
+name = 'anyascii'

@@ -1,0 +1,8 @@
+id = 'git-cal'
+name = 'git-cal'
+
+repository = 'https://github.com/k4rthik/git-cal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-cal'

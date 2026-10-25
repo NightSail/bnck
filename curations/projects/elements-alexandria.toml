@@ -1,0 +1,8 @@
+id = 'elements-alexandria'
+name = 'elements-alexandria'
+
+homepage = 'https://github.com/astrorama/Alexandria'
+
+[[package]]
+channel = 'fedora'
+name = 'elements-alexandria'

@@ -1,0 +1,8 @@
+id = 'libmanette'
+name = 'libmanette'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/libmanette'
+
+[[package]]
+channel = 'arch'
+name = 'libmanette'

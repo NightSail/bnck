@@ -1,0 +1,8 @@
+id = 'python3-nifti-mrs'
+name = 'python3-nifti-mrs'
+
+homepage = 'https://github.com/wtclarke/nifti_mrs_tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nifti-mrs'

@@ -1,0 +1,8 @@
+id = 'sluice'
+name = 'sluice'
+
+homepage = 'https://github.com/ColinIanKing/sluice'
+
+[[package]]
+channel = 'debian'
+name = 'sluice'

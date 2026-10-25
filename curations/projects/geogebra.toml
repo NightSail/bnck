@@ -1,0 +1,16 @@
+id = 'geogebra'
+name = 'geogebra'
+
+homepage = 'https://www.geogebra.org'
+
+[[package]]
+channel = 'arch'
+name = 'geogebra'
+
+[[package]]
+channel = 'debian'
+name = 'geogebra'
+
+[[package]]
+channel = 'debian'
+name = 'geogebra-gnome'

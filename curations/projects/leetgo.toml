@@ -1,0 +1,8 @@
+id = 'leetgo'
+name = 'leetgo'
+
+repository = 'https://github.com/j178/leetgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leetgo'

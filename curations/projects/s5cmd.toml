@@ -1,0 +1,8 @@
+id = 's5cmd'
+name = 's5cmd'
+
+repository = 'https://github.com/peak/s5cmd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s5cmd'

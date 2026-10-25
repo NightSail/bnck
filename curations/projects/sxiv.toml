@@ -1,0 +1,16 @@
+id = 'sxiv'
+name = 'sxiv'
+
+homepage = 'https://github.com/muennich/sxiv'
+
+[[package]]
+channel = 'arch'
+name = 'sxiv'
+
+[[package]]
+channel = 'debian'
+name = 'sxiv'
+
+[[package]]
+channel = 'fedora'
+name = 'sxiv'

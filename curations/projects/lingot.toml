@@ -1,0 +1,12 @@
+id = 'lingot'
+name = 'lingot'
+
+homepage = 'https://www.nongnu.org/lingot'
+
+[[package]]
+channel = 'debian'
+name = 'lingot'
+
+[[package]]
+channel = 'fedora'
+name = 'lingot'

@@ -1,0 +1,9 @@
+id = 'minify-tdewolff'
+name = 'minify'
+
+homepage = 'https://go.tacodewolff.nl/minify'
+repository = 'https://github.com/tdewolff/minify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minify'

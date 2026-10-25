@@ -1,0 +1,8 @@
+id = 'libphdi-utils'
+name = 'libphdi-utils'
+
+homepage = 'https://github.com/libyal/libphdi'
+
+[[package]]
+channel = 'debian'
+name = 'libphdi-utils'

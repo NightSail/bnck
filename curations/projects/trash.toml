@@ -1,0 +1,9 @@
+id = 'trash'
+name = 'trash'
+
+homepage = 'https://hasseg.org/trash'
+repository = 'https://github.com/ali-rantakari/trash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trash'

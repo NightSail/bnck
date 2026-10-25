@@ -1,0 +1,8 @@
+id = 'python-jmespath'
+name = 'python-jmespath'
+
+homepage = 'https://github.com/jmespath/jmespath'
+
+[[package]]
+channel = 'arch'
+name = 'python-jmespath'

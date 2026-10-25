@@ -1,0 +1,6 @@
+id = 'stardata-common'
+name = 'stardata-common'
+
+[[package]]
+channel = 'debian'
+name = 'stardata-common'

@@ -1,0 +1,13 @@
+id = 'dnscrypt-wrapper'
+name = 'dnscrypt-wrapper'
+
+homepage = 'https://dnscrypt.org'
+repository = 'https://github.com/Cofyc/dnscrypt-wrapper.git'
+
+[[package]]
+channel = 'arch'
+name = 'dnscrypt-wrapper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnscrypt-wrapper'

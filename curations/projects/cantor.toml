@@ -1,0 +1,32 @@
+id = 'cantor'
+name = 'cantor'
+
+homepage = 'https://apps.kde.org/cantor'
+
+[[package]]
+channel = 'arch'
+name = 'cantor'
+
+[[package]]
+channel = 'debian'
+name = 'cantor'
+
+[[package]]
+channel = 'debian'
+name = 'cantor-backend-python3'
+
+[[package]]
+channel = 'debian'
+name = 'cantor-backend-r'
+
+[[package]]
+channel = 'fedora'
+name = 'cantor'
+
+[[package]]
+channel = 'fedora'
+name = 'cantor-R'
+
+[[package]]
+channel = 'fedora'
+name = 'cantor-julia'

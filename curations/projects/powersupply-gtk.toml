@@ -1,0 +1,8 @@
+id = 'powersupply-gtk'
+name = 'powersupply-gtk'
+
+homepage = 'https://gitlab.com/MartijnBraam/powersupply'
+
+[[package]]
+channel = 'debian'
+name = 'powersupply-gtk'

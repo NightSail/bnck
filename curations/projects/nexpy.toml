@@ -1,0 +1,12 @@
+id = 'nexpy'
+name = 'nexpy'
+
+homepage = 'https://nexpy.github.io/nexpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nexpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nexusformat'

@@ -1,0 +1,8 @@
+id = 'cvsync'
+name = 'cvsync'
+
+homepage = 'https://www.cvsync.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cvsync'

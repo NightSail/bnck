@@ -1,0 +1,12 @@
+id = 'rott'
+name = 'rott'
+
+homepage = 'http://icculus.org/rott'
+
+[[package]]
+channel = 'fedora'
+name = 'rott-registered'
+
+[[package]]
+channel = 'fedora'
+name = 'rott-shareware'

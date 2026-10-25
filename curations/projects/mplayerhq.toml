@@ -1,0 +1,24 @@
+id = 'mplayerhq'
+name = 'mplayerhq'
+
+homepage = 'http://www.mplayerhq.hu'
+
+[[package]]
+channel = 'arch'
+name = 'mencoder'
+
+[[package]]
+channel = 'arch'
+name = 'mplayer'
+
+[[package]]
+channel = 'debian'
+name = 'mencoder'
+
+[[package]]
+channel = 'debian'
+name = 'mplayer'
+
+[[package]]
+channel = 'debian'
+name = 'mplayer-gui'

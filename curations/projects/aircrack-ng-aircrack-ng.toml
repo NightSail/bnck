@@ -1,0 +1,8 @@
+id = 'aircrack-ng-aircrack-ng'
+name = 'aircrack-ng'
+
+homepage = 'https://github.com/aircrack-ng/aircrack-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'aircrack-ng'

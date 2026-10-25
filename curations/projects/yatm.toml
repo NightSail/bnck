@@ -1,0 +1,8 @@
+id = 'yatm'
+name = 'yatm'
+
+homepage = 'https://github.com/mlang/yatm'
+
+[[package]]
+channel = 'debian'
+name = 'yatm'

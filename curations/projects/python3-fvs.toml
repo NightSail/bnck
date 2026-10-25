@@ -1,0 +1,8 @@
+id = 'python3-fvs'
+name = 'python3-fvs'
+
+homepage = 'https://pypi.org/pypi/FVS'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fvs'

@@ -1,0 +1,21 @@
+id = 'z3'
+name = 'z3'
+
+homepage = 'https://github.com/Z3Prover/z3/wiki'
+repository = 'https://github.com/Z3Prover/z3.git'
+
+[[package]]
+channel = 'arch'
+name = 'z3'
+
+[[package]]
+channel = 'debian'
+name = 'z3'
+
+[[package]]
+channel = 'fedora'
+name = 'z3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/z3'

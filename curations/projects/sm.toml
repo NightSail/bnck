@@ -1,0 +1,8 @@
+id = 'sm'
+name = 'sm'
+
+homepage = 'https://www.joachim-breitner.de/en/projects'
+
+[[package]]
+channel = 'debian'
+name = 'sm'

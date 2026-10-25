@@ -1,0 +1,8 @@
+id = 'parsec-tool'
+name = 'parsec-tool'
+
+homepage = 'https://github.com/parallaxsecond/parsec-tool'
+
+[[package]]
+channel = 'debian'
+name = 'parsec-tool'

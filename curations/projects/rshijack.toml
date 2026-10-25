@@ -1,0 +1,12 @@
+id = 'rshijack'
+name = 'rshijack'
+
+homepage = 'https://github.com/kpcyrd/rshijack'
+
+[[package]]
+channel = 'arch'
+name = 'rshijack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rshijack'

@@ -1,0 +1,8 @@
+id = 'python3-owl-rl'
+name = 'python3-owl_rl'
+
+homepage = 'https://github.com/RDFLib/OWL-RL'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-owl_rl'

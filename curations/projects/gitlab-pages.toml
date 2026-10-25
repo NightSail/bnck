@@ -1,0 +1,8 @@
+id = 'gitlab-pages'
+name = 'gitlab-pages'
+
+homepage = 'https://gitlab.com/gitlab-org/gitlab-pages'
+
+[[package]]
+channel = 'arch'
+name = 'gitlab-pages'

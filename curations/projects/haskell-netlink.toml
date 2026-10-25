@@ -1,0 +1,8 @@
+id = 'haskell-netlink'
+name = 'haskell-netlink'
+
+homepage = 'https://github.com/Ongy/netlink-hs'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-netlink'

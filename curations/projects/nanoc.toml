@@ -1,0 +1,8 @@
+id = 'nanoc'
+name = 'nanoc'
+
+homepage = 'https://nanoc.ws'
+
+[[package]]
+channel = 'debian'
+name = 'nanoc'

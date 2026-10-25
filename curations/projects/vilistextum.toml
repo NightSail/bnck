@@ -1,0 +1,12 @@
+id = 'vilistextum'
+name = 'vilistextum'
+
+homepage = 'https://bhaak.net/vilistextum'
+
+[[package]]
+channel = 'debian'
+name = 'vilistextum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vilistextum'

@@ -1,0 +1,8 @@
+id = 'hexagonrpcd'
+name = 'hexagonrpcd'
+
+homepage = 'https://github.com/linux-msm/hexagonrpc'
+
+[[package]]
+channel = 'debian'
+name = 'hexagonrpcd'

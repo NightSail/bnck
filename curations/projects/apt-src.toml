@@ -1,0 +1,6 @@
+id = 'apt-src'
+name = 'apt-src'
+
+[[package]]
+channel = 'debian'
+name = 'apt-src'

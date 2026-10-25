@@ -1,0 +1,9 @@
+id = 'libbluray'
+name = 'libbluray'
+
+homepage = 'https://www.videolan.org/developers/libbluray.html'
+repository = 'https://code.videolan.org/videolan/libbluray.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libbluray'

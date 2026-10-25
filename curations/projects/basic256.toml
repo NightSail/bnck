@@ -1,0 +1,8 @@
+id = 'basic256'
+name = 'basic256'
+
+homepage = 'https://www.basic256.org'
+
+[[package]]
+channel = 'debian'
+name = 'basic256'

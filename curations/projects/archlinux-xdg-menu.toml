@@ -1,0 +1,8 @@
+id = 'archlinux-xdg-menu'
+name = 'archlinux-xdg-menu'
+
+homepage = 'https://wiki.archlinux.org/index.php/XdgMenu'
+
+[[package]]
+channel = 'arch'
+name = 'archlinux-xdg-menu'

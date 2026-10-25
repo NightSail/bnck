@@ -1,0 +1,8 @@
+id = 'bashbro'
+name = 'bashbro'
+
+homepage = 'https://github.com/victrixsoft/bashbro'
+
+[[package]]
+channel = 'debian'
+name = 'bashbro'

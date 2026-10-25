@@ -1,0 +1,8 @@
+id = 'helm-docs'
+name = 'helm-docs'
+
+repository = 'https://github.com/norwoodj/helm-docs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helm-docs'

@@ -1,0 +1,8 @@
+id = 'mhc-utils'
+name = 'mhc-utils'
+
+homepage = 'https://www.quickhack.net/mhc'
+
+[[package]]
+channel = 'debian'
+name = 'mhc-utils'

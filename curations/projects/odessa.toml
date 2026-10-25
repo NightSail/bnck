@@ -1,0 +1,12 @@
+id = 'odessa'
+name = 'odessa'
+
+homepage = 'https://sf.net/projects/odessa'
+
+[[package]]
+channel = 'debian'
+name = 'pasco'
+
+[[package]]
+channel = 'debian'
+name = 'rifiuti'

@@ -1,0 +1,13 @@
+id = 'languagetool'
+name = 'languagetool'
+
+homepage = 'https://www.languagetool.org'
+repository = 'https://github.com/languagetool-org/languagetool.git'
+
+[[package]]
+channel = 'arch'
+name = 'languagetool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/languagetool'

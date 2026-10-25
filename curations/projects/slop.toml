@@ -1,0 +1,16 @@
+id = 'slop'
+name = 'slop'
+
+homepage = 'https://github.com/naelstrof/slop'
+
+[[package]]
+channel = 'arch'
+name = 'slop'
+
+[[package]]
+channel = 'debian'
+name = 'slop'
+
+[[package]]
+channel = 'fedora'
+name = 'slop'

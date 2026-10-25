@@ -1,0 +1,8 @@
+id = 'odin2-synthesizer-standalone'
+name = 'odin2-synthesizer-standalone'
+
+homepage = 'https://www.thewavewarden.com/odin2'
+
+[[package]]
+channel = 'arch'
+name = 'odin2-synthesizer-standalone'

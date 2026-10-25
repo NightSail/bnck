@@ -1,0 +1,12 @@
+id = 'acct'
+name = 'acct'
+
+homepage = 'https://www.gnu.org/software/acct'
+
+[[package]]
+channel = 'debian'
+name = 'acct'
+
+[[package]]
+channel = 'fedora'
+name = 'psacct'

@@ -4,5 +4,9 @@ name = 'rustcat'
 repository = 'https://github.com/robiot/rustcat'
 
 [[package]]
+channel = 'fedora'
+name = 'rustcat'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/rustcat'

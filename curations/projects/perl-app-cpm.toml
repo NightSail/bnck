@@ -1,0 +1,8 @@
+id = 'perl-app-cpm'
+name = 'perl-App-cpm'
+
+homepage = 'https://metacpan.org/release/App-cpm'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-cpm'

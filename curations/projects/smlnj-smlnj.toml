@@ -1,0 +1,9 @@
+id = 'smlnj-smlnj'
+name = 'smlnj'
+
+homepage = 'https://www.smlnj.org'
+repository = 'https://github.com/smlnj/smlnj.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smlnj'

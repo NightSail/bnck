@@ -1,0 +1,8 @@
+id = 'imaprowl'
+name = 'imaprowl'
+
+homepage = 'http://github.com/takuo/IMAProwl'
+
+[[package]]
+channel = 'debian'
+name = 'imaprowl'

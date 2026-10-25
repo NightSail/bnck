@@ -1,0 +1,8 @@
+id = 'python3-xlsxwriter'
+name = 'python3-xlsxwriter'
+
+homepage = 'https://pypi.python.org/pypi/XlsxWriter'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xlsxwriter'

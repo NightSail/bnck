@@ -1,0 +1,13 @@
+id = 'krew'
+name = 'krew'
+
+homepage = 'https://sigs.k8s.io/krew'
+repository = 'https://github.com/kubernetes-sigs/krew.git'
+
+[[package]]
+channel = 'arch'
+name = 'krew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/krew'

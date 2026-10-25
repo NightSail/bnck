@@ -1,0 +1,12 @@
+id = 'radamsa'
+name = 'radamsa'
+
+homepage = 'https://gitlab.com/akihe/radamsa'
+
+[[package]]
+channel = 'arch'
+name = 'radamsa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/radamsa'

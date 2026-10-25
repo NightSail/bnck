@@ -1,0 +1,8 @@
+id = 'gitlab-release-cli'
+name = 'gitlab-release-cli'
+
+repository = 'https://gitlab.com/gitlab-org/release-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitlab-release-cli'

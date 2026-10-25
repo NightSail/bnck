@@ -1,0 +1,17 @@
+id = 'geoipupdate'
+name = 'geoipupdate'
+
+homepage = 'http://dev.maxmind.com/geoip/geoipupdate'
+repository = 'https://github.com/maxmind/geoipupdate.git'
+
+[[package]]
+channel = 'arch'
+name = 'geoipupdate'
+
+[[package]]
+channel = 'fedora'
+name = 'geoipupdate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geoipupdate'

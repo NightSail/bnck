@@ -1,0 +1,8 @@
+id = 'action-docs'
+name = 'action-docs'
+
+homepage = 'https://github.com/npalm/action-docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/action-docs'

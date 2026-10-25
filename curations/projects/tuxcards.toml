@@ -1,0 +1,8 @@
+id = 'tuxcards'
+name = 'tuxcards'
+
+homepage = 'https://www.tuxcards.de'
+
+[[package]]
+channel = 'arch'
+name = 'tuxcards'

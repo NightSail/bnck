@@ -1,0 +1,6 @@
+id = 'lomiri-printing-app'
+name = 'lomiri-printing-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-printing-app'

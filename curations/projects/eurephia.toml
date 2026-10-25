@@ -1,0 +1,8 @@
+id = 'eurephia'
+name = 'eurephia'
+
+homepage = 'http://www.eurephia.net'
+
+[[package]]
+channel = 'debian'
+name = 'eurephia'

@@ -1,0 +1,8 @@
+id = 'console-cyrillic'
+name = 'console-cyrillic'
+
+homepage = 'https://web.archive.org/web/20050212121905/http://www.45.free.net/~vitus/ice/works/unix.html'
+
+[[package]]
+channel = 'debian'
+name = 'console-cyrillic'

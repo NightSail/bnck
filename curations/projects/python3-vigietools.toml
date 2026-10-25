@@ -1,0 +1,8 @@
+id = 'python3-vigietools'
+name = 'python3-vigietools'
+
+homepage = 'https://salsa.debian.org/openstack-team/libs/python-vigietools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-vigietools'

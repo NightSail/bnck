@@ -1,0 +1,8 @@
+id = 'fonts-compare'
+name = 'fonts-compare'
+
+homepage = 'https://github.com/sudipshil9862/fonts-compare'
+
+[[package]]
+channel = 'fedora'
+name = 'fonts-compare'

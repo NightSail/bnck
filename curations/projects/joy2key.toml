@@ -1,0 +1,8 @@
+id = 'joy2key'
+name = 'joy2key'
+
+homepage = 'https://github.com/joolswills/joy2key'
+
+[[package]]
+channel = 'debian'
+name = 'joy2key'

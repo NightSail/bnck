@@ -1,0 +1,8 @@
+id = 'cppcms'
+name = 'cppcms'
+
+homepage = 'http://cppcms.com/wikipp/en/page/main'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cppcms'

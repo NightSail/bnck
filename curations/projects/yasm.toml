@@ -1,0 +1,21 @@
+id = 'yasm'
+name = 'yasm'
+
+homepage = 'http://yasm.tortall.net'
+repository = 'https://github.com/yasm/yasm.git'
+
+[[package]]
+channel = 'arch'
+name = 'yasm'
+
+[[package]]
+channel = 'debian'
+name = 'yasm'
+
+[[package]]
+channel = 'fedora'
+name = 'yasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yasm'

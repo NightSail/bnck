@@ -1,0 +1,8 @@
+id = '3d-ascii-viewer'
+name = '3d-ascii-viewer'
+
+homepage = 'https://github.com/autopawn/3d-ascii-viewer-c'
+
+[[package]]
+channel = 'debian'
+name = '3d-ascii-viewer'

@@ -1,0 +1,8 @@
+id = 'trocla'
+name = 'trocla'
+
+homepage = 'https://github.com/duritong/trocla'
+
+[[package]]
+channel = 'debian'
+name = 'trocla'

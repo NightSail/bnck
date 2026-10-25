@@ -1,0 +1,8 @@
+id = 'kanjidraw'
+name = 'kanjidraw'
+
+homepage = 'https://github.com/obfusk/kanjidraw'
+
+[[package]]
+channel = 'debian'
+name = 'kanjidraw'

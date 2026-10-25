@@ -1,0 +1,8 @@
+id = 'magics-display'
+name = 'magics'
+
+homepage = 'https://confluence.ecmwf.int/display/MAGP/Magics'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/magics'

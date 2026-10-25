@@ -1,0 +1,8 @@
+id = 'filius'
+name = 'filius'
+
+homepage = 'https://www.lernsoftware-filius.de'
+
+[[package]]
+channel = 'debian'
+name = 'filius'

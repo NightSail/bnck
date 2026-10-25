@@ -1,0 +1,12 @@
+id = 'ksmtuned'
+name = 'ksmtuned'
+
+homepage = 'https://github.com/ksmtuned/ksmtuned'
+
+[[package]]
+channel = 'debian'
+name = 'ksmtuned'
+
+[[package]]
+channel = 'fedora'
+name = 'ksmtuned'

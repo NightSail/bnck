@@ -1,0 +1,12 @@
+id = 'cargo-all-features'
+name = 'cargo-all-features'
+
+repository = 'https://github.com/frewsxcv/cargo-all-features.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-all-features'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-all-features'

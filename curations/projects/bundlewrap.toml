@@ -1,0 +1,8 @@
+id = 'bundlewrap'
+name = 'bundlewrap'
+
+homepage = 'http://bundlewrap.org'
+
+[[package]]
+channel = 'debian'
+name = 'bundlewrap'

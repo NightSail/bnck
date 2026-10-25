@@ -1,0 +1,8 @@
+id = 'faketty'
+name = 'faketty'
+
+repository = 'https://github.com/dtolnay/faketty.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faketty'

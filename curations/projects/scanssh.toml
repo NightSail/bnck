@@ -1,0 +1,12 @@
+id = 'scanssh'
+name = 'scanssh'
+
+homepage = 'https://github.com/ofalk/scanssh'
+
+[[package]]
+channel = 'debian'
+name = 'scanssh'
+
+[[package]]
+channel = 'fedora'
+name = 'scanssh'

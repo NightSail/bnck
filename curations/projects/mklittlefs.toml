@@ -1,0 +1,8 @@
+id = 'mklittlefs'
+name = 'mklittlefs'
+
+homepage = 'https://github.com/earlephilhower/mklittlefs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mklittlefs'

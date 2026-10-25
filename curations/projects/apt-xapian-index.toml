@@ -1,0 +1,8 @@
+id = 'apt-xapian-index'
+name = 'apt-xapian-index'
+
+homepage = 'https://salsa.debian.org/debian/apt-xapian-index'
+
+[[package]]
+channel = 'debian'
+name = 'apt-xapian-index'

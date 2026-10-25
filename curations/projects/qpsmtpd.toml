@@ -1,0 +1,8 @@
+id = 'qpsmtpd'
+name = 'qpsmtpd'
+
+homepage = 'http://smtpd.develooper.com'
+
+[[package]]
+channel = 'debian'
+name = 'qpsmtpd'

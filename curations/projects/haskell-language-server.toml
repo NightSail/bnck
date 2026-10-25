@@ -1,0 +1,12 @@
+id = 'haskell-language-server'
+name = 'haskell-language-server'
+
+repository = 'https://github.com/haskell/haskell-language-server.git'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haskell-language-server'

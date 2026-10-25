@@ -1,0 +1,8 @@
+id = 'python3-apycula'
+name = 'python3-apycula'
+
+homepage = 'https://github.com/YosysHQ/apicula'
+
+[[package]]
+channel = 'debian'
+name = 'python3-apycula'

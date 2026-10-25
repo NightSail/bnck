@@ -1,0 +1,12 @@
+id = 'vcstool'
+name = 'vcstool'
+
+homepage = 'https://github.com/dirk-thomas/vcstool'
+
+[[package]]
+channel = 'debian'
+name = 'vcstool'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vcstool'

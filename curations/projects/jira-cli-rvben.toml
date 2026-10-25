@@ -1,0 +1,8 @@
+id = 'jira-cli-rvben'
+name = 'jira-cli'
+
+repository = 'https://github.com/rvben/jira-cli'
+
+[[package]]
+channel = 'crates.io'
+name = 'jira-cli'

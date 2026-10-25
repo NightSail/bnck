@@ -1,0 +1,9 @@
+id = 'license-eye'
+name = 'license-eye'
+
+homepage = 'https://skywalking.apache.org'
+repository = 'https://github.com/apache/skywalking-eyes.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/license-eye'

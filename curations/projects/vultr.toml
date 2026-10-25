@@ -1,0 +1,8 @@
+id = 'vultr'
+name = 'vultr'
+
+homepage = 'https://github.com/JamesClonk/vultr'
+
+[[package]]
+channel = 'fedora'
+name = 'vultr'

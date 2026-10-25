@@ -1,0 +1,8 @@
+id = 'desktop-autoloader'
+name = 'desktop-autoloader'
+
+homepage = 'https://code.it-zukunft-schule.de/cgit/desktop-autoloader/about'
+
+[[package]]
+channel = 'debian'
+name = 'desktop-autoloader'

@@ -1,0 +1,8 @@
+id = 'virtme'
+name = 'virtme'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/kernel/virtme/virtme.git'
+
+[[package]]
+channel = 'debian'
+name = 'virtme'

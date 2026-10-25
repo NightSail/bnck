@@ -1,0 +1,12 @@
+id = 'ananta'
+name = 'ananta'
+
+homepage = 'https://sr.ht/~cwt/ananta'
+
+[[package]]
+channel = 'arch'
+name = 'ananta'
+
+[[package]]
+channel = 'debian'
+name = 'ananta'

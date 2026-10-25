@@ -1,0 +1,21 @@
+id = 'verilator'
+name = 'verilator'
+
+homepage = 'https://www.veripool.org/verilator'
+repository = 'https://github.com/verilator/verilator.git'
+
+[[package]]
+channel = 'arch'
+name = 'verilator'
+
+[[package]]
+channel = 'debian'
+name = 'verilator'
+
+[[package]]
+channel = 'fedora'
+name = 'verilator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/verilator'

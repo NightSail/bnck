@@ -1,0 +1,9 @@
+id = 'apache-arrow'
+name = 'apache-arrow'
+
+homepage = 'https://arrow.apache.org'
+repository = 'https://github.com/apache/arrow.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-arrow'

@@ -1,0 +1,12 @@
+id = 'svglib'
+name = 'svglib'
+
+homepage = 'https://github.com/deeplook/svglib'
+
+[[package]]
+channel = 'arch'
+name = 'python-svglib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-svglib'

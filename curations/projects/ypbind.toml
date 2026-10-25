@@ -1,0 +1,8 @@
+id = 'ypbind'
+name = 'ypbind'
+
+homepage = 'https://www.thkukuk.de/nis/nis/ypbind-mt'
+
+[[package]]
+channel = 'fedora'
+name = 'ypbind'

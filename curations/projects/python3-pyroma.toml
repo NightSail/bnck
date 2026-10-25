@@ -1,0 +1,8 @@
+id = 'python3-pyroma'
+name = 'python3-pyroma'
+
+homepage = 'https://github.com/regebro/pyroma'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyroma'

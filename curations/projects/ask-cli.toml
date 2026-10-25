@@ -1,0 +1,8 @@
+id = 'ask-cli'
+name = 'ask-cli'
+
+homepage = 'https://developer.amazon.com/en-US/docs/alexa/smapi/ask-cli-intro.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ask-cli'

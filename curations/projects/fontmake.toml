@@ -1,0 +1,12 @@
+id = 'fontmake'
+name = 'fontmake'
+
+homepage = 'https://github.com/googlefonts/fontmake'
+
+[[package]]
+channel = 'debian'
+name = 'fontmake'
+
+[[package]]
+channel = 'fedora'
+name = 'fontmake'

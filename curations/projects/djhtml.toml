@@ -1,0 +1,8 @@
+id = 'djhtml'
+name = 'djhtml'
+
+homepage = 'https://github.com/rtts/djhtml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djhtml'

@@ -1,0 +1,8 @@
+id = 'prometheus-unbound-exporter'
+name = 'prometheus-unbound-exporter'
+
+homepage = 'https://github.com/letsencrypt/unbound_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-unbound-exporter'

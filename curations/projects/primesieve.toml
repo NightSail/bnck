@@ -1,0 +1,20 @@
+id = 'primesieve'
+name = 'primesieve'
+
+homepage = 'https://github.com/kimwalisch/primesieve'
+
+[[package]]
+channel = 'arch'
+name = 'primesieve'
+
+[[package]]
+channel = 'debian'
+name = 'primesieve-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'primesieve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/primesieve'

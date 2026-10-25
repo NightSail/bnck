@@ -9,8 +9,12 @@ name = 'rustscan'
 
 [[package]]
 channel = 'crates.io'
-name = 'rustscan'
+name = 'myrustscan'
 
 [[package]]
 channel = 'crates.io'
-name = 'myrustscan'
+name = 'rustscan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustscan'

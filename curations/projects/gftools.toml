@@ -1,0 +1,8 @@
+id = 'gftools'
+name = 'gftools'
+
+homepage = 'https://github.com/googlefonts/gftools'
+
+[[package]]
+channel = 'debian'
+name = 'gftools'

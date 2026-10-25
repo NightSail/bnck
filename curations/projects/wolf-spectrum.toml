@@ -1,0 +1,8 @@
+id = 'wolf-spectrum'
+name = 'wolf-spectrum'
+
+homepage = 'https://github.com/pdesaulniers/wolf-spectrum'
+
+[[package]]
+channel = 'arch'
+name = 'wolf-spectrum'

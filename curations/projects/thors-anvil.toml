@@ -1,0 +1,8 @@
+id = 'thors-anvil'
+name = 'thors-anvil'
+
+repository = 'https://github.com/Loki-Astari/ThorsAnvil.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/thors-anvil'

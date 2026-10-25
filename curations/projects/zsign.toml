@@ -1,0 +1,8 @@
+id = 'zsign'
+name = 'zsign'
+
+repository = 'https://github.com/zhlynn/zsign.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsign'

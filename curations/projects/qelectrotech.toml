@@ -1,0 +1,12 @@
+id = 'qelectrotech'
+name = 'qelectrotech'
+
+homepage = 'https://qelectrotech.org'
+
+[[package]]
+channel = 'debian'
+name = 'qelectrotech'
+
+[[package]]
+channel = 'fedora'
+name = 'qelectrotech'

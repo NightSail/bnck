@@ -1,0 +1,8 @@
+id = 'boringtun'
+name = 'boringtun'
+
+repository = 'https://github.com/cloudflare/boringtun.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boringtun'

@@ -1,0 +1,8 @@
+id = 'python-pcpp'
+name = 'python-pcpp'
+
+homepage = 'https://github.com/ned14/pcpp'
+
+[[package]]
+channel = 'arch'
+name = 'python-pcpp'

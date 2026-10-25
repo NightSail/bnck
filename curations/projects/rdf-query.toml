@@ -1,0 +1,12 @@
+id = 'rdf-query'
+name = 'RDF-Query'
+
+homepage = 'https://metacpan.org/release/RDF-Query'
+
+[[package]]
+channel = 'debian'
+name = 'librdf-query-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-RDF-Query'

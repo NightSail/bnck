@@ -1,0 +1,16 @@
+id = 'cargo-binutils'
+name = 'cargo-binutils'
+
+repository = 'https://github.com/rust-embedded/cargo-binutils.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-binutils'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-binutils'

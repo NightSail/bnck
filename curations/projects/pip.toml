@@ -1,0 +1,12 @@
+id = 'pip'
+name = 'pip'
+
+homepage = 'https://pip.pypa.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-pip'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pip'

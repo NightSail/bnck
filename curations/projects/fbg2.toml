@@ -1,0 +1,8 @@
+id = 'fbg2'
+name = 'fbg2'
+
+homepage = 'http://sourceforge.net/projects/fbg'
+
+[[package]]
+channel = 'fedora'
+name = 'fbg2'

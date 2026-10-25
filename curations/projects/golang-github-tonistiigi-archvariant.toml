@@ -1,0 +1,8 @@
+id = 'golang-github-tonistiigi-archvariant'
+name = 'golang-github-tonistiigi-archvariant'
+
+homepage = 'https://github.com/tonistiigi/go-archvariant'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-tonistiigi-archvariant'

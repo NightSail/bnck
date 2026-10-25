@@ -1,0 +1,8 @@
+id = 'ssllabs-scan'
+name = 'ssllabs-scan'
+
+homepage = 'https://www.ssllabs.com/projects/ssllabs-apis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssllabs-scan'

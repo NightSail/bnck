@@ -1,0 +1,8 @@
+id = 'dnsrecon'
+name = 'dnsrecon'
+
+homepage = 'https://github.com/darkoperator/dnsrecon'
+
+[[package]]
+channel = 'debian'
+name = 'dnsrecon'

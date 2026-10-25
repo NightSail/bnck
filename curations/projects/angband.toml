@@ -1,0 +1,17 @@
+id = 'angband'
+name = 'angband'
+
+homepage = 'https://rephial.org'
+repository = 'https://github.com/angband/angband.git'
+
+[[package]]
+channel = 'arch'
+name = 'angband'
+
+[[package]]
+channel = 'fedora'
+name = 'angband'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/angband'

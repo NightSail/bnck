@@ -1,0 +1,8 @@
+id = 'chopper'
+name = 'chopper'
+
+repository = 'https://github.com/wdecoster/chopper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chopper'

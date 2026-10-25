@@ -1,0 +1,8 @@
+id = 'rust-parallel'
+name = 'rust-parallel'
+
+homepage = 'https://github.com/aaronriekenberg/rust-parallel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rust-parallel'

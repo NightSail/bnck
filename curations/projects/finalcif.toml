@@ -1,0 +1,8 @@
+id = 'finalcif'
+name = 'finalcif'
+
+homepage = 'https://dkratzert.de/finalcif.html'
+
+[[package]]
+channel = 'debian'
+name = 'finalcif'

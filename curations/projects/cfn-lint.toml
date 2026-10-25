@@ -1,0 +1,12 @@
+id = 'cfn-lint'
+name = 'cfn-lint'
+
+homepage = 'https://github.com/aws-cloudformation/cfn-lint'
+
+[[package]]
+channel = 'arch'
+name = 'python-cfn-lint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfn-lint'

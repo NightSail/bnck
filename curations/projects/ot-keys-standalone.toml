@@ -1,0 +1,8 @@
+id = 'ot-keys-standalone'
+name = 'ot-keys-standalone'
+
+homepage = 'https://punklabs.com/ot-keys'
+
+[[package]]
+channel = 'arch'
+name = 'ot-keys-standalone'

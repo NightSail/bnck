@@ -1,0 +1,12 @@
+id = 'fstransform'
+name = 'fstransform'
+
+homepage = 'https://github.com/cosmos72/fstransform'
+
+[[package]]
+channel = 'debian'
+name = 'fstransform'
+
+[[package]]
+channel = 'fedora'
+name = 'fstransform'

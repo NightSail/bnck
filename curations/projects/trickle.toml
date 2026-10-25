@@ -1,0 +1,8 @@
+id = 'trickle'
+name = 'trickle'
+
+homepage = 'https://github.com/mariusae/trickle'
+
+[[package]]
+channel = 'debian'
+name = 'trickle'

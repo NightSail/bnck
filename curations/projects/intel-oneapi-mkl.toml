@@ -1,0 +1,8 @@
+id = 'intel-oneapi-mkl'
+name = 'intel-oneapi-mkl'
+
+homepage = 'https://software.intel.com/content/www/us/en/develop/tools/oneapi.html'
+
+[[package]]
+channel = 'arch'
+name = 'intel-oneapi-mkl'

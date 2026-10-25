@@ -1,0 +1,12 @@
+id = 'netconsd'
+name = 'netconsd'
+
+homepage = 'https://facebookmicrosites.github.io/netconsd'
+
+[[package]]
+channel = 'debian'
+name = 'netconsd'
+
+[[package]]
+channel = 'fedora'
+name = 'netconsd'

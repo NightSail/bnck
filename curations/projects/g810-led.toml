@@ -1,0 +1,8 @@
+id = 'g810-led'
+name = 'g810-led'
+
+homepage = 'https://github.com/MatMoul/g810-led'
+
+[[package]]
+channel = 'debian'
+name = 'g810-led'

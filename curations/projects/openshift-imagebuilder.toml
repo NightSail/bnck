@@ -1,0 +1,8 @@
+id = 'openshift-imagebuilder'
+name = 'openshift-imagebuilder'
+
+homepage = 'https://github.com/openshift/imagebuilder'
+
+[[package]]
+channel = 'debian'
+name = 'openshift-imagebuilder'

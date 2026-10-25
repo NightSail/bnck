@@ -1,0 +1,8 @@
+id = 'yconalyzer'
+name = 'yconalyzer'
+
+homepage = 'https://sourceforge.net/projects/yconalyzer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yconalyzer'

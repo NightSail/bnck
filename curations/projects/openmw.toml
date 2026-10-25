@@ -1,0 +1,20 @@
+id = 'openmw'
+name = 'openmw'
+
+homepage = 'http://www.openmw.org'
+
+[[package]]
+channel = 'arch'
+name = 'openmw'
+
+[[package]]
+channel = 'fedora'
+name = 'openmw'
+
+[[package]]
+channel = 'fedora'
+name = 'openmw-cs'
+
+[[package]]
+channel = 'fedora'
+name = 'openmw-tools'

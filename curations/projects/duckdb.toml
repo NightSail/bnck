@@ -1,0 +1,17 @@
+id = 'duckdb'
+name = 'duckdb'
+
+homepage = 'https://www.duckdb.org'
+repository = 'https://github.com/duckdb/duckdb.git'
+
+[[package]]
+channel = 'arch'
+name = 'duckdb'
+
+[[package]]
+channel = 'debian'
+name = 'duckdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duckdb'

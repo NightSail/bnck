@@ -1,0 +1,12 @@
+id = 'videos'
+name = 'Videos'
+
+homepage = 'https://wiki.gnome.org/Apps/Videos'
+
+[[package]]
+channel = 'fedora'
+name = 'totem'
+
+[[package]]
+channel = 'fedora'
+name = 'totem-video-thumbnailer'

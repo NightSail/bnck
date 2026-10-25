@@ -1,0 +1,32 @@
+id = 'linux-sgx'
+name = 'linux-sgx'
+
+homepage = 'https://github.com/intel/linux-sgx'
+
+[[package]]
+channel = 'fedora'
+name = 'sgx-aesm'
+
+[[package]]
+channel = 'fedora'
+name = 'sgx-enclave-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'sgx-mpa'
+
+[[package]]
+channel = 'fedora'
+name = 'sgx-pccs'
+
+[[package]]
+channel = 'fedora'
+name = 'sgx-pccs-admin'
+
+[[package]]
+channel = 'fedora'
+name = 'sgx-pckid-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'tdx-qgs'

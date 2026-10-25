@@ -1,0 +1,8 @@
+id = 'lprng'
+name = 'lprng'
+
+homepage = 'http://lprng.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'lprng'

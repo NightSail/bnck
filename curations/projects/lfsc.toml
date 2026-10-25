@@ -1,0 +1,8 @@
+id = 'lfsc'
+name = 'lfsc'
+
+homepage = 'https://github.com/cvc5/LFSC'
+
+[[package]]
+channel = 'fedora'
+name = 'lfsc'

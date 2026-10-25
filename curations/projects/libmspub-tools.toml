@@ -1,0 +1,6 @@
+id = 'libmspub-tools'
+name = 'libmspub-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libmspub-tools'

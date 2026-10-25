@@ -1,0 +1,8 @@
+id = 'fastx-toolkit'
+name = 'fastx_toolkit'
+
+homepage = 'http://hannonlab.cshl.edu/fastx_toolkit/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'fastx_toolkit'

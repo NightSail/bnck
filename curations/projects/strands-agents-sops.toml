@@ -1,0 +1,9 @@
+id = 'strands-agents-sops'
+name = 'strands-agents-sops'
+
+homepage = 'https://aws.amazon.com/blogs/opensource/introducing-strands-agent-sops-natural-language-workflows-for-ai-agents'
+repository = 'https://github.com/strands-agents/agent-sop.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/strands-agents-sops'

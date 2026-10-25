@@ -1,0 +1,12 @@
+id = 'xtitle'
+name = 'xtitle'
+
+homepage = 'https://kinzler.com/me/xtitle'
+
+[[package]]
+channel = 'debian'
+name = 'xtitle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xtitle'

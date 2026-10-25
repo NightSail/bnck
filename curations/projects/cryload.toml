@@ -1,0 +1,8 @@
+id = 'cryload'
+name = 'cryload'
+
+homepage = 'https://github.com/sdogruyol/cryload'
+
+[[package]]
+channel = 'arch'
+name = 'cryload'

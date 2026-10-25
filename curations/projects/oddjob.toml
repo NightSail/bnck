@@ -1,0 +1,12 @@
+id = 'oddjob'
+name = 'oddjob'
+
+homepage = 'https://pagure.io/oddjob'
+
+[[package]]
+channel = 'debian'
+name = 'oddjob'
+
+[[package]]
+channel = 'fedora'
+name = 'oddjob'

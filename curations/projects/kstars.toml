@@ -1,0 +1,16 @@
+id = 'kstars'
+name = 'kstars'
+
+homepage = 'https://kstars.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'kstars'
+
+[[package]]
+channel = 'debian'
+name = 'kstars'
+
+[[package]]
+channel = 'fedora'
+name = 'kstars'

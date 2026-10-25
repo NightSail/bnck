@@ -1,0 +1,16 @@
+id = 'cpuinfo'
+name = 'cpuinfo'
+
+homepage = 'https://github.com/pytorch/cpuinfo'
+
+[[package]]
+channel = 'arch'
+name = 'cpuinfo'
+
+[[package]]
+channel = 'debian'
+name = 'cpuinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'cpuinfo'

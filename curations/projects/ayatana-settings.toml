@@ -1,0 +1,8 @@
+id = 'ayatana-settings'
+name = 'ayatana-settings'
+
+homepage = 'https://github.com/AyatanaIndicators/ayatana-settings'
+
+[[package]]
+channel = 'debian'
+name = 'ayatana-settings'

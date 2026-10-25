@@ -1,0 +1,8 @@
+id = 'ccat'
+name = 'ccat'
+
+repository = 'https://github.com/owenthereal/ccat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccat'

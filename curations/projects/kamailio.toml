@@ -1,0 +1,12 @@
+id = 'kamailio'
+name = 'kamailio'
+
+homepage = 'https://www.kamailio.org'
+
+[[package]]
+channel = 'debian'
+name = 'kamailio'
+
+[[package]]
+channel = 'debian'
+name = 'kamailio-berkeley-bin'

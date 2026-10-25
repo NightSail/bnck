@@ -1,0 +1,8 @@
+id = 'myrepos-joeyh'
+name = 'myrepos'
+
+homepage = 'https://github.com/joeyh/myrepos'
+
+[[package]]
+channel = 'fedora'
+name = 'myrepos'

@@ -1,0 +1,20 @@
+id = 'exempi'
+name = 'exempi'
+
+homepage = 'https://libopenraw.freedesktop.org/exempi'
+
+[[package]]
+channel = 'arch'
+name = 'exempi'
+
+[[package]]
+channel = 'debian'
+name = 'exempi'
+
+[[package]]
+channel = 'fedora'
+name = 'exempi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exempi'

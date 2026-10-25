@@ -1,0 +1,12 @@
+id = 'molecule'
+name = 'molecule'
+
+homepage = 'https://molecule.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'molecule'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/molecule'

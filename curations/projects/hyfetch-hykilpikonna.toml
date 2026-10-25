@@ -1,0 +1,8 @@
+id = 'hyfetch-hykilpikonna'
+name = 'hyfetch'
+
+repository = 'https://github.com/hykilpikonna/hyfetch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hyfetch'

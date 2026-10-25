@@ -1,0 +1,8 @@
+id = 'gkermit'
+name = 'gkermit'
+
+homepage = 'https://www.kermitproject.org/gkermit.html'
+
+[[package]]
+channel = 'debian'
+name = 'gkermit'

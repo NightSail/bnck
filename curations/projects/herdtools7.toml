@@ -1,0 +1,8 @@
+id = 'herdtools7'
+name = 'herdtools7'
+
+homepage = 'https://github.com/herd/herdtools7'
+
+[[package]]
+channel = 'debian'
+name = 'herdtools7'

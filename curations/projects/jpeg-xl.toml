@@ -1,0 +1,8 @@
+id = 'jpeg-xl'
+name = 'jpeg-xl'
+
+homepage = 'https://jpeg.org/jpegxl/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpeg-xl'

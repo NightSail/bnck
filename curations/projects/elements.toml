@@ -1,0 +1,8 @@
+id = 'elements'
+name = 'elements'
+
+homepage = 'https://github.com/degauden/Elements.git'
+
+[[package]]
+channel = 'fedora'
+name = 'elements'

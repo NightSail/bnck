@@ -1,0 +1,8 @@
+id = 'ostrichriders'
+name = 'ostrichriders'
+
+homepage = 'http://www.identicalsoftware.com/ostrichriders'
+
+[[package]]
+channel = 'fedora'
+name = 'ostrichriders'

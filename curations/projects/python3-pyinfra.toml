@@ -1,0 +1,8 @@
+id = 'python3-pyinfra'
+name = 'python3-pyinfra'
+
+homepage = 'https://pyinfra.com'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyinfra'

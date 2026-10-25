@@ -1,0 +1,8 @@
+id = 'runst'
+name = 'runst'
+
+homepage = 'https://github.com/orhun/runst'
+
+[[package]]
+channel = 'arch'
+name = 'runst'

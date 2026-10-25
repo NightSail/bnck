@@ -1,0 +1,12 @@
+id = 'lxqt-admin'
+name = 'lxqt-admin'
+
+homepage = 'https://github.com/lxqt/lxqt-admin'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-admin'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-admin'

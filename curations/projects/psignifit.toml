@@ -1,0 +1,8 @@
+id = 'psignifit'
+name = 'psignifit'
+
+homepage = 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/neuronale-informationsverarbeitung/research/software/psignifit-legacy'
+
+[[package]]
+channel = 'debian'
+name = 'psignifit'

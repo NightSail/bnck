@@ -1,0 +1,9 @@
+id = 'opencl-icd-loader-khronosgroup'
+name = 'opencl-icd-loader'
+
+homepage = 'https://www.khronos.org/registry/OpenCL'
+repository = 'https://github.com/KhronosGroup/OpenCL-ICD-Loader.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencl-icd-loader'

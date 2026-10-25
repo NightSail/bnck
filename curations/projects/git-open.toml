@@ -1,0 +1,8 @@
+id = 'git-open'
+name = 'git-open'
+
+homepage = 'https://github.com/jeffreyiacono/git-open'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-open'

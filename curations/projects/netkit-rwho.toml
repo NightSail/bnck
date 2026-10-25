@@ -1,0 +1,10 @@
+id = 'netkit-rwho'
+name = 'netkit-rwho'
+
+[[package]]
+channel = 'debian'
+name = 'rwho'
+
+[[package]]
+channel = 'debian'
+name = 'rwhod'

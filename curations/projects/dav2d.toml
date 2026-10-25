@@ -1,0 +1,12 @@
+id = 'dav2d'
+name = 'dav2d'
+
+homepage = 'https://code.videolan.org/videolan/dav2d'
+
+[[package]]
+channel = 'arch'
+name = 'dav2d'
+
+[[package]]
+channel = 'debian'
+name = 'dav2d'

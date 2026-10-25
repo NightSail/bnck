@@ -1,0 +1,20 @@
+id = 'gitg'
+name = 'gitg'
+
+homepage = 'https://wiki.gnome.org/Apps/Gitg'
+
+[[package]]
+channel = 'arch'
+name = 'gitg'
+
+[[package]]
+channel = 'debian'
+name = 'gitg'
+
+[[package]]
+channel = 'fedora'
+name = 'gitg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitg'

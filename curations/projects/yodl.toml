@@ -1,0 +1,12 @@
+id = 'yodl'
+name = 'yodl'
+
+homepage = 'https://fbb-git.gitlab.io/yodl'
+
+[[package]]
+channel = 'arch'
+name = 'yodl'
+
+[[package]]
+channel = 'debian'
+name = 'yodl'

@@ -4,5 +4,13 @@ name = 'iw'
 homepage = 'https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html'
 
 [[package]]
+channel = 'arch'
+name = 'iw'
+
+[[package]]
+channel = 'debian'
+name = 'iw'
+
+[[package]]
 channel = 'fedora'
 name = 'iw'

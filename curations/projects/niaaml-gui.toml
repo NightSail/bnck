@@ -1,0 +1,8 @@
+id = 'niaaml-gui'
+name = 'NiaAML-GUI'
+
+homepage = 'https://github.com/firefly-cpp/NiaAML-GUI'
+
+[[package]]
+channel = 'fedora'
+name = 'NiaAML-GUI'

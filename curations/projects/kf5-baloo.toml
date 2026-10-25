@@ -1,0 +1,8 @@
+id = 'kf5-baloo'
+name = 'kf5-baloo'
+
+homepage = 'https://community.kde.org/Baloo'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-baloo'

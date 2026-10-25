@@ -1,0 +1,8 @@
+id = 'wmtv'
+name = 'wmtv'
+
+homepage = 'https://www.dockapps.net/wmtv'
+
+[[package]]
+channel = 'debian'
+name = 'wmtv'

@@ -1,0 +1,8 @@
+id = 'pithos'
+name = 'pithos'
+
+homepage = 'https://pithos.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'pithos'

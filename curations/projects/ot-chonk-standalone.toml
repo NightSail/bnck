@@ -1,0 +1,8 @@
+id = 'ot-chonk-standalone'
+name = 'ot-chonk-standalone'
+
+homepage = 'https://punklabs.com/ot-chonk'
+
+[[package]]
+channel = 'arch'
+name = 'ot-chonk-standalone'

@@ -1,0 +1,12 @@
+id = 'markdown-oxide'
+name = 'markdown-oxide'
+
+homepage = 'https://oxide.md'
+
+[[package]]
+channel = 'arch'
+name = 'markdown-oxide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/markdown-oxide'

@@ -1,0 +1,9 @@
+id = 'pear'
+name = 'pear'
+
+homepage = 'https://docs.pears.com'
+repository = 'https://github.com/holepunchto/pear.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pear'

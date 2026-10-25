@@ -1,0 +1,8 @@
+id = 'r2ghidra'
+name = 'r2ghidra'
+
+homepage = 'https://github.com/radareorg/r2ghidra'
+
+[[package]]
+channel = 'arch'
+name = 'r2ghidra'

@@ -1,0 +1,8 @@
+id = 'libraw1394-tools'
+name = 'libraw1394-tools'
+
+homepage = 'https://ieee1394.wiki.kernel.org'
+
+[[package]]
+channel = 'debian'
+name = 'libraw1394-tools'

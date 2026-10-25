@@ -1,0 +1,12 @@
+id = 'libnl'
+name = 'libnl'
+
+homepage = 'https://github.com/thom311/libnl'
+
+[[package]]
+channel = 'arch'
+name = 'libnl'
+
+[[package]]
+channel = 'debian'
+name = 'libnl-utils'

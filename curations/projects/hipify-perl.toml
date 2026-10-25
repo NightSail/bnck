@@ -1,0 +1,8 @@
+id = 'hipify-perl'
+name = 'hipify-perl'
+
+homepage = 'https://github.com/ROCm/HIPIFY'
+
+[[package]]
+channel = 'debian'
+name = 'hipify-perl'

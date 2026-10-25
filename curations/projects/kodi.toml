@@ -1,0 +1,44 @@
+id = 'kodi'
+name = 'kodi'
+
+homepage = 'https://kodi.tv'
+
+[[package]]
+channel = 'arch'
+name = 'kodi'
+
+[[package]]
+channel = 'arch'
+name = 'kodi-eventclients'
+
+[[package]]
+channel = 'arch'
+name = 'kodi-gles'
+
+[[package]]
+channel = 'arch'
+name = 'kodi-tools-texturepacker'
+
+[[package]]
+channel = 'debian'
+name = 'kodi'
+
+[[package]]
+channel = 'debian'
+name = 'kodi-addons-dev'
+
+[[package]]
+channel = 'debian'
+name = 'kodi-eventclients-kodi-send'
+
+[[package]]
+channel = 'debian'
+name = 'kodi-eventclients-ps3'
+
+[[package]]
+channel = 'debian'
+name = 'kodi-eventclients-wiiremote'
+
+[[package]]
+channel = 'debian'
+name = 'kodi-tools-texturepacker'

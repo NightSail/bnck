@@ -1,0 +1,16 @@
+id = 'qmidiarp'
+name = 'qmidiarp'
+
+homepage = 'https://sourceforge.net/projects/qmidiarp'
+
+[[package]]
+channel = 'arch'
+name = 'qmidiarp-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'qmidiarp'
+
+[[package]]
+channel = 'fedora'
+name = 'qmidiarp'

@@ -1,0 +1,16 @@
+id = 'aiksaurus'
+name = 'aiksaurus'
+
+homepage = 'https://aiksaurus.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'aiksaurus'
+
+[[package]]
+channel = 'fedora'
+name = 'aiksaurus'
+
+[[package]]
+channel = 'fedora'
+name = 'aiksaurus-thesaurus'

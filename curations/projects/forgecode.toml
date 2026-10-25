@@ -1,0 +1,9 @@
+id = 'forgecode'
+name = 'forgecode'
+
+homepage = 'https://forgecode.dev'
+repository = 'https://github.com/tailcallhq/forgecode.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forgecode'

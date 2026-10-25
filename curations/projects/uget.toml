@@ -1,0 +1,16 @@
+id = 'uget'
+name = 'uget'
+
+homepage = 'https://sourceforge.net/projects/urlget'
+
+[[package]]
+channel = 'arch'
+name = 'uget'
+
+[[package]]
+channel = 'debian'
+name = 'uget'
+
+[[package]]
+channel = 'fedora'
+name = 'uget'

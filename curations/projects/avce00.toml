@@ -1,0 +1,12 @@
+id = 'avce00'
+name = 'avce00'
+
+homepage = 'http://avce00.maptools.org/avce00/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'avce00'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avce00'

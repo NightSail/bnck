@@ -1,0 +1,8 @@
+id = 'xbg'
+name = 'xbg'
+
+homepage = 'https://github.com/mcpcpc/xbg'
+
+[[package]]
+channel = 'fedora'
+name = 'xbg'

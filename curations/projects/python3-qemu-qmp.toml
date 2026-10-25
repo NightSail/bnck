@@ -1,0 +1,12 @@
+id = 'python3-qemu-qmp'
+name = 'python3-qemu-qmp'
+
+homepage = 'https://pypi.org/project/qemu.qmp'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qemu-qmp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qemu-qmp'

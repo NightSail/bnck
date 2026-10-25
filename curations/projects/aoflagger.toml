@@ -1,0 +1,8 @@
+id = 'aoflagger'
+name = 'aoflagger'
+
+homepage = 'https://aoflagger.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'aoflagger'

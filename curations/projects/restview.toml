@@ -1,0 +1,13 @@
+id = 'restview'
+name = 'restview'
+
+homepage = 'https://mg.pov.lt/restview'
+repository = 'https://github.com/mgedmin/restview.git'
+
+[[package]]
+channel = 'fedora'
+name = 'restview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/restview'

@@ -1,0 +1,8 @@
+id = 'cheops'
+name = 'cheops'
+
+homepage = 'https://logological.org/cheops'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cheops'

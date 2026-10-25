@@ -1,0 +1,8 @@
+id = 'iconsur'
+name = 'iconsur'
+
+homepage = 'https://github.com/rikumi/iconsur'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iconsur'

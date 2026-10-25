@@ -1,0 +1,8 @@
+id = 'seqmagick'
+name = 'seqmagick'
+
+homepage = 'https://github.com/fhcrc/seqmagick'
+
+[[package]]
+channel = 'debian'
+name = 'seqmagick'

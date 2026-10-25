@@ -1,0 +1,8 @@
+id = 'python3-pyrgg'
+name = 'python3-pyrgg'
+
+homepage = 'https://github.com/sepandhaghighi/pyrgg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyrgg'

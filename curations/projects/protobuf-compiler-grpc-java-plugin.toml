@@ -1,0 +1,8 @@
+id = 'protobuf-compiler-grpc-java-plugin'
+name = 'protobuf-compiler-grpc-java-plugin'
+
+homepage = 'https://github.com/grpc/grpc-java'
+
+[[package]]
+channel = 'debian'
+name = 'protobuf-compiler-grpc-java-plugin'

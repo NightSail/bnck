@@ -1,0 +1,8 @@
+id = 'serve'
+name = 'serve'
+
+repository = 'https://github.com/syntaqx/serve.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/serve'

@@ -1,0 +1,8 @@
+id = 'python-mitmproxy-rs'
+name = 'python-mitmproxy-rs'
+
+homepage = 'https://github.com/mitmproxy/mitmproxy_rs'
+
+[[package]]
+channel = 'arch'
+name = 'python-mitmproxy-rs'

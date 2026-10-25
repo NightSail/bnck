@@ -1,0 +1,8 @@
+id = 'galileo'
+name = 'galileo'
+
+homepage = 'https://github.com/benallard/galileo'
+
+[[package]]
+channel = 'debian'
+name = 'galileo'

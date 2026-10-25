@@ -1,0 +1,8 @@
+id = 'd3-dsv-tools'
+name = 'd3-dsv-tools'
+
+homepage = 'https://d3js.org/d3-dsv'
+
+[[package]]
+channel = 'debian'
+name = 'd3-dsv-tools'

@@ -1,0 +1,8 @@
+id = 'parsinsert'
+name = 'parsinsert'
+
+homepage = 'http://sourceforge.net/projects/parsinsert'
+
+[[package]]
+channel = 'debian'
+name = 'parsinsert'

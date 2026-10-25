@@ -1,0 +1,8 @@
+id = 'lomiri-desktop-session'
+name = 'lomiri-desktop-session'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-session'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-desktop-session'

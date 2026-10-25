@@ -1,0 +1,12 @@
+id = 'python3-rq'
+name = 'python3-rq'
+
+homepage = 'https://github.com/rq/rq'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rq'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rq'

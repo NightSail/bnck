@@ -1,0 +1,12 @@
+id = 'xapp-symbolic-icons'
+name = 'xapp-symbolic-icons'
+
+homepage = 'https://github.com/xapp-project/xapp-symbolic-icons'
+
+[[package]]
+channel = 'arch'
+name = 'xapp-symbolic-icons'
+
+[[package]]
+channel = 'debian'
+name = 'xapp-symbolic-icons'

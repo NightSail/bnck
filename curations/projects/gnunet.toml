@@ -1,0 +1,24 @@
+id = 'gnunet'
+name = 'gnunet'
+
+homepage = 'https://gnunet.org'
+
+[[package]]
+channel = 'debian'
+name = 'gnunet'
+
+[[package]]
+channel = 'debian'
+name = 'gnunet-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'gnunet-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'libgnunet0.20t64'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnunet'

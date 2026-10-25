@@ -1,0 +1,8 @@
+id = 'pivit'
+name = 'pivit'
+
+homepage = 'https://github.com/cashapp/pivit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pivit'

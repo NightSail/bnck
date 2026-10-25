@@ -1,0 +1,8 @@
+id = 'innernet'
+name = 'innernet'
+
+homepage = 'https://github.com/tonarino/innernet'
+
+[[package]]
+channel = 'arch'
+name = 'innernet'

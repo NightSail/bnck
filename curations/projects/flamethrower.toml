@@ -1,0 +1,10 @@
+id = 'flamethrower'
+name = 'flamethrower'
+
+[[package]]
+channel = 'debian'
+name = 'flamethrower'
+
+[[package]]
+channel = 'fedora'
+name = 'flamethrower'

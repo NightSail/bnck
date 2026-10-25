@@ -1,0 +1,8 @@
+id = 'ruby-jsonpath'
+name = 'ruby-jsonpath'
+
+homepage = 'https://github.com/joshbuddy/jsonpath'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-jsonpath'

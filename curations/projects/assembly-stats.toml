@@ -1,0 +1,8 @@
+id = 'assembly-stats'
+name = 'assembly-stats'
+
+homepage = 'https://github.com/sanger-pathogens/assembly-stats'
+
+[[package]]
+channel = 'debian'
+name = 'assembly-stats'

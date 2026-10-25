@@ -1,0 +1,8 @@
+id = 'nm-tray'
+name = 'nm-tray'
+
+homepage = 'https://github.com/palinek/nm-tray'
+
+[[package]]
+channel = 'debian'
+name = 'nm-tray'

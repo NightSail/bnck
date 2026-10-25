@@ -1,0 +1,8 @@
+id = 'licenserecon'
+name = 'licenserecon'
+
+homepage = 'https://salsa.debian.org/debian/licenserecon'
+
+[[package]]
+channel = 'debian'
+name = 'licenserecon'

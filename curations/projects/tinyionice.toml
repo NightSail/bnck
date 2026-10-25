@@ -1,0 +1,8 @@
+id = 'tinyionice'
+name = 'tinyionice'
+
+homepage = 'https://github.com/xyproto/tinyionice'
+
+[[package]]
+channel = 'arch'
+name = 'tinyionice'

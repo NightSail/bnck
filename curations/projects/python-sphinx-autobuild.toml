@@ -1,0 +1,8 @@
+id = 'python-sphinx-autobuild'
+name = 'python-sphinx-autobuild'
+
+homepage = 'https://github.com/executablebooks/sphinx-autobuild'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphinx-autobuild'

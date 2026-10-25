@@ -1,0 +1,8 @@
+id = 'osmo-msc'
+name = 'osmo-msc'
+
+homepage = 'https://osmocom.org/projects/osmomsc'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-msc'

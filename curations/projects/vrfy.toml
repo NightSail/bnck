@@ -1,0 +1,6 @@
+id = 'vrfy'
+name = 'vrfy'
+
+[[package]]
+channel = 'debian'
+name = 'vrfy'

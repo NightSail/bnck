@@ -1,0 +1,8 @@
+id = 'vex'
+name = 'vex'
+
+homepage = 'http://github.com/sashahart/vex'
+
+[[package]]
+channel = 'fedora'
+name = 'vex'

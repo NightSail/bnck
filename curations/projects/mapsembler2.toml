@@ -1,0 +1,8 @@
+id = 'mapsembler2'
+name = 'mapsembler2'
+
+homepage = 'http://colibread.inria.fr/mapsembler2'
+
+[[package]]
+channel = 'debian'
+name = 'mapsembler2'

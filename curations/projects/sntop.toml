@@ -4,5 +4,9 @@ name = 'sntop'
 homepage = 'https://sntop.sourceforge.net'
 
 [[package]]
+channel = 'debian'
+name = 'sntop'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/sntop'

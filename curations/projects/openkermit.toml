@@ -1,0 +1,8 @@
+id = 'openkermit'
+name = 'openkermit'
+
+homepage = 'https://www.openkermit.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openkermit'

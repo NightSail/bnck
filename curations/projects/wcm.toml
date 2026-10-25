@@ -1,0 +1,16 @@
+id = 'wcm'
+name = 'wcm'
+
+homepage = 'https://github.com/WayfireWM/wcm'
+
+[[package]]
+channel = 'arch'
+name = 'wcm'
+
+[[package]]
+channel = 'debian'
+name = 'wcm'
+
+[[package]]
+channel = 'fedora'
+name = 'wayfire-config-manager'

@@ -1,0 +1,8 @@
+id = 'ircd-ircu'
+name = 'ircd-ircu'
+
+homepage = 'https://github.com/UndernetIRC/ircu2'
+
+[[package]]
+channel = 'debian'
+name = 'ircd-ircu'

@@ -1,0 +1,8 @@
+id = 'dvb-apps'
+name = 'dvb-apps'
+
+homepage = 'http://www.linuxtv.org/wiki/index.php/LinuxTV_dvb-apps'
+
+[[package]]
+channel = 'debian'
+name = 'dvb-apps'

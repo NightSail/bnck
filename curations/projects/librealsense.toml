@@ -1,0 +1,13 @@
+id = 'librealsense'
+name = 'librealsense'
+
+homepage = 'https://github.com/IntelRealSense/librealsense'
+repository = 'https://github.com/realsenseai/librealsense.git'
+
+[[package]]
+channel = 'fedora'
+name = 'librealsense'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librealsense'

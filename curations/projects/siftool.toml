@@ -1,0 +1,8 @@
+id = 'siftool'
+name = 'siftool'
+
+homepage = 'https://github.com/sylabs/sif'
+
+[[package]]
+channel = 'debian'
+name = 'siftool'

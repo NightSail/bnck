@@ -1,0 +1,12 @@
+id = 'kdeclarative'
+name = 'kdeclarative'
+
+homepage = 'https://invent.kde.org/frameworks/kdeclarative'
+
+[[package]]
+channel = 'debian'
+name = 'kpackagelauncherqml'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kdeclarative'

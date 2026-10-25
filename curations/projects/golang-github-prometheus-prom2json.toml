@@ -1,0 +1,8 @@
+id = 'golang-github-prometheus-prom2json'
+name = 'golang-github-prometheus-prom2json'
+
+homepage = 'https://github.com/prometheus/prom2json'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-prometheus-prom2json'

@@ -1,0 +1,8 @@
+id = 'simplemonitor'
+name = 'simplemonitor'
+
+homepage = 'https://simplemonitor.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'simplemonitor'

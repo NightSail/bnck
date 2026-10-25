@@ -1,0 +1,8 @@
+id = 'fontaine'
+name = 'fontaine'
+
+homepage = 'http://unifont.org/fontaine'
+
+[[package]]
+channel = 'fedora'
+name = 'fontaine'

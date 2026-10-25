@@ -1,0 +1,8 @@
+id = 'aptly-publisher'
+name = 'aptly-publisher'
+
+homepage = 'https://github.com/tcpcloud/python-aptly'
+
+[[package]]
+channel = 'debian'
+name = 'aptly-publisher'

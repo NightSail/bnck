@@ -1,0 +1,12 @@
+id = 'python3-vedo'
+name = 'python3-vedo'
+
+homepage = 'https://vedo.embl.es'
+
+[[package]]
+channel = 'debian'
+name = 'python3-vedo'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vedo'

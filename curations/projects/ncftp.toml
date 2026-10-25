@@ -1,0 +1,20 @@
+id = 'ncftp'
+name = 'ncftp'
+
+homepage = 'https://www.ncftp.com'
+
+[[package]]
+channel = 'arch'
+name = 'ncftp'
+
+[[package]]
+channel = 'debian'
+name = 'ncftp'
+
+[[package]]
+channel = 'fedora'
+name = 'ncftp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncftp'

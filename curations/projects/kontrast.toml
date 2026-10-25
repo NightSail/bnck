@@ -1,0 +1,16 @@
+id = 'kontrast'
+name = 'kontrast'
+
+homepage = 'https://apps.kde.org/kontrast'
+
+[[package]]
+channel = 'arch'
+name = 'kontrast'
+
+[[package]]
+channel = 'debian'
+name = 'kontrast'
+
+[[package]]
+channel = 'fedora'
+name = 'kontrast'

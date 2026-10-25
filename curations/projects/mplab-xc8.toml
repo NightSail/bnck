@@ -1,0 +1,8 @@
+id = 'mplab-xc8'
+name = 'mplab-xc8'
+
+homepage = 'https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/mplab-xc8'

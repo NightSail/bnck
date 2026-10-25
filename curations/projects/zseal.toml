@@ -1,0 +1,8 @@
+id = 'zseal'
+name = 'zseal'
+
+homepage = 'https://www.bergo.eng.br/eboard'
+
+[[package]]
+channel = 'debian'
+name = 'zseal'

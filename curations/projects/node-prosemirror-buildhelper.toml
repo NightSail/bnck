@@ -1,0 +1,8 @@
+id = 'node-prosemirror-buildhelper'
+name = 'node-prosemirror-buildhelper'
+
+homepage = 'https://code.haverbeke.berlin/prosemirror/buildhelper'
+
+[[package]]
+channel = 'debian'
+name = 'node-prosemirror-buildhelper'

@@ -1,0 +1,12 @@
+id = 'gotun'
+name = 'gotun'
+
+homepage = 'https://github.com/Sesame2/gotun'
+
+[[package]]
+channel = 'fedora'
+name = 'gotun'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotun'

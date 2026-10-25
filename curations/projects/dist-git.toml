@@ -1,0 +1,12 @@
+id = 'dist-git'
+name = 'dist-git'
+
+homepage = 'https://github.com/release-engineering/dist-git'
+
+[[package]]
+channel = 'fedora'
+name = 'dist-git'
+
+[[package]]
+channel = 'fedora'
+name = 'dist-git-client'

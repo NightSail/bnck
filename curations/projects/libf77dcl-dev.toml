@@ -1,0 +1,8 @@
+id = 'libf77dcl-dev'
+name = 'libf77dcl-dev'
+
+homepage = 'https://www.gfd-dennou.org/arch/dcl'
+
+[[package]]
+channel = 'debian'
+name = 'libf77dcl-dev'

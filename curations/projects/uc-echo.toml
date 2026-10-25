@@ -1,0 +1,8 @@
+id = 'uc-echo'
+name = 'uc-echo'
+
+homepage = 'https://uc-echo.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'uc-echo'

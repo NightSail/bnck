@@ -1,0 +1,9 @@
+id = 'zeek-zeek'
+name = 'zeek'
+
+homepage = 'https://zeek.org'
+repository = 'https://github.com/zeek/zeek.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zeek'

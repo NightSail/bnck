@@ -1,0 +1,8 @@
+id = 'hpack-sol'
+name = 'hpack'
+
+repository = 'https://github.com/sol/hpack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hpack'

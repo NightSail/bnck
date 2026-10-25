@@ -1,0 +1,16 @@
+id = 'spirv-tools'
+name = 'spirv-tools'
+
+repository = 'https://github.com/KhronosGroup/SPIRV-Tools.git'
+
+[[package]]
+channel = 'debian'
+name = 'spirv-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'spirv-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spirv-tools'

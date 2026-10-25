@@ -1,0 +1,12 @@
+id = 'scram-pra'
+name = 'scram-pra'
+
+homepage = 'https://scram-pra.org'
+
+[[package]]
+channel = 'debian'
+name = 'scram'
+
+[[package]]
+channel = 'debian'
+name = 'scram-gui'

@@ -1,0 +1,16 @@
+id = 'easyeffects'
+name = 'easyeffects'
+
+homepage = 'https://github.com/wwmm/easyeffects'
+
+[[package]]
+channel = 'arch'
+name = 'easyeffects'
+
+[[package]]
+channel = 'debian'
+name = 'easyeffects'
+
+[[package]]
+channel = 'fedora'
+name = 'easyeffects'

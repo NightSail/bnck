@@ -1,0 +1,6 @@
+id = 'librsvg2-bin'
+name = 'librsvg2-bin'
+
+[[package]]
+channel = 'debian'
+name = 'librsvg2-bin'

@@ -1,0 +1,13 @@
+id = 'opensearch'
+name = 'opensearch'
+
+homepage = 'https://docs.opensearch.org/latest/about'
+repository = 'https://github.com/opensearch-project/OpenSearch.git'
+
+[[package]]
+channel = 'arch'
+name = 'opensearch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opensearch'

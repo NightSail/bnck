@@ -1,0 +1,8 @@
+id = 'qucs-s'
+name = 'qucs-s'
+
+homepage = 'https://ra3xdh.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'qucs-s'

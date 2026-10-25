@@ -1,0 +1,9 @@
+id = 'uutils-diffutils'
+name = 'uutils-diffutils'
+
+homepage = 'https://uutils.github.io/diffutils'
+repository = 'https://github.com/uutils/diffutils.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uutils-diffutils'

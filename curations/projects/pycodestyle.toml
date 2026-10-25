@@ -1,0 +1,13 @@
+id = 'pycodestyle'
+name = 'pycodestyle'
+
+homepage = 'https://pycodestyle.pycqa.org'
+repository = 'https://github.com/PyCQA/pycodestyle.git'
+
+[[package]]
+channel = 'debian'
+name = 'pycodestyle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pycodestyle'

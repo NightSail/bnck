@@ -1,0 +1,16 @@
+id = 'lensfun'
+name = 'lensfun'
+
+homepage = 'https://lensfun.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'lensfun'
+
+[[package]]
+channel = 'debian'
+name = 'liblensfun-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'lensfun-tools'

@@ -1,0 +1,8 @@
+id = 'roxterm'
+name = 'roxterm'
+
+homepage = 'https://github.com/realh/roxterm'
+
+[[package]]
+channel = 'fedora'
+name = 'roxterm'

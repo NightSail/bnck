@@ -1,0 +1,8 @@
+id = 'intel-hdcp'
+name = 'intel-hdcp'
+
+homepage = 'https://github.com/intel/hdcp'
+
+[[package]]
+channel = 'debian'
+name = 'intel-hdcp'

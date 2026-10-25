@@ -1,0 +1,8 @@
+id = 'crrcsim'
+name = 'crrcsim'
+
+homepage = 'http://sourceforge.net/apps/mediawiki/crrcsim'
+
+[[package]]
+channel = 'fedora'
+name = 'crrcsim'

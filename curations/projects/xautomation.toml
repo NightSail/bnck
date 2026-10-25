@@ -1,0 +1,16 @@
+id = 'xautomation'
+name = 'xautomation'
+
+homepage = 'https://hoopajoo.net/projects/xautomation.html'
+
+[[package]]
+channel = 'arch'
+name = 'xautomation'
+
+[[package]]
+channel = 'debian'
+name = 'xautomation'
+
+[[package]]
+channel = 'fedora'
+name = 'xautomation'

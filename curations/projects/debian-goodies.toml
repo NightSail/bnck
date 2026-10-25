@@ -1,0 +1,6 @@
+id = 'debian-goodies'
+name = 'debian-goodies'
+
+[[package]]
+channel = 'debian'
+name = 'debian-goodies'

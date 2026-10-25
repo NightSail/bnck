@@ -1,0 +1,8 @@
+id = 'looking-glass-client'
+name = 'looking-glass-client'
+
+homepage = 'https://looking-glass.hostfission.com'
+
+[[package]]
+channel = 'debian'
+name = 'looking-glass-client'

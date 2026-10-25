@@ -1,0 +1,8 @@
+id = 'tiv'
+name = 'tiv'
+
+homepage = 'https://github.com/stefanhaustein/TerminalImageViewer'
+
+[[package]]
+channel = 'debian'
+name = 'tiv'

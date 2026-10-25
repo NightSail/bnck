@@ -1,0 +1,40 @@
+id = 'grpc'
+name = 'grpc'
+
+homepage = 'https://grpc.io'
+
+[[package]]
+channel = 'arch'
+name = 'grpc'
+
+[[package]]
+channel = 'arch'
+name = 'grpc-cli'
+
+[[package]]
+channel = 'arch'
+name = 'python-grpcio-tools'
+
+[[package]]
+channel = 'debian'
+name = 'protobuf-compiler-grpc'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-grpc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'grpc-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'grpc-plugins'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-go-grpc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-grpc-web'

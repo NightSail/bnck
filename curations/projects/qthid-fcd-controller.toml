@@ -1,0 +1,8 @@
+id = 'qthid-fcd-controller'
+name = 'qthid-fcd-controller'
+
+homepage = 'https://oz9aec.net/radios/funcube-dongle/updated-fcdctl-for-the-funcube-dongle-pro-and-pro'
+
+[[package]]
+channel = 'debian'
+name = 'qthid-fcd-controller'

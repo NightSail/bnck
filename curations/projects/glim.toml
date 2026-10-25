@@ -1,0 +1,8 @@
+id = 'glim'
+name = 'glim'
+
+homepage = 'https://github.com/junkdog/glim'
+
+[[package]]
+channel = 'arch'
+name = 'glim'

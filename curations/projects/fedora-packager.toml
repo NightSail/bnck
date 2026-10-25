@@ -1,0 +1,12 @@
+id = 'fedora-packager'
+name = 'fedora-packager'
+
+homepage = 'https://pagure.io/fedora-packager'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-packager'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-packager-kerberos'

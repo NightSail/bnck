@@ -1,0 +1,9 @@
+id = 'wolfmqtt'
+name = 'wolfmqtt'
+
+homepage = 'https://www.wolfssl.com'
+repository = 'https://github.com/wolfSSL/wolfMQTT.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wolfmqtt'

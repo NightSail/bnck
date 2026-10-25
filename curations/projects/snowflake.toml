@@ -1,0 +1,17 @@
+id = 'snowflake'
+name = 'snowflake'
+
+homepage = 'https://snowflake.torproject.org'
+repository = 'https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake.git'
+
+[[package]]
+channel = 'debian'
+name = 'snowflake-client'
+
+[[package]]
+channel = 'debian'
+name = 'snowflake-proxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snowflake'

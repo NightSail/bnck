@@ -1,0 +1,20 @@
+id = 'symlinks'
+name = 'symlinks'
+
+homepage = 'https://github.com/brandt/symlinks'
+
+[[package]]
+channel = 'arch'
+name = 'symlinks'
+
+[[package]]
+channel = 'debian'
+name = 'symlinks'
+
+[[package]]
+channel = 'fedora'
+name = 'symlinks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/symlinks'

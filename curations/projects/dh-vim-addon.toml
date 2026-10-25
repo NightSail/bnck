@@ -1,0 +1,6 @@
+id = 'dh-vim-addon'
+name = 'dh-vim-addon'
+
+[[package]]
+channel = 'debian'
+name = 'dh-vim-addon'

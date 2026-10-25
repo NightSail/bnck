@@ -1,0 +1,12 @@
+id = 'sfftools'
+name = 'sfftools'
+
+homepage = 'https://sourceforge.net/projects/sfftools'
+
+[[package]]
+channel = 'debian'
+name = 'sfftobmp'
+
+[[package]]
+channel = 'debian'
+name = 'sffview'

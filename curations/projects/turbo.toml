@@ -1,0 +1,8 @@
+id = 'turbo'
+name = 'turbo'
+
+homepage = 'https://turbo.build'
+
+[[package]]
+channel = 'arch'
+name = 'turbo'

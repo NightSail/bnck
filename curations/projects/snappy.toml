@@ -1,0 +1,12 @@
+id = 'snappy'
+name = 'snappy'
+
+homepage = 'https://snappy.computop.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-plink'
+
+[[package]]
+channel = 'arch'
+name = 'snappy-manifolds'

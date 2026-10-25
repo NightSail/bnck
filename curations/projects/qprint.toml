@@ -1,0 +1,16 @@
+id = 'qprint'
+name = 'qprint'
+
+homepage = 'https://www.fourmilab.ch/webtools/qprint'
+
+[[package]]
+channel = 'arch'
+name = 'qprint'
+
+[[package]]
+channel = 'debian'
+name = 'qprint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qprint'

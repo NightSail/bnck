@@ -1,0 +1,84 @@
+id = 'nordugrid'
+name = 'nordugrid'
+
+homepage = 'http://www.nordugrid.org'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-arc-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-arcctl'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-archery-manage'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-arex'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-client'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-dev'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-hed'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-test-utils'
+
+[[package]]
+channel = 'debian'
+name = 'nordugrid-arc-wn'
+
+[[package]]
+channel = 'debian'
+name = 'python3-arcrest'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-arc-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-arcctl'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-archery-manage'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-arex'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-client'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-hed'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-test-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'nordugrid-arc-wn'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-arcrest'

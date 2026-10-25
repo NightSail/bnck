@@ -1,0 +1,12 @@
+id = 'mdns-scan'
+name = 'mdns-scan'
+
+homepage = 'https://github.com/alteholz/mdns-scan'
+
+[[package]]
+channel = 'debian'
+name = 'mdns-scan'
+
+[[package]]
+channel = 'fedora'
+name = 'mdns-scan'

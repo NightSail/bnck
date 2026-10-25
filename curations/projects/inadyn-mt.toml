@@ -1,0 +1,8 @@
+id = 'inadyn-mt'
+name = 'inadyn-mt'
+
+homepage = 'http://inadyn-mt.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'inadyn-mt'

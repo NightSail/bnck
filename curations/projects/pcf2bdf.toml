@@ -1,0 +1,8 @@
+id = 'pcf2bdf'
+name = 'pcf2bdf'
+
+homepage = 'https://github.com/ganaware/pcf2bdf'
+
+[[package]]
+channel = 'debian'
+name = 'pcf2bdf'

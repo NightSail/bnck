@@ -1,0 +1,8 @@
+id = 'snid'
+name = 'snid'
+
+homepage = 'https://github.com/AGWA/snid'
+
+[[package]]
+channel = 'debian'
+name = 'snid'

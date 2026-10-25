@@ -1,0 +1,9 @@
+id = 'harbour'
+name = 'harbour'
+
+homepage = 'https://harbour.github.io'
+repository = 'https://github.com/harbour/core.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/harbour'

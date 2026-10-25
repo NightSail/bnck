@@ -1,0 +1,8 @@
+id = 'lacewing'
+name = 'lacewing'
+
+homepage = 'http://users.olis.net.au/zel'
+
+[[package]]
+channel = 'fedora'
+name = 'lacewing'

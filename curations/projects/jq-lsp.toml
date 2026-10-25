@@ -1,0 +1,8 @@
+id = 'jq-lsp'
+name = 'jq-lsp'
+
+repository = 'https://github.com/wader/jq-lsp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jq-lsp'

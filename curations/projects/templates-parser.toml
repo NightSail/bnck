@@ -1,0 +1,12 @@
+id = 'templates-parser'
+name = 'templates_parser'
+
+homepage = 'https://github.com/AdaCore/templates-parser'
+
+[[package]]
+channel = 'debian'
+name = 'libtemplates-parser-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'templates_parser-tools'

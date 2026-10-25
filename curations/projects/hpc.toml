@@ -1,0 +1,16 @@
+id = 'hpc'
+name = 'hpc'
+
+homepage = 'https://hpc.github.io/charliecloud'
+
+[[package]]
+channel = 'debian'
+name = 'charliecloud-builders'
+
+[[package]]
+channel = 'debian'
+name = 'charliecloud-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'charliecloud-tests'

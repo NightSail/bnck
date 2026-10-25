@@ -1,0 +1,8 @@
+id = 'jsrepo'
+name = 'jsrepo'
+
+homepage = 'https://jsrepo.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsrepo'

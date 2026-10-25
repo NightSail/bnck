@@ -1,0 +1,8 @@
+id = 'folialint'
+name = 'folialint'
+
+homepage = 'https://proycon.github.io/folia'
+
+[[package]]
+channel = 'debian'
+name = 'folialint'

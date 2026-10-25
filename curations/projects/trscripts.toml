@@ -1,0 +1,6 @@
+id = 'trscripts'
+name = 'trscripts'
+
+[[package]]
+channel = 'debian'
+name = 'trscripts'

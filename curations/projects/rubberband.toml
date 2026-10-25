@@ -1,0 +1,21 @@
+id = 'rubberband'
+name = 'rubberband'
+
+homepage = 'https://www.breakfastquay.com/rubberband'
+repository = 'https://hg.sr.ht/~breakfastquay/rubberband'
+
+[[package]]
+channel = 'arch'
+name = 'rubberband'
+
+[[package]]
+channel = 'debian'
+name = 'rubberband-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'rubberband'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rubberband'

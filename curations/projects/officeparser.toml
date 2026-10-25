@@ -1,0 +1,8 @@
+id = 'officeparser'
+name = 'officeparser'
+
+homepage = 'https://github.com/unixfreak0037/officeparser'
+
+[[package]]
+channel = 'fedora'
+name = 'officeparser'

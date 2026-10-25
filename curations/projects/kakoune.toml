@@ -4,5 +4,17 @@ name = 'kakoune'
 repository = 'https://github.com/mawww/kakoune'
 
 [[package]]
+channel = 'arch'
+name = 'kakoune'
+
+[[package]]
+channel = 'debian'
+name = 'kakoune'
+
+[[package]]
+channel = 'fedora'
+name = 'kakoune'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/kakoune'

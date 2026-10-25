@@ -1,0 +1,8 @@
+id = 'trace2dbest'
+name = 'trace2dbest'
+
+homepage = 'http://www.nematodes.org/bioinformatics/trace2dbEST'
+
+[[package]]
+channel = 'debian'
+name = 'trace2dbest'

@@ -1,0 +1,8 @@
+id = 'ruby-bundler'
+name = 'ruby-bundler'
+
+homepage = 'https://bundler.io'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-bundler'

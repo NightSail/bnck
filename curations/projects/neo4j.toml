@@ -1,0 +1,12 @@
+id = 'neo4j'
+name = 'neo4j'
+
+homepage = 'https://neo4j.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cypher-shell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neo4j'

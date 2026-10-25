@@ -1,0 +1,13 @@
+id = 'pwsafe'
+name = 'pwsafe'
+
+homepage = 'http://nsd.dyndns.org/pwsafe'
+repository = 'https://github.com/nsd20463/pwsafe.git'
+
+[[package]]
+channel = 'fedora'
+name = 'pwsafe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pwsafe'

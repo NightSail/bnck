@@ -1,0 +1,8 @@
+id = 'dustrac'
+name = 'dustrac'
+
+homepage = 'https://juzzlin.github.io/DustRacing2D'
+
+[[package]]
+channel = 'fedora'
+name = 'dustrac'

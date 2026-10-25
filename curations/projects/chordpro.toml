@@ -1,0 +1,20 @@
+id = 'chordpro'
+name = 'chordpro'
+
+homepage = 'https://www.chordpro.org'
+
+[[package]]
+channel = 'debian'
+name = 'chordii'
+
+[[package]]
+channel = 'debian'
+name = 'chordpro'
+
+[[package]]
+channel = 'fedora'
+name = 'chordpro'
+
+[[package]]
+channel = 'fedora'
+name = 'chordpro-gui'

@@ -1,0 +1,8 @@
+id = 'yanosim'
+name = 'yanosim'
+
+homepage = 'https://github.com/bartongroup/yanosim'
+
+[[package]]
+channel = 'debian'
+name = 'yanosim'

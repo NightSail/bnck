@@ -1,0 +1,12 @@
+id = 'xalan-c'
+name = 'xalan-c'
+
+homepage = 'https://xalan.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'xalan-c'
+
+[[package]]
+channel = 'fedora'
+name = 'xalan-c'

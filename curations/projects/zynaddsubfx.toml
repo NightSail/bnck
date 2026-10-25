@@ -1,0 +1,16 @@
+id = 'zynaddsubfx'
+name = 'zynaddsubfx'
+
+homepage = 'http://zynaddsubfx.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'zynaddsubfx'
+
+[[package]]
+channel = 'debian'
+name = 'zynaddsubfx'
+
+[[package]]
+channel = 'fedora'
+name = 'zynaddsubfx'

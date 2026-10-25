@@ -1,0 +1,12 @@
+id = 'dmc'
+name = 'dmc'
+
+homepage = 'https://ds.iris.edu/ds/nodes/dmc/software'
+
+[[package]]
+channel = 'debian'
+name = 'mseed2sac'
+
+[[package]]
+channel = 'debian'
+name = 'sac2mseed'

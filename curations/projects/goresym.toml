@@ -1,0 +1,8 @@
+id = 'goresym'
+name = 'goresym'
+
+repository = 'https://github.com/mandiant/GoReSym.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goresym'

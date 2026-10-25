@@ -1,0 +1,20 @@
+id = 'liballeg'
+name = 'liballeg'
+
+homepage = 'https://liballeg.org'
+
+[[package]]
+channel = 'arch'
+name = 'allegro4'
+
+[[package]]
+channel = 'debian'
+name = 'liballegro4-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'allegro-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'allegro-tools'

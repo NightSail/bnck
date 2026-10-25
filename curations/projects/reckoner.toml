@@ -1,0 +1,8 @@
+id = 'reckoner'
+name = 'reckoner'
+
+repository = 'https://github.com/FairwindsOps/reckoner.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reckoner'

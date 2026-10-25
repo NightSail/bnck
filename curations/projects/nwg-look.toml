@@ -1,0 +1,12 @@
+id = 'nwg-look'
+name = 'nwg-look'
+
+homepage = 'https://github.com/nwg-piotr/nwg-look'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-look'
+
+[[package]]
+channel = 'debian'
+name = 'nwg-look'

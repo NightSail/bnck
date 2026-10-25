@@ -1,0 +1,8 @@
+id = 'pagemon'
+name = 'pagemon'
+
+homepage = 'https://github.com/ColinIanKing/pagemon'
+
+[[package]]
+channel = 'debian'
+name = 'pagemon'

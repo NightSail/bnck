@@ -1,0 +1,8 @@
+id = 'libhtml-formfu-perl'
+name = 'libhtml-formfu-perl'
+
+homepage = 'https://github.com/FormFu/HTML-FormFu'
+
+[[package]]
+channel = 'debian'
+name = 'libhtml-formfu-perl'

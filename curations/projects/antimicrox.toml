@@ -1,0 +1,16 @@
+id = 'antimicrox'
+name = 'antimicrox'
+
+homepage = 'https://github.com/AntiMicroX/antimicrox'
+
+[[package]]
+channel = 'arch'
+name = 'antimicrox'
+
+[[package]]
+channel = 'debian'
+name = 'antimicro'
+
+[[package]]
+channel = 'fedora'
+name = 'antimicrox'

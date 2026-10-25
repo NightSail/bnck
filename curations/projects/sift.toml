@@ -1,0 +1,8 @@
+id = 'sift'
+name = 'sift'
+
+homepage = 'https://sift-tool.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sift'

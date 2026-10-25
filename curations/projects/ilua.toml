@@ -1,0 +1,8 @@
+id = 'ilua'
+name = 'ilua'
+
+homepage = 'https://github.com/guysv/ilua'
+
+[[package]]
+channel = 'fedora'
+name = 'ilua'

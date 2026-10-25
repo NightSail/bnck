@@ -1,0 +1,12 @@
+id = 'tilix'
+name = 'tilix'
+
+homepage = 'https://gnunn1.github.io/tilix-web'
+
+[[package]]
+channel = 'debian'
+name = 'tilix'
+
+[[package]]
+channel = 'fedora'
+name = 'tilix'

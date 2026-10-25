@@ -1,0 +1,12 @@
+id = 'topcat'
+name = 'topcat'
+
+homepage = 'https://www.star.bristol.ac.uk/mbt/topcat'
+
+[[package]]
+channel = 'debian'
+name = 'topcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/topcat'

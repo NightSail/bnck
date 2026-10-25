@@ -1,0 +1,12 @@
+id = 'entangle'
+name = 'entangle'
+
+homepage = 'https://entangle-photo.org'
+
+[[package]]
+channel = 'debian'
+name = 'entangle'
+
+[[package]]
+channel = 'fedora'
+name = 'entangle'

@@ -1,0 +1,8 @@
+id = 'prime-phylo'
+name = 'prime-phylo'
+
+homepage = 'http://prime.sbc.su.se'
+
+[[package]]
+channel = 'debian'
+name = 'prime-phylo'

@@ -1,0 +1,8 @@
+id = 'nanostat'
+name = 'nanostat'
+
+homepage = 'https://github.com/wdecoster/nanostat'
+
+[[package]]
+channel = 'debian'
+name = 'nanostat'

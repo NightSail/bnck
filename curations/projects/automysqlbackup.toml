@@ -1,0 +1,12 @@
+id = 'automysqlbackup'
+name = 'automysqlbackup'
+
+homepage = 'https://sourceforge.net/projects/automysqlbackup'
+
+[[package]]
+channel = 'debian'
+name = 'automysqlbackup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/automysqlbackup'

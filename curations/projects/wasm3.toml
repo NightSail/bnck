@@ -1,0 +1,8 @@
+id = 'wasm3'
+name = 'wasm3'
+
+homepage = 'https://twitter.com/wasm3_engine'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasm3'

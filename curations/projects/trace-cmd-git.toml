@@ -1,0 +1,8 @@
+id = 'trace-cmd-git'
+name = 'trace-cmd'
+
+homepage = 'http://git.kernel.org'
+
+[[package]]
+channel = 'fedora'
+name = 'trace-cmd'

@@ -1,0 +1,8 @@
+id = 'yate'
+name = 'yate'
+
+homepage = 'http://www.yate.ro'
+
+[[package]]
+channel = 'arch'
+name = 'yate'

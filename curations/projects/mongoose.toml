@@ -1,0 +1,12 @@
+id = 'mongoose'
+name = 'mongoose'
+
+homepage = 'https://mongoose.ws'
+
+[[package]]
+channel = 'fedora'
+name = 'mongoose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mongoose'

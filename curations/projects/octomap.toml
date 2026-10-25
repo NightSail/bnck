@@ -1,0 +1,24 @@
+id = 'octomap'
+name = 'octomap'
+
+homepage = 'https://octomap.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'octomap-tools'
+
+[[package]]
+channel = 'debian'
+name = 'octovis'
+
+[[package]]
+channel = 'fedora'
+name = 'octomap'
+
+[[package]]
+channel = 'fedora'
+name = 'octomap-octovis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/octomap'

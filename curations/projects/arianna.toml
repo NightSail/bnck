@@ -1,0 +1,16 @@
+id = 'arianna'
+name = 'arianna'
+
+homepage = 'https://apps.kde.org/arianna'
+
+[[package]]
+channel = 'arch'
+name = 'arianna'
+
+[[package]]
+channel = 'debian'
+name = 'arianna'
+
+[[package]]
+channel = 'fedora'
+name = 'arianna'

@@ -1,0 +1,8 @@
+id = 'postgresql-autodoc'
+name = 'postgresql-autodoc'
+
+homepage = 'https://github.com/cbbrowne/autodoc'
+
+[[package]]
+channel = 'debian'
+name = 'postgresql-autodoc'

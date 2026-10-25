@@ -1,0 +1,8 @@
+id = 'pythonpy'
+name = 'pythonpy'
+
+homepage = 'https://github.com/Russell91/pythonpy'
+
+[[package]]
+channel = 'debian'
+name = 'pythonpy'

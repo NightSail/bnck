@@ -1,0 +1,8 @@
+id = 'qrisk2'
+name = 'qrisk2'
+
+homepage = 'https://qrisk.org'
+
+[[package]]
+channel = 'debian'
+name = 'qrisk2'

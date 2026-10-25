@@ -1,0 +1,12 @@
+id = 'wvware'
+name = 'wvware'
+
+homepage = 'https://wvware.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wv2'

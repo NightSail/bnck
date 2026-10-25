@@ -1,0 +1,6 @@
+id = 'python3-pecan'
+name = 'python3-pecan'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pecan'

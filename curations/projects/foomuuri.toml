@@ -1,0 +1,16 @@
+id = 'foomuuri'
+name = 'foomuuri'
+
+homepage = 'https://github.com/FoobarOy/foomuuri'
+
+[[package]]
+channel = 'debian'
+name = 'foomuuri'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-foomuuri-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'foomuuri'

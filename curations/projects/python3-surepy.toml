@@ -1,0 +1,8 @@
+id = 'python3-surepy'
+name = 'python3-surepy'
+
+homepage = 'https://github.com/benleb/surepy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-surepy'

@@ -1,0 +1,12 @@
+id = 'ttygif'
+name = 'ttygif'
+
+homepage = 'https://github.com/icholy/ttygif'
+
+[[package]]
+channel = 'debian'
+name = 'ttygif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttygif'

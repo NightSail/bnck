@@ -1,0 +1,8 @@
+id = 'gpg-remailer'
+name = 'gpg-remailer'
+
+homepage = 'https://fbb-git.gitlab.io/gpg-remailer'
+
+[[package]]
+channel = 'debian'
+name = 'gpg-remailer'

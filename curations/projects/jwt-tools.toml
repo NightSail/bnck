@@ -1,0 +1,8 @@
+id = 'jwt-tools'
+name = 'jwt-tools'
+
+homepage = 'https://libjwt.io'
+
+[[package]]
+channel = 'debian'
+name = 'jwt-tools'

@@ -1,0 +1,8 @@
+id = 'aftman'
+name = 'aftman'
+
+repository = 'https://github.com/LPGhatguy/aftman.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aftman'

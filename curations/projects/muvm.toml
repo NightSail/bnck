@@ -1,0 +1,8 @@
+id = 'muvm'
+name = 'muvm'
+
+homepage = 'https://crates.io/crates/muvm'
+
+[[package]]
+channel = 'fedora'
+name = 'muvm'

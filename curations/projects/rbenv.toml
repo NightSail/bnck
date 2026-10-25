@@ -1,0 +1,21 @@
+id = 'rbenv'
+name = 'rbenv'
+
+homepage = 'https://github.com/sstephenson/rbenv'
+repository = 'https://github.com/rbenv/rbenv.git'
+
+[[package]]
+channel = 'arch'
+name = 'rbenv'
+
+[[package]]
+channel = 'debian'
+name = 'rbenv'
+
+[[package]]
+channel = 'fedora'
+name = 'rbenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv'

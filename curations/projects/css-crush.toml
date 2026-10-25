@@ -1,0 +1,9 @@
+id = 'css-crush'
+name = 'css-crush'
+
+homepage = 'https://the-echoplex.net/csscrush'
+repository = 'https://github.com/peteboere/css-crush.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/css-crush'

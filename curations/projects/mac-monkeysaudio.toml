@@ -1,0 +1,8 @@
+id = 'mac-monkeysaudio'
+name = 'mac'
+
+homepage = 'https://www.monkeysaudio.com/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'mac'

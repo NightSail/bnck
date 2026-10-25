@@ -1,0 +1,8 @@
+id = 'libwx-perl'
+name = 'libwx-perl'
+
+homepage = 'http://wxperl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libwx-perl'

@@ -1,0 +1,8 @@
+id = 'mkgmap'
+name = 'mkgmap'
+
+homepage = 'https://www.mkgmap.org.uk'
+
+[[package]]
+channel = 'debian'
+name = 'mkgmap'

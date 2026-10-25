@@ -1,0 +1,8 @@
+id = 'letterpress'
+name = 'letterpress'
+
+homepage = 'https://gitlab.gnome.org/World/Letterpress'
+
+[[package]]
+channel = 'arch'
+name = 'letterpress'

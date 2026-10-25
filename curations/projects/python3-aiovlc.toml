@@ -1,0 +1,8 @@
+id = 'python3-aiovlc'
+name = 'python3-aiovlc'
+
+homepage = 'https://github.com/MartinHjelmare/aiovlc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiovlc'

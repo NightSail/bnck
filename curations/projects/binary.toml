@@ -1,0 +1,8 @@
+id = 'binary'
+name = 'binary'
+
+homepage = 'https://apps.gnome.org/Binary'
+
+[[package]]
+channel = 'arch'
+name = 'binary'

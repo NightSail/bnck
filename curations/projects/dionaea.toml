@@ -1,0 +1,8 @@
+id = 'dionaea'
+name = 'dionaea'
+
+homepage = 'https://dionaea.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'dionaea'

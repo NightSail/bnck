@@ -1,0 +1,25 @@
+id = 'borgbackup'
+name = 'borgbackup'
+
+homepage = 'https://borgbackup.github.io/borgbackup'
+repository = 'https://github.com/borgbackup/borg.git'
+
+[[package]]
+channel = 'debian'
+name = 'borgbackup'
+
+[[package]]
+channel = 'debian'
+name = 'borgbackup-is-borgbackup2'
+
+[[package]]
+channel = 'debian'
+name = 'borgbackup2'
+
+[[package]]
+channel = 'fedora'
+name = 'borgbackup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/borgbackup'

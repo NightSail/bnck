@@ -1,0 +1,12 @@
+id = 'jupyter-nbconvert'
+name = 'jupyter-nbconvert'
+
+homepage = 'https://pypi.python.org/pypi/nbconvert'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-nbconvert'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-nbconvert'

@@ -1,0 +1,8 @@
+id = 'bkchem'
+name = 'bkchem'
+
+homepage = 'https://bkchem.zirael.org'
+
+[[package]]
+channel = 'debian'
+name = 'bkchem'

@@ -1,0 +1,12 @@
+id = 'gtksharp'
+name = 'gtksharp'
+
+homepage = 'https://github.com/GLibSharp/GtkSharp'
+
+[[package]]
+channel = 'arch'
+name = 'gtk-sharp-3'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk-sharp3-gapi'

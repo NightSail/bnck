@@ -1,0 +1,12 @@
+id = 'fontquery'
+name = 'fontquery'
+
+homepage = 'https://github.com/fedora-i18n/fontquery'
+
+[[package]]
+channel = 'fedora'
+name = 'fontquery'
+
+[[package]]
+channel = 'fedora'
+name = 'fontquery-builder'

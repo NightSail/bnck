@@ -1,0 +1,8 @@
+id = 'giada'
+name = 'giada'
+
+homepage = 'https://www.giadamusic.com'
+
+[[package]]
+channel = 'debian'
+name = 'giada'

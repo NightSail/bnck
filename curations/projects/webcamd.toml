@@ -1,0 +1,8 @@
+id = 'webcamd'
+name = 'webcamd'
+
+homepage = 'https://web.archive.org/web/20031216024525/http://webcamd.tuxfamily.org/index_en.html'
+
+[[package]]
+channel = 'debian'
+name = 'webcamd'

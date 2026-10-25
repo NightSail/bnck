@@ -1,0 +1,8 @@
+id = 'ghc-hakyll-devel'
+name = 'ghc-hakyll-devel'
+
+homepage = 'https://hackage.haskell.org/package/hakyll'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-hakyll-devel'

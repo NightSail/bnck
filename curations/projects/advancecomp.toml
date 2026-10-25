@@ -1,0 +1,16 @@
+id = 'advancecomp'
+name = 'advancecomp'
+
+homepage = 'https://www.advancemame.it/comp-readme.html'
+
+[[package]]
+channel = 'debian'
+name = 'advancecomp'
+
+[[package]]
+channel = 'fedora'
+name = 'advancecomp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/advancecomp'

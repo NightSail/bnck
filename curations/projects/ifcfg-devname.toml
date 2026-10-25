@@ -1,0 +1,8 @@
+id = 'ifcfg-devname'
+name = 'ifcfg-devname'
+
+homepage = 'https://crates.io/crates/ifcfg-devname'
+
+[[package]]
+channel = 'fedora'
+name = 'ifcfg-devname'

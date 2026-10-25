@@ -1,0 +1,12 @@
+id = 'curaengine'
+name = 'CuraEngine'
+
+homepage = 'https://github.com/Ultimaker/CuraEngine'
+
+[[package]]
+channel = 'debian'
+name = 'cura-engine'
+
+[[package]]
+channel = 'fedora'
+name = 'CuraEngine'

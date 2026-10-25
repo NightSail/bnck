@@ -1,0 +1,8 @@
+id = 'ir-lv2'
+name = 'ir.lv2'
+
+homepage = 'https://tomszilagyi.github.io/plugins/ir.lv2'
+
+[[package]]
+channel = 'debian'
+name = 'ir.lv2'

@@ -1,0 +1,8 @@
+id = 'libksba'
+name = 'libksba'
+
+homepage = 'https://www.gnupg.org/related_software/libksba'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libksba'

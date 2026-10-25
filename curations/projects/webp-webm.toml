@@ -1,0 +1,9 @@
+id = 'webp-webm'
+name = 'webp'
+
+homepage = 'https://developers.google.com/speed/webp'
+repository = 'https://chromium.googlesource.com/webm/libwebp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webp'

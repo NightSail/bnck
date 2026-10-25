@@ -1,0 +1,12 @@
+id = 'repro-env'
+name = 'repro-env'
+
+homepage = 'https://github.com/kpcyrd/repro-env'
+
+[[package]]
+channel = 'arch'
+name = 'repro-env'
+
+[[package]]
+channel = 'debian'
+name = 'repro-env'

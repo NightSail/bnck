@@ -1,0 +1,8 @@
+id = 'nextpnr-ice40'
+name = 'nextpnr-ice40'
+
+repository = 'https://github.com/YosysHQ/nextpnr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nextpnr-ice40'

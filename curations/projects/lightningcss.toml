@@ -1,0 +1,8 @@
+id = 'lightningcss'
+name = 'lightningcss'
+
+homepage = 'https://lightningcss.dev'
+
+[[package]]
+channel = 'debian'
+name = 'lightningcss'

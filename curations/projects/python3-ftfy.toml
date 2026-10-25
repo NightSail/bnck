@@ -1,0 +1,12 @@
+id = 'python3-ftfy'
+name = 'python3-ftfy'
+
+homepage = 'https://github.com/rspeer/python-ftfy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ftfy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ftfy'

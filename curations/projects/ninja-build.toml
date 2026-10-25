@@ -1,0 +1,16 @@
+id = 'ninja-build'
+name = 'ninja-build'
+
+homepage = 'https://ninja-build.org'
+
+[[package]]
+channel = 'arch'
+name = 'ninja'
+
+[[package]]
+channel = 'debian'
+name = 'ninja-build'
+
+[[package]]
+channel = 'fedora'
+name = 'ninja-build'

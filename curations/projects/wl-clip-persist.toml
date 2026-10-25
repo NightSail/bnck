@@ -1,0 +1,8 @@
+id = 'wl-clip-persist'
+name = 'wl-clip-persist'
+
+homepage = 'https://github.com/Linus789/wl-clip-persist'
+
+[[package]]
+channel = 'arch'
+name = 'wl-clip-persist'

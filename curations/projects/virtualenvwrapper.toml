@@ -1,0 +1,8 @@
+id = 'virtualenvwrapper'
+name = 'virtualenvwrapper'
+
+homepage = 'https://virtualenvwrapper.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virtualenvwrapper'

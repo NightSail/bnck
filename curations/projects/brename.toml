@@ -1,0 +1,8 @@
+id = 'brename'
+name = 'brename'
+
+homepage = 'https://github.com/shenwei356/brename'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brename'

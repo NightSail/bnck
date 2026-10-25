@@ -1,0 +1,8 @@
+id = 'websploit'
+name = 'websploit'
+
+homepage = 'https://sourceforge.net/projects/websploit'
+
+[[package]]
+channel = 'debian'
+name = 'websploit'

@@ -1,0 +1,8 @@
+id = 'rteval'
+name = 'rteval'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/rteval/rteval.git'
+
+[[package]]
+channel = 'fedora'
+name = 'rteval'

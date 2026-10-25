@@ -1,0 +1,8 @@
+id = 'maven-cache-cleanup'
+name = 'maven-cache-cleanup'
+
+homepage = 'https://github.com/nadestin/tools'
+
+[[package]]
+channel = 'debian'
+name = 'maven-cache-cleanup'

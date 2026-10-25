@@ -1,0 +1,8 @@
+id = 'hashdeep'
+name = 'hashdeep'
+
+homepage = 'https://md5deep.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'hashdeep'

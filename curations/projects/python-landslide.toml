@@ -1,0 +1,8 @@
+id = 'python-landslide'
+name = 'python-landslide'
+
+homepage = 'https://github.com/adamzap/landslide'
+
+[[package]]
+channel = 'debian'
+name = 'python-landslide'

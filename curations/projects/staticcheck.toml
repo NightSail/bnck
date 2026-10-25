@@ -1,0 +1,13 @@
+id = 'staticcheck'
+name = 'staticcheck'
+
+homepage = 'https://staticcheck.io'
+repository = 'https://github.com/dominikh/go-tools.git'
+
+[[package]]
+channel = 'arch'
+name = 'staticcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/staticcheck'

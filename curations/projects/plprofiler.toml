@@ -1,0 +1,8 @@
+id = 'plprofiler'
+name = 'plprofiler'
+
+homepage = 'https://github.com/bigsql/plprofiler'
+
+[[package]]
+channel = 'debian'
+name = 'plprofiler'

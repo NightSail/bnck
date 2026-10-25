@@ -1,0 +1,8 @@
+id = 'thttpd'
+name = 'thttpd'
+
+homepage = 'http://www.acme.com/software/thttpd'
+
+[[package]]
+channel = 'fedora'
+name = 'thttpd'

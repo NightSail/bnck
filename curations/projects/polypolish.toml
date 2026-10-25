@@ -1,0 +1,8 @@
+id = 'polypolish'
+name = 'polypolish'
+
+repository = 'https://github.com/rrwick/Polypolish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/polypolish'

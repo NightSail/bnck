@@ -1,0 +1,8 @@
+id = 'mystiq'
+name = 'mystiq'
+
+homepage = 'https://github.com/swl-x/MystiQ'
+
+[[package]]
+channel = 'debian'
+name = 'mystiq'

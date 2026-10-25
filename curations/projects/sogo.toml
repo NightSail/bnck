@@ -1,0 +1,12 @@
+id = 'sogo'
+name = 'sogo'
+
+homepage = 'https://sogo.nu'
+
+[[package]]
+channel = 'debian'
+name = 'sogo'
+
+[[package]]
+channel = 'debian'
+name = 'sope-bin'

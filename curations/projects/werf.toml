@@ -1,0 +1,9 @@
+id = 'werf'
+name = 'werf'
+
+homepage = 'https://werf.io'
+repository = 'https://github.com/werf/werf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/werf'

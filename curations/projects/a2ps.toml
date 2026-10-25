@@ -1,0 +1,20 @@
+id = 'a2ps'
+name = 'a2ps'
+
+homepage = 'https://www.gnu.org/software/a2ps'
+
+[[package]]
+channel = 'arch'
+name = 'a2ps'
+
+[[package]]
+channel = 'debian'
+name = 'a2ps'
+
+[[package]]
+channel = 'fedora'
+name = 'a2ps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/a2ps'

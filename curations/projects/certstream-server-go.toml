@@ -1,0 +1,8 @@
+id = 'certstream-server-go'
+name = 'certstream-server-go'
+
+homepage = 'https://github.com/d-Rickyy-b/certstream-server-go'
+
+[[package]]
+channel = 'debian'
+name = 'certstream-server-go'

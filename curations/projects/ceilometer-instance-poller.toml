@@ -1,0 +1,8 @@
+id = 'ceilometer-instance-poller'
+name = 'ceilometer-instance-poller'
+
+homepage = 'https://salsa.debian.org/openstack-team/services/ceilometer-instance-poller'
+
+[[package]]
+channel = 'debian'
+name = 'ceilometer-instance-poller'

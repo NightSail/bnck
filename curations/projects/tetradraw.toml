@@ -1,0 +1,6 @@
+id = 'tetradraw'
+name = 'tetradraw'
+
+[[package]]
+channel = 'debian'
+name = 'tetradraw'

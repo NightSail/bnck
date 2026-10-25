@@ -1,0 +1,8 @@
+id = 'triggerhappy'
+name = 'triggerhappy'
+
+homepage = 'https://github.com/wertarbyte/triggerhappy'
+
+[[package]]
+channel = 'debian'
+name = 'triggerhappy'

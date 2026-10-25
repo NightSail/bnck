@@ -1,0 +1,8 @@
+id = 'ocrdesktop'
+name = 'ocrdesktop'
+
+homepage = 'https://github.com/chrys87/ocrdesktop'
+
+[[package]]
+channel = 'arch'
+name = 'ocrdesktop'

@@ -1,0 +1,12 @@
+id = 'thonny'
+name = 'thonny'
+
+homepage = 'https://thonny.org'
+
+[[package]]
+channel = 'debian'
+name = 'thonny'
+
+[[package]]
+channel = 'fedora'
+name = 'thonny'

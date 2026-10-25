@@ -1,0 +1,12 @@
+id = 'lxpanel'
+name = 'lxpanel'
+
+homepage = 'https://github.com/lxde/lxpanel'
+
+[[package]]
+channel = 'arch'
+name = 'lxpanel'
+
+[[package]]
+channel = 'debian'
+name = 'lxpanel'

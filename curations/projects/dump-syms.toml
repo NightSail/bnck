@@ -1,0 +1,8 @@
+id = 'dump-syms'
+name = 'dump_syms'
+
+homepage = 'https://github.com/mozilla/dump_syms'
+
+[[package]]
+channel = 'arch'
+name = 'dump_syms'

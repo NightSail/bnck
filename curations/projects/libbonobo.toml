@@ -1,0 +1,8 @@
+id = 'libbonobo'
+name = 'libbonobo'
+
+homepage = 'http://ftp.gnome.org'
+
+[[package]]
+channel = 'fedora'
+name = 'libbonobo'

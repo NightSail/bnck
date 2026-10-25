@@ -1,0 +1,8 @@
+id = 'cnee'
+name = 'cnee'
+
+homepage = 'https://xnee.wordpress.com'
+
+[[package]]
+channel = 'debian'
+name = 'cnee'

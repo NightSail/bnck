@@ -1,0 +1,8 @@
+id = 'ripit'
+name = 'ripit'
+
+homepage = 'http://www.ripit.pl/ripit/news.php'
+
+[[package]]
+channel = 'debian'
+name = 'ripit'

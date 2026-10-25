@@ -1,0 +1,8 @@
+id = 'garmin-forerunner-tools'
+name = 'garmin-forerunner-tools'
+
+homepage = 'https://github.com/phako/garmintools'
+
+[[package]]
+channel = 'debian'
+name = 'garmin-forerunner-tools'

@@ -1,0 +1,8 @@
+id = 'python3-aw-qt'
+name = 'python3-aw-qt'
+
+homepage = 'https://github.com/ActivityWatch/aw-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-aw-qt'

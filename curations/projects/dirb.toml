@@ -1,0 +1,8 @@
+id = 'dirb'
+name = 'dirb'
+
+homepage = 'https://dirb.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dirb'

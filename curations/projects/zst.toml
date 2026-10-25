@@ -1,0 +1,6 @@
+id = 'zst'
+name = 'zst'
+
+[[package]]
+channel = 'debian'
+name = 'zst'

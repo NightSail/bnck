@@ -1,0 +1,8 @@
+id = 'python3-citeproc-py'
+name = 'python3-citeproc-py'
+
+homepage = 'https://github.com/citeproc-py/citeproc-py'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-citeproc-py'

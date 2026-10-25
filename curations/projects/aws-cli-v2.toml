@@ -1,0 +1,8 @@
+id = 'aws-cli-v2'
+name = 'aws-cli-v2'
+
+homepage = 'https://docs.aws.amazon.com/cli'
+
+[[package]]
+channel = 'arch'
+name = 'aws-cli-v2'

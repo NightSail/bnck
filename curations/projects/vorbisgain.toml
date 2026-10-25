@@ -1,0 +1,16 @@
+id = 'vorbisgain'
+name = 'vorbisgain'
+
+homepage = 'https://sjeng.org/vorbisgain.html'
+
+[[package]]
+channel = 'debian'
+name = 'vorbisgain'
+
+[[package]]
+channel = 'fedora'
+name = 'vorbisgain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vorbisgain'

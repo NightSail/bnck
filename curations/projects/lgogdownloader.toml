@@ -1,0 +1,17 @@
+id = 'lgogdownloader'
+name = 'lgogdownloader'
+
+homepage = 'https://sites.google.com/site/gogdownloader'
+repository = 'https://github.com/Sude-/lgogdownloader.git'
+
+[[package]]
+channel = 'debian'
+name = 'lgogdownloader'
+
+[[package]]
+channel = 'fedora'
+name = 'lgogdownloader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lgogdownloader'

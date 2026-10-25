@@ -1,0 +1,9 @@
+id = 'zeptoclaw'
+name = 'zeptoclaw'
+
+homepage = 'https://zeptoclaw.com'
+repository = 'https://github.com/qhkm/zeptoclaw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zeptoclaw'

@@ -1,0 +1,8 @@
+id = 'redocly-cli'
+name = 'redocly-cli'
+
+homepage = 'https://redocly.com/docs/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redocly-cli'

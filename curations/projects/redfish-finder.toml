@@ -1,0 +1,8 @@
+id = 'redfish-finder'
+name = 'redfish-finder'
+
+homepage = 'https://github.com/nhorman/redfish-finder'
+
+[[package]]
+channel = 'fedora'
+name = 'redfish-finder'

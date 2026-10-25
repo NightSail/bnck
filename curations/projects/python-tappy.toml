@@ -1,0 +1,8 @@
+id = 'python-tappy'
+name = 'python-tappy'
+
+homepage = 'https://pypi.python.org/pypi/tap.py'
+
+[[package]]
+channel = 'arch'
+name = 'python-tappy'

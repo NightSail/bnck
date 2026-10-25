@@ -1,0 +1,8 @@
+id = 'checkra1n'
+name = 'checkra1n'
+
+homepage = 'https://checkra.in'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/checkra1n'

@@ -1,0 +1,8 @@
+id = 'snapm'
+name = 'snapm'
+
+homepage = 'https://github.com/snapshotmanager/snapm'
+
+[[package]]
+channel = 'fedora'
+name = 'snapm'

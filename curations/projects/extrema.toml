@@ -1,0 +1,8 @@
+id = 'extrema'
+name = 'extrema'
+
+homepage = 'http://exsitewebware.com/extrema'
+
+[[package]]
+channel = 'fedora'
+name = 'extrema'

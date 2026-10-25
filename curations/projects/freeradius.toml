@@ -1,0 +1,24 @@
+id = 'freeradius'
+name = 'freeradius'
+
+homepage = 'https://freeradius.org'
+
+[[package]]
+channel = 'arch'
+name = 'freeradius'
+
+[[package]]
+channel = 'debian'
+name = 'freeradius'
+
+[[package]]
+channel = 'debian'
+name = 'freeradius-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'freeradius'
+
+[[package]]
+channel = 'fedora'
+name = 'freeradius-utils'

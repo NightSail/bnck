@@ -1,0 +1,9 @@
+id = 'cloud-provider-kind'
+name = 'cloud-provider-kind'
+
+homepage = 'https://kubernetes-sigs.github.io/cloud-provider-kind'
+repository = 'https://github.com/kubernetes-sigs/cloud-provider-kind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloud-provider-kind'

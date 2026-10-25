@@ -1,0 +1,16 @@
+id = 'whipper'
+name = 'whipper'
+
+homepage = 'https://github.com/whipper-team/whipper'
+
+[[package]]
+channel = 'arch'
+name = 'whipper'
+
+[[package]]
+channel = 'debian'
+name = 'whipper'
+
+[[package]]
+channel = 'fedora'
+name = 'whipper'

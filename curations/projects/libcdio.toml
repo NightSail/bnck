@@ -1,0 +1,28 @@
+id = 'libcdio'
+name = 'libcdio'
+
+homepage = 'https://www.gnu.org/software/libcdio'
+
+[[package]]
+channel = 'arch'
+name = 'libcdio'
+
+[[package]]
+channel = 'arch'
+name = 'libcdio-paranoia'
+
+[[package]]
+channel = 'debian'
+name = 'cd-paranoia'
+
+[[package]]
+channel = 'debian'
+name = 'libcdio-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libcdio'
+
+[[package]]
+channel = 'fedora'
+name = 'libcdio-paranoia'

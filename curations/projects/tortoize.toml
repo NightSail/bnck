@@ -1,0 +1,8 @@
+id = 'tortoize'
+name = 'tortoize'
+
+homepage = 'https://github.com/PDB-REDO/tortoize'
+
+[[package]]
+channel = 'debian'
+name = 'tortoize'

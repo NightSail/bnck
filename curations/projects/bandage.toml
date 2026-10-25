@@ -1,0 +1,8 @@
+id = 'bandage'
+name = 'bandage'
+
+homepage = 'https://rrwick.github.io/Bandage'
+
+[[package]]
+channel = 'debian'
+name = 'bandage'

@@ -1,0 +1,16 @@
+id = 'openpace'
+name = 'openpace'
+
+homepage = 'https://frankmorgner.github.io/openpace'
+
+[[package]]
+channel = 'arch'
+name = 'openpace'
+
+[[package]]
+channel = 'debian'
+name = 'openpace'
+
+[[package]]
+channel = 'fedora'
+name = 'openpace'

@@ -1,0 +1,12 @@
+id = 'audit'
+name = 'audit'
+
+homepage = 'https://people.redhat.com/sgrubb/audit'
+
+[[package]]
+channel = 'debian'
+name = 'audispd-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'auditd'

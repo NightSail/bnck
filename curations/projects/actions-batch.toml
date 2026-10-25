@@ -1,0 +1,9 @@
+id = 'actions-batch'
+name = 'actions-batch'
+
+homepage = 'https://blog.alexellis.io/github-actions-timesharing-supercomputer'
+repository = 'https://github.com/alexellis/actions-batch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/actions-batch'

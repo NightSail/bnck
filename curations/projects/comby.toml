@@ -1,0 +1,8 @@
+id = 'comby'
+name = 'comby'
+
+homepage = 'https://comby.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/comby'

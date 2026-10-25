@@ -1,0 +1,12 @@
+id = 'visualvm'
+name = 'visualvm'
+
+homepage = 'https://visualvm.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'visualvm'
+
+[[package]]
+channel = 'debian'
+name = 'visualvm'

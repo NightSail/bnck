@@ -1,0 +1,8 @@
+id = 'mine-detector'
+name = 'mine_detector'
+
+homepage = 'https://pragmada.x10hosting.com/mindet.html'
+
+[[package]]
+channel = 'fedora'
+name = 'mine_detector'

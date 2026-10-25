@@ -1,0 +1,10 @@
+id = 'pommed'
+name = 'pommed'
+
+[[package]]
+channel = 'debian'
+name = 'pommed'
+
+[[package]]
+channel = 'debian'
+name = 'wmpomme'

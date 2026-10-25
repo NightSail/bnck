@@ -1,0 +1,8 @@
+id = 'pipelight'
+name = 'pipelight'
+
+repository = 'https://github.com/crocuda/pipelight.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipelight'

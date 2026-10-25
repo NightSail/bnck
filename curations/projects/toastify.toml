@@ -1,0 +1,8 @@
+id = 'toastify'
+name = 'toastify'
+
+homepage = 'https://github.com/hoodie/toastify'
+
+[[package]]
+channel = 'arch'
+name = 'toastify'

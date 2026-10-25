@@ -1,0 +1,12 @@
+id = 'sarg'
+name = 'sarg'
+
+homepage = 'http://sarg.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'sarg'
+
+[[package]]
+channel = 'debian'
+name = 'sarg'

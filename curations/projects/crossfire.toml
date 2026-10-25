@@ -1,0 +1,16 @@
+id = 'crossfire'
+name = 'crossfire'
+
+homepage = 'http://crossfire.real-time.com'
+
+[[package]]
+channel = 'debian'
+name = 'crossfire-server'
+
+[[package]]
+channel = 'fedora'
+name = 'crossfire'
+
+[[package]]
+channel = 'fedora'
+name = 'crossfire-client'

@@ -1,0 +1,16 @@
+id = 'sdl12-compat'
+name = 'sdl12-compat'
+
+homepage = 'https://github.com/libsdl-org/sdl12-compat'
+
+[[package]]
+channel = 'arch'
+name = 'sdl12-compat'
+
+[[package]]
+channel = 'debian'
+name = 'libsdl1.2-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'sdl12-compat-devel'

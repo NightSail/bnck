@@ -1,0 +1,9 @@
+id = 'libmonome'
+name = 'libmonome'
+
+homepage = 'https://monome.org'
+repository = 'https://github.com/monome/libmonome.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmonome'

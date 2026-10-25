@@ -1,0 +1,8 @@
+id = 'pymoctool'
+name = 'pymoctool'
+
+homepage = 'https://github.com/grahambell/pymoc'
+
+[[package]]
+channel = 'debian'
+name = 'pymoctool'

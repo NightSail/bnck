@@ -1,0 +1,8 @@
+id = 'wmfire'
+name = 'wmfire'
+
+homepage = 'https://www.improbability.net'
+
+[[package]]
+channel = 'debian'
+name = 'wmfire'

@@ -1,0 +1,17 @@
+id = 'pdsh'
+name = 'pdsh'
+
+homepage = 'https://software.llnl.gov/repo'
+repository = 'https://github.com/chaos/pdsh.git'
+
+[[package]]
+channel = 'debian'
+name = 'pdsh'
+
+[[package]]
+channel = 'fedora'
+name = 'pdsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdsh'

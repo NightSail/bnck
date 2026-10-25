@@ -1,0 +1,20 @@
+id = 'libdv'
+name = 'libdv'
+
+homepage = 'https://libdv.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libdv'
+
+[[package]]
+channel = 'debian'
+name = 'libdv-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libdv-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdv'

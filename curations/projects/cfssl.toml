@@ -4,6 +4,10 @@ name = 'cfssl'
 repository = 'https://github.com/cloudflare/cfssl'
 
 [[package]]
+channel = 'arch'
+name = 'cfssl'
+
+[[package]]
 channel = 'debian'
 name = 'golang-cfssl'
 

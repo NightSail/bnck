@@ -1,0 +1,8 @@
+id = 'cyrus-timezones'
+name = 'cyrus-timezones'
+
+homepage = 'https://github.com/cyrusimap/cyrus-timezones'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-timezones'

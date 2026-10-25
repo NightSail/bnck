@@ -1,0 +1,6 @@
+id = 'hdup'
+name = 'hdup'
+
+[[package]]
+channel = 'debian'
+name = 'hdup'

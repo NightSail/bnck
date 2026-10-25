@@ -1,0 +1,20 @@
+id = 'acpid2'
+name = 'acpid2'
+
+homepage = 'https://sourceforge.net/projects/acpid2'
+
+[[package]]
+channel = 'arch'
+name = 'acpid'
+
+[[package]]
+channel = 'debian'
+name = 'acpid'
+
+[[package]]
+channel = 'debian'
+name = 'kacpimon'
+
+[[package]]
+channel = 'fedora'
+name = 'acpid'

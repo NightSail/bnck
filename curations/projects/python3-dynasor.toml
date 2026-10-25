@@ -1,0 +1,8 @@
+id = 'python3-dynasor'
+name = 'python3-dynasor'
+
+homepage = 'https://dynasor.materialsmodeling.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dynasor'

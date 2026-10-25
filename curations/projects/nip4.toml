@@ -1,0 +1,12 @@
+id = 'nip4'
+name = 'nip4'
+
+repository = 'https://github.com/libvips/nip4.git'
+
+[[package]]
+channel = 'debian'
+name = 'nip4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nip4'

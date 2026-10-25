@@ -1,0 +1,8 @@
+id = 'isomaster'
+name = 'isomaster'
+
+homepage = 'http://littlesvr.ca/isomaster'
+
+[[package]]
+channel = 'fedora'
+name = 'isomaster'

@@ -1,0 +1,12 @@
+id = 'wivrn'
+name = 'wivrn'
+
+homepage = 'https://github.com/WiVRn/WiVRn'
+
+[[package]]
+channel = 'fedora'
+name = 'wivrn'
+
+[[package]]
+channel = 'fedora'
+name = 'wivrn-dashboard'

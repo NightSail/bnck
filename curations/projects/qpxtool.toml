@@ -1,0 +1,12 @@
+id = 'qpxtool'
+name = 'qpxtool'
+
+homepage = 'https://qpxtool.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'pxfw'
+
+[[package]]
+channel = 'debian'
+name = 'qpxtool'

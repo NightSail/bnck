@@ -1,0 +1,8 @@
+id = 'bashish'
+name = 'bashish'
+
+homepage = 'https://bashish.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bashish'

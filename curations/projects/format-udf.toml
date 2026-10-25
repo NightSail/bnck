@@ -1,0 +1,8 @@
+id = 'format-udf'
+name = 'format-udf'
+
+homepage = 'https://github.com/JElchison/format-udf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/format-udf'

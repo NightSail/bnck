@@ -1,0 +1,28 @@
+id = 'drumstick'
+name = 'drumstick'
+
+homepage = 'https://drumstick.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'drumstick'
+
+[[package]]
+channel = 'fedora'
+name = 'drumstick-drumgrid'
+
+[[package]]
+channel = 'fedora'
+name = 'drumstick-dumprmi'
+
+[[package]]
+channel = 'fedora'
+name = 'drumstick-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'drumstick-guiplayer'
+
+[[package]]
+channel = 'fedora'
+name = 'drumstick-vpiano'

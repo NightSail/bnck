@@ -1,0 +1,8 @@
+id = 'conflict'
+name = 'conflict'
+
+homepage = 'https://invisible-island.net/conflict/conflict.html'
+
+[[package]]
+channel = 'fedora'
+name = 'conflict'

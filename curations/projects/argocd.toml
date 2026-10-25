@@ -1,0 +1,13 @@
+id = 'argocd'
+name = 'argocd'
+
+homepage = 'https://argo-cd.readthedocs.io/en/stable'
+repository = 'https://github.com/argoproj/argo-cd.git'
+
+[[package]]
+channel = 'arch'
+name = 'argocd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argocd'

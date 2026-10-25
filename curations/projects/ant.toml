@@ -1,0 +1,21 @@
+id = 'ant'
+name = 'ant'
+
+homepage = 'https://ant.apache.org'
+repository = 'https://git-wip-us.apache.org/repos/asf/ant.git'
+
+[[package]]
+channel = 'arch'
+name = 'ant'
+
+[[package]]
+channel = 'debian'
+name = 'ant'
+
+[[package]]
+channel = 'fedora'
+name = 'ant'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ant'

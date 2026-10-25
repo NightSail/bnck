@@ -1,0 +1,8 @@
+id = 'hyperorg'
+name = 'hyperorg'
+
+homepage = 'https://codeberg.org/buhtz/hyperorg'
+
+[[package]]
+channel = 'debian'
+name = 'hyperorg'

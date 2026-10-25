@@ -1,0 +1,12 @@
+id = 'android-tools'
+name = 'android-tools'
+
+homepage = 'https://developer.android.com/tools'
+
+[[package]]
+channel = 'arch'
+name = 'android-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'android-tools'

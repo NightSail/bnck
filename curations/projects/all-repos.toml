@@ -1,0 +1,8 @@
+id = 'all-repos'
+name = 'all-repos'
+
+homepage = 'https://github.com/asottile/all-repos'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/all-repos'

@@ -1,0 +1,8 @@
+id = 'htop-engossoftware'
+name = 'htop'
+
+repository = 'https://github.com/EngosSoftware/htop.git'
+
+[[package]]
+channel = 'crates.io'
+name = 'htop'

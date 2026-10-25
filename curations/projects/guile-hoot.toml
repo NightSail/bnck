@@ -1,0 +1,8 @@
+id = 'guile-hoot'
+name = 'guile-hoot'
+
+homepage = 'https://codeberg.org/spritely/hoot'
+
+[[package]]
+channel = 'debian'
+name = 'guile-hoot'

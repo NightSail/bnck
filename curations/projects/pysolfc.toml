@@ -1,0 +1,12 @@
+id = 'pysolfc'
+name = 'pysolfc'
+
+homepage = 'http://pysolfc.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'pysolfc'
+
+[[package]]
+channel = 'fedora'
+name = 'PySolFC'

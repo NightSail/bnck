@@ -1,0 +1,10 @@
+id = 'cdebootstrap'
+name = 'cdebootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'cdebootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'cdebootstrap-static'

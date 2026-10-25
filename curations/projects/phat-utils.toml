@@ -1,0 +1,8 @@
+id = 'phat-utils'
+name = 'phat-utils'
+
+homepage = 'https://bitbucket.org/phat-code/phat'
+
+[[package]]
+channel = 'debian'
+name = 'phat-utils'

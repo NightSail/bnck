@@ -1,0 +1,8 @@
+id = 'scim-fcitx-tools'
+name = 'scim-fcitx-tools'
+
+homepage = 'https://github.com/scim-im/scim-fcitx'
+
+[[package]]
+channel = 'fedora'
+name = 'scim-fcitx-tools'

@@ -1,0 +1,8 @@
+id = 'cis-tools'
+name = 'cis-tools'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/cis-tools/cis-tools.git'
+
+[[package]]
+channel = 'debian'
+name = 'cis-tools'

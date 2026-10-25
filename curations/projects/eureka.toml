@@ -1,0 +1,17 @@
+id = 'eureka'
+name = 'eureka'
+
+homepage = 'https://github.com/ioan-chera/eureka-editor'
+repository = 'https://github.com/simeg/eureka.git'
+
+[[package]]
+channel = 'debian'
+name = 'eureka'
+
+[[package]]
+channel = 'fedora'
+name = 'eureka'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eureka'

@@ -1,0 +1,8 @@
+id = 'dclock'
+name = 'dclock'
+
+homepage = 'http://opencircuitdesign.com/~tim/programs/dclock/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'dclock'

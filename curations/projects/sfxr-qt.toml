@@ -1,0 +1,8 @@
+id = 'sfxr-qt'
+name = 'sfxr-qt'
+
+homepage = 'https://github.com/agateau/sfxr-qt'
+
+[[package]]
+channel = 'debian'
+name = 'sfxr-qt'

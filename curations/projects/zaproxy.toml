@@ -1,0 +1,8 @@
+id = 'zaproxy'
+name = 'zaproxy'
+
+homepage = 'https://www.zaproxy.org'
+
+[[package]]
+channel = 'arch'
+name = 'zaproxy'

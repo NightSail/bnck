@@ -1,0 +1,12 @@
+id = 'sshx'
+name = 'sshx'
+
+homepage = 'https://sshx.io'
+
+[[package]]
+channel = 'arch'
+name = 'sshx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshx'

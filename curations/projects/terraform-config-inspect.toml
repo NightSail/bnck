@@ -1,0 +1,8 @@
+id = 'terraform-config-inspect'
+name = 'terraform-config-inspect'
+
+homepage = 'https://github.com/hashicorp/terraform-config-inspect'
+
+[[package]]
+channel = 'debian'
+name = 'terraform-config-inspect'

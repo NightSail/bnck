@@ -1,0 +1,16 @@
+id = 'nekovm'
+name = 'nekovm'
+
+homepage = 'https://nekovm.org'
+
+[[package]]
+channel = 'arch'
+name = 'neko'
+
+[[package]]
+channel = 'debian'
+name = 'neko'
+
+[[package]]
+channel = 'fedora'
+name = 'nekovm'

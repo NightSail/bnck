@@ -1,0 +1,16 @@
+id = 'skylighting'
+name = 'skylighting'
+
+homepage = 'https://github.com/jgm/skylighting'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-skylighting-core'
+
+[[package]]
+channel = 'debian'
+name = 'skylighting'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skylighting'

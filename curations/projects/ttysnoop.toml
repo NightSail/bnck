@@ -1,0 +1,8 @@
+id = 'ttysnoop'
+name = 'ttysnoop'
+
+homepage = 'https://linuxgazette.net/issue48/tag/52.html'
+
+[[package]]
+channel = 'debian'
+name = 'ttysnoop'

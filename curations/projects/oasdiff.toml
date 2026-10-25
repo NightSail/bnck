@@ -1,0 +1,9 @@
+id = 'oasdiff'
+name = 'oasdiff'
+
+homepage = 'https://www.oasdiff.com'
+repository = 'https://github.com/oasdiff/oasdiff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oasdiff'

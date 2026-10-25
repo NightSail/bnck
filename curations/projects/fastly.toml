@@ -1,0 +1,9 @@
+id = 'fastly'
+name = 'fastly'
+
+homepage = 'https://www.fastly.com/documentation/reference/cli'
+repository = 'https://github.com/fastly/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastly'

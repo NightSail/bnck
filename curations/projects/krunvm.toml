@@ -6,3 +6,7 @@ homepage = 'https://github.com/containers/krunvm'
 [[package]]
 channel = 'arch'
 name = 'krunvm'
+
+[[package]]
+channel = 'fedora'
+name = 'krunvm'

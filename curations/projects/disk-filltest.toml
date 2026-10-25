@@ -1,0 +1,8 @@
+id = 'disk-filltest'
+name = 'disk-filltest'
+
+homepage = 'https://panthema.net/2013/disk-filltest'
+
+[[package]]
+channel = 'debian'
+name = 'disk-filltest'

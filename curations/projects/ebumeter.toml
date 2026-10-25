@@ -1,0 +1,12 @@
+id = 'ebumeter'
+name = 'ebumeter'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/ebumeter-doc/quickguide.html'
+
+[[package]]
+channel = 'arch'
+name = 'ebumeter'
+
+[[package]]
+channel = 'debian'
+name = 'ebumeter'

@@ -1,0 +1,12 @@
+id = 'sourcetreeapp'
+name = 'sourcetreeapp'
+
+homepage = 'https://www.sourcetreeapp.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sourcetree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sourcetree@beta'

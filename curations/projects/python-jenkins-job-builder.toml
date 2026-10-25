@@ -1,0 +1,8 @@
+id = 'python-jenkins-job-builder'
+name = 'python-jenkins-job-builder'
+
+homepage = 'https://jenkins-job-builder.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'fedora'
+name = 'python-jenkins-job-builder'

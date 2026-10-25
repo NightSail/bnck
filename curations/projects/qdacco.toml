@@ -1,0 +1,8 @@
+id = 'qdacco'
+name = 'qdacco'
+
+homepage = 'https://github.com/cpina/qdacco'
+
+[[package]]
+channel = 'debian'
+name = 'qdacco'

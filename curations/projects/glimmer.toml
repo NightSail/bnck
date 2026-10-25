@@ -1,0 +1,8 @@
+id = 'glimmer'
+name = 'glimmer'
+
+homepage = 'http://www.cbcb.umd.edu/software/glimmer'
+
+[[package]]
+channel = 'fedora'
+name = 'glimmer'

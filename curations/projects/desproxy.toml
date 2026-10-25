@@ -1,0 +1,8 @@
+id = 'desproxy'
+name = 'desproxy'
+
+homepage = 'https://sourceforge.net/projects/desproxy'
+
+[[package]]
+channel = 'debian'
+name = 'desproxy'

@@ -1,0 +1,8 @@
+id = 'basedpyright'
+name = 'basedpyright'
+
+homepage = 'https://docs.basedpyright.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/basedpyright'

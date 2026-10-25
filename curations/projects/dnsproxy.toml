@@ -1,0 +1,12 @@
+id = 'dnsproxy'
+name = 'dnsproxy'
+
+homepage = 'https://github.com/AdguardTeam/dnsproxy'
+
+[[package]]
+channel = 'arch'
+name = 'dnsproxy'
+
+[[package]]
+channel = 'debian'
+name = 'dnsproxy'

@@ -1,0 +1,25 @@
+id = 'openimageio'
+name = 'openimageio'
+
+homepage = 'http://www.openimageio.org'
+repository = 'https://github.com/AcademySoftwareFoundation/OpenImageIO.git'
+
+[[package]]
+channel = 'arch'
+name = 'openimageio'
+
+[[package]]
+channel = 'debian'
+name = 'openimageio-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenImageIO-iv'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenImageIO-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openimageio'

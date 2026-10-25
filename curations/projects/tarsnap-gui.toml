@@ -1,0 +1,9 @@
+id = 'tarsnap-gui'
+name = 'tarsnap-gui'
+
+homepage = 'https://www.tarsnap.com'
+repository = 'https://github.com/Tarsnap/tarsnap-gui.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tarsnap-gui'

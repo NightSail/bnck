@@ -1,0 +1,8 @@
+id = 'lndir'
+name = 'lndir'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/util/lndir'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lndir'

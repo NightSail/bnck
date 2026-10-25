@@ -1,0 +1,6 @@
+id = 'cldump'
+name = 'cldump'
+
+[[package]]
+channel = 'debian'
+name = 'cldump'

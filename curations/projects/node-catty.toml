@@ -1,0 +1,8 @@
+id = 'node-catty'
+name = 'node-catty'
+
+homepage = 'https://github.com/mbloch/catty'
+
+[[package]]
+channel = 'debian'
+name = 'node-catty'

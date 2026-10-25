@@ -1,0 +1,16 @@
+id = 'xmobar'
+name = 'xmobar'
+
+homepage = 'https://codeberg.org/xmobar/xmobar'
+
+[[package]]
+channel = 'arch'
+name = 'xmobar'
+
+[[package]]
+channel = 'debian'
+name = 'xmobar'
+
+[[package]]
+channel = 'fedora'
+name = 'xmobar'

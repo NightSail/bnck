@@ -1,0 +1,8 @@
+id = 'gexec'
+name = 'gexec'
+
+homepage = 'https://github.com/fboender/gexec'
+
+[[package]]
+channel = 'debian'
+name = 'gexec'

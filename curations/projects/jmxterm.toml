@@ -1,0 +1,8 @@
+id = 'jmxterm'
+name = 'jmxterm'
+
+homepage = 'https://docs.cyclopsgroup.org/jmxterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jmxterm'

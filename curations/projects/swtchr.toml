@@ -1,0 +1,8 @@
+id = 'swtchr'
+name = 'swtchr'
+
+homepage = 'https://github.com/lostatc/swtchr'
+
+[[package]]
+channel = 'debian'
+name = 'swtchr'

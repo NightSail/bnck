@@ -1,0 +1,12 @@
+id = 'drawy'
+name = 'drawy'
+
+homepage = 'https://apps.kde.org/drawy'
+
+[[package]]
+channel = 'arch'
+name = 'drawy'
+
+[[package]]
+channel = 'debian'
+name = 'drawy'

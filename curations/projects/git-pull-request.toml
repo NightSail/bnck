@@ -1,0 +1,8 @@
+id = 'git-pull-request'
+name = 'git-pull-request'
+
+homepage = 'https://github.com/Mergifyio/git-pull-request'
+
+[[package]]
+channel = 'fedora'
+name = 'git-pull-request'

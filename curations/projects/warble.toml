@@ -1,0 +1,8 @@
+id = 'warble'
+name = 'warble'
+
+homepage = 'https://github.com/avojak/warble'
+
+[[package]]
+channel = 'fedora'
+name = 'warble'

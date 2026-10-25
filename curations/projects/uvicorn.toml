@@ -1,0 +1,17 @@
+id = 'uvicorn'
+name = 'uvicorn'
+
+homepage = 'https://github.com/encode/uvicorn'
+repository = 'https://github.com/Kludex/uvicorn.git'
+
+[[package]]
+channel = 'arch'
+name = 'uvicorn'
+
+[[package]]
+channel = 'debian'
+name = 'uvicorn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uvicorn'

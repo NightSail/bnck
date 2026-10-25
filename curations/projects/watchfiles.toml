@@ -1,0 +1,16 @@
+id = 'watchfiles'
+name = 'watchfiles'
+
+homepage = 'https://github.com/samuelcolvin/watchfiles'
+
+[[package]]
+channel = 'arch'
+name = 'python-watchfiles'
+
+[[package]]
+channel = 'debian'
+name = 'python3-watchfiles'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-watchfiles'

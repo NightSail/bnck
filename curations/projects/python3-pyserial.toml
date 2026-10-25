@@ -1,0 +1,8 @@
+id = 'python3-pyserial'
+name = 'python3-pyserial'
+
+homepage = 'http://pypi.python.org/pypi/pyserial'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyserial'

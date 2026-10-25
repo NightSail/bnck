@@ -1,0 +1,8 @@
+id = 'eta'
+name = 'eta'
+
+homepage = 'https://github.com/aioobe/eta'
+
+[[package]]
+channel = 'debian'
+name = 'eta'

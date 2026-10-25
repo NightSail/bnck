@@ -1,0 +1,12 @@
+id = 'apt-cacher-ng'
+name = 'apt-cacher-ng'
+
+homepage = 'http://www.unix-ag.uni-kl.de/~bloch/acng'
+
+[[package]]
+channel = 'debian'
+name = 'apt-cacher-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'apt-cacher-ng'

@@ -1,0 +1,8 @@
+id = 'macupdater'
+name = 'macupdater'
+
+homepage = 'https://www.corecode.io/macupdater/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/macupdater'

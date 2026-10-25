@@ -1,0 +1,12 @@
+id = 'igmpproxy'
+name = 'igmpproxy'
+
+homepage = 'https://github.com/pali/igmpproxy'
+
+[[package]]
+channel = 'arch'
+name = 'igmpproxy'
+
+[[package]]
+channel = 'debian'
+name = 'igmpproxy'

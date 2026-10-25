@@ -1,0 +1,8 @@
+id = 'namecheap'
+name = 'namecheap'
+
+homepage = 'https://github.com/Bemmu/PyNamecheap/releases'
+
+[[package]]
+channel = 'debian'
+name = 'namecheap'

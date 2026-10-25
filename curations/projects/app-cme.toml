@@ -1,0 +1,12 @@
+id = 'app-cme'
+name = 'App-Cme'
+
+homepage = 'https://metacpan.org/release/App-Cme'
+
+[[package]]
+channel = 'debian'
+name = 'cme'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-Cme'

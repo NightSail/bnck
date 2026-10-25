@@ -1,0 +1,8 @@
+id = 'prometheus-tplink-plug-exporter'
+name = 'prometheus-tplink-plug-exporter'
+
+homepage = 'https://github.com/fffonion/tplink-plug-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-tplink-plug-exporter'

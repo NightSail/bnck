@@ -1,0 +1,16 @@
+id = 'emby'
+name = 'emby'
+
+homepage = 'https://emby.media'
+
+[[package]]
+channel = 'arch'
+name = 'emby-ffmpeg'
+
+[[package]]
+channel = 'arch'
+name = 'emby-server'
+
+[[package]]
+channel = 'arch'
+name = 'emby-theater'

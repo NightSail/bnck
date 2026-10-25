@@ -1,0 +1,8 @@
+id = 'ecj'
+name = 'ecj'
+
+homepage = 'https://www.eclipse.org/jdt/core'
+
+[[package]]
+channel = 'debian'
+name = 'ecj'

@@ -1,0 +1,16 @@
+id = 'kmod'
+name = 'kmod'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git'
+
+[[package]]
+channel = 'arch'
+name = 'kmod'
+
+[[package]]
+channel = 'debian'
+name = 'kmod'
+
+[[package]]
+channel = 'fedora'
+name = 'kmod'

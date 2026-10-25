@@ -1,0 +1,8 @@
+id = 'stegosuite'
+name = 'stegosuite'
+
+homepage = 'https://codeberg.org/tob/stegosuite'
+
+[[package]]
+channel = 'debian'
+name = 'stegosuite'

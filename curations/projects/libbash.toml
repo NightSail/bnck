@@ -1,0 +1,8 @@
+id = 'libbash'
+name = 'libbash'
+
+homepage = 'https://sourceforge.net/projects/libbash'
+
+[[package]]
+channel = 'debian'
+name = 'libbash'

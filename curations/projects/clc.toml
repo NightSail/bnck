@@ -1,0 +1,8 @@
+id = 'clc'
+name = 'clc'
+
+homepage = 'http://github.com/elanthis/clc/tree/master'
+
+[[package]]
+channel = 'fedora'
+name = 'clc'

@@ -1,0 +1,9 @@
+id = 'libcouchbase'
+name = 'libcouchbase'
+
+homepage = 'https://docs.couchbase.com/c-sdk/current/hello-world/start-using-sdk.html'
+repository = 'https://github.com/couchbase/libcouchbase.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcouchbase'

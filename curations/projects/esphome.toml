@@ -1,0 +1,13 @@
+id = 'esphome'
+name = 'esphome'
+
+homepage = 'https://esphome.io'
+repository = 'https://github.com/esphome/esphome.git'
+
+[[package]]
+channel = 'arch'
+name = 'esphome'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/esphome'

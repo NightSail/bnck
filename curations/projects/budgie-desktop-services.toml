@@ -1,0 +1,12 @@
+id = 'budgie-desktop-services'
+name = 'budgie-desktop-services'
+
+homepage = 'https://forge.moderndesktop.dev/BuddiesOfBudgie/budgie-desktop-services'
+
+[[package]]
+channel = 'arch'
+name = 'budgie-desktop-services'
+
+[[package]]
+channel = 'debian'
+name = 'budgie-desktop-services'

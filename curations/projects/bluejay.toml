@@ -1,0 +1,8 @@
+id = 'bluejay'
+name = 'bluejay'
+
+homepage = 'https://github.com/EbonJaeger/bluejay'
+
+[[package]]
+channel = 'fedora'
+name = 'bluejay'

@@ -1,0 +1,12 @@
+id = 'pyserial'
+name = 'pyserial'
+
+homepage = 'https://github.com/pyserial/pyserial'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyserial'
+
+[[package]]
+channel = 'debian'
+name = 'python3-serial'

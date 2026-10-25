@@ -1,0 +1,9 @@
+id = 'kubefwd'
+name = 'kubefwd'
+
+homepage = 'https://kubefwd.com'
+repository = 'https://github.com/txn2/kubefwd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubefwd'

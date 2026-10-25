@@ -1,0 +1,12 @@
+id = 'ltworf-weborf'
+name = 'ltworf'
+
+homepage = 'https://ltworf.codeberg.page/weborf'
+
+[[package]]
+channel = 'debian'
+name = 'qweborf'
+
+[[package]]
+channel = 'debian'
+name = 'weborf'

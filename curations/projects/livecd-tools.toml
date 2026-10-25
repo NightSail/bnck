@@ -1,0 +1,12 @@
+id = 'livecd-tools'
+name = 'livecd-tools'
+
+homepage = 'https://github.com/livecd-tools/livecd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'livecd-iso-to-mediums'
+
+[[package]]
+channel = 'fedora'
+name = 'livecd-tools'

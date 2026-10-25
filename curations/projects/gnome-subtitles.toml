@@ -1,0 +1,12 @@
+id = 'gnome-subtitles'
+name = 'gnome-subtitles'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-subtitles'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-subtitles'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-subtitles'

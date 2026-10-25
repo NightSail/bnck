@@ -1,0 +1,20 @@
+id = 'timidity'
+name = 'timidity'
+
+homepage = 'https://timidity.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'timidity++'
+
+[[package]]
+channel = 'debian'
+name = 'timidity'
+
+[[package]]
+channel = 'fedora'
+name = 'timidity++'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/timidity'

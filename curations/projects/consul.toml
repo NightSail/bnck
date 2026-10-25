@@ -1,0 +1,12 @@
+id = 'consul'
+name = 'consul'
+
+homepage = 'https://www.consul.io'
+
+[[package]]
+channel = 'arch'
+name = 'consul'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/consul'

@@ -1,0 +1,9 @@
+id = 'sqlpage'
+name = 'sqlpage'
+
+homepage = 'https://sql-page.com'
+repository = 'https://github.com/sqlpage/SQLpage.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlpage'

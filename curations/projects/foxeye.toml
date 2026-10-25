@@ -1,0 +1,8 @@
+id = 'foxeye'
+name = 'foxeye'
+
+homepage = 'https://sourceforge.net/projects/foxeye'
+
+[[package]]
+channel = 'debian'
+name = 'foxeye'

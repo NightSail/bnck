@@ -1,0 +1,8 @@
+id = 'fvs'
+name = 'fvs'
+
+homepage = 'https://github.com/mirkobrombin/FVS'
+
+[[package]]
+channel = 'debian'
+name = 'fvs'

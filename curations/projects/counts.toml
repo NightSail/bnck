@@ -1,0 +1,8 @@
+id = 'counts'
+name = 'counts'
+
+repository = 'https://github.com/nnethercote/counts.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/counts'

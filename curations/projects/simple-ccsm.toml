@@ -1,0 +1,12 @@
+id = 'simple-ccsm'
+name = 'simple-ccsm'
+
+homepage = 'https://gitlab.com/compiz/simple-ccsm'
+
+[[package]]
+channel = 'debian'
+name = 'simple-ccsm'
+
+[[package]]
+channel = 'fedora'
+name = 'simple-ccsm'

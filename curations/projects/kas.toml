@@ -1,0 +1,8 @@
+id = 'kas'
+name = 'kas'
+
+homepage = 'https://github.com/siemens/kas'
+
+[[package]]
+channel = 'debian'
+name = 'kas'

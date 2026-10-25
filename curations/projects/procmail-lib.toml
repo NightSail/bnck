@@ -1,0 +1,8 @@
+id = 'procmail-lib'
+name = 'procmail-lib'
+
+homepage = 'http://savannah.nongnu.org/projects/procmail-lib'
+
+[[package]]
+channel = 'debian'
+name = 'procmail-lib'

@@ -1,0 +1,12 @@
+id = 'pylatexenc'
+name = 'pylatexenc'
+
+homepage = 'https://github.com/phfaist/pylatexenc'
+
+[[package]]
+channel = 'arch'
+name = 'python-pylatexenc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pylatexenc'

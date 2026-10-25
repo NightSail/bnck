@@ -1,0 +1,8 @@
+id = 'cupt'
+name = 'cupt'
+
+homepage = 'https://wiki.debian.org/Cupt'
+
+[[package]]
+channel = 'debian'
+name = 'cupt'

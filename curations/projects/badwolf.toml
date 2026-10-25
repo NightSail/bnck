@@ -1,0 +1,8 @@
+id = 'badwolf'
+name = 'badwolf'
+
+homepage = 'https://hacktivis.me/projects/badwolf'
+
+[[package]]
+channel = 'fedora'
+name = 'badwolf'

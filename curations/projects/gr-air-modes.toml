@@ -1,0 +1,12 @@
+id = 'gr-air-modes'
+name = 'gr-air-modes'
+
+homepage = 'https://github.com/bistromath/gr-air-modes'
+
+[[package]]
+channel = 'debian'
+name = 'gr-air-modes'
+
+[[package]]
+channel = 'fedora'
+name = 'gr-air-modes'

@@ -1,0 +1,12 @@
+id = 'xvkbd'
+name = 'xvkbd'
+
+homepage = 'http://t-sato.in.coocan.jp/xvkbd'
+
+[[package]]
+channel = 'debian'
+name = 'xvkbd'
+
+[[package]]
+channel = 'fedora'
+name = 'xvkbd'

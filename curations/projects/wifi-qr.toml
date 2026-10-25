@@ -1,0 +1,8 @@
+id = 'wifi-qr'
+name = 'wifi-qr'
+
+homepage = 'https://github.com/kokoye2007/wifi-qr'
+
+[[package]]
+channel = 'debian'
+name = 'wifi-qr'

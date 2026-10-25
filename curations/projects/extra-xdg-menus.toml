@@ -1,0 +1,6 @@
+id = 'extra-xdg-menus'
+name = 'extra-xdg-menus'
+
+[[package]]
+channel = 'debian'
+name = 'extra-xdg-menus'

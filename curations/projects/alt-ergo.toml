@@ -1,0 +1,12 @@
+id = 'alt-ergo'
+name = 'alt-ergo'
+
+homepage = 'https://alt-ergo.ocamlpro.com'
+
+[[package]]
+channel = 'fedora'
+name = 'alt-ergo'
+
+[[package]]
+channel = 'fedora'
+name = 'alt-ergo-gui'

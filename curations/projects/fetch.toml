@@ -1,0 +1,9 @@
+id = 'fetch'
+name = 'fetch'
+
+homepage = 'https://www.gruntwork.io'
+repository = 'https://github.com/gruntwork-io/fetch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fetch'

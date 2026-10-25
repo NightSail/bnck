@@ -1,0 +1,12 @@
+id = 'proxmark3'
+name = 'proxmark3'
+
+homepage = 'https://github.com/RfidResearchGroup/proxmark3'
+
+[[package]]
+channel = 'arch'
+name = 'proxmark3'
+
+[[package]]
+channel = 'fedora'
+name = 'proxmark3'

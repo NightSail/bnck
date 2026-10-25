@@ -1,0 +1,44 @@
+id = 'm17n'
+name = 'm17n'
+
+homepage = 'https://www.nongnu.org/m17n'
+
+[[package]]
+channel = 'arch'
+name = 'libotf'
+
+[[package]]
+channel = 'arch'
+name = 'm17n-db'
+
+[[package]]
+channel = 'arch'
+name = 'm17n-lib'
+
+[[package]]
+channel = 'debian'
+name = 'libotf-bin'
+
+[[package]]
+channel = 'debian'
+name = 'm17n-db'
+
+[[package]]
+channel = 'debian'
+name = 'm17n-lib-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libotf'
+
+[[package]]
+channel = 'fedora'
+name = 'm17n-db-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'm17n-lib'
+
+[[package]]
+channel = 'fedora'
+name = 'm17n-lib-tools'

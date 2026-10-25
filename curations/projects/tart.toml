@@ -1,0 +1,8 @@
+id = 'tart'
+name = 'tart'
+
+homepage = 'http://sourceforge.net/projects/linuxtart'
+
+[[package]]
+channel = 'debian'
+name = 'tart'

@@ -1,0 +1,8 @@
+id = 'python-wheel'
+name = 'python-wheel'
+
+homepage = 'https://pypi.python.org/pypi/wheel'
+
+[[package]]
+channel = 'arch'
+name = 'python-wheel'

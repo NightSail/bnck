@@ -1,0 +1,8 @@
+id = 'schemathesis'
+name = 'schemathesis'
+
+homepage = 'https://schemathesis.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/schemathesis'

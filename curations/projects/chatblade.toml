@@ -1,0 +1,12 @@
+id = 'chatblade'
+name = 'chatblade'
+
+homepage = 'https://github.com/npiv/chatblade'
+
+[[package]]
+channel = 'arch'
+name = 'chatblade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chatblade'

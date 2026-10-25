@@ -1,0 +1,8 @@
+id = 'ekg2'
+name = 'ekg2'
+
+repository = 'https://github.com/ekg2/ekg2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ekg2'

@@ -1,0 +1,8 @@
+id = 'itop'
+name = 'itop'
+
+homepage = 'https://github.com/kargig/itop'
+
+[[package]]
+channel = 'fedora'
+name = 'itop'

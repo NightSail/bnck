@@ -1,0 +1,8 @@
+id = 'openctm-tools'
+name = 'openctm-tools'
+
+homepage = 'http://openctm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'openctm-tools'

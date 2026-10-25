@@ -1,0 +1,9 @@
+id = 'valgrind-git'
+name = 'valgrind'
+
+homepage = 'https://www.valgrind.org'
+repository = 'https://sourceware.org/git/valgrind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/valgrind'

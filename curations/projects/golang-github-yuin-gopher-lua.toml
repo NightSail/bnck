@@ -1,0 +1,8 @@
+id = 'golang-github-yuin-gopher-lua'
+name = 'golang-github-yuin-gopher-lua'
+
+homepage = 'https://github.com/yuin/gopher-lua'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-yuin-gopher-lua'

@@ -1,0 +1,8 @@
+id = 'python3-cryptodatahub'
+name = 'python3-cryptodatahub'
+
+homepage = 'https://gitlab.com/coroner/cryptodatahub'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cryptodatahub'

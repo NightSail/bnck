@@ -1,0 +1,8 @@
+id = 'qmfmessageserver'
+name = 'qmfmessageserver'
+
+homepage = 'https://code.qt.io/cgit/qt-labs/messagingframework.git'
+
+[[package]]
+channel = 'debian'
+name = 'qmfmessageserver'

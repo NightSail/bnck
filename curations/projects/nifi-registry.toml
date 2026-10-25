@@ -1,0 +1,8 @@
+id = 'nifi-registry'
+name = 'nifi-registry'
+
+homepage = 'https://nifi.apache.org/projects/registry'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nifi-registry'

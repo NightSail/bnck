@@ -1,0 +1,16 @@
+id = 'festival'
+name = 'festival'
+
+homepage = 'http://festvox.org/festival'
+
+[[package]]
+channel = 'arch'
+name = 'festival'
+
+[[package]]
+channel = 'debian'
+name = 'festival'
+
+[[package]]
+channel = 'fedora'
+name = 'festival'

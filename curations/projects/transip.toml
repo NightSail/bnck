@@ -1,0 +1,8 @@
+id = 'transip'
+name = 'transip'
+
+homepage = 'https://github.com/benkonrath/transip-api'
+
+[[package]]
+channel = 'debian'
+name = 'transip'

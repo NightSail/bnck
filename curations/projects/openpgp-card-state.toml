@@ -1,0 +1,8 @@
+id = 'openpgp-card-state'
+name = 'openpgp-card-state'
+
+homepage = 'https://codeberg.org/openpgp-card/state'
+
+[[package]]
+channel = 'debian'
+name = 'openpgp-card-state'

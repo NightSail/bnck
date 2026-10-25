@@ -1,0 +1,9 @@
+id = 'squid'
+name = 'squid'
+
+homepage = 'https://www.squid-cache.org'
+repository = 'https://github.com/squid-cache/squid.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/squid'

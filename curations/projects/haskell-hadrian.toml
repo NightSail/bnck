@@ -1,0 +1,8 @@
+id = 'haskell-hadrian'
+name = 'haskell-hadrian'
+
+homepage = 'https://gitlab.haskell.org/ghc/ghc'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hadrian'

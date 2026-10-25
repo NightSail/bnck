@@ -1,0 +1,8 @@
+id = 'plumber'
+name = 'plumber'
+
+homepage = 'https://github.com/batchcorp/plumber'
+
+[[package]]
+channel = 'arch'
+name = 'plumber'

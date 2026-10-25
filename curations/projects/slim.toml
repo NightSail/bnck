@@ -1,0 +1,12 @@
+id = 'slim'
+name = 'slim'
+
+homepage = 'https://github.com/slim-template/slim'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-slim'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-slim'

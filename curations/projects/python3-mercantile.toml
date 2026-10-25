@@ -1,0 +1,12 @@
+id = 'python3-mercantile'
+name = 'python3-mercantile'
+
+homepage = 'https://github.com/mapbox/mercantile'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mercantile'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mercantile'

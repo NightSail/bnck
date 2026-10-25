@@ -1,0 +1,8 @@
+id = 'membernator'
+name = 'membernator'
+
+homepage = 'https://gitlab.com/baldurmen/membernator'
+
+[[package]]
+channel = 'debian'
+name = 'membernator'

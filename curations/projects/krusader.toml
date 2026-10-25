@@ -1,0 +1,16 @@
+id = 'krusader'
+name = 'krusader'
+
+homepage = 'https://krusader.org'
+
+[[package]]
+channel = 'arch'
+name = 'krusader'
+
+[[package]]
+channel = 'debian'
+name = 'krusader'
+
+[[package]]
+channel = 'fedora'
+name = 'krusader'

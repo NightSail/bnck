@@ -1,0 +1,8 @@
+id = 'ctffind'
+name = 'ctffind'
+
+homepage = 'https://grigoriefflab.umassmed.edu/ctffind4'
+
+[[package]]
+channel = 'debian'
+name = 'ctffind'

@@ -1,0 +1,8 @@
+id = 'cargo-feature'
+name = 'cargo-feature'
+
+homepage = 'https://github.com/Riey/cargo-feature'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-feature'

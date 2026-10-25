@@ -1,0 +1,8 @@
+id = 'ruby-term-ansicolor'
+name = 'ruby-term-ansicolor'
+
+homepage = 'https://github.com/flori/term-ansicolor'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-term-ansicolor'

@@ -1,0 +1,9 @@
+id = 'libcaca-cacalabs'
+name = 'libcaca'
+
+homepage = 'http://caca.zoy.org/wiki/libcaca'
+repository = 'https://github.com/cacalabs/libcaca.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcaca'

@@ -1,0 +1,8 @@
+id = 'mari0'
+name = 'mari0'
+
+homepage = 'http://stabyourself.net/mari0'
+
+[[package]]
+channel = 'arch'
+name = 'mari0'

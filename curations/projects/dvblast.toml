@@ -1,0 +1,12 @@
+id = 'dvblast'
+name = 'dvblast'
+
+homepage = 'http://www.videolan.org/projects/dvblast.html'
+
+[[package]]
+channel = 'debian'
+name = 'dvblast'
+
+[[package]]
+channel = 'fedora'
+name = 'dvblast'

@@ -1,0 +1,8 @@
+id = 'go-md2man-cpuguy83'
+name = 'go-md2man'
+
+repository = 'https://github.com/cpuguy83/go-md2man.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-md2man'

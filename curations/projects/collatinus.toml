@@ -1,0 +1,6 @@
+id = 'collatinus'
+name = 'collatinus'
+
+[[package]]
+channel = 'debian'
+name = 'collatinus'

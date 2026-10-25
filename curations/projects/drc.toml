@@ -1,0 +1,8 @@
+id = 'drc'
+name = 'drc'
+
+homepage = 'https://drc-fir.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'drc'

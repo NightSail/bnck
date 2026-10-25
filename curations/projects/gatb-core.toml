@@ -1,0 +1,8 @@
+id = 'gatb-core'
+name = 'gatb-core'
+
+homepage = 'https://github.com/GATB/gatb-core'
+
+[[package]]
+channel = 'debian'
+name = 'gatb-core'

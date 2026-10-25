@@ -1,0 +1,8 @@
+id = 'perl-xml-entities'
+name = 'perl-XML-Entities'
+
+homepage = 'https://metacpan.org/release/XML-Entities'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-Entities'

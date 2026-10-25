@@ -1,0 +1,8 @@
+id = 'openvox'
+name = 'openvox'
+
+homepage = 'https://github.com/OpenVoxProject'
+
+[[package]]
+channel = 'arch'
+name = 'openvox'

@@ -1,0 +1,12 @@
+id = 'fatrace'
+name = 'fatrace'
+
+homepage = 'https://github.com/martinpitt/fatrace'
+
+[[package]]
+channel = 'debian'
+name = 'fatrace'
+
+[[package]]
+channel = 'fedora'
+name = 'fatrace'

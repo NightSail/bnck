@@ -1,0 +1,12 @@
+id = 'paml'
+name = 'paml'
+
+homepage = 'https://github.com/abacus-gene/paml'
+
+[[package]]
+channel = 'debian'
+name = 'paml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/paml'

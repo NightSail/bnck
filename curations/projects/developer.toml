@@ -1,0 +1,12 @@
+id = 'developer'
+name = 'developer'
+
+homepage = 'https://developer.1password.com/docs/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/1password-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/1password-cli@beta'

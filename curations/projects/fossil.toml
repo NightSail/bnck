@@ -1,0 +1,9 @@
+id = 'fossil'
+name = 'fossil'
+
+homepage = 'https://www.fossil-scm.org/home'
+repository = 'https://www.fossil-scm.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fossil'

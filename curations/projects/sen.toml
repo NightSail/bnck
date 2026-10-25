@@ -8,5 +8,9 @@ channel = 'debian'
 name = 'sen'
 
 [[package]]
+channel = 'fedora'
+name = 'sen'
+
+[[package]]
 channel = 'pypi'
 name = 'sen'

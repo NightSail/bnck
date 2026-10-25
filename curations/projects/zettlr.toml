@@ -1,0 +1,8 @@
+id = 'zettlr'
+name = 'zettlr'
+
+homepage = 'https://www.zettlr.com'
+
+[[package]]
+channel = 'arch'
+name = 'zettlr'

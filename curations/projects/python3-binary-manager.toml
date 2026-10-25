@@ -1,0 +1,8 @@
+id = 'python3-binary-manager'
+name = 'python3-binary-manager'
+
+homepage = 'https://docs.u-boot.org/en/latest/develop/package/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-binary-manager'

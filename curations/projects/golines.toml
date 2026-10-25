@@ -1,0 +1,8 @@
+id = 'golines'
+name = 'golines'
+
+repository = 'https://github.com/golangci/golines.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/golines'

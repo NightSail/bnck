@@ -1,0 +1,12 @@
+id = 'cdo'
+name = 'cdo'
+
+homepage = 'https://code.mpimet.mpg.de/projects/cdo'
+
+[[package]]
+channel = 'debian'
+name = 'cdo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdo'

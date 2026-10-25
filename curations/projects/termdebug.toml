@@ -1,0 +1,8 @@
+id = 'termdebug'
+name = 'termdebug'
+
+homepage = 'https://os.ghalkes.nl/termdebug.html'
+
+[[package]]
+channel = 'debian'
+name = 'termdebug'

@@ -1,0 +1,8 @@
+id = 'mtn-browse'
+name = 'mtn-browse'
+
+homepage = 'http://www.coosoft.plus.com/software.html'
+
+[[package]]
+channel = 'fedora'
+name = 'mtn-browse'

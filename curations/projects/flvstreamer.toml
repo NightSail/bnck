@@ -1,0 +1,8 @@
+id = 'flvstreamer'
+name = 'flvstreamer'
+
+homepage = 'https://savannah.nongnu.org/projects/flvstreamer'
+
+[[package]]
+channel = 'debian'
+name = 'flvstreamer'

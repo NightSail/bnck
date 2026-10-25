@@ -1,0 +1,8 @@
+id = 'artha'
+name = 'artha'
+
+homepage = 'http://artha.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'artha'

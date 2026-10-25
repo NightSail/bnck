@@ -1,0 +1,8 @@
+id = 'color-code'
+name = 'color-code'
+
+homepage = 'http://colorcode.laebisch.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/color-code'

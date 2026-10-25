@@ -1,0 +1,8 @@
+id = 'python3-zlmdb'
+name = 'python3-zlmdb'
+
+homepage = 'https://github.com/crossbario/zlmdb'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zlmdb'

@@ -1,0 +1,8 @@
+id = 'magnum-cluster-api'
+name = 'magnum-cluster-api'
+
+homepage = 'https://github.com/vexxhost/magnum-cluster-api'
+
+[[package]]
+channel = 'debian'
+name = 'magnum-cluster-api'

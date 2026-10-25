@@ -1,0 +1,12 @@
+id = 'coveralls'
+name = 'coveralls'
+
+homepage = 'https://coveralls.io'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-coveralls'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-coveralls'

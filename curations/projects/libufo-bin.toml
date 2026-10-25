@@ -1,0 +1,8 @@
+id = 'libufo-bin'
+name = 'libufo-bin'
+
+homepage = 'http://ufo.kit.edu'
+
+[[package]]
+channel = 'debian'
+name = 'libufo-bin'

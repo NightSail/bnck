@@ -1,0 +1,8 @@
+id = 'fast5'
+name = 'fast5'
+
+homepage = 'https://github.com/mateidavid/fast5'
+
+[[package]]
+channel = 'debian'
+name = 'fast5'

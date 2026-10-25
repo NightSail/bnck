@@ -1,0 +1,12 @@
+id = 'dbus-glib'
+name = 'dbus-glib'
+
+homepage = 'https://wiki.freedesktop.org/www/Software/DBusBindings'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-glib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbus-glib'

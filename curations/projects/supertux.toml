@@ -1,0 +1,17 @@
+id = 'supertux'
+name = 'supertux'
+
+homepage = 'https://www.supertux.org'
+repository = 'https://github.com/SuperTux/supertux.git'
+
+[[package]]
+channel = 'arch'
+name = 'supertux'
+
+[[package]]
+channel = 'fedora'
+name = 'supertux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/supertux'

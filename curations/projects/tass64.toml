@@ -1,0 +1,16 @@
+id = 'tass64'
+name = 'tass64'
+
+homepage = 'https://tass64.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = '64tass'
+
+[[package]]
+channel = 'fedora'
+name = '64tass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tass64'

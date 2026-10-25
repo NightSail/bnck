@@ -1,0 +1,12 @@
+id = 'fuse'
+name = 'fuse'
+
+homepage = 'http://fuse.sf.net'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse3'

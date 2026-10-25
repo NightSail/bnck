@@ -1,0 +1,8 @@
+id = 'golang-github-zmap-zcertificate'
+name = 'golang-github-zmap-zcertificate'
+
+homepage = 'https://github.com/zmap/zcertificate'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-zmap-zcertificate'

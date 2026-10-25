@@ -1,0 +1,9 @@
+id = 'boost-bcp'
+name = 'boost-bcp'
+
+homepage = 'https://github.com/boostorg/bcp'
+repository = 'https://github.com/boostorg/boost.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boost-bcp'

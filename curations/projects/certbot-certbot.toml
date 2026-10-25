@@ -1,0 +1,12 @@
+id = 'certbot-certbot'
+name = 'certbot'
+
+homepage = 'https://github.com/certbot/certbot'
+
+[[package]]
+channel = 'fedora'
+name = 'certbot'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-certbot'

@@ -1,0 +1,8 @@
+id = 'imessage-exporter'
+name = 'imessage-exporter'
+
+homepage = 'https://github.com/ReagentX/imessage-exporter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imessage-exporter'

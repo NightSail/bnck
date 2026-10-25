@@ -1,0 +1,16 @@
+id = 'mcj-mcj'
+name = 'mcj'
+
+homepage = 'https://sourceforge.net/projects/mcj'
+
+[[package]]
+channel = 'debian'
+name = 'fig2dev'
+
+[[package]]
+channel = 'debian'
+name = 'xfig'
+
+[[package]]
+channel = 'fedora'
+name = 'transfig'

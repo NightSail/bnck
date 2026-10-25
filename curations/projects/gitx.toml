@@ -1,0 +1,8 @@
+id = 'gitx'
+name = 'gitx'
+
+homepage = 'https://github.com/gitx/gitx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gitx'

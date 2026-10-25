@@ -1,0 +1,8 @@
+id = 'perl-bisect-perl-usinggit'
+name = 'perl-Bisect-Perl-UsingGit'
+
+homepage = 'https://metacpan.org/release/Bisect-Perl-UsingGit'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Bisect-Perl-UsingGit'

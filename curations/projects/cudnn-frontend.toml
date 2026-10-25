@@ -1,0 +1,8 @@
+id = 'cudnn-frontend'
+name = 'cudnn-frontend'
+
+homepage = 'https://docs.nvidia.com/deeplearning/cudnn/latest'
+
+[[package]]
+channel = 'arch'
+name = 'cudnn-frontend'

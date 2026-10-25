@@ -1,0 +1,8 @@
+id = 'ts-jest'
+name = 'ts-jest'
+
+homepage = 'https://kulshekhar.github.io/ts-jest'
+
+[[package]]
+channel = 'debian'
+name = 'ts-jest'

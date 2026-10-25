@@ -1,0 +1,12 @@
+id = 'netplug'
+name = 'netplug'
+
+homepage = 'https://www.red-bean.com/~bos'
+
+[[package]]
+channel = 'debian'
+name = 'netplug'
+
+[[package]]
+channel = 'fedora'
+name = 'netplug'

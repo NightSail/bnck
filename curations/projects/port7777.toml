@@ -1,0 +1,8 @@
+id = 'port7777'
+name = 'port7777'
+
+homepage = 'https://port7777.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/7777'

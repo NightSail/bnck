@@ -1,0 +1,8 @@
+id = 'vbetest'
+name = 'vbetest'
+
+homepage = 'http://sourceforge.net/projects/lrmi'
+
+[[package]]
+channel = 'fedora'
+name = 'vbetest'

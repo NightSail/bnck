@@ -1,0 +1,97 @@
+id = 'zabbix'
+name = 'zabbix'
+
+homepage = 'https://www.zabbix.com'
+repository = 'https://github.com/zabbix/zabbix.git'
+
+[[package]]
+channel = 'arch'
+name = 'zabbix-agent'
+
+[[package]]
+channel = 'arch'
+name = 'zabbix-agent2'
+
+[[package]]
+channel = 'arch'
+name = 'zabbix-proxy'
+
+[[package]]
+channel = 'arch'
+name = 'zabbix-server'
+
+[[package]]
+channel = 'arch'
+name = 'zabbix-web-service'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-agent'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-agent2'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-java-gateway'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-proxy-mysql'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-proxy-pgsql'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-proxy-sqlite3'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-sender'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-server-mysql'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-server-pgsql'
+
+[[package]]
+channel = 'debian'
+name = 'zabbix-web-service'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix-proxy-mysql'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix-proxy-pgsql'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix-proxy-sqlite3'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix-server-mysql'
+
+[[package]]
+channel = 'fedora'
+name = 'zabbix-server-pgsql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zabbix'

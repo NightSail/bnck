@@ -1,0 +1,12 @@
+id = 'harfbuzz'
+name = 'harfbuzz'
+
+homepage = 'https://harfbuzz.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'harfbuzz-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libharfbuzz-bin'

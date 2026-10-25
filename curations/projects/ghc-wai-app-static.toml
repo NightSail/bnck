@@ -1,0 +1,8 @@
+id = 'ghc-wai-app-static'
+name = 'ghc-wai-app-static'
+
+homepage = 'https://hackage.haskell.org/package/wai-app-static'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-wai-app-static'

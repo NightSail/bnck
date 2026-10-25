@@ -1,0 +1,8 @@
+id = 'plow'
+name = 'plow'
+
+homepage = 'https://deepwiki.com/six-ddc/plow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plow'

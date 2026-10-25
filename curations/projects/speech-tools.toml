@@ -1,0 +1,17 @@
+id = 'speech-tools'
+name = 'speech-tools'
+
+homepage = 'http://festvox.org/packed/festival'
+repository = 'https://github.com/festvox/speech_tools.git'
+
+[[package]]
+channel = 'debian'
+name = 'speech-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'speech-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speech-tools'

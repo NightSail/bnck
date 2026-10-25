@@ -1,0 +1,8 @@
+id = 'smbiosdump'
+name = 'smbiosdump'
+
+homepage = 'https://github.com/jrgerber/smbios-lib'
+
+[[package]]
+channel = 'debian'
+name = 'smbiosdump'

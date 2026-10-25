@@ -1,0 +1,13 @@
+id = 'capstone'
+name = 'capstone'
+
+homepage = 'https://www.capstone-engine.org/index.html'
+repository = 'https://github.com/capstone-engine/capstone.git'
+
+[[package]]
+channel = 'arch'
+name = 'capstone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/capstone'

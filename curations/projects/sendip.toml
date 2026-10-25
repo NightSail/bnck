@@ -1,0 +1,8 @@
+id = 'sendip'
+name = 'sendip'
+
+homepage = 'https://github.com/rickettm/SendIP'
+
+[[package]]
+channel = 'debian'
+name = 'sendip'

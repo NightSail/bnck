@@ -1,0 +1,8 @@
+id = 'idesk'
+name = 'idesk'
+
+homepage = 'https://sourceforge.net/projects/idesk'
+
+[[package]]
+channel = 'debian'
+name = 'idesk'

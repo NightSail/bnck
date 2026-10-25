@@ -1,0 +1,12 @@
+id = 'pyelftools'
+name = 'pyelftools'
+
+homepage = 'https://github.com/eliben/pyelftools'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyelftools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyelftools'

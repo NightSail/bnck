@@ -1,0 +1,16 @@
+id = 'ucspi-tcp'
+name = 'ucspi-tcp'
+
+homepage = 'https://cr.yp.to/ucspi-tcp.html'
+
+[[package]]
+channel = 'debian'
+name = 'ucspi-tcp'
+
+[[package]]
+channel = 'debian'
+name = 'ucspi-tcp-ipv6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ucspi-tcp'

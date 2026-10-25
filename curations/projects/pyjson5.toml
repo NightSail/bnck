@@ -1,0 +1,12 @@
+id = 'pyjson5'
+name = 'pyjson5'
+
+homepage = 'https://github.com/dpranke/pyjson5'
+
+[[package]]
+channel = 'debian'
+name = 'python3-json5'
+
+[[package]]
+channel = 'fedora'
+name = 'pyjson5'

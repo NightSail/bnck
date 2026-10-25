@@ -1,0 +1,8 @@
+id = 'spatial'
+name = 'spatial'
+
+homepage = 'https://blog.mikeswanson.com/spatial'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/spatial'

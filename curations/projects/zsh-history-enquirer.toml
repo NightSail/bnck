@@ -1,0 +1,8 @@
+id = 'zsh-history-enquirer'
+name = 'zsh-history-enquirer'
+
+homepage = 'https://zsh-history-enquirer.zthxxx.me'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsh-history-enquirer'

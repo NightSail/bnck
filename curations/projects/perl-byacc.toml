@@ -1,0 +1,6 @@
+id = 'perl-byacc'
+name = 'perl-byacc'
+
+[[package]]
+channel = 'debian'
+name = 'perl-byacc'

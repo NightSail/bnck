@@ -1,0 +1,8 @@
+id = 'fastga'
+name = 'fastga'
+
+repository = 'https://github.com/thegenemyers/FASTGA.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastga'

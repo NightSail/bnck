@@ -1,0 +1,16 @@
+id = 'firefox'
+name = 'firefox'
+
+homepage = 'https://www.firefox.com'
+
+[[package]]
+channel = 'arch'
+name = 'firefox'
+
+[[package]]
+channel = 'debian'
+name = 'firefox'
+
+[[package]]
+channel = 'fedora'
+name = 'firefox'

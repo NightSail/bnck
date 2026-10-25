@@ -1,0 +1,12 @@
+id = 'percona-server'
+name = 'percona-server'
+
+homepage = 'https://www.percona.com/software/mysql-database/percona-server'
+
+[[package]]
+channel = 'arch'
+name = 'percona-server'
+
+[[package]]
+channel = 'arch'
+name = 'percona-server-clients'

@@ -1,0 +1,8 @@
+id = 'libemos-bin'
+name = 'libemos-bin'
+
+homepage = 'https://confluence.ecmwf.int/display/EMOS/Emoslib'
+
+[[package]]
+channel = 'debian'
+name = 'libemos-bin'

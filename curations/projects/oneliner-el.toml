@@ -1,0 +1,6 @@
+id = 'oneliner-el'
+name = 'oneliner-el'
+
+[[package]]
+channel = 'debian'
+name = 'oneliner-el'

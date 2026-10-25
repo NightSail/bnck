@@ -1,0 +1,8 @@
+id = 'ruby-rgfa'
+name = 'ruby-rgfa'
+
+homepage = 'https://github.com/ggonnella/rgfa'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rgfa'

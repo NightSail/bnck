@@ -1,0 +1,8 @@
+id = 'kickpass'
+name = 'kickpass'
+
+homepage = 'https://github.com/kickpass/kickpass'
+
+[[package]]
+channel = 'debian'
+name = 'kickpass'

@@ -1,0 +1,8 @@
+id = 'phrase-cli'
+name = 'phrase-cli'
+
+homepage = 'https://phrase.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phrase-cli'

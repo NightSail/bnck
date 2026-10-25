@@ -1,0 +1,8 @@
+id = 'gemdropx'
+name = 'gemdropx'
+
+homepage = 'http://www.newbreedsoftware.com/gemdropx'
+
+[[package]]
+channel = 'fedora'
+name = 'gemdropx'

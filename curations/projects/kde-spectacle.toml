@@ -1,0 +1,8 @@
+id = 'kde-spectacle'
+name = 'kde-spectacle'
+
+homepage = 'https://apps.kde.org/en/spectacle'
+
+[[package]]
+channel = 'debian'
+name = 'kde-spectacle'

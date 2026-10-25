@@ -1,0 +1,8 @@
+id = 'golang-github-morikuni-aec'
+name = 'golang-github-morikuni-aec'
+
+homepage = 'https://github.com/morikuni/aec'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-morikuni-aec'

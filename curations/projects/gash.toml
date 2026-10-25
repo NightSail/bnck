@@ -1,0 +1,8 @@
+id = 'gash'
+name = 'gash'
+
+homepage = 'https://codeberg.org/guix/gash'
+
+[[package]]
+channel = 'debian'
+name = 'gash'

@@ -1,0 +1,8 @@
+id = 'linux-voice-assistant'
+name = 'linux-voice-assistant'
+
+homepage = 'https://github.com/OHF-Voice/linux-voice-assistant'
+
+[[package]]
+channel = 'debian'
+name = 'linux-voice-assistant'

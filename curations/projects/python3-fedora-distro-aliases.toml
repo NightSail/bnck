@@ -1,0 +1,8 @@
+id = 'python3-fedora-distro-aliases'
+name = 'python3-fedora-distro-aliases'
+
+homepage = 'https://github.com/rpm-software-management/fedora-distro-aliases'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fedora-distro-aliases'

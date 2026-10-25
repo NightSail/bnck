@@ -1,0 +1,12 @@
+id = 'rasdaemon'
+name = 'rasdaemon'
+
+homepage = 'https://github.com/mchehab/rasdaemon'
+
+[[package]]
+channel = 'debian'
+name = 'rasdaemon'
+
+[[package]]
+channel = 'fedora'
+name = 'rasdaemon'

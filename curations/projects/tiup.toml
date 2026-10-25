@@ -1,0 +1,8 @@
+id = 'tiup'
+name = 'tiup'
+
+homepage = 'https://github.com/pingcap/tiup'
+
+[[package]]
+channel = 'debian'
+name = 'tiup'

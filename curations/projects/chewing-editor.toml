@@ -1,0 +1,12 @@
+id = 'chewing-editor'
+name = 'chewing-editor'
+
+homepage = 'https://github.com/chewing/chewing-editor'
+
+[[package]]
+channel = 'debian'
+name = 'chewing-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'chewing-editor'

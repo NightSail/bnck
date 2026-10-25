@@ -4,5 +4,9 @@ name = 'qsv'
 homepage = 'https://qsv.dathere.com'
 
 [[package]]
+channel = 'arch'
+name = 'qsv'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/qsv'

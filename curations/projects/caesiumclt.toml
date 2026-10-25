@@ -1,0 +1,8 @@
+id = 'caesiumclt'
+name = 'caesiumclt'
+
+homepage = 'https://github.com/Lymphatus/caesium-clt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/caesiumclt'

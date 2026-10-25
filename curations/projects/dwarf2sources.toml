@@ -1,0 +1,8 @@
+id = 'dwarf2sources'
+name = 'dwarf2sources'
+
+homepage = 'https://salsa.debian.org/collabora-team/dwarf2sources'
+
+[[package]]
+channel = 'debian'
+name = 'dwarf2sources'

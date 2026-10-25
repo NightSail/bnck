@@ -1,0 +1,8 @@
+id = 'python3-inspyred'
+name = 'python3-inspyred'
+
+homepage = 'https://github.com/aarongarrett/inspyred'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-inspyred'

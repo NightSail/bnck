@@ -1,0 +1,8 @@
+id = 'python-aiodiscover'
+name = 'python-aiodiscover'
+
+homepage = 'https://github.com/bdraco/aiodiscover'
+
+[[package]]
+channel = 'arch'
+name = 'python-aiodiscover'

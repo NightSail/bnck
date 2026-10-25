@@ -1,0 +1,9 @@
+id = 'versitygw'
+name = 'versitygw'
+
+homepage = 'https://www.versity.com/products/versitygw'
+repository = 'https://github.com/versity/versitygw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/versitygw'

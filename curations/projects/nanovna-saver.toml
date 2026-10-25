@@ -1,0 +1,12 @@
+id = 'nanovna-saver'
+name = 'nanovna-saver'
+
+homepage = 'https://github.com/NanoVNA-Saver/nanovna-saver'
+
+[[package]]
+channel = 'debian'
+name = 'nanovna-saver'
+
+[[package]]
+channel = 'fedora'
+name = 'nanovna-saver'

@@ -1,0 +1,20 @@
+id = 'dvdauthor'
+name = 'dvdauthor'
+
+homepage = 'https://dvdauthor.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'dvdauthor'
+
+[[package]]
+channel = 'debian'
+name = 'dvdauthor'
+
+[[package]]
+channel = 'fedora'
+name = 'dvdauthor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvdauthor'

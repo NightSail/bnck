@@ -1,0 +1,8 @@
+id = 'memtool'
+name = 'memtool'
+
+homepage = 'http://www.pengutronix.de/software/memtool/index_en.html'
+
+[[package]]
+channel = 'debian'
+name = 'memtool'

@@ -1,0 +1,8 @@
+id = 'nomad-pack'
+name = 'nomad-pack'
+
+homepage = 'https://github.com/hashicorp/nomad-pack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nomad-pack'

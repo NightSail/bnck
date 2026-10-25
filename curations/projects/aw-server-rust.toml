@@ -1,0 +1,12 @@
+id = 'aw-server-rust'
+name = 'aw-server-rust'
+
+homepage = 'https://github.com/ActivityWatch/aw-server-rust'
+
+[[package]]
+channel = 'fedora'
+name = 'aw-server-rust'
+
+[[package]]
+channel = 'fedora'
+name = 'aw-sync-rust'

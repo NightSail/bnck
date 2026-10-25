@@ -1,0 +1,8 @@
+id = 'pelican'
+name = 'pelican'
+
+homepage = 'https://blog.getpelican.com'
+
+[[package]]
+channel = 'arch'
+name = 'pelican'

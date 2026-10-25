@@ -1,0 +1,8 @@
+id = 'tiddit'
+name = 'tiddit'
+
+homepage = 'https://github.com/SciLifeLab/TIDDIT'
+
+[[package]]
+channel = 'debian'
+name = 'tiddit'

@@ -1,0 +1,8 @@
+id = 'gotify'
+name = 'gotify'
+
+repository = 'https://github.com/gotify/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotify'

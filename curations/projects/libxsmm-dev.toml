@@ -1,0 +1,8 @@
+id = 'libxsmm-dev'
+name = 'libxsmm-dev'
+
+homepage = 'https://github.com/libxsmm/libxsmm'
+
+[[package]]
+channel = 'debian'
+name = 'libxsmm-dev'

@@ -1,0 +1,8 @@
+id = 'neat'
+name = 'neat'
+
+homepage = 'https://github.com/rwesson/NEAT'
+
+[[package]]
+channel = 'debian'
+name = 'neat'

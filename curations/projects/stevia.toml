@@ -1,0 +1,12 @@
+id = 'stevia'
+name = 'stevia'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/stevia'
+
+[[package]]
+channel = 'arch'
+name = 'stevia'
+
+[[package]]
+channel = 'debian'
+name = 'phosh-osk-stevia'

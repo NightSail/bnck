@@ -1,0 +1,8 @@
+id = 'clean-rpm-gpg-pubkey'
+name = 'clean-rpm-gpg-pubkey'
+
+homepage = 'https://github.com/svarshavchik/clean-rpm-gpg-pubkey'
+
+[[package]]
+channel = 'fedora'
+name = 'clean-rpm-gpg-pubkey'

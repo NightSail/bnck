@@ -12,6 +12,14 @@ channel = 'crates.io'
 name = 'git-delta'
 
 [[package]]
+channel = 'crates.io'
+name = 'git-delta-lib'
+
+[[package]]
+channel = 'debian'
+name = 'delta'
+
+[[package]]
 channel = 'debian'
 name = 'git-delta'
 
@@ -22,7 +30,3 @@ name = 'git-delta'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/git-delta'
-
-[[package]]
-channel = 'crates.io'
-name = 'git-delta-lib'

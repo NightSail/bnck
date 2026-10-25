@@ -1,0 +1,8 @@
+id = 'caneda'
+name = 'caneda'
+
+homepage = 'https://github.com/Caneda/Caneda'
+
+[[package]]
+channel = 'debian'
+name = 'caneda'

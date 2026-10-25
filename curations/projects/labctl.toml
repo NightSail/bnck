@@ -1,0 +1,8 @@
+id = 'labctl'
+name = 'labctl'
+
+homepage = 'https://labs.iximiuz.com/playgrounds'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/labctl'

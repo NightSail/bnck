@@ -1,0 +1,17 @@
+id = 'liblo'
+name = 'liblo'
+
+homepage = 'http://liblo.sourceforge.net'
+repository = 'https://git.code.sf.net/p/liblo/git.git'
+
+[[package]]
+channel = 'arch'
+name = 'liblo'
+
+[[package]]
+channel = 'fedora'
+name = 'liblo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liblo'

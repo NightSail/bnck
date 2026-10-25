@@ -1,0 +1,8 @@
+id = 'alphabet-soup'
+name = 'alphabet-soup'
+
+homepage = 'http://www.t3-i.com/asoup.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'alphabet-soup'

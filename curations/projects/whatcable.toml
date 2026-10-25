@@ -1,0 +1,8 @@
+id = 'whatcable'
+name = 'whatcable'
+
+homepage = 'https://github.com/darrylmorley/whatcable'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/whatcable'

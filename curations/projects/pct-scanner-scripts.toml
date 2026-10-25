@@ -1,0 +1,8 @@
+id = 'pct-scanner-scripts'
+name = 'pct-scanner-scripts'
+
+homepage = 'https://secure.powercraft.nl/svn/packages/trunk/source/pct-scanner-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'pct-scanner-scripts'

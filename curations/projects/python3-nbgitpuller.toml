@@ -1,0 +1,8 @@
+id = 'python3-nbgitpuller'
+name = 'python3-nbgitpuller'
+
+homepage = 'https://github.com/jupyterhub/nbgitpuller'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nbgitpuller'

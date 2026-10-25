@@ -1,0 +1,8 @@
+id = 'memo'
+name = 'memo'
+
+homepage = 'https://github.com/nrosvall/memo'
+
+[[package]]
+channel = 'debian'
+name = 'memo'

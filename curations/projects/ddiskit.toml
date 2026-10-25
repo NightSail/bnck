@@ -1,0 +1,8 @@
+id = 'ddiskit'
+name = 'ddiskit'
+
+homepage = 'https://gitlab.com/redhat/centos-stream/src/dup/ddiskit'
+
+[[package]]
+channel = 'fedora'
+name = 'ddiskit'

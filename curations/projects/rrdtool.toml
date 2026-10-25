@@ -1,0 +1,16 @@
+id = 'rrdtool'
+name = 'rrdtool'
+
+homepage = 'https://oss.oetiker.ch/rrdtool'
+
+[[package]]
+channel = 'debian'
+name = 'rrdcached'
+
+[[package]]
+channel = 'debian'
+name = 'rrdtool'
+
+[[package]]
+channel = 'fedora'
+name = 'rrdtool'

@@ -1,0 +1,16 @@
+id = 'diskus'
+name = 'diskus'
+
+homepage = 'https://github.com/sharkdp/diskus'
+
+[[package]]
+channel = 'arch'
+name = 'diskus'
+
+[[package]]
+channel = 'debian'
+name = 'diskus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diskus'

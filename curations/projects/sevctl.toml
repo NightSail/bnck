@@ -1,0 +1,8 @@
+id = 'sevctl'
+name = 'sevctl'
+
+homepage = 'https://crates.io/crates/sevctl'
+
+[[package]]
+channel = 'fedora'
+name = 'sevctl'

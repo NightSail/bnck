@@ -1,0 +1,8 @@
+id = 'ip2host'
+name = 'ip2host'
+
+homepage = 'https://github.com/mla/ip2host'
+
+[[package]]
+channel = 'debian'
+name = 'ip2host'

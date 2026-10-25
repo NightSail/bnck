@@ -1,0 +1,8 @@
+id = 'gnome-split'
+name = 'gnome-split'
+
+homepage = 'https://github.com/respawner/gnome-split'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-split'

@@ -1,0 +1,8 @@
+id = 'python3-pymatgen'
+name = 'python3-pymatgen'
+
+homepage = 'https://pymatgen.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pymatgen'

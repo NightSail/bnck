@@ -1,0 +1,8 @@
+id = 'hyphen-devel'
+name = 'hyphen-devel'
+
+homepage = 'http://hunspell.sf.net'
+
+[[package]]
+channel = 'fedora'
+name = 'hyphen-devel'

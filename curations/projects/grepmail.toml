@@ -1,0 +1,12 @@
+id = 'grepmail'
+name = 'grepmail'
+
+homepage = 'https://metacpan.org/dist/grepmail'
+
+[[package]]
+channel = 'debian'
+name = 'grepmail'
+
+[[package]]
+channel = 'fedora'
+name = 'grepmail'

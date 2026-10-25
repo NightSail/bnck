@@ -1,0 +1,13 @@
+id = 'libofx'
+name = 'libofx'
+
+homepage = 'https://github.com/libofx'
+repository = 'https://github.com/libofx/libofx.git'
+
+[[package]]
+channel = 'arch'
+name = 'libofx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libofx'

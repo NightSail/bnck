@@ -1,0 +1,8 @@
+id = 'scrounge-ntfs'
+name = 'scrounge-ntfs'
+
+homepage = 'http://thewalter.net/stef/software/scrounge'
+
+[[package]]
+channel = 'debian'
+name = 'scrounge-ntfs'

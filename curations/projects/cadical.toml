@@ -1,0 +1,16 @@
+id = 'cadical'
+name = 'cadical'
+
+homepage = 'https://fmv.jku.at/cadical'
+
+[[package]]
+channel = 'debian'
+name = 'cadical'
+
+[[package]]
+channel = 'fedora'
+name = 'cadical'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cadical'

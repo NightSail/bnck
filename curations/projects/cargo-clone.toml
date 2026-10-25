@@ -1,0 +1,12 @@
+id = 'cargo-clone'
+name = 'cargo-clone'
+
+repository = 'https://github.com/JanLikar/cargo-clone.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-clone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-clone'

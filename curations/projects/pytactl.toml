@@ -1,0 +1,8 @@
+id = 'pytactl'
+name = 'pytactl'
+
+homepage = 'https://github.com/qualcomm/pytactl'
+
+[[package]]
+channel = 'debian'
+name = 'pytactl'

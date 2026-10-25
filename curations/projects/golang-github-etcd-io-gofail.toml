@@ -1,0 +1,12 @@
+id = 'golang-github-etcd-io-gofail'
+name = 'golang-github-etcd-io-gofail'
+
+homepage = 'https://github.com/etcd-io/gofail'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-etcd-io-gofail'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-etcd-io-gofail'

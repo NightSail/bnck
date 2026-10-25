@@ -1,0 +1,12 @@
+id = 'conspy'
+name = 'conspy'
+
+homepage = 'http://conspy.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'conspy'
+
+[[package]]
+channel = 'fedora'
+name = 'conspy'

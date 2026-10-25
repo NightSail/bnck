@@ -1,0 +1,6 @@
+id = 'pop3browser'
+name = 'pop3browser'
+
+[[package]]
+channel = 'debian'
+name = 'pop3browser'

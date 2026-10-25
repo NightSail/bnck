@@ -1,0 +1,20 @@
+id = 'mktorrent'
+name = 'mktorrent'
+
+homepage = 'https://github.com/pobrn/mktorrent/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'mktorrent'
+
+[[package]]
+channel = 'debian'
+name = 'mktorrent'
+
+[[package]]
+channel = 'fedora'
+name = 'mktorrent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mktorrent'

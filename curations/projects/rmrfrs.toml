@@ -1,0 +1,8 @@
+id = 'rmrfrs'
+name = 'rmrfrs'
+
+repository = 'https://github.com/trinhminhtriet/rmrfrs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmrfrs'

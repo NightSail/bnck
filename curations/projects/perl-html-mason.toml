@@ -1,0 +1,8 @@
+id = 'perl-html-mason'
+name = 'perl-HTML-Mason'
+
+homepage = 'http://www.masonhq.com'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-Mason'

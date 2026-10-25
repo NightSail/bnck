@@ -1,0 +1,356 @@
+id = 'binutils'
+name = 'binutils'
+
+homepage = 'https://www.gnu.org/software/binutils'
+
+[[package]]
+channel = 'arch'
+name = 'aarch64-linux-gnu-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'arm-none-eabi-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'avr-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'binutils'
+
+[[package]]
+channel = 'arch'
+name = 'lm32-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'loongarch64-linux-gnu-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'mingw-w64-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'nds32le-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'or1k-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'ppc64le-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'riscv32-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'riscv64-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'riscv64-linux-gnu-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'sh2-elf-binutils'
+
+[[package]]
+channel = 'arch'
+name = 'sh4-elf-binutils'
+
+[[package]]
+channel = 'debian'
+name = 'binutils'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-djgpp'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-i686-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-sparc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-x86-64-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-gold-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-h8300-hms'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-i686-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-m68hc1x'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mingw-w64-i686'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mingw-w64-i686-ucrt'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mingw-w64-ucrt64'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mingw-w64-x86-64'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mingw-w64-x86-64-ucrt'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mips64-linux-gnuabin32'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mips64el-linux-gnuabin32'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsisa64r6-linux-gnuabin32'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-mipsisa64r6el-linux-gnuabin32'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-multiarch'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-sparc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-x86-64-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'binutils-z80'
+
+[[package]]
+channel = 'fedora'
+name = 'avr-binutils'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw-binutils-generic'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-binutils'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-binutils'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aarch64-elf-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arm-none-eabi-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i686-elf-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/m68k-elf-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mips-linux-gnu-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mipsel-linux-gnu-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/riscv64-elf-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x86_64-elf-binutils'

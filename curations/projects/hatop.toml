@@ -1,0 +1,8 @@
+id = 'hatop'
+name = 'hatop'
+
+homepage = 'https://github.com/jhunt/hatop'
+
+[[package]]
+channel = 'debian'
+name = 'hatop'

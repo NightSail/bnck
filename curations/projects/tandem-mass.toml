@@ -1,0 +1,8 @@
+id = 'tandem-mass'
+name = 'tandem-mass'
+
+homepage = 'http://www.thegpm.org/TANDEM'
+
+[[package]]
+channel = 'debian'
+name = 'tandem-mass'

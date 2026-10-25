@@ -1,0 +1,8 @@
+id = 'flatcc'
+name = 'flatcc'
+
+repository = 'https://github.com/dvidelabs/flatcc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flatcc'

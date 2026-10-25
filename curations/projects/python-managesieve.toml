@@ -1,0 +1,8 @@
+id = 'python-managesieve'
+name = 'python-managesieve'
+
+homepage = 'https://gitlab.com/htgoebel/managesieve'
+
+[[package]]
+channel = 'arch'
+name = 'python-managesieve'

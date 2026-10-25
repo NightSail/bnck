@@ -1,0 +1,12 @@
+id = 'sdedit'
+name = 'sdedit'
+
+homepage = 'https://sdedit.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'sdedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdedit'

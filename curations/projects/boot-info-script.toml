@@ -1,0 +1,8 @@
+id = 'boot-info-script'
+name = 'boot-info-script'
+
+homepage = 'https://github.com/arvidjaar/bootinfoscript'
+
+[[package]]
+channel = 'debian'
+name = 'boot-info-script'

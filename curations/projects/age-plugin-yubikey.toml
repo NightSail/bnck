@@ -1,0 +1,12 @@
+id = 'age-plugin-yubikey'
+name = 'age-plugin-yubikey'
+
+repository = 'https://github.com/str4d/age-plugin-yubikey.git'
+
+[[package]]
+channel = 'arch'
+name = 'age-plugin-yubikey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/age-plugin-yubikey'

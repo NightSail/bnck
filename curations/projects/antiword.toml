@@ -1,0 +1,16 @@
+id = 'antiword'
+name = 'antiword'
+
+homepage = 'https://web.archive.org/web/20221207132720/http://www.winfield.demon.nl'
+
+[[package]]
+channel = 'arch'
+name = 'antiword'
+
+[[package]]
+channel = 'debian'
+name = 'antiword'
+
+[[package]]
+channel = 'fedora'
+name = 'antiword'

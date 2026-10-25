@@ -1,0 +1,8 @@
+id = 'breaktimer'
+name = 'breaktimer'
+
+homepage = 'https://breaktimer.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/breaktimer'

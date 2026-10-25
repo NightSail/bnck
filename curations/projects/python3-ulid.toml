@@ -1,0 +1,6 @@
+id = 'python3-ulid'
+name = 'python3-ulid'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ulid'

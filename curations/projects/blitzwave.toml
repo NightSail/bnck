@@ -1,0 +1,8 @@
+id = 'blitzwave'
+name = 'blitzwave'
+
+homepage = 'https://oschulz.github.io/blitzwave'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blitzwave'

@@ -1,0 +1,8 @@
+id = 'cachelib'
+name = 'cachelib'
+
+homepage = 'https://github.com/facebook/CacheLib'
+
+[[package]]
+channel = 'fedora'
+name = 'cachelib'

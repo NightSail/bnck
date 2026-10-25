@@ -1,0 +1,16 @@
+id = 'getdp'
+name = 'getdp'
+
+homepage = 'http://www.geuz.org/getdp'
+
+[[package]]
+channel = 'debian'
+name = 'getdp'
+
+[[package]]
+channel = 'debian'
+name = 'getdp-sparskit'
+
+[[package]]
+channel = 'fedora'
+name = 'getdp'

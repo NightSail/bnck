@@ -1,0 +1,16 @@
+id = 'pydoit'
+name = 'pydoit'
+
+homepage = 'https://pydoit.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-doit'
+
+[[package]]
+channel = 'debian'
+name = 'python3-doit'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-doit'

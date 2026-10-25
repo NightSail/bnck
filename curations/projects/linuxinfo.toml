@@ -1,0 +1,8 @@
+id = 'linuxinfo'
+name = 'linuxinfo'
+
+homepage = 'http://www.helgefjell.de/linuxinfo.php'
+
+[[package]]
+channel = 'debian'
+name = 'linuxinfo'

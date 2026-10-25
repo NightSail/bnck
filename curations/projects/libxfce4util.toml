@@ -1,0 +1,12 @@
+id = 'libxfce4util'
+name = 'libxfce4util'
+
+homepage = 'https://docs.xfce.org/xfce/libxfce4util/start'
+
+[[package]]
+channel = 'arch'
+name = 'libxfce4util'
+
+[[package]]
+channel = 'debian'
+name = 'libxfce4util-bin'

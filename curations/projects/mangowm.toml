@@ -1,0 +1,8 @@
+id = 'mangowm'
+name = 'mangowm'
+
+homepage = 'https://mangowm.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'mangowm'

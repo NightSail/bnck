@@ -1,0 +1,13 @@
+id = 'loki-grafana'
+name = 'loki'
+
+homepage = 'https://grafana.com/oss/loki'
+repository = 'https://github.com/grafana/loki.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/loki'

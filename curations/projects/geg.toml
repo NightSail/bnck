@@ -1,0 +1,8 @@
+id = 'geg'
+name = 'geg'
+
+homepage = 'https://sourceforge.net/projects/sf-xpaint/files/geg'
+
+[[package]]
+channel = 'debian'
+name = 'geg'

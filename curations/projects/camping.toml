@@ -1,0 +1,8 @@
+id = 'camping'
+name = 'camping'
+
+homepage = 'https://github.com/camping/camping'
+
+[[package]]
+channel = 'debian'
+name = 'camping'

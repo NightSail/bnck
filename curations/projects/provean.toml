@@ -1,0 +1,8 @@
+id = 'provean'
+name = 'provean'
+
+homepage = 'http://provean.jcvi.org'
+
+[[package]]
+channel = 'debian'
+name = 'provean'

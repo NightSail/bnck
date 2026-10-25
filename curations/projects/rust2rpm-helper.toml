@@ -1,0 +1,8 @@
+id = 'rust2rpm-helper'
+name = 'rust2rpm-helper'
+
+homepage = 'https://pagure.io/fedora-rust/rust2rpm-helper'
+
+[[package]]
+channel = 'fedora'
+name = 'rust2rpm-helper'

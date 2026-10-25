@@ -1,0 +1,8 @@
+id = 'python3-pauvre'
+name = 'python3-pauvre'
+
+homepage = 'https://github.com/conchoecia/pauvre'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pauvre'

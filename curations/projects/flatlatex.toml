@@ -1,0 +1,8 @@
+id = 'flatlatex'
+name = 'flatlatex'
+
+homepage = 'https://github.com/jb-leger/flatlatex'
+
+[[package]]
+channel = 'debian'
+name = 'flatlatex'

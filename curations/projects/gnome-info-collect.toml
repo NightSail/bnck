@@ -1,0 +1,8 @@
+id = 'gnome-info-collect'
+name = 'gnome-info-collect'
+
+homepage = 'https://gitlab.gnome.org/vstanek/gnome-info-collect'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-info-collect'

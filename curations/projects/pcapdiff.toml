@@ -1,0 +1,8 @@
+id = 'pcapdiff'
+name = 'pcapdiff'
+
+homepage = 'http://www.eff.org/testyourisp/pcapdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'pcapdiff'

@@ -1,0 +1,12 @@
+id = 'cosmic-randr'
+name = 'cosmic-randr'
+
+homepage = 'https://github.com/pop-os/cosmic-randr'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-randr'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-randr'

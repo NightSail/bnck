@@ -1,0 +1,8 @@
+id = 'tcping'
+name = 'tcping'
+
+repository = 'https://github.com/mkirchner/tcping.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcping'

@@ -1,0 +1,8 @@
+id = 'graphql-inspector'
+name = 'graphql-inspector'
+
+homepage = 'https://the-guild.dev/graphql/inspector'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphql-inspector'

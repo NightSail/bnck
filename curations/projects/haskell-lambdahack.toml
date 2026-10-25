@@ -1,0 +1,8 @@
+id = 'haskell-lambdahack'
+name = 'haskell-lambdahack'
+
+homepage = 'https://lambdahack.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-lambdahack'

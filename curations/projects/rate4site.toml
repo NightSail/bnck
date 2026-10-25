@@ -1,0 +1,8 @@
+id = 'rate4site'
+name = 'rate4site'
+
+homepage = 'https://www.tau.ac.il/~itaymay/cp/rate4site.html'
+
+[[package]]
+channel = 'debian'
+name = 'rate4site'

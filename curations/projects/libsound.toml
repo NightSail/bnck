@@ -1,0 +1,12 @@
+id = 'libsound'
+name = 'libsound'
+
+homepage = 'http://libsound.io'
+
+[[package]]
+channel = 'fedora'
+name = 'libsoundio-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsoundio'

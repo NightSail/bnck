@@ -1,0 +1,8 @@
+id = 'cen64'
+name = 'cen64'
+
+homepage = 'https://www.cen64.com'
+
+[[package]]
+channel = 'debian'
+name = 'cen64'

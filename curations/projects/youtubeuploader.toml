@@ -1,0 +1,8 @@
+id = 'youtubeuploader'
+name = 'youtubeuploader'
+
+repository = 'https://github.com/porjo/youtubeuploader.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/youtubeuploader'

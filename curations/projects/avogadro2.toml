@@ -1,0 +1,8 @@
+id = 'avogadro2'
+name = 'avogadro2'
+
+homepage = 'http://avogadro.openmolecules.net'
+
+[[package]]
+channel = 'fedora'
+name = 'avogadro2'

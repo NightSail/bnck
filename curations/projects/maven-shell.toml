@@ -1,0 +1,8 @@
+id = 'maven-shell'
+name = 'maven-shell'
+
+homepage = 'https://github.com/jdillon/mvnsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/maven-shell'

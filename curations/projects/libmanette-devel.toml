@@ -1,0 +1,8 @@
+id = 'libmanette-devel'
+name = 'libmanette-devel'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libmanette'
+
+[[package]]
+channel = 'fedora'
+name = 'libmanette-devel'

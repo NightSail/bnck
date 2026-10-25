@@ -1,0 +1,8 @@
+id = 'python3-pyglossary'
+name = 'python3-pyglossary'
+
+homepage = 'https://github.com/ilius/pyglossary'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyglossary'

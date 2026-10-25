@@ -1,0 +1,16 @@
+id = 'wezterm'
+name = 'wezterm'
+
+homepage = 'https://wezterm.org'
+
+[[package]]
+channel = 'arch'
+name = 'wezterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wezterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wezterm@nightly'

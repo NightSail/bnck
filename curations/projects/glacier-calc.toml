@@ -1,0 +1,8 @@
+id = 'glacier-calc'
+name = 'glacier-calc'
+
+homepage = 'https://github.com/nemomobile-ux/glacier-calc'
+
+[[package]]
+channel = 'arch'
+name = 'glacier-calc'

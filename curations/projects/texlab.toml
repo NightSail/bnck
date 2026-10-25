@@ -1,0 +1,16 @@
+id = 'texlab'
+name = 'texlab'
+
+repository = 'https://github.com/latex-lsp/texlab.git'
+
+[[package]]
+channel = 'arch'
+name = 'texlab'
+
+[[package]]
+channel = 'debian'
+name = 'texlab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texlab'

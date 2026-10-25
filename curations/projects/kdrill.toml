@@ -1,0 +1,12 @@
+id = 'kdrill'
+name = 'kdrill'
+
+homepage = 'http://www.bolthole.com/kdrill'
+
+[[package]]
+channel = 'debian'
+name = 'kdrill'
+
+[[package]]
+channel = 'debian'
+name = 'makedic'

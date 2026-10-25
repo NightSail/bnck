@@ -1,0 +1,12 @@
+id = 'ibus-cangjie'
+name = 'ibus-cangjie'
+
+homepage = 'https://gitlab.freedesktop.org/cangjie/ibus-cangjie'
+
+[[package]]
+channel = 'debian'
+name = 'ibus-cangjie'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus-cangjie'

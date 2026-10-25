@@ -1,0 +1,8 @@
+id = 'fawltydeps'
+name = 'fawltydeps'
+
+homepage = 'https://tweag.github.io/FawltyDeps'
+
+[[package]]
+channel = 'fedora'
+name = 'fawltydeps'

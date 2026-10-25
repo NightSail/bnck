@@ -1,0 +1,12 @@
+id = 'qsstv'
+name = 'qsstv'
+
+homepage = 'https://www.qsl.net/on4qz/qsstv'
+
+[[package]]
+channel = 'debian'
+name = 'qsstv'
+
+[[package]]
+channel = 'fedora'
+name = 'qsstv'

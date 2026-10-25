@@ -1,0 +1,28 @@
+id = 'gpsbabel'
+name = 'gpsbabel'
+
+homepage = 'https://www.gpsbabel.org'
+
+[[package]]
+channel = 'arch'
+name = 'gpsbabel'
+
+[[package]]
+channel = 'debian'
+name = 'gpsbabel'
+
+[[package]]
+channel = 'debian'
+name = 'gpsbabel-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'gpsbabel'
+
+[[package]]
+channel = 'fedora'
+name = 'gpsbabel-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpsbabel'

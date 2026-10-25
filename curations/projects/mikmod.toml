@@ -1,0 +1,24 @@
+id = 'mikmod'
+name = 'mikmod'
+
+homepage = 'https://mikmod.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libmikmod'
+
+[[package]]
+channel = 'fedora'
+name = 'libmikmod-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mikmod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmikmod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mikmod'

@@ -1,0 +1,16 @@
+id = 'calligra-suite'
+name = 'calligra-suite'
+
+homepage = 'https://www.calligra-suite.org'
+
+[[package]]
+channel = 'arch'
+name = 'calligra'
+
+[[package]]
+channel = 'arch'
+name = 'calligra-plan'
+
+[[package]]
+channel = 'fedora'
+name = 'calligraplan'

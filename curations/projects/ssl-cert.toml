@@ -1,0 +1,6 @@
+id = 'ssl-cert'
+name = 'ssl-cert'
+
+[[package]]
+channel = 'debian'
+name = 'ssl-cert'

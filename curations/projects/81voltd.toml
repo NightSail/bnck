@@ -1,0 +1,8 @@
+id = '81voltd'
+name = '81voltd'
+
+homepage = 'https://gitlab.postmarketos.org/modem/81voltd'
+
+[[package]]
+channel = 'debian'
+name = '81voltd'

@@ -1,0 +1,17 @@
+id = 'libxslt'
+name = 'libxslt'
+
+homepage = 'http://xmlsoft.org/XSLT'
+repository = 'https://gitlab.gnome.org/GNOME/libxslt.git'
+
+[[package]]
+channel = 'fedora'
+name = 'libxslt'
+
+[[package]]
+channel = 'fedora'
+name = 'libxslt-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxslt'

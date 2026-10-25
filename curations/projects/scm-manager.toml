@@ -1,0 +1,8 @@
+id = 'scm-manager'
+name = 'scm-manager'
+
+homepage = 'https://www.scm-manager.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scm-manager'

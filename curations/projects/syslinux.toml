@@ -1,0 +1,20 @@
+id = 'syslinux'
+name = 'syslinux'
+
+homepage = 'https://www.syslinux.org'
+
+[[package]]
+channel = 'arch'
+name = 'syslinux'
+
+[[package]]
+channel = 'debian'
+name = 'extlinux'
+
+[[package]]
+channel = 'debian'
+name = 'syslinux'
+
+[[package]]
+channel = 'debian'
+name = 'syslinux-utils'

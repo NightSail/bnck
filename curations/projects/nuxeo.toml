@@ -1,0 +1,8 @@
+id = 'nuxeo'
+name = 'nuxeo'
+
+homepage = 'https://nuxeo.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuxeo'

@@ -1,0 +1,13 @@
+id = 'passenger'
+name = 'passenger'
+
+homepage = 'https://www.phusionpassenger.com'
+repository = 'https://github.com/phusion/passenger.git'
+
+[[package]]
+channel = 'debian'
+name = 'passenger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/passenger'

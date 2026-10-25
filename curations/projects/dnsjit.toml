@@ -1,0 +1,6 @@
+id = 'dnsjit'
+name = 'dnsjit'
+
+[[package]]
+channel = 'debian'
+name = 'dnsjit'

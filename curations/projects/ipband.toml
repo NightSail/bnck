@@ -1,0 +1,8 @@
+id = 'ipband'
+name = 'ipband'
+
+homepage = 'http://ipband.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ipband'

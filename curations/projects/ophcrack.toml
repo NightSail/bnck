@@ -1,0 +1,20 @@
+id = 'ophcrack'
+name = 'ophcrack'
+
+homepage = 'https://ophcrack.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ophcrack'
+
+[[package]]
+channel = 'debian'
+name = 'ophcrack-cli'
+
+[[package]]
+channel = 'debian'
+name = 'samdump2'
+
+[[package]]
+channel = 'fedora'
+name = 'bkhive'

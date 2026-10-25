@@ -1,0 +1,16 @@
+id = 'argus'
+name = 'argus'
+
+homepage = 'http://qosient.com/argus'
+
+[[package]]
+channel = 'debian'
+name = 'argus-client'
+
+[[package]]
+channel = 'fedora'
+name = 'argus'
+
+[[package]]
+channel = 'fedora'
+name = 'argus-clients'

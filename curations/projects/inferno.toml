@@ -1,0 +1,12 @@
+id = 'inferno'
+name = 'inferno'
+
+homepage = 'https://github.com/jonhoo/inferno'
+
+[[package]]
+channel = 'arch'
+name = 'inferno'
+
+[[package]]
+channel = 'fedora'
+name = 'inferno'

@@ -1,0 +1,16 @@
+id = 'papers-gnome'
+name = 'papers'
+
+homepage = 'https://gitlab.gnome.org/GNOME/Incubator/papers'
+
+[[package]]
+channel = 'fedora'
+name = 'papers'
+
+[[package]]
+channel = 'fedora'
+name = 'papers-previewer'
+
+[[package]]
+channel = 'fedora'
+name = 'papers-thumbnailer'

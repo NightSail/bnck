@@ -1,0 +1,8 @@
+id = 'entropybroker'
+name = 'entropybroker'
+
+homepage = 'https://www.vanheusden.com/entropybroker'
+
+[[package]]
+channel = 'debian'
+name = 'entropybroker'

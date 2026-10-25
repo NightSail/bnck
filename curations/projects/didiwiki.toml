@@ -1,0 +1,8 @@
+id = 'didiwiki'
+name = 'didiwiki'
+
+homepage = 'https://sourceforge.net/projects/ciwiki'
+
+[[package]]
+channel = 'debian'
+name = 'didiwiki'

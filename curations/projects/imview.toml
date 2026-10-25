@@ -1,0 +1,8 @@
+id = 'imview'
+name = 'imview'
+
+homepage = 'http://imview.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'imview'

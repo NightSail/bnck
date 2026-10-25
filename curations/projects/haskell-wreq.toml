@@ -1,0 +1,8 @@
+id = 'haskell-wreq'
+name = 'haskell-wreq'
+
+homepage = 'https://github.com/bos/wreq'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-wreq'

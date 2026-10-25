@@ -1,0 +1,12 @@
+id = 'plasma-welcome'
+name = 'plasma-welcome'
+
+homepage = 'https://invent.kde.org/plasma/plasma-welcome'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-welcome'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-welcome'

@@ -1,0 +1,8 @@
+id = 'comprez'
+name = 'comprez'
+
+homepage = 'https://www.cs.indiana.edu/~kinzler/z'
+
+[[package]]
+channel = 'debian'
+name = 'comprez'

@@ -1,0 +1,6 @@
+id = 'gwhois'
+name = 'gwhois'
+
+[[package]]
+channel = 'debian'
+name = 'gwhois'

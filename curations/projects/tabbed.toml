@@ -1,0 +1,12 @@
+id = 'tabbed'
+name = 'tabbed'
+
+homepage = 'http://tools.suckless.org/tabbed'
+
+[[package]]
+channel = 'fedora'
+name = 'tabbed'
+
+[[package]]
+channel = 'fedora'
+name = 'tabbed-user'

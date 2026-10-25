@@ -1,0 +1,8 @@
+id = 'mkgmapgui'
+name = 'mkgmapgui'
+
+homepage = 'http://activityworkshop.net/software/mkgmapgui'
+
+[[package]]
+channel = 'debian'
+name = 'mkgmapgui'

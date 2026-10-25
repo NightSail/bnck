@@ -1,0 +1,8 @@
+id = 'clang-build-analyzer'
+name = 'clang-build-analyzer'
+
+repository = 'https://github.com/aras-p/ClangBuildAnalyzer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clang-build-analyzer'

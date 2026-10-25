@@ -1,0 +1,8 @@
+id = 'helidon'
+name = 'helidon'
+
+homepage = 'https://helidon.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helidon'

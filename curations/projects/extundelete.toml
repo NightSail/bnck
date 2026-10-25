@@ -1,0 +1,12 @@
+id = 'extundelete'
+name = 'extundelete'
+
+homepage = 'http://extundelete.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'extundelete'
+
+[[package]]
+channel = 'fedora'
+name = 'extundelete'

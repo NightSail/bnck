@@ -1,0 +1,9 @@
+id = 'lume'
+name = 'lume'
+
+homepage = 'https://cua.ai'
+repository = 'https://github.com/trycua/cua.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lume'

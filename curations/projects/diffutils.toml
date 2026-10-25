@@ -1,0 +1,20 @@
+id = 'diffutils'
+name = 'diffutils'
+
+homepage = 'https://www.gnu.org/software/diffutils'
+
+[[package]]
+channel = 'arch'
+name = 'diffutils'
+
+[[package]]
+channel = 'debian'
+name = 'diffutils'
+
+[[package]]
+channel = 'fedora'
+name = 'diffutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diffutils'

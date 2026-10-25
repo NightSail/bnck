@@ -1,0 +1,16 @@
+id = 'bloaty'
+name = 'bloaty'
+
+repository = 'https://github.com/google/bloaty.git'
+
+[[package]]
+channel = 'arch'
+name = 'bloaty'
+
+[[package]]
+channel = 'fedora'
+name = 'bloaty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bloaty'

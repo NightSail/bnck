@@ -1,0 +1,8 @@
+id = 'cassandra'
+name = 'cassandra'
+
+homepage = 'https://cassandra.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cassandra'

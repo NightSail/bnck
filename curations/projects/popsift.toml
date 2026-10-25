@@ -1,0 +1,8 @@
+id = 'popsift'
+name = 'popsift'
+
+homepage = 'https://github.com/alicevision/popsift'
+
+[[package]]
+channel = 'arch'
+name = 'popsift'

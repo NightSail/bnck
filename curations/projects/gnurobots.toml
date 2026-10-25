@@ -1,0 +1,8 @@
+id = 'gnurobots'
+name = 'gnurobots'
+
+homepage = 'http://www.gnu.org/software/gnurobots'
+
+[[package]]
+channel = 'fedora'
+name = 'gnurobots'

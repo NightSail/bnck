@@ -1,0 +1,6 @@
+id = 'edenmath-app'
+name = 'edenmath.app'
+
+[[package]]
+channel = 'debian'
+name = 'edenmath.app'

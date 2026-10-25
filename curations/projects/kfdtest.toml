@@ -1,0 +1,8 @@
+id = 'kfdtest'
+name = 'kfdtest'
+
+homepage = 'https://github.com/ROCm/ROCR-Runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'kfdtest'

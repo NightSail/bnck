@@ -1,0 +1,12 @@
+id = 'python3-behave'
+name = 'python3-behave'
+
+homepage = 'https://github.com/behave/behave'
+
+[[package]]
+channel = 'debian'
+name = 'python3-behave'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-behave'

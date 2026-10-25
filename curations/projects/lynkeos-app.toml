@@ -1,0 +1,8 @@
+id = 'lynkeos-app'
+name = 'lynkeos.app'
+
+homepage = 'http://lynkeos.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'lynkeos.app'

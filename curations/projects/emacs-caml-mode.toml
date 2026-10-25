@@ -1,0 +1,8 @@
+id = 'emacs-caml-mode'
+name = 'emacs-caml-mode'
+
+homepage = 'https://github.com/ocaml/caml-mode'
+
+[[package]]
+channel = 'fedora'
+name = 'emacs-caml-mode'

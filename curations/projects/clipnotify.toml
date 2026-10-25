@@ -1,0 +1,8 @@
+id = 'clipnotify'
+name = 'clipnotify'
+
+homepage = 'https://github.com/cdown/clipnotify'
+
+[[package]]
+channel = 'arch'
+name = 'clipnotify'

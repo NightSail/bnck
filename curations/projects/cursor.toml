@@ -1,0 +1,12 @@
+id = 'cursor'
+name = 'cursor'
+
+homepage = 'https://www.cursor.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/cursor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/cursor-cli'

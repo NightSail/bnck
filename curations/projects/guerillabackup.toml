@@ -1,0 +1,8 @@
+id = 'guerillabackup'
+name = 'guerillabackup'
+
+homepage = 'https://github.com/halfdog/guerillabackup'
+
+[[package]]
+channel = 'debian'
+name = 'guerillabackup'

@@ -1,0 +1,8 @@
+id = 'perl-dbi-dumper'
+name = 'perl-DBI-Dumper'
+
+homepage = 'https://metacpan.org/release/DBI-Dumper'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBI-Dumper'

@@ -1,0 +1,8 @@
+id = 'dav-text'
+name = 'dav-text'
+
+homepage = 'https://github.com/atsb/dav-text'
+
+[[package]]
+channel = 'debian'
+name = 'dav-text'

@@ -1,0 +1,8 @@
+id = 'gws'
+name = 'gws'
+
+homepage = 'https://streakycobra.github.io/gws'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gws'

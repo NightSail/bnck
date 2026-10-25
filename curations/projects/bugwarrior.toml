@@ -1,0 +1,8 @@
+id = 'bugwarrior'
+name = 'bugwarrior'
+
+homepage = 'https://github.com/ralphbean/bugwarrior'
+
+[[package]]
+channel = 'debian'
+name = 'bugwarrior'

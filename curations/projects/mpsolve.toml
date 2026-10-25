@@ -1,0 +1,16 @@
+id = 'mpsolve'
+name = 'mpsolve'
+
+homepage = 'https://numpi.dm.unipi.it/scientific-computing-libraries/mpsolve'
+
+[[package]]
+channel = 'debian'
+name = 'mandelbrot-solver'
+
+[[package]]
+channel = 'debian'
+name = 'mpsolve'
+
+[[package]]
+channel = 'debian'
+name = 'xmpsolve'

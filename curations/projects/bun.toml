@@ -1,0 +1,13 @@
+id = 'bun'
+name = 'bun'
+
+homepage = 'https://bun.com'
+repository = 'https://github.com/oven-sh/bun.git'
+
+[[package]]
+channel = 'arch'
+name = 'bun'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bun'

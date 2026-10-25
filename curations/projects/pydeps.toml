@@ -1,0 +1,8 @@
+id = 'pydeps'
+name = 'pydeps'
+
+homepage = 'https://github.com/thebjorn/pydeps'
+
+[[package]]
+channel = 'fedora'
+name = 'pydeps'

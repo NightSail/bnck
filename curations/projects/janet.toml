@@ -1,0 +1,21 @@
+id = 'janet'
+name = 'janet'
+
+homepage = 'https://janet-lang.org'
+repository = 'https://github.com/janet-lang/janet.git'
+
+[[package]]
+channel = 'arch'
+name = 'janet'
+
+[[package]]
+channel = 'debian'
+name = 'janet'
+
+[[package]]
+channel = 'fedora'
+name = 'janet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/janet'

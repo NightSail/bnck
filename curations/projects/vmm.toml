@@ -1,0 +1,8 @@
+id = 'vmm'
+name = 'vmm'
+
+homepage = 'http://vmm.localdomain.org'
+
+[[package]]
+channel = 'debian'
+name = 'vmm'

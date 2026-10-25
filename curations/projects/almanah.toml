@@ -1,0 +1,16 @@
+id = 'almanah'
+name = 'almanah'
+
+homepage = 'https://wiki.gnome.org/Apps/Almanah_Diary'
+
+[[package]]
+channel = 'arch'
+name = 'almanah'
+
+[[package]]
+channel = 'debian'
+name = 'almanah'
+
+[[package]]
+channel = 'fedora'
+name = 'almanah'

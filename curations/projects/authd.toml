@@ -1,0 +1,8 @@
+id = 'authd'
+name = 'authd'
+
+homepage = 'https://github.com/InfrastructureServices/authd'
+
+[[package]]
+channel = 'fedora'
+name = 'authd'

@@ -1,0 +1,9 @@
+id = 'quickjs-ng-quickjs-ng'
+name = 'quickjs-ng'
+
+homepage = 'https://quickjs-ng.github.io/quickjs'
+repository = 'https://github.com/quickjs-ng/quickjs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quickjs-ng'

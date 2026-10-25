@@ -1,0 +1,21 @@
+id = 'cryfs'
+name = 'cryfs'
+
+homepage = 'https://www.cryfs.org'
+repository = 'https://github.com/cryfs/cryfs.git'
+
+[[package]]
+channel = 'arch'
+name = 'cryfs'
+
+[[package]]
+channel = 'debian'
+name = 'cryfs'
+
+[[package]]
+channel = 'fedora'
+name = 'cryfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cryfs'

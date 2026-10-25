@@ -1,0 +1,8 @@
+id = 'vulkan-extra-tools'
+name = 'vulkan-extra-tools'
+
+homepage = 'https://www.lunarg.com'
+
+[[package]]
+channel = 'arch'
+name = 'vulkan-extra-tools'

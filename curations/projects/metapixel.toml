@@ -1,0 +1,12 @@
+id = 'metapixel'
+name = 'metapixel'
+
+homepage = 'https://www.complang.tuwien.ac.at/schani/metapixel'
+
+[[package]]
+channel = 'debian'
+name = 'metapixel'
+
+[[package]]
+channel = 'fedora'
+name = 'metapixel'

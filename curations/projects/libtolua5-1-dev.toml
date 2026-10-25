@@ -1,0 +1,8 @@
+id = 'libtolua5-1-dev'
+name = 'libtolua++5.1-dev'
+
+homepage = 'http://www.codenix.com/~tolua'
+
+[[package]]
+channel = 'debian'
+name = 'libtolua++5.1-dev'

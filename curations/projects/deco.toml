@@ -1,0 +1,8 @@
+id = 'deco'
+name = 'deco'
+
+homepage = 'https://github.com/peha/deco'
+
+[[package]]
+channel = 'fedora'
+name = 'deco'

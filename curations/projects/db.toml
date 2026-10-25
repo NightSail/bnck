@@ -1,0 +1,8 @@
+id = 'db'
+name = 'db'
+
+homepage = 'https://www.oracle.com/technology/software/products/berkeley-db/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'db'

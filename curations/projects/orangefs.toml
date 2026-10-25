@@ -1,0 +1,20 @@
+id = 'orangefs'
+name = 'orangefs'
+
+homepage = 'https://www.orangefs.org'
+
+[[package]]
+channel = 'fedora'
+name = 'orangefs'
+
+[[package]]
+channel = 'fedora'
+name = 'orangefs-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'orangefs-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'orangefs-server'

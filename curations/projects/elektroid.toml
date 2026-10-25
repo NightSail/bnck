@@ -1,0 +1,12 @@
+id = 'elektroid'
+name = 'elektroid'
+
+homepage = 'https://github.com/dagargo/elektroid'
+
+[[package]]
+channel = 'arch'
+name = 'elektroid'
+
+[[package]]
+channel = 'debian'
+name = 'elektroid'

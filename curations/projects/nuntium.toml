@@ -1,0 +1,12 @@
+id = 'nuntium'
+name = 'nuntium'
+
+homepage = 'https://gitlab.com/ubports/development/core/nuntium'
+
+[[package]]
+channel = 'debian'
+name = 'nuntium'
+
+[[package]]
+channel = 'debian'
+name = 'nuntium-tools'

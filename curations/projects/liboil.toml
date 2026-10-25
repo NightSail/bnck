@@ -1,0 +1,8 @@
+id = 'liboil'
+name = 'liboil'
+
+homepage = 'https://wiki.freedesktop.org/liboil'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liboil'

@@ -1,0 +1,8 @@
+id = 'hoedown'
+name = 'hoedown'
+
+homepage = 'https://github.com/hoedown/hoedown'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hoedown'

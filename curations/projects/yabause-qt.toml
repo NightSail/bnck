@@ -1,0 +1,8 @@
+id = 'yabause-qt'
+name = 'yabause-qt'
+
+homepage = 'https://yabause.org'
+
+[[package]]
+channel = 'debian'
+name = 'yabause-qt'

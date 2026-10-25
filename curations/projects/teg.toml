@@ -1,0 +1,8 @@
+id = 'teg'
+name = 'teg'
+
+homepage = 'https://github.com/wfx/teg'
+
+[[package]]
+channel = 'fedora'
+name = 'teg'

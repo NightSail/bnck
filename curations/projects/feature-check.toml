@@ -1,0 +1,8 @@
+id = 'feature-check'
+name = 'feature-check'
+
+homepage = 'https://devel.ringlet.net/misc/feature-check'
+
+[[package]]
+channel = 'debian'
+name = 'feature-check'

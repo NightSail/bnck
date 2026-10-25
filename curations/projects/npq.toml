@@ -1,0 +1,8 @@
+id = 'npq'
+name = 'npq'
+
+homepage = 'https://github.com/lirantal/npq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/npq'

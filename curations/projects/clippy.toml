@@ -1,0 +1,8 @@
+id = 'clippy'
+name = 'clippy'
+
+homepage = 'https://github.com/neilberkman/clippy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clippy'

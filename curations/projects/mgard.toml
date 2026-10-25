@@ -1,0 +1,8 @@
+id = 'mgard'
+name = 'mgard'
+
+homepage = 'https://github.com/CODARcode/MGARD'
+
+[[package]]
+channel = 'arch'
+name = 'mgard'

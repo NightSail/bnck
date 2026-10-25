@@ -1,0 +1,9 @@
+id = 'cdebug'
+name = 'cdebug'
+
+homepage = 'https://iximiuz.com/en/posts/docker-debug-slim-containers'
+repository = 'https://github.com/iximiuz/cdebug.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdebug'

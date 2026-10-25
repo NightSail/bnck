@@ -1,0 +1,28 @@
+id = 'packagekit'
+name = 'PackageKit'
+
+homepage = 'https://www.freedesktop.org/software/PackageKit'
+
+[[package]]
+channel = 'arch'
+name = 'packagekit'
+
+[[package]]
+channel = 'debian'
+name = 'packagekit-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'PackageKit'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-packagekit-common'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-packagekit-installer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-packagekit-updater'

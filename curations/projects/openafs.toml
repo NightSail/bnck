@@ -1,0 +1,28 @@
+id = 'openafs'
+name = 'openafs'
+
+homepage = 'http://www.openafs.org'
+
+[[package]]
+channel = 'debian'
+name = 'libopenafs-dev'
+
+[[package]]
+channel = 'debian'
+name = 'openafs-client'
+
+[[package]]
+channel = 'debian'
+name = 'openafs-dbserver'
+
+[[package]]
+channel = 'debian'
+name = 'openafs-fileserver'
+
+[[package]]
+channel = 'debian'
+name = 'openafs-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'openafs-krb5'

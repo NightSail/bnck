@@ -1,0 +1,8 @@
+id = 'mayo'
+name = 'mayo'
+
+homepage = 'https://github.com/fougue/mayo'
+
+[[package]]
+channel = 'debian'
+name = 'mayo'

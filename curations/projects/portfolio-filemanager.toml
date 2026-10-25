@@ -1,0 +1,8 @@
+id = 'portfolio-filemanager'
+name = 'portfolio-filemanager'
+
+homepage = 'https://github.com/tchx84/Portfolio'
+
+[[package]]
+channel = 'debian'
+name = 'portfolio-filemanager'

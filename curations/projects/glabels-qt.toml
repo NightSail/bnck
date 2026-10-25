@@ -1,0 +1,8 @@
+id = 'glabels-qt'
+name = 'glabels-qt'
+
+homepage = 'https://github.com/jimevins/glabels-qt'
+
+[[package]]
+channel = 'debian'
+name = 'glabels-qt'

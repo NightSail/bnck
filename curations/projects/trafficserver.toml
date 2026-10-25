@@ -1,0 +1,13 @@
+id = 'trafficserver'
+name = 'trafficserver'
+
+homepage = 'https://trafficserver.apache.org'
+repository = 'https://github.com/apache/trafficserver.git'
+
+[[package]]
+channel = 'fedora'
+name = 'trafficserver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trafficserver'

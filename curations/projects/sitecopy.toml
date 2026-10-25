@@ -1,0 +1,8 @@
+id = 'sitecopy'
+name = 'sitecopy'
+
+homepage = 'https://www.manyfish.co.uk/sitecopy'
+
+[[package]]
+channel = 'debian'
+name = 'sitecopy'

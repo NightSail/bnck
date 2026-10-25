@@ -1,0 +1,6 @@
+id = 'hacktv'
+name = 'hacktv'
+
+[[package]]
+channel = 'debian'
+name = 'hacktv'

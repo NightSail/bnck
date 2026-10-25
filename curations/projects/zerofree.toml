@@ -1,0 +1,12 @@
+id = 'zerofree'
+name = 'zerofree'
+
+homepage = 'https://frippery.org/uml'
+
+[[package]]
+channel = 'debian'
+name = 'zerofree'
+
+[[package]]
+channel = 'fedora'
+name = 'zerofree'

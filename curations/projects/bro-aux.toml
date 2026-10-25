@@ -1,0 +1,8 @@
+id = 'bro-aux'
+name = 'bro-aux'
+
+homepage = 'https://www.bro.org/sphinx/components/bro-aux/README.html'
+
+[[package]]
+channel = 'debian'
+name = 'bro-aux'

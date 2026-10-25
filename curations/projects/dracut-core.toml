@@ -1,0 +1,6 @@
+id = 'dracut-core'
+name = 'dracut-core'
+
+[[package]]
+channel = 'debian'
+name = 'dracut-core'

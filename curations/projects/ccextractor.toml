@@ -1,0 +1,8 @@
+id = 'ccextractor'
+name = 'ccextractor'
+
+homepage = 'https://www.ccextractor.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccextractor'

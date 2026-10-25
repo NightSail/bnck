@@ -1,0 +1,12 @@
+id = 'colortail'
+name = 'colortail'
+
+homepage = 'https://github.com/joakim666/colortail'
+
+[[package]]
+channel = 'debian'
+name = 'colortail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/colortail'

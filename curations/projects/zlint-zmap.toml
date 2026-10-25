@@ -1,0 +1,9 @@
+id = 'zlint-zmap'
+name = 'zlint'
+
+homepage = 'https://zmap.io'
+repository = 'https://github.com/zmap/zlint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zlint'

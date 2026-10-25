@@ -1,0 +1,8 @@
+id = 'cstocs'
+name = 'cstocs'
+
+homepage = 'https://metacpan.org/dist/Cstools'
+
+[[package]]
+channel = 'debian'
+name = 'cstocs'

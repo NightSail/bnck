@@ -1,0 +1,8 @@
+id = 'osc2midi'
+name = 'osc2midi'
+
+homepage = 'https://github.com/ssj71/osc2midi'
+
+[[package]]
+channel = 'arch'
+name = 'osc2midi'

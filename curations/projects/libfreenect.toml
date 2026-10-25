@@ -1,0 +1,9 @@
+id = 'libfreenect'
+name = 'libfreenect'
+
+homepage = 'https://openkinect.org'
+repository = 'https://github.com/OpenKinect/libfreenect.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfreenect'

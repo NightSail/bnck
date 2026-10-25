@@ -1,0 +1,8 @@
+id = 'clean'
+name = 'clean'
+
+homepage = 'https://clean.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clean'

@@ -1,0 +1,8 @@
+id = 'byebyebios'
+name = 'byebyebios'
+
+homepage = 'https://gitlab.com/berrange/byebyebios'
+
+[[package]]
+channel = 'fedora'
+name = 'byebyebios'

@@ -1,0 +1,8 @@
+id = 'hachoir'
+name = 'hachoir'
+
+homepage = 'https://github.com/vstinner/hachoir'
+
+[[package]]
+channel = 'debian'
+name = 'hachoir'

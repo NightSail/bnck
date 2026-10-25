@@ -1,0 +1,52 @@
+id = 'synfig'
+name = 'synfig'
+
+homepage = 'https://synfig.org'
+
+[[package]]
+channel = 'arch'
+name = 'etl'
+
+[[package]]
+channel = 'arch'
+name = 'synfig'
+
+[[package]]
+channel = 'arch'
+name = 'synfigstudio'
+
+[[package]]
+channel = 'debian'
+name = 'etl-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libsynfig-dev'
+
+[[package]]
+channel = 'debian'
+name = 'synfig'
+
+[[package]]
+channel = 'debian'
+name = 'synfigstudio'
+
+[[package]]
+channel = 'fedora'
+name = 'ETL-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'synfig'
+
+[[package]]
+channel = 'fedora'
+name = 'synfig-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'synfigstudio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/etl'

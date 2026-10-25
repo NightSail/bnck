@@ -1,0 +1,12 @@
+id = 'cc1541'
+name = 'cc1541'
+
+homepage = 'https://bitbucket.org/PTV_Claus/cc1541'
+
+[[package]]
+channel = 'debian'
+name = 'cc1541'
+
+[[package]]
+channel = 'fedora'
+name = 'cc1541'

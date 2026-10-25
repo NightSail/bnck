@@ -1,0 +1,16 @@
+id = 'kcachegrind-sdk'
+name = 'kcachegrind'
+
+homepage = 'https://invent.kde.org/sdk/kcachegrind'
+
+[[package]]
+channel = 'fedora'
+name = 'kcachegrind'
+
+[[package]]
+channel = 'fedora'
+name = 'kcachegrind-converters'
+
+[[package]]
+channel = 'fedora'
+name = 'qcachegrind'

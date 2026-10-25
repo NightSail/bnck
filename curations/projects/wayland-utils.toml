@@ -1,0 +1,12 @@
+id = 'wayland-utils'
+name = 'wayland-utils'
+
+homepage = 'https://gitlab.freedesktop.org/wayland/wayland-utils'
+
+[[package]]
+channel = 'arch'
+name = 'wayland-utils'
+
+[[package]]
+channel = 'debian'
+name = 'wayland-utils'

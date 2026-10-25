@@ -1,0 +1,10 @@
+id = 't-prot'
+name = 't-prot'
+
+[[package]]
+channel = 'debian'
+name = 't-prot'
+
+[[package]]
+channel = 'fedora'
+name = 't-prot'

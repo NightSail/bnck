@@ -1,0 +1,10 @@
+id = 'gentoo'
+name = 'gentoo'
+
+[[package]]
+channel = 'debian'
+name = 'gentoo'
+
+[[package]]
+channel = 'fedora'
+name = 'gentoo'

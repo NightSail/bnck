@@ -1,0 +1,8 @@
+id = 'chart-releaser'
+name = 'chart-releaser'
+
+repository = 'https://github.com/helm/chart-releaser.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chart-releaser'

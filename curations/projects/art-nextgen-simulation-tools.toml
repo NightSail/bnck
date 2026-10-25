@@ -1,0 +1,8 @@
+id = 'art-nextgen-simulation-tools'
+name = 'art-nextgen-simulation-tools'
+
+homepage = 'https://www.niehs.nih.gov/research/resources/software/biostatistics/art'
+
+[[package]]
+channel = 'debian'
+name = 'art-nextgen-simulation-tools'

@@ -1,0 +1,8 @@
+id = 'python-pyroute2'
+name = 'python-pyroute2'
+
+homepage = 'https://docs.pyroute2.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyroute2'

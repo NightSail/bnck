@@ -1,0 +1,24 @@
+id = 'amule'
+name = 'amule'
+
+homepage = 'https://amule-org.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'amule'
+
+[[package]]
+channel = 'debian'
+name = 'amule'
+
+[[package]]
+channel = 'debian'
+name = 'amule-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'amule-utils'
+
+[[package]]
+channel = 'debian'
+name = 'amule-utils-gui'

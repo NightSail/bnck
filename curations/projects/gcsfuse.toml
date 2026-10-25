@@ -1,0 +1,8 @@
+id = 'gcsfuse'
+name = 'gcsfuse'
+
+repository = 'https://github.com/GoogleCloudPlatform/gcsfuse.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcsfuse'

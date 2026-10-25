@@ -1,0 +1,8 @@
+id = 'manedit'
+name = 'manedit'
+
+homepage = 'http://freshmeat.net/projects/manedit'
+
+[[package]]
+channel = 'fedora'
+name = 'manedit'

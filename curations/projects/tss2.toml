@@ -1,0 +1,8 @@
+id = 'tss2'
+name = 'tss2'
+
+homepage = 'https://sourceforge.net/projects/ibmtpm20tss'
+
+[[package]]
+channel = 'fedora'
+name = 'tss2'

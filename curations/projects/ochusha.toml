@@ -1,0 +1,8 @@
+id = 'ochusha'
+name = 'ochusha'
+
+homepage = 'http://ochusha.sourceforge.jp'
+
+[[package]]
+channel = 'fedora'
+name = 'ochusha'

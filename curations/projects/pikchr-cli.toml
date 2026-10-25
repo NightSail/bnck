@@ -1,0 +1,8 @@
+id = 'pikchr-cli'
+name = 'pikchr-cli'
+
+homepage = 'https://github.com/kinnison/pikchr'
+
+[[package]]
+channel = 'debian'
+name = 'pikchr-cli'

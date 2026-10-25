@@ -1,0 +1,8 @@
+id = 'golang-github-oklog-ulid'
+name = 'golang-github-oklog-ulid'
+
+homepage = 'https://github.com/oklog/ulid'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-oklog-ulid'

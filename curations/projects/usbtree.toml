@@ -1,0 +1,8 @@
+id = 'usbtree'
+name = 'usbtree'
+
+homepage = 'https://gnomeria.github.io/usbtree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/usbtree'

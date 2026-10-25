@@ -1,0 +1,13 @@
+id = 'mspdebug'
+name = 'mspdebug'
+
+homepage = 'https://mspdebug.sourceforge.net'
+repository = 'https://github.com/dlbeer/mspdebug.git'
+
+[[package]]
+channel = 'debian'
+name = 'mspdebug'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mspdebug'

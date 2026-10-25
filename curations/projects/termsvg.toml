@@ -1,0 +1,8 @@
+id = 'termsvg'
+name = 'termsvg'
+
+repository = 'https://github.com/MrMarble/termsvg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termsvg'

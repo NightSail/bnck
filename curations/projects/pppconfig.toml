@@ -1,0 +1,6 @@
+id = 'pppconfig'
+name = 'pppconfig'
+
+[[package]]
+channel = 'debian'
+name = 'pppconfig'

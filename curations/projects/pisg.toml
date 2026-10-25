@@ -1,0 +1,12 @@
+id = 'pisg'
+name = 'pisg'
+
+homepage = 'https://pisg.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'pisg'
+
+[[package]]
+channel = 'fedora'
+name = 'pisg'

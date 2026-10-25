@@ -1,0 +1,8 @@
+id = 'python3-calmjs'
+name = 'python3-calmjs'
+
+homepage = 'https://github.com/calmjs/calmjs'
+
+[[package]]
+channel = 'debian'
+name = 'python3-calmjs'

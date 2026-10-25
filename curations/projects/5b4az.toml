@@ -1,0 +1,12 @@
+id = '5b4az'
+name = '5b4az'
+
+homepage = 'https://www.qsl.net/5b4az'
+
+[[package]]
+channel = 'debian'
+name = 'nec2c'
+
+[[package]]
+channel = 'fedora'
+name = 'xgridloc'

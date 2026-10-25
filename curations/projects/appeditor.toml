@@ -1,0 +1,8 @@
+id = 'appeditor'
+name = 'appeditor'
+
+homepage = 'https://github.com/donadigo/appeditor'
+
+[[package]]
+channel = 'fedora'
+name = 'appeditor'

@@ -1,0 +1,8 @@
+id = 'libsigscan-utils'
+name = 'libsigscan-utils'
+
+homepage = 'https://github.com/libyal/libsigscan'
+
+[[package]]
+channel = 'debian'
+name = 'libsigscan-utils'

@@ -1,0 +1,8 @@
+id = 'ncurses-hexedit'
+name = 'ncurses-hexedit'
+
+homepage = 'http://www.rogoyski.com/adam/programs/hexedit'
+
+[[package]]
+channel = 'debian'
+name = 'ncurses-hexedit'

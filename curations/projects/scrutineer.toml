@@ -1,0 +1,8 @@
+id = 'scrutineer'
+name = 'scrutineer'
+
+repository = 'https://github.com/alpha-omega-security/scrutineer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scrutineer'

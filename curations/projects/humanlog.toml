@@ -1,0 +1,13 @@
+id = 'humanlog'
+name = 'humanlog'
+
+homepage = 'https://humanlog.io'
+repository = 'https://github.com/humanlogio/humanlog.git'
+
+[[package]]
+channel = 'debian'
+name = 'humanlog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/humanlog'

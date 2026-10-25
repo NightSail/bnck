@@ -1,0 +1,8 @@
+id = 'bluepill'
+name = 'bluepill'
+
+repository = 'https://github.com/MobileNativeFoundation/bluepill.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bluepill'

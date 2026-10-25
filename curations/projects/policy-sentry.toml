@@ -1,0 +1,9 @@
+id = 'policy-sentry'
+name = 'policy_sentry'
+
+homepage = 'https://policy-sentry.readthedocs.io/en/latest'
+repository = 'https://github.com/salesforce/policy_sentry.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/policy_sentry'

@@ -1,0 +1,16 @@
+id = 'can-utils'
+name = 'can-utils'
+
+homepage = 'https://github.com/linux-can/can-utils'
+
+[[package]]
+channel = 'debian'
+name = 'can-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'can-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'can-utils-devel'

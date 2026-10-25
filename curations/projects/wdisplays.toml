@@ -1,0 +1,16 @@
+id = 'wdisplays'
+name = 'wdisplays'
+
+homepage = 'https://github.com/artizirk/wdisplays'
+
+[[package]]
+channel = 'arch'
+name = 'wdisplays'
+
+[[package]]
+channel = 'debian'
+name = 'wdisplays'
+
+[[package]]
+channel = 'fedora'
+name = 'wdisplays'

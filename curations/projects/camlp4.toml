@@ -1,0 +1,8 @@
+id = 'camlp4'
+name = 'camlp4'
+
+homepage = 'https://github.com/ocaml/camlp4'
+
+[[package]]
+channel = 'debian'
+name = 'camlp4'

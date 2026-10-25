@@ -1,0 +1,12 @@
+id = 'python3-swiftclient'
+name = 'python3-swiftclient'
+
+homepage = 'https://github.com/openstack/python-swiftclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-swiftclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-swiftclient'

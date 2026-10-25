@@ -1,0 +1,12 @@
+id = 'python3-pulp'
+name = 'python3-pulp'
+
+homepage = 'https://github.com/coin-or/pulp'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pulp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pulp'

@@ -1,0 +1,12 @@
+id = 'salt-lint'
+name = 'salt-lint'
+
+homepage = 'https://salt-lint.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-lint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/salt-lint'

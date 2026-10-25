@@ -1,0 +1,9 @@
+id = 'marmot'
+name = 'marmot'
+
+homepage = 'https://marmotdata.io'
+repository = 'https://github.com/marmotdata/marmot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marmot'

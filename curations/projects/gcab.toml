@@ -1,0 +1,8 @@
+id = 'gcab'
+name = 'gcab'
+
+homepage = 'http://ftp.gnome.org/pub/GNOME/sources/gcab'
+
+[[package]]
+channel = 'fedora'
+name = 'gcab'

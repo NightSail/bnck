@@ -1,0 +1,8 @@
+id = 'go-swagger'
+name = 'go-swagger'
+
+homepage = 'https://goswagger.io'
+
+[[package]]
+channel = 'arch'
+name = 'go-swagger'

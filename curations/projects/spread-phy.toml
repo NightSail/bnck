@@ -1,0 +1,8 @@
+id = 'spread-phy'
+name = 'spread-phy'
+
+homepage = 'https://www.kuleuven.be/aidslab/phylogeography/SPREAD.html'
+
+[[package]]
+channel = 'debian'
+name = 'spread-phy'

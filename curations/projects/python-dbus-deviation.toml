@@ -1,0 +1,8 @@
+id = 'python-dbus-deviation'
+name = 'python-dbus-deviation'
+
+homepage = 'https://github.com/pwithnall/dbus-deviation'
+
+[[package]]
+channel = 'arch'
+name = 'python-dbus-deviation'

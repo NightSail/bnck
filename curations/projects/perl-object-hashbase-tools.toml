@@ -1,0 +1,8 @@
+id = 'perl-object-hashbase-tools'
+name = 'perl-Object-HashBase-tools'
+
+homepage = 'https://metacpan.org/release/Object-HashBase'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Object-HashBase-tools'

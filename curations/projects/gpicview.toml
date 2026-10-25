@@ -1,0 +1,16 @@
+id = 'gpicview'
+name = 'gpicview'
+
+homepage = 'https://github.com/lxde/gpicview'
+
+[[package]]
+channel = 'arch'
+name = 'gpicview'
+
+[[package]]
+channel = 'debian'
+name = 'gpicview'
+
+[[package]]
+channel = 'fedora'
+name = 'gpicview'

@@ -1,0 +1,8 @@
+id = 'offroad'
+name = 'offroad'
+
+homepage = 'https://sourceforge.net/projects/offroadosm'
+
+[[package]]
+channel = 'arch'
+name = 'offroad'

@@ -1,0 +1,8 @@
+id = 'trafilatura'
+name = 'trafilatura'
+
+homepage = 'https://trafilatura.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trafilatura'

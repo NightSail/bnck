@@ -4,5 +4,13 @@ name = 'ots'
 repository = 'https://github.com/sniptt-official/ots'
 
 [[package]]
+channel = 'debian'
+name = 'ots'
+
+[[package]]
+channel = 'fedora'
+name = 'ots'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ots'

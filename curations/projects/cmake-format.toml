@@ -1,0 +1,8 @@
+id = 'cmake-format'
+name = 'cmake-format'
+
+homepage = 'https://github.com/cheshirekow/cmake_format'
+
+[[package]]
+channel = 'debian'
+name = 'cmake-format'

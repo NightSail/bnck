@@ -1,0 +1,8 @@
+id = 'cpdup'
+name = 'cpdup'
+
+homepage = 'http://apollo.backplane.com/FreeSrc'
+
+[[package]]
+channel = 'fedora'
+name = 'cpdup'

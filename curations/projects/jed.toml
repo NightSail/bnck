@@ -1,0 +1,16 @@
+id = 'jed'
+name = 'jed'
+
+homepage = 'https://www.jedsoft.org/jed'
+
+[[package]]
+channel = 'debian'
+name = 'jed'
+
+[[package]]
+channel = 'debian'
+name = 'xjed'
+
+[[package]]
+channel = 'fedora'
+name = 'jed'

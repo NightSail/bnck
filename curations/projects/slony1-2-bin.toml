@@ -1,0 +1,8 @@
+id = 'slony1-2-bin'
+name = 'slony1-2-bin'
+
+homepage = 'http://slony.info'
+
+[[package]]
+channel = 'debian'
+name = 'slony1-2-bin'

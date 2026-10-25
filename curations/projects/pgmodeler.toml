@@ -1,0 +1,12 @@
+id = 'pgmodeler'
+name = 'pgmodeler'
+
+homepage = 'https://pgmodeler.io'
+
+[[package]]
+channel = 'debian'
+name = 'pgmodeler'
+
+[[package]]
+channel = 'fedora'
+name = 'pgmodeler'

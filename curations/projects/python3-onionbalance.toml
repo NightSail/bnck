@@ -1,0 +1,8 @@
+id = 'python3-onionbalance'
+name = 'python3-onionbalance'
+
+homepage = 'https://onionbalance.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-onionbalance'

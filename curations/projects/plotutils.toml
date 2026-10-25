@@ -1,0 +1,20 @@
+id = 'plotutils'
+name = 'plotutils'
+
+homepage = 'https://www.gnu.org/software/plotutils'
+
+[[package]]
+channel = 'arch'
+name = 'plotutils'
+
+[[package]]
+channel = 'debian'
+name = 'plotutils'
+
+[[package]]
+channel = 'fedora'
+name = 'plotutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plotutils'

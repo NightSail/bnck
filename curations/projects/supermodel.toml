@@ -1,0 +1,8 @@
+id = 'supermodel'
+name = 'supermodel'
+
+repository = 'https://github.com/trzy/Supermodel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/supermodel'

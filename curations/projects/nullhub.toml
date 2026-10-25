@@ -1,0 +1,9 @@
+id = 'nullhub'
+name = 'nullhub'
+
+homepage = 'https://nullhub.io'
+repository = 'https://github.com/nullclaw/nullhub.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nullhub'

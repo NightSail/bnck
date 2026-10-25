@@ -1,0 +1,8 @@
+id = 'python3-gabbi'
+name = 'python3-gabbi'
+
+homepage = 'https://github.com/cdent/gabbi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gabbi'

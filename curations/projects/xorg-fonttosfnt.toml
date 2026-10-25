@@ -1,0 +1,8 @@
+id = 'xorg-fonttosfnt'
+name = 'xorg-fonttosfnt'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/fonttosfnt'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-fonttosfnt'

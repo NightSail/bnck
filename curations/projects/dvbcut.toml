@@ -1,0 +1,8 @@
+id = 'dvbcut'
+name = 'dvbcut'
+
+homepage = 'https://github.com/bernhardu/dvbcut-deb'
+
+[[package]]
+channel = 'debian'
+name = 'dvbcut'

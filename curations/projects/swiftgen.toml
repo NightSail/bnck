@@ -1,0 +1,8 @@
+id = 'swiftgen'
+name = 'swiftgen'
+
+repository = 'https://github.com/SwiftGen/SwiftGen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swiftgen'

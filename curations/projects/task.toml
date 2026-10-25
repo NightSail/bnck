@@ -1,0 +1,9 @@
+id = 'task'
+name = 'task'
+
+homepage = 'https://taskwarrior.org'
+repository = 'https://github.com/GothenburgBitFactory/taskwarrior.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/task'

@@ -1,0 +1,8 @@
+id = 'katarakt'
+name = 'katarakt'
+
+homepage = 'https://gitlab.cs.fau.de/Qui_Sum/katarakt'
+
+[[package]]
+channel = 'debian'
+name = 'katarakt'

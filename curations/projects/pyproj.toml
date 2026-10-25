@@ -1,0 +1,12 @@
+id = 'pyproj'
+name = 'pyproj'
+
+homepage = 'https://github.com/pyproj4/pyproj'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyproj'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyproj'

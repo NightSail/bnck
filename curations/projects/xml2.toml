@@ -1,0 +1,10 @@
+id = 'xml2'
+name = 'xml2'
+
+[[package]]
+channel = 'debian'
+name = 'xml2'
+
+[[package]]
+channel = 'fedora'
+name = 'xml2'

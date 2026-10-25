@@ -1,0 +1,9 @@
+id = 'keploy'
+name = 'keploy'
+
+homepage = 'https://keploy.io'
+repository = 'https://github.com/keploy/keploy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keploy'

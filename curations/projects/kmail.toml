@@ -1,0 +1,16 @@
+id = 'kmail'
+name = 'kmail'
+
+homepage = 'https://apps.kde.org/kmail2'
+
+[[package]]
+channel = 'arch'
+name = 'kmail'
+
+[[package]]
+channel = 'debian'
+name = 'kmail'
+
+[[package]]
+channel = 'fedora'
+name = 'kmail'

@@ -1,0 +1,8 @@
+id = 'sourcekitten'
+name = 'sourcekitten'
+
+repository = 'https://github.com/jpsim/SourceKitten.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sourcekitten'

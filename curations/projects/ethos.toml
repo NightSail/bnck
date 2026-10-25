@@ -1,0 +1,8 @@
+id = 'ethos'
+name = 'ethos'
+
+homepage = 'https://github.com/cvc5/ethos'
+
+[[package]]
+channel = 'fedora'
+name = 'ethos'

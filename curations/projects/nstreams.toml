@@ -1,0 +1,8 @@
+id = 'nstreams'
+name = 'nstreams'
+
+homepage = 'https://web.archive.org/web/20161127160704/http://www.hsc.fr/ressources/outils/nstreams'
+
+[[package]]
+channel = 'debian'
+name = 'nstreams'

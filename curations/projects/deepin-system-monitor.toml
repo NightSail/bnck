@@ -1,0 +1,12 @@
+id = 'deepin-system-monitor'
+name = 'deepin-system-monitor'
+
+homepage = 'https://github.com/linuxdeepin/deepin-system-monitor'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-system-monitor'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-system-monitor'

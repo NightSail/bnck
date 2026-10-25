@@ -1,0 +1,8 @@
+id = 'kma'
+name = 'kma'
+
+homepage = 'https://bitbucket.org/genomicepidemiology/kma'
+
+[[package]]
+channel = 'debian'
+name = 'kma'

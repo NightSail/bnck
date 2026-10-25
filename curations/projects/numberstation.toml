@@ -1,0 +1,12 @@
+id = 'numberstation'
+name = 'numberstation'
+
+homepage = 'https://sr.ht/~martijnbraam/numberstation'
+
+[[package]]
+channel = 'debian'
+name = 'numberstation'
+
+[[package]]
+channel = 'fedora'
+name = 'numberstation'

@@ -1,0 +1,8 @@
+id = 'claude-code-router'
+name = 'claude-code-router'
+
+homepage = 'https://musistudio.github.io/claude-code-router'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claude-code-router'

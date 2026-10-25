@@ -1,0 +1,16 @@
+id = 'xbindkeys'
+name = 'xbindkeys'
+
+homepage = 'https://www.nongnu.org/xbindkeys/xbindkeys.html'
+
+[[package]]
+channel = 'arch'
+name = 'xbindkeys'
+
+[[package]]
+channel = 'debian'
+name = 'xbindkeys'
+
+[[package]]
+channel = 'fedora'
+name = 'xbindkeys'

@@ -1,0 +1,12 @@
+id = 'mullvad'
+name = 'mullvad'
+
+homepage = 'https://www.mullvad.net'
+
+[[package]]
+channel = 'arch'
+name = 'mullvad-vpn'
+
+[[package]]
+channel = 'arch'
+name = 'mullvad-vpn-daemon'

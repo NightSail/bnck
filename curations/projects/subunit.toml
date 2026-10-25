@@ -1,0 +1,12 @@
+id = 'subunit'
+name = 'subunit'
+
+homepage = 'https://launchpad.net/subunit'
+
+[[package]]
+channel = 'arch'
+name = 'python-subunit'
+
+[[package]]
+channel = 'fedora'
+name = 'subunit-filters'

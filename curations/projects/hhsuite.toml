@@ -1,0 +1,8 @@
+id = 'hhsuite'
+name = 'hhsuite'
+
+homepage = 'https://toolkit.tuebingen.mpg.de'
+
+[[package]]
+channel = 'debian'
+name = 'hhsuite'

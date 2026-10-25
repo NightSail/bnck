@@ -1,0 +1,8 @@
+id = 'alluxio'
+name = 'alluxio'
+
+homepage = 'https://www.alluxio.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alluxio'

@@ -1,0 +1,9 @@
+id = 'repeater'
+name = 'repeater'
+
+homepage = 'https://shaankhosla.github.io/repeater'
+repository = 'https://github.com/shaankhosla/repeater.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/repeater'

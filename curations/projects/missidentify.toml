@@ -1,0 +1,8 @@
+id = 'missidentify'
+name = 'missidentify'
+
+homepage = 'http://missidentify.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'missidentify'

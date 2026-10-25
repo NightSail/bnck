@@ -1,0 +1,16 @@
+id = 'gunicorn'
+name = 'gunicorn'
+
+homepage = 'https://gunicorn.org'
+
+[[package]]
+channel = 'arch'
+name = 'gunicorn'
+
+[[package]]
+channel = 'debian'
+name = 'gunicorn'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gunicorn'

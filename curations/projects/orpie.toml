@@ -1,0 +1,8 @@
+id = 'orpie'
+name = 'orpie'
+
+homepage = 'https://github.com/pelzlpj/orpie'
+
+[[package]]
+channel = 'debian'
+name = 'orpie'

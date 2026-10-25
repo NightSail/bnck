@@ -1,0 +1,12 @@
+id = 'fabricmc'
+name = 'fabricmc'
+
+homepage = 'https://fabricmc.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fabric-installer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tiny-remapper'

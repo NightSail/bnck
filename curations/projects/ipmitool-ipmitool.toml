@@ -1,0 +1,12 @@
+id = 'ipmitool-ipmitool'
+name = 'ipmitool'
+
+homepage = 'http://ipmitool.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'ipmievd'
+
+[[package]]
+channel = 'fedora'
+name = 'ipmitool'

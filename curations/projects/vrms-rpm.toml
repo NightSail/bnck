@@ -1,0 +1,8 @@
+id = 'vrms-rpm'
+name = 'vrms-rpm'
+
+homepage = 'https://github.com/suve/vrms-rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'vrms-rpm'

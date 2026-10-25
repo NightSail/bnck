@@ -1,0 +1,8 @@
+id = 'snmpcheck'
+name = 'snmpcheck'
+
+homepage = 'http://www.nothink.org/perl/snmpcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'snmpcheck'

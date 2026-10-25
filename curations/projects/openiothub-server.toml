@@ -1,0 +1,8 @@
+id = 'openiothub-server'
+name = 'openiothub-server'
+
+repository = 'https://github.com/OpenIoTHub/server-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openiothub-server'

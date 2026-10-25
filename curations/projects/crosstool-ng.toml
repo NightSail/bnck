@@ -1,0 +1,13 @@
+id = 'crosstool-ng'
+name = 'crosstool-ng'
+
+homepage = 'https://crosstool-ng.github.io'
+repository = 'https://github.com/crosstool-ng/crosstool-ng.git'
+
+[[package]]
+channel = 'arch'
+name = 'crosstool-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crosstool-ng'

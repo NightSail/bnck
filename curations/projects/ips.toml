@@ -1,0 +1,8 @@
+id = 'ips'
+name = 'ips'
+
+homepage = 'http://www.tip.net.au/~dbell'
+
+[[package]]
+channel = 'debian'
+name = 'ips'

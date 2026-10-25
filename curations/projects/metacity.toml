@@ -1,0 +1,20 @@
+id = 'metacity'
+name = 'metacity'
+
+homepage = 'https://wiki.gnome.org/Projects/Metacity'
+
+[[package]]
+channel = 'arch'
+name = 'metacity'
+
+[[package]]
+channel = 'debian'
+name = 'metacity'
+
+[[package]]
+channel = 'fedora'
+name = 'metacity'
+
+[[package]]
+channel = 'fedora'
+name = 'metacity-devel'

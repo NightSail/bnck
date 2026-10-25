@@ -1,0 +1,16 @@
+id = 'qstat'
+name = 'qstat'
+
+homepage = 'https://github.com/rocketsciencegg/qstat'
+
+[[package]]
+channel = 'debian'
+name = 'qstat'
+
+[[package]]
+channel = 'fedora'
+name = 'qstat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qstat'

@@ -1,0 +1,8 @@
+id = 'showmethekey'
+name = 'showmethekey'
+
+homepage = 'https://showmethekey.alynx.one'
+
+[[package]]
+channel = 'arch'
+name = 'showmethekey'

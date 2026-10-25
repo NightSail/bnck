@@ -1,0 +1,9 @@
+id = 'or-tools'
+name = 'or-tools'
+
+homepage = 'https://developers.google.com/optimization'
+repository = 'https://github.com/google/or-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/or-tools'

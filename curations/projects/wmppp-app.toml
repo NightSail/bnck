@@ -1,0 +1,8 @@
+id = 'wmppp-app'
+name = 'wmppp.app'
+
+homepage = 'https://www.dockapps.net/wmpppapp'
+
+[[package]]
+channel = 'debian'
+name = 'wmppp.app'

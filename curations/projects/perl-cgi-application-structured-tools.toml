@@ -1,0 +1,8 @@
+id = 'perl-cgi-application-structured-tools'
+name = 'perl-CGI-Application-Structured-Tools'
+
+homepage = 'https://metacpan.org/release/CGI-Application-Structured-Tools'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CGI-Application-Structured-Tools'

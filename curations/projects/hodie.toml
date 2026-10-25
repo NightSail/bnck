@@ -1,0 +1,8 @@
+id = 'hodie'
+name = 'hodie'
+
+homepage = 'https://github.com/michiexile/hodie'
+
+[[package]]
+channel = 'debian'
+name = 'hodie'

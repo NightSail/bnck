@@ -1,0 +1,8 @@
+id = 'sunwait'
+name = 'sunwait'
+
+homepage = 'http://www.risacher.org/sunwait'
+
+[[package]]
+channel = 'fedora'
+name = 'sunwait'

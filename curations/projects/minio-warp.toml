@@ -1,0 +1,8 @@
+id = 'minio-warp'
+name = 'minio-warp'
+
+repository = 'https://github.com/minio/warp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minio-warp'

@@ -1,0 +1,16 @@
+id = 'aflplusplus'
+name = 'aflplusplus'
+
+homepage = 'https://github.com/AFLplusplus/AFLplusplus'
+
+[[package]]
+channel = 'debian'
+name = 'afl++'
+
+[[package]]
+channel = 'fedora'
+name = 'american-fuzzy-lop'
+
+[[package]]
+channel = 'fedora'
+name = 'american-fuzzy-lop-clang'

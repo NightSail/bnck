@@ -1,0 +1,8 @@
+id = 'dmitry'
+name = 'dmitry'
+
+homepage = 'https://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool'
+
+[[package]]
+channel = 'debian'
+name = 'dmitry'

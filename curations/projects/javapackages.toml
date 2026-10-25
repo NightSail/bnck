@@ -1,0 +1,12 @@
+id = 'javapackages'
+name = 'javapackages'
+
+homepage = 'https://github.com/fedora-java/javapackages'
+
+[[package]]
+channel = 'fedora'
+name = 'javapackages-common'
+
+[[package]]
+channel = 'fedora'
+name = 'javapackages-tools'

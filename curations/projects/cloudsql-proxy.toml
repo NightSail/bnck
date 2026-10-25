@@ -1,0 +1,12 @@
+id = 'cloudsql-proxy'
+name = 'cloudsql-proxy'
+
+homepage = 'https://github.com/GoogleCloudPlatform/cloudsql-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'cloudsql-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-googlecloudplatform-cloudsql-proxy'

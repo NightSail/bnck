@@ -1,0 +1,9 @@
+id = 'osmfilter'
+name = 'osmfilter'
+
+homepage = 'https://wiki.openstreetmap.org/wiki/Osmfilter'
+repository = 'https://gitlab.com/osm-c-tools/osmctools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osmfilter'

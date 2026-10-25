@@ -1,0 +1,16 @@
+id = 'kapidox'
+name = 'kapidox'
+
+homepage = 'https://invent.kde.org/frameworks/kapidox'
+
+[[package]]
+channel = 'debian'
+name = 'kapidox'
+
+[[package]]
+channel = 'debian'
+name = 'kapidox6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kapidox'

@@ -1,0 +1,8 @@
+id = 'uncover'
+name = 'uncover'
+
+repository = 'https://github.com/projectdiscovery/uncover.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uncover'

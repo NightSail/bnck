@@ -1,0 +1,8 @@
+id = 'lomiri-calendar-app'
+name = 'lomiri-calendar-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-calendar-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-calendar-app'

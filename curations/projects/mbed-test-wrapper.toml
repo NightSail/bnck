@@ -1,0 +1,8 @@
+id = 'mbed-test-wrapper'
+name = 'mbed-test-wrapper'
+
+homepage = 'https://github.com/autopulated/mbed-test-wrapper'
+
+[[package]]
+channel = 'debian'
+name = 'mbed-test-wrapper'

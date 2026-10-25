@@ -1,0 +1,8 @@
+id = 'dynamips'
+name = 'dynamips'
+
+homepage = 'https://github.com/GNS3/dynamips'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dynamips'

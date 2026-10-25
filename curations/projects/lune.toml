@@ -1,0 +1,8 @@
+id = 'lune'
+name = 'lune'
+
+homepage = 'https://lune-org.github.io/docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lune'

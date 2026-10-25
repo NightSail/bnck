@@ -1,0 +1,185 @@
+id = 'pcp'
+name = 'pcp'
+
+homepage = 'https://pcp.io'
+repository = 'https://github.com/dennis-tra/pcp.git'
+
+[[package]]
+channel = 'arch'
+name = 'pcp'
+
+[[package]]
+channel = 'arch'
+name = 'pcp-atop'
+
+[[package]]
+channel = 'arch'
+name = 'pcp-gui'
+
+[[package]]
+channel = 'debian'
+name = 'pcp'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-atop'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-dstat'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2elasticsearch'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2graphite'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2influxdb'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2json'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2spark'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2xlsx'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2xml'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-export-pcp2zabbix'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-gui'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-htop'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-benchmarks'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-collectl2pcp'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-ganglia2pcp'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-iostat2pcp'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-mrtg2pcp'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-sar2pcp'
+
+[[package]]
+channel = 'debian'
+name = 'pcp-import-sheet2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2arrow'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2elasticsearch'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2graphite'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2influxdb'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2json'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2openmetrics'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2opentelemetry'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2spark'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2xlsx'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2xml'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-export-pcp2zabbix'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-import-collectl2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-import-ganglia2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-import-guidellm2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-import-iostat2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-import-mrtg2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-import-sar2pcp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp-system-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcp'

@@ -1,0 +1,9 @@
+id = 'vite-plus'
+name = 'vite-plus'
+
+homepage = 'https://viteplus.dev'
+repository = 'https://github.com/voidzero-dev/vite-plus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vite-plus'

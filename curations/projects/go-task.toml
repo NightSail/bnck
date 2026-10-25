@@ -1,0 +1,17 @@
+id = 'go-task'
+name = 'go-task'
+
+homepage = 'https://taskfile.dev'
+repository = 'https://github.com/go-task/task.git'
+
+[[package]]
+channel = 'arch'
+name = 'go-task'
+
+[[package]]
+channel = 'fedora'
+name = 'go-task'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-task'

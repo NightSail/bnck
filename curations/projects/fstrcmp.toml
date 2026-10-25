@@ -1,0 +1,12 @@
+id = 'fstrcmp'
+name = 'fstrcmp'
+
+homepage = 'http://fstrcmp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fstrcmp'
+
+[[package]]
+channel = 'fedora'
+name = 'fstrcmp'

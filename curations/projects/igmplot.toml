@@ -1,0 +1,8 @@
+id = 'igmplot'
+name = 'igmplot'
+
+homepage = 'http://igmplot.univ-reims.fr'
+
+[[package]]
+channel = 'debian'
+name = 'igmplot'

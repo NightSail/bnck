@@ -1,0 +1,8 @@
+id = 'wireproxy'
+name = 'wireproxy'
+
+homepage = 'https://github.com/whyvl/wireproxy'
+
+[[package]]
+channel = 'arch'
+name = 'wireproxy'

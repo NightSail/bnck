@@ -1,0 +1,8 @@
+id = 'git-xet'
+name = 'git-xet'
+
+homepage = 'https://github.com/huggingface/xet-core'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-xet'

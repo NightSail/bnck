@@ -1,0 +1,8 @@
+id = 'awsweeper'
+name = 'awsweeper'
+
+repository = 'https://github.com/jckuester/awsweeper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awsweeper'

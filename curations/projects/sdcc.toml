@@ -1,0 +1,25 @@
+id = 'sdcc'
+name = 'sdcc'
+
+homepage = 'https://sdcc.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/sdcc/code/trunk/sdcc'
+
+[[package]]
+channel = 'arch'
+name = 'sdcc'
+
+[[package]]
+channel = 'debian'
+name = 'sdcc'
+
+[[package]]
+channel = 'debian'
+name = 'sdcc-ucsim'
+
+[[package]]
+channel = 'fedora'
+name = 'sdcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdcc'

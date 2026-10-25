@@ -1,0 +1,12 @@
+id = 'dbusbindings'
+name = 'DBusBindings'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/DBusBindings'
+
+[[package]]
+channel = 'debian'
+name = 'libdbus-glib-1-dev-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-qt3-devel'

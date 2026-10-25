@@ -1,0 +1,8 @@
+id = 'lockout'
+name = 'lockout'
+
+homepage = 'https://thomer.com/lockout'
+
+[[package]]
+channel = 'debian'
+name = 'lockout'

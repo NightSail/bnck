@@ -1,0 +1,8 @@
+id = 'advancescan'
+name = 'advancescan'
+
+homepage = 'https://www.advancemame.it/scan-readme.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/advancescan'

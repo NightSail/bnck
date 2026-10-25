@@ -1,0 +1,12 @@
+id = 'a52dec'
+name = 'a52dec'
+
+homepage = 'https://git.adelielinux.org/community/a52dec'
+
+[[package]]
+channel = 'arch'
+name = 'a52dec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/a52dec'

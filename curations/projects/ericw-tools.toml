@@ -1,0 +1,8 @@
+id = 'ericw-tools'
+name = 'ericw-tools'
+
+homepage = 'https://ericwa.github.io/ericw-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ericw-tools'

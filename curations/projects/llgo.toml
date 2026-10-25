@@ -1,0 +1,8 @@
+id = 'llgo'
+name = 'llgo'
+
+repository = 'https://github.com/xgo-dev/llgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llgo'

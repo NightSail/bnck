@@ -1,0 +1,8 @@
+id = 'auto-buildrequires'
+name = 'auto-buildrequires'
+
+homepage = 'http://people.redhat.com/~rjones/auto-buildrequires'
+
+[[package]]
+channel = 'fedora'
+name = 'auto-buildrequires'

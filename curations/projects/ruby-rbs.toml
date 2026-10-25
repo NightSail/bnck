@@ -1,0 +1,8 @@
+id = 'ruby-rbs'
+name = 'ruby-rbs'
+
+homepage = 'https://github.com/ruby/rbs'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rbs'

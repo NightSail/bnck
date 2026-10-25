@@ -1,0 +1,8 @@
+id = 'golang-github-chris-ramon-douceur'
+name = 'golang-github-chris-ramon-douceur'
+
+homepage = 'https://github.com/chris-ramon/douceur'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-chris-ramon-douceur'

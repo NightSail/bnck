@@ -1,0 +1,8 @@
+id = 'python-glanceclient'
+name = 'python-glanceclient'
+
+homepage = 'https://docs.openstack.org/developer/python-glanceclient'
+
+[[package]]
+channel = 'arch'
+name = 'python-glanceclient'

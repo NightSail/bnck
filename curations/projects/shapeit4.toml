@@ -1,0 +1,8 @@
+id = 'shapeit4'
+name = 'shapeit4'
+
+homepage = 'https://odelaneau.github.io/shapeit4'
+
+[[package]]
+channel = 'debian'
+name = 'shapeit4'

@@ -1,0 +1,8 @@
+id = 'fgallery'
+name = 'fgallery'
+
+homepage = 'https://www.thregr.org/~wavexx/software/fgallery'
+
+[[package]]
+channel = 'debian'
+name = 'fgallery'

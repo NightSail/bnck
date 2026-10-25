@@ -1,0 +1,8 @@
+id = 'qtestsign'
+name = 'qtestsign'
+
+homepage = 'https://github.com/msm8916-mainline/qtestsign'
+
+[[package]]
+channel = 'debian'
+name = 'qtestsign'

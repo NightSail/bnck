@@ -1,0 +1,8 @@
+id = 'flnet'
+name = 'flnet'
+
+homepage = 'http://www.w1hkj.com/Net-help/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'flnet'

@@ -1,0 +1,17 @@
+id = 'xboard'
+name = 'xboard'
+
+homepage = 'https://www.gnu.org/software/xboard'
+repository = 'https://git.savannah.gnu.org/git/xboard.git'
+
+[[package]]
+channel = 'arch'
+name = 'xboard'
+
+[[package]]
+channel = 'fedora'
+name = 'xboard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xboard'

@@ -1,0 +1,64 @@
+id = 'frameworks-frameworks'
+name = 'Frameworks'
+
+homepage = 'https://community.kde.org/Frameworks'
+
+[[package]]
+channel = 'arch'
+name = 'kactivities5'
+
+[[package]]
+channel = 'arch'
+name = 'kconfig5'
+
+[[package]]
+channel = 'arch'
+name = 'kconfigwidgets5'
+
+[[package]]
+channel = 'arch'
+name = 'kcoreaddons5'
+
+[[package]]
+channel = 'arch'
+name = 'kdbusaddons5'
+
+[[package]]
+channel = 'arch'
+name = 'kdeclarative5'
+
+[[package]]
+channel = 'arch'
+name = 'kded5'
+
+[[package]]
+channel = 'arch'
+name = 'kiconthemes5'
+
+[[package]]
+channel = 'arch'
+name = 'kio5'
+
+[[package]]
+channel = 'arch'
+name = 'knewstuff5'
+
+[[package]]
+channel = 'arch'
+name = 'kpackage5'
+
+[[package]]
+channel = 'arch'
+name = 'kservice5'
+
+[[package]]
+channel = 'arch'
+name = 'solid5'
+
+[[package]]
+channel = 'arch'
+name = 'sonnet5'
+
+[[package]]
+channel = 'arch'
+name = 'syntax-highlighting5'

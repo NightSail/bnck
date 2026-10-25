@@ -1,0 +1,20 @@
+id = 'sound-touch'
+name = 'sound-touch'
+
+homepage = 'https://www.surina.net/soundtouch'
+
+[[package]]
+channel = 'arch'
+name = 'soundtouch'
+
+[[package]]
+channel = 'debian'
+name = 'soundstretch'
+
+[[package]]
+channel = 'fedora'
+name = 'soundtouch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sound-touch'

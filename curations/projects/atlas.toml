@@ -1,0 +1,9 @@
+id = 'atlas'
+name = 'atlas'
+
+homepage = 'https://atlasgo.io'
+repository = 'https://github.com/ariga/atlas.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atlas'

@@ -1,0 +1,8 @@
+id = 'ovito'
+name = 'ovito'
+
+homepage = 'https://www.ovito.org'
+
+[[package]]
+channel = 'debian'
+name = 'ovito'

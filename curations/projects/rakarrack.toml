@@ -1,0 +1,12 @@
+id = 'rakarrack'
+name = 'rakarrack'
+
+homepage = 'http://rakarrack.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'rakarrack'
+
+[[package]]
+channel = 'fedora'
+name = 'rakarrack'

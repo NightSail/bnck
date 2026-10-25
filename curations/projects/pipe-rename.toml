@@ -1,0 +1,12 @@
+id = 'pipe-rename'
+name = 'pipe-rename'
+
+repository = 'https://github.com/marcusbuffett/pipe-rename.git'
+
+[[package]]
+channel = 'arch'
+name = 'pipe-rename'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipe-rename'

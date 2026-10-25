@@ -1,0 +1,16 @@
+id = 'tellico'
+name = 'tellico'
+
+homepage = 'https://tellico-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'tellico'
+
+[[package]]
+channel = 'debian'
+name = 'tellico'
+
+[[package]]
+channel = 'fedora'
+name = 'tellico'

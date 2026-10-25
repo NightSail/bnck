@@ -1,0 +1,10 @@
+id = 'kanatest'
+name = 'kanatest'
+
+[[package]]
+channel = 'debian'
+name = 'kanatest'
+
+[[package]]
+channel = 'fedora'
+name = 'kanatest'

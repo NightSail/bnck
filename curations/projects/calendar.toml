@@ -1,0 +1,12 @@
+id = 'calendar'
+name = 'calendar'
+
+homepage = 'https://github.com/elementary/calendar'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-calendar'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-calendar'

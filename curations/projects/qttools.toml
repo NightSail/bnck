@@ -1,0 +1,9 @@
+id = 'qttools'
+name = 'qttools'
+
+homepage = 'https://www.qt.io'
+repository = 'https://code.qt.io/qt/qttools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qttools'

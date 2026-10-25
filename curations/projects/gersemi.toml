@@ -1,0 +1,12 @@
+id = 'gersemi'
+name = 'gersemi'
+
+homepage = 'https://github.com/BlankSpruce/gersemi'
+
+[[package]]
+channel = 'arch'
+name = 'python-gersemi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gersemi'

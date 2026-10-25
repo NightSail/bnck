@@ -1,0 +1,8 @@
+id = 'eperl'
+name = 'eperl'
+
+homepage = 'http://www.ossp.org/pkg/tool/eperl'
+
+[[package]]
+channel = 'debian'
+name = 'eperl'

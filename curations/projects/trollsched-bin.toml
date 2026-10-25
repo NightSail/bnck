@@ -1,0 +1,8 @@
+id = 'trollsched-bin'
+name = 'trollsched-bin'
+
+homepage = 'https://github.com/pytroll/pytroll-schedule'
+
+[[package]]
+channel = 'debian'
+name = 'trollsched-bin'

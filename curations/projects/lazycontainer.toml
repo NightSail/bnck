@@ -1,0 +1,8 @@
+id = 'lazycontainer'
+name = 'lazycontainer'
+
+repository = 'https://github.com/andreybleme/lazycontainer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazycontainer'

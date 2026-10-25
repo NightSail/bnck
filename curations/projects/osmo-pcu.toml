@@ -1,0 +1,8 @@
+id = 'osmo-pcu'
+name = 'osmo-pcu'
+
+homepage = 'http://osmocom.org/projects/osmopcu'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-pcu'

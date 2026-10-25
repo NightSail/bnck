@@ -1,0 +1,16 @@
+id = 'vmaf'
+name = 'vmaf'
+
+homepage = 'https://github.com/Netflix/vmaf'
+
+[[package]]
+channel = 'arch'
+name = 'vmaf'
+
+[[package]]
+channel = 'fedora'
+name = 'vmaf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libvmaf'

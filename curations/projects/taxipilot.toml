@@ -1,0 +1,8 @@
+id = 'taxipilot'
+name = 'taxipilot'
+
+homepage = 'http://taxipilot.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'taxipilot'

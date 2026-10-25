@@ -1,0 +1,6 @@
+id = 'poppassd'
+name = 'poppassd'
+
+[[package]]
+channel = 'debian'
+name = 'poppassd'

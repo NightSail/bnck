@@ -1,0 +1,8 @@
+id = 'python3-changelogd'
+name = 'python3-changelogd'
+
+homepage = 'https://github.com/aklajnert/changelogd'
+
+[[package]]
+channel = 'debian'
+name = 'python3-changelogd'

@@ -1,0 +1,8 @@
+id = 'edid-decode'
+name = 'edid-decode'
+
+homepage = 'https://git.linuxtv.org/edid-decode.git'
+
+[[package]]
+channel = 'debian'
+name = 'edid-decode'

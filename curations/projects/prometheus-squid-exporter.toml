@@ -1,0 +1,8 @@
+id = 'prometheus-squid-exporter'
+name = 'prometheus-squid-exporter'
+
+homepage = 'https://github.com/boynux/squid-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-squid-exporter'

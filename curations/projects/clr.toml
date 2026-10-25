@@ -1,0 +1,16 @@
+id = 'clr'
+name = 'clr'
+
+homepage = 'https://github.com/ROCm/clr'
+
+[[package]]
+channel = 'debian'
+name = 'hip-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'rocm-clinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'rocm-hip-devel'

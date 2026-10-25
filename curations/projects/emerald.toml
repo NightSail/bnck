@@ -1,0 +1,12 @@
+id = 'emerald'
+name = 'emerald'
+
+homepage = 'https://gitlab.com/compiz/emerald'
+
+[[package]]
+channel = 'debian'
+name = 'emerald'
+
+[[package]]
+channel = 'fedora'
+name = 'emerald'

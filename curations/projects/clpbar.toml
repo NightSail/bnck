@@ -1,0 +1,8 @@
+id = 'clpbar'
+name = 'clpbar'
+
+homepage = 'https://clpbar.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clpbar'

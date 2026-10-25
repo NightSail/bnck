@@ -1,0 +1,8 @@
+id = 'python-tailer'
+name = 'python-tailer'
+
+homepage = 'https://github.com/six8/pytailer'
+
+[[package]]
+channel = 'arch'
+name = 'python-tailer'

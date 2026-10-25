@@ -1,0 +1,8 @@
+id = 'nsz'
+name = 'nsz'
+
+homepage = 'https://github.com/nicoboss/nsz'
+
+[[package]]
+channel = 'arch'
+name = 'nsz'

@@ -1,0 +1,8 @@
+id = 'rexif'
+name = 'rexif'
+
+homepage = 'https://lib.rs/crates/rexif'
+
+[[package]]
+channel = 'debian'
+name = 'rexif'

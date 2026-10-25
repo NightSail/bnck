@@ -1,0 +1,10 @@
+id = 'what-is-python'
+name = 'what-is-python'
+
+[[package]]
+channel = 'debian'
+name = 'python-dev-is-python3'
+
+[[package]]
+channel = 'debian'
+name = 'python-is-python3'

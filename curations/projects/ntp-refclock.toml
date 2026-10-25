@@ -1,0 +1,8 @@
+id = 'ntp-refclock'
+name = 'ntp-refclock'
+
+homepage = 'https://github.com/mlichvar/ntp-refclock'
+
+[[package]]
+channel = 'fedora'
+name = 'ntp-refclock'

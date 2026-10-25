@@ -1,0 +1,9 @@
+id = 'git-pkgs'
+name = 'git-pkgs'
+
+homepage = 'https://git-pkgs.dev'
+repository = 'https://github.com/git-pkgs/git-pkgs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-pkgs'

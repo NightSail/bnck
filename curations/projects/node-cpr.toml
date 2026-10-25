@@ -1,0 +1,8 @@
+id = 'node-cpr'
+name = 'node-cpr'
+
+homepage = 'https://github.com/davglass/cpr'
+
+[[package]]
+channel = 'debian'
+name = 'node-cpr'

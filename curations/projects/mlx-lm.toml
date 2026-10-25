@@ -1,0 +1,8 @@
+id = 'mlx-lm'
+name = 'mlx-lm'
+
+repository = 'https://github.com/ml-explore/mlx-lm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlx-lm'

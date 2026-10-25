@@ -1,0 +1,13 @@
+id = 'libressl'
+name = 'libressl'
+
+homepage = 'https://www.libressl.org'
+repository = 'https://github.com/libressl/portable.git'
+
+[[package]]
+channel = 'arch'
+name = 'libressl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libressl'

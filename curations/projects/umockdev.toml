@@ -1,0 +1,21 @@
+id = 'umockdev'
+name = 'umockdev'
+
+homepage = 'https://launchpad.net/umockdev'
+repository = 'https://github.com/martinpitt/umockdev.git'
+
+[[package]]
+channel = 'arch'
+name = 'umockdev'
+
+[[package]]
+channel = 'debian'
+name = 'umockdev'
+
+[[package]]
+channel = 'fedora'
+name = 'umockdev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/umockdev'

@@ -1,0 +1,8 @@
+id = 'indigo-utils'
+name = 'indigo-utils'
+
+homepage = 'https://lifescience.opensource.epam.com/indigo/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'indigo-utils'

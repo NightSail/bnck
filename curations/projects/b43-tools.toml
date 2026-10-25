@@ -1,0 +1,8 @@
+id = 'b43-tools'
+name = 'b43-tools'
+
+homepage = 'https://bues.ch/cgit/b43-tools.git'
+
+[[package]]
+channel = 'fedora'
+name = 'b43-tools'

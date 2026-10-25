@@ -1,0 +1,8 @@
+id = 'lomiri-history-service-tools'
+name = 'lomiri-history-service-tools'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-history-service'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-history-service-tools'

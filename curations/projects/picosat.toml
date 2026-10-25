@@ -1,0 +1,12 @@
+id = 'picosat'
+name = 'picosat'
+
+homepage = 'http://fmv.jku.at/picosat'
+
+[[package]]
+channel = 'debian'
+name = 'picosat'
+
+[[package]]
+channel = 'fedora'
+name = 'picosat'

@@ -1,0 +1,8 @@
+id = 'ghostty'
+name = 'ghostty'
+
+homepage = 'https://github.com/ghostty-org/ghostty'
+
+[[package]]
+channel = 'arch'
+name = 'ghostty'

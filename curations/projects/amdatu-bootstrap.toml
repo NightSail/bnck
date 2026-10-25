@@ -1,0 +1,8 @@
+id = 'amdatu-bootstrap'
+name = 'amdatu-bootstrap'
+
+homepage = 'https://bitbucket.org/amdatuadm/amdatu-bootstrap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amdatu-bootstrap'

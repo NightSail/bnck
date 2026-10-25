@@ -1,0 +1,8 @@
+id = 'snp-sites'
+name = 'snp-sites'
+
+homepage = 'https://github.com/sanger-pathogens/snp-sites'
+
+[[package]]
+channel = 'debian'
+name = 'snp-sites'

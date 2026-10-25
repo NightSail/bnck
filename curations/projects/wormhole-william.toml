@@ -1,0 +1,12 @@
+id = 'wormhole-william'
+name = 'wormhole-william'
+
+repository = 'https://github.com/psanford/wormhole-william.git'
+
+[[package]]
+channel = 'debian'
+name = 'wormhole-william'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wormhole-william'

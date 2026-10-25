@@ -1,0 +1,24 @@
+id = 'conserver'
+name = 'conserver'
+
+homepage = 'https://www.conserver.com'
+
+[[package]]
+channel = 'debian'
+name = 'conserver-client'
+
+[[package]]
+channel = 'debian'
+name = 'conserver-server'
+
+[[package]]
+channel = 'fedora'
+name = 'conserver'
+
+[[package]]
+channel = 'fedora'
+name = 'conserver-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/conserver'

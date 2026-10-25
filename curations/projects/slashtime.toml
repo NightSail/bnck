@@ -1,0 +1,8 @@
+id = 'slashtime'
+name = 'slashtime'
+
+homepage = 'https://research.operationaldynamics.com/projects/slashtime'
+
+[[package]]
+channel = 'debian'
+name = 'slashtime'

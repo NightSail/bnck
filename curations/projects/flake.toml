@@ -1,0 +1,12 @@
+id = 'flake'
+name = 'flake'
+
+homepage = 'https://flake-enc.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'flake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flake'

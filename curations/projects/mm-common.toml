@@ -1,0 +1,20 @@
+id = 'mm-common'
+name = 'mm-common'
+
+homepage = 'https://www.gtkmm.org'
+
+[[package]]
+channel = 'arch'
+name = 'mm-common'
+
+[[package]]
+channel = 'debian'
+name = 'mm-common'
+
+[[package]]
+channel = 'fedora'
+name = 'mm-common'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mm-common'

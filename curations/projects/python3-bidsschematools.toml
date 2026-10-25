@@ -1,0 +1,8 @@
+id = 'python3-bidsschematools'
+name = 'python3-bidsschematools'
+
+homepage = 'https://github.com/bids-standard/bids-specification'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bidsschematools'

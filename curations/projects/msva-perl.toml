@@ -1,0 +1,6 @@
+id = 'msva-perl'
+name = 'msva-perl'
+
+[[package]]
+channel = 'debian'
+name = 'msva-perl'

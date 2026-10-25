@@ -1,0 +1,12 @@
+id = 'vi-hps'
+name = 'vi-hps'
+
+homepage = 'https://www.vi-hps.org/Tools/OPARI2.html'
+
+[[package]]
+channel = 'debian'
+name = 'libpomp2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'opari2'

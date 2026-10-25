@@ -1,0 +1,12 @@
+id = 'linux-speakup'
+name = 'linux-speakup'
+
+homepage = 'http://linux-speakup.org'
+
+[[package]]
+channel = 'arch'
+name = 'speakup-utils'
+
+[[package]]
+channel = 'debian'
+name = 'speakup-tools'

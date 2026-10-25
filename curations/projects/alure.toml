@@ -1,0 +1,8 @@
+id = 'alure'
+name = 'alure'
+
+homepage = 'http://kcat.strangesoft.net/alure.html'
+
+[[package]]
+channel = 'fedora'
+name = 'alure'

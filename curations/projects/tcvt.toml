@@ -1,0 +1,8 @@
+id = 'tcvt'
+name = 'tcvt'
+
+homepage = 'https://subdivi.de/~helmut/tcvt'
+
+[[package]]
+channel = 'debian'
+name = 'tcvt'

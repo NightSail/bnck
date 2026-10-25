@@ -1,0 +1,8 @@
+id = 'webify'
+name = 'webify'
+
+repository = 'https://github.com/beefsack/webify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webify'

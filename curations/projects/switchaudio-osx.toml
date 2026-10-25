@@ -1,0 +1,8 @@
+id = 'switchaudio-osx'
+name = 'switchaudio-osx'
+
+repository = 'https://github.com/deweller/switchaudio-osx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/switchaudio-osx'

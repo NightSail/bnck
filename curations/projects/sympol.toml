@@ -1,0 +1,8 @@
+id = 'sympol'
+name = 'sympol'
+
+homepage = 'http://www.math.uni-rostock.de/~rehn/software/sympol.html'
+
+[[package]]
+channel = 'arch'
+name = 'sympol'

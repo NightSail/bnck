@@ -1,0 +1,8 @@
+id = 'memstrack'
+name = 'memstrack'
+
+homepage = 'https://github.com/ryncsn/memstrack'
+
+[[package]]
+channel = 'fedora'
+name = 'memstrack'

@@ -1,0 +1,8 @@
+id = 'boom-boot'
+name = 'boom-boot'
+
+homepage = 'https://github.com/snapshotmanager/boom-boot'
+
+[[package]]
+channel = 'fedora'
+name = 'boom-boot'

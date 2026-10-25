@@ -1,0 +1,8 @@
+id = 'sibelia'
+name = 'sibelia'
+
+homepage = 'http://bioinf.spbau.ru/sibelia'
+
+[[package]]
+channel = 'debian'
+name = 'sibelia'

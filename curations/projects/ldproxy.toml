@@ -1,0 +1,8 @@
+id = 'ldproxy'
+name = 'ldproxy'
+
+homepage = 'https://github.com/esp-rs/embuild'
+
+[[package]]
+channel = 'arch'
+name = 'ldproxy'

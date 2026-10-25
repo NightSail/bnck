@@ -1,0 +1,8 @@
+id = 'python3-gffutils'
+name = 'python3-gffutils'
+
+homepage = 'https://daler.github.io/gffutils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gffutils'

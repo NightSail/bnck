@@ -1,0 +1,12 @@
+id = 'mirmon'
+name = 'mirmon'
+
+homepage = 'https://www.projects.science.uu.nl/ictbeta/mirmon'
+
+[[package]]
+channel = 'debian'
+name = 'mirmon'
+
+[[package]]
+channel = 'fedora'
+name = 'mirmon'

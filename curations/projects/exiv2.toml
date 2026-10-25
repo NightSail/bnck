@@ -1,0 +1,21 @@
+id = 'exiv2'
+name = 'exiv2'
+
+homepage = 'https://exiv2.org'
+repository = 'https://github.com/Exiv2/exiv2.git'
+
+[[package]]
+channel = 'arch'
+name = 'exiv2'
+
+[[package]]
+channel = 'debian'
+name = 'exiv2'
+
+[[package]]
+channel = 'fedora'
+name = 'exiv2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exiv2'

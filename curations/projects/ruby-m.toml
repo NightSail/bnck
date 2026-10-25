@@ -1,0 +1,8 @@
+id = 'ruby-m'
+name = 'ruby-m'
+
+homepage = 'https://github.com/qrush/m'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-m'

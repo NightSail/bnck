@@ -1,0 +1,8 @@
+id = 'plasma-framework'
+name = 'plasma-framework'
+
+homepage = 'https://invent.kde.org/frameworks/plasma-framework'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-framework'

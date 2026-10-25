@@ -1,0 +1,12 @@
+id = 'yamdi'
+name = 'yamdi'
+
+homepage = 'http://yamdi.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'yamdi'
+
+[[package]]
+channel = 'debian'
+name = 'yamdi'

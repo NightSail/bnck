@@ -1,0 +1,8 @@
+id = 'gitfox'
+name = 'gitfox'
+
+homepage = 'https://www.gitfox.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gitfox'

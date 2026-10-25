@@ -1,0 +1,8 @@
+id = 'atinout'
+name = 'atinout'
+
+homepage = 'https://atinout.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'atinout'

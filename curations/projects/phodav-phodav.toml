@@ -1,0 +1,10 @@
+id = 'phodav-phodav'
+name = 'phodav'
+
+[[package]]
+channel = 'debian'
+name = 'chezdav'
+
+[[package]]
+channel = 'debian'
+name = 'spice-webdavd'

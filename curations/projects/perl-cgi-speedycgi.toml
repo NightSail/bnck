@@ -1,0 +1,8 @@
+id = 'perl-cgi-speedycgi'
+name = 'perl-CGI-SpeedyCGI'
+
+homepage = 'https://metacpan.org/release/CGI-SpeedyCGI'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CGI-SpeedyCGI'

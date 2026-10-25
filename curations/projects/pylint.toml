@@ -1,0 +1,12 @@
+id = 'pylint'
+name = 'pylint'
+
+homepage = 'https://pylint.pycqa.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pylint'
+
+[[package]]
+channel = 'debian'
+name = 'pylint'

@@ -1,0 +1,8 @@
+id = 'cot'
+name = 'cot'
+
+homepage = 'https://cot.rs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cot'

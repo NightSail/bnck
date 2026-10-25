@@ -1,0 +1,8 @@
+id = 'baitfisher'
+name = 'baitfisher'
+
+homepage = 'https://github.com/cmayer/BaitFisher-package'
+
+[[package]]
+channel = 'debian'
+name = 'baitfisher'

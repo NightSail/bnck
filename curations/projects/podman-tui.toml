@@ -1,0 +1,12 @@
+id = 'podman-tui'
+name = 'podman-tui'
+
+repository = 'https://github.com/containers/podman-tui.git'
+
+[[package]]
+channel = 'fedora'
+name = 'podman-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podman-tui'

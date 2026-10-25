@@ -1,0 +1,16 @@
+id = 'libime'
+name = 'libime'
+
+homepage = 'https://github.com/fcitx/libime'
+
+[[package]]
+channel = 'arch'
+name = 'libime'
+
+[[package]]
+channel = 'debian'
+name = 'libime-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libime'

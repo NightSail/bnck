@@ -1,0 +1,24 @@
+id = 'seafile'
+name = 'seafile'
+
+homepage = 'https://seafile.com'
+
+[[package]]
+channel = 'debian'
+name = 'seafile-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'seadrive-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'seadrive-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'seafile'
+
+[[package]]
+channel = 'fedora'
+name = 'seafile-client'

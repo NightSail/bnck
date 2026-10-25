@@ -1,0 +1,12 @@
+id = 'pint'
+name = 'pint'
+
+homepage = 'https://cloudflare.github.io/pint'
+
+[[package]]
+channel = 'arch'
+name = 'pint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pint'

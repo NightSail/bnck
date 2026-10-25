@@ -1,0 +1,6 @@
+id = 'antimony'
+name = 'antimony'
+
+[[package]]
+channel = 'debian'
+name = 'antimony'

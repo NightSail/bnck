@@ -1,0 +1,12 @@
+id = 'exfat'
+name = 'exfat'
+
+homepage = 'https://github.com/relan/exfat'
+
+[[package]]
+channel = 'arch'
+name = 'exfat-utils'
+
+[[package]]
+channel = 'debian'
+name = 'exfat-fuse'

@@ -1,0 +1,8 @@
+id = 'http-server-rs'
+name = 'http-server-rs'
+
+repository = 'https://github.com/http-server-rs/http-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/http-server-rs'

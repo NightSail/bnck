@@ -1,0 +1,10 @@
+id = 'crosshurd'
+name = 'crosshurd'
+
+[[package]]
+channel = 'debian'
+name = 'crosshurd'
+
+[[package]]
+channel = 'debian'
+name = 'crosshurd-image'

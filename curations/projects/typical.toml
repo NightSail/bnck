@@ -1,0 +1,8 @@
+id = 'typical'
+name = 'typical'
+
+homepage = 'https://github.com/stepchowfun/typical'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typical'

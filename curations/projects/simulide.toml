@@ -1,0 +1,8 @@
+id = 'simulide'
+name = 'simulide'
+
+homepage = 'https://simulide.com'
+
+[[package]]
+channel = 'debian'
+name = 'simulide'

@@ -1,0 +1,16 @@
+id = 'gtkgreet'
+name = 'gtkgreet'
+
+homepage = 'https://git.sr.ht/~kennylevinsen/gtkgreet'
+
+[[package]]
+channel = 'arch'
+name = 'greetd-gtkgreet'
+
+[[package]]
+channel = 'debian'
+name = 'gtkgreet'
+
+[[package]]
+channel = 'fedora'
+name = 'gtkgreet'

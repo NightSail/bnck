@@ -1,0 +1,20 @@
+id = 'step'
+name = 'step'
+
+homepage = 'https://smallstep.com'
+
+[[package]]
+channel = 'arch'
+name = 'step'
+
+[[package]]
+channel = 'debian'
+name = 'step'
+
+[[package]]
+channel = 'fedora'
+name = 'step'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/step'

@@ -1,0 +1,8 @@
+id = 'app-store-connect'
+name = 'app-store-connect'
+
+homepage = 'https://crates.io/crates/app-store-connect'
+
+[[package]]
+channel = 'fedora'
+name = 'app-store-connect'

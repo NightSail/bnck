@@ -1,0 +1,8 @@
+id = 'media-control'
+name = 'media-control'
+
+repository = 'https://github.com/ungive/media-control.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/media-control'

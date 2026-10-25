@@ -1,0 +1,12 @@
+id = 'ioport'
+name = 'ioport'
+
+homepage = 'http://people.redhat.com/rjones/ioport'
+
+[[package]]
+channel = 'debian'
+name = 'ioport'
+
+[[package]]
+channel = 'fedora'
+name = 'ioport'

@@ -1,0 +1,8 @@
+id = 'netrik'
+name = 'netrik'
+
+homepage = 'http://netrik.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'netrik'

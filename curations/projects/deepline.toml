@@ -1,0 +1,8 @@
+id = 'deepline'
+name = 'deepline'
+
+homepage = 'https://code.deepline.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deepline'

@@ -1,0 +1,9 @@
+id = 'manticoresearch'
+name = 'manticoresearch'
+
+homepage = 'https://manticoresearch.com'
+repository = 'https://github.com/manticoresoftware/manticoresearch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/manticoresearch'

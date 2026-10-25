@@ -1,0 +1,12 @@
+id = 'scx'
+name = 'scx'
+
+homepage = 'https://github.com/sched-ext/scx'
+
+[[package]]
+channel = 'arch'
+name = 'scx-scheds'
+
+[[package]]
+channel = 'fedora'
+name = 'scx_c_schedulers'

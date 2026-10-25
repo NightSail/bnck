@@ -1,0 +1,8 @@
+id = 'git-standup'
+name = 'git-standup'
+
+repository = 'https://github.com/nilbuild/git-standup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-standup'

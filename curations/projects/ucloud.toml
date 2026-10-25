@@ -1,0 +1,8 @@
+id = 'ucloud'
+name = 'ucloud'
+
+homepage = 'https://www.ucloud.cn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ucloud'

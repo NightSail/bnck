@@ -1,0 +1,12 @@
+id = 'serialdv'
+name = 'serialdv'
+
+homepage = 'https://github.com/f4exb/serialDV'
+
+[[package]]
+channel = 'arch'
+name = 'serialdv'
+
+[[package]]
+channel = 'fedora'
+name = 'serialdv'

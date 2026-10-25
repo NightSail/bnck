@@ -1,0 +1,16 @@
+id = 'rdiff-backup'
+name = 'rdiff-backup'
+
+homepage = 'https://rdiff-backup.net'
+
+[[package]]
+channel = 'debian'
+name = 'rdiff-backup'
+
+[[package]]
+channel = 'fedora'
+name = 'rdiff-backup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rdiff-backup'

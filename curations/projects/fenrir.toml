@@ -1,0 +1,8 @@
+id = 'fenrir'
+name = 'fenrir'
+
+homepage = 'https://git.stormux.org/storm/fenrir'
+
+[[package]]
+channel = 'debian'
+name = 'fenrir'

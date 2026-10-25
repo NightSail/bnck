@@ -1,0 +1,8 @@
+id = 'clevis-pin-tpm2'
+name = 'clevis-pin-tpm2'
+
+homepage = 'https://github.com/fedora-iot/clevis-pin-tpm2'
+
+[[package]]
+channel = 'fedora'
+name = 'clevis-pin-tpm2'

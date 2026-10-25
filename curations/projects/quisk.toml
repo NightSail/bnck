@@ -1,0 +1,12 @@
+id = 'quisk'
+name = 'quisk'
+
+homepage = 'https://james.ahlstrom.name/quisk'
+
+[[package]]
+channel = 'debian'
+name = 'quisk'
+
+[[package]]
+channel = 'fedora'
+name = 'quisk'

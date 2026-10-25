@@ -1,0 +1,8 @@
+id = 'python3-idasen'
+name = 'python3-idasen'
+
+homepage = 'https://github.com/newAM/idasen'
+
+[[package]]
+channel = 'debian'
+name = 'python3-idasen'

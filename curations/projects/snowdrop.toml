@@ -1,0 +1,8 @@
+id = 'snowdrop'
+name = 'snowdrop'
+
+homepage = 'http://lcamtuf.coredump.cx'
+
+[[package]]
+channel = 'debian'
+name = 'snowdrop'

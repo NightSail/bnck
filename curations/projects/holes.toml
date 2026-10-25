@@ -1,0 +1,8 @@
+id = 'holes'
+name = 'holes'
+
+homepage = 'https://git.vuxu.org/holes/about'
+
+[[package]]
+channel = 'debian'
+name = 'holes'

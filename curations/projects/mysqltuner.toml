@@ -1,0 +1,17 @@
+id = 'mysqltuner'
+name = 'mysqltuner'
+
+homepage = 'https://github.com/major/MySQLTuner-perl'
+repository = 'https://github.com/jmrenouard/MySQLTuner-perl.git'
+
+[[package]]
+channel = 'debian'
+name = 'mysqltuner'
+
+[[package]]
+channel = 'fedora'
+name = 'mysqltuner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysqltuner'

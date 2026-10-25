@@ -1,0 +1,8 @@
+id = 'mp3diags'
+name = 'mp3diags'
+
+homepage = 'http://mp3diags.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mp3diags'

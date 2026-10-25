@@ -1,0 +1,8 @@
+id = 'qrkey'
+name = 'qrkey'
+
+homepage = 'https://github.com/Techwolf12/qrkey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qrkey'

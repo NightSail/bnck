@@ -1,0 +1,12 @@
+id = 'lsp'
+name = 'lsp'
+
+homepage = 'https://github.com/haskell/lsp'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-lsp'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-lsp-types'

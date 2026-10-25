@@ -1,0 +1,8 @@
+id = 'gmult'
+name = 'gmult'
+
+homepage = 'https://gitlab.gnome.org/mterry/gmult'
+
+[[package]]
+channel = 'fedora'
+name = 'gmult'

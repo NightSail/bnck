@@ -1,0 +1,12 @@
+id = 'xdg-desktop-portal-phosh'
+name = 'xdg-desktop-portal-phosh'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/xdg-desktop-portal-phosh'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-desktop-portal-phosh'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-desktop-portal-phosh'

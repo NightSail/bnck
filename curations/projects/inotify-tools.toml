@@ -1,0 +1,20 @@
+id = 'inotify-tools'
+name = 'inotify-tools'
+
+homepage = 'https://github.com/inotify-tools/inotify-tools'
+
+[[package]]
+channel = 'arch'
+name = 'inotify-tools'
+
+[[package]]
+channel = 'debian'
+name = 'inotify-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'inotify-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inotify-tools'

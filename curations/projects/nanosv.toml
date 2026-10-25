@@ -1,0 +1,8 @@
+id = 'nanosv'
+name = 'nanosv'
+
+homepage = 'https://github.com/mroosmalen/nanosv'
+
+[[package]]
+channel = 'debian'
+name = 'nanosv'

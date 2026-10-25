@@ -1,0 +1,12 @@
+id = 'netsed'
+name = 'netsed'
+
+homepage = 'http://silicone.homelinux.org/projects/netsed'
+
+[[package]]
+channel = 'debian'
+name = 'netsed'
+
+[[package]]
+channel = 'fedora'
+name = 'netsed'

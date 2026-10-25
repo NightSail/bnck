@@ -1,0 +1,8 @@
+id = 'python3-vermin'
+name = 'python3-vermin'
+
+homepage = 'https://github.com/netromdk/vermin'
+
+[[package]]
+channel = 'debian'
+name = 'python3-vermin'

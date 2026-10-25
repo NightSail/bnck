@@ -1,0 +1,8 @@
+id = 'aer-inject'
+name = 'aer-inject'
+
+homepage = 'https://github.com/intel/aer-inject'
+
+[[package]]
+channel = 'fedora'
+name = 'aer-inject'

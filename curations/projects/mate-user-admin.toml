@@ -1,0 +1,12 @@
+id = 'mate-user-admin'
+name = 'mate-user-admin'
+
+homepage = 'https://github.com/zhuyaliang/user-admin'
+
+[[package]]
+channel = 'debian'
+name = 'mate-user-admin'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-user-admin'

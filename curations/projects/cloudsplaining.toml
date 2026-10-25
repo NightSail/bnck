@@ -1,0 +1,9 @@
+id = 'cloudsplaining'
+name = 'cloudsplaining'
+
+homepage = 'https://cloudsplaining.readthedocs.io/en/latest'
+repository = 'https://github.com/salesforce/cloudsplaining.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudsplaining'

@@ -1,0 +1,8 @@
+id = 'python3-shodan'
+name = 'python3-shodan'
+
+homepage = 'https://github.com/achillean/shodan-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-shodan'

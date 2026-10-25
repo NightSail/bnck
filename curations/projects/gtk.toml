@@ -1,0 +1,108 @@
+id = 'gtk'
+name = 'gtk+'
+
+homepage = 'https://gtk.org'
+
+[[package]]
+channel = 'arch'
+name = 'gtk-update-icon-cache'
+
+[[package]]
+channel = 'arch'
+name = 'gtk3'
+
+[[package]]
+channel = 'arch'
+name = 'gtk3-demos'
+
+[[package]]
+channel = 'arch'
+name = 'gtk4'
+
+[[package]]
+channel = 'arch'
+name = 'gtk4-demos'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-3-examples'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-4-examples'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-update-icon-cache'
+
+[[package]]
+channel = 'debian'
+name = 'libgdk-pixbuf2.0-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libgtk-3-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libgtk-4-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libgtk2.0-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'glib-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'glib2'
+
+[[package]]
+channel = 'fedora'
+name = 'glib2-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk+-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk-update-icon-cache'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk2'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk2-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk3'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk3-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk4'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk4-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk4-devel-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdk-pixbuf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtk+3'

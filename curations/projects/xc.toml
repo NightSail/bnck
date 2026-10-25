@@ -1,0 +1,9 @@
+id = 'xc'
+name = 'xc'
+
+homepage = 'https://xcfile.dev'
+repository = 'https://github.com/joerdav/xc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xc'

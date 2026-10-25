@@ -1,0 +1,20 @@
+id = 'stk'
+name = 'stk'
+
+homepage = 'https://ccrma.stanford.edu/software/stk'
+
+[[package]]
+channel = 'arch'
+name = 'stk'
+
+[[package]]
+channel = 'debian'
+name = 'stk'
+
+[[package]]
+channel = 'fedora'
+name = 'stk-demo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stk'

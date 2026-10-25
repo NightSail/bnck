@@ -1,0 +1,8 @@
+id = 'fossa'
+name = 'fossa'
+
+homepage = 'https://fossa.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/fossa'

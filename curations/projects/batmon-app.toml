@@ -1,0 +1,8 @@
+id = 'batmon-app'
+name = 'batmon.app'
+
+homepage = 'https://www.nongnu.org/gap/batmon'
+
+[[package]]
+channel = 'debian'
+name = 'batmon.app'

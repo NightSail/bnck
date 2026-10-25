@@ -1,0 +1,9 @@
+id = 'argocd-autopilot'
+name = 'argocd-autopilot'
+
+homepage = 'https://argoproj.io'
+repository = 'https://github.com/argoproj-labs/argocd-autopilot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argocd-autopilot'

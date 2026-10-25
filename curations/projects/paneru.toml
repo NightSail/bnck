@@ -1,0 +1,8 @@
+id = 'paneru'
+name = 'paneru'
+
+repository = 'https://github.com/karinushka/paneru.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/paneru'

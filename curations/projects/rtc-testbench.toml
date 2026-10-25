@@ -1,0 +1,8 @@
+id = 'rtc-testbench'
+name = 'rtc-testbench'
+
+homepage = 'https://github.com/Linutronix/RTC-Testbench'
+
+[[package]]
+channel = 'debian'
+name = 'rtc-testbench'

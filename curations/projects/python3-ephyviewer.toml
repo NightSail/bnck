@@ -1,0 +1,8 @@
+id = 'python3-ephyviewer'
+name = 'python3-ephyviewer'
+
+homepage = 'https://ephyviewer.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ephyviewer'

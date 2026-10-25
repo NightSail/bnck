@@ -1,0 +1,8 @@
+id = 'autocannon'
+name = 'autocannon'
+
+homepage = 'https://github.com/mcollina/autocannon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autocannon'

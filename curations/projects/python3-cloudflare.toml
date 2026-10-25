@@ -1,0 +1,8 @@
+id = 'python3-cloudflare'
+name = 'python3-cloudflare'
+
+homepage = 'https://pypi.python.org/pypi/cloudflare'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cloudflare'

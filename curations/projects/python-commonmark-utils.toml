@@ -1,0 +1,8 @@
+id = 'python-commonmark-utils'
+name = 'python-CommonMark-utils'
+
+homepage = 'https://pypi.python.org/pypi/CommonMark'
+
+[[package]]
+channel = 'fedora'
+name = 'python-CommonMark-utils'

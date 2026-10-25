@@ -1,0 +1,8 @@
+id = 'altdns'
+name = 'altdns'
+
+homepage = 'https://github.com/infosec-au/altdns'
+
+[[package]]
+channel = 'debian'
+name = 'altdns'

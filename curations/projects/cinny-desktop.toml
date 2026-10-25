@@ -1,0 +1,8 @@
+id = 'cinny-desktop'
+name = 'cinny-desktop'
+
+homepage = 'https://cinny.in'
+
+[[package]]
+channel = 'arch'
+name = 'cinny-desktop'

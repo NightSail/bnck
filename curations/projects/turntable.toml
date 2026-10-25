@@ -1,0 +1,8 @@
+id = 'turntable'
+name = 'turntable'
+
+homepage = 'https://turntable.geopjr.dev'
+
+[[package]]
+channel = 'debian'
+name = 'turntable'

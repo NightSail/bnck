@@ -1,0 +1,8 @@
+id = 'makemkv'
+name = 'makemkv'
+
+homepage = 'https://www.makemkv.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/makemkv'

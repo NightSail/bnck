@@ -1,0 +1,20 @@
+id = 'jhead'
+name = 'jhead'
+
+homepage = 'https://github.com/Matthias-Wandel/jhead'
+
+[[package]]
+channel = 'arch'
+name = 'jhead'
+
+[[package]]
+channel = 'debian'
+name = 'jhead'
+
+[[package]]
+channel = 'fedora'
+name = 'jhead'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jhead'

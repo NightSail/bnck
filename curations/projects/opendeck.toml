@@ -1,0 +1,8 @@
+id = 'opendeck'
+name = 'opendeck'
+
+homepage = 'https://github.com/nekename/OpenDeck'
+
+[[package]]
+channel = 'arch'
+name = 'opendeck'

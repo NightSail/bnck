@@ -1,0 +1,8 @@
+id = 'ucblogo'
+name = 'ucblogo'
+
+homepage = 'https://www.cs.berkeley.edu/~bh/logo.html'
+
+[[package]]
+channel = 'arch'
+name = 'ucblogo'

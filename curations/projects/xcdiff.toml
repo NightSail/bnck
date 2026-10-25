@@ -1,0 +1,8 @@
+id = 'xcdiff'
+name = 'xcdiff'
+
+repository = 'https://github.com/bloomberg/xcdiff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcdiff'

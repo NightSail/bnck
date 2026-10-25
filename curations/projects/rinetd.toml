@@ -1,0 +1,12 @@
+id = 'rinetd'
+name = 'rinetd'
+
+repository = 'https://github.com/samhocevar/rinetd.git'
+
+[[package]]
+channel = 'debian'
+name = 'rinetd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rinetd'

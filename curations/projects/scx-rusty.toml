@@ -1,0 +1,8 @@
+id = 'scx-rusty'
+name = 'scx_rusty'
+
+homepage = 'https://crates.io/crates/scx_rusty'
+
+[[package]]
+channel = 'fedora'
+name = 'scx_rusty'

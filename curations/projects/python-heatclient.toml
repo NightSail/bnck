@@ -1,0 +1,8 @@
+id = 'python-heatclient'
+name = 'python-heatclient'
+
+homepage = 'https://docs.openstack.org/python-heatclient/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-heatclient'

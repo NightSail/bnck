@@ -1,0 +1,8 @@
+id = 'alttab'
+name = 'alttab'
+
+homepage = 'https://sagb.github.io/alttab'
+
+[[package]]
+channel = 'debian'
+name = 'alttab'

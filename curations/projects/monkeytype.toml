@@ -1,0 +1,8 @@
+id = 'monkeytype'
+name = 'monkeytype'
+
+homepage = 'https://github.com/instagram/MonkeyType'
+
+[[package]]
+channel = 'fedora'
+name = 'monkeytype'

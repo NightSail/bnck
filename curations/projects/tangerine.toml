@@ -1,0 +1,8 @@
+id = 'tangerine'
+name = 'tangerine'
+
+homepage = 'https://metacpan.org/release/App-Tangerine'
+
+[[package]]
+channel = 'fedora'
+name = 'tangerine'

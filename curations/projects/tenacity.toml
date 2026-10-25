@@ -1,0 +1,8 @@
+id = 'tenacity'
+name = 'tenacity'
+
+homepage = 'https://tenacityaudio.org'
+
+[[package]]
+channel = 'arch'
+name = 'tenacity'

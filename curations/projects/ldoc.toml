@@ -1,0 +1,16 @@
+id = 'ldoc'
+name = 'ldoc'
+
+homepage = 'https://github.com/lunarmodules/ldoc'
+
+[[package]]
+channel = 'arch'
+name = 'ldoc'
+
+[[package]]
+channel = 'debian'
+name = 'lua-ldoc'
+
+[[package]]
+channel = 'fedora'
+name = 'lua-ldoc'

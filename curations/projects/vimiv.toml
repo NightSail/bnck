@@ -1,0 +1,12 @@
+id = 'vimiv'
+name = 'vimiv'
+
+homepage = 'https://github.com/karlch/vimiv'
+
+[[package]]
+channel = 'arch'
+name = 'vimiv'
+
+[[package]]
+channel = 'fedora'
+name = 'vimiv'

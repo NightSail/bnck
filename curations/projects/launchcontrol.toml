@@ -1,0 +1,8 @@
+id = 'launchcontrol'
+name = 'launchcontrol'
+
+homepage = 'https://www.soma-zone.com/LaunchControl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/launchcontrol'

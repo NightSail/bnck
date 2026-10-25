@@ -1,0 +1,8 @@
+id = 'qbootctl'
+name = 'qbootctl'
+
+homepage = 'https://github.com/linux-msm/qbootctl'
+
+[[package]]
+channel = 'debian'
+name = 'qbootctl'

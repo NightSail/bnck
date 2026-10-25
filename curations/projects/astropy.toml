@@ -1,0 +1,16 @@
+id = 'astropy'
+name = 'astropy'
+
+homepage = 'https://www.astropy.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-astropy'
+
+[[package]]
+channel = 'debian'
+name = 'astropy-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'astropy-tools'

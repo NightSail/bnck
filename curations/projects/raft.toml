@@ -1,0 +1,12 @@
+id = 'raft'
+name = 'raft'
+
+homepage = 'https://raft.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'libraft-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'raft-benchmark'

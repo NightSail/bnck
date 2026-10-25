@@ -1,0 +1,12 @@
+id = 'clawsker'
+name = 'clawsker'
+
+homepage = 'https://www.claws-mail.org/clawsker.php'
+
+[[package]]
+channel = 'debian'
+name = 'clawsker'
+
+[[package]]
+channel = 'fedora'
+name = 'clawsker'

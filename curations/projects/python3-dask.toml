@@ -1,0 +1,12 @@
+id = 'python3-dask'
+name = 'python3-dask'
+
+homepage = 'https://github.com/dask/dask'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dask'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dask'

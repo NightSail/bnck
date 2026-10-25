@@ -1,0 +1,12 @@
+id = 'ruby-mustache'
+name = 'ruby-mustache'
+
+homepage = 'https://github.com/defunkt/mustache'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-mustache'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-mustache'

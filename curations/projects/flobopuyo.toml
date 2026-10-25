@@ -1,0 +1,12 @@
+id = 'flobopuyo'
+name = 'flobopuyo'
+
+homepage = 'https://fovea.cc/flobopuyo-en'
+
+[[package]]
+channel = 'arch'
+name = 'flobopuyo'
+
+[[package]]
+channel = 'fedora'
+name = 'flobopuyo'

@@ -1,0 +1,8 @@
+id = 'merecat'
+name = 'merecat'
+
+homepage = 'https://troglobit.com/projects/merecat'
+
+[[package]]
+channel = 'debian'
+name = 'merecat'

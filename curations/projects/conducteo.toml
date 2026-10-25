@@ -1,0 +1,8 @@
+id = 'conducteo'
+name = 'conducteo'
+
+homepage = 'https://sourceforge.net/projects/conducteo'
+
+[[package]]
+channel = 'debian'
+name = 'conducteo'

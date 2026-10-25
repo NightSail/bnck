@@ -1,0 +1,8 @@
+id = 'awxkit'
+name = 'awxkit'
+
+homepage = 'https://github.com/ansible/awx'
+
+[[package]]
+channel = 'arch'
+name = 'awxkit'

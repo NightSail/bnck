@@ -1,0 +1,8 @@
+id = 'node-luaparse'
+name = 'node-luaparse'
+
+homepage = 'https://github.com/fstirlitz/luaparse'
+
+[[package]]
+channel = 'debian'
+name = 'node-luaparse'

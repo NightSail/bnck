@@ -1,0 +1,8 @@
+id = 'ding'
+name = 'ding'
+
+homepage = 'https://www-user.tu-chemnitz.de/~fri/ding'
+
+[[package]]
+channel = 'debian'
+name = 'ding'

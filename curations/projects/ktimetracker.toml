@@ -1,0 +1,12 @@
+id = 'ktimetracker'
+name = 'ktimetracker'
+
+homepage = 'https://apps.kde.org/ktimetracker'
+
+[[package]]
+channel = 'arch'
+name = 'ktimetracker'
+
+[[package]]
+channel = 'debian'
+name = 'ktimetracker'

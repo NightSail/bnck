@@ -1,0 +1,12 @@
+id = 'usbmuxd'
+name = 'usbmuxd'
+
+homepage = 'https://marcansoft.com/blog/iphonelinux/usbmuxd'
+
+[[package]]
+channel = 'arch'
+name = 'usbmuxd'
+
+[[package]]
+channel = 'debian'
+name = 'usbmuxd'

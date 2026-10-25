@@ -1,0 +1,8 @@
+id = 'conda'
+name = 'conda'
+
+homepage = 'http://conda.pydata.org/docs'
+
+[[package]]
+channel = 'fedora'
+name = 'conda'

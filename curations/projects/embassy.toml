@@ -1,0 +1,16 @@
+id = 'embassy'
+name = 'embassy'
+
+homepage = 'https://emboss.sourceforge.net/apps/cvs/embassy/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'embassy-domainatrix'
+
+[[package]]
+channel = 'debian'
+name = 'embassy-domalign'
+
+[[package]]
+channel = 'debian'
+name = 'embassy-domsearch'

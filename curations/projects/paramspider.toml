@@ -1,0 +1,8 @@
+id = 'paramspider'
+name = 'paramspider'
+
+homepage = 'https://github.com/devanshbatham/ParamSpider'
+
+[[package]]
+channel = 'debian'
+name = 'paramspider'

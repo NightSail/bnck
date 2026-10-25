@@ -1,0 +1,16 @@
+id = 'libunicode'
+name = 'libunicode'
+
+homepage = 'https://github.com/contour-terminal/libunicode'
+
+[[package]]
+channel = 'arch'
+name = 'libunicode'
+
+[[package]]
+channel = 'fedora'
+name = 'libunicode-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libunicode'

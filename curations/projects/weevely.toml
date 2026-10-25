@@ -1,0 +1,8 @@
+id = 'weevely'
+name = 'weevely'
+
+homepage = 'https://github.com/epinna/weevely3'
+
+[[package]]
+channel = 'debian'
+name = 'weevely'

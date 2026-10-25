@@ -1,0 +1,6 @@
+id = 'python3-wheezy-template'
+name = 'python3-wheezy.template'
+
+[[package]]
+channel = 'debian'
+name = 'python3-wheezy.template'

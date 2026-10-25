@@ -1,0 +1,12 @@
+id = 'xmppc'
+name = 'xmppc'
+
+homepage = 'https://codeberg.org/Anoxinon_e.V./xmppc'
+
+[[package]]
+channel = 'debian'
+name = 'xmppc'
+
+[[package]]
+channel = 'fedora'
+name = 'xmppc'

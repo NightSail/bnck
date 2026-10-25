@@ -1,0 +1,12 @@
+id = 'intel-undervolt'
+name = 'intel-undervolt'
+
+homepage = 'https://github.com/kitsunyan/intel-undervolt'
+
+[[package]]
+channel = 'arch'
+name = 'intel-undervolt'
+
+[[package]]
+channel = 'fedora'
+name = 'intel-undervolt'

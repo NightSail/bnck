@@ -1,0 +1,8 @@
+id = 'mytop'
+name = 'mytop'
+
+homepage = 'http://jeremy.zawodny.com/mysql/mytop'
+
+[[package]]
+channel = 'fedora'
+name = 'mytop'

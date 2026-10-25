@@ -1,0 +1,8 @@
+id = 'kopete'
+name = 'kopete'
+
+homepage = 'https://www.kde.org/applications/internet/kopete'
+
+[[package]]
+channel = 'fedora'
+name = 'kopete'

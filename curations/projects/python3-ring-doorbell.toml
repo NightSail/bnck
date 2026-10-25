@@ -1,0 +1,8 @@
+id = 'python3-ring-doorbell'
+name = 'python3-ring-doorbell'
+
+homepage = 'https://github.com/tchellomello/python-ring-doorbell'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ring-doorbell'

@@ -1,0 +1,8 @@
+id = 'drt-tools'
+name = 'drt-tools'
+
+homepage = 'https://github.com/sebastinas/drt-tools'
+
+[[package]]
+channel = 'debian'
+name = 'drt-tools'

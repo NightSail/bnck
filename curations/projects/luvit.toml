@@ -1,0 +1,9 @@
+id = 'luvit'
+name = 'luvit'
+
+homepage = 'https://luvit.io'
+repository = 'https://github.com/luvit/luvit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luvit'

@@ -1,0 +1,8 @@
+id = 'buzztrax'
+name = 'buzztrax'
+
+homepage = 'http://www.buzztrax.org'
+
+[[package]]
+channel = 'debian'
+name = 'buzztrax'

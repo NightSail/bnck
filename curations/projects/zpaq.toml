@@ -1,0 +1,17 @@
+id = 'zpaq'
+name = 'zpaq'
+
+homepage = 'http://mattmahoney.net/dc/zpaq.html'
+repository = 'https://github.com/zpaq/zpaq.git'
+
+[[package]]
+channel = 'debian'
+name = 'zpaq'
+
+[[package]]
+channel = 'fedora'
+name = 'zpaq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zpaq'

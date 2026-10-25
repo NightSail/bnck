@@ -1,0 +1,8 @@
+id = 'ibus-fbterm'
+name = 'ibus-fbterm'
+
+homepage = 'https://github.com/fujiwarat/ibus-fbterm'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus-fbterm'

@@ -1,0 +1,8 @@
+id = 'python3-arwn-client'
+name = 'python3-arwn-client'
+
+homepage = 'https://github.com/sdague/arwn-client'
+
+[[package]]
+channel = 'debian'
+name = 'python3-arwn-client'

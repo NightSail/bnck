@@ -1,0 +1,8 @@
+id = 'herculesstudio'
+name = 'herculesstudio'
+
+homepage = 'http://hercstudio.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'herculesstudio'

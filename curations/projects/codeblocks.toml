@@ -1,0 +1,16 @@
+id = 'codeblocks'
+name = 'codeblocks'
+
+homepage = 'https://www.codeblocks.org'
+
+[[package]]
+channel = 'arch'
+name = 'codeblocks'
+
+[[package]]
+channel = 'debian'
+name = 'codeblocks'
+
+[[package]]
+channel = 'fedora'
+name = 'codeblocks'

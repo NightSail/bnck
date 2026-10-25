@@ -1,0 +1,8 @@
+id = 'truecrack'
+name = 'truecrack'
+
+homepage = 'https://github.com/lvaccaro/truecrack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/truecrack'

@@ -1,0 +1,12 @@
+id = 'cargo-fuzz'
+name = 'cargo-fuzz'
+
+homepage = 'https://rust-fuzz.github.io/book/cargo-fuzz.html'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-fuzz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-fuzz'

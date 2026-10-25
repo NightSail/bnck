@@ -1,0 +1,13 @@
+id = 'analog'
+name = 'analog'
+
+homepage = 'https://www.c-amie.co.uk/software/analog'
+repository = 'https://github.com/c-amie/analog-ce.git'
+
+[[package]]
+channel = 'debian'
+name = 'analog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/analog'

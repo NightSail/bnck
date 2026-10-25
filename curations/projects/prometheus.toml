@@ -1,0 +1,20 @@
+id = 'prometheus'
+name = 'prometheus'
+
+homepage = 'https://prometheus.io'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus'
+
+[[package]]
+channel = 'debian'
+name = 'promtool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prometheus'

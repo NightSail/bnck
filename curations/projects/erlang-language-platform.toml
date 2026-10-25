@@ -1,0 +1,9 @@
+id = 'erlang-language-platform'
+name = 'erlang-language-platform'
+
+homepage = 'https://whatsapp.github.io/erlang-language-platform'
+repository = 'https://github.com/WhatsApp/erlang-language-platform.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlang-language-platform'

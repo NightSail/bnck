@@ -1,0 +1,6 @@
+id = 'dh-make-perl'
+name = 'dh-make-perl'
+
+[[package]]
+channel = 'debian'
+name = 'dh-make-perl'

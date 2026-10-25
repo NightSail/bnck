@@ -1,0 +1,12 @@
+id = 'garmintools'
+name = 'garmintools'
+
+homepage = 'https://code.google.com/archive/p/garmintools'
+
+[[package]]
+channel = 'fedora'
+name = 'garmintools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/garmintools'

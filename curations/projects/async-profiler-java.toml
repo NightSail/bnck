@@ -1,0 +1,8 @@
+id = 'async-profiler-java'
+name = 'async-profiler-java'
+
+homepage = 'https://github.com/async-profiler/async-profiler'
+
+[[package]]
+channel = 'debian'
+name = 'async-profiler-java'

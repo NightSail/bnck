@@ -1,0 +1,12 @@
+id = 'python3-extruct'
+name = 'python3-extruct'
+
+homepage = 'https://github.com/scrapinghub/extruct'
+
+[[package]]
+channel = 'debian'
+name = 'python3-extruct'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-extruct'

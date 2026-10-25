@@ -1,0 +1,9 @@
+id = 'rhai'
+name = 'rhai'
+
+homepage = 'https://rhai.rs'
+repository = 'https://github.com/rhaiscript/rhai.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rhai'

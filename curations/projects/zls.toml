@@ -1,0 +1,13 @@
+id = 'zls'
+name = 'zls'
+
+homepage = 'https://zigtools.org/zls'
+repository = 'https://github.com/zigtools/zls.git'
+
+[[package]]
+channel = 'arch'
+name = 'zls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zls'

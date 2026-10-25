@@ -1,0 +1,8 @@
+id = 'elki'
+name = 'elki'
+
+homepage = 'https://elki-project.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'elki'

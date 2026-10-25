@@ -1,0 +1,16 @@
+id = 'hspec'
+name = 'hspec'
+
+homepage = 'https://hspec.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hspec-discover'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hspec-meta'
+
+[[package]]
+channel = 'debian'
+name = 'hspec-discover'

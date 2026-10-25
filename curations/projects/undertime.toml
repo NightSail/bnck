@@ -1,0 +1,8 @@
+id = 'undertime'
+name = 'undertime'
+
+homepage = 'https://gitlab.com/anarcat/undertime'
+
+[[package]]
+channel = 'debian'
+name = 'undertime'

@@ -1,0 +1,8 @@
+id = 'python3-yamale'
+name = 'python3-yamale'
+
+homepage = 'https://github.com/23andMe/Yamale'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yamale'

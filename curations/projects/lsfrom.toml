@@ -1,0 +1,8 @@
+id = 'lsfrom'
+name = 'lsfrom'
+
+homepage = 'https://hackage.haskell.org/package/lsfrom'
+
+[[package]]
+channel = 'fedora'
+name = 'lsfrom'

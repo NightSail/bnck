@@ -1,0 +1,12 @@
+id = 'sibsim4'
+name = 'SIBsim4'
+
+homepage = 'http://sibsim4.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sibsim4'
+
+[[package]]
+channel = 'fedora'
+name = 'SIBsim4'

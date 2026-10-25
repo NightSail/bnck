@@ -1,0 +1,8 @@
+id = 'gthd'
+name = 'gthd'
+
+homepage = 'https://source.puri.sm/Librem5/gtherm'
+
+[[package]]
+channel = 'debian'
+name = 'gthd'

@@ -1,0 +1,8 @@
+id = 'gen-rescue-netscript'
+name = 'gen-rescue-netscript'
+
+homepage = 'https://salsa.debian.org/debian/gen-rescue-netscript'
+
+[[package]]
+channel = 'debian'
+name = 'gen-rescue-netscript'

@@ -1,0 +1,8 @@
+id = 'foonathan-memory-tools'
+name = 'foonathan-memory-tools'
+
+homepage = 'https://github.com/foonathan/memory'
+
+[[package]]
+channel = 'fedora'
+name = 'foonathan-memory-tools'

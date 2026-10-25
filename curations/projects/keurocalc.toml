@@ -1,0 +1,8 @@
+id = 'keurocalc'
+name = 'keurocalc'
+
+homepage = 'https://www.kde.org/applications/office/keurocalc'
+
+[[package]]
+channel = 'debian'
+name = 'keurocalc'

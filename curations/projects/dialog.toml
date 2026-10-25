@@ -1,0 +1,24 @@
+id = 'dialog'
+name = 'dialog'
+
+homepage = 'https://invisible-island.net/dialog'
+
+[[package]]
+channel = 'arch'
+name = 'dialog'
+
+[[package]]
+channel = 'debian'
+name = 'dialog'
+
+[[package]]
+channel = 'fedora'
+name = 'dialog'
+
+[[package]]
+channel = 'fedora'
+name = 'dialog-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dialog'

@@ -1,0 +1,8 @@
+id = 'ot-bboi-standalone'
+name = 'ot-bboi-standalone'
+
+homepage = 'https://punklabs.com/ot-bboi'
+
+[[package]]
+channel = 'arch'
+name = 'ot-bboi-standalone'

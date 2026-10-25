@@ -1,0 +1,8 @@
+id = 'apibuilder-cli'
+name = 'apibuilder-cli'
+
+homepage = 'https://www.apibuilder.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apibuilder-cli'

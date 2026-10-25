@@ -1,0 +1,9 @@
+id = 'kwctl'
+name = 'kwctl'
+
+homepage = 'https://www.kubewarden.io'
+repository = 'https://github.com/kubewarden/adm-controller.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kwctl'

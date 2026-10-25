@@ -1,0 +1,12 @@
+id = 'udptunnel'
+name = 'udptunnel'
+
+homepage = 'https://www.cs.columbia.edu/~lennox/udptunnel'
+
+[[package]]
+channel = 'debian'
+name = 'udptunnel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/udptunnel'

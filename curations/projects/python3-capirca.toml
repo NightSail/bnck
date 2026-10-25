@@ -1,0 +1,8 @@
+id = 'python3-capirca'
+name = 'python3-capirca'
+
+homepage = 'https://github.com/google/capirca'
+
+[[package]]
+channel = 'debian'
+name = 'python3-capirca'

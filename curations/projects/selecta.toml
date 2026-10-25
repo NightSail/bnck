@@ -1,0 +1,8 @@
+id = 'selecta'
+name = 'selecta'
+
+homepage = 'https://github.com/garybernhardt/selecta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/selecta'

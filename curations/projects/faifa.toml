@@ -1,0 +1,8 @@
+id = 'faifa'
+name = 'faifa'
+
+homepage = 'https://dev.open-plc.org'
+
+[[package]]
+channel = 'debian'
+name = 'faifa'

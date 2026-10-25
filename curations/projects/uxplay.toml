@@ -1,0 +1,12 @@
+id = 'uxplay'
+name = 'uxplay'
+
+homepage = 'https://github.com/FDH2/UxPlay'
+
+[[package]]
+channel = 'debian'
+name = 'uxplay'
+
+[[package]]
+channel = 'fedora'
+name = 'uxplay'

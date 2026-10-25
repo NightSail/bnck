@@ -1,0 +1,8 @@
+id = 'vaporizer2-standalone'
+name = 'vaporizer2-standalone'
+
+homepage = 'https://github.com/VASTDynamics/Vaporizer2'
+
+[[package]]
+channel = 'arch'
+name = 'vaporizer2-standalone'

@@ -1,0 +1,8 @@
+id = 'perl-text-bidi'
+name = 'perl-Text-Bidi'
+
+homepage = 'https://metacpan.org/release/Text-Bidi'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-Bidi'

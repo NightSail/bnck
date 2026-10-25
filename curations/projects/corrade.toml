@@ -1,0 +1,8 @@
+id = 'corrade'
+name = 'corrade'
+
+homepage = 'https://magnum.graphics/corrade'
+
+[[package]]
+channel = 'arch'
+name = 'corrade'

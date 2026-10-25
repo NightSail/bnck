@@ -1,0 +1,12 @@
+id = 'wvstreams'
+name = 'wvstreams'
+
+homepage = 'https://github.com/apenwarr/wvstreams'
+
+[[package]]
+channel = 'arch'
+name = 'wvstreams'
+
+[[package]]
+channel = 'debian'
+name = 'libwvstreams-dev'

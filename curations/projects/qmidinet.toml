@@ -1,0 +1,12 @@
+id = 'qmidinet'
+name = 'qmidinet'
+
+homepage = 'https://qmidinet.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qmidinet'
+
+[[package]]
+channel = 'debian'
+name = 'qmidinet'

@@ -1,0 +1,8 @@
+id = 'flann'
+name = 'flann'
+
+homepage = 'https://github.com/flann-lib/flann'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flann'

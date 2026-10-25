@@ -1,0 +1,8 @@
+id = 'xotcl-shells'
+name = 'xotcl-shells'
+
+homepage = 'http://www.xotcl.org'
+
+[[package]]
+channel = 'debian'
+name = 'xotcl-shells'

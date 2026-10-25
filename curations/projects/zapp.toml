@@ -1,0 +1,8 @@
+id = 'zapp'
+name = 'zapp'
+
+repository = 'https://github.com/zsa/zapp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zapp'

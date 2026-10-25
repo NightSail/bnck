@@ -1,0 +1,64 @@
+id = 'freerdp-freerdp'
+name = 'freerdp'
+
+homepage = 'https://www.freerdp.com'
+
+[[package]]
+channel = 'arch'
+name = 'freerdp'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp-sdl'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp-shadow-x11'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp-wayland'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp-x11'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp3-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp3-sdl'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp3-shadow-x11'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp3-wayland'
+
+[[package]]
+channel = 'debian'
+name = 'freerdp3-x11'
+
+[[package]]
+channel = 'debian'
+name = 'winpr-utils'
+
+[[package]]
+channel = 'debian'
+name = 'winpr3-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'freerdp'
+
+[[package]]
+channel = 'fedora'
+name = 'freerdp-server'

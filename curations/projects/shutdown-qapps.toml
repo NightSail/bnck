@@ -1,0 +1,10 @@
+id = 'shutdown-qapps'
+name = 'shutdown-qapps'
+
+[[package]]
+channel = 'debian'
+name = 'qprogram-starter'
+
+[[package]]
+channel = 'debian'
+name = 'qshutdown'

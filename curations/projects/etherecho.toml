@@ -1,0 +1,8 @@
+id = 'etherecho'
+name = 'etherecho'
+
+homepage = 'https://github.com/mdlayher/ethernet'
+
+[[package]]
+channel = 'fedora'
+name = 'etherecho'

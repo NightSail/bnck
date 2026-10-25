@@ -1,0 +1,8 @@
+id = 'contactsd'
+name = 'contactsd'
+
+homepage = 'https://github.com/sailfishos/contactsd'
+
+[[package]]
+channel = 'debian'
+name = 'contactsd'

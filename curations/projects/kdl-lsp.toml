@@ -1,0 +1,8 @@
+id = 'kdl-lsp'
+name = 'kdl-lsp'
+
+homepage = 'https://github.com/kdl-org/kdl-rs'
+
+[[package]]
+channel = 'arch'
+name = 'kdl-lsp'

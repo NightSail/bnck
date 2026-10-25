@@ -1,0 +1,6 @@
+id = 'safe-vdash'
+name = 'safe-vdash'
+
+[[package]]
+channel = 'debian'
+name = 'safe-vdash'

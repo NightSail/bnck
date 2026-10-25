@@ -1,0 +1,20 @@
+id = 'swig'
+name = 'swig'
+
+homepage = 'https://www.swig.org'
+
+[[package]]
+channel = 'arch'
+name = 'swig'
+
+[[package]]
+channel = 'debian'
+name = 'swig'
+
+[[package]]
+channel = 'fedora'
+name = 'ccache-swig'
+
+[[package]]
+channel = 'fedora'
+name = 'swig'

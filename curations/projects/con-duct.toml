@@ -1,0 +1,8 @@
+id = 'con-duct'
+name = 'con-duct'
+
+homepage = 'https://github.com/con/duct'
+
+[[package]]
+channel = 'debian'
+name = 'con-duct'

@@ -1,0 +1,8 @@
+id = 'conntrack-tools-conntrack-tools'
+name = 'conntrack-tools'
+
+homepage = 'https://www.netfilter.org/projects/conntrack-tools'
+
+[[package]]
+channel = 'arch'
+name = 'conntrack-tools'

@@ -1,0 +1,16 @@
+id = 'gnome-tour'
+name = 'gnome-tour'
+
+homepage = 'https://apps.gnome.org/Tour'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-tour'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-tour'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-tour'

@@ -1,0 +1,8 @@
+id = 'ebook-speaker'
+name = 'ebook-speaker'
+
+homepage = 'https://github.com/book-readers/ebook-speaker'
+
+[[package]]
+channel = 'debian'
+name = 'ebook-speaker'

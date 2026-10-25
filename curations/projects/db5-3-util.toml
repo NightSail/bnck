@@ -1,0 +1,8 @@
+id = 'db5-3-util'
+name = 'db5.3-util'
+
+homepage = 'http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'db5.3-util'

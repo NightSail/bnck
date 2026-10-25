@@ -1,0 +1,8 @@
+id = 'pycoqc'
+name = 'pycoqc'
+
+homepage = 'https://github.com/a-slide/pycoQC'
+
+[[package]]
+channel = 'debian'
+name = 'pycoqc'

@@ -1,0 +1,8 @@
+id = 'dietlibc'
+name = 'dietlibc'
+
+homepage = 'http://www.fefe.de/dietlibc'
+
+[[package]]
+channel = 'fedora'
+name = 'dietlibc'

@@ -1,0 +1,8 @@
+id = 'ast-devel'
+name = 'ast-devel'
+
+homepage = 'http://starlink.eao.hawaii.edu/starlink/AST'
+
+[[package]]
+channel = 'fedora'
+name = 'ast-devel'

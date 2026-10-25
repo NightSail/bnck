@@ -1,0 +1,8 @@
+id = 'golang-github-client9-plaintext'
+name = 'golang-github-client9-plaintext'
+
+homepage = 'https://github.com/client9/plaintext'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-client9-plaintext'

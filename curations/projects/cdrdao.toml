@@ -1,0 +1,28 @@
+id = 'cdrdao'
+name = 'cdrdao'
+
+homepage = 'https://cdrdao.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'cdrdao'
+
+[[package]]
+channel = 'arch'
+name = 'gcdmaster'
+
+[[package]]
+channel = 'debian'
+name = 'cdrdao'
+
+[[package]]
+channel = 'debian'
+name = 'gcdmaster'
+
+[[package]]
+channel = 'fedora'
+name = 'cdrdao'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdrdao'

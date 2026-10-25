@@ -12,5 +12,9 @@ channel = 'debian'
 name = 'liquidctl'
 
 [[package]]
+channel = 'fedora'
+name = 'liquidctl'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/liquidctl'

@@ -1,0 +1,8 @@
+id = 'python3-django-configurations'
+name = 'python3-django-configurations'
+
+homepage = 'https://django-configurations.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-django-configurations'

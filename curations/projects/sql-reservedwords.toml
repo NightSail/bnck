@@ -1,0 +1,12 @@
+id = 'sql-reservedwords'
+name = 'SQL-ReservedWords'
+
+homepage = 'https://metacpan.org/release/SQL-ReservedWords'
+
+[[package]]
+channel = 'debian'
+name = 'libsql-reservedwords-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SQL-ReservedWords'

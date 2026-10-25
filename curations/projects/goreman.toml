@@ -1,0 +1,8 @@
+id = 'goreman'
+name = 'goreman'
+
+repository = 'https://github.com/mattn/goreman.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goreman'

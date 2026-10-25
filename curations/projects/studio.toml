@@ -1,0 +1,12 @@
+id = 'studio'
+name = 'studio'
+
+homepage = 'https://developer.android.com/studio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/android-commandlinetools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/android-studio'

@@ -1,0 +1,8 @@
+id = 'pacpl'
+name = 'pacpl'
+
+homepage = 'https://votoxin.wixsite.com/pacpl'
+
+[[package]]
+channel = 'debian'
+name = 'pacpl'

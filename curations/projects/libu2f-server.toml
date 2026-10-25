@@ -1,0 +1,12 @@
+id = 'libu2f-server'
+name = 'libu2f-server'
+
+homepage = 'https://developers.yubico.com/libu2f-server'
+
+[[package]]
+channel = 'fedora'
+name = 'u2f-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libu2f-server'

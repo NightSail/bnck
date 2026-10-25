@@ -1,0 +1,9 @@
+id = 'bazarr'
+name = 'bazarr'
+
+homepage = 'https://www.bazarr.media'
+repository = 'https://github.com/morpheus65535/bazarr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazarr'

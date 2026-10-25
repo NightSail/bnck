@@ -1,0 +1,12 @@
+id = 'easycap-somagic-linux'
+name = 'easycap-somagic-linux'
+
+homepage = 'https://code.google.com/archive/p/easycap-somagic-linux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/somagic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/somagic-tools'

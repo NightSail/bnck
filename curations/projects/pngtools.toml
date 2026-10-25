@@ -1,0 +1,8 @@
+id = 'pngtools'
+name = 'pngtools'
+
+homepage = 'https://github.com/mikalstill/pngtools'
+
+[[package]]
+channel = 'debian'
+name = 'pngtools'

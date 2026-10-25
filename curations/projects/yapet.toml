@@ -1,0 +1,12 @@
+id = 'yapet'
+name = 'yapet'
+
+homepage = 'https://yapet.guengel.ch'
+
+[[package]]
+channel = 'debian'
+name = 'yapet'
+
+[[package]]
+channel = 'fedora'
+name = 'yapet'

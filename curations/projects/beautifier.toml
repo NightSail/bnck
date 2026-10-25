@@ -1,0 +1,16 @@
+id = 'beautifier'
+name = 'beautifier'
+
+homepage = 'https://beautifier.io'
+
+[[package]]
+channel = 'debian'
+name = 'node-js-beautify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/js-beautify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsbeautifier'

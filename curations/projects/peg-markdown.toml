@@ -1,0 +1,8 @@
+id = 'peg-markdown'
+name = 'peg-markdown'
+
+repository = 'https://github.com/jgm/peg-markdown.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/peg-markdown'

@@ -1,0 +1,8 @@
+id = 'galvani'
+name = 'galvani'
+
+homepage = 'https://gitlab.com/galvn/galvani'
+
+[[package]]
+channel = 'debian'
+name = 'galvani'

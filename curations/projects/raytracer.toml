@@ -1,0 +1,24 @@
+id = 'raytracer'
+name = 'raytracer'
+
+homepage = 'http://jedi.ks.uiuc.edu/~johns/raytracer'
+
+[[package]]
+channel = 'arch'
+name = 'tachyon'
+
+[[package]]
+channel = 'debian'
+name = 'tachyon-bin-nox'
+
+[[package]]
+channel = 'debian'
+name = 'tachyon-bin-ogl'
+
+[[package]]
+channel = 'fedora'
+name = 'tachyon'
+
+[[package]]
+channel = 'fedora'
+name = 'tachyon-gl'

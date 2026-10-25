@@ -1,0 +1,12 @@
+id = 'python3-nibabel'
+name = 'python3-nibabel'
+
+homepage = 'https://nipy.org/nibabel'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nibabel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nibabel'

@@ -1,0 +1,8 @@
+id = 'rpmreaper'
+name = 'rpmreaper'
+
+homepage = 'https://github.com/mlichvar/rpmreaper'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmreaper'

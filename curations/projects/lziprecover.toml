@@ -1,0 +1,16 @@
+id = 'lziprecover'
+name = 'lziprecover'
+
+homepage = 'https://www.nongnu.org/lzip/lziprecover.html'
+
+[[package]]
+channel = 'debian'
+name = 'lziprecover'
+
+[[package]]
+channel = 'fedora'
+name = 'lziprecover'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lziprecover'

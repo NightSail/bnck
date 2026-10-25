@@ -1,0 +1,12 @@
+id = 'progpick'
+name = 'progpick'
+
+homepage = 'https://github.com/kpcyrd/progpick'
+
+[[package]]
+channel = 'arch'
+name = 'progpick'
+
+[[package]]
+channel = 'debian'
+name = 'progpick'

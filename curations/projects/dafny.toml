@@ -1,0 +1,8 @@
+id = 'dafny'
+name = 'dafny'
+
+homepage = 'https://github.com/dafny-lang/dafny/blob/master/README.md'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dafny'

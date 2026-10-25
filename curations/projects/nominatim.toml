@@ -1,0 +1,8 @@
+id = 'nominatim'
+name = 'nominatim'
+
+homepage = 'https://nominatim.org'
+
+[[package]]
+channel = 'arch'
+name = 'nominatim'

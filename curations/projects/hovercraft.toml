@@ -1,0 +1,8 @@
+id = 'hovercraft'
+name = 'hovercraft'
+
+homepage = 'https://github.com/regebro/hovercraft'
+
+[[package]]
+channel = 'debian'
+name = 'hovercraft'

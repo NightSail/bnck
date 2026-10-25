@@ -1,0 +1,8 @@
+id = 'jotdown'
+name = 'jotdown'
+
+homepage = 'https://github.com/hellux/jotdown'
+
+[[package]]
+channel = 'arch'
+name = 'jotdown'

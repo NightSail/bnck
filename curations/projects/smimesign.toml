@@ -1,0 +1,8 @@
+id = 'smimesign'
+name = 'smimesign'
+
+homepage = 'https://github.com/github/smimesign'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smimesign'

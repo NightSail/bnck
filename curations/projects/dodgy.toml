@@ -1,0 +1,8 @@
+id = 'dodgy'
+name = 'dodgy'
+
+homepage = 'https://github.com/landscapeio/dodgy'
+
+[[package]]
+channel = 'debian'
+name = 'dodgy'

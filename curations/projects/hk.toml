@@ -1,0 +1,9 @@
+id = 'hk'
+name = 'hk'
+
+homepage = 'https://hk.jdx.dev'
+repository = 'https://github.com/jdx/hk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hk'

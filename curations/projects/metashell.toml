@@ -1,0 +1,8 @@
+id = 'metashell'
+name = 'metashell'
+
+homepage = 'http://metashell.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metashell'

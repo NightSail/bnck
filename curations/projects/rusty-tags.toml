@@ -1,0 +1,8 @@
+id = 'rusty-tags'
+name = 'rusty-tags'
+
+homepage = 'https://github.com/dan-t/rusty-tags'
+
+[[package]]
+channel = 'debian'
+name = 'rusty-tags'

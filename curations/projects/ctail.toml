@@ -1,0 +1,8 @@
+id = 'ctail'
+name = 'ctail'
+
+homepage = 'https://github.com/pquerna/ctail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctail'

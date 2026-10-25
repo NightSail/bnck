@@ -1,0 +1,8 @@
+id = 'kingfisher'
+name = 'kingfisher'
+
+homepage = 'https://mongodb.github.io/kingfisher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kingfisher'

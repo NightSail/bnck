@@ -1,0 +1,8 @@
+id = 'keyringer'
+name = 'keyringer'
+
+homepage = 'https://keyringer.fluxo.info'
+
+[[package]]
+channel = 'debian'
+name = 'keyringer'

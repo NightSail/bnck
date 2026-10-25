@@ -1,0 +1,8 @@
+id = 'h2spec'
+name = 'h2spec'
+
+repository = 'https://github.com/summerwind/h2spec.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/h2spec'

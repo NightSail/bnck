@@ -12,5 +12,9 @@ channel = 'debian'
 name = 'gitleaks'
 
 [[package]]
+channel = 'fedora'
+name = 'gitleaks'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gitleaks'

@@ -1,0 +1,12 @@
+id = 'bibclean'
+name = 'bibclean'
+
+homepage = 'https://www.math.utah.edu/~beebe/software/bibclean/bibclean-03.html'
+
+[[package]]
+channel = 'debian'
+name = 'bibclean'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bibclean'

@@ -1,0 +1,8 @@
+id = 'python-pydicom'
+name = 'python-pydicom'
+
+homepage = 'https://pydicom.github.io/pydicom/stable/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'python-pydicom'

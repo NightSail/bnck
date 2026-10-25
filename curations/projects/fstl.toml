@@ -1,0 +1,8 @@
+id = 'fstl'
+name = 'fstl'
+
+homepage = 'https://www.mattkeeter.com/projects/fstl'
+
+[[package]]
+channel = 'debian'
+name = 'fstl'

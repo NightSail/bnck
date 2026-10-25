@@ -1,0 +1,8 @@
+id = 'wdt'
+name = 'wdt'
+
+homepage = 'https://www.facebook.com/WdtOpenSource'
+
+[[package]]
+channel = 'fedora'
+name = 'wdt'

@@ -1,0 +1,8 @@
+id = 'spectrwm'
+name = 'spectrwm'
+
+homepage = 'https://github.com/conformal/spectrwm'
+
+[[package]]
+channel = 'debian'
+name = 'spectrwm'

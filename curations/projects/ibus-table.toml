@@ -1,0 +1,16 @@
+id = 'ibus-table'
+name = 'ibus-table'
+
+homepage = 'https://github.com/kaio/ibus-table'
+
+[[package]]
+channel = 'arch'
+name = 'ibus-table'
+
+[[package]]
+channel = 'debian'
+name = 'ibus-table'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus-table'

@@ -1,0 +1,12 @@
+id = 'python3-qcengine'
+name = 'python3-qcengine'
+
+homepage = 'https://github.com/MolSSI/QCEngine'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qcengine'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qcengine'

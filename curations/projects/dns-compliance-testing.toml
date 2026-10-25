@@ -1,0 +1,8 @@
+id = 'dns-compliance-testing'
+name = 'DNS-Compliance-Testing'
+
+homepage = 'https://gitlab.isc.org/isc-projects/DNS-Compliance-Testing'
+
+[[package]]
+channel = 'fedora'
+name = 'DNS-Compliance-Testing'

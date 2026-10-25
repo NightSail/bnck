@@ -1,0 +1,8 @@
+id = 'gmerlin'
+name = 'gmerlin'
+
+homepage = 'http://gmerlin.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gmerlin'

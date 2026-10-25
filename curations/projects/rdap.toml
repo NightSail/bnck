@@ -1,0 +1,13 @@
+id = 'rdap'
+name = 'rdap'
+
+homepage = 'https://www.openrdap.org'
+repository = 'https://github.com/openrdap/rdap.git'
+
+[[package]]
+channel = 'debian'
+name = 'rdap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rdap'

@@ -1,0 +1,12 @@
+id = 'elisa'
+name = 'elisa'
+
+homepage = 'https://apps.kde.org/elisa'
+
+[[package]]
+channel = 'arch'
+name = 'elisa'
+
+[[package]]
+channel = 'debian'
+name = 'elisa'

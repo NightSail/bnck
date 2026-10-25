@@ -1,0 +1,28 @@
+id = 'scanmem'
+name = 'scanmem'
+
+homepage = 'https://github.com/scanmem/scanmem'
+
+[[package]]
+channel = 'arch'
+name = 'gameconqueror'
+
+[[package]]
+channel = 'arch'
+name = 'scanmem'
+
+[[package]]
+channel = 'debian'
+name = 'gameconqueror'
+
+[[package]]
+channel = 'debian'
+name = 'scanmem'
+
+[[package]]
+channel = 'fedora'
+name = 'gameconqueror'
+
+[[package]]
+channel = 'fedora'
+name = 'scanmem'

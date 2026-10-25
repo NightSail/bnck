@@ -1,0 +1,12 @@
+id = 'mopac'
+name = 'mopac'
+
+homepage = 'http://openmopac.net'
+
+[[package]]
+channel = 'debian'
+name = 'mopac'
+
+[[package]]
+channel = 'fedora'
+name = 'mopac'

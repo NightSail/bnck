@@ -1,0 +1,8 @@
+id = 'gdcalc'
+name = 'gdcalc'
+
+homepage = 'https://gitlab.com/wef/gdcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'gdcalc'

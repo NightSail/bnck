@@ -1,0 +1,8 @@
+id = 'pyecm'
+name = 'pyecm'
+
+homepage = 'https://github.com/martingkelly/pyecm'
+
+[[package]]
+channel = 'debian'
+name = 'pyecm'

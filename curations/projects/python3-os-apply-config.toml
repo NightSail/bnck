@@ -1,0 +1,8 @@
+id = 'python3-os-apply-config'
+name = 'python3-os-apply-config'
+
+homepage = 'https://github.com/openstack/os-apply-config'
+
+[[package]]
+channel = 'debian'
+name = 'python3-os-apply-config'

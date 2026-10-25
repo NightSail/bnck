@@ -1,0 +1,9 @@
+id = 'sphinx-doc-sphinx-doc'
+name = 'sphinx-doc'
+
+homepage = 'https://www.sphinx-doc.org'
+repository = 'https://github.com/sphinx-doc/sphinx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sphinx-doc'

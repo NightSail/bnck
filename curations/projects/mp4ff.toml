@@ -1,0 +1,8 @@
+id = 'mp4ff'
+name = 'mp4ff'
+
+homepage = 'https://github.com/Eyevinn/mp4ff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp4ff'

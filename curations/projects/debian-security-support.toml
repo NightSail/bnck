@@ -1,0 +1,6 @@
+id = 'debian-security-support'
+name = 'debian-security-support'
+
+[[package]]
+channel = 'debian'
+name = 'debian-security-support'

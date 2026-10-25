@@ -1,0 +1,16 @@
+id = 'notifications'
+name = 'notifications'
+
+homepage = 'https://github.com/elementary/notifications'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-notifications'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-notifications'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-notifications-demo'

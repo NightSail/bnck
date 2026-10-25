@@ -1,0 +1,8 @@
+id = 'junction'
+name = 'junction'
+
+homepage = 'https://apps.gnome.org/Junction'
+
+[[package]]
+channel = 'arch'
+name = 'junction'

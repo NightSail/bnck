@@ -1,0 +1,8 @@
+id = 'redka'
+name = 'redka'
+
+repository = 'https://github.com/nalgeon/redka.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redka'

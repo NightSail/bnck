@@ -1,0 +1,16 @@
+id = 'mighttpd2'
+name = 'mighttpd2'
+
+homepage = 'https://kazu-yamamoto.github.io/mighttpd2'
+
+[[package]]
+channel = 'arch'
+name = 'mighttpd2'
+
+[[package]]
+channel = 'debian'
+name = 'mighttpd2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mighttpd2'

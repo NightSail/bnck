@@ -1,0 +1,16 @@
+id = 'gnome-online-accounts-gtk'
+name = 'gnome-online-accounts-gtk'
+
+homepage = 'https://github.com/linuxmint/gnome-online-accounts-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-online-accounts-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-online-accounts-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-online-accounts-gtk'

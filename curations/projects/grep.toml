@@ -1,0 +1,21 @@
+id = 'grep'
+name = 'grep'
+
+homepage = 'https://www.gnu.org/software/grep'
+repository = 'https://git.savannah.gnu.org/git/grep.git'
+
+[[package]]
+channel = 'arch'
+name = 'grep'
+
+[[package]]
+channel = 'debian'
+name = 'grep'
+
+[[package]]
+channel = 'fedora'
+name = 'grep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grep'

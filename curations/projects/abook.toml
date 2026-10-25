@@ -1,0 +1,17 @@
+id = 'abook'
+name = 'abook'
+
+homepage = 'http://abook.sourceforge.net'
+repository = 'https://git.code.sf.net/p/abook/git.git'
+
+[[package]]
+channel = 'debian'
+name = 'abook'
+
+[[package]]
+channel = 'fedora'
+name = 'abook'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abook'

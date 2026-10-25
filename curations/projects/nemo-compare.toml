@@ -1,0 +1,8 @@
+id = 'nemo-compare'
+name = 'nemo-compare'
+
+homepage = 'https://community.linuxmint.com/software/view/nemo-compare'
+
+[[package]]
+channel = 'debian'
+name = 'nemo-compare'

@@ -1,0 +1,8 @@
+id = 'lordsawar'
+name = 'lordsawar'
+
+homepage = 'http://savannah.nongnu.org/projects/lordsawar'
+
+[[package]]
+channel = 'fedora'
+name = 'lordsawar'

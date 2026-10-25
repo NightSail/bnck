@@ -1,0 +1,12 @@
+id = 'gocr'
+name = 'gocr'
+
+homepage = 'https://jocr.sourceforge.net/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'gocr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gocr'

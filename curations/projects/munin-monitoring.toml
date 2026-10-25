@@ -1,0 +1,28 @@
+id = 'munin-monitoring'
+name = 'munin-monitoring'
+
+homepage = 'http://munin-monitoring.org'
+
+[[package]]
+channel = 'arch'
+name = 'munin'
+
+[[package]]
+channel = 'arch'
+name = 'munin-node'
+
+[[package]]
+channel = 'debian'
+name = 'munin'
+
+[[package]]
+channel = 'debian'
+name = 'munin-node'
+
+[[package]]
+channel = 'fedora'
+name = 'munin'
+
+[[package]]
+channel = 'fedora'
+name = 'munin-node'

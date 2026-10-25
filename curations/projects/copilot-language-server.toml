@@ -1,0 +1,8 @@
+id = 'copilot-language-server'
+name = 'copilot-language-server'
+
+homepage = 'https://github.com/github/copilot-language-server-release'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/copilot-language-server'

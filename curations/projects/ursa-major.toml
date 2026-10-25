@@ -1,0 +1,12 @@
+id = 'ursa-major'
+name = 'ursa-major'
+
+homepage = 'https://pagure.io/ursa-major'
+
+[[package]]
+channel = 'fedora'
+name = 'ursa-major'
+
+[[package]]
+channel = 'fedora'
+name = 'ursa-major-stage'

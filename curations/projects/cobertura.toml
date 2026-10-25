@@ -1,0 +1,8 @@
+id = 'cobertura'
+name = 'cobertura'
+
+homepage = 'https://cobertura.github.io/cobertura'
+
+[[package]]
+channel = 'debian'
+name = 'cobertura'

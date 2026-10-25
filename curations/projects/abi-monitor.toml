@@ -1,0 +1,8 @@
+id = 'abi-monitor'
+name = 'abi-monitor'
+
+homepage = 'https://github.com/lvc/abi-monitor'
+
+[[package]]
+channel = 'debian'
+name = 'abi-monitor'

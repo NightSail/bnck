@@ -1,0 +1,12 @@
+id = 'spinroot'
+name = 'spinroot'
+
+homepage = 'https://spinroot.com'
+
+[[package]]
+channel = 'arch'
+name = 'ispin'
+
+[[package]]
+channel = 'arch'
+name = 'spin'

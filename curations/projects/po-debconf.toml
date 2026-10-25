@@ -1,0 +1,10 @@
+id = 'po-debconf'
+name = 'po-debconf'
+
+[[package]]
+channel = 'debian'
+name = 'po-debconf'
+
+[[package]]
+channel = 'fedora'
+name = 'po-debconf'

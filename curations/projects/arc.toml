@@ -1,0 +1,12 @@
+id = 'arc'
+name = 'arc'
+
+homepage = 'https://github.com/ani6al/arc'
+
+[[package]]
+channel = 'debian'
+name = 'arc'
+
+[[package]]
+channel = 'fedora'
+name = 'arc'

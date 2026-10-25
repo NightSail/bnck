@@ -1,0 +1,10 @@
+id = 'cpphs'
+name = 'cpphs'
+
+[[package]]
+channel = 'debian'
+name = 'cpphs'
+
+[[package]]
+channel = 'fedora'
+name = 'cpphs'

@@ -1,0 +1,20 @@
+id = 'cockatrice'
+name = 'cockatrice'
+
+homepage = 'https://cockatrice.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'cockatrice'
+
+[[package]]
+channel = 'fedora'
+name = 'cockatrice'
+
+[[package]]
+channel = 'fedora'
+name = 'cockatrice-server'
+
+[[package]]
+channel = 'fedora'
+name = 'cockatrice-utils'

@@ -1,0 +1,12 @@
+id = 'bladerf'
+name = 'bladerf'
+
+homepage = 'https://www.Nuand.com/bladeRF'
+
+[[package]]
+channel = 'debian'
+name = 'bladerf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bladerf'

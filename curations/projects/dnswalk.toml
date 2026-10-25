@@ -1,0 +1,8 @@
+id = 'dnswalk'
+name = 'dnswalk'
+
+homepage = 'https://github.com/davebarr/dnswalk'
+
+[[package]]
+channel = 'debian'
+name = 'dnswalk'

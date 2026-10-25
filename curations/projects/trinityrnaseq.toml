@@ -1,0 +1,8 @@
+id = 'trinityrnaseq'
+name = 'trinityrnaseq'
+
+homepage = 'https://github.com/trinityrnaseq/trinityrnaseq'
+
+[[package]]
+channel = 'debian'
+name = 'trinityrnaseq'

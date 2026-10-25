@@ -1,0 +1,8 @@
+id = 'libscca-utils'
+name = 'libscca-utils'
+
+homepage = 'https://github.com/libyal/libscca'
+
+[[package]]
+channel = 'debian'
+name = 'libscca-utils'

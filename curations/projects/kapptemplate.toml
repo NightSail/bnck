@@ -1,0 +1,16 @@
+id = 'kapptemplate'
+name = 'kapptemplate'
+
+homepage = 'https://apps.kde.org/kapptemplate'
+
+[[package]]
+channel = 'arch'
+name = 'kapptemplate'
+
+[[package]]
+channel = 'debian'
+name = 'kapptemplate'
+
+[[package]]
+channel = 'fedora'
+name = 'kapptemplate'

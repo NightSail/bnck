@@ -1,0 +1,8 @@
+id = 'plait'
+name = 'plait'
+
+homepage = 'https://sourceforge.net/projects/plait'
+
+[[package]]
+channel = 'debian'
+name = 'plait'

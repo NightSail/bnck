@@ -1,0 +1,12 @@
+id = 'libultrahdr'
+name = 'libultrahdr'
+
+homepage = 'https://developer.android.com/media/platform/hdr-image-format'
+
+[[package]]
+channel = 'arch'
+name = 'libultrahdr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libultrahdr'

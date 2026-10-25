@@ -1,0 +1,6 @@
+id = 'openwince-jtag'
+name = 'openwince-jtag'
+
+[[package]]
+channel = 'debian'
+name = 'openwince-jtag'

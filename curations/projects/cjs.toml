@@ -1,0 +1,16 @@
+id = 'cjs'
+name = 'cjs'
+
+homepage = 'https://github.com/linuxmint/cjs'
+
+[[package]]
+channel = 'arch'
+name = 'cjs'
+
+[[package]]
+channel = 'debian'
+name = 'cjs'
+
+[[package]]
+channel = 'fedora'
+name = 'cjs'

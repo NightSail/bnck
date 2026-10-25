@@ -1,0 +1,8 @@
+id = 'perl-app-find2perl'
+name = 'perl-App-find2perl'
+
+homepage = 'https://metacpan.org/release/App-find2perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-find2perl'

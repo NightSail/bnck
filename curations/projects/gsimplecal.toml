@@ -1,0 +1,12 @@
+id = 'gsimplecal'
+name = 'gsimplecal'
+
+homepage = 'https://dmedvinsky.github.io/gsimplecal'
+
+[[package]]
+channel = 'arch'
+name = 'gsimplecal'
+
+[[package]]
+channel = 'debian'
+name = 'gsimplecal'

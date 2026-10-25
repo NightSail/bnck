@@ -1,0 +1,6 @@
+id = 'freeze'
+name = 'freeze'
+
+[[package]]
+channel = 'fedora'
+name = 'freeze'

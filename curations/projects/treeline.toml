@@ -1,0 +1,8 @@
+id = 'treeline'
+name = 'treeline'
+
+homepage = 'https://treeline.bellz.org'
+
+[[package]]
+channel = 'debian'
+name = 'treeline'

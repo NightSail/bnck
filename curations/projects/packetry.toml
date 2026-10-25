@@ -1,0 +1,8 @@
+id = 'packetry'
+name = 'packetry'
+
+homepage = 'https://github.com/greatscottgadgets/packetry'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/packetry'

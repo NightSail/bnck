@@ -1,0 +1,16 @@
+id = 'rng-tools'
+name = 'rng-tools'
+
+homepage = 'https://github.com/nhorman/rng-tools'
+
+[[package]]
+channel = 'arch'
+name = 'rng-tools'
+
+[[package]]
+channel = 'debian'
+name = 'rng-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'rng-tools'

@@ -1,0 +1,20 @@
+id = 'libkcapi'
+name = 'libkcapi'
+
+homepage = 'https://www.chronox.de/libkcapi'
+
+[[package]]
+channel = 'fedora'
+name = 'libkcapi-fipscheck'
+
+[[package]]
+channel = 'fedora'
+name = 'libkcapi-hasher'
+
+[[package]]
+channel = 'fedora'
+name = 'libkcapi-hmaccalc'
+
+[[package]]
+channel = 'fedora'
+name = 'libkcapi-tools'

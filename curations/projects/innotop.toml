@@ -1,0 +1,12 @@
+id = 'innotop'
+name = 'innotop'
+
+repository = 'https://github.com/innotop/innotop.git'
+
+[[package]]
+channel = 'fedora'
+name = 'innotop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/innotop'

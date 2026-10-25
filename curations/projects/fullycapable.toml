@@ -1,0 +1,24 @@
+id = 'fullycapable'
+name = 'fullycapable'
+
+homepage = 'https://sites.google.com/site/fullycapable'
+
+[[package]]
+channel = 'arch'
+name = 'libcap'
+
+[[package]]
+channel = 'debian'
+name = 'libcap2-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'captree'
+
+[[package]]
+channel = 'fedora'
+name = 'libcap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcap'

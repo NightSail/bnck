@@ -1,0 +1,8 @@
+id = 'cbmconvert'
+name = 'cbmconvert'
+
+homepage = 'https://github.com/dr-m/cbmconvert/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'cbmconvert'

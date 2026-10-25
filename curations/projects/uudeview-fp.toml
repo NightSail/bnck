@@ -1,0 +1,12 @@
+id = 'uudeview-fp'
+name = 'uudeview'
+
+homepage = 'http://www.fpx.de/fp/Software/UUDeview'
+
+[[package]]
+channel = 'fedora'
+name = 'uudeview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uudeview'

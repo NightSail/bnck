@@ -1,0 +1,12 @@
+id = 'xeve'
+name = 'xeve'
+
+repository = 'https://github.com/mpeg5/xeve.git'
+
+[[package]]
+channel = 'fedora'
+name = 'xeve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xeve'

@@ -1,0 +1,8 @@
+id = 'graide'
+name = 'graide'
+
+homepage = 'https://github.com/silnrsi/graide'
+
+[[package]]
+channel = 'debian'
+name = 'graide'

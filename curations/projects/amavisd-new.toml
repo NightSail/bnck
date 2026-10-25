@@ -1,0 +1,8 @@
+id = 'amavisd-new'
+name = 'amavisd-new'
+
+homepage = 'https://www.ijs.si/software/amavisd'
+
+[[package]]
+channel = 'debian'
+name = 'amavisd-new'

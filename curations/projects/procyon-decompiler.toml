@@ -1,0 +1,20 @@
+id = 'procyon-decompiler'
+name = 'procyon-decompiler'
+
+homepage = 'https://github.com/mstrobel/procyon'
+
+[[package]]
+channel = 'arch'
+name = 'procyon-decompiler'
+
+[[package]]
+channel = 'debian'
+name = 'procyon-decompiler'
+
+[[package]]
+channel = 'fedora'
+name = 'procyon-decompiler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/procyon-decompiler'

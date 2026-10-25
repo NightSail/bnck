@@ -1,0 +1,8 @@
+id = 'urlextractor'
+name = 'urlextractor'
+
+homepage = 'https://github.com/eschultze/URLextractor'
+
+[[package]]
+channel = 'debian'
+name = 'urlextractor'

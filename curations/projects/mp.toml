@@ -1,0 +1,8 @@
+id = 'mp'
+name = 'mp'
+
+homepage = 'https://mp.ampl.com'
+
+[[package]]
+channel = 'fedora'
+name = 'mp'

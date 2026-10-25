@@ -1,0 +1,8 @@
+id = 'evremap'
+name = 'evremap'
+
+homepage = 'https://github.com/wez/evremap'
+
+[[package]]
+channel = 'debian'
+name = 'evremap'

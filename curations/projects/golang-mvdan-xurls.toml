@@ -1,0 +1,8 @@
+id = 'golang-mvdan-xurls'
+name = 'golang-mvdan-xurls'
+
+homepage = 'https://github.com/mvdan/xurls'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-mvdan-xurls'

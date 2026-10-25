@@ -1,0 +1,12 @@
+id = 'phonon'
+name = 'phonon'
+
+homepage = 'https://phonon.kde.org'
+
+[[package]]
+channel = 'debian'
+name = 'phonon4qt5settings'
+
+[[package]]
+channel = 'debian'
+name = 'phonon4settings'

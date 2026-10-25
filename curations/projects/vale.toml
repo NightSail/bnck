@@ -1,0 +1,12 @@
+id = 'vale'
+name = 'vale'
+
+homepage = 'https://vale.sh'
+
+[[package]]
+channel = 'arch'
+name = 'vale'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vale'

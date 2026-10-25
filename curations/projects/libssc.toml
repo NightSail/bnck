@@ -1,0 +1,8 @@
+id = 'libssc'
+name = 'libssc'
+
+homepage = 'https://libssc.dylanvanassche.be'
+
+[[package]]
+channel = 'arch'
+name = 'libssc'

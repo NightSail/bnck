@@ -1,0 +1,56 @@
+id = 'kontact'
+name = 'kontact'
+
+homepage = 'https://kontact.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'akonadi'
+
+[[package]]
+channel = 'arch'
+name = 'akonadi-calendar'
+
+[[package]]
+channel = 'arch'
+name = 'akonadi-calendar-tools'
+
+[[package]]
+channel = 'arch'
+name = 'akonadi-import-wizard'
+
+[[package]]
+channel = 'arch'
+name = 'akonadi-search'
+
+[[package]]
+channel = 'arch'
+name = 'akonadiconsole'
+
+[[package]]
+channel = 'arch'
+name = 'grantlee-editor'
+
+[[package]]
+channel = 'arch'
+name = 'kdepim-addons'
+
+[[package]]
+channel = 'arch'
+name = 'kdepim-runtime'
+
+[[package]]
+channel = 'arch'
+name = 'kmail-account-wizard'
+
+[[package]]
+channel = 'arch'
+name = 'mbox-importer'
+
+[[package]]
+channel = 'arch'
+name = 'pim-sieve-editor'
+
+[[package]]
+channel = 'debian'
+name = 'kontact'

@@ -1,0 +1,16 @@
+id = 'shunit2'
+name = 'shunit2'
+
+homepage = 'https://github.com/kward/shunit2'
+
+[[package]]
+channel = 'arch'
+name = 'shunit2'
+
+[[package]]
+channel = 'debian'
+name = 'shunit2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shunit2'

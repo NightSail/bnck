@@ -1,0 +1,8 @@
+id = 'libmysofa-hoene'
+name = 'libmysofa'
+
+repository = 'https://github.com/hoene/libmysofa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmysofa'

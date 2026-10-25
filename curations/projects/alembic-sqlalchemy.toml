@@ -1,0 +1,12 @@
+id = 'alembic-sqlalchemy'
+name = 'alembic'
+
+homepage = 'https://github.com/sqlalchemy/alembic'
+
+[[package]]
+channel = 'arch'
+name = 'python-alembic'
+
+[[package]]
+channel = 'debian'
+name = 'alembic'

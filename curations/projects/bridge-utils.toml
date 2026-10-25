@@ -1,0 +1,10 @@
+id = 'bridge-utils'
+name = 'bridge-utils'
+
+[[package]]
+channel = 'debian'
+name = 'bridge-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'bridge-utils'

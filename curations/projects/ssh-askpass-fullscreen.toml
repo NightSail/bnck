@@ -1,0 +1,8 @@
+id = 'ssh-askpass-fullscreen'
+name = 'ssh-askpass-fullscreen'
+
+homepage = 'https://github.com/atj/ssh-askpass-fullscreen'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-askpass-fullscreen'

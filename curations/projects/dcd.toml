@@ -1,0 +1,12 @@
+id = 'dcd'
+name = 'dcd'
+
+repository = 'https://github.com/dlang-community/dcd.git'
+
+[[package]]
+channel = 'arch'
+name = 'dcd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcd'

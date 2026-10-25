@@ -1,0 +1,9 @@
+id = 'launch'
+name = 'launch'
+
+homepage = 'https://sabi.net/nriley/software'
+repository = 'https://github.com/nriley/launch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/launch'

@@ -1,0 +1,12 @@
+id = 'virtualgl'
+name = 'VirtualGL'
+
+homepage = 'https://virtualgl.org'
+
+[[package]]
+channel = 'arch'
+name = 'virtualgl'
+
+[[package]]
+channel = 'fedora'
+name = 'VirtualGL'

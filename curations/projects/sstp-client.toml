@@ -1,0 +1,21 @@
+id = 'sstp-client'
+name = 'sstp-client'
+
+homepage = 'http://sstp-client.sourceforge.net'
+repository = 'https://gitlab.com/sstp-project/sstp-client.git'
+
+[[package]]
+channel = 'arch'
+name = 'sstp-client'
+
+[[package]]
+channel = 'debian'
+name = 'sstp-client'
+
+[[package]]
+channel = 'fedora'
+name = 'sstp-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sstp-client'

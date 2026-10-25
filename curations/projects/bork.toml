@@ -1,0 +1,9 @@
+id = 'bork'
+name = 'bork'
+
+homepage = 'https://bork.sh'
+repository = 'https://github.com/borksh/bork.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bork'

@@ -1,0 +1,20 @@
+id = 'nextcloud'
+name = 'nextcloud'
+
+homepage = 'https://nextcloud.com'
+
+[[package]]
+channel = 'arch'
+name = 'nextcloud'
+
+[[package]]
+channel = 'arch'
+name = 'nextcloud-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nextcloud'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nextcloud-vfs'

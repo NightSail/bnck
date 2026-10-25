@@ -1,0 +1,8 @@
+id = 'rpld'
+name = 'rpld'
+
+homepage = 'http://gimel.esc.cam.ac.uk/james/rpld/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'rpld'

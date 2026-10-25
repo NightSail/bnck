@@ -1,0 +1,12 @@
+id = 'pgdbf'
+name = 'pgdbf'
+
+homepage = 'https://github.com/kstrauser/pgdbf'
+
+[[package]]
+channel = 'debian'
+name = 'pgdbf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgdbf'

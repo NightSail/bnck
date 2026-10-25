@@ -1,0 +1,8 @@
+id = 'gat'
+name = 'gat'
+
+repository = 'https://github.com/koki-develop/gat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gat'

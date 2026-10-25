@@ -1,0 +1,32 @@
+id = 'audit-userspace'
+name = 'audit-userspace'
+
+homepage = 'https://github.com/linux-audit/audit-userspace'
+
+[[package]]
+channel = 'arch'
+name = 'audispd-plugins'
+
+[[package]]
+channel = 'arch'
+name = 'audispd-plugins-zos'
+
+[[package]]
+channel = 'arch'
+name = 'audit'
+
+[[package]]
+channel = 'fedora'
+name = 'audispd-plugins'
+
+[[package]]
+channel = 'fedora'
+name = 'audispd-plugins-zos'
+
+[[package]]
+channel = 'fedora'
+name = 'audit'
+
+[[package]]
+channel = 'fedora'
+name = 'audit-rules'

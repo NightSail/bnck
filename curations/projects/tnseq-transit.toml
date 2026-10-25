@@ -1,0 +1,8 @@
+id = 'tnseq-transit'
+name = 'tnseq-transit'
+
+homepage = 'http://saclab.tamu.edu/essentiality/transit'
+
+[[package]]
+channel = 'debian'
+name = 'tnseq-transit'

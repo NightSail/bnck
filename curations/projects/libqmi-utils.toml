@@ -1,0 +1,8 @@
+id = 'libqmi-utils'
+name = 'libqmi-utils'
+
+homepage = 'http://freedesktop.org/software/libqmi'
+
+[[package]]
+channel = 'fedora'
+name = 'libqmi-utils'

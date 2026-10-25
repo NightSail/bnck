@@ -1,0 +1,8 @@
+id = 'jtidy'
+name = 'jtidy'
+
+homepage = 'http://jtidy.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'jtidy'

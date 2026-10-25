@@ -1,0 +1,8 @@
+id = 'python3-pycmd'
+name = 'python3-pycmd'
+
+homepage = 'https://pypi.python.org/pypi/pycmd'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pycmd'

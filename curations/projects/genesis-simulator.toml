@@ -1,0 +1,8 @@
+id = 'genesis-simulator'
+name = 'genesis-simulator'
+
+homepage = 'http://www.genesis-sim.org/GENESIS'
+
+[[package]]
+channel = 'fedora'
+name = 'genesis-simulator'

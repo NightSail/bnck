@@ -1,0 +1,8 @@
+id = 'maciasl'
+name = 'maciasl'
+
+homepage = 'https://github.com/acidanthera/MaciASL'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/maciasl'

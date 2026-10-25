@@ -1,0 +1,8 @@
+id = 'tangleguard-cli'
+name = 'tangleguard-cli'
+
+homepage = 'https://tangleguard.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/tangleguard-cli'

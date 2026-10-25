@@ -1,0 +1,8 @@
+id = 'ponyprog'
+name = 'ponyprog'
+
+homepage = 'https://github.com/lancos/ponyprog'
+
+[[package]]
+channel = 'debian'
+name = 'ponyprog'

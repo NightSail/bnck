@@ -1,0 +1,8 @@
+id = 'overmind'
+name = 'overmind'
+
+repository = 'https://github.com/DarthSim/overmind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/overmind'

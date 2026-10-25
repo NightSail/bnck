@@ -1,0 +1,12 @@
+id = 'amd-smi'
+name = 'amd-smi'
+
+homepage = 'https://github.com/ROCm/amdsmi'
+
+[[package]]
+channel = 'debian'
+name = 'amd-smi'
+
+[[package]]
+channel = 'fedora'
+name = 'amdsmi'

@@ -1,0 +1,8 @@
+id = 'mindthegap'
+name = 'mindthegap'
+
+homepage = 'https://github.com/GATB/MindTheGap'
+
+[[package]]
+channel = 'debian'
+name = 'mindthegap'

@@ -1,0 +1,9 @@
+id = 'numpy-numpy'
+name = 'numpy'
+
+homepage = 'https://www.numpy.org'
+repository = 'https://github.com/numpy/numpy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/numpy'

@@ -1,0 +1,8 @@
+id = 'python3-niaaml'
+name = 'python3-niaaml'
+
+homepage = 'https://github.com/firefly-cpp/NiaAML'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-niaaml'

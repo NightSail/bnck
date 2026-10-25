@@ -1,0 +1,8 @@
+id = 'webdeploy'
+name = 'webdeploy'
+
+homepage = 'https://github.com/danieljabailey/webdeploy'
+
+[[package]]
+channel = 'debian'
+name = 'webdeploy'

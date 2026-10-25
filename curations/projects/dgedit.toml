@@ -1,0 +1,8 @@
+id = 'dgedit'
+name = 'dgedit'
+
+homepage = 'https://drumgizmo.org/wiki/doku.php'
+
+[[package]]
+channel = 'arch'
+name = 'dgedit'

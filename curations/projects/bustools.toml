@@ -1,0 +1,8 @@
+id = 'bustools'
+name = 'bustools'
+
+homepage = 'https://bustools.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'bustools'

@@ -1,0 +1,12 @@
+id = 'codequery'
+name = 'codequery'
+
+homepage = 'https://ruben2020.github.io/codequery'
+
+[[package]]
+channel = 'debian'
+name = 'codequery'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codequery'

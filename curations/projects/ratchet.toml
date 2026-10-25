@@ -1,0 +1,8 @@
+id = 'ratchet'
+name = 'ratchet'
+
+repository = 'https://github.com/sethvargo/ratchet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ratchet'

@@ -1,0 +1,28 @@
+id = 'supercollider'
+name = 'supercollider'
+
+homepage = 'https://supercollider.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'supercollider'
+
+[[package]]
+channel = 'debian'
+name = 'supercollider-ide'
+
+[[package]]
+channel = 'debian'
+name = 'supercollider-language'
+
+[[package]]
+channel = 'debian'
+name = 'supercollider-server'
+
+[[package]]
+channel = 'debian'
+name = 'supercollider-supernova'
+
+[[package]]
+channel = 'fedora'
+name = 'supercollider'

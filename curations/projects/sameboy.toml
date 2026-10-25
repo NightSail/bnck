@@ -1,0 +1,16 @@
+id = 'sameboy'
+name = 'sameboy'
+
+homepage = 'https://github.com/LIJI32/SameBoy'
+
+[[package]]
+channel = 'debian'
+name = 'sameboy'
+
+[[package]]
+channel = 'fedora'
+name = 'sameboy'
+
+[[package]]
+channel = 'fedora'
+name = 'sameboy-thumbnailer'

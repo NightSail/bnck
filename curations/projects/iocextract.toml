@@ -1,0 +1,9 @@
+id = 'iocextract'
+name = 'iocextract'
+
+homepage = 'https://inquest.readthedocs.io/projects/iocextract/en/latest'
+repository = 'https://github.com/InQuest/iocextract.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iocextract'

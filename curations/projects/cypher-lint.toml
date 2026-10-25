@@ -1,0 +1,8 @@
+id = 'cypher-lint'
+name = 'cypher-lint'
+
+homepage = 'https://cleishm.github.io/libcypher-parser'
+
+[[package]]
+channel = 'debian'
+name = 'cypher-lint'

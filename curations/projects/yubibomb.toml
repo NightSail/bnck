@@ -1,0 +1,8 @@
+id = 'yubibomb'
+name = 'yubibomb'
+
+homepage = 'https://crates.io/crates/yubibomb'
+
+[[package]]
+channel = 'fedora'
+name = 'yubibomb'

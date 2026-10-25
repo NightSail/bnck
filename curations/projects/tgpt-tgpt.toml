@@ -1,0 +1,8 @@
+id = 'tgpt-tgpt'
+name = 'tgpt'
+
+homepage = 'https://tgpt.app'
+
+[[package]]
+channel = 'crates.io'
+name = 'tgpt'

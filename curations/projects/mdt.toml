@@ -1,0 +1,8 @@
+id = 'mdt'
+name = 'mdt'
+
+homepage = 'https://github.com/basilioss/mdt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdt'

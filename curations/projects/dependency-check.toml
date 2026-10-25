@@ -1,0 +1,9 @@
+id = 'dependency-check'
+name = 'dependency-check'
+
+homepage = 'https://owasp.org/www-project-dependency-check'
+repository = 'https://github.com/dependency-check/DependencyCheck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dependency-check'

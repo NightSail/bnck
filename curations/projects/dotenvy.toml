@@ -1,0 +1,8 @@
+id = 'dotenvy'
+name = 'dotenvy'
+
+homepage = 'https://crates.io/crates/dotenvy'
+
+[[package]]
+channel = 'fedora'
+name = 'dotenvy'

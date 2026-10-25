@@ -1,0 +1,16 @@
+id = 'unclutter-xfixes'
+name = 'unclutter-xfixes'
+
+homepage = 'https://github.com/Airblader/unclutter-xfixes'
+
+[[package]]
+channel = 'arch'
+name = 'unclutter'
+
+[[package]]
+channel = 'debian'
+name = 'unclutter-xfixes'
+
+[[package]]
+channel = 'fedora'
+name = 'unclutter-xfixes'

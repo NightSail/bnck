@@ -1,0 +1,6 @@
+id = 'tcpd'
+name = 'tcpd'
+
+[[package]]
+channel = 'debian'
+name = 'tcpd'

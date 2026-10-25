@@ -1,0 +1,13 @@
+id = 'brush'
+name = 'brush'
+
+homepage = 'https://brush.sh'
+repository = 'https://github.com/reubeno/brush.git'
+
+[[package]]
+channel = 'arch'
+name = 'brush'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brush'

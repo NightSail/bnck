@@ -1,0 +1,8 @@
+id = 'akonadi-calendar-tools'
+name = 'akonadi-calendar-tools'
+
+homepage = 'https://userbase.kde.org/Akonadi'
+
+[[package]]
+channel = 'fedora'
+name = 'akonadi-calendar-tools'

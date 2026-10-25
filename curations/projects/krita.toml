@@ -1,0 +1,16 @@
+id = 'krita'
+name = 'krita'
+
+homepage = 'https://krita.org'
+
+[[package]]
+channel = 'arch'
+name = 'krita'
+
+[[package]]
+channel = 'debian'
+name = 'krita'
+
+[[package]]
+channel = 'fedora'
+name = 'krita'

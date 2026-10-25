@@ -1,0 +1,8 @@
+id = 'keycloak'
+name = 'keycloak'
+
+homepage = 'https://www.keycloak.org'
+
+[[package]]
+channel = 'arch'
+name = 'keycloak'

@@ -1,0 +1,8 @@
+id = 'python3-patch-manager'
+name = 'python3-patch-manager'
+
+homepage = 'https://docs.u-boot.org/en/latest/develop/patman.html'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-patch-manager'

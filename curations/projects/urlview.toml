@@ -1,0 +1,16 @@
+id = 'urlview'
+name = 'urlview'
+
+homepage = 'https://packages.debian.org/sid/misc/urlview'
+
+[[package]]
+channel = 'debian'
+name = 'urlview'
+
+[[package]]
+channel = 'fedora'
+name = 'urlview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urlview'

@@ -1,0 +1,12 @@
+id = 'plantri'
+name = 'plantri'
+
+homepage = 'https://cs.anu.edu.au/~bdm/plantri'
+
+[[package]]
+channel = 'arch'
+name = 'plantri'
+
+[[package]]
+channel = 'fedora'
+name = 'plantri'

@@ -1,0 +1,8 @@
+id = 'mender-cli'
+name = 'mender-cli'
+
+homepage = 'https://github.com/mendersoftware/mender-cli'
+
+[[package]]
+channel = 'debian'
+name = 'mender-cli'

@@ -1,0 +1,8 @@
+id = 'openfasttrace'
+name = 'openfasttrace'
+
+homepage = 'https://github.com/itsallcode/openfasttrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openfasttrace'

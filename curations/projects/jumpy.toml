@@ -1,0 +1,8 @@
+id = 'jumpy'
+name = 'jumpy'
+
+homepage = 'https://fishfolk.org/games/jumpy'
+
+[[package]]
+channel = 'arch'
+name = 'jumpy'

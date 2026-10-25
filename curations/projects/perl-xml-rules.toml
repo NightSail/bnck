@@ -1,0 +1,8 @@
+id = 'perl-xml-rules'
+name = 'perl-XML-Rules'
+
+homepage = 'https://metacpan.org/release/XML-Rules'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-Rules'

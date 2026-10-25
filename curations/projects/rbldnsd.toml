@@ -1,0 +1,10 @@
+id = 'rbldnsd'
+name = 'rbldnsd'
+
+[[package]]
+channel = 'debian'
+name = 'rbldnsd'
+
+[[package]]
+channel = 'fedora'
+name = 'rbldnsd'

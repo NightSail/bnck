@@ -1,0 +1,44 @@
+id = 'net-snmp'
+name = 'net-snmp'
+
+homepage = 'https://net-snmp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libsnmp-dev'
+
+[[package]]
+channel = 'debian'
+name = 'snmp'
+
+[[package]]
+channel = 'debian'
+name = 'snmpd'
+
+[[package]]
+channel = 'debian'
+name = 'snmptrapd'
+
+[[package]]
+channel = 'debian'
+name = 'tkmib'
+
+[[package]]
+channel = 'fedora'
+name = 'net-snmp'
+
+[[package]]
+channel = 'fedora'
+name = 'net-snmp-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'net-snmp-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'net-snmp-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'net-snmp-utils'

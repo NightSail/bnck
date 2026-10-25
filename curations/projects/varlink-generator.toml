@@ -1,0 +1,8 @@
+id = 'varlink-generator'
+name = 'varlink_generator'
+
+homepage = 'https://crates.io/crates/varlink_generator'
+
+[[package]]
+channel = 'fedora'
+name = 'varlink_generator'

@@ -1,0 +1,12 @@
+id = 'brainfuck'
+name = 'brainfuck'
+
+homepage = 'http://hackage.haskell.org/package/brainfuck'
+
+[[package]]
+channel = 'debian'
+name = 'hsbrainfuck'
+
+[[package]]
+channel = 'fedora'
+name = 'brainfuck'

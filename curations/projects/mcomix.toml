@@ -1,0 +1,8 @@
+id = 'mcomix'
+name = 'mcomix'
+
+homepage = 'https://mcomix.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mcomix'

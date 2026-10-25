@@ -1,0 +1,12 @@
+id = 'fasd'
+name = 'fasd'
+
+homepage = 'https://github.com/whjvenyl/fasd'
+
+[[package]]
+channel = 'arch'
+name = 'fasd'
+
+[[package]]
+channel = 'debian'
+name = 'fasd'

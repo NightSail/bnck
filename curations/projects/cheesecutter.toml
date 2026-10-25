@@ -1,0 +1,8 @@
+id = 'cheesecutter'
+name = 'cheesecutter'
+
+homepage = 'http://theyamo.kapsi.fi/ccutter'
+
+[[package]]
+channel = 'debian'
+name = 'cheesecutter'

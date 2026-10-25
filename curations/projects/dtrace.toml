@@ -1,0 +1,12 @@
+id = 'dtrace'
+name = 'dtrace'
+
+homepage = 'https://github.com/oracle/dtrace'
+
+[[package]]
+channel = 'debian'
+name = 'dtrace'
+
+[[package]]
+channel = 'debian'
+name = 'libdtrace2'

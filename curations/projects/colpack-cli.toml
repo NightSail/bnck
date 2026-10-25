@@ -1,0 +1,8 @@
+id = 'colpack-cli'
+name = 'ColPack-cli'
+
+homepage = 'http://cscapes.cs.purdue.edu'
+
+[[package]]
+channel = 'fedora'
+name = 'ColPack-cli'

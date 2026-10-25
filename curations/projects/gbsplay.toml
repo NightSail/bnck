@@ -1,0 +1,8 @@
+id = 'gbsplay'
+name = 'gbsplay'
+
+homepage = 'https://github.com/mmitch/gbsplay'
+
+[[package]]
+channel = 'debian'
+name = 'gbsplay'

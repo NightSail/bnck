@@ -1,0 +1,12 @@
+id = 'osmosis'
+name = 'osmosis'
+
+homepage = 'https://wiki.openstreetmap.org/wiki/Osmosis'
+
+[[package]]
+channel = 'debian'
+name = 'osmosis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osmosis'

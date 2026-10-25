@@ -1,0 +1,8 @@
+id = 'node-escodegen'
+name = 'node-escodegen'
+
+homepage = 'https://github.com/estools/escodegen'
+
+[[package]]
+channel = 'debian'
+name = 'node-escodegen'

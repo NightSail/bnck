@@ -1,0 +1,8 @@
+id = 'tabixpp'
+name = 'tabixpp'
+
+homepage = 'https://github.com/vcflib/tabixpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tabixpp'

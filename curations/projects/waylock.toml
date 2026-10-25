@@ -1,0 +1,8 @@
+id = 'waylock'
+name = 'waylock'
+
+homepage = 'https://codeberg.org/ifreund/waylock'
+
+[[package]]
+channel = 'arch'
+name = 'waylock'

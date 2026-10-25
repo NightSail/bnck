@@ -1,0 +1,12 @@
+id = 'sn0int'
+name = 'sn0int'
+
+homepage = 'https://sn0int.readthedocs.io/en/stable'
+
+[[package]]
+channel = 'arch'
+name = 'sn0int'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sn0int'

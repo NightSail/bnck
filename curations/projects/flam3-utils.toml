@@ -1,0 +1,8 @@
+id = 'flam3-utils'
+name = 'flam3-utils'
+
+homepage = 'https://github.com/scottdraves/flam3'
+
+[[package]]
+channel = 'debian'
+name = 'flam3-utils'

@@ -1,0 +1,12 @@
+id = 'xjadeo'
+name = 'xjadeo'
+
+homepage = 'https://github.com/x42/xjadeo'
+
+[[package]]
+channel = 'arch'
+name = 'xjadeo'
+
+[[package]]
+channel = 'debian'
+name = 'xjadeo'

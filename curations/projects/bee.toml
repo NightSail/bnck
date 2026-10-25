@@ -1,0 +1,8 @@
+id = 'bee'
+name = 'bee'
+
+homepage = 'https://github.com/bluesoft/bee'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bee'

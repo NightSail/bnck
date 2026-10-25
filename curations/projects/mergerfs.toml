@@ -1,0 +1,8 @@
+id = 'mergerfs'
+name = 'mergerfs'
+
+homepage = 'https://github.com/trapexit/mergerfs'
+
+[[package]]
+channel = 'debian'
+name = 'mergerfs'

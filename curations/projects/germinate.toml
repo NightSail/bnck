@@ -1,0 +1,8 @@
+id = 'germinate'
+name = 'germinate'
+
+homepage = 'https://launchpad.net/germinate'
+
+[[package]]
+channel = 'debian'
+name = 'germinate'

@@ -1,0 +1,8 @@
+id = 'cylc-flow'
+name = 'cylc-flow'
+
+homepage = 'https://cylc.github.io/cylc'
+
+[[package]]
+channel = 'debian'
+name = 'cylc-flow'

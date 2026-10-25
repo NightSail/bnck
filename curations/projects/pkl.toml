@@ -1,0 +1,8 @@
+id = 'pkl'
+name = 'pkl'
+
+homepage = 'https://pkl-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkl'

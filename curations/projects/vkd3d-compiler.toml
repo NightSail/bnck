@@ -1,0 +1,8 @@
+id = 'vkd3d-compiler'
+name = 'vkd3d-compiler'
+
+homepage = 'https://source.winehq.org/git/vkd3d.git'
+
+[[package]]
+channel = 'fedora'
+name = 'vkd3d-compiler'

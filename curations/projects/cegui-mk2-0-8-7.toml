@@ -1,0 +1,8 @@
+id = 'cegui-mk2-0-8-7'
+name = 'cegui-mk2-0.8.7'
+
+homepage = 'https://www.cegui.org.uk'
+
+[[package]]
+channel = 'debian'
+name = 'cegui-mk2-0.8.7'

@@ -1,0 +1,12 @@
+id = 'mermaid-cli'
+name = 'mermaid-cli'
+
+homepage = 'https://github.com/mermaid-js/mermaid-cli'
+
+[[package]]
+channel = 'arch'
+name = 'mermaid-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mermaid-cli'

@@ -1,0 +1,8 @@
+id = 'getxbook'
+name = 'getxbook'
+
+homepage = 'https://njw.name/getxbook'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/getxbook'

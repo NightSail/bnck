@@ -6,3 +6,7 @@ homepage = 'https://github.com/dtrx-py/dtrx'
 [[package]]
 channel = 'debian'
 name = 'dtrx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtrx'

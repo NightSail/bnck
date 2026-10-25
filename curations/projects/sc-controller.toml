@@ -1,0 +1,12 @@
+id = 'sc-controller'
+name = 'sc-controller'
+
+homepage = 'https://github.com/C0rn3j/sc-controller'
+
+[[package]]
+channel = 'arch'
+name = 'sc-controller'
+
+[[package]]
+channel = 'debian'
+name = 'sc-controller'

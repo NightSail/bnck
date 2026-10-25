@@ -1,0 +1,9 @@
+id = 'quick-lint-js'
+name = 'quick-lint-js'
+
+homepage = 'https://quick-lint-js.com'
+repository = 'https://github.com/quick-lint/quick-lint-js.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quick-lint-js'

@@ -1,0 +1,41 @@
+id = 'pypy'
+name = 'pypy'
+
+homepage = 'https://pypy.org'
+repository = 'https://github.com/pypy/pypy.git'
+
+[[package]]
+channel = 'arch'
+name = 'pypy'
+
+[[package]]
+channel = 'arch'
+name = 'pypy3'
+
+[[package]]
+channel = 'debian'
+name = 'pypy3'
+
+[[package]]
+channel = 'fedora'
+name = 'pypy'
+
+[[package]]
+channel = 'fedora'
+name = 'pypy3.10'
+
+[[package]]
+channel = 'fedora'
+name = 'pypy3.11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pypy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pypy3.10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pypy3.11'

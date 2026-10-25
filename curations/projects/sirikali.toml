@@ -1,0 +1,12 @@
+id = 'sirikali'
+name = 'sirikali'
+
+homepage = 'https://mhogomchungu.github.io/sirikali'
+
+[[package]]
+channel = 'debian'
+name = 'sirikali'
+
+[[package]]
+channel = 'fedora'
+name = 'sirikali'

@@ -1,0 +1,8 @@
+id = 'winff-qt'
+name = 'winff-qt'
+
+homepage = 'https://github.com/WinFF/winff'
+
+[[package]]
+channel = 'debian'
+name = 'winff-qt'

@@ -1,0 +1,8 @@
+id = 'dd2'
+name = 'dd2'
+
+homepage = 'http://www.usebox.net/jjm/dd2'
+
+[[package]]
+channel = 'fedora'
+name = 'dd2'

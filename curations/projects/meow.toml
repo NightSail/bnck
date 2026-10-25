@@ -1,0 +1,8 @@
+id = 'meow'
+name = 'meow'
+
+homepage = 'https://github.com/PixelSergey/meow'
+
+[[package]]
+channel = 'debian'
+name = 'meow'

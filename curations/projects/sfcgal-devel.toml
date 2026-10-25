@@ -1,0 +1,8 @@
+id = 'sfcgal-devel'
+name = 'SFCGAL-devel'
+
+homepage = 'https://gitlab.com/Oslandia/SFCGAL'
+
+[[package]]
+channel = 'fedora'
+name = 'SFCGAL-devel'

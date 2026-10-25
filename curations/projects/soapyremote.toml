@@ -1,0 +1,16 @@
+id = 'soapyremote'
+name = 'soapyremote'
+
+homepage = 'https://github.com/pothosware/SoapyRemote/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'soapyremote'
+
+[[package]]
+channel = 'debian'
+name = 'soapyremote-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/soapyremote'

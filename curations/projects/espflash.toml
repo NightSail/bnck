@@ -1,0 +1,12 @@
+id = 'espflash'
+name = 'espflash'
+
+homepage = 'https://github.com/esp-rs/espflash'
+
+[[package]]
+channel = 'arch'
+name = 'espflash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/espflash'

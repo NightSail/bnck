@@ -1,0 +1,12 @@
+id = 'openfact'
+name = 'openfact'
+
+homepage = 'https://github.com/OpenVoxProject/openfact'
+
+[[package]]
+channel = 'arch'
+name = 'openfact'
+
+[[package]]
+channel = 'debian'
+name = 'openfact'

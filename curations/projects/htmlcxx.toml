@@ -1,0 +1,16 @@
+id = 'htmlcxx'
+name = 'htmlcxx'
+
+homepage = 'https://htmlcxx.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libhtmlcxx-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'htmlcxx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmlcxx'

@@ -1,0 +1,12 @@
+id = 'pfetch-rs'
+name = 'pfetch-rs'
+
+repository = 'https://github.com/Gobidev/pfetch-rs.git'
+
+[[package]]
+channel = 'arch'
+name = 'pfetch-rs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pfetch-rs'

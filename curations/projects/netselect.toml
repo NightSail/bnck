@@ -1,0 +1,12 @@
+id = 'netselect'
+name = 'netselect'
+
+homepage = 'http://github.com/apenwarr/netselect'
+
+[[package]]
+channel = 'debian'
+name = 'netselect'
+
+[[package]]
+channel = 'debian'
+name = 'netselect-apt'

@@ -1,0 +1,8 @@
+id = 'eventstat'
+name = 'eventstat'
+
+homepage = 'https://github.com/ColinIanKing/eventstat'
+
+[[package]]
+channel = 'debian'
+name = 'eventstat'

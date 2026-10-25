@@ -1,0 +1,40 @@
+id = 'selinux'
+name = 'selinux'
+
+homepage = 'https://github.com/SELinuxProject/selinux'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils-newrole'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils-python-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils-restorecond'
+
+[[package]]
+channel = 'fedora'
+name = 'policycoreutils-sandbox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libselinux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsepol'

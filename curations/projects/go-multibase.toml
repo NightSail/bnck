@@ -1,0 +1,12 @@
+id = 'go-multibase'
+name = 'go-multibase'
+
+homepage = 'https://github.com/multiformats/go-multibase'
+
+[[package]]
+channel = 'debian'
+name = 'multibase-conv'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-multiformats-multibase'

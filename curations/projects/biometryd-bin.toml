@@ -1,0 +1,8 @@
+id = 'biometryd-bin'
+name = 'biometryd-bin'
+
+homepage = 'https://gitlab.com/ubports/development/core/biometryd'
+
+[[package]]
+channel = 'debian'
+name = 'biometryd-bin'

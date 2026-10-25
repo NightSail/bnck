@@ -1,0 +1,16 @@
+id = 'python-lsp-server'
+name = 'python-lsp-server'
+
+homepage = 'https://github.com/python-lsp/python-lsp-server'
+
+[[package]]
+channel = 'arch'
+name = 'python-lsp-server'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pylsp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-lsp-server'

@@ -1,0 +1,12 @@
+id = 'mp3info'
+name = 'mp3info'
+
+homepage = 'https://www.ibiblio.org/mp3info'
+
+[[package]]
+channel = 'debian'
+name = 'mp3info'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3info'

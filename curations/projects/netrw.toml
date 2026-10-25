@@ -1,0 +1,8 @@
+id = 'netrw'
+name = 'netrw'
+
+homepage = 'https://web.archive.org/web/20231128100125/https://mamuti.net/netrw/index.en.html'
+
+[[package]]
+channel = 'debian'
+name = 'netrw'

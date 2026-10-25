@@ -1,0 +1,8 @@
+id = 'golang-github-valyala-fasthttp'
+name = 'golang-github-valyala-fasthttp'
+
+homepage = 'https://github.com/valyala/fasthttp'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-valyala-fasthttp'

@@ -1,0 +1,8 @@
+id = 'liwc'
+name = 'liwc'
+
+homepage = 'https://code.google.com/archive/p/liwc'
+
+[[package]]
+channel = 'debian'
+name = 'liwc'

@@ -1,0 +1,8 @@
+id = 'synthv1-standalone'
+name = 'synthv1-standalone'
+
+homepage = 'https://synthv1.sourceforge.io/synthv1-index.html'
+
+[[package]]
+channel = 'arch'
+name = 'synthv1-standalone'

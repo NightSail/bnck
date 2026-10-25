@@ -1,0 +1,12 @@
+id = 'gsoap'
+name = 'gsoap'
+
+homepage = 'https://www.genivia.com/products.html'
+
+[[package]]
+channel = 'arch'
+name = 'gsoap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gsoap'

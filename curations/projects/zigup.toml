@@ -1,0 +1,8 @@
+id = 'zigup'
+name = 'zigup'
+
+homepage = 'https://github.com/marler8997/zigup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zigup'

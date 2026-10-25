@@ -1,0 +1,8 @@
+id = 'pulsar'
+name = 'pulsar'
+
+homepage = 'https://pulsar-edit.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/pulsar'

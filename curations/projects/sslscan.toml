@@ -1,0 +1,20 @@
+id = 'sslscan'
+name = 'sslscan'
+
+repository = 'https://github.com/rbsec/sslscan.git'
+
+[[package]]
+channel = 'arch'
+name = 'sslscan'
+
+[[package]]
+channel = 'debian'
+name = 'sslscan'
+
+[[package]]
+channel = 'fedora'
+name = 'sslscan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sslscan'

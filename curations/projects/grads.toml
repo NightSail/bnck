@@ -1,0 +1,12 @@
+id = 'grads'
+name = 'grads'
+
+homepage = 'http://cola.gmu.edu/grads/grads.php'
+
+[[package]]
+channel = 'debian'
+name = 'libgadap-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/grads'

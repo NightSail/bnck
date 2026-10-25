@@ -1,0 +1,16 @@
+id = 'since'
+name = 'since'
+
+homepage = 'http://welz.org.za/projects/since'
+
+[[package]]
+channel = 'debian'
+name = 'since'
+
+[[package]]
+channel = 'fedora'
+name = 'since'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/since'

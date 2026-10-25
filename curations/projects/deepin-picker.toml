@@ -1,0 +1,16 @@
+id = 'deepin-picker'
+name = 'deepin-picker'
+
+homepage = 'https://github.com/linuxdeepin/deepin-picker'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-picker'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-picker'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-picker'

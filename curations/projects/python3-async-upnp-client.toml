@@ -1,0 +1,8 @@
+id = 'python3-async-upnp-client'
+name = 'python3-async-upnp-client'
+
+homepage = 'https://github.com/StevenLooman/async_upnp_client'
+
+[[package]]
+channel = 'debian'
+name = 'python3-async-upnp-client'

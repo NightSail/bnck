@@ -1,0 +1,8 @@
+id = 'pixelize'
+name = 'pixelize'
+
+homepage = 'https://github.com/jcdubois/pixelize'
+
+[[package]]
+channel = 'debian'
+name = 'pixelize'

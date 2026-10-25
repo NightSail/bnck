@@ -1,0 +1,8 @@
+id = 'python3-isort'
+name = 'python3-isort'
+
+homepage = 'https://github.com/timothycrosley/isort'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-isort'

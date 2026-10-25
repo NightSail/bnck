@@ -1,0 +1,12 @@
+id = 'acme-redirect'
+name = 'acme-redirect'
+
+homepage = 'https://github.com/kpcyrd/acme-redirect'
+
+[[package]]
+channel = 'arch'
+name = 'acme-redirect'
+
+[[package]]
+channel = 'debian'
+name = 'acme-redirect'

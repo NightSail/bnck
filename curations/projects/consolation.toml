@@ -1,0 +1,12 @@
+id = 'consolation'
+name = 'consolation'
+
+homepage = 'https://salsa.debian.org/consolation-team/consolation'
+
+[[package]]
+channel = 'debian'
+name = 'consolation'
+
+[[package]]
+channel = 'fedora'
+name = 'consolation'

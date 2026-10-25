@@ -1,0 +1,8 @@
+id = 'libvirt-daemon-driver-qemu'
+name = 'libvirt-daemon-driver-qemu'
+
+homepage = 'https://libvirt.org/drvqemu.html'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-daemon-driver-qemu'

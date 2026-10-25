@@ -1,0 +1,12 @@
+id = 'cpp-doc'
+name = 'CPP_DOC'
+
+homepage = 'https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-blast+'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-blast+-legacy'

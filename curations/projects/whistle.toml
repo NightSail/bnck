@@ -1,0 +1,8 @@
+id = 'whistle'
+name = 'whistle'
+
+homepage = 'https://wproxy.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whistle'

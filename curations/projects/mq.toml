@@ -4,9 +4,57 @@ name = 'mq'
 repository = 'https://github.com/harehare/mq'
 
 [[package]]
-channel = 'homebrew'
-name = 'homebrew/core/mq'
+channel = 'crates.io'
+name = 'mq-bench'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-check'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-crawler'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-docs'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-formatter'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-lint'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-lsp'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-mcp'
 
 [[package]]
 channel = 'crates.io'
 name = 'mq-run'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-task'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-test'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-update'
+
+[[package]]
+channel = 'crates.io'
+name = 'mq-web-api'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mq'

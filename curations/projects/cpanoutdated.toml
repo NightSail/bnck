@@ -1,0 +1,8 @@
+id = 'cpanoutdated'
+name = 'cpanoutdated'
+
+homepage = 'https://metacpan.org/release/cpan-outdated'
+
+[[package]]
+channel = 'debian'
+name = 'cpanoutdated'

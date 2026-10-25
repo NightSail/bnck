@@ -1,0 +1,16 @@
+id = 'mailman3'
+name = 'mailman3'
+
+homepage = 'https://www.list.org'
+
+[[package]]
+channel = 'arch'
+name = 'mailman3'
+
+[[package]]
+channel = 'debian'
+name = 'mailman3'
+
+[[package]]
+channel = 'fedora'
+name = 'mailman3'

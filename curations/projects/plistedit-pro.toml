@@ -1,0 +1,8 @@
+id = 'plistedit-pro'
+name = 'plistedit-pro'
+
+homepage = 'https://www.fatcatsoftware.com/plisteditpro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/plistedit-pro'

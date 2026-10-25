@@ -1,0 +1,8 @@
+id = 'pkgconf-pkgconf'
+name = 'pkgconf'
+
+homepage = 'https://github.com/pkgconf/pkgconf'
+
+[[package]]
+channel = 'arch'
+name = 'pkgconf'

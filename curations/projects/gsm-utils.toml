@@ -1,0 +1,8 @@
+id = 'gsm-utils'
+name = 'gsm-utils'
+
+homepage = 'https://github.com/vbouchaud/gsmlib'
+
+[[package]]
+channel = 'debian'
+name = 'gsm-utils'

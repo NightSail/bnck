@@ -1,0 +1,8 @@
+id = 'bottlerocket'
+name = 'bottlerocket'
+
+homepage = 'http://www.linuxha.com/bottlerocket'
+
+[[package]]
+channel = 'debian'
+name = 'bottlerocket'

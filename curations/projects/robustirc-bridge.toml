@@ -1,0 +1,8 @@
+id = 'robustirc-bridge'
+name = 'robustirc-bridge'
+
+homepage = 'http://robustirc.net'
+
+[[package]]
+channel = 'debian'
+name = 'robustirc-bridge'

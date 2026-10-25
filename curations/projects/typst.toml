@@ -1,0 +1,13 @@
+id = 'typst'
+name = 'typst'
+
+homepage = 'https://typst.app'
+repository = 'https://github.com/typst/typst.git'
+
+[[package]]
+channel = 'arch'
+name = 'typst'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typst'

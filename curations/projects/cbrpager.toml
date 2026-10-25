@@ -1,0 +1,8 @@
+id = 'cbrpager'
+name = 'cbrpager'
+
+homepage = 'http://www.jcoppens.com/soft/cbrpager/index.en.php'
+
+[[package]]
+channel = 'fedora'
+name = 'cbrpager'

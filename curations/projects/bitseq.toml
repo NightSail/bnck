@@ -1,0 +1,8 @@
+id = 'bitseq'
+name = 'bitseq'
+
+homepage = 'https://github.com/BitSeq/BitSeq'
+
+[[package]]
+channel = 'debian'
+name = 'bitseq'

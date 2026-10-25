@@ -1,0 +1,20 @@
+id = 'zchunk'
+name = 'zchunk'
+
+repository = 'https://github.com/zchunk/zchunk.git'
+
+[[package]]
+channel = 'arch'
+name = 'zchunk'
+
+[[package]]
+channel = 'debian'
+name = 'zchunk'
+
+[[package]]
+channel = 'fedora'
+name = 'zchunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zchunk'

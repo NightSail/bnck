@@ -1,0 +1,8 @@
+id = 'asahi-btsync'
+name = 'asahi-btsync'
+
+homepage = 'https://crates.io/crates/asahi-btsync'
+
+[[package]]
+channel = 'fedora'
+name = 'asahi-btsync'

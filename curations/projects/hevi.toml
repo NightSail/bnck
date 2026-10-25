@@ -1,0 +1,8 @@
+id = 'hevi'
+name = 'hevi'
+
+homepage = 'https://codeberg.org/arnauc/hevi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hevi'

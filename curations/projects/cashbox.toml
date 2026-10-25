@@ -1,0 +1,6 @@
+id = 'cashbox'
+name = 'cashbox'
+
+[[package]]
+channel = 'debian'
+name = 'cashbox'

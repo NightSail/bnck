@@ -1,0 +1,12 @@
+id = 'experience'
+name = 'experience'
+
+homepage = 'http://www.gnustep.org/experience/GWorkspace.html'
+
+[[package]]
+channel = 'debian'
+name = 'gworkspace.app'
+
+[[package]]
+channel = 'debian'
+name = 'mdfinder.app'

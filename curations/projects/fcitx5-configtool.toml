@@ -1,0 +1,28 @@
+id = 'fcitx5-configtool'
+name = 'fcitx5-configtool'
+
+homepage = 'https://github.com/fcitx/fcitx5-configtool'
+
+[[package]]
+channel = 'arch'
+name = 'fcitx5-configtool'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-config-qt'
+
+[[package]]
+channel = 'debian'
+name = 'kde-config-fcitx5'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-configtool'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-migrator'
+
+[[package]]
+channel = 'fedora'
+name = 'kcm-fcitx5'

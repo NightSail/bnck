@@ -1,0 +1,16 @@
+id = 'pdfarranger'
+name = 'pdfarranger'
+
+homepage = 'https://github.com/pdfarranger/pdfarranger'
+
+[[package]]
+channel = 'arch'
+name = 'pdfarranger'
+
+[[package]]
+channel = 'debian'
+name = 'pdfarranger'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfarranger'

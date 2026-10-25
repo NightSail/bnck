@@ -1,0 +1,8 @@
+id = 'xdiskusage'
+name = 'xdiskusage'
+
+homepage = 'http://xdiskusage.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xdiskusage'

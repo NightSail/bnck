@@ -1,0 +1,9 @@
+id = 'gauge'
+name = 'gauge'
+
+homepage = 'https://gauge.org'
+repository = 'https://github.com/getgauge/gauge.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gauge'

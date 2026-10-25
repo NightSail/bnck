@@ -1,0 +1,12 @@
+id = 'cargo-llvm-cov'
+name = 'cargo-llvm-cov'
+
+repository = 'https://github.com/taiki-e/cargo-llvm-cov.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-llvm-cov'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-llvm-cov'

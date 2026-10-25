@@ -1,0 +1,12 @@
+id = 'ccfits'
+name = 'ccfits'
+
+homepage = 'https://heasarc.gsfc.nasa.gov/docs/software/fitsio/CCfits'
+
+[[package]]
+channel = 'arch'
+name = 'ccfits'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccfits'

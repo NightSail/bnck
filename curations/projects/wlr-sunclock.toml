@@ -1,0 +1,12 @@
+id = 'wlr-sunclock'
+name = 'wlr-sunclock'
+
+homepage = 'https://github.com/sentriz/wlr-sunclock'
+
+[[package]]
+channel = 'arch'
+name = 'wlr-sunclock'
+
+[[package]]
+channel = 'fedora'
+name = 'wlr-sunclock'

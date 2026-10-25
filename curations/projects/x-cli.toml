@@ -1,0 +1,8 @@
+id = 'x-cli'
+name = 'x-cli'
+
+repository = 'https://github.com/sferik/x-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x-cli'

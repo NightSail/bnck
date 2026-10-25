@@ -1,0 +1,16 @@
+id = 'pinfo'
+name = 'pinfo'
+
+homepage = 'https://packages.debian.org/sid/pinfo'
+
+[[package]]
+channel = 'debian'
+name = 'pinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'pinfo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pinfo'

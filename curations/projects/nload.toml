@@ -1,0 +1,20 @@
+id = 'nload'
+name = 'nload'
+
+homepage = 'https://www.roland-riegel.de/nload'
+
+[[package]]
+channel = 'arch'
+name = 'nload'
+
+[[package]]
+channel = 'debian'
+name = 'nload'
+
+[[package]]
+channel = 'fedora'
+name = 'nload'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nload'

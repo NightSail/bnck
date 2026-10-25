@@ -1,0 +1,16 @@
+id = 'amavis'
+name = 'amavis'
+
+homepage = 'https://gitlab.com/amavis/amavis'
+
+[[package]]
+channel = 'arch'
+name = 'amavisd-new'
+
+[[package]]
+channel = 'fedora'
+name = 'amavis'
+
+[[package]]
+channel = 'fedora'
+name = 'amavis-snmp'

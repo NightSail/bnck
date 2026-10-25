@@ -1,0 +1,20 @@
+id = 'yaz'
+name = 'yaz'
+
+homepage = 'https://www.indexdata.com/resources/software/yaz'
+
+[[package]]
+channel = 'debian'
+name = 'libyaz-dev'
+
+[[package]]
+channel = 'debian'
+name = 'yaz'
+
+[[package]]
+channel = 'debian'
+name = 'yaz-icu'
+
+[[package]]
+channel = 'debian'
+name = 'yaz-illclient'

@@ -1,0 +1,16 @@
+id = 'strawberry'
+name = 'strawberry'
+
+homepage = 'https://www.strawberrymusicplayer.org'
+
+[[package]]
+channel = 'arch'
+name = 'strawberry'
+
+[[package]]
+channel = 'debian'
+name = 'strawberry'
+
+[[package]]
+channel = 'fedora'
+name = 'strawberry'

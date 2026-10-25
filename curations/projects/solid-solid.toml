@@ -1,0 +1,12 @@
+id = 'solid-solid'
+name = 'solid'
+
+homepage = 'https://solid.kde.org'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-solid'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-solid'

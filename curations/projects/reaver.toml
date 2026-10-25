@@ -1,0 +1,20 @@
+id = 'reaver'
+name = 'reaver'
+
+homepage = 'https://github.com/t6x/reaver-wps-fork-t6x'
+
+[[package]]
+channel = 'arch'
+name = 'reaver'
+
+[[package]]
+channel = 'debian'
+name = 'reaver'
+
+[[package]]
+channel = 'fedora'
+name = 'reaver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reaver'

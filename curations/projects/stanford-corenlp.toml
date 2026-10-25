@@ -1,0 +1,8 @@
+id = 'stanford-corenlp'
+name = 'stanford-corenlp'
+
+homepage = 'https://stanfordnlp.github.io/CoreNLP'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stanford-corenlp'

@@ -1,0 +1,16 @@
+id = 'tkrzw'
+name = 'tkrzw'
+
+homepage = 'https://dbmx.net/tkrzw'
+
+[[package]]
+channel = 'debian'
+name = 'tkrzw-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'tkrzw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tkrzw'

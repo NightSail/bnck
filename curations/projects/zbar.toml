@@ -1,0 +1,37 @@
+id = 'zbar'
+name = 'zbar'
+
+homepage = 'http://zbar.sourceforge.net'
+repository = 'https://github.com/mchehab/zbar.git'
+
+[[package]]
+channel = 'arch'
+name = 'zbar'
+
+[[package]]
+channel = 'debian'
+name = 'zbar-tools'
+
+[[package]]
+channel = 'debian'
+name = 'zbarcam-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'zbarcam-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'zbar'
+
+[[package]]
+channel = 'fedora'
+name = 'zbar-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'zbar-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zbar'

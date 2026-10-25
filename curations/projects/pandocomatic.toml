@@ -1,0 +1,8 @@
+id = 'pandocomatic'
+name = 'pandocomatic'
+
+homepage = 'https://heerdebeer.org/Software/markdown/pandocomatic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pandocomatic'

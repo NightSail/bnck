@@ -1,0 +1,8 @@
+id = 'qjdns-qt5-tools'
+name = 'qjdns-qt5-tools'
+
+homepage = 'https://github.com/psi-im/jdns'
+
+[[package]]
+channel = 'fedora'
+name = 'qjdns-qt5-tools'

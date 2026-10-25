@@ -1,0 +1,8 @@
+id = 'berusky2'
+name = 'berusky2'
+
+homepage = 'http://www.anakreon.cz/en/Berusky2.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'berusky2'

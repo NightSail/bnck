@@ -1,0 +1,8 @@
+id = 'karakeep'
+name = 'karakeep'
+
+homepage = 'https://karakeep.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/karakeep'

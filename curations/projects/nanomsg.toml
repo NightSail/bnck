@@ -1,0 +1,21 @@
+id = 'nanomsg'
+name = 'nanomsg'
+
+homepage = 'https://nanomsg.org'
+repository = 'https://github.com/nanomsg/nanomsg.git'
+
+[[package]]
+channel = 'arch'
+name = 'nanomsg'
+
+[[package]]
+channel = 'debian'
+name = 'nanomsg-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'nanomsg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nanomsg'

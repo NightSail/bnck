@@ -1,0 +1,6 @@
+id = 'viewpdf-app'
+name = 'viewpdf.app'
+
+[[package]]
+channel = 'debian'
+name = 'viewpdf.app'

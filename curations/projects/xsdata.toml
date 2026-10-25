@@ -1,0 +1,8 @@
+id = 'xsdata'
+name = 'xsdata'
+
+homepage = 'https://github.com/tefra/xsdata'
+
+[[package]]
+channel = 'debian'
+name = 'xsdata'

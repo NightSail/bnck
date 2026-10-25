@@ -1,0 +1,8 @@
+id = 'uprightdiff'
+name = 'uprightdiff'
+
+homepage = 'https://www.mediawiki.org/wiki/Uprightdiff'
+
+[[package]]
+channel = 'debian'
+name = 'uprightdiff'

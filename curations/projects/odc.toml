@@ -1,0 +1,8 @@
+id = 'odc'
+name = 'odc'
+
+homepage = 'https://github.com/ecmwf/odc'
+
+[[package]]
+channel = 'debian'
+name = 'odc'

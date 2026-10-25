@@ -1,0 +1,24 @@
+id = 'oxygen'
+name = 'oxygen'
+
+homepage = 'https://invent.kde.org/plasma/oxygen'
+
+[[package]]
+channel = 'debian'
+name = 'kde-style-oxygen-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'kde-style-oxygen-qt6'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-oxygen'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-oxygen-qt5'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-oxygen-qt6'

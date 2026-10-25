@@ -1,0 +1,8 @@
+id = 'python3-aioharmony'
+name = 'python3-aioharmony'
+
+homepage = 'https://github.com/ehendrix23/aioharmony'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aioharmony'

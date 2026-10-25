@@ -1,0 +1,12 @@
+id = 'ukui-search'
+name = 'ukui-search'
+
+homepage = 'https://gitee.com/openkylin/ukui-search.git'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-search'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-search-service'

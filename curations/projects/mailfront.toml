@@ -1,0 +1,6 @@
+id = 'mailfront'
+name = 'mailfront'
+
+[[package]]
+channel = 'debian'
+name = 'mailfront'

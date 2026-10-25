@@ -1,0 +1,12 @@
+id = 'sevmgr'
+name = 'sevmgr'
+
+homepage = 'https://github.com/airsim/sevmgr'
+
+[[package]]
+channel = 'fedora'
+name = 'sevmgr'
+
+[[package]]
+channel = 'fedora'
+name = 'sevmgr-devel'

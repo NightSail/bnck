@@ -1,0 +1,8 @@
+id = 'playwright-mcp'
+name = 'playwright-mcp'
+
+homepage = 'https://github.com/microsoft/playwright-mcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/playwright-mcp'

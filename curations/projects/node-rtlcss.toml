@@ -1,0 +1,8 @@
+id = 'node-rtlcss'
+name = 'node-rtlcss'
+
+homepage = 'https://rtlcss.com'
+
+[[package]]
+channel = 'debian'
+name = 'node-rtlcss'

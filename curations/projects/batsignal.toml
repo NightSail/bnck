@@ -1,0 +1,8 @@
+id = 'batsignal'
+name = 'batsignal'
+
+homepage = 'https://github.com/electrickite/batsignal'
+
+[[package]]
+channel = 'arch'
+name = 'batsignal'

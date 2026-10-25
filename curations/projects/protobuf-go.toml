@@ -1,0 +1,12 @@
+id = 'protobuf-go'
+name = 'protobuf-go'
+
+homepage = 'https://github.com/protocolbuffers/protobuf-go'
+
+[[package]]
+channel = 'debian'
+name = 'protoc-gen-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-google-protobuf'

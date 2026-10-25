@@ -1,0 +1,8 @@
+id = 'qarma'
+name = 'qarma'
+
+homepage = 'https://github.com/luebking/qarma'
+
+[[package]]
+channel = 'fedora'
+name = 'qarma'

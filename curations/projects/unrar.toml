@@ -1,0 +1,8 @@
+id = 'unrar'
+name = 'unrar'
+
+homepage = 'https://www.rarlab.com/rar_add.htm'
+
+[[package]]
+channel = 'arch'
+name = 'unrar'

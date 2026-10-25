@@ -1,0 +1,20 @@
+id = 'wget2'
+name = 'wget2'
+
+homepage = 'https://gitlab.com/gnuwget/wget2'
+
+[[package]]
+channel = 'debian'
+name = 'wget2'
+
+[[package]]
+channel = 'fedora'
+name = 'wget2'
+
+[[package]]
+channel = 'fedora'
+name = 'wget2-wget'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wget2'

@@ -1,0 +1,8 @@
+id = 'sylph'
+name = 'sylph'
+
+homepage = 'https://github.com/bluenote-1577/sylph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sylph'

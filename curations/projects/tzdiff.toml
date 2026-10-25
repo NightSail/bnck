@@ -1,0 +1,12 @@
+id = 'tzdiff'
+name = 'tzdiff'
+
+homepage = 'https://github.com/belgianbeer/tzdiff'
+
+[[package]]
+channel = 'debian'
+name = 'tzdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tzdiff'

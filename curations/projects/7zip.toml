@@ -1,0 +1,32 @@
+id = '7zip'
+name = '7zip'
+
+homepage = 'https://www.7-zip.org'
+
+[[package]]
+channel = 'arch'
+name = '7zip'
+
+[[package]]
+channel = 'debian'
+name = '7zip'
+
+[[package]]
+channel = 'debian'
+name = '7zip-standalone'
+
+[[package]]
+channel = 'fedora'
+name = '7zip'
+
+[[package]]
+channel = 'fedora'
+name = '7zip-reduced'
+
+[[package]]
+channel = 'fedora'
+name = '7zip-standalone'
+
+[[package]]
+channel = 'fedora'
+name = '7zip-standalone-all'

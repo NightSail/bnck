@@ -1,0 +1,8 @@
+id = 'jtb'
+name = 'jtb'
+
+homepage = 'http://eclipse-javacc.sourceforge.net/jtb_doc.html'
+
+[[package]]
+channel = 'debian'
+name = 'jtb'

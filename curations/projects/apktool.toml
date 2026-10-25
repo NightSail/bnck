@@ -6,3 +6,7 @@ homepage = 'https://ibotpeaches.github.io/Apktool'
 [[package]]
 channel = 'debian'
 name = 'apktool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apktool'

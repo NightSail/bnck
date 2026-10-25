@@ -1,0 +1,8 @@
+id = 'tpix'
+name = 'tpix'
+
+repository = 'https://github.com/jesvedberg/tpix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tpix'

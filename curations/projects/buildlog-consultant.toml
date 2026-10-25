@@ -1,0 +1,12 @@
+id = 'buildlog-consultant'
+name = 'buildlog-consultant'
+
+homepage = 'https://github.com/jelmer/buildlog-consultant'
+
+[[package]]
+channel = 'debian'
+name = 'buildlog-consultant'
+
+[[package]]
+channel = 'debian'
+name = 'python3-buildlog-consultant'

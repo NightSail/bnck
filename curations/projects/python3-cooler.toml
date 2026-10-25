@@ -1,0 +1,8 @@
+id = 'python3-cooler'
+name = 'python3-cooler'
+
+homepage = 'https://github.com/mirnylab/cooler'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cooler'

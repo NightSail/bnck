@@ -1,0 +1,8 @@
+id = 'ocaml-dune'
+name = 'ocaml-dune'
+
+homepage = 'https://dune.build'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-dune'

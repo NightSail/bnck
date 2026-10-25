@@ -1,0 +1,16 @@
+id = 'bowtie2'
+name = 'bowtie2'
+
+homepage = 'http://bowtie-bio.sourceforge.net/bowtie2/index.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'bowtie2'
+
+[[package]]
+channel = 'fedora'
+name = 'bowtie2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bowtie2'

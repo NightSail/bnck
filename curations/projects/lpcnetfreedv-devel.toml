@@ -1,0 +1,8 @@
+id = 'lpcnetfreedv-devel'
+name = 'lpcnetfreedv-devel'
+
+homepage = 'https://github.com/drowe67/LPCNet'
+
+[[package]]
+channel = 'fedora'
+name = 'lpcnetfreedv-devel'

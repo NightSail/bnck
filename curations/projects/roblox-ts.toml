@@ -1,0 +1,8 @@
+id = 'roblox-ts'
+name = 'roblox-ts'
+
+homepage = 'https://roblox-ts.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/roblox-ts'

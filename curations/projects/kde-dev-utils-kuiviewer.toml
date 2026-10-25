@@ -1,0 +1,8 @@
+id = 'kde-dev-utils-kuiviewer'
+name = 'kde-dev-utils'
+
+homepage = 'https://apps.kde.org/kuiviewer'
+
+[[package]]
+channel = 'arch'
+name = 'kde-dev-utils'

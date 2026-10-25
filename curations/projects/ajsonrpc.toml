@@ -1,0 +1,16 @@
+id = 'ajsonrpc'
+name = 'ajsonrpc'
+
+homepage = 'https://github.com/pavlov99/ajsonrpc'
+
+[[package]]
+channel = 'arch'
+name = 'python-ajsonrpc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ajsonrpc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ajsonrpc'

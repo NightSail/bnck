@@ -1,0 +1,16 @@
+id = 'liblockfile'
+name = 'liblockfile'
+
+homepage = 'https://tracker.debian.org/pkg/liblockfile'
+
+[[package]]
+channel = 'arch'
+name = 'liblockfile'
+
+[[package]]
+channel = 'fedora'
+name = 'liblockfile'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liblockfile'

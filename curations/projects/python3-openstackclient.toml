@@ -1,0 +1,12 @@
+id = 'python3-openstackclient'
+name = 'python3-openstackclient'
+
+homepage = 'http://wiki.openstack.org/OpenStackClient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-openstackclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openstackclient'

@@ -1,0 +1,16 @@
+id = 'python-semver'
+name = 'python-semver'
+
+homepage = 'https://github.com/python-semver/python-semver'
+
+[[package]]
+channel = 'arch'
+name = 'python-semver'
+
+[[package]]
+channel = 'debian'
+name = 'python3-semver'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-semver'

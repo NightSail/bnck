@@ -1,0 +1,8 @@
+id = 'ascii-draw'
+name = 'ascii-draw'
+
+homepage = 'https://github.com/Nokse22/ascii-draw'
+
+[[package]]
+channel = 'debian'
+name = 'ascii-draw'

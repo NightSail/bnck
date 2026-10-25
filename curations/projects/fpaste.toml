@@ -1,0 +1,8 @@
+id = 'fpaste'
+name = 'fpaste'
+
+homepage = 'https://pagure.io/fpaste'
+
+[[package]]
+channel = 'fedora'
+name = 'fpaste'

@@ -1,0 +1,8 @@
+id = 'lux-cli'
+name = 'lux-cli'
+
+homepage = 'https://lux.lumen-labs.org'
+
+[[package]]
+channel = 'arch'
+name = 'lux-cli'

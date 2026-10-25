@@ -1,0 +1,9 @@
+id = 'opencbm'
+name = 'opencbm'
+
+homepage = 'https://spiro.trikaliotis.net/opencbm'
+repository = 'https://github.com/OpenCBM/OpenCBM.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencbm'

@@ -1,0 +1,8 @@
+id = 'typobuster'
+name = 'typobuster'
+
+homepage = 'https://github.com/nwg-piotr/typobuster'
+
+[[package]]
+channel = 'arch'
+name = 'typobuster'

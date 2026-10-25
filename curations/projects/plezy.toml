@@ -1,0 +1,8 @@
+id = 'plezy'
+name = 'plezy'
+
+homepage = 'https://plezy.app'
+
+[[package]]
+channel = 'arch'
+name = 'plezy'

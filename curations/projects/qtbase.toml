@@ -1,0 +1,9 @@
+id = 'qtbase'
+name = 'qtbase'
+
+homepage = 'https://www.qt.io'
+repository = 'https://code.qt.io/qt/qtbase.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qtbase'

@@ -1,0 +1,16 @@
+id = 'mltframework'
+name = 'mltframework'
+
+homepage = 'https://www.mltframework.org'
+
+[[package]]
+channel = 'arch'
+name = 'mlt'
+
+[[package]]
+channel = 'debian'
+name = 'melt'
+
+[[package]]
+channel = 'fedora'
+name = 'mlt'

@@ -1,0 +1,8 @@
+id = 'libjson-rpc-cpp'
+name = 'libjson-rpc-cpp'
+
+repository = 'https://github.com/cinemast/libjson-rpc-cpp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libjson-rpc-cpp'

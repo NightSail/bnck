@@ -1,0 +1,12 @@
+id = 'thorvg'
+name = 'thorvg'
+
+homepage = 'https://www.thorvg.org'
+
+[[package]]
+channel = 'debian'
+name = 'thorvg-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'thorvg'

@@ -1,0 +1,16 @@
+id = 'ytmusicapi'
+name = 'ytmusicapi'
+
+homepage = 'https://github.com/sigma67/ytmusicapi'
+
+[[package]]
+channel = 'arch'
+name = 'python-ytmusicapi'
+
+[[package]]
+channel = 'debian'
+name = 'ytmusicapi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ytmusicapi'

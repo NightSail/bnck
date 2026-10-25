@@ -1,0 +1,8 @@
+id = 'mediawiki2latexguipyqt'
+name = 'mediawiki2latexguipyqt'
+
+homepage = 'https://sourceforge.net/projects/mediawiki2latexguipyqt'
+
+[[package]]
+channel = 'debian'
+name = 'mediawiki2latexguipyqt'

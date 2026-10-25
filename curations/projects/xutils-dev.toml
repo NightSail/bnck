@@ -1,0 +1,6 @@
+id = 'xutils-dev'
+name = 'xutils-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xutils-dev'

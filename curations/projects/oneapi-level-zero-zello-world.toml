@@ -1,0 +1,8 @@
+id = 'oneapi-level-zero-zello-world'
+name = 'oneapi-level-zero-zello_world'
+
+homepage = 'https://github.com/oneapi-src/level-zero'
+
+[[package]]
+channel = 'fedora'
+name = 'oneapi-level-zero-zello_world'

@@ -1,0 +1,8 @@
+id = 'python-mss'
+name = 'python-mss'
+
+homepage = 'https://github.com/BoboTiG/python-mss'
+
+[[package]]
+channel = 'arch'
+name = 'python-mss'

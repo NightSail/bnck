@@ -1,0 +1,17 @@
+id = 'rnp'
+name = 'rnp'
+
+homepage = 'https://www.rnpgp.com/software/rnp'
+repository = 'https://github.com/rnpgp/rnp.git'
+
+[[package]]
+channel = 'debian'
+name = 'rnp'
+
+[[package]]
+channel = 'fedora'
+name = 'rnp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rnp'

@@ -1,0 +1,8 @@
+id = 'ticker'
+name = 'ticker'
+
+homepage = 'http://kitenet.net/~joey/code/ticker'
+
+[[package]]
+channel = 'debian'
+name = 'ticker'

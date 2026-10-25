@@ -1,0 +1,12 @@
+id = 'peek'
+name = 'peek'
+
+homepage = 'https://github.com/phw/peek'
+
+[[package]]
+channel = 'arch'
+name = 'peek'
+
+[[package]]
+channel = 'debian'
+name = 'peek'

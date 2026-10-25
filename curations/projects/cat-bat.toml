@@ -1,0 +1,8 @@
+id = 'cat-bat'
+name = 'cat-bat'
+
+homepage = 'https://github.com/dutilh/CAT'
+
+[[package]]
+channel = 'debian'
+name = 'cat-bat'

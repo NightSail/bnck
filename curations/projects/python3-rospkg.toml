@@ -1,0 +1,12 @@
+id = 'python3-rospkg'
+name = 'python3-rospkg'
+
+homepage = 'https://wiki.ros.org/rospkg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rospkg'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rospkg'

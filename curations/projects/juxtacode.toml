@@ -1,0 +1,8 @@
+id = 'juxtacode'
+name = 'juxtacode'
+
+homepage = 'https://juxtacode.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/juxtacode'

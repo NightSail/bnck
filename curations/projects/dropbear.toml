@@ -1,0 +1,25 @@
+id = 'dropbear'
+name = 'dropbear'
+
+homepage = 'https://matt.ucc.asn.au/dropbear/dropbear.html'
+repository = 'https://github.com/mkj/dropbear.git'
+
+[[package]]
+channel = 'arch'
+name = 'dropbear'
+
+[[package]]
+channel = 'arch'
+name = 'dropbear-scp'
+
+[[package]]
+channel = 'debian'
+name = 'dropbear-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'dropbear'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dropbear'

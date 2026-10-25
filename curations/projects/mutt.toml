@@ -1,0 +1,21 @@
+id = 'mutt'
+name = 'mutt'
+
+homepage = 'http://www.mutt.org'
+repository = 'https://gitlab.com/muttmua/mutt.git'
+
+[[package]]
+channel = 'arch'
+name = 'mutt'
+
+[[package]]
+channel = 'debian'
+name = 'mutt'
+
+[[package]]
+channel = 'fedora'
+name = 'mutt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mutt'

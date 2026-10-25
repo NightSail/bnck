@@ -1,0 +1,12 @@
+id = 'patool'
+name = 'patool'
+
+homepage = 'https://wummel.github.io/patool'
+
+[[package]]
+channel = 'debian'
+name = 'patool'
+
+[[package]]
+channel = 'fedora'
+name = 'patool'

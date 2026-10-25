@@ -1,0 +1,24 @@
+id = 'nss-pam-ldapd'
+name = 'nss-pam-ldapd'
+
+homepage = 'https://arthurdejong.org/nss-pam-ldapd'
+
+[[package]]
+channel = 'arch'
+name = 'nss-pam-ldapd'
+
+[[package]]
+channel = 'debian'
+name = 'nslcd'
+
+[[package]]
+channel = 'debian'
+name = 'nslcd-utils'
+
+[[package]]
+channel = 'debian'
+name = 'pynslcd'
+
+[[package]]
+channel = 'fedora'
+name = 'nss-pam-ldapd'

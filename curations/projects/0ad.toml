@@ -1,0 +1,12 @@
+id = '0ad'
+name = '0ad'
+
+homepage = 'http://play0ad.com'
+
+[[package]]
+channel = 'arch'
+name = '0ad'
+
+[[package]]
+channel = 'fedora'
+name = '0ad'

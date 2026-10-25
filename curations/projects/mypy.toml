@@ -1,0 +1,17 @@
+id = 'mypy'
+name = 'mypy'
+
+homepage = 'http://www.mypy-lang.org'
+repository = 'https://github.com/python/mypy.git'
+
+[[package]]
+channel = 'arch'
+name = 'mypy'
+
+[[package]]
+channel = 'debian'
+name = 'mypy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mypy'

@@ -1,0 +1,8 @@
+id = 'maclaunch'
+name = 'maclaunch'
+
+homepage = 'https://github.com/hazcod/maclaunch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/maclaunch'

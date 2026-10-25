@@ -1,0 +1,8 @@
+id = 'rnv'
+name = 'rnv'
+
+homepage = 'https://sourceforge.net/projects/rnv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rnv'

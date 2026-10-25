@@ -1,0 +1,8 @@
+id = 'driftctl'
+name = 'driftctl'
+
+repository = 'https://github.com/snyk/driftctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/driftctl'

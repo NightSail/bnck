@@ -1,0 +1,8 @@
+id = 'mako-notifier'
+name = 'mako-notifier'
+
+homepage = 'https://wayland.emersion.fr/mako'
+
+[[package]]
+channel = 'debian'
+name = 'mako-notifier'

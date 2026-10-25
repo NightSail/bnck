@@ -1,0 +1,9 @@
+id = 'pyinvoke'
+name = 'pyinvoke'
+
+homepage = 'https://www.pyinvoke.org'
+repository = 'https://github.com/pyinvoke/invoke.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyinvoke'

@@ -1,0 +1,12 @@
+id = 'shtab'
+name = 'shtab'
+
+homepage = 'https://github.com/iterative/shtab'
+
+[[package]]
+channel = 'arch'
+name = 'python-shtab'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-shtab'

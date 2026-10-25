@@ -1,0 +1,8 @@
+id = 'prometheus-mongodb-exporter'
+name = 'prometheus-mongodb-exporter'
+
+homepage = 'https://github.com/dcu/mongodb_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-mongodb-exporter'

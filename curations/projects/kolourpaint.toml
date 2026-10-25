@@ -1,0 +1,16 @@
+id = 'kolourpaint'
+name = 'kolourpaint'
+
+homepage = 'https://apps.kde.org/kolourpaint'
+
+[[package]]
+channel = 'arch'
+name = 'kolourpaint'
+
+[[package]]
+channel = 'debian'
+name = 'kolourpaint'
+
+[[package]]
+channel = 'fedora'
+name = 'kolourpaint'

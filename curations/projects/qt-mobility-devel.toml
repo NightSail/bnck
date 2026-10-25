@@ -1,0 +1,8 @@
+id = 'qt-mobility-devel'
+name = 'qt-mobility-devel'
+
+homepage = 'https://code.qt.io/cgit/qt-mobility/qt-mobility.git'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-mobility-devel'

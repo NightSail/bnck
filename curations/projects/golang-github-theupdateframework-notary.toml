@@ -1,0 +1,8 @@
+id = 'golang-github-theupdateframework-notary'
+name = 'golang-github-theupdateframework-notary'
+
+homepage = 'https://github.com/theupdateframework/notary'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-theupdateframework-notary'

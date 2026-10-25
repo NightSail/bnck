@@ -1,0 +1,16 @@
+id = 'dragonplayer'
+name = 'dragonplayer'
+
+homepage = 'https://apps.kde.org/dragonplayer'
+
+[[package]]
+channel = 'arch'
+name = 'dragon'
+
+[[package]]
+channel = 'debian'
+name = 'dragonplayer'
+
+[[package]]
+channel = 'fedora'
+name = 'dragon'

@@ -1,0 +1,20 @@
+id = 'squeezelite'
+name = 'squeezelite'
+
+homepage = 'https://github.com/ralph-irving/squeezelite'
+
+[[package]]
+channel = 'debian'
+name = 'squeezelite'
+
+[[package]]
+channel = 'debian'
+name = 'squeezelite-pa'
+
+[[package]]
+channel = 'debian'
+name = 'squeezelite-pulseaudio'
+
+[[package]]
+channel = 'fedora'
+name = 'squeezelite'

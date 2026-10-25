@@ -1,0 +1,13 @@
+id = 'dasel'
+name = 'dasel'
+
+homepage = 'https://daseldocs.tomwright.me'
+repository = 'https://github.com/TomWright/dasel.git'
+
+[[package]]
+channel = 'debian'
+name = 'dasel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dasel'

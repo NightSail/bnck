@@ -1,0 +1,8 @@
+id = 'hl-twe4ked'
+name = 'hl'
+
+repository = 'https://github.com/twe4ked/hl'
+
+[[package]]
+channel = 'crates.io'
+name = 'hl'

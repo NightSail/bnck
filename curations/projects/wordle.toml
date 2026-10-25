@@ -1,0 +1,9 @@
+id = 'wordle'
+name = 'wordle'
+
+homepage = 'https://git.hanabi.in/wordle-cli'
+repository = 'https://git.hanabi.in/repos/wordle-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wordle'

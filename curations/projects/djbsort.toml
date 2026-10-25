@@ -1,0 +1,8 @@
+id = 'djbsort'
+name = 'djbsort'
+
+homepage = 'https://sorting.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'djbsort'

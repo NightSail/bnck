@@ -1,0 +1,24 @@
+id = 'sudo'
+name = 'sudo'
+
+homepage = 'https://www.sudo.ws/sudo'
+
+[[package]]
+channel = 'arch'
+name = 'sudo'
+
+[[package]]
+channel = 'debian'
+name = 'sudo'
+
+[[package]]
+channel = 'debian'
+name = 'sudo-ldap'
+
+[[package]]
+channel = 'fedora'
+name = 'sudo'
+
+[[package]]
+channel = 'fedora'
+name = 'sudo-logsrvd'

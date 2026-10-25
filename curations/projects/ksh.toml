@@ -1,0 +1,12 @@
+id = 'ksh'
+name = 'ksh'
+
+homepage = 'http://kornshell.org'
+
+[[package]]
+channel = 'arch'
+name = 'ksh'
+
+[[package]]
+channel = 'fedora'
+name = 'ksh'

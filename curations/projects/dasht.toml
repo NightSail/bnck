@@ -1,0 +1,8 @@
+id = 'dasht'
+name = 'dasht'
+
+homepage = 'https://sunaku.github.io/dasht'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dasht'

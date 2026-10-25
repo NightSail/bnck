@@ -1,0 +1,8 @@
+id = 'ocaml-odoc'
+name = 'ocaml-odoc'
+
+homepage = 'https://github.com/ocaml/odoc'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-odoc'

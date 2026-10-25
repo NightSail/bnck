@@ -1,0 +1,9 @@
+id = 'comtrya'
+name = 'comtrya'
+
+homepage = 'https://comtrya.dev'
+repository = 'https://github.com/comtrya/comtrya.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/comtrya'

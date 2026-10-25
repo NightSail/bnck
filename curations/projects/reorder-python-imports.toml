@@ -1,0 +1,8 @@
+id = 'reorder-python-imports'
+name = 'reorder-python-imports'
+
+repository = 'https://github.com/asottile/reorder-python-imports.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reorder-python-imports'

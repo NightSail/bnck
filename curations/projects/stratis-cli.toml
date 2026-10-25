@@ -1,0 +1,8 @@
+id = 'stratis-cli'
+name = 'stratis-cli'
+
+homepage = 'https://github.com/stratis-storage/stratis-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'stratis-cli'

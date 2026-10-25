@@ -1,0 +1,8 @@
+id = 'fakesteak'
+name = 'fakesteak'
+
+homepage = 'https://github.com/domsson/fakesteak'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fakesteak'

@@ -1,0 +1,12 @@
+id = 'soft-serve'
+name = 'soft-serve'
+
+repository = 'https://github.com/charmbracelet/soft-serve.git'
+
+[[package]]
+channel = 'arch'
+name = 'soft-serve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/soft-serve'

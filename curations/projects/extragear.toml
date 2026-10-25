@@ -1,0 +1,12 @@
+id = 'extragear'
+name = 'extragear'
+
+homepage = 'http://extragear.kde.org'
+
+[[package]]
+channel = 'fedora'
+name = 'kgrab'
+
+[[package]]
+channel = 'fedora'
+name = 'ksig'

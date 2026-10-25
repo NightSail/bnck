@@ -1,0 +1,8 @@
+id = 'vsview'
+name = 'vsview'
+
+homepage = 'https://jaded-encoding-thaumaturgy.github.io/vs-view'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vsview'

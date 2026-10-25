@@ -1,0 +1,10 @@
+id = 'cantata'
+name = 'cantata'
+
+[[package]]
+channel = 'debian'
+name = 'cantata'
+
+[[package]]
+channel = 'fedora'
+name = 'cantata'

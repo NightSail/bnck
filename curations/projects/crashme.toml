@@ -1,0 +1,8 @@
+id = 'crashme'
+name = 'crashme'
+
+homepage = 'https://people.delphiforums.com/gjc/crashme.html'
+
+[[package]]
+channel = 'debian'
+name = 'crashme'

@@ -1,0 +1,8 @@
+id = 'python3-freebox-api'
+name = 'python3-freebox-api'
+
+homepage = 'https://github.com/hacf-fr/freebox-api'
+
+[[package]]
+channel = 'debian'
+name = 'python3-freebox-api'

@@ -1,0 +1,8 @@
+id = 'splash'
+name = 'splash'
+
+homepage = 'https://github.com/danieljprice/splash'
+
+[[package]]
+channel = 'debian'
+name = 'splash'

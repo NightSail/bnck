@@ -1,0 +1,12 @@
+id = 'pdf2djvu'
+name = 'pdf2djvu'
+
+homepage = 'https://jwilk.net/software/pdf2djvu'
+
+[[package]]
+channel = 'debian'
+name = 'pdf2djvu'
+
+[[package]]
+channel = 'fedora'
+name = 'pdf2djvu'

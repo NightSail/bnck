@@ -1,0 +1,12 @@
+id = 'blog-blog'
+name = 'blog'
+
+homepage = 'http://blog.calhariz.com'
+
+[[package]]
+channel = 'debian'
+name = 'at'
+
+[[package]]
+channel = 'debian'
+name = 'switchconf'

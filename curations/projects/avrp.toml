@@ -1,0 +1,8 @@
+id = 'avrp'
+name = 'avrp'
+
+homepage = 'https://web.archive.org/web/20150111215838/http://tihlde.org/~jonah/el/avrp.html'
+
+[[package]]
+channel = 'debian'
+name = 'avrp'

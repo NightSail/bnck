@@ -1,0 +1,8 @@
+id = 'python3-watcherclient'
+name = 'python3-watcherclient'
+
+homepage = 'https://github.com/openstack/python-watcherclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-watcherclient'

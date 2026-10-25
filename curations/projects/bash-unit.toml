@@ -1,0 +1,16 @@
+id = 'bash-unit'
+name = 'bash_unit'
+
+homepage = 'https://github.com/bash-unit/bash_unit'
+
+[[package]]
+channel = 'debian'
+name = 'bash-unit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bash_unit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bashunit'

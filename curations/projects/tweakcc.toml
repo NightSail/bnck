@@ -1,0 +1,8 @@
+id = 'tweakcc'
+name = 'tweakcc'
+
+homepage = 'https://github.com/Piebald-AI/tweakcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tweakcc'

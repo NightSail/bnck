@@ -1,0 +1,8 @@
+id = 'btrfs-fuse'
+name = 'btrfs-fuse'
+
+homepage = 'https://github.com/adam900710/btrfs-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'btrfs-fuse'

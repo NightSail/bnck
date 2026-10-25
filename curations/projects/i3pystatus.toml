@@ -1,0 +1,8 @@
+id = 'i3pystatus'
+name = 'i3pystatus'
+
+homepage = 'https://github.com/enkore/i3pystatus'
+
+[[package]]
+channel = 'debian'
+name = 'i3pystatus'

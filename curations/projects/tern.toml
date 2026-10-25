@@ -1,0 +1,8 @@
+id = 'tern'
+name = 'tern'
+
+repository = 'https://github.com/tern-tools/tern.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tern'

@@ -1,0 +1,8 @@
+id = 'libgamerzilla-server'
+name = 'libgamerzilla-server'
+
+homepage = 'https://github.com/dulsi/libgamerzilla'
+
+[[package]]
+channel = 'fedora'
+name = 'libgamerzilla-server'

@@ -1,0 +1,8 @@
+id = 'golang-github-snappy'
+name = 'golang-github-snappy'
+
+homepage = 'https://github.com/golang/snappy'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-snappy'

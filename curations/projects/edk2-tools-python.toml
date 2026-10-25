@@ -1,0 +1,8 @@
+id = 'edk2-tools-python'
+name = 'edk2-tools-python'
+
+homepage = 'http://www.tianocore.org'
+
+[[package]]
+channel = 'fedora'
+name = 'edk2-tools-python'

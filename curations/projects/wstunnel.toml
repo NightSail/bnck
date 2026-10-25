@@ -1,0 +1,8 @@
+id = 'wstunnel'
+name = 'wstunnel'
+
+repository = 'https://github.com/erebe/wstunnel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wstunnel'

@@ -15,3 +15,7 @@ name = 'micro'
 [[package]]
 channel = 'fedora'
 name = 'micro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/micro'

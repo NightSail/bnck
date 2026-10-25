@@ -1,0 +1,12 @@
+id = 'kmenuedit'
+name = 'kmenuedit'
+
+homepage = 'https://invent.kde.org/plasma/kmenuedit'
+
+[[package]]
+channel = 'debian'
+name = 'kmenuedit'
+
+[[package]]
+channel = 'fedora'
+name = 'kmenuedit'

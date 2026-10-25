@@ -1,0 +1,8 @@
+id = 'go-mtpfs'
+name = 'go-mtpfs'
+
+homepage = 'https://github.com/hanwen/go-mtpfs'
+
+[[package]]
+channel = 'debian'
+name = 'go-mtpfs'

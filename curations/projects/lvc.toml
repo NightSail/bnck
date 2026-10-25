@@ -1,0 +1,20 @@
+id = 'lvc'
+name = 'lvc'
+
+homepage = 'https://lvc.github.io/abi-compliance-checker'
+
+[[package]]
+channel = 'arch'
+name = 'abi-compliance-checker'
+
+[[package]]
+channel = 'debian'
+name = 'abi-compliance-checker'
+
+[[package]]
+channel = 'debian'
+name = 'dh-acc'
+
+[[package]]
+channel = 'fedora'
+name = 'abi-compliance-checker'

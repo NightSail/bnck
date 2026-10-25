@@ -1,0 +1,8 @@
+id = 'libbot-training-perl'
+name = 'libbot-training-perl'
+
+homepage = 'https://metacpan.org/release/Bot-Training'
+
+[[package]]
+channel = 'debian'
+name = 'libbot-training-perl'

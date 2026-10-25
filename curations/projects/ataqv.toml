@@ -1,0 +1,8 @@
+id = 'ataqv'
+name = 'ataqv'
+
+homepage = 'https://github.com/ParkerLab/ataqv'
+
+[[package]]
+channel = 'debian'
+name = 'ataqv'

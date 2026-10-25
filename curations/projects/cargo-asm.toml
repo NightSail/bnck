@@ -1,0 +1,8 @@
+id = 'cargo-asm'
+name = 'cargo-asm'
+
+homepage = 'https://github.com/gnzlbg/cargo-asm'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-asm'

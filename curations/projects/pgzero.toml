@@ -1,0 +1,8 @@
+id = 'pgzero'
+name = 'pgzero'
+
+homepage = 'http://pypi.python.org/pypi/pgzero'
+
+[[package]]
+channel = 'fedora'
+name = 'pgzero'

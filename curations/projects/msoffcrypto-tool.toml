@@ -1,0 +1,12 @@
+id = 'msoffcrypto-tool'
+name = 'msoffcrypto-tool'
+
+homepage = 'https://github.com/nolze/msoffcrypto-tool'
+
+[[package]]
+channel = 'debian'
+name = 'python3-msoffcrypto-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'msoffcrypto-tool'

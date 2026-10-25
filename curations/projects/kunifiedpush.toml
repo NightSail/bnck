@@ -1,0 +1,12 @@
+id = 'kunifiedpush'
+name = 'kunifiedpush'
+
+homepage = 'https://invent.kde.org/libraries/kunifiedpush'
+
+[[package]]
+channel = 'debian'
+name = 'kunifiedpush'
+
+[[package]]
+channel = 'fedora'
+name = 'kunifiedpush'

@@ -1,0 +1,6 @@
+id = 'dpkg-cross'
+name = 'dpkg-cross'
+
+[[package]]
+channel = 'debian'
+name = 'dpkg-cross'

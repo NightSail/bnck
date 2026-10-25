@@ -1,0 +1,8 @@
+id = 'reflector'
+name = 'reflector'
+
+homepage = 'https://xyne.dev/projects/reflector'
+
+[[package]]
+channel = 'arch'
+name = 'reflector'

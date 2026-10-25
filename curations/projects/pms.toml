@@ -1,0 +1,13 @@
+id = 'pms'
+name = 'pms'
+
+homepage = 'http://pms.sourceforge.net'
+repository = 'https://github.com/kimtore/pms.git'
+
+[[package]]
+channel = 'debian'
+name = 'pms'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pms'

@@ -1,0 +1,8 @@
+id = 'circos'
+name = 'circos'
+
+homepage = 'http://circos.ca'
+
+[[package]]
+channel = 'debian'
+name = 'circos'

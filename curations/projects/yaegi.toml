@@ -1,0 +1,17 @@
+id = 'yaegi'
+name = 'yaegi'
+
+homepage = 'https://github.com/containous/yaegi'
+repository = 'https://github.com/traefik/yaegi.git'
+
+[[package]]
+channel = 'arch'
+name = 'yaegi'
+
+[[package]]
+channel = 'debian'
+name = 'yaegi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaegi'

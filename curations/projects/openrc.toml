@@ -1,0 +1,8 @@
+id = 'openrc'
+name = 'openrc'
+
+homepage = 'https://github.com/openrc/openrc'
+
+[[package]]
+channel = 'debian'
+name = 'openrc'

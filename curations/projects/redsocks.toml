@@ -1,0 +1,12 @@
+id = 'redsocks'
+name = 'redsocks'
+
+homepage = 'http://darkk.net.ru/redsocks'
+
+[[package]]
+channel = 'debian'
+name = 'redsocks'
+
+[[package]]
+channel = 'fedora'
+name = 'redsocks'

@@ -1,0 +1,8 @@
+id = 'fancontrol-gui'
+name = 'fancontrol-gui'
+
+homepage = 'https://github.com/Maldela/fancontrol-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'fancontrol-gui'

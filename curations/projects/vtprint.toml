@@ -1,0 +1,8 @@
+id = 'vtprint'
+name = 'vtprint'
+
+homepage = 'https://vtprint.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'vtprint'

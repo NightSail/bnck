@@ -1,0 +1,16 @@
+id = 'gnome-tweaks'
+name = 'gnome-tweaks'
+
+homepage = 'https://wiki.gnome.org/Apps/Tweaks'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-tweaks'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-tweaks'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-tweaks'

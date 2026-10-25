@@ -1,0 +1,8 @@
+id = 'nadoka'
+name = 'nadoka'
+
+homepage = 'https://github.com/nadoka/nadoka'
+
+[[package]]
+channel = 'debian'
+name = 'nadoka'

@@ -1,0 +1,8 @@
+id = 'skewer'
+name = 'skewer'
+
+homepage = 'https://github.com/relipmoc/skewer'
+
+[[package]]
+channel = 'debian'
+name = 'skewer'

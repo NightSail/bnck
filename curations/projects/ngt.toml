@@ -1,0 +1,8 @@
+id = 'ngt'
+name = 'ngt'
+
+homepage = 'https://github.com/NGT-labs/NGT'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ngt'

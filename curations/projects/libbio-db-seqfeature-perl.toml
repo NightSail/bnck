@@ -1,0 +1,8 @@
+id = 'libbio-db-seqfeature-perl'
+name = 'libbio-db-seqfeature-perl'
+
+homepage = 'https://metacpan.org/release/Bio-DB-SeqFeature'
+
+[[package]]
+channel = 'debian'
+name = 'libbio-db-seqfeature-perl'

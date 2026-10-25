@@ -1,0 +1,12 @@
+id = 'prometheus-mysqld-exporter'
+name = 'prometheus-mysqld-exporter'
+
+homepage = 'https://github.com/prometheus/mysqld_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-mysqld-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-mysqld-exporter'

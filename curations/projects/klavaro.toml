@@ -1,0 +1,20 @@
+id = 'klavaro'
+name = 'klavaro'
+
+homepage = 'https://klavaro.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'klavaro'
+
+[[package]]
+channel = 'debian'
+name = 'klavaro'
+
+[[package]]
+channel = 'fedora'
+name = 'klavaro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/klavaro'

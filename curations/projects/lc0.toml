@@ -1,0 +1,9 @@
+id = 'lc0'
+name = 'lc0'
+
+homepage = 'https://lczero.org'
+repository = 'https://github.com/LeelaChessZero/lc0.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lc0'

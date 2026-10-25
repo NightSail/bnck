@@ -1,0 +1,12 @@
+id = 'clementine'
+name = 'clementine'
+
+homepage = 'https://www.clementine-player.org'
+
+[[package]]
+channel = 'debian'
+name = 'clementine'
+
+[[package]]
+channel = 'fedora'
+name = 'clementine'

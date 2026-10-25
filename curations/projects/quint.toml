@@ -1,0 +1,8 @@
+id = 'quint'
+name = 'quint'
+
+homepage = 'https://quint-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quint'

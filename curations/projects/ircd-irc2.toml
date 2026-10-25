@@ -1,0 +1,8 @@
+id = 'ircd-irc2'
+name = 'ircd-irc2'
+
+homepage = 'http://www.irc.org'
+
+[[package]]
+channel = 'debian'
+name = 'ircd-irc2'

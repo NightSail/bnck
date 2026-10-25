@@ -1,0 +1,12 @@
+id = 'gocd'
+name = 'gocd'
+
+homepage = 'https://www.gocd.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/go-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/go-server'

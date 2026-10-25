@@ -1,0 +1,8 @@
+id = 'hdate'
+name = 'hdate'
+
+homepage = 'http://libhdate.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'hdate'

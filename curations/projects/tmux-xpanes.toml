@@ -1,0 +1,12 @@
+id = 'tmux-xpanes'
+name = 'tmux-xpanes'
+
+homepage = 'https://github.com/greymd/tmux-xpanes'
+
+[[package]]
+channel = 'fedora'
+name = 'xpanes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmux-xpanes'

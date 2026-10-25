@@ -1,0 +1,16 @@
+id = 'guetzli'
+name = 'guetzli'
+
+repository = 'https://github.com/google/guetzli.git'
+
+[[package]]
+channel = 'arch'
+name = 'guetzli'
+
+[[package]]
+channel = 'debian'
+name = 'guetzli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/guetzli'

@@ -1,0 +1,8 @@
+id = 'bower-mail'
+name = 'bower-mail'
+
+repository = 'https://github.com/wangp/bower.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bower-mail'

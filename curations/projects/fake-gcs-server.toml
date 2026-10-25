@@ -1,0 +1,8 @@
+id = 'fake-gcs-server'
+name = 'fake-gcs-server'
+
+repository = 'https://github.com/fsouza/fake-gcs-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fake-gcs-server'

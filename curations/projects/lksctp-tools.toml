@@ -1,0 +1,16 @@
+id = 'lksctp-tools'
+name = 'lksctp-tools'
+
+homepage = 'https://github.com/sctp/lksctp-tools'
+
+[[package]]
+channel = 'arch'
+name = 'lksctp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'lksctp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'lksctp-tools'

@@ -1,0 +1,8 @@
+id = 'antigravity-ide'
+name = 'antigravity-ide'
+
+homepage = 'https://antigravity.google/product/antigravity-ide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/antigravity-ide'

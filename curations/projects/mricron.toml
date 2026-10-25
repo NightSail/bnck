@@ -1,0 +1,8 @@
+id = 'mricron'
+name = 'mricron'
+
+homepage = 'https://www.nitrc.org/projects/mricron'
+
+[[package]]
+channel = 'debian'
+name = 'mricron'

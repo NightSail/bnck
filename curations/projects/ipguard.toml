@@ -1,0 +1,8 @@
+id = 'ipguard'
+name = 'ipguard'
+
+homepage = 'http://ipguard.deep.perm.ru'
+
+[[package]]
+channel = 'arch'
+name = 'ipguard'

@@ -1,0 +1,8 @@
+id = 'gasic'
+name = 'gasic'
+
+homepage = 'http://sourceforge.net/projects/gasic'
+
+[[package]]
+channel = 'debian'
+name = 'gasic'

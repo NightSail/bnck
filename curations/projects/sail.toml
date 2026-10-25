@@ -1,0 +1,8 @@
+id = 'sail'
+name = 'sail'
+
+homepage = 'https://sailed.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sail'

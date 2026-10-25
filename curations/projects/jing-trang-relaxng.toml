@@ -1,0 +1,9 @@
+id = 'jing-trang-relaxng'
+name = 'jing-trang'
+
+homepage = 'http://www.thaiopensource.com/relaxng'
+repository = 'https://github.com/relaxng/jing-trang.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jing-trang'

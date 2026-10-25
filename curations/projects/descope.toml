@@ -1,0 +1,9 @@
+id = 'descope'
+name = 'descope'
+
+homepage = 'https://www.descope.com'
+repository = 'https://github.com/descope/descopecli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/descope'

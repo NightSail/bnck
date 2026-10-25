@@ -1,0 +1,8 @@
+id = 'nagi'
+name = 'nagi'
+
+homepage = 'http://www.agidev.com/projects/nagi'
+
+[[package]]
+channel = 'fedora'
+name = 'nagi'

@@ -1,0 +1,8 @@
+id = 'x509viewer'
+name = 'x509viewer'
+
+homepage = 'https://ftp.robert-scheck.de/linux/x509viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'x509viewer'

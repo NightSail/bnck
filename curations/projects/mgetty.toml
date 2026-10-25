@@ -1,0 +1,40 @@
+id = 'mgetty'
+name = 'mgetty'
+
+homepage = 'http://mgetty.greenie.net'
+
+[[package]]
+channel = 'debian'
+name = 'mgetty'
+
+[[package]]
+channel = 'debian'
+name = 'mgetty-fax'
+
+[[package]]
+channel = 'debian'
+name = 'mgetty-pvftools'
+
+[[package]]
+channel = 'debian'
+name = 'mgetty-viewfax'
+
+[[package]]
+channel = 'debian'
+name = 'mgetty-voice'
+
+[[package]]
+channel = 'fedora'
+name = 'mgetty'
+
+[[package]]
+channel = 'fedora'
+name = 'mgetty-sendfax'
+
+[[package]]
+channel = 'fedora'
+name = 'mgetty-viewfax'
+
+[[package]]
+channel = 'fedora'
+name = 'mgetty-voice'

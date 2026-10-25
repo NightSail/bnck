@@ -1,0 +1,9 @@
+id = 'immudb'
+name = 'immudb'
+
+homepage = 'https://immudb.io'
+repository = 'https://github.com/codenotary/immudb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/immudb'

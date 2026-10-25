@@ -1,0 +1,12 @@
+id = 'jmespath-rb'
+name = 'jmespath.rb'
+
+homepage = 'http://github.com/trevorrowe/jmespath.rb'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-jmespath'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-jmespath'

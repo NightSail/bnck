@@ -1,0 +1,13 @@
+id = 'mame'
+name = 'mame'
+
+homepage = 'https://mamedev.org'
+repository = 'https://github.com/mamedev/mame.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mame'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rom-tools'

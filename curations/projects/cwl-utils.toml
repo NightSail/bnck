@@ -1,0 +1,8 @@
+id = 'cwl-utils'
+name = 'cwl-utils'
+
+homepage = 'https://github.com/common-workflow-language/cwl-utils'
+
+[[package]]
+channel = 'debian'
+name = 'cwl-utils'

@@ -1,0 +1,8 @@
+id = 'wmusic'
+name = 'wmusic'
+
+homepage = 'https://dockapps.net/wmusic'
+
+[[package]]
+channel = 'debian'
+name = 'wmusic'

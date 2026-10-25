@@ -1,0 +1,12 @@
+id = 'rtags'
+name = 'rtags'
+
+repository = 'https://github.com/Andersbakken/rtags.git'
+
+[[package]]
+channel = 'debian'
+name = 'rtags'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtags'

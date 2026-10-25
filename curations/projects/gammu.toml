@@ -1,0 +1,25 @@
+id = 'gammu'
+name = 'gammu'
+
+homepage = 'https://wammu.eu/gammu'
+repository = 'https://github.com/gammu/gammu.git'
+
+[[package]]
+channel = 'arch'
+name = 'gammu'
+
+[[package]]
+channel = 'debian'
+name = 'gammu'
+
+[[package]]
+channel = 'debian'
+name = 'gammu-smsd'
+
+[[package]]
+channel = 'fedora'
+name = 'gammu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gammu'

@@ -1,0 +1,12 @@
+id = 'readsb'
+name = 'readsb'
+
+homepage = 'https://github.com/wiedehopf/readsb'
+
+[[package]]
+channel = 'debian'
+name = 'readsb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/readsb'

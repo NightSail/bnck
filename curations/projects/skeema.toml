@@ -1,0 +1,13 @@
+id = 'skeema'
+name = 'skeema'
+
+homepage = 'https://www.skeema.io'
+repository = 'https://github.com/skeema/skeema.git'
+
+[[package]]
+channel = 'debian'
+name = 'skeema'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skeema'

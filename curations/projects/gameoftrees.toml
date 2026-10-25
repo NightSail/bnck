@@ -1,0 +1,12 @@
+id = 'gameoftrees'
+name = 'gameoftrees'
+
+homepage = 'https://gameoftrees.org/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'got'
+
+[[package]]
+channel = 'debian'
+name = 'gotd'

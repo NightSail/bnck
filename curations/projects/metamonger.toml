@@ -1,0 +1,8 @@
+id = 'metamonger'
+name = 'metamonger'
+
+homepage = 'https://github.com/RichiH/metamonger'
+
+[[package]]
+channel = 'debian'
+name = 'metamonger'

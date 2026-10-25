@@ -1,0 +1,8 @@
+id = 'gyrus'
+name = 'gyrus'
+
+homepage = 'https://gitlab.com/wvdakker/gyrus'
+
+[[package]]
+channel = 'debian'
+name = 'gyrus'

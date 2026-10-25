@@ -1,0 +1,8 @@
+id = 'sftpgo'
+name = 'sftpgo'
+
+homepage = 'https://sftpgo.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sftpgo'

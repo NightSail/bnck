@@ -1,0 +1,8 @@
+id = 'mellite'
+name = 'mellite'
+
+homepage = 'https://www.sciss.de/mellite'
+
+[[package]]
+channel = 'arch'
+name = 'mellite'

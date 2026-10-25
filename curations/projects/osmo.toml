@@ -1,0 +1,16 @@
+id = 'osmo'
+name = 'osmo'
+
+homepage = 'https://clayo.org/osmo'
+
+[[package]]
+channel = 'arch'
+name = 'osmo'
+
+[[package]]
+channel = 'debian'
+name = 'osmo'
+
+[[package]]
+channel = 'fedora'
+name = 'osmo'

@@ -1,0 +1,8 @@
+id = 'python3-zunclient'
+name = 'python3-zunclient'
+
+homepage = 'https://github.com/openstack/python-zunclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zunclient'

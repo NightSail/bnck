@@ -1,0 +1,8 @@
+id = 'fsvs'
+name = 'fsvs'
+
+homepage = 'https://github.com/phmarek/fsvs'
+
+[[package]]
+channel = 'debian'
+name = 'fsvs'

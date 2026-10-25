@@ -13,6 +13,10 @@ channel = 'crates.io'
 name = 'broot'
 
 [[package]]
+channel = 'crates.io'
+name = 'whalespotter'
+
+[[package]]
 channel = 'debian'
 name = 'broot'
 

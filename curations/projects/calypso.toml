@@ -1,0 +1,12 @@
+id = 'calypso'
+name = 'calypso'
+
+homepage = 'https://keithp.com/calypso'
+
+[[package]]
+channel = 'debian'
+name = 'calypso'
+
+[[package]]
+channel = 'fedora'
+name = 'calypso'

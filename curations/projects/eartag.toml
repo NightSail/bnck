@@ -1,0 +1,12 @@
+id = 'eartag'
+name = 'eartag'
+
+homepage = 'https://apps.gnome.org/EarTag'
+
+[[package]]
+channel = 'arch'
+name = 'eartag'
+
+[[package]]
+channel = 'debian'
+name = 'eartag'

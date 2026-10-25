@@ -1,0 +1,8 @@
+id = 'arbtt'
+name = 'arbtt'
+
+homepage = 'http://arbtt.nomeata.de'
+
+[[package]]
+channel = 'arch'
+name = 'arbtt'

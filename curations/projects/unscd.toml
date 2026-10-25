@@ -1,0 +1,8 @@
+id = 'unscd'
+name = 'unscd'
+
+homepage = 'https://busybox.net/~vda/unscd'
+
+[[package]]
+channel = 'debian'
+name = 'unscd'

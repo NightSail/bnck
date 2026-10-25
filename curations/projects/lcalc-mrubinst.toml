@@ -1,0 +1,8 @@
+id = 'lcalc-mrubinst'
+name = 'lcalc'
+
+homepage = 'http://oto.math.uwaterloo.ca/~mrubinst/L_function_public/L.html'
+
+[[package]]
+channel = 'debian'
+name = 'lcalc'

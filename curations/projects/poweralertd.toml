@@ -1,0 +1,8 @@
+id = 'poweralertd'
+name = 'poweralertd'
+
+homepage = 'https://sr.ht/~kennylevinsen/poweralertd'
+
+[[package]]
+channel = 'debian'
+name = 'poweralertd'

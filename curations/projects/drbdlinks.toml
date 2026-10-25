@@ -1,0 +1,8 @@
+id = 'drbdlinks'
+name = 'drbdlinks'
+
+homepage = 'https://www.tummy.com/software/drbdlinks'
+
+[[package]]
+channel = 'fedora'
+name = 'drbdlinks'

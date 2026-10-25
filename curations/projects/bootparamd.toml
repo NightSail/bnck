@@ -1,0 +1,6 @@
+id = 'bootparamd'
+name = 'bootparamd'
+
+[[package]]
+channel = 'debian'
+name = 'bootparamd'

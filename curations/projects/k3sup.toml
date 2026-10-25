@@ -1,0 +1,9 @@
+id = 'k3sup'
+name = 'k3sup'
+
+homepage = 'https://k3sup.dev'
+repository = 'https://github.com/alexellis/k3sup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/k3sup'

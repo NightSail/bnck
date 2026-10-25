@@ -1,0 +1,8 @@
+id = 'scoary'
+name = 'scoary'
+
+homepage = 'https://github.com/AdmiralenOla/Scoary'
+
+[[package]]
+channel = 'debian'
+name = 'scoary'

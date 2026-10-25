@@ -1,0 +1,8 @@
+id = 'kuttypy-gui'
+name = 'kuttypy-gui'
+
+homepage = 'https://expeyes.in/kuttypy/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'kuttypy-gui'

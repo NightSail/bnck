@@ -1,0 +1,8 @@
+id = 'prometheus-pgbackrest-exporter'
+name = 'prometheus-pgbackrest-exporter'
+
+homepage = 'https://github.com/woblerr/pgbackrest_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-pgbackrest-exporter'

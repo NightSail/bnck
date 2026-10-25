@@ -1,0 +1,8 @@
+id = 'codegroup'
+name = 'codegroup'
+
+homepage = 'http://www.fourmilab.ch/codegroup'
+
+[[package]]
+channel = 'debian'
+name = 'codegroup'

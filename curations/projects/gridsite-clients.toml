@@ -1,0 +1,12 @@
+id = 'gridsite-clients'
+name = 'gridsite-clients'
+
+homepage = 'https://github.com/CESNET/gridsite'
+
+[[package]]
+channel = 'debian'
+name = 'gridsite-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'gridsite-clients'

@@ -1,0 +1,9 @@
+id = 'grpc-grpc'
+name = 'grpc'
+
+homepage = 'https://grpc.io'
+repository = 'https://github.com/grpc/grpc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grpc'

@@ -1,0 +1,12 @@
+id = 'creduce'
+name = 'creduce'
+
+repository = 'https://github.com/csmith-project/creduce.git'
+
+[[package]]
+channel = 'debian'
+name = 'creduce'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/creduce'

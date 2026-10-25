@@ -1,0 +1,6 @@
+id = 'sympathy'
+name = 'sympathy'
+
+[[package]]
+channel = 'debian'
+name = 'sympathy'

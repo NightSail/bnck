@@ -1,0 +1,36 @@
+id = 'tomcat'
+name = 'tomcat'
+
+homepage = 'https://tomcat.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'tomcat-jakartaee-migration'
+
+[[package]]
+channel = 'debian'
+name = 'tomcat10-user'
+
+[[package]]
+channel = 'debian'
+name = 'tomcat11-user'
+
+[[package]]
+channel = 'fedora'
+name = 'tomcat'
+
+[[package]]
+channel = 'fedora'
+name = 'tomcat-jakartaee-migration'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tomcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tomcat@10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tomcat@9'

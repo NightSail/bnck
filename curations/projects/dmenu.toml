@@ -1,0 +1,17 @@
+id = 'dmenu'
+name = 'dmenu'
+
+homepage = 'https://tools.suckless.org/dmenu'
+repository = 'https://git.suckless.org/dmenu'
+
+[[package]]
+channel = 'arch'
+name = 'dmenu'
+
+[[package]]
+channel = 'fedora'
+name = 'dmenu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dmenu'

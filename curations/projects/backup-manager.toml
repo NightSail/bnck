@@ -1,0 +1,8 @@
+id = 'backup-manager'
+name = 'backup-manager'
+
+homepage = 'https://github.com/sukria/Backup-Manager'
+
+[[package]]
+channel = 'debian'
+name = 'backup-manager'

@@ -1,0 +1,8 @@
+id = 'libcgicc-dev'
+name = 'libcgicc-dev'
+
+homepage = 'http://www.gnu.org/software/cgicc'
+
+[[package]]
+channel = 'debian'
+name = 'libcgicc-dev'

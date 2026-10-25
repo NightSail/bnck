@@ -1,0 +1,8 @@
+id = 'golang-github-aliyun-ossutil'
+name = 'golang-github-aliyun-ossutil'
+
+homepage = 'https://github.com/aliyun/ossutil'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-aliyun-ossutil'

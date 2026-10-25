@@ -1,0 +1,8 @@
+id = 'gistit'
+name = 'gistit'
+
+repository = 'https://github.com/jrbasso/gistit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gistit'

@@ -1,0 +1,12 @@
+id = 'kde-dev-scripts'
+name = 'kde-dev-scripts'
+
+homepage = 'https://invent.kde.org/sdk/kde-dev-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'kdesdk-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'kde-dev-scripts'

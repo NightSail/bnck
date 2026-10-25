@@ -1,0 +1,8 @@
+id = 'nagstamon'
+name = 'nagstamon'
+
+homepage = 'https://nagstamon.de'
+
+[[package]]
+channel = 'debian'
+name = 'nagstamon'

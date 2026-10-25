@@ -1,0 +1,12 @@
+id = 'pbr'
+name = 'pbr'
+
+homepage = 'https://pypi.python.org/pypi/pbr'
+
+[[package]]
+channel = 'arch'
+name = 'python-pbr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pbr'

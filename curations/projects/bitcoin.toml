@@ -1,0 +1,9 @@
+id = 'bitcoin'
+name = 'bitcoin'
+
+homepage = 'https://bitcoincore.org'
+repository = 'https://github.com/bitcoin/bitcoin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bitcoin'

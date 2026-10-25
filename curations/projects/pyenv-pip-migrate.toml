@@ -1,0 +1,8 @@
+id = 'pyenv-pip-migrate'
+name = 'pyenv-pip-migrate'
+
+repository = 'https://github.com/pyenv/pyenv-pip-migrate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyenv-pip-migrate'

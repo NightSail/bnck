@@ -1,0 +1,8 @@
+id = 'ocamlweb'
+name = 'ocamlweb'
+
+homepage = 'http://www.lri.fr/~filliatr/ocamlweb/index.en.html'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlweb'

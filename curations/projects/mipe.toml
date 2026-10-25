@@ -1,0 +1,8 @@
+id = 'mipe'
+name = 'mipe'
+
+homepage = 'http://mipe.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mipe'

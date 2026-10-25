@@ -1,0 +1,8 @@
+id = 'blivet-gui-runtime'
+name = 'blivet-gui-runtime'
+
+homepage = 'http://github.com/storaged-project/blivet-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'blivet-gui-runtime'

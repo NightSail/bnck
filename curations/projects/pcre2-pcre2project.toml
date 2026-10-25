@@ -1,0 +1,9 @@
+id = 'pcre2-pcre2project'
+name = 'pcre2'
+
+homepage = 'https://www.pcre.org'
+repository = 'https://github.com/PCRE2Project/pcre2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcre2'

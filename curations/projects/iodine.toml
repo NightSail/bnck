@@ -1,0 +1,25 @@
+id = 'iodine'
+name = 'iodine'
+
+homepage = 'https://code.kryo.se/iodine'
+repository = 'https://github.com/yarrick/iodine.git'
+
+[[package]]
+channel = 'arch'
+name = 'iodine'
+
+[[package]]
+channel = 'debian'
+name = 'iodine'
+
+[[package]]
+channel = 'fedora'
+name = 'iodine-client'
+
+[[package]]
+channel = 'fedora'
+name = 'iodine-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iodine'

@@ -1,0 +1,8 @@
+id = 'qxkb'
+name = 'qxkb'
+
+homepage = 'https://github.com/disels/qxkb'
+
+[[package]]
+channel = 'fedora'
+name = 'qxkb'

@@ -1,0 +1,21 @@
+id = 'lsdvd'
+name = 'lsdvd'
+
+homepage = 'https://sourceforge.net/projects/lsdvd'
+repository = 'https://git.code.sf.net/p/lsdvd/git.git'
+
+[[package]]
+channel = 'arch'
+name = 'lsdvd'
+
+[[package]]
+channel = 'debian'
+name = 'lsdvd'
+
+[[package]]
+channel = 'fedora'
+name = 'lsdvd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsdvd'

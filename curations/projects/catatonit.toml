@@ -1,0 +1,12 @@
+id = 'catatonit'
+name = 'catatonit'
+
+homepage = 'https://github.com/openSUSE/catatonit'
+
+[[package]]
+channel = 'arch'
+name = 'catatonit'
+
+[[package]]
+channel = 'debian'
+name = 'catatonit'

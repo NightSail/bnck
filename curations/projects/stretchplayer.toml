@@ -1,0 +1,8 @@
+id = 'stretchplayer'
+name = 'stretchplayer'
+
+homepage = 'http://www.teuton.org/~gabriel/stretchplayer'
+
+[[package]]
+channel = 'debian'
+name = 'stretchplayer'

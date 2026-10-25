@@ -1,0 +1,8 @@
+id = 'nat-traverse'
+name = 'nat-traverse'
+
+homepage = 'https://www.speicherleck.de/iblech/nat-traverse'
+
+[[package]]
+channel = 'debian'
+name = 'nat-traverse'

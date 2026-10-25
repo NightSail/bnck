@@ -1,0 +1,8 @@
+id = 'sqldiff'
+name = 'sqldiff'
+
+homepage = 'https://www.sqlite.org/sqldiff.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqldiff'

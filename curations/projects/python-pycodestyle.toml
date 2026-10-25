@@ -1,0 +1,8 @@
+id = 'python-pycodestyle'
+name = 'python-pycodestyle'
+
+homepage = 'https://pycodestyle.pycqa.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pycodestyle'

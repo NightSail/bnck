@@ -1,0 +1,8 @@
+id = 'cromwell'
+name = 'cromwell'
+
+repository = 'https://github.com/broadinstitute/cromwell.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cromwell'

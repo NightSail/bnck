@@ -1,0 +1,8 @@
+id = 'deepin-devicemanager'
+name = 'deepin-devicemanager'
+
+homepage = 'https://github.com/linuxdeepin/deepin-devicemanager'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-devicemanager'

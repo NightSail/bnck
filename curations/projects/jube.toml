@@ -1,0 +1,8 @@
+id = 'jube'
+name = 'jube'
+
+homepage = 'https://www.fz-juelich.de/jsc/jube'
+
+[[package]]
+channel = 'debian'
+name = 'jube'

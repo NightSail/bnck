@@ -1,0 +1,8 @@
+id = 'go-hass-agent'
+name = 'go-hass-agent'
+
+homepage = 'https://github.com/joshuar/go-hass-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-hass-agent'

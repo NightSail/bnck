@@ -1,0 +1,8 @@
+id = 'matrix-eno-bot'
+name = 'matrix-eno-bot'
+
+homepage = '<insert the upstream URL, if relevant>'
+
+[[package]]
+channel = 'debian'
+name = 'matrix-eno-bot'

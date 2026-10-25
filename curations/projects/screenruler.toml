@@ -1,0 +1,12 @@
+id = 'screenruler'
+name = 'screenruler'
+
+homepage = 'http://gnomecoder.wordpress.com/screenruler'
+
+[[package]]
+channel = 'debian'
+name = 'screenruler'
+
+[[package]]
+channel = 'fedora'
+name = 'screenruler'

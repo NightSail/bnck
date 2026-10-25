@@ -1,0 +1,8 @@
+id = 'pdfly'
+name = 'pdfly'
+
+homepage = 'https://pdfly.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfly'

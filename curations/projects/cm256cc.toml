@@ -1,0 +1,8 @@
+id = 'cm256cc'
+name = 'cm256cc'
+
+homepage = 'https://github.com/f4exb/cm256cc'
+
+[[package]]
+channel = 'arch'
+name = 'cm256cc'

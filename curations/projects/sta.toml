@@ -1,0 +1,8 @@
+id = 'sta'
+name = 'sta'
+
+homepage = 'https://github.com/simonccarter/sta'
+
+[[package]]
+channel = 'fedora'
+name = 'sta'

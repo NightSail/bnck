@@ -1,0 +1,12 @@
+id = 'rkcommon'
+name = 'rkcommon'
+
+homepage = 'https://github.com/ospray/rkcommon'
+
+[[package]]
+channel = 'arch'
+name = 'rkcommon'
+
+[[package]]
+channel = 'fedora'
+name = 'rkcommon'

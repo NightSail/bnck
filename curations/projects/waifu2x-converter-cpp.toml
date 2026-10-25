@@ -1,0 +1,8 @@
+id = 'waifu2x-converter-cpp'
+name = 'waifu2x-converter-cpp'
+
+homepage = 'https://github.com/DeadSix27/waifu2x-converter-cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'waifu2x-converter-cpp'

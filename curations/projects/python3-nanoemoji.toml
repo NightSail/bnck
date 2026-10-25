@@ -1,0 +1,8 @@
+id = 'python3-nanoemoji'
+name = 'python3-nanoemoji'
+
+homepage = 'https://github.com/googlefonts/nanoemoji'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nanoemoji'

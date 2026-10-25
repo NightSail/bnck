@@ -1,0 +1,8 @@
+id = 'fair'
+name = 'fair'
+
+homepage = 'http://www.non-gnu.uvt.nl/fair'
+
+[[package]]
+channel = 'debian'
+name = 'fair'

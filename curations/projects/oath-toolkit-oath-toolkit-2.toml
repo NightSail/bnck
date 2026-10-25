@@ -1,0 +1,9 @@
+id = 'oath-toolkit-oath-toolkit-2'
+name = 'oath-toolkit'
+
+homepage = 'https://oath-toolkit.codeberg.page'
+repository = 'https://codeberg.org/oath-toolkit/oath-toolkit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oath-toolkit'

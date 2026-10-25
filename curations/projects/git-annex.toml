@@ -1,0 +1,21 @@
+id = 'git-annex'
+name = 'git-annex'
+
+homepage = 'https://hackage.haskell.org/package/git-annex'
+repository = 'git://git-annex.branchable.com'
+
+[[package]]
+channel = 'arch'
+name = 'git-annex'
+
+[[package]]
+channel = 'debian'
+name = 'git-annex'
+
+[[package]]
+channel = 'fedora'
+name = 'git-annex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-annex'

@@ -1,0 +1,8 @@
+id = 'pcalc'
+name = 'pcalc'
+
+homepage = 'https://github.com/alt-romes/programmer-calculator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcalc'

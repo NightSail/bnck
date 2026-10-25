@@ -9,6 +9,10 @@ name = 'yazi'
 
 [[package]]
 channel = 'crates.io'
+name = 'yazi-build'
+
+[[package]]
+channel = 'crates.io'
 name = 'yazi-cli'
 
 [[package]]

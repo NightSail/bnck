@@ -1,0 +1,8 @@
+id = 'fadecut'
+name = 'fadecut'
+
+homepage = 'https://github.com/fadecut/fadecut'
+
+[[package]]
+channel = 'debian'
+name = 'fadecut'

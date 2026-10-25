@@ -1,0 +1,25 @@
+id = 'postgis'
+name = 'postgis'
+
+homepage = 'https://postgis.net'
+repository = 'https://git.osgeo.org/gitea/postgis/postgis.git'
+
+[[package]]
+channel = 'arch'
+name = 'postgis'
+
+[[package]]
+channel = 'debian'
+name = 'postgis'
+
+[[package]]
+channel = 'fedora'
+name = 'postgis-client'
+
+[[package]]
+channel = 'fedora'
+name = 'postgis-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgis'

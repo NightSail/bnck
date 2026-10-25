@@ -1,0 +1,12 @@
+id = 'ax25-apps'
+name = 'ax25-apps'
+
+homepage = 'https://linux-ax25.in-berlin.de/wiki/Ax25-apps'
+
+[[package]]
+channel = 'debian'
+name = 'ax25-apps'
+
+[[package]]
+channel = 'fedora'
+name = 'ax25-apps'

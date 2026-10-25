@@ -1,0 +1,12 @@
+id = 'yaz-yaz'
+name = 'yaz'
+
+homepage = 'http://www.indexdata.com/yaz'
+
+[[package]]
+channel = 'fedora'
+name = 'libyaz-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'yaz'

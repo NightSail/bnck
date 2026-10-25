@@ -1,0 +1,8 @@
+id = 'genxrdpattern'
+name = 'genxrdpattern'
+
+homepage = 'https://github.com/psavery/genXrdPattern'
+
+[[package]]
+channel = 'arch'
+name = 'genxrdpattern'

@@ -1,0 +1,8 @@
+id = 'python3-depinfo'
+name = 'python3-depinfo'
+
+homepage = 'https://github.com/Midnighter/dependency-info'
+
+[[package]]
+channel = 'debian'
+name = 'python3-depinfo'

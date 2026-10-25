@@ -1,0 +1,16 @@
+id = 'nitrokey-app'
+name = 'nitrokey-app'
+
+homepage = 'https://www.nitrokey.com'
+
+[[package]]
+channel = 'arch'
+name = 'nitrokey-app'
+
+[[package]]
+channel = 'debian'
+name = 'nitrokey-app'
+
+[[package]]
+channel = 'fedora'
+name = 'nitrokey-app'

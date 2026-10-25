@@ -1,0 +1,16 @@
+id = 'ocamlbuild'
+name = 'ocamlbuild'
+
+homepage = 'https://github.com/ocaml/ocamlbuild'
+
+[[package]]
+channel = 'arch'
+name = 'ocamlbuild'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ocamlbuild'

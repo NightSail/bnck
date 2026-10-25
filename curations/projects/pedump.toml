@@ -1,0 +1,8 @@
+id = 'pedump'
+name = 'pedump'
+
+homepage = 'https://pedump.me'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pedump'

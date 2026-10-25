@@ -1,0 +1,12 @@
+id = 'pdoc'
+name = 'pdoc'
+
+homepage = 'https://github.com/mitmproxy/pdoc'
+
+[[package]]
+channel = 'arch'
+name = 'pdoc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pdoc'

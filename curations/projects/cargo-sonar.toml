@@ -1,0 +1,8 @@
+id = 'cargo-sonar'
+name = 'cargo-sonar'
+
+homepage = 'https://gitlab.com/woshilapin/cargo-sonar'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-sonar'

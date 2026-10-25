@@ -1,0 +1,8 @@
+id = 'nao'
+name = 'nao'
+
+homepage = 'https://getnao.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nao'

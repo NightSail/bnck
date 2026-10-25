@@ -1,0 +1,16 @@
+id = 'pdfpc'
+name = 'pdfpc'
+
+homepage = 'https://pdfpc.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'pdfpc'
+
+[[package]]
+channel = 'debian'
+name = 'pdf-presenter-console'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfpc'

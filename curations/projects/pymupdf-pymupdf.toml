@@ -1,0 +1,8 @@
+id = 'pymupdf-pymupdf'
+name = 'pymupdf'
+
+homepage = 'https://pymupdf.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pymupdf'

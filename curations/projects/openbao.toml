@@ -1,0 +1,21 @@
+id = 'openbao'
+name = 'openbao'
+
+homepage = 'https://openbao.org'
+repository = 'https://github.com/openbao/openbao.git'
+
+[[package]]
+channel = 'arch'
+name = 'openbao'
+
+[[package]]
+channel = 'fedora'
+name = 'openbao'
+
+[[package]]
+channel = 'fedora'
+name = 'openbao-vault-compat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openbao'

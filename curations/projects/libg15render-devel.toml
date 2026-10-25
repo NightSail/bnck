@@ -1,0 +1,8 @@
+id = 'libg15render-devel'
+name = 'libg15render-devel'
+
+homepage = 'https://sourceforge.net/projects/g15tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libg15render-devel'

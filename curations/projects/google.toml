@@ -1,0 +1,16 @@
+id = 'google'
+name = 'google'
+
+homepage = 'https://google.github.io/flatbuffers'
+
+[[package]]
+channel = 'arch'
+name = 'flatbuffers'
+
+[[package]]
+channel = 'debian'
+name = 'flatbuffers-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'flatbuffers-compiler'

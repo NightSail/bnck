@@ -1,0 +1,8 @@
+id = 'weii'
+name = 'weii'
+
+homepage = 'https://github.com/skorokithakis/weii'
+
+[[package]]
+channel = 'debian'
+name = 'weii'

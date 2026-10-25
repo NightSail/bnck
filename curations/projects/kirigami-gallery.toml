@@ -1,0 +1,16 @@
+id = 'kirigami-gallery'
+name = 'kirigami-gallery'
+
+homepage = 'https://apps.kde.org/kirigami2.gallery'
+
+[[package]]
+channel = 'arch'
+name = 'kirigami-gallery'
+
+[[package]]
+channel = 'debian'
+name = 'kirigami-gallery'
+
+[[package]]
+channel = 'fedora'
+name = 'kirigami-gallery'

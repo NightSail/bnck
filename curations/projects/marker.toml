@@ -1,0 +1,12 @@
+id = 'marker'
+name = 'marker'
+
+homepage = 'https://github.com/fabiocolacio/Marker'
+
+[[package]]
+channel = 'arch'
+name = 'marker'
+
+[[package]]
+channel = 'fedora'
+name = 'marker'

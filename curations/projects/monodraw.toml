@@ -1,0 +1,8 @@
+id = 'monodraw'
+name = 'monodraw'
+
+homepage = 'https://monodraw.helftone.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/monodraw'

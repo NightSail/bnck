@@ -1,0 +1,104 @@
+id = 'enlightenment'
+name = 'enlightenment'
+
+homepage = 'https://www.enlightenment.org'
+
+[[package]]
+channel = 'arch'
+name = 'ecrire'
+
+[[package]]
+channel = 'arch'
+name = 'efl'
+
+[[package]]
+channel = 'arch'
+name = 'enlightenment'
+
+[[package]]
+channel = 'arch'
+name = 'ephoto'
+
+[[package]]
+channel = 'arch'
+name = 'evisum'
+
+[[package]]
+channel = 'debian'
+name = 'enlightenment'
+
+[[package]]
+channel = 'debian'
+name = 'libecore-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libedje-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libeet-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libeeze-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libefl-all-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libefreet-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libeina-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libelementary-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libembryo-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libeolian-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libethumb-client-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'e16'
+
+[[package]]
+channel = 'fedora'
+name = 'e16-epplets'
+
+[[package]]
+channel = 'fedora'
+name = 'e16-keyedit'
+
+[[package]]
+channel = 'fedora'
+name = 'efl'
+
+[[package]]
+channel = 'fedora'
+name = 'efl-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'enlightenment'
+
+[[package]]
+channel = 'fedora'
+name = 'terminology'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/efl'

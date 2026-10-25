@@ -1,0 +1,8 @@
+id = 'session-token'
+name = 'session-token'
+
+homepage = 'https://metacpan.org/release/App-Session-Token'
+
+[[package]]
+channel = 'debian'
+name = 'session-token'

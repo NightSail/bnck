@@ -1,0 +1,8 @@
+id = 'dh-dist-zilla'
+name = 'dh-dist-zilla'
+
+homepage = 'https://github.com/elmar/dh-dist-zilla'
+
+[[package]]
+channel = 'debian'
+name = 'dh-dist-zilla'

@@ -1,0 +1,8 @@
+id = 'aragorn'
+name = 'aragorn'
+
+homepage = 'http://mbio-serv2.mbioekol.lu.se/ARAGORN'
+
+[[package]]
+channel = 'debian'
+name = 'aragorn'

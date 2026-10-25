@@ -1,0 +1,14 @@
+id = 'cdrkit-cdrkit'
+name = 'cdrkit'
+
+[[package]]
+channel = 'debian'
+name = 'genisoimage'
+
+[[package]]
+channel = 'debian'
+name = 'icedax'
+
+[[package]]
+channel = 'debian'
+name = 'wodim'

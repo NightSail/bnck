@@ -1,0 +1,12 @@
+id = 'smbldap-tools'
+name = 'smbldap-tools'
+
+homepage = 'https://github.com/fumiyas/smbldap-tools'
+
+[[package]]
+channel = 'debian'
+name = 'smbldap-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'smbldap-tools'

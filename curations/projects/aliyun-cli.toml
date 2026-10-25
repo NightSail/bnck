@@ -1,0 +1,12 @@
+id = 'aliyun-cli'
+name = 'aliyun-cli'
+
+homepage = 'https://github.com/aliyun/aliyun-cli'
+
+[[package]]
+channel = 'arch'
+name = 'aliyun-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-aliyun-cli'

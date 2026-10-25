@@ -1,0 +1,8 @@
+id = 'wla-dx'
+name = 'wla-dx'
+
+homepage = 'https://github.com/vhelin/wla-dx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wla-dx'

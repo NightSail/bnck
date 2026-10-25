@@ -1,0 +1,12 @@
+id = 'ophcrack-ophcrack'
+name = 'ophcrack'
+
+homepage = 'https://ophcrack.sourceforge.io'
+
+[[package]]
+channel = 'fedora'
+name = 'ophcrack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ophcrack'

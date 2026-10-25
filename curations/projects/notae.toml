@@ -1,0 +1,8 @@
+id = 'notae'
+name = 'notae'
+
+homepage = 'https://apps.kde.org/notae'
+
+[[package]]
+channel = 'fedora'
+name = 'notae'

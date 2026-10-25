@@ -1,0 +1,8 @@
+id = 'ungit'
+name = 'ungit'
+
+homepage = 'https://github.com/FredrikNoren/ungit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ungit'

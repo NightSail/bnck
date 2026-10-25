@@ -1,0 +1,8 @@
+id = 'arename'
+name = 'arename'
+
+homepage = 'http://ft.bewatermyfriend.org/computer/arename.html'
+
+[[package]]
+channel = 'debian'
+name = 'arename'

@@ -1,0 +1,44 @@
+id = 'foo2zjs'
+name = 'foo2zjs'
+
+homepage = 'https://www.openprinting.org/driver/foo2zjs'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2ddst'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2hbpl'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2hiperc'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2hp'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2lava'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2oak'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2qpdl'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2slx'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2xqx'
+
+[[package]]
+channel = 'fedora'
+name = 'foo2zjs'

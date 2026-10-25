@@ -1,0 +1,12 @@
+id = 'percol'
+name = 'percol'
+
+repository = 'https://github.com/mooz/percol.git'
+
+[[package]]
+channel = 'debian'
+name = 'percol'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/percol'

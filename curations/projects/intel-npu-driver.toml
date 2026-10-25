@@ -1,0 +1,8 @@
+id = 'intel-npu-driver'
+name = 'intel-npu-driver'
+
+homepage = 'https://github.com/intel/linux-npu-driver'
+
+[[package]]
+channel = 'arch'
+name = 'intel-npu-driver'

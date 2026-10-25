@@ -1,0 +1,8 @@
+id = 'prometheus-mqtt-exporter'
+name = 'prometheus-mqtt-exporter'
+
+homepage = 'https://github.com/hikhvar/mqtt2prometheus'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-mqtt-exporter'

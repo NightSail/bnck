@@ -1,0 +1,8 @@
+id = 'pcaff'
+name = 'pcaff'
+
+homepage = 'https://salsa.debian.org/debian/pcaff'
+
+[[package]]
+channel = 'debian'
+name = 'pcaff'

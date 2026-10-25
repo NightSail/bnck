@@ -1,0 +1,8 @@
+id = 'svls'
+name = 'svls'
+
+repository = 'https://github.com/dalance/svls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svls'

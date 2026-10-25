@@ -1,0 +1,8 @@
+id = 'gtg'
+name = 'gtg'
+
+homepage = 'https://wiki.gnome.org/Apps/GTG'
+
+[[package]]
+channel = 'debian'
+name = 'gtg'

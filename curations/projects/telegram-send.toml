@@ -1,0 +1,13 @@
+id = 'telegram-send'
+name = 'telegram-send'
+
+homepage = 'https://pypi.org/project/telegram-send'
+repository = 'https://github.com/rahiel/telegram-send.git'
+
+[[package]]
+channel = 'debian'
+name = 'telegram-send'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/telegram-send'

@@ -1,0 +1,8 @@
+id = 'duf-sigoden'
+name = 'duf'
+
+repository = 'https://github.com/sigoden/duf'
+
+[[package]]
+channel = 'crates.io'
+name = 'duf'

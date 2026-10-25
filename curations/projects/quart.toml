@@ -1,0 +1,16 @@
+id = 'quart'
+name = 'quart'
+
+homepage = 'https://github.com/pallets/quart'
+
+[[package]]
+channel = 'arch'
+name = 'python-quart'
+
+[[package]]
+channel = 'debian'
+name = 'python3-quart'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-quart'

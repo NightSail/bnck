@@ -1,0 +1,12 @@
+id = 'qxgedit'
+name = 'qxgedit'
+
+homepage = 'https://qxgedit.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qxgedit'
+
+[[package]]
+channel = 'debian'
+name = 'qxgedit'

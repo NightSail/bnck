@@ -1,0 +1,8 @@
+id = 'snac2'
+name = 'snac2'
+
+homepage = 'https://codeberg.org/grunfink/snac2'
+
+[[package]]
+channel = 'debian'
+name = 'snac2'

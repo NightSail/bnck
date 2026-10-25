@@ -1,0 +1,8 @@
+id = 'lsnipes'
+name = 'lsnipes'
+
+homepage = 'http://www.ugcs.caltech.edu/~boultonj/snipes.html'
+
+[[package]]
+channel = 'fedora'
+name = 'lsnipes'

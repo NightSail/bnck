@@ -1,0 +1,8 @@
+id = 'gomodifytags'
+name = 'gomodifytags'
+
+repository = 'https://github.com/fatih/gomodifytags.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gomodifytags'

@@ -1,0 +1,12 @@
+id = 'cargo-crev'
+name = 'cargo-crev'
+
+homepage = 'https://github.com/crev-dev/cargo-crev'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-crev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-crev'

@@ -1,0 +1,13 @@
+id = 'buildapp'
+name = 'buildapp'
+
+homepage = 'https://www.xach.com/lisp/buildapp'
+repository = 'https://github.com/xach/buildapp.git'
+
+[[package]]
+channel = 'debian'
+name = 'buildapp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buildapp'

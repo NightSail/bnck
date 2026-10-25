@@ -1,0 +1,8 @@
+id = 'haskell-tasty-sugar'
+name = 'haskell-tasty-sugar'
+
+homepage = 'https://github.com/kquick/tasty-sugar'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-tasty-sugar'

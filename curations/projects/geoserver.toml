@@ -1,0 +1,8 @@
+id = 'geoserver'
+name = 'geoserver'
+
+homepage = 'https://geoserver.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geoserver'

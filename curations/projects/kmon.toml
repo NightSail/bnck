@@ -10,3 +10,7 @@ name = 'kmon'
 [[package]]
 channel = 'crates.io'
 name = 'kmon'
+
+[[package]]
+channel = 'debian'
+name = 'kmon'

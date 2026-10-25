@@ -1,0 +1,8 @@
+id = 'clang-uml'
+name = 'clang-uml'
+
+repository = 'https://github.com/bkryza/clang-uml.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clang-uml'

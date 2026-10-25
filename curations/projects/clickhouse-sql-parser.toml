@@ -1,0 +1,8 @@
+id = 'clickhouse-sql-parser'
+name = 'clickhouse-sql-parser'
+
+repository = 'https://github.com/AfterShip/clickhouse-sql-parser.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clickhouse-sql-parser'

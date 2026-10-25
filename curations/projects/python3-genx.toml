@@ -1,0 +1,6 @@
+id = 'python3-genx'
+name = 'python3-genx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-genx'

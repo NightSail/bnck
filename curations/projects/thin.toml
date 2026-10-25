@@ -1,0 +1,12 @@
+id = 'thin'
+name = 'thin'
+
+homepage = 'https://github.com/macournoyer/thin'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-thin'
+
+[[package]]
+channel = 'debian'
+name = 'thin'

@@ -1,0 +1,8 @@
+id = 'malt'
+name = 'malt'
+
+homepage = 'https://github.com/danielhuson/malt'
+
+[[package]]
+channel = 'debian'
+name = 'malt'

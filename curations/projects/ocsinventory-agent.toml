@@ -1,0 +1,12 @@
+id = 'ocsinventory-agent'
+name = 'ocsinventory-agent'
+
+homepage = 'https://www.ocsinventory-ng.org'
+
+[[package]]
+channel = 'debian'
+name = 'ocsinventory-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'ocsinventory-agent'

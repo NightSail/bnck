@@ -1,0 +1,13 @@
+id = 'lorem'
+name = 'lorem'
+
+homepage = 'https://apps.gnome.org/Lorem'
+repository = 'https://github.com/per9000/lorem.git'
+
+[[package]]
+channel = 'arch'
+name = 'lorem'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lorem'

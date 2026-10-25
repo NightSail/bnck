@@ -1,0 +1,8 @@
+id = 'httpdump'
+name = 'httpdump'
+
+homepage = 'https://github.com/hsiafan/httpdump'
+
+[[package]]
+channel = 'fedora'
+name = 'httpdump'

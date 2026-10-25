@@ -1,0 +1,9 @@
+id = 'oslo-openslo'
+name = 'oslo'
+
+homepage = 'https://openslo.com'
+repository = 'https://github.com/openslo/oslo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oslo'

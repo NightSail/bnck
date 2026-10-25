@@ -1,0 +1,20 @@
+id = 'wtype'
+name = 'wtype'
+
+homepage = 'https://github.com/atx/wtype'
+
+[[package]]
+channel = 'arch'
+name = 'wtype'
+
+[[package]]
+channel = 'debian'
+name = 'wtype'
+
+[[package]]
+channel = 'fedora'
+name = 'wtype'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wtype'

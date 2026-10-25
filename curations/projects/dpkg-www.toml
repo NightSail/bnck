@@ -1,0 +1,6 @@
+id = 'dpkg-www'
+name = 'dpkg-www'
+
+[[package]]
+channel = 'debian'
+name = 'dpkg-www'

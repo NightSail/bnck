@@ -1,0 +1,12 @@
+id = 'trader'
+name = 'trader'
+
+homepage = 'https://www.zap.org.au/projects/trader'
+
+[[package]]
+channel = 'fedora'
+name = 'trader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trader'

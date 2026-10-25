@@ -1,0 +1,17 @@
+id = 'lv'
+name = 'lv'
+
+homepage = 'http://www.ff.iij4u.or.jp/~nrt/lv'
+repository = 'https://salsa.debian.org/debian/lv.git'
+
+[[package]]
+channel = 'debian'
+name = 'lv'
+
+[[package]]
+channel = 'fedora'
+name = 'lv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lv'

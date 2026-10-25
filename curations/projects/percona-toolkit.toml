@@ -1,0 +1,17 @@
+id = 'percona-toolkit'
+name = 'percona-toolkit'
+
+homepage = 'https://www.percona.com/software/database-tools/percona-toolkit'
+repository = 'https://github.com/percona/percona-toolkit.git'
+
+[[package]]
+channel = 'arch'
+name = 'percona-toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'percona-toolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/percona-toolkit'

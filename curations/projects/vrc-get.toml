@@ -1,0 +1,8 @@
+id = 'vrc-get'
+name = 'vrc-get'
+
+repository = 'https://github.com/vrc-get/vrc-get.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vrc-get'

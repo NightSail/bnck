@@ -1,0 +1,8 @@
+id = 'base91'
+name = 'base91'
+
+homepage = 'https://base91.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/base91'

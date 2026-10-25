@@ -1,0 +1,8 @@
+id = 'qterm'
+name = 'qterm'
+
+homepage = 'https://github.com/qterm/qterm'
+
+[[package]]
+channel = 'debian'
+name = 'qterm'

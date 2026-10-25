@@ -1,0 +1,12 @@
+id = 'snobol4'
+name = 'snobol4'
+
+homepage = 'https://www.regressive.org/snobol4'
+
+[[package]]
+channel = 'fedora'
+name = 'snobol4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snobol4'

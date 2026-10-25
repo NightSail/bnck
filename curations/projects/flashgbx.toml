@@ -1,0 +1,8 @@
+id = 'flashgbx'
+name = 'flashgbx'
+
+homepage = 'https://github.com/lesserkuma/FlashGBX'
+
+[[package]]
+channel = 'arch'
+name = 'flashgbx'

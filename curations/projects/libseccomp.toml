@@ -1,0 +1,16 @@
+id = 'libseccomp'
+name = 'libseccomp'
+
+homepage = 'https://github.com/seccomp/libseccomp'
+
+[[package]]
+channel = 'arch'
+name = 'libseccomp'
+
+[[package]]
+channel = 'debian'
+name = 'seccomp'
+
+[[package]]
+channel = 'fedora'
+name = 'libseccomp-devel'

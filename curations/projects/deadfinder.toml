@@ -1,0 +1,9 @@
+id = 'deadfinder'
+name = 'deadfinder'
+
+homepage = 'https://deadfinder.hahwul.com'
+repository = 'https://github.com/hahwul/deadfinder.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deadfinder'

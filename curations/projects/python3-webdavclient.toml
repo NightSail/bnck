@@ -1,0 +1,8 @@
+id = 'python3-webdavclient'
+name = 'python3-webdavclient'
+
+homepage = 'https://github.com/ezhov-evgeny/webdav-client-python-3'
+
+[[package]]
+channel = 'debian'
+name = 'python3-webdavclient'

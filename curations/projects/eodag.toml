@@ -1,0 +1,8 @@
+id = 'eodag'
+name = 'eodag'
+
+homepage = 'https://github.com/CS-SI/eodag'
+
+[[package]]
+channel = 'debian'
+name = 'eodag'

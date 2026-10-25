@@ -1,0 +1,20 @@
+id = 'asciidoctor-pdf'
+name = 'asciidoctor-pdf'
+
+homepage = 'https://github.com/asciidoctor/asciidoctor-pdf'
+
+[[package]]
+channel = 'arch'
+name = 'asciidoctor-pdf'
+
+[[package]]
+channel = 'debian'
+name = 'asciidoctor-pdf'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-asciidoctor-pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-asciidoctor-pdf'

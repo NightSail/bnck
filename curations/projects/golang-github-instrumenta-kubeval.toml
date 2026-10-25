@@ -1,0 +1,8 @@
+id = 'golang-github-instrumenta-kubeval'
+name = 'golang-github-instrumenta-kubeval'
+
+homepage = 'https://github.com/instrumenta/kubeval'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-instrumenta-kubeval'

@@ -1,0 +1,20 @@
+id = 'heat'
+name = 'heat'
+
+homepage = 'http://wiki.openstack.org/Heat'
+
+[[package]]
+channel = 'debian'
+name = 'heat-api'
+
+[[package]]
+channel = 'debian'
+name = 'heat-api-cfn'
+
+[[package]]
+channel = 'debian'
+name = 'heat-common'
+
+[[package]]
+channel = 'debian'
+name = 'heat-engine'

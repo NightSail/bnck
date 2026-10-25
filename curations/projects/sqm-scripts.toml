@@ -1,0 +1,8 @@
+id = 'sqm-scripts'
+name = 'sqm-scripts'
+
+homepage = 'https://www.bufferbloat.net/projects/cerowrt/wiki/Smart_Queue_Management'
+
+[[package]]
+channel = 'fedora'
+name = 'sqm-scripts'

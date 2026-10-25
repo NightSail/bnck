@@ -1,0 +1,8 @@
+id = 'node-red'
+name = 'node-red'
+
+homepage = 'https://nodered.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/node-red'

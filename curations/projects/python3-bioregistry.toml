@@ -1,0 +1,8 @@
+id = 'python3-bioregistry'
+name = 'python3-bioregistry'
+
+homepage = 'https://bioregistry.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bioregistry'

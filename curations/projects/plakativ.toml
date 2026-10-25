@@ -1,0 +1,8 @@
+id = 'plakativ'
+name = 'plakativ'
+
+homepage = 'https://gitlab.mister-muffin.de/josch/plakativ'
+
+[[package]]
+channel = 'debian'
+name = 'plakativ'

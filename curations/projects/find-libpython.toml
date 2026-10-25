@@ -1,0 +1,8 @@
+id = 'find-libpython'
+name = 'find-libpython'
+
+homepage = 'https://github.com/ktbarrett/find_libpython'
+
+[[package]]
+channel = 'debian'
+name = 'find-libpython'

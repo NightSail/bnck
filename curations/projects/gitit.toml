@@ -1,0 +1,16 @@
+id = 'gitit'
+name = 'gitit'
+
+homepage = 'https://github.com/jgm/gitit'
+
+[[package]]
+channel = 'arch'
+name = 'gitit'
+
+[[package]]
+channel = 'debian'
+name = 'gitit'
+
+[[package]]
+channel = 'fedora'
+name = 'gitit'

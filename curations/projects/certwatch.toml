@@ -1,0 +1,8 @@
+id = 'certwatch'
+name = 'certwatch'
+
+homepage = 'https://github.com/notroj/certwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'certwatch'

@@ -1,0 +1,17 @@
+id = 'boxes'
+name = 'boxes'
+
+homepage = 'https://boxes.thomasjensen.com'
+repository = 'https://github.com/ascii-boxes/boxes.git'
+
+[[package]]
+channel = 'debian'
+name = 'boxes'
+
+[[package]]
+channel = 'fedora'
+name = 'boxes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boxes'

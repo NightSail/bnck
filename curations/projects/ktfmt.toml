@@ -1,0 +1,8 @@
+id = 'ktfmt'
+name = 'ktfmt'
+
+homepage = 'https://facebook.github.io/ktfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktfmt'

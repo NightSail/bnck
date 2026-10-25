@@ -1,0 +1,12 @@
+id = 'libzypp'
+name = 'libzypp'
+
+homepage = 'https://github.com/openSUSE/libzypp'
+
+[[package]]
+channel = 'arch'
+name = 'libzypp'
+
+[[package]]
+channel = 'debian'
+name = 'libzypp-bin'

@@ -1,0 +1,8 @@
+id = 'stepic'
+name = 'stepic'
+
+homepage = 'https://launchpad.net/stepic'
+
+[[package]]
+channel = 'debian'
+name = 'stepic'

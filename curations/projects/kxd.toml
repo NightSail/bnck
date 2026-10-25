@@ -1,0 +1,16 @@
+id = 'kxd'
+name = 'kxd'
+
+homepage = 'https://blitiri.com.ar/p/kxd'
+
+[[package]]
+channel = 'debian'
+name = 'kxc'
+
+[[package]]
+channel = 'debian'
+name = 'kxd'
+
+[[package]]
+channel = 'debian'
+name = 'kxgencert'

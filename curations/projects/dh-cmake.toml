@@ -1,0 +1,8 @@
+id = 'dh-cmake'
+name = 'dh-cmake'
+
+homepage = 'https://gitlab.kitware.com/debian/dh-cmake'
+
+[[package]]
+channel = 'debian'
+name = 'dh-cmake'

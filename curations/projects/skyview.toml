@@ -1,0 +1,8 @@
+id = 'skyview'
+name = 'skyview'
+
+homepage = 'https://skyview.gsfc.nasa.gov'
+
+[[package]]
+channel = 'debian'
+name = 'skyview'

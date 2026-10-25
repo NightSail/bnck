@@ -1,0 +1,16 @@
+id = 'huggingface-hub'
+name = 'huggingface-hub'
+
+homepage = 'https://github.com/huggingface/huggingface_hub'
+
+[[package]]
+channel = 'arch'
+name = 'python-huggingface-hub'
+
+[[package]]
+channel = 'debian'
+name = 'python3-huggingface-hub'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-huggingface-hub'

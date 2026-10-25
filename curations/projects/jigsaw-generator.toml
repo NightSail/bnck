@@ -1,0 +1,8 @@
+id = 'jigsaw-generator'
+name = 'jigsaw-generator'
+
+homepage = 'https://github.com/juliangilbey/jigsaw-generator.git'
+
+[[package]]
+channel = 'debian'
+name = 'jigsaw-generator'

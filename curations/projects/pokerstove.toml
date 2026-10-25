@@ -1,0 +1,8 @@
+id = 'pokerstove'
+name = 'pokerstove'
+
+homepage = 'https://github.com/andrewprock/pokerstove'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pokerstove'

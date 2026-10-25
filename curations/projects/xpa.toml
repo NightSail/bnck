@@ -1,0 +1,12 @@
+id = 'xpa'
+name = 'xpa'
+
+homepage = 'https://hea-www.harvard.edu/RD/xpa'
+
+[[package]]
+channel = 'debian'
+name = 'xpa-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'xpa'

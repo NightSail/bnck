@@ -1,0 +1,8 @@
+id = 'oscs'
+name = 'oscs'
+
+homepage = 'https://salsa.debian.org/openstack-team/clients/oscs'
+
+[[package]]
+channel = 'debian'
+name = 'oscs'

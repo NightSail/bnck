@@ -1,0 +1,8 @@
+id = 'superkb'
+name = 'superkb'
+
+homepage = 'http://superkb.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'superkb'

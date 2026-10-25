@@ -1,0 +1,8 @@
+id = 'ea-utils'
+name = 'ea-utils'
+
+homepage = 'https://expressionanalysis.github.io/ea-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ea-utils'

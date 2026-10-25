@@ -1,0 +1,8 @@
+id = 'mcp-proxy'
+name = 'mcp-proxy'
+
+homepage = 'https://github.com/sparfenyuk/mcp-proxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-proxy'

@@ -1,0 +1,8 @@
+id = 'eclipse-titan'
+name = 'eclipse-titan'
+
+homepage = 'https://gitlab.eclipse.org/eclipse/titan/titan.core'
+
+[[package]]
+channel = 'debian'
+name = 'eclipse-titan'

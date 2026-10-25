@@ -1,0 +1,20 @@
+id = 'bmake'
+name = 'bmake'
+
+homepage = 'https://www.crufty.net/help/sjg/bmake.html'
+
+[[package]]
+channel = 'arch'
+name = 'bmake'
+
+[[package]]
+channel = 'debian'
+name = 'bmake'
+
+[[package]]
+channel = 'fedora'
+name = 'bmake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bmake'

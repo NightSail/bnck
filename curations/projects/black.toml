@@ -5,5 +5,25 @@ homepage = 'https://black.readthedocs.io/'
 repository = 'https://github.com/psf/black'
 
 [[package]]
+channel = 'arch'
+name = 'python-black'
+
+[[package]]
+channel = 'debian'
+name = 'black'
+
+[[package]]
+channel = 'fedora'
+name = 'black'
+
+[[package]]
+channel = 'fedora'
+name = 'black+d'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/black'
+
+[[package]]
 channel = 'pypi'
 name = 'black'

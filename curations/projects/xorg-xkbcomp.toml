@@ -1,0 +1,8 @@
+id = 'xorg-xkbcomp'
+name = 'xorg-xkbcomp'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xkbcomp'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xkbcomp'

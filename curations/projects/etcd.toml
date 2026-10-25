@@ -1,0 +1,25 @@
+id = 'etcd'
+name = 'etcd'
+
+homepage = 'https://etcd.io'
+repository = 'https://github.com/etcd-io/etcd.git'
+
+[[package]]
+channel = 'arch'
+name = 'etcd'
+
+[[package]]
+channel = 'debian'
+name = 'etcd-client'
+
+[[package]]
+channel = 'debian'
+name = 'etcd-server'
+
+[[package]]
+channel = 'fedora'
+name = 'etcd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/etcd'

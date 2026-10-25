@@ -1,0 +1,12 @@
+id = 'kcat-kcat'
+name = 'kcat'
+
+homepage = 'https://kcat.tomasu.net/alure.html'
+
+[[package]]
+channel = 'arch'
+name = 'alure'
+
+[[package]]
+channel = 'debian'
+name = 'alure-utils'

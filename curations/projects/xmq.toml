@@ -1,0 +1,9 @@
+id = 'xmq'
+name = 'xmq'
+
+homepage = 'https://libxmq.org'
+repository = 'https://github.com/libxmq/xmq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmq'

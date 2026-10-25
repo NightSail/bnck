@@ -1,0 +1,9 @@
+id = 'pkgx'
+name = 'pkgx'
+
+homepage = 'https://pkgx.sh'
+repository = 'https://github.com/pkgxdev/pkgx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkgx'

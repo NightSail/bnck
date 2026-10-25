@@ -1,0 +1,16 @@
+id = 'frescobaldi'
+name = 'frescobaldi'
+
+homepage = 'https://www.frescobaldi.org'
+
+[[package]]
+channel = 'arch'
+name = 'frescobaldi'
+
+[[package]]
+channel = 'debian'
+name = 'frescobaldi'
+
+[[package]]
+channel = 'fedora'
+name = 'frescobaldi'

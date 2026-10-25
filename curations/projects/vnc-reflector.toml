@@ -1,0 +1,8 @@
+id = 'vnc-reflector'
+name = 'vnc-reflector'
+
+homepage = 'http://sourceforge.net/projects/vnc-reflector'
+
+[[package]]
+channel = 'fedora'
+name = 'vnc-reflector'

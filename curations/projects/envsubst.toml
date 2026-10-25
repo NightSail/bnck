@@ -1,0 +1,12 @@
+id = 'envsubst'
+name = 'envsubst'
+
+homepage = 'https://github.com/a8m/envsubst'
+
+[[package]]
+channel = 'debian'
+name = 'envsubst'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-a8m-envsubst'

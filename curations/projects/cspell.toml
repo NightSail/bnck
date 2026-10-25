@@ -1,0 +1,8 @@
+id = 'cspell'
+name = 'cspell'
+
+homepage = 'https://cspell.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cspell'

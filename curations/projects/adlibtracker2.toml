@@ -1,0 +1,8 @@
+id = 'adlibtracker2'
+name = 'adlibtracker2'
+
+homepage = 'http://www.adlibtracker.net'
+
+[[package]]
+channel = 'debian'
+name = 'adlibtracker2'

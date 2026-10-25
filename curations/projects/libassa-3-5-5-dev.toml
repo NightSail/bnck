@@ -1,0 +1,8 @@
+id = 'libassa-3-5-5-dev'
+name = 'libassa-3.5-5-dev'
+
+homepage = 'http://libassa.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libassa-3.5-5-dev'

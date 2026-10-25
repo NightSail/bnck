@@ -1,0 +1,9 @@
+id = 'dtools'
+name = 'dtools'
+
+homepage = 'https://dlang.org'
+repository = 'https://github.com/dlang/tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtools'

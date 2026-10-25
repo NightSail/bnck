@@ -1,0 +1,12 @@
+id = 'bake'
+name = 'bake'
+
+homepage = 'https://github.com/ioquatix/bake'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-bake'
+
+[[package]]
+channel = 'debian'
+name = 'bake'

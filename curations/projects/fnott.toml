@@ -1,0 +1,12 @@
+id = 'fnott'
+name = 'fnott'
+
+homepage = 'https://codeberg.org/dnkl/fnott'
+
+[[package]]
+channel = 'arch'
+name = 'fnott'
+
+[[package]]
+channel = 'debian'
+name = 'fnott'

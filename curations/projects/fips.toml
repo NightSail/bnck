@@ -1,0 +1,8 @@
+id = 'fips'
+name = 'fips'
+
+homepage = 'https://github.com/matwey/fips3'
+
+[[package]]
+channel = 'fedora'
+name = 'fips'

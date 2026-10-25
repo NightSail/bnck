@@ -1,0 +1,6 @@
+id = 'file-kanji'
+name = 'file-kanji'
+
+[[package]]
+channel = 'debian'
+name = 'file-kanji'

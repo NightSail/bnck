@@ -1,0 +1,8 @@
+id = 'python-bowler'
+name = 'python-bowler'
+
+homepage = 'https://github.com/facebookincubator/bowler'
+
+[[package]]
+channel = 'arch'
+name = 'python-bowler'

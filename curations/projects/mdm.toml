@@ -1,0 +1,8 @@
+id = 'mdm'
+name = 'mdm'
+
+homepage = 'https://github.com/cklin/mdm'
+
+[[package]]
+channel = 'debian'
+name = 'mdm'

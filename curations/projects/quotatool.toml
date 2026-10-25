@@ -1,0 +1,17 @@
+id = 'quotatool'
+name = 'quotatool'
+
+homepage = 'https://quotatool.ekenberg.se'
+repository = 'https://github.com/ekenberg/quotatool.git'
+
+[[package]]
+channel = 'debian'
+name = 'quotatool'
+
+[[package]]
+channel = 'fedora'
+name = 'quotatool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quotatool'

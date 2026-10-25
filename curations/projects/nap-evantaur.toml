@@ -1,0 +1,8 @@
+id = 'nap-evantaur'
+name = 'nap'
+
+repository = 'https://github.com/evantaur/nap'
+
+[[package]]
+channel = 'crates.io'
+name = 'nap'

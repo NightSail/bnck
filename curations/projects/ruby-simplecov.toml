@@ -1,0 +1,12 @@
+id = 'ruby-simplecov'
+name = 'ruby-simplecov'
+
+homepage = 'https://github.com/simplecov-ruby/simplecov'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-simplecov'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-simplecov'

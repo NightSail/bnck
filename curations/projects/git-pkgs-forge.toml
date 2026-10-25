@@ -1,0 +1,8 @@
+id = 'git-pkgs-forge'
+name = 'git-pkgs-forge'
+
+repository = 'https://github.com/git-pkgs/forge.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-pkgs-forge'

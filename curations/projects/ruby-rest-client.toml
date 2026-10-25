@@ -1,0 +1,8 @@
+id = 'ruby-rest-client'
+name = 'ruby-rest-client'
+
+homepage = 'https://github.com/rest-client/rest-client'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rest-client'

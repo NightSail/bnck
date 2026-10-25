@@ -1,0 +1,6 @@
+id = 'kylin-video'
+name = 'kylin-video'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-video'

@@ -1,0 +1,8 @@
+id = 'unsort'
+name = 'unsort'
+
+homepage = 'https://git.fruit.je/unsort'
+
+[[package]]
+channel = 'debian'
+name = 'unsort'

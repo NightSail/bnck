@@ -1,0 +1,8 @@
+id = 'ecbuild'
+name = 'ecbuild'
+
+homepage = 'https://confluence.ecmwf.int/spaces/viewspace.action'
+
+[[package]]
+channel = 'debian'
+name = 'ecbuild'

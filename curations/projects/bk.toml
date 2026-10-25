@@ -1,0 +1,8 @@
+id = 'bk'
+name = 'bk'
+
+repository = 'https://github.com/aeosynth/bk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bk'

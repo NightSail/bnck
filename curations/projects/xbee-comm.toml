@@ -1,0 +1,8 @@
+id = 'xbee-comm'
+name = 'xbee-comm'
+
+repository = 'https://github.com/guyzmo/xbee-comm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xbee-comm'

@@ -1,0 +1,8 @@
+id = 'aseqjoy'
+name = 'aseqjoy'
+
+homepage = 'https://terminatorx.org/addons'
+
+[[package]]
+channel = 'debian'
+name = 'aseqjoy'

@@ -1,0 +1,9 @@
+id = 'kargo'
+name = 'kargo'
+
+homepage = 'https://kargo.io'
+repository = 'https://github.com/akuity/kargo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kargo'

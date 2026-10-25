@@ -1,0 +1,8 @@
+id = 'iaxmodem'
+name = 'iaxmodem'
+
+homepage = 'http://iaxmodem.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'iaxmodem'

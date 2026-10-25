@@ -1,0 +1,8 @@
+id = 'bee2cmd'
+name = 'bee2cmd'
+
+homepage = 'http://apmi.bsu.by/resources/tools.html'
+
+[[package]]
+channel = 'fedora'
+name = 'bee2cmd'

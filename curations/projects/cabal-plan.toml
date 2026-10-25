@@ -1,0 +1,8 @@
+id = 'cabal-plan'
+name = 'cabal-plan'
+
+homepage = 'https://github.com/hvr/cabal-plan'
+
+[[package]]
+channel = 'arch'
+name = 'cabal-plan'

@@ -1,0 +1,8 @@
+id = 'caph'
+name = 'caph'
+
+homepage = 'http://sourceforge.net/projects/caphgame'
+
+[[package]]
+channel = 'arch'
+name = 'caph'

@@ -1,0 +1,6 @@
+id = 'drawterm'
+name = 'drawterm'
+
+[[package]]
+channel = 'debian'
+name = 'drawterm'

@@ -1,0 +1,12 @@
+id = 'log-log4perl'
+name = 'Log-Log4perl'
+
+homepage = 'https://metacpan.org/release/Log-Log4perl'
+
+[[package]]
+channel = 'debian'
+name = 'liblog-log4perl-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Log-Log4perl'

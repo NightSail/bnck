@@ -1,0 +1,8 @@
+id = 'sigstore-go'
+name = 'sigstore-go'
+
+homepage = 'https://github.com/sigstore/sigstore-go'
+
+[[package]]
+channel = 'debian'
+name = 'sigstore-go'

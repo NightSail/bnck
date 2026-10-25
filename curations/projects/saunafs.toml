@@ -1,0 +1,32 @@
+id = 'saunafs'
+name = 'saunafs'
+
+homepage = 'https://saunafs.com'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-adm'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-cgiserv'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-chunkserver'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-client'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-master'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-metalogger'
+
+[[package]]
+channel = 'debian'
+name = 'saunafs-uraft'

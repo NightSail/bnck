@@ -1,0 +1,6 @@
+id = 'libmm-dev'
+name = 'libmm-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libmm-dev'

@@ -1,0 +1,13 @@
+id = 'mydumper'
+name = 'mydumper'
+
+homepage = 'https://github.com/maxbube/mydumper'
+repository = 'https://github.com/mydumper/mydumper.git'
+
+[[package]]
+channel = 'debian'
+name = 'mydumper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mydumper'

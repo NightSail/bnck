@@ -1,0 +1,8 @@
+id = 'mallet'
+name = 'mallet'
+
+homepage = 'https://mimno.github.io/Mallet/index'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mallet'

@@ -1,0 +1,8 @@
+id = 'golang-codeberg-gbcox-beetbrainz'
+name = 'golang-codeberg-gbcox-beetbrainz'
+
+homepage = 'https://codeberg.org/gbcox/beetbrainz'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-codeberg-gbcox-beetbrainz'

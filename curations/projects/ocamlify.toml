@@ -1,0 +1,12 @@
+id = 'ocamlify'
+name = 'ocamlify'
+
+homepage = 'http://ocamlify.forge.ocamlcore.org'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlify'
+
+[[package]]
+channel = 'fedora'
+name = 'ocamlify'

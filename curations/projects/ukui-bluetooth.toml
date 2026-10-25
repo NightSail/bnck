@@ -1,0 +1,6 @@
+id = 'ukui-bluetooth'
+name = 'ukui-bluetooth'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-bluetooth'

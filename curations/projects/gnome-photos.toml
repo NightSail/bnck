@@ -1,0 +1,16 @@
+id = 'gnome-photos'
+name = 'gnome-photos'
+
+homepage = 'https://wiki.gnome.org/Apps/Photos'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-photos'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-photos'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-photos'

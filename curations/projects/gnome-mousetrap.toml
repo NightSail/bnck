@@ -1,0 +1,8 @@
+id = 'gnome-mousetrap'
+name = 'gnome-mousetrap'
+
+homepage = 'https://wiki.gnome.org/Projects/MouseTrap'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-mousetrap'

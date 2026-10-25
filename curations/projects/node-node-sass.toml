@@ -1,0 +1,8 @@
+id = 'node-node-sass'
+name = 'node-node-sass'
+
+homepage = 'https://github.com/sass/node-sass'
+
+[[package]]
+channel = 'debian'
+name = 'node-node-sass'

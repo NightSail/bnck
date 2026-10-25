@@ -1,0 +1,8 @@
+id = 'text-embeddings-inference'
+name = 'text-embeddings-inference'
+
+homepage = 'https://huggingface.co/docs/text-embeddings-inference/quick_tour'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/text-embeddings-inference'

@@ -1,0 +1,8 @@
+id = 'eolie'
+name = 'eolie'
+
+homepage = 'https://wiki.gnome.org/Apps/Eolie'
+
+[[package]]
+channel = 'arch'
+name = 'eolie'

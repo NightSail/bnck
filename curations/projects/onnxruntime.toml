@@ -1,0 +1,32 @@
+id = 'onnxruntime'
+name = 'onnxruntime'
+
+homepage = 'https://github.com/microsoft/onnxruntime'
+
+[[package]]
+channel = 'arch'
+name = 'python-onnxruntime-cpu'
+
+[[package]]
+channel = 'arch'
+name = 'python-onnxruntime-cuda'
+
+[[package]]
+channel = 'arch'
+name = 'python-onnxruntime-opt-cuda'
+
+[[package]]
+channel = 'arch'
+name = 'python-onnxruntime-opt-rocm'
+
+[[package]]
+channel = 'arch'
+name = 'python-onnxruntime-rocm'
+
+[[package]]
+channel = 'debian'
+name = 'onnxruntime-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-onnxruntime'

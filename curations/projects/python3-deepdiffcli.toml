@@ -1,0 +1,8 @@
+id = 'python3-deepdiffcli'
+name = 'python3-deepdiff+cli'
+
+homepage = 'https://github.com/seperman/deepdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-deepdiff+cli'

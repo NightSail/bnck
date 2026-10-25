@@ -1,0 +1,8 @@
+id = 'jsdoc3'
+name = 'jsdoc3'
+
+homepage = 'https://jsdoc.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsdoc3'

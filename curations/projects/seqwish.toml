@@ -1,0 +1,8 @@
+id = 'seqwish'
+name = 'seqwish'
+
+repository = 'https://github.com/pangenome/seqwish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seqwish'

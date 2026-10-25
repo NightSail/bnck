@@ -1,0 +1,24 @@
+id = 'v4l-utils'
+name = 'v4l-utils'
+
+homepage = 'http://www.linuxtv.org/downloads/v4l-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'dvb-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'qv4l2'
+
+[[package]]
+channel = 'fedora'
+name = 'rc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'v4l-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'v4l-utils-devel-tools'

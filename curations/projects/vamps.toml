@@ -1,0 +1,12 @@
+id = 'vamps'
+name = 'vamps'
+
+homepage = 'http://vamps.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'vamps'
+
+[[package]]
+channel = 'debian'
+name = 'vamps'

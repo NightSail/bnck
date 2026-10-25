@@ -1,0 +1,6 @@
+id = 'iroffer'
+name = 'iroffer'
+
+[[package]]
+channel = 'debian'
+name = 'iroffer'

@@ -1,0 +1,12 @@
+id = 'sql-splitstatement'
+name = 'SQL-SplitStatement'
+
+homepage = 'https://metacpan.org/release/SQL-SplitStatement'
+
+[[package]]
+channel = 'debian'
+name = 'libsql-splitstatement-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SQL-SplitStatement'

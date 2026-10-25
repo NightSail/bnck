@@ -1,0 +1,8 @@
+id = 'rnote'
+name = 'rnote'
+
+homepage = 'https://github.com/flxzt/rnote'
+
+[[package]]
+channel = 'arch'
+name = 'rnote'

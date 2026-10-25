@@ -1,0 +1,9 @@
+id = 'kics'
+name = 'kics'
+
+homepage = 'https://kics.io'
+repository = 'https://github.com/Checkmarx/kics.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kics'

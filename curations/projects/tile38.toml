@@ -1,0 +1,9 @@
+id = 'tile38'
+name = 'tile38'
+
+homepage = 'https://tile38.com'
+repository = 'https://github.com/tidwall/tile38.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tile38'

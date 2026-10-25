@@ -1,0 +1,12 @@
+id = 'colormake'
+name = 'colormake'
+
+repository = 'https://github.com/pagekite/Colormake.git'
+
+[[package]]
+channel = 'debian'
+name = 'colormake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/colormake'

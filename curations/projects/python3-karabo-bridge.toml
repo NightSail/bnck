@@ -1,0 +1,8 @@
+id = 'python3-karabo-bridge'
+name = 'python3-karabo-bridge'
+
+homepage = 'https://github.com/European-XFEL/karabo-bridge-py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-karabo-bridge'

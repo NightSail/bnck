@@ -1,0 +1,9 @@
+id = 'ipopt'
+name = 'ipopt'
+
+homepage = 'https://coin-or.github.io/Ipopt'
+repository = 'https://github.com/coin-or/Ipopt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipopt'

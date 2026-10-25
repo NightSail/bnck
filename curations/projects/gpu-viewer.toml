@@ -1,0 +1,12 @@
+id = 'gpu-viewer'
+name = 'gpu-viewer'
+
+homepage = 'https://github.com/arunsivaramanneo/GPU-Viewer'
+
+[[package]]
+channel = 'arch'
+name = 'gpu-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'gpu-viewer'

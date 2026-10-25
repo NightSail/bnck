@@ -1,0 +1,8 @@
+id = 'leaps'
+name = 'leaps'
+
+repository = 'https://github.com/jeffail/leaps.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leaps'

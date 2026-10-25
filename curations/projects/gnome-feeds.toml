@@ -1,0 +1,8 @@
+id = 'gnome-feeds'
+name = 'gnome-feeds'
+
+homepage = 'https://gabmus.gitlab.io/gnome-feeds'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-feeds'

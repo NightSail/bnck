@@ -1,0 +1,8 @@
+id = 'virt-bootstrap'
+name = 'virt-bootstrap'
+
+homepage = 'https://github.com/virt-manager/virt-bootstrap'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-bootstrap'

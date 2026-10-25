@@ -1,0 +1,9 @@
+id = 'proof-general'
+name = 'proof-general'
+
+homepage = 'https://proofgeneral.github.io'
+repository = 'https://github.com/ProofGeneral/PG.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proof-general'

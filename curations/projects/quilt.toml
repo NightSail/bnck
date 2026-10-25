@@ -1,0 +1,21 @@
+id = 'quilt'
+name = 'quilt'
+
+homepage = 'https://savannah.nongnu.org/projects/quilt'
+repository = 'https://git.savannah.gnu.org/git/quilt.git'
+
+[[package]]
+channel = 'arch'
+name = 'quilt'
+
+[[package]]
+channel = 'debian'
+name = 'quilt'
+
+[[package]]
+channel = 'fedora'
+name = 'quilt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quilt'

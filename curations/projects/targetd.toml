@@ -1,0 +1,8 @@
+id = 'targetd'
+name = 'targetd'
+
+homepage = 'https://github.com/open-iscsi/targetd'
+
+[[package]]
+channel = 'fedora'
+name = 'targetd'

@@ -1,0 +1,12 @@
+id = 'gcin'
+name = 'gcin'
+
+homepage = 'https://hyperrate.com/dir.php'
+
+[[package]]
+channel = 'arch'
+name = 'gcin'
+
+[[package]]
+channel = 'debian'
+name = 'gcin'

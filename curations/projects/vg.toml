@@ -1,0 +1,8 @@
+id = 'vg'
+name = 'vg'
+
+homepage = 'https://github.com/vgteam/vg'
+
+[[package]]
+channel = 'debian'
+name = 'vg'

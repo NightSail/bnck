@@ -1,0 +1,8 @@
+id = 'perl-app-a2p'
+name = 'perl-App-a2p'
+
+homepage = 'https://metacpan.org/release/App-a2p'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-a2p'

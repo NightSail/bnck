@@ -1,0 +1,8 @@
+id = 'nihstro-tools'
+name = 'nihstro-tools'
+
+homepage = 'https://github.com/neobrain/nihstro'
+
+[[package]]
+channel = 'debian'
+name = 'nihstro-tools'

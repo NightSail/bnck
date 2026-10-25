@@ -1,0 +1,8 @@
+id = 'xkbsel'
+name = 'xkbsel'
+
+homepage = 'https://www.meduna.org/sw_xkbsel_en.html'
+
+[[package]]
+channel = 'arch'
+name = 'xkbsel'

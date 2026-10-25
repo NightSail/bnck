@@ -1,0 +1,9 @@
+id = 'libvirt-libvirt-2'
+name = 'libvirt'
+
+homepage = 'https://libvirt.org'
+repository = 'https://gitlab.com/libvirt/libvirt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libvirt'

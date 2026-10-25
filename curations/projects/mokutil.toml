@@ -1,0 +1,16 @@
+id = 'mokutil'
+name = 'mokutil'
+
+homepage = 'https://github.com/lcp/mokutil'
+
+[[package]]
+channel = 'arch'
+name = 'mokutil'
+
+[[package]]
+channel = 'debian'
+name = 'mokutil'
+
+[[package]]
+channel = 'fedora'
+name = 'mokutil'

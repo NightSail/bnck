@@ -1,0 +1,12 @@
+id = 'file-find-object-rule'
+name = 'File-Find-Object-Rule'
+
+homepage = 'https://metacpan.org/release/File-Find-Object-Rule'
+
+[[package]]
+channel = 'debian'
+name = 'libfile-find-object-rule-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-File-Find-Object-Rule'

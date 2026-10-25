@@ -1,0 +1,12 @@
+id = 'python3-ropgadget'
+name = 'python3-ropgadget'
+
+homepage = 'https://shell-storm.org/project/ROPgadget'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ropgadget'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ROPGadget'

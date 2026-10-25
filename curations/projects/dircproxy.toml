@@ -1,0 +1,6 @@
+id = 'dircproxy'
+name = 'dircproxy'
+
+[[package]]
+channel = 'debian'
+name = 'dircproxy'

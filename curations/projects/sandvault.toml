@@ -1,0 +1,8 @@
+id = 'sandvault'
+name = 'sandvault'
+
+homepage = 'https://github.com/webcoyote/sandvault'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sandvault'

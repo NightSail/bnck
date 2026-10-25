@@ -1,0 +1,20 @@
+id = 'lomiri-ui-toolkit'
+name = 'lomiri-ui-toolkit'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-ui-toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-app-launch-profiler'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-app-launch-profiler-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-ui-toolkit-tools'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-ui-toolkit-tools-qt6'

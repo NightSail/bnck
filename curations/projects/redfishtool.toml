@@ -1,0 +1,8 @@
+id = 'redfishtool'
+name = 'redfishtool'
+
+homepage = 'https://github.com/DMTF/Redfishtool'
+
+[[package]]
+channel = 'debian'
+name = 'redfishtool'

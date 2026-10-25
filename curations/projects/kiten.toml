@@ -1,0 +1,16 @@
+id = 'kiten'
+name = 'kiten'
+
+homepage = 'https://apps.kde.org/kiten'
+
+[[package]]
+channel = 'arch'
+name = 'kiten'
+
+[[package]]
+channel = 'debian'
+name = 'kiten'
+
+[[package]]
+channel = 'fedora'
+name = 'kiten'

@@ -1,0 +1,8 @@
+id = 'hoz'
+name = 'hoz'
+
+homepage = 'https://web.archive.org/web/20181108231819/https://hoz.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'hoz'

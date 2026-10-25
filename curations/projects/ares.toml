@@ -1,0 +1,8 @@
+id = 'ares'
+name = 'ares'
+
+homepage = 'https://github.com/bee-san/Ares'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ares'

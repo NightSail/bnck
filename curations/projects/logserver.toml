@@ -1,0 +1,8 @@
+id = 'logserver'
+name = 'logserver'
+
+homepage = 'https://codeberg.org/potatocrunchcereal/logserver'
+
+[[package]]
+channel = 'debian'
+name = 'logserver'

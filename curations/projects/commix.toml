@@ -1,0 +1,8 @@
+id = 'commix'
+name = 'commix'
+
+homepage = 'https://github.com/commixproject/commix'
+
+[[package]]
+channel = 'debian'
+name = 'commix'

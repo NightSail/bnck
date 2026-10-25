@@ -1,0 +1,8 @@
+id = 'wikiextractor'
+name = 'wikiextractor'
+
+homepage = 'https://github.com/attardi/wikiextractor'
+
+[[package]]
+channel = 'debian'
+name = 'wikiextractor'

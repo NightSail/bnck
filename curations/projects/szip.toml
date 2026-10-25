@@ -1,0 +1,8 @@
+id = 'szip'
+name = 'szip'
+
+homepage = 'https://crates.io/crates/szip'
+
+[[package]]
+channel = 'fedora'
+name = 'szip'

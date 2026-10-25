@@ -1,0 +1,8 @@
+id = 'jirashell'
+name = 'jirashell'
+
+homepage = 'https://pypi.io/project/jira'
+
+[[package]]
+channel = 'fedora'
+name = 'jirashell'

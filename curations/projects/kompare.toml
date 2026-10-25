@@ -1,0 +1,16 @@
+id = 'kompare'
+name = 'kompare'
+
+homepage = 'https://apps.kde.org/kompare'
+
+[[package]]
+channel = 'arch'
+name = 'kompare'
+
+[[package]]
+channel = 'debian'
+name = 'kompare'
+
+[[package]]
+channel = 'fedora'
+name = 'kompare'

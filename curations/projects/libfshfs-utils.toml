@@ -1,0 +1,8 @@
+id = 'libfshfs-utils'
+name = 'libfshfs-utils'
+
+homepage = 'https://github.com/libyal/libfshfs'
+
+[[package]]
+channel = 'debian'
+name = 'libfshfs-utils'

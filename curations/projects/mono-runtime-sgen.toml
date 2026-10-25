@@ -1,0 +1,8 @@
+id = 'mono-runtime-sgen'
+name = 'mono-runtime-sgen'
+
+homepage = 'http://www.mono-project.com/Compacting_GC'
+
+[[package]]
+channel = 'debian'
+name = 'mono-runtime-sgen'

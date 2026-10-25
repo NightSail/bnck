@@ -1,0 +1,8 @@
+id = 'xinetd'
+name = 'xinetd'
+
+homepage = 'https://github.com/openSUSE/xinetd'
+
+[[package]]
+channel = 'debian'
+name = 'xinetd'

@@ -1,0 +1,16 @@
+id = 'patatt'
+name = 'patatt'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/patatt/patatt.git/about'
+
+[[package]]
+channel = 'arch'
+name = 'patatt'
+
+[[package]]
+channel = 'debian'
+name = 'patatt'
+
+[[package]]
+channel = 'fedora'
+name = 'patatt'

@@ -1,0 +1,8 @@
+id = 'python3-rosbags'
+name = 'python3-rosbags'
+
+homepage = 'https://gitlab.com/ternaris/rosbags'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosbags'

@@ -1,0 +1,8 @@
+id = 'python3-proselint'
+name = 'python3-proselint'
+
+homepage = 'http://proselint.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-proselint'

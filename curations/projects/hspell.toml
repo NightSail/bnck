@@ -1,0 +1,20 @@
+id = 'hspell'
+name = 'hspell'
+
+homepage = 'https://hspell.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'hspell'
+
+[[package]]
+channel = 'debian'
+name = 'hspell'
+
+[[package]]
+channel = 'fedora'
+name = 'hspell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hspell'

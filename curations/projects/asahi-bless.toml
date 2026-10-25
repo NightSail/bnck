@@ -1,0 +1,8 @@
+id = 'asahi-bless'
+name = 'asahi-bless'
+
+homepage = 'https://crates.io/crates/asahi-bless'
+
+[[package]]
+channel = 'fedora'
+name = 'asahi-bless'

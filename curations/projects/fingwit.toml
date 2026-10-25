@@ -1,0 +1,8 @@
+id = 'fingwit'
+name = 'fingwit'
+
+homepage = 'https://github.com/xapp-project/fingwit'
+
+[[package]]
+channel = 'debian'
+name = 'fingwit'

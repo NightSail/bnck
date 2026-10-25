@@ -1,0 +1,12 @@
+id = 'zola'
+name = 'zola'
+
+homepage = 'https://www.getzola.org'
+
+[[package]]
+channel = 'arch'
+name = 'zola'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zola'

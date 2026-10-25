@@ -1,0 +1,8 @@
+id = 'dhcp-forwarder'
+name = 'dhcp-forwarder'
+
+homepage = 'http://www.nongnu.org/dhcp-fwd'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcp-forwarder'

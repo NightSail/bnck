@@ -1,0 +1,8 @@
+id = 'python-pytest-bdd'
+name = 'python-pytest-bdd'
+
+homepage = 'https://github.com/pytest-dev/pytest-bdd'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytest-bdd'

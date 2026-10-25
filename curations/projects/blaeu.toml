@@ -1,0 +1,8 @@
+id = 'blaeu'
+name = 'blaeu'
+
+homepage = 'https://framagit.org/bortzmeyer/blaeu'
+
+[[package]]
+channel = 'debian'
+name = 'blaeu'

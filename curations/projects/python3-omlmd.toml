@@ -1,0 +1,8 @@
+id = 'python3-omlmd'
+name = 'python3-omlmd'
+
+homepage = 'https://github.com/containers/omlmd'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-omlmd'

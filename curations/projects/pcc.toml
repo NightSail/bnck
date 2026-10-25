@@ -1,0 +1,8 @@
+id = 'pcc'
+name = 'pcc'
+
+homepage = 'http://pcc.ludd.ltu.se'
+
+[[package]]
+channel = 'debian'
+name = 'pcc'

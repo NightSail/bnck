@@ -1,0 +1,8 @@
+id = 'python3-vitrageclient'
+name = 'python3-vitrageclient'
+
+homepage = 'https://github.com/openstack/python-vitrageclient.git'
+
+[[package]]
+channel = 'debian'
+name = 'python3-vitrageclient'

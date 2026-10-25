@@ -1,0 +1,16 @@
+id = 'z80dasm'
+name = 'z80dasm'
+
+homepage = 'https://www.tablix.org/~avian/blog/articles/z80dasm'
+
+[[package]]
+channel = 'debian'
+name = 'z80dasm'
+
+[[package]]
+channel = 'fedora'
+name = 'z80dasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/z80dasm'

@@ -1,0 +1,8 @@
+id = 'trufont'
+name = 'trufont'
+
+homepage = 'https://trufont.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'trufont'

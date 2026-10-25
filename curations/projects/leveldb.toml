@@ -1,0 +1,8 @@
+id = 'leveldb'
+name = 'leveldb'
+
+homepage = 'https://github.com/google/leveldb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leveldb'

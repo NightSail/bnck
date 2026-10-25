@@ -1,0 +1,8 @@
+id = 'rnetclient'
+name = 'rnetclient'
+
+homepage = 'https://man.sr.ht/~cascardo/rnetclient'
+
+[[package]]
+channel = 'debian'
+name = 'rnetclient'

@@ -1,0 +1,8 @@
+id = 'sgpio'
+name = 'sgpio'
+
+homepage = 'https://sourceware.org/lvm2/wiki/DMRAID_Eventing'
+
+[[package]]
+channel = 'fedora'
+name = 'sgpio'

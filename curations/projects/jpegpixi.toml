@@ -1,0 +1,8 @@
+id = 'jpegpixi'
+name = 'jpegpixi'
+
+homepage = 'http://www.zero-based.org/software/jpegpixi'
+
+[[package]]
+channel = 'debian'
+name = 'jpegpixi'

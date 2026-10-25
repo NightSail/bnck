@@ -1,0 +1,12 @@
+id = 'rheolef'
+name = 'rheolef'
+
+homepage = 'http://ljk.imag.fr/membres/Pierre.Saramito/rheolef'
+
+[[package]]
+channel = 'debian'
+name = 'librheolef-dev'
+
+[[package]]
+channel = 'debian'
+name = 'rheolef'

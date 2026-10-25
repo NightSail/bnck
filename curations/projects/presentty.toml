@@ -1,0 +1,8 @@
+id = 'presentty'
+name = 'presentty'
+
+homepage = 'http://git.inaugust.org/cgit/presentty'
+
+[[package]]
+channel = 'debian'
+name = 'presentty'

@@ -1,0 +1,12 @@
+id = 'stargz-snapshotter'
+name = 'stargz-snapshotter'
+
+homepage = 'https://github.com/containerd/stargz-snapshotter'
+
+[[package]]
+channel = 'debian'
+name = 'stargz-snapshotter'
+
+[[package]]
+channel = 'fedora'
+name = 'stargz-snapshotter'

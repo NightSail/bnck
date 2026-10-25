@@ -4,5 +4,13 @@ name = 'grunt-cli'
 homepage = 'https://github.com/gruntjs/grunt-cli'
 
 [[package]]
+channel = 'arch'
+name = 'grunt-cli'
+
+[[package]]
 channel = 'debian'
 name = 'node-grunt-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grunt-cli'

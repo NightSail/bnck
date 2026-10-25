@@ -1,0 +1,16 @@
+id = 'icns'
+name = 'icns'
+
+homepage = 'https://icns.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'libicns'
+
+[[package]]
+channel = 'debian'
+name = 'icnsutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libicns'

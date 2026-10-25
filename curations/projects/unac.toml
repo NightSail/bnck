@@ -1,0 +1,8 @@
+id = 'unac'
+name = 'unac'
+
+homepage = 'https://savannah.nongnu.org/projects/unac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unac'

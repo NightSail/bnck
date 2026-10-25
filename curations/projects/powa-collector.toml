@@ -1,0 +1,8 @@
+id = 'powa-collector'
+name = 'powa-collector'
+
+homepage = 'https://github.com/powa-team/powa-collector'
+
+[[package]]
+channel = 'debian'
+name = 'powa-collector'

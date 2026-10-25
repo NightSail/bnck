@@ -1,0 +1,12 @@
+id = 'hexchat'
+name = 'hexchat'
+
+homepage = 'https://hexchat.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'hexchat'
+
+[[package]]
+channel = 'fedora'
+name = 'hexchat'

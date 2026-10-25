@@ -1,0 +1,16 @@
+id = 'virtme-ng'
+name = 'virtme-ng'
+
+homepage = 'https://github.com/arighi/virtme-ng'
+
+[[package]]
+channel = 'arch'
+name = 'virtme-ng'
+
+[[package]]
+channel = 'debian'
+name = 'virtme-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'virtme-ng'

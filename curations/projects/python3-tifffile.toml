@@ -1,0 +1,12 @@
+id = 'python3-tifffile'
+name = 'python3-tifffile'
+
+homepage = 'https://www.lfd.uci.edu/~gohlke'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tifffile'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tifffile'

@@ -1,0 +1,8 @@
+id = 'libindi'
+name = 'libindi'
+
+homepage = 'https://www.indilib.org/index.php'
+
+[[package]]
+channel = 'arch'
+name = 'libindi'

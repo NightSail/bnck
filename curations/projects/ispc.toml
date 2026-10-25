@@ -1,0 +1,20 @@
+id = 'ispc'
+name = 'ispc'
+
+homepage = 'https://ispc.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'ispc'
+
+[[package]]
+channel = 'debian'
+name = 'ispc'
+
+[[package]]
+channel = 'fedora'
+name = 'ispc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ispc'

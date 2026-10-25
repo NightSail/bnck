@@ -1,0 +1,25 @@
+id = 'fail2ban'
+name = 'fail2ban'
+
+homepage = 'https://www.fail2ban.org'
+repository = 'https://github.com/fail2ban/fail2ban.git'
+
+[[package]]
+channel = 'arch'
+name = 'fail2ban'
+
+[[package]]
+channel = 'debian'
+name = 'fail2ban'
+
+[[package]]
+channel = 'fedora'
+name = 'fail2ban-server'
+
+[[package]]
+channel = 'fedora'
+name = 'fail2ban-tests'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fail2ban'

@@ -1,0 +1,8 @@
+id = 'tiarra'
+name = 'tiarra'
+
+homepage = 'https://www.clovery.jp/tiarra'
+
+[[package]]
+channel = 'debian'
+name = 'tiarra'

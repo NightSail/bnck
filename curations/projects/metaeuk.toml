@@ -1,0 +1,8 @@
+id = 'metaeuk'
+name = 'metaeuk'
+
+homepage = 'https://github.com/soedinglab/metaeuk'
+
+[[package]]
+channel = 'debian'
+name = 'metaeuk'

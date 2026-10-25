@@ -1,0 +1,16 @@
+id = 'tang'
+name = 'tang'
+
+homepage = 'https://github.com/latchset/tang'
+
+[[package]]
+channel = 'arch'
+name = 'tang'
+
+[[package]]
+channel = 'debian'
+name = 'tang-common'
+
+[[package]]
+channel = 'fedora'
+name = 'tang'

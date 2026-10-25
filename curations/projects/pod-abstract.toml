@@ -1,0 +1,12 @@
+id = 'pod-abstract'
+name = 'Pod-Abstract'
+
+homepage = 'https://metacpan.org/release/Pod-Abstract'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-abstract-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Abstract'

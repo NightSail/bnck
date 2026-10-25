@@ -1,0 +1,8 @@
+id = 'shml'
+name = 'shml'
+
+homepage = 'https://odb.github.io/shml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shml'

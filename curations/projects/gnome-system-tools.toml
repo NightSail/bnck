@@ -1,0 +1,8 @@
+id = 'gnome-system-tools'
+name = 'gnome-system-tools'
+
+homepage = 'https://github.com/LStranger/gnome-system-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-system-tools'

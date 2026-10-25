@@ -1,0 +1,8 @@
+id = 'pmuninstall'
+name = 'pmuninstall'
+
+homepage = 'https://metacpan.org/release/App-pmuninstall'
+
+[[package]]
+channel = 'debian'
+name = 'pmuninstall'

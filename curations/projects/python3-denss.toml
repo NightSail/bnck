@@ -1,0 +1,8 @@
+id = 'python3-denss'
+name = 'python3-denss'
+
+homepage = 'https://github.com/tdgrant1/denss'
+
+[[package]]
+channel = 'debian'
+name = 'python3-denss'

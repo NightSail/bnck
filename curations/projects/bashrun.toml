@@ -1,0 +1,8 @@
+id = 'bashrun'
+name = 'bashrun'
+
+homepage = 'https://sourceforge.net/projects/bashrun'
+
+[[package]]
+channel = 'arch'
+name = 'bashrun'

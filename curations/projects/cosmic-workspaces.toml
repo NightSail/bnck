@@ -1,0 +1,12 @@
+id = 'cosmic-workspaces'
+name = 'cosmic-workspaces'
+
+homepage = 'https://github.com/pop-os/cosmic-workspaces-epoch'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-workspaces'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-workspaces'

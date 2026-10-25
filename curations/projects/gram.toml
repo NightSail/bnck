@@ -1,0 +1,12 @@
+id = 'gram'
+name = 'gram'
+
+homepage = 'https://gram-editor.com'
+
+[[package]]
+channel = 'arch'
+name = 'gram'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gram'

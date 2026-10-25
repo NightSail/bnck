@@ -1,0 +1,8 @@
+id = 'autoimport'
+name = 'autoimport'
+
+homepage = 'https://github.com/lyz-code/autoimport'
+
+[[package]]
+channel = 'debian'
+name = 'autoimport'

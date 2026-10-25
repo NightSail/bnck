@@ -1,0 +1,8 @@
+id = 'dadadodo'
+name = 'dadadodo'
+
+homepage = 'https://www.jwz.org/dadadodo'
+
+[[package]]
+channel = 'debian'
+name = 'dadadodo'

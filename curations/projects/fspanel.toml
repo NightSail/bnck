@@ -1,0 +1,8 @@
+id = 'fspanel'
+name = 'fspanel'
+
+homepage = 'http://directory.fsf.org/wiki/Fspanel'
+
+[[package]]
+channel = 'debian'
+name = 'fspanel'

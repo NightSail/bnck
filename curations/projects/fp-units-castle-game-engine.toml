@@ -1,0 +1,8 @@
+id = 'fp-units-castle-game-engine'
+name = 'fp-units-castle-game-engine'
+
+homepage = 'https://castle-engine.sourceforge.io/engine.php'
+
+[[package]]
+channel = 'debian'
+name = 'fp-units-castle-game-engine'

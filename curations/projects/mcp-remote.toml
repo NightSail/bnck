@@ -1,0 +1,12 @@
+id = 'mcp-remote'
+name = 'mcp-remote'
+
+homepage = 'https://github.com/geelen/mcp-remote'
+
+[[package]]
+channel = 'arch'
+name = 'mcp-remote'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-remote'

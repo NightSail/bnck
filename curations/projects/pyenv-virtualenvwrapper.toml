@@ -1,0 +1,8 @@
+id = 'pyenv-virtualenvwrapper'
+name = 'pyenv-virtualenvwrapper'
+
+repository = 'https://github.com/pyenv/pyenv-virtualenvwrapper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyenv-virtualenvwrapper'

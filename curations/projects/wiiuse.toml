@@ -1,0 +1,8 @@
+id = 'wiiuse'
+name = 'wiiuse'
+
+homepage = 'https://github.com/wiiuse/wiiuse'
+
+[[package]]
+channel = 'arch'
+name = 'wiiuse'

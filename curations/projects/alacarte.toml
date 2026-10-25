@@ -1,0 +1,16 @@
+id = 'alacarte'
+name = 'alacarte'
+
+homepage = 'https://gitlab.gnome.org/GNOME/alacarte'
+
+[[package]]
+channel = 'arch'
+name = 'alacarte'
+
+[[package]]
+channel = 'debian'
+name = 'alacarte'
+
+[[package]]
+channel = 'fedora'
+name = 'alacarte'

@@ -1,0 +1,8 @@
+id = 'bicon'
+name = 'bicon'
+
+homepage = 'https://www.arabeyes.org/Bicon'
+
+[[package]]
+channel = 'fedora'
+name = 'bicon'

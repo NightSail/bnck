@@ -1,0 +1,9 @@
+id = 'cloud-nuke'
+name = 'cloud-nuke'
+
+homepage = 'https://gruntwork.io'
+repository = 'https://github.com/gruntwork-io/cloud-nuke.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloud-nuke'

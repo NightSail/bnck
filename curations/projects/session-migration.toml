@@ -1,0 +1,12 @@
+id = 'session-migration'
+name = 'session-migration'
+
+homepage = 'https://launchpad.net/session-migration'
+
+[[package]]
+channel = 'debian'
+name = 'dh-user-session-migration'
+
+[[package]]
+channel = 'debian'
+name = 'user-session-migration'

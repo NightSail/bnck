@@ -1,0 +1,8 @@
+id = 'cppp'
+name = 'cppp'
+
+homepage = 'https://www.muppetlabs.com/~breadbox/software/cppp.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cppp'

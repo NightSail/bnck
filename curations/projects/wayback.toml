@@ -1,0 +1,16 @@
+id = 'wayback'
+name = 'wayback'
+
+homepage = 'https://docs.wabarc.eu.org'
+
+[[package]]
+channel = 'debian'
+name = 'wayback'
+
+[[package]]
+channel = 'fedora'
+name = 'wayback'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wayback'

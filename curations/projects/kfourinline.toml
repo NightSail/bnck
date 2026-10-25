@@ -1,0 +1,12 @@
+id = 'kfourinline'
+name = 'kfourinline'
+
+homepage = 'https://apps.kde.org/kfourinline'
+
+[[package]]
+channel = 'arch'
+name = 'kfourinline'
+
+[[package]]
+channel = 'fedora'
+name = 'kfourinline'

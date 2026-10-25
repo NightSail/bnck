@@ -1,0 +1,8 @@
+id = 'ehco'
+name = 'ehco'
+
+repository = 'https://github.com/Ehco1996/ehco.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ehco'

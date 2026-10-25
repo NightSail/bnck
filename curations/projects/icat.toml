@@ -1,0 +1,8 @@
+id = 'icat'
+name = 'icat'
+
+homepage = 'https://github.com/atextor/icat'
+
+[[package]]
+channel = 'fedora'
+name = 'icat'

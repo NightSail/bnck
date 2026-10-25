@@ -1,0 +1,12 @@
+id = 'bristol'
+name = 'bristol'
+
+homepage = 'http://bristol.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'bristol'
+
+[[package]]
+channel = 'fedora'
+name = 'bristol'

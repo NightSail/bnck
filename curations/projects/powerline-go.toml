@@ -1,0 +1,16 @@
+id = 'powerline-go'
+name = 'powerline-go'
+
+homepage = 'https://github.com/justjanne/powerline-go'
+
+[[package]]
+channel = 'debian'
+name = 'powerline-go'
+
+[[package]]
+channel = 'fedora'
+name = 'powerline-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/powerline-go'

@@ -1,0 +1,8 @@
+id = 'libfckit-utils'
+name = 'libfckit-utils'
+
+homepage = 'https://github.com/ecmwf/fckit'
+
+[[package]]
+channel = 'debian'
+name = 'libfckit-utils'

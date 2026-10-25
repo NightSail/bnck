@@ -1,0 +1,8 @@
+id = 'tone-generator'
+name = 'tone-generator'
+
+homepage = 'https://gitlab.com/ubports/development/core/tone-generator'
+
+[[package]]
+channel = 'debian'
+name = 'tone-generator'

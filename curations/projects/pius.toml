@@ -1,0 +1,17 @@
+id = 'pius'
+name = 'pius'
+
+homepage = 'https://www.phildev.net/pius'
+repository = 'https://github.com/jaymzh/pius.git'
+
+[[package]]
+channel = 'arch'
+name = 'pius'
+
+[[package]]
+channel = 'debian'
+name = 'pius'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pius'

@@ -1,0 +1,12 @@
+id = 'iqtree3'
+name = 'iqtree3'
+
+homepage = 'http://www.iqtree.org'
+
+[[package]]
+channel = 'debian'
+name = 'iqtree3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iqtree3'

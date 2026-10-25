@@ -1,0 +1,20 @@
+id = 'xscreensaver'
+name = 'xscreensaver'
+
+homepage = 'https://www.jwz.org/xscreensaver'
+
+[[package]]
+channel = 'arch'
+name = 'xscreensaver'
+
+[[package]]
+channel = 'debian'
+name = 'xscreensaver'
+
+[[package]]
+channel = 'debian'
+name = 'xscreensaver-screensaver-webcollage'
+
+[[package]]
+channel = 'fedora'
+name = 'xscreensaver-base'

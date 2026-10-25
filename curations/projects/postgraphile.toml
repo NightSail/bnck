@@ -1,0 +1,8 @@
+id = 'postgraphile'
+name = 'postgraphile'
+
+homepage = 'https://www.graphile.org/postgraphile'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgraphile'

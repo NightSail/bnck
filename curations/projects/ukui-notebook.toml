@@ -1,0 +1,6 @@
+id = 'ukui-notebook'
+name = 'ukui-notebook'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-notebook'

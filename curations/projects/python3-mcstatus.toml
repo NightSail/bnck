@@ -1,0 +1,8 @@
+id = 'python3-mcstatus'
+name = 'python3-mcstatus'
+
+homepage = 'https://mcstatus.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mcstatus'

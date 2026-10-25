@@ -1,0 +1,8 @@
+id = 'netrate'
+name = 'netrate'
+
+homepage = 'https://github.com/mindbit/netrate'
+
+[[package]]
+channel = 'fedora'
+name = 'netrate'

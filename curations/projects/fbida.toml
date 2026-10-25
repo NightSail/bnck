@@ -1,0 +1,36 @@
+id = 'fbida'
+name = 'fbida'
+
+homepage = 'https://www.kraxel.org/blog/linux/fbida'
+
+[[package]]
+channel = 'arch'
+name = 'fbida'
+
+[[package]]
+channel = 'debian'
+name = 'exiftran'
+
+[[package]]
+channel = 'debian'
+name = 'fbi'
+
+[[package]]
+channel = 'fedora'
+name = 'fbida'
+
+[[package]]
+channel = 'fedora'
+name = 'fbida-fbgs'
+
+[[package]]
+channel = 'fedora'
+name = 'fbida-fbpdf'
+
+[[package]]
+channel = 'fedora'
+name = 'fbida-ida'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exiftran'

@@ -1,0 +1,8 @@
+id = 'chess-clock'
+name = 'chess-clock'
+
+homepage = 'https://apps.gnome.org/Chessclock'
+
+[[package]]
+channel = 'arch'
+name = 'chess-clock'

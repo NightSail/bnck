@@ -1,0 +1,8 @@
+id = 'ab-av1'
+name = 'ab-av1'
+
+repository = 'https://github.com/alexheretic/ab-av1.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ab-av1'

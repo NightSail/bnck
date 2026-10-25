@@ -1,0 +1,8 @@
+id = 'ktextaddons'
+name = 'ktextaddons'
+
+homepage = 'https://invent.kde.org/libraries/ktextaddons'
+
+[[package]]
+channel = 'arch'
+name = 'ktextaddons'

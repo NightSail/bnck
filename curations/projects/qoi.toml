@@ -1,0 +1,12 @@
+id = 'qoi'
+name = 'qoi'
+
+homepage = 'https://github.com/phoboslab/qoi'
+
+[[package]]
+channel = 'debian'
+name = 'qoi'
+
+[[package]]
+channel = 'fedora'
+name = 'qoi-tools'

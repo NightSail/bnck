@@ -1,0 +1,8 @@
+id = 'libclhep-dev'
+name = 'libclhep-dev'
+
+homepage = 'http://proj-clhep.web.cern.ch/proj-clhep'
+
+[[package]]
+channel = 'debian'
+name = 'libclhep-dev'

@@ -1,0 +1,8 @@
+id = 'node-deflate-js'
+name = 'node-deflate-js'
+
+homepage = 'https://github.com/beatgammit/deflate-js'
+
+[[package]]
+channel = 'debian'
+name = 'node-deflate-js'

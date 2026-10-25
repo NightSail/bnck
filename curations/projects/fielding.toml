@@ -1,0 +1,8 @@
+id = 'fielding'
+name = 'fielding'
+
+homepage = 'https://apps.kde.org/en-gb/fielding'
+
+[[package]]
+channel = 'fedora'
+name = 'fielding'

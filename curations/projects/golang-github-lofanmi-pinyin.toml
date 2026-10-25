@@ -1,0 +1,8 @@
+id = 'golang-github-lofanmi-pinyin'
+name = 'golang-github-lofanmi-pinyin'
+
+homepage = 'https://github.com/Lofanmi/pinyin-golang'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-lofanmi-pinyin'

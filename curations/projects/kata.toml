@@ -1,0 +1,8 @@
+id = 'kata'
+name = 'kata'
+
+homepage = 'https://katatracker.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kata'

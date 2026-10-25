@@ -1,0 +1,8 @@
+id = 'go-git'
+name = 'go-git'
+
+homepage = 'https://github.com/go-git/go-git'
+
+[[package]]
+channel = 'debian'
+name = 'go-git'

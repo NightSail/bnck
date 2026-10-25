@@ -1,0 +1,8 @@
+id = 'propellor'
+name = 'propellor'
+
+homepage = 'https://propellor.branchable.com'
+
+[[package]]
+channel = 'debian'
+name = 'propellor'

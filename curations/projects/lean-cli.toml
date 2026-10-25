@@ -1,0 +1,8 @@
+id = 'lean-cli'
+name = 'lean-cli'
+
+repository = 'https://github.com/leancloud/lean-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lean-cli'

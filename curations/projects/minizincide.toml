@@ -1,0 +1,12 @@
+id = 'minizincide'
+name = 'minizincide'
+
+homepage = 'https://www.minizinc.org/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'minizinc-ide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/minizincide'

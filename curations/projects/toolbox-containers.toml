@@ -1,0 +1,8 @@
+id = 'toolbox-containers'
+name = 'toolbox'
+
+homepage = 'https://github.com/containers/toolbox'
+
+[[package]]
+channel = 'arch'
+name = 'toolbox'

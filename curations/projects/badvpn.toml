@@ -1,0 +1,12 @@
+id = 'badvpn'
+name = 'badvpn'
+
+homepage = 'https://github.com/ambrop72/badvpn'
+
+[[package]]
+channel = 'arch'
+name = 'badvpn'
+
+[[package]]
+channel = 'fedora'
+name = 'badvpn'

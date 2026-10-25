@@ -1,0 +1,16 @@
+id = 'gnome-music'
+name = 'gnome-music'
+
+homepage = 'https://apps.gnome.org/Music'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-music'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-music'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-music'

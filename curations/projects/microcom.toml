@@ -1,0 +1,6 @@
+id = 'microcom'
+name = 'microcom'
+
+[[package]]
+channel = 'debian'
+name = 'microcom'

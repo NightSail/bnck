@@ -1,0 +1,12 @@
+id = 'metalog'
+name = 'metalog'
+
+homepage = 'http://metalog.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'metalog'
+
+[[package]]
+channel = 'debian'
+name = 'metalog'

@@ -1,0 +1,8 @@
+id = 'panini'
+name = 'Panini'
+
+homepage = 'https://lazarus-pkgs.github.io/lazarus-pkgs/panini.html'
+
+[[package]]
+channel = 'fedora'
+name = 'Panini'

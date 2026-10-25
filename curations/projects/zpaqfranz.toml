@@ -1,0 +1,16 @@
+id = 'zpaqfranz'
+name = 'zpaqfranz'
+
+repository = 'https://github.com/fcorbelli/zpaqfranz.git'
+
+[[package]]
+channel = 'debian'
+name = 'zpaqfranz'
+
+[[package]]
+channel = 'fedora'
+name = 'zpaqfranz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zpaqfranz'

@@ -1,0 +1,8 @@
+id = 'elixir-ex-doc'
+name = 'elixir-ex-doc'
+
+homepage = 'https://github.com/elixir-lang/ex_doc'
+
+[[package]]
+channel = 'debian'
+name = 'elixir-ex-doc'

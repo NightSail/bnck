@@ -1,0 +1,8 @@
+id = 'alexandria'
+name = 'alexandria'
+
+homepage = 'https://github.com/mvz/alexandria-book-collection-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'alexandria'

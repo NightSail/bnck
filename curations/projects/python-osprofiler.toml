@@ -1,0 +1,8 @@
+id = 'python-osprofiler'
+name = 'python-osprofiler'
+
+homepage = 'https://docs.openstack.org/osprofiler/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-osprofiler'

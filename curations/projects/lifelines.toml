@@ -1,0 +1,12 @@
+id = 'lifelines'
+name = 'lifelines'
+
+homepage = 'https://lifelines.github.io/lifelines'
+
+[[package]]
+channel = 'debian'
+name = 'lifelines'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lifelines'

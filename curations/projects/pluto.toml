@@ -1,0 +1,9 @@
+id = 'pluto'
+name = 'pluto'
+
+homepage = 'https://fairwinds.com'
+repository = 'https://github.com/FairwindsOps/pluto.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pluto'

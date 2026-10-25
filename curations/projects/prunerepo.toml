@@ -1,0 +1,8 @@
+id = 'prunerepo'
+name = 'prunerepo'
+
+homepage = 'https://pagure.io/prunerepo'
+
+[[package]]
+channel = 'fedora'
+name = 'prunerepo'

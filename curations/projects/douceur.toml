@@ -1,0 +1,12 @@
+id = 'douceur'
+name = 'douceur'
+
+homepage = 'https://github.com/aymerick/douceur'
+
+[[package]]
+channel = 'debian'
+name = 'douceur'
+
+[[package]]
+channel = 'fedora'
+name = 'douceur'

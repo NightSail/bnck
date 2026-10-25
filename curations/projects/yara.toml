@@ -1,0 +1,21 @@
+id = 'yara'
+name = 'yara'
+
+homepage = 'https://virustotal.github.io/yara'
+repository = 'https://github.com/VirusTotal/yara.git'
+
+[[package]]
+channel = 'arch'
+name = 'yara'
+
+[[package]]
+channel = 'debian'
+name = 'yara'
+
+[[package]]
+channel = 'fedora'
+name = 'yara'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yara'

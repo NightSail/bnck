@@ -1,0 +1,88 @@
+id = 'gcc-gcc'
+name = 'gcc'
+
+homepage = 'https://www.gnu.org/software/gcc'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mingw-w64-i686-posix'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mingw-w64-i686-win32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mingw-w64-ucrt64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mingw-w64-x86-64-posix'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mingw-w64-x86-64-win32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mingw-w64-bootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mingw-w64-i686-posix'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mingw-w64-i686-win32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mingw-w64-ucrt64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mingw-w64-x86-64-posix'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mingw-w64-x86-64-win32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mingw-w64-i686-posix'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mingw-w64-i686-win32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mingw-w64-ucrt64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mingw-w64-x86-64-posix'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mingw-w64-x86-64-win32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-mingw-w64-i686-posix'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-mingw-w64-i686-win32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-mingw-w64-ucrt64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-mingw-w64-x86-64-posix'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-mingw-w64-x86-64-win32'

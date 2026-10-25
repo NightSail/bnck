@@ -1,0 +1,8 @@
+id = 'watch-sim'
+name = 'watch-sim'
+
+repository = 'https://github.com/alloy/watch-sim.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/watch-sim'

@@ -1,0 +1,8 @@
+id = 'python3-archspec'
+name = 'python3-archspec'
+
+homepage = 'https://github.com/archspec/archspec'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-archspec'

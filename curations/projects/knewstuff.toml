@@ -1,0 +1,20 @@
+id = 'knewstuff'
+name = 'knewstuff'
+
+homepage = 'https://invent.kde.org/frameworks/knewstuff'
+
+[[package]]
+channel = 'debian'
+name = 'knewstuff-dialog'
+
+[[package]]
+channel = 'debian'
+name = 'knewstuff-dialog6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-knewstuff'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-knewstuff'

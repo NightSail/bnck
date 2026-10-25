@@ -1,0 +1,8 @@
+id = 'qspeakers'
+name = 'qspeakers'
+
+homepage = 'http://brouits.free.fr/qspeakers'
+
+[[package]]
+channel = 'debian'
+name = 'qspeakers'

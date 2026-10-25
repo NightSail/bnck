@@ -1,0 +1,8 @@
+id = 'seahorse-adventures'
+name = 'seahorse-adventures'
+
+homepage = 'http://www.imitationpickles.org/barbie'
+
+[[package]]
+channel = 'fedora'
+name = 'seahorse-adventures'

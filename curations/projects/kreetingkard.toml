@@ -1,0 +1,8 @@
+id = 'kreetingkard'
+name = 'kreetingkard'
+
+homepage = 'http://linux-life.net/program/cc/kde/app/kreetingkard'
+
+[[package]]
+channel = 'fedora'
+name = 'kreetingkard'

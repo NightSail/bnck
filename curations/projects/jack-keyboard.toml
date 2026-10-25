@@ -1,0 +1,12 @@
+id = 'jack-keyboard'
+name = 'jack-keyboard'
+
+homepage = 'http://jack-keyboard.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jack-keyboard'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-keyboard'

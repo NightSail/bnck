@@ -1,0 +1,8 @@
+id = 'scmail'
+name = 'scmail'
+
+homepage = 'http://www.namazu.org/~satoru/scmail/index.html.en'
+
+[[package]]
+channel = 'debian'
+name = 'scmail'

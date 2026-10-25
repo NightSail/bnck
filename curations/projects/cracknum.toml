@@ -1,0 +1,12 @@
+id = 'cracknum'
+name = 'cracknum'
+
+homepage = 'https://github.com/LeventErkok/crackNum'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-cracknum'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-cracknum-utils'

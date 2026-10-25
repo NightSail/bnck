@@ -1,0 +1,8 @@
+id = 'python3-modulemdtranslationhelpers'
+name = 'python3-ModulemdTranslationHelpers'
+
+homepage = 'https://github.com/fedora-modularity/ModulemdTranslationHelpers'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ModulemdTranslationHelpers'

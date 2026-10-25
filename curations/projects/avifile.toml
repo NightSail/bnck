@@ -1,0 +1,12 @@
+id = 'avifile'
+name = 'avifile'
+
+homepage = 'http://avifile.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'libavifile-0.7-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libavifile-0.7-dev'

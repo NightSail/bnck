@@ -1,0 +1,12 @@
+id = 'sqlgrey'
+name = 'sqlgrey'
+
+homepage = 'http://sqlgrey.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sqlgrey'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlgrey'

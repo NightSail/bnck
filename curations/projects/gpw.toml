@@ -1,0 +1,8 @@
+id = 'gpw'
+name = 'gpw'
+
+homepage = 'https://www.multicians.org/thvv/tvvtools.html'
+
+[[package]]
+channel = 'debian'
+name = 'gpw'

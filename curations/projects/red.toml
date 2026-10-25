@@ -1,0 +1,12 @@
+id = 'red'
+name = 'red'
+
+homepage = 'http://red.planetarena.org'
+
+[[package]]
+channel = 'fedora'
+name = 'alienarena'
+
+[[package]]
+channel = 'fedora'
+name = 'alienarena-server'

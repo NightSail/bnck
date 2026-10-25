@@ -1,0 +1,12 @@
+id = 'mpegdemux'
+name = 'mpegdemux'
+
+homepage = 'http://www.hampa.ch/mpegdemux'
+
+[[package]]
+channel = 'debian'
+name = 'mpegdemux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpegdemux'

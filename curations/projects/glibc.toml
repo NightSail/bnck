@@ -1,0 +1,20 @@
+id = 'glibc'
+name = 'glibc'
+
+homepage = 'http://www.gnu.org/software/glibc'
+
+[[package]]
+channel = 'fedora'
+name = 'glibc'
+
+[[package]]
+channel = 'fedora'
+name = 'glibc-common'
+
+[[package]]
+channel = 'fedora'
+name = 'glibc-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'nss_db'

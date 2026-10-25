@@ -1,0 +1,9 @@
+id = 'mihomo'
+name = 'mihomo'
+
+homepage = 'https://wiki.metacubex.one'
+repository = 'https://github.com/MetaCubeX/mihomo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mihomo'

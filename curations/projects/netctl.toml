@@ -1,0 +1,12 @@
+id = 'netctl'
+name = 'netctl'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/netctl'
+
+[[package]]
+channel = 'arch'
+name = 'netctl'
+
+[[package]]
+channel = 'debian'
+name = 'netctl'

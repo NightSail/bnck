@@ -1,0 +1,8 @@
+id = 'xdelta3'
+name = 'xdelta3'
+
+homepage = 'http://xdelta.org'
+
+[[package]]
+channel = 'debian'
+name = 'xdelta3'

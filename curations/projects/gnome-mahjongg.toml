@@ -1,0 +1,12 @@
+id = 'gnome-mahjongg'
+name = 'gnome-mahjongg'
+
+homepage = 'https://apps.gnome.org/Mahjongg'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-mahjongg'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-mahjongg'

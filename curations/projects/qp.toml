@@ -1,0 +1,8 @@
+id = 'qp'
+name = 'qp'
+
+homepage = 'https://github.com/f5io/qp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qp'

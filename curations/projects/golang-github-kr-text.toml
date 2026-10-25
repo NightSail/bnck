@@ -1,0 +1,8 @@
+id = 'golang-github-kr-text'
+name = 'golang-github-kr-text'
+
+homepage = 'https://github.com/kr/text'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-kr-text'

@@ -1,0 +1,8 @@
+id = 'kconf'
+name = 'kconf'
+
+repository = 'https://github.com/particledecay/kconf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kconf'

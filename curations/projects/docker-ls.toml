@@ -1,0 +1,8 @@
+id = 'docker-ls'
+name = 'docker-ls'
+
+repository = 'https://github.com/mayflower/docker-ls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-ls'

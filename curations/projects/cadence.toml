@@ -1,0 +1,9 @@
+id = 'cadence'
+name = 'cadence'
+
+homepage = 'https://cadence-lang.org'
+repository = 'https://github.com/onflow/cadence.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cadence'

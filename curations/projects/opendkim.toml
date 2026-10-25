@@ -1,0 +1,28 @@
+id = 'opendkim'
+name = 'opendkim'
+
+homepage = 'http://www.opendkim.org'
+
+[[package]]
+channel = 'arch'
+name = 'opendkim'
+
+[[package]]
+channel = 'debian'
+name = 'miltertest'
+
+[[package]]
+channel = 'debian'
+name = 'opendkim'
+
+[[package]]
+channel = 'debian'
+name = 'opendkim-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'opendkim'
+
+[[package]]
+channel = 'fedora'
+name = 'opendkim-tools'

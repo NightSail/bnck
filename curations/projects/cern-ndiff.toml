@@ -1,0 +1,9 @@
+id = 'cern-ndiff'
+name = 'cern-ndiff'
+
+homepage = 'https://mad.web.cern.ch/mad'
+repository = 'https://github.com/MethodicalAcceleratorDesign/MAD-X.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cern-ndiff'

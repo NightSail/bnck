@@ -1,0 +1,8 @@
+id = 'core-lightning'
+name = 'core-lightning'
+
+repository = 'https://github.com/ElementsProject/lightning.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/core-lightning'

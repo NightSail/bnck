@@ -1,0 +1,8 @@
+id = 'gengo'
+name = 'gengo'
+
+homepage = 'https://crates.io/crates/gengo-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gengo'

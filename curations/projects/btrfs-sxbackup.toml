@@ -1,0 +1,8 @@
+id = 'btrfs-sxbackup'
+name = 'btrfs-sxbackup'
+
+homepage = 'https://github.com/masc3d/btrfs-sxbackup'
+
+[[package]]
+channel = 'fedora'
+name = 'btrfs-sxbackup'

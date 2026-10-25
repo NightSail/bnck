@@ -1,0 +1,12 @@
+id = 'cupp'
+name = 'cupp'
+
+homepage = 'https://github.com/Mebus/cupp'
+
+[[package]]
+channel = 'debian'
+name = 'cupp'
+
+[[package]]
+channel = 'debian'
+name = 'cupp3'

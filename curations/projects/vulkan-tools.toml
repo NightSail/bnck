@@ -1,0 +1,21 @@
+id = 'vulkan-tools'
+name = 'vulkan-tools'
+
+homepage = 'https://www.vulkan.org'
+repository = 'https://github.com/KhronosGroup/Vulkan-Tools.git'
+
+[[package]]
+channel = 'arch'
+name = 'vulkan-tools'
+
+[[package]]
+channel = 'debian'
+name = 'vulkan-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'vulkan-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vulkan-tools'

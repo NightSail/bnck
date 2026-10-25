@@ -1,0 +1,8 @@
+id = 'perl-perl-tags'
+name = 'perl-Perl-Tags'
+
+homepage = 'https://metacpan.org/release/Perl-Tags'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-Tags'

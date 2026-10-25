@@ -1,0 +1,8 @@
+id = 'anything-sync-daemon'
+name = 'anything-sync-daemon'
+
+homepage = 'https://github.com/graysky2/anything-sync-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'anything-sync-daemon'

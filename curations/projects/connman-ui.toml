@@ -1,0 +1,8 @@
+id = 'connman-ui'
+name = 'connman-ui'
+
+homepage = 'https://github.com/tbursztyka/connman-ui'
+
+[[package]]
+channel = 'debian'
+name = 'connman-ui'

@@ -1,0 +1,8 @@
+id = 'ubdsrv'
+name = 'ubdsrv'
+
+homepage = 'https://github.com/ming1/ubdsrv'
+
+[[package]]
+channel = 'fedora'
+name = 'ubdsrv'

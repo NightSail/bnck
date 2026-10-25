@@ -1,0 +1,8 @@
+id = 'runoverssh'
+name = 'runoverssh'
+
+homepage = 'https://github.com/yuriescl/runoverssh'
+
+[[package]]
+channel = 'debian'
+name = 'runoverssh'

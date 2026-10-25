@@ -1,0 +1,8 @@
+id = 'clsync'
+name = 'clsync'
+
+homepage = 'http://ut.mephi.ru/oss'
+
+[[package]]
+channel = 'debian'
+name = 'clsync'

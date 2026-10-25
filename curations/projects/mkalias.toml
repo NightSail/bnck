@@ -1,0 +1,8 @@
+id = 'mkalias'
+name = 'mkalias'
+
+homepage = 'https://github.com/LucianoPC/mkalias'
+
+[[package]]
+channel = 'debian'
+name = 'mkalias'

@@ -1,0 +1,8 @@
+id = 'reg'
+name = 'reg'
+
+homepage = 'https://github.com/genuinetools/reg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reg'

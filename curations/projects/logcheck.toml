@@ -1,0 +1,10 @@
+id = 'logcheck'
+name = 'logcheck'
+
+[[package]]
+channel = 'debian'
+name = 'logcheck'
+
+[[package]]
+channel = 'debian'
+name = 'logtail'

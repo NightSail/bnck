@@ -1,0 +1,12 @@
+id = 'zimpl'
+name = 'zimpl'
+
+homepage = 'https://zimpl.zib.de'
+
+[[package]]
+channel = 'debian'
+name = 'zimpl'
+
+[[package]]
+channel = 'fedora'
+name = 'zimpl'

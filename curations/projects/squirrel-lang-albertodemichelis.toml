@@ -1,0 +1,9 @@
+id = 'squirrel-lang-albertodemichelis'
+name = 'squirrel-lang'
+
+homepage = 'http://www.squirrel-lang.org'
+repository = 'https://github.com/albertodemichelis/squirrel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/squirrel-lang'

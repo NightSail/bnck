@@ -1,0 +1,8 @@
+id = 'env-dot'
+name = 'env-dot'
+
+homepage = 'https://metacpan.org/release/Env-Dot'
+
+[[package]]
+channel = 'debian'
+name = 'env-dot'

@@ -1,0 +1,8 @@
+id = 'cysignals-tools'
+name = 'cysignals-tools'
+
+homepage = 'https://github.com/sagemath/cysignals'
+
+[[package]]
+channel = 'debian'
+name = 'cysignals-tools'

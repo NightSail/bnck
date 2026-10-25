@@ -1,0 +1,8 @@
+id = 'namcap'
+name = 'namcap'
+
+homepage = 'https://gitlab.archlinux.org/pacman/namcap'
+
+[[package]]
+channel = 'arch'
+name = 'namcap'

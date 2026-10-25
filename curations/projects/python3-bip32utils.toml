@@ -1,0 +1,8 @@
+id = 'python3-bip32utils'
+name = 'python3-bip32utils'
+
+homepage = 'https://github.com/prusnak/bip32utils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bip32utils'

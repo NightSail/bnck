@@ -1,0 +1,8 @@
+id = 'labltk'
+name = 'labltk'
+
+homepage = 'https://github.com/garrigue/labltk'
+
+[[package]]
+channel = 'debian'
+name = 'labltk'

@@ -1,0 +1,12 @@
+id = 'xdo'
+name = 'xdo'
+
+homepage = 'https://github.com/baskerville/xdo'
+
+[[package]]
+channel = 'arch'
+name = 'xdo'
+
+[[package]]
+channel = 'debian'
+name = 'xdo'

@@ -1,0 +1,16 @@
+id = 'scrapy'
+name = 'scrapy'
+
+homepage = 'https://scrapy.org'
+
+[[package]]
+channel = 'arch'
+name = 'scrapy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-scrapy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-scrapy'

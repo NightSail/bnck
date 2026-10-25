@@ -1,0 +1,16 @@
+id = 'flatseal'
+name = 'flatseal'
+
+homepage = 'https://github.com/tchx84/Flatseal'
+
+[[package]]
+channel = 'arch'
+name = 'flatseal'
+
+[[package]]
+channel = 'debian'
+name = 'flatseal'
+
+[[package]]
+channel = 'fedora'
+name = 'flatseal'

@@ -1,0 +1,8 @@
+id = 'python3-pvc'
+name = 'python3-pvc'
+
+homepage = 'https://github.com/dnaeon/pvc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pvc'

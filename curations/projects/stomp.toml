@@ -1,0 +1,16 @@
+id = 'stomp'
+name = 'stomp'
+
+homepage = 'https://github.com/stompgem/stomp'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-stomp'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-stomp'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-stomp'

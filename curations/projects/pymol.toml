@@ -1,0 +1,21 @@
+id = 'pymol'
+name = 'pymol'
+
+homepage = 'https://pymol.org'
+repository = 'https://github.com/schrodinger/pymol-open-source.git'
+
+[[package]]
+channel = 'arch'
+name = 'pymol'
+
+[[package]]
+channel = 'debian'
+name = 'pymol'
+
+[[package]]
+channel = 'fedora'
+name = 'pymol'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pymol'

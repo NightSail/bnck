@@ -1,0 +1,9 @@
+id = 'e2fsprogs-pub'
+name = 'e2fsprogs'
+
+homepage = 'https://e2fsprogs.sourceforge.net'
+repository = 'https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/e2fsprogs'

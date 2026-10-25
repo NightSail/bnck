@@ -1,0 +1,28 @@
+id = 'lxd'
+name = 'lxd'
+
+homepage = 'https://ubuntu.com/lxd'
+
+[[package]]
+channel = 'arch'
+name = 'lxd'
+
+[[package]]
+channel = 'debian'
+name = 'lxd'
+
+[[package]]
+channel = 'debian'
+name = 'lxd-agent'
+
+[[package]]
+channel = 'debian'
+name = 'lxd-client'
+
+[[package]]
+channel = 'debian'
+name = 'lxd-migrate'
+
+[[package]]
+channel = 'debian'
+name = 'lxd-tools'

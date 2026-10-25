@@ -1,0 +1,20 @@
+id = 'mpdscribble'
+name = 'mpdscribble'
+
+homepage = 'https://www.musicpd.org/clients/mpdscribble'
+
+[[package]]
+channel = 'arch'
+name = 'mpdscribble'
+
+[[package]]
+channel = 'debian'
+name = 'mpdscribble'
+
+[[package]]
+channel = 'fedora'
+name = 'mpdscribble'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpdscribble'

@@ -1,0 +1,8 @@
+id = 'ssl-cert-check'
+name = 'ssl-cert-check'
+
+homepage = 'https://prefetch.net/articles/checkcertificate.html'
+
+[[package]]
+channel = 'debian'
+name = 'ssl-cert-check'

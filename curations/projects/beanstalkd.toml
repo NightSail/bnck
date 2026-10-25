@@ -1,0 +1,16 @@
+id = 'beanstalkd'
+name = 'beanstalkd'
+
+homepage = 'https://beanstalkd.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'beanstalkd'
+
+[[package]]
+channel = 'fedora'
+name = 'beanstalkd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beanstalkd'

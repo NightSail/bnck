@@ -1,0 +1,8 @@
+id = 'chip-seq'
+name = 'chip-seq'
+
+homepage = 'https://ccg.epfl.ch//chipseq'
+
+[[package]]
+channel = 'debian'
+name = 'chip-seq'

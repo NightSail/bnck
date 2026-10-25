@@ -1,0 +1,8 @@
+id = 'shuffle'
+name = 'shuffle'
+
+homepage = 'https://www.w3.org/People/Bos/Shuffle'
+
+[[package]]
+channel = 'arch'
+name = 'shuffle'

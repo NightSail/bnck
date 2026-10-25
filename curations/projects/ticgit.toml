@@ -1,0 +1,12 @@
+id = 'ticgit'
+name = 'ticgit'
+
+homepage = 'http://github.com/jeffWelling/ticgit'
+
+[[package]]
+channel = 'debian'
+name = 'ticgit'
+
+[[package]]
+channel = 'debian'
+name = 'ticgitweb'

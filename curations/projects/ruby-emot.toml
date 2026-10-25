@@ -1,0 +1,8 @@
+id = 'ruby-emot'
+name = 'ruby-emot'
+
+homepage = 'https://github.com/melborne/emot'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-emot'

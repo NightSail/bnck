@@ -1,0 +1,8 @@
+id = 'clickhouse'
+name = 'clickhouse'
+
+homepage = 'https://clickhouse.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/clickhouse'

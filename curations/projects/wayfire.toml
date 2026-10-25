@@ -1,0 +1,16 @@
+id = 'wayfire'
+name = 'wayfire'
+
+homepage = 'https://wayfire.org'
+
+[[package]]
+channel = 'arch'
+name = 'wayfire'
+
+[[package]]
+channel = 'debian'
+name = 'wayfire'
+
+[[package]]
+channel = 'fedora'
+name = 'wayfire'

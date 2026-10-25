@@ -1,0 +1,9 @@
+id = 'nixpacks'
+name = 'nixpacks'
+
+homepage = 'https://nixpacks.com/docs/getting-started'
+repository = 'https://github.com/railwayapp/nixpacks.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nixpacks'

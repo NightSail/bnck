@@ -1,0 +1,8 @@
+id = 'node-he'
+name = 'node-he'
+
+homepage = 'https://github.com/mathiasbynens/he'
+
+[[package]]
+channel = 'debian'
+name = 'node-he'

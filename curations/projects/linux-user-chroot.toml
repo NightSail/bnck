@@ -1,0 +1,8 @@
+id = 'linux-user-chroot'
+name = 'linux-user-chroot'
+
+homepage = 'https://git.gnome.org/browse/linux-user-chroot'
+
+[[package]]
+channel = 'fedora'
+name = 'linux-user-chroot'

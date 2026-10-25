@@ -1,0 +1,8 @@
+id = 'python-wavedrom'
+name = 'python-wavedrom'
+
+homepage = 'https://github.com/wallento/wavedrompy'
+
+[[package]]
+channel = 'arch'
+name = 'python-wavedrom'

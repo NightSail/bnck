@@ -1,0 +1,6 @@
+id = 'doc-central'
+name = 'doc-central'
+
+[[package]]
+channel = 'debian'
+name = 'doc-central'

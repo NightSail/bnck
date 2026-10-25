@@ -1,0 +1,8 @@
+id = 'node-configurable-http-proxy'
+name = 'node-configurable-http-proxy'
+
+homepage = 'https://github.com/jupyterhub/configurable-http-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'node-configurable-http-proxy'

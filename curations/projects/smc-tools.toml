@@ -1,0 +1,8 @@
+id = 'smc-tools'
+name = 'smc-tools'
+
+homepage = 'https://github.com/ibm-s390-linux/smc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'smc-tools'

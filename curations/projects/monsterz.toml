@@ -1,0 +1,8 @@
+id = 'monsterz'
+name = 'monsterz'
+
+homepage = 'http://sam.zoy.org/monsterz'
+
+[[package]]
+channel = 'fedora'
+name = 'monsterz'

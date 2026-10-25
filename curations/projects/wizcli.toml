@@ -1,0 +1,8 @@
+id = 'wizcli'
+name = 'wizcli'
+
+homepage = 'https://www.wiz.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wizcli'

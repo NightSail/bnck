@@ -1,0 +1,8 @@
+id = 'graphql-cli'
+name = 'graphql-cli'
+
+homepage = 'https://github.com/Urigo/graphql-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphql-cli'

@@ -1,0 +1,25 @@
+id = 'zsh'
+name = 'zsh'
+
+homepage = 'https://www.zsh.org'
+repository = 'https://git.code.sf.net/p/zsh/code.git'
+
+[[package]]
+channel = 'arch'
+name = 'zsh'
+
+[[package]]
+channel = 'debian'
+name = 'zsh'
+
+[[package]]
+channel = 'debian'
+name = 'zsh-static'
+
+[[package]]
+channel = 'fedora'
+name = 'zsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsh'

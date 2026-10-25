@@ -1,0 +1,8 @@
+id = 'e-mem'
+name = 'e-mem'
+
+homepage = 'https://www.csd.uwo.ca/~ilie/E-MEM'
+
+[[package]]
+channel = 'debian'
+name = 'e-mem'

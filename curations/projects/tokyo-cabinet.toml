@@ -1,0 +1,16 @@
+id = 'tokyo-cabinet'
+name = 'tokyo-cabinet'
+
+homepage = 'https://dbmx.net/tokyocabinet'
+
+[[package]]
+channel = 'debian'
+name = 'tokyocabinet-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'tokyocabinet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tokyo-cabinet'

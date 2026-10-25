@@ -1,0 +1,8 @@
+id = 'jodconverter'
+name = 'jodconverter'
+
+homepage = 'http://www.artofsolving.com/opensource/jodconverter'
+
+[[package]]
+channel = 'debian'
+name = 'jodconverter'

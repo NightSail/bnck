@@ -1,0 +1,16 @@
+id = 'speedcrunch'
+name = 'speedcrunch'
+
+homepage = 'https://speedcrunch.org'
+
+[[package]]
+channel = 'arch'
+name = 'speedcrunch'
+
+[[package]]
+channel = 'debian'
+name = 'speedcrunch'
+
+[[package]]
+channel = 'fedora'
+name = 'speedcrunch'

@@ -1,0 +1,8 @@
+id = 'prover9'
+name = 'prover9'
+
+homepage = 'https://www.cs.unm.edu/~mccune/prover9'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prover9'

@@ -1,0 +1,12 @@
+id = 'nwg-displays'
+name = 'nwg-displays'
+
+homepage = 'https://github.com/nwg-piotr/nwg-displays'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-displays'
+
+[[package]]
+channel = 'debian'
+name = 'nwg-displays'

@@ -1,0 +1,9 @@
+id = 'latino'
+name = 'latino'
+
+homepage = 'https://www.lenguajelatino.org'
+repository = 'https://github.com/lenguaje-latino/latino.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/latino'

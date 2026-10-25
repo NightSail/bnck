@@ -1,0 +1,16 @@
+id = 'partitionmanager'
+name = 'partitionmanager'
+
+homepage = 'https://apps.kde.org/partitionmanager'
+
+[[package]]
+channel = 'arch'
+name = 'partitionmanager'
+
+[[package]]
+channel = 'debian'
+name = 'partitionmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'kde-partitionmanager'

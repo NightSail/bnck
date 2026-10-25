@@ -1,0 +1,8 @@
+id = 'libnss3-tools'
+name = 'libnss3-tools'
+
+homepage = 'http://www.mozilla.org/projects/security/pki/nss/tools'
+
+[[package]]
+channel = 'debian'
+name = 'libnss3-tools'

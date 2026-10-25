@@ -1,0 +1,8 @@
+id = 'lisgd'
+name = 'lisgd'
+
+homepage = 'https://git.sr.ht/~mil/lisgd'
+
+[[package]]
+channel = 'debian'
+name = 'lisgd'

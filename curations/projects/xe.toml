@@ -4,5 +4,9 @@ name = 'xe'
 repository = 'https://github.com/leahneukirchen/xe'
 
 [[package]]
+channel = 'debian'
+name = 'xe'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/xe'

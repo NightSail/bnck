@@ -1,0 +1,8 @@
+id = 'mongosh'
+name = 'mongosh'
+
+homepage = 'https://www.mongodb.com/try/download/shell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mongosh'

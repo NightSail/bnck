@@ -1,0 +1,8 @@
+id = 'perl-spellunker'
+name = 'perl-Spellunker'
+
+homepage = 'https://metacpan.org/release/Spellunker'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Spellunker'

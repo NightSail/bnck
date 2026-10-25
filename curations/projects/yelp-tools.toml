@@ -1,0 +1,20 @@
+id = 'yelp-tools'
+name = 'yelp-tools'
+
+homepage = 'https://gitlab.gnome.org/GNOME/yelp-tools'
+
+[[package]]
+channel = 'arch'
+name = 'yelp-tools'
+
+[[package]]
+channel = 'debian'
+name = 'yelp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'yelp-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yelp-tools'

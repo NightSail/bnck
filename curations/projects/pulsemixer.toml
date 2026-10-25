@@ -1,0 +1,12 @@
+id = 'pulsemixer'
+name = 'pulsemixer'
+
+homepage = 'https://github.com/GeorgeFilipkin/pulsemixer'
+
+[[package]]
+channel = 'arch'
+name = 'pulsemixer'
+
+[[package]]
+channel = 'debian'
+name = 'pulsemixer'

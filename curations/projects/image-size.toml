@@ -1,0 +1,12 @@
+id = 'image-size'
+name = 'Image-Size'
+
+homepage = 'https://metacpan.org/release/Image-Size'
+
+[[package]]
+channel = 'debian'
+name = 'libimage-size-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Image-Size'

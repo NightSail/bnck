@@ -1,0 +1,20 @@
+id = 'plasma-bigscreen'
+name = 'plasma-bigscreen'
+
+homepage = 'https://plasma-bigscreen.org'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-bigscreen'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-bigscreen'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-bigscreen'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-bigscreen-wayland'

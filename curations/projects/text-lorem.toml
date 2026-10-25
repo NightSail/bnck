@@ -1,0 +1,12 @@
+id = 'text-lorem'
+name = 'Text-Lorem'
+
+homepage = 'https://metacpan.org/release/Text-Lorem'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-lorem-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-Lorem'

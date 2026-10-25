@@ -1,0 +1,8 @@
+id = 'btrfs-backup-ng'
+name = 'btrfs-backup-ng'
+
+homepage = 'https://github.com/berrym/btrfs-backup-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'btrfs-backup-ng'

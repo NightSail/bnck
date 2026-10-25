@@ -4,6 +4,10 @@ name = 'ttyd'
 repository = 'https://github.com/tsl0922/ttyd'
 
 [[package]]
+channel = 'arch'
+name = 'ttyd'
+
+[[package]]
 channel = 'debian'
 name = 'ttyd'
 

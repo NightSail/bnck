@@ -1,0 +1,8 @@
+id = 'mdxmini'
+name = 'mdxmini'
+
+homepage = 'https://github.com/mistydemeo/mdxmini'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdxmini'

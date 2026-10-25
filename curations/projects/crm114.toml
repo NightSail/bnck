@@ -1,0 +1,12 @@
+id = 'crm114'
+name = 'crm114'
+
+homepage = 'http://crm114.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'crm114'
+
+[[package]]
+channel = 'fedora'
+name = 'crm114'

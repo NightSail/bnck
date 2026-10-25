@@ -1,0 +1,12 @@
+id = 'molequeue'
+name = 'molequeue'
+
+homepage = 'https://www.openchemistry.org/projects/molequeue'
+
+[[package]]
+channel = 'debian'
+name = 'molequeue'
+
+[[package]]
+channel = 'fedora'
+name = 'molequeue'

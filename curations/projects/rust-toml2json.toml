@@ -1,0 +1,8 @@
+id = 'rust-toml2json'
+name = 'rust-toml2json'
+
+homepage = 'https://github.com/woodruffw/toml2json'
+
+[[package]]
+channel = 'debian'
+name = 'rust-toml2json'

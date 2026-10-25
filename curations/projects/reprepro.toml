@@ -1,0 +1,20 @@
+id = 'reprepro'
+name = 'reprepro'
+
+homepage = 'https://salsa.debian.org/debian/reprepro'
+
+[[package]]
+channel = 'arch'
+name = 'reprepro'
+
+[[package]]
+channel = 'debian'
+name = 'reprepro'
+
+[[package]]
+channel = 'fedora'
+name = 'reprepro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reprepro'

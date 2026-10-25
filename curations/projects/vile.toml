@@ -1,0 +1,28 @@
+id = 'vile'
+name = 'vile'
+
+homepage = 'https://invisible-island.net/vile'
+
+[[package]]
+channel = 'debian'
+name = 'vile'
+
+[[package]]
+channel = 'debian'
+name = 'vile-common'
+
+[[package]]
+channel = 'debian'
+name = 'xvile'
+
+[[package]]
+channel = 'fedora'
+name = 'vile'
+
+[[package]]
+channel = 'fedora'
+name = 'xvile'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vile'

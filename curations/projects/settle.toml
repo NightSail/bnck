@@ -1,0 +1,8 @@
+id = 'settle'
+name = 'settle'
+
+homepage = 'https://github.com/xylous/settle'
+
+[[package]]
+channel = 'debian'
+name = 'settle'

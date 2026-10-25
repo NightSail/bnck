@@ -1,0 +1,8 @@
+id = 'libpam-biometric'
+name = 'libpam-biometric'
+
+homepage = 'https://gitee.com/openkylin/ukui-biometric-auth'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-biometric'

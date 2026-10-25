@@ -1,0 +1,12 @@
+id = 'python3-optuna'
+name = 'python3-optuna'
+
+homepage = 'https://optuna.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-optuna'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-optuna'

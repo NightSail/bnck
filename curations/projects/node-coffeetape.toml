@@ -1,0 +1,8 @@
+id = 'node-coffeetape'
+name = 'node-coffeetape'
+
+homepage = 'https://github.com/0chroma/coffeetape'
+
+[[package]]
+channel = 'debian'
+name = 'node-coffeetape'

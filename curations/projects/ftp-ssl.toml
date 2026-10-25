@@ -1,0 +1,6 @@
+id = 'ftp-ssl'
+name = 'ftp-ssl'
+
+[[package]]
+channel = 'debian'
+name = 'ftp-ssl'

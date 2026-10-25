@@ -1,0 +1,16 @@
+id = 'jwt'
+name = 'jwt'
+
+homepage = 'https://github.com/golang-jwt/jwt'
+
+[[package]]
+channel = 'debian'
+name = 'jwt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-jwt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-jwt-5'

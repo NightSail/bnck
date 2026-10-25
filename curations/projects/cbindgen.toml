@@ -1,0 +1,24 @@
+id = 'cbindgen'
+name = 'cbindgen'
+
+homepage = 'https://github.com/mozilla/cbindgen'
+
+[[package]]
+channel = 'arch'
+name = 'cbindgen'
+
+[[package]]
+channel = 'debian'
+name = 'cbindgen'
+
+[[package]]
+channel = 'debian'
+name = 'cbindgen-web'
+
+[[package]]
+channel = 'fedora'
+name = 'cbindgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cbindgen'

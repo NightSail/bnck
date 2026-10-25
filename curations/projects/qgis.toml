@@ -1,0 +1,24 @@
+id = 'qgis'
+name = 'qgis'
+
+homepage = 'https://qgis.org'
+
+[[package]]
+channel = 'arch'
+name = 'qgis'
+
+[[package]]
+channel = 'debian'
+name = 'qgis'
+
+[[package]]
+channel = 'debian'
+name = 'qgis-server-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'qgis'
+
+[[package]]
+channel = 'fedora'
+name = 'qgis-server'

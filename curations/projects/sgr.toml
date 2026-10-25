@@ -1,0 +1,8 @@
+id = 'sgr'
+name = 'sgr'
+
+homepage = 'https://www.splitgraph.com/docs/sgr-advanced/getting-started/introduction'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sgr'

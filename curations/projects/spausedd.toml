@@ -1,0 +1,8 @@
+id = 'spausedd'
+name = 'spausedd'
+
+homepage = 'https://github.com/jfriesse/spausedd'
+
+[[package]]
+channel = 'fedora'
+name = 'spausedd'

@@ -1,0 +1,12 @@
+id = 'onesixtyone'
+name = 'onesixtyone'
+
+homepage = 'https://github.com/trailofbits/onesixtyone'
+
+[[package]]
+channel = 'debian'
+name = 'onesixtyone'
+
+[[package]]
+channel = 'fedora'
+name = 'onesixtyone'

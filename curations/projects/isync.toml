@@ -1,0 +1,21 @@
+id = 'isync'
+name = 'isync'
+
+homepage = 'https://isync.sourceforge.io'
+repository = 'https://git.code.sf.net/p/isync/isync.git'
+
+[[package]]
+channel = 'arch'
+name = 'isync'
+
+[[package]]
+channel = 'debian'
+name = 'isync'
+
+[[package]]
+channel = 'fedora'
+name = 'isync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/isync'

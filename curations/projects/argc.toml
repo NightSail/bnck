@@ -1,0 +1,8 @@
+id = 'argc'
+name = 'argc'
+
+homepage = 'https://github.com/sigoden/argc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argc'

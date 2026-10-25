@@ -1,0 +1,8 @@
+id = 'bibtex-tidy'
+name = 'bibtex-tidy'
+
+homepage = 'https://flamingtempura.github.io/bibtex-tidy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bibtex-tidy'

@@ -1,0 +1,8 @@
+id = 'bionetgen'
+name = 'bionetgen'
+
+homepage = 'https://github.com/RuleWorld/bionetgen'
+
+[[package]]
+channel = 'fedora'
+name = 'bionetgen'

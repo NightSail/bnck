@@ -1,0 +1,12 @@
+id = 'httpx2'
+name = 'httpx2'
+
+homepage = 'https://github.com/pydantic/httpx2'
+
+[[package]]
+channel = 'arch'
+name = 'python-httpx2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-httpx2'

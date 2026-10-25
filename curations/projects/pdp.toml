@@ -1,0 +1,12 @@
+id = 'pdp'
+name = 'pdp'
+
+homepage = 'https://zwizwa.be/pdp'
+
+[[package]]
+channel = 'debian'
+name = 'pd-pdp'
+
+[[package]]
+channel = 'debian'
+name = 'pd-scaf'

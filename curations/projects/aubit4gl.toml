@@ -1,0 +1,8 @@
+id = 'aubit4gl'
+name = 'aubit4gl'
+
+homepage = 'https://www.aubit.com'
+
+[[package]]
+channel = 'fedora'
+name = 'aubit4gl'

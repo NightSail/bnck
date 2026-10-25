@@ -1,0 +1,20 @@
+id = 'wl-mirror'
+name = 'wl-mirror'
+
+homepage = 'https://github.com/Ferdi265/wl-mirror'
+
+[[package]]
+channel = 'arch'
+name = 'wl-mirror'
+
+[[package]]
+channel = 'debian'
+name = 'wl-mirror'
+
+[[package]]
+channel = 'debian'
+name = 'wl-present'
+
+[[package]]
+channel = 'fedora'
+name = 'wl-mirror'

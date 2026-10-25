@@ -1,0 +1,8 @@
+id = 'dnarrange'
+name = 'dnarrange'
+
+homepage = 'https://github.com/mcfrith/dnarrange'
+
+[[package]]
+channel = 'debian'
+name = 'dnarrange'

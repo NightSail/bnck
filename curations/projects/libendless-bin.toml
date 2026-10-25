@@ -1,0 +1,6 @@
+id = 'libendless-bin'
+name = 'libendless-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libendless-bin'

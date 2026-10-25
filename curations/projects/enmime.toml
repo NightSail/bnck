@@ -1,0 +1,8 @@
+id = 'enmime'
+name = 'enmime'
+
+homepage = 'https://github.com/jhillyerd/enmime'
+
+[[package]]
+channel = 'debian'
+name = 'enmime'

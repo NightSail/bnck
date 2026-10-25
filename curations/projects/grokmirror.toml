@@ -1,0 +1,13 @@
+id = 'grokmirror'
+name = 'grokmirror'
+
+homepage = 'https://git.kernel.org/cgit/utils/grokmirror/grokmirror.git'
+repository = 'https://github.com/mricon/grokmirror.git'
+
+[[package]]
+channel = 'debian'
+name = 'grokmirror'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grokmirror'

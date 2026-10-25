@@ -1,0 +1,8 @@
+id = 'vimix'
+name = 'vimix'
+
+homepage = 'https://brunoherbelin.github.io/vimix'
+
+[[package]]
+channel = 'debian'
+name = 'vimix'

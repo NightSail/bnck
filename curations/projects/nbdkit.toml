@@ -1,0 +1,12 @@
+id = 'nbdkit'
+name = 'nbdkit'
+
+homepage = 'https://gitlab.com/nbdkit/nbdkit'
+
+[[package]]
+channel = 'debian'
+name = 'nbdkit'
+
+[[package]]
+channel = 'fedora'
+name = 'nbdkit-server'

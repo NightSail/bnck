@@ -1,0 +1,8 @@
+id = 'maestral'
+name = 'maestral'
+
+homepage = 'https://maestral.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/maestral'

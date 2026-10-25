@@ -1,0 +1,8 @@
+id = 'kf5-kdelibs4support'
+name = 'kf5-kdelibs4support'
+
+homepage = 'https://invent.kde.org/frameworks/kdelibs4support'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kdelibs4support'

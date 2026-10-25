@@ -1,0 +1,8 @@
+id = 'grml2usb'
+name = 'grml2usb'
+
+homepage = 'https://grml.org/grml2usb'
+
+[[package]]
+channel = 'debian'
+name = 'grml2usb'

@@ -1,0 +1,12 @@
+id = 'geos-libgeos'
+name = 'geos'
+
+homepage = 'https://libgeos.org'
+
+[[package]]
+channel = 'arch'
+name = 'geos'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geos'

@@ -1,0 +1,13 @@
+id = 'waffle'
+name = 'waffle'
+
+homepage = 'http://www.waffle-gl.org/releases.html'
+repository = 'https://gitlab.freedesktop.org/mesa/waffle.git'
+
+[[package]]
+channel = 'fedora'
+name = 'waffle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/waffle'

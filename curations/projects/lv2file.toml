@@ -1,0 +1,12 @@
+id = 'lv2file'
+name = 'lv2file'
+
+homepage = 'https://github.com/jeremysalwen/lv2file'
+
+[[package]]
+channel = 'arch'
+name = 'lv2file'
+
+[[package]]
+channel = 'debian'
+name = 'lv2file'

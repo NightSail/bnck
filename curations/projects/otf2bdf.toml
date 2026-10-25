@@ -1,0 +1,16 @@
+id = 'otf2bdf'
+name = 'otf2bdf'
+
+homepage = 'https://github.com/jirutka/otf2bdf'
+
+[[package]]
+channel = 'debian'
+name = 'otf2bdf'
+
+[[package]]
+channel = 'fedora'
+name = 'otf2bdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/otf2bdf'

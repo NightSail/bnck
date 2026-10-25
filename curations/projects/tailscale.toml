@@ -1,0 +1,17 @@
+id = 'tailscale'
+name = 'tailscale'
+
+homepage = 'https://tailscale.com'
+repository = 'https://github.com/tailscale/tailscale.git'
+
+[[package]]
+channel = 'arch'
+name = 'tailscale'
+
+[[package]]
+channel = 'fedora'
+name = 'tailscale'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tailscale'

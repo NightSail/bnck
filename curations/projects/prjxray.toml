@@ -1,0 +1,8 @@
+id = 'prjxray'
+name = 'prjxray'
+
+homepage = 'https://github.com/f4pga/prjxray'
+
+[[package]]
+channel = 'debian'
+name = 'prjxray'

@@ -1,0 +1,8 @@
+id = 'mailman3-web'
+name = 'mailman3-web'
+
+homepage = 'https://gitlab.com/mailman/mailman-suite'
+
+[[package]]
+channel = 'debian'
+name = 'mailman3-web'

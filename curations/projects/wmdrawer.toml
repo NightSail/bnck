@@ -1,0 +1,8 @@
+id = 'wmdrawer'
+name = 'wmdrawer'
+
+homepage = 'http://people.easter-eggs.org/~valos/wmdrawer'
+
+[[package]]
+channel = 'debian'
+name = 'wmdrawer'

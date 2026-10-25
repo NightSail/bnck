@@ -1,0 +1,13 @@
+id = 'osm2pgrouting'
+name = 'osm2pgrouting'
+
+homepage = 'https://pgrouting.org/docs/tools/osm2pgrouting.html'
+repository = 'https://github.com/pgRouting/osm2pgrouting.git'
+
+[[package]]
+channel = 'debian'
+name = 'osm2pgrouting'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osm2pgrouting'

@@ -1,0 +1,8 @@
+id = 'clipper'
+name = 'clipper'
+
+repository = 'https://github.com/wincent/clipper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clipper'

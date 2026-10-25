@@ -1,0 +1,9 @@
+id = 'aws-sso-cli'
+name = 'aws-sso-cli'
+
+homepage = 'https://synfinatic.github.io/aws-sso-cli'
+repository = 'https://github.com/synfinatic/aws-sso-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-sso-cli'

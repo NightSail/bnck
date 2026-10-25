@@ -1,0 +1,8 @@
+id = 'cryptmount'
+name = 'cryptmount'
+
+homepage = 'https://github.com/rwpenney/cryptmount'
+
+[[package]]
+channel = 'debian'
+name = 'cryptmount'

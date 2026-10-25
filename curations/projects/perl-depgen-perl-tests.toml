@@ -1,0 +1,8 @@
+id = 'perl-depgen-perl-tests'
+name = 'perl-DepGen-Perl-Tests'
+
+homepage = 'http://ppisar.fedorapeople.org/DepGen-Perl-Tests'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DepGen-Perl-Tests'

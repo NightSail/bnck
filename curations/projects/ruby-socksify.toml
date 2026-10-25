@@ -1,0 +1,8 @@
+id = 'ruby-socksify'
+name = 'ruby-socksify'
+
+homepage = 'https://github.com/astro/socksify-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-socksify'

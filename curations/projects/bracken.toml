@@ -1,0 +1,9 @@
+id = 'bracken'
+name = 'bracken'
+
+homepage = 'https://ccb.jhu.edu/software/bracken'
+repository = 'https://github.com/jenniferlu717/Bracken.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bracken'

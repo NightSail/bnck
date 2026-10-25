@@ -1,0 +1,8 @@
+id = 'ghostess'
+name = 'ghostess'
+
+homepage = 'http://smbolton.com/linux.html'
+
+[[package]]
+channel = 'debian'
+name = 'ghostess'

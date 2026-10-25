@@ -1,0 +1,8 @@
+id = 'splitvt'
+name = 'splitvt'
+
+homepage = 'https://slouken.libsdl.org/projects/splitvt/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'splitvt'

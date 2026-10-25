@@ -1,0 +1,12 @@
+id = 'cmusphinx-cmusphinx'
+name = 'cmusphinx'
+
+homepage = 'https://cmusphinx.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'sphinxtrain'
+
+[[package]]
+channel = 'fedora'
+name = 'pocketsphinx'

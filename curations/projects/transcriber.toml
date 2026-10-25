@@ -1,0 +1,8 @@
+id = 'transcriber'
+name = 'transcriber'
+
+homepage = 'http://trans.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'transcriber'

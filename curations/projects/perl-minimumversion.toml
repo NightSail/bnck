@@ -1,0 +1,12 @@
+id = 'perl-minimumversion'
+name = 'Perl-MinimumVersion'
+
+homepage = 'https://metacpan.org/release/Perl-MinimumVersion'
+
+[[package]]
+channel = 'debian'
+name = 'libperl-minimumversion-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-MinimumVersion'

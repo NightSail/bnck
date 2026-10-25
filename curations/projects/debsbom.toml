@@ -1,0 +1,8 @@
+id = 'debsbom'
+name = 'debsbom'
+
+homepage = 'https://github.com/siemens/debsbom'
+
+[[package]]
+channel = 'debian'
+name = 'debsbom'

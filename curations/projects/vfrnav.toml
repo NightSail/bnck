@@ -1,0 +1,12 @@
+id = 'vfrnav'
+name = 'vfrnav'
+
+homepage = 'https://gitlab.com/tsailer/vfrnav'
+
+[[package]]
+channel = 'fedora'
+name = 'vfrnav'
+
+[[package]]
+channel = 'fedora'
+name = 'vfrnav-utils'

@@ -1,0 +1,16 @@
+id = 'jwm'
+name = 'jwm'
+
+homepage = 'https://joewing.net/projects/jwm'
+
+[[package]]
+channel = 'arch'
+name = 'jwm'
+
+[[package]]
+channel = 'debian'
+name = 'jwm'
+
+[[package]]
+channel = 'fedora'
+name = 'jwm'

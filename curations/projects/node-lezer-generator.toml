@@ -1,0 +1,8 @@
+id = 'node-lezer-generator'
+name = 'node-lezer-generator'
+
+homepage = 'https://lezer.codemirror.net'
+
+[[package]]
+channel = 'debian'
+name = 'node-lezer-generator'

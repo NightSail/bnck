@@ -1,0 +1,12 @@
+id = 'hyprland-guiutils'
+name = 'hyprland-guiutils'
+
+homepage = 'https://github.com/hyprwm/hyprland-guiutils'
+
+[[package]]
+channel = 'arch'
+name = 'hyprland-guiutils'
+
+[[package]]
+channel = 'debian'
+name = 'hyprland-guiutils'

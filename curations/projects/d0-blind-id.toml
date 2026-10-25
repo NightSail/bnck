@@ -1,0 +1,8 @@
+id = 'd0-blind-id'
+name = 'd0_blind_id'
+
+homepage = 'https://github.com/divVerent/d0_blind_id'
+
+[[package]]
+channel = 'fedora'
+name = 'd0_blind_id'

@@ -1,0 +1,17 @@
+id = 'uriparser'
+name = 'uriparser'
+
+homepage = 'https://uriparser.github.io'
+repository = 'https://github.com/uriparser/uriparser.git'
+
+[[package]]
+channel = 'arch'
+name = 'uriparser'
+
+[[package]]
+channel = 'fedora'
+name = 'uriparser'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uriparser'

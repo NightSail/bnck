@@ -1,0 +1,16 @@
+id = 'vimb'
+name = 'vimb'
+
+homepage = 'https://fanglingsu.github.io/vimb'
+
+[[package]]
+channel = 'arch'
+name = 'vimb'
+
+[[package]]
+channel = 'debian'
+name = 'vimb'
+
+[[package]]
+channel = 'fedora'
+name = 'vimb'

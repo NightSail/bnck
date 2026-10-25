@@ -1,0 +1,8 @@
+id = 'coconut'
+name = 'coconut'
+
+homepage = 'https://coconut-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coconut'

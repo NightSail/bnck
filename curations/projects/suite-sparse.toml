@@ -1,0 +1,12 @@
+id = 'suite-sparse'
+name = 'suite-sparse'
+
+homepage = 'https://people.engr.tamu.edu/davis/suitesparse.html'
+
+[[package]]
+channel = 'arch'
+name = 'suitesparse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/suite-sparse'

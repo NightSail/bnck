@@ -1,0 +1,16 @@
+id = 'tytools'
+name = 'tytools'
+
+homepage = 'https://koromix.dev/tytools'
+
+[[package]]
+channel = 'fedora'
+name = 'tycmd'
+
+[[package]]
+channel = 'fedora'
+name = 'tycommander'
+
+[[package]]
+channel = 'fedora'
+name = 'tyuploader'

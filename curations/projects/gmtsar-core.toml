@@ -1,0 +1,8 @@
+id = 'gmtsar-core'
+name = 'gmtsar-core'
+
+homepage = 'https://topex.ucsd.edu/gmtsar'
+
+[[package]]
+channel = 'debian'
+name = 'gmtsar-core'

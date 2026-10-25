@@ -1,0 +1,8 @@
+id = 'pdnsd'
+name = 'pdnsd'
+
+homepage = 'http://members.home.nl/p.a.rombouts/pdnsd'
+
+[[package]]
+channel = 'arch'
+name = 'pdnsd'

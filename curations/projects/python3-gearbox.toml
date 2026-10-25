@@ -1,0 +1,8 @@
+id = 'python3-gearbox'
+name = 'python3-gearbox'
+
+homepage = 'https://github.com/TurboGears/gearbox'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gearbox'

@@ -1,0 +1,16 @@
+id = 'easyjson'
+name = 'easyjson'
+
+homepage = 'https://github.com/mailru/easyjson'
+
+[[package]]
+channel = 'arch'
+name = 'easyjson'
+
+[[package]]
+channel = 'debian'
+name = 'golang-easyjson'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-mailru-easyjson'

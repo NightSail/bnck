@@ -1,0 +1,20 @@
+id = 'aircrack-ng'
+name = 'aircrack-ng'
+
+homepage = 'https://aircrack-ng.org'
+
+[[package]]
+channel = 'arch'
+name = 'aircrack-ng'
+
+[[package]]
+channel = 'debian'
+name = 'aircrack-ng'
+
+[[package]]
+channel = 'debian'
+name = 'airgraph-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aircrack-ng'

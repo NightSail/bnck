@@ -1,0 +1,8 @@
+id = 'libxml-encoding-perl'
+name = 'libxml-encoding-perl'
+
+homepage = 'https://metacpan.org/release/XML-Encoding'
+
+[[package]]
+channel = 'debian'
+name = 'libxml-encoding-perl'

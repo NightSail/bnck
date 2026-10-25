@@ -1,0 +1,13 @@
+id = 'lr'
+name = 'lr'
+
+homepage = 'https://git.vuxu.org/lr/about'
+repository = 'https://github.com/leahneukirchen/lr.git'
+
+[[package]]
+channel = 'debian'
+name = 'lr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lr'

@@ -1,0 +1,8 @@
+id = 'perl-extutils-makemaker-coverage'
+name = 'perl-ExtUtils-MakeMaker-Coverage'
+
+homepage = 'http://backpan.perl.org/authors/id/S/SM/SMPETERS'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-ExtUtils-MakeMaker-Coverage'

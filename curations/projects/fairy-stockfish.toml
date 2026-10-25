@@ -1,0 +1,9 @@
+id = 'fairy-stockfish'
+name = 'fairy-stockfish'
+
+homepage = 'https://fairy-stockfish.github.io'
+repository = 'https://github.com/fairy-stockfish/Fairy-Stockfish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fairy-stockfish'

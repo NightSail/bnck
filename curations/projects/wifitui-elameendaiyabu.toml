@@ -1,0 +1,8 @@
+id = 'wifitui-elameendaiyabu'
+name = 'wifitui'
+
+repository = 'https://github.com/elameendaiyabu/wifitui'
+
+[[package]]
+channel = 'crates.io'
+name = 'wifitui'

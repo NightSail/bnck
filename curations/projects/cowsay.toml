@@ -1,0 +1,17 @@
+id = 'cowsay'
+name = 'cowsay'
+
+homepage = 'https://cowsay.diamonds'
+repository = 'https://github.com/cowsay-org/cowsay.git'
+
+[[package]]
+channel = 'arch'
+name = 'cowsay'
+
+[[package]]
+channel = 'fedora'
+name = 'cowsay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cowsay'

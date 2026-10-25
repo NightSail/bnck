@@ -1,0 +1,8 @@
+id = 'terraform-landscape'
+name = 'terraform_landscape'
+
+homepage = 'https://github.com/coinbase/terraform-landscape'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform_landscape'

@@ -1,0 +1,8 @@
+id = 'lxctl'
+name = 'lxctl'
+
+homepage = 'https://github.com/lxctl/lxctl'
+
+[[package]]
+channel = 'debian'
+name = 'lxctl'

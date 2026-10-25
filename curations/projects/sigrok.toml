@@ -1,0 +1,12 @@
+id = 'sigrok'
+name = 'sigrok'
+
+homepage = 'http://www.sigrok.org'
+
+[[package]]
+channel = 'fedora'
+name = 'pulseview'
+
+[[package]]
+channel = 'fedora'
+name = 'sigrok-cli'

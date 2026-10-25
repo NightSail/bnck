@@ -1,0 +1,8 @@
+id = 'service-wrapper'
+name = 'service-wrapper'
+
+homepage = 'https://wrapper.tanukisoftware.com'
+
+[[package]]
+channel = 'debian'
+name = 'service-wrapper'

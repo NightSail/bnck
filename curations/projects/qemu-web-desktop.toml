@@ -1,0 +1,8 @@
+id = 'qemu-web-desktop'
+name = 'qemu-web-desktop'
+
+homepage = 'https://gitlab.com/soleil-data-treatment/soleil-software-projects/remote-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-web-desktop'

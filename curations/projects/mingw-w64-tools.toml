@@ -1,0 +1,12 @@
+id = 'mingw-w64-tools'
+name = 'mingw-w64-tools'
+
+homepage = 'http://mingw-w64.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'mingw-w64-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw-w64-tools'

@@ -1,0 +1,10 @@
+id = 'python3-autobahn'
+name = 'python3-autobahn'
+
+[[package]]
+channel = 'debian'
+name = 'python3-autobahn'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-autobahn'

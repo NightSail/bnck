@@ -1,0 +1,8 @@
+id = 'firetools'
+name = 'firetools'
+
+homepage = 'https://firejailtools.wordpress.com'
+
+[[package]]
+channel = 'debian'
+name = 'firetools'

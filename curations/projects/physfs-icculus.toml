@@ -1,0 +1,9 @@
+id = 'physfs-icculus'
+name = 'physfs'
+
+homepage = 'https://icculus.org/physfs'
+repository = 'https://github.com/icculus/physfs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/physfs'

@@ -1,0 +1,8 @@
+id = 'libplb-dev'
+name = 'libplb-dev'
+
+homepage = 'http://www.palabos.org'
+
+[[package]]
+channel = 'debian'
+name = 'libplb-dev'

@@ -1,0 +1,9 @@
+id = 'ibex'
+name = 'ibex'
+
+homepage = 'https://ibex-team.github.io/ibex-lib'
+repository = 'https://github.com/ibex-team/ibex-lib.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ibex'

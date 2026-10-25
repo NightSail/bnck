@@ -1,0 +1,8 @@
+id = 'aws-iam-authenticator'
+name = 'aws-iam-authenticator'
+
+repository = 'https://github.com/kubernetes-sigs/aws-iam-authenticator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-iam-authenticator'

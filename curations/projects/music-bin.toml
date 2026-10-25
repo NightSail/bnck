@@ -1,0 +1,8 @@
+id = 'music-bin'
+name = 'music-bin'
+
+homepage = 'https://github.com/INCF/MUSIC'
+
+[[package]]
+channel = 'debian'
+name = 'music-bin'

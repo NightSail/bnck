@@ -1,0 +1,12 @@
+id = 'ircii'
+name = 'ircii'
+
+homepage = 'http://www.eterna23.net/ircii'
+
+[[package]]
+channel = 'debian'
+name = 'ircii'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ircii'

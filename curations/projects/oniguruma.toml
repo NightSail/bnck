@@ -1,0 +1,16 @@
+id = 'oniguruma'
+name = 'oniguruma'
+
+repository = 'https://github.com/kkos/oniguruma.git'
+
+[[package]]
+channel = 'arch'
+name = 'oniguruma'
+
+[[package]]
+channel = 'fedora'
+name = 'oniguruma-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oniguruma'

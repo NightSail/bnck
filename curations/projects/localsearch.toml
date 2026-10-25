@@ -1,0 +1,12 @@
+id = 'localsearch'
+name = 'localsearch'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/localsearch'
+
+[[package]]
+channel = 'arch'
+name = 'localsearch'
+
+[[package]]
+channel = 'fedora'
+name = 'localsearch'

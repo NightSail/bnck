@@ -1,0 +1,8 @@
+id = 'avimetaedit'
+name = 'avimetaedit'
+
+homepage = 'https://mediaarea.net/AVIMetaEdit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avimetaedit'

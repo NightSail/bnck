@@ -1,0 +1,13 @@
+id = 'zookeeper'
+name = 'zookeeper'
+
+homepage = 'https://zookeeper.apache.org'
+repository = 'https://gitbox.apache.org/repos/asf/zookeeper.git'
+
+[[package]]
+channel = 'debian'
+name = 'zookeeper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zookeeper'

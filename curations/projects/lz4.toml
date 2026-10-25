@@ -4,7 +4,15 @@ name = 'lz4'
 repository = 'https://github.com/lz4/lz4'
 
 [[package]]
+channel = 'arch'
+name = 'lz4'
+
+[[package]]
 channel = 'debian'
+name = 'lz4'
+
+[[package]]
+channel = 'fedora'
 name = 'lz4'
 
 [[package]]

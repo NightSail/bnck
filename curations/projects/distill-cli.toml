@@ -1,0 +1,9 @@
+id = 'distill-cli'
+name = 'distill-cli'
+
+homepage = 'https://www.allthingsdistributed.com/2024/06/introducing-distill-cli.html'
+repository = 'https://github.com/awslabs/distill-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/distill-cli'

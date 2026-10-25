@@ -1,0 +1,12 @@
+id = 'litecoin'
+name = 'litecoin'
+
+homepage = 'http://litecoin.org'
+
+[[package]]
+channel = 'debian'
+name = 'litecoin-qt'
+
+[[package]]
+channel = 'debian'
+name = 'litecoind'

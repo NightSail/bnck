@@ -1,0 +1,8 @@
+id = 'darknet'
+name = 'darknet'
+
+homepage = 'https://pjreddie.com/darknet'
+
+[[package]]
+channel = 'debian'
+name = 'darknet'

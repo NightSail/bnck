@@ -1,0 +1,8 @@
+id = 'python3-esprima'
+name = 'python3-esprima'
+
+homepage = 'https://github.com/Kronuz/esprima-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-esprima'

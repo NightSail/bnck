@@ -1,0 +1,8 @@
+id = 'playonlinux'
+name = 'playonlinux'
+
+homepage = 'https://www.playonlinux.com'
+
+[[package]]
+channel = 'fedora'
+name = 'playonlinux'

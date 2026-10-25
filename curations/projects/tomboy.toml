@@ -1,0 +1,8 @@
+id = 'tomboy'
+name = 'tomboy'
+
+homepage = 'http://projects.gnome.org/tomboy'
+
+[[package]]
+channel = 'fedora'
+name = 'tomboy'

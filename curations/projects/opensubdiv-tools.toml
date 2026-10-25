@@ -1,0 +1,8 @@
+id = 'opensubdiv-tools'
+name = 'opensubdiv-tools'
+
+homepage = 'https://graphics.pixar.com/opensubdiv'
+
+[[package]]
+channel = 'debian'
+name = 'opensubdiv-tools'

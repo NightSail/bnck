@@ -1,0 +1,8 @@
+id = 'rubygem-pathspec'
+name = 'rubygem-pathspec'
+
+homepage = 'https://rubygems.org/gems/pathspec'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-pathspec'

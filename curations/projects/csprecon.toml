@@ -1,0 +1,9 @@
+id = 'csprecon'
+name = 'csprecon'
+
+homepage = 'https://edoardottt.com'
+repository = 'https://github.com/edoardottt/csprecon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csprecon'

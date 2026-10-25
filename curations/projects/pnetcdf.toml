@@ -1,0 +1,8 @@
+id = 'pnetcdf'
+name = 'pnetcdf'
+
+homepage = 'https://parallel-netcdf.github.io/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pnetcdf'

@@ -1,0 +1,8 @@
+id = 'xlispstat'
+name = 'xlispstat'
+
+homepage = 'https://homepage.stat.uiowa.edu/~luke/xls/xlsinfo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xlispstat'

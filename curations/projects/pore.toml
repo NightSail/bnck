@@ -1,0 +1,8 @@
+id = 'pore'
+name = 'pore'
+
+homepage = 'https://crates.io/crates/pore'
+
+[[package]]
+channel = 'fedora'
+name = 'pore'

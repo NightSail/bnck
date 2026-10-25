@@ -1,0 +1,8 @@
+id = 'fpgatools'
+name = 'fpgatools'
+
+homepage = 'https://github.com/Wolfgang-Spraul/fpgatools'
+
+[[package]]
+channel = 'debian'
+name = 'fpgatools'

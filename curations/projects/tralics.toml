@@ -1,0 +1,12 @@
+id = 'tralics'
+name = 'tralics'
+
+homepage = 'http://www-sop.inria.fr/miaou/tralics'
+
+[[package]]
+channel = 'debian'
+name = 'tralics'
+
+[[package]]
+channel = 'fedora'
+name = 'tralics'

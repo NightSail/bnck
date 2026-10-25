@@ -1,0 +1,12 @@
+id = 'awesomized'
+name = 'awesomized'
+
+homepage = 'https://awesomized.github.io/libmemcached'
+
+[[package]]
+channel = 'arch'
+name = 'libmemcached-awesome'
+
+[[package]]
+channel = 'debian'
+name = 'libmemcached-tools'

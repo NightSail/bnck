@@ -1,0 +1,12 @@
+id = 'camera'
+name = 'camera'
+
+homepage = 'https://github.com/elementary/camera'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-camera'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-camera'

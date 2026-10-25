@@ -1,0 +1,8 @@
+id = 'jsawk'
+name = 'jsawk'
+
+repository = 'https://github.com/micha/jsawk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsawk'

@@ -1,0 +1,9 @@
+id = 'libxml2'
+name = 'libxml2'
+
+homepage = 'http://xmlsoft.org'
+repository = 'https://gitlab.gnome.org/GNOME/libxml2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxml2'

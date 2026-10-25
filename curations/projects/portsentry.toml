@@ -1,0 +1,6 @@
+id = 'portsentry'
+name = 'portsentry'
+
+[[package]]
+channel = 'debian'
+name = 'portsentry'

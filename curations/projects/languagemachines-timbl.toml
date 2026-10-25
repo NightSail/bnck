@@ -1,0 +1,12 @@
+id = 'languagemachines-timbl'
+name = 'languagemachines'
+
+homepage = 'https://languagemachines.github.io/timbl'
+
+[[package]]
+channel = 'debian'
+name = 'timbl'
+
+[[package]]
+channel = 'debian'
+name = 'timblserver'

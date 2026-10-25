@@ -1,0 +1,12 @@
+id = 'editorconfig-core-c'
+name = 'editorconfig-core-c'
+
+homepage = 'https://github.com/editorconfig/editorconfig-core-c'
+
+[[package]]
+channel = 'arch'
+name = 'editorconfig-core-c'
+
+[[package]]
+channel = 'fedora'
+name = 'editorconfig'

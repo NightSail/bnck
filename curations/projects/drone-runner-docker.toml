@@ -1,0 +1,8 @@
+id = 'drone-runner-docker'
+name = 'drone-runner-docker'
+
+homepage = 'https://github.com/drone-runners/drone-runner-docker'
+
+[[package]]
+channel = 'arch'
+name = 'drone-runner-docker'

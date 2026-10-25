@@ -1,0 +1,8 @@
+id = 'profbval'
+name = 'profbval'
+
+homepage = 'https://www.rostlab.org/owiki/index.php/PROFbval'
+
+[[package]]
+channel = 'debian'
+name = 'profbval'

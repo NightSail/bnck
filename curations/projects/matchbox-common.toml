@@ -1,0 +1,6 @@
+id = 'matchbox-common'
+name = 'matchbox-common'
+
+[[package]]
+channel = 'debian'
+name = 'matchbox-common'

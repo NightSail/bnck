@@ -1,0 +1,8 @@
+id = 'xjobs'
+name = 'xjobs'
+
+homepage = 'https://www.maier-komor.de/xjobs.html'
+
+[[package]]
+channel = 'debian'
+name = 'xjobs'

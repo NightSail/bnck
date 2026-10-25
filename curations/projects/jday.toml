@@ -1,0 +1,8 @@
+id = 'jday'
+name = 'jday'
+
+homepage = 'http://sourceforge.net/projects/jday'
+
+[[package]]
+channel = 'fedora'
+name = 'jday'

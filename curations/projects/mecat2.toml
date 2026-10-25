@@ -1,0 +1,8 @@
+id = 'mecat2'
+name = 'mecat2'
+
+homepage = 'https://github.com/xiaochuanle/MECAT2'
+
+[[package]]
+channel = 'debian'
+name = 'mecat2'

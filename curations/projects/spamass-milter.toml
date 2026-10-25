@@ -1,0 +1,12 @@
+id = 'spamass-milter'
+name = 'spamass-milter'
+
+homepage = 'https://savannah.nongnu.org/projects/spamass-milt'
+
+[[package]]
+channel = 'debian'
+name = 'spamass-milter'
+
+[[package]]
+channel = 'fedora'
+name = 'spamass-milter'

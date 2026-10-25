@@ -1,0 +1,8 @@
+id = 'wmauda'
+name = 'wmauda'
+
+homepage = 'https://www.netswarm.net/misc'
+
+[[package]]
+channel = 'debian'
+name = 'wmauda'

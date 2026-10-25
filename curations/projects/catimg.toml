@@ -1,0 +1,20 @@
+id = 'catimg'
+name = 'catimg'
+
+repository = 'https://github.com/posva/catimg.git'
+
+[[package]]
+channel = 'arch'
+name = 'catimg'
+
+[[package]]
+channel = 'debian'
+name = 'catimg'
+
+[[package]]
+channel = 'fedora'
+name = 'catimg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/catimg'

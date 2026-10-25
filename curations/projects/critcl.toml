@@ -1,0 +1,8 @@
+id = 'critcl'
+name = 'critcl'
+
+homepage = 'https://andreas-kupries.github.com/critcl'
+
+[[package]]
+channel = 'debian'
+name = 'critcl'

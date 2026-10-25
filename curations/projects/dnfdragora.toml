@@ -1,0 +1,12 @@
+id = 'dnfdragora'
+name = 'dnfdragora'
+
+homepage = 'https://github.com/manatools/dnfdragora'
+
+[[package]]
+channel = 'fedora'
+name = 'dnfdragora'
+
+[[package]]
+channel = 'fedora'
+name = 'dnfdragora-updater'

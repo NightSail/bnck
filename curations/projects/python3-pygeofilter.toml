@@ -1,0 +1,8 @@
+id = 'python3-pygeofilter'
+name = 'python3-pygeofilter'
+
+homepage = 'https://github.com/geopython/pygeofilter'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pygeofilter'

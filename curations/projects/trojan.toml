@@ -1,0 +1,16 @@
+id = 'trojan'
+name = 'trojan'
+
+homepage = 'https://github.com/trojan-gfw/trojan'
+
+[[package]]
+channel = 'arch'
+name = 'trojan'
+
+[[package]]
+channel = 'debian'
+name = 'trojan'
+
+[[package]]
+channel = 'fedora'
+name = 'trojan'

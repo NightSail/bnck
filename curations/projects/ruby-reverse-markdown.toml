@@ -1,0 +1,8 @@
+id = 'ruby-reverse-markdown'
+name = 'ruby-reverse-markdown'
+
+homepage = 'https://github.com/xijo/reverse_markdown'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-reverse-markdown'

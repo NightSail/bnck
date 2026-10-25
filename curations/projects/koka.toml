@@ -1,0 +1,9 @@
+id = 'koka'
+name = 'koka'
+
+homepage = 'http://koka-lang.org'
+repository = 'https://github.com/koka-lang/koka.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/koka'

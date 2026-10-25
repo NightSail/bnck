@@ -1,0 +1,12 @@
+id = 'vm-ec2'
+name = 'VM-EC2'
+
+homepage = 'https://metacpan.org/release/VM-EC2'
+
+[[package]]
+channel = 'debian'
+name = 'libvm-ec2-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-VM-EC2'

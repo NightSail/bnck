@@ -1,0 +1,8 @@
+id = 'mkclean'
+name = 'mkclean'
+
+homepage = 'https://www.matroska.org/downloads/mkclean.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkclean'

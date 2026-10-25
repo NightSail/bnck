@@ -1,0 +1,12 @@
+id = 'intel-cmt-cat'
+name = 'intel-cmt-cat'
+
+homepage = 'https://github.com/intel/intel-cmt-cat'
+
+[[package]]
+channel = 'debian'
+name = 'intel-cmt-cat'
+
+[[package]]
+channel = 'fedora'
+name = 'intel-cmt-cat'

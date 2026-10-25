@@ -1,0 +1,9 @@
+id = 'flux'
+name = 'flux'
+
+homepage = 'https://www.influxdata.com/products/flux'
+repository = 'https://github.com/influxdata/flux.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flux'

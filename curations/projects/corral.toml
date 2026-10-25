@@ -1,0 +1,8 @@
+id = 'corral'
+name = 'corral'
+
+repository = 'https://github.com/ponylang/corral.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/corral'

@@ -1,0 +1,21 @@
+id = 'fish'
+name = 'fish'
+
+homepage = 'https://fishshell.com'
+repository = 'https://github.com/fish-shell/fish-shell.git'
+
+[[package]]
+channel = 'arch'
+name = 'fish'
+
+[[package]]
+channel = 'debian'
+name = 'fish'
+
+[[package]]
+channel = 'fedora'
+name = 'fish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fish'

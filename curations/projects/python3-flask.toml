@@ -1,0 +1,12 @@
+id = 'python3-flask'
+name = 'python3-flask'
+
+homepage = 'https://github.com/pallets/flask'
+
+[[package]]
+channel = 'debian'
+name = 'python3-flask'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-flask'

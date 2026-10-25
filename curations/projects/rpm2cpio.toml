@@ -1,0 +1,8 @@
+id = 'rpm2cpio'
+name = 'rpm2cpio'
+
+homepage = 'https://svnweb.freebsd.org/ports/head/archivers/rpm2cpio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpm2cpio'

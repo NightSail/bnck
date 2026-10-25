@@ -1,0 +1,8 @@
+id = 'jenkins-cli'
+name = 'jenkins-cli'
+
+repository = 'https://github.com/jenkins-zh/jenkins-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jenkins-cli'

@@ -1,0 +1,8 @@
+id = 'openmha'
+name = 'openmha'
+
+homepage = 'https://www.openmha.org'
+
+[[package]]
+channel = 'debian'
+name = 'openmha'

@@ -1,0 +1,9 @@
+id = 'roll'
+name = 'roll'
+
+homepage = 'https://matteocorti.github.io/roll'
+repository = 'https://github.com/matteocorti/roll.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/roll'

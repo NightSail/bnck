@@ -1,0 +1,8 @@
+id = 'stac-validator'
+name = 'stac-validator'
+
+homepage = 'https://github.com/stac-utils/stac-validator'
+
+[[package]]
+channel = 'debian'
+name = 'stac-validator'

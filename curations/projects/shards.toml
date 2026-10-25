@@ -1,0 +1,8 @@
+id = 'shards'
+name = 'shards'
+
+homepage = 'https://github.com/crystal-lang/shards'
+
+[[package]]
+channel = 'arch'
+name = 'shards'

@@ -1,0 +1,8 @@
+id = 'easychem'
+name = 'easychem'
+
+homepage = 'http://easychem.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'easychem'

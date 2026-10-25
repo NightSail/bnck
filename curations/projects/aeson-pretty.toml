@@ -1,0 +1,12 @@
+id = 'aeson-pretty'
+name = 'aeson-pretty'
+
+homepage = 'https://github.com/informatikr/aeson-pretty'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-aeson-pretty'
+
+[[package]]
+channel = 'debian'
+name = 'aeson-pretty'

@@ -1,0 +1,12 @@
+id = 'atasm'
+name = 'atasm'
+
+homepage = 'https://sourceforge.net/projects/atasm'
+
+[[package]]
+channel = 'fedora'
+name = 'atasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atasm'

@@ -1,0 +1,12 @@
+id = 'plotnetcfg'
+name = 'plotnetcfg'
+
+homepage = 'https://github.com/jbenc/plotnetcfg'
+
+[[package]]
+channel = 'debian'
+name = 'plotnetcfg'
+
+[[package]]
+channel = 'fedora'
+name = 'plotnetcfg'

@@ -1,0 +1,12 @@
+id = 'files'
+name = 'files'
+
+homepage = 'https://github.com/elementary/files'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-files'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-files'

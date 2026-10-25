@@ -1,0 +1,17 @@
+id = 'luacheck'
+name = 'luacheck'
+
+homepage = 'https://github.com/luarocks/luacheck'
+repository = 'https://github.com/lunarmodules/luacheck.git'
+
+[[package]]
+channel = 'arch'
+name = 'luacheck'
+
+[[package]]
+channel = 'debian'
+name = 'lua-check'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luacheck'

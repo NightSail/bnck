@@ -1,0 +1,16 @@
+id = 'grammalecte'
+name = 'grammalecte'
+
+homepage = 'https://grammalecte.net'
+
+[[package]]
+channel = 'arch'
+name = 'grammalecte'
+
+[[package]]
+channel = 'debian'
+name = 'grammalecte-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-grammalecte'

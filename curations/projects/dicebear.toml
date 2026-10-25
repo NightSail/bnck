@@ -1,0 +1,8 @@
+id = 'dicebear'
+name = 'dicebear'
+
+homepage = 'https://www.dicebear.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dicebear'

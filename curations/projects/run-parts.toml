@@ -1,0 +1,8 @@
+id = 'run-parts'
+name = 'run-parts'
+
+homepage = 'https://salsa.debian.org/debian/debianutils'
+
+[[package]]
+channel = 'arch'
+name = 'run-parts'

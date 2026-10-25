@@ -1,0 +1,8 @@
+id = 'xlsx2csv'
+name = 'xlsx2csv'
+
+homepage = 'https://github.com/dilshod/xlsx2csv'
+
+[[package]]
+channel = 'debian'
+name = 'xlsx2csv'

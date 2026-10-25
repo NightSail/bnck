@@ -1,0 +1,16 @@
+id = 'moarvm'
+name = 'moarvm'
+
+homepage = 'https://moarvm.org'
+
+[[package]]
+channel = 'debian'
+name = 'moarvm'
+
+[[package]]
+channel = 'fedora'
+name = 'moarvm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moarvm'

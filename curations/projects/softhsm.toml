@@ -1,0 +1,13 @@
+id = 'softhsm'
+name = 'softhsm'
+
+homepage = 'https://opendnssec.readthedocs.io/en/latest/softhsm2'
+repository = 'https://github.com/softhsm/SoftHSMv2.git'
+
+[[package]]
+channel = 'arch'
+name = 'softhsm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/softhsm'

@@ -1,0 +1,25 @@
+id = 'fwknop'
+name = 'fwknop'
+
+homepage = 'https://www.cipherdyne.org/fwknop'
+repository = 'https://github.com/mrash/fwknop.git'
+
+[[package]]
+channel = 'arch'
+name = 'fwknop'
+
+[[package]]
+channel = 'debian'
+name = 'fwknop-client'
+
+[[package]]
+channel = 'debian'
+name = 'fwknop-server'
+
+[[package]]
+channel = 'fedora'
+name = 'fwknop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fwknop'

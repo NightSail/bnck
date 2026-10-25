@@ -1,0 +1,12 @@
+id = 'doclifter'
+name = 'doclifter'
+
+homepage = 'http://www.catb.org/~esr/doclifter'
+
+[[package]]
+channel = 'debian'
+name = 'doclifter'
+
+[[package]]
+channel = 'fedora'
+name = 'doclifter'

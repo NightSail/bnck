@@ -1,0 +1,8 @@
+id = 'tidelift'
+name = 'tidelift'
+
+homepage = 'https://tidelift.com/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/tidelift'

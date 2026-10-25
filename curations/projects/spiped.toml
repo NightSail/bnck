@@ -1,0 +1,16 @@
+id = 'spiped'
+name = 'spiped'
+
+homepage = 'https://www.tarsnap.com/spiped.html'
+
+[[package]]
+channel = 'arch'
+name = 'spiped'
+
+[[package]]
+channel = 'debian'
+name = 'spiped'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spiped'

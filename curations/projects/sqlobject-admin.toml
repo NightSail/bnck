@@ -1,0 +1,8 @@
+id = 'sqlobject-admin'
+name = 'sqlobject-admin'
+
+homepage = 'http://www.sqlobject.org'
+
+[[package]]
+channel = 'debian'
+name = 'sqlobject-admin'

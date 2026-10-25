@@ -1,0 +1,8 @@
+id = 'cgview'
+name = 'cgview'
+
+homepage = 'http://wishart.biology.ualberta.ca/cgview'
+
+[[package]]
+channel = 'debian'
+name = 'cgview'

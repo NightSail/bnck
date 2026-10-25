@@ -1,0 +1,16 @@
+id = 'swaynotificationcenter'
+name = 'SwayNotificationCenter'
+
+homepage = 'https://github.com/ErikReider/SwayNotificationCenter'
+
+[[package]]
+channel = 'arch'
+name = 'swaync'
+
+[[package]]
+channel = 'debian'
+name = 'sway-notification-center'
+
+[[package]]
+channel = 'fedora'
+name = 'SwayNotificationCenter'

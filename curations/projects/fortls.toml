@@ -1,0 +1,9 @@
+id = 'fortls'
+name = 'fortls'
+
+homepage = 'https://fortls.fortran-lang.org'
+repository = 'https://github.com/fortran-lang/fortls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fortls'

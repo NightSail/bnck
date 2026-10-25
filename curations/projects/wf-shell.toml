@@ -1,0 +1,16 @@
+id = 'wf-shell'
+name = 'wf-shell'
+
+homepage = 'https://github.com/WayfireWM/wf-shell'
+
+[[package]]
+channel = 'arch'
+name = 'wf-shell'
+
+[[package]]
+channel = 'debian'
+name = 'wf-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'wf-shell'

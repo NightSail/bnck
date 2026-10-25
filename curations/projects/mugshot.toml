@@ -1,0 +1,12 @@
+id = 'mugshot'
+name = 'mugshot'
+
+homepage = 'https://github.com/bluesabre/mugshot'
+
+[[package]]
+channel = 'arch'
+name = 'mugshot'
+
+[[package]]
+channel = 'debian'
+name = 'mugshot'

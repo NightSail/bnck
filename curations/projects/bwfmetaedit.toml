@@ -1,0 +1,8 @@
+id = 'bwfmetaedit'
+name = 'bwfmetaedit'
+
+homepage = 'https://mediaarea.net/BWFMetaEdit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bwfmetaedit'

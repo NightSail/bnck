@@ -1,0 +1,6 @@
+id = 'ksh93um'
+name = 'ksh93u+m'
+
+[[package]]
+channel = 'debian'
+name = 'ksh93u+m'

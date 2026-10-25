@@ -1,0 +1,8 @@
+id = 'kilo'
+name = 'kilo'
+
+homepage = 'https://github.com/antirez/kilo'
+
+[[package]]
+channel = 'debian'
+name = 'kilo'

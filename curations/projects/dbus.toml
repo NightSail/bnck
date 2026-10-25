@@ -1,0 +1,45 @@
+id = 'dbus'
+name = 'dbus'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/dbus'
+repository = 'https://gitlab.freedesktop.org/dbus/dbus.git'
+
+[[package]]
+channel = 'arch'
+name = 'dbus'
+
+[[package]]
+channel = 'arch'
+name = 'dbus-glib'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-bin'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-tests'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-x11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbus'

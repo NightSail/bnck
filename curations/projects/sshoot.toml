@@ -1,0 +1,8 @@
+id = 'sshoot'
+name = 'sshoot'
+
+homepage = 'https://github.com/albertodonato/sshoot'
+
+[[package]]
+channel = 'debian'
+name = 'sshoot'

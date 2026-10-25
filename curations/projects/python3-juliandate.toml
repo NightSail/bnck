@@ -1,0 +1,8 @@
+id = 'python3-juliandate'
+name = 'python3-juliandate'
+
+homepage = 'https://github.com/seanredmond/juliandate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-juliandate'

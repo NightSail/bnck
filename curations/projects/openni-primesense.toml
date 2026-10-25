@@ -1,0 +1,8 @@
+id = 'openni-primesense'
+name = 'openni-primesense'
+
+homepage = 'https://github.com/PrimeSense/Sensor'
+
+[[package]]
+channel = 'fedora'
+name = 'openni-primesense'

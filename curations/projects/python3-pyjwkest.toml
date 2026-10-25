@@ -1,0 +1,8 @@
+id = 'python3-pyjwkest'
+name = 'python3-pyjwkest'
+
+homepage = 'https://github.com/IdentityPython/pyjwkest'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyjwkest'

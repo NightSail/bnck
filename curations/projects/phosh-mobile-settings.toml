@@ -1,0 +1,16 @@
+id = 'phosh-mobile-settings'
+name = 'phosh-mobile-settings'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/phosh-mobile-settings'
+
+[[package]]
+channel = 'arch'
+name = 'phosh-mobile-settings'
+
+[[package]]
+channel = 'debian'
+name = 'phosh-mobile-settings'
+
+[[package]]
+channel = 'fedora'
+name = 'phosh-mobile-settings'

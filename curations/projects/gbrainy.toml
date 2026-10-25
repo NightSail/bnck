@@ -1,0 +1,12 @@
+id = 'gbrainy'
+name = 'gbrainy'
+
+homepage = 'https://wiki.gnome.org/Apps/gbrainy'
+
+[[package]]
+channel = 'arch'
+name = 'gbrainy'
+
+[[package]]
+channel = 'fedora'
+name = 'gbrainy'

@@ -1,0 +1,13 @@
+id = 'sqlc'
+name = 'sqlc'
+
+homepage = 'https://sqlc.dev'
+repository = 'https://github.com/sqlc-dev/sqlc.git'
+
+[[package]]
+channel = 'arch'
+name = 'sqlc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlc'

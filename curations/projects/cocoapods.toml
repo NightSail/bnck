@@ -1,0 +1,8 @@
+id = 'cocoapods'
+name = 'cocoapods'
+
+homepage = 'https://cocoapods.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cocoapods'

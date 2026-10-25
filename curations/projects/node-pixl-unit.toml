@@ -1,0 +1,8 @@
+id = 'node-pixl-unit'
+name = 'node-pixl-unit'
+
+homepage = 'https://github.com/jhuckaby/pixl-unit'
+
+[[package]]
+channel = 'debian'
+name = 'node-pixl-unit'

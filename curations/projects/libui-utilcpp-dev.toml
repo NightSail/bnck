@@ -1,0 +1,8 @@
+id = 'libui-utilcpp-dev'
+name = 'libui-utilcpp-dev'
+
+homepage = 'http://ui-utilcpp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libui-utilcpp-dev'

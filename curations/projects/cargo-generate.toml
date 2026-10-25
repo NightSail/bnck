@@ -1,0 +1,12 @@
+id = 'cargo-generate'
+name = 'cargo-generate'
+
+repository = 'https://github.com/cargo-generate/cargo-generate.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-generate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-generate'

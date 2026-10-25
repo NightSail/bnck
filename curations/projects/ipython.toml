@@ -1,0 +1,12 @@
+id = 'ipython'
+name = 'ipython'
+
+homepage = 'https://ipython.org'
+
+[[package]]
+channel = 'arch'
+name = 'ipython'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ipython'

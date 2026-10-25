@@ -1,0 +1,8 @@
+id = 'python3-ironicclient'
+name = 'python3-ironicclient'
+
+homepage = 'https://pypi.python.org/pypi/python-ironicclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ironicclient'

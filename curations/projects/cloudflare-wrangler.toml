@@ -1,0 +1,8 @@
+id = 'cloudflare-wrangler'
+name = 'cloudflare-wrangler'
+
+homepage = 'https://developers.cloudflare.com/workers'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudflare-wrangler'

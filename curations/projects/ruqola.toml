@@ -1,0 +1,8 @@
+id = 'ruqola'
+name = 'ruqola'
+
+homepage = 'https://invent.kde.org/network/ruqola'
+
+[[package]]
+channel = 'fedora'
+name = 'ruqola'

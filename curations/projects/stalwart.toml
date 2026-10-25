@@ -1,0 +1,8 @@
+id = 'stalwart'
+name = 'stalwart'
+
+homepage = 'https://stalw.art'
+
+[[package]]
+channel = 'arch'
+name = 'stalwart'

@@ -1,0 +1,12 @@
+id = 'refpolicy'
+name = 'refpolicy'
+
+homepage = 'https://github.com/SELinuxProject/refpolicy/releases'
+
+[[package]]
+channel = 'debian'
+name = 'policycoreutils-gui'
+
+[[package]]
+channel = 'debian'
+name = 'selinux-policy-dev'

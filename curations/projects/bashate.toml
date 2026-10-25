@@ -1,0 +1,9 @@
+id = 'bashate'
+name = 'bashate'
+
+homepage = 'https://opendev.org/openstack/bashate'
+repository = 'https://github.com/openstack/bashate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bashate'

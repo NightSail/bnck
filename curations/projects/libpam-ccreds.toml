@@ -1,0 +1,8 @@
+id = 'libpam-ccreds'
+name = 'libpam-ccreds'
+
+homepage = 'https://github.com/PADL/pam_ccreds'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-ccreds'

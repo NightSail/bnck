@@ -1,0 +1,8 @@
+id = 'quien'
+name = 'quien'
+
+homepage = 'https://benword.com/quien-a-better-whois-and-domain-intelligence-toolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quien'

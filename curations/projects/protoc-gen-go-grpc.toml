@@ -1,0 +1,8 @@
+id = 'protoc-gen-go-grpc'
+name = 'protoc-gen-go-grpc'
+
+homepage = 'https://godoc.org/google.golang.org/grpc'
+
+[[package]]
+channel = 'debian'
+name = 'protoc-gen-go-grpc'

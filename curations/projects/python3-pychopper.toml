@@ -1,0 +1,8 @@
+id = 'python3-pychopper'
+name = 'python3-pychopper'
+
+homepage = 'https://github.com/epi2me-labs/pychopper'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pychopper'

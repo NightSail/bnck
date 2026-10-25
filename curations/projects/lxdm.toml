@@ -1,0 +1,8 @@
+id = 'lxdm'
+name = 'lxdm'
+
+homepage = 'https://sourceforge.net/projects/lxdm'
+
+[[package]]
+channel = 'arch'
+name = 'lxdm'

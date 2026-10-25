@@ -1,0 +1,8 @@
+id = 'terminatorx'
+name = 'terminatorx'
+
+homepage = 'https://terminatorx.org'
+
+[[package]]
+channel = 'debian'
+name = 'terminatorx'

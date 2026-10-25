@@ -1,0 +1,20 @@
+id = 'gsm'
+name = 'gsm'
+
+homepage = 'https://www.quut.com/gsm'
+
+[[package]]
+channel = 'arch'
+name = 'gsm'
+
+[[package]]
+channel = 'debian'
+name = 'libgsm-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gsm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgsm'

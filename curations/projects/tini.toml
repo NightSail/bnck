@@ -1,0 +1,20 @@
+id = 'tini'
+name = 'tini'
+
+homepage = 'https://github.com/krallin/tini'
+
+[[package]]
+channel = 'debian'
+name = 'tini'
+
+[[package]]
+channel = 'debian'
+name = 'tini-static'
+
+[[package]]
+channel = 'fedora'
+name = 'tini'
+
+[[package]]
+channel = 'fedora'
+name = 'tini-static'

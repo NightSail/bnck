@@ -1,0 +1,8 @@
+id = 'snmpsim'
+name = 'snmpsim'
+
+homepage = 'http://snmpsim.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'snmpsim'

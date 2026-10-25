@@ -1,0 +1,8 @@
+id = 'asccli'
+name = 'asccli'
+
+homepage = 'https://github.com/tddworks/asc-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asccli'

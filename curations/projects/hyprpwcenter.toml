@@ -1,0 +1,8 @@
+id = 'hyprpwcenter'
+name = 'hyprpwcenter'
+
+homepage = 'https://github.com/hyprwm/hyprpwcenter'
+
+[[package]]
+channel = 'arch'
+name = 'hyprpwcenter'

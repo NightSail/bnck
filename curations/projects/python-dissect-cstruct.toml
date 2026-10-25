@@ -1,0 +1,8 @@
+id = 'python-dissect-cstruct'
+name = 'python-dissect.cstruct'
+
+homepage = 'https://github.com/fox-it/dissect.cstruct'
+
+[[package]]
+channel = 'arch'
+name = 'python-dissect.cstruct'

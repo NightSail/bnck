@@ -1,0 +1,8 @@
+id = 'python-lsp-server-python-lsp'
+name = 'python-lsp-server'
+
+repository = 'https://github.com/python-lsp/python-lsp-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-lsp-server'

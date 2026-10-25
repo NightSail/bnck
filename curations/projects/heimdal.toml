@@ -1,0 +1,24 @@
+id = 'heimdal'
+name = 'heimdal'
+
+homepage = 'https://github.com/heimdal/heimdal'
+
+[[package]]
+channel = 'fedora'
+name = 'heimdal-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'heimdal-libs'
+
+[[package]]
+channel = 'fedora'
+name = 'heimdal-server'
+
+[[package]]
+channel = 'fedora'
+name = 'heimdal-workstation'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/heimdal'

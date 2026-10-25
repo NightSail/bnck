@@ -1,0 +1,16 @@
+id = 'xdg-desktop-portal-hyprland'
+name = 'xdg-desktop-portal-hyprland'
+
+homepage = 'https://github.com/hyprwm/xdg-desktop-portal-hyprland'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-desktop-portal-hyprland'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-desktop-portal-hyprland'
+
+[[package]]
+channel = 'fedora'
+name = 'xdg-desktop-portal-hyprland'

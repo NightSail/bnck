@@ -1,0 +1,8 @@
+id = 'python3-fslpy'
+name = 'python3-fslpy'
+
+homepage = 'https://github.com/pauldmccarthy/fslpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fslpy'

@@ -1,0 +1,8 @@
+id = 'python3-neutron-dynamic-routing'
+name = 'python3-neutron-dynamic-routing'
+
+homepage = 'https://github.com/openstack/neutron-dynamic-routing'
+
+[[package]]
+channel = 'debian'
+name = 'python3-neutron-dynamic-routing'

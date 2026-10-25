@@ -1,0 +1,8 @@
+id = 'maliit-keyboard'
+name = 'maliit-keyboard'
+
+homepage = 'https://github.com/maliit/keyboard'
+
+[[package]]
+channel = 'debian'
+name = 'maliit-keyboard'

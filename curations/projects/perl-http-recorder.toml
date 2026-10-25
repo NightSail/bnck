@@ -1,0 +1,8 @@
+id = 'perl-http-recorder'
+name = 'perl-HTTP-Recorder'
+
+homepage = 'https://metacpan.org/release/HTTP-Recorder'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTTP-Recorder'

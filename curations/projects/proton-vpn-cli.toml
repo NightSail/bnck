@@ -1,0 +1,16 @@
+id = 'proton-vpn-cli'
+name = 'proton-vpn-cli'
+
+homepage = 'https://github.com/ProtonVPN/proton-vpn-cli'
+
+[[package]]
+channel = 'arch'
+name = 'proton-vpn-cli'
+
+[[package]]
+channel = 'debian'
+name = 'proton-vpn-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'protonvpn-cli'

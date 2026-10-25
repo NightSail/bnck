@@ -1,0 +1,8 @@
+id = 'unetbootin'
+name = 'unetbootin'
+
+homepage = 'https://unetbootin.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'unetbootin'

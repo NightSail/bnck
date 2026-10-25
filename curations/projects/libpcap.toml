@@ -1,0 +1,21 @@
+id = 'libpcap'
+name = 'libpcap'
+
+homepage = 'https://www.tcpdump.org'
+repository = 'https://github.com/the-tcpdump-group/libpcap.git'
+
+[[package]]
+channel = 'arch'
+name = 'libpcap'
+
+[[package]]
+channel = 'debian'
+name = 'libpcap0.8-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libpcap-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpcap'

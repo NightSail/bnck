@@ -1,0 +1,12 @@
+id = 'cosmic-applets'
+name = 'cosmic-applets'
+
+homepage = 'https://github.com/pop-os/cosmic-applets'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-applets'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-applets'

@@ -1,0 +1,6 @@
+id = 'zfs-fuse'
+name = 'zfs-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'zfs-fuse'

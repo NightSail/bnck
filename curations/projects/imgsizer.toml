@@ -1,0 +1,8 @@
+id = 'imgsizer'
+name = 'imgsizer'
+
+homepage = 'http://www.catb.org/~esr/imgsizer'
+
+[[package]]
+channel = 'debian'
+name = 'imgsizer'

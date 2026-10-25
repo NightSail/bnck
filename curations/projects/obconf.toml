@@ -1,0 +1,12 @@
+id = 'obconf'
+name = 'obconf'
+
+homepage = 'https://github.com/danakj/obconf'
+
+[[package]]
+channel = 'debian'
+name = 'obconf'
+
+[[package]]
+channel = 'fedora'
+name = 'obconf'

@@ -1,0 +1,16 @@
+id = 'kteatime'
+name = 'kteatime'
+
+homepage = 'https://apps.kde.org/kteatime'
+
+[[package]]
+channel = 'arch'
+name = 'kteatime'
+
+[[package]]
+channel = 'debian'
+name = 'kteatime'
+
+[[package]]
+channel = 'fedora'
+name = 'kteatime'

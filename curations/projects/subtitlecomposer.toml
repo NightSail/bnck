@@ -1,0 +1,12 @@
+id = 'subtitlecomposer'
+name = 'subtitlecomposer'
+
+homepage = 'https://subtitlecomposer.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'subtitlecomposer'
+
+[[package]]
+channel = 'debian'
+name = 'subtitlecomposer'

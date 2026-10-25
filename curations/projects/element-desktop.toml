@@ -1,0 +1,8 @@
+id = 'element-desktop'
+name = 'element-desktop'
+
+homepage = 'https://element.io'
+
+[[package]]
+channel = 'arch'
+name = 'element-desktop'

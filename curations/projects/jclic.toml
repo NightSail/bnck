@@ -1,0 +1,6 @@
+id = 'jclic'
+name = 'jclic'
+
+[[package]]
+channel = 'debian'
+name = 'jclic'

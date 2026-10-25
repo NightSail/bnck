@@ -1,0 +1,8 @@
+id = 'watchbind'
+name = 'watchbind'
+
+homepage = 'https://github.com/fritzrehde/watchbind'
+
+[[package]]
+channel = 'arch'
+name = 'watchbind'

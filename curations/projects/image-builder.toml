@@ -1,0 +1,8 @@
+id = 'image-builder'
+name = 'image-builder'
+
+homepage = 'https://github.com/osbuild/image-builder-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'image-builder'

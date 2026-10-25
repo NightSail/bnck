@@ -1,0 +1,8 @@
+id = 'mtm'
+name = 'mtm'
+
+repository = 'https://github.com/deadpixi/mtm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mtm'

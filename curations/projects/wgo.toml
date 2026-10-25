@@ -1,0 +1,8 @@
+id = 'wgo'
+name = 'wgo'
+
+homepage = 'https://github.com/bokwoon95/wgo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wgo'

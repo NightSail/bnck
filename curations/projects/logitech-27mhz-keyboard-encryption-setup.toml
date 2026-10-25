@@ -1,0 +1,8 @@
+id = 'logitech-27mhz-keyboard-encryption-setup'
+name = 'logitech-27mhz-keyboard-encryption-setup'
+
+homepage = 'https://gitlab.freedesktop.org/jwrdegoede/logitech-27mhz-keyboard-encryption-setup'
+
+[[package]]
+channel = 'fedora'
+name = 'logitech-27mhz-keyboard-encryption-setup'

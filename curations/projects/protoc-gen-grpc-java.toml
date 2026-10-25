@@ -1,0 +1,8 @@
+id = 'protoc-gen-grpc-java'
+name = 'protoc-gen-grpc-java'
+
+homepage = 'https://grpc.io/docs/languages/java'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-grpc-java'

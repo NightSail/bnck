@@ -1,0 +1,12 @@
+id = 'xprintidle'
+name = 'xprintidle'
+
+homepage = 'https://github.com/g0hl1n/xprintidle'
+
+[[package]]
+channel = 'arch'
+name = 'xprintidle'
+
+[[package]]
+channel = 'debian'
+name = 'xprintidle'

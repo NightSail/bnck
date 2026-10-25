@@ -1,0 +1,12 @@
+id = 'pebble'
+name = 'pebble'
+
+homepage = 'https://github.com/letsencrypt/pebble'
+
+[[package]]
+channel = 'debian'
+name = 'pebble'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-letsencrypt-pebble'

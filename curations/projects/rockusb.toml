@@ -1,0 +1,8 @@
+id = 'rockusb'
+name = 'rockusb'
+
+homepage = 'https://github.com/collabora/rockchiprs'
+
+[[package]]
+channel = 'debian'
+name = 'rockusb'

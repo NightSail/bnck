@@ -1,0 +1,8 @@
+id = 'netfetch'
+name = 'netfetch'
+
+repository = 'https://github.com/deggja/netfetch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netfetch'

@@ -1,0 +1,8 @@
+id = 'gauche-c-wrapper'
+name = 'gauche-c-wrapper'
+
+homepage = 'http://www.koguro.net/prog/c-wrapper'
+
+[[package]]
+channel = 'debian'
+name = 'gauche-c-wrapper'

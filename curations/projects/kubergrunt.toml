@@ -1,0 +1,8 @@
+id = 'kubergrunt'
+name = 'kubergrunt'
+
+repository = 'https://github.com/gruntwork-io/kubergrunt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubergrunt'

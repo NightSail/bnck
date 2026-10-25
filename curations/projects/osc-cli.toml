@@ -1,0 +1,8 @@
+id = 'osc-cli'
+name = 'osc-cli'
+
+homepage = 'https://github.com/outscale/osc-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osc-cli'

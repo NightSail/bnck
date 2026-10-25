@@ -1,0 +1,12 @@
+id = 'python3-prody'
+name = 'python3-ProDy'
+
+homepage = 'http://www.bahargroup.org/prody'
+
+[[package]]
+channel = 'debian'
+name = 'python3-prody'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ProDy'

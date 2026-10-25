@@ -1,0 +1,8 @@
+id = 'fingerterm'
+name = 'fingerterm'
+
+homepage = 'https://github.com/sailfishos/fingerterm'
+
+[[package]]
+channel = 'arch'
+name = 'fingerterm'

@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'help2man'
 
 [[package]]
+channel = 'debian'
+name = 'help2man'
+
+[[package]]
 channel = 'fedora'
 name = 'help2man'
 

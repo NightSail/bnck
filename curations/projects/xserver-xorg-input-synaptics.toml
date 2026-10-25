@@ -1,0 +1,6 @@
+id = 'xserver-xorg-input-synaptics'
+name = 'xserver-xorg-input-synaptics'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xorg-input-synaptics'

@@ -1,0 +1,8 @@
+id = 'libopenr2-bin'
+name = 'libopenr2-bin'
+
+homepage = 'https://www.libopenr2.org'
+
+[[package]]
+channel = 'debian'
+name = 'libopenr2-bin'

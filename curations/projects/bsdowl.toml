@@ -1,0 +1,8 @@
+id = 'bsdowl'
+name = 'bsdowl'
+
+homepage = 'https://github.com/michipili/bsdowl'
+
+[[package]]
+channel = 'debian'
+name = 'bsdowl'

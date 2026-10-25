@@ -1,0 +1,20 @@
+id = 'glad'
+name = 'glad'
+
+homepage = 'https://github.com/Dav1dde/glad'
+
+[[package]]
+channel = 'arch'
+name = 'glad'
+
+[[package]]
+channel = 'debian'
+name = 'python3-glad'
+
+[[package]]
+channel = 'fedora'
+name = 'glad'
+
+[[package]]
+channel = 'fedora'
+name = 'glad2'

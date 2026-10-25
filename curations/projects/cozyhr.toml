@@ -1,0 +1,8 @@
+id = 'cozyhr'
+name = 'cozyhr'
+
+repository = 'https://github.com/cozystack/cozyhr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cozyhr'

@@ -1,0 +1,8 @@
+id = 'python-swiftclient'
+name = 'python-swiftclient'
+
+homepage = 'https://docs.openstack.org/python-swiftclient'
+
+[[package]]
+channel = 'arch'
+name = 'python-swiftclient'

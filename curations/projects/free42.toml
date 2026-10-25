@@ -1,0 +1,12 @@
+id = 'free42'
+name = 'free42'
+
+homepage = 'https://thomasokken.com/free42'
+
+[[package]]
+channel = 'debian'
+name = 'free42-nologo'
+
+[[package]]
+channel = 'fedora'
+name = 'free42'

@@ -1,0 +1,8 @@
+id = 'biloba'
+name = 'biloba'
+
+homepage = 'http://biloba.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'biloba'

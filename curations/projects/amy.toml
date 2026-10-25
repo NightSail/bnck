@@ -1,0 +1,8 @@
+id = 'amy'
+name = 'amy'
+
+homepage = 'https://github.com/vitorpamplona/amethyst'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amy'

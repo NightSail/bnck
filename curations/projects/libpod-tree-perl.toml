@@ -1,0 +1,8 @@
+id = 'libpod-tree-perl'
+name = 'libpod-tree-perl'
+
+homepage = 'https://metacpan.org/release/Pod-Tree'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-tree-perl'

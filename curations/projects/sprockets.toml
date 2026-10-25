@@ -1,0 +1,12 @@
+id = 'sprockets'
+name = 'sprockets'
+
+homepage = 'https://github.com/rails/sprockets'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-sprockets'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-sprockets'

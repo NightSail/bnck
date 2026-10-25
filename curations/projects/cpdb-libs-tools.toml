@@ -1,0 +1,8 @@
+id = 'cpdb-libs-tools'
+name = 'cpdb-libs-tools'
+
+homepage = 'https://github.com/OpenPrinting/cpdb-libs'
+
+[[package]]
+channel = 'debian'
+name = 'cpdb-libs-tools'

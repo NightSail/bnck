@@ -1,0 +1,8 @@
+id = 'sms4you'
+name = 'sms4you'
+
+homepage = 'https://sms4you-team.pages.debian.net/sms4you'
+
+[[package]]
+channel = 'debian'
+name = 'sms4you'

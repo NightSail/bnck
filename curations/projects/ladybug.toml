@@ -1,0 +1,8 @@
+id = 'ladybug'
+name = 'ladybug'
+
+homepage = 'https://ladybugdb.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ladybug'

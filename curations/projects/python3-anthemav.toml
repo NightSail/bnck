@@ -1,0 +1,8 @@
+id = 'python3-anthemav'
+name = 'python3-anthemav'
+
+homepage = 'https://github.com/nugget/python-anthemav'
+
+[[package]]
+channel = 'debian'
+name = 'python3-anthemav'

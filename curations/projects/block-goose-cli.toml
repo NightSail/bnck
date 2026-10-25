@@ -1,0 +1,9 @@
+id = 'block-goose-cli'
+name = 'block-goose-cli'
+
+homepage = 'https://goose-docs.ai'
+repository = 'https://github.com/aaif-goose/goose.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/block-goose-cli'

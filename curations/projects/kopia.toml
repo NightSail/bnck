@@ -1,0 +1,9 @@
+id = 'kopia'
+name = 'kopia'
+
+homepage = 'https://kopia.io'
+repository = 'https://github.com/kopia/kopia.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kopia'

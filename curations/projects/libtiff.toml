@@ -1,0 +1,24 @@
+id = 'libtiff'
+name = 'libtiff'
+
+homepage = 'https://libtiff.gitlab.io/libtiff'
+
+[[package]]
+channel = 'arch'
+name = 'libtiff'
+
+[[package]]
+channel = 'debian'
+name = 'libtiff-opengl'
+
+[[package]]
+channel = 'debian'
+name = 'libtiff-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libtiff-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtiff'

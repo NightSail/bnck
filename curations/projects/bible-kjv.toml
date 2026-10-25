@@ -1,0 +1,6 @@
+id = 'bible-kjv'
+name = 'bible-kjv'
+
+[[package]]
+channel = 'debian'
+name = 'bible-kjv'

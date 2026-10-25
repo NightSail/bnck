@@ -1,0 +1,8 @@
+id = 'mantis-xray'
+name = 'mantis-xray'
+
+homepage = 'https://spectromicroscopy.com'
+
+[[package]]
+channel = 'debian'
+name = 'mantis-xray'

@@ -1,0 +1,12 @@
+id = 'feather-wallet'
+name = 'feather-wallet'
+
+homepage = 'https://featherwallet.org'
+
+[[package]]
+channel = 'debian'
+name = 'feather-wallet'
+
+[[package]]
+channel = 'fedora'
+name = 'feather'

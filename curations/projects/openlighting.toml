@@ -1,0 +1,12 @@
+id = 'openlighting'
+name = 'openlighting'
+
+homepage = 'https://www.openlighting.org'
+
+[[package]]
+channel = 'debian'
+name = 'ola'
+
+[[package]]
+channel = 'debian'
+name = 'ola-rdm-tests'

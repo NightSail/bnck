@@ -1,0 +1,12 @@
+id = 'pyppd'
+name = 'pyppd'
+
+homepage = 'https://github.com/OpenPrinting/pyppd'
+
+[[package]]
+channel = 'debian'
+name = 'pyppd'
+
+[[package]]
+channel = 'fedora'
+name = 'pyppd'

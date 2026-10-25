@@ -1,0 +1,16 @@
+id = 'gcr'
+name = 'gcr'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gcr'
+
+[[package]]
+channel = 'arch'
+name = 'gcr'
+
+[[package]]
+channel = 'arch'
+name = 'gcr-4'
+
+[[package]]
+channel = 'fedora'
+name = 'gcr'

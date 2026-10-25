@@ -1,0 +1,12 @@
+id = 'gearman'
+name = 'gearman'
+
+homepage = 'https://gearman.org'
+
+[[package]]
+channel = 'arch'
+name = 'gearmand'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gearman'

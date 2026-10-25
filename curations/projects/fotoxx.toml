@@ -1,0 +1,8 @@
+id = 'fotoxx'
+name = 'fotoxx'
+
+homepage = 'https://www.kornelix.net/fotoxx/fotoxx.html'
+
+[[package]]
+channel = 'debian'
+name = 'fotoxx'

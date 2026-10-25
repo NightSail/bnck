@@ -1,0 +1,16 @@
+id = 'skktools'
+name = 'skktools'
+
+homepage = 'https://github.com/skk-dev/skktools'
+
+[[package]]
+channel = 'arch'
+name = 'skktools'
+
+[[package]]
+channel = 'debian'
+name = 'skktools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skktools'

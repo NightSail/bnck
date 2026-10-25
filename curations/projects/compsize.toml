@@ -1,0 +1,16 @@
+id = 'compsize'
+name = 'compsize'
+
+homepage = 'https://github.com/kilobyte/compsize'
+
+[[package]]
+channel = 'arch'
+name = 'compsize'
+
+[[package]]
+channel = 'debian'
+name = 'btrfs-compsize'
+
+[[package]]
+channel = 'fedora'
+name = 'compsize'

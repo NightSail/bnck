@@ -1,0 +1,16 @@
+id = 'pim-data-exporter'
+name = 'pim-data-exporter'
+
+homepage = 'https://apps.kde.org/pimdataexporter'
+
+[[package]]
+channel = 'arch'
+name = 'pim-data-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'pim-data-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'pim-data-exporter'

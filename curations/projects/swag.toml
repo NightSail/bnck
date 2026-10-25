@@ -1,0 +1,8 @@
+id = 'swag'
+name = 'swag'
+
+repository = 'https://github.com/swaggo/swag.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swag'

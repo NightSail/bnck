@@ -1,0 +1,37 @@
+id = 'gpsd'
+name = 'gpsd'
+
+homepage = 'https://gpsd.gitlab.io/gpsd'
+repository = 'https://gitlab.com/gpsd/gpsd.git'
+
+[[package]]
+channel = 'arch'
+name = 'gpsd'
+
+[[package]]
+channel = 'debian'
+name = 'gpsd'
+
+[[package]]
+channel = 'debian'
+name = 'gpsd-clients'
+
+[[package]]
+channel = 'debian'
+name = 'gpsd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gpsd'
+
+[[package]]
+channel = 'fedora'
+name = 'gpsd-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'gpsd-xclients'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpsd'

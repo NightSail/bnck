@@ -1,0 +1,8 @@
+id = 'suseconnect-ng'
+name = 'suseconnect-ng'
+
+homepage = 'https://github.com/SUSE/connect-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'suseconnect-ng'

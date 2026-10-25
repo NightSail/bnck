@@ -1,0 +1,9 @@
+id = 'mpd'
+name = 'mpd'
+
+homepage = 'https://www.musicpd.org'
+repository = 'https://github.com/MusicPlayerDaemon/MPD.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpd'

@@ -1,0 +1,8 @@
+id = 'tfocus'
+name = 'tfocus'
+
+repository = 'https://github.com/nwiizo/tfocus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfocus'

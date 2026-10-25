@@ -1,0 +1,16 @@
+id = 'abiword'
+name = 'abiword'
+
+homepage = 'https://gitlab.gnome.org/World/AbiWord'
+
+[[package]]
+channel = 'arch'
+name = 'abiword'
+
+[[package]]
+channel = 'debian'
+name = 'abiword'
+
+[[package]]
+channel = 'fedora'
+name = 'abiword'

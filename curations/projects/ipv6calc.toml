@@ -1,0 +1,20 @@
+id = 'ipv6calc'
+name = 'ipv6calc'
+
+homepage = 'https://www.deepspace6.net/projects/ipv6calc.html'
+
+[[package]]
+channel = 'arch'
+name = 'ipv6calc'
+
+[[package]]
+channel = 'debian'
+name = 'ipv6calc'
+
+[[package]]
+channel = 'fedora'
+name = 'ipv6calc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipv6calc'

@@ -1,0 +1,8 @@
+id = 'ghc-hgettext-devel'
+name = 'ghc-hgettext-devel'
+
+homepage = 'https://hackage.haskell.org/package/hgettext'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-hgettext-devel'

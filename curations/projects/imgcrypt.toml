@@ -1,0 +1,8 @@
+id = 'imgcrypt'
+name = 'imgcrypt'
+
+homepage = 'https://github.com/containerd/imgcrypt'
+
+[[package]]
+channel = 'debian'
+name = 'imgcrypt'

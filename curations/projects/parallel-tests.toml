@@ -1,0 +1,12 @@
+id = 'parallel-tests'
+name = 'parallel_tests'
+
+homepage = 'https://github.com/grosser/parallel_tests'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-parallel_tests'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-parallel-tests'

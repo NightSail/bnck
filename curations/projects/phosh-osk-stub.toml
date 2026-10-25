@@ -1,0 +1,8 @@
+id = 'phosh-osk-stub'
+name = 'phosh-osk-stub'
+
+homepage = 'https://gitlab.gnome.org/guidog/phosh-osk-stub'
+
+[[package]]
+channel = 'debian'
+name = 'phosh-osk-stub'

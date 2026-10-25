@@ -5,4 +5,8 @@ repository = 'https://github.com/RivoLink/leaf'
 
 [[package]]
 channel = 'homebrew'
+name = 'homebrew/core/leaf'
+
+[[package]]
+channel = 'homebrew'
 name = 'homebrew/core/leaf-markdown-viewer'

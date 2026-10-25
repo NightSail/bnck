@@ -1,0 +1,9 @@
+id = 'volcano-cli'
+name = 'volcano-cli'
+
+homepage = 'https://volcano.sh'
+repository = 'https://github.com/volcano-sh/volcano.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/volcano-cli'

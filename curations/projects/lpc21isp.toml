@@ -1,0 +1,12 @@
+id = 'lpc21isp'
+name = 'lpc21isp'
+
+homepage = 'https://lpc21isp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'lpc21isp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lpc21isp'

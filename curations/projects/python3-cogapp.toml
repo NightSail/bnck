@@ -1,0 +1,8 @@
+id = 'python3-cogapp'
+name = 'python3-cogapp'
+
+homepage = 'https://github.com/nedbat/cog'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cogapp'

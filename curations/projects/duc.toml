@@ -1,0 +1,21 @@
+id = 'duc'
+name = 'duc'
+
+homepage = 'https://duc.zevv.nl'
+repository = 'https://github.com/zevv/duc.git'
+
+[[package]]
+channel = 'debian'
+name = 'duc'
+
+[[package]]
+channel = 'debian'
+name = 'duc-nox'
+
+[[package]]
+channel = 'fedora'
+name = 'duc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duc'

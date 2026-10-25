@@ -1,0 +1,12 @@
+id = 'sync-clients'
+name = 'sync-clients'
+
+homepage = 'https://owncloud.org/sync-clients'
+
+[[package]]
+channel = 'debian'
+name = 'owncloud-client'
+
+[[package]]
+channel = 'debian'
+name = 'owncloud-client-cmd'

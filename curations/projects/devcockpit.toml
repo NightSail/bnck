@@ -1,0 +1,9 @@
+id = 'devcockpit'
+name = 'devcockpit'
+
+homepage = 'https://devcockpit.app'
+repository = 'https://github.com/caioricciuti/dev-cockpit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/devcockpit'

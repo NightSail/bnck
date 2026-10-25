@@ -1,0 +1,8 @@
+id = 'yarsync'
+name = 'yarsync'
+
+homepage = 'https://github.com/ynikitenko/yarsync'
+
+[[package]]
+channel = 'debian'
+name = 'yarsync'

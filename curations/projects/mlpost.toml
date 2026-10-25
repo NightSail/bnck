@@ -1,0 +1,8 @@
+id = 'mlpost'
+name = 'mlpost'
+
+homepage = 'http://mlpost.lri.fr'
+
+[[package]]
+channel = 'debian'
+name = 'mlpost'

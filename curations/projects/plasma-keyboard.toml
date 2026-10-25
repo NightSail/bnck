@@ -1,0 +1,12 @@
+id = 'plasma-keyboard'
+name = 'plasma-keyboard'
+
+homepage = 'https://invent.kde.org/plasma/plasma-keyboard'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-keyboard'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-keyboard'

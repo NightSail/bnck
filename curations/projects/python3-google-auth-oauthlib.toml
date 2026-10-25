@@ -1,0 +1,12 @@
+id = 'python3-google-auth-oauthlib'
+name = 'python3-google-auth-oauthlib'
+
+homepage = 'https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-google-auth-oauthlib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-google-auth-oauthlib'

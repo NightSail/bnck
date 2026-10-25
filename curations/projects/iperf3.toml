@@ -1,0 +1,21 @@
+id = 'iperf3'
+name = 'iperf3'
+
+homepage = 'https://software.es.net/iperf'
+repository = 'https://github.com/esnet/iperf.git'
+
+[[package]]
+channel = 'arch'
+name = 'iperf3'
+
+[[package]]
+channel = 'debian'
+name = 'iperf3'
+
+[[package]]
+channel = 'fedora'
+name = 'iperf3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iperf3'

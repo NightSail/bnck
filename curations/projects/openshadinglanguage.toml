@@ -1,0 +1,12 @@
+id = 'openshadinglanguage'
+name = 'openshadinglanguage'
+
+homepage = 'https://github.com/imageworks/OpenShadingLanguage'
+
+[[package]]
+channel = 'arch'
+name = 'openshadinglanguage'
+
+[[package]]
+channel = 'fedora'
+name = 'openshadinglanguage'

@@ -1,0 +1,17 @@
+id = 'x264'
+name = 'x264'
+
+homepage = 'https://www.videolan.org/developers/x264.html'
+repository = 'https://code.videolan.org/videolan/x264.git'
+
+[[package]]
+channel = 'arch'
+name = 'x264'
+
+[[package]]
+channel = 'debian'
+name = 'x264'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x264'

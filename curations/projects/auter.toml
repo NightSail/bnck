@@ -1,0 +1,8 @@
+id = 'auter'
+name = 'auter'
+
+homepage = 'https://github.com/rackerlabs/auter'
+
+[[package]]
+channel = 'fedora'
+name = 'auter'

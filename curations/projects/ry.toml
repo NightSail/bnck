@@ -1,0 +1,8 @@
+id = 'ry'
+name = 'ry'
+
+repository = 'https://github.com/jneen/ry.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ry'

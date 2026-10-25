@@ -1,0 +1,8 @@
+id = 'pg-schema-diff'
+name = 'pg-schema-diff'
+
+repository = 'https://github.com/stripe/pg-schema-diff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pg-schema-diff'

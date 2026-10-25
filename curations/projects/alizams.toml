@@ -1,0 +1,8 @@
+id = 'alizams'
+name = 'alizams'
+
+homepage = 'https://github.com/AlizaMedicalImaging/AlizaMS'
+
+[[package]]
+channel = 'fedora'
+name = 'alizams'

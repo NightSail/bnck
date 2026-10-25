@@ -1,0 +1,6 @@
+id = 'apt-show-source'
+name = 'apt-show-source'
+
+[[package]]
+channel = 'debian'
+name = 'apt-show-source'

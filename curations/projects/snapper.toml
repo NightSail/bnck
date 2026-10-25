@@ -1,0 +1,16 @@
+id = 'snapper'
+name = 'snapper'
+
+homepage = 'http://snapper.io'
+
+[[package]]
+channel = 'arch'
+name = 'snapper'
+
+[[package]]
+channel = 'debian'
+name = 'snapper'
+
+[[package]]
+channel = 'fedora'
+name = 'snapper'

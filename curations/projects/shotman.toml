@@ -1,0 +1,8 @@
+id = 'shotman'
+name = 'shotman'
+
+homepage = 'https://shotman.whynothugo.nl'
+
+[[package]]
+channel = 'debian'
+name = 'shotman'

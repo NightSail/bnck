@@ -1,0 +1,8 @@
+id = 'tuned-switcher'
+name = 'tuned-switcher'
+
+homepage = 'https://github.com/xvitaly/tuned-switcher'
+
+[[package]]
+channel = 'fedora'
+name = 'tuned-switcher'

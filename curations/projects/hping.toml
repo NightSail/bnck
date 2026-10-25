@@ -1,0 +1,8 @@
+id = 'hping'
+name = 'hping'
+
+homepage = 'https://github.com/antirez/hping'
+
+[[package]]
+channel = 'arch'
+name = 'hping'

@@ -1,0 +1,8 @@
+id = 'urlfinder'
+name = 'urlfinder'
+
+repository = 'https://github.com/pingc0y/URLFinder.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urlfinder'

@@ -1,0 +1,8 @@
+id = 'qmic'
+name = 'qmic'
+
+homepage = 'https://github.com/andersson/qmic'
+
+[[package]]
+channel = 'fedora'
+name = 'qmic'

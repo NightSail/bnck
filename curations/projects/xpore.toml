@@ -1,0 +1,8 @@
+id = 'xpore'
+name = 'xpore'
+
+homepage = 'https://github.com/GoekeLab/xpore'
+
+[[package]]
+channel = 'debian'
+name = 'xpore'

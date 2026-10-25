@@ -1,0 +1,12 @@
+id = 'trademgen'
+name = 'trademgen'
+
+homepage = 'https://github.com/airsim/trademgen'
+
+[[package]]
+channel = 'fedora'
+name = 'trademgen'
+
+[[package]]
+channel = 'fedora'
+name = 'trademgen-devel'

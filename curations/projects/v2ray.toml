@@ -1,0 +1,17 @@
+id = 'v2ray'
+name = 'v2ray'
+
+homepage = 'https://v2fly.org'
+repository = 'https://github.com/v2fly/v2ray-core.git'
+
+[[package]]
+channel = 'arch'
+name = 'v2ray'
+
+[[package]]
+channel = 'debian'
+name = 'v2ray'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/v2ray'

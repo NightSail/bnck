@@ -1,0 +1,8 @@
+id = 'brp-pacu'
+name = 'brp-pacu'
+
+homepage = 'https://github.com/matthew-dews/brp-pacu'
+
+[[package]]
+channel = 'debian'
+name = 'brp-pacu'

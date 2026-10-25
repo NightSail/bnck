@@ -1,0 +1,8 @@
+id = 'tracebox'
+name = 'tracebox'
+
+repository = 'https://github.com/tracebox/tracebox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tracebox'

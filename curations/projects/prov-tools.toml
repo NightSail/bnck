@@ -1,0 +1,8 @@
+id = 'prov-tools'
+name = 'prov-tools'
+
+homepage = 'https://github.com/trungdong/prov'
+
+[[package]]
+channel = 'debian'
+name = 'prov-tools'

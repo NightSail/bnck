@@ -1,0 +1,8 @@
+id = 'lintex'
+name = 'lintex'
+
+homepage = 'http://github.com/ryanakca/lintex'
+
+[[package]]
+channel = 'debian'
+name = 'lintex'

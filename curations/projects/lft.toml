@@ -1,0 +1,12 @@
+id = 'lft'
+name = 'lft'
+
+homepage = 'https://pwhois.org/lft'
+
+[[package]]
+channel = 'debian'
+name = 'lft'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lft'

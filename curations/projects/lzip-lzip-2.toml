@@ -1,0 +1,8 @@
+id = 'lzip-lzip-2'
+name = 'lzip'
+
+homepage = 'https://www.nongnu.org/lzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lzip'

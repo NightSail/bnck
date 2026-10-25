@@ -1,0 +1,8 @@
+id = 'tfupdate'
+name = 'tfupdate'
+
+repository = 'https://github.com/minamijoyo/tfupdate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfupdate'

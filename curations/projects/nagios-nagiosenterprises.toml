@@ -1,0 +1,9 @@
+id = 'nagios-nagiosenterprises'
+name = 'nagios'
+
+homepage = 'https://www.nagios.org'
+repository = 'https://github.com/NagiosEnterprises/nagioscore.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nagios'

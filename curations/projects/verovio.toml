@@ -1,0 +1,9 @@
+id = 'verovio'
+name = 'verovio'
+
+homepage = 'https://www.verovio.org'
+repository = 'https://github.com/rism-digital/verovio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/verovio'

@@ -1,0 +1,12 @@
+id = 'carton'
+name = 'carton'
+
+homepage = 'https://metacpan.org/release/Carton'
+
+[[package]]
+channel = 'debian'
+name = 'carton'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Carton'

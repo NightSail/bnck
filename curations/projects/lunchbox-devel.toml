@@ -1,0 +1,8 @@
+id = 'lunchbox-devel'
+name = 'lunchbox-devel'
+
+homepage = 'http://www.equalizergraphics.com'
+
+[[package]]
+channel = 'fedora'
+name = 'lunchbox-devel'

@@ -1,0 +1,8 @@
+id = 'alumet'
+name = 'alumet'
+
+homepage = 'https://github.com/alumet-dev/alumet'
+
+[[package]]
+channel = 'debian'
+name = 'alumet'

@@ -1,0 +1,8 @@
+id = 'asammdf'
+name = 'asammdf'
+
+homepage = 'https://github.com/danielhrisca/asammdf'
+
+[[package]]
+channel = 'debian'
+name = 'asammdf'

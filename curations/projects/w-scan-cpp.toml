@@ -1,0 +1,12 @@
+id = 'w-scan-cpp'
+name = 'w-scan-cpp'
+
+homepage = 'https://www.gen2vdr.de/wirbel/w_scan_cpp/index2.html'
+
+[[package]]
+channel = 'debian'
+name = 'w-scan'
+
+[[package]]
+channel = 'debian'
+name = 'w-scan-cpp'

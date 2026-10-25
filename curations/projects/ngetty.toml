@@ -1,0 +1,6 @@
+id = 'ngetty'
+name = 'ngetty'
+
+[[package]]
+channel = 'debian'
+name = 'ngetty'

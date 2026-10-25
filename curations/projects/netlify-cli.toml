@@ -1,0 +1,8 @@
+id = 'netlify-cli'
+name = 'netlify-cli'
+
+homepage = 'https://www.netlify.com/docs/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netlify-cli'

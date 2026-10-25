@@ -1,0 +1,24 @@
+id = 'glycin'
+name = 'glycin'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/glycin'
+
+[[package]]
+channel = 'arch'
+name = 'glycin'
+
+[[package]]
+channel = 'debian'
+name = 'glycin-image-rs'
+
+[[package]]
+channel = 'debian'
+name = 'glycin-test'
+
+[[package]]
+channel = 'debian'
+name = 'glycin-thumbnailers'
+
+[[package]]
+channel = 'fedora'
+name = 'glycin-thumbnailer'

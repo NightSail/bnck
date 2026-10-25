@@ -1,0 +1,12 @@
+id = 'bibledit'
+name = 'bibledit'
+
+homepage = 'https://bibledit.org'
+
+[[package]]
+channel = 'debian'
+name = 'bibledit'
+
+[[package]]
+channel = 'debian'
+name = 'bibledit-cloud'

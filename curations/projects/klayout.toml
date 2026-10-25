@@ -1,0 +1,12 @@
+id = 'klayout'
+name = 'klayout'
+
+homepage = 'https://www.klayout.de'
+
+[[package]]
+channel = 'arch'
+name = 'klayout'
+
+[[package]]
+channel = 'debian'
+name = 'klayout'

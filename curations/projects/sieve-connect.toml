@@ -1,0 +1,12 @@
+id = 'sieve-connect'
+name = 'sieve-connect'
+
+homepage = 'http://people.spodhuis.org/phil.pennock/software'
+
+[[package]]
+channel = 'arch'
+name = 'sieve-connect'
+
+[[package]]
+channel = 'debian'
+name = 'sieve-connect'

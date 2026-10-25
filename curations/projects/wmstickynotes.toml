@@ -1,0 +1,8 @@
+id = 'wmstickynotes'
+name = 'wmstickynotes'
+
+homepage = 'https://sourceforge.net/projects/wmstickynotes'
+
+[[package]]
+channel = 'debian'
+name = 'wmstickynotes'

@@ -1,0 +1,24 @@
+id = 'remmina'
+name = 'remmina'
+
+homepage = 'https://www.remmina.org'
+
+[[package]]
+channel = 'arch'
+name = 'remmina'
+
+[[package]]
+channel = 'debian'
+name = 'remmina'
+
+[[package]]
+channel = 'debian'
+name = 'remmina-plugin-kiosk'
+
+[[package]]
+channel = 'fedora'
+name = 'remmina'
+
+[[package]]
+channel = 'fedora'
+name = 'remmina-gnome-session'

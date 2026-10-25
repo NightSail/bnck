@@ -1,0 +1,8 @@
+id = 'glueviz'
+name = 'glueviz'
+
+homepage = 'https://github.com/glue-viz/glue-qt'
+
+[[package]]
+channel = 'debian'
+name = 'glueviz'

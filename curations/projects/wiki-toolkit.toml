@@ -1,0 +1,12 @@
+id = 'wiki-toolkit'
+name = 'Wiki-Toolkit'
+
+homepage = 'https://metacpan.org/release/Wiki-Toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'libwiki-toolkit-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Wiki-Toolkit'

@@ -1,0 +1,12 @@
+id = 'cconv'
+name = 'cconv'
+
+homepage = 'https://github.com/xiaoyjy/cconv'
+
+[[package]]
+channel = 'debian'
+name = 'cconv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cconv'

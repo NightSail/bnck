@@ -1,0 +1,9 @@
+id = 'pgroll'
+name = 'pgroll'
+
+homepage = 'https://pgroll.com'
+repository = 'https://github.com/xataio/pgroll.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgroll'

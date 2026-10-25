@@ -1,0 +1,8 @@
+id = 'zram-tools'
+name = 'zram-tools'
+
+homepage = 'https://github.com/highvoltage/zram-tools'
+
+[[package]]
+channel = 'debian'
+name = 'zram-tools'

@@ -1,0 +1,8 @@
+id = 'buffa'
+name = 'buffa'
+
+repository = 'https://github.com/anthropics/buffa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buffa'

@@ -1,0 +1,12 @@
+id = 'metasploit'
+name = 'metasploit'
+
+homepage = 'https://www.metasploit.com'
+
+[[package]]
+channel = 'arch'
+name = 'metasploit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/metasploit'

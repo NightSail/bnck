@@ -1,0 +1,24 @@
+id = 'nagios'
+name = 'nagios'
+
+homepage = 'https://www.nagios.org'
+
+[[package]]
+channel = 'debian'
+name = 'nagios4-core'
+
+[[package]]
+channel = 'fedora'
+name = 'nrpe'
+
+[[package]]
+channel = 'fedora'
+name = 'nsca'
+
+[[package]]
+channel = 'fedora'
+name = 'nsca-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nrpe'

@@ -1,0 +1,21 @@
+id = 'uncrustify'
+name = 'uncrustify'
+
+homepage = 'https://uncrustify.sourceforge.net'
+repository = 'https://github.com/uncrustify/uncrustify.git'
+
+[[package]]
+channel = 'arch'
+name = 'uncrustify'
+
+[[package]]
+channel = 'debian'
+name = 'uncrustify'
+
+[[package]]
+channel = 'fedora'
+name = 'uncrustify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uncrustify'

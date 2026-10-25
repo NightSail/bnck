@@ -1,0 +1,13 @@
+id = 'sniffnet'
+name = 'sniffnet'
+
+homepage = 'https://sniffnet.net'
+repository = 'https://github.com/GyulyVGC/sniffnet.git'
+
+[[package]]
+channel = 'arch'
+name = 'sniffnet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sniffnet'

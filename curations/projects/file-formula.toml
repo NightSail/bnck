@@ -1,0 +1,9 @@
+id = 'file-formula'
+name = 'file-formula'
+
+homepage = 'https://darwinsys.com/file'
+repository = 'https://github.com/file/file.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/file-formula'

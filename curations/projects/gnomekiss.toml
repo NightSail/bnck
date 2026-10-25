@@ -1,0 +1,8 @@
+id = 'gnomekiss'
+name = 'gnomekiss'
+
+homepage = 'http://devel.tlrmx.org/kiss'
+
+[[package]]
+channel = 'debian'
+name = 'gnomekiss'

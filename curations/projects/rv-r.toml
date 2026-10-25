@@ -1,0 +1,8 @@
+id = 'rv-r'
+name = 'rv-r'
+
+homepage = 'https://a2-ai.github.io/rv-docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rv-r'

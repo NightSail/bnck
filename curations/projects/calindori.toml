@@ -1,0 +1,16 @@
+id = 'calindori'
+name = 'calindori'
+
+homepage = 'https://apps.kde.org/calindori'
+
+[[package]]
+channel = 'arch'
+name = 'calindori'
+
+[[package]]
+channel = 'debian'
+name = 'calindori'
+
+[[package]]
+channel = 'fedora'
+name = 'calindori'

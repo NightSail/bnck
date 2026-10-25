@@ -1,0 +1,6 @@
+id = 'pkgsync'
+name = 'pkgsync'
+
+[[package]]
+channel = 'debian'
+name = 'pkgsync'

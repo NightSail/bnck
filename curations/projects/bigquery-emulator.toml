@@ -1,0 +1,8 @@
+id = 'bigquery-emulator'
+name = 'bigquery-emulator'
+
+repository = 'https://github.com/goccy/bigquery-emulator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bigquery-emulator'

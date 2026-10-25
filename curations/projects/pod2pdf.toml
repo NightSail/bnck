@@ -1,0 +1,6 @@
+id = 'pod2pdf'
+name = 'pod2pdf'
+
+[[package]]
+channel = 'debian'
+name = 'pod2pdf'

@@ -1,0 +1,8 @@
+id = 'libwhich'
+name = 'libwhich'
+
+homepage = 'https://github.com/vtjnash/libwhich'
+
+[[package]]
+channel = 'arch'
+name = 'libwhich'

@@ -1,0 +1,21 @@
+id = 'astyle'
+name = 'astyle'
+
+homepage = 'http://astyle.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/astyle/code/trunk/AStyle'
+
+[[package]]
+channel = 'arch'
+name = 'astyle'
+
+[[package]]
+channel = 'debian'
+name = 'astyle'
+
+[[package]]
+channel = 'fedora'
+name = 'astyle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/astyle'

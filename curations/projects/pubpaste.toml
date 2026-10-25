@@ -1,0 +1,8 @@
+id = 'pubpaste'
+name = 'pubpaste'
+
+homepage = 'https://gitlab.com/anarcat/pubpaste'
+
+[[package]]
+channel = 'debian'
+name = 'pubpaste'

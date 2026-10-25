@@ -1,0 +1,12 @@
+id = 'sc'
+name = 'sc'
+
+homepage = 'https://github.com/n-t-roff/sc'
+
+[[package]]
+channel = 'debian'
+name = 'sc'
+
+[[package]]
+channel = 'fedora'
+name = 'sc'

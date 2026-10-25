@@ -1,0 +1,8 @@
+id = 'go-jsonschema'
+name = 'go-jsonschema'
+
+homepage = 'https://github.com/atombender/go-jsonschema'
+
+[[package]]
+channel = 'debian'
+name = 'go-jsonschema'

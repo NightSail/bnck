@@ -1,0 +1,8 @@
+id = 'doctest'
+name = 'doctest'
+
+homepage = 'https://github.com/sol/doctest-haskell'
+
+[[package]]
+channel = 'debian'
+name = 'doctest'

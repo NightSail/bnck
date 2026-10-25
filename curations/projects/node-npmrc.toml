@@ -1,0 +1,8 @@
+id = 'node-npmrc'
+name = 'node-npmrc'
+
+homepage = 'https://github.com/deoxxa/npmrc'
+
+[[package]]
+channel = 'debian'
+name = 'node-npmrc'

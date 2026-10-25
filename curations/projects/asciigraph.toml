@@ -1,0 +1,8 @@
+id = 'asciigraph'
+name = 'asciigraph'
+
+homepage = 'https://github.com/guptarohit/asciigraph'
+
+[[package]]
+channel = 'fedora'
+name = 'asciigraph'

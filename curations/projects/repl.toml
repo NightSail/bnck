@@ -1,0 +1,8 @@
+id = 'repl'
+name = 'repl'
+
+homepage = 'http://defunkt.io/repl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/repl'

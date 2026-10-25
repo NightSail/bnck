@@ -1,0 +1,12 @@
+id = 'calculix'
+name = 'calculix'
+
+homepage = 'https://www.calculix.de'
+
+[[package]]
+channel = 'debian'
+name = 'calculix-ccx'
+
+[[package]]
+channel = 'debian'
+name = 'calculix-cgx'

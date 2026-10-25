@@ -1,0 +1,16 @@
+id = 'rssguard'
+name = 'rssguard'
+
+homepage = 'https://github.com/martinrotter/rssguard'
+
+[[package]]
+channel = 'arch'
+name = 'rssguard'
+
+[[package]]
+channel = 'debian'
+name = 'rssguard'
+
+[[package]]
+channel = 'fedora'
+name = 'rssguard'

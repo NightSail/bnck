@@ -1,0 +1,8 @@
+id = 'prefixsuffix'
+name = 'prefixsuffix'
+
+homepage = 'https://github.com/murraycu/prefixsuffix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prefixsuffix'

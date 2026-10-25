@@ -1,0 +1,8 @@
+id = 'python3-freesas'
+name = 'python3-freesas'
+
+homepage = 'https://github.com/silx-kit/freesas'
+
+[[package]]
+channel = 'debian'
+name = 'python3-freesas'

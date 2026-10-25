@@ -1,0 +1,8 @@
+id = 'e2guardian'
+name = 'e2guardian'
+
+homepage = 'https://github.com/e2guardian/e2guardian'
+
+[[package]]
+channel = 'debian'
+name = 'e2guardian'

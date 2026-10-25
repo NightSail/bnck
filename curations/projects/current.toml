@@ -1,0 +1,16 @@
+id = 'current'
+name = 'current'
+
+homepage = 'https://www.chiark.greenend.org.uk/~ianmdlvl/hippotat/current/docs'
+
+[[package]]
+channel = 'debian'
+name = 'hippotat-client'
+
+[[package]]
+channel = 'debian'
+name = 'hippotat-common'
+
+[[package]]
+channel = 'debian'
+name = 'hippotat-server'

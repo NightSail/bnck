@@ -1,0 +1,8 @@
+id = 'distroshelf'
+name = 'distroshelf'
+
+homepage = 'https://github.com/ranfdev/DistroShelf'
+
+[[package]]
+channel = 'arch'
+name = 'distroshelf'

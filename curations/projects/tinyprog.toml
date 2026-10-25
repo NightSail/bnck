@@ -1,0 +1,8 @@
+id = 'tinyprog'
+name = 'tinyprog'
+
+homepage = 'https://github.com/tinyfpga/TinyFPGA-Bootloader'
+
+[[package]]
+channel = 'arch'
+name = 'tinyprog'

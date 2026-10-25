@@ -1,0 +1,12 @@
+id = 'sunpinyin'
+name = 'sunpinyin'
+
+homepage = 'https://github.com/sunpinyin/sunpinyin'
+
+[[package]]
+channel = 'arch'
+name = 'sunpinyin'
+
+[[package]]
+channel = 'debian'
+name = 'sunpinyin-utils'

@@ -1,0 +1,9 @@
+id = 'jerryscript'
+name = 'jerryscript'
+
+homepage = 'https://jerryscript.net'
+repository = 'https://github.com/jerryscript-project/jerryscript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jerryscript'

@@ -1,0 +1,8 @@
+id = 'arti'
+name = 'arti'
+
+homepage = 'https://gitlab.torproject.org/tpo/core/arti'
+
+[[package]]
+channel = 'arch'
+name = 'arti'

@@ -1,0 +1,20 @@
+id = 'libkiwix'
+name = 'libkiwix'
+
+homepage = 'https://github.com/kiwix/libkiwix'
+
+[[package]]
+channel = 'arch'
+name = 'libkiwix'
+
+[[package]]
+channel = 'debian'
+name = 'libkiwix-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libkiwix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libkiwix'

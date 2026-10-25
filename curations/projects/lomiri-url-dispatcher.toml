@@ -1,0 +1,16 @@
+id = 'lomiri-url-dispatcher'
+name = 'lomiri-url-dispatcher'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-url-dispatcher'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-url-dispatcher'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-url-dispatcher-tools'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-url-dispatcher-tools-gui'

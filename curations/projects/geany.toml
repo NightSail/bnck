@@ -1,0 +1,16 @@
+id = 'geany'
+name = 'geany'
+
+homepage = 'https://www.geany.org'
+
+[[package]]
+channel = 'arch'
+name = 'geany'
+
+[[package]]
+channel = 'debian'
+name = 'geany'
+
+[[package]]
+channel = 'fedora'
+name = 'geany'

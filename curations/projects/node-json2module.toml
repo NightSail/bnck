@@ -1,0 +1,8 @@
+id = 'node-json2module'
+name = 'node-json2module'
+
+homepage = 'https://github.com/mbostock/json2module'
+
+[[package]]
+channel = 'debian'
+name = 'node-json2module'

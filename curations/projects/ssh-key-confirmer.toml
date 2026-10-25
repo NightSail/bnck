@@ -1,0 +1,8 @@
+id = 'ssh-key-confirmer'
+name = 'ssh-key-confirmer'
+
+homepage = 'https://github.com/benjojo/ssh-key-confirmer'
+
+[[package]]
+channel = 'arch'
+name = 'ssh-key-confirmer'

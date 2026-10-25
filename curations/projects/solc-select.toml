@@ -1,0 +1,8 @@
+id = 'solc-select'
+name = 'solc-select'
+
+repository = 'https://github.com/crytic/solc-select.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solc-select'

@@ -1,0 +1,8 @@
+id = 'perl-pod-wrap'
+name = 'perl-Pod-Wrap'
+
+homepage = 'https://metacpan.org/release/Pod-Wrap'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Wrap'

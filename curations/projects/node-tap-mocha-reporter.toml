@@ -1,0 +1,8 @@
+id = 'node-tap-mocha-reporter'
+name = 'node-tap-mocha-reporter'
+
+homepage = 'https://github.com/tapjs/tap-mocha-reporter'
+
+[[package]]
+channel = 'debian'
+name = 'node-tap-mocha-reporter'

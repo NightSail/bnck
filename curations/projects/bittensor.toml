@@ -1,0 +1,8 @@
+id = 'bittensor'
+name = 'bittensor'
+
+homepage = 'https://subtensor.vercel.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bittensor'

@@ -1,0 +1,12 @@
+id = 'markdown-unlit'
+name = 'markdown-unlit'
+
+homepage = 'https://github.com/sol/markdown-unlit'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-markdown-unlit'
+
+[[package]]
+channel = 'debian'
+name = 'markdown-unlit'

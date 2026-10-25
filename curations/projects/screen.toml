@@ -1,0 +1,21 @@
+id = 'screen'
+name = 'screen'
+
+homepage = 'https://www.gnu.org/software/screen'
+repository = 'https://git.savannah.gnu.org/git/screen.git'
+
+[[package]]
+channel = 'arch'
+name = 'screen'
+
+[[package]]
+channel = 'debian'
+name = 'screen'
+
+[[package]]
+channel = 'fedora'
+name = 'screen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/screen'

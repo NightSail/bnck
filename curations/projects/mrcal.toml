@@ -1,0 +1,8 @@
+id = 'mrcal'
+name = 'mrcal'
+
+homepage = 'http://mrcal.secretsauce.net'
+
+[[package]]
+channel = 'debian'
+name = 'mrcal'

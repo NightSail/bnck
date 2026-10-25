@@ -1,0 +1,16 @@
+id = 'nvmetcli'
+name = 'nvmetcli'
+
+homepage = 'http://git.infradead.org/users/hch/nvmetcli.git'
+
+[[package]]
+channel = 'arch'
+name = 'nvmetcli'
+
+[[package]]
+channel = 'debian'
+name = 'nvmetcli'
+
+[[package]]
+channel = 'fedora'
+name = 'nvmetcli'

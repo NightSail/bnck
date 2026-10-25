@@ -1,0 +1,16 @@
+id = 'herbstluftwm'
+name = 'herbstluftwm'
+
+homepage = 'https://herbstluftwm.org'
+
+[[package]]
+channel = 'arch'
+name = 'herbstluftwm'
+
+[[package]]
+channel = 'debian'
+name = 'herbstluftwm'
+
+[[package]]
+channel = 'fedora'
+name = 'herbstluftwm'

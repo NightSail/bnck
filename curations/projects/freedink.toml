@@ -1,0 +1,16 @@
+id = 'freedink'
+name = 'freedink'
+
+homepage = 'https://www.gnu.org/software/freedink'
+
+[[package]]
+channel = 'fedora'
+name = 'freedink-dfarc'
+
+[[package]]
+channel = 'fedora'
+name = 'freedink-engine'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freedink'

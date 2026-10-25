@@ -1,0 +1,9 @@
+id = 'aliae'
+name = 'aliae'
+
+homepage = 'https://aliae.dev'
+repository = 'https://github.com/jandedobbeleer/aliae.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aliae'

@@ -1,0 +1,8 @@
+id = 'dex2jar'
+name = 'dex2jar'
+
+homepage = 'https://github.com/pxb1988/dex2jar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dex2jar'

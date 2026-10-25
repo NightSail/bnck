@@ -1,0 +1,12 @@
+id = 'pandoc-crossref'
+name = 'pandoc-crossref'
+
+homepage = 'https://lierdakil.github.io/pandoc-crossref'
+
+[[package]]
+channel = 'arch'
+name = 'pandoc-crossref'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pandoc-crossref'

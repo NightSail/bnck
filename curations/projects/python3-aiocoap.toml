@@ -1,0 +1,8 @@
+id = 'python3-aiocoap'
+name = 'python3-aiocoap'
+
+homepage = 'https://github.com/chrysn/aiocoap'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiocoap'

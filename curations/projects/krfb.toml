@@ -1,0 +1,16 @@
+id = 'krfb'
+name = 'krfb'
+
+homepage = 'https://apps.kde.org/krfb'
+
+[[package]]
+channel = 'arch'
+name = 'krfb'
+
+[[package]]
+channel = 'debian'
+name = 'krfb'
+
+[[package]]
+channel = 'fedora'
+name = 'krfb'

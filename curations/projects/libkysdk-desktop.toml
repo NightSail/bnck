@@ -1,0 +1,8 @@
+id = 'libkysdk-desktop'
+name = 'libkysdk-desktop'
+
+homepage = 'https://gitee.com/openkylin/libkysdk-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'libkysdk-desktop'

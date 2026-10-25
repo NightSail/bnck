@@ -1,0 +1,8 @@
+id = 'search-that-hash'
+name = 'search-that-hash'
+
+repository = 'https://github.com/Jayy001/Search-That-Hash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/search-that-hash'

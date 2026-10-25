@@ -1,0 +1,8 @@
+id = 'pinentry-mac'
+name = 'pinentry-mac'
+
+repository = 'https://github.com/GPGTools/pinentry.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pinentry-mac'

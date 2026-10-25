@@ -1,0 +1,8 @@
+id = 'ogma'
+name = 'ogma'
+
+homepage = 'https://github.com/nasa/ogma'
+
+[[package]]
+channel = 'debian'
+name = 'ogma'

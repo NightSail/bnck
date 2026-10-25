@@ -1,0 +1,8 @@
+id = 'tpm2-totp'
+name = 'tpm2-totp'
+
+homepage = 'https://github.com/tpm2-software/tpm2-totp'
+
+[[package]]
+channel = 'arch'
+name = 'tpm2-totp'

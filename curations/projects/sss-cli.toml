@@ -1,0 +1,8 @@
+id = 'sss-cli'
+name = 'sss-cli'
+
+repository = 'https://github.com/dsprenkels/sss-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sss-cli'

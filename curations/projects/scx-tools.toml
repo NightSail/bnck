@@ -1,0 +1,8 @@
+id = 'scx-tools'
+name = 'scx-tools'
+
+homepage = 'https://github.com/sched-ext/scx-loader'
+
+[[package]]
+channel = 'arch'
+name = 'scx-tools'

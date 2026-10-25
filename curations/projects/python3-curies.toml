@@ -1,0 +1,8 @@
+id = 'python3-curies'
+name = 'python3-curies'
+
+homepage = 'https://github.com/biopragmatics/curies'
+
+[[package]]
+channel = 'debian'
+name = 'python3-curies'

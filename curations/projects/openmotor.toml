@@ -1,0 +1,8 @@
+id = 'openmotor'
+name = 'openmotor'
+
+homepage = 'https://github.com/reilleya/openMotor'
+
+[[package]]
+channel = 'debian'
+name = 'openmotor'

@@ -1,0 +1,12 @@
+id = 'containertoolbx'
+name = 'containertoolbx'
+
+homepage = 'https://containertoolbx.org'
+
+[[package]]
+channel = 'debian'
+name = 'podman-toolbox'
+
+[[package]]
+channel = 'fedora'
+name = 'toolbox'

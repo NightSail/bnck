@@ -1,0 +1,20 @@
+id = 'gnome-kiosk'
+name = 'gnome-kiosk'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-kiosk'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-kiosk'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-kiosk-script-session'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-kiosk'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-kiosk-script-session'

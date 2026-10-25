@@ -1,0 +1,8 @@
+id = 'u8loc'
+name = 'u8loc'
+
+homepage = 'https://devel.ringlet.net/devel/utf8-locale'
+
+[[package]]
+channel = 'debian'
+name = 'u8loc'

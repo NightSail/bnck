@@ -1,0 +1,8 @@
+id = 'ruby-thor'
+name = 'ruby-thor'
+
+homepage = 'https://github.com/erikhuda/thor'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-thor'

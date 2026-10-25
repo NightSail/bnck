@@ -1,0 +1,12 @@
+id = 'xcalib'
+name = 'xcalib'
+
+homepage = 'https://codeberg.org/OpenICC/xcalib'
+
+[[package]]
+channel = 'arch'
+name = 'xcalib'
+
+[[package]]
+channel = 'debian'
+name = 'xcalib'

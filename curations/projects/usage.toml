@@ -1,0 +1,13 @@
+id = 'usage'
+name = 'usage'
+
+homepage = 'https://usage.jdx.dev'
+repository = 'https://github.com/jdx/usage.git'
+
+[[package]]
+channel = 'arch'
+name = 'usage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/usage'

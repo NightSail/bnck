@@ -1,0 +1,12 @@
+id = 'lxqt-policykit'
+name = 'lxqt-policykit'
+
+homepage = 'https://github.com/lxqt/lxqt-policykit'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-policykit'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-policykit'

@@ -1,0 +1,8 @@
+id = 'm16c-flash'
+name = 'm16c-flash'
+
+homepage = 'https://www.fischl.de/thomas/elektronik/r8c/r8c_flasher.html'
+
+[[package]]
+channel = 'debian'
+name = 'm16c-flash'

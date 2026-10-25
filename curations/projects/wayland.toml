@@ -1,0 +1,36 @@
+id = 'wayland'
+name = 'wayland'
+
+homepage = 'https://wayland.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'wayland'
+
+[[package]]
+channel = 'arch'
+name = 'weston'
+
+[[package]]
+channel = 'debian'
+name = 'libwayland-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'wayland-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'wayland-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'weston'
+
+[[package]]
+channel = 'fedora'
+name = 'weston-demo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wayland'

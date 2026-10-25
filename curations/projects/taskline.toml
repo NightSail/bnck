@@ -1,0 +1,8 @@
+id = 'taskline'
+name = 'taskline'
+
+homepage = 'https://github.com/perryrh0dan/taskline'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taskline'

@@ -1,0 +1,12 @@
+id = 'python3-textile'
+name = 'python3-textile'
+
+homepage = 'https://github.com/textile/python-textile'
+
+[[package]]
+channel = 'debian'
+name = 'python3-textile'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-textile'

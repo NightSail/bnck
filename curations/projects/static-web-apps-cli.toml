@@ -1,0 +1,8 @@
+id = 'static-web-apps-cli'
+name = 'static-web-apps-cli'
+
+homepage = 'https://azure.github.io/static-web-apps-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/static-web-apps-cli'

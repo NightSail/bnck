@@ -1,0 +1,20 @@
+id = 'aha'
+name = 'aha'
+
+repository = 'https://github.com/theZiz/aha.git'
+
+[[package]]
+channel = 'arch'
+name = 'aha'
+
+[[package]]
+channel = 'debian'
+name = 'aha'
+
+[[package]]
+channel = 'fedora'
+name = 'aha'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aha'

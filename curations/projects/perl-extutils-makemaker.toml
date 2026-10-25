@@ -1,0 +1,8 @@
+id = 'perl-extutils-makemaker'
+name = 'perl-ExtUtils-MakeMaker'
+
+homepage = 'https://metacpan.org/release/ExtUtils-MakeMaker'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-ExtUtils-MakeMaker'

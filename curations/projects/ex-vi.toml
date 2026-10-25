@@ -1,0 +1,8 @@
+id = 'ex-vi'
+name = 'ex-vi'
+
+homepage = 'https://ex-vi.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ex-vi'

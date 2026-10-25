@@ -1,0 +1,12 @@
+id = 'redoctober'
+name = 'redoctober'
+
+homepage = 'https://github.com/cloudflare/redoctober'
+
+[[package]]
+channel = 'debian'
+name = 'golang-redoctober'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cloudflare-redoctober'

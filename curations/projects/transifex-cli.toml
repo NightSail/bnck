@@ -1,0 +1,8 @@
+id = 'transifex-cli'
+name = 'transifex-cli'
+
+repository = 'https://github.com/transifex/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/transifex-cli'

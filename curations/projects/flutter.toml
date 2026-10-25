@@ -1,0 +1,8 @@
+id = 'flutter'
+name = 'flutter'
+
+homepage = 'https://flutter.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/flutter'

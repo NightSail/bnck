@@ -1,0 +1,12 @@
+id = 'gns3'
+name = 'gns3'
+
+homepage = 'http://gns3.com'
+
+[[package]]
+channel = 'fedora'
+name = 'gns3-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'gns3-server'

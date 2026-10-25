@@ -1,0 +1,12 @@
+id = 'open-source-log-management'
+name = 'open-source-log-management'
+
+homepage = 'https://www.syslog-ng.com/products/open-source-log-management'
+
+[[package]]
+channel = 'fedora'
+name = 'syslog-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'syslog-ng-slog'

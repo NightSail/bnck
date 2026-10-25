@@ -1,0 +1,12 @@
+id = 'docker-clean'
+name = 'docker-clean'
+
+homepage = 'https://github.com/ZZROTDesign/docker-clean'
+
+[[package]]
+channel = 'debian'
+name = 'docker-clean'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-clean'

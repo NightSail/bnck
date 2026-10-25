@@ -1,0 +1,8 @@
+id = 'golang-github-quay-goval-parser'
+name = 'golang-github-quay-goval-parser'
+
+homepage = 'https://github.com/quay/goval-parser'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-quay-goval-parser'

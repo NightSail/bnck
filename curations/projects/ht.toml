@@ -1,0 +1,12 @@
+id = 'ht'
+name = 'ht'
+
+homepage = 'https://hte.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ht'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ht'

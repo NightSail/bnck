@@ -1,0 +1,8 @@
+id = 'gamdl'
+name = 'gamdl'
+
+homepage = 'https://github.com/glomatico/gamdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gamdl'

@@ -1,0 +1,8 @@
+id = 'valentina'
+name = 'valentina'
+
+homepage = 'https://smart-pattern.com.ua'
+
+[[package]]
+channel = 'debian'
+name = 'valentina'

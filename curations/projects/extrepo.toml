@@ -1,0 +1,6 @@
+id = 'extrepo'
+name = 'extrepo'
+
+[[package]]
+channel = 'debian'
+name = 'extrepo'

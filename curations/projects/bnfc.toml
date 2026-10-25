@@ -1,0 +1,17 @@
+id = 'bnfc'
+name = 'bnfc'
+
+homepage = 'https://bnfc.digitalgrammars.com'
+repository = 'https://github.com/BNFC/bnfc.git'
+
+[[package]]
+channel = 'arch'
+name = 'bnfc'
+
+[[package]]
+channel = 'debian'
+name = 'bnfc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bnfc'

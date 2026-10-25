@@ -1,0 +1,16 @@
+id = 'mousepad'
+name = 'mousepad'
+
+homepage = 'https://docs.xfce.org/apps/mousepad/start'
+
+[[package]]
+channel = 'arch'
+name = 'mousepad'
+
+[[package]]
+channel = 'debian'
+name = 'mousepad'
+
+[[package]]
+channel = 'fedora'
+name = 'mousepad'

@@ -1,0 +1,9 @@
+id = 'vulcain'
+name = 'vulcain'
+
+homepage = 'https://vulcain.rocks'
+repository = 'https://github.com/dunglas/vulcain.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vulcain'

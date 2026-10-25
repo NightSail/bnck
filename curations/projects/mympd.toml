@@ -1,0 +1,8 @@
+id = 'mympd'
+name = 'mympd'
+
+homepage = 'https://github.com/jcorporation/myMPD'
+
+[[package]]
+channel = 'arch'
+name = 'mympd'

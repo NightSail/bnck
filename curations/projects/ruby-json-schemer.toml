@@ -1,0 +1,8 @@
+id = 'ruby-json-schemer'
+name = 'ruby-json-schemer'
+
+homepage = 'https://github.com/davishmcclurg/json_schemer'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-json-schemer'

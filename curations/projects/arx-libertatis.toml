@@ -1,0 +1,13 @@
+id = 'arx-libertatis'
+name = 'arx-libertatis'
+
+homepage = 'https://arx-libertatis.org'
+repository = 'https://github.com/arx/ArxLibertatis.git'
+
+[[package]]
+channel = 'fedora'
+name = 'arx-libertatis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arx-libertatis'

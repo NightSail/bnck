@@ -1,0 +1,12 @@
+id = 'espeakup'
+name = 'espeakup'
+
+homepage = 'https://github.com/linux-speakup/espeakup'
+
+[[package]]
+channel = 'arch'
+name = 'espeakup'
+
+[[package]]
+channel = 'debian'
+name = 'espeakup'

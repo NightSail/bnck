@@ -1,0 +1,8 @@
+id = 'kaku'
+name = 'kaku'
+
+homepage = 'https://github.com/tw93/Kaku'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kaku'

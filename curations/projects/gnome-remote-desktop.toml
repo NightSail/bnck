@@ -1,0 +1,16 @@
+id = 'gnome-remote-desktop'
+name = 'gnome-remote-desktop'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-remote-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-remote-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-remote-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-remote-desktop'

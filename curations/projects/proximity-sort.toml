@@ -1,0 +1,8 @@
+id = 'proximity-sort'
+name = 'proximity-sort'
+
+homepage = 'https://github.com/jonhoo/proximity-sort'
+
+[[package]]
+channel = 'arch'
+name = 'proximity-sort'

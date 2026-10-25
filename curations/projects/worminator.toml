@@ -1,0 +1,8 @@
+id = 'worminator'
+name = 'worminator'
+
+homepage = 'http://sourceforge.net/projects/worminator'
+
+[[package]]
+channel = 'fedora'
+name = 'worminator'

@@ -1,0 +1,16 @@
+id = 'phototonic'
+name = 'phototonic'
+
+homepage = 'https://github.com/luebking/phototonic'
+
+[[package]]
+channel = 'arch'
+name = 'phototonic'
+
+[[package]]
+channel = 'debian'
+name = 'phototonic'
+
+[[package]]
+channel = 'fedora'
+name = 'phototonic'

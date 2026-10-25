@@ -1,0 +1,16 @@
+id = 'streamlink'
+name = 'streamlink'
+
+homepage = 'https://streamlink.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'streamlink'
+
+[[package]]
+channel = 'debian'
+name = 'streamlink'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-streamlink'

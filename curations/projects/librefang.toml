@@ -1,0 +1,9 @@
+id = 'librefang'
+name = 'librefang'
+
+homepage = 'https://librefang.ai'
+repository = 'https://github.com/librefang/librefang.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librefang'

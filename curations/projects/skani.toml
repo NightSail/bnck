@@ -1,0 +1,8 @@
+id = 'skani'
+name = 'skani'
+
+repository = 'https://github.com/bluenote-1577/skani.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skani'

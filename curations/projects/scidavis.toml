@@ -1,0 +1,8 @@
+id = 'scidavis'
+name = 'scidavis'
+
+homepage = 'http://scidavis.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'scidavis'

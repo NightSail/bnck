@@ -4,5 +4,17 @@ name = 'tmux'
 repository = 'https://github.com/tmux/tmux'
 
 [[package]]
+channel = 'arch'
+name = 'tmux'
+
+[[package]]
+channel = 'debian'
+name = 'tmux'
+
+[[package]]
+channel = 'fedora'
+name = 'tmux'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tmux'

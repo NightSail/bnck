@@ -1,0 +1,8 @@
+id = 'python3-cookiecutter'
+name = 'python3-cookiecutter'
+
+homepage = 'https://github.com/audreyr/cookiecutter'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cookiecutter'

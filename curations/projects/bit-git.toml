@@ -1,0 +1,8 @@
+id = 'bit-git'
+name = 'bit-git'
+
+repository = 'https://github.com/chriswalz/bit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bit-git'

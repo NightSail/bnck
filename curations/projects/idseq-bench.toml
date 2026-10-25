@@ -1,0 +1,8 @@
+id = 'idseq-bench'
+name = 'idseq-bench'
+
+homepage = 'https://github.com/chanzuckerberg/idseq-bench'
+
+[[package]]
+channel = 'debian'
+name = 'idseq-bench'

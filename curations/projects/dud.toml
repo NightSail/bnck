@@ -1,0 +1,9 @@
+id = 'dud'
+name = 'dud'
+
+homepage = 'https://kevin-hanselman.github.io/dud'
+repository = 'https://github.com/kevin-hanselman/dud.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dud'

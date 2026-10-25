@@ -1,0 +1,8 @@
+id = 'python-coloredlogs'
+name = 'python-coloredlogs'
+
+homepage = 'https://github.com/xolox/python-coloredlogs'
+
+[[package]]
+channel = 'arch'
+name = 'python-coloredlogs'

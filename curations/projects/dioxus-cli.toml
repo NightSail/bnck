@@ -1,0 +1,8 @@
+id = 'dioxus-cli'
+name = 'dioxus-cli'
+
+homepage = 'https://github.com/DioxusLabs/dioxus'
+
+[[package]]
+channel = 'arch'
+name = 'dioxus-cli'

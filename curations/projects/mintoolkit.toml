@@ -1,0 +1,9 @@
+id = 'mintoolkit'
+name = 'mintoolkit'
+
+homepage = 'https://slimtoolkit.org'
+repository = 'https://github.com/mintoolkit/mint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mintoolkit'

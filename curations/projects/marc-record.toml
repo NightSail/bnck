@@ -1,0 +1,12 @@
+id = 'marc-record'
+name = 'MARC-Record'
+
+homepage = 'https://metacpan.org/release/MARC-Record'
+
+[[package]]
+channel = 'debian'
+name = 'libmarc-record-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-MARC-Record'

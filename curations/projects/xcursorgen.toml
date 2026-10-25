@@ -1,0 +1,8 @@
+id = 'xcursorgen'
+name = 'xcursorgen'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xcursorgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcursorgen'

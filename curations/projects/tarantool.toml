@@ -1,0 +1,21 @@
+id = 'tarantool'
+name = 'tarantool'
+
+homepage = 'http://tarantool.org'
+repository = 'https://github.com/tarantool/tarantool.git'
+
+[[package]]
+channel = 'debian'
+name = 'tarantool'
+
+[[package]]
+channel = 'debian'
+name = 'tarantool-common'
+
+[[package]]
+channel = 'fedora'
+name = 'tarantool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tarantool'

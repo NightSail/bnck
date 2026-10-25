@@ -1,0 +1,9 @@
+id = 'punktf'
+name = 'punktf'
+
+homepage = 'https://shemnei.github.io/punktf'
+repository = 'https://github.com/Shemnei/punktf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/punktf'

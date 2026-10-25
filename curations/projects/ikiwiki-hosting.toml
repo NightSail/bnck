@@ -1,0 +1,12 @@
+id = 'ikiwiki-hosting'
+name = 'ikiwiki-hosting'
+
+homepage = 'https://ikiwiki-hosting.branchable.com'
+
+[[package]]
+channel = 'debian'
+name = 'ikiwiki-hosting-dns'
+
+[[package]]
+channel = 'debian'
+name = 'ikiwiki-hosting-web'

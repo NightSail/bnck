@@ -1,0 +1,8 @@
+id = 'libklibc-dev'
+name = 'libklibc-dev'
+
+homepage = 'https://git.kernel.org/cgit/libs/klibc/klibc.git'
+
+[[package]]
+channel = 'debian'
+name = 'libklibc-dev'

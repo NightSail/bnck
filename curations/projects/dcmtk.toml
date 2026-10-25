@@ -1,0 +1,21 @@
+id = 'dcmtk'
+name = 'dcmtk'
+
+homepage = 'http://dicom.offis.de/dcmtk'
+repository = 'https://git.dcmtk.org/dcmtk.git'
+
+[[package]]
+channel = 'arch'
+name = 'dcmtk'
+
+[[package]]
+channel = 'debian'
+name = 'dcmtk'
+
+[[package]]
+channel = 'fedora'
+name = 'dcmtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcmtk'

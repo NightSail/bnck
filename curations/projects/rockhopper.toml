@@ -1,0 +1,8 @@
+id = 'rockhopper'
+name = 'rockhopper'
+
+homepage = 'https://cs.wellesley.edu/~btjaden/Rockhopper'
+
+[[package]]
+channel = 'debian'
+name = 'rockhopper'

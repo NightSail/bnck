@@ -1,0 +1,12 @@
+id = 'sbsigntools'
+name = 'sbsigntools'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/jejb/sbsigntools.git/about'
+
+[[package]]
+channel = 'arch'
+name = 'sbsigntools'
+
+[[package]]
+channel = 'fedora'
+name = 'sbsigntools'

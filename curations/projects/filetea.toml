@@ -1,0 +1,8 @@
+id = 'filetea'
+name = 'filetea'
+
+homepage = 'https://github.com/elima/FileTea'
+
+[[package]]
+channel = 'debian'
+name = 'filetea'

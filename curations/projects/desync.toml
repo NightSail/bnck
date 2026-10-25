@@ -1,0 +1,12 @@
+id = 'desync'
+name = 'desync'
+
+homepage = 'https://github.com/folbricht/desync'
+
+[[package]]
+channel = 'arch'
+name = 'desync'
+
+[[package]]
+channel = 'debian'
+name = 'desync'

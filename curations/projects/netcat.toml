@@ -1,0 +1,12 @@
+id = 'netcat'
+name = 'netcat'
+
+homepage = 'https://netcat.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'netcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netcat'

@@ -1,0 +1,8 @@
+id = 'afetch'
+name = 'afetch'
+
+homepage = 'https://github.com/13-CF/afetch'
+
+[[package]]
+channel = 'fedora'
+name = 'afetch'

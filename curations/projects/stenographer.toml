@@ -1,0 +1,16 @@
+id = 'stenographer'
+name = 'stenographer'
+
+homepage = 'https://github.com/google/stenographer'
+
+[[package]]
+channel = 'debian'
+name = 'stenographer'
+
+[[package]]
+channel = 'debian'
+name = 'stenographer-client'
+
+[[package]]
+channel = 'debian'
+name = 'stenographer-common'

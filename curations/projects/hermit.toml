@@ -1,0 +1,9 @@
+id = 'hermit'
+name = 'hermit'
+
+homepage = 'https://cashapp.github.io/hermit'
+repository = 'https://github.com/cashapp/hermit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hermit'

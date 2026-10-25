@@ -1,0 +1,8 @@
+id = 'preload'
+name = 'preload'
+
+homepage = 'http://sourceforge.net/projects/preload'
+
+[[package]]
+channel = 'debian'
+name = 'preload'

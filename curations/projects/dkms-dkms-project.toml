@@ -1,0 +1,8 @@
+id = 'dkms-dkms-project'
+name = 'dkms'
+
+homepage = 'https://github.com/dkms-project/dkms'
+
+[[package]]
+channel = 'arch'
+name = 'dkms'

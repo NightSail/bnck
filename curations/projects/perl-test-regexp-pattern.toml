@@ -1,0 +1,8 @@
+id = 'perl-test-regexp-pattern'
+name = 'perl-Test-Regexp-Pattern'
+
+homepage = 'https://metacpan.org/release/Test-Regexp-Pattern'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Regexp-Pattern'

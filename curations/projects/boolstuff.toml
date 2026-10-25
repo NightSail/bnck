@@ -1,0 +1,8 @@
+id = 'boolstuff'
+name = 'boolstuff'
+
+homepage = 'http://sarrazip.com/dev/boolstuff.html'
+
+[[package]]
+channel = 'debian'
+name = 'boolstuff'

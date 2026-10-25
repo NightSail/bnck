@@ -1,0 +1,9 @@
+id = 'nicotine-plus'
+name = 'nicotine-plus'
+
+homepage = 'https://nicotine-plus.org'
+repository = 'https://github.com/nicotine-plus/nicotine-plus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nicotine-plus'

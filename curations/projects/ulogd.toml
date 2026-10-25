@@ -1,0 +1,12 @@
+id = 'ulogd'
+name = 'ulogd'
+
+homepage = 'https://www.netfilter.org/projects/ulogd'
+
+[[package]]
+channel = 'arch'
+name = 'ulogd'
+
+[[package]]
+channel = 'debian'
+name = 'ulogd2'

@@ -1,0 +1,8 @@
+id = 'beediff'
+name = 'beediff'
+
+homepage = 'http://www.beesoft.org/index.php'
+
+[[package]]
+channel = 'fedora'
+name = 'beediff'

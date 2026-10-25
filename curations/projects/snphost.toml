@@ -1,0 +1,12 @@
+id = 'snphost'
+name = 'snphost'
+
+homepage = 'https://crates.io/crates/snphost'
+
+[[package]]
+channel = 'debian'
+name = 'snphost'
+
+[[package]]
+channel = 'fedora'
+name = 'snphost'

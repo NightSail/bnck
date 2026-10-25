@@ -1,0 +1,8 @@
+id = 'route3270'
+name = 'route3270'
+
+homepage = 'https://github.com/cyberdotgent/route3270'
+
+[[package]]
+channel = 'fedora'
+name = 'route3270'

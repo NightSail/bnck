@@ -1,0 +1,9 @@
+id = 'regula'
+name = 'regula'
+
+homepage = 'https://regula.dev'
+repository = 'https://github.com/fugue/regula.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regula'

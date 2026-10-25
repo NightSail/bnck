@@ -1,0 +1,16 @@
+id = 'libkdumpfile'
+name = 'libkdumpfile'
+
+homepage = 'https://codeberg.org/ptesarik/libkdumpfile'
+
+[[package]]
+channel = 'arch'
+name = 'libkdumpfile'
+
+[[package]]
+channel = 'debian'
+name = 'libkdumpfile-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libkdumpfile-util'

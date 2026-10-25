@@ -1,0 +1,12 @@
+id = 'sgmlspm'
+name = 'SGMLSpm'
+
+homepage = 'https://metacpan.org/release/SGMLSpm'
+
+[[package]]
+channel = 'debian'
+name = 'sgmlspl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SGMLSpm'

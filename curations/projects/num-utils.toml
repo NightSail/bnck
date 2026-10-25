@@ -1,0 +1,12 @@
+id = 'num-utils'
+name = 'num-utils'
+
+homepage = 'https://suso.suso.org/xulu/Num-utils'
+
+[[package]]
+channel = 'debian'
+name = 'num-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/num-utils'

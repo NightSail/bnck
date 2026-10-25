@@ -1,0 +1,8 @@
+id = 'python3-fireflyalgorithm'
+name = 'python3-fireflyalgorithm'
+
+homepage = 'https://github.com/firefly-cpp/FireflyAlgorithm'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fireflyalgorithm'

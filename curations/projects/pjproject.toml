@@ -1,0 +1,9 @@
+id = 'pjproject'
+name = 'pjproject'
+
+homepage = 'https://www.pjsip.org'
+repository = 'https://github.com/pjsip/pjproject.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pjproject'

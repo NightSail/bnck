@@ -1,0 +1,8 @@
+id = 'populations'
+name = 'populations'
+
+homepage = 'https://www.bioinformatics.org/~tryphon/populations'
+
+[[package]]
+channel = 'debian'
+name = 'populations'

@@ -1,0 +1,8 @@
+id = 'sdlpop'
+name = 'sdlpop'
+
+homepage = 'https://github.com/NagyD/SDLPoP'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdlpop'

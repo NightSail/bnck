@@ -1,0 +1,8 @@
+id = 'fractalnow'
+name = 'fractalnow'
+
+homepage = 'https://fractalnow.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fractalnow'

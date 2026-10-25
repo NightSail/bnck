@@ -1,0 +1,6 @@
+id = 'vlan'
+name = 'vlan'
+
+[[package]]
+channel = 'debian'
+name = 'vlan'

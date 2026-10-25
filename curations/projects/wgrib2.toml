@@ -1,0 +1,8 @@
+id = 'wgrib2'
+name = 'wgrib2'
+
+homepage = 'https://www.cpc.ncep.noaa.gov/products/wesley/wgrib2'
+
+[[package]]
+channel = 'fedora'
+name = 'wgrib2'

@@ -1,0 +1,8 @@
+id = 'perl-moose'
+name = 'perl-Moose'
+
+homepage = 'https://metacpan.org/release/Moose'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Moose'

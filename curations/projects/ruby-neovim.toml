@@ -1,0 +1,8 @@
+id = 'ruby-neovim'
+name = 'ruby-neovim'
+
+homepage = 'https://github.com/neovim/neovim-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-neovim'

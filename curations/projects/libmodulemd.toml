@@ -1,0 +1,16 @@
+id = 'libmodulemd'
+name = 'libmodulemd'
+
+homepage = 'https://github.com/fedora-modularity/libmodulemd'
+
+[[package]]
+channel = 'arch'
+name = 'libmodulemd'
+
+[[package]]
+channel = 'debian'
+name = 'libmodulemd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libmodulemd'

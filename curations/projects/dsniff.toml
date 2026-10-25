@@ -1,0 +1,16 @@
+id = 'dsniff'
+name = 'dsniff'
+
+homepage = 'https://www.monkey.org/~dugsong/dsniff'
+
+[[package]]
+channel = 'arch'
+name = 'dsniff'
+
+[[package]]
+channel = 'debian'
+name = 'dsniff'
+
+[[package]]
+channel = 'fedora'
+name = 'dsniff'

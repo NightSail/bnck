@@ -1,0 +1,8 @@
+id = 'pwned'
+name = 'pwned'
+
+homepage = 'https://github.com/wKovacs64/pwned'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pwned'

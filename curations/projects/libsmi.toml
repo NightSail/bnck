@@ -1,0 +1,16 @@
+id = 'libsmi'
+name = 'libsmi'
+
+homepage = 'https://www.ibr.cs.tu-bs.de/projects/libsmi'
+
+[[package]]
+channel = 'debian'
+name = 'smistrip'
+
+[[package]]
+channel = 'debian'
+name = 'smitools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsmi'

@@ -1,0 +1,12 @@
+id = 'adjtimex'
+name = 'adjtimex'
+
+homepage = 'http://metalab.unc.edu/pub/Linux/system/admin/time'
+
+[[package]]
+channel = 'debian'
+name = 'adjtimex'
+
+[[package]]
+channel = 'fedora'
+name = 'adjtimex'

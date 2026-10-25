@@ -1,0 +1,8 @@
+id = 'mate-tweak'
+name = 'mate-tweak'
+
+homepage = 'https://github.com/ubuntu-mate/mate-tweak'
+
+[[package]]
+channel = 'debian'
+name = 'mate-tweak'

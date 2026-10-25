@@ -1,0 +1,8 @@
+id = 'bign-handheld-thumbnailer'
+name = 'bign-handheld-thumbnailer'
+
+homepage = 'https://github.com/MateusRodCosta/bign-handheld-thumbnailer'
+
+[[package]]
+channel = 'fedora'
+name = 'bign-handheld-thumbnailer'

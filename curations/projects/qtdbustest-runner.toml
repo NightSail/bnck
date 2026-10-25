@@ -1,0 +1,8 @@
+id = 'qtdbustest-runner'
+name = 'qtdbustest-runner'
+
+homepage = 'https://gitlab.com/ubports/development/core/libqtdbustest'
+
+[[package]]
+channel = 'debian'
+name = 'qtdbustest-runner'

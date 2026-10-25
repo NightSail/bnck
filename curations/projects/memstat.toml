@@ -1,0 +1,6 @@
+id = 'memstat'
+name = 'memstat'
+
+[[package]]
+channel = 'debian'
+name = 'memstat'

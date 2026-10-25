@@ -1,0 +1,8 @@
+id = 'debos'
+name = 'debos'
+
+homepage = 'https://github.com/go-debos/debos'
+
+[[package]]
+channel = 'debian'
+name = 'debos'

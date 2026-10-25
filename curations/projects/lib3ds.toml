@@ -1,0 +1,16 @@
+id = 'lib3ds'
+name = 'lib3ds'
+
+homepage = 'https://code.google.com/archive/p/lib3ds'
+
+[[package]]
+channel = 'fedora'
+name = 'lib3ds-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'lib3ds-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lib3ds'

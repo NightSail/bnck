@@ -1,0 +1,8 @@
+id = 'smf-spf'
+name = 'smf-spf'
+
+homepage = 'https://github.com/jcbf/smf-spf'
+
+[[package]]
+channel = 'fedora'
+name = 'smf-spf'

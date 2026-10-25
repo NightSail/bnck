@@ -1,0 +1,8 @@
+id = 'idnits'
+name = 'idnits'
+
+homepage = 'https://author-tools.ietf.org/idnits3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/idnits'

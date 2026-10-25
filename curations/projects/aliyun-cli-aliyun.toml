@@ -1,0 +1,8 @@
+id = 'aliyun-cli-aliyun'
+name = 'aliyun-cli'
+
+repository = 'https://github.com/aliyun/aliyun-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aliyun-cli'

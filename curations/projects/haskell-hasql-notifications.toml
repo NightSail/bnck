@@ -1,0 +1,8 @@
+id = 'haskell-hasql-notifications'
+name = 'haskell-hasql-notifications'
+
+homepage = 'https://github.com/diogob/hasql-notifications'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hasql-notifications'

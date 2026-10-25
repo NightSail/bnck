@@ -1,0 +1,8 @@
+id = 'armagetronad-armagetronad'
+name = 'armagetronad'
+
+homepage = 'http://armagetronad.net'
+
+[[package]]
+channel = 'arch'
+name = 'armagetronad'

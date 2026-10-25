@@ -1,0 +1,8 @@
+id = 'notion-mcp-server'
+name = 'notion-mcp-server'
+
+homepage = 'https://github.com/makenotion/notion-mcp-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notion-mcp-server'

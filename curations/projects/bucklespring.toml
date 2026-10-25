@@ -1,0 +1,8 @@
+id = 'bucklespring'
+name = 'bucklespring'
+
+homepage = 'https://github.com/zevv/bucklespring'
+
+[[package]]
+channel = 'arch'
+name = 'bucklespring'

@@ -1,0 +1,13 @@
+id = 'termbg'
+name = 'termbg'
+
+homepage = 'https://crates.io/crates/termbg'
+repository = 'https://github.com/dalance/termbg.git'
+
+[[package]]
+channel = 'fedora'
+name = 'termbg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termbg'

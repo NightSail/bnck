@@ -1,0 +1,12 @@
+id = 'doc-en'
+name = 'doc_en'
+
+homepage = 'https://mathgl.sourceforge.net/doc_en/Main.html'
+
+[[package]]
+channel = 'debian'
+name = 'mathgl'
+
+[[package]]
+channel = 'debian'
+name = 'udav'

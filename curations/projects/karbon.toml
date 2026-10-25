@@ -1,0 +1,8 @@
+id = 'karbon'
+name = 'karbon'
+
+homepage = 'https://www.calligra.org/karbon'
+
+[[package]]
+channel = 'debian'
+name = 'karbon'

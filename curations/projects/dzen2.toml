@@ -1,0 +1,12 @@
+id = 'dzen2'
+name = 'dzen2'
+
+homepage = 'https://github.com/robm/dzen'
+
+[[package]]
+channel = 'arch'
+name = 'dzen2'
+
+[[package]]
+channel = 'debian'
+name = 'dzen2'

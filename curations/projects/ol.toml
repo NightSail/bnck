@@ -1,0 +1,9 @@
+id = 'ol'
+name = 'ol'
+
+homepage = 'https://yuriy-chumak.github.io/ol'
+repository = 'https://github.com/yuriy-chumak/ol.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ol'

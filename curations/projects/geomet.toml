@@ -1,0 +1,8 @@
+id = 'geomet'
+name = 'geomet'
+
+homepage = 'https://github.com/geomet/geomet'
+
+[[package]]
+channel = 'debian'
+name = 'geomet'

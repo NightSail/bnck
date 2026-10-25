@@ -1,0 +1,8 @@
+id = 'wmgtemp'
+name = 'wmgtemp'
+
+homepage = 'https://www.dockapps.net/wmgtemp'
+
+[[package]]
+channel = 'debian'
+name = 'wmgtemp'

@@ -1,0 +1,8 @@
+id = 'lqa'
+name = 'lqa'
+
+homepage = 'https://gitlab.collabora.com/collabora/lqa'
+
+[[package]]
+channel = 'debian'
+name = 'lqa'

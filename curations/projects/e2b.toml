@@ -1,0 +1,8 @@
+id = 'e2b'
+name = 'e2b'
+
+homepage = 'https://e2b.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/e2b'

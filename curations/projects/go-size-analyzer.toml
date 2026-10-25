@@ -1,0 +1,9 @@
+id = 'go-size-analyzer'
+name = 'go-size-analyzer'
+
+homepage = 'https://gsa.zxilly.dev'
+repository = 'https://github.com/Zxilly/go-size-analyzer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-size-analyzer'

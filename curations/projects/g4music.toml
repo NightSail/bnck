@@ -1,0 +1,12 @@
+id = 'g4music'
+name = 'g4music'
+
+homepage = 'https://gitlab.gnome.org/neithern/g4music'
+
+[[package]]
+channel = 'debian'
+name = 'gapless'
+
+[[package]]
+channel = 'fedora'
+name = 'g4music'

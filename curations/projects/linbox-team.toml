@@ -1,0 +1,16 @@
+id = 'linbox-team'
+name = 'linbox-team'
+
+homepage = 'https://linbox-team.github.io/fflas-ffpack'
+
+[[package]]
+channel = 'arch'
+name = 'fflas-ffpack'
+
+[[package]]
+channel = 'debian'
+name = 'fflas-ffpack'
+
+[[package]]
+channel = 'fedora'
+name = 'fflas-ffpack-devel'

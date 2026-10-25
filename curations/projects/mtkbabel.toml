@@ -1,0 +1,8 @@
+id = 'mtkbabel'
+name = 'mtkbabel'
+
+homepage = 'https://www.rigacci.org/wiki/doku.php/doc/appunti/hardware/gps_logger_i_blue_747'
+
+[[package]]
+channel = 'debian'
+name = 'mtkbabel'

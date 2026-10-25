@@ -1,0 +1,8 @@
+id = 'stabber'
+name = 'stabber'
+
+homepage = 'https://github.com/profanity-im/stabber'
+
+[[package]]
+channel = 'debian'
+name = 'stabber'

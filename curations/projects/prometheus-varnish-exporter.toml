@@ -1,0 +1,12 @@
+id = 'prometheus-varnish-exporter'
+name = 'prometheus-varnish-exporter'
+
+homepage = 'https://github.com/jonnenauha/prometheus_varnish_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-varnish-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-varnish-exporter'

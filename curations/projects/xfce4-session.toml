@@ -1,0 +1,12 @@
+id = 'xfce4-session'
+name = 'xfce4-session'
+
+homepage = 'https://docs.xfce.org/xfce/xfce4-session/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-session'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-session'

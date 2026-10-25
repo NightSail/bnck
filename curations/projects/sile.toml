@@ -1,0 +1,17 @@
+id = 'sile'
+name = 'sile'
+
+homepage = 'https://www.sile-typesetter.org'
+repository = 'https://github.com/sile-typesetter/sile.git'
+
+[[package]]
+channel = 'arch'
+name = 'sile'
+
+[[package]]
+channel = 'fedora'
+name = 'sile'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sile'

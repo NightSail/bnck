@@ -1,0 +1,16 @@
+id = 'gthumb'
+name = 'gthumb'
+
+homepage = 'https://wiki.gnome.org/Apps/Gthumb'
+
+[[package]]
+channel = 'arch'
+name = 'gthumb'
+
+[[package]]
+channel = 'debian'
+name = 'gthumb'
+
+[[package]]
+channel = 'fedora'
+name = 'gthumb'

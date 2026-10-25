@@ -1,0 +1,8 @@
+id = 'nitpic'
+name = 'nitpic'
+
+homepage = 'http://www.gnupic.dds.nl/simulators_dave_madden.html'
+
+[[package]]
+channel = 'debian'
+name = 'nitpic'

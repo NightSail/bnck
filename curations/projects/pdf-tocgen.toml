@@ -1,0 +1,9 @@
+id = 'pdf-tocgen'
+name = 'pdf.tocgen'
+
+homepage = 'https://krasjet.com/voice/pdf.tocgen'
+repository = 'https://github.com/Krasjet/pdf.tocgen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdf.tocgen'

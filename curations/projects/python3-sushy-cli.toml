@@ -1,0 +1,8 @@
+id = 'python3-sushy-cli'
+name = 'python3-sushy-cli'
+
+homepage = 'https://docs.openstack.org/sushy-cli/latest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sushy-cli'

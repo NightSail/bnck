@@ -1,0 +1,9 @@
+id = 'tsui'
+name = 'tsui'
+
+homepage = 'https://neuralink.com/tsui'
+repository = 'https://github.com/neuralink/tsui.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tsui'

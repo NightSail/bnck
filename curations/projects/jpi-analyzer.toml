@@ -1,0 +1,8 @@
+id = 'jpi-analyzer'
+name = 'jpi-analyzer'
+
+homepage = 'https://github.com/unicornlines/JPI-Parser'
+
+[[package]]
+channel = 'debian'
+name = 'jpi-analyzer'

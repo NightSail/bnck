@@ -1,0 +1,8 @@
+id = 'python3-subvertpy'
+name = 'python3-subvertpy'
+
+homepage = 'https://github.com/jelmer/subvertpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-subvertpy'

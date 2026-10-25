@@ -1,0 +1,16 @@
+id = 'cockpit-project'
+name = 'cockpit-project'
+
+homepage = 'https://cockpit-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'cockpit'
+
+[[package]]
+channel = 'debian'
+name = 'cockpit-bridge'
+
+[[package]]
+channel = 'fedora'
+name = 'cockpit-bridge'

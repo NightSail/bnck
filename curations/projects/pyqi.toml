@@ -1,0 +1,8 @@
+id = 'pyqi'
+name = 'pyqi'
+
+homepage = 'https://github.com/biocore/pyqi'
+
+[[package]]
+channel = 'debian'
+name = 'pyqi'

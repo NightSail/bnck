@@ -1,0 +1,12 @@
+id = 'hitori'
+name = 'hitori'
+
+homepage = 'https://wiki.gnome.org/Apps/Hitori'
+
+[[package]]
+channel = 'arch'
+name = 'hitori'
+
+[[package]]
+channel = 'fedora'
+name = 'hitori'

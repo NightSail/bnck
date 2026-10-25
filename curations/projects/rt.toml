@@ -1,0 +1,12 @@
+id = 'rt'
+name = 'rt'
+
+homepage = 'https://bestpractical.com/rt'
+
+[[package]]
+channel = 'debian'
+name = 'request-tracker5'
+
+[[package]]
+channel = 'debian'
+name = 'rt5-clients'

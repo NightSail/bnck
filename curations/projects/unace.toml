@@ -1,0 +1,12 @@
+id = 'unace'
+name = 'unace'
+
+homepage = 'http://www.winace.com'
+
+[[package]]
+channel = 'arch'
+name = 'unace'
+
+[[package]]
+channel = 'debian'
+name = 'unace'

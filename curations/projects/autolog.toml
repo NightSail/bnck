@@ -1,0 +1,8 @@
+id = 'autolog'
+name = 'autolog'
+
+homepage = 'https://github.com/JKDingwall/autolog'
+
+[[package]]
+channel = 'debian'
+name = 'autolog'

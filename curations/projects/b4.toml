@@ -1,0 +1,20 @@
+id = 'b4'
+name = 'b4'
+
+homepage = 'https://b4.docs.kernel.org/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'b4'
+
+[[package]]
+channel = 'debian'
+name = 'b4'
+
+[[package]]
+channel = 'fedora'
+name = 'b4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/b4'

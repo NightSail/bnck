@@ -1,0 +1,8 @@
+id = 'pengupop'
+name = 'pengupop'
+
+homepage = 'http://www.junoplay.com/pengupop'
+
+[[package]]
+channel = 'fedora'
+name = 'pengupop'

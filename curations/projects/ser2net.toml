@@ -1,0 +1,12 @@
+id = 'ser2net'
+name = 'ser2net'
+
+homepage = 'https://github.com/cminyard/ser2net'
+
+[[package]]
+channel = 'debian'
+name = 'ser2net'
+
+[[package]]
+channel = 'fedora'
+name = 'ser2net'

@@ -1,0 +1,8 @@
+id = 'cutesdr'
+name = 'cutesdr'
+
+homepage = 'http://www.rfspace.com/RFSPACE/OtherApps.html'
+
+[[package]]
+channel = 'debian'
+name = 'cutesdr'

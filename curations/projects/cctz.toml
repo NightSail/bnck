@@ -1,0 +1,12 @@
+id = 'cctz'
+name = 'cctz'
+
+homepage = 'https://github.com/google/cctz'
+
+[[package]]
+channel = 'fedora'
+name = 'cctz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cctz'

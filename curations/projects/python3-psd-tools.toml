@@ -1,0 +1,8 @@
+id = 'python3-psd-tools'
+name = 'python3-psd-tools'
+
+homepage = 'https://github.com/psd-tools/psd-tools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-psd-tools'

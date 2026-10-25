@@ -1,0 +1,8 @@
+id = 'mtpolicyd'
+name = 'mtpolicyd'
+
+homepage = 'https://metacpan.org/release/Mail-MtPolicyd'
+
+[[package]]
+channel = 'debian'
+name = 'mtpolicyd'

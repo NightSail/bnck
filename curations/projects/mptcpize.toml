@@ -1,0 +1,8 @@
+id = 'mptcpize'
+name = 'mptcpize'
+
+homepage = 'https://github.com/multipath-tcp/mptcpd'
+
+[[package]]
+channel = 'debian'
+name = 'mptcpize'

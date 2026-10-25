@@ -1,0 +1,12 @@
+id = 'openni'
+name = 'openni'
+
+homepage = 'http://www.openni.org'
+
+[[package]]
+channel = 'fedora'
+name = 'openni'
+
+[[package]]
+channel = 'fedora'
+name = 'openni-examples'

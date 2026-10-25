@@ -1,0 +1,9 @@
+id = 'karmadactl'
+name = 'karmadactl'
+
+homepage = 'https://karmada.io'
+repository = 'https://github.com/karmada-io/karmada.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/karmadactl'

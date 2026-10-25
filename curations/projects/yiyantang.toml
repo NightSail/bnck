@@ -1,0 +1,6 @@
+id = 'yiyantang'
+name = 'yiyantang'
+
+[[package]]
+channel = 'debian'
+name = 'yiyantang'

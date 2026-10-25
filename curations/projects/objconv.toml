@@ -1,0 +1,12 @@
+id = 'objconv'
+name = 'objconv'
+
+homepage = 'https://www.agner.org/optimize'
+
+[[package]]
+channel = 'debian'
+name = 'objconv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/objconv'

@@ -1,0 +1,116 @@
+id = 'golang-golang'
+name = 'golang'
+
+homepage = 'https://github.com/golang/tools'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-godoc'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-gotype'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-html2article'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-auth'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-benchcmp'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-bisect'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-bundle'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-callgraph'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-compilebench'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-digraph'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-eg'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-file2fuzz'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-fiximports'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-go-contrib-init'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-godex'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-goimports'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-gomvpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-gonew'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-goyacc'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-present'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-present2md'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-signature-fuzzer'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-splitdwarf'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-ssadump'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-stress'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-stringer'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-tools-toolstash'
+
+[[package]]
+channel = 'fedora'
+name = 'gopls'

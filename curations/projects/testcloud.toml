@@ -1,0 +1,8 @@
+id = 'testcloud'
+name = 'testcloud'
+
+homepage = 'https://pagure.io/testcloud'
+
+[[package]]
+channel = 'fedora'
+name = 'testcloud'

@@ -1,0 +1,8 @@
+id = 'libkrunfw-sev'
+name = 'libkrunfw-sev'
+
+homepage = 'https://github.com/containers/libkrunfw'
+
+[[package]]
+channel = 'fedora'
+name = 'libkrunfw-sev'

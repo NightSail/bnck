@@ -1,0 +1,8 @@
+id = 'golang-modernc-golex'
+name = 'golang-modernc-golex'
+
+homepage = 'https://gitlab.com/cznic/golex'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-modernc-golex'

@@ -1,0 +1,12 @@
+id = 'miredo'
+name = 'miredo'
+
+homepage = 'http://www.remlab.net/miredo'
+
+[[package]]
+channel = 'debian'
+name = 'miredo'
+
+[[package]]
+channel = 'debian'
+name = 'miredo-server'

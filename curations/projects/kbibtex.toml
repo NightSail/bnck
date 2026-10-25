@@ -1,0 +1,16 @@
+id = 'kbibtex'
+name = 'kbibtex'
+
+homepage = 'https://apps.kde.org/kbibtex'
+
+[[package]]
+channel = 'arch'
+name = 'kbibtex'
+
+[[package]]
+channel = 'debian'
+name = 'kbibtex'
+
+[[package]]
+channel = 'fedora'
+name = 'kbibtex'

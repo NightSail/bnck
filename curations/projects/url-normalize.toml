@@ -1,0 +1,12 @@
+id = 'url-normalize'
+name = 'url-normalize'
+
+homepage = 'https://github.com/niksite/url-normalize'
+
+[[package]]
+channel = 'arch'
+name = 'python-url-normalize'
+
+[[package]]
+channel = 'debian'
+name = 'python3-url-normalize'

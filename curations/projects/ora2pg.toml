@@ -1,0 +1,8 @@
+id = 'ora2pg'
+name = 'ora2pg'
+
+homepage = 'https://ora2pg.darold.net'
+
+[[package]]
+channel = 'debian'
+name = 'ora2pg'

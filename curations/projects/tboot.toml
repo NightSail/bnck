@@ -1,0 +1,12 @@
+id = 'tboot'
+name = 'tboot'
+
+homepage = 'https://sourceforge.net/projects/tboot'
+
+[[package]]
+channel = 'debian'
+name = 'tboot'
+
+[[package]]
+channel = 'fedora'
+name = 'tboot'

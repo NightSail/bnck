@@ -1,0 +1,12 @@
+id = 'tar-split'
+name = 'tar-split'
+
+homepage = 'https://github.com/vbatts/tar-split'
+
+[[package]]
+channel = 'debian'
+name = 'tar-split'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-vbatts-tar-split'

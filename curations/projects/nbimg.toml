@@ -1,0 +1,8 @@
+id = 'nbimg'
+name = 'nbimg'
+
+homepage = 'https://github.com/poliva/nbimg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nbimg'

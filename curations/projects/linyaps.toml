@@ -1,0 +1,8 @@
+id = 'linyaps'
+name = 'linyaps'
+
+homepage = 'https://github.com/OpenAtom-Linyaps/linyaps'
+
+[[package]]
+channel = 'arch'
+name = 'linyaps'

@@ -1,0 +1,9 @@
+id = 'libdivecomputer'
+name = 'libdivecomputer'
+
+homepage = 'https://www.libdivecomputer.org'
+repository = 'https://github.com/libdivecomputer/libdivecomputer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdivecomputer'

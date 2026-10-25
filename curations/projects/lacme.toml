@@ -1,0 +1,12 @@
+id = 'lacme'
+name = 'lacme'
+
+homepage = 'https://git.guilhem.org/lacme/about'
+
+[[package]]
+channel = 'debian'
+name = 'lacme'
+
+[[package]]
+channel = 'debian'
+name = 'lacme-accountd'

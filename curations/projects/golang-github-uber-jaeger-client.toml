@@ -1,0 +1,8 @@
+id = 'golang-github-uber-jaeger-client'
+name = 'golang-github-uber-jaeger-client'
+
+homepage = 'https://github.com/uber/jaeger-client-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-uber-jaeger-client'

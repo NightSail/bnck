@@ -1,0 +1,21 @@
+id = 'sbcl'
+name = 'sbcl'
+
+homepage = 'https://www.sbcl.org'
+repository = 'https://git.code.sf.net/p/sbcl/sbcl.git'
+
+[[package]]
+channel = 'arch'
+name = 'sbcl'
+
+[[package]]
+channel = 'debian'
+name = 'sbcl'
+
+[[package]]
+channel = 'fedora'
+name = 'sbcl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sbcl'

@@ -1,0 +1,8 @@
+id = 'manila-common'
+name = 'manila-common'
+
+homepage = 'https://github.com/openstack/manila'
+
+[[package]]
+channel = 'debian'
+name = 'manila-common'

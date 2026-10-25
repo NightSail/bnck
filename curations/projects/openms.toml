@@ -1,0 +1,16 @@
+id = 'openms'
+name = 'openms'
+
+homepage = 'https://www.openms.de'
+
+[[package]]
+channel = 'debian'
+name = 'topp'
+
+[[package]]
+channel = 'fedora'
+name = 'openms'
+
+[[package]]
+channel = 'fedora'
+name = 'openms-utilities'

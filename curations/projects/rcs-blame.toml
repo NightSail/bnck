@@ -1,0 +1,8 @@
+id = 'rcs-blame'
+name = 'rcs-blame'
+
+homepage = 'https://invisible-island.net/rcs-blame'
+
+[[package]]
+channel = 'debian'
+name = 'rcs-blame'

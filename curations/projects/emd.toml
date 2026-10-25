@@ -1,0 +1,8 @@
+id = 'emd'
+name = 'emd'
+
+homepage = 'https://github.com/mh-cbon/emd'
+
+[[package]]
+channel = 'debian'
+name = 'emd'

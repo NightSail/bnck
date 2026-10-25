@@ -1,0 +1,8 @@
+id = 'rebound'
+name = 'rebound'
+
+homepage = 'https://github.com/shobrook/rebound'
+
+[[package]]
+channel = 'debian'
+name = 'rebound'

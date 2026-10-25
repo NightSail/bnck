@@ -6,3 +6,7 @@ homepage = 'https://github.com/derailed/popeye'
 [[package]]
 channel = 'arch'
 name = 'popeye'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/popeye'

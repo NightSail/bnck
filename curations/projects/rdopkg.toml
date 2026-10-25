@@ -1,0 +1,8 @@
+id = 'rdopkg'
+name = 'rdopkg'
+
+homepage = 'https://github.com/softwarefactory-project/rdopkg'
+
+[[package]]
+channel = 'fedora'
+name = 'rdopkg'

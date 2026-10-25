@@ -1,0 +1,12 @@
+id = 'gcal'
+name = 'gcal'
+
+homepage = 'http://directory.fsf.org/project/gcal'
+
+[[package]]
+channel = 'debian'
+name = 'gcal'
+
+[[package]]
+channel = 'fedora'
+name = 'gcal'

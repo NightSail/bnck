@@ -1,0 +1,8 @@
+id = '9mount'
+name = '9mount'
+
+homepage = 'http://sqweek.net/code/9mount'
+
+[[package]]
+channel = 'debian'
+name = '9mount'

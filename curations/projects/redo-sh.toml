@@ -1,0 +1,8 @@
+id = 'redo-sh'
+name = 'redo-sh'
+
+homepage = 'http://news.dieweltistgarnichtso.net/bin/redo-sh.html'
+
+[[package]]
+channel = 'arch'
+name = 'redo-sh'

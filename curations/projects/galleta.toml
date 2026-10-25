@@ -1,0 +1,8 @@
+id = 'galleta'
+name = 'galleta'
+
+homepage = 'https://odessa.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'galleta'

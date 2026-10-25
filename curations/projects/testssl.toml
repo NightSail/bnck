@@ -1,0 +1,17 @@
+id = 'testssl'
+name = 'testssl'
+
+homepage = 'https://testssl.sh'
+repository = 'https://github.com/testssl/testssl.sh.git'
+
+[[package]]
+channel = 'debian'
+name = 'testssl.sh'
+
+[[package]]
+channel = 'fedora'
+name = 'testssl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/testssl'

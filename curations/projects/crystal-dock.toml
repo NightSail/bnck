@@ -1,0 +1,12 @@
+id = 'crystal-dock'
+name = 'crystal-dock'
+
+homepage = 'https://github.com/dangvd/crystal-dock'
+
+[[package]]
+channel = 'debian'
+name = 'crystal-dock'
+
+[[package]]
+channel = 'fedora'
+name = 'crystal-dock'

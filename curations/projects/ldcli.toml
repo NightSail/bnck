@@ -1,0 +1,9 @@
+id = 'ldcli'
+name = 'ldcli'
+
+homepage = 'https://launchdarkly.com/docs/home/getting-started/ldcli'
+repository = 'https://github.com/launchdarkly/ldcli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldcli'

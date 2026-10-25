@@ -1,0 +1,10 @@
+id = 'buildstream'
+name = 'buildstream'
+
+[[package]]
+channel = 'debian'
+name = 'buildstream'
+
+[[package]]
+channel = 'fedora'
+name = 'buildstream'

@@ -1,0 +1,8 @@
+id = 'deepin-application-manager'
+name = 'deepin-application-manager'
+
+homepage = 'https://github.com/linuxdeepin/dde-application-manager'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-application-manager'

@@ -1,0 +1,16 @@
+id = 'kate'
+name = 'kate'
+
+homepage = 'https://apps.kde.org/kate'
+
+[[package]]
+channel = 'arch'
+name = 'kate'
+
+[[package]]
+channel = 'fedora'
+name = 'kate'
+
+[[package]]
+channel = 'fedora'
+name = 'kwrite'

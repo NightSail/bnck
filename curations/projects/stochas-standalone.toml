@@ -1,0 +1,8 @@
+id = 'stochas-standalone'
+name = 'stochas-standalone'
+
+homepage = 'https://surge-synth-team.org/stochas'
+
+[[package]]
+channel = 'arch'
+name = 'stochas-standalone'

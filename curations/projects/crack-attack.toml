@@ -1,0 +1,8 @@
+id = 'crack-attack'
+name = 'crack-attack'
+
+homepage = 'http://www.nongnu.org/crack-attack'
+
+[[package]]
+channel = 'fedora'
+name = 'crack-attack'

@@ -1,0 +1,8 @@
+id = 'bashka'
+name = 'bashka'
+
+repository = 'https://github.com/dmtrKovalenko/bashka.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bashka'

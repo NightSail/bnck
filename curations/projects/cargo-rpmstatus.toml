@@ -1,0 +1,8 @@
+id = 'cargo-rpmstatus'
+name = 'cargo-rpmstatus'
+
+homepage = 'https://crates.io/crates/cargo-rpmstatus'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo-rpmstatus'

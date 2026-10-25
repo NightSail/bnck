@@ -1,0 +1,8 @@
+id = 'atheme-services'
+name = 'atheme-services'
+
+homepage = 'https://atheme.github.io/atheme.html'
+
+[[package]]
+channel = 'debian'
+name = 'atheme-services'

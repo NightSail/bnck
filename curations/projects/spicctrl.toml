@@ -1,0 +1,8 @@
+id = 'spicctrl'
+name = 'spicctrl'
+
+homepage = 'http://popies.net/sonypi'
+
+[[package]]
+channel = 'fedora'
+name = 'spicctrl'

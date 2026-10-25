@@ -1,0 +1,16 @@
+id = 'galculator'
+name = 'galculator'
+
+homepage = 'https://github.com/galculator/galculator'
+
+[[package]]
+channel = 'arch'
+name = 'galculator'
+
+[[package]]
+channel = 'debian'
+name = 'galculator'
+
+[[package]]
+channel = 'fedora'
+name = 'galculator'

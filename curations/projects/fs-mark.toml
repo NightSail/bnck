@@ -1,0 +1,12 @@
+id = 'fs-mark'
+name = 'fs_mark'
+
+homepage = 'https://sourceforge.net/projects/fsmark'
+
+[[package]]
+channel = 'debian'
+name = 'fsmark'
+
+[[package]]
+channel = 'fedora'
+name = 'fs_mark'

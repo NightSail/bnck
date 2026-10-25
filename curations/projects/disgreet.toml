@@ -1,0 +1,8 @@
+id = 'disgreet'
+name = 'disgreet'
+
+homepage = 'https://github.com/dvorakchen/disgreet'
+
+[[package]]
+channel = 'debian'
+name = 'disgreet'

@@ -1,0 +1,8 @@
+id = 'sigal'
+name = 'sigal'
+
+homepage = 'http://sigal.saimon.org/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'sigal'

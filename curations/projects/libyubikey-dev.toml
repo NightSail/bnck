@@ -1,0 +1,6 @@
+id = 'libyubikey-dev'
+name = 'libyubikey-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libyubikey-dev'

@@ -1,0 +1,8 @@
+id = 'logtool'
+name = 'logtool'
+
+homepage = 'http://xjack.org/logtool'
+
+[[package]]
+channel = 'debian'
+name = 'logtool'

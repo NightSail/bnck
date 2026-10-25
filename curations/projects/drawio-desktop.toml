@@ -1,0 +1,8 @@
+id = 'drawio-desktop'
+name = 'drawio-desktop'
+
+homepage = 'https://www.drawio.com'
+
+[[package]]
+channel = 'arch'
+name = 'drawio-desktop'

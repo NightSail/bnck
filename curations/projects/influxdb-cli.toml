@@ -1,0 +1,9 @@
+id = 'influxdb-cli'
+name = 'influxdb-cli'
+
+homepage = 'https://influxdata.com/time-series-platform/influxdb'
+repository = 'https://github.com/influxdata/influx-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/influxdb-cli'

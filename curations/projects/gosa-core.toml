@@ -1,0 +1,12 @@
+id = 'gosa-core'
+name = 'gosa-core'
+
+homepage = 'https://github.com/gosa-project/gosa-core'
+
+[[package]]
+channel = 'debian'
+name = 'gosa'
+
+[[package]]
+channel = 'debian'
+name = 'gosa-desktop'

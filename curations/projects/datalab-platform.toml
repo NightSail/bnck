@@ -1,0 +1,12 @@
+id = 'datalab-platform'
+name = 'datalab-platform'
+
+homepage = 'https://datalab-platform.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cdlclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-datalab'

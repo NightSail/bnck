@@ -1,0 +1,8 @@
+id = 'criticalmass'
+name = 'CriticalMass'
+
+homepage = 'http://criticalmass.sourceforge.net/critter.php'
+
+[[package]]
+channel = 'fedora'
+name = 'CriticalMass'

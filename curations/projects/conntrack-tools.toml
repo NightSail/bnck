@@ -1,0 +1,20 @@
+id = 'conntrack-tools'
+name = 'conntrack-tools'
+
+homepage = 'https://conntrack-tools.netfilter.org'
+
+[[package]]
+channel = 'debian'
+name = 'conntrack'
+
+[[package]]
+channel = 'debian'
+name = 'conntrackd'
+
+[[package]]
+channel = 'debian'
+name = 'nfct'
+
+[[package]]
+channel = 'fedora'
+name = 'conntrack-tools'

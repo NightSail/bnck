@@ -1,0 +1,8 @@
+id = 'amd-container-toolkit'
+name = 'amd-container-toolkit'
+
+homepage = 'https://github.com/ROCm/container-toolkit'
+
+[[package]]
+channel = 'arch'
+name = 'amd-container-toolkit'

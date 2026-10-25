@@ -1,0 +1,40 @@
+id = 'moosefs'
+name = 'moosefs'
+
+homepage = 'https://moosefs.com'
+
+[[package]]
+channel = 'arch'
+name = 'moosefs'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-cgiserv'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-chunkserver'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-cli'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-client'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-gui'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-master'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-metalogger'
+
+[[package]]
+channel = 'debian'
+name = 'moosefs-netdump'

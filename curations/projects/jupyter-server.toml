@@ -1,0 +1,8 @@
+id = 'jupyter-server'
+name = 'jupyter-server'
+
+homepage = 'https://github.com/jupyter-server/jupyter_server'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-server'

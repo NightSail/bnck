@@ -1,0 +1,8 @@
+id = 'jabber-muc'
+name = 'jabber-muc'
+
+homepage = 'https://web.archive.org/web/https://download.gna.org/mu-conference'
+
+[[package]]
+channel = 'debian'
+name = 'jabber-muc'

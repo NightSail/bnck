@@ -1,0 +1,16 @@
+id = 'muse'
+name = 'muse'
+
+homepage = 'https://github.com/muse-sequencer/muse'
+
+[[package]]
+channel = 'arch'
+name = 'muse'
+
+[[package]]
+channel = 'debian'
+name = 'muse'
+
+[[package]]
+channel = 'fedora'
+name = 'muse'

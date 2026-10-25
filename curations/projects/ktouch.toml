@@ -1,0 +1,16 @@
+id = 'ktouch'
+name = 'ktouch'
+
+homepage = 'https://apps.kde.org/ktouch'
+
+[[package]]
+channel = 'arch'
+name = 'ktouch'
+
+[[package]]
+channel = 'debian'
+name = 'ktouch'
+
+[[package]]
+channel = 'fedora'
+name = 'ktouch'

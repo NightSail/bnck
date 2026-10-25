@@ -1,0 +1,8 @@
+id = 'aws-sso-util'
+name = 'aws-sso-util'
+
+repository = 'https://github.com/61418/aws-sso-util.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-sso-util'

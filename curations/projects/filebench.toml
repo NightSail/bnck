@@ -1,0 +1,8 @@
+id = 'filebench'
+name = 'filebench'
+
+homepage = 'http://filebench.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'filebench'

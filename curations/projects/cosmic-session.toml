@@ -1,0 +1,12 @@
+id = 'cosmic-session'
+name = 'cosmic-session'
+
+homepage = 'https://github.com/pop-os/cosmic-session'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-session'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-session'

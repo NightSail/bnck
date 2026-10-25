@@ -1,0 +1,8 @@
+id = 'mcp-inspector'
+name = 'mcp-inspector'
+
+homepage = 'https://modelcontextprotocol.io/docs/tools/inspector'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-inspector'

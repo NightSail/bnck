@@ -1,0 +1,9 @@
+id = 'func-e'
+name = 'func-e'
+
+homepage = 'https://func-e.io'
+repository = 'https://github.com/tetratelabs/func-e.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/func-e'

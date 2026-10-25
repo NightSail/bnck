@@ -1,0 +1,6 @@
+id = 'ukui-greeter'
+name = 'ukui-greeter'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-greeter'

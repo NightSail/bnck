@@ -1,0 +1,12 @@
+id = 'libxosd-schlauf'
+name = 'libxosd'
+
+homepage = 'https://github.com/Schlauf/libXosd'
+
+[[package]]
+channel = 'debian'
+name = 'libxosd-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xosd-bin'

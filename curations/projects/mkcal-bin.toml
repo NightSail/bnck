@@ -1,0 +1,8 @@
+id = 'mkcal-bin'
+name = 'mkcal-bin'
+
+homepage = 'https://github.com/sailfishos/mkcal'
+
+[[package]]
+channel = 'debian'
+name = 'mkcal-bin'

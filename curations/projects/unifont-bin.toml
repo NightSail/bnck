@@ -1,0 +1,8 @@
+id = 'unifont-bin'
+name = 'unifont-bin'
+
+homepage = 'https://unifoundry.com/unifont'
+
+[[package]]
+channel = 'debian'
+name = 'unifont-bin'

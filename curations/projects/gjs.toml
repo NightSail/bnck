@@ -1,0 +1,21 @@
+id = 'gjs'
+name = 'gjs'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md'
+repository = 'https://gitlab.gnome.org/GNOME/gjs.git'
+
+[[package]]
+channel = 'arch'
+name = 'gjs'
+
+[[package]]
+channel = 'debian'
+name = 'gjs'
+
+[[package]]
+channel = 'fedora'
+name = 'gjs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gjs'

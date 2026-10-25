@@ -1,0 +1,20 @@
+id = 'hevea'
+name = 'hevea'
+
+homepage = 'https://hevea.inria.fr'
+
+[[package]]
+channel = 'arch'
+name = 'hevea'
+
+[[package]]
+channel = 'debian'
+name = 'hevea'
+
+[[package]]
+channel = 'fedora'
+name = 'hevea'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hevea'

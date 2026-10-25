@@ -1,0 +1,8 @@
+id = 'xob'
+name = 'xob'
+
+homepage = 'https://github.com/florentc/xob'
+
+[[package]]
+channel = 'debian'
+name = 'xob'

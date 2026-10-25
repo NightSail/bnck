@@ -1,0 +1,8 @@
+id = 'python3-nipype'
+name = 'python3-nipype'
+
+homepage = 'https://nipype.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nipype'

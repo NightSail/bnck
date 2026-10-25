@@ -1,0 +1,8 @@
+id = 'libosmocore-utils'
+name = 'libosmocore-utils'
+
+homepage = 'http://bb.osmocom.org/trac/wiki/libosmocore'
+
+[[package]]
+channel = 'debian'
+name = 'libosmocore-utils'

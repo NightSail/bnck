@@ -1,0 +1,8 @@
+id = 'tomb'
+name = 'tomb'
+
+homepage = 'https://dyne.org/tomb'
+
+[[package]]
+channel = 'debian'
+name = 'tomb'

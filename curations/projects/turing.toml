@@ -1,0 +1,8 @@
+id = 'turing'
+name = 'turing'
+
+homepage = 'https://turingapp.ml'
+
+[[package]]
+channel = 'debian'
+name = 'turing'

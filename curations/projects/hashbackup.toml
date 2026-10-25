@@ -1,0 +1,8 @@
+id = 'hashbackup'
+name = 'hashbackup'
+
+homepage = 'https://www.hashbackup.com/hashbackup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/hashbackup'

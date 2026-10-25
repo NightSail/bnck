@@ -1,0 +1,20 @@
+id = 'tree'
+name = 'tree'
+
+homepage = 'http://oldmanprogrammer.net/source.php'
+
+[[package]]
+channel = 'arch'
+name = 'tree'
+
+[[package]]
+channel = 'debian'
+name = 'tree'
+
+[[package]]
+channel = 'fedora'
+name = 'tree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tree'

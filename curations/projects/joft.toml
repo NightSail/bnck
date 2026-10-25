@@ -1,0 +1,8 @@
+id = 'joft'
+name = 'joft'
+
+homepage = 'https://github.com/mcurlej/joft'
+
+[[package]]
+channel = 'fedora'
+name = 'joft'

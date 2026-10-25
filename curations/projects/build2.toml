@@ -1,0 +1,20 @@
+id = 'build2'
+name = 'build2'
+
+homepage = 'https://build2.org'
+
+[[package]]
+channel = 'fedora'
+name = 'bdep'
+
+[[package]]
+channel = 'fedora'
+name = 'bpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'build2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/build2'

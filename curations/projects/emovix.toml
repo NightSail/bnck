@@ -1,0 +1,8 @@
+id = 'emovix'
+name = 'emovix'
+
+homepage = 'http://movix.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'emovix'

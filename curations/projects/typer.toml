@@ -1,0 +1,16 @@
+id = 'typer'
+name = 'typer'
+
+homepage = 'https://typer.tiangolo.com'
+
+[[package]]
+channel = 'arch'
+name = 'python-typer'
+
+[[package]]
+channel = 'debian'
+name = 'typer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-typer-cli'

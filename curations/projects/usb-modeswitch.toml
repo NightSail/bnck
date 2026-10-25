@@ -1,0 +1,16 @@
+id = 'usb-modeswitch'
+name = 'usb-modeswitch'
+
+homepage = 'http://www.draisberghof.de/usb_modeswitch'
+
+[[package]]
+channel = 'arch'
+name = 'usb_modeswitch'
+
+[[package]]
+channel = 'debian'
+name = 'usb-modeswitch'
+
+[[package]]
+channel = 'fedora'
+name = 'usb_modeswitch'

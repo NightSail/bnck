@@ -1,0 +1,12 @@
+id = 'harvid'
+name = 'harvid'
+
+homepage = 'https://x42.github.io/harvid'
+
+[[package]]
+channel = 'arch'
+name = 'harvid'
+
+[[package]]
+channel = 'debian'
+name = 'harvid'

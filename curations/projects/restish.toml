@@ -1,0 +1,9 @@
+id = 'restish'
+name = 'restish'
+
+homepage = 'https://rest.sh'
+repository = 'https://github.com/rest-sh/restish.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/restish'

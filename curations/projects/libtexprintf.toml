@@ -1,0 +1,12 @@
+id = 'libtexprintf'
+name = 'libtexprintf'
+
+homepage = 'https://github.com/bartp5/libtexprintf'
+
+[[package]]
+channel = 'fedora'
+name = 'libtexprintf-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/utftex'

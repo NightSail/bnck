@@ -1,0 +1,12 @@
+id = 'arduino'
+name = 'arduino'
+
+homepage = 'https://www.arduino.cc'
+
+[[package]]
+channel = 'debian'
+name = 'arduino'
+
+[[package]]
+channel = 'fedora'
+name = 'arduino-listSerialPortsC'

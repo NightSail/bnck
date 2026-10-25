@@ -1,0 +1,16 @@
+id = 'eog'
+name = 'eog'
+
+homepage = 'https://gitlab.gnome.org/GNOME/eog'
+
+[[package]]
+channel = 'arch'
+name = 'eog'
+
+[[package]]
+channel = 'debian'
+name = 'eog'
+
+[[package]]
+channel = 'fedora'
+name = 'eog'

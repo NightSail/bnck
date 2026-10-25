@@ -1,0 +1,9 @@
+id = 'python-markdown-python-markdown'
+name = 'python-markdown'
+
+homepage = 'https://python-markdown.github.io'
+repository = 'https://github.com/Python-Markdown/markdown.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-markdown'

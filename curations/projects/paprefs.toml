@@ -1,0 +1,16 @@
+id = 'paprefs'
+name = 'paprefs'
+
+homepage = 'https://freedesktop.org/software/pulseaudio/paprefs'
+
+[[package]]
+channel = 'arch'
+name = 'paprefs'
+
+[[package]]
+channel = 'debian'
+name = 'paprefs'
+
+[[package]]
+channel = 'fedora'
+name = 'paprefs'

@@ -1,0 +1,12 @@
+id = 'mender'
+name = 'mender'
+
+homepage = 'https://mender.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mender-artifact'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mender-cli'

@@ -1,0 +1,12 @@
+id = 'smali'
+name = 'smali'
+
+homepage = 'https://github.com/JesusFreke/smali'
+
+[[package]]
+channel = 'arch'
+name = 'smali'
+
+[[package]]
+channel = 'debian'
+name = 'libsmali-java'

@@ -1,0 +1,8 @@
+id = 'golang-github-gobwas-ws'
+name = 'golang-github-gobwas-ws'
+
+homepage = 'https://github.com/gobwas/ws'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gobwas-ws'

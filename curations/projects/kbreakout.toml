@@ -1,0 +1,12 @@
+id = 'kbreakout'
+name = 'kbreakout'
+
+homepage = 'https://apps.kde.org/kbreakout'
+
+[[package]]
+channel = 'arch'
+name = 'kbreakout'
+
+[[package]]
+channel = 'fedora'
+name = 'kbrickbuster'

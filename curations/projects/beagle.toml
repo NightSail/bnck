@@ -1,0 +1,8 @@
+id = 'beagle'
+name = 'beagle'
+
+homepage = 'https://faculty.washington.edu/browning/beagle/beagle.html'
+
+[[package]]
+channel = 'debian'
+name = 'beagle'

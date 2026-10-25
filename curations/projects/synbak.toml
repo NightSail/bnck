@@ -1,0 +1,8 @@
+id = 'synbak'
+name = 'synbak'
+
+homepage = 'https://github.com/ugoviti/synbak'
+
+[[package]]
+channel = 'arch'
+name = 'synbak'

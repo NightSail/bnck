@@ -1,0 +1,8 @@
+id = 'deepin-app-services'
+name = 'deepin-app-services'
+
+homepage = 'https://github.com/linuxdeepin/dde-app-services'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-app-services'

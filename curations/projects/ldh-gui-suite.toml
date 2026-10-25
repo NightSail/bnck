@@ -1,0 +1,8 @@
+id = 'ldh-gui-suite'
+name = 'ldh-gui-suite'
+
+homepage = 'https://source.puri.sm/liberty/ldh_gui_suite'
+
+[[package]]
+channel = 'debian'
+name = 'ldh-gui-suite'

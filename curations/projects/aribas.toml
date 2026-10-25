@@ -1,0 +1,8 @@
+id = 'aribas'
+name = 'aribas'
+
+homepage = 'https://www.mathematik.uni-muenchen.de/~forster/sw/aribas.html'
+
+[[package]]
+channel = 'debian'
+name = 'aribas'

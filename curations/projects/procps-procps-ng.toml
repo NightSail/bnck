@@ -1,0 +1,12 @@
+id = 'procps-procps-ng'
+name = 'procps'
+
+repository = 'https://gitlab.com/procps-ng/procps.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/procps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/watch'

@@ -1,0 +1,36 @@
+id = 'libosinfo'
+name = 'libosinfo'
+
+homepage = 'https://libosinfo.org'
+
+[[package]]
+channel = 'arch'
+name = 'libosinfo'
+
+[[package]]
+channel = 'arch'
+name = 'osinfo-db-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libosinfo-bin'
+
+[[package]]
+channel = 'debian'
+name = 'osinfo-db-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libosinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'osinfo-db-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libosinfo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osinfo-db-tools'

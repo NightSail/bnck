@@ -1,0 +1,8 @@
+id = 'libnet-amazon-s3-tools-perl'
+name = 'libnet-amazon-s3-tools-perl'
+
+homepage = 'https://metacpan.org/release/Net-Amazon-S3-Tools'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-amazon-s3-tools-perl'

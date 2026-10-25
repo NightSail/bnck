@@ -1,0 +1,8 @@
+id = 'gsort'
+name = 'gsort'
+
+homepage = 'https://github.com/brentp/gsort'
+
+[[package]]
+channel = 'debian'
+name = 'gsort'

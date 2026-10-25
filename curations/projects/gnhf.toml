@@ -1,0 +1,8 @@
+id = 'gnhf'
+name = 'gnhf'
+
+homepage = 'https://github.com/kunchenguid/gnhf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnhf'

@@ -1,0 +1,8 @@
+id = 'objdiff'
+name = 'objdiff'
+
+homepage = 'https://github.com/encounter/objdiff'
+
+[[package]]
+channel = 'arch'
+name = 'objdiff'

@@ -1,0 +1,8 @@
+id = 'git-plus'
+name = 'git-plus'
+
+repository = 'https://github.com/tkrajina/git-plus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-plus'

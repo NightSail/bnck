@@ -1,0 +1,8 @@
+id = 'par2'
+name = 'par2'
+
+homepage = 'https://parchive.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/par2'

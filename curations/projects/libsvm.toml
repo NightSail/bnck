@@ -1,0 +1,24 @@
+id = 'libsvm'
+name = 'libsvm'
+
+homepage = 'https://www.csie.ntu.edu.tw/~cjlin/libsvm'
+
+[[package]]
+channel = 'arch'
+name = 'libsvm'
+
+[[package]]
+channel = 'debian'
+name = 'libsvm-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libsvm'
+
+[[package]]
+channel = 'fedora'
+name = 'libsvm-svm-toy-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-libsvm'

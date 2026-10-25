@@ -1,0 +1,8 @@
+id = 'node-mustache'
+name = 'node-mustache'
+
+homepage = 'https://mustache.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'node-mustache'

@@ -1,0 +1,8 @@
+id = 'zns'
+name = 'zns'
+
+repository = 'https://github.com/znscli/zns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zns'

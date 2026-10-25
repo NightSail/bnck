@@ -1,0 +1,8 @@
+id = 'python3-aqipy'
+name = 'python3-aqipy'
+
+homepage = 'https://github.com/danoscarmike/aqipy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aqipy'

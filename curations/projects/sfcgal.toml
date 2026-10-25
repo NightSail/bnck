@@ -1,0 +1,8 @@
+id = 'sfcgal'
+name = 'sfcgal'
+
+homepage = 'https://sfcgal.gitlab.io/SFCGAL'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sfcgal'

@@ -1,0 +1,12 @@
+id = 'sg'
+name = 'sg'
+
+homepage = 'http://sg.danny.cz/sg/smp_utils.html'
+
+[[package]]
+channel = 'debian'
+name = 'smp-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'smp_utils'

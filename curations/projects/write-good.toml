@@ -1,0 +1,8 @@
+id = 'write-good'
+name = 'write-good'
+
+homepage = 'https://github.com/btford/write-good'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/write-good'

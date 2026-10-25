@@ -1,0 +1,8 @@
+id = 'multicharge'
+name = 'multicharge'
+
+homepage = 'https://github.com/grimme-lab/multicharge'
+
+[[package]]
+channel = 'fedora'
+name = 'multicharge'

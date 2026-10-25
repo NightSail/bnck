@@ -1,0 +1,8 @@
+id = 'sddm-conf'
+name = 'sddm-conf'
+
+homepage = 'https://github.com/qtilities/sddm-conf'
+
+[[package]]
+channel = 'fedora'
+name = 'sddm-conf'

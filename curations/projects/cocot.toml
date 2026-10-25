@@ -1,0 +1,13 @@
+id = 'cocot'
+name = 'cocot'
+
+homepage = 'http://vmi.jp/software/cygwin/cocot.html'
+repository = 'https://github.com/vmi/cocot.git'
+
+[[package]]
+channel = 'fedora'
+name = 'cocot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cocot'

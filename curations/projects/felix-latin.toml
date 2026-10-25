@@ -1,0 +1,8 @@
+id = 'felix-latin'
+name = 'felix-latin'
+
+homepage = 'https://home.gna.org/felix'
+
+[[package]]
+channel = 'debian'
+name = 'felix-latin'

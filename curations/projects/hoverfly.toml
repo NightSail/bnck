@@ -1,0 +1,9 @@
+id = 'hoverfly'
+name = 'hoverfly'
+
+homepage = 'https://hoverfly.io'
+repository = 'https://github.com/SpectoLabs/hoverfly.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hoverfly'

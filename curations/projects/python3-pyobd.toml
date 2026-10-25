@@ -1,0 +1,8 @@
+id = 'python3-pyobd'
+name = 'python3-pyobd'
+
+homepage = 'http://www.obdtester.com'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyobd'

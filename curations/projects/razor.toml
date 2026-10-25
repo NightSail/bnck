@@ -1,0 +1,8 @@
+id = 'razor'
+name = 'razor'
+
+homepage = 'https://razor.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'razor'

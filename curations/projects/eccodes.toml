@@ -1,0 +1,12 @@
+id = 'eccodes'
+name = 'eccodes'
+
+homepage = 'https://confluence.ecmwf.int/display/ECC'
+
+[[package]]
+channel = 'fedora'
+name = 'eccodes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eccodes'

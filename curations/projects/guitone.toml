@@ -1,0 +1,8 @@
+id = 'guitone'
+name = 'guitone'
+
+homepage = 'http://guitone.thomaskeller.biz'
+
+[[package]]
+channel = 'fedora'
+name = 'guitone'

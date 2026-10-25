@@ -1,0 +1,8 @@
+id = 'helix-db'
+name = 'helix-db'
+
+homepage = 'https://helix-db.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helix-db'

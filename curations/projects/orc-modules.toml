@@ -1,0 +1,12 @@
+id = 'orc-modules'
+name = 'orc'
+
+homepage = 'https://gstreamer.freedesktop.org/modules/orc.html'
+
+[[package]]
+channel = 'arch'
+name = 'orc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/orc'

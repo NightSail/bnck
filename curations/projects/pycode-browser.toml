@@ -1,0 +1,8 @@
+id = 'pycode-browser'
+name = 'pycode-browser'
+
+homepage = 'https://github.com/vimaljoseph/pycode-browser'
+
+[[package]]
+channel = 'debian'
+name = 'pycode-browser'

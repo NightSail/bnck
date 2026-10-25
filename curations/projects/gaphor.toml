@@ -1,0 +1,12 @@
+id = 'gaphor'
+name = 'gaphor'
+
+homepage = 'https://apps.gnome.org/Gaphor'
+
+[[package]]
+channel = 'arch'
+name = 'gaphor'
+
+[[package]]
+channel = 'debian'
+name = 'gaphor'

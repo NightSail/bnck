@@ -1,0 +1,9 @@
+id = 'ryelang'
+name = 'ryelang'
+
+homepage = 'https://ryelang.org'
+repository = 'https://github.com/refaktor/rye.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ryelang'

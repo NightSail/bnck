@@ -1,0 +1,20 @@
+id = 'neuro'
+name = 'neuro'
+
+homepage = 'https://neuro.debian.net'
+
+[[package]]
+channel = 'debian'
+name = 'neurodebian'
+
+[[package]]
+channel = 'debian'
+name = 'neurodebian-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'neurodebian-dev'
+
+[[package]]
+channel = 'debian'
+name = 'neurodebian-freeze'

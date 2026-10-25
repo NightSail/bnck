@@ -1,0 +1,6 @@
+id = 'thunderbolt-tools'
+name = 'thunderbolt-tools'
+
+[[package]]
+channel = 'debian'
+name = 'thunderbolt-tools'

@@ -1,0 +1,8 @@
+id = 'libredefender'
+name = 'libredefender'
+
+homepage = 'https://github.com/kpcyrd/libredefender'
+
+[[package]]
+channel = 'arch'
+name = 'libredefender'

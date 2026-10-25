@@ -1,0 +1,12 @@
+id = 'yarn'
+name = 'yarn'
+
+homepage = 'https://yarnpkg.com'
+
+[[package]]
+channel = 'arch'
+name = 'yarn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yarn'

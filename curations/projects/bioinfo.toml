@@ -1,0 +1,12 @@
+id = 'bioinfo'
+name = 'bioinfo'
+
+homepage = 'http://pappso.inrae.fr/bioinfo'
+
+[[package]]
+channel = 'debian'
+name = 'libpappsomspp-cli'
+
+[[package]]
+channel = 'debian'
+name = 'ods2tsv'

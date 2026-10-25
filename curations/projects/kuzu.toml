@@ -1,0 +1,8 @@
+id = 'kuzu'
+name = 'kuzu'
+
+repository = 'https://github.com/kuzudb/kuzu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kuzu'

@@ -1,0 +1,8 @@
+id = 'gsar'
+name = 'gsar'
+
+homepage = 'https://tjaberg.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gsar'

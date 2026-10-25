@@ -1,0 +1,12 @@
+id = 'dfrs'
+name = 'dfrs'
+
+homepage = 'https://github.com/anthraxx/dfrs'
+
+[[package]]
+channel = 'arch'
+name = 'dfrs'
+
+[[package]]
+channel = 'debian'
+name = 'dfrs'

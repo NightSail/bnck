@@ -1,0 +1,8 @@
+id = 'brother-ql'
+name = 'brother-ql'
+
+homepage = 'https://github.com/pklaus/brother_ql'
+
+[[package]]
+channel = 'debian'
+name = 'brother-ql'

@@ -1,0 +1,9 @@
+id = 'yo'
+name = 'yo'
+
+homepage = 'https://yeoman.io'
+repository = 'https://github.com/yeoman/yo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yo'

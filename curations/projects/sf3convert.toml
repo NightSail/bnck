@@ -1,0 +1,8 @@
+id = 'sf3convert'
+name = 'sf3convert'
+
+homepage = 'https://github.com/musescore/sftools'
+
+[[package]]
+channel = 'debian'
+name = 'sf3convert'

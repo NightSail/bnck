@@ -1,0 +1,20 @@
+id = 'gpgme'
+name = 'gpgme'
+
+homepage = 'https://www.gnupg.org/related_software/gpgme'
+
+[[package]]
+channel = 'arch'
+name = 'gpgme'
+
+[[package]]
+channel = 'fedora'
+name = 'gpgme'
+
+[[package]]
+channel = 'fedora'
+name = 'gpgme-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpgme'

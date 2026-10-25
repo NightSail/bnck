@@ -1,0 +1,16 @@
+id = 'gnome-calendar'
+name = 'gnome-calendar'
+
+homepage = 'https://apps.gnome.org/Calendar'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-calendar'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-calendar'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-calendar'

@@ -1,0 +1,12 @@
+id = 'video-trimmer'
+name = 'video-trimmer'
+
+homepage = 'https://apps.gnome.org/VideoTrimmer'
+
+[[package]]
+channel = 'arch'
+name = 'video-trimmer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-video-trimmer'

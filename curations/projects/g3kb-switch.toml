@@ -1,0 +1,8 @@
+id = 'g3kb-switch'
+name = 'g3kb-switch'
+
+homepage = 'https://github.com/lyokha/g3kb-switch'
+
+[[package]]
+channel = 'fedora'
+name = 'g3kb-switch'

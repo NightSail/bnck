@@ -1,0 +1,8 @@
+id = 'python3-mcp'
+name = 'python3-mcp'
+
+homepage = 'https://modelcontextprotocol.io/docs/getting-started/intro'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mcp'

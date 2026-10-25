@@ -1,0 +1,8 @@
+id = 'trinity'
+name = 'trinity'
+
+homepage = 'https://github.com/kernelslacker/trinity'
+
+[[package]]
+channel = 'debian'
+name = 'trinity'

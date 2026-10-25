@@ -1,0 +1,12 @@
+id = 'dumpet'
+name = 'dumpet'
+
+homepage = 'https://github.com/rhboot/dumpet'
+
+[[package]]
+channel = 'debian'
+name = 'dumpet'
+
+[[package]]
+channel = 'fedora'
+name = 'dumpet'

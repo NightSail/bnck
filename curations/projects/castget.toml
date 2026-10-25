@@ -1,0 +1,17 @@
+id = 'castget'
+name = 'castget'
+
+homepage = 'https://johndal.com/castget'
+repository = 'https://github.com/mlj/castget.git'
+
+[[package]]
+channel = 'arch'
+name = 'castget'
+
+[[package]]
+channel = 'fedora'
+name = 'castget'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/castget'

@@ -1,0 +1,8 @@
+id = 'libnvtt-bin'
+name = 'libnvtt-bin'
+
+homepage = 'https://github.com/castano/nvidia-texture-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libnvtt-bin'

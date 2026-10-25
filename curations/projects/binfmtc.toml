@@ -1,0 +1,8 @@
+id = 'binfmtc'
+name = 'binfmtc'
+
+homepage = 'https://www.netfort.gr.jp/~dancer/software/binfmtc.html'
+
+[[package]]
+channel = 'debian'
+name = 'binfmtc'

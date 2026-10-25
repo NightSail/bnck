@@ -1,0 +1,8 @@
+id = 'cargo-sort-derives'
+name = 'cargo-sort-derives'
+
+homepage = 'https://github.com/lusingander/cargo-sort-derives'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-sort-derives'

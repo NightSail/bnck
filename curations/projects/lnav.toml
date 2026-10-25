@@ -4,5 +4,17 @@ name = 'lnav'
 repository = 'https://github.com/tstack/lnav'
 
 [[package]]
+channel = 'arch'
+name = 'lnav'
+
+[[package]]
+channel = 'debian'
+name = 'lnav'
+
+[[package]]
+channel = 'fedora'
+name = 'lnav'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/lnav'

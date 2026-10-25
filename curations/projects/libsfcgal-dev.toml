@@ -1,0 +1,8 @@
+id = 'libsfcgal-dev'
+name = 'libsfcgal-dev'
+
+homepage = 'http://www.sfcgal.org'
+
+[[package]]
+channel = 'debian'
+name = 'libsfcgal-dev'

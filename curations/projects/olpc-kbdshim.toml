@@ -1,0 +1,8 @@
+id = 'olpc-kbdshim'
+name = 'olpc-kbdshim'
+
+homepage = 'https://dev.laptop.org/git/users/pgf/olpc-kbdshim'
+
+[[package]]
+channel = 'debian'
+name = 'olpc-kbdshim'

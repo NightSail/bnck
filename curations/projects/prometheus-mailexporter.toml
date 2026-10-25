@@ -1,0 +1,8 @@
+id = 'prometheus-mailexporter'
+name = 'prometheus-mailexporter'
+
+homepage = 'https://github.com/cherti/mailexporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-mailexporter'

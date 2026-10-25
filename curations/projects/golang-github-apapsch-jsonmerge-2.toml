@@ -1,0 +1,8 @@
+id = 'golang-github-apapsch-jsonmerge-2'
+name = 'golang-github-apapsch-jsonmerge-2'
+
+homepage = 'https://github.com/apapsch/go-jsonmerge'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-apapsch-jsonmerge-2'

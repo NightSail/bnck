@@ -1,0 +1,16 @@
+id = 'bgpq4'
+name = 'bgpq4'
+
+repository = 'https://github.com/bgp/bgpq4.git'
+
+[[package]]
+channel = 'debian'
+name = 'bgpq4'
+
+[[package]]
+channel = 'fedora'
+name = 'bgpq4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bgpq4'

@@ -1,0 +1,32 @@
+id = 'pidgin'
+name = 'pidgin'
+
+homepage = 'https://www.pidgin.im'
+
+[[package]]
+channel = 'debian'
+name = 'finch'
+
+[[package]]
+channel = 'debian'
+name = 'libpurple-bin'
+
+[[package]]
+channel = 'debian'
+name = 'pidgin'
+
+[[package]]
+channel = 'debian'
+name = 'pidgin-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'finch'
+
+[[package]]
+channel = 'fedora'
+name = 'libpurple'
+
+[[package]]
+channel = 'fedora'
+name = 'pidgin'

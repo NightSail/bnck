@@ -1,0 +1,12 @@
+id = 'deepin-movie'
+name = 'deepin-movie'
+
+homepage = 'https://github.com/linuxdeepin/deepin-movie-reborn'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-movie'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-movie'

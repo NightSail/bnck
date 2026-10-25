@@ -1,0 +1,8 @@
+id = 'forkstat'
+name = 'forkstat'
+
+homepage = 'https://github.com/ColinIanKing/forkstat'
+
+[[package]]
+channel = 'debian'
+name = 'forkstat'

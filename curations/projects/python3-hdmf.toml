@@ -1,0 +1,12 @@
+id = 'python3-hdmf'
+name = 'python3-hdmf'
+
+homepage = 'https://github.com/hdmf-dev/hdmf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hdmf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hdmf'

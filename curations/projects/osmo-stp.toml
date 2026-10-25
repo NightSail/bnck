@@ -1,0 +1,8 @@
+id = 'osmo-stp'
+name = 'osmo-stp'
+
+homepage = 'http://cgit.osmocom.org/libosmo-sigtran'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-stp'

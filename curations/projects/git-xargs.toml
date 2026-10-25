@@ -1,0 +1,8 @@
+id = 'git-xargs'
+name = 'git-xargs'
+
+repository = 'https://github.com/gruntwork-io/git-xargs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-xargs'

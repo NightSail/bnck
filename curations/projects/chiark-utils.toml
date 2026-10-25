@@ -1,0 +1,22 @@
+id = 'chiark-utils'
+name = 'chiark-utils'
+
+[[package]]
+channel = 'debian'
+name = 'chiark-backup'
+
+[[package]]
+channel = 'debian'
+name = 'chiark-really'
+
+[[package]]
+channel = 'debian'
+name = 'chiark-rwbuffer'
+
+[[package]]
+channel = 'debian'
+name = 'chiark-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'chiark-utils-bin'

@@ -1,0 +1,8 @@
+id = 'exip'
+name = 'exip'
+
+homepage = 'https://github.com/glendc/go-external-ip'
+
+[[package]]
+channel = 'debian'
+name = 'exip'

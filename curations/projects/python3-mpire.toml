@@ -1,0 +1,8 @@
+id = 'python3-mpire'
+name = 'python3-mpire'
+
+homepage = 'https://github.com/sybrenjansen/mpire'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mpire'

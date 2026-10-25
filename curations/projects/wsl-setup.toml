@@ -1,0 +1,8 @@
+id = 'wsl-setup'
+name = 'wsl-setup'
+
+homepage = 'https://src.fedoraproject.org/rpms/wsl-setup'
+
+[[package]]
+channel = 'fedora'
+name = 'wsl-setup'

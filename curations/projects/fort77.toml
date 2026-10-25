@@ -1,0 +1,6 @@
+id = 'fort77'
+name = 'fort77'
+
+[[package]]
+channel = 'debian'
+name = 'fort77'

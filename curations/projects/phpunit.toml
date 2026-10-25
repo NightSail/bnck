@@ -1,0 +1,32 @@
+id = 'phpunit'
+name = 'phpunit'
+
+homepage = 'https://phpunit.de'
+
+[[package]]
+channel = 'debian'
+name = 'phpunit'
+
+[[package]]
+channel = 'fedora'
+name = 'phpunit10'
+
+[[package]]
+channel = 'fedora'
+name = 'phpunit11'
+
+[[package]]
+channel = 'fedora'
+name = 'phpunit12'
+
+[[package]]
+channel = 'fedora'
+name = 'phpunit8'
+
+[[package]]
+channel = 'fedora'
+name = 'phpunit9'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phpunit'

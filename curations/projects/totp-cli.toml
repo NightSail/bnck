@@ -1,0 +1,9 @@
+id = 'totp-cli'
+name = 'totp-cli'
+
+homepage = 'https://yitsushi.github.io/totp-cli'
+repository = 'https://github.com/yitsushi/totp-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/totp-cli'

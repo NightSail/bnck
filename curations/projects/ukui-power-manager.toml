@@ -1,0 +1,8 @@
+id = 'ukui-power-manager'
+name = 'ukui-power-manager'
+
+homepage = 'https://gitee.com/openkylin/ukui-power-manager'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-power-manager'

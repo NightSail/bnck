@@ -1,0 +1,12 @@
+id = 'parse-yapp'
+name = 'Parse-Yapp'
+
+homepage = 'https://metacpan.org/release/Parse-Yapp'
+
+[[package]]
+channel = 'debian'
+name = 'libparse-yapp-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Parse-Yapp'

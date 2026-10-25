@@ -1,0 +1,8 @@
+id = 'zziplib-utils'
+name = 'zziplib-utils'
+
+homepage = 'http://zziplib.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'zziplib-utils'

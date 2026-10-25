@@ -1,0 +1,10 @@
+id = 'vacation'
+name = 'vacation'
+
+[[package]]
+channel = 'debian'
+name = 'vacation'
+
+[[package]]
+channel = 'fedora'
+name = 'vacation'

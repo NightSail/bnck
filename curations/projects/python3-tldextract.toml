@@ -1,0 +1,8 @@
+id = 'python3-tldextract'
+name = 'python3-tldextract'
+
+homepage = 'https://pypi.python.org/pypi/tldextract'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tldextract'

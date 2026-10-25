@@ -1,0 +1,13 @@
+id = 'cobra-cli'
+name = 'cobra-cli'
+
+homepage = 'https://cobra.dev'
+repository = 'https://github.com/spf13/cobra-cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'cobra-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cobra-cli'

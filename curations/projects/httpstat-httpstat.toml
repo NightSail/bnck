@@ -1,0 +1,6 @@
+id = 'httpstat-httpstat'
+name = 'httpstat'
+
+[[package]]
+channel = 'crates.io'
+name = 'httpstat'

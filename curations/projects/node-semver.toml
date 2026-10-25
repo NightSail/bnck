@@ -1,0 +1,8 @@
+id = 'node-semver'
+name = 'node-semver'
+
+homepage = 'https://github.com/isaacs/node-semver'
+
+[[package]]
+channel = 'debian'
+name = 'node-semver'

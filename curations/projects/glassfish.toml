@@ -1,0 +1,8 @@
+id = 'glassfish'
+name = 'glassfish'
+
+homepage = 'https://glassfish.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glassfish'

@@ -1,0 +1,8 @@
+id = 'termonad'
+name = 'termonad'
+
+homepage = 'https://github.com/cdepillabout/termonad'
+
+[[package]]
+channel = 'debian'
+name = 'termonad'

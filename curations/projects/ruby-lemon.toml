@@ -1,0 +1,8 @@
+id = 'ruby-lemon'
+name = 'ruby-lemon'
+
+homepage = 'https://github.com/rubyworks/lemon'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-lemon'

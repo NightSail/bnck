@@ -1,0 +1,16 @@
+id = '6tunnel'
+name = '6tunnel'
+
+homepage = 'https://github.com/wojtekka/6tunnel'
+
+[[package]]
+channel = 'arch'
+name = '6tunnel'
+
+[[package]]
+channel = 'debian'
+name = '6tunnel'
+
+[[package]]
+channel = 'fedora'
+name = '6tunnel'

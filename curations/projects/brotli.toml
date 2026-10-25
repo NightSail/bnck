@@ -1,0 +1,20 @@
+id = 'brotli'
+name = 'brotli'
+
+repository = 'https://github.com/google/brotli.git'
+
+[[package]]
+channel = 'arch'
+name = 'brotli'
+
+[[package]]
+channel = 'debian'
+name = 'brotli'
+
+[[package]]
+channel = 'fedora'
+name = 'brotli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brotli'

@@ -1,0 +1,9 @@
+id = 'root-root-project'
+name = 'root'
+
+homepage = 'https://root.cern'
+repository = 'https://github.com/root-project/root.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/root'

@@ -1,0 +1,12 @@
+id = 'datrie'
+name = 'datrie'
+
+homepage = 'https://linux.thai.net/projects/datrie'
+
+[[package]]
+channel = 'arch'
+name = 'libdatrie'
+
+[[package]]
+channel = 'fedora'
+name = 'libdatrie-devel'

@@ -1,0 +1,8 @@
+id = 'xplot-xplot-org'
+name = 'xplot-xplot.org'
+
+homepage = 'http://www.xplot.org'
+
+[[package]]
+channel = 'debian'
+name = 'xplot-xplot.org'

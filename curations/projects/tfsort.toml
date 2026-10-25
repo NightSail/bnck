@@ -1,0 +1,8 @@
+id = 'tfsort'
+name = 'tfsort'
+
+repository = 'https://github.com/AlexNabokikh/tfsort.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfsort'

@@ -1,0 +1,16 @@
+id = 'bluez-tools'
+name = 'bluez-tools'
+
+homepage = 'https://github.com/khvzak/bluez-tools'
+
+[[package]]
+channel = 'arch'
+name = 'bluez-tools'
+
+[[package]]
+channel = 'debian'
+name = 'bluez-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'bluez-tools'

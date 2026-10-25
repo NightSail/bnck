@@ -1,0 +1,8 @@
+id = 'nispor'
+name = 'nispor'
+
+homepage = 'https://github.com/nispor/nispor'
+
+[[package]]
+channel = 'fedora'
+name = 'nispor'

@@ -1,0 +1,8 @@
+id = 'cargo-ndk'
+name = 'cargo-ndk'
+
+homepage = 'https://github.com/bbqsrc/cargo-ndk'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-ndk'

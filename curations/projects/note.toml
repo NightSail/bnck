@@ -1,0 +1,6 @@
+id = 'note'
+name = 'note'
+
+[[package]]
+channel = 'debian'
+name = 'note'

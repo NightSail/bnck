@@ -1,0 +1,13 @@
+id = 'wasmtime'
+name = 'wasmtime'
+
+homepage = 'https://wasmtime.dev'
+repository = 'https://github.com/bytecodealliance/wasmtime.git'
+
+[[package]]
+channel = 'arch'
+name = 'wasmtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasmtime'

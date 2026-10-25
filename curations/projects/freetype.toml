@@ -1,0 +1,24 @@
+id = 'freetype'
+name = 'freetype'
+
+homepage = 'https://www.freetype.org'
+
+[[package]]
+channel = 'arch'
+name = 'freetype2-demos'
+
+[[package]]
+channel = 'debian'
+name = 'freetype2-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'freetype-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'freetype-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freetype'

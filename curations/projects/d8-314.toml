@@ -1,0 +1,8 @@
+id = 'd8-314'
+name = 'd8-314'
+
+homepage = 'https://developers.google.com/v8'
+
+[[package]]
+channel = 'fedora'
+name = 'v8-314'

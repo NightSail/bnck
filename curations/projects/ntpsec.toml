@@ -1,0 +1,24 @@
+id = 'ntpsec'
+name = 'ntpsec'
+
+homepage = 'https://www.ntpsec.org'
+
+[[package]]
+channel = 'debian'
+name = 'ntpsec'
+
+[[package]]
+channel = 'debian'
+name = 'ntpsec-ntpdate'
+
+[[package]]
+channel = 'debian'
+name = 'ntpsec-ntpdig'
+
+[[package]]
+channel = 'debian'
+name = 'ntpsec-ntpviz'
+
+[[package]]
+channel = 'fedora'
+name = 'ntpsec'

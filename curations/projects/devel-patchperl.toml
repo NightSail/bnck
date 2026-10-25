@@ -1,0 +1,12 @@
+id = 'devel-patchperl'
+name = 'Devel-PatchPerl'
+
+homepage = 'https://metacpan.org/release/Devel-PatchPerl'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-patchperl-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-PatchPerl'

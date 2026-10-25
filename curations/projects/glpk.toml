@@ -1,0 +1,20 @@
+id = 'glpk'
+name = 'glpk'
+
+homepage = 'https://www.gnu.org/software/glpk'
+
+[[package]]
+channel = 'arch'
+name = 'glpk'
+
+[[package]]
+channel = 'debian'
+name = 'glpk-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'glpk-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glpk'

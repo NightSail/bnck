@@ -1,0 +1,12 @@
+id = 'equalx'
+name = 'equalx'
+
+homepage = 'https://equalx.sourceforge.net/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'equalx'
+
+[[package]]
+channel = 'fedora'
+name = 'equalx'

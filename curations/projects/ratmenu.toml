@@ -1,0 +1,8 @@
+id = 'ratmenu'
+name = 'ratmenu'
+
+homepage = 'https://tracker.debian.org/pkg/ratmenu'
+
+[[package]]
+channel = 'debian'
+name = 'ratmenu'

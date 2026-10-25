@@ -1,0 +1,8 @@
+id = 'droidlysis'
+name = 'droidlysis'
+
+homepage = 'https://github.com/cryptax/droidlysis'
+
+[[package]]
+channel = 'debian'
+name = 'droidlysis'

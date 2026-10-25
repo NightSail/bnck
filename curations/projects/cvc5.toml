@@ -1,0 +1,16 @@
+id = 'cvc5'
+name = 'cvc5'
+
+homepage = 'https://cvc5.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'cvc4'
+
+[[package]]
+channel = 'debian'
+name = 'cvc5'
+
+[[package]]
+channel = 'fedora'
+name = 'cvc5'

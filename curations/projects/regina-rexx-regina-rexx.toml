@@ -1,0 +1,12 @@
+id = 'regina-rexx-regina-rexx'
+name = 'regina-rexx'
+
+homepage = 'https://regina-rexx.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libregina3-dev'
+
+[[package]]
+channel = 'debian'
+name = 'regina-rexx'

@@ -1,0 +1,8 @@
+id = 'wormhole-rs'
+name = 'wormhole-rs'
+
+homepage = 'http://magic-wormhole.io'
+
+[[package]]
+channel = 'debian'
+name = 'wormhole-rs'

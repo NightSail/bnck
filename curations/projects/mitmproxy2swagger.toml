@@ -1,0 +1,8 @@
+id = 'mitmproxy2swagger'
+name = 'mitmproxy2swagger'
+
+homepage = 'https://github.com/alufers/mitmproxy2swagger'
+
+[[package]]
+channel = 'arch'
+name = 'mitmproxy2swagger'

@@ -1,0 +1,8 @@
+id = 'autofdo'
+name = 'autofdo'
+
+homepage = 'https://github.com/google/autofdo'
+
+[[package]]
+channel = 'debian'
+name = 'autofdo'

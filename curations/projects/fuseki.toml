@@ -1,0 +1,8 @@
+id = 'fuseki'
+name = 'fuseki'
+
+homepage = 'https://jena.apache.org/documentation/fuseki2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fuseki'

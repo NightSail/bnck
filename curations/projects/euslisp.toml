@@ -1,0 +1,8 @@
+id = 'euslisp'
+name = 'euslisp'
+
+homepage = 'https://github.com/euslisp/EusLisp'
+
+[[package]]
+channel = 'debian'
+name = 'euslisp'

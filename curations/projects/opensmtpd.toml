@@ -1,0 +1,16 @@
+id = 'opensmtpd'
+name = 'opensmtpd'
+
+homepage = 'https://www.opensmtpd.org'
+
+[[package]]
+channel = 'arch'
+name = 'opensmtpd'
+
+[[package]]
+channel = 'debian'
+name = 'opensmtpd'
+
+[[package]]
+channel = 'fedora'
+name = 'opensmtpd'

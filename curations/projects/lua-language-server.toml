@@ -1,0 +1,13 @@
+id = 'lua-language-server'
+name = 'lua-language-server'
+
+homepage = 'https://luals.github.io'
+repository = 'https://github.com/LuaLS/lua-language-server.git'
+
+[[package]]
+channel = 'arch'
+name = 'lua-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lua-language-server'

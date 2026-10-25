@@ -1,0 +1,16 @@
+id = 'bilibop'
+name = 'bilibop'
+
+homepage = 'https://un.poivron.org/~quidame/wiki/bilibop'
+
+[[package]]
+channel = 'debian'
+name = 'bilibop-common'
+
+[[package]]
+channel = 'debian'
+name = 'bilibop-lockfs'
+
+[[package]]
+channel = 'debian'
+name = 'bilibop-rules'

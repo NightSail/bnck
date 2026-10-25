@@ -1,0 +1,20 @@
+id = 'musescore'
+name = 'musescore'
+
+homepage = 'https://musescore.org'
+
+[[package]]
+channel = 'arch'
+name = 'musescore'
+
+[[package]]
+channel = 'debian'
+name = 'musescore'
+
+[[package]]
+channel = 'debian'
+name = 'musescore3'
+
+[[package]]
+channel = 'fedora'
+name = 'musescore'

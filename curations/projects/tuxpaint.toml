@@ -1,0 +1,14 @@
+id = 'tuxpaint'
+name = 'tuxpaint'
+
+[[package]]
+channel = 'debian'
+name = 'tuxpaint'
+
+[[package]]
+channel = 'debian'
+name = 'tuxpaint-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'tuxpaint'

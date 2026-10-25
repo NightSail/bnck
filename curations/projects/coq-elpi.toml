@@ -1,0 +1,12 @@
+id = 'coq-elpi'
+name = 'coq-elpi'
+
+homepage = 'https://github.com/LPCIC/coq-elpi'
+
+[[package]]
+channel = 'debian'
+name = 'libcoq-elpi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rocq-elpi'

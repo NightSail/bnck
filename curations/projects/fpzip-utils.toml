@@ -1,0 +1,8 @@
+id = 'fpzip-utils'
+name = 'fpzip-utils'
+
+homepage = 'https://github.com/LLNL/fpzip'
+
+[[package]]
+channel = 'debian'
+name = 'fpzip-utils'

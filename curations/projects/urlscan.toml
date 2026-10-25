@@ -1,0 +1,20 @@
+id = 'urlscan'
+name = 'urlscan'
+
+repository = 'https://github.com/firecat53/urlscan.git'
+
+[[package]]
+channel = 'arch'
+name = 'urlscan'
+
+[[package]]
+channel = 'debian'
+name = 'urlscan'
+
+[[package]]
+channel = 'fedora'
+name = 'urlscan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urlscan'

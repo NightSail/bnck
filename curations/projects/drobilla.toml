@@ -1,0 +1,20 @@
+id = 'drobilla'
+name = 'drobilla'
+
+homepage = 'https://drobilla.net/software/serd.html'
+
+[[package]]
+channel = 'arch'
+name = 'serd'
+
+[[package]]
+channel = 'debian'
+name = 'serdi'
+
+[[package]]
+channel = 'fedora'
+name = 'serd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/serd'

@@ -1,0 +1,8 @@
+id = 'oxrq'
+name = 'oxrq'
+
+homepage = 'https://github.com/niklasl/oxrq'
+
+[[package]]
+channel = 'debian'
+name = 'oxrq'

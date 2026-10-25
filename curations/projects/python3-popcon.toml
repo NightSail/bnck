@@ -1,0 +1,6 @@
+id = 'python3-popcon'
+name = 'python3-popcon'
+
+[[package]]
+channel = 'debian'
+name = 'python3-popcon'

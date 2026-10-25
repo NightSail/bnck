@@ -1,0 +1,8 @@
+id = 'snakeviz'
+name = 'snakeviz'
+
+homepage = 'https://jiffyclub.github.io/snakeviz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snakeviz'

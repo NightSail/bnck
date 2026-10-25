@@ -1,0 +1,12 @@
+id = 'encode'
+name = 'Encode'
+
+homepage = 'https://metacpan.org/release/Encode'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Encode'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Encode-devel'

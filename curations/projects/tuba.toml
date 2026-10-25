@@ -1,0 +1,16 @@
+id = 'tuba'
+name = 'tuba'
+
+homepage = 'https://apps.gnome.org/Tuba'
+
+[[package]]
+channel = 'arch'
+name = 'tuba'
+
+[[package]]
+channel = 'debian'
+name = 'tuba'
+
+[[package]]
+channel = 'fedora'
+name = 'tuba'

@@ -1,0 +1,9 @@
+id = 'sqlfmt'
+name = 'sqlfmt'
+
+homepage = 'https://sqlfum.pt'
+repository = 'https://github.com/madelynnblue/sqlfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlfmt'

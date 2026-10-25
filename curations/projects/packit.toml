@@ -1,0 +1,12 @@
+id = 'packit'
+name = 'packit'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/packit'
+
+[[package]]
+channel = 'debian'
+name = 'packit'
+
+[[package]]
+channel = 'fedora'
+name = 'packit'

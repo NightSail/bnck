@@ -1,0 +1,8 @@
+id = 'linux-show-player'
+name = 'linux-show-player'
+
+homepage = 'https://www.linux-show-player.org'
+
+[[package]]
+channel = 'debian'
+name = 'linux-show-player'

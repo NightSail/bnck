@@ -1,0 +1,24 @@
+id = 'openssl-library'
+name = 'openssl-library'
+
+homepage = 'https://openssl-library.org'
+
+[[package]]
+channel = 'debian'
+name = 'openssl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openssl@3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openssl@3.0'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openssl@3.5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openssl@4'

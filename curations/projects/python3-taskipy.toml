@@ -1,0 +1,8 @@
+id = 'python3-taskipy'
+name = 'python3-taskipy'
+
+homepage = 'https://github.com/taskipy/taskipy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-taskipy'

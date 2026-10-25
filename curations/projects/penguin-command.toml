@@ -1,0 +1,8 @@
+id = 'penguin-command'
+name = 'penguin-command'
+
+homepage = 'http://www.linux-games.com/penguin-command'
+
+[[package]]
+channel = 'fedora'
+name = 'penguin-command'

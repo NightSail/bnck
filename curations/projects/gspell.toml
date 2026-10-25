@@ -1,0 +1,12 @@
+id = 'gspell'
+name = 'gspell'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gspell'
+
+[[package]]
+channel = 'arch'
+name = 'gspell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gspell'

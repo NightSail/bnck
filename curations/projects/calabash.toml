@@ -1,0 +1,8 @@
+id = 'calabash'
+name = 'calabash'
+
+homepage = 'https://xmlcalabash.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/calabash'

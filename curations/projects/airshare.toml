@@ -1,0 +1,8 @@
+id = 'airshare'
+name = 'airshare'
+
+homepage = 'https://airshare.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/airshare'

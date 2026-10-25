@@ -1,0 +1,8 @@
+id = 'pcb2gcode'
+name = 'pcb2gcode'
+
+repository = 'https://github.com/pcb2gcode/pcb2gcode.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcb2gcode'

@@ -1,0 +1,12 @@
+id = 'prips'
+name = 'prips'
+
+homepage = 'https://devel.ringlet.net/sysutils/prips'
+
+[[package]]
+channel = 'debian'
+name = 'prips'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prips'

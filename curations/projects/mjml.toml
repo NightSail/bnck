@@ -1,0 +1,8 @@
+id = 'mjml'
+name = 'mjml'
+
+homepage = 'https://mjml.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mjml'

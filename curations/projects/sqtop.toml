@@ -1,0 +1,8 @@
+id = 'sqtop'
+name = 'sqtop'
+
+homepage = 'https://github.com/paleg/sqtop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqtop'

@@ -1,0 +1,8 @@
+id = 'nsntrace'
+name = 'nsntrace'
+
+homepage = 'https://github.com/nsntrace/nsntrace'
+
+[[package]]
+channel = 'debian'
+name = 'nsntrace'

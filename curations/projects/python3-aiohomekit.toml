@@ -1,0 +1,8 @@
+id = 'python3-aiohomekit'
+name = 'python3-aiohomekit'
+
+homepage = 'https://github.com/Jc2k/aiohomekit'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiohomekit'

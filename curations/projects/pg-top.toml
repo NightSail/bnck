@@ -1,0 +1,16 @@
+id = 'pg-top'
+name = 'pg_top'
+
+homepage = 'https://pg_top.gitlab.io'
+
+[[package]]
+channel = 'debian'
+name = 'pgtop'
+
+[[package]]
+channel = 'fedora'
+name = 'pg_top'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pg_top'

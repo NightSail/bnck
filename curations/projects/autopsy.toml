@@ -1,0 +1,8 @@
+id = 'autopsy'
+name = 'autopsy'
+
+homepage = 'https://www.sleuthkit.org/autopsy'
+
+[[package]]
+channel = 'debian'
+name = 'autopsy'

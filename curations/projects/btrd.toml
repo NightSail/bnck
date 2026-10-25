@@ -1,0 +1,8 @@
+id = 'btrd'
+name = 'btrd'
+
+homepage = 'https://crates.io/crates/btrd'
+
+[[package]]
+channel = 'fedora'
+name = 'btrd'

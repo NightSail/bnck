@@ -1,0 +1,8 @@
+id = 'rmagic'
+name = 'rmagic'
+
+homepage = 'https://github.com/jeremywadsack/reportmagic'
+
+[[package]]
+channel = 'debian'
+name = 'rmagic'

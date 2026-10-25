@@ -1,0 +1,8 @@
+id = 'ulid-cli'
+name = 'ulid-cli'
+
+homepage = 'https://github.com/dylanhart/ulid-rs'
+
+[[package]]
+channel = 'debian'
+name = 'ulid-cli'

@@ -1,0 +1,8 @@
+id = 'dicomscope'
+name = 'dicomscope'
+
+homepage = 'https://dicom.offis.de/dscope.php.en'
+
+[[package]]
+channel = 'debian'
+name = 'dicomscope'

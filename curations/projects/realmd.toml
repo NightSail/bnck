@@ -1,0 +1,12 @@
+id = 'realmd'
+name = 'realmd'
+
+homepage = 'https://www.freedesktop.org/software/realmd'
+
+[[package]]
+channel = 'debian'
+name = 'adcli'
+
+[[package]]
+channel = 'debian'
+name = 'realmd'

@@ -1,0 +1,8 @@
+id = 'mx-bootrepair'
+name = 'mx-bootrepair'
+
+homepage = 'https://github.com/AdrianTM/mx-bootrepair'
+
+[[package]]
+channel = 'debian'
+name = 'mx-bootrepair'

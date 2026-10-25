@@ -1,0 +1,8 @@
+id = 'eql'
+name = 'eql'
+
+homepage = 'https://www.ibiblio.org/pub/Linux/system/network/serial'
+
+[[package]]
+channel = 'debian'
+name = 'eql'

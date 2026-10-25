@@ -1,0 +1,12 @@
+id = 'zita-resampler'
+name = 'zita-resampler'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/zita-resampler/resampler.html'
+
+[[package]]
+channel = 'debian'
+name = 'zita-resampler'
+
+[[package]]
+channel = 'fedora'
+name = 'zita-resampler'

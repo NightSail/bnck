@@ -1,0 +1,29 @@
+id = 'vnstat'
+name = 'vnstat'
+
+homepage = 'https://humdi.net/vnstat'
+repository = 'https://github.com/vergoh/vnstat.git'
+
+[[package]]
+channel = 'arch'
+name = 'vnstat'
+
+[[package]]
+channel = 'debian'
+name = 'vnstat'
+
+[[package]]
+channel = 'debian'
+name = 'vnstati'
+
+[[package]]
+channel = 'fedora'
+name = 'vnstat'
+
+[[package]]
+channel = 'fedora'
+name = 'vnstat-vnstati'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vnstat'

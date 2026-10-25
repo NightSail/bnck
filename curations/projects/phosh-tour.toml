@@ -1,0 +1,16 @@
+id = 'phosh-tour'
+name = 'phosh-tour'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/phosh-tour'
+
+[[package]]
+channel = 'arch'
+name = 'phosh-tour'
+
+[[package]]
+channel = 'debian'
+name = 'phosh-tour'
+
+[[package]]
+channel = 'fedora'
+name = 'phosh-tour'

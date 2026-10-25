@@ -1,0 +1,8 @@
+id = 'nova-api'
+name = 'nova-api'
+
+homepage = 'http://www.openstack.org/software/openstack-compute'
+
+[[package]]
+channel = 'debian'
+name = 'nova-api'

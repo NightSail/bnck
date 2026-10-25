@@ -1,0 +1,12 @@
+id = 'akonadiconsole'
+name = 'akonadiconsole'
+
+homepage = 'https://invent.kde.org/pim/akonadiconsole'
+
+[[package]]
+channel = 'debian'
+name = 'akonadiconsole'
+
+[[package]]
+channel = 'fedora'
+name = 'akonadiconsole'

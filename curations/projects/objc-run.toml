@@ -1,0 +1,8 @@
+id = 'objc-run'
+name = 'objc-run'
+
+repository = 'https://github.com/iljaiwas/objc-run.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/objc-run'

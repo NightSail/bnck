@@ -1,0 +1,20 @@
+id = 'libpst'
+name = 'libpst'
+
+homepage = 'https://www.five-ten-sg.com/libpst'
+
+[[package]]
+channel = 'arch'
+name = 'libpst'
+
+[[package]]
+channel = 'debian'
+name = 'pst-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libpst'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpst'

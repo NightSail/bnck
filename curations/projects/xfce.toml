@@ -1,0 +1,48 @@
+id = 'xfce'
+name = 'xfce'
+
+homepage = 'http://xfce.org'
+
+[[package]]
+channel = 'fedora'
+name = 'exo'
+
+[[package]]
+channel = 'fedora'
+name = 'libxfce4util'
+
+[[package]]
+channel = 'fedora'
+name = 'orage'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-about'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-appfinder'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-panel'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-session'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-settings'
+
+[[package]]
+channel = 'fedora'
+name = 'xfconf'
+
+[[package]]
+channel = 'fedora'
+name = 'xfdesktop'
+
+[[package]]
+channel = 'fedora'
+name = 'xfwm4'

@@ -1,0 +1,8 @@
+id = 'abnfgen'
+name = 'abnfgen'
+
+homepage = 'https://www.quut.com/abnfgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abnfgen'

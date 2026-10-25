@@ -1,0 +1,12 @@
+id = 'mosdepth'
+name = 'mosdepth'
+
+repository = 'https://github.com/brentp/mosdepth.git'
+
+[[package]]
+channel = 'debian'
+name = 'mosdepth'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mosdepth'

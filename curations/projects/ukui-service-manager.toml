@@ -1,0 +1,8 @@
+id = 'ukui-service-manager'
+name = 'ukui-service-manager'
+
+homepage = 'https://gitee.com/openkylin/ukui-service-manager'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-service-manager'

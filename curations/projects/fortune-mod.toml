@@ -1,0 +1,16 @@
+id = 'fortune-mod'
+name = 'fortune-mod'
+
+homepage = 'https://www.shlomifish.org/open-source/projects/fortune-mod'
+
+[[package]]
+channel = 'arch'
+name = 'fortune-mod'
+
+[[package]]
+channel = 'debian'
+name = 'fortune-mod'
+
+[[package]]
+channel = 'fedora'
+name = 'fortune-mod'

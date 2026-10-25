@@ -1,0 +1,8 @@
+id = 'mosml'
+name = 'mosml'
+
+homepage = 'https://mosml.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mosml'

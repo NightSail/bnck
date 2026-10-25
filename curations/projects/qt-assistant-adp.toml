@@ -1,0 +1,8 @@
+id = 'qt-assistant-adp'
+name = 'qt-assistant-adp'
+
+homepage = 'https://download.qt.io/archive/qt/4.6'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-assistant-adp'

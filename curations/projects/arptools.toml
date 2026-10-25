@@ -1,0 +1,8 @@
+id = 'arptools'
+name = 'arptools'
+
+homepage = 'https://github.com/burghardt/arptools'
+
+[[package]]
+channel = 'fedora'
+name = 'arptools'

@@ -1,0 +1,8 @@
+id = 'libpod-thread-perl'
+name = 'libpod-thread-perl'
+
+homepage = 'https://www.eyrie.org/~eagle/software/pod-thread'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-thread-perl'

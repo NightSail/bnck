@@ -1,0 +1,8 @@
+id = 'ruby-hamlit'
+name = 'ruby-hamlit'
+
+homepage = 'https://github.com/k0kubun/hamlit'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-hamlit'

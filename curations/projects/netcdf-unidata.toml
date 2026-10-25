@@ -1,0 +1,9 @@
+id = 'netcdf-unidata'
+name = 'netcdf'
+
+homepage = 'https://www.unidata.ucar.edu/software/netcdf'
+repository = 'https://github.com/Unidata/netcdf-c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netcdf'

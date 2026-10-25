@@ -1,0 +1,13 @@
+id = 'meek'
+name = 'meek'
+
+homepage = 'https://trac.torproject.org/projects/tor/wiki/doc/meek'
+repository = 'https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek.git'
+
+[[package]]
+channel = 'arch'
+name = 'meek'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/meek'

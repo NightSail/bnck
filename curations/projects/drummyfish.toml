@@ -1,0 +1,12 @@
+id = 'drummyfish'
+name = 'drummyfish'
+
+homepage = 'https://drummyfish.gitlab.io/anarch'
+
+[[package]]
+channel = 'fedora'
+name = 'anarch-CSFML'
+
+[[package]]
+channel = 'fedora'
+name = 'anarch-SDL2'

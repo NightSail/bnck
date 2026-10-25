@@ -1,0 +1,8 @@
+id = 'node-tap-parser'
+name = 'node-tap-parser'
+
+homepage = 'https://github.com/substack/tap-parser'
+
+[[package]]
+channel = 'debian'
+name = 'node-tap-parser'

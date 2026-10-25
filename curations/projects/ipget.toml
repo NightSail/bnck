@@ -1,0 +1,8 @@
+id = 'ipget'
+name = 'ipget'
+
+repository = 'https://github.com/ipfs/ipget.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipget'

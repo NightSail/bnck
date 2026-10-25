@@ -1,0 +1,24 @@
+id = 'dpdk'
+name = 'dpdk'
+
+homepage = 'https://dpdk.org'
+
+[[package]]
+channel = 'arch'
+name = 'dpdk'
+
+[[package]]
+channel = 'debian'
+name = 'dpdk'
+
+[[package]]
+channel = 'debian'
+name = 'dpdk-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'dpdk'
+
+[[package]]
+channel = 'fedora'
+name = 'dpdk-tools'

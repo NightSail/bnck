@@ -1,0 +1,8 @@
+id = 'python3-hexdump'
+name = 'python3-hexdump'
+
+homepage = 'https://bitbucket.com/techtonik/hexdump'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hexdump'

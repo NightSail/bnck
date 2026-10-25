@@ -1,0 +1,12 @@
+id = 'clipman'
+name = 'clipman'
+
+homepage = 'https://github.com/yory8/clipman'
+
+[[package]]
+channel = 'debian'
+name = 'clipman'
+
+[[package]]
+channel = 'fedora'
+name = 'clipman'

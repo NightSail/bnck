@@ -1,0 +1,20 @@
+id = 'dhex'
+name = 'dhex'
+
+homepage = 'https://www.dettus.net/dhex'
+
+[[package]]
+channel = 'arch'
+name = 'dhex'
+
+[[package]]
+channel = 'debian'
+name = 'dhex'
+
+[[package]]
+channel = 'fedora'
+name = 'dhex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhex'

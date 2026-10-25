@@ -1,0 +1,16 @@
+id = 'avr-libc'
+name = 'avr-libc'
+
+homepage = 'https://github.com/avrdudes/avr-libc'
+
+[[package]]
+channel = 'arch'
+name = 'avr-libc'
+
+[[package]]
+channel = 'debian'
+name = 'avr-libc'
+
+[[package]]
+channel = 'fedora'
+name = 'avr-libc'

@@ -1,0 +1,9 @@
+id = 'vowpal-wabbit'
+name = 'vowpal-wabbit'
+
+homepage = 'https://vowpalwabbit.org'
+repository = 'https://github.com/VowpalWabbit/vowpal_wabbit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vowpal-wabbit'

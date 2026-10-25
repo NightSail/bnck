@@ -1,0 +1,12 @@
+id = 'liquidwar'
+name = 'liquidwar'
+
+homepage = 'http://www.ufoot.org/liquidwar/v5'
+
+[[package]]
+channel = 'fedora'
+name = 'liquidwar'
+
+[[package]]
+channel = 'fedora'
+name = 'liquidwar-server'

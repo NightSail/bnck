@@ -1,0 +1,8 @@
+id = 'libbtbb'
+name = 'libbtbb'
+
+repository = 'https://github.com/greatscottgadgets/libbtbb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libbtbb'

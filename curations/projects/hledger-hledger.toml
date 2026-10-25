@@ -1,0 +1,28 @@
+id = 'hledger-hledger'
+name = 'hledger'
+
+homepage = 'http://hledger.org'
+
+[[package]]
+channel = 'arch'
+name = 'hledger'
+
+[[package]]
+channel = 'arch'
+name = 'hledger-ui'
+
+[[package]]
+channel = 'arch'
+name = 'hledger-web'
+
+[[package]]
+channel = 'debian'
+name = 'hledger'
+
+[[package]]
+channel = 'debian'
+name = 'hledger-ui'
+
+[[package]]
+channel = 'debian'
+name = 'hledger-web'

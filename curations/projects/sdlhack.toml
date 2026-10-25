@@ -1,0 +1,8 @@
+id = 'sdlhack'
+name = 'sdlhack'
+
+homepage = 'http://www.jspenguin.org/software/sdlhack'
+
+[[package]]
+channel = 'fedora'
+name = 'sdlhack'

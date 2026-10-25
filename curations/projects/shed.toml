@@ -1,0 +1,8 @@
+id = 'shed'
+name = 'shed'
+
+homepage = 'http://shed.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'shed'

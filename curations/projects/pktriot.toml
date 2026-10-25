@@ -1,0 +1,8 @@
+id = 'pktriot'
+name = 'pktriot'
+
+homepage = 'https://packetriot.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/pktriot'

@@ -1,0 +1,8 @@
+id = 'protoc-gen-go-vtproto'
+name = 'protoc-gen-go-vtproto'
+
+homepage = 'https://github.com/planetscale/vtprotobuf'
+
+[[package]]
+channel = 'debian'
+name = 'protoc-gen-go-vtproto'

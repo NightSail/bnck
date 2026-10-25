@@ -1,0 +1,8 @@
+id = 'yubico-c'
+name = 'yubico-c'
+
+homepage = 'https://github.com/Yubico/yubico-c'
+
+[[package]]
+channel = 'arch'
+name = 'yubico-c'

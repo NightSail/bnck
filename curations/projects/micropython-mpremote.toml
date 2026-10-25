@@ -1,0 +1,8 @@
+id = 'micropython-mpremote'
+name = 'micropython-mpremote'
+
+homepage = 'https://github.com/micropython/micropython'
+
+[[package]]
+channel = 'debian'
+name = 'micropython-mpremote'

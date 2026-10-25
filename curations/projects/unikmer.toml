@@ -1,0 +1,8 @@
+id = 'unikmer'
+name = 'unikmer'
+
+homepage = 'https://github.com/shenwei356/unikmer'
+
+[[package]]
+channel = 'debian'
+name = 'unikmer'

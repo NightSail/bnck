@@ -1,0 +1,8 @@
+id = 'quartz-wm'
+name = 'quartz-wm'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/quartz-wm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quartz-wm'

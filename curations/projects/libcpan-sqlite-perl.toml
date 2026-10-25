@@ -1,0 +1,8 @@
+id = 'libcpan-sqlite-perl'
+name = 'libcpan-sqlite-perl'
+
+homepage = 'https://metacpan.org/release/CPAN-SQLite'
+
+[[package]]
+channel = 'debian'
+name = 'libcpan-sqlite-perl'

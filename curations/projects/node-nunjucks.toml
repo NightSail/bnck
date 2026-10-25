@@ -1,0 +1,8 @@
+id = 'node-nunjucks'
+name = 'node-nunjucks'
+
+homepage = 'https://github.com/mozilla/nunjucks'
+
+[[package]]
+channel = 'debian'
+name = 'node-nunjucks'

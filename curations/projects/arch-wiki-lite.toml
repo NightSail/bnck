@@ -1,0 +1,8 @@
+id = 'arch-wiki-lite'
+name = 'arch-wiki-lite'
+
+homepage = 'https://gitlab.archlinux.org/grawlinson/arch-wiki-lite'
+
+[[package]]
+channel = 'arch'
+name = 'arch-wiki-lite'

@@ -1,0 +1,12 @@
+id = 'ruby-sus'
+name = 'ruby-sus'
+
+homepage = 'https://github.com/socketry/sus'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-sus'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-sus'

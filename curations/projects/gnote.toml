@@ -1,0 +1,16 @@
+id = 'gnote'
+name = 'gnote'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnote/-/wikis/Gnote'
+
+[[package]]
+channel = 'arch'
+name = 'gnote'
+
+[[package]]
+channel = 'debian'
+name = 'gnote'
+
+[[package]]
+channel = 'fedora'
+name = 'gnote'

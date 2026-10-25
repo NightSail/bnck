@@ -1,0 +1,16 @@
+id = 'libpagemaker'
+name = 'libpagemaker'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker'
+
+[[package]]
+channel = 'arch'
+name = 'libpagemaker'
+
+[[package]]
+channel = 'fedora'
+name = 'libpagemaker-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpagemaker'

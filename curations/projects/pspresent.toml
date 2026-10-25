@@ -1,0 +1,8 @@
+id = 'pspresent'
+name = 'pspresent'
+
+homepage = 'https://zmatt.net/pspresent'
+
+[[package]]
+channel = 'debian'
+name = 'pspresent'

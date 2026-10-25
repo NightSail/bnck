@@ -1,0 +1,8 @@
+id = 'dhtest'
+name = 'dhtest'
+
+homepage = 'https://github.com/saravana815/dhtest'
+
+[[package]]
+channel = 'fedora'
+name = 'dhtest'

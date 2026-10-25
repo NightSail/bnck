@@ -1,0 +1,17 @@
+id = 'ntfs-3g'
+name = 'ntfs-3g'
+
+homepage = 'https://github.com/tuxera/ntfs-3g/wiki'
+repository = 'https://github.com/tuxera/ntfs-3g.git'
+
+[[package]]
+channel = 'debian'
+name = 'ntfs-3g'
+
+[[package]]
+channel = 'debian'
+name = 'ntfs-3g-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ntfs-3g'

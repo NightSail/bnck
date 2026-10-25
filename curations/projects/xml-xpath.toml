@@ -1,0 +1,12 @@
+id = 'xml-xpath'
+name = 'XML-XPath'
+
+homepage = 'https://metacpan.org/release/XML-XPath'
+
+[[package]]
+channel = 'debian'
+name = 'libxml-xpath-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-XPath'

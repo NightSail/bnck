@@ -1,0 +1,12 @@
+id = 'wwl'
+name = 'wwl'
+
+homepage = 'http://www.db.net/downloads'
+
+[[package]]
+channel = 'debian'
+name = 'wwl'
+
+[[package]]
+channel = 'fedora'
+name = 'wwl'

@@ -1,0 +1,16 @@
+id = 'geomview'
+name = 'geomview'
+
+homepage = 'http://www.geomview.org'
+
+[[package]]
+channel = 'debian'
+name = 'geomview'
+
+[[package]]
+channel = 'fedora'
+name = 'geomview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geomview'

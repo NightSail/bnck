@@ -1,0 +1,8 @@
+id = 'rapmap'
+name = 'rapmap'
+
+homepage = 'https://github.com/COMBINE-lab/RapMap'
+
+[[package]]
+channel = 'debian'
+name = 'rapmap'

@@ -1,0 +1,8 @@
+id = 'gq'
+name = 'gq'
+
+homepage = 'http://sourceforge.net/projects/gqclient'
+
+[[package]]
+channel = 'fedora'
+name = 'gq'

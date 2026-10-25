@@ -1,0 +1,24 @@
+id = 'fox-toolkit'
+name = 'fox-toolkit'
+
+homepage = 'http://fox-toolkit.org'
+
+[[package]]
+channel = 'arch'
+name = 'fox'
+
+[[package]]
+channel = 'debian'
+name = 'libfox-1.6-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'fox-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'fox-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fox'

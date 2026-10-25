@@ -1,0 +1,8 @@
+id = 'python-sphinx-hawkmoth'
+name = 'python-sphinx-hawkmoth'
+
+homepage = 'https://github.com/jnikula/hawkmoth'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphinx-hawkmoth'

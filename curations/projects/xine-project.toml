@@ -1,0 +1,24 @@
+id = 'xine-project'
+name = 'xine-project'
+
+homepage = 'https://www.xine-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'xine-lib'
+
+[[package]]
+channel = 'arch'
+name = 'xine-ui'
+
+[[package]]
+channel = 'fedora'
+name = 'xine-lib-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'xine-ui'
+
+[[package]]
+channel = 'fedora'
+name = 'xine-ui-aaxine'

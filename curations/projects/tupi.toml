@@ -1,0 +1,8 @@
+id = 'tupi'
+name = 'tupi'
+
+homepage = 'http://www.maefloresta.com/portal'
+
+[[package]]
+channel = 'debian'
+name = 'tupi'

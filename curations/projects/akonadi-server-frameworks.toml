@@ -1,0 +1,8 @@
+id = 'akonadi-server-frameworks'
+name = 'akonadi-server'
+
+homepage = 'https://invent.kde.org/frameworks/akonadi'
+
+[[package]]
+channel = 'fedora'
+name = 'akonadi-server'

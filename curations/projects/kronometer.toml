@@ -1,0 +1,16 @@
+id = 'kronometer'
+name = 'kronometer'
+
+homepage = 'https://apps.kde.org/kronometer'
+
+[[package]]
+channel = 'arch'
+name = 'kronometer'
+
+[[package]]
+channel = 'debian'
+name = 'kronometer'
+
+[[package]]
+channel = 'fedora'
+name = 'kronometer'

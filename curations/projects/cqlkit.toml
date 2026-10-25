@@ -1,0 +1,8 @@
+id = 'cqlkit'
+name = 'cqlkit'
+
+homepage = 'https://github.com/tenmax/cqlkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cqlkit'

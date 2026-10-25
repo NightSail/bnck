@@ -1,0 +1,8 @@
+id = 'postman-cli'
+name = 'postman-cli'
+
+homepage = 'https://www.postman.com/downloads'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/postman-cli'

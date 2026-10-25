@@ -1,0 +1,8 @@
+id = 'spaceman-diff'
+name = 'spaceman-diff'
+
+repository = 'https://github.com/holman/spaceman-diff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spaceman-diff'

@@ -1,0 +1,8 @@
+id = 'sp800-90b-entropy-assessment'
+name = 'sp800-90b-entropy-assessment'
+
+homepage = 'https://csrc.nist.gov/Topics/Security-and-Privacy/cryptography/random-number-generation'
+
+[[package]]
+channel = 'debian'
+name = 'sp800-90b-entropy-assessment'

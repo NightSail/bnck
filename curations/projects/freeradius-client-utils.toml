@@ -1,0 +1,8 @@
+id = 'freeradius-client-utils'
+name = 'freeradius-client-utils'
+
+homepage = 'http://freeradius.org/freeradius-client'
+
+[[package]]
+channel = 'fedora'
+name = 'freeradius-client-utils'

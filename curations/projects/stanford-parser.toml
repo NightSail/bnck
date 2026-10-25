@@ -1,0 +1,8 @@
+id = 'stanford-parser'
+name = 'stanford-parser'
+
+homepage = 'https://nlp.stanford.edu/software/lex-parser.shtml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stanford-parser'

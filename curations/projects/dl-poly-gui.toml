@@ -1,0 +1,8 @@
+id = 'dl-poly-gui'
+name = 'dl_poly-gui'
+
+homepage = 'https://gitlab.com/DL_POLY_Classic'
+
+[[package]]
+channel = 'fedora'
+name = 'dl_poly-gui'

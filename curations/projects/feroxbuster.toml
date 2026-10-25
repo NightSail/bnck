@@ -1,0 +1,8 @@
+id = 'feroxbuster'
+name = 'feroxbuster'
+
+homepage = 'https://epi052.github.io/feroxbuster'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/feroxbuster'

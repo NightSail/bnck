@@ -1,0 +1,9 @@
+id = 'opal'
+name = 'opal'
+
+homepage = 'https://opalrb.com'
+repository = 'https://github.com/opal/opal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opal'

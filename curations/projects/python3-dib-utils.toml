@@ -1,0 +1,8 @@
+id = 'python3-dib-utils'
+name = 'python3-dib-utils'
+
+homepage = 'https://github.com/openstack/dib-utils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dib-utils'

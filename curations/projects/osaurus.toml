@@ -1,0 +1,8 @@
+id = 'osaurus'
+name = 'osaurus'
+
+homepage = 'https://osaurus.ai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/osaurus'

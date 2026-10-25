@@ -1,0 +1,8 @@
+id = 'libnet-async-tangence-perl'
+name = 'libnet-async-tangence-perl'
+
+homepage = 'https://metacpan.org/release/Net-Async-Tangence'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-async-tangence-perl'

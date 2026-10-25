@@ -1,0 +1,12 @@
+id = 'asahi-installer'
+name = 'asahi-installer'
+
+homepage = 'https://github.com/AsahiLinux/asahi-installer'
+
+[[package]]
+channel = 'debian'
+name = 'asahi-fwextract'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-asahi_firmware'

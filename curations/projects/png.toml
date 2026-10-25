@@ -1,0 +1,16 @@
+id = 'png'
+name = 'png'
+
+homepage = 'http://www.libpng.org/pub/png/libpng.html'
+
+[[package]]
+channel = 'arch'
+name = 'libpng'
+
+[[package]]
+channel = 'debian'
+name = 'libpng-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libpng-tools'

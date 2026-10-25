@@ -1,0 +1,9 @@
+id = 'mlt'
+name = 'mlt'
+
+homepage = 'https://www.mltframework.org'
+repository = 'https://github.com/mltframework/mlt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlt'

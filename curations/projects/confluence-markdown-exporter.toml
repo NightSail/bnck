@@ -1,0 +1,8 @@
+id = 'confluence-markdown-exporter'
+name = 'confluence-markdown-exporter'
+
+homepage = 'https://github.com/Spenhouet/confluence-markdown-exporter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/confluence-markdown-exporter'

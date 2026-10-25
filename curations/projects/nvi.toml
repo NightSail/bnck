@@ -1,0 +1,12 @@
+id = 'nvi'
+name = 'nvi'
+
+homepage = 'https://repo.or.cz/nvi.git'
+
+[[package]]
+channel = 'debian'
+name = 'nvi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nvi'

@@ -1,0 +1,8 @@
+id = 'stac-client'
+name = 'stac-client'
+
+homepage = 'https://github.com/stac-utils/pystac-client'
+
+[[package]]
+channel = 'debian'
+name = 'stac-client'

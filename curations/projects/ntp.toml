@@ -1,0 +1,12 @@
+id = 'ntp'
+name = 'ntp'
+
+homepage = 'https://www.ntp.org'
+
+[[package]]
+channel = 'arch'
+name = 'ntp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ntp'

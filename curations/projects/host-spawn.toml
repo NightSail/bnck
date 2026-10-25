@@ -1,0 +1,8 @@
+id = 'host-spawn'
+name = 'host-spawn'
+
+homepage = 'https://github.com/1player/host-spawn'
+
+[[package]]
+channel = 'fedora'
+name = 'host-spawn'

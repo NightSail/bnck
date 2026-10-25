@@ -1,0 +1,8 @@
+id = 'pygac-bin'
+name = 'pygac-bin'
+
+homepage = 'https://github.com/pytroll/pygac'
+
+[[package]]
+channel = 'debian'
+name = 'pygac-bin'

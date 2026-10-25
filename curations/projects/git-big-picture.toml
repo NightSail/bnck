@@ -1,0 +1,12 @@
+id = 'git-big-picture'
+name = 'git-big-picture'
+
+repository = 'https://github.com/git-big-picture/git-big-picture.git'
+
+[[package]]
+channel = 'debian'
+name = 'git-big-picture'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-big-picture'

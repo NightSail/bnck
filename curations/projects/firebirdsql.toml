@@ -1,0 +1,28 @@
+id = 'firebirdsql'
+name = 'firebirdsql'
+
+homepage = 'https://www.firebirdsql.org'
+
+[[package]]
+channel = 'arch'
+name = 'libfbclient'
+
+[[package]]
+channel = 'debian'
+name = 'firebird-dev'
+
+[[package]]
+channel = 'debian'
+name = 'firebird-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'firebird'
+
+[[package]]
+channel = 'fedora'
+name = 'firebird-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'firebird-utils'

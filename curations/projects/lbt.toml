@@ -1,0 +1,8 @@
+id = 'lbt'
+name = 'lbt'
+
+homepage = 'http://www.tcs.hut.fi/Software/maria/tools/lbt'
+
+[[package]]
+channel = 'debian'
+name = 'lbt'

@@ -1,0 +1,14 @@
+id = 'javatools'
+name = 'javatools'
+
+[[package]]
+channel = 'debian'
+name = 'jarwrapper'
+
+[[package]]
+channel = 'debian'
+name = 'java-propose-classpath'
+
+[[package]]
+channel = 'debian'
+name = 'javahelper'

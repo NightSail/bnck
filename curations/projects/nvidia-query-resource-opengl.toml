@@ -1,0 +1,8 @@
+id = 'nvidia-query-resource-opengl'
+name = 'nvidia-query-resource-opengl'
+
+homepage = 'https://github.com/NVIDIA/nvidia-query-resource-opengl'
+
+[[package]]
+channel = 'fedora'
+name = 'nvidia-query-resource-opengl'

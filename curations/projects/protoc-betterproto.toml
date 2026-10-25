@@ -1,0 +1,8 @@
+id = 'protoc-betterproto'
+name = 'protoc-betterproto'
+
+homepage = 'https://github.com/danielgtaylor/python-betterproto'
+
+[[package]]
+channel = 'debian'
+name = 'protoc-betterproto'

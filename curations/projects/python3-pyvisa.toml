@@ -1,0 +1,8 @@
+id = 'python3-pyvisa'
+name = 'python3-pyvisa'
+
+homepage = 'https://pyvisa.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyvisa'

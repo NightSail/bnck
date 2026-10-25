@@ -1,0 +1,8 @@
+id = 'tf-summarize'
+name = 'tf-summarize'
+
+repository = 'https://github.com/dineshba/tf-summarize.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tf-summarize'

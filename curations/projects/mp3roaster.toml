@@ -1,0 +1,8 @@
+id = 'mp3roaster'
+name = 'mp3roaster'
+
+homepage = 'http://mp3roaster.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mp3roaster'

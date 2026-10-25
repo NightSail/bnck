@@ -1,0 +1,8 @@
+id = 'lbcd'
+name = 'lbcd'
+
+homepage = 'https://www.eyrie.org/~eagle/software/lbcd'
+
+[[package]]
+channel = 'debian'
+name = 'lbcd'

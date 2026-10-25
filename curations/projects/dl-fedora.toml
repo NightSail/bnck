@@ -1,0 +1,8 @@
+id = 'dl-fedora'
+name = 'dl-fedora'
+
+homepage = 'https://hackage.haskell.org/package/dl-fedora'
+
+[[package]]
+channel = 'fedora'
+name = 'dl-fedora'

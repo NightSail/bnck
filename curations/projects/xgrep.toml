@@ -1,0 +1,8 @@
+id = 'xgrep'
+name = 'xgrep'
+
+homepage = 'http://www.wohlberg.net/public/software/xml/xgrep'
+
+[[package]]
+channel = 'fedora'
+name = 'xgrep'

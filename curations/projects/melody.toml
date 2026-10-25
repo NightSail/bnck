@@ -1,0 +1,8 @@
+id = 'melody'
+name = 'melody'
+
+homepage = 'https://yoav-lavi.github.io/melody/book'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/melody'

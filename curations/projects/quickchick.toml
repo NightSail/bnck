@@ -1,0 +1,8 @@
+id = 'quickchick'
+name = 'quickchick'
+
+homepage = 'https://github.com/Quickchick/Quickchick'
+
+[[package]]
+channel = 'debian'
+name = 'quickchick'

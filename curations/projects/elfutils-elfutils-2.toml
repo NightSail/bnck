@@ -1,0 +1,8 @@
+id = 'elfutils-elfutils-2'
+name = 'elfutils'
+
+homepage = 'https://fedorahosted.org/elfutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elfutils'

@@ -1,0 +1,12 @@
+id = 'libqmi'
+name = 'libqmi'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/libqmi'
+
+[[package]]
+channel = 'arch'
+name = 'libqmi'
+
+[[package]]
+channel = 'debian'
+name = 'libqmi-utils'

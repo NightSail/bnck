@@ -1,0 +1,8 @@
+id = 'apfs-fuse'
+name = 'apfs-fuse'
+
+homepage = 'https://github.com/sgan81/apfs-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'apfs-fuse'

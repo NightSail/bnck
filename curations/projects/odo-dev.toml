@@ -1,0 +1,9 @@
+id = 'odo-dev'
+name = 'odo-dev'
+
+homepage = 'https://odo.dev'
+repository = 'https://github.com/redhat-developer/odo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/odo-dev'

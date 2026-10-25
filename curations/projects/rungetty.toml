@@ -1,0 +1,8 @@
+id = 'rungetty'
+name = 'rungetty'
+
+homepage = 'https://www.ibiblio.org/pub/Linux/system/serial/getty'
+
+[[package]]
+channel = 'debian'
+name = 'rungetty'

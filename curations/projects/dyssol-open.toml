@@ -1,0 +1,12 @@
+id = 'dyssol-open'
+name = 'dyssol-open'
+
+homepage = 'https://github.com/FlowsheetSimulation/Dyssol-open'
+
+[[package]]
+channel = 'debian'
+name = 'dyssol'
+
+[[package]]
+channel = 'debian'
+name = 'dyssol-gui'

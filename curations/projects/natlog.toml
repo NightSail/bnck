@@ -1,0 +1,8 @@
+id = 'natlog'
+name = 'natlog'
+
+homepage = 'https://fbb-git.gitlab.io/natlog'
+
+[[package]]
+channel = 'debian'
+name = 'natlog'

@@ -1,0 +1,9 @@
+id = 'rqlite'
+name = 'rqlite'
+
+homepage = 'https://www.rqlite.io'
+repository = 'https://github.com/rqlite/rqlite.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rqlite'

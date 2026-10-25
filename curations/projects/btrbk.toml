@@ -1,0 +1,16 @@
+id = 'btrbk'
+name = 'btrbk'
+
+homepage = 'https://github.com/digint/btrbk'
+
+[[package]]
+channel = 'arch'
+name = 'btrbk'
+
+[[package]]
+channel = 'debian'
+name = 'btrbk'
+
+[[package]]
+channel = 'fedora'
+name = 'btrbk'

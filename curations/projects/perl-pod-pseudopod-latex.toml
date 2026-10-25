@@ -1,0 +1,8 @@
+id = 'perl-pod-pseudopod-latex'
+name = 'perl-Pod-PseudoPod-LaTeX'
+
+homepage = 'https://metacpan.org/release/Pod-PseudoPod-LaTeX'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-PseudoPod-LaTeX'

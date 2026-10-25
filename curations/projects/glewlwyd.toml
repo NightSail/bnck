@@ -1,0 +1,8 @@
+id = 'glewlwyd'
+name = 'glewlwyd'
+
+homepage = 'https://github.com/babelouest/glewlwyd'
+
+[[package]]
+channel = 'debian'
+name = 'glewlwyd'

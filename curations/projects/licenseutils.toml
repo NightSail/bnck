@@ -1,0 +1,8 @@
+id = 'licenseutils'
+name = 'licenseutils'
+
+homepage = 'https://sv.gnu.org/p/licenseutils'
+
+[[package]]
+channel = 'debian'
+name = 'licenseutils'

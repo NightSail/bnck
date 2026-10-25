@@ -1,0 +1,32 @@
+id = 'dnsmasq'
+name = 'dnsmasq'
+
+homepage = 'http://www.thekelleys.org.uk/dnsmasq/doc.html'
+
+[[package]]
+channel = 'arch'
+name = 'dnsmasq'
+
+[[package]]
+channel = 'debian'
+name = 'dnsmasq-base'
+
+[[package]]
+channel = 'debian'
+name = 'dnsmasq-base-lua'
+
+[[package]]
+channel = 'debian'
+name = 'dnsmasq-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsmasq'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsmasq-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsmasq'

@@ -1,0 +1,8 @@
+id = 'xfig'
+name = 'xfig'
+
+homepage = 'https://en.wikipedia.org/wiki/Xfig'
+
+[[package]]
+channel = 'fedora'
+name = 'xfig'

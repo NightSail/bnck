@@ -1,0 +1,8 @@
+id = 'nomad'
+name = 'nomad'
+
+homepage = 'https://www.nomadproject.io'
+
+[[package]]
+channel = 'arch'
+name = 'nomad'

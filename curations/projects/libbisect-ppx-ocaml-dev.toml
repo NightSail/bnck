@@ -1,0 +1,8 @@
+id = 'libbisect-ppx-ocaml-dev'
+name = 'libbisect-ppx-ocaml-dev'
+
+homepage = 'https://github.com/aantron/bisect_ppx'
+
+[[package]]
+channel = 'debian'
+name = 'libbisect-ppx-ocaml-dev'

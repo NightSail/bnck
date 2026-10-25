@@ -1,0 +1,12 @@
+id = 'zxcvbn-python'
+name = 'zxcvbn-python'
+
+homepage = 'https://github.com/dwolfhub/zxcvbn-python'
+
+[[package]]
+channel = 'arch'
+name = 'python-zxcvbn'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-zxcvbn'

@@ -1,0 +1,12 @@
+id = 'pgloader'
+name = 'pgloader'
+
+repository = 'https://github.com/dimitri/pgloader.git'
+
+[[package]]
+channel = 'debian'
+name = 'pgloader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgloader'

@@ -1,0 +1,8 @@
+id = 'umtp-responder'
+name = 'umtp-responder'
+
+homepage = 'https://github.com/viveris/uMTP-Responder'
+
+[[package]]
+channel = 'debian'
+name = 'umtp-responder'

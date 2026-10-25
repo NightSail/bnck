@@ -1,0 +1,12 @@
+id = 'dirvish'
+name = 'dirvish'
+
+homepage = 'https://dirvish.org'
+
+[[package]]
+channel = 'debian'
+name = 'dirvish'
+
+[[package]]
+channel = 'fedora'
+name = 'dirvish'

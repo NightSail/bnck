@@ -1,0 +1,16 @@
+id = 'par-packer'
+name = 'PAR-Packer'
+
+homepage = 'https://metacpan.org/release/PAR-Packer'
+
+[[package]]
+channel = 'debian'
+name = 'libpar-packer-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-PAR-Packer'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-PAR-Packer-Tk'

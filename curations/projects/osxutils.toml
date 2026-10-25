@@ -1,0 +1,8 @@
+id = 'osxutils'
+name = 'osxutils'
+
+repository = 'https://github.com/specious/osxutils.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osxutils'

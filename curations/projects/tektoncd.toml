@@ -1,0 +1,12 @@
+id = 'tektoncd'
+name = 'tektoncd'
+
+homepage = 'https://github.com/tektoncd/cli'
+
+[[package]]
+channel = 'arch'
+name = 'tekton-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tektoncd-cli'

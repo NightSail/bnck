@@ -1,0 +1,12 @@
+id = 'milter-greylist'
+name = 'milter-greylist'
+
+homepage = 'http://hcpnet.free.fr/milter-greylist'
+
+[[package]]
+channel = 'debian'
+name = 'milter-greylist'
+
+[[package]]
+channel = 'fedora'
+name = 'milter-greylist'

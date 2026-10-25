@@ -1,0 +1,8 @@
+id = 'terser'
+name = 'terser'
+
+homepage = 'https://terser.org'
+
+[[package]]
+channel = 'debian'
+name = 'terser'

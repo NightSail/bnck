@@ -1,0 +1,8 @@
+id = 'berkeley-express'
+name = 'berkeley-express'
+
+homepage = 'http://bio.math.berkeley.edu/eXpress/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'berkeley-express'

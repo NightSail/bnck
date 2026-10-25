@@ -1,0 +1,8 @@
+id = 'ultimarc'
+name = 'ultimarc'
+
+homepage = 'https://github.com/katie-snow/Ultimarc-linux'
+
+[[package]]
+channel = 'fedora'
+name = 'ultimarc'

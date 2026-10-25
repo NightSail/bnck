@@ -1,0 +1,8 @@
+id = 'bass'
+name = 'bass'
+
+homepage = 'http://revolution.co.uk/games/beneath-a-steel-sky'
+
+[[package]]
+channel = 'arch'
+name = 'bass'

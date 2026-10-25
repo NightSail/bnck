@@ -1,0 +1,12 @@
+id = 'snapd'
+name = 'snapd'
+
+homepage = 'https://github.com/snapcore/snapd'
+
+[[package]]
+channel = 'debian'
+name = 'snapd'
+
+[[package]]
+channel = 'fedora'
+name = 'snapd'

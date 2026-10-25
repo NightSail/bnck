@@ -1,0 +1,6 @@
+id = 'smart-notifier'
+name = 'smart-notifier'
+
+[[package]]
+channel = 'debian'
+name = 'smart-notifier'

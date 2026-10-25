@@ -1,0 +1,8 @@
+id = 'box64'
+name = 'box64'
+
+homepage = 'https://box86.org'
+
+[[package]]
+channel = 'fedora'
+name = 'box64'

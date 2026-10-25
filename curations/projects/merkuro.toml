@@ -1,0 +1,16 @@
+id = 'merkuro'
+name = 'merkuro'
+
+homepage = 'https://apps.kde.org/merkuro'
+
+[[package]]
+channel = 'arch'
+name = 'merkuro'
+
+[[package]]
+channel = 'debian'
+name = 'merkuro'
+
+[[package]]
+channel = 'fedora'
+name = 'merkuro'

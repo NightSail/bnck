@@ -1,0 +1,8 @@
+id = 'python3-grabserial'
+name = 'python3-grabserial'
+
+homepage = 'http://elinux.org/Grabserial'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-grabserial'

@@ -4,5 +4,13 @@ name = 'cage'
 homepage = 'https://github.com/cage-kiosk/cage'
 
 [[package]]
+channel = 'arch'
+name = 'cage'
+
+[[package]]
 channel = 'debian'
+name = 'cage'
+
+[[package]]
+channel = 'fedora'
 name = 'cage'

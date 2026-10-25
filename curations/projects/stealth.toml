@@ -1,0 +1,8 @@
+id = 'stealth'
+name = 'stealth'
+
+homepage = 'https://fbb-git.gitlab.io/stealth'
+
+[[package]]
+channel = 'debian'
+name = 'stealth'

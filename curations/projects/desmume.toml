@@ -1,0 +1,8 @@
+id = 'desmume'
+name = 'desmume'
+
+homepage = 'https://desmume.org'
+
+[[package]]
+channel = 'arch'
+name = 'desmume'

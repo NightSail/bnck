@@ -1,0 +1,16 @@
+id = 'vkmark'
+name = 'vkmark'
+
+homepage = 'https://github.com/vkmark/vkmark'
+
+[[package]]
+channel = 'arch'
+name = 'vkmark'
+
+[[package]]
+channel = 'debian'
+name = 'vkmark'
+
+[[package]]
+channel = 'fedora'
+name = 'vkmark'

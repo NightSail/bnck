@@ -1,0 +1,9 @@
+id = 'charmcraft'
+name = 'charmcraft'
+
+homepage = 'https://charmhub.io'
+repository = 'https://github.com/canonical/charmcraft.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/charmcraft'

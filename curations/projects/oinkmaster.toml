@@ -1,0 +1,8 @@
+id = 'oinkmaster'
+name = 'oinkmaster'
+
+homepage = 'http://oinkmaster.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'oinkmaster'

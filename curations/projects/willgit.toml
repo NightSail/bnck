@@ -1,0 +1,8 @@
+id = 'willgit'
+name = 'willgit'
+
+repository = 'https://github.com/DanielVartanov/willgit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/willgit'

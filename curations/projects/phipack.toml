@@ -1,0 +1,8 @@
+id = 'phipack'
+name = 'phipack'
+
+homepage = 'https://www.maths.otago.ac.nz/~dbryant/software/phimanual.pdf'
+
+[[package]]
+channel = 'debian'
+name = 'phipack'

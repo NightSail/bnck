@@ -1,0 +1,12 @@
+id = 'qconf'
+name = 'qconf'
+
+homepage = 'https://github.com/psi-plus/qconf'
+
+[[package]]
+channel = 'arch'
+name = 'qconf'
+
+[[package]]
+channel = 'debian'
+name = 'qconf'

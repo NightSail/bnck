@@ -1,0 +1,12 @@
+id = 'wazero'
+name = 'wazero'
+
+homepage = 'https://github.com/tetratelabs/wazero'
+
+[[package]]
+channel = 'debian'
+name = 'wazero'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-tetratelabs-wazero'

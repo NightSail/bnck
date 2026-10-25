@@ -1,0 +1,8 @@
+id = 'wolf-shaper-standalone'
+name = 'wolf-shaper-standalone'
+
+homepage = 'https://github.com/pdesaulniers/wolf-shaper'
+
+[[package]]
+channel = 'arch'
+name = 'wolf-shaper-standalone'

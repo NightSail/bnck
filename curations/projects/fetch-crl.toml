@@ -1,0 +1,16 @@
+id = 'fetch-crl'
+name = 'fetch-crl'
+
+homepage = 'https://wiki.nikhef.nl/grid/FetchCRL3'
+
+[[package]]
+channel = 'debian'
+name = 'fetch-crl'
+
+[[package]]
+channel = 'fedora'
+name = 'fetch-crl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fetch-crl'

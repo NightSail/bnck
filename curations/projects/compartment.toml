@@ -1,0 +1,6 @@
+id = 'compartment'
+name = 'compartment'
+
+[[package]]
+channel = 'debian'
+name = 'compartment'

@@ -1,0 +1,8 @@
+id = 'docuum'
+name = 'docuum'
+
+homepage = 'https://github.com/stepchowfun/docuum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docuum'

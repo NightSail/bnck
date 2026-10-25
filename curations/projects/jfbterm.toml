@@ -1,0 +1,8 @@
+id = 'jfbterm'
+name = 'jfbterm'
+
+homepage = 'http://jfbterm.sourceforge.jp'
+
+[[package]]
+channel = 'fedora'
+name = 'jfbterm'

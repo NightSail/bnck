@@ -1,0 +1,25 @@
+id = 'swi-prolog'
+name = 'swi-prolog'
+
+homepage = 'https://www.swi-prolog.org'
+repository = 'https://github.com/SWI-Prolog/swipl-devel.git'
+
+[[package]]
+channel = 'arch'
+name = 'swi-prolog'
+
+[[package]]
+channel = 'debian'
+name = 'swi-prolog-core'
+
+[[package]]
+channel = 'fedora'
+name = 'swi-prolog-core'
+
+[[package]]
+channel = 'fedora'
+name = 'swi-prolog-win'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swi-prolog'

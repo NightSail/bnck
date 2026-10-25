@@ -1,0 +1,8 @@
+id = 'etsf-io'
+name = 'etsf-io'
+
+homepage = 'https://github.com/ElectronicStructureLibrary/libetsf_io'
+
+[[package]]
+channel = 'debian'
+name = 'etsf-io'

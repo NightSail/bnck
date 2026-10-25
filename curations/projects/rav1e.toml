@@ -1,0 +1,21 @@
+id = 'rav1e'
+name = 'rav1e'
+
+homepage = 'https://crates.io/crates/rav1e'
+repository = 'https://github.com/xiph/rav1e.git'
+
+[[package]]
+channel = 'arch'
+name = 'rav1e'
+
+[[package]]
+channel = 'debian'
+name = 'rav1e'
+
+[[package]]
+channel = 'fedora'
+name = 'rav1e'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rav1e'

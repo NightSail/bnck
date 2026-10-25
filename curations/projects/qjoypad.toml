@@ -1,0 +1,8 @@
+id = 'qjoypad'
+name = 'qjoypad'
+
+homepage = 'https://github.com/panzi/qjoypad'
+
+[[package]]
+channel = 'debian'
+name = 'qjoypad'

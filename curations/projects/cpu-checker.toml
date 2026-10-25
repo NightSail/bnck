@@ -1,0 +1,8 @@
+id = 'cpu-checker'
+name = 'cpu-checker'
+
+homepage = 'https://launchpad.net/cpu-checker'
+
+[[package]]
+channel = 'debian'
+name = 'cpu-checker'

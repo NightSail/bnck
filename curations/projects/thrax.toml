@@ -1,0 +1,8 @@
+id = 'thrax'
+name = 'thrax'
+
+homepage = 'https://www.openfst.org/twiki/bin/view/GRM/Thrax'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/thrax'

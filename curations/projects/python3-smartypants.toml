@@ -1,0 +1,8 @@
+id = 'python3-smartypants'
+name = 'python3-smartypants'
+
+homepage = 'https://github.com/leohemsted/smartypants.py'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-smartypants'

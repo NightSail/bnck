@@ -1,0 +1,8 @@
+id = 'btcli'
+name = 'btcli'
+
+homepage = 'https://docs.learnbittensor.org/btcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btcli'

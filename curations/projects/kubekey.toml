@@ -1,0 +1,9 @@
+id = 'kubekey'
+name = 'kubekey'
+
+homepage = 'https://kubesphere.io'
+repository = 'https://github.com/kubesphere/kubekey.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubekey'

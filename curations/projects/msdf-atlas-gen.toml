@@ -1,0 +1,8 @@
+id = 'msdf-atlas-gen'
+name = 'msdf-atlas-gen'
+
+homepage = 'https://github.com/Chlumsky/msdf-atlas-gen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msdf-atlas-gen'

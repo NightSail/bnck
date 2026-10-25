@@ -1,0 +1,8 @@
+id = 'aliddns'
+name = 'aliddns'
+
+repository = 'https://github.com/OpenIoTHub/aliddns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aliddns'

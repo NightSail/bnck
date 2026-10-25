@@ -1,0 +1,12 @@
+id = 'python3-pycec'
+name = 'python3-pycec'
+
+homepage = 'https://github.com/konikvranik/pycec'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pycec'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pycec'

@@ -1,0 +1,12 @@
+id = 'et'
+name = 'et'
+
+homepage = 'https://mistertea.github.io/EternalTerminal'
+
+[[package]]
+channel = 'fedora'
+name = 'et'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/et'

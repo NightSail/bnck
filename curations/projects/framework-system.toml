@@ -1,0 +1,12 @@
+id = 'framework-system'
+name = 'framework-system'
+
+homepage = 'https://github.com/FrameworkComputer/framework-system'
+
+[[package]]
+channel = 'arch'
+name = 'framework-system'
+
+[[package]]
+channel = 'debian'
+name = 'framework-tool'

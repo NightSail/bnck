@@ -1,0 +1,8 @@
+id = 'synchrony'
+name = 'synchrony'
+
+homepage = 'https://deobfuscate.relative.im'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/synchrony'

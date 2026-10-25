@@ -1,0 +1,16 @@
+id = 'gromacs'
+name = 'gromacs'
+
+homepage = 'https://www.gromacs.org'
+
+[[package]]
+channel = 'debian'
+name = 'gromacs'
+
+[[package]]
+channel = 'fedora'
+name = 'gromacs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gromacs'

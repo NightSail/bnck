@@ -1,0 +1,16 @@
+id = 'avra'
+name = 'avra'
+
+homepage = 'https://github.com/Ro5bert/avra'
+
+[[package]]
+channel = 'debian'
+name = 'avra'
+
+[[package]]
+channel = 'fedora'
+name = 'avra'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avra'

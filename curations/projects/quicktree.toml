@@ -1,0 +1,8 @@
+id = 'quicktree'
+name = 'quicktree'
+
+homepage = 'https://github.com/khowe/quicktree'
+
+[[package]]
+channel = 'debian'
+name = 'quicktree'

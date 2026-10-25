@@ -1,0 +1,8 @@
+id = 'cwltool'
+name = 'cwltool'
+
+homepage = 'https://cwltool.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'cwltool'

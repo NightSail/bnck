@@ -1,0 +1,8 @@
+id = 'sprai'
+name = 'sprai'
+
+homepage = 'https://web.archive.org/web/20180316202959/http://zombie.cb.k.u-tokyo.ac.jp/sprai'
+
+[[package]]
+channel = 'debian'
+name = 'sprai'

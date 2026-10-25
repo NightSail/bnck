@@ -1,0 +1,24 @@
+id = 'greetd'
+name = 'greetd'
+
+homepage = 'https://git.sr.ht/~kennylevinsen/greetd'
+
+[[package]]
+channel = 'arch'
+name = 'greetd'
+
+[[package]]
+channel = 'arch'
+name = 'greetd-agreety'
+
+[[package]]
+channel = 'debian'
+name = 'greetd'
+
+[[package]]
+channel = 'fedora'
+name = 'greetd'
+
+[[package]]
+channel = 'fedora'
+name = 'greetd-fakegreet'

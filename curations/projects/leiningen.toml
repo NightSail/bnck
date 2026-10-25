@@ -1,0 +1,17 @@
+id = 'leiningen'
+name = 'leiningen'
+
+homepage = 'https://codeberg.org/leiningen/leiningen'
+repository = 'https://github.com/technomancy/leiningen.git'
+
+[[package]]
+channel = 'arch'
+name = 'leiningen'
+
+[[package]]
+channel = 'debian'
+name = 'leiningen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leiningen'

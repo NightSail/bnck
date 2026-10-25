@@ -1,0 +1,17 @@
+id = 'git-remote-hg'
+name = 'git-remote-hg'
+
+homepage = 'https://github.com/mnauw/git-remote-hg'
+repository = 'https://github.com/felipec/git-remote-hg.git'
+
+[[package]]
+channel = 'debian'
+name = 'git-remote-hg'
+
+[[package]]
+channel = 'fedora'
+name = 'git-remote-hg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-remote-hg'

@@ -1,0 +1,12 @@
+id = 'libewf-legacy'
+name = 'libewf-legacy'
+
+homepage = 'https://github.com/libyal/libewf-legacy'
+
+[[package]]
+channel = 'arch'
+name = 'libewf'
+
+[[package]]
+channel = 'debian'
+name = 'ewf-tools'

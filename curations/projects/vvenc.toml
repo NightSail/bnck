@@ -1,0 +1,9 @@
+id = 'vvenc'
+name = 'vvenc'
+
+homepage = 'https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html'
+repository = 'https://github.com/fraunhoferhhi/vvenc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vvenc'

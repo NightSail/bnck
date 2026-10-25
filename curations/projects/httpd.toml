@@ -1,0 +1,36 @@
+id = 'httpd'
+name = 'httpd'
+
+homepage = 'https://httpd.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'apache2'
+
+[[package]]
+channel = 'debian'
+name = 'apache2-bin'
+
+[[package]]
+channel = 'debian'
+name = 'apache2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'apache2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'httpd-core'
+
+[[package]]
+channel = 'fedora'
+name = 'httpd-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'httpd-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpd'

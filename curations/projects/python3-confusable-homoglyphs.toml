@@ -1,0 +1,8 @@
+id = 'python3-confusable-homoglyphs'
+name = 'python3-confusable-homoglyphs'
+
+homepage = 'https://github.com/vhf/confusable_homoglyphs'
+
+[[package]]
+channel = 'debian'
+name = 'python3-confusable-homoglyphs'

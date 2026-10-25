@@ -1,0 +1,12 @@
+id = 'pycdlib'
+name = 'pycdlib'
+
+homepage = 'http://github.com/clalancette/pycdlib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pycdlib'
+
+[[package]]
+channel = 'fedora'
+name = 'pycdlib-tools'

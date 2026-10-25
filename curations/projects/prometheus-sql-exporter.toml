@@ -1,0 +1,8 @@
+id = 'prometheus-sql-exporter'
+name = 'prometheus-sql-exporter'
+
+homepage = 'https://github.com/justwatchcom/sql_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-sql-exporter'

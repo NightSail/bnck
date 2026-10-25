@@ -1,0 +1,17 @@
+id = 'mrbayes'
+name = 'mrbayes'
+
+homepage = 'http://mrbayes.csit.fsu.edu'
+repository = 'https://github.com/NBISweden/MrBayes.git'
+
+[[package]]
+channel = 'debian'
+name = 'mrbayes'
+
+[[package]]
+channel = 'debian'
+name = 'mrbayes-mpi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mrbayes'

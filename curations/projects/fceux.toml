@@ -1,0 +1,13 @@
+id = 'fceux'
+name = 'fceux'
+
+homepage = 'https://fceux.com'
+repository = 'https://github.com/TASEmulators/fceux.git'
+
+[[package]]
+channel = 'arch'
+name = 'fceux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fceux'

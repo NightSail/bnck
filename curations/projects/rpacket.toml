@@ -1,0 +1,12 @@
+id = 'rpacket'
+name = 'rpacket'
+
+homepage = 'https://codeberg.org/heiko/rpacket'
+
+[[package]]
+channel = 'arch'
+name = 'rpacket'
+
+[[package]]
+channel = 'debian'
+name = 'rpacket'

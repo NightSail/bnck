@@ -1,0 +1,9 @@
+id = 'netatalk-netatalk-2'
+name = 'netatalk'
+
+homepage = 'https://netatalk.io'
+repository = 'https://github.com/Netatalk/netatalk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netatalk'

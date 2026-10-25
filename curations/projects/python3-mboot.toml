@@ -1,0 +1,8 @@
+id = 'python3-mboot'
+name = 'python3-mboot'
+
+homepage = 'https://github.com/molejar/pyMBoot'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mboot'

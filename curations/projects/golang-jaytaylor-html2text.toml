@@ -1,0 +1,8 @@
+id = 'golang-jaytaylor-html2text'
+name = 'golang-jaytaylor-html2text'
+
+homepage = 'https://github.com/jaytaylor/html2text'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-jaytaylor-html2text'

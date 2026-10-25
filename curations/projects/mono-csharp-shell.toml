@@ -1,0 +1,8 @@
+id = 'mono-csharp-shell'
+name = 'mono-csharp-shell'
+
+homepage = 'http://www.mono-project.com/CsharpRepl'
+
+[[package]]
+channel = 'debian'
+name = 'mono-csharp-shell'

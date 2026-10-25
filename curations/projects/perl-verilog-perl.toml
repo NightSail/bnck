@@ -1,0 +1,8 @@
+id = 'perl-verilog-perl'
+name = 'perl-Verilog-Perl'
+
+homepage = 'http://www.veripool.org/wiki/verilog-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Verilog-Perl'

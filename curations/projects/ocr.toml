@@ -1,0 +1,12 @@
+id = 'ocr'
+name = 'ocr'
+
+homepage = 'https://www-e.uni-magdeburg.de/jschulen/ocr'
+
+[[package]]
+channel = 'debian'
+name = 'gocr'
+
+[[package]]
+channel = 'debian'
+name = 'gocr-tk'

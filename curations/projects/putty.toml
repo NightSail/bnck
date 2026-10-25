@@ -1,0 +1,20 @@
+id = 'putty'
+name = 'putty'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/putty'
+
+[[package]]
+channel = 'debian'
+name = 'pterm'
+
+[[package]]
+channel = 'debian'
+name = 'putty'
+
+[[package]]
+channel = 'debian'
+name = 'putty-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'putty'

@@ -1,0 +1,12 @@
+id = 'datovka'
+name = 'datovka'
+
+homepage = 'https://www.datovka.cz'
+
+[[package]]
+channel = 'arch'
+name = 'datovka'
+
+[[package]]
+channel = 'fedora'
+name = 'datovka'

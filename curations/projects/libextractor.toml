@@ -1,0 +1,20 @@
+id = 'libextractor'
+name = 'libextractor'
+
+homepage = 'https://www.gnu.org/software/libextractor'
+
+[[package]]
+channel = 'arch'
+name = 'libextractor'
+
+[[package]]
+channel = 'debian'
+name = 'extract'
+
+[[package]]
+channel = 'fedora'
+name = 'libextractor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libextractor'

@@ -1,0 +1,16 @@
+id = 'bemenu'
+name = 'bemenu'
+
+homepage = 'https://github.com/Cloudef/bemenu'
+
+[[package]]
+channel = 'arch'
+name = 'bemenu'
+
+[[package]]
+channel = 'debian'
+name = 'bemenu'
+
+[[package]]
+channel = 'fedora'
+name = 'bemenu'

@@ -1,0 +1,8 @@
+id = 'stampdalf'
+name = 'stampdalf'
+
+homepage = 'https://github.com/89luca89/stampdalf'
+
+[[package]]
+channel = 'arch'
+name = 'stampdalf'

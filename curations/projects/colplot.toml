@@ -1,0 +1,8 @@
+id = 'colplot'
+name = 'colplot'
+
+homepage = 'http://collectl-utils.sourceforge.net/colplot.html'
+
+[[package]]
+channel = 'debian'
+name = 'colplot'

@@ -1,0 +1,8 @@
+id = 'clex'
+name = 'clex'
+
+homepage = 'http://www.clex.sk'
+
+[[package]]
+channel = 'debian'
+name = 'clex'

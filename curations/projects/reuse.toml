@@ -1,0 +1,21 @@
+id = 'reuse'
+name = 'reuse'
+
+homepage = 'https://reuse.software'
+repository = 'https://github.com/fsfe/reuse-tool.git'
+
+[[package]]
+channel = 'arch'
+name = 'reuse'
+
+[[package]]
+channel = 'debian'
+name = 'reuse'
+
+[[package]]
+channel = 'fedora'
+name = 'reuse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reuse'

@@ -1,0 +1,8 @@
+id = 'xininfo'
+name = 'xininfo'
+
+homepage = 'https://github.com/DaveDavenport/xininfo'
+
+[[package]]
+channel = 'debian'
+name = 'xininfo'

@@ -1,0 +1,8 @@
+id = 'python3-pydle'
+name = 'python3-pydle'
+
+homepage = 'https://github.com/Shizmob/pydle'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pydle'

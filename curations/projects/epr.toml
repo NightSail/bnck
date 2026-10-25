@@ -1,0 +1,8 @@
+id = 'epr'
+name = 'epr'
+
+repository = 'https://github.com/wustho/epr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epr'

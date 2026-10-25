@@ -1,0 +1,12 @@
+id = 'libxcvt'
+name = 'libxcvt'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/lib/libxcvt'
+
+[[package]]
+channel = 'arch'
+name = 'libxcvt'
+
+[[package]]
+channel = 'fedora'
+name = 'cvt'

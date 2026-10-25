@@ -1,0 +1,9 @@
+id = 'railway'
+name = 'railway'
+
+homepage = 'https://railway.com'
+repository = 'https://github.com/railwayapp/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/railway'

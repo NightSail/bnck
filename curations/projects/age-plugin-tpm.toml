@@ -1,0 +1,12 @@
+id = 'age-plugin-tpm'
+name = 'age-plugin-tpm'
+
+homepage = 'https://github.com/Foxboron/age-plugin-tpm'
+
+[[package]]
+channel = 'arch'
+name = 'age-plugin-tpm'
+
+[[package]]
+channel = 'debian'
+name = 'age-plugin-tpm'

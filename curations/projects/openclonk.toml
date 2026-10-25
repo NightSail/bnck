@@ -1,0 +1,8 @@
+id = 'openclonk'
+name = 'openclonk'
+
+homepage = 'https://www.openclonk.org'
+
+[[package]]
+channel = 'debian'
+name = 'openclonk'

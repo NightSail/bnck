@@ -1,0 +1,8 @@
+id = 'cc-switch-cli'
+name = 'cc-switch-cli'
+
+repository = 'https://github.com/SaladDay/cc-switch-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cc-switch-cli'

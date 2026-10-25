@@ -1,0 +1,8 @@
+id = 'gentle'
+name = 'gentle'
+
+homepage = 'http://gentle.magnusmanske.de'
+
+[[package]]
+channel = 'debian'
+name = 'gentle'

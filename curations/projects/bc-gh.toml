@@ -1,0 +1,8 @@
+id = 'bc-gh'
+name = 'bc-gh'
+
+repository = 'https://github.com/gavinhoward/bc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bc-gh'

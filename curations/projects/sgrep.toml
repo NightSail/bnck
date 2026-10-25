@@ -1,0 +1,8 @@
+id = 'sgrep'
+name = 'sgrep'
+
+homepage = 'https://www.cs.helsinki.fi/u/jjaakkol/sgrep.html'
+
+[[package]]
+channel = 'debian'
+name = 'sgrep'

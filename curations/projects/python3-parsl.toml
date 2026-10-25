@@ -1,0 +1,8 @@
+id = 'python3-parsl'
+name = 'python3-parsl'
+
+homepage = 'https://github.com/Parsl/parsl'
+
+[[package]]
+channel = 'debian'
+name = 'python3-parsl'

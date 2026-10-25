@@ -1,0 +1,12 @@
+id = 'puddletag'
+name = 'puddletag'
+
+homepage = 'https://docs.puddletag.net'
+
+[[package]]
+channel = 'debian'
+name = 'puddletag'
+
+[[package]]
+channel = 'fedora'
+name = 'puddletag'

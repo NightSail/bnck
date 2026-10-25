@@ -1,0 +1,8 @@
+id = 'docbook-to-man'
+name = 'docbook-to-man'
+
+homepage = 'https://www.oasis-open.org/docbook/tools/dtm'
+
+[[package]]
+channel = 'debian'
+name = 'docbook-to-man'

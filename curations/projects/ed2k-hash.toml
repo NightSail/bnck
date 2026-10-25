@@ -1,0 +1,8 @@
+id = 'ed2k-hash'
+name = 'ed2k-hash'
+
+homepage = 'http://ed2k-tools.sourceforge.net/ed2k_hash.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'ed2k-hash'

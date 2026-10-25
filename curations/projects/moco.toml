@@ -1,0 +1,8 @@
+id = 'moco'
+name = 'moco'
+
+homepage = 'https://github.com/dreamhead/moco'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moco'

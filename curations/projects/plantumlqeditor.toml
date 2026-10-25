@@ -1,0 +1,8 @@
+id = 'plantumlqeditor'
+name = 'plantumlqeditor'
+
+homepage = 'https://sourceforge.net/projects/plantumlqeditor'
+
+[[package]]
+channel = 'fedora'
+name = 'plantumlqeditor'

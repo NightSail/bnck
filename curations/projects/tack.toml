@@ -1,0 +1,12 @@
+id = 'tack'
+name = 'tack'
+
+homepage = 'https://invisible-island.net/ncurses/tack.html'
+
+[[package]]
+channel = 'debian'
+name = 'tack'
+
+[[package]]
+channel = 'fedora'
+name = 'tack'

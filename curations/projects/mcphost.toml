@@ -1,0 +1,8 @@
+id = 'mcphost'
+name = 'mcphost'
+
+repository = 'https://github.com/mark3labs/mcphost.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcphost'

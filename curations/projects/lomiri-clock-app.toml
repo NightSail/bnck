@@ -1,0 +1,8 @@
+id = 'lomiri-clock-app'
+name = 'lomiri-clock-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-clock-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-clock-app'

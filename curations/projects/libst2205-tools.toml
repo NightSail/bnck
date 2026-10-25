@@ -1,0 +1,8 @@
+id = 'libst2205-tools'
+name = 'libst2205-tools'
+
+homepage = 'http://picframe.spritesserver.nl/wiki/index.php'
+
+[[package]]
+channel = 'fedora'
+name = 'libst2205-tools'

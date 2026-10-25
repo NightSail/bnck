@@ -1,0 +1,8 @@
+id = 'ruby-zentest'
+name = 'ruby-zentest'
+
+homepage = 'https://github.com/seattlerb/zentest'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-zentest'

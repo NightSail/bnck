@@ -1,0 +1,8 @@
+id = 'cutesv'
+name = 'cutesv'
+
+homepage = 'https://github.com/tjiangHIT/cuteSV'
+
+[[package]]
+channel = 'debian'
+name = 'cutesv'

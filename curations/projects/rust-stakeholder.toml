@@ -1,0 +1,8 @@
+id = 'rust-stakeholder'
+name = 'rust-stakeholder'
+
+homepage = 'https://github.com/giacomo-b/rust-stakeholder'
+
+[[package]]
+channel = 'debian'
+name = 'rust-stakeholder'

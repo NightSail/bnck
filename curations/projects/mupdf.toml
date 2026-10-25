@@ -1,0 +1,37 @@
+id = 'mupdf'
+name = 'mupdf'
+
+homepage = 'https://mupdf.com'
+repository = 'git://git.ghostscript.com/mupdf.git'
+
+[[package]]
+channel = 'arch'
+name = 'mupdf'
+
+[[package]]
+channel = 'arch'
+name = 'mupdf-gl'
+
+[[package]]
+channel = 'arch'
+name = 'mupdf-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mupdf'
+
+[[package]]
+channel = 'debian'
+name = 'mupdf-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mupdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mupdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mupdf-tools'

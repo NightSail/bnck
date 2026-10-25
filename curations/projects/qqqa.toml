@@ -1,0 +1,8 @@
+id = 'qqqa'
+name = 'qqqa'
+
+repository = 'https://github.com/iagooar/qqqa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qqqa'

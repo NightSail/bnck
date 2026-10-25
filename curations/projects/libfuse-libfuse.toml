@@ -1,0 +1,8 @@
+id = 'libfuse-libfuse'
+name = 'libfuse'
+
+repository = 'https://github.com/libfuse/libfuse.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfuse'

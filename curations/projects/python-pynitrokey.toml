@@ -1,0 +1,8 @@
+id = 'python-pynitrokey'
+name = 'python-pynitrokey'
+
+homepage = 'https://github.com/Nitrokey/pynitrokey'
+
+[[package]]
+channel = 'arch'
+name = 'python-pynitrokey'

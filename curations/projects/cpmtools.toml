@@ -1,0 +1,16 @@
+id = 'cpmtools'
+name = 'cpmtools'
+
+homepage = 'http://www.moria.de/~michael/cpmtools'
+
+[[package]]
+channel = 'debian'
+name = 'cpmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'cpmtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpmtools'

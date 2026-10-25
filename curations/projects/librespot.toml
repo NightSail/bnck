@@ -1,0 +1,12 @@
+id = 'librespot'
+name = 'librespot'
+
+repository = 'https://github.com/librespot-org/librespot.git'
+
+[[package]]
+channel = 'arch'
+name = 'librespot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librespot'

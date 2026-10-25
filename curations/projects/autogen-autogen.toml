@@ -1,0 +1,8 @@
+id = 'autogen-autogen'
+name = 'autogen'
+
+homepage = 'https://autogen.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autogen'

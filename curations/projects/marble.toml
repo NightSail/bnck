@@ -1,0 +1,36 @@
+id = 'marble'
+name = 'marble'
+
+homepage = 'https://apps.kde.org/marble'
+
+[[package]]
+channel = 'arch'
+name = 'marble'
+
+[[package]]
+channel = 'arch'
+name = 'marble-qt'
+
+[[package]]
+channel = 'debian'
+name = 'marble'
+
+[[package]]
+channel = 'debian'
+name = 'marble-behaim'
+
+[[package]]
+channel = 'debian'
+name = 'marble-maps'
+
+[[package]]
+channel = 'debian'
+name = 'marble-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'marble'
+
+[[package]]
+channel = 'fedora'
+name = 'marble-qt'

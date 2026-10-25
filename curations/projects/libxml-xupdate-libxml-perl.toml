@@ -1,0 +1,8 @@
+id = 'libxml-xupdate-libxml-perl'
+name = 'libxml-xupdate-libxml-perl'
+
+homepage = 'http://search.cpan.org/~pajas/XML-XUpdate-LibXML'
+
+[[package]]
+channel = 'debian'
+name = 'libxml-xupdate-libxml-perl'

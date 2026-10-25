@@ -1,0 +1,12 @@
+id = 'ruby-hoe'
+name = 'ruby-hoe'
+
+homepage = 'https://www.zenspider.com/projects/hoe.html'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-hoe'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-hoe'

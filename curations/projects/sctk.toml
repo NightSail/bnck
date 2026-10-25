@@ -1,0 +1,8 @@
+id = 'sctk'
+name = 'sctk'
+
+homepage = 'https://www.nist.gov/itl/iad/mig/tools.cfm'
+
+[[package]]
+channel = 'debian'
+name = 'sctk'

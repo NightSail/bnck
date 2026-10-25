@@ -1,0 +1,6 @@
+id = 'rng-tools-debian'
+name = 'rng-tools-debian'
+
+[[package]]
+channel = 'debian'
+name = 'rng-tools-debian'

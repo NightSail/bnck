@@ -1,0 +1,8 @@
+id = 'btm'
+name = 'btm'
+
+repository = 'https://github.com/rust-util-collections/btm'
+
+[[package]]
+channel = 'crates.io'
+name = 'btm'

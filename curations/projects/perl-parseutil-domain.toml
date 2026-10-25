@@ -1,0 +1,8 @@
+id = 'perl-parseutil-domain'
+name = 'perl-ParseUtil-Domain'
+
+homepage = 'https://metacpan.org/release/ParseUtil-Domain'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-ParseUtil-Domain'

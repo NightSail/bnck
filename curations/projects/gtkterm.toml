@@ -1,0 +1,12 @@
+id = 'gtkterm'
+name = 'gtkterm'
+
+homepage = 'https://github.com/wvdakker/gtkterm'
+
+[[package]]
+channel = 'debian'
+name = 'gtkterm'
+
+[[package]]
+channel = 'fedora'
+name = 'gtkterm'

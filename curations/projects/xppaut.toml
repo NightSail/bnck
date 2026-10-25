@@ -1,0 +1,6 @@
+id = 'xppaut'
+name = 'xppaut'
+
+[[package]]
+channel = 'debian'
+name = 'xppaut'

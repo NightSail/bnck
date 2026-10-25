@@ -1,0 +1,8 @@
+id = 'kthresher'
+name = 'kthresher'
+
+homepage = 'https://github.com/rackerlabs/kthresher'
+
+[[package]]
+channel = 'debian'
+name = 'kthresher'

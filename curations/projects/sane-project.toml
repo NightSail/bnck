@@ -1,0 +1,28 @@
+id = 'sane-project'
+name = 'sane-project'
+
+homepage = 'http://www.sane-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'sane'
+
+[[package]]
+channel = 'debian'
+name = 'sane-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'sane-backends'
+
+[[package]]
+channel = 'fedora'
+name = 'sane-backends-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'sane-backends-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'sane-frontends'

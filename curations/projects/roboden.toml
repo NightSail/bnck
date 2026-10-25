@@ -1,0 +1,8 @@
+id = 'roboden'
+name = 'roboden'
+
+homepage = 'https://github.com/quasilyte/roboden-game'
+
+[[package]]
+channel = 'arch'
+name = 'roboden'

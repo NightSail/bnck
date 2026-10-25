@@ -1,0 +1,12 @@
+id = 'ixion'
+name = 'ixion'
+
+homepage = 'https://gitlab.com/ixion/ixion'
+
+[[package]]
+channel = 'arch'
+name = 'libixion'
+
+[[package]]
+channel = 'fedora'
+name = 'libixion-tools'

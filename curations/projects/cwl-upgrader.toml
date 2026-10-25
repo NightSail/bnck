@@ -1,0 +1,8 @@
+id = 'cwl-upgrader'
+name = 'cwl-upgrader'
+
+homepage = 'https://github.com/common-workflow-language/cwl-upgrader'
+
+[[package]]
+channel = 'debian'
+name = 'cwl-upgrader'

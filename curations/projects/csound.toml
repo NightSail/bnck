@@ -1,0 +1,21 @@
+id = 'csound'
+name = 'csound'
+
+homepage = 'https://csound.com'
+repository = 'https://github.com/csound/csound.git'
+
+[[package]]
+channel = 'arch'
+name = 'csound'
+
+[[package]]
+channel = 'debian'
+name = 'csound'
+
+[[package]]
+channel = 'debian'
+name = 'csound-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csound'

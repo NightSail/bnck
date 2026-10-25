@@ -1,0 +1,12 @@
+id = 'cargo-run-bin'
+name = 'cargo-run-bin'
+
+homepage = 'https://dustinblackman.com/posts/why-does-everyone-install-crates-globally'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-run-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-run-bin'

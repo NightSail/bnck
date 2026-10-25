@@ -1,0 +1,8 @@
+id = 'otty'
+name = 'otty'
+
+homepage = 'https://otty.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/otty'

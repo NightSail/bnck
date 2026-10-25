@@ -1,0 +1,8 @@
+id = 'amqtt'
+name = 'amqtt'
+
+homepage = 'https://github.com/Yakifo/amqtt'
+
+[[package]]
+channel = 'debian'
+name = 'amqtt'

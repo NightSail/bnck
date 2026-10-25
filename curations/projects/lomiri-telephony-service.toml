@@ -1,0 +1,6 @@
+id = 'lomiri-telephony-service'
+name = 'lomiri-telephony-service'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-telephony-service'

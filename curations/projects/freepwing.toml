@@ -1,0 +1,6 @@
+id = 'freepwing'
+name = 'freepwing'
+
+[[package]]
+channel = 'debian'
+name = 'freepwing'

@@ -1,0 +1,8 @@
+id = 'gshutdown'
+name = 'gshutdown'
+
+homepage = 'http://gshutdown.tuxfamily.org'
+
+[[package]]
+channel = 'fedora'
+name = 'gshutdown'

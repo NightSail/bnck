@@ -1,0 +1,16 @@
+id = 'prosody'
+name = 'prosody'
+
+homepage = 'https://prosody.im'
+
+[[package]]
+channel = 'arch'
+name = 'prosody'
+
+[[package]]
+channel = 'debian'
+name = 'prosody'
+
+[[package]]
+channel = 'fedora'
+name = 'prosody'

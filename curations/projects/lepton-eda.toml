@@ -1,0 +1,8 @@
+id = 'lepton-eda'
+name = 'lepton-eda'
+
+homepage = 'https://github.com/lepton-eda'
+
+[[package]]
+channel = 'debian'
+name = 'lepton-eda'

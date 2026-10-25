@@ -1,0 +1,8 @@
+id = 'liblo-tools'
+name = 'liblo-tools'
+
+homepage = 'https://github.com/radarsat1/liblo'
+
+[[package]]
+channel = 'debian'
+name = 'liblo-tools'

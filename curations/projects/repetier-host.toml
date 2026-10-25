@@ -1,0 +1,8 @@
+id = 'repetier-host'
+name = 'repetier-host'
+
+homepage = 'http://www.repetier.com'
+
+[[package]]
+channel = 'debian'
+name = 'repetier-host'

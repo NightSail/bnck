@@ -1,0 +1,12 @@
+id = 'orc-orc'
+name = 'orc'
+
+homepage = 'https://orc.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'apache-orc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/orc-tools'

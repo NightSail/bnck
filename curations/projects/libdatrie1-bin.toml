@@ -1,0 +1,8 @@
+id = 'libdatrie1-bin'
+name = 'libdatrie1-bin'
+
+homepage = 'https://linux.thai.net/projects/libthai'
+
+[[package]]
+channel = 'debian'
+name = 'libdatrie1-bin'

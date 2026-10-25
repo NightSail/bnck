@@ -1,0 +1,8 @@
+id = 'optimage'
+name = 'optimage'
+
+homepage = 'https://optimage.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/optimage'

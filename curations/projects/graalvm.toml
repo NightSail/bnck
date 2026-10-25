@@ -1,0 +1,8 @@
+id = 'graalvm'
+name = 'graalvm'
+
+homepage = 'https://www.graalvm.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graalvm'

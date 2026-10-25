@@ -1,0 +1,16 @@
+id = 'variety'
+name = 'variety'
+
+homepage = 'https://peterlevi.com/variety'
+
+[[package]]
+channel = 'arch'
+name = 'variety'
+
+[[package]]
+channel = 'debian'
+name = 'variety'
+
+[[package]]
+channel = 'fedora'
+name = 'variety'

@@ -1,0 +1,8 @@
+id = 'textpieces'
+name = 'textpieces'
+
+homepage = 'https://apps.gnome.org/TextPieces'
+
+[[package]]
+channel = 'arch'
+name = 'textpieces'

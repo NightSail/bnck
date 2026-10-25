@@ -1,0 +1,6 @@
+id = 'wsjtx-improved'
+name = 'wsjtx-improved'
+
+[[package]]
+channel = 'debian'
+name = 'wsjtx-improved'

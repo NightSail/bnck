@@ -1,0 +1,8 @@
+id = 'ricochet'
+name = 'ricochet'
+
+homepage = 'https://ricochet.im'
+
+[[package]]
+channel = 'fedora'
+name = 'ricochet'

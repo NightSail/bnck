@@ -1,0 +1,8 @@
+id = 'libbio-primerdesigner-perl'
+name = 'libbio-primerdesigner-perl'
+
+homepage = 'https://metacpan.org/release/Bio-PrimerDesigner'
+
+[[package]]
+channel = 'debian'
+name = 'libbio-primerdesigner-perl'

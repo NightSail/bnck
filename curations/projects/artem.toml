@@ -1,0 +1,8 @@
+id = 'artem'
+name = 'artem'
+
+homepage = 'https://github.com/finefindus/artem'
+
+[[package]]
+channel = 'arch'
+name = 'artem'

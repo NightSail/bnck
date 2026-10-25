@@ -1,0 +1,44 @@
+id = 'tiger-vnc'
+name = 'tiger-vnc'
+
+homepage = 'https://www.tigervnc.org'
+
+[[package]]
+channel = 'arch'
+name = 'tigervnc'
+
+[[package]]
+channel = 'debian'
+name = 'tigervnc-common'
+
+[[package]]
+channel = 'debian'
+name = 'tigervnc-scraping-server'
+
+[[package]]
+channel = 'debian'
+name = 'tigervnc-standalone-server'
+
+[[package]]
+channel = 'debian'
+name = 'tigervnc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'tigervnc-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'tigervnc'
+
+[[package]]
+channel = 'fedora'
+name = 'tigervnc-server'
+
+[[package]]
+channel = 'fedora'
+name = 'tigervnc-server-minimal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tiger-vnc'

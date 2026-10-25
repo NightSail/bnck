@@ -1,0 +1,16 @@
+id = 'schedtool'
+name = 'schedtool'
+
+homepage = 'https://github.com/freequaos/schedtool'
+
+[[package]]
+channel = 'arch'
+name = 'schedtool'
+
+[[package]]
+channel = 'debian'
+name = 'schedtool'
+
+[[package]]
+channel = 'fedora'
+name = 'schedtool'

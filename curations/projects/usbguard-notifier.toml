@@ -1,0 +1,12 @@
+id = 'usbguard-notifier'
+name = 'usbguard-notifier'
+
+homepage = 'https://github.com/Cropi/usbguard-notifier'
+
+[[package]]
+channel = 'debian'
+name = 'usbguard-notifier'
+
+[[package]]
+channel = 'fedora'
+name = 'usbguard-notifier'

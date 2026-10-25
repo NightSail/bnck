@@ -1,0 +1,8 @@
+id = 'praelector'
+name = 'praelector'
+
+homepage = 'https://www.collatinus.org/programmes.htm'
+
+[[package]]
+channel = 'debian'
+name = 'praelector'

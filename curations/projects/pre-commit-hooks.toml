@@ -1,0 +1,6 @@
+id = 'pre-commit-hooks'
+name = 'pre-commit-hooks'
+
+[[package]]
+channel = 'debian'
+name = 'pre-commit-hooks'

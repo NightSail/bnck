@@ -1,0 +1,8 @@
+id = 'mmsrip'
+name = 'mmsrip'
+
+homepage = 'https://nbenoit.tuxfamily.org/projects.php'
+
+[[package]]
+channel = 'arch'
+name = 'mmsrip'

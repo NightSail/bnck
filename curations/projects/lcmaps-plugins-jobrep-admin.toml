@@ -1,0 +1,8 @@
+id = 'lcmaps-plugins-jobrep-admin'
+name = 'lcmaps-plugins-jobrep-admin'
+
+homepage = 'https://wiki.nikhef.nl/grid/LCMAPS'
+
+[[package]]
+channel = 'debian'
+name = 'lcmaps-plugins-jobrep-admin'

@@ -1,0 +1,12 @@
+id = 'goxel'
+name = 'goxel'
+
+homepage = 'https://goxel.xyz'
+
+[[package]]
+channel = 'arch'
+name = 'goxel'
+
+[[package]]
+channel = 'debian'
+name = 'goxel'

@@ -1,0 +1,8 @@
+id = 'sourcegit'
+name = 'sourcegit'
+
+homepage = 'https://github.com/sourcegit-scm/sourcegit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sourcegit'

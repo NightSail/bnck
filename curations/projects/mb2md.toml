@@ -1,0 +1,16 @@
+id = 'mb2md'
+name = 'mb2md'
+
+homepage = 'http://batleth.sapienti-sat.org/projects/mb2md'
+
+[[package]]
+channel = 'arch'
+name = 'mb2md'
+
+[[package]]
+channel = 'debian'
+name = 'mb2md'
+
+[[package]]
+channel = 'fedora'
+name = 'mb2md'

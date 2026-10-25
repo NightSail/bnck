@@ -1,0 +1,8 @@
+id = 'kanboard'
+name = 'kanboard'
+
+homepage = 'https://kanboard.org'
+
+[[package]]
+channel = 'debian'
+name = 'kanboard'

@@ -1,0 +1,6 @@
+id = 'rubygem-rdoc'
+name = 'rubygem-rdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rdoc'

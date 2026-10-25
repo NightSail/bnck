@@ -1,0 +1,12 @@
+id = 'ddnet'
+name = 'ddnet'
+
+homepage = 'https://ddnet.org'
+
+[[package]]
+channel = 'fedora'
+name = 'ddnet'
+
+[[package]]
+channel = 'fedora'
+name = 'ddnet-server'

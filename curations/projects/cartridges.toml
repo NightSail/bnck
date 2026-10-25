@@ -1,0 +1,8 @@
+id = 'cartridges'
+name = 'cartridges'
+
+homepage = 'https://codeberg.org/kramo/cartridges'
+
+[[package]]
+channel = 'arch'
+name = 'cartridges'

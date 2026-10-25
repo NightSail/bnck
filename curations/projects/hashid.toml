@@ -1,0 +1,8 @@
+id = 'hashid'
+name = 'hashid'
+
+homepage = 'https://psypanda.github.io/hashID'
+
+[[package]]
+channel = 'debian'
+name = 'hashid'

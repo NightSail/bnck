@@ -1,0 +1,12 @@
+id = 'hitch'
+name = 'hitch'
+
+homepage = 'https://hitch-tls.org'
+
+[[package]]
+channel = 'debian'
+name = 'hitch'
+
+[[package]]
+channel = 'fedora'
+name = 'hitch'

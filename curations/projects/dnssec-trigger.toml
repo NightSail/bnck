@@ -1,0 +1,16 @@
+id = 'dnssec-trigger'
+name = 'dnssec-trigger'
+
+homepage = 'https://www.nlnetlabs.nl/projects/dnssec-trigger'
+
+[[package]]
+channel = 'debian'
+name = 'dnssec-trigger'
+
+[[package]]
+channel = 'fedora'
+name = 'dnssec-trigger'
+
+[[package]]
+channel = 'fedora'
+name = 'dnssec-trigger-panel'

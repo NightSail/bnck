@@ -1,0 +1,8 @@
+id = 'folderify'
+name = 'folderify'
+
+repository = 'https://github.com/lgarron/folderify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/folderify'

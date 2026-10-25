@@ -1,0 +1,12 @@
+id = 'tempora'
+name = 'tempora'
+
+homepage = 'https://github.com/jaraco/tempora'
+
+[[package]]
+channel = 'arch'
+name = 'python-tempora'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tempora'

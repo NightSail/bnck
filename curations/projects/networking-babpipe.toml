@@ -1,0 +1,12 @@
+id = 'networking-babpipe'
+name = 'networking-babpipe'
+
+homepage = 'http://github.com/openstack/networking-babpipe'
+
+[[package]]
+channel = 'debian'
+name = 'networking-bagpipe-bgp-agent'
+
+[[package]]
+channel = 'debian'
+name = 'python3-networking-bagpipe'

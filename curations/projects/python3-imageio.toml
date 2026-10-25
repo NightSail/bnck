@@ -1,0 +1,8 @@
+id = 'python3-imageio'
+name = 'python3-imageio'
+
+homepage = 'https://imageio.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-imageio'

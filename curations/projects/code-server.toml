@@ -1,0 +1,8 @@
+id = 'code-server'
+name = 'code-server'
+
+homepage = 'https://coder.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/code-server'

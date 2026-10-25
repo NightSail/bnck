@@ -1,0 +1,8 @@
+id = 'friso'
+name = 'friso'
+
+homepage = 'https://github.com/lionsoul2014/friso'
+
+[[package]]
+channel = 'debian'
+name = 'friso'

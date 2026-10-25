@@ -1,0 +1,8 @@
+id = 'nyan'
+name = 'nyan'
+
+repository = 'https://github.com/toshimaru/nyan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nyan'

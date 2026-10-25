@@ -1,0 +1,12 @@
+id = 'connect-proxy'
+name = 'connect-proxy'
+
+homepage = 'https://github.com/gotoh/ssh-connect'
+
+[[package]]
+channel = 'debian'
+name = 'connect-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'connect-proxy'

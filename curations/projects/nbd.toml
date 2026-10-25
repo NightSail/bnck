@@ -1,0 +1,20 @@
+id = 'nbd'
+name = 'nbd'
+
+homepage = 'https://github.com/NetworkBlockDevice/nbd'
+
+[[package]]
+channel = 'arch'
+name = 'nbd'
+
+[[package]]
+channel = 'debian'
+name = 'nbd-client'
+
+[[package]]
+channel = 'debian'
+name = 'nbd-server'
+
+[[package]]
+channel = 'fedora'
+name = 'nbd'

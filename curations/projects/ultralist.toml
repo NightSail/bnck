@@ -1,0 +1,8 @@
+id = 'ultralist'
+name = 'ultralist'
+
+homepage = 'https://ultralist.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ultralist'

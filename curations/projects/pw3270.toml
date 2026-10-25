@@ -1,0 +1,8 @@
+id = 'pw3270'
+name = 'pw3270'
+
+homepage = 'https://github.com/PerryWerneck/pw3270'
+
+[[package]]
+channel = 'fedora'
+name = 'pw3270'

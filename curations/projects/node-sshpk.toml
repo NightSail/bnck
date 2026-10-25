@@ -1,0 +1,8 @@
+id = 'node-sshpk'
+name = 'node-sshpk'
+
+homepage = 'https://github.com/arekinath/node-sshpk'
+
+[[package]]
+channel = 'debian'
+name = 'node-sshpk'

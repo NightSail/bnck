@@ -1,0 +1,12 @@
+id = 'xfmpc'
+name = 'xfmpc'
+
+homepage = 'https://docs.xfce.org/apps/xfmpc/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfmpc'
+
+[[package]]
+channel = 'fedora'
+name = 'xfmpc'

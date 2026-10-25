@@ -1,0 +1,16 @@
+id = 'yakuake'
+name = 'yakuake'
+
+homepage = 'https://apps.kde.org/yakuake'
+
+[[package]]
+channel = 'arch'
+name = 'yakuake'
+
+[[package]]
+channel = 'debian'
+name = 'yakuake'
+
+[[package]]
+channel = 'fedora'
+name = 'yakuake'

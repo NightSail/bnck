@@ -1,0 +1,8 @@
+id = 'playmidi'
+name = 'playmidi'
+
+homepage = 'https://nlaredo.github.io/playmidi.html'
+
+[[package]]
+channel = 'debian'
+name = 'playmidi'

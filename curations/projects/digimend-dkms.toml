@@ -1,0 +1,8 @@
+id = 'digimend-dkms'
+name = 'digimend-dkms'
+
+homepage = 'https://github.com/DIGImend/digimend-kernel-drivers'
+
+[[package]]
+channel = 'debian'
+name = 'digimend-dkms'

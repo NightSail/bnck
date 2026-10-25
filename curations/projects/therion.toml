@@ -1,0 +1,12 @@
+id = 'therion'
+name = 'therion'
+
+homepage = 'https://therion.speleo.sk'
+
+[[package]]
+channel = 'debian'
+name = 'therion'
+
+[[package]]
+channel = 'debian'
+name = 'therion-viewer'

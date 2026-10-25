@@ -1,0 +1,21 @@
+id = 'optipng'
+name = 'optipng'
+
+homepage = 'http://optipng.sourceforge.net'
+repository = 'https://git.code.sf.net/p/optipng/code.git'
+
+[[package]]
+channel = 'arch'
+name = 'optipng'
+
+[[package]]
+channel = 'debian'
+name = 'optipng'
+
+[[package]]
+channel = 'fedora'
+name = 'optipng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/optipng'

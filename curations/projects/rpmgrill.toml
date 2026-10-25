@@ -1,0 +1,8 @@
+id = 'rpmgrill'
+name = 'rpmgrill'
+
+homepage = 'https://github.com/default-to-open/rpmgrill'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmgrill'

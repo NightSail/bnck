@@ -1,0 +1,8 @@
+id = 'drat2er-tools'
+name = 'drat2er-tools'
+
+homepage = 'https://github.com/benjaminkiesl/drat2er'
+
+[[package]]
+channel = 'fedora'
+name = 'drat2er-tools'

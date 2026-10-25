@@ -1,0 +1,16 @@
+id = 'wlr-randr'
+name = 'wlr-randr'
+
+homepage = 'https://gitlab.freedesktop.org/emersion/wlr-randr'
+
+[[package]]
+channel = 'arch'
+name = 'wlr-randr'
+
+[[package]]
+channel = 'debian'
+name = 'wlr-randr'
+
+[[package]]
+channel = 'fedora'
+name = 'wlr-randr'

@@ -1,0 +1,8 @@
+id = 'lavacli'
+name = 'lavacli'
+
+homepage = 'https://gitlab.com/lava/lavacli'
+
+[[package]]
+channel = 'debian'
+name = 'lavacli'

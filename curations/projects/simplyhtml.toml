@@ -1,0 +1,8 @@
+id = 'simplyhtml'
+name = 'simplyhtml'
+
+homepage = 'https://github.com/freeplane/shtml'
+
+[[package]]
+channel = 'debian'
+name = 'simplyhtml'

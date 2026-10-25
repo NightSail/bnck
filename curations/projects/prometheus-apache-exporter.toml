@@ -1,0 +1,8 @@
+id = 'prometheus-apache-exporter'
+name = 'prometheus-apache-exporter'
+
+homepage = 'https://github.com/Lusitaniae/apache_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-apache-exporter'

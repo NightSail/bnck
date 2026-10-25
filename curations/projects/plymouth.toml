@@ -1,0 +1,20 @@
+id = 'plymouth'
+name = 'plymouth'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/Plymouth'
+
+[[package]]
+channel = 'arch'
+name = 'plymouth'
+
+[[package]]
+channel = 'debian'
+name = 'plymouth'
+
+[[package]]
+channel = 'fedora'
+name = 'plymouth'
+
+[[package]]
+channel = 'fedora'
+name = 'plymouth-scripts'

@@ -1,0 +1,16 @@
+id = 'krecorder'
+name = 'krecorder'
+
+homepage = 'https://apps.kde.org/krecorder'
+
+[[package]]
+channel = 'arch'
+name = 'krecorder'
+
+[[package]]
+channel = 'debian'
+name = 'krecorder'
+
+[[package]]
+channel = 'fedora'
+name = 'krecorder'

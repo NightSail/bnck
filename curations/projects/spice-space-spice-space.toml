@@ -1,0 +1,12 @@
+id = 'spice-space-spice-space'
+name = 'spice-space'
+
+homepage = 'https://www.spice-space.org/usbredir.html'
+
+[[package]]
+channel = 'arch'
+name = 'usbredir'
+
+[[package]]
+channel = 'fedora'
+name = 'usbredir-tools'

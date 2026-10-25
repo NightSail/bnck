@@ -1,0 +1,8 @@
+id = 'python3-baler'
+name = 'python3-baler'
+
+homepage = 'https://github.com/baler-collaboration/baler'
+
+[[package]]
+channel = 'debian'
+name = 'python3-baler'

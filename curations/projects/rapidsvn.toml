@@ -1,0 +1,8 @@
+id = 'rapidsvn'
+name = 'rapidsvn'
+
+homepage = 'http://www.rapidsvn.org'
+
+[[package]]
+channel = 'fedora'
+name = 'rapidsvn'

@@ -1,0 +1,8 @@
+id = 'hdhomerun'
+name = 'hdhomerun'
+
+homepage = 'http://www.silicondust.com'
+
+[[package]]
+channel = 'fedora'
+name = 'hdhomerun'

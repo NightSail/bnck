@@ -1,0 +1,16 @@
+id = 'openstack-meta-packages'
+name = 'openstack-meta-packages'
+
+homepage = 'https://salsa.debian.org/openstack-team/debian/openstack-meta-packages'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-deploy'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-tempest-ci'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-tempest-ci-live-booter'

@@ -1,0 +1,12 @@
+id = 'armagetronad'
+name = 'armagetronad'
+
+homepage = 'https://gitlab.com/armagetronad/armagetronad'
+
+[[package]]
+channel = 'fedora'
+name = 'armacycles-ad'
+
+[[package]]
+channel = 'fedora'
+name = 'armacycles-ad-dedicated'

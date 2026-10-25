@@ -1,0 +1,8 @@
+id = 'admeshgui'
+name = 'admeshgui'
+
+homepage = 'https://github.com/vyvledav/ADMeshGUI'
+
+[[package]]
+channel = 'fedora'
+name = 'admeshgui'

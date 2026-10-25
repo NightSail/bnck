@@ -1,0 +1,8 @@
+id = 'ceph-tools'
+name = 'ceph-tools'
+
+homepage = 'https://salsa.debian.org/openstack-team/third-party/ceph-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-tools'

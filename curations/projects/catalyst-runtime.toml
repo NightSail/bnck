@@ -1,0 +1,12 @@
+id = 'catalyst-runtime'
+name = 'Catalyst-Runtime'
+
+homepage = 'https://metacpan.org/release/Catalyst-Runtime'
+
+[[package]]
+channel = 'debian'
+name = 'libcatalyst-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Catalyst-Runtime-scripts'

@@ -1,0 +1,12 @@
+id = 'frama-c'
+name = 'frama-c'
+
+homepage = 'https://frama-c.com'
+
+[[package]]
+channel = 'debian'
+name = 'frama-c-base'
+
+[[package]]
+channel = 'fedora'
+name = 'frama-c'

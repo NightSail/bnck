@@ -1,0 +1,12 @@
+id = 'roman'
+name = 'roman'
+
+homepage = 'https://github.com/zopefoundation/roman'
+
+[[package]]
+channel = 'arch'
+name = 'python-roman'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-roman'

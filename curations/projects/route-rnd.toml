@@ -1,0 +1,8 @@
+id = 'route-rnd'
+name = 'route-rnd'
+
+homepage = 'http://repo.hu/projects/route-rnd'
+
+[[package]]
+channel = 'debian'
+name = 'route-rnd'

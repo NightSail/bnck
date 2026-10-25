@@ -1,0 +1,12 @@
+id = 'appstream-glib-hughsie'
+name = 'appstream-glib'
+
+homepage = 'https://github.com/hughsie/appstream-glib'
+
+[[package]]
+channel = 'debian'
+name = 'appstream-util'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/appstream-glib'

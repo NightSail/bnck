@@ -1,0 +1,12 @@
+id = 'firecracker'
+name = 'firecracker'
+
+homepage = 'https://firecracker-microvm.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'firecracker'
+
+[[package]]
+channel = 'fedora'
+name = 'firecracker'

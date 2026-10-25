@@ -1,0 +1,8 @@
+id = 'systemd-cron'
+name = 'systemd-cron'
+
+homepage = 'https://github.com/systemd-cron/systemd-cron'
+
+[[package]]
+channel = 'debian'
+name = 'systemd-cron'

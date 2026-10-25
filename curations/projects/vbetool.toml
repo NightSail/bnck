@@ -1,0 +1,12 @@
+id = 'vbetool'
+name = 'vbetool'
+
+homepage = 'https://cgit.freedesktop.org/~airlied/vbetool'
+
+[[package]]
+channel = 'arch'
+name = 'vbetool'
+
+[[package]]
+channel = 'debian'
+name = 'vbetool'

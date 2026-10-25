@@ -1,0 +1,8 @@
+id = 'ddh'
+name = 'ddh'
+
+homepage = 'https://github.com/darakian/ddh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddh'

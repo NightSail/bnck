@@ -1,0 +1,13 @@
+id = 'notation'
+name = 'notation'
+
+homepage = 'https://notaryproject.dev'
+repository = 'https://github.com/notaryproject/notation.git'
+
+[[package]]
+channel = 'debian'
+name = 'notation'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notation'

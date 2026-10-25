@@ -1,0 +1,8 @@
+id = 'mago'
+name = 'mago'
+
+homepage = 'https://github.com/carthage-software/mago'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mago'

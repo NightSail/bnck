@@ -1,0 +1,12 @@
+id = 'libyubikey'
+name = 'libyubikey'
+
+homepage = 'https://yubico.github.io/yubico-c'
+
+[[package]]
+channel = 'fedora'
+name = 'libyubikey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libyubikey'

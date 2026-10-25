@@ -1,0 +1,8 @@
+id = 'gpu-screen-recorder-ui'
+name = 'gpu-screen-recorder-ui'
+
+homepage = 'https://git.dec05eba.com/gpu-screen-recorder-ui'
+
+[[package]]
+channel = 'arch'
+name = 'gpu-screen-recorder-ui'

@@ -1,0 +1,8 @@
+id = 'catfishq'
+name = 'catfishq'
+
+homepage = 'https://github.com/philres/catfishq'
+
+[[package]]
+channel = 'debian'
+name = 'catfishq'

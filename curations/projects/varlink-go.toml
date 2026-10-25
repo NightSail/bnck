@@ -1,0 +1,8 @@
+id = 'varlink-go'
+name = 'varlink-go'
+
+homepage = 'https://github.com/varlink/go'
+
+[[package]]
+channel = 'debian'
+name = 'varlink-go'

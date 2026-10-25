@@ -1,0 +1,9 @@
+id = 'uutils-findutils'
+name = 'uutils-findutils'
+
+homepage = 'https://uutils.github.io/findutils'
+repository = 'https://github.com/uutils/findutils.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uutils-findutils'

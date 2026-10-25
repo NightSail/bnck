@@ -1,0 +1,20 @@
+id = 'auditwheel'
+name = 'auditwheel'
+
+homepage = 'https://github.com/pypa/auditwheel'
+
+[[package]]
+channel = 'arch'
+name = 'python-auditwheel'
+
+[[package]]
+channel = 'debian'
+name = 'python3-auditwheel'
+
+[[package]]
+channel = 'fedora'
+name = 'auditwheel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/auditwheel'

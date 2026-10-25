@@ -1,0 +1,16 @@
+id = 'libva-utils'
+name = 'libva-utils'
+
+homepage = 'https://github.com/intel/libva-utils'
+
+[[package]]
+channel = 'arch'
+name = 'libva-utils'
+
+[[package]]
+channel = 'debian'
+name = 'vainfo'
+
+[[package]]
+channel = 'fedora'
+name = 'libva-utils'

@@ -1,0 +1,12 @@
+id = 'core'
+name = 'core'
+
+homepage = 'https://www.microsoft.com/net/core'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dotnet-runtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dotnet-sdk'

@@ -1,0 +1,8 @@
+id = 'cppgir'
+name = 'cppgir'
+
+homepage = 'https://gitlab.com/mnauw/cppgir'
+
+[[package]]
+channel = 'debian'
+name = 'cppgir'

@@ -1,0 +1,8 @@
+id = 'python3-molotov'
+name = 'python3-molotov'
+
+homepage = 'https://molotov.readthedocs.io/en/stable'
+
+[[package]]
+channel = 'debian'
+name = 'python3-molotov'

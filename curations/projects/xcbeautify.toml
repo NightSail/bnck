@@ -1,0 +1,8 @@
+id = 'xcbeautify'
+name = 'xcbeautify'
+
+repository = 'https://github.com/cpisciotta/xcbeautify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcbeautify'

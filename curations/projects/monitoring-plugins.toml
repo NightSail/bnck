@@ -1,0 +1,8 @@
+id = 'monitoring-plugins'
+name = 'monitoring-plugins'
+
+homepage = 'https://www.monitoring-plugins.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monitoring-plugins'

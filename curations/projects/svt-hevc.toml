@@ -1,0 +1,8 @@
+id = 'svt-hevc'
+name = 'svt-hevc'
+
+homepage = 'https://github.com/OpenVisualCloud/SVT-HEVC'
+
+[[package]]
+channel = 'arch'
+name = 'svt-hevc'

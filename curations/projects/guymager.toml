@@ -1,0 +1,8 @@
+id = 'guymager'
+name = 'guymager'
+
+homepage = 'https://guymager.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'guymager'

@@ -1,0 +1,8 @@
+id = 'lvmsync'
+name = 'lvmsync'
+
+homepage = 'https://github.com/mpalmer/lvmsync'
+
+[[package]]
+channel = 'debian'
+name = 'lvmsync'

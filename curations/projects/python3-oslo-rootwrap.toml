@@ -1,0 +1,8 @@
+id = 'python3-oslo-rootwrap'
+name = 'python3-oslo.rootwrap'
+
+homepage = 'https://github.com/openstack/oslo.rootwrap'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslo.rootwrap'

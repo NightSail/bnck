@@ -1,0 +1,8 @@
+id = 'nabi'
+name = 'nabi'
+
+homepage = 'https://github.com/libhangul/nabi'
+
+[[package]]
+channel = 'debian'
+name = 'nabi'

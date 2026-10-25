@@ -1,0 +1,12 @@
+id = 'gaffitter'
+name = 'gaffitter'
+
+homepage = 'https://gaffitter.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gaffitter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gaffitter'

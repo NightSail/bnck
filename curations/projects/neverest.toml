@@ -1,0 +1,9 @@
+id = 'neverest'
+name = 'neverest'
+
+homepage = 'https://pimalaya.org'
+repository = 'https://github.com/pimalaya/neverest.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neverest'

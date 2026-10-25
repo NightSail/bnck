@@ -1,0 +1,110 @@
+id = 'writerperfect-writerperfect'
+name = 'writerperfect'
+
+[[package]]
+channel = 'debian'
+name = 'abw2epub'
+
+[[package]]
+channel = 'debian'
+name = 'abw2odt'
+
+[[package]]
+channel = 'debian'
+name = 'cdr2odg'
+
+[[package]]
+channel = 'debian'
+name = 'ebook2epub'
+
+[[package]]
+channel = 'debian'
+name = 'ebook2odt'
+
+[[package]]
+channel = 'debian'
+name = 'fh2odg'
+
+[[package]]
+channel = 'debian'
+name = 'key2odp'
+
+[[package]]
+channel = 'debian'
+name = 'mwaw2epub'
+
+[[package]]
+channel = 'debian'
+name = 'mwaw2odf'
+
+[[package]]
+channel = 'debian'
+name = 'numbers2ods'
+
+[[package]]
+channel = 'debian'
+name = 'pages2epub'
+
+[[package]]
+channel = 'debian'
+name = 'pages2odt'
+
+[[package]]
+channel = 'debian'
+name = 'pmd2odg'
+
+[[package]]
+channel = 'debian'
+name = 'pub2odg'
+
+[[package]]
+channel = 'debian'
+name = 'qxp2epub'
+
+[[package]]
+channel = 'debian'
+name = 'qxp2odg'
+
+[[package]]
+channel = 'debian'
+name = 'sd2epub'
+
+[[package]]
+channel = 'debian'
+name = 'sd2odf'
+
+[[package]]
+channel = 'debian'
+name = 'vsd2odg'
+
+[[package]]
+channel = 'debian'
+name = 'wks2ods'
+
+[[package]]
+channel = 'debian'
+name = 'wpd2epub'
+
+[[package]]
+channel = 'debian'
+name = 'wpd2odt'
+
+[[package]]
+channel = 'debian'
+name = 'wpg2odg'
+
+[[package]]
+channel = 'debian'
+name = 'wps2epub'
+
+[[package]]
+channel = 'debian'
+name = 'wps2odt'
+
+[[package]]
+channel = 'debian'
+name = 'zmf2epub'
+
+[[package]]
+channel = 'debian'
+name = 'zmf2odg'

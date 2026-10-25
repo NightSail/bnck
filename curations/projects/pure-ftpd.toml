@@ -1,0 +1,32 @@
+id = 'pure-ftpd'
+name = 'pure-ftpd'
+
+homepage = 'http://www.pureftpd.org'
+
+[[package]]
+channel = 'debian'
+name = 'pure-ftpd'
+
+[[package]]
+channel = 'debian'
+name = 'pure-ftpd-common'
+
+[[package]]
+channel = 'debian'
+name = 'pure-ftpd-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'pure-ftpd-mysql'
+
+[[package]]
+channel = 'debian'
+name = 'pure-ftpd-postgresql'
+
+[[package]]
+channel = 'fedora'
+name = 'pure-ftpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pure-ftpd'

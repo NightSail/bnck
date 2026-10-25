@@ -1,0 +1,12 @@
+id = 'ctwm'
+name = 'ctwm'
+
+homepage = 'https://ctwm.org'
+
+[[package]]
+channel = 'arch'
+name = 'ctwm'
+
+[[package]]
+channel = 'debian'
+name = 'ctwm'

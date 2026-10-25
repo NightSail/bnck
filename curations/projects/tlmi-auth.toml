@@ -1,0 +1,8 @@
+id = 'tlmi-auth'
+name = 'tlmi-auth'
+
+homepage = 'https://www.github.com/lenovo/tlmi-auth'
+
+[[package]]
+channel = 'fedora'
+name = 'tlmi-auth'

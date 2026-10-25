@@ -1,0 +1,8 @@
+id = 'xmotd'
+name = 'xmotd'
+
+homepage = 'http://www.ee.ryerson.ca/~elf/xmotd'
+
+[[package]]
+channel = 'debian'
+name = 'xmotd'

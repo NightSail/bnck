@@ -1,0 +1,12 @@
+id = 'telegram-desktop'
+name = 'telegram-desktop'
+
+homepage = 'https://desktop.telegram.org'
+
+[[package]]
+channel = 'arch'
+name = 'telegram-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'telegram-desktop'

@@ -1,0 +1,8 @@
+id = 'baloo-widgets'
+name = 'baloo-widgets'
+
+homepage = 'https://invent.kde.org/libraries/baloo-widgets'
+
+[[package]]
+channel = 'fedora'
+name = 'baloo-widgets'

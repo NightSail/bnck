@@ -1,0 +1,8 @@
+id = 'tegrarcm'
+name = 'tegrarcm'
+
+homepage = 'https://github.com/NVIDIA/tegrarcm'
+
+[[package]]
+channel = 'fedora'
+name = 'tegrarcm'

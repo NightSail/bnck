@@ -1,0 +1,8 @@
+id = 'php-matthiasmullie-minify'
+name = 'php-matthiasmullie-minify'
+
+homepage = 'https://github.com/matthiasmullie/minify'
+
+[[package]]
+channel = 'debian'
+name = 'php-matthiasmullie-minify'

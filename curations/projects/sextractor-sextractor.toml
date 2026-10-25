@@ -1,0 +1,8 @@
+id = 'sextractor-sextractor'
+name = 'sextractor'
+
+homepage = 'http://astromatic.iap.fr/software/sextractor'
+
+[[package]]
+channel = 'fedora'
+name = 'sextractor'

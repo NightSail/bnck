@@ -1,0 +1,9 @@
+id = 'nestopia-ue'
+name = 'nestopia-ue'
+
+homepage = 'http://0ldsk00l.ca/nestopia'
+repository = 'https://github.com/0ldsk00l/nestopia.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nestopia-ue'

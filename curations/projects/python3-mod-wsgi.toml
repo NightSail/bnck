@@ -1,0 +1,8 @@
+id = 'python3-mod-wsgi'
+name = 'python3-mod_wsgi'
+
+homepage = 'https://modwsgi.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mod_wsgi'

@@ -1,0 +1,8 @@
+id = 'python-humanfriendly'
+name = 'python-humanfriendly'
+
+homepage = 'https://github.com/xolox/python-humanfriendly'
+
+[[package]]
+channel = 'arch'
+name = 'python-humanfriendly'

@@ -1,0 +1,6 @@
+id = 'semodule-utils'
+name = 'semodule-utils'
+
+[[package]]
+channel = 'debian'
+name = 'semodule-utils'

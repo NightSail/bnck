@@ -1,0 +1,8 @@
+id = 'heksa'
+name = 'heksa'
+
+repository = 'https://github.com/raspi/heksa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/heksa'

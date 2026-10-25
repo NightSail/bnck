@@ -1,0 +1,8 @@
+id = 'agentide'
+name = 'agentide'
+
+homepage = 'https://github.com/MikeMcQuaid/AgentIDE'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/agentide'

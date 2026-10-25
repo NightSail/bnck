@@ -1,0 +1,16 @@
+id = 'kvantum'
+name = 'kvantum'
+
+homepage = 'https://github.com/tsujan/Kvantum'
+
+[[package]]
+channel = 'arch'
+name = 'kvantum'
+
+[[package]]
+channel = 'debian'
+name = 'qt-style-kvantum'
+
+[[package]]
+channel = 'fedora'
+name = 'kvantum'

@@ -1,0 +1,12 @@
+id = 'austin'
+name = 'austin'
+
+repository = 'https://github.com/P403n1x87/austin.git'
+
+[[package]]
+channel = 'debian'
+name = 'austin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/austin'

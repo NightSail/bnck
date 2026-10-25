@@ -1,0 +1,12 @@
+id = 'pew'
+name = 'pew'
+
+homepage = 'https://github.com/berdario/pew'
+
+[[package]]
+channel = 'arch'
+name = 'python-pew'
+
+[[package]]
+channel = 'fedora'
+name = 'pew'

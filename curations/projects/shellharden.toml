@@ -1,0 +1,12 @@
+id = 'shellharden'
+name = 'shellharden'
+
+homepage = 'https://github.com/anordal/shellharden'
+
+[[package]]
+channel = 'arch'
+name = 'shellharden'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shellharden'

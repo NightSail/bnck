@@ -1,0 +1,12 @@
+id = 'graphs'
+name = 'graphs'
+
+homepage = 'https://apps.gnome.org/Graphs'
+
+[[package]]
+channel = 'arch'
+name = 'graphs'
+
+[[package]]
+channel = 'debian'
+name = 'graphs'

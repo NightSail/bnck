@@ -1,0 +1,12 @@
+id = 'logswan'
+name = 'logswan'
+
+homepage = 'https://www.logswan.org'
+
+[[package]]
+channel = 'debian'
+name = 'logswan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logswan'

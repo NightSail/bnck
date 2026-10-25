@@ -1,0 +1,12 @@
+id = 'gtts'
+name = 'gtts'
+
+homepage = 'https://github.com/pndurette/gTTS'
+
+[[package]]
+channel = 'arch'
+name = 'python-gtts'
+
+[[package]]
+channel = 'fedora'
+name = 'gtts'

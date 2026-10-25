@@ -1,0 +1,9 @@
+id = 'pulsarctl'
+name = 'pulsarctl'
+
+homepage = 'https://streamnative.io'
+repository = 'https://github.com/streamnative/pulsarctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulsarctl'

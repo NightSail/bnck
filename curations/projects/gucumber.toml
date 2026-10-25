@@ -1,0 +1,12 @@
+id = 'gucumber'
+name = 'gucumber'
+
+homepage = 'https://github.com/gucumber/gucumber'
+
+[[package]]
+channel = 'debian'
+name = 'gucumber'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gucumber'

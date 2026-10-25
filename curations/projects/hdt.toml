@@ -1,0 +1,8 @@
+id = 'hdt'
+name = 'hdt'
+
+homepage = 'https://github.com/rdfhdt/hdt-cpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hdt'

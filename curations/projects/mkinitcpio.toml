@@ -1,0 +1,8 @@
+id = 'mkinitcpio'
+name = 'mkinitcpio'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio'
+
+[[package]]
+channel = 'arch'
+name = 'mkinitcpio'

@@ -1,0 +1,12 @@
+id = 'mathomatic'
+name = 'mathomatic'
+
+homepage = 'https://launchpad.net/mathomatic'
+
+[[package]]
+channel = 'debian'
+name = 'mathomatic'
+
+[[package]]
+channel = 'debian'
+name = 'mathomatic-primes'

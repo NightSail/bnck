@@ -1,0 +1,12 @@
+id = 'qatzip'
+name = 'qatzip'
+
+homepage = 'https://github.com/intel/qatzip'
+
+[[package]]
+channel = 'debian'
+name = 'qatzip'
+
+[[package]]
+channel = 'fedora'
+name = 'qatzip'

@@ -1,0 +1,8 @@
+id = 'balloon'
+name = 'balloon'
+
+homepage = 'http://www.git.cypherpunks.ru'
+
+[[package]]
+channel = 'debian'
+name = 'balloon'

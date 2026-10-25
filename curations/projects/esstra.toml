@@ -1,0 +1,8 @@
+id = 'esstra'
+name = 'esstra'
+
+homepage = 'https://github.com/sony/esstra'
+
+[[package]]
+channel = 'debian'
+name = 'esstra'

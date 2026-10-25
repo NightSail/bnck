@@ -1,0 +1,8 @@
+id = 'sagator-core'
+name = 'sagator-core'
+
+homepage = 'http://www.salstar.sk/sagator'
+
+[[package]]
+channel = 'fedora'
+name = 'sagator-core'

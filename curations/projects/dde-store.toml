@@ -1,0 +1,8 @@
+id = 'dde-store'
+name = 'dde-store'
+
+homepage = 'https://github.com/ubuntudde/dde-store'
+
+[[package]]
+channel = 'debian'
+name = 'dde-store'

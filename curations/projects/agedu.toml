@@ -1,0 +1,17 @@
+id = 'agedu'
+name = 'agedu'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/agedu'
+repository = 'https://git.tartarus.org/simon/agedu.git'
+
+[[package]]
+channel = 'debian'
+name = 'agedu'
+
+[[package]]
+channel = 'fedora'
+name = 'agedu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/agedu'

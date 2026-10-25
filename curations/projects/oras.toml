@@ -1,0 +1,12 @@
+id = 'oras'
+name = 'oras'
+
+homepage = 'https://github.com/oras-project/oras'
+
+[[package]]
+channel = 'debian'
+name = 'oras'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-oras'

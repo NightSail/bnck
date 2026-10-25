@@ -1,0 +1,8 @@
+id = 'xyzsh'
+name = 'xyzsh'
+
+homepage = 'http://sourceforge.jp/projects/xyzsh'
+
+[[package]]
+channel = 'fedora'
+name = 'xyzsh'

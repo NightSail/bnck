@@ -1,0 +1,12 @@
+id = 'flashprog'
+name = 'flashprog'
+
+homepage = 'https://flashprog.org'
+
+[[package]]
+channel = 'arch'
+name = 'flashprog'
+
+[[package]]
+channel = 'debian'
+name = 'flashprog'

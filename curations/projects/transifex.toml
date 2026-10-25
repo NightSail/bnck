@@ -1,0 +1,12 @@
+id = 'transifex'
+name = 'transifex'
+
+homepage = 'https://github.com/transifex/cli'
+
+[[package]]
+channel = 'arch'
+name = 'transifex-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'transifex-client'

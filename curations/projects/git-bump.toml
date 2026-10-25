@@ -1,0 +1,8 @@
+id = 'git-bump'
+name = 'git-bump'
+
+homepage = 'https://tpo.pe/git-bump'
+
+[[package]]
+channel = 'debian'
+name = 'git-bump'

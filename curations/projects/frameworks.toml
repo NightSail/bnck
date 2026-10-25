@@ -1,0 +1,80 @@
+id = 'frameworks'
+name = 'frameworks'
+
+homepage = 'https://develop.kde.org/products/frameworks'
+
+[[package]]
+channel = 'arch'
+name = 'baloo'
+
+[[package]]
+channel = 'arch'
+name = 'kapidox'
+
+[[package]]
+channel = 'arch'
+name = 'kcmutils'
+
+[[package]]
+channel = 'arch'
+name = 'kconfig'
+
+[[package]]
+channel = 'arch'
+name = 'kdbusaddons'
+
+[[package]]
+channel = 'arch'
+name = 'kded'
+
+[[package]]
+channel = 'arch'
+name = 'kdoctools'
+
+[[package]]
+channel = 'arch'
+name = 'kfilemetadata'
+
+[[package]]
+channel = 'arch'
+name = 'kguiaddons'
+
+[[package]]
+channel = 'arch'
+name = 'kiconthemes'
+
+[[package]]
+channel = 'arch'
+name = 'kio'
+
+[[package]]
+channel = 'arch'
+name = 'knewstuff'
+
+[[package]]
+channel = 'arch'
+name = 'kpackage'
+
+[[package]]
+channel = 'arch'
+name = 'kservice'
+
+[[package]]
+channel = 'arch'
+name = 'ktexteditor'
+
+[[package]]
+channel = 'arch'
+name = 'kwallet'
+
+[[package]]
+channel = 'arch'
+name = 'solid'
+
+[[package]]
+channel = 'arch'
+name = 'sonnet'
+
+[[package]]
+channel = 'arch'
+name = 'syntax-highlighting'

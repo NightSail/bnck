@@ -1,0 +1,8 @@
+id = 'monitord'
+name = 'monitord'
+
+homepage = 'https://crates.io/crates/monitord'
+
+[[package]]
+channel = 'fedora'
+name = 'monitord'

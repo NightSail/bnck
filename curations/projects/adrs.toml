@@ -1,0 +1,9 @@
+id = 'adrs'
+name = 'adrs'
+
+homepage = 'https://joshrotenberg.com/adrs'
+repository = 'https://github.com/joshrotenberg/adrs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adrs'

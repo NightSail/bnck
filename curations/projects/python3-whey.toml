@@ -1,0 +1,8 @@
+id = 'python3-whey'
+name = 'python3-whey'
+
+homepage = 'https://github.com/repo-helper/whey'
+
+[[package]]
+channel = 'debian'
+name = 'python3-whey'

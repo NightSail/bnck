@@ -1,0 +1,8 @@
+id = 'git-tracker'
+name = 'git-tracker'
+
+repository = 'https://github.com/stevenharman/git_tracker.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-tracker'

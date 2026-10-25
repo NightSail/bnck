@@ -1,0 +1,12 @@
+id = 'claude-code'
+name = 'claude-code'
+
+homepage = 'https://claude.com/product/claude-code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/claude-code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/claude-code@latest'

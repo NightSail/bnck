@@ -1,0 +1,8 @@
+id = 'wmtemp'
+name = 'wmtemp'
+
+homepage = 'http://gnodde.org/wmtemp'
+
+[[package]]
+channel = 'debian'
+name = 'wmtemp'

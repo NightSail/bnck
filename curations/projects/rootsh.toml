@@ -1,0 +1,8 @@
+id = 'rootsh'
+name = 'rootsh'
+
+homepage = 'http://sourceforge.net/projects/rootsh'
+
+[[package]]
+channel = 'fedora'
+name = 'rootsh'

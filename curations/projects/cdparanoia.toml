@@ -1,0 +1,16 @@
+id = 'cdparanoia'
+name = 'cdparanoia'
+
+homepage = 'https://www.xiph.org/paranoia'
+
+[[package]]
+channel = 'arch'
+name = 'cdparanoia'
+
+[[package]]
+channel = 'debian'
+name = 'cdparanoia'
+
+[[package]]
+channel = 'fedora'
+name = 'cdparanoia'

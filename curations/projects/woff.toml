@@ -1,0 +1,8 @@
+id = 'woff'
+name = 'woff'
+
+homepage = 'https://web.archive.org/web/20170630235618/https://people-mozilla.org/~jkew/woff'
+
+[[package]]
+channel = 'fedora'
+name = 'woff'

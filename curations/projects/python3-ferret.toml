@@ -1,0 +1,8 @@
+id = 'python3-ferret'
+name = 'python3-ferret'
+
+homepage = 'https://ferret.pmel.noaa.gov/Ferret/documentation/pyferret'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ferret'

@@ -1,0 +1,8 @@
+id = 'python3-pytkdocs'
+name = 'python3-pytkdocs'
+
+homepage = 'https://github.com/mkdocstrings/pytkdocs'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pytkdocs'

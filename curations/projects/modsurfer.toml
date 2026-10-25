@@ -1,0 +1,8 @@
+id = 'modsurfer'
+name = 'modsurfer'
+
+homepage = 'https://dylibso.com/products/modsurfer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/modsurfer'

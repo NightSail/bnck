@@ -1,0 +1,13 @@
+id = 'drogon'
+name = 'drogon'
+
+homepage = 'https://drogon.org'
+repository = 'https://github.com/drogonframework/drogon.git'
+
+[[package]]
+channel = 'debian'
+name = 'drogon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/drogon'

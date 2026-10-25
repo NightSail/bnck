@@ -1,0 +1,8 @@
+id = 'xbsql'
+name = 'xbsql'
+
+homepage = 'http://www.quaking.demon.co.uk/xbsql'
+
+[[package]]
+channel = 'fedora'
+name = 'xbsql'

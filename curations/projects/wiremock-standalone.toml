@@ -1,0 +1,8 @@
+id = 'wiremock-standalone'
+name = 'wiremock-standalone'
+
+homepage = 'https://wiremock.org/docs/running-standalone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wiremock-standalone'

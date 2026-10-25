@@ -1,0 +1,8 @@
+id = 'nettoe'
+name = 'nettoe'
+
+homepage = 'https://nettoe.sourceforge.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nettoe'

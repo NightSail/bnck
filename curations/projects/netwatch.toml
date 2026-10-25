@@ -1,0 +1,12 @@
+id = 'netwatch'
+name = 'netwatch'
+
+homepage = 'https://www.netwatchlabs.com/labs/netwatch'
+
+[[package]]
+channel = 'arch'
+name = 'netwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netwatch'

@@ -1,0 +1,12 @@
+id = 'deepin-draw'
+name = 'deepin-draw'
+
+homepage = 'https://github.com/linuxdeepin/deepin-draw'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-draw'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-draw'

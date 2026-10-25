@@ -1,0 +1,12 @@
+id = 'bitmath'
+name = 'bitmath'
+
+homepage = 'https://github.com/tbielawa/bitmath'
+
+[[package]]
+channel = 'debian'
+name = 'bitmath'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bitmath'

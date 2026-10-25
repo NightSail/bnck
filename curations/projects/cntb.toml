@@ -1,0 +1,8 @@
+id = 'cntb'
+name = 'cntb'
+
+repository = 'https://github.com/contabo/cntb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cntb'

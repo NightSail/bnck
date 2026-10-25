@@ -1,0 +1,8 @@
+id = 'unhide'
+name = 'unhide'
+
+homepage = 'https://github.com/YJesus/Unhide'
+
+[[package]]
+channel = 'arch'
+name = 'unhide'

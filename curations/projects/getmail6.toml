@@ -1,0 +1,16 @@
+id = 'getmail6'
+name = 'getmail6'
+
+homepage = 'https://getmail6.org'
+
+[[package]]
+channel = 'debian'
+name = 'getmail6'
+
+[[package]]
+channel = 'fedora'
+name = 'getmail6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/getmail6'

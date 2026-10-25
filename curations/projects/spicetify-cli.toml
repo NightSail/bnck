@@ -1,0 +1,9 @@
+id = 'spicetify-cli'
+name = 'spicetify-cli'
+
+homepage = 'https://spicetify.app'
+repository = 'https://github.com/spicetify/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spicetify-cli'

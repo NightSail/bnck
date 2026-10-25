@@ -1,0 +1,8 @@
+id = 'n8n-mcp'
+name = 'n8n-mcp'
+
+homepage = 'https://www.n8n-mcp.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/n8n-mcp'

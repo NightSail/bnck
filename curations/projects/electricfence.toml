@@ -1,0 +1,8 @@
+id = 'electricfence'
+name = 'ElectricFence'
+
+homepage = 'http://perens.com/FreeSoftware/ElectricFence'
+
+[[package]]
+channel = 'fedora'
+name = 'ElectricFence'

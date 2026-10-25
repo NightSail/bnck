@@ -1,0 +1,8 @@
+id = 'specify'
+name = 'specify'
+
+homepage = 'https://github.github.com/spec-kit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/specify'

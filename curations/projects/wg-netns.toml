@@ -1,0 +1,8 @@
+id = 'wg-netns'
+name = 'wg-netns'
+
+homepage = 'https://github.com/dadevel/wg-netns'
+
+[[package]]
+channel = 'debian'
+name = 'wg-netns'

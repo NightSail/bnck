@@ -1,0 +1,8 @@
+id = 'libtextwrap-dev'
+name = 'libtextwrap-dev'
+
+homepage = 'http://libtextwrap.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libtextwrap-dev'

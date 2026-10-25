@@ -1,0 +1,8 @@
+id = 'wmnet'
+name = 'wmnet'
+
+homepage = 'https://www.dockapps.net/wmnet'
+
+[[package]]
+channel = 'debian'
+name = 'wmnet'

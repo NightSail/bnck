@@ -1,0 +1,8 @@
+id = 'python3-steampunk-spotter'
+name = 'python3-steampunk-spotter'
+
+homepage = 'https://spotter.steampunk.si'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-steampunk-spotter'

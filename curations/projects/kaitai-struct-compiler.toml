@@ -1,0 +1,8 @@
+id = 'kaitai-struct-compiler'
+name = 'kaitai-struct-compiler'
+
+homepage = 'https://kaitai.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kaitai-struct-compiler'

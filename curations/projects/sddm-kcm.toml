@@ -1,0 +1,12 @@
+id = 'sddm-kcm'
+name = 'sddm-kcm'
+
+homepage = 'https://invent.kde.org/plasma/sddm-kcm'
+
+[[package]]
+channel = 'debian'
+name = 'kde-config-sddm'
+
+[[package]]
+channel = 'fedora'
+name = 'sddm-kcm'

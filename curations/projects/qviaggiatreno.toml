@@ -1,0 +1,8 @@
+id = 'qviaggiatreno'
+name = 'qviaggiatreno'
+
+homepage = 'https://xp-dev.com/forum/57'
+
+[[package]]
+channel = 'debian'
+name = 'qviaggiatreno'

@@ -1,0 +1,6 @@
+id = 'tkinspect'
+name = 'tkinspect'
+
+[[package]]
+channel = 'debian'
+name = 'tkinspect'

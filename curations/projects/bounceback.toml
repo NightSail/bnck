@@ -1,0 +1,8 @@
+id = 'bounceback'
+name = 'bounceback'
+
+repository = 'https://github.com/D00Movenok/BounceBack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bounceback'

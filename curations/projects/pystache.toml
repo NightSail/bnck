@@ -1,0 +1,12 @@
+id = 'pystache'
+name = 'pystache'
+
+homepage = 'https://github.com/PennyDreadfulMTG/pystache'
+
+[[package]]
+channel = 'arch'
+name = 'python-pystache'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pystache'

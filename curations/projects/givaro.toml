@@ -1,0 +1,16 @@
+id = 'givaro'
+name = 'givaro'
+
+homepage = 'https://casys.gricad-pages.univ-grenoble-alpes.fr/givaro'
+
+[[package]]
+channel = 'arch'
+name = 'givaro'
+
+[[package]]
+channel = 'debian'
+name = 'libgivaro-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'givaro-devel'

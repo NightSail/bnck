@@ -1,0 +1,8 @@
+id = 'gnome-valgrind-session'
+name = 'gnome-valgrind-session'
+
+homepage = 'http://hp.cl.no/proj/gnome-valgrind-session'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-valgrind-session'

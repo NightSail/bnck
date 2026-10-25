@@ -1,0 +1,8 @@
+id = 'golang-contrib-opencensus-resource'
+name = 'golang-contrib-opencensus-resource'
+
+homepage = 'https://github.com/census-ecosystem/opencensus-go-resource'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-contrib-opencensus-resource'

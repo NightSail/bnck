@@ -1,0 +1,8 @@
+id = 'google-perftools'
+name = 'google-perftools'
+
+homepage = 'https://github.com/gperftools/gperftools'
+
+[[package]]
+channel = 'debian'
+name = 'google-perftools'

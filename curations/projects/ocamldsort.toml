@@ -1,0 +1,8 @@
+id = 'ocamldsort'
+name = 'ocamldsort'
+
+homepage = 'http://iml.univ-mrs.fr/~ara/programmes.html.en'
+
+[[package]]
+channel = 'debian'
+name = 'ocamldsort'

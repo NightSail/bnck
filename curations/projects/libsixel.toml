@@ -1,0 +1,21 @@
+id = 'libsixel'
+name = 'libsixel'
+
+homepage = 'https://github.com/libsixel/libsixel'
+repository = 'https://github.com/saitoha/libsixel.git'
+
+[[package]]
+channel = 'arch'
+name = 'libsixel'
+
+[[package]]
+channel = 'fedora'
+name = 'libsixel-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libsixel-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsixel'

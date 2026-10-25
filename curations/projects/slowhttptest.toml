@@ -1,0 +1,16 @@
+id = 'slowhttptest'
+name = 'slowhttptest'
+
+repository = 'https://github.com/shekyan/slowhttptest.git'
+
+[[package]]
+channel = 'arch'
+name = 'slowhttptest'
+
+[[package]]
+channel = 'debian'
+name = 'slowhttptest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slowhttptest'

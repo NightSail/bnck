@@ -1,0 +1,6 @@
+id = 'cramfsswap'
+name = 'cramfsswap'
+
+[[package]]
+channel = 'debian'
+name = 'cramfsswap'

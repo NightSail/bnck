@@ -1,0 +1,9 @@
+id = 'moon'
+name = 'moon'
+
+homepage = 'https://moonrepo.dev/moon'
+repository = 'https://github.com/moonrepo/moon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moon'

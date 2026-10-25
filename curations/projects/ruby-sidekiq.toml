@@ -1,0 +1,8 @@
+id = 'ruby-sidekiq'
+name = 'ruby-sidekiq'
+
+homepage = 'https://sidekiq.org'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-sidekiq'

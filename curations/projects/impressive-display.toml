@@ -1,0 +1,8 @@
+id = 'impressive-display'
+name = 'impressive-display'
+
+homepage = 'https://code.it-zukunft-schule.de/cgit/impressive-display'
+
+[[package]]
+channel = 'debian'
+name = 'impressive-display'

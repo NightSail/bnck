@@ -1,0 +1,12 @@
+id = 'blinken'
+name = 'blinken'
+
+homepage = 'https://apps.kde.org/blinken'
+
+[[package]]
+channel = 'arch'
+name = 'blinken'
+
+[[package]]
+channel = 'fedora'
+name = 'blinken'

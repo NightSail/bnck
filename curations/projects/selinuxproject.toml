@@ -1,0 +1,12 @@
+id = 'selinuxproject'
+name = 'selinuxproject'
+
+homepage = 'https://selinuxproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'policycoreutils-dev'
+
+[[package]]
+channel = 'debian'
+name = 'policycoreutils-python-utils'

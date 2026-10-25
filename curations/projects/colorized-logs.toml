@@ -1,0 +1,12 @@
+id = 'colorized-logs'
+name = 'colorized-logs'
+
+homepage = 'https://github.com/kilobyte/colorized-logs'
+
+[[package]]
+channel = 'debian'
+name = 'colorized-logs'
+
+[[package]]
+channel = 'fedora'
+name = 'colorized-logs'

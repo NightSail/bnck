@@ -1,0 +1,8 @@
+id = 'jupyter-client'
+name = 'jupyter-client'
+
+homepage = 'https://github.com/jupyter/jupyter_client'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-client'

@@ -1,0 +1,8 @@
+id = 'lomiri-app-launch-tools'
+name = 'lomiri-app-launch-tools'
+
+homepage = 'http://gitlab.com/ubports/development/core/lomiri-app-launch'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-app-launch-tools'

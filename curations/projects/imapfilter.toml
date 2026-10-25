@@ -1,0 +1,16 @@
+id = 'imapfilter'
+name = 'imapfilter'
+
+homepage = 'https://github.com/lefcha/imapfilter'
+
+[[package]]
+channel = 'debian'
+name = 'imapfilter'
+
+[[package]]
+channel = 'fedora'
+name = 'imapfilter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imapfilter'

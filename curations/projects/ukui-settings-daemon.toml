@@ -1,0 +1,8 @@
+id = 'ukui-settings-daemon'
+name = 'ukui-settings-daemon'
+
+homepage = 'https://gitee.com/openkylin/ukui-settings-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-settings-daemon'

@@ -1,0 +1,17 @@
+id = 'awscli'
+name = 'awscli'
+
+homepage = 'https://aws.amazon.com/cli'
+repository = 'https://github.com/aws/aws-cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'aws-cli'
+
+[[package]]
+channel = 'debian'
+name = 'awscli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awscli'

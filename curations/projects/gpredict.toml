@@ -1,0 +1,17 @@
+id = 'gpredict'
+name = 'gpredict'
+
+homepage = 'https://oz9aec.dk/gpredict'
+repository = 'https://github.com/csete/gpredict.git'
+
+[[package]]
+channel = 'debian'
+name = 'gpredict'
+
+[[package]]
+channel = 'fedora'
+name = 'gpredict'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpredict'

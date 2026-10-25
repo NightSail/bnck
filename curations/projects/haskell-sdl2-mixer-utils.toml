@@ -1,0 +1,8 @@
+id = 'haskell-sdl2-mixer-utils'
+name = 'haskell-sdl2-mixer-utils'
+
+homepage = 'https://hackage.haskell.org/package/sdl2-mixer'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-sdl2-mixer-utils'

@@ -1,0 +1,9 @@
+id = 'kitex'
+name = 'kitex'
+
+homepage = 'https://www.cloudwego.io/docs/kitex'
+repository = 'https://github.com/cloudwego/kitex.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kitex'

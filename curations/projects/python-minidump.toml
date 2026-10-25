@@ -1,0 +1,8 @@
+id = 'python-minidump'
+name = 'python-minidump'
+
+homepage = 'https://github.com/skelsec/minidump'
+
+[[package]]
+channel = 'arch'
+name = 'python-minidump'

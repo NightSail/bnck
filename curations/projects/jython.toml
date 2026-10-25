@@ -1,0 +1,12 @@
+id = 'jython'
+name = 'jython'
+
+homepage = 'https://www.jython.org'
+
+[[package]]
+channel = 'debian'
+name = 'jython'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jython'

@@ -1,0 +1,8 @@
+id = 'libemu'
+name = 'libemu'
+
+homepage = 'https://github.com/DinoTools/libemu'
+
+[[package]]
+channel = 'fedora'
+name = 'libemu'

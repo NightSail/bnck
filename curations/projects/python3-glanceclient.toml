@@ -1,0 +1,12 @@
+id = 'python3-glanceclient'
+name = 'python3-glanceclient'
+
+homepage = 'http://glance.openstack.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-glanceclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-glanceclient'

@@ -1,0 +1,12 @@
+id = 'fapolicyd'
+name = 'fapolicyd'
+
+homepage = 'https://github.com/linux-application-whitelisting/fapolicyd'
+
+[[package]]
+channel = 'debian'
+name = 'fapolicyd'
+
+[[package]]
+channel = 'fedora'
+name = 'fapolicyd'

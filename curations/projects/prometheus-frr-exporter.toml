@@ -1,0 +1,8 @@
+id = 'prometheus-frr-exporter'
+name = 'prometheus-frr-exporter'
+
+homepage = 'https://github.com/tynany/frr_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-frr-exporter'

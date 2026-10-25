@@ -1,0 +1,20 @@
+id = 'typescriptlang'
+name = 'typescriptlang'
+
+homepage = 'https://www.typescriptlang.org'
+
+[[package]]
+channel = 'arch'
+name = 'typescript'
+
+[[package]]
+channel = 'debian'
+name = 'node-typescript'
+
+[[package]]
+channel = 'fedora'
+name = 'typescript'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typescript'

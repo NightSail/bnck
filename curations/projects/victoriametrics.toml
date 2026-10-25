@@ -1,0 +1,12 @@
+id = 'victoriametrics'
+name = 'victoriametrics'
+
+homepage = 'https://victoriametrics.com'
+
+[[package]]
+channel = 'debian'
+name = 'victoria-metrics'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/victoriametrics'

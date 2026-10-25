@@ -1,0 +1,8 @@
+id = 'teampulls'
+name = 'teampulls'
+
+homepage = 'https://github.com/brejoc/teampulls'
+
+[[package]]
+channel = 'fedora'
+name = 'teampulls'

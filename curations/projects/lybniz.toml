@@ -1,0 +1,8 @@
+id = 'lybniz'
+name = 'lybniz'
+
+homepage = 'https://github.com/thomasfuhringer/lybniz'
+
+[[package]]
+channel = 'debian'
+name = 'lybniz'

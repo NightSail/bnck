@@ -1,0 +1,8 @@
+id = 'stressant'
+name = 'stressant'
+
+homepage = 'https://gitlab.com/anarcat/stressant'
+
+[[package]]
+channel = 'debian'
+name = 'stressant'

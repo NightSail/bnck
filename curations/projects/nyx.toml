@@ -1,0 +1,20 @@
+id = 'nyx'
+name = 'nyx'
+
+homepage = 'https://nyx.torproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'nyx'
+
+[[package]]
+channel = 'debian'
+name = 'nyx'
+
+[[package]]
+channel = 'fedora'
+name = 'nyx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nyx'

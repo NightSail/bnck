@@ -1,0 +1,8 @@
+id = 'cht-sh'
+name = 'cht.sh'
+
+homepage = 'https://cheat.sh'
+
+[[package]]
+channel = 'debian'
+name = 'cht.sh'

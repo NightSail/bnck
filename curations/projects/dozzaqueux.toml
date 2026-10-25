@@ -1,0 +1,8 @@
+id = 'dozzaqueux'
+name = 'dozzaqueux'
+
+homepage = 'http://jeanmarie.biansan.free.fr/dozzzaqueux.html'
+
+[[package]]
+channel = 'debian'
+name = 'dozzaqueux'

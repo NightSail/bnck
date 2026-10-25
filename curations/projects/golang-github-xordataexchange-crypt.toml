@@ -1,0 +1,12 @@
+id = 'golang-github-xordataexchange-crypt'
+name = 'golang-github-xordataexchange-crypt'
+
+homepage = 'https://github.com/xordataexchange/crypt'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-xordataexchange-crypt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-xordataexchange-crypt'

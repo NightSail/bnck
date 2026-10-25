@@ -1,0 +1,8 @@
+id = 'ghc-criterion-devel'
+name = 'ghc-criterion-devel'
+
+homepage = 'https://hackage.haskell.org/package/criterion'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-criterion-devel'

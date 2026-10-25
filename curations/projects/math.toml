@@ -1,0 +1,12 @@
+id = 'math'
+name = 'math'
+
+homepage = 'http://www.mathomatic.org/math'
+
+[[package]]
+channel = 'fedora'
+name = 'mathomatic'
+
+[[package]]
+channel = 'fedora'
+name = 'mathomatic-tools'

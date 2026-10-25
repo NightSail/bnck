@@ -1,0 +1,12 @@
+id = 'kate-editor'
+name = 'kate-editor'
+
+homepage = 'https://kate-editor.org'
+
+[[package]]
+channel = 'debian'
+name = 'kate'
+
+[[package]]
+channel = 'debian'
+name = 'kwrite'

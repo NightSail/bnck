@@ -1,0 +1,34 @@
+id = 'python3-13'
+name = 'python3.13'
+
+[[package]]
+channel = 'debian'
+name = 'idle-python3.13'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3.13-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3.13-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3.13'
+
+[[package]]
+channel = 'debian'
+name = 'python3.13-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'python3.13-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3.13-minimal'
+
+[[package]]
+channel = 'debian'
+name = 'python3.13-nopie'

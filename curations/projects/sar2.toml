@@ -1,0 +1,8 @@
+id = 'sar2'
+name = 'sar2'
+
+homepage = 'https://github.com/SearchAndRescue2/sar2'
+
+[[package]]
+channel = 'fedora'
+name = 'sar2'

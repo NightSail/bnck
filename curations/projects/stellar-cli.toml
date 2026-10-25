@@ -1,0 +1,9 @@
+id = 'stellar-cli'
+name = 'stellar-cli'
+
+homepage = 'https://developers.stellar.org'
+repository = 'https://github.com/stellar/stellar-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stellar-cli'

@@ -1,0 +1,20 @@
+id = 'colordiff'
+name = 'colordiff'
+
+homepage = 'https://www.colordiff.org'
+
+[[package]]
+channel = 'arch'
+name = 'colordiff'
+
+[[package]]
+channel = 'debian'
+name = 'colordiff'
+
+[[package]]
+channel = 'fedora'
+name = 'colordiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/colordiff'

@@ -1,0 +1,8 @@
+id = 'vulture-jendrikseipp'
+name = 'vulture'
+
+repository = 'https://github.com/jendrikseipp/vulture.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vulture'

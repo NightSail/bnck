@@ -1,0 +1,8 @@
+id = 'xcwd'
+name = 'xcwd'
+
+homepage = 'https://github.com/schischi/xcwd'
+
+[[package]]
+channel = 'debian'
+name = 'xcwd'

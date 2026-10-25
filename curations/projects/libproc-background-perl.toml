@@ -1,0 +1,8 @@
+id = 'libproc-background-perl'
+name = 'libproc-background-perl'
+
+homepage = 'https://metacpan.org/release/Proc-Background'
+
+[[package]]
+channel = 'debian'
+name = 'libproc-background-perl'

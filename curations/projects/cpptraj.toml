@@ -1,0 +1,8 @@
+id = 'cpptraj'
+name = 'cpptraj'
+
+homepage = 'https://github.com/Amber-MD/cpptraj'
+
+[[package]]
+channel = 'debian'
+name = 'cpptraj'

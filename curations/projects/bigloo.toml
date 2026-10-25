@@ -1,0 +1,17 @@
+id = 'bigloo'
+name = 'bigloo'
+
+homepage = 'https://www-sop.inria.fr/mimosa/fp/Bigloo'
+repository = 'https://github.com/manuel-serrano/bigloo.git'
+
+[[package]]
+channel = 'arch'
+name = 'bigloo'
+
+[[package]]
+channel = 'fedora'
+name = 'bigloo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bigloo'

@@ -1,0 +1,8 @@
+id = 'demumble'
+name = 'demumble'
+
+repository = 'https://github.com/nico/demumble.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/demumble'

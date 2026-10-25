@@ -1,0 +1,8 @@
+id = 'meetmic'
+name = 'meetmic'
+
+homepage = 'https://meetmic.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/meetmic'

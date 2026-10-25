@@ -1,0 +1,21 @@
+id = 'glslang'
+name = 'glslang'
+
+homepage = 'https://www.khronos.org/opengles/sdk/Reference-Compiler'
+repository = 'https://github.com/KhronosGroup/glslang.git'
+
+[[package]]
+channel = 'arch'
+name = 'glslang'
+
+[[package]]
+channel = 'debian'
+name = 'glslang-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'glslang'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glslang'

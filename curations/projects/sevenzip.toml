@@ -1,0 +1,9 @@
+id = 'sevenzip'
+name = 'sevenzip'
+
+homepage = 'https://7-zip.org'
+repository = 'https://github.com/ip7z/7zip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sevenzip'

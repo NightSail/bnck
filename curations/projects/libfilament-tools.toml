@@ -1,0 +1,8 @@
+id = 'libfilament-tools'
+name = 'libfilament-tools'
+
+homepage = 'https://github.com/google/filament'
+
+[[package]]
+channel = 'debian'
+name = 'libfilament-tools'

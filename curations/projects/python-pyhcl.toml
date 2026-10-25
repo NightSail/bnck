@@ -1,0 +1,8 @@
+id = 'python-pyhcl'
+name = 'python-pyhcl'
+
+homepage = 'https://pypi.org/project/pyhcl'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyhcl'

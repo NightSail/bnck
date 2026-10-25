@@ -1,0 +1,50 @@
+id = 'llvm-defaults'
+name = 'llvm-defaults'
+
+[[package]]
+channel = 'debian'
+name = 'clang'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools'
+
+[[package]]
+channel = 'debian'
+name = 'clangd'
+
+[[package]]
+channel = 'debian'
+name = 'flang'
+
+[[package]]
+channel = 'debian'
+name = 'lld'
+
+[[package]]
+channel = 'debian'
+name = 'lldb'
+
+[[package]]
+channel = 'debian'
+name = 'llvm'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-bolt'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-tools'

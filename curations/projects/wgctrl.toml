@@ -1,0 +1,8 @@
+id = 'wgctrl'
+name = 'wgctrl'
+
+homepage = 'https://github.com/WireGuard/wgctrl-go'
+
+[[package]]
+channel = 'fedora'
+name = 'wgctrl'

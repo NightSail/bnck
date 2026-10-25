@@ -1,0 +1,8 @@
+id = 'dmalloc'
+name = 'dmalloc'
+
+homepage = 'https://dmalloc.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dmalloc'

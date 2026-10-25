@@ -1,0 +1,8 @@
+id = 'hot-tux'
+name = 'hot-tux'
+
+homepage = 'https://github.com/judovana/hot-tux'
+
+[[package]]
+channel = 'fedora'
+name = 'hot-tux'

@@ -1,0 +1,8 @@
+id = 'ranger-replicadse'
+name = 'ranger'
+
+repository = 'https://github.com/replicadse/ranger'
+
+[[package]]
+channel = 'crates.io'
+name = 'ranger'

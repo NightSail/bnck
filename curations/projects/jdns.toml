@@ -1,0 +1,8 @@
+id = 'jdns'
+name = 'jdns'
+
+homepage = 'http://delta.affinix.com/jdns'
+
+[[package]]
+channel = 'debian'
+name = 'jdns'

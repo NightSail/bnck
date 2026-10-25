@@ -1,0 +1,28 @@
+id = 'openjdk'
+name = 'openjdk'
+
+homepage = 'https://openjdk.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjdk@11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjdk@17'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjdk@21'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjdk@25'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjdk@8'

@@ -1,0 +1,16 @@
+id = 'ntfs2btrfs'
+name = 'ntfs2btrfs'
+
+homepage = 'https://github.com/maharmstone/ntfs2btrfs'
+
+[[package]]
+channel = 'debian'
+name = 'ntfs2btrfs'
+
+[[package]]
+channel = 'fedora'
+name = 'ntfs2btrfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ntfs2btrfs'

@@ -1,0 +1,8 @@
+id = 'ohai'
+name = 'ohai'
+
+homepage = 'https://github.com/chef/ohai'
+
+[[package]]
+channel = 'debian'
+name = 'ohai'

@@ -1,0 +1,8 @@
+id = 'lorax'
+name = 'lorax'
+
+homepage = 'https://github.com/weldr/lorax'
+
+[[package]]
+channel = 'fedora'
+name = 'lorax'

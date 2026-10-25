@@ -1,0 +1,12 @@
+id = 'frobby'
+name = 'frobby'
+
+homepage = 'https://github.com/Macaulay2/frobby'
+
+[[package]]
+channel = 'debian'
+name = 'frobby'
+
+[[package]]
+channel = 'fedora'
+name = 'frobby'

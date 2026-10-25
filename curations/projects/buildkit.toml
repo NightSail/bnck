@@ -1,0 +1,12 @@
+id = 'buildkit'
+name = 'buildkit'
+
+homepage = 'https://github.com/moby/buildkit'
+
+[[package]]
+channel = 'arch'
+name = 'buildkit'
+
+[[package]]
+channel = 'fedora'
+name = 'docker-buildkit'

@@ -1,0 +1,8 @@
+id = 'repose'
+name = 'repose'
+
+homepage = 'https://github.com/vodik/repose'
+
+[[package]]
+channel = 'arch'
+name = 'repose'

@@ -1,0 +1,8 @@
+id = 'gnustep-dl2'
+name = 'gnustep-dl2'
+
+homepage = 'https://mediawiki.gnustep.org/index.php/GDL'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-dl2'

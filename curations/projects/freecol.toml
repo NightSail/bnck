@@ -1,0 +1,12 @@
+id = 'freecol'
+name = 'freecol'
+
+homepage = 'http://www.freecol.org'
+
+[[package]]
+channel = 'arch'
+name = 'freecol'
+
+[[package]]
+channel = 'fedora'
+name = 'freecol'

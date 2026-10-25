@@ -1,0 +1,8 @@
+id = 'sdm'
+name = 'sdm'
+
+homepage = 'https://www.strongdm.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sdm'

@@ -1,0 +1,16 @@
+id = 'shotwell'
+name = 'shotwell'
+
+homepage = 'https://wiki.gnome.org/Apps/Shotwell'
+
+[[package]]
+channel = 'arch'
+name = 'shotwell'
+
+[[package]]
+channel = 'debian'
+name = 'shotwell'
+
+[[package]]
+channel = 'fedora'
+name = 'shotwell'

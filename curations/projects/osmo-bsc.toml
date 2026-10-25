@@ -1,0 +1,24 @@
+id = 'osmo-bsc'
+name = 'osmo-bsc'
+
+homepage = 'https://osmocom.org/projects/osmobsc'
+
+[[package]]
+channel = 'debian'
+name = 'abisip-find'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-bsc'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-bsc-bs11-utils'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-bsc-ipaccess-utils'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-bsc-meas-utils'

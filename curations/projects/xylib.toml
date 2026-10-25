@@ -1,0 +1,8 @@
+id = 'xylib'
+name = 'xylib'
+
+homepage = 'http://xylib.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'xylib'

@@ -1,0 +1,8 @@
+id = 'hspell-gui'
+name = 'hspell-gui'
+
+homepage = 'http://hspell-gui.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'hspell-gui'

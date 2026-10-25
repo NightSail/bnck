@@ -1,0 +1,8 @@
+id = 'mlc'
+name = 'mlc'
+
+repository = 'https://github.com/becheran/mlc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlc'

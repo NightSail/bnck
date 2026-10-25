@@ -1,0 +1,12 @@
+id = 'numpy-stl'
+name = 'numpy-stl'
+
+homepage = 'https://github.com/WoLpH/numpy-stl'
+
+[[package]]
+channel = 'debian'
+name = 'numpy-stl'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-numpy-stl'

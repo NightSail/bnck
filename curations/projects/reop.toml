@@ -1,0 +1,8 @@
+id = 'reop'
+name = 'reop'
+
+homepage = 'https://web.archive.org/web/20251224210131/https://flak.tedunangst.com/post/reop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reop'

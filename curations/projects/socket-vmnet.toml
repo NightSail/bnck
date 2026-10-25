@@ -1,0 +1,8 @@
+id = 'socket-vmnet'
+name = 'socket_vmnet'
+
+repository = 'https://github.com/lima-vm/socket_vmnet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/socket_vmnet'

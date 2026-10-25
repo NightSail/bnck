@@ -1,0 +1,12 @@
+id = 'w-calc'
+name = 'w-calc'
+
+homepage = 'https://w-calc.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wcalc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/w-calc'

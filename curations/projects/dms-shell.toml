@@ -1,0 +1,8 @@
+id = 'dms-shell'
+name = 'dms-shell'
+
+homepage = 'https://github.com/AvengeMedia/DankMaterialShell'
+
+[[package]]
+channel = 'arch'
+name = 'dms-shell'

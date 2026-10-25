@@ -1,0 +1,9 @@
+id = 'spoof-mac'
+name = 'spoof-mac'
+
+homepage = 'https://feross.org/spoofmac'
+repository = 'https://github.com/feross/SpoofMAC.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spoof-mac'

@@ -1,0 +1,8 @@
+id = 'msdfgen'
+name = 'msdfgen'
+
+repository = 'https://github.com/Chlumsky/msdfgen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msdfgen'

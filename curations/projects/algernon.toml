@@ -1,0 +1,13 @@
+id = 'algernon'
+name = 'algernon'
+
+homepage = 'https://algernon.roboticoverlords.org'
+repository = 'https://github.com/xyproto/algernon.git'
+
+[[package]]
+channel = 'arch'
+name = 'algernon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/algernon'

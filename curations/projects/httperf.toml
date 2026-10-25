@@ -1,0 +1,16 @@
+id = 'httperf'
+name = 'httperf'
+
+repository = 'https://github.com/httperf/httperf.git'
+
+[[package]]
+channel = 'debian'
+name = 'httperf'
+
+[[package]]
+channel = 'fedora'
+name = 'httperf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httperf'

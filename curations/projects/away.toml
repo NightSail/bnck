@@ -1,0 +1,8 @@
+id = 'away'
+name = 'away'
+
+homepage = 'https://web.archive.org/web/20050316212734/http://unbeatenpath.net/software/away'
+
+[[package]]
+channel = 'debian'
+name = 'away'

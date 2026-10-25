@@ -1,0 +1,16 @@
+id = 'lbdb'
+name = 'lbdb'
+
+homepage = 'https://www.spinnaker.de/lbdb'
+
+[[package]]
+channel = 'debian'
+name = 'lbdb'
+
+[[package]]
+channel = 'fedora'
+name = 'lbdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lbdb'

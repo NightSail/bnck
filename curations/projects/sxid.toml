@@ -1,0 +1,6 @@
+id = 'sxid'
+name = 'sxid'
+
+[[package]]
+channel = 'debian'
+name = 'sxid'

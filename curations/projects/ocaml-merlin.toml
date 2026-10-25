@@ -1,0 +1,20 @@
+id = 'ocaml-merlin'
+name = 'ocaml'
+
+homepage = 'https://ocaml.github.io/merlin'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-merlin'
+
+[[package]]
+channel = 'fedora'
+name = 'dot-merlin-reader'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-index'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-merlin'

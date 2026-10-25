@@ -1,0 +1,8 @@
+id = 'natbraille'
+name = 'natbraille'
+
+homepage = 'http://natbraille.free.fr'
+
+[[package]]
+channel = 'debian'
+name = 'natbraille'

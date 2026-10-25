@@ -1,0 +1,8 @@
+id = 'python3-foolscap'
+name = 'python3-foolscap'
+
+homepage = 'http://foolscap.lothar.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-foolscap'

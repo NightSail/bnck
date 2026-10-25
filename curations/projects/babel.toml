@@ -1,0 +1,16 @@
+id = 'babel'
+name = 'babel'
+
+homepage = 'http://babel.pocoo.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-babel'
+
+[[package]]
+channel = 'debian'
+name = 'python3-babel'
+
+[[package]]
+channel = 'fedora'
+name = 'babel'

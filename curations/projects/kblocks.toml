@@ -1,0 +1,12 @@
+id = 'kblocks'
+name = 'kblocks'
+
+homepage = 'https://apps.kde.org/kblocks'
+
+[[package]]
+channel = 'arch'
+name = 'kblocks'
+
+[[package]]
+channel = 'fedora'
+name = 'kblocks'

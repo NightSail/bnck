@@ -1,0 +1,8 @@
+id = 'cloudflare-cli4'
+name = 'cloudflare-cli4'
+
+repository = 'https://github.com/cloudflare/python-cloudflare-cli4.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudflare-cli4'

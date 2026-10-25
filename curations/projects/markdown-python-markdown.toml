@@ -1,0 +1,12 @@
+id = 'markdown-python-markdown'
+name = 'markdown'
+
+homepage = 'https://github.com/Python-Markdown/markdown'
+
+[[package]]
+channel = 'debian'
+name = 'python3-markdown'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-markdown_2'

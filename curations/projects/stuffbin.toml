@@ -1,0 +1,8 @@
+id = 'stuffbin'
+name = 'stuffbin'
+
+repository = 'https://github.com/knadh/stuffbin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stuffbin'

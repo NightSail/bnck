@@ -1,0 +1,8 @@
+id = 'facad'
+name = 'facad'
+
+homepage = 'https://github.com/yellow-footed-honeyguide/facad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/facad'

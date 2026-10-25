@@ -1,0 +1,8 @@
+id = 'webdar'
+name = 'webdar'
+
+homepage = 'https://edrusb.github.io/webdar'
+
+[[package]]
+channel = 'debian'
+name = 'webdar'

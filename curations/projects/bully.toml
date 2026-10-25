@@ -1,0 +1,12 @@
+id = 'bully'
+name = 'bully'
+
+homepage = 'https://github.com/kimocoder/bully'
+
+[[package]]
+channel = 'arch'
+name = 'bully'
+
+[[package]]
+channel = 'debian'
+name = 'bully'

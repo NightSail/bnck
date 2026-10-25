@@ -1,0 +1,8 @@
+id = 'mailscripts'
+name = 'mailscripts'
+
+homepage = 'https://git.spwhitton.name/mailscripts'
+
+[[package]]
+channel = 'debian'
+name = 'mailscripts'

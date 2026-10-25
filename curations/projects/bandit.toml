@@ -1,0 +1,12 @@
+id = 'bandit'
+name = 'bandit'
+
+homepage = 'https://github.com/PyCQA/bandit'
+
+[[package]]
+channel = 'arch'
+name = 'bandit'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bandit'

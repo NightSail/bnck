@@ -1,0 +1,8 @@
+id = 'calligrasheets'
+name = 'calligrasheets'
+
+homepage = 'https://www.calligra.org/sheets'
+
+[[package]]
+channel = 'debian'
+name = 'calligrasheets'

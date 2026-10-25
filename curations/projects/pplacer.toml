@@ -1,0 +1,8 @@
+id = 'pplacer'
+name = 'pplacer'
+
+homepage = 'https://github.com/matsen/pplacer'
+
+[[package]]
+channel = 'debian'
+name = 'pplacer'

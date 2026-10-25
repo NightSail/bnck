@@ -1,0 +1,8 @@
+id = 'vkcheck'
+name = 'vkcheck'
+
+homepage = 'https://codeberg.org/serebit/vkcheck'
+
+[[package]]
+channel = 'arch'
+name = 'vkcheck'

@@ -1,0 +1,9 @@
+id = 'akku'
+name = 'akku'
+
+homepage = 'https://akkuscm.org'
+repository = 'https://gitlab.com/akkuscm/akku.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/akku'

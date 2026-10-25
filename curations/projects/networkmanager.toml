@@ -1,0 +1,32 @@
+id = 'networkmanager'
+name = 'NetworkManager'
+
+homepage = 'https://networkmanager.dev'
+
+[[package]]
+channel = 'arch'
+name = 'networkmanager'
+
+[[package]]
+channel = 'debian'
+name = 'network-manager'
+
+[[package]]
+channel = 'debian'
+name = 'network-manager-applet'
+
+[[package]]
+channel = 'debian'
+name = 'network-manager-tui'
+
+[[package]]
+channel = 'debian'
+name = 'nm-connection-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'NetworkManager'
+
+[[package]]
+channel = 'fedora'
+name = 'NetworkManager-tui'

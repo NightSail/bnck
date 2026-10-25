@@ -1,0 +1,28 @@
+id = 'lxde-lxde'
+name = 'lxde'
+
+homepage = 'http://lxde.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'lxde-common'
+
+[[package]]
+channel = 'fedora'
+name = 'lxpolkit'
+
+[[package]]
+channel = 'fedora'
+name = 'lxsession'
+
+[[package]]
+channel = 'fedora'
+name = 'lxsession-edit'
+
+[[package]]
+channel = 'fedora'
+name = 'lxtask'
+
+[[package]]
+channel = 'fedora'
+name = 'lxterminal'

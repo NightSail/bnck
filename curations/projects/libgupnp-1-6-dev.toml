@@ -1,0 +1,8 @@
+id = 'libgupnp-1-6-dev'
+name = 'libgupnp-1.6-dev'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/gupnp/docs'
+
+[[package]]
+channel = 'debian'
+name = 'libgupnp-1.6-dev'

@@ -1,0 +1,9 @@
+id = 'gtree'
+name = 'gtree'
+
+homepage = 'https://ddddddo.github.io/gtree'
+repository = 'https://github.com/ddddddO/gtree.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtree'

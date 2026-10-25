@@ -1,0 +1,8 @@
+id = 'adanaxisgpl'
+name = 'adanaxisgpl'
+
+homepage = 'http://www.mushware.com'
+
+[[package]]
+channel = 'fedora'
+name = 'adanaxisgpl'

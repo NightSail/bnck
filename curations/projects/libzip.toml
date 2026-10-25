@@ -1,0 +1,28 @@
+id = 'libzip'
+name = 'libzip'
+
+homepage = 'https://libzip.org'
+
+[[package]]
+channel = 'arch'
+name = 'libzip'
+
+[[package]]
+channel = 'debian'
+name = 'zipcmp'
+
+[[package]]
+channel = 'debian'
+name = 'zipmerge'
+
+[[package]]
+channel = 'debian'
+name = 'ziptool'
+
+[[package]]
+channel = 'fedora'
+name = 'libzip-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libzip'

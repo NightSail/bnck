@@ -1,0 +1,9 @@
+id = 'yutu'
+name = 'yutu'
+
+homepage = 'https://yutu.ifor.dev'
+repository = 'https://github.com/eat-pray-ai/yutu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yutu'

@@ -1,0 +1,12 @@
+id = 'prometheus-snmp-exporter'
+name = 'prometheus-snmp-exporter'
+
+homepage = 'https://github.com/prometheus/snmp_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-snmp-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-snmp-exporter'

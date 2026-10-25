@@ -1,0 +1,8 @@
+id = 'python3-ismartgate'
+name = 'python3-ismartgate'
+
+homepage = 'https://github.com/bdraco/ismartgate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ismartgate'

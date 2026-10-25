@@ -1,0 +1,8 @@
+id = 'openrdate'
+name = 'openrdate'
+
+homepage = 'http://sourceforge.net/projects/openrdate'
+
+[[package]]
+channel = 'fedora'
+name = 'openrdate'

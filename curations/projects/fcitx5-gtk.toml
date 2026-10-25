@@ -1,0 +1,32 @@
+id = 'fcitx5-gtk'
+name = 'fcitx5-gtk'
+
+homepage = 'https://github.com/fcitx/fcitx5-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'fcitx5-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-frontend-gtk2'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-frontend-gtk3'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-frontend-gtk4'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-gtk2'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-gtk3'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-gtk4'

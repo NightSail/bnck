@@ -1,0 +1,8 @@
+id = 'newflasher'
+name = 'newflasher'
+
+homepage = 'https://github.com/munjeni/newflasher'
+
+[[package]]
+channel = 'fedora'
+name = 'newflasher'

@@ -1,0 +1,12 @@
+id = 'dwz'
+name = 'dwz'
+
+homepage = 'https://www.sourceware.org/dwz'
+
+[[package]]
+channel = 'debian'
+name = 'dwz'
+
+[[package]]
+channel = 'fedora'
+name = 'dwz'

@@ -1,0 +1,12 @@
+id = 'xfce4-notes-plugin'
+name = 'xfce4-notes-plugin'
+
+homepage = 'https://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-notes'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-notes-plugin'

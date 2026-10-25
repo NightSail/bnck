@@ -1,0 +1,8 @@
+id = 'misspell-fixer'
+name = 'misspell-fixer'
+
+homepage = 'https://github.com/vlajos/misspell-fixer'
+
+[[package]]
+channel = 'debian'
+name = 'misspell-fixer'

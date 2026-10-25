@@ -1,0 +1,10 @@
+id = 'mingetty'
+name = 'mingetty'
+
+[[package]]
+channel = 'debian'
+name = 'mingetty'
+
+[[package]]
+channel = 'fedora'
+name = 'mingetty'

@@ -1,0 +1,8 @@
+id = 'fits'
+name = 'fits'
+
+homepage = 'https://harvard-lts.github.io/fits'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fits'

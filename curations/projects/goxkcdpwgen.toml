@@ -1,0 +1,12 @@
+id = 'goxkcdpwgen'
+name = 'goxkcdpwgen'
+
+homepage = 'https://github.com/martinhoefling/goxkcdpwgen'
+
+[[package]]
+channel = 'debian'
+name = 'goxkcdpwgen'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-martinhoefling-goxkcdpwgen'

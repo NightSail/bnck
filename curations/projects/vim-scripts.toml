@@ -1,0 +1,8 @@
+id = 'vim-scripts'
+name = 'vim-scripts'
+
+homepage = 'http://www.vim.org/scripts'
+
+[[package]]
+channel = 'debian'
+name = 'vim-scripts'

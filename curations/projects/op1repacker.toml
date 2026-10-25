@@ -1,0 +1,8 @@
+id = 'op1repacker'
+name = 'op1repacker'
+
+homepage = 'https://github.com/op1hacks/op1repacker'
+
+[[package]]
+channel = 'fedora'
+name = 'op1repacker'

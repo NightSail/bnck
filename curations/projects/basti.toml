@@ -1,0 +1,8 @@
+id = 'basti'
+name = 'basti'
+
+homepage = 'https://www.basti.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/basti'

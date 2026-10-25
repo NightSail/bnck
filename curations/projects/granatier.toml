@@ -1,0 +1,12 @@
+id = 'granatier'
+name = 'granatier'
+
+homepage = 'https://apps.kde.org/granatier'
+
+[[package]]
+channel = 'arch'
+name = 'granatier'
+
+[[package]]
+channel = 'fedora'
+name = 'granatier'

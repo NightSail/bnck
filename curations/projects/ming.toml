@@ -1,0 +1,8 @@
+id = 'ming'
+name = 'ming'
+
+homepage = 'https://github.com/libming'
+
+[[package]]
+channel = 'arch'
+name = 'ming'

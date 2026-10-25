@@ -1,0 +1,16 @@
+id = 'xfce4-panel-profiles'
+name = 'xfce4-panel-profiles'
+
+homepage = 'https://docs.xfce.org/apps/xfce4-panel-profiles/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-panel-profiles'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-panel-profiles'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-panel-profiles'

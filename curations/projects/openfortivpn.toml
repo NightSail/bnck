@@ -1,0 +1,20 @@
+id = 'openfortivpn'
+name = 'openfortivpn'
+
+repository = 'https://github.com/adrienverge/openfortivpn.git'
+
+[[package]]
+channel = 'arch'
+name = 'openfortivpn'
+
+[[package]]
+channel = 'debian'
+name = 'openfortivpn'
+
+[[package]]
+channel = 'fedora'
+name = 'openfortivpn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openfortivpn'

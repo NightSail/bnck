@@ -1,0 +1,9 @@
+id = 'awsume'
+name = 'awsume'
+
+homepage = 'https://awsu.me'
+repository = 'https://github.com/trek10inc/awsume.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awsume'

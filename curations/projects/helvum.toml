@@ -1,0 +1,16 @@
+id = 'helvum'
+name = 'helvum'
+
+homepage = 'https://gitlab.freedesktop.org/pipewire/helvum'
+
+[[package]]
+channel = 'arch'
+name = 'helvum'
+
+[[package]]
+channel = 'debian'
+name = 'helvum'
+
+[[package]]
+channel = 'fedora'
+name = 'helvum'

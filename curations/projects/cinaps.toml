@@ -1,0 +1,12 @@
+id = 'cinaps'
+name = 'cinaps'
+
+homepage = 'https://github.com/ocaml-ppx/cinaps'
+
+[[package]]
+channel = 'debian'
+name = 'libcinaps-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-cinaps'

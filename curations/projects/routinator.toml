@@ -1,0 +1,8 @@
+id = 'routinator'
+name = 'routinator'
+
+homepage = 'https://crates.io/crates/routinator'
+
+[[package]]
+channel = 'fedora'
+name = 'routinator'

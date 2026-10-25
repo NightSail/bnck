@@ -1,0 +1,12 @@
+id = 'tasty-discover'
+name = 'tasty-discover'
+
+homepage = 'https://github.com/haskell-works/tasty-discover'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-tasty-discover'
+
+[[package]]
+channel = 'debian'
+name = 'tasty-discover'

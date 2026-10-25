@@ -1,0 +1,12 @@
+id = 'arachne-pnr'
+name = 'arachne-pnr'
+
+homepage = 'https://github.com/YosysHQ/arachne-pnr'
+
+[[package]]
+channel = 'debian'
+name = 'arachne-pnr'
+
+[[package]]
+channel = 'fedora'
+name = 'arachne-pnr'

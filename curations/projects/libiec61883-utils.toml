@@ -1,0 +1,8 @@
+id = 'libiec61883-utils'
+name = 'libiec61883-utils'
+
+homepage = 'http://ieee1394.wiki.kernel.org/index.php/Libraries'
+
+[[package]]
+channel = 'fedora'
+name = 'libiec61883-utils'

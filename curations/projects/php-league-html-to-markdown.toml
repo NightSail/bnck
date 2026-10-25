@@ -1,0 +1,8 @@
+id = 'php-league-html-to-markdown'
+name = 'php-league-html-to-markdown'
+
+homepage = 'https://github.com/thephpleague/html-to-markdown'
+
+[[package]]
+channel = 'debian'
+name = 'php-league-html-to-markdown'

@@ -1,0 +1,13 @@
+id = 'sic'
+name = 'sic'
+
+homepage = 'http://tools.suckless.org/sic'
+repository = 'https://git.suckless.org/sic'
+
+[[package]]
+channel = 'debian'
+name = 'sic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sic'

@@ -1,0 +1,8 @@
+id = 'array-info'
+name = 'array-info'
+
+homepage = 'https://sourceforge.net/projects/array-info'
+
+[[package]]
+channel = 'debian'
+name = 'array-info'

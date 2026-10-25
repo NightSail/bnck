@@ -1,0 +1,12 @@
+id = 'python3-stestr'
+name = 'python3-stestr'
+
+homepage = 'https://github.com/mtreinish/stestr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-stestr'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-stestr'

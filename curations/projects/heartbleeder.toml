@@ -1,0 +1,8 @@
+id = 'heartbleeder'
+name = 'heartbleeder'
+
+homepage = 'https://github.com/titanous/heartbleeder'
+
+[[package]]
+channel = 'debian'
+name = 'heartbleeder'

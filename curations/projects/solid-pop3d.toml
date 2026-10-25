@@ -1,0 +1,6 @@
+id = 'solid-pop3d'
+name = 'solid-pop3d'
+
+[[package]]
+channel = 'debian'
+name = 'solid-pop3d'

@@ -1,0 +1,8 @@
+id = 'readseq'
+name = 'readseq'
+
+homepage = 'http://iubio.bio.indiana.edu/soft/molbio/readseq'
+
+[[package]]
+channel = 'debian'
+name = 'readseq'

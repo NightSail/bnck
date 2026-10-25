@@ -1,0 +1,8 @@
+id = 'papi-tools'
+name = 'papi-tools'
+
+homepage = 'https://icl.utk.edu/papi'
+
+[[package]]
+channel = 'debian'
+name = 'papi-tools'

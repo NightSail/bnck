@@ -1,0 +1,8 @@
+id = 'python3-pybel'
+name = 'python3-pybel'
+
+homepage = 'https://pybel.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pybel'

@@ -1,0 +1,8 @@
+id = 'signstar-sign'
+name = 'signstar-sign'
+
+homepage = 'https://signstar.archlinux.page/signstar-sign'
+
+[[package]]
+channel = 'arch'
+name = 'signstar-sign'

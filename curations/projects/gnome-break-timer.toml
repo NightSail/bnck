@@ -1,0 +1,12 @@
+id = 'gnome-break-timer'
+name = 'gnome-break-timer'
+
+homepage = 'https://wiki.gnome.org/Apps/BreakTimer'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-break-timer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-break-timer'

@@ -1,0 +1,9 @@
+id = 'cask'
+name = 'cask'
+
+homepage = 'https://cask.readthedocs.io'
+repository = 'https://github.com/cask/cask.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cask'

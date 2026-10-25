@@ -1,0 +1,8 @@
+id = 'gitlabracadabra'
+name = 'gitlabracadabra'
+
+homepage = 'https://gitlab.com/gitlabracadabra/gitlabracadabra'
+
+[[package]]
+channel = 'debian'
+name = 'gitlabracadabra'

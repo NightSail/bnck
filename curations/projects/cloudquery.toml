@@ -1,0 +1,9 @@
+id = 'cloudquery'
+name = 'cloudquery'
+
+homepage = 'https://www.cloudquery.io'
+repository = 'https://github.com/cloudquery/cloudquery.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudquery'

@@ -1,0 +1,16 @@
+id = 'opensnitch'
+name = 'opensnitch'
+
+homepage = 'https://github.com/evilsocket/opensnitch'
+
+[[package]]
+channel = 'arch'
+name = 'opensnitch'
+
+[[package]]
+channel = 'debian'
+name = 'opensnitch'
+
+[[package]]
+channel = 'debian'
+name = 'python3-opensnitch-ui'

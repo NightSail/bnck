@@ -1,0 +1,12 @@
+id = 'handlebars'
+name = 'handlebars'
+
+homepage = 'https://handlebarsjs.com'
+
+[[package]]
+channel = 'debian'
+name = 'handlebars'
+
+[[package]]
+channel = 'fedora'
+name = 'handlebars'

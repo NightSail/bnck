@@ -1,0 +1,8 @@
+id = 'trophy'
+name = 'trophy'
+
+homepage = 'http://trophy.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'trophy'

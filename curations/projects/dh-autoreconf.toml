@@ -1,0 +1,10 @@
+id = 'dh-autoreconf'
+name = 'dh-autoreconf'
+
+[[package]]
+channel = 'debian'
+name = 'dh-autoreconf'
+
+[[package]]
+channel = 'fedora'
+name = 'dh-autoreconf'

@@ -1,0 +1,24 @@
+id = 'windowmaker'
+name = 'WindowMaker'
+
+homepage = 'https://www.windowmaker.org'
+
+[[package]]
+channel = 'arch'
+name = 'windowmaker'
+
+[[package]]
+channel = 'debian'
+name = 'wmaker'
+
+[[package]]
+channel = 'debian'
+name = 'wmaker-common'
+
+[[package]]
+channel = 'debian'
+name = 'wmaker-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'WindowMaker'

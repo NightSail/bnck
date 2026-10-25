@@ -1,0 +1,8 @@
+id = 'rubygem-bacon'
+name = 'rubygem-bacon'
+
+homepage = 'http://github.com/chneukirchen/bacon'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-bacon'

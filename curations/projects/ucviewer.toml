@@ -1,0 +1,8 @@
+id = 'ucviewer'
+name = 'ucviewer'
+
+homepage = 'http://sourceforge.net/projects/ucviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'ucviewer'

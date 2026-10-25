@@ -1,0 +1,6 @@
+id = 'dbconfig-common'
+name = 'dbconfig-common'
+
+[[package]]
+channel = 'debian'
+name = 'dbconfig-common'

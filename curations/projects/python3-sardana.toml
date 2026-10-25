@@ -1,0 +1,8 @@
+id = 'python3-sardana'
+name = 'python3-sardana'
+
+homepage = 'https://www.sardana-controls.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sardana'

@@ -1,0 +1,20 @@
+id = 'squashfuse'
+name = 'squashfuse'
+
+homepage = 'https://github.com/vasi/squashfuse'
+
+[[package]]
+channel = 'arch'
+name = 'squashfuse'
+
+[[package]]
+channel = 'debian'
+name = 'squashfuse'
+
+[[package]]
+channel = 'fedora'
+name = 'squashfuse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/squashfuse'

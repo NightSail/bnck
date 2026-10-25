@@ -1,0 +1,8 @@
+id = 'thingy'
+name = 'thingy'
+
+homepage = 'https://github.com/linuxmint/thingy'
+
+[[package]]
+channel = 'arch'
+name = 'thingy'

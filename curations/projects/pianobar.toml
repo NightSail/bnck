@@ -1,0 +1,21 @@
+id = 'pianobar'
+name = 'pianobar'
+
+homepage = 'https://6xq.net/pianobar'
+repository = 'https://codeberg.org/purplesym/pianobar.git'
+
+[[package]]
+channel = 'arch'
+name = 'pianobar'
+
+[[package]]
+channel = 'debian'
+name = 'pianobar'
+
+[[package]]
+channel = 'fedora'
+name = 'pianobar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pianobar'

@@ -1,0 +1,8 @@
+id = 'golang-gir-generator'
+name = 'golang-gir-generator'
+
+homepage = 'https://github.com/linuxdeepin/go-gir-generator'
+
+[[package]]
+channel = 'debian'
+name = 'golang-gir-generator'

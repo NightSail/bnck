@@ -1,0 +1,8 @@
+id = 'dvc'
+name = 'dvc'
+
+homepage = 'https://dvc.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvc'

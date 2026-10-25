@@ -1,0 +1,8 @@
+id = 'xorg-xcalc'
+name = 'xorg-xcalc'
+
+homepage = 'https://cgit.freedesktop.org/xorg/app/xcalc'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xcalc'

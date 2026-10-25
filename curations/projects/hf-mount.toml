@@ -1,0 +1,8 @@
+id = 'hf-mount'
+name = 'hf-mount'
+
+repository = 'https://github.com/huggingface/hf-mount.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hf-mount'

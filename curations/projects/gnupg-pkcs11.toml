@@ -1,0 +1,20 @@
+id = 'gnupg-pkcs11'
+name = 'gnupg-pkcs11'
+
+homepage = 'https://gnupg-pkcs11.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gnupg-pkcs11-scd'
+
+[[package]]
+channel = 'debian'
+name = 'gnupg-pkcs11-scd-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg-pkcs11-scd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnupg-pkcs11-scd'

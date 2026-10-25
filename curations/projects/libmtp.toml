@@ -1,0 +1,20 @@
+id = 'libmtp'
+name = 'libmtp'
+
+homepage = 'https://libmtp.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libmtp'
+
+[[package]]
+channel = 'debian'
+name = 'mtp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libmtp-examples'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmtp'

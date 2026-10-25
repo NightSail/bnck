@@ -1,0 +1,16 @@
+id = 'task-spooler'
+name = 'task-spooler'
+
+homepage = 'https://viric.name/soft/ts'
+
+[[package]]
+channel = 'debian'
+name = 'task-spooler'
+
+[[package]]
+channel = 'fedora'
+name = 'task-spooler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/task-spooler'

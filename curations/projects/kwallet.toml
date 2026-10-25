@@ -1,0 +1,12 @@
+id = 'kwallet'
+name = 'kwallet'
+
+homepage = 'https://invent.kde.org/frameworks/kwallet'
+
+[[package]]
+channel = 'debian'
+name = 'kwallet6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kwallet'

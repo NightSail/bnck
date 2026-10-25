@@ -1,0 +1,16 @@
+id = 'hewlettpackard'
+name = 'hewlettpackard'
+
+homepage = 'https://hewlettpackard.github.io/wireless-tools/Tools.html'
+
+[[package]]
+channel = 'arch'
+name = 'wireless_tools'
+
+[[package]]
+channel = 'debian'
+name = 'ifrename'
+
+[[package]]
+channel = 'debian'
+name = 'wireless-tools'

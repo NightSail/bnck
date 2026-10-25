@@ -1,0 +1,8 @@
+id = 'python3-pgzero'
+name = 'python3-pgzero'
+
+homepage = 'https://pygame-zero.readthedocs.io/en/stable'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pgzero'

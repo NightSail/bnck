@@ -1,0 +1,13 @@
+id = 'gopls'
+name = 'gopls'
+
+homepage = 'https://github.com/golang/tools/tree/master/gopls'
+repository = 'https://github.com/golang/tools.git'
+
+[[package]]
+channel = 'arch'
+name = 'gopls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gopls'

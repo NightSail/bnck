@@ -1,0 +1,8 @@
+id = 'hledger-web'
+name = 'hledger-web'
+
+homepage = 'https://hackage.haskell.org/package/hledger-web'
+
+[[package]]
+channel = 'fedora'
+name = 'hledger-web'

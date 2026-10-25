@@ -1,0 +1,12 @@
+id = 'clzip'
+name = 'clzip'
+
+homepage = 'https://www.nongnu.org/lzip/clzip.html'
+
+[[package]]
+channel = 'debian'
+name = 'clzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clzip'

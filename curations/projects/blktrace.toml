@@ -1,0 +1,8 @@
+id = 'blktrace'
+name = 'blktrace'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/axboe/blktrace.git/about'
+
+[[package]]
+channel = 'debian'
+name = 'blktrace'

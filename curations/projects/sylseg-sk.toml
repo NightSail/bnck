@@ -1,0 +1,6 @@
+id = 'sylseg-sk'
+name = 'sylseg-sk'
+
+[[package]]
+channel = 'debian'
+name = 'sylseg-sk'

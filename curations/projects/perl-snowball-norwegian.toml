@@ -1,0 +1,8 @@
+id = 'perl-snowball-norwegian'
+name = 'perl-Snowball-Norwegian'
+
+homepage = 'https://metacpan.org/release/Snowball-Norwegian'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Snowball-Norwegian'

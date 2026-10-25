@@ -1,0 +1,20 @@
+id = 'qatlib'
+name = 'qatlib'
+
+homepage = 'https://github.com/intel/qatlib'
+
+[[package]]
+channel = 'debian'
+name = 'qatlib-examples'
+
+[[package]]
+channel = 'debian'
+name = 'qatlib-service'
+
+[[package]]
+channel = 'fedora'
+name = 'qatlib-service'
+
+[[package]]
+channel = 'fedora'
+name = 'qatlib-tests'

@@ -1,0 +1,9 @@
+id = 'summarize'
+name = 'summarize'
+
+homepage = 'https://summarize.sh'
+repository = 'https://github.com/steipete/summarize.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/summarize'

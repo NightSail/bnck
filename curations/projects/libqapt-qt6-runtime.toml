@@ -1,0 +1,8 @@
+id = 'libqapt-qt6-runtime'
+name = 'libqapt-qt6-runtime'
+
+homepage = 'https://github.com/linuxdeepin/libqapt-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'libqapt-qt6-runtime'

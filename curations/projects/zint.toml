@@ -1,0 +1,33 @@
+id = 'zint'
+name = 'zint'
+
+homepage = 'https://zint.org.uk'
+repository = 'https://git.code.sf.net/p/zint/code.git'
+
+[[package]]
+channel = 'arch'
+name = 'zint'
+
+[[package]]
+channel = 'arch'
+name = 'zint-qt'
+
+[[package]]
+channel = 'debian'
+name = 'zint'
+
+[[package]]
+channel = 'debian'
+name = 'zint-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'zint'
+
+[[package]]
+channel = 'fedora'
+name = 'zint-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zint'

@@ -1,0 +1,10 @@
+id = 'swish-e'
+name = 'swish-e'
+
+[[package]]
+channel = 'debian'
+name = 'swish-e'
+
+[[package]]
+channel = 'debian'
+name = 'swish-e-dev'

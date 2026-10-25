@@ -1,0 +1,8 @@
+id = 'docbook5-xml'
+name = 'docbook5-xml'
+
+homepage = 'https://docbook.org/schemas/5x'
+
+[[package]]
+channel = 'arch'
+name = 'docbook5-xml'

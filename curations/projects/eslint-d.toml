@@ -1,0 +1,12 @@
+id = 'eslint-d'
+name = 'eslint_d'
+
+homepage = 'https://github.com/mantoni/eslint_d.js'
+
+[[package]]
+channel = 'arch'
+name = 'eslint_d'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eslint_d'

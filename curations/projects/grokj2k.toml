@@ -1,0 +1,8 @@
+id = 'grokj2k'
+name = 'grokj2k'
+
+repository = 'https://github.com/GrokImageCompression/grok.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grokj2k'

@@ -1,0 +1,8 @@
+id = 'udica'
+name = 'udica'
+
+homepage = 'https://github.com/containers/udica'
+
+[[package]]
+channel = 'fedora'
+name = 'udica'

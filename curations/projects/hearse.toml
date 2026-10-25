@@ -1,0 +1,8 @@
+id = 'hearse'
+name = 'hearse'
+
+homepage = 'http://www.argon.org/~roderick/hearse'
+
+[[package]]
+channel = 'debian'
+name = 'hearse'

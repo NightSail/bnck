@@ -1,0 +1,8 @@
+id = 'libwebm-tools'
+name = 'libwebm-tools'
+
+homepage = 'https://chromium.googlesource.com/webm/libwebm'
+
+[[package]]
+channel = 'debian'
+name = 'libwebm-tools'

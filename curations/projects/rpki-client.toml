@@ -1,0 +1,16 @@
+id = 'rpki-client'
+name = 'rpki-client'
+
+homepage = 'https://www.rpki-client.org'
+
+[[package]]
+channel = 'debian'
+name = 'rpki-client'
+
+[[package]]
+channel = 'fedora'
+name = 'rpki-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpki-client'

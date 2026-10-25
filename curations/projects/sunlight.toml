@@ -1,0 +1,8 @@
+id = 'sunlight'
+name = 'sunlight'
+
+homepage = 'https://github.com/FiloSottile/sunlight'
+
+[[package]]
+channel = 'debian'
+name = 'sunlight'

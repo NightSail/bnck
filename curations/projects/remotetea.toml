@@ -1,0 +1,8 @@
+id = 'remotetea'
+name = 'remotetea'
+
+homepage = 'http://remotetea.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'remotetea'

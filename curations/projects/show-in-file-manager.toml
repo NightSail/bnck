@@ -1,0 +1,16 @@
+id = 'show-in-file-manager'
+name = 'show-in-file-manager'
+
+homepage = 'https://github.com/damonlynch/showinfilemanager'
+
+[[package]]
+channel = 'arch'
+name = 'python-show-in-file-manager'
+
+[[package]]
+channel = 'debian'
+name = 'python3-showinfilemanager'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-show-in-file-manager'

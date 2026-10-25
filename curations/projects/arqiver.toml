@@ -1,0 +1,8 @@
+id = 'arqiver'
+name = 'arqiver'
+
+homepage = 'https://github.com/tsujan/Arqiver'
+
+[[package]]
+channel = 'debian'
+name = 'arqiver'

@@ -1,0 +1,6 @@
+id = 'l2tpns'
+name = 'l2tpns'
+
+[[package]]
+channel = 'debian'
+name = 'l2tpns'

@@ -1,0 +1,160 @@
+id = 'gnupg'
+name = 'gnupg'
+
+homepage = 'https://gnupg.org'
+
+[[package]]
+channel = 'arch'
+name = 'gnupg'
+
+[[package]]
+channel = 'arch'
+name = 'libgcrypt'
+
+[[package]]
+channel = 'arch'
+name = 'libgpg-error'
+
+[[package]]
+channel = 'debian'
+name = 'dirmngr'
+
+[[package]]
+channel = 'debian'
+name = 'gnupg-utils'
+
+[[package]]
+channel = 'debian'
+name = 'gnupg1'
+
+[[package]]
+channel = 'debian'
+name = 'gnupg2'
+
+[[package]]
+channel = 'debian'
+name = 'gpg'
+
+[[package]]
+channel = 'debian'
+name = 'gpg-agent'
+
+[[package]]
+channel = 'debian'
+name = 'gpg-wks-client'
+
+[[package]]
+channel = 'debian'
+name = 'gpg-wks-server'
+
+[[package]]
+channel = 'debian'
+name = 'gpgconf'
+
+[[package]]
+channel = 'debian'
+name = 'gpgsm'
+
+[[package]]
+channel = 'debian'
+name = 'gpgv'
+
+[[package]]
+channel = 'debian'
+name = 'gpgv-static'
+
+[[package]]
+channel = 'debian'
+name = 'gpgv1'
+
+[[package]]
+channel = 'debian'
+name = 'scdaemon'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg1'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-dirmngr'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-g13'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-gpg-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-gpgconf'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-scdaemon'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-smime'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-verify'
+
+[[package]]
+channel = 'fedora'
+name = 'gnupg2-wks'
+
+[[package]]
+channel = 'fedora'
+name = 'libassuan-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libgcrypt-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libksba-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'pinentry'
+
+[[package]]
+channel = 'fedora'
+name = 'pinentry-emacs'
+
+[[package]]
+channel = 'fedora'
+name = 'pinentry-gnome3'
+
+[[package]]
+channel = 'fedora'
+name = 'pinentry-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'pinentry-tty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnupg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnupg@1.4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ntbtls'

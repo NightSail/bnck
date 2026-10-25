@@ -1,0 +1,8 @@
+id = 'rickslab-gpu-utils'
+name = 'rickslab-gpu-utils'
+
+homepage = 'https://github.com/Ricks-Lab/amdgpu-utils'
+
+[[package]]
+channel = 'debian'
+name = 'rickslab-gpu-utils'

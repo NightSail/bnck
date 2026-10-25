@@ -10,3 +10,7 @@ name = 'thunar'
 [[package]]
 channel = 'debian'
 name = 'thunar'
+
+[[package]]
+channel = 'fedora'
+name = 'Thunar'

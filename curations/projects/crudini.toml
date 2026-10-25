@@ -1,0 +1,12 @@
+id = 'crudini'
+name = 'crudini'
+
+homepage = 'https://www.pixelbeat.org/programs/crudini'
+
+[[package]]
+channel = 'debian'
+name = 'crudini'
+
+[[package]]
+channel = 'fedora'
+name = 'crudini'

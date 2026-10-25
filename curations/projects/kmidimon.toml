@@ -1,0 +1,12 @@
+id = 'kmidimon'
+name = 'kmidimon'
+
+homepage = 'https://kmidimon.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'kmidimon'
+
+[[package]]
+channel = 'fedora'
+name = 'kmidimon'

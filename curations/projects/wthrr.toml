@@ -1,0 +1,8 @@
+id = 'wthrr'
+name = 'wthrr'
+
+repository = 'https://github.com/ttytm/wthrr-the-weathercrab.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wthrr'

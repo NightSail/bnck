@@ -1,0 +1,8 @@
+id = 'python3-galaxy-tool-util'
+name = 'python3-galaxy-tool-util'
+
+homepage = 'https://github.com/galaxyproject/galaxy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-galaxy-tool-util'

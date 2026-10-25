@@ -1,0 +1,8 @@
+id = 'xvattr'
+name = 'xvattr'
+
+homepage = 'http://www.dtek.chalmers.se/groups/dvd'
+
+[[package]]
+channel = 'fedora'
+name = 'xvattr'

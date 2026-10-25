@@ -1,0 +1,8 @@
+id = 'cf-terraforming'
+name = 'cf-terraforming'
+
+repository = 'https://github.com/cloudflare/cf-terraforming.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cf-terraforming'

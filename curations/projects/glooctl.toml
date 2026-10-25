@@ -1,0 +1,9 @@
+id = 'glooctl'
+name = 'glooctl'
+
+homepage = 'https://docs.solo.io/gloo-edge/main/reference/cli/glooctl'
+repository = 'https://github.com/solo-io/gloo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glooctl'

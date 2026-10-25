@@ -1,0 +1,8 @@
+id = 'flightgear-atlas'
+name = 'FlightGear-Atlas'
+
+homepage = 'http://atlas.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'FlightGear-Atlas'

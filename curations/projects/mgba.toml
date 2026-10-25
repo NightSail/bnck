@@ -1,0 +1,17 @@
+id = 'mgba'
+name = 'mgba'
+
+homepage = 'http://mgba.io'
+repository = 'https://github.com/mgba-emu/mgba.git'
+
+[[package]]
+channel = 'arch'
+name = 'mgba-qt'
+
+[[package]]
+channel = 'arch'
+name = 'mgba-sdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mgba'

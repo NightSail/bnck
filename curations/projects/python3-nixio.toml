@@ -1,0 +1,12 @@
+id = 'python3-nixio'
+name = 'python3-nixio'
+
+homepage = 'https://github.com/G-Node/nixpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nixio'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nixio'

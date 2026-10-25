@@ -1,0 +1,8 @@
+id = 'librcsc'
+name = 'librcsc'
+
+homepage = 'https://github.com/helios-base/librcsc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librcsc'

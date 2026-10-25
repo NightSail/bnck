@@ -1,0 +1,16 @@
+id = 'sdbus-cpp'
+name = 'sdbus-cpp'
+
+homepage = 'https://github.com/Kistler-Group/sdbus-cpp'
+
+[[package]]
+channel = 'arch'
+name = 'sdbus-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'libsdbus-c++-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'sdbus-cpp-tools'

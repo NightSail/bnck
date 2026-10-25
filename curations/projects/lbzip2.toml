@@ -1,0 +1,20 @@
+id = 'lbzip2'
+name = 'lbzip2'
+
+homepage = 'http://lbzip2.org'
+
+[[package]]
+channel = 'arch'
+name = 'lbzip2'
+
+[[package]]
+channel = 'debian'
+name = 'lbzip2'
+
+[[package]]
+channel = 'fedora'
+name = 'lbzip2'
+
+[[package]]
+channel = 'fedora'
+name = 'lbzip2-utils'

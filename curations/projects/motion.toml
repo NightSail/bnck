@@ -1,0 +1,12 @@
+id = 'motion'
+name = 'motion'
+
+homepage = 'https://motion-project.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'motion'
+
+[[package]]
+channel = 'debian'
+name = 'motion'

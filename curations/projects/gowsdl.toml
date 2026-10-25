@@ -1,0 +1,8 @@
+id = 'gowsdl'
+name = 'gowsdl'
+
+repository = 'https://github.com/hooklift/gowsdl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gowsdl'

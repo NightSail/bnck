@@ -1,0 +1,8 @@
+id = 'screenresolution'
+name = 'screenresolution'
+
+repository = 'https://github.com/jhford/screenresolution.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/screenresolution'

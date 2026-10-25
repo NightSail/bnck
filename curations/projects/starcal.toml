@@ -1,0 +1,8 @@
+id = 'starcal'
+name = 'starcal'
+
+homepage = 'http://ilius.github.io/starcal'
+
+[[package]]
+channel = 'fedora'
+name = 'starcal'

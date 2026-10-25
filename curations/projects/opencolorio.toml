@@ -1,0 +1,21 @@
+id = 'opencolorio'
+name = 'opencolorio'
+
+homepage = 'https://opencolorio.org'
+repository = 'https://github.com/AcademySoftwareFoundation/OpenColorIO.git'
+
+[[package]]
+channel = 'arch'
+name = 'opencolorio'
+
+[[package]]
+channel = 'debian'
+name = 'opencolorio-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenColorIO-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencolorio'

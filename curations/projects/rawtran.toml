@@ -1,0 +1,8 @@
+id = 'rawtran'
+name = 'rawtran'
+
+homepage = 'http://integral.physics.muni.cz/rawtran'
+
+[[package]]
+channel = 'debian'
+name = 'rawtran'

@@ -1,0 +1,20 @@
+id = 'which'
+name = 'which'
+
+homepage = 'https://savannah.gnu.org/projects/which'
+
+[[package]]
+channel = 'arch'
+name = 'which'
+
+[[package]]
+channel = 'debian'
+name = 'gnu-which'
+
+[[package]]
+channel = 'fedora'
+name = 'which'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-which'

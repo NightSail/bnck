@@ -1,0 +1,8 @@
+id = 'gitlab-exporter'
+name = 'gitlab-exporter'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/gitlab-exporter'
+
+[[package]]
+channel = 'arch'
+name = 'gitlab-exporter'

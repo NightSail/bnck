@@ -1,0 +1,8 @@
+id = 'perf-tools-unstable'
+name = 'perf-tools-unstable'
+
+homepage = 'https://github.com/brendangregg/perf-tools'
+
+[[package]]
+channel = 'debian'
+name = 'perf-tools-unstable'

@@ -1,0 +1,16 @@
+id = 'grilo'
+name = 'grilo'
+
+homepage = 'https://wiki.gnome.org/Projects/Grilo'
+
+[[package]]
+channel = 'arch'
+name = 'grilo'
+
+[[package]]
+channel = 'debian'
+name = 'libgrilo-0.3-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'grilo'

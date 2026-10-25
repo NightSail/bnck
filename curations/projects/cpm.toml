@@ -1,0 +1,13 @@
+id = 'cpm'
+name = 'cpm'
+
+homepage = 'https://github.com/comotion/cpm'
+repository = 'https://github.com/skaji/cpm.git'
+
+[[package]]
+channel = 'debian'
+name = 'cpm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpm'

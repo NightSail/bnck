@@ -1,0 +1,16 @@
+id = 'kasumi'
+name = 'kasumi'
+
+homepage = 'https://osdn.net/projects/kasumi'
+
+[[package]]
+channel = 'debian'
+name = 'kasumi'
+
+[[package]]
+channel = 'fedora'
+name = 'kasumi'
+
+[[package]]
+channel = 'fedora'
+name = 'kasumi-unicode'

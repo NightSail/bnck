@@ -1,0 +1,8 @@
+id = 'topfew'
+name = 'topfew'
+
+homepage = 'https://github.com/timbray/topfew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/topfew'

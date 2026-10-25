@@ -1,0 +1,16 @@
+id = 'nvchecker'
+name = 'nvchecker'
+
+homepage = 'https://github.com/lilydjwg/nvchecker'
+
+[[package]]
+channel = 'arch'
+name = 'nvchecker'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nvchecker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nvchecker'

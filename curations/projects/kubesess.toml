@@ -1,0 +1,8 @@
+id = 'kubesess'
+name = 'kubesess'
+
+repository = 'https://github.com/Ramilito/kubesess.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubesess'

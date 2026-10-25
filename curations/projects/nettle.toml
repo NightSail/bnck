@@ -1,0 +1,20 @@
+id = 'nettle'
+name = 'nettle'
+
+homepage = 'https://www.lysator.liu.se/~nisse/nettle'
+
+[[package]]
+channel = 'arch'
+name = 'nettle'
+
+[[package]]
+channel = 'debian'
+name = 'nettle-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nettle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nettle@3'

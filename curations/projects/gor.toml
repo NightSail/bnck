@@ -1,0 +1,9 @@
+id = 'gor'
+name = 'gor'
+
+homepage = 'https://goreplay.org'
+repository = 'https://github.com/probelabs/goreplay.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gor'

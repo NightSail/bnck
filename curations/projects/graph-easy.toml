@@ -1,0 +1,12 @@
+id = 'graph-easy'
+name = 'Graph-Easy'
+
+homepage = 'https://metacpan.org/release/Graph-Easy'
+
+[[package]]
+channel = 'debian'
+name = 'libgraph-easy-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Graph-Easy'

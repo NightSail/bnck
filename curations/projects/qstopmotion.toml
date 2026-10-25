@@ -1,0 +1,8 @@
+id = 'qstopmotion'
+name = 'qstopmotion'
+
+homepage = 'https://www.qstopmotion.org'
+
+[[package]]
+channel = 'debian'
+name = 'qstopmotion'

@@ -1,0 +1,8 @@
+id = 'pyp2rpm'
+name = 'pyp2rpm'
+
+homepage = 'https://pypi.python.org/pypi/pyp2rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'pyp2rpm'

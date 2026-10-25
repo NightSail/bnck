@@ -1,0 +1,9 @@
+id = 'djlint'
+name = 'djlint'
+
+homepage = 'https://djlint.com'
+repository = 'https://github.com/djlint/djLint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djlint'

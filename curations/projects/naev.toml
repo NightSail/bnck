@@ -1,0 +1,8 @@
+id = 'naev'
+name = 'naev'
+
+homepage = 'https://codeberg.org/naev/naev'
+
+[[package]]
+channel = 'arch'
+name = 'naev'

@@ -1,0 +1,8 @@
+id = 'spip'
+name = 'spip'
+
+homepage = 'https://www.spip.net'
+
+[[package]]
+channel = 'debian'
+name = 'spip'

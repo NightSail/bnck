@@ -1,0 +1,8 @@
+id = 'pigment'
+name = 'pigment'
+
+homepage = 'https://github.com/Jeffser/Pigment'
+
+[[package]]
+channel = 'debian'
+name = 'pigment'

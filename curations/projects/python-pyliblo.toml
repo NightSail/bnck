@@ -1,0 +1,8 @@
+id = 'python-pyliblo'
+name = 'python-pyliblo'
+
+homepage = 'http://das.nasophon.de/pyliblo'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyliblo'

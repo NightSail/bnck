@@ -1,0 +1,8 @@
+id = 'dungeon'
+name = 'dungeon'
+
+homepage = 'https://github.com/GOFAI/dungeon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dungeon'

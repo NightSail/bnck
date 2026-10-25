@@ -1,0 +1,8 @@
+id = 'ruby-serverspec'
+name = 'ruby-serverspec'
+
+homepage = 'https://serverspec.org'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-serverspec'

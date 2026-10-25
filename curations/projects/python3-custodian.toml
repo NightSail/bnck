@@ -1,0 +1,8 @@
+id = 'python3-custodian'
+name = 'python3-custodian'
+
+homepage = 'https://github.com/materialsproject/custodian'
+
+[[package]]
+channel = 'debian'
+name = 'python3-custodian'

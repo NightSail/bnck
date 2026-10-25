@@ -1,0 +1,8 @@
+id = 'worldofpadman'
+name = 'worldofpadman'
+
+homepage = 'http://padworld.myexp.de'
+
+[[package]]
+channel = 'fedora'
+name = 'worldofpadman'

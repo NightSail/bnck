@@ -1,0 +1,8 @@
+id = 'putty-putty'
+name = 'putty'
+
+homepage = 'https://putty.software'
+
+[[package]]
+channel = 'arch'
+name = 'putty'

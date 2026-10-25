@@ -1,0 +1,8 @@
+id = 'rubygem-hoe'
+name = 'rubygem-hoe'
+
+homepage = 'https://github.com/seattlerb/hoe'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-hoe'

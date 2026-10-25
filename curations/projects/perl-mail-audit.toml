@@ -1,0 +1,8 @@
+id = 'perl-mail-audit'
+name = 'perl-Mail-Audit'
+
+homepage = 'https://metacpan.org/dist/Mail-Audit'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mail-Audit'

@@ -1,0 +1,8 @@
+id = 'tokyo-dystopia'
+name = 'tokyo-dystopia'
+
+homepage = 'https://dbmx.net/tokyodystopia'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tokyo-dystopia'

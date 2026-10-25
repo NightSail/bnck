@@ -1,0 +1,12 @@
+id = 'xmlformat'
+name = 'xmlformat'
+
+homepage = 'http://www.kitebird.com/software/xmlformat'
+
+[[package]]
+channel = 'debian'
+name = 'xmlformat-perl'
+
+[[package]]
+channel = 'debian'
+name = 'xmlformat-ruby'

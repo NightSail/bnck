@@ -1,0 +1,12 @@
+id = 'io-compress'
+name = 'IO-Compress'
+
+homepage = 'https://metacpan.org/release/IO-Compress'
+
+[[package]]
+channel = 'debian'
+name = 'libio-compress-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-IO-Compress'

@@ -1,0 +1,28 @@
+id = 'hugin'
+name = 'hugin'
+
+homepage = 'http://hugin.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'hugin'
+
+[[package]]
+channel = 'debian'
+name = 'hugin'
+
+[[package]]
+channel = 'debian'
+name = 'hugin-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'hugin'
+
+[[package]]
+channel = 'fedora'
+name = 'hugin-base'
+
+[[package]]
+channel = 'fedora'
+name = 'panoglview'

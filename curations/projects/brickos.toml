@@ -1,0 +1,8 @@
+id = 'brickos'
+name = 'brickos'
+
+homepage = 'https://brickos.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'brickos'

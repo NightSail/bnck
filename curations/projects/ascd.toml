@@ -1,0 +1,8 @@
+id = 'ascd'
+name = 'ascd'
+
+homepage = 'https://www.dockapps.net/ascd'
+
+[[package]]
+channel = 'debian'
+name = 'ascd'

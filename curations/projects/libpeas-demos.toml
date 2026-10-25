@@ -1,0 +1,8 @@
+id = 'libpeas-demos'
+name = 'libpeas-demos'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libpeas'
+
+[[package]]
+channel = 'arch'
+name = 'libpeas-demos'

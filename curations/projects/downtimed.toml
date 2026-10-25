@@ -1,0 +1,8 @@
+id = 'downtimed'
+name = 'downtimed'
+
+homepage = 'http://dist.epipe.com/downtimed'
+
+[[package]]
+channel = 'debian'
+name = 'downtimed'

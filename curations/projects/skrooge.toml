@@ -1,0 +1,16 @@
+id = 'skrooge'
+name = 'skrooge'
+
+homepage = 'https://skrooge.org'
+
+[[package]]
+channel = 'arch'
+name = 'skrooge'
+
+[[package]]
+channel = 'debian'
+name = 'skrooge'
+
+[[package]]
+channel = 'fedora'
+name = 'skrooge'

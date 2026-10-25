@@ -1,0 +1,8 @@
+id = 'pmarkdown'
+name = 'pmarkdown'
+
+homepage = 'https://metacpan.org/release/Markdown-Perl'
+
+[[package]]
+channel = 'debian'
+name = 'pmarkdown'

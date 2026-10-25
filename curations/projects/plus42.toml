@@ -1,0 +1,8 @@
+id = 'plus42'
+name = 'plus42'
+
+homepage = 'https://thomasokken.com/plus42'
+
+[[package]]
+channel = 'debian'
+name = 'plus42'

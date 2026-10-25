@@ -1,0 +1,12 @@
+id = 'yafc'
+name = 'yafc'
+
+homepage = 'https://github.com/sebastinas/yafc'
+
+[[package]]
+channel = 'debian'
+name = 'yafc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yafc'

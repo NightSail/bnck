@@ -1,0 +1,12 @@
+id = 'vncsnapshot'
+name = 'vncsnapshot'
+
+homepage = 'https://sourceforge.net/projects/vncsnapshot'
+
+[[package]]
+channel = 'debian'
+name = 'vncsnapshot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vncsnapshot'

@@ -1,0 +1,12 @@
+id = 'kxstitch'
+name = 'kxstitch'
+
+homepage = 'https://apps.kde.org/kxstitch'
+
+[[package]]
+channel = 'debian'
+name = 'kxstitch'
+
+[[package]]
+channel = 'fedora'
+name = 'kxstitch'

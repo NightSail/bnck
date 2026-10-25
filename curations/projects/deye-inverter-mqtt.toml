@@ -1,0 +1,8 @@
+id = 'deye-inverter-mqtt'
+name = 'deye-inverter-mqtt'
+
+homepage = 'https://github.com/kbialek/deye-inverter-mqtt'
+
+[[package]]
+channel = 'debian'
+name = 'deye-inverter-mqtt'

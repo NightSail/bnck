@@ -1,0 +1,8 @@
+id = 'prometheus-process-exporter'
+name = 'prometheus-process-exporter'
+
+homepage = 'https://github.com/ncabatoff/process-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-process-exporter'

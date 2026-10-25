@@ -1,0 +1,12 @@
+id = 'hdfs-mtth'
+name = 'hdfs'
+
+homepage = 'https://github.com/mtth/hdfs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hdfs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hdfs+avro'

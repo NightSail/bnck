@@ -1,0 +1,16 @@
+id = 'j4-dmenu-desktop'
+name = 'j4-dmenu-desktop'
+
+homepage = 'https://github.com/enkore/j4-dmenu-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'j4-dmenu-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'j4-dmenu-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'j4-dmenu-desktop'

@@ -1,0 +1,8 @@
+id = 'damapper'
+name = 'damapper'
+
+homepage = 'https://github.com/thegenemyers/DAMAPPER'
+
+[[package]]
+channel = 'debian'
+name = 'damapper'

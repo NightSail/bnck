@@ -1,0 +1,16 @@
+id = 'f2fs-tools'
+name = 'f2fs-tools'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/about'
+
+[[package]]
+channel = 'arch'
+name = 'f2fs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'f2fs-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'f2fs-tools'

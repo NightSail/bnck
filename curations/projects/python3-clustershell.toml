@@ -1,0 +1,8 @@
+id = 'python3-clustershell'
+name = 'python3-clustershell'
+
+homepage = 'https://cea-hpc.github.io/clustershell'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-clustershell'

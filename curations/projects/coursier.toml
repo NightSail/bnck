@@ -1,0 +1,8 @@
+id = 'coursier'
+name = 'coursier'
+
+homepage = 'https://get-coursier.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coursier'

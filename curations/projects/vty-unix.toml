@@ -1,0 +1,12 @@
+id = 'vty-unix'
+name = 'vty-unix'
+
+homepage = 'https://github.com/jtdaugherty/vty-unix.git'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-vty-unix'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-vty-unix-utils'

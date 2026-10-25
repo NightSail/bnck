@@ -1,0 +1,8 @@
+id = 'jlex'
+name = 'jlex'
+
+homepage = 'https://www.cs.princeton.edu/~appel/modern/java/JLex'
+
+[[package]]
+channel = 'debian'
+name = 'jlex'

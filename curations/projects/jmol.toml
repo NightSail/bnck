@@ -1,0 +1,12 @@
+id = 'jmol'
+name = 'jmol'
+
+homepage = 'https://jmol.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'jmol'
+
+[[package]]
+channel = 'debian'
+name = 'jmol'

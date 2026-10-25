@@ -1,0 +1,8 @@
+id = 'perlrdf'
+name = 'perlrdf'
+
+homepage = 'https://metacpan.org/release/App-perlrdf'
+
+[[package]]
+channel = 'debian'
+name = 'perlrdf'

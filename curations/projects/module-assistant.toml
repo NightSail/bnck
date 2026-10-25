@@ -1,0 +1,6 @@
+id = 'module-assistant'
+name = 'module-assistant'
+
+[[package]]
+channel = 'debian'
+name = 'module-assistant'

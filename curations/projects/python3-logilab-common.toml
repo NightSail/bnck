@@ -1,0 +1,8 @@
+id = 'python3-logilab-common'
+name = 'python3-logilab-common'
+
+homepage = 'https://www.logilab.org/project/logilab-common'
+
+[[package]]
+channel = 'debian'
+name = 'python3-logilab-common'

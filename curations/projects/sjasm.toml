@@ -1,0 +1,8 @@
+id = 'sjasm'
+name = 'sjasm'
+
+homepage = 'http://www.xl2s.tk'
+
+[[package]]
+channel = 'fedora'
+name = 'sjasm'

@@ -1,0 +1,12 @@
+id = 'git-pages'
+name = 'git-pages'
+
+homepage = 'https://codeberg.org/git-pages/git-pages'
+
+[[package]]
+channel = 'debian'
+name = 'git-pages'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-pages'

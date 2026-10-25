@@ -1,0 +1,16 @@
+id = 'solr'
+name = 'solr'
+
+homepage = 'https://solr.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'solr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solr@8.11'

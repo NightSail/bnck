@@ -1,0 +1,8 @@
+id = 'libtemplate-perl'
+name = 'libtemplate-perl'
+
+homepage = 'https://metacpan.org/release/Template-Toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'libtemplate-perl'

@@ -1,0 +1,8 @@
+id = 'pyssim'
+name = 'pyssim'
+
+homepage = 'https://github.com/jterrace/pyssim'
+
+[[package]]
+channel = 'debian'
+name = 'pyssim'

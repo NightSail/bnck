@@ -1,0 +1,8 @@
+id = 'luaver'
+name = 'luaver'
+
+repository = 'https://github.com/DhavalKapil/luaver.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luaver'

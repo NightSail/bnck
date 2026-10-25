@@ -1,0 +1,8 @@
+id = 'pnscan'
+name = 'pnscan'
+
+homepage = 'https://github.com/ptrrkssn/pnscan'
+
+[[package]]
+channel = 'debian'
+name = 'pnscan'

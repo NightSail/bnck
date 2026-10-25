@@ -1,0 +1,24 @@
+id = 'surfraw'
+name = 'surfraw'
+
+repository = 'https://gitlab.com/surfraw/Surfraw.git'
+
+[[package]]
+channel = 'arch'
+name = 'surfraw'
+
+[[package]]
+channel = 'debian'
+name = 'surfraw'
+
+[[package]]
+channel = 'debian'
+name = 'surfraw-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'surfraw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/surfraw'

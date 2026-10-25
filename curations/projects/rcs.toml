@@ -1,0 +1,20 @@
+id = 'rcs'
+name = 'rcs'
+
+homepage = 'https://www.gnu.org/software/rcs'
+
+[[package]]
+channel = 'arch'
+name = 'rcs'
+
+[[package]]
+channel = 'debian'
+name = 'rcs'
+
+[[package]]
+channel = 'fedora'
+name = 'rcs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rcs'

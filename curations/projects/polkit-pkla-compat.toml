@@ -1,0 +1,8 @@
+id = 'polkit-pkla-compat'
+name = 'polkit-pkla-compat'
+
+homepage = 'https://pagure.io/polkit-pkla-compat'
+
+[[package]]
+channel = 'fedora'
+name = 'polkit-pkla-compat'

@@ -1,0 +1,8 @@
+id = 'scottfree'
+name = 'scottfree'
+
+homepage = 'http://ifarchive.org/if-archive/scott-adams/interpreters/scottfree'
+
+[[package]]
+channel = 'fedora'
+name = 'scottfree'

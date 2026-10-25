@@ -1,0 +1,12 @@
+id = 'driverctl'
+name = 'driverctl'
+
+homepage = 'https://gitlab.com/driverctl/driverctl'
+
+[[package]]
+channel = 'debian'
+name = 'driverctl'
+
+[[package]]
+channel = 'fedora'
+name = 'driverctl'

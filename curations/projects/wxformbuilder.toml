@@ -1,0 +1,8 @@
+id = 'wxformbuilder'
+name = 'wxformbuilder'
+
+homepage = 'http://wxformbuilder.org'
+
+[[package]]
+channel = 'debian'
+name = 'wxformbuilder'

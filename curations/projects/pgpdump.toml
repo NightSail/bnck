@@ -1,0 +1,21 @@
+id = 'pgpdump'
+name = 'pgpdump'
+
+homepage = 'https://www.mew.org/~kazu/proj/pgpdump'
+repository = 'https://github.com/kazu-yamamoto/pgpdump.git'
+
+[[package]]
+channel = 'arch'
+name = 'pgpdump'
+
+[[package]]
+channel = 'debian'
+name = 'pgpdump'
+
+[[package]]
+channel = 'fedora'
+name = 'pgpdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgpdump'

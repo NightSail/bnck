@@ -1,0 +1,8 @@
+id = 'akira'
+name = 'akira'
+
+homepage = 'https://github.com/akiraux/Akira'
+
+[[package]]
+channel = 'debian'
+name = 'akira'

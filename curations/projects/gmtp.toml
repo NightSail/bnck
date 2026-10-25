@@ -1,0 +1,12 @@
+id = 'gmtp'
+name = 'gmtp'
+
+homepage = 'http://gmtp.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gmtp'
+
+[[package]]
+channel = 'debian'
+name = 'gmtp'

@@ -1,0 +1,8 @@
+id = 'ucd-generate'
+name = 'ucd-generate'
+
+homepage = 'https://github.com/BurntSushi/ucd-generate'
+
+[[package]]
+channel = 'debian'
+name = 'ucd-generate'

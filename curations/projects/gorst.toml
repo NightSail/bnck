@@ -1,0 +1,8 @@
+id = 'gorst'
+name = 'gorst'
+
+homepage = 'https://github.com/hhatto/gorst'
+
+[[package]]
+channel = 'debian'
+name = 'gorst'

@@ -1,0 +1,8 @@
+id = 'python3-sagenb-export'
+name = 'python3-sagenb-export'
+
+homepage = 'https://github.com/vbraun/ExportSageNB'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sagenb-export'

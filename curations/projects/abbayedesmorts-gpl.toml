@@ -1,0 +1,8 @@
+id = 'abbayedesmorts-gpl'
+name = 'abbayedesmorts-gpl'
+
+homepage = 'https://github.com/nevat/abbayedesmorts-gpl'
+
+[[package]]
+channel = 'fedora'
+name = 'abbayedesmorts-gpl'

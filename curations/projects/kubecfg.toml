@@ -1,0 +1,8 @@
+id = 'kubecfg'
+name = 'kubecfg'
+
+repository = 'https://github.com/kubecfg/kubecfg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubecfg'

@@ -1,0 +1,9 @@
+id = 'whodb-cli'
+name = 'whodb-cli'
+
+homepage = 'https://whodb.com'
+repository = 'https://github.com/clidey/whodb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whodb-cli'

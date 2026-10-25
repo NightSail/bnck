@@ -1,0 +1,8 @@
+id = 'carbon-c-relay'
+name = 'carbon-c-relay'
+
+homepage = 'https://github.com/grobian/carbon-c-relay'
+
+[[package]]
+channel = 'debian'
+name = 'carbon-c-relay'

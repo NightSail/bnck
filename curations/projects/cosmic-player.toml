@@ -1,0 +1,12 @@
+id = 'cosmic-player'
+name = 'cosmic-player'
+
+homepage = 'https://github.com/pop-os/cosmic-player'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-player'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-player'

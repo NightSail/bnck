@@ -1,0 +1,8 @@
+id = 'm4api'
+name = 'm4api'
+
+homepage = 'https://github.com/ktossell/m4api'
+
+[[package]]
+channel = 'debian'
+name = 'm4api'

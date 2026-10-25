@@ -1,0 +1,8 @@
+id = 'python3-ptufile'
+name = 'python3-ptufile'
+
+homepage = 'https://github.com/cgohlke/ptufile'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ptufile'

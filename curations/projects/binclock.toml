@@ -1,0 +1,12 @@
+id = 'binclock'
+name = 'binclock'
+
+homepage = 'http://www.ngolde.de/binclock.html'
+
+[[package]]
+channel = 'debian'
+name = 'binclock'
+
+[[package]]
+channel = 'fedora'
+name = 'binclock'

@@ -1,0 +1,8 @@
+id = 'crunch-dxtc'
+name = 'crunch-dxtc'
+
+homepage = 'https://github.com/DaemonEngine/crunch'
+
+[[package]]
+channel = 'debian'
+name = 'crunch-dxtc'

@@ -1,0 +1,20 @@
+id = 'xine'
+name = 'xine'
+
+homepage = 'https://sourceforge.net/projects/xine'
+
+[[package]]
+channel = 'debian'
+name = 'libxine2-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libxine2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xine-console'
+
+[[package]]
+channel = 'debian'
+name = 'xine-ui'

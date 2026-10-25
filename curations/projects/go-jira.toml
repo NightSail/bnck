@@ -1,0 +1,8 @@
+id = 'go-jira'
+name = 'go-jira'
+
+repository = 'https://github.com/go-jira/jira.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-jira'

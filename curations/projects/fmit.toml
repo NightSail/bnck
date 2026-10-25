@@ -1,0 +1,12 @@
+id = 'fmit'
+name = 'fmit'
+
+homepage = 'https://gillesdegottex.github.io/fmit'
+
+[[package]]
+channel = 'debian'
+name = 'fmit'
+
+[[package]]
+channel = 'fedora'
+name = 'fmit'

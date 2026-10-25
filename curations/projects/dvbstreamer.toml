@@ -1,0 +1,8 @@
+id = 'dvbstreamer'
+name = 'dvbstreamer'
+
+homepage = 'http://dvbstreamer.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'dvbstreamer'

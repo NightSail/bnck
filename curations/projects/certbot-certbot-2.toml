@@ -1,0 +1,9 @@
+id = 'certbot-certbot-2'
+name = 'certbot'
+
+homepage = 'https://certbot.eff.org'
+repository = 'https://github.com/certbot/certbot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/certbot'

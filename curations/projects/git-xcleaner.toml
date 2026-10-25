@@ -1,0 +1,8 @@
+id = 'git-xcleaner'
+name = 'git-xcleaner'
+
+homepage = 'https://github.com/lzap/git-xcleaner'
+
+[[package]]
+channel = 'fedora'
+name = 'git-xcleaner'

@@ -1,0 +1,8 @@
+id = 'subtile-ocr'
+name = 'subtile-ocr'
+
+homepage = 'https://github.com/gwen-lg/subtile-ocr'
+
+[[package]]
+channel = 'debian'
+name = 'subtile-ocr'

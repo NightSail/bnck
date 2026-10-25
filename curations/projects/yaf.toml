@@ -1,0 +1,8 @@
+id = 'yaf'
+name = 'yaf'
+
+homepage = 'https://tools.netsa.cert.org/yaf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaf'

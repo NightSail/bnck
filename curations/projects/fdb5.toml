@@ -1,0 +1,8 @@
+id = 'fdb5'
+name = 'fdb5'
+
+homepage = 'https://github.com/ecmwf/fdb'
+
+[[package]]
+channel = 'debian'
+name = 'fdb5'

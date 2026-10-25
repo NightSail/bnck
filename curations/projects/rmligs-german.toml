@@ -1,0 +1,8 @@
+id = 'rmligs-german'
+name = 'rmligs-german'
+
+homepage = 'https://www.j3e.de/ispell/igerman98'
+
+[[package]]
+channel = 'debian'
+name = 'rmligs-german'

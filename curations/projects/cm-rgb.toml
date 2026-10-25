@@ -1,0 +1,8 @@
+id = 'cm-rgb'
+name = 'cm_rgb'
+
+homepage = 'https://github.com/gfduszynski/cm-rgb'
+
+[[package]]
+channel = 'fedora'
+name = 'cm_rgb'

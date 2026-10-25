@@ -1,0 +1,12 @@
+id = 'barrier'
+name = 'barrier'
+
+homepage = 'https://github.com/debauchee/barrier/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'barrier'
+
+[[package]]
+channel = 'fedora'
+name = 'barrier'

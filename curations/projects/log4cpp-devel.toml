@@ -1,0 +1,8 @@
+id = 'log4cpp-devel'
+name = 'log4cpp-devel'
+
+homepage = 'http://sourceforge.net/projects/log4cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'log4cpp-devel'

@@ -1,0 +1,8 @@
+id = 'aewm'
+name = 'aewm++'
+
+homepage = 'https://github.com/frankhale/aewmpp'
+
+[[package]]
+channel = 'debian'
+name = 'aewm++'

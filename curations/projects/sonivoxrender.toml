@@ -1,0 +1,8 @@
+id = 'sonivoxrender'
+name = 'sonivoxrender'
+
+homepage = 'https://github.com/pedrolcl/sonivox'
+
+[[package]]
+channel = 'debian'
+name = 'sonivoxrender'

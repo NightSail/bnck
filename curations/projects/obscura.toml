@@ -1,0 +1,8 @@
+id = 'obscura'
+name = 'obscura'
+
+homepage = 'https://obscura.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/obscura'

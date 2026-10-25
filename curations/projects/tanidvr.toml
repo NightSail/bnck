@@ -1,0 +1,12 @@
+id = 'tanidvr'
+name = 'tanidvr'
+
+homepage = 'http://tanidvr.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dhav2mkv'
+
+[[package]]
+channel = 'debian'
+name = 'tanidvr'

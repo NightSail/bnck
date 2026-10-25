@@ -1,0 +1,8 @@
+id = 'arden'
+name = 'arden'
+
+homepage = 'http://sourceforge.net/projects/arden'
+
+[[package]]
+channel = 'debian'
+name = 'arden'

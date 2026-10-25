@@ -1,0 +1,8 @@
+id = 'xbrzscale'
+name = 'xbrzscale'
+
+homepage = 'https://github.com/atheros/xbrzscale'
+
+[[package]]
+channel = 'debian'
+name = 'xbrzscale'

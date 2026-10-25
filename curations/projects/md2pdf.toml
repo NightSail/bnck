@@ -1,0 +1,8 @@
+id = 'md2pdf'
+name = 'md2pdf'
+
+repository = 'https://github.com/solworktech/md2pdf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/md2pdf'

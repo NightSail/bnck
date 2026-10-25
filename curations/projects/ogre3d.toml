@@ -1,0 +1,28 @@
+id = 'ogre3d'
+name = 'ogre3d'
+
+homepage = 'http://www.ogre3d.org'
+
+[[package]]
+channel = 'arch'
+name = 'ogre'
+
+[[package]]
+channel = 'arch'
+name = 'ogre-next'
+
+[[package]]
+channel = 'debian'
+name = 'ogre-1.12-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ogre-14-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ogre-samples'
+
+[[package]]
+channel = 'fedora'
+name = 'ogre-utils'

@@ -1,0 +1,6 @@
+id = 'ifupdown'
+name = 'ifupdown'
+
+[[package]]
+channel = 'debian'
+name = 'ifupdown'

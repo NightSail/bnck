@@ -1,0 +1,12 @@
+id = 'python-manhole'
+name = 'python-manhole'
+
+homepage = 'https://github.com/ionelmc/python-manhole'
+
+[[package]]
+channel = 'arch'
+name = 'python-manhole'
+
+[[package]]
+channel = 'debian'
+name = 'python3-manhole'

@@ -1,0 +1,8 @@
+id = 'plasma-breeze'
+name = 'plasma-breeze'
+
+homepage = 'https://invent.kde.org/plasma/breeze.git'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-breeze'

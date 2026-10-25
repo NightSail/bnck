@@ -1,0 +1,8 @@
+id = 'storj-uplink'
+name = 'storj-uplink'
+
+homepage = 'https://storj.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/storj-uplink'

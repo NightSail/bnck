@@ -1,0 +1,8 @@
+id = 'python3-xrst'
+name = 'python3-xrst'
+
+homepage = 'https://github.com/bradbell/xrst'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xrst'

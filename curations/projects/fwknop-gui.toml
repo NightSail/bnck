@@ -1,0 +1,8 @@
+id = 'fwknop-gui'
+name = 'fwknop-gui'
+
+homepage = 'https://incomsystems.biz/fwknop-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'fwknop-gui'

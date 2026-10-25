@@ -1,0 +1,8 @@
+id = 'go-multiaddr'
+name = 'go-multiaddr'
+
+homepage = 'https://github.com/multiformats/go-multiaddr'
+
+[[package]]
+channel = 'debian'
+name = 'go-multiaddr'

@@ -1,0 +1,12 @@
+id = 'debian-codemods'
+name = 'debian-codemods'
+
+homepage = 'https://salsa.debian.org/jelmer/debian-codemods'
+
+[[package]]
+channel = 'debian'
+name = 'debian-codemods'
+
+[[package]]
+channel = 'debian'
+name = 'lintian-brush'

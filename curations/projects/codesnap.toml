@@ -1,0 +1,13 @@
+id = 'codesnap'
+name = 'codesnap'
+
+homepage = 'https://codesnap-docs.netlify.app'
+repository = 'https://github.com/codesnap-rs/codesnap.git'
+
+[[package]]
+channel = 'arch'
+name = 'codesnap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codesnap'

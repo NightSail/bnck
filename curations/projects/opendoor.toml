@@ -1,0 +1,8 @@
+id = 'opendoor'
+name = 'opendoor'
+
+homepage = 'https://github.com/stanislav-web/OpenDoor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opendoor'

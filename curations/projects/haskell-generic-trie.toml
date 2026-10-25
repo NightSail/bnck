@@ -1,0 +1,8 @@
+id = 'haskell-generic-trie'
+name = 'haskell-generic-trie'
+
+homepage = 'https://hackage.haskell.org/package/generic-trie'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-generic-trie'

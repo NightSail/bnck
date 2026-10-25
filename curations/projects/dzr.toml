@@ -1,0 +1,8 @@
+id = 'dzr'
+name = 'dzr'
+
+repository = 'https://github.com/yne/dzr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dzr'

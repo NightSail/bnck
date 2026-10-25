@@ -1,0 +1,8 @@
+id = 'openscap-report'
+name = 'openscap-report'
+
+homepage = 'https://github.com/OpenSCAP/openscap-report'
+
+[[package]]
+channel = 'fedora'
+name = 'openscap-report'

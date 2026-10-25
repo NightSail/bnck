@@ -1,0 +1,8 @@
+id = 'openconnect-gateway'
+name = 'openconnect-gateway'
+
+homepage = 'https://github.com/millermatt/openconnect-gateway'
+
+[[package]]
+channel = 'fedora'
+name = 'openconnect-gateway'

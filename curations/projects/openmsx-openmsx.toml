@@ -1,0 +1,9 @@
+id = 'openmsx-openmsx'
+name = 'openmsx'
+
+homepage = 'https://openmsx.org'
+repository = 'https://github.com/openMSX/openMSX.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openmsx'

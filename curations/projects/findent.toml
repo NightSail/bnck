@@ -1,0 +1,12 @@
+id = 'findent'
+name = 'findent'
+
+homepage = 'https://www.ratrabbit.nl/ratrabbit/findent/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'findent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/findent'

@@ -1,0 +1,8 @@
+id = 'steadyflow'
+name = 'steadyflow'
+
+homepage = 'https://launchpad.net/steadyflow'
+
+[[package]]
+channel = 'arch'
+name = 'steadyflow'

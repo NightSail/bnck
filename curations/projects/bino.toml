@@ -1,0 +1,12 @@
+id = 'bino'
+name = 'bino'
+
+homepage = 'https://bino3d.org'
+
+[[package]]
+channel = 'debian'
+name = 'bino'
+
+[[package]]
+channel = 'fedora'
+name = 'bino'

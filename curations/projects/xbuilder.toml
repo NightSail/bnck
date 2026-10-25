@@ -1,0 +1,6 @@
+id = 'xbuilder'
+name = 'xbuilder'
+
+[[package]]
+channel = 'debian'
+name = 'xbuilder'

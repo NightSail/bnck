@@ -1,0 +1,8 @@
+id = 'envchain'
+name = 'envchain'
+
+repository = 'https://github.com/sorah/envchain.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/envchain'

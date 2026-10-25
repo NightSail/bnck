@@ -1,0 +1,8 @@
+id = 'rpmbuild-order'
+name = 'rpmbuild-order'
+
+homepage = 'https://hackage.haskell.org/package/rpmbuild-order'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmbuild-order'

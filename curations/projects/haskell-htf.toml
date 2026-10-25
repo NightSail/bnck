@@ -1,0 +1,8 @@
+id = 'haskell-htf'
+name = 'haskell-htf'
+
+homepage = 'https://github.com/skogsbaer/HTF'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-htf'

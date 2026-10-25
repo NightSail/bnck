@@ -1,0 +1,12 @@
+id = 'gojay'
+name = 'gojay'
+
+homepage = 'https://github.com/francoispqt/gojay'
+
+[[package]]
+channel = 'debian'
+name = 'gojay'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-francoispqt-gojay'

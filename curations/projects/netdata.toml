@@ -1,0 +1,12 @@
+id = 'netdata'
+name = 'netdata'
+
+homepage = 'https://www.netdata.cloud'
+
+[[package]]
+channel = 'arch'
+name = 'netdata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netdata'

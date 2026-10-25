@@ -1,0 +1,8 @@
+id = 'esc'
+name = 'esc'
+
+homepage = 'http://directory.fedora.redhat.com/wiki/CoolKey'
+
+[[package]]
+channel = 'fedora'
+name = 'esc'

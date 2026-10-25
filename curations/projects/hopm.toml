@@ -1,0 +1,8 @@
+id = 'hopm'
+name = 'hopm'
+
+homepage = 'https://github.com/ircd-hybrid/hopm'
+
+[[package]]
+channel = 'debian'
+name = 'hopm'

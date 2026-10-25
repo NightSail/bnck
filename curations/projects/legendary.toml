@@ -1,0 +1,8 @@
+id = 'legendary'
+name = 'legendary'
+
+homepage = 'https://github.com/derrod/legendary'
+
+[[package]]
+channel = 'fedora'
+name = 'legendary'

@@ -1,0 +1,8 @@
+id = 'redli'
+name = 'redli'
+
+repository = 'https://github.com/IBM-Cloud/redli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redli'

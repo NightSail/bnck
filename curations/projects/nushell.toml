@@ -1,0 +1,13 @@
+id = 'nushell'
+name = 'nushell'
+
+homepage = 'https://www.nushell.sh'
+repository = 'https://github.com/nushell/nushell.git'
+
+[[package]]
+channel = 'arch'
+name = 'nushell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nushell'

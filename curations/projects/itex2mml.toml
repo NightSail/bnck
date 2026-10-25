@@ -1,0 +1,8 @@
+id = 'itex2mml'
+name = 'itex2mml'
+
+homepage = 'https://golem.ph.utexas.edu/~distler/blog/itex2MML.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/itex2mml'

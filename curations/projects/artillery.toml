@@ -1,0 +1,8 @@
+id = 'artillery'
+name = 'artillery'
+
+homepage = 'https://www.artillery.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/artillery'

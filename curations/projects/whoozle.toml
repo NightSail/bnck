@@ -1,0 +1,16 @@
+id = 'whoozle'
+name = 'whoozle'
+
+homepage = 'https://whoozle.github.io/android-file-transfer-linux'
+
+[[package]]
+channel = 'arch'
+name = 'android-file-transfer'
+
+[[package]]
+channel = 'debian'
+name = 'android-file-transfer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/whoozle-android-file-transfer'

@@ -1,0 +1,12 @@
+id = 'icestorm'
+name = 'icestorm'
+
+homepage = 'http://bygone.clairexen.net/icestorm'
+
+[[package]]
+channel = 'debian'
+name = 'fpga-icestorm'
+
+[[package]]
+channel = 'fedora'
+name = 'icestorm'

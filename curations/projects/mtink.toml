@@ -1,0 +1,8 @@
+id = 'mtink'
+name = 'mtink'
+
+homepage = 'https://web.archive.org/web/20180324135050/http://xwtools.automatix.de'
+
+[[package]]
+channel = 'debian'
+name = 'mtink'

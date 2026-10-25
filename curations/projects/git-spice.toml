@@ -1,0 +1,9 @@
+id = 'git-spice'
+name = 'git-spice'
+
+homepage = 'https://abhinav.github.io/git-spice'
+repository = 'https://github.com/abhinav/git-spice.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-spice'

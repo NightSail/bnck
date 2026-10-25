@@ -1,0 +1,8 @@
+id = 'sipcrack'
+name = 'sipcrack'
+
+homepage = 'http://www.remote-exploit.org/codes_sipcrack.html'
+
+[[package]]
+channel = 'debian'
+name = 'sipcrack'

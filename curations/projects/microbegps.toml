@@ -1,0 +1,8 @@
+id = 'microbegps'
+name = 'microbegps'
+
+homepage = 'http://sourceforge.net/projects/microbegps'
+
+[[package]]
+channel = 'debian'
+name = 'microbegps'

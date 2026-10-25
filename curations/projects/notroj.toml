@@ -1,0 +1,24 @@
+id = 'notroj'
+name = 'notroj'
+
+homepage = 'https://notroj.github.io/neon'
+
+[[package]]
+channel = 'arch'
+name = 'neon'
+
+[[package]]
+channel = 'debian'
+name = 'libneon27-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libneon27-gnutls-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'neon-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neon'

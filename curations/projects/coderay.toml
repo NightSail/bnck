@@ -1,0 +1,12 @@
+id = 'coderay'
+name = 'coderay'
+
+homepage = 'http://coderay.rubychan.de'
+
+[[package]]
+channel = 'debian'
+name = 'coderay'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-coderay'

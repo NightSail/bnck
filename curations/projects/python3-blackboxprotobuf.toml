@@ -1,0 +1,8 @@
+id = 'python3-blackboxprotobuf'
+name = 'python3-blackboxprotobuf'
+
+homepage = 'https://github.com/nccgroup/blackboxprotobuf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-blackboxprotobuf'

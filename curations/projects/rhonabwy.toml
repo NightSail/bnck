@@ -1,0 +1,12 @@
+id = 'rhonabwy'
+name = 'rhonabwy'
+
+homepage = 'https://github.com/babelouest/rhonabwy'
+
+[[package]]
+channel = 'arch'
+name = 'rhonabwy'
+
+[[package]]
+channel = 'debian'
+name = 'rnbyc'

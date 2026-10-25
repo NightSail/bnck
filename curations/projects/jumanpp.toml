@@ -1,0 +1,8 @@
+id = 'jumanpp'
+name = 'jumanpp'
+
+homepage = 'https://nlp.ist.i.kyoto-u.ac.jp/EN/index.php'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jumanpp'

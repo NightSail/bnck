@@ -1,0 +1,12 @@
+id = 'frankmorgner'
+name = 'frankmorgner'
+
+homepage = 'https://frankmorgner.github.io/vsmartcard'
+
+[[package]]
+channel = 'debian'
+name = 'vsmartcard-vpcd'
+
+[[package]]
+channel = 'debian'
+name = 'vsmartcard-vpicc'

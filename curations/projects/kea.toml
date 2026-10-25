@@ -1,0 +1,53 @@
+id = 'kea'
+name = 'kea'
+
+homepage = 'https://kea.isc.org'
+repository = 'https://gitlab.isc.org/isc-projects/kea.git'
+
+[[package]]
+channel = 'arch'
+name = 'kea'
+
+[[package]]
+channel = 'debian'
+name = 'kea-admin'
+
+[[package]]
+channel = 'debian'
+name = 'kea-common'
+
+[[package]]
+channel = 'debian'
+name = 'kea-ctrl-agent'
+
+[[package]]
+channel = 'debian'
+name = 'kea-dev'
+
+[[package]]
+channel = 'debian'
+name = 'kea-dhcp-ddns-server'
+
+[[package]]
+channel = 'debian'
+name = 'kea-dhcp4-server'
+
+[[package]]
+channel = 'debian'
+name = 'kea-dhcp6-server'
+
+[[package]]
+channel = 'fedora'
+name = 'kea'
+
+[[package]]
+channel = 'fedora'
+name = 'kea-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'kea-keama'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kea'

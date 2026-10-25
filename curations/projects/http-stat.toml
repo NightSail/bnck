@@ -1,0 +1,8 @@
+id = 'http-stat'
+name = 'http-stat'
+
+repository = 'https://github.com/vicanso/http-stat-rs'
+
+[[package]]
+channel = 'crates.io'
+name = 'http-stat'

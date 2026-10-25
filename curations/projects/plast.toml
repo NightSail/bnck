@@ -1,0 +1,8 @@
+id = 'plast'
+name = 'plast'
+
+homepage = 'https://plast.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'plast'

@@ -1,0 +1,8 @@
+id = 'autocutsel'
+name = 'autocutsel'
+
+homepage = 'https://www.nongnu.org/autocutsel'
+
+[[package]]
+channel = 'debian'
+name = 'autocutsel'

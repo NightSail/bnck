@@ -1,0 +1,12 @@
+id = 'xml-twig'
+name = 'XML-Twig'
+
+homepage = 'https://metacpan.org/release/XML-Twig'
+
+[[package]]
+channel = 'debian'
+name = 'xml-twig-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-Twig'

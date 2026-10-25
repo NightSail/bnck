@@ -1,0 +1,8 @@
+id = 'open-isns-gonzoleeman'
+name = 'open-isns'
+
+homepage = 'https://github.com/gonzoleeman/open-isns'
+
+[[package]]
+channel = 'arch'
+name = 'open-isns'

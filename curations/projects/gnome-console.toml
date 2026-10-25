@@ -1,0 +1,16 @@
+id = 'gnome-console'
+name = 'gnome-console'
+
+homepage = 'https://apps.gnome.org/Console'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-console'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-console'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-console'

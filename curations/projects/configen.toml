@@ -1,0 +1,8 @@
+id = 'configen'
+name = 'configen'
+
+repository = 'https://github.com/theappbusiness/ConfigGenerator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/configen'

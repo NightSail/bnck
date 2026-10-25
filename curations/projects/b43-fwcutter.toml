@@ -1,0 +1,16 @@
+id = 'b43-fwcutter'
+name = 'b43-fwcutter'
+
+homepage = 'https://wireless.docs.kernel.org/en/latest/en/users/drivers/b43.html'
+
+[[package]]
+channel = 'arch'
+name = 'b43-fwcutter'
+
+[[package]]
+channel = 'fedora'
+name = 'b43-fwcutter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/b43-fwcutter'

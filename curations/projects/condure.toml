@@ -1,0 +1,8 @@
+id = 'condure'
+name = 'condure'
+
+homepage = 'https://github.com/fanout/condure'
+
+[[package]]
+channel = 'debian'
+name = 'condure'

@@ -1,0 +1,12 @@
+id = 'survex'
+name = 'survex'
+
+homepage = 'https://survex.com'
+
+[[package]]
+channel = 'debian'
+name = 'survex'
+
+[[package]]
+channel = 'debian'
+name = 'survex-aven'

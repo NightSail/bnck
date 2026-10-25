@@ -1,0 +1,20 @@
+id = 'netgen'
+name = 'netgen'
+
+homepage = 'https://github.com/NGSolve/netgen'
+
+[[package]]
+channel = 'debian'
+name = 'netgen'
+
+[[package]]
+channel = 'debian'
+name = 'netgen-lvs'
+
+[[package]]
+channel = 'fedora'
+name = 'netgen'
+
+[[package]]
+channel = 'fedora'
+name = 'netgen-mesher'

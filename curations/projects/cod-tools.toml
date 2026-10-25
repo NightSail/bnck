@@ -1,0 +1,8 @@
+id = 'cod-tools'
+name = 'cod-tools'
+
+homepage = 'https://wiki.crystallography.net/cod-tools'
+
+[[package]]
+channel = 'debian'
+name = 'cod-tools'

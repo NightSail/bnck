@@ -1,0 +1,6 @@
+id = 'opari'
+name = 'opari'
+
+[[package]]
+channel = 'debian'
+name = 'opari'

@@ -1,0 +1,16 @@
+id = 'kiwix-tools'
+name = 'kiwix-tools'
+
+homepage = 'https://github.com/kiwix/kiwix-tools'
+
+[[package]]
+channel = 'arch'
+name = 'kiwix-tools'
+
+[[package]]
+channel = 'debian'
+name = 'kiwix-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kiwix-tools'

@@ -1,0 +1,8 @@
+id = 'grokevt'
+name = 'grokevt'
+
+homepage = 'http://projects.sentinelchicken.org/grokevt'
+
+[[package]]
+channel = 'debian'
+name = 'grokevt'

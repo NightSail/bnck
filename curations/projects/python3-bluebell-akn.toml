@@ -1,0 +1,8 @@
+id = 'python3-bluebell-akn'
+name = 'python3-bluebell-akn'
+
+homepage = 'https://github.com/laws-africa/bluebell'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bluebell-akn'

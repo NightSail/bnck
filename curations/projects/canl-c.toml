@@ -1,0 +1,12 @@
+id = 'canl-c'
+name = 'canl-c'
+
+homepage = 'https://github.com/CESNET/canl-c'
+
+[[package]]
+channel = 'debian'
+name = 'libcanl-c-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'canl-c-examples'

@@ -1,0 +1,12 @@
+id = 'heatshrink'
+name = 'heatshrink'
+
+homepage = 'https://github.com/atomicobject/heatshrink'
+
+[[package]]
+channel = 'debian'
+name = 'heatshrink'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/heatshrink'

@@ -1,0 +1,8 @@
+id = 'jet'
+name = 'jet'
+
+repository = 'https://github.com/go-jet/jet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jet'

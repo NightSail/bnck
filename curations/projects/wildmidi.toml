@@ -1,0 +1,20 @@
+id = 'wildmidi'
+name = 'wildmidi'
+
+homepage = 'https://github.com/Mindwerks/wildmidi'
+
+[[package]]
+channel = 'arch'
+name = 'wildmidi'
+
+[[package]]
+channel = 'debian'
+name = 'wildmidi'
+
+[[package]]
+channel = 'fedora'
+name = 'wildmidi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wildmidi'

@@ -1,0 +1,8 @@
+id = 'libcpan-audit-perl'
+name = 'libcpan-audit-perl'
+
+homepage = 'https://metacpan.org/release/CPAN-Audit'
+
+[[package]]
+channel = 'debian'
+name = 'libcpan-audit-perl'

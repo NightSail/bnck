@@ -1,0 +1,8 @@
+id = 'hostdb'
+name = 'hostdb'
+
+homepage = 'https://code.google.com/archive/p/hostdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hostdb'

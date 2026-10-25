@@ -1,0 +1,8 @@
+id = 'rlinetd'
+name = 'rlinetd'
+
+homepage = 'https://salsa.debian.org/debian/rlinetd'
+
+[[package]]
+channel = 'debian'
+name = 'rlinetd'

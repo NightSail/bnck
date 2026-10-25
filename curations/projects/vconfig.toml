@@ -1,0 +1,8 @@
+id = 'vconfig'
+name = 'vconfig'
+
+homepage = 'https://www.candelatech.com/~greear/vlan.html'
+
+[[package]]
+channel = 'fedora'
+name = 'vconfig'

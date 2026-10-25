@@ -1,0 +1,20 @@
+id = 'backintime'
+name = 'backintime'
+
+homepage = 'https://github.com/bit-team/backintime'
+
+[[package]]
+channel = 'debian'
+name = 'backintime-common'
+
+[[package]]
+channel = 'debian'
+name = 'backintime-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'backintime-common'
+
+[[package]]
+channel = 'fedora'
+name = 'backintime-qt'

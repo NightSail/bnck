@@ -1,0 +1,8 @@
+id = 'hgrep'
+name = 'hgrep'
+
+repository = 'https://github.com/rhysd/hgrep.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hgrep'

@@ -1,0 +1,17 @@
+id = 'xmp'
+name = 'xmp'
+
+homepage = 'https://xmp.sourceforge.net'
+repository = 'https://github.com/libxmp/xmp-cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'xmp'
+
+[[package]]
+channel = 'fedora'
+name = 'xmp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmp'

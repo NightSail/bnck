@@ -1,0 +1,8 @@
+id = 'goolabs'
+name = 'goolabs'
+
+homepage = 'https://pypi.python.org/pypi/goolabs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goolabs'

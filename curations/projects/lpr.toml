@@ -1,0 +1,6 @@
+id = 'lpr'
+name = 'lpr'
+
+[[package]]
+channel = 'debian'
+name = 'lpr'

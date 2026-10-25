@@ -1,0 +1,8 @@
+id = 'vcprompt'
+name = 'vcprompt'
+
+homepage = 'https://github.com/powerman/vcprompt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcprompt'

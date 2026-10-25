@@ -1,0 +1,8 @@
+id = 'calamares-settings-debian'
+name = 'calamares-settings-debian'
+
+homepage = 'https://salsa.debian.org/live-team/calamares-settings-debian'
+
+[[package]]
+channel = 'debian'
+name = 'calamares-settings-debian'

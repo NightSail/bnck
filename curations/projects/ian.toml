@@ -1,0 +1,20 @@
+id = 'ian'
+name = 'ian'
+
+homepage = 'http://airs.com/ian/uucp.html'
+
+[[package]]
+channel = 'debian'
+name = 'cu'
+
+[[package]]
+channel = 'debian'
+name = 'uucp'
+
+[[package]]
+channel = 'fedora'
+name = 'cu'
+
+[[package]]
+channel = 'fedora'
+name = 'uucp'

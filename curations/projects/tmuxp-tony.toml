@@ -1,0 +1,8 @@
+id = 'tmuxp-tony'
+name = 'tmuxp'
+
+homepage = 'https://github.com/tony/tmuxp'
+
+[[package]]
+channel = 'debian'
+name = 'tmuxp'

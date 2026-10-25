@@ -1,0 +1,12 @@
+id = 'eralchemy'
+name = 'eralchemy'
+
+homepage = 'https://github.com/eralchemy/eralchemy'
+
+[[package]]
+channel = 'fedora'
+name = 'eralchemy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eralchemy'

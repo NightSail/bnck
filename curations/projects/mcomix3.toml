@@ -1,0 +1,12 @@
+id = 'mcomix3'
+name = 'mcomix3'
+
+homepage = 'https://github.com/multiSnow/mcomix3'
+
+[[package]]
+channel = 'fedora'
+name = 'mcomix3-base'
+
+[[package]]
+channel = 'fedora'
+name = 'mcomix3-thumbnailer'

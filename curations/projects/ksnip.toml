@@ -1,0 +1,16 @@
+id = 'ksnip'
+name = 'ksnip'
+
+homepage = 'https://github.com/ksnip/ksnip'
+
+[[package]]
+channel = 'arch'
+name = 'ksnip'
+
+[[package]]
+channel = 'debian'
+name = 'ksnip'
+
+[[package]]
+channel = 'fedora'
+name = 'ksnip'

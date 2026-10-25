@@ -1,0 +1,8 @@
+id = 'asfsmd'
+name = 'asfsmd'
+
+homepage = 'https://github.com/avalentino/asfsmd'
+
+[[package]]
+channel = 'debian'
+name = 'asfsmd'

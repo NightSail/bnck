@@ -1,0 +1,8 @@
+id = 'thedodd'
+name = 'thedodd'
+
+homepage = 'https://github.com/thedodd/trunk'
+
+[[package]]
+channel = 'arch'
+name = 'trunk'

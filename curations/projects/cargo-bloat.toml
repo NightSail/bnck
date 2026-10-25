@@ -1,0 +1,12 @@
+id = 'cargo-bloat'
+name = 'cargo-bloat'
+
+repository = 'https://github.com/RazrFalcon/cargo-bloat.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-bloat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-bloat'

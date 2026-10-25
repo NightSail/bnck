@@ -1,0 +1,8 @@
+id = 'freehdl'
+name = 'freehdl'
+
+homepage = 'http://freehdl.seul.org'
+
+[[package]]
+channel = 'arch'
+name = 'freehdl'

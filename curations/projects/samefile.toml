@@ -1,0 +1,8 @@
+id = 'samefile'
+name = 'samefile'
+
+homepage = 'http://www.schweikhardt.net/samefile'
+
+[[package]]
+channel = 'fedora'
+name = 'samefile'

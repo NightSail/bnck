@@ -1,0 +1,8 @@
+id = 'mrpt-apps'
+name = 'mrpt-apps'
+
+homepage = 'https://www.mrpt.org'
+
+[[package]]
+channel = 'debian'
+name = 'mrpt-apps'

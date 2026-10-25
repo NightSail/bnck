@@ -1,0 +1,8 @@
+id = 'python3-librecaptcha'
+name = 'python3-librecaptcha'
+
+homepage = 'https://github.com/taylordotfish/librecaptcha'
+
+[[package]]
+channel = 'debian'
+name = 'python3-librecaptcha'

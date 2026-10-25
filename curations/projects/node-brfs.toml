@@ -1,0 +1,8 @@
+id = 'node-brfs'
+name = 'node-brfs'
+
+homepage = 'https://github.com/substack/brfs'
+
+[[package]]
+channel = 'debian'
+name = 'node-brfs'

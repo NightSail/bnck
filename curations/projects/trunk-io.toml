@@ -1,0 +1,8 @@
+id = 'trunk-io'
+name = 'trunk-io'
+
+homepage = 'https://trunk.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/trunk-io'

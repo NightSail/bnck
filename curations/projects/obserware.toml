@@ -1,0 +1,8 @@
+id = 'obserware'
+name = 'obserware'
+
+homepage = 'https://gitlab.com/t0xic0der/obserware'
+
+[[package]]
+channel = 'fedora'
+name = 'obserware'

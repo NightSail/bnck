@@ -1,0 +1,8 @@
+id = 'id3'
+name = 'id3'
+
+homepage = 'https://devel.ringlet.net/audio/id3'
+
+[[package]]
+channel = 'debian'
+name = 'id3'

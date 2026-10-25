@@ -1,0 +1,12 @@
+id = 'git-changelog'
+name = 'git-changelog'
+
+homepage = 'https://github.com/pawamoy/git-changelog'
+
+[[package]]
+channel = 'debian'
+name = 'git-changelog'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-git-changelog'

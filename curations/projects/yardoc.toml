@@ -1,0 +1,16 @@
+id = 'yardoc'
+name = 'yardoc'
+
+homepage = 'https://yardoc.org'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-yard'
+
+[[package]]
+channel = 'debian'
+name = 'yard'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-yard'

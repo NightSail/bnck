@@ -1,0 +1,8 @@
+id = 'python3-extra-data'
+name = 'python3-extra-data'
+
+homepage = 'https://github.com/European-XFEL/EXtra-data'
+
+[[package]]
+channel = 'debian'
+name = 'python3-extra-data'

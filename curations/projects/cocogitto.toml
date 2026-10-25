@@ -1,0 +1,12 @@
+id = 'cocogitto'
+name = 'cocogitto'
+
+homepage = 'https://docs.cocogitto.io'
+
+[[package]]
+channel = 'arch'
+name = 'cocogitto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cocogitto'

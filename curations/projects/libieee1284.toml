@@ -1,0 +1,12 @@
+id = 'libieee1284'
+name = 'libieee1284'
+
+homepage = 'https://github.com/twaugh/libieee1284'
+
+[[package]]
+channel = 'arch'
+name = 'libieee1284'
+
+[[package]]
+channel = 'fedora'
+name = 'libieee1284'

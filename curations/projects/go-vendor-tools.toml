@@ -1,0 +1,8 @@
+id = 'go-vendor-tools'
+name = 'go-vendor-tools'
+
+homepage = 'https://gitlab.com/fedora/sigs/go/go-vendor-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'go-vendor-tools'

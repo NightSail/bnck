@@ -1,0 +1,8 @@
+id = 'blockhash'
+name = 'blockhash'
+
+repository = 'https://github.com/commonsmachinery/blockhash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blockhash'

@@ -1,0 +1,12 @@
+id = 'checkpointctl'
+name = 'checkpointctl'
+
+homepage = 'https://github.com/checkpoint-restore/checkpointctl'
+
+[[package]]
+channel = 'debian'
+name = 'checkpointctl'
+
+[[package]]
+channel = 'fedora'
+name = 'checkpointctl'

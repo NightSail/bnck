@@ -1,0 +1,8 @@
+id = 'archinstall'
+name = 'archinstall'
+
+homepage = 'https://github.com/archlinux/archinstall'
+
+[[package]]
+channel = 'arch'
+name = 'archinstall'

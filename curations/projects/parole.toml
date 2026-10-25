@@ -1,0 +1,16 @@
+id = 'parole'
+name = 'parole'
+
+homepage = 'https://docs.xfce.org/apps/parole/start'
+
+[[package]]
+channel = 'arch'
+name = 'parole'
+
+[[package]]
+channel = 'debian'
+name = 'parole'
+
+[[package]]
+channel = 'fedora'
+name = 'parole'

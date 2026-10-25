@@ -1,0 +1,10 @@
+id = 'debmirror'
+name = 'debmirror'
+
+[[package]]
+channel = 'debian'
+name = 'debmirror'
+
+[[package]]
+channel = 'fedora'
+name = 'debmirror'

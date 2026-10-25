@@ -1,0 +1,16 @@
+id = 'mmgtools'
+name = 'mmgtools'
+
+homepage = 'https://www.mmgtools.org'
+
+[[package]]
+channel = 'fedora'
+name = 'mmg2d'
+
+[[package]]
+channel = 'fedora'
+name = 'mmg3d'
+
+[[package]]
+channel = 'fedora'
+name = 'mmgs'

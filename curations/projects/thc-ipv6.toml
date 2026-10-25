@@ -1,0 +1,16 @@
+id = 'thc-ipv6'
+name = 'thc-ipv6'
+
+homepage = 'https://github.com/vanhauser-thc/thc-ipv6'
+
+[[package]]
+channel = 'arch'
+name = 'thc-ipv6'
+
+[[package]]
+channel = 'debian'
+name = 'thc-ipv6'
+
+[[package]]
+channel = 'fedora'
+name = 'thc-ipv6'

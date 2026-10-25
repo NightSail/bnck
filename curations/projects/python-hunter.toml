@@ -1,0 +1,8 @@
+id = 'python-hunter'
+name = 'python-hunter'
+
+homepage = 'https://github.com/ionelmc/python-hunter'
+
+[[package]]
+channel = 'arch'
+name = 'python-hunter'

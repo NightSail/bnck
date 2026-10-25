@@ -1,0 +1,8 @@
+id = 'ansible-navigator'
+name = 'ansible-navigator'
+
+homepage = 'https://github.com/ansible/ansible-navigator'
+
+[[package]]
+channel = 'arch'
+name = 'ansible-navigator'

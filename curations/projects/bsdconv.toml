@@ -1,0 +1,8 @@
+id = 'bsdconv'
+name = 'bsdconv'
+
+repository = 'https://github.com/buganini/bsdconv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bsdconv'

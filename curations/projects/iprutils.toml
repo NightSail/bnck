@@ -1,0 +1,8 @@
+id = 'iprutils'
+name = 'iprutils'
+
+homepage = 'https://github.com/bjking1/iprutils'
+
+[[package]]
+channel = 'debian'
+name = 'iprutils'

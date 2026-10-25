@@ -1,0 +1,9 @@
+id = 'rtabmap'
+name = 'rtabmap'
+
+homepage = 'https://introlab.github.io/rtabmap'
+repository = 'https://github.com/introlab/rtabmap.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtabmap'

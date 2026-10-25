@@ -1,0 +1,13 @@
+id = 'aws-nuke'
+name = 'aws-nuke'
+
+homepage = 'https://github.com/rebuy-de/aws-nuke'
+repository = 'https://github.com/ekristen/aws-nuke.git'
+
+[[package]]
+channel = 'debian'
+name = 'aws-nuke'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-nuke'

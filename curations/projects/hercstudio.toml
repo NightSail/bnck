@@ -1,0 +1,8 @@
+id = 'hercstudio'
+name = 'hercstudio'
+
+homepage = 'https://hercstudio.sourceforge.io'
+
+[[package]]
+channel = 'fedora'
+name = 'hercstudio'

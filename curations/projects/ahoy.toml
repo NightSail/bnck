@@ -1,0 +1,9 @@
+id = 'ahoy'
+name = 'ahoy'
+
+homepage = 'https://ahoy-cli.github.io'
+repository = 'https://github.com/ahoy-cli/ahoy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ahoy'

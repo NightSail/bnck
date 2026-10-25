@@ -1,0 +1,13 @@
+id = 'monero'
+name = 'monero'
+
+homepage = 'https://www.getmonero.org/downloads'
+repository = 'https://github.com/monero-project/monero.git'
+
+[[package]]
+channel = 'debian'
+name = 'monero'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monero'

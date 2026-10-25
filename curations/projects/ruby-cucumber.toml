@@ -1,0 +1,8 @@
+id = 'ruby-cucumber'
+name = 'ruby-cucumber'
+
+homepage = 'https://github.com/cucumber/cucumber-ruby'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-cucumber'

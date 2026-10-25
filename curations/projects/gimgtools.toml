@@ -1,0 +1,8 @@
+id = 'gimgtools'
+name = 'gimgtools'
+
+homepage = 'https://code.google.com/archive/p/gimgtools'
+
+[[package]]
+channel = 'fedora'
+name = 'gimgtools'

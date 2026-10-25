@@ -1,0 +1,8 @@
+id = 'meterec'
+name = 'meterec'
+
+homepage = 'http://meterec.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'meterec'

@@ -1,0 +1,21 @@
+id = 'knock'
+name = 'knock'
+
+homepage = 'http://www.zeroflux.org/projects/knock'
+repository = 'https://github.com/jvinet/knock.git'
+
+[[package]]
+channel = 'debian'
+name = 'knockd'
+
+[[package]]
+channel = 'fedora'
+name = 'knock'
+
+[[package]]
+channel = 'fedora'
+name = 'knock-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/knock'

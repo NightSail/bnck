@@ -1,0 +1,8 @@
+id = 'changetrack'
+name = 'changetrack'
+
+homepage = 'http://changetrack.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'changetrack'

@@ -1,0 +1,8 @@
+id = 'onlykey-agent'
+name = 'onlykey-agent'
+
+homepage = 'https://docs.crp.to/onlykey-agent.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/onlykey-agent'

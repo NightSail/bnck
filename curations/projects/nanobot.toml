@@ -1,0 +1,9 @@
+id = 'nanobot'
+name = 'nanobot'
+
+homepage = 'https://www.nanobot.ai'
+repository = 'https://github.com/obot-platform/nanobot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nanobot'

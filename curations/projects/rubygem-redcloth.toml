@@ -1,0 +1,8 @@
+id = 'rubygem-redcloth'
+name = 'rubygem-RedCloth'
+
+homepage = 'http://redcloth.org'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-RedCloth'

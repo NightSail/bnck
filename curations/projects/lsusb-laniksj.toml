@@ -1,0 +1,8 @@
+id = 'lsusb-laniksj'
+name = 'lsusb-laniksj'
+
+homepage = 'https://laniksj.github.io/lsusb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsusb-laniksj'

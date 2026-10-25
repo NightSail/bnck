@@ -1,0 +1,16 @@
+id = 'hamprojects'
+name = 'hamprojects'
+
+homepage = 'http://www.yo2loj.ro/hamprojects'
+
+[[package]]
+channel = 'debian'
+name = 'ampr-ripd'
+
+[[package]]
+channel = 'fedora'
+name = 'ampr-ripd'
+
+[[package]]
+channel = 'fedora'
+name = 'amprd'

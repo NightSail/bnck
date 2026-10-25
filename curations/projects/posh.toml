@@ -1,0 +1,12 @@
+id = 'posh'
+name = 'posh'
+
+homepage = 'https://salsa.debian.org/clint/posh'
+
+[[package]]
+channel = 'debian'
+name = 'posh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/posh'

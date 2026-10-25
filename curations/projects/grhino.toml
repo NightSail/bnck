@@ -1,0 +1,8 @@
+id = 'grhino'
+name = 'grhino'
+
+homepage = 'http://rhino.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'grhino'

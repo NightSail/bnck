@@ -1,0 +1,8 @@
+id = 'aida-x-standalone'
+name = 'aida-x-standalone'
+
+homepage = 'https://github.com/AidaDSP/AIDA-X'
+
+[[package]]
+channel = 'arch'
+name = 'aida-x-standalone'

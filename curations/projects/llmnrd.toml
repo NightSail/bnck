@@ -1,0 +1,8 @@
+id = 'llmnrd'
+name = 'llmnrd'
+
+homepage = 'https://github.com/tklauser/llmnrd'
+
+[[package]]
+channel = 'fedora'
+name = 'llmnrd'

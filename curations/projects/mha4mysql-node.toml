@@ -1,0 +1,8 @@
+id = 'mha4mysql-node'
+name = 'mha4mysql-node'
+
+homepage = 'https://github.com/yoshinorim/mha4mysql-node'
+
+[[package]]
+channel = 'debian'
+name = 'mha4mysql-node'

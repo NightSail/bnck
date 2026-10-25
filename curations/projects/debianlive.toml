@@ -1,0 +1,16 @@
+id = 'debianlive'
+name = 'DebianLive'
+
+homepage = 'https://wiki.debian.org/DebianLive'
+
+[[package]]
+channel = 'debian'
+name = 'live-boot'
+
+[[package]]
+channel = 'debian'
+name = 'live-build'
+
+[[package]]
+channel = 'debian'
+name = 'live-tools'

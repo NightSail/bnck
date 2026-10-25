@@ -1,0 +1,8 @@
+id = 'apache-drill'
+name = 'apache-drill'
+
+homepage = 'https://drill.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-drill'

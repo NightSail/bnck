@@ -1,0 +1,8 @@
+id = 'rsvndump'
+name = 'rsvndump'
+
+homepage = 'http://rsvndump.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'rsvndump'

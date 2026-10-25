@@ -1,0 +1,8 @@
+id = 'upse123'
+name = 'upse123'
+
+homepage = 'http://nenolod.net/upse'
+
+[[package]]
+channel = 'debian'
+name = 'upse123'

@@ -1,0 +1,12 @@
+id = 'code2html'
+name = 'code2html'
+
+homepage = 'https://www.palfrader.org/code/code2html'
+
+[[package]]
+channel = 'debian'
+name = 'code2html'
+
+[[package]]
+channel = 'fedora'
+name = 'code2html'

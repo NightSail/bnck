@@ -1,0 +1,16 @@
+id = 'lxi-tools'
+name = 'lxi-tools'
+
+homepage = 'https://lxi-tools.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'lxi-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'lxi-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lxi-tools'

@@ -1,0 +1,8 @@
+id = 'weezl'
+name = 'weezl'
+
+homepage = 'https://crates.io/crates/weezl'
+
+[[package]]
+channel = 'fedora'
+name = 'weezl'

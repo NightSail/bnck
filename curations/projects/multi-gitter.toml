@@ -1,0 +1,8 @@
+id = 'multi-gitter'
+name = 'multi-gitter'
+
+repository = 'https://github.com/lindell/multi-gitter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/multi-gitter'

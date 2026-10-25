@@ -1,0 +1,21 @@
+id = 'dfu-util'
+name = 'dfu-util'
+
+homepage = 'http://dfu-util.sourceforge.net'
+repository = 'https://git.code.sf.net/p/dfu-util/dfu-util.git'
+
+[[package]]
+channel = 'arch'
+name = 'dfu-util'
+
+[[package]]
+channel = 'debian'
+name = 'dfu-util'
+
+[[package]]
+channel = 'fedora'
+name = 'dfu-util'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dfu-util'

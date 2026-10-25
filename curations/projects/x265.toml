@@ -1,0 +1,17 @@
+id = 'x265'
+name = 'x265'
+
+homepage = 'https://www.x265.org'
+repository = 'https://github.com/Multicorewareinc/x265.git'
+
+[[package]]
+channel = 'arch'
+name = 'x265'
+
+[[package]]
+channel = 'debian'
+name = 'x265'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x265'

@@ -1,0 +1,20 @@
+id = 'gearheadrpg'
+name = 'gearheadrpg'
+
+homepage = 'http://gearheadrpg.com'
+
+[[package]]
+channel = 'fedora'
+name = 'gearhead1-SDL'
+
+[[package]]
+channel = 'fedora'
+name = 'gearhead1-textmode'
+
+[[package]]
+channel = 'fedora'
+name = 'gearhead2-SDL'
+
+[[package]]
+channel = 'fedora'
+name = 'gearhead2-textmode'

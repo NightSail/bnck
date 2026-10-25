@@ -1,0 +1,12 @@
+id = 'sequoia-sop'
+name = 'sequoia-sop'
+
+homepage = 'https://gitlab.com/sequoia-pgp/sequoia-sop'
+
+[[package]]
+channel = 'arch'
+name = 'sequoia-sop'
+
+[[package]]
+channel = 'fedora'
+name = 'sequoia-sop'

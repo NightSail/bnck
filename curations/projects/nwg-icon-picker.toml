@@ -1,0 +1,8 @@
+id = 'nwg-icon-picker'
+name = 'nwg-icon-picker'
+
+homepage = 'https://github.com/nwg-piotr/nwg-icon-picker'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-icon-picker'

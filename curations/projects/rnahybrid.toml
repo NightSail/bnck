@@ -1,0 +1,8 @@
+id = 'rnahybrid'
+name = 'rnahybrid'
+
+homepage = 'http://bibiserv.techfak.uni-bielefeld.de/rnahybrid/submission.html'
+
+[[package]]
+channel = 'debian'
+name = 'rnahybrid'

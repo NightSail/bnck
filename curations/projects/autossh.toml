@@ -1,0 +1,20 @@
+id = 'autossh'
+name = 'autossh'
+
+homepage = 'https://www.harding.motd.ca/autossh'
+
+[[package]]
+channel = 'arch'
+name = 'autossh'
+
+[[package]]
+channel = 'debian'
+name = 'autossh'
+
+[[package]]
+channel = 'fedora'
+name = 'autossh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autossh'

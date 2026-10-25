@@ -1,0 +1,8 @@
+id = 'python3-silfont'
+name = 'python3-silfont'
+
+homepage = 'https://github.com/silnrsi/pysilfont'
+
+[[package]]
+channel = 'debian'
+name = 'python3-silfont'

@@ -1,0 +1,12 @@
+id = 'kylin-wayland-compositor'
+name = 'kylin-wayland-compositor'
+
+homepage = 'https://gitee.com/openkylin/kylin-wayland-compositor'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-wayland-compositor'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-wayland-compositor-tools'

@@ -1,0 +1,124 @@
+id = 'mccode'
+name = 'mccode'
+
+homepage = 'https://github.com/McStasMcXtrace/McCode'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-clusterscripts'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdisplay-mantid'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdisplay-matlab'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdisplay-matplotlib'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdisplay-pyqtgraph'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdisplay-webgl'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdisplay-webgl-classic'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcdoc'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcgui'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcplot-html'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcplot-matlab'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcplot-matplotlib'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcplot-pyqtgraph'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcresplot'
+
+[[package]]
+channel = 'debian'
+name = 'mcstas-mcrun'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-clusterscripts'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxdisplay-matlab'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxdisplay-matplotlib'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxdisplay-pyqtgraph'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxdisplay-webgl'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxdisplay-webgl-classic'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxdoc'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxgui'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxplot-html'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxplot-matlab'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxplot-matplotlib'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxplot-pyqtgraph'
+
+[[package]]
+channel = 'debian'
+name = 'mcxtrace-mxrun'

@@ -1,0 +1,8 @@
+id = 'geographiclib-tools'
+name = 'geographiclib-tools'
+
+homepage = 'https://geographiclib.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'geographiclib-tools'

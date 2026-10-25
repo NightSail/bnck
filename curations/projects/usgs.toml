@@ -1,0 +1,8 @@
+id = 'usgs'
+name = 'usgs'
+
+homepage = 'https://github.com/kapadia/usgs'
+
+[[package]]
+channel = 'debian'
+name = 'usgs'

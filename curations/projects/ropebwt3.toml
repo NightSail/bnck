@@ -1,0 +1,8 @@
+id = 'ropebwt3'
+name = 'ropebwt3'
+
+repository = 'https://github.com/lh3/ropebwt3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ropebwt3'

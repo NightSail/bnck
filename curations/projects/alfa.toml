@@ -1,0 +1,8 @@
+id = 'alfa'
+name = 'alfa'
+
+homepage = 'https://github.com/rwesson/ALFA'
+
+[[package]]
+channel = 'debian'
+name = 'alfa'

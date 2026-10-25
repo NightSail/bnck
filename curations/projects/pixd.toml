@@ -1,0 +1,8 @@
+id = 'pixd'
+name = 'pixd'
+
+homepage = 'https://github.com/FireyFly/pixd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixd'

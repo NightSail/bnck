@@ -1,0 +1,8 @@
+id = 'protoc-gen-js'
+name = 'protoc-gen-js'
+
+repository = 'https://github.com/protocolbuffers/protobuf-javascript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-js'

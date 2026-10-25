@@ -1,0 +1,16 @@
+id = 'marked'
+name = 'marked'
+
+homepage = 'https://marked.js.org'
+
+[[package]]
+channel = 'arch'
+name = 'marked'
+
+[[package]]
+channel = 'fedora'
+name = 'marked'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marked'

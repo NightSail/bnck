@@ -1,0 +1,12 @@
+id = 'akonadi-import-wizard'
+name = 'akonadi-import-wizard'
+
+homepage = 'https://invent.kde.org/pim/akonadi-import-wizard'
+
+[[package]]
+channel = 'debian'
+name = 'akonadi-import-wizard'
+
+[[package]]
+channel = 'fedora'
+name = 'akonadi-import-wizard'

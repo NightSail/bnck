@@ -1,0 +1,12 @@
+id = 'cswrap'
+name = 'cswrap'
+
+homepage = 'https://github.com/csutils/cswrap'
+
+[[package]]
+channel = 'fedora'
+name = 'csexec'
+
+[[package]]
+channel = 'fedora'
+name = 'cswrap'

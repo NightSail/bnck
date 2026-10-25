@@ -1,0 +1,8 @@
+id = 'python3-pyfaidx'
+name = 'python3-pyfaidx'
+
+homepage = 'https://github.com/mdshw5/pyfaidx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyfaidx'

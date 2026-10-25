@@ -1,0 +1,8 @@
+id = 'rubygem-codeclimate-test-reporter'
+name = 'rubygem-codeclimate-test-reporter'
+
+homepage = 'https://github.com/codeclimate/ruby-test-reporter'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-codeclimate-test-reporter'

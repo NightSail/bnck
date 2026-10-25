@@ -1,0 +1,8 @@
+id = 'setuptool'
+name = 'setuptool'
+
+homepage = 'http://git.fedorahosted.org/git'
+
+[[package]]
+channel = 'fedora'
+name = 'setuptool'

@@ -1,0 +1,8 @@
+id = 'cargo-shear'
+name = 'cargo-shear'
+
+repository = 'https://github.com/Boshen/cargo-shear.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-shear'

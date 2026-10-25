@@ -1,0 +1,8 @@
+id = 'cobbler'
+name = 'cobbler'
+
+homepage = 'https://cobbler.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'cobbler'

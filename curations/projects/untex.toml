@@ -1,0 +1,8 @@
+id = 'untex'
+name = 'untex'
+
+homepage = 'http://www.ctan.org/pkg/untex'
+
+[[package]]
+channel = 'debian'
+name = 'untex'

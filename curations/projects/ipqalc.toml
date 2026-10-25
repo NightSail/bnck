@@ -1,0 +1,8 @@
+id = 'ipqalc'
+name = 'ipqalc'
+
+homepage = 'https://bitbucket.org/admsasha/ipqalc'
+
+[[package]]
+channel = 'debian'
+name = 'ipqalc'

@@ -1,0 +1,8 @@
+id = 'whatmp3'
+name = 'whatmp3'
+
+repository = 'https://github.com/RecursiveForest/whatmp3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whatmp3'

@@ -1,0 +1,8 @@
+id = 'sptlrx'
+name = 'sptlrx'
+
+homepage = 'https://github.com/raitonoberu/sptlrx'
+
+[[package]]
+channel = 'debian'
+name = 'sptlrx'

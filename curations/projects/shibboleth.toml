@@ -1,0 +1,12 @@
+id = 'shibboleth'
+name = 'shibboleth'
+
+homepage = 'https://shibboleth.net'
+
+[[package]]
+channel = 'debian'
+name = 'shibboleth-sp-utils'
+
+[[package]]
+channel = 'debian'
+name = 'xml-security-c-utils'

@@ -1,0 +1,16 @@
+id = 'dash'
+name = 'dash'
+
+homepage = 'http://gondor.apana.org.au/~herbert/dash'
+
+[[package]]
+channel = 'arch'
+name = 'dash'
+
+[[package]]
+channel = 'debian'
+name = 'dash'
+
+[[package]]
+channel = 'fedora'
+name = 'dash'

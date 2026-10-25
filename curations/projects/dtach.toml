@@ -1,0 +1,16 @@
+id = 'dtach'
+name = 'dtach'
+
+homepage = 'https://dtach.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dtach'
+
+[[package]]
+channel = 'fedora'
+name = 'dtach'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtach'

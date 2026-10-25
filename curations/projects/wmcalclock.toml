@@ -1,0 +1,12 @@
+id = 'wmcalclock'
+name = 'wmCalClock'
+
+homepage = 'https://www.dockapps.net/wmcalclock'
+
+[[package]]
+channel = 'debian'
+name = 'wmcalclock'
+
+[[package]]
+channel = 'fedora'
+name = 'wmCalClock'

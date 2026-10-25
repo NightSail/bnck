@@ -1,0 +1,8 @@
+id = 'wmmisc'
+name = 'wmmisc'
+
+homepage = 'https://www.dockapps.net/wmmisc'
+
+[[package]]
+channel = 'debian'
+name = 'wmmisc'

@@ -1,0 +1,12 @@
+id = 'efm-langserver'
+name = 'efm-langserver'
+
+repository = 'https://github.com/mattn/efm-langserver.git'
+
+[[package]]
+channel = 'debian'
+name = 'efm-langserver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/efm-langserver'

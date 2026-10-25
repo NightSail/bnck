@@ -1,0 +1,17 @@
+id = 'forgejo'
+name = 'forgejo'
+
+homepage = 'https://forgejo.org'
+repository = 'https://codeberg.org/forgejo/forgejo.git'
+
+[[package]]
+channel = 'arch'
+name = 'forgejo'
+
+[[package]]
+channel = 'fedora'
+name = 'forgejo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forgejo'

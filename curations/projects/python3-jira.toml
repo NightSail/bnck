@@ -1,0 +1,8 @@
+id = 'python3-jira'
+name = 'python3-jira'
+
+homepage = 'https://github.com/pycontribs/jira'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jira'

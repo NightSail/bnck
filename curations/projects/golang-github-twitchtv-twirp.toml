@@ -1,0 +1,8 @@
+id = 'golang-github-twitchtv-twirp'
+name = 'golang-github-twitchtv-twirp'
+
+homepage = 'https://github.com/twitchtv/twirp'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-twitchtv-twirp'

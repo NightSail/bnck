@@ -1,0 +1,8 @@
+id = 'choose-gui'
+name = 'choose-gui'
+
+homepage = 'https://github.com/chipsenkbeil/choose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/choose-gui'

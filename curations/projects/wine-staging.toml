@@ -1,0 +1,8 @@
+id = 'wine-staging'
+name = 'wine-staging'
+
+homepage = 'https://www.wine-staging.com'
+
+[[package]]
+channel = 'arch'
+name = 'wine-staging'

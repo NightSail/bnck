@@ -1,0 +1,8 @@
+id = 'ripperx'
+name = 'ripperx'
+
+homepage = 'http://sourceforge.net/projects/ripperx'
+
+[[package]]
+channel = 'debian'
+name = 'ripperx'

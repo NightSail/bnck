@@ -1,0 +1,16 @@
+id = 'kramdown'
+name = 'kramdown'
+
+homepage = 'https://kramdown.gettalong.org'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-kramdown'
+
+[[package]]
+channel = 'debian'
+name = 'kramdown'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-kramdown'

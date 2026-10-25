@@ -1,0 +1,20 @@
+id = 'drm-info'
+name = 'drm-info'
+
+homepage = 'https://gitlab.freedesktop.org/emersion/drm_info'
+
+[[package]]
+channel = 'arch'
+name = 'drm-info'
+
+[[package]]
+channel = 'arch'
+name = 'drminfo'
+
+[[package]]
+channel = 'debian'
+name = 'drm-info'
+
+[[package]]
+channel = 'fedora'
+name = 'drm_info'

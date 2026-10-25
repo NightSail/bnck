@@ -1,0 +1,12 @@
+id = 'vim-latex'
+name = 'vim-latex'
+
+homepage = 'http://vim-latex.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'vim-latexsuite'
+
+[[package]]
+channel = 'fedora'
+name = 'vim-latex'

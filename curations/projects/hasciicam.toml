@@ -1,0 +1,8 @@
+id = 'hasciicam'
+name = 'hasciicam'
+
+homepage = 'https://ascii.dyne.org'
+
+[[package]]
+channel = 'debian'
+name = 'hasciicam'

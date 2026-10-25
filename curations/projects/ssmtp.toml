@@ -1,0 +1,10 @@
+id = 'ssmtp'
+name = 'ssmtp'
+
+[[package]]
+channel = 'debian'
+name = 'ssmtp'
+
+[[package]]
+channel = 'fedora'
+name = 'ssmtp'

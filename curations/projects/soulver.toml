@@ -1,0 +1,8 @@
+id = 'soulver'
+name = 'soulver'
+
+homepage = 'https://soulver.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/soulver'

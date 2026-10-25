@@ -1,0 +1,8 @@
+id = 'fsearch'
+name = 'fsearch'
+
+homepage = 'https://cboxdoerfer.github.io/fsearch'
+
+[[package]]
+channel = 'debian'
+name = 'fsearch'

@@ -1,0 +1,12 @@
+id = 'pacrunner'
+name = 'pacrunner'
+
+homepage = 'https://git.kernel.org/pub/scm/network/connman/pacrunner.git'
+
+[[package]]
+channel = 'arch'
+name = 'pacrunner'
+
+[[package]]
+channel = 'fedora'
+name = 'pacrunner'

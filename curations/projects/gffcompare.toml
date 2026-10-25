@@ -1,0 +1,9 @@
+id = 'gffcompare'
+name = 'gffcompare'
+
+homepage = 'https://ccb.jhu.edu/software/stringtie/gffcompare.shtml'
+repository = 'https://github.com/gpertea/gffcompare.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gffcompare'

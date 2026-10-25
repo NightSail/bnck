@@ -1,0 +1,16 @@
+id = 'vpnc'
+name = 'vpnc'
+
+homepage = 'https://github.com/streambinder/vpnc'
+
+[[package]]
+channel = 'arch'
+name = 'vpnc'
+
+[[package]]
+channel = 'debian'
+name = 'vpnc'
+
+[[package]]
+channel = 'fedora'
+name = 'vpnc'

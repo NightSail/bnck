@@ -1,0 +1,8 @@
+id = 'openucc'
+name = 'openucc'
+
+homepage = 'https://github.com/openucx/ucc'
+
+[[package]]
+channel = 'arch'
+name = 'openucc'

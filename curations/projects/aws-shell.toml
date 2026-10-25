@@ -1,0 +1,8 @@
+id = 'aws-shell'
+name = 'aws-shell'
+
+homepage = 'https://github.com/awslabs/aws-shell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-shell'

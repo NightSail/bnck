@@ -1,0 +1,8 @@
+id = 'xbuild'
+name = 'xbuild'
+
+homepage = 'https://github.com/rust-mobile/xbuild'
+
+[[package]]
+channel = 'arch'
+name = 'xbuild'

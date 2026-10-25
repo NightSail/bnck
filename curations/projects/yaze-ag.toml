@@ -1,0 +1,8 @@
+id = 'yaze-ag'
+name = 'yaze-ag'
+
+homepage = 'https://agl.yaze-ag.de'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaze-ag'

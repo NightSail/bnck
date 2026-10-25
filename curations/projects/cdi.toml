@@ -1,0 +1,8 @@
+id = 'cdi'
+name = 'cdi'
+
+homepage = 'https://code.mpimet.mpg.de/projects/cdi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdi'

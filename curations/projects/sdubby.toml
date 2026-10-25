@@ -1,0 +1,8 @@
+id = 'sdubby'
+name = 'sdubby'
+
+homepage = 'https://pagure.io/sdubby.git'
+
+[[package]]
+channel = 'fedora'
+name = 'sdubby'

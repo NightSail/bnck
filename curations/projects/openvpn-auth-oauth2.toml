@@ -1,0 +1,8 @@
+id = 'openvpn-auth-oauth2'
+name = 'openvpn-auth-oauth2'
+
+homepage = 'https://github.com/jkroepke/openvpn-auth-oauth2'
+
+[[package]]
+channel = 'debian'
+name = 'openvpn-auth-oauth2'

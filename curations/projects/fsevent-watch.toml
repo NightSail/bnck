@@ -1,0 +1,8 @@
+id = 'fsevent-watch'
+name = 'fsevent_watch'
+
+repository = 'https://github.com/proger/fsevent_watch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fsevent_watch'

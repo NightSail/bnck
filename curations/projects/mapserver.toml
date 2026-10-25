@@ -1,0 +1,16 @@
+id = 'mapserver'
+name = 'mapserver'
+
+homepage = 'https://mapserver.org'
+
+[[package]]
+channel = 'debian'
+name = 'mapserver-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'mapserver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mapserver'

@@ -1,0 +1,8 @@
+id = 'leetsolv'
+name = 'leetsolv'
+
+repository = 'https://github.com/eannchen/leetsolv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leetsolv'

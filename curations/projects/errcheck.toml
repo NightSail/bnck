@@ -1,0 +1,8 @@
+id = 'errcheck'
+name = 'errcheck'
+
+homepage = 'https://github.com/kisielk/errcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/errcheck'

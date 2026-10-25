@@ -1,0 +1,13 @@
+id = 'spotifyd'
+name = 'spotifyd'
+
+homepage = 'https://spotifyd.rs'
+repository = 'https://github.com/Spotifyd/spotifyd.git'
+
+[[package]]
+channel = 'arch'
+name = 'spotifyd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spotifyd'

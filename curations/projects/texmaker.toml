@@ -1,0 +1,16 @@
+id = 'texmaker'
+name = 'texmaker'
+
+homepage = 'https://www.xm1math.net/texmaker/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'texmaker'
+
+[[package]]
+channel = 'debian'
+name = 'texmaker'
+
+[[package]]
+channel = 'fedora'
+name = 'texmaker'

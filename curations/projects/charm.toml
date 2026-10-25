@@ -1,0 +1,13 @@
+id = 'charm'
+name = 'charm'
+
+homepage = 'https://charm.sh/cloud'
+repository = 'https://github.com/juju/charmstore-client.git'
+
+[[package]]
+channel = 'arch'
+name = 'charm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/charm'

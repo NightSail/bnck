@@ -1,0 +1,16 @@
+id = 'getpelican'
+name = 'getpelican'
+
+homepage = 'https://getpelican.com'
+
+[[package]]
+channel = 'debian'
+name = 'pelican'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pelican'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pelican'

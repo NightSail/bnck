@@ -1,0 +1,12 @@
+id = 'seaview'
+name = 'seaview'
+
+homepage = 'https://doua.prabi.fr/software/seaview'
+
+[[package]]
+channel = 'debian'
+name = 'seaview'
+
+[[package]]
+channel = 'fedora'
+name = 'seaview'

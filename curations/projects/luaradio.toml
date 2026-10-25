@@ -1,0 +1,9 @@
+id = 'luaradio'
+name = 'luaradio'
+
+homepage = 'https://luaradio.io'
+repository = 'https://github.com/vsergeev/luaradio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luaradio'

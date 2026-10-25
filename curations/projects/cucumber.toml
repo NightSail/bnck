@@ -1,0 +1,12 @@
+id = 'cucumber'
+name = 'cucumber'
+
+homepage = 'https://cucumber.io'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-cucumber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cucumber-ruby'

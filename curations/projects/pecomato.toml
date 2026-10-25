@@ -1,0 +1,8 @@
+id = 'pecomato'
+name = 'pecomato'
+
+homepage = 'http://www.mollux.org/projects/pecomato'
+
+[[package]]
+channel = 'debian'
+name = 'pecomato'

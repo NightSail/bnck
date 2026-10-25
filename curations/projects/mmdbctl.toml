@@ -1,0 +1,8 @@
+id = 'mmdbctl'
+name = 'mmdbctl'
+
+repository = 'https://github.com/ipinfo/mmdbctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmdbctl'

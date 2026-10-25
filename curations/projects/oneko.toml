@@ -1,0 +1,8 @@
+id = 'oneko'
+name = 'oneko'
+
+homepage = 'http://www.daidouji.com/oneko'
+
+[[package]]
+channel = 'fedora'
+name = 'oneko'

@@ -1,0 +1,12 @@
+id = 'python3-getmac'
+name = 'python3-getmac'
+
+homepage = 'https://github.com/GhostofGoes/getmac'
+
+[[package]]
+channel = 'debian'
+name = 'python3-getmac'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-getmac'

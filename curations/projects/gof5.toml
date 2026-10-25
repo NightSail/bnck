@@ -1,0 +1,8 @@
+id = 'gof5'
+name = 'gof5'
+
+repository = 'https://github.com/kayrus/gof5.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gof5'

@@ -1,0 +1,8 @@
+id = 'gdl'
+name = 'gdl'
+
+homepage = 'http://gnudatalanguage.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'gdl'

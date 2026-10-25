@@ -1,0 +1,13 @@
+id = 'abyss'
+name = 'abyss'
+
+homepage = 'https://github.com/bcgsc/abyss'
+repository = 'https://github.com/BirolLab/abyss.git'
+
+[[package]]
+channel = 'debian'
+name = 'abyss'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abyss'

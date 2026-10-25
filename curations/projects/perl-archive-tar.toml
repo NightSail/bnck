@@ -1,0 +1,8 @@
+id = 'perl-archive-tar'
+name = 'perl-Archive-Tar'
+
+homepage = 'https://metacpan.org/release/Archive-Tar'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Archive-Tar'

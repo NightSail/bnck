@@ -1,0 +1,16 @@
+id = 'authentication-headers'
+name = 'authentication-headers'
+
+homepage = 'https://github.com/ValiMail/authentication-headers'
+
+[[package]]
+channel = 'arch'
+name = 'python-authheaders'
+
+[[package]]
+channel = 'debian'
+name = 'python3-authheaders'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-authheaders'

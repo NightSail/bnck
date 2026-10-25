@@ -1,0 +1,8 @@
+id = 'debgpt'
+name = 'debgpt'
+
+homepage = 'https://salsa.debian.org/deeplearning-team/debgpt'
+
+[[package]]
+channel = 'debian'
+name = 'debgpt'

@@ -1,0 +1,8 @@
+id = 'tclcl'
+name = 'tclcl'
+
+homepage = 'https://otcl-tclcl.sourceforge.net/tclcl'
+
+[[package]]
+channel = 'debian'
+name = 'tclcl'

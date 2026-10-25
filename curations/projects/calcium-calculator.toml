@@ -1,0 +1,8 @@
+id = 'calcium-calculator'
+name = 'calcium-calculator'
+
+homepage = 'https://web.njit.edu/~matveev/calc.html'
+
+[[package]]
+channel = 'fedora'
+name = 'calcium-calculator'

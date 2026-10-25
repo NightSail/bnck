@@ -1,0 +1,8 @@
+id = 'kubectl-klock'
+name = 'kubectl-klock'
+
+homepage = 'https://github.com/applejag/kubectl-klock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectl-klock'

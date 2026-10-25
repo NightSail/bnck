@@ -1,0 +1,8 @@
+id = 'caffeine'
+name = 'caffeine'
+
+homepage = 'https://launchpad.net/caffeine'
+
+[[package]]
+channel = 'debian'
+name = 'caffeine'

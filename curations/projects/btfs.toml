@@ -1,0 +1,16 @@
+id = 'btfs'
+name = 'btfs'
+
+homepage = 'https://github.com/johang/btfs'
+
+[[package]]
+channel = 'arch'
+name = 'btfs'
+
+[[package]]
+channel = 'debian'
+name = 'btfs'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-btfs'

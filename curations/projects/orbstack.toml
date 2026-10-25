@@ -1,0 +1,8 @@
+id = 'orbstack'
+name = 'orbstack'
+
+homepage = 'https://orbstack.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/orbstack'

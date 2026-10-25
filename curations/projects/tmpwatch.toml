@@ -1,0 +1,8 @@
+id = 'tmpwatch'
+name = 'tmpwatch'
+
+homepage = 'https://pagure.io/tmpwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'tmpwatch'

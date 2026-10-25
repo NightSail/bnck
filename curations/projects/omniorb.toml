@@ -1,0 +1,28 @@
+id = 'omniorb'
+name = 'omniorb'
+
+homepage = 'http://omniorb.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'omniidl'
+
+[[package]]
+channel = 'debian'
+name = 'omniorb'
+
+[[package]]
+channel = 'debian'
+name = 'omniorb-nameserver'
+
+[[package]]
+channel = 'fedora'
+name = 'omniORB-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'omniORB-servers'
+
+[[package]]
+channel = 'fedora'
+name = 'omniORB-utils'

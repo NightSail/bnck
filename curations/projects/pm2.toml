@@ -1,0 +1,8 @@
+id = 'pm2'
+name = 'pm2'
+
+homepage = 'https://pm2.keymetrics.io'
+
+[[package]]
+channel = 'arch'
+name = 'pm2'

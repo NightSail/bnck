@@ -1,0 +1,8 @@
+id = 'pkgfile'
+name = 'pkgfile'
+
+homepage = 'https://github.com/falconindy/pkgfile'
+
+[[package]]
+channel = 'arch'
+name = 'pkgfile'

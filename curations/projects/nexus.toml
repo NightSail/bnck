@@ -1,0 +1,9 @@
+id = 'nexus'
+name = 'nexus'
+
+homepage = 'https://www.sonatype.com'
+repository = 'https://github.com/sonatype/nexus-public.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nexus'

@@ -1,0 +1,8 @@
+id = 'packup'
+name = 'packup'
+
+homepage = 'https://sat.inesc-id.pt/~mikolas/sw/packup'
+
+[[package]]
+channel = 'debian'
+name = 'packup'

@@ -1,0 +1,8 @@
+id = 'gtk2hs-buildtools-gtk2hs'
+name = 'gtk2hs-buildtools'
+
+homepage = 'http://projects.haskell.org/gtk2hs'
+
+[[package]]
+channel = 'debian'
+name = 'gtk2hs-buildtools'

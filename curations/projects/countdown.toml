@@ -1,0 +1,8 @@
+id = 'countdown'
+name = 'countdown'
+
+repository = 'https://github.com/antonmedv/countdown.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/countdown'

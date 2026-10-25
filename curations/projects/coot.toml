@@ -1,0 +1,8 @@
+id = 'coot'
+name = 'coot'
+
+homepage = 'https://github.com/pemsley/coot'
+
+[[package]]
+channel = 'debian'
+name = 'coot'

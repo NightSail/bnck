@@ -1,0 +1,8 @@
+id = 'mothur'
+name = 'mothur'
+
+homepage = 'https://www.mothur.org'
+
+[[package]]
+channel = 'debian'
+name = 'mothur'

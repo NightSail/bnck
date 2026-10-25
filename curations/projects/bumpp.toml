@@ -1,0 +1,8 @@
+id = 'bumpp'
+name = 'bumpp'
+
+homepage = 'https://github.com/antfu-collective/bumpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bumpp'

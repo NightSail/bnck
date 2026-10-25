@@ -1,0 +1,8 @@
+id = 'gattlib-examples'
+name = 'gattlib-examples'
+
+homepage = 'https://github.com/labapart/gattlib'
+
+[[package]]
+channel = 'fedora'
+name = 'gattlib-examples'

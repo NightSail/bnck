@@ -1,0 +1,9 @@
+id = 'logtalk'
+name = 'logtalk'
+
+homepage = 'https://logtalk.org'
+repository = 'https://github.com/LogtalkDotOrg/logtalk3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logtalk'

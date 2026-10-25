@@ -1,0 +1,12 @@
+id = 'cvdupdate'
+name = 'cvdupdate'
+
+homepage = 'https://github.com/Cisco-Talos/cvdupdate'
+
+[[package]]
+channel = 'debian'
+name = 'clamav-cvdupdate'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cvdupdate'

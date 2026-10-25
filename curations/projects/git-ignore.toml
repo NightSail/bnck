@@ -1,0 +1,8 @@
+id = 'git-ignore'
+name = 'git-ignore'
+
+repository = 'https://github.com/sondr3/git-ignore.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-ignore'

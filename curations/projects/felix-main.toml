@@ -1,0 +1,8 @@
+id = 'felix-main'
+name = 'felix-main'
+
+homepage = 'https://felix.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'felix-main'

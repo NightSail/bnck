@@ -1,0 +1,16 @@
+id = 'wasm-bindgen'
+name = 'wasm-bindgen'
+
+homepage = 'https://wasm-bindgen.github.io/wasm-bindgen'
+
+[[package]]
+channel = 'arch'
+name = 'wasm-bindgen'
+
+[[package]]
+channel = 'debian'
+name = 'wasm-bindgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasm-bindgen'

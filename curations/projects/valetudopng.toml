@@ -1,0 +1,8 @@
+id = 'valetudopng'
+name = 'valetudopng'
+
+homepage = 'https://github.com/erkexzcx/valetudopng'
+
+[[package]]
+channel = 'fedora'
+name = 'valetudopng'

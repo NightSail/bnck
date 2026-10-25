@@ -1,0 +1,8 @@
+id = 'systraq'
+name = 'systraq'
+
+homepage = 'http://mdcc.cx/systraq'
+
+[[package]]
+channel = 'debian'
+name = 'systraq'

@@ -1,0 +1,8 @@
+id = 'droid-juicer'
+name = 'droid-juicer'
+
+homepage = 'https://gitlab.com/mobian1/droid-juicer'
+
+[[package]]
+channel = 'debian'
+name = 'droid-juicer'

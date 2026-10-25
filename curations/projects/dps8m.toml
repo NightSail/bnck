@@ -1,0 +1,9 @@
+id = 'dps8m'
+name = 'dps8m'
+
+homepage = 'https://dps8m.gitlab.io'
+repository = 'https://gitlab.com/dps8m/dps8m.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dps8m'

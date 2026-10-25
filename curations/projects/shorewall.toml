@@ -1,0 +1,44 @@
+id = 'shorewall'
+name = 'shorewall'
+
+homepage = 'https://www.shorewall.org'
+
+[[package]]
+channel = 'debian'
+name = 'shorewall-core'
+
+[[package]]
+channel = 'debian'
+name = 'shorewall-init'
+
+[[package]]
+channel = 'debian'
+name = 'shorewall-lite'
+
+[[package]]
+channel = 'debian'
+name = 'shorewall6'
+
+[[package]]
+channel = 'debian'
+name = 'shorewall6-lite'
+
+[[package]]
+channel = 'fedora'
+name = 'shorewall'
+
+[[package]]
+channel = 'fedora'
+name = 'shorewall-init'
+
+[[package]]
+channel = 'fedora'
+name = 'shorewall-lite'
+
+[[package]]
+channel = 'fedora'
+name = 'shorewall6'
+
+[[package]]
+channel = 'fedora'
+name = 'shorewall6-lite'

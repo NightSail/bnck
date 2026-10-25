@@ -1,0 +1,8 @@
+id = 'tre-tomarrell'
+name = 'tre'
+
+repository = 'https://github.com/tomarrell/tre'
+
+[[package]]
+channel = 'crates.io'
+name = 'tre'

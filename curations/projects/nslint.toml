@@ -1,0 +1,6 @@
+id = 'nslint'
+name = 'nslint'
+
+[[package]]
+channel = 'debian'
+name = 'nslint'

@@ -1,0 +1,8 @@
+id = 'tlswrapper'
+name = 'tlswrapper'
+
+homepage = 'https://github.com/janmojzis/tlswrapper'
+
+[[package]]
+channel = 'debian'
+name = 'tlswrapper'

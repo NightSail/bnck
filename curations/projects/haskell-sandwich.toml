@@ -1,0 +1,8 @@
+id = 'haskell-sandwich'
+name = 'haskell-sandwich'
+
+homepage = 'https://codedownio.github.io/sandwich'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-sandwich'

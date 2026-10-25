@@ -21,6 +21,10 @@ channel = 'debian'
 name = 'hurl'
 
 [[package]]
+channel = 'debian'
+name = 'hurlfmt'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/hurl'
 

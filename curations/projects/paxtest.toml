@@ -1,0 +1,12 @@
+id = 'paxtest'
+name = 'paxtest'
+
+homepage = 'https://pax.grsecurity.net'
+
+[[package]]
+channel = 'arch'
+name = 'paxtest'
+
+[[package]]
+channel = 'debian'
+name = 'paxtest'

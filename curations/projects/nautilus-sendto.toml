@@ -1,0 +1,6 @@
+id = 'nautilus-sendto'
+name = 'nautilus-sendto'
+
+[[package]]
+channel = 'debian'
+name = 'nautilus-sendto'

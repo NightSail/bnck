@@ -1,0 +1,8 @@
+id = 'ciso'
+name = 'ciso'
+
+homepage = 'https://github.com/jamie/ciso'
+
+[[package]]
+channel = 'debian'
+name = 'ciso'

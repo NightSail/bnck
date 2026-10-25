@@ -1,0 +1,8 @@
+id = 'crunch64'
+name = 'crunch64'
+
+homepage = 'https://github.com/decompals/crunch64'
+
+[[package]]
+channel = 'arch'
+name = 'crunch64'

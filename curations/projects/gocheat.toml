@@ -1,0 +1,8 @@
+id = 'gocheat'
+name = 'gocheat'
+
+repository = 'https://github.com/Achno/gocheat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gocheat'

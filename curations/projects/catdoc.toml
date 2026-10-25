@@ -1,0 +1,20 @@
+id = 'catdoc'
+name = 'catdoc'
+
+homepage = 'https://www.wagner.pp.ru/~vitus/software/catdoc'
+
+[[package]]
+channel = 'arch'
+name = 'catdoc'
+
+[[package]]
+channel = 'debian'
+name = 'catdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'catdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'catdoc-wordview'

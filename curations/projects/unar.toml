@@ -1,0 +1,17 @@
+id = 'unar'
+name = 'unar'
+
+homepage = 'https://theunarchiver.com/command-line'
+repository = 'https://github.com/MacPaw/XADMaster.git'
+
+[[package]]
+channel = 'debian'
+name = 'unar'
+
+[[package]]
+channel = 'fedora'
+name = 'unar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unar'

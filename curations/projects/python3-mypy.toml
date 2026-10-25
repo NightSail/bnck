@@ -1,0 +1,8 @@
+id = 'python3-mypy'
+name = 'python3-mypy'
+
+homepage = 'https://github.com/python/mypy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mypy'

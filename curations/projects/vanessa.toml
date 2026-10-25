@@ -1,0 +1,12 @@
+id = 'vanessa'
+name = 'vanessa'
+
+homepage = 'http://horms.net/projects/vanessa'
+
+[[package]]
+channel = 'debian'
+name = 'libvanessa-logger-sample'
+
+[[package]]
+channel = 'debian'
+name = 'libvanessa-socket-pipe'

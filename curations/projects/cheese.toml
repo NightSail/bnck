@@ -1,0 +1,12 @@
+id = 'cheese'
+name = 'cheese'
+
+homepage = 'https://wiki.gnome.org/Apps/Cheese'
+
+[[package]]
+channel = 'debian'
+name = 'cheese'
+
+[[package]]
+channel = 'fedora'
+name = 'cheese'

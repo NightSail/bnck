@@ -1,0 +1,8 @@
+id = 'testscript'
+name = 'testscript'
+
+homepage = 'https://github.com/rogpeppe/go-internal/tree/master/cmd/testscript'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/testscript'

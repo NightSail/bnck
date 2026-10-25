@@ -1,0 +1,12 @@
+id = 'tortoisehg'
+name = 'tortoisehg'
+
+homepage = 'https://tortoisehg.bitbucket.io'
+
+[[package]]
+channel = 'debian'
+name = 'tortoisehg'
+
+[[package]]
+channel = 'fedora'
+name = 'tortoisehg'

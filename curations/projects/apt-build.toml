@@ -1,0 +1,6 @@
+id = 'apt-build'
+name = 'apt-build'
+
+[[package]]
+channel = 'debian'
+name = 'apt-build'

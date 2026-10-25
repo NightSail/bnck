@@ -1,0 +1,8 @@
+id = 'smlsharp'
+name = 'smlsharp'
+
+homepage = 'https://smlsharp.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'smlsharp'

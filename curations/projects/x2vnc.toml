@@ -1,0 +1,8 @@
+id = 'x2vnc'
+name = 'x2vnc'
+
+homepage = 'http://fredrik.hubbe.net/x2vnc.html'
+
+[[package]]
+channel = 'debian'
+name = 'x2vnc'

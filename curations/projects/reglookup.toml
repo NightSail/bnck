@@ -1,0 +1,8 @@
+id = 'reglookup'
+name = 'reglookup'
+
+homepage = 'https://web.archive.org/web/20240804024044/http://projects.sentinelchicken.org/reglookup'
+
+[[package]]
+channel = 'debian'
+name = 'reglookup'

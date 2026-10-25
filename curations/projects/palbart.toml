@@ -1,0 +1,8 @@
+id = 'palbart'
+name = 'palbart'
+
+homepage = 'http://www.pdp8online.com/ftp/software/palbart'
+
+[[package]]
+channel = 'debian'
+name = 'palbart'

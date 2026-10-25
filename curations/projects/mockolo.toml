@@ -1,0 +1,8 @@
+id = 'mockolo'
+name = 'mockolo'
+
+homepage = 'https://github.com/uber/mockolo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mockolo'

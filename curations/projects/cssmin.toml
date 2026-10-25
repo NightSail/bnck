@@ -1,0 +1,12 @@
+id = 'cssmin'
+name = 'cssmin'
+
+homepage = 'https://github.com/zacharyvoase/cssmin'
+
+[[package]]
+channel = 'debian'
+name = 'cssmin'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cssmin'

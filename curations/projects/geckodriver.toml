@@ -1,0 +1,8 @@
+id = 'geckodriver'
+name = 'geckodriver'
+
+homepage = 'https://github.com/mozilla/geckodriver'
+
+[[package]]
+channel = 'arch'
+name = 'geckodriver'

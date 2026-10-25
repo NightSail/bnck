@@ -1,0 +1,9 @@
+id = 'meta-package-manager'
+name = 'meta-package-manager'
+
+homepage = 'https://kdeldycke.github.io/meta-package-manager'
+repository = 'https://github.com/kdeldycke/meta-package-manager.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/meta-package-manager'

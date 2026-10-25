@@ -1,0 +1,16 @@
+id = 'pciutils'
+name = 'pciutils'
+
+homepage = 'https://mj.ucw.cz/sw/pciutils'
+
+[[package]]
+channel = 'arch'
+name = 'pciutils'
+
+[[package]]
+channel = 'debian'
+name = 'pciutils'
+
+[[package]]
+channel = 'fedora'
+name = 'pciutils'

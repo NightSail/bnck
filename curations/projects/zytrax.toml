@@ -1,0 +1,8 @@
+id = 'zytrax'
+name = 'zytrax'
+
+homepage = 'https://github.com/reduz/zytrax'
+
+[[package]]
+channel = 'debian'
+name = 'zytrax'

@@ -1,0 +1,13 @@
+id = 'md5deep'
+name = 'md5deep'
+
+homepage = 'http://md5deep.sf.net'
+repository = 'https://github.com/jessek/hashdeep.git'
+
+[[package]]
+channel = 'fedora'
+name = 'md5deep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/md5deep'

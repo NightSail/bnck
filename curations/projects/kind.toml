@@ -4,6 +4,10 @@ name = 'kind'
 repository = 'https://github.com/kubernetes-sigs/kind'
 
 [[package]]
+channel = 'arch'
+name = 'kind'
+
+[[package]]
 channel = 'debian'
 name = 'kind'
 

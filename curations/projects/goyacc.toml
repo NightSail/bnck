@@ -1,0 +1,9 @@
+id = 'goyacc'
+name = 'goyacc'
+
+homepage = 'https://pkg.go.dev/modernc.org/goyacc'
+repository = 'https://gitlab.com/cznic/goyacc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goyacc'

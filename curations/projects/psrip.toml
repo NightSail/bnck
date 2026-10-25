@@ -1,0 +1,8 @@
+id = 'psrip'
+name = 'psrip'
+
+homepage = 'https://www.ctan.org/pkg/psrip'
+
+[[package]]
+channel = 'debian'
+name = 'psrip'

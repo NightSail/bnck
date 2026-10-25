@@ -1,0 +1,8 @@
+id = 'digup'
+name = 'digup'
+
+homepage = 'https://panthema.net/2009/digup'
+
+[[package]]
+channel = 'debian'
+name = 'digup'

@@ -1,0 +1,8 @@
+id = 'mender-artifact'
+name = 'mender-artifact'
+
+homepage = 'https://github.com/mendersoftware/mender-artifact'
+
+[[package]]
+channel = 'debian'
+name = 'mender-artifact'

@@ -1,0 +1,8 @@
+id = 'vehicle-command'
+name = 'vehicle-command'
+
+homepage = 'https://github.com/teslamotors/vehicle-command'
+
+[[package]]
+channel = 'arch'
+name = 'vehicle-command'

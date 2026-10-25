@@ -1,0 +1,8 @@
+id = 'solarwolf'
+name = 'solarwolf'
+
+homepage = 'http://pygame.org/shredwheat/solarwolf'
+
+[[package]]
+channel = 'fedora'
+name = 'solarwolf'

@@ -1,0 +1,8 @@
+id = 'proton-pass-cli'
+name = 'proton-pass-cli'
+
+homepage = 'https://protonpass.github.io/pass-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proton-pass-cli'

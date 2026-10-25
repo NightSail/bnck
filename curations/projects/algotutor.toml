@@ -1,0 +1,8 @@
+id = 'algotutor'
+name = 'algotutor'
+
+homepage = 'http://www.cyut.edu.tw/~ckhung/p/algotutor'
+
+[[package]]
+channel = 'debian'
+name = 'algotutor'

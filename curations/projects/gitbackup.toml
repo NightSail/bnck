@@ -1,0 +1,8 @@
+id = 'gitbackup'
+name = 'gitbackup'
+
+repository = 'https://github.com/amitsaha/gitbackup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitbackup'

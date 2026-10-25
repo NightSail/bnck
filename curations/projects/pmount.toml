@@ -1,0 +1,12 @@
+id = 'pmount'
+name = 'pmount'
+
+homepage = 'https://alioth-archive.debian.org/releases/pmount/pmount'
+
+[[package]]
+channel = 'debian'
+name = 'pmount'
+
+[[package]]
+channel = 'fedora'
+name = 'pmount'

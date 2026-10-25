@@ -1,0 +1,8 @@
+id = 'tty-copy'
+name = 'tty-copy'
+
+homepage = 'https://github.com/jirutka/tty-copy'
+
+[[package]]
+channel = 'fedora'
+name = 'tty-copy'

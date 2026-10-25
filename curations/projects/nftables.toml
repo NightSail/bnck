@@ -1,0 +1,16 @@
+id = 'nftables'
+name = 'nftables'
+
+homepage = 'https://netfilter.org/projects/nftables'
+
+[[package]]
+channel = 'arch'
+name = 'nftables'
+
+[[package]]
+channel = 'fedora'
+name = 'nftables'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nftables'

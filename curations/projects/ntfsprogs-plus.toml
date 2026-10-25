@@ -1,0 +1,8 @@
+id = 'ntfsprogs-plus'
+name = 'ntfsprogs-plus'
+
+homepage = 'https://github.com/ntfsprogs-plus/ntfsprogs-plus'
+
+[[package]]
+channel = 'debian'
+name = 'ntfsprogs-plus'

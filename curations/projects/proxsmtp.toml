@@ -1,0 +1,6 @@
+id = 'proxsmtp'
+name = 'proxsmtp'
+
+[[package]]
+channel = 'debian'
+name = 'proxsmtp'

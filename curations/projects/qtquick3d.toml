@@ -1,0 +1,9 @@
+id = 'qtquick3d'
+name = 'qtquick3d'
+
+homepage = 'https://www.qt.io'
+repository = 'https://code.qt.io/qt/qtquick3d.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qtquick3d'

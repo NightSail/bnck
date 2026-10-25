@@ -1,0 +1,8 @@
+id = 'pget'
+name = 'pget'
+
+repository = 'https://github.com/Code-Hex/pget.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pget'

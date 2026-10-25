@@ -1,0 +1,8 @@
+id = 'reclass'
+name = 'reclass'
+
+homepage = 'https://github.com/salt-formulas/reclass'
+
+[[package]]
+channel = 'debian'
+name = 'reclass'

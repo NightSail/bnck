@@ -1,0 +1,8 @@
+id = 'ffms2-ffms'
+name = 'ffms2'
+
+repository = 'https://github.com/FFMS/ffms2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffms2'

@@ -1,0 +1,8 @@
+id = 'linux-sysinfo-snapshot'
+name = 'linux-sysinfo-snapshot'
+
+homepage = 'https://github.com/Mellanox/linux-sysinfo-snapshot'
+
+[[package]]
+channel = 'fedora'
+name = 'linux-sysinfo-snapshot'

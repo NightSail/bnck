@@ -1,0 +1,28 @@
+id = 'openjade'
+name = 'openjade'
+
+homepage = 'https://openjade.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'openjade'
+
+[[package]]
+channel = 'arch'
+name = 'opensp'
+
+[[package]]
+channel = 'debian'
+name = 'openjade'
+
+[[package]]
+channel = 'fedora'
+name = 'openjade'
+
+[[package]]
+channel = 'fedora'
+name = 'opensp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-sp'

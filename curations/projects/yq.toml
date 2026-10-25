@@ -15,3 +15,7 @@ name = 'yq'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/python-yq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yq'

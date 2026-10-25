@@ -1,0 +1,8 @@
+id = 'duckduckgo'
+name = 'duckduckgo'
+
+homepage = 'https://metacpan.org/release/App-DuckDuckGo'
+
+[[package]]
+channel = 'fedora'
+name = 'duckduckgo'

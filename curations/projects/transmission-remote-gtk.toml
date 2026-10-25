@@ -1,0 +1,16 @@
+id = 'transmission-remote-gtk'
+name = 'transmission-remote-gtk'
+
+homepage = 'https://github.com/transmission-remote-gtk/transmission-remote-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'transmission-remote-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'transmission-remote-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'transmission-remote-gtk'

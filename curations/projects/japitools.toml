@@ -1,0 +1,8 @@
+id = 'japitools'
+name = 'japitools'
+
+homepage = 'https://github.com/gnu-andrew/japitools'
+
+[[package]]
+channel = 'debian'
+name = 'japitools'

@@ -1,0 +1,8 @@
+id = 'goread'
+name = 'goread'
+
+repository = 'https://github.com/TypicalAM/goread.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goread'

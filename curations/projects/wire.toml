@@ -1,0 +1,12 @@
+id = 'wire'
+name = 'wire'
+
+homepage = 'https://github.com/google/wire'
+
+[[package]]
+channel = 'debian'
+name = 'google-wire'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-google-wire'

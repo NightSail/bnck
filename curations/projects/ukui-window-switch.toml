@@ -1,0 +1,6 @@
+id = 'ukui-window-switch'
+name = 'ukui-window-switch'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-window-switch'

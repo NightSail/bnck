@@ -1,0 +1,8 @@
+id = 'rwhoisd'
+name = 'rwhoisd'
+
+homepage = 'https://projects.arin.net/rwhois'
+
+[[package]]
+channel = 'fedora'
+name = 'rwhoisd'

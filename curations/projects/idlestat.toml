@@ -1,0 +1,6 @@
+id = 'idlestat'
+name = 'idlestat'
+
+[[package]]
+channel = 'debian'
+name = 'idlestat'

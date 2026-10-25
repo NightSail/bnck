@@ -1,0 +1,8 @@
+id = 'minimac4'
+name = 'minimac4'
+
+homepage = 'https://genome.sph.umich.edu/wiki/Minimac4'
+
+[[package]]
+channel = 'debian'
+name = 'minimac4'

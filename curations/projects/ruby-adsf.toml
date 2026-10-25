@@ -1,0 +1,8 @@
+id = 'ruby-adsf'
+name = 'ruby-adsf'
+
+homepage = 'https://github.com/ddfreyne/adsf'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-adsf'

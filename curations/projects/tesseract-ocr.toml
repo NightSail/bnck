@@ -1,0 +1,8 @@
+id = 'tesseract-ocr'
+name = 'tesseract-ocr'
+
+homepage = 'https://github.com/tesseract-ocr'
+
+[[package]]
+channel = 'debian'
+name = 'tesseract-ocr'

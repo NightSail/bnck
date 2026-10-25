@@ -1,0 +1,8 @@
+id = 'linuxlogo'
+name = 'linuxlogo'
+
+homepage = 'http://www.deater.net/weave/vmwprod/linux_logo'
+
+[[package]]
+channel = 'debian'
+name = 'linuxlogo'

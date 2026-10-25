@@ -1,0 +1,8 @@
+id = 'python-geoipsets'
+name = 'python-geoipsets'
+
+homepage = 'https://github.com/chr0mag/geoipsets/tree/main/python'
+
+[[package]]
+channel = 'arch'
+name = 'python-geoipsets'

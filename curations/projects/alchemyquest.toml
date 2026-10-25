@@ -1,0 +1,8 @@
+id = 'alchemyquest'
+name = 'alchemyquest'
+
+homepage = 'http://identicalsoftware.com/alchemyquest'
+
+[[package]]
+channel = 'fedora'
+name = 'alchemyquest'

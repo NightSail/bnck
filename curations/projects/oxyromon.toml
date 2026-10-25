@@ -1,0 +1,8 @@
+id = 'oxyromon'
+name = 'oxyromon'
+
+homepage = 'https://github.com/alucryd/oxyromon'
+
+[[package]]
+channel = 'arch'
+name = 'oxyromon'

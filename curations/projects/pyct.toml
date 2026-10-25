@@ -1,0 +1,12 @@
+id = 'pyct'
+name = 'pyct'
+
+homepage = 'https://github.com/pyviz-dev/pyct'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyct'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyct'

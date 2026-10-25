@@ -1,0 +1,8 @@
+id = 'gnome-doc-utils'
+name = 'gnome-doc-utils'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeDocUtils'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-doc-utils'

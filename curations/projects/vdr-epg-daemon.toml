@@ -1,0 +1,8 @@
+id = 'vdr-epg-daemon'
+name = 'vdr-epg-daemon'
+
+homepage = 'https://github.com/horchi/vdr-epg-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'vdr-epg-daemon'

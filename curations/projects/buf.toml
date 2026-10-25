@@ -1,0 +1,13 @@
+id = 'buf'
+name = 'buf'
+
+homepage = 'https://buf.build'
+repository = 'https://github.com/bufbuild/buf.git'
+
+[[package]]
+channel = 'arch'
+name = 'buf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buf'

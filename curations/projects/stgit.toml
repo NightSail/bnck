@@ -1,0 +1,21 @@
+id = 'stgit'
+name = 'stgit'
+
+homepage = 'http://www.procode.org/stgit'
+repository = 'https://github.com/stacked-git/stgit.git'
+
+[[package]]
+channel = 'debian'
+name = 'stgit'
+
+[[package]]
+channel = 'debian'
+name = 'stgit-contrib'
+
+[[package]]
+channel = 'fedora'
+name = 'stgit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stgit'

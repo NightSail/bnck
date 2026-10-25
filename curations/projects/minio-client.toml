@@ -1,0 +1,12 @@
+id = 'minio-client'
+name = 'minio-client'
+
+homepage = 'https://minio.io/downloads'
+
+[[package]]
+channel = 'arch'
+name = 'minio-client'
+
+[[package]]
+channel = 'debian'
+name = 'minio-client'

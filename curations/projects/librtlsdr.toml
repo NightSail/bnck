@@ -1,0 +1,9 @@
+id = 'librtlsdr'
+name = 'librtlsdr'
+
+homepage = 'https://osmocom.org/projects/rtl-sdr/wiki'
+repository = 'https://git.osmocom.org/rtl-sdr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librtlsdr'

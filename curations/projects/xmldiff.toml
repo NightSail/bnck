@@ -1,0 +1,12 @@
+id = 'xmldiff'
+name = 'xmldiff'
+
+homepage = 'https://github.com/Shoobx/xmldiff'
+
+[[package]]
+channel = 'arch'
+name = 'xmldiff'
+
+[[package]]
+channel = 'debian'
+name = 'xmldiff'

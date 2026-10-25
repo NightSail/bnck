@@ -1,0 +1,16 @@
+id = 'dmidecode'
+name = 'dmidecode'
+
+homepage = 'https://www.nongnu.org/dmidecode'
+
+[[package]]
+channel = 'arch'
+name = 'dmidecode'
+
+[[package]]
+channel = 'debian'
+name = 'dmidecode'
+
+[[package]]
+channel = 'fedora'
+name = 'dmidecode'

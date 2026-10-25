@@ -1,0 +1,8 @@
+id = 'cmst'
+name = 'cmst'
+
+homepage = 'https://github.com/andrew-bibb/cmst'
+
+[[package]]
+channel = 'debian'
+name = 'cmst'

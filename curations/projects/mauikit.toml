@@ -1,0 +1,60 @@
+id = 'mauikit'
+name = 'mauikit'
+
+homepage = 'https://mauikit.org'
+
+[[package]]
+channel = 'arch'
+name = 'arca'
+
+[[package]]
+channel = 'arch'
+name = 'buho'
+
+[[package]]
+channel = 'arch'
+name = 'communicator'
+
+[[package]]
+channel = 'arch'
+name = 'fiery'
+
+[[package]]
+channel = 'arch'
+name = 'index-fm'
+
+[[package]]
+channel = 'arch'
+name = 'maui-agenda'
+
+[[package]]
+channel = 'arch'
+name = 'maui-clip'
+
+[[package]]
+channel = 'arch'
+name = 'maui-nota'
+
+[[package]]
+channel = 'arch'
+name = 'maui-pix'
+
+[[package]]
+channel = 'arch'
+name = 'maui-shelf'
+
+[[package]]
+channel = 'arch'
+name = 'maui-station'
+
+[[package]]
+channel = 'arch'
+name = 'mauiman'
+
+[[package]]
+channel = 'arch'
+name = 'strike'
+
+[[package]]
+channel = 'arch'
+name = 'vvave'

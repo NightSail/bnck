@@ -1,0 +1,20 @@
+id = 'twine'
+name = 'twine'
+
+repository = 'https://github.com/pypa/twine.git'
+
+[[package]]
+channel = 'arch'
+name = 'twine'
+
+[[package]]
+channel = 'debian'
+name = 'twine'
+
+[[package]]
+channel = 'fedora'
+name = 'twine'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/twine'

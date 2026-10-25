@@ -1,0 +1,8 @@
+id = 'python3-fabric'
+name = 'python3-fabric'
+
+homepage = 'https://github.com/fabric/fabric'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fabric'

@@ -1,0 +1,12 @@
+id = 'bodhi'
+name = 'bodhi'
+
+homepage = 'https://github.com/fedora-infra/bodhi'
+
+[[package]]
+channel = 'fedora'
+name = 'bodhi-client'
+
+[[package]]
+channel = 'fedora'
+name = 'bodhi-server'

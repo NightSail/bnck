@@ -1,0 +1,8 @@
+id = 'spamassassin-heatu'
+name = 'spamassassin-heatu'
+
+homepage = 'http://wiki.apache.org/spamassassin/AutoWhitelist'
+
+[[package]]
+channel = 'debian'
+name = 'spamassassin-heatu'

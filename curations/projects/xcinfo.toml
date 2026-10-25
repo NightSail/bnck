@@ -1,0 +1,8 @@
+id = 'xcinfo'
+name = 'xcinfo'
+
+repository = 'https://github.com/XcodeReleasesOrg/xcinfo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcinfo'

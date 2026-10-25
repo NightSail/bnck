@@ -1,0 +1,8 @@
+id = 'sherif'
+name = 'sherif'
+
+homepage = 'https://github.com/QuiiBz/sherif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sherif'

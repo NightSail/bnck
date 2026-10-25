@@ -1,0 +1,16 @@
+id = 'maim'
+name = 'maim'
+
+homepage = 'https://github.com/naelstrof/maim'
+
+[[package]]
+channel = 'arch'
+name = 'maim'
+
+[[package]]
+channel = 'debian'
+name = 'maim'
+
+[[package]]
+channel = 'fedora'
+name = 'maim'

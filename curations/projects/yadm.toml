@@ -4,5 +4,13 @@ name = 'yadm'
 homepage = 'https://github.com/TheLocehiliosan/yadm'
 
 [[package]]
+channel = 'arch'
+name = 'yadm'
+
+[[package]]
 channel = 'debian'
 name = 'yadm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yadm'

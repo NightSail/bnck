@@ -1,0 +1,8 @@
+id = 'lightdm-autologin-greeter'
+name = 'lightdm-autologin-greeter'
+
+homepage = 'https://github.com/spanezz/lightdm-autologin-greeter'
+
+[[package]]
+channel = 'fedora'
+name = 'lightdm-autologin-greeter'

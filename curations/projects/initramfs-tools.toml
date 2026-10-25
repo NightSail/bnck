@@ -1,0 +1,14 @@
+id = 'initramfs-tools'
+name = 'initramfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'initramfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'initramfs-tools-bin'
+
+[[package]]
+channel = 'debian'
+name = 'initramfs-tools-core'

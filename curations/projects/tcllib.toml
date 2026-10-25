@@ -1,0 +1,10 @@
+id = 'tcllib'
+name = 'tcllib'
+
+[[package]]
+channel = 'debian'
+name = 'tcllib'
+
+[[package]]
+channel = 'fedora'
+name = 'tcllib'

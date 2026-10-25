@@ -1,0 +1,8 @@
+id = 'parlatype'
+name = 'parlatype'
+
+homepage = 'https://www.parlatype.xyz'
+
+[[package]]
+channel = 'debian'
+name = 'parlatype'

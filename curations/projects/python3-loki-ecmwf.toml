@@ -1,0 +1,8 @@
+id = 'python3-loki-ecmwf'
+name = 'python3-loki-ecmwf'
+
+homepage = 'https://github.com/ecmwf-ifs/loki'
+
+[[package]]
+channel = 'debian'
+name = 'python3-loki-ecmwf'

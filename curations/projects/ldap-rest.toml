@@ -1,0 +1,8 @@
+id = 'ldap-rest'
+name = 'ldap-rest'
+
+homepage = 'https://github.com/linagora/ldap-rest'
+
+[[package]]
+channel = 'debian'
+name = 'ldap-rest'

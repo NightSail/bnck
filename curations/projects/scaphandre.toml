@@ -1,0 +1,8 @@
+id = 'scaphandre'
+name = 'scaphandre'
+
+homepage = 'https://github.com/hubblo-org/scaphandre'
+
+[[package]]
+channel = 'debian'
+name = 'scaphandre'

@@ -1,0 +1,8 @@
+id = 'unicorn'
+name = 'unicorn'
+
+homepage = 'https://yhbt.net/unicorn.git'
+
+[[package]]
+channel = 'debian'
+name = 'unicorn'

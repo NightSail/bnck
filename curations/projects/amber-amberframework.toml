@@ -1,0 +1,8 @@
+id = 'amber-amberframework'
+name = 'amber'
+
+homepage = 'https://amberframework.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amber'

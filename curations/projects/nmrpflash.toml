@@ -1,0 +1,12 @@
+id = 'nmrpflash'
+name = 'nmrpflash'
+
+homepage = 'https://github.com/jclehner/nmrpflash'
+
+[[package]]
+channel = 'debian'
+name = 'nmrpflash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nmrpflash'

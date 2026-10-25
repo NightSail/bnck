@@ -1,0 +1,6 @@
+id = 'gecode-flatzinc'
+name = 'gecode-flatzinc'
+
+[[package]]
+channel = 'debian'
+name = 'gecode-flatzinc'

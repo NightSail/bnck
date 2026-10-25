@@ -1,0 +1,8 @@
+id = 'agistudio'
+name = 'agistudio'
+
+homepage = 'http://agistudio.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'agistudio'

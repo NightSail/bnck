@@ -1,0 +1,8 @@
+id = 'sipgrep'
+name = 'sipgrep'
+
+homepage = 'https://github.com/sipcapture/sipgrep'
+
+[[package]]
+channel = 'debian'
+name = 'sipgrep'

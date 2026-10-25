@@ -1,0 +1,29 @@
+id = 'subversion'
+name = 'subversion'
+
+homepage = 'https://subversion.apache.org'
+repository = 'https://github.com/apache/subversion.git'
+
+[[package]]
+channel = 'arch'
+name = 'subversion'
+
+[[package]]
+channel = 'debian'
+name = 'subversion'
+
+[[package]]
+channel = 'debian'
+name = 'subversion-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'subversion'
+
+[[package]]
+channel = 'fedora'
+name = 'subversion-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/subversion'

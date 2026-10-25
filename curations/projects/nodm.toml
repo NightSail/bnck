@@ -1,0 +1,12 @@
+id = 'nodm'
+name = 'nodm'
+
+homepage = 'https://github.com/spanezz/nodm'
+
+[[package]]
+channel = 'arch'
+name = 'nodm'
+
+[[package]]
+channel = 'debian'
+name = 'nodm'

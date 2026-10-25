@@ -1,0 +1,6 @@
+id = 'fwanalog'
+name = 'fwanalog'
+
+[[package]]
+channel = 'debian'
+name = 'fwanalog'

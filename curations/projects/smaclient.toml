@@ -1,0 +1,8 @@
+id = 'smaclient'
+name = 'smaclient'
+
+homepage = 'http://download.sinenomine.net/smaclient'
+
+[[package]]
+channel = 'fedora'
+name = 'smaclient'

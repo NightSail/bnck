@@ -1,0 +1,8 @@
+id = 'svg2svgt'
+name = 'svg2svgt'
+
+homepage = 'https://github.com/manisandro/svg2svgt'
+
+[[package]]
+channel = 'fedora'
+name = 'svg2svgt'

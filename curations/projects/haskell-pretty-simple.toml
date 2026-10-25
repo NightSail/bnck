@@ -1,0 +1,8 @@
+id = 'haskell-pretty-simple'
+name = 'haskell-pretty-simple'
+
+homepage = 'https://github.com/cdepillabout/pretty-simple'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-pretty-simple'

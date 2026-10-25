@@ -1,0 +1,8 @@
+id = 'toppler'
+name = 'toppler'
+
+homepage = 'https://gitlab.com/roever/toppler'
+
+[[package]]
+channel = 'fedora'
+name = 'toppler'

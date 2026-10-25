@@ -1,0 +1,8 @@
+id = 'tractorgen'
+name = 'tractorgen'
+
+homepage = 'https://vergenet.net/~conrad/software/tractorgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tractorgen'

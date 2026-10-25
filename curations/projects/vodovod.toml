@@ -1,0 +1,8 @@
+id = 'vodovod'
+name = 'vodovod'
+
+homepage = 'http://home.gna.org/vodovod'
+
+[[package]]
+channel = 'fedora'
+name = 'vodovod'

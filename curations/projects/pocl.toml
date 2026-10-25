@@ -1,0 +1,9 @@
+id = 'pocl'
+name = 'pocl'
+
+homepage = 'https://portablecl.org'
+repository = 'https://github.com/pocl/pocl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pocl'

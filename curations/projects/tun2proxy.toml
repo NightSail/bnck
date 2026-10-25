@@ -1,0 +1,8 @@
+id = 'tun2proxy'
+name = 'tun2proxy'
+
+repository = 'https://github.com/tun2proxy/tun2proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tun2proxy'

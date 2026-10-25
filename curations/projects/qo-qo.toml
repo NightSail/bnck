@@ -1,0 +1,6 @@
+id = 'qo-qo'
+name = 'qo'
+
+[[package]]
+channel = 'crates.io'
+name = 'qo'

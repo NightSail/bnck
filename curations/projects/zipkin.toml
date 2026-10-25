@@ -1,0 +1,8 @@
+id = 'zipkin'
+name = 'zipkin'
+
+homepage = 'https://zipkin.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zipkin'

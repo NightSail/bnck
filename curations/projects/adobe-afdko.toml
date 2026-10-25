@@ -1,0 +1,8 @@
+id = 'adobe-afdko'
+name = 'adobe-afdko'
+
+homepage = 'https://github.com/adobe-type-tools/afdko'
+
+[[package]]
+channel = 'fedora'
+name = 'adobe-afdko'

@@ -1,0 +1,12 @@
+id = 'megapixels'
+name = 'megapixels'
+
+homepage = 'https://gitlab.com/megapixels-org/Megapixels'
+
+[[package]]
+channel = 'debian'
+name = 'megapixels'
+
+[[package]]
+channel = 'fedora'
+name = 'megapixels'

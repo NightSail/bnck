@@ -1,0 +1,9 @@
+id = 'fallow'
+name = 'fallow'
+
+homepage = 'https://docs.fallow.tools'
+repository = 'https://github.com/fallow-rs/fallow.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fallow'

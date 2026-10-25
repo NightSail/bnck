@@ -1,0 +1,9 @@
+id = 'juicefs'
+name = 'juicefs'
+
+homepage = 'https://juicefs.com'
+repository = 'https://github.com/juicedata/juicefs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/juicefs'

@@ -1,0 +1,8 @@
+id = 'rubygem-mustache'
+name = 'rubygem-mustache'
+
+homepage = 'https://github.com/mustache/mustache'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-mustache'

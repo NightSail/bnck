@@ -1,0 +1,8 @@
+id = 'klystrack-plus'
+name = 'klystrack-plus'
+
+homepage = 'https://github.com/LTVA1/klystrack'
+
+[[package]]
+channel = 'arch'
+name = 'klystrack-plus'

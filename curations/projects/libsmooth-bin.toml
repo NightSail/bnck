@@ -1,0 +1,8 @@
+id = 'libsmooth-bin'
+name = 'libsmooth-bin'
+
+homepage = 'https://www.smooth-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'libsmooth-bin'

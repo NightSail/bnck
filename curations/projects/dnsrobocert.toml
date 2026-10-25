@@ -1,0 +1,9 @@
+id = 'dnsrobocert'
+name = 'dnsrobocert'
+
+homepage = 'https://dnsrobocert.readthedocs.io/en/latest'
+repository = 'https://github.com/adferrand/dnsrobocert.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsrobocert'

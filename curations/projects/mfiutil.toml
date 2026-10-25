@@ -1,0 +1,8 @@
+id = 'mfiutil'
+name = 'mfiutil'
+
+homepage = 'https://sourceforge.net/projects/mfiutil'
+
+[[package]]
+channel = 'debian'
+name = 'mfiutil'

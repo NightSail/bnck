@@ -1,0 +1,8 @@
+id = 'python3-pytest-watch'
+name = 'python3-pytest-watch'
+
+homepage = 'https://pypi.python.org/pypi/pytest-watch'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytest-watch'

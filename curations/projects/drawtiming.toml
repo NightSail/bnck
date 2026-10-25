@@ -1,0 +1,8 @@
+id = 'drawtiming'
+name = 'drawtiming'
+
+homepage = 'http://drawtiming.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'drawtiming'

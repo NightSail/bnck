@@ -1,0 +1,8 @@
+id = 'setweblocthumb'
+name = 'setweblocthumb'
+
+homepage = 'https://hasseg.org/setWeblocThumb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/setweblocthumb'

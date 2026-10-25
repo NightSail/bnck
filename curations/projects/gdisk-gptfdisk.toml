@@ -1,0 +1,8 @@
+id = 'gdisk-gptfdisk'
+name = 'gdisk'
+
+homepage = 'http://sourceforge.net/projects/gptfdisk'
+
+[[package]]
+channel = 'debian'
+name = 'gdisk'

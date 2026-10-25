@@ -1,0 +1,8 @@
+id = 'imagetooth'
+name = 'imagetooth'
+
+homepage = 'https://github.com/gramos/imagetooth'
+
+[[package]]
+channel = 'debian'
+name = 'imagetooth'

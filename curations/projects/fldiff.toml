@@ -1,0 +1,8 @@
+id = 'fldiff'
+name = 'fldiff'
+
+homepage = 'http://web.archive.org/web/20130406143757/http://www.easysw.com/~mike/fldiff/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'fldiff'

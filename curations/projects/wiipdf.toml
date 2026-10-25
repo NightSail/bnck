@@ -1,0 +1,8 @@
+id = 'wiipdf'
+name = 'wiipdf'
+
+homepage = 'http://michael.stapelberg.de/wiipdf'
+
+[[package]]
+channel = 'debian'
+name = 'wiipdf'

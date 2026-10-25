@@ -1,0 +1,8 @@
+id = 'python3-libpulse'
+name = 'python3-libpulse'
+
+homepage = 'https://gitlab.com/xdegaye/libpulse'
+
+[[package]]
+channel = 'debian'
+name = 'python3-libpulse'

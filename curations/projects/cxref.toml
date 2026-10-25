@@ -1,0 +1,8 @@
+id = 'cxref'
+name = 'cxref'
+
+homepage = 'https://www.gedanken.org.uk/software/cxref'
+
+[[package]]
+channel = 'debian'
+name = 'cxref'

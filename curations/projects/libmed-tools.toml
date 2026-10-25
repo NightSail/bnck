@@ -1,0 +1,8 @@
+id = 'libmed-tools'
+name = 'libmed-tools'
+
+homepage = 'http://www.salome-platform.org/user-section/about/med'
+
+[[package]]
+channel = 'debian'
+name = 'libmed-tools'

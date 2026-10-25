@@ -1,0 +1,8 @@
+id = 'swupdate'
+name = 'swupdate'
+
+homepage = 'https://sbabic.github.io/swupdate'
+
+[[package]]
+channel = 'debian'
+name = 'swupdate'

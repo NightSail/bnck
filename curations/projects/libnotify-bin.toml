@@ -1,0 +1,6 @@
+id = 'libnotify-bin'
+name = 'libnotify-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libnotify-bin'

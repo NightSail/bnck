@@ -1,0 +1,8 @@
+id = 'bcftools'
+name = 'bcftools'
+
+homepage = 'https://samtools.github.io/bcftools'
+
+[[package]]
+channel = 'debian'
+name = 'bcftools'

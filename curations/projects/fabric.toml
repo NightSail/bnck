@@ -1,0 +1,17 @@
+id = 'fabric'
+name = 'fabric'
+
+homepage = 'https://www.fabfile.org'
+repository = 'https://github.com/fabric/fabric.git'
+
+[[package]]
+channel = 'arch'
+name = 'fabric'
+
+[[package]]
+channel = 'debian'
+name = 'fabric'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fabric'

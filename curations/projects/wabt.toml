@@ -1,0 +1,20 @@
+id = 'wabt'
+name = 'wabt'
+
+homepage = 'https://github.com/WebAssembly/wabt'
+
+[[package]]
+channel = 'arch'
+name = 'wabt'
+
+[[package]]
+channel = 'debian'
+name = 'wabt'
+
+[[package]]
+channel = 'fedora'
+name = 'wabt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wabt'

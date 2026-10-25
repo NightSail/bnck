@@ -1,0 +1,8 @@
+id = 'seadrive-gui'
+name = 'seadrive-gui'
+
+homepage = 'https://github.com/haiwen/seadrive-gui'
+
+[[package]]
+channel = 'debian'
+name = 'seadrive-gui'

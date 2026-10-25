@@ -1,0 +1,8 @@
+id = 'lakai'
+name = 'lakai'
+
+homepage = 'http://lakai.sf.net/index.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'lakai'

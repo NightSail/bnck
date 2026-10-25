@@ -1,0 +1,12 @@
+id = 'go-pinyin'
+name = 'go-pinyin'
+
+homepage = 'https://github.com/mozillazg/go-pinyin'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-mozillazg-go-pinyin-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-mozillazg-pinyin'

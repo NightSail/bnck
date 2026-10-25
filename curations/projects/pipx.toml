@@ -1,0 +1,12 @@
+id = 'pipx'
+name = 'pipx'
+
+homepage = 'https://github.com/pypa/pipx'
+
+[[package]]
+channel = 'arch'
+name = 'python-pipx'
+
+[[package]]
+channel = 'debian'
+name = 'pipx'

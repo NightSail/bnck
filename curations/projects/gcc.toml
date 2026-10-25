@@ -1,0 +1,5060 @@
+id = 'gcc'
+name = 'gcc'
+
+homepage = 'https://gcc.gnu.org'
+
+[[package]]
+channel = 'arch'
+name = 'aarch64-linux-gnu-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'arm-none-eabi-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'avr-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'gcc'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-ada'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-d'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-fortran'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-gcobol'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-go'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-m2'
+
+[[package]]
+channel = 'arch'
+name = 'gcc-rust'
+
+[[package]]
+channel = 'arch'
+name = 'gcc15'
+
+[[package]]
+channel = 'arch'
+name = 'gcc15-fortran'
+
+[[package]]
+channel = 'arch'
+name = 'lm32-elf-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'loongarch64-linux-gnu-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'lto-dump'
+
+[[package]]
+channel = 'arch'
+name = 'mingw-w64-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'nds32le-elf-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'or1k-elf-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'riscv64-elf-gcc'
+
+[[package]]
+channel = 'arch'
+name = 'riscv64-linux-gnu-gcc'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-offload-nvptx'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-offload-amdgcn'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-offload-nvptx'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-offload-amdgcn'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-offload-nvptx'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-offload-amdgcn'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-offload-nvptx'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-diagnostics'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-offload-amdgcn'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-offload-nvptx'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-diagnostics'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-hppa64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-offload-amdgcn'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-offload-nvptx'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-bpf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-h8300-hms'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-riscv64-unknown-elf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-sh-elf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-xtensa-lx106'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccrs-14'
+
+[[package]]
+channel = 'debian'
+name = 'gccrs-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccrs-15'
+
+[[package]]
+channel = 'debian'
+name = 'gccrs-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccrs-16'
+
+[[package]]
+channel = 'debian'
+name = 'gccrs-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-15'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-16'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcobol-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-11-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-12-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-13-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-14-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-15-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-aarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-arm-linux-gnueabihf'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-i686-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-riscv64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-s390x-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-x86-64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gnat-16-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'fedora'
+name = 'arm-none-eabi-gcc-cs'
+
+[[package]]
+channel = 'fedora'
+name = 'arm-none-eabi-gcc-cs-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'avr-gcc'
+
+[[package]]
+channel = 'fedora'
+name = 'avr-gcc-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-aarch64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-alpha-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-arc-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-arm-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-avr32-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-bfin-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-bpf-unknown-none'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-aarch64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-alpha-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-arc-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-arm-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-avr32-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-bfin-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-bpf-unknown-none'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-c6x-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-frv-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-h8300-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-hppa-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-hppa64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-ia64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-m68k-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-microblaze-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-mips64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-mn10300-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-openrisc-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-ppc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-ppc64le-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-riscv32-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-riscv64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-s390x-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-sparc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-x86_64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c++-xtensa-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-c6x-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-frv-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-gcobol'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-gdc'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-gfortran'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-gm2'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-gnat'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-go'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-h8300-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-hppa-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-hppa64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-ia64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-m68k-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-microblaze-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-mips64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-mn10300-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-offload-amdgcn'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-offload-nvptx'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-openrisc-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-powerpc64le-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-ppc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-ppc64le-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-riscv32-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-riscv64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-s390x-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-sparc64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-x86_64-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc-xtensa-linux-gnu'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc14'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc14-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'gcc14-gfortran'
+
+[[package]]
+channel = 'fedora'
+name = 'libgdiagnostics'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-gcc'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-gcc-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-gcc-gfortran'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-gcc'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-gcc-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-gcc-gfortran'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-cpp'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-gcc'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-gcc-c++'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-gcc-gfortran'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aarch64-elf-gcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arm-none-eabi-gcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@12'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@13'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@14'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@15'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc@9'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i686-elf-gcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/m68k-elf-gcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/riscv64-elf-gcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x86_64-elf-gcc'

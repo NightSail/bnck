@@ -1,0 +1,8 @@
+id = 'gcx'
+name = 'gcx'
+
+repository = 'https://github.com/grafana/gcx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcx'

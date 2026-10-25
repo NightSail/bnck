@@ -1,0 +1,8 @@
+id = 'gom'
+name = 'gom'
+
+homepage = 'http://software.installiert.net'
+
+[[package]]
+channel = 'debian'
+name = 'gom'

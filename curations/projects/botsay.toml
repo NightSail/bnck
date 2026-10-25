@@ -1,0 +1,8 @@
+id = 'botsay'
+name = 'botsay'
+
+homepage = 'https://github.com/xyproto/botsay'
+
+[[package]]
+channel = 'arch'
+name = 'botsay'

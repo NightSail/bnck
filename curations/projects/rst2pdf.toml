@@ -1,0 +1,16 @@
+id = 'rst2pdf'
+name = 'rst2pdf'
+
+homepage = 'https://github.com/rst2pdf/rst2pdf'
+
+[[package]]
+channel = 'arch'
+name = 'rst2pdf'
+
+[[package]]
+channel = 'debian'
+name = 'rst2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'rst2pdf'

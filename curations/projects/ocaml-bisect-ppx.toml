@@ -1,0 +1,8 @@
+id = 'ocaml-bisect-ppx'
+name = 'ocaml-bisect-ppx'
+
+homepage = 'https://aantron.github.io/bisect_ppx'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-bisect-ppx'

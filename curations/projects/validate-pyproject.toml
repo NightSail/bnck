@@ -1,0 +1,12 @@
+id = 'validate-pyproject'
+name = 'validate-pyproject'
+
+homepage = 'https://github.com/abravalheri/validate-pyproject'
+
+[[package]]
+channel = 'arch'
+name = 'python-validate-pyproject'
+
+[[package]]
+channel = 'debian'
+name = 'python3-validate-pyproject'

@@ -1,0 +1,8 @@
+id = 'yeahconsole'
+name = 'yeahconsole'
+
+homepage = 'http://phrat.de/yeahtools.html'
+
+[[package]]
+channel = 'debian'
+name = 'yeahconsole'

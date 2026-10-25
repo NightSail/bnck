@@ -1,0 +1,8 @@
+id = 'isoqlog'
+name = 'isoqlog'
+
+homepage = 'https://github.com/EnderUNIX/Isoqlog'
+
+[[package]]
+channel = 'debian'
+name = 'isoqlog'

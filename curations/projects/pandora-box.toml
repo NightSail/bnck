@@ -1,0 +1,8 @@
+id = 'pandora-box'
+name = 'pandora_box'
+
+homepage = 'https://gitlab.exherbo.org/sydbox/sydbox/-/tree/main/pandora'
+
+[[package]]
+channel = 'arch'
+name = 'pandora_box'

@@ -1,0 +1,8 @@
+id = 'nginx-mod-njs'
+name = 'nginx-mod-njs'
+
+homepage = 'https://nginx.org/en/docs/njs_about.html'
+
+[[package]]
+channel = 'arch'
+name = 'nginx-mod-njs'

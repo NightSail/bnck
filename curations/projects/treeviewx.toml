@@ -1,0 +1,8 @@
+id = 'treeviewx'
+name = 'treeviewx'
+
+homepage = 'https://github.com/rdmpage/treeviewx'
+
+[[package]]
+channel = 'debian'
+name = 'treeviewx'

@@ -1,0 +1,8 @@
+id = 'wvkbd'
+name = 'wvkbd'
+
+homepage = 'https://git.sr.ht/~proycon/wvkbd'
+
+[[package]]
+channel = 'debian'
+name = 'wvkbd'

@@ -1,0 +1,8 @@
+id = 'toolame'
+name = 'toolame'
+
+homepage = 'https://sourceforge.net/projects/toolame'
+
+[[package]]
+channel = 'arch'
+name = 'toolame'

@@ -1,0 +1,8 @@
+id = 'prometheus-json-exporter'
+name = 'prometheus-json-exporter'
+
+homepage = 'https://github.com/prometheus-community/json_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-json-exporter'

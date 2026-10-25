@@ -1,0 +1,8 @@
+id = 'goplus'
+name = 'goplus'
+
+homepage = 'https://goplus.org'
+
+[[package]]
+channel = 'arch'
+name = 'goplus'

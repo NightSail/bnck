@@ -1,0 +1,8 @@
+id = 'python3-biomaj3-download'
+name = 'python3-biomaj3-download'
+
+homepage = 'https://github.com/genouest/biomaj-download'
+
+[[package]]
+channel = 'debian'
+name = 'python3-biomaj3-download'

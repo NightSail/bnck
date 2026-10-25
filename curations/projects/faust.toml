@@ -1,0 +1,28 @@
+id = 'faust'
+name = 'faust'
+
+homepage = 'https://faust.grame.fr'
+
+[[package]]
+channel = 'arch'
+name = 'faust'
+
+[[package]]
+channel = 'debian'
+name = 'faust'
+
+[[package]]
+channel = 'debian'
+name = 'faustworks'
+
+[[package]]
+channel = 'fedora'
+name = 'faust'
+
+[[package]]
+channel = 'fedora'
+name = 'faust-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faust'

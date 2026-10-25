@@ -1,0 +1,8 @@
+id = 'perl-cpan-parsedistribution'
+name = 'perl-CPAN-ParseDistribution'
+
+homepage = 'https://metacpan.org/release/CPAN-ParseDistribution'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPAN-ParseDistribution'

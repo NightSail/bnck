@@ -1,0 +1,13 @@
+id = 'pushpin'
+name = 'pushpin'
+
+homepage = 'https://github.com/fanout/pushpin'
+repository = 'https://github.com/fastly/pushpin.git'
+
+[[package]]
+channel = 'debian'
+name = 'pushpin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pushpin'

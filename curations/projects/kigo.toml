@@ -1,0 +1,12 @@
+id = 'kigo'
+name = 'kigo'
+
+homepage = 'https://apps.kde.org/kigo'
+
+[[package]]
+channel = 'arch'
+name = 'kigo'
+
+[[package]]
+channel = 'fedora'
+name = 'kigo'

@@ -1,0 +1,12 @@
+id = 'cpluff'
+name = 'cpluff'
+
+homepage = 'https://www.c-pluff.org'
+
+[[package]]
+channel = 'debian'
+name = 'cpluff-loader'
+
+[[package]]
+channel = 'debian'
+name = 'libcpluff0-dev'

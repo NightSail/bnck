@@ -1,0 +1,12 @@
+id = 'ocicl'
+name = 'ocicl'
+
+homepage = 'https://github.com/ocicl/ocicl'
+
+[[package]]
+channel = 'arch'
+name = 'ocicl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocicl'

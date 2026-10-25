@@ -1,0 +1,8 @@
+id = 'bmap-rs'
+name = 'bmap-rs'
+
+homepage = 'https://github.com/collabora/bmap-rs'
+
+[[package]]
+channel = 'debian'
+name = 'bmap-rs'

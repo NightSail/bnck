@@ -1,0 +1,8 @@
+id = 'apt-dater-host'
+name = 'apt-dater-host'
+
+homepage = 'https://github.com/DE-IBH/apt-dater-host'
+
+[[package]]
+channel = 'debian'
+name = 'apt-dater-host'

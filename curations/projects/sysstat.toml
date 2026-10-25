@@ -1,0 +1,16 @@
+id = 'sysstat'
+name = 'sysstat'
+
+homepage = 'https://sysstat.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'sysstat'
+
+[[package]]
+channel = 'debian'
+name = 'isag'
+
+[[package]]
+channel = 'debian'
+name = 'sysstat'

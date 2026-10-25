@@ -1,0 +1,8 @@
+id = 'haskell-fsnotify'
+name = 'haskell-fsnotify'
+
+homepage = 'https://github.com/haskell-fswatch/hfsnotify'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-fsnotify'

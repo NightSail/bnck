@@ -1,0 +1,8 @@
+id = 'cervisia-sdk'
+name = 'cervisia'
+
+homepage = 'https://invent.kde.org/sdk/cervisia.git'
+
+[[package]]
+channel = 'fedora'
+name = 'cervisia'

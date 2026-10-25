@@ -1,0 +1,8 @@
+id = 'audtty'
+name = 'audtty'
+
+homepage = 'https://tracker.debian.org/audtty'
+
+[[package]]
+channel = 'debian'
+name = 'audtty'

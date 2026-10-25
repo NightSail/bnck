@@ -1,0 +1,8 @@
+id = 'rfcstrip'
+name = 'rfcstrip'
+
+homepage = 'https://github.com/mbj4668/rfcstrip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rfcstrip'

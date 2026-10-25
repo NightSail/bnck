@@ -1,0 +1,8 @@
+id = 'sing'
+name = 'sing'
+
+homepage = 'https://sourceforge.net/projects/sing'
+
+[[package]]
+channel = 'fedora'
+name = 'sing'

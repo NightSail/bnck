@@ -1,0 +1,8 @@
+id = 'ktor'
+name = 'ktor'
+
+repository = 'https://github.com/ktorio/ktor-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktor'

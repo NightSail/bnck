@@ -1,0 +1,8 @@
+id = 'python3-xbox-webapi'
+name = 'python3-xbox-webapi'
+
+homepage = 'https://github.com/OpenXbox/xbox-webapi-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xbox-webapi'

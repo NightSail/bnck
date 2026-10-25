@@ -1,0 +1,8 @@
+id = 'dayplanner'
+name = 'dayplanner'
+
+homepage = 'http://www.day-planner.org'
+
+[[package]]
+channel = 'fedora'
+name = 'dayplanner'

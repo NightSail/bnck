@@ -1,0 +1,8 @@
+id = 'crcany'
+name = 'crcany'
+
+repository = 'https://github.com/madler/crcany.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crcany'

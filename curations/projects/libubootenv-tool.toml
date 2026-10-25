@@ -1,0 +1,8 @@
+id = 'libubootenv-tool'
+name = 'libubootenv-tool'
+
+homepage = 'https://github.com/sbabic/libubootenv'
+
+[[package]]
+channel = 'debian'
+name = 'libubootenv-tool'

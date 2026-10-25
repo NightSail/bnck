@@ -1,0 +1,8 @@
+id = 'rsendmail'
+name = 'rsendmail'
+
+homepage = 'https://gitlab.com/anarcat/rsendmail'
+
+[[package]]
+channel = 'debian'
+name = 'rsendmail'

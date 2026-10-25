@@ -1,0 +1,8 @@
+id = 'vhost-device-scmi'
+name = 'vhost-device-scmi'
+
+homepage = 'https://crates.io/crates/vhost-device-scmi'
+
+[[package]]
+channel = 'fedora'
+name = 'vhost-device-scmi'

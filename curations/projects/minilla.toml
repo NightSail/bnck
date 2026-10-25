@@ -1,0 +1,8 @@
+id = 'minilla'
+name = 'minilla'
+
+homepage = 'https://metacpan.org/release/Minilla'
+
+[[package]]
+channel = 'debian'
+name = 'minilla'

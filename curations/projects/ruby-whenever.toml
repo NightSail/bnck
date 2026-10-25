@@ -1,0 +1,8 @@
+id = 'ruby-whenever'
+name = 'ruby-whenever'
+
+homepage = 'https://github.com/javan/whenever'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-whenever'

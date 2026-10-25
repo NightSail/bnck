@@ -1,0 +1,8 @@
+id = 'rclone-k-nasa'
+name = 'rclone'
+
+repository = 'https://github.com/k-nasa/rclone'
+
+[[package]]
+channel = 'crates.io'
+name = 'rclone'

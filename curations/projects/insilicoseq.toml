@@ -1,0 +1,8 @@
+id = 'insilicoseq'
+name = 'insilicoseq'
+
+homepage = 'https://github.com/HadrienG/InSilicoSeq'
+
+[[package]]
+channel = 'debian'
+name = 'insilicoseq'

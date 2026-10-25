@@ -1,0 +1,8 @@
+id = 'tmfs'
+name = 'tmfs'
+
+homepage = 'https://github.com/abique/tmfs'
+
+[[package]]
+channel = 'debian'
+name = 'tmfs'

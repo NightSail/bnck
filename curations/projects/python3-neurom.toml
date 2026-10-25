@@ -1,0 +1,8 @@
+id = 'python3-neurom'
+name = 'python3-neurom'
+
+homepage = 'https://github.com/BlueBrain/NeuroM'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-neurom'

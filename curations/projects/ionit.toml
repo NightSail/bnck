@@ -1,0 +1,8 @@
+id = 'ionit'
+name = 'ionit'
+
+homepage = 'https://github.com/bdrung/ionit'
+
+[[package]]
+channel = 'debian'
+name = 'ionit'

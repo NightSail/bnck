@@ -1,0 +1,8 @@
+id = 'termineter'
+name = 'termineter'
+
+homepage = 'https://github.com/rsmusllp/termineter'
+
+[[package]]
+channel = 'debian'
+name = 'termineter'

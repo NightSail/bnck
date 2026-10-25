@@ -1,0 +1,8 @@
+id = 'subread'
+name = 'subread'
+
+homepage = 'http://sourceforge.net/projects/subread'
+
+[[package]]
+channel = 'debian'
+name = 'subread'

@@ -1,0 +1,8 @@
+id = 'dbtoepub'
+name = 'dbtoepub'
+
+homepage = 'https://docbook.sourceforge.net/release/xsl/current/epub/README'
+
+[[package]]
+channel = 'debian'
+name = 'dbtoepub'

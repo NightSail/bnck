@@ -1,0 +1,6 @@
+id = 'awit-dbackup'
+name = 'awit-dbackup'
+
+[[package]]
+channel = 'debian'
+name = 'awit-dbackup'

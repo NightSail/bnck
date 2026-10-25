@@ -1,0 +1,12 @@
+id = 'netbsd'
+name = 'netbsd'
+
+homepage = 'http://NetBSD.org'
+
+[[package]]
+channel = 'fedora'
+name = 'netbsd-iscsi'
+
+[[package]]
+channel = 'fedora'
+name = 'tnftp'

@@ -1,0 +1,21 @@
+id = 'lhasa'
+name = 'lhasa'
+
+homepage = 'https://fragglet.github.io/lhasa'
+repository = 'https://github.com/fragglet/lhasa.git'
+
+[[package]]
+channel = 'arch'
+name = 'lhasa'
+
+[[package]]
+channel = 'debian'
+name = 'lhasa'
+
+[[package]]
+channel = 'fedora'
+name = 'lhasa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lhasa'

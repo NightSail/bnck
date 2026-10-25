@@ -1,0 +1,28 @@
+id = 'ktikz'
+name = 'ktikz'
+
+homepage = 'https://github.com/fhackenberger/ktikz'
+
+[[package]]
+channel = 'arch'
+name = 'ktikz'
+
+[[package]]
+channel = 'arch'
+name = 'qtikz'
+
+[[package]]
+channel = 'debian'
+name = 'ktikz'
+
+[[package]]
+channel = 'debian'
+name = 'qtikz'
+
+[[package]]
+channel = 'fedora'
+name = 'ktikz'
+
+[[package]]
+channel = 'fedora'
+name = 'qtikz'

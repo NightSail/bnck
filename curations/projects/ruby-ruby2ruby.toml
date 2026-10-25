@@ -1,0 +1,8 @@
+id = 'ruby-ruby2ruby'
+name = 'ruby-ruby2ruby'
+
+homepage = 'https://github.com/seattlerb/ruby2ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-ruby2ruby'

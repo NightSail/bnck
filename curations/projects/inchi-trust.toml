@@ -1,0 +1,12 @@
+id = 'inchi-trust'
+name = 'inchi-trust'
+
+homepage = 'https://www.inchi-trust.org'
+
+[[package]]
+channel = 'debian'
+name = 'libinchi-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inchi'

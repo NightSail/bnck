@@ -1,0 +1,8 @@
+id = 'cpants-lint'
+name = 'cpants-lint'
+
+homepage = 'https://metacpan.org/pod/App::CPANTS::Lint'
+
+[[package]]
+channel = 'debian'
+name = 'cpants-lint'

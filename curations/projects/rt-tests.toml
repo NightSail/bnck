@@ -1,0 +1,12 @@
+id = 'rt-tests'
+name = 'rt-tests'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git'
+
+[[package]]
+channel = 'arch'
+name = 'rt-tests'
+
+[[package]]
+channel = 'fedora'
+name = 'realtime-tests'

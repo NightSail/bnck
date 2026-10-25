@@ -1,0 +1,8 @@
+id = 'plm'
+name = 'plm'
+
+homepage = 'http://people.irisa.fr/Martin.Quinson/Teaching/PLM'
+
+[[package]]
+channel = 'debian'
+name = 'plm'

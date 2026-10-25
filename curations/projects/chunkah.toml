@@ -1,0 +1,8 @@
+id = 'chunkah'
+name = 'chunkah'
+
+homepage = 'https://github.com/coreos/chunkah'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chunkah'

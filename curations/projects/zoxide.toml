@@ -16,5 +16,9 @@ channel = 'debian'
 name = 'zoxide'
 
 [[package]]
+channel = 'fedora'
+name = 'zoxide'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/zoxide'

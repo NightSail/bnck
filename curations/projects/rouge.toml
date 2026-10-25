@@ -1,0 +1,16 @@
+id = 'rouge'
+name = 'rouge'
+
+homepage = 'https://rouge.jneen.net'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rouge'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rouge'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rouge'

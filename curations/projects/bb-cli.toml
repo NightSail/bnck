@@ -1,0 +1,8 @@
+id = 'bb-cli'
+name = 'bb-cli'
+
+homepage = 'https://bb-cli.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bb-cli'

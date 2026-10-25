@@ -1,0 +1,8 @@
+id = 'cntr'
+name = 'cntr'
+
+homepage = 'https://github.com/Mic92/cntr'
+
+[[package]]
+channel = 'debian'
+name = 'cntr'

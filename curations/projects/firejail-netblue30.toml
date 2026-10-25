@@ -1,0 +1,12 @@
+id = 'firejail-netblue30'
+name = 'firejail'
+
+homepage = 'https://github.com/netblue30/firejail'
+
+[[package]]
+channel = 'arch'
+name = 'firejail'
+
+[[package]]
+channel = 'fedora'
+name = 'firejail'

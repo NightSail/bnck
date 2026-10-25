@@ -1,0 +1,8 @@
+id = 'wmcoincoin'
+name = 'wmcoincoin'
+
+homepage = 'http://hules.free.fr/wmcoincoin'
+
+[[package]]
+channel = 'debian'
+name = 'wmcoincoin'

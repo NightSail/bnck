@@ -1,0 +1,8 @@
+id = 'python3-yamlfix'
+name = 'python3-yamlfix'
+
+homepage = 'https://github.com/lyz-code/yamlfix'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yamlfix'

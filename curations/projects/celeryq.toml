@@ -1,0 +1,12 @@
+id = 'celeryq'
+name = 'celeryq'
+
+homepage = 'https://docs.celeryq.dev'
+
+[[package]]
+channel = 'debian'
+name = 'celery'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-celery'

@@ -1,0 +1,8 @@
+id = 'tmperamental'
+name = 'tmperamental'
+
+homepage = 'https://salsa.debian.org/debian/tmperamental'
+
+[[package]]
+channel = 'debian'
+name = 'tmperamental'

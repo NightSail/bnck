@@ -1,0 +1,9 @@
+id = 'kraftkit'
+name = 'kraftkit'
+
+homepage = 'https://unikraft.org/docs/cli'
+repository = 'https://github.com/unikraft/kraftkit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kraftkit'

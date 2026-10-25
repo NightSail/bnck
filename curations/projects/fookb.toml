@@ -1,0 +1,8 @@
+id = 'fookb'
+name = 'fookb'
+
+homepage = 'https://www.dockapps.net/fookb'
+
+[[package]]
+channel = 'debian'
+name = 'fookb'

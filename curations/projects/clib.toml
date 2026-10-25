@@ -1,0 +1,8 @@
+id = 'clib'
+name = 'clib'
+
+repository = 'https://github.com/clibs/clib.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clib'

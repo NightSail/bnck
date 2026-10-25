@@ -1,0 +1,8 @@
+id = 'vdrift'
+name = 'vdrift'
+
+homepage = 'http://vdrift.net'
+
+[[package]]
+channel = 'fedora'
+name = 'vdrift'

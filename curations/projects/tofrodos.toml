@@ -1,0 +1,16 @@
+id = 'tofrodos'
+name = 'tofrodos'
+
+homepage = 'https://github.com/ChristopherHeng/tofrodos'
+
+[[package]]
+channel = 'debian'
+name = 'tofrodos'
+
+[[package]]
+channel = 'fedora'
+name = 'tofrodos'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tofrodos'

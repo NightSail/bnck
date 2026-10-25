@@ -1,0 +1,16 @@
+id = 'unp'
+name = 'unp'
+
+homepage = 'https://tracker.debian.org/pkg/unp'
+
+[[package]]
+channel = 'arch'
+name = 'unp'
+
+[[package]]
+channel = 'debian'
+name = 'unp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unp'

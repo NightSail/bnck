@@ -1,0 +1,8 @@
+id = 'perl-pip'
+name = 'perl-pip'
+
+homepage = 'https://metacpan.org/release/pip'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-pip'

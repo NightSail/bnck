@@ -1,0 +1,8 @@
+id = 'ruby-io-watch'
+name = 'ruby-io-watch'
+
+homepage = 'https://github.com/socketry/io-watch'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-io-watch'

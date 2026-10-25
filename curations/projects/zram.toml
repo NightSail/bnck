@@ -1,0 +1,6 @@
+id = 'zram'
+name = 'zram'
+
+[[package]]
+channel = 'fedora'
+name = 'zram'

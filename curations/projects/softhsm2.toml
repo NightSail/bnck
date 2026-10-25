@@ -1,0 +1,8 @@
+id = 'softhsm2'
+name = 'softhsm2'
+
+homepage = 'https://www.opendnssec.org/softhsm'
+
+[[package]]
+channel = 'debian'
+name = 'softhsm2'

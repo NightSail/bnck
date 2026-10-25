@@ -1,0 +1,13 @@
+id = 'garage'
+name = 'garage'
+
+homepage = 'https://garagehq.deuxfleurs.fr'
+repository = 'https://git.deuxfleurs.fr/Deuxfleurs/garage.git'
+
+[[package]]
+channel = 'arch'
+name = 'garage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/garage'

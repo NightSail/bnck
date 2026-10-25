@@ -1,0 +1,24 @@
+id = 'mathgl'
+name = 'mathgl'
+
+homepage = 'http://mathgl.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'mathgl'
+
+[[package]]
+channel = 'fedora'
+name = 'mathgl-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'mathgl-mgllab'
+
+[[package]]
+channel = 'fedora'
+name = 'mathgl-mglview'
+
+[[package]]
+channel = 'fedora'
+name = 'udav'

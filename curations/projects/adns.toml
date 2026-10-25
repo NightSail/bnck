@@ -1,0 +1,21 @@
+id = 'adns'
+name = 'adns'
+
+homepage = 'https://www.chiark.greenend.org.uk/~ian/adns'
+repository = 'https://www.chiark.greenend.org.uk/ucgi/~ianmdlvl/githttp/adns.git'
+
+[[package]]
+channel = 'arch'
+name = 'adns'
+
+[[package]]
+channel = 'debian'
+name = 'adns-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'adns-progs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adns'

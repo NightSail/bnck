@@ -6,3 +6,11 @@ repository = 'https://github.com/cli/cli'
 [[package]]
 channel = 'arch'
 name = 'github-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'gh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gh'

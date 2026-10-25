@@ -1,0 +1,8 @@
+id = 'piperka-client'
+name = 'piperka-client'
+
+homepage = 'https://piperka.net'
+
+[[package]]
+channel = 'debian'
+name = 'piperka-client'

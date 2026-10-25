@@ -1,0 +1,8 @@
+id = 'wllvm'
+name = 'wllvm'
+
+homepage = 'https://pypi.org/project/wllvm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wllvm'

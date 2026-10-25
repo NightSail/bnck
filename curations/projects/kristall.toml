@@ -1,0 +1,8 @@
+id = 'kristall'
+name = 'kristall'
+
+homepage = 'https://kristall.random-projects.net'
+
+[[package]]
+channel = 'debian'
+name = 'kristall'

@@ -1,0 +1,8 @@
+id = 'imagesnap'
+name = 'imagesnap'
+
+homepage = 'https://github.com/rharder/imagesnap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imagesnap'

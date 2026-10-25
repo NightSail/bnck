@@ -1,0 +1,8 @@
+id = 'ppl-dev'
+name = 'ppl-dev'
+
+homepage = 'http://www.cs.unipr.it/ppl'
+
+[[package]]
+channel = 'debian'
+name = 'ppl-dev'

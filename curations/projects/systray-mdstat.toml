@@ -1,0 +1,8 @@
+id = 'systray-mdstat'
+name = 'systray-mdstat'
+
+homepage = 'https://github.com/xtaran/systray-mdstat'
+
+[[package]]
+channel = 'debian'
+name = 'systray-mdstat'

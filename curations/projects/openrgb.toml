@@ -1,0 +1,16 @@
+id = 'openrgb'
+name = 'openrgb'
+
+homepage = 'https://gitlab.com/CalcProgrammer1/OpenRGB'
+
+[[package]]
+channel = 'arch'
+name = 'openrgb'
+
+[[package]]
+channel = 'debian'
+name = 'openrgb'
+
+[[package]]
+channel = 'fedora'
+name = 'openrgb'

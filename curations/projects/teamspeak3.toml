@@ -1,0 +1,8 @@
+id = 'teamspeak3'
+name = 'teamspeak3'
+
+homepage = 'http://www.teamspeak.com'
+
+[[package]]
+channel = 'arch'
+name = 'teamspeak3'

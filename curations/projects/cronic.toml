@@ -1,0 +1,8 @@
+id = 'cronic'
+name = 'cronic'
+
+homepage = 'https://habilis.net/cronic'
+
+[[package]]
+channel = 'debian'
+name = 'cronic'

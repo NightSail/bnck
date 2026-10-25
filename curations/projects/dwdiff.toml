@@ -1,0 +1,12 @@
+id = 'dwdiff'
+name = 'dwdiff'
+
+homepage = 'https://os.ghalkes.nl/dwdiff.html'
+
+[[package]]
+channel = 'debian'
+name = 'dwdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dwdiff'

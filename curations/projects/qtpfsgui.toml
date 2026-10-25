@@ -1,0 +1,16 @@
+id = 'qtpfsgui'
+name = 'qtpfsgui'
+
+homepage = 'http://qtpfsgui.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'luminancehdr'
+
+[[package]]
+channel = 'debian'
+name = 'luminance-hdr'
+
+[[package]]
+channel = 'fedora'
+name = 'luminance-hdr'

@@ -1,0 +1,8 @@
+id = 'deepin-terminal-gtk'
+name = 'deepin-terminal-gtk'
+
+homepage = 'https://github.com/linuxdeepin/deepin-terminal-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-terminal-gtk'

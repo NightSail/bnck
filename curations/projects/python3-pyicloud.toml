@@ -1,0 +1,8 @@
+id = 'python3-pyicloud'
+name = 'python3-pyicloud'
+
+homepage = 'https://github.com/picklepete/pyicloud'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyicloud'

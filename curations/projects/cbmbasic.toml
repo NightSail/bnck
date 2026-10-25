@@ -1,0 +1,8 @@
+id = 'cbmbasic'
+name = 'cbmbasic'
+
+repository = 'https://github.com/mist64/cbmbasic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cbmbasic'

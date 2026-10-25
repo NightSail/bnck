@@ -1,0 +1,8 @@
+id = 'kresus'
+name = 'kresus'
+
+homepage = 'https://kresus.org'
+
+[[package]]
+channel = 'arch'
+name = 'kresus'

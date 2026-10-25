@@ -1,0 +1,8 @@
+id = 'notes-up'
+name = 'notes-up'
+
+homepage = 'https://github.com/Philip-Scott/Notes-up'
+
+[[package]]
+channel = 'arch'
+name = 'notes-up'

@@ -1,0 +1,8 @@
+id = 'olpc-powerd'
+name = 'olpc-powerd'
+
+homepage = 'https://dev.laptop.org/git/users/pgf/powerd'
+
+[[package]]
+channel = 'debian'
+name = 'olpc-powerd'

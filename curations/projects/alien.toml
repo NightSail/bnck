@@ -1,0 +1,12 @@
+id = 'alien'
+name = 'alien'
+
+homepage = 'http://kitenet.net/~joey/code/alien'
+
+[[package]]
+channel = 'debian'
+name = 'alien'
+
+[[package]]
+channel = 'fedora'
+name = 'alien'

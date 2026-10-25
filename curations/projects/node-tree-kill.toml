@@ -1,0 +1,8 @@
+id = 'node-tree-kill'
+name = 'node-tree-kill'
+
+homepage = 'https://github.com/pkrumins/node-tree-kill'
+
+[[package]]
+channel = 'debian'
+name = 'node-tree-kill'

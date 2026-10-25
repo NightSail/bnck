@@ -1,0 +1,16 @@
+id = 'lightdm-gtk-greeter-settings'
+name = 'lightdm-gtk-greeter-settings'
+
+homepage = 'https://github.com/xubuntu/lightdm-gtk-greeter-settings'
+
+[[package]]
+channel = 'arch'
+name = 'lightdm-gtk-greeter-settings'
+
+[[package]]
+channel = 'debian'
+name = 'lightdm-gtk-greeter-settings'
+
+[[package]]
+channel = 'fedora'
+name = 'lightdm-gtk-greeter-settings'

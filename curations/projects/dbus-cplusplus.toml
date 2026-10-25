@@ -1,0 +1,16 @@
+id = 'dbus-cplusplus'
+name = 'dbus-cplusplus'
+
+homepage = 'https://sourceforge.net/projects/dbus-cplusplus'
+
+[[package]]
+channel = 'arch'
+name = 'dbus-c++'
+
+[[package]]
+channel = 'debian'
+name = 'libdbus-c++-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-c++'

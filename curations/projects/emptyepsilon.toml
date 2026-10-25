@@ -1,0 +1,8 @@
+id = 'emptyepsilon'
+name = 'emptyepsilon'
+
+homepage = 'https://github.com/daid/EmptyEpsilon'
+
+[[package]]
+channel = 'arch'
+name = 'emptyepsilon'

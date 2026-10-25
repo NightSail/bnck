@@ -1,0 +1,12 @@
+id = 'ford'
+name = 'ford'
+
+repository = 'https://github.com/Fortran-FOSS-Programmers/ford.git'
+
+[[package]]
+channel = 'debian'
+name = 'ford'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ford'

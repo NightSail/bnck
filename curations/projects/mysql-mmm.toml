@@ -1,0 +1,16 @@
+id = 'mysql-mmm'
+name = 'mysql-mmm'
+
+homepage = 'http://mysql-mmm.org'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql-mmm-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql-mmm-monitor'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql-mmm-tools'

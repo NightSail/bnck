@@ -1,0 +1,16 @@
+id = 'hwinfo'
+name = 'hwinfo'
+
+homepage = 'https://github.com/openSUSE/hwinfo'
+
+[[package]]
+channel = 'arch'
+name = 'hwinfo'
+
+[[package]]
+channel = 'debian'
+name = 'hwinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'hwinfo'

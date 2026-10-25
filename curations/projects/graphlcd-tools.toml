@@ -1,0 +1,8 @@
+id = 'graphlcd-tools'
+name = 'graphlcd-tools'
+
+homepage = 'https://github.com/M-Reimer/graphlcd-base'
+
+[[package]]
+channel = 'fedora'
+name = 'graphlcd-tools'

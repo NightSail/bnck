@@ -1,0 +1,12 @@
+id = 'prometheus-blackbox-exporter'
+name = 'prometheus-blackbox-exporter'
+
+homepage = 'https://github.com/prometheus/blackbox_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-blackbox-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-blackbox-exporter'

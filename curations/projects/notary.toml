@@ -1,0 +1,8 @@
+id = 'notary'
+name = 'notary'
+
+homepage = 'https://github.com/notaryproject/notary'
+
+[[package]]
+channel = 'debian'
+name = 'notary'

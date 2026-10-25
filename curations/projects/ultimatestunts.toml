@@ -1,0 +1,8 @@
+id = 'ultimatestunts'
+name = 'ultimatestunts'
+
+homepage = 'http://www.ultimatestunts.nl'
+
+[[package]]
+channel = 'fedora'
+name = 'ultimatestunts'

@@ -1,0 +1,8 @@
+id = 'xlunzip'
+name = 'xlunzip'
+
+homepage = 'http://www.nongnu.org/lzip/xlunzip.html'
+
+[[package]]
+channel = 'debian'
+name = 'xlunzip'

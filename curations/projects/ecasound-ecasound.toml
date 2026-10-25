@@ -1,0 +1,8 @@
+id = 'ecasound-ecasound'
+name = 'ecasound'
+
+homepage = 'https://ecasound.seul.org/ecasound'
+
+[[package]]
+channel = 'arch'
+name = 'ecasound'

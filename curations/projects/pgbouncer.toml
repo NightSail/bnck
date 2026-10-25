@@ -1,0 +1,17 @@
+id = 'pgbouncer'
+name = 'pgbouncer'
+
+homepage = 'https://www.pgbouncer.org'
+repository = 'https://github.com/pgbouncer/pgbouncer.git'
+
+[[package]]
+channel = 'arch'
+name = 'pgbouncer'
+
+[[package]]
+channel = 'debian'
+name = 'pgbouncer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgbouncer'

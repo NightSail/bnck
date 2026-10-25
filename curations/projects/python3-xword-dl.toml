@@ -1,0 +1,8 @@
+id = 'python3-xword-dl'
+name = 'python3-xword-dl'
+
+homepage = 'https://github.com/thisisparker/xword-dl'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xword-dl'

@@ -1,0 +1,8 @@
+id = 'lact'
+name = 'lact'
+
+homepage = 'https://github.com/ilya-zlobintsev/LACT'
+
+[[package]]
+channel = 'arch'
+name = 'lact'

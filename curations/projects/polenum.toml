@@ -1,0 +1,8 @@
+id = 'polenum'
+name = 'polenum'
+
+homepage = 'https://github.com/Wh1t3Fox/polenum'
+
+[[package]]
+channel = 'debian'
+name = 'polenum'

@@ -1,0 +1,8 @@
+id = 'python-bluepy'
+name = 'python-bluepy'
+
+homepage = 'https://github.com/IanHarvey/bluepy'
+
+[[package]]
+channel = 'arch'
+name = 'python-bluepy'

@@ -1,0 +1,8 @@
+id = 'deepin-util-dfm-tools'
+name = 'deepin-util-dfm-tools'
+
+homepage = 'https://github.com/linuxdeepin/util-dfm'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-util-dfm-tools'

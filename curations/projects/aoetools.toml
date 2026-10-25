@@ -1,0 +1,12 @@
+id = 'aoetools'
+name = 'aoetools'
+
+homepage = 'http://aoetools.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'aoetools'
+
+[[package]]
+channel = 'fedora'
+name = 'aoetools'

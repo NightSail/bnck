@@ -1,0 +1,8 @@
+id = 'proxyfor'
+name = 'proxyfor'
+
+homepage = 'https://github.com/sigoden/proxyfor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proxyfor'

@@ -1,0 +1,12 @@
+id = 'nazghul'
+name = 'nazghul'
+
+homepage = 'http://sourceforge.net/projects/nazghul'
+
+[[package]]
+channel = 'fedora'
+name = 'haxima'
+
+[[package]]
+channel = 'fedora'
+name = 'nazghul'

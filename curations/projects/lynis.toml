@@ -1,0 +1,20 @@
+id = 'lynis'
+name = 'lynis'
+
+homepage = 'https://cisofy.com/lynis'
+
+[[package]]
+channel = 'arch'
+name = 'lynis'
+
+[[package]]
+channel = 'debian'
+name = 'lynis'
+
+[[package]]
+channel = 'fedora'
+name = 'lynis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lynis'

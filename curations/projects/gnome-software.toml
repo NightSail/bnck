@@ -1,0 +1,16 @@
+id = 'gnome-software'
+name = 'gnome-software'
+
+homepage = 'https://apps.gnome.org/Software'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-software'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-software'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-software'

@@ -1,0 +1,16 @@
+id = 'cargo-outdated'
+name = 'cargo-outdated'
+
+repository = 'https://github.com/kbknapp/cargo-outdated.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-outdated'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-outdated'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-outdated'

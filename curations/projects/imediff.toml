@@ -1,0 +1,8 @@
+id = 'imediff'
+name = 'imediff'
+
+homepage = 'https://github.com/osamuaoki/imediff'
+
+[[package]]
+channel = 'debian'
+name = 'imediff'

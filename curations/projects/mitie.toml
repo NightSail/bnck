@@ -1,0 +1,8 @@
+id = 'mitie'
+name = 'mitie'
+
+repository = 'https://github.com/mit-nlp/MITIE.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mitie'

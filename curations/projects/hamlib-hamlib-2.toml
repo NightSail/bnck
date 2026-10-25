@@ -1,0 +1,9 @@
+id = 'hamlib-hamlib-2'
+name = 'hamlib'
+
+homepage = 'http://www.hamlib.org'
+repository = 'https://github.com/hamlib/hamlib.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hamlib'

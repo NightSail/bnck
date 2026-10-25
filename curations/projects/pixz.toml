@@ -1,0 +1,16 @@
+id = 'pixz'
+name = 'pixz'
+
+repository = 'https://github.com/vasi/pixz.git'
+
+[[package]]
+channel = 'arch'
+name = 'pixz'
+
+[[package]]
+channel = 'debian'
+name = 'pixz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixz'

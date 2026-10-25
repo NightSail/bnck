@@ -1,0 +1,8 @@
+id = 'toml-cli'
+name = 'toml-cli'
+
+homepage = 'https://github.com/mrijken/toml-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'toml-cli'

@@ -1,0 +1,20 @@
+id = 'writerperfect'
+name = 'writerperfect'
+
+homepage = 'https://sourceforge.net/p/libwpd/wiki/writerperfect'
+
+[[package]]
+channel = 'fedora'
+name = 'writerperfect'
+
+[[package]]
+channel = 'fedora'
+name = 'writerperfect-abw'
+
+[[package]]
+channel = 'fedora'
+name = 'writerperfect-epub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/writerperfect'

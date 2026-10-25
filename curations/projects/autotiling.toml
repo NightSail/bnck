@@ -1,0 +1,12 @@
+id = 'autotiling'
+name = 'autotiling'
+
+homepage = 'https://github.com/nwg-piotr/autotiling'
+
+[[package]]
+channel = 'arch'
+name = 'autotiling'
+
+[[package]]
+channel = 'debian'
+name = 'autotiling'

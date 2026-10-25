@@ -1,0 +1,8 @@
+id = 'git-sync'
+name = 'git-sync'
+
+repository = 'https://github.com/kubernetes/git-sync.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-sync'

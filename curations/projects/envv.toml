@@ -1,0 +1,8 @@
+id = 'envv'
+name = 'envv'
+
+homepage = 'https://github.com/jakewendt/envv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/envv'

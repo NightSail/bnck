@@ -1,0 +1,8 @@
+id = 'gimme'
+name = 'gimme'
+
+homepage = 'https://github.com/travis-ci/gimme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gimme'

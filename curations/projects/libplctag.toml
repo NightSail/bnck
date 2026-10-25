@@ -1,0 +1,8 @@
+id = 'libplctag'
+name = 'libplctag'
+
+homepage = 'https://github.com/libplctag/libplctag'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libplctag'

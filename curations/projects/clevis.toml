@@ -1,0 +1,32 @@
+id = 'clevis'
+name = 'clevis'
+
+homepage = 'https://github.com/latchset/clevis'
+
+[[package]]
+channel = 'arch'
+name = 'clevis'
+
+[[package]]
+channel = 'debian'
+name = 'clevis'
+
+[[package]]
+channel = 'debian'
+name = 'clevis-luks'
+
+[[package]]
+channel = 'debian'
+name = 'clevis-tpm2'
+
+[[package]]
+channel = 'fedora'
+name = 'clevis'
+
+[[package]]
+channel = 'fedora'
+name = 'clevis-luks'
+
+[[package]]
+channel = 'fedora'
+name = 'clevis-pin-pkcs11'

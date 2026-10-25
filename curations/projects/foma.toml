@@ -1,0 +1,16 @@
+id = 'foma'
+name = 'foma'
+
+homepage = 'https://github.com/mhulden/foma'
+
+[[package]]
+channel = 'debian'
+name = 'foma'
+
+[[package]]
+channel = 'fedora'
+name = 'foma'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/foma'

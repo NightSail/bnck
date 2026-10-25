@@ -1,0 +1,16 @@
+id = 'qpwgraph'
+name = 'qpwgraph'
+
+homepage = 'https://gitlab.freedesktop.org/rncbc/qpwgraph'
+
+[[package]]
+channel = 'arch'
+name = 'qpwgraph'
+
+[[package]]
+channel = 'debian'
+name = 'qpwgraph'
+
+[[package]]
+channel = 'fedora'
+name = 'qpwgraph'

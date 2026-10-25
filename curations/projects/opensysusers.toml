@@ -1,0 +1,8 @@
+id = 'opensysusers'
+name = 'opensysusers'
+
+homepage = 'https://github.com/cromerc/opensysusers'
+
+[[package]]
+channel = 'debian'
+name = 'opensysusers'

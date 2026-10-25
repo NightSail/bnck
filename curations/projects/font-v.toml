@@ -1,0 +1,12 @@
+id = 'font-v'
+name = 'font-v'
+
+homepage = 'https://github.com/source-foundry/font-v'
+
+[[package]]
+channel = 'arch'
+name = 'font-v'
+
+[[package]]
+channel = 'debian'
+name = 'font-v'

@@ -1,0 +1,8 @@
+id = 'stepci'
+name = 'stepci'
+
+homepage = 'https://stepci.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stepci'

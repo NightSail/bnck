@@ -1,0 +1,8 @@
+id = 'terracognita'
+name = 'terracognita'
+
+repository = 'https://github.com/cycloidio/terracognita.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terracognita'

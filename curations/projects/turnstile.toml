@@ -1,0 +1,8 @@
+id = 'turnstile'
+name = 'turnstile'
+
+homepage = 'https://github.com/chimera-linux/turnstile'
+
+[[package]]
+channel = 'debian'
+name = 'turnstile'

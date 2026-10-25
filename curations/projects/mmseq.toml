@@ -1,0 +1,8 @@
+id = 'mmseq'
+name = 'mmseq'
+
+homepage = 'https://github.com/eturro/mmseq'
+
+[[package]]
+channel = 'fedora'
+name = 'mmseq'

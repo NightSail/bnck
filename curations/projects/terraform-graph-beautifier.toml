@@ -1,0 +1,8 @@
+id = 'terraform-graph-beautifier'
+name = 'terraform-graph-beautifier'
+
+repository = 'https://github.com/pcasteran/terraform-graph-beautifier.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-graph-beautifier'

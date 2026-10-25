@@ -1,0 +1,8 @@
+id = 'python3-srptools'
+name = 'python3-srptools'
+
+homepage = 'https://github.com/idlesign/srptools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-srptools'

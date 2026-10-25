@@ -1,0 +1,8 @@
+id = 'nutsqlite'
+name = 'nutsqlite'
+
+homepage = 'http://nut.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'nutsqlite'

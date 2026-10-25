@@ -1,0 +1,20 @@
+id = 'openkinect'
+name = 'openkinect'
+
+homepage = 'http://openkinect.org'
+
+[[package]]
+channel = 'debian'
+name = 'libfreenect-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libfreenect'
+
+[[package]]
+channel = 'fedora'
+name = 'libfreenect-fakenect'
+
+[[package]]
+channel = 'fedora'
+name = 'libfreenect-opencv'

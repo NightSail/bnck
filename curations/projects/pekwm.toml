@@ -1,0 +1,16 @@
+id = 'pekwm'
+name = 'pekwm'
+
+homepage = 'https://www.pekwm.se'
+
+[[package]]
+channel = 'arch'
+name = 'pekwm'
+
+[[package]]
+channel = 'debian'
+name = 'pekwm'
+
+[[package]]
+channel = 'fedora'
+name = 'pekwm'

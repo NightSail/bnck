@@ -1,0 +1,8 @@
+id = 'perl-eval-withlexicals'
+name = 'perl-Eval-WithLexicals'
+
+homepage = 'https://metacpan.org/release/Eval-WithLexicals'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Eval-WithLexicals'

@@ -1,0 +1,8 @@
+id = 'loggedfs'
+name = 'loggedfs'
+
+homepage = 'https://rflament.github.io/loggedfs'
+
+[[package]]
+channel = 'debian'
+name = 'loggedfs'

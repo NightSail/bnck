@@ -1,0 +1,9 @@
+id = 'jpeginfo'
+name = 'jpeginfo'
+
+homepage = 'https://www.kokkonen.net/tjko/projects.html'
+repository = 'https://github.com/tjko/jpeginfo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpeginfo'

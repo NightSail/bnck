@@ -1,0 +1,8 @@
+id = 'gitcomet'
+name = 'gitcomet'
+
+homepage = 'https://gitcomet.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gitcomet'

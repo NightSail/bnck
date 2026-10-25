@@ -1,0 +1,8 @@
+id = 'memtest-vulkan'
+name = 'memtest_vulkan'
+
+homepage = 'https://github.com/GpuZelenograd/memtest_vulkan'
+
+[[package]]
+channel = 'arch'
+name = 'memtest_vulkan'

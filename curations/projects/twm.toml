@@ -1,0 +1,12 @@
+id = 'twm'
+name = 'twm'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/twm'
+
+[[package]]
+channel = 'debian'
+name = 'twm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/twm'

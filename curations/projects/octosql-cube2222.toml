@@ -1,0 +1,9 @@
+id = 'octosql-cube2222'
+name = 'octosql'
+
+homepage = 'https://octosql.dev'
+repository = 'https://github.com/cube2222/octosql-rs'
+
+[[package]]
+channel = 'crates.io'
+name = 'octosql'

@@ -1,0 +1,8 @@
+id = 'hexbox'
+name = 'hexbox'
+
+homepage = 'http://sf.net/projects/hexbox'
+
+[[package]]
+channel = 'debian'
+name = 'hexbox'

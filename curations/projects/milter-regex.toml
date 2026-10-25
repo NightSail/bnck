@@ -1,0 +1,8 @@
+id = 'milter-regex'
+name = 'milter-regex'
+
+homepage = 'http://www.benzedrine.ch/milter-regex.html'
+
+[[package]]
+channel = 'fedora'
+name = 'milter-regex'

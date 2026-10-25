@@ -1,0 +1,12 @@
+id = 'mtx'
+name = 'mtx'
+
+homepage = 'https://sourceforge.net/projects/mtx'
+
+[[package]]
+channel = 'debian'
+name = 'mtx'
+
+[[package]]
+channel = 'fedora'
+name = 'mtx'

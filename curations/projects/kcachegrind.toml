@@ -1,0 +1,24 @@
+id = 'kcachegrind'
+name = 'kcachegrind'
+
+homepage = 'https://apps.kde.org/kcachegrind'
+
+[[package]]
+channel = 'arch'
+name = 'kcachegrind'
+
+[[package]]
+channel = 'arch'
+name = 'kcachegrind-common'
+
+[[package]]
+channel = 'arch'
+name = 'qcachegrind'
+
+[[package]]
+channel = 'debian'
+name = 'kcachegrind'
+
+[[package]]
+channel = 'debian'
+name = 'kcachegrind-converters'

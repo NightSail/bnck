@@ -1,0 +1,12 @@
+id = 'yaak'
+name = 'yaak'
+
+homepage = 'https://yaak.app'
+
+[[package]]
+channel = 'arch'
+name = 'yaak'
+
+[[package]]
+channel = 'arch'
+name = 'yaak-cli'

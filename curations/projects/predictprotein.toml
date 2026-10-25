@@ -1,0 +1,40 @@
+id = 'predictprotein'
+name = 'predictprotein'
+
+homepage = 'https://www.predictprotein.org'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-bval'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-chop'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-con'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-isis'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-md'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-norsnet'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-prof'
+
+[[package]]
+channel = 'debian'
+name = 'profnet-snapfun'
+
+[[package]]
+channel = 'debian'
+name = 'profphd-net'

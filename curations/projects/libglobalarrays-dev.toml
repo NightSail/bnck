@@ -1,0 +1,8 @@
+id = 'libglobalarrays-dev'
+name = 'libglobalarrays-dev'
+
+homepage = 'http://hpc.pnl.gov/globalarrays'
+
+[[package]]
+channel = 'debian'
+name = 'libglobalarrays-dev'

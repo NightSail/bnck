@@ -1,0 +1,12 @@
+id = 'watcher'
+name = 'watcher'
+
+homepage = 'https://github.com/openstack/watcher'
+
+[[package]]
+channel = 'debian'
+name = 'python3-watcher'
+
+[[package]]
+channel = 'debian'
+name = 'watcher-api'

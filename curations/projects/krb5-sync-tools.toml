@@ -1,0 +1,8 @@
+id = 'krb5-sync-tools'
+name = 'krb5-sync-tools'
+
+homepage = 'https://www.eyrie.org/~eagle/software/krb5-sync'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-sync-tools'

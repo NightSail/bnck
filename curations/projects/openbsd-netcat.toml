@@ -1,0 +1,8 @@
+id = 'openbsd-netcat'
+name = 'openbsd-netcat'
+
+homepage = 'https://salsa.debian.org/debian/netcat-openbsd'
+
+[[package]]
+channel = 'arch'
+name = 'openbsd-netcat'

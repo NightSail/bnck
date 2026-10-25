@@ -1,0 +1,8 @@
+id = 'cwltest'
+name = 'cwltest'
+
+homepage = 'https://www.commonwl.org'
+
+[[package]]
+channel = 'debian'
+name = 'cwltest'

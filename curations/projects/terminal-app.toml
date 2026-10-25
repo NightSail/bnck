@@ -1,0 +1,8 @@
+id = 'terminal-app'
+name = 'terminal.app'
+
+homepage = 'https://gap.nongnu.org/terminal'
+
+[[package]]
+channel = 'debian'
+name = 'terminal.app'

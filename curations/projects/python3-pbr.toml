@@ -1,0 +1,8 @@
+id = 'python3-pbr'
+name = 'python3-pbr'
+
+homepage = 'https://docs.openstack.org/pbr/latest'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pbr'

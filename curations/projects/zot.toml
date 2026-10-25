@@ -1,0 +1,9 @@
+id = 'zot'
+name = 'zot'
+
+homepage = 'https://www.zot.sh'
+repository = 'https://github.com/patriceckhart/zot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zot'

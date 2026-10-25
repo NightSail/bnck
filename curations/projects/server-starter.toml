@@ -1,0 +1,12 @@
+id = 'server-starter'
+name = 'Server-Starter'
+
+homepage = 'https://metacpan.org/release/Server-Starter'
+
+[[package]]
+channel = 'debian'
+name = 'libserver-starter-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Server-Starter-start_server'

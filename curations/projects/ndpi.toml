@@ -1,0 +1,9 @@
+id = 'ndpi'
+name = 'ndpi'
+
+homepage = 'https://www.ntop.org/products/deep-packet-inspection/ndpi'
+repository = 'https://github.com/ntop/nDPI.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ndpi'

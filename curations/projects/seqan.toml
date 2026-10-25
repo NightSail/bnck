@@ -1,0 +1,12 @@
+id = 'seqan'
+name = 'seqan'
+
+homepage = 'https://seqan.github.io/lambda'
+
+[[package]]
+channel = 'debian'
+name = 'lambda-align'
+
+[[package]]
+channel = 'debian'
+name = 'lambda-align2'

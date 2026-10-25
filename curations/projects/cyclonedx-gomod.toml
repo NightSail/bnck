@@ -1,0 +1,9 @@
+id = 'cyclonedx-gomod'
+name = 'cyclonedx-gomod'
+
+homepage = 'https://cyclonedx.org'
+repository = 'https://github.com/CycloneDX/cyclonedx-gomod.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyclonedx-gomod'

@@ -1,0 +1,8 @@
+id = 'saint'
+name = 'saint'
+
+homepage = 'http://saint-apms.sourceforge.net/Main.html'
+
+[[package]]
+channel = 'debian'
+name = 'saint'

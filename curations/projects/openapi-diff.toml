@@ -1,0 +1,12 @@
+id = 'openapi-diff'
+name = 'openapi-diff'
+
+homepage = 'https://github.com/OpenAPITools/openapi-diff'
+
+[[package]]
+channel = 'arch'
+name = 'openapi-diff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openapi-diff'

@@ -1,0 +1,8 @@
+id = 'python3-dtfabric'
+name = 'python3-dtfabric'
+
+homepage = 'https://github.com/libyal/dtfabric'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dtfabric'

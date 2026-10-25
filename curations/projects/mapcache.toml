@@ -1,0 +1,16 @@
+id = 'mapcache'
+name = 'mapcache'
+
+homepage = 'http://www.mapserver.org/mapcache'
+
+[[package]]
+channel = 'debian'
+name = 'mapcache-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libmapcache-fcgi'
+
+[[package]]
+channel = 'fedora'
+name = 'libmapcache-tools'

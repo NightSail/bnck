@@ -1,0 +1,8 @@
+id = 'pmdmini'
+name = 'pmdmini'
+
+homepage = 'https://github.com/mistydemeo/pmdmini'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pmdmini'

@@ -1,0 +1,16 @@
+id = 'teeworlds'
+name = 'teeworlds'
+
+homepage = 'https://www.teeworlds.com'
+
+[[package]]
+channel = 'arch'
+name = 'teeworlds'
+
+[[package]]
+channel = 'fedora'
+name = 'teeworlds'
+
+[[package]]
+channel = 'fedora'
+name = 'teeworlds-server'

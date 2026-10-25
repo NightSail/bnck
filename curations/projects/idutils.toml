@@ -1,0 +1,12 @@
+id = 'idutils'
+name = 'idutils'
+
+homepage = 'https://www.gnu.org/software/idutils'
+
+[[package]]
+channel = 'debian'
+name = 'id-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/idutils'

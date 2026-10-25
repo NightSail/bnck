@@ -1,0 +1,8 @@
+id = 'ipfs-cid'
+name = 'ipfs-cid'
+
+homepage = 'https://gitlab.com/NukeManDan/rust_cid_npm'
+
+[[package]]
+channel = 'debian'
+name = 'ipfs-cid'

@@ -1,0 +1,8 @@
+id = 'blasr'
+name = 'blasr'
+
+homepage = 'https://github.com/PacificBiosciences/blasr'
+
+[[package]]
+channel = 'debian'
+name = 'blasr'

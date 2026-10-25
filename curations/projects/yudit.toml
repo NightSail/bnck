@@ -1,0 +1,12 @@
+id = 'yudit'
+name = 'yudit'
+
+homepage = 'https://www.yudit.org'
+
+[[package]]
+channel = 'debian'
+name = 'yudit'
+
+[[package]]
+channel = 'fedora'
+name = 'yudit'

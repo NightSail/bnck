@@ -1,0 +1,8 @@
+id = 'maui-agenda'
+name = 'maui-agenda'
+
+homepage = 'https://apps.kde.org/maui-agenda'
+
+[[package]]
+channel = 'fedora'
+name = 'maui-agenda'

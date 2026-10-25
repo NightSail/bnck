@@ -1,0 +1,8 @@
+id = 'haskell-doctest'
+name = 'haskell-doctest'
+
+homepage = 'https://github.com/sol/doctest'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-doctest'

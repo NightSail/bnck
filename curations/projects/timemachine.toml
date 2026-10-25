@@ -1,0 +1,8 @@
+id = 'timemachine'
+name = 'timemachine'
+
+homepage = 'http://plugin.org.uk/timemachine'
+
+[[package]]
+channel = 'debian'
+name = 'timemachine'

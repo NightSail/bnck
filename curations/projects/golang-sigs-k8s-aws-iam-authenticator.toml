@@ -1,0 +1,8 @@
+id = 'golang-sigs-k8s-aws-iam-authenticator'
+name = 'golang-sigs-k8s-aws-iam-authenticator'
+
+homepage = 'https://github.com/kubernetes-sigs/aws-iam-authenticator'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-sigs-k8s-aws-iam-authenticator'

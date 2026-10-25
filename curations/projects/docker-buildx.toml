@@ -1,0 +1,9 @@
+id = 'docker-buildx'
+name = 'docker-buildx'
+
+homepage = 'https://docs.docker.com/buildx/working-with-buildx'
+repository = 'https://github.com/docker/buildx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-buildx'

@@ -1,0 +1,8 @@
+id = 'rlfe'
+name = 'rlfe'
+
+homepage = 'https://tiswww.case.edu/php/chet/readline/rltop.html'
+
+[[package]]
+channel = 'debian'
+name = 'rlfe'

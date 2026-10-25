@@ -1,0 +1,8 @@
+id = 'clirr'
+name = 'clirr'
+
+homepage = 'https://clirr.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'clirr'

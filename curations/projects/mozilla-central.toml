@@ -1,0 +1,13 @@
+id = 'mozilla-central'
+name = 'mozilla-central'
+
+homepage = 'https://firefox-source-docs.mozilla.org/testing/geckodriver'
+repository = 'https://hg.mozilla.org/mozilla-central'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geckodriver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spidermonkey'

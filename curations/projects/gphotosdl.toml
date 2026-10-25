@@ -1,0 +1,8 @@
+id = 'gphotosdl'
+name = 'gphotosdl'
+
+homepage = 'https://github.com/rclone/gphotosdl'
+
+[[package]]
+channel = 'fedora'
+name = 'gphotosdl'

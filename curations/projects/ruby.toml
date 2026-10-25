@@ -1,0 +1,13 @@
+id = 'ruby'
+name = 'ruby'
+
+homepage = 'https://www.ruby-lang.org/en'
+repository = 'https://github.com/ruby/ruby.git'
+
+[[package]]
+channel = 'arch'
+name = 'ruby'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby'

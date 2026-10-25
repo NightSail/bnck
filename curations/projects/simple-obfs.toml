@@ -1,0 +1,8 @@
+id = 'simple-obfs'
+name = 'simple-obfs'
+
+repository = 'https://github.com/shadowsocks/simple-obfs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/simple-obfs'

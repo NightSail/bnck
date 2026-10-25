@@ -1,0 +1,8 @@
+id = 'xoscope'
+name = 'xoscope'
+
+homepage = 'https://sourceforge.net/projects/xoscope'
+
+[[package]]
+channel = 'debian'
+name = 'xoscope'

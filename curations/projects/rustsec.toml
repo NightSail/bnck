@@ -1,0 +1,12 @@
+id = 'rustsec'
+name = 'rustsec'
+
+homepage = 'https://rustsec.org'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-audit'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-lock'

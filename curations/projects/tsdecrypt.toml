@@ -1,0 +1,8 @@
+id = 'tsdecrypt'
+name = 'tsdecrypt'
+
+homepage = 'http://georgi.unixsol.org/programs/tsdecrypt'
+
+[[package]]
+channel = 'debian'
+name = 'tsdecrypt'

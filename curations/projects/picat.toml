@@ -1,0 +1,8 @@
+id = 'picat'
+name = 'picat'
+
+homepage = 'https://picat-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picat'

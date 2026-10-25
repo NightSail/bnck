@@ -1,0 +1,13 @@
+id = 'marmite'
+name = 'marmite'
+
+homepage = 'https://marmite.blog'
+repository = 'https://github.com/rochacbruno/marmite.git'
+
+[[package]]
+channel = 'arch'
+name = 'marmite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marmite'

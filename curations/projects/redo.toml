@@ -1,0 +1,8 @@
+id = 'redo'
+name = 'redo'
+
+homepage = 'https://redo.rtfd.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redo'

@@ -1,0 +1,8 @@
+id = 'libquotient'
+name = 'libquotient'
+
+homepage = 'https://quotient-im.github.io/libQuotient'
+
+[[package]]
+channel = 'arch'
+name = 'libquotient'

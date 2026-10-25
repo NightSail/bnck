@@ -1,0 +1,8 @@
+id = 'trace-cmd-pub'
+name = 'trace-cmd'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/trace-cmd/trace-cmd.git'
+
+[[package]]
+channel = 'arch'
+name = 'trace-cmd'

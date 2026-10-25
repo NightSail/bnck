@@ -1,0 +1,8 @@
+id = 'ruby-maxitest'
+name = 'ruby-maxitest'
+
+homepage = 'https://github.com/grosser/maxitest'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-maxitest'

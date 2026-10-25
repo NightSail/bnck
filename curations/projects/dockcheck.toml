@@ -1,0 +1,9 @@
+id = 'dockcheck'
+name = 'dockcheck'
+
+homepage = 'https://mag37.org'
+repository = 'https://github.com/mag37/dockcheck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockcheck'

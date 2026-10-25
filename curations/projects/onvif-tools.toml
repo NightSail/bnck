@@ -1,0 +1,8 @@
+id = 'onvif-tools'
+name = 'onvif-tools'
+
+homepage = 'https://github.com/sr99622/libonvif'
+
+[[package]]
+channel = 'debian'
+name = 'onvif-tools'

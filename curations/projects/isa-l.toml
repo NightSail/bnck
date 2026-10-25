@@ -1,0 +1,20 @@
+id = 'isa-l'
+name = 'isa-l'
+
+homepage = 'https://github.com/intel/isa-l'
+
+[[package]]
+channel = 'arch'
+name = 'isa-l'
+
+[[package]]
+channel = 'debian'
+name = 'isal'
+
+[[package]]
+channel = 'fedora'
+name = 'isa-l-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/isa-l'

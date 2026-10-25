@@ -1,0 +1,8 @@
+id = 'dhall-lsp-server'
+name = 'dhall-lsp-server'
+
+homepage = 'https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-lsp-server'
+
+[[package]]
+channel = 'arch'
+name = 'dhall-lsp-server'

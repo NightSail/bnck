@@ -1,0 +1,8 @@
+id = 'openssh-known-hosts'
+name = 'openssh-known-hosts'
+
+homepage = 'https://git.tiwe.de/openssh-known-hosts.git'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-known-hosts'

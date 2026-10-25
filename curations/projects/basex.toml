@@ -1,0 +1,12 @@
+id = 'basex'
+name = 'basex'
+
+homepage = 'https://basex.org'
+
+[[package]]
+channel = 'debian'
+name = 'basex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/basex'

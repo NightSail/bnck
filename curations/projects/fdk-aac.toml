@@ -1,0 +1,17 @@
+id = 'fdk-aac'
+name = 'fdk-aac'
+
+homepage = 'https://github.com/nu774/fdkaac'
+repository = 'https://git.code.sf.net/p/opencore-amr/fdk-aac.git'
+
+[[package]]
+channel = 'arch'
+name = 'fdkaac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fdk-aac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fdk-aac-encoder'

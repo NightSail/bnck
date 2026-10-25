@@ -1,0 +1,24 @@
+id = 'heimdall'
+name = 'heimdall'
+
+homepage = 'https://git.sr.ht/~grimler/Heimdall'
+
+[[package]]
+channel = 'arch'
+name = 'heimdall'
+
+[[package]]
+channel = 'debian'
+name = 'heimdall-flash'
+
+[[package]]
+channel = 'debian'
+name = 'heimdall-flash-frontend'
+
+[[package]]
+channel = 'fedora'
+name = 'heimdall'
+
+[[package]]
+channel = 'fedora'
+name = 'heimdall-frontend'

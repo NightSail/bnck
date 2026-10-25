@@ -1,0 +1,8 @@
+id = 'rmate'
+name = 'rmate'
+
+repository = 'https://github.com/textmate/rmate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmate'

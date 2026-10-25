@@ -1,0 +1,8 @@
+id = 'bpf-linker'
+name = 'bpf-linker'
+
+homepage = 'https://github.com/aya-rs/bpf-linker'
+
+[[package]]
+channel = 'arch'
+name = 'bpf-linker'

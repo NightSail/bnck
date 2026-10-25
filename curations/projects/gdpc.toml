@@ -1,0 +1,8 @@
+id = 'gdpc'
+name = 'gdpc'
+
+homepage = 'https://web.archive.org/web/20180212152753/http://www.frantz.fi/software/gdpc.php'
+
+[[package]]
+channel = 'debian'
+name = 'gdpc'

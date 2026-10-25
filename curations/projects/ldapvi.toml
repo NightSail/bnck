@@ -1,0 +1,16 @@
+id = 'ldapvi'
+name = 'ldapvi'
+
+homepage = 'http://www.lichteblau.com/ldapvi'
+
+[[package]]
+channel = 'debian'
+name = 'ldapvi'
+
+[[package]]
+channel = 'fedora'
+name = 'ldapvi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldapvi'

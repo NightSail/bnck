@@ -1,0 +1,12 @@
+id = 'gotags'
+name = 'gotags'
+
+repository = 'https://github.com/jstemmer/gotags.git'
+
+[[package]]
+channel = 'fedora'
+name = 'gotags'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotags'

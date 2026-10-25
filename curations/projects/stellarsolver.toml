@@ -1,0 +1,12 @@
+id = 'stellarsolver'
+name = 'stellarsolver'
+
+homepage = 'https://github.com/rlancaste/stellarsolver'
+
+[[package]]
+channel = 'arch'
+name = 'stellarsolver'
+
+[[package]]
+channel = 'fedora'
+name = 'stellarsolver'

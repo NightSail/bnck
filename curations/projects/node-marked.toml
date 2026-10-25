@@ -1,0 +1,8 @@
+id = 'node-marked'
+name = 'node-marked'
+
+homepage = 'https://github.com/chjj/marked'
+
+[[package]]
+channel = 'debian'
+name = 'node-marked'

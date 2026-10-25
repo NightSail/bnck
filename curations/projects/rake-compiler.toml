@@ -1,0 +1,16 @@
+id = 'rake-compiler'
+name = 'rake-compiler'
+
+homepage = 'https://github.com/rake-compiler/rake-compiler'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rake-compiler'
+
+[[package]]
+channel = 'debian'
+name = 'rake-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rake-compiler'

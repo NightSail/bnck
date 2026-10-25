@@ -1,0 +1,17 @@
+id = 'disktype'
+name = 'disktype'
+
+homepage = 'http://disktype.sf.net'
+repository = 'https://git.code.sf.net/p/disktype/disktype.git'
+
+[[package]]
+channel = 'debian'
+name = 'disktype'
+
+[[package]]
+channel = 'fedora'
+name = 'disktype'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/disktype'

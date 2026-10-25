@@ -1,0 +1,16 @@
+id = 'totem'
+name = 'totem'
+
+homepage = 'https://gitlab.gnome.org/GNOME/totem'
+
+[[package]]
+channel = 'arch'
+name = 'totem'
+
+[[package]]
+channel = 'debian'
+name = 'totem'
+
+[[package]]
+channel = 'debian'
+name = 'totem-video-thumbnailer'

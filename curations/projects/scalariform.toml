@@ -1,0 +1,8 @@
+id = 'scalariform'
+name = 'scalariform'
+
+repository = 'https://github.com/scala-ide/scalariform.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scalariform'

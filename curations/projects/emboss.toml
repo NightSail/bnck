@@ -1,0 +1,12 @@
+id = 'emboss'
+name = 'emboss'
+
+homepage = 'https://emboss.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'emboss'
+
+[[package]]
+channel = 'debian'
+name = 'jemboss'

@@ -1,0 +1,8 @@
+id = 'atomorun'
+name = 'atomorun'
+
+homepage = 'http://atomorun.whosme.de/index.php'
+
+[[package]]
+channel = 'fedora'
+name = 'atomorun'

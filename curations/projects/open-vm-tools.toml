@@ -1,0 +1,28 @@
+id = 'open-vm-tools'
+name = 'open-vm-tools'
+
+homepage = 'https://github.com/vmware/open-vm-tools'
+
+[[package]]
+channel = 'arch'
+name = 'open-vm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'open-vm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'open-vm-tools-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'open-vm-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'open-vm-tools-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'open-vm-tools-test'

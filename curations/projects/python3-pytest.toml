@@ -1,0 +1,12 @@
+id = 'python3-pytest'
+name = 'python3-pytest'
+
+homepage = 'https://pytest.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pytest'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytest'

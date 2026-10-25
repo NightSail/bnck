@@ -1,0 +1,8 @@
+id = 'libapache2-mod-python'
+name = 'libapache2-mod-python'
+
+homepage = 'http://www.modpython.org'
+
+[[package]]
+channel = 'debian'
+name = 'libapache2-mod-python'

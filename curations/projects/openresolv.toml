@@ -1,0 +1,16 @@
+id = 'openresolv'
+name = 'openresolv'
+
+homepage = 'https://roy.marples.name/projects/openresolv'
+
+[[package]]
+channel = 'arch'
+name = 'openresolv'
+
+[[package]]
+channel = 'debian'
+name = 'openresolv'
+
+[[package]]
+channel = 'fedora'
+name = 'openresolv'

@@ -1,0 +1,8 @@
+id = 'i2util'
+name = 'i2util'
+
+homepage = 'https://github.com/perfsonar/i2util'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i2util'

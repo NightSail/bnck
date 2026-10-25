@@ -1,0 +1,8 @@
+id = 'git-get'
+name = 'git-get'
+
+repository = 'https://github.com/grdl/git-get.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-get'

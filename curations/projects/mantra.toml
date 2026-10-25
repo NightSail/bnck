@@ -1,0 +1,9 @@
+id = 'mantra'
+name = 'mantra'
+
+homepage = 'https://amolo.com.br'
+repository = 'https://github.com/brosck/mantra.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mantra'

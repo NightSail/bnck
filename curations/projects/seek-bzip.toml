@@ -1,0 +1,8 @@
+id = 'seek-bzip'
+name = 'seek-bzip'
+
+homepage = 'https://github.com/cscott/seek-bzip'
+
+[[package]]
+channel = 'debian'
+name = 'seek-bzip'

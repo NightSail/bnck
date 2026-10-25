@@ -1,0 +1,20 @@
+id = 'cbc'
+name = 'cbc'
+
+homepage = 'https://github.com/coin-or/Cbc'
+
+[[package]]
+channel = 'arch'
+name = 'coin-or-cbc'
+
+[[package]]
+channel = 'debian'
+name = 'coinor-cbc'
+
+[[package]]
+channel = 'fedora'
+name = 'coin-or-Cbc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cbc'

@@ -1,0 +1,12 @@
+id = 'office-runner'
+name = 'office-runner'
+
+homepage = 'https://gitlab.gnome.org/GNOME/office-runner'
+
+[[package]]
+channel = 'arch'
+name = 'office-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'office-runner'

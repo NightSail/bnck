@@ -1,0 +1,8 @@
+id = 'proxychains-ng-rofl0r'
+name = 'proxychains-ng'
+
+repository = 'https://github.com/rofl0r/proxychains-ng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proxychains-ng'

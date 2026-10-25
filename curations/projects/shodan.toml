@@ -1,0 +1,9 @@
+id = 'shodan'
+name = 'shodan'
+
+homepage = 'https://cli.shodan.io'
+repository = 'https://github.com/achillean/shodan-python.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shodan'

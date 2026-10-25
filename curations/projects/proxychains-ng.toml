@@ -1,0 +1,16 @@
+id = 'proxychains-ng'
+name = 'proxychains-ng'
+
+homepage = 'https://github.com/rofl0r/proxychains-ng'
+
+[[package]]
+channel = 'arch'
+name = 'proxychains-ng'
+
+[[package]]
+channel = 'debian'
+name = 'proxychains4'
+
+[[package]]
+channel = 'fedora'
+name = 'proxychains-ng'

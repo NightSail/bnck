@@ -1,0 +1,8 @@
+id = 'rudof'
+name = 'rudof'
+
+homepage = 'https://rudof-project.github.io/rudof'
+
+[[package]]
+channel = 'debian'
+name = 'rudof'

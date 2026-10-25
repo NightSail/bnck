@@ -1,0 +1,21 @@
+id = 'dillo'
+name = 'dillo'
+
+homepage = 'https://dillo-browser.org'
+repository = 'https://github.com/dillo-browser/dillo.git'
+
+[[package]]
+channel = 'arch'
+name = 'dillo'
+
+[[package]]
+channel = 'debian'
+name = 'dillo'
+
+[[package]]
+channel = 'fedora'
+name = 'dillo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dillo'

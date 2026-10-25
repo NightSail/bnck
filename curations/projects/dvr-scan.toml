@@ -1,0 +1,9 @@
+id = 'dvr-scan'
+name = 'dvr-scan'
+
+homepage = 'https://www.dvr-scan.com'
+repository = 'https://github.com/Breakthrough/DVR-Scan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvr-scan'

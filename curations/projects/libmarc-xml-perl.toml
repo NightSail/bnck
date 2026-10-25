@@ -1,0 +1,8 @@
+id = 'libmarc-xml-perl'
+name = 'libmarc-xml-perl'
+
+homepage = 'https://metacpan.org/release/MARC-XML'
+
+[[package]]
+channel = 'debian'
+name = 'libmarc-xml-perl'

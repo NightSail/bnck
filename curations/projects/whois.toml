@@ -1,0 +1,16 @@
+id = 'whois'
+name = 'whois'
+
+repository = 'https://github.com/rfc1036/whois.git'
+
+[[package]]
+channel = 'arch'
+name = 'whois'
+
+[[package]]
+channel = 'debian'
+name = 'whois'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/whois'

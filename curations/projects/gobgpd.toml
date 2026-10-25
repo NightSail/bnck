@@ -1,0 +1,8 @@
+id = 'gobgpd'
+name = 'gobgpd'
+
+homepage = 'https://github.com/osrg/gobgp'
+
+[[package]]
+channel = 'debian'
+name = 'gobgpd'

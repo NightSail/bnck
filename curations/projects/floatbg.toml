@@ -1,0 +1,8 @@
+id = 'floatbg'
+name = 'floatbg'
+
+homepage = 'https://packages.debian.org/floatbg'
+
+[[package]]
+channel = 'debian'
+name = 'floatbg'

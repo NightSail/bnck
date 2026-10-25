@@ -1,0 +1,8 @@
+id = 'protobuf-codegen'
+name = 'protobuf-codegen'
+
+homepage = 'https://github.com/stepancheg/rust-protobuf'
+
+[[package]]
+channel = 'debian'
+name = 'protobuf-codegen'

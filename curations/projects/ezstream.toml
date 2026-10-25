@@ -1,0 +1,17 @@
+id = 'ezstream'
+name = 'ezstream'
+
+homepage = 'https://www.icecast.org/ezstream'
+repository = 'https://gitlab.xiph.org/xiph/ezstream.git'
+
+[[package]]
+channel = 'debian'
+name = 'ezstream'
+
+[[package]]
+channel = 'fedora'
+name = 'ezstream'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ezstream'

@@ -1,0 +1,17 @@
+id = 'offlineimap'
+name = 'offlineimap'
+
+homepage = 'http://offlineimap.org'
+repository = 'https://github.com/OfflineIMAP/offlineimap3.git'
+
+[[package]]
+channel = 'arch'
+name = 'offlineimap'
+
+[[package]]
+channel = 'fedora'
+name = 'offlineimap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/offlineimap'

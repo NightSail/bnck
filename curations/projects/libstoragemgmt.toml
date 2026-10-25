@@ -1,0 +1,40 @@
+id = 'libstoragemgmt'
+name = 'libstoragemgmt'
+
+homepage = 'https://github.com/libstorage/libstoragemgmt'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-arcconf-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-hpsa-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-local-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-megaraid-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-nfs-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-smis-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'libstoragemgmt-targetd-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-libstoragemgmt'

@@ -1,0 +1,32 @@
+id = 'lttng'
+name = 'lttng'
+
+homepage = 'https://lttng.org'
+
+[[package]]
+channel = 'arch'
+name = 'lttng-ust'
+
+[[package]]
+channel = 'arch'
+name = 'lttng-ust2.12'
+
+[[package]]
+channel = 'debian'
+name = 'liblttng-ust-dev'
+
+[[package]]
+channel = 'debian'
+name = 'lttng-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'lttng-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'lttng-ust-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lttng-ust'

@@ -1,0 +1,8 @@
+id = 'orthorobot'
+name = 'orthorobot'
+
+homepage = 'http://stabyourself.net/orthorobot'
+
+[[package]]
+channel = 'fedora'
+name = 'orthorobot'

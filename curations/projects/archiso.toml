@@ -1,0 +1,8 @@
+id = 'archiso'
+name = 'archiso'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/archiso'
+
+[[package]]
+channel = 'arch'
+name = 'archiso'

@@ -1,0 +1,8 @@
+id = 'ez-ipam'
+name = 'ez-ipam'
+
+homepage = 'https://github.com/plumber-cd/ez-ipam'
+
+[[package]]
+channel = 'debian'
+name = 'ez-ipam'

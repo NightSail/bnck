@@ -1,0 +1,12 @@
+id = 'oksh'
+name = 'oksh'
+
+repository = 'https://github.com/ibara/oksh.git'
+
+[[package]]
+channel = 'fedora'
+name = 'oksh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oksh'

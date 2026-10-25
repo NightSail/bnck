@@ -1,0 +1,8 @@
+id = 'designate-common'
+name = 'designate-common'
+
+homepage = 'https://github.com/openstack/designate'
+
+[[package]]
+channel = 'debian'
+name = 'designate-common'

@@ -1,0 +1,8 @@
+id = 'hotdoc'
+name = 'hotdoc'
+
+homepage = 'https://github.com/hotdoc/hotdoc'
+
+[[package]]
+channel = 'arch'
+name = 'hotdoc'

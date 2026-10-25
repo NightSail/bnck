@@ -1,0 +1,8 @@
+id = 'json2ts'
+name = 'json2ts'
+
+homepage = 'https://github.com/bcherny/json-schema-to-typescript'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/json2ts'

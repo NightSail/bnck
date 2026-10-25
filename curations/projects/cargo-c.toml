@@ -1,0 +1,20 @@
+id = 'cargo-c'
+name = 'cargo-c'
+
+homepage = 'https://github.com/lu-zero/cargo-c'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-c'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-c'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo-c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-c'

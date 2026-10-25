@@ -1,0 +1,12 @@
+id = 'ovh-ttyrec'
+name = 'ovh-ttyrec'
+
+homepage = 'https://github.com/ovh/ovh-ttyrec'
+
+[[package]]
+channel = 'debian'
+name = 'ttyrec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ovh-ttyrec'

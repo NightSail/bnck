@@ -1,0 +1,9 @@
+id = 'copilot'
+name = 'copilot'
+
+homepage = 'https://aws.github.io/copilot-cli'
+repository = 'https://github.com/aws/copilot-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/copilot'

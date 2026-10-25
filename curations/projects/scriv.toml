@@ -1,0 +1,8 @@
+id = 'scriv'
+name = 'scriv'
+
+homepage = 'https://github.com/nedbat/scriv'
+
+[[package]]
+channel = 'debian'
+name = 'scriv'

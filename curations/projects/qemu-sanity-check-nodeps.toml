@@ -1,0 +1,8 @@
+id = 'qemu-sanity-check-nodeps'
+name = 'qemu-sanity-check-nodeps'
+
+homepage = 'http://people.redhat.com/~rjones/qemu-sanity-check'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-sanity-check-nodeps'

@@ -1,0 +1,8 @@
+id = 'rotix'
+name = 'rotix'
+
+homepage = 'https://github.com/shemminga/rotix'
+
+[[package]]
+channel = 'debian'
+name = 'rotix'

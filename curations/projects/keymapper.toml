@@ -1,0 +1,6 @@
+id = 'keymapper'
+name = 'keymapper'
+
+[[package]]
+channel = 'debian'
+name = 'keymapper'

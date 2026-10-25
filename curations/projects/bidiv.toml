@@ -1,0 +1,6 @@
+id = 'bidiv'
+name = 'bidiv'
+
+[[package]]
+channel = 'debian'
+name = 'bidiv'

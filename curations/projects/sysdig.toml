@@ -4,5 +4,13 @@ name = 'sysdig'
 repository = 'https://github.com/draios/sysdig'
 
 [[package]]
+channel = 'arch'
+name = 'sysdig'
+
+[[package]]
+channel = 'debian'
+name = 'sysdig'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/sysdig'

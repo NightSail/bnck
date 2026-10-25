@@ -1,0 +1,8 @@
+id = 'webdav'
+name = 'webdav'
+
+repository = 'https://github.com/hacdias/webdav.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webdav'

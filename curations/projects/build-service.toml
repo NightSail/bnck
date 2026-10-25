@@ -1,0 +1,16 @@
+id = 'build-service'
+name = 'Build_Service'
+
+homepage = 'https://en.opensuse.org/Build_Service'
+
+[[package]]
+channel = 'debian'
+name = 'obs-productconverter'
+
+[[package]]
+channel = 'debian'
+name = 'obs-server'
+
+[[package]]
+channel = 'debian'
+name = 'obs-utils'

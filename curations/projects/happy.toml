@@ -1,0 +1,16 @@
+id = 'happy'
+name = 'happy'
+
+homepage = 'https://hackage.haskell.org/package/happy'
+
+[[package]]
+channel = 'arch'
+name = 'happy'
+
+[[package]]
+channel = 'debian'
+name = 'happy'
+
+[[package]]
+channel = 'fedora'
+name = 'happy'

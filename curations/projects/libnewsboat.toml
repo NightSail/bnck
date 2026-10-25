@@ -1,0 +1,9 @@
+id = 'libnewsboat'
+name = 'libnewsboat'
+
+homepage = 'https://github.com/newsboat/newsboat'
+repository = 'https://github.com/exaroth/libnewsboat-crates.io'
+
+[[package]]
+channel = 'crates.io'
+name = 'libnewsboat'

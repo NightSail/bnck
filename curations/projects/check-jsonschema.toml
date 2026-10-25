@@ -1,0 +1,12 @@
+id = 'check-jsonschema'
+name = 'check-jsonschema'
+
+homepage = 'https://github.com/python-jsonschema/check-jsonschema'
+
+[[package]]
+channel = 'arch'
+name = 'check-jsonschema'
+
+[[package]]
+channel = 'debian'
+name = 'python3-check-jsonschema'

@@ -1,0 +1,16 @@
+id = 'lollypop'
+name = 'lollypop'
+
+homepage = 'https://gitlab.gnome.org/World/lollypop'
+
+[[package]]
+channel = 'arch'
+name = 'lollypop'
+
+[[package]]
+channel = 'debian'
+name = 'lollypop'
+
+[[package]]
+channel = 'fedora'
+name = 'lollypop'

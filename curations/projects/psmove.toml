@@ -1,0 +1,12 @@
+id = 'psmove'
+name = 'psmove'
+
+homepage = 'https://thp.io/2010/psmove'
+
+[[package]]
+channel = 'fedora'
+name = 'psmoveapi'
+
+[[package]]
+channel = 'fedora'
+name = 'psmoveapi-examples'

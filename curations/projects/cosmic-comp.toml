@@ -1,0 +1,12 @@
+id = 'cosmic-comp'
+name = 'cosmic-comp'
+
+homepage = 'https://github.com/pop-os/cosmic-comp'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-comp'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-comp'

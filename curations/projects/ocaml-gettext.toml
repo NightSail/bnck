@@ -1,0 +1,12 @@
+id = 'ocaml-gettext'
+name = 'ocaml-gettext'
+
+homepage = 'https://github.com/gildor478/ocaml-gettext'
+
+[[package]]
+channel = 'debian'
+name = 'libgettext-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-gettext-devel'

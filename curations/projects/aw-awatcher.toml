@@ -1,0 +1,8 @@
+id = 'aw-awatcher'
+name = 'aw-awatcher'
+
+homepage = 'https://github.com/2e3s/awatcher'
+
+[[package]]
+channel = 'fedora'
+name = 'aw-awatcher'

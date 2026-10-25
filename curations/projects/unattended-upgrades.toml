@@ -1,0 +1,6 @@
+id = 'unattended-upgrades'
+name = 'unattended-upgrades'
+
+[[package]]
+channel = 'debian'
+name = 'unattended-upgrades'

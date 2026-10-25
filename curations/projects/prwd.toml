@@ -1,0 +1,8 @@
+id = 'prwd'
+name = 'prwd'
+
+homepage = 'http://tamentis.com/projects/prwd'
+
+[[package]]
+channel = 'fedora'
+name = 'prwd'

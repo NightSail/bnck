@@ -1,0 +1,20 @@
+id = 'google-authenticator-libpam'
+name = 'google-authenticator-libpam'
+
+homepage = 'https://github.com/google/google-authenticator-libpam'
+
+[[package]]
+channel = 'arch'
+name = 'libpam-google-authenticator'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-google-authenticator'
+
+[[package]]
+channel = 'fedora'
+name = 'google-authenticator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/google-authenticator-libpam'

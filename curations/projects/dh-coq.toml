@@ -1,0 +1,10 @@
+id = 'dh-coq'
+name = 'dh-coq'
+
+[[package]]
+channel = 'debian'
+name = 'debian-coq-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dh-coq'

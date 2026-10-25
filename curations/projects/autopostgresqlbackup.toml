@@ -1,0 +1,8 @@
+id = 'autopostgresqlbackup'
+name = 'autopostgresqlbackup'
+
+homepage = 'https://github.com/k0lter/autopostgresqlbackup'
+
+[[package]]
+channel = 'debian'
+name = 'autopostgresqlbackup'

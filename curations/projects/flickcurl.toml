@@ -1,0 +1,28 @@
+id = 'flickcurl'
+name = 'flickcurl'
+
+homepage = 'https://librdf.org/flickcurl'
+
+[[package]]
+channel = 'arch'
+name = 'flickcurl'
+
+[[package]]
+channel = 'debian'
+name = 'flickcurl-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libflickcurl-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'flickcurl'
+
+[[package]]
+channel = 'fedora'
+name = 'flickcurl-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flickcurl'

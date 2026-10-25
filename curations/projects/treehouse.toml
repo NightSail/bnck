@@ -1,0 +1,8 @@
+id = 'treehouse'
+name = 'treehouse'
+
+homepage = 'https://github.com/kunchenguid/treehouse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/treehouse'

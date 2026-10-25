@@ -1,0 +1,16 @@
+id = 'clp'
+name = 'clp'
+
+homepage = 'https://github.com/coin-or/Clp'
+
+[[package]]
+channel = 'arch'
+name = 'coin-or-clp'
+
+[[package]]
+channel = 'fedora'
+name = 'coin-or-Clp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clp'

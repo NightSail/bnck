@@ -1,0 +1,9 @@
+id = 'scarb'
+name = 'scarb'
+
+homepage = 'https://docs.swmansion.com/scarb'
+repository = 'https://github.com/software-mansion/scarb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scarb'

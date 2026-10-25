@@ -1,0 +1,12 @@
+id = 'black-hole-solver'
+name = 'black-hole-solver'
+
+homepage = 'https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver'
+
+[[package]]
+channel = 'arch'
+name = 'black-hole-solver'
+
+[[package]]
+channel = 'fedora'
+name = 'black-hole-solver'

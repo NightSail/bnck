@@ -1,0 +1,8 @@
+id = 'fiu-utils'
+name = 'fiu-utils'
+
+homepage = 'https://blitiri.com.ar/p/libfiu'
+
+[[package]]
+channel = 'debian'
+name = 'fiu-utils'

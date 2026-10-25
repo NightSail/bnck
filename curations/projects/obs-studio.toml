@@ -1,0 +1,16 @@
+id = 'obs-studio'
+name = 'obs-studio'
+
+homepage = 'https://obsproject.com'
+
+[[package]]
+channel = 'arch'
+name = 'obs-studio'
+
+[[package]]
+channel = 'debian'
+name = 'obs-studio'
+
+[[package]]
+channel = 'fedora'
+name = 'obs-studio'

@@ -1,0 +1,12 @@
+id = 'pipemeter'
+name = 'pipemeter'
+
+homepage = 'https://launchpad.net/pipemeter'
+
+[[package]]
+channel = 'debian'
+name = 'pipemeter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipemeter'

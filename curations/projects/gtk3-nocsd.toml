@@ -1,0 +1,8 @@
+id = 'gtk3-nocsd'
+name = 'gtk3-nocsd'
+
+homepage = 'https://github.com/PCMan/gtk3-nocsd'
+
+[[package]]
+channel = 'debian'
+name = 'gtk3-nocsd'

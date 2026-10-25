@@ -1,0 +1,16 @@
+id = 'wlsunset'
+name = 'wlsunset'
+
+homepage = 'https://sr.ht/~kennylevinsen/wlsunset'
+
+[[package]]
+channel = 'arch'
+name = 'wlsunset'
+
+[[package]]
+channel = 'debian'
+name = 'wlsunset'
+
+[[package]]
+channel = 'fedora'
+name = 'wlsunset'

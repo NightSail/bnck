@@ -1,0 +1,12 @@
+id = 'rapid-photo-downloader'
+name = 'rapid-photo-downloader'
+
+homepage = 'https://www.damonlynch.net/rapid'
+
+[[package]]
+channel = 'arch'
+name = 'rapid-photo-downloader'
+
+[[package]]
+channel = 'debian'
+name = 'rapid-photo-downloader'

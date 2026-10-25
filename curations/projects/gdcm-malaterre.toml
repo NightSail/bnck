@@ -1,0 +1,8 @@
+id = 'gdcm-malaterre'
+name = 'gdcm'
+
+homepage = 'https://github.com/malaterre/GDCM'
+
+[[package]]
+channel = 'arch'
+name = 'gdcm'

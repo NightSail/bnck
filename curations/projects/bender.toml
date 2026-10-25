@@ -1,0 +1,8 @@
+id = 'bender'
+name = 'bender'
+
+repository = 'https://github.com/pulp-platform/bender.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bender'

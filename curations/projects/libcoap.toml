@@ -1,0 +1,16 @@
+id = 'libcoap'
+name = 'libcoap'
+
+homepage = 'https://github.com/obgm/libcoap'
+
+[[package]]
+channel = 'debian'
+name = 'libcoap3-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libcoap-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcoap'

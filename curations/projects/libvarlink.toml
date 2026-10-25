@@ -1,0 +1,12 @@
+id = 'libvarlink'
+name = 'libvarlink'
+
+homepage = 'https://github.com/varlink/libvarlink'
+
+[[package]]
+channel = 'arch'
+name = 'libvarlink'
+
+[[package]]
+channel = 'fedora'
+name = 'libvarlink-util'

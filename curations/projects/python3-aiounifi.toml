@@ -1,0 +1,8 @@
+id = 'python3-aiounifi'
+name = 'python3-aiounifi'
+
+homepage = 'https://github.com/Kane610/aiounifi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiounifi'

@@ -1,0 +1,17 @@
+id = 'osc'
+name = 'osc'
+
+homepage = 'https://en.opensuse.org/openSUSE:OSC'
+repository = 'https://github.com/openSUSE/osc.git'
+
+[[package]]
+channel = 'debian'
+name = 'osc'
+
+[[package]]
+channel = 'fedora'
+name = 'osc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osc'

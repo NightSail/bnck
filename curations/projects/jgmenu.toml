@@ -1,0 +1,16 @@
+id = 'jgmenu'
+name = 'jgmenu'
+
+homepage = 'https://www.github.com/johanmalm/jgmenu'
+
+[[package]]
+channel = 'arch'
+name = 'jgmenu'
+
+[[package]]
+channel = 'debian'
+name = 'jgmenu'
+
+[[package]]
+channel = 'fedora'
+name = 'jgmenu'

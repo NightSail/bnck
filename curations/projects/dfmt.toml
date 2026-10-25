@@ -1,0 +1,12 @@
+id = 'dfmt'
+name = 'dfmt'
+
+repository = 'https://github.com/dlang-community/dfmt.git'
+
+[[package]]
+channel = 'arch'
+name = 'dfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dfmt'

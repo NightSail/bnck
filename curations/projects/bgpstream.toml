@@ -1,0 +1,8 @@
+id = 'bgpstream'
+name = 'bgpstream'
+
+homepage = 'https://bgpstream.caida.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bgpstream'

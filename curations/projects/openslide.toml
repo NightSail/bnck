@@ -1,0 +1,20 @@
+id = 'openslide'
+name = 'openslide'
+
+homepage = 'https://openslide.org'
+
+[[package]]
+channel = 'arch'
+name = 'openslide'
+
+[[package]]
+channel = 'debian'
+name = 'openslide-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'openslide-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openslide'

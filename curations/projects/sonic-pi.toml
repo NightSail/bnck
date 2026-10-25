@@ -1,0 +1,8 @@
+id = 'sonic-pi'
+name = 'sonic-pi'
+
+homepage = 'https://sonic-pi.net'
+
+[[package]]
+channel = 'debian'
+name = 'sonic-pi'

@@ -1,0 +1,8 @@
+id = 'i3status-rust'
+name = 'i3status-rust'
+
+homepage = 'https://github.com/greshake/i3status-rust'
+
+[[package]]
+channel = 'arch'
+name = 'i3status-rust'

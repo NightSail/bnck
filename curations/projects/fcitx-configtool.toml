@@ -1,0 +1,12 @@
+id = 'fcitx-configtool'
+name = 'fcitx-configtool'
+
+homepage = 'https://github.com/fcitx/fcitx-configtool'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx-config-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx-configtool'

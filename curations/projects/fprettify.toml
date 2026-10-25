@@ -1,0 +1,13 @@
+id = 'fprettify'
+name = 'fprettify'
+
+homepage = 'https://github.com/pseewald/fprettify'
+repository = 'https://github.com/fortran-lang/fprettify.git'
+
+[[package]]
+channel = 'fedora'
+name = 'fprettify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fprettify'

@@ -1,0 +1,8 @@
+id = 'dnclient-server'
+name = 'dnclient-server'
+
+homepage = 'https://www.defined.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dnclient-server'

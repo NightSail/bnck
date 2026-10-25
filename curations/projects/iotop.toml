@@ -1,0 +1,12 @@
+id = 'iotop'
+name = 'iotop'
+
+homepage = 'http://guichaz.free.fr/iotop'
+
+[[package]]
+channel = 'arch'
+name = 'iotop'
+
+[[package]]
+channel = 'debian'
+name = 'iotop'

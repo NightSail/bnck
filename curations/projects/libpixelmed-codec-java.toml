@@ -1,0 +1,8 @@
+id = 'libpixelmed-codec-java'
+name = 'libpixelmed-codec-java'
+
+homepage = 'https://www.pixelmed.com/jpeg.html'
+
+[[package]]
+channel = 'debian'
+name = 'libpixelmed-codec-java'

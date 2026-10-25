@@ -1,0 +1,12 @@
+id = 'dcap'
+name = 'dcap'
+
+homepage = 'https://www.dcache.org/manuals/libdcap.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'dcap'
+
+[[package]]
+channel = 'fedora'
+name = 'dcap'

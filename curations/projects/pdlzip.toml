@@ -1,0 +1,8 @@
+id = 'pdlzip'
+name = 'pdlzip'
+
+homepage = 'http://www.nongnu.org/lzip/pdlzip.html'
+
+[[package]]
+channel = 'debian'
+name = 'pdlzip'

@@ -1,0 +1,13 @@
+id = 'cargo-dist'
+name = 'cargo-dist'
+
+homepage = 'https://axodotdev.github.io/cargo-dist'
+repository = 'https://github.com/axodotdev/cargo-dist.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-dist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-dist'

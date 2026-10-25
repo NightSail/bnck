@@ -1,0 +1,16 @@
+id = 'kissat'
+name = 'kissat'
+
+homepage = 'https://github.com/arminbiere/kissat'
+
+[[package]]
+channel = 'debian'
+name = 'kissat'
+
+[[package]]
+channel = 'fedora'
+name = 'kissat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kissat'

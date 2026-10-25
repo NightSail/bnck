@@ -1,0 +1,16 @@
+id = 'pitivi'
+name = 'pitivi'
+
+homepage = 'https://pitivi.org'
+
+[[package]]
+channel = 'arch'
+name = 'pitivi'
+
+[[package]]
+channel = 'debian'
+name = 'pitivi'
+
+[[package]]
+channel = 'fedora'
+name = 'pitivi'

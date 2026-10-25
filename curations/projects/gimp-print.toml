@@ -1,0 +1,20 @@
+id = 'gimp-print'
+name = 'gimp-print'
+
+homepage = 'http://gimp-print.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'escputil'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-gutenprint'
+
+[[package]]
+channel = 'fedora'
+name = 'gutenprint'
+
+[[package]]
+channel = 'fedora'
+name = 'gutenprint-cups'

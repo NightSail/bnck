@@ -1,0 +1,8 @@
+id = 'tetrinetx'
+name = 'tetrinetx'
+
+homepage = 'http://tetrinetx.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'tetrinetx'

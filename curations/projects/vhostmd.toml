@@ -1,0 +1,12 @@
+id = 'vhostmd'
+name = 'vhostmd'
+
+homepage = 'https://github.com/vhostmd/vhostmd'
+
+[[package]]
+channel = 'fedora'
+name = 'vhostmd'
+
+[[package]]
+channel = 'fedora'
+name = 'vm-dump-metrics'

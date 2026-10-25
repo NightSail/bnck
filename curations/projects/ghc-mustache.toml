@@ -1,0 +1,8 @@
+id = 'ghc-mustache'
+name = 'ghc-mustache'
+
+homepage = 'https://hackage.haskell.org/package/mustache'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-mustache'

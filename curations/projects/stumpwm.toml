@@ -1,0 +1,12 @@
+id = 'stumpwm'
+name = 'stumpwm'
+
+homepage = 'https://stumpwm.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'stumpwm'
+
+[[package]]
+channel = 'debian'
+name = 'stumpwm'

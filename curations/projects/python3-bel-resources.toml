@@ -1,0 +1,8 @@
+id = 'python3-bel-resources'
+name = 'python3-bel-resources'
+
+homepage = 'https://github.com/cthoyt/bel-resources'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bel-resources'

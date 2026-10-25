@@ -1,0 +1,8 @@
+id = 'td2planet'
+name = 'td2planet'
+
+homepage = 'https://github.com/znz/td2planet'
+
+[[package]]
+channel = 'debian'
+name = 'td2planet'

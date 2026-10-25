@@ -1,0 +1,8 @@
+id = 'raku-zef'
+name = 'raku-zef'
+
+homepage = 'https://github.com/ugexe/zef'
+
+[[package]]
+channel = 'debian'
+name = 'raku-zef'

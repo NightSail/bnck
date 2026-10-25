@@ -1,0 +1,16 @@
+id = 'freefem'
+name = 'freefem'
+
+homepage = 'http://kfem.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'freefem'
+
+[[package]]
+channel = 'debian'
+name = 'freefem++'
+
+[[package]]
+channel = 'fedora'
+name = 'freefem++'

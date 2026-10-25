@@ -1,0 +1,8 @@
+id = 'te923con'
+name = 'te923con'
+
+homepage = 'http://te923.fukz.org'
+
+[[package]]
+channel = 'debian'
+name = 'te923con'

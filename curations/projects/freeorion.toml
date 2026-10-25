@@ -1,0 +1,8 @@
+id = 'freeorion'
+name = 'freeorion'
+
+homepage = 'https://www.freeorion.org'
+
+[[package]]
+channel = 'arch'
+name = 'freeorion'

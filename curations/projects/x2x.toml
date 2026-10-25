@@ -1,0 +1,8 @@
+id = 'x2x'
+name = 'x2x'
+
+homepage = 'https://github.com/dottedmag/x2x'
+
+[[package]]
+channel = 'debian'
+name = 'x2x'

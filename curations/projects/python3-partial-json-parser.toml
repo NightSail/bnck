@@ -1,0 +1,8 @@
+id = 'python3-partial-json-parser'
+name = 'python3-partial-json-parser'
+
+homepage = 'https://github.com/promplate/partial-json-parser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-partial-json-parser'

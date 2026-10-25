@@ -1,0 +1,8 @@
+id = 'fdr'
+name = 'fdr'
+
+homepage = 'https://github.com/oracle/fdr.git'
+
+[[package]]
+channel = 'fedora'
+name = 'fdr'

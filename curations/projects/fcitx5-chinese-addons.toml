@@ -1,0 +1,16 @@
+id = 'fcitx5-chinese-addons'
+name = 'fcitx5-chinese-addons'
+
+homepage = 'https://github.com/fcitx/fcitx5-chinese-addons'
+
+[[package]]
+channel = 'arch'
+name = 'fcitx5-chinese-addons'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-chinese-addons-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-chinese-addons'

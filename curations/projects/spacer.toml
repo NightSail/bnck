@@ -1,0 +1,8 @@
+id = 'spacer'
+name = 'spacer'
+
+homepage = 'https://github.com/samwho/spacer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spacer'

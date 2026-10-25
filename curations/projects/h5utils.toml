@@ -1,0 +1,8 @@
+id = 'h5utils'
+name = 'h5utils'
+
+homepage = 'https://github.com/NanoComp/h5utils'
+
+[[package]]
+channel = 'debian'
+name = 'h5utils'

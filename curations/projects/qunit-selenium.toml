@@ -1,0 +1,8 @@
+id = 'qunit-selenium'
+name = 'qunit-selenium'
+
+homepage = 'https://github.com/smontanari/qunit-selenium'
+
+[[package]]
+channel = 'debian'
+name = 'qunit-selenium'

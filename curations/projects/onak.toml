@@ -1,0 +1,8 @@
+id = 'onak'
+name = 'onak'
+
+homepage = 'https://www.earth.li/projectpurple/progs/onak.html'
+
+[[package]]
+channel = 'debian'
+name = 'onak'

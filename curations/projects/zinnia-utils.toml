@@ -1,0 +1,12 @@
+id = 'zinnia-utils'
+name = 'zinnia-utils'
+
+homepage = 'https://taku910.github.io/zinnia'
+
+[[package]]
+channel = 'debian'
+name = 'zinnia-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'zinnia-utils'

@@ -1,0 +1,12 @@
+id = 'tap-formatter-junit'
+name = 'TAP-Formatter-JUnit'
+
+homepage = 'https://metacpan.org/release/TAP-Formatter-JUnit'
+
+[[package]]
+channel = 'debian'
+name = 'libtap-formatter-junit-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-TAP-Formatter-JUnit'

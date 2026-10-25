@@ -1,0 +1,8 @@
+id = 'harp'
+name = 'harp'
+
+homepage = 'https://github.com/stcorp/harp'
+
+[[package]]
+channel = 'debian'
+name = 'harp'

@@ -1,0 +1,8 @@
+id = 'pcapmirror'
+name = 'pcapmirror'
+
+homepage = 'https://git.freestone.net/cramer/pcapmirror'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcapmirror'

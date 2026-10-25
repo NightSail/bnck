@@ -1,0 +1,12 @@
+id = 'corsixth'
+name = 'corsixth'
+
+repository = 'https://github.com/CorsixTH/CorsixTH.git'
+
+[[package]]
+channel = 'fedora'
+name = 'corsix-th'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/corsixth'

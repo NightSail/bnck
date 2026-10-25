@@ -1,0 +1,8 @@
+id = 'gmqcc'
+name = 'gmqcc'
+
+homepage = 'http://graphitemaster.github.io/gmqcc'
+
+[[package]]
+channel = 'debian'
+name = 'gmqcc'

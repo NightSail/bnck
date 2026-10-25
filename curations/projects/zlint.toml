@@ -1,0 +1,12 @@
+id = 'zlint'
+name = 'zlint'
+
+homepage = 'https://github.com/zmap/zlint'
+
+[[package]]
+channel = 'debian'
+name = 'zlint'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-zmap-zlint-3'

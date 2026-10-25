@@ -1,0 +1,13 @@
+id = 'zizmor'
+name = 'zizmor'
+
+homepage = 'https://docs.zizmor.sh'
+repository = 'https://github.com/zizmorcore/zizmor.git'
+
+[[package]]
+channel = 'arch'
+name = 'zizmor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zizmor'

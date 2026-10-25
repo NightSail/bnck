@@ -1,0 +1,8 @@
+id = 'prometheus-phpfpm-exporter'
+name = 'prometheus-phpfpm-exporter'
+
+homepage = 'https://github.com/Lusitaniae/phpfpm_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-phpfpm-exporter'

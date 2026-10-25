@@ -1,0 +1,8 @@
+id = 'benerator'
+name = 'benerator'
+
+homepage = 'https://rapiddweller.github.io/homebrew-benerator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/benerator'

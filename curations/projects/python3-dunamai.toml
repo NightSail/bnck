@@ -1,0 +1,8 @@
+id = 'python3-dunamai'
+name = 'python3-dunamai'
+
+homepage = 'https://pypi.org/pypi/dunamai'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dunamai'

@@ -1,0 +1,8 @@
+id = 'tsmarty2c'
+name = 'tsmarty2c'
+
+homepage = 'https://github.com/smarty-gettext/smarty-gettext'
+
+[[package]]
+channel = 'debian'
+name = 'tsmarty2c'

@@ -1,0 +1,12 @@
+id = 'hotspot'
+name = 'hotspot'
+
+homepage = 'https://github.com/KDAB/hotspot'
+
+[[package]]
+channel = 'debian'
+name = 'hotspot'
+
+[[package]]
+channel = 'fedora'
+name = 'hotspot'

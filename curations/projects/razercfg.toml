@@ -1,0 +1,16 @@
+id = 'razercfg'
+name = 'razercfg'
+
+homepage = 'https://bues.ch/h/razercfg'
+
+[[package]]
+channel = 'debian'
+name = 'qrazercfg'
+
+[[package]]
+channel = 'debian'
+name = 'qrazercfg-applet'
+
+[[package]]
+channel = 'debian'
+name = 'razercfg'

@@ -1,0 +1,8 @@
+id = 'dnapi'
+name = 'dnapi'
+
+homepage = 'https://github.com/jnktsj/DNApi'
+
+[[package]]
+channel = 'debian'
+name = 'dnapi'

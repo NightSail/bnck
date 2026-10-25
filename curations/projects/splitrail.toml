@@ -1,0 +1,9 @@
+id = 'splitrail'
+name = 'splitrail'
+
+homepage = 'https://splitrail.dev'
+repository = 'https://github.com/Piebald-AI/splitrail.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/splitrail'

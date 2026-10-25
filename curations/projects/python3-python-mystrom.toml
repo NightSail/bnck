@@ -1,0 +1,8 @@
+id = 'python3-python-mystrom'
+name = 'python3-python-mystrom'
+
+homepage = 'https://github.com/home-assistant-ecosystem/python-mystrom'
+
+[[package]]
+channel = 'debian'
+name = 'python3-python-mystrom'

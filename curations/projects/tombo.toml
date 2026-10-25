@@ -1,0 +1,8 @@
+id = 'tombo'
+name = 'tombo'
+
+homepage = 'https://github.com/nanoporetech/tombo'
+
+[[package]]
+channel = 'debian'
+name = 'tombo'

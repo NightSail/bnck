@@ -1,0 +1,16 @@
+id = 'pytables'
+name = 'pytables'
+
+homepage = 'https://www.pytables.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytables'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tables'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tables'

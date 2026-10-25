@@ -1,0 +1,8 @@
+id = 'perl-event-execflow'
+name = 'perl-Event-ExecFlow'
+
+homepage = 'https://metacpan.org/release/Event-ExecFlow'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Event-ExecFlow'

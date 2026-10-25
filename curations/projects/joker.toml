@@ -1,0 +1,9 @@
+id = 'joker'
+name = 'joker'
+
+homepage = 'https://joker-lang.org'
+repository = 'https://github.com/candid82/joker.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/joker'

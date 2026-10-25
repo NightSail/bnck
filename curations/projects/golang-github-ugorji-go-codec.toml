@@ -1,0 +1,8 @@
+id = 'golang-github-ugorji-go-codec'
+name = 'golang-github-ugorji-go-codec'
+
+homepage = 'https://github.com/ugorji/go'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-ugorji-go-codec'

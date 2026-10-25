@@ -1,0 +1,16 @@
+id = 'freecad'
+name = 'freecad'
+
+homepage = 'https://www.freecad.org'
+
+[[package]]
+channel = 'arch'
+name = 'freecad'
+
+[[package]]
+channel = 'debian'
+name = 'freecad'
+
+[[package]]
+channel = 'debian'
+name = 'freecad-python3'

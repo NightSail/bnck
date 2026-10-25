@@ -1,0 +1,8 @@
+id = 'connman-gtk'
+name = 'connman-gtk'
+
+homepage = 'https://github.com/jgke/connman-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'connman-gtk'

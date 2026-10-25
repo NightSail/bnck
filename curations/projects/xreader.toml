@@ -1,0 +1,16 @@
+id = 'xreader'
+name = 'xreader'
+
+homepage = 'https://github.com/linuxmint/xreader'
+
+[[package]]
+channel = 'arch'
+name = 'xreader'
+
+[[package]]
+channel = 'fedora'
+name = 'xreader'
+
+[[package]]
+channel = 'fedora'
+name = 'xreader-thumbnailer'

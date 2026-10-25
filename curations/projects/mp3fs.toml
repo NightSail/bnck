@@ -1,0 +1,12 @@
+id = 'mp3fs'
+name = 'mp3fs'
+
+homepage = 'https://khenriks.github.io/mp3fs'
+
+[[package]]
+channel = 'debian'
+name = 'mp3fs'
+
+[[package]]
+channel = 'fedora'
+name = 'mp3fs'

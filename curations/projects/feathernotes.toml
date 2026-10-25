@@ -1,0 +1,12 @@
+id = 'feathernotes'
+name = 'feathernotes'
+
+homepage = 'https://github.com/tsujan/FeatherNotes'
+
+[[package]]
+channel = 'arch'
+name = 'feathernotes'
+
+[[package]]
+channel = 'debian'
+name = 'feathernotes'

@@ -1,0 +1,12 @@
+id = 'cppman'
+name = 'cppman'
+
+homepage = 'https://github.com/aitjcize/cppman'
+
+[[package]]
+channel = 'debian'
+name = 'cppman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cppman'

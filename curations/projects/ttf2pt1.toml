@@ -1,0 +1,12 @@
+id = 'ttf2pt1'
+name = 'ttf2pt1'
+
+homepage = 'https://ttf2pt1.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'ttf2pt1'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttf2pt1'

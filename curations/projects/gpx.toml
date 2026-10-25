@@ -1,0 +1,13 @@
+id = 'gpx'
+name = 'gpx'
+
+homepage = 'https://github.com/markwal/GPX/blob/HEAD/README.md'
+repository = 'https://github.com/markwal/GPX.git'
+
+[[package]]
+channel = 'debian'
+name = 'gpx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpx'

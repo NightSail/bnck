@@ -1,0 +1,8 @@
+id = 'libgss-dev'
+name = 'libgss-dev'
+
+homepage = 'https://www.gnu.org/software/gss'
+
+[[package]]
+channel = 'debian'
+name = 'libgss-dev'

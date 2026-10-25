@@ -1,0 +1,20 @@
+id = 'postfix'
+name = 'postfix'
+
+homepage = 'https://www.postfix.org'
+
+[[package]]
+channel = 'arch'
+name = 'postfix'
+
+[[package]]
+channel = 'debian'
+name = 'postfix'
+
+[[package]]
+channel = 'fedora'
+name = 'postfix'
+
+[[package]]
+channel = 'fedora'
+name = 'postfix-perl-scripts'

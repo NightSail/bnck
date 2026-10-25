@@ -1,0 +1,12 @@
+id = 'qperf'
+name = 'qperf'
+
+homepage = 'https://github.com/linux-rdma/qperf'
+
+[[package]]
+channel = 'arch'
+name = 'qperf'
+
+[[package]]
+channel = 'debian'
+name = 'qperf'

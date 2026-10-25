@@ -1,0 +1,8 @@
+id = 'dh-puredata'
+name = 'dh-puredata'
+
+homepage = 'https://salsa.debian.org/multimedia-team/pd/dh-puredata'
+
+[[package]]
+channel = 'debian'
+name = 'dh-puredata'

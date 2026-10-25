@@ -1,0 +1,9 @@
+id = 'baguette'
+name = 'baguette'
+
+homepage = 'https://tddworks.github.io/baguette'
+repository = 'https://github.com/tddworks/baguette.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/baguette'

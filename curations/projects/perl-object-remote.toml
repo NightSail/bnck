@@ -1,0 +1,8 @@
+id = 'perl-object-remote'
+name = 'perl-Object-Remote'
+
+homepage = 'https://metacpan.org/release/Object-Remote'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Object-Remote'

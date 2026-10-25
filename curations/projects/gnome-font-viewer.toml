@@ -1,0 +1,16 @@
+id = 'gnome-font-viewer'
+name = 'gnome-font-viewer'
+
+homepage = 'https://apps.gnome.org/FontViewer'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-font-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-font-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-font-viewer'

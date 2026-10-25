@@ -1,0 +1,6 @@
+id = 'music123'
+name = 'music123'
+
+[[package]]
+channel = 'debian'
+name = 'music123'

@@ -1,0 +1,16 @@
+id = 'fwts'
+name = 'fwts'
+
+homepage = 'https://wiki.ubuntu.com/FirmwareTestSuite'
+
+[[package]]
+channel = 'debian'
+name = 'fwts'
+
+[[package]]
+channel = 'debian'
+name = 'fwts-frontend'
+
+[[package]]
+channel = 'fedora'
+name = 'fwts'

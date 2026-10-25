@@ -1,0 +1,16 @@
+id = 'libc'
+name = 'libc'
+
+homepage = 'https://www.gnu.org/software/libc'
+
+[[package]]
+channel = 'arch'
+name = 'glibc'
+
+[[package]]
+channel = 'debian'
+name = 'libnss-db'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glibc'

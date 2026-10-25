@@ -1,0 +1,12 @@
+id = 'netaddr'
+name = 'netaddr'
+
+homepage = 'https://github.com/drkjam/netaddr'
+
+[[package]]
+channel = 'arch'
+name = 'python-netaddr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-netaddr'

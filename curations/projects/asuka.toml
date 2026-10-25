@@ -1,0 +1,8 @@
+id = 'asuka'
+name = 'asuka'
+
+homepage = 'https://sr.ht/~julienxx/Asuka'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asuka'

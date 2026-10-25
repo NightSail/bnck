@@ -1,0 +1,9 @@
+id = 'flatbuffers'
+name = 'flatbuffers'
+
+homepage = 'https://google.github.io/flatbuffers'
+repository = 'https://github.com/google/flatbuffers.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flatbuffers'

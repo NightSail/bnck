@@ -1,0 +1,8 @@
+id = 'amideco'
+name = 'amideco'
+
+homepage = 'https://web.archive.org/web/20070608175640/http://www.kaos.ru/biosgfx'
+
+[[package]]
+channel = 'debian'
+name = 'amideco'

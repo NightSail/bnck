@@ -1,0 +1,16 @@
+id = 'lastpass-cli'
+name = 'lastpass-cli'
+
+repository = 'https://github.com/lastpass/lastpass-cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'lastpass-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'lastpass-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lastpass-cli'

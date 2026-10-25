@@ -1,0 +1,8 @@
+id = 'understand'
+name = 'understand'
+
+homepage = 'https://scitools.com/features'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/understand'

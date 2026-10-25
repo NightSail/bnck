@@ -1,0 +1,8 @@
+id = 'golang-github-cloudflare-circl-dev'
+name = 'golang-github-cloudflare-circl-dev'
+
+homepage = 'https://github.com/cloudflare/circl'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-cloudflare-circl-dev'

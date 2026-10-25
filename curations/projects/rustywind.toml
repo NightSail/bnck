@@ -1,0 +1,8 @@
+id = 'rustywind'
+name = 'rustywind'
+
+repository = 'https://github.com/avencera/rustywind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustywind'

@@ -1,0 +1,8 @@
+id = 'regripper'
+name = 'regripper'
+
+homepage = 'https://github.com/keydet89/RegRipper3.0'
+
+[[package]]
+channel = 'debian'
+name = 'regripper'

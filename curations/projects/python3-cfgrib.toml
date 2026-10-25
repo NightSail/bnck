@@ -1,0 +1,8 @@
+id = 'python3-cfgrib'
+name = 'python3-cfgrib'
+
+homepage = 'https://github.com/ecmwf/cfgrib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cfgrib'

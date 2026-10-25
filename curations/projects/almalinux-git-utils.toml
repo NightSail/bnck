@@ -1,0 +1,8 @@
+id = 'almalinux-git-utils'
+name = 'almalinux-git-utils'
+
+homepage = 'https://git.almalinux.org/almalinux/almalinux-git-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'almalinux-git-utils'

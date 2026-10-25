@@ -1,0 +1,16 @@
+id = 'krename'
+name = 'krename'
+
+homepage = 'https://apps.kde.org/krename'
+
+[[package]]
+channel = 'arch'
+name = 'krename'
+
+[[package]]
+channel = 'debian'
+name = 'krename'
+
+[[package]]
+channel = 'fedora'
+name = 'krename'

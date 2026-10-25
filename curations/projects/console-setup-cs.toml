@@ -1,0 +1,12 @@
+id = 'console-setup-cs'
+name = 'console-setup'
+
+homepage = 'http://packages.debian.org/cs/sid/console-setup'
+
+[[package]]
+channel = 'fedora'
+name = 'bdf2psf'
+
+[[package]]
+channel = 'fedora'
+name = 'console-setup'

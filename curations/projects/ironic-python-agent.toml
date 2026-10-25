@@ -1,0 +1,8 @@
+id = 'ironic-python-agent'
+name = 'ironic-python-agent'
+
+homepage = 'https://github.com/openstack/ironic-python-agent'
+
+[[package]]
+channel = 'debian'
+name = 'ironic-python-agent'

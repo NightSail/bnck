@@ -1,0 +1,8 @@
+id = 'bpfman'
+name = 'bpfman'
+
+homepage = 'https://bpfman.io'
+
+[[package]]
+channel = 'fedora'
+name = 'bpfman'

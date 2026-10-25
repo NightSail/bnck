@@ -1,0 +1,8 @@
+id = 'prooftree'
+name = 'prooftree'
+
+homepage = 'https://askra.de/software/prooftree'
+
+[[package]]
+channel = 'fedora'
+name = 'prooftree'

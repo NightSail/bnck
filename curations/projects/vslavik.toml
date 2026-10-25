@@ -1,0 +1,20 @@
+id = 'vslavik'
+name = 'vslavik'
+
+homepage = 'https://vslavik.github.io/diff-pdf'
+
+[[package]]
+channel = 'arch'
+name = 'diff-pdf'
+
+[[package]]
+channel = 'debian'
+name = 'diff-pdf-wx'
+
+[[package]]
+channel = 'fedora'
+name = 'diff-pdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diff-pdf'

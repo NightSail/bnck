@@ -1,0 +1,9 @@
+id = 'pip-tools'
+name = 'pip-tools'
+
+homepage = 'https://pip-tools.readthedocs.io'
+repository = 'https://github.com/jazzband/pip-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pip-tools'

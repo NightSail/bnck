@@ -1,0 +1,8 @@
+id = 'xeyes'
+name = 'xeyes'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xeyes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xeyes'

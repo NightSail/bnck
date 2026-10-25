@@ -1,0 +1,20 @@
+id = 'gobby'
+name = 'gobby'
+
+homepage = 'https://gobby.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'gobby'
+
+[[package]]
+channel = 'arch'
+name = 'libinfinity'
+
+[[package]]
+channel = 'debian'
+name = 'gobby'
+
+[[package]]
+channel = 'debian'
+name = 'infinoted'

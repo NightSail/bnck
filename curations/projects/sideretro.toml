@@ -1,0 +1,8 @@
+id = 'sideretro'
+name = 'sideretro'
+
+homepage = 'https://github.com/galantelab/sideRETRO'
+
+[[package]]
+channel = 'debian'
+name = 'sideretro'

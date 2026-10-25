@@ -1,0 +1,8 @@
+id = 'emp'
+name = 'emp'
+
+repository = 'https://github.com/remind101/empire.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emp'

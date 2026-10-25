@@ -1,0 +1,8 @@
+id = 'serdisplib-tools'
+name = 'serdisplib-tools'
+
+homepage = 'http://serdisplib.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'serdisplib-tools'

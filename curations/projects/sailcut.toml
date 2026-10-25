@@ -1,0 +1,12 @@
+id = 'sailcut'
+name = 'sailcut'
+
+homepage = 'http://www.sailcut.com'
+
+[[package]]
+channel = 'debian'
+name = 'sailcut'
+
+[[package]]
+channel = 'fedora'
+name = 'sailcut'

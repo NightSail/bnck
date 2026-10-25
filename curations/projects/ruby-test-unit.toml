@@ -1,0 +1,12 @@
+id = 'ruby-test-unit'
+name = 'ruby-test-unit'
+
+homepage = 'https://github.com/test-unit/test-unit'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-test-unit'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-test-unit'

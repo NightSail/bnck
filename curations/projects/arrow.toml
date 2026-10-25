@@ -1,0 +1,16 @@
+id = 'arrow'
+name = 'arrow'
+
+homepage = 'https://arrow.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'arrow'
+
+[[package]]
+channel = 'debian'
+name = 'arrow-tools'
+
+[[package]]
+channel = 'debian'
+name = 'parquet-tools'

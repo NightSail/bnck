@@ -1,0 +1,13 @@
+id = 'flye'
+name = 'flye'
+
+homepage = 'https://github.com/fenderglass/Flye'
+repository = 'https://github.com/mikolmogorov/Flye.git'
+
+[[package]]
+channel = 'debian'
+name = 'flye'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flye'

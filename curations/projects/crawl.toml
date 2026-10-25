@@ -1,0 +1,20 @@
+id = 'crawl'
+name = 'crawl'
+
+homepage = 'https://crawl.develz.org'
+
+[[package]]
+channel = 'arch'
+name = 'crawl-ncurses'
+
+[[package]]
+channel = 'arch'
+name = 'crawl-tiles'
+
+[[package]]
+channel = 'fedora'
+name = 'crawl'
+
+[[package]]
+channel = 'fedora'
+name = 'crawl-tiles'

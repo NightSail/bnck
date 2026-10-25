@@ -1,0 +1,16 @@
+id = 'rubber'
+name = 'rubber'
+
+homepage = 'https://launchpad.net/rubber'
+
+[[package]]
+channel = 'arch'
+name = 'rubber'
+
+[[package]]
+channel = 'debian'
+name = 'rubber'
+
+[[package]]
+channel = 'fedora'
+name = 'rubber'

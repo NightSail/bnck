@@ -1,0 +1,12 @@
+id = 'python3-cvelib'
+name = 'python3-cvelib'
+
+homepage = 'https://github.com/RedHatProductSecurity/cvelib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cvelib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cvelib'

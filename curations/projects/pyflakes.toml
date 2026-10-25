@@ -1,0 +1,16 @@
+id = 'pyflakes'
+name = 'pyflakes'
+
+homepage = 'https://github.com/PyCQA/pyflakes'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyflakes'
+
+[[package]]
+channel = 'debian'
+name = 'pyflakes3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyflakes'

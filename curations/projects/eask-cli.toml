@@ -1,0 +1,8 @@
+id = 'eask-cli'
+name = 'eask-cli'
+
+homepage = 'https://emacs-eask.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eask-cli'

@@ -1,0 +1,9 @@
+id = 'jprq'
+name = 'jprq'
+
+homepage = 'https://jprq.io'
+repository = 'https://github.com/azimjohn/jprq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jprq'

@@ -1,0 +1,8 @@
+id = 'etcd-discovery'
+name = 'etcd-discovery'
+
+homepage = 'https://github.com/coreos/discovery.etcd.io'
+
+[[package]]
+channel = 'debian'
+name = 'etcd-discovery'

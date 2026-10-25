@@ -1,0 +1,9 @@
+id = 'jenkins'
+name = 'jenkins'
+
+homepage = 'https://www.jenkins.io'
+repository = 'https://github.com/jenkinsci/jenkins.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jenkins'

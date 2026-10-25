@@ -1,0 +1,8 @@
+id = 'prometheus-exporter-exporter'
+name = 'prometheus-exporter-exporter'
+
+homepage = 'https://github.com/QubitProducts/exporter_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-exporter-exporter'

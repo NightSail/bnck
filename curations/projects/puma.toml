@@ -1,0 +1,16 @@
+id = 'puma'
+name = 'puma'
+
+homepage = 'https://puma.io'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-puma'
+
+[[package]]
+channel = 'debian'
+name = 'puma'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-puma'

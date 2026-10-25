@@ -1,0 +1,8 @@
+id = 'rgbpaint'
+name = 'rgbpaint'
+
+homepage = 'https://mtpaint.sourceforge.net/rgbpaint.html'
+
+[[package]]
+channel = 'debian'
+name = 'rgbpaint'

@@ -1,0 +1,8 @@
+id = 'wmmixer'
+name = 'wmmixer'
+
+homepage = 'https://www.dockapps.net/wmmixer'
+
+[[package]]
+channel = 'debian'
+name = 'wmmixer'

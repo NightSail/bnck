@@ -1,0 +1,8 @@
+id = 'warp-agent-cli'
+name = 'warp-agent-cli'
+
+homepage = 'https://www.warp.dev/agent-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/warp-agent-cli'

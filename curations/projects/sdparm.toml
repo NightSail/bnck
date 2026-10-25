@@ -1,0 +1,16 @@
+id = 'sdparm'
+name = 'sdparm'
+
+homepage = 'http://sg.danny.cz/sg/sdparm.html'
+
+[[package]]
+channel = 'arch'
+name = 'sdparm'
+
+[[package]]
+channel = 'debian'
+name = 'sdparm'
+
+[[package]]
+channel = 'fedora'
+name = 'sdparm'

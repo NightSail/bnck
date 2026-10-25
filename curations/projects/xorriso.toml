@@ -1,0 +1,12 @@
+id = 'xorriso'
+name = 'xorriso'
+
+homepage = 'https://www.gnu.org/software/xorriso'
+
+[[package]]
+channel = 'fedora'
+name = 'xorriso'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xorriso'

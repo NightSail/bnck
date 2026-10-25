@@ -1,0 +1,8 @@
+id = 'libwebsockets-test-server'
+name = 'libwebsockets-test-server'
+
+homepage = 'https://libwebsockets.org'
+
+[[package]]
+channel = 'debian'
+name = 'libwebsockets-test-server'

@@ -1,0 +1,16 @@
+id = 'lenovolegionlinux'
+name = 'lenovolegionlinux'
+
+homepage = 'https://github.com/johnfanv2/LenovoLegionLinux'
+
+[[package]]
+channel = 'debian'
+name = 'legiond'
+
+[[package]]
+channel = 'debian'
+name = 'lenovolegionlinux-sound'
+
+[[package]]
+channel = 'debian'
+name = 'python3-legion-linux'

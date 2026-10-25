@@ -1,0 +1,8 @@
+id = 'fluster'
+name = 'fluster'
+
+homepage = 'https://github.com/fluendo/fluster'
+
+[[package]]
+channel = 'debian'
+name = 'fluster'

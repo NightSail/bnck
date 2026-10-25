@@ -1,0 +1,8 @@
+id = 'mp4h'
+name = 'mp4h'
+
+homepage = 'https://sourceforge.net/projects/mp4h'
+
+[[package]]
+channel = 'debian'
+name = 'mp4h'

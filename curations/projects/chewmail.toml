@@ -1,0 +1,8 @@
+id = 'chewmail'
+name = 'chewmail'
+
+homepage = 'https://github.com/zedinosaur/chewmail'
+
+[[package]]
+channel = 'debian'
+name = 'chewmail'

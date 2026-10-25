@@ -1,0 +1,12 @@
+id = 'tqdm'
+name = 'tqdm'
+
+homepage = 'https://github.com/tqdm/tqdm'
+
+[[package]]
+channel = 'arch'
+name = 'python-tqdm'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tqdm'

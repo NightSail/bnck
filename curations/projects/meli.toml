@@ -1,0 +1,12 @@
+id = 'meli'
+name = 'meli'
+
+homepage = 'https://meli-email.org'
+
+[[package]]
+channel = 'debian'
+name = 'meli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/meli'

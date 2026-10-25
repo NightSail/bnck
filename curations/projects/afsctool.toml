@@ -1,0 +1,9 @@
+id = 'afsctool'
+name = 'afsctool'
+
+homepage = 'https://brkirch.wordpress.com/afsctool'
+repository = 'https://github.com/RJVB/afsctool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/afsctool'

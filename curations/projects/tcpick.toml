@@ -1,0 +1,12 @@
+id = 'tcpick'
+name = 'tcpick'
+
+homepage = 'http://tcpick.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'tcpick'
+
+[[package]]
+channel = 'fedora'
+name = 'tcpick'

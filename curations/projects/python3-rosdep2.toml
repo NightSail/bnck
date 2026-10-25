@@ -1,0 +1,8 @@
+id = 'python3-rosdep2'
+name = 'python3-rosdep2'
+
+homepage = 'https://wiki.ros.org/rosdep'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosdep2'

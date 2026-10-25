@@ -1,0 +1,8 @@
+id = 'haskell-doctest-driver-gen'
+name = 'haskell-doctest-driver-gen'
+
+homepage = 'https://github.com/Hexirp/doctest-driver-gen'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-doctest-driver-gen'

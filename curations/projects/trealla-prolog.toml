@@ -1,0 +1,8 @@
+id = 'trealla-prolog'
+name = 'trealla-prolog'
+
+repository = 'https://github.com/trealla-prolog/trealla-prolog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trealla-prolog'

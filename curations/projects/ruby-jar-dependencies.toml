@@ -1,0 +1,8 @@
+id = 'ruby-jar-dependencies'
+name = 'ruby-jar-dependencies'
+
+homepage = 'https://github.com/mkristian/jar-dependencies'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-jar-dependencies'

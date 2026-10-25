@@ -1,0 +1,8 @@
+id = 'cif-tools'
+name = 'cif-tools'
+
+homepage = 'https://github.com/PDB-REDO/cif-tools'
+
+[[package]]
+channel = 'debian'
+name = 'cif-tools'

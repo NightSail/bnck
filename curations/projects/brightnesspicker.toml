@@ -1,0 +1,8 @@
+id = 'brightnesspicker'
+name = 'brightnesspicker'
+
+homepage = 'https://codeberg.org/ltworf/brightnesspicker'
+
+[[package]]
+channel = 'debian'
+name = 'brightnesspicker'

@@ -1,0 +1,8 @@
+id = 'komposter'
+name = 'komposter'
+
+homepage = 'http://komposter.haxor.fi'
+
+[[package]]
+channel = 'debian'
+name = 'komposter'

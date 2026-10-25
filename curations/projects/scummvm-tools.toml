@@ -1,0 +1,9 @@
+id = 'scummvm-tools'
+name = 'scummvm-tools'
+
+homepage = 'https://www.scummvm.org'
+repository = 'https://github.com/scummvm/scummvm-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scummvm-tools'

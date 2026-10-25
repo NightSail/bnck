@@ -1,0 +1,8 @@
+id = 'perl-test-kwalitee'
+name = 'perl-Test-Kwalitee'
+
+homepage = 'http://metacpan.org/module/Test::Kwalitee'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Kwalitee'

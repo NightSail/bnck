@@ -1,0 +1,12 @@
+id = 'librasterlite2'
+name = 'librasterlite2'
+
+homepage = 'https://www.gaia-gis.it/fossil/librasterlite2'
+
+[[package]]
+channel = 'debian'
+name = 'rasterlite2-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'librasterlite2-tools'

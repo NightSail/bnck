@@ -1,0 +1,8 @@
+id = 'pycirkuit'
+name = 'pycirkuit'
+
+homepage = 'https://github.com/orestesmas/pycirkuit'
+
+[[package]]
+channel = 'debian'
+name = 'pycirkuit'

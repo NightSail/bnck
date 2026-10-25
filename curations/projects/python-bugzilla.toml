@@ -1,0 +1,12 @@
+id = 'python-bugzilla'
+name = 'python-bugzilla'
+
+homepage = 'https://github.com/python-bugzilla/python-bugzilla'
+
+[[package]]
+channel = 'debian'
+name = 'bugzilla-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python-bugzilla-cli'

@@ -1,0 +1,17 @@
+id = 'docker'
+name = 'docker'
+
+homepage = 'https://www.docker.com'
+repository = 'https://github.com/docker/cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'docker'
+
+[[package]]
+channel = 'arch'
+name = 'docker-compose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker'

@@ -1,0 +1,8 @@
+id = 'libt3key-bin'
+name = 'libt3key-bin'
+
+homepage = 'https://os.ghalkes.nl/t3/libt3key.html'
+
+[[package]]
+channel = 'debian'
+name = 'libt3key-bin'

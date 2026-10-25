@@ -1,0 +1,12 @@
+id = 'glirc'
+name = 'glirc'
+
+homepage = 'https://github.com/glguy/irc-core'
+
+[[package]]
+channel = 'arch'
+name = 'glirc'
+
+[[package]]
+channel = 'debian'
+name = 'glirc'

@@ -1,0 +1,8 @@
+id = 'horgand'
+name = 'horgand'
+
+homepage = 'https://sourceforge.net/projects/horgand.berlios'
+
+[[package]]
+channel = 'debian'
+name = 'horgand'

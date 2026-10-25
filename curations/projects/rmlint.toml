@@ -1,0 +1,20 @@
+id = 'rmlint'
+name = 'rmlint'
+
+homepage = 'https://rmlint.readthedocs.io/en/master'
+
+[[package]]
+channel = 'debian'
+name = 'rmlint'
+
+[[package]]
+channel = 'fedora'
+name = 'rmlint'
+
+[[package]]
+channel = 'fedora'
+name = 'rmlint-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmlint'

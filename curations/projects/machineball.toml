@@ -1,0 +1,8 @@
+id = 'machineball'
+name = 'machineball'
+
+homepage = 'http://benny.kramekweb.com/machineball'
+
+[[package]]
+channel = 'fedora'
+name = 'machineball'

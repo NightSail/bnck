@@ -1,0 +1,8 @@
+id = 'gnomad2'
+name = 'gnomad2'
+
+homepage = 'https://gnomad2.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gnomad2'

@@ -1,0 +1,16 @@
+id = 'cproto'
+name = 'cproto'
+
+homepage = 'https://invisible-island.net/cproto'
+
+[[package]]
+channel = 'debian'
+name = 'cproto'
+
+[[package]]
+channel = 'fedora'
+name = 'cproto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cproto'

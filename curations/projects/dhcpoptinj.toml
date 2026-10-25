@@ -1,0 +1,8 @@
+id = 'dhcpoptinj'
+name = 'dhcpoptinj'
+
+homepage = 'https://github.com/misje/dhcpoptinj'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpoptinj'

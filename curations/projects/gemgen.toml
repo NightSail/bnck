@@ -1,0 +1,9 @@
+id = 'gemgen'
+name = 'gemgen'
+
+homepage = 'https://sr.ht/~kota/gemgen'
+repository = 'https://git.sr.ht/~kota/gemgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gemgen'

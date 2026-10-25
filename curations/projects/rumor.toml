@@ -1,0 +1,8 @@
+id = 'rumor'
+name = 'rumor'
+
+homepage = 'http://launchpad.net/rumor'
+
+[[package]]
+channel = 'fedora'
+name = 'rumor'

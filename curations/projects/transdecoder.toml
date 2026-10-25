@@ -1,0 +1,8 @@
+id = 'transdecoder'
+name = 'transdecoder'
+
+homepage = 'https://transdecoder.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'transdecoder'

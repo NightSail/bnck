@@ -1,0 +1,8 @@
+id = 'satellite-gtk'
+name = 'satellite-gtk'
+
+homepage = 'https://codeberg.org/tpikonen/satellite'
+
+[[package]]
+channel = 'debian'
+name = 'satellite-gtk'

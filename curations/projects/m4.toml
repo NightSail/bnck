@@ -1,0 +1,20 @@
+id = 'm4'
+name = 'm4'
+
+homepage = 'https://www.gnu.org/software/m4'
+
+[[package]]
+channel = 'arch'
+name = 'm4'
+
+[[package]]
+channel = 'debian'
+name = 'm4'
+
+[[package]]
+channel = 'fedora'
+name = 'm4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/m4'

@@ -1,0 +1,8 @@
+id = 'regex-opt'
+name = 'regex-opt'
+
+homepage = 'https://bisqwit.iki.fi/source/regexopt.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regex-opt'

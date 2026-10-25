@@ -1,0 +1,12 @@
+id = 'python3-openapi-spec-validator'
+name = 'python3-openapi-spec-validator'
+
+homepage = 'https://github.com/python-openapi/openapi-spec-validator'
+
+[[package]]
+channel = 'debian'
+name = 'python3-openapi-spec-validator'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openapi-spec-validator'

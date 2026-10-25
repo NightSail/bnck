@@ -1,0 +1,12 @@
+id = 'xiccd'
+name = 'xiccd'
+
+homepage = 'https://github.com/agalakhov/xiccd'
+
+[[package]]
+channel = 'arch'
+name = 'xiccd'
+
+[[package]]
+channel = 'debian'
+name = 'xiccd'

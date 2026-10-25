@@ -1,0 +1,8 @@
+id = 'hadori'
+name = 'hadori'
+
+homepage = 'https://git.tiwe.de/hadori.git'
+
+[[package]]
+channel = 'debian'
+name = 'hadori'

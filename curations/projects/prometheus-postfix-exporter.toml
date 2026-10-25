@@ -1,0 +1,6 @@
+id = 'prometheus-postfix-exporter'
+name = 'prometheus-postfix-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-postfix-exporter'

@@ -1,0 +1,16 @@
+id = 'radicale'
+name = 'radicale'
+
+homepage = 'https://radicale.org'
+
+[[package]]
+channel = 'arch'
+name = 'radicale'
+
+[[package]]
+channel = 'debian'
+name = 'radicale'
+
+[[package]]
+channel = 'fedora'
+name = 'radicale3'

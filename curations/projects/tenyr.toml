@@ -1,0 +1,9 @@
+id = 'tenyr'
+name = 'tenyr'
+
+homepage = 'https://kulp.github.io/tenyr'
+repository = 'https://github.com/kulp/tenyr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tenyr'

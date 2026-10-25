@@ -4,5 +4,9 @@ name = 'dutree'
 repository = 'https://github.com/nachoparker/dutree'
 
 [[package]]
+channel = 'fedora'
+name = 'dutree'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/dutree'

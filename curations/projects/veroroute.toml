@@ -1,0 +1,8 @@
+id = 'veroroute'
+name = 'veroroute'
+
+homepage = 'https://sourceforge.net/projects/veroroute'
+
+[[package]]
+channel = 'debian'
+name = 'veroroute'

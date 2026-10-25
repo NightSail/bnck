@@ -1,0 +1,12 @@
+id = 'rabbitsign'
+name = 'rabbitsign'
+
+homepage = 'http://www.ticalc.org/archives/files/fileinfo/383/38392.html'
+
+[[package]]
+channel = 'debian'
+name = 'rabbitsign'
+
+[[package]]
+channel = 'fedora'
+name = 'rabbitsign'

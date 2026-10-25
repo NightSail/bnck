@@ -1,0 +1,8 @@
+id = 'unadf'
+name = 'unadf'
+
+homepage = 'http://lclevy.free.fr/adflib/unadf.html'
+
+[[package]]
+channel = 'debian'
+name = 'unadf'

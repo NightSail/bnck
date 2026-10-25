@@ -1,0 +1,8 @@
+id = 'emojify'
+name = 'emojify'
+
+repository = 'https://github.com/mrowa44/emojify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emojify'

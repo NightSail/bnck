@@ -1,0 +1,16 @@
+id = 'linux-usb'
+name = 'linux-usb'
+
+homepage = 'http://www.linux-usb.org'
+
+[[package]]
+channel = 'debian'
+name = 'libusb-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'usbutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/usbutils'

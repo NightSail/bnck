@@ -1,0 +1,8 @@
+id = 'debian-package-scripts'
+name = 'debian-package-scripts'
+
+homepage = 'https://ddp-team.pages.debian.net/dpb/BuildWithGBP.pdf'
+
+[[package]]
+channel = 'debian'
+name = 'debian-package-scripts'

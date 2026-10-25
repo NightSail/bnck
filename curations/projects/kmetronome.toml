@@ -1,0 +1,12 @@
+id = 'kmetronome'
+name = 'kmetronome'
+
+homepage = 'https://kmetronome.sourceforge.io/kmetronome.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'kmetronome'
+
+[[package]]
+channel = 'fedora'
+name = 'kmetronome'

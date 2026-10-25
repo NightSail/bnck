@@ -1,0 +1,16 @@
+id = 'tnef'
+name = 'tnef'
+
+homepage = 'https://github.com/verdammelt/tnef'
+
+[[package]]
+channel = 'debian'
+name = 'tnef'
+
+[[package]]
+channel = 'fedora'
+name = 'tnef'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tnef'

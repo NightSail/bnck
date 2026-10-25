@@ -1,0 +1,8 @@
+id = 'youtubedr'
+name = 'youtubedr'
+
+homepage = 'https://github.com/kkdai/youtube'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/youtubedr'

@@ -1,0 +1,8 @@
+id = 'python3-whiteboard'
+name = 'python3-whiteboard'
+
+homepage = 'https://github.com/pnegre/python-whiteboard'
+
+[[package]]
+channel = 'debian'
+name = 'python3-whiteboard'

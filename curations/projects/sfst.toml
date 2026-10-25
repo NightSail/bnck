@@ -1,0 +1,12 @@
+id = 'sfst'
+name = 'sfst'
+
+homepage = 'https://www.cis.uni-muenchen.de/~schmid/tools/SFST'
+
+[[package]]
+channel = 'debian'
+name = 'sfst'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sfst'

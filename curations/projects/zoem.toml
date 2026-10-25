@@ -1,0 +1,8 @@
+id = 'zoem'
+name = 'zoem'
+
+homepage = 'https://micans.org/zoem'
+
+[[package]]
+channel = 'debian'
+name = 'zoem'

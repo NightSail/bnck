@@ -1,0 +1,8 @@
+id = 'pogo'
+name = 'pogo'
+
+homepage = 'https://github.com/jendrikseipp/pogo'
+
+[[package]]
+channel = 'fedora'
+name = 'pogo'

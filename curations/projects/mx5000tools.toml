@@ -1,0 +1,8 @@
+id = 'mx5000tools'
+name = 'mx5000tools'
+
+homepage = 'https://github.com/jwrdegoede/mx5000tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mx5000tools'

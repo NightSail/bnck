@@ -1,0 +1,6 @@
+id = 'adduser'
+name = 'adduser'
+
+[[package]]
+channel = 'debian'
+name = 'adduser'

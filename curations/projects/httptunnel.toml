@@ -1,0 +1,16 @@
+id = 'httptunnel'
+name = 'httptunnel'
+
+homepage = 'https://github.com/larsbrinkhoff/httptunnel'
+
+[[package]]
+channel = 'arch'
+name = 'httptunnel'
+
+[[package]]
+channel = 'debian'
+name = 'httptunnel'
+
+[[package]]
+channel = 'fedora'
+name = 'httptunnel'

@@ -1,0 +1,12 @@
+id = 'algobox'
+name = 'algobox'
+
+homepage = 'https://www.xm1math.net/algobox'
+
+[[package]]
+channel = 'debian'
+name = 'algobox'
+
+[[package]]
+channel = 'fedora'
+name = 'algobox'

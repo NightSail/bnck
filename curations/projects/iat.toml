@@ -1,0 +1,12 @@
+id = 'iat'
+name = 'iat'
+
+homepage = 'https://sourceforge.net/projects/iat.berlios'
+
+[[package]]
+channel = 'debian'
+name = 'iat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iat'

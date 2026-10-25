@@ -1,0 +1,8 @@
+id = 'git-now'
+name = 'git-now'
+
+repository = 'https://github.com/iwata/git-now.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-now'

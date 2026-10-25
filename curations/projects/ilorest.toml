@@ -1,0 +1,8 @@
+id = 'ilorest'
+name = 'ilorest'
+
+homepage = 'https://github.com/HewlettPackard/python-redfish-utility'
+
+[[package]]
+channel = 'debian'
+name = 'ilorest'

@@ -1,0 +1,12 @@
+id = 'gcompris-qt'
+name = 'gcompris-qt'
+
+homepage = 'https://gcompris.net'
+
+[[package]]
+channel = 'arch'
+name = 'gcompris-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'gcompris-qt'

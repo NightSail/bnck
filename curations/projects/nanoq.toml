@@ -1,0 +1,8 @@
+id = 'nanoq'
+name = 'nanoq'
+
+repository = 'https://github.com/esteinig/nanoq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nanoq'

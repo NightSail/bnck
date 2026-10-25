@@ -1,0 +1,8 @@
+id = 'gitlab-rulez'
+name = 'gitlab-rulez'
+
+homepage = 'https://gitlab.apertis.org/infrastructure/gitlab-rulez'
+
+[[package]]
+channel = 'debian'
+name = 'gitlab-rulez'

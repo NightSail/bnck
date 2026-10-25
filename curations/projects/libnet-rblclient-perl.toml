@@ -1,0 +1,8 @@
+id = 'libnet-rblclient-perl'
+name = 'libnet-rblclient-perl'
+
+homepage = 'http://wildsparx.com/Net-RBLClient'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-rblclient-perl'

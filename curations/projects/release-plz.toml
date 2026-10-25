@@ -1,0 +1,8 @@
+id = 'release-plz'
+name = 'release-plz'
+
+homepage = 'https://github.com/MarcoIeni/release-plz'
+
+[[package]]
+channel = 'arch'
+name = 'release-plz'

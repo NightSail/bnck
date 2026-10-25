@@ -1,0 +1,8 @@
+id = 'debbuild'
+name = 'debbuild'
+
+homepage = 'https://github.com/debbuild/debbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'debbuild'

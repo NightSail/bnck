@@ -1,0 +1,8 @@
+id = 'ccheck'
+name = 'ccheck'
+
+repository = 'https://github.com/nerdlem/ccheck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccheck'

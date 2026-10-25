@@ -1,0 +1,12 @@
+id = 'clusterssh'
+name = 'clusterssh'
+
+homepage = 'https://github.com/duncs/clusterssh/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'clusterssh'
+
+[[package]]
+channel = 'fedora'
+name = 'clusterssh'

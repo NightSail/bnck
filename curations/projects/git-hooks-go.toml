@@ -1,0 +1,9 @@
+id = 'git-hooks-go'
+name = 'git-hooks-go'
+
+homepage = 'https://git-hooks.github.io/git-hooks'
+repository = 'https://github.com/git-hooks/git-hooks.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-hooks-go'

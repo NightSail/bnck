@@ -1,0 +1,8 @@
+id = 'opentracker'
+name = 'opentracker'
+
+homepage = 'https://erdgeist.org/arts/software/opentracker'
+
+[[package]]
+channel = 'debian'
+name = 'opentracker'

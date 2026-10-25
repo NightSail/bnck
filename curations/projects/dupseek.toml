@@ -1,0 +1,8 @@
+id = 'dupseek'
+name = 'dupseek'
+
+homepage = 'http://www.beautylabs.net/software/dupseek.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dupseek'

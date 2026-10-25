@@ -1,0 +1,8 @@
+id = 'cbor-tool'
+name = 'cbor-tool'
+
+homepage = 'https://github.com/well-typed/cborg'
+
+[[package]]
+channel = 'arch'
+name = 'cbor-tool'

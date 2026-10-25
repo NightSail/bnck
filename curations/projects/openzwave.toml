@@ -1,0 +1,16 @@
+id = 'openzwave'
+name = 'openzwave'
+
+homepage = 'http://www.openzwave.net'
+
+[[package]]
+channel = 'debian'
+name = 'openzwave'
+
+[[package]]
+channel = 'fedora'
+name = 'libopenzwave-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'openzwave'

@@ -1,0 +1,9 @@
+id = 'aiven-client'
+name = 'aiven-client'
+
+homepage = 'https://aiven.io/docs/tools/cli'
+repository = 'https://github.com/aiven/aiven-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aiven-client'

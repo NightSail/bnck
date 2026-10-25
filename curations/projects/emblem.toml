@@ -1,0 +1,8 @@
+id = 'emblem'
+name = 'emblem'
+
+homepage = 'https://apps.gnome.org/Emblem'
+
+[[package]]
+channel = 'arch'
+name = 'emblem'

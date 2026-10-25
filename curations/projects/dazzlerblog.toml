@@ -1,0 +1,12 @@
+id = 'dazzlerblog'
+name = 'dazzlerblog'
+
+homepage = 'https://dazzlerblog.wordpress.com'
+
+[[package]]
+channel = 'debian'
+name = 'daligner'
+
+[[package]]
+channel = 'debian'
+name = 'dascrubber'

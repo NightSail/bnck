@@ -1,0 +1,16 @@
+id = 'gflags'
+name = 'gflags'
+
+homepage = 'https://gflags.github.io/gflags'
+
+[[package]]
+channel = 'arch'
+name = 'gflags'
+
+[[package]]
+channel = 'fedora'
+name = 'gflags'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gflags'

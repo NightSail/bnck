@@ -1,0 +1,12 @@
+id = 'librsb'
+name = 'librsb'
+
+homepage = 'http://librsb.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'librsb-dev'
+
+[[package]]
+channel = 'debian'
+name = 'librsb-tools'

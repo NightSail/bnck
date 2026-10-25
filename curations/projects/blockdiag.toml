@@ -1,0 +1,20 @@
+id = 'blockdiag'
+name = 'blockdiag'
+
+homepage = 'http://blockdiag.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-actdiag'
+
+[[package]]
+channel = 'debian'
+name = 'python3-blockdiag'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nwdiag'
+
+[[package]]
+channel = 'debian'
+name = 'python3-seqdiag'

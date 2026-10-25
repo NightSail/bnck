@@ -1,0 +1,8 @@
+id = 'cdk8s'
+name = 'cdk8s'
+
+homepage = 'https://cdk8s.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdk8s'

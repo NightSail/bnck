@@ -1,0 +1,8 @@
+id = 'bubblemail'
+name = 'bubblemail'
+
+homepage = 'http://bubblemail.free.fr'
+
+[[package]]
+channel = 'fedora'
+name = 'bubblemail'

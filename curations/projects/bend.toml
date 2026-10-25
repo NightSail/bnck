@@ -1,0 +1,9 @@
+id = 'bend'
+name = 'bend'
+
+homepage = 'https://bend-lang.com'
+repository = 'https://github.com/bendlang/bend.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bend'

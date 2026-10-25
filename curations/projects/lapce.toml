@@ -1,0 +1,12 @@
+id = 'lapce'
+name = 'lapce'
+
+homepage = 'https://lapce.dev'
+
+[[package]]
+channel = 'arch'
+name = 'lapce'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/lapce'

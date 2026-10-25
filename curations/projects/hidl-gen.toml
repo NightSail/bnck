@@ -1,0 +1,8 @@
+id = 'hidl-gen'
+name = 'hidl-gen'
+
+homepage = 'https://android.googlesource.com/platform/system/tools/hidl'
+
+[[package]]
+channel = 'debian'
+name = 'hidl-gen'

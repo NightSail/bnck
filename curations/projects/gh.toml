@@ -1,0 +1,8 @@
+id = 'gh'
+name = 'gh'
+
+homepage = 'https://cli.github.com'
+
+[[package]]
+channel = 'debian'
+name = 'gh'

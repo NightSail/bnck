@@ -1,0 +1,8 @@
+id = 'watchdog-watchdog'
+name = 'watchdog'
+
+homepage = 'http://sourceforge.net/projects/watchdog'
+
+[[package]]
+channel = 'fedora'
+name = 'watchdog'

@@ -1,0 +1,20 @@
+id = 'hdf5'
+name = 'hdf5'
+
+homepage = 'https://www.hdfgroup.org/solutions/hdf5'
+
+[[package]]
+channel = 'fedora'
+name = 'hdf5'
+
+[[package]]
+channel = 'fedora'
+name = 'hdf5-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hdf5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hdf5-mpi'

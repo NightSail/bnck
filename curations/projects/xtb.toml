@@ -1,0 +1,12 @@
+id = 'xtb'
+name = 'xtb'
+
+homepage = 'https://github.com/grimme-lab/xtb'
+
+[[package]]
+channel = 'debian'
+name = 'xtb'
+
+[[package]]
+channel = 'fedora'
+name = 'xtb'

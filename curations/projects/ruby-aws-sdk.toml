@@ -1,0 +1,8 @@
+id = 'ruby-aws-sdk'
+name = 'ruby-aws-sdk'
+
+homepage = 'https://aws.amazon.com/sdkforruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-aws-sdk'

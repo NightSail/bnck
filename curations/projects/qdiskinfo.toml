@@ -1,0 +1,8 @@
+id = 'qdiskinfo'
+name = 'qdiskinfo'
+
+homepage = 'https://github.com/edisionnano/QDiskInfo'
+
+[[package]]
+channel = 'debian'
+name = 'qdiskinfo'

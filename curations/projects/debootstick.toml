@@ -1,0 +1,8 @@
+id = 'debootstick'
+name = 'debootstick'
+
+homepage = 'https://drakkar-lig.github.io/debootstick'
+
+[[package]]
+channel = 'debian'
+name = 'debootstick'

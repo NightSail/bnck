@@ -1,0 +1,8 @@
+id = 'mdns-repeater'
+name = 'mdns-repeater'
+
+homepage = 'https://github.com/kennylevinsen/mdns-repeater'
+
+[[package]]
+channel = 'fedora'
+name = 'mdns-repeater'

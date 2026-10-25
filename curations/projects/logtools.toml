@@ -1,0 +1,8 @@
+id = 'logtools'
+name = 'logtools'
+
+homepage = 'https://doc.coker.com.au/projects/logtools'
+
+[[package]]
+channel = 'debian'
+name = 'logtools'

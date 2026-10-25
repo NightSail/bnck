@@ -1,0 +1,17 @@
+id = 'babl'
+name = 'babl'
+
+homepage = 'https://gegl.org/babl'
+repository = 'https://github.com/GNOME/babl.git'
+
+[[package]]
+channel = 'arch'
+name = 'babl'
+
+[[package]]
+channel = 'fedora'
+name = 'babl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/babl'

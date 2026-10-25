@@ -1,0 +1,12 @@
+id = 'cargo-release'
+name = 'cargo-release'
+
+repository = 'https://github.com/crate-ci/cargo-release.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-release'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-release'

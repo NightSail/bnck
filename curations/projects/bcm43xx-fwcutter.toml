@@ -1,0 +1,8 @@
+id = 'bcm43xx-fwcutter'
+name = 'bcm43xx-fwcutter'
+
+homepage = 'http://bcm43xx.berlios.de'
+
+[[package]]
+channel = 'fedora'
+name = 'bcm43xx-fwcutter'

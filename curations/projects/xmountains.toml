@@ -1,0 +1,8 @@
+id = 'xmountains'
+name = 'xmountains'
+
+homepage = 'https://spbooth.github.io/xmountains'
+
+[[package]]
+channel = 'fedora'
+name = 'xmountains'

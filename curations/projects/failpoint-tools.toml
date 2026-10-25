@@ -1,0 +1,8 @@
+id = 'failpoint-tools'
+name = 'failpoint-tools'
+
+homepage = 'https://github.com/pingcap/failpoint'
+
+[[package]]
+channel = 'debian'
+name = 'failpoint-tools'

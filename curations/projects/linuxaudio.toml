@@ -1,0 +1,92 @@
+id = 'linuxaudio'
+name = 'linuxaudio'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio'
+
+[[package]]
+channel = 'arch'
+name = 'aliki'
+
+[[package]]
+channel = 'arch'
+name = 'jaaa'
+
+[[package]]
+channel = 'arch'
+name = 'jack_delay'
+
+[[package]]
+channel = 'arch'
+name = 'jconvolver'
+
+[[package]]
+channel = 'arch'
+name = 'jnoisemeter'
+
+[[package]]
+channel = 'arch'
+name = 'yass'
+
+[[package]]
+channel = 'arch'
+name = 'zita-alsa-pcmi'
+
+[[package]]
+channel = 'arch'
+name = 'zita-bls1'
+
+[[package]]
+channel = 'arch'
+name = 'zita-dpl1'
+
+[[package]]
+channel = 'arch'
+name = 'zita-lrx'
+
+[[package]]
+channel = 'arch'
+name = 'zita-njbridge'
+
+[[package]]
+channel = 'arch'
+name = 'zita-resampler'
+
+[[package]]
+channel = 'debian'
+name = 'jack-delay'
+
+[[package]]
+channel = 'debian'
+name = 'japa'
+
+[[package]]
+channel = 'debian'
+name = 'jconvolver'
+
+[[package]]
+channel = 'debian'
+name = 'zita-ajbridge'
+
+[[package]]
+channel = 'debian'
+name = 'zita-at1'
+
+[[package]]
+channel = 'debian'
+name = 'zita-bls1'
+
+[[package]]
+channel = 'debian'
+name = 'zita-dc1'
+
+[[package]]
+channel = 'fedora'
+name = 'ebumeter'
+
+[[package]]
+channel = 'fedora'
+name = 'jmeters'
+
+[[package]]
+channel = 'fedora'
+name = 'zita-ajbridge'

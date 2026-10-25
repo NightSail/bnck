@@ -1,0 +1,8 @@
+id = 'perl-mime-construct'
+name = 'perl-mime-construct'
+
+homepage = 'https://metacpan.org/release/mime-construct-1.11'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-mime-construct'

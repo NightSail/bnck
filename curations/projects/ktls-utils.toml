@@ -1,0 +1,12 @@
+id = 'ktls-utils'
+name = 'ktls-utils'
+
+homepage = 'https://github.com/oracle/ktls-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ktls-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'ktls-utils'

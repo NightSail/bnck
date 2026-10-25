@@ -1,0 +1,12 @@
+id = 'aafigure'
+name = 'aafigure'
+
+homepage = 'https://github.com/aafigure/aafigure'
+
+[[package]]
+channel = 'arch'
+name = 'python-aafigure'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aafigure'

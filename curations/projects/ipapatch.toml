@@ -1,0 +1,8 @@
+id = 'ipapatch'
+name = 'ipapatch'
+
+repository = 'https://github.com/asdfzxcvbn/ipapatch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipapatch'

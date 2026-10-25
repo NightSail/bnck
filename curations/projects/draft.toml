@@ -1,0 +1,8 @@
+id = 'draft'
+name = 'draft'
+
+repository = 'https://github.com/Azure/draft.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/draft'

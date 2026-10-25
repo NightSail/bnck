@@ -1,0 +1,8 @@
+id = 'ruyi'
+name = 'ruyi'
+
+homepage = 'https://github.com/ruyisdk/ruyi'
+
+[[package]]
+channel = 'debian'
+name = 'ruyi'

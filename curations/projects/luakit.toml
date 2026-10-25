@@ -1,0 +1,12 @@
+id = 'luakit'
+name = 'luakit'
+
+homepage = 'https://luakit.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'luakit'
+
+[[package]]
+channel = 'debian'
+name = 'luakit'

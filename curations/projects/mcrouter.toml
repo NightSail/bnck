@@ -1,0 +1,8 @@
+id = 'mcrouter'
+name = 'mcrouter'
+
+homepage = 'https://github.com/facebook/mcrouter'
+
+[[package]]
+channel = 'fedora'
+name = 'mcrouter'

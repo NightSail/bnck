@@ -1,0 +1,20 @@
+id = 'tcsh'
+name = 'tcsh'
+
+homepage = 'https://www.tcsh.org'
+
+[[package]]
+channel = 'arch'
+name = 'tcsh'
+
+[[package]]
+channel = 'debian'
+name = 'tcsh'
+
+[[package]]
+channel = 'fedora'
+name = 'tcsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcsh'

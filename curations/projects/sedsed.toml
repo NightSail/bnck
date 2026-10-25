@@ -1,0 +1,8 @@
+id = 'sedsed'
+name = 'sedsed'
+
+homepage = 'https://aurelio.net/projects/sedsed'
+
+[[package]]
+channel = 'debian'
+name = 'sedsed'

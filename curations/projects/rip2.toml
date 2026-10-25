@@ -1,0 +1,8 @@
+id = 'rip2'
+name = 'rip2'
+
+repository = 'https://github.com/MilesCranmer/rip2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rip2'

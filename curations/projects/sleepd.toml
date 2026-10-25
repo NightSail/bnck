@@ -1,0 +1,8 @@
+id = 'sleepd'
+name = 'sleepd'
+
+homepage = 'https://salsa.debian.org/debian/sleepd'
+
+[[package]]
+channel = 'debian'
+name = 'sleepd'

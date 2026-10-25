@@ -1,0 +1,8 @@
+id = 'cif2hkl'
+name = 'cif2hkl'
+
+homepage = 'https://gitlab.com/soleil-data-treatment/soleil-software-projects/cif2hkl'
+
+[[package]]
+channel = 'debian'
+name = 'cif2hkl'

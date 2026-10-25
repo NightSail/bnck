@@ -1,0 +1,17 @@
+id = 'gnu-chess'
+name = 'gnu-chess'
+
+homepage = 'https://www.gnu.org/software/chess/chess.html'
+repository = 'https://svn.savannah.gnu.org/svn/chess/trunk'
+
+[[package]]
+channel = 'arch'
+name = 'gnuchess'
+
+[[package]]
+channel = 'fedora'
+name = 'gnuchess'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-chess'

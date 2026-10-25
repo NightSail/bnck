@@ -1,0 +1,12 @@
+id = 'xed'
+name = 'xed'
+
+homepage = 'https://github.com/linuxmint/xed'
+
+[[package]]
+channel = 'arch'
+name = 'xed'
+
+[[package]]
+channel = 'fedora'
+name = 'xed'

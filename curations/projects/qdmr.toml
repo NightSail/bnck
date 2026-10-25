@@ -1,0 +1,16 @@
+id = 'qdmr'
+name = 'qdmr'
+
+homepage = 'https://dm3mat.darc.de/qdmr'
+
+[[package]]
+channel = 'debian'
+name = 'qdmr'
+
+[[package]]
+channel = 'fedora'
+name = 'qdmr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qdmr'

@@ -1,0 +1,16 @@
+id = 'gnome-bluetooth'
+name = 'gnome-bluetooth'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeBluetooth'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-bluetooth-3.0'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-bluetooth-sendto'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-bluetooth'

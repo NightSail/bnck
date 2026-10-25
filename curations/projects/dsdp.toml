@@ -1,0 +1,16 @@
+id = 'dsdp'
+name = 'dsdp'
+
+homepage = 'https://www.mcs.anl.gov/hs/software/DSDP'
+
+[[package]]
+channel = 'arch'
+name = 'dsdp'
+
+[[package]]
+channel = 'debian'
+name = 'dsdp'
+
+[[package]]
+channel = 'fedora'
+name = 'DSDP-examples'

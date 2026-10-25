@@ -1,0 +1,8 @@
+id = 'golang-github-shurcool-vfsgen'
+name = 'golang-github-shurcool-vfsgen'
+
+homepage = 'https://github.com/shurcooL/vfsgen'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-shurcool-vfsgen'

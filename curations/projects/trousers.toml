@@ -1,0 +1,28 @@
+id = 'trousers'
+name = 'trousers'
+
+homepage = 'http://trousers.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'tpm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'tpm-tools-pkcs11'
+
+[[package]]
+channel = 'debian'
+name = 'trousers'
+
+[[package]]
+channel = 'fedora'
+name = 'tpm-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'tpm-tools-pkcs11'
+
+[[package]]
+channel = 'fedora'
+name = 'trousers'

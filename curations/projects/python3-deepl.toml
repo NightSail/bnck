@@ -1,0 +1,8 @@
+id = 'python3-deepl'
+name = 'python3-deepl'
+
+homepage = 'https://github.com/DeepL/deepl-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-deepl'

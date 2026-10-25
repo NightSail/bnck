@@ -1,0 +1,32 @@
+id = 'antlr'
+name = 'antlr'
+
+homepage = 'https://www.antlr.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-antlr4'
+
+[[package]]
+channel = 'debian'
+name = 'python3-antlr4'
+
+[[package]]
+channel = 'fedora'
+name = 'antlr4'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-antlr'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-antlr'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-antlr4-runtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/antlr'

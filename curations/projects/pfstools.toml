@@ -1,0 +1,52 @@
+id = 'pfstools'
+name = 'pfstools'
+
+homepage = 'http://pfstools.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pfsglview'
+
+[[package]]
+channel = 'debian'
+name = 'pfstmo'
+
+[[package]]
+channel = 'debian'
+name = 'pfstools'
+
+[[package]]
+channel = 'debian'
+name = 'pfsview'
+
+[[package]]
+channel = 'fedora'
+name = 'pfscalibration'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstmo'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstools'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstools-exr'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstools-glview'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstools-imgmagick'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstools-octave'
+
+[[package]]
+channel = 'fedora'
+name = 'pfstools-qt'

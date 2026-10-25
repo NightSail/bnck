@@ -1,0 +1,8 @@
+id = 'xmlsectool'
+name = 'xmlsectool'
+
+homepage = 'https://wiki.shibboleth.net/confluence/display/XSTJ3/xmlsectool+V3+Home'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmlsectool'

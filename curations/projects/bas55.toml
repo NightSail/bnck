@@ -1,0 +1,8 @@
+id = 'bas55'
+name = 'bas55'
+
+homepage = 'https://jorgicor.niobe.org/bas55'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bas55'

@@ -1,0 +1,8 @@
+id = 'vgo'
+name = 'vgo'
+
+repository = 'https://github.com/vg006/vgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vgo'

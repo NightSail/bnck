@@ -1,0 +1,8 @@
+id = 'lazy-tmux'
+name = 'lazy-tmux'
+
+homepage = 'https://lazy-tmux.xyz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazy-tmux'

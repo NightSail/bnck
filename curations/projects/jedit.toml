@@ -1,0 +1,12 @@
+id = 'jedit'
+name = 'jedit'
+
+homepage = 'http://www.jedit.org'
+
+[[package]]
+channel = 'debian'
+name = 'jedit'
+
+[[package]]
+channel = 'fedora'
+name = 'jedit'

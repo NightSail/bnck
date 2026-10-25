@@ -1,0 +1,8 @@
+id = 'yawn-server'
+name = 'yawn-server'
+
+homepage = 'http://pywbem.github.io/yawn/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'yawn-server'

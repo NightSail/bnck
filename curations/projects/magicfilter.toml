@@ -1,0 +1,8 @@
+id = 'magicfilter'
+name = 'magicfilter'
+
+homepage = 'http://www.ibiblio.org/pub/linux/system/printing/magicfilter-1.2.lsm'
+
+[[package]]
+channel = 'debian'
+name = 'magicfilter'

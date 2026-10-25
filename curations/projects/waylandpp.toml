@@ -1,0 +1,16 @@
+id = 'waylandpp'
+name = 'waylandpp'
+
+homepage = 'https://github.com/NilsBrause/waylandpp'
+
+[[package]]
+channel = 'arch'
+name = 'waylandpp'
+
+[[package]]
+channel = 'debian'
+name = 'wayland-scanner++'
+
+[[package]]
+channel = 'fedora'
+name = 'waylandpp-devel'

@@ -1,0 +1,8 @@
+id = 'grig'
+name = 'grig'
+
+homepage = 'https://github.com/fillods/grig'
+
+[[package]]
+channel = 'debian'
+name = 'grig'

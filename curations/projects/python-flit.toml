@@ -1,0 +1,8 @@
+id = 'python-flit'
+name = 'python-flit'
+
+homepage = 'https://github.com/pypa/flit'
+
+[[package]]
+channel = 'arch'
+name = 'python-flit'

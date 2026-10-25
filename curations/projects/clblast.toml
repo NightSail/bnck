@@ -1,0 +1,12 @@
+id = 'clblast'
+name = 'clblast'
+
+homepage = 'https://github.com/CNugteren/CLBlast'
+
+[[package]]
+channel = 'arch'
+name = 'clblast'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clblast'

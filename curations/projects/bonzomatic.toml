@@ -1,0 +1,8 @@
+id = 'bonzomatic'
+name = 'bonzomatic'
+
+homepage = 'https://github.com/Gargaj/bonzomatic'
+
+[[package]]
+channel = 'arch'
+name = 'bonzomatic'

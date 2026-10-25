@@ -1,0 +1,8 @@
+id = 'cek'
+name = 'cek'
+
+repository = 'https://github.com/bschaatsbergen/cek.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cek'

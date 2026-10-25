@@ -1,0 +1,8 @@
+id = 'ccgo'
+name = 'ccgo'
+
+homepage = 'http://ccdw.org/~cjj/prog/ccgo'
+
+[[package]]
+channel = 'fedora'
+name = 'ccgo'

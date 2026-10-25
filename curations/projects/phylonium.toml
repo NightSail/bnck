@@ -1,0 +1,8 @@
+id = 'phylonium'
+name = 'phylonium'
+
+homepage = 'https://github.com/EvolBioInf/phylonium'
+
+[[package]]
+channel = 'debian'
+name = 'phylonium'

@@ -1,0 +1,8 @@
+id = 'loudgain'
+name = 'loudgain'
+
+homepage = 'https://github.com/Moonbase59/loudgain'
+
+[[package]]
+channel = 'debian'
+name = 'loudgain'

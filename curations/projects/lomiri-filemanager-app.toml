@@ -1,0 +1,8 @@
+id = 'lomiri-filemanager-app'
+name = 'lomiri-filemanager-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-filemanager-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-filemanager-app'

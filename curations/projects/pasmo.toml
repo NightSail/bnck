@@ -1,0 +1,8 @@
+id = 'pasmo'
+name = 'pasmo'
+
+homepage = 'https://pasmo.speccy.org'
+
+[[package]]
+channel = 'debian'
+name = 'pasmo'

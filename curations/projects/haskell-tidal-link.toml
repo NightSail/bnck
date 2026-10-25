@@ -1,0 +1,8 @@
+id = 'haskell-tidal-link'
+name = 'haskell-tidal-link'
+
+homepage = 'http://tidalcycles.org'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-tidal-link'

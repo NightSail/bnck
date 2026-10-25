@@ -1,0 +1,16 @@
+id = 'copyq'
+name = 'copyq'
+
+homepage = 'https://github.com/hluk/copyq'
+
+[[package]]
+channel = 'arch'
+name = 'copyq'
+
+[[package]]
+channel = 'debian'
+name = 'copyq'
+
+[[package]]
+channel = 'fedora'
+name = 'copyq'

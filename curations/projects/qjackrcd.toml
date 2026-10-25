@@ -1,0 +1,8 @@
+id = 'qjackrcd'
+name = 'qjackrcd'
+
+homepage = 'http://qjackrcd.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'qjackrcd'

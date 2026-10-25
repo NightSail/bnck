@@ -1,0 +1,12 @@
+id = 'just-lsp'
+name = 'just-lsp'
+
+repository = 'https://github.com/terror/just-lsp.git'
+
+[[package]]
+channel = 'arch'
+name = 'just-lsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/just-lsp'

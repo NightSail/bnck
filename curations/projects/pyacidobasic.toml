@@ -1,0 +1,8 @@
+id = 'pyacidobasic'
+name = 'pyacidobasic'
+
+homepage = 'http://outilsphysiques.tuxfamily.org/wiki/index.php'
+
+[[package]]
+channel = 'debian'
+name = 'pyacidobasic'

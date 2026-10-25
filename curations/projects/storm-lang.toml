@@ -1,0 +1,12 @@
+id = 'storm-lang'
+name = 'storm-lang'
+
+homepage = 'https://storm-lang.org'
+
+[[package]]
+channel = 'debian'
+name = 'progvis'
+
+[[package]]
+channel = 'debian'
+name = 'storm-lang'

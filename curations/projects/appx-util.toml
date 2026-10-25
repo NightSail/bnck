@@ -1,0 +1,8 @@
+id = 'appx-util'
+name = 'appx-util'
+
+homepage = 'https://github.com/OSInside/appx-util'
+
+[[package]]
+channel = 'fedora'
+name = 'appx-util'

@@ -1,0 +1,8 @@
+id = 'openrct2'
+name = 'openrct2'
+
+homepage = 'https://openrct2.io'
+
+[[package]]
+channel = 'arch'
+name = 'openrct2'

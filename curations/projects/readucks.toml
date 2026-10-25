@@ -1,0 +1,8 @@
+id = 'readucks'
+name = 'readucks'
+
+homepage = 'https://github.com/artic-network/readucks'
+
+[[package]]
+channel = 'debian'
+name = 'readucks'

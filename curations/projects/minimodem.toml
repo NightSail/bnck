@@ -1,0 +1,12 @@
+id = 'minimodem'
+name = 'minimodem'
+
+homepage = 'http://www.whence.com/minimodem'
+
+[[package]]
+channel = 'debian'
+name = 'minimodem'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minimodem'

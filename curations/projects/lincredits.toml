@@ -1,0 +1,6 @@
+id = 'lincredits'
+name = 'lincredits'
+
+[[package]]
+channel = 'debian'
+name = 'lincredits'

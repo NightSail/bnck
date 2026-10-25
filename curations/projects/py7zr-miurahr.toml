@@ -1,0 +1,8 @@
+id = 'py7zr-miurahr'
+name = 'py7zr'
+
+repository = 'https://github.com/miurahr/py7zr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/py7zr'

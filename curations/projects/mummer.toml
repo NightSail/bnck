@@ -1,0 +1,12 @@
+id = 'mummer'
+name = 'mummer'
+
+homepage = 'https://github.com/mummer4/mummer'
+
+[[package]]
+channel = 'debian'
+name = 'mummer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mummer'

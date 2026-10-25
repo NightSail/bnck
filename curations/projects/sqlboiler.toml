@@ -1,0 +1,8 @@
+id = 'sqlboiler'
+name = 'sqlboiler'
+
+repository = 'https://github.com/aarondl/sqlboiler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlboiler'

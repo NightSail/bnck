@@ -1,0 +1,8 @@
+id = 'paje-app'
+name = 'paje.app'
+
+homepage = 'https://paje.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'paje.app'

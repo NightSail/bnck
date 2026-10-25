@@ -1,0 +1,8 @@
+id = 'gokr-rsync'
+name = 'gokr-rsync'
+
+homepage = 'https://github.com/gokrazy/rsync'
+
+[[package]]
+channel = 'debian'
+name = 'gokr-rsync'

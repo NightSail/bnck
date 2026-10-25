@@ -1,0 +1,8 @@
+id = 'gfxutil'
+name = 'gfxutil'
+
+repository = 'https://github.com/acidanthera/gfxutil.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gfxutil'

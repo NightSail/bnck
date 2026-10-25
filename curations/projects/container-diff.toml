@@ -1,0 +1,8 @@
+id = 'container-diff'
+name = 'container-diff'
+
+homepage = 'https://github.com/GoogleContainerTools/container-diff'
+
+[[package]]
+channel = 'arch'
+name = 'container-diff'

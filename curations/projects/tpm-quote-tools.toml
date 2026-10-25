@@ -1,0 +1,8 @@
+id = 'tpm-quote-tools'
+name = 'tpm-quote-tools'
+
+homepage = 'https://sourceforge.net/projects/tpmquotetools'
+
+[[package]]
+channel = 'debian'
+name = 'tpm-quote-tools'

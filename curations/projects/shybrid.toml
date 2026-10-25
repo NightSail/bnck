@@ -1,0 +1,8 @@
+id = 'shybrid'
+name = 'shybrid'
+
+homepage = 'https://github.com/jwouters91/shybrid'
+
+[[package]]
+channel = 'fedora'
+name = 'shybrid'

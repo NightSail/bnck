@@ -1,0 +1,20 @@
+id = 'debian-edu-router'
+name = 'debian-edu-router'
+
+homepage = 'https://salsa.debian.org/debian-edu/debian-edu-router'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-router-config'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-router-fai'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-router-plugin.content-filter'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-router-plugin.ldap-connector'

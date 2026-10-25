@@ -1,0 +1,8 @@
+id = 'zydis-tools'
+name = 'zydis-tools'
+
+homepage = 'https://github.com/zyantific/zydis'
+
+[[package]]
+channel = 'fedora'
+name = 'zydis-tools'

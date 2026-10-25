@@ -1,0 +1,8 @@
+id = 'terramaid'
+name = 'terramaid'
+
+repository = 'https://github.com/RoseSecurity/Terramaid.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terramaid'

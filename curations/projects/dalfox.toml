@@ -1,0 +1,9 @@
+id = 'dalfox'
+name = 'dalfox'
+
+homepage = 'https://dalfox.hahwul.com'
+repository = 'https://github.com/hahwul/dalfox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dalfox'

@@ -1,0 +1,12 @@
+id = 'computers-20070819111735'
+name = 'computers'
+
+homepage = 'http://web.archive.org/web/20070819111735/www.hcs.harvard.edu/~dholland/computers/old-netkit.html'
+
+[[package]]
+channel = 'fedora'
+name = 'telnet'
+
+[[package]]
+channel = 'fedora'
+name = 'telnet-server'

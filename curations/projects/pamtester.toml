@@ -1,0 +1,12 @@
+id = 'pamtester'
+name = 'pamtester'
+
+homepage = 'http://pamtester.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pamtester'
+
+[[package]]
+channel = 'fedora'
+name = 'pamtester'

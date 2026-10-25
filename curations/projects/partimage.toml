@@ -1,0 +1,16 @@
+id = 'partimage'
+name = 'partimage'
+
+homepage = 'https://www.partimage.org'
+
+[[package]]
+channel = 'arch'
+name = 'partimage'
+
+[[package]]
+channel = 'debian'
+name = 'partimage'
+
+[[package]]
+channel = 'debian'
+name = 'partimage-server'

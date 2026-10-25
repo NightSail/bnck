@@ -1,0 +1,12 @@
+id = 'hyprsunset'
+name = 'hyprsunset'
+
+homepage = 'https://github.com/hyprwm/hyprsunset'
+
+[[package]]
+channel = 'arch'
+name = 'hyprsunset'
+
+[[package]]
+channel = 'debian'
+name = 'hyprsunset'

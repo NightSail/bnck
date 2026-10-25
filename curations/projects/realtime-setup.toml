@@ -1,0 +1,8 @@
+id = 'realtime-setup'
+name = 'realtime-setup'
+
+homepage = 'https://gitlab.com/rt-linux-tools/realtime-setup.git'
+
+[[package]]
+channel = 'fedora'
+name = 'realtime-setup'

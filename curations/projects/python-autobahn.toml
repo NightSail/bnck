@@ -1,0 +1,8 @@
+id = 'python-autobahn'
+name = 'python-autobahn'
+
+homepage = 'https://github.com/crossbario/autobahn-python'
+
+[[package]]
+channel = 'arch'
+name = 'python-autobahn'

@@ -1,0 +1,8 @@
+id = 'classads'
+name = 'classads'
+
+homepage = 'https://research.cs.wisc.edu/htcondor/classad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/classads'

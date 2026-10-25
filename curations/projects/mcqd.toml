@@ -1,0 +1,8 @@
+id = 'mcqd'
+name = 'mcqd'
+
+homepage = 'http://insilab.org/maxclique'
+
+[[package]]
+channel = 'arch'
+name = 'mcqd'

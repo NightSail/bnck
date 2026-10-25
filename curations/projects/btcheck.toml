@@ -1,0 +1,8 @@
+id = 'btcheck'
+name = 'btcheck'
+
+homepage = 'http://btcheck.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'btcheck'

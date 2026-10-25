@@ -1,0 +1,12 @@
+id = 'biodiff'
+name = 'biodiff'
+
+repository = 'https://github.com/8051Enthusiast/biodiff.git'
+
+[[package]]
+channel = 'arch'
+name = 'biodiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/biodiff'

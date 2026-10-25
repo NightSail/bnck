@@ -1,0 +1,8 @@
+id = 'fastflowlm'
+name = 'fastflowlm'
+
+homepage = 'https://www.fastflowlm.com'
+
+[[package]]
+channel = 'arch'
+name = 'fastflowlm'

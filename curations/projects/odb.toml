@@ -1,0 +1,8 @@
+id = 'odb'
+name = 'odb'
+
+homepage = 'https://www.codesynthesis.com/products/odb'
+
+[[package]]
+channel = 'debian'
+name = 'odb'

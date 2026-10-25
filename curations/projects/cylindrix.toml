@@ -1,0 +1,8 @@
+id = 'cylindrix'
+name = 'cylindrix'
+
+homepage = 'http://www.hardgeus.com/cylindrix'
+
+[[package]]
+channel = 'fedora'
+name = 'cylindrix'

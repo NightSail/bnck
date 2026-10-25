@@ -1,0 +1,8 @@
+id = 'iwgtk'
+name = 'iwgtk'
+
+homepage = 'https://github.com/J-Lentz/iwgtk'
+
+[[package]]
+channel = 'debian'
+name = 'iwgtk'

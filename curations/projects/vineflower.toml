@@ -1,0 +1,8 @@
+id = 'vineflower'
+name = 'vineflower'
+
+homepage = 'https://vineflower.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vineflower'

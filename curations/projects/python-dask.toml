@@ -1,0 +1,8 @@
+id = 'python-dask'
+name = 'python-dask'
+
+homepage = 'https://dask.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-dask'

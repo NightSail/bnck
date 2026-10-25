@@ -1,0 +1,8 @@
+id = 'trydiffoscope'
+name = 'trydiffoscope'
+
+homepage = 'https://try.diffoscope.org'
+
+[[package]]
+channel = 'debian'
+name = 'trydiffoscope'

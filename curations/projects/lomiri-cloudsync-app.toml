@@ -1,0 +1,8 @@
+id = 'lomiri-cloudsync-app'
+name = 'lomiri-cloudsync-app'
+
+homepage = 'https://github.com/belohoub/UBsync'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-cloudsync-app'

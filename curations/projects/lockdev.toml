@@ -1,0 +1,8 @@
+id = 'lockdev'
+name = 'lockdev'
+
+homepage = 'https://alioth.debian.org/projects/lockdev'
+
+[[package]]
+channel = 'fedora'
+name = 'lockdev'

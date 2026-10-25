@@ -1,0 +1,12 @@
+id = 'b'
+name = 'B'
+
+homepage = 'https://www.usna.edu/Users/cs/wcbrown/qepcad/B/QEPCAD.html'
+
+[[package]]
+channel = 'debian'
+name = 'qepcad'
+
+[[package]]
+channel = 'fedora'
+name = 'qepcad-B'

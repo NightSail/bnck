@@ -1,0 +1,8 @@
+id = 'flashbench'
+name = 'flashbench'
+
+homepage = 'https://git.linaro.org/people/arnd.bergmann/flashbench'
+
+[[package]]
+channel = 'debian'
+name = 'flashbench'

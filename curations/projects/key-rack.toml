@@ -1,0 +1,8 @@
+id = 'key-rack'
+name = 'key-rack'
+
+homepage = 'https://gitlab.gnome.org/World/key-rack'
+
+[[package]]
+channel = 'arch'
+name = 'key-rack'

@@ -1,0 +1,9 @@
+id = 'terrapin-scanner'
+name = 'terrapin-scanner'
+
+homepage = 'https://terrapin-attack.com'
+repository = 'https://github.com/RUB-NDS/Terrapin-Scanner.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terrapin-scanner'

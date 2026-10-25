@@ -1,0 +1,8 @@
+id = 'fmpp'
+name = 'fmpp'
+
+homepage = 'https://fmpp.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fmpp'

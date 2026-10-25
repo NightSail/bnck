@@ -1,0 +1,12 @@
+id = 'capstone-engine'
+name = 'capstone-engine'
+
+homepage = 'https://www.capstone-engine.org'
+
+[[package]]
+channel = 'debian'
+name = 'capstone-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'capstone'

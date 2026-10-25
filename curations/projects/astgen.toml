@@ -1,0 +1,8 @@
+id = 'astgen'
+name = 'astgen'
+
+repository = 'https://github.com/joernio/astgen-monorepo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/astgen'

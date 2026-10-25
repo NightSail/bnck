@@ -1,0 +1,8 @@
+id = 'mockserver'
+name = 'mockserver'
+
+homepage = 'https://www.mock-server.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mockserver'

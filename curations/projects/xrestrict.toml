@@ -1,0 +1,8 @@
+id = 'xrestrict'
+name = 'xrestrict'
+
+homepage = 'https://github.com/Ademan/xrestrict'
+
+[[package]]
+channel = 'fedora'
+name = 'xrestrict'

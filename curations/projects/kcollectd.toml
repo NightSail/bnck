@@ -1,0 +1,8 @@
+id = 'kcollectd'
+name = 'kcollectd'
+
+homepage = 'https://www.antonioerusso.com/projects/kcollectd'
+
+[[package]]
+channel = 'debian'
+name = 'kcollectd'

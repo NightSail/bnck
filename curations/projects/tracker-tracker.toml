@@ -1,0 +1,16 @@
+id = 'tracker-tracker'
+name = 'tracker'
+
+homepage = 'https://tracker.gnome.org'
+
+[[package]]
+channel = 'debian'
+name = 'localsearch'
+
+[[package]]
+channel = 'debian'
+name = 'tinysparql'
+
+[[package]]
+channel = 'debian'
+name = 'tracker-extract'

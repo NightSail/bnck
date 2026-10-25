@@ -1,0 +1,21 @@
+id = 'supervisor'
+name = 'supervisor'
+
+homepage = 'http://supervisord.org'
+repository = 'https://github.com/Supervisor/supervisor.git'
+
+[[package]]
+channel = 'arch'
+name = 'supervisor'
+
+[[package]]
+channel = 'debian'
+name = 'supervisor'
+
+[[package]]
+channel = 'fedora'
+name = 'supervisor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/supervisor'

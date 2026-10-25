@@ -1,0 +1,9 @@
+id = 'wtfutil'
+name = 'wtfutil'
+
+homepage = 'https://wtfutil.com'
+repository = 'https://github.com/wtfutil/wtf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wtfutil'

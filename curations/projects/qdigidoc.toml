@@ -1,0 +1,8 @@
+id = 'qdigidoc'
+name = 'qdigidoc'
+
+homepage = 'https://github.com/open-eid/DigiDoc4-Client'
+
+[[package]]
+channel = 'fedora'
+name = 'qdigidoc'

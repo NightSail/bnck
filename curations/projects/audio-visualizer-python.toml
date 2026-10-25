@@ -1,0 +1,8 @@
+id = 'audio-visualizer-python'
+name = 'audio-visualizer-python'
+
+homepage = 'https://github.com/djfun/audio-visualizer-python'
+
+[[package]]
+channel = 'debian'
+name = 'audio-visualizer-python'

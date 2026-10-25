@@ -1,0 +1,8 @@
+id = 'picplanner'
+name = 'picplanner'
+
+homepage = 'https://gitlab.com/Zwarf/picplanner'
+
+[[package]]
+channel = 'debian'
+name = 'picplanner'

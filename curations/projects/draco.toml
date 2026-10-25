@@ -1,0 +1,20 @@
+id = 'draco'
+name = 'draco'
+
+homepage = 'https://google.github.io/draco'
+
+[[package]]
+channel = 'arch'
+name = 'draco'
+
+[[package]]
+channel = 'debian'
+name = 'draco'
+
+[[package]]
+channel = 'fedora'
+name = 'draco'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/draco'

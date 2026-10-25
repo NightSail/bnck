@@ -1,0 +1,8 @@
+id = 'lagrange'
+name = 'lagrange'
+
+homepage = 'https://gmi.skyjake.fi/lagrange'
+
+[[package]]
+channel = 'fedora'
+name = 'lagrange'

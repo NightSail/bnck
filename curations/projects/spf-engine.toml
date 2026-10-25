@@ -1,0 +1,16 @@
+id = 'spf-engine'
+name = 'spf-engine'
+
+homepage = 'https://launchpad.net/spf-engine'
+
+[[package]]
+channel = 'debian'
+name = 'postfix-policyd-spf-python'
+
+[[package]]
+channel = 'debian'
+name = 'pyspf-milter'
+
+[[package]]
+channel = 'fedora'
+name = 'pypolicyd-spf-milter'

@@ -1,0 +1,8 @@
+id = 'libimlib2-dev'
+name = 'libimlib2-dev'
+
+homepage = 'https://docs.enlightenment.org/api/imlib2/html/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'libimlib2-dev'

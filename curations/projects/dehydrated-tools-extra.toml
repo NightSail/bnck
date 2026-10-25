@@ -1,0 +1,8 @@
+id = 'dehydrated-tools-extra'
+name = 'dehydrated-tools-extra'
+
+homepage = 'https://git.open-infrastructure.net/tools/dehydrated-tools-extra'
+
+[[package]]
+channel = 'debian'
+name = 'dehydrated-tools-extra'

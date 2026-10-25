@@ -1,0 +1,8 @@
+id = 'litmus'
+name = 'litmus'
+
+homepage = 'http://www.webdav.org/neon/litmus'
+
+[[package]]
+channel = 'debian'
+name = 'litmus'

@@ -1,0 +1,10 @@
+id = 'shelldap'
+name = 'shelldap'
+
+[[package]]
+channel = 'debian'
+name = 'shelldap'
+
+[[package]]
+channel = 'fedora'
+name = 'shelldap'

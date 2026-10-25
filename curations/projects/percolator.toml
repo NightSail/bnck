@@ -1,0 +1,8 @@
+id = 'percolator'
+name = 'percolator'
+
+homepage = 'https://github.com/percolator/percolator'
+
+[[package]]
+channel = 'fedora'
+name = 'percolator'

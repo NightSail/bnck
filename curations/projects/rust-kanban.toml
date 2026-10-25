@@ -1,0 +1,8 @@
+id = 'rust-kanban'
+name = 'rust-kanban'
+
+homepage = 'https://github.com/yashs662/rust_kanban'
+
+[[package]]
+channel = 'arch'
+name = 'rust-kanban'

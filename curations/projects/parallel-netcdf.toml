@@ -1,0 +1,12 @@
+id = 'parallel-netcdf'
+name = 'parallel-netcdf'
+
+homepage = 'https://parallel-netcdf.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'pnetcdf-openmpi'
+
+[[package]]
+channel = 'debian'
+name = 'pnetcdf-bin'

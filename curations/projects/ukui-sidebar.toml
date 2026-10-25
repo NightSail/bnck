@@ -1,0 +1,6 @@
+id = 'ukui-sidebar'
+name = 'ukui-sidebar'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-sidebar'

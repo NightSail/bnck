@@ -1,0 +1,16 @@
+id = 'sphinxygen'
+name = 'sphinxygen'
+
+homepage = 'https://gitlab.com/drobilla/sphinxygen'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphinxygen'
+
+[[package]]
+channel = 'debian'
+name = 'sphinxygen'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinxygen'

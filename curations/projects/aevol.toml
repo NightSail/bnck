@@ -1,0 +1,8 @@
+id = 'aevol'
+name = 'aevol'
+
+homepage = 'http://www.aevol.fr'
+
+[[package]]
+channel = 'debian'
+name = 'aevol'

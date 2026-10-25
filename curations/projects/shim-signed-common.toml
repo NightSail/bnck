@@ -1,0 +1,6 @@
+id = 'shim-signed-common'
+name = 'shim-signed-common'
+
+[[package]]
+channel = 'debian'
+name = 'shim-signed-common'

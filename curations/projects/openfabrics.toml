@@ -1,0 +1,12 @@
+id = 'openfabrics'
+name = 'openfabrics'
+
+homepage = 'https://www.openfabrics.org'
+
+[[package]]
+channel = 'fedora'
+name = 'dapl-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'qperf'

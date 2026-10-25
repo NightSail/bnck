@@ -1,0 +1,8 @@
+id = 'git-workspace'
+name = 'git-workspace'
+
+repository = 'https://github.com/orf/git-workspace.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-workspace'

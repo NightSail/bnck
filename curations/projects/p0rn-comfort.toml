@@ -1,0 +1,8 @@
+id = 'p0rn-comfort'
+name = 'p0rn-comfort'
+
+homepage = 'http://www.cgarbs.de/p0rn-comfort.en.html'
+
+[[package]]
+channel = 'fedora'
+name = 'p0rn-comfort'

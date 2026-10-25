@@ -1,0 +1,16 @@
+id = 'epubcheck'
+name = 'epubcheck'
+
+homepage = 'https://www.w3.org/publishing/epubcheck'
+
+[[package]]
+channel = 'arch'
+name = 'epubcheck'
+
+[[package]]
+channel = 'debian'
+name = 'epubcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epubcheck'

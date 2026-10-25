@@ -1,0 +1,8 @@
+id = 'haserl'
+name = 'haserl'
+
+homepage = 'https://haserl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'haserl'

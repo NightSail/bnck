@@ -1,0 +1,12 @@
+id = 'gtk-sni-tray'
+name = 'gtk-sni-tray'
+
+homepage = 'https://github.com/IvanMalison/gtk-sni-tray'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-gtk-sni-tray'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-gtk-sni-tray-utils'

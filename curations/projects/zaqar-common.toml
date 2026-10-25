@@ -1,0 +1,8 @@
+id = 'zaqar-common'
+name = 'zaqar-common'
+
+homepage = 'https://github.com/openstack/zaqar'
+
+[[package]]
+channel = 'debian'
+name = 'zaqar-common'

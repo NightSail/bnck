@@ -1,0 +1,6 @@
+id = 'libsdl2-dev'
+name = 'libsdl2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libsdl2-dev'

@@ -1,0 +1,9 @@
+id = 'envd'
+name = 'envd'
+
+homepage = 'https://envd.tensorchord.ai'
+repository = 'https://github.com/tensorchord/envd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/envd'

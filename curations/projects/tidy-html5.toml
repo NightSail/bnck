@@ -1,0 +1,9 @@
+id = 'tidy-html5'
+name = 'tidy-html5'
+
+homepage = 'https://www.html-tidy.org'
+repository = 'https://github.com/htacg/tidy-html5.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tidy-html5'

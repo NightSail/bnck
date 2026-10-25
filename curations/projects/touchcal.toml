@@ -1,0 +1,8 @@
+id = 'touchcal'
+name = 'touchcal'
+
+homepage = 'http://touchcal.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'touchcal'

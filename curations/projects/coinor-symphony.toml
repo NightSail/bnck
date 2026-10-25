@@ -1,0 +1,8 @@
+id = 'coinor-symphony'
+name = 'coinor-symphony'
+
+homepage = 'https://projects.coin-or.org/SYMPHONY'
+
+[[package]]
+channel = 'debian'
+name = 'coinor-symphony'

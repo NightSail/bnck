@@ -1,0 +1,12 @@
+id = 'quadrapassel'
+name = 'quadrapassel'
+
+homepage = 'https://wiki.gnome.org/Apps/Quadrapassel'
+
+[[package]]
+channel = 'arch'
+name = 'quadrapassel'
+
+[[package]]
+channel = 'fedora'
+name = 'quadrapassel'

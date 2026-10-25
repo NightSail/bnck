@@ -1,0 +1,8 @@
+id = 'ccm'
+name = 'ccm'
+
+repository = 'https://github.com/apache/cassandra-ccm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccm'

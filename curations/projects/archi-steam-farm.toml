@@ -1,0 +1,8 @@
+id = 'archi-steam-farm'
+name = 'archi-steam-farm'
+
+repository = 'https://github.com/JustArchiNET/ArchiSteamFarm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/archi-steam-farm'

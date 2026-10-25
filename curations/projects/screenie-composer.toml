@@ -1,0 +1,8 @@
+id = 'screenie-composer'
+name = 'screenie-composer'
+
+homepage = 'https://github.com/ariya/screenie'
+
+[[package]]
+channel = 'fedora'
+name = 'screenie-composer'

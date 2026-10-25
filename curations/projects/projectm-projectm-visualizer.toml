@@ -1,0 +1,8 @@
+id = 'projectm-projectm-visualizer'
+name = 'projectm'
+
+repository = 'https://github.com/projectM-visualizer/projectm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/projectm'

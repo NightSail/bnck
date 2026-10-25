@@ -1,0 +1,8 @@
+id = 'materialx'
+name = 'materialx'
+
+homepage = 'https://materialx.org'
+
+[[package]]
+channel = 'arch'
+name = 'materialx'

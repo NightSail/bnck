@@ -1,0 +1,12 @@
+id = 'eggdrop'
+name = 'eggdrop'
+
+homepage = 'https://www.eggheads.org'
+
+[[package]]
+channel = 'debian'
+name = 'eggdrop'
+
+[[package]]
+channel = 'fedora'
+name = 'eggdrop'

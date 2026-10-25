@@ -1,0 +1,32 @@
+id = 'openssh'
+name = 'openssh'
+
+homepage = 'https://www.openssh.com'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-client'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-client-gssapi'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-client-ssh1'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-common'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-server'
+
+[[package]]
+channel = 'debian'
+name = 'openssh-server-gssapi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openssh'

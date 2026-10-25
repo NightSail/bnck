@@ -1,0 +1,16 @@
+id = 'bustle'
+name = 'bustle'
+
+homepage = 'https://apps.gnome.org/Bustle'
+
+[[package]]
+channel = 'arch'
+name = 'bustle'
+
+[[package]]
+channel = 'debian'
+name = 'bustle'
+
+[[package]]
+channel = 'fedora'
+name = 'bustle'

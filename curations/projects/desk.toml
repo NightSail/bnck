@@ -1,0 +1,8 @@
+id = 'desk'
+name = 'desk'
+
+homepage = 'https://github.com/jamesob/desk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/desk'

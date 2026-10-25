@@ -1,0 +1,8 @@
+id = 'python-tifffile'
+name = 'python-tifffile'
+
+homepage = 'https://github.com/cgohlke/tifffile'
+
+[[package]]
+channel = 'arch'
+name = 'python-tifffile'

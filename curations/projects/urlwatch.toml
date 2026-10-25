@@ -1,0 +1,20 @@
+id = 'urlwatch'
+name = 'urlwatch'
+
+homepage = 'https://thp.io/2008/urlwatch'
+
+[[package]]
+channel = 'arch'
+name = 'urlwatch'
+
+[[package]]
+channel = 'debian'
+name = 'urlwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'urlwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urlwatch'

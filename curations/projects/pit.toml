@@ -1,0 +1,8 @@
+id = 'pit'
+name = 'pit'
+
+repository = 'https://github.com/michaeldv/pit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pit'

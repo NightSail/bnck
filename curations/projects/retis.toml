@@ -1,0 +1,8 @@
+id = 'retis'
+name = 'retis'
+
+homepage = 'https://github.com/retis-org/retis'
+
+[[package]]
+channel = 'fedora'
+name = 'retis'

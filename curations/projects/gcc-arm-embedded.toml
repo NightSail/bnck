@@ -1,0 +1,8 @@
+id = 'gcc-arm-embedded'
+name = 'gcc-arm-embedded'
+
+homepage = 'https://developer.arm.com/tools-and-software/gnu-toolchain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gcc-arm-embedded'

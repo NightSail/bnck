@@ -1,0 +1,12 @@
+id = 'chordii'
+name = 'chordii'
+
+homepage = 'https://www.vromans.org/johan/projects/Chordii'
+
+[[package]]
+channel = 'fedora'
+name = 'chordii'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chordii'

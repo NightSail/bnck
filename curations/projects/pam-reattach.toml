@@ -1,0 +1,8 @@
+id = 'pam-reattach'
+name = 'pam-reattach'
+
+repository = 'https://github.com/fabianishere/pam_reattach.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pam-reattach'

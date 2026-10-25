@@ -1,0 +1,8 @@
+id = 'swarm'
+name = 'swarm'
+
+homepage = 'https://github.com/torognes/swarm'
+
+[[package]]
+channel = 'debian'
+name = 'swarm'

@@ -1,0 +1,12 @@
+id = 'python3-yte'
+name = 'python3-yte'
+
+homepage = 'https://github.com/yte-template-engine/yte'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yte'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-yte'

@@ -1,0 +1,12 @@
+id = 'saxon'
+name = 'saxon'
+
+homepage = 'http://saxon.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libsaxon-java'
+
+[[package]]
+channel = 'debian'
+name = 'libsaxonb-java'

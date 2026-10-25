@@ -1,0 +1,8 @@
+id = 'kwaak'
+name = 'kwaak'
+
+homepage = 'https://github.com/bosun-ai/kwaak'
+
+[[package]]
+channel = 'arch'
+name = 'kwaak'

@@ -1,0 +1,8 @@
+id = 'dfuzzer'
+name = 'dfuzzer'
+
+homepage = 'https://github.com/dbus-fuzzer/dfuzzer'
+
+[[package]]
+channel = 'fedora'
+name = 'dfuzzer'

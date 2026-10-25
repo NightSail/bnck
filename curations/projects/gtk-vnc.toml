@@ -1,0 +1,16 @@
+id = 'gtk-vnc'
+name = 'gtk-vnc'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gtk-vnc'
+
+[[package]]
+channel = 'arch'
+name = 'gtk-vnc'
+
+[[package]]
+channel = 'fedora'
+name = 'gvnc-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtk-vnc'

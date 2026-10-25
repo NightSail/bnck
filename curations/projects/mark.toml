@@ -1,0 +1,9 @@
+id = 'mark'
+name = 'mark'
+
+homepage = 'https://samizdat.dev'
+repository = 'https://github.com/kovetskiy/mark.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mark'

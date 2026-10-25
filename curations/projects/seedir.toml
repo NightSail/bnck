@@ -1,0 +1,12 @@
+id = 'seedir'
+name = 'seedir'
+
+homepage = 'https://github.com/earnestt1234/seedir'
+
+[[package]]
+channel = 'arch'
+name = 'python-seedir'
+
+[[package]]
+channel = 'debian'
+name = 'python3-seedir'

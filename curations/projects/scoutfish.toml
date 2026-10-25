@@ -1,0 +1,8 @@
+id = 'scoutfish'
+name = 'scoutfish'
+
+homepage = 'https://github.com/pychess/scoutfish'
+
+[[package]]
+channel = 'fedora'
+name = 'scoutfish'

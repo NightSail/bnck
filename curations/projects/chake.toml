@@ -1,0 +1,12 @@
+id = 'chake'
+name = 'chake'
+
+homepage = 'https://gitlab.com/terceiro/chake'
+
+[[package]]
+channel = 'debian'
+name = 'chake'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-chake'

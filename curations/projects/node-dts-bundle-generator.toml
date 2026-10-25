@@ -1,0 +1,8 @@
+id = 'node-dts-bundle-generator'
+name = 'node-dts-bundle-generator'
+
+homepage = 'https://github.com/timocov/dts-bundle-generator'
+
+[[package]]
+channel = 'debian'
+name = 'node-dts-bundle-generator'

@@ -1,0 +1,16 @@
+id = 'etckeeper'
+name = 'etckeeper'
+
+homepage = 'https://etckeeper.branchable.com'
+
+[[package]]
+channel = 'arch'
+name = 'etckeeper'
+
+[[package]]
+channel = 'debian'
+name = 'etckeeper'
+
+[[package]]
+channel = 'fedora'
+name = 'etckeeper'

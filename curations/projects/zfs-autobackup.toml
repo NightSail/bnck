@@ -1,0 +1,8 @@
+id = 'zfs-autobackup'
+name = 'zfs-autobackup'
+
+homepage = 'https://github.com/psy0rz/zfs_autobackup'
+
+[[package]]
+channel = 'debian'
+name = 'zfs-autobackup'

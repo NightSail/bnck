@@ -1,0 +1,12 @@
+id = 'python3-yaql'
+name = 'python3-yaql'
+
+homepage = 'https://opendev.org/openstack/yaql'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yaql'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-yaql'

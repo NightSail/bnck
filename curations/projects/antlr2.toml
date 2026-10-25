@@ -1,0 +1,20 @@
+id = 'antlr2'
+name = 'antlr2'
+
+homepage = 'https://www.antlr2.org'
+
+[[package]]
+channel = 'debian'
+name = 'antlr'
+
+[[package]]
+channel = 'debian'
+name = 'libantlr-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'antlr-C++'
+
+[[package]]
+channel = 'fedora'
+name = 'antlr-tool'

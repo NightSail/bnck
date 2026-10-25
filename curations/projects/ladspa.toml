@@ -1,0 +1,16 @@
+id = 'ladspa'
+name = 'ladspa'
+
+homepage = 'https://www.ladspa.org'
+
+[[package]]
+channel = 'arch'
+name = 'ladspa'
+
+[[package]]
+channel = 'debian'
+name = 'ladspa-sdk'
+
+[[package]]
+channel = 'fedora'
+name = 'ladspa'

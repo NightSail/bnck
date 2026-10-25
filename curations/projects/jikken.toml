@@ -1,0 +1,9 @@
+id = 'jikken'
+name = 'jikken'
+
+homepage = 'https://jikken.io'
+repository = 'https://github.com/jikkenio/jikken.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jikken'

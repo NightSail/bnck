@@ -1,0 +1,10 @@
+id = 'meta-unison'
+name = 'meta-unison'
+
+[[package]]
+channel = 'debian'
+name = 'unison'
+
+[[package]]
+channel = 'debian'
+name = 'unison-gtk'

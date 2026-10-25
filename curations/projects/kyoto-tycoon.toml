@@ -1,0 +1,8 @@
+id = 'kyoto-tycoon'
+name = 'kyoto-tycoon'
+
+homepage = 'https://dbmx.net/kyototycoon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kyoto-tycoon'

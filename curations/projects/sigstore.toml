@@ -1,0 +1,8 @@
+id = 'sigstore'
+name = 'sigstore'
+
+repository = 'https://github.com/sigstore/sigstore-python.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sigstore'

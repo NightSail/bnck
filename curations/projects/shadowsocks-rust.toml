@@ -1,0 +1,13 @@
+id = 'shadowsocks-rust'
+name = 'shadowsocks-rust'
+
+homepage = 'https://shadowsocks.org'
+repository = 'https://github.com/shadowsocks/shadowsocks-rust.git'
+
+[[package]]
+channel = 'arch'
+name = 'shadowsocks-rust'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shadowsocks-rust'

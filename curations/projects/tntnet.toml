@@ -1,0 +1,20 @@
+id = 'tntnet'
+name = 'tntnet'
+
+homepage = 'http://www.tntnet.org'
+
+[[package]]
+channel = 'debian'
+name = 'libtntnet-dev'
+
+[[package]]
+channel = 'debian'
+name = 'tntnet'
+
+[[package]]
+channel = 'fedora'
+name = 'tntnet'
+
+[[package]]
+channel = 'fedora'
+name = 'tntnet-devel'

@@ -1,0 +1,12 @@
+id = 'decoder'
+name = 'decoder'
+
+homepage = 'https://apps.gnome.org/Decoder'
+
+[[package]]
+channel = 'arch'
+name = 'decoder'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-decoder'

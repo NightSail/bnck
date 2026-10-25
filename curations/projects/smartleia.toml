@@ -1,0 +1,8 @@
+id = 'smartleia'
+name = 'smartleia'
+
+homepage = 'https://github.com/h2lab/smartleia'
+
+[[package]]
+channel = 'debian'
+name = 'smartleia'

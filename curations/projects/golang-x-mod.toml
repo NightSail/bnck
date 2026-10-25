@@ -1,0 +1,8 @@
+id = 'golang-x-mod'
+name = 'golang-x-mod'
+
+homepage = 'https://github.com/golang/mod'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-mod'

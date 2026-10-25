@@ -1,0 +1,8 @@
+id = 'flamp'
+name = 'flamp'
+
+homepage = 'https://w1hkj.org/flamp-help'
+
+[[package]]
+channel = 'debian'
+name = 'flamp'

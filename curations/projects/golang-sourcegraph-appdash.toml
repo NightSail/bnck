@@ -1,0 +1,8 @@
+id = 'golang-sourcegraph-appdash'
+name = 'golang-sourcegraph-appdash'
+
+homepage = 'https://github.com/sourcegraph/appdash'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-sourcegraph-appdash'

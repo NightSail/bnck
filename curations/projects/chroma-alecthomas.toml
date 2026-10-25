@@ -1,0 +1,8 @@
+id = 'chroma-alecthomas'
+name = 'chroma'
+
+repository = 'https://github.com/alecthomas/chroma.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chroma'

@@ -1,0 +1,12 @@
+id = 'recommonmark'
+name = 'recommonmark'
+
+homepage = 'https://github.com/readthedocs/recommonmark'
+
+[[package]]
+channel = 'debian'
+name = 'recommonmark-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-recommonmark'

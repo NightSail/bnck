@@ -1,0 +1,16 @@
+id = 'virt-what'
+name = 'virt-what'
+
+homepage = 'http://people.redhat.com/~rjones/virt-what'
+
+[[package]]
+channel = 'arch'
+name = 'virt-what'
+
+[[package]]
+channel = 'debian'
+name = 'virt-what'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-what'

@@ -1,0 +1,12 @@
+id = 'sugarlabs'
+name = 'sugarlabs'
+
+homepage = 'http://sugarlabs.org'
+
+[[package]]
+channel = 'fedora'
+name = 'sugar'
+
+[[package]]
+channel = 'fedora'
+name = 'sugar-datastore'

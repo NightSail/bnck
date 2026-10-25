@@ -1,0 +1,12 @@
+id = 'sql-migrate'
+name = 'sql-migrate'
+
+repository = 'https://github.com/rubenv/sql-migrate.git'
+
+[[package]]
+channel = 'debian'
+name = 'sql-migrate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sql-migrate'

@@ -1,0 +1,20 @@
+id = 'opendbx'
+name = 'opendbx'
+
+homepage = 'https://linuxnetworks.de/doc/index.php/OpenDBX'
+
+[[package]]
+channel = 'arch'
+name = 'opendbx'
+
+[[package]]
+channel = 'debian'
+name = 'opendbx-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'opendbx-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opendbx'

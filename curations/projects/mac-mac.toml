@@ -1,0 +1,12 @@
+id = 'mac-mac'
+name = 'mac'
+
+homepage = 'https://mac.getutm.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/utm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/utm@beta'

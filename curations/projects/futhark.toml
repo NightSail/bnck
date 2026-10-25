@@ -1,0 +1,13 @@
+id = 'futhark'
+name = 'futhark'
+
+homepage = 'https://futhark-lang.org'
+repository = 'https://github.com/diku-dk/futhark.git'
+
+[[package]]
+channel = 'debian'
+name = 'futhark'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/futhark'

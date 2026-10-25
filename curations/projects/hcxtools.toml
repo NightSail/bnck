@@ -1,0 +1,20 @@
+id = 'hcxtools'
+name = 'hcxtools'
+
+repository = 'https://github.com/ZerBea/hcxtools.git'
+
+[[package]]
+channel = 'arch'
+name = 'hcxtools'
+
+[[package]]
+channel = 'debian'
+name = 'hcxtools'
+
+[[package]]
+channel = 'fedora'
+name = 'hcxtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hcxtools'

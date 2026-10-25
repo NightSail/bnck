@@ -1,0 +1,6 @@
+id = 'reportbug'
+name = 'reportbug'
+
+[[package]]
+channel = 'debian'
+name = 'reportbug'

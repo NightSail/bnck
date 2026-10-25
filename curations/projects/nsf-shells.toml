@@ -1,0 +1,8 @@
+id = 'nsf-shells'
+name = 'nsf-shells'
+
+homepage = 'https://next-scripting.org'
+
+[[package]]
+channel = 'debian'
+name = 'nsf-shells'

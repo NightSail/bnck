@@ -1,0 +1,24 @@
+id = 'ibus'
+name = 'ibus'
+
+homepage = 'https://github.com/ibus/ibus/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'ibus'
+
+[[package]]
+channel = 'debian'
+name = 'ibus'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus-desktop-testing'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus-setup'

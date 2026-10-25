@@ -1,0 +1,8 @@
+id = 'python-jupyter-client'
+name = 'python-jupyter-client'
+
+homepage = 'https://pypi.python.org/pypi/jupyter_client'
+
+[[package]]
+channel = 'arch'
+name = 'python-jupyter-client'

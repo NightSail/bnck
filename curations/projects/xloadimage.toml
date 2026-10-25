@@ -1,0 +1,16 @@
+id = 'xloadimage'
+name = 'xloadimage'
+
+homepage = 'https://sioseis.ucsd.edu/xloadimage.html'
+
+[[package]]
+channel = 'arch'
+name = 'xloadimage'
+
+[[package]]
+channel = 'debian'
+name = 'xloadimage'
+
+[[package]]
+channel = 'fedora'
+name = 'xloadimage'

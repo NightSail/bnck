@@ -1,0 +1,16 @@
+id = 'bochs-bochs'
+name = 'bochs'
+
+homepage = 'http://bochs.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'bochs'
+
+[[package]]
+channel = 'fedora'
+name = 'bochs-debugger'
+
+[[package]]
+channel = 'fedora'
+name = 'bochs-gdb'

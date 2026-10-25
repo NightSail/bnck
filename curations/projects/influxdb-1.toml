@@ -1,0 +1,8 @@
+id = 'influxdb-1'
+name = 'influxdb@1'
+
+homepage = 'https://influxdata.com/time-series-platform/influxdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/influxdb@1'

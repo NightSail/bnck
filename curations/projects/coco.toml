@@ -1,0 +1,12 @@
+id = 'coco'
+name = 'Coco'
+
+homepage = 'http://www.ssw.uni-linz.ac.at/Research/Projects/Coco'
+
+[[package]]
+channel = 'debian'
+name = 'coco-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'coco-java'

@@ -1,0 +1,16 @@
+id = 'efibootmgr'
+name = 'efibootmgr'
+
+homepage = 'https://github.com/rhboot/efibootmgr'
+
+[[package]]
+channel = 'arch'
+name = 'efibootmgr'
+
+[[package]]
+channel = 'debian'
+name = 'efibootmgr'
+
+[[package]]
+channel = 'fedora'
+name = 'efibootmgr'

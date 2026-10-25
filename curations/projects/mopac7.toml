@@ -1,0 +1,12 @@
+id = 'mopac7'
+name = 'mopac7'
+
+homepage = 'http://sourceforge.net/projects/mopac7'
+
+[[package]]
+channel = 'debian'
+name = 'mopac7-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'mopac7'

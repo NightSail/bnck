@@ -1,0 +1,28 @@
+id = 'anyremote'
+name = 'anyremote'
+
+homepage = 'https://anyremote.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'anyremote'
+
+[[package]]
+channel = 'debian'
+name = 'ganyremote'
+
+[[package]]
+channel = 'debian'
+name = 'kanyremote'
+
+[[package]]
+channel = 'fedora'
+name = 'anyremote'
+
+[[package]]
+channel = 'fedora'
+name = 'ganyremote'
+
+[[package]]
+channel = 'fedora'
+name = 'kanyremote'

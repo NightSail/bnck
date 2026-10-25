@@ -1,0 +1,8 @@
+id = 'brutefir'
+name = 'brutefir'
+
+homepage = 'http://www.ludd.luth.se/~torger/brutefir.html'
+
+[[package]]
+channel = 'debian'
+name = 'brutefir'

@@ -1,0 +1,8 @@
+id = 'vlfrx-tools'
+name = 'vlfrx-tools'
+
+homepage = 'http://www.abelian.org/vlfrx-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'vlfrx-tools'

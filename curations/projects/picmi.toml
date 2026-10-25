@@ -1,0 +1,12 @@
+id = 'picmi'
+name = 'picmi'
+
+homepage = 'https://apps.kde.org/picmi'
+
+[[package]]
+channel = 'arch'
+name = 'picmi'
+
+[[package]]
+channel = 'fedora'
+name = 'picmi'

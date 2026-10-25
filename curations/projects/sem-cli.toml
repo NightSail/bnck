@@ -1,0 +1,9 @@
+id = 'sem-cli'
+name = 'sem-cli'
+
+homepage = 'https://ataraxy-labs.github.io/sem'
+repository = 'https://github.com/Ataraxy-Labs/sem.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sem-cli'

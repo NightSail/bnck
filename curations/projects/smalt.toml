@@ -1,0 +1,8 @@
+id = 'smalt'
+name = 'smalt'
+
+homepage = 'https://www.sanger.ac.uk/science/tools/smalt-0'
+
+[[package]]
+channel = 'debian'
+name = 'smalt'

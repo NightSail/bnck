@@ -1,0 +1,8 @@
+id = 'nec2c'
+name = 'nec2c'
+
+homepage = 'https://github.com/KJ7LNW/nec2c'
+
+[[package]]
+channel = 'fedora'
+name = 'nec2c'

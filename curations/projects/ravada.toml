@@ -1,0 +1,8 @@
+id = 'ravada'
+name = 'ravada'
+
+homepage = 'https://ravada.upc.edu'
+
+[[package]]
+channel = 'fedora'
+name = 'ravada'

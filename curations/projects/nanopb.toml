@@ -1,0 +1,17 @@
+id = 'nanopb'
+name = 'nanopb'
+
+homepage = 'https://jpa.kapsi.fi/nanopb'
+repository = 'https://github.com/nanopb/nanopb.git'
+
+[[package]]
+channel = 'debian'
+name = 'nanopb'
+
+[[package]]
+channel = 'fedora'
+name = 'nanopb-python3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nanopb'

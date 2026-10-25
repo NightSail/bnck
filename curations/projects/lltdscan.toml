@@ -1,0 +1,8 @@
+id = 'lltdscan'
+name = 'lltdscan'
+
+homepage = 'http://zed.0xff.me/lltd'
+
+[[package]]
+channel = 'debian'
+name = 'lltdscan'

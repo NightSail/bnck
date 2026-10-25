@@ -1,0 +1,8 @@
+id = 'paho-mqtt-c-examples'
+name = 'paho.mqtt.c-examples'
+
+homepage = 'https://github.com/eclipse-paho/paho.mqtt.c'
+
+[[package]]
+channel = 'debian'
+name = 'paho.mqtt.c-examples'

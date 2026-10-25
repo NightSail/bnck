@@ -1,0 +1,24 @@
+id = 'bazel'
+name = 'bazel'
+
+homepage = 'https://bazel.build'
+
+[[package]]
+channel = 'arch'
+name = 'bazel'
+
+[[package]]
+channel = 'debian'
+name = 'bazel-bootstrap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazel@7'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazel@8'

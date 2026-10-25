@@ -1,0 +1,8 @@
+id = 'python3-dlt'
+name = 'python3-dlt'
+
+homepage = 'https://github.com/bmwcarit/python-dlt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dlt'

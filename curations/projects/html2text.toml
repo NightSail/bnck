@@ -1,0 +1,12 @@
+id = 'html2text'
+name = 'html2text'
+
+homepage = 'https://github.com/Alir3z4/html2text'
+
+[[package]]
+channel = 'arch'
+name = 'python-html2text'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-html2text'

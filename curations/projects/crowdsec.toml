@@ -1,0 +1,8 @@
+id = 'crowdsec'
+name = 'crowdsec'
+
+homepage = 'https://github.com/crowdsecurity/crowdsec'
+
+[[package]]
+channel = 'debian'
+name = 'crowdsec'

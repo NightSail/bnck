@@ -1,0 +1,8 @@
+id = 'arf'
+name = 'arf'
+
+homepage = 'https://github.com/eitsupi/arf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arf'

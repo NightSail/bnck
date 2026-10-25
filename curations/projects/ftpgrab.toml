@@ -1,0 +1,6 @@
+id = 'ftpgrab'
+name = 'ftpgrab'
+
+[[package]]
+channel = 'debian'
+name = 'ftpgrab'

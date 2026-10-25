@@ -1,0 +1,24 @@
+id = 'libdnet'
+name = 'libdnet'
+
+homepage = 'https://github.com/ofalk/libdnet'
+
+[[package]]
+channel = 'arch'
+name = 'libdnet'
+
+[[package]]
+channel = 'debian'
+name = 'libdumbnet-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libdnet-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libdnet-progs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdnet'

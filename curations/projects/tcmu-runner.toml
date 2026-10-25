@@ -1,0 +1,12 @@
+id = 'tcmu-runner'
+name = 'tcmu-runner'
+
+homepage = 'https://github.com/open-iscsi/tcmu-runner'
+
+[[package]]
+channel = 'debian'
+name = 'tcmu-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'tcmu-runner'

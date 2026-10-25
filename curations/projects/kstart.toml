@@ -1,0 +1,16 @@
+id = 'kstart'
+name = 'kstart'
+
+homepage = 'https://www.eyrie.org/~eagle/software/kstart'
+
+[[package]]
+channel = 'debian'
+name = 'kstart'
+
+[[package]]
+channel = 'fedora'
+name = 'kstart'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kstart'

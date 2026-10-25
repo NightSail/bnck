@@ -1,0 +1,16 @@
+id = 'libtypec'
+name = 'libtypec'
+
+homepage = 'https://github.com/libtypec/libtypec'
+
+[[package]]
+channel = 'debian'
+name = 'libtypec-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libtypec-guiutils'
+
+[[package]]
+channel = 'fedora'
+name = 'libtypec-utils'

@@ -1,0 +1,8 @@
+id = 'spatialite-tools-fossil'
+name = 'spatialite-tools'
+
+homepage = 'https://www.gaia-gis.it/fossil/spatialite-tools/index'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spatialite-tools'

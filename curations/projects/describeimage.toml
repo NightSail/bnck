@@ -1,0 +1,8 @@
+id = 'describeimage'
+name = 'describeimage'
+
+homepage = 'https://github.com/xyproto/describeimage'
+
+[[package]]
+channel = 'arch'
+name = 'describeimage'

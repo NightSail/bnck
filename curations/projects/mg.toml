@@ -1,0 +1,20 @@
+id = 'mg'
+name = 'mg'
+
+homepage = 'https://github.com/ibara/mg'
+
+[[package]]
+channel = 'arch'
+name = 'mg'
+
+[[package]]
+channel = 'debian'
+name = 'mg'
+
+[[package]]
+channel = 'fedora'
+name = 'mg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mg'

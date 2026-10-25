@@ -1,0 +1,8 @@
+id = 'modclean'
+name = 'modclean'
+
+homepage = 'https://github.com/ModClean/modclean'
+
+[[package]]
+channel = 'arch'
+name = 'modclean'

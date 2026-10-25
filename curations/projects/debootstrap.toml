@@ -4,5 +4,13 @@ name = 'debootstrap'
 homepage = 'https://wiki.debian.org/Debootstrap'
 
 [[package]]
+channel = 'arch'
+name = 'debootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'debootstrap'
+
+[[package]]
 channel = 'fedora'
 name = 'debootstrap'

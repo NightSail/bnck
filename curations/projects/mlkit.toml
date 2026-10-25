@@ -1,0 +1,9 @@
+id = 'mlkit'
+name = 'mlkit'
+
+homepage = 'https://melsman.github.io/mlkit'
+repository = 'https://github.com/melsman/mlkit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlkit'

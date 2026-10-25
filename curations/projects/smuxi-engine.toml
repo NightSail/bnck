@@ -1,0 +1,8 @@
+id = 'smuxi-engine'
+name = 'smuxi-engine'
+
+homepage = 'https://smuxi.im'
+
+[[package]]
+channel = 'debian'
+name = 'smuxi-engine'

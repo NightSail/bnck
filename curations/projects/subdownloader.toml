@@ -1,0 +1,8 @@
+id = 'subdownloader'
+name = 'subdownloader'
+
+homepage = 'https://github.com/subdownloader/subdownloader'
+
+[[package]]
+channel = 'debian'
+name = 'subdownloader'

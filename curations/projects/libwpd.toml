@@ -1,0 +1,12 @@
+id = 'libwpd'
+name = 'libwpd'
+
+homepage = 'https://libwpd.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libwpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libwpd'

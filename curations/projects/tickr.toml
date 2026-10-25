@@ -1,0 +1,8 @@
+id = 'tickr'
+name = 'tickr'
+
+homepage = 'https://www.open-tickr.net'
+
+[[package]]
+channel = 'debian'
+name = 'tickr'

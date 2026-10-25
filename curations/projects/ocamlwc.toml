@@ -1,0 +1,8 @@
+id = 'ocamlwc'
+name = 'ocamlwc'
+
+homepage = 'https://www.lri.fr/~filliatr/software.en.html'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlwc'

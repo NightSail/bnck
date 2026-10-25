@@ -1,0 +1,8 @@
+id = 'udisks2'
+name = 'udisks2'
+
+homepage = 'https://github.com/storaged-project/udisks'
+
+[[package]]
+channel = 'fedora'
+name = 'udisks2'

@@ -1,0 +1,8 @@
+id = 'dualscreen-mouse-utils'
+name = 'dualscreen-mouse-utils'
+
+homepage = 'http://digamma.cs.unm.edu/trac.dmohr/wiki/DualscreenMouseUtils'
+
+[[package]]
+channel = 'fedora'
+name = 'dualscreen-mouse-utils'

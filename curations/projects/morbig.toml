@@ -1,0 +1,8 @@
+id = 'morbig'
+name = 'morbig'
+
+homepage = 'https://github.com/colis-anr/morbig'
+
+[[package]]
+channel = 'debian'
+name = 'morbig'

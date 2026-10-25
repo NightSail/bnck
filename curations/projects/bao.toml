@@ -1,0 +1,8 @@
+id = 'bao'
+name = 'bao'
+
+repository = 'https://github.com/oconnor663/bao.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bao'

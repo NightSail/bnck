@@ -1,0 +1,16 @@
+id = 'dnstwist'
+name = 'dnstwist'
+
+homepage = 'https://dnstwist.it'
+
+[[package]]
+channel = 'debian'
+name = 'dnstwist'
+
+[[package]]
+channel = 'fedora'
+name = 'dnstwist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnstwist'

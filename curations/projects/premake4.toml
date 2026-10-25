@@ -1,0 +1,6 @@
+id = 'premake4'
+name = 'premake4'
+
+[[package]]
+channel = 'debian'
+name = 'premake4'

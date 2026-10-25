@@ -1,0 +1,8 @@
+id = 'epinio'
+name = 'epinio'
+
+homepage = 'https://epinio.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epinio'

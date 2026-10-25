@@ -1,0 +1,8 @@
+id = 'python3-stac-pydantic'
+name = 'python3-stac-pydantic'
+
+homepage = 'https://github.com/stac-utils/stac-pydantic'
+
+[[package]]
+channel = 'debian'
+name = 'python3-stac-pydantic'

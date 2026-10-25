@@ -1,0 +1,16 @@
+id = 'tweak'
+name = 'tweak'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/tweak'
+
+[[package]]
+channel = 'debian'
+name = 'tweak'
+
+[[package]]
+channel = 'fedora'
+name = 'tweak'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tweak'

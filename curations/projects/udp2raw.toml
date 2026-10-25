@@ -1,0 +1,8 @@
+id = 'udp2raw'
+name = 'udp2raw'
+
+homepage = 'https://github.com/wangyu-/udp2raw'
+
+[[package]]
+channel = 'arch'
+name = 'udp2raw'

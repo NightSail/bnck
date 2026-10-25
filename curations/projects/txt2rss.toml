@@ -1,0 +1,6 @@
+id = 'txt2rss'
+name = 'txt2rss'
+
+[[package]]
+channel = 'fedora'
+name = 'txt2rss'

@@ -1,0 +1,8 @@
+id = 'cdde'
+name = 'cdde'
+
+homepage = 'https://cdde.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cdde'

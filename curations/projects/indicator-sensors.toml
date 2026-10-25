@@ -1,0 +1,8 @@
+id = 'indicator-sensors'
+name = 'indicator-sensors'
+
+homepage = 'https://github.com/alexmurray/indicator-sensors'
+
+[[package]]
+channel = 'debian'
+name = 'indicator-sensors'

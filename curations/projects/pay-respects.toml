@@ -1,0 +1,8 @@
+id = 'pay-respects'
+name = 'pay-respects'
+
+homepage = 'https://github.com/iffse/pay-respects'
+
+[[package]]
+channel = 'debian'
+name = 'pay-respects'

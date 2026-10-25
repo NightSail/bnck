@@ -1,0 +1,16 @@
+id = 'python-excel'
+name = 'python-excel'
+
+homepage = 'http://www.python-excel.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-xlrd'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xlrd'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xlrd'

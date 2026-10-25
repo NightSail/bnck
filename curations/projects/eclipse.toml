@@ -1,0 +1,12 @@
+id = 'eclipse'
+name = 'eclipse'
+
+homepage = 'https://www.eclipse.org'
+
+[[package]]
+channel = 'arch'
+name = 'eclipse-ecj'
+
+[[package]]
+channel = 'fedora'
+name = 'ecj'

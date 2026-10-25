@@ -1,0 +1,13 @@
+id = 'asn1c'
+name = 'asn1c'
+
+homepage = 'https://lionet.info/asn1c/blog'
+repository = 'https://github.com/vlm/asn1c.git'
+
+[[package]]
+channel = 'debian'
+name = 'asn1c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asn1c'

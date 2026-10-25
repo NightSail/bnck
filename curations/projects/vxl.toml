@@ -1,0 +1,8 @@
+id = 'vxl'
+name = 'vxl'
+
+homepage = 'https://vxl.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'vxl'

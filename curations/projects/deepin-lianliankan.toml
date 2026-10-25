@@ -1,0 +1,8 @@
+id = 'deepin-lianliankan'
+name = 'deepin-lianliankan'
+
+homepage = 'https://github.com/linuxdeepin/deepin-lianliankan'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-lianliankan'

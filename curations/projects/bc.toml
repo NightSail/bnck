@@ -1,0 +1,24 @@
+id = 'bc'
+name = 'bc'
+
+homepage = 'https://www.gnu.org/software/bc'
+
+[[package]]
+channel = 'arch'
+name = 'bc'
+
+[[package]]
+channel = 'debian'
+name = 'bc'
+
+[[package]]
+channel = 'debian'
+name = 'dc'
+
+[[package]]
+channel = 'fedora'
+name = 'bc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bc'

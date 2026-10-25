@@ -1,0 +1,8 @@
+id = 'pwget'
+name = 'pwget'
+
+homepage = 'https://github.com/jaalto/project--perl-webget'
+
+[[package]]
+channel = 'debian'
+name = 'pwget'

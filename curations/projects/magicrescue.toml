@@ -1,0 +1,8 @@
+id = 'magicrescue'
+name = 'magicrescue'
+
+homepage = 'https://github.com/jbj/magicrescue'
+
+[[package]]
+channel = 'debian'
+name = 'magicrescue'

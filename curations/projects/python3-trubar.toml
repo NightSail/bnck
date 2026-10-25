@@ -1,0 +1,8 @@
+id = 'python3-trubar'
+name = 'python3-trubar'
+
+homepage = 'https://github.com/janezd/trubar'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trubar'

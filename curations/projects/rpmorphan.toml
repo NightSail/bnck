@@ -1,0 +1,8 @@
+id = 'rpmorphan'
+name = 'rpmorphan'
+
+homepage = 'http://rpmorphan.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmorphan'

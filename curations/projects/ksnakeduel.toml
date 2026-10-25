@@ -1,0 +1,12 @@
+id = 'ksnakeduel'
+name = 'ksnakeduel'
+
+homepage = 'https://apps.kde.org/ksnakeduel'
+
+[[package]]
+channel = 'arch'
+name = 'ksnakeduel'
+
+[[package]]
+channel = 'fedora'
+name = 'ksnakeduel'

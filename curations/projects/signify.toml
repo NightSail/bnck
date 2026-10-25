@@ -1,0 +1,16 @@
+id = 'signify'
+name = 'signify'
+
+homepage = 'https://codeberg.org/aperezdc/signify'
+
+[[package]]
+channel = 'arch'
+name = 'signify'
+
+[[package]]
+channel = 'debian'
+name = 'signify'
+
+[[package]]
+channel = 'fedora'
+name = 'signify'

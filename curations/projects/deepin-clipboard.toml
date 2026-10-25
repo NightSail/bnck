@@ -1,0 +1,8 @@
+id = 'deepin-clipboard'
+name = 'deepin-clipboard'
+
+homepage = 'https://github.com/linuxdeepin/dde-clipboard'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-clipboard'

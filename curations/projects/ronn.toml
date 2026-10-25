@@ -1,0 +1,8 @@
+id = 'ronn'
+name = 'ronn'
+
+homepage = 'https://rtomayko.github.io/ronn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ronn'

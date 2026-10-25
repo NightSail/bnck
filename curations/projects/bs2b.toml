@@ -1,0 +1,20 @@
+id = 'bs2b'
+name = 'bs2b'
+
+homepage = 'https://bs2b.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libbs2b'
+
+[[package]]
+channel = 'debian'
+name = 'libbs2b-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libbs2b'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libbs2b'

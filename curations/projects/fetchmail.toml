@@ -1,0 +1,20 @@
+id = 'fetchmail'
+name = 'fetchmail'
+
+homepage = 'https://www.fetchmail.info'
+
+[[package]]
+channel = 'arch'
+name = 'fetchmail'
+
+[[package]]
+channel = 'debian'
+name = 'fetchmail'
+
+[[package]]
+channel = 'fedora'
+name = 'fetchmail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fetchmail'

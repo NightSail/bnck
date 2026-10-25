@@ -1,0 +1,8 @@
+id = 'tirex'
+name = 'tirex'
+
+homepage = 'https://wiki.openstreetmap.org/wiki/Tirex'
+
+[[package]]
+channel = 'debian'
+name = 'tirex'

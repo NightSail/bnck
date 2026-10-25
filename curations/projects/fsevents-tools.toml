@@ -1,0 +1,9 @@
+id = 'fsevents-tools'
+name = 'fsevents-tools'
+
+homepage = 'https://geoff.greer.fm/fsevents'
+repository = 'https://github.com/ggreer/fsevents-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fsevents-tools'

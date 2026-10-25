@@ -1,0 +1,12 @@
+id = 'zx'
+name = 'zx'
+
+homepage = 'https://google.github.io/zx'
+
+[[package]]
+channel = 'debian'
+name = 'zx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zx'

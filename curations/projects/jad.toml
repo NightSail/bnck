@@ -1,0 +1,8 @@
+id = 'jad'
+name = 'jad'
+
+homepage = 'https://varaneckas.com/jad'
+
+[[package]]
+channel = 'arch'
+name = 'jad'

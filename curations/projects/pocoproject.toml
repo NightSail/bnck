@@ -1,0 +1,12 @@
+id = 'pocoproject'
+name = 'pocoproject'
+
+homepage = 'https://pocoproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'poco'
+
+[[package]]
+channel = 'fedora'
+name = 'poco-devel'

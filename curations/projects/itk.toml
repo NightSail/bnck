@@ -1,0 +1,16 @@
+id = 'itk'
+name = 'itk'
+
+homepage = 'https://www.itk.org'
+
+[[package]]
+channel = 'arch'
+name = 'itk'
+
+[[package]]
+channel = 'debian'
+name = 'libinsighttoolkit5-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'InsightToolkit'

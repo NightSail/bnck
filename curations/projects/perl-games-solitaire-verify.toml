@@ -1,0 +1,8 @@
+id = 'perl-games-solitaire-verify'
+name = 'perl-Games-Solitaire-Verify'
+
+homepage = 'https://metacpan.org/release/Games-Solitaire-Verify'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Games-Solitaire-Verify'

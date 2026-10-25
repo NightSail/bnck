@@ -1,0 +1,8 @@
+id = 'minigraph'
+name = 'minigraph'
+
+homepage = 'https://lh3.github.io/minigraph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minigraph'

@@ -1,0 +1,8 @@
+id = 'theseus'
+name = 'theseus'
+
+homepage = 'http://www.theseus3d.org'
+
+[[package]]
+channel = 'debian'
+name = 'theseus'

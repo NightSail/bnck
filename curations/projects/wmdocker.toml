@@ -1,0 +1,12 @@
+id = 'wmdocker'
+name = 'wmdocker'
+
+homepage = 'https://icculus.org/openbox/2/docker'
+
+[[package]]
+channel = 'debian'
+name = 'wmdocker'
+
+[[package]]
+channel = 'fedora'
+name = 'wmdocker'

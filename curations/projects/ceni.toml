@@ -1,0 +1,8 @@
+id = 'ceni'
+name = 'ceni'
+
+homepage = 'https://github.com/fullstory/ceni'
+
+[[package]]
+channel = 'debian'
+name = 'ceni'

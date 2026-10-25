@@ -1,0 +1,8 @@
+id = 'ufmt'
+name = 'ufmt'
+
+homepage = 'https://github.com/omnilib/ufmt'
+
+[[package]]
+channel = 'arch'
+name = 'ufmt'

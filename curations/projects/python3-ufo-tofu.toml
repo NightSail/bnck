@@ -1,0 +1,8 @@
+id = 'python3-ufo-tofu'
+name = 'python3-ufo-tofu'
+
+homepage = 'https://github.com/ufo-kit/tofu'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ufo-tofu'

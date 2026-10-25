@@ -1,0 +1,8 @@
+id = 'tfautomv'
+name = 'tfautomv'
+
+repository = 'https://github.com/busser/tfautomv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfautomv'

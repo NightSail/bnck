@@ -1,0 +1,8 @@
+id = 'trimmomatic'
+name = 'trimmomatic'
+
+homepage = 'http://www.usadellab.org/cms/index.php'
+
+[[package]]
+channel = 'debian'
+name = 'trimmomatic'

@@ -1,0 +1,8 @@
+id = 'mintstick'
+name = 'mintstick'
+
+homepage = 'https://github.com/linuxmint/mintstick'
+
+[[package]]
+channel = 'debian'
+name = 'mintstick'

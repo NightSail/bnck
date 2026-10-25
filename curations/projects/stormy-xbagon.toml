@@ -1,0 +1,8 @@
+id = 'stormy-xbagon'
+name = 'stormy'
+
+repository = 'https://gitlab.com/XBagon/stormy'
+
+[[package]]
+channel = 'crates.io'
+name = 'stormy'

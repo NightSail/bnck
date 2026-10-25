@@ -1,0 +1,13 @@
+id = 'ghz'
+name = 'ghz'
+
+homepage = 'https://ghz.sh'
+repository = 'https://github.com/bojand/ghz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghz-web'

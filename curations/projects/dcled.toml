@@ -1,0 +1,8 @@
+id = 'dcled'
+name = 'dcled'
+
+homepage = 'https://www.jeffrika.com/~malakai/dcled/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcled'

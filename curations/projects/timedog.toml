@@ -1,0 +1,8 @@
+id = 'timedog'
+name = 'timedog'
+
+repository = 'https://github.com/nlfiedler/timedog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/timedog'

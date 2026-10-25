@@ -1,0 +1,8 @@
+id = 'phcpack'
+name = 'phcpack'
+
+homepage = 'https://homepages.math.uic.edu/~jan/PHCpack/phcpack.html'
+
+[[package]]
+channel = 'debian'
+name = 'phcpack'

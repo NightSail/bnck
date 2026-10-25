@@ -1,0 +1,8 @@
+id = 'kqwait'
+name = 'kqwait'
+
+repository = 'https://github.com/sschober/kqwait.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kqwait'

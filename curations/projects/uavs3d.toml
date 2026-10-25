@@ -1,0 +1,8 @@
+id = 'uavs3d'
+name = 'uavs3d'
+
+repository = 'https://github.com/uavs3/uavs3d.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uavs3d'

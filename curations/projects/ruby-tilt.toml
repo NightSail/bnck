@@ -1,0 +1,8 @@
+id = 'ruby-tilt'
+name = 'ruby-tilt'
+
+homepage = 'https://github.com/rtomayko/tilt'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-tilt'

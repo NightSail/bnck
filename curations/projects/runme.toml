@@ -1,0 +1,9 @@
+id = 'runme'
+name = 'runme'
+
+homepage = 'https://runme.dev'
+repository = 'https://github.com/runmedev/runme.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/runme'

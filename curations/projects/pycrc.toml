@@ -1,0 +1,8 @@
+id = 'pycrc'
+name = 'pycrc'
+
+homepage = 'https://pycrc.org'
+
+[[package]]
+channel = 'debian'
+name = 'pycrc'

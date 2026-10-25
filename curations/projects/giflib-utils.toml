@@ -1,0 +1,8 @@
+id = 'giflib-utils'
+name = 'giflib-utils'
+
+homepage = 'http://www.sourceforge.net/projects/giflib'
+
+[[package]]
+channel = 'fedora'
+name = 'giflib-utils'

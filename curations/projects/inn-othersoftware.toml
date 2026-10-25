@@ -1,0 +1,8 @@
+id = 'inn-othersoftware'
+name = 'inn'
+
+homepage = 'https://www.isc.org/othersoftware'
+
+[[package]]
+channel = 'arch'
+name = 'inn'

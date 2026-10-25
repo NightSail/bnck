@@ -1,0 +1,16 @@
+id = 'ctags'
+name = 'ctags'
+
+homepage = 'https://ctags.io'
+
+[[package]]
+channel = 'arch'
+name = 'ctags'
+
+[[package]]
+channel = 'debian'
+name = 'universal-ctags'
+
+[[package]]
+channel = 'fedora'
+name = 'ctags'

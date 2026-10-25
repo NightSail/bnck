@@ -1,0 +1,16 @@
+id = 'isoimagewriter'
+name = 'isoimagewriter'
+
+homepage = 'https://apps.kde.org/isoimagewriter'
+
+[[package]]
+channel = 'arch'
+name = 'isoimagewriter'
+
+[[package]]
+channel = 'debian'
+name = 'isoimagewriter'
+
+[[package]]
+channel = 'fedora'
+name = 'isoimagewriter'

@@ -1,0 +1,8 @@
+id = 'mdk3'
+name = 'mdk3'
+
+homepage = 'https://github.com/aircrack-ng/mdk3'
+
+[[package]]
+channel = 'debian'
+name = 'mdk3'

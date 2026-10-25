@@ -1,0 +1,8 @@
+id = 'starlark-rust'
+name = 'starlark-rust'
+
+repository = 'https://github.com/facebook/starlark-rust.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/starlark-rust'

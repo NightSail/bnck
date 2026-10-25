@@ -1,0 +1,8 @@
+id = 'ruby-dbf'
+name = 'ruby-dbf'
+
+homepage = 'https://github.com/infused/dbf'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-dbf'

@@ -1,0 +1,12 @@
+id = 'lxqt-powermanagement'
+name = 'lxqt-powermanagement'
+
+homepage = 'https://github.com/lxqt/lxqt-powermanagement'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-powermanagement'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-powermanagement'

@@ -1,0 +1,8 @@
+id = 'fuse-encfs'
+name = 'fuse-encfs'
+
+homepage = 'https://github.com/vgough/encfs'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-encfs'

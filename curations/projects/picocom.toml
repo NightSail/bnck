@@ -1,0 +1,20 @@
+id = 'picocom'
+name = 'picocom'
+
+homepage = 'https://gitlab.com/wsakernel/picocom'
+
+[[package]]
+channel = 'arch'
+name = 'picocom'
+
+[[package]]
+channel = 'debian'
+name = 'picocom'
+
+[[package]]
+channel = 'fedora'
+name = 'picocom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picocom'

@@ -1,0 +1,8 @@
+id = 'sweed'
+name = 'sweed'
+
+homepage = 'https://sco.h-its.org/exelixis/web/software/sweed'
+
+[[package]]
+channel = 'debian'
+name = 'sweed'

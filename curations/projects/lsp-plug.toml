@@ -1,0 +1,16 @@
+id = 'lsp-plug'
+name = 'lsp-plug'
+
+homepage = 'https://lsp-plug.in'
+
+[[package]]
+channel = 'arch'
+name = 'lsp-plugins-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'lsp-plugins-jack'
+
+[[package]]
+channel = 'fedora'
+name = 'lsp-plugins'

@@ -1,0 +1,13 @@
+id = 'ip2location'
+name = 'ip2location'
+
+homepage = 'https://www.ip2location.com'
+repository = 'https://github.com/ip2location/IP2Location-C-Library.git'
+
+[[package]]
+channel = 'fedora'
+name = 'IP2Location'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ip2location'

@@ -1,0 +1,6 @@
+id = 'sgml-base'
+name = 'sgml-base'
+
+[[package]]
+channel = 'debian'
+name = 'sgml-base'

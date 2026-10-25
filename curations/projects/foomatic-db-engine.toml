@@ -1,0 +1,12 @@
+id = 'foomatic-db-engine'
+name = 'foomatic-db-engine'
+
+homepage = 'http://www.linuxprinting.org/foomatic.html'
+
+[[package]]
+channel = 'arch'
+name = 'foomatic-db-engine'
+
+[[package]]
+channel = 'debian'
+name = 'foomatic-db-engine'

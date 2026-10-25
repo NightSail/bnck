@@ -1,0 +1,8 @@
+id = 'fml-asm'
+name = 'fml-asm'
+
+homepage = 'https://github.com/lh3/fermi-lite'
+
+[[package]]
+channel = 'debian'
+name = 'fml-asm'

@@ -1,0 +1,8 @@
+id = 'debci'
+name = 'debci'
+
+homepage = 'http://ci.debian.net'
+
+[[package]]
+channel = 'debian'
+name = 'debci'

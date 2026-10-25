@@ -1,0 +1,8 @@
+id = 'fedtex'
+name = 'fedtex'
+
+homepage = 'https://pagure.io/fedtex'
+
+[[package]]
+channel = 'fedora'
+name = 'fedtex'

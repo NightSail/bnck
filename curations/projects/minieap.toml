@@ -1,0 +1,8 @@
+id = 'minieap'
+name = 'minieap'
+
+homepage = 'https://github.com/updateing/minieap'
+
+[[package]]
+channel = 'arch'
+name = 'minieap'

@@ -1,0 +1,8 @@
+id = 'pbdagcon'
+name = 'pbdagcon'
+
+homepage = 'https://github.com/PacificBiosciences/pbdagcon'
+
+[[package]]
+channel = 'debian'
+name = 'pbdagcon'

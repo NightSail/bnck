@@ -1,0 +1,8 @@
+id = 'gitlab-gitaly'
+name = 'gitlab-gitaly'
+
+homepage = 'https://gitlab.com/gitlab-org/gitaly'
+
+[[package]]
+channel = 'arch'
+name = 'gitlab-gitaly'

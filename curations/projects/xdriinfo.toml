@@ -1,0 +1,8 @@
+id = 'xdriinfo'
+name = 'xdriinfo'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xdriinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'xdriinfo'

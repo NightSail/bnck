@@ -1,0 +1,12 @@
+id = 'opentrep'
+name = 'opentrep'
+
+homepage = 'https://github.com/trep/opentrep'
+
+[[package]]
+channel = 'fedora'
+name = 'opentrep'
+
+[[package]]
+channel = 'fedora'
+name = 'opentrep-devel'

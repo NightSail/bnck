@@ -1,0 +1,28 @@
+id = 'linuxcontainers'
+name = 'linuxcontainers'
+
+homepage = 'https://linuxcontainers.org'
+
+[[package]]
+channel = 'arch'
+name = 'lxc'
+
+[[package]]
+channel = 'arch'
+name = 'lxcfs'
+
+[[package]]
+channel = 'debian'
+name = 'liblxc-common'
+
+[[package]]
+channel = 'debian'
+name = 'lxc'
+
+[[package]]
+channel = 'debian'
+name = 'lxc-tests'
+
+[[package]]
+channel = 'debian'
+name = 'lxcfs'

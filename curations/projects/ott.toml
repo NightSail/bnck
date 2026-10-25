@@ -1,0 +1,9 @@
+id = 'ott'
+name = 'ott'
+
+homepage = 'https://www.cl.cam.ac.uk/~pes20/ott'
+repository = 'https://github.com/ott-lang/ott.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ott'

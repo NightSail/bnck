@@ -1,0 +1,8 @@
+id = 'kscope'
+name = 'kscope'
+
+homepage = 'https://github.com/chaoys/kscope'
+
+[[package]]
+channel = 'fedora'
+name = 'kscope'

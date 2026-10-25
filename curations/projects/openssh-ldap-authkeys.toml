@@ -1,0 +1,8 @@
+id = 'openssh-ldap-authkeys'
+name = 'openssh-ldap-authkeys'
+
+homepage = 'https://github.com/fuhry/openssh-ldap-authkeys'
+
+[[package]]
+channel = 'fedora'
+name = 'openssh-ldap-authkeys'

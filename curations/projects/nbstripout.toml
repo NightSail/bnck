@@ -1,0 +1,8 @@
+id = 'nbstripout'
+name = 'nbstripout'
+
+homepage = 'https://github.com/kynan/nbstripout'
+
+[[package]]
+channel = 'debian'
+name = 'nbstripout'

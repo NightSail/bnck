@@ -1,0 +1,8 @@
+id = 'alpm-mtree'
+name = 'alpm-mtree'
+
+homepage = 'https://alpm.archlinux.page/alpm-mtree/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-mtree'

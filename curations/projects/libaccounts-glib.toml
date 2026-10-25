@@ -1,0 +1,16 @@
+id = 'libaccounts-glib'
+name = 'libaccounts-glib'
+
+homepage = 'https://gitlab.com/accounts-sso/libaccounts-glib'
+
+[[package]]
+channel = 'arch'
+name = 'libaccounts-glib'
+
+[[package]]
+channel = 'debian'
+name = 'libaccounts-glib-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libaccounts-glib'

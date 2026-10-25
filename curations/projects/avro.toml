@@ -1,0 +1,24 @@
+id = 'avro'
+name = 'avro'
+
+homepage = 'https://avro.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'avro-bin'
+
+[[package]]
+channel = 'debian'
+name = 'python3-avro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avro-c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avro-cpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avro-tools'

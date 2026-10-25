@@ -1,0 +1,8 @@
+id = 'stalwart-cli'
+name = 'stalwart-cli'
+
+homepage = 'https://github.com/stalwartlabs/cli'
+
+[[package]]
+channel = 'arch'
+name = 'stalwart-cli'

@@ -1,0 +1,8 @@
+id = 'taze'
+name = 'taze'
+
+repository = 'https://github.com/antfu-collective/taze.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taze'

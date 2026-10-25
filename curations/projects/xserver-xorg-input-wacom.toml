@@ -1,0 +1,8 @@
+id = 'xserver-xorg-input-wacom'
+name = 'xserver-xorg-input-wacom'
+
+homepage = 'https://linuxwacom.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xorg-input-wacom'

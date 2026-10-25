@@ -1,0 +1,6 @@
+id = 'sbsigntool'
+name = 'sbsigntool'
+
+[[package]]
+channel = 'debian'
+name = 'sbsigntool'

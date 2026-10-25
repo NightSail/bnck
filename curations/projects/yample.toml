@@ -1,0 +1,8 @@
+id = 'yample'
+name = 'yample'
+
+homepage = 'https://yample.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'yample'

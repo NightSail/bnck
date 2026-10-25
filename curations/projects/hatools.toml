@@ -1,0 +1,8 @@
+id = 'hatools'
+name = 'hatools'
+
+homepage = 'http://fatalmind.com/software/hatools'
+
+[[package]]
+channel = 'fedora'
+name = 'hatools'

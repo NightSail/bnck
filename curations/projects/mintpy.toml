@@ -1,0 +1,8 @@
+id = 'mintpy'
+name = 'mintpy'
+
+homepage = 'https://github.com/insarlab/MintPy'
+
+[[package]]
+channel = 'debian'
+name = 'mintpy'

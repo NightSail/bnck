@@ -1,0 +1,12 @@
+id = 'ginga'
+name = 'ginga'
+
+homepage = 'https://ejeschke.github.io/ginga'
+
+[[package]]
+channel = 'debian'
+name = 'ginga'
+
+[[package]]
+channel = 'fedora'
+name = 'ginga'

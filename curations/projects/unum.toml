@@ -1,0 +1,8 @@
+id = 'unum'
+name = 'unum'
+
+homepage = 'https://www.fourmilab.ch/webtools/unum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unum'

@@ -1,0 +1,8 @@
+id = 'objcryst-fox'
+name = 'objcryst-fox'
+
+homepage = 'https://fox.vincefn.net'
+
+[[package]]
+channel = 'debian'
+name = 'objcryst-fox'

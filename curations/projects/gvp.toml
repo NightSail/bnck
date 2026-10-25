@@ -1,0 +1,8 @@
+id = 'gvp'
+name = 'gvp'
+
+homepage = 'https://github.com/pote/gvp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gvp'

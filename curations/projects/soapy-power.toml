@@ -1,0 +1,8 @@
+id = 'soapy-power'
+name = 'soapy_power'
+
+homepage = 'https://github.com/xmikos/soapy_power'
+
+[[package]]
+channel = 'arch'
+name = 'soapy_power'

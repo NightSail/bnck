@@ -1,0 +1,16 @@
+id = 'virtualenv-clone'
+name = 'virtualenv-clone'
+
+homepage = 'https://github.com/edwardgeorge/virtualenv-clone'
+
+[[package]]
+channel = 'arch'
+name = 'python-virtualenv-clone'
+
+[[package]]
+channel = 'debian'
+name = 'python3-virtualenv-clone'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-virtualenv-clone'

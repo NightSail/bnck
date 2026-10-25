@@ -1,0 +1,8 @@
+id = 'kraken'
+name = 'kraken'
+
+homepage = 'http://ccb.jhu.edu/software/kraken'
+
+[[package]]
+channel = 'debian'
+name = 'kraken'

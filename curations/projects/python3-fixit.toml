@@ -1,0 +1,8 @@
+id = 'python3-fixit'
+name = 'python3-fixit'
+
+homepage = 'https://github.com/Instagram/Fixit'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fixit'

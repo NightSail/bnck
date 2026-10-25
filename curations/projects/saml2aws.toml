@@ -1,0 +1,8 @@
+id = 'saml2aws'
+name = 'saml2aws'
+
+homepage = 'https://github.com/Versent/saml2aws'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/saml2aws'

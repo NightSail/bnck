@@ -1,0 +1,12 @@
+id = 'gnome-robots'
+name = 'gnome-robots'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-robots'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-robots'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-robots'

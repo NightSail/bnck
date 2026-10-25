@@ -1,0 +1,16 @@
+id = 'sipsak'
+name = 'sipsak'
+
+homepage = 'https://github.com/nils-ohlmeier/sipsak'
+
+[[package]]
+channel = 'debian'
+name = 'sipsak'
+
+[[package]]
+channel = 'fedora'
+name = 'sipsak'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sipsak'

@@ -1,0 +1,8 @@
+id = 'golang-github-rsc-devweb'
+name = 'golang-github-rsc-devweb'
+
+homepage = 'https://github.com/rsc/devweb'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-rsc-devweb'

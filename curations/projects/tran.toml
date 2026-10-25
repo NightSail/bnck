@@ -1,0 +1,8 @@
+id = 'tran'
+name = 'tran'
+
+homepage = 'https://github.com/kilobyte/tran'
+
+[[package]]
+channel = 'debian'
+name = 'tran'

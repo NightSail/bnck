@@ -1,0 +1,8 @@
+id = 'bdfresize'
+name = 'bdfresize'
+
+homepage = 'http://openlab.jp/efont'
+
+[[package]]
+channel = 'debian'
+name = 'bdfresize'

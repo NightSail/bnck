@@ -1,0 +1,8 @@
+id = 'golang-github-elazarl-bindata-assetfs'
+name = 'golang-github-elazarl-bindata-assetfs'
+
+homepage = 'https://github.com/elazarl/go-bindata-assetfs'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-elazarl-bindata-assetfs'

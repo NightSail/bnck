@@ -1,0 +1,8 @@
+id = 'ghc-markdown-unlit'
+name = 'ghc-markdown-unlit'
+
+homepage = 'https://hackage.haskell.org/package/markdown-unlit'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-markdown-unlit'

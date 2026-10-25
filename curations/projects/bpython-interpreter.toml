@@ -1,0 +1,20 @@
+id = 'bpython-interpreter'
+name = 'bpython-interpreter'
+
+homepage = 'https://bpython-interpreter.org'
+
+[[package]]
+channel = 'arch'
+name = 'bpython'
+
+[[package]]
+channel = 'debian'
+name = 'bpython'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bpython'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bpython-urwid'

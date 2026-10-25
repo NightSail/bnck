@@ -1,0 +1,8 @@
+id = 'defuddle'
+name = 'defuddle'
+
+homepage = 'https://defuddle.md'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/defuddle'

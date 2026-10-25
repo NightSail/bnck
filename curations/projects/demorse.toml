@@ -1,0 +1,8 @@
+id = 'demorse'
+name = 'demorse'
+
+homepage = 'http://www.qsl.net/5b4az/pages/morse.html'
+
+[[package]]
+channel = 'fedora'
+name = 'demorse'

@@ -1,0 +1,9 @@
+id = 'sby'
+name = 'sby'
+
+homepage = 'https://symbiyosys.readthedocs.io/en/latest'
+repository = 'https://github.com/YosysHQ/sby.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sby'

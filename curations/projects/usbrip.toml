@@ -1,0 +1,8 @@
+id = 'usbrip'
+name = 'usbrip'
+
+homepage = 'https://github.com/snovvcrash/usbrip'
+
+[[package]]
+channel = 'debian'
+name = 'usbrip'

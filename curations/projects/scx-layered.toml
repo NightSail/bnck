@@ -1,0 +1,8 @@
+id = 'scx-layered'
+name = 'scx_layered'
+
+homepage = 'https://crates.io/crates/scx_layered'
+
+[[package]]
+channel = 'fedora'
+name = 'scx_layered'

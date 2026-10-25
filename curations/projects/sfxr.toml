@@ -1,0 +1,8 @@
+id = 'sfxr'
+name = 'sfxr'
+
+homepage = 'http://www.drpetter.se/project_sfxr.html'
+
+[[package]]
+channel = 'fedora'
+name = 'sfxr'

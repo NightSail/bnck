@@ -1,0 +1,8 @@
+id = 'xrdb'
+name = 'xrdb'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xrdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xrdb'

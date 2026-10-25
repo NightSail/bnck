@@ -1,0 +1,12 @@
+id = 'tml'
+name = 'tml'
+
+repository = 'https://github.com/liamg/tml.git'
+
+[[package]]
+channel = 'debian'
+name = 'tml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tml'

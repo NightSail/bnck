@@ -1,0 +1,12 @@
+id = 'atf'
+name = 'atf'
+
+homepage = 'https://github.com/freebsd/atf'
+
+[[package]]
+channel = 'debian'
+name = 'atf-sh'
+
+[[package]]
+channel = 'fedora'
+name = 'libatf-sh'

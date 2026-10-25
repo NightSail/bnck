@@ -1,0 +1,17 @@
+id = 'siril'
+name = 'siril'
+
+homepage = 'https://www.siril.org'
+repository = 'https://gitlab.com/free-astro/siril.git'
+
+[[package]]
+channel = 'debian'
+name = 'siril'
+
+[[package]]
+channel = 'fedora'
+name = 'siril'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/siril'

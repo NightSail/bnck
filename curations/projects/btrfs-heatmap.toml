@@ -1,0 +1,16 @@
+id = 'btrfs-heatmap'
+name = 'btrfs-heatmap'
+
+homepage = 'https://github.com/knorrie/btrfs-heatmap'
+
+[[package]]
+channel = 'arch'
+name = 'btrfs-heatmap'
+
+[[package]]
+channel = 'debian'
+name = 'btrfs-heatmap'
+
+[[package]]
+channel = 'fedora'
+name = 'btrfs-heatmap'

@@ -1,0 +1,20 @@
+id = 'shapelib'
+name = 'shapelib'
+
+homepage = 'http://shapelib.maptools.org'
+
+[[package]]
+channel = 'arch'
+name = 'shapelib'
+
+[[package]]
+channel = 'debian'
+name = 'shapelib'
+
+[[package]]
+channel = 'fedora'
+name = 'shapelib-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shapelib'

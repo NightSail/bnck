@@ -1,0 +1,40 @@
+id = 'winehq'
+name = 'winehq'
+
+homepage = 'https://www.winehq.org'
+
+[[package]]
+channel = 'arch'
+name = 'wine'
+
+[[package]]
+channel = 'debian'
+name = 'vkd3d-compiler'
+
+[[package]]
+channel = 'debian'
+name = 'vkd3d-demos'
+
+[[package]]
+channel = 'debian'
+name = 'wine'
+
+[[package]]
+channel = 'debian'
+name = 'wine64'
+
+[[package]]
+channel = 'debian'
+name = 'wine64-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'wine-common'
+
+[[package]]
+channel = 'fedora'
+name = 'wine-core'
+
+[[package]]
+channel = 'fedora'
+name = 'wine-devel'

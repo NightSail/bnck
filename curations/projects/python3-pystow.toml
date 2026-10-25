@@ -1,0 +1,8 @@
+id = 'python3-pystow'
+name = 'python3-pystow'
+
+homepage = 'https://github.com/cthoyt/pystow'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pystow'

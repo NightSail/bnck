@@ -1,0 +1,8 @@
+id = 'jenkins-debian-glue'
+name = 'jenkins-debian-glue'
+
+homepage = 'https://github.com/mika/jenkins-debian-glue'
+
+[[package]]
+channel = 'debian'
+name = 'jenkins-debian-glue'

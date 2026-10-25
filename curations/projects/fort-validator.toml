@@ -1,0 +1,8 @@
+id = 'fort-validator'
+name = 'fort-validator'
+
+homepage = 'https://nicmx.github.io/FORT-validator'
+
+[[package]]
+channel = 'debian'
+name = 'fort-validator'

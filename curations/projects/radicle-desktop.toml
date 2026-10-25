@@ -1,0 +1,8 @@
+id = 'radicle-desktop'
+name = 'radicle-desktop'
+
+homepage = 'https://radicle.network/desktop'
+
+[[package]]
+channel = 'arch'
+name = 'radicle-desktop'

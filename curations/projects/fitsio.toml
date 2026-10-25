@@ -1,0 +1,12 @@
+id = 'fitsio'
+name = 'fitsio'
+
+homepage = 'https://heasarc.gsfc.nasa.gov/fitsio'
+
+[[package]]
+channel = 'arch'
+name = 'cfitsio'
+
+[[package]]
+channel = 'fedora'
+name = 'cfitsio-utils'

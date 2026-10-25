@@ -1,0 +1,16 @@
+id = 'rdflib'
+name = 'rdflib'
+
+homepage = 'https://github.com/RDFLib/rdflib'
+
+[[package]]
+channel = 'arch'
+name = 'python-rdflib'
+
+[[package]]
+channel = 'debian'
+name = 'python-rdflib-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rdflib'

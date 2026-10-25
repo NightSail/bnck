@@ -1,0 +1,8 @@
+id = 'irony-server'
+name = 'irony-server'
+
+homepage = 'https://github.com/Sarcasm/irony-mode'
+
+[[package]]
+channel = 'debian'
+name = 'irony-server'

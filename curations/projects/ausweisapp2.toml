@@ -1,0 +1,8 @@
+id = 'ausweisapp2'
+name = 'AusweisApp2'
+
+homepage = 'https://www.ausweisapp.bund.de/en'
+
+[[package]]
+channel = 'fedora'
+name = 'AusweisApp2'

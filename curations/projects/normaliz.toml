@@ -1,0 +1,16 @@
+id = 'normaliz'
+name = 'normaliz'
+
+homepage = 'https://www.normaliz.uni-osnabrueck.de'
+
+[[package]]
+channel = 'arch'
+name = 'normaliz'
+
+[[package]]
+channel = 'debian'
+name = 'normaliz-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'normaliz'

@@ -1,0 +1,8 @@
+id = 'hid-replay'
+name = 'hid-replay'
+
+homepage = 'https://github.com/bentiss/hid-replay'
+
+[[package]]
+channel = 'fedora'
+name = 'hid-replay'

@@ -1,0 +1,9 @@
+id = 'phylum-cli'
+name = 'phylum-cli'
+
+homepage = 'https://www.phylum.io'
+repository = 'https://github.com/phylum-dev/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phylum-cli'

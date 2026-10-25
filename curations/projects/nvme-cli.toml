@@ -1,0 +1,16 @@
+id = 'nvme-cli'
+name = 'nvme-cli'
+
+homepage = 'https://github.com/linux-nvme/nvme-cli'
+
+[[package]]
+channel = 'arch'
+name = 'nvme-cli'
+
+[[package]]
+channel = 'debian'
+name = 'nvme-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'nvme-cli'

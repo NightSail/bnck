@@ -1,0 +1,8 @@
+id = 'haskell-crypto-enigma'
+name = 'haskell-crypto-enigma'
+
+homepage = 'https://github.com/orome/crypto-enigma-hs'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-crypto-enigma'

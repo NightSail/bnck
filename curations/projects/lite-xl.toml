@@ -1,0 +1,12 @@
+id = 'lite-xl'
+name = 'lite-xl'
+
+homepage = 'https://lite-xl.com'
+
+[[package]]
+channel = 'arch'
+name = 'lite-xl'
+
+[[package]]
+channel = 'fedora'
+name = 'lite-xl'

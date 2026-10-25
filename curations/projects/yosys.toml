@@ -1,0 +1,33 @@
+id = 'yosys'
+name = 'yosys'
+
+homepage = 'https://yosyshq.net/yosys'
+repository = 'https://github.com/YosysHQ/yosys.git'
+
+[[package]]
+channel = 'arch'
+name = 'yosys'
+
+[[package]]
+channel = 'debian'
+name = 'yosys'
+
+[[package]]
+channel = 'debian'
+name = 'yosys-abc'
+
+[[package]]
+channel = 'debian'
+name = 'yosys-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'yosys'
+
+[[package]]
+channel = 'fedora'
+name = 'yosys-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yosys'

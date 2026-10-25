@@ -1,0 +1,8 @@
+id = 'yubico-pam'
+name = 'yubico-pam'
+
+homepage = 'https://github.com/Yubico/yubico-pam'
+
+[[package]]
+channel = 'arch'
+name = 'yubico-pam'

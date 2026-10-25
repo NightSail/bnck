@@ -1,0 +1,8 @@
+id = 'libgd-perl'
+name = 'libgd-perl'
+
+homepage = 'https://github.com/lstein/Perl-GD'
+
+[[package]]
+channel = 'debian'
+name = 'libgd-perl'

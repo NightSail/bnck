@@ -1,0 +1,8 @@
+id = 'mdless'
+name = 'mdless'
+
+homepage = 'https://github.com/ttscoff/mdless'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdless'

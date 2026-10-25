@@ -1,0 +1,16 @@
+id = 'sigul'
+name = 'sigul'
+
+homepage = 'https://pagure.io/sigul'
+
+[[package]]
+channel = 'fedora'
+name = 'sigul'
+
+[[package]]
+channel = 'fedora'
+name = 'sigul-bridge'
+
+[[package]]
+channel = 'fedora'
+name = 'sigul-server'

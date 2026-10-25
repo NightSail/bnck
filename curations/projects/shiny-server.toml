@@ -1,0 +1,8 @@
+id = 'shiny-server'
+name = 'shiny-server'
+
+homepage = 'https://www.rstudio.com/products/shiny/shiny-server'
+
+[[package]]
+channel = 'debian'
+name = 'shiny-server'

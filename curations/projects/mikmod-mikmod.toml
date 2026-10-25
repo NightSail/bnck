@@ -1,0 +1,12 @@
+id = 'mikmod-mikmod'
+name = 'mikmod'
+
+homepage = 'http://mikmod.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'libmikmod-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mikmod'

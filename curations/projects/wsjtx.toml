@@ -1,0 +1,10 @@
+id = 'wsjtx'
+name = 'wsjtx'
+
+[[package]]
+channel = 'debian'
+name = 'wsjtx'
+
+[[package]]
+channel = 'fedora'
+name = 'wsjtx'

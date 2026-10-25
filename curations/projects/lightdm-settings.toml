@@ -1,0 +1,12 @@
+id = 'lightdm-settings'
+name = 'lightdm-settings'
+
+homepage = 'https://github.com/linuxmint/lightdm-settings'
+
+[[package]]
+channel = 'debian'
+name = 'lightdm-settings'
+
+[[package]]
+channel = 'fedora'
+name = 'lightdm-settings'

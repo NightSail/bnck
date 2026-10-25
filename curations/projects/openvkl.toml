@@ -1,0 +1,12 @@
+id = 'openvkl'
+name = 'openvkl'
+
+homepage = 'https://www.openvkl.org'
+
+[[package]]
+channel = 'arch'
+name = 'openvkl'
+
+[[package]]
+channel = 'fedora'
+name = 'openvkl'

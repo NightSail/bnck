@@ -1,0 +1,9 @@
+id = 'rockcraft'
+name = 'rockcraft'
+
+homepage = 'https://documentation.ubuntu.com/rockcraft'
+repository = 'https://github.com/canonical/rockcraft.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rockcraft'

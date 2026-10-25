@@ -1,0 +1,13 @@
+id = 'pachi'
+name = 'pachi'
+
+homepage = 'lang=en'
+repository = 'https://github.com/pasky/pachi.git'
+
+[[package]]
+channel = 'fedora'
+name = 'pachi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pachi'

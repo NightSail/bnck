@@ -1,0 +1,9 @@
+id = 'lcs'
+name = 'lcs'
+
+homepage = 'https://sourceforge.net/projects/lcsgame'
+repository = 'https://svn.code.sf.net/p/lcsgame/code/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lcs'

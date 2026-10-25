@@ -1,0 +1,8 @@
+id = 'darts'
+name = 'darts'
+
+homepage = 'http://chasen.org/~taku/software/darts'
+
+[[package]]
+channel = 'debian'
+name = 'darts'

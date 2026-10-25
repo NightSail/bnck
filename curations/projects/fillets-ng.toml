@@ -1,0 +1,12 @@
+id = 'fillets-ng'
+name = 'fillets-ng'
+
+homepage = 'http://fillets.sf.net'
+
+[[package]]
+channel = 'arch'
+name = 'fillets-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'fillets-ng'

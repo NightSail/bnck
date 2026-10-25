@@ -4,6 +4,14 @@ name = 'podman'
 homepage = 'https://github.com/containers/podman'
 
 [[package]]
+channel = 'arch'
+name = 'podman'
+
+[[package]]
+channel = 'arch'
+name = 'podman-docker'
+
+[[package]]
 channel = 'debian'
 name = 'podman'
 
@@ -14,3 +22,27 @@ name = 'podman-docker'
 [[package]]
 channel = 'debian'
 name = 'podman-remote'
+
+[[package]]
+channel = 'fedora'
+name = 'podman'
+
+[[package]]
+channel = 'fedora'
+name = 'podman-docker'
+
+[[package]]
+channel = 'fedora'
+name = 'podman-remote'
+
+[[package]]
+channel = 'fedora'
+name = 'podman-tests'
+
+[[package]]
+channel = 'fedora'
+name = 'podmansh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podman'

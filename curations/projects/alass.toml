@@ -1,0 +1,8 @@
+id = 'alass'
+name = 'alass'
+
+homepage = 'https://github.com/kaegi/alass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alass'

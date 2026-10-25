@@ -1,0 +1,16 @@
+id = 'gfarm'
+name = 'gfarm'
+
+homepage = 'https://sourceforge.net/p/gfarm/wiki/Home'
+
+[[package]]
+channel = 'debian'
+name = 'gfarm-client'
+
+[[package]]
+channel = 'debian'
+name = 'gfmd'
+
+[[package]]
+channel = 'debian'
+name = 'gfsd'

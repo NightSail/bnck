@@ -1,0 +1,9 @@
+id = 'ory-hydra'
+name = 'ory-hydra'
+
+homepage = 'https://www.ory.sh/hydra'
+repository = 'https://github.com/ory/hydra.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ory-hydra'

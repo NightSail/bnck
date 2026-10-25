@@ -1,0 +1,8 @@
+id = 'nohang'
+name = 'nohang'
+
+homepage = 'https://github.com/hakavlad/nohang'
+
+[[package]]
+channel = 'debian'
+name = 'nohang'

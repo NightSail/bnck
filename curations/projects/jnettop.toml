@@ -1,0 +1,16 @@
+id = 'jnettop'
+name = 'jnettop'
+
+homepage = 'https://sourceforge.net/projects/jnettop'
+
+[[package]]
+channel = 'arch'
+name = 'jnettop'
+
+[[package]]
+channel = 'debian'
+name = 'jnettop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jnettop'

@@ -1,0 +1,8 @@
+id = 'python3-bioread'
+name = 'python3-bioread'
+
+homepage = 'https://github.com/uwmadison-chm/bioread'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bioread'

@@ -1,0 +1,8 @@
+id = 'pacman4console'
+name = 'pacman4console'
+
+homepage = 'https://sites.google.com/site/doctormike/pacman.html'
+
+[[package]]
+channel = 'debian'
+name = 'pacman4console'

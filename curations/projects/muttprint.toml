@@ -1,0 +1,8 @@
+id = 'muttprint'
+name = 'muttprint'
+
+homepage = 'http://muttprint.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'muttprint'

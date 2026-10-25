@@ -1,0 +1,8 @@
+id = 'pwntools-gallopsled'
+name = 'pwntools'
+
+repository = 'https://github.com/Gallopsled/pwntools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pwntools'

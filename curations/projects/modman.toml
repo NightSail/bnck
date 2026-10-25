@@ -1,0 +1,8 @@
+id = 'modman'
+name = 'modman'
+
+homepage = 'https://github.com/colinmollenhour/modman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/modman'

@@ -1,0 +1,8 @@
+id = 'nota'
+name = 'nota'
+
+homepage = 'https://nota.md'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nota'

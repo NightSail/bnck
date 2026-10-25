@@ -1,0 +1,8 @@
+id = 'nemu-loveucifer'
+name = 'nemu'
+
+repository = 'https://github.com/loveucifer/nemu'
+
+[[package]]
+channel = 'crates.io'
+name = 'nemu'

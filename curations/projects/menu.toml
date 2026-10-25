@@ -1,0 +1,6 @@
+id = 'menu'
+name = 'menu'
+
+[[package]]
+channel = 'debian'
+name = 'menu'

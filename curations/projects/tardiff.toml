@@ -1,0 +1,8 @@
+id = 'tardiff'
+name = 'tardiff'
+
+homepage = 'http://tardiff.coolprojects.org'
+
+[[package]]
+channel = 'debian'
+name = 'tardiff'

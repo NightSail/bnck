@@ -1,0 +1,9 @@
+id = 'argo'
+name = 'argo'
+
+homepage = 'https://argoproj.io'
+repository = 'https://github.com/argoproj/argo-workflows.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argo'

@@ -1,0 +1,9 @@
+id = 'blocky'
+name = 'blocky'
+
+homepage = 'https://0xerr0r.github.io/blocky'
+repository = 'https://github.com/0xerr0r/blocky.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blocky'

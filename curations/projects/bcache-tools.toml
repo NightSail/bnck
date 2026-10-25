@@ -1,0 +1,12 @@
+id = 'bcache-tools'
+name = 'bcache-tools'
+
+homepage = 'https://bcache.evilpiepirate.org'
+
+[[package]]
+channel = 'debian'
+name = 'bcache-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'bcache-tools'

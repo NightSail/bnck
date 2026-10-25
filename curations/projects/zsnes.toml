@@ -1,0 +1,8 @@
+id = 'zsnes'
+name = 'zsnes'
+
+homepage = 'https://github.com/xyproto/zsnes'
+
+[[package]]
+channel = 'arch'
+name = 'zsnes'

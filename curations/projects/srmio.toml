@@ -1,0 +1,8 @@
+id = 'srmio'
+name = 'srmio'
+
+homepage = 'http://www.zuto.de/project/srmio'
+
+[[package]]
+channel = 'fedora'
+name = 'srmio'

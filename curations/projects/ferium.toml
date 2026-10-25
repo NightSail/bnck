@@ -1,0 +1,8 @@
+id = 'ferium'
+name = 'ferium'
+
+repository = 'https://github.com/gorilla-devs/ferium.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ferium'

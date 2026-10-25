@@ -1,0 +1,12 @@
+id = 'fernflower'
+name = 'fernflower'
+
+homepage = 'https://github.com/JetBrains/fernflower'
+
+[[package]]
+channel = 'fedora'
+name = 'fernflower'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fernflower'

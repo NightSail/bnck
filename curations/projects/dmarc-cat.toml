@@ -1,0 +1,8 @@
+id = 'dmarc-cat'
+name = 'dmarc-cat'
+
+homepage = 'https://github.com/keltia/dmarc-cat'
+
+[[package]]
+channel = 'debian'
+name = 'dmarc-cat'

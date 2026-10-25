@@ -1,0 +1,12 @@
+id = 'dtkdeclarative'
+name = 'dtkdeclarative'
+
+homepage = 'https://github.com/linuxdeepin/dtkdeclarative'
+
+[[package]]
+channel = 'arch'
+name = 'dtkdeclarative'
+
+[[package]]
+channel = 'debian'
+name = 'dtk-exhibition'

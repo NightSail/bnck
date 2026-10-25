@@ -1,0 +1,12 @@
+id = 'netcdf-fortran'
+name = 'netcdf-fortran'
+
+homepage = 'https://github.com/Unidata/netcdf-fortran'
+
+[[package]]
+channel = 'arch'
+name = 'netcdf-fortran'
+
+[[package]]
+channel = 'arch'
+name = 'netcdf-fortran-openmpi'

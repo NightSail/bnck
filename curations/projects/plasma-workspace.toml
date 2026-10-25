@@ -10,3 +10,7 @@ name = 'plasma-workspace'
 [[package]]
 channel = 'fedora'
 name = 'plasma-workspace'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-workspace-x11'

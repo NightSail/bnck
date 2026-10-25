@@ -1,0 +1,8 @@
+id = 'ps-mem'
+name = 'ps_mem'
+
+homepage = 'https://github.com/pixelb/ps_mem'
+
+[[package]]
+channel = 'fedora'
+name = 'ps_mem'

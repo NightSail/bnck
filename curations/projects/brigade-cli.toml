@@ -1,0 +1,9 @@
+id = 'brigade-cli'
+name = 'brigade-cli'
+
+homepage = 'https://brigade.sh'
+repository = 'https://github.com/brigadecore/brigade.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brigade-cli'

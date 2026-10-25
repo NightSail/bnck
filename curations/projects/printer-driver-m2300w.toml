@@ -1,0 +1,8 @@
+id = 'printer-driver-m2300w'
+name = 'printer-driver-m2300w'
+
+homepage = 'http://m2300w.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-m2300w'

@@ -1,0 +1,12 @@
+id = 'perl-tidy-sweetened'
+name = 'Perl-Tidy-Sweetened'
+
+homepage = 'https://metacpan.org/release/Perl-Tidy-Sweetened'
+
+[[package]]
+channel = 'debian'
+name = 'perltidier'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-Tidy-Sweetened'

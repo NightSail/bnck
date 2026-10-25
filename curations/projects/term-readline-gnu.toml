@@ -1,0 +1,12 @@
+id = 'term-readline-gnu'
+name = 'Term-ReadLine-Gnu'
+
+homepage = 'https://metacpan.org/release/Term-ReadLine-Gnu'
+
+[[package]]
+channel = 'debian'
+name = 'libterm-readline-gnu-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Term-ReadLine-Gnu'

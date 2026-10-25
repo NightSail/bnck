@@ -1,0 +1,12 @@
+id = 'llm'
+name = 'llm'
+
+homepage = 'https://llm.datasette.io'
+
+[[package]]
+channel = 'debian'
+name = 'llm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llm'

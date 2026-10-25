@@ -1,0 +1,8 @@
+id = 'lv-tool-0-4'
+name = 'lv-tool-0.4'
+
+homepage = 'http://libvisual.org'
+
+[[package]]
+channel = 'debian'
+name = 'lv-tool-0.4'

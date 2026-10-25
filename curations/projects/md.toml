@@ -1,0 +1,16 @@
+id = 'md'
+name = '~md'
+
+homepage = 'http://www.linux.it/~md/software'
+
+[[package]]
+channel = 'debian'
+name = 'switchsh'
+
+[[package]]
+channel = 'fedora'
+name = 'mkpasswd'
+
+[[package]]
+channel = 'fedora'
+name = 'whois'

@@ -1,0 +1,20 @@
+id = 'scala-lang'
+name = 'scala-lang'
+
+homepage = 'https://scala-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scala'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scala@2.12'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scala@2.13'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scala@3.3'

@@ -1,0 +1,8 @@
+id = 'nesc'
+name = 'nesc'
+
+homepage = 'https://github.com/tinyos/nesc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nesc'

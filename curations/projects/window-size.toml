@@ -1,0 +1,8 @@
+id = 'window-size'
+name = 'window-size'
+
+homepage = 'https://github.com/jonschlinkert/window-size'
+
+[[package]]
+channel = 'debian'
+name = 'window-size'

@@ -1,0 +1,6 @@
+id = 'localepurge'
+name = 'localepurge'
+
+[[package]]
+channel = 'debian'
+name = 'localepurge'

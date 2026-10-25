@@ -1,0 +1,8 @@
+id = 'whichman'
+name = 'whichman'
+
+homepage = 'http://linuxfocus.org/~guido'
+
+[[package]]
+channel = 'debian'
+name = 'whichman'

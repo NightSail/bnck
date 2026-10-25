@@ -1,0 +1,20 @@
+id = 'rpcsvc-proto'
+name = 'rpcsvc-proto'
+
+homepage = 'https://github.com/thkukuk/rpcsvc-proto'
+
+[[package]]
+channel = 'arch'
+name = 'rpcsvc-proto'
+
+[[package]]
+channel = 'debian'
+name = 'rpcsvc-proto'
+
+[[package]]
+channel = 'fedora'
+name = 'rpcgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpcsvc-proto'

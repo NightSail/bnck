@@ -1,0 +1,12 @@
+id = 'any2fasta'
+name = 'any2fasta'
+
+homepage = 'https://github.com/tseemann/any2fasta'
+
+[[package]]
+channel = 'debian'
+name = 'any2fasta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/any2fasta'

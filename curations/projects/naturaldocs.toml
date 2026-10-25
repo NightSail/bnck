@@ -1,0 +1,17 @@
+id = 'naturaldocs'
+name = 'naturaldocs'
+
+homepage = 'https://www.naturaldocs.org'
+repository = 'https://github.com/NaturalDocs/NaturalDocs.git'
+
+[[package]]
+channel = 'debian'
+name = 'naturaldocs'
+
+[[package]]
+channel = 'fedora'
+name = 'NaturalDocs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/naturaldocs'

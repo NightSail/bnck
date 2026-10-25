@@ -1,0 +1,8 @@
+id = 'bpftune'
+name = 'bpftune'
+
+homepage = 'https://github.com/oracle/bpftune/tree/main'
+
+[[package]]
+channel = 'debian'
+name = 'bpftune'

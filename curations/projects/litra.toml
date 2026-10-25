@@ -1,0 +1,8 @@
+id = 'litra'
+name = 'litra'
+
+repository = 'https://github.com/timrogers/litra-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/litra'

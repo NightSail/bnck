@@ -1,0 +1,8 @@
+id = 'servefile'
+name = 'servefile'
+
+homepage = 'https://github.com/sebageek/servefile'
+
+[[package]]
+channel = 'debian'
+name = 'servefile'

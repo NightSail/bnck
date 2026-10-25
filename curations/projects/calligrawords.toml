@@ -1,0 +1,8 @@
+id = 'calligrawords'
+name = 'calligrawords'
+
+homepage = 'https://www.calligra.org/words'
+
+[[package]]
+channel = 'debian'
+name = 'calligrawords'

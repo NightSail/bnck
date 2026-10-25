@@ -1,0 +1,16 @@
+id = 'visp'
+name = 'visp'
+
+homepage = 'https://visp.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'libvisp-dev'
+
+[[package]]
+channel = 'debian'
+name = 'visp-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/visp'

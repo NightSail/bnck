@@ -1,0 +1,12 @@
+id = 'cargo-spellcheck'
+name = 'cargo-spellcheck'
+
+repository = 'https://github.com/drahnr/cargo-spellcheck.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-spellcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-spellcheck'

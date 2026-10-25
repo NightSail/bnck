@@ -1,0 +1,8 @@
+id = 'pchar'
+name = 'pchar'
+
+homepage = 'http://www.kitchenlab.org/www/bmah/Software/pchar'
+
+[[package]]
+channel = 'debian'
+name = 'pchar'

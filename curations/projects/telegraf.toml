@@ -1,0 +1,9 @@
+id = 'telegraf'
+name = 'telegraf'
+
+homepage = 'https://www.influxdata.com/time-series-platform/telegraf'
+repository = 'https://github.com/influxdata/telegraf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/telegraf'

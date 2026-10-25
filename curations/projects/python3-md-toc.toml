@@ -1,0 +1,8 @@
+id = 'python3-md-toc'
+name = 'python3-md-toc'
+
+homepage = 'https://github.com/frnmst/md-toc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-md-toc'

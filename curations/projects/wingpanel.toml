@@ -1,0 +1,12 @@
+id = 'wingpanel'
+name = 'wingpanel'
+
+homepage = 'https://github.com/elementary/wingpanel'
+
+[[package]]
+channel = 'arch'
+name = 'wingpanel'
+
+[[package]]
+channel = 'fedora'
+name = 'wingpanel'

@@ -1,0 +1,20 @@
+id = 'appstream'
+name = 'appstream'
+
+homepage = 'https://www.freedesktop.org/wiki/Distributions/AppStream'
+
+[[package]]
+channel = 'arch'
+name = 'appstream'
+
+[[package]]
+channel = 'debian'
+name = 'appstream'
+
+[[package]]
+channel = 'fedora'
+name = 'appstream'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/appstream'

@@ -1,0 +1,8 @@
+id = 'python3-picosvg'
+name = 'python3-picosvg'
+
+homepage = 'https://github.com/googlefonts/picosvg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-picosvg'

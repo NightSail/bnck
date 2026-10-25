@@ -1,0 +1,12 @@
+id = 'nvme-stas'
+name = 'nvme-stas'
+
+homepage = 'https://github.com/linux-nvme/nvme-stas'
+
+[[package]]
+channel = 'debian'
+name = 'nvme-stas'
+
+[[package]]
+channel = 'fedora'
+name = 'nvme-stas'

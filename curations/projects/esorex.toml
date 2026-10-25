@@ -1,0 +1,12 @@
+id = 'esorex'
+name = 'esorex'
+
+homepage = 'https://www.eso.org/sci/software/cpl/esorex.html'
+
+[[package]]
+channel = 'debian'
+name = 'esorex'
+
+[[package]]
+channel = 'fedora'
+name = 'esorex'

@@ -1,0 +1,9 @@
+id = 'mplayer'
+name = 'mplayer'
+
+homepage = 'https://mplayerhq.hu'
+repository = 'svn://svn.mplayerhq.hu/mplayer/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mplayer'

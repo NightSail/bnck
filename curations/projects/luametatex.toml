@@ -1,0 +1,12 @@
+id = 'luametatex'
+name = 'luametatex'
+
+homepage = 'https://wiki.contextgarden.net/LMTX'
+
+[[package]]
+channel = 'arch'
+name = 'luametatex'
+
+[[package]]
+channel = 'debian'
+name = 'luametatex'

@@ -1,0 +1,8 @@
+id = 'supercronic'
+name = 'supercronic'
+
+homepage = 'https://github.com/aptible/supercronic'
+
+[[package]]
+channel = 'debian'
+name = 'supercronic'

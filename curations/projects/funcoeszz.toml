@@ -1,0 +1,12 @@
+id = 'funcoeszz'
+name = 'funcoeszz'
+
+homepage = 'https://funcoeszz.net'
+
+[[package]]
+channel = 'debian'
+name = 'funcoeszz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/funcoeszz'

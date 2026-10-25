@@ -1,0 +1,9 @@
+id = 'ipython-ipython'
+name = 'ipython'
+
+homepage = 'https://ipython.org'
+repository = 'https://github.com/ipython/ipython.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipython'

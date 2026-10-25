@@ -1,0 +1,16 @@
+id = 'munge'
+name = 'munge'
+
+homepage = 'https://github.com/dun/munge'
+
+[[package]]
+channel = 'arch'
+name = 'munge'
+
+[[package]]
+channel = 'debian'
+name = 'munge'
+
+[[package]]
+channel = 'fedora'
+name = 'munge'

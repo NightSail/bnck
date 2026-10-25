@@ -1,0 +1,8 @@
+id = 'python3-pywizlight'
+name = 'python3-pywizlight'
+
+homepage = 'https://github.com/sbidy/pywizlight'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pywizlight'

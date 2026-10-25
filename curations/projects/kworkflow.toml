@@ -1,0 +1,8 @@
+id = 'kworkflow'
+name = 'kworkflow'
+
+homepage = 'https://github.com/kworkflow/kworkflow'
+
+[[package]]
+channel = 'debian'
+name = 'kworkflow'

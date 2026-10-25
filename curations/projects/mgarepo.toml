@@ -1,0 +1,8 @@
+id = 'mgarepo'
+name = 'mgarepo'
+
+homepage = 'http://gitweb.mageia.org/software/build-system/mgarepo'
+
+[[package]]
+channel = 'fedora'
+name = 'mgarepo'

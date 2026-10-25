@@ -1,0 +1,16 @@
+id = 'sec'
+name = 'sec'
+
+homepage = 'https://simple-evcorr.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sec'
+
+[[package]]
+channel = 'fedora'
+name = 'sec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sec'

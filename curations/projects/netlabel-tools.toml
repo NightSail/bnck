@@ -1,0 +1,12 @@
+id = 'netlabel-tools'
+name = 'netlabel-tools'
+
+homepage = 'https://github.com/netlabel/netlabel_tools'
+
+[[package]]
+channel = 'debian'
+name = 'netlabel-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'netlabel_tools'

@@ -1,0 +1,8 @@
+id = 'coxeter'
+name = 'coxeter'
+
+homepage = 'https://github.com/tscrim/coxeter'
+
+[[package]]
+channel = 'arch'
+name = 'coxeter'

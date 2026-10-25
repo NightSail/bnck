@@ -1,0 +1,8 @@
+id = 'confd'
+name = 'confd'
+
+repository = 'https://github.com/kelseyhightower/confd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/confd'

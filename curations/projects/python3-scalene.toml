@@ -1,0 +1,8 @@
+id = 'python3-scalene'
+name = 'python3-scalene'
+
+homepage = 'https://github.com/plasma-umass/scalene'
+
+[[package]]
+channel = 'debian'
+name = 'python3-scalene'

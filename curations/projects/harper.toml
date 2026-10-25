@@ -1,0 +1,13 @@
+id = 'harper'
+name = 'harper'
+
+homepage = 'https://writewithharper.com'
+repository = 'https://github.com/Automattic/harper.git'
+
+[[package]]
+channel = 'arch'
+name = 'harper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/harper'

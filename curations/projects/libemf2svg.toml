@@ -1,0 +1,12 @@
+id = 'libemf2svg'
+name = 'libemf2svg'
+
+homepage = 'https://github.com/kakwa/libemf2svg'
+
+[[package]]
+channel = 'debian'
+name = 'emf2svg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libemf2svg'

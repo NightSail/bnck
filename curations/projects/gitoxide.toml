@@ -1,0 +1,13 @@
+id = 'gitoxide'
+name = 'gitoxide'
+
+homepage = 'https://github.com/Byron/gitoxide'
+repository = 'https://github.com/GitoxideLabs/gitoxide.git'
+
+[[package]]
+channel = 'arch'
+name = 'gitoxide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitoxide'

@@ -4,5 +4,13 @@ name = 'highlight'
 homepage = 'http://andre-simon.de/doku/highlight/en/highlight.php'
 
 [[package]]
+channel = 'arch'
+name = 'highlight'
+
+[[package]]
+channel = 'arch'
+name = 'highlight-gui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/highlight'

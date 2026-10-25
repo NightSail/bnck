@@ -1,0 +1,8 @@
+id = 'python3-pweave'
+name = 'python3-pweave'
+
+homepage = 'https://mpastell.com/pweave'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pweave'

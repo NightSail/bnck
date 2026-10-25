@@ -1,0 +1,24 @@
+id = 'doublecmd'
+name = 'doublecmd'
+
+homepage = 'http://doublecmd.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'doublecmd-qt5'
+
+[[package]]
+channel = 'arch'
+name = 'doublecmd-qt6'
+
+[[package]]
+channel = 'fedora'
+name = 'doublecmd-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'doublecmd-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'doublecmd-qt6'

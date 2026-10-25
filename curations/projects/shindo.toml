@@ -1,0 +1,12 @@
+id = 'shindo'
+name = 'shindo'
+
+homepage = 'https://github.com/geemus/shindo'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-shindo'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-shindo'

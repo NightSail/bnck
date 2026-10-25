@@ -1,0 +1,9 @@
+id = 'gmt-genericmappingtools'
+name = 'gmt'
+
+homepage = 'https://www.generic-mapping-tools.org'
+repository = 'https://github.com/GenericMappingTools/gmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gmt'

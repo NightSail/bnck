@@ -1,0 +1,8 @@
+id = 'fever'
+name = 'fever'
+
+homepage = 'https://github.com/DCSO/fever'
+
+[[package]]
+channel = 'debian'
+name = 'fever'

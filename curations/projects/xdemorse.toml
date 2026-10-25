@@ -1,0 +1,12 @@
+id = 'xdemorse'
+name = 'xdemorse'
+
+homepage = 'https://www.qsl.net/5b4az/pkg/morse/xdemorse/xdemorse.html'
+
+[[package]]
+channel = 'debian'
+name = 'xdemorse'
+
+[[package]]
+channel = 'fedora'
+name = 'xdemorse'

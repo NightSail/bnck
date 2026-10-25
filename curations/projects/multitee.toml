@@ -1,0 +1,8 @@
+id = 'multitee'
+name = 'multitee'
+
+homepage = 'https://code.dogmap.org/fdtools/multitee'
+
+[[package]]
+channel = 'debian'
+name = 'multitee'

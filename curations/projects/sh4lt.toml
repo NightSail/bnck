@@ -1,0 +1,8 @@
+id = 'sh4lt'
+name = 'sh4lt'
+
+homepage = 'https://gitlab.com/sh4lt/sh4lt'
+
+[[package]]
+channel = 'arch'
+name = 'sh4lt'

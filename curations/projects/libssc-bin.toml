@@ -1,0 +1,8 @@
+id = 'libssc-bin'
+name = 'libssc-bin'
+
+homepage = 'https://codeberg.org/DylanVanAssche/libssc.git'
+
+[[package]]
+channel = 'debian'
+name = 'libssc-bin'

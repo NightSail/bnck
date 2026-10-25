@@ -1,0 +1,8 @@
+id = 'retire'
+name = 'retire'
+
+homepage = 'https://retirejs.github.io/retire.js'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/retire'

@@ -1,0 +1,8 @@
+id = 'lfm'
+name = 'lfm'
+
+homepage = 'https://inigo.katxi.org/devel/lfm'
+
+[[package]]
+channel = 'debian'
+name = 'lfm'

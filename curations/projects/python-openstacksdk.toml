@@ -1,0 +1,8 @@
+id = 'python-openstacksdk'
+name = 'python-openstacksdk'
+
+homepage = 'https://docs.openstack.org/openstacksdk'
+
+[[package]]
+channel = 'arch'
+name = 'python-openstacksdk'

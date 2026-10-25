@@ -1,0 +1,6 @@
+id = 'powerdebug'
+name = 'powerdebug'
+
+[[package]]
+channel = 'debian'
+name = 'powerdebug'

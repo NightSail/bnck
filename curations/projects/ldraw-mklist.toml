@@ -1,0 +1,8 @@
+id = 'ldraw-mklist'
+name = 'ldraw-mklist'
+
+homepage = 'https://library.ldraw.org'
+
+[[package]]
+channel = 'debian'
+name = 'ldraw-mklist'

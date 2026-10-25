@@ -1,0 +1,28 @@
+id = 'libftdi'
+name = 'libftdi'
+
+homepage = 'https://www.intra2net.com/en/developer/libftdi'
+
+[[package]]
+channel = 'arch'
+name = 'libftdi'
+
+[[package]]
+channel = 'debian'
+name = 'ftdi-eeprom'
+
+[[package]]
+channel = 'debian'
+name = 'libftdi-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libftdi1-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libftdi-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libftdi'

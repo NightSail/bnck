@@ -1,0 +1,8 @@
+id = 'rsyncrypto'
+name = 'rsyncrypto'
+
+homepage = 'https://rsyncrypto.lingnu.com'
+
+[[package]]
+channel = 'debian'
+name = 'rsyncrypto'

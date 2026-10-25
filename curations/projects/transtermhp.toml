@@ -1,0 +1,8 @@
+id = 'transtermhp'
+name = 'transtermhp'
+
+homepage = 'https://transterm.cbcb.umd.edu'
+
+[[package]]
+channel = 'debian'
+name = 'transtermhp'

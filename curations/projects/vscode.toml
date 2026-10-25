@@ -1,0 +1,20 @@
+id = 'vscode'
+name = 'vscode'
+
+homepage = 'https://github.com/microsoft/vscode'
+
+[[package]]
+channel = 'arch'
+name = 'code'
+
+[[package]]
+channel = 'arch'
+name = 'vscode-css-languageserver'
+
+[[package]]
+channel = 'arch'
+name = 'vscode-html-languageserver'
+
+[[package]]
+channel = 'arch'
+name = 'vscode-json-languageserver'

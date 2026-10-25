@@ -1,0 +1,12 @@
+id = 'test-inline'
+name = 'Test-Inline'
+
+homepage = 'https://metacpan.org/release/Test-Inline'
+
+[[package]]
+channel = 'debian'
+name = 'libtest-inline-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Inline'

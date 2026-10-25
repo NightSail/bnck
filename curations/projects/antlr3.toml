@@ -1,0 +1,12 @@
+id = 'antlr3'
+name = 'antlr3'
+
+homepage = 'http://www.antlr3.org'
+
+[[package]]
+channel = 'debian'
+name = 'antlr3'
+
+[[package]]
+channel = 'fedora'
+name = 'antlr3-tool'

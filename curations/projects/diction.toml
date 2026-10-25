@@ -1,0 +1,16 @@
+id = 'diction'
+name = 'diction'
+
+homepage = 'https://www.gnu.org/software/diction'
+
+[[package]]
+channel = 'debian'
+name = 'diction'
+
+[[package]]
+channel = 'fedora'
+name = 'diction'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diction'

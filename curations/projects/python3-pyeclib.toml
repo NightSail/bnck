@@ -1,0 +1,8 @@
+id = 'python3-pyeclib'
+name = 'python3-pyeclib'
+
+homepage = 'https://github.com/openstack/pyeclib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyeclib'

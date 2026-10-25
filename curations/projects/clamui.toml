@@ -1,0 +1,8 @@
+id = 'clamui'
+name = 'clamui'
+
+homepage = 'https://clamui.com'
+
+[[package]]
+channel = 'arch'
+name = 'clamui'

@@ -1,0 +1,8 @@
+id = 'aften'
+name = 'aften'
+
+homepage = 'https://aften.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aften'

@@ -1,0 +1,13 @@
+id = 'gleam'
+name = 'gleam'
+
+homepage = 'https://gleam.run'
+repository = 'https://github.com/gleam-lang/gleam.git'
+
+[[package]]
+channel = 'arch'
+name = 'gleam'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gleam'

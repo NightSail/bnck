@@ -1,0 +1,8 @@
+id = 'inform6-compiler'
+name = 'inform6-compiler'
+
+homepage = 'https://inform-fiction.org'
+
+[[package]]
+channel = 'debian'
+name = 'inform6-compiler'

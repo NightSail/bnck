@@ -1,0 +1,16 @@
+id = 'passim'
+name = 'passim'
+
+homepage = 'https://github.com/hughsie/passim'
+
+[[package]]
+channel = 'arch'
+name = 'passim'
+
+[[package]]
+channel = 'debian'
+name = 'passim'
+
+[[package]]
+channel = 'fedora'
+name = 'passim'

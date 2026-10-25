@@ -1,0 +1,8 @@
+id = 'perl-module-starter-plugin-cgiapp'
+name = 'perl-Module-Starter-Plugin-CGIApp'
+
+homepage = 'https://metacpan.org/release/Module-Starter-Plugin-CGIApp'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Starter-Plugin-CGIApp'

@@ -1,0 +1,12 @@
+id = 'snixembed'
+name = 'snixembed'
+
+homepage = 'https://git.sr.ht/~steef/snixembed'
+
+[[package]]
+channel = 'arch'
+name = 'snixembed'
+
+[[package]]
+channel = 'debian'
+name = 'snixembed'

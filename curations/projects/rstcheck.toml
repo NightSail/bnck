@@ -1,0 +1,12 @@
+id = 'rstcheck'
+name = 'rstcheck'
+
+homepage = 'https://github.com/rstcheck/rstcheck'
+
+[[package]]
+channel = 'arch'
+name = 'rstcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rstcheck'

@@ -1,0 +1,9 @@
+id = 'pomerium'
+name = 'pomerium'
+
+homepage = 'https://www.pomerium.com'
+repository = 'https://github.com/pomerium/pomerium.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pomerium'

@@ -1,0 +1,12 @@
+id = 'mstflint'
+name = 'mstflint'
+
+homepage = 'https://github.com/Mellanox/mstflint'
+
+[[package]]
+channel = 'debian'
+name = 'mstflint'
+
+[[package]]
+channel = 'fedora'
+name = 'mstflint'

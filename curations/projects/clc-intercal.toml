@@ -1,0 +1,8 @@
+id = 'clc-intercal'
+name = 'clc-intercal'
+
+homepage = 'http://clc.intercal.org.uk'
+
+[[package]]
+channel = 'debian'
+name = 'clc-intercal'

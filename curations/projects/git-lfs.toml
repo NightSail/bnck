@@ -1,0 +1,20 @@
+id = 'git-lfs'
+name = 'git-lfs'
+
+homepage = 'https://git-lfs.com'
+
+[[package]]
+channel = 'arch'
+name = 'git-lfs'
+
+[[package]]
+channel = 'debian'
+name = 'git-lfs'
+
+[[package]]
+channel = 'fedora'
+name = 'git-lfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-lfs'

@@ -1,0 +1,44 @@
+id = 'kerberos'
+name = 'kerberos'
+
+homepage = 'https://web.mit.edu/kerberos'
+
+[[package]]
+channel = 'arch'
+name = 'krb5'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-admin-server'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-gss-samples'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-kdc'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-kdc-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-kpropd'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-multidev'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-user'
+
+[[package]]
+channel = 'debian'
+name = 'libkrb5-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/krb5'

@@ -1,0 +1,9 @@
+id = 'net-snmp-net-snmp-3'
+name = 'net-snmp'
+
+homepage = 'http://www.net-snmp.org'
+repository = 'https://github.com/net-snmp/net-snmp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/net-snmp'

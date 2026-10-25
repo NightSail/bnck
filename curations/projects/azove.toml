@@ -1,0 +1,8 @@
+id = 'azove'
+name = 'azove'
+
+homepage = 'https://people.mpi-inf.mpg.de/alumni/d1/2019/behle/azove.html'
+
+[[package]]
+channel = 'fedora'
+name = 'azove'

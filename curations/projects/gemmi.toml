@@ -1,0 +1,12 @@
+id = 'gemmi'
+name = 'gemmi'
+
+homepage = 'https://project-gemmi.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'gemmi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gemmi'

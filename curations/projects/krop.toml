@@ -1,0 +1,12 @@
+id = 'krop'
+name = 'krop'
+
+homepage = 'http://arminstraub.com/software/krop'
+
+[[package]]
+channel = 'debian'
+name = 'krop'
+
+[[package]]
+channel = 'fedora'
+name = 'krop'

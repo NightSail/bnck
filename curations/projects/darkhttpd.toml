@@ -4,5 +4,13 @@ name = 'darkhttpd'
 homepage = 'https://github.com/emikulic/darkhttpd'
 
 [[package]]
+channel = 'arch'
+name = 'darkhttpd'
+
+[[package]]
 channel = 'fedora'
 name = 'darkhttpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/darkhttpd'

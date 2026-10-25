@@ -1,0 +1,8 @@
+id = 'libime-jyutping-bin'
+name = 'libime-jyutping-bin'
+
+homepage = 'https://github.com/fcitx/libime-jyutping'
+
+[[package]]
+channel = 'debian'
+name = 'libime-jyutping-bin'

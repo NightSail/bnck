@@ -1,0 +1,13 @@
+id = 'depqbf'
+name = 'depqbf'
+
+homepage = 'https://lonsing.github.io/depqbf'
+repository = 'https://github.com/lonsing/depqbf.git'
+
+[[package]]
+channel = 'debian'
+name = 'depqbf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/depqbf'

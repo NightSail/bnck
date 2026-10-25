@@ -1,0 +1,8 @@
+id = 'umr'
+name = 'umr'
+
+homepage = 'https://gitlab.freedesktop.org/tomstdenis/umr'
+
+[[package]]
+channel = 'fedora'
+name = 'umr'

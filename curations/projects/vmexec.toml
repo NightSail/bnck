@@ -1,0 +1,8 @@
+id = 'vmexec'
+name = 'vmexec'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/vmexec'
+
+[[package]]
+channel = 'arch'
+name = 'vmexec'

@@ -1,0 +1,8 @@
+id = 'yewtube'
+name = 'yewtube'
+
+repository = 'https://github.com/mps-youtube/yewtube.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yewtube'

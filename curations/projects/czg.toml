@@ -1,0 +1,8 @@
+id = 'czg'
+name = 'czg'
+
+homepage = 'https://cz-git.qbb.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/czg'

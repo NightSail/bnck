@@ -1,0 +1,8 @@
+id = 'tipp'
+name = 'tipp'
+
+homepage = 'https://github.com/TeraTrees/TIPP'
+
+[[package]]
+channel = 'debian'
+name = 'tipp'

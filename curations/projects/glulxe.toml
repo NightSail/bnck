@@ -1,0 +1,9 @@
+id = 'glulxe'
+name = 'glulxe'
+
+homepage = 'https://www.eblong.com/zarf/glulx'
+repository = 'https://github.com/erkyrath/glulxe.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glulxe'

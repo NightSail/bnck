@@ -1,0 +1,8 @@
+id = 'podman-desktop'
+name = 'podman-desktop'
+
+homepage = 'https://podman-desktop.io'
+
+[[package]]
+channel = 'arch'
+name = 'podman-desktop'

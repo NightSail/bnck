@@ -1,0 +1,12 @@
+id = 'devede'
+name = 'devede'
+
+homepage = 'https://rastersoft.com/programas/devede.html'
+
+[[package]]
+channel = 'arch'
+name = 'devede'
+
+[[package]]
+channel = 'debian'
+name = 'devede'

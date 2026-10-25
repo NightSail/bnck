@@ -4,5 +4,9 @@ name = 'impacket'
 homepage = 'https://github.com/fortra/impacket'
 
 [[package]]
+channel = 'arch'
+name = 'impacket'
+
+[[package]]
 channel = 'fedora'
 name = 'python3-impacket'

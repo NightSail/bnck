@@ -1,0 +1,8 @@
+id = 'licenseplist'
+name = 'licenseplist'
+
+homepage = 'https://www.slideshare.net/mono0926/licenseplist-a-license-list-generator-of-all-your-dependencies-for-ios-applications'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/licenseplist'

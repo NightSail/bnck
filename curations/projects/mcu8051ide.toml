@@ -1,0 +1,8 @@
+id = 'mcu8051ide'
+name = 'mcu8051ide'
+
+homepage = 'https://sourceforge.net/projects/mcu8051ide'
+
+[[package]]
+channel = 'debian'
+name = 'mcu8051ide'

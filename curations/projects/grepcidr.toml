@@ -1,0 +1,16 @@
+id = 'grepcidr'
+name = 'grepcidr'
+
+homepage = 'https://www.pc-tools.net/unix/grepcidr'
+
+[[package]]
+channel = 'debian'
+name = 'grepcidr'
+
+[[package]]
+channel = 'fedora'
+name = 'grepcidr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grepcidr'

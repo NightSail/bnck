@@ -1,0 +1,9 @@
+id = 'fava'
+name = 'fava'
+
+homepage = 'https://beancount.github.io/fava'
+repository = 'https://github.com/beancount/fava.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fava'

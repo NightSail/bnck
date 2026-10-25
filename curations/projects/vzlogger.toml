@@ -1,0 +1,8 @@
+id = 'vzlogger'
+name = 'vzlogger'
+
+homepage = 'http://wiki.volkszaehler.org/software/controller/vzlogger'
+
+[[package]]
+channel = 'debian'
+name = 'vzlogger'

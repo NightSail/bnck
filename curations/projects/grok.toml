@@ -1,0 +1,8 @@
+id = 'grok'
+name = 'grok'
+
+repository = 'https://github.com/jordansissel/grok.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grok'

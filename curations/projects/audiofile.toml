@@ -1,0 +1,16 @@
+id = 'audiofile'
+name = 'audiofile'
+
+homepage = 'https://audiofile.68k.org'
+
+[[package]]
+channel = 'arch'
+name = 'audiofile'
+
+[[package]]
+channel = 'debian'
+name = 'audiofile-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'audiofile'

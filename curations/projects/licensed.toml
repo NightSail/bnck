@@ -1,0 +1,8 @@
+id = 'licensed'
+name = 'licensed'
+
+repository = 'https://github.com/licensee/licensed.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/licensed'

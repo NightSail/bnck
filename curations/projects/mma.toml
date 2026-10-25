@@ -1,0 +1,8 @@
+id = 'mma'
+name = 'mma'
+
+homepage = 'https://www.mellowood.ca/mma'
+
+[[package]]
+channel = 'debian'
+name = 'mma'

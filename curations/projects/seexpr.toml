@@ -1,0 +1,8 @@
+id = 'seexpr'
+name = 'seexpr'
+
+homepage = 'https://wdas.github.io/SeExpr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seexpr'

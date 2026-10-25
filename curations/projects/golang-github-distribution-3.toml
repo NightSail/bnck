@@ -1,0 +1,8 @@
+id = 'golang-github-distribution-3'
+name = 'golang-github-distribution-3'
+
+homepage = 'https://github.com/distribution/distribution'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-distribution-3'

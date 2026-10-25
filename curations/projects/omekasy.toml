@@ -1,0 +1,8 @@
+id = 'omekasy'
+name = 'omekasy'
+
+repository = 'https://github.com/ikanago/omekasy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/omekasy'

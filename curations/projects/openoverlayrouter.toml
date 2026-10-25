@@ -1,0 +1,8 @@
+id = 'openoverlayrouter'
+name = 'openoverlayrouter'
+
+homepage = 'http://openoverlayrouter.org'
+
+[[package]]
+channel = 'debian'
+name = 'openoverlayrouter'

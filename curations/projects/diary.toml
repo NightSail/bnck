@@ -1,0 +1,9 @@
+id = 'diary'
+name = 'diary'
+
+homepage = 'https://diary.p0c.ch'
+repository = 'https://git.in0rdr.ch/diary.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diary'

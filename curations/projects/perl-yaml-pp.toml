@@ -1,0 +1,8 @@
+id = 'perl-yaml-pp'
+name = 'perl-YAML-PP'
+
+homepage = 'https://metacpan.org/release/YAML-PP'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-YAML-PP'

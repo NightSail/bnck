@@ -1,0 +1,8 @@
+id = 'cumin'
+name = 'cumin'
+
+homepage = 'https://github.com/wikimedia/cumin'
+
+[[package]]
+channel = 'debian'
+name = 'cumin'

@@ -1,0 +1,12 @@
+id = 'dav'
+name = 'DAV'
+
+homepage = 'https://hackage.haskell.org/package/DAV'
+
+[[package]]
+channel = 'debian'
+name = 'hdav'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-DAV-devel'

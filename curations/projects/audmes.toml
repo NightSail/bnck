@@ -1,0 +1,8 @@
+id = 'audmes'
+name = 'audmes'
+
+homepage = 'https://sourceforge.net/projects/audmes'
+
+[[package]]
+channel = 'debian'
+name = 'audmes'

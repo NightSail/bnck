@@ -1,0 +1,8 @@
+id = 'python3-webdav'
+name = 'python3-webdav'
+
+homepage = 'https://github.com/andrewleech/PyWebDAV3.git'
+
+[[package]]
+channel = 'debian'
+name = 'python3-webdav'

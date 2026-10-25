@@ -1,0 +1,8 @@
+id = 'shaderc-google'
+name = 'shaderc'
+
+repository = 'https://github.com/google/shaderc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shaderc'

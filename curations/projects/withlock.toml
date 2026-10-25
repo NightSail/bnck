@@ -1,0 +1,8 @@
+id = 'withlock'
+name = 'withlock'
+
+homepage = 'https://github.com/poeml/withlock'
+
+[[package]]
+channel = 'fedora'
+name = 'withlock'

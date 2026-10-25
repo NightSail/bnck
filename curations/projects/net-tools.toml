@@ -1,0 +1,16 @@
+id = 'net-tools'
+name = 'net-tools'
+
+homepage = 'http://net-tools.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'net-tools'
+
+[[package]]
+channel = 'debian'
+name = 'net-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'net-tools'

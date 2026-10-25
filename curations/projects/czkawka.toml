@@ -8,5 +8,9 @@ channel = 'debian'
 name = 'czkawka-cli'
 
 [[package]]
+channel = 'debian'
+name = 'czkawka-gui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/czkawka'

@@ -1,0 +1,9 @@
+id = 'jobber'
+name = 'jobber'
+
+homepage = 'https://dshearer.github.io/jobber'
+repository = 'https://github.com/dshearer/jobber.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jobber'

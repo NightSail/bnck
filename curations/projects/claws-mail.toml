@@ -1,0 +1,24 @@
+id = 'claws-mail'
+name = 'claws-mail'
+
+homepage = 'https://www.claws-mail.org'
+
+[[package]]
+channel = 'arch'
+name = 'claws-mail'
+
+[[package]]
+channel = 'debian'
+name = 'claws-mail'
+
+[[package]]
+channel = 'debian'
+name = 'claws-mail-perl-filter'
+
+[[package]]
+channel = 'fedora'
+name = 'claws-mail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claws-mail'

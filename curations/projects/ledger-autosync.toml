@@ -1,0 +1,8 @@
+id = 'ledger-autosync'
+name = 'ledger-autosync'
+
+homepage = 'https://gitlab.com/egh/ledger-autosync'
+
+[[package]]
+channel = 'debian'
+name = 'ledger-autosync'

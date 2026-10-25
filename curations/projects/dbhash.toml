@@ -1,0 +1,8 @@
+id = 'dbhash'
+name = 'dbhash'
+
+homepage = 'https://www.sqlite.org/dbhash.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbhash'

@@ -1,0 +1,8 @@
+id = 'wordwarvi'
+name = 'wordwarvi'
+
+homepage = 'https://smcameron.github.io/wordwarvi'
+
+[[package]]
+channel = 'fedora'
+name = 'wordwarvi'

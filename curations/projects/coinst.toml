@@ -1,0 +1,8 @@
+id = 'coinst'
+name = 'coinst'
+
+homepage = 'http://coinst.irill.org'
+
+[[package]]
+channel = 'debian'
+name = 'coinst'

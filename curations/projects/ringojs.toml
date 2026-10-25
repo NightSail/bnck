@@ -1,0 +1,8 @@
+id = 'ringojs'
+name = 'ringojs'
+
+homepage = 'https://ringojs.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ringojs'

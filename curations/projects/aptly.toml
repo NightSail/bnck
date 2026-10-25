@@ -1,0 +1,13 @@
+id = 'aptly'
+name = 'aptly'
+
+homepage = 'https://www.aptly.info'
+repository = 'https://github.com/aptly-dev/aptly.git'
+
+[[package]]
+channel = 'debian'
+name = 'aptly'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aptly'

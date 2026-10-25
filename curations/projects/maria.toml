@@ -1,0 +1,8 @@
+id = 'maria'
+name = 'maria'
+
+homepage = 'http://www.tcs.hut.fi/Software/maria'
+
+[[package]]
+channel = 'debian'
+name = 'maria'

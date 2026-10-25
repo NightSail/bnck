@@ -1,0 +1,8 @@
+id = 'step-cli'
+name = 'step-cli'
+
+homepage = 'https://github.com/smallstep/cli'
+
+[[package]]
+channel = 'arch'
+name = 'step-cli'

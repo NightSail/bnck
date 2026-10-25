@@ -1,0 +1,9 @@
+id = 'livebook-cli'
+name = 'livebook-cli'
+
+homepage = 'https://livebook.dev'
+repository = 'https://github.com/livebook-dev/livebook.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/livebook-cli'

@@ -1,0 +1,6 @@
+id = 'mkbootdisk'
+name = 'mkbootdisk'
+
+[[package]]
+channel = 'fedora'
+name = 'mkbootdisk'

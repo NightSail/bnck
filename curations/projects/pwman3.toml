@@ -1,0 +1,8 @@
+id = 'pwman3'
+name = 'pwman3'
+
+homepage = 'https://github.com/pwman3/pwman3'
+
+[[package]]
+channel = 'debian'
+name = 'pwman3'

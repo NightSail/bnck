@@ -1,0 +1,8 @@
+id = 'ki'
+name = 'ki'
+
+repository = 'https://github.com/Kotlin/kotlin-interactive-shell.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ki'

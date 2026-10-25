@@ -1,0 +1,16 @@
+id = 'displaycal-py3'
+name = 'displaycal-py3'
+
+homepage = 'https://github.com/eoyilmaz/displaycal-py3'
+
+[[package]]
+channel = 'arch'
+name = 'displaycal'
+
+[[package]]
+channel = 'debian'
+name = 'displaycal'
+
+[[package]]
+channel = 'fedora'
+name = 'DisplayCAL'

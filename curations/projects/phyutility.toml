@@ -1,0 +1,8 @@
+id = 'phyutility'
+name = 'phyutility'
+
+homepage = 'https://github.com/blackrim/phyutility'
+
+[[package]]
+channel = 'debian'
+name = 'phyutility'

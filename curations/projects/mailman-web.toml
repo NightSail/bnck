@@ -1,0 +1,12 @@
+id = 'mailman-web'
+name = 'mailman-web'
+
+homepage = 'https://gitlab.com/mailman/mailman-web'
+
+[[package]]
+channel = 'arch'
+name = 'mailman-web'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mailman-web'

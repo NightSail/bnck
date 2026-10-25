@@ -1,0 +1,12 @@
+id = 'bpfilter'
+name = 'bpfilter'
+
+homepage = 'https://bpfilter.io'
+
+[[package]]
+channel = 'debian'
+name = 'bpfilter'
+
+[[package]]
+channel = 'fedora'
+name = 'bpfilter'

@@ -1,0 +1,12 @@
+id = 'xmlm'
+name = 'xmlm'
+
+homepage = 'http://erratique.ch/software/xmlm'
+
+[[package]]
+channel = 'debian'
+name = 'libxmlm-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-xmlm'

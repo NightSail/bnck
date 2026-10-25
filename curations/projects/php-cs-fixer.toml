@@ -1,0 +1,12 @@
+id = 'php-cs-fixer'
+name = 'php-cs-fixer'
+
+homepage = 'https://cs.symfony.com'
+
+[[package]]
+channel = 'fedora'
+name = 'php-cs-fixer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php-cs-fixer'

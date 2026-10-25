@@ -1,0 +1,8 @@
+id = 'ax25mail-utils'
+name = 'ax25mail-utils'
+
+homepage = 'https://sourceforge.net/projects/ax25mail'
+
+[[package]]
+channel = 'debian'
+name = 'ax25mail-utils'

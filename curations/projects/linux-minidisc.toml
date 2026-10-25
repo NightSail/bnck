@@ -1,0 +1,12 @@
+id = 'linux-minidisc'
+name = 'linux-minidisc'
+
+homepage = 'https://wiki.physik.fu-berlin.de/linux-minidisc'
+
+[[package]]
+channel = 'debian'
+name = 'minidisc-utils'
+
+[[package]]
+channel = 'debian'
+name = 'qhimdtransfer'

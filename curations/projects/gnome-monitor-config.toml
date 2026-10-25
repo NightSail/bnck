@@ -1,0 +1,8 @@
+id = 'gnome-monitor-config'
+name = 'gnome-monitor-config'
+
+homepage = 'https://github.com/jadahl/gnome-monitor-config'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-monitor-config'

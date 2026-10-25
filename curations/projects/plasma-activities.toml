@@ -1,0 +1,12 @@
+id = 'plasma-activities'
+name = 'plasma-activities'
+
+homepage = 'https://invent.kde.org/plasma/plasma-activities'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-activities-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-activities'

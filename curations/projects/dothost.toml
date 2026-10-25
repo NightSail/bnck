@@ -1,0 +1,8 @@
+id = 'dothost'
+name = 'dothost'
+
+homepage = 'https://jwilk.net/software/dothost'
+
+[[package]]
+channel = 'debian'
+name = 'dothost'

@@ -1,0 +1,12 @@
+id = 'python3-rsa'
+name = 'python3-rsa'
+
+homepage = 'http://stuvel.eu/rsa'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rsa'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rsa'

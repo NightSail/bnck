@@ -1,0 +1,8 @@
+id = 'brew-gem'
+name = 'brew-gem'
+
+repository = 'https://github.com/sportngin/brew-gem.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brew-gem'

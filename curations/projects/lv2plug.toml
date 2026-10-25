@@ -1,0 +1,16 @@
+id = 'lv2plug'
+name = 'lv2plug'
+
+homepage = 'https://lv2plug.in'
+
+[[package]]
+channel = 'arch'
+name = 'lv2'
+
+[[package]]
+channel = 'debian'
+name = 'lv2-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'lv2-devel'

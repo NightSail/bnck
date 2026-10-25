@@ -1,0 +1,8 @@
+id = 'go-ethereum'
+name = 'go-ethereum'
+
+homepage = 'https://geth.ethereum.org'
+
+[[package]]
+channel = 'arch'
+name = 'go-ethereum'

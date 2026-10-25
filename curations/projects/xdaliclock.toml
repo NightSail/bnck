@@ -1,0 +1,12 @@
+id = 'xdaliclock'
+name = 'xdaliclock'
+
+homepage = 'https://www.jwz.org/xdaliclock'
+
+[[package]]
+channel = 'debian'
+name = 'xdaliclock'
+
+[[package]]
+channel = 'fedora'
+name = 'xdaliclock'

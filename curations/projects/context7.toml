@@ -1,0 +1,12 @@
+id = 'context7'
+name = 'context7'
+
+homepage = 'https://context7.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/context7-mcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctx7'

@@ -1,0 +1,8 @@
+id = 'clamav-unofficial-sigs'
+name = 'clamav-unofficial-sigs'
+
+homepage = 'https://github.com/extremeshok/clamav-unofficial-sigs'
+
+[[package]]
+channel = 'fedora'
+name = 'clamav-unofficial-sigs'

@@ -1,0 +1,8 @@
+id = 'liquibase-community'
+name = 'liquibase-community'
+
+homepage = 'https://www.liquibase.com/community'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/liquibase-community'

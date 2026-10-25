@@ -1,0 +1,8 @@
+id = 'sselp'
+name = 'sselp'
+
+homepage = 'http://tools.suckless.org/sselp'
+
+[[package]]
+channel = 'fedora'
+name = 'sselp'

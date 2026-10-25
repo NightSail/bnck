@@ -1,0 +1,17 @@
+id = 'kokkos'
+name = 'kokkos'
+
+homepage = 'https://kokkos.org'
+repository = 'https://github.com/kokkos/kokkos.git'
+
+[[package]]
+channel = 'debian'
+name = 'kokkos'
+
+[[package]]
+channel = 'fedora'
+name = 'kokkos-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kokkos'

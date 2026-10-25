@@ -1,0 +1,8 @@
+id = 'ldap2zone'
+name = 'ldap2zone'
+
+homepage = 'https://oss.gonicus.de/labs/gosa'
+
+[[package]]
+channel = 'debian'
+name = 'ldap2zone'

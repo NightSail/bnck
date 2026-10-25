@@ -1,0 +1,8 @@
+id = 'chrome-devtools-mcp'
+name = 'chrome-devtools-mcp'
+
+homepage = 'https://github.com/chromedevtools/chrome-devtools-mcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chrome-devtools-mcp'

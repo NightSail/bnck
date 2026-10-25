@@ -1,0 +1,8 @@
+id = 'shmcat'
+name = 'shmcat'
+
+homepage = 'https://shmcat.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shmcat'

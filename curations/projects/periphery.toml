@@ -1,0 +1,8 @@
+id = 'periphery'
+name = 'periphery'
+
+repository = 'https://github.com/peripheryapp/periphery.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/periphery'

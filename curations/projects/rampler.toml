@@ -1,0 +1,8 @@
+id = 'rampler'
+name = 'rampler'
+
+homepage = 'https://github.com/rvaser/rampler'
+
+[[package]]
+channel = 'debian'
+name = 'rampler'

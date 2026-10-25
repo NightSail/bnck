@@ -1,0 +1,12 @@
+id = 'cosmic-term'
+name = 'cosmic-term'
+
+homepage = 'https://github.com/pop-os/cosmic-term'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-term'

@@ -1,0 +1,12 @@
+id = '4ti2'
+name = '4ti2'
+
+homepage = 'https://4ti2.github.io'
+
+[[package]]
+channel = 'arch'
+name = '4ti2'
+
+[[package]]
+channel = 'debian'
+name = '4ti2'

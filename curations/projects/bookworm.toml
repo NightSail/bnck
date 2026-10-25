@@ -1,0 +1,16 @@
+id = 'bookworm'
+name = 'bookworm'
+
+homepage = 'https://babluboy.github.io/bookworm'
+
+[[package]]
+channel = 'arch'
+name = 'bookworm'
+
+[[package]]
+channel = 'debian'
+name = 'bookworm'
+
+[[package]]
+channel = 'fedora'
+name = 'bookworm'

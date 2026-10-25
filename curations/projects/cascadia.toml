@@ -1,0 +1,8 @@
+id = 'cascadia'
+name = 'cascadia'
+
+repository = 'https://github.com/suntong/cascadia.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cascadia'

@@ -1,0 +1,6 @@
+id = 'impose'
+name = 'impose+'
+
+[[package]]
+channel = 'debian'
+name = 'impose+'

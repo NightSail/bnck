@@ -1,0 +1,8 @@
+id = 'k0sctl'
+name = 'k0sctl'
+
+repository = 'https://github.com/k0sproject/k0sctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/k0sctl'

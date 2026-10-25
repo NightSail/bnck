@@ -1,0 +1,8 @@
+id = 'systempreferences-app'
+name = 'systempreferences.app'
+
+homepage = 'http://gnustep.org/experience/systempreferences.html'
+
+[[package]]
+channel = 'debian'
+name = 'systempreferences.app'

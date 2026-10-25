@@ -1,0 +1,8 @@
+id = 'axe-demultiplexer'
+name = 'axe-demultiplexer'
+
+homepage = 'https://github.com/kdmurray91/axe'
+
+[[package]]
+channel = 'debian'
+name = 'axe-demultiplexer'

@@ -1,0 +1,8 @@
+id = 'weldr-client'
+name = 'weldr-client'
+
+homepage = 'https://github.com/osbuild/weldr-client'
+
+[[package]]
+channel = 'fedora'
+name = 'weldr-client'

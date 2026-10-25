@@ -1,0 +1,12 @@
+id = 'cups-filters-openprinting'
+name = 'cups-filters'
+
+homepage = 'https://wiki.linuxfoundation.org/openprinting/cups-filters'
+
+[[package]]
+channel = 'arch'
+name = 'cups-browsed'
+
+[[package]]
+channel = 'arch'
+name = 'cups-filters'

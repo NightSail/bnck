@@ -1,0 +1,12 @@
+id = 'pyinstrument'
+name = 'pyinstrument'
+
+homepage = 'https://github.com/joerick/pyinstrument'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyinstrument'
+
+[[package]]
+channel = 'fedora'
+name = 'pyinstrument'

@@ -1,0 +1,12 @@
+id = 'xwaylandvideobridge'
+name = 'xwaylandvideobridge'
+
+homepage = 'https://invent.kde.org/neon-packaging/xwaylandvideobridge'
+
+[[package]]
+channel = 'debian'
+name = 'xwaylandvideobridge'
+
+[[package]]
+channel = 'fedora'
+name = 'xwaylandvideobridge'

@@ -1,0 +1,8 @@
+id = 'podget'
+name = 'podget'
+
+homepage = 'https://github.com/dvehrs/podget'
+
+[[package]]
+channel = 'debian'
+name = 'podget'

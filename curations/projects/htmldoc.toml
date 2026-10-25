@@ -1,0 +1,17 @@
+id = 'htmldoc'
+name = 'htmldoc'
+
+homepage = 'https://www.msweet.org/htmldoc'
+repository = 'https://github.com/michaelrsweet/htmldoc.git'
+
+[[package]]
+channel = 'arch'
+name = 'htmldoc'
+
+[[package]]
+channel = 'debian'
+name = 'htmldoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmldoc'

@@ -1,0 +1,8 @@
+id = 'vfkit'
+name = 'vfkit'
+
+repository = 'https://github.com/crc-org/vfkit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vfkit'

@@ -1,0 +1,8 @@
+id = 'libhttp-recorder-perl'
+name = 'libhttp-recorder-perl'
+
+homepage = 'http://www.bitmistress.org'
+
+[[package]]
+channel = 'debian'
+name = 'libhttp-recorder-perl'

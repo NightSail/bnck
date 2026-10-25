@@ -1,0 +1,12 @@
+id = 'pptpd'
+name = 'pptpd'
+
+homepage = 'http://poptop.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'pptpd'
+
+[[package]]
+channel = 'fedora'
+name = 'pptpd'

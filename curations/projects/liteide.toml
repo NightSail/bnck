@@ -1,0 +1,8 @@
+id = 'liteide'
+name = 'liteide'
+
+homepage = 'https://github.com/visualfc/liteide'
+
+[[package]]
+channel = 'arch'
+name = 'liteide'

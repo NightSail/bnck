@@ -1,0 +1,12 @@
+id = 'alexthepuffin'
+name = 'alexthepuffin'
+
+homepage = 'http://alexthepuffin.googlepages.com/home'
+
+[[package]]
+channel = 'fedora'
+name = 'afpfs-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-afp'

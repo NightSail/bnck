@@ -1,0 +1,8 @@
+id = 'python-coverage'
+name = 'python-coverage'
+
+homepage = 'https://coverage.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-coverage'

@@ -1,0 +1,8 @@
+id = 'warpinator'
+name = 'warpinator'
+
+homepage = 'https://github.com/linuxmint/warpinator'
+
+[[package]]
+channel = 'arch'
+name = 'warpinator'

@@ -1,0 +1,8 @@
+id = 'transrate-tools'
+name = 'transrate-tools'
+
+homepage = 'https://hibberdlab.com/transrate'
+
+[[package]]
+channel = 'debian'
+name = 'transrate-tools'

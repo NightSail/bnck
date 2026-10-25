@@ -1,0 +1,12 @@
+id = 'slim-slim-fork'
+name = 'slim'
+
+homepage = 'http://sourceforge.net/projects/slim-fork'
+
+[[package]]
+channel = 'debian'
+name = 'slim'
+
+[[package]]
+channel = 'fedora'
+name = 'slim'

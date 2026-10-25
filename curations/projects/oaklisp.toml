@@ -1,0 +1,8 @@
+id = 'oaklisp'
+name = 'oaklisp'
+
+homepage = 'https://github.com/barak/oaklisp'
+
+[[package]]
+channel = 'debian'
+name = 'oaklisp'

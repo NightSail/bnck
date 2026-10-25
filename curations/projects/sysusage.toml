@@ -1,0 +1,12 @@
+id = 'sysusage'
+name = 'sysusage'
+
+homepage = 'https://sysusage.darold.net'
+
+[[package]]
+channel = 'fedora'
+name = 'sysusage'
+
+[[package]]
+channel = 'fedora'
+name = 'sysusage-rsysusage'

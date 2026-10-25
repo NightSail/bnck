@@ -1,0 +1,8 @@
+id = 'mia-tools'
+name = 'mia-tools'
+
+homepage = 'https://mia.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mia-tools'

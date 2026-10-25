@@ -1,0 +1,16 @@
+id = 'c2hs'
+name = 'c2hs'
+
+homepage = 'https://github.com/haskell/c2hs'
+
+[[package]]
+channel = 'arch'
+name = 'c2hs'
+
+[[package]]
+channel = 'debian'
+name = 'c2hs'
+
+[[package]]
+channel = 'fedora'
+name = 'c2hs'

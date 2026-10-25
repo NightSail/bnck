@@ -1,0 +1,8 @@
+id = 'termtosvg'
+name = 'termtosvg'
+
+homepage = 'https://github.com/nbedos/termtosvg'
+
+[[package]]
+channel = 'debian'
+name = 'termtosvg'

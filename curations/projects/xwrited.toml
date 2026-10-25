@@ -1,0 +1,8 @@
+id = 'xwrited'
+name = 'xwrited'
+
+homepage = 'https://code.guido-berhoerster.org/projects/xwrited'
+
+[[package]]
+channel = 'debian'
+name = 'xwrited'

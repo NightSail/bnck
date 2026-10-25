@@ -1,0 +1,8 @@
+id = 'textmate'
+name = 'textmate'
+
+homepage = 'https://macromates.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/textmate'

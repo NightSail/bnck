@@ -1,0 +1,8 @@
+id = 'nessus'
+name = 'nessus'
+
+homepage = 'https://www.tenable.com/products/nessus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nessus'

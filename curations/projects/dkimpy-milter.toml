@@ -1,0 +1,8 @@
+id = 'dkimpy-milter'
+name = 'dkimpy-milter'
+
+homepage = 'https://launchpad.net/dkimpy-milter'
+
+[[package]]
+channel = 'debian'
+name = 'dkimpy-milter'

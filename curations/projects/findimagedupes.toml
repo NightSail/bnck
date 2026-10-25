@@ -1,0 +1,8 @@
+id = 'findimagedupes'
+name = 'findimagedupes'
+
+homepage = 'http://www.jhnc.org/findimagedupes'
+
+[[package]]
+channel = 'debian'
+name = 'findimagedupes'

@@ -1,0 +1,8 @@
+id = 'doschk'
+name = 'doschk'
+
+homepage = 'http://www.gnu.org/software/doschk'
+
+[[package]]
+channel = 'debian'
+name = 'doschk'

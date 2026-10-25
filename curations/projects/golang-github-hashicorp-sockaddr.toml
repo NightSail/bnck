@@ -1,0 +1,8 @@
+id = 'golang-github-hashicorp-sockaddr'
+name = 'golang-github-hashicorp-sockaddr'
+
+homepage = 'https://github.com/hashicorp/go-sockaddr'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-hashicorp-sockaddr'

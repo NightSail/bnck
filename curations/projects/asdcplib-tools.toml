@@ -1,0 +1,8 @@
+id = 'asdcplib-tools'
+name = 'asdcplib-tools'
+
+homepage = 'http://www.cinecert.com/asdcplib'
+
+[[package]]
+channel = 'fedora'
+name = 'asdcplib-tools'

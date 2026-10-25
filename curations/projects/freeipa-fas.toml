@@ -1,0 +1,8 @@
+id = 'freeipa-fas'
+name = 'freeipa-fas'
+
+homepage = 'https://github.com/fedora-infra/freeipa-fas'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-fas'

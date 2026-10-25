@@ -1,0 +1,8 @@
+id = 'radiotray-ng'
+name = 'radiotray-ng'
+
+homepage = 'https://github.com/ebruck/radiotray-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'radiotray-ng'

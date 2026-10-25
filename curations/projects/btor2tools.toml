@@ -1,0 +1,8 @@
+id = 'btor2tools'
+name = 'btor2tools'
+
+homepage = 'https://github.com/hwmcc/btor2tools'
+
+[[package]]
+channel = 'debian'
+name = 'btor2tools'

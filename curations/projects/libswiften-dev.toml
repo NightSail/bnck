@@ -1,0 +1,8 @@
+id = 'libswiften-dev'
+name = 'libswiften-dev'
+
+homepage = 'https://swift.im'
+
+[[package]]
+channel = 'debian'
+name = 'libswiften-dev'

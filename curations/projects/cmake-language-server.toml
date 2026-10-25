@@ -1,0 +1,8 @@
+id = 'cmake-language-server'
+name = 'cmake-language-server'
+
+repository = 'https://github.com/regen100/cmake-language-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmake-language-server'

@@ -1,0 +1,16 @@
+id = 'labwc'
+name = 'labwc'
+
+homepage = 'https://github.com/labwc/labwc'
+
+[[package]]
+channel = 'arch'
+name = 'labwc'
+
+[[package]]
+channel = 'debian'
+name = 'labwc'
+
+[[package]]
+channel = 'fedora'
+name = 'labwc'

@@ -1,0 +1,8 @@
+id = 'openapi-python-client'
+name = 'openapi-python-client'
+
+homepage = 'https://github.com/openapi-generators/openapi-python-client'
+
+[[package]]
+channel = 'fedora'
+name = 'openapi-python-client'

@@ -1,0 +1,8 @@
+id = 'popularity-contest'
+name = 'popularity-contest'
+
+homepage = 'https://popcon.debian.org'
+
+[[package]]
+channel = 'debian'
+name = 'popularity-contest'

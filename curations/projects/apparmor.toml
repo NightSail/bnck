@@ -6,3 +6,19 @@ homepage = 'https://gitlab.com/apparmor/apparmor'
 [[package]]
 channel = 'arch'
 name = 'apparmor'
+
+[[package]]
+channel = 'debian'
+name = 'apparmor'
+
+[[package]]
+channel = 'debian'
+name = 'apparmor-notify'
+
+[[package]]
+channel = 'debian'
+name = 'apparmor-utils'
+
+[[package]]
+channel = 'debian'
+name = 'dh-apparmor'

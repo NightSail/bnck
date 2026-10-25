@@ -1,0 +1,12 @@
+id = 'app-ccdiff'
+name = 'App-ccdiff'
+
+homepage = 'https://metacpan.org/release/App-ccdiff'
+
+[[package]]
+channel = 'debian'
+name = 'ccdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-ccdiff'

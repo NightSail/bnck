@@ -1,0 +1,16 @@
+id = 'votca'
+name = 'votca'
+
+homepage = 'https://www.votca.org'
+
+[[package]]
+channel = 'debian'
+name = 'votca'
+
+[[package]]
+channel = 'fedora'
+name = 'votca'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/votca'

@@ -1,0 +1,12 @@
+id = 'jupyter-console'
+name = 'jupyter-console'
+
+homepage = 'https://pypi.org/project/jupyter_console'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-console'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-console'

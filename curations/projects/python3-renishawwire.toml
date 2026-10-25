@@ -1,0 +1,8 @@
+id = 'python3-renishawwire'
+name = 'python3-renishawwire'
+
+homepage = 'https://github.com/alchem0x2A/py-wdf-reader'
+
+[[package]]
+channel = 'debian'
+name = 'python3-renishawwire'

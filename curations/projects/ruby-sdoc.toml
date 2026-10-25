@@ -1,0 +1,8 @@
+id = 'ruby-sdoc'
+name = 'ruby-sdoc'
+
+homepage = 'https://github.com/voloko/sdoc'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-sdoc'

@@ -1,0 +1,8 @@
+id = 'colorize'
+name = 'colorize'
+
+homepage = 'http://cgit.refcnt.org/colorize.git/about'
+
+[[package]]
+channel = 'debian'
+name = 'colorize'

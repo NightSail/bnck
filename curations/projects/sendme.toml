@@ -1,0 +1,13 @@
+id = 'sendme'
+name = 'sendme'
+
+homepage = 'https://iroh.computer/sendme'
+repository = 'https://github.com/n0-computer/sendme.git'
+
+[[package]]
+channel = 'arch'
+name = 'sendme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sendme'

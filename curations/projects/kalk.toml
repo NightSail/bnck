@@ -1,0 +1,16 @@
+id = 'kalk'
+name = 'kalk'
+
+homepage = 'https://apps.kde.org/kalk'
+
+[[package]]
+channel = 'arch'
+name = 'kalk'
+
+[[package]]
+channel = 'debian'
+name = 'kalk'
+
+[[package]]
+channel = 'fedora'
+name = 'kalk'

@@ -1,0 +1,8 @@
+id = 'sanoid'
+name = 'sanoid'
+
+homepage = 'https://github.com/jimsalterjrs/sanoid'
+
+[[package]]
+channel = 'debian'
+name = 'sanoid'

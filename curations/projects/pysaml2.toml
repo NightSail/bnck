@@ -1,0 +1,12 @@
+id = 'pysaml2'
+name = 'pysaml2'
+
+homepage = 'https://github.com/IdentityPython/pysaml2'
+
+[[package]]
+channel = 'arch'
+name = 'python-pysaml2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysaml2'

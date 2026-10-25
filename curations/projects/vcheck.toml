@@ -1,0 +1,8 @@
+id = 'vcheck'
+name = 'vcheck'
+
+homepage = 'https://web.archive.org/web/20021202133055/http://www.tu-ilmenau.de:80/~gomar/stuff/vcheck'
+
+[[package]]
+channel = 'debian'
+name = 'vcheck'

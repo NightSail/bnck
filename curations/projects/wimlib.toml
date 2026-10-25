@@ -1,0 +1,20 @@
+id = 'wimlib'
+name = 'wimlib'
+
+homepage = 'https://wimlib.net'
+
+[[package]]
+channel = 'arch'
+name = 'wimlib'
+
+[[package]]
+channel = 'debian'
+name = 'wimtools'
+
+[[package]]
+channel = 'fedora'
+name = 'wimlib-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wimlib'

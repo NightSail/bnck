@@ -1,0 +1,9 @@
+id = 'ocaml-ocaml'
+name = 'ocaml'
+
+homepage = 'https://ocaml.org'
+repository = 'https://github.com/ocaml/ocaml.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocaml'

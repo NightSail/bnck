@@ -1,0 +1,12 @@
+id = 'genimage'
+name = 'genimage'
+
+homepage = 'https://github.com/pengutronix/genimage'
+
+[[package]]
+channel = 'debian'
+name = 'genimage'
+
+[[package]]
+channel = 'fedora'
+name = 'genimage'

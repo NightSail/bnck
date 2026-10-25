@@ -1,0 +1,12 @@
+id = 'cpipe'
+name = 'cpipe'
+
+homepage = 'https://sourceforge.net/projects/cpipe.berlios'
+
+[[package]]
+channel = 'debian'
+name = 'cpipe'
+
+[[package]]
+channel = 'fedora'
+name = 'cpipe'

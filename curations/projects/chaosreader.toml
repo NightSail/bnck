@@ -1,0 +1,8 @@
+id = 'chaosreader'
+name = 'chaosreader'
+
+homepage = 'https://www.brendangregg.com/chaosreader.html'
+
+[[package]]
+channel = 'debian'
+name = 'chaosreader'

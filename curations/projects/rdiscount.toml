@@ -1,0 +1,12 @@
+id = 'rdiscount'
+name = 'rdiscount'
+
+homepage = 'https://dafoster.net/projects/rdiscount'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rdiscount'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rdiscount'

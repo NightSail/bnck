@@ -1,0 +1,8 @@
+id = 'argo-workflows'
+name = 'argo-workflows'
+
+homepage = 'https://github.com/argoproj/argo-workflows'
+
+[[package]]
+channel = 'arch'
+name = 'argo-workflows'

@@ -1,0 +1,8 @@
+id = 'enpass-cli'
+name = 'enpass-cli'
+
+repository = 'https://github.com/hazcod/enpass-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enpass-cli'

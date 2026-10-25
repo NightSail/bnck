@@ -1,0 +1,8 @@
+id = 'python3-masakari-monitors'
+name = 'python3-masakari-monitors'
+
+homepage = 'https://opendev.org/openstack/masakari-monitors'
+
+[[package]]
+channel = 'debian'
+name = 'python3-masakari-monitors'

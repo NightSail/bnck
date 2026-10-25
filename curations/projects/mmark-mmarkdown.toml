@@ -1,0 +1,9 @@
+id = 'mmark-mmarkdown'
+name = 'mmark'
+
+homepage = 'https://mmark.miek.nl'
+repository = 'https://github.com/mmarkdown/mmark.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmark'

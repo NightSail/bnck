@@ -1,0 +1,8 @@
+id = 'ltunify'
+name = 'ltunify'
+
+homepage = 'https://lekensteyn.nl/logitech-unifying.html'
+
+[[package]]
+channel = 'debian'
+name = 'ltunify'

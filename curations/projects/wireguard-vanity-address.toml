@@ -1,0 +1,8 @@
+id = 'wireguard-vanity-address'
+name = 'wireguard-vanity-address'
+
+homepage = 'https://github.com/warner/wireguard-vanity-address'
+
+[[package]]
+channel = 'arch'
+name = 'wireguard-vanity-address'

@@ -1,0 +1,8 @@
+id = 'screen-message'
+name = 'screen-message'
+
+homepage = 'http://www.joachim-breitner.de/projects'
+
+[[package]]
+channel = 'arch'
+name = 'screen-message'

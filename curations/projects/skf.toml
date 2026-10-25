@@ -1,0 +1,8 @@
+id = 'skf'
+name = 'skf'
+
+homepage = 'http://osdn.jp/projects/skf'
+
+[[package]]
+channel = 'fedora'
+name = 'skf'

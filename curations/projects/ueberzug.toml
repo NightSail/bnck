@@ -1,0 +1,12 @@
+id = 'ueberzug'
+name = 'ueberzug'
+
+homepage = 'https://github.com/ueber-devel/ueberzug'
+
+[[package]]
+channel = 'arch'
+name = 'ueberzug'
+
+[[package]]
+channel = 'debian'
+name = 'ueberzug'

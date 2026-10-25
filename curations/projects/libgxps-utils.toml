@@ -1,0 +1,8 @@
+id = 'libgxps-utils'
+name = 'libgxps-utils'
+
+homepage = 'https://wiki.gnome.org/libgxps'
+
+[[package]]
+channel = 'debian'
+name = 'libgxps-utils'

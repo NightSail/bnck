@@ -1,0 +1,8 @@
+id = 'lunar'
+name = 'lunar'
+
+homepage = 'https://web.archive.org/web/20051027042122/https://umunhum.stanford.edu/~lee/chicomp/chicomp.html'
+
+[[package]]
+channel = 'debian'
+name = 'lunar'

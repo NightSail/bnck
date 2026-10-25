@@ -1,0 +1,8 @@
+id = 'perl-lingua-en-pluraltosingular'
+name = 'perl-Lingua-EN-PluralToSingular'
+
+homepage = 'https://metacpan.org/release/Lingua-EN-PluralToSingular'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Lingua-EN-PluralToSingular'

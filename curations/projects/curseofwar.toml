@@ -1,0 +1,9 @@
+id = 'curseofwar'
+name = 'curseofwar'
+
+homepage = 'https://a-nikolaev.github.io/curseofwar'
+repository = 'https://github.com/a-nikolaev/curseofwar.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/curseofwar'

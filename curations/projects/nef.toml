@@ -1,0 +1,8 @@
+id = 'nef'
+name = 'nef'
+
+homepage = 'https://nef.bow-swift.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nef'

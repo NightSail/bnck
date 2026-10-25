@@ -1,0 +1,12 @@
+id = 'rear'
+name = 'rear'
+
+homepage = 'https://relax-and-recover.org'
+
+[[package]]
+channel = 'debian'
+name = 'rear'
+
+[[package]]
+channel = 'fedora'
+name = 'rear'

@@ -1,0 +1,16 @@
+id = 'vym'
+name = 'vym'
+
+homepage = 'https://www.insilmaril.de/vym'
+
+[[package]]
+channel = 'arch'
+name = 'vym'
+
+[[package]]
+channel = 'debian'
+name = 'vym'
+
+[[package]]
+channel = 'fedora'
+name = 'vym'

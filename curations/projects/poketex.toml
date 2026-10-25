@@ -1,0 +1,8 @@
+id = 'poketex'
+name = 'poketex'
+
+homepage = 'https://github.com/ckaznable/poketex'
+
+[[package]]
+channel = 'arch'
+name = 'poketex'

@@ -1,0 +1,8 @@
+id = 'ngmlr'
+name = 'ngmlr'
+
+homepage = 'https://github.com/philres/ngmlr'
+
+[[package]]
+channel = 'debian'
+name = 'ngmlr'

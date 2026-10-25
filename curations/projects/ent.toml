@@ -1,0 +1,12 @@
+id = 'ent'
+name = 'ent'
+
+homepage = 'https://www.fourmilab.ch/random'
+
+[[package]]
+channel = 'debian'
+name = 'ent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ent'

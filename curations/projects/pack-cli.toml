@@ -1,0 +1,8 @@
+id = 'pack-cli'
+name = 'pack-cli'
+
+homepage = 'https://buildpacks.io'
+
+[[package]]
+channel = 'arch'
+name = 'pack-cli'

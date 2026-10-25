@@ -1,0 +1,8 @@
+id = 'plan9port'
+name = 'plan9port'
+
+homepage = 'https://9fans.github.io/plan9port'
+
+[[package]]
+channel = 'arch'
+name = 'plan9port'

@@ -1,0 +1,8 @@
+id = 'scrappie'
+name = 'scrappie'
+
+homepage = 'https://github.com/nanoporetech/scrappie'
+
+[[package]]
+channel = 'debian'
+name = 'scrappie'

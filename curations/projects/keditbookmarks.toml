@@ -1,0 +1,8 @@
+id = 'keditbookmarks'
+name = 'keditbookmarks'
+
+homepage = 'https://invent.kde.org/utilities/keditbookmarks'
+
+[[package]]
+channel = 'debian'
+name = 'keditbookmarks'

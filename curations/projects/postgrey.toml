@@ -1,0 +1,16 @@
+id = 'postgrey'
+name = 'postgrey'
+
+homepage = 'https://postgrey.schweikert.ch'
+
+[[package]]
+channel = 'arch'
+name = 'postgrey'
+
+[[package]]
+channel = 'debian'
+name = 'postgrey'
+
+[[package]]
+channel = 'fedora'
+name = 'postgrey'

@@ -1,0 +1,12 @@
+id = 'xcircuit'
+name = 'xcircuit'
+
+homepage = 'http://opencircuitdesign.com/xcircuit'
+
+[[package]]
+channel = 'debian'
+name = 'xcircuit'
+
+[[package]]
+channel = 'fedora'
+name = 'xcircuit'

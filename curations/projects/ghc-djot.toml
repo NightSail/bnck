@@ -1,0 +1,8 @@
+id = 'ghc-djot'
+name = 'ghc-djot'
+
+homepage = 'https://hackage.haskell.org/package/djot'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-djot'

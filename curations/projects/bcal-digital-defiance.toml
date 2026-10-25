@@ -1,0 +1,9 @@
+id = 'bcal-digital-defiance'
+name = 'bcal'
+
+homepage = 'https://brightdate.org'
+repository = 'https://github.com/Digital-Defiance/brightdate-rust'
+
+[[package]]
+channel = 'crates.io'
+name = 'bcal'

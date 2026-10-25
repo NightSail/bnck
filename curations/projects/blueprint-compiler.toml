@@ -1,0 +1,21 @@
+id = 'blueprint-compiler'
+name = 'blueprint-compiler'
+
+homepage = 'https://gnome.pages.gitlab.gnome.org/blueprint-compiler'
+repository = 'https://gitlab.gnome.org/GNOME/blueprint-compiler.git'
+
+[[package]]
+channel = 'arch'
+name = 'blueprint-compiler'
+
+[[package]]
+channel = 'debian'
+name = 'blueprint-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'blueprint-compiler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blueprint-compiler'

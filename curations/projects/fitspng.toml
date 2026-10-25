@@ -1,0 +1,8 @@
+id = 'fitspng'
+name = 'fitspng'
+
+homepage = 'https://integral.physics.muni.cz/fitspng'
+
+[[package]]
+channel = 'debian'
+name = 'fitspng'

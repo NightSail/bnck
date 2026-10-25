@@ -1,0 +1,8 @@
+id = 'ckan'
+name = 'ckan'
+
+homepage = 'https://github.com/KSP-CKAN/CKAN'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ckan'

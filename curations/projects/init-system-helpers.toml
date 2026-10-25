@@ -1,0 +1,6 @@
+id = 'init-system-helpers'
+name = 'init-system-helpers'
+
+[[package]]
+channel = 'debian'
+name = 'init-system-helpers'

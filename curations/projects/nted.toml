@@ -1,0 +1,8 @@
+id = 'nted'
+name = 'nted'
+
+homepage = 'http://vsr.informatik.tu-chemnitz.de/staff/jan/nted/nted.xhtml'
+
+[[package]]
+channel = 'debian'
+name = 'nted'

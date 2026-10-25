@@ -1,0 +1,8 @@
+id = 'libsoldout-utils'
+name = 'libsoldout-utils'
+
+homepage = 'http://fossil.instinctive.eu'
+
+[[package]]
+channel = 'debian'
+name = 'libsoldout-utils'

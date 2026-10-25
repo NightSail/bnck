@@ -1,0 +1,8 @@
+id = 'perl-math-calc-units'
+name = 'perl-Math-Calc-Units'
+
+homepage = 'https://metacpan.org/release/Math-Calc-Units'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Math-Calc-Units'

@@ -1,0 +1,8 @@
+id = 'dma'
+name = 'dma'
+
+homepage = 'https://github.com/corecode/dma'
+
+[[package]]
+channel = 'debian'
+name = 'dma'

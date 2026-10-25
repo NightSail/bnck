@@ -1,0 +1,12 @@
+id = 'abootimg'
+name = 'abootimg'
+
+homepage = 'https://github.com/ggrandou/abootimg'
+
+[[package]]
+channel = 'debian'
+name = 'abootimg'
+
+[[package]]
+channel = 'fedora'
+name = 'abootimg'

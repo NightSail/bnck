@@ -1,0 +1,8 @@
+id = 'gpstrans'
+name = 'gpstrans'
+
+homepage = 'ftp://ftp.fu-berlin.de/pub/unix/misc/gps'
+
+[[package]]
+channel = 'debian'
+name = 'gpstrans'

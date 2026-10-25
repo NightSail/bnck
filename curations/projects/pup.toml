@@ -6,3 +6,7 @@ homepage = 'https://github.com/ericchiang/pup'
 [[package]]
 channel = 'debian'
 name = 'pup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pup'

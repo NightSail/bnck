@@ -1,0 +1,12 @@
+id = 'python-versioneer'
+name = 'python-versioneer'
+
+homepage = 'https://github.com/python-versioneer/python-versioneer'
+
+[[package]]
+channel = 'arch'
+name = 'python-versioneer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-versioneer'

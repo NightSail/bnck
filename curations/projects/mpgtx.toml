@@ -1,0 +1,12 @@
+id = 'mpgtx'
+name = 'mpgtx'
+
+homepage = 'https://mpgtx.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'mpgtx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpgtx'

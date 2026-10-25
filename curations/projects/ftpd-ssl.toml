@@ -1,0 +1,6 @@
+id = 'ftpd-ssl'
+name = 'ftpd-ssl'
+
+[[package]]
+channel = 'debian'
+name = 'ftpd-ssl'

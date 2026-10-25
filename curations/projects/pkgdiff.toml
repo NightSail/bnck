@@ -1,0 +1,20 @@
+id = 'pkgdiff'
+name = 'pkgdiff'
+
+homepage = 'https://lvc.github.io/pkgdiff'
+
+[[package]]
+channel = 'arch'
+name = 'pkgdiff'
+
+[[package]]
+channel = 'debian'
+name = 'pkgdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'pkgdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkgdiff'

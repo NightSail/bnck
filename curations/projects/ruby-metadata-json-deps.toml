@@ -1,0 +1,8 @@
+id = 'ruby-metadata-json-deps'
+name = 'ruby-metadata_json_deps'
+
+homepage = 'https://github.com/voxpupuli/metadata_json_deps'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-metadata_json_deps'

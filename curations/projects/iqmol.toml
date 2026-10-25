@@ -1,0 +1,8 @@
+id = 'iqmol'
+name = 'IQmol'
+
+homepage = 'http://iqmol.org'
+
+[[package]]
+channel = 'fedora'
+name = 'IQmol'

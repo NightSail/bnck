@@ -1,0 +1,12 @@
+id = 'go-qrcode'
+name = 'go-qrcode'
+
+homepage = 'https://github.com/skip2/go-qrcode'
+
+[[package]]
+channel = 'debian'
+name = 'go-qrcode'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-skip2-qrcode'

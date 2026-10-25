@@ -1,0 +1,8 @@
+id = 'libpulp-tools'
+name = 'libpulp-tools'
+
+homepage = 'https://github.com/SUSE/libpulp'
+
+[[package]]
+channel = 'debian'
+name = 'libpulp-tools'

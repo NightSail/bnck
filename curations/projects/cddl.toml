@@ -1,0 +1,8 @@
+id = 'cddl'
+name = 'cddl'
+
+homepage = 'https://cddl.anweiss.tech'
+
+[[package]]
+channel = 'debian'
+name = 'cddl'

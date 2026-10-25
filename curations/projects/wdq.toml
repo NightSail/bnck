@@ -1,0 +1,8 @@
+id = 'wdq'
+name = 'wdq'
+
+homepage = 'https://metacpan.org/release/App-wdq'
+
+[[package]]
+channel = 'debian'
+name = 'wdq'

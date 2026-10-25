@@ -1,0 +1,8 @@
+id = 'writer2xhtml'
+name = 'writer2xhtml'
+
+homepage = 'https://writer2latex.sourceforge.net/writer2xhtml.html'
+
+[[package]]
+channel = 'debian'
+name = 'writer2xhtml'

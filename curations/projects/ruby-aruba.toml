@@ -1,0 +1,8 @@
+id = 'ruby-aruba'
+name = 'ruby-aruba'
+
+homepage = 'https://github.com/cucumber/aruba'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-aruba'

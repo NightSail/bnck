@@ -1,0 +1,8 @@
+id = 'plasma-wallpapers-dynamic-builder'
+name = 'plasma-wallpapers-dynamic-builder'
+
+homepage = 'https://github.com/zzag/plasma5-wallpapers-dynamic'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-wallpapers-dynamic-builder'

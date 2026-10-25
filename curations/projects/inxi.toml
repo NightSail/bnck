@@ -1,0 +1,21 @@
+id = 'inxi'
+name = 'inxi'
+
+homepage = 'https://smxi.org/docs/inxi.htm'
+repository = 'https://codeberg.org/smxi/inxi.git'
+
+[[package]]
+channel = 'arch'
+name = 'inxi'
+
+[[package]]
+channel = 'debian'
+name = 'inxi'
+
+[[package]]
+channel = 'fedora'
+name = 'inxi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inxi'

@@ -1,0 +1,12 @@
+id = 'ruby-redcloth'
+name = 'ruby-redcloth'
+
+homepage = 'https://github.com/jgarber/redcloth'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-redcloth'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-redcloth'

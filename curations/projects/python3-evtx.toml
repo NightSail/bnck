@@ -1,0 +1,6 @@
+id = 'python3-evtx'
+name = 'python3-evtx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-evtx'

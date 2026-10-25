@@ -1,0 +1,8 @@
+id = 'usbsdmux'
+name = 'usbsdmux'
+
+homepage = 'https://github.com/pengutronix/usbsdmux'
+
+[[package]]
+channel = 'debian'
+name = 'usbsdmux'

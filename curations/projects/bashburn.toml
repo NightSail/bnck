@@ -1,0 +1,8 @@
+id = 'bashburn'
+name = 'bashburn'
+
+homepage = 'https://sites.google.com/view/bashburn/home'
+
+[[package]]
+channel = 'arch'
+name = 'bashburn'

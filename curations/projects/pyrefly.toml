@@ -1,0 +1,9 @@
+id = 'pyrefly'
+name = 'pyrefly'
+
+homepage = 'https://pyrefly.org'
+repository = 'https://github.com/facebook/pyrefly.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyrefly'

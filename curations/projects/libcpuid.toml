@@ -1,0 +1,12 @@
+id = 'libcpuid'
+name = 'libcpuid'
+
+homepage = 'https://github.com/anrieff/libcpuid'
+
+[[package]]
+channel = 'debian'
+name = 'cpuidtool'
+
+[[package]]
+channel = 'fedora'
+name = 'libcpuid-devel'

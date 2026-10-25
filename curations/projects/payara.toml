@@ -1,0 +1,8 @@
+id = 'payara'
+name = 'payara'
+
+homepage = 'https://www.payara.fish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/payara'

@@ -1,0 +1,8 @@
+id = 'pseudo'
+name = 'pseudo'
+
+homepage = 'https://www.yoctoproject.org/software-item/pseudo'
+
+[[package]]
+channel = 'debian'
+name = 'pseudo'

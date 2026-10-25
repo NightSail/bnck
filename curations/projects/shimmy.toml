@@ -1,0 +1,8 @@
+id = 'shimmy'
+name = 'shimmy'
+
+repository = 'https://github.com/Michael-A-Kuykendall/shimmy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shimmy'

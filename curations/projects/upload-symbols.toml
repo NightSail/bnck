@@ -1,0 +1,8 @@
+id = 'upload-symbols'
+name = 'upload-symbols'
+
+homepage = 'https://github.com/mozilla-services/upload-symbols'
+
+[[package]]
+channel = 'arch'
+name = 'upload-symbols'

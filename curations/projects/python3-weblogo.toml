@@ -1,0 +1,6 @@
+id = 'python3-weblogo'
+name = 'python3-weblogo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-weblogo'

@@ -1,0 +1,8 @@
+id = 'rust-diffutils'
+name = 'rust-diffutils'
+
+homepage = 'https://github.com/uutils/diffutils'
+
+[[package]]
+channel = 'debian'
+name = 'rust-diffutils'

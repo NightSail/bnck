@@ -1,0 +1,12 @@
+id = 'vncdotool'
+name = 'vncdotool'
+
+homepage = 'https://github.com/sibson/vncdotool'
+
+[[package]]
+channel = 'arch'
+name = 'vncdotool'
+
+[[package]]
+channel = 'debian'
+name = 'vncdotool'

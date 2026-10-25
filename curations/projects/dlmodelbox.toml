@@ -1,0 +1,8 @@
+id = 'dlmodelbox'
+name = 'dlmodelbox'
+
+homepage = 'http://github.com/DT42/DLModelBox'
+
+[[package]]
+channel = 'debian'
+name = 'dlmodelbox'

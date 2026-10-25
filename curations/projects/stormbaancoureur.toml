@@ -1,0 +1,8 @@
+id = 'stormbaancoureur'
+name = 'stormbaancoureur'
+
+homepage = 'http://www.stolk.org/stormbaancoureur'
+
+[[package]]
+channel = 'fedora'
+name = 'stormbaancoureur'

@@ -1,0 +1,53 @@
+id = 'bind'
+name = 'bind'
+
+homepage = 'https://www.isc.org/software/bind'
+repository = 'https://gitlab.isc.org/isc-projects/bind9.git'
+
+[[package]]
+channel = 'arch'
+name = 'bind'
+
+[[package]]
+channel = 'debian'
+name = 'bind9'
+
+[[package]]
+channel = 'debian'
+name = 'bind9-dnsutils'
+
+[[package]]
+channel = 'debian'
+name = 'bind9-host'
+
+[[package]]
+channel = 'debian'
+name = 'bind9-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'bind'
+
+[[package]]
+channel = 'fedora'
+name = 'bind-dnssec-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'bind-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'bind9-next'
+
+[[package]]
+channel = 'fedora'
+name = 'bind9-next-dnssec-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'bind9-next-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bind'

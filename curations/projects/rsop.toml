@@ -1,0 +1,20 @@
+id = 'rsop'
+name = 'rsop'
+
+homepage = 'https://codeberg.org/heiko/rsop'
+
+[[package]]
+channel = 'arch'
+name = 'rsop'
+
+[[package]]
+channel = 'arch'
+name = 'rsop-oct'
+
+[[package]]
+channel = 'debian'
+name = 'rsop'
+
+[[package]]
+channel = 'debian'
+name = 'rsopv'

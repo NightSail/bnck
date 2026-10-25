@@ -1,0 +1,9 @@
+id = 'yices2'
+name = 'yices2'
+
+homepage = 'https://yices.csl.sri.com'
+repository = 'https://github.com/SRI-CSL/yices2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yices2'

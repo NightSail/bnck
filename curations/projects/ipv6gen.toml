@@ -1,0 +1,8 @@
+id = 'ipv6gen'
+name = 'ipv6gen'
+
+homepage = 'https://github.com/vladak/ipv6gen'
+
+[[package]]
+channel = 'fedora'
+name = 'ipv6gen'

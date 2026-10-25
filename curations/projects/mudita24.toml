@@ -1,0 +1,12 @@
+id = 'mudita24'
+name = 'mudita24'
+
+homepage = 'https://github.com/NielsMayer/mudita24'
+
+[[package]]
+channel = 'debian'
+name = 'mudita24'
+
+[[package]]
+channel = 'fedora'
+name = 'mudita24'

@@ -1,0 +1,8 @@
+id = 'fasttree'
+name = 'fasttree'
+
+homepage = 'http://www.microbesonline.org/fasttree'
+
+[[package]]
+channel = 'debian'
+name = 'fasttree'

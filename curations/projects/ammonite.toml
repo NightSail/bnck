@@ -1,0 +1,8 @@
+id = 'ammonite'
+name = 'ammonite'
+
+homepage = 'https://github.com/lihaoyi/Ammonite'
+
+[[package]]
+channel = 'arch'
+name = 'ammonite'

@@ -1,0 +1,16 @@
+id = 'glabels'
+name = 'glabels'
+
+homepage = 'https://github.com/jimevins/glabels'
+
+[[package]]
+channel = 'arch'
+name = 'glabels'
+
+[[package]]
+channel = 'debian'
+name = 'glabels'
+
+[[package]]
+channel = 'fedora'
+name = 'glabels'

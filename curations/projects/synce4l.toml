@@ -1,0 +1,8 @@
+id = 'synce4l'
+name = 'synce4l'
+
+homepage = 'https://github.com/intel/synce4l'
+
+[[package]]
+channel = 'fedora'
+name = 'synce4l'

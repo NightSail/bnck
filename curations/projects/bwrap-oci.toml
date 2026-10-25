@@ -1,0 +1,8 @@
+id = 'bwrap-oci'
+name = 'bwrap-oci'
+
+homepage = 'https://github.com/projectatomic/bwrap-oci'
+
+[[package]]
+channel = 'fedora'
+name = 'bwrap-oci'

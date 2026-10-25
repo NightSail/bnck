@@ -1,0 +1,8 @@
+id = 'gvb'
+name = 'gvb'
+
+homepage = 'http://www.pietrobattiston.it/gvb'
+
+[[package]]
+channel = 'debian'
+name = 'gvb'

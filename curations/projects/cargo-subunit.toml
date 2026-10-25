@@ -1,0 +1,8 @@
+id = 'cargo-subunit'
+name = 'cargo-subunit'
+
+homepage = 'https://github.com/jelmer/cargo-subunit'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-subunit'

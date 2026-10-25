@@ -1,0 +1,8 @@
+id = 'python3-bioxtasraw'
+name = 'python3-bioxtasraw'
+
+homepage = 'https://sourceforge.net/p/bioxtasraw/git'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bioxtasraw'

@@ -1,0 +1,8 @@
+id = 'mrtdreader'
+name = 'mrtdreader'
+
+homepage = 'https://github.com/rubund/mrtdreader'
+
+[[package]]
+channel = 'debian'
+name = 'mrtdreader'

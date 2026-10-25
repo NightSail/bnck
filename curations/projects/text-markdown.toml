@@ -1,0 +1,12 @@
+id = 'text-markdown'
+name = 'Text-Markdown'
+
+homepage = 'https://metacpan.org/release/Text-Markdown'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-markdown-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-Markdown'

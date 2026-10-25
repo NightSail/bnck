@@ -1,0 +1,12 @@
+id = 'kooha'
+name = 'kooha'
+
+homepage = 'https://github.com/SeaDve/Kooha'
+
+[[package]]
+channel = 'arch'
+name = 'kooha'
+
+[[package]]
+channel = 'debian'
+name = 'kooha'

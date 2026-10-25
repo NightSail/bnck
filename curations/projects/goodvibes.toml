@@ -1,0 +1,12 @@
+id = 'goodvibes'
+name = 'goodvibes'
+
+homepage = 'https://gitlab.com/goodvibes/goodvibes'
+
+[[package]]
+channel = 'debian'
+name = 'goodvibes'
+
+[[package]]
+channel = 'fedora'
+name = 'goodvibes'

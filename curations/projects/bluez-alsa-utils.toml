@@ -1,0 +1,8 @@
+id = 'bluez-alsa-utils'
+name = 'bluez-alsa-utils'
+
+homepage = 'https://github.com/Arkq/bluez-alsa'
+
+[[package]]
+channel = 'debian'
+name = 'bluez-alsa-utils'

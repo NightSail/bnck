@@ -1,0 +1,8 @@
+id = 'deepin-seatd'
+name = 'deepin-seatd'
+
+homepage = 'https://github.com/linuxdeepin/dde-seatd'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-seatd'

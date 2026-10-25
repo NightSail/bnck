@@ -1,0 +1,12 @@
+id = 'playerproject'
+name = 'playerproject'
+
+homepage = 'http://playerproject.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'player'
+
+[[package]]
+channel = 'fedora'
+name = 'stage'

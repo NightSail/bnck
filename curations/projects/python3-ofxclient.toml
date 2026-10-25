@@ -1,0 +1,8 @@
+id = 'python3-ofxclient'
+name = 'python3-ofxclient'
+
+homepage = 'https://github.com/captin411/ofxclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ofxclient'

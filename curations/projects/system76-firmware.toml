@@ -1,0 +1,8 @@
+id = 'system76-firmware'
+name = 'system76-firmware'
+
+homepage = 'https://github.com/pop-os/system76-firmware'
+
+[[package]]
+channel = 'arch'
+name = 'system76-firmware'

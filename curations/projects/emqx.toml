@@ -1,0 +1,8 @@
+id = 'emqx'
+name = 'emqx'
+
+homepage = 'https://www.emqx.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emqx'

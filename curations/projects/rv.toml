@@ -1,0 +1,8 @@
+id = 'rv'
+name = 'rv'
+
+repository = 'https://github.com/spinel-coop/rv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rv'

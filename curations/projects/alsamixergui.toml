@@ -1,0 +1,12 @@
+id = 'alsamixergui'
+name = 'alsamixergui'
+
+homepage = 'https://web.archive.org/web/20090205035610/http://www.iua.upf.es/~mdeboer/projects/alsamixergui'
+
+[[package]]
+channel = 'debian'
+name = 'alsamixergui'
+
+[[package]]
+channel = 'fedora'
+name = 'alsamixergui'

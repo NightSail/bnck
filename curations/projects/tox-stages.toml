@@ -1,0 +1,8 @@
+id = 'tox-stages'
+name = 'tox-stages'
+
+homepage = 'https://gitlab.com/ppentchev/test-stages'
+
+[[package]]
+channel = 'debian'
+name = 'tox-stages'

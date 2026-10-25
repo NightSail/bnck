@@ -1,0 +1,8 @@
+id = 'prometheus-trafficserver-exporter'
+name = 'prometheus-trafficserver-exporter'
+
+homepage = 'https://github.com/gdvalle/trafficserver_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-trafficserver-exporter'

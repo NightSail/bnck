@@ -1,0 +1,8 @@
+id = 'checkov'
+name = 'checkov'
+
+homepage = 'https://www.checkov.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checkov'

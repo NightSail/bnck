@@ -1,0 +1,8 @@
+id = 'giftrans'
+name = 'giftrans'
+
+homepage = 'https://web.archive.org/web/20150801185019/http://www.abdn.ac.uk/tools/ibmpc/giftrans/index.hti'
+
+[[package]]
+channel = 'debian'
+name = 'giftrans'

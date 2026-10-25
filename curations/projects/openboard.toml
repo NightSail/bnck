@@ -1,0 +1,12 @@
+id = 'openboard'
+name = 'openboard'
+
+homepage = 'https://www.openboard.ch'
+
+[[package]]
+channel = 'arch'
+name = 'openboard'
+
+[[package]]
+channel = 'debian'
+name = 'openboard'

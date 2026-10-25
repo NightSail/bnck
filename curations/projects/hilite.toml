@@ -1,0 +1,8 @@
+id = 'hilite'
+name = 'hilite'
+
+homepage = 'https://sourceforge.net/projects/hilite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hilite'

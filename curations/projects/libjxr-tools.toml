@@ -1,0 +1,8 @@
+id = 'libjxr-tools'
+name = 'libjxr-tools'
+
+homepage = 'https://github.com/4creators/jxrlib'
+
+[[package]]
+channel = 'debian'
+name = 'libjxr-tools'

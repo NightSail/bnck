@@ -1,0 +1,8 @@
+id = 'gpshell'
+name = 'gpshell'
+
+homepage = 'https://kaoh.github.io/globalplatform'
+
+[[package]]
+channel = 'debian'
+name = 'gpshell'

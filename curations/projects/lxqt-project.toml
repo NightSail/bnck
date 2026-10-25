@@ -1,0 +1,80 @@
+id = 'lxqt-project'
+name = 'lxqt-project'
+
+homepage = 'https://lxqt-project.org'
+
+[[package]]
+channel = 'fedora'
+name = 'liblxqt'
+
+[[package]]
+channel = 'fedora'
+name = 'lximage-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-about'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-admin'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-build-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-config'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-globalkeys'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-notificationd'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-panel'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-powermanagement'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-session'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-sudo'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-wayland-session'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-x11-session'
+
+[[package]]
+channel = 'fedora'
+name = 'pavucontrol-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'pcmanfm-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'qtxdg-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'screengrab'

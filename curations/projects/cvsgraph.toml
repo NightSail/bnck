@@ -1,0 +1,6 @@
+id = 'cvsgraph'
+name = 'cvsgraph'
+
+[[package]]
+channel = 'debian'
+name = 'cvsgraph'

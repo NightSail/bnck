@@ -1,0 +1,16 @@
+id = 'davmail'
+name = 'davmail'
+
+homepage = 'https://davmail.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'davmail'
+
+[[package]]
+channel = 'debian'
+name = 'davmail-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/davmail'

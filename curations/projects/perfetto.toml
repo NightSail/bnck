@@ -1,0 +1,12 @@
+id = 'perfetto'
+name = 'perfetto'
+
+homepage = 'https://perfetto.dev'
+
+[[package]]
+channel = 'debian'
+name = 'perfetto'
+
+[[package]]
+channel = 'fedora'
+name = 'perfetto'

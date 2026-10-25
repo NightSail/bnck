@@ -1,0 +1,16 @@
+id = 'lprint'
+name = 'lprint'
+
+homepage = 'https://www.msweet.org/lprint'
+
+[[package]]
+channel = 'arch'
+name = 'lprint'
+
+[[package]]
+channel = 'debian'
+name = 'lprint'
+
+[[package]]
+channel = 'fedora'
+name = 'lprint'

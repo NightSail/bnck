@@ -1,0 +1,12 @@
+id = 'tali'
+name = 'tali'
+
+homepage = 'https://wiki.gnome.org/Apps/Tali'
+
+[[package]]
+channel = 'arch'
+name = 'tali'
+
+[[package]]
+channel = 'fedora'
+name = 'tali'

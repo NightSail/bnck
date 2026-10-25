@@ -1,0 +1,8 @@
+id = 'lsmbox'
+name = 'lsmbox'
+
+homepage = 'https://ftp.acc.umu.se/mirror/lap/lsmbox'
+
+[[package]]
+channel = 'debian'
+name = 'lsmbox'

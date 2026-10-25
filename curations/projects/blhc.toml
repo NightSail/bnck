@@ -1,0 +1,8 @@
+id = 'blhc'
+name = 'blhc'
+
+homepage = 'https://ruderich.org/simon/blhc'
+
+[[package]]
+channel = 'debian'
+name = 'blhc'

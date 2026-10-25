@@ -1,0 +1,8 @@
+id = 'gdm-gnome'
+name = 'gdm'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gdm'
+
+[[package]]
+channel = 'arch'
+name = 'gdm'

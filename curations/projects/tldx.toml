@@ -1,0 +1,8 @@
+id = 'tldx'
+name = 'tldx'
+
+homepage = 'https://brandonyoung.dev/blog/introducing-tldx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tldx'

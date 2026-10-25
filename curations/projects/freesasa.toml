@@ -1,0 +1,12 @@
+id = 'freesasa'
+name = 'freesasa'
+
+homepage = 'https://freesasa.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'freesasa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freesasa'

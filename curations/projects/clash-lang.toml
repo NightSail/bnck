@@ -1,0 +1,20 @@
+id = 'clash-lang'
+name = 'clash-lang'
+
+homepage = 'https://clash-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'clash-ghc'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-clash-lib'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-clash-ghc-utils'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-clash-lib-utils'

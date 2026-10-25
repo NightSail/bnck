@@ -1,0 +1,8 @@
+id = 'libdatrie'
+name = 'libdatrie'
+
+homepage = 'https://github.com/tlwg/libdatrie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdatrie'

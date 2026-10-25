@@ -1,0 +1,8 @@
+id = 'lazyssh-kuranado2'
+name = 'lazyssh'
+
+repository = 'https://github.com/KURANADO2/lazyssh'
+
+[[package]]
+channel = 'crates.io'
+name = 'lazyssh'

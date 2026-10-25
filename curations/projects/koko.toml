@@ -1,0 +1,16 @@
+id = 'koko'
+name = 'koko'
+
+homepage = 'https://apps.kde.org/koko'
+
+[[package]]
+channel = 'arch'
+name = 'koko'
+
+[[package]]
+channel = 'debian'
+name = 'koko'
+
+[[package]]
+channel = 'fedora'
+name = 'koko'

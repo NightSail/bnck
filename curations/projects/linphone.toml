@@ -1,0 +1,12 @@
+id = 'linphone'
+name = 'linphone'
+
+homepage = 'https://www.linphone.org'
+
+[[package]]
+channel = 'debian'
+name = 'linphone-cli'
+
+[[package]]
+channel = 'debian'
+name = 'linphone-desktop'

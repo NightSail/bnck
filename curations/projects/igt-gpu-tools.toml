@@ -1,0 +1,20 @@
+id = 'igt-gpu-tools'
+name = 'igt-gpu-tools'
+
+homepage = 'https://gitlab.freedesktop.org/drm/igt-gpu-tools'
+
+[[package]]
+channel = 'arch'
+name = 'intel-gpu-tools'
+
+[[package]]
+channel = 'debian'
+name = 'igt-gpu-tools'
+
+[[package]]
+channel = 'debian'
+name = 'intel-gpu-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'igt-gpu-tools'

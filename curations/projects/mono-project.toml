@@ -1,0 +1,68 @@
+id = 'mono-project'
+name = 'mono-project'
+
+homepage = 'https://www.mono-project.com'
+
+[[package]]
+channel = 'arch'
+name = 'mono'
+
+[[package]]
+channel = 'debian'
+name = 'ca-certificates-mono'
+
+[[package]]
+channel = 'debian'
+name = 'mono-4.0-service'
+
+[[package]]
+channel = 'debian'
+name = 'mono-gac'
+
+[[package]]
+channel = 'debian'
+name = 'mono-mcs'
+
+[[package]]
+channel = 'debian'
+name = 'mono-runtime-boehm'
+
+[[package]]
+channel = 'debian'
+name = 'mono-runtime-common'
+
+[[package]]
+channel = 'debian'
+name = 'mono-utils'
+
+[[package]]
+channel = 'debian'
+name = 'mono-xbuild'
+
+[[package]]
+channel = 'debian'
+name = 'monodoc-base'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-core'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-data'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-extras'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-web'
+
+[[package]]
+channel = 'fedora'
+name = 'monodoc'

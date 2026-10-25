@@ -1,0 +1,8 @@
+id = 'mod-security-mlogc'
+name = 'mod_security-mlogc'
+
+homepage = 'http://www.modsecurity.org'
+
+[[package]]
+channel = 'fedora'
+name = 'mod_security-mlogc'

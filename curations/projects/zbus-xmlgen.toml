@@ -1,0 +1,12 @@
+id = 'zbus-xmlgen'
+name = 'zbus_xmlgen'
+
+homepage = 'https://github.com/dbus2/zbus'
+
+[[package]]
+channel = 'arch'
+name = 'zbus_xmlgen'
+
+[[package]]
+channel = 'debian'
+name = 'zbus-xmlgen'

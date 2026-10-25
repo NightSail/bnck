@@ -1,0 +1,8 @@
+id = 'haskell-lazy-csv-utils'
+name = 'haskell-lazy-csv-utils'
+
+homepage = 'http://code.haskell.org/lazy-csv'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-lazy-csv-utils'

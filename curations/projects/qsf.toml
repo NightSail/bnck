@@ -1,0 +1,8 @@
+id = 'qsf'
+name = 'qsf'
+
+homepage = 'https://ivarch.com/programs/qsf'
+
+[[package]]
+channel = 'fedora'
+name = 'qsf'

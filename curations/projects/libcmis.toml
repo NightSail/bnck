@@ -1,0 +1,16 @@
+id = 'libcmis'
+name = 'libcmis'
+
+homepage = 'https://github.com/tdf/libcmis'
+
+[[package]]
+channel = 'arch'
+name = 'libcmis'
+
+[[package]]
+channel = 'debian'
+name = 'cmis-client'
+
+[[package]]
+channel = 'fedora'
+name = 'libcmis-tools'

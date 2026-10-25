@@ -1,0 +1,8 @@
+id = 'luppp'
+name = 'luppp'
+
+homepage = 'https://github.com/openavproductions/openav-luppp'
+
+[[package]]
+channel = 'arch'
+name = 'luppp'

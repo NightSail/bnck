@@ -1,0 +1,8 @@
+id = 'sepolicy-analysis'
+name = 'sepolicy_analysis'
+
+homepage = 'https://github.com/vmojzis/sepolicy_analysis'
+
+[[package]]
+channel = 'fedora'
+name = 'sepolicy_analysis'

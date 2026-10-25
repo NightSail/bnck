@@ -1,0 +1,16 @@
+id = 'kdebugsettings'
+name = 'kdebugsettings'
+
+homepage = 'https://apps.kde.org/kdebugsettings'
+
+[[package]]
+channel = 'arch'
+name = 'kdebugsettings'
+
+[[package]]
+channel = 'debian'
+name = 'kdebugsettings'
+
+[[package]]
+channel = 'fedora'
+name = 'kdebugsettings'

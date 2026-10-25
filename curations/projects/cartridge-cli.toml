@@ -1,0 +1,9 @@
+id = 'cartridge-cli'
+name = 'cartridge-cli'
+
+homepage = 'https://tarantool.org'
+repository = 'https://github.com/tarantool/cartridge-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cartridge-cli'

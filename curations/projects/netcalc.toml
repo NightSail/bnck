@@ -1,0 +1,8 @@
+id = 'netcalc'
+name = 'netcalc'
+
+homepage = 'https://github.com/troglobit/netcalc'
+
+[[package]]
+channel = 'arch'
+name = 'netcalc'

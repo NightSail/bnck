@@ -1,0 +1,12 @@
+id = 'rshim'
+name = 'rshim'
+
+homepage = 'https://github.com/Mellanox/rshim-user-space'
+
+[[package]]
+channel = 'debian'
+name = 'rshim'
+
+[[package]]
+channel = 'fedora'
+name = 'rshim'

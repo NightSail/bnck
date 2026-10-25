@@ -1,0 +1,8 @@
+id = 'libcontactcache-qt5-bin'
+name = 'libcontactcache-qt5-bin'
+
+homepage = 'https://github.com/sailfishos/nemo-qml-plugin-contacts'
+
+[[package]]
+channel = 'debian'
+name = 'libcontactcache-qt5-bin'

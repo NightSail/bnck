@@ -1,0 +1,8 @@
+id = 'bismark'
+name = 'bismark'
+
+repository = 'https://github.com/FelixKrueger/Bismark.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bismark'

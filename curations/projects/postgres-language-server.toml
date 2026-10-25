@@ -1,0 +1,9 @@
+id = 'postgres-language-server'
+name = 'postgres-language-server'
+
+homepage = 'https://pg-language-server.com'
+repository = 'https://github.com/supabase-community/postgres-language-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgres-language-server'

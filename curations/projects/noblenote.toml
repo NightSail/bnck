@@ -1,0 +1,8 @@
+id = 'noblenote'
+name = 'noblenote'
+
+homepage = 'https://github.com/hakaishi/nobleNote'
+
+[[package]]
+channel = 'debian'
+name = 'noblenote'

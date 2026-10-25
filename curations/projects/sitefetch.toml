@@ -1,0 +1,8 @@
+id = 'sitefetch'
+name = 'sitefetch'
+
+homepage = 'https://github.com/egoist/sitefetch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sitefetch'

@@ -1,0 +1,17 @@
+id = 'go-bindata'
+name = 'go-bindata'
+
+homepage = 'https://github.com/jteeuwen/go-bindata'
+repository = 'https://github.com/kevinburke/go-bindata.git'
+
+[[package]]
+channel = 'debian'
+name = 'go-bindata'
+
+[[package]]
+channel = 'fedora'
+name = 'go-bindata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-bindata'

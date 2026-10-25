@@ -1,0 +1,8 @@
+id = 'jigit'
+name = 'jigit'
+
+homepage = 'https://www.einval.com/~steve/software/JTE'
+
+[[package]]
+channel = 'debian'
+name = 'jigit'

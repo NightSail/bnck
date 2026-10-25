@@ -1,0 +1,12 @@
+id = 'opencl-icd-loader'
+name = 'OpenCL-ICD-Loader'
+
+homepage = 'https://github.com/KhronosGroup/OpenCL-ICD-Loader'
+
+[[package]]
+channel = 'debian'
+name = 'khronos-opencl-icd-loader-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenCL-ICD-Loader-devel'

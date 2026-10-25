@@ -1,0 +1,12 @@
+id = 'kjumpingcube'
+name = 'kjumpingcube'
+
+homepage = 'https://apps.kde.org/kjumpingcube'
+
+[[package]]
+channel = 'arch'
+name = 'kjumpingcube'
+
+[[package]]
+channel = 'fedora'
+name = 'kjumpingcube'

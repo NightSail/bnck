@@ -1,0 +1,12 @@
+id = 'ollama-ollama'
+name = 'ollama'
+
+homepage = 'https://ollama.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/ollama-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/ollama-binary'

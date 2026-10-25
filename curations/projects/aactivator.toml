@@ -1,0 +1,8 @@
+id = 'aactivator'
+name = 'aactivator'
+
+homepage = 'https://github.com/Yelp/aactivator'
+
+[[package]]
+channel = 'fedora'
+name = 'aactivator'

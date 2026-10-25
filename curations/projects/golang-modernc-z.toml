@@ -1,0 +1,8 @@
+id = 'golang-modernc-z'
+name = 'golang-modernc-z'
+
+homepage = 'https://gitlab.com/cznic/z'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-modernc-z'

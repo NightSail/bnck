@@ -1,0 +1,8 @@
+id = 'rofi-rbw'
+name = 'rofi-rbw'
+
+homepage = 'https://github.com/fdw/rofi-rbw'
+
+[[package]]
+channel = 'arch'
+name = 'rofi-rbw'

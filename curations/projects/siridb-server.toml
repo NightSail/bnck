@@ -1,0 +1,8 @@
+id = 'siridb-server'
+name = 'siridb-server'
+
+homepage = 'https://siridb.net'
+
+[[package]]
+channel = 'debian'
+name = 'siridb-server'

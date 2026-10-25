@@ -1,0 +1,12 @@
+id = 'hashcash'
+name = 'hashcash'
+
+homepage = 'http://hashcash.org'
+
+[[package]]
+channel = 'debian'
+name = 'hashcash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hashcash'

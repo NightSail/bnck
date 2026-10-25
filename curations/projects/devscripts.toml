@@ -1,0 +1,16 @@
+id = 'devscripts'
+name = 'devscripts'
+
+homepage = 'https://tracker.debian.org/pkg/devscripts'
+
+[[package]]
+channel = 'arch'
+name = 'checkbashisms'
+
+[[package]]
+channel = 'fedora'
+name = 'devscripts'
+
+[[package]]
+channel = 'fedora'
+name = 'devscripts-checkbashisms'

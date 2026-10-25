@@ -1,0 +1,8 @@
+id = 'cups-browsed'
+name = 'cups-browsed'
+
+homepage = 'https://github.com/OpenPrinting/cups-browsed'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-browsed'

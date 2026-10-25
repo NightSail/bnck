@@ -1,0 +1,16 @@
+id = 'protobuf-protobuf'
+name = 'protobuf'
+
+homepage = 'https://protobuf.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protobuf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protobuf@29'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protobuf@33'

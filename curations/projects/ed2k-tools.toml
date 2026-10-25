@@ -1,0 +1,12 @@
+id = 'ed2k-tools'
+name = 'ed2k-tools'
+
+homepage = 'https://ed2k-tools.sourceforge.net/index.shtml'
+
+[[package]]
+channel = 'fedora'
+name = 'ed2k_hash'
+
+[[package]]
+channel = 'fedora'
+name = 'ed2k_hash-gui'

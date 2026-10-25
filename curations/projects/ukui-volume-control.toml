@@ -1,0 +1,8 @@
+id = 'ukui-volume-control'
+name = 'ukui-volume-control'
+
+homepage = 'https://gitee.com/openkylin/ukui-volume-control'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-volume-control'

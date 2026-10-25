@@ -1,0 +1,12 @@
+id = 'interception-caps2esc'
+name = 'interception-caps2esc'
+
+homepage = 'https://gitlab.com/interception/linux/plugins/caps2esc'
+
+[[package]]
+channel = 'arch'
+name = 'interception-caps2esc'
+
+[[package]]
+channel = 'debian'
+name = 'interception-caps2esc'

@@ -1,0 +1,8 @@
+id = 'catkin'
+name = 'catkin'
+
+homepage = 'https://wiki.ros.org/catkin'
+
+[[package]]
+channel = 'debian'
+name = 'catkin'

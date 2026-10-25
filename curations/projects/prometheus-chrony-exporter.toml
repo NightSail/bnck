@@ -1,0 +1,8 @@
+id = 'prometheus-chrony-exporter'
+name = 'prometheus-chrony-exporter'
+
+homepage = 'https://github.com/SuperQ/chrony_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-chrony-exporter'

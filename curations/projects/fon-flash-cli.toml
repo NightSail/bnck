@@ -1,0 +1,9 @@
+id = 'fon-flash-cli'
+name = 'fon-flash-cli'
+
+homepage = 'https://www.gargoyle-router.com/wiki/doku.php'
+repository = 'https://github.com/ericpaulbishop/gargoyle.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fon-flash-cli'

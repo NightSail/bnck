@@ -1,0 +1,8 @@
+id = 'htdig'
+name = 'htdig'
+
+homepage = 'https://htdig.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'htdig'

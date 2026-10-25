@@ -1,0 +1,12 @@
+id = 'muffin'
+name = 'muffin'
+
+homepage = 'https://github.com/linuxmint/muffin'
+
+[[package]]
+channel = 'arch'
+name = 'muffin'
+
+[[package]]
+channel = 'debian'
+name = 'muffin'

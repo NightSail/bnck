@@ -1,0 +1,17 @@
+id = 'lmdb'
+name = 'lmdb'
+
+homepage = 'https://symas.com/lmdb'
+repository = 'https://git.openldap.org/openldap/openldap.git'
+
+[[package]]
+channel = 'arch'
+name = 'lmdb'
+
+[[package]]
+channel = 'fedora'
+name = 'lmdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lmdb'

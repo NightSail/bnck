@@ -1,0 +1,36 @@
+id = 'bzip3'
+name = 'bzip3'
+
+homepage = 'https://github.com/iczelia/bzip3'
+
+[[package]]
+channel = 'arch'
+name = 'bzip3'
+
+[[package]]
+channel = 'debian'
+name = 'bzip3'
+
+[[package]]
+channel = 'fedora'
+name = 'bzip3-grep'
+
+[[package]]
+channel = 'fedora'
+name = 'bzip3-less'
+
+[[package]]
+channel = 'fedora'
+name = 'bzip3-more'
+
+[[package]]
+channel = 'fedora'
+name = 'bzip3-most'
+
+[[package]]
+channel = 'fedora'
+name = 'bzip3-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bzip3'

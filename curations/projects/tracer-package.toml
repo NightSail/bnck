@@ -1,0 +1,12 @@
+id = 'tracer-package'
+name = 'tracer-package'
+
+homepage = 'http://tracer-package.com'
+
+[[package]]
+channel = 'arch'
+name = 'tracer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tracer'

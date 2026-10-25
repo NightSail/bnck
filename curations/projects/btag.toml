@@ -1,0 +1,8 @@
+id = 'btag'
+name = 'btag'
+
+homepage = 'https://github.com/fernandotcl/btag'
+
+[[package]]
+channel = 'debian'
+name = 'btag'

@@ -1,0 +1,8 @@
+id = 'justbuild'
+name = 'justbuild'
+
+homepage = 'https://github.com/just-buildsystem/justbuild'
+
+[[package]]
+channel = 'debian'
+name = 'justbuild'

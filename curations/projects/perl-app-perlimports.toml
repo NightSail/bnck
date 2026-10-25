@@ -1,0 +1,8 @@
+id = 'perl-app-perlimports'
+name = 'perl-App-perlimports'
+
+homepage = 'https://metacpan.org/dist/App-perlimports'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-perlimports'

@@ -1,0 +1,20 @@
+id = 'qflipper'
+name = 'qflipper'
+
+homepage = 'https://update.flipperzero.one'
+
+[[package]]
+channel = 'arch'
+name = 'qflipper'
+
+[[package]]
+channel = 'debian'
+name = 'qflipper'
+
+[[package]]
+channel = 'fedora'
+name = 'qflipper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/qflipper'

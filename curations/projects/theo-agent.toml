@@ -1,0 +1,8 @@
+id = 'theo-agent'
+name = 'theo-agent'
+
+homepage = 'https://github.com/theoapp/theo-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'theo-agent'

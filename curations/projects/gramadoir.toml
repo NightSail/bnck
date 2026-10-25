@@ -1,0 +1,6 @@
+id = 'gramadoir'
+name = 'gramadoir'
+
+[[package]]
+channel = 'debian'
+name = 'gramadoir'

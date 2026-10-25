@@ -1,0 +1,36 @@
+id = 'pinentry'
+name = 'pinentry'
+
+homepage = 'https://www.gnupg.org/related_software/pinentry'
+
+[[package]]
+channel = 'arch'
+name = 'pinentry'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-curses'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-fltk'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-gnome3'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-gtk2'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-qt'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-tty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pinentry'

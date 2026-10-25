@@ -1,0 +1,12 @@
+id = 'freewheeling'
+name = 'freewheeling'
+
+homepage = 'https://github.com/free-wheeling/freewheeling'
+
+[[package]]
+channel = 'arch'
+name = 'freewheeling'
+
+[[package]]
+channel = 'debian'
+name = 'freewheeling'

@@ -1,0 +1,24 @@
+id = 'libgpg-error'
+name = 'libgpg-error'
+
+homepage = 'https://www.gnupg.org/related_software/libgpg-error'
+
+[[package]]
+channel = 'debian'
+name = 'gpgrt-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libgpg-error-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libgpg-error'
+
+[[package]]
+channel = 'fedora'
+name = 'libgpg-error-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgpg-error'

@@ -1,0 +1,21 @@
+id = 'parallel'
+name = 'parallel'
+
+homepage = 'https://www.gnu.org/software/parallel'
+repository = 'https://git.savannah.gnu.org/git/parallel.git'
+
+[[package]]
+channel = 'arch'
+name = 'parallel'
+
+[[package]]
+channel = 'debian'
+name = 'parallel'
+
+[[package]]
+channel = 'fedora'
+name = 'parallel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/parallel'

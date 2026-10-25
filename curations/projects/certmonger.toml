@@ -1,0 +1,12 @@
+id = 'certmonger'
+name = 'certmonger'
+
+homepage = 'https://pagure.io/certmonger'
+
+[[package]]
+channel = 'debian'
+name = 'certmonger'
+
+[[package]]
+channel = 'fedora'
+name = 'certmonger'

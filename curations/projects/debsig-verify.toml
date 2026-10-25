@@ -1,0 +1,6 @@
+id = 'debsig-verify'
+name = 'debsig-verify'
+
+[[package]]
+channel = 'debian'
+name = 'debsig-verify'

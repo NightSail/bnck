@@ -1,0 +1,8 @@
+id = 'rospo'
+name = 'rospo'
+
+homepage = 'https://github.com/ferama/rospo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rospo'

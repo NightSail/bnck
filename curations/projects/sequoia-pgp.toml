@@ -1,0 +1,56 @@
+id = 'sequoia-pgp'
+name = 'sequoia-pgp'
+
+homepage = 'https://sequoia-pgp.org'
+
+[[package]]
+channel = 'arch'
+name = 'sequoia-sq'
+
+[[package]]
+channel = 'arch'
+name = 'sequoia-sqv'
+
+[[package]]
+channel = 'debian'
+name = 'gpg-from-sq'
+
+[[package]]
+channel = 'debian'
+name = 'gpg-sq'
+
+[[package]]
+channel = 'debian'
+name = 'gpgv-from-sq'
+
+[[package]]
+channel = 'debian'
+name = 'gpgv-sq'
+
+[[package]]
+channel = 'debian'
+name = 'sequoia-git'
+
+[[package]]
+channel = 'debian'
+name = 'sequoia-keystore-server'
+
+[[package]]
+channel = 'debian'
+name = 'sq'
+
+[[package]]
+channel = 'debian'
+name = 'sqop'
+
+[[package]]
+channel = 'debian'
+name = 'sqopv'
+
+[[package]]
+channel = 'debian'
+name = 'sqv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sequoia-chameleon-gnupg'

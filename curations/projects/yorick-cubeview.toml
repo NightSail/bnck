@@ -1,0 +1,8 @@
+id = 'yorick-cubeview'
+name = 'yorick-cubeview'
+
+homepage = 'https://github.com/paumard/yorick-cubeview'
+
+[[package]]
+channel = 'debian'
+name = 'yorick-cubeview'

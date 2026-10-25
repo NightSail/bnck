@@ -1,0 +1,9 @@
+id = 'picoruby'
+name = 'picoruby'
+
+homepage = 'https://picoruby.org'
+repository = 'https://github.com/picoruby/picoruby.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picoruby'

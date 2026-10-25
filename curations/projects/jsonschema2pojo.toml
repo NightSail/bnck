@@ -1,0 +1,8 @@
+id = 'jsonschema2pojo'
+name = 'jsonschema2pojo'
+
+homepage = 'https://www.jsonschema2pojo.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsonschema2pojo'

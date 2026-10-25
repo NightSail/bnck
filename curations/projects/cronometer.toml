@@ -1,0 +1,8 @@
+id = 'cronometer'
+name = 'cronometer'
+
+homepage = 'https://cronometer.com'
+
+[[package]]
+channel = 'debian'
+name = 'cronometer'

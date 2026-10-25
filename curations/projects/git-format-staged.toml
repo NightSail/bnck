@@ -1,0 +1,8 @@
+id = 'git-format-staged'
+name = 'git-format-staged'
+
+repository = 'https://github.com/hallettj/git-format-staged.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-format-staged'

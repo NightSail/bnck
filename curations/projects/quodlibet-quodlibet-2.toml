@@ -1,0 +1,8 @@
+id = 'quodlibet-quodlibet-2'
+name = 'quodlibet'
+
+homepage = 'https://quodlibet.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'quodlibet'

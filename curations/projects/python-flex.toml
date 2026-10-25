@@ -1,0 +1,8 @@
+id = 'python-flex'
+name = 'python-flex'
+
+homepage = 'https://github.com/pipermerriam/flex'
+
+[[package]]
+channel = 'arch'
+name = 'python-flex'

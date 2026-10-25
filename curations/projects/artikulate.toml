@@ -1,0 +1,16 @@
+id = 'artikulate'
+name = 'artikulate'
+
+homepage = 'https://apps.kde.org/artikulate'
+
+[[package]]
+channel = 'arch'
+name = 'artikulate'
+
+[[package]]
+channel = 'debian'
+name = 'artikulate'
+
+[[package]]
+channel = 'fedora'
+name = 'artikulate'

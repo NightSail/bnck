@@ -1,0 +1,16 @@
+id = 'gnome-browser-connector'
+name = 'gnome-browser-connector'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-browser-connector'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-browser-connector'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-browser-connector'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-browser-connector'

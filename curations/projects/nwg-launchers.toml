@@ -1,0 +1,8 @@
+id = 'nwg-launchers'
+name = 'nwg-launchers'
+
+homepage = 'https://github.com/nwg-piotr/nwg-launchers'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-launchers'

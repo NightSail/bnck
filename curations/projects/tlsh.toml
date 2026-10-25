@@ -1,0 +1,12 @@
+id = 'tlsh'
+name = 'tlsh'
+
+homepage = 'https://github.com/trendmicro/tlsh'
+
+[[package]]
+channel = 'arch'
+name = 'tlsh'
+
+[[package]]
+channel = 'debian'
+name = 'tlsh-tools'

@@ -1,0 +1,8 @@
+id = 'dot-forward'
+name = 'dot-forward'
+
+homepage = 'http://cr.yp.to/software/dot-forward.html'
+
+[[package]]
+channel = 'debian'
+name = 'dot-forward'

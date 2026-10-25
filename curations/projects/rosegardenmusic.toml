@@ -1,0 +1,16 @@
+id = 'rosegardenmusic'
+name = 'rosegardenmusic'
+
+homepage = 'https://www.rosegardenmusic.com'
+
+[[package]]
+channel = 'arch'
+name = 'rosegarden'
+
+[[package]]
+channel = 'debian'
+name = 'rosegarden'
+
+[[package]]
+channel = 'fedora'
+name = 'rosegarden4'

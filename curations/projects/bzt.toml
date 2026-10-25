@@ -1,0 +1,9 @@
+id = 'bzt'
+name = 'bzt'
+
+homepage = 'https://gettaurus.org'
+repository = 'https://github.com/Blazemeter/taurus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bzt'

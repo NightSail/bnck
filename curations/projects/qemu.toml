@@ -1,0 +1,333 @@
+id = 'qemu'
+name = 'qemu'
+
+homepage = 'https://www.qemu.org'
+repository = 'https://gitlab.com/qemu-project/qemu.git'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-guest-agent'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-img'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-pr-helper'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-aarch64'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-alpha'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-arm'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-avr'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-hexagon'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-hppa'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-loongarch64'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-m68k'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-microblaze'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-mips'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-or1k'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-ppc'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-riscv'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-rx'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-s390x'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-sh4'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-sparc'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-tricore'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-x86'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-system-xtensa'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-tools'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-user'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-user-static'
+
+[[package]]
+channel = 'arch'
+name = 'qemu-vmsr-helper'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-guest-agent'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-arm'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-common'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-mips'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-misc'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-ppc'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-riscv'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-s390x'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-sparc'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-system-x86'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-user'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-user-static'
+
+[[package]]
+channel = 'debian'
+name = 'qemu-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-guest-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-img'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-pr-helper'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-aarch64-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-alpha-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-arm-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-avr-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-hppa-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-loongarch64-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-m68k-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-microblaze-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-mips-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-or1k-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-ppc-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-riscv-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-rx-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-s390x-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-sh4-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-sparc-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-tricore-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-x86-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-system-xtensa-core'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-aarch64'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-alpha'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-arm'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-hexagon'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-hppa'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-loongarch64'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-m68k'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-microblaze'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-mips'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-or1k'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-ppc'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-riscv'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-s390x'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-sh4'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-sparc'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-x86'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-user-static-xtensa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qemu'

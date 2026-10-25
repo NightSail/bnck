@@ -1,0 +1,13 @@
+id = 'postgrest'
+name = 'postgrest'
+
+homepage = 'https://github.com/begriffs/postgrest'
+repository = 'https://github.com/PostgREST/postgrest.git'
+
+[[package]]
+channel = 'arch'
+name = 'postgrest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgrest'

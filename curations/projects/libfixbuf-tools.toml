@@ -1,0 +1,8 @@
+id = 'libfixbuf-tools'
+name = 'libfixbuf-tools'
+
+homepage = 'https://tools.netsa.cert.org/fixbuf/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'libfixbuf-tools'

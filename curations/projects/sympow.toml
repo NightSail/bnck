@@ -1,0 +1,8 @@
+id = 'sympow'
+name = 'sympow'
+
+homepage = 'https://gitlab.com/rezozer/forks/sympow'
+
+[[package]]
+channel = 'debian'
+name = 'sympow'

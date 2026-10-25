@@ -1,0 +1,12 @@
+id = 'neverball'
+name = 'neverball'
+
+homepage = 'http://neverball.org'
+
+[[package]]
+channel = 'fedora'
+name = 'neverball-neverball'
+
+[[package]]
+channel = 'fedora'
+name = 'neverball-neverputt'

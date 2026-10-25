@@ -1,0 +1,8 @@
+id = 'alire'
+name = 'alire'
+
+homepage = 'https://github.com/alire-project'
+
+[[package]]
+channel = 'debian'
+name = 'alire'

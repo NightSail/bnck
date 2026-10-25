@@ -1,0 +1,8 @@
+id = 'clang-tidy-sarif'
+name = 'clang-tidy-sarif'
+
+homepage = 'https://crates.io/crates/clang-tidy-sarif'
+
+[[package]]
+channel = 'fedora'
+name = 'clang-tidy-sarif'

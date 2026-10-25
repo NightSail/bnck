@@ -1,0 +1,8 @@
+id = 'fgrun'
+name = 'fgrun'
+
+homepage = 'https://gitlab.com/flightgear/fgrun'
+
+[[package]]
+channel = 'fedora'
+name = 'fgrun'

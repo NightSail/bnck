@@ -1,0 +1,6 @@
+id = 'kwin-x11'
+name = 'kwin-x11'
+
+[[package]]
+channel = 'debian'
+name = 'kwin-x11'

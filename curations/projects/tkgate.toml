@@ -1,0 +1,8 @@
+id = 'tkgate'
+name = 'tkgate'
+
+homepage = 'http://www.tkgate.org'
+
+[[package]]
+channel = 'debian'
+name = 'tkgate'

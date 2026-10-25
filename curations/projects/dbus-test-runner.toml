@@ -1,0 +1,12 @@
+id = 'dbus-test-runner'
+name = 'dbus-test-runner'
+
+homepage = 'https://launchpad.net/dbus-test-runner'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-test-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-test-runner'

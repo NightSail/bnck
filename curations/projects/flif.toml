@@ -1,0 +1,9 @@
+id = 'flif'
+name = 'flif'
+
+homepage = 'https://flif.info'
+repository = 'https://github.com/FLIF-hub/FLIF.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flif'

@@ -1,0 +1,8 @@
+id = 'pepc'
+name = 'pepc'
+
+homepage = 'https://github.com/intel/pepc'
+
+[[package]]
+channel = 'fedora'
+name = 'pepc'

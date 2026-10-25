@@ -1,0 +1,12 @@
+id = 'sha2'
+name = 'sha2'
+
+homepage = 'https://aarongifford.com/computers/sha.html'
+
+[[package]]
+channel = 'fedora'
+name = 'sha2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sha2'

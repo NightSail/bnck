@@ -1,0 +1,8 @@
+id = 'htmlmin'
+name = 'htmlmin'
+
+homepage = 'https://htmlmin.readthedocs.org/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'htmlmin'

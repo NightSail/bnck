@@ -1,0 +1,8 @@
+id = 'kuttl'
+name = 'kuttl'
+
+repository = 'https://github.com/kudobuilder/kuttl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kuttl'

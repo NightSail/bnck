@@ -1,0 +1,10 @@
+id = 'jam'
+name = 'jam'
+
+[[package]]
+channel = 'debian'
+name = 'jam'
+
+[[package]]
+channel = 'fedora'
+name = 'jam'

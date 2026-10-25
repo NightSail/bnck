@@ -1,0 +1,24 @@
+id = 'gphoto'
+name = 'gphoto'
+
+homepage = 'http://www.gphoto.org'
+
+[[package]]
+channel = 'arch'
+name = 'gphoto2'
+
+[[package]]
+channel = 'arch'
+name = 'libgphoto2'
+
+[[package]]
+channel = 'fedora'
+name = 'gphoto2'
+
+[[package]]
+channel = 'fedora'
+name = 'libgphoto2-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gphoto2'

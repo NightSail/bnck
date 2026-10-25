@@ -1,0 +1,16 @@
+id = 'diffuse'
+name = 'diffuse'
+
+homepage = 'https://github.com/MightyCreak/diffuse'
+
+[[package]]
+channel = 'arch'
+name = 'diffuse'
+
+[[package]]
+channel = 'debian'
+name = 'diffuse'
+
+[[package]]
+channel = 'fedora'
+name = 'diffuse'

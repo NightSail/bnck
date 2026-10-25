@@ -1,0 +1,8 @@
+id = 'pcicrawler'
+name = 'pcicrawler'
+
+homepage = 'https://github.com/facebook/pcicrawler'
+
+[[package]]
+channel = 'fedora'
+name = 'pcicrawler'

@@ -1,0 +1,20 @@
+id = 'openprinting-openprinting'
+name = 'openprinting'
+
+homepage = 'http://www.openprinting.org'
+
+[[package]]
+channel = 'debian'
+name = 'cups-browsed'
+
+[[package]]
+channel = 'debian'
+name = 'cups-filters'
+
+[[package]]
+channel = 'debian'
+name = 'cups-filters-core-drivers'
+
+[[package]]
+channel = 'debian'
+name = 'libcupsfilters-tests'

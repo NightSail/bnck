@@ -1,0 +1,8 @@
+id = 'xtel'
+name = 'xtel'
+
+homepage = 'http://pficheux.free.fr/xtel'
+
+[[package]]
+channel = 'debian'
+name = 'xtel'

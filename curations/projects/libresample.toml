@@ -1,0 +1,8 @@
+id = 'libresample'
+name = 'libresample'
+
+homepage = 'https://ccrma.stanford.edu/~jos/resample/Free_Resampling_Software.html'
+
+[[package]]
+channel = 'fedora'
+name = 'libresample'

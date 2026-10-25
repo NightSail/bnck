@@ -1,0 +1,8 @@
+id = 'repopush'
+name = 'repopush'
+
+homepage = 'https://devel.ringlet.net/net/repopush'
+
+[[package]]
+channel = 'debian'
+name = 'repopush'

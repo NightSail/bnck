@@ -1,0 +1,8 @@
+id = 'lunasvg'
+name = 'lunasvg'
+
+homepage = 'https://github.com/sammycage/lunasvg'
+
+[[package]]
+channel = 'fedora'
+name = 'lunasvg'

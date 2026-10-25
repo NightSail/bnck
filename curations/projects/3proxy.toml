@@ -1,0 +1,8 @@
+id = '3proxy'
+name = '3proxy'
+
+homepage = 'http://3proxy.ru'
+
+[[package]]
+channel = 'fedora'
+name = '3proxy'

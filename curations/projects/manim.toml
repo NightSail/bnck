@@ -1,0 +1,9 @@
+id = 'manim'
+name = 'manim'
+
+homepage = 'https://www.manim.community'
+repository = 'https://github.com/manimCommunity/manim.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/manim'

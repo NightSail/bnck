@@ -1,0 +1,12 @@
+id = 'yamlfmt'
+name = 'yamlfmt'
+
+repository = 'https://github.com/google/yamlfmt.git'
+
+[[package]]
+channel = 'arch'
+name = 'yamlfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yamlfmt'

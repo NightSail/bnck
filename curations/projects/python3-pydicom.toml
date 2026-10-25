@@ -1,0 +1,12 @@
+id = 'python3-pydicom'
+name = 'python3-pydicom'
+
+homepage = 'https://pydicom.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pydicom'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pydicom'

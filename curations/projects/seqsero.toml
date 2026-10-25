@@ -1,0 +1,8 @@
+id = 'seqsero'
+name = 'seqsero'
+
+homepage = 'https://github.com/denglab/SeqSero'
+
+[[package]]
+channel = 'debian'
+name = 'seqsero'

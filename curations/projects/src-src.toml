@@ -1,0 +1,6 @@
+id = 'src-src'
+name = 'src'
+
+[[package]]
+channel = 'crates.io'
+name = 'src'

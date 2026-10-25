@@ -1,0 +1,12 @@
+id = 'gitbatch'
+name = 'gitbatch'
+
+repository = 'https://github.com/isacikgoz/gitbatch.git'
+
+[[package]]
+channel = 'debian'
+name = 'gitbatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitbatch'

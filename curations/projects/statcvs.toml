@@ -1,0 +1,8 @@
+id = 'statcvs'
+name = 'statcvs'
+
+homepage = 'http://statcvs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'statcvs'

@@ -1,0 +1,8 @@
+id = 'java-common-java'
+name = 'java-common'
+
+homepage = 'https://wiki.debian.org/Java'
+
+[[package]]
+channel = 'debian'
+name = 'java-common'

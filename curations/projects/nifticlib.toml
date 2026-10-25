@@ -1,0 +1,12 @@
+id = 'nifticlib'
+name = 'nifticlib'
+
+homepage = 'https://github.com/NIFTI-Imaging/nifti_clib'
+
+[[package]]
+channel = 'debian'
+name = 'nifti-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'nifticlib'

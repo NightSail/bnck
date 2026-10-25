@@ -1,0 +1,8 @@
+id = 'golang-github-atotto-clipboard'
+name = 'golang-github-atotto-clipboard'
+
+homepage = 'https://github.com/atotto/clipboard'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-atotto-clipboard'

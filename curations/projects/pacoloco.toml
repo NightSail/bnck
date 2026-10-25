@@ -1,0 +1,8 @@
+id = 'pacoloco'
+name = 'pacoloco'
+
+homepage = 'https://github.com/anatol/pacoloco'
+
+[[package]]
+channel = 'arch'
+name = 'pacoloco'

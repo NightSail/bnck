@@ -1,0 +1,8 @@
+id = 'hfsplus-tools'
+name = 'hfsplus-tools'
+
+homepage = 'http://gentoo-wiki.com/HOWTO_hfsplus'
+
+[[package]]
+channel = 'fedora'
+name = 'hfsplus-tools'

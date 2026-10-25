@@ -1,0 +1,16 @@
+id = 'usbutils'
+name = 'usbutils'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git'
+
+[[package]]
+channel = 'arch'
+name = 'usbutils'
+
+[[package]]
+channel = 'debian'
+name = 'usbutils'
+
+[[package]]
+channel = 'debian'
+name = 'usbutils-py'

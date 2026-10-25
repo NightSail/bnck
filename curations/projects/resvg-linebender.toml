@@ -1,0 +1,8 @@
+id = 'resvg-linebender'
+name = 'resvg'
+
+repository = 'https://github.com/linebender/resvg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/resvg'

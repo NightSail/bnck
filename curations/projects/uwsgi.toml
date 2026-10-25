@@ -1,0 +1,65 @@
+id = 'uwsgi'
+name = 'uwsgi'
+
+homepage = 'http://projects.unbit.it/uwsgi'
+repository = 'https://github.com/unbit/uwsgi.git'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-core'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-dev'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-alarm-curl'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-alarm-xmpp'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-curl-cron'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-emperor-pg'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-geoip'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-graylog2'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-router-access'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-sqlite3'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-xslt'
+
+[[package]]
+channel = 'fedora'
+name = 'uwsgi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uwsgi'

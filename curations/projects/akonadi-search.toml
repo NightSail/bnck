@@ -1,0 +1,12 @@
+id = 'akonadi-search'
+name = 'akonadi-search'
+
+homepage = 'https://invent.kde.org/frameworks/akonadi-search'
+
+[[package]]
+channel = 'fedora'
+name = 'akonadi-search'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-akonadi-search'

@@ -1,0 +1,12 @@
+id = 'sakurai'
+name = '~sakurai'
+
+homepage = 'http://www.math.s.chiba-u.ac.jp/~sakurai/software.html'
+
+[[package]]
+channel = 'debian'
+name = 'dvi2dvi'
+
+[[package]]
+channel = 'debian'
+name = 'dvi2ps'

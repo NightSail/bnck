@@ -1,0 +1,8 @@
+id = 'pantheon-settings-daemon'
+name = 'pantheon-settings-daemon'
+
+homepage = 'https://github.com/elementary/settings-daemon.git'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-settings-daemon'

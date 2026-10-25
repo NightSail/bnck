@@ -1,0 +1,8 @@
+id = 'xgap'
+name = 'xgap'
+
+homepage = 'https://gap-packages.github.io/xgap'
+
+[[package]]
+channel = 'fedora'
+name = 'xgap'

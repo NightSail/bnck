@@ -1,0 +1,12 @@
+id = 'xkbcommon'
+name = 'xkbcommon'
+
+homepage = 'https://xkbcommon.org'
+
+[[package]]
+channel = 'arch'
+name = 'libxkbcommon'
+
+[[package]]
+channel = 'debian'
+name = 'libxkbcommon-tools'

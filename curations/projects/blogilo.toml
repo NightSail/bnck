@@ -1,0 +1,8 @@
+id = 'blogilo'
+name = 'blogilo'
+
+homepage = 'https://www.kde.org/applications/internet/blogilo'
+
+[[package]]
+channel = 'fedora'
+name = 'blogilo'

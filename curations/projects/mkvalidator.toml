@@ -1,0 +1,8 @@
+id = 'mkvalidator'
+name = 'mkvalidator'
+
+homepage = 'https://www.matroska.org/downloads/mkvalidator.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkvalidator'

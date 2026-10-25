@@ -1,0 +1,16 @@
+id = 'gnucash'
+name = 'gnucash'
+
+homepage = 'https://code.gnucash.org/website'
+
+[[package]]
+channel = 'arch'
+name = 'gnucash'
+
+[[package]]
+channel = 'debian'
+name = 'gnucash'
+
+[[package]]
+channel = 'fedora'
+name = 'gnucash'

@@ -1,0 +1,8 @@
+id = 'rubyfmt'
+name = 'rubyfmt'
+
+repository = 'https://github.com/fables-tales/rubyfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rubyfmt'

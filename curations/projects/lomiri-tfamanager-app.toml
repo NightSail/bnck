@@ -1,0 +1,8 @@
+id = 'lomiri-tfamanager-app'
+name = 'lomiri-tfamanager-app'
+
+homepage = 'https://gitlab.com/cibersheep/tfamanager'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-tfamanager-app'

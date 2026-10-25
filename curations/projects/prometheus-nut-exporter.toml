@@ -1,0 +1,8 @@
+id = 'prometheus-nut-exporter'
+name = 'prometheus-nut-exporter'
+
+homepage = 'https://github.com/DRuggeri/nut_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-nut-exporter'

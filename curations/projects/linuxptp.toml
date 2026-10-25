@@ -1,0 +1,16 @@
+id = 'linuxptp'
+name = 'linuxptp'
+
+homepage = 'https://linuxptp.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'linuxptp'
+
+[[package]]
+channel = 'debian'
+name = 'linuxptp'
+
+[[package]]
+channel = 'fedora'
+name = 'linuxptp'

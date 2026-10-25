@@ -1,0 +1,12 @@
+id = 'facebook'
+name = 'facebook'
+
+homepage = 'https://facebook.github.io/watchman'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pywatchman'
+
+[[package]]
+channel = 'debian'
+name = 'watchman'

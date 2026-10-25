@@ -1,0 +1,13 @@
+id = 'bombardier'
+name = 'bombardier'
+
+homepage = 'http://packages.debian.org/stable/source/bombardier'
+repository = 'https://github.com/codesenberg/bombardier.git'
+
+[[package]]
+channel = 'fedora'
+name = 'bombardier'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bombardier'

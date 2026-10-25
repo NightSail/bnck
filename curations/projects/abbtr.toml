@@ -1,0 +1,8 @@
+id = 'abbtr'
+name = 'abbtr'
+
+homepage = 'https://github.com/manuwarfare/abbtr'
+
+[[package]]
+channel = 'debian'
+name = 'abbtr'

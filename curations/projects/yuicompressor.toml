@@ -1,0 +1,12 @@
+id = 'yuicompressor'
+name = 'yuicompressor'
+
+homepage = 'https://yui.github.io/yuicompressor'
+
+[[package]]
+channel = 'debian'
+name = 'yui-compressor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yuicompressor'

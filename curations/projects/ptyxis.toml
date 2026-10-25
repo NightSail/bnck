@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'ptyxis'
 
 [[package]]
+channel = 'debian'
+name = 'ptyxis'
+
+[[package]]
 channel = 'fedora'
 name = 'ptyxis'

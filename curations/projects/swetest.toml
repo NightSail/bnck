@@ -1,0 +1,8 @@
+id = 'swetest'
+name = 'swetest'
+
+homepage = 'https://www.astro.com/swisseph'
+
+[[package]]
+channel = 'debian'
+name = 'swetest'

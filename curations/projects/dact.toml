@@ -1,0 +1,8 @@
+id = 'dact'
+name = 'dact'
+
+homepage = 'https://www.rkeene.org/oss/dact'
+
+[[package]]
+channel = 'debian'
+name = 'dact'

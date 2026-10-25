@@ -1,0 +1,8 @@
+id = 'valeronoi'
+name = 'valeronoi'
+
+homepage = 'https://github.com/ccoors/Valeronoi'
+
+[[package]]
+channel = 'fedora'
+name = 'valeronoi'

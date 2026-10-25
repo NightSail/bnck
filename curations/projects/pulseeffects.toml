@@ -1,0 +1,8 @@
+id = 'pulseeffects'
+name = 'pulseeffects'
+
+homepage = 'https://github.com/wwmm/pulseeffects'
+
+[[package]]
+channel = 'debian'
+name = 'pulseeffects'

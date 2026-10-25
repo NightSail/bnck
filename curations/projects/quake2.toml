@@ -1,0 +1,8 @@
+id = 'quake2'
+name = 'quake2'
+
+homepage = 'http://www.yamagi.org/quake2'
+
+[[package]]
+channel = 'fedora'
+name = 'quake2'

@@ -1,0 +1,8 @@
+id = 'easyeda2kicad'
+name = 'easyeda2kicad'
+
+repository = 'https://github.com/uPesy/easyeda2kicad.py.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/easyeda2kicad'

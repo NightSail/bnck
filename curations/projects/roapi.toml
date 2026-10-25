@@ -1,0 +1,8 @@
+id = 'roapi'
+name = 'roapi'
+
+homepage = 'https://roapi.github.io/docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/roapi'

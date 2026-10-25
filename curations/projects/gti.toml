@@ -1,0 +1,17 @@
+id = 'gti'
+name = 'gti'
+
+homepage = 'http://r-wos.org/hacks/gti'
+repository = 'https://github.com/rwos/gti.git'
+
+[[package]]
+channel = 'debian'
+name = 'gti'
+
+[[package]]
+channel = 'fedora'
+name = 'gti'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gti'

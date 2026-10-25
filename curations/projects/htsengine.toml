@@ -1,0 +1,8 @@
+id = 'htsengine'
+name = 'htsengine'
+
+homepage = 'https://hts-engine.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'htsengine'

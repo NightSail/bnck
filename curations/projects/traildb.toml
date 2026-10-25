@@ -1,0 +1,8 @@
+id = 'traildb'
+name = 'traildb'
+
+homepage = 'https://traildb.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/traildb'

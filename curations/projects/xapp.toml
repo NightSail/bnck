@@ -1,0 +1,8 @@
+id = 'xapp'
+name = 'xapp'
+
+homepage = 'https://github.com/linuxmint/xapp'
+
+[[package]]
+channel = 'arch'
+name = 'xapp'

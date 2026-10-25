@@ -1,0 +1,8 @@
+id = 'lilv-tools'
+name = 'lilv-tools'
+
+homepage = 'https://gitlab.com/lv2/lilv'
+
+[[package]]
+channel = 'arch'
+name = 'lilv-tools'

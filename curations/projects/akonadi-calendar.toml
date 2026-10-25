@@ -1,0 +1,12 @@
+id = 'akonadi-calendar'
+name = 'akonadi-calendar'
+
+homepage = 'https://invent.kde.org/frameworks/akonadi-calendar'
+
+[[package]]
+channel = 'fedora'
+name = 'akonadi-calendar'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-akonadi-calendar'

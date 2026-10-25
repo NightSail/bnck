@@ -1,0 +1,16 @@
+id = 'cairosvg'
+name = 'cairosvg'
+
+homepage = 'https://cairosvg.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-cairosvg'
+
+[[package]]
+channel = 'debian'
+name = 'cairosvg'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cairosvg'

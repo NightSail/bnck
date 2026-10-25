@@ -1,0 +1,9 @@
+id = 'nvc'
+name = 'nvc'
+
+homepage = 'https://www.nickg.me.uk/nvc'
+repository = 'https://github.com/nickg/nvc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nvc'

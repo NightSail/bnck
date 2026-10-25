@@ -1,0 +1,12 @@
+id = 'm2vrequantiser'
+name = 'm2vrequantiser'
+
+homepage = 'https://launchpad.net/m2vrequantiser'
+
+[[package]]
+channel = 'debian'
+name = 'm2vrequantiser'
+
+[[package]]
+channel = 'fedora'
+name = 'm2vrequantiser'

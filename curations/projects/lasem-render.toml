@@ -1,0 +1,8 @@
+id = 'lasem-render'
+name = 'lasem-render'
+
+homepage = 'https://lasemproject.github.io/lasem'
+
+[[package]]
+channel = 'fedora'
+name = 'lasem-render'

@@ -1,0 +1,8 @@
+id = 'adriconf'
+name = 'adriconf'
+
+homepage = 'https://gitlab.freedesktop.org/mesa/adriconf'
+
+[[package]]
+channel = 'arch'
+name = 'adriconf'

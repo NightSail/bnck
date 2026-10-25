@@ -1,0 +1,12 @@
+id = 'dpic'
+name = 'dpic'
+
+homepage = 'https://ece.uwaterloo.ca/~aplevich/dpic'
+
+[[package]]
+channel = 'debian'
+name = 'dpic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dpic'

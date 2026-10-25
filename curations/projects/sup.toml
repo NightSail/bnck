@@ -1,0 +1,6 @@
+id = 'sup'
+name = 'sup'
+
+[[package]]
+channel = 'debian'
+name = 'sup'

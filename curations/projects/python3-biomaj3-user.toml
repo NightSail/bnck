@@ -1,0 +1,8 @@
+id = 'python3-biomaj3-user'
+name = 'python3-biomaj3-user'
+
+homepage = 'https://github.com/genouest/biomaj-user'
+
+[[package]]
+channel = 'debian'
+name = 'python3-biomaj3-user'

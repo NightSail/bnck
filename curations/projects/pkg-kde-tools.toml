@@ -1,0 +1,6 @@
+id = 'pkg-kde-tools'
+name = 'pkg-kde-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pkg-kde-tools'

@@ -1,0 +1,8 @@
+id = 'kona'
+name = 'kona'
+
+repository = 'https://github.com/kevinlawler/kona.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kona'

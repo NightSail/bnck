@@ -1,0 +1,8 @@
+id = 'pip-audit'
+name = 'pip-audit'
+
+homepage = 'https://pypi.org/project/pip-audit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pip-audit'

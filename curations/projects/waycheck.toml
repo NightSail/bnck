@@ -1,0 +1,16 @@
+id = 'waycheck'
+name = 'waycheck'
+
+homepage = 'https://gitlab.freedesktop.org/serebit/waycheck'
+
+[[package]]
+channel = 'arch'
+name = 'waycheck'
+
+[[package]]
+channel = 'debian'
+name = 'waycheck'
+
+[[package]]
+channel = 'fedora'
+name = 'waycheck'

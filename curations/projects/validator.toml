@@ -1,0 +1,20 @@
+id = 'validator'
+name = 'validator'
+
+homepage = 'https://validator.github.io/validator'
+
+[[package]]
+channel = 'debian'
+name = 'vnu'
+
+[[package]]
+channel = 'debian'
+name = 'vnu-client'
+
+[[package]]
+channel = 'debian'
+name = 'vnu-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vnu'

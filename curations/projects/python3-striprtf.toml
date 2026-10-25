@@ -1,0 +1,8 @@
+id = 'python3-striprtf'
+name = 'python3-striprtf'
+
+homepage = 'https://github.com/joshy/striprtf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-striprtf'

@@ -1,0 +1,8 @@
+id = 'secpanel'
+name = 'secpanel'
+
+homepage = 'http://themediahost.de/secpanel'
+
+[[package]]
+channel = 'debian'
+name = 'secpanel'

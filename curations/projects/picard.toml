@@ -1,0 +1,16 @@
+id = 'picard'
+name = 'picard'
+
+homepage = 'https://github.com/metabrainz/picard'
+
+[[package]]
+channel = 'arch'
+name = 'picard'
+
+[[package]]
+channel = 'debian'
+name = 'picard'
+
+[[package]]
+channel = 'fedora'
+name = 'picard'

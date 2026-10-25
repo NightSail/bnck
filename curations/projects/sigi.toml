@@ -1,0 +1,9 @@
+id = 'sigi'
+name = 'sigi'
+
+homepage = 'https://sigi.quest'
+repository = 'https://github.com/so-dang-cool/sigi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sigi'

@@ -1,0 +1,12 @@
+id = 'nexus-tools'
+name = 'nexus-tools'
+
+homepage = 'http://www.nexusformat.org'
+
+[[package]]
+channel = 'debian'
+name = 'nexus-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'nexus-tools'

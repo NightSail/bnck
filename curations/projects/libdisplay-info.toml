@@ -1,0 +1,16 @@
+id = 'libdisplay-info'
+name = 'libdisplay-info'
+
+homepage = 'https://gitlab.freedesktop.org/emersion/libdisplay-info'
+
+[[package]]
+channel = 'arch'
+name = 'libdisplay-info'
+
+[[package]]
+channel = 'debian'
+name = 'libdisplay-info-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libdisplay-info-tools'

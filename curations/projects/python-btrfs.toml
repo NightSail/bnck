@@ -1,0 +1,16 @@
+id = 'python-btrfs'
+name = 'python-btrfs'
+
+homepage = 'https://github.com/knorrie/python-btrfs'
+
+[[package]]
+channel = 'arch'
+name = 'python-btrfs'
+
+[[package]]
+channel = 'debian'
+name = 'python3-btrfs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-btrfs'

@@ -1,0 +1,8 @@
+id = 'python3-orange3'
+name = 'python3-orange3'
+
+homepage = 'https://orangedatamining.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-orange3'

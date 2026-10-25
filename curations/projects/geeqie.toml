@@ -1,0 +1,20 @@
+id = 'geeqie'
+name = 'geeqie'
+
+homepage = 'https://www.geeqie.org'
+
+[[package]]
+channel = 'arch'
+name = 'geeqie'
+
+[[package]]
+channel = 'debian'
+name = 'geeqie'
+
+[[package]]
+channel = 'fedora'
+name = 'geeqie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geeqie'

@@ -1,0 +1,12 @@
+id = 'xl2tpd'
+name = 'xl2tpd'
+
+homepage = 'https://github.com/xelerance/xl2tpd'
+
+[[package]]
+channel = 'arch'
+name = 'xl2tpd'
+
+[[package]]
+channel = 'debian'
+name = 'xl2tpd'

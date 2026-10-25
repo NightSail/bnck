@@ -1,0 +1,8 @@
+id = 'rpmautospec'
+name = 'rpmautospec'
+
+homepage = 'https://github.com/fedora-infra/rpmautospec'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmautospec'

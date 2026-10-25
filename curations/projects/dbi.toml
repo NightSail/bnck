@@ -1,0 +1,12 @@
+id = 'dbi'
+name = 'dbi'
+
+homepage = 'https://dbi.perl.org'
+
+[[package]]
+channel = 'debian'
+name = 'libdbi-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBI'

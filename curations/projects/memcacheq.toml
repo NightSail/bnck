@@ -1,0 +1,8 @@
+id = 'memcacheq'
+name = 'memcacheq'
+
+homepage = 'https://github.com/stvchu/memcacheq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/memcacheq'

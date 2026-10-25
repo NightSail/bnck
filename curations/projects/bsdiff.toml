@@ -1,0 +1,16 @@
+id = 'bsdiff'
+name = 'bsdiff'
+
+homepage = 'https://www.daemonology.net/bsdiff'
+
+[[package]]
+channel = 'debian'
+name = 'bsdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'bsdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bsdiff'

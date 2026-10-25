@@ -1,0 +1,16 @@
+id = 'n2n'
+name = 'n2n'
+
+homepage = 'https://github.com/ntop/n2n'
+
+[[package]]
+channel = 'arch'
+name = 'n2n'
+
+[[package]]
+channel = 'debian'
+name = 'n2n'
+
+[[package]]
+channel = 'fedora'
+name = 'n2n'

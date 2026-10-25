@@ -1,0 +1,8 @@
+id = 'confluent-cli'
+name = 'confluent-cli'
+
+homepage = 'https://docs.confluent.io/confluent-cli/current/overview.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/confluent-cli'

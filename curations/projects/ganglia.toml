@@ -1,0 +1,16 @@
+id = 'ganglia'
+name = 'ganglia'
+
+homepage = 'https://github.com/ganglia'
+
+[[package]]
+channel = 'fedora'
+name = 'ganglia-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'ganglia-gmetad'
+
+[[package]]
+channel = 'fedora'
+name = 'ganglia-gmond'

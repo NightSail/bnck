@@ -1,0 +1,8 @@
+id = 'ropper'
+name = 'ropper'
+
+homepage = 'https://github.com/sashs/Ropper'
+
+[[package]]
+channel = 'arch'
+name = 'ropper'

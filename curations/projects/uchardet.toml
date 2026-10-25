@@ -1,0 +1,21 @@
+id = 'uchardet'
+name = 'uchardet'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/uchardet'
+repository = 'https://gitlab.freedesktop.org/uchardet/uchardet.git'
+
+[[package]]
+channel = 'arch'
+name = 'uchardet'
+
+[[package]]
+channel = 'debian'
+name = 'uchardet'
+
+[[package]]
+channel = 'fedora'
+name = 'uchardet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uchardet'

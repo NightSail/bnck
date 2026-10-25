@@ -1,0 +1,8 @@
+id = 'swift-sh'
+name = 'swift-sh'
+
+repository = 'https://github.com/mxcl/swift-sh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swift-sh'

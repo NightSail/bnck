@@ -1,0 +1,8 @@
+id = 'fedora-messaging'
+name = 'fedora-messaging'
+
+homepage = 'https://github.com/fedora-infra/fedora-messaging'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-messaging'

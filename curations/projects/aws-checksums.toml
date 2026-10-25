@@ -1,0 +1,8 @@
+id = 'aws-checksums'
+name = 'aws-checksums'
+
+homepage = 'https://github.com/awslabs/aws-checksums'
+
+[[package]]
+channel = 'arch'
+name = 'aws-checksums'

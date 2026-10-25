@@ -1,0 +1,8 @@
+id = 'zet'
+name = 'zet'
+
+homepage = 'https://github.com/yarrow/zet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zet'

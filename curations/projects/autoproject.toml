@@ -1,0 +1,8 @@
+id = 'autoproject'
+name = 'autoproject'
+
+homepage = 'http://jrv.oddones.org'
+
+[[package]]
+channel = 'debian'
+name = 'autoproject'

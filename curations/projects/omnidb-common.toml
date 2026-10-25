@@ -1,0 +1,8 @@
+id = 'omnidb-common'
+name = 'omnidb-common'
+
+homepage = 'https://omnidb.org'
+
+[[package]]
+channel = 'debian'
+name = 'omnidb-common'

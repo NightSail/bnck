@@ -1,0 +1,9 @@
+id = 'datadog-static-analyzer'
+name = 'datadog-static-analyzer'
+
+homepage = 'https://docs.datadoghq.com/security/code_security/static_analysis'
+repository = 'https://github.com/DataDog/datadog-static-analyzer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/datadog-static-analyzer'

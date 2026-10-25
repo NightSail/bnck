@@ -1,0 +1,12 @@
+id = 'git-annex-remote-rclone'
+name = 'git-annex-remote-rclone'
+
+homepage = 'https://github.com/git-annex-remote-rclone/git-annex-remote-rclone'
+
+[[package]]
+channel = 'debian'
+name = 'git-annex-remote-rclone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-annex-remote-rclone'

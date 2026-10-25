@@ -1,0 +1,8 @@
+id = 'polyglot-chess'
+name = 'polyglot-chess'
+
+homepage = 'https://github.com/sshivaji/polyglot'
+
+[[package]]
+channel = 'fedora'
+name = 'polyglot-chess'

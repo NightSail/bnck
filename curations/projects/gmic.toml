@@ -1,0 +1,12 @@
+id = 'gmic'
+name = 'gmic'
+
+homepage = 'https://gmic.eu'
+
+[[package]]
+channel = 'arch'
+name = 'gmic'
+
+[[package]]
+channel = 'fedora'
+name = 'gmic'

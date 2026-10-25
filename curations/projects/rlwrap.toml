@@ -1,0 +1,20 @@
+id = 'rlwrap'
+name = 'rlwrap'
+
+repository = 'https://github.com/hanslub42/rlwrap.git'
+
+[[package]]
+channel = 'arch'
+name = 'rlwrap'
+
+[[package]]
+channel = 'debian'
+name = 'rlwrap'
+
+[[package]]
+channel = 'fedora'
+name = 'rlwrap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rlwrap'

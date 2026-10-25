@@ -1,0 +1,8 @@
+id = 'base64-webtools'
+name = 'base64'
+
+homepage = 'https://www.fourmilab.ch/webtools/base64'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/base64'

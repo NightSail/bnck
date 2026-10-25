@@ -1,0 +1,8 @@
+id = 'biboumi'
+name = 'biboumi'
+
+homepage = 'https://codeberg.org/poezio/biboumi'
+
+[[package]]
+channel = 'debian'
+name = 'biboumi'

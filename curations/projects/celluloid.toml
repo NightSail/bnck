@@ -1,0 +1,16 @@
+id = 'celluloid'
+name = 'celluloid'
+
+homepage = 'https://celluloid-player.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'celluloid'
+
+[[package]]
+channel = 'debian'
+name = 'celluloid'
+
+[[package]]
+channel = 'fedora'
+name = 'celluloid'

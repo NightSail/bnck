@@ -1,0 +1,16 @@
+id = 'ircd-hybrid'
+name = 'ircd-hybrid'
+
+homepage = 'https://www.ircd-hybrid.org'
+
+[[package]]
+channel = 'debian'
+name = 'hybrid-dev'
+
+[[package]]
+channel = 'debian'
+name = 'ircd-hybrid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ircd-hybrid'

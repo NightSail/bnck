@@ -1,0 +1,8 @@
+id = 'inputplumber'
+name = 'inputplumber'
+
+homepage = 'https://github.com/ShadowBlip/InputPlumber'
+
+[[package]]
+channel = 'arch'
+name = 'inputplumber'

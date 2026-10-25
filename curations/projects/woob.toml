@@ -1,0 +1,12 @@
+id = 'woob'
+name = 'woob'
+
+homepage = 'https://woob.tech'
+
+[[package]]
+channel = 'arch'
+name = 'woob'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/woob'

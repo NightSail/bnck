@@ -1,0 +1,8 @@
+id = 'cedar-backup3'
+name = 'cedar-backup3'
+
+homepage = 'https://github.com/pronovic/cedar-backup3'
+
+[[package]]
+channel = 'debian'
+name = 'cedar-backup3'

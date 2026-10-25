@@ -1,0 +1,8 @@
+id = 'python3-schema-salad'
+name = 'python3-schema-salad'
+
+homepage = 'https://schema-salad.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-schema-salad'

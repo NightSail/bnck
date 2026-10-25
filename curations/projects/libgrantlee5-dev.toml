@@ -1,0 +1,8 @@
+id = 'libgrantlee5-dev'
+name = 'libgrantlee5-dev'
+
+homepage = 'https://github.com/steveire/grantlee'
+
+[[package]]
+channel = 'debian'
+name = 'libgrantlee5-dev'

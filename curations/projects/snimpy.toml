@@ -1,0 +1,8 @@
+id = 'snimpy'
+name = 'snimpy'
+
+homepage = 'https://github.com/vincentbernat/snimpy'
+
+[[package]]
+channel = 'debian'
+name = 'snimpy'

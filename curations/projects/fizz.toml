@@ -1,0 +1,12 @@
+id = 'fizz'
+name = 'fizz'
+
+homepage = 'https://github.com/facebookincubator/fizz'
+
+[[package]]
+channel = 'fedora'
+name = 'fizz'
+
+[[package]]
+channel = 'fedora'
+name = 'fizz-devel'

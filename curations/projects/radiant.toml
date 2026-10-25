@@ -1,0 +1,8 @@
+id = 'radiant'
+name = 'radiant'
+
+homepage = 'https://github.com/marbl/Krona'
+
+[[package]]
+channel = 'debian'
+name = 'radiant'

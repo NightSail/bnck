@@ -1,0 +1,8 @@
+id = 'geoip2fast'
+name = 'geoip2fast'
+
+repository = 'https://github.com/rabuchaim/geoip2fast.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geoip2fast'

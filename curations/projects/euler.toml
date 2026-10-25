@@ -1,0 +1,8 @@
+id = 'euler'
+name = 'euler'
+
+homepage = 'http://euler.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'euler'

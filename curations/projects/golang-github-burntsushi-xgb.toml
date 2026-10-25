@@ -1,0 +1,8 @@
+id = 'golang-github-burntsushi-xgb'
+name = 'golang-github-burntsushi-xgb'
+
+homepage = 'https://github.com/BurntSushi/xgb'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-burntsushi-xgb'

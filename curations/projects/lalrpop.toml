@@ -1,0 +1,8 @@
+id = 'lalrpop'
+name = 'lalrpop'
+
+homepage = 'https://github.com/lalrpop/lalrpop'
+
+[[package]]
+channel = 'debian'
+name = 'lalrpop'

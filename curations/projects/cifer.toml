@@ -1,0 +1,8 @@
+id = 'cifer'
+name = 'cifer'
+
+homepage = 'https://code.google.com/p/cifer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cifer'

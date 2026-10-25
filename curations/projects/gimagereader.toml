@@ -1,0 +1,28 @@
+id = 'gimagereader'
+name = 'gimagereader'
+
+homepage = 'https://github.com/manisandro/gImageReader'
+
+[[package]]
+channel = 'arch'
+name = 'gimagereader-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'gimagereader-qt'
+
+[[package]]
+channel = 'debian'
+name = 'gimagereader'
+
+[[package]]
+channel = 'debian'
+name = 'gimagereader-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'gimagereader-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'gimagereader-qt'

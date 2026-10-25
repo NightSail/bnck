@@ -1,0 +1,8 @@
+id = 'kotlin-language-server'
+name = 'kotlin-language-server'
+
+homepage = 'https://github.com/fwcd/kotlin-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kotlin-language-server'

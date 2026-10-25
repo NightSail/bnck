@@ -1,0 +1,9 @@
+id = 'putty-simon'
+name = 'putty'
+
+homepage = 'https://putty.software'
+repository = 'https://git.tartarus.org/simon/putty.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/putty'

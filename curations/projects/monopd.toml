@@ -1,0 +1,8 @@
+id = 'monopd'
+name = 'monopd'
+
+homepage = 'http://gtkatlantic.gradator.net'
+
+[[package]]
+channel = 'debian'
+name = 'monopd'

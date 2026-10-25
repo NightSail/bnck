@@ -1,0 +1,8 @@
+id = 'ocaml-uunf'
+name = 'ocaml-uunf'
+
+homepage = 'https://erratique.ch/software/uunf'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-uunf'

@@ -1,0 +1,12 @@
+id = 'nbdime'
+name = 'nbdime'
+
+homepage = 'https://nbdime.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nbdime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nbdime'

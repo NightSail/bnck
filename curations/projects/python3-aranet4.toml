@@ -1,0 +1,8 @@
+id = 'python3-aranet4'
+name = 'python3-aranet4'
+
+homepage = 'https://github.com/Anrijs/Aranet4-Python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aranet4'

@@ -1,0 +1,8 @@
+id = 'cmconvert'
+name = 'cmconvert'
+
+homepage = 'http://www.smittyware.com/palm/cachemate/tools.php'
+
+[[package]]
+channel = 'fedora'
+name = 'cmconvert'

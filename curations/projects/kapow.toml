@@ -1,0 +1,12 @@
+id = 'kapow'
+name = 'kapow'
+
+homepage = 'http://gottcode.org/kapow'
+
+[[package]]
+channel = 'debian'
+name = 'kapow'
+
+[[package]]
+channel = 'fedora'
+name = 'kapow'

@@ -1,0 +1,8 @@
+id = 'owncloud-client'
+name = 'owncloud-client'
+
+homepage = 'http://owncloud.org'
+
+[[package]]
+channel = 'arch'
+name = 'owncloud-client'

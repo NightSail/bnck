@@ -1,0 +1,8 @@
+id = 'pc6001vx'
+name = 'pc6001vx'
+
+repository = 'https://github.com/eighttails/PC6001VX.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pc6001vx'

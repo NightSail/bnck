@@ -1,0 +1,6 @@
+id = 'difference'
+name = 'difference'
+
+[[package]]
+channel = 'debian'
+name = 'difference'

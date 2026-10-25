@@ -1,0 +1,8 @@
+id = 'hsqldb-utils'
+name = 'hsqldb-utils'
+
+homepage = 'https://hsqldb.org'
+
+[[package]]
+channel = 'debian'
+name = 'hsqldb-utils'

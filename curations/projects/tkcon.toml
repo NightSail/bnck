@@ -1,0 +1,8 @@
+id = 'tkcon'
+name = 'tkcon'
+
+homepage = 'https://github.com/wjoye/tkcon'
+
+[[package]]
+channel = 'debian'
+name = 'tkcon'

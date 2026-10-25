@@ -1,0 +1,8 @@
+id = 'fhist'
+name = 'fhist'
+
+homepage = 'https://fhist.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fhist'

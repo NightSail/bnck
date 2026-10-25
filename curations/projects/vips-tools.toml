@@ -1,0 +1,8 @@
+id = 'vips-tools'
+name = 'vips-tools'
+
+homepage = 'https://www.libvips.org'
+
+[[package]]
+channel = 'fedora'
+name = 'vips-tools'

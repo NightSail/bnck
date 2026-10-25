@@ -1,0 +1,8 @@
+id = 'lomiri-calculator-app'
+name = 'lomiri-calculator-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-calculator-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-calculator-app'

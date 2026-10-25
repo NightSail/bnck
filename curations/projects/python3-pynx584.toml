@@ -1,0 +1,8 @@
+id = 'python3-pynx584'
+name = 'python3-pynx584'
+
+homepage = 'https://github.com/kk7ds/pynx584'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pynx584'

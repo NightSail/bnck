@@ -1,0 +1,20 @@
+id = 'wesnoth'
+name = 'wesnoth'
+
+homepage = 'https://www.wesnoth.org'
+
+[[package]]
+channel = 'arch'
+name = 'wesnoth'
+
+[[package]]
+channel = 'fedora'
+name = 'wesnoth'
+
+[[package]]
+channel = 'fedora'
+name = 'wesnoth-server'
+
+[[package]]
+channel = 'fedora'
+name = 'wesnoth-tools'

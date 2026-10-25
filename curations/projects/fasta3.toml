@@ -1,0 +1,8 @@
+id = 'fasta3'
+name = 'fasta3'
+
+homepage = 'https://fasta.bioch.virginia.edu'
+
+[[package]]
+channel = 'debian'
+name = 'fasta3'

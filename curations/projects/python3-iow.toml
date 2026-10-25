@@ -1,0 +1,8 @@
+id = 'python3-iow'
+name = 'python3-iow'
+
+homepage = 'https://github.com/biocore/improved-octo-waddle'
+
+[[package]]
+channel = 'debian'
+name = 'python3-iow'

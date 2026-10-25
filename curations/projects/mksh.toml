@@ -1,0 +1,16 @@
+id = 'mksh'
+name = 'mksh'
+
+homepage = 'https://mbsd.evolvis.org/mksh.htm'
+
+[[package]]
+channel = 'debian'
+name = 'mksh'
+
+[[package]]
+channel = 'fedora'
+name = 'mksh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mksh'

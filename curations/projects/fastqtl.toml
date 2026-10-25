@@ -1,0 +1,8 @@
+id = 'fastqtl'
+name = 'fastqtl'
+
+homepage = 'http://fastqtl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fastqtl'

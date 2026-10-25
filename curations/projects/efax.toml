@@ -1,0 +1,10 @@
+id = 'efax'
+name = 'efax'
+
+[[package]]
+channel = 'debian'
+name = 'efax'
+
+[[package]]
+channel = 'fedora'
+name = 'efax'

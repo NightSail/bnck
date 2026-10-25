@@ -1,0 +1,13 @@
+id = 'hebcal'
+name = 'hebcal'
+
+homepage = 'https://hebcal.github.io'
+repository = 'https://github.com/hebcal/hebcal.git'
+
+[[package]]
+channel = 'debian'
+name = 'hebcal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hebcal'

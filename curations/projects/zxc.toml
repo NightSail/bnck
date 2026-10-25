@@ -1,0 +1,12 @@
+id = 'zxc'
+name = 'zxc'
+
+repository = 'https://github.com/hellobertrand/zxc.git'
+
+[[package]]
+channel = 'debian'
+name = 'zxc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zxc'

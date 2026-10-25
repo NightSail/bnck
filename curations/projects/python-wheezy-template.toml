@@ -1,0 +1,8 @@
+id = 'python-wheezy-template'
+name = 'python-wheezy-template'
+
+homepage = 'https://github.com/akornatskyy/wheezy.template'
+
+[[package]]
+channel = 'arch'
+name = 'python-wheezy-template'

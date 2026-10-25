@@ -1,0 +1,8 @@
+id = 'libcvss-perl'
+name = 'libcvss-perl'
+
+homepage = 'https://metacpan.org/release/CVSS'
+
+[[package]]
+channel = 'debian'
+name = 'libcvss-perl'

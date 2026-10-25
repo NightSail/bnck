@@ -1,0 +1,8 @@
+id = 'wmanager'
+name = 'wmanager'
+
+homepage = 'https://devel.ringlet.net/x11/wmanager'
+
+[[package]]
+channel = 'debian'
+name = 'wmanager'

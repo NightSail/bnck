@@ -1,0 +1,12 @@
+id = 'palapeli'
+name = 'palapeli'
+
+homepage = 'https://apps.kde.org/palapeli'
+
+[[package]]
+channel = 'arch'
+name = 'palapeli'
+
+[[package]]
+channel = 'fedora'
+name = 'palapeli'

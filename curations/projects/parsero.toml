@@ -1,0 +1,8 @@
+id = 'parsero'
+name = 'parsero'
+
+homepage = 'https://github.com/behindthefirewalls/Parsero'
+
+[[package]]
+channel = 'debian'
+name = 'parsero'

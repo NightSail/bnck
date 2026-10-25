@@ -1,0 +1,8 @@
+id = 'wal-g'
+name = 'wal-g'
+
+homepage = 'https://github.com/wal-g/wal-g'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wal-g'

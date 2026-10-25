@@ -1,0 +1,8 @@
+id = 'python3-codecov'
+name = 'python3-codecov'
+
+homepage = 'https://github.com/codecov/codecov-python'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-codecov'

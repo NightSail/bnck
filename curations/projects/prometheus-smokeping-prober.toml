@@ -1,0 +1,12 @@
+id = 'prometheus-smokeping-prober'
+name = 'prometheus-smokeping-prober'
+
+homepage = 'https://github.com/SuperQ/smokeping_prober'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-smokeping-prober'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-smokeping-prober'

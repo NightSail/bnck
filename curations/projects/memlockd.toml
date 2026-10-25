@@ -1,0 +1,6 @@
+id = 'memlockd'
+name = 'memlockd'
+
+[[package]]
+channel = 'debian'
+name = 'memlockd'

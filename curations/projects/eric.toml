@@ -1,0 +1,12 @@
+id = 'eric'
+name = 'eric'
+
+homepage = 'https://eric-ide.python-projects.org'
+
+[[package]]
+channel = 'debian'
+name = 'eric'
+
+[[package]]
+channel = 'fedora'
+name = 'eric'

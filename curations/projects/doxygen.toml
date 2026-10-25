@@ -1,0 +1,33 @@
+id = 'doxygen'
+name = 'doxygen'
+
+homepage = 'http://www.doxygen.nl'
+repository = 'https://github.com/doxygen/doxygen.git'
+
+[[package]]
+channel = 'arch'
+name = 'doxygen'
+
+[[package]]
+channel = 'debian'
+name = 'doxygen'
+
+[[package]]
+channel = 'debian'
+name = 'doxygen-doxyparse'
+
+[[package]]
+channel = 'debian'
+name = 'doxygen-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'doxygen'
+
+[[package]]
+channel = 'fedora'
+name = 'doxygen-doxywizard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doxygen'

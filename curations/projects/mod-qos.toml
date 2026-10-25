@@ -1,0 +1,8 @@
+id = 'mod-qos'
+name = 'mod_qos'
+
+homepage = 'http://opensource.adnovum.ch/mod_qos'
+
+[[package]]
+channel = 'fedora'
+name = 'mod_qos'

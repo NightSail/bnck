@@ -1,0 +1,16 @@
+id = 'sng'
+name = 'sng'
+
+homepage = 'https://sng.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sng'
+
+[[package]]
+channel = 'fedora'
+name = 'sng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sng'

@@ -1,0 +1,16 @@
+id = 'volume-key'
+name = 'volume-key'
+
+homepage = 'https://pagure.io/volume_key'
+
+[[package]]
+channel = 'arch'
+name = 'volume_key'
+
+[[package]]
+channel = 'debian'
+name = 'volume-key'
+
+[[package]]
+channel = 'fedora'
+name = 'volume_key'

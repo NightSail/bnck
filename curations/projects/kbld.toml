@@ -1,0 +1,9 @@
+id = 'kbld'
+name = 'kbld'
+
+homepage = 'https://carvel.dev/kbld'
+repository = 'https://github.com/carvel-dev/kbld.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kbld'

@@ -1,0 +1,8 @@
+id = 'dynein'
+name = 'dynein'
+
+repository = 'https://github.com/awslabs/dynein.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dynein'

@@ -1,0 +1,8 @@
+id = 'vinci'
+name = 'vinci'
+
+homepage = 'https://www.multiprecision.org/vinci'
+
+[[package]]
+channel = 'fedora'
+name = 'vinci'

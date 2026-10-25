@@ -1,0 +1,13 @@
+id = 'cmctl'
+name = 'cmctl'
+
+homepage = 'https://cert-manager.io'
+repository = 'https://github.com/cert-manager/cmctl.git'
+
+[[package]]
+channel = 'arch'
+name = 'cmctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmctl'

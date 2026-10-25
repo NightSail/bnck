@@ -1,0 +1,8 @@
+id = 'renattach'
+name = 'renattach'
+
+homepage = 'http://www.pc-tools.net/unix/renattach'
+
+[[package]]
+channel = 'debian'
+name = 'renattach'

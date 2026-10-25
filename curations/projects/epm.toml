@@ -1,0 +1,8 @@
+id = 'epm'
+name = 'epm'
+
+homepage = 'https://jimjag.github.io/epm'
+
+[[package]]
+channel = 'debian'
+name = 'epm'

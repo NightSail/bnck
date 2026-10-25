@@ -1,0 +1,16 @@
+id = 'sudo-rs'
+name = 'sudo-rs'
+
+homepage = 'https://github.com/trifectatechfoundation/sudo-rs'
+
+[[package]]
+channel = 'arch'
+name = 'sudo-rs'
+
+[[package]]
+channel = 'debian'
+name = 'sudo-rs'
+
+[[package]]
+channel = 'fedora'
+name = 'sudo-rs'

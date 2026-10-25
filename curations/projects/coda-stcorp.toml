@@ -1,0 +1,8 @@
+id = 'coda-stcorp'
+name = 'coda'
+
+homepage = 'https://github.com/stcorp/coda'
+
+[[package]]
+channel = 'debian'
+name = 'coda'

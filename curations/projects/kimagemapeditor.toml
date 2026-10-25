@@ -1,0 +1,16 @@
+id = 'kimagemapeditor'
+name = 'kimagemapeditor'
+
+homepage = 'https://apps.kde.org/kimagemapeditor'
+
+[[package]]
+channel = 'arch'
+name = 'kimagemapeditor'
+
+[[package]]
+channel = 'debian'
+name = 'kimagemapeditor'
+
+[[package]]
+channel = 'fedora'
+name = 'kimagemapeditor'

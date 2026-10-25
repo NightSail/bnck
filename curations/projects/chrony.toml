@@ -1,0 +1,20 @@
+id = 'chrony'
+name = 'chrony'
+
+homepage = 'https://chrony-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'chrony'
+
+[[package]]
+channel = 'debian'
+name = 'chrony'
+
+[[package]]
+channel = 'fedora'
+name = 'chrony'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chrony'

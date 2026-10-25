@@ -1,0 +1,20 @@
+id = 'julius'
+name = 'julius'
+
+homepage = 'https://github.com/julius-speech/julius'
+
+[[package]]
+channel = 'arch'
+name = 'julius'
+
+[[package]]
+channel = 'fedora'
+name = 'julius'
+
+[[package]]
+channel = 'fedora'
+name = 'julius-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/julius'

@@ -1,0 +1,13 @@
+id = 'upterm'
+name = 'upterm'
+
+homepage = 'https://upterm.dev'
+repository = 'https://github.com/owenthereal/upterm.git'
+
+[[package]]
+channel = 'arch'
+name = 'upterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/upterm'

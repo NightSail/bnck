@@ -1,0 +1,12 @@
+id = 'hesiod'
+name = 'hesiod'
+
+homepage = 'https://github.com/achernya/hesiod'
+
+[[package]]
+channel = 'debian'
+name = 'hesiod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hesiod'

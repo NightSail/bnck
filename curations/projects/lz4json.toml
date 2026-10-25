@@ -1,0 +1,8 @@
+id = 'lz4json'
+name = 'lz4json'
+
+homepage = 'https://github.com/andikleen/lz4json'
+
+[[package]]
+channel = 'debian'
+name = 'lz4json'

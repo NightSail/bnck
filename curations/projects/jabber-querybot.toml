@@ -1,0 +1,6 @@
+id = 'jabber-querybot'
+name = 'jabber-querybot'
+
+[[package]]
+channel = 'debian'
+name = 'jabber-querybot'

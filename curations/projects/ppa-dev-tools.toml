@@ -1,0 +1,8 @@
+id = 'ppa-dev-tools'
+name = 'ppa-dev-tools'
+
+homepage = 'https://launchpad.net/ppa-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ppa-dev-tools'

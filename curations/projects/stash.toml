@@ -1,0 +1,8 @@
+id = 'stash'
+name = 'stash'
+
+homepage = 'https://stash.ws'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/stash'

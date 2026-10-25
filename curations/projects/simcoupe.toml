@@ -1,0 +1,8 @@
+id = 'simcoupe'
+name = 'simcoupe'
+
+homepage = 'http://www.simcoupe.org'
+
+[[package]]
+channel = 'fedora'
+name = 'simcoupe'

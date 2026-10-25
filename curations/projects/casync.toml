@@ -1,0 +1,12 @@
+id = 'casync'
+name = 'casync'
+
+homepage = 'https://github.com/systemd/casync'
+
+[[package]]
+channel = 'arch'
+name = 'casync'
+
+[[package]]
+channel = 'debian'
+name = 'casync'

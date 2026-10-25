@@ -1,0 +1,12 @@
+id = 'bibtexconv'
+name = 'bibtexconv'
+
+homepage = 'https://www.nntb.no/~dreibh/bibtexconv'
+
+[[package]]
+channel = 'debian'
+name = 'bibtexconv'
+
+[[package]]
+channel = 'debian'
+name = 'ietf2bibtex'

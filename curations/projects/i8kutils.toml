@@ -1,0 +1,8 @@
+id = 'i8kutils'
+name = 'i8kutils'
+
+homepage = 'https://salsa.debian.org/debian/i8kutils'
+
+[[package]]
+channel = 'debian'
+name = 'i8kutils'

@@ -1,0 +1,8 @@
+id = 'envelope'
+name = 'envelope'
+
+repository = 'https://github.com/mattrighetti/envelope.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/envelope'

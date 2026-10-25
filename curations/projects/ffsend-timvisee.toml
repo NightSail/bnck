@@ -1,0 +1,9 @@
+id = 'ffsend-timvisee'
+name = 'ffsend'
+
+homepage = 'https://timvisee.com/projects/ffsend'
+repository = 'https://gitlab.com/timvisee/ffsend'
+
+[[package]]
+channel = 'crates.io'
+name = 'ffsend'

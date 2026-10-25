@@ -1,0 +1,13 @@
+id = 'deheader'
+name = 'deheader'
+
+homepage = 'http://www.catb.org/~esr/deheader'
+repository = 'https://gitlab.com/esr/deheader.git'
+
+[[package]]
+channel = 'debian'
+name = 'deheader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deheader'

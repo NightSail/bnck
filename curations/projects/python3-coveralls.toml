@@ -1,0 +1,8 @@
+id = 'python3-coveralls'
+name = 'python3-coveralls'
+
+homepage = 'https://github.com/coveralls-clients/coveralls-python'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-coveralls'

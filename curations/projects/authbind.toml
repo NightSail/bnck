@@ -1,0 +1,10 @@
+id = 'authbind'
+name = 'authbind'
+
+[[package]]
+channel = 'debian'
+name = 'authbind'
+
+[[package]]
+channel = 'fedora'
+name = 'authbind'

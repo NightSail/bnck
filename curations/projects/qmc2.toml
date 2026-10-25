@@ -1,0 +1,16 @@
+id = 'qmc2'
+name = 'qmc2'
+
+homepage = 'http://qmc2.batcom-it.net'
+
+[[package]]
+channel = 'fedora'
+name = 'qchdman'
+
+[[package]]
+channel = 'fedora'
+name = 'qmc2'
+
+[[package]]
+channel = 'fedora'
+name = 'qmc2-arcade'

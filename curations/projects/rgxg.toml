@@ -1,0 +1,12 @@
+id = 'rgxg'
+name = 'rgxg'
+
+homepage = 'https://rgxg.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'rgxg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rgxg'

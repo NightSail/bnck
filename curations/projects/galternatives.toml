@@ -1,0 +1,6 @@
+id = 'galternatives'
+name = 'galternatives'
+
+[[package]]
+channel = 'debian'
+name = 'galternatives'

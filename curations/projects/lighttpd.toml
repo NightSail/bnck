@@ -1,0 +1,20 @@
+id = 'lighttpd'
+name = 'lighttpd'
+
+homepage = 'https://www.lighttpd.net'
+
+[[package]]
+channel = 'arch'
+name = 'lighttpd'
+
+[[package]]
+channel = 'debian'
+name = 'lighttpd'
+
+[[package]]
+channel = 'fedora'
+name = 'lighttpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lighttpd'

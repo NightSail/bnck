@@ -1,0 +1,16 @@
+id = 'xfce4-whiskermenu-plugin'
+name = 'xfce4-whiskermenu-plugin'
+
+homepage = 'https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-whiskermenu-plugin'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-whiskermenu-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-whiskermenu-plugin'

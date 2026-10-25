@@ -1,0 +1,8 @@
+id = 'i3-gaps'
+name = 'i3-gaps'
+
+homepage = 'https://github.com/Airblader/i3'
+
+[[package]]
+channel = 'fedora'
+name = 'i3-gaps'

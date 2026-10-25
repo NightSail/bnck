@@ -1,0 +1,16 @@
+id = 'veyon'
+name = 'veyon'
+
+homepage = 'https://veyon.io'
+
+[[package]]
+channel = 'debian'
+name = 'veyon-configurator'
+
+[[package]]
+channel = 'debian'
+name = 'veyon-master'
+
+[[package]]
+channel = 'debian'
+name = 'veyon-service'

@@ -1,0 +1,8 @@
+id = 'forwords'
+name = 'forwords'
+
+homepage = 'https://salsa.debian.org/AlexFomin/forwords'
+
+[[package]]
+channel = 'debian'
+name = 'forwords'

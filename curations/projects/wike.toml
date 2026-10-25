@@ -1,0 +1,16 @@
+id = 'wike'
+name = 'wike'
+
+homepage = 'https://apps.gnome.org/Wike'
+
+[[package]]
+channel = 'arch'
+name = 'wike'
+
+[[package]]
+channel = 'debian'
+name = 'wike'
+
+[[package]]
+channel = 'fedora'
+name = 'wike'

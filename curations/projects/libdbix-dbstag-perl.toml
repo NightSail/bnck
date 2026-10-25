@@ -1,0 +1,8 @@
+id = 'libdbix-dbstag-perl'
+name = 'libdbix-dbstag-perl'
+
+homepage = 'https://metacpan.org/release/DBIx-DBStag'
+
+[[package]]
+channel = 'debian'
+name = 'libdbix-dbstag-perl'

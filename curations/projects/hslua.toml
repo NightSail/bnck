@@ -1,0 +1,12 @@
+id = 'hslua'
+name = 'hslua'
+
+homepage = 'https://hslua.org'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hslua-repl'
+
+[[package]]
+channel = 'arch'
+name = 'hslua-cli'

@@ -1,0 +1,8 @@
+id = 'libfsntfs-utils'
+name = 'libfsntfs-utils'
+
+homepage = 'https://github.com/libyal/libfsntfs'
+
+[[package]]
+channel = 'debian'
+name = 'libfsntfs-utils'

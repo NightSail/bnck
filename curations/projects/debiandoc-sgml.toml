@@ -1,0 +1,6 @@
+id = 'debiandoc-sgml'
+name = 'debiandoc-sgml'
+
+[[package]]
+channel = 'debian'
+name = 'debiandoc-sgml'

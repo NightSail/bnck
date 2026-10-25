@@ -1,0 +1,16 @@
+id = 'oxipng'
+name = 'oxipng'
+
+homepage = 'https://github.com/oxipng/oxipng'
+
+[[package]]
+channel = 'arch'
+name = 'oxipng'
+
+[[package]]
+channel = 'fedora'
+name = 'oxipng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oxipng'

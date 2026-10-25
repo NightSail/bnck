@@ -1,0 +1,12 @@
+id = 'time-zones'
+name = 'time-zones'
+
+homepage = 'https://www.iana.org/time-zones'
+
+[[package]]
+channel = 'arch'
+name = 'tzdata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tzdb'

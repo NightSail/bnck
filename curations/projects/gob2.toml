@@ -1,0 +1,8 @@
+id = 'gob2'
+name = 'gob2'
+
+homepage = 'https://www.jirka.org/gob.html'
+
+[[package]]
+channel = 'debian'
+name = 'gob2'

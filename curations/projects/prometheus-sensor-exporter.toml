@@ -1,0 +1,8 @@
+id = 'prometheus-sensor-exporter'
+name = 'prometheus-sensor-exporter'
+
+homepage = 'https://github.com/bdrung/prometheus-sensor-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-sensor-exporter'

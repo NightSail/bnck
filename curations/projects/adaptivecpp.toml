@@ -1,0 +1,9 @@
+id = 'adaptivecpp'
+name = 'adaptivecpp'
+
+homepage = 'https://adaptivecpp.github.io'
+repository = 'https://github.com/AdaptiveCpp/AdaptiveCpp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adaptivecpp'

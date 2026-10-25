@@ -1,0 +1,16 @@
+id = 'qmapshack'
+name = 'qmapshack'
+
+homepage = 'https://github.com/Maproom/qmapshack/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'qmapshack'
+
+[[package]]
+channel = 'fedora'
+name = 'qmapshack'
+
+[[package]]
+channel = 'fedora'
+name = 'qmaptool'

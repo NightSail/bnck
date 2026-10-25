@@ -1,0 +1,12 @@
+id = 'uacme'
+name = 'uacme'
+
+homepage = 'https://github.com/ndilieto/uacme'
+
+[[package]]
+channel = 'debian'
+name = 'uacme'
+
+[[package]]
+channel = 'fedora'
+name = 'uacme'

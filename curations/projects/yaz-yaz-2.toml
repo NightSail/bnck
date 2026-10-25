@@ -1,0 +1,8 @@
+id = 'yaz-yaz-2'
+name = 'yaz'
+
+homepage = 'https://www.indexdata.dk/yaz'
+
+[[package]]
+channel = 'arch'
+name = 'yaz'

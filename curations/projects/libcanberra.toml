@@ -1,0 +1,8 @@
+id = 'libcanberra'
+name = 'libcanberra'
+
+homepage = 'https://0pointer.net/lennart/projects/libcanberra'
+
+[[package]]
+channel = 'arch'
+name = 'libcanberra'

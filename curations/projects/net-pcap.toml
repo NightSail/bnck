@@ -1,0 +1,12 @@
+id = 'net-pcap'
+name = 'Net-Pcap'
+
+homepage = 'https://metacpan.org/release/Net-Pcap'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-pcap-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-Pcap'

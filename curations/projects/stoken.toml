@@ -1,0 +1,24 @@
+id = 'stoken'
+name = 'stoken'
+
+homepage = 'https://github.com/stoken-dev/stoken'
+
+[[package]]
+channel = 'arch'
+name = 'stoken'
+
+[[package]]
+channel = 'debian'
+name = 'stoken'
+
+[[package]]
+channel = 'fedora'
+name = 'stoken-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'stoken-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stoken'

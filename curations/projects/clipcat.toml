@@ -1,0 +1,8 @@
+id = 'clipcat'
+name = 'clipcat'
+
+homepage = 'https://github.com/xrelkd/clipcat'
+
+[[package]]
+channel = 'arch'
+name = 'clipcat'

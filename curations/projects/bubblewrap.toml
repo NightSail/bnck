@@ -1,0 +1,20 @@
+id = 'bubblewrap'
+name = 'bubblewrap'
+
+repository = 'https://github.com/containers/bubblewrap.git'
+
+[[package]]
+channel = 'arch'
+name = 'bubblewrap'
+
+[[package]]
+channel = 'debian'
+name = 'bubblewrap'
+
+[[package]]
+channel = 'fedora'
+name = 'bubblewrap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bubblewrap'

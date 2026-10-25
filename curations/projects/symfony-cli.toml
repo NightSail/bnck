@@ -1,0 +1,8 @@
+id = 'symfony-cli'
+name = 'symfony-cli'
+
+homepage = 'https://symfony.com/download'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/symfony-cli'

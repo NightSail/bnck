@@ -1,0 +1,8 @@
+id = 'thesias'
+name = 'thesias'
+
+homepage = 'https://github.com/daissi/thesias'
+
+[[package]]
+channel = 'debian'
+name = 'thesias'

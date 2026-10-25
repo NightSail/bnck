@@ -1,0 +1,8 @@
+id = 'libzonedetect'
+name = 'libzonedetect'
+
+homepage = 'https://github.com/BertoldVdb/ZoneDetect'
+
+[[package]]
+channel = 'fedora'
+name = 'libzonedetect'

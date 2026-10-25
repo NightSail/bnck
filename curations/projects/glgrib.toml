@@ -1,0 +1,16 @@
+id = 'glgrib'
+name = 'glgrib'
+
+homepage = 'https://github.com/pmarguinaud/glgrib'
+
+[[package]]
+channel = 'debian'
+name = 'glgrib-egl'
+
+[[package]]
+channel = 'debian'
+name = 'glgrib-glfw'
+
+[[package]]
+channel = 'debian'
+name = 'glgrib-tk'

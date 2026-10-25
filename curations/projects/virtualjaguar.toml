@@ -1,0 +1,8 @@
+id = 'virtualjaguar'
+name = 'virtualjaguar'
+
+homepage = 'http://icculus.org/virtualjaguar'
+
+[[package]]
+channel = 'debian'
+name = 'virtualjaguar'

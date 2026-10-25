@@ -1,0 +1,12 @@
+id = 'in-toto'
+name = 'in-toto'
+
+homepage = 'https://in-toto.io'
+
+[[package]]
+channel = 'arch'
+name = 'in-toto'
+
+[[package]]
+channel = 'debian'
+name = 'in-toto'

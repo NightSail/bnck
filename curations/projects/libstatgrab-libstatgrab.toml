@@ -1,0 +1,16 @@
+id = 'libstatgrab-libstatgrab'
+name = 'libstatgrab'
+
+homepage = 'https://libstatgrab.org'
+
+[[package]]
+channel = 'debian'
+name = 'saidar'
+
+[[package]]
+channel = 'debian'
+name = 'statgrab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libstatgrab'

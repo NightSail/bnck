@@ -1,0 +1,25 @@
+id = 'collectd'
+name = 'collectd'
+
+homepage = 'https://collectd.org'
+repository = 'https://github.com/collectd/collectd.git'
+
+[[package]]
+channel = 'debian'
+name = 'collectd-core'
+
+[[package]]
+channel = 'debian'
+name = 'collectd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'collectd'
+
+[[package]]
+channel = 'fedora'
+name = 'collectd-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/collectd'

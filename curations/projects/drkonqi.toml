@@ -1,0 +1,12 @@
+id = 'drkonqi'
+name = 'drkonqi'
+
+homepage = 'https://invent.kde.org/plasma/drkonqi'
+
+[[package]]
+channel = 'debian'
+name = 'drkonqi'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-drkonqi'

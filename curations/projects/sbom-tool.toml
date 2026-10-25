@@ -1,0 +1,8 @@
+id = 'sbom-tool'
+name = 'sbom-tool'
+
+repository = 'https://github.com/microsoft/sbom-tool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sbom-tool'

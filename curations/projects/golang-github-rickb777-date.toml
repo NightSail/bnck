@@ -1,0 +1,8 @@
+id = 'golang-github-rickb777-date'
+name = 'golang-github-rickb777-date'
+
+homepage = 'https://github.com/rickb777/date'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-rickb777-date'

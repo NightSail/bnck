@@ -1,0 +1,8 @@
+id = 'par2-turbo'
+name = 'par2-turbo'
+
+homepage = 'https://github.com/animetosho/par2cmdline-turbo'
+
+[[package]]
+channel = 'debian'
+name = 'par2-turbo'

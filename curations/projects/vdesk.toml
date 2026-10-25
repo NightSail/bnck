@@ -1,0 +1,8 @@
+id = 'vdesk'
+name = 'vdesk'
+
+homepage = 'http://offog.org/code/vdesk.html'
+
+[[package]]
+channel = 'debian'
+name = 'vdesk'

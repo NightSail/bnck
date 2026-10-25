@@ -1,0 +1,8 @@
+id = 'prometheus-fastly-exporter'
+name = 'prometheus-fastly-exporter'
+
+homepage = 'https://github.com/fastly/fastly-exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-fastly-exporter'

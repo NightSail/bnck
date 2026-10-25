@@ -1,0 +1,21 @@
+id = 'libgsf'
+name = 'libgsf'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libgsf'
+repository = 'https://github.com/GNOME/libgsf.git'
+
+[[package]]
+channel = 'arch'
+name = 'libgsf'
+
+[[package]]
+channel = 'fedora'
+name = 'libgsf'
+
+[[package]]
+channel = 'fedora'
+name = 'libgsf-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgsf'

@@ -1,0 +1,8 @@
+id = 'python3-imutils'
+name = 'python3-imutils'
+
+homepage = 'https://github.com/jrosebr1/imutils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-imutils'

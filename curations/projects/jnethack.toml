@@ -1,0 +1,8 @@
+id = 'jnethack'
+name = 'jnethack'
+
+repository = 'https://github.com/jnethack/jnethack-release.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jnethack'

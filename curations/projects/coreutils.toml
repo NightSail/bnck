@@ -17,5 +17,9 @@ channel = 'fedora'
 name = 'coreutils'
 
 [[package]]
+channel = 'fedora'
+name = 'coreutils-single'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/coreutils'

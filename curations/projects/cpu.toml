@@ -1,0 +1,8 @@
+id = 'cpu'
+name = 'cpu'
+
+homepage = 'http://cpu.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cpu'

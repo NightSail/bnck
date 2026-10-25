@@ -1,0 +1,12 @@
+id = 'amd-debug-tools'
+name = 'amd-debug-tools'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/superm1/amd-debug-tools.git'
+
+[[package]]
+channel = 'arch'
+name = 'amd-debug-tools'
+
+[[package]]
+channel = 'debian'
+name = 'amd-debug-tools'

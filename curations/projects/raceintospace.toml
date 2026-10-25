@@ -1,0 +1,8 @@
+id = 'raceintospace'
+name = 'raceintospace'
+
+homepage = 'http://www.raceintospace.org'
+
+[[package]]
+channel = 'fedora'
+name = 'raceintospace'

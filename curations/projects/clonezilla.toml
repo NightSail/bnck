@@ -1,0 +1,12 @@
+id = 'clonezilla'
+name = 'clonezilla'
+
+homepage = 'https://clonezilla.org'
+
+[[package]]
+channel = 'arch'
+name = 'clonezilla'
+
+[[package]]
+channel = 'debian'
+name = 'clonezilla'

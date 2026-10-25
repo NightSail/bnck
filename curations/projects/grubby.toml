@@ -1,0 +1,6 @@
+id = 'grubby'
+name = 'grubby'
+
+[[package]]
+channel = 'fedora'
+name = 'grubby'

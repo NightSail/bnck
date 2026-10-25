@@ -4,5 +4,13 @@ name = 'krdc'
 homepage = 'https://invent.kde.org/network/krdc'
 
 [[package]]
+channel = 'arch'
+name = 'krdc'
+
+[[package]]
+channel = 'debian'
+name = 'krdc'
+
+[[package]]
 channel = 'fedora'
 name = 'krdc'

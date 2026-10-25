@@ -1,0 +1,8 @@
+id = 'kylin-ai-document-qa-service'
+name = 'kylin-ai-document-qa-service'
+
+homepage = 'https://gitee.com/openkylin/kylin-ai-document-qa-service'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-ai-document-qa-service'

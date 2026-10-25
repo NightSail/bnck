@@ -1,0 +1,8 @@
+id = 'amoebax'
+name = 'amoebax'
+
+homepage = 'http://www.emma-soft.com/games/amoebax'
+
+[[package]]
+channel = 'fedora'
+name = 'amoebax'

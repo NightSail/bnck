@@ -1,0 +1,16 @@
+id = 'ansible-runner'
+name = 'ansible-runner'
+
+homepage = 'https://github.com/ansible/ansible-runner'
+
+[[package]]
+channel = 'arch'
+name = 'ansible-runner'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ansible-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ansible-runner'

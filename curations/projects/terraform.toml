@@ -1,0 +1,8 @@
+id = 'terraform'
+name = 'terraform'
+
+homepage = 'https://github.com/hashicorp/terraform'
+
+[[package]]
+channel = 'arch'
+name = 'terraform'

@@ -1,0 +1,8 @@
+id = 'camera-app'
+name = 'camera.app'
+
+homepage = 'https://github.com/gsimageapps/Camera'
+
+[[package]]
+channel = 'debian'
+name = 'camera.app'

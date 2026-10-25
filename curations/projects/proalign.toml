@@ -1,0 +1,8 @@
+id = 'proalign'
+name = 'proalign'
+
+homepage = 'http://loytynojalab.biocenter.helsinki.fi/software/proalign'
+
+[[package]]
+channel = 'debian'
+name = 'proalign'

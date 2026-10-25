@@ -1,0 +1,16 @@
+id = 'guitarix'
+name = 'guitarix'
+
+homepage = 'https://guitarix.org'
+
+[[package]]
+channel = 'arch'
+name = 'guitarix'
+
+[[package]]
+channel = 'debian'
+name = 'guitarix'
+
+[[package]]
+channel = 'fedora'
+name = 'guitarix'

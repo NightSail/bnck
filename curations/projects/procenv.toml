@@ -1,0 +1,12 @@
+id = 'procenv'
+name = 'procenv'
+
+homepage = 'https://github.com/jamesodhunt/procenv'
+
+[[package]]
+channel = 'debian'
+name = 'procenv'
+
+[[package]]
+channel = 'fedora'
+name = 'procenv'

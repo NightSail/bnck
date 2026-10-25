@@ -1,0 +1,12 @@
+id = 'igv'
+name = 'igv'
+
+homepage = 'https://igv.org/doc/desktop'
+
+[[package]]
+channel = 'debian'
+name = 'igv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/igv'

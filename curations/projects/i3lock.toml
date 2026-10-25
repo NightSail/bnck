@@ -1,0 +1,16 @@
+id = 'i3lock'
+name = 'i3lock'
+
+homepage = 'https://i3wm.org/i3lock'
+
+[[package]]
+channel = 'arch'
+name = 'i3lock'
+
+[[package]]
+channel = 'debian'
+name = 'i3lock'
+
+[[package]]
+channel = 'fedora'
+name = 'i3lock'

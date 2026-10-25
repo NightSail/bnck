@@ -1,0 +1,60 @@
+id = 'nodejs'
+name = 'nodejs'
+
+homepage = 'https://nodejs.org'
+
+[[package]]
+channel = 'arch'
+name = 'nodejs'
+
+[[package]]
+channel = 'arch'
+name = 'nodejs-lts-iron'
+
+[[package]]
+channel = 'arch'
+name = 'nodejs-lts-jod'
+
+[[package]]
+channel = 'arch'
+name = 'nodejs-lts-krypton'
+
+[[package]]
+channel = 'debian'
+name = 'nodejs'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-npm'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs20'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs20-npm'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs24'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs24-npm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/node@20'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/node@22'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/node@24'

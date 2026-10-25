@@ -1,0 +1,8 @@
+id = 'xindy'
+name = 'xindy'
+
+homepage = 'http://www.xindy.org'
+
+[[package]]
+channel = 'debian'
+name = 'xindy'

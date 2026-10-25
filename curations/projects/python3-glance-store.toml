@@ -1,0 +1,8 @@
+id = 'python3-glance-store'
+name = 'python3-glance-store'
+
+homepage = 'https://github.com/openstack/glance_store'
+
+[[package]]
+channel = 'debian'
+name = 'python3-glance-store'

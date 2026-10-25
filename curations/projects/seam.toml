@@ -1,0 +1,8 @@
+id = 'seam'
+name = 'seam'
+
+homepage = 'https://github.com/seamapi/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seam'

@@ -1,0 +1,8 @@
+id = 'zita-dpl1'
+name = 'zita-dpl1'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/zita-dpl1-doc/quickguide.html'
+
+[[package]]
+channel = 'debian'
+name = 'zita-dpl1'

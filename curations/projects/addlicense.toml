@@ -1,0 +1,8 @@
+id = 'addlicense'
+name = 'addlicense'
+
+repository = 'https://github.com/google/addlicense.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/addlicense'

@@ -1,0 +1,8 @@
+id = 'denominator'
+name = 'denominator'
+
+homepage = 'https://github.com/Netflix/denominator/tree/v4.7.1/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/denominator'

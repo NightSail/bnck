@@ -1,0 +1,8 @@
+id = 'apt-verify'
+name = 'apt-verify'
+
+homepage = 'https://gitlab.com/debdistutils/apt-verify'
+
+[[package]]
+channel = 'debian'
+name = 'apt-verify'

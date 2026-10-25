@@ -1,0 +1,9 @@
+id = 'zelda-roth-se'
+name = 'zelda-roth-se'
+
+homepage = 'https://www.solarus-games.org/games/the-legend-of-zelda-return-of-the-hylian-se'
+repository = 'https://gitlab.com/solarus-games/games/zelda-roth-se.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zelda-roth-se'

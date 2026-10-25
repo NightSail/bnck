@@ -1,0 +1,8 @@
+id = 'gr-gsm'
+name = 'gr-gsm'
+
+homepage = 'https://git.osmocom.org/gr-gsm'
+
+[[package]]
+channel = 'debian'
+name = 'gr-gsm'

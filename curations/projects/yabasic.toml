@@ -1,0 +1,8 @@
+id = 'yabasic'
+name = 'yabasic'
+
+homepage = 'http://www.yabasic.de'
+
+[[package]]
+channel = 'debian'
+name = 'yabasic'

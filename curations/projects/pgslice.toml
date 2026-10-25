@@ -1,0 +1,8 @@
+id = 'pgslice'
+name = 'pgslice'
+
+homepage = 'https://github.com/ankane/pgslice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgslice'

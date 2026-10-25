@@ -1,0 +1,8 @@
+id = 'rulesync'
+name = 'rulesync'
+
+homepage = 'https://github.com/dyoshikawa/rulesync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rulesync'

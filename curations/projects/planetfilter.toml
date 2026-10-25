@@ -1,0 +1,8 @@
+id = 'planetfilter'
+name = 'planetfilter'
+
+homepage = 'https://launchpad.net/planetfilter'
+
+[[package]]
+channel = 'debian'
+name = 'planetfilter'

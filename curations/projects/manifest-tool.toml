@@ -1,0 +1,12 @@
+id = 'manifest-tool'
+name = 'manifest-tool'
+
+repository = 'https://github.com/estesp/manifest-tool.git'
+
+[[package]]
+channel = 'fedora'
+name = 'manifest-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/manifest-tool'

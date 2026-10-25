@@ -1,0 +1,8 @@
+id = 'fastback'
+name = 'fastback'
+
+homepage = 'http://fedorahosted.org/fastback'
+
+[[package]]
+channel = 'fedora'
+name = 'fastback'

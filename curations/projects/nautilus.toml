@@ -1,0 +1,16 @@
+id = 'nautilus'
+name = 'nautilus'
+
+homepage = 'https://apps.gnome.org/Nautilus'
+
+[[package]]
+channel = 'arch'
+name = 'nautilus'
+
+[[package]]
+channel = 'debian'
+name = 'nautilus'
+
+[[package]]
+channel = 'fedora'
+name = 'nautilus'

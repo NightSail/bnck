@@ -1,0 +1,16 @@
+id = 'sawfish-sawfish'
+name = 'sawfish'
+
+homepage = 'http://sawfish.wikia.com'
+
+[[package]]
+channel = 'fedora'
+name = 'librep'
+
+[[package]]
+channel = 'fedora'
+name = 'librep-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'sawfish'

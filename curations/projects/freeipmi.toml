@@ -1,0 +1,44 @@
+id = 'freeipmi'
+name = 'freeipmi'
+
+homepage = 'https://www.gnu.org/software/freeipmi'
+
+[[package]]
+channel = 'arch'
+name = 'freeipmi'
+
+[[package]]
+channel = 'debian'
+name = 'freeipmi-bmc-watchdog'
+
+[[package]]
+channel = 'debian'
+name = 'freeipmi-ipmidetect'
+
+[[package]]
+channel = 'debian'
+name = 'freeipmi-ipmiseld'
+
+[[package]]
+channel = 'debian'
+name = 'freeipmi-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipmi'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipmi-bmc-watchdog'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipmi-ipmidetectd'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipmi-ipmiseld'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freeipmi'

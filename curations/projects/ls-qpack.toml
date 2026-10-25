@@ -1,0 +1,8 @@
+id = 'ls-qpack'
+name = 'ls-qpack'
+
+homepage = 'https://github.com/litespeedtech/ls-qpack'
+
+[[package]]
+channel = 'fedora'
+name = 'ls-qpack'

@@ -1,0 +1,8 @@
+id = 'gmtkbabel'
+name = 'gmtkbabel'
+
+homepage = 'https://github.com/dpaleino/gmtkbabel.git'
+
+[[package]]
+channel = 'debian'
+name = 'gmtkbabel'

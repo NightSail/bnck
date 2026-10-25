@@ -1,0 +1,13 @@
+id = 'jp'
+name = 'jp'
+
+homepage = 'https://github.com/jmespath/jp'
+repository = 'https://github.com/sgreben/jp.git'
+
+[[package]]
+channel = 'debian'
+name = 'jp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jp'

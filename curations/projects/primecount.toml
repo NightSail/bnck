@@ -1,0 +1,20 @@
+id = 'primecount'
+name = 'primecount'
+
+homepage = 'https://github.com/kimwalisch/primecount'
+
+[[package]]
+channel = 'arch'
+name = 'primecount'
+
+[[package]]
+channel = 'debian'
+name = 'primecount-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'primecount'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/primecount'

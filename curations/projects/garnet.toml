@@ -1,0 +1,8 @@
+id = 'garnet'
+name = 'garnet'
+
+homepage = 'https://microsoft.github.io/garnet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/garnet'

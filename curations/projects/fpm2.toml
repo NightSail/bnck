@@ -1,0 +1,8 @@
+id = 'fpm2'
+name = 'fpm2'
+
+homepage = 'https://als.regnet.cz/fpm2'
+
+[[package]]
+channel = 'fedora'
+name = 'fpm2'

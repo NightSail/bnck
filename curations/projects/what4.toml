@@ -1,0 +1,12 @@
+id = 'what4'
+name = 'what4'
+
+homepage = 'https://github.com/GaloisInc/what4'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-what4'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-what4-utils'

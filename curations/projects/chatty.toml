@@ -1,0 +1,16 @@
+id = 'chatty'
+name = 'chatty'
+
+homepage = 'https://gitlab.gnome.org/World/Chatty'
+
+[[package]]
+channel = 'arch'
+name = 'chatty'
+
+[[package]]
+channel = 'debian'
+name = 'chatty'
+
+[[package]]
+channel = 'fedora'
+name = 'chatty'

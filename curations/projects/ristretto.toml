@@ -1,0 +1,16 @@
+id = 'ristretto'
+name = 'ristretto'
+
+homepage = 'https://docs.xfce.org/apps/ristretto/start'
+
+[[package]]
+channel = 'arch'
+name = 'ristretto'
+
+[[package]]
+channel = 'debian'
+name = 'ristretto'
+
+[[package]]
+channel = 'fedora'
+name = 'ristretto'

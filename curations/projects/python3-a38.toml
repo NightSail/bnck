@@ -1,0 +1,8 @@
+id = 'python3-a38'
+name = 'python3-a38'
+
+homepage = 'https://github.com/Truelite/python-a38'
+
+[[package]]
+channel = 'debian'
+name = 'python3-a38'

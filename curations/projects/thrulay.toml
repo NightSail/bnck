@@ -1,0 +1,8 @@
+id = 'thrulay'
+name = 'thrulay'
+
+homepage = 'https://sourceforge.net/projects/thrulay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/thrulay'

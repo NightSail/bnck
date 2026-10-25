@@ -1,0 +1,12 @@
+id = 'vos'
+name = 'VOS'
+
+homepage = 'http://vos.openlinksw.com/owiki/wiki/VOS'
+
+[[package]]
+channel = 'debian'
+name = 'virtuoso-opensource-7-bin'
+
+[[package]]
+channel = 'debian'
+name = 'virtuoso-opensource-7-common'

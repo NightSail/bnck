@@ -1,0 +1,8 @@
+id = 'libfep'
+name = 'libfep'
+
+homepage = 'http://github.com/ueno/libfep'
+
+[[package]]
+channel = 'fedora'
+name = 'libfep'

@@ -16,5 +16,9 @@ channel = 'debian'
 name = 'procs'
 
 [[package]]
+channel = 'fedora'
+name = 'procs'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/procs'

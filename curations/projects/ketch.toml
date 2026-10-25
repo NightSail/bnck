@@ -1,0 +1,8 @@
+id = 'ketch'
+name = 'ketch'
+
+repository = 'https://github.com/1broseidon/ketch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ketch'

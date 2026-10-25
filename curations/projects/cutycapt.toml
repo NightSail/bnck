@@ -1,0 +1,8 @@
+id = 'cutycapt'
+name = 'cutycapt'
+
+homepage = 'https://github.com/Crystalix007/CutyCapt'
+
+[[package]]
+channel = 'debian'
+name = 'cutycapt'

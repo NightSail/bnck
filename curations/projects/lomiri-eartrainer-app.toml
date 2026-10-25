@@ -1,0 +1,8 @@
+id = 'lomiri-eartrainer-app'
+name = 'lomiri-eartrainer-app'
+
+homepage = 'https://open-store.io/app/eartrainer.andrisk'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-eartrainer-app'

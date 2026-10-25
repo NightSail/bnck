@@ -1,0 +1,12 @@
+id = 'module-build'
+name = 'Module-Build'
+
+homepage = 'https://metacpan.org/release/Module-Build'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-build-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Build'

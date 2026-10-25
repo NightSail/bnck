@@ -1,0 +1,12 @@
+id = 'srcpd'
+name = 'srcpd'
+
+homepage = 'https://srcpd.sourceforge.net/srcpd/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'srcpd'
+
+[[package]]
+channel = 'fedora'
+name = 'srcpd'

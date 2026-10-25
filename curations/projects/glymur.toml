@@ -1,0 +1,12 @@
+id = 'glymur'
+name = 'glymur'
+
+homepage = 'https://github.com/quintusdias/glymur'
+
+[[package]]
+channel = 'debian'
+name = 'glymur-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-glymur'

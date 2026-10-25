@@ -1,0 +1,12 @@
+id = 'lcalc'
+name = 'lcalc'
+
+homepage = 'https://gitlab.com/sagemath/lcalc'
+
+[[package]]
+channel = 'arch'
+name = 'lcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'L-function'

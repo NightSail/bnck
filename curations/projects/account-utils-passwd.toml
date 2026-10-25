@@ -1,0 +1,8 @@
+id = 'account-utils-passwd'
+name = 'account-utils-passwd'
+
+homepage = 'https://github.com/thkukuk/account-utils'
+
+[[package]]
+channel = 'debian'
+name = 'account-utils-passwd'

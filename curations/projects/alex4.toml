@@ -1,0 +1,8 @@
+id = 'alex4'
+name = 'alex4'
+
+homepage = 'https://obiot.github.io/Alex4-WE/readme.html'
+
+[[package]]
+channel = 'fedora'
+name = 'alex4'

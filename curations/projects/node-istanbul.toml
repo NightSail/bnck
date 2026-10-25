@@ -1,0 +1,8 @@
+id = 'node-istanbul'
+name = 'node-istanbul'
+
+homepage = 'https://github.com/gotwarlost/istanbul'
+
+[[package]]
+channel = 'debian'
+name = 'node-istanbul'

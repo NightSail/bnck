@@ -1,0 +1,8 @@
+id = 'dicom3tools'
+name = 'dicom3tools'
+
+homepage = 'https://www.dclunie.com/dicom3tools.html'
+
+[[package]]
+channel = 'debian'
+name = 'dicom3tools'

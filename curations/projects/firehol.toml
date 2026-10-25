@@ -1,0 +1,16 @@
+id = 'firehol'
+name = 'firehol'
+
+homepage = 'https://firehol.org'
+
+[[package]]
+channel = 'debian'
+name = 'firehol'
+
+[[package]]
+channel = 'debian'
+name = 'firehol-tools'
+
+[[package]]
+channel = 'debian'
+name = 'fireqos'

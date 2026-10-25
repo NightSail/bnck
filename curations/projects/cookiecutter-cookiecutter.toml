@@ -1,0 +1,8 @@
+id = 'cookiecutter-cookiecutter'
+name = 'cookiecutter'
+
+repository = 'https://github.com/cookiecutter/cookiecutter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cookiecutter'

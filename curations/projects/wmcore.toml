@@ -1,0 +1,8 @@
+id = 'wmcore'
+name = 'wmcore'
+
+homepage = 'https://www.dockapps.net/wmcore'
+
+[[package]]
+channel = 'debian'
+name = 'wmcore'

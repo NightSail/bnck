@@ -1,0 +1,8 @@
+id = 'python3-fastmolwidget'
+name = 'python3-fastmolwidget'
+
+homepage = 'https://github.com/dkratzert/Fastmolwidget'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fastmolwidget'

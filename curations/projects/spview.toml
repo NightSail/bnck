@@ -1,0 +1,8 @@
+id = 'spview'
+name = 'spview'
+
+homepage = 'https://icb.u-bourgogne.fr/programmes-et-banques-de-donnees-spectroscopiques'
+
+[[package]]
+channel = 'debian'
+name = 'spview'

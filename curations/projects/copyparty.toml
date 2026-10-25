@@ -1,0 +1,12 @@
+id = 'copyparty'
+name = 'copyparty'
+
+homepage = 'https://github.com/9001/copyparty'
+
+[[package]]
+channel = 'arch'
+name = 'copyparty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/copyparty'

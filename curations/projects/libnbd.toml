@@ -1,0 +1,24 @@
+id = 'libnbd'
+name = 'libnbd'
+
+homepage = 'https://gitlab.com/nbdkit/libnbd'
+
+[[package]]
+channel = 'arch'
+name = 'libnbd'
+
+[[package]]
+channel = 'fedora'
+name = 'libnbd'
+
+[[package]]
+channel = 'fedora'
+name = 'nbdfuse'
+
+[[package]]
+channel = 'fedora'
+name = 'nbdublk'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-libnbd'

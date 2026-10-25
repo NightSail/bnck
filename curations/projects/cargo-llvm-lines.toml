@@ -1,0 +1,8 @@
+id = 'cargo-llvm-lines'
+name = 'cargo-llvm-lines'
+
+repository = 'https://github.com/dtolnay/cargo-llvm-lines.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-llvm-lines'

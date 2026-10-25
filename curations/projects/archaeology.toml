@@ -1,0 +1,8 @@
+id = 'archaeology'
+name = 'archaeology'
+
+homepage = 'https://www.mothersruin.com/software/Archaeology'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/archaeology'

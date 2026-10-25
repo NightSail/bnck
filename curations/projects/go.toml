@@ -1,0 +1,33 @@
+id = 'go'
+name = 'go'
+
+homepage = 'https://go.dev'
+repository = 'https://go.googlesource.com/go.git'
+
+[[package]]
+channel = 'arch'
+name = 'go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go@1.23'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go@1.24'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go@1.25'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go@1.26'

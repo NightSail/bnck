@@ -1,0 +1,9 @@
+id = 'mongocli'
+name = 'mongocli'
+
+homepage = 'https://www.mongodb.com/docs/mongocli/current'
+repository = 'https://github.com/mongodb/mongodb-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mongocli'

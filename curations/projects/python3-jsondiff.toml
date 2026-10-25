@@ -1,0 +1,8 @@
+id = 'python3-jsondiff'
+name = 'python3-jsondiff'
+
+homepage = 'https://github.com/ZoomerAnalytics/jsondiff'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jsondiff'

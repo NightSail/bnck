@@ -1,0 +1,12 @@
+id = 'finit'
+name = 'finit'
+
+homepage = 'https://troglobit.com/projects/finit'
+
+[[package]]
+channel = 'debian'
+name = 'finit'
+
+[[package]]
+channel = 'debian'
+name = 'finit-sysv'

@@ -1,0 +1,8 @@
+id = 'yoyo'
+name = 'yoyo'
+
+homepage = 'https://hg.sr.ht/~olly/yoyo'
+
+[[package]]
+channel = 'debian'
+name = 'yoyo'

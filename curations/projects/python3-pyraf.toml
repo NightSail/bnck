@@ -1,0 +1,8 @@
+id = 'python3-pyraf'
+name = 'python3-pyraf'
+
+homepage = 'https://iraf-community.github.io/pyraf.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyraf'

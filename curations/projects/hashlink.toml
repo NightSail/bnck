@@ -1,0 +1,9 @@
+id = 'hashlink'
+name = 'hashlink'
+
+homepage = 'https://hashlink.haxe.org'
+repository = 'https://github.com/HaxeFoundation/hashlink.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hashlink'

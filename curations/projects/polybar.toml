@@ -6,3 +6,11 @@ homepage = 'https://github.com/polybar/polybar'
 [[package]]
 channel = 'arch'
 name = 'polybar'
+
+[[package]]
+channel = 'debian'
+name = 'polybar'
+
+[[package]]
+channel = 'fedora'
+name = 'polybar'

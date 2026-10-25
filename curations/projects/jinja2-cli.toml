@@ -1,0 +1,8 @@
+id = 'jinja2-cli'
+name = 'jinja2-cli'
+
+homepage = 'https://github.com/mattrobenolt/jinja2-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jinja2-cli'

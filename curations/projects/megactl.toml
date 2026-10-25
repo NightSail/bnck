@@ -1,0 +1,8 @@
+id = 'megactl'
+name = 'megactl'
+
+homepage = 'https://github.com/namiltd/megactl'
+
+[[package]]
+channel = 'debian'
+name = 'megactl'

@@ -1,0 +1,8 @@
+id = 'ocspd'
+name = 'ocspd'
+
+homepage = 'http://www.openca.org/projects/ocspd'
+
+[[package]]
+channel = 'fedora'
+name = 'ocspd'

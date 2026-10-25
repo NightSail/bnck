@@ -1,0 +1,8 @@
+id = 'trojita'
+name = 'trojita'
+
+homepage = 'http://trojita.flaska.net'
+
+[[package]]
+channel = 'fedora'
+name = 'trojita'

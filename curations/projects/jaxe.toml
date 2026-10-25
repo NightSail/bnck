@@ -1,0 +1,8 @@
+id = 'jaxe'
+name = 'jaxe'
+
+homepage = 'https://jaxe.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jaxe'

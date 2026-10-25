@@ -1,0 +1,8 @@
+id = 'lomiri-weather-app'
+name = 'lomiri-weather-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-weather-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-weather-app'

@@ -1,0 +1,8 @@
+id = 'warehouse'
+name = 'warehouse'
+
+homepage = 'https://github.com/flattool/warehouse'
+
+[[package]]
+channel = 'arch'
+name = 'warehouse'

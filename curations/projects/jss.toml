@@ -1,0 +1,12 @@
+id = 'jss'
+name = 'jss'
+
+homepage = 'https://github.com/dogtagpki/jss'
+
+[[package]]
+channel = 'debian'
+name = 'libjss-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'dogtag-jss-tools'

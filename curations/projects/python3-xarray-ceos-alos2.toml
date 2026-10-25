@@ -1,0 +1,8 @@
+id = 'python3-xarray-ceos-alos2'
+name = 'python3-xarray-ceos-alos2'
+
+homepage = 'https://github.com/umr-lops/xarray-ceos-alos2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xarray-ceos-alos2'

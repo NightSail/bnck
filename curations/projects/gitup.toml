@@ -1,0 +1,8 @@
+id = 'gitup'
+name = 'gitup'
+
+repository = 'https://github.com/earwig/git-repo-updater.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitup'

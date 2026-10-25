@@ -1,0 +1,8 @@
+id = 'xcp'
+name = 'xcp'
+
+homepage = 'https://github.com/wojciech-kulik/XcodeProjectCLI'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcp'

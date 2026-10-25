@@ -1,0 +1,8 @@
+id = 'nuntius'
+name = 'nuntius'
+
+homepage = 'https://github.com/holylobster'
+
+[[package]]
+channel = 'debian'
+name = 'nuntius'

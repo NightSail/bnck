@@ -1,0 +1,8 @@
+id = 'libbsc'
+name = 'libbsc'
+
+homepage = 'http://libbsc.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libbsc'

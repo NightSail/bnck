@@ -1,0 +1,8 @@
+id = 'krb5-strength'
+name = 'krb5-strength'
+
+homepage = 'https://www.eyrie.org/~eagle/software/krb5-strength'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-strength'

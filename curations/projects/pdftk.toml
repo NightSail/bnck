@@ -1,0 +1,16 @@
+id = 'pdftk'
+name = 'pdftk'
+
+homepage = 'https://gitlab.com/pdftk-java/pdftk'
+
+[[package]]
+channel = 'arch'
+name = 'pdftk'
+
+[[package]]
+channel = 'debian'
+name = 'pdftk-java'
+
+[[package]]
+channel = 'fedora'
+name = 'pdftk-java'

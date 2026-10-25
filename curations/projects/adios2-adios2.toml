@@ -1,0 +1,8 @@
+id = 'adios2-adios2'
+name = 'adios2'
+
+homepage = 'https://adios2.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'adios2'

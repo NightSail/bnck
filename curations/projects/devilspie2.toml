@@ -1,0 +1,8 @@
+id = 'devilspie2'
+name = 'devilspie2'
+
+homepage = 'https://www.nongnu.org/devilspie2'
+
+[[package]]
+channel = 'debian'
+name = 'devilspie2'

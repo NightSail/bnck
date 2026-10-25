@@ -1,0 +1,8 @@
+id = 'squishyball'
+name = 'squishyball'
+
+homepage = 'https://gitlab.xiph.org/xiph/squishyball.git'
+
+[[package]]
+channel = 'debian'
+name = 'squishyball'

@@ -1,0 +1,12 @@
+id = 'xosview'
+name = 'xosview'
+
+homepage = 'https://github.com/hills/xosview'
+
+[[package]]
+channel = 'debian'
+name = 'xosview'
+
+[[package]]
+channel = 'fedora'
+name = 'xosview'

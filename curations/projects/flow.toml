@@ -1,0 +1,9 @@
+id = 'flow'
+name = 'flow'
+
+homepage = 'https://flow.org'
+repository = 'https://github.com/facebook/flow.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flow'

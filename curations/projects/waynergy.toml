@@ -1,0 +1,8 @@
+id = 'waynergy'
+name = 'waynergy'
+
+homepage = 'https://github.com/r-c-f/waynergy'
+
+[[package]]
+channel = 'fedora'
+name = 'waynergy'

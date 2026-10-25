@@ -1,0 +1,16 @@
+id = 'ham'
+name = 'ham'
+
+homepage = 'https://fkurz.net/ham/ebook2cw.html'
+
+[[package]]
+channel = 'debian'
+name = 'ebook2cw'
+
+[[package]]
+channel = 'debian'
+name = 'ebook2cwgui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ebook2cw'

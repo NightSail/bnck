@@ -1,0 +1,16 @@
+id = 'kfind'
+name = 'kfind'
+
+homepage = 'https://apps.kde.org/kfind'
+
+[[package]]
+channel = 'arch'
+name = 'kfind'
+
+[[package]]
+channel = 'debian'
+name = 'kfind'
+
+[[package]]
+channel = 'fedora'
+name = 'kfind'

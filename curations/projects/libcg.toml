@@ -1,0 +1,12 @@
+id = 'libcg'
+name = 'libcg'
+
+homepage = 'https://libcg.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cgroup-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libcgroup-tools'

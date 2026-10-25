@@ -1,0 +1,8 @@
+id = 'cloudformation-guard'
+name = 'cloudformation-guard'
+
+homepage = 'https://github.com/aws-cloudformation/cloudformation-guard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudformation-guard'

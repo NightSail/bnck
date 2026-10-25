@@ -1,0 +1,20 @@
+id = 'cinnamon'
+name = 'cinnamon'
+
+homepage = 'https://github.com/linuxmint/cinnamon'
+
+[[package]]
+channel = 'arch'
+name = 'cinnamon'
+
+[[package]]
+channel = 'debian'
+name = 'cinnamon'
+
+[[package]]
+channel = 'fedora'
+name = 'cinnamon'
+
+[[package]]
+channel = 'fedora'
+name = 'cinnamon-calendar-server'

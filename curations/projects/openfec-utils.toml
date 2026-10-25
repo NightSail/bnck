@@ -1,0 +1,8 @@
+id = 'openfec-utils'
+name = 'openfec-utils'
+
+homepage = 'https://github.com/roc-streaming/openfec'
+
+[[package]]
+channel = 'fedora'
+name = 'openfec-utils'

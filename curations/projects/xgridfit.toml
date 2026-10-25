@@ -1,0 +1,8 @@
+id = 'xgridfit'
+name = 'xgridfit'
+
+homepage = 'https://xgridfit.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xgridfit'

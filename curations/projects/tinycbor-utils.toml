@@ -1,0 +1,8 @@
+id = 'tinycbor-utils'
+name = 'tinycbor-utils'
+
+homepage = 'https://github.com/intel/tinycbor'
+
+[[package]]
+channel = 'debian'
+name = 'tinycbor-utils'

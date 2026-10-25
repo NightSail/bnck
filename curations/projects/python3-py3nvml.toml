@@ -1,0 +1,8 @@
+id = 'python3-py3nvml'
+name = 'python3-py3nvml'
+
+homepage = 'https://github.com/fbcotter/py3nvml'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-py3nvml'

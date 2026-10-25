@@ -1,0 +1,8 @@
+id = 'phybin'
+name = 'phybin'
+
+homepage = 'https://www.cs.indiana.edu/~rrnewton/projects/phybin'
+
+[[package]]
+channel = 'debian'
+name = 'phybin'

@@ -1,0 +1,8 @@
+id = 'alpm-repo-db'
+name = 'alpm-repo-db'
+
+homepage = 'https://alpm.archlinux.page/alpm-repo-db'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-repo-db'

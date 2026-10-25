@@ -1,0 +1,8 @@
+id = 'libresprite'
+name = 'libresprite'
+
+homepage = 'https://github.com/LibreSprite/LibreSprite'
+
+[[package]]
+channel = 'arch'
+name = 'libresprite'

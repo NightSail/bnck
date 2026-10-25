@@ -1,0 +1,16 @@
+id = 'gnome-characters'
+name = 'gnome-characters'
+
+homepage = 'https://apps.gnome.org/Characters'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-characters'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-characters'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-characters'

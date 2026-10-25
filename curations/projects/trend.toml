@@ -1,0 +1,12 @@
+id = 'trend'
+name = 'trend'
+
+homepage = 'https://www.thregr.org/~wavexx/software/trend'
+
+[[package]]
+channel = 'debian'
+name = 'trend'
+
+[[package]]
+channel = 'fedora'
+name = 'trend'

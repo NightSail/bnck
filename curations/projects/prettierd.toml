@@ -1,0 +1,8 @@
+id = 'prettierd'
+name = 'prettierd'
+
+homepage = 'https://github.com/fsouza/prettierd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prettierd'

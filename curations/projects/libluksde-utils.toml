@@ -1,0 +1,8 @@
+id = 'libluksde-utils'
+name = 'libluksde-utils'
+
+homepage = 'https://github.com/libyal/libluksde'
+
+[[package]]
+channel = 'debian'
+name = 'libluksde-utils'

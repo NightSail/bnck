@@ -1,0 +1,88 @@
+id = 'slurm-slurm'
+name = 'slurm'
+
+homepage = 'https://slurm.schedmd.com'
+
+[[package]]
+channel = 'debian'
+name = 'sackd'
+
+[[package]]
+channel = 'debian'
+name = 'slurm-client'
+
+[[package]]
+channel = 'debian'
+name = 'slurm-client-emulator'
+
+[[package]]
+channel = 'debian'
+name = 'slurm-wlm-emulator'
+
+[[package]]
+channel = 'debian'
+name = 'slurm-wlm-hdf5-plugin'
+
+[[package]]
+channel = 'debian'
+name = 'slurm-wlm-torque'
+
+[[package]]
+channel = 'debian'
+name = 'slurmctld'
+
+[[package]]
+channel = 'debian'
+name = 'slurmd'
+
+[[package]]
+channel = 'debian'
+name = 'slurmdbd'
+
+[[package]]
+channel = 'debian'
+name = 'slurmrestd'
+
+[[package]]
+channel = 'debian'
+name = 'sview'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-contribs'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-openlava'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-sackd'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-slurmctld'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-slurmd'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-slurmdbd'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-slurmrestd'
+
+[[package]]
+channel = 'fedora'
+name = 'slurm-torque'

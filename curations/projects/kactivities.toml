@@ -1,0 +1,12 @@
+id = 'kactivities'
+name = 'kactivities'
+
+homepage = 'https://invent.kde.org/frameworks/kactivities'
+
+[[package]]
+channel = 'debian'
+name = 'kactivities-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kactivities'

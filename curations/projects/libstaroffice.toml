@@ -1,0 +1,12 @@
+id = 'libstaroffice'
+name = 'libstaroffice'
+
+homepage = 'https://github.com/fosnola/libstaroffice'
+
+[[package]]
+channel = 'arch'
+name = 'libstaroffice'
+
+[[package]]
+channel = 'debian'
+name = 'libstaroffice-tools'

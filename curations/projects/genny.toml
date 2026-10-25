@@ -1,0 +1,8 @@
+id = 'genny'
+name = 'genny'
+
+homepage = 'https://github.com/cheekybits/genny'
+
+[[package]]
+channel = 'debian'
+name = 'genny'

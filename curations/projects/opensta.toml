@@ -1,0 +1,8 @@
+id = 'opensta'
+name = 'opensta'
+
+homepage = 'https://github.com/The-OpenROAD-Project/OpenSTA'
+
+[[package]]
+channel = 'debian'
+name = 'opensta'

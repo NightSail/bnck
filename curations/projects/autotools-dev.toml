@@ -1,0 +1,8 @@
+id = 'autotools-dev'
+name = 'autotools-dev'
+
+homepage = 'https://savannah.gnu.org/projects/config'
+
+[[package]]
+channel = 'debian'
+name = 'autotools-dev'

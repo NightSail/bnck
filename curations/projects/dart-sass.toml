@@ -1,0 +1,12 @@
+id = 'dart-sass'
+name = 'dart-sass'
+
+homepage = 'https://sass-lang.com/dart-sass'
+
+[[package]]
+channel = 'debian'
+name = 'dart-sass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dart-sass'

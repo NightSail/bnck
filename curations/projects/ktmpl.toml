@@ -1,0 +1,8 @@
+id = 'ktmpl'
+name = 'ktmpl'
+
+repository = 'https://github.com/jimmycuadra/ktmpl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktmpl'

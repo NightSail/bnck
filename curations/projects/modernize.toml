@@ -1,0 +1,8 @@
+id = 'modernize'
+name = 'modernize'
+
+homepage = 'https://github.com/python-modernize/python-modernize'
+
+[[package]]
+channel = 'debian'
+name = 'modernize'

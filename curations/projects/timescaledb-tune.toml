@@ -1,0 +1,8 @@
+id = 'timescaledb-tune'
+name = 'timescaledb-tune'
+
+homepage = 'https://github.com/timescale/timescaledb-tune'
+
+[[package]]
+channel = 'arch'
+name = 'timescaledb-tune'

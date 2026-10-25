@@ -1,0 +1,12 @@
+id = 'marksman'
+name = 'marksman'
+
+repository = 'https://github.com/artempyanykh/marksman.git'
+
+[[package]]
+channel = 'arch'
+name = 'marksman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marksman'

@@ -1,0 +1,16 @@
+id = 'libcddb'
+name = 'libcddb'
+
+homepage = 'http://libcddb.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libcddb'
+
+[[package]]
+channel = 'fedora'
+name = 'libcddb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcddb'

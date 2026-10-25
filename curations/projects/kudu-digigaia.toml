@@ -1,0 +1,8 @@
+id = 'kudu-digigaia'
+name = 'kudu'
+
+repository = 'https://github.com/digigaia/kudu'
+
+[[package]]
+channel = 'crates.io'
+name = 'kudu'

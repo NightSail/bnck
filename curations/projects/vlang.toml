@@ -1,0 +1,8 @@
+id = 'vlang'
+name = 'vlang'
+
+homepage = 'https://vlang.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vlang'

@@ -1,0 +1,8 @@
+id = 'tgenv'
+name = 'tgenv'
+
+repository = 'https://github.com/tgenv/tgenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tgenv'

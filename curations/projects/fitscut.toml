@@ -1,0 +1,8 @@
+id = 'fitscut'
+name = 'fitscut'
+
+homepage = 'http://acs.pha.jhu.edu/general/software/fitscut'
+
+[[package]]
+channel = 'debian'
+name = 'fitscut'

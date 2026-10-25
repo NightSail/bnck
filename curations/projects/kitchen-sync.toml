@@ -1,0 +1,8 @@
+id = 'kitchen-sync'
+name = 'kitchen-sync'
+
+repository = 'https://github.com/willbryant/kitchen_sync.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kitchen-sync'

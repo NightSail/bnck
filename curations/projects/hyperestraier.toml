@@ -1,0 +1,20 @@
+id = 'hyperestraier'
+name = 'hyperestraier'
+
+homepage = 'http://hyperestraier.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperestraier'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperestraier-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperestraier-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby-hyperestraier'
