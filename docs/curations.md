@@ -263,7 +263,7 @@ Dataset generation resolves each curated package in this order:
 
 Rule order inside a TOML file does not change these semantics.
 
-Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a complete selected channel snapshot is an error unless the snapshot records an explicit `removed` observation. Absence from a partial acquisition is skipped, not treated as stale curation. Name associations are resolved independently and emitted separately from provider records.
+Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a complete selected channel snapshot produces an acquisition diagnostic warning unless the snapshot records an explicit `removed` observation; it contributes no providers. Absence from a partial acquisition is skipped, not treated as stale curation. Name associations are resolved independently and emitted separately from provider records.
 
 ## Automatic hint ingestion
 
@@ -326,11 +326,10 @@ Validation fails on:
 - An addition duplicating an acquired or replaced executable
 - A mixed package with unhandled acquired executables
 - A rule referring to an acquired executable that no longer exists
-- A curated package absent from the selected complete channel snapshot, unless the snapshot records it as removed
 - An association referencing an unknown project
 - An unknown association role
 - An association without a reason or reference
 - A duplicate association for one executable and project
 - Multiple reference associations for one executable
 
-Validation is strict: attribution and structural issues fail generation rather than producing warnings. Acquisition drift and project metadata conflicts are reported by acquisition diagnostics; see [channel acquisition](channels.md#curation-diagnostics).
+Validation is strict: attribution and structural issues fail generation rather than producing warnings. Acquisition drift, curated packages absent from complete snapshots, and project metadata conflicts are reported by acquisition diagnostics; see [channel acquisition](channels.md#curation-diagnostics).

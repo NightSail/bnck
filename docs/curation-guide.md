@@ -129,7 +129,7 @@ Do not treat absence from a partial acquisition as a removal. Staleness is deter
 2. Give every new or changed rule a specific reason and durable references. Do not hand-edit `providers.jsonl`, `names.jsonl`, acquisition snapshots, or other generated files.
 3. Keep one topic per pull request. Separate formatting-only changes from factual changes.
 4. Run `just check` if you have the development environment. It covers repository checks but does not resolve curations against acquisition data.
-5. Run `just generate` with acquisition data covering every affected channel, if you can. This validates stale packages, missing executables, duplicate ownership, incomplete mixed packages, and the other conditions in [curation validation](curations.md#validation). A focused acquisition is enough when it is complete for the affected channel and includes every package the change touches.
+5. Run `just generate` with acquisition data covering every affected channel, if you can. This reports stale packages against complete snapshots and validates missing executables, duplicate ownership, incomplete mixed packages, and the other conditions in [curation validation](curations.md#validation). A focused acquisition is enough when it is complete for the affected channel and includes every package the change touches.
 6. If you cannot run acquisition locally, say so in the pull request. Maintainers can validate against a full snapshot before merging.
 
 The pull request should state the relations changed, the evidence for each decision, the acquisition snapshot or date used for validation, the checks you ran, and any remaining uncertainty.

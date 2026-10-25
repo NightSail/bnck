@@ -32,6 +32,7 @@ pub enum WarningKind {
 	ChangedExecutableSet,
 	NewPackage,
 	RemovedPackage,
+	CuratedPackageNotObserved,
 	ProjectWithoutObservedPackages,
 	ProjectMetadataConflict,
 }
@@ -132,6 +133,7 @@ pub fn analyze(
 	if let Some(baseline) = &baseline {
 		compare_packages(acquisitions, baseline, owners, overrides, &mut warnings);
 	}
+	inspect_curated_packages(acquisitions, owners, overrides, &mut warnings);
 	inspect_projects(acquisitions, projects, &mut warnings);
 	warnings.sort();
 	warnings.dedup();
@@ -207,6 +209,25 @@ fn compare_packages(
 		} else {
 			warnings.push(changed_executable_set(&key, project.as_deref(), &added, &removed));
 		}
+	}
+}
+
+fn inspect_curated_packages(
+	acquisitions: &Acquisitions,
+	owners: &BTreeMap<PackageKey, String>,
+	overrides: &BTreeMap<PackageKey, PackageCuration>,
+	warnings: &mut Vec<Warning>,
+) {
+	let keys = owners.keys().chain(overrides.keys()).collect::<BTreeSet<_>>();
+	for key in keys {
+		if !acquisitions.selected_channels.contains(&key.0)
+			|| !acquisitions.complete_channels.contains(&key.0)
+			|| acquisitions.removed.contains(key)
+			|| acquisitions.packages.contains_key(key)
+		{
+			continue;
+		}
+		warnings.push(curated_package_not_observed(key, owners.get(key).map(String::as_str)));
 	}
 }
 
@@ -418,6 +439,29 @@ fn removed_package(key: &PackageKey, project: Option<&str>, executables: &BTreeS
 	}
 }
 
+fn curated_package_not_observed(key: &PackageKey, project: Option<&str>) -> Warning {
+	Warning {
+		kind: WarningKind::CuratedPackageNotObserved,
+		message: format!(
+			"curated package ({}, {}) is absent from complete acquisition{}",
+			key.0,
+			key.1,
+			project_suffix(project)
+		),
+		project: project.map(str::to_owned),
+		channel: Some(key.0.clone()),
+		package: Some(key.1.clone()),
+		executable: None,
+		executables: BTreeSet::new(),
+		added: BTreeSet::new(),
+		removed: BTreeSet::new(),
+		packages: Vec::new(),
+		field: None,
+		project_url: None,
+		acquired_url: None,
+	}
+}
+
 fn project_suffix(project: Option<&str>) -> String {
 	project.map(|project| format!(" for project {project}")).unwrap_or_default()
 }
@@ -594,7 +638,7 @@ mod tests {
 	use tempfile::TempDir;
 
 	use super::{Options, WarningKind, analyze};
-	use crate::acquisition::{PackageObservation, SnapshotMetadata, SnapshotStatus, write_snapshot_manifest};
+	use crate::acquisition::{PackageObservation, PackageStatus, SnapshotMetadata, SnapshotStatus, write_snapshot_manifest};
 	use crate::curation::{load_candidates, load_package_curations, load_projects, package_owners};
 
 	struct Fixture {
@@ -709,6 +753,43 @@ mod tests {
 		let (analysis, _) = fixture.analyze(&Options { report: None, baseline: None });
 		assert_eq!(analysis.warning_count(), 1);
 		assert_eq!(analysis.warnings[0].kind, WarningKind::ProjectWithoutObservedPackages);
+	}
+
+	#[test]
+	fn reports_curated_packages_absent_from_complete_snapshots() {
+		let fixture = Fixture::new("tool", "tool", "npm");
+		fs::write(
+			fixture.curations.join("projects/tool.toml"),
+			concat!(
+				"id = 'tool'\nname = 'tool'\nhomepage = 'https://example.test/tool'\n",
+				"\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+				"\n[[package]]\nchannel = 'npm'\nname = 'absent'\n",
+			),
+		)
+		.unwrap();
+		fixture.write_snapshot("npm", SnapshotStatus::Complete, &[("tool", &["tool"])]);
+		let (analysis, _) = fixture.analyze(&Options { report: None, baseline: None });
+		assert_eq!(analysis.warning_count(), 1);
+		assert_eq!(analysis.warnings[0].kind, WarningKind::CuratedPackageNotObserved);
+		assert_eq!(analysis.warnings[0].project.as_deref(), Some("tool"));
+		assert_eq!(analysis.warnings[0].channel.as_deref(), Some("npm"));
+		assert_eq!(analysis.warnings[0].package.as_deref(), Some("absent"));
+
+		fixture.write_snapshot("npm", SnapshotStatus::Partial, &[("tool", &["tool"])]);
+		let (analysis, _) = fixture.analyze(&Options { report: None, baseline: None });
+		assert_eq!(analysis.warning_count(), 0);
+
+		let candidate_path = fixture.acquisitions.join("npm.jsonl");
+		let mut removed = PackageObservation::observed("absent", "1");
+		removed.status = PackageStatus::Removed;
+		write_snapshot_manifest(
+			&candidate_path,
+			SnapshotMetadata::complete("npm", &[], BTreeMap::from([("test".to_owned(), "fixture".to_owned())])),
+			[PackageObservation::observed("tool", "1"), removed],
+		)
+		.unwrap();
+		let (analysis, _) = fixture.analyze(&Options { report: None, baseline: None });
+		assert_eq!(analysis.warning_count(), 0);
 	}
 
 	#[test]

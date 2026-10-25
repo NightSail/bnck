@@ -109,6 +109,9 @@ jobs:
         env:
           BNCK_CANDIDATE_ONLY: '1'
         run: just generate
+      - name: Summarize acquisition diagnostics
+        if: always()
+        run: ./.github/scripts/summarize-diagnostics.sh
       - name: Check for dataset changes
         id: digest
         env:

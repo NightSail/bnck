@@ -118,9 +118,9 @@ The snapshot boundary records the maximum PyPI Simple API `_last-serial` across 
 
 `just generate` and `just release` write a non-blocking acquisition diagnostics report and compare selected acquisitions with a baseline. Warnings go to standard error and never fail generation.
 
-The default paths are `var/diagnostics/report.json` and `var/diagnostics/baseline.json`. When the baseline file does not exist, the first successful run writes the current acquisition state as the baseline. Later runs compare package and executable sets only for channels complete in both states. A file baseline is replaced after a successful run; a directory baseline is read without modification.
+The default paths are `var/diagnostics/report.json` and `var/diagnostics/baseline.json`. When the baseline file does not exist, the first successful run writes the current acquisition state as the baseline. Later runs compare package and executable sets only for channels complete in both states. A file baseline is replaced after a successful run; a directory baseline is read without modification. The dataset workflow appends warning counts, kinds, and details to the GitHub Actions job summary.
 
-Diagnostics cover new or removed executables under ordinarily owned packages, changed executable sets, new or removed packages, projects without observed packages, and project metadata that disagrees with package hints. Package change warnings skip partial or failed snapshots. The report uses stable JSON with a `format` of `bnck-acquisition-diagnostics`. Repository redirect warnings are not part of generation because they require network requests.
+Diagnostics cover new or removed executables under ordinarily owned packages, changed executable sets, new or removed packages, curated packages absent from complete snapshots, projects without observed packages, and project metadata that disagrees with package hints. Package change warnings skip partial or failed snapshots. The report uses stable JSON with a `format` of `bnck-acquisition-diagnostics`. Repository redirect warnings are not part of generation because they require network requests.
 
 ## Further specifications
 

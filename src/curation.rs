@@ -173,15 +173,6 @@ pub fn generate_with_options(
 			continue;
 		}
 		let Some(acquired) = acquisitions.packages.get(&key) else {
-			if acquisitions.removed.contains(&key) {
-				continue;
-			}
-			ensure!(
-				!acquisitions.complete_channels.contains(&key.0),
-				"curated package ({}, {}) is absent from complete acquisition",
-				key.0,
-				key.1
-			);
 			continue;
 		};
 		providers.extend(resolve_package(&key, owners.get(&key).map(String::as_str), overrides.get(&key), acquired)?);
@@ -697,6 +688,37 @@ mod tests {
 		assert_eq!(dataset.association_count, 0);
 		assert_eq!(fs::read_to_string(output).unwrap(), "");
 		assert_eq!(fs::read_to_string(names_output).unwrap(), "");
+	}
+
+	#[test]
+	fn tolerates_absent_curated_packages_in_complete_acquisitions() {
+		let root = tempdir().unwrap();
+		let acquisitions = root.path().join("acquired");
+		let curations = root.path().join("curations");
+		fs::create_dir_all(&acquisitions).unwrap();
+		fs::create_dir_all(curations.join("projects")).unwrap();
+		fs::write(curations.join("manifest.toml"), "schema = 1\n").unwrap();
+		fs::write(
+			curations.join("projects/tool.toml"),
+			"id = 'tool'\nname = 'Tool'\n\n[[package]]\nchannel = 'npm'\nname = 'tool'\n",
+		)
+		.unwrap();
+		let candidate_path = acquisitions.join("npm.jsonl");
+		fs::write(&candidate_path, "").unwrap();
+		write_snapshot_manifest(
+			&candidate_path,
+			SnapshotMetadata::complete("npm", &[], BTreeMap::from([("registry".to_owned(), "test".to_owned())])),
+			[],
+		)
+		.unwrap();
+		let output = root.path().join("providers.jsonl");
+		let names_output = root.path().join("names.jsonl");
+
+		let dataset =
+			generate(&acquisitions, &curations, &output, &names_output, SnapshotValidationMode::Full).unwrap();
+		assert_eq!(dataset.provider_count, 0);
+		assert_eq!(dataset.association_count, 0);
+		assert_eq!(fs::read_to_string(output).unwrap(), "");
 	}
 
 	#[test]
