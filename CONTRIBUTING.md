@@ -87,7 +87,9 @@ Fetch jobs end with the on-disk size of the inputs they retain; import, generate
 
 ## Curations
 
-Project definitions, package ownership rules, and name associations live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, name associations, and validation requirements.
+Project definitions, package ownership rules, and name associations live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, name associations, and validation requirements. The [curation guide](docs/curation-guide.md) defines inclusion criteria, evidence standards, correction rules, and the review checklist.
+
+Curators can propose changes by editing the relevant files under `curations/` and opening a pull request; no build is required to start. Every new rule needs a specific reason and durable public evidence. Validate with `just generate` when acquisition data covers the affected channel, or state the missing validation in the pull request.
 
 ### Hint ingestion
 

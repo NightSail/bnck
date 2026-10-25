@@ -14,6 +14,8 @@ Curations connect acquired channel packages and executable names to canonical pr
 
 Acquired package metadata and executable lists stay out of curation files. Dataset generation combines immutable acquisition snapshots with a specific curation revision to produce provider records.
 
+See the [curation guide](curation-guide.md) for inclusion criteria, evidence standards, and the contribution workflow.
+
 ## Format
 
 Curations are TOML: human-readable, comment-friendly, strictly parseable, and non-executable. Package attribution is project-centric, so one project and all its packages live in one file.

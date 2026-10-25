@@ -67,6 +67,7 @@ TOML curations resolve these acquisitions into canonical provider JSON Lines. bn
 - [Acquisition snapshot format](docs/acquisition-format.md)
 - [Distribution channel acquisition](docs/channels.md)
 - [Curation format](docs/curations.md)
+- [Curation guide](docs/curation-guide.md)
 - [Language registry acquisition](docs/language-registries.md)
 - [Dataset release format](docs/release-format.md)
 - [Website](docs/website.md)
