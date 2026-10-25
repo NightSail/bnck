@@ -2,7 +2,6 @@ id = 'most'
 name = 'most'
 
 homepage = 'https://www.jedsoft.org/most/index.html'
-repository = 'git://git.jedsoft.org/git/most.git'
 
 [[package]]
 channel = 'arch'

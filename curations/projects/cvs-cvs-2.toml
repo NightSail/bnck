@@ -2,7 +2,6 @@ id = 'cvs-cvs-2'
 name = 'cvs'
 
 homepage = 'https://mandoc.bsd.lv'
-repository = 'anoncvs@mandoc.bsd.lv:/cvs'
 
 [[package]]
 channel = 'homebrew'

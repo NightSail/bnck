@@ -2,7 +2,6 @@ id = 'git-annex'
 name = 'git-annex'
 
 homepage = 'https://hackage.haskell.org/package/git-annex'
-repository = 'git://git-annex.branchable.com'
 
 [[package]]
 channel = 'arch'

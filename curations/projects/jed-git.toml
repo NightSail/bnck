@@ -2,7 +2,6 @@ id = 'jed-git'
 name = 'jed'
 
 homepage = 'https://www.jedsoft.org/jed'
-repository = 'git://git.jedsoft.org/git/jed.git'
 
 [[package]]
 channel = 'homebrew'

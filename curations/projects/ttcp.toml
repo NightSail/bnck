@@ -1,8 +1,6 @@
 id = 'ttcp'
 name = 'ttcp'
 
-homepage = 'ftp://ftp.sgi.com/sgi/src/ttcp'
-
 [[package]]
 channel = 'fedora'
 name = 'ttcp'

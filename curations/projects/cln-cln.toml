@@ -2,7 +2,6 @@ id = 'cln-cln'
 name = 'cln'
 
 homepage = 'https://www.ginac.de/CLN'
-repository = 'git://www.ginac.de/cln.git'
 
 [[package]]
 channel = 'homebrew'

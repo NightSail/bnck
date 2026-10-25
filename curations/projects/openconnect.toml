@@ -2,7 +2,6 @@ id = 'openconnect'
 name = 'openconnect'
 
 homepage = 'https://www.infradead.org/openconnect'
-repository = 'git://git.infradead.org/users/dwmw2/openconnect.git'
 
 [[package]]
 channel = 'arch'

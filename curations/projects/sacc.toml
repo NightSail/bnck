@@ -1,8 +1,6 @@
 id = 'sacc'
 name = 'sacc'
 
-homepage = 'gopher://bitreich.org/1/scm/sacc'
-
 [[package]]
 channel = 'debian'
 name = 'sacc'

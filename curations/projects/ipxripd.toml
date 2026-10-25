@@ -1,8 +1,6 @@
 id = 'ipxripd'
 name = 'ipxripd'
 
-homepage = 'ftp://ftp.ibiblio.org/pub/Linux/system/filesystems/ncpfs'
-
 [[package]]
 channel = 'fedora'
 name = 'ipxripd'

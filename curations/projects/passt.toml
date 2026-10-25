@@ -2,7 +2,6 @@ id = 'passt'
 name = 'passt'
 
 homepage = 'https://passt.top/passt/about'
-repository = 'git://passt.top/passt'
 
 [[package]]
 channel = 'arch'

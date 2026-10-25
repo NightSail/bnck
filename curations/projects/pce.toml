@@ -2,7 +2,6 @@ id = 'pce'
 name = 'pce'
 
 homepage = 'http://www.hampa.ch/pce'
-repository = 'git://git.hampa.ch/pce.git'
 
 [[package]]
 channel = 'homebrew'

@@ -2,7 +2,6 @@ id = 'qbe'
 name = 'qbe'
 
 homepage = 'https://c9x.me/compile'
-repository = 'git://c9x.me/qbe.git'
 
 [[package]]
 channel = 'arch'

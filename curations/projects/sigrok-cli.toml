@@ -2,7 +2,6 @@ id = 'sigrok-cli'
 name = 'sigrok-cli'
 
 homepage = 'https://www.sigrok.org/wiki/Sigrok-cli'
-repository = 'git://sigrok.org/sigrok-cli'
 
 [[package]]
 channel = 'arch'

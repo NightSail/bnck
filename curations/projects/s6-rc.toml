@@ -2,7 +2,6 @@ id = 's6-rc'
 name = 's6-rc'
 
 homepage = 'https://skarnet.org/software/s6-rc'
-repository = 'git://git.skarnet.org/s6-rc.git'
 
 [[package]]
 channel = 'homebrew'

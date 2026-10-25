@@ -2,7 +2,6 @@ id = 'mupdf'
 name = 'mupdf'
 
 homepage = 'https://mupdf.com'
-repository = 'git://git.ghostscript.com/mupdf.git'
 
 [[package]]
 channel = 'arch'

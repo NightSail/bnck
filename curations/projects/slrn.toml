@@ -2,7 +2,6 @@ id = 'slrn'
 name = 'slrn'
 
 homepage = 'https://slrn.info'
-repository = 'git://git.jedsoft.org/git/slrn.git'
 
 [[package]]
 channel = 'debian'

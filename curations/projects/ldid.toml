@@ -2,7 +2,6 @@ id = 'ldid'
 name = 'ldid'
 
 homepage = 'https://cydia.saurik.com/info/ldid'
-repository = 'git://git.saurik.com/ldid.git'
 
 [[package]]
 channel = 'homebrew'

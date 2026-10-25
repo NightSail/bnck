@@ -1,8 +1,6 @@
 id = 'gnome-sharp'
 name = 'gnome-sharp'
 
-homepage = 'ftp://ftp.gnome.org/pub/gnome/sources/gnome-sharp/2.24'
-
 [[package]]
 channel = 'fedora'
 name = 'gnome-sharp'

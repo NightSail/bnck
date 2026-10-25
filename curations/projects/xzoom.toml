@@ -1,8 +1,6 @@
 id = 'xzoom'
 name = 'xzoom'
 
-homepage = 'ftp://sunsite.unc.edu/pub/linux/libs/X'
-
 [[package]]
 channel = 'debian'
 name = 'xzoom'
