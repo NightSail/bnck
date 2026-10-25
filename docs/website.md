@@ -131,7 +131,7 @@ Forms have explicit labels, tables have captions and scoped headings, keyboard n
 
 ## Static deployment
 
-Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `dataset/index.html`, `short/2/index.html`, `short/{letter}/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
+The `Site` workflow builds and deploys the output from a released SQLite artifact without running acquisition or publishing the dataset. Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination. Identity directories contain `index.html` and `providers.json`; the root contains `index.html`, `about/index.html`, `dataset/index.html`, `short/2/index.html`, `short/{letter}/index.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
 
 Serve the site from an origin root on a case-sensitive filesystem/host. Directory index lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short/2`, `/short/{letter}`, and `/about`; a trailing-slash redirect is acceptable. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite to the search page. Names that cannot safely become static directory components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
 

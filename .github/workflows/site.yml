@@ -1,0 +1,61 @@
+name: Site
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '.github/scripts/download-released-sqlite.sh'
+      - '.github/scripts/resolve-dataset-tag.sh'
+      - '.github/workflows/site.yml'
+      - 'bun.lock'
+      - 'justfile'
+      - 'package.json'
+      - 'tsconfig.json'
+      - 'web/**'
+      - 'wrangler.jsonc'
+  workflow_dispatch:
+    inputs:
+      dataset_tag:
+        description: Dataset release tag; leave blank to use the latest release
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and deploy site
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment: cloudflare-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.4'
+      - uses: extractions/setup-just@v2
+        with:
+          just-version: '1.58.0'
+      - name: Resolve dataset release
+        id: dataset
+        env:
+          DATASET_TAG: ${{ inputs.dataset_tag }}
+        run: ./.github/scripts/resolve-dataset-tag.sh
+      - name: Download released SQLite artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.dataset.outputs.tag }}
+        run: ./.github/scripts/download-released-sqlite.sh
+      - name: Generate static site
+        run: just site-build
+      - name: Deploy Cloudflare Worker
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy

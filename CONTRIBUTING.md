@@ -150,11 +150,13 @@ This writes the release directory and `var/releases/bnck-2026-04-16.1.tar.zst`. 
 
 ## Release automation
 
-The `Release` workflow runs daily at 03:17 UTC and can also be dispatched manually. It runs one acquisition job per channel, generates the dataset, and publishes only when a canonical provider or name association digest differs from the latest dataset release. The site is rebuilt and deployed from the published SQLite artifact even when the dataset is unchanged.
+The `Dataset` workflow runs daily at 03:17 UTC and can also be dispatched manually. It runs one acquisition job per channel, generates the dataset, and publishes only when a canonical provider or name association digest differs from the latest dataset release. It does not build the site. When it publishes a new release, it dispatches the `Site` workflow with that release tag.
 
-Job steps call the scripts in `.github/scripts/`; the workflow supplies their inputs and secrets through step environment variables.
+The `Site` workflow builds and deploys the static site from a released SQLite artifact. It runs on pushes that change site sources, when dispatched manually, and when the dataset workflow publishes a release. A manual dispatch may name a dataset release tag; otherwise it uses the latest `bnck-dataset-*` release. Site changes therefore do not trigger acquisition or a dataset release.
 
-Manually dispatching with an empty release input assigns the next `YYYY-MM-DD.N` from the existing `bnck-dataset-*` tags. Supplying an identifier forces that release and bypasses the unchanged-dataset check. The tags are the sequence source of truth; deleting a tag allows its sequence to be reused.
+Job steps call the scripts in `.github/scripts/`; the workflows supply their inputs and secrets through step environment variables.
+
+Manually dispatching the `Dataset` workflow with an empty release input assigns the next `YYYY-MM-DD.N` from the existing `bnck-dataset-*` tags. Supplying an identifier forces that release and bypasses the unchanged-dataset check. The tags are the sequence source of truth; deleting a tag allows its sequence to be reused.
 
 Required `cloudflare-pages` deployment environment configuration:
 
@@ -163,9 +165,9 @@ Required `cloudflare-pages` deployment environment configuration:
 - `CLOUDFLARE_ACCOUNT_ID` secret
 - A committed `minisign.pub` matching the CI signing key
 
-The build and deployment jobs use this environment, so environment protection rules also apply to release signing. The Worker deployment updates production directly; its custom domain is attached in the Cloudflare dashboard, so the deployment token needs no zone-level Workers Routes permission.
+The dataset build and site deployment jobs use this environment, so environment protection rules also apply to release signing and site deployment. The Worker deployment updates production directly; its custom domain is attached in the Cloudflare dashboard, so the deployment token needs no zone-level Workers Routes permission.
 
-The workflow tags releases `bnck-dataset-<CalVer>` so dataset releases remain distinct from other releases in the repository. It passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
+The dataset workflow tags releases `bnck-dataset-<CalVer>` so dataset releases remain distinct from other releases in the repository. It passes `BNCK_CANDIDATE_ONLY=1` to generation and release assembly because acquisition jobs transfer only candidate artifacts and manifests.
 
 The unchanged check compares both canonical JSON Lines digests. Curation-only changes that do not alter either digest require a manual dispatch to force a new release.
 

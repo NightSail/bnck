@@ -53,4 +53,5 @@ No public release has been made.
 - Release documentation now distinguishes release, provider, SQLite, acquisition, curation, and browser schema versions.
 - Debian acquisition fetches the active archive and release signing keys from ftp-master instead of relying on the runner's `debian-archive-keyring` package.
 - The release workflow is now a single `just release` command that assembles, signs, verifies, and packages the release.
+- The release workflow is split into separate `Dataset` and `Site` workflows; site changes deploy without acquisition, and new dataset releases dispatch a site deployment.
 - Website generation and development serving moved from Rust to Bun and TypeScript. `just site-build` generates the static site and `just site-dev` runs the hot-reloading server.

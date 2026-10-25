@@ -1,4 +1,4 @@
-name: Release
+name: Dataset
 
 on:
   schedule:
@@ -86,7 +86,6 @@ jobs:
       contents: write
     outputs:
       changed: ${{ steps.digest.outputs.changed }}
-      dataset_tag: ${{ steps.dataset.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
       - uses: extractions/setup-just@v2
@@ -138,38 +137,20 @@ jobs:
           RELEASE: ${{ needs.plan.outputs.release }}
           TAG: ${{ needs.plan.outputs.tag }}
         run: ./.github/scripts/publish-github-release.sh
-      - name: Select dataset release tag
-        id: dataset
-        env:
-          CHANGED: ${{ steps.digest.outputs.changed }}
-          NEW_TAG: ${{ needs.plan.outputs.tag }}
-          PREVIOUS_TAG: ${{ needs.plan.outputs.previous_tag }}
-        run: ./.github/scripts/select-dataset-tag.sh
 
-  site:
-    name: Build and deploy site
-    needs: build
+  dispatch-site:
+    name: Dispatch site deployment
+    needs: [plan, build]
+    if: needs.build.outputs.changed == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    environment: cloudflare-pages
+    permissions:
+      actions: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: '1.4.4'
-      - uses: extractions/setup-just@v2
-        with:
-          just-version: '1.58.0'
-      - name: Download released SQLite artifact
+      - name: Dispatch site deployment
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ needs.build.outputs.dataset_tag }}
-        run: ./.github/scripts/download-released-sqlite.sh
-      - name: Generate static site
-        run: just site-build
-      - name: Deploy Cloudflare Worker
-        uses: cloudflare/wrangler-action@v4
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy
+          TAG: ${{ needs.plan.outputs.tag }}
+          REF: ${{ github.ref_name }}
+        run: ./.github/scripts/dispatch-site-deploy.sh
