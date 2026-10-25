@@ -6,17 +6,12 @@ import {
 	channelLabel,
 } from './config';
 import {
-	associationList,
 	countLabel,
-	coverageNote,
-	exportActions,
-	projectCoverage,
-	providerGroup,
 	searchForm,
 	searchResult,
 	stats,
 } from './components';
-import { buildProjectCoverage, groupExecutableProjects, shortSectionSlug } from './data';
+import { shortSectionSlug } from './data';
 import { encodeSegment, formatNumber } from './naming';
 import { html, raw, type Html } from './html';
 import { renderPage } from './layout';
@@ -302,129 +297,26 @@ ${renderShortSection(section, label, description)}`,
 	});
 }
 
-export function projectPage(database: WebsiteDatabase, project: string, context: PageContext): string {
-	const links = database.projectLinks(project);
-	const coverage = buildProjectCoverage(database.projectProviders(project));
-	const associations = database.projectAssociations(project);
-	const references = associations
-		.filter((association) => association.role === 'reference')
-		.map((association) => ({ name: association.executable, role: association.role }));
-	const implementations = associations
-		.filter((association) => association.role === 'implementation')
-		.map((association) => ({ name: association.executable, role: association.role }));
-	const projectLinks = links.length
-		? html`<ul class='project-links'>
-			${links.map((link) => html`<li>
-				${link.link_type}:
-				<a href='${link.url}' rel='external'>${link.url}</a>
-			</li>`)}
-		</ul>`
-		: html`<p class='project-links'>No project links listed.</p>`;
-	const associationSection = associations.length
-		? html`<section class='association-section' aria-labelledby='associations-title'>
-	<h2 id='associations-title'>name associations</h2>
-	<p class='fine-print'>Curated context about names this project is known for, not package relations.</p>
-	${references.length ? html`<div class='association-group'>
-		<h3>reference</h3>
-		${associationList(references, 'executable')}
-	</div>` : ''}
-	${implementations.length ? html`<div class='association-group'>
-		<h3>implements</h3>
-		${associationList(implementations, 'executable')}
-	</div>` : ''}
-</section>`
-		: '';
+export function identityPage(context: PageContext): string {
 	return renderPage({
-		title: `project: ${project}`,
+		title: 'details',
 		applicationAssets: context.applicationAssets,
+		datasetUrl: context.datasetUrl,
 		clientSearch: false,
 		release: context.release,
 		section: 'index',
 		hasHeaderSearch: true,
-		scripts: html`<script type='module' src='${context.applicationAssets}/exports.js'></script>`,
+		scripts: html`<script type='module' src='${context.applicationAssets}/identity.js'></script>`,
 		liveReload: context.liveReload,
 		content: html`<section class='page-heading detail-heading'>
 	<a class='back-link' href='/?q='>← browse names</a>
-	<p class='eyebrow'>project</p>
-	<h1><code>${project}</code></h1>
-	${projectLinks}
+	<p class='eyebrow'>loading</p>
+	<h1>bnck(1)</h1>
 </section>
-${associationSection}
-<section aria-labelledby='providers-title'>
-	<div class='section-heading export-heading'>
-		<h2 id='providers-title'>executables</h2>
-		${exportActions(`/projects/${encodeSegment(project)}/providers.json`)}
-	</div>
-	${projectCoverage(project, coverage)}
-</section>
-${coverageNote()}`,
-	});
-}
-
-export function executablePage(database: WebsiteDatabase, executable: string, context: PageContext): string {
-	const providers = database.executableProviders(executable);
-	const projects = groupExecutableProjects(providers);
-	const associations = database.executableAssociations(executable);
-	const references = associations
-		.filter((association) => association.role === 'reference')
-		.map((association) => ({ name: association.project, role: association.role }));
-	const implementations = associations
-		.filter((association) => association.role === 'implementation' &&
-			!projects.some((project) => project.project === association.project))
-		.map((association) => ({ name: association.project, role: association.role }));
-	const projectCount = new Set([
-		...projects.map((project) => project.project),
-		...associations.map((association) => association.project),
-	]).size;
-	const referenceSection = references.length
-		? html`<div class='reference-note'>
-	<span class='eyebrow'>reference</span>
-	${associationList(references, 'project')}
-</div>`
-		: '';
-	const providerSection = projects.length
-		? html`<div class='provider-groups'>
-	${projects.map((project) => providerGroup(project.project, 'project', project.channels))}
-</div>`
-		: html`<p class='detail-note'>No current channel packages are curated as providers for this name.</p>`;
-	const implementationSection = implementations.length
-		? html`<section class='association-section' aria-labelledby='implementations-title'>
-	<h2 id='implementations-title'>known implementations</h2>
-	<p class='fine-print'>These projects are associated with the name but are not listed as providing it
-		as an installed command.</p>
-	${associationList(implementations, 'project')}
-</section>`
-		: '';
-	return renderPage({
-		title: `executable: ${executable}`,
-		applicationAssets: context.applicationAssets,
-		clientSearch: false,
-		release: context.release,
-		section: 'index',
-		hasHeaderSearch: true,
-		scripts: html`<script type='module' src='${context.applicationAssets}/exports.js'></script>`,
-		liveReload: context.liveReload,
-		content: html`<section class='page-heading detail-heading'>
-	<a class='back-link' href='/?q='>← browse names</a>
-	<p class='eyebrow'>executable</p>
-	<h1><span class='command-prefix' aria-hidden='true'>$ </span><code>${executable}</code></h1>
-	<p class='lead'>${countLabel(projectCount, 'project', 'projects')}.</p>
-</section>
-${referenceSection}
-<section aria-labelledby='providers-title'>
-	${projects.length > 1 ? html`<div class='ambiguity-note'>
-		<strong>Multiple projects provide this name.</strong>
-		Check the project before choosing a package.
-	</div>` : ''}
-	<div class='section-heading export-heading'>
-		<h2 id='providers-title'>projects</h2>
-		${exportActions(`/executables/${encodeSegment(executable)}/providers.json`)}
-	</div>
-	${providerSection}
-</section>
-${implementationSection}
-<p class='detail-note'>Links open current package pages. Check versions and platform support there.</p>
-${coverageNote()}`,
+<p class='detail-note' id='identity-status' role='status' aria-live='polite'>Loading dataset…</p>
+<noscript><p class='detail-note'>Project and executable pages require JavaScript.
+	<a class='text-link' href='/?q='>Search by name</a> or
+	<a class='text-link' href='/dataset'>view the dataset</a>.</p></noscript>`,
 	});
 }
 

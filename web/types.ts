@@ -7,6 +7,19 @@ export interface Provider {
 
 export type ExportQuery = { project: string } | { executable: string };
 
+export interface AssociationExport {
+	executable?: string;
+	project?: string;
+	role: AssociationRole;
+}
+
+export interface ProviderExport {
+	dataset_release: string;
+	query: ExportQuery;
+	providers: Provider[];
+	associations: AssociationExport[];
+}
+
 export interface ProjectProvider {
 	executable: string;
 	channel: string;

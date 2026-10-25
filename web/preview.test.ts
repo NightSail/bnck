@@ -6,7 +6,6 @@ import { join } from 'node:path';
 test('static preview preserves paths, headers, HEAD, and 404s without exposing other files', async () => {
 	const directory = await mkdtemp(join(tmpdir(), 'bnck-preview-'));
 	const root = join(directory, 'site');
-	await mkdir(join(root, 'projects/tool'), { recursive: true });
 	await mkdir(join(root, 'folder'), { recursive: true });
 	await mkdir(join(root, 'assets/app.hash'), { recursive: true });
 	const files = {
@@ -14,8 +13,7 @@ test('static preview preserves paths, headers, HEAD, and 404s without exposing o
 		'404.html': '<h1>Not found</h1>',
 		'about.html': '<h1>About</h1>',
 		'folder/index.html': '<h1>Folder</h1>',
-		'projects/tool.html': '<h1>Tool</h1>',
-		'projects/tool/providers.json': '{"query":{"project":"tool"}}',
+		'identity.html': '<h1>Identity</h1>',
 		'assets/dataset.hash.json': '{}',
 		'assets/app.hash/browser.js': 'export const value = 1;',
 		'assets/app.hash/style.css': 'body { color: green; }',
@@ -37,7 +35,10 @@ test('static preview preserves paths, headers, HEAD, and 404s without exposing o
 			['/about', files['about.html']],
 			['/folder', files['folder/index.html']],
 			['/folder/', files['folder/index.html']],
-			['/projects/tool', files['projects/tool.html']],
+			['/projects/tool', files['identity.html']],
+			['/projects/Tool', files['identity.html']],
+			['/projects/tool/', files['identity.html']],
+			['/executables/tool', files['identity.html']],
 			[`/${encodeURIComponent("é%&'#?.html")}`, files["é%&'#?.html"]],
 		]) {
 			const result = await fetch(new URL(path, origin));
@@ -50,7 +51,7 @@ test('static preview preserves paths, headers, HEAD, and 404s without exposing o
 		const head = await fetch(origin, { method: 'HEAD' });
 		expect(head.headers.get('Content-Length')).toBe(String(files['index.html'].length));
 		expect(await head.text()).toBe('');
-		for (const path of ['/missing', '/projects/Tool', '/projects/tool/', '/outside.txt', '/_headers']) {
+		for (const path of ['/missing', '/projects/tool/providers.json', '/outside.txt', '/_headers']) {
 			const result = await fetch(new URL(path, origin));
 			expect(result.status).toBe(404);
 			expect(await result.text()).toBe(files['404.html']);

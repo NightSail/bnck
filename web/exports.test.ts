@@ -1,197 +1,149 @@
-import { expect, mock, test } from 'bun:test';
-import { readFileSync } from 'node:fs';
-import { runInNewContext } from 'node:vm';
+import { expect, mock, spyOn, test } from 'bun:test';
 
-const source = new Bun.Transpiler({ loader: 'ts' }).transformSync(
-	readFileSync(new URL('./exports.ts', import.meta.url), 'utf8'),
-);
-const exportUrl = 'https://bnck.example/executables/age/providers.json';
-const payload = {
+import { formatJsonExport, mountJsonExport } from './exports';
+import type { ProviderExport } from './types';
+
+const payload: ProviderExport = {
 	dataset_release: 'bnck:release:test',
 	query: { executable: 'age' },
 	providers: [{ project: 'age', executable: 'age', channel: 'debian', package: 'age' }],
+	associations: [],
 };
 const formattedJson = JSON.stringify(payload, null, '\t') + '\n';
-const failureMessage = 'Copy failed. Use view JSON to copy manually.';
 
-class FakeClipboardItem {
-	constructor(data) {
-		this.data = data;
+class FakeElement {
+	tagName = '';
+	className = '';
+	textContent = '';
+	hidden = false;
+	disabled = false;
+	open = false;
+	children: FakeElement[] = [];
+	afterNode: FakeElement | null = null;
+	listeners: Record<string, () => unknown> = {};
+	classes = new Set<string>();
+
+	constructor(tagName = '') {
+		this.tagName = tagName;
+	}
+
+	get classList() {
+		return {
+			add: (name: string) => this.classes.add(name),
+			remove: (name: string) => this.classes.delete(name),
+			contains: (name: string) => this.classes.has(name),
+		};
+	}
+
+	addEventListener(event: string, handler: () => unknown) {
+		this.listeners[event] = handler;
+	}
+
+	append(...children: FakeElement[]) {
+		this.children.push(...children);
+	}
+
+	after(node: FakeElement) {
+		this.afterNode = node;
 	}
 }
 
-function deferred() {
-	let resolve;
-	const promise = new Promise((complete) => { resolve = complete; });
-	return { promise, resolve };
-}
-
-function initialize({
-	clipboard = { writeText: mock(async () => {}) },
-	fetch = mock(async () => new Response(JSON.stringify(payload))),
-	isSecureContext = true,
-	ClipboardItem,
-	schedule = () => 0,
-	cancel = () => {},
-} = {}) {
-	const handlers = {};
-	const button = {
-		hidden: true,
-		disabled: false,
-		textContent: 'copy JSON',
-		addEventListener: (event, handler) => { handlers[event] = handler; },
+function initialize({ isSecureContext = true, writeText = mock(async () => {}) } = {}) {
+	const button = new FakeElement('button');
+	button.hidden = true;
+	button.textContent = 'copy JSON';
+	const view = new FakeElement('button');
+	view.textContent = 'view JSON';
+	const status = new FakeElement('p');
+	const elements = new Map<string, FakeElement>([
+		['[data-copy-json]', button], ['[data-view-json]', view], ['[role="status"]', status],
+	]);
+	const actions = new FakeElement('div');
+	actions.querySelector = (selector: string) => elements.get(selector) ?? null;
+	const root = { querySelector: (selector: string) => selector === '[data-json-export]' ? actions : null };
+	const created: FakeElement[] = [];
+	const previous = {
+		document: globalThis.document,
+		window: (globalThis as { window?: unknown }).window,
+		navigator: globalThis.navigator,
 	};
-	const classes = new Set(['visually-hidden']);
-	const status = {
-		textContent: '',
-		classList: {
-			add: (name) => classes.add(name),
-			remove: (name) => classes.delete(name),
-			contains: (name) => classes.has(name),
+	Object.assign(globalThis, {
+		document: { createElement: (tagName: string) => {
+			const element = new FakeElement(tagName);
+			created.push(element);
+			return element;
+		} },
+		window: { isSecureContext },
+		navigator: { clipboard: { writeText } },
+	});
+	const timeout = spyOn(globalThis, 'setTimeout').mockImplementation(() => 0 as never);
+	mountJsonExport(root as unknown as ParentNode, payload);
+	return {
+		button, view, status, actions, created, writeText,
+		restore: () => {
+			timeout.mockRestore();
+			Object.assign(globalThis, previous);
 		},
 	};
-	const view = { href: exportUrl };
-	const elements = { '[data-copy-json]': button, '[data-view-json]': view, '[role="status"]': status };
-	const actions = { querySelector: (selector) => elements[selector] };
-	const document = { querySelectorAll: (selector) => selector === '[data-json-export]' ? [actions] : [] };
-	runInNewContext(source, {
-		document,
-		window: { isSecureContext },
-		navigator: { clipboard },
-		ClipboardItem,
-		Blob,
-		AbortController,
-		fetch,
-		setTimeout: schedule,
-		clearTimeout: cancel,
-	});
-	return { button, status, view, fetch, clipboard, click: () => handlers.click() };
 }
 
-function pendingFetch() {
-	return mock((_url, { signal }) => new Promise((_resolve, reject) => {
-		signal.addEventListener('abort', () => reject(new Error('Fetch aborted')), { once: true });
-	}));
-}
 
-test('copy remains hidden without a secure context or clipboard API', () => {
-	for (const options of [{ isSecureContext: false }, { clipboard: {} }]) {
-		const state = initialize(options);
+test('formats an export with tab indentation and a trailing newline', () => {
+	expect(formatJsonExport(payload)).toBe(formattedJson);
+});
+
+test('copy remains hidden without a secure context', () => {
+	const state = initialize({ isSecureContext: false });
+	try {
 		expect(state.button.hidden).toBe(true);
-		expect(state.fetch).not.toHaveBeenCalled();
-		expect(state.view.href).toBe(exportUrl);
+	} finally {
+		state.restore();
 	}
 });
 
-test('copy fetches only on click and writes readable JSON through writeText', async () => {
+test('copy writes the formatted export through writeText', async () => {
 	const state = initialize();
-	expect(state.button.hidden).toBe(false);
-	expect(state.fetch).not.toHaveBeenCalled();
-	await state.click();
-	expect(state.fetch).toHaveBeenCalledTimes(1);
-	const [url, options] = state.fetch.mock.calls[0];
-	expect(url).toBe(exportUrl);
-	expect(options.headers.Accept).toBe('application/json');
-	expect(options.credentials).toBe('same-origin');
-	expect(options.redirect).toBe('error');
-	expect(state.clipboard.writeText).toHaveBeenCalledWith(formattedJson);
-	expect(state.status.textContent).toBe('JSON copied.');
-	expect(state.button.disabled).toBe(false);
+	try {
+		expect(state.button.hidden).toBe(false);
+		await state.button.listeners.click();
+		expect(state.writeText).toHaveBeenCalledWith(formattedJson);
+		expect(state.status.textContent).toBe('JSON copied.');
+		expect(state.button.textContent).toBe('JSON copied');
+		expect(state.button.disabled).toBe(false);
+	} finally {
+		state.restore();
+	}
 });
 
-test('clipboard items preserve user activation and success waits for the write', async () => {
-	const response = deferred();
-	const write = deferred();
-	const clipboard = { write: mock(() => write.promise) };
-	const state = initialize({ clipboard, fetch: mock(() => response.promise), ClipboardItem: FakeClipboardItem });
-	const copying = state.click();
-	expect(clipboard.write).toHaveBeenCalledTimes(1);
-	expect(state.button.disabled).toBe(true);
-	expect(state.status.textContent).toBe('copying JSON…');
-	response.resolve(new Response(JSON.stringify(payload)));
-	const blob = await clipboard.write.mock.calls[0][0][0].data['text/plain'];
-	expect(blob.type.split(';')[0]).toBe('text/plain');
-	expect(await blob.text()).toBe(formattedJson);
-	expect(state.status.textContent).toBe('copying JSON…');
-	write.resolve();
-	await copying;
-	expect(state.status.textContent).toBe('JSON copied.');
-	expect(state.button.disabled).toBe(false);
-});
-
-for (const [name, fetch] of [
-	['HTTP errors', async () => new Response('{"error":"Unavailable"}', { status: 500 })],
-	['invalid JSON', async () => new Response('<html>Not JSON</html>')],
-	['network errors', async () => { throw new Error('Offline'); }],
-]) {
-	test(`${name} leave view JSON available and do not copy an error response`, async () => {
-		const state = initialize({ fetch: mock(fetch) });
-		await state.click();
-		expect(state.clipboard.writeText).not.toHaveBeenCalled();
-		expect(state.status.textContent).toBe(failureMessage);
+test('copy failure is reported and the button is restored', async () => {
+	const state = initialize({ writeText: mock(async () => { throw new Error('Clipboard denied'); }) });
+	try {
+		await state.button.listeners.click();
+		expect(state.status.textContent).toBe('Copy failed. Use view JSON to copy manually.');
 		expect(state.status.classList.contains('visually-hidden')).toBe(false);
 		expect(state.button.textContent).toBe('copy JSON');
 		expect(state.button.disabled).toBe(false);
-		expect(state.view.href).toBe(exportUrl);
-	});
-}
-
-test('clipboard denial reports failure and a later attempt can succeed', async () => {
-	let isAllowed = false;
-	const clipboard = { writeText: mock(async () => {
-		if (!isAllowed) {
-			throw new Error('Clipboard denied');
-		}
-	}) };
-	const state = initialize({ clipboard });
-	await state.click();
-	expect(state.status.textContent).toBe(failureMessage);
-	expect(state.button.disabled).toBe(false);
-	isAllowed = true;
-	await state.click();
-	expect(state.status.textContent).toBe('JSON copied.');
-	expect(state.status.classList.contains('visually-hidden')).toBe(true);
-	expect(state.fetch).toHaveBeenCalledTimes(2);
+	} finally {
+		state.restore();
+	}
 });
 
-test('early clipboard denial aborts the pending fetch without an unhandled rejection', async () => {
-	const clipboard = { write: mock(async () => { throw new Error('Clipboard denied'); }) };
-	const state = initialize({ clipboard, fetch: pendingFetch(), ClipboardItem: FakeClipboardItem });
-	await state.click();
-	expect(state.fetch.mock.calls[0][1].signal.aborted).toBe(true);
-	expect(state.status.textContent).toBe(failureMessage);
-	expect(state.button.disabled).toBe(false);
-});
-
-test('a stalled fetch times out and restores the copy button', async () => {
-	let expire;
-	const cancel = mock(() => {});
-	const state = initialize({
-		fetch: pendingFetch(),
-		schedule: (callback, delay) => {
-			expect(delay).toBe(10000);
-			expire = callback;
-			return 7;
-		},
-		cancel,
-	});
-	const copying = state.click();
-	expire();
-	await copying;
-	expect(state.status.textContent).toBe(failureMessage);
-	expect(state.button.disabled).toBe(false);
-	expect(state.clipboard.writeText).not.toHaveBeenCalled();
-	expect(cancel).toHaveBeenCalledWith(7);
-});
-
-test('repeated clicks during a pending request do not start another export', async () => {
-	const response = deferred();
-	const state = initialize({ fetch: mock(() => response.promise) });
-	const copying = state.click();
-	await state.click();
-	expect(state.fetch).toHaveBeenCalledTimes(1);
-	response.resolve(new Response(JSON.stringify(payload)));
-	await copying;
-	expect(state.clipboard.writeText).toHaveBeenCalledTimes(1);
-	expect(state.status.textContent).toBe('JSON copied.');
+test('view JSON inserts and toggles a preformatted export', () => {
+	const state = initialize();
+	try {
+		state.view.listeners.click();
+		expect(state.created).toHaveLength(3);
+		const [details, summary, pre] = state.created;
+		expect(details.tagName).toBe('details');
+		expect(details.open).toBe(true);
+		expect(summary.textContent).toBe('JSON export');
+		expect(pre.textContent).toBe(formattedJson);
+		expect(details.children).toEqual([summary, pre]);
+		expect(state.actions.afterNode).toBe(details);
+		state.view.listeners.click();
+		expect(details.open).toBe(false);
+		expect(state.created).toHaveLength(3);
+	} finally {
+		state.restore();
+	}
 });

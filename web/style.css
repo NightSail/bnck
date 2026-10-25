@@ -384,6 +384,11 @@ main {
 	align-items: baseline;
 	gap: 8px 16px;
 }
+.export-buttons button {
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
 .copy-json {
 	min-width: 7em;
 	padding: 0;
@@ -406,6 +411,26 @@ main {
 }
 .export-status:not(:empty) {
 	margin-top: 8px;
+}
+.json-export-content {
+	margin-top: 12px;
+	text-align: left;
+}
+.json-export-content summary {
+	color: var(--green);
+	cursor: pointer;
+	font: 12px/1.5 var(--mono);
+}
+.json-export-content pre {
+	max-height: 480px;
+	margin: 10px 0 0;
+	padding: 16px;
+	overflow: auto;
+	border: 1px solid var(--line);
+	border-radius: 4px;
+	background: var(--background);
+	font: 12px/1.6 var(--mono);
+	text-align: left;
 }
 .text-link {
 	color: var(--green);

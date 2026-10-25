@@ -20,9 +20,9 @@ function current(section: string, name: string): Html {
 }
 
 export function renderPage(shell: PageShell): string {
-	const datasetMeta = shell.clientSearch && shell.datasetUrl
+	const datasetMeta = shell.datasetUrl
 		? html`<meta name='bnck-dataset' content='${shell.datasetUrl}' data-release='${shell.release}'>
-	<script type='module' src='${shell.applicationAssets}/browser.js'></script>`
+	${shell.clientSearch ? html`<script type='module' src='${shell.applicationAssets}/browser.js'></script>` : ''}`
 		: '';
 	const navigation = shell.hasHeaderSearch
 		? html`<div class='header-search'>
@@ -33,8 +33,8 @@ export function renderPage(shell: PageShell): string {
 		: html`<a href='/' ${current(shell.section, 'index')}>search</a>
 		<a href='/short/2' ${current(shell.section, 'short')}>short names</a>`;
 	const clientNotices = shell.clientSearch
-		? html`<noscript><p class='filter-notice'>Search and filtered browsing require JavaScript.
-	Project pages, executable pages, and JSON exports can be opened directly without it.</p></noscript>
+		? html`<noscript><p class='filter-notice'>Search, filtered browsing, project pages, and executable pages
+	require JavaScript. Dataset information and short names remain available without it.</p></noscript>
 	<p id='search-status' class='visually-hidden' role='status' aria-live='polite'></p>`
 		: '';
 	const liveReload = shell.liveReload

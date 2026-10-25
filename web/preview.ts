@@ -1,7 +1,7 @@
 import { realpath } from 'node:fs/promises';
 
 import { parseAddress, staticResponse } from './http';
-import { notFoundResponse, readStaticFile, staticFileResponse } from './files';
+import { identityRoutePath, notFoundResponse, readStaticFile, staticFileResponse } from './files';
 
 const root = await realpath(process.argv[2] ?? 'var/site');
 const { hostname, port } = parseAddress(process.argv[3] ?? '127.0.0.1:3000');
@@ -26,7 +26,7 @@ const server = Bun.serve({
 		if (pathname.includes('\0') || pathname.includes('\\') || pathname.split('/').includes('..')) {
 			return staticResponse('Invalid path', { status: 400 });
 		}
-		const file = pathname === '/_headers' ? null : await readStaticFile(root, pathname);
+		const file = pathname === '/_headers' ? null : await readStaticFile(root, identityRoutePath(pathname) ?? pathname);
 		return file ? staticFileResponse(file, request, { immutable: pathname.startsWith('/assets/') }) :
 			notFoundResponse(root, request);
 	},

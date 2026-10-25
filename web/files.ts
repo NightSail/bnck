@@ -8,6 +8,11 @@ export interface StaticFile {
 	path: string;
 }
 
+/* Identity routes share one shell; the client reads the original pathname. */
+export function identityRoutePath(pathname: string): string | null {
+	return /^\/(?:projects|executables)\/[^/]+\/?$/.test(pathname) ? '/identity.html' : null;
+}
+
 export async function readStaticFile(root: string, pathname: string): Promise<StaticFile | null> {
 	const candidates = pathname.endsWith('/')
 		? [resolve(root, `.${pathname}index.html`)]

@@ -4,17 +4,17 @@ import { basename, dirname, join, resolve } from 'node:path';
 
 import { WebsiteDatabase } from './database';
 import { browserDataset, buildShortNameSections, shortSectionSlug } from './data';
-import { exportBytes } from './export-data';
 import { HTML_CSP } from './config';
-import { aboutPage, datasetPage, executablePage, homePage, notFoundPage, projectPage, shortPage } from './pages';
+import { aboutPage, datasetPage, homePage, identityPage, notFoundPage, shortPage } from './pages';
 import type { PageContext } from './pages';
 
 const WEB_ROOT = import.meta.dir;
 const STYLE_PATH = join(WEB_ROOT, 'style.css');
 const REDIRECTS_PATH = join(WEB_ROOT, '_redirects');
-const BROWSER_ENTRYPOINTS = ['browser.ts', 'search.ts', 'exports.ts'].map((name) => join(WEB_ROOT, name));
-/* Cloudflare Workers rejects asset files larger than this. */
+const BROWSER_ENTRYPOINTS = ['browser.ts', 'search.ts', 'identity.ts'].map((name) => join(WEB_ROOT, name));
+/* Cloudflare Workers rejects asset uploads beyond these limits. */
 const MAX_FILE_BYTES = 25 * 1024 * 1024;
+const MAX_FILE_COUNT = 20_000;
 
 export interface BuildOptions {
 	liveReload?: boolean;
@@ -30,11 +30,7 @@ export async function buildSite(
 	options: BuildOptions = {},
 ): Promise<Map<string, Uint8Array>> {
 	const projects = database.listProjects();
-	const executables = database.listExecutables();
 	const shortSections = buildShortNameSections(database.shortNameUsage());
-	for (const project of projects) validateFileName(project);
-	for (const executable of executables) validateFileName(executable);
-
 	const dataset = browserDataset(database, projects);
 	const datasetBytes = new TextEncoder().encode(JSON.stringify(dataset));
 	const applicationAssets = await buildApplicationAssets();
@@ -54,14 +50,7 @@ export async function buildSite(
 		addText(files, `short/${shortSectionSlug(section)}.html`, shortPage(section, shortSections, context));
 	}
 	addText(files, '404.html', notFoundPage(context));
-	for (const project of projects) {
-		addText(files, `projects/${project}.html`, projectPage(database, project, context));
-		addBytes(files, `projects/${project}/providers.json`, exportBytes(database, { project }));
-	}
-	for (const executable of executables) {
-		addText(files, `executables/${executable}.html`, executablePage(database, executable, context));
-		addBytes(files, `executables/${executable}/providers.json`, exportBytes(database, { executable }));
-	}
+	addText(files, 'identity.html', identityPage(context));
 	for (const [name, content] of applicationAssets) {
 		addBytes(files, `assets/app.${assets.hash}/${name}`, content);
 	}
@@ -116,7 +105,7 @@ async function buildApplicationAssets(): Promise<Map<string, Uint8Array>> {
 		assets.set(basename(output.path), new Uint8Array(await output.arrayBuffer()));
 	}
 	assets.set('style.css', await Bun.file(STYLE_PATH).bytes());
-	for (const name of ['browser.js', 'search.js', 'exports.js', 'style.css']) {
+	for (const name of ['browser.js', 'search.js', 'identity.js', 'style.css']) {
 		if (!assets.has(name)) throw new Error(`website asset was not built: ${name}`);
 	}
 	return assets;
@@ -156,6 +145,9 @@ function addBytes(files: Map<string, Uint8Array>, path: string, content: Uint8Ar
 	if (content.length > MAX_FILE_BYTES) {
 		throw new Error(`website file ${path} is ${content.length} bytes; the host limits assets to ${MAX_FILE_BYTES}`);
 	}
+	if (files.size >= MAX_FILE_COUNT) {
+		throw new Error(`website has more than ${MAX_FILE_COUNT} files; the host limits asset uploads`);
+	}
 	files.set(path, content);
 }
 
@@ -173,6 +165,7 @@ function writeHeaders(files: Map<string, Uint8Array>): void {
 		'/short/*',
 		'/projects/*',
 		'/executables/*',
+		'/identity.html',
 		'/404.html',
 	]) {
 		headers += `\n${path}\n  Cache-Control: no-cache\n`;
@@ -184,12 +177,6 @@ function writeHeaders(files: Map<string, Uint8Array>): void {
 async function writeRedirects(files: Map<string, Uint8Array>, release: string): Promise<void> {
 	const template = await readFile(REDIRECTS_PATH, 'utf8');
 	addText(files, '_redirects', template.split('{{release}}').join(release));
-}
-
-function validateFileName(name: string): void {
-	if (name === '.' || name === '..' || name.includes('/') || name.includes('\\') || name.includes('\0')) {
-		throw new Error(`identity ${JSON.stringify(name)} cannot be represented as a static page path`);
-	}
 }
 
 async function pathExists(path: string): Promise<boolean> {

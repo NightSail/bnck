@@ -194,11 +194,11 @@ export function associationList(
 	</ul>`;
 }
 
-export function exportActions(url: string): Html {
+export function exportActions(): Html {
 	return html`<div class='export-actions' data-json-export>
 	<div class='export-buttons'>
 		<button class='text-link copy-json' type='button' data-copy-json hidden>copy JSON</button>
-		<a class='text-link' href='${url}' data-view-json>view JSON</a>
+		<button class='text-link' type='button' data-view-json>view JSON</button>
 	</div>
 	<p class='export-status visually-hidden' role='status' aria-live='polite'></p>
 </div>`;

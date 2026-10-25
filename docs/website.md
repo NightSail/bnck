@@ -4,7 +4,7 @@
 
 The website is a reference interface to the [provider dataset](design.md), not a software directory or package installer. It finds the projects and distribution packages behind an executable name, and the executables provided by a canonical project.
 
-Identity pages, dataset information, and JSON views are static and work without JavaScript. Search, filtering, and pagination use vanilla JavaScript over a locally loaded dataset. Clipboard copying is an optional enhancement, and the site uses no external fonts or third-party services.
+Dataset information and the short-name map are static and work without JavaScript. Search, filtering, pagination, project pages, and executable pages use vanilla JavaScript over a locally loaded dataset. Clipboard copying is an optional enhancement, and the site uses no external fonts or third-party services.
 
 ## Views
 
@@ -20,7 +20,9 @@ The short name map lists `aa` through `zz` at `/short/2`, with one page per lead
 
 Project pages normally use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Checkmarks identify executables observed in each package; hyphens mean not observed in this dataset, not unavailable. The matrix scrolls horizontally on narrow screens while keeping package names and channel headings visible. Package links show the exact channel-native name and point to current external channel pages, not acquisition evidence or installation instructions.
 
-A project with more than 10,000 package/name combinations uses a sparse coverage view instead: an alphabetical executable index, then one row per package listing only the executable names observed in it. The same per-executable anchors remain available. This avoids a dense cross-product that can exceed static host asset limits; absence still means not observed in this dataset.
+A project with more than 10,000 package/name combinations uses a sparse coverage view instead: an alphabetical executable index, then one row per package listing only the executable names observed in it. The same per-executable anchors remain available. This avoids a dense cross-product and keeps browser rendering responsive; absence still means not observed in this dataset.
+
+Project and executable pages are rendered in the browser from the shared dataset. The host serves one `/identity.html` shell for both route families.
 
 ## Search contract
 
@@ -60,18 +62,13 @@ Detail routes retain exact, case-sensitive lookup semantics:
 /about
 ```
 
-The dataset release section keeps `#release` as its anchor.
+The host serves the shared `/identity.html` shell for `/projects/*` and `/executables/*`. The browser decodes the path once and looks up the exact identity in the dataset; unknown identities render a searchable not-found page. The dataset release section keeps `#release` as its anchor.
 
 ## JSON exports
 
-Project and executable detail pages offer "Copy JSON" and "View JSON" actions. Copy JSON requires the script and clipboard APIs in a secure context. Both use exact, case-sensitive lookups and include all channels and packages, without pagination or filtering.
+Project and executable pages offer "Copy JSON" and "View JSON" actions. Both are generated in the browser from the loaded dataset using exact, case-sensitive lookups. "View JSON" expands a tab-indented block in the page. "Copy JSON" requires the script and clipboard APIs in a secure context.
 
-```text
-/projects/{project}/providers.json
-/executables/{executable}/providers.json
-```
-
-Each successful response begins with `dataset_release`, prefixed with `bnck:release:`, and a `query` object with exactly one key, `project` or `executable`, holding the exact requested name. The prefix namespaces the release identifier without changing the stored identifier. The `providers` array holds four-field mappings ordered by project, executable, channel, and package. Project exports include every executable attributed to that project; executable exports include every owning project. The `associations` array holds channel-independent name associations: project exports list associated executables, and executable exports list associated projects, with `reference` or `implementation` roles. Names preserve their original spelling, and each relation appears once. Project links, package versions, and installation instructions are not included.
+The generated object begins with `dataset_release`, prefixed with `bnck:release:`, and a `query` object with exactly one key, `project` or `executable`, holding the exact requested name. The prefix namespaces the release identifier without changing the stored identifier. The `providers` array holds four-field mappings ordered by project, executable, channel, and package. Project exports include every executable attributed to that project; executable exports include every owning project. The `associations` array holds channel-independent name associations: project exports list associated executables, and executable exports list associated projects, with `reference` or `implementation` roles. Names preserve their original spelling, and each relation appears once. Project links, package versions, and installation instructions are not included.
 
 ```json
 {
@@ -91,7 +88,7 @@ Each successful response begins with `dataset_release`, prefixed with `bnck:rele
 }
 ```
 
-Responses use `application/json` without an attachment disposition, are tab-indented, and end with a newline. An unknown identity returns the static host's HTTP 404, which need not be JSON. Query parameters do not filter or paginate exports. Generation failures abort publication rather than leaving partial pages or exports.
+Exports are tab-indented and end with a newline. Query parameters do not filter or paginate exports. The former per-identity URLs `/projects/{project}/providers.json` and `/executables/{executable}/providers.json` redirect to their identity pages; no per-identity files are generated. Generation failures abort publication rather than leaving partial output.
 
 ## Truthfulness
 
@@ -101,46 +98,48 @@ A missing identity or relation means there is no accepted provider record or nam
 
 ## Implementation
 
-`web/generate.ts` implements static generation. `web/database.ts` opens the compressed or uncompressed SQLite artifact and exposes dataset queries; `web/site.ts` stages the complete output; `web/pages.ts` and `web/components.ts` render HTML. The stylesheet is `web/style.css`. The generator bundles TypeScript browser entry points with Bun and reads source files from disk on each build.
+`web/generate.ts` implements static generation. `web/database.ts` opens the compressed or uncompressed SQLite artifact and exposes dataset queries; `web/site.ts` stages the complete output; `web/pages.ts`, `web/identity-view.ts`, and `web/components.ts` render HTML. `web/identity.ts` mounts project and executable pages in the browser, and `web/exports.ts` handles JSON actions. The stylesheet is `web/style.css`. The generator bundles TypeScript browser entry points with Bun and reads source files from disk on each build.
 
 The generated browser dataset has `schema_version`, `dataset_release`, `generated_at`, supported channel keys and labels, and projects containing exact names, curated links, executable/channel/package relations, and name associations. Its `schema_version` is independent of the release, provider, and association schemas; increment it when the project, link, provider, or association shape changes incompatibly. It is a derived website artifact, not a replacement for the canonical release formats.
 
 The stylesheet and bundled JavaScript entry points share `/assets/app.<hash>/`, hashed from those files. The browser dataset is a separate `/assets/dataset.<hash>.json`, hashed from its JSON bytes. Generated HTML references both URLs, so dataset-only and application-only changes retain the other URL, and byte-identical rebuilds retain both.
 
-`web/dataset.ts` lazily fetches JSON on the first search or browse request, checks its schema and release, and builds an in-memory index shared by concurrent and later lookups. Loading the home page without parameters or opening an identity page downloads no dataset. Failed loads time out after ten seconds and offer an explicit retry. HTTP caching handles repeat visits; there is no service worker, IndexedDB, SQLite runtime, or offline guarantee.
+`web/dataset.ts` lazily fetches JSON on the first search, browse, project, or executable request, checks its schema and release, and builds an in-memory index shared by concurrent and later lookups. Loading the home page without parameters downloads no dataset; identity pages load it to render their content. Failed loads time out after ten seconds and offer an explicit retry. HTTP caching handles repeat visits; there is no service worker, IndexedDB, SQLite runtime, or offline guarantee.
 
-Forms have explicit labels, tables have captions and scoped headings, keyboard navigation has visible focus and a skip link, and the layout works down to a 320-pixel viewport. A no-JavaScript notice on the home page explains that search and filtered browsing need scripting.
+Forms have explicit labels, tables have captions and scoped headings, keyboard navigation has visible focus and a skip link, and the layout works down to a 320-pixel viewport. No-JavaScript notices explain that search, filtered browsing, project pages, and executable pages need scripting.
 
 `just site-dev` builds the site into a temporary directory, watches `web/` and the SQLite artifact, and reloads connected pages after a successful rebuild. `just site-preview` serves a generated directory from disk.
 
 ## Testing
 
-`bun test ./web/*.test.ts` covers search, rendering, caching, history, exports, deterministic asset identities, and browser/SQLite search parity. `bun run typecheck` checks the site source.
+`bun test ./web/*.test.ts` covers search, identity routing and rendering, caching, history, JSON actions, deterministic asset identities, and browser/SQLite search parity. `bun run typecheck` checks the site source.
 
 ## Static deployment
 
 The `Site` workflow builds and deploys the output from a released SQLite artifact without running acquisition or publishing the dataset. Generate into a fresh output directory. The generator stages the whole build beside the destination and publishes it only after every file succeeds; it refuses an existing destination.
 
-Identity pages are `projects/{project}.html` and `executables/{executable}.html`, with exports in `projects/{project}/providers.json` and `executables/{executable}/providers.json`; the root contains `index.html`, `about.html`, `dataset.html`, `short/2.html`, `short/{letter}.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
+The output root contains `index.html`, `about.html`, `dataset.html`, `identity.html`, `short/2.html`, `short/{letter}.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory. It generates no files per project or executable, so output file count stays bounded as the dataset grows.
 
-Serve the site from an origin root on a case-sensitive filesystem or host. Extensionless HTML file lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Trailing slashes on leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite. Names that cannot safely become static path components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages. Generation also fails if any output file exceeds the host's 25 MiB asset limit.
+Serve the site from an origin root. Extensionless HTML file lookup must resolve `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Proxy `/projects/*` and `/executables/*` to `/identity.html` with status 200 while preserving the original path. Trailing slashes on leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once; the browser performs identity lookup. Configure `404.html` as the error page, not a catch-all rewrite. Generation fails if any output file exceeds the host's 25 MiB asset limit or the output exceeds its 20,000-file limit.
 
 The generated `_headers` file supplies settings for hosts supporting that convention; others must configure equivalents:
 
-- HTML and JSON exports: `Cache-Control: no-cache`
+- HTML pages: `Cache-Control: no-cache`
 - `/assets/*`: `Cache-Control: public, max-age=31536000, immutable`
 - All responses: `X-Content-Type-Options: nosniff`
 - Content security policy: `default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'`
 
-The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Workers applies the generated `_redirects` file directly; other hosts must configure equivalent redirects:
+The redirect map template lives in `web/_redirects`; the generator substitutes the current dataset release for the latest aliases. Cloudflare Workers applies the generated `_redirects` file directly; other hosts must configure equivalent redirects and rewrites:
 
-- `/about/`, `/dataset/`, `/short/{section}/`, `/projects/{project}/`, `/executables/{executable}/`: 301 to the corresponding file path
+- `/about/`, `/dataset/`, `/short/{section}/`, `/projects/{project}/`, `/executables/{executable}/`: 301 to the corresponding path
+- `/projects/*` and `/executables/*`: 200 proxy to `/identity.html`
+- `/projects/{project}/providers.json` and `/executables/{executable}/providers.json`: 301 to the identity page
 - `/data` and `/data/`: 302 to `/data/latest`
 - `/data/latest`: 302 to the current dataset release page
 - `/data/latest/*`: 302 to the corresponding current dataset release asset
 - `/data/:release`: 301 to the `bnck-dataset-:release` page
 - `/data/:release/*`: 301 to the corresponding versioned release asset
 
-Publish each build's pages and assets atomically, retaining previous application directories and dataset files so open pages can load matching code and data. Regenerate all pages and exports from the same release; never change contents at an existing content-addressed URL.
+Publish each build's pages, identity shell, and assets atomically, retaining previous application directories and dataset files so open pages can load matching code and data. Regenerate everything from the same release; never change contents at an existing content-addressed URL.
 
-`just site-preview` runs the dependency-free Bun server in `web/preview.ts`, binding `127.0.0.1:3000` by default and accepting a `HOST:PORT` address. It serves generated files with extensionless HTML and directory index lookup, cache and security headers, and a real 404 fallback. It does not evaluate host redirects.
+`just site-preview` runs the dependency-free Bun server in `web/preview.ts`, binding `127.0.0.1:3000` by default and accepting a `HOST:PORT` address. It serves generated files with extensionless HTML and directory index lookup, cache and security headers, the shared identity shell for `/projects/{project}` and `/executables/{executable}`, and a real 404 fallback. It does not evaluate host redirects.

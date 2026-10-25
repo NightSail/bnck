@@ -173,7 +173,7 @@ just site-preview
 
 `site-preview` binds `127.0.0.1:3000` by default; pass `HOST:PORT` and a directory to change both. `site-build` clears its output directory.
 
-Publish the output at the origin root of a case-sensitive static host with extensionless HTML file support. Configure `404.html` as the error page rather than an SPA fallback, enable HTTP compression, and apply the generated `_headers` and `_redirects` files or equivalents. Deploy pages and assets together and retain previous release assets so open pages finish loading their matching versions. See [website](docs/website.md) for routes, exports, and deployment details.
+Publish the output at the origin root of a case-sensitive static host with extensionless HTML file support. Configure `404.html` as the error page rather than an SPA fallback, rewrite `/projects/*` and `/executables/*` to `/identity.html` with status 200, enable HTTP compression, and apply the generated `_headers` and `_redirects` files or equivalents. Deploy pages, the identity shell, and assets together and retain previous release assets so open pages finish loading their matching versions. See [website](docs/website.md) for routes, JSON actions, and deployment details.
 
 ## Responsibilities
 
@@ -181,4 +181,4 @@ Just recipes handle directory creation, HTTP downloads, archive extraction, job 
 
 Rust code handles CSV, JSON, TOML, and wheel metadata parsing; acquisition snapshots and input digests; release selection; package and executable normalization; curation validation and resolution; and deterministic JSON Lines generation. It does not shell out or perform network requests.
 
-TypeScript code in `web/` reads the SQLite artifact, renders the static site and JSON exports, and serves the development and preview interfaces.
+TypeScript code in `web/` reads the SQLite artifact, renders the static pages and browser dataset, renders identity pages and JSON exports in the browser, and serves the development and preview interfaces.

@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join, relative } from 'node:path';
 import { parseArgs } from 'node:util';
 
-import { notFoundResponse, readStaticFile, staticFileResponse, type StaticFile } from './files';
+import { identityRoutePath, notFoundResponse, readStaticFile, staticFileResponse, type StaticFile } from './files';
 import { parseAddress, staticResponse } from './http';
 
 const LIVE_RELOAD_SCRIPT = `const events = new EventSource('/__reload');
@@ -126,7 +126,7 @@ async function serve(request: Request): Promise<Response> {
 		return staticResponse('Invalid path', { status: 400 });
 	}
 
-	const file = await findFile(pathname);
+	const file = await findFile(identityRoutePath(pathname) ?? pathname);
 	if (file) return staticFileResponse(file, request, { immutable: pathname.startsWith('/assets/') });
 	return notFoundResponse(siteRoots[0], request);
 }

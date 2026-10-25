@@ -14,7 +14,7 @@ async function assetPath(root: string, prefix: string): Promise<string> {
 	return join(root, 'assets', paths[0]);
 }
 
-test('generates a complete versioned site without modifying the database', async () => {
+test('generates a complete versioned site without per-identity files', async () => {
 	const fixture = await createFixture([
 		provider('helix', 'hx', 'debian', 'helix'),
 		provider('helix', 'hx', 'crates.io', 'helix-term'),
@@ -34,7 +34,7 @@ test('generates a complete versioned site without modifying the database', async
 
 		const home = await readFile(join(output, 'index.html'), 'utf8');
 		expect(home).toContain("name='bnck-dataset'");
-		expect(home).toContain('Search and filtered browsing require JavaScript');
+		expect(home).toContain('require JavaScript');
 		const applicationDirectory = await assetPath(output, 'app.');
 		const datasetPath = await assetPath(output, 'dataset.');
 		const applicationName = applicationDirectory.split('/').at(-1)!;
@@ -51,7 +51,7 @@ test('generates a complete versioned site without modifying the database', async
 		expect(dataset.projects[1].providers).toHaveLength(2);
 		expect(dataset.projects[1].associations).toEqual([{ executable: 'cat', role: 'implementation' }]);
 
-		for (const asset of ['style.css', 'search.js', 'exports.js', 'browser.js']) {
+		for (const asset of ['style.css', 'search.js', 'identity.js', 'browser.js']) {
 			expect(await readdir(applicationDirectory)).toContain(asset);
 		}
 		for (const path of [
@@ -61,14 +61,19 @@ test('generates a complete versioned site without modifying the database', async
 			'short/a.html',
 			'short/z.html',
 			'404.html',
-			'projects/helix.html',
-			'executables/hx.html',
-			'executables/HX.html',
-			'executables/cat.html',
-			"executables/é%&'<>#?.html",
+			'identity.html',
 		]) {
 			expect((await readFile(join(output, path))).length).toBeGreaterThan(0);
 		}
+		for (const path of ['projects/helix.html', 'executables/hx.html', 'executables/hx/providers.json']) {
+			await expect(readFile(join(output, path))).rejects.toThrow();
+		}
+
+		const identity = await readFile(join(output, 'identity.html'), 'utf8');
+		expect(identity).toContain("name='bnck-dataset'");
+		expect(identity).toContain(`src='/assets/${applicationName}/identity.js'`);
+		expect(identity).not.toContain(`src='/assets/${applicationName}/browser.js'`);
+		expect(identity).toContain('Project and executable pages require JavaScript');
 
 		const datasetPage = await readFile(join(output, 'dataset.html'), 'utf8');
 		expect(datasetPage).toContain("href='/data/2026-04-16.1'");
@@ -79,10 +84,6 @@ test('generates a complete versioned site without modifying the database', async
 		const about = await readFile(join(output, 'about.html'), 'utf8');
 		expect(about).toContain('maps executable names to the projects');
 		expect(about).toContain('github.com/NightSail/bnck');
-		const project = await readFile(join(output, 'projects/helix.html'), 'utf8');
-		expect(project).toContain('https://helix-editor.com/');
-		expect(project).toContain("<h2 id='associations-title'>name associations</h2>");
-		expect(project).not.toContain('browser.js');
 		expect((await readdir(join(output, 'short'))).sort())
 			.toEqual(['2', ...'abcdefghijklmnopqrstuvwxyz'].map((name) => `${name}.html`));
 		const short = await readFile(join(output, 'short/2.html'), 'utf8');
@@ -95,26 +96,10 @@ test('generates a complete versioned site without modifying the database', async
 		expect(shortH).not.toContain("href='/executables/hx'");
 		expect(home).toContain("href='/short/2'");
 
-		const exported = await readFile(join(output, 'executables/hx/providers.json'), 'utf8');
-		expect(exported).toContain('\n\t"dataset_release"');
-		expect(exported.endsWith('\n')).toBe(true);
-		const payload = JSON.parse(exported);
-		expect(payload.providers).toHaveLength(3);
-		expect(payload.associations).toEqual([]);
-		expect(payload.query).toEqual({ executable: 'hx' });
-
-		const associationExport = JSON.parse(
-			await readFile(join(output, 'executables/cat/providers.json'), 'utf8'),
-		);
-		expect(associationExport.providers).toEqual([]);
-		expect(associationExport.associations).toEqual([{ project: 'helix', role: 'implementation' }]);
-
-		const projectExport = JSON.parse(await readFile(join(output, 'projects/helix/providers.json'), 'utf8'));
-		expect(projectExport.associations).toEqual([{ executable: 'cat', role: 'implementation' }]);
-
 		const headers = await readFile(join(output, '_headers'), 'utf8');
 		expect(headers).toContain('/dataset\n  Cache-Control: no-cache');
 		expect(headers).toContain('/short\n  Cache-Control: no-cache');
+		expect(headers).toContain('/identity.html\n  Cache-Control: no-cache');
 		expect(headers).toContain('max-age=31536000, immutable');
 		expect(headers).toContain('Content-Security-Policy');
 		expect(headers.split('\n\n')[0]).not.toContain('Cache-Control');
@@ -132,6 +117,9 @@ test('generates a complete versioned site without modifying the database', async
 			'/executables/:executable/']) {
 			expect(redirects).toContain(`${path} ${path.slice(0, -1)} 301`);
 		}
+		expect(redirects).toContain('/projects/* /identity.html 200');
+		expect(redirects).toContain('/executables/* /identity.html 200');
+		expect(redirects).toContain('/projects/:project/providers.json /projects/:project 301');
 		expect(redirects).not.toContain('{{release}}');
 
 		const second = join(root, 'second');
@@ -182,13 +170,18 @@ test('project link changes only invalidate the dataset', async () => {
 	}
 });
 
-test('failed builds do not publish partial files or staging directories', async () => {
+test('arbitrary identity names do not become static paths', async () => {
 	const fixture = await createFixture([provider('dot', '..', 'npm')]);
 	const root = await mkdtemp(join(tmpdir(), 'bnck-site-'));
 	try {
 		const output = join(root, 'site');
-		await expect(generateSite(fixture.path, output)).rejects.toThrow('static page path');
-		expect(await readdir(root)).toEqual([]);
+		await generateSite(fixture.path, output);
+		expect((await readFile(join(output, 'identity.html'))).length).toBeGreaterThan(0);
+		await expect(readFile(join(output, 'projects/dot.html'))).rejects.toThrow();
+		expect((await readdir(output)).sort()).toEqual([
+			'404.html', '_headers', '_redirects', 'about.html', 'assets', 'dataset.html', 'identity.html',
+			'index.html', 'short',
+		]);
 	} finally {
 		await fixture.cleanup();
 		await rm(root, { recursive: true, force: true });
@@ -217,9 +210,9 @@ test('live reload builds reference the development endpoint', async () => {
 	try {
 		const files = await buildSite(database, { liveReload: true });
 		const home = new TextDecoder().decode(files.get('index.html'));
-		const project = new TextDecoder().decode(files.get('projects/helix.html'));
+		const identity = new TextDecoder().decode(files.get('identity.html'));
 		expect(home).toContain("src='/__reload.js'");
-		expect(project).toContain("src='/__reload.js'");
+		expect(identity).toContain("src='/__reload.js'");
 	} finally {
 		database.close();
 		await fixture.cleanup();
