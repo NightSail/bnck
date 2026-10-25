@@ -13,6 +13,8 @@ const WEB_ROOT = import.meta.dir;
 const STYLE_PATH = join(WEB_ROOT, 'style.css');
 const REDIRECTS_PATH = join(WEB_ROOT, '_redirects');
 const BROWSER_ENTRYPOINTS = ['browser.ts', 'search.ts', 'exports.ts'].map((name) => join(WEB_ROOT, name));
+/* Cloudflare Workers rejects asset files larger than this. */
+const MAX_FILE_BYTES = 25 * 1024 * 1024;
 
 export interface BuildOptions {
 	liveReload?: boolean;
@@ -151,6 +153,9 @@ function addText(files: Map<string, Uint8Array>, path: string, content: string):
 
 function addBytes(files: Map<string, Uint8Array>, path: string, content: Uint8Array): void {
 	if (files.has(path)) throw new Error(`website file was generated twice: ${path}`);
+	if (content.length > MAX_FILE_BYTES) {
+		throw new Error(`website file ${path} is ${content.length} bytes; the host limits assets to ${MAX_FILE_BYTES}`);
+	}
 	files.set(path, content);
 }
 

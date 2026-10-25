@@ -46,6 +46,28 @@ test('project matrices group channels, sort packages, and mark exact coverage', 
 	}
 });
 
+test('large project coverage lists packages instead of a dense matrix', async () => {
+	const records = Array.from({ length: 101 }, (_, packageIndex) =>
+		Array.from({ length: 101 }, (_, executableIndex) =>
+			provider('large', `cmd-${executableIndex}`, 'debian', `pkg-${packageIndex}`))).flat();
+	const fixture = await createFixture(records);
+	const database = await WebsiteDatabase.open(fixture.path);
+	try {
+		const page = projectPage(database, 'large', context);
+		expect(page).not.toContain("class='matrix-executable'");
+		expect(page).not.toContain("class='matrix-scroll'");
+		expect(page).toContain("class='coverage-note'");
+		expect(page).toContain("class='provider-coverage'");
+		expect(page).toContain("id='executable-cmd-0'");
+		expect(page).toContain("href='/executables/cmd-100'");
+		expect(page.match(/class='coverage-package'/g)).toHaveLength(101);
+		expect(page.match(/class='coverage-executables'/g)).toHaveLength(101);
+	} finally {
+		database.close();
+		await fixture.cleanup();
+	}
+});
+
 test('project and executable pages escape names and encode path segments', async () => {
 	const executable = "<tool>&'";
 	const fixture = await createFixture([provider('tools', executable, 'npm', "@scope/<package>&'")]);

@@ -4,8 +4,10 @@ import type {
 	BrowserDataset,
 	BrowserProject,
 	ChannelGroup,
+	CoveragePackage,
 	ExecutableProvider,
 	PackageReference,
+	ProjectCoverage,
 	ProjectGroup,
 	ProjectMatrix,
 	ProjectProvider,
@@ -31,7 +33,7 @@ function shortSection(prefix: string, usage: ReadonlyMap<string, number>): Short
 	return { prefix, cells, used: cells.filter((cell) => cell.projects > 0).length };
 }
 
-export function buildProjectMatrix(providers: ProjectProvider[]): ProjectMatrix {
+export function buildProjectCoverage(providers: ProjectProvider[]): ProjectCoverage {
 	const packages = new Map<string, Set<string>>();
 	for (const provider of providers) {
 		const key = JSON.stringify([provider.channel, provider.package]);
@@ -40,15 +42,14 @@ export function buildProjectMatrix(providers: ProjectProvider[]): ProjectMatrix 
 		packages.set(key, executables);
 	}
 
-	/* Executable columns and package rows share one exact ordering. */
 	const executables = [...new Set([...packages.values()].flatMap((set) => [...set]))].sort(compareNames);
-	const channels = new Map<string, ProjectMatrix['channels'][number]['packages']>();
+	const channels = new Map<string, CoveragePackage[]>();
 	for (const [key, observedExecutables] of packages) {
 		const [channel, packageName] = JSON.parse(key) as [string, string];
 		const packagesInChannel = channels.get(channel) ?? [];
 		packagesInChannel.push({
 			reference: { url: canonicalPackageUrl(channel, packageName), name: packageName },
-			observed: executables.map((executable) => observedExecutables.has(executable)),
+			executables: [...observedExecutables].sort(compareNames),
 		});
 		channels.set(channel, packagesInChannel);
 	}
@@ -60,6 +61,25 @@ export function buildProjectMatrix(providers: ProjectProvider[]): ProjectMatrix 
 				packages: packages.sort((left, right) => compareNames(left.reference.name, right.reference.name)),
 			})),
 		executables,
+		cells: packages.size * executables.length,
+	};
+}
+
+/* Build the dense view only for projects whose coverage fits within the matrix limit. */
+export function denseProjectMatrix(coverage: ProjectCoverage): ProjectMatrix {
+	const executableIndexes = new Map(coverage.executables.map((name, index) => [name, index]));
+	return {
+		executables: coverage.executables,
+		channels: coverage.channels.map((channel) => ({
+			channel: channel.channel,
+			packages: channel.packages.map((packageReference) => {
+				const observed = new Array<boolean>(coverage.executables.length).fill(false);
+				for (const executable of packageReference.executables) {
+					observed[executableIndexes.get(executable)!] = true;
+				}
+				return { reference: packageReference.reference, observed };
+			}),
+		})),
 	};
 }
 

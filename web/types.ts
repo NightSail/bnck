@@ -102,6 +102,22 @@ export interface ChannelGroup {
 	packages: PackageReference[];
 }
 
+export interface ProjectCoverage {
+	channels: CoverageChannel[];
+	executables: string[];
+	cells: number;
+}
+
+export interface CoverageChannel {
+	channel: string;
+	packages: CoveragePackage[];
+}
+
+export interface CoveragePackage {
+	reference: PackageReference;
+	executables: string[];
+}
+
 export interface ProjectMatrix {
 	channels: MatrixChannel[];
 	executables: string[];

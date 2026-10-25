@@ -10,13 +10,13 @@ import {
 	countLabel,
 	coverageNote,
 	exportActions,
-	packageLink,
+	projectCoverage,
 	providerGroup,
 	searchForm,
 	searchResult,
 	stats,
 } from './components';
-import { buildProjectMatrix, groupExecutableProjects, shortSectionSlug } from './data';
+import { buildProjectCoverage, groupExecutableProjects, shortSectionSlug } from './data';
 import { encodeSegment, formatNumber } from './naming';
 import { html, raw, type Html } from './html';
 import { renderPage } from './layout';
@@ -304,8 +304,7 @@ ${renderShortSection(section, label, description)}`,
 
 export function projectPage(database: WebsiteDatabase, project: string, context: PageContext): string {
 	const links = database.projectLinks(project);
-	const providers = database.projectProviders(project);
-	const matrix = buildProjectMatrix(providers);
+	const coverage = buildProjectCoverage(database.projectProviders(project));
 	const associations = database.projectAssociations(project);
 	const references = associations
 		.filter((association) => association.role === 'reference')
@@ -335,45 +334,6 @@ export function projectPage(database: WebsiteDatabase, project: string, context:
 	</div>` : ''}
 </section>`
 		: '';
-	const providerSection = matrix.channels.length
-		? html`<p class='matrix-legend' id='matrix-legend'>
-	<span class='matrix-observed' aria-hidden='true'>✓</span> Observed in this package.
-	<span aria-hidden='true'>-</span> Not observed in this dataset.
-</p>
-<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
-	<table class='provider-matrix' aria-describedby='matrix-legend'>
-		<caption class='visually-hidden'>executable coverage for ${project}</caption>
-		<thead>
-			<tr>
-				<th class='matrix-name' scope='col'>package</th>
-				${matrix.executables.map((executable) => html`<th class='matrix-executable' scope='col'
-					id='executable-${executable}'>
-					<a class='related-name' href='/executables/${encodeSegment(executable)}'>
-						<code>${executable}</code>
-					</a>
-				</th>`)}
-			</tr>
-		</thead>
-		<tbody>
-			${matrix.channels.map((channel) => html`<tr>
-				<th class='matrix-channel' scope='rowgroup' colspan='${matrix.executables.length + 1}'>
-					<span class='matrix-channel-label'>${channelLabel(channel.channel)}</span>
-				</th>
-			</tr>
-			${channel.packages.map((packageReference) => html`<tr>
-				<th class='matrix-name' scope='row'>${packageLink(packageReference.reference, channel.channel)}</th>
-				${packageReference.observed.map((isObserved) => html`<td>
-					${isObserved
-						? html`<span class='matrix-observed' aria-hidden='true'>✓</span>
-							<span class='visually-hidden'>observed</span>`
-						: html`<span class='muted' aria-hidden='true'>-</span>
-							<span class='visually-hidden'>not observed</span>`}
-				</td>`)}
-			</tr>`)}`)}
-		</tbody>
-	</table>
-</div>`
-		: html`<p class='detail-note'>No current channel packages are curated for this project.</p>`;
 	return renderPage({
 		title: `project: ${project}`,
 		applicationAssets: context.applicationAssets,
@@ -395,7 +355,7 @@ ${associationSection}
 		<h2 id='providers-title'>executables</h2>
 		${exportActions(`/projects/${encodeSegment(project)}/providers.json`)}
 	</div>
-	${providerSection}
+	${projectCoverage(project, coverage)}
 </section>
 ${coverageNote()}`,
 	});

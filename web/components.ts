@@ -1,10 +1,13 @@
-import { channelLabel } from './config';
+import { PROJECT_MATRIX_CELL_LIMIT, channelLabel } from './config';
+import { denseProjectMatrix } from './data';
 import { encodeSegment, formatNumber, foldAscii } from './naming';
 import { html, Html } from './html';
 import type {
 	ChannelGroup,
 	DatasetStats,
 	PackageReference,
+	ProjectCoverage,
+	ProjectMatrix,
 	SearchRelation,
 	SearchResult,
 } from './types';
@@ -46,6 +49,102 @@ export function packageLink(packageReference: PackageReference, channel: string)
 		aria-label='${packageReference.name} on ${channelLabel(channel)} (external package page)'>
 		<code>${packageReference.name}</code><span aria-hidden='true'>↗</span>
 	</a>`;
+}
+
+export function projectCoverage(project: string, coverage: ProjectCoverage): Html {
+	if (!coverage.channels.length) {
+		return html`<p class='detail-note'>No current channel packages are curated for this project.</p>`;
+	}
+	if (coverage.cells <= PROJECT_MATRIX_CELL_LIMIT) {
+		return coverageMatrix(project, denseProjectMatrix(coverage));
+	}
+	return coveragePackages(project, coverage);
+}
+
+function coverageMatrix(project: string, matrix: ProjectMatrix): Html {
+	return html`<p class='matrix-legend' id='matrix-legend'>
+	<span class='matrix-observed' aria-hidden='true'>✓</span> Observed in this package.
+	<span aria-hidden='true'>-</span> Not observed in this dataset.
+</p>
+<div class='matrix-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
+	<table class='provider-matrix' aria-describedby='matrix-legend'>
+		<caption class='visually-hidden'>executable coverage for ${project}</caption>
+		<thead>
+			<tr>
+				<th class='matrix-name' scope='col'>package</th>
+				${matrix.executables.map((executable) => html`<th class='matrix-executable' scope='col'
+					id='executable-${executable}'>
+					<a class='related-name' href='/executables/${encodeSegment(executable)}'>
+						<code>${executable}</code>
+					</a>
+				</th>`)}
+			</tr>
+		</thead>
+		<tbody>
+			${matrix.channels.map((channel) => html`<tr>
+				<th class='matrix-channel' scope='rowgroup' colspan='${matrix.executables.length + 1}'>
+					<span class='matrix-channel-label'>${channelLabel(channel.channel)}</span>
+				</th>
+			</tr>
+			${channel.packages.map((packageReference) => html`<tr>
+				<th class='matrix-name' scope='row'>${packageLink(packageReference.reference, channel.channel)}</th>
+				${packageReference.observed.map((isObserved) => html`<td>
+					${isObserved
+						? html`<span class='matrix-observed' aria-hidden='true'>✓</span>
+							<span class='visually-hidden'>observed</span>`
+						: html`<span class='muted' aria-hidden='true'>-</span>
+							<span class='visually-hidden'>not observed</span>`}
+				</td>`)}
+			</tr>`)}`)}
+		</tbody>
+	</table>
+</div>`;
+}
+
+function coveragePackages(project: string, coverage: ProjectCoverage): Html {
+	const packageCount = coverage.channels.reduce((count, channel) => count + channel.packages.length, 0);
+	return html`<p class='matrix-legend' id='matrix-legend'>
+	Each package lists the executable names observed in it. A name absent from a package is not observed in this
+	dataset.
+</p>
+<p class='coverage-note'>This project has ${countLabel(coverage.executables.length, 'executable')} across
+	${countLabel(packageCount, 'package')}. Coverage is listed by package instead of as a single matrix.</p>
+<section class='executable-index' aria-labelledby='executable-index-title'>
+	<h3 id='executable-index-title'>executables</h3>
+	<ul class='executable-index-list'>
+		${coverage.executables.map((executable) => html`<li>
+			<a class='related-name' id='executable-${executable}'
+				href='/executables/${encodeSegment(executable)}'><code>${executable}</code></a>
+		</li>`)}
+	</ul>
+</section>
+<div class='coverage-scroll' role='region' aria-labelledby='providers-title' tabindex='0'>
+	<table class='provider-coverage' aria-describedby='matrix-legend'>
+		<caption class='visually-hidden'>executable coverage for ${project}</caption>
+		<thead>
+			<tr><th scope='col'>package</th><th scope='col'>observed executables</th></tr>
+		</thead>
+		<tbody>
+			${coverage.channels.map((channel) => html`<tr>
+				<th class='coverage-channel' scope='rowgroup' colspan='2'>
+					<span class='matrix-channel-label'>${channelLabel(channel.channel)}</span>
+				</th>
+			</tr>
+			${channel.packages.map((packageReference) => html`<tr>
+				<th class='coverage-package' scope='row'>
+					${packageLink(packageReference.reference, channel.channel)}
+				</th>
+				<td>
+					<ul class='coverage-executables'>
+						${packageReference.executables.map((executable) => html`<li>
+							<a class='related-name' href='/executables/${encodeSegment(executable)}'><code>${executable}</code></a>
+						</li>`)}
+					</ul>
+				</td>
+			</tr>`)}`)}
+		</tbody>
+	</table>
+</div>`;
 }
 
 export function providerGroup(name: string, kind: 'project' | 'executable', channels: ChannelGroup[]): Html {

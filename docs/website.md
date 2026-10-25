@@ -11,14 +11,16 @@ Identity pages, dataset information, and JSON views are static and work without 
 - Home: Search entry point, a featured project, dataset counts, and browse links
 - Search: Executable names and project IDs grouped by owning project, with highlighted matches, executable links, per-executable channels, and pagination
 - Executable: All projects providing the exact command name, their channel packages, and separate reference and implementation associations
-- Project: A coverage matrix of exact executable names and channel packages, curated name associations, and curator-supplied links
+- Project: Package coverage of exact executable names, curated name associations, and curator-supplied links
 - Dataset: Field definitions, counts by channel, coverage limits, release identifier and date, release links, artifact downloads, and license
 - Short: Separate pages for every two- and three-letter lowercase name, linked from section navigation
 - About: Lookup behavior, data sources and limits, and links to source code, issues, releases, contributing guidance, and license
 
 The short name map lists `aa` through `zz` at `/short/2`, with one page per leading letter for three-letter names at `/short/a` through `/short/z`. Each page links to every section and marks its own. Names seen in at least one project link to their executable pages; unseen names remain plain.
 
-Project pages use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Checkmarks identify executables observed in each package; hyphens mean not observed in this dataset, not unavailable. The matrix scrolls horizontally on narrow screens while keeping package names and channel headings visible. Package links show the exact channel-native name and point to current external channel pages, not acquisition evidence or installation instructions.
+Project pages normally use one coverage matrix: packages as rows grouped under channel headings, executable names as columns. Checkmarks identify executables observed in each package; hyphens mean not observed in this dataset, not unavailable. The matrix scrolls horizontally on narrow screens while keeping package names and channel headings visible. Package links show the exact channel-native name and point to current external channel pages, not acquisition evidence or installation instructions.
+
+A project with more than 10,000 package/name combinations uses a sparse coverage view instead: an alphabetical executable index, then one row per package listing only the executable names observed in it. The same per-executable anchors remain available. This avoids a dense cross-product that can exceed static host asset limits; absence still means not observed in this dataset.
 
 ## Search contract
 
@@ -121,7 +123,7 @@ The `Site` workflow builds and deploys the output from a released SQLite artifac
 
 Identity pages are `projects/{project}.html` and `executables/{executable}.html`, with exports in `projects/{project}/providers.json` and `executables/{executable}/providers.json`; the root contains `index.html`, `about.html`, `dataset.html`, `short/2.html`, `short/{letter}.html`, `404.html`, `_headers`, `_redirects`, and the content-addressed `assets/` directory.
 
-Serve the site from an origin root on a case-sensitive filesystem or host. Extensionless HTML file lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Trailing slashes on leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite. Names that cannot safely become static path components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages.
+Serve the site from an origin root on a case-sensitive filesystem or host. Extensionless HTML file lookup must resolve `/projects/{project}`, `/executables/{executable}`, `/dataset`, `/short/2`, `/short/{letter}`, and `/about` from their `.html` files; directory index lookup must resolve `/` from `index.html`. Trailing slashes on leaf pages redirect to their file paths. Preserve exact case and decode percent-encoded UTF-8 path segments once. Configure `404.html` as the error page, not a catch-all rewrite. Names that cannot safely become static path components, and case collisions on a case-insensitive build filesystem, fail generation rather than overwrite pages. Generation also fails if any output file exceeds the host's 25 MiB asset limit.
 
 The generated `_headers` file supplies settings for hosts supporting that convention; others must configure equivalents:
 
