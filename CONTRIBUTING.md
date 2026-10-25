@@ -1,6 +1,57 @@
 # Contributing
 
-Covers development, acquisition jobs, curations, release publication, and the website. See [README.md](README.md) for the project overview and artifact usage.
+Covers curations, development, acquisition jobs, release publication, and the website. See [README.md](README.md) for the project overview and artifact usage.
+
+## Curations
+
+Project definitions, package ownership rules, and name associations live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, name associations, and validation requirements. The [curation guide](docs/curation-guide.md) defines inclusion criteria, evidence standards, correction rules, and the review checklist.
+
+Curators can propose changes by editing the relevant files under `curations/` and opening a pull request; no build is required to start. Every new rule needs a specific reason and durable public evidence. Validate with `just generate` when acquisition data covers the affected channel, or state the missing validation in the pull request.
+
+### Hint ingestion
+
+Normalized Terminal Trove and tldr hints live under `var/hints/`. Preview automatic project creation and package extension from local acquisitions:
+
+```sh
+just ingest-hints
+```
+
+Apply the same plan and write an audit report:
+
+```sh
+just apply-hints
+```
+
+The command requires URL identity and package or executable evidence, skips packages already claimed by a curation, and does not rewrite existing project metadata. Review the preview before applying, especially when a hint batch is large. Add reviewed exceptions to `curations/rejections.toml`; see [hint rejections](docs/curations.md#hint-rejections).
+
+### Suggestions
+
+Find acquired packages that may belong to a project:
+
+```sh
+cargo run -- suggest-packages \
+	--name ripgrep \
+	--homepage https://burntsushi.net/ripgrep/ \
+	--repository https://github.com/BurntSushi/ripgrep
+```
+
+Find curated or metadata-derived projects that may own a package:
+
+```sh
+cargo run -- suggest-projects --channel debian --package ripgrep
+```
+
+Report unowned language-registry packages related to existing projects:
+
+```sh
+cargo run -- suggest-registry-packages --output var/registry-suggestions.json
+```
+
+Review the evidence and upstream identity before adding attributions. Name matches and copied repository URLs alone do not establish ownership. Suggestions rank results by canonical repository and homepage URLs, package and source-package names, executable names, and existing curation ownership, and report the matching evidence. The commands read only local acquisition and curation data.
+
+## Curation diagnostics
+
+`just generate` and `just release` write acquisition diagnostics to `var/diagnostics/report.json` and compare against `var/diagnostics/baseline.json`. The first run creates the baseline. Warnings report new or removed executables, changed package sets, projects without observed packages, and project metadata conflicts; they do not block generation. Pass `--baseline` a previous acquisitions or release directory to compare against a fixed historical state without updating it.
 
 ## Development checks
 
@@ -80,57 +131,6 @@ just stats
 ```
 
 Fetch jobs end with the on-disk size of the inputs they retain; import, generate, and release jobs end with the size of the artifacts they write. Each summary line names the path and its IEC size.
-
-## Curation diagnostics
-
-`just generate` and `just release` write acquisition diagnostics to `var/diagnostics/report.json` and compare against `var/diagnostics/baseline.json`. The first run creates the baseline. Warnings report new or removed executables, changed package sets, projects without observed packages, and project metadata conflicts; they do not block generation. Pass `--baseline` a previous acquisitions or release directory to compare against a fixed historical state without updating it.
-
-## Curations
-
-Project definitions, package ownership rules, and name associations live under `curations/`. The [curation format](docs/curations.md) documents their schema, exceptional executable rules, name associations, and validation requirements. The [curation guide](docs/curation-guide.md) defines inclusion criteria, evidence standards, correction rules, and the review checklist.
-
-Curators can propose changes by editing the relevant files under `curations/` and opening a pull request; no build is required to start. Every new rule needs a specific reason and durable public evidence. Validate with `just generate` when acquisition data covers the affected channel, or state the missing validation in the pull request.
-
-### Hint ingestion
-
-Normalized Terminal Trove and tldr hints live under `var/hints/`. Preview automatic project creation and package extension from local acquisitions:
-
-```sh
-just ingest-hints
-```
-
-Apply the same plan and write an audit report:
-
-```sh
-just apply-hints
-```
-
-The command requires URL identity and package or executable evidence, skips packages already claimed by a curation, and does not rewrite existing project metadata. Review the preview before applying, especially when a hint batch is large. Add reviewed exceptions to `curations/rejections.toml`; see [hint rejections](docs/curations.md#hint-rejections).
-
-### Suggestions
-
-Find acquired packages that may belong to a project:
-
-```sh
-cargo run -- suggest-packages \
-	--name ripgrep \
-	--homepage https://burntsushi.net/ripgrep/ \
-	--repository https://github.com/BurntSushi/ripgrep
-```
-
-Find curated or metadata-derived projects that may own a package:
-
-```sh
-cargo run -- suggest-projects --channel debian --package ripgrep
-```
-
-Report unowned language-registry packages related to existing projects:
-
-```sh
-cargo run -- suggest-registry-packages --output var/registry-suggestions.json
-```
-
-Review the evidence and upstream identity before adding attributions. Name matches and copied repository URLs alone do not establish ownership. Suggestions rank results by canonical repository and homepage URLs, package and source-package names, executable names, and existing curation ownership, and report the matching evidence. The commands read only local acquisition and curation data.
 
 ## Release artifacts
 
