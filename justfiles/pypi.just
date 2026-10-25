@@ -12,6 +12,7 @@ fetch-pypi package:
     mkdir -p "$input/simple" "$input/plans" "$input/wheels"
     {{ context }} reset "$context"
     curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
         --header 'Accept: application/vnd.pypi.simple.v1+json' \
         --output "$input/simple/$package.json" \
         "https://pypi.org/simple/$package/"
@@ -24,7 +25,7 @@ fetch-pypi package:
     {{ context }} input "$context" "$input/plans/$package.tsv" '' 'text/tab-separated-values' \
         "$retrieved_at" '' '' ''
     while IFS=$'\t' read -r url output; do
-        curl --fail --location --retry 3 --continue-at - --output "$output" "$url"
+        curl --fail --location --retry 3 --user-agent '{{ bnck_user_agent }}' --continue-at - --output "$output" "$url"
         {{ context }} input "$context" "$output" "$url" 'application/zip' "$retrieved_at" '' '' ''
     done < "$input/plans/$package.tsv"
     {{ size }} 'Pulled into {{ pypi_input }}' '{{ pypi_input }}'
@@ -77,7 +78,7 @@ fetch-pypi-wheels snapshot:
     while IFS=$'\t' read -r url output; do
         if test ! -f "$output"; then
             curl --fail --location --retry 3 --connect-timeout 20 --max-time 600 \
-                --proto '=https' --proto-redir '=https' --output "$output.tmp" "$url"
+                --user-agent '{{ bnck_user_agent }}' --proto '=https' --proto-redir '=https' --output "$output.tmp" "$url"
             mv "$output.tmp" "$output"
         fi
         {{ context }} input "$context" "$output" "$url" 'application/zip' "$retrieved_at" '' '' ''

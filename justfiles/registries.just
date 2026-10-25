@@ -16,6 +16,7 @@ fetch-registry-plan channel downloads:
         fi
         if ! status="$(curl --fail-with-body --location --compressed --retry 3 --connect-timeout 20 --max-time 180 \
             --proto '=https' --proto-redir '=https' --header "$header" \
+            --user-agent '{{ bnck_user_agent }}' \
             --write-out '%{http_code}' --output "$output.tmp" "$url")"; then
             case "$status" in
                 404|410) printf 'Metadata unavailable: %s (HTTP %s)\n' "$url" "$status" >&2 ;;

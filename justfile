@@ -8,6 +8,8 @@ diagnostics_baseline := 'var/diagnostics/baseline.json'
 # Report the on-disk size of a job's fetched inputs or written artifacts.
 size := justfile_directory() + '/justfiles/size.sh'
 context := justfile_directory() + '/justfiles/context.sh'
+bnck_revision := shell('git -C ' + quote(justfile_directory()) + ' rev-parse HEAD')
+bnck_user_agent := env_var_or_default('BNCK_USER_AGENT', 'bnck/' + bnck_revision + ' (+https://github.com/NightSail/bnck)')
 
 import 'justfiles/arch.just'
 import 'justfiles/crates.just'

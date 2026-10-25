@@ -12,7 +12,7 @@ fetch-homebrew:
     {{ context }} reset "$context"
     for kind in formula cask; do
         url='{{ homebrew_api }}/'"$kind.json"
-        curl --fail --location --retry 3 --output "$input/$kind.json" "$url"
+        curl --fail --location --retry 3 --user-agent '{{ bnck_user_agent }}' --output "$input/$kind.json" "$url"
         {{ context }} input "$context" "$input/$kind.json" "$url" 'application/json' "$retrieved_at" '' '' ''
     done
     {{ size }} 'Pulled into {{ homebrew_input }}' '{{ homebrew_input }}'

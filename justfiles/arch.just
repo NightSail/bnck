@@ -17,6 +17,7 @@ fetch-arch:
             output="$input/archives/$repository.$database"
             url='{{ arch_mirror }}/'"$repository/os/{{ arch_arch }}/$repository.$database"
             curl --fail --location --retry 3 \
+                --user-agent '{{ bnck_user_agent }}' \
                 --dump-header "$header" \
                 --output "$output" \
                 "$url"

@@ -14,6 +14,7 @@ fetch-fedora:
     mkdir -p "$input/repodata"
     {{ context }} reset "$context"
     curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
         --output "$input/repomd.xml" \
         '{{ fedora_base_url }}/repodata/repomd.xml'
     {{ context }} input "$context" "$input/repomd.xml" \
@@ -24,7 +25,7 @@ fetch-fedora:
         --output-directory "$input/repodata" \
         --output "$input/downloads.tsv"
     while IFS=$'\t' read -r url output; do
-        curl --fail --location --retry 3 --continue-at - --output "$output" "$url"
+        curl --fail --location --retry 3 --user-agent '{{ bnck_user_agent }}' --continue-at - --output "$output" "$url"
         case "$output" in
             *.zst|*.zstd) media_type='application/zstd' ;;
             *.gz) media_type='application/gzip' ;;

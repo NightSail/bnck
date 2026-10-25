@@ -80,6 +80,8 @@ test('argument-free fetch and import use one planned snapshot, never the old per
 	for (const request of requests) {
 		expect(request).toContain('--compressed');
 		expect(request[request.indexOf('--retry') + 1]).toBe('3');
+		expect(request[request.indexOf('--user-agent') + 1])
+			.toMatch(/^bnck\/[0-9a-f]{40} \(\+https:\/\/github\.com\/NightSail\/bnck\)$/);
 	}
 	writeFileSync(log, '');
 	const imported = run(['import-npm']);
@@ -89,6 +91,17 @@ test('argument-free fetch and import use one planned snapshot, never the old per
 		'--output', 'var/acquired/npm.jsonl', '--context', `${snapshot}/acquisition-context.tsv`,
 		'--scope', 'registry=https://registry.npmjs.org', '--scope', 'release-policy=latest-dist-tag']]);
 	expect(readFileSync(join(inputs, 'eslint.json'), 'utf8')).toBe('old demo cache');
+});
+
+test('acquisition requests allow a User-Agent override', () => {
+	const snapshot = join(root, 'user agent');
+	const agent = 'bnck/test (+https://example.test/contact)';
+	expect(run(['fetch-npm', snapshot], { BNCK_USER_AGENT: agent }).exitCode).toBe(0);
+	const requests = commands().filter((call) => call[0] === 'curl');
+	expect(requests.length).toBe(2);
+	for (const request of requests) {
+		expect(request[request.indexOf('--user-agent') + 1]).toBe(agent);
+	}
 });
 
 test('fresh runs refresh selected releases and retain previous snapshots', () => {

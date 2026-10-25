@@ -12,6 +12,7 @@ fetch-crates-dump directory=crates_dump_directory:
     mkdir "$directory"
     {{ context }} reset "$context"
     curl --fail --location --retry 3 --connect-timeout 20 \
+        --user-agent '{{ bnck_user_agent }}' \
         --output "$directory/db-dump.tar.gz.tmp" \
         '{{ crates_dump_url }}'
     mv "$directory/db-dump.tar.gz.tmp" "$directory/db-dump.tar.gz"

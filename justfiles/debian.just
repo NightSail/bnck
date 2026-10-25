@@ -32,7 +32,9 @@ _fetch-debian-keys:
     temporary="$(mktemp "${output}.XXXXXX")"
     trap 'rm -f "$temporary"' EXIT
     for key in "${keys[@]}"; do
-        curl --fail --location --retry 3 "$base/$key" | gpg --dearmor >> "$temporary"
+        curl --fail --location --retry 3 \
+            --user-agent '{{ bnck_user_agent }}' \
+            "$base/$key" | gpg --dearmor >> "$temporary"
     done
     test -s "$temporary"
     chmod 644 "$temporary"
@@ -58,7 +60,10 @@ _fetch-debian-suite suite input:
         exit 1
     }
     {{ context }} reset "$context"
-    curl --fail --location --retry 3         --output "$input/InRelease"         "$base/dists/$suite/InRelease"
+    curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
+        --output "$input/InRelease" \
+        "$base/dists/$suite/InRelease"
     status="$input/gpgv.status"
     if ! gpgv --status-fd 1 --keyring "$keyring" "$input/InRelease" > "$status" 2> "$input/gpgv.err"; then
         cat "$input/gpgv.err" >&2
@@ -68,13 +73,25 @@ _fetch-debian-suite suite input:
     test -n "$signer"
     rm -f "$status" "$input/gpgv.err"
     {{ context }} input "$context" "$input/InRelease"         "$base/dists/$suite/InRelease" 'application/pgp-signature' "$retrieved_at" openpgp verified "$signer"
-    curl --fail --location --retry 3         --output "$input/Packages.xz"         "$base/dists/$suite/$component/binary-$architecture/Packages.xz"
+    curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
+        --output "$input/Packages.xz" \
+        "$base/dists/$suite/$component/binary-$architecture/Packages.xz"
     {{ context }} input "$context" "$input/Packages.xz"         "$base/dists/$suite/$component/binary-$architecture/Packages.xz" 'application/x-xz'         "$retrieved_at" '' '' ''
-    curl --fail --location --retry 3         --output "$input/Sources.xz"         "$base/dists/$suite/$component/source/Sources.xz"
+    curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
+        --output "$input/Sources.xz" \
+        "$base/dists/$suite/$component/source/Sources.xz"
     {{ context }} input "$context" "$input/Sources.xz"         "$base/dists/$suite/$component/source/Sources.xz" 'application/x-xz'         "$retrieved_at" '' '' ''
-    curl --fail --location --retry 3         --output "$input/Contents.gz"         "$base/dists/$suite/$component/Contents-$architecture.gz"
+    curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
+        --output "$input/Contents.gz" \
+        "$base/dists/$suite/$component/Contents-$architecture.gz"
     {{ context }} input "$context" "$input/Contents.gz"         "$base/dists/$suite/$component/Contents-$architecture.gz" 'application/gzip'         "$retrieved_at" '' '' ''
-    curl --fail --location --retry 3         --output "$input/Contents-all.gz"         "$base/dists/$suite/$component/Contents-all.gz"
+    curl --fail --location --retry 3 \
+        --user-agent '{{ bnck_user_agent }}' \
+        --output "$input/Contents-all.gz" \
+        "$base/dists/$suite/$component/Contents-all.gz"
     {{ context }} input "$context" "$input/Contents-all.gz"         "$base/dists/$suite/$component/Contents-all.gz" 'application/gzip'         "$retrieved_at" '' '' ''
     xz -dc "$input/Packages.xz" > "$input/Packages"
     xz -dc "$input/Sources.xz" > "$input/Sources"
