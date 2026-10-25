@@ -53,10 +53,6 @@ name = 'kwin'
 
 [[package]]
 channel = 'arch'
-name = 'kwin-x11'
-
-[[package]]
-channel = 'arch'
 name = 'libkscreen'
 
 [[package]]
@@ -126,7 +122,3 @@ name = 'systemsettings'
 [[package]]
 channel = 'arch'
 name = 'union'
-
-[[package]]
-channel = 'arch'
-name = 'wacomtablet'

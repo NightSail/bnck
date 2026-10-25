@@ -4,10 +4,6 @@ name = 'pyfiglet'
 homepage = 'https://github.com/pwaller/pyfiglet'
 
 [[package]]
-channel = 'arch'
-name = 'python-pyfiglet'
-
-[[package]]
 channel = 'debian'
 name = 'python3-pyfiglet'
 

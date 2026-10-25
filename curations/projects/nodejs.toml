@@ -9,10 +9,6 @@ name = 'nodejs'
 
 [[package]]
 channel = 'arch'
-name = 'nodejs-lts-iron'
-
-[[package]]
-channel = 'arch'
 name = 'nodejs-lts-jod'
 
 [[package]]

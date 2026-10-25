@@ -1,8 +1,0 @@
-id = 'dgop'
-name = 'dgop'
-
-homepage = 'https://github.com/AvengeMedia/dgop'
-
-[[package]]
-channel = 'arch'
-name = 'dgop'

@@ -8,10 +8,6 @@ channel = 'arch'
 name = 'mutter'
 
 [[package]]
-channel = 'arch'
-name = 'mutter46'
-
-[[package]]
 channel = 'debian'
 name = 'mutter'
 

@@ -1,8 +1,8 @@
 id = 'buildbtw-poc'
-name = 'buildbtw-poc'
+name = 'buildbtw'
 
 homepage = 'https://gitlab.archlinux.org/archlinux/buildbtw'
 
 [[package]]
 channel = 'arch'
-name = 'buildbtw-poc'
+name = 'buildbtw-client'
