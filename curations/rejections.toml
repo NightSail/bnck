@@ -7,928 +7,844 @@
 [[rejection]]
 key = 'chiselapp.com/user/MistressRemilia/repository/benben'
 source = 'terminaltrove:benben'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches benben at chiselapp.com/user/MistressRemilia/repository/benben.'
 
 # terminaltrove: cobib
 [[rejection]]
 key = 'cobib.gitlab.io/cobib/cobib.html'
 source = 'terminaltrove:cobib'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: coderabbit
-[[rejection]]
-key = 'coderabbit.link/terminaltrove'
-source = 'terminaltrove:coderabbit'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: gitlab-cli
-[[rejection]]
-key = 'docs.gitlab.com/cli'
-source = 'terminaltrove:gitlab-cli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cobib at cobib.gitlab.io/cobib/cobib.html.'
 
 # terminaltrove: auggie
 [[rejection]]
 key = 'fandf.co/3JFejdh'
 source = 'terminaltrove:auggie'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: depot
-[[rejection]]
-key = 'fandf.co/48yzJm7'
-source = 'terminaltrove:depot'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches auggie at fandf.co/3JFejdh.'
 
 # terminaltrove: fnc
 [[rejection]]
 key = 'fnc.bsdbox.org/index'
 source = 'terminaltrove:fnc'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches fnc at fnc.bsdbox.org/index.'
 
 # terminaltrove: gotp
 [[rejection]]
 key = 'git.sr.ht/~shulhan/gotp'
 source = 'terminaltrove:gotp'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gotp at git.sr.ht/~shulhan/gotp.'
 
 # terminaltrove: golazo
 [[rejection]]
 key = 'github.com/0xjuanma/golazo'
 source = 'terminaltrove:golazo'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches golazo at github.com/0xjuanma/golazo.'
 
 # terminaltrove: eddy
 [[rejection]]
 key = 'github.com/70sh1/eddy'
 source = 'terminaltrove:eddy'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches eddy at github.com/70sh1/eddy.'
 
 # terminaltrove: ghgrab
 [[rejection]]
 key = 'github.com/abhixdd/ghgrab'
 source = 'terminaltrove:ghgrab'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches ghgrab at github.com/abhixdd/ghgrab.'
 
 # terminaltrove: gitpane
 [[rejection]]
 key = 'github.com/affromero/gitpane'
 source = 'terminaltrove:gitpane'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gitpane at github.com/affromero/gitpane.'
 
 # terminaltrove: gpterminator
 [[rejection]]
 key = 'github.com/aineejames/chatgpterminator'
 source = 'terminaltrove:gpterminator'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gpterminator at github.com/aineejames/chatgpterminator.'
 
 # terminaltrove: gistui
 [[rejection]]
 key = 'github.com/akunzai/gistui'
 source = 'terminaltrove:gistui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gistui at github.com/akunzai/gistui.'
 
 # terminaltrove: dawn
 [[rejection]]
 key = 'github.com/andrewmd5/dawn'
 source = 'terminaltrove:dawn'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The only match is Debian dawn-tools, a WebGPU shader compiler, not this writing tool.'
 
 # terminaltrove: amux
 [[rejection]]
 key = 'github.com/andyrewlee/amux'
 source = 'terminaltrove:amux'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches amux at github.com/andyrewlee/amux.'
 
 # terminaltrove: envfetch
 [[rejection]]
 key = 'github.com/ankddev/envfetch'
 source = 'terminaltrove:envfetch'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: claude-code
-[[rejection]]
-key = 'github.com/anthropics/claude-code'
-source = 'terminaltrove:claude-code'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: cronboard
-[[rejection]]
-key = 'github.com/antoniorodr/cronboard'
-source = 'terminaltrove:cronboard'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches envfetch at github.com/ankddev/envfetch.'
 
 # terminaltrove: calcure
 [[rejection]]
 key = 'github.com/anufrievroman/calcure'
 source = 'terminaltrove:calcure'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches calcure at github.com/anufrievroman/calcure.'
 
 # terminaltrove: aic
 [[rejection]]
 key = 'github.com/arimxyer/aic'
 source = 'terminaltrove:aic'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired aic executable belongs to aicommits, a different project.'
 
 # terminaltrove: deadbranch
 [[rejection]]
 key = 'github.com/armgabrielyan/deadbranch'
 source = 'terminaltrove:deadbranch'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: carl
-[[rejection]]
-key = 'github.com/b1rger/carl'
-source = 'terminaltrove:carl'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches deadbranch at github.com/armgabrielyan/deadbranch.'
 
 # terminaltrove: dotbins
 [[rejection]]
 key = 'github.com/basnijholt/dotbins'
 source = 'terminaltrove:dotbins'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dotbins at github.com/basnijholt/dotbins.'
 
 # terminaltrove: apw
 [[rejection]]
 key = 'github.com/bendews/apw'
 source = 'terminaltrove:apw'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches apw at github.com/bendews/apw.'
 
 # terminaltrove: cliamp
 [[rejection]]
 key = 'github.com/bjarneo/cliamp'
 source = 'terminaltrove:cliamp'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cliamp at github.com/bjarneo/cliamp.'
 
 # terminaltrove: cy
 [[rejection]]
 key = 'github.com/cfoust/cy'
 source = 'terminaltrove:cy'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cy at github.com/cfoust/cy.'
 
 # terminaltrove: eilmeldung
 [[rejection]]
 key = 'github.com/christo-auer/eilmeldung'
 source = 'terminaltrove:eilmeldung'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches eilmeldung at github.com/christo-auer/eilmeldung.'
 
 # terminaltrove: claws
 [[rejection]]
 key = 'github.com/clawscli/claws'
 source = 'terminaltrove:claws'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches claws at github.com/clawscli/claws.'
 
 # terminaltrove: cointop
 [[rejection]]
 key = 'github.com/cointop-sh/cointop'
 source = 'terminaltrove:cointop'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package provides cointop; tldr documents the command but is not package evidence.'
 
 # terminaltrove: gitsnip
 [[rejection]]
 key = 'github.com/dagimg-dot/gitsnip'
 source = 'terminaltrove:gitsnip'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gitsnip at github.com/dagimg-dot/gitsnip.'
 
 # terminaltrove: codemark
 [[rejection]]
 key = 'github.com/danielcardonarojas/codemark'
 source = 'terminaltrove:codemark'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches codemark at github.com/danielcardonarojas/codemark.'
 
 # terminaltrove: elia
 [[rejection]]
 key = 'github.com/darrenburns/elia'
 source = 'terminaltrove:elia'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches elia at github.com/darrenburns/elia.'
 
 # terminaltrove: docfd
 [[rejection]]
 key = 'github.com/darrenldl/docfd'
 source = 'terminaltrove:docfd'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches docfd at github.com/darrenldl/docfd.'
 
 # terminaltrove: braindrop
 [[rejection]]
 key = 'github.com/davep/braindrop'
 source = 'terminaltrove:braindrop'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches braindrop at github.com/davep/braindrop.'
 
 # terminaltrove: dhv
 [[rejection]]
 key = 'github.com/davep/dhv'
 source = 'terminaltrove:dhv'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dhv at github.com/davep/dhv.'
 
 # terminaltrove: datui
 [[rejection]]
 key = 'github.com/derekwisong/datui'
 source = 'terminaltrove:datui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches datui at github.com/derekwisong/datui.'
 
 # terminaltrove: act3
 [[rejection]]
 key = 'github.com/dhth/act3'
 source = 'terminaltrove:act3'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches act3 at github.com/dhth/act3.'
 
 # terminaltrove: bmm
 [[rejection]]
 key = 'github.com/dhth/bmm'
 source = 'terminaltrove:bmm'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches bmm at github.com/dhth/bmm.'
 
 # terminaltrove: cueitup
 [[rejection]]
 key = 'github.com/dhth/cueitup'
 source = 'terminaltrove:cueitup'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cueitup at github.com/dhth/cueitup.'
 
 # terminaltrove: ecscope
 [[rejection]]
 key = 'github.com/dhth/ecscope'
 source = 'terminaltrove:ecscope'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches ecscope at github.com/dhth/ecscope.'
 
 # terminaltrove: cheznav
 [[rejection]]
 key = 'github.com/djetelina/cheznav'
 source = 'terminaltrove:cheznav'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cheznav at github.com/djetelina/cheznav.'
 
 # terminaltrove: gh-dash
 [[rejection]]
 key = 'github.com/dlvhdr/gh-dash'
 source = 'terminaltrove:gh-dash'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gh-dash at github.com/dlvhdr/gh-dash.'
 
 # terminaltrove: cloctui
 [[rejection]]
 key = 'github.com/edward-jazzhands/cloctui'
 source = 'terminaltrove:cloctui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: elio
-[[rejection]]
-key = 'github.com/elio-fm/elio'
-source = 'terminaltrove:elio'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cloctui at github.com/edward-jazzhands/cloctui.'
 
 # terminaltrove: awsesh
 [[rejection]]
 key = 'github.com/elva-labs/awsesh'
 source = 'terminaltrove:awsesh'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches awsesh at github.com/elva-labs/awsesh.'
 
 # terminaltrove: basalt
 [[rejection]]
 key = 'github.com/erikjuhani/basalt'
 source = 'terminaltrove:basalt'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches basalt at github.com/erikjuhani/basalt.'
 
 # terminaltrove: gptop
 [[rejection]]
 key = 'github.com/evilsocket/gptop'
 source = 'terminaltrove:gptop'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gptop at github.com/evilsocket/gptop.'
 
 # terminaltrove: celerator
 [[rejection]]
 key = 'github.com/f4rih/celerator'
 source = 'terminaltrove:celerator'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches celerator at github.com/f4rih/celerator.'
 
 # terminaltrove: artui
 [[rejection]]
 key = 'github.com/fjonasalice/artui'
 source = 'terminaltrove:artui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches artui at github.com/fjonasalice/artui.'
 
 # terminaltrove: fli
 [[rejection]]
 key = 'github.com/fractalops/fli'
 source = 'terminaltrove:fli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches fli at github.com/fractalops/fli.'
 
 # terminaltrove: basilk
 [[rejection]]
 key = 'github.com/gabalpha/basilk'
 source = 'terminaltrove:basilk'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches basilk at github.com/gabalpha/basilk.'
 
 # terminaltrove: envdiff
 [[rejection]]
 key = 'github.com/gberghoff/envdiff'
 source = 'terminaltrove:envdiff'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches envdiff at github.com/gberghoff/envdiff.'
 
 # terminaltrove: bkp
 [[rejection]]
 key = 'github.com/gergelyk/bkp'
 source = 'terminaltrove:bkp'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches bkp at github.com/gergelyk/bkp.'
 
 # terminaltrove: gitsocial
 [[rejection]]
 key = 'github.com/gitsocial-org/gitsocial'
 source = 'terminaltrove:gitsocial'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gitsocial at github.com/gitsocial-org/gitsocial.'
 
 # terminaltrove: glues
 [[rejection]]
 key = 'github.com/gluesql/glues'
 source = 'terminaltrove:glues'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: google-workspace-cli
-[[rejection]]
-key = 'github.com/googleworkspace/cli'
-source = 'terminaltrove:google-workspace-cli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches glues at github.com/gluesql/glues.'
 
 # terminaltrove: goto
 [[rejection]]
 key = 'github.com/grafviktor/goto'
 source = 'terminaltrove:goto'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches goto at github.com/grafviktor/goto.'
 
 # terminaltrove: aria2tui
 [[rejection]]
 key = 'github.com/grimandgreedy/aria2tui'
 source = 'terminaltrove:aria2tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches aria2tui at github.com/grimandgreedy/aria2tui.'
 
 # terminaltrove: bbcli
 [[rejection]]
 key = 'github.com/hako/bbcli'
 source = 'terminaltrove:bbcli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired bb-cli package is a different project, the Bitbucket CLI, not this BBC News reader.'
 
 # terminaltrove: flyline
 [[rejection]]
 key = 'github.com/halfrgrd/flyline'
 source = 'terminaltrove:flyline'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches flyline at github.com/halfrgrd/flyline.'
 
 # terminaltrove: gorae
 [[rejection]]
 key = 'github.com/han8931/gorae'
 source = 'terminaltrove:gorae'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gorae at github.com/han8931/gorae.'
 
 # terminaltrove: gittop
 [[rejection]]
 key = 'github.com/hjr265/gittop'
 source = 'terminaltrove:gittop'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gittop at github.com/hjr265/gittop.'
 
 # terminaltrove: csvi
 [[rejection]]
 key = 'github.com/hymkor/csvi'
 source = 'terminaltrove:csvi'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches csvi at github.com/hymkor/csvi.'
 
 # terminaltrove: cashd
 [[rejection]]
 key = 'github.com/hzqtc/cashd'
 source = 'terminaltrove:cashd'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cashd at github.com/hzqtc/cashd.'
 
 # terminaltrove: az-tui
 [[rejection]]
 key = 'github.com/ial32/az-tui'
 source = 'terminaltrove:az-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches az-tui at github.com/ial32/az-tui.'
 
 # terminaltrove: adsb-tui
 [[rejection]]
 key = 'github.com/j4v3l/ads-b_tui'
 source = 'terminaltrove:adsb-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches adsb-tui at github.com/j4v3l/ads-b_tui.'
 
 # terminaltrove: filessh
 [[rejection]]
 key = 'github.com/jayanaxhf/filessh'
 source = 'terminaltrove:filessh'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches filessh at github.com/jayanaxhf/filessh.'
 
 # terminaltrove: gitv
 [[rejection]]
 key = 'github.com/jayanaxhf/gitv'
 source = 'terminaltrove:gitv'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gitv at github.com/jayanaxhf/gitv.'
 
 # terminaltrove: daylight
 [[rejection]]
 key = 'github.com/jbreckmckye/daylight'
 source = 'terminaltrove:daylight'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches daylight at github.com/jbreckmckye/daylight.'
 
 # terminaltrove: fuzpad
 [[rejection]]
 key = 'github.com/jianzcar/fuzpad'
 source = 'terminaltrove:fuzpad'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches fuzpad at github.com/jianzcar/fuzpad.'
 
 # terminaltrove: fztea
 [[rejection]]
 key = 'github.com/jon4hz/fztea'
 source = 'terminaltrove:fztea'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches fztea at github.com/jon4hz/fztea.'
 
 # terminaltrove: euporie
 [[rejection]]
 key = 'github.com/joouha/euporie'
 source = 'terminaltrove:euporie'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches euporie at github.com/joouha/euporie.'
 
 # terminaltrove: browsr
 [[rejection]]
 key = 'github.com/juftin/browsr'
 source = 'terminaltrove:browsr'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches browsr at github.com/juftin/browsr.'
 
 # terminaltrove: chatuino
 [[rejection]]
 key = 'github.com/julez-dev/chatuino'
 source = 'terminaltrove:chatuino'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: dooit
-[[rejection]]
-key = 'github.com/kraanzu/dooit'
-source = 'terminaltrove:dooit'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches chatuino at github.com/julez-dev/chatuino.'
 
 # terminaltrove: dealve-tui
 [[rejection]]
 key = 'github.com/kurama/dealve-tui'
 source = 'terminaltrove:dealve-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dealve-tui at github.com/kurama/dealve-tui.'
 
 # terminaltrove: flameshow
 [[rejection]]
 key = 'github.com/laixintao/flameshow'
 source = 'terminaltrove:flameshow'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches flameshow at github.com/laixintao/flameshow.'
 
 # terminaltrove: cull
 [[rejection]]
 key = 'github.com/legostin/cull'
 source = 'terminaltrove:cull'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cull at github.com/legostin/cull.'
 
 # terminaltrove: bt
 [[rejection]]
 key = 'github.com/lepergnome/bt'
 source = 'terminaltrove:bt'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired bt executable belongs to bootterm, a different project.'
 
 # terminaltrove: amdtop
 [[rejection]]
 key = 'github.com/lhl/amdtop'
 source = 'terminaltrove:amdtop'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches amdtop at github.com/lhl/amdtop.'
 
 # terminaltrove: adguardian-term
 [[rejection]]
 key = 'github.com/lissy93/adguardian-term'
 source = 'terminaltrove:adguardian-term'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches adguardian-term at github.com/lissy93/adguardian-term.'
 
 # terminaltrove: epiq
 [[rejection]]
 key = 'github.com/ljtn/epiq'
 source = 'terminaltrove:epiq'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches epiq at github.com/ljtn/epiq.'
 
 # terminaltrove: cargo-selector
 [[rejection]]
 key = 'github.com/lusingander/cargo-selector'
 source = 'terminaltrove:cargo-selector'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cargo-selector at github.com/lusingander/cargo-selector.'
 
 # terminaltrove: ddv
 [[rejection]]
 key = 'github.com/lusingander/ddv'
 source = 'terminaltrove:ddv'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired ddv executable belongs to Debian ncbi-tools-x11, a different project.'
 
 # terminaltrove: gotip
 [[rejection]]
 key = 'github.com/lusingander/gotip'
 source = 'terminaltrove:gotip'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: diskwatch
-[[rejection]]
-key = 'github.com/matthart1983/diskwatch'
-source = 'terminaltrove:diskwatch'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gotip at github.com/lusingander/gotip.'
 
 # terminaltrove: chmod-cli
 [[rejection]]
 key = 'github.com/mayowa-ojo/chmod-cli'
 source = 'terminaltrove:chmod-cli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches chmod-cli at github.com/mayowa-ojo/chmod-cli.'
 
 # terminaltrove: aptui
 [[rejection]]
 key = 'github.com/mexirica/aptui'
 source = 'terminaltrove:aptui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches aptui at github.com/mexirica/aptui.'
 
 # terminaltrove: gocker
 [[rejection]]
 key = 'github.com/micoli/gocker'
 source = 'terminaltrove:gocker'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gocker at github.com/micoli/gocker.'
 
 # terminaltrove: aim
 [[rejection]]
 key = 'github.com/mihaigalos/aim'
 source = 'terminaltrove:aim'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches aim at github.com/mihaigalos/aim.'
 
 # terminaltrove: dusage
 [[rejection]]
 key = 'github.com/mihaigalos/dusage'
 source = 'terminaltrove:dusage'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dusage at github.com/mihaigalos/dusage.'
 
 # terminaltrove: envx
 [[rejection]]
 key = 'github.com/mikeleppane/envx'
 source = 'terminaltrove:envx'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches envx at github.com/mikeleppane/envx.'
 
 # terminaltrove: cmdperf
 [[rejection]]
 key = 'github.com/miklosn/cmdperf'
 source = 'terminaltrove:cmdperf'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cmdperf at github.com/miklosn/cmdperf.'
 
 # terminaltrove: fm
 [[rejection]]
 key = 'github.com/mistakenelf/fm'
 source = 'terminaltrove:fm'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: git-interactive-rebase-tool
-[[rejection]]
-key = 'github.com/mitmaro/git-interactive-rebase-tool'
-source = 'terminaltrove:git-interactive-rebase-tool'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired fm executable belongs to fmtools, a different project.'
 
 # terminaltrove: carbon-now-cli
 [[rejection]]
 key = 'github.com/mixn/carbon-now-cli'
 source = 'terminaltrove:carbon-now-cli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package provides carbon-now; tldr documents the command but is not package evidence.'
 
 # terminaltrove: darya
 [[rejection]]
 key = 'github.com/mrkatebzadeh/darya'
 source = 'terminaltrove:darya'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches darya at github.com/mrkatebzadeh/darya.'
 
 # terminaltrove: goji
 [[rejection]]
 key = 'github.com/muandane/goji'
 source = 'terminaltrove:goji'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches goji at github.com/muandane/goji.'
 
 # terminaltrove: gitid
 [[rejection]]
 key = 'github.com/nathabonfim59/gitid'
 source = 'terminaltrove:gitid'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired git-id executable belongs to git-number, a different project.'
 
 # terminaltrove: dijo
 [[rejection]]
 key = 'github.com/nerdypepper/dijo'
 source = 'terminaltrove:dijo'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dijo at github.com/nerdypepper/dijo.'
 
 # terminaltrove: fnug
 [[rejection]]
 key = 'github.com/nickolaj-jepsen/fnug'
 source = 'terminaltrove:fnug'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches fnug at github.com/nickolaj-jepsen/fnug.'
 
 # terminaltrove: caps-log
 [[rejection]]
 key = 'github.com/nikoladucak/caps-log'
 source = 'terminaltrove:caps-log'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches caps-log at github.com/nikoladucak/caps-log.'
 
 # terminaltrove: e2c
 [[rejection]]
 key = 'github.com/nlamirault/e2c'
 source = 'terminaltrove:e2c'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches e2c at github.com/nlamirault/e2c.'
 
 # terminaltrove: g1c
 [[rejection]]
 key = 'github.com/nlamirault/g1c'
 source = 'terminaltrove:g1c'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches g1c at github.com/nlamirault/g1c.'
 
 # terminaltrove: climp
 [[rejection]]
 key = 'github.com/olivier-w/climp'
 source = 'terminaltrove:climp'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches climp at github.com/olivier-w/climp.'
 
 # terminaltrove: ghfetch
 [[rejection]]
 key = 'github.com/orangekame3/ghfetch'
 source = 'terminaltrove:ghfetch'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches ghfetch at github.com/orangekame3/ghfetch.'
 
 # terminaltrove: gocovsh
 [[rejection]]
 key = 'github.com/orlangure/gocovsh'
 source = 'terminaltrove:gocovsh'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gocovsh at github.com/orlangure/gocovsh.'
 
 # terminaltrove: cpx
 [[rejection]]
 key = 'github.com/ozacod/cpx'
 source = 'terminaltrove:cpx'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired cp.x executable belongs to quantum-espresso, a different project.'
 
 # terminaltrove: austin-tui
 [[rejection]]
 key = 'github.com/p403n1x87/austin-tui'
 source = 'terminaltrove:austin-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches austin-tui at github.com/p403n1x87/austin-tui.'
 
 # terminaltrove: deletor
 [[rejection]]
 key = 'github.com/pashkov256/deletor'
 source = 'terminaltrove:deletor'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches deletor at github.com/pashkov256/deletor.'
 
 # terminaltrove: daff
 [[rejection]]
 key = 'github.com/paulfitz/daff'
 source = 'terminaltrove:daff'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches daff at github.com/paulfitz/daff.'
 
 # terminaltrove: dns53
 [[rejection]]
 key = 'github.com/purpleclay/dns53'
 source = 'terminaltrove:dns53'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dns53 at github.com/purpleclay/dns53.'
 
 # terminaltrove: devzat
 [[rejection]]
 key = 'github.com/quackduck/devzat'
 source = 'terminaltrove:devzat'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches devzat at github.com/quackduck/devzat.'
 
 # terminaltrove: bullmq-dash
 [[rejection]]
 key = 'github.com/quanghuynt14/bullmq-dash'
 source = 'terminaltrove:bullmq-dash'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches bullmq-dash at github.com/quanghuynt14/bullmq-dash.'
 
 # terminaltrove: branchlet
 [[rejection]]
 key = 'github.com/raghavpillai/branchlet'
 source = 'terminaltrove:branchlet'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches branchlet at github.com/raghavpillai/branchlet.'
 
 # terminaltrove: angryoxide
 [[rejection]]
 key = 'github.com/ragnt/angryoxide'
 source = 'terminaltrove:angryoxide'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: crates-tui
-[[rejection]]
-key = 'github.com/ratatui-org/crates-tui'
-source = 'terminaltrove:crates-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches angryoxide at github.com/ragnt/angryoxide.'
 
 # terminaltrove: glab-tui
 [[rejection]]
 key = 'github.com/rcieri/glab-tui'
 source = 'terminaltrove:glab-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches glab-tui at github.com/rcieri/glab-tui.'
 
 # terminaltrove: clin
 [[rejection]]
 key = 'github.com/reekta92/clin-rs'
 source = 'terminaltrove:clin'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches clin at github.com/reekta92/clin-rs.'
 
 # terminaltrove: critique
 [[rejection]]
 key = 'github.com/remorses/critique'
 source = 'terminaltrove:critique'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package provides critique; tldr documents the command but is not package evidence.'
 
 # terminaltrove: cooldeck
 [[rejection]]
 key = 'github.com/resetnak/cooldeck'
 source = 'terminaltrove:cooldeck'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cooldeck at github.com/resetnak/cooldeck.'
 
 # terminaltrove: asmdiff
 [[rejection]]
 key = 'github.com/rt-rtos/asmdiff'
 source = 'terminaltrove:asmdiff'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches asmdiff at github.com/rt-rtos/asmdiff.'
 
 # terminaltrove: brows
 [[rejection]]
 key = 'github.com/rubysolo/brows'
 source = 'terminaltrove:brows'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches brows at github.com/rubysolo/brows.'
 
 # terminaltrove: clipse
 [[rejection]]
 key = 'github.com/savedra1/clipse'
 source = 'terminaltrove:clipse'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches clipse at github.com/savedra1/clipse.'
 
 # terminaltrove: dotstate
 [[rejection]]
 key = 'github.com/serkanyersen/dotstate'
 source = 'terminaltrove:dotstate'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dotstate at github.com/serkanyersen/dotstate.'
 
 # terminaltrove: erldash
 [[rejection]]
 key = 'github.com/sile/erldash'
 source = 'terminaltrove:erldash'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: fresh
-[[rejection]]
-key = 'github.com/sinelaw/fresh'
-source = 'terminaltrove:fresh'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches erldash at github.com/sile/erldash.'
 
 # terminaltrove: git-cc
 [[rejection]]
 key = 'github.com/skalt/git-cc'
 source = 'terminaltrove:git-cc'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches git-cc at github.com/skalt/git-cc.'
 
 # terminaltrove: endcord
 [[rejection]]
 key = 'github.com/sparklost/endcord'
 source = 'terminaltrove:endcord'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches endcord at github.com/sparklost/endcord.'
 
 # terminaltrove: dtop-py
 [[rejection]]
 key = 'github.com/stakesquid/dtop'
 source = 'terminaltrove:dtop-py'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired dtop executable belongs to amir20/dtop and Debian diod, not this Python tool.'
 
 # terminaltrove: bit
 [[rejection]]
 key = 'github.com/superstarryeyes/bit'
 source = 'terminaltrove:bit'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'The acquired bit executable belongs to teambit/bit and chriswalz/bit, not this logo designer.'
 
 # terminaltrove: ballast
 [[rejection]]
 key = 'github.com/synoet/ballast'
 source = 'terminaltrove:ballast'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches ballast at github.com/synoet/ballast.'
 
 # terminaltrove: diffyml
 [[rejection]]
 key = 'github.com/szhekpisov/diffyml'
 source = 'terminaltrove:diffyml'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches diffyml at github.com/szhekpisov/diffyml.'
 
 # terminaltrove: gobang
 [[rejection]]
 key = 'github.com/tako8ki/gobang'
 source = 'terminaltrove:gobang'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gobang at github.com/tako8ki/gobang.'
 
 # terminaltrove: cargo-seek
 [[rejection]]
 key = 'github.com/tareqimbasher/cargo-seek'
 source = 'terminaltrove:cargo-seek'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches cargo-seek at github.com/tareqimbasher/cargo-seek.'
 
 # terminaltrove: gitwig
 [[rejection]]
 key = 'github.com/tareqmy/gitwig'
 source = 'terminaltrove:gitwig'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches gitwig at github.com/tareqmy/gitwig.'
 
 # terminaltrove: frogmouth
 [[rejection]]
 key = 'github.com/textualize/frogmouth'
 source = 'terminaltrove:frogmouth'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches frogmouth at github.com/textualize/frogmouth.'
 
 # terminaltrove: froggit
 [[rejection]]
 key = 'github.com/thewizardshell/froggit'
 source = 'terminaltrove:froggit'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches froggit at github.com/thewizardshell/froggit.'
 
 # terminaltrove: enola
 [[rejection]]
 key = 'github.com/theyahya/enola'
 source = 'terminaltrove:enola'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches enola at github.com/theyahya/enola.'
 
 # terminaltrove: andcli
 [[rejection]]
 key = 'github.com/tjblackheart/andcli'
 source = 'terminaltrove:andcli'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches andcli at github.com/tjblackheart/andcli.'
 
 # terminaltrove: dcv
 [[rejection]]
 key = 'github.com/tokuhirom/dcv'
 source = 'terminaltrove:dcv'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dcv at github.com/tokuhirom/dcv.'
 
 # terminaltrove: apisnip
 [[rejection]]
 key = 'github.com/tuurlijk/apisnip'
 source = 'terminaltrove:apisnip'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches apisnip at github.com/tuurlijk/apisnip.'
 
 # terminaltrove: bitchat-tui
 [[rejection]]
 key = 'github.com/vaibhav-mattoo/bitchat-tui'
 source = 'terminaltrove:bitchat-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches bitchat-tui at github.com/vaibhav-mattoo/bitchat-tui.'
 
 # terminaltrove: arduino-cli-interactive
 [[rejection]]
 key = 'github.com/vaishnav-sabari-girish/arduino-cli-interactive'
 source = 'terminaltrove:arduino-cli-interactive'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches arduino-cli-interactive.'
 
 # terminaltrove: comchan
 [[rejection]]
 key = 'github.com/vaishnav-sabari-girish/comchan'
 source = 'terminaltrove:comchan'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
-
-# terminaltrove: gloomberb
-[[rejection]]
-key = 'github.com/vincelwt/gloomberb'
-source = 'terminaltrove:gloomberb'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches comchan at github.com/vaishnav-sabari-girish/comchan.'
 
 # terminaltrove: croft
 [[rejection]]
 key = 'github.com/vitali87/croft'
 source = 'terminaltrove:croft'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches croft at github.com/vitali87/croft.'
 
 # terminaltrove: ftdv
 [[rejection]]
 key = 'github.com/wtnqk/ftdv'
 source = 'terminaltrove:ftdv'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches ftdv at github.com/wtnqk/ftdv.'
 
 # terminaltrove: castero
 [[rejection]]
 key = 'github.com/xgi/castero'
 source = 'terminaltrove:castero'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches castero at github.com/xgi/castero.'
 
 # terminaltrove: boomtypr
 [[rejection]]
 key = 'github.com/yagnikpt/boomtypr'
 source = 'terminaltrove:boomtypr'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches boomtypr at github.com/yagnikpt/boomtypr.'
 
 # terminaltrove: blueutil-tui
 [[rejection]]
 key = 'github.com/zaloog/blueutil-tui'
 source = 'terminaltrove:blueutil-tui'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches blueutil-tui at github.com/zaloog/blueutil-tui.'
 
 # terminaltrove: dotenvhub
 [[rejection]]
 key = 'github.com/zaloog/dotenvhub'
 source = 'terminaltrove:dotenvhub'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches dotenvhub at github.com/zaloog/dotenvhub.'
 
 # terminaltrove: diskbloom
 [[rejection]]
 key = 'github.com/zingzy/diskbloom'
 source = 'terminaltrove:diskbloom'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches diskbloom at github.com/zingzy/diskbloom.'
 
 # terminaltrove: fat
 [[rejection]]
 key = 'github.com/zuhaitz-dev/fat'
 source = 'terminaltrove:fat'
-reason = 'Rejected during the 2026-09-04 Terminal Trove hint review'
+reason = 'No acquired package or executable matches fat at github.com/zuhaitz-dev/fat.'
