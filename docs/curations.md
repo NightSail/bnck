@@ -1,24 +1,10 @@
 # Curation format
 
-## Purpose
-
-Curations connect acquired channel packages and executable names to canonical projects. They are the human-maintained source of truth for decisions that channel metadata cannot establish safely:
-
-- Canonical project identities
-- Channel packages belonging to each project
-- Per-executable attribution for mixed packages
-- Exclusions for false executable candidates
-- Replacements for incorrectly reported executable names
-- Additions that static acquisition cannot observe
-- Editorial associations between executable names and reference or implementation projects
-
-Acquired package metadata and executable lists stay out of curation files. Dataset generation combines immutable acquisition snapshots with a specific curation revision to produce provider records.
-
-See the [curation guide](curation-guide.md) for inclusion criteria, evidence standards, and the contribution workflow.
+Curations connect acquired channel packages and executable names to canonical projects. They are the human-maintained source of truth for project identities, package ownership, per-executable attribution, exclusions, replacements, additions, and editorial name associations. See the [curation guide](curation-guide.md) for inclusion criteria, evidence standards, and the contribution workflow.
 
 ## Format
 
-Curations are TOML: human-readable, comment-friendly, strictly parseable, and non-executable. Package attribution is project-centric, so one project and all its packages live in one file.
+Curations are TOML. Package attribution is project-centric, so one project and its ordinary packages live in one file.
 
 ```text
 curations/
@@ -34,7 +20,7 @@ curations/
         └── example.toml
 ```
 
-Files under `projects/` define projects and ordinary package ownership. Files under `packages/<channel>/` hold only exceptional package-level executable rules; the directory must agree with the exception file's `channel` field.
+Files under `projects/` define projects and ordinary package ownership. Files under `packages/<channel>/` hold exceptional package-level executable rules; the directory must agree with the exception file's `channel` field.
 
 Base filenames are organizational and do not establish identity. Exact project and package identities come from fields inside each file, which avoids filename encoding rules for scoped npm packages, Homebrew taps, and names containing `/`.
 
@@ -46,7 +32,7 @@ Base filenames are organizational and do not establish identity. Exact project a
 schema = 1
 ```
 
-This version is independent of the provider, release, acquisition, and browser schema versions. An incompatible change increments it and migrates affected files atomically. Changes to field names, types, required fields, or resolution semantics are incompatible; current readers reject unknown fields, so adding a field is also incompatible. Schema 1 adds name associations.
+This version is independent of the provider, release, acquisition, and browser schemas. An incompatible change increments it and migrates affected files atomically. Changes to field names, types, required fields, or resolution semantics are incompatible. Current readers reject unknown fields, so adding a field is also incompatible.
 
 ## Project definitions
 
@@ -87,9 +73,7 @@ Required fields:
 - `id`: Stable machine-readable curation identity
 - `name`: Human-readable project name
 
-Optional project hints: `homepage`, `repository`, `documentation`, `issue_tracker`, and `links`.
-
-The first four describe the project's primary URLs. `links` records additional official or ecosystem URLs that package metadata may use for the same project: registry pages, former locations, and further project or documentation pages. For example, hledger packages may refer to either of two Hackage pages:
+Optional hints: `homepage`, `repository`, `documentation`, `issue_tracker`, and `links`. The first four describe primary URLs. `links` records additional official or ecosystem URLs that package metadata may use for the same project, such as registry pages, former locations, and further documentation:
 
 ```toml
 links = [
@@ -98,24 +82,15 @@ links = [
 ]
 ```
 
-Links are matching evidence only; they never establish ownership. Do not add distribution packaging repositories, forks, or mirrors merely because a package record mentions them.
+Links are matching evidence only. Do not add distribution packaging repositories, forks, or mirrors merely because a package record mentions them. Project metadata supports review and consumer interfaces; it establishes no package ownership.
 
-Each `package` entry requires:
-
-- `channel`: Stable channel key
-- `name`: Exact channel-native package identity
-
-Project IDs use lowercase ASCII letters, digits, hyphens, periods, and underscores. They must be stable and independent of repository location or branding.
-
-Project metadata aids curator review but establishes no relationship and need not appear in the canonical provider release.
+Each `package` entry requires `channel` (stable channel key) and `name` (exact channel-native package identity). Project IDs use lowercase ASCII letters, digits, hyphens, periods, and underscores. They must be stable and independent of repository location or branding.
 
 ## Package ownership
 
-A package identity is the tuple `(channel, name)`. Listing it in a project file gives that project default ownership of every acquired executable from the package, subject to exceptional package curation.
+A package identity is `(channel, name)`. Listing it in a project file gives that project default ownership of every acquired executable from the package, subject to exceptional rules. A package may be listed by at most one project; multiple claims are a validation error.
 
-A package may be listed by at most one project; multiple claims are a validation error.
-
-A package can have an ordinary owner and exceptional executable rules. The remaining executables are attributed to the ordinary owner. A package without an ordinary owner is mixed: every acquired executable must be handled by an `attribute`, `replace`, or `exclude` rule. Packages with neither ordinary ownership nor mixed-package attribution produce no provider records.
+A package can have an ordinary owner and exceptional executable rules. Remaining executables go to the ordinary owner. A package without an ordinary owner is mixed: every acquired executable must be handled by an `attribute`, `replace`, or `exclude` rule. A package with neither ordinary ownership nor an exception produces no provider records.
 
 ## Exceptional package curations
 
@@ -195,7 +170,7 @@ references = [
 ]
 ```
 
-Replacement suppresses `acquired`, adds `executable`, and attributes it to `project`. The acquired name must exist. No fuzzy matching or general name normalization is performed.
+Replacement suppresses `acquired`, adds `executable`, and attributes it to `project`. The acquired name must exist.
 
 ### Add
 
@@ -230,19 +205,11 @@ references = [
 
 A provider record means the package exposes the command name, directly or through an installed alias. It does not mean the project implements, emulates, or is compatible with that command.
 
-### Bundled commands
+Packages that install several commands use ordinary package ownership. Do not list individual commands in curation; the acquired executable set stays authoritative. For example, `coreutils` owns `ls`, `cat`, `cp`, and the rest of its installed commands without executable rules.
 
-Packages that install several commands use ordinary package ownership. One project file with the package entries attributes every acquired executable. Do not list individual commands in curation; the acquired executable set stays authoritative. For example, `coreutils` owns `ls`, `cat`, `cp`, and the rest of its installed commands without executable rules.
+Do not use `replace` for an alternative command name when the implementation's own command remains installed; use `add` for the extra name and only on channels where the mechanism exists.
 
-### Alternative command names
-
-A channel can create a command name that its file listings do not expose. Debian's `gawk`, `mawk`, and `original-awk` packages declare `Provides: awk` and register `/usr/bin/awk` and `/usr/bin/nawk` through `update-alternatives`. Each package that registers the alternative receives an `add` rule. Do not use `replace`: the implementation's own command remains installed. Add the name only for channels and packages where the mechanism is present; the same project may provide it on one channel and not another.
-
-### Multicall binaries and applets
-
-Multicall packages expose a dispatcher or an applet namespace, not every applet as a command. Record only the names the package installs or exposes through a documented channel mechanism. BusyBox and ToyBox applets are not separate provider records; uutils packages in Fedora and Arch install `uu_ls` and `uu-ls`, and its Debian package installs a `coreutils` multicall binary. A drop-in replacement is a project property, not a provider relation.
-
-Shell builtins are also not provider records unless the package installs a command for the name.
+Multicall packages expose a dispatcher or applet namespace, not every applet as a command. Record only names the package installs or exposes through a documented channel mechanism. BusyBox and ToyBox applets are not separate provider records; uutils packages in Fedora and Arch install `uu_ls` and `uu-ls`, and its Debian package installs a `coreutils` multicall binary. A drop-in replacement is a project property, not a provider relation. Shell builtins are also not provider records unless the package installs a command for the name.
 
 ## Name associations
 
@@ -275,7 +242,7 @@ Each association requires:
 - `reason`: Non-empty explanation
 - `references`: At least one durable reference
 
-`reference` identifies the project most strongly associated with the name. At most one reference is allowed per executable. `implementation` identifies a project known to implement the name under another command or through an applet namespace. An association may name a project with no current provider record for that executable; that is the purpose of the separate relation.
+`reference` identifies the project most strongly associated with the name. At most one reference is allowed per executable. `implementation` identifies a project known to implement the name under another command or through an applet namespace. An association may name a project with no current provider record for that executable.
 
 Associations do not affect provider resolution. Duplicate `(executable, project)` pairs and multiple references for one executable are validation errors.
 
@@ -296,23 +263,13 @@ Dataset generation resolves each curated package in this order:
 
 Rule order inside a TOML file does not change these semantics.
 
-Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a complete selected channel snapshot is an error unless the snapshot records an explicit `removed` observation. Absence from a partial acquisition is skipped, not treated as stale curation.
-
-Name associations are resolved independently of package resolution. They are emitted separately from provider records.
-
-Release provenance identifies the pinned acquisition snapshots, the source revision containing the curations and generator, and the applicable schema versions.
-
-## Scale
-
-The format stores `O(P + M)` facts for `P` projects and `M` ordinary project-to-package relationships, but uses `O(P + E)` files for `E` exceptional packages. Ordinary projects need one file regardless of channel count. Exceptional package files can be sharded by directory without changing package identity. Name associations add `O(A)` facts in one file.
+Curations for channels outside a generation run's selected acquisition inputs are not resolved. A curated package missing from a complete selected channel snapshot is an error unless the snapshot records an explicit `removed` observation. Absence from a partial acquisition is skipped, not treated as stale curation. Name associations are resolved independently and emitted separately from provider records.
 
 ## Automatic hint ingestion
 
 Terminal Trove and tldr pages are discovery hints, not ownership decisions. Normalized hint records are JSON Lines with `source`, `source_id`, `name`, and optional `executable`, `repository`, `homepage`, and `references` fields. Provenance for a batch is recorded beside the hint files.
 
-`bnck ingest-hints` reads a hint directory, cross-checks every candidate against acquired packages, and adds only packages with URL identity plus package, source-package, or executable-name evidence. It skips packages already claimed by a curation, drops ambiguous package attributions, and never removes or rewrites existing project metadata. A candidate for an existing project URL appends its unclaimed packages; otherwise a new project file is written. The command previews by default, applies with `--apply`, and can record an audit report.
-
-Ingestion is idempotent. Re-running the same or a newer hint batch does not duplicate project files or package declarations.
+`bnck ingest-hints` reads a hint directory, cross-checks every candidate against acquired packages, and adds only packages with URL identity plus package, source-package, or executable-name evidence. It skips packages already claimed by a curation, drops ambiguous package attributions, and never removes or rewrites existing project metadata. A candidate for an existing project URL appends its unclaimed packages; otherwise a new project file is written. The command previews by default, applies with `--apply`, and can record an audit report. Ingestion is idempotent.
 
 ## Hint rejections
 
@@ -335,7 +292,7 @@ source = 'terminaltrove:tool'
 reason = 'The hint identifies the wrong upstream project'
 ```
 
-The key and source are both matched; either one rejects the candidate. Reject one package association while keeping the candidate's other packages by adding both `channel` and `package`:
+The key and source are both matched; either one rejects the candidate. Reject one package association while keeping other packages by adding both `channel` and `package`:
 
 ```toml
 [[rejection]]
@@ -346,22 +303,11 @@ package = 'tool-extra'
 reason = 'The Debian package is a different project'
 ```
 
-Each rejection requires a non-empty reason. Remove the entry to allow the candidate to be considered again. When rejecting a whole automatically created project, also delete its project curation; otherwise the existing curation remains in the dataset.
+Each rejection requires a non-empty reason. Remove the entry to allow the candidate again. When rejecting a whole automatically created project, also delete its project curation; otherwise the existing curation remains in the dataset.
 
-## Deliberately unsupported rules
+## Unsupported rules
 
-- Regular expressions
-- Globs
-- Package-name prefixes
-- Executable-name prefixes
-- Arbitrary scripts or expressions
-- Package-version ranges
-- Architecture-dependent conditions
-- Channel-specific embedded rule languages
-
-Pattern rules could silently match upstream data no curator reviewed. Version ranges would move curation toward historical observations, which the dataset does not provide.
-
-Add architecture- or release-specific rules only after concrete cases show the channel-level model cannot represent necessary attribution.
+Regular expressions, globs, package or executable prefixes, arbitrary scripts, version ranges, architecture-dependent conditions, and channel-specific rule languages are deliberately unsupported. They could silently match unreviewed data or turn curation into historical observation. Add architecture- or release-specific rules only after concrete cases show the channel-level model cannot represent necessary attribution.
 
 ## Validation
 
@@ -387,6 +333,4 @@ Validation fails on:
 - A duplicate association for one executable and project
 - Multiple reference associations for one executable
 
-Validation must distinguish stale curation from incomplete acquisition: a failed or partial importer run must not make valid curation appear stale.
-
-Validation is strict: attribution and structural issues fail generation rather than producing non-blocking warnings. Acquisition drift and project metadata conflicts are reported separately by acquisition diagnostics; see [channel acquisition](channels.md#curation-diagnostics).
+Validation is strict: attribution and structural issues fail generation rather than producing warnings. Acquisition drift and project metadata conflicts are reported by acquisition diagnostics; see [channel acquisition](channels.md#curation-diagnostics).

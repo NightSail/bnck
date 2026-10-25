@@ -1,10 +1,6 @@
 # Acquisition snapshot format
 
-## Purpose
-
-Each importer writes candidate JSON Lines and an adjacent snapshot manifest named `<candidates>.manifest.json`. Candidates hold executable observations; the manifest identifies the acquisition scope, channel boundary, inputs and retrieval provenance, package releases, completeness, candidate artifact, and acquisition metrics.
-
-Separate package observations let bnck distinguish a package observed with no executable candidates from one that was absent or failed.
+Each importer writes candidate JSON Lines and an adjacent `<candidates>.manifest.json`. The manifest records acquisition scope, boundary, inputs and provenance, package observations, completeness, metrics, and the candidate artifact. Package observations distinguish a package observed with no executables from one that was absent or failed.
 
 ## Candidate records
 
@@ -98,9 +94,9 @@ The snapshot identity covers the channel, status, scope, input content identitie
 
 `status` is `complete`, `partial`, or `failed`. Package status is `observed`, `failed`, or `removed`. An observed package requires a version; failed and removed packages may omit it.
 
-Distro and bulk crates.io importers emit complete snapshots on success. Planned npm/PyPI acquisitions become partial with failed package observations and a `reason` in the variant map when selected metadata is unavailable or executable extraction is unsupported, and use `package-selection=curated-packages`. Focused PyPI directory imports are partial with `package-selection=explicit-packages`, because they do not cover all curated packages. Malformed inputs, missing planned files, and digest mismatches fail import. See [language registry acquisition](language-registries.md) for selection and failure semantics.
+Distro and bulk crates.io importers emit complete snapshots on success. Planned npm/PyPI acquisitions become partial when selected metadata is unavailable or executable extraction is unsupported, using `package-selection=curated-packages` and a failure `reason` in the variant map. Focused PyPI directory imports use `package-selection=explicit-packages`. Malformed inputs, missing planned files, and digest mismatches fail import.
 
-A hard import failure still writes an empty candidate artifact and a `failed` snapshot with the error summary, so acquisition failure is distinguishable from an absent channel. Package removals are emitted as `removed` observations when an import compares against a preceding complete snapshot for the same channel and scope with `--previous`; partial snapshots never infer removals.
+A failed import writes an empty candidate artifact and a `failed` snapshot with the error summary. Pass `--previous` a preceding complete snapshot with the same channel and scope to emit `removed` observations; partial snapshots never infer removals. See [language registry acquisition](language-registries.md) for selection and failure semantics.
 
 `scope` comes from repeated `--scope key=value` arguments; import commands reject an empty scope.
 
@@ -121,8 +117,8 @@ Empty optional fields are permitted. Import commands fall back to file modificat
 
 ## Generation rules
 
-Dataset generation requires snapshot manifests and validates every one before resolving curations.
+Dataset generation validates every snapshot manifest before resolving curations.
 
-`bnck generate` and `bnck assemble-release` accept `--candidate-only`, which validates manifest identity, candidate artifact size and digest, candidate count, and package observations without reopening raw input files. `just generate` and `just release` enable this mode with `BNCK_CANDIDATE_ONLY=1`. Use it only when a separate acquisition job has already validated the raw inputs and only candidate artifacts are transferred.
+`bnck generate` and `bnck assemble-release` accept `--candidate-only`, which validates manifest identity, candidate artifact size and digest, candidate count, and package observations without reopening raw inputs. `just generate` and `just release` enable this mode with `BNCK_CANDIDATE_ONLY=1`. Use it only when a separate acquisition job has validated the raw inputs and only candidate artifacts are transferred.
 
-For complete channel snapshots, a curated package absent from every observed package list is an error unless a `removed` observation explicitly records its absence. For a partial acquisition, absence does not make curation stale and the package is skipped. An observed package with no candidates is valid and yields no providers unless curation adds an executable.
+For complete snapshots, a curated package absent from every observed package list is an error unless a `removed` observation records its absence. For partial acquisitions, absence does not make curation stale. An observed package with no candidates yields no providers unless curation adds an executable.
