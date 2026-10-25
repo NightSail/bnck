@@ -1,0 +1,8 @@
+id = 'chiko'
+name = 'chiko'
+
+repository = 'https://github.com/felangga/chiko'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chiko'

@@ -1,0 +1,8 @@
+id = 'countryfetch'
+name = 'countryfetch'
+
+repository = 'https://github.com/nik-rev/countryfetch'
+
+[[package]]
+channel = 'arch'
+name = 'countryfetch'

@@ -1,0 +1,8 @@
+id = 'ggh'
+name = 'ggh'
+
+repository = 'https://github.com/byawitz/ggh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ggh'

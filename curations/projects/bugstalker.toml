@@ -1,0 +1,8 @@
+id = 'bugstalker'
+name = 'bugstalker'
+
+repository = 'https://github.com/godzie44/BugStalker'
+
+[[package]]
+channel = 'arch'
+name = 'bugstalker'

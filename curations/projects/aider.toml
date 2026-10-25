@@ -3,6 +3,8 @@ name = 'aider'
 
 repository = 'https://github.com/Aider-AI/aider'
 
+links = ['https://github.com/paul-gauthier/aider']
+
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/aider'

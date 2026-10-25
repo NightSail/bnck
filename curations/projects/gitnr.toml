@@ -1,0 +1,8 @@
+id = 'gitnr'
+name = 'gitnr'
+
+repository = 'https://github.com/reemus-dev/gitnr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitnr'

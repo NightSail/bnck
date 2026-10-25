@@ -1,0 +1,8 @@
+id = 'fork-cleaner'
+name = 'fork-cleaner'
+
+repository = 'https://github.com/caarlos0/fork-cleaner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fork-cleaner'

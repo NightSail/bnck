@@ -1,0 +1,8 @@
+id = 'gama'
+name = 'gama'
+
+repository = 'https://github.com/termkit/gama'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gama'

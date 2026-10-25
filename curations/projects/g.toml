@@ -1,0 +1,8 @@
+id = 'g'
+name = 'g'
+
+repository = 'https://github.com/Equationzhao/g'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/g-ls'

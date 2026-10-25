@@ -1,0 +1,8 @@
+id = 'ec'
+name = 'ec'
+
+repository = 'https://github.com/chojs23/ec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ec'

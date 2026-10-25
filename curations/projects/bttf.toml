@@ -1,0 +1,8 @@
+id = 'bttf'
+name = 'bttf'
+
+repository = 'https://github.com/BurntSushi/bttf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bttf'

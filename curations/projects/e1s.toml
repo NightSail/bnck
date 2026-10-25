@@ -1,0 +1,8 @@
+id = 'e1s'
+name = 'e1s'
+
+repository = 'https://github.com/keidarcy/e1s'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/e1s'

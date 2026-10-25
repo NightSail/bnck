@@ -1,0 +1,8 @@
+id = 'chess-tui'
+name = 'chess-tui'
+
+repository = 'https://github.com/thomas-mauran/chess-tui'
+
+[[package]]
+channel = 'arch'
+name = 'chess-tui'

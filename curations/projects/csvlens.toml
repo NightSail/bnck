@@ -1,0 +1,12 @@
+id = 'csvlens'
+name = 'csvlens'
+
+repository = 'https://github.com/YS-L/csvlens'
+
+[[package]]
+channel = 'arch'
+name = 'csvlens'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csvlens'

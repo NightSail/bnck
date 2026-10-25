@@ -1,0 +1,8 @@
+id = 'dstp'
+name = 'dstp'
+
+repository = 'https://github.com/ycd/dstp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dstp'

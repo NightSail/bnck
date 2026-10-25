@@ -1,0 +1,8 @@
+id = 'dblab'
+name = 'dblab'
+
+repository = 'https://github.com/danvergara/dblab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dblab'

@@ -1,0 +1,8 @@
+id = 'circumflex'
+name = 'circumflex'
+
+repository = 'https://github.com/bensadeh/circumflex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/circumflex'

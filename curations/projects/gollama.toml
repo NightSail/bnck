@@ -1,0 +1,8 @@
+id = 'gollama'
+name = 'gollama'
+
+repository = 'https://github.com/sammcj/gollama'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gollama'

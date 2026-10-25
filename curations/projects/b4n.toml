@@ -1,0 +1,8 @@
+id = 'b4n'
+name = 'b4n'
+
+repository = 'https://github.com/fioletoven/b4n'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/b4n'

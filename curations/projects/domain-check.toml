@@ -1,0 +1,8 @@
+id = 'domain-check'
+name = 'domain-check'
+
+repository = 'https://github.com/saidutt46/domain-check'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/domain-check'

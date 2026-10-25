@@ -1,0 +1,9 @@
+id = 'fselect'
+name = 'fselect'
+
+homepage = 'https://fselect.rocks'
+repository = 'https://github.com/jhspetersson/fselect'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fselect'

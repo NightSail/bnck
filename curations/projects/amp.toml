@@ -1,0 +1,9 @@
+id = 'amp'
+name = 'amp'
+
+homepage = 'https://amp.rs'
+repository = 'https://github.com/jmacdonald/amp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amp'

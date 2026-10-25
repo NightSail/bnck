@@ -1,0 +1,8 @@
+id = 'gallery-dl'
+name = 'gallery-dl'
+
+repository = 'https://github.com/mikf/gallery-dl'
+
+[[package]]
+channel = 'debian'
+name = 'gallery-dl'

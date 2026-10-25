@@ -1,0 +1,8 @@
+id = 'cargo-geiger'
+name = 'cargo-geiger'
+
+repository = 'https://github.com/geiger-rs/cargo-geiger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-geiger'

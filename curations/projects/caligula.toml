@@ -1,0 +1,8 @@
+id = 'caligula'
+name = 'caligula'
+
+repository = 'https://github.com/ifd3f/caligula'
+
+[[package]]
+channel = 'arch'
+name = 'caligula'

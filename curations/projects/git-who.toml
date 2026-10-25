@@ -1,0 +1,8 @@
+id = 'git-who'
+name = 'git-who'
+
+repository = 'https://github.com/sinclairtarget/git-who'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-who'

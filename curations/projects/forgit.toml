@@ -1,0 +1,8 @@
+id = 'forgit'
+name = 'forgit'
+
+repository = 'https://github.com/wfxr/forgit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forgit'

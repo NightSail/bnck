@@ -1,0 +1,12 @@
+id = 'cloudflare-speed-cli'
+name = 'cloudflare-speed-cli'
+
+repository = 'https://github.com/kavehtehrani/cloudflare-speed-cli'
+
+[[package]]
+channel = 'arch'
+name = 'cloudflare-speed-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudflare-speed-cli'

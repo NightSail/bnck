@@ -2,7 +2,7 @@ id = 'flow-control'
 name = 'flow-control'
 
 homepage = 'https://flow-control.dev/'
-repository = 'https://github.com/programmersd21/flow'
+repository = 'https://github.com/neurocyte/flow'
 
 [[package]]
 channel = 'homebrew'

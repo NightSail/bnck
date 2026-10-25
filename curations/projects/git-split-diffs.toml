@@ -1,0 +1,8 @@
+id = 'git-split-diffs'
+name = 'git-split-diffs'
+
+repository = 'https://github.com/banga/git-split-diffs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-split-diffs'

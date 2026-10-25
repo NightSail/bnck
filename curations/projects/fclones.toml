@@ -1,0 +1,12 @@
+id = 'fclones'
+name = 'fclones'
+
+repository = 'https://github.com/pkolaczk/fclones'
+
+[[package]]
+channel = 'arch'
+name = 'fclones'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fclones'

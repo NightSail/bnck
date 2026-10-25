@@ -1,0 +1,12 @@
+id = 'ali'
+name = 'ali'
+
+repository = 'https://github.com/nakabonne/ali'
+
+[[package]]
+channel = 'arch'
+name = 'ali'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ali'

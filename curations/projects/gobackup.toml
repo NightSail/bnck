@@ -1,0 +1,8 @@
+id = 'gobackup'
+name = 'gobackup'
+
+repository = 'https://github.com/gobackup/gobackup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gobackup'

@@ -1,0 +1,8 @@
+id = 'bagels'
+name = 'bagels'
+
+repository = 'https://github.com/EnhancedJax/Bagels'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bagels'

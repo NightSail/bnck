@@ -1,0 +1,8 @@
+id = 'desed'
+name = 'desed'
+
+repository = 'https://github.com/SoptikHa2/desed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/desed'

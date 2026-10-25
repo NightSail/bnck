@@ -1,0 +1,8 @@
+id = 'ad'
+name = 'ad'
+
+repository = 'https://github.com/sminez/ad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ad'

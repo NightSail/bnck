@@ -1,0 +1,8 @@
+id = 'clipboard'
+name = 'clipboard'
+
+repository = 'https://github.com/Slackadays/Clipboard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clipboard'

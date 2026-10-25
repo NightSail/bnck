@@ -1,0 +1,8 @@
+id = 'bbrew'
+name = 'bbrew'
+
+repository = 'https://github.com/Valkyrie00/bold-brew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bbrew'

@@ -1,0 +1,8 @@
+id = 'gcli'
+name = 'gcli'
+
+repository = 'https://github.com/herrhotzenplotz/gcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcli'

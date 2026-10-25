@@ -3,6 +3,12 @@ name = 'gitui'
 
 repository = 'https://github.com/gitui-org/gitui'
 
+links = ['https://github.com/extrawurst/gitui']
+
+[[package]]
+channel = 'arch'
+name = 'gitui'
+
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gitui'

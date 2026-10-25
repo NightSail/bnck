@@ -1,0 +1,8 @@
+id = 'depsguard'
+name = 'depsguard'
+
+repository = 'https://github.com/arnica/depsguard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/depsguard'

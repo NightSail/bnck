@@ -1,0 +1,8 @@
+id = 'chdig'
+name = 'chdig'
+
+repository = 'https://github.com/azat/chdig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chdig'

@@ -1,0 +1,8 @@
+id = 'gemini-cli'
+name = 'gemini-cli'
+
+repository = 'https://github.com/google-gemini/gemini-cli'
+
+[[package]]
+channel = 'arch'
+name = 'gemini-cli'

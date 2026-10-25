@@ -1,0 +1,8 @@
+id = 'flowrs'
+name = 'flowrs'
+
+repository = 'https://github.com/jvanbuel/flowrs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flowrs'

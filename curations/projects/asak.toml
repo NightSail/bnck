@@ -1,0 +1,8 @@
+id = 'asak'
+name = 'asak'
+
+repository = 'https://github.com/chaosprint/asak'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asak'

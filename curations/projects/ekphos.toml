@@ -1,0 +1,8 @@
+id = 'ekphos'
+name = 'ekphos'
+
+repository = 'https://github.com/hanebox/ekphos'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ekphos'

@@ -1,0 +1,12 @@
+id = 'asn'
+name = 'asn'
+
+repository = 'https://github.com/nitefood/asn'
+
+[[package]]
+channel = 'debian'
+name = 'asn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asn'

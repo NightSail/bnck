@@ -1,0 +1,8 @@
+id = 'github-cli'
+name = 'GitHub CLI'
+
+repository = 'https://github.com/cli/cli'
+
+[[package]]
+channel = 'arch'
+name = 'github-cli'

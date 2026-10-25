@@ -1,0 +1,8 @@
+id = 'dnspyre'
+name = 'dnspyre'
+
+repository = 'https://github.com/Tantalor93/dnspyre'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnspyre'

@@ -1,0 +1,8 @@
+id = 'dstask'
+name = 'dstask'
+
+repository = 'https://github.com/naggie/dstask'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dstask'

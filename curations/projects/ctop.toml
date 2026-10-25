@@ -1,0 +1,8 @@
+id = 'ctop'
+name = 'ctop'
+
+repository = 'https://github.com/bcicen/ctop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctop'

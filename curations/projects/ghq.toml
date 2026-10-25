@@ -1,0 +1,12 @@
+id = 'ghq'
+name = 'ghq'
+
+repository = 'https://github.com/x-motemen/ghq'
+
+[[package]]
+channel = 'arch'
+name = 'ghq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghq'

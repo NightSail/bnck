@@ -1,0 +1,8 @@
+id = 'framework-tool-tui'
+name = 'framework-tool-tui'
+
+repository = 'https://github.com/grouzen/framework-tool-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/framework-tool-tui'

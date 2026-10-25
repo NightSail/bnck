@@ -1,0 +1,8 @@
+id = 'gittype'
+name = 'gittype'
+
+repository = 'https://github.com/unhappychoice/gittype'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gittype'

@@ -1,0 +1,8 @@
+id = 'concord'
+name = 'concord'
+
+repository = 'https://github.com/chojs23/concord'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/concord'

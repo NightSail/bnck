@@ -1,0 +1,12 @@
+id = 'codex'
+name = 'codex'
+
+repository = 'https://github.com/openai/codex'
+
+[[package]]
+channel = 'arch'
+name = 'openai-codex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/codex'

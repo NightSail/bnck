@@ -1,0 +1,8 @@
+id = 'gaze'
+name = 'gaze'
+
+repository = 'https://github.com/wtetsu/gaze'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gaze'

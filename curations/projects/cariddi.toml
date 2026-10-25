@@ -1,0 +1,8 @@
+id = 'cariddi'
+name = 'cariddi'
+
+repository = 'https://github.com/edoardottt/cariddi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cariddi'

@@ -1,0 +1,8 @@
+id = 'fblog'
+name = 'fblog'
+
+repository = 'https://github.com/brocode/fblog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fblog'

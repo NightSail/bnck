@@ -1,0 +1,8 @@
+id = 'dtop'
+name = 'dtop'
+
+repository = 'https://github.com/amir20/dtop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtop'
