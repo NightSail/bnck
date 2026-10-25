@@ -1,0 +1,84 @@
+id = 'kubernetes-kubernetes'
+name = 'kubernetes'
+
+homepage = 'https://github.com/kubernetes/kubernetes'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.30'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.30-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.30-kubeadm'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.30-systemd'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.31'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.31-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.31-kubeadm'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.31-systemd'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.32'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.32-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.32-kubeadm'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.32-systemd'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.33'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.33-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.33-kubeadm'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.33-systemd'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.34'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.34-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.34-kubeadm'
+
+[[package]]
+channel = 'fedora'
+name = 'kubernetes1.34-systemd'

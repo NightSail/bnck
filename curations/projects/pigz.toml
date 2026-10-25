@@ -1,0 +1,21 @@
+id = 'pigz'
+name = 'pigz'
+
+homepage = 'https://www.zlib.net/pigz'
+repository = 'https://github.com/madler/pigz.git'
+
+[[package]]
+channel = 'arch'
+name = 'pigz'
+
+[[package]]
+channel = 'debian'
+name = 'pigz'
+
+[[package]]
+channel = 'fedora'
+name = 'pigz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pigz'

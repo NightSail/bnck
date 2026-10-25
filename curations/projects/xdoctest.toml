@@ -1,0 +1,8 @@
+id = 'xdoctest'
+name = 'xdoctest'
+
+homepage = 'https://github.com/Erotemic/xdoctest'
+
+[[package]]
+channel = 'debian'
+name = 'xdoctest'

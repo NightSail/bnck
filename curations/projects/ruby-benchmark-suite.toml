@@ -1,0 +1,8 @@
+id = 'ruby-benchmark-suite'
+name = 'ruby-benchmark-suite'
+
+homepage = 'https://github.com/evanphx/benchmark_suite'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-benchmark-suite'

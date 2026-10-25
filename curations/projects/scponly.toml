@@ -1,0 +1,12 @@
+id = 'scponly'
+name = 'scponly'
+
+homepage = 'http://sublimation.org/scponly'
+
+[[package]]
+channel = 'arch'
+name = 'scponly'
+
+[[package]]
+channel = 'fedora'
+name = 'scponly'

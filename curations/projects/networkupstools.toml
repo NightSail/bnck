@@ -1,0 +1,32 @@
+id = 'networkupstools'
+name = 'networkupstools'
+
+homepage = 'https://networkupstools.org'
+
+[[package]]
+channel = 'arch'
+name = 'nut'
+
+[[package]]
+channel = 'debian'
+name = 'nut-client'
+
+[[package]]
+channel = 'debian'
+name = 'nut-monitor'
+
+[[package]]
+channel = 'debian'
+name = 'nut-server'
+
+[[package]]
+channel = 'fedora'
+name = 'nut'
+
+[[package]]
+channel = 'fedora'
+name = 'nut-client'
+
+[[package]]
+channel = 'fedora'
+name = 'nut-xml'

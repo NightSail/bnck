@@ -1,0 +1,8 @@
+id = 'nautic'
+name = 'nautic'
+
+homepage = 'https://sourceforge.net/projects/nauticalmanac'
+
+[[package]]
+channel = 'debian'
+name = 'nautic'

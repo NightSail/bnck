@@ -1,0 +1,8 @@
+id = 'difi'
+name = 'difi'
+
+repository = 'https://github.com/xguot/difi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/difi'

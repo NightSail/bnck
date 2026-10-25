@@ -1,0 +1,17 @@
+id = 'emscripten'
+name = 'emscripten'
+
+homepage = 'https://emscripten.org'
+repository = 'https://github.com/emscripten-core/emscripten.git'
+
+[[package]]
+channel = 'arch'
+name = 'emscripten'
+
+[[package]]
+channel = 'debian'
+name = 'emscripten'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emscripten'

@@ -1,0 +1,8 @@
+id = 'paccat'
+name = 'paccat'
+
+homepage = 'https://github.com/morganamilo/paccat'
+
+[[package]]
+channel = 'arch'
+name = 'paccat'

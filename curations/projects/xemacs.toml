@@ -1,0 +1,24 @@
+id = 'xemacs'
+name = 'xemacs'
+
+homepage = 'http://www.xemacs.org'
+
+[[package]]
+channel = 'debian'
+name = 'xemacs21-bin'
+
+[[package]]
+channel = 'debian'
+name = 'xemacs21-mule'
+
+[[package]]
+channel = 'debian'
+name = 'xemacs21-mule-canna-wnn'
+
+[[package]]
+channel = 'debian'
+name = 'xemacs21-nomule'
+
+[[package]]
+channel = 'debian'
+name = 'xemacs21-support'

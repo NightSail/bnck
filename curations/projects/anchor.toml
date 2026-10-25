@@ -1,0 +1,8 @@
+id = 'anchor'
+name = 'anchor'
+
+homepage = 'https://anchor-lang.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/anchor'

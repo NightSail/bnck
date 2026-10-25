@@ -1,0 +1,8 @@
+id = 'sz'
+name = 'sz'
+
+homepage = 'https://szcompressor.org'
+
+[[package]]
+channel = 'arch'
+name = 'sz'

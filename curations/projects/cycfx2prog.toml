@@ -1,0 +1,12 @@
+id = 'cycfx2prog'
+name = 'cycfx2prog'
+
+homepage = 'https://www.triplespark.net/elec/periph/USB-FX2/software'
+
+[[package]]
+channel = 'arch'
+name = 'cycfx2prog'
+
+[[package]]
+channel = 'debian'
+name = 'cycfx2prog'

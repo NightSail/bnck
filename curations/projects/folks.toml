@@ -1,0 +1,16 @@
+id = 'folks'
+name = 'folks'
+
+homepage = 'https://wiki.gnome.org/Projects/Folks'
+
+[[package]]
+channel = 'arch'
+name = 'folks'
+
+[[package]]
+channel = 'debian'
+name = 'folks-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'folks-tools'

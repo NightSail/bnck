@@ -1,0 +1,12 @@
+id = 'humanfriendly'
+name = 'humanfriendly'
+
+homepage = 'https://humanfriendly.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'humanfriendly'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-humanfriendly'

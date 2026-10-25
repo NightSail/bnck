@@ -1,0 +1,8 @@
+id = 'u3-tool'
+name = 'u3-tool'
+
+homepage = 'https://sourceforge.net/projects/u3-tool'
+
+[[package]]
+channel = 'debian'
+name = 'u3-tool'

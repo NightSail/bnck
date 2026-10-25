@@ -1,0 +1,6 @@
+id = 'procinfo'
+name = 'procinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'procinfo'

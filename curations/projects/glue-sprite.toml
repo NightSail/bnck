@@ -1,0 +1,6 @@
+id = 'glue-sprite'
+name = 'glue-sprite'
+
+[[package]]
+channel = 'debian'
+name = 'glue-sprite'

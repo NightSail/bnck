@@ -1,0 +1,16 @@
+id = 'cinnamon-session'
+name = 'cinnamon-session'
+
+homepage = 'https://github.com/linuxmint/cinnamon-session'
+
+[[package]]
+channel = 'arch'
+name = 'cinnamon-session'
+
+[[package]]
+channel = 'debian'
+name = 'cinnamon-session'
+
+[[package]]
+channel = 'fedora'
+name = 'cinnamon-session'

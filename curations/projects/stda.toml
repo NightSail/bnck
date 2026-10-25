@@ -1,0 +1,6 @@
+id = 'stda'
+name = 'stda'
+
+[[package]]
+channel = 'debian'
+name = 'stda'

@@ -1,0 +1,9 @@
+id = 'libjwt'
+name = 'libjwt'
+
+homepage = 'https://libjwt.io'
+repository = 'https://github.com/benmcollins/libjwt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libjwt'

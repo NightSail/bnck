@@ -1,0 +1,9 @@
+id = 'scorecard'
+name = 'scorecard'
+
+homepage = 'https://scorecard.dev'
+repository = 'https://github.com/ossf/scorecard.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scorecard'

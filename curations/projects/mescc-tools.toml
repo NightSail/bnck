@@ -1,0 +1,8 @@
+id = 'mescc-tools'
+name = 'mescc-tools'
+
+homepage = 'https://savannah.nongnu.org/projects/mescc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mescc-tools'

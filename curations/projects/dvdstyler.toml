@@ -1,0 +1,8 @@
+id = 'dvdstyler'
+name = 'dvdstyler'
+
+homepage = 'https://www.dvdstyler.org'
+
+[[package]]
+channel = 'arch'
+name = 'dvdstyler'

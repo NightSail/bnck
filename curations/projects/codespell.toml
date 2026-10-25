@@ -1,0 +1,20 @@
+id = 'codespell'
+name = 'codespell'
+
+homepage = 'https://github.com/codespell-project/codespell'
+
+[[package]]
+channel = 'arch'
+name = 'codespell'
+
+[[package]]
+channel = 'debian'
+name = 'codespell'
+
+[[package]]
+channel = 'fedora'
+name = 'codespell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codespell'

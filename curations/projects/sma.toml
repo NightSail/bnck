@@ -1,0 +1,8 @@
+id = 'sma'
+name = 'sma'
+
+homepage = 'http://www.klake.org/sma'
+
+[[package]]
+channel = 'debian'
+name = 'sma'

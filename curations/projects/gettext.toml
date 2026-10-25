@@ -1,0 +1,44 @@
+id = 'gettext'
+name = 'gettext'
+
+homepage = 'https://www.gnu.org/software/gettext'
+
+[[package]]
+channel = 'arch'
+name = 'gettext'
+
+[[package]]
+channel = 'debian'
+name = 'autopoint'
+
+[[package]]
+channel = 'debian'
+name = 'gettext'
+
+[[package]]
+channel = 'debian'
+name = 'gettext-base'
+
+[[package]]
+channel = 'fedora'
+name = 'gettext'
+
+[[package]]
+channel = 'fedora'
+name = 'gettext-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gettext-envsubst'
+
+[[package]]
+channel = 'fedora'
+name = 'gettext-runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'msghack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gettext'

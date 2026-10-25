@@ -1,0 +1,8 @@
+id = 'oo7-cli'
+name = 'oo7-cli'
+
+homepage = 'https://crates.io/crates/oo7-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'oo7-cli'

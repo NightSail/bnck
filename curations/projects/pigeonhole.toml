@@ -1,0 +1,12 @@
+id = 'pigeonhole'
+name = 'pigeonhole'
+
+homepage = 'https://pigeonhole.dovecot.org'
+
+[[package]]
+channel = 'arch'
+name = 'pigeonhole'
+
+[[package]]
+channel = 'arch'
+name = 'pigeonhole23'

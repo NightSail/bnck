@@ -1,0 +1,12 @@
+id = 'libgnomekbd'
+name = 'libgnomekbd'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libgnomekbd'
+
+[[package]]
+channel = 'arch'
+name = 'libgnomekbd'
+
+[[package]]
+channel = 'fedora'
+name = 'libgnomekbd'

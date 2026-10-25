@@ -1,0 +1,8 @@
+id = 'njplot'
+name = 'njplot'
+
+homepage = 'https://pbil.univ-lyon1.fr/software/njplot'
+
+[[package]]
+channel = 'debian'
+name = 'njplot'

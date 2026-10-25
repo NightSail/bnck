@@ -1,0 +1,20 @@
+id = 'corkscrew'
+name = 'corkscrew'
+
+homepage = 'https://packages.debian.org/sid/corkscrew'
+
+[[package]]
+channel = 'arch'
+name = 'corkscrew'
+
+[[package]]
+channel = 'debian'
+name = 'corkscrew'
+
+[[package]]
+channel = 'fedora'
+name = 'corkscrew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/corkscrew'

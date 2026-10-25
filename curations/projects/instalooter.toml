@@ -1,0 +1,8 @@
+id = 'instalooter'
+name = 'instalooter'
+
+homepage = 'https://github.com/althonos/instalooter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/instalooter'

@@ -1,0 +1,8 @@
+id = 'libghc-ghc-events-dev'
+name = 'libghc-ghc-events-dev'
+
+homepage = 'https://hackage.haskell.org/package/ghc-events'
+
+[[package]]
+channel = 'debian'
+name = 'libghc-ghc-events-dev'

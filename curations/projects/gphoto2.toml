@@ -1,0 +1,8 @@
+id = 'gphoto2'
+name = 'gphoto2'
+
+homepage = 'https://github.com/gphoto/gphoto2'
+
+[[package]]
+channel = 'debian'
+name = 'gphoto2'

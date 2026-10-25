@@ -1,0 +1,8 @@
+id = 'libdevel-mat-perl'
+name = 'libdevel-mat-perl'
+
+homepage = 'https://metacpan.org/release/Devel-MAT'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-mat-perl'

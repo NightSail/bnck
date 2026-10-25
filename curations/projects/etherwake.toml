@@ -1,0 +1,8 @@
+id = 'etherwake'
+name = 'etherwake'
+
+homepage = 'https://web.archive.org/web/20060411015205/http://www.scyld.com/wakeonlan.html'
+
+[[package]]
+channel = 'debian'
+name = 'etherwake'

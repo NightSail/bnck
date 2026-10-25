@@ -1,0 +1,8 @@
+id = 'jparse'
+name = 'jparse'
+
+homepage = 'https://sourceforge.net/projects/jaula'
+
+[[package]]
+channel = 'debian'
+name = 'jparse'

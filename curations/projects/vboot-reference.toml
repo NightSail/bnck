@@ -1,0 +1,20 @@
+id = 'vboot-reference'
+name = 'vboot_reference'
+
+homepage = 'https://chromium.googlesource.com/chromiumos/platform/vboot_reference'
+
+[[package]]
+channel = 'debian'
+name = 'cgpt'
+
+[[package]]
+channel = 'debian'
+name = 'vboot-kernel-utils'
+
+[[package]]
+channel = 'debian'
+name = 'vboot-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'vboot-utils'

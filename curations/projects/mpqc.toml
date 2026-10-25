@@ -1,0 +1,24 @@
+id = 'mpqc'
+name = 'mpqc'
+
+homepage = 'http://www.mpqc.org'
+
+[[package]]
+channel = 'debian'
+name = 'libsc-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mpqc'
+
+[[package]]
+channel = 'debian'
+name = 'mpqc-support'
+
+[[package]]
+channel = 'fedora'
+name = 'mpqc'
+
+[[package]]
+channel = 'fedora'
+name = 'mpqc-devel'

@@ -1,0 +1,8 @@
+id = 'surf-display'
+name = 'surf-display'
+
+homepage = 'https://code.it-zukunft-schule.de/cgit/surf-display'
+
+[[package]]
+channel = 'debian'
+name = 'surf-display'

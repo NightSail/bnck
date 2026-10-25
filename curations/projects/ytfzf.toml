@@ -1,0 +1,12 @@
+id = 'ytfzf'
+name = 'ytfzf'
+
+homepage = 'https://github.com/pystardust/ytfzf'
+
+[[package]]
+channel = 'arch'
+name = 'ytfzf'
+
+[[package]]
+channel = 'debian'
+name = 'ytfzf'

@@ -1,0 +1,8 @@
+id = 'python3-phyghtmap'
+name = 'python3-phyghtmap'
+
+homepage = 'http://katze.tfiu.de/projects/phyghtmap'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-phyghtmap'

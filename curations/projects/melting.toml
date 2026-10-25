@@ -1,0 +1,8 @@
+id = 'melting'
+name = 'melting'
+
+homepage = 'https://www.ebi.ac.uk/compneur-srv/melting'
+
+[[package]]
+channel = 'debian'
+name = 'melting'

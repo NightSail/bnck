@@ -1,0 +1,8 @@
+id = 'dmenu-mac'
+name = 'dmenu-mac'
+
+homepage = 'https://github.com/oNaiPs/dmenu-mac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dmenu-mac'

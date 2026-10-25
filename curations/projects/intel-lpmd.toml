@@ -1,0 +1,16 @@
+id = 'intel-lpmd'
+name = 'intel-lpmd'
+
+homepage = 'https://github.com/intel/intel-lpmd'
+
+[[package]]
+channel = 'arch'
+name = 'intel-lpmd'
+
+[[package]]
+channel = 'debian'
+name = 'intel-lpmd'
+
+[[package]]
+channel = 'fedora'
+name = 'intel-lpmd'

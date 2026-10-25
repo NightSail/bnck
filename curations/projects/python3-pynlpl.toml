@@ -1,0 +1,8 @@
+id = 'python3-pynlpl'
+name = 'python3-pynlpl'
+
+homepage = 'https://github.com/proycon/pynlpl'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pynlpl'

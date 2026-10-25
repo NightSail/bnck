@@ -1,0 +1,8 @@
+id = 'djstub'
+name = 'djstub'
+
+homepage = 'https://github.com/stsp/djstub'
+
+[[package]]
+channel = 'debian'
+name = 'djstub'

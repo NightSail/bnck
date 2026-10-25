@@ -1,0 +1,8 @@
+id = 'nox-nox'
+name = 'nox'
+
+homepage = 'https://nox.thea.codes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nox'

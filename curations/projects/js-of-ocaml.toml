@@ -1,0 +1,8 @@
+id = 'js-of-ocaml'
+name = 'js-of-ocaml'
+
+homepage = 'https://ocsigen.org/js_of_ocaml'
+
+[[package]]
+channel = 'debian'
+name = 'js-of-ocaml'

@@ -1,0 +1,20 @@
+id = 'kded'
+name = 'kded'
+
+homepage = 'https://invent.kde.org/frameworks/kded'
+
+[[package]]
+channel = 'debian'
+name = 'kded5'
+
+[[package]]
+channel = 'debian'
+name = 'kded6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kded'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kded'

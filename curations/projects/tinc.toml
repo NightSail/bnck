@@ -1,0 +1,20 @@
+id = 'tinc'
+name = 'tinc'
+
+homepage = 'https://www.tinc-vpn.org'
+
+[[package]]
+channel = 'arch'
+name = 'tinc'
+
+[[package]]
+channel = 'debian'
+name = 'tinc'
+
+[[package]]
+channel = 'fedora'
+name = 'tinc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinc'

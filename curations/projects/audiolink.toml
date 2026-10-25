@@ -1,0 +1,8 @@
+id = 'audiolink'
+name = 'audiolink'
+
+homepage = 'http://audiolink.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'audiolink'

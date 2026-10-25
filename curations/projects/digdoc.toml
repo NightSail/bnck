@@ -1,0 +1,8 @@
+id = 'digdoc'
+name = 'digdoc'
+
+homepage = 'https://github.com/dig-doc/digdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'digdoc'

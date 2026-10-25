@@ -1,0 +1,8 @@
+id = 'print-manager'
+name = 'print-manager'
+
+homepage = 'https://apps.kde.org/en/print-manager'
+
+[[package]]
+channel = 'debian'
+name = 'print-manager'

@@ -1,0 +1,12 @@
+id = 'python3-pyhcl'
+name = 'python3-pyhcl'
+
+homepage = 'https://github.com/virtuald/pyhcl'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyhcl'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyhcl'

@@ -1,0 +1,6 @@
+id = 'enscribe'
+name = 'enscribe'
+
+[[package]]
+channel = 'debian'
+name = 'enscribe'

@@ -1,0 +1,24 @@
+id = 'littlecms'
+name = 'littlecms'
+
+homepage = 'https://www.littlecms.com'
+
+[[package]]
+channel = 'arch'
+name = 'lcms2'
+
+[[package]]
+channel = 'debian'
+name = 'liblcms2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'lcms'
+
+[[package]]
+channel = 'fedora'
+name = 'lcms2-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/little-cms2'

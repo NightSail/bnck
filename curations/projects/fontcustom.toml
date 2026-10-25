@@ -1,0 +1,8 @@
+id = 'fontcustom'
+name = 'fontcustom'
+
+homepage = 'https://github.com/FontCustom/fontcustom'
+
+[[package]]
+channel = 'debian'
+name = 'fontcustom'

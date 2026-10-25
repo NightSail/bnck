@@ -1,0 +1,8 @@
+id = 'xf86-input-wacom'
+name = 'xf86-input-wacom'
+
+homepage = 'https://github.com/linuxwacom/xf86-input-wacom'
+
+[[package]]
+channel = 'arch'
+name = 'xf86-input-wacom'

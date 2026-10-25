@@ -1,0 +1,16 @@
+id = 'pretty-yaml'
+name = 'pretty-yaml'
+
+homepage = 'https://github.com/mk-fg/pretty-yaml'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyaml'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pretty-yaml'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pretty-yaml'

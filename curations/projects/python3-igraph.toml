@@ -1,0 +1,8 @@
+id = 'python3-igraph'
+name = 'python3-igraph'
+
+homepage = 'https://github.com/igraph/python-igraph'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-igraph'

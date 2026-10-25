@@ -1,0 +1,8 @@
+id = 'python3-pykulersky'
+name = 'python3-pykulersky'
+
+homepage = 'https://github.com/emlove/pykulersky'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pykulersky'

@@ -1,0 +1,8 @@
+id = 'badger'
+name = 'badger'
+
+homepage = 'https://github.com/dgraph-io/badger'
+
+[[package]]
+channel = 'debian'
+name = 'badger'

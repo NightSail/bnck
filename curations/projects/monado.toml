@@ -1,0 +1,16 @@
+id = 'monado'
+name = 'monado'
+
+homepage = 'https://monado.freedesktop.org'
+
+[[package]]
+channel = 'debian'
+name = 'monado-cli'
+
+[[package]]
+channel = 'debian'
+name = 'monado-gui'
+
+[[package]]
+channel = 'debian'
+name = 'monado-service'

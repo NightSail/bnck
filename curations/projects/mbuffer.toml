@@ -1,0 +1,16 @@
+id = 'mbuffer'
+name = 'mbuffer'
+
+homepage = 'https://www.maier-komor.de/mbuffer.html'
+
+[[package]]
+channel = 'arch'
+name = 'mbuffer'
+
+[[package]]
+channel = 'debian'
+name = 'mbuffer'
+
+[[package]]
+channel = 'fedora'
+name = 'mbuffer'

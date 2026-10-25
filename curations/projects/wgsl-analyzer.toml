@@ -1,0 +1,8 @@
+id = 'wgsl-analyzer'
+name = 'wgsl-analyzer'
+
+homepage = 'https://wgsl-analyzer.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wgsl-analyzer'

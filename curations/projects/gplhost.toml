@@ -1,0 +1,20 @@
+id = 'gplhost'
+name = 'gplhost'
+
+homepage = 'http://www.gplhost.com/software-mysqmail.html'
+
+[[package]]
+channel = 'debian'
+name = 'mysqmail-courier-logger'
+
+[[package]]
+channel = 'debian'
+name = 'mysqmail-dovecot-logger'
+
+[[package]]
+channel = 'debian'
+name = 'mysqmail-postfix-logger'
+
+[[package]]
+channel = 'debian'
+name = 'mysqmail-pure-ftpd-logger'

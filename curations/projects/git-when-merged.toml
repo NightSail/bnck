@@ -1,0 +1,8 @@
+id = 'git-when-merged'
+name = 'git-when-merged'
+
+repository = 'https://github.com/mhagger/git-when-merged.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-when-merged'

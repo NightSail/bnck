@@ -1,0 +1,16 @@
+id = 'tiled'
+name = 'tiled'
+
+homepage = 'http://www.mapeditor.org'
+
+[[package]]
+channel = 'arch'
+name = 'tiled'
+
+[[package]]
+channel = 'debian'
+name = 'tiled'
+
+[[package]]
+channel = 'fedora'
+name = 'tiled'

@@ -1,0 +1,9 @@
+id = 'flagd'
+name = 'flagd'
+
+homepage = 'https://flagd.dev'
+repository = 'https://github.com/open-feature/flagd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flagd'

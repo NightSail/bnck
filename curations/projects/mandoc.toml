@@ -1,0 +1,16 @@
+id = 'mandoc'
+name = 'mandoc'
+
+homepage = 'https://mdocml.bsd.lv'
+
+[[package]]
+channel = 'arch'
+name = 'mandoc'
+
+[[package]]
+channel = 'debian'
+name = 'mandoc'
+
+[[package]]
+channel = 'fedora'
+name = 'mandoc'

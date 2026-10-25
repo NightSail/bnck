@@ -1,0 +1,14 @@
+id = 'software-properties'
+name = 'software-properties'
+
+[[package]]
+channel = 'debian'
+name = 'software-properties-common'
+
+[[package]]
+channel = 'debian'
+name = 'software-properties-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'software-properties-qt'

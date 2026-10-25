@@ -1,0 +1,8 @@
+id = 'libraritan-rpc-perl'
+name = 'libraritan-rpc-perl'
+
+homepage = 'https://www.raritan.com/support/product/pdu-g2'
+
+[[package]]
+channel = 'debian'
+name = 'libraritan-rpc-perl'

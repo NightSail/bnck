@@ -1,0 +1,8 @@
+id = 'prometheus-homeplug-exporter'
+name = 'prometheus-homeplug-exporter'
+
+homepage = 'https://github.com/NightTsarina/homeplug_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-homeplug-exporter'

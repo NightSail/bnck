@@ -1,0 +1,8 @@
+id = 'sasl-xoauth2'
+name = 'sasl-xoauth2'
+
+homepage = 'https://github.com/tarickb/sasl-xoauth2'
+
+[[package]]
+channel = 'fedora'
+name = 'sasl-xoauth2'

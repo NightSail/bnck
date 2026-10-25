@@ -1,0 +1,8 @@
+id = 'teamgit'
+name = 'teamgit'
+
+homepage = 'http://gitorious.org/projects/teamgit'
+
+[[package]]
+channel = 'fedora'
+name = 'teamgit'

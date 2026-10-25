@@ -1,0 +1,20 @@
+id = 'diffoscope'
+name = 'diffoscope'
+
+homepage = 'https://diffoscope.org'
+
+[[package]]
+channel = 'arch'
+name = 'diffoscope'
+
+[[package]]
+channel = 'debian'
+name = 'diffoscope-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'diffoscope'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diffoscope'

@@ -1,0 +1,8 @@
+id = 'fedrq'
+name = 'fedrq'
+
+homepage = 'https://fedrq.gtmx.me'
+
+[[package]]
+channel = 'fedora'
+name = 'fedrq'

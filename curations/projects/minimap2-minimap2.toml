@@ -1,0 +1,8 @@
+id = 'minimap2-minimap2'
+name = 'minimap2'
+
+homepage = 'https://lh3.github.io/minimap2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minimap2'

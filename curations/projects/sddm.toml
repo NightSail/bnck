@@ -1,0 +1,16 @@
+id = 'sddm'
+name = 'sddm'
+
+homepage = 'https://github.com/sddm/sddm'
+
+[[package]]
+channel = 'arch'
+name = 'sddm'
+
+[[package]]
+channel = 'debian'
+name = 'sddm'
+
+[[package]]
+channel = 'fedora'
+name = 'sddm'

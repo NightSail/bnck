@@ -1,0 +1,8 @@
+id = 'buffyboard'
+name = 'buffyboard'
+
+homepage = 'https://gitlab.postmarketos.org/postmarketOS/buffybox'
+
+[[package]]
+channel = 'debian'
+name = 'buffyboard'

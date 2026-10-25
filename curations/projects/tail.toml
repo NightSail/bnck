@@ -1,0 +1,12 @@
+id = 'tail'
+name = 'tail'
+
+homepage = 'https://github.com/nxadm/tail'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-nxadm-tail-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-nxadm-tail'

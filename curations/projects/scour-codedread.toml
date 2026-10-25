@@ -1,0 +1,8 @@
+id = 'scour-codedread'
+name = 'scour'
+
+homepage = 'https://github.com/codedread/scour'
+
+[[package]]
+channel = 'debian'
+name = 'scour'

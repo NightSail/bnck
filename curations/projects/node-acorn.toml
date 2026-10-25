@@ -1,0 +1,8 @@
+id = 'node-acorn'
+name = 'node-acorn'
+
+homepage = 'https://github.com/ternjs/acorn'
+
+[[package]]
+channel = 'debian'
+name = 'node-acorn'

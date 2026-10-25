@@ -1,0 +1,8 @@
+id = 'diesel-cli'
+name = 'diesel-cli'
+
+homepage = 'https://diesel.rs'
+
+[[package]]
+channel = 'arch'
+name = 'diesel-cli'

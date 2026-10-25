@@ -1,0 +1,8 @@
+id = 'sed-sed'
+name = 'sed'
+
+homepage = 'http://sed.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'sed'

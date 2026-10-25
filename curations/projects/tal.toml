@@ -1,0 +1,8 @@
+id = 'tal'
+name = 'tal'
+
+homepage = 'https://thomasjensen.com/software/tal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tal'

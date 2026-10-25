@@ -1,0 +1,6 @@
+id = 'pppoeconf'
+name = 'pppoeconf'
+
+[[package]]
+channel = 'debian'
+name = 'pppoeconf'

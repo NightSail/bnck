@@ -1,0 +1,9 @@
+id = 'sc68'
+name = 'sc68'
+
+homepage = 'https://sc68.atari.org/project.html'
+repository = 'https://svn.code.sf.net/p/sc68/code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sc68'

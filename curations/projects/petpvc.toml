@@ -1,0 +1,8 @@
+id = 'petpvc'
+name = 'petpvc'
+
+homepage = 'https://github.com/UCL/PETPVC'
+
+[[package]]
+channel = 'fedora'
+name = 'petpvc'

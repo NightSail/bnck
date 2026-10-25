@@ -1,0 +1,8 @@
+id = 'tudu'
+name = 'tudu'
+
+homepage = 'https://code.meskio.net/tudu'
+
+[[package]]
+channel = 'debian'
+name = 'tudu'

@@ -1,0 +1,8 @@
+id = 'fcitx-imlist'
+name = 'fcitx-imlist'
+
+homepage = 'https://github.com/kenhys/fcitx-imlist'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx-imlist'

@@ -1,0 +1,24 @@
+id = 'libratbag'
+name = 'libratbag'
+
+homepage = 'https://github.com/libratbag/libratbag'
+
+[[package]]
+channel = 'arch'
+name = 'libratbag'
+
+[[package]]
+channel = 'debian'
+name = 'lur-command'
+
+[[package]]
+channel = 'debian'
+name = 'ratbagd'
+
+[[package]]
+channel = 'fedora'
+name = 'liblur'
+
+[[package]]
+channel = 'fedora'
+name = 'libratbag-ratbagd'

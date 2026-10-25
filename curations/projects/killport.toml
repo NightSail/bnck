@@ -1,0 +1,8 @@
+id = 'killport'
+name = 'killport'
+
+homepage = 'https://github.com/jkfran/killport'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/killport'

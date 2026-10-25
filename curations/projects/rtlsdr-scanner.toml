@@ -1,0 +1,8 @@
+id = 'rtlsdr-scanner'
+name = 'rtlsdr-scanner'
+
+homepage = 'http://eartoearoak.com/software/rtlsdr-scanner'
+
+[[package]]
+channel = 'fedora'
+name = 'rtlsdr-scanner'

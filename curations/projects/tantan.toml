@@ -1,0 +1,8 @@
+id = 'tantan'
+name = 'tantan'
+
+homepage = 'https://gitlab.com/mcfrith/tantan'
+
+[[package]]
+channel = 'debian'
+name = 'tantan'

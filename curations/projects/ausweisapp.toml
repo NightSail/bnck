@@ -1,0 +1,12 @@
+id = 'ausweisapp'
+name = 'ausweisapp'
+
+homepage = 'https://www.ausweisapp.bund.de'
+
+[[package]]
+channel = 'arch'
+name = 'ausweisapp'
+
+[[package]]
+channel = 'debian'
+name = 'ausweisapp'

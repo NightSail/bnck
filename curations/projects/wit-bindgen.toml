@@ -1,0 +1,8 @@
+id = 'wit-bindgen'
+name = 'wit-bindgen'
+
+homepage = 'https://github.com/bytecodealliance/wit-bindgen'
+
+[[package]]
+channel = 'arch'
+name = 'wit-bindgen'

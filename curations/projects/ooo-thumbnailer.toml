@@ -1,0 +1,8 @@
+id = 'ooo-thumbnailer'
+name = 'ooo-thumbnailer'
+
+homepage = 'https://launchpad.net/ooo-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'ooo-thumbnailer'

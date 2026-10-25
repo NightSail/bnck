@@ -1,0 +1,8 @@
+id = 'lego-lego'
+name = 'lego'
+
+homepage = 'https://go-acme.github.io/lego'
+
+[[package]]
+channel = 'arch'
+name = 'lego'

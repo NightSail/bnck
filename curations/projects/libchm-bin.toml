@@ -1,0 +1,8 @@
+id = 'libchm-bin'
+name = 'libchm-bin'
+
+homepage = 'https://github.com/jedwing/CHMLib'
+
+[[package]]
+channel = 'debian'
+name = 'libchm-bin'

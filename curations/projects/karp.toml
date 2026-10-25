@@ -1,0 +1,8 @@
+id = 'karp'
+name = 'karp'
+
+homepage = 'https://apps.kde.org/karp'
+
+[[package]]
+channel = 'fedora'
+name = 'karp'

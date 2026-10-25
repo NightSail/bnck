@@ -1,0 +1,12 @@
+id = 'xxkb'
+name = 'xxkb'
+
+homepage = 'https://sourceforge.net/projects/xxkb'
+
+[[package]]
+channel = 'arch'
+name = 'xxkb'
+
+[[package]]
+channel = 'debian'
+name = 'xxkb'

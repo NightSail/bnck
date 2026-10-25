@@ -1,0 +1,9 @@
+id = 'opensca-cli'
+name = 'opensca-cli'
+
+homepage = 'https://opensca.xmirror.cn'
+repository = 'https://github.com/XmirrorSecurity/OpenSCA-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opensca-cli'

@@ -1,0 +1,16 @@
+id = 'darktable'
+name = 'darktable'
+
+homepage = 'https://darktable.org'
+
+[[package]]
+channel = 'arch'
+name = 'darktable'
+
+[[package]]
+channel = 'debian'
+name = 'darktable'
+
+[[package]]
+channel = 'fedora'
+name = 'darktable'

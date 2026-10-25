@@ -1,0 +1,8 @@
+id = 'mavproxy'
+name = 'mavproxy'
+
+homepage = 'https://github.com/ArduPilot/MAVProxy'
+
+[[package]]
+channel = 'debian'
+name = 'mavproxy'

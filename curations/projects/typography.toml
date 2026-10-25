@@ -1,0 +1,8 @@
+id = 'typography'
+name = 'typography'
+
+homepage = 'https://gitlab.gnome.org/World/design/typography'
+
+[[package]]
+channel = 'arch'
+name = 'typography'

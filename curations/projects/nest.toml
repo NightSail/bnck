@@ -1,0 +1,12 @@
+id = 'nest'
+name = 'nest'
+
+homepage = 'https://www.nest-simulator.org'
+
+[[package]]
+channel = 'fedora'
+name = 'nest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nest'

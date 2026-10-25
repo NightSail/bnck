@@ -1,0 +1,8 @@
+id = 'openeuclide'
+name = 'openeuclide'
+
+homepage = 'http://coulon.publi.free.fr/openeuclide/index.php'
+
+[[package]]
+channel = 'fedora'
+name = 'openeuclide'

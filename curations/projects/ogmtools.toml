@@ -1,0 +1,20 @@
+id = 'ogmtools'
+name = 'ogmtools'
+
+homepage = 'https://www.bunkus.org/videotools/ogmtools'
+
+[[package]]
+channel = 'arch'
+name = 'ogmtools'
+
+[[package]]
+channel = 'debian'
+name = 'ogmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'ogmtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ogmtools'

@@ -1,0 +1,13 @@
+id = 'atari800'
+name = 'atari800'
+
+homepage = 'https://atari800.github.io'
+repository = 'https://github.com/atari800/atari800.git'
+
+[[package]]
+channel = 'fedora'
+name = 'atari800'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atari800'

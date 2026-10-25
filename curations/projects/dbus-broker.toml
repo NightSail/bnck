@@ -1,0 +1,16 @@
+id = 'dbus-broker'
+name = 'dbus-broker'
+
+homepage = 'https://github.com/bus1/dbus-broker/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'dbus-broker'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-broker'
+
+[[package]]
+channel = 'fedora'
+name = 'dbus-broker'

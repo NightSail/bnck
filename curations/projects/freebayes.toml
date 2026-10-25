@@ -1,0 +1,13 @@
+id = 'freebayes'
+name = 'freebayes'
+
+homepage = 'https://github.com/ekg/freebayes'
+repository = 'https://github.com/freebayes/freebayes.git'
+
+[[package]]
+channel = 'debian'
+name = 'freebayes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freebayes'

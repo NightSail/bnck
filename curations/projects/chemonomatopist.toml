@@ -1,0 +1,8 @@
+id = 'chemonomatopist'
+name = 'chemonomatopist'
+
+homepage = 'https://github.com/merkys/ChemOnomatopist'
+
+[[package]]
+channel = 'debian'
+name = 'chemonomatopist'

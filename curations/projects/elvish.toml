@@ -1,0 +1,21 @@
+id = 'elvish'
+name = 'elvish'
+
+homepage = 'https://elv.sh'
+repository = 'https://github.com/elves/elvish.git'
+
+[[package]]
+channel = 'arch'
+name = 'elvish'
+
+[[package]]
+channel = 'debian'
+name = 'elvish'
+
+[[package]]
+channel = 'fedora'
+name = 'elvish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elvish'

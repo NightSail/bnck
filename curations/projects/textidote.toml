@@ -1,0 +1,9 @@
+id = 'textidote'
+name = 'textidote'
+
+homepage = 'https://sylvainhalle.github.io/textidote'
+repository = 'https://github.com/sylvainhalle/textidote.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/textidote'

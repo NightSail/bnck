@@ -1,0 +1,8 @@
+id = 'csdp-tools'
+name = 'csdp-tools'
+
+homepage = 'https://github.com/coin-or/Csdp/wiki'
+
+[[package]]
+channel = 'fedora'
+name = 'csdp-tools'

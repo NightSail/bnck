@@ -1,0 +1,8 @@
+id = 'csv2svg'
+name = 'csv2svg'
+
+homepage = 'https://github.com/Canop/csv2svg'
+
+[[package]]
+channel = 'debian'
+name = 'csv2svg'

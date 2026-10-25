@@ -1,0 +1,8 @@
+id = 'jdresolve'
+name = 'jdresolve'
+
+homepage = 'https://github.com/jdrowell/jdresolve'
+
+[[package]]
+channel = 'debian'
+name = 'jdresolve'

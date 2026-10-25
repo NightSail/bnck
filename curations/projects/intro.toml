@@ -1,0 +1,28 @@
+id = 'intro'
+name = 'intro'
+
+homepage = 'https://www.riverbankcomputing.com/software/pyqt/intro'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyqt5'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyqt6'
+
+[[package]]
+channel = 'debian'
+name = 'pyqt5-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pyqt6-dev-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyqt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyqt@5'

@@ -1,0 +1,8 @@
+id = 'typeshare'
+name = 'typeshare'
+
+repository = 'https://github.com/1Password/typeshare.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typeshare'

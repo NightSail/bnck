@@ -1,0 +1,16 @@
+id = 'docx2txt'
+name = 'docx2txt'
+
+homepage = 'https://docx2txt.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'docx2txt'
+
+[[package]]
+channel = 'debian'
+name = 'docx2txt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docx2txt'

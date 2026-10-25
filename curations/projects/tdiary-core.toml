@@ -1,0 +1,8 @@
+id = 'tdiary-core'
+name = 'tdiary-core'
+
+homepage = 'https://www.tdiary.org'
+
+[[package]]
+channel = 'debian'
+name = 'tdiary-core'

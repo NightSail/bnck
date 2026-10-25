@@ -1,0 +1,8 @@
+id = 'dotbot'
+name = 'dotbot'
+
+homepage = 'https://github.com/anishathalye/dotbot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotbot'

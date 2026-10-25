@@ -1,0 +1,12 @@
+id = 'rebar3'
+name = 'rebar3'
+
+homepage = 'https://github.com/erlang/rebar3'
+
+[[package]]
+channel = 'arch'
+name = 'rebar3'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-rebar3'

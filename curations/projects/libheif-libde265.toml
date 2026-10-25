@@ -1,0 +1,8 @@
+id = 'libheif-libde265'
+name = 'libheif'
+
+homepage = 'https://www.libde265.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libheif'

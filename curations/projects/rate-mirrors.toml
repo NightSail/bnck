@@ -1,0 +1,8 @@
+id = 'rate-mirrors'
+name = 'rate-mirrors'
+
+homepage = 'https://github.com/westandskif/rate-mirrors'
+
+[[package]]
+channel = 'arch'
+name = 'rate-mirrors'

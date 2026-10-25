@@ -1,0 +1,8 @@
+id = 'titools'
+name = 'titools'
+
+homepage = 'https://github.com/Jonimoose/TITools'
+
+[[package]]
+channel = 'fedora'
+name = 'titools'

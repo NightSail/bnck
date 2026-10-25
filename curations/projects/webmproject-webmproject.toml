@@ -1,0 +1,12 @@
+id = 'webmproject-webmproject'
+name = 'webmproject'
+
+homepage = 'https://www.webmproject.org/code'
+
+[[package]]
+channel = 'fedora'
+name = 'libvpx-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libwebm'

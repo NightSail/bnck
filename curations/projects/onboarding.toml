@@ -1,0 +1,12 @@
+id = 'onboarding'
+name = 'onboarding'
+
+homepage = 'https://github.com/elementary/onboarding'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-onboarding'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-onboarding'

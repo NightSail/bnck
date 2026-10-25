@@ -1,0 +1,8 @@
+id = 'gophernicus'
+name = 'gophernicus'
+
+homepage = 'https://gophernicus.org'
+
+[[package]]
+channel = 'debian'
+name = 'gophernicus'

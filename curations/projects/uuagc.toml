@@ -1,0 +1,8 @@
+id = 'uuagc'
+name = 'uuagc'
+
+homepage = 'https://github.com/UU-ComputerScience/uuagc'
+
+[[package]]
+channel = 'debian'
+name = 'uuagc'

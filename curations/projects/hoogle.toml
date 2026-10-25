@@ -1,0 +1,12 @@
+id = 'hoogle'
+name = 'hoogle'
+
+homepage = 'https://www.haskell.org/hoogle'
+
+[[package]]
+channel = 'arch'
+name = 'hoogle'
+
+[[package]]
+channel = 'debian'
+name = 'hoogle'

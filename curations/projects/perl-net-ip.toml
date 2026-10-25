@@ -1,0 +1,8 @@
+id = 'perl-net-ip'
+name = 'perl-Net-IP'
+
+homepage = 'https://metacpan.org/release/Net-IP'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-IP'

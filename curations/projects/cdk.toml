@@ -1,0 +1,12 @@
+id = 'cdk'
+name = 'cdk'
+
+homepage = 'https://invisible-island.net/cdk'
+
+[[package]]
+channel = 'fedora'
+name = 'cdk-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdk'

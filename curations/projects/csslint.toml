@@ -1,0 +1,8 @@
+id = 'csslint'
+name = 'csslint'
+
+homepage = 'http://csslint.net'
+
+[[package]]
+channel = 'fedora'
+name = 'csslint'

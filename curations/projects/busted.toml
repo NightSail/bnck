@@ -1,0 +1,13 @@
+id = 'busted'
+name = 'busted'
+
+homepage = 'https://lunarmodules.github.io/busted'
+repository = 'https://github.com/lunarmodules/busted.git'
+
+[[package]]
+channel = 'arch'
+name = 'busted'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/busted'

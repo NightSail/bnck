@@ -1,0 +1,16 @@
+id = 'st-st'
+name = 'st'
+
+homepage = 'https://st.suckless.org'
+
+[[package]]
+channel = 'debian'
+name = 'stterm'
+
+[[package]]
+channel = 'fedora'
+name = 'st'
+
+[[package]]
+channel = 'fedora'
+name = 'st-user'

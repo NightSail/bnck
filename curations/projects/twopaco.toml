@@ -1,0 +1,8 @@
+id = 'twopaco'
+name = 'twopaco'
+
+homepage = 'https://github.com/medvedevgroup/TwoPaCo'
+
+[[package]]
+channel = 'debian'
+name = 'twopaco'

@@ -1,0 +1,8 @@
+id = 'jamulus'
+name = 'jamulus'
+
+homepage = 'https://jamulus.io'
+
+[[package]]
+channel = 'debian'
+name = 'jamulus'

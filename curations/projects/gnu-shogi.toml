@@ -1,0 +1,12 @@
+id = 'gnu-shogi'
+name = 'gnu-shogi'
+
+homepage = 'https://www.gnu.org/software/gnushogi'
+
+[[package]]
+channel = 'fedora'
+name = 'gnushogi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-shogi'

@@ -1,0 +1,8 @@
+id = 'digdag'
+name = 'digdag'
+
+homepage = 'https://www.digdag.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/digdag'

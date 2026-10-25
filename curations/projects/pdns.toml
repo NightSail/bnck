@@ -1,0 +1,9 @@
+id = 'pdns'
+name = 'pdns'
+
+homepage = 'https://www.powerdns.com'
+repository = 'https://github.com/powerdns/pdns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdns'

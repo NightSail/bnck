@@ -1,0 +1,8 @@
+id = 'goobook'
+name = 'goobook'
+
+homepage = 'https://pypi.python.org/pypi/goobook'
+
+[[package]]
+channel = 'debian'
+name = 'goobook'

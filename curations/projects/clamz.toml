@@ -1,0 +1,12 @@
+id = 'clamz'
+name = 'clamz'
+
+homepage = 'https://code.google.com/archive/p/clamz'
+
+[[package]]
+channel = 'fedora'
+name = 'clamz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clamz'

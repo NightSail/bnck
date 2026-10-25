@@ -1,0 +1,8 @@
+id = 'salmid'
+name = 'salmid'
+
+homepage = 'https://github.com/hcdenbakker/SalmID'
+
+[[package]]
+channel = 'debian'
+name = 'salmid'

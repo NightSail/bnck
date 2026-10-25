@@ -1,0 +1,12 @@
+id = 'glob2'
+name = 'glob2'
+
+homepage = 'https://www.globulation2.org'
+
+[[package]]
+channel = 'arch'
+name = 'glob2'
+
+[[package]]
+channel = 'fedora'
+name = 'glob2'

@@ -1,0 +1,12 @@
+id = 'sngrep'
+name = 'sngrep'
+
+homepage = 'https://github.com/irontec/sngrep'
+
+[[package]]
+channel = 'debian'
+name = 'sngrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sngrep'

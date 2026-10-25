@@ -1,0 +1,8 @@
+id = 'pinboard-notes-backup'
+name = 'pinboard-notes-backup'
+
+repository = 'https://github.com/bdesham/pinboard-notes-backup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pinboard-notes-backup'

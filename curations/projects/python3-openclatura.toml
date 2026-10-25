@@ -1,0 +1,8 @@
+id = 'python3-openclatura'
+name = 'python3-openclatura'
+
+homepage = 'https://github.com/lamalab-org/openclatura'
+
+[[package]]
+channel = 'debian'
+name = 'python3-openclatura'

@@ -1,0 +1,8 @@
+id = 'redo-python'
+name = 'redo-python'
+
+homepage = 'https://github.com/apenwarr/redo'
+
+[[package]]
+channel = 'arch'
+name = 'redo-python'

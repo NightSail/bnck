@@ -1,0 +1,8 @@
+id = 'rpiboot'
+name = 'rpiboot'
+
+repository = 'https://github.com/raspberrypi/usbboot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpiboot'

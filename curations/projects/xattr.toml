@@ -1,0 +1,16 @@
+id = 'xattr'
+name = 'xattr'
+
+homepage = 'https://github.com/xattr/xattr'
+
+[[package]]
+channel = 'arch'
+name = 'python-xattr'
+
+[[package]]
+channel = 'debian'
+name = 'xattr'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xattr'

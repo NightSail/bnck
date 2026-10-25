@@ -1,0 +1,16 @@
+id = 'yadifa'
+name = 'yadifa'
+
+homepage = 'https://www.yadifa.eu'
+
+[[package]]
+channel = 'debian'
+name = 'yadifa'
+
+[[package]]
+channel = 'fedora'
+name = 'yadifa'
+
+[[package]]
+channel = 'fedora'
+name = 'yadifa-tools'

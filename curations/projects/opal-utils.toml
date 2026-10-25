@@ -1,0 +1,8 @@
+id = 'opal-utils'
+name = 'opal-utils'
+
+homepage = 'https://github.com/open-power/skiboot'
+
+[[package]]
+channel = 'debian'
+name = 'opal-utils'

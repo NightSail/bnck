@@ -1,0 +1,21 @@
+id = 'nasm'
+name = 'nasm'
+
+homepage = 'https://www.nasm.us'
+repository = 'https://github.com/netwide-assembler/nasm.git'
+
+[[package]]
+channel = 'arch'
+name = 'nasm'
+
+[[package]]
+channel = 'debian'
+name = 'nasm'
+
+[[package]]
+channel = 'fedora'
+name = 'nasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nasm'

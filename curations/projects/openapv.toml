@@ -1,0 +1,12 @@
+id = 'openapv'
+name = 'openapv'
+
+homepage = 'https://github.com/AcademySoftwareFoundation/openapv'
+
+[[package]]
+channel = 'fedora'
+name = 'openapv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openapv'

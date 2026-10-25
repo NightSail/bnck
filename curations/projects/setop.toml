@@ -1,0 +1,8 @@
+id = 'setop'
+name = 'setop'
+
+homepage = 'https://github.com/phisigma/setop'
+
+[[package]]
+channel = 'debian'
+name = 'setop'

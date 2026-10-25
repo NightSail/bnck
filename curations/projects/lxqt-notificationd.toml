@@ -1,0 +1,12 @@
+id = 'lxqt-notificationd'
+name = 'lxqt-notificationd'
+
+homepage = 'https://github.com/lxqt/lxqt-notificationd'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-notificationd'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-notificationd'

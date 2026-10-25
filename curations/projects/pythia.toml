@@ -1,0 +1,12 @@
+id = 'pythia'
+name = 'pythia'
+
+homepage = 'https://pythia.org'
+
+[[package]]
+channel = 'arch'
+name = 'pythia8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pythia'

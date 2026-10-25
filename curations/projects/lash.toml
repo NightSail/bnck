@@ -1,0 +1,8 @@
+id = 'lash'
+name = 'lash'
+
+homepage = 'http://www.nongnu.org/lash'
+
+[[package]]
+channel = 'fedora'
+name = 'lash'

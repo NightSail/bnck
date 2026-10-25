@@ -1,0 +1,8 @@
+id = 'optgeo'
+name = 'optgeo'
+
+homepage = 'http://jeanmarie.biansan.free.fr/optgeo.html'
+
+[[package]]
+channel = 'debian'
+name = 'optgeo'

@@ -1,0 +1,6 @@
+id = 'xssproxy'
+name = 'xssproxy'
+
+[[package]]
+channel = 'debian'
+name = 'xssproxy'

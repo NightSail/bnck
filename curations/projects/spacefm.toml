@@ -1,0 +1,12 @@
+id = 'spacefm'
+name = 'spacefm'
+
+homepage = 'https://ignorantguru.github.io/spacefm'
+
+[[package]]
+channel = 'debian'
+name = 'spacefm'
+
+[[package]]
+channel = 'fedora'
+name = 'spacefm'

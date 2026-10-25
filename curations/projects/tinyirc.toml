@@ -1,0 +1,8 @@
+id = 'tinyirc'
+name = 'tinyirc'
+
+homepage = 'https://github.com/nlaredo/tinyirc'
+
+[[package]]
+channel = 'debian'
+name = 'tinyirc'

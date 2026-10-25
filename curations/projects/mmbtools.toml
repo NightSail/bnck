@@ -1,0 +1,12 @@
+id = 'mmbtools'
+name = 'Mmbtools'
+
+homepage = 'https://www.opendigitalradio.org/Mmbtools'
+
+[[package]]
+channel = 'debian'
+name = 'odr-dabmux'
+
+[[package]]
+channel = 'debian'
+name = 'odr-padenc'

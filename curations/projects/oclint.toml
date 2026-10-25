@@ -1,0 +1,8 @@
+id = 'oclint'
+name = 'oclint'
+
+homepage = 'https://github.com/oclint/oclint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/oclint'

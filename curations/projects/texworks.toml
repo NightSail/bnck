@@ -1,0 +1,16 @@
+id = 'texworks'
+name = 'texworks'
+
+homepage = 'https://www.tug.org/texworks'
+
+[[package]]
+channel = 'arch'
+name = 'texworks'
+
+[[package]]
+channel = 'debian'
+name = 'texworks'
+
+[[package]]
+channel = 'fedora'
+name = 'texworks'

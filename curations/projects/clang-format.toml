@@ -6,3 +6,7 @@ homepage = 'https://clang.llvm.org/docs/ClangFormat.html'
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/clang-format'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clang-format@11'

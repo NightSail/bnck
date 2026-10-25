@@ -1,0 +1,9 @@
+id = 'sane-backends'
+name = 'sane-backends'
+
+homepage = 'http://www.sane-project.org'
+repository = 'https://gitlab.com/sane-project/backends.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sane-backends'

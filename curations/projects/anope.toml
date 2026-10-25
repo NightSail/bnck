@@ -1,0 +1,12 @@
+id = 'anope'
+name = 'anope'
+
+homepage = 'http://www.anope.org'
+
+[[package]]
+channel = 'debian'
+name = 'anope'
+
+[[package]]
+channel = 'fedora'
+name = 'anope'

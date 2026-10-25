@@ -1,0 +1,8 @@
+id = 'python3-nbclassic'
+name = 'python3-nbclassic'
+
+homepage = 'https://github.com/jupyterlab/nbclassic'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nbclassic'

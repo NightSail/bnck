@@ -1,0 +1,8 @@
+id = 'perl-prima'
+name = 'perl-Prima'
+
+homepage = 'https://metacpan.org/dist/Prima'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Prima'

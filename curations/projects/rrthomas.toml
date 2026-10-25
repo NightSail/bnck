@@ -1,0 +1,20 @@
+id = 'rrthomas'
+name = 'rrthomas'
+
+homepage = 'https://rrthomas.github.io/enchant'
+
+[[package]]
+channel = 'arch'
+name = 'enchant'
+
+[[package]]
+channel = 'debian'
+name = 'enchant'
+
+[[package]]
+channel = 'debian'
+name = 'enchant-2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enchant'

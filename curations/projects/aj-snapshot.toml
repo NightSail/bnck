@@ -1,0 +1,12 @@
+id = 'aj-snapshot'
+name = 'aj-snapshot'
+
+homepage = 'http://aj-snapshot.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'aj-snapshot'
+
+[[package]]
+channel = 'debian'
+name = 'aj-snapshot'

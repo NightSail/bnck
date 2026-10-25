@@ -1,0 +1,8 @@
+id = 'gwt'
+name = 'gwt'
+
+homepage = 'https://www.gwtproject.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gwt'

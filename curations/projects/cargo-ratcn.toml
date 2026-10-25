@@ -1,0 +1,8 @@
+id = 'cargo-ratcn'
+name = 'cargo-ratcn'
+
+homepage = 'https://github.com/kristoferlund/ratcn'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-ratcn'

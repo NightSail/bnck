@@ -1,0 +1,8 @@
+id = 'lumin'
+name = 'lumin'
+
+homepage = 'https://github.com/johnkerl/lumin'
+
+[[package]]
+channel = 'debian'
+name = 'lumin'

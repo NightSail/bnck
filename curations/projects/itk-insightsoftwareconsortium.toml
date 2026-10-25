@@ -1,0 +1,9 @@
+id = 'itk-insightsoftwareconsortium'
+name = 'itk'
+
+homepage = 'https://itk.org'
+repository = 'https://github.com/InsightSoftwareConsortium/ITK.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/itk'

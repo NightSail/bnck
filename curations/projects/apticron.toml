@@ -1,0 +1,10 @@
+id = 'apticron'
+name = 'apticron'
+
+[[package]]
+channel = 'debian'
+name = 'apticron'
+
+[[package]]
+channel = 'debian'
+name = 'apticron-systemd'

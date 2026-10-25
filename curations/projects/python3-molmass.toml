@@ -1,0 +1,8 @@
+id = 'python3-molmass'
+name = 'python3-molmass'
+
+homepage = 'https://www.lfd.uci.edu/~gohlke/molmass'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-molmass'

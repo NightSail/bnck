@@ -1,0 +1,8 @@
+id = 'python-kconfiglib'
+name = 'python-kconfiglib'
+
+homepage = 'https://github.com/ulfalizer/Kconfiglib'
+
+[[package]]
+channel = 'arch'
+name = 'python-kconfiglib'

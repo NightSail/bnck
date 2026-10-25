@@ -1,0 +1,28 @@
+id = 'asterisk'
+name = 'asterisk'
+
+homepage = 'http://www.asterisk.org'
+
+[[package]]
+channel = 'debian'
+name = 'asterisk'
+
+[[package]]
+channel = 'debian'
+name = 'asterisk-dev'
+
+[[package]]
+channel = 'debian'
+name = 'dahdi'
+
+[[package]]
+channel = 'fedora'
+name = 'asterisk'
+
+[[package]]
+channel = 'fedora'
+name = 'asterisk-ael'
+
+[[package]]
+channel = 'fedora'
+name = 'dahdi-tools'

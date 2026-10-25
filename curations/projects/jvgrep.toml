@@ -1,0 +1,8 @@
+id = 'jvgrep'
+name = 'jvgrep'
+
+repository = 'https://github.com/mattn/jvgrep.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jvgrep'

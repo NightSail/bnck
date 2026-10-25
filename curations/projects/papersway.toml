@@ -1,0 +1,8 @@
+id = 'papersway'
+name = 'papersway'
+
+homepage = 'https://spwhitton.name/tech/code/papersway'
+
+[[package]]
+channel = 'debian'
+name = 'papersway'

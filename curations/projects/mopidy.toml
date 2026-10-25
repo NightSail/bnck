@@ -1,0 +1,16 @@
+id = 'mopidy'
+name = 'mopidy'
+
+homepage = 'https://www.mopidy.com'
+
+[[package]]
+channel = 'arch'
+name = 'mopidy'
+
+[[package]]
+channel = 'debian'
+name = 'mopidy'
+
+[[package]]
+channel = 'fedora'
+name = 'mopidy'

@@ -1,0 +1,8 @@
+id = 'ternimal'
+name = 'ternimal'
+
+homepage = 'https://github.com/p-e-w/ternimal'
+
+[[package]]
+channel = 'fedora'
+name = 'ternimal'

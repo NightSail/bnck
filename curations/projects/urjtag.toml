@@ -1,0 +1,16 @@
+id = 'urjtag'
+name = 'urjtag'
+
+homepage = 'http://urjtag.org'
+
+[[package]]
+channel = 'arch'
+name = 'urjtag'
+
+[[package]]
+channel = 'debian'
+name = 'urjtag'
+
+[[package]]
+channel = 'fedora'
+name = 'urjtag'

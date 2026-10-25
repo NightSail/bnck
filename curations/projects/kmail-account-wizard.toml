@@ -1,0 +1,12 @@
+id = 'kmail-account-wizard'
+name = 'kmail-account-wizard'
+
+homepage = 'https://invent.kde.org/pim/kmail-account-wizard'
+
+[[package]]
+channel = 'debian'
+name = 'accountwizard'
+
+[[package]]
+channel = 'fedora'
+name = 'kmail-account-wizard'

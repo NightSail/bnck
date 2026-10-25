@@ -1,0 +1,12 @@
+id = 'deepin-pw-check'
+name = 'deepin-pw-check'
+
+homepage = 'https://github.com/linuxdeepin/deepin-pw-check'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-pw-check'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-pw-check'

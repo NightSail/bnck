@@ -1,0 +1,9 @@
+id = 'anycable-go'
+name = 'anycable-go'
+
+homepage = 'https://anycable.io'
+repository = 'https://github.com/anycable/anycable.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/anycable-go'

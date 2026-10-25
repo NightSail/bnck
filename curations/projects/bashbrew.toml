@@ -1,0 +1,8 @@
+id = 'bashbrew'
+name = 'bashbrew'
+
+homepage = 'https://github.com/docker-library/bashbrew'
+
+[[package]]
+channel = 'arch'
+name = 'bashbrew'

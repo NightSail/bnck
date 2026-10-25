@@ -1,0 +1,8 @@
+id = 'eless'
+name = 'eless'
+
+homepage = 'https://eless.scripter.co'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eless'

@@ -1,0 +1,8 @@
+id = 'node-crc32'
+name = 'node-crc32'
+
+homepage = 'https://github.com/beatgammit/crc32'
+
+[[package]]
+channel = 'debian'
+name = 'node-crc32'

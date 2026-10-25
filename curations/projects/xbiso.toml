@@ -1,0 +1,8 @@
+id = 'xbiso'
+name = 'xbiso'
+
+homepage = 'http://sourceforge.net/projects/xbiso'
+
+[[package]]
+channel = 'fedora'
+name = 'xbiso'

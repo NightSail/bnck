@@ -1,0 +1,13 @@
+id = 'vrpn'
+name = 'vrpn'
+
+homepage = 'https://github.com/vrpn/vrpn/wiki'
+repository = 'https://github.com/vrpn/vrpn.git'
+
+[[package]]
+channel = 'fedora'
+name = 'vrpn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vrpn'

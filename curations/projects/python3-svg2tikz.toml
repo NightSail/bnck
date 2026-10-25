@@ -1,0 +1,8 @@
+id = 'python3-svg2tikz'
+name = 'python3-svg2tikz'
+
+homepage = 'https://github.com/xyz2tex/svg2tikz'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-svg2tikz'

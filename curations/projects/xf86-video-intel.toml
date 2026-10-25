@@ -1,0 +1,8 @@
+id = 'xf86-video-intel'
+name = 'xf86-video-intel'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/driver/xf86-video-intel'
+
+[[package]]
+channel = 'arch'
+name = 'xf86-video-intel'

@@ -1,0 +1,8 @@
+id = 'symbolic-preview'
+name = 'symbolic-preview'
+
+homepage = 'https://gitlab.gnome.org/World/design/symbolic-preview'
+
+[[package]]
+channel = 'arch'
+name = 'symbolic-preview'

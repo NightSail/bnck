@@ -1,0 +1,8 @@
+id = 'mailgraph'
+name = 'mailgraph'
+
+homepage = 'https://mailgraph.schweikert.ch'
+
+[[package]]
+channel = 'debian'
+name = 'mailgraph'

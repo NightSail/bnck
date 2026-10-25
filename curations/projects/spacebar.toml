@@ -1,0 +1,12 @@
+id = 'spacebar'
+name = 'spacebar'
+
+homepage = 'https://invent.kde.org/plasma-mobile/spacebar'
+
+[[package]]
+channel = 'debian'
+name = 'spacebar'
+
+[[package]]
+channel = 'fedora'
+name = 'spacebar'

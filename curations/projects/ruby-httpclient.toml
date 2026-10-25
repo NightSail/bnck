@@ -1,0 +1,12 @@
+id = 'ruby-httpclient'
+name = 'ruby-httpclient'
+
+homepage = 'https://github.com/nahi/httpclient'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-httpclient'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-httpclient'

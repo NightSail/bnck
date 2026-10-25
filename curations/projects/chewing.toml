@@ -1,0 +1,24 @@
+id = 'chewing'
+name = 'chewing'
+
+homepage = 'https://chewing.im'
+
+[[package]]
+channel = 'arch'
+name = 'chewing-editor'
+
+[[package]]
+channel = 'arch'
+name = 'libchewing'
+
+[[package]]
+channel = 'debian'
+name = 'chewing-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libchewing'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libchewing'

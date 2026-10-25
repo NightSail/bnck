@@ -1,0 +1,9 @@
+id = 'stellar-xdr'
+name = 'stellar-xdr'
+
+homepage = 'https://developers.stellar.org'
+repository = 'https://github.com/stellar/rs-stellar-xdr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stellar-xdr'

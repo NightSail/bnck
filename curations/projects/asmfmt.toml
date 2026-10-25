@@ -1,0 +1,8 @@
+id = 'asmfmt'
+name = 'asmfmt'
+
+repository = 'https://github.com/klauspost/asmfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asmfmt'

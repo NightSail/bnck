@@ -1,0 +1,9 @@
+id = 'jemalloc-jemalloc'
+name = 'jemalloc'
+
+homepage = 'https://jemalloc.net'
+repository = 'https://github.com/jemalloc/jemalloc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jemalloc'

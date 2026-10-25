@@ -1,0 +1,12 @@
+id = 'xen'
+name = 'xen'
+
+homepage = 'http://xen.org'
+
+[[package]]
+channel = 'fedora'
+name = 'xen-ocaml'
+
+[[package]]
+channel = 'fedora'
+name = 'xen-runtime'

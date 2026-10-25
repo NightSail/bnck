@@ -1,0 +1,8 @@
+id = 'perl-gtk2-ex-podviewer'
+name = 'perl-Gtk2-Ex-PodViewer'
+
+homepage = 'https://metacpan.org/release/Gtk2-Ex-PodViewer'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Gtk2-Ex-PodViewer'

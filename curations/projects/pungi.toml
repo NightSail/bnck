@@ -1,0 +1,12 @@
+id = 'pungi'
+name = 'pungi'
+
+homepage = 'https://pagure.io/pungi'
+
+[[package]]
+channel = 'fedora'
+name = 'pungi'
+
+[[package]]
+channel = 'fedora'
+name = 'pungi-utils'

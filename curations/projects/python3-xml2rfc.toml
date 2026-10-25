@@ -1,0 +1,8 @@
+id = 'python3-xml2rfc'
+name = 'python3-xml2rfc'
+
+homepage = 'https://pypi.python.org/pypi/xml2rfc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xml2rfc'

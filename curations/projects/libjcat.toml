@@ -1,0 +1,16 @@
+id = 'libjcat'
+name = 'libjcat'
+
+homepage = 'https://github.com/hughsie/libjcat'
+
+[[package]]
+channel = 'arch'
+name = 'libjcat'
+
+[[package]]
+channel = 'debian'
+name = 'jcat'
+
+[[package]]
+channel = 'fedora'
+name = 'libjcat'

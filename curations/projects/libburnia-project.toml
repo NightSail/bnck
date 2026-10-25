@@ -1,0 +1,24 @@
+id = 'libburnia-project'
+name = 'libburnia-project'
+
+homepage = 'http://libburnia-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'cdrskin'
+
+[[package]]
+channel = 'debian'
+name = 'xorriso'
+
+[[package]]
+channel = 'debian'
+name = 'xorriso-dd-target'
+
+[[package]]
+channel = 'debian'
+name = 'xorriso-tcltk'
+
+[[package]]
+channel = 'fedora'
+name = 'cdrskin'

@@ -1,0 +1,8 @@
+id = 'gnuhtml2latex'
+name = 'gnuhtml2latex'
+
+homepage = 'https://tracker.debian.org/pkg/gnuhtml2latex'
+
+[[package]]
+channel = 'debian'
+name = 'gnuhtml2latex'

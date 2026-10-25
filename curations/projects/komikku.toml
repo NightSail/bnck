@@ -1,0 +1,8 @@
+id = 'komikku'
+name = 'komikku'
+
+homepage = 'https://apps.gnome.org/Komikku'
+
+[[package]]
+channel = 'arch'
+name = 'komikku'

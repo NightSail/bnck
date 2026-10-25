@@ -1,0 +1,6 @@
+id = 'wily'
+name = 'wily'
+
+[[package]]
+channel = 'debian'
+name = 'wily'

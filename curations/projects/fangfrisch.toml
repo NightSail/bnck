@@ -1,0 +1,8 @@
+id = 'fangfrisch'
+name = 'fangfrisch'
+
+homepage = 'https://github.com/rseichter/fangfrisch'
+
+[[package]]
+channel = 'debian'
+name = 'fangfrisch'

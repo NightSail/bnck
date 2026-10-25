@@ -1,0 +1,16 @@
+id = 'krb5-wallet'
+name = 'krb5-wallet'
+
+homepage = 'https://salsa.debian.org/whm/krb5-wallet'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-keytab-backend'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-wallet-client'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-wallet-server'

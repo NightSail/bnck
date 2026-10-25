@@ -1,0 +1,13 @@
+id = 'beads'
+name = 'beads'
+
+homepage = 'http://pappso.inrae.fr/bioinfo/beads'
+repository = 'https://github.com/gastownhall/beads.git'
+
+[[package]]
+channel = 'debian'
+name = 'beads'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beads'

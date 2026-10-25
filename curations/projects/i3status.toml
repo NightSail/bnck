@@ -1,0 +1,16 @@
+id = 'i3status'
+name = 'i3status'
+
+homepage = 'https://i3wm.org/i3status'
+
+[[package]]
+channel = 'arch'
+name = 'i3status'
+
+[[package]]
+channel = 'debian'
+name = 'i3status'
+
+[[package]]
+channel = 'fedora'
+name = 'i3status'

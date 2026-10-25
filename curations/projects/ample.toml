@@ -1,0 +1,8 @@
+id = 'ample'
+name = 'ample'
+
+homepage = 'http://ample.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ample'

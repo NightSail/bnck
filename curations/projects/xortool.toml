@@ -1,0 +1,8 @@
+id = 'xortool'
+name = 'xortool'
+
+homepage = 'https://github.com/hellman/xortool'
+
+[[package]]
+channel = 'arch'
+name = 'xortool'

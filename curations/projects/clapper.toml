@@ -1,0 +1,16 @@
+id = 'clapper'
+name = 'clapper'
+
+homepage = 'https://rafostar.github.io/clapper'
+
+[[package]]
+channel = 'arch'
+name = 'clapper'
+
+[[package]]
+channel = 'debian'
+name = 'clapper'
+
+[[package]]
+channel = 'fedora'
+name = 'clapper'

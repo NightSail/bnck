@@ -1,0 +1,20 @@
+id = 'heaptrack'
+name = 'heaptrack'
+
+homepage = 'https://apps.kde.org/heaptrack'
+
+[[package]]
+channel = 'arch'
+name = 'heaptrack'
+
+[[package]]
+channel = 'debian'
+name = 'heaptrack'
+
+[[package]]
+channel = 'debian'
+name = 'heaptrack-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'heaptrack'

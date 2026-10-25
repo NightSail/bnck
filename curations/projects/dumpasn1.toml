@@ -1,0 +1,12 @@
+id = 'dumpasn1'
+name = 'dumpasn1'
+
+homepage = 'https://github.com/cryptlib/dumpasn1'
+
+[[package]]
+channel = 'debian'
+name = 'dumpasn1'
+
+[[package]]
+channel = 'fedora'
+name = 'dumpasn1'

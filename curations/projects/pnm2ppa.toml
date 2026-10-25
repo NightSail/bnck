@@ -1,0 +1,8 @@
+id = 'pnm2ppa'
+name = 'pnm2ppa'
+
+homepage = 'http://sourceforge.net/projects/pnm2ppa'
+
+[[package]]
+channel = 'fedora'
+name = 'pnm2ppa'

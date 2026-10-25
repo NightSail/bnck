@@ -1,0 +1,8 @@
+id = 'mirtop'
+name = 'mirtop'
+
+homepage = 'https://github.com/miRTop/mirtop'
+
+[[package]]
+channel = 'debian'
+name = 'mirtop'

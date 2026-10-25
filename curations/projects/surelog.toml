@@ -1,0 +1,8 @@
+id = 'surelog'
+name = 'surelog'
+
+repository = 'https://github.com/chipsalliance/Surelog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/surelog'

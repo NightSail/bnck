@@ -1,0 +1,8 @@
+id = 'newrelic-infra-agent'
+name = 'newrelic-infra-agent'
+
+repository = 'https://github.com/newrelic/infrastructure-agent.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newrelic-infra-agent'

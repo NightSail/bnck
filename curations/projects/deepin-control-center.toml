@@ -1,0 +1,8 @@
+id = 'deepin-control-center'
+name = 'deepin-control-center'
+
+homepage = 'https://github.com/linuxdeepin/dde-control-center'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-control-center'

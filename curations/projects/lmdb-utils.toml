@@ -1,0 +1,8 @@
+id = 'lmdb-utils'
+name = 'lmdb-utils'
+
+homepage = 'https://symas.com/mdb'
+
+[[package]]
+channel = 'debian'
+name = 'lmdb-utils'

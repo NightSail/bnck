@@ -1,0 +1,16 @@
+id = 'rsgain'
+name = 'rsgain'
+
+repository = 'https://github.com/complexlogic/rsgain.git'
+
+[[package]]
+channel = 'debian'
+name = 'rsgain'
+
+[[package]]
+channel = 'fedora'
+name = 'rsgain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsgain'

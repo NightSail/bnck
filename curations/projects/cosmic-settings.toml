@@ -1,0 +1,12 @@
+id = 'cosmic-settings'
+name = 'cosmic-settings'
+
+homepage = 'https://github.com/pop-os/cosmic-settings'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-settings'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-settings'

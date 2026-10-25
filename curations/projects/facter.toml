@@ -1,0 +1,16 @@
+id = 'facter'
+name = 'facter'
+
+homepage = 'https://github.com/puppetlabs/facter'
+
+[[package]]
+channel = 'arch'
+name = 'facter'
+
+[[package]]
+channel = 'debian'
+name = 'facter'
+
+[[package]]
+channel = 'fedora'
+name = 'facter'

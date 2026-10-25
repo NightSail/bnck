@@ -1,0 +1,16 @@
+id = 'meld'
+name = 'meld'
+
+homepage = 'https://meldmerge.org'
+
+[[package]]
+channel = 'arch'
+name = 'meld'
+
+[[package]]
+channel = 'debian'
+name = 'meld'
+
+[[package]]
+channel = 'fedora'
+name = 'meld'

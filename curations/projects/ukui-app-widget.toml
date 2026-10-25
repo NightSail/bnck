@@ -1,0 +1,12 @@
+id = 'ukui-app-widget'
+name = 'ukui-app-widget'
+
+homepage = 'https://gitee.com/openkylin/ukui-app-widget'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-appwidget-manager'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-appwidget-test'

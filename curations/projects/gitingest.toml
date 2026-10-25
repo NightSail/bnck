@@ -1,0 +1,8 @@
+id = 'gitingest'
+name = 'gitingest'
+
+homepage = 'https://gitingest.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitingest'

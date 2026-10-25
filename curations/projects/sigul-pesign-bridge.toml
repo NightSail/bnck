@@ -1,0 +1,8 @@
+id = 'sigul-pesign-bridge'
+name = 'sigul-pesign-bridge'
+
+homepage = 'https://crates.io/crates/sigul-pesign-bridge'
+
+[[package]]
+channel = 'fedora'
+name = 'sigul-pesign-bridge'

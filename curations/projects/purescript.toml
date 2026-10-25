@@ -1,0 +1,9 @@
+id = 'purescript'
+name = 'purescript'
+
+homepage = 'https://www.purescript.org'
+repository = 'https://github.com/purescript/purescript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/purescript'

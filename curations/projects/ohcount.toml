@@ -1,0 +1,12 @@
+id = 'ohcount'
+name = 'ohcount'
+
+repository = 'https://github.com/blackducksoftware/ohcount.git'
+
+[[package]]
+channel = 'debian'
+name = 'ohcount'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ohcount'

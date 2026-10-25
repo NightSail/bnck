@@ -1,0 +1,20 @@
+id = 'poke'
+name = 'poke'
+
+homepage = 'https://www.jemarch.net/poke'
+
+[[package]]
+channel = 'arch'
+name = 'poke'
+
+[[package]]
+channel = 'debian'
+name = 'poke'
+
+[[package]]
+channel = 'fedora'
+name = 'poke'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poke'

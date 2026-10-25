@@ -1,0 +1,12 @@
+id = 'optiimage'
+name = 'optiimage'
+
+homepage = 'https://apps.kde.org/optiimage'
+
+[[package]]
+channel = 'arch'
+name = 'optiimage'
+
+[[package]]
+channel = 'fedora'
+name = 'optiimage'

@@ -1,0 +1,8 @@
+id = 'openobserve'
+name = 'openobserve'
+
+homepage = 'https://openobserve.ai'
+
+[[package]]
+channel = 'arch'
+name = 'openobserve'

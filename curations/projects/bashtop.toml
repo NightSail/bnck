@@ -1,0 +1,12 @@
+id = 'bashtop'
+name = 'bashtop'
+
+homepage = 'https://github.com/aristocratos/bashtop'
+
+[[package]]
+channel = 'arch'
+name = 'bashtop'
+
+[[package]]
+channel = 'debian'
+name = 'bashtop'

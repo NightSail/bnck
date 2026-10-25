@@ -1,0 +1,8 @@
+id = 'nmbscan'
+name = 'nmbscan'
+
+homepage = 'http://nmbscan.g76r.eu'
+
+[[package]]
+channel = 'fedora'
+name = 'nmbscan'

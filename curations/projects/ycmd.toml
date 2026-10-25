@@ -1,0 +1,8 @@
+id = 'ycmd'
+name = 'ycmd'
+
+homepage = 'https://ycm-core.github.io/ycmd'
+
+[[package]]
+channel = 'debian'
+name = 'ycmd'

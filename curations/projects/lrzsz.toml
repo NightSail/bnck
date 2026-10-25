@@ -1,0 +1,20 @@
+id = 'lrzsz'
+name = 'lrzsz'
+
+homepage = 'https://www.ohse.de/uwe/software/lrzsz.html'
+
+[[package]]
+channel = 'arch'
+name = 'lrzsz'
+
+[[package]]
+channel = 'debian'
+name = 'lrzsz'
+
+[[package]]
+channel = 'fedora'
+name = 'lrzsz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lrzsz'

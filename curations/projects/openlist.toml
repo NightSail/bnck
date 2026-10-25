@@ -1,0 +1,8 @@
+id = 'openlist'
+name = 'openlist'
+
+homepage = 'https://doc.oplist.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openlist'

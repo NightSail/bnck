@@ -1,0 +1,8 @@
+id = 'xbuffy'
+name = 'xbuffy'
+
+homepage = 'http://www.fiction.net/blong/programs'
+
+[[package]]
+channel = 'debian'
+name = 'xbuffy'

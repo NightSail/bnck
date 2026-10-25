@@ -1,0 +1,9 @@
+id = 'vfox'
+name = 'vfox'
+
+homepage = 'https://vfox.dev'
+repository = 'https://github.com/version-fox/vfox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vfox'

@@ -1,0 +1,16 @@
+id = 'miniflux'
+name = 'miniflux'
+
+homepage = 'https://miniflux.app'
+
+[[package]]
+channel = 'arch'
+name = 'miniflux'
+
+[[package]]
+channel = 'debian'
+name = 'miniflux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/miniflux'

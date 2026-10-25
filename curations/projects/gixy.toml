@@ -1,0 +1,8 @@
+id = 'gixy'
+name = 'gixy'
+
+homepage = 'https://gixy.getpagespeed.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gixy'

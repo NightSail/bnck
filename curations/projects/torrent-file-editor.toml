@@ -1,0 +1,8 @@
+id = 'torrent-file-editor'
+name = 'torrent-file-editor'
+
+homepage = 'https://torrent-file-editor.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'torrent-file-editor'

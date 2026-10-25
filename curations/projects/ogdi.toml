@@ -1,0 +1,20 @@
+id = 'ogdi'
+name = 'ogdi'
+
+homepage = 'http://ogdi.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libogdi-dev'
+
+[[package]]
+channel = 'debian'
+name = 'ogdi-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'ogdi'
+
+[[package]]
+channel = 'fedora'
+name = 'ogdi-devel'

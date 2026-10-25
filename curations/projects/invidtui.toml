@@ -1,0 +1,8 @@
+id = 'invidtui'
+name = 'invidtui'
+
+homepage = 'https://github.com/darkhz/invidtui'
+
+[[package]]
+channel = 'debian'
+name = 'invidtui'

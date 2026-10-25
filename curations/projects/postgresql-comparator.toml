@@ -1,0 +1,8 @@
+id = 'postgresql-comparator'
+name = 'postgresql-comparator'
+
+homepage = 'https://www.coelho.net/sw/pg_comparator'
+
+[[package]]
+channel = 'debian'
+name = 'postgresql-comparator'

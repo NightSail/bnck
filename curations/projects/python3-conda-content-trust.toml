@@ -1,0 +1,8 @@
+id = 'python3-conda-content-trust'
+name = 'python3-conda-content-trust'
+
+homepage = 'https://github.com/conda/conda-content-trust'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-conda-content-trust'

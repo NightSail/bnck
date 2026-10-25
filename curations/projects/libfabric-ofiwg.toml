@@ -1,0 +1,9 @@
+id = 'libfabric-ofiwg'
+name = 'libfabric'
+
+homepage = 'https://ofiwg.github.io/libfabric'
+repository = 'https://github.com/ofiwg/libfabric.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfabric'

@@ -1,0 +1,18 @@
+id = 'dgit'
+name = 'dgit'
+
+[[package]]
+channel = 'debian'
+name = 'dgit'
+
+[[package]]
+channel = 'debian'
+name = 'dgit-infrastructure'
+
+[[package]]
+channel = 'debian'
+name = 'git-debpush'
+
+[[package]]
+channel = 'debian'
+name = 'git-debrebase'

@@ -1,0 +1,8 @@
+id = 'ruby-beaker-hostgenerator'
+name = 'ruby-beaker-hostgenerator'
+
+homepage = 'https://github.com/puppetlabs/beaker-hostgenerator'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-beaker-hostgenerator'

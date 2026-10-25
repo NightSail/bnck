@@ -1,0 +1,8 @@
+id = 'cen64-qt'
+name = 'cen64-qt'
+
+homepage = 'https://github.com/dh4/cen64-qt'
+
+[[package]]
+channel = 'debian'
+name = 'cen64-qt'

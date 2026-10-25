@@ -1,0 +1,10 @@
+id = 'checkpolicy'
+name = 'checkpolicy'
+
+[[package]]
+channel = 'debian'
+name = 'checkpolicy'
+
+[[package]]
+channel = 'fedora'
+name = 'checkpolicy'

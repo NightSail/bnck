@@ -1,0 +1,8 @@
+id = 'pg-exporter'
+name = 'pg-exporter'
+
+homepage = 'https://github.com/pgsty/pg_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'pg-exporter'

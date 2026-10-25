@@ -1,0 +1,8 @@
+id = 'menumaker'
+name = 'menumaker'
+
+homepage = 'http://menumaker.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'menumaker'

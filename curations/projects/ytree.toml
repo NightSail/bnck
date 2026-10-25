@@ -1,0 +1,12 @@
+id = 'ytree'
+name = 'ytree'
+
+homepage = 'http://www.han.de/~werner/ytree.html'
+
+[[package]]
+channel = 'debian'
+name = 'ytree'
+
+[[package]]
+channel = 'fedora'
+name = 'ytree'

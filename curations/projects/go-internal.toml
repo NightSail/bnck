@@ -1,0 +1,12 @@
+id = 'go-internal'
+name = 'go-internal'
+
+homepage = 'https://github.com/rogpeppe/go-internal'
+
+[[package]]
+channel = 'debian'
+name = 'go-internal'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-rogpeppe-internal'

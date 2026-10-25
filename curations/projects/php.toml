@@ -1,0 +1,97 @@
+id = 'php'
+name = 'php'
+
+homepage = 'https://www.php.net'
+repository = 'https://github.com/php/php-src.git'
+
+[[package]]
+channel = 'arch'
+name = 'php'
+
+[[package]]
+channel = 'arch'
+name = 'php-cgi'
+
+[[package]]
+channel = 'arch'
+name = 'php-fpm'
+
+[[package]]
+channel = 'arch'
+name = 'php-legacy'
+
+[[package]]
+channel = 'arch'
+name = 'php-legacy-cgi'
+
+[[package]]
+channel = 'arch'
+name = 'php-legacy-fpm'
+
+[[package]]
+channel = 'arch'
+name = 'php-legacy-phpdbg'
+
+[[package]]
+channel = 'arch'
+name = 'php-phpdbg'
+
+[[package]]
+channel = 'debian'
+name = 'php8.4-cgi'
+
+[[package]]
+channel = 'debian'
+name = 'php8.4-cli'
+
+[[package]]
+channel = 'debian'
+name = 'php8.4-dev'
+
+[[package]]
+channel = 'debian'
+name = 'php8.4-fpm'
+
+[[package]]
+channel = 'debian'
+name = 'php8.4-litespeed'
+
+[[package]]
+channel = 'debian'
+name = 'php8.4-phpdbg'
+
+[[package]]
+channel = 'fedora'
+name = 'php-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'php-dbg'
+
+[[package]]
+channel = 'fedora'
+name = 'php-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'php-fpm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php@8.1'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php@8.2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php@8.3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php@8.4'

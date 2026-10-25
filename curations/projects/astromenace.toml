@@ -1,0 +1,12 @@
+id = 'astromenace'
+name = 'astromenace'
+
+homepage = 'http://www.viewizard.com/astromenace/index_linux.php'
+
+[[package]]
+channel = 'arch'
+name = 'astromenace'
+
+[[package]]
+channel = 'fedora'
+name = 'astromenace'

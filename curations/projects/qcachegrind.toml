@@ -1,0 +1,9 @@
+id = 'qcachegrind'
+name = 'qcachegrind'
+
+homepage = 'https://apps.kde.org/kcachegrind'
+repository = 'https://invent.kde.org/sdk/kcachegrind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qcachegrind'

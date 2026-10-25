@@ -1,0 +1,8 @@
+id = 'gcp'
+name = 'gcp'
+
+homepage = 'https://code.lm7.fr/mcy/gcp'
+
+[[package]]
+channel = 'debian'
+name = 'gcp'

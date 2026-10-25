@@ -1,0 +1,16 @@
+id = 'mcj'
+name = 'mcj'
+
+homepage = 'https://mcj.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'fig2dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fig2dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xfig'

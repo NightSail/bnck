@@ -1,0 +1,37 @@
+id = 'incus'
+name = 'incus'
+
+homepage = 'https://linuxcontainers.org/incus'
+repository = 'https://github.com/lxc/incus.git'
+
+[[package]]
+channel = 'arch'
+name = 'incus'
+
+[[package]]
+channel = 'arch'
+name = 'incus-tools'
+
+[[package]]
+channel = 'debian'
+name = 'incus-client'
+
+[[package]]
+channel = 'debian'
+name = 'incus-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'incus-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'incus-client'
+
+[[package]]
+channel = 'fedora'
+name = 'incus-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/incus'

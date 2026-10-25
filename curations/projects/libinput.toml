@@ -6,3 +6,11 @@ homepage = 'https://wayland.freedesktop.org/libinput/doc/latest'
 [[package]]
 channel = 'arch'
 name = 'libinput-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libinput-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libinput'

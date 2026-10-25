@@ -1,0 +1,8 @@
+id = 'diskimage-builder'
+name = 'diskimage-builder'
+
+homepage = 'https://launchpad.net/diskimage-builder'
+
+[[package]]
+channel = 'fedora'
+name = 'diskimage-builder'

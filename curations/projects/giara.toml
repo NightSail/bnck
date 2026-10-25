@@ -1,0 +1,8 @@
+id = 'giara'
+name = 'giara'
+
+homepage = 'https://gitlab.gnome.org/World/giara'
+
+[[package]]
+channel = 'debian'
+name = 'giara'

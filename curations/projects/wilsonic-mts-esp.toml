@@ -1,0 +1,8 @@
+id = 'wilsonic-mts-esp'
+name = 'wilsonic-mts-esp'
+
+homepage = 'https://github.com/marcus-w-hobbs/Wilsonic-MTS-ESP'
+
+[[package]]
+channel = 'debian'
+name = 'wilsonic-mts-esp'

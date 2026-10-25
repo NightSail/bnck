@@ -1,0 +1,12 @@
+id = 'open-jtalk'
+name = 'open-jtalk'
+
+homepage = 'https://open-jtalk.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'open-jtalk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-jtalk'

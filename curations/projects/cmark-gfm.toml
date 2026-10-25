@@ -1,0 +1,16 @@
+id = 'cmark-gfm'
+name = 'cmark-gfm'
+
+homepage = 'https://github.com/github/cmark-gfm'
+
+[[package]]
+channel = 'arch'
+name = 'cmark-gfm'
+
+[[package]]
+channel = 'debian'
+name = 'cmark-gfm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmark-gfm'

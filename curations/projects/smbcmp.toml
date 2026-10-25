@@ -1,0 +1,12 @@
+id = 'smbcmp'
+name = 'smbcmp'
+
+homepage = 'https://github.com/smbcmp/smbcmp'
+
+[[package]]
+channel = 'fedora'
+name = 'smbcmp'
+
+[[package]]
+channel = 'fedora'
+name = 'smbcmp-gui'

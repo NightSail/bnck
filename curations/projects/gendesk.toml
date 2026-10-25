@@ -1,0 +1,8 @@
+id = 'gendesk'
+name = 'gendesk'
+
+homepage = 'https://gendesk.roboticoverlords.org'
+
+[[package]]
+channel = 'arch'
+name = 'gendesk'

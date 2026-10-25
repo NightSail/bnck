@@ -1,0 +1,28 @@
+id = 'wordnet'
+name = 'wordnet'
+
+homepage = 'https://wordnet.princeton.edu'
+
+[[package]]
+channel = 'debian'
+name = 'wordnet'
+
+[[package]]
+channel = 'debian'
+name = 'wordnet-grind'
+
+[[package]]
+channel = 'debian'
+name = 'wordnet-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'wordnet'
+
+[[package]]
+channel = 'fedora'
+name = 'wordnet-browser'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wordnet'

@@ -1,0 +1,9 @@
+id = 'api-linter'
+name = 'api-linter'
+
+homepage = 'https://linter.aip.dev'
+repository = 'https://github.com/googleapis/api-linter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/api-linter'

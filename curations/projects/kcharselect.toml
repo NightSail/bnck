@@ -1,0 +1,16 @@
+id = 'kcharselect'
+name = 'kcharselect'
+
+homepage = 'https://apps.kde.org/kcharselect'
+
+[[package]]
+channel = 'arch'
+name = 'kcharselect'
+
+[[package]]
+channel = 'debian'
+name = 'kcharselect'
+
+[[package]]
+channel = 'fedora'
+name = 'kcharselect'

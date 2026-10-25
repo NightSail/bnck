@@ -1,0 +1,8 @@
+id = 'feersum'
+name = 'feersum'
+
+homepage = 'https://metacpan.org/release/Feersum'
+
+[[package]]
+channel = 'debian'
+name = 'feersum'

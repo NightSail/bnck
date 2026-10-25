@@ -1,0 +1,8 @@
+id = 'python3-parfive'
+name = 'python3-parfive'
+
+homepage = 'https://parfive.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-parfive'

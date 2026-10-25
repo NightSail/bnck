@@ -1,0 +1,8 @@
+id = 'jot'
+name = 'jot'
+
+repository = 'https://github.com/shashwatah/jot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jot'

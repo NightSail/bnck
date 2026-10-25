@@ -1,0 +1,16 @@
+id = 'whowatch'
+name = 'whowatch'
+
+homepage = 'https://wizard.uek.krakow.pl/~mike'
+
+[[package]]
+channel = 'arch'
+name = 'whowatch'
+
+[[package]]
+channel = 'debian'
+name = 'whowatch'
+
+[[package]]
+channel = 'fedora'
+name = 'whowatch'

@@ -1,0 +1,28 @@
+id = 'glib'
+name = 'glib'
+
+homepage = 'https://gitlab.gnome.org/GNOME/glib'
+
+[[package]]
+channel = 'arch'
+name = 'glib2'
+
+[[package]]
+channel = 'arch'
+name = 'glib2-devel'
+
+[[package]]
+channel = 'debian'
+name = 'girepository-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libgio-2.0-dev-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libglib2.0-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libglib2.0-dev-bin'

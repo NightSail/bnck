@@ -1,0 +1,8 @@
+id = 'wikitrans'
+name = 'wikitrans'
+
+homepage = 'https://puszcza.gnu.org.ua/projects/wikitrans'
+
+[[package]]
+channel = 'debian'
+name = 'wikitrans'

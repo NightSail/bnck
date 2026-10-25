@@ -1,0 +1,8 @@
+id = 'python-xdot'
+name = 'python-xdot'
+
+homepage = 'https://pypi.python.org/pypi/xdot'
+
+[[package]]
+channel = 'fedora'
+name = 'python-xdot'

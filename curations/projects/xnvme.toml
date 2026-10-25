@@ -1,0 +1,8 @@
+id = 'xnvme'
+name = 'xnvme'
+
+homepage = 'https://xnvme.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xnvme'

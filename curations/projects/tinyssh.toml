@@ -1,0 +1,8 @@
+id = 'tinyssh'
+name = 'tinyssh'
+
+homepage = 'https://tinyssh.org'
+
+[[package]]
+channel = 'arch'
+name = 'tinyssh'

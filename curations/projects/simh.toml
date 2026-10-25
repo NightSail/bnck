@@ -1,0 +1,16 @@
+id = 'simh'
+name = 'simh'
+
+homepage = 'http://simh.trailing-edge.com'
+
+[[package]]
+channel = 'arch'
+name = 'simh'
+
+[[package]]
+channel = 'debian'
+name = 'simh'
+
+[[package]]
+channel = 'fedora'
+name = 'simh'

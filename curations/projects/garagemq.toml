@@ -1,0 +1,8 @@
+id = 'garagemq'
+name = 'garagemq'
+
+homepage = 'https://github.com/valinurovam/garagemq'
+
+[[package]]
+channel = 'debian'
+name = 'garagemq'

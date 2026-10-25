@@ -1,0 +1,8 @@
+id = 'truffle'
+name = 'truffle'
+
+homepage = 'https://trufflesuite.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/truffle'

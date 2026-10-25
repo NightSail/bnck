@@ -1,0 +1,8 @@
+id = 'ovsx'
+name = 'ovsx'
+
+homepage = 'https://www.npmjs.com/package/ovsx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ovsx'

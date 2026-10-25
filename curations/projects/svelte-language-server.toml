@@ -1,0 +1,8 @@
+id = 'svelte-language-server'
+name = 'svelte-language-server'
+
+homepage = 'https://github.com/sveltejs/language-tools/tree/master/packages/language-server'
+
+[[package]]
+channel = 'arch'
+name = 'svelte-language-server'

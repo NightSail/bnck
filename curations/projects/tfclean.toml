@@ -1,0 +1,8 @@
+id = 'tfclean'
+name = 'tfclean'
+
+repository = 'https://github.com/takaishi/tfclean.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfclean'

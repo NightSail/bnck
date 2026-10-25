@@ -1,0 +1,8 @@
+id = 'python3-pynsgr'
+name = 'python3-pynsgr'
+
+homepage = 'https://github.com/OpenSourceBrain/pynsgr'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pynsgr'

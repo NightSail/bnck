@@ -1,0 +1,24 @@
+id = 'ansifilter'
+name = 'ansifilter'
+
+homepage = 'http://andre-simon.de/doku/ansifilter/en/ansifilter.php'
+
+[[package]]
+channel = 'debian'
+name = 'ansifilter'
+
+[[package]]
+channel = 'debian'
+name = 'ansifilter-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'ansifilter'
+
+[[package]]
+channel = 'fedora'
+name = 'ansifilter-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansifilter'

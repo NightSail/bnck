@@ -1,0 +1,8 @@
+id = 'rename-flac'
+name = 'rename-flac'
+
+homepage = 'https://gitlab.com/baldurmen/rename-flac'
+
+[[package]]
+channel = 'debian'
+name = 'rename-flac'

@@ -1,0 +1,20 @@
+id = 'cnugteren'
+name = 'cnugteren'
+
+homepage = 'https://cnugteren.github.io/clblast/clblast.html'
+
+[[package]]
+channel = 'debian'
+name = 'clblast-tests'
+
+[[package]]
+channel = 'debian'
+name = 'clblast-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'clblast-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'clblast-tuners'

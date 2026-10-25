@@ -1,0 +1,8 @@
+id = 'mscp'
+name = 'mscp'
+
+homepage = 'https://github.com/upa/mscp'
+
+[[package]]
+channel = 'arch'
+name = 'mscp'

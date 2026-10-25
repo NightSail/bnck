@@ -1,0 +1,12 @@
+id = 'ppi-html'
+name = 'PPI-HTML'
+
+homepage = 'https://metacpan.org/release/PPI-HTML'
+
+[[package]]
+channel = 'debian'
+name = 'libppi-html-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-PPI-HTML'

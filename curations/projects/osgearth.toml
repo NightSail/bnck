@@ -1,0 +1,12 @@
+id = 'osgearth'
+name = 'osgearth'
+
+homepage = 'http://osgearth.org'
+
+[[package]]
+channel = 'fedora'
+name = 'osgearth-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'osgearth-tools'

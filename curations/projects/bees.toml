@@ -1,0 +1,12 @@
+id = 'bees'
+name = 'bees'
+
+homepage = 'https://github.com/Zygo/bees'
+
+[[package]]
+channel = 'arch'
+name = 'bees'
+
+[[package]]
+channel = 'fedora'
+name = 'bees'

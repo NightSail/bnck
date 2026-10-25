@@ -1,0 +1,8 @@
+id = 'p2pool'
+name = 'p2pool'
+
+homepage = 'https://github.com/SChernykh/p2pool'
+
+[[package]]
+channel = 'arch'
+name = 'p2pool'

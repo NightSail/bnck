@@ -1,0 +1,8 @@
+id = 'kf5-akonadi-mime-devel'
+name = 'kf5-akonadi-mime-devel'
+
+homepage = 'https://invent.kde.org/frameworks/akonadi-mime'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-akonadi-mime-devel'

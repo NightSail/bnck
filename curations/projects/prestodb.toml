@@ -1,0 +1,8 @@
+id = 'prestodb'
+name = 'prestodb'
+
+homepage = 'https://prestodb.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prestodb'

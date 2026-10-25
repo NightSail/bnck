@@ -1,0 +1,16 @@
+id = 'libxc'
+name = 'libxc'
+
+homepage = 'https://libxc.gitlab.io'
+
+[[package]]
+channel = 'debian'
+name = 'libxc-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libxc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxc'

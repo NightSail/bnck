@@ -1,0 +1,20 @@
+id = 'easy-tag'
+name = 'easy-tag'
+
+homepage = 'https://wiki.gnome.org/Apps/EasyTAG'
+
+[[package]]
+channel = 'arch'
+name = 'easytag'
+
+[[package]]
+channel = 'debian'
+name = 'easytag'
+
+[[package]]
+channel = 'fedora'
+name = 'easytag'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/easy-tag'

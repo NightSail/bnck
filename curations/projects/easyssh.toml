@@ -1,0 +1,8 @@
+id = 'easyssh'
+name = 'easyssh'
+
+homepage = 'https://github.com/muriloventuroso/easyssh'
+
+[[package]]
+channel = 'debian'
+name = 'easyssh'

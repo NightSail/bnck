@@ -1,0 +1,8 @@
+id = 'dicelab'
+name = 'dicelab'
+
+homepage = 'http://semistable.com/dicelab'
+
+[[package]]
+channel = 'debian'
+name = 'dicelab'

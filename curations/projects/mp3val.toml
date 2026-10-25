@@ -1,0 +1,12 @@
+id = 'mp3val'
+name = 'mp3val'
+
+homepage = 'https://mp3val.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mp3val'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3val'

@@ -1,0 +1,24 @@
+id = 'sssd'
+name = 'sssd'
+
+homepage = 'https://github.com/SSSD/sssd'
+
+[[package]]
+channel = 'arch'
+name = 'sssd'
+
+[[package]]
+channel = 'debian'
+name = 'sssd-common'
+
+[[package]]
+channel = 'debian'
+name = 'sssd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'sssd-common'
+
+[[package]]
+channel = 'fedora'
+name = 'sssd-tools'

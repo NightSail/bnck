@@ -1,0 +1,8 @@
+id = 'dbskkd-cdb'
+name = 'dbskkd-cdb'
+
+homepage = 'https://github.com/jj1bdx/dbskkd-cdb'
+
+[[package]]
+channel = 'debian'
+name = 'dbskkd-cdb'

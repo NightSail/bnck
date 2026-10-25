@@ -1,0 +1,8 @@
+id = 'lomiri-music-app'
+name = 'lomiri-music-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-music-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-music-app'

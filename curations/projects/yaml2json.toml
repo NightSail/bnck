@@ -1,0 +1,8 @@
+id = 'yaml2json'
+name = 'yaml2json'
+
+repository = 'https://github.com/bronze1man/yaml2json.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaml2json'

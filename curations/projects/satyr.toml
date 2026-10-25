@@ -1,0 +1,8 @@
+id = 'satyr'
+name = 'satyr'
+
+homepage = 'https://github.com/abrt/satyr'
+
+[[package]]
+channel = 'fedora'
+name = 'satyr'

@@ -1,0 +1,8 @@
+id = 'xflr5'
+name = 'xflr5'
+
+homepage = 'http://www.xflr5.com'
+
+[[package]]
+channel = 'fedora'
+name = 'xflr5'

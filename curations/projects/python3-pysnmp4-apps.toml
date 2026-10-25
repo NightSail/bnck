@@ -1,0 +1,8 @@
+id = 'python3-pysnmp4-apps'
+name = 'python3-pysnmp4-apps'
+
+homepage = 'https://pysnmp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysnmp4-apps'

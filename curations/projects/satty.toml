@@ -1,0 +1,8 @@
+id = 'satty'
+name = 'satty'
+
+homepage = 'https://github.com/gabm/satty'
+
+[[package]]
+channel = 'arch'
+name = 'satty'

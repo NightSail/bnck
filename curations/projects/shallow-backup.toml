@@ -1,0 +1,8 @@
+id = 'shallow-backup'
+name = 'shallow-backup'
+
+repository = 'https://github.com/alichtman/shallow-backup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shallow-backup'

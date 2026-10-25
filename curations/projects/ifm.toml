@@ -1,0 +1,8 @@
+id = 'ifm'
+name = 'ifm'
+
+homepage = 'https://git.sr.ht/~zondo/ifm'
+
+[[package]]
+channel = 'fedora'
+name = 'ifm'

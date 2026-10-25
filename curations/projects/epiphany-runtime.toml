@@ -1,0 +1,8 @@
+id = 'epiphany-runtime'
+name = 'epiphany-runtime'
+
+homepage = 'https://wiki.gnome.org/Apps/Web'
+
+[[package]]
+channel = 'fedora'
+name = 'epiphany-runtime'

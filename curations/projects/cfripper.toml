@@ -1,0 +1,8 @@
+id = 'cfripper'
+name = 'cfripper'
+
+homepage = 'https://cfripper.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfripper'

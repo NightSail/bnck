@@ -1,0 +1,8 @@
+id = 'powwow'
+name = 'powwow'
+
+homepage = 'http://hoopajoo.net/projects/powwow.html'
+
+[[package]]
+channel = 'fedora'
+name = 'powwow'

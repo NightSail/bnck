@@ -1,0 +1,12 @@
+id = 'wfview'
+name = 'wfview'
+
+homepage = 'https://wfview.org'
+
+[[package]]
+channel = 'debian'
+name = 'wfview'
+
+[[package]]
+channel = 'fedora'
+name = 'wfview'

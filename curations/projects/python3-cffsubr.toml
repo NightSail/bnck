@@ -1,0 +1,12 @@
+id = 'python3-cffsubr'
+name = 'python3-cffsubr'
+
+homepage = 'https://github.com/adobe-type-tools/cffsubr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cffsubr'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cffsubr'

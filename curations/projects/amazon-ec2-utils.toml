@@ -1,0 +1,12 @@
+id = 'amazon-ec2-utils'
+name = 'amazon-ec2-utils'
+
+homepage = 'https://github.com/aws/amazon-ec2-utils'
+
+[[package]]
+channel = 'debian'
+name = 'amazon-ec2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'amazon-ec2-utils'

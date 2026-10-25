@@ -1,0 +1,32 @@
+id = 'openbox'
+name = 'openbox'
+
+homepage = 'https://openbox.org'
+
+[[package]]
+channel = 'arch'
+name = 'openbox'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-panel-control'
+
+[[package]]
+channel = 'debian'
+name = 'openbox'
+
+[[package]]
+channel = 'debian'
+name = 'openbox-gnome-session'
+
+[[package]]
+channel = 'debian'
+name = 'openbox-kde-session'
+
+[[package]]
+channel = 'fedora'
+name = 'openbox'
+
+[[package]]
+channel = 'fedora'
+name = 'openbox-kde'

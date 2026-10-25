@@ -1,0 +1,8 @@
+id = 'haskell-apply-refact'
+name = 'haskell-apply-refact'
+
+homepage = 'https://github.com/mpickering/apply-refact'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-apply-refact'

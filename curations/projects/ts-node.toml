@@ -1,0 +1,12 @@
+id = 'ts-node'
+name = 'ts-node'
+
+homepage = 'https://github.com/TypeStrong/ts-node'
+
+[[package]]
+channel = 'arch'
+name = 'ts-node'
+
+[[package]]
+channel = 'debian'
+name = 'ts-node'

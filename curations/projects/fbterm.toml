@@ -1,0 +1,12 @@
+id = 'fbterm'
+name = 'fbterm'
+
+homepage = 'https://code.google.com/archive/p/fbterm'
+
+[[package]]
+channel = 'debian'
+name = 'fbterm'
+
+[[package]]
+channel = 'fedora'
+name = 'fbterm'

@@ -1,0 +1,8 @@
+id = 'pulsecaster'
+name = 'pulsecaster'
+
+homepage = 'http://fedorahosted.org/pulsecaster'
+
+[[package]]
+channel = 'fedora'
+name = 'pulsecaster'

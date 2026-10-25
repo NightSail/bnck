@@ -1,0 +1,8 @@
+id = 'golang-github-google-martian'
+name = 'golang-github-google-martian'
+
+homepage = 'https://github.com/google/martian'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-google-martian'

@@ -1,0 +1,16 @@
+id = 'fsarchiver'
+name = 'fsarchiver'
+
+homepage = 'https://www.fsarchiver.org'
+
+[[package]]
+channel = 'arch'
+name = 'fsarchiver'
+
+[[package]]
+channel = 'debian'
+name = 'fsarchiver'
+
+[[package]]
+channel = 'fedora'
+name = 'fsarchiver'

@@ -1,0 +1,8 @@
+id = 'schemacrawler'
+name = 'schemacrawler'
+
+homepage = 'https://www.schemacrawler.com'
+
+[[package]]
+channel = 'arch'
+name = 'schemacrawler'

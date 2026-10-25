@@ -1,0 +1,8 @@
+id = 'trackballs'
+name = 'trackballs'
+
+homepage = 'https://trackballs.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'trackballs'

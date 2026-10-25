@@ -1,0 +1,8 @@
+id = 'rogcat'
+name = 'rogcat'
+
+homepage = 'https://github.com/flxo/rogcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rogcat'

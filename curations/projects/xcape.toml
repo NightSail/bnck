@@ -1,0 +1,12 @@
+id = 'xcape'
+name = 'xcape'
+
+homepage = 'https://github.com/alols/xcape'
+
+[[package]]
+channel = 'arch'
+name = 'xcape'
+
+[[package]]
+channel = 'debian'
+name = 'xcape'

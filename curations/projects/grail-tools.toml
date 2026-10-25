@@ -1,0 +1,8 @@
+id = 'grail-tools'
+name = 'grail-tools'
+
+homepage = 'https://launchpad.net/grail'
+
+[[package]]
+channel = 'debian'
+name = 'grail-tools'

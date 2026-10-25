@@ -1,0 +1,8 @@
+id = 'maven-debian-helper'
+name = 'maven-debian-helper'
+
+homepage = 'https://wiki.debian.org/Java/MavenBuilder'
+
+[[package]]
+channel = 'debian'
+name = 'maven-debian-helper'

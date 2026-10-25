@@ -1,0 +1,12 @@
+id = 'image-png-libpng'
+name = 'Image-PNG-Libpng'
+
+homepage = 'https://metacpan.org/release/Image-PNG-Libpng'
+
+[[package]]
+channel = 'debian'
+name = 'libimage-png-libpng-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Image-PNG-Libpng-tools'

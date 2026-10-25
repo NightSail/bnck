@@ -1,0 +1,9 @@
+id = 'cmix'
+name = 'cmix'
+
+homepage = 'https://www.byronknoll.com/cmix.html'
+repository = 'https://github.com/byronknoll/cmix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmix'

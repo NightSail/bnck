@@ -1,0 +1,9 @@
+id = 'difftastic-lib'
+name = 'difftastic-lib'
+
+homepage = 'http://difftastic.wilfred.me.uk'
+repository = 'https://github.com/imuxin/difftastic-lib'
+
+[[package]]
+channel = 'crates.io'
+name = 'difftastic-lib'

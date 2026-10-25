@@ -1,0 +1,12 @@
+id = 'uwsm'
+name = 'uwsm'
+
+homepage = 'https://github.com/Vladimir-csp/uwsm'
+
+[[package]]
+channel = 'arch'
+name = 'uwsm'
+
+[[package]]
+channel = 'debian'
+name = 'uwsm'

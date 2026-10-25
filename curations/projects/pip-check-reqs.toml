@@ -1,0 +1,8 @@
+id = 'pip-check-reqs'
+name = 'pip-check-reqs'
+
+homepage = 'https://github.com/r1chardj0n3s/pip-check-reqs'
+
+[[package]]
+channel = 'debian'
+name = 'pip-check-reqs'

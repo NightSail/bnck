@@ -1,0 +1,8 @@
+id = 'nowplaying-cli'
+name = 'nowplaying-cli'
+
+homepage = 'https://github.com/kirtan-shah/nowplaying-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nowplaying-cli'

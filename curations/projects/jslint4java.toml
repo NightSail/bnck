@@ -1,0 +1,8 @@
+id = 'jslint4java'
+name = 'jslint4java'
+
+homepage = 'https://code.google.com/archive/p/jslint4java'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jslint4java'

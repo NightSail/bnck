@@ -1,0 +1,8 @@
+id = 'python3-changelog'
+name = 'python3-changelog'
+
+homepage = 'https://github.com/sqlalchemyorg/changelog'
+
+[[package]]
+channel = 'debian'
+name = 'python3-changelog'

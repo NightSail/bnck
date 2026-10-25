@@ -1,0 +1,20 @@
+id = 'libsndfile'
+name = 'libsndfile'
+
+homepage = 'https://libsndfile.github.io/libsndfile'
+
+[[package]]
+channel = 'arch'
+name = 'libsndfile'
+
+[[package]]
+channel = 'debian'
+name = 'sndfile-programs'
+
+[[package]]
+channel = 'fedora'
+name = 'libsndfile-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsndfile'

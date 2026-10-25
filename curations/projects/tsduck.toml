@@ -1,0 +1,9 @@
+id = 'tsduck'
+name = 'tsduck'
+
+homepage = 'https://tsduck.io'
+repository = 'https://github.com/tsduck/tsduck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tsduck'

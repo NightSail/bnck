@@ -1,0 +1,8 @@
+id = 'koboutils'
+name = 'koboutils'
+
+homepage = 'https://github.com/pgaskin/koboutils'
+
+[[package]]
+channel = 'fedora'
+name = 'koboutils'

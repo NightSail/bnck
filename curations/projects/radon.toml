@@ -1,0 +1,8 @@
+id = 'radon'
+name = 'radon'
+
+homepage = 'https://github.com/rubik/radon'
+
+[[package]]
+channel = 'debian'
+name = 'radon'

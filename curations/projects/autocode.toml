@@ -1,0 +1,8 @@
+id = 'autocode'
+name = 'autocode'
+
+homepage = 'https://autocode.readme.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autocode'

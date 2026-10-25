@@ -1,0 +1,8 @@
+id = 'gtml'
+name = 'gtml'
+
+homepage = 'https://github.com/pronovic/gtml'
+
+[[package]]
+channel = 'debian'
+name = 'gtml'

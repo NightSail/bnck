@@ -1,0 +1,8 @@
+id = 'plasmidseeker'
+name = 'plasmidseeker'
+
+homepage = 'https://github.com/bioinfo-ut/PlasmidSeeker'
+
+[[package]]
+channel = 'debian'
+name = 'plasmidseeker'

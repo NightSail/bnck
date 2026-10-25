@@ -1,0 +1,8 @@
+id = 'cogapp'
+name = 'cogapp'
+
+homepage = 'https://cog.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cogapp'

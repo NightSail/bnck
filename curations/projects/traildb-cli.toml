@@ -1,0 +1,8 @@
+id = 'traildb-cli'
+name = 'traildb-cli'
+
+homepage = 'https://github.com/traildb/traildb'
+
+[[package]]
+channel = 'debian'
+name = 'traildb-cli'

@@ -1,0 +1,8 @@
+id = 'gtkam'
+name = 'gtkam'
+
+homepage = 'http://www.gphoto.org/proj/gtkam'
+
+[[package]]
+channel = 'debian'
+name = 'gtkam'

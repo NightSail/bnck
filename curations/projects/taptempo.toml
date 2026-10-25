@@ -1,0 +1,8 @@
+id = 'taptempo'
+name = 'taptempo'
+
+homepage = 'https://mzf.fr/taptempo'
+
+[[package]]
+channel = 'debian'
+name = 'taptempo'

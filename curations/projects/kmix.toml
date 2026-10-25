@@ -1,0 +1,16 @@
+id = 'kmix'
+name = 'kmix'
+
+homepage = 'https://apps.kde.org/kmix'
+
+[[package]]
+channel = 'arch'
+name = 'kmix'
+
+[[package]]
+channel = 'debian'
+name = 'kmix'
+
+[[package]]
+channel = 'fedora'
+name = 'kmix'

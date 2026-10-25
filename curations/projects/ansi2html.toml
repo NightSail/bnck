@@ -1,0 +1,16 @@
+id = 'ansi2html'
+name = 'ansi2html'
+
+homepage = 'https://github.com/pycontribs/ansi2html'
+
+[[package]]
+channel = 'arch'
+name = 'python-ansi2html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ansi2html'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ansi2html'

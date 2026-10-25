@@ -1,0 +1,8 @@
+id = 'perl-panotools-script'
+name = 'perl-Panotools-Script'
+
+homepage = 'https://metacpan.org/release/Panotools-Script'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Panotools-Script'

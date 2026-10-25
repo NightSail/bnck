@@ -1,0 +1,8 @@
+id = 'dmidiplayer'
+name = 'dmidiplayer'
+
+homepage = 'https://dmidiplayer.sourceforge.io'
+
+[[package]]
+channel = 'fedora'
+name = 'dmidiplayer'

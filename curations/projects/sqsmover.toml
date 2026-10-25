@@ -1,0 +1,8 @@
+id = 'sqsmover'
+name = 'sqsmover'
+
+repository = 'https://github.com/smaskalik/sqsmover.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqsmover'

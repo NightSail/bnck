@@ -1,0 +1,8 @@
+id = 'llm-manager'
+name = 'llm-manager'
+
+homepage = 'https://github.com/xyproto/llm-manager'
+
+[[package]]
+channel = 'arch'
+name = 'llm-manager'

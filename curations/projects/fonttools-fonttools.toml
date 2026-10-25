@@ -1,0 +1,8 @@
+id = 'fonttools-fonttools'
+name = 'fonttools'
+
+repository = 'https://github.com/fonttools/fonttools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fonttools'

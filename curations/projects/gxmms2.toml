@@ -1,0 +1,8 @@
+id = 'gxmms2'
+name = 'gxmms2'
+
+homepage = 'http://wejp.k.vu/projects/xmms2'
+
+[[package]]
+channel = 'fedora'
+name = 'gxmms2'

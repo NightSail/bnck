@@ -1,0 +1,12 @@
+id = 'dxf2gcode'
+name = 'dxf2gcode'
+
+homepage = 'https://sourceforge.net/p/dxf2gcode/wiki/Home'
+
+[[package]]
+channel = 'debian'
+name = 'dxf2gcode'
+
+[[package]]
+channel = 'fedora'
+name = 'dxf2gcode'

@@ -1,0 +1,8 @@
+id = 'dissent'
+name = 'dissent'
+
+repository = 'https://github.com/diamondburned/dissent.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dissent'

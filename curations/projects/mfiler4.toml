@@ -1,0 +1,8 @@
+id = 'mfiler4'
+name = 'mfiler4'
+
+homepage = 'http://sourceforge.jp/projects/mfiler4'
+
+[[package]]
+channel = 'fedora'
+name = 'mfiler4'

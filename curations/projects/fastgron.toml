@@ -1,0 +1,8 @@
+id = 'fastgron'
+name = 'fastgron'
+
+homepage = 'https://github.com/adamritter/fastgron'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastgron'

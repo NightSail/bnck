@@ -1,0 +1,21 @@
+id = 'plank'
+name = 'plank'
+
+homepage = 'https://launchpad.net/plank'
+repository = 'https://github.com/pinterest/plank.git'
+
+[[package]]
+channel = 'arch'
+name = 'plank'
+
+[[package]]
+channel = 'debian'
+name = 'plank'
+
+[[package]]
+channel = 'fedora'
+name = 'plank'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plank'

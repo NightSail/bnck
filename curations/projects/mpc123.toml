@@ -1,0 +1,8 @@
+id = 'mpc123'
+name = 'mpc123'
+
+homepage = 'https://github.com/bucciarati/mpc123'
+
+[[package]]
+channel = 'debian'
+name = 'mpc123'

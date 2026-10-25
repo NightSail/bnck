@@ -1,0 +1,8 @@
+id = 'themole'
+name = 'themole'
+
+homepage = 'https://sourceforge.net/projects/themole'
+
+[[package]]
+channel = 'debian'
+name = 'themole'

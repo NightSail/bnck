@@ -1,0 +1,8 @@
+id = 'ingredients'
+name = 'ingredients'
+
+homepage = 'https://codeberg.org/decathorpe/ingredients'
+
+[[package]]
+channel = 'debian'
+name = 'ingredients'

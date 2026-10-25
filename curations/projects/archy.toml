@@ -1,0 +1,8 @@
+id = 'archy'
+name = 'archy'
+
+homepage = 'https://developer.genesys.cloud/devapps/archy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/archy'

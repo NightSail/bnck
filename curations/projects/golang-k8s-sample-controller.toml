@@ -1,0 +1,8 @@
+id = 'golang-k8s-sample-controller'
+name = 'golang-k8s-sample-controller'
+
+homepage = 'https://github.com/kubernetes/sample-controller'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-k8s-sample-controller'

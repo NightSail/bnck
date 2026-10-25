@@ -1,0 +1,16 @@
+id = 'dhcpv6'
+name = 'dhcpv6'
+
+homepage = 'http://klub.com.pl/dhcpv6'
+
+[[package]]
+channel = 'debian'
+name = 'dibbler-client'
+
+[[package]]
+channel = 'debian'
+name = 'dibbler-relay'
+
+[[package]]
+channel = 'debian'
+name = 'dibbler-server'

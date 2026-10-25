@@ -1,0 +1,8 @@
+id = 'bbmap'
+name = 'bbmap'
+
+homepage = 'https://sourceforge.net/projects/bbmap'
+
+[[package]]
+channel = 'debian'
+name = 'bbmap'

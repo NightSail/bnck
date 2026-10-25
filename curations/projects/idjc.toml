@@ -1,0 +1,12 @@
+id = 'idjc'
+name = 'idjc'
+
+homepage = 'http://idjc.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'idjc'
+
+[[package]]
+channel = 'debian'
+name = 'shoutidjc'

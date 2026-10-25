@@ -1,0 +1,16 @@
+id = 'open3d'
+name = 'open3d'
+
+homepage = 'http://www.open3d.org'
+
+[[package]]
+channel = 'debian'
+name = 'open3d-tools'
+
+[[package]]
+channel = 'debian'
+name = 'open3d-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-open3d'

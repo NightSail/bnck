@@ -1,0 +1,21 @@
+id = 'minicom'
+name = 'minicom'
+
+homepage = 'https://packages.debian.org/sid/minicom'
+repository = 'https://salsa.debian.org/minicom-team/minicom.git'
+
+[[package]]
+channel = 'arch'
+name = 'minicom'
+
+[[package]]
+channel = 'debian'
+name = 'minicom'
+
+[[package]]
+channel = 'fedora'
+name = 'minicom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minicom'

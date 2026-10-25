@@ -1,0 +1,8 @@
+id = 'dpo-tools'
+name = 'dpo-tools'
+
+homepage = 'https://salsa.debian.org/l10n-br-team/dpo-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dpo-tools'

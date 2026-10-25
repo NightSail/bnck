@@ -1,0 +1,8 @@
+id = 'kubespy'
+name = 'kubespy'
+
+repository = 'https://github.com/pulumi/kubespy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubespy'

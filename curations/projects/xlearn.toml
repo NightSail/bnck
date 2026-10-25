@@ -1,0 +1,8 @@
+id = 'xlearn'
+name = 'xlearn'
+
+homepage = 'https://xlearn-doc.readthedocs.io/en/latest/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xlearn'

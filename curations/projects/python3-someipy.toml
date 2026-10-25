@@ -1,0 +1,8 @@
+id = 'python3-someipy'
+name = 'python3-someipy'
+
+homepage = 'https://github.com/chrizog/someipy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-someipy'

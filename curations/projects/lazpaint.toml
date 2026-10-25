@@ -1,0 +1,8 @@
+id = 'lazpaint'
+name = 'lazpaint'
+
+homepage = 'https://lazpaint.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'lazpaint'

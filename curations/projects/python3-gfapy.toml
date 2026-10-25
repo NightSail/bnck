@@ -1,0 +1,8 @@
+id = 'python3-gfapy'
+name = 'python3-gfapy'
+
+homepage = 'https://github.com/ggonnella/gfapy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gfapy'

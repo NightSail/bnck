@@ -1,0 +1,16 @@
+id = 'gnome-epub-thumbnailer'
+name = 'gnome-epub-thumbnailer'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-epub-thumbnailer'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-epub-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-epub-thumbnailer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-epub-thumbnailer'

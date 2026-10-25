@@ -1,0 +1,8 @@
+id = 'python3-sphinx-external-toc'
+name = 'python3-sphinx-external-toc'
+
+homepage = 'https://github.com/executablebooks/sphinx-external-toc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-external-toc'

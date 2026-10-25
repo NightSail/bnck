@@ -1,0 +1,13 @@
+id = 'vamp-plugin-sdk'
+name = 'vamp-plugin-sdk'
+
+homepage = 'https://www.vamp-plugins.org'
+repository = 'https://github.com/vamp-plugins/vamp-plugin-sdk.git'
+
+[[package]]
+channel = 'arch'
+name = 'vamp-plugin-sdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vamp-plugin-sdk'

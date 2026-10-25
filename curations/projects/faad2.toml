@@ -1,0 +1,16 @@
+id = 'faad2'
+name = 'faad2'
+
+homepage = 'https://github.com/knik0/faad2'
+
+[[package]]
+channel = 'arch'
+name = 'faad2'
+
+[[package]]
+channel = 'debian'
+name = 'faad'
+
+[[package]]
+channel = 'fedora'
+name = 'faad2'

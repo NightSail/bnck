@@ -1,0 +1,12 @@
+id = 'yabridge'
+name = 'yabridge'
+
+homepage = 'https://github.com/robbert-vdh/yabridge'
+
+[[package]]
+channel = 'arch'
+name = 'yabridge'
+
+[[package]]
+channel = 'arch'
+name = 'yabridgectl'

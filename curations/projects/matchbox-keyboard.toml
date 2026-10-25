@@ -1,0 +1,6 @@
+id = 'matchbox-keyboard'
+name = 'matchbox-keyboard'
+
+[[package]]
+channel = 'debian'
+name = 'matchbox-keyboard'

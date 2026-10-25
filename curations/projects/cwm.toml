@@ -1,0 +1,12 @@
+id = 'cwm'
+name = 'cwm'
+
+homepage = 'https://github.com/leahneukirchen/cwm'
+
+[[package]]
+channel = 'debian'
+name = 'cwm'
+
+[[package]]
+channel = 'fedora'
+name = 'cwm'

@@ -1,0 +1,12 @@
+id = 'trabucco'
+name = 'trabucco'
+
+homepage = 'https://codeberg.org/ltworf/trabucco'
+
+[[package]]
+channel = 'debian'
+name = 'trabucco'
+
+[[package]]
+channel = 'debian'
+name = 'ynew'

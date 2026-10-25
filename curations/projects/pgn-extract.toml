@@ -1,0 +1,8 @@
+id = 'pgn-extract'
+name = 'pgn-extract'
+
+homepage = 'https://www.cs.kent.ac.uk/~djb/pgn-extract'
+
+[[package]]
+channel = 'fedora'
+name = 'pgn-extract'

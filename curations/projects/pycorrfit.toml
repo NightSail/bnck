@@ -1,0 +1,8 @@
+id = 'pycorrfit'
+name = 'pycorrfit'
+
+homepage = 'https://pycorrfit.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'pycorrfit'

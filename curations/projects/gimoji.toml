@@ -1,0 +1,8 @@
+id = 'gimoji'
+name = 'gimoji'
+
+homepage = 'https://crates.io/crates/gimoji'
+
+[[package]]
+channel = 'fedora'
+name = 'gimoji'

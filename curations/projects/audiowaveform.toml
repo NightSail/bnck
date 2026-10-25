@@ -1,0 +1,8 @@
+id = 'audiowaveform'
+name = 'audiowaveform'
+
+homepage = 'https://codeberg.org/chrisn/audiowaveform'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/audiowaveform'

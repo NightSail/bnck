@@ -1,0 +1,16 @@
+id = 'e3'
+name = 'e3'
+
+homepage = 'https://packages.debian.org/sid/e3'
+
+[[package]]
+channel = 'arch'
+name = 'e3'
+
+[[package]]
+channel = 'debian'
+name = 'e3'
+
+[[package]]
+channel = 'fedora'
+name = 'e3'

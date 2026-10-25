@@ -1,0 +1,8 @@
+id = 'ctrtool'
+name = 'ctrtool'
+
+homepage = 'https://github.com/3DSGuy/Project_CTR'
+
+[[package]]
+channel = 'arch'
+name = 'ctrtool'

@@ -1,0 +1,8 @@
+id = 'google-java-format'
+name = 'google-java-format'
+
+homepage = 'https://github.com/google/google-java-format'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/google-java-format'

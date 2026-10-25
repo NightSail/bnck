@@ -1,0 +1,28 @@
+id = 'tcl'
+name = 'tcl'
+
+homepage = 'http://tcl.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'tcl'
+
+[[package]]
+channel = 'arch'
+name = 'tk'
+
+[[package]]
+channel = 'fedora'
+name = 'tcl'
+
+[[package]]
+channel = 'fedora'
+name = 'tcl8'
+
+[[package]]
+channel = 'fedora'
+name = 'tk'
+
+[[package]]
+channel = 'fedora'
+name = 'tk8'

@@ -1,0 +1,8 @@
+id = 'ipython3'
+name = 'ipython3'
+
+homepage = 'https://github.com/ipython/ipython'
+
+[[package]]
+channel = 'debian'
+name = 'ipython3'

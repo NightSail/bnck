@@ -1,0 +1,9 @@
+id = 'logstash'
+name = 'logstash'
+
+homepage = 'https://www.elastic.co/products/logstash'
+repository = 'https://github.com/elastic/logstash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logstash'

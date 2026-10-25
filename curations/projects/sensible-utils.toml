@@ -1,0 +1,10 @@
+id = 'sensible-utils'
+name = 'sensible-utils'
+
+[[package]]
+channel = 'debian'
+name = 'sensible-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'sensible-utils'

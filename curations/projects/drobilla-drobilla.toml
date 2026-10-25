@@ -1,0 +1,20 @@
+id = 'drobilla-drobilla'
+name = 'drobilla'
+
+homepage = 'https://drobilla.net/software/sord.html'
+
+[[package]]
+channel = 'arch'
+name = 'sord'
+
+[[package]]
+channel = 'debian'
+name = 'sordi'
+
+[[package]]
+channel = 'fedora'
+name = 'sord'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sord'

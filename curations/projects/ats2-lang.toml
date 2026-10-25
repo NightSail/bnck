@@ -1,0 +1,8 @@
+id = 'ats2-lang'
+name = 'ats2-lang'
+
+homepage = 'http://www.ats-lang.org'
+
+[[package]]
+channel = 'debian'
+name = 'ats2-lang'

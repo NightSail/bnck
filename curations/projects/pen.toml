@@ -1,0 +1,8 @@
+id = 'pen'
+name = 'pen'
+
+homepage = 'http://siag.nu/pen'
+
+[[package]]
+channel = 'debian'
+name = 'pen'

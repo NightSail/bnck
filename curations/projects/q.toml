@@ -6,3 +6,7 @@ homepage = 'http://harelba.github.io/q'
 [[package]]
 channel = 'debian'
 name = 'python3-q-text-as-data'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/q'

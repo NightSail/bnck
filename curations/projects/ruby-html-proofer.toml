@@ -1,0 +1,8 @@
+id = 'ruby-html-proofer'
+name = 'ruby-html-proofer'
+
+homepage = 'https://github.com/gjtorikian/html-proofer'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-html-proofer'

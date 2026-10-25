@@ -1,0 +1,6 @@
+id = 'ttmkfdir'
+name = 'ttmkfdir'
+
+[[package]]
+channel = 'fedora'
+name = 'ttmkfdir'

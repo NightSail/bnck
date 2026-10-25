@@ -1,0 +1,44 @@
+id = 'linuxaudio-linuxaudio-2'
+name = 'linuxaudio'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/downloads/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'ambdec'
+
+[[package]]
+channel = 'arch'
+name = 'jack_utils'
+
+[[package]]
+channel = 'arch'
+name = 'zita-dc1'
+
+[[package]]
+channel = 'debian'
+name = 'aliki'
+
+[[package]]
+channel = 'debian'
+name = 'jkmeter'
+
+[[package]]
+channel = 'debian'
+name = 'jmeters'
+
+[[package]]
+channel = 'debian'
+name = 'jnoisemeter'
+
+[[package]]
+channel = 'debian'
+name = 'zita-alsa-pcmi-utils'
+
+[[package]]
+channel = 'debian'
+name = 'zita-lrx'
+
+[[package]]
+channel = 'debian'
+name = 'zita-njbridge'

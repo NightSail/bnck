@@ -1,0 +1,20 @@
+id = 'jtreg'
+name = 'jtreg'
+
+homepage = 'https://openjdk.java.net/jtreg'
+
+[[package]]
+channel = 'debian'
+name = 'jtreg'
+
+[[package]]
+channel = 'debian'
+name = 'jtreg6'
+
+[[package]]
+channel = 'debian'
+name = 'jtreg7'
+
+[[package]]
+channel = 'debian'
+name = 'jtreg8'

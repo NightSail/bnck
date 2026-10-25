@@ -1,0 +1,16 @@
+id = 'ipset'
+name = 'ipset'
+
+homepage = 'https://netfilter.org/projects/ipset'
+
+[[package]]
+channel = 'arch'
+name = 'ipset'
+
+[[package]]
+channel = 'debian'
+name = 'ipset'
+
+[[package]]
+channel = 'fedora'
+name = 'ipset'

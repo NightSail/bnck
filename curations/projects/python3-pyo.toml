@@ -1,0 +1,8 @@
+id = 'python3-pyo'
+name = 'python3-pyo'
+
+homepage = 'https://github.com/belangeo/pyo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyo'

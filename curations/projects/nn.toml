@@ -1,0 +1,8 @@
+id = 'nn'
+name = 'nn'
+
+homepage = 'http://www.nndev.org'
+
+[[package]]
+channel = 'debian'
+name = 'nn'

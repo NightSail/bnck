@@ -1,0 +1,13 @@
+id = 'gittuf'
+name = 'gittuf'
+
+homepage = 'https://gittuf.dev'
+repository = 'https://github.com/gittuf/gittuf.git'
+
+[[package]]
+channel = 'debian'
+name = 'gittuf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gittuf'

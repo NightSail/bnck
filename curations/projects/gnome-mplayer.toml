@@ -1,0 +1,8 @@
+id = 'gnome-mplayer'
+name = 'gnome-mplayer'
+
+homepage = 'https://github.com/kdekorte/gnome-mplayer'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-mplayer'

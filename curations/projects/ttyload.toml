@@ -1,0 +1,8 @@
+id = 'ttyload'
+name = 'ttyload'
+
+homepage = 'https://www.daveltd.com/src/util/ttyload'
+
+[[package]]
+channel = 'debian'
+name = 'ttyload'

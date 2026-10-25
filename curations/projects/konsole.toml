@@ -1,0 +1,20 @@
+id = 'konsole'
+name = 'konsole'
+
+homepage = 'https://apps.kde.org/konsole'
+
+[[package]]
+channel = 'arch'
+name = 'konsole'
+
+[[package]]
+channel = 'debian'
+name = 'konsole'
+
+[[package]]
+channel = 'fedora'
+name = 'konsole'
+
+[[package]]
+channel = 'fedora'
+name = 'konsole5'

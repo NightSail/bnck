@@ -1,0 +1,6 @@
+id = 'mpt-status'
+name = 'mpt-status'
+
+[[package]]
+channel = 'debian'
+name = 'mpt-status'

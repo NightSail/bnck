@@ -1,0 +1,8 @@
+id = 'svgtune'
+name = 'svgtune'
+
+homepage = 'http://github.com/yarikoptic/svgtune'
+
+[[package]]
+channel = 'debian'
+name = 'svgtune'

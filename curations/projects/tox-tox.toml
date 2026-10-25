@@ -1,0 +1,12 @@
+id = 'tox-tox'
+name = 'tox'
+
+homepage = 'https://tox.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-tox'
+
+[[package]]
+channel = 'fedora'
+name = 'tox'

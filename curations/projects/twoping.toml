@@ -1,0 +1,9 @@
+id = 'twoping'
+name = 'twoping'
+
+homepage = 'https://www.finnie.org/software/2ping'
+repository = 'https://github.com/rfinnie/2ping.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/twoping'

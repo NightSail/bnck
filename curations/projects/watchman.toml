@@ -1,0 +1,9 @@
+id = 'watchman'
+name = 'watchman'
+
+homepage = 'https://facebook.github.io/watchman'
+repository = 'https://github.com/facebook/watchman.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/watchman'

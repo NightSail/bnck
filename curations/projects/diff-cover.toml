@@ -1,0 +1,12 @@
+id = 'diff-cover'
+name = 'diff-cover'
+
+homepage = 'https://github.com/Bachmann1234/diff-cover'
+
+[[package]]
+channel = 'debian'
+name = 'diff-cover'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-diff-cover'

@@ -1,0 +1,16 @@
+id = 'xdg-utils'
+name = 'xdg-utils'
+
+homepage = 'https://gitlab.freedesktop.org/xdg/xdg-utils'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-utils'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'xdg-utils'

@@ -1,0 +1,25 @@
+id = 'bash'
+name = 'bash'
+
+homepage = 'https://www.gnu.org/software/bash/bash.html'
+repository = 'https://git.savannah.gnu.org/git/bash.git'
+
+[[package]]
+channel = 'arch'
+name = 'bash'
+
+[[package]]
+channel = 'debian'
+name = 'bash'
+
+[[package]]
+channel = 'debian'
+name = 'bash-static'
+
+[[package]]
+channel = 'fedora'
+name = 'bash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bash'

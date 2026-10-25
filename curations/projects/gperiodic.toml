@@ -1,0 +1,8 @@
+id = 'gperiodic'
+name = 'gperiodic'
+
+homepage = 'https://sourceforge.net/projects/gperiodic'
+
+[[package]]
+channel = 'debian'
+name = 'gperiodic'

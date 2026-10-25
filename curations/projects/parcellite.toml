@@ -1,0 +1,16 @@
+id = 'parcellite'
+name = 'parcellite'
+
+homepage = 'https://github.com/rickyrockrat/parcellite'
+
+[[package]]
+channel = 'arch'
+name = 'parcellite'
+
+[[package]]
+channel = 'debian'
+name = 'parcellite'
+
+[[package]]
+channel = 'fedora'
+name = 'parcellite'

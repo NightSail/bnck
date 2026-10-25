@@ -1,0 +1,8 @@
+id = 'dbmail'
+name = 'dbmail'
+
+homepage = 'https://github.com/dbmail/dbmail'
+
+[[package]]
+channel = 'arch'
+name = 'dbmail'

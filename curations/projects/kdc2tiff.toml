@@ -1,0 +1,8 @@
+id = 'kdc2tiff'
+name = 'kdc2tiff'
+
+homepage = 'https://kdc2tiff.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'kdc2tiff'

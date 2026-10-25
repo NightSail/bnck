@@ -1,0 +1,8 @@
+id = 'vhost-device-gpu'
+name = 'vhost-device-gpu'
+
+homepage = 'https://crates.io/crates/vhost-device-gpu'
+
+[[package]]
+channel = 'fedora'
+name = 'vhost-device-gpu'

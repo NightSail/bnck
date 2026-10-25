@@ -1,0 +1,8 @@
+id = 'flamerobin'
+name = 'flamerobin'
+
+homepage = 'http://www.flamerobin.org'
+
+[[package]]
+channel = 'debian'
+name = 'flamerobin'

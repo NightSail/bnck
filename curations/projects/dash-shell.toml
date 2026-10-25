@@ -1,0 +1,9 @@
+id = 'dash-shell'
+name = 'dash-shell'
+
+homepage = 'http://gondor.apana.org.au/~herbert/dash'
+repository = 'https://git.kernel.org/pub/scm/utils/dash/dash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dash-shell'

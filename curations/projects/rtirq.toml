@@ -1,0 +1,8 @@
+id = 'rtirq'
+name = 'rtirq'
+
+homepage = 'https://www.rncbc.org/archive'
+
+[[package]]
+channel = 'arch'
+name = 'rtirq'

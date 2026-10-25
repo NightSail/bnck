@@ -1,0 +1,8 @@
+id = 'pktstat'
+name = 'pktstat'
+
+homepage = 'https://github.com/dleonard0/pktstat'
+
+[[package]]
+channel = 'debian'
+name = 'pktstat'

@@ -1,0 +1,12 @@
+id = 'xmltv'
+name = 'xmltv'
+
+homepage = 'http://xmltv.org'
+
+[[package]]
+channel = 'debian'
+name = 'xmltv-gui'
+
+[[package]]
+channel = 'debian'
+name = 'xmltv-util'

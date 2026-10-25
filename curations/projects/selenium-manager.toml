@@ -1,0 +1,8 @@
+id = 'selenium-manager'
+name = 'selenium-manager'
+
+homepage = 'https://github.com/SeleniumHQ/selenium'
+
+[[package]]
+channel = 'fedora'
+name = 'selenium-manager'

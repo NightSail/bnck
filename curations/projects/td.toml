@@ -1,0 +1,8 @@
+id = 'td'
+name = 'td'
+
+homepage = 'https://github.com/Swatto/td'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/td'

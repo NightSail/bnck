@@ -1,0 +1,29 @@
+id = 'poppler'
+name = 'poppler'
+
+homepage = 'https://poppler.freedesktop.org'
+repository = 'https://gitlab.freedesktop.org/poppler/poppler.git'
+
+[[package]]
+channel = 'arch'
+name = 'poppler'
+
+[[package]]
+channel = 'debian'
+name = 'poppler-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'poppler-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poppler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poppler-qt5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poppler-qt6'

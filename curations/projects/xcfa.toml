@@ -1,0 +1,8 @@
+id = 'xcfa'
+name = 'xcfa'
+
+homepage = 'http://www.xcfa.tuxfamily.org'
+
+[[package]]
+channel = 'debian'
+name = 'xcfa'

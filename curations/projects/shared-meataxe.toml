@@ -1,0 +1,8 @@
+id = 'shared-meataxe'
+name = 'shared_meataxe'
+
+homepage = 'https://users.fmi.uni-jena.de/~king/SharedMeatAxe'
+
+[[package]]
+channel = 'arch'
+name = 'shared_meataxe'

@@ -1,0 +1,8 @@
+id = 'pocl-devel'
+name = 'pocl-devel'
+
+homepage = 'https://github.com/pocl/pocl'
+
+[[package]]
+channel = 'fedora'
+name = 'pocl-devel'

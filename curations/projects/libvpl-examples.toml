@@ -1,0 +1,8 @@
+id = 'libvpl-examples'
+name = 'libvpl-examples'
+
+homepage = 'https://github.com/intel/libvpl'
+
+[[package]]
+channel = 'debian'
+name = 'libvpl-examples'

@@ -1,0 +1,28 @@
+id = 'rasqal'
+name = 'rasqal'
+
+homepage = 'https://librdf.org/rasqal'
+
+[[package]]
+channel = 'arch'
+name = 'rasqal'
+
+[[package]]
+channel = 'debian'
+name = 'librasqal3-dev'
+
+[[package]]
+channel = 'debian'
+name = 'rasqal-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'rasqal'
+
+[[package]]
+channel = 'fedora'
+name = 'rasqal-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rasqal'

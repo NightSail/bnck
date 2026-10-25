@@ -1,0 +1,12 @@
+id = 'clevercsv'
+name = 'clevercsv'
+
+homepage = 'https://github.com/alan-turing-institute/CleverCSV'
+
+[[package]]
+channel = 'arch'
+name = 'python-clevercsv'
+
+[[package]]
+channel = 'debian'
+name = 'python3-clevercsv'

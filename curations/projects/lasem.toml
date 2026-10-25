@@ -1,0 +1,8 @@
+id = 'lasem'
+name = 'lasem'
+
+homepage = 'https://github.com/LasemProject/lasem'
+
+[[package]]
+channel = 'arch'
+name = 'lasem'

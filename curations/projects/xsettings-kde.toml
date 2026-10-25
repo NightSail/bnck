@@ -1,0 +1,8 @@
+id = 'xsettings-kde'
+name = 'xsettings-kde'
+
+homepage = 'https://github.com/KDE/xsettings-kde'
+
+[[package]]
+channel = 'debian'
+name = 'xsettings-kde'

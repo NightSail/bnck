@@ -1,0 +1,8 @@
+id = 'python3-semantic-release'
+name = 'python3-semantic-release'
+
+homepage = 'https://github.com/relekang/python-semantic-release'
+
+[[package]]
+channel = 'debian'
+name = 'python3-semantic-release'

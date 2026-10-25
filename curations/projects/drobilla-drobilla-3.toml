@@ -1,0 +1,12 @@
+id = 'drobilla-drobilla-3'
+name = 'drobilla'
+
+homepage = 'https://drobilla.net/software/lilv.html'
+
+[[package]]
+channel = 'debian'
+name = 'lilv-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lilv'

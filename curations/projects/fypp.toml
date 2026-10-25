@@ -1,0 +1,13 @@
+id = 'fypp'
+name = 'fypp'
+
+homepage = 'http://fypp.readthedocs.io'
+repository = 'https://github.com/aradi/fypp.git'
+
+[[package]]
+channel = 'debian'
+name = 'fypp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fypp'

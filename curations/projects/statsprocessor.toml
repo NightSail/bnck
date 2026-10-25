@@ -1,0 +1,8 @@
+id = 'statsprocessor'
+name = 'statsprocessor'
+
+homepage = 'https://github.com/hashcat/statsprocessor'
+
+[[package]]
+channel = 'debian'
+name = 'statsprocessor'

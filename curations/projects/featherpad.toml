@@ -1,0 +1,16 @@
+id = 'featherpad'
+name = 'featherpad'
+
+homepage = 'https://github.com/tsujan/FeatherPad'
+
+[[package]]
+channel = 'arch'
+name = 'featherpad'
+
+[[package]]
+channel = 'debian'
+name = 'featherpad'
+
+[[package]]
+channel = 'fedora'
+name = 'featherpad'

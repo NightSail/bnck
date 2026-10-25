@@ -1,0 +1,8 @@
+id = 'certspotter'
+name = 'certspotter'
+
+homepage = 'https://github.com/SSLMate/certspotter'
+
+[[package]]
+channel = 'debian'
+name = 'certspotter'

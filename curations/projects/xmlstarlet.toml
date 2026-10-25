@@ -1,0 +1,20 @@
+id = 'xmlstarlet'
+name = 'xmlstarlet'
+
+homepage = 'http://xmlstar.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'xmlstarlet'
+
+[[package]]
+channel = 'debian'
+name = 'xmlstarlet'
+
+[[package]]
+channel = 'fedora'
+name = 'xmlstarlet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmlstarlet'

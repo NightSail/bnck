@@ -1,0 +1,12 @@
+id = 'spectre-meltdown-checker'
+name = 'spectre-meltdown-checker'
+
+homepage = 'https://github.com/speed47/spectre-meltdown-checker'
+
+[[package]]
+channel = 'debian'
+name = 'spectre-meltdown-checker'
+
+[[package]]
+channel = 'fedora'
+name = 'spectre-meltdown-checker'

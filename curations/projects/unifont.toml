@@ -1,0 +1,12 @@
+id = 'unifont'
+name = 'unifont'
+
+homepage = 'https://savannah.gnu.org/projects/unifont'
+
+[[package]]
+channel = 'fedora'
+name = 'unifont'
+
+[[package]]
+channel = 'fedora'
+name = 'unifont-viewer'

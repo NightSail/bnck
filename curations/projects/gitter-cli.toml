@@ -1,0 +1,8 @@
+id = 'gitter-cli'
+name = 'gitter-cli'
+
+homepage = 'https://github.com/RodrigoEspinosa/gitter-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitter-cli'

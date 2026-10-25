@@ -1,0 +1,21 @@
+id = 'gcovr'
+name = 'gcovr'
+
+homepage = 'https://gcovr.com'
+repository = 'https://github.com/gcovr/gcovr.git'
+
+[[package]]
+channel = 'arch'
+name = 'gcovr'
+
+[[package]]
+channel = 'debian'
+name = 'gcovr'
+
+[[package]]
+channel = 'fedora'
+name = 'gcovr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcovr'

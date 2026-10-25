@@ -1,0 +1,8 @@
+id = 'python3-moltemplate'
+name = 'python3-moltemplate'
+
+homepage = 'https://moltemplate.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-moltemplate'

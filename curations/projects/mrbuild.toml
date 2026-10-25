@@ -1,0 +1,8 @@
+id = 'mrbuild'
+name = 'mrbuild'
+
+homepage = 'https://github.com/dkogan/mrbuild'
+
+[[package]]
+channel = 'debian'
+name = 'mrbuild'

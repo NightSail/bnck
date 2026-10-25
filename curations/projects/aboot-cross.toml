@@ -1,0 +1,6 @@
+id = 'aboot-cross'
+name = 'aboot-cross'
+
+[[package]]
+channel = 'debian'
+name = 'aboot-cross'

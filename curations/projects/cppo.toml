@@ -1,0 +1,8 @@
+id = 'cppo'
+name = 'cppo'
+
+homepage = 'https://github.com/ocaml-community/cppo'
+
+[[package]]
+channel = 'debian'
+name = 'cppo'

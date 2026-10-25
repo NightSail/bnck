@@ -1,0 +1,17 @@
+id = 'lxc'
+name = 'lxc'
+
+homepage = 'https://linuxcontainers.org/lxc'
+repository = 'https://github.com/canonical/lxd.git'
+
+[[package]]
+channel = 'fedora'
+name = 'lxc'
+
+[[package]]
+channel = 'fedora'
+name = 'lxc-libs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lxc'

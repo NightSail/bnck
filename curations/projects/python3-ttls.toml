@@ -1,0 +1,8 @@
+id = 'python3-ttls'
+name = 'python3-ttls'
+
+homepage = 'https://github.com/jschlyter/ttls'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ttls'

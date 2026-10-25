@@ -1,0 +1,60 @@
+id = 'xawtv'
+name = 'xawtv'
+
+homepage = 'https://www.linuxtv.org/wiki/index.php/Xawtv'
+
+[[package]]
+channel = 'debian'
+name = 'alevtd'
+
+[[package]]
+channel = 'debian'
+name = 'fbtv'
+
+[[package]]
+channel = 'debian'
+name = 'pia'
+
+[[package]]
+channel = 'debian'
+name = 'radio'
+
+[[package]]
+channel = 'debian'
+name = 'scantv'
+
+[[package]]
+channel = 'debian'
+name = 'streamer'
+
+[[package]]
+channel = 'debian'
+name = 'ttv'
+
+[[package]]
+channel = 'debian'
+name = 'v4l-conf'
+
+[[package]]
+channel = 'debian'
+name = 'webcam'
+
+[[package]]
+channel = 'debian'
+name = 'xawtv'
+
+[[package]]
+channel = 'debian'
+name = 'xawtv-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'xawtv'
+
+[[package]]
+channel = 'fedora'
+name = 'xawtv-motv'
+
+[[package]]
+channel = 'fedora'
+name = 'xawtv-mtt'

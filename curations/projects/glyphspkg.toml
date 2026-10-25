@@ -1,0 +1,8 @@
+id = 'glyphspkg'
+name = 'glyphspkg'
+
+homepage = 'https://github.com/jenskutilek/glyphspkg'
+
+[[package]]
+channel = 'debian'
+name = 'glyphspkg'

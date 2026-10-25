@@ -1,0 +1,8 @@
+id = 'sat4j'
+name = 'sat4j'
+
+homepage = 'https://www.sat4j.org'
+
+[[package]]
+channel = 'debian'
+name = 'sat4j'

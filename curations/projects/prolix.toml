@@ -1,0 +1,8 @@
+id = 'prolix'
+name = 'prolix'
+
+homepage = 'https://metacpan.org/release/App-Prolix'
+
+[[package]]
+channel = 'debian'
+name = 'prolix'

@@ -1,0 +1,8 @@
+id = 'android-cli'
+name = 'android-cli'
+
+homepage = 'https://developer.android.com/tools/agents/android-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/android-cli'

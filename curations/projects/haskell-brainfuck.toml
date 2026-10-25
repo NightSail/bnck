@@ -1,0 +1,8 @@
+id = 'haskell-brainfuck'
+name = 'haskell-brainfuck'
+
+homepage = 'https://github.com/abbradar/brainfuck'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-brainfuck'

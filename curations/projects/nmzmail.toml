@@ -1,0 +1,8 @@
+id = 'nmzmail'
+name = 'nmzmail'
+
+homepage = 'http://www.ecademix.com/JohannesHofmann/nmzmail.html'
+
+[[package]]
+channel = 'debian'
+name = 'nmzmail'

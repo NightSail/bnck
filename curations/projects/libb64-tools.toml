@@ -1,0 +1,8 @@
+id = 'libb64-tools'
+name = 'libb64-tools'
+
+homepage = 'http://libb64.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'libb64-tools'

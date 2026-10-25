@@ -1,0 +1,8 @@
+id = 'edgar'
+name = 'edgar'
+
+homepage = 'https://www.parallelrealities.co.uk/games/edgar'
+
+[[package]]
+channel = 'fedora'
+name = 'edgar'

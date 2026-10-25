@@ -1,0 +1,12 @@
+id = 'libtelnet-utils'
+name = 'libtelnet-utils'
+
+homepage = 'https://github.com/seanmiddleditch/libtelnet'
+
+[[package]]
+channel = 'debian'
+name = 'libtelnet-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libtelnet-utils'

@@ -1,0 +1,12 @@
+id = 'xfce4-settings'
+name = 'xfce4-settings'
+
+homepage = 'https://docs.xfce.org/xfce/xfce4-settings/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-settings'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-settings'

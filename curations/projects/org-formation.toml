@@ -1,0 +1,8 @@
+id = 'org-formation'
+name = 'org-formation'
+
+homepage = 'https://github.com/org-formation/org-formation-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/org-formation'

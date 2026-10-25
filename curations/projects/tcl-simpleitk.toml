@@ -1,0 +1,8 @@
+id = 'tcl-simpleitk'
+name = 'tcl-simpleitk'
+
+homepage = 'https://github.com/SimpleITK/SimpleITK'
+
+[[package]]
+channel = 'arch'
+name = 'tcl-simpleitk'

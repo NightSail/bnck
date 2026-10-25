@@ -1,0 +1,12 @@
+id = 'lem'
+name = 'lem'
+
+homepage = 'https://github.com/rems-project/lem'
+
+[[package]]
+channel = 'debian'
+name = 'lem'
+
+[[package]]
+channel = 'fedora'
+name = 'lem'

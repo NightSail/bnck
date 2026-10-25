@@ -1,0 +1,8 @@
+id = 'pacparser-manugarg'
+name = 'pacparser'
+
+repository = 'https://github.com/manugarg/pacparser.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pacparser'

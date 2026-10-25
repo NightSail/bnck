@@ -1,0 +1,16 @@
+id = 'libyang'
+name = 'libyang'
+
+homepage = 'https://github.com/CESNET/libyang'
+
+[[package]]
+channel = 'debian'
+name = 'libyang3-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libyang-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libyang'

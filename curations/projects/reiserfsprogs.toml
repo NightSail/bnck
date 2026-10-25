@@ -1,0 +1,6 @@
+id = 'reiserfsprogs'
+name = 'reiserfsprogs'
+
+[[package]]
+channel = 'debian'
+name = 'reiserfsprogs'

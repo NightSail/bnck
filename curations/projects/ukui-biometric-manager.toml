@@ -1,0 +1,6 @@
+id = 'ukui-biometric-manager'
+name = 'ukui-biometric-manager'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-biometric-manager'

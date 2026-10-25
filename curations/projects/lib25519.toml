@@ -1,0 +1,12 @@
+id = 'lib25519'
+name = 'lib25519'
+
+homepage = 'https://lib25519.cr.yp.to/download.html'
+
+[[package]]
+channel = 'debian'
+name = 'ed25519'
+
+[[package]]
+channel = 'debian'
+name = 'x25519'

@@ -1,0 +1,8 @@
+id = 'python3-ply'
+name = 'python3-ply'
+
+homepage = 'https://www.dabeaz.com/ply'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ply'

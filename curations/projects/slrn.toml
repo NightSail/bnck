@@ -1,0 +1,25 @@
+id = 'slrn'
+name = 'slrn'
+
+homepage = 'https://slrn.info'
+repository = 'git://git.jedsoft.org/git/slrn.git'
+
+[[package]]
+channel = 'debian'
+name = 'slrn'
+
+[[package]]
+channel = 'debian'
+name = 'slrnpull'
+
+[[package]]
+channel = 'fedora'
+name = 'slrn'
+
+[[package]]
+channel = 'fedora'
+name = 'slrn-pull'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slrn'

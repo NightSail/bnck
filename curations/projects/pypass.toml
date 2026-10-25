@@ -1,0 +1,8 @@
+id = 'pypass'
+name = 'pypass'
+
+homepage = 'https://github.com/aviau/python-pass'
+
+[[package]]
+channel = 'debian'
+name = 'pypass'

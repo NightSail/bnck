@@ -1,0 +1,8 @@
+id = 'spamassassin-dqs'
+name = 'spamassassin-dqs'
+
+homepage = 'https://github.com/spamhaus/spamassassin-dqs'
+
+[[package]]
+channel = 'fedora'
+name = 'spamassassin-dqs'

@@ -1,0 +1,12 @@
+id = 'file-mimeinfo'
+name = 'File-MimeInfo'
+
+homepage = 'https://metacpan.org/release/File-MimeInfo'
+
+[[package]]
+channel = 'debian'
+name = 'libfile-mimeinfo-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-File-MimeInfo'

@@ -1,0 +1,12 @@
+id = 'certbot'
+name = 'certbot'
+
+homepage = 'https://certbot.eff.org'
+
+[[package]]
+channel = 'arch'
+name = 'certbot'
+
+[[package]]
+channel = 'debian'
+name = 'certbot'

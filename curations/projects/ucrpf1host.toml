@@ -1,0 +1,8 @@
+id = 'ucrpf1host'
+name = 'ucrpf1host'
+
+homepage = 'https://github.com/grandpaul/ucrpf1host'
+
+[[package]]
+channel = 'debian'
+name = 'ucrpf1host'

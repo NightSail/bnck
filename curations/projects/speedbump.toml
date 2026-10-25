@@ -1,0 +1,8 @@
+id = 'speedbump'
+name = 'speedbump'
+
+repository = 'https://github.com/kffl/speedbump.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speedbump'

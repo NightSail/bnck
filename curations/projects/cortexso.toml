@@ -1,0 +1,9 @@
+id = 'cortexso'
+name = 'cortexso'
+
+homepage = 'https://jan.ai/cortex'
+repository = 'https://github.com/janhq/cortex.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cortexso'

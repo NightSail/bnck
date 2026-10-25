@@ -1,0 +1,12 @@
+id = 'ukoethe'
+name = 'ukoethe'
+
+homepage = 'https://ukoethe.github.io/vigra'
+
+[[package]]
+channel = 'arch'
+name = 'vigra'
+
+[[package]]
+channel = 'fedora'
+name = 'vigra-devel'

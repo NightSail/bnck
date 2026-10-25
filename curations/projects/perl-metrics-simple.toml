@@ -1,0 +1,12 @@
+id = 'perl-metrics-simple'
+name = 'Perl-Metrics-Simple'
+
+homepage = 'https://metacpan.org/release/Perl-Metrics-Simple'
+
+[[package]]
+channel = 'debian'
+name = 'libperl-metrics-simple-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-Metrics-Simple'

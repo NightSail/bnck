@@ -1,0 +1,16 @@
+id = 'lxhotkey'
+name = 'lxhotkey'
+
+homepage = 'https://github.com/lxde/lxhotkey'
+
+[[package]]
+channel = 'arch'
+name = 'lxhotkey'
+
+[[package]]
+channel = 'debian'
+name = 'lxhotkey-core'
+
+[[package]]
+channel = 'fedora'
+name = 'lxhotkey'

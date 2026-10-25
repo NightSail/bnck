@@ -1,0 +1,8 @@
+id = 'notus-scanner'
+name = 'notus-scanner'
+
+homepage = 'https://github.com/greenbone/notus-scanner'
+
+[[package]]
+channel = 'debian'
+name = 'notus-scanner'

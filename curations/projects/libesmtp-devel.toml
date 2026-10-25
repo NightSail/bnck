@@ -1,0 +1,8 @@
+id = 'libesmtp-devel'
+name = 'libesmtp-devel'
+
+homepage = 'http://www.stafford.uklinux.net/libesmtp'
+
+[[package]]
+channel = 'fedora'
+name = 'libesmtp-devel'

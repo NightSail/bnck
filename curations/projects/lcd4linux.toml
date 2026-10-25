@@ -1,0 +1,12 @@
+id = 'lcd4linux'
+name = 'lcd4linux'
+
+homepage = 'https://ssl.bulix.org/projects/lcd4linux'
+
+[[package]]
+channel = 'debian'
+name = 'lcd4linux'
+
+[[package]]
+channel = 'fedora'
+name = 'lcd4linux'

@@ -1,0 +1,6 @@
+id = 'mirrorbits'
+name = 'mirrorbits'
+
+[[package]]
+channel = 'debian'
+name = 'mirrorbits'

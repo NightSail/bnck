@@ -1,0 +1,8 @@
+id = 'unity-cli'
+name = 'unity-cli'
+
+homepage = 'https://docs.unity.com/en-us/unity-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/unity-cli'

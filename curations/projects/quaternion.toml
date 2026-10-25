@@ -1,0 +1,12 @@
+id = 'quaternion'
+name = 'quaternion'
+
+homepage = 'https://github.com/quotient-im/Quaternion'
+
+[[package]]
+channel = 'debian'
+name = 'quaternion'
+
+[[package]]
+channel = 'fedora'
+name = 'quaternion'

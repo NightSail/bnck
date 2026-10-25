@@ -1,0 +1,8 @@
+id = 'easyengine'
+name = 'easyengine'
+
+homepage = 'https://easyengine.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/easyengine'

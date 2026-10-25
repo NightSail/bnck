@@ -1,0 +1,21 @@
+id = 'binaryen'
+name = 'binaryen'
+
+homepage = 'https://webassembly.org'
+repository = 'https://github.com/WebAssembly/binaryen.git'
+
+[[package]]
+channel = 'arch'
+name = 'binaryen'
+
+[[package]]
+channel = 'debian'
+name = 'binaryen'
+
+[[package]]
+channel = 'fedora'
+name = 'binaryen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/binaryen'

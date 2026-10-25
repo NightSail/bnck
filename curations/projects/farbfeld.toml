@@ -1,0 +1,8 @@
+id = 'farbfeld'
+name = 'farbfeld'
+
+homepage = 'https://tools.suckless.org/farbfeld'
+
+[[package]]
+channel = 'debian'
+name = 'farbfeld'

@@ -1,0 +1,17 @@
+id = 'wasm-pack'
+name = 'wasm-pack'
+
+homepage = 'https://github.com/rustwasm/wasm-pack'
+repository = 'https://github.com/wasm-bindgen/wasm-pack.git'
+
+[[package]]
+channel = 'arch'
+name = 'wasm-pack'
+
+[[package]]
+channel = 'debian'
+name = 'wasm-pack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasm-pack'

@@ -1,0 +1,8 @@
+id = 'lamassemble'
+name = 'lamassemble'
+
+homepage = 'https://gitlab.com/mcfrith/lamassemble'
+
+[[package]]
+channel = 'debian'
+name = 'lamassemble'

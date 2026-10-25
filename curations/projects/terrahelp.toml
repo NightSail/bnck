@@ -1,0 +1,8 @@
+id = 'terrahelp'
+name = 'terrahelp'
+
+repository = 'https://github.com/opencredo/terrahelp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terrahelp'

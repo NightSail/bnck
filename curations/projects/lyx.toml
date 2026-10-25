@@ -1,0 +1,16 @@
+id = 'lyx'
+name = 'lyx'
+
+homepage = 'https://www.lyx.org'
+
+[[package]]
+channel = 'debian'
+name = 'lyx'
+
+[[package]]
+channel = 'fedora'
+name = 'lyx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/lyx'

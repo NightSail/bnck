@@ -1,0 +1,8 @@
+id = 'python3-uv-build'
+name = 'python3-uv-build'
+
+homepage = 'https://pypi.org/project/uv-build'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-uv-build'

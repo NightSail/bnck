@@ -1,0 +1,13 @@
+id = 'teamtype'
+name = 'teamtype'
+
+homepage = 'https://teamtype.github.io/teamtype'
+repository = 'https://github.com/teamtype/teamtype.git'
+
+[[package]]
+channel = 'arch'
+name = 'teamtype'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/teamtype'

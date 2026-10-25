@@ -1,0 +1,8 @@
+id = 'pgp-tools'
+name = 'pgp-tools'
+
+homepage = 'https://salsa.debian.org/stappers/pgp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pgp-tools'

@@ -1,0 +1,8 @@
+id = 'arch-audit'
+name = 'arch-audit'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/arch-audit'
+
+[[package]]
+channel = 'arch'
+name = 'arch-audit'

@@ -1,0 +1,8 @@
+id = 'doggo-vmchale'
+name = 'doggo'
+
+repository = 'https://github.com/vmchale/doggo-command-line'
+
+[[package]]
+channel = 'crates.io'
+name = 'doggo'

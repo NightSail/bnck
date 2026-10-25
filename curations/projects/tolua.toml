@@ -1,0 +1,8 @@
+id = 'tolua'
+name = 'tolua++'
+
+homepage = 'https://github.com/LuaDist/toluapp'
+
+[[package]]
+channel = 'arch'
+name = 'tolua++'

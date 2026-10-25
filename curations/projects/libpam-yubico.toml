@@ -1,0 +1,6 @@
+id = 'libpam-yubico'
+name = 'libpam-yubico'
+
+[[package]]
+channel = 'debian'
+name = 'libpam-yubico'

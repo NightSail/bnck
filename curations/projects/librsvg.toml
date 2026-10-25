@@ -1,0 +1,16 @@
+id = 'librsvg'
+name = 'librsvg'
+
+homepage = 'https://wiki.gnome.org/Projects/LibRsvg'
+
+[[package]]
+channel = 'arch'
+name = 'librsvg'
+
+[[package]]
+channel = 'fedora'
+name = 'librsvg2-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librsvg'

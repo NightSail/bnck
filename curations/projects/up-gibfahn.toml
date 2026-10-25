@@ -1,0 +1,8 @@
+id = 'up-gibfahn'
+name = 'up'
+
+repository = 'https://github.com/gibfahn/up'
+
+[[package]]
+channel = 'crates.io'
+name = 'up'

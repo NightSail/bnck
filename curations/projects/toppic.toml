@@ -1,0 +1,8 @@
+id = 'toppic'
+name = 'toppic'
+
+homepage = 'http://proteomics.informatics.iupui.edu/software/toppic/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'toppic'

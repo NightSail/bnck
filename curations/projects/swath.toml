@@ -1,0 +1,8 @@
+id = 'swath'
+name = 'swath'
+
+homepage = 'https://linux.thai.net/projects/swath'
+
+[[package]]
+channel = 'debian'
+name = 'swath'

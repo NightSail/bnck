@@ -1,0 +1,8 @@
+id = 'acronis-true-image-cleanup-tool'
+name = 'acronis-true-image-cleanup-tool'
+
+homepage = 'https://care.acronis.com/s/article/48668-Acronis-Cyber-Protect-Home-Office-Acronis-True-Image-Cleanup-Utility'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/acronis-true-image-cleanup-tool'

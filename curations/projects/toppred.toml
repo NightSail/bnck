@@ -1,0 +1,8 @@
+id = 'toppred'
+name = 'toppred'
+
+homepage = 'https://github.com/bioinfo-center-pasteur-fr/toppred'
+
+[[package]]
+channel = 'debian'
+name = 'toppred'

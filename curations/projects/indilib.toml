@@ -1,0 +1,132 @@
+id = 'indilib'
+name = 'indilib'
+
+homepage = 'https://www.indilib.org'
+
+[[package]]
+channel = 'debian'
+name = 'indi-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-aagcloudwatcher-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-ahp-xc'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-aok'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-apogee'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-armadillo-platypus'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-avalon'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-avalonud'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-beefocus'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-bresserexos2'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-celestronaux'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-eqmod'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-fli'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-gphoto'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-gpsd'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-gpsnmea'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-maxdome'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-mgen'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-nexdome'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-nightscape'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-ocs'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-orionssg3'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-rolloffino'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-rtklib'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-shelyak'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-starbook'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-starbook-ten'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-sx'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-talon6'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-webcam'
+
+[[package]]
+channel = 'fedora'
+name = 'indi-3rdparty-weewx-json'
+
+[[package]]
+channel = 'fedora'
+name = 'libindi'

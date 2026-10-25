@@ -1,0 +1,8 @@
+id = 'quearcode'
+name = 'quearcode'
+
+homepage = 'https://codeberg.org/gwync/quearcode'
+
+[[package]]
+channel = 'fedora'
+name = 'quearcode'

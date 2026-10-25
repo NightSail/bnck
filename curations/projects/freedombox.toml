@@ -1,0 +1,8 @@
+id = 'freedombox'
+name = 'freedombox'
+
+homepage = 'https://salsa.debian.org/freedombox-team/freedombox'
+
+[[package]]
+channel = 'debian'
+name = 'freedombox'

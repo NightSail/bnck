@@ -1,0 +1,8 @@
+id = 'pdfcpu'
+name = 'pdfcpu'
+
+homepage = 'https://pdfcpu.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfcpu'

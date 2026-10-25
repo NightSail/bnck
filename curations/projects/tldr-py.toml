@@ -1,0 +1,8 @@
+id = 'tldr-py'
+name = 'tldr-py'
+
+homepage = 'https://github.com/lord63/tldr.py'
+
+[[package]]
+channel = 'debian'
+name = 'tldr-py'

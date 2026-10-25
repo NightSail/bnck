@@ -1,0 +1,16 @@
+id = 'xsettingsd'
+name = 'xsettingsd'
+
+homepage = 'https://codeberg.org/derat/xsettingsd'
+
+[[package]]
+channel = 'arch'
+name = 'xsettingsd'
+
+[[package]]
+channel = 'debian'
+name = 'xsettingsd'
+
+[[package]]
+channel = 'fedora'
+name = 'xsettingsd'

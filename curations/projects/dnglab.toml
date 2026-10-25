@@ -1,0 +1,8 @@
+id = 'dnglab'
+name = 'dnglab'
+
+homepage = 'https://github.com/dnglab/dnglab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnglab'

@@ -1,0 +1,16 @@
+id = 'djvu-djvu'
+name = 'djvu'
+
+homepage = 'https://djvu.sourceforge.net/djview4.html'
+
+[[package]]
+channel = 'arch'
+name = 'djview'
+
+[[package]]
+channel = 'fedora'
+name = 'djview4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djview4'

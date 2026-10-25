@@ -1,0 +1,8 @@
+id = 'pmd'
+name = 'pmd'
+
+homepage = 'https://pmd.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pmd'

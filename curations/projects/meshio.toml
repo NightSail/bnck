@@ -1,0 +1,12 @@
+id = 'meshio'
+name = 'meshio'
+
+homepage = 'https://github.com/nschloe/meshio'
+
+[[package]]
+channel = 'debian'
+name = 'meshio-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-meshio'

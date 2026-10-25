@@ -1,0 +1,9 @@
+id = 'strongswan-strongswan'
+name = 'strongswan'
+
+homepage = 'https://www.strongswan.org'
+repository = 'https://github.com/strongswan/strongswan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/strongswan'

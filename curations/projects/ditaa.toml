@@ -1,0 +1,20 @@
+id = 'ditaa'
+name = 'ditaa'
+
+homepage = 'https://ditaa.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'ditaa'
+
+[[package]]
+channel = 'debian'
+name = 'ditaa'
+
+[[package]]
+channel = 'fedora'
+name = 'ditaa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ditaa'

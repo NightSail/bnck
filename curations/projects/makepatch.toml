@@ -1,0 +1,6 @@
+id = 'makepatch'
+name = 'makepatch'
+
+[[package]]
+channel = 'debian'
+name = 'makepatch'

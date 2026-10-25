@@ -1,0 +1,9 @@
+id = 'mavsdk'
+name = 'mavsdk'
+
+homepage = 'https://mavsdk.mavlink.io/main/en/index.html'
+repository = 'https://github.com/mavlink/MAVSDK.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mavsdk'

@@ -1,0 +1,8 @@
+id = 'klamav'
+name = 'klamav'
+
+homepage = 'http://klamav.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'klamav'

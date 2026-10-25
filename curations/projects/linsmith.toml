@@ -1,0 +1,8 @@
+id = 'linsmith'
+name = 'linsmith'
+
+homepage = 'http://jcoppens.com/soft/linsmith/index.en.php'
+
+[[package]]
+channel = 'fedora'
+name = 'linsmith'

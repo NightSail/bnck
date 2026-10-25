@@ -1,0 +1,12 @@
+id = 'archivemount'
+name = 'archivemount'
+
+homepage = 'https://sr.ht/~nabijaczleweli/archivemount-ng'
+
+[[package]]
+channel = 'debian'
+name = 'archivemount'
+
+[[package]]
+channel = 'fedora'
+name = 'archivemount'

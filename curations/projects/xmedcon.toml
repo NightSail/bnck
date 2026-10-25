@@ -1,0 +1,24 @@
+id = 'xmedcon'
+name = 'xmedcon'
+
+homepage = 'https://xmedcon.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libmdc-dev'
+
+[[package]]
+channel = 'debian'
+name = 'medcon'
+
+[[package]]
+channel = 'debian'
+name = 'xmedcon'
+
+[[package]]
+channel = 'fedora'
+name = 'xmedcon'
+
+[[package]]
+channel = 'fedora'
+name = 'xmedcon-devel'

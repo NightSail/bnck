@@ -1,0 +1,8 @@
+id = 'clion-eap'
+name = 'clion@eap'
+
+homepage = 'https://www.jetbrains.com/clion/nextversion'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/clion@eap'

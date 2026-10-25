@@ -1,0 +1,8 @@
+id = 'cabal-debian'
+name = 'cabal-debian'
+
+homepage = 'https://github.com/clinty/cabal-debian'
+
+[[package]]
+channel = 'debian'
+name = 'cabal-debian'

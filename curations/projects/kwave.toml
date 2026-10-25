@@ -1,0 +1,16 @@
+id = 'kwave'
+name = 'kwave'
+
+homepage = 'https://apps.kde.org/kwave'
+
+[[package]]
+channel = 'arch'
+name = 'kwave'
+
+[[package]]
+channel = 'debian'
+name = 'kwave'
+
+[[package]]
+channel = 'fedora'
+name = 'kwave'

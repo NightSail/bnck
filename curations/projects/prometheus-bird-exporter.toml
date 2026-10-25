@@ -1,0 +1,12 @@
+id = 'prometheus-bird-exporter'
+name = 'prometheus-bird-exporter'
+
+homepage = 'https://github.com/czerwonk/bird_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-bird-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-bird-exporter'

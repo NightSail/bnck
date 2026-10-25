@@ -1,0 +1,16 @@
+id = 'sg3-utils'
+name = 'sg3_utils'
+
+homepage = 'http://sg.danny.cz/sg/sg3_utils.html'
+
+[[package]]
+channel = 'arch'
+name = 'sg3_utils'
+
+[[package]]
+channel = 'debian'
+name = 'sg3-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'sg3_utils'

@@ -1,0 +1,9 @@
+id = 'sdns'
+name = 'sdns'
+
+homepage = 'https://sdns.dev'
+repository = 'https://github.com/semihalev/sdns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdns'

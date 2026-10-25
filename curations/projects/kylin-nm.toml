@@ -1,0 +1,6 @@
+id = 'kylin-nm'
+name = 'kylin-nm'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-nm'

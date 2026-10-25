@@ -1,0 +1,12 @@
+id = 'libfuse'
+name = 'libfuse'
+
+homepage = 'https://github.com/libfuse/libfuse'
+
+[[package]]
+channel = 'arch'
+name = 'fuse2'
+
+[[package]]
+channel = 'arch'
+name = 'fuse3'

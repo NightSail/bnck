@@ -1,0 +1,12 @@
+id = 'spire'
+name = 'spire'
+
+homepage = 'https://github.com/spiffe/spire'
+
+[[package]]
+channel = 'arch'
+name = 'spire-agent'
+
+[[package]]
+channel = 'arch'
+name = 'spire-server'

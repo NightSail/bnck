@@ -1,0 +1,8 @@
+id = 'budgie-extras'
+name = 'budgie-extras'
+
+homepage = 'https://github.com/UbuntuBudgie/budgie-extras'
+
+[[package]]
+channel = 'arch'
+name = 'budgie-extras'

@@ -1,0 +1,8 @@
+id = 'galen'
+name = 'galen'
+
+homepage = 'https://galenframework.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/galen'

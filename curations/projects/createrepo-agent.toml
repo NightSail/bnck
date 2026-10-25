@@ -1,0 +1,8 @@
+id = 'createrepo-agent'
+name = 'createrepo-agent'
+
+homepage = 'https://github.com/osrf/createrepo-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'createrepo-agent'

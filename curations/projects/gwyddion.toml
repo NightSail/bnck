@@ -1,0 +1,13 @@
+id = 'gwyddion'
+name = 'gwyddion'
+
+homepage = 'https://gwyddion.net'
+repository = 'https://svn.code.sf.net/p/gwyddion/code/branches/GWYDDION-UNSTABLE'
+
+[[package]]
+channel = 'debian'
+name = 'gwyddion'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gwyddion'

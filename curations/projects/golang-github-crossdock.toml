@@ -1,0 +1,8 @@
+id = 'golang-github-crossdock'
+name = 'golang-github-crossdock'
+
+homepage = 'https://github.com/crossdock/crossdock-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-crossdock'

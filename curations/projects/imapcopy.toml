@@ -1,0 +1,8 @@
+id = 'imapcopy'
+name = 'imapcopy'
+
+homepage = 'http://www.ardiehl.de/imapcopy'
+
+[[package]]
+channel = 'debian'
+name = 'imapcopy'

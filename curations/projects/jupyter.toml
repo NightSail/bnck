@@ -1,0 +1,80 @@
+id = 'jupyter'
+name = 'jupyter'
+
+homepage = 'https://jupyter.org'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-server'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-server-fileid'
+
+[[package]]
+channel = 'arch'
+name = 'python-hatch-jupyter-builder'
+
+[[package]]
+channel = 'arch'
+name = 'python-jupyter-builder'
+
+[[package]]
+channel = 'arch'
+name = 'python-jupyter-events'
+
+[[package]]
+channel = 'debian'
+name = 'jupyter-qtconsole'
+
+[[package]]
+channel = 'debian'
+name = 'jupyterhub'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jupyter-events'
+
+[[package]]
+channel = 'fedora'
+name = 'jupyterlab'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyter-client'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyter-console'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyter-core'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyter-events'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nbclassic'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nbclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nbconvert'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-notebook'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qtconsole'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jupyterlab'

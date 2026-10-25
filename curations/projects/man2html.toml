@@ -1,0 +1,12 @@
+id = 'man2html'
+name = 'man2html'
+
+homepage = 'https://savannah.nongnu.org/projects/man2html'
+
+[[package]]
+channel = 'arch'
+name = 'man2html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/man2html'

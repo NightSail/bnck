@@ -1,0 +1,16 @@
+id = 'iec16022'
+name = 'iec16022'
+
+homepage = 'https://github.com/rdoeffinger/iec16022'
+
+[[package]]
+channel = 'arch'
+name = 'iec16022'
+
+[[package]]
+channel = 'debian'
+name = 'iec16022'
+
+[[package]]
+channel = 'fedora'
+name = 'iec16022'

@@ -1,0 +1,12 @@
+id = 'haunt'
+name = 'haunt'
+
+homepage = 'https://dthompson.us/projects/haunt.html'
+
+[[package]]
+channel = 'debian'
+name = 'haunt'
+
+[[package]]
+channel = 'fedora'
+name = 'haunt'

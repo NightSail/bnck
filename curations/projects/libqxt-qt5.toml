@@ -1,0 +1,8 @@
+id = 'libqxt-qt5'
+name = 'libqxt-qt5'
+
+homepage = 'https://bitbucket.org/libqxt/libqxt/wiki/Home'
+
+[[package]]
+channel = 'fedora'
+name = 'libqxt-qt5'

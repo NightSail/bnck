@@ -1,0 +1,9 @@
+id = 'echidna'
+name = 'echidna'
+
+homepage = 'https://secure-contracts.com/program-analysis/echidna/index.html'
+repository = 'https://github.com/crytic/echidna.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/echidna'

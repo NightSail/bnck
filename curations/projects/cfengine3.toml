@@ -1,0 +1,8 @@
+id = 'cfengine3'
+name = 'cfengine3'
+
+homepage = 'https://cfengine.com/product/community'
+
+[[package]]
+channel = 'debian'
+name = 'cfengine3'

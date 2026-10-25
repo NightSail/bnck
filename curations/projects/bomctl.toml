@@ -1,0 +1,8 @@
+id = 'bomctl'
+name = 'bomctl'
+
+repository = 'https://github.com/bomctl/bomctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bomctl'

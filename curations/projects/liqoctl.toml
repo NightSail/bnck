@@ -1,0 +1,9 @@
+id = 'liqoctl'
+name = 'liqoctl'
+
+homepage = 'https://liqo.io'
+repository = 'https://github.com/liqotech/liqo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liqoctl'

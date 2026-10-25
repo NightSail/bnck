@@ -1,0 +1,16 @@
+id = 'readstat'
+name = 'readstat'
+
+homepage = 'https://github.com/WizardMac/ReadStat'
+
+[[package]]
+channel = 'arch'
+name = 'readstat'
+
+[[package]]
+channel = 'debian'
+name = 'readstat'
+
+[[package]]
+channel = 'fedora'
+name = 'readstat-tools'

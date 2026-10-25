@@ -1,0 +1,6 @@
+id = 'python3-websockets'
+name = 'python3-websockets'
+
+[[package]]
+channel = 'debian'
+name = 'python3-websockets'

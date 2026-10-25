@@ -1,0 +1,12 @@
+id = 'screengrab'
+name = 'screengrab'
+
+homepage = 'https://github.com/lxqt/screengrab'
+
+[[package]]
+channel = 'arch'
+name = 'screengrab'
+
+[[package]]
+channel = 'debian'
+name = 'screengrab'

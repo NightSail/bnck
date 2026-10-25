@@ -1,0 +1,8 @@
+id = 'mapdamage'
+name = 'mapdamage'
+
+homepage = 'https://ginolhac.github.io/mapDamage'
+
+[[package]]
+channel = 'debian'
+name = 'mapdamage'

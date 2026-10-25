@@ -1,0 +1,20 @@
+id = 'callaudiod'
+name = 'callaudiod'
+
+homepage = 'https://gitlab.com/mobian1/callaudiod'
+
+[[package]]
+channel = 'arch'
+name = 'callaudiod'
+
+[[package]]
+channel = 'debian'
+name = 'callaudiod'
+
+[[package]]
+channel = 'debian'
+name = 'libcallaudio-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'callaudiod'

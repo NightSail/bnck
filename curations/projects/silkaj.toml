@@ -1,0 +1,8 @@
+id = 'silkaj'
+name = 'silkaj'
+
+homepage = 'https://silkaj.duniter.org'
+
+[[package]]
+channel = 'debian'
+name = 'silkaj'

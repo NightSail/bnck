@@ -1,0 +1,20 @@
+id = 'fio'
+name = 'fio'
+
+homepage = 'https://github.com/axboe/fio'
+
+[[package]]
+channel = 'arch'
+name = 'fio'
+
+[[package]]
+channel = 'debian'
+name = 'fio'
+
+[[package]]
+channel = 'fedora'
+name = 'fio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fio'

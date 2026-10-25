@@ -1,0 +1,8 @@
+id = 'python3-pwntools'
+name = 'python3-pwntools'
+
+homepage = 'https://pwntools.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pwntools'

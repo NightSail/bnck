@@ -1,0 +1,12 @@
+id = 'centpkg'
+name = 'centpkg'
+
+homepage = 'https://gitlab.com/CentOS/common/centpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'centpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'centpkg-sig'

@@ -1,0 +1,8 @@
+id = 'python3-gjson'
+name = 'python3-gjson'
+
+homepage = 'https://volans-.github.io/gjson-py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gjson'

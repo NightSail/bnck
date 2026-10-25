@@ -1,0 +1,8 @@
+id = 'gnumail-app'
+name = 'gnumail.app'
+
+homepage = 'http://www.nongnu.org/gnustep-nonfsf/gnumail'
+
+[[package]]
+channel = 'debian'
+name = 'gnumail.app'

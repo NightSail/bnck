@@ -1,0 +1,8 @@
+id = 'anacrolix-dms'
+name = 'anacrolix-dms'
+
+homepage = 'https://github.com/anacrolix/dms'
+
+[[package]]
+channel = 'debian'
+name = 'anacrolix-dms'

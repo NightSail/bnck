@@ -1,0 +1,12 @@
+id = 'wsgidav'
+name = 'wsgidav'
+
+homepage = 'https://github.com/mar10/wsgidav'
+
+[[package]]
+channel = 'arch'
+name = 'python-wsgidav'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-wsgidav'

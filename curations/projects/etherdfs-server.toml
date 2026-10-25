@@ -1,0 +1,8 @@
+id = 'etherdfs-server'
+name = 'etherdfs-server'
+
+homepage = 'https://etherdfs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'etherdfs-server'

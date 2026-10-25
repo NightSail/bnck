@@ -1,0 +1,9 @@
+id = 'auth0'
+name = 'auth0'
+
+homepage = 'https://auth0.github.io/auth0-cli'
+repository = 'https://github.com/auth0/auth0-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/auth0'

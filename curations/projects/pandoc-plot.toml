@@ -1,0 +1,12 @@
+id = 'pandoc-plot'
+name = 'pandoc-plot'
+
+homepage = 'https://laurentrdc.github.io/pandoc-plot'
+
+[[package]]
+channel = 'arch'
+name = 'pandoc-plot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pandoc-plot'

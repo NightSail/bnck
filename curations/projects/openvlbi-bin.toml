@@ -1,0 +1,8 @@
+id = 'openvlbi-bin'
+name = 'openvlbi-bin'
+
+homepage = 'https://iliaplatone.github.io/OpenVLBI'
+
+[[package]]
+channel = 'debian'
+name = 'openvlbi-bin'

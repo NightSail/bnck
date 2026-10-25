@@ -1,0 +1,9 @@
+id = 'monetdb'
+name = 'monetdb'
+
+homepage = 'https://www.monetdb.org'
+repository = 'https://www.monetdb.org/hg/MonetDB'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monetdb'

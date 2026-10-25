@@ -4,5 +4,13 @@ name = 'tio'
 repository = 'http://github.com/tio/tio'
 
 [[package]]
+channel = 'debian'
+name = 'tio'
+
+[[package]]
+channel = 'fedora'
+name = 'tio'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tio'

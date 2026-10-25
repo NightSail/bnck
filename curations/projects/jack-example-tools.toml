@@ -1,0 +1,20 @@
+id = 'jack-example-tools'
+name = 'jack-example-tools'
+
+homepage = 'https://github.com/jackaudio/jack-example-tools'
+
+[[package]]
+channel = 'arch'
+name = 'jack-example-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-examples-server'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-tools'

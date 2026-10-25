@@ -1,0 +1,12 @@
+id = 'subliminal'
+name = 'subliminal'
+
+homepage = 'https://github.com/Diaoul/subliminal'
+
+[[package]]
+channel = 'debian'
+name = 'subliminal'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-subliminal'

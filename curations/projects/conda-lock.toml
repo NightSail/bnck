@@ -1,0 +1,8 @@
+id = 'conda-lock'
+name = 'conda-lock'
+
+homepage = 'https://conda.github.io/conda-lock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/conda-lock'

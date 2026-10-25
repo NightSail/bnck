@@ -1,0 +1,8 @@
+id = 'tunneler'
+name = 'tunneler'
+
+homepage = 'http://users.jyu.fi/~tvkalvas/code/tunneler'
+
+[[package]]
+channel = 'fedora'
+name = 'tunneler'

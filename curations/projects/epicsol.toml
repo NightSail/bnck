@@ -1,0 +1,20 @@
+id = 'epicsol'
+name = 'epicsol'
+
+homepage = 'http://www.epicsol.org'
+
+[[package]]
+channel = 'arch'
+name = 'epic4'
+
+[[package]]
+channel = 'debian'
+name = 'epic4'
+
+[[package]]
+channel = 'debian'
+name = 'epic5'
+
+[[package]]
+channel = 'fedora'
+name = 'epic'

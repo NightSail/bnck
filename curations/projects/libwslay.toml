@@ -1,0 +1,8 @@
+id = 'libwslay'
+name = 'libwslay'
+
+homepage = 'https://github.com/tatsuhiro-t/wslay'
+
+[[package]]
+channel = 'arch'
+name = 'libwslay'

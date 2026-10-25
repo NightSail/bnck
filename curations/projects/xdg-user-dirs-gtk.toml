@@ -1,0 +1,12 @@
+id = 'xdg-user-dirs-gtk'
+name = 'xdg-user-dirs-gtk'
+
+homepage = 'https://gitlab.gnome.org/GNOME/xdg-user-dirs-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-user-dirs-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'xdg-user-dirs-gtk'

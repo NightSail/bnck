@@ -1,0 +1,16 @@
+id = 'qutebrowser'
+name = 'qutebrowser'
+
+homepage = 'https://www.qutebrowser.org'
+
+[[package]]
+channel = 'arch'
+name = 'qutebrowser'
+
+[[package]]
+channel = 'debian'
+name = 'qutebrowser'
+
+[[package]]
+channel = 'fedora'
+name = 'qutebrowser'

@@ -1,0 +1,8 @@
+id = 'id3tool'
+name = 'id3tool'
+
+homepage = 'http://nekohako.xware.cx/id3tool'
+
+[[package]]
+channel = 'debian'
+name = 'id3tool'

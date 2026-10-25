@@ -1,0 +1,16 @@
+id = 'lsh'
+name = 'lsh'
+
+homepage = 'http://www.lysator.liu.se/~nisse/lsh'
+
+[[package]]
+channel = 'debian'
+name = 'lsh-client'
+
+[[package]]
+channel = 'debian'
+name = 'lsh-server'
+
+[[package]]
+channel = 'debian'
+name = 'lsh-utils'

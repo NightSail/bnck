@@ -1,0 +1,8 @@
+id = 'purr'
+name = 'purr'
+
+repository = 'https://github.com/google/purr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/purr'

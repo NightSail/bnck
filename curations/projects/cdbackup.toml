@@ -1,0 +1,8 @@
+id = 'cdbackup'
+name = 'cdbackup'
+
+homepage = 'http://www.muempf.de'
+
+[[package]]
+channel = 'debian'
+name = 'cdbackup'

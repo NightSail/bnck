@@ -1,0 +1,8 @@
+id = 'wik'
+name = 'wik'
+
+repository = 'https://github.com/yashsinghcodes/wik.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wik'

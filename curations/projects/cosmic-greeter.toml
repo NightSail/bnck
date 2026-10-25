@@ -1,0 +1,12 @@
+id = 'cosmic-greeter'
+name = 'cosmic-greeter'
+
+homepage = 'https://github.com/pop-os/cosmic-greeter'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-greeter'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-greeter'

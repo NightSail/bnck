@@ -1,0 +1,20 @@
+id = 'ddccontrol'
+name = 'ddccontrol'
+
+homepage = 'https://github.com/ddccontrol/ddccontrol'
+
+[[package]]
+channel = 'debian'
+name = 'ddccontrol'
+
+[[package]]
+channel = 'debian'
+name = 'gddccontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'ddccontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'ddccontrol-gtk'

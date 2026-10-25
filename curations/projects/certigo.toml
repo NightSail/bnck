@@ -1,0 +1,8 @@
+id = 'certigo'
+name = 'certigo'
+
+repository = 'https://github.com/square/certigo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/certigo'

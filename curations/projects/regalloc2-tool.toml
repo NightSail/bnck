@@ -1,0 +1,8 @@
+id = 'regalloc2-tool'
+name = 'regalloc2-tool'
+
+homepage = 'https://github.com/bytecodealliance/regalloc2'
+
+[[package]]
+channel = 'debian'
+name = 'regalloc2-tool'

@@ -1,0 +1,21 @@
+id = 'borgmatic'
+name = 'borgmatic'
+
+homepage = 'https://torsion.org/borgmatic'
+repository = 'https://projects.torsion.org/borgmatic-collective/borgmatic.git'
+
+[[package]]
+channel = 'arch'
+name = 'borgmatic'
+
+[[package]]
+channel = 'debian'
+name = 'borgmatic'
+
+[[package]]
+channel = 'fedora'
+name = 'borgmatic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/borgmatic'

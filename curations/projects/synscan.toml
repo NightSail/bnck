@@ -1,0 +1,16 @@
+id = 'synscan'
+name = 'synscan'
+
+homepage = 'https://www.habets.pp.se/synscan/programs.php'
+
+[[package]]
+channel = 'debian'
+name = 'arping'
+
+[[package]]
+channel = 'debian'
+name = 'pipebench'
+
+[[package]]
+channel = 'fedora'
+name = 'pipebench'

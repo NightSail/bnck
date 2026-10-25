@@ -1,0 +1,8 @@
+id = 'python-dependency-groups'
+name = 'python-dependency-groups'
+
+homepage = 'https://github.com/pypa/dependency-groups'
+
+[[package]]
+channel = 'arch'
+name = 'python-dependency-groups'

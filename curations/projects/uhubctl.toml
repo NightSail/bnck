@@ -1,0 +1,16 @@
+id = 'uhubctl'
+name = 'uhubctl'
+
+repository = 'https://github.com/mvp/uhubctl.git'
+
+[[package]]
+channel = 'debian'
+name = 'uhubctl'
+
+[[package]]
+channel = 'fedora'
+name = 'uhubctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uhubctl'

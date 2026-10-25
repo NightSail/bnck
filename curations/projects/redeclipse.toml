@@ -1,0 +1,20 @@
+id = 'redeclipse'
+name = 'redeclipse'
+
+homepage = 'https://www.redeclipse.net'
+
+[[package]]
+channel = 'debian'
+name = 'cube2font'
+
+[[package]]
+channel = 'fedora'
+name = 'cube2font'
+
+[[package]]
+channel = 'fedora'
+name = 'redeclipse'
+
+[[package]]
+channel = 'fedora'
+name = 'redeclipse-server'

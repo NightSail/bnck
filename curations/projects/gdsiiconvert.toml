@@ -1,0 +1,8 @@
+id = 'gdsiiconvert'
+name = 'gdsiiconvert'
+
+homepage = 'https://github.com/HomerReid/libGDSII'
+
+[[package]]
+channel = 'debian'
+name = 'gdsiiconvert'

@@ -1,0 +1,20 @@
+id = 'ddrescue'
+name = 'ddrescue'
+
+homepage = 'https://www.gnu.org/software/ddrescue/ddrescue.html'
+
+[[package]]
+channel = 'arch'
+name = 'ddrescue'
+
+[[package]]
+channel = 'debian'
+name = 'gddrescue'
+
+[[package]]
+channel = 'fedora'
+name = 'ddrescue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddrescue'

@@ -1,0 +1,8 @@
+id = 'python3-bumps'
+name = 'python3-bumps'
+
+homepage = 'https://github.com/bumps/bumps'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bumps'

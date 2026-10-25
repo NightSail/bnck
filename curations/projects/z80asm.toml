@@ -1,0 +1,16 @@
+id = 'z80asm'
+name = 'z80asm'
+
+homepage = 'https://www.nongnu.org/z80asm'
+
+[[package]]
+channel = 'debian'
+name = 'z80asm'
+
+[[package]]
+channel = 'fedora'
+name = 'z80asm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/z80asm'

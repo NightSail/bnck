@@ -1,0 +1,8 @@
+id = 'rubygem-guard'
+name = 'rubygem-guard'
+
+homepage = 'http://guardgem.org'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-guard'

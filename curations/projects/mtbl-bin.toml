@@ -1,0 +1,6 @@
+id = 'mtbl-bin'
+name = 'mtbl-bin'
+
+[[package]]
+channel = 'debian'
+name = 'mtbl-bin'

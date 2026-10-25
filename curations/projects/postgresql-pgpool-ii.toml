@@ -1,0 +1,8 @@
+id = 'postgresql-pgpool-ii'
+name = 'postgresql-pgpool-II'
+
+homepage = 'http://pgpool.net'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql-pgpool-II'

@@ -1,0 +1,8 @@
+id = 'soci-snapshotter'
+name = 'soci-snapshotter'
+
+homepage = 'https://github.com/awslabs/soci-snapshotter'
+
+[[package]]
+channel = 'debian'
+name = 'soci-snapshotter'

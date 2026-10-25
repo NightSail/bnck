@@ -1,0 +1,8 @@
+id = 'libcdio-libcdio'
+name = 'libcdio'
+
+homepage = 'https://savannah.gnu.org/projects/libcdio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcdio'

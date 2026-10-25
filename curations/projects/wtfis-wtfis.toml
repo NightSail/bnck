@@ -1,0 +1,6 @@
+id = 'wtfis-wtfis'
+name = 'wtfis'
+
+[[package]]
+channel = 'crates.io'
+name = 'wtfis'

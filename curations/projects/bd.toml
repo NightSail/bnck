@@ -1,0 +1,8 @@
+id = 'bd'
+name = 'bd'
+
+homepage = 'https://github.com/vigneshwaranr/bd'
+
+[[package]]
+channel = 'debian'
+name = 'bd'

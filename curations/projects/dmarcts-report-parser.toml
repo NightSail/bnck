@@ -1,0 +1,8 @@
+id = 'dmarcts-report-parser'
+name = 'dmarcts-report-parser'
+
+homepage = 'https://github.com/techsneeze/dmarcts-report-parser'
+
+[[package]]
+channel = 'debian'
+name = 'dmarcts-report-parser'

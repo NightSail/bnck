@@ -1,0 +1,8 @@
+id = 'patman'
+name = 'patman'
+
+homepage = 'https://bioinf.eva.mpg.de/patman'
+
+[[package]]
+channel = 'debian'
+name = 'patman'

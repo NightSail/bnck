@@ -1,0 +1,8 @@
+id = 'dlint'
+name = 'dlint'
+
+homepage = 'https://codeberg.org/BSDforge/dlint'
+
+[[package]]
+channel = 'debian'
+name = 'dlint'

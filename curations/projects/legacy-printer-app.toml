@@ -1,0 +1,8 @@
+id = 'legacy-printer-app'
+name = 'legacy-printer-app'
+
+homepage = 'https://github.com/OpenPrinting/pappl-retrofit'
+
+[[package]]
+channel = 'fedora'
+name = 'legacy-printer-app'

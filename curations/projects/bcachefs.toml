@@ -1,0 +1,16 @@
+id = 'bcachefs'
+name = 'bcachefs'
+
+homepage = 'https://bcachefs.org'
+
+[[package]]
+channel = 'arch'
+name = 'bcachefs-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'bcachefs-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-bcachefs'

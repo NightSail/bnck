@@ -1,0 +1,12 @@
+id = 'perlbal'
+name = 'perlbal'
+
+homepage = 'http://www.danga.com/perlbal'
+
+[[package]]
+channel = 'debian'
+name = 'perlbal'
+
+[[package]]
+channel = 'fedora'
+name = 'Perlbal'

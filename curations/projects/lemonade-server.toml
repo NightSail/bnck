@@ -1,0 +1,12 @@
+id = 'lemonade-server'
+name = 'lemonade-server'
+
+homepage = 'https://lemonade-server.ai'
+
+[[package]]
+channel = 'debian'
+name = 'lemonade-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'lemonade-server'

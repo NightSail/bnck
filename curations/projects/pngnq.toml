@@ -1,0 +1,16 @@
+id = 'pngnq'
+name = 'pngnq'
+
+homepage = 'https://pngnq.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pngnq'
+
+[[package]]
+channel = 'fedora'
+name = 'pngnq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pngnq'

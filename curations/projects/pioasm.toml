@@ -1,0 +1,8 @@
+id = 'pioasm'
+name = 'pioasm'
+
+homepage = 'https://github.com/raspberrypi/pico-sdk/issues'
+
+[[package]]
+channel = 'debian'
+name = 'pioasm'

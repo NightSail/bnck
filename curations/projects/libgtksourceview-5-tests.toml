@@ -1,0 +1,8 @@
+id = 'libgtksourceview-5-tests'
+name = 'libgtksourceview-5-tests'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gtksourceview'
+
+[[package]]
+channel = 'debian'
+name = 'libgtksourceview-5-tests'

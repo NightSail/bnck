@@ -1,0 +1,8 @@
+id = 'toml2json'
+name = 'toml2json'
+
+repository = 'https://github.com/woodruffw/toml2json.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toml2json'

@@ -1,0 +1,8 @@
+id = 'powercap-utils'
+name = 'powercap-utils'
+
+homepage = 'https://github.com/powercap/powercap'
+
+[[package]]
+channel = 'debian'
+name = 'powercap-utils'

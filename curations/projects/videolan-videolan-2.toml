@@ -1,0 +1,12 @@
+id = 'videolan-videolan-2'
+name = 'videolan'
+
+homepage = 'https://www.videolan.org/developers/libaacs.html'
+
+[[package]]
+channel = 'arch'
+name = 'libaacs'
+
+[[package]]
+channel = 'debian'
+name = 'libaacs-bin'

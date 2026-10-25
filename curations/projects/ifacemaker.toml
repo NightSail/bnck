@@ -1,0 +1,8 @@
+id = 'ifacemaker'
+name = 'ifacemaker'
+
+repository = 'https://github.com/vburenin/ifacemaker.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ifacemaker'

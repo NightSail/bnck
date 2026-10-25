@@ -1,0 +1,9 @@
+id = 'ord'
+name = 'ord'
+
+homepage = 'https://ordinals.com'
+repository = 'https://github.com/ordinals/ord.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ord'

@@ -1,0 +1,8 @@
+id = 'icecat'
+name = 'icecat'
+
+homepage = 'http://www.gnu.org/software/gnuzilla'
+
+[[package]]
+channel = 'fedora'
+name = 'icecat'

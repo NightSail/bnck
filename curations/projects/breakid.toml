@@ -1,0 +1,8 @@
+id = 'breakid'
+name = 'breakid'
+
+homepage = 'https://github.com/meelgroup/breakid'
+
+[[package]]
+channel = 'fedora'
+name = 'breakid'

@@ -1,0 +1,8 @@
+id = 'soulver-cli'
+name = 'soulver-cli'
+
+homepage = 'https://github.com/soulverteam/Soulver-CLI'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/soulver-cli'

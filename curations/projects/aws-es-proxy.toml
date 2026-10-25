@@ -1,0 +1,8 @@
+id = 'aws-es-proxy'
+name = 'aws-es-proxy'
+
+repository = 'https://github.com/abutaha/aws-es-proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-es-proxy'

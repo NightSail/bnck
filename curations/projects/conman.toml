@@ -1,0 +1,16 @@
+id = 'conman'
+name = 'conman'
+
+homepage = 'https://github.com/dun/conman'
+
+[[package]]
+channel = 'debian'
+name = 'conman'
+
+[[package]]
+channel = 'fedora'
+name = 'conman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/conman'

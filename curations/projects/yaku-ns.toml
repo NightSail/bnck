@@ -1,0 +1,8 @@
+id = 'yaku-ns'
+name = 'yaku-ns'
+
+homepage = 'https://github.com/antirez/yaku-ns'
+
+[[package]]
+channel = 'debian'
+name = 'yaku-ns'

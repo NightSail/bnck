@@ -1,0 +1,8 @@
+id = 'librivescript-perl'
+name = 'librivescript-perl'
+
+homepage = 'https://www.rivescript.com'
+
+[[package]]
+channel = 'debian'
+name = 'librivescript-perl'

@@ -1,0 +1,8 @@
+id = 'git-fresh'
+name = 'git-fresh'
+
+homepage = 'https://github.com/imsky/git-fresh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-fresh'

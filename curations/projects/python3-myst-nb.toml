@@ -1,0 +1,8 @@
+id = 'python3-myst-nb'
+name = 'python3-myst-nb'
+
+homepage = 'https://github.com/executablebooks/MyST-NB'
+
+[[package]]
+channel = 'debian'
+name = 'python3-myst-nb'

@@ -1,0 +1,12 @@
+id = 'addresses'
+name = 'addresses'
+
+homepage = 'https://www.nongnu.org/gap/addresses'
+
+[[package]]
+channel = 'debian'
+name = 'addressmanager.app'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-addresses-goodies'

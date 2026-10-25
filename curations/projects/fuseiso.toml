@@ -1,0 +1,12 @@
+id = 'fuseiso'
+name = 'fuseiso'
+
+homepage = 'https://sourceforge.net/projects/fuseiso'
+
+[[package]]
+channel = 'arch'
+name = 'fuseiso'
+
+[[package]]
+channel = 'debian'
+name = 'fuseiso'

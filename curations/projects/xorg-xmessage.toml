@@ -1,0 +1,8 @@
+id = 'xorg-xmessage'
+name = 'xorg-xmessage'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xmessage'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xmessage'

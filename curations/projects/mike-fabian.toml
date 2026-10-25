@@ -1,0 +1,16 @@
+id = 'mike-fabian'
+name = 'mike-fabian'
+
+homepage = 'https://mike-fabian.github.io/ibus-typing-booster'
+
+[[package]]
+channel = 'arch'
+name = 'ibus-typing-booster'
+
+[[package]]
+channel = 'debian'
+name = 'ibus-typing-booster'
+
+[[package]]
+channel = 'fedora'
+name = 'emoji-picker'

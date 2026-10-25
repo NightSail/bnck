@@ -1,0 +1,8 @@
+id = 'miio-tools'
+name = 'miio-tools'
+
+homepage = 'https://python-miio.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'miio-tools'

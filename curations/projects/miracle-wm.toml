@@ -1,0 +1,8 @@
+id = 'miracle-wm'
+name = 'miracle-wm'
+
+homepage = 'https://github.com/miracle-window-manager/miracle-wm'
+
+[[package]]
+channel = 'fedora'
+name = 'miracle-wm'

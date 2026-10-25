@@ -1,0 +1,8 @@
+id = 'python3-fparser'
+name = 'python3-fparser'
+
+homepage = 'https://github.com/stfc/fparser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fparser'

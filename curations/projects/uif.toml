@@ -1,0 +1,8 @@
+id = 'uif'
+name = 'uif'
+
+homepage = 'https://github.com/cajus/uif'
+
+[[package]]
+channel = 'debian'
+name = 'uif'

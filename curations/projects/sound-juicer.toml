@@ -1,0 +1,16 @@
+id = 'sound-juicer'
+name = 'sound-juicer'
+
+homepage = 'https://wiki.gnome.org/Apps/SoundJuicer'
+
+[[package]]
+channel = 'arch'
+name = 'sound-juicer'
+
+[[package]]
+channel = 'debian'
+name = 'sound-juicer'
+
+[[package]]
+channel = 'fedora'
+name = 'sound-juicer'

@@ -1,0 +1,12 @@
+id = 'blisp'
+name = 'blisp'
+
+repository = 'https://github.com/pine64/blisp.git'
+
+[[package]]
+channel = 'arch'
+name = 'blisp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blisp'

@@ -1,0 +1,8 @@
+id = 'erlfmt'
+name = 'erlfmt'
+
+homepage = 'https://github.com/WhatsApp/erlfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlfmt'

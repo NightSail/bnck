@@ -1,0 +1,12 @@
+id = 'accel-config'
+name = 'accel-config'
+
+homepage = 'https://github.com/intel/idxd-config'
+
+[[package]]
+channel = 'debian'
+name = 'accel-config'
+
+[[package]]
+channel = 'fedora'
+name = 'accel-config'

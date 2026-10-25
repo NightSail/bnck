@@ -1,0 +1,16 @@
+id = 'qtpy'
+name = 'qtpy'
+
+homepage = 'https://github.com/spyder-ide/qtpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-qtpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qtpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-QtPy'

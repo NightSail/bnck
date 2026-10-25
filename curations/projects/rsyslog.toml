@@ -1,0 +1,24 @@
+id = 'rsyslog'
+name = 'rsyslog'
+
+homepage = 'https://www.rsyslog.com'
+
+[[package]]
+channel = 'debian'
+name = 'rsyslog'
+
+[[package]]
+channel = 'fedora'
+name = 'rsyslog'
+
+[[package]]
+channel = 'fedora'
+name = 'rsyslog-crypto'
+
+[[package]]
+channel = 'fedora'
+name = 'rsyslog-mongodb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsyslog'

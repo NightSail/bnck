@@ -1,0 +1,8 @@
+id = 'supysonic'
+name = 'supysonic'
+
+homepage = 'https://github.com/spl0k/supysonic'
+
+[[package]]
+channel = 'debian'
+name = 'supysonic'

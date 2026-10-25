@@ -1,0 +1,12 @@
+id = 'streamripper'
+name = 'streamripper'
+
+homepage = 'https://streamripper.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'streamripper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/streamripper'

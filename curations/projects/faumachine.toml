@@ -1,0 +1,12 @@
+id = 'faumachine'
+name = 'faumachine'
+
+homepage = 'https://faumachine.potyra.de'
+
+[[package]]
+channel = 'debian'
+name = 'faucc'
+
+[[package]]
+channel = 'debian'
+name = 'fauhdlc'

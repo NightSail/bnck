@@ -1,0 +1,13 @@
+id = 'trim-galore'
+name = 'trim-galore'
+
+homepage = 'https://www.bioinformatics.babraham.ac.uk/projects/trim_galore'
+repository = 'https://github.com/FelixKrueger/TrimGalore.git'
+
+[[package]]
+channel = 'debian'
+name = 'trim-galore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trim-galore'

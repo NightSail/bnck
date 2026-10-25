@@ -1,0 +1,12 @@
+id = 'tulip'
+name = 'tulip'
+
+homepage = 'http://tulip.labri.fr'
+
+[[package]]
+channel = 'debian'
+name = 'libtulip-dev'
+
+[[package]]
+channel = 'debian'
+name = 'tulip'

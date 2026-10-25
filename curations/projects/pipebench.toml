@@ -1,0 +1,8 @@
+id = 'pipebench'
+name = 'pipebench'
+
+homepage = 'https://www.habets.pp.se/synscan/programs_pipebench.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipebench'

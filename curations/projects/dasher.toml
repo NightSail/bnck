@@ -1,0 +1,12 @@
+id = 'dasher'
+name = 'dasher'
+
+homepage = 'http://www.inference.phy.cam.ac.uk/dasher'
+
+[[package]]
+channel = 'debian'
+name = 'dasher'
+
+[[package]]
+channel = 'fedora'
+name = 'dasher'

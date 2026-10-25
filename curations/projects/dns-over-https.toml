@@ -1,0 +1,8 @@
+id = 'dns-over-https'
+name = 'dns-over-https'
+
+homepage = 'https://github.com/m13253/dns-over-https'
+
+[[package]]
+channel = 'arch'
+name = 'dns-over-https'

@@ -1,0 +1,12 @@
+id = 'ini2toml'
+name = 'ini2toml'
+
+homepage = 'https://github.com/abravalheri/ini2toml'
+
+[[package]]
+channel = 'arch'
+name = 'python-ini2toml'
+
+[[package]]
+channel = 'fedora'
+name = 'ini2toml'

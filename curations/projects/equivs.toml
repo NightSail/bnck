@@ -1,0 +1,6 @@
+id = 'equivs'
+name = 'equivs'
+
+[[package]]
+channel = 'debian'
+name = 'equivs'

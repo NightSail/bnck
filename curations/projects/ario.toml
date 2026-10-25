@@ -1,0 +1,12 @@
+id = 'ario'
+name = 'ario'
+
+homepage = 'http://ario-player.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'ario'
+
+[[package]]
+channel = 'debian'
+name = 'ario'

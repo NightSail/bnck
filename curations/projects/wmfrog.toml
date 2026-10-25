@@ -1,0 +1,8 @@
+id = 'wmfrog'
+name = 'wmfrog'
+
+homepage = 'http://wiki.colar.net/wmfrog_dockapp'
+
+[[package]]
+channel = 'debian'
+name = 'wmfrog'

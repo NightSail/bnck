@@ -1,0 +1,12 @@
+id = 'gxemul'
+name = 'gxemul'
+
+homepage = 'http://gavare.se/gxemul'
+
+[[package]]
+channel = 'debian'
+name = 'gxemul'
+
+[[package]]
+channel = 'fedora'
+name = 'gxemul'

@@ -1,0 +1,8 @@
+id = 'fence'
+name = 'fence'
+
+repository = 'https://github.com/fencesandbox/fence.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fence'

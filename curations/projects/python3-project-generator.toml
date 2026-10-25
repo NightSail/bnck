@@ -1,0 +1,8 @@
+id = 'python3-project-generator'
+name = 'python3-project-generator'
+
+homepage = 'https://github.com/project-generator/project_generator'
+
+[[package]]
+channel = 'debian'
+name = 'python3-project-generator'

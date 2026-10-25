@@ -1,0 +1,16 @@
+id = 'gnome-weather'
+name = 'gnome-weather'
+
+homepage = 'https://apps.gnome.org/Weather'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-weather'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-weather'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-weather'

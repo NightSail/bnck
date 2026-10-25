@@ -1,0 +1,16 @@
+id = 'ramalama'
+name = 'ramalama'
+
+homepage = 'https://ramalama.ai'
+
+[[package]]
+channel = 'arch'
+name = 'ramalama'
+
+[[package]]
+channel = 'fedora'
+name = 'ramalama'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ramalama'

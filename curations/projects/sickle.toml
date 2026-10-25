@@ -1,0 +1,12 @@
+id = 'sickle'
+name = 'sickle'
+
+homepage = 'https://github.com/najoshi/sickle'
+
+[[package]]
+channel = 'debian'
+name = 'sickle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sickle'

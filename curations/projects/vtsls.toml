@@ -1,0 +1,8 @@
+id = 'vtsls'
+name = 'vtsls'
+
+homepage = 'https://github.com/yioneko/vtsls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vtsls'

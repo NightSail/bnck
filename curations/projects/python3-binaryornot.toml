@@ -1,0 +1,8 @@
+id = 'python3-binaryornot'
+name = 'python3-binaryornot'
+
+homepage = 'https://github.com/audreyr/binaryornot'
+
+[[package]]
+channel = 'debian'
+name = 'python3-binaryornot'

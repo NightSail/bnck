@@ -1,0 +1,21 @@
+id = 'flac'
+name = 'flac'
+
+homepage = 'https://xiph.org/flac'
+repository = 'https://gitlab.xiph.org/xiph/flac.git'
+
+[[package]]
+channel = 'arch'
+name = 'flac'
+
+[[package]]
+channel = 'debian'
+name = 'flac'
+
+[[package]]
+channel = 'fedora'
+name = 'flac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flac'

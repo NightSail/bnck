@@ -1,0 +1,8 @@
+id = 'srt-tools'
+name = 'srt-tools'
+
+homepage = 'https://github.com/Haivision/srt'
+
+[[package]]
+channel = 'debian'
+name = 'srt-tools'

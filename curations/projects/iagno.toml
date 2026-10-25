@@ -1,0 +1,12 @@
+id = 'iagno'
+name = 'iagno'
+
+homepage = 'https://wiki.gnome.org/Apps/Reversi'
+
+[[package]]
+channel = 'arch'
+name = 'iagno'
+
+[[package]]
+channel = 'fedora'
+name = 'iagno'

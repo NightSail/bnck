@@ -1,0 +1,8 @@
+id = 'clustal-omega'
+name = 'clustal-omega'
+
+homepage = 'http://www.clustal.org/omega/clustal-omega-1.2.0.tar.gz'
+
+[[package]]
+channel = 'fedora'
+name = 'clustal-omega'

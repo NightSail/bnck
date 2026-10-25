@@ -1,0 +1,8 @@
+id = 'bootc-gtk'
+name = 'bootc-gtk'
+
+homepage = 'https://codeberg.org/HeliumOS/bootc-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'bootc-gtk'

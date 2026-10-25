@@ -1,0 +1,8 @@
+id = 'nvdtools'
+name = 'nvdtools'
+
+homepage = 'https://github.com/facebookincubator/nvdtools'
+
+[[package]]
+channel = 'fedora'
+name = 'nvdtools'

@@ -1,0 +1,8 @@
+id = 'raxml'
+name = 'raxml'
+
+homepage = 'https://cme.h-its.org/exelixis/web/software/raxml/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'raxml'

@@ -1,0 +1,12 @@
+id = 'lincity-ng'
+name = 'lincity-ng'
+
+homepage = 'https://github.com/lincity-ng/lincity-ng'
+
+[[package]]
+channel = 'arch'
+name = 'lincity-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'lincity-ng'

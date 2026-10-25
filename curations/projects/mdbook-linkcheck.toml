@@ -1,0 +1,8 @@
+id = 'mdbook-linkcheck'
+name = 'mdbook-linkcheck'
+
+homepage = 'https://github.com/Michael-F-Bryan/mdbook-linkcheck'
+
+[[package]]
+channel = 'arch'
+name = 'mdbook-linkcheck'

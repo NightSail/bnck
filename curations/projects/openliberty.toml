@@ -1,0 +1,24 @@
+id = 'openliberty'
+name = 'openliberty'
+
+homepage = 'https://openliberty.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openliberty-jakartaee8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openliberty-jakartaee9'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openliberty-microprofile4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openliberty-webprofile8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openliberty-webprofile9'

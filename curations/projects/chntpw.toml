@@ -1,0 +1,16 @@
+id = 'chntpw'
+name = 'chntpw'
+
+homepage = 'https://pogostick.net/~pnh/ntpasswd'
+
+[[package]]
+channel = 'arch'
+name = 'chntpw'
+
+[[package]]
+channel = 'debian'
+name = 'chntpw'
+
+[[package]]
+channel = 'fedora'
+name = 'chntpw'

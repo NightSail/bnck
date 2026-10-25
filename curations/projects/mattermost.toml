@@ -1,0 +1,12 @@
+id = 'mattermost'
+name = 'mattermost'
+
+homepage = 'https://mattermost.com'
+
+[[package]]
+channel = 'arch'
+name = 'mattermost'
+
+[[package]]
+channel = 'arch'
+name = 'mmctl'

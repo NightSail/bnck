@@ -1,0 +1,8 @@
+id = 'concavity'
+name = 'concavity'
+
+homepage = 'https://compbio.cs.princeton.edu/concavity'
+
+[[package]]
+channel = 'debian'
+name = 'concavity'

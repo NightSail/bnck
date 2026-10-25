@@ -1,0 +1,36 @@
+id = 'fusioninventory'
+name = 'fusioninventory'
+
+homepage = 'https://fusioninventory.org'
+
+[[package]]
+channel = 'debian'
+name = 'fusioninventory-agent'
+
+[[package]]
+channel = 'debian'
+name = 'fusioninventory-agent-task-esx'
+
+[[package]]
+channel = 'debian'
+name = 'fusioninventory-agent-task-network'
+
+[[package]]
+channel = 'fedora'
+name = 'fusioninventory-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'fusioninventory-agent-task-esx'
+
+[[package]]
+channel = 'fedora'
+name = 'fusioninventory-agent-task-inventory'
+
+[[package]]
+channel = 'fedora'
+name = 'fusioninventory-agent-task-network'
+
+[[package]]
+channel = 'fedora'
+name = 'fusioninventory-agent-task-wakeonlan'

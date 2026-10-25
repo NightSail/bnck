@@ -1,0 +1,8 @@
+id = 'libnspr4-dev'
+name = 'libnspr4-dev'
+
+homepage = 'http://www.mozilla.org/projects/nspr'
+
+[[package]]
+channel = 'debian'
+name = 'libnspr4-dev'

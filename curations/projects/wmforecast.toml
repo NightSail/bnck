@@ -1,0 +1,8 @@
+id = 'wmforecast'
+name = 'wmforecast'
+
+homepage = 'https://wmforecast.friedcheese.org'
+
+[[package]]
+channel = 'debian'
+name = 'wmforecast'

@@ -1,0 +1,8 @@
+id = 'porechop'
+name = 'porechop'
+
+homepage = 'https://rrwick.github.io/Porechop'
+
+[[package]]
+channel = 'debian'
+name = 'porechop'

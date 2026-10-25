@@ -1,0 +1,16 @@
+id = 'normalize'
+name = 'normalize'
+
+homepage = 'https://www.nongnu.org/normalize'
+
+[[package]]
+channel = 'debian'
+name = 'normalize-audio'
+
+[[package]]
+channel = 'fedora'
+name = 'normalize'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/normalize'

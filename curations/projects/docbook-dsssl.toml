@@ -1,0 +1,8 @@
+id = 'docbook-dsssl'
+name = 'docbook-dsssl'
+
+homepage = 'https://github.com/docbook/dsssl'
+
+[[package]]
+channel = 'debian'
+name = 'docbook-dsssl'

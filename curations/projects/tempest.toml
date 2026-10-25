@@ -1,0 +1,12 @@
+id = 'tempest'
+name = 'tempest'
+
+homepage = 'https://github.com/openstack/tempest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tempest'
+
+[[package]]
+channel = 'debian'
+name = 'tempest'

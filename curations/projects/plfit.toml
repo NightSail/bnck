@@ -1,0 +1,12 @@
+id = 'plfit'
+name = 'plfit'
+
+homepage = 'https://github.com/ntamas/plfit'
+
+[[package]]
+channel = 'arch'
+name = 'plfit'
+
+[[package]]
+channel = 'debian'
+name = 'plfit'

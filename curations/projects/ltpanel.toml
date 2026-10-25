@@ -1,0 +1,8 @@
+id = 'ltpanel'
+name = 'ltpanel'
+
+homepage = 'https://sourceforge.net/projects/ltpanel'
+
+[[package]]
+channel = 'debian'
+name = 'ltpanel'

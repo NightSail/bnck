@@ -1,0 +1,9 @@
+id = 'permify'
+name = 'permify'
+
+homepage = 'https://permify.co'
+repository = 'https://github.com/Permify/permify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/permify'

@@ -1,0 +1,8 @@
+id = 'src2tex'
+name = 'src2tex'
+
+homepage = 'https://web.archive.org/web/20010419063955/http://www.cc.gunma-u.ac.jp:80/~amano'
+
+[[package]]
+channel = 'debian'
+name = 'src2tex'

@@ -1,0 +1,8 @@
+id = 'ldnsutils'
+name = 'ldnsutils'
+
+homepage = 'https://www.nlnetlabs.nl/projects/ldns/about'
+
+[[package]]
+channel = 'debian'
+name = 'ldnsutils'

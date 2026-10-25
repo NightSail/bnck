@@ -1,0 +1,12 @@
+id = 'cervisia'
+name = 'cervisia'
+
+homepage = 'https://apps.kde.org/cervisia'
+
+[[package]]
+channel = 'debian'
+name = 'cervisia'
+
+[[package]]
+channel = 'debian'
+name = 'cvsservice'

@@ -1,0 +1,8 @@
+id = 'python3-pyvows'
+name = 'python3-pyvows'
+
+homepage = 'https://pyvows.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyvows'

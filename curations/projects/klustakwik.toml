@@ -1,0 +1,8 @@
+id = 'klustakwik'
+name = 'klustakwik'
+
+homepage = 'http://sourceforge.net/projects/klustakwik'
+
+[[package]]
+channel = 'debian'
+name = 'klustakwik'

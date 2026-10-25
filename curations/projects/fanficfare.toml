@@ -1,0 +1,8 @@
+id = 'fanficfare'
+name = 'fanficfare'
+
+repository = 'https://github.com/JimmXinu/FanFicFare.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fanficfare'

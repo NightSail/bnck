@@ -1,0 +1,9 @@
+id = 'capnp'
+name = 'capnp'
+
+homepage = 'https://capnproto.org'
+repository = 'https://github.com/capnproto/capnproto.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/capnp'

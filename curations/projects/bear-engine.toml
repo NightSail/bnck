@@ -1,0 +1,8 @@
+id = 'bear-engine'
+name = 'bear-engine'
+
+homepage = 'https://github.com/j-jorge/bear'
+
+[[package]]
+channel = 'fedora'
+name = 'bear-engine'

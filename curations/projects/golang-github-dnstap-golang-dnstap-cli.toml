@@ -1,0 +1,8 @@
+id = 'golang-github-dnstap-golang-dnstap-cli'
+name = 'golang-github-dnstap-golang-dnstap-cli'
+
+homepage = 'https://github.com/dnstap/golang-dnstap'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-dnstap-golang-dnstap-cli'

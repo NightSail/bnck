@@ -1,0 +1,16 @@
+id = 'papers'
+name = 'papers'
+
+homepage = 'https://apps.gnome.org/Papers'
+
+[[package]]
+channel = 'arch'
+name = 'papers'
+
+[[package]]
+channel = 'debian'
+name = 'papers'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnome-papers'

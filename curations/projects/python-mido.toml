@@ -1,0 +1,8 @@
+id = 'python-mido'
+name = 'python-mido'
+
+homepage = 'https://mido.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-mido'

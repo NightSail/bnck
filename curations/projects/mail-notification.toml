@@ -1,0 +1,8 @@
+id = 'mail-notification'
+name = 'mail-notification'
+
+homepage = 'http://www.nongnu.org/mailnotify'
+
+[[package]]
+channel = 'fedora'
+name = 'mail-notification'

@@ -1,0 +1,6 @@
+id = 'xfaces'
+name = 'xfaces'
+
+[[package]]
+channel = 'debian'
+name = 'xfaces'

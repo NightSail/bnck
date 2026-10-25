@@ -1,0 +1,16 @@
+id = 'gyp'
+name = 'gyp'
+
+homepage = 'https://gyp.gsrc.io'
+
+[[package]]
+channel = 'arch'
+name = 'gyp'
+
+[[package]]
+channel = 'debian'
+name = 'gyp'
+
+[[package]]
+channel = 'fedora'
+name = 'gyp'

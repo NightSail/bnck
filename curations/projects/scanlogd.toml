@@ -1,0 +1,8 @@
+id = 'scanlogd'
+name = 'scanlogd'
+
+homepage = 'http://www.openwall.com/scanlogd'
+
+[[package]]
+channel = 'debian'
+name = 'scanlogd'

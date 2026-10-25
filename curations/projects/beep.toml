@@ -1,0 +1,16 @@
+id = 'beep'
+name = 'beep'
+
+homepage = 'https://github.com/spkr-beep/beep'
+
+[[package]]
+channel = 'arch'
+name = 'beep'
+
+[[package]]
+channel = 'debian'
+name = 'beep'
+
+[[package]]
+channel = 'fedora'
+name = 'beep'

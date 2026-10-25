@@ -1,0 +1,12 @@
+id = 'vokoscreen'
+name = 'vokoscreen'
+
+homepage = 'https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html'
+
+[[package]]
+channel = 'arch'
+name = 'vokoscreen'
+
+[[package]]
+channel = 'debian'
+name = 'vokoscreen-ng'

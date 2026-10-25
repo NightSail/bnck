@@ -1,0 +1,8 @@
+id = 'deepchat'
+name = 'deepchat'
+
+homepage = 'https://deepchat.thinkinai.xyz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/deepchat'

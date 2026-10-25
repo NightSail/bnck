@@ -1,0 +1,6 @@
+id = 'python3-ewoks'
+name = 'python3-ewoks'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ewoks'

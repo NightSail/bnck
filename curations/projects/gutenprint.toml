@@ -1,0 +1,8 @@
+id = 'gutenprint'
+name = 'gutenprint'
+
+homepage = 'https://gimp-print.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'gutenprint'

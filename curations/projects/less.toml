@@ -1,0 +1,21 @@
+id = 'less'
+name = 'less'
+
+homepage = 'https://www.greenwoodsoftware.com/less'
+repository = 'https://github.com/gwsw/less.git'
+
+[[package]]
+channel = 'arch'
+name = 'less'
+
+[[package]]
+channel = 'debian'
+name = 'less'
+
+[[package]]
+channel = 'fedora'
+name = 'less'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/less'

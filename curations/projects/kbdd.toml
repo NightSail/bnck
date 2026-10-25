@@ -1,0 +1,12 @@
+id = 'kbdd'
+name = 'kbdd'
+
+homepage = 'https://github.com/qnikst/kbdd'
+
+[[package]]
+channel = 'debian'
+name = 'kbdd'
+
+[[package]]
+channel = 'fedora'
+name = 'kbdd'

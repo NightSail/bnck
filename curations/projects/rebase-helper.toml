@@ -1,0 +1,8 @@
+id = 'rebase-helper'
+name = 'rebase-helper'
+
+homepage = 'https://github.com/rebase-helper/rebase-helper'
+
+[[package]]
+channel = 'fedora'
+name = 'rebase-helper'

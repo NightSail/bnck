@@ -1,0 +1,8 @@
+id = 'optimir'
+name = 'optimir'
+
+homepage = 'https://github.com/FlorianThibord/OptimiR'
+
+[[package]]
+channel = 'debian'
+name = 'optimir'

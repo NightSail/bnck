@@ -1,0 +1,12 @@
+id = 'umps3'
+name = 'umps3'
+
+homepage = 'https://wiki.virtualsquare.org'
+
+[[package]]
+channel = 'debian'
+name = 'umps3'
+
+[[package]]
+channel = 'debian'
+name = 'vdeplug'

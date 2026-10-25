@@ -1,0 +1,8 @@
+id = 'python3-websocket'
+name = 'python3-websocket'
+
+homepage = 'https://github.com/liris/websocket-client'
+
+[[package]]
+channel = 'debian'
+name = 'python3-websocket'

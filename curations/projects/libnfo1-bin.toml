@@ -1,0 +1,8 @@
+id = 'libnfo1-bin'
+name = 'libnfo1-bin'
+
+homepage = 'https://libnfo.geexbox.org'
+
+[[package]]
+channel = 'debian'
+name = 'libnfo1-bin'

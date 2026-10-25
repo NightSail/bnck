@@ -1,0 +1,40 @@
+id = 'firewalld'
+name = 'firewalld'
+
+homepage = 'https://firewalld.org'
+
+[[package]]
+channel = 'arch'
+name = 'firewall-applet'
+
+[[package]]
+channel = 'arch'
+name = 'firewall-config'
+
+[[package]]
+channel = 'arch'
+name = 'firewalld'
+
+[[package]]
+channel = 'debian'
+name = 'firewall-applet'
+
+[[package]]
+channel = 'debian'
+name = 'firewall-config'
+
+[[package]]
+channel = 'debian'
+name = 'firewalld'
+
+[[package]]
+channel = 'fedora'
+name = 'firewall-applet'
+
+[[package]]
+channel = 'fedora'
+name = 'firewall-config'
+
+[[package]]
+channel = 'fedora'
+name = 'firewalld'

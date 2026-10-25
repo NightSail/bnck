@@ -1,0 +1,8 @@
+id = 'macs'
+name = 'macs'
+
+homepage = 'https://github.com/taoliu/MACS'
+
+[[package]]
+channel = 'debian'
+name = 'macs'

@@ -1,0 +1,8 @@
+id = 'garble'
+name = 'garble'
+
+repository = 'https://github.com/burrowers/garble.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/garble'

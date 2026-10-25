@@ -1,0 +1,8 @@
+id = 'aosd-cat'
+name = 'aosd-cat'
+
+homepage = 'http://www.atheme.org/project/libaosd'
+
+[[package]]
+channel = 'debian'
+name = 'aosd-cat'

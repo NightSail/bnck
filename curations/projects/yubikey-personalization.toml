@@ -1,0 +1,12 @@
+id = 'yubikey-personalization'
+name = 'yubikey-personalization'
+
+homepage = 'https://github.com/Yubico/yubikey-personalization'
+
+[[package]]
+channel = 'arch'
+name = 'yubikey-personalization'
+
+[[package]]
+channel = 'debian'
+name = 'yubikey-personalization'

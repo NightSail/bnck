@@ -1,0 +1,12 @@
+id = 'maude'
+name = 'maude'
+
+homepage = 'http://maude.cs.illinois.edu'
+
+[[package]]
+channel = 'arch'
+name = 'maude'
+
+[[package]]
+channel = 'debian'
+name = 'maude'

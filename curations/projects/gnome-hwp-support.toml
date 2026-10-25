@@ -1,0 +1,8 @@
+id = 'gnome-hwp-support'
+name = 'gnome-hwp-support'
+
+homepage = 'https://github.com/changwoo/gnome-hwp-support'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-hwp-support'

@@ -1,0 +1,12 @@
+id = 'profile-cleaner'
+name = 'profile-cleaner'
+
+homepage = 'https://github.com/graysky2/profile-cleaner'
+
+[[package]]
+channel = 'arch'
+name = 'profile-cleaner'
+
+[[package]]
+channel = 'debian'
+name = 'profile-cleaner'

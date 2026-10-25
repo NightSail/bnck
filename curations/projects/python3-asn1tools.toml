@@ -1,0 +1,12 @@
+id = 'python3-asn1tools'
+name = 'python3-asn1tools'
+
+homepage = 'https://github.com/eerimoq/asn1tools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-asn1tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-asn1tools'

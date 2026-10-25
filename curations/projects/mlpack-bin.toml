@@ -1,0 +1,12 @@
+id = 'mlpack-bin'
+name = 'mlpack-bin'
+
+homepage = 'https://www.mlpack.org'
+
+[[package]]
+channel = 'debian'
+name = 'mlpack-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'mlpack-bin'

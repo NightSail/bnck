@@ -1,0 +1,8 @@
+id = 'statnews'
+name = 'statnews'
+
+homepage = 'https://savannah.nongnu.org/projects/statnews'
+
+[[package]]
+channel = 'debian'
+name = 'statnews'

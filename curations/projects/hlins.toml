@@ -1,0 +1,8 @@
+id = 'hlins'
+name = 'hlins'
+
+homepage = 'https://forge.ocamlcore.org/projects/hlins'
+
+[[package]]
+channel = 'debian'
+name = 'hlins'

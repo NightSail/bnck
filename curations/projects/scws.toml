@@ -1,0 +1,8 @@
+id = 'scws'
+name = 'scws'
+
+homepage = 'https://github.com/hightman/scws'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scws'

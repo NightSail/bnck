@@ -1,0 +1,8 @@
+id = 'voacapl'
+name = 'voacapl'
+
+homepage = 'https://www.qsl.net/hz1jw/voacapl/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'voacapl'

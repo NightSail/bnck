@@ -1,0 +1,8 @@
+id = 'octodns'
+name = 'octodns'
+
+repository = 'https://github.com/octodns/octodns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/octodns'

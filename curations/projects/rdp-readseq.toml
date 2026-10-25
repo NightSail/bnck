@@ -1,0 +1,8 @@
+id = 'rdp-readseq'
+name = 'rdp-readseq'
+
+homepage = 'https://github.com/rdpstaff/ReadSeq'
+
+[[package]]
+channel = 'debian'
+name = 'rdp-readseq'

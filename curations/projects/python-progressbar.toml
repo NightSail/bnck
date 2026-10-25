@@ -1,0 +1,16 @@
+id = 'python-progressbar'
+name = 'python-progressbar'
+
+homepage = 'https://github.com/WoLpH/python-progressbar'
+
+[[package]]
+channel = 'arch'
+name = 'python-progressbar'
+
+[[package]]
+channel = 'debian'
+name = 'python3-progressbar2'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-progressbar2'

@@ -1,0 +1,20 @@
+id = 'binwalk'
+name = 'binwalk'
+
+repository = 'https://github.com/ReFirmLabs/binwalk.git'
+
+[[package]]
+channel = 'arch'
+name = 'binwalk'
+
+[[package]]
+channel = 'debian'
+name = 'binwalk'
+
+[[package]]
+channel = 'fedora'
+name = 'binwalk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/binwalk'

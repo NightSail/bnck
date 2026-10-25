@@ -1,0 +1,8 @@
+id = 'python3-yt'
+name = 'python3-yt'
+
+homepage = 'https://yt-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yt'

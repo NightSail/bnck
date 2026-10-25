@@ -1,0 +1,8 @@
+id = 'c2rust'
+name = 'c2rust'
+
+homepage = 'https://c2rust.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c2rust'

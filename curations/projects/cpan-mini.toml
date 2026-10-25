@@ -1,0 +1,12 @@
+id = 'cpan-mini'
+name = 'CPAN-Mini'
+
+homepage = 'https://metacpan.org/release/CPAN-Mini'
+
+[[package]]
+channel = 'debian'
+name = 'libcpan-mini-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPAN-Mini'

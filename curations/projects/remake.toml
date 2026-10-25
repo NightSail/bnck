@@ -1,0 +1,20 @@
+id = 'remake'
+name = 'remake'
+
+homepage = 'http://bashdb.sourceforge.net/remake'
+
+[[package]]
+channel = 'arch'
+name = 'remake'
+
+[[package]]
+channel = 'debian'
+name = 'remake'
+
+[[package]]
+channel = 'fedora'
+name = 'remake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/remake'

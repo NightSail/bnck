@@ -1,0 +1,16 @@
+id = 'add-determinism'
+name = 'add-determinism'
+
+homepage = 'https://github.com/keszybz/add-determinism'
+
+[[package]]
+channel = 'arch'
+name = 'add-determinism'
+
+[[package]]
+channel = 'fedora'
+name = 'add-determinism'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/add-determinism'

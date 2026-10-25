@@ -1,0 +1,8 @@
+id = 'opencfu'
+name = 'opencfu'
+
+homepage = 'https://opencfu.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'opencfu'

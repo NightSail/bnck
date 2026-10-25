@@ -1,0 +1,8 @@
+id = 'debuerreotype'
+name = 'debuerreotype'
+
+homepage = 'https://github.com/debuerreotype/debuerreotype'
+
+[[package]]
+channel = 'debian'
+name = 'debuerreotype'

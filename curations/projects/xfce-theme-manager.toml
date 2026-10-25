@@ -1,0 +1,8 @@
+id = 'xfce-theme-manager'
+name = 'xfce-theme-manager'
+
+homepage = 'https://github.com/KeithDHedger/Xfce-Theme-Manager'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce-theme-manager'

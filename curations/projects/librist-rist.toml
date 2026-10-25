@@ -1,0 +1,9 @@
+id = 'librist-rist'
+name = 'librist'
+
+homepage = 'https://code.videolan.org/rist'
+repository = 'https://code.videolan.org/rist/librist.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/librist'

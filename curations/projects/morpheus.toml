@@ -1,0 +1,8 @@
+id = 'morpheus'
+name = 'morpheus'
+
+homepage = 'https://morpheus.gitlab.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/morpheus'

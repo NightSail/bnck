@@ -1,0 +1,8 @@
+id = 'protolock'
+name = 'protolock'
+
+homepage = 'https://github.com/nilslice/protolock'
+
+[[package]]
+channel = 'fedora'
+name = 'protolock'

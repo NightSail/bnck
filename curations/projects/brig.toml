@@ -1,0 +1,8 @@
+id = 'brig'
+name = 'brig'
+
+homepage = 'http://sourceforge.net/projects/brig'
+
+[[package]]
+channel = 'debian'
+name = 'brig'

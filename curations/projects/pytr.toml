@@ -1,0 +1,8 @@
+id = 'pytr'
+name = 'pytr'
+
+homepage = 'https://github.com/pytr-org/pytr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pytr'

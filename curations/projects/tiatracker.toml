@@ -1,0 +1,8 @@
+id = 'tiatracker'
+name = 'tiatracker'
+
+homepage = 'https://bitbucket.org/kylearan/tiatracker'
+
+[[package]]
+channel = 'debian'
+name = 'tiatracker'

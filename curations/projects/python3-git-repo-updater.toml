@@ -1,0 +1,8 @@
+id = 'python3-git-repo-updater'
+name = 'python3-git-repo-updater'
+
+homepage = 'https://github.com/earwig/git-repo-updater'
+
+[[package]]
+channel = 'debian'
+name = 'python3-git-repo-updater'

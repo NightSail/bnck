@@ -1,0 +1,6 @@
+id = 'conmux'
+name = 'conmux'
+
+[[package]]
+channel = 'debian'
+name = 'conmux'

@@ -1,0 +1,9 @@
+id = 'terratag'
+name = 'terratag'
+
+homepage = 'https://www.terratag.io'
+repository = 'https://github.com/env0/terratag.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terratag'

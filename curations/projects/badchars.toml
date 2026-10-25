@@ -1,0 +1,8 @@
+id = 'badchars'
+name = 'badchars'
+
+homepage = 'https://github.com/cytopia/badchars'
+
+[[package]]
+channel = 'fedora'
+name = 'badchars'

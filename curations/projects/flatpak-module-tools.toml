@@ -1,0 +1,8 @@
+id = 'flatpak-module-tools'
+name = 'flatpak-module-tools'
+
+homepage = 'https://pagure.io/flatpak-module-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'flatpak-module-tools'

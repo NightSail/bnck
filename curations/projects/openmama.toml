@@ -1,0 +1,8 @@
+id = 'openmama'
+name = 'openmama'
+
+homepage = 'https://openmama.finos.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openmama'

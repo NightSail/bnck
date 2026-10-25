@@ -1,0 +1,8 @@
+id = 'gaul'
+name = 'gaul'
+
+homepage = 'https://gaul.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gaul'

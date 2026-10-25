@@ -1,0 +1,8 @@
+id = 'filen-cli'
+name = 'filen-cli'
+
+homepage = 'https://filen.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/filen-cli'

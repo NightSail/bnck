@@ -1,0 +1,8 @@
+id = 'vinagre'
+name = 'vinagre'
+
+homepage = 'https://wiki.gnome.org/Apps/Vinagre'
+
+[[package]]
+channel = 'fedora'
+name = 'vinagre'

@@ -1,0 +1,16 @@
+id = 'swatch'
+name = 'swatch'
+
+homepage = 'https://swatch.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'swatch'
+
+[[package]]
+channel = 'fedora'
+name = 'swatch'
+
+[[package]]
+channel = 'fedora'
+name = 'swatchdog'

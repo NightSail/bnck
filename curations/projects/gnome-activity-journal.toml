@@ -1,0 +1,8 @@
+id = 'gnome-activity-journal'
+name = 'gnome-activity-journal'
+
+homepage = 'https://wiki.gnome.org/Apps/ActivityJournal'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-activity-journal'

@@ -1,0 +1,12 @@
+id = 'fapolicy-analyzer'
+name = 'fapolicy-analyzer'
+
+homepage = 'https://github.com/ctc-oss/fapolicy-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'fapolicy-analyzer-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'fapolicy-analyzer-gui'

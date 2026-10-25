@@ -1,0 +1,8 @@
+id = 'gibbslda'
+name = 'gibbslda'
+
+homepage = 'https://gibbslda.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gibbslda'

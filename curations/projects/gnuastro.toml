@@ -1,0 +1,16 @@
+id = 'gnuastro'
+name = 'gnuastro'
+
+homepage = 'https://www.gnu.org/software/gnuastro'
+
+[[package]]
+channel = 'debian'
+name = 'gnuastro'
+
+[[package]]
+channel = 'fedora'
+name = 'gnuastro'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnuastro'

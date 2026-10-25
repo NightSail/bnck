@@ -1,0 +1,16 @@
+id = 'setbfree'
+name = 'setBfree'
+
+homepage = 'https://setbfree.org'
+
+[[package]]
+channel = 'arch'
+name = 'setbfree-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'setbfree'
+
+[[package]]
+channel = 'fedora'
+name = 'setBfree'

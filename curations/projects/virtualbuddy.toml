@@ -1,0 +1,12 @@
+id = 'virtualbuddy'
+name = 'virtualbuddy'
+
+homepage = 'https://github.com/insidegui/VirtualBuddy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/virtualbuddy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/virtualbuddy@beta'

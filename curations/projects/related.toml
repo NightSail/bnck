@@ -1,0 +1,16 @@
+id = 'related'
+name = 'related'
+
+homepage = 'https://www.oracle.com/database/technologies/related/berkeleydb.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/berkeley-db'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/berkeley-db@5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbxml'

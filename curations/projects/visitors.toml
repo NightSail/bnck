@@ -1,0 +1,8 @@
+id = 'visitors'
+name = 'visitors'
+
+homepage = 'http://www.hping.org/visitors'
+
+[[package]]
+channel = 'arch'
+name = 'visitors'

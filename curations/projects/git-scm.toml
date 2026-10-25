@@ -1,0 +1,32 @@
+id = 'git-scm'
+name = 'git-scm'
+
+homepage = 'https://git-scm.com'
+
+[[package]]
+channel = 'arch'
+name = 'git'
+
+[[package]]
+channel = 'debian'
+name = 'git'
+
+[[package]]
+channel = 'debian'
+name = 'git-cvs'
+
+[[package]]
+channel = 'debian'
+name = 'gitk'
+
+[[package]]
+channel = 'fedora'
+name = 'git-core'
+
+[[package]]
+channel = 'fedora'
+name = 'git-cvs'
+
+[[package]]
+channel = 'fedora'
+name = 'gitk'

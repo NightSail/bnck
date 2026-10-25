@@ -1,0 +1,32 @@
+id = 'openprinting'
+name = 'openprinting'
+
+homepage = 'https://openprinting.github.io/cups'
+
+[[package]]
+channel = 'arch'
+name = 'cups'
+
+[[package]]
+channel = 'arch'
+name = 'libcups'
+
+[[package]]
+channel = 'fedora'
+name = 'cups'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-client'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-ipptool'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-printerapp'

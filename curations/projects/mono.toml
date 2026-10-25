@@ -1,0 +1,17 @@
+id = 'mono'
+name = 'mono'
+
+homepage = 'http://www.mono-project.com'
+repository = 'https://gitlab.winehq.org/mono/mono.git'
+
+[[package]]
+channel = 'debian'
+name = 'mono-devel'
+
+[[package]]
+channel = 'debian'
+name = 'mono-runtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mono'

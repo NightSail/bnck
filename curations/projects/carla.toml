@@ -1,0 +1,17 @@
+id = 'carla'
+name = 'carla'
+
+homepage = 'https://kxstudio.linuxaudio.org/Applications:Carla'
+repository = 'https://github.com/falkTX/Carla.git'
+
+[[package]]
+channel = 'arch'
+name = 'carla'
+
+[[package]]
+channel = 'fedora'
+name = 'Carla'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/carla'

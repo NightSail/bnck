@@ -1,0 +1,8 @@
+id = 'wmcliphist'
+name = 'wmcliphist'
+
+homepage = 'https://www.dockapps.net/wmcliphist'
+
+[[package]]
+channel = 'debian'
+name = 'wmcliphist'

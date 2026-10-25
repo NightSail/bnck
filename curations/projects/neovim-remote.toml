@@ -1,0 +1,8 @@
+id = 'neovim-remote'
+name = 'neovim-remote'
+
+repository = 'https://github.com/mhinz/neovim-remote.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neovim-remote'

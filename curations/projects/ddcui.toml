@@ -1,0 +1,8 @@
+id = 'ddcui'
+name = 'ddcui'
+
+homepage = 'https://github.com/rockowitz/ddcui'
+
+[[package]]
+channel = 'arch'
+name = 'ddcui'

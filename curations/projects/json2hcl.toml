@@ -1,0 +1,8 @@
+id = 'json2hcl'
+name = 'json2hcl'
+
+repository = 'https://github.com/kvz/json2hcl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/json2hcl'

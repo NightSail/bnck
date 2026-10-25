@@ -1,0 +1,8 @@
+id = 'rulex'
+name = 'rulex'
+
+homepage = 'https://github.com/poretsky/rulex'
+
+[[package]]
+channel = 'debian'
+name = 'rulex'

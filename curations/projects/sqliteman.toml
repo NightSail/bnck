@@ -1,0 +1,8 @@
+id = 'sqliteman'
+name = 'sqliteman'
+
+homepage = 'http://sqliteman.yarpen.cz'
+
+[[package]]
+channel = 'fedora'
+name = 'sqliteman'

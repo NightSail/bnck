@@ -1,0 +1,8 @@
+id = 'bio-vcf'
+name = 'bio-vcf'
+
+homepage = 'https://github.com/vcflib/bio-vcf'
+
+[[package]]
+channel = 'debian'
+name = 'bio-vcf'

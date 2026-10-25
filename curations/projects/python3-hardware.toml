@@ -1,0 +1,8 @@
+id = 'python3-hardware'
+name = 'python3-hardware'
+
+homepage = 'https://github.com/redhat-cip/hardware'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hardware'

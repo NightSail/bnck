@@ -1,0 +1,16 @@
+id = 'hatch-fancy-pypi-readme'
+name = 'hatch-fancy-pypi-readme'
+
+homepage = 'https://github.com/hynek/hatch-fancy-pypi-readme'
+
+[[package]]
+channel = 'arch'
+name = 'python-hatch-fancy-pypi-readme'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hatch-fancy-pypi-readme'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hatch-fancy-pypi-readme'

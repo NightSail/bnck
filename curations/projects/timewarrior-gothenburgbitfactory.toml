@@ -1,0 +1,9 @@
+id = 'timewarrior-gothenburgbitfactory'
+name = 'timewarrior'
+
+homepage = 'https://timewarrior.net'
+repository = 'https://github.com/GothenburgBitFactory/timewarrior.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/timewarrior'

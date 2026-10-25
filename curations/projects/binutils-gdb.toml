@@ -1,0 +1,25 @@
+id = 'binutils-gdb'
+name = 'binutils-gdb'
+
+homepage = 'https://www.gnu.org/software/gdb'
+repository = 'https://sourceware.org/git/binutils-gdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aarch64-elf-gdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arm-none-eabi-gdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i386-elf-gdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/riscv64-elf-gdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x86_64-elf-gdb'

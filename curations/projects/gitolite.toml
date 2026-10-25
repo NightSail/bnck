@@ -1,0 +1,16 @@
+id = 'gitolite'
+name = 'gitolite'
+
+homepage = 'https://github.com/sitaramc/gitolite'
+
+[[package]]
+channel = 'arch'
+name = 'gitolite'
+
+[[package]]
+channel = 'debian'
+name = 'gitolite3'
+
+[[package]]
+channel = 'fedora'
+name = 'gitolite3'

@@ -1,0 +1,28 @@
+id = 'ffado'
+name = 'ffado'
+
+homepage = 'https://www.ffado.org'
+
+[[package]]
+channel = 'arch'
+name = 'libffado'
+
+[[package]]
+channel = 'debian'
+name = 'ffado-dbus-server'
+
+[[package]]
+channel = 'debian'
+name = 'ffado-mixer'
+
+[[package]]
+channel = 'debian'
+name = 'ffado-mixer-qt4'
+
+[[package]]
+channel = 'debian'
+name = 'ffado-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ffado'

@@ -1,0 +1,8 @@
+id = 'papi'
+name = 'papi'
+
+homepage = 'http://icl.cs.utk.edu/papi'
+
+[[package]]
+channel = 'fedora'
+name = 'papi'

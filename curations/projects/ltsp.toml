@@ -1,0 +1,8 @@
+id = 'ltsp'
+name = 'ltsp'
+
+homepage = 'https://ltsp.org'
+
+[[package]]
+channel = 'debian'
+name = 'ltsp'

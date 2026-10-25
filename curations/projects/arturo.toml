@@ -1,0 +1,8 @@
+id = 'arturo'
+name = 'arturo'
+
+homepage = 'https://arturo-lang.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arturo'

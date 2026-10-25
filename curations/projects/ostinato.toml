@@ -1,0 +1,8 @@
+id = 'ostinato'
+name = 'ostinato'
+
+homepage = 'https://ostinato.org'
+
+[[package]]
+channel = 'debian'
+name = 'ostinato'

@@ -1,0 +1,8 @@
+id = 'wb32-dfu-updater-cli'
+name = 'wb32-dfu-updater_cli'
+
+repository = 'https://github.com/WestberryTech/wb32-dfu-updater.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wb32-dfu-updater_cli'

@@ -1,0 +1,8 @@
+id = 'rktime'
+name = 'rktime'
+
+homepage = 'http://people.redhat.com/rkeech'
+
+[[package]]
+channel = 'fedora'
+name = 'rktime'

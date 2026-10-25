@@ -1,0 +1,12 @@
+id = 'kappanhang'
+name = 'kappanhang'
+
+homepage = 'https://github.com/nonoo/kappanhang'
+
+[[package]]
+channel = 'debian'
+name = 'kappanhang'
+
+[[package]]
+channel = 'fedora'
+name = 'kappanhang'

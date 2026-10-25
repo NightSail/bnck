@@ -1,0 +1,6 @@
+id = 'python3-tqdm'
+name = 'python3-tqdm'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tqdm'

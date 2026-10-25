@@ -1,0 +1,12 @@
+id = 'ruby-lsp'
+name = 'ruby-lsp'
+
+homepage = 'https://github.com/Shopify/ruby-lsp'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-lsp'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-ruby-lsp'

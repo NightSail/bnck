@@ -1,0 +1,12 @@
+id = 'luckybackup'
+name = 'luckybackup'
+
+homepage = 'http://luckybackup.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'luckybackup'
+
+[[package]]
+channel = 'fedora'
+name = 'luckybackup'

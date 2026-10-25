@@ -1,0 +1,16 @@
+id = 'fc-solve'
+name = 'fc-solve'
+
+homepage = 'https://fc-solve.shlomifish.org'
+
+[[package]]
+channel = 'arch'
+name = 'freecell-solver'
+
+[[package]]
+channel = 'debian'
+name = 'freecell-solver-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'freecell-solver'

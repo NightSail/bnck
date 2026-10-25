@@ -1,0 +1,8 @@
+id = 'cutter-cli'
+name = 'cutter-cli'
+
+repository = 'https://github.com/clear-code/cutter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cutter-cli'

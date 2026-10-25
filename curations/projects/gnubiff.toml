@@ -1,0 +1,12 @@
+id = 'gnubiff'
+name = 'gnubiff'
+
+homepage = 'https://gnubiff.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gnubiff'
+
+[[package]]
+channel = 'debian'
+name = 'gnubiff'

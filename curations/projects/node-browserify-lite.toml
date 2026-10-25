@@ -1,0 +1,8 @@
+id = 'node-browserify-lite'
+name = 'node-browserify-lite'
+
+homepage = 'https://github.com/andrewrk/browserify-lite'
+
+[[package]]
+channel = 'debian'
+name = 'node-browserify-lite'

@@ -1,0 +1,8 @@
+id = 'kiro-cli'
+name = 'kiro-cli'
+
+homepage = 'https://kiro.dev/docs/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kiro-cli'

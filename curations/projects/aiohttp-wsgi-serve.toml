@@ -1,0 +1,8 @@
+id = 'aiohttp-wsgi-serve'
+name = 'aiohttp-wsgi-serve'
+
+homepage = 'https://github.com/etianen/aiohttp-wsgi'
+
+[[package]]
+channel = 'debian'
+name = 'aiohttp-wsgi-serve'

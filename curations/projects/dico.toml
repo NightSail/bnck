@@ -1,0 +1,12 @@
+id = 'dico'
+name = 'dico'
+
+homepage = 'https://puszcza.gnu.org.ua/software/dico'
+
+[[package]]
+channel = 'debian'
+name = 'dico'
+
+[[package]]
+channel = 'debian'
+name = 'dicod'

@@ -1,0 +1,24 @@
+id = 'bison'
+name = 'bison'
+
+homepage = 'https://www.gnu.org/software/bison'
+
+[[package]]
+channel = 'arch'
+name = 'bison'
+
+[[package]]
+channel = 'debian'
+name = 'bison'
+
+[[package]]
+channel = 'debian'
+name = 'bison++'
+
+[[package]]
+channel = 'fedora'
+name = 'bison'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bison'

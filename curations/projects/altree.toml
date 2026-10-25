@@ -1,0 +1,8 @@
+id = 'altree'
+name = 'altree'
+
+homepage = 'https://gitlab.inria.fr/NGS/ALTree'
+
+[[package]]
+channel = 'debian'
+name = 'altree'

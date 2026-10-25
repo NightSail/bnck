@@ -1,0 +1,8 @@
+id = 'python3-pyclip'
+name = 'python3-pyclip'
+
+homepage = 'https://github.com/spyoungtech/pyclip'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyclip'

@@ -1,0 +1,12 @@
+id = 'knights'
+name = 'knights'
+
+homepage = 'https://apps.kde.org/knights'
+
+[[package]]
+channel = 'arch'
+name = 'knights'
+
+[[package]]
+channel = 'fedora'
+name = 'knights'

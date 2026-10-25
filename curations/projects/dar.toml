@@ -1,0 +1,20 @@
+id = 'dar'
+name = 'dar'
+
+homepage = 'http://dar.linux.free.fr/doc/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'dar'
+
+[[package]]
+channel = 'debian'
+name = 'dar-static'
+
+[[package]]
+channel = 'fedora'
+name = 'dar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dar'

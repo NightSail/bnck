@@ -1,0 +1,8 @@
+id = 'jetbrains-gateway'
+name = 'jetbrains-gateway'
+
+homepage = 'https://www.jetbrains.com/remote-development/gateway'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/jetbrains-gateway'

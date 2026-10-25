@@ -1,0 +1,8 @@
+id = 'fastq-tools'
+name = 'fastq-tools'
+
+homepage = 'https://github.com/dcjones/fastq-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastq-tools'

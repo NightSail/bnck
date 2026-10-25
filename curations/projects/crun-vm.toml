@@ -1,0 +1,8 @@
+id = 'crun-vm'
+name = 'crun-vm'
+
+homepage = 'https://github.com/containers/crun-vm'
+
+[[package]]
+channel = 'fedora'
+name = 'crun-vm'

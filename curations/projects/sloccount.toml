@@ -1,0 +1,20 @@
+id = 'sloccount'
+name = 'sloccount'
+
+homepage = 'https://www.dwheeler.com/sloccount'
+
+[[package]]
+channel = 'arch'
+name = 'sloccount'
+
+[[package]]
+channel = 'debian'
+name = 'sloccount'
+
+[[package]]
+channel = 'fedora'
+name = 'sloccount'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sloccount'

@@ -1,0 +1,12 @@
+id = 'skate'
+name = 'skate'
+
+repository = 'https://github.com/charmbracelet/skate.git'
+
+[[package]]
+channel = 'arch'
+name = 'skate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skate'

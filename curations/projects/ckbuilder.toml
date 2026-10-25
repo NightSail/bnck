@@ -1,0 +1,8 @@
+id = 'ckbuilder'
+name = 'ckbuilder'
+
+homepage = 'https://github.com/ckeditor/ckbuilder'
+
+[[package]]
+channel = 'debian'
+name = 'ckbuilder'

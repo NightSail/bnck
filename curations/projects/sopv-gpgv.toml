@@ -1,0 +1,8 @@
+id = 'sopv-gpgv'
+name = 'sopv-gpgv'
+
+homepage = 'https://gitlab.com/dkg/sopv-gpgv'
+
+[[package]]
+channel = 'debian'
+name = 'sopv-gpgv'

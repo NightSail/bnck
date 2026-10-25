@@ -1,0 +1,8 @@
+id = 'contest'
+name = 'contest'
+
+homepage = 'https://github.com/facebookincubator/contest'
+
+[[package]]
+channel = 'fedora'
+name = 'contest'

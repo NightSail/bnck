@@ -1,0 +1,8 @@
+id = 'etsh'
+name = 'etsh'
+
+homepage = 'https://etsh.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/etsh'

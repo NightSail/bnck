@@ -1,0 +1,32 @@
+id = 'boost'
+name = 'boost'
+
+homepage = 'https://www.boost.org'
+
+[[package]]
+channel = 'arch'
+name = 'boost'
+
+[[package]]
+channel = 'debian'
+name = 'libboost1.83-tools-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libboost1.88-tools-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libboost1.90-tools-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libboost1.92-tools-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'boost-b2'
+
+[[package]]
+channel = 'fedora'
+name = 'boost-doctools'

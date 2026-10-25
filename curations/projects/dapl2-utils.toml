@@ -1,0 +1,8 @@
+id = 'dapl2-utils'
+name = 'dapl2-utils'
+
+homepage = 'https://www.openfabrics.org/downloads/dapl'
+
+[[package]]
+channel = 'debian'
+name = 'dapl2-utils'

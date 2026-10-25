@@ -1,0 +1,6 @@
+id = 'tkinfo'
+name = 'tkinfo'
+
+[[package]]
+channel = 'debian'
+name = 'tkinfo'

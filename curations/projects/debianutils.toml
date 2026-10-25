@@ -1,0 +1,12 @@
+id = 'debianutils'
+name = 'debianutils'
+
+homepage = 'https://tracker.debian.org/pkg/debianutils'
+
+[[package]]
+channel = 'debian'
+name = 'debianutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/debianutils'

@@ -1,0 +1,12 @@
+id = 'topline'
+name = 'topline'
+
+homepage = 'https://git.sr.ht/~kilobyte/topline'
+
+[[package]]
+channel = 'debian'
+name = 'topline'
+
+[[package]]
+channel = 'fedora'
+name = 'topline'

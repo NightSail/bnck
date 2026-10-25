@@ -1,0 +1,8 @@
+id = 'ghr'
+name = 'ghr'
+
+repository = 'https://github.com/tcnksm/ghr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghr'

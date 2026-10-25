@@ -1,0 +1,8 @@
+id = 'alertmanager-irc-relay'
+name = 'alertmanager-irc-relay'
+
+homepage = 'https://github.com/google/alertmanager-irc-relay'
+
+[[package]]
+channel = 'debian'
+name = 'alertmanager-irc-relay'

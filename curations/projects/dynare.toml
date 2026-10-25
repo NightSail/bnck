@@ -1,0 +1,13 @@
+id = 'dynare'
+name = 'dynare'
+
+homepage = 'https://www.dynare.org'
+repository = 'https://git.dynare.org/Dynare/dynare.git'
+
+[[package]]
+channel = 'debian'
+name = 'dynare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dynare'

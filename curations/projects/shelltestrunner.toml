@@ -1,0 +1,12 @@
+id = 'shelltestrunner'
+name = 'shelltestrunner'
+
+homepage = 'https://github.com/simonmichael/shelltestrunner'
+
+[[package]]
+channel = 'debian'
+name = 'shelltestrunner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shelltestrunner'

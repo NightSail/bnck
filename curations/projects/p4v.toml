@@ -1,0 +1,8 @@
+id = 'p4v'
+name = 'p4v'
+
+homepage = 'https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/p4v'

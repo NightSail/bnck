@@ -1,0 +1,12 @@
+id = 'navit-project'
+name = 'navit-project'
+
+homepage = 'https://www.navit-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'maptool'
+
+[[package]]
+channel = 'debian'
+name = 'navit'

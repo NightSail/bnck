@@ -1,0 +1,8 @@
+id = 'erofs-utils-pub'
+name = 'erofs-utils'
+
+repository = 'https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erofs-utils'

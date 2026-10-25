@@ -1,0 +1,12 @@
+id = 'openswitcher'
+name = 'openswitcher'
+
+homepage = 'https://openswitcher.org'
+
+[[package]]
+channel = 'debian'
+name = 'openswitcher'
+
+[[package]]
+channel = 'debian'
+name = 'openswitcher-proxy'

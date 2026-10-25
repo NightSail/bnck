@@ -1,0 +1,8 @@
+id = 'dazzdb'
+name = 'dazzdb'
+
+homepage = 'https://github.com/thegenemyers/DAZZ_DB'
+
+[[package]]
+channel = 'debian'
+name = 'dazzdb'

@@ -1,0 +1,12 @@
+id = 'bkt'
+name = 'bkt'
+
+homepage = 'https://github.com/dimo414/bkt'
+
+[[package]]
+channel = 'debian'
+name = 'bkt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bkt'

@@ -1,0 +1,8 @@
+id = 'colorscad'
+name = 'colorscad'
+
+homepage = 'https://github.com/jschobben/colorscad'
+
+[[package]]
+channel = 'fedora'
+name = 'colorscad'

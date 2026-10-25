@@ -1,0 +1,8 @@
+id = 'connectiq'
+name = 'connectiq'
+
+homepage = 'https://developer.garmin.com/connect-iq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/connectiq'

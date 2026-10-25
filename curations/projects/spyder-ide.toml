@@ -1,0 +1,12 @@
+id = 'spyder-ide'
+name = 'spyder-ide'
+
+homepage = 'https://www.spyder-ide.org'
+
+[[package]]
+channel = 'arch'
+name = 'spyder'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-spyder'

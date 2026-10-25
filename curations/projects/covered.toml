@@ -1,0 +1,8 @@
+id = 'covered'
+name = 'covered'
+
+homepage = 'http://covered.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'covered'

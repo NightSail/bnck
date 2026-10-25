@@ -1,0 +1,12 @@
+id = 'hblock'
+name = 'hblock'
+
+homepage = 'https://hblock.molinero.dev'
+
+[[package]]
+channel = 'arch'
+name = 'hblock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hblock'

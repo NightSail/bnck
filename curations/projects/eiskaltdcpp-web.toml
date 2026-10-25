@@ -1,0 +1,8 @@
+id = 'eiskaltdcpp-web'
+name = 'eiskaltdcpp-web'
+
+homepage = 'https://github.com/eiskaltdcpp/eiskaltdcpp-web'
+
+[[package]]
+channel = 'debian'
+name = 'eiskaltdcpp-web'

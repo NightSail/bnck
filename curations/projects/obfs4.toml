@@ -1,0 +1,12 @@
+id = 'obfs4'
+name = 'obfs4'
+
+homepage = 'https://gitlab.com/yawning/obfs4'
+
+[[package]]
+channel = 'debian'
+name = 'obfs4proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'obfs4'

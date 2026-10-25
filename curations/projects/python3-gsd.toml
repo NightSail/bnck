@@ -1,0 +1,12 @@
+id = 'python3-gsd'
+name = 'python3-gsd'
+
+homepage = 'https://gsd.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gsd'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gsd'

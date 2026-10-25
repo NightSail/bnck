@@ -1,0 +1,8 @@
+id = 'tmux-fingers'
+name = 'tmux-fingers'
+
+homepage = 'https://github.com/Morantron/tmux-fingers'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmux-fingers'

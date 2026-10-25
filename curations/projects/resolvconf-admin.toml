@@ -1,0 +1,8 @@
+id = 'resolvconf-admin'
+name = 'resolvconf-admin'
+
+homepage = 'https://github.com/dkg/resolvconf-admin'
+
+[[package]]
+channel = 'debian'
+name = 'resolvconf-admin'

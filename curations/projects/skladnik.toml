@@ -1,0 +1,12 @@
+id = 'skladnik'
+name = 'skladnik'
+
+homepage = 'https://apps.kde.org/skladnik'
+
+[[package]]
+channel = 'arch'
+name = 'skladnik'
+
+[[package]]
+channel = 'fedora'
+name = 'skladnik'

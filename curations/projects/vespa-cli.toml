@@ -1,0 +1,8 @@
+id = 'vespa-cli'
+name = 'vespa-cli'
+
+homepage = 'https://vespa.ai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vespa-cli'

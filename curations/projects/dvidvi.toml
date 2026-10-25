@@ -1,0 +1,8 @@
+id = 'dvidvi'
+name = 'dvidvi'
+
+homepage = 'https://www.ctan.org/tex-archive/dviware/dvidvi'
+
+[[package]]
+channel = 'debian'
+name = 'dvidvi'

@@ -1,0 +1,12 @@
+id = 'dns2tcp'
+name = 'dns2tcp'
+
+homepage = 'https://packages.debian.org/sid/dns2tcp'
+
+[[package]]
+channel = 'debian'
+name = 'dns2tcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dns2tcp'

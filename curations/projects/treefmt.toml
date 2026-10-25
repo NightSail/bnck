@@ -1,0 +1,9 @@
+id = 'treefmt'
+name = 'treefmt'
+
+homepage = 'https://treefmt.com/latest'
+repository = 'https://github.com/numtide/treefmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/treefmt'

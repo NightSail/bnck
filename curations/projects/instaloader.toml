@@ -1,0 +1,12 @@
+id = 'instaloader'
+name = 'instaloader'
+
+homepage = 'https://instaloader.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'instaloader'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/instaloader'

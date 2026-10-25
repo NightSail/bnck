@@ -1,0 +1,8 @@
+id = 'writeboost'
+name = 'writeboost'
+
+homepage = 'https://gitlab.com/onlyjob/writeboost'
+
+[[package]]
+channel = 'debian'
+name = 'writeboost'

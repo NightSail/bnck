@@ -1,0 +1,16 @@
+id = 'gnucap'
+name = 'gnucap'
+
+homepage = 'http://gnucap.org'
+
+[[package]]
+channel = 'debian'
+name = 'gnucap'
+
+[[package]]
+channel = 'debian'
+name = 'gnucap-common'
+
+[[package]]
+channel = 'fedora'
+name = 'gnucap'

@@ -1,0 +1,9 @@
+id = 'standardese'
+name = 'standardese'
+
+homepage = 'https://standardese.github.io'
+repository = 'https://github.com/standardese/standardese.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/standardese'

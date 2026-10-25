@@ -1,0 +1,8 @@
+id = 'aom-tools'
+name = 'aom-tools'
+
+homepage = 'https://aomedia.googlesource.com/aom'
+
+[[package]]
+channel = 'debian'
+name = 'aom-tools'

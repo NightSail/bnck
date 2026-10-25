@@ -1,0 +1,8 @@
+id = 'fllog'
+name = 'fllog'
+
+homepage = 'http://w1hkj.com/fllog-help/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'fllog'

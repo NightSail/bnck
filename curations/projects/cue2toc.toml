@@ -1,0 +1,8 @@
+id = 'cue2toc'
+name = 'cue2toc'
+
+homepage = 'http://cue2toc.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cue2toc'

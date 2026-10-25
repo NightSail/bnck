@@ -1,0 +1,12 @@
+id = 'pcal'
+name = 'pcal'
+
+homepage = 'https://pcal.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pcal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcal'

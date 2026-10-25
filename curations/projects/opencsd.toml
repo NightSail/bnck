@@ -1,0 +1,12 @@
+id = 'opencsd'
+name = 'opencsd'
+
+homepage = 'https://github.com/Linaro/OpenCSD'
+
+[[package]]
+channel = 'debian'
+name = 'libopencsd-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'opencsd'

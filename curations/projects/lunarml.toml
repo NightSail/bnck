@@ -1,0 +1,8 @@
+id = 'lunarml'
+name = 'lunarml'
+
+repository = 'https://github.com/minoki/LunarML.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lunarml'

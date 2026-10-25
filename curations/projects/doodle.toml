@@ -1,0 +1,8 @@
+id = 'doodle'
+name = 'doodle'
+
+homepage = 'https://grothoff.org/christian/doodle'
+
+[[package]]
+channel = 'debian'
+name = 'doodle'

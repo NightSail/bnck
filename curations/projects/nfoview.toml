@@ -1,0 +1,16 @@
+id = 'nfoview'
+name = 'nfoview'
+
+homepage = 'https://otsaloma.io/nfoview'
+
+[[package]]
+channel = 'arch'
+name = 'nfoview'
+
+[[package]]
+channel = 'debian'
+name = 'nfoview'
+
+[[package]]
+channel = 'fedora'
+name = 'nfoview'

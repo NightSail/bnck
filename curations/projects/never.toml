@@ -1,0 +1,9 @@
+id = 'never'
+name = 'never'
+
+homepage = 'https://never-lang.readthedocs.io/en/latest'
+repository = 'https://github.com/never-lang/never.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/never'

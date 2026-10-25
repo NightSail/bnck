@@ -1,0 +1,21 @@
+id = 'enca'
+name = 'enca'
+
+homepage = 'https://cihar.com/software/enca'
+repository = 'https://github.com/Project-OSS-Revival/enca.git'
+
+[[package]]
+channel = 'arch'
+name = 'enca'
+
+[[package]]
+channel = 'debian'
+name = 'enca'
+
+[[package]]
+channel = 'fedora'
+name = 'enca'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enca'

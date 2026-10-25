@@ -1,0 +1,8 @@
+id = 'pyjoke'
+name = 'pyjoke'
+
+homepage = 'https://pypi.python.org/pypi/pyjokes'
+
+[[package]]
+channel = 'debian'
+name = 'pyjoke'

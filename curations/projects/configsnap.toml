@@ -1,0 +1,8 @@
+id = 'configsnap'
+name = 'configsnap'
+
+homepage = 'https://github.com/rackerlabs/configsnap'
+
+[[package]]
+channel = 'fedora'
+name = 'configsnap'

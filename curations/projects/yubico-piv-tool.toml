@@ -1,0 +1,20 @@
+id = 'yubico-piv-tool'
+name = 'yubico-piv-tool'
+
+homepage = 'https://developers.yubico.com/yubico-piv-tool'
+
+[[package]]
+channel = 'arch'
+name = 'yubico-piv-tool'
+
+[[package]]
+channel = 'debian'
+name = 'yubico-piv-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'yubico-piv-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yubico-piv-tool'

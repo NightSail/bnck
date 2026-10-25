@@ -1,0 +1,8 @@
+id = 'python-testrepository'
+name = 'python-testrepository'
+
+homepage = 'https://launchpad.net/testrepository'
+
+[[package]]
+channel = 'arch'
+name = 'python-testrepository'

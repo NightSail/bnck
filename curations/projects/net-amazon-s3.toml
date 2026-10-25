@@ -1,0 +1,12 @@
+id = 'net-amazon-s3'
+name = 'Net-Amazon-S3'
+
+homepage = 'https://metacpan.org/release/Net-Amazon-S3'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-amazon-s3-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-Amazon-S3'

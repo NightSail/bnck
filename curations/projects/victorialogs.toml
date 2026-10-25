@@ -1,0 +1,8 @@
+id = 'victorialogs'
+name = 'victorialogs'
+
+homepage = 'https://docs.victoriametrics.com/victorialogs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/victorialogs'

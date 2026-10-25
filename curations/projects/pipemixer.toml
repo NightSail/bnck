@@ -1,0 +1,8 @@
+id = 'pipemixer'
+name = 'pipemixer'
+
+homepage = 'https://github.com/heather7283/pipemixer'
+
+[[package]]
+channel = 'debian'
+name = 'pipemixer'

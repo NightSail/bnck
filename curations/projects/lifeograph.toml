@@ -1,0 +1,16 @@
+id = 'lifeograph'
+name = 'lifeograph'
+
+homepage = 'https://lifeograph.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'lifeograph'
+
+[[package]]
+channel = 'debian'
+name = 'lifeograph'
+
+[[package]]
+channel = 'fedora'
+name = 'lifeograph'

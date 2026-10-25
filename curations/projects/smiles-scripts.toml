@@ -1,0 +1,8 @@
+id = 'smiles-scripts'
+name = 'smiles-scripts'
+
+homepage = 'https://projects.ibt.lt/repositories/projects/smiles-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'smiles-scripts'

@@ -1,0 +1,8 @@
+id = 'tkabber'
+name = 'tkabber'
+
+homepage = 'http://tkabber.jabber.ru'
+
+[[package]]
+channel = 'debian'
+name = 'tkabber'

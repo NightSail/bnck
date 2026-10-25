@@ -1,0 +1,8 @@
+id = 'x86dis'
+name = 'x86dis'
+
+homepage = 'https://bastard.sourceforge.net/libdisasm.html'
+
+[[package]]
+channel = 'debian'
+name = 'x86dis'

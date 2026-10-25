@@ -1,0 +1,20 @@
+id = 'darcs'
+name = 'darcs'
+
+homepage = 'http://darcs.net'
+
+[[package]]
+channel = 'arch'
+name = 'darcs'
+
+[[package]]
+channel = 'debian'
+name = 'darcs'
+
+[[package]]
+channel = 'fedora'
+name = 'darcs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/darcs'

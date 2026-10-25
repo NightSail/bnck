@@ -1,0 +1,16 @@
+id = 'kanagram'
+name = 'kanagram'
+
+homepage = 'https://apps.kde.org/kanagram'
+
+[[package]]
+channel = 'arch'
+name = 'kanagram'
+
+[[package]]
+channel = 'debian'
+name = 'kanagram'
+
+[[package]]
+channel = 'fedora'
+name = 'kanagram'

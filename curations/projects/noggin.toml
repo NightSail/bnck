@@ -1,0 +1,8 @@
+id = 'noggin'
+name = 'noggin'
+
+homepage = 'https://noggin-aaa.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'noggin'

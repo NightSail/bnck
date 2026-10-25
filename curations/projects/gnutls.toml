@@ -1,0 +1,20 @@
+id = 'gnutls'
+name = 'gnutls'
+
+homepage = 'https://gnutls.org'
+
+[[package]]
+channel = 'arch'
+name = 'gnutls'
+
+[[package]]
+channel = 'debian'
+name = 'gnutls-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gnutls-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnutls'

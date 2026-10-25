@@ -1,0 +1,8 @@
+id = 'bobby'
+name = 'bobby'
+
+homepage = 'https://apps.gnome.org/Bobby'
+
+[[package]]
+channel = 'debian'
+name = 'bobby'

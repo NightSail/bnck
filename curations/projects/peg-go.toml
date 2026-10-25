@@ -1,0 +1,8 @@
+id = 'peg-go'
+name = 'peg-go'
+
+homepage = 'https://github.com/pointlander/peg'
+
+[[package]]
+channel = 'debian'
+name = 'peg-go'

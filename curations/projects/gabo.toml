@@ -1,0 +1,9 @@
+id = 'gabo'
+name = 'gabo'
+
+homepage = 'https://ashishb.net/tech/common-pitfalls-of-github-actions'
+repository = 'https://github.com/ashishb/gabo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gabo'

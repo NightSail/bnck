@@ -1,0 +1,8 @@
+id = 'nccl'
+name = 'nccl'
+
+homepage = 'https://developer.nvidia.com/nccl'
+
+[[package]]
+channel = 'arch'
+name = 'nccl'

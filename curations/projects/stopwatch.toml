@@ -1,0 +1,8 @@
+id = 'stopwatch'
+name = 'stopwatch'
+
+homepage = 'http://expect.sf.net/stopwatch'
+
+[[package]]
+channel = 'debian'
+name = 'stopwatch'

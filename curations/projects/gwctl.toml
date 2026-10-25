@@ -1,0 +1,8 @@
+id = 'gwctl'
+name = 'gwctl'
+
+repository = 'https://github.com/kubernetes-sigs/gwctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gwctl'

@@ -1,0 +1,8 @@
+id = 'linode-cli'
+name = 'linode-cli'
+
+repository = 'https://github.com/linode/linode-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/linode-cli'

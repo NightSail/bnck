@@ -1,0 +1,8 @@
+id = 'deepin-file-manager'
+name = 'deepin-file-manager'
+
+homepage = 'https://github.com/linuxdeepin/dde-file-manager'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-file-manager'

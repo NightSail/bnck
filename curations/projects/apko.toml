@@ -1,0 +1,12 @@
+id = 'apko'
+name = 'apko'
+
+repository = 'https://github.com/chainguard-dev/apko.git'
+
+[[package]]
+channel = 'arch'
+name = 'apko'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apko'

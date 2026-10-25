@@ -1,0 +1,12 @@
+id = 'python3-pykmip'
+name = 'python3-pykmip'
+
+homepage = 'https://github.com/OpenKMIP/PyKMIP'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pykmip'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pykmip'

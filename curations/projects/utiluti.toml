@@ -1,0 +1,8 @@
+id = 'utiluti'
+name = 'utiluti'
+
+repository = 'https://github.com/scriptingosx/utiluti.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/utiluti'

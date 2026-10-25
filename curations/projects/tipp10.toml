@@ -1,0 +1,12 @@
+id = 'tipp10'
+name = 'tipp10'
+
+homepage = 'https://gitlab.com/tipp10/tipp10'
+
+[[package]]
+channel = 'arch'
+name = 'tipp10'
+
+[[package]]
+channel = 'debian'
+name = 'tipp10'

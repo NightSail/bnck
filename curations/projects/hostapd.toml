@@ -1,0 +1,12 @@
+id = 'hostapd'
+name = 'hostapd'
+
+homepage = 'https://w1.fi/hostapd'
+
+[[package]]
+channel = 'arch'
+name = 'hostapd'
+
+[[package]]
+channel = 'fedora'
+name = 'hostapd'

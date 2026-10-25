@@ -1,0 +1,8 @@
+id = 'sandia-omega-h'
+name = 'sandia-omega-h'
+
+homepage = 'https://sandialabs.github.io/repo'
+
+[[package]]
+channel = 'fedora'
+name = 'sandia-omega-h'

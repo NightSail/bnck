@@ -1,0 +1,8 @@
+id = 'ftxui-examples'
+name = 'ftxui-examples'
+
+homepage = 'https://github.com/ArthurSonzogni/FTXUI'
+
+[[package]]
+channel = 'debian'
+name = 'ftxui-examples'

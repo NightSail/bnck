@@ -1,0 +1,12 @@
+id = 'kalign'
+name = 'kalign'
+
+homepage = 'https://github.com/TimoLassmann/kalign'
+
+[[package]]
+channel = 'debian'
+name = 'kalign'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kalign'

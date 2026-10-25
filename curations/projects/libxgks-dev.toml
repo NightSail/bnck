@@ -1,0 +1,8 @@
+id = 'libxgks-dev'
+name = 'libxgks-dev'
+
+homepage = 'http://xgks.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libxgks-dev'

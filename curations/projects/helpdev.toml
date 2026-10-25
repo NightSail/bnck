@@ -1,0 +1,16 @@
+id = 'helpdev'
+name = 'helpdev'
+
+homepage = 'https://gitlab.com/dpizetta/helpdev'
+
+[[package]]
+channel = 'arch'
+name = 'python-helpdev'
+
+[[package]]
+channel = 'debian'
+name = 'helpdev'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-helpdev'

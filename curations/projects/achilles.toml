@@ -1,0 +1,8 @@
+id = 'achilles'
+name = 'achilles'
+
+homepage = 'http://achilles.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'achilles'

@@ -1,0 +1,8 @@
+id = 'mimetex'
+name = 'mimetex'
+
+homepage = 'http://www.forkosh.com/mimetex.html'
+
+[[package]]
+channel = 'debian'
+name = 'mimetex'

@@ -1,0 +1,8 @@
+id = 'tubeup'
+name = 'tubeup'
+
+homepage = 'https://github.com/bibanon/tubeup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tubeup'

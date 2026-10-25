@@ -12,5 +12,9 @@ channel = 'crates.io'
 name = 'taskwarrior-tui'
 
 [[package]]
+channel = 'debian'
+name = 'taskwarrior-tui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/taskwarrior-tui'

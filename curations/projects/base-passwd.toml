@@ -1,0 +1,6 @@
+id = 'base-passwd'
+name = 'base-passwd'
+
+[[package]]
+channel = 'debian'
+name = 'base-passwd'

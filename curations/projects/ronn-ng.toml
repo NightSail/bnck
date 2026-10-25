@@ -1,0 +1,20 @@
+id = 'ronn-ng'
+name = 'ronn-ng'
+
+homepage = 'https://github.com/apjanke/ronn-ng'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-ronn-ng'
+
+[[package]]
+channel = 'debian'
+name = 'ronn'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-ronn-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ronn-ng'

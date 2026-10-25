@@ -1,0 +1,8 @@
+id = 'golang-github-akavel-rsrc'
+name = 'golang-github-akavel-rsrc'
+
+homepage = 'https://github.com/akavel/rsrc'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-akavel-rsrc'

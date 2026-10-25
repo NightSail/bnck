@@ -1,0 +1,12 @@
+id = 'light'
+name = 'light'
+
+homepage = 'https://github.com/haikarainen/light'
+
+[[package]]
+channel = 'debian'
+name = 'light'
+
+[[package]]
+channel = 'fedora'
+name = 'light'

@@ -1,0 +1,13 @@
+id = 'luau'
+name = 'luau'
+
+homepage = 'https://luau.org'
+repository = 'https://github.com/luau-lang/luau.git'
+
+[[package]]
+channel = 'arch'
+name = 'luau'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luau'

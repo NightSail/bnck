@@ -1,0 +1,8 @@
+id = 'parcimonie'
+name = 'parcimonie'
+
+homepage = 'https://salsa.debian.org/intrigeri/parcimonie'
+
+[[package]]
+channel = 'debian'
+name = 'parcimonie'

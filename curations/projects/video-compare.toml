@@ -1,0 +1,8 @@
+id = 'video-compare'
+name = 'video-compare'
+
+homepage = 'https://github.com/pixop/video-compare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/video-compare'

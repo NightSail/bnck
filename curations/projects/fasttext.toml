@@ -1,0 +1,8 @@
+id = 'fasttext'
+name = 'fasttext'
+
+homepage = 'https://github.com/facebookresearch/fastText'
+
+[[package]]
+channel = 'debian'
+name = 'fasttext'

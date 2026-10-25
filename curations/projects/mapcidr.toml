@@ -1,0 +1,9 @@
+id = 'mapcidr'
+name = 'mapcidr'
+
+homepage = 'https://projectdiscovery.io'
+repository = 'https://github.com/projectdiscovery/mapcidr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mapcidr'

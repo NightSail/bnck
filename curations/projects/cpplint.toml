@@ -1,0 +1,12 @@
+id = 'cpplint'
+name = 'cpplint'
+
+homepage = 'https://pypi.org/project/cpplint'
+
+[[package]]
+channel = 'debian'
+name = 'cpplint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpplint'

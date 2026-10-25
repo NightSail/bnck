@@ -1,0 +1,16 @@
+id = 'tilda'
+name = 'tilda'
+
+homepage = 'https://github.com/lanoxx/tilda'
+
+[[package]]
+channel = 'arch'
+name = 'tilda'
+
+[[package]]
+channel = 'debian'
+name = 'tilda'
+
+[[package]]
+channel = 'fedora'
+name = 'tilda'

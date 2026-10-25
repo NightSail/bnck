@@ -1,0 +1,16 @@
+id = 'genext2fs'
+name = 'genext2fs'
+
+homepage = 'https://genext2fs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'genext2fs'
+
+[[package]]
+channel = 'fedora'
+name = 'genext2fs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/genext2fs'

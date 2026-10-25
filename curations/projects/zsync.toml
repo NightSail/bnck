@@ -1,0 +1,21 @@
+id = 'zsync'
+name = 'zsync'
+
+homepage = 'https://zsync.moria.org.uk'
+repository = 'https://github.com/cph6/zsync.git'
+
+[[package]]
+channel = 'arch'
+name = 'zsync'
+
+[[package]]
+channel = 'debian'
+name = 'zsync'
+
+[[package]]
+channel = 'fedora'
+name = 'zsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsync'

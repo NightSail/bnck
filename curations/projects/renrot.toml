@@ -1,0 +1,10 @@
+id = 'renrot'
+name = 'renrot'
+
+[[package]]
+channel = 'debian'
+name = 'renrot'
+
+[[package]]
+channel = 'fedora'
+name = 'renrot'

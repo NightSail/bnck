@@ -1,0 +1,8 @@
+id = 'rain-aws-cloudformation'
+name = 'rain'
+
+homepage = 'https://github.com/aws-cloudformation/rain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rain'

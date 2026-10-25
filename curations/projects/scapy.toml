@@ -1,0 +1,16 @@
+id = 'scapy'
+name = 'scapy'
+
+homepage = 'https://scapy.net'
+
+[[package]]
+channel = 'arch'
+name = 'scapy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-scapy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-scapy'

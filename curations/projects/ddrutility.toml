@@ -1,0 +1,8 @@
+id = 'ddrutility'
+name = 'ddrutility'
+
+homepage = 'http://ddrutility.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ddrutility'

@@ -1,0 +1,8 @@
+id = 'rbenv-ctags'
+name = 'rbenv-ctags'
+
+repository = 'https://github.com/tpope/rbenv-ctags.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-ctags'

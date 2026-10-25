@@ -1,0 +1,6 @@
+id = 'eot2ttf'
+name = 'eot2ttf'
+
+[[package]]
+channel = 'debian'
+name = 'eot2ttf'

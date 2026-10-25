@@ -1,0 +1,12 @@
+id = 'dpf-plugins'
+name = 'dpf-plugins'
+
+homepage = 'https://github.com/DISTRHO/DPF-Plugins'
+
+[[package]]
+channel = 'arch'
+name = 'dpf-plugins-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'dpf-plugins-common'

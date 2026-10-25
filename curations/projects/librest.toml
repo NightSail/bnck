@@ -1,0 +1,12 @@
+id = 'librest'
+name = 'librest'
+
+homepage = 'https://gitlab.gnome.org/GNOME/librest'
+
+[[package]]
+channel = 'arch'
+name = 'librest-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'rest-demo'

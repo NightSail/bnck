@@ -1,0 +1,6 @@
+id = 'gnuserv'
+name = 'gnuserv'
+
+[[package]]
+channel = 'debian'
+name = 'gnuserv'

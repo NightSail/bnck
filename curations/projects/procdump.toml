@@ -1,0 +1,12 @@
+id = 'procdump'
+name = 'procdump'
+
+homepage = 'https://github.com/microsoft/ProcDump-for-Linux'
+
+[[package]]
+channel = 'debian'
+name = 'procdump'
+
+[[package]]
+channel = 'fedora'
+name = 'procdump'

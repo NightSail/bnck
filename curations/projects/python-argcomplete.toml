@@ -1,0 +1,8 @@
+id = 'python-argcomplete'
+name = 'python-argcomplete'
+
+homepage = 'https://kislyuk.github.io/argcomplete'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-argcomplete'

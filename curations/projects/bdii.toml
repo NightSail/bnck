@@ -1,0 +1,12 @@
+id = 'bdii'
+name = 'bdii'
+
+homepage = 'https://github.com/EGI-Federation/bdii'
+
+[[package]]
+channel = 'debian'
+name = 'bdii'
+
+[[package]]
+channel = 'fedora'
+name = 'bdii'

@@ -1,0 +1,8 @@
+id = 'papeer'
+name = 'papeer'
+
+homepage = 'https://papeer.tech'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/papeer'

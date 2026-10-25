@@ -1,0 +1,8 @@
+id = 'rotter'
+name = 'rotter'
+
+homepage = 'http://www.aelius.com/njh/rotter'
+
+[[package]]
+channel = 'debian'
+name = 'rotter'

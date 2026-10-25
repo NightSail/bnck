@@ -1,0 +1,8 @@
+id = 'ruby-rdoc'
+name = 'ruby-rdoc'
+
+homepage = 'https://ruby.github.io/rdoc'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rdoc'

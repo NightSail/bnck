@@ -1,0 +1,8 @@
+id = 'mattermost-desktop'
+name = 'mattermost-desktop'
+
+homepage = 'https://github.com/mattermost/desktop'
+
+[[package]]
+channel = 'arch'
+name = 'mattermost-desktop'

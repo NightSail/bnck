@@ -1,0 +1,13 @@
+id = 'inadyn'
+name = 'inadyn'
+
+homepage = 'https://troglobit.com/projects/inadyn'
+repository = 'https://github.com/troglobit/inadyn.git'
+
+[[package]]
+channel = 'debian'
+name = 'inadyn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inadyn'

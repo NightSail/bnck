@@ -1,0 +1,12 @@
+id = 'ratpoison'
+name = 'ratpoison'
+
+homepage = 'http://www.nongnu.org/ratpoison'
+
+[[package]]
+channel = 'debian'
+name = 'ratpoison'
+
+[[package]]
+channel = 'fedora'
+name = 'ratpoison'

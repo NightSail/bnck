@@ -1,0 +1,8 @@
+id = 'imx-usb-loader'
+name = 'imx-usb-loader'
+
+homepage = 'https://github.com/boundarydevices/imx_usb_loader'
+
+[[package]]
+channel = 'debian'
+name = 'imx-usb-loader'

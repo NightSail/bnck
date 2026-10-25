@@ -1,0 +1,8 @@
+id = 'cmsscanner'
+name = 'cmsscanner'
+
+homepage = 'https://octoforge.fr/octopuce/cmsscanner'
+
+[[package]]
+channel = 'debian'
+name = 'cmsscanner'

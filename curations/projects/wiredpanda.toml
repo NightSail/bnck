@@ -1,0 +1,8 @@
+id = 'wiredpanda'
+name = 'wiredpanda'
+
+homepage = 'https://github.com/GIBIS-UNIFESP/wiRedPanda'
+
+[[package]]
+channel = 'debian'
+name = 'wiredpanda'

@@ -1,0 +1,8 @@
+id = 'python3-samsung-mdc'
+name = 'python3-samsung-mdc'
+
+homepage = 'https://github.com/vgavro/samsung-mdc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-samsung-mdc'

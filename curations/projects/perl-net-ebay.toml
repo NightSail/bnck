@@ -1,0 +1,8 @@
+id = 'perl-net-ebay'
+name = 'perl-Net-eBay'
+
+homepage = 'https://metacpan.org/release/Net-eBay'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-eBay'

@@ -1,0 +1,8 @@
+id = 'lutefisk'
+name = 'lutefisk'
+
+homepage = 'http://www.hairyfatguy.com/lutefisk'
+
+[[package]]
+channel = 'debian'
+name = 'lutefisk'

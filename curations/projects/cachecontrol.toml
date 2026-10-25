@@ -1,0 +1,12 @@
+id = 'cachecontrol'
+name = 'cachecontrol'
+
+homepage = 'https://github.com/ionrock/cachecontrol'
+
+[[package]]
+channel = 'arch'
+name = 'python-cachecontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-CacheControl'

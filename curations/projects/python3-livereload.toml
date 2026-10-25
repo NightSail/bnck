@@ -1,0 +1,8 @@
+id = 'python3-livereload'
+name = 'python3-livereload'
+
+homepage = 'https://github.com/lepture/python-livereload'
+
+[[package]]
+channel = 'debian'
+name = 'python3-livereload'

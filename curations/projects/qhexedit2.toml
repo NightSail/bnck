@@ -1,0 +1,8 @@
+id = 'qhexedit2'
+name = 'qhexedit2'
+
+homepage = 'https://github.com/Simsys/qhexedit2'
+
+[[package]]
+channel = 'fedora'
+name = 'qhexedit2'

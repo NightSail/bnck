@@ -1,0 +1,12 @@
+id = 'dune'
+name = 'dune'
+
+homepage = 'https://github.com/ocaml/dune'
+
+[[package]]
+channel = 'arch'
+name = 'dune'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-dune'

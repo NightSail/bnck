@@ -1,0 +1,13 @@
+id = 'docker-compose'
+name = 'docker-compose'
+
+homepage = 'https://docs.docker.com/compose'
+repository = 'https://github.com/docker/compose.git'
+
+[[package]]
+channel = 'debian'
+name = 'docker-compose'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-compose'

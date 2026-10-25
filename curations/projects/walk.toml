@@ -1,0 +1,8 @@
+id = 'walk'
+name = 'walk'
+
+homepage = 'https://github.com/antonmedv/walk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/walk'

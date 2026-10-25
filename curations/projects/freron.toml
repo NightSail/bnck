@@ -1,0 +1,12 @@
+id = 'freron'
+name = 'freron'
+
+homepage = 'https://freron.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/mailmate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/mailmate@beta'

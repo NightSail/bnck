@@ -1,0 +1,8 @@
+id = 'tkdiff'
+name = 'tkdiff'
+
+homepage = 'https://tkdiff.sourceforge.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tkdiff'

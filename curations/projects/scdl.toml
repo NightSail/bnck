@@ -1,0 +1,8 @@
+id = 'scdl'
+name = 'scdl'
+
+repository = 'https://github.com/scdl-org/scdl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scdl'

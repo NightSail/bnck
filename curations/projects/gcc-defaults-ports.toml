@@ -1,0 +1,306 @@
+id = 'gcc-defaults-ports'
+name = 'gcc-defaults-ports'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'g++-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'g++-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'ga68-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-powerpc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-powerpc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-sh4-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-x86-64-linux-gnux32'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-alpha-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-arc-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-arm-linux-gnueabi'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-hppa-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-loongarch64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-m68k-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-sparc64-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-x86-64-linux-gnux32'

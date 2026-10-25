@@ -1,0 +1,20 @@
+id = 'kup'
+name = 'kup'
+
+homepage = 'https://apps.kde.org/kup'
+
+[[package]]
+channel = 'arch'
+name = 'kup'
+
+[[package]]
+channel = 'debian'
+name = 'kup-backup'
+
+[[package]]
+channel = 'debian'
+name = 'kup-client'
+
+[[package]]
+channel = 'debian'
+name = 'kup-server'

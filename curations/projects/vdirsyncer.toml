@@ -1,0 +1,21 @@
+id = 'vdirsyncer'
+name = 'vdirsyncer'
+
+homepage = 'https://vdirsyncer.pimutils.org/en/stable'
+repository = 'https://github.com/pimutils/vdirsyncer.git'
+
+[[package]]
+channel = 'arch'
+name = 'vdirsyncer'
+
+[[package]]
+channel = 'debian'
+name = 'vdirsyncer'
+
+[[package]]
+channel = 'fedora'
+name = 'vdirsyncer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vdirsyncer'

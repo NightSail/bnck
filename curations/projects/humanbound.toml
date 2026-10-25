@@ -1,0 +1,8 @@
+id = 'humanbound'
+name = 'humanbound'
+
+homepage = 'https://docs.humanbound.ai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/humanbound'

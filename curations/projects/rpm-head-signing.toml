@@ -1,0 +1,8 @@
+id = 'rpm-head-signing'
+name = 'rpm-head-signing'
+
+homepage = 'https://github.com/fedora-iot/rpm-head-signing'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm-head-signing'

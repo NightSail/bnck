@@ -1,0 +1,20 @@
+id = 'usbrelay'
+name = 'usbrelay'
+
+homepage = 'https://github.com/darrylb123/usbrelay'
+
+[[package]]
+channel = 'debian'
+name = 'usbrelay'
+
+[[package]]
+channel = 'debian'
+name = 'usbrelayd'
+
+[[package]]
+channel = 'fedora'
+name = 'usbrelay'
+
+[[package]]
+channel = 'fedora'
+name = 'usbrelay-mqtt'

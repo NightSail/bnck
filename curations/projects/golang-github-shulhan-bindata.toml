@@ -1,0 +1,8 @@
+id = 'golang-github-shulhan-bindata'
+name = 'golang-github-shulhan-bindata'
+
+homepage = 'https://github.com/shuLhan/go-bindata'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-shulhan-bindata'

@@ -1,0 +1,8 @@
+id = 'bazel-remote'
+name = 'bazel-remote'
+
+repository = 'https://github.com/buchgr/bazel-remote.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazel-remote'

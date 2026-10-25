@@ -1,0 +1,8 @@
+id = 'html2wml'
+name = 'html2wml'
+
+homepage = 'http://htmlwml.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'html2wml'

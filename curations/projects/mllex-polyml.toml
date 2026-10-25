@@ -1,0 +1,8 @@
+id = 'mllex-polyml'
+name = 'mllex-polyml'
+
+homepage = 'https://github.com/eldesh/mllex-polyml'
+
+[[package]]
+channel = 'debian'
+name = 'mllex-polyml'

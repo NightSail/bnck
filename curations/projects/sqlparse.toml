@@ -1,0 +1,20 @@
+id = 'sqlparse'
+name = 'sqlparse'
+
+homepage = 'https://github.com/andialbrecht/sqlparse'
+
+[[package]]
+channel = 'arch'
+name = 'python-sqlparse'
+
+[[package]]
+channel = 'debian'
+name = 'sqlformat'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sqlparse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlparse'

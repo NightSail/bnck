@@ -1,0 +1,8 @@
+id = 'fcitx-remote-for-osx'
+name = 'fcitx-remote-for-osx'
+
+homepage = 'https://github.com/xcodebuild/fcitx-remote-for-osx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fcitx-remote-for-osx'

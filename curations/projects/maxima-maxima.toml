@@ -1,0 +1,12 @@
+id = 'maxima-maxima'
+name = 'maxima'
+
+homepage = 'http://maxima.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'maxima'
+
+[[package]]
+channel = 'debian'
+name = 'maxima-sage'

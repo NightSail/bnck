@@ -1,0 +1,8 @@
+id = 'wren-cli'
+name = 'wren-cli'
+
+homepage = 'https://github.com/wren-lang/wren-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wren-cli'

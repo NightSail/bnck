@@ -1,0 +1,8 @@
+id = 'mkdocs-material'
+name = 'mkdocs-material'
+
+homepage = 'https://squidfunk.github.io/mkdocs-material'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkdocs-material'

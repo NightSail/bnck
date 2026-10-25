@@ -1,0 +1,8 @@
+id = 'faircamp'
+name = 'faircamp'
+
+homepage = 'https://codeberg.org/simonrepp/faircamp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faircamp'

@@ -1,0 +1,8 @@
+id = 'libwhirlpool'
+name = 'libwhirlpool'
+
+homepage = 'https://github.com/dfateyev/libwhirlpool'
+
+[[package]]
+channel = 'fedora'
+name = 'libwhirlpool'

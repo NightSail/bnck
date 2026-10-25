@@ -1,0 +1,16 @@
+id = 'cp2k'
+name = 'cp2k'
+
+homepage = 'https://www.cp2k.org'
+
+[[package]]
+channel = 'debian'
+name = 'cp2k'
+
+[[package]]
+channel = 'fedora'
+name = 'cp2k'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cp2k'

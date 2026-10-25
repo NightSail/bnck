@@ -1,0 +1,8 @@
+id = 'mrack-cli'
+name = 'mrack-cli'
+
+homepage = 'https://github.com/neoave/mrack'
+
+[[package]]
+channel = 'fedora'
+name = 'mrack-cli'

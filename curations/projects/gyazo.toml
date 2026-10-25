@@ -1,0 +1,8 @@
+id = 'gyazo'
+name = 'gyazo'
+
+homepage = 'https://gyazo.com'
+
+[[package]]
+channel = 'fedora'
+name = 'gyazo'

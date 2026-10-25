@@ -1,0 +1,8 @@
+id = 'leptonica-tools'
+name = 'leptonica-tools'
+
+homepage = 'https://github.com/danbloomberg/leptonica'
+
+[[package]]
+channel = 'fedora'
+name = 'leptonica-tools'

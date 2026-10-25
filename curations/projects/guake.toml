@@ -1,0 +1,16 @@
+id = 'guake'
+name = 'guake'
+
+homepage = 'https://guake.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'guake'
+
+[[package]]
+channel = 'debian'
+name = 'guake'
+
+[[package]]
+channel = 'fedora'
+name = 'guake'

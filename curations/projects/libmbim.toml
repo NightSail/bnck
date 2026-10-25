@@ -1,0 +1,12 @@
+id = 'libmbim'
+name = 'libmbim'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/libmbim'
+
+[[package]]
+channel = 'arch'
+name = 'libmbim'
+
+[[package]]
+channel = 'debian'
+name = 'libmbim-utils'

@@ -1,0 +1,13 @@
+id = 'uuu'
+name = 'uuu'
+
+homepage = 'https://github.com/NXPmicro/mfgtools'
+repository = 'https://github.com/nxp-imx/mfgtools.git'
+
+[[package]]
+channel = 'debian'
+name = 'uuu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uuu'

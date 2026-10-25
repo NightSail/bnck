@@ -1,0 +1,12 @@
+id = 'jabberd2'
+name = 'jabberd2'
+
+homepage = 'https://jabberd2.org'
+
+[[package]]
+channel = 'debian'
+name = 'jabberd2'
+
+[[package]]
+channel = 'fedora'
+name = 'jabberd'

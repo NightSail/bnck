@@ -1,0 +1,8 @@
+id = 'fly'
+name = 'fly'
+
+homepage = 'https://github.com/concourse/concourse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/fly'

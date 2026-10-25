@@ -1,0 +1,8 @@
+id = 'python3-brukerapi'
+name = 'python3-brukerapi'
+
+homepage = 'https://github.com/isi-nmr/brukerapi-python'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-brukerapi'

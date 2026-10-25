@@ -1,0 +1,12 @@
+id = 'thinkfan'
+name = 'thinkfan'
+
+homepage = 'https://github.com/vmatare/thinkfan'
+
+[[package]]
+channel = 'debian'
+name = 'thinkfan'
+
+[[package]]
+channel = 'fedora'
+name = 'thinkfan'

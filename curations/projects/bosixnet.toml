@@ -1,0 +1,12 @@
+id = 'bosixnet'
+name = 'bosixnet'
+
+homepage = 'https://github.com/tehnick/bosixnet'
+
+[[package]]
+channel = 'debian'
+name = 'bosixnet-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'bosixnet-webui'

@@ -1,0 +1,8 @@
+id = 'scythe'
+name = 'scythe'
+
+homepage = 'https://github.com/vsbuffalo/scythe'
+
+[[package]]
+channel = 'debian'
+name = 'scythe'

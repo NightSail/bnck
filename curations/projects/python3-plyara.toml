@@ -1,0 +1,8 @@
+id = 'python3-plyara'
+name = 'python3-plyara'
+
+homepage = 'https://github.com/plyara/plyara'
+
+[[package]]
+channel = 'debian'
+name = 'python3-plyara'

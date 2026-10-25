@@ -1,0 +1,12 @@
+id = 'apostrophe'
+name = 'apostrophe'
+
+homepage = 'https://apps.gnome.org/Apostrophe'
+
+[[package]]
+channel = 'arch'
+name = 'apostrophe'
+
+[[package]]
+channel = 'debian'
+name = 'apostrophe'

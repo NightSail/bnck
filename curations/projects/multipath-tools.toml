@@ -1,0 +1,8 @@
+id = 'multipath-tools'
+name = 'multipath-tools'
+
+homepage = 'https://github.com/opensvc/multipath-tools'
+
+[[package]]
+channel = 'arch'
+name = 'multipath-tools'

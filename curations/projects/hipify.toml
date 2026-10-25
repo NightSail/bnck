@@ -1,0 +1,8 @@
+id = 'hipify'
+name = 'hipify'
+
+homepage = 'https://github.com/ROCm'
+
+[[package]]
+channel = 'fedora'
+name = 'hipify'

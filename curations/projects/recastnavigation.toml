@@ -1,0 +1,8 @@
+id = 'recastnavigation'
+name = 'recastnavigation'
+
+homepage = 'http://recastnav.com'
+
+[[package]]
+channel = 'arch'
+name = 'recastnavigation'

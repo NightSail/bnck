@@ -1,0 +1,8 @@
+id = 'dh-make-elpa'
+name = 'dh-make-elpa'
+
+homepage = 'https://salsa.debian.org/emacsen-team/dh-make-elpa'
+
+[[package]]
+channel = 'debian'
+name = 'dh-make-elpa'

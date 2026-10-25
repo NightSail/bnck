@@ -1,0 +1,12 @@
+id = 'tcl-lang'
+name = 'tcl-lang'
+
+homepage = 'https://www.tcl-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcl-tk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcl-tk@8'

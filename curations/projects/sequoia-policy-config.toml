@@ -1,0 +1,8 @@
+id = 'sequoia-policy-config'
+name = 'sequoia-policy-config'
+
+homepage = 'https://crates.io/crates/sequoia-policy-config'
+
+[[package]]
+channel = 'fedora'
+name = 'sequoia-policy-config'

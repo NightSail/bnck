@@ -1,0 +1,12 @@
+id = 'names'
+name = 'names'
+
+homepage = 'https://github.com/fnichol/names'
+
+[[package]]
+channel = 'debian'
+name = 'names'
+
+[[package]]
+channel = 'fedora'
+name = 'names'

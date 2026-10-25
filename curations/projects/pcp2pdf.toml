@@ -1,0 +1,8 @@
+id = 'pcp2pdf'
+name = 'pcp2pdf'
+
+homepage = 'https://github.com/performancecopilot/pcp2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'pcp2pdf'

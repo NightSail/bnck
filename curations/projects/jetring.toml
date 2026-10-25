@@ -1,0 +1,16 @@
+id = 'jetring'
+name = 'jetring'
+
+homepage = 'https://packages.debian.org/sid/jetring'
+
+[[package]]
+channel = 'arch'
+name = 'jetring'
+
+[[package]]
+channel = 'debian'
+name = 'jetring'
+
+[[package]]
+channel = 'fedora'
+name = 'jetring'

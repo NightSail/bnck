@@ -1,0 +1,8 @@
+id = 'diod'
+name = 'diod'
+
+homepage = 'https://github.com/chaos/diod'
+
+[[package]]
+channel = 'debian'
+name = 'diod'

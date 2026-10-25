@@ -1,0 +1,8 @@
+id = 'silx'
+name = 'silx'
+
+homepage = 'https://github.com/silx-kit/silx'
+
+[[package]]
+channel = 'debian'
+name = 'silx'

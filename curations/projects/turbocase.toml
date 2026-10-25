@@ -1,0 +1,8 @@
+id = 'turbocase'
+name = 'turbocase'
+
+homepage = 'https://turbocase.org'
+
+[[package]]
+channel = 'debian'
+name = 'turbocase'

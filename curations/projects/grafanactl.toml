@@ -1,0 +1,9 @@
+id = 'grafanactl'
+name = 'grafanactl'
+
+homepage = 'https://grafana.github.io/grafanactl'
+repository = 'https://github.com/grafana/grafanactl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grafanactl'

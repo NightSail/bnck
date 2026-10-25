@@ -1,0 +1,12 @@
+id = 'restructuredtext-lint'
+name = 'restructuredtext-lint'
+
+homepage = 'https://github.com/twolfson/restructuredtext-lint'
+
+[[package]]
+channel = 'debian'
+name = 'python3-restructuredtext-lint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rst-lint'

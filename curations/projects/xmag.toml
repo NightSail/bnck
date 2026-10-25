@@ -1,0 +1,8 @@
+id = 'xmag'
+name = 'xmag'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xmag'
+
+[[package]]
+channel = 'fedora'
+name = 'xmag'

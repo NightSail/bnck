@@ -1,0 +1,9 @@
+id = 'git-codereview'
+name = 'git-codereview'
+
+homepage = 'https://pkg.go.dev/golang.org/x/review/git-codereview'
+repository = 'https://github.com/golang/review.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-codereview'

@@ -1,0 +1,8 @@
+id = 'assemblytics'
+name = 'assemblytics'
+
+homepage = 'http://assemblytics.com'
+
+[[package]]
+channel = 'debian'
+name = 'assemblytics'

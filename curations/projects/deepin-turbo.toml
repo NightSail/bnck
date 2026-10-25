@@ -1,0 +1,8 @@
+id = 'deepin-turbo'
+name = 'deepin-turbo'
+
+homepage = 'https://github.com/linuxdeepin/deepin-turbo'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-turbo'

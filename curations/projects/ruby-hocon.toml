@@ -1,0 +1,16 @@
+id = 'ruby-hocon'
+name = 'ruby-hocon'
+
+homepage = 'https://github.com/puppetlabs/ruby-hocon'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-hocon'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-hocon'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-hocon'

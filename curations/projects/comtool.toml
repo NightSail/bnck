@@ -1,0 +1,8 @@
+id = 'comtool'
+name = 'comtool'
+
+homepage = 'https://github.com/Neutree/COMTool'
+
+[[package]]
+channel = 'arch'
+name = 'comtool'

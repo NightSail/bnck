@@ -1,0 +1,12 @@
+id = 'openobex'
+name = 'openobex'
+
+homepage = 'http://openobex.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'openobex'
+
+[[package]]
+channel = 'fedora'
+name = 'openobex-apps'

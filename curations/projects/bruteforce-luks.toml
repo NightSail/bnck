@@ -1,0 +1,8 @@
+id = 'bruteforce-luks'
+name = 'bruteforce-luks'
+
+homepage = 'https://github.com/glv2/bruteforce-luks'
+
+[[package]]
+channel = 'debian'
+name = 'bruteforce-luks'

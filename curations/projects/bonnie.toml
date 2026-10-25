@@ -1,0 +1,20 @@
+id = 'bonnie'
+name = 'bonnie++'
+
+homepage = 'https://www.coker.com.au/bonnie++'
+
+[[package]]
+channel = 'arch'
+name = 'bonnie++'
+
+[[package]]
+channel = 'debian'
+name = 'bonnie++'
+
+[[package]]
+channel = 'fedora'
+name = 'bonnie++'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bonnie++'

@@ -1,0 +1,8 @@
+id = 'ghp-import-davisp'
+name = 'ghp-import'
+
+homepage = 'https://github.com/davisp/ghp-import'
+
+[[package]]
+channel = 'debian'
+name = 'ghp-import'

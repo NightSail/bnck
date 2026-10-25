@@ -1,0 +1,8 @@
+id = 'gausssum'
+name = 'gausssum'
+
+homepage = 'https://gausssum.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gausssum'

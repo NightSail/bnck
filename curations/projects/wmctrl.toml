@@ -1,0 +1,20 @@
+id = 'wmctrl'
+name = 'wmctrl'
+
+homepage = 'https://packages.debian.org/sid/wmctrl'
+
+[[package]]
+channel = 'arch'
+name = 'wmctrl'
+
+[[package]]
+channel = 'debian'
+name = 'wmctrl'
+
+[[package]]
+channel = 'fedora'
+name = 'wmctrl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wmctrl'

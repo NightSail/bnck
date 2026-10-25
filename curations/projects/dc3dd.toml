@@ -1,0 +1,16 @@
+id = 'dc3dd'
+name = 'dc3dd'
+
+homepage = 'https://sourceforge.net/projects/dc3dd'
+
+[[package]]
+channel = 'debian'
+name = 'dc3dd'
+
+[[package]]
+channel = 'fedora'
+name = 'dc3dd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dc3dd'

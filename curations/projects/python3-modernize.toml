@@ -1,0 +1,8 @@
+id = 'python3-modernize'
+name = 'python3-modernize'
+
+homepage = 'https://pypi.python.org/pypi/modernize'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-modernize'

@@ -1,0 +1,12 @@
+id = 'scratch'
+name = 'scratch'
+
+homepage = 'https://scratch.mit.edu'
+
+[[package]]
+channel = 'arch'
+name = 'scratch'
+
+[[package]]
+channel = 'fedora'
+name = 'scratch'

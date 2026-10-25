@@ -1,0 +1,8 @@
+id = 'pdf-diff'
+name = 'pdf-diff'
+
+repository = 'https://github.com/serhack/pdf-diff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdf-diff'

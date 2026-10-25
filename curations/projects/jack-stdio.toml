@@ -1,0 +1,12 @@
+id = 'jack-stdio'
+name = 'jack-stdio'
+
+homepage = 'https://github.com/x42/jack-stdio'
+
+[[package]]
+channel = 'arch'
+name = 'jack-stdio'
+
+[[package]]
+channel = 'debian'
+name = 'jack-stdio'

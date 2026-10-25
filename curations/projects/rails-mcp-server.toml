@@ -1,0 +1,8 @@
+id = 'rails-mcp-server'
+name = 'rails-mcp-server'
+
+homepage = 'https://github.com/maquina-app/rails-mcp-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rails-mcp-server'

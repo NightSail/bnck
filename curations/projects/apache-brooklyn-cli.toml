@@ -1,0 +1,9 @@
+id = 'apache-brooklyn-cli'
+name = 'apache-brooklyn-cli'
+
+homepage = 'https://brooklyn.apache.org'
+repository = 'https://github.com/apache/brooklyn-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-brooklyn-cli'

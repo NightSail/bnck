@@ -1,0 +1,8 @@
+id = 'conservation-code'
+name = 'conservation-code'
+
+homepage = 'https://compbio.cs.princeton.edu/conservation'
+
+[[package]]
+channel = 'debian'
+name = 'conservation-code'

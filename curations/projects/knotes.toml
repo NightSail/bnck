@@ -1,0 +1,8 @@
+id = 'knotes'
+name = 'knotes'
+
+homepage = 'https://www.kde.org/applications/utilities/knotes'
+
+[[package]]
+channel = 'fedora'
+name = 'knotes'

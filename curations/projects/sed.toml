@@ -1,0 +1,16 @@
+id = 'sed'
+name = 'sed'
+
+homepage = 'https://www.gnu.org/software/sed'
+
+[[package]]
+channel = 'arch'
+name = 'sed'
+
+[[package]]
+channel = 'debian'
+name = 'sed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-sed'

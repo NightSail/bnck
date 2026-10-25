@@ -1,0 +1,12 @@
+id = 'hyprpicker'
+name = 'hyprpicker'
+
+homepage = 'https://github.com/hyprwm/hyprpicker'
+
+[[package]]
+channel = 'arch'
+name = 'hyprpicker'
+
+[[package]]
+channel = 'debian'
+name = 'hyprpicker'

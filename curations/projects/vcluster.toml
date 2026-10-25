@@ -1,0 +1,9 @@
+id = 'vcluster'
+name = 'vcluster'
+
+homepage = 'https://www.vcluster.com'
+repository = 'https://github.com/loft-sh/vcluster.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcluster'

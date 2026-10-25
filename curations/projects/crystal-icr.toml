@@ -1,0 +1,8 @@
+id = 'crystal-icr'
+name = 'crystal-icr'
+
+homepage = 'https://github.com/crystal-community/icr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crystal-icr'

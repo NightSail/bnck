@@ -1,0 +1,18 @@
+id = 'netpipe'
+name = 'netpipe'
+
+[[package]]
+channel = 'debian'
+name = 'netpipe-lam'
+
+[[package]]
+channel = 'debian'
+name = 'netpipe-mpich2'
+
+[[package]]
+channel = 'debian'
+name = 'netpipe-openmpi'
+
+[[package]]
+channel = 'debian'
+name = 'netpipe-tcp'

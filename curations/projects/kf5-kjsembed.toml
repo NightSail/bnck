@@ -1,0 +1,8 @@
+id = 'kf5-kjsembed'
+name = 'kf5-kjsembed'
+
+homepage = 'https://invent.kde.org/frameworks/kjsembed'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kjsembed'

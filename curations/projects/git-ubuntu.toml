@@ -1,0 +1,8 @@
+id = 'git-ubuntu'
+name = 'git-ubuntu'
+
+homepage = 'https://launchpad.net/git-ubuntu'
+
+[[package]]
+channel = 'debian'
+name = 'git-ubuntu'

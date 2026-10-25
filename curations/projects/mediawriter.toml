@@ -1,0 +1,12 @@
+id = 'mediawriter'
+name = 'mediawriter'
+
+homepage = 'https://github.com/FedoraQt/MediaWriter'
+
+[[package]]
+channel = 'arch'
+name = 'mediawriter'
+
+[[package]]
+channel = 'fedora'
+name = 'mediawriter'

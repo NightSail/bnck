@@ -1,0 +1,21 @@
+id = 'grc'
+name = 'grc'
+
+homepage = 'http://korpus.juls.savba.sk/~garabik/software/grc.html'
+repository = 'https://github.com/garabik/grc.git'
+
+[[package]]
+channel = 'arch'
+name = 'grc'
+
+[[package]]
+channel = 'debian'
+name = 'grc'
+
+[[package]]
+channel = 'fedora'
+name = 'grc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grc'

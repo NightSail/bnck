@@ -1,0 +1,8 @@
+id = 'tfschema'
+name = 'tfschema'
+
+repository = 'https://github.com/minamijoyo/tfschema.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfschema'

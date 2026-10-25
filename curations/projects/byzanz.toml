@@ -1,0 +1,8 @@
+id = 'byzanz'
+name = 'byzanz'
+
+homepage = 'https://gitlab.gnome.org/Archive/byzanz'
+
+[[package]]
+channel = 'debian'
+name = 'byzanz'

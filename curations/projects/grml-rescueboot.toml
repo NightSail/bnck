@@ -1,0 +1,8 @@
+id = 'grml-rescueboot'
+name = 'grml-rescueboot'
+
+homepage = 'https://github.com/grml/grml-rescueboot'
+
+[[package]]
+channel = 'debian'
+name = 'grml-rescueboot'

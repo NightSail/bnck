@@ -1,0 +1,12 @@
+id = 'bpm-tools'
+name = 'bpm-tools'
+
+repository = 'https://www.pogo.org.uk/~mark/bpm-tools.git'
+
+[[package]]
+channel = 'debian'
+name = 'bpm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bpm-tools'

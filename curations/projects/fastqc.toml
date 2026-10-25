@@ -1,0 +1,12 @@
+id = 'fastqc'
+name = 'fastqc'
+
+homepage = 'https://www.bioinformatics.babraham.ac.uk/projects/fastqc'
+
+[[package]]
+channel = 'debian'
+name = 'fastqc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastqc'

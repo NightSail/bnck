@@ -1,0 +1,9 @@
+id = 'beast'
+name = 'beast'
+
+homepage = 'https://beast.community'
+repository = 'https://github.com/beast-dev/beast-mcmc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beast'

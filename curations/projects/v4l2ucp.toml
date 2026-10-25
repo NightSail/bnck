@@ -1,0 +1,8 @@
+id = 'v4l2ucp'
+name = 'v4l2ucp'
+
+homepage = 'http://v4l2ucp.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'v4l2ucp'

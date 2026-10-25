@@ -1,0 +1,12 @@
+id = 'gnome-pie'
+name = 'gnome-pie'
+
+homepage = 'https://simmesimme.github.io/gnome-pie.html'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-pie'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-pie'

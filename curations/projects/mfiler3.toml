@@ -1,0 +1,8 @@
+id = 'mfiler3'
+name = 'mfiler3'
+
+homepage = 'http://www.geocities.jp/daisuke530221jp/index3.html'
+
+[[package]]
+channel = 'fedora'
+name = 'mfiler3'

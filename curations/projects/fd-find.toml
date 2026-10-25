@@ -1,0 +1,8 @@
+id = 'fd-find'
+name = 'fd-find'
+
+homepage = 'https://crates.io/crates/fd-find'
+
+[[package]]
+channel = 'fedora'
+name = 'fd-find'

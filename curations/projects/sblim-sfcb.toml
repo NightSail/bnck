@@ -1,0 +1,8 @@
+id = 'sblim-sfcb'
+name = 'sblim-sfcb'
+
+homepage = 'http://sblim.wiki.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'sblim-sfcb'

@@ -1,0 +1,12 @@
+id = 'input-pad'
+name = 'input-pad'
+
+homepage = 'https://github.com/fujiwarat/input-pad/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'input-pad'
+
+[[package]]
+channel = 'fedora'
+name = 'input-pad'

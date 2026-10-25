@@ -1,0 +1,13 @@
+id = 'dprint'
+name = 'dprint'
+
+homepage = 'https://dprint.dev'
+repository = 'https://github.com/dprint/dprint.git'
+
+[[package]]
+channel = 'arch'
+name = 'dprint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dprint'

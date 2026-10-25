@@ -1,0 +1,8 @@
+id = 'pdnsrec'
+name = 'pdnsrec'
+
+homepage = 'https://www.powerdns.com/powerdns-recursor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdnsrec'

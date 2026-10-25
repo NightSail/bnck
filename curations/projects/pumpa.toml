@@ -1,0 +1,8 @@
+id = 'pumpa'
+name = 'pumpa'
+
+homepage = 'https://pumpa.branchable.com'
+
+[[package]]
+channel = 'debian'
+name = 'pumpa'

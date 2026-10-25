@@ -1,0 +1,8 @@
+id = 'seedfiles'
+name = 'seedfiles'
+
+homepage = 'https://codeberg.org/Gardenhouse/seedfiles'
+
+[[package]]
+channel = 'debian'
+name = 'seedfiles'

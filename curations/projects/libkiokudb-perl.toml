@@ -1,0 +1,8 @@
+id = 'libkiokudb-perl'
+name = 'libkiokudb-perl'
+
+homepage = 'https://metacpan.org/release/KiokuDB'
+
+[[package]]
+channel = 'debian'
+name = 'libkiokudb-perl'

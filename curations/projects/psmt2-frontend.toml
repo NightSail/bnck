@@ -1,0 +1,8 @@
+id = 'psmt2-frontend'
+name = 'psmt2-frontend'
+
+homepage = 'https://github.com/ACoquereau/psmt2-frontend'
+
+[[package]]
+channel = 'debian'
+name = 'psmt2-frontend'

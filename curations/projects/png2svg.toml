@@ -1,0 +1,12 @@
+id = 'png2svg'
+name = 'png2svg'
+
+homepage = 'https://github.com/xyproto/png2svg'
+
+[[package]]
+channel = 'arch'
+name = 'png2svg'
+
+[[package]]
+channel = 'debian'
+name = 'png2svg'

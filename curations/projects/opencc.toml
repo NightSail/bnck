@@ -1,0 +1,21 @@
+id = 'opencc'
+name = 'opencc'
+
+homepage = 'https://opencc.byvoid.com'
+repository = 'https://github.com/BYVoid/OpenCC.git'
+
+[[package]]
+channel = 'arch'
+name = 'opencc'
+
+[[package]]
+channel = 'debian'
+name = 'opencc'
+
+[[package]]
+channel = 'fedora'
+name = 'opencc-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencc'

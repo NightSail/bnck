@@ -1,0 +1,12 @@
+id = 'buildtools'
+name = 'buildtools'
+
+repository = 'https://github.com/bazelbuild/buildtools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buildifier'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buildozer'

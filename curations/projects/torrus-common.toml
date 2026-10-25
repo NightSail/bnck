@@ -1,0 +1,8 @@
+id = 'torrus-common'
+name = 'torrus-common'
+
+homepage = 'http://torrus.org'
+
+[[package]]
+channel = 'debian'
+name = 'torrus-common'

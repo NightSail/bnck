@@ -1,0 +1,16 @@
+id = 'ipp-usb'
+name = 'ipp-usb'
+
+homepage = 'https://github.com/OpenPrinting/ipp-usb'
+
+[[package]]
+channel = 'arch'
+name = 'ipp-usb'
+
+[[package]]
+channel = 'debian'
+name = 'ipp-usb'
+
+[[package]]
+channel = 'fedora'
+name = 'ipp-usb'

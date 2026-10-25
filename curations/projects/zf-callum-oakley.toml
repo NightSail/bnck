@@ -1,0 +1,8 @@
+id = 'zf-callum-oakley'
+name = 'zf'
+
+repository = 'https://github.com/callum-oakley/zf'
+
+[[package]]
+channel = 'crates.io'
+name = 'zf'

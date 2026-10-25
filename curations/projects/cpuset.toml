@@ -1,0 +1,8 @@
+id = 'cpuset'
+name = 'cpuset'
+
+homepage = 'https://github.com/lpechacek/cpuset'
+
+[[package]]
+channel = 'debian'
+name = 'cpuset'

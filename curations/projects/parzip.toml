@@ -1,0 +1,8 @@
+id = 'parzip'
+name = 'parzip'
+
+homepage = 'https://github.com/jpakkane/parzip'
+
+[[package]]
+channel = 'fedora'
+name = 'parzip'

@@ -1,0 +1,16 @@
+id = 'tgif'
+name = 'tgif'
+
+homepage = 'https://sourceforge.net/projects/tgif'
+
+[[package]]
+channel = 'debian'
+name = 'tgif'
+
+[[package]]
+channel = 'fedora'
+name = 'tgif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tgif'

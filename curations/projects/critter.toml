@@ -1,0 +1,8 @@
+id = 'critter'
+name = 'critter'
+
+homepage = 'https://sourceforge.net/projects/criticalmass'
+
+[[package]]
+channel = 'arch'
+name = 'critter'

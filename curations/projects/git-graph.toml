@@ -1,0 +1,17 @@
+id = 'git-graph'
+name = 'git-graph'
+
+homepage = 'https://github.com/mlange-42/git-graph'
+repository = 'https://github.com/git-bahn/git-graph.git'
+
+[[package]]
+channel = 'arch'
+name = 'git-graph'
+
+[[package]]
+channel = 'debian'
+name = 'git-graph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-graph'

@@ -1,0 +1,9 @@
+id = 'bagit'
+name = 'bagit'
+
+homepage = 'https://libraryofcongress.github.io/bagit-python'
+repository = 'https://github.com/LibraryOfCongress/bagit-python.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bagit'

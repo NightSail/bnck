@@ -1,0 +1,16 @@
+id = 'redir'
+name = 'redir'
+
+homepage = 'https://github.com/troglobit/redir'
+
+[[package]]
+channel = 'debian'
+name = 'redir'
+
+[[package]]
+channel = 'fedora'
+name = 'redir'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redir'

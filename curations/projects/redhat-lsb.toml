@@ -1,0 +1,8 @@
+id = 'redhat-lsb'
+name = 'redhat-lsb'
+
+homepage = 'https://wiki.linuxfoundation.org/lsb/start'
+
+[[package]]
+channel = 'fedora'
+name = 'redhat-lsb'

@@ -1,0 +1,8 @@
+id = 'ormolu-package'
+name = 'ormolu'
+
+homepage = 'https://hackage.haskell.org/package/ormolu'
+
+[[package]]
+channel = 'fedora'
+name = 'ormolu'

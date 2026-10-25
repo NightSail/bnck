@@ -1,0 +1,8 @@
+id = 'clnkr'
+name = 'clnkr'
+
+homepage = 'https://github.com/clnkr-ai/clnkr'
+
+[[package]]
+channel = 'debian'
+name = 'clnkr'

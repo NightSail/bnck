@@ -1,0 +1,8 @@
+id = 'bcalm'
+name = 'bcalm'
+
+homepage = 'https://github.com/GATB/bcalm'
+
+[[package]]
+channel = 'debian'
+name = 'bcalm'

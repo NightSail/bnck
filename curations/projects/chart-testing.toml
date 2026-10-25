@@ -1,0 +1,8 @@
+id = 'chart-testing'
+name = 'chart-testing'
+
+repository = 'https://github.com/helm/chart-testing.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chart-testing'

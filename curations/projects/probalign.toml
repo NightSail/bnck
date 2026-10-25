@@ -1,0 +1,8 @@
+id = 'probalign'
+name = 'probalign'
+
+homepage = 'https://web.njit.edu/~usman/probalign'
+
+[[package]]
+channel = 'debian'
+name = 'probalign'

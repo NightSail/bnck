@@ -1,0 +1,8 @@
+id = 'libmail-checkuser-perl'
+name = 'libmail-checkuser-perl'
+
+homepage = 'https://metacpan.org/release/Mail-CheckUser'
+
+[[package]]
+channel = 'debian'
+name = 'libmail-checkuser-perl'

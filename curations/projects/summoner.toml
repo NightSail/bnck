@@ -1,0 +1,12 @@
+id = 'summoner'
+name = 'summoner'
+
+homepage = 'https://github.com/kowainik/summoner'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-summoner'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-summoner-tui'

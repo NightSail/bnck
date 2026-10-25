@@ -1,0 +1,8 @@
+id = 'illustrate'
+name = 'illustrate'
+
+homepage = 'https://github.com/ccsb-scripps/Illustrate'
+
+[[package]]
+channel = 'debian'
+name = 'illustrate'

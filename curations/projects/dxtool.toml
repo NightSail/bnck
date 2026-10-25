@@ -1,0 +1,8 @@
+id = 'dxtool'
+name = 'dxtool'
+
+homepage = 'http://jaskinie.jaszczur.org/index_en.html'
+
+[[package]]
+channel = 'debian'
+name = 'dxtool'

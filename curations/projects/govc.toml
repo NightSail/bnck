@@ -1,0 +1,9 @@
+id = 'govc'
+name = 'govc'
+
+homepage = 'https://github.com/vmware/govmomi/tree/main/govc'
+repository = 'https://github.com/vmware/govmomi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/govc'

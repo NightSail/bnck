@@ -1,0 +1,8 @@
+id = 'knockpy'
+name = 'knockpy'
+
+homepage = 'https://github.com/guelfoweb/knock'
+
+[[package]]
+channel = 'debian'
+name = 'knockpy'

@@ -1,0 +1,8 @@
+id = 'progressivemauve'
+name = 'progressivemauve'
+
+homepage = 'https://darlinglab.org/mauve/user-guide/mauvealigner.html'
+
+[[package]]
+channel = 'debian'
+name = 'progressivemauve'

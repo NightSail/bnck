@@ -1,0 +1,8 @@
+id = 'tcp-wrappers'
+name = 'tcp_wrappers'
+
+homepage = 'https://github.com/tcp-wrappers'
+
+[[package]]
+channel = 'fedora'
+name = 'tcp_wrappers'

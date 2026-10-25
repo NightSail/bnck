@@ -1,0 +1,8 @@
+id = 'river-classic'
+name = 'river-classic'
+
+homepage = 'https://codeberg.org/river/river-classic'
+
+[[package]]
+channel = 'arch'
+name = 'river-classic'

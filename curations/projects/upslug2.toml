@@ -1,0 +1,8 @@
+id = 'upslug2'
+name = 'upslug2'
+
+homepage = 'http://www.nslu2-linux.org/wiki/Main/UpSlug2'
+
+[[package]]
+channel = 'fedora'
+name = 'upslug2'

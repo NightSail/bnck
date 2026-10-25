@@ -1,0 +1,17 @@
+id = 'snakemake'
+name = 'snakemake'
+
+homepage = 'https://snakemake.readthedocs.io'
+repository = 'https://github.com/snakemake/snakemake.git'
+
+[[package]]
+channel = 'debian'
+name = 'snakemake'
+
+[[package]]
+channel = 'fedora'
+name = 'snakemake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snakemake'

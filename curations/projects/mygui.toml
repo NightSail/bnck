@@ -1,0 +1,12 @@
+id = 'mygui'
+name = 'mygui'
+
+homepage = 'http://mygui.info'
+
+[[package]]
+channel = 'arch'
+name = 'mygui'
+
+[[package]]
+channel = 'fedora'
+name = 'mygui-tools'

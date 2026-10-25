@@ -1,0 +1,12 @@
+id = 'hd-idle'
+name = 'hd-idle'
+
+homepage = 'https://github.com/adelolmo/hd-idle'
+
+[[package]]
+channel = 'debian'
+name = 'hd-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'hd-idle'

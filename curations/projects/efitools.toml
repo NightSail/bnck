@@ -1,0 +1,16 @@
+id = 'efitools'
+name = 'efitools'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git/about'
+
+[[package]]
+channel = 'arch'
+name = 'efitools'
+
+[[package]]
+channel = 'debian'
+name = 'efitools'
+
+[[package]]
+channel = 'fedora'
+name = 'efitools'

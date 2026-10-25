@@ -1,0 +1,12 @@
+id = 'freealut'
+name = 'freealut'
+
+homepage = 'https://github.com/vancegroup/freealut'
+
+[[package]]
+channel = 'debian'
+name = 'libalut-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freealut'

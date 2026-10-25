@@ -1,0 +1,8 @@
+id = 'bottles'
+name = 'bottles'
+
+homepage = 'https://github.com/bottlesdevs/Bottles'
+
+[[package]]
+channel = 'fedora'
+name = 'bottles'

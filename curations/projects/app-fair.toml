@@ -1,0 +1,8 @@
+id = 'app-fair'
+name = 'app-fair'
+
+homepage = 'https://appfair.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/app-fair'

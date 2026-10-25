@@ -1,0 +1,8 @@
+id = 'tenshi'
+name = 'tenshi'
+
+homepage = 'http://dev.inversepath.com/trac/tenshi'
+
+[[package]]
+channel = 'debian'
+name = 'tenshi'

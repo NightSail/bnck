@@ -1,0 +1,8 @@
+id = 'ibmonitor'
+name = 'ibmonitor'
+
+homepage = 'http://ibmonitor.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'ibmonitor'

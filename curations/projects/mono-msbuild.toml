@@ -1,0 +1,8 @@
+id = 'mono-msbuild'
+name = 'mono-msbuild'
+
+homepage = 'https://github.com/mono/linux-packaging-msbuild'
+
+[[package]]
+channel = 'arch'
+name = 'mono-msbuild'

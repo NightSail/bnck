@@ -1,0 +1,8 @@
+id = 'hel'
+name = 'hel'
+
+homepage = 'https://git.sr.ht/~nelsam/hel'
+
+[[package]]
+channel = 'fedora'
+name = 'hel'

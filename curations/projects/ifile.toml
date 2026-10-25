@@ -1,0 +1,8 @@
+id = 'ifile'
+name = 'ifile'
+
+homepage = 'http://qwone.com/~jason/ifile'
+
+[[package]]
+channel = 'debian'
+name = 'ifile'

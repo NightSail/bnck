@@ -1,0 +1,8 @@
+id = 'python3-logdetective'
+name = 'python3-logdetective'
+
+homepage = 'https://pypi.org/project/logdetective'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-logdetective'

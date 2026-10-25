@@ -1,0 +1,8 @@
+id = 'ltl2ba'
+name = 'ltl2ba'
+
+homepage = 'https://lsv.ens-paris-saclay.fr/~gastin/ltl2ba'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ltl2ba'

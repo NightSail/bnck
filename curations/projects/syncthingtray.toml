@@ -1,0 +1,12 @@
+id = 'syncthingtray'
+name = 'syncthingtray'
+
+homepage = 'https://github.com/Martchus/syncthingtray'
+
+[[package]]
+channel = 'arch'
+name = 'syncthingtray'
+
+[[package]]
+channel = 'debian'
+name = 'syncthingtray'

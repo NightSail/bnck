@@ -1,0 +1,9 @@
+id = 'tofuenv'
+name = 'tofuenv'
+
+homepage = 'https://tofuutils.github.io/tofuenv'
+repository = 'https://github.com/tofuutils/tofuenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tofuenv'

@@ -1,0 +1,16 @@
+id = 'diffpdf'
+name = 'diffpdf'
+
+homepage = 'https://gitlab.com/eang/diffpdf'
+
+[[package]]
+channel = 'arch'
+name = 'diffpdf'
+
+[[package]]
+channel = 'debian'
+name = 'diffpdf'
+
+[[package]]
+channel = 'fedora'
+name = 'diffpdf'

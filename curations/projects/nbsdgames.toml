@@ -1,0 +1,8 @@
+id = 'nbsdgames'
+name = 'nbsdgames'
+
+repository = 'https://github.com/abakh/nbsdgames.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nbsdgames'

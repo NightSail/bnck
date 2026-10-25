@@ -1,0 +1,8 @@
+id = 'listserialportsc'
+name = 'listserialportsc'
+
+homepage = 'https://github.com/arduino/listSerialPortsC'
+
+[[package]]
+channel = 'debian'
+name = 'listserialportsc'

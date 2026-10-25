@@ -1,0 +1,9 @@
+id = 'coredns'
+name = 'coredns'
+
+homepage = 'https://coredns.io'
+repository = 'https://github.com/coredns/coredns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coredns'

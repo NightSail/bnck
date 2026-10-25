@@ -1,0 +1,20 @@
+id = 'pax'
+name = 'pax'
+
+homepage = 'https://mbsd.evolvis.org/pax.htm'
+
+[[package]]
+channel = 'arch'
+name = 'pax'
+
+[[package]]
+channel = 'debian'
+name = 'pax'
+
+[[package]]
+channel = 'fedora'
+name = 'pax'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pax'

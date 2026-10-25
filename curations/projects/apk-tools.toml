@@ -1,0 +1,12 @@
+id = 'apk-tools'
+name = 'apk-tools'
+
+homepage = 'https://gitlab.alpinelinux.org/alpine/apk-tools'
+
+[[package]]
+channel = 'arch'
+name = 'apk-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'apk-tools'

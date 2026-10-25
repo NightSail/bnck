@@ -1,0 +1,16 @@
+id = 'cjk'
+name = 'cjk'
+
+homepage = 'https://www.nongnu.org/cjk'
+
+[[package]]
+channel = 'debian'
+name = 'latex-cjk-chinese'
+
+[[package]]
+channel = 'debian'
+name = 'latex-cjk-common'
+
+[[package]]
+channel = 'debian'
+name = 'latex-cjk-japanese'

@@ -1,0 +1,8 @@
+id = 'dockviz'
+name = 'dockviz'
+
+repository = 'https://github.com/justone/dockviz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockviz'

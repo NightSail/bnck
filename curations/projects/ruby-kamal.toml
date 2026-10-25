@@ -1,0 +1,8 @@
+id = 'ruby-kamal'
+name = 'ruby-kamal'
+
+homepage = 'https://github.com/basecamp/kamal'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-kamal'

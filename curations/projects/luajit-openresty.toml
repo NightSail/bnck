@@ -1,0 +1,8 @@
+id = 'luajit-openresty'
+name = 'luajit-openresty'
+
+repository = 'https://github.com/openresty/luajit2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luajit-openresty'

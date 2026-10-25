@@ -1,0 +1,8 @@
+id = 'psautohint'
+name = 'psautohint'
+
+homepage = 'https://github.com/adobe-type-tools/psautohint'
+
+[[package]]
+channel = 'debian'
+name = 'psautohint'

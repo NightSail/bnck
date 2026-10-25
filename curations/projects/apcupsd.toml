@@ -1,0 +1,20 @@
+id = 'apcupsd'
+name = 'apcupsd'
+
+homepage = 'http://www.apcupsd.org'
+
+[[package]]
+channel = 'arch'
+name = 'apcupsd'
+
+[[package]]
+channel = 'debian'
+name = 'apcupsd'
+
+[[package]]
+channel = 'fedora'
+name = 'apcupsd'
+
+[[package]]
+channel = 'fedora'
+name = 'apcupsd-gui'

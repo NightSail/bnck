@@ -1,0 +1,8 @@
+id = 'braid'
+name = 'braid'
+
+homepage = 'https://cristibalan.github.io/braid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/braid'

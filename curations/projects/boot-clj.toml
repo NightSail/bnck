@@ -1,0 +1,8 @@
+id = 'boot-clj'
+name = 'boot-clj'
+
+homepage = 'https://boot-clj.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boot-clj'

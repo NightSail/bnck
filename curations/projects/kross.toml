@@ -1,0 +1,12 @@
+id = 'kross'
+name = 'kross'
+
+homepage = 'https://invent.kde.org/frameworks/kross'
+
+[[package]]
+channel = 'debian'
+name = 'kross'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kross-core'

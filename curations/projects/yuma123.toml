@@ -1,0 +1,20 @@
+id = 'yuma123'
+name = 'yuma123'
+
+homepage = 'https://yuma123.org'
+
+[[package]]
+channel = 'debian'
+name = 'netconfd'
+
+[[package]]
+channel = 'debian'
+name = 'netconfd-module-ietf-interfaces'
+
+[[package]]
+channel = 'debian'
+name = 'yangcli'
+
+[[package]]
+channel = 'debian'
+name = 'yangdump'

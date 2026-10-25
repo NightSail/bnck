@@ -1,0 +1,8 @@
+id = 'panoramisk'
+name = 'panoramisk'
+
+homepage = 'http://panoramisk.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'panoramisk'

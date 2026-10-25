@@ -1,0 +1,12 @@
+id = 'rebar3-rebar3'
+name = 'rebar3'
+
+homepage = 'https://rebar3.org'
+
+[[package]]
+channel = 'debian'
+name = 'rebar3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rebar3'

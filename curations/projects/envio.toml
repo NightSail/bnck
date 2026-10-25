@@ -1,0 +1,8 @@
+id = 'envio'
+name = 'envio'
+
+repository = 'https://github.com/humblepenguinn/envio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/envio'

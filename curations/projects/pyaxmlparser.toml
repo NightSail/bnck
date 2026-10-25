@@ -1,0 +1,12 @@
+id = 'pyaxmlparser'
+name = 'pyaxmlparser'
+
+homepage = 'https://github.com/appknox/pyaxmlparser'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyaxmlparser'
+
+[[package]]
+channel = 'debian'
+name = 'apkinfo'

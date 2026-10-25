@@ -1,0 +1,12 @@
+id = 'ruby-stackprof'
+name = 'ruby-stackprof'
+
+homepage = 'https://github.com/tmm1/stackprof'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-stackprof'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-stackprof'

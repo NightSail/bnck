@@ -1,0 +1,8 @@
+id = 'wmload'
+name = 'wmload'
+
+homepage = 'https://www.dockapps.net/wmload'
+
+[[package]]
+channel = 'debian'
+name = 'wmload'

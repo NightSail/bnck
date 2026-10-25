@@ -1,0 +1,16 @@
+id = 'ncmpc'
+name = 'ncmpc'
+
+homepage = 'https://www.musicpd.org/clients/ncmpc'
+
+[[package]]
+channel = 'arch'
+name = 'ncmpc'
+
+[[package]]
+channel = 'debian'
+name = 'ncmpc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncmpc'

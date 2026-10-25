@@ -1,0 +1,8 @@
+id = 'lsd2'
+name = 'lsd2'
+
+homepage = 'https://github.com/tothuhien/lsd2'
+
+[[package]]
+channel = 'debian'
+name = 'lsd2'

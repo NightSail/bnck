@@ -1,0 +1,8 @@
+id = 'stlsplit'
+name = 'stlsplit'
+
+homepage = 'https://github.com/admesh/stlsplit'
+
+[[package]]
+channel = 'fedora'
+name = 'stlsplit'

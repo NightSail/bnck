@@ -1,0 +1,8 @@
+id = 'liborcus'
+name = 'liborcus'
+
+homepage = 'https://gitlab.com/orcus/orcus/blob/master/README.md'
+
+[[package]]
+channel = 'arch'
+name = 'liborcus'

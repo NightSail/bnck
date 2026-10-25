@@ -1,0 +1,8 @@
+id = 'ueberzugpp'
+name = 'ueberzugpp'
+
+homepage = 'https://github.com/jstkdng/ueberzugpp'
+
+[[package]]
+channel = 'arch'
+name = 'ueberzugpp'

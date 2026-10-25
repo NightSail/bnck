@@ -1,0 +1,8 @@
+id = 'libfaketime-wolfcw'
+name = 'libfaketime'
+
+repository = 'https://github.com/wolfcw/libfaketime.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfaketime'

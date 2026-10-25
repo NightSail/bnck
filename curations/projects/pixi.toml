@@ -1,0 +1,13 @@
+id = 'pixi'
+name = 'pixi'
+
+homepage = 'https://pixi.sh'
+repository = 'https://github.com/prefix-dev/pixi.git'
+
+[[package]]
+channel = 'arch'
+name = 'pixi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixi'

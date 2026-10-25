@@ -1,0 +1,12 @@
+id = 'uronode'
+name = 'uronode'
+
+homepage = 'https://uronode.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'uronode'
+
+[[package]]
+channel = 'fedora'
+name = 'uronode'

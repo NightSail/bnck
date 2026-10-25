@@ -1,0 +1,16 @@
+id = 'plasma-systemmonitor'
+name = 'plasma-systemmonitor'
+
+homepage = 'https://apps.kde.org/plasma-systemmonitor'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-systemmonitor'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-systemmonitor'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-systemmonitor'

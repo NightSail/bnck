@@ -1,0 +1,8 @@
+id = 'delfin'
+name = 'delfin'
+
+homepage = 'https://delfin.avery.cafe'
+
+[[package]]
+channel = 'arch'
+name = 'delfin'

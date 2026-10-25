@@ -1,0 +1,8 @@
+id = 't-coffee'
+name = 't-coffee'
+
+homepage = 'https://www.tcoffee.org/Projects/tcoffee/index.html'
+
+[[package]]
+channel = 'debian'
+name = 't-coffee'

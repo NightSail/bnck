@@ -1,0 +1,8 @@
+id = 'lltsv'
+name = 'lltsv'
+
+homepage = 'https://github.com/sonots/lltsv'
+
+[[package]]
+channel = 'debian'
+name = 'lltsv'

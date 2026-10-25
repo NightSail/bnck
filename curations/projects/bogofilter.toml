@@ -1,0 +1,44 @@
+id = 'bogofilter'
+name = 'bogofilter'
+
+homepage = 'https://bogofilter.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'bogofilter-db'
+
+[[package]]
+channel = 'arch'
+name = 'bogofilter-kyotocabinet'
+
+[[package]]
+channel = 'arch'
+name = 'bogofilter-lmdb'
+
+[[package]]
+channel = 'arch'
+name = 'bogofilter-sqlite'
+
+[[package]]
+channel = 'debian'
+name = 'bogofilter-bdb'
+
+[[package]]
+channel = 'debian'
+name = 'bogofilter-sqlite'
+
+[[package]]
+channel = 'debian'
+name = 'bogofilter-tokyocabinet'
+
+[[package]]
+channel = 'fedora'
+name = 'bogofilter'
+
+[[package]]
+channel = 'fedora'
+name = 'bogofilter-bogoupgrade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bogofilter'

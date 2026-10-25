@@ -1,0 +1,12 @@
+id = 'software-bill-of-materials'
+name = 'software_bill_of_materials'
+
+homepage = 'https://www.apertis.org/architecture/platform/software_bill_of_materials'
+
+[[package]]
+channel = 'debian'
+name = 'dh-setup-copyright'
+
+[[package]]
+channel = 'debian'
+name = 'sbom-toolkit'

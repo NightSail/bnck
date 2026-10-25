@@ -1,0 +1,8 @@
+id = 'uru'
+name = 'uru'
+
+homepage = 'https://bitbucket.org/jonforums/uru'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uru'

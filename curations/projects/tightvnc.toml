@@ -1,0 +1,20 @@
+id = 'tightvnc'
+name = 'tightvnc'
+
+homepage = 'https://www.tightvnc.com'
+
+[[package]]
+channel = 'debian'
+name = 'tightvnc-java'
+
+[[package]]
+channel = 'debian'
+name = 'tightvncpasswd'
+
+[[package]]
+channel = 'debian'
+name = 'tightvncserver'
+
+[[package]]
+channel = 'debian'
+name = 'xtightvncviewer'

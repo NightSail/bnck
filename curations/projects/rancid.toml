@@ -1,0 +1,16 @@
+id = 'rancid'
+name = 'rancid'
+
+homepage = 'https://www.shrubbery.net/rancid'
+
+[[package]]
+channel = 'debian'
+name = 'rancid'
+
+[[package]]
+channel = 'fedora'
+name = 'rancid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rancid'

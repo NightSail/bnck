@@ -1,0 +1,64 @@
+id = 'bluez'
+name = 'bluez'
+
+homepage = 'http://www.bluez.org'
+
+[[package]]
+channel = 'arch'
+name = 'bluez-deprecated-tools'
+
+[[package]]
+channel = 'arch'
+name = 'bluez-mesh'
+
+[[package]]
+channel = 'arch'
+name = 'bluez-obex'
+
+[[package]]
+channel = 'arch'
+name = 'bluez-utils'
+
+[[package]]
+channel = 'debian'
+name = 'bluez'
+
+[[package]]
+channel = 'debian'
+name = 'bluez-hcidump'
+
+[[package]]
+channel = 'debian'
+name = 'bluez-meshd'
+
+[[package]]
+channel = 'debian'
+name = 'bluez-test-tools'
+
+[[package]]
+channel = 'debian'
+name = 'sbc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'bluez'
+
+[[package]]
+channel = 'fedora'
+name = 'bluez-deprecated'
+
+[[package]]
+channel = 'fedora'
+name = 'bluez-hcidump'
+
+[[package]]
+channel = 'fedora'
+name = 'bluez-libs-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'bluez-mesh'
+
+[[package]]
+channel = 'fedora'
+name = 'sbc'

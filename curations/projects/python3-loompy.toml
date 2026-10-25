@@ -1,0 +1,8 @@
+id = 'python3-loompy'
+name = 'python3-loompy'
+
+homepage = 'https://github.com/linnarsson-lab/loompy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-loompy'

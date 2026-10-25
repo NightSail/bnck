@@ -1,0 +1,12 @@
+id = 'imsprog'
+name = 'imsprog'
+
+homepage = 'https://github.com/bigbigmdm/IMSProg'
+
+[[package]]
+channel = 'debian'
+name = 'imsprog'
+
+[[package]]
+channel = 'fedora'
+name = 'imsprog'

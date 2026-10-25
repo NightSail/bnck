@@ -1,0 +1,16 @@
+id = 'jim'
+name = 'jim'
+
+homepage = 'http://jim.tcl.tk'
+
+[[package]]
+channel = 'debian'
+name = 'jimsh'
+
+[[package]]
+channel = 'fedora'
+name = 'jimtcl'
+
+[[package]]
+channel = 'fedora'
+name = 'jimtcl-devel'

@@ -1,0 +1,21 @@
+id = 'mcabber'
+name = 'mcabber'
+
+homepage = 'https://www.lilotux.net/~mikael/mcabber'
+repository = 'https://mcabber.com/hg'
+
+[[package]]
+channel = 'arch'
+name = 'mcabber'
+
+[[package]]
+channel = 'debian'
+name = 'mcabber'
+
+[[package]]
+channel = 'fedora'
+name = 'mcabber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcabber'

@@ -1,0 +1,8 @@
+id = 'lua-markdown'
+name = 'lua-markdown'
+
+homepage = 'http://www.frykholm.se/files/markdown.lua'
+
+[[package]]
+channel = 'fedora'
+name = 'lua-markdown'

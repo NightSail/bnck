@@ -1,0 +1,8 @@
+id = 'nxtrc'
+name = 'nxtrc'
+
+homepage = 'http://www.scienzaludica.it/index.php'
+
+[[package]]
+channel = 'fedora'
+name = 'nxtrc'

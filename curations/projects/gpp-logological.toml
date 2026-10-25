@@ -1,0 +1,9 @@
+id = 'gpp-logological'
+name = 'gpp'
+
+homepage = 'https://logological.org/gpp'
+repository = 'https://github.com/logological/gpp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpp'

@@ -1,0 +1,8 @@
+id = 'bash-argsparse'
+name = 'bash-argsparse'
+
+homepage = 'https://github.com/Anvil/bash-argsparse'
+
+[[package]]
+channel = 'fedora'
+name = 'bash-argsparse'

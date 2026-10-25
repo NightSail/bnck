@@ -1,0 +1,8 @@
+id = 'ffmpeg-progress-yield'
+name = 'ffmpeg-progress-yield'
+
+homepage = 'https://github.com/slhck/ffmpeg-progress-yield'
+
+[[package]]
+channel = 'debian'
+name = 'ffmpeg-progress-yield'

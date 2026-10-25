@@ -1,0 +1,20 @@
+id = 'konqueror'
+name = 'konqueror'
+
+homepage = 'https://apps.kde.org/konqueror'
+
+[[package]]
+channel = 'arch'
+name = 'konqueror'
+
+[[package]]
+channel = 'debian'
+name = 'konq-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'konqueror'
+
+[[package]]
+channel = 'fedora'
+name = 'konqueror'

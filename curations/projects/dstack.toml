@@ -1,0 +1,9 @@
+id = 'dstack'
+name = 'dstack'
+
+homepage = 'https://dstack.ai'
+repository = 'https://github.com/dstackai/dstack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dstack'

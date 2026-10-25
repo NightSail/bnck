@@ -1,0 +1,8 @@
+id = 'uvccapture'
+name = 'uvccapture'
+
+homepage = 'http://linux-uvc.berlios.de'
+
+[[package]]
+channel = 'debian'
+name = 'uvccapture'

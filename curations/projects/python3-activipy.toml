@@ -1,0 +1,8 @@
+id = 'python3-activipy'
+name = 'python3-activipy'
+
+homepage = 'https://github.com/w3c-social/activipy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-activipy'

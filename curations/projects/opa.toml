@@ -1,0 +1,9 @@
+id = 'opa'
+name = 'opa'
+
+homepage = 'https://www.openpolicyagent.org'
+repository = 'https://github.com/open-policy-agent/opa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opa'

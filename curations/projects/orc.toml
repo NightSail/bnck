@@ -1,0 +1,16 @@
+id = 'orc'
+name = 'orc'
+
+homepage = 'https://cgit.freedesktop.org/gstreamer/orc'
+
+[[package]]
+channel = 'debian'
+name = 'liborc-0.4-dev-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'orc'
+
+[[package]]
+channel = 'fedora'
+name = 'orc-compiler'

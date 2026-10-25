@@ -1,0 +1,17 @@
+id = 'cairo'
+name = 'cairo'
+
+homepage = 'https://cairographics.org'
+repository = 'https://gitlab.freedesktop.org/cairo/cairo.git'
+
+[[package]]
+channel = 'arch'
+name = 'cairo'
+
+[[package]]
+channel = 'fedora'
+name = 'cairo-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cairo'

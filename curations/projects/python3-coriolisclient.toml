@@ -1,0 +1,8 @@
+id = 'python3-coriolisclient'
+name = 'python3-coriolisclient'
+
+homepage = 'https://github.com/cloudbase/python-coriolisclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-coriolisclient'

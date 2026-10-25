@@ -1,0 +1,8 @@
+id = 'ameba-ls'
+name = 'ameba-ls'
+
+homepage = 'https://github.com/crystal-ameba/ameba-ls'
+
+[[package]]
+channel = 'arch'
+name = 'ameba-ls'

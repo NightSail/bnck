@@ -1,0 +1,24 @@
+id = 'sysprof'
+name = 'sysprof'
+
+homepage = 'https://apps.gnome.org/Sysprof'
+
+[[package]]
+channel = 'arch'
+name = 'sysprof'
+
+[[package]]
+channel = 'debian'
+name = 'sysprof'
+
+[[package]]
+channel = 'fedora'
+name = 'sysprof'
+
+[[package]]
+channel = 'fedora'
+name = 'sysprof-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'sysprof-cli'

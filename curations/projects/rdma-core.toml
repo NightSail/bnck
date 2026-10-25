@@ -1,0 +1,64 @@
+id = 'rdma-core'
+name = 'rdma-core'
+
+homepage = 'https://github.com/linux-rdma/rdma-core'
+
+[[package]]
+channel = 'arch'
+name = 'rdma-core'
+
+[[package]]
+channel = 'debian'
+name = 'ibacm'
+
+[[package]]
+channel = 'debian'
+name = 'ibverbs-utils'
+
+[[package]]
+channel = 'debian'
+name = 'infiniband-diags'
+
+[[package]]
+channel = 'debian'
+name = 'rdma-core'
+
+[[package]]
+channel = 'debian'
+name = 'rdmacm-utils'
+
+[[package]]
+channel = 'debian'
+name = 'srptools'
+
+[[package]]
+channel = 'fedora'
+name = 'ibacm'
+
+[[package]]
+channel = 'fedora'
+name = 'infiniband-diags'
+
+[[package]]
+channel = 'fedora'
+name = 'infiniband-diags-compat'
+
+[[package]]
+channel = 'fedora'
+name = 'iwpmd'
+
+[[package]]
+channel = 'fedora'
+name = 'libibverbs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'librdmacm-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'rdma-core'
+
+[[package]]
+channel = 'fedora'
+name = 'srp_daemon'

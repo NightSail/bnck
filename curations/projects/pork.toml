@@ -1,0 +1,8 @@
+id = 'pork'
+name = 'pork'
+
+homepage = 'http://dev.ojnk.net'
+
+[[package]]
+channel = 'arch'
+name = 'pork'

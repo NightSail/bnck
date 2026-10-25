@@ -1,0 +1,8 @@
+id = 'blends-common'
+name = 'blends-common'
+
+homepage = 'https://www.debian.org/blends'
+
+[[package]]
+channel = 'debian'
+name = 'blends-common'

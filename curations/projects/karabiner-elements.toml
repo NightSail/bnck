@@ -1,0 +1,8 @@
+id = 'karabiner-elements'
+name = 'karabiner-elements'
+
+homepage = 'https://karabiner-elements.pqrs.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/karabiner-elements'

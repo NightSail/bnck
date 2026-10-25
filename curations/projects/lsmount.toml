@@ -1,0 +1,8 @@
+id = 'lsmount'
+name = 'lsmount'
+
+homepage = 'https://www.lsmount.org'
+
+[[package]]
+channel = 'debian'
+name = 'lsmount'

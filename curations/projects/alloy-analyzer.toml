@@ -1,0 +1,8 @@
+id = 'alloy-analyzer'
+name = 'alloy-analyzer'
+
+homepage = 'https://alloytools.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alloy-analyzer'

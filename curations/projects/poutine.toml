@@ -1,0 +1,9 @@
+id = 'poutine'
+name = 'poutine'
+
+homepage = 'https://boostsecurityio.github.io/poutine'
+repository = 'https://github.com/boostsecurityio/poutine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poutine'

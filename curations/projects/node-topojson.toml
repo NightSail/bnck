@@ -1,0 +1,8 @@
+id = 'node-topojson'
+name = 'node-topojson'
+
+homepage = 'https://github.com/mbostock/topojson'
+
+[[package]]
+channel = 'debian'
+name = 'node-topojson'

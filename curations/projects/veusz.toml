@@ -1,0 +1,12 @@
+id = 'veusz'
+name = 'veusz'
+
+homepage = 'https://veusz.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'veusz'
+
+[[package]]
+channel = 'fedora'
+name = 'veusz'

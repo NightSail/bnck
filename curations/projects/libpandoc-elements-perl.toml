@@ -1,0 +1,8 @@
+id = 'libpandoc-elements-perl'
+name = 'libpandoc-elements-perl'
+
+homepage = 'https://github.com/nichtich/Pandoc-Elements'
+
+[[package]]
+channel = 'debian'
+name = 'libpandoc-elements-perl'

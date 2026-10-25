@@ -1,0 +1,8 @@
+id = 'immich-archiver'
+name = 'immich-archiver'
+
+homepage = 'https://github.com/pixelunioneu/immich-archiver'
+
+[[package]]
+channel = 'debian'
+name = 'immich-archiver'

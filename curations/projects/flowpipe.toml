@@ -1,0 +1,9 @@
+id = 'flowpipe'
+name = 'flowpipe'
+
+homepage = 'https://flowpipe.io'
+repository = 'https://github.com/turbot/flowpipe.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flowpipe'

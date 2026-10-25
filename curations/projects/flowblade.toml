@@ -1,0 +1,16 @@
+id = 'flowblade'
+name = 'flowblade'
+
+homepage = 'https://jliljebl.github.io/flowblade'
+
+[[package]]
+channel = 'arch'
+name = 'flowblade'
+
+[[package]]
+channel = 'debian'
+name = 'flowblade'
+
+[[package]]
+channel = 'fedora'
+name = 'flowblade'

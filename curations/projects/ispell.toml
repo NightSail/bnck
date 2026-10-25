@@ -1,0 +1,16 @@
+id = 'ispell'
+name = 'ispell'
+
+homepage = 'https://www.cs.hmc.edu/~geoff/ispell.html'
+
+[[package]]
+channel = 'arch'
+name = 'ispell'
+
+[[package]]
+channel = 'debian'
+name = 'ispell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ispell'

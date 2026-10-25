@@ -1,0 +1,8 @@
+id = 'alexjs'
+name = 'alexjs'
+
+homepage = 'https://alexjs.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alexjs'

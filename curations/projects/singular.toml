@@ -1,0 +1,41 @@
+id = 'singular'
+name = 'singular'
+
+homepage = 'https://www.singular.uni-kl.de'
+repository = 'https://github.com/Singular/Singular.git'
+
+[[package]]
+channel = 'arch'
+name = 'singular'
+
+[[package]]
+channel = 'debian'
+name = 'singular-ui'
+
+[[package]]
+channel = 'debian'
+name = 'singular-ui-emacs'
+
+[[package]]
+channel = 'debian'
+name = 'singular-ui-xterm'
+
+[[package]]
+channel = 'fedora'
+name = 'Singular'
+
+[[package]]
+channel = 'fedora'
+name = 'Singular-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'Singular-emacs'
+
+[[package]]
+channel = 'fedora'
+name = 'Singular-libpolys-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/singular'

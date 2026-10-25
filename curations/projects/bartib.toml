@@ -1,0 +1,8 @@
+id = 'bartib'
+name = 'bartib'
+
+homepage = 'https://github.com/nikolassv/bartib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bartib'

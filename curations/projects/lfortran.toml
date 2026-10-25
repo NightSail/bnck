@@ -1,0 +1,12 @@
+id = 'lfortran'
+name = 'lfortran'
+
+homepage = 'https://lfortran.org'
+
+[[package]]
+channel = 'debian'
+name = 'lfortran'
+
+[[package]]
+channel = 'fedora'
+name = 'lfortran'

@@ -1,0 +1,16 @@
+id = 'qrca'
+name = 'qrca'
+
+homepage = 'https://apps.kde.org/qrca'
+
+[[package]]
+channel = 'arch'
+name = 'qrca'
+
+[[package]]
+channel = 'debian'
+name = 'qrca'
+
+[[package]]
+channel = 'fedora'
+name = 'qrca'

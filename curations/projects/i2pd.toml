@@ -1,0 +1,16 @@
+id = 'i2pd'
+name = 'i2pd'
+
+homepage = 'https://i2pd.website'
+
+[[package]]
+channel = 'arch'
+name = 'i2pd'
+
+[[package]]
+channel = 'debian'
+name = 'i2pd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i2pd'

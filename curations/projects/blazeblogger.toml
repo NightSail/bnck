@@ -1,0 +1,12 @@
+id = 'blazeblogger'
+name = 'blazeblogger'
+
+homepage = 'http://blaze.blackened.cz'
+
+[[package]]
+channel = 'debian'
+name = 'blazeblogger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blazeblogger'

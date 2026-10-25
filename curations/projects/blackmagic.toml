@@ -1,0 +1,8 @@
+id = 'blackmagic'
+name = 'blackmagic'
+
+homepage = 'https://codeberg.org/blackmagic-debug/blackmagic'
+
+[[package]]
+channel = 'arch'
+name = 'blackmagic'

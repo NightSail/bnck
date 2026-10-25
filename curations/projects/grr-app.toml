@@ -1,0 +1,8 @@
+id = 'grr-app'
+name = 'grr.app'
+
+homepage = 'http://gap.nongnu.org/grr'
+
+[[package]]
+channel = 'debian'
+name = 'grr.app'

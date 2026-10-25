@@ -1,0 +1,8 @@
+id = 'python3-mallard-ducktype'
+name = 'python3-mallard-ducktype'
+
+homepage = 'https://pypi.python.org/pypi/mallard-ducktype'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mallard-ducktype'

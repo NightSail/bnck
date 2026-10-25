@@ -1,0 +1,8 @@
+id = 'bltool'
+name = 'bltool'
+
+repository = 'https://github.com/ToxicFrog/bltool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bltool'

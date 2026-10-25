@@ -1,0 +1,12 @@
+id = 'menulibre'
+name = 'menulibre'
+
+homepage = 'https://github.com/bluesabre/menulibre'
+
+[[package]]
+channel = 'debian'
+name = 'menulibre'
+
+[[package]]
+channel = 'fedora'
+name = 'menulibre'

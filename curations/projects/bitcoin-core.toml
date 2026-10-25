@@ -1,0 +1,20 @@
+id = 'bitcoin-core'
+name = 'bitcoin-core'
+
+homepage = 'https://bitcoincore.org'
+
+[[package]]
+channel = 'fedora'
+name = 'bitcoin-core-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'bitcoin-core-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'bitcoin-core-server'
+
+[[package]]
+channel = 'fedora'
+name = 'bitcoin-core-utils'

@@ -1,0 +1,8 @@
+id = 'plastimatch'
+name = 'plastimatch'
+
+homepage = 'https://plastimatch.org'
+
+[[package]]
+channel = 'debian'
+name = 'plastimatch'

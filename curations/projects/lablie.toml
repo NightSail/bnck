@@ -1,0 +1,8 @@
+id = 'lablie'
+name = 'lablie'
+
+homepage = 'https://gitlab.com/kravemir/lablie'
+
+[[package]]
+channel = 'debian'
+name = 'lablie'

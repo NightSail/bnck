@@ -1,0 +1,8 @@
+id = 'neonctl'
+name = 'neonctl'
+
+homepage = 'https://neon.tech/docs/reference/neon-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neonctl'

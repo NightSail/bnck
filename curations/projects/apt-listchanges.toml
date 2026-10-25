@@ -1,0 +1,8 @@
+id = 'apt-listchanges'
+name = 'apt-listchanges'
+
+homepage = 'https://salsa.debian.org/debian/apt-listchanges'
+
+[[package]]
+channel = 'debian'
+name = 'apt-listchanges'

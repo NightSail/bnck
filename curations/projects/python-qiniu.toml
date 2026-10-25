@@ -1,0 +1,8 @@
+id = 'python-qiniu'
+name = 'python-qiniu'
+
+homepage = 'https://github.com/qiniu/python-sdk'
+
+[[package]]
+channel = 'arch'
+name = 'python-qiniu'

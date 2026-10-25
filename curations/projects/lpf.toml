@@ -1,0 +1,8 @@
+id = 'lpf'
+name = 'lpf'
+
+homepage = 'https://github.com/sergiomb2/lpf'
+
+[[package]]
+channel = 'fedora'
+name = 'lpf'

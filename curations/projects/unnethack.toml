@@ -1,0 +1,9 @@
+id = 'unnethack'
+name = 'unnethack'
+
+homepage = 'https://unnethack.wordpress.com'
+repository = 'https://github.com/UnNetHack/UnNetHack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unnethack'

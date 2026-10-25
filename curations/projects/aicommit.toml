@@ -1,0 +1,8 @@
+id = 'aicommit'
+name = 'aicommit'
+
+repository = 'https://github.com/coder/aicommit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aicommit'

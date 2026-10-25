@@ -1,0 +1,8 @@
+id = 'minia'
+name = 'minia'
+
+homepage = 'http://minia.genouest.org'
+
+[[package]]
+channel = 'debian'
+name = 'minia'

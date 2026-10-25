@@ -1,0 +1,8 @@
+id = 'numptyphysics'
+name = 'numptyphysics'
+
+homepage = 'http://thp.io/2015/numptyphysics'
+
+[[package]]
+channel = 'fedora'
+name = 'numptyphysics'

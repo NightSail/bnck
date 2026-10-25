@@ -1,0 +1,16 @@
+id = 'hdparm'
+name = 'hdparm'
+
+homepage = 'https://sourceforge.net/projects/hdparm'
+
+[[package]]
+channel = 'arch'
+name = 'hdparm'
+
+[[package]]
+channel = 'debian'
+name = 'hdparm'
+
+[[package]]
+channel = 'fedora'
+name = 'hdparm'

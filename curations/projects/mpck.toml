@@ -1,0 +1,8 @@
+id = 'mpck'
+name = 'mpck'
+
+homepage = 'https://checkmate.gissen.nl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpck'

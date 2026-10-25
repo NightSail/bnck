@@ -1,0 +1,8 @@
+id = 'semtag'
+name = 'semtag'
+
+homepage = 'https://github.com/nico2sh/semtag'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/semtag'

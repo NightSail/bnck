@@ -1,0 +1,13 @@
+id = 'taskopen'
+name = 'taskopen'
+
+homepage = 'https://github.com/ValiValpas/taskopen'
+repository = 'https://codeberg.org/jschlatow/taskopen.git'
+
+[[package]]
+channel = 'fedora'
+name = 'taskopen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taskopen'

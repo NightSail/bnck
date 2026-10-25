@@ -1,0 +1,8 @@
+id = 'ntruprime'
+name = 'ntruprime'
+
+homepage = 'https://libntruprime.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'ntruprime'

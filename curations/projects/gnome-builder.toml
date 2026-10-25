@@ -1,0 +1,21 @@
+id = 'gnome-builder'
+name = 'gnome-builder'
+
+homepage = 'https://apps.gnome.org/Builder'
+repository = 'https://gitlab.gnome.org/GNOME/gnome-builder.git'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-builder'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-builder'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-builder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnome-builder'

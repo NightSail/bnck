@@ -1,0 +1,8 @@
+id = 'python-deepdiff'
+name = 'python-deepdiff'
+
+homepage = 'https://github.com/qlustered/deepdiff'
+
+[[package]]
+channel = 'arch'
+name = 'python-deepdiff'

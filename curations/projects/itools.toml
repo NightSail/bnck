@@ -1,0 +1,8 @@
+id = 'itools'
+name = 'itools'
+
+homepage = 'https://github.com/arabeyes-org/itools'
+
+[[package]]
+channel = 'debian'
+name = 'itools'

@@ -1,0 +1,12 @@
+id = 'mtdev'
+name = 'mtdev'
+
+homepage = 'https://bitmath.org/code/mtdev'
+
+[[package]]
+channel = 'arch'
+name = 'mtdev'
+
+[[package]]
+channel = 'fedora'
+name = 'mtdev-devel'

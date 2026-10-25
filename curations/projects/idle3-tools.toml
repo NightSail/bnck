@@ -1,0 +1,16 @@
+id = 'idle3-tools'
+name = 'idle3-tools'
+
+homepage = 'http://idle3-tools.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'idle3-tools'
+
+[[package]]
+channel = 'debian'
+name = 'idle3-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'idle3-tools'

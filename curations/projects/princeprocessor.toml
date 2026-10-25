@@ -1,0 +1,8 @@
+id = 'princeprocessor'
+name = 'princeprocessor'
+
+homepage = 'https://github.com/hashcat/princeprocessor'
+
+[[package]]
+channel = 'debian'
+name = 'princeprocessor'

@@ -1,0 +1,12 @@
+id = 'tailwindcss-language-server'
+name = 'tailwindcss-language-server'
+
+homepage = 'https://github.com/tailwindlabs/tailwindcss-intellisense/tree/HEAD/packages/tailwindcss-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'tailwindcss-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tailwindcss-language-server'

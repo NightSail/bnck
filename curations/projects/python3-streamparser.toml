@@ -1,0 +1,8 @@
+id = 'python3-streamparser'
+name = 'python3-streamparser'
+
+homepage = 'https://github.com/apertium/streamparser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-streamparser'

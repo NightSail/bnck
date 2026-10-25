@@ -1,0 +1,8 @@
+id = 'smlfmt'
+name = 'smlfmt'
+
+repository = 'https://github.com/shwestrick/smlfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smlfmt'

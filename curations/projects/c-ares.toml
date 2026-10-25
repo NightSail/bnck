@@ -1,0 +1,13 @@
+id = 'c-ares'
+name = 'c-ares'
+
+homepage = 'https://c-ares.org'
+repository = 'https://github.com/c-ares/c-ares.git'
+
+[[package]]
+channel = 'arch'
+name = 'c-ares'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c-ares'

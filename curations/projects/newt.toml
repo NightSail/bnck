@@ -1,0 +1,20 @@
+id = 'newt'
+name = 'newt'
+
+homepage = 'https://pagure.io/newt'
+
+[[package]]
+channel = 'arch'
+name = 'libnewt'
+
+[[package]]
+channel = 'debian'
+name = 'whiptail'
+
+[[package]]
+channel = 'fedora'
+name = 'newt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newt'

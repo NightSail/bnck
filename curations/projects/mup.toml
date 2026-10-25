@@ -1,0 +1,8 @@
+id = 'mup'
+name = 'mup'
+
+homepage = 'http://www.arkkra.com/doc/overview.html'
+
+[[package]]
+channel = 'fedora'
+name = 'mup'

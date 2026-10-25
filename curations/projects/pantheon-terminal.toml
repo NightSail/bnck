@@ -1,0 +1,8 @@
+id = 'pantheon-terminal'
+name = 'pantheon-terminal'
+
+homepage = 'https://github.com/elementary/terminal'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-terminal'

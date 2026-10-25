@@ -1,0 +1,12 @@
+id = 'python3-junitxml'
+name = 'python3-junitxml'
+
+homepage = 'https://launchpad.net/pyjunitxml'
+
+[[package]]
+channel = 'debian'
+name = 'python3-junitxml'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-junitxml'

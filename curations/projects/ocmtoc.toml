@@ -1,0 +1,8 @@
+id = 'ocmtoc'
+name = 'ocmtoc'
+
+homepage = 'https://github.com/acidanthera/ocmtoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocmtoc'

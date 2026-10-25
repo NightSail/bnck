@@ -1,0 +1,24 @@
+id = 'aubio'
+name = 'aubio'
+
+homepage = 'https://aubio.org'
+
+[[package]]
+channel = 'arch'
+name = 'aubio'
+
+[[package]]
+channel = 'arch'
+name = 'python-aubio'
+
+[[package]]
+channel = 'debian'
+name = 'aubio-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'aubio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aubio'

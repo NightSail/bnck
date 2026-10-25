@@ -1,0 +1,9 @@
+id = 'probe-rs-tools'
+name = 'probe-rs-tools'
+
+homepage = 'https://probe.rs'
+repository = 'https://github.com/probe-rs/probe-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/probe-rs-tools'

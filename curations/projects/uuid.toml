@@ -1,0 +1,16 @@
+id = 'uuid'
+name = 'uuid'
+
+homepage = 'http://www.ossp.org/pkg/lib/uuid'
+
+[[package]]
+channel = 'fedora'
+name = 'uuid'
+
+[[package]]
+channel = 'fedora'
+name = 'uuid-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ossp-uuid'

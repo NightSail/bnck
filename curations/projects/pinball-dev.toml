@@ -1,0 +1,8 @@
+id = 'pinball-dev'
+name = 'pinball-dev'
+
+homepage = 'https://sourceforge.net/projects/pinball'
+
+[[package]]
+channel = 'debian'
+name = 'pinball-dev'

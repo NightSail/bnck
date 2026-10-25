@@ -1,0 +1,8 @@
+id = 'surge-xt-standalone'
+name = 'surge-xt-standalone'
+
+homepage = 'https://surge-synthesizer.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'surge-xt-standalone'

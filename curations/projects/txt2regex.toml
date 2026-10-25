@@ -1,0 +1,12 @@
+id = 'txt2regex'
+name = 'txt2regex'
+
+homepage = 'https://github.com/aureliojargas/txt2regex'
+
+[[package]]
+channel = 'debian'
+name = 'txt2regex'
+
+[[package]]
+channel = 'fedora'
+name = 'txt2regex'

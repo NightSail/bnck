@@ -1,0 +1,8 @@
+id = 'elvis-tiny'
+name = 'elvis-tiny'
+
+homepage = 'https://packages.debian.org/elvis-tiny'
+
+[[package]]
+channel = 'debian'
+name = 'elvis-tiny'

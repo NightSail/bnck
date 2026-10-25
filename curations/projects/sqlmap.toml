@@ -4,5 +4,13 @@ name = 'sqlmap'
 repository = 'https://github.com/sqlmapproject/sqlmap'
 
 [[package]]
+channel = 'arch'
+name = 'sqlmap'
+
+[[package]]
+channel = 'debian'
+name = 'sqlmap'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/sqlmap'

@@ -1,0 +1,14 @@
+id = 'postgresql-common'
+name = 'postgresql-common'
+
+[[package]]
+channel = 'debian'
+name = 'postgresql-client-common'
+
+[[package]]
+channel = 'debian'
+name = 'postgresql-common'
+
+[[package]]
+channel = 'debian'
+name = 'postgresql-common-dev'

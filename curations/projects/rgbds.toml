@@ -1,0 +1,21 @@
+id = 'rgbds'
+name = 'rgbds'
+
+homepage = 'https://rgbds.gbdev.io'
+repository = 'https://github.com/gbdev/rgbds.git'
+
+[[package]]
+channel = 'arch'
+name = 'rgbds'
+
+[[package]]
+channel = 'debian'
+name = 'rgbds'
+
+[[package]]
+channel = 'fedora'
+name = 'rgbds'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rgbds'

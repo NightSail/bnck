@@ -1,0 +1,16 @@
+id = 'ascii85gem'
+name = 'ascii85gem'
+
+homepage = 'https://github.com/datawraith/ascii85gem'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-ascii85'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-ascii85'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-Ascii85'

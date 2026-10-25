@@ -1,0 +1,16 @@
+id = 'kde-inotify-survey'
+name = 'kde-inotify-survey'
+
+homepage = 'https://invent.kde.org/system/kde-inotify-survey'
+
+[[package]]
+channel = 'arch'
+name = 'kde-inotify-survey'
+
+[[package]]
+channel = 'debian'
+name = 'kde-inotify-survey'
+
+[[package]]
+channel = 'fedora'
+name = 'kde-inotify-survey'

@@ -1,0 +1,8 @@
+id = 'lemonbar'
+name = 'lemonbar'
+
+homepage = 'https://github.com/LemonBoy/bar'
+
+[[package]]
+channel = 'debian'
+name = 'lemonbar'

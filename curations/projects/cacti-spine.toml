@@ -1,0 +1,8 @@
+id = 'cacti-spine'
+name = 'cacti-spine'
+
+homepage = 'https://cacti.net'
+
+[[package]]
+channel = 'debian'
+name = 'cacti-spine'

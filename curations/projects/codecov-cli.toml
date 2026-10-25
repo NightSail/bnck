@@ -1,0 +1,8 @@
+id = 'codecov-cli'
+name = 'codecov-cli'
+
+homepage = 'https://cli.codecov.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codecov-cli'

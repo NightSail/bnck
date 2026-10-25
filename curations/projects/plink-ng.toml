@@ -1,0 +1,13 @@
+id = 'plink-ng'
+name = 'plink-ng'
+
+homepage = 'https://www.cog-genomics.org/plink/2.0'
+repository = 'https://github.com/chrchang/plink-ng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plink-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plink1'

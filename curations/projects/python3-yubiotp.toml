@@ -1,0 +1,8 @@
+id = 'python3-yubiotp'
+name = 'python3-yubiotp'
+
+homepage = 'https://github.com/django-otp/yubiotp'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yubiotp'

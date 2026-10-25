@@ -1,0 +1,9 @@
+id = 'lutgen'
+name = 'lutgen'
+
+homepage = 'https://ozwaldorf.github.io/lutgen-rs'
+repository = 'https://github.com/ozwaldorf/lutgen-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lutgen'

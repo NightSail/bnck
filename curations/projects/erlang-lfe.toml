@@ -1,0 +1,8 @@
+id = 'erlang-lfe'
+name = 'erlang-lfe'
+
+homepage = 'https://github.com/lfe/lfe'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-lfe'

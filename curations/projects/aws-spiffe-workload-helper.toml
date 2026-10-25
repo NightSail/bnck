@@ -1,0 +1,8 @@
+id = 'aws-spiffe-workload-helper'
+name = 'aws-spiffe-workload-helper'
+
+repository = 'https://github.com/spiffe/aws-spiffe-workload-helper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-spiffe-workload-helper'

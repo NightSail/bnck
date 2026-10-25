@@ -1,0 +1,69 @@
+id = 'pipewire'
+name = 'pipewire'
+
+homepage = 'https://pipewire.org'
+repository = 'https://gitlab.freedesktop.org/pipewire/pipewire.git'
+
+[[package]]
+channel = 'arch'
+name = 'pipewire'
+
+[[package]]
+channel = 'arch'
+name = 'pipewire-audio'
+
+[[package]]
+channel = 'arch'
+name = 'pipewire-jack'
+
+[[package]]
+channel = 'arch'
+name = 'pipewire-pulse'
+
+[[package]]
+channel = 'arch'
+name = 'pipewire-v4l2'
+
+[[package]]
+channel = 'debian'
+name = 'pipewire-bin'
+
+[[package]]
+channel = 'debian'
+name = 'pipewire-jack'
+
+[[package]]
+channel = 'debian'
+name = 'pipewire-pulse'
+
+[[package]]
+channel = 'debian'
+name = 'pipewire-v4l2'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewire'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewire-jack-audio-connection-kit-libs'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewire-media-session'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewire-pulseaudio'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewire-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewire-v4l2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipewire'

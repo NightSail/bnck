@@ -1,0 +1,8 @@
+id = 'golang-github-nicksnyder-i18n-2'
+name = 'golang-github-nicksnyder-i18n-2'
+
+homepage = 'https://github.com/nicksnyder/go-i18n'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-nicksnyder-i18n-2'

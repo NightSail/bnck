@@ -1,0 +1,8 @@
+id = 'cambalache'
+name = 'cambalache'
+
+homepage = 'https://gitlab.gnome.org/jpu/cambalache.git'
+
+[[package]]
+channel = 'debian'
+name = 'cambalache'

@@ -1,0 +1,9 @@
+id = 'fnox'
+name = 'fnox'
+
+homepage = 'https://fnox.jdx.dev'
+repository = 'https://github.com/jdx/fnox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fnox'

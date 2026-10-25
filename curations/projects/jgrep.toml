@@ -1,0 +1,8 @@
+id = 'jgrep'
+name = 'jgrep'
+
+homepage = 'https://github.com/ploubser/JSON-Grep'
+
+[[package]]
+channel = 'debian'
+name = 'jgrep'

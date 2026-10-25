@@ -1,0 +1,8 @@
+id = 'ben'
+name = 'ben'
+
+homepage = 'https://debian.pages.debian.net/ben'
+
+[[package]]
+channel = 'debian'
+name = 'ben'

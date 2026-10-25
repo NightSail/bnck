@@ -1,0 +1,8 @@
+id = 'haskell-zip-stream-utils'
+name = 'haskell-zip-stream-utils'
+
+homepage = 'https://hackage.haskell.org/package/zip-stream'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-zip-stream-utils'

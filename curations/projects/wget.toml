@@ -4,8 +4,16 @@ name = 'wget'
 homepage = 'https://www.gnu.org/software/wget'
 
 [[package]]
+channel = 'arch'
+name = 'wget'
+
+[[package]]
 channel = 'debian'
 name = 'wget'
+
+[[package]]
+channel = 'fedora'
+name = 'wget1'
 
 [[package]]
 channel = 'fedora'

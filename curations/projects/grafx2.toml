@@ -1,0 +1,16 @@
+id = 'grafx2'
+name = 'grafx2'
+
+homepage = 'http://grafx2.chez.com'
+
+[[package]]
+channel = 'arch'
+name = 'grafx2'
+
+[[package]]
+channel = 'debian'
+name = 'grafx2'
+
+[[package]]
+channel = 'fedora'
+name = 'grafx2'

@@ -1,0 +1,8 @@
+id = 'qview'
+name = 'qview'
+
+homepage = 'https://interversehq.com/qview'
+
+[[package]]
+channel = 'fedora'
+name = 'qview'

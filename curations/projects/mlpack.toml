@@ -1,0 +1,9 @@
+id = 'mlpack'
+name = 'mlpack'
+
+homepage = 'https://www.mlpack.org'
+repository = 'https://github.com/mlpack/mlpack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlpack'

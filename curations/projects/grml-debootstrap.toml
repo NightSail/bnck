@@ -1,0 +1,8 @@
+id = 'grml-debootstrap'
+name = 'grml-debootstrap'
+
+homepage = 'https://grml.org/grml-debootstrap'
+
+[[package]]
+channel = 'debian'
+name = 'grml-debootstrap'

@@ -1,0 +1,8 @@
+id = 'python3-htseq'
+name = 'python3-htseq'
+
+homepage = 'https://www-huber.embl.de/users/anders/HTSeq/doc/overview.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-htseq'

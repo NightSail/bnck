@@ -1,0 +1,10 @@
+id = 'mrtgutils'
+name = 'mrtgutils'
+
+[[package]]
+channel = 'debian'
+name = 'mrtgutils'
+
+[[package]]
+channel = 'debian'
+name = 'mrtgutils-sensors'

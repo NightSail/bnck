@@ -1,0 +1,12 @@
+id = 'openvino'
+name = 'openvino'
+
+homepage = 'https://docs.openvino.ai'
+
+[[package]]
+channel = 'arch'
+name = 'openvino-intel-npu-plugin'
+
+[[package]]
+channel = 'arch'
+name = 'python-openvino'

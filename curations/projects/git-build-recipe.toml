@@ -1,0 +1,8 @@
+id = 'git-build-recipe'
+name = 'git-build-recipe'
+
+homepage = 'https://launchpad.net/git-build-recipe'
+
+[[package]]
+channel = 'debian'
+name = 'git-build-recipe'

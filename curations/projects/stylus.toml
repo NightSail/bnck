@@ -1,0 +1,12 @@
+id = 'stylus'
+name = 'stylus'
+
+homepage = 'https://github.com/stylus/stylus'
+
+[[package]]
+channel = 'arch'
+name = 'stylus'
+
+[[package]]
+channel = 'debian'
+name = 'node-stylus'

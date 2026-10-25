@@ -1,0 +1,8 @@
+id = 'sqlreduce'
+name = 'sqlreduce'
+
+homepage = 'https://github.com/df7cb/sqlreduce'
+
+[[package]]
+channel = 'debian'
+name = 'sqlreduce'

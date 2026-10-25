@@ -1,0 +1,8 @@
+id = 'ruby-minitest-sprint'
+name = 'ruby-minitest-sprint'
+
+homepage = 'https://github.com/seattlerb/minitest-sprint'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-minitest-sprint'

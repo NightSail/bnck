@@ -1,0 +1,6 @@
+id = 'perl-openssl-defaults'
+name = 'perl-openssl-defaults'
+
+[[package]]
+channel = 'debian'
+name = 'perl-openssl-defaults'

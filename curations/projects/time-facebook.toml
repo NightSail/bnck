@@ -1,0 +1,40 @@
+id = 'time-facebook'
+name = 'time'
+
+homepage = 'https://github.com/facebook/time'
+
+[[package]]
+channel = 'fedora'
+name = 'calnex'
+
+[[package]]
+channel = 'fedora'
+name = 'fbclock'
+
+[[package]]
+channel = 'fedora'
+name = 'ntpcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'ntpresponder'
+
+[[package]]
+channel = 'fedora'
+name = 'pshark'
+
+[[package]]
+channel = 'fedora'
+name = 'ptp4u'
+
+[[package]]
+channel = 'fedora'
+name = 'ptpcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'sptp'
+
+[[package]]
+channel = 'fedora'
+name = 'ziffy'

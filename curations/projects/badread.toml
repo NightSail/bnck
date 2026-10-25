@@ -1,0 +1,8 @@
+id = 'badread'
+name = 'badread'
+
+homepage = 'https://github.com/rrwick/Badread'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/badread'

@@ -1,0 +1,12 @@
+id = 'megaglest'
+name = 'megaglest'
+
+homepage = 'https://megaglest.org'
+
+[[package]]
+channel = 'arch'
+name = 'megaglest'
+
+[[package]]
+channel = 'fedora'
+name = 'megaglest'

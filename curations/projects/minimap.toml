@@ -1,0 +1,8 @@
+id = 'minimap'
+name = 'minimap'
+
+homepage = 'https://github.com/lh3/minimap'
+
+[[package]]
+channel = 'debian'
+name = 'minimap'

@@ -1,0 +1,8 @@
+id = 'tuxanci'
+name = 'tuxanci'
+
+homepage = 'http://www.tuxanci.org/en/start'
+
+[[package]]
+channel = 'fedora'
+name = 'tuxanci'

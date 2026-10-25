@@ -1,0 +1,12 @@
+id = 'algorithm-checkdigits'
+name = 'Algorithm-CheckDigits'
+
+homepage = 'https://metacpan.org/release/Algorithm-CheckDigits'
+
+[[package]]
+channel = 'debian'
+name = 'libalgorithm-checkdigits-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Algorithm-CheckDigits'

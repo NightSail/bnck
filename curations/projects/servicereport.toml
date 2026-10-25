@@ -1,0 +1,8 @@
+id = 'servicereport'
+name = 'ServiceReport'
+
+homepage = 'https://github.com/linux-ras/ServiceReport'
+
+[[package]]
+channel = 'fedora'
+name = 'ServiceReport'

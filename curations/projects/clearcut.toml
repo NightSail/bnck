@@ -1,0 +1,8 @@
+id = 'clearcut'
+name = 'clearcut'
+
+homepage = 'https://github.com/sheneman/clearcut'
+
+[[package]]
+channel = 'debian'
+name = 'clearcut'

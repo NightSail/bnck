@@ -1,0 +1,16 @@
+id = 'libesedb'
+name = 'libesedb'
+
+homepage = 'https://github.com/libyal/libesedb'
+
+[[package]]
+channel = 'debian'
+name = 'libesedb-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libesedb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libesedb'

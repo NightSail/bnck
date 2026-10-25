@@ -1,0 +1,8 @@
+id = 'alkimia-bin'
+name = 'alkimia-bin'
+
+homepage = 'https://invent.kde.org/office/alkimia'
+
+[[package]]
+channel = 'debian'
+name = 'alkimia-bin'

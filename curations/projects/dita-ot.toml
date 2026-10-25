@@ -1,0 +1,8 @@
+id = 'dita-ot'
+name = 'dita-ot'
+
+homepage = 'https://www.dita-ot.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dita-ot'

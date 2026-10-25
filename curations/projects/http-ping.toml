@@ -1,0 +1,8 @@
+id = 'http-ping'
+name = 'http_ping'
+
+homepage = 'http://www.acme.com/software/http_ping'
+
+[[package]]
+channel = 'fedora'
+name = 'http_ping'

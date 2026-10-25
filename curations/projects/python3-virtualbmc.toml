@@ -1,0 +1,12 @@
+id = 'python3-virtualbmc'
+name = 'python3-virtualbmc'
+
+homepage = 'https://opendev.org/openstack/virtualbmc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-virtualbmc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-virtualbmc'

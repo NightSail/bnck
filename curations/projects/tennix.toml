@@ -1,0 +1,8 @@
+id = 'tennix'
+name = 'tennix'
+
+homepage = 'http://icculus.org/tennix'
+
+[[package]]
+channel = 'fedora'
+name = 'tennix'

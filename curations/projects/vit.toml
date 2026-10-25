@@ -1,0 +1,21 @@
+id = 'vit'
+name = 'vit'
+
+homepage = 'https://github.com/scottkosty/vit'
+repository = 'https://github.com/vit-project/vit.git'
+
+[[package]]
+channel = 'arch'
+name = 'vit'
+
+[[package]]
+channel = 'debian'
+name = 'vit'
+
+[[package]]
+channel = 'fedora'
+name = 'vit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vit'

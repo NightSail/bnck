@@ -1,0 +1,8 @@
+id = 'libmpj-java'
+name = 'libmpj-java'
+
+homepage = 'http://mpj-express.org'
+
+[[package]]
+channel = 'debian'
+name = 'libmpj-java'

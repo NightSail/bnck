@@ -1,0 +1,16 @@
+id = 'gnome-contacts'
+name = 'gnome-contacts'
+
+homepage = 'https://apps.gnome.org/Contacts'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-contacts'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-contacts'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-contacts'

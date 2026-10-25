@@ -1,0 +1,9 @@
+id = 'speech'
+name = 'speech'
+
+homepage = 'https://soniqo.audio'
+repository = 'https://github.com/soniqo/speech-swift.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speech'

@@ -1,0 +1,8 @@
+id = 'release-cli'
+name = 'release-cli'
+
+homepage = 'https://gitlab.com/gitlab-org/release-cli'
+
+[[package]]
+channel = 'arch'
+name = 'release-cli'

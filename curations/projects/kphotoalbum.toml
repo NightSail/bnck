@@ -1,0 +1,16 @@
+id = 'kphotoalbum'
+name = 'kphotoalbum'
+
+homepage = 'https://www.kphotoalbum.org'
+
+[[package]]
+channel = 'arch'
+name = 'kphotoalbum'
+
+[[package]]
+channel = 'debian'
+name = 'kphotoalbum'
+
+[[package]]
+channel = 'fedora'
+name = 'kphotoalbum'

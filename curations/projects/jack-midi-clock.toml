@@ -1,0 +1,8 @@
+id = 'jack-midi-clock'
+name = 'jack-midi-clock'
+
+homepage = 'https://github.com/x42/jack_midi_clock'
+
+[[package]]
+channel = 'debian'
+name = 'jack-midi-clock'

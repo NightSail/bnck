@@ -1,0 +1,8 @@
+id = 'python3-pandoc-include'
+name = 'python3-pandoc-include'
+
+homepage = 'https://github.com/DCsunset/pandoc-include'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pandoc-include'

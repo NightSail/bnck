@@ -1,0 +1,8 @@
+id = 'sniffles'
+name = 'sniffles'
+
+homepage = 'https://github.com/fritzsedlazeck/Sniffles'
+
+[[package]]
+channel = 'debian'
+name = 'sniffles'

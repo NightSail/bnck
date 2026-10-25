@@ -1,0 +1,8 @@
+id = 'c2go'
+name = 'c2go'
+
+homepage = 'https://github.com/elliotchance/c2go'
+
+[[package]]
+channel = 'debian'
+name = 'c2go'

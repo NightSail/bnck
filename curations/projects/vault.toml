@@ -1,0 +1,8 @@
+id = 'vault'
+name = 'vault'
+
+homepage = 'https://vaultproject.io'
+
+[[package]]
+channel = 'arch'
+name = 'vault'

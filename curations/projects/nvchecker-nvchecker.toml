@@ -1,0 +1,8 @@
+id = 'nvchecker-nvchecker'
+name = 'nvchecker'
+
+homepage = 'https://nvchecker.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'nvchecker'

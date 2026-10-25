@@ -1,0 +1,8 @@
+id = 'emboss-explorer'
+name = 'emboss-explorer'
+
+homepage = 'http://embossgui.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'emboss-explorer'

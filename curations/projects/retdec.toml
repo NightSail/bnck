@@ -1,0 +1,8 @@
+id = 'retdec'
+name = 'retdec'
+
+repository = 'https://github.com/avast/retdec.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/retdec'

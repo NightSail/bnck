@@ -1,0 +1,8 @@
+id = 'hsmwiz'
+name = 'hsmwiz'
+
+homepage = 'https://github.com/johndoe31415/hsmwiz'
+
+[[package]]
+channel = 'debian'
+name = 'hsmwiz'

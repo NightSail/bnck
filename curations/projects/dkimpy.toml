@@ -1,0 +1,16 @@
+id = 'dkimpy'
+name = 'dkimpy'
+
+homepage = 'https://launchpad.net/dkimpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-dkim'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dkim'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dkimpy'

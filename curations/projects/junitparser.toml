@@ -1,0 +1,8 @@
+id = 'junitparser'
+name = 'junitparser'
+
+homepage = 'https://github.com/weiwei/junitparser'
+
+[[package]]
+channel = 'debian'
+name = 'junitparser'

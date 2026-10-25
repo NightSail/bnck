@@ -1,0 +1,8 @@
+id = 'lola'
+name = 'lola'
+
+homepage = 'https://keithp.com'
+
+[[package]]
+channel = 'debian'
+name = 'lola'

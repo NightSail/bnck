@@ -1,0 +1,8 @@
+id = 'ttembed'
+name = 'ttembed'
+
+homepage = 'https://github.com/hisdeedsaredust/ttembed'
+
+[[package]]
+channel = 'fedora'
+name = 'ttembed'

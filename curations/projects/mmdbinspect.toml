@@ -1,0 +1,12 @@
+id = 'mmdbinspect'
+name = 'mmdbinspect'
+
+repository = 'https://github.com/maxmind/mmdbinspect.git'
+
+[[package]]
+channel = 'debian'
+name = 'mmdbinspect'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmdbinspect'

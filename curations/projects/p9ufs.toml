@@ -1,0 +1,8 @@
+id = 'p9ufs'
+name = 'p9ufs'
+
+homepage = 'https://github.com/hugelgupf/p9'
+
+[[package]]
+channel = 'debian'
+name = 'p9ufs'

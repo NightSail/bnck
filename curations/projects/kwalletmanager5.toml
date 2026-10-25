@@ -1,0 +1,16 @@
+id = 'kwalletmanager5'
+name = 'kwalletmanager5'
+
+homepage = 'https://apps.kde.org/kwalletmanager5'
+
+[[package]]
+channel = 'arch'
+name = 'kwalletmanager'
+
+[[package]]
+channel = 'debian'
+name = 'kwalletmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'kwalletmanager5'

@@ -1,0 +1,8 @@
+id = 'packer'
+name = 'packer'
+
+homepage = 'https://github.com/hashicorp/packer'
+
+[[package]]
+channel = 'arch'
+name = 'packer'

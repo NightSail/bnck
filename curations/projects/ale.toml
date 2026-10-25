@@ -1,0 +1,8 @@
+id = 'ale'
+name = 'ale'
+
+homepage = 'https://repo.or.cz/Ale.git'
+
+[[package]]
+channel = 'debian'
+name = 'ale'

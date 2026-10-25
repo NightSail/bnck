@@ -1,0 +1,8 @@
+id = 'golang-github-kalafut-imohash'
+name = 'golang-github-kalafut-imohash'
+
+homepage = 'https://github.com/kalafut/imohash'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-kalafut-imohash'

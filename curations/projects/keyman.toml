@@ -1,0 +1,8 @@
+id = 'keyman'
+name = 'keyman'
+
+homepage = 'https://www.keyman.com'
+
+[[package]]
+channel = 'debian'
+name = 'keyman'

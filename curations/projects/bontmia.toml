@@ -1,0 +1,8 @@
+id = 'bontmia'
+name = 'bontmia'
+
+homepage = 'http://folk.uio.no/johnen/bontmia'
+
+[[package]]
+channel = 'fedora'
+name = 'bontmia'

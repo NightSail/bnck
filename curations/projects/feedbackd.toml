@@ -1,0 +1,16 @@
+id = 'feedbackd'
+name = 'feedbackd'
+
+homepage = 'https://gitlab.freedesktop.org/agx/feedbackd'
+
+[[package]]
+channel = 'arch'
+name = 'feedbackd'
+
+[[package]]
+channel = 'debian'
+name = 'feedbackd'
+
+[[package]]
+channel = 'fedora'
+name = 'feedbackd'

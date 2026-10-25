@@ -1,0 +1,8 @@
+id = 'blight'
+name = 'blight'
+
+homepage = 'https://github.com/VoltaireNoir/blight'
+
+[[package]]
+channel = 'debian'
+name = 'blight'

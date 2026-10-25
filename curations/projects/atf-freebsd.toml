@@ -1,0 +1,8 @@
+id = 'atf-freebsd'
+name = 'atf'
+
+repository = 'https://github.com/freebsd/atf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atf'

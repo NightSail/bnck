@@ -1,0 +1,16 @@
+id = 'remctl'
+name = 'remctl'
+
+homepage = 'https://www.eyrie.org/~eagle/software/remctl'
+
+[[package]]
+channel = 'debian'
+name = 'remctl-client'
+
+[[package]]
+channel = 'debian'
+name = 'remctl-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/remctl'

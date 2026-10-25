@@ -1,0 +1,8 @@
+id = 'eatmemory'
+name = 'eatmemory'
+
+homepage = 'https://github.com/julman99/eatmemory'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eatmemory'

@@ -1,0 +1,12 @@
+id = 'pod-pom'
+name = 'Pod-POM'
+
+homepage = 'https://metacpan.org/release/Pod-POM'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-pom-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-POM'

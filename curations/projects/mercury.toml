@@ -1,0 +1,12 @@
+id = 'mercury'
+name = 'mercury'
+
+homepage = 'https://mercurylang.org'
+
+[[package]]
+channel = 'debian'
+name = 'mercury'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mercury'

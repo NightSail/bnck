@@ -1,0 +1,6 @@
+id = 'firefox-esr'
+name = 'firefox-esr'
+
+[[package]]
+channel = 'debian'
+name = 'firefox-esr'

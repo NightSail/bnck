@@ -1,0 +1,8 @@
+id = 'arss'
+name = 'arss'
+
+homepage = 'https://arss.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arss'

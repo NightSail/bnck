@@ -1,0 +1,9 @@
+id = 'slint-compiler'
+name = 'slint-compiler'
+
+homepage = 'https://slint.dev'
+repository = 'https://github.com/slint-ui/slint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slint-compiler'

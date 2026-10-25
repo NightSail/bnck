@@ -1,0 +1,8 @@
+id = 'python3-tackerclient'
+name = 'python3-tackerclient'
+
+homepage = 'http://launchpad.net/python-tackerclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tackerclient'

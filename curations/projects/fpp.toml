@@ -1,0 +1,9 @@
+id = 'fpp'
+name = 'fpp'
+
+homepage = 'https://facebook.github.io/PathPicker'
+repository = 'https://github.com/facebook/pathpicker.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fpp'

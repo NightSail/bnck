@@ -1,0 +1,8 @@
+id = 'hashalot'
+name = 'hashalot'
+
+homepage = 'https://www.paranoiacs.org/~sluskyb'
+
+[[package]]
+channel = 'debian'
+name = 'hashalot'

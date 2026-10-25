@@ -1,0 +1,8 @@
+id = 'tempest-for-eliza'
+name = 'tempest-for-eliza'
+
+homepage = 'http://www.erikyyy.de/tempest'
+
+[[package]]
+channel = 'debian'
+name = 'tempest-for-eliza'

@@ -1,0 +1,17 @@
+id = 'cpuid'
+name = 'cpuid'
+
+homepage = 'https://www.etallen.com/cpuid.html'
+repository = 'https://github.com/klauspost/cpuid.git'
+
+[[package]]
+channel = 'debian'
+name = 'cpuid'
+
+[[package]]
+channel = 'fedora'
+name = 'cpuid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpuid'

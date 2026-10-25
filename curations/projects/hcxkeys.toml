@@ -1,0 +1,12 @@
+id = 'hcxkeys'
+name = 'hcxkeys'
+
+homepage = 'https://github.com/ZerBea/hcxkeys'
+
+[[package]]
+channel = 'arch'
+name = 'hcxkeys'
+
+[[package]]
+channel = 'debian'
+name = 'hcxkeys'

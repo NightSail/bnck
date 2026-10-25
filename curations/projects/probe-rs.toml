@@ -1,0 +1,8 @@
+id = 'probe-rs'
+name = 'probe-rs'
+
+homepage = 'https://probe.rs'
+
+[[package]]
+channel = 'arch'
+name = 'probe-rs'

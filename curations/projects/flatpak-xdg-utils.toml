@@ -1,0 +1,16 @@
+id = 'flatpak-xdg-utils'
+name = 'flatpak-xdg-utils'
+
+homepage = 'https://github.com/flatpak/flatpak-xdg-utils'
+
+[[package]]
+channel = 'arch'
+name = 'flatpak-xdg-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'flatpak-spawn'
+
+[[package]]
+channel = 'fedora'
+name = 'flatpak-xdg-utils'

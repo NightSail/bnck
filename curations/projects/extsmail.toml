@@ -1,0 +1,8 @@
+id = 'extsmail'
+name = 'extsmail'
+
+homepage = 'https://tratt.net/laurie/src/extsmail'
+
+[[package]]
+channel = 'debian'
+name = 'extsmail'

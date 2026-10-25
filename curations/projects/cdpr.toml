@@ -1,0 +1,12 @@
+id = 'cdpr'
+name = 'cdpr'
+
+homepage = 'https://www.monkeymental.com'
+
+[[package]]
+channel = 'debian'
+name = 'cdpr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdpr'

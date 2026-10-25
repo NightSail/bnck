@@ -6,3 +6,7 @@ repository = 'https://github.com/google-gemini/gemini-cli'
 [[package]]
 channel = 'arch'
 name = 'gemini-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gemini-cli'

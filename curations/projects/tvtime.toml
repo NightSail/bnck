@@ -1,0 +1,12 @@
+id = 'tvtime'
+name = 'tvtime'
+
+homepage = 'https://linuxtv.org/wiki/index.php/Tvtime'
+
+[[package]]
+channel = 'debian'
+name = 'tvtime'
+
+[[package]]
+channel = 'fedora'
+name = 'tvtime'

@@ -1,0 +1,8 @@
+id = 'signon-ui-qt'
+name = 'signon-ui-qt'
+
+homepage = 'https://gitlab.com/accounts-sso/signon-ui'
+
+[[package]]
+channel = 'debian'
+name = 'signon-ui-qt'

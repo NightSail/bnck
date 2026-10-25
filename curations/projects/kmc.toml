@@ -1,0 +1,8 @@
+id = 'kmc'
+name = 'kmc'
+
+homepage = 'https://sun.aei.polsl.pl/kmc'
+
+[[package]]
+channel = 'debian'
+name = 'kmc'

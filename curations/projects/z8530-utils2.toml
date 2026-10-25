@@ -1,0 +1,6 @@
+id = 'z8530-utils2'
+name = 'z8530-utils2'
+
+[[package]]
+channel = 'debian'
+name = 'z8530-utils2'

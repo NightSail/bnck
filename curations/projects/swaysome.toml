@@ -1,0 +1,8 @@
+id = 'swaysome'
+name = 'swaysome'
+
+homepage = 'https://gitlab.com/hyask/swaysome'
+
+[[package]]
+channel = 'debian'
+name = 'swaysome'

@@ -1,0 +1,8 @@
+id = 'json-schema-test-suite'
+name = 'json-schema-test-suite'
+
+homepage = 'https://github.com/json-schema-org/JSON-Schema-Test-Suite'
+
+[[package]]
+channel = 'debian'
+name = 'json-schema-test-suite'

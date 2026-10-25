@@ -1,0 +1,12 @@
+id = 'pex'
+name = 'pex'
+
+homepage = 'https://github.com/petere/pex'
+
+[[package]]
+channel = 'debian'
+name = 'pex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pex'

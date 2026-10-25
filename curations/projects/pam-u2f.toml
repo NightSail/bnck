@@ -1,0 +1,17 @@
+id = 'pam-u2f'
+name = 'pam-u2f'
+
+homepage = 'https://developers.yubico.com/pam-u2f'
+repository = 'https://github.com/Yubico/pam-u2f.git'
+
+[[package]]
+channel = 'arch'
+name = 'pam-u2f'
+
+[[package]]
+channel = 'debian'
+name = 'pamu2fcfg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pam-u2f'

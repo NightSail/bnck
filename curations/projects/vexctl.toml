@@ -1,0 +1,8 @@
+id = 'vexctl'
+name = 'vexctl'
+
+homepage = 'https://openssf.org/projects/openvex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vexctl'

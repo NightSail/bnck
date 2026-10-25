@@ -1,0 +1,16 @@
+id = 'ffms2'
+name = 'ffms2'
+
+homepage = 'https://github.com/FFMS/ffms2'
+
+[[package]]
+channel = 'arch'
+name = 'ffms2'
+
+[[package]]
+channel = 'debian'
+name = 'ffmsindex'
+
+[[package]]
+channel = 'fedora'
+name = 'ffms2'

@@ -1,0 +1,16 @@
+id = 'icinga'
+name = 'icinga'
+
+homepage = 'https://icinga.com'
+
+[[package]]
+channel = 'debian'
+name = 'icinga2-bin'
+
+[[package]]
+channel = 'debian'
+name = 'icingacli'
+
+[[package]]
+channel = 'debian'
+name = 'icingadb'

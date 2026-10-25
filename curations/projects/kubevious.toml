@@ -1,0 +1,8 @@
+id = 'kubevious'
+name = 'kubevious'
+
+homepage = 'https://kubevious.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubevious'

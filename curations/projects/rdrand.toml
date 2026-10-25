@@ -1,0 +1,8 @@
+id = 'rdrand'
+name = 'RdRand'
+
+homepage = 'https://github.com/jirka-h/RdRand'
+
+[[package]]
+channel = 'fedora'
+name = 'RdRand'

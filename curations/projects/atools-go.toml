@@ -1,0 +1,8 @@
+id = 'atools-go'
+name = 'atools-go'
+
+homepage = 'https://gitlab.alpinelinux.org/alpine/infra/atools-go'
+
+[[package]]
+channel = 'arch'
+name = 'atools-go'

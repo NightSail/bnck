@@ -1,0 +1,20 @@
+id = 'ifstat'
+name = 'ifstat'
+
+homepage = 'http://gael.roualland.free.fr/ifstat'
+
+[[package]]
+channel = 'debian'
+name = 'ifstat'
+
+[[package]]
+channel = 'debian'
+name = 'libifstat-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ifstat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ifstat'

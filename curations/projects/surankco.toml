@@ -1,0 +1,8 @@
+id = 'surankco'
+name = 'surankco'
+
+homepage = 'https://sourceforge.net/projects/surankco'
+
+[[package]]
+channel = 'debian'
+name = 'surankco'

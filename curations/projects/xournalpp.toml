@@ -1,0 +1,16 @@
+id = 'xournalpp'
+name = 'xournalpp'
+
+homepage = 'https://github.com/xournalpp/xournalpp'
+
+[[package]]
+channel = 'arch'
+name = 'xournalpp'
+
+[[package]]
+channel = 'debian'
+name = 'xournalpp'
+
+[[package]]
+channel = 'fedora'
+name = 'xournalpp'

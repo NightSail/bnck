@@ -1,0 +1,8 @@
+id = 'virtualbox-guest-additions'
+name = 'virtualbox-guest-additions'
+
+homepage = 'https://www.virtualbox.org/wiki/VirtualBox'
+
+[[package]]
+channel = 'fedora'
+name = 'virtualbox-guest-additions'

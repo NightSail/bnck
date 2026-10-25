@@ -1,0 +1,8 @@
+id = 'atari'
+name = 'atari++'
+
+homepage = 'http://www.xl-project.com'
+
+[[package]]
+channel = 'fedora'
+name = 'atari++'

@@ -1,0 +1,8 @@
+id = 'dssim'
+name = 'dssim'
+
+homepage = 'https://kornel.ski/dssim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dssim'

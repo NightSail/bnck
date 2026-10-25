@@ -1,0 +1,16 @@
+id = 'ddate'
+name = 'ddate'
+
+homepage = 'https://github.com/bo0ts/ddate'
+
+[[package]]
+channel = 'debian'
+name = 'ddate'
+
+[[package]]
+channel = 'fedora'
+name = 'ddate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddate'

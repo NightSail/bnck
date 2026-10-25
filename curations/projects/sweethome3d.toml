@@ -1,0 +1,20 @@
+id = 'sweethome3d'
+name = 'sweethome3d'
+
+homepage = 'http://www.sweethome3d.com'
+
+[[package]]
+channel = 'arch'
+name = 'sweethome3d'
+
+[[package]]
+channel = 'debian'
+name = 'sweethome3d'
+
+[[package]]
+channel = 'debian'
+name = 'sweethome3d-furniture-editor'
+
+[[package]]
+channel = 'debian'
+name = 'sweethome3d-textures-editor'

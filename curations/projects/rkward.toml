@@ -1,0 +1,16 @@
+id = 'rkward'
+name = 'rkward'
+
+homepage = 'https://rkward.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'rkward'
+
+[[package]]
+channel = 'debian'
+name = 'rkward'
+
+[[package]]
+channel = 'fedora'
+name = 'rkward'

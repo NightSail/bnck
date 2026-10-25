@@ -1,0 +1,9 @@
+id = 'solargraph'
+name = 'solargraph'
+
+homepage = 'https://solargraph.org'
+repository = 'https://github.com/castwide/solargraph.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solargraph'

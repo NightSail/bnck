@@ -1,0 +1,8 @@
+id = 'unifrac-tools'
+name = 'unifrac-tools'
+
+homepage = 'https://github.com/biocore/unifrac-binaries'
+
+[[package]]
+channel = 'debian'
+name = 'unifrac-tools'

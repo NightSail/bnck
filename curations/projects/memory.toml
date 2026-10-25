@@ -1,0 +1,16 @@
+id = 'memory'
+name = 'memory'
+
+homepage = 'https://citp.princeton.edu/our-work/memory'
+
+[[package]]
+channel = 'fedora'
+name = 'aesfix'
+
+[[package]]
+channel = 'fedora'
+name = 'aeskeyfind'
+
+[[package]]
+channel = 'fedora'
+name = 'rsakeyfind'

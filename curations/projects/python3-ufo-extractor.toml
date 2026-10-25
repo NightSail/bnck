@@ -1,0 +1,8 @@
+id = 'python3-ufo-extractor'
+name = 'python3-ufo-extractor'
+
+homepage = 'https://github.com/robotools/extractor'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ufo-extractor'

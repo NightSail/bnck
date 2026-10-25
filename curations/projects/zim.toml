@@ -1,0 +1,9 @@
+id = 'zim'
+name = 'zim'
+
+homepage = 'https://zim-wiki.org'
+repository = 'https://github.com/zim-desktop-wiki/zim-desktop-wiki.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zim'

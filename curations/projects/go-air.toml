@@ -1,0 +1,8 @@
+id = 'go-air'
+name = 'go-air'
+
+repository = 'https://github.com/air-verse/air.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-air'

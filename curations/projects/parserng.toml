@@ -1,0 +1,8 @@
+id = 'parserng'
+name = 'parserng'
+
+homepage = 'https://github.com/gbenroscience/ParserNG'
+
+[[package]]
+channel = 'fedora'
+name = 'parserng'

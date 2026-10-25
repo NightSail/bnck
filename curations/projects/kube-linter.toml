@@ -1,0 +1,13 @@
+id = 'kube-linter'
+name = 'kube-linter'
+
+homepage = 'https://docs.kubelinter.io'
+repository = 'https://github.com/stackrox/kube-linter.git'
+
+[[package]]
+channel = 'arch'
+name = 'kube-linter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kube-linter'

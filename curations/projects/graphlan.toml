@@ -1,0 +1,8 @@
+id = 'graphlan'
+name = 'graphlan'
+
+homepage = 'https://huttenhower.sph.harvard.edu/graphlan'
+
+[[package]]
+channel = 'debian'
+name = 'graphlan'

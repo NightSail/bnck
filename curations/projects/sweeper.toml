@@ -1,0 +1,16 @@
+id = 'sweeper'
+name = 'sweeper'
+
+homepage = 'https://apps.kde.org/sweeper'
+
+[[package]]
+channel = 'arch'
+name = 'sweeper'
+
+[[package]]
+channel = 'debian'
+name = 'sweeper'
+
+[[package]]
+channel = 'fedora'
+name = 'sweeper'

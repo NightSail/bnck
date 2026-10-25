@@ -1,0 +1,8 @@
+id = 'gztool'
+name = 'gztool'
+
+homepage = 'https://github.com/circulosmeos/gztool'
+
+[[package]]
+channel = 'debian'
+name = 'gztool'

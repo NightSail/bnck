@@ -1,0 +1,8 @@
+id = 'fulcio'
+name = 'fulcio'
+
+homepage = 'https://github.com/sigstore/fulcio'
+
+[[package]]
+channel = 'arch'
+name = 'fulcio'

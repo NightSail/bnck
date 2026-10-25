@@ -1,0 +1,8 @@
+id = 'silentjack'
+name = 'silentjack'
+
+homepage = 'http://www.aelius.com/njh/silentjack'
+
+[[package]]
+channel = 'debian'
+name = 'silentjack'

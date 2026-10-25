@@ -1,0 +1,6 @@
+id = 'signify-openbsd'
+name = 'signify-openbsd'
+
+[[package]]
+channel = 'debian'
+name = 'signify-openbsd'

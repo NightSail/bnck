@@ -1,0 +1,6 @@
+id = 'libfreefare-bin'
+name = 'libfreefare-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libfreefare-bin'

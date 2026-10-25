@@ -1,0 +1,8 @@
+id = 'python3-pbs-installer'
+name = 'python3-pbs-installer'
+
+homepage = 'https://pypi.org/project/pbs-installer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pbs-installer'

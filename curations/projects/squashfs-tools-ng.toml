@@ -1,0 +1,12 @@
+id = 'squashfs-tools-ng'
+name = 'squashfs-tools-ng'
+
+homepage = 'https://github.com/AgentD/squashfs-tools-ng'
+
+[[package]]
+channel = 'debian'
+name = 'squashfs-tools-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'squashfs-tools-ng'

@@ -1,0 +1,8 @@
+id = 'python3-datanommer-commands'
+name = 'python3-datanommer-commands'
+
+homepage = 'https://pypi.org/project/datanommer.commands'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-datanommer-commands'

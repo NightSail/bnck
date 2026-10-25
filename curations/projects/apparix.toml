@@ -1,0 +1,12 @@
+id = 'apparix'
+name = 'apparix'
+
+homepage = 'https://micans.org/apparix'
+
+[[package]]
+channel = 'debian'
+name = 'apparix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apparix'

@@ -1,0 +1,8 @@
+id = 'python-versioningit'
+name = 'python-versioningit'
+
+homepage = 'https://github.com/jwodder/versioningit'
+
+[[package]]
+channel = 'arch'
+name = 'python-versioningit'

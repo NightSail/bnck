@@ -1,0 +1,16 @@
+id = 'gojq'
+name = 'gojq'
+
+repository = 'https://github.com/itchyny/gojq.git'
+
+[[package]]
+channel = 'debian'
+name = 'gojq'
+
+[[package]]
+channel = 'fedora'
+name = 'gojq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gojq'

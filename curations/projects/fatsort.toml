@@ -1,0 +1,20 @@
+id = 'fatsort'
+name = 'fatsort'
+
+homepage = 'https://fatsort.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'fatsort'
+
+[[package]]
+channel = 'debian'
+name = 'fatsort'
+
+[[package]]
+channel = 'fedora'
+name = 'fatsort'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fatsort'

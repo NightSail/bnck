@@ -1,0 +1,8 @@
+id = 'bold'
+name = 'bold'
+
+homepage = 'https://codeberg.org/kubkon/bold'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bold'

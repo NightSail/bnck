@@ -1,0 +1,25 @@
+id = 'groonga'
+name = 'groonga'
+
+homepage = 'https://groonga.org'
+repository = 'https://github.com/groonga/groonga.git'
+
+[[package]]
+channel = 'debian'
+name = 'groonga-bin'
+
+[[package]]
+channel = 'debian'
+name = 'groonga-plugin-suggest'
+
+[[package]]
+channel = 'fedora'
+name = 'groonga'
+
+[[package]]
+channel = 'fedora'
+name = 'groonga-plugin-suggest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/groonga'

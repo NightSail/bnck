@@ -1,0 +1,20 @@
+id = 'kdoctools'
+name = 'kdoctools'
+
+homepage = 'https://invent.kde.org/frameworks/kdoctools'
+
+[[package]]
+channel = 'debian'
+name = 'kdoctools5'
+
+[[package]]
+channel = 'debian'
+name = 'kdoctools6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kdoctools'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kdoctools'

@@ -1,0 +1,12 @@
+id = 'site-access-control'
+name = 'Site_Access_Control'
+
+homepage = 'https://wiki.nikhef.nl/grid/Site_Access_Control'
+
+[[package]]
+channel = 'debian'
+name = 'lcas-lcmaps-gt4-interface'
+
+[[package]]
+channel = 'debian'
+name = 'lcmaps-plugins-verify-proxy'

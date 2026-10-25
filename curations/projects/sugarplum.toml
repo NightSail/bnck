@@ -1,0 +1,8 @@
+id = 'sugarplum'
+name = 'sugarplum'
+
+homepage = 'http://www.devin.com/sugarplum'
+
+[[package]]
+channel = 'debian'
+name = 'sugarplum'

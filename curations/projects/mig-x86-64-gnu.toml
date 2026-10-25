@@ -1,0 +1,8 @@
+id = 'mig-x86-64-gnu'
+name = 'mig-x86-64-gnu'
+
+homepage = 'http://www.gnu.org/software/hurd/microkernel/mach/mig/gnu_mig.html'
+
+[[package]]
+channel = 'debian'
+name = 'mig-x86-64-gnu'

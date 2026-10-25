@@ -1,0 +1,8 @@
+id = 'lpac'
+name = 'lpac'
+
+homepage = 'https://github.com/estkme-group/lpac'
+
+[[package]]
+channel = 'debian'
+name = 'lpac'

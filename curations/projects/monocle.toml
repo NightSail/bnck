@@ -1,0 +1,8 @@
+id = 'monocle'
+name = 'monocle'
+
+homepage = 'https://github.com/bgpkit/monocle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monocle'

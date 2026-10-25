@@ -1,0 +1,8 @@
+id = 'haskell-yaml'
+name = 'haskell-yaml'
+
+homepage = 'https://github.com/snoyberg/yaml'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-yaml'

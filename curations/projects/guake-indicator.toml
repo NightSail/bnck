@@ -1,0 +1,8 @@
+id = 'guake-indicator'
+name = 'guake-indicator'
+
+homepage = 'http://guake-indicator.ozzyboshi.com'
+
+[[package]]
+channel = 'debian'
+name = 'guake-indicator'

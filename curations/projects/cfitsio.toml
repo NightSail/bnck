@@ -1,0 +1,8 @@
+id = 'cfitsio'
+name = 'cfitsio'
+
+homepage = 'https://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfitsio'

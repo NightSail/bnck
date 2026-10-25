@@ -1,0 +1,8 @@
+id = 'compat-flex'
+name = 'compat-flex'
+
+homepage = 'http://www.gnu.org/software/flex'
+
+[[package]]
+channel = 'fedora'
+name = 'compat-flex'

@@ -1,0 +1,9 @@
+id = 'kapp'
+name = 'kapp'
+
+homepage = 'https://carvel.dev/kapp'
+repository = 'https://github.com/carvel-dev/kapp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kapp'

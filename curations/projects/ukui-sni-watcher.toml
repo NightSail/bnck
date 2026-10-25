@@ -1,0 +1,8 @@
+id = 'ukui-sni-watcher'
+name = 'ukui-sni-watcher'
+
+homepage = 'https://gitee.com/openkylin/ukui-sni'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-sni-watcher'

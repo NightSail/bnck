@@ -1,0 +1,12 @@
+id = 'cpan-changes'
+name = 'CPAN-Changes'
+
+homepage = 'https://metacpan.org/release/CPAN-Changes'
+
+[[package]]
+channel = 'debian'
+name = 'libcpan-changes-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPAN-Changes'

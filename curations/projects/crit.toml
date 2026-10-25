@@ -1,0 +1,9 @@
+id = 'crit'
+name = 'crit'
+
+homepage = 'https://crit.md'
+repository = 'https://github.com/tomasz-tomczyk/crit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crit'

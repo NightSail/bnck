@@ -1,0 +1,8 @@
+id = 'libtrace-tools'
+name = 'libtrace-tools'
+
+homepage = 'http://research.wand.net.nz/software/libtrace.php'
+
+[[package]]
+channel = 'debian'
+name = 'libtrace-tools'

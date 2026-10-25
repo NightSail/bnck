@@ -1,0 +1,8 @@
+id = 'immix'
+name = 'immix'
+
+homepage = 'http://immix.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'immix'

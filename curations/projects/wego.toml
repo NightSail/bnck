@@ -1,0 +1,12 @@
+id = 'wego'
+name = 'wego'
+
+repository = 'https://github.com/schachmat/wego.git'
+
+[[package]]
+channel = 'debian'
+name = 'wego'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wego'

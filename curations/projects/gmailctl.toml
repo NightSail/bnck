@@ -1,0 +1,12 @@
+id = 'gmailctl'
+name = 'gmailctl'
+
+repository = 'https://github.com/mbrt/gmailctl.git'
+
+[[package]]
+channel = 'fedora'
+name = 'gmailctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gmailctl'

@@ -1,0 +1,8 @@
+id = 'python3-fava'
+name = 'python3-fava'
+
+homepage = 'https://beancount.github.io/fava'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fava'

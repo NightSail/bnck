@@ -1,0 +1,8 @@
+id = 'yamlresume'
+name = 'yamlresume'
+
+homepage = 'https://github.com/yamlresume/yamlresume'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yamlresume'

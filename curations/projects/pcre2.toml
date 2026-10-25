@@ -1,0 +1,16 @@
+id = 'pcre2'
+name = 'pcre2'
+
+homepage = 'https://github.com/PCRE2Project/pcre2'
+
+[[package]]
+channel = 'arch'
+name = 'pcre2'
+
+[[package]]
+channel = 'debian'
+name = 'libpcre2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'pcre2-utils'

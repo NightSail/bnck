@@ -1,0 +1,16 @@
+id = 'icann-rdap'
+name = 'icann-rdap'
+
+homepage = 'https://github.com/icann/icann-rdap/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'icann-rdap-cli'
+
+[[package]]
+channel = 'debian'
+name = 'icann-rdap-srv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icann-rdap'

@@ -1,0 +1,8 @@
+id = 'facedetect'
+name = 'facedetect'
+
+homepage = 'https://www.thregr.org/~wavexx/software/facedetect'
+
+[[package]]
+channel = 'debian'
+name = 'facedetect'

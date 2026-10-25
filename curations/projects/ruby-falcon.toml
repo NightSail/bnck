@@ -1,0 +1,8 @@
+id = 'ruby-falcon'
+name = 'ruby-falcon'
+
+homepage = 'https://github.com/socketry/falcon'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-falcon'

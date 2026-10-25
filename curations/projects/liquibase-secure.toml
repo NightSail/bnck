@@ -1,0 +1,8 @@
+id = 'liquibase-secure'
+name = 'liquibase-secure'
+
+homepage = 'https://www.liquibase.com/liquibase-secure'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/liquibase-secure'

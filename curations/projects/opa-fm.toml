@@ -1,0 +1,8 @@
+id = 'opa-fm'
+name = 'opa-fm'
+
+homepage = 'https://github.com/intel/opa-fm'
+
+[[package]]
+channel = 'debian'
+name = 'opa-fm'

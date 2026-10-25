@@ -1,0 +1,8 @@
+id = 'evnx'
+name = 'evnx'
+
+homepage = 'https://evnx.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/evnx'

@@ -1,0 +1,16 @@
+id = 'fbthrift'
+name = 'fbthrift'
+
+repository = 'https://github.com/facebook/fbthrift.git'
+
+[[package]]
+channel = 'fedora'
+name = 'fbthrift'
+
+[[package]]
+channel = 'fedora'
+name = 'fbthrift-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fbthrift'

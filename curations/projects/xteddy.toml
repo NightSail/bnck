@@ -1,0 +1,8 @@
+id = 'xteddy'
+name = 'xteddy'
+
+homepage = 'http://fam-tille.de/debian/xteddy.html'
+
+[[package]]
+channel = 'fedora'
+name = 'xteddy'

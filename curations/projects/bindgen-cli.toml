@@ -1,0 +1,8 @@
+id = 'bindgen-cli'
+name = 'bindgen-cli'
+
+homepage = 'https://crates.io/crates/bindgen-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'bindgen-cli'

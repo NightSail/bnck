@@ -1,0 +1,8 @@
+id = 'jbig2enc'
+name = 'jbig2enc'
+
+repository = 'https://github.com/agl/jbig2enc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jbig2enc'

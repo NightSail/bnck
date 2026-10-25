@@ -1,0 +1,28 @@
+id = 'kokkinizita'
+name = 'kokkinizita'
+
+homepage = 'https://kokkinizita.linuxaudio.org'
+
+[[package]]
+channel = 'fedora'
+name = 'jaaa'
+
+[[package]]
+channel = 'fedora'
+name = 'japa'
+
+[[package]]
+channel = 'fedora'
+name = 'jkmeter'
+
+[[package]]
+channel = 'fedora'
+name = 'zita-alsa-pcmi-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'zita-at1'
+
+[[package]]
+channel = 'fedora'
+name = 'zita-rev1'

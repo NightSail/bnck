@@ -1,0 +1,8 @@
+id = 'smu'
+name = 'smu'
+
+repository = 'https://github.com/Gottox/smu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smu'

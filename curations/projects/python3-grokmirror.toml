@@ -1,0 +1,8 @@
+id = 'python3-grokmirror'
+name = 'python3-grokmirror'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/grokmirror/grokmirror.git'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-grokmirror'

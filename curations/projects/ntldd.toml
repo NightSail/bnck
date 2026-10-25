@@ -1,0 +1,8 @@
+id = 'ntldd'
+name = 'ntldd'
+
+homepage = 'https://github.com/LRN/ntldd'
+
+[[package]]
+channel = 'debian'
+name = 'ntldd'

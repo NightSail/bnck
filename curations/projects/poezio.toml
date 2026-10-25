@@ -1,0 +1,8 @@
+id = 'poezio'
+name = 'poezio'
+
+homepage = 'https://poez.io'
+
+[[package]]
+channel = 'debian'
+name = 'poezio'

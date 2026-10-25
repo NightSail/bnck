@@ -1,0 +1,8 @@
+id = 'nrfutil'
+name = 'nrfutil'
+
+homepage = 'https://www.nordicsemi.com/Products/Development-tools/nrf-util'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nrfutil'

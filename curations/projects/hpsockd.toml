@@ -1,0 +1,6 @@
+id = 'hpsockd'
+name = 'hpsockd'
+
+[[package]]
+channel = 'debian'
+name = 'hpsockd'

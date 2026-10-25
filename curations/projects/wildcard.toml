@@ -1,0 +1,12 @@
+id = 'wildcard'
+name = 'wildcard'
+
+homepage = 'https://gitlab.gnome.org/World/Wildcard'
+
+[[package]]
+channel = 'arch'
+name = 'wildcard'
+
+[[package]]
+channel = 'fedora'
+name = 'wildcard'

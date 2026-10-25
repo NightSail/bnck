@@ -1,0 +1,8 @@
+id = 'python3-interrogate'
+name = 'python3-interrogate'
+
+homepage = 'https://github.com/econchick/interrogate'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-interrogate'

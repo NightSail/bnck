@@ -1,0 +1,8 @@
+id = 'shadcn'
+name = 'shadcn'
+
+homepage = 'https://ui.shadcn.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shadcn'

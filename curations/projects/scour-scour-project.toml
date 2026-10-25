@@ -1,0 +1,9 @@
+id = 'scour-scour-project'
+name = 'scour'
+
+homepage = 'https://www.codedread.com/scour'
+repository = 'https://github.com/scour-project/scour.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scour'

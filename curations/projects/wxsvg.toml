@@ -1,0 +1,12 @@
+id = 'wxsvg'
+name = 'wxsvg'
+
+homepage = 'http://wxsvg.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'wxsvg'
+
+[[package]]
+channel = 'debian'
+name = 'libwxsvg-tools'

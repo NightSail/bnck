@@ -1,0 +1,8 @@
+id = 'crashmail'
+name = 'crashmail'
+
+homepage = 'http://ftnapps.sourceforge.net/crashmail.html'
+
+[[package]]
+channel = 'debian'
+name = 'crashmail'

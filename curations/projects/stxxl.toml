@@ -1,0 +1,12 @@
+id = 'stxxl'
+name = 'stxxl'
+
+homepage = 'https://stxxl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libstxxl1-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libstxxl'

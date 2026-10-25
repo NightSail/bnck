@@ -1,0 +1,16 @@
+id = 'openjpeg-openjpeg'
+name = 'openjpeg'
+
+homepage = 'https://www.openjpeg.org'
+
+[[package]]
+channel = 'debian'
+name = 'libopenjp2-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libopenjpip-dec-server'
+
+[[package]]
+channel = 'debian'
+name = 'libopenjpip-viewer'

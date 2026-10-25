@@ -1,0 +1,8 @@
+id = 'jupp'
+name = 'jupp'
+
+homepage = 'https://mbsd.evolvis.org/jupp.htm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jupp'

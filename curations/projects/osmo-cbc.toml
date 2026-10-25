@@ -1,0 +1,12 @@
+id = 'osmo-cbc'
+name = 'osmo-cbc'
+
+homepage = 'https://projects.osmocom.org/projects/osmo-cbc'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-cbc'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-cbc-utils'

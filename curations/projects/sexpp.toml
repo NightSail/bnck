@@ -1,0 +1,12 @@
+id = 'sexpp'
+name = 'sexpp'
+
+homepage = 'https://github.com/rnpgp/sexpp'
+
+[[package]]
+channel = 'debian'
+name = 'sexpp'
+
+[[package]]
+channel = 'fedora'
+name = 'sexpp'

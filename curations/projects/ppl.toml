@@ -1,0 +1,24 @@
+id = 'ppl'
+name = 'ppl'
+
+homepage = 'http://www.bugseng.com/ppl'
+
+[[package]]
+channel = 'arch'
+name = 'ppl'
+
+[[package]]
+channel = 'fedora'
+name = 'ppl'
+
+[[package]]
+channel = 'fedora'
+name = 'ppl-gprolog'
+
+[[package]]
+channel = 'fedora'
+name = 'ppl-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ppl'

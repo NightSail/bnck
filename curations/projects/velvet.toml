@@ -1,0 +1,12 @@
+id = 'velvet'
+name = 'velvet'
+
+homepage = 'https://github.com/dzerbino/velvet'
+
+[[package]]
+channel = 'debian'
+name = 'velvet'
+
+[[package]]
+channel = 'debian'
+name = 'velvet-long'

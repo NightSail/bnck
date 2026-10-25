@@ -1,0 +1,8 @@
+id = 'gdmd'
+name = 'gdmd'
+
+homepage = 'https://github.com/D-Programming-GDC/gdmd'
+
+[[package]]
+channel = 'debian'
+name = 'gdmd'

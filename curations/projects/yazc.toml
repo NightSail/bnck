@@ -1,0 +1,8 @@
+id = 'yazc'
+name = 'yazc'
+
+homepage = 'https://github.com/mferland/libzc'
+
+[[package]]
+channel = 'debian'
+name = 'yazc'

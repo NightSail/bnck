@@ -1,0 +1,8 @@
+id = 'python-kajiki'
+name = 'python-kajiki'
+
+homepage = 'https://github.com/nandoflorestan/kajiki'
+
+[[package]]
+channel = 'arch'
+name = 'python-kajiki'

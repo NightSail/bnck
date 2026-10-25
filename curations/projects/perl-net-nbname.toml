@@ -1,0 +1,8 @@
+id = 'perl-net-nbname'
+name = 'perl-Net-NBName'
+
+homepage = 'https://metacpan.org/release/Net-NBName'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-NBName'

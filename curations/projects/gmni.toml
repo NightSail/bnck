@@ -1,0 +1,8 @@
+id = 'gmni'
+name = 'gmni'
+
+homepage = 'https://git.sr.ht/~sircmpwn/gmni'
+
+[[package]]
+channel = 'arch'
+name = 'gmni'

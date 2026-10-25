@@ -1,0 +1,8 @@
+id = 'git-appraise'
+name = 'git-appraise'
+
+repository = 'https://github.com/google/git-appraise.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-appraise'

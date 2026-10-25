@@ -1,0 +1,8 @@
+id = 'wmx'
+name = 'wmx'
+
+homepage = 'http://www.all-day-breakfast.com/wmx'
+
+[[package]]
+channel = 'fedora'
+name = 'wmx'

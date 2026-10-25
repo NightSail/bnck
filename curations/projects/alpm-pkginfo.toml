@@ -1,0 +1,8 @@
+id = 'alpm-pkginfo'
+name = 'alpm-pkginfo'
+
+homepage = 'https://alpm.archlinux.page/alpm-pkginfo/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-pkginfo'

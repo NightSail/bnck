@@ -1,0 +1,6 @@
+id = 'devscripts-devscripts'
+name = 'devscripts'
+
+[[package]]
+channel = 'debian'
+name = 'devscripts'

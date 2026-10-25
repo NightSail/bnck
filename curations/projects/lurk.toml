@@ -1,0 +1,8 @@
+id = 'lurk'
+name = 'lurk'
+
+homepage = 'https://github.com/JakWai01/lurk'
+
+[[package]]
+channel = 'arch'
+name = 'lurk'

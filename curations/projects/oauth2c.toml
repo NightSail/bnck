@@ -1,0 +1,8 @@
+id = 'oauth2c'
+name = 'oauth2c'
+
+repository = 'https://github.com/SecureAuthCorp/oauth2c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oauth2c'

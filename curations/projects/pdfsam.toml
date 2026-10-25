@@ -1,0 +1,8 @@
+id = 'pdfsam'
+name = 'pdfsam'
+
+homepage = 'http://www.pdfsam.org'
+
+[[package]]
+channel = 'debian'
+name = 'pdfsam'

@@ -1,0 +1,8 @@
+id = 'packcc'
+name = 'packcc'
+
+repository = 'https://github.com/arithy/packcc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/packcc'

@@ -1,0 +1,8 @@
+id = 'prometheus-openstack-exporter'
+name = 'prometheus-openstack-exporter'
+
+homepage = 'https://github.com/CanonicalLtd/prometheus-openstack-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-openstack-exporter'

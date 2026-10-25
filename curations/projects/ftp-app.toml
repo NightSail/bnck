@@ -1,0 +1,8 @@
+id = 'ftp-app'
+name = 'ftp.app'
+
+homepage = 'https://www.nongnu.org/gap/ftp'
+
+[[package]]
+channel = 'debian'
+name = 'ftp.app'

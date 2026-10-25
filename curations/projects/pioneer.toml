@@ -1,0 +1,17 @@
+id = 'pioneer'
+name = 'pioneer'
+
+homepage = 'http://pioneerspacesim.net'
+repository = 'https://github.com/pioneerspacesim/pioneer.git'
+
+[[package]]
+channel = 'arch'
+name = 'pioneer'
+
+[[package]]
+channel = 'fedora'
+name = 'pioneer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pioneer'

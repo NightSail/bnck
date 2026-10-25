@@ -1,0 +1,21 @@
+id = 'expat'
+name = 'expat'
+
+homepage = 'https://libexpat.github.io'
+repository = 'https://github.com/libexpat/libexpat.git'
+
+[[package]]
+channel = 'arch'
+name = 'expat'
+
+[[package]]
+channel = 'debian'
+name = 'expat'
+
+[[package]]
+channel = 'fedora'
+name = 'expat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/expat'

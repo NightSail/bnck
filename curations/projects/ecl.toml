@@ -1,0 +1,17 @@
+id = 'ecl'
+name = 'ecl'
+
+homepage = 'https://common-lisp.net/project/ecl'
+repository = 'https://gitlab.com/embeddable-common-lisp/ecl.git'
+
+[[package]]
+channel = 'arch'
+name = 'ecl'
+
+[[package]]
+channel = 'debian'
+name = 'ecl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ecl'

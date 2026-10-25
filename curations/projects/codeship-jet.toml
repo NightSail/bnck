@@ -1,0 +1,8 @@
+id = 'codeship-jet'
+name = 'codeship-jet'
+
+homepage = 'https://docs.cloudbees.com/docs/cloudbees-codeship/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/codeship-jet'

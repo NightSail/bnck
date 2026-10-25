@@ -1,0 +1,8 @@
+id = 'fobis'
+name = 'fobis'
+
+homepage = 'https://github.com/szaghi/FoBiS'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fobis'

@@ -1,0 +1,20 @@
+id = 'desktop-file-utils'
+name = 'desktop-file-utils'
+
+homepage = 'https://wiki.freedesktop.org/www/Software/desktop-file-utils'
+
+[[package]]
+channel = 'arch'
+name = 'desktop-file-utils'
+
+[[package]]
+channel = 'debian'
+name = 'desktop-file-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'desktop-file-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/desktop-file-utils'

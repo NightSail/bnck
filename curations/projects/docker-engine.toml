@@ -1,0 +1,9 @@
+id = 'docker-engine'
+name = 'docker-engine'
+
+homepage = 'https://www.docker.com'
+repository = 'https://github.com/moby/moby.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-engine'

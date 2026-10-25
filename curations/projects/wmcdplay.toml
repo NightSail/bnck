@@ -1,0 +1,8 @@
+id = 'wmcdplay'
+name = 'wmcdplay'
+
+homepage = 'https://www.dockapps.net/wmcdplay'
+
+[[package]]
+channel = 'debian'
+name = 'wmcdplay'

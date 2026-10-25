@@ -1,0 +1,12 @@
+id = 'matchbox-window-manager'
+name = 'matchbox-window-manager'
+
+homepage = 'https://www.yoctoproject.org/software-item/matchbox'
+
+[[package]]
+channel = 'debian'
+name = 'matchbox-window-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'matchbox-window-manager'

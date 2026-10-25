@@ -1,0 +1,8 @@
+id = 'nailgun'
+name = 'nailgun'
+
+homepage = 'https://github.com/facebook/nailgun'
+
+[[package]]
+channel = 'debian'
+name = 'nailgun'

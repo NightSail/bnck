@@ -1,0 +1,16 @@
+id = 'umbrello'
+name = 'umbrello'
+
+homepage = 'https://apps.kde.org/umbrello'
+
+[[package]]
+channel = 'arch'
+name = 'umbrello'
+
+[[package]]
+channel = 'debian'
+name = 'umbrello'
+
+[[package]]
+channel = 'fedora'
+name = 'umbrello'

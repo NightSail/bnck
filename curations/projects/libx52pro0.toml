@@ -1,0 +1,8 @@
+id = 'libx52pro0'
+name = 'libx52pro0'
+
+homepage = 'https://github.com/seesturm/x52lib'
+
+[[package]]
+channel = 'debian'
+name = 'libx52pro0'

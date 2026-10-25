@@ -1,0 +1,12 @@
+id = 'bottlepy'
+name = 'bottlepy'
+
+homepage = 'https://bottlepy.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-bottle'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bottle'

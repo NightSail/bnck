@@ -1,0 +1,8 @@
+id = 'binfmt-support'
+name = 'binfmt-support'
+
+homepage = 'https://nongnu.org/binfmt-support'
+
+[[package]]
+channel = 'debian'
+name = 'binfmt-support'

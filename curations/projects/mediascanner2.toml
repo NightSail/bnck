@@ -1,0 +1,12 @@
+id = 'mediascanner2'
+name = 'mediascanner2'
+
+homepage = 'https://gitlab.com/ubports/development/core/mediascanner2'
+
+[[package]]
+channel = 'debian'
+name = 'mediascanner2.0'
+
+[[package]]
+channel = 'debian'
+name = 'mediascanner2.0-utils'

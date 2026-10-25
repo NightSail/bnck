@@ -1,0 +1,12 @@
+id = 'aceperl'
+name = 'AcePerl'
+
+homepage = 'https://metacpan.org/release/AcePerl'
+
+[[package]]
+channel = 'debian'
+name = 'libace-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Ace'

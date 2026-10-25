@@ -1,0 +1,12 @@
+id = 'omd'
+name = 'omd'
+
+homepage = 'https://github.com/ocaml/omd'
+
+[[package]]
+channel = 'debian'
+name = 'omd'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-omd'

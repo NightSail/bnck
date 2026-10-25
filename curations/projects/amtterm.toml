@@ -1,0 +1,17 @@
+id = 'amtterm'
+name = 'amtterm'
+
+homepage = 'https://www.kraxel.org/blog/linux/amtterm'
+repository = 'https://gitlab.com/kraxel/amtterm.git'
+
+[[package]]
+channel = 'debian'
+name = 'amtterm'
+
+[[package]]
+channel = 'fedora'
+name = 'amtterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/amtterm'

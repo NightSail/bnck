@@ -1,0 +1,8 @@
+id = 'superhtml'
+name = 'superhtml'
+
+homepage = 'https://github.com/kristoff-it/superhtml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/superhtml'

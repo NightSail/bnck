@@ -6,3 +6,7 @@ homepage = 'https://github.com/bitnami-labs/sealed-secrets'
 [[package]]
 channel = 'arch'
 name = 'kubeseal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubeseal'

@@ -1,0 +1,8 @@
+id = 'gitlab-container-registry'
+name = 'gitlab-container-registry'
+
+homepage = 'https://gitlab.com/gitlab-org/container-registry'
+
+[[package]]
+channel = 'arch'
+name = 'gitlab-container-registry'

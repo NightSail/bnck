@@ -1,0 +1,8 @@
+id = 'python3-opencascade-pywrap'
+name = 'python3-opencascade-pywrap'
+
+homepage = 'https://github.com/CadQuery/pywrap'
+
+[[package]]
+channel = 'debian'
+name = 'python3-opencascade-pywrap'

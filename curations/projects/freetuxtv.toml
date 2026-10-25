@@ -1,0 +1,8 @@
+id = 'freetuxtv'
+name = 'freetuxtv'
+
+homepage = 'https://github.com/freetuxtv/freetuxtv'
+
+[[package]]
+channel = 'debian'
+name = 'freetuxtv'

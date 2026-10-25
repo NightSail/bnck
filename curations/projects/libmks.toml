@@ -1,0 +1,8 @@
+id = 'libmks'
+name = 'libmks'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libmks'
+
+[[package]]
+channel = 'fedora'
+name = 'libmks'

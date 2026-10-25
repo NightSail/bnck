@@ -1,0 +1,8 @@
+id = 'graphite-web'
+name = 'graphite-web'
+
+homepage = 'https://github.com/graphite-project/graphite-web'
+
+[[package]]
+channel = 'debian'
+name = 'graphite-web'

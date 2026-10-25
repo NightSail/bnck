@@ -1,0 +1,8 @@
+id = 'libjpeg-tools'
+name = 'libjpeg-tools'
+
+homepage = 'https://github.com/thorfdbg/libjpeg'
+
+[[package]]
+channel = 'debian'
+name = 'libjpeg-tools'

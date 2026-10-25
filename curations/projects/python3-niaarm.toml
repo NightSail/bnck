@@ -1,0 +1,8 @@
+id = 'python3-niaarm'
+name = 'python3-niaarm'
+
+homepage = 'https://github.com/firefly-cpp/NiaARM'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-niaarm'

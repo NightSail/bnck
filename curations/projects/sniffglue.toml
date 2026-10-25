@@ -1,0 +1,16 @@
+id = 'sniffglue'
+name = 'sniffglue'
+
+homepage = 'https://github.com/kpcyrd/sniffglue'
+
+[[package]]
+channel = 'arch'
+name = 'sniffglue'
+
+[[package]]
+channel = 'debian'
+name = 'sniffglue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sniffglue'

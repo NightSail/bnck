@@ -1,0 +1,8 @@
+id = 'libvhdi-utils'
+name = 'libvhdi-utils'
+
+homepage = 'https://github.com/libyal/libvhdi'
+
+[[package]]
+channel = 'debian'
+name = 'libvhdi-utils'

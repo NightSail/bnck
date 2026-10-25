@@ -1,0 +1,8 @@
+id = 'lua-busted'
+name = 'lua-busted'
+
+homepage = 'https://github.com/lunarmodules/busted'
+
+[[package]]
+channel = 'debian'
+name = 'lua-busted'

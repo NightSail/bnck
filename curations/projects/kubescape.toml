@@ -1,0 +1,9 @@
+id = 'kubescape'
+name = 'kubescape'
+
+homepage = 'https://kubescape.io'
+repository = 'https://github.com/kubescape/kubescape.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubescape'

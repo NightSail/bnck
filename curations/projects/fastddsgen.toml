@@ -1,0 +1,8 @@
+id = 'fastddsgen'
+name = 'fastddsgen'
+
+homepage = 'https://github.com/eProsima/Fast-DDS-Gen'
+
+[[package]]
+channel = 'debian'
+name = 'fastddsgen'

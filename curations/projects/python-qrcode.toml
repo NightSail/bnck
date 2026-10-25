@@ -1,0 +1,16 @@
+id = 'python-qrcode'
+name = 'python-qrcode'
+
+homepage = 'https://github.com/lincolnloop/python-qrcode'
+
+[[package]]
+channel = 'arch'
+name = 'python-qrcode'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qrcode'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qrcode'

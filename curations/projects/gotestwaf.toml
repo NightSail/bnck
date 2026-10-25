@@ -1,0 +1,9 @@
+id = 'gotestwaf'
+name = 'gotestwaf'
+
+homepage = 'https://lab.wallarm.com/test-your-waf-before-hackers'
+repository = 'https://github.com/wallarm/gotestwaf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotestwaf'

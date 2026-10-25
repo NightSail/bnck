@@ -1,0 +1,8 @@
+id = 'python3-oslo-policy'
+name = 'python3-oslo.policy'
+
+homepage = 'https://github.com/openstack/oslo.policy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslo.policy'

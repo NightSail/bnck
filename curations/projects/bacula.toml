@@ -1,0 +1,68 @@
+id = 'bacula'
+name = 'bacula'
+
+homepage = 'https://www.bacula.org'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-bscan'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-common'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-console'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-console-qt'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-director'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-fd'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-sd'
+
+[[package]]
+channel = 'debian'
+name = 'bacula-tray-monitor'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-client'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-common'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-console'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-console-bat'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-director'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-storage'
+
+[[package]]
+channel = 'fedora'
+name = 'bacula-traymonitor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bacula-fd'

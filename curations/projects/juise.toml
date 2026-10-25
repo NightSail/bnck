@@ -1,0 +1,9 @@
+id = 'juise'
+name = 'juise'
+
+homepage = 'https://github.com/Juniper/juise/wiki'
+repository = 'https://github.com/Juniper/juise.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/juise'

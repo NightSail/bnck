@@ -1,0 +1,8 @@
+id = 'haskell-hiedb'
+name = 'haskell-hiedb'
+
+homepage = 'https://github.com/wz1000/HieDb'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hiedb'

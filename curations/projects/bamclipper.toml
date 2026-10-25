@@ -1,0 +1,8 @@
+id = 'bamclipper'
+name = 'bamclipper'
+
+homepage = 'https://github.com/tommyau/bamclipper'
+
+[[package]]
+channel = 'debian'
+name = 'bamclipper'

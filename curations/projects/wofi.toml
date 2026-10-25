@@ -1,0 +1,16 @@
+id = 'wofi'
+name = 'wofi'
+
+homepage = 'https://hg.sr.ht/~scoopta/wofi'
+
+[[package]]
+channel = 'arch'
+name = 'wofi'
+
+[[package]]
+channel = 'debian'
+name = 'wofi'
+
+[[package]]
+channel = 'fedora'
+name = 'wofi'

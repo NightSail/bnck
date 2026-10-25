@@ -1,0 +1,8 @@
+id = 'fortunecraft'
+name = 'fortunecraft'
+
+homepage = 'https://github.com/xyproto/fortunecraft'
+
+[[package]]
+channel = 'arch'
+name = 'fortunecraft'

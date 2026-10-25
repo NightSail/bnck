@@ -1,0 +1,21 @@
+id = 'vis'
+name = 'vis'
+
+homepage = 'https://git.sr.ht/~martanne/vis'
+repository = 'https://github.com/martanne/vis.git'
+
+[[package]]
+channel = 'arch'
+name = 'vis'
+
+[[package]]
+channel = 'debian'
+name = 'vis'
+
+[[package]]
+channel = 'fedora'
+name = 'vis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vis'

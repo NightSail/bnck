@@ -1,0 +1,12 @@
+id = 'libtree'
+name = 'libtree'
+
+homepage = 'https://github.com/haampie/libtree'
+
+[[package]]
+channel = 'debian'
+name = 'libtree'
+
+[[package]]
+channel = 'fedora'
+name = 'libtree-ldd'

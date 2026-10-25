@@ -1,0 +1,12 @@
+id = 'devel-nytprof'
+name = 'Devel-NYTProf'
+
+homepage = 'https://metacpan.org/release/Devel-NYTProf'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-nytprof-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-NYTProf'

@@ -1,0 +1,8 @@
+id = 'spyder'
+name = 'spyder'
+
+homepage = 'https://github.com/spyder-ide/spyder'
+
+[[package]]
+channel = 'debian'
+name = 'spyder'

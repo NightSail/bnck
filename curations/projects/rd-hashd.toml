@@ -1,0 +1,8 @@
+id = 'rd-hashd'
+name = 'rd-hashd'
+
+homepage = 'https://crates.io/crates/rd-hashd'
+
+[[package]]
+channel = 'fedora'
+name = 'rd-hashd'

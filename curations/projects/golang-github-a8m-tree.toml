@@ -1,0 +1,8 @@
+id = 'golang-github-a8m-tree'
+name = 'golang-github-a8m-tree'
+
+homepage = 'https://github.com/a8m/tree'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-a8m-tree'

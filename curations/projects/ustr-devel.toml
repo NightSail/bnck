@@ -1,0 +1,8 @@
+id = 'ustr-devel'
+name = 'ustr-devel'
+
+homepage = 'http://www.and.org/ustr'
+
+[[package]]
+channel = 'fedora'
+name = 'ustr-devel'

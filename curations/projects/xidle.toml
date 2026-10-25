@@ -1,0 +1,6 @@
+id = 'xidle'
+name = 'xidle'
+
+[[package]]
+channel = 'debian'
+name = 'xidle'

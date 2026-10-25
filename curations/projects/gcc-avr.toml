@@ -1,0 +1,8 @@
+id = 'gcc-avr'
+name = 'gcc-avr'
+
+homepage = 'https://www.gnu.org/s/gcc'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-avr'

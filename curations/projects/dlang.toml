@@ -1,0 +1,12 @@
+id = 'dlang'
+name = 'dlang'
+
+homepage = 'https://www.dlang.org'
+
+[[package]]
+channel = 'arch'
+name = 'dmd'
+
+[[package]]
+channel = 'arch'
+name = 'dtools'

@@ -1,0 +1,8 @@
+id = 'usnic-tools'
+name = 'usnic-tools'
+
+homepage = 'https://github.com/cisco/usnic_tools'
+
+[[package]]
+channel = 'fedora'
+name = 'usnic-tools'

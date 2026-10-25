@@ -1,0 +1,8 @@
+id = 'mp3report'
+name = 'mp3report'
+
+homepage = 'https://mp3report.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mp3report'

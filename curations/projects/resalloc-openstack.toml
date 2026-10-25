@@ -1,0 +1,8 @@
+id = 'resalloc-openstack'
+name = 'resalloc-openstack'
+
+homepage = 'https://github.com/praiskup/resalloc-openstack'
+
+[[package]]
+channel = 'fedora'
+name = 'resalloc-openstack'

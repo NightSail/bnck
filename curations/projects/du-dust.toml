@@ -1,0 +1,8 @@
+id = 'du-dust'
+name = 'du-dust'
+
+homepage = 'https://crates.io/crates/du-dust'
+
+[[package]]
+channel = 'fedora'
+name = 'du-dust'

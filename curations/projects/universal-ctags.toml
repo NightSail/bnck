@@ -1,0 +1,9 @@
+id = 'universal-ctags'
+name = 'universal-ctags'
+
+homepage = 'https://ctags.io'
+repository = 'https://github.com/universal-ctags/ctags.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/universal-ctags'

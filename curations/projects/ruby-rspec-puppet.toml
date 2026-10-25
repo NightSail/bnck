@@ -1,0 +1,8 @@
+id = 'ruby-rspec-puppet'
+name = 'ruby-rspec-puppet'
+
+homepage = 'https://github.com/rodjek/rspec-puppet'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rspec-puppet'

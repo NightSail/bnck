@@ -1,0 +1,12 @@
+id = 'opennlp'
+name = 'opennlp'
+
+homepage = 'https://opennlp.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'opennlp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-opennlp'

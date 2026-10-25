@@ -1,0 +1,20 @@
+id = 'love'
+name = 'love'
+
+homepage = 'https://love2d.org'
+
+[[package]]
+channel = 'arch'
+name = 'love'
+
+[[package]]
+channel = 'debian'
+name = 'love'
+
+[[package]]
+channel = 'fedora'
+name = 'love'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/love'

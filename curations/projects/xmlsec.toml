@@ -1,0 +1,24 @@
+id = 'xmlsec'
+name = 'xmlsec'
+
+homepage = 'https://www.aleksey.com/xmlsec'
+
+[[package]]
+channel = 'debian'
+name = 'libxmlsec1-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xmlsec1'
+
+[[package]]
+channel = 'fedora'
+name = 'xmlsec1'
+
+[[package]]
+channel = 'fedora'
+name = 'xmlsec1-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxmlsec1'

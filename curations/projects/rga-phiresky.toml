@@ -1,0 +1,8 @@
+id = 'rga-phiresky'
+name = 'rga'
+
+repository = 'https://github.com/phiresky/rga'
+
+[[package]]
+channel = 'crates.io'
+name = 'rga'

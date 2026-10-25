@@ -1,0 +1,8 @@
+id = 'asmixer'
+name = 'asmixer'
+
+homepage = 'https://web.archive.org/web/20160601174554/http://tigr.net/afterstep/download/asmixer'
+
+[[package]]
+channel = 'debian'
+name = 'asmixer'

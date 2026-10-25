@@ -1,0 +1,9 @@
+id = 'flix'
+name = 'flix'
+
+homepage = 'https://flix.dev'
+repository = 'https://github.com/flix/flix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flix'

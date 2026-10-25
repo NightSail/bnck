@@ -1,0 +1,13 @@
+id = 'dosbox-staging'
+name = 'dosbox-staging'
+
+homepage = 'https://www.dosbox-staging.org'
+repository = 'https://github.com/dosbox-staging/dosbox-staging.git'
+
+[[package]]
+channel = 'fedora'
+name = 'dosbox-staging'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dosbox-staging'

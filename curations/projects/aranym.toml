@@ -1,0 +1,8 @@
+id = 'aranym'
+name = 'aranym'
+
+homepage = 'https://aranym.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'aranym'

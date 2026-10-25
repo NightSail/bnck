@@ -1,0 +1,9 @@
+id = 'cyclonedx-python'
+name = 'cyclonedx-python'
+
+homepage = 'https://cyclonedx.org'
+repository = 'https://github.com/CycloneDX/cyclonedx-python.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyclonedx-python'

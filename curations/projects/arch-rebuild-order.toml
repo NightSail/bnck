@@ -1,0 +1,8 @@
+id = 'arch-rebuild-order'
+name = 'arch-rebuild-order'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/arch-rebuild-order'
+
+[[package]]
+channel = 'arch'
+name = 'arch-rebuild-order'

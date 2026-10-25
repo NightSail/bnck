@@ -1,0 +1,8 @@
+id = 'golang-github-heistp-irtt'
+name = 'golang-github-heistp-irtt'
+
+homepage = 'https://github.com/heistp/irtt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-heistp-irtt'

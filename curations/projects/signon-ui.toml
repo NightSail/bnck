@@ -1,0 +1,12 @@
+id = 'signon-ui'
+name = 'signon-ui'
+
+homepage = 'https://launchpad.net/online-accounts-signon-ui'
+
+[[package]]
+channel = 'arch'
+name = 'signon-ui'
+
+[[package]]
+channel = 'fedora'
+name = 'signon-ui'

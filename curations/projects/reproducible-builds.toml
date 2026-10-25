@@ -1,0 +1,20 @@
+id = 'reproducible-builds'
+name = 'reproducible-builds'
+
+homepage = 'https://reproducible-builds.org'
+
+[[package]]
+channel = 'arch'
+name = 'disorderfs'
+
+[[package]]
+channel = 'debian'
+name = 'dh-strip-nondeterminism'
+
+[[package]]
+channel = 'debian'
+name = 'disorderfs'
+
+[[package]]
+channel = 'debian'
+name = 'strip-nondeterminism'

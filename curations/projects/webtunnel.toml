@@ -1,0 +1,8 @@
+id = 'webtunnel'
+name = 'webtunnel'
+
+homepage = 'https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel'
+
+[[package]]
+channel = 'debian'
+name = 'webtunnel'

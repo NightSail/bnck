@@ -1,0 +1,12 @@
+id = 'oils-for-unix'
+name = 'oils-for-unix'
+
+homepage = 'https://oils.pub'
+
+[[package]]
+channel = 'arch'
+name = 'oils-for-unix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oils-for-unix'

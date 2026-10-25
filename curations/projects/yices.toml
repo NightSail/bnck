@@ -1,0 +1,12 @@
+id = 'yices'
+name = 'yices'
+
+homepage = 'https://yices.csl.sri.com'
+
+[[package]]
+channel = 'arch'
+name = 'yices'
+
+[[package]]
+channel = 'fedora'
+name = 'yices-tools'

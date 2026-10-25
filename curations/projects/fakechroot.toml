@@ -1,0 +1,16 @@
+id = 'fakechroot'
+name = 'fakechroot'
+
+homepage = 'https://github.com/dex4er/fakechroot/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'fakechroot'
+
+[[package]]
+channel = 'debian'
+name = 'fakechroot'
+
+[[package]]
+channel = 'fedora'
+name = 'fakechroot'

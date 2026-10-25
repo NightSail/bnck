@@ -1,0 +1,12 @@
+id = 'lxqt-sudo'
+name = 'lxqt-sudo'
+
+homepage = 'https://github.com/lxqt/lxqt-sudo'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-sudo'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-sudo'

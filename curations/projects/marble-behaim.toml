@@ -1,0 +1,8 @@
+id = 'marble-behaim'
+name = 'marble-behaim'
+
+homepage = 'https://apps.kde.org/marble.behaim'
+
+[[package]]
+channel = 'arch'
+name = 'marble-behaim'

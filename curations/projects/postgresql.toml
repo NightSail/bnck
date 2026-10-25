@@ -1,0 +1,108 @@
+id = 'postgresql'
+name = 'postgresql'
+
+homepage = 'https://www.postgresql.org'
+
+[[package]]
+channel = 'arch'
+name = 'postgresql'
+
+[[package]]
+channel = 'arch'
+name = 'postgresql-libs'
+
+[[package]]
+channel = 'debian'
+name = 'libecpg-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libpq-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libecpg-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libpq-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql-contrib'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql-private-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql-server'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql-server-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql16'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql16-contrib'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql16-private-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql16-server'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql16-server-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql17'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql17-contrib'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql17-private-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql17-server'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql17-server-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgresql@14'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgresql@15'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgresql@16'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgresql@17'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/postgresql@18'

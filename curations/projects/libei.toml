@@ -1,0 +1,8 @@
+id = 'libei'
+name = 'libei'
+
+homepage = 'https://libinput.pages.freedesktop.org/libei'
+
+[[package]]
+channel = 'arch'
+name = 'libei'

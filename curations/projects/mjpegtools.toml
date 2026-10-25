@@ -1,0 +1,8 @@
+id = 'mjpegtools'
+name = 'mjpegtools'
+
+homepage = 'http://mjpeg.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mjpegtools'

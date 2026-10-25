@@ -1,0 +1,16 @@
+id = 'kcolorchooser'
+name = 'kcolorchooser'
+
+homepage = 'https://apps.kde.org/kcolorchooser'
+
+[[package]]
+channel = 'arch'
+name = 'kcolorchooser'
+
+[[package]]
+channel = 'debian'
+name = 'kcolorchooser'
+
+[[package]]
+channel = 'fedora'
+name = 'kcolorchooser'

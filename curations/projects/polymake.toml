@@ -1,0 +1,20 @@
+id = 'polymake'
+name = 'polymake'
+
+homepage = 'https://polymake.org'
+
+[[package]]
+channel = 'arch'
+name = 'polymake'
+
+[[package]]
+channel = 'debian'
+name = 'libpolymake-dev'
+
+[[package]]
+channel = 'debian'
+name = 'polymake'
+
+[[package]]
+channel = 'fedora'
+name = 'polymake'

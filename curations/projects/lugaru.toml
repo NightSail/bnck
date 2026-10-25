@@ -1,0 +1,8 @@
+id = 'lugaru'
+name = 'lugaru'
+
+homepage = 'https://osslugaru.gitlab.io'
+
+[[package]]
+channel = 'fedora'
+name = 'lugaru'

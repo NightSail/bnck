@@ -1,0 +1,21 @@
+id = 'trurl'
+name = 'trurl'
+
+homepage = 'https://curl.se/trurl'
+repository = 'https://github.com/curl/trurl.git'
+
+[[package]]
+channel = 'arch'
+name = 'trurl'
+
+[[package]]
+channel = 'debian'
+name = 'trurl'
+
+[[package]]
+channel = 'fedora'
+name = 'trurl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trurl'

@@ -1,0 +1,12 @@
+id = 'dx'
+name = 'dx'
+
+homepage = 'https://web.archive.org/web/20080812051658/http://www.opendx.org'
+
+[[package]]
+channel = 'debian'
+name = 'dx'
+
+[[package]]
+channel = 'fedora'
+name = 'dx'

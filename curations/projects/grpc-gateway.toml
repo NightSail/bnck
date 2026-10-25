@@ -1,0 +1,16 @@
+id = 'grpc-gateway'
+name = 'grpc-gateway'
+
+homepage = 'https://github.com/grpc-ecosystem/grpc-gateway'
+
+[[package]]
+channel = 'debian'
+name = 'golang-grpc-gateway'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-grpc-ecosystem-gateway'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-grpc-ecosystem-gateway-2'

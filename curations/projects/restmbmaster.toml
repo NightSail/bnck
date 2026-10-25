@@ -1,0 +1,8 @@
+id = 'restmbmaster'
+name = 'restmbmaster'
+
+homepage = 'https://github.com/jpirko/restmbmaster'
+
+[[package]]
+channel = 'fedora'
+name = 'restmbmaster'

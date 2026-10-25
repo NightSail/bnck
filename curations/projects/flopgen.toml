@@ -1,0 +1,8 @@
+id = 'flopgen'
+name = 'flopgen'
+
+homepage = 'https://github.com/maksgraczyk/Flopgen'
+
+[[package]]
+channel = 'fedora'
+name = 'flopgen'

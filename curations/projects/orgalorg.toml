@@ -1,0 +1,8 @@
+id = 'orgalorg'
+name = 'orgalorg'
+
+repository = 'https://github.com/reconquest/orgalorg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/orgalorg'

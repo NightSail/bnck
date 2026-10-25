@@ -1,0 +1,8 @@
+id = 'soapsnp'
+name = 'soapsnp'
+
+homepage = 'http://soap.genomics.org.cn/soapsnp.html'
+
+[[package]]
+channel = 'debian'
+name = 'soapsnp'

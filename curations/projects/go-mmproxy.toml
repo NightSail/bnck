@@ -1,0 +1,12 @@
+id = 'go-mmproxy'
+name = 'go-mmproxy'
+
+homepage = 'https://github.com/kzemek/go-mmproxy'
+
+[[package]]
+channel = 'debian'
+name = 'go-mmproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'go-mmproxy'

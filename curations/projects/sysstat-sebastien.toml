@@ -1,0 +1,8 @@
+id = 'sysstat-sebastien'
+name = 'sysstat'
+
+homepage = 'http://sebastien.godard.pagesperso-orange.fr'
+
+[[package]]
+channel = 'fedora'
+name = 'sysstat'

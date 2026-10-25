@@ -1,0 +1,16 @@
+id = 'mon'
+name = 'mon'
+
+homepage = 'https://github.com/tj/mon'
+
+[[package]]
+channel = 'debian'
+name = 'mon'
+
+[[package]]
+channel = 'fedora'
+name = 'mon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mon'

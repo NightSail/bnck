@@ -1,0 +1,8 @@
+id = 'marble-maps'
+name = 'marble-maps'
+
+homepage = 'https://apps.kde.org/marble.maps'
+
+[[package]]
+channel = 'arch'
+name = 'marble-maps'

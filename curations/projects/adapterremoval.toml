@@ -1,0 +1,12 @@
+id = 'adapterremoval'
+name = 'adapterremoval'
+
+homepage = 'https://github.com/MikkelSchubert/adapterremoval'
+
+[[package]]
+channel = 'debian'
+name = 'adapterremoval'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adapterremoval'

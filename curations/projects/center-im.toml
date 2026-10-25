@@ -1,0 +1,12 @@
+id = 'center-im'
+name = 'center-im'
+
+homepage = 'https://github.com/petrpavlu/centerim5'
+
+[[package]]
+channel = 'fedora'
+name = 'centerim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/center-im'

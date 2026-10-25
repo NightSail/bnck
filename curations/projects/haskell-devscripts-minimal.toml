@@ -1,0 +1,6 @@
+id = 'haskell-devscripts-minimal'
+name = 'haskell-devscripts-minimal'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-devscripts-minimal'

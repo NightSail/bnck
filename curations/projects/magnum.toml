@@ -1,0 +1,8 @@
+id = 'magnum'
+name = 'magnum'
+
+homepage = 'https://magnum.graphics'
+
+[[package]]
+channel = 'arch'
+name = 'magnum'

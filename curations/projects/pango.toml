@@ -1,0 +1,21 @@
+id = 'pango'
+name = 'pango'
+
+homepage = 'https://www.pango.org'
+repository = 'https://gitlab.gnome.org/GNOME/pango.git'
+
+[[package]]
+channel = 'arch'
+name = 'pango'
+
+[[package]]
+channel = 'debian'
+name = 'pango1.0-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pango'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pango'

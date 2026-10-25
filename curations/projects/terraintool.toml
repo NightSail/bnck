@@ -1,0 +1,8 @@
+id = 'terraintool'
+name = 'terraintool'
+
+homepage = 'https://ubss.org.uk/research/cave_surveys/terraintool'
+
+[[package]]
+channel = 'debian'
+name = 'terraintool'

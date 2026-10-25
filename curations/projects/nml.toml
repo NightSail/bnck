@@ -1,0 +1,12 @@
+id = 'nml'
+name = 'nml'
+
+homepage = 'https://github.com/OpenTTD/nml'
+
+[[package]]
+channel = 'debian'
+name = 'nml'
+
+[[package]]
+channel = 'fedora'
+name = 'nml'

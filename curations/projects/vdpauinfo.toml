@@ -1,0 +1,16 @@
+id = 'vdpauinfo'
+name = 'vdpauinfo'
+
+homepage = 'https://gitlab.freedesktop.org/vdpau/vdpauinfo'
+
+[[package]]
+channel = 'arch'
+name = 'vdpauinfo'
+
+[[package]]
+channel = 'debian'
+name = 'vdpauinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'vdpauinfo'

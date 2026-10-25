@@ -1,0 +1,12 @@
+id = 'rsbackup'
+name = 'rsbackup'
+
+homepage = 'https://www.greenend.org.uk/rjk/rsbackup'
+
+[[package]]
+channel = 'debian'
+name = 'rsbackup'
+
+[[package]]
+channel = 'debian'
+name = 'rsbackup-graph'

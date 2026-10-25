@@ -1,0 +1,8 @@
+id = 'trezor-bridge'
+name = 'trezor-bridge'
+
+homepage = 'https://github.com/trezor/trezord-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trezor-bridge'

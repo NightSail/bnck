@@ -1,0 +1,8 @@
+id = 'overgod'
+name = 'overgod'
+
+homepage = 'http://www.allegro.cc/depot/Overgod'
+
+[[package]]
+channel = 'fedora'
+name = 'overgod'

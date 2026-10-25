@@ -1,0 +1,13 @@
+id = 'tombi'
+name = 'tombi'
+
+homepage = 'https://tombi-toml.github.io/tombi'
+repository = 'https://github.com/tombi-toml/tombi.git'
+
+[[package]]
+channel = 'arch'
+name = 'tombi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tombi'

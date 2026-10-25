@@ -1,0 +1,12 @@
+id = 'garrigue'
+name = 'garrigue'
+
+homepage = 'https://garrigue.github.io/lablgtk'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-lablgtk'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-lablgtk3'

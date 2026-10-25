@@ -1,0 +1,9 @@
+id = 'goctl'
+name = 'goctl'
+
+homepage = 'https://go-zero.dev'
+repository = 'https://github.com/zeromicro/go-zero.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goctl'

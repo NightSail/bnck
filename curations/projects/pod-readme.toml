@@ -1,0 +1,12 @@
+id = 'pod-readme'
+name = 'Pod-Readme'
+
+homepage = 'https://metacpan.org/release/Pod-Readme'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-readme-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Readme'

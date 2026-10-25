@@ -1,0 +1,8 @@
+id = 'python3-pysol-cards'
+name = 'python3-pysol-cards'
+
+homepage = 'https://github.com/shlomif/pysol_cards'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysol-cards'

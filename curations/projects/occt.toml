@@ -1,0 +1,8 @@
+id = 'occt'
+name = 'occt'
+
+homepage = 'https://www.ocbase.com'
+
+[[package]]
+channel = 'arch'
+name = 'occt'

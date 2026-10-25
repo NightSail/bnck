@@ -1,0 +1,8 @@
+id = 'checkbashisms'
+name = 'checkbashisms'
+
+homepage = 'https://launchpad.net/ubuntu/+source/devscripts'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checkbashisms'

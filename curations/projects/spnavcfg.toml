@@ -1,0 +1,8 @@
+id = 'spnavcfg'
+name = 'spnavcfg'
+
+homepage = 'https://github.com/FreeSpacenav/spnavcfg'
+
+[[package]]
+channel = 'debian'
+name = 'spnavcfg'

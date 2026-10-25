@@ -1,0 +1,8 @@
+id = 'container-canary'
+name = 'container-canary'
+
+repository = 'https://github.com/NVIDIA/container-canary.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/container-canary'

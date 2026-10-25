@@ -1,0 +1,20 @@
+id = 'eekboek'
+name = 'EekBoek'
+
+homepage = 'https://www.eekboek.nl'
+
+[[package]]
+channel = 'debian'
+name = 'eekboek'
+
+[[package]]
+channel = 'debian'
+name = 'eekboek-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'EekBoek'
+
+[[package]]
+channel = 'fedora'
+name = 'EekBoek-gui'

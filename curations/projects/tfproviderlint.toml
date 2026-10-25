@@ -1,0 +1,8 @@
+id = 'tfproviderlint'
+name = 'tfproviderlint'
+
+repository = 'https://github.com/bflad/tfproviderlint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfproviderlint'

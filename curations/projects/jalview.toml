@@ -1,0 +1,12 @@
+id = 'jalview'
+name = 'jalview'
+
+homepage = 'https://www.jalview.org'
+
+[[package]]
+channel = 'debian'
+name = 'jalview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/jalview'

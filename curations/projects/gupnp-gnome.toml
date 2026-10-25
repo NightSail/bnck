@@ -1,0 +1,8 @@
+id = 'gupnp-gnome'
+name = 'gupnp'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gupnp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gupnp'

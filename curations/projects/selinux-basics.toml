@@ -1,0 +1,6 @@
+id = 'selinux-basics'
+name = 'selinux-basics'
+
+[[package]]
+channel = 'debian'
+name = 'selinux-basics'

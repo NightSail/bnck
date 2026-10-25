@@ -1,0 +1,12 @@
+id = 'fernet-go'
+name = 'fernet-go'
+
+homepage = 'https://github.com/fernet/fernet-go'
+
+[[package]]
+channel = 'debian'
+name = 'fernet-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-fernet'

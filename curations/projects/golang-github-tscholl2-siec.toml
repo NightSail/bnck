@@ -1,0 +1,8 @@
+id = 'golang-github-tscholl2-siec'
+name = 'golang-github-tscholl2-siec'
+
+homepage = 'https://github.com/tscholl2/siec'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-tscholl2-siec'

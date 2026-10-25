@@ -1,0 +1,8 @@
+id = 'python3-statmake'
+name = 'python3-statmake'
+
+homepage = 'https://github.com/daltonmaag/statmake'
+
+[[package]]
+channel = 'debian'
+name = 'python3-statmake'

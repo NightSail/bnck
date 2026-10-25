@@ -1,0 +1,12 @@
+id = 'tox'
+name = 'tox'
+
+homepage = 'https://tox.chat'
+
+[[package]]
+channel = 'arch'
+name = 'toxcore'
+
+[[package]]
+channel = 'debian'
+name = 'toxcore-utils'

@@ -1,0 +1,16 @@
+id = 'findpython'
+name = 'findpython'
+
+homepage = 'https://github.com/frostming/findpython'
+
+[[package]]
+channel = 'arch'
+name = 'python-findpython'
+
+[[package]]
+channel = 'debian'
+name = 'python3-findpython'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-findpython'

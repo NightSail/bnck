@@ -1,0 +1,8 @@
+id = 'ctags-lsp'
+name = 'ctags-lsp'
+
+homepage = 'https://github.com/netmute/ctags-lsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctags-lsp'

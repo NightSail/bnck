@@ -1,0 +1,12 @@
+id = 'mate-menu'
+name = 'mate-menu'
+
+homepage = 'https://github.com/ubuntu-mate/mate-menu'
+
+[[package]]
+channel = 'debian'
+name = 'mate-menu'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-menu'

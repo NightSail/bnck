@@ -1,0 +1,8 @@
+id = 'curvedns'
+name = 'curvedns'
+
+homepage = 'http://curvedns.on2it.net'
+
+[[package]]
+channel = 'debian'
+name = 'curvedns'

@@ -1,0 +1,9 @@
+id = 'herdr-ogulcancelik'
+name = 'herdr'
+
+homepage = 'https://herdr.dev'
+repository = 'https://github.com/ogulcancelik/herdr'
+
+[[package]]
+channel = 'crates.io'
+name = 'herdr'

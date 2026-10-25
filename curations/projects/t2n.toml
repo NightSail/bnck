@@ -1,0 +1,8 @@
+id = 't2n'
+name = 't2n'
+
+homepage = 'https://www-verimag.imag.fr/~raymond/home/tools/t2n'
+
+[[package]]
+channel = 'debian'
+name = 't2n'

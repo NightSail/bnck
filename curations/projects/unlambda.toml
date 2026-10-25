@@ -1,0 +1,16 @@
+id = 'unlambda'
+name = 'unlambda'
+
+homepage = 'https://github.com/abbradar/unlambda'
+
+[[package]]
+channel = 'arch'
+name = 'unlambda'
+
+[[package]]
+channel = 'debian'
+name = 'unlambda'
+
+[[package]]
+channel = 'fedora'
+name = 'unlambda'

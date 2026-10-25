@@ -1,0 +1,8 @@
+id = 'crispy-doom'
+name = 'crispy-doom'
+
+repository = 'https://github.com/fabiangreffrath/crispy-doom.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crispy-doom'

@@ -1,0 +1,8 @@
+id = 'ray'
+name = 'ray'
+
+homepage = 'https://denovoassembler.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ray'

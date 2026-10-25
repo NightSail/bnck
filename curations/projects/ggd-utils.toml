@@ -1,0 +1,8 @@
+id = 'ggd-utils'
+name = 'ggd-utils'
+
+homepage = 'https://github.com/gogetdata/ggd-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ggd-utils'

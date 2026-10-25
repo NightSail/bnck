@@ -1,0 +1,8 @@
+id = 'ruby-bacon'
+name = 'ruby-bacon'
+
+homepage = 'https://github.com/leahneukirchen/bacon'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-bacon'

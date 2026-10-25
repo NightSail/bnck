@@ -1,0 +1,8 @@
+id = 'oping'
+name = 'oping'
+
+repository = 'https://github.com/cfallin/rust-oping'
+
+[[package]]
+channel = 'crates.io'
+name = 'oping'

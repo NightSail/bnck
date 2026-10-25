@@ -1,0 +1,8 @@
+id = 'nullidentd'
+name = 'nullidentd'
+
+homepage = 'https://web.archive.org/web/20171106204617/http://www.tildeslash.org/nullidentd.html'
+
+[[package]]
+channel = 'debian'
+name = 'nullidentd'

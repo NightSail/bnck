@@ -1,0 +1,8 @@
+id = 'contentful-cli'
+name = 'contentful-cli'
+
+homepage = 'https://www.contentful.com/developers/docs/tutorials/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/contentful-cli'

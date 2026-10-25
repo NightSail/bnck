@@ -1,0 +1,16 @@
+id = 'boinctui'
+name = 'boinctui'
+
+homepage = 'https://sourceforge.net/projects/boinctui'
+
+[[package]]
+channel = 'arch'
+name = 'boinctui'
+
+[[package]]
+channel = 'debian'
+name = 'boinctui'
+
+[[package]]
+channel = 'fedora'
+name = 'boinc-tui'

@@ -1,0 +1,10 @@
+id = 'dynamite'
+name = 'dynamite'
+
+[[package]]
+channel = 'debian'
+name = 'dynamite'
+
+[[package]]
+channel = 'fedora'
+name = 'dynamite'

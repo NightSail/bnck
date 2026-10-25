@@ -1,0 +1,12 @@
+id = 'gmt'
+name = 'gmt'
+
+homepage = 'http://gmt.soest.hawaii.edu'
+
+[[package]]
+channel = 'debian'
+name = 'gmt'
+
+[[package]]
+channel = 'debian'
+name = 'libgmt-dev'

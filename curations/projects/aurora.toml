@@ -1,0 +1,9 @@
+id = 'aurora'
+name = 'aurora'
+
+homepage = 'https://xuri.me/aurora'
+repository = 'https://github.com/xuri/aurora.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aurora'

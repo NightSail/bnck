@@ -1,0 +1,12 @@
+id = 'mathicgb'
+name = 'mathicgb'
+
+homepage = 'https://github.com/Macaulay2/mathicgb'
+
+[[package]]
+channel = 'debian'
+name = 'mathicgb'
+
+[[package]]
+channel = 'fedora'
+name = 'mathicgb'

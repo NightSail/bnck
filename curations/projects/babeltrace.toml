@@ -1,0 +1,20 @@
+id = 'babeltrace'
+name = 'babeltrace'
+
+homepage = 'https://www.efficios.com/babeltrace'
+
+[[package]]
+channel = 'debian'
+name = 'babeltrace'
+
+[[package]]
+channel = 'debian'
+name = 'babeltrace2'
+
+[[package]]
+channel = 'fedora'
+name = 'babeltrace'
+
+[[package]]
+channel = 'fedora'
+name = 'babeltrace2'

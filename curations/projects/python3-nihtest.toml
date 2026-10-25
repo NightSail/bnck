@@ -1,0 +1,8 @@
+id = 'python3-nihtest'
+name = 'python3-nihtest'
+
+homepage = 'https://github.com/nih-at/nihtest'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nihtest'

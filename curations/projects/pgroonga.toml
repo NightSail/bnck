@@ -1,0 +1,8 @@
+id = 'pgroonga'
+name = 'pgroonga'
+
+homepage = 'https://pgroonga.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgroonga'

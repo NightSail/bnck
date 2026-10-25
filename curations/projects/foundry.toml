@@ -1,0 +1,21 @@
+id = 'foundry'
+name = 'foundry'
+
+homepage = 'https://gitlab.gnome.org/GNOME/foundry'
+repository = 'https://github.com/foundry-rs/foundry.git'
+
+[[package]]
+channel = 'arch'
+name = 'foundry'
+
+[[package]]
+channel = 'debian'
+name = 'foundry'
+
+[[package]]
+channel = 'fedora'
+name = 'foundry'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/foundry'

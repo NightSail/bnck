@@ -1,0 +1,8 @@
+id = 'riemann'
+name = 'riemann'
+
+homepage = 'https://riemann.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/riemann'

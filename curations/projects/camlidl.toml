@@ -1,0 +1,8 @@
+id = 'camlidl'
+name = 'camlidl'
+
+homepage = 'https://github.com/xavierleroy/camlidl'
+
+[[package]]
+channel = 'debian'
+name = 'camlidl'

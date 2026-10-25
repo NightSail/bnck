@@ -1,0 +1,8 @@
+id = 'greaseweazle'
+name = 'greaseweazle'
+
+homepage = 'https://github.com/keirf/greaseweazle'
+
+[[package]]
+channel = 'debian'
+name = 'greaseweazle'

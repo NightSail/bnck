@@ -1,0 +1,12 @@
+id = 'voms-clients-java'
+name = 'voms-clients-java'
+
+homepage = 'https://github.com/italiangrid/voms-clients'
+
+[[package]]
+channel = 'debian'
+name = 'voms-clients-java'
+
+[[package]]
+channel = 'fedora'
+name = 'voms-clients-java'

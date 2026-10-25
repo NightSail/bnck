@@ -1,0 +1,8 @@
+id = 'graft'
+name = 'graft'
+
+homepage = 'https://github.com/trailhq/Graft'
+
+[[package]]
+channel = 'arch'
+name = 'graft'

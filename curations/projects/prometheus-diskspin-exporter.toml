@@ -1,0 +1,8 @@
+id = 'prometheus-diskspin-exporter'
+name = 'prometheus-diskspin-exporter'
+
+homepage = 'https://github.com/gagath/prometheus-diskspin-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-diskspin-exporter'

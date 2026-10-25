@@ -1,0 +1,12 @@
+id = 'poxml'
+name = 'poxml'
+
+homepage = 'https://invent.kde.org/sdk/poxml'
+
+[[package]]
+channel = 'debian'
+name = 'poxml'
+
+[[package]]
+channel = 'fedora'
+name = 'poxml'

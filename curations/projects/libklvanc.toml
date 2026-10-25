@@ -1,0 +1,8 @@
+id = 'libklvanc'
+name = 'libklvanc'
+
+repository = 'https://github.com/stoth68000/libklvanc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libklvanc'

@@ -1,0 +1,8 @@
+id = 'python3-pygalmesh'
+name = 'python3-pygalmesh'
+
+homepage = 'https://github.com/nschloe/pygalmesh'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pygalmesh'

@@ -1,0 +1,21 @@
+id = 'luarocks'
+name = 'luarocks'
+
+homepage = 'https://luarocks.org'
+repository = 'https://github.com/luarocks/luarocks.git'
+
+[[package]]
+channel = 'arch'
+name = 'luarocks'
+
+[[package]]
+channel = 'debian'
+name = 'luarocks'
+
+[[package]]
+channel = 'fedora'
+name = 'luarocks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luarocks'

@@ -1,0 +1,8 @@
+id = 'ruby-proxifier'
+name = 'ruby-proxifier'
+
+homepage = 'https://github.com/samuelkadolph/ruby-proxifier'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-proxifier'

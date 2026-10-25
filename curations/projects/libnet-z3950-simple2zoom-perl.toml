@@ -1,0 +1,6 @@
+id = 'libnet-z3950-simple2zoom-perl'
+name = 'libnet-z3950-simple2zoom-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-z3950-simple2zoom-perl'

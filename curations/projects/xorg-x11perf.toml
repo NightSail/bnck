@@ -1,0 +1,8 @@
+id = 'xorg-x11perf'
+name = 'xorg-x11perf'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/test/x11perf'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-x11perf'

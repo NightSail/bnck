@@ -1,0 +1,8 @@
+id = 'libsilo-bin'
+name = 'libsilo-bin'
+
+homepage = 'https://wci.llnl.gov/simulation/computer-codes/silo'
+
+[[package]]
+channel = 'debian'
+name = 'libsilo-bin'

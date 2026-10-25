@@ -1,0 +1,17 @@
+id = 'arduino-cli'
+name = 'arduino-cli'
+
+homepage = 'https://arduino.github.io/arduino-cli/latest'
+repository = 'https://github.com/arduino/arduino-cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'arduino-cli'
+
+[[package]]
+channel = 'debian'
+name = 'arduino-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arduino-cli'

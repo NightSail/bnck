@@ -1,0 +1,16 @@
+id = 'ncview'
+name = 'ncview'
+
+homepage = 'https://cirrus.ucsd.edu/ncview'
+
+[[package]]
+channel = 'debian'
+name = 'ncview'
+
+[[package]]
+channel = 'fedora'
+name = 'ncview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncview'

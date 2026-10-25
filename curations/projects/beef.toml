@@ -1,0 +1,8 @@
+id = 'beef'
+name = 'beef'
+
+homepage = 'https://kiyuko.org/software/beef'
+
+[[package]]
+channel = 'debian'
+name = 'beef'

@@ -1,0 +1,8 @@
+id = 'libregf-utils'
+name = 'libregf-utils'
+
+homepage = 'https://github.com/libyal/libregf'
+
+[[package]]
+channel = 'debian'
+name = 'libregf-utils'

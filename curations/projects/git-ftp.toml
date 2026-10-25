@@ -1,0 +1,17 @@
+id = 'git-ftp'
+name = 'git-ftp'
+
+homepage = 'https://github.com/git-ftp'
+repository = 'https://github.com/git-ftp/git-ftp.git'
+
+[[package]]
+channel = 'debian'
+name = 'git-ftp'
+
+[[package]]
+channel = 'fedora'
+name = 'git-ftp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-ftp'

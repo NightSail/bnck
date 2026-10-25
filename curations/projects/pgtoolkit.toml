@@ -1,0 +1,8 @@
+id = 'pgtoolkit'
+name = 'pgtoolkit'
+
+homepage = 'https://github.com/grayhemp/pgtoolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgtoolkit'

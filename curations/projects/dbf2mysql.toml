@@ -1,0 +1,8 @@
+id = 'dbf2mysql'
+name = 'dbf2mysql'
+
+homepage = 'http://dbf2mysql.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dbf2mysql'

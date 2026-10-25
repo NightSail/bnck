@@ -1,0 +1,6 @@
+id = 'wav2cdr'
+name = 'wav2cdr'
+
+[[package]]
+channel = 'debian'
+name = 'wav2cdr'

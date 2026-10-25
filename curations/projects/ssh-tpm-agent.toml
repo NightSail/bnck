@@ -1,0 +1,12 @@
+id = 'ssh-tpm-agent'
+name = 'ssh-tpm-agent'
+
+homepage = 'https://github.com/Foxboron/ssh-tpm-agent'
+
+[[package]]
+channel = 'arch'
+name = 'ssh-tpm-agent'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-tpm-agent'

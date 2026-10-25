@@ -1,0 +1,8 @@
+id = 'perl-mojolicious'
+name = 'perl-Mojolicious'
+
+homepage = 'https://metacpan.org/release/Mojolicious'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mojolicious'

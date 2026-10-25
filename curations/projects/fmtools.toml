@@ -1,0 +1,16 @@
+id = 'fmtools'
+name = 'fmtools'
+
+homepage = 'https://benpfaff.org/fmtools'
+
+[[package]]
+channel = 'debian'
+name = 'fmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'fmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'fmtools-tkradio'

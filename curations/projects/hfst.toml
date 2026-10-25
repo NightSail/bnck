@@ -1,0 +1,12 @@
+id = 'hfst'
+name = 'hfst'
+
+homepage = 'https://hfst.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'hfst'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hfstospell'

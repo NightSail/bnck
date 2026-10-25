@@ -1,0 +1,8 @@
+id = 'bookloupe'
+name = 'bookloupe'
+
+homepage = 'http://www.juiblex.co.uk/pgdp/bookloupe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bookloupe'

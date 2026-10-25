@@ -1,0 +1,8 @@
+id = 'cnrun-tools'
+name = 'cnrun-tools'
+
+homepage = 'http://johnhommer.com/academic/code/cnrun'
+
+[[package]]
+channel = 'debian'
+name = 'cnrun-tools'

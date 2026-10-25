@@ -1,0 +1,12 @@
+id = 'snooze'
+name = 'snooze'
+
+homepage = 'https://github.com/leahneukirchen/snooze'
+
+[[package]]
+channel = 'debian'
+name = 'snooze'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snooze'

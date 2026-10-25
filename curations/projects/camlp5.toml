@@ -1,0 +1,16 @@
+id = 'camlp5'
+name = 'camlp5'
+
+homepage = 'https://camlp5.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'camlp5'
+
+[[package]]
+channel = 'debian'
+name = 'camlp5'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-camlp5-devel'

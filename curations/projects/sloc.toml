@@ -1,0 +1,8 @@
+id = 'sloc'
+name = 'sloc'
+
+homepage = 'https://github.com/flosse/sloc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sloc'

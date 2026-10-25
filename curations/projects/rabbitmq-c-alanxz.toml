@@ -1,0 +1,8 @@
+id = 'rabbitmq-c-alanxz'
+name = 'rabbitmq-c'
+
+repository = 'https://github.com/alanxz/rabbitmq-c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rabbitmq-c'

@@ -1,0 +1,12 @@
+id = 'pktools'
+name = 'pktools'
+
+homepage = 'https://pktools.nongnu.org'
+
+[[package]]
+channel = 'debian'
+name = 'pktools'
+
+[[package]]
+channel = 'debian'
+name = 'pktools-dev'

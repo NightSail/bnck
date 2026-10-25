@@ -1,0 +1,8 @@
+id = 'mcstrans'
+name = 'mcstrans'
+
+homepage = 'https://github.com/SELinuxProject'
+
+[[package]]
+channel = 'debian'
+name = 'mcstrans'

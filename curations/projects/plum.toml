@@ -1,0 +1,8 @@
+id = 'plum'
+name = 'plum'
+
+homepage = 'https://plum.madoka.org/plum.html'
+
+[[package]]
+channel = 'debian'
+name = 'plum'

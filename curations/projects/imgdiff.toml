@@ -1,0 +1,8 @@
+id = 'imgdiff'
+name = 'imgdiff'
+
+repository = 'https://github.com/n7olkachev/imgdiff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imgdiff'

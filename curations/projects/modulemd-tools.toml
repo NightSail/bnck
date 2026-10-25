@@ -1,0 +1,8 @@
+id = 'modulemd-tools'
+name = 'modulemd-tools'
+
+homepage = 'https://github.com/rpm-software-management/modulemd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'modulemd-tools'

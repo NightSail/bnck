@@ -1,0 +1,8 @@
+id = 'collision'
+name = 'collision'
+
+homepage = 'https://apps.gnome.org/Collision'
+
+[[package]]
+channel = 'arch'
+name = 'collision'

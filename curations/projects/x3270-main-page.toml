@@ -1,0 +1,16 @@
+id = 'x3270-main-page'
+name = 'x3270'
+
+homepage = 'https://x3270.miraheze.org/wiki/Main_Page'
+
+[[package]]
+channel = 'fedora'
+name = 'x3270'
+
+[[package]]
+channel = 'fedora'
+name = 'x3270-text'
+
+[[package]]
+channel = 'fedora'
+name = 'x3270-x11'

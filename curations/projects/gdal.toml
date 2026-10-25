@@ -1,0 +1,32 @@
+id = 'gdal'
+name = 'gdal'
+
+homepage = 'https://gdal.org'
+
+[[package]]
+channel = 'arch'
+name = 'gdal'
+
+[[package]]
+channel = 'arch'
+name = 'python-gdal'
+
+[[package]]
+channel = 'debian'
+name = 'gdal-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libgdal-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'gdal'
+
+[[package]]
+channel = 'fedora'
+name = 'gdal-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gdal-python-tools'

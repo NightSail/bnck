@@ -1,0 +1,25 @@
+id = 'fs-uae'
+name = 'fs-uae'
+
+homepage = 'https://fs-uae.net'
+repository = 'https://github.com/FrodeSolheim/fs-uae.git'
+
+[[package]]
+channel = 'arch'
+name = 'fs-uae'
+
+[[package]]
+channel = 'arch'
+name = 'fs-uae-launcher'
+
+[[package]]
+channel = 'debian'
+name = 'fs-uae'
+
+[[package]]
+channel = 'debian'
+name = 'fs-uae-arcade'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fs-uae'

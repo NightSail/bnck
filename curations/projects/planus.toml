@@ -1,0 +1,8 @@
+id = 'planus'
+name = 'planus'
+
+repository = 'https://github.com/planus-org/planus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/planus'

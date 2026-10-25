@@ -1,0 +1,20 @@
+id = 'fai-project'
+name = 'fai-project'
+
+homepage = 'https://fai-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'fai-client'
+
+[[package]]
+channel = 'debian'
+name = 'fai-nfsroot'
+
+[[package]]
+channel = 'debian'
+name = 'fai-server'
+
+[[package]]
+channel = 'debian'
+name = 'fai-setup-storage'

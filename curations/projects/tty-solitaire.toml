@@ -1,0 +1,12 @@
+id = 'tty-solitaire'
+name = 'tty-solitaire'
+
+homepage = 'https://github.com/mpereira/tty-solitaire'
+
+[[package]]
+channel = 'arch'
+name = 'tty-solitaire'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tty-solitaire'

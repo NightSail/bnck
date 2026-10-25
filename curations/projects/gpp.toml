@@ -1,0 +1,12 @@
+id = 'gpp'
+name = 'gpp'
+
+homepage = 'https://logological.org/gpp'
+
+[[package]]
+channel = 'debian'
+name = 'gpp'
+
+[[package]]
+channel = 'fedora'
+name = 'general-purpose-preprocessor'

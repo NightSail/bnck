@@ -1,0 +1,10 @@
+id = 'jstest-gtk'
+name = 'jstest-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'jstest-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'jstest-gtk'

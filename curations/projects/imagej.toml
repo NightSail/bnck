@@ -1,0 +1,12 @@
+id = 'imagej'
+name = 'imagej'
+
+homepage = 'https://imagej.nih.gov/ij'
+
+[[package]]
+channel = 'debian'
+name = 'imagej'
+
+[[package]]
+channel = 'fedora'
+name = 'imagej'

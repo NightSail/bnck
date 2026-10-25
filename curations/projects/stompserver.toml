@@ -1,0 +1,8 @@
+id = 'stompserver'
+name = 'stompserver'
+
+homepage = 'http://stompserver.rubyforge.org'
+
+[[package]]
+channel = 'debian'
+name = 'stompserver'

@@ -1,0 +1,8 @@
+id = 'maturin-pyo3'
+name = 'maturin'
+
+repository = 'https://github.com/PyO3/maturin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/maturin'

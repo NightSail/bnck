@@ -1,0 +1,9 @@
+id = 'gluon'
+name = 'gluon'
+
+homepage = 'https://gluon-lang.org'
+repository = 'https://github.com/gluon-lang/gluon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gluon'

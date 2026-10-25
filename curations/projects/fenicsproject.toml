@@ -1,0 +1,36 @@
+id = 'fenicsproject'
+name = 'fenicsproject'
+
+homepage = 'http://fenicsproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'dolfin-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libmshr-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dijitso'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ffc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ffcx'
+
+[[package]]
+channel = 'fedora'
+name = 'dolfin'
+
+[[package]]
+channel = 'fedora'
+name = 'dolfin-doc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dolfin'

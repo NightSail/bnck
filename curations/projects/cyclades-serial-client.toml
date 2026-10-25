@@ -1,0 +1,6 @@
+id = 'cyclades-serial-client'
+name = 'cyclades-serial-client'
+
+[[package]]
+channel = 'debian'
+name = 'cyclades-serial-client'

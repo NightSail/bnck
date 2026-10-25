@@ -1,0 +1,8 @@
+id = 'pyspelling'
+name = 'pyspelling'
+
+homepage = 'https://facelessuser.github.io/pyspelling'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyspelling'

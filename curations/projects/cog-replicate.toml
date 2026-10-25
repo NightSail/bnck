@@ -1,0 +1,9 @@
+id = 'cog-replicate'
+name = 'cog'
+
+homepage = 'https://cog.run'
+repository = 'https://github.com/replicate/cog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cog'

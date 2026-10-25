@@ -1,0 +1,20 @@
+id = 'homebank'
+name = 'homebank'
+
+homepage = 'https://www.gethomebank.org/en/index.php'
+
+[[package]]
+channel = 'arch'
+name = 'homebank'
+
+[[package]]
+channel = 'debian'
+name = 'homebank'
+
+[[package]]
+channel = 'fedora'
+name = 'homebank'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/homebank'

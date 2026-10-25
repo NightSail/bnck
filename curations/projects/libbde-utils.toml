@@ -1,0 +1,8 @@
+id = 'libbde-utils'
+name = 'libbde-utils'
+
+homepage = 'https://github.com/libyal/libbde'
+
+[[package]]
+channel = 'debian'
+name = 'libbde-utils'

@@ -1,0 +1,8 @@
+id = 'libctl-dev'
+name = 'libctl-dev'
+
+homepage = 'http://ab-initio.mit.edu/wiki/index.php/Libctl'
+
+[[package]]
+channel = 'debian'
+name = 'libctl-dev'

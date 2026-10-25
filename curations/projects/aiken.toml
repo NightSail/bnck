@@ -1,0 +1,9 @@
+id = 'aiken'
+name = 'aiken'
+
+homepage = 'https://aiken-lang.org'
+repository = 'https://github.com/aiken-lang/aiken.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aiken'

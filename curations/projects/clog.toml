@@ -1,0 +1,13 @@
+id = 'clog'
+name = 'clog'
+
+homepage = 'https://gothenburgbitfactory.org/clog/docs'
+repository = 'https://github.com/GothenburgBitFactory/clog.git'
+
+[[package]]
+channel = 'debian'
+name = 'clog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clog'

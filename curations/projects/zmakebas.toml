@@ -1,0 +1,6 @@
+id = 'zmakebas'
+name = 'zmakebas'
+
+[[package]]
+channel = 'debian'
+name = 'zmakebas'

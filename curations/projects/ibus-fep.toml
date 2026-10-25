@@ -1,0 +1,8 @@
+id = 'ibus-fep'
+name = 'ibus-fep'
+
+homepage = 'https://github.com/ueno/ibus-fep'
+
+[[package]]
+channel = 'fedora'
+name = 'ibus-fep'

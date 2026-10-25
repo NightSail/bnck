@@ -1,0 +1,12 @@
+id = 'generic-mapping-tools'
+name = 'generic-mapping-tools'
+
+homepage = 'https://www.generic-mapping-tools.org'
+
+[[package]]
+channel = 'arch'
+name = 'gmt'
+
+[[package]]
+channel = 'fedora'
+name = 'GMT'

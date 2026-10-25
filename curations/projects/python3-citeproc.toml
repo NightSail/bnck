@@ -1,0 +1,8 @@
+id = 'python3-citeproc'
+name = 'python3-citeproc'
+
+homepage = 'https://github.com/brechtm/citeproc-py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-citeproc'

@@ -1,0 +1,16 @@
+id = 'xdg-terminal-exec'
+name = 'xdg-terminal-exec'
+
+homepage = 'https://github.com/Vladimir-csp/xdg-terminal-exec'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-terminal-exec'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-terminal-exec'
+
+[[package]]
+channel = 'fedora'
+name = 'xdg-terminal-exec'

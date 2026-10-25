@@ -1,0 +1,8 @@
+id = 'storymaps'
+name = 'storymaps'
+
+homepage = 'http://seanh.github.com/storymaps'
+
+[[package]]
+channel = 'debian'
+name = 'storymaps'

@@ -1,0 +1,8 @@
+id = 'python-setuptools-git-versioning'
+name = 'python-setuptools-git-versioning'
+
+homepage = 'https://github.com/dolfinus/setuptools-git-versioning'
+
+[[package]]
+channel = 'arch'
+name = 'python-setuptools-git-versioning'

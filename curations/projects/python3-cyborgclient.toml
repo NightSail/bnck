@@ -1,0 +1,8 @@
+id = 'python3-cyborgclient'
+name = 'python3-cyborgclient'
+
+homepage = 'https://opendev.org/openstack/python-cyborgclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cyborgclient'

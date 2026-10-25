@@ -1,0 +1,16 @@
+id = 'qtile'
+name = 'qtile'
+
+homepage = 'https://qtile.org'
+
+[[package]]
+channel = 'arch'
+name = 'qtile'
+
+[[package]]
+channel = 'debian'
+name = 'qtile'
+
+[[package]]
+channel = 'fedora'
+name = 'qtile'

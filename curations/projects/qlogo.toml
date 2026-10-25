@@ -1,0 +1,8 @@
+id = 'qlogo'
+name = 'qlogo'
+
+homepage = 'https://qlogo.org'
+
+[[package]]
+channel = 'debian'
+name = 'qlogo'

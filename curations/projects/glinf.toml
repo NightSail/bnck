@@ -1,0 +1,8 @@
+id = 'glinf'
+name = 'glinf'
+
+homepage = 'https://marlam.de/glinf'
+
+[[package]]
+channel = 'fedora'
+name = 'glinf'

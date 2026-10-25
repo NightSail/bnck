@@ -1,0 +1,8 @@
+id = 'as-tree'
+name = 'as-tree'
+
+homepage = 'https://github.com/jez/as-tree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/as-tree'

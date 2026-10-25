@@ -1,0 +1,8 @@
+id = 'node-mqtt'
+name = 'node-mqtt'
+
+homepage = 'https://github.com/mqttjs/MQTT.js'
+
+[[package]]
+channel = 'debian'
+name = 'node-mqtt'

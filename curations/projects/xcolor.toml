@@ -1,0 +1,8 @@
+id = 'xcolor'
+name = 'xcolor'
+
+homepage = 'https://github.com/Soft/xcolor'
+
+[[package]]
+channel = 'arch'
+name = 'xcolor'

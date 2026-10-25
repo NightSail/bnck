@@ -1,0 +1,8 @@
+id = 'scrollz'
+name = 'scrollz'
+
+homepage = 'http://www.scrollz.info'
+
+[[package]]
+channel = 'debian'
+name = 'scrollz'

@@ -1,0 +1,16 @@
+id = 'ckb-next'
+name = 'ckb-next'
+
+homepage = 'https://github.com/ckb-next/ckb-next'
+
+[[package]]
+channel = 'arch'
+name = 'ckb-next'
+
+[[package]]
+channel = 'debian'
+name = 'ckb-next'
+
+[[package]]
+channel = 'fedora'
+name = 'ckb-next'

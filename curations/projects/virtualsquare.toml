@@ -1,0 +1,36 @@
+id = 'virtualsquare'
+name = 'virtualsquare'
+
+homepage = 'http://www.virtualsquare.org'
+
+[[package]]
+channel = 'debian'
+name = 'cado'
+
+[[package]]
+channel = 'debian'
+name = 'randmac'
+
+[[package]]
+channel = 'debian'
+name = 'userbindmount'
+
+[[package]]
+channel = 'debian'
+name = 'vdens'
+
+[[package]]
+channel = 'debian'
+name = 'vdetelweb'
+
+[[package]]
+channel = 'debian'
+name = 'vuos-cmds'
+
+[[package]]
+channel = 'debian'
+name = 'vuos-modules'
+
+[[package]]
+channel = 'debian'
+name = 'vuos-umvu'

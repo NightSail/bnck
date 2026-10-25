@@ -1,0 +1,8 @@
+id = 'node-ws'
+name = 'node-ws'
+
+homepage = 'https://github.com/websockets/ws'
+
+[[package]]
+channel = 'debian'
+name = 'node-ws'

@@ -1,0 +1,8 @@
+id = 'truetree'
+name = 'truetree'
+
+homepage = 'https://themittenmac.com/the-truetree-concept'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/truetree'

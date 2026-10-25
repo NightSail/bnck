@@ -1,0 +1,16 @@
+id = 'libwacom'
+name = 'libwacom'
+
+homepage = 'https://github.com/linuxwacom/libwacom/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'libwacom'
+
+[[package]]
+channel = 'fedora'
+name = 'libwacom'
+
+[[package]]
+channel = 'fedora'
+name = 'libwacom-utils'

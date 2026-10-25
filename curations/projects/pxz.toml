@@ -1,0 +1,8 @@
+id = 'pxz'
+name = 'pxz'
+
+homepage = 'https://jnovy.fedorapeople.org/pxz'
+
+[[package]]
+channel = 'fedora'
+name = 'pxz'

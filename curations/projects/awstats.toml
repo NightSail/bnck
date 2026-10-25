@@ -1,0 +1,8 @@
+id = 'awstats'
+name = 'awstats'
+
+homepage = 'http://awstats.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'awstats'

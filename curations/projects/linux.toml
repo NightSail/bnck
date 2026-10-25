@@ -1,0 +1,16 @@
+id = 'linux'
+name = 'linux'
+
+homepage = 'https://gitlab.com/interception/linux/tools'
+
+[[package]]
+channel = 'arch'
+name = 'interception-tools'
+
+[[package]]
+channel = 'debian'
+name = 'interception-tools'
+
+[[package]]
+channel = 'debian'
+name = 'interception-tools-compat'

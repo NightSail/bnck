@@ -1,0 +1,8 @@
+id = 'adsb-deku'
+name = 'adsb_deku'
+
+homepage = 'https://github.com/rsadsb/adsb_deku'
+
+[[package]]
+channel = 'arch'
+name = 'adsb_deku'

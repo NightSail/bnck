@@ -1,0 +1,12 @@
+id = 'michael-michael'
+name = 'michael'
+
+homepage = 'http://users.actrix.gen.nz/michael/vhman2html.html'
+
+[[package]]
+channel = 'debian'
+name = 'man2html'
+
+[[package]]
+channel = 'debian'
+name = 'man2html-base'

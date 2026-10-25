@@ -1,0 +1,8 @@
+id = 'gramophone2'
+name = 'gramophone2'
+
+homepage = 'http://gramophone2.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gramophone2'

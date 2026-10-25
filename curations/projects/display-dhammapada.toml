@@ -1,0 +1,8 @@
+id = 'display-dhammapada'
+name = 'display-dhammapada'
+
+homepage = 'http://bodhizazen.net/display-dhammapada'
+
+[[package]]
+channel = 'debian'
+name = 'display-dhammapada'

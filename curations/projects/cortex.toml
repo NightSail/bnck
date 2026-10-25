@@ -1,0 +1,9 @@
+id = 'cortex'
+name = 'cortex'
+
+homepage = 'https://cortexmetrics.io'
+repository = 'https://github.com/cortexproject/cortex.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cortex'

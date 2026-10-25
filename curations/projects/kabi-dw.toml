@@ -1,0 +1,8 @@
+id = 'kabi-dw'
+name = 'kabi-dw'
+
+homepage = 'https://github.com/skozina/kabi-dw'
+
+[[package]]
+channel = 'fedora'
+name = 'kabi-dw'

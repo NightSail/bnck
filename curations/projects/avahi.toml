@@ -1,0 +1,56 @@
+id = 'avahi'
+name = 'avahi'
+
+homepage = 'https://avahi.org'
+
+[[package]]
+channel = 'arch'
+name = 'avahi'
+
+[[package]]
+channel = 'debian'
+name = 'avahi-autoipd'
+
+[[package]]
+channel = 'debian'
+name = 'avahi-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'avahi-discover'
+
+[[package]]
+channel = 'debian'
+name = 'avahi-dnsconfd'
+
+[[package]]
+channel = 'debian'
+name = 'avahi-ui-utils'
+
+[[package]]
+channel = 'debian'
+name = 'avahi-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'avahi'
+
+[[package]]
+channel = 'fedora'
+name = 'avahi-autoipd'
+
+[[package]]
+channel = 'fedora'
+name = 'avahi-dnsconfd'
+
+[[package]]
+channel = 'fedora'
+name = 'avahi-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'avahi-ui-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avahi'

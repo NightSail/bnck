@@ -1,0 +1,20 @@
+id = 'gdbm'
+name = 'gdbm'
+
+homepage = 'https://www.gnu.org.ua/software/gdbm'
+
+[[package]]
+channel = 'arch'
+name = 'gdbm'
+
+[[package]]
+channel = 'debian'
+name = 'gdbmtool'
+
+[[package]]
+channel = 'fedora'
+name = 'gdbm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdbm'

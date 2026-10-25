@@ -1,0 +1,8 @@
+id = 'gastown'
+name = 'gastown'
+
+repository = 'https://github.com/gastownhall/gastown.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gastown'

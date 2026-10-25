@@ -1,0 +1,8 @@
+id = 'python3-iep'
+name = 'python3-iep'
+
+homepage = 'http://www.iep-project.org'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-iep'

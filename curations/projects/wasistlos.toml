@@ -1,0 +1,8 @@
+id = 'wasistlos'
+name = 'wasistlos'
+
+homepage = 'https://github.com/xeco23/WasIstLos'
+
+[[package]]
+channel = 'debian'
+name = 'wasistlos'

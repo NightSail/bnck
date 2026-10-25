@@ -1,0 +1,8 @@
+id = 'python3-pako'
+name = 'python3-pako'
+
+homepage = 'https://github.com/MycroftAI/pako'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pako'

@@ -1,0 +1,21 @@
+id = 'qhull'
+name = 'qhull'
+
+homepage = 'http://www.qhull.org'
+repository = 'https://github.com/qhull/qhull.git'
+
+[[package]]
+channel = 'arch'
+name = 'qhull'
+
+[[package]]
+channel = 'debian'
+name = 'qhull-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'qhull'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qhull'

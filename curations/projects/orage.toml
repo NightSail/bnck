@@ -1,0 +1,12 @@
+id = 'orage'
+name = 'orage'
+
+homepage = 'https://docs.xfce.org/apps/orage/start'
+
+[[package]]
+channel = 'arch'
+name = 'orage'
+
+[[package]]
+channel = 'debian'
+name = 'orage'

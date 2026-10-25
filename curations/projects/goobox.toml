@@ -1,0 +1,12 @@
+id = 'goobox'
+name = 'goobox'
+
+homepage = 'https://gitlab.gnome.org/Archive/goobox'
+
+[[package]]
+channel = 'arch'
+name = 'goobox'
+
+[[package]]
+channel = 'debian'
+name = 'goobox'

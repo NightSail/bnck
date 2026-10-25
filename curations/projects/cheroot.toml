@@ -1,0 +1,16 @@
+id = 'cheroot'
+name = 'cheroot'
+
+homepage = 'https://github.com/cherrypy/cheroot'
+
+[[package]]
+channel = 'arch'
+name = 'python-cheroot'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cheroot'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cheroot'

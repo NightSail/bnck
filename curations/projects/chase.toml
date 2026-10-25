@@ -1,0 +1,6 @@
+id = 'chase'
+name = 'chase'
+
+[[package]]
+channel = 'debian'
+name = 'chase'

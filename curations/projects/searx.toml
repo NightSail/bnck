@@ -1,0 +1,8 @@
+id = 'searx'
+name = 'searx'
+
+homepage = 'https://asciimoo.github.io/searx'
+
+[[package]]
+channel = 'debian'
+name = 'searx'

@@ -1,0 +1,8 @@
+id = 'markdent'
+name = 'markdent'
+
+homepage = 'https://metacpan.org/release/Markdent'
+
+[[package]]
+channel = 'debian'
+name = 'markdent'

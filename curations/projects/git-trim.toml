@@ -1,0 +1,8 @@
+id = 'git-trim'
+name = 'git-trim'
+
+repository = 'https://github.com/foriequal0/git-trim.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-trim'

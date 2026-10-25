@@ -1,0 +1,16 @@
+id = 'catfish'
+name = 'catfish'
+
+homepage = 'https://docs.xfce.org/apps/catfish/start'
+
+[[package]]
+channel = 'arch'
+name = 'catfish'
+
+[[package]]
+channel = 'debian'
+name = 'catfish'
+
+[[package]]
+channel = 'fedora'
+name = 'catfish'

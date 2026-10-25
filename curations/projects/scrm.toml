@@ -1,0 +1,8 @@
+id = 'scrm'
+name = 'scrm'
+
+homepage = 'https://github.com/scrm/scrm'
+
+[[package]]
+channel = 'debian'
+name = 'scrm'

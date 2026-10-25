@@ -1,0 +1,17 @@
+id = 'subnetcalc'
+name = 'subnetcalc'
+
+homepage = 'https://www.nntb.no/~dreibh/subnetcalc'
+repository = 'https://github.com/dreibh/subnetcalc.git'
+
+[[package]]
+channel = 'debian'
+name = 'subnetcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'subnetcalc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/subnetcalc'

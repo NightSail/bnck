@@ -1,0 +1,16 @@
+id = 'maven'
+name = 'maven'
+
+homepage = 'https://maven.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'maven'
+
+[[package]]
+channel = 'fedora'
+name = 'maven4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/maven'

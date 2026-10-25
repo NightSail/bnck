@@ -1,0 +1,6 @@
+id = 'dh-ada-library'
+name = 'dh-ada-library'
+
+[[package]]
+channel = 'debian'
+name = 'dh-ada-library'

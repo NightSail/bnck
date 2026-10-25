@@ -1,0 +1,12 @@
+id = 'dsh'
+name = 'dsh'
+
+homepage = 'https://www.netfort.gr.jp/~dancer/software/dsh.html.en'
+
+[[package]]
+channel = 'debian'
+name = 'dsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dsh'

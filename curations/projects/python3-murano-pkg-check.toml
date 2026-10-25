@@ -1,0 +1,8 @@
+id = 'python3-murano-pkg-check'
+name = 'python3-murano-pkg-check'
+
+homepage = 'http://docs.openstack.org/developer/murano'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-murano-pkg-check'

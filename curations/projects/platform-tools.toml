@@ -1,0 +1,28 @@
+id = 'platform-tools'
+name = 'platform-tools'
+
+homepage = 'https://developer.android.com/studio/releases/platform-tools'
+
+[[package]]
+channel = 'debian'
+name = 'adb'
+
+[[package]]
+channel = 'debian'
+name = 'adbd'
+
+[[package]]
+channel = 'debian'
+name = 'android-sdk-libsparse-utils'
+
+[[package]]
+channel = 'debian'
+name = 'etc1tool'
+
+[[package]]
+channel = 'debian'
+name = 'fastboot'
+
+[[package]]
+channel = 'debian'
+name = 'mkbootimg'

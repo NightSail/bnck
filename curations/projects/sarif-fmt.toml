@@ -1,0 +1,13 @@
+id = 'sarif-fmt'
+name = 'sarif-fmt'
+
+homepage = 'https://crates.io/crates/sarif-fmt'
+repository = 'https://github.com/psastras/sarif-rs.git'
+
+[[package]]
+channel = 'fedora'
+name = 'sarif-fmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sarif-fmt'

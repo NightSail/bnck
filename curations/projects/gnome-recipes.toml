@@ -1,0 +1,16 @@
+id = 'gnome-recipes'
+name = 'gnome-recipes'
+
+homepage = 'https://wiki.gnome.org/Apps/Recipes'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-recipes'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-recipes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnome-recipes'

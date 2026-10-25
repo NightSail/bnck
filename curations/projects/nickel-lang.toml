@@ -1,0 +1,12 @@
+id = 'nickel-lang'
+name = 'nickel-lang'
+
+homepage = 'https://nickel-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'nickel'
+
+[[package]]
+channel = 'arch'
+name = 'nickel-language-server'

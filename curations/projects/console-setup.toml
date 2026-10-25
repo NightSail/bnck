@@ -1,0 +1,14 @@
+id = 'console-setup'
+name = 'console-setup'
+
+[[package]]
+channel = 'debian'
+name = 'bdf2psf'
+
+[[package]]
+channel = 'debian'
+name = 'console-setup'
+
+[[package]]
+channel = 'debian'
+name = 'console-setup-mini'

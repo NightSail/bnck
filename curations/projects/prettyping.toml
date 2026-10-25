@@ -1,0 +1,20 @@
+id = 'prettyping'
+name = 'prettyping'
+
+homepage = 'https://denilsonsa.github.io/prettyping'
+
+[[package]]
+channel = 'arch'
+name = 'prettyping'
+
+[[package]]
+channel = 'debian'
+name = 'prettyping'
+
+[[package]]
+channel = 'fedora'
+name = 'prettyping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prettyping'

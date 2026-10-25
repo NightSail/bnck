@@ -1,0 +1,20 @@
+id = 'rserpool'
+name = 'rserpool'
+
+homepage = 'https://www.nntb.no/~dreibh/rserpool'
+
+[[package]]
+channel = 'debian'
+name = 'rsplib-fractalpooluser'
+
+[[package]]
+channel = 'debian'
+name = 'rsplib-registrar'
+
+[[package]]
+channel = 'debian'
+name = 'rsplib-services'
+
+[[package]]
+channel = 'debian'
+name = 'rsplib-tools'

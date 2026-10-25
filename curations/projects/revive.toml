@@ -1,0 +1,13 @@
+id = 'revive'
+name = 'revive'
+
+homepage = 'https://revive.run'
+repository = 'https://github.com/mgechev/revive.git'
+
+[[package]]
+channel = 'arch'
+name = 'revive'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/revive'

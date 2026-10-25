@@ -1,0 +1,12 @@
+id = 'retsnoop'
+name = 'retsnoop'
+
+homepage = 'https://github.com/anakryiko/retsnoop'
+
+[[package]]
+channel = 'arch'
+name = 'retsnoop'
+
+[[package]]
+channel = 'fedora'
+name = 'retsnoop'

@@ -1,0 +1,8 @@
+id = 'godoctor'
+name = 'godoctor'
+
+homepage = 'https://github.com/godoctor/godoctor'
+
+[[package]]
+channel = 'fedora'
+name = 'godoctor'

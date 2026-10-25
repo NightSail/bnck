@@ -1,0 +1,8 @@
+id = 'castle-model-viewer'
+name = 'castle-model-viewer'
+
+homepage = 'https://castle-engine.io/castle-model-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'castle-model-viewer'

@@ -1,0 +1,8 @@
+id = 'pagein'
+name = 'pagein'
+
+homepage = 'https://github.com/ColinIanKing/pagein'
+
+[[package]]
+channel = 'debian'
+name = 'pagein'

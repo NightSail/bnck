@@ -1,0 +1,8 @@
+id = 'i7z'
+name = 'i7z'
+
+homepage = 'https://github.com/ajaiantilal/i7z'
+
+[[package]]
+channel = 'debian'
+name = 'i7z'

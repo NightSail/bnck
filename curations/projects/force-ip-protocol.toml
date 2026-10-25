@@ -1,0 +1,8 @@
+id = 'force-ip-protocol'
+name = 'force-ip-protocol'
+
+homepage = 'https://git.alteholz.dev/alteholz/force-ip-protocol'
+
+[[package]]
+channel = 'debian'
+name = 'force-ip-protocol'

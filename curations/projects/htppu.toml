@@ -1,0 +1,8 @@
+id = 'htppu'
+name = 'htppu'
+
+homepage = 'https://sourceforge.net/projects/htppu'
+
+[[package]]
+channel = 'fedora'
+name = 'htppu'

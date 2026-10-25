@@ -1,0 +1,8 @@
+id = 'patchmatrix'
+name = 'patchmatrix'
+
+homepage = 'https://git.open-music-kontrollers.ch/~hp/patchmatrix'
+
+[[package]]
+channel = 'arch'
+name = 'patchmatrix'

@@ -1,0 +1,17 @@
+id = 'ejabberd'
+name = 'ejabberd'
+
+homepage = 'https://www.ejabberd.im'
+repository = 'https://github.com/processone/ejabberd.git'
+
+[[package]]
+channel = 'arch'
+name = 'ejabberd'
+
+[[package]]
+channel = 'debian'
+name = 'ejabberd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ejabberd'

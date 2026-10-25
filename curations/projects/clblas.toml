@@ -1,0 +1,8 @@
+id = 'clblas'
+name = 'clblas'
+
+homepage = 'https://github.com/clMathLibraries/clBLAS'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clblas'

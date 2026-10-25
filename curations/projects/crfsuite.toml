@@ -1,0 +1,8 @@
+id = 'crfsuite'
+name = 'crfsuite'
+
+homepage = 'https://www.chokkan.org/software/crfsuite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crfsuite'

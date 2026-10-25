@@ -1,0 +1,13 @@
+id = 'dspdfviewer'
+name = 'dspdfviewer'
+
+homepage = 'https://dspdfviewer.danny-edel.de'
+repository = 'https://github.com/dannyedel/dspdfviewer.git'
+
+[[package]]
+channel = 'debian'
+name = 'dspdfviewer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dspdfviewer'

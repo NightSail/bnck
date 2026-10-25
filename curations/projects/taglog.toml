@@ -1,0 +1,8 @@
+id = 'taglog'
+name = 'taglog'
+
+homepage = 'http://johnlines.github.io/taglog'
+
+[[package]]
+channel = 'debian'
+name = 'taglog'

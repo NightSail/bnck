@@ -1,0 +1,12 @@
+id = 'synthv1'
+name = 'synthv1'
+
+homepage = 'https://synthv1.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'synthv1'
+
+[[package]]
+channel = 'fedora'
+name = 'synthv1'

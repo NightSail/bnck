@@ -1,0 +1,8 @@
+id = 'drawxtl'
+name = 'drawxtl'
+
+homepage = 'http://www.lwfinger.com/drawxtl/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'drawxtl'

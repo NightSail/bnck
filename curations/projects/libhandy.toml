@@ -1,0 +1,12 @@
+id = 'libhandy'
+name = 'libhandy'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libhandy'
+
+[[package]]
+channel = 'arch'
+name = 'libhandy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libhandy'

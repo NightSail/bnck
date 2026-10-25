@@ -1,0 +1,9 @@
+id = 'breseq'
+name = 'breseq'
+
+homepage = 'https://barricklab.org/breseq'
+repository = 'https://github.com/barricklab/breseq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/breseq'

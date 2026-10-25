@@ -1,0 +1,8 @@
+id = 'perl-cflow'
+name = 'perl-Cflow'
+
+homepage = 'http://pages.cs.wisc.edu/~plonka/Cflow'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Cflow'

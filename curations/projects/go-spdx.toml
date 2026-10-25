@@ -1,0 +1,8 @@
+id = 'go-spdx'
+name = 'go-spdx'
+
+homepage = 'https://github.com/github/go-spdx'
+
+[[package]]
+channel = 'debian'
+name = 'go-spdx'

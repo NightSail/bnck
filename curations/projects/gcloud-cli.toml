@@ -1,0 +1,8 @@
+id = 'gcloud-cli'
+name = 'gcloud-cli'
+
+homepage = 'https://cloud.google.com/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gcloud-cli'

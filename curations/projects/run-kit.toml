@@ -1,0 +1,8 @@
+id = 'run-kit'
+name = 'run-kit'
+
+repository = 'https://github.com/Esubaalew/run.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/run-kit'

@@ -1,0 +1,8 @@
+id = 'python-fabulous'
+name = 'python-fabulous'
+
+homepage = 'https://github.com/jart/fabulous'
+
+[[package]]
+channel = 'arch'
+name = 'python-fabulous'

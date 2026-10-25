@@ -1,0 +1,8 @@
+id = 'esys-particle'
+name = 'esys-particle'
+
+homepage = 'https://launchpad.net/esys-particle'
+
+[[package]]
+channel = 'debian'
+name = 'esys-particle'

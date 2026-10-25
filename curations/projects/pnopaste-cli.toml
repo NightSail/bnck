@@ -1,0 +1,8 @@
+id = 'pnopaste-cli'
+name = 'pnopaste-cli'
+
+homepage = 'http://www.sourceforge.net/projects/pnopaste'
+
+[[package]]
+channel = 'debian'
+name = 'pnopaste-cli'

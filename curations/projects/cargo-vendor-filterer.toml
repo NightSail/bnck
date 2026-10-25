@@ -1,0 +1,12 @@
+id = 'cargo-vendor-filterer'
+name = 'cargo-vendor-filterer'
+
+homepage = 'https://crates.io/crates/cargo-vendor-filterer'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-vendor-filterer'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo-vendor-filterer'

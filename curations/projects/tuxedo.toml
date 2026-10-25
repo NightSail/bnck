@@ -1,0 +1,8 @@
+id = 'tuxedo'
+name = 'tuxedo'
+
+repository = 'https://github.com/webstonehq/tuxedo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tuxedo'

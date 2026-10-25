@@ -1,0 +1,9 @@
+id = 'icarus-verilog'
+name = 'icarus-verilog'
+
+homepage = 'https://steveicarus.github.io/iverilog'
+repository = 'https://github.com/steveicarus/iverilog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icarus-verilog'

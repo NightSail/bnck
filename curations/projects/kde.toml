@@ -1,0 +1,104 @@
+id = 'kde'
+name = 'kde'
+
+homepage = 'https://www.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'baloo-widgets'
+
+[[package]]
+channel = 'arch'
+name = 'kde-dev-scripts'
+
+[[package]]
+channel = 'arch'
+name = 'kdialog'
+
+[[package]]
+channel = 'arch'
+name = 'keditbookmarks'
+
+[[package]]
+channel = 'arch'
+name = 'kosmindoormap'
+
+[[package]]
+channel = 'arch'
+name = 'kunifiedpush'
+
+[[package]]
+channel = 'arch'
+name = 'poxml'
+
+[[package]]
+channel = 'debian'
+name = 'ksystemstats'
+
+[[package]]
+channel = 'fedora'
+name = 'arts'
+
+[[package]]
+channel = 'fedora'
+name = 'arts-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'automoc'
+
+[[package]]
+channel = 'fedora'
+name = 'kcoloredit'
+
+[[package]]
+channel = 'fedora'
+name = 'kde-runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'kdebase3'
+
+[[package]]
+channel = 'fedora'
+name = 'kdegames3'
+
+[[package]]
+channel = 'fedora'
+name = 'kdelibs'
+
+[[package]]
+channel = 'fedora'
+name = 'kdelibs-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'kdelibs3'
+
+[[package]]
+channel = 'fedora'
+name = 'kdelibs3-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'kdelibs3-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kdialog'
+
+[[package]]
+channel = 'fedora'
+name = 'keditbookmarks'
+
+[[package]]
+channel = 'fedora'
+name = 'kiconedit'
+
+[[package]]
+channel = 'fedora'
+name = 'kpilot'
+
+[[package]]
+channel = 'fedora'
+name = 'minuet'

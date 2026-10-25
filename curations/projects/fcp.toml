@@ -1,0 +1,8 @@
+id = 'fcp'
+name = 'fcp'
+
+homepage = 'https://github.com/Svetlitski/fcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fcp'

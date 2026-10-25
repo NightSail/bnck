@@ -1,0 +1,12 @@
+id = 'libsmf'
+name = 'libsmf'
+
+homepage = 'https://sourceforge.net/projects/libsmf'
+
+[[package]]
+channel = 'arch'
+name = 'libsmf'
+
+[[package]]
+channel = 'debian'
+name = 'smf-utils'

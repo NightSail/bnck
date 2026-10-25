@@ -1,0 +1,8 @@
+id = 'modulejail'
+name = 'modulejail'
+
+homepage = 'https://github.com/jnuyens/modulejail'
+
+[[package]]
+channel = 'debian'
+name = 'modulejail'

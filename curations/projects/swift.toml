@@ -1,0 +1,44 @@
+id = 'swift'
+name = 'swift'
+
+homepage = 'https://www.swift.org'
+
+[[package]]
+channel = 'debian'
+name = 'swift'
+
+[[package]]
+channel = 'debian'
+name = 'swift-account'
+
+[[package]]
+channel = 'debian'
+name = 'swift-container'
+
+[[package]]
+channel = 'debian'
+name = 'swift-drive-audit'
+
+[[package]]
+channel = 'debian'
+name = 'swift-object'
+
+[[package]]
+channel = 'debian'
+name = 'swift-object-expirer'
+
+[[package]]
+channel = 'debian'
+name = 'swift-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'swiftlang'
+
+[[package]]
+channel = 'fedora'
+name = 'swift-lang'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swift'

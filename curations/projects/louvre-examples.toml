@@ -1,0 +1,8 @@
+id = 'louvre-examples'
+name = 'louvre-examples'
+
+homepage = 'https://cuarzosoftware.github.io/Louvre'
+
+[[package]]
+channel = 'fedora'
+name = 'louvre-examples'

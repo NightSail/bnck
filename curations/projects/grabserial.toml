@@ -1,0 +1,8 @@
+id = 'grabserial'
+name = 'grabserial'
+
+homepage = 'https://github.com/tbird20d/grabserial'
+
+[[package]]
+channel = 'debian'
+name = 'grabserial'

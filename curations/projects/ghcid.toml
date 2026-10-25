@@ -4,5 +4,9 @@ name = 'ghcid'
 repository = 'https://github.com/ndmitchell/ghcid'
 
 [[package]]
+channel = 'fedora'
+name = 'ghcid'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ghcid'

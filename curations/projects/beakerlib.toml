@@ -1,0 +1,12 @@
+id = 'beakerlib'
+name = 'beakerlib'
+
+homepage = 'https://github.com/beakerlib/beakerlib'
+
+[[package]]
+channel = 'fedora'
+name = 'beakerlib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beakerlib'

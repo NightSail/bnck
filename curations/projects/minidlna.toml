@@ -1,0 +1,21 @@
+id = 'minidlna'
+name = 'minidlna'
+
+homepage = 'https://sourceforge.net/projects/minidlna'
+repository = 'https://git.code.sf.net/p/minidlna/git.git'
+
+[[package]]
+channel = 'arch'
+name = 'minidlna'
+
+[[package]]
+channel = 'debian'
+name = 'minidlna'
+
+[[package]]
+channel = 'fedora'
+name = 'minidlna'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minidlna'

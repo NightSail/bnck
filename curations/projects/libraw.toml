@@ -1,0 +1,21 @@
+id = 'libraw'
+name = 'libraw'
+
+homepage = 'https://www.libraw.org'
+repository = 'https://github.com/LibRaw/LibRaw.git'
+
+[[package]]
+channel = 'arch'
+name = 'libraw'
+
+[[package]]
+channel = 'debian'
+name = 'libraw-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'LibRaw-samples'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libraw'

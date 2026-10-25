@@ -1,0 +1,12 @@
+id = 'coda'
+name = 'coda'
+
+homepage = 'http://www.coda.cs.cmu.edu'
+
+[[package]]
+channel = 'fedora'
+name = 'rpc2-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'rvm-tools'

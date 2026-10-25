@@ -1,0 +1,12 @@
+id = 'aoeui'
+name = 'aoeui'
+
+homepage = 'https://code.google.com/archive/p/aoeui'
+
+[[package]]
+channel = 'debian'
+name = 'aoeui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aoeui'

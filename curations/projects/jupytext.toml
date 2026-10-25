@@ -1,0 +1,9 @@
+id = 'jupytext'
+name = 'jupytext'
+
+homepage = 'https://jupytext.readthedocs.io/en/latest'
+repository = 'https://github.com/mwouts/jupytext.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jupytext'

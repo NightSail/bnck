@@ -1,0 +1,8 @@
+id = 'node-module-deps'
+name = 'node-module-deps'
+
+homepage = 'https://github.com/substack/module-deps'
+
+[[package]]
+channel = 'debian'
+name = 'node-module-deps'

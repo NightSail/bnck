@@ -1,0 +1,8 @@
+id = 'dbview'
+name = 'dbview'
+
+homepage = 'https://www.infodrom.org/projects/dbview'
+
+[[package]]
+channel = 'debian'
+name = 'dbview'

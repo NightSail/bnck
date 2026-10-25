@@ -1,0 +1,12 @@
+id = 'json-schema'
+name = 'json-schema'
+
+homepage = 'https://github.com/justinrainbow/json-schema'
+
+[[package]]
+channel = 'debian'
+name = 'php-json-schema'
+
+[[package]]
+channel = 'fedora'
+name = 'php-justinrainbow-json-schema5'

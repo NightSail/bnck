@@ -1,0 +1,8 @@
+id = 'solarmodel'
+name = 'SolarModel'
+
+homepage = 'http://www.ffsoftworks.com/solarmodel.php'
+
+[[package]]
+channel = 'fedora'
+name = 'SolarModel'

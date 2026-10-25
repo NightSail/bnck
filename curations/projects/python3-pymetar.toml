@@ -1,0 +1,8 @@
+id = 'python3-pymetar'
+name = 'python3-pymetar'
+
+homepage = 'http://www.schwarzvogel.de/software-pymetar.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pymetar'

@@ -12,13 +12,17 @@ channel = 'crates.io'
 name = 'just'
 
 [[package]]
+channel = 'crates.io'
+name = 'pub-just'
+
+[[package]]
 channel = 'debian'
+name = 'just'
+
+[[package]]
+channel = 'fedora'
 name = 'just'
 
 [[package]]
 channel = 'homebrew'
 name = 'homebrew/core/just'
-
-[[package]]
-channel = 'crates.io'
-name = 'pub-just'

@@ -1,0 +1,8 @@
+id = 'hyphen'
+name = 'hyphen'
+
+homepage = 'https://github.com/hunspell/hyphen'
+
+[[package]]
+channel = 'arch'
+name = 'hyphen'

@@ -1,0 +1,8 @@
+id = 'sent'
+name = 'sent'
+
+homepage = 'https://tools.suckless.org/sent'
+
+[[package]]
+channel = 'debian'
+name = 'sent'

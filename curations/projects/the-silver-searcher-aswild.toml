@@ -1,0 +1,8 @@
+id = 'the-silver-searcher-aswild'
+name = 'the_silver_searcher'
+
+homepage = 'https://github.com/aswild/the_silver_searcher'
+
+[[package]]
+channel = 'arch'
+name = 'the_silver_searcher'

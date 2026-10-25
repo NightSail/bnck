@@ -1,0 +1,8 @@
+id = 'mlogger'
+name = 'mlogger'
+
+homepage = 'https://github.com/nbrownus/mlogger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlogger'

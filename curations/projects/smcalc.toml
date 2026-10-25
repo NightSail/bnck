@@ -1,0 +1,8 @@
+id = 'smcalc'
+name = 'smcalc'
+
+homepage = 'http://smcalc.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'smcalc'

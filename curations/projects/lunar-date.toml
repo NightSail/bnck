@@ -1,0 +1,12 @@
+id = 'lunar-date'
+name = 'lunar-date'
+
+homepage = 'https://github.com/yetist/lunar-date'
+
+[[package]]
+channel = 'debian'
+name = 'lunar-date'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lunar-date'

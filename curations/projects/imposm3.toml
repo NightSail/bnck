@@ -1,0 +1,9 @@
+id = 'imposm3'
+name = 'imposm3'
+
+homepage = 'https://imposm.org/docs/imposm3/latest'
+repository = 'https://github.com/omniscale/imposm3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imposm3'

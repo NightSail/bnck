@@ -1,0 +1,8 @@
+id = 'apulse'
+name = 'apulse'
+
+homepage = 'https://github.com/i-rinat/apulse'
+
+[[package]]
+channel = 'debian'
+name = 'apulse'

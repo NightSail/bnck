@@ -1,0 +1,12 @@
+id = 'gsocket'
+name = 'gsocket'
+
+homepage = 'https://www.gsocket.io'
+
+[[package]]
+channel = 'arch'
+name = 'gsocket'
+
+[[package]]
+channel = 'debian'
+name = 'gsocket'

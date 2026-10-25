@@ -1,0 +1,8 @@
+id = 'anari-sdk'
+name = 'anari-sdk'
+
+homepage = 'https://github.com/KhronosGroup/ANARI-SDK'
+
+[[package]]
+channel = 'arch'
+name = 'anari-sdk'

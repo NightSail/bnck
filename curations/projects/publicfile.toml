@@ -1,0 +1,8 @@
+id = 'publicfile'
+name = 'publicfile'
+
+homepage = 'http://cr.yp.to/publicfile.html'
+
+[[package]]
+channel = 'debian'
+name = 'publicfile'

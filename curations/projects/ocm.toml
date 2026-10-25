@@ -1,0 +1,9 @@
+id = 'ocm'
+name = 'ocm'
+
+homepage = 'https://www.openshift.com'
+repository = 'https://github.com/openshift-online/ocm-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocm'

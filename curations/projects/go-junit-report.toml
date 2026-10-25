@@ -1,0 +1,8 @@
+id = 'go-junit-report'
+name = 'go-junit-report'
+
+homepage = 'https://github.com/jstemmer/go-junit-report'
+
+[[package]]
+channel = 'debian'
+name = 'go-junit-report'

@@ -1,0 +1,8 @@
+id = 'lterm'
+name = 'lterm'
+
+homepage = 'http://lterm.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'lterm'

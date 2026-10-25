@@ -1,0 +1,8 @@
+id = 'elm-format'
+name = 'elm-format'
+
+repository = 'https://github.com/avh4/elm-format.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elm-format'

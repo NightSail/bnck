@@ -1,0 +1,16 @@
+id = 'giflib'
+name = 'giflib'
+
+homepage = 'https://giflib.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'giflib'
+
+[[package]]
+channel = 'debian'
+name = 'giflib-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/giflib'

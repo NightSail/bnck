@@ -1,0 +1,8 @@
+id = 'rttool'
+name = 'rttool'
+
+homepage = 'https://rubygems.org/gems/rttool'
+
+[[package]]
+channel = 'debian'
+name = 'rttool'

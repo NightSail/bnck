@@ -1,0 +1,12 @@
+id = 'forgejo-runner'
+name = 'forgejo-runner'
+
+homepage = 'https://code.forgejo.org/forgejo/runner'
+
+[[package]]
+channel = 'arch'
+name = 'forgejo-runner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forgejo-runner'

@@ -1,0 +1,16 @@
+id = 'kdiskmark'
+name = 'kdiskmark'
+
+homepage = 'https://github.com/JonMagon/KDiskMark'
+
+[[package]]
+channel = 'arch'
+name = 'kdiskmark'
+
+[[package]]
+channel = 'debian'
+name = 'kdiskmark'
+
+[[package]]
+channel = 'fedora'
+name = 'kdiskmark'

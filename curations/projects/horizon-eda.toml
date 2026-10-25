@@ -1,0 +1,8 @@
+id = 'horizon-eda'
+name = 'horizon-eda'
+
+homepage = 'https://horizon-eda.org'
+
+[[package]]
+channel = 'debian'
+name = 'horizon-eda'

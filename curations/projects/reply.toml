@@ -1,0 +1,12 @@
+id = 'reply'
+name = 'Reply'
+
+homepage = 'https://metacpan.org/release/Reply'
+
+[[package]]
+channel = 'debian'
+name = 'libreply-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Reply'

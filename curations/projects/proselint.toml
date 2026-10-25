@@ -1,0 +1,13 @@
+id = 'proselint'
+name = 'proselint'
+
+homepage = '%{forgeurl}'
+repository = 'https://github.com/amperser/proselint.git'
+
+[[package]]
+channel = 'fedora'
+name = 'proselint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proselint'

@@ -1,0 +1,8 @@
+id = 'roffit'
+name = 'roffit'
+
+homepage = 'https://daniel.haxx.se/projects/roffit'
+
+[[package]]
+channel = 'debian'
+name = 'roffit'

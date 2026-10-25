@@ -1,0 +1,12 @@
+id = 'socket-getaddrinfo'
+name = 'Socket-GetAddrInfo'
+
+homepage = 'https://metacpan.org/release/Socket-GetAddrInfo'
+
+[[package]]
+channel = 'debian'
+name = 'libsocket-getaddrinfo-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Socket-GetAddrInfo'

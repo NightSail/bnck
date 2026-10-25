@@ -1,0 +1,8 @@
+id = 'ledger2beancount'
+name = 'ledger2beancount'
+
+homepage = 'https://ledger2beancount.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'ledger2beancount'

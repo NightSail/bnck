@@ -1,0 +1,8 @@
+id = 'phpbrew'
+name = 'phpbrew'
+
+homepage = 'https://phpbrew.github.io/phpbrew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phpbrew'

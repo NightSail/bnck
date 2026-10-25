@@ -1,0 +1,12 @@
+id = 'sha3sum'
+name = 'sha3sum'
+
+homepage = 'https://codeberg.org/maandree/sha3sum'
+
+[[package]]
+channel = 'arch'
+name = 'sha3sum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sha3sum'

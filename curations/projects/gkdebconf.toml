@@ -1,0 +1,6 @@
+id = 'gkdebconf'
+name = 'gkdebconf'
+
+[[package]]
+channel = 'debian'
+name = 'gkdebconf'

@@ -1,0 +1,8 @@
+id = 'debian-codesearch-cli'
+name = 'debian-codesearch-cli'
+
+homepage = 'https://salsa.debian.org/debian/codesearch-cli'
+
+[[package]]
+channel = 'debian'
+name = 'debian-codesearch-cli'

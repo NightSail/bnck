@@ -1,0 +1,8 @@
+id = 'adcli'
+name = 'adcli'
+
+homepage = 'https://gitlab.freedesktop.org/realmd/adcli'
+
+[[package]]
+channel = 'fedora'
+name = 'adcli'

@@ -1,0 +1,12 @@
+id = 'httpx'
+name = 'httpx'
+
+homepage = 'https://github.com/encode/httpx'
+
+[[package]]
+channel = 'arch'
+name = 'python-httpx'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-httpx+cli'

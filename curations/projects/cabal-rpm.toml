@@ -1,0 +1,8 @@
+id = 'cabal-rpm'
+name = 'cabal-rpm'
+
+homepage = 'https://hackage.haskell.org/package/cabal-rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'cabal-rpm'

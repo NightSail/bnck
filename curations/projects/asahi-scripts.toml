@@ -1,0 +1,20 @@
+id = 'asahi-scripts'
+name = 'asahi-scripts'
+
+homepage = 'https://github.com/AsahiLinux/asahi-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'asahi-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'asahi-fwupdate'
+
+[[package]]
+channel = 'fedora'
+name = 'asahi-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'update-m1n1'

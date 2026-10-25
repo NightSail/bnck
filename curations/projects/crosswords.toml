@@ -1,0 +1,16 @@
+id = 'crosswords'
+name = 'crosswords'
+
+homepage = 'https://gitlab.gnome.org/jrb/crosswords'
+
+[[package]]
+channel = 'fedora'
+name = 'crossword-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'crosswords'
+
+[[package]]
+channel = 'fedora'
+name = 'crosswords-thumbnailer'

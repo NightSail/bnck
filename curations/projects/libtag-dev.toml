@@ -1,0 +1,8 @@
+id = 'libtag-dev'
+name = 'libtag-dev'
+
+homepage = 'https://taglib.org'
+
+[[package]]
+channel = 'debian'
+name = 'libtag-dev'

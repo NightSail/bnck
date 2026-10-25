@@ -1,0 +1,8 @@
+id = 'container-compose'
+name = 'container-compose'
+
+repository = 'https://github.com/mcrich23/container-compose.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/container-compose'

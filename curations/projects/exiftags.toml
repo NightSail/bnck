@@ -1,0 +1,12 @@
+id = 'exiftags'
+name = 'exiftags'
+
+homepage = 'https://johnst.org/sw/exiftags'
+
+[[package]]
+channel = 'debian'
+name = 'exiftags'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exiftags'

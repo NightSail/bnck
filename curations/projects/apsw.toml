@@ -1,0 +1,12 @@
+id = 'apsw'
+name = 'apsw'
+
+homepage = 'https://github.com/rogerbinns/apsw'
+
+[[package]]
+channel = 'arch'
+name = 'python-apsw'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-apsw'

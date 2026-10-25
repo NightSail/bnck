@@ -1,0 +1,12 @@
+id = 'open-iscsi-open-iscsi'
+name = 'open-iscsi'
+
+homepage = 'https://github.com/open-iscsi/open-iscsi'
+
+[[package]]
+channel = 'fedora'
+name = 'iscsi-initiator-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'iscsi-initiator-utils-iscsiuio'

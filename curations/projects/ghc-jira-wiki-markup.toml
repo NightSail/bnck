@@ -1,0 +1,8 @@
+id = 'ghc-jira-wiki-markup'
+name = 'ghc-jira-wiki-markup'
+
+homepage = 'https://hackage.haskell.org/package/jira-wiki-markup'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-jira-wiki-markup'

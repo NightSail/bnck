@@ -1,0 +1,12 @@
+id = 'dscanner'
+name = 'dscanner'
+
+repository = 'https://github.com/dlang-community/D-Scanner.git'
+
+[[package]]
+channel = 'arch'
+name = 'dscanner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dscanner'

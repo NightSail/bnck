@@ -1,0 +1,8 @@
+id = 'solana'
+name = 'solana'
+
+homepage = 'https://www.anza.xyz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solana'

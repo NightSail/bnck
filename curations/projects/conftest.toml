@@ -1,0 +1,9 @@
+id = 'conftest'
+name = 'conftest'
+
+homepage = 'https://www.conftest.dev'
+repository = 'https://github.com/open-policy-agent/conftest.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/conftest'

@@ -1,0 +1,12 @@
+id = 'brewtarget'
+name = 'brewtarget'
+
+homepage = 'https://www.brewtarget.beer'
+
+[[package]]
+channel = 'debian'
+name = 'brewtarget'
+
+[[package]]
+channel = 'fedora'
+name = 'brewtarget'

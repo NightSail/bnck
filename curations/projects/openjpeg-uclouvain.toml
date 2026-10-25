@@ -1,0 +1,9 @@
+id = 'openjpeg-uclouvain'
+name = 'openjpeg'
+
+homepage = 'https://www.openjpeg.org'
+repository = 'https://github.com/uclouvain/openjpeg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjpeg'

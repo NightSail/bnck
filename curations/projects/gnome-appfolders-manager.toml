@@ -1,0 +1,8 @@
+id = 'gnome-appfolders-manager'
+name = 'gnome-appfolders-manager'
+
+homepage = 'http://www.muflone.com/gnome-appfolders-manager'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-appfolders-manager'

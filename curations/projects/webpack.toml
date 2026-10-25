@@ -1,0 +1,13 @@
+id = 'webpack'
+name = 'webpack'
+
+homepage = 'https://webpack.js.org'
+repository = 'https://github.com/webpack/webpack.git'
+
+[[package]]
+channel = 'debian'
+name = 'webpack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webpack'

@@ -1,0 +1,8 @@
+id = 'consul-backinator'
+name = 'consul-backinator'
+
+repository = 'https://github.com/myENA/consul-backinator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/consul-backinator'

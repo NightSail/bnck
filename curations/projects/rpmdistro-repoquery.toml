@@ -1,0 +1,8 @@
+id = 'rpmdistro-repoquery'
+name = 'rpmdistro-repoquery'
+
+homepage = 'https://pagure.io/rpmdistro-repoquery'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmdistro-repoquery'

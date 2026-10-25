@@ -1,0 +1,8 @@
+id = 'javamorph'
+name = 'javamorph'
+
+homepage = 'http://code.google.com/p/javamorph'
+
+[[package]]
+channel = 'debian'
+name = 'javamorph'

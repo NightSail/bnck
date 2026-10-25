@@ -1,0 +1,12 @@
+id = 'gromit-mpx'
+name = 'gromit-mpx'
+
+homepage = 'https://github.com/bk138/gromit-mpx'
+
+[[package]]
+channel = 'debian'
+name = 'gromit-mpx'
+
+[[package]]
+channel = 'fedora'
+name = 'gromit-mpx'

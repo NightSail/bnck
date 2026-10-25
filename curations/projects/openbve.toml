@@ -1,0 +1,8 @@
+id = 'openbve'
+name = 'openbve'
+
+homepage = 'https://openbve-project.net'
+
+[[package]]
+channel = 'arch'
+name = 'openbve'

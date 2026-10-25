@@ -1,0 +1,6 @@
+id = 'autopkgtest'
+name = 'autopkgtest'
+
+[[package]]
+channel = 'debian'
+name = 'autopkgtest'

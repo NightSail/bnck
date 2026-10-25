@@ -1,0 +1,8 @@
+id = 'terminal-browser'
+name = 'terminal-browser'
+
+homepage = 'https://terminal-browser.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/terminal-browser'

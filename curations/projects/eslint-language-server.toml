@@ -1,0 +1,8 @@
+id = 'eslint-language-server'
+name = 'eslint-language-server'
+
+homepage = 'https://github.com/microsoft/vscode-eslint'
+
+[[package]]
+channel = 'arch'
+name = 'eslint-language-server'

@@ -1,0 +1,13 @@
+id = 'gost'
+name = 'gost'
+
+homepage = 'https://gost.run'
+repository = 'https://github.com/go-gost/gost.git'
+
+[[package]]
+channel = 'arch'
+name = 'gost'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gost'

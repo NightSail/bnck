@@ -1,0 +1,16 @@
+id = 'xss-lock'
+name = 'xss-lock'
+
+homepage = 'https://github.com/wavexx/xss-lock'
+
+[[package]]
+channel = 'arch'
+name = 'xss-lock'
+
+[[package]]
+channel = 'debian'
+name = 'xss-lock'
+
+[[package]]
+channel = 'fedora'
+name = 'xss-lock'

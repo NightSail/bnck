@@ -1,0 +1,13 @@
+id = 'opkssh'
+name = 'opkssh'
+
+homepage = 'https://eprint.iacr.org/2023/296'
+repository = 'https://github.com/openpubkey/opkssh.git'
+
+[[package]]
+channel = 'debian'
+name = 'opkssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opkssh'

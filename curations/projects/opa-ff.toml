@@ -1,0 +1,16 @@
+id = 'opa-ff'
+name = 'opa-ff'
+
+homepage = 'https://github.com/intel/opa-ff'
+
+[[package]]
+channel = 'debian'
+name = 'opa-address-resolution'
+
+[[package]]
+channel = 'debian'
+name = 'opa-basic-tools'
+
+[[package]]
+channel = 'debian'
+name = 'opa-fastfabric'

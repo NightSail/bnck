@@ -1,0 +1,16 @@
+id = 'percona'
+name = 'percona'
+
+homepage = 'https://www.percona.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/percona-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/percona-server@8.0'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/percona-server@8.4'

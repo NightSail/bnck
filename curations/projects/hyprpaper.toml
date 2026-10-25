@@ -1,0 +1,12 @@
+id = 'hyprpaper'
+name = 'hyprpaper'
+
+homepage = 'https://github.com/hyprwm/hyprpaper'
+
+[[package]]
+channel = 'arch'
+name = 'hyprpaper'
+
+[[package]]
+channel = 'debian'
+name = 'hyprpaper'

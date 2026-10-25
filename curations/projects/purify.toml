@@ -1,0 +1,8 @@
+id = 'purify'
+name = 'purify'
+
+homepage = 'https://astro-informatics.github.io/purify'
+
+[[package]]
+channel = 'debian'
+name = 'purify'

@@ -1,0 +1,8 @@
+id = 'rust-net'
+name = 'rust_net'
+
+repository = 'https://github.com/revoltez/RustNet'
+
+[[package]]
+channel = 'crates.io'
+name = 'rust_net'

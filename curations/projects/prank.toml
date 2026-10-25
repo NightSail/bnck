@@ -1,0 +1,6 @@
+id = 'prank'
+name = 'prank'
+
+[[package]]
+channel = 'debian'
+name = 'prank'

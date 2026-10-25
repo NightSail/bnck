@@ -1,0 +1,6 @@
+id = 'mailagent'
+name = 'mailagent'
+
+[[package]]
+channel = 'debian'
+name = 'mailagent'

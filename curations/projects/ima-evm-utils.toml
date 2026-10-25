@@ -1,0 +1,12 @@
+id = 'ima-evm-utils'
+name = 'ima-evm-utils'
+
+homepage = 'https://sourceforge.net/projects/linux-ima'
+
+[[package]]
+channel = 'debian'
+name = 'ima-evm-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'ima-evm-utils'

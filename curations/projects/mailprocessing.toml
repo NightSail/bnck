@@ -1,0 +1,8 @@
+id = 'mailprocessing'
+name = 'mailprocessing'
+
+homepage = 'https://github.com/mailprocessing/mailprocessing'
+
+[[package]]
+channel = 'fedora'
+name = 'mailprocessing'

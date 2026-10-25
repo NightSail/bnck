@@ -1,0 +1,8 @@
+id = 'pipewalker'
+name = 'pipewalker'
+
+homepage = 'https://github.com/artemsen/pipewalker'
+
+[[package]]
+channel = 'fedora'
+name = 'pipewalker'

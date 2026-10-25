@@ -1,0 +1,8 @@
+id = 'infernal'
+name = 'infernal'
+
+homepage = 'http://eddylab.org/infernal'
+
+[[package]]
+channel = 'debian'
+name = 'infernal'

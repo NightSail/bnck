@@ -1,0 +1,28 @@
+id = 'system-config-printer'
+name = 'system-config-printer'
+
+homepage = 'https://github.com/OpenPrinting/system-config-printer'
+
+[[package]]
+channel = 'arch'
+name = 'system-config-printer'
+
+[[package]]
+channel = 'debian'
+name = 'system-config-printer'
+
+[[package]]
+channel = 'debian'
+name = 'system-config-printer-common'
+
+[[package]]
+channel = 'fedora'
+name = 'system-config-printer'
+
+[[package]]
+channel = 'fedora'
+name = 'system-config-printer-applet'
+
+[[package]]
+channel = 'fedora'
+name = 'system-config-printer-libs'

@@ -1,0 +1,12 @@
+id = 'fapg'
+name = 'fapg'
+
+homepage = 'http://royale.zerezo.com/fapg'
+
+[[package]]
+channel = 'debian'
+name = 'fapg'
+
+[[package]]
+channel = 'fedora'
+name = 'fapg'

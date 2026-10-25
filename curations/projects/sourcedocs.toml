@@ -1,0 +1,8 @@
+id = 'sourcedocs'
+name = 'sourcedocs'
+
+homepage = 'https://github.com/SourceDocs/SourceDocs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sourcedocs'

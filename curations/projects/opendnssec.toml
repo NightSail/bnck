@@ -1,0 +1,32 @@
+id = 'opendnssec'
+name = 'opendnssec'
+
+homepage = 'http://www.opendnssec.org'
+
+[[package]]
+channel = 'debian'
+name = 'libhsm-bin'
+
+[[package]]
+channel = 'debian'
+name = 'opendnssec-common'
+
+[[package]]
+channel = 'debian'
+name = 'opendnssec-enforcer-mysql'
+
+[[package]]
+channel = 'debian'
+name = 'opendnssec-enforcer-sqlite3'
+
+[[package]]
+channel = 'debian'
+name = 'opendnssec-signer'
+
+[[package]]
+channel = 'fedora'
+name = 'opendnssec'
+
+[[package]]
+channel = 'fedora'
+name = 'softhsm'

@@ -1,0 +1,12 @@
+id = 'perlnavigator'
+name = 'perlnavigator'
+
+homepage = 'https://github.com/bscan/PerlNavigator'
+
+[[package]]
+channel = 'debian'
+name = 'perlnavigator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/perlnavigator'

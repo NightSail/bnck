@@ -1,0 +1,8 @@
+id = 'reshape'
+name = 'reshape'
+
+repository = 'https://github.com/fabianlindfors/reshape.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reshape'

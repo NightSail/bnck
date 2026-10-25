@@ -1,0 +1,16 @@
+id = 'resvg'
+name = 'resvg'
+
+homepage = 'https://github.com/linebender/resvg'
+
+[[package]]
+channel = 'arch'
+name = 'resvg'
+
+[[package]]
+channel = 'debian'
+name = 'resvg'
+
+[[package]]
+channel = 'debian'
+name = 'usvg'

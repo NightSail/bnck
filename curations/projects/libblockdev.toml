@@ -1,0 +1,20 @@
+id = 'libblockdev'
+name = 'libblockdev'
+
+homepage = 'https://github.com/storaged-project/libblockdev'
+
+[[package]]
+channel = 'arch'
+name = 'libblockdev-fs'
+
+[[package]]
+channel = 'arch'
+name = 'libblockdev-lvm'
+
+[[package]]
+channel = 'debian'
+name = 'libblockdev-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libblockdev-tools'

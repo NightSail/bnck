@@ -1,0 +1,24 @@
+id = 'mingw'
+name = 'MinGW'
+
+homepage = 'http://fedoraproject.org/wiki/MinGW'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-crossreport'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-filesystem'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-nsiswrapper'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-filesystem'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-filesystem'

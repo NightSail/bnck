@@ -1,0 +1,8 @@
+id = 'pdfrip'
+name = 'pdfrip'
+
+repository = 'https://github.com/mufeedvh/pdfrip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfrip'

@@ -1,0 +1,8 @@
+id = 'spaceinvaders-go'
+name = 'spaceinvaders-go'
+
+homepage = 'https://github.com/asib/spaceinvaders'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spaceinvaders-go'

@@ -1,0 +1,8 @@
+id = 'uhub'
+name = 'uhub'
+
+homepage = 'https://www.uhub.org'
+
+[[package]]
+channel = 'debian'
+name = 'uhub'

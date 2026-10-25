@@ -1,0 +1,8 @@
+id = 'perl-data-stag'
+name = 'perl-Data-Stag'
+
+homepage = 'https://metacpan.org/release/Data-Stag'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Data-Stag'

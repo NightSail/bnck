@@ -1,0 +1,12 @@
+id = 'exo'
+name = 'exo'
+
+homepage = 'https://docs.xfce.org/xfce/exo/start'
+
+[[package]]
+channel = 'arch'
+name = 'exo'
+
+[[package]]
+channel = 'debian'
+name = 'exo-utils'

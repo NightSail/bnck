@@ -1,0 +1,8 @@
+id = 'zhcon'
+name = 'zhcon'
+
+homepage = 'https://sourceforge.net/projects/zhcon'
+
+[[package]]
+channel = 'debian'
+name = 'zhcon'

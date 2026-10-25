@@ -1,0 +1,8 @@
+id = 'nsh'
+name = 'nsh'
+
+repository = 'https://github.com/nuta/nsh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nsh'

@@ -1,0 +1,13 @@
+id = 'volk'
+name = 'volk'
+
+homepage = 'https://www.libvolk.org'
+repository = 'https://github.com/gnuradio/volk.git'
+
+[[package]]
+channel = 'fedora'
+name = 'volk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/volk'

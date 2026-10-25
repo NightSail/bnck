@@ -1,0 +1,9 @@
+id = 'oxen'
+name = 'oxen'
+
+homepage = 'https://www.oxen.ai'
+repository = 'https://github.com/Oxen-AI/Oxen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oxen'

@@ -1,0 +1,12 @@
+id = 'congruity'
+name = 'congruity'
+
+homepage = 'https://sourceforge.net/projects/congruity'
+
+[[package]]
+channel = 'debian'
+name = 'congruity'
+
+[[package]]
+channel = 'fedora'
+name = 'congruity'

@@ -1,0 +1,8 @@
+id = 'sidedoor'
+name = 'sidedoor'
+
+homepage = 'https://github.com/daradib/sidedoor'
+
+[[package]]
+channel = 'debian'
+name = 'sidedoor'

@@ -1,0 +1,8 @@
+id = 'ctlptl'
+name = 'ctlptl'
+
+repository = 'https://github.com/tilt-dev/ctlptl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctlptl'

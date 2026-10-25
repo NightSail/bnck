@@ -1,0 +1,12 @@
+id = 'voikko-voikko'
+name = 'voikko'
+
+homepage = 'http://voikko.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libvoikko'
+
+[[package]]
+channel = 'debian'
+name = 'tmispell-voikko'

@@ -1,0 +1,12 @@
+id = 'pod-minimumversion'
+name = 'Pod-MinimumVersion'
+
+homepage = 'https://metacpan.org/release/Pod-MinimumVersion'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-minimumversion-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-MinimumVersion'

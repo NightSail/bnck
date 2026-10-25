@@ -1,0 +1,12 @@
+id = 'ssh-tools'
+name = 'ssh-tools'
+
+homepage = 'https://codeberg.org/vaporup/ssh-tools'
+
+[[package]]
+channel = 'arch'
+name = 'ssh-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-tools'

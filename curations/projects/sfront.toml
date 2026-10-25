@@ -1,0 +1,8 @@
+id = 'sfront'
+name = 'sfront'
+
+homepage = 'https://john-lazzaro.github.io/sa'
+
+[[package]]
+channel = 'debian'
+name = 'sfront'

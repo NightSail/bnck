@@ -1,0 +1,8 @@
+id = 'gitql'
+name = 'gitql'
+
+repository = 'https://github.com/filhodanuvem/gitql.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitql'

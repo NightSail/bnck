@@ -1,0 +1,8 @@
+id = 'ultracopier'
+name = 'ultracopier'
+
+homepage = 'http://ultracopier.first-world.info'
+
+[[package]]
+channel = 'debian'
+name = 'ultracopier'

@@ -1,0 +1,8 @@
+id = 'python3-manim'
+name = 'python3-manim'
+
+homepage = 'https://www.manim.community'
+
+[[package]]
+channel = 'debian'
+name = 'python3-manim'

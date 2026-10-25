@@ -1,0 +1,32 @@
+id = 'flatpak'
+name = 'flatpak'
+
+homepage = 'https://flatpak.org'
+
+[[package]]
+channel = 'arch'
+name = 'flatpak'
+
+[[package]]
+channel = 'arch'
+name = 'flatpak-builder'
+
+[[package]]
+channel = 'debian'
+name = 'flatpak'
+
+[[package]]
+channel = 'debian'
+name = 'flatpak-builder'
+
+[[package]]
+channel = 'debian'
+name = 'libflatpak-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'flatpak'
+
+[[package]]
+channel = 'fedora'
+name = 'flatpak-builder'

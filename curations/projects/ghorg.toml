@@ -1,0 +1,8 @@
+id = 'ghorg'
+name = 'ghorg'
+
+repository = 'https://github.com/gabrie30/ghorg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghorg'

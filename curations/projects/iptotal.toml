@@ -1,0 +1,8 @@
+id = 'iptotal'
+name = 'iptotal'
+
+homepage = 'http://sourceforge.net/projects/iptotal'
+
+[[package]]
+channel = 'debian'
+name = 'iptotal'

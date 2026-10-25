@@ -1,0 +1,8 @@
+id = 'dwarfs'
+name = 'dwarfs'
+
+homepage = 'https://github.com/mhx/dwarfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dwarfs'

@@ -1,0 +1,8 @@
+id = 'dump1090'
+name = 'dump1090'
+
+homepage = 'https://github.com/antirez/dump1090'
+
+[[package]]
+channel = 'fedora'
+name = 'dump1090'

@@ -1,0 +1,16 @@
+id = 'highs'
+name = 'highs'
+
+homepage = 'https://highs.dev'
+
+[[package]]
+channel = 'arch'
+name = 'highs'
+
+[[package]]
+channel = 'debian'
+name = 'highs'
+
+[[package]]
+channel = 'fedora'
+name = 'coin-or-HiGHS'

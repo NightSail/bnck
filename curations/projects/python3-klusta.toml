@@ -1,0 +1,8 @@
+id = 'python3-klusta'
+name = 'python3-klusta'
+
+homepage = 'https://github.com/kwikteam/klusta'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-klusta'

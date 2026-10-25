@@ -1,0 +1,8 @@
+id = 'u-config'
+name = 'u-config'
+
+homepage = 'https://github.com/skeeto/u-config'
+
+[[package]]
+channel = 'debian'
+name = 'u-config'

@@ -1,0 +1,8 @@
+id = 'identity'
+name = 'identity'
+
+homepage = 'https://apps.gnome.org/Identity'
+
+[[package]]
+channel = 'arch'
+name = 'identity'

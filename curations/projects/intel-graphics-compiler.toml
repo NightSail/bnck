@@ -1,0 +1,20 @@
+id = 'intel-graphics-compiler'
+name = 'intel-graphics-compiler'
+
+homepage = 'https://github.com/intel/intel-graphics-compiler'
+
+[[package]]
+channel = 'arch'
+name = 'intel-graphics-compiler'
+
+[[package]]
+channel = 'debian'
+name = 'libigc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libigc2-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'intel-igc'

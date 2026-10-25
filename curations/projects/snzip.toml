@@ -1,0 +1,8 @@
+id = 'snzip'
+name = 'snzip'
+
+homepage = 'https://github.com/kubo/snzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snzip'

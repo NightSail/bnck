@@ -1,0 +1,8 @@
+id = 'powerman-dockerize'
+name = 'powerman-dockerize'
+
+repository = 'https://github.com/powerman/dockerize.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/powerman-dockerize'

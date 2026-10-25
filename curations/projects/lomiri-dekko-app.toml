@@ -1,0 +1,10 @@
+id = 'lomiri-dekko-app'
+name = 'lomiri-dekko-app'
+
+[[package]]
+channel = 'debian'
+name = 'dekko'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-dekko-app'

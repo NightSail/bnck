@@ -1,0 +1,8 @@
+id = 'tercpp'
+name = 'tercpp'
+
+homepage = 'http://sourceforge.net/projects/tercpp'
+
+[[package]]
+channel = 'debian'
+name = 'tercpp'

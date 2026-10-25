@@ -1,0 +1,8 @@
+id = 'snpomatic'
+name = 'snpomatic'
+
+homepage = 'https://github.com/magnusmanske/snpomatic'
+
+[[package]]
+channel = 'debian'
+name = 'snpomatic'

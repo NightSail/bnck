@@ -1,0 +1,29 @@
+id = 'octave'
+name = 'octave'
+
+homepage = 'https://www.gnu.org/software/octave'
+repository = 'https://hg.octave.org/octave'
+
+[[package]]
+channel = 'arch'
+name = 'octave'
+
+[[package]]
+channel = 'debian'
+name = 'octave'
+
+[[package]]
+channel = 'debian'
+name = 'octave-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'octave'
+
+[[package]]
+channel = 'fedora'
+name = 'octave-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/octave'

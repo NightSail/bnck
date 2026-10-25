@@ -1,0 +1,8 @@
+id = 'wayland-pipewire-idle-inhibit'
+name = 'wayland-pipewire-idle-inhibit'
+
+homepage = 'https://github.com/rafaelrc7/wayland-pipewire-idle-inhibit'
+
+[[package]]
+channel = 'debian'
+name = 'wayland-pipewire-idle-inhibit'

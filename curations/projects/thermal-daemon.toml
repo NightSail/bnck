@@ -1,0 +1,20 @@
+id = 'thermal-daemon'
+name = 'thermal_daemon'
+
+homepage = 'https://github.com/intel/thermal_daemon'
+
+[[package]]
+channel = 'arch'
+name = 'thermald'
+
+[[package]]
+channel = 'debian'
+name = 'thermald'
+
+[[package]]
+channel = 'fedora'
+name = 'thermald'
+
+[[package]]
+channel = 'fedora'
+name = 'thermald-monitor'

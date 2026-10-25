@@ -1,0 +1,20 @@
+id = 'pyqt'
+name = 'pyqt'
+
+homepage = 'https://www.riverbankcomputing.com/software/pyqt'
+
+[[package]]
+channel = 'fedora'
+name = 'PyQt-builder'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-PyQt4-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyqt6-base'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qt5-base'

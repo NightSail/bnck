@@ -1,0 +1,16 @@
+id = 'akregator'
+name = 'akregator'
+
+homepage = 'https://apps.kde.org/akregator'
+
+[[package]]
+channel = 'arch'
+name = 'akregator'
+
+[[package]]
+channel = 'debian'
+name = 'akregator'
+
+[[package]]
+channel = 'fedora'
+name = 'akregator'

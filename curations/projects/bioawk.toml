@@ -1,0 +1,12 @@
+id = 'bioawk'
+name = 'bioawk'
+
+homepage = 'https://github.com/lh3/bioawk'
+
+[[package]]
+channel = 'debian'
+name = 'bioawk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bioawk'

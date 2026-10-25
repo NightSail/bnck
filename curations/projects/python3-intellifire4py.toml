@@ -1,0 +1,8 @@
+id = 'python3-intellifire4py'
+name = 'python3-intellifire4py'
+
+homepage = 'https://github.com/jeeftor/intellifire4py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-intellifire4py'

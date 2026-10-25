@@ -1,0 +1,8 @@
+id = 'sbuild-sbuild'
+name = 'sbuild'
+
+homepage = 'http://sbuild.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sbuild'

@@ -1,0 +1,8 @@
+id = 'qtxdg-dev-tools'
+name = 'qtxdg-dev-tools'
+
+homepage = 'https://github.com/lxqt/libqtxdg'
+
+[[package]]
+channel = 'debian'
+name = 'qtxdg-dev-tools'

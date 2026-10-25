@@ -1,0 +1,16 @@
+id = 'kgeotag'
+name = 'kgeotag'
+
+homepage = 'https://kgeotag.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'kgeotag'
+
+[[package]]
+channel = 'debian'
+name = 'kgeotag'
+
+[[package]]
+channel = 'fedora'
+name = 'kgeotag'

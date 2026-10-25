@@ -1,0 +1,8 @@
+id = 'prestopalette'
+name = 'prestopalette'
+
+homepage = 'https://github.com/PrestoPalette/PrestoPalette'
+
+[[package]]
+channel = 'fedora'
+name = 'prestopalette'

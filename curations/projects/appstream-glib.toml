@@ -1,0 +1,16 @@
+id = 'appstream-glib'
+name = 'appstream-glib'
+
+homepage = 'https://people.freedesktop.org/~hughsient/appstream-glib'
+
+[[package]]
+channel = 'arch'
+name = 'appstream-glib'
+
+[[package]]
+channel = 'fedora'
+name = 'libappstream-glib'
+
+[[package]]
+channel = 'fedora'
+name = 'libappstream-glib-builder'

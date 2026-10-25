@@ -1,0 +1,20 @@
+id = 'cgal'
+name = 'cgal'
+
+homepage = 'https://www.cgal.org'
+
+[[package]]
+channel = 'arch'
+name = 'cgal'
+
+[[package]]
+channel = 'debian'
+name = 'libcgal-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'CGAL-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cgal'

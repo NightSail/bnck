@@ -1,0 +1,16 @@
+id = 'lxqt-archiver'
+name = 'lxqt-archiver'
+
+homepage = 'https://github.com/lxqt/lxqt-archiver'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-archiver'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-archiver'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-archiver'

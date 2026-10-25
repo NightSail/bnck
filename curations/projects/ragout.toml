@@ -1,0 +1,8 @@
+id = 'ragout'
+name = 'ragout'
+
+homepage = 'https://github.com/fenderglass/Ragout'
+
+[[package]]
+channel = 'debian'
+name = 'ragout'

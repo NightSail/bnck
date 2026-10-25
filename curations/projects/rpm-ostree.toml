@@ -1,0 +1,8 @@
+id = 'rpm-ostree'
+name = 'rpm-ostree'
+
+homepage = 'https://github.com/coreos/rpm-ostree'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm-ostree'

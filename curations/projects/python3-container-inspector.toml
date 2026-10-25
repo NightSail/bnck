@@ -1,0 +1,8 @@
+id = 'python3-container-inspector'
+name = 'python3-container-inspector'
+
+homepage = 'https://github.com/aboutcode-org/container-inspector'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-container-inspector'

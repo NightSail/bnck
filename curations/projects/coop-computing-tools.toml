@@ -1,0 +1,8 @@
+id = 'coop-computing-tools'
+name = 'coop-computing-tools'
+
+homepage = 'https://ccl.cse.nd.edu/software'
+
+[[package]]
+channel = 'debian'
+name = 'coop-computing-tools'

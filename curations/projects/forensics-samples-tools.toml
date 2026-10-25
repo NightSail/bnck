@@ -1,0 +1,8 @@
+id = 'forensics-samples-tools'
+name = 'forensics-samples-tools'
+
+homepage = 'https://github.com/eribertomota/forensics-samples'
+
+[[package]]
+channel = 'debian'
+name = 'forensics-samples-tools'

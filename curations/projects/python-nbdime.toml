@@ -1,0 +1,8 @@
+id = 'python-nbdime'
+name = 'python-nbdime'
+
+homepage = 'https://github.com/jupyter/nbdime'
+
+[[package]]
+channel = 'arch'
+name = 'python-nbdime'

@@ -1,0 +1,13 @@
+id = 'freediameter'
+name = 'freediameter'
+
+homepage = 'http://www.freediameter.net'
+repository = 'https://github.com/freeDiameter/freeDiameter.git'
+
+[[package]]
+channel = 'fedora'
+name = 'freeDiameter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freediameter'

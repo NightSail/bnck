@@ -1,0 +1,8 @@
+id = 'gecode'
+name = 'gecode'
+
+homepage = 'https://www.gecode.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gecode'

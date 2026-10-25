@@ -1,0 +1,8 @@
+id = 'python3-sphinx-autodoc2'
+name = 'python3-sphinx-autodoc2'
+
+homepage = 'https://github.com/sphinx-extensions2/sphinx-autodoc2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-autodoc2'

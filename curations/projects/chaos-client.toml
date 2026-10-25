@@ -1,0 +1,9 @@
+id = 'chaos-client'
+name = 'chaos-client'
+
+homepage = 'https://chaos.projectdiscovery.io'
+repository = 'https://github.com/projectdiscovery/chaos-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chaos-client'

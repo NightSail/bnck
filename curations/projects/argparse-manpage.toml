@@ -1,0 +1,16 @@
+id = 'argparse-manpage'
+name = 'argparse-manpage'
+
+homepage = 'https://github.com/praiskup/argparse-manpage'
+
+[[package]]
+channel = 'arch'
+name = 'python-argparse-manpage'
+
+[[package]]
+channel = 'debian'
+name = 'python3-argparse-manpage'
+
+[[package]]
+channel = 'fedora'
+name = 'argparse-manpage'

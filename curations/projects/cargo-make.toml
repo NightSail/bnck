@@ -1,0 +1,12 @@
+id = 'cargo-make'
+name = 'cargo-make'
+
+homepage = 'https://sagiegurari.github.io/cargo-make'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-make'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-make'

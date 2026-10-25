@@ -1,0 +1,8 @@
+id = 'mender-connect'
+name = 'mender-connect'
+
+homepage = 'https://github.com/mendersoftware/mender-connect'
+
+[[package]]
+channel = 'debian'
+name = 'mender-connect'

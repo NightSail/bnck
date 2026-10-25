@@ -1,0 +1,8 @@
+id = 'python3-avro'
+name = 'python3-avro'
+
+homepage = 'https://github.com/apache/avro'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-avro'

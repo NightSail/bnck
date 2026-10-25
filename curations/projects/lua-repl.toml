@@ -1,0 +1,28 @@
+id = 'lua-repl'
+name = 'lua-repl'
+
+homepage = 'https://github.com/hoelzro/lua-repl'
+
+[[package]]
+channel = 'arch'
+name = 'lua-luarepl'
+
+[[package]]
+channel = 'arch'
+name = 'lua51-luarepl'
+
+[[package]]
+channel = 'arch'
+name = 'lua52-luarepl'
+
+[[package]]
+channel = 'arch'
+name = 'lua53-luarepl'
+
+[[package]]
+channel = 'arch'
+name = 'lua54-luarepl'
+
+[[package]]
+channel = 'fedora'
+name = 'lua-luarepl'

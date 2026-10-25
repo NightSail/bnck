@@ -1,0 +1,16 @@
+id = 'metadata-cleaner'
+name = 'metadata-cleaner'
+
+homepage = 'https://gitlab.com/metadatacleaner/metadatacleaner'
+
+[[package]]
+channel = 'arch'
+name = 'metadata-cleaner'
+
+[[package]]
+channel = 'debian'
+name = 'metadata-cleaner'
+
+[[package]]
+channel = 'fedora'
+name = 'metadata-cleaner'

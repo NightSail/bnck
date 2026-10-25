@@ -1,0 +1,12 @@
+id = 'xneur'
+name = 'xneur'
+
+homepage = 'http://xneur.ru'
+
+[[package]]
+channel = 'debian'
+name = 'gxneur'
+
+[[package]]
+channel = 'debian'
+name = 'xneur'

@@ -1,0 +1,12 @@
+id = 'xcompmgr'
+name = 'xcompmgr'
+
+homepage = 'http://lists.freedesktop.org/mailman/listinfo/xorg'
+
+[[package]]
+channel = 'debian'
+name = 'xcompmgr'
+
+[[package]]
+channel = 'fedora'
+name = 'xcompmgr'

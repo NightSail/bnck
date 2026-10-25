@@ -1,0 +1,8 @@
+id = 'zswap-cli'
+name = 'zswap-cli'
+
+homepage = 'https://github.com/xvitaly/zswap-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'zswap-cli'

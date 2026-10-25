@@ -1,0 +1,8 @@
+id = 'jpanoramamaker'
+name = 'jpanoramamaker'
+
+homepage = 'http://jpanoramamaker.wz.cz'
+
+[[package]]
+channel = 'fedora'
+name = 'jpanoramamaker'

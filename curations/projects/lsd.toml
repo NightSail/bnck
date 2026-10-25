@@ -16,5 +16,9 @@ channel = 'debian'
 name = 'lsd'
 
 [[package]]
+channel = 'fedora'
+name = 'lsd'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/lsd'

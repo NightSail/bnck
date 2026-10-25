@@ -1,0 +1,8 @@
+id = 'python3-panflute'
+name = 'python3-panflute'
+
+homepage = 'https://github.com/sergiocorreia/panflute'
+
+[[package]]
+channel = 'debian'
+name = 'python3-panflute'

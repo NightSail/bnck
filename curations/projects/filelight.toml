@@ -1,0 +1,16 @@
+id = 'filelight'
+name = 'filelight'
+
+homepage = 'https://apps.kde.org/filelight'
+
+[[package]]
+channel = 'arch'
+name = 'filelight'
+
+[[package]]
+channel = 'debian'
+name = 'filelight'
+
+[[package]]
+channel = 'fedora'
+name = 'filelight'

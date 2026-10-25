@@ -1,0 +1,8 @@
+id = 'envision'
+name = 'envision'
+
+homepage = 'https://gitlab.com/gabmus/envision'
+
+[[package]]
+channel = 'fedora'
+name = 'envision'

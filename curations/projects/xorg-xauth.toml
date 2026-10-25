@@ -1,0 +1,8 @@
+id = 'xorg-xauth'
+name = 'xorg-xauth'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xauth'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xauth'

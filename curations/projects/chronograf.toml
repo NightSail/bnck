@@ -1,0 +1,9 @@
+id = 'chronograf'
+name = 'chronograf'
+
+homepage = 'https://docs.influxdata.com/chronograf/latest'
+repository = 'https://github.com/influxdata/chronograf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chronograf'

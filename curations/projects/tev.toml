@@ -1,0 +1,8 @@
+id = 'tev'
+name = 'tev'
+
+homepage = 'https://github.com/Tom94/tev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/tev'

@@ -1,0 +1,21 @@
+id = 'darkstat'
+name = 'darkstat'
+
+homepage = 'https://unix4lyfe.org/darkstat'
+repository = 'https://github.com/emikulic/darkstat.git'
+
+[[package]]
+channel = 'arch'
+name = 'darkstat'
+
+[[package]]
+channel = 'debian'
+name = 'darkstat'
+
+[[package]]
+channel = 'fedora'
+name = 'darkstat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/darkstat'

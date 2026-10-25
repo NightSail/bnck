@@ -1,0 +1,12 @@
+id = 'afuse'
+name = 'afuse'
+
+homepage = 'https://github.com/pcarrier/afuse'
+
+[[package]]
+channel = 'debian'
+name = 'afuse'
+
+[[package]]
+channel = 'fedora'
+name = 'afuse'

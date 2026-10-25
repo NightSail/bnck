@@ -1,0 +1,24 @@
+id = 'nfc-tools'
+name = 'nfc-tools'
+
+homepage = 'http://nfc-tools.org'
+
+[[package]]
+channel = 'arch'
+name = 'libnfc'
+
+[[package]]
+channel = 'arch'
+name = 'mfoc'
+
+[[package]]
+channel = 'debian'
+name = 'libnfc-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libnfc-examples'
+
+[[package]]
+channel = 'debian'
+name = 'libnfc-pn53x-examples'

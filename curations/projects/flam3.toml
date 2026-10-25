@@ -1,0 +1,8 @@
+id = 'flam3'
+name = 'flam3'
+
+homepage = 'http://www.flam3.com'
+
+[[package]]
+channel = 'fedora'
+name = 'flam3'

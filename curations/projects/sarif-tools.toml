@@ -1,0 +1,8 @@
+id = 'sarif-tools'
+name = 'sarif-tools'
+
+repository = 'https://github.com/microsoft/sarif-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sarif-tools'

@@ -1,0 +1,12 @@
+id = 'jackmeter'
+name = 'jackmeter'
+
+homepage = 'https://www.aelius.com/njh/jackmeter'
+
+[[package]]
+channel = 'arch'
+name = 'jackmeter'
+
+[[package]]
+channel = 'debian'
+name = 'jackmeter'

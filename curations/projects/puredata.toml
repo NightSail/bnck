@@ -1,0 +1,20 @@
+id = 'puredata'
+name = 'puredata'
+
+homepage = 'https://puredata.info'
+
+[[package]]
+channel = 'debian'
+name = 'puredata-core'
+
+[[package]]
+channel = 'debian'
+name = 'puredata-gui'
+
+[[package]]
+channel = 'debian'
+name = 'puredata-utils'
+
+[[package]]
+channel = 'debian'
+name = 'puredata64-core'

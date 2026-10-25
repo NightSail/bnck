@@ -1,0 +1,12 @@
+id = 'beanquery'
+name = 'beanquery'
+
+homepage = 'https://github.com/beancount/beanquery'
+
+[[package]]
+channel = 'debian'
+name = 'python3-beanquery'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beanquery'

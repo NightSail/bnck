@@ -1,0 +1,8 @@
+id = 'king-probe'
+name = 'king-probe'
+
+homepage = 'http://kinemage.biochem.duke.edu/software/probe.php'
+
+[[package]]
+channel = 'debian'
+name = 'king-probe'

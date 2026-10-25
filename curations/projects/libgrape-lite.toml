@@ -1,0 +1,8 @@
+id = 'libgrape-lite'
+name = 'libgrape-lite'
+
+homepage = 'https://alibaba.github.io/libgrape-lite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgrape-lite'

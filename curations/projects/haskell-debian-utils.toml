@@ -1,0 +1,8 @@
+id = 'haskell-debian-utils'
+name = 'haskell-debian-utils'
+
+homepage = 'https://github.com/clinty/debian-haskell'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-debian-utils'

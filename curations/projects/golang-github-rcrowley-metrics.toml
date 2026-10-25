@@ -1,0 +1,8 @@
+id = 'golang-github-rcrowley-metrics'
+name = 'golang-github-rcrowley-metrics'
+
+homepage = 'https://github.com/rcrowley/go-metrics'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-rcrowley-metrics'

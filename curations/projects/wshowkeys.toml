@@ -1,0 +1,12 @@
+id = 'wshowkeys'
+name = 'wshowkeys'
+
+homepage = 'https://git.sr.ht/~sircmpwn/wshowkeys'
+
+[[package]]
+channel = 'debian'
+name = 'wshowkeys'
+
+[[package]]
+channel = 'fedora'
+name = 'wshowkeys'

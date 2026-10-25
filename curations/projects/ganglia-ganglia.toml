@@ -1,0 +1,12 @@
+id = 'ganglia-ganglia'
+name = 'ganglia'
+
+homepage = 'http://ganglia.info'
+
+[[package]]
+channel = 'debian'
+name = 'ganglia-monitor'
+
+[[package]]
+channel = 'debian'
+name = 'gmetad'

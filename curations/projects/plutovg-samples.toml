@@ -1,0 +1,8 @@
+id = 'plutovg-samples'
+name = 'plutovg-samples'
+
+homepage = 'https://github.com/sammycage/plutovg'
+
+[[package]]
+channel = 'fedora'
+name = 'plutovg-samples'

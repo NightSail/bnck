@@ -1,0 +1,8 @@
+id = 'monkeysphere'
+name = 'monkeysphere'
+
+homepage = 'https://tracker.debian.org/pkg/monkeysphere'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monkeysphere'

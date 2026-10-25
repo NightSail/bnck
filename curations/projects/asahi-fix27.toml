@@ -1,0 +1,8 @@
+id = 'asahi-fix27'
+name = 'asahi-fix27'
+
+homepage = 'https://github.com/AsahiLinux/asahi-fix27'
+
+[[package]]
+channel = 'debian'
+name = 'asahi-fix27'

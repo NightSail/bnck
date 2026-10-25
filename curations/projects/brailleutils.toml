@@ -1,0 +1,8 @@
+id = 'brailleutils'
+name = 'brailleutils'
+
+homepage = 'https://github.com/joeha480/brailleutils'
+
+[[package]]
+channel = 'debian'
+name = 'brailleutils'

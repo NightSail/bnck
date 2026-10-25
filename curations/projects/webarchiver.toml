@@ -1,0 +1,8 @@
+id = 'webarchiver'
+name = 'webarchiver'
+
+repository = 'https://github.com/newzealandpaul/webarchiver.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webarchiver'

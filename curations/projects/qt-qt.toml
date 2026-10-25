@@ -1,0 +1,92 @@
+id = 'qt-qt'
+name = 'qt'
+
+homepage = 'https://www.qt.io/developers'
+
+[[package]]
+channel = 'debian'
+name = 'assistant-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'designer-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'libqt6bluetooth6-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libqt6serialbus6-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libqt6webenginecore6-bin'
+
+[[package]]
+channel = 'debian'
+name = 'linguist-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'qdbus-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'qdoc-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'qmake6'
+
+[[package]]
+channel = 'debian'
+name = 'qmake6-bin'
+
+[[package]]
+channel = 'debian'
+name = 'qml-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'qmlscene-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'qqem-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'qt5-qmake'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-base-dev'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-base-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-declarative-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-l10n-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-quick3dphysics-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-tools-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qt6-webengine-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qtpaths6'

@@ -1,0 +1,8 @@
+id = 'python-xlsxwriter'
+name = 'python-xlsxwriter'
+
+homepage = 'https://github.com/jmcnamara/XlsxWriter'
+
+[[package]]
+channel = 'arch'
+name = 'python-xlsxwriter'

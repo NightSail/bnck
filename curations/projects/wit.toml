@@ -1,0 +1,12 @@
+id = 'wit'
+name = 'wit'
+
+homepage = 'https://wit.wiimm.de'
+
+[[package]]
+channel = 'arch'
+name = 'wit'
+
+[[package]]
+channel = 'debian'
+name = 'wit'

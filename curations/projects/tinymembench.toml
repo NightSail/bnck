@@ -1,0 +1,8 @@
+id = 'tinymembench'
+name = 'tinymembench'
+
+homepage = 'https://github.com/ssvb/tinymembench'
+
+[[package]]
+channel = 'debian'
+name = 'tinymembench'

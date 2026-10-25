@@ -1,0 +1,8 @@
+id = 'ruby-libglade2'
+name = 'ruby-libglade2'
+
+homepage = 'http://ruby-gnome2.sourceforge.jp'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby-libglade2'

@@ -1,0 +1,24 @@
+id = 'corosync'
+name = 'corosync'
+
+homepage = 'https://corosync.github.io/corosync'
+
+[[package]]
+channel = 'debian'
+name = 'corosync'
+
+[[package]]
+channel = 'debian'
+name = 'corosync-notifyd'
+
+[[package]]
+channel = 'debian'
+name = 'corosync-vqsim'
+
+[[package]]
+channel = 'fedora'
+name = 'corosync'
+
+[[package]]
+channel = 'fedora'
+name = 'corosync-vqsim'

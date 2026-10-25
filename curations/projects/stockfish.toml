@@ -1,0 +1,13 @@
+id = 'stockfish'
+name = 'stockfish'
+
+homepage = 'http://stockfishchess.org'
+repository = 'https://github.com/official-stockfish/Stockfish.git'
+
+[[package]]
+channel = 'fedora'
+name = 'stockfish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stockfish'

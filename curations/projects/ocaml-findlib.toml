@@ -1,0 +1,20 @@
+id = 'ocaml-findlib'
+name = 'ocaml-findlib'
+
+homepage = 'http://projects.camlcity.org/projects/findlib.html'
+
+[[package]]
+channel = 'arch'
+name = 'ocaml-findlib'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-findlib'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-findlib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocaml-findlib'

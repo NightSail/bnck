@@ -1,0 +1,13 @@
+id = 'libgit2'
+name = 'libgit2'
+
+homepage = 'https://libgit2.org'
+repository = 'https://github.com/libgit2/libgit2.git'
+
+[[package]]
+channel = 'arch'
+name = 'libgit2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgit2'

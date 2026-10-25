@@ -1,0 +1,8 @@
+id = 'apache'
+name = 'apache'
+
+homepage = 'https://www.apache.org/dist/httpd'
+
+[[package]]
+channel = 'arch'
+name = 'apache'

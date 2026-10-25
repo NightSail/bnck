@@ -1,0 +1,16 @@
+id = 'paps'
+name = 'paps'
+
+homepage = 'https://github.com/dov/paps'
+
+[[package]]
+channel = 'debian'
+name = 'paps'
+
+[[package]]
+channel = 'fedora'
+name = 'paps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/paps'

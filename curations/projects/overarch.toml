@@ -1,0 +1,8 @@
+id = 'overarch'
+name = 'overarch'
+
+repository = 'https://github.com/soulspace-org/overarch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/overarch'

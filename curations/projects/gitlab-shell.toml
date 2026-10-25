@@ -1,0 +1,8 @@
+id = 'gitlab-shell'
+name = 'gitlab-shell'
+
+homepage = 'https://gitlab.com/gitlab-org/gitlab-shell'
+
+[[package]]
+channel = 'debian'
+name = 'gitlab-shell'

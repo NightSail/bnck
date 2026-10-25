@@ -1,0 +1,8 @@
+id = 'ddm'
+name = 'ddm'
+
+homepage = 'https://github.com/linuxdeepin/ddm'
+
+[[package]]
+channel = 'arch'
+name = 'ddm'

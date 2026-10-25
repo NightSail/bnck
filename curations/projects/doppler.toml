@@ -1,0 +1,9 @@
+id = 'doppler'
+name = 'doppler'
+
+homepage = 'https://docs.doppler.com/docs'
+repository = 'https://github.com/DopplerHQ/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doppler'

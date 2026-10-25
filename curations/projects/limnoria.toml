@@ -1,0 +1,12 @@
+id = 'limnoria'
+name = 'limnoria'
+
+homepage = 'https://github.com/ProgVal/Limnoria'
+
+[[package]]
+channel = 'debian'
+name = 'limnoria'
+
+[[package]]
+channel = 'fedora'
+name = 'limnoria'

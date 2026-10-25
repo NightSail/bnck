@@ -1,0 +1,16 @@
+id = 'nqp'
+name = 'nqp'
+
+homepage = 'https://github.com/Raku/nqp'
+
+[[package]]
+channel = 'debian'
+name = 'nqp'
+
+[[package]]
+channel = 'fedora'
+name = 'nqp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nqp'

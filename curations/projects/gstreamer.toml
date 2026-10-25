@@ -1,0 +1,60 @@
+id = 'gstreamer'
+name = 'gstreamer'
+
+homepage = 'https://gstreamer.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'gst-devtools'
+
+[[package]]
+channel = 'arch'
+name = 'gst-editing-services'
+
+[[package]]
+channel = 'arch'
+name = 'gst-plugins-bad-libs'
+
+[[package]]
+channel = 'arch'
+name = 'gst-plugins-base-libs'
+
+[[package]]
+channel = 'arch'
+name = 'gst-webrtc-signalling-server'
+
+[[package]]
+channel = 'arch'
+name = 'gstreamer'
+
+[[package]]
+channel = 'debian'
+name = 'ges1.0-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gstreamer1.0-plugins-bad-apps'
+
+[[package]]
+channel = 'debian'
+name = 'gstreamer1.0-plugins-base-apps'
+
+[[package]]
+channel = 'debian'
+name = 'gstreamer1.0-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libgstreamer1.0-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'gstreamer1'
+
+[[package]]
+channel = 'fedora'
+name = 'gstreamer1-plugins-bad-free'
+
+[[package]]
+channel = 'fedora'
+name = 'gstreamer1-plugins-base-tools'

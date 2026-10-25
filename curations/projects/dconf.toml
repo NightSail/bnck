@@ -1,0 +1,20 @@
+id = 'dconf'
+name = 'dconf'
+
+homepage = 'https://wiki.gnome.org/Projects/dconf'
+
+[[package]]
+channel = 'arch'
+name = 'dconf'
+
+[[package]]
+channel = 'debian'
+name = 'dconf-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'dconf'
+
+[[package]]
+channel = 'fedora'
+name = 'dconf-editor'

@@ -1,0 +1,8 @@
+id = 'scx-rustland'
+name = 'scx_rustland'
+
+homepage = 'https://crates.io/crates/scx_rustland'
+
+[[package]]
+channel = 'fedora'
+name = 'scx_rustland'

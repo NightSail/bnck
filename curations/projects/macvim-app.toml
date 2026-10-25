@@ -1,0 +1,8 @@
+id = 'macvim-app'
+name = 'macvim-app'
+
+homepage = 'https://github.com/macvim-dev/macvim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/macvim-app'

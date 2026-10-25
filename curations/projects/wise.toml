@@ -1,0 +1,8 @@
+id = 'wise'
+name = 'wise'
+
+homepage = 'https://www.ebi.ac.uk/~birney/wise2'
+
+[[package]]
+channel = 'debian'
+name = 'wise'

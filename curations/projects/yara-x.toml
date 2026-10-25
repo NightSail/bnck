@@ -1,0 +1,9 @@
+id = 'yara-x'
+name = 'yara-x'
+
+homepage = 'https://virustotal.github.io/yara-x'
+repository = 'https://github.com/VirusTotal/yara-x.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yara-x'

@@ -1,0 +1,16 @@
+id = 'sqlfluff'
+name = 'sqlfluff'
+
+homepage = 'https://docs.sqlfluff.com'
+
+[[package]]
+channel = 'arch'
+name = 'sqlfluff'
+
+[[package]]
+channel = 'debian'
+name = 'sqlfluff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlfluff'

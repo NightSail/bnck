@@ -1,0 +1,12 @@
+id = 'gyoto'
+name = 'gyoto'
+
+homepage = 'http://gyoto.obspm.fr'
+
+[[package]]
+channel = 'debian'
+name = 'gyoto-bin'
+
+[[package]]
+channel = 'debian'
+name = 'yorick-gyoto'

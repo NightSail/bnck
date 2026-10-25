@@ -1,0 +1,12 @@
+id = 'isort'
+name = 'isort'
+
+homepage = 'https://github.com/PyCQA/isort'
+
+[[package]]
+channel = 'arch'
+name = 'python-isort'
+
+[[package]]
+channel = 'debian'
+name = 'isort'

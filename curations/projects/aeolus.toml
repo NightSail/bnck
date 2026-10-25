@@ -1,0 +1,12 @@
+id = 'aeolus'
+name = 'aeolus'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/aeolus'
+
+[[package]]
+channel = 'arch'
+name = 'aeolus'
+
+[[package]]
+channel = 'debian'
+name = 'aeolus'

@@ -1,0 +1,20 @@
+id = 'ntpd-rs'
+name = 'ntpd-rs'
+
+homepage = 'https://docs.ntpd-rs.pendulum-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'ntpd-rs'
+
+[[package]]
+channel = 'debian'
+name = 'ntpd-rs'
+
+[[package]]
+channel = 'debian'
+name = 'ntpd-rs-metrics'
+
+[[package]]
+channel = 'fedora'
+name = 'ntpd-rs'

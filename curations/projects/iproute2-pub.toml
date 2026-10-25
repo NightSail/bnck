@@ -1,0 +1,8 @@
+id = 'iproute2-pub'
+name = 'iproute2'
+
+homepage = 'https://git.kernel.org/pub/scm/network/iproute2/iproute2.git'
+
+[[package]]
+channel = 'arch'
+name = 'iproute2'

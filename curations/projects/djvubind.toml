@@ -1,0 +1,8 @@
+id = 'djvubind'
+name = 'djvubind'
+
+homepage = 'https://github.com/strider1551/djvubind'
+
+[[package]]
+channel = 'debian'
+name = 'djvubind'

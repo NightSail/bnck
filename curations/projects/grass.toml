@@ -1,0 +1,12 @@
+id = 'grass'
+name = 'grass'
+
+homepage = 'https://grass.osgeo.org'
+
+[[package]]
+channel = 'debian'
+name = 'grass-core'
+
+[[package]]
+channel = 'fedora'
+name = 'grass'

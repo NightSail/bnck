@@ -1,0 +1,8 @@
+id = 'python3-trustme'
+name = 'python3-trustme'
+
+homepage = 'https://github.com/python-trio/trustme'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trustme'

@@ -1,0 +1,12 @@
+id = 'lambda-term'
+name = 'lambda-term'
+
+homepage = 'https://github.com/ocaml-community/lambda-term'
+
+[[package]]
+channel = 'debian'
+name = 'liblambda-term-ocaml'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-lambda-term'

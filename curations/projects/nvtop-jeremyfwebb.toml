@@ -1,0 +1,8 @@
+id = 'nvtop-jeremyfwebb'
+name = 'nvtop'
+
+homepage = 'https://www.jeremyfwebb.ninja'
+
+[[package]]
+channel = 'crates.io'
+name = 'nvtop'

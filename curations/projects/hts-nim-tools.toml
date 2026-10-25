@@ -1,0 +1,8 @@
+id = 'hts-nim-tools'
+name = 'hts-nim-tools'
+
+homepage = 'https://github.com/brentp/hts-nim-tools'
+
+[[package]]
+channel = 'debian'
+name = 'hts-nim-tools'

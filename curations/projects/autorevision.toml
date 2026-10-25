@@ -1,0 +1,8 @@
+id = 'autorevision'
+name = 'autorevision'
+
+homepage = 'https://autorevision.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'autorevision'

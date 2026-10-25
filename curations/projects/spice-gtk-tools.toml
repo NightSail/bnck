@@ -1,0 +1,8 @@
+id = 'spice-gtk-tools'
+name = 'spice-gtk-tools'
+
+homepage = 'https://www.spice-space.org/spice-gtk.html'
+
+[[package]]
+channel = 'fedora'
+name = 'spice-gtk-tools'

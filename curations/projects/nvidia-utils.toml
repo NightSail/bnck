@@ -1,0 +1,8 @@
+id = 'nvidia-utils'
+name = 'nvidia-utils'
+
+homepage = 'https://www.nvidia.com'
+
+[[package]]
+channel = 'arch'
+name = 'nvidia-utils'

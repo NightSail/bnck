@@ -1,0 +1,8 @@
+id = 'python3-berrynet'
+name = 'python3-berrynet'
+
+homepage = 'https://github.com/DT42/BerryNet'
+
+[[package]]
+channel = 'debian'
+name = 'python3-berrynet'

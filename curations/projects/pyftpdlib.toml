@@ -1,0 +1,12 @@
+id = 'pyftpdlib'
+name = 'pyftpdlib'
+
+homepage = 'https://github.com/giampaolo/pyftpdlib'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyftpdlib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyftpdlib'

@@ -1,0 +1,8 @@
+id = 'w3c-linkchecker'
+name = 'w3c-linkchecker'
+
+homepage = 'https://validator.w3.org/checklink'
+
+[[package]]
+channel = 'debian'
+name = 'w3c-linkchecker'

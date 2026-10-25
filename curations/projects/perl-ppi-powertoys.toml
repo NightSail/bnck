@@ -1,0 +1,8 @@
+id = 'perl-ppi-powertoys'
+name = 'perl-PPI-PowerToys'
+
+homepage = 'https://metacpan.org/release/PPI-PowerToys'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-PPI-PowerToys'

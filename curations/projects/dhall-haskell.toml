@@ -1,0 +1,25 @@
+id = 'dhall-haskell'
+name = 'dhall-haskell'
+
+homepage = 'https://github.com/dhall-lang/dhall-haskell/tree/main/dhall-bash'
+repository = 'https://github.com/dhall-lang/dhall-haskell.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhall-bash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhall-json'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhall-lsp-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhall-toml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhall-yaml'

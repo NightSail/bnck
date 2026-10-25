@@ -1,0 +1,8 @@
+id = 'bazel-diff'
+name = 'bazel-diff'
+
+homepage = 'https://github.com/Tinder/bazel-diff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bazel-diff'

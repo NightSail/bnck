@@ -1,0 +1,8 @@
+id = 'bareos-client'
+name = 'bareos-client'
+
+homepage = 'https://www.bareos.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bareos-client'

@@ -1,0 +1,12 @@
+id = 'hjsmin'
+name = 'hjsmin'
+
+homepage = 'https://github.com/erikd/hjsmin'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hjsmin'
+
+[[package]]
+channel = 'debian'
+name = 'libghc-hjsmin-dev'

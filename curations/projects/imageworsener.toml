@@ -1,0 +1,9 @@
+id = 'imageworsener'
+name = 'imageworsener'
+
+homepage = 'https://entropymine.com/imageworsener'
+repository = 'https://github.com/jsummers/imageworsener.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imageworsener'

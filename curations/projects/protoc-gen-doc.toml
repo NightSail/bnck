@@ -1,0 +1,12 @@
+id = 'protoc-gen-doc'
+name = 'protoc-gen-doc'
+
+repository = 'https://github.com/pseudomuto/protoc-gen-doc.git'
+
+[[package]]
+channel = 'debian'
+name = 'protoc-gen-doc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-doc'

@@ -1,0 +1,8 @@
+id = 'python-trimesh'
+name = 'python-trimesh'
+
+homepage = 'https://trimesh.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-trimesh'

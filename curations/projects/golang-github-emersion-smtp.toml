@@ -1,0 +1,8 @@
+id = 'golang-github-emersion-smtp'
+name = 'golang-github-emersion-smtp'
+
+homepage = 'https://github.com/emersion/go-smtp'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-emersion-smtp'

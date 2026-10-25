@@ -1,0 +1,8 @@
+id = 'stacer'
+name = 'stacer'
+
+homepage = 'https://stacer.quentium.fr'
+
+[[package]]
+channel = 'debian'
+name = 'stacer'

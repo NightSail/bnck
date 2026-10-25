@@ -1,0 +1,12 @@
+id = 'git-delete-merged-branches'
+name = 'git-delete-merged-branches'
+
+homepage = 'https://github.com/hartwork/git-delete-merged-branches'
+
+[[package]]
+channel = 'debian'
+name = 'git-delete-merged-branches'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-delete-merged-branches'

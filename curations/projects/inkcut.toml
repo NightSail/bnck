@@ -1,0 +1,8 @@
+id = 'inkcut'
+name = 'inkcut'
+
+homepage = 'https://codelv.com/projects/inkcut'
+
+[[package]]
+channel = 'debian'
+name = 'inkcut'

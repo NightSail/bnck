@@ -4,5 +4,9 @@ name = 'laptop-detect'
 homepage = 'https://gitlab.com/debiants/laptop-detect'
 
 [[package]]
+channel = 'arch'
+name = 'laptop-detect'
+
+[[package]]
 channel = 'debian'
 name = 'laptop-detect'

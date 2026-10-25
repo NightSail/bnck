@@ -1,0 +1,8 @@
+id = 'fmf'
+name = 'fmf'
+
+homepage = 'https://github.com/teemtee/fmf'
+
+[[package]]
+channel = 'fedora'
+name = 'fmf'

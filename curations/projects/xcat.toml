@@ -1,0 +1,8 @@
+id = 'xcat'
+name = 'xcat'
+
+homepage = 'https://github.com/orf/xcat'
+
+[[package]]
+channel = 'fedora'
+name = 'xcat'

@@ -1,0 +1,6 @@
+id = 'ukui-system-monitor'
+name = 'ukui-system-monitor'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-system-monitor'

@@ -1,0 +1,8 @@
+id = 'ghc-vty-unix'
+name = 'ghc-vty-unix'
+
+homepage = 'https://hackage.haskell.org/package/vty-unix'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-vty-unix'

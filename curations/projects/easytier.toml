@@ -1,0 +1,16 @@
+id = 'easytier'
+name = 'easytier'
+
+homepage = 'https://easytier.cn'
+
+[[package]]
+channel = 'arch'
+name = 'easytier-cli'
+
+[[package]]
+channel = 'arch'
+name = 'easytier-core'
+
+[[package]]
+channel = 'arch'
+name = 'easytier-web'

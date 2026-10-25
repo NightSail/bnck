@@ -1,0 +1,8 @@
+id = 'go-rice-geertjohan'
+name = 'go-rice'
+
+repository = 'https://github.com/GeertJohan/go.rice.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-rice'

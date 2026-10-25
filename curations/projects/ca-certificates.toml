@@ -1,0 +1,10 @@
+id = 'ca-certificates'
+name = 'ca-certificates'
+
+[[package]]
+channel = 'debian'
+name = 'ca-certificates'
+
+[[package]]
+channel = 'fedora'
+name = 'ca-certificates'

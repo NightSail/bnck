@@ -1,0 +1,8 @@
+id = 'inetsim'
+name = 'inetsim'
+
+homepage = 'https://www.inetsim.org/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'inetsim'

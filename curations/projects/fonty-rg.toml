@@ -1,0 +1,8 @@
+id = 'fonty-rg'
+name = 'fonty-rg'
+
+homepage = 'https://github.com/garabik/fonty-rg'
+
+[[package]]
+channel = 'debian'
+name = 'fonty-rg'

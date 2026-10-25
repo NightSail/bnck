@@ -1,0 +1,8 @@
+id = 'ytalk'
+name = 'ytalk'
+
+homepage = 'http://www.impul.se/ytalk'
+
+[[package]]
+channel = 'fedora'
+name = 'ytalk'

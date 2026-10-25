@@ -1,0 +1,8 @@
+id = 'spirv-reflect'
+name = 'spirv-reflect'
+
+homepage = 'https://github.com/KhronosGroup/SPIRV-Reflect'
+
+[[package]]
+channel = 'debian'
+name = 'spirv-reflect'

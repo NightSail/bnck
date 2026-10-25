@@ -1,0 +1,12 @@
+id = 'ugene'
+name = 'ugene'
+
+homepage = 'https://ugene.unipro.ru'
+
+[[package]]
+channel = 'debian'
+name = 'ugene'
+
+[[package]]
+channel = 'fedora'
+name = 'ugene'

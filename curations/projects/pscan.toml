@@ -1,0 +1,8 @@
+id = 'pscan'
+name = 'pscan'
+
+homepage = 'https://deployingradius.com/blog'
+
+[[package]]
+channel = 'debian'
+name = 'pscan'

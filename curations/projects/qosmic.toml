@@ -1,0 +1,8 @@
+id = 'qosmic'
+name = 'qosmic'
+
+homepage = 'https://github.com/bitsed/qosmic'
+
+[[package]]
+channel = 'debian'
+name = 'qosmic'

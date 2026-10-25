@@ -1,0 +1,8 @@
+id = 'zzz'
+name = 'zzz'
+
+repository = 'https://github.com/Orc/Zzz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zzz'

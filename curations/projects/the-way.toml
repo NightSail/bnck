@@ -1,0 +1,8 @@
+id = 'the-way'
+name = 'the-way'
+
+repository = 'https://github.com/out-of-cheese-error/the-way.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/the-way'

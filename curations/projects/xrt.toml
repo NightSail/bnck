@@ -1,0 +1,8 @@
+id = 'xrt'
+name = 'xrt'
+
+homepage = 'https://xilinx.github.io/XRT'
+
+[[package]]
+channel = 'arch'
+name = 'xrt'

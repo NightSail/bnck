@@ -1,0 +1,8 @@
+id = 'ukui-panel'
+name = 'ukui-panel'
+
+homepage = 'https://gitee.com/openkylin/ukui-panel'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-panel'

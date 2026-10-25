@@ -1,0 +1,8 @@
+id = 'efte'
+name = 'efte'
+
+homepage = 'https://github.com/lanurmi/efte'
+
+[[package]]
+channel = 'debian'
+name = 'efte'

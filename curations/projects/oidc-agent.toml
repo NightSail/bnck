@@ -1,0 +1,20 @@
+id = 'oidc-agent'
+name = 'oidc-agent'
+
+homepage = 'https://github.com/indigo-dc/oidc-agent'
+
+[[package]]
+channel = 'debian'
+name = 'oidc-agent-cli'
+
+[[package]]
+channel = 'debian'
+name = 'oidc-agent-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'oidc-agent-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'oidc-agent-desktop'

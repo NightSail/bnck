@@ -1,0 +1,8 @@
+id = 'gowrap'
+name = 'gowrap'
+
+homepage = 'https://github.com/hexdigest/gowrap'
+
+[[package]]
+channel = 'fedora'
+name = 'gowrap'

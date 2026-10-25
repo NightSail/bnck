@@ -1,0 +1,8 @@
+id = 'mscompress'
+name = 'mscompress'
+
+homepage = 'https://github.com/stapelberg/mscompress'
+
+[[package]]
+channel = 'debian'
+name = 'mscompress'

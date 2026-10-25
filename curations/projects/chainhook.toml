@@ -1,0 +1,8 @@
+id = 'chainhook'
+name = 'chainhook'
+
+repository = 'https://github.com/hirosystems/chainhook.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chainhook'

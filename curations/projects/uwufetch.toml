@@ -1,0 +1,8 @@
+id = 'uwufetch'
+name = 'uwufetch'
+
+homepage = 'https://github.com/TheDarkBug/uwufetch'
+
+[[package]]
+channel = 'arch'
+name = 'uwufetch'

@@ -1,0 +1,32 @@
+id = 'qt-for-python'
+name = 'Qt_for_Python'
+
+homepage = 'https://wiki.qt.io/Qt_for_Python'
+
+[[package]]
+channel = 'debian'
+name = 'pyside2-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pyside6-tools'
+
+[[package]]
+channel = 'debian'
+name = 'shiboken2'
+
+[[package]]
+channel = 'debian'
+name = 'shiboken6'
+
+[[package]]
+channel = 'fedora'
+name = 'pyside6-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-shiboken6-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyside'

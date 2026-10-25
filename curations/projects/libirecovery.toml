@@ -1,0 +1,9 @@
+id = 'libirecovery'
+name = 'libirecovery'
+
+homepage = 'https://www.libimobiledevice.org'
+repository = 'https://github.com/libimobiledevice/libirecovery.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libirecovery'

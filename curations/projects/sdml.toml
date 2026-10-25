@@ -1,0 +1,8 @@
+id = 'sdml'
+name = 'sdml'
+
+homepage = 'https://github.com/sdm-lang/rust-sdml'
+
+[[package]]
+channel = 'debian'
+name = 'sdml'

@@ -1,0 +1,8 @@
+id = 'libwww-mediawiki-client-perl'
+name = 'libwww-mediawiki-client-perl'
+
+homepage = 'https://metacpan.org/dist/WWW-Mediawiki-Client'
+
+[[package]]
+channel = 'debian'
+name = 'libwww-mediawiki-client-perl'

@@ -1,0 +1,8 @@
+id = 'wcc'
+name = 'wcc'
+
+homepage = 'https://github.com/endrazine/wcc'
+
+[[package]]
+channel = 'debian'
+name = 'wcc'

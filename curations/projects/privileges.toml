@@ -1,0 +1,8 @@
+id = 'privileges'
+name = 'privileges'
+
+homepage = 'https://github.com/SAP/macOS-enterprise-privileges'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/privileges'

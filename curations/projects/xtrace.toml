@@ -1,0 +1,8 @@
+id = 'xtrace'
+name = 'xtrace'
+
+homepage = 'https://packages.debian.org/xtrace'
+
+[[package]]
+channel = 'debian'
+name = 'xtrace'

@@ -1,0 +1,12 @@
+id = 'uri-find'
+name = 'URI-Find'
+
+homepage = 'https://metacpan.org/release/URI-Find'
+
+[[package]]
+channel = 'debian'
+name = 'liburi-find-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-URI-Find'

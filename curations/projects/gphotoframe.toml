@@ -1,0 +1,8 @@
+id = 'gphotoframe'
+name = 'gphotoframe'
+
+homepage = 'http://code.google.com/p/gphotoframe'
+
+[[package]]
+channel = 'fedora'
+name = 'gphotoframe'

@@ -1,0 +1,16 @@
+id = 'pytesseract'
+name = 'pytesseract'
+
+homepage = 'https://github.com/madmaze/pytesseract'
+
+[[package]]
+channel = 'arch'
+name = 'python-pytesseract'
+
+[[package]]
+channel = 'debian'
+name = 'pytesseract'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytesseract'

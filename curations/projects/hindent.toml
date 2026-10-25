@@ -1,0 +1,12 @@
+id = 'hindent'
+name = 'hindent'
+
+repository = 'https://github.com/mihaimaruseac/hindent.git'
+
+[[package]]
+channel = 'arch'
+name = 'hindent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hindent'

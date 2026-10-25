@@ -1,0 +1,8 @@
+id = 'compose-utils'
+name = 'compose-utils'
+
+homepage = 'https://pagure.io/compose-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'compose-utils'

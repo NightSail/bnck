@@ -1,0 +1,8 @@
+id = 'sshportal'
+name = 'sshportal'
+
+homepage = 'https://v1.manfred.life/sshportal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshportal'

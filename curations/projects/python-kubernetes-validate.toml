@@ -1,0 +1,8 @@
+id = 'python-kubernetes-validate'
+name = 'python-kubernetes-validate'
+
+homepage = 'https://github.com/willthames/kubernetes-validate'
+
+[[package]]
+channel = 'arch'
+name = 'python-kubernetes-validate'

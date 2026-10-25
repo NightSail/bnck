@@ -1,0 +1,8 @@
+id = 'python3-pyxnat'
+name = 'python3-pyxnat'
+
+homepage = 'https://github.com/pyxnat/pyxnat'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyxnat'

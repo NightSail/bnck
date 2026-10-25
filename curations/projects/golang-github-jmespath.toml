@@ -1,0 +1,8 @@
+id = 'golang-github-jmespath'
+name = 'golang-github-jmespath'
+
+homepage = 'https://github.com/jmespath/go-jmespath'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-jmespath'

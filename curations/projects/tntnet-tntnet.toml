@@ -1,0 +1,12 @@
+id = 'tntnet-tntnet'
+name = 'tntnet'
+
+homepage = 'http://www.tntnet.org/cxxtools.html'
+
+[[package]]
+channel = 'debian'
+name = 'libcxxtools-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'cxxtools-devel'

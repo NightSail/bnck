@@ -1,0 +1,8 @@
+id = 'ieee-data'
+name = 'ieee-data'
+
+homepage = 'https://standards.ieee.org/products-services/regauth/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'ieee-data'

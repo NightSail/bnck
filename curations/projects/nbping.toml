@@ -1,0 +1,8 @@
+id = 'nbping'
+name = 'nbping'
+
+homepage = 'https://github.com/hanshuaikang/NBping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nbping'

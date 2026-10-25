@@ -1,0 +1,8 @@
+id = 'pkg-haskell-tools'
+name = 'pkg-haskell-tools'
+
+homepage = 'https://wiki.debian.org/Haskell'
+
+[[package]]
+channel = 'debian'
+name = 'pkg-haskell-tools'

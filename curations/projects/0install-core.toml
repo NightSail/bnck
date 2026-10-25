@@ -1,0 +1,8 @@
+id = '0install-core'
+name = '0install-core'
+
+homepage = 'http://0install.net'
+
+[[package]]
+channel = 'debian'
+name = '0install-core'

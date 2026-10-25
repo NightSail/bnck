@@ -1,0 +1,9 @@
+id = 'lfe'
+name = 'lfe'
+
+homepage = 'https://lfe.io'
+repository = 'https://github.com/lfe/lfe.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lfe'

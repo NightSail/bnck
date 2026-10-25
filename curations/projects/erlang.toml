@@ -1,0 +1,77 @@
+id = 'erlang'
+name = 'erlang'
+
+homepage = 'https://erlang.org'
+repository = 'https://github.com/erlang/otp.git'
+
+[[package]]
+channel = 'arch'
+name = 'erlang-common_test'
+
+[[package]]
+channel = 'arch'
+name = 'erlang-core'
+
+[[package]]
+channel = 'arch'
+name = 'erlang-dialyzer'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-base'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-common-test'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-dev'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-dialyzer'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-diameter'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-edoc'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-observer'
+
+[[package]]
+channel = 'debian'
+name = 'erlang-snmp'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-common_test'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-dialyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-erts'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlang'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlang@26'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlang@27'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erlang@28'

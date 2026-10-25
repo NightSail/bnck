@@ -1,0 +1,8 @@
+id = 'golang-github-pierrre-geohash'
+name = 'golang-github-pierrre-geohash'
+
+homepage = 'https://github.com/pierrre/geohash'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pierrre-geohash'

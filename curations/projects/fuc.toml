@@ -1,0 +1,8 @@
+id = 'fuc'
+name = 'fuc'
+
+repository = 'https://github.com/supercilex/fuc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fuc'

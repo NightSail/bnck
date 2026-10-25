@@ -1,0 +1,8 @@
+id = 'xrprof'
+name = 'xrprof'
+
+homepage = 'https://github.com/atheriel/xrprof'
+
+[[package]]
+channel = 'debian'
+name = 'xrprof'

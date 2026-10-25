@@ -1,0 +1,8 @@
+id = 'node-sort-package-json'
+name = 'node-sort-package-json'
+
+homepage = 'https://github.com/keithamus/sort-package-json'
+
+[[package]]
+channel = 'debian'
+name = 'node-sort-package-json'

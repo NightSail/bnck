@@ -1,0 +1,20 @@
+id = 'uptimed'
+name = 'uptimed'
+
+homepage = 'https://github.com/rpodgorny/uptimed'
+
+[[package]]
+channel = 'arch'
+name = 'uptimed'
+
+[[package]]
+channel = 'debian'
+name = 'uptimed'
+
+[[package]]
+channel = 'fedora'
+name = 'uptimed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uptimed'

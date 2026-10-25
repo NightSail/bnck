@@ -1,0 +1,60 @@
+id = 'freepascal'
+name = 'freepascal'
+
+homepage = 'https://www.freepascal.org'
+
+[[package]]
+channel = 'arch'
+name = 'fpc'
+
+[[package]]
+channel = 'debian'
+name = 'fp-compiler-3.2.2'
+
+[[package]]
+channel = 'debian'
+name = 'fp-ide-3.2.2'
+
+[[package]]
+channel = 'debian'
+name = 'fp-units-rtl-3.2.2'
+
+[[package]]
+channel = 'debian'
+name = 'fp-utils'
+
+[[package]]
+channel = 'debian'
+name = 'fp-utils-3.2.2'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc-cross-aarch64'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc-cross-arm'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc-cross-i386'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc-cross-powerpc64'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc-cross-x86_64'
+
+[[package]]
+channel = 'fedora'
+name = 'fpc-ide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fpc'

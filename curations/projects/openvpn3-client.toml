@@ -1,0 +1,8 @@
+id = 'openvpn3-client'
+name = 'openvpn3-client'
+
+homepage = 'https://codeberg.org/OpenVPN/openvpn3-linux'
+
+[[package]]
+channel = 'debian'
+name = 'openvpn3-client'

@@ -1,0 +1,8 @@
+id = 'im'
+name = 'im'
+
+homepage = 'http://tats.hauN.org/im'
+
+[[package]]
+channel = 'debian'
+name = 'im'

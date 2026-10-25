@@ -1,0 +1,8 @@
+id = 'swiftplantuml'
+name = 'swiftplantuml'
+
+homepage = 'https://marcoeidinger.github.io/SwiftPlantUML'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swiftplantuml'

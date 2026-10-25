@@ -1,0 +1,8 @@
+id = 'ocaml-ppxlib-tools'
+name = 'ocaml-ppxlib-tools'
+
+homepage = 'https://ocaml-ppx.github.io/ppxlib'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ppxlib-tools'

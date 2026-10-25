@@ -1,0 +1,8 @@
+id = 'lpe'
+name = 'lpe'
+
+homepage = 'https://github.com/AdamMajer/lpe'
+
+[[package]]
+channel = 'debian'
+name = 'lpe'

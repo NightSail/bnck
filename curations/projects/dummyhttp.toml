@@ -1,0 +1,8 @@
+id = 'dummyhttp'
+name = 'dummyhttp'
+
+homepage = 'https://github.com/svenstaro/dummyhttp'
+
+[[package]]
+channel = 'arch'
+name = 'dummyhttp'

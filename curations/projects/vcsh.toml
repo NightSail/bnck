@@ -1,0 +1,20 @@
+id = 'vcsh'
+name = 'vcsh'
+
+homepage = 'https://github.com/RichiH/vcsh'
+
+[[package]]
+channel = 'arch'
+name = 'vcsh'
+
+[[package]]
+channel = 'debian'
+name = 'vcsh'
+
+[[package]]
+channel = 'fedora'
+name = 'vcsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcsh'

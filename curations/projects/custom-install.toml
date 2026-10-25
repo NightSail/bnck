@@ -1,0 +1,8 @@
+id = 'custom-install'
+name = 'custom-install'
+
+homepage = 'https://github.com/ihaveamac/custom-install'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/custom-install'

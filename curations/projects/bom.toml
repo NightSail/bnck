@@ -1,0 +1,9 @@
+id = 'bom'
+name = 'bom'
+
+homepage = 'https://kubernetes-sigs.github.io/bom'
+repository = 'https://github.com/kubernetes-sigs/bom.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bom'

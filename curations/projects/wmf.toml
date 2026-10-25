@@ -1,0 +1,8 @@
+id = 'wmf'
+name = 'wmf'
+
+homepage = 'http://www.lugs.ch/LUGS_Members/norbert.kuemin/wmf.html'
+
+[[package]]
+channel = 'debian'
+name = 'wmf'

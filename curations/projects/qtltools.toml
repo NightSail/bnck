@@ -1,0 +1,8 @@
+id = 'qtltools'
+name = 'qtltools'
+
+homepage = 'https://qtltools.github.io/qtltools'
+
+[[package]]
+channel = 'debian'
+name = 'qtltools'

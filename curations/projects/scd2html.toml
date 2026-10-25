@@ -1,0 +1,8 @@
+id = 'scd2html'
+name = 'scd2html'
+
+homepage = 'https://sr.ht/~bitfehler/scd2html'
+
+[[package]]
+channel = 'fedora'
+name = 'scd2html'

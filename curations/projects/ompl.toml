@@ -1,0 +1,17 @@
+id = 'ompl'
+name = 'ompl'
+
+homepage = 'https://ompl.kavrakilab.org'
+repository = 'https://github.com/ompl/ompl.git'
+
+[[package]]
+channel = 'debian'
+name = 'ompl-demos'
+
+[[package]]
+channel = 'debian'
+name = 'ompl-plannerarena'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ompl'

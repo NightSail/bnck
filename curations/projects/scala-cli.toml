@@ -1,0 +1,9 @@
+id = 'scala-cli'
+name = 'scala-cli'
+
+homepage = 'https://scala-cli.virtuslab.org'
+repository = 'https://github.com/VirtusLab/scala-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scala-cli'

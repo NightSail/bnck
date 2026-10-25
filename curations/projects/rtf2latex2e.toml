@@ -1,0 +1,8 @@
+id = 'rtf2latex2e'
+name = 'rtf2latex2e'
+
+homepage = 'https://rtf2latex2e.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtf2latex2e'

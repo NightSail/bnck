@@ -1,0 +1,9 @@
+id = 'tfsec'
+name = 'tfsec'
+
+homepage = 'https://aquasecurity.github.io/tfsec/latest'
+repository = 'https://github.com/aquasecurity/tfsec.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfsec'

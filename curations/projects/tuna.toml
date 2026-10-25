@@ -1,0 +1,28 @@
+id = 'tuna'
+name = 'tuna'
+
+homepage = 'https://rt.wiki.kernel.org/index.php/Tuna'
+
+[[package]]
+channel = 'debian'
+name = 'python3-schedutils'
+
+[[package]]
+channel = 'debian'
+name = 'tuna'
+
+[[package]]
+channel = 'fedora'
+name = 'oscilloscope'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-linux-procfs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-schedutils'
+
+[[package]]
+channel = 'fedora'
+name = 'tuna'

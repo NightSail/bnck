@@ -1,0 +1,8 @@
+id = 'mumudvb'
+name = 'mumudvb'
+
+homepage = 'https://mumudvb.net'
+
+[[package]]
+channel = 'debian'
+name = 'mumudvb'

@@ -1,0 +1,12 @@
+id = 'libnxt'
+name = 'libnxt'
+
+homepage = 'https://git.ni.fr.eu.org/libnxt.git/about'
+
+[[package]]
+channel = 'debian'
+name = 'libnxt'
+
+[[package]]
+channel = 'fedora'
+name = 'libnxt'

@@ -1,0 +1,8 @@
+id = 'pagure-cli'
+name = 'pagure-cli'
+
+homepage = 'https://hackage.haskell.org/package/pagure-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'pagure-cli'

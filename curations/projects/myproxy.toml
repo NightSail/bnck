@@ -1,0 +1,28 @@
+id = 'myproxy'
+name = 'myproxy'
+
+homepage = 'http://grid.ncsa.illinois.edu/myproxy'
+
+[[package]]
+channel = 'debian'
+name = 'myproxy'
+
+[[package]]
+channel = 'debian'
+name = 'myproxy-admin'
+
+[[package]]
+channel = 'debian'
+name = 'myproxy-server'
+
+[[package]]
+channel = 'fedora'
+name = 'myproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'myproxy-admin'
+
+[[package]]
+channel = 'fedora'
+name = 'myproxy-server'

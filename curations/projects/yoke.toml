@@ -1,0 +1,9 @@
+id = 'yoke'
+name = 'yoke'
+
+homepage = 'https://yokecd.github.io/docs'
+repository = 'https://github.com/yokecd/yoke.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yoke'

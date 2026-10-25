@@ -1,0 +1,8 @@
+id = 'node-shelljs'
+name = 'node-shelljs'
+
+homepage = 'https://github.com/shelljs/shelljs'
+
+[[package]]
+channel = 'debian'
+name = 'node-shelljs'

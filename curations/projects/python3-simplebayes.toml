@@ -1,0 +1,8 @@
+id = 'python3-simplebayes'
+name = 'python3-simplebayes'
+
+homepage = 'https://github.com/hickeroar/simplebayes'
+
+[[package]]
+channel = 'debian'
+name = 'python3-simplebayes'

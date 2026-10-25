@@ -1,0 +1,8 @@
+id = 'ktop-tknott95'
+name = 'ktop'
+
+repository = 'https://github.com/Tknott95/KnottTop'
+
+[[package]]
+channel = 'crates.io'
+name = 'ktop'

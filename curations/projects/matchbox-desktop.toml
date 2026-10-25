@@ -1,0 +1,6 @@
+id = 'matchbox-desktop'
+name = 'matchbox-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'matchbox-desktop'

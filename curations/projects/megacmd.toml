@@ -1,0 +1,13 @@
+id = 'megacmd'
+name = 'megacmd'
+
+homepage = 'https://github.com/meganz/MEGAcmd'
+repository = 'https://github.com/t3rm1n4l/megacmd.git'
+
+[[package]]
+channel = 'debian'
+name = 'megacmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/megacmd'

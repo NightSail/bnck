@@ -1,0 +1,12 @@
+id = 'quickjs'
+name = 'quickjs'
+
+homepage = 'https://bellard.org/quickjs'
+
+[[package]]
+channel = 'debian'
+name = 'quickjs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quickjs'

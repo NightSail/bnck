@@ -1,0 +1,6 @@
+id = 'kamcli'
+name = 'kamcli'
+
+[[package]]
+channel = 'debian'
+name = 'kamcli'

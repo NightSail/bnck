@@ -1,0 +1,12 @@
+id = 's3fs-fuse'
+name = 's3fs-fuse'
+
+homepage = 'https://github.com/s3fs-fuse/s3fs-fuse'
+
+[[package]]
+channel = 'debian'
+name = 's3fs'
+
+[[package]]
+channel = 'fedora'
+name = 's3fs-fuse'

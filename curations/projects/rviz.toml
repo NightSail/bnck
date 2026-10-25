@@ -1,0 +1,8 @@
+id = 'rviz'
+name = 'rviz'
+
+homepage = 'https://wiki.ros.org/rviz'
+
+[[package]]
+channel = 'debian'
+name = 'rviz'

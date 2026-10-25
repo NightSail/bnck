@@ -1,0 +1,12 @@
+id = 'gfs2-utils'
+name = 'gfs2-utils'
+
+homepage = 'https://pagure.io/gfs2-utils'
+
+[[package]]
+channel = 'debian'
+name = 'gfs2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'gfs2-utils'

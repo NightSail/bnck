@@ -1,0 +1,16 @@
+id = 'snowballstem'
+name = 'snowballstem'
+
+homepage = 'https://snowballstem.org'
+
+[[package]]
+channel = 'arch'
+name = 'snowball'
+
+[[package]]
+channel = 'debian'
+name = 'libstemmer-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'snowball'

@@ -1,0 +1,13 @@
+id = 'cargo-msrv'
+name = 'cargo-msrv'
+
+homepage = 'https://foresterre.github.io/cargo-msrv'
+repository = 'https://github.com/foresterre/cargo-msrv.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-msrv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-msrv'

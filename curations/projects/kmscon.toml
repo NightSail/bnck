@@ -1,0 +1,12 @@
+id = 'kmscon'
+name = 'kmscon'
+
+homepage = 'https://github.com/kmscon/kmscon'
+
+[[package]]
+channel = 'arch'
+name = 'kmscon'
+
+[[package]]
+channel = 'debian'
+name = 'kmscon'

@@ -1,0 +1,8 @@
+id = 'rrep'
+name = 'rrep'
+
+homepage = 'https://sourceforge.net/projects/rrep'
+
+[[package]]
+channel = 'debian'
+name = 'rrep'

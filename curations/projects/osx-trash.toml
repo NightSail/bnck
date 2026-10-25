@@ -1,0 +1,8 @@
+id = 'osx-trash'
+name = 'osx-trash'
+
+repository = 'https://github.com/morgant/tools-osx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osx-trash'

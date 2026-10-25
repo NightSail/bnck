@@ -1,0 +1,12 @@
+id = 'python3-pox'
+name = 'python3-pox'
+
+homepage = 'https://github.com/uqfoundation/pox'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pox'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pox'

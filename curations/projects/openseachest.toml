@@ -1,0 +1,8 @@
+id = 'openseachest'
+name = 'openseachest'
+
+homepage = 'https://github.com/Seagate/openSeaChest'
+
+[[package]]
+channel = 'debian'
+name = 'openseachest'

@@ -1,0 +1,12 @@
+id = 'simka'
+name = 'simka'
+
+homepage = 'https://github.com/GATB/simka'
+
+[[package]]
+channel = 'debian'
+name = 'simka'
+
+[[package]]
+channel = 'debian'
+name = 'simkamin'

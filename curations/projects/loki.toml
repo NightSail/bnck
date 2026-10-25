@@ -1,0 +1,20 @@
+id = 'loki'
+name = 'loki'
+
+homepage = 'https://github.com/grafana/loki'
+
+[[package]]
+channel = 'arch'
+name = 'logcli'
+
+[[package]]
+channel = 'arch'
+name = 'loki'
+
+[[package]]
+channel = 'arch'
+name = 'loki-canary'
+
+[[package]]
+channel = 'arch'
+name = 'promtail'

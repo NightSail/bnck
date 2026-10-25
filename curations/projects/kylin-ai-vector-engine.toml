@@ -1,0 +1,8 @@
+id = 'kylin-ai-vector-engine'
+name = 'kylin-ai-vector-engine'
+
+homepage = 'https://github.com/milvus-io/milvus-lite'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-ai-vector-engine'

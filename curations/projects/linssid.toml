@@ -1,0 +1,12 @@
+id = 'linssid'
+name = 'linssid'
+
+homepage = 'https://sourceforge.net/projects/linssid'
+
+[[package]]
+channel = 'arch'
+name = 'linssid'
+
+[[package]]
+channel = 'debian'
+name = 'linssid'

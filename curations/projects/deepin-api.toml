@@ -1,0 +1,12 @@
+id = 'deepin-api'
+name = 'deepin-api'
+
+homepage = 'https://github.com/linuxdeepin/dde-api'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-api'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-api'

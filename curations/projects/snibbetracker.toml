@@ -1,0 +1,8 @@
+id = 'snibbetracker'
+name = 'snibbetracker'
+
+homepage = 'https://github.com/lundstroem/snibbetracker'
+
+[[package]]
+channel = 'debian'
+name = 'snibbetracker'

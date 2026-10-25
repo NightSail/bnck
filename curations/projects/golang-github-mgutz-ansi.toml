@@ -1,0 +1,8 @@
+id = 'golang-github-mgutz-ansi'
+name = 'golang-github-mgutz-ansi'
+
+homepage = 'https://github.com/mgutz/ansi'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-mgutz-ansi'

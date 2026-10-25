@@ -1,0 +1,8 @@
+id = 'newrelic-cli'
+name = 'newrelic-cli'
+
+repository = 'https://github.com/newrelic/newrelic-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/newrelic-cli'

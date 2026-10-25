@@ -1,0 +1,9 @@
+id = 'bulk-extractor'
+name = 'bulk_extractor'
+
+homepage = 'https://github.com/simsong/bulk_extractor/wiki'
+repository = 'https://github.com/simsong/bulk_extractor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bulk_extractor'

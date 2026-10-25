@@ -1,0 +1,8 @@
+id = 'ex-vi-compat'
+name = 'ex-vi-compat'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/packaging/packages/ex-vi-compat'
+
+[[package]]
+channel = 'arch'
+name = 'ex-vi-compat'

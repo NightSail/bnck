@@ -1,0 +1,8 @@
+id = 'telly-skout'
+name = 'telly-skout'
+
+homepage = 'https://apps.kde.org/telly-skout'
+
+[[package]]
+channel = 'arch'
+name = 'telly-skout'

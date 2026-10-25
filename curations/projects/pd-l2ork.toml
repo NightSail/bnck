@@ -1,0 +1,8 @@
+id = 'pd-l2ork'
+name = 'pd-l2ork'
+
+homepage = 'https://agraef.github.io/purr-data'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/pd-l2ork'

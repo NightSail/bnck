@@ -1,0 +1,16 @@
+id = 'smokeping'
+name = 'smokeping'
+
+homepage = 'https://oss.oetiker.ch/smokeping'
+
+[[package]]
+channel = 'arch'
+name = 'smokeping'
+
+[[package]]
+channel = 'debian'
+name = 'smokeping'
+
+[[package]]
+channel = 'fedora'
+name = 'smokeping'

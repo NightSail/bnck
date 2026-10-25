@@ -1,0 +1,8 @@
+id = 'libqapt3-runtime'
+name = 'libqapt3-runtime'
+
+homepage = 'https://invent.kde.org/system/libqapt'
+
+[[package]]
+channel = 'debian'
+name = 'libqapt3-runtime'

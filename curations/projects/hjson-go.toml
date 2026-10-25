@@ -1,0 +1,8 @@
+id = 'hjson-go'
+name = 'hjson-go'
+
+homepage = 'https://github.com/hjson/hjson-go'
+
+[[package]]
+channel = 'debian'
+name = 'hjson-go'

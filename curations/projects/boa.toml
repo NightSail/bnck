@@ -1,0 +1,8 @@
+id = 'boa'
+name = 'boa'
+
+repository = 'https://github.com/boa-dev/boa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boa'

@@ -1,0 +1,8 @@
+id = 'wtmpdb'
+name = 'wtmpdb'
+
+homepage = 'https://github.com/thkukuk/wtmpdb'
+
+[[package]]
+channel = 'debian'
+name = 'wtmpdb'

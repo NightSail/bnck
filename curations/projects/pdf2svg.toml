@@ -1,0 +1,20 @@
+id = 'pdf2svg'
+name = 'pdf2svg'
+
+homepage = 'https://cityinthesky.co.uk/opensource/pdf2svg'
+
+[[package]]
+channel = 'arch'
+name = 'pdf2svg'
+
+[[package]]
+channel = 'debian'
+name = 'pdf2svg'
+
+[[package]]
+channel = 'fedora'
+name = 'pdf2svg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdf2svg'

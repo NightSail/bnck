@@ -4,6 +4,14 @@ name = 'rtorrent'
 homepage = 'https://github.com/rakshasa/rtorrent'
 
 [[package]]
+channel = 'arch'
+name = 'rtorrent'
+
+[[package]]
+channel = 'debian'
+name = 'rtorrent'
+
+[[package]]
 channel = 'fedora'
 name = 'rtorrent'
 

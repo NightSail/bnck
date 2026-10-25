@@ -1,0 +1,8 @@
+id = 'mustang'
+name = 'mustang'
+
+homepage = 'https://lcb.infotech.monash.edu.au/mustang'
+
+[[package]]
+channel = 'debian'
+name = 'mustang'

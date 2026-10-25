@@ -1,0 +1,8 @@
+id = 'mkvdts2ac3'
+name = 'mkvdts2ac3'
+
+repository = 'https://github.com/JakeWharton/mkvdts2ac3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkvdts2ac3'

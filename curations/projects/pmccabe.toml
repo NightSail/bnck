@@ -1,0 +1,12 @@
+id = 'pmccabe'
+name = 'pmccabe'
+
+homepage = 'https://gitlab.com/pmccabe/pmccabe'
+
+[[package]]
+channel = 'debian'
+name = 'pmccabe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pmccabe'

@@ -1,0 +1,12 @@
+id = 'kshisen'
+name = 'kshisen'
+
+homepage = 'https://apps.kde.org/kshisen'
+
+[[package]]
+channel = 'arch'
+name = 'kshisen'
+
+[[package]]
+channel = 'fedora'
+name = 'kshisen'

@@ -1,0 +1,8 @@
+id = 'ymuse'
+name = 'ymuse'
+
+homepage = 'https://github.com/yktoo/ymuse'
+
+[[package]]
+channel = 'debian'
+name = 'ymuse'

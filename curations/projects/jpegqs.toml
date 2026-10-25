@@ -1,0 +1,8 @@
+id = 'jpegqs'
+name = 'jpegqs'
+
+homepage = 'https://github.com/ilyakurdyukov/jpeg-quantsmooth'
+
+[[package]]
+channel = 'debian'
+name = 'jpegqs'

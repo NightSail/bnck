@@ -1,0 +1,8 @@
+id = 'proxyboi'
+name = 'proxyboi'
+
+homepage = 'https://github.com/svenstaro/proxyboi'
+
+[[package]]
+channel = 'arch'
+name = 'proxyboi'

@@ -1,0 +1,8 @@
+id = 'ipxe'
+name = 'ipxe'
+
+homepage = 'https://ipxe.org'
+
+[[package]]
+channel = 'arch'
+name = 'ipxe'

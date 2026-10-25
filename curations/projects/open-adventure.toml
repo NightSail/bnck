@@ -1,0 +1,9 @@
+id = 'open-adventure'
+name = 'open-adventure'
+
+homepage = 'http://www.catb.org/~esr/open-adventure'
+repository = 'https://gitlab.com/esr/open-adventure.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-adventure'

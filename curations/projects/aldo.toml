@@ -1,0 +1,16 @@
+id = 'aldo'
+name = 'aldo'
+
+homepage = 'https://www.nongnu.org/aldo'
+
+[[package]]
+channel = 'debian'
+name = 'aldo'
+
+[[package]]
+channel = 'fedora'
+name = 'aldo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aldo'

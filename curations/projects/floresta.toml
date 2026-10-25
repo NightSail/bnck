@@ -1,0 +1,9 @@
+id = 'floresta'
+name = 'floresta'
+
+homepage = 'https://getfloresta.org'
+repository = 'https://github.com/getfloresta/Floresta.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/floresta'

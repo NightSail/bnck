@@ -1,0 +1,8 @@
+id = 'diffmerge'
+name = 'diffmerge'
+
+homepage = 'https://www.sourcegear.com/diffmerge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/diffmerge'

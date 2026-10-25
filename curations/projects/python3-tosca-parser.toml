@@ -1,0 +1,8 @@
+id = 'python3-tosca-parser'
+name = 'python3-tosca-parser'
+
+homepage = 'https://github.com/openstack/tosca-parser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tosca-parser'

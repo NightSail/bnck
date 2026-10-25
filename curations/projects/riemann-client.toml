@@ -1,0 +1,8 @@
+id = 'riemann-client'
+name = 'riemann-client'
+
+repository = 'https://git.madhouse-project.org/algernon/riemann-c-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/riemann-client'

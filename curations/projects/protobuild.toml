@@ -1,0 +1,8 @@
+id = 'protobuild'
+name = 'protobuild'
+
+homepage = 'https://github.com/containerd/protobuild'
+
+[[package]]
+channel = 'debian'
+name = 'protobuild'

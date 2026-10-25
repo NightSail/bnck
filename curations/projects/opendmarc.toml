@@ -1,0 +1,12 @@
+id = 'opendmarc'
+name = 'opendmarc'
+
+homepage = 'https://github.com/trusteddomainproject/OpenDMARC'
+
+[[package]]
+channel = 'arch'
+name = 'opendmarc'
+
+[[package]]
+channel = 'debian'
+name = 'opendmarc'

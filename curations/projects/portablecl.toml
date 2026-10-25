@@ -1,0 +1,12 @@
+id = 'portablecl'
+name = 'portablecl'
+
+homepage = 'http://portablecl.org'
+
+[[package]]
+channel = 'arch'
+name = 'pocl'
+
+[[package]]
+channel = 'debian'
+name = 'libpocl-dev'

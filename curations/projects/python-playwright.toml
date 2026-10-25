@@ -1,0 +1,8 @@
+id = 'python-playwright'
+name = 'python-playwright'
+
+homepage = 'https://github.com/microsoft/playwright-python'
+
+[[package]]
+channel = 'arch'
+name = 'python-playwright'

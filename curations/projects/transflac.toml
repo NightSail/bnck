@@ -1,0 +1,8 @@
+id = 'transflac'
+name = 'transflac'
+
+homepage = 'https://bitbucket.org/gbcox/transflac'
+
+[[package]]
+channel = 'fedora'
+name = 'transflac'

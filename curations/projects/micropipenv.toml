@@ -1,0 +1,8 @@
+id = 'micropipenv'
+name = 'micropipenv'
+
+homepage = 'https://github.com/thoth-station/micropipenv'
+
+[[package]]
+channel = 'fedora'
+name = 'micropipenv'

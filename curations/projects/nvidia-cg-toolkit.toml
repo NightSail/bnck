@@ -1,0 +1,8 @@
+id = 'nvidia-cg-toolkit'
+name = 'nvidia-cg-toolkit'
+
+homepage = 'https://developer.nvidia.com/cg-toolkit'
+
+[[package]]
+channel = 'arch'
+name = 'nvidia-cg-toolkit'

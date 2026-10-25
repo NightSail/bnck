@@ -1,0 +1,20 @@
+id = 'pcb-rnd'
+name = 'pcb-rnd'
+
+homepage = 'http://repo.hu/projects/pcb-rnd'
+
+[[package]]
+channel = 'debian'
+name = 'pcb-rnd-core'
+
+[[package]]
+channel = 'debian'
+name = 'pcb-rnd-export'
+
+[[package]]
+channel = 'debian'
+name = 'pcb-rnd-import-net'
+
+[[package]]
+channel = 'debian'
+name = 'pcb-rnd-io-alien'

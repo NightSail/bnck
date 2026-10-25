@@ -1,0 +1,8 @@
+id = 'node-jison-lex'
+name = 'node-jison-lex'
+
+homepage = 'https://github.com/zaach/jison-lex'
+
+[[package]]
+channel = 'debian'
+name = 'node-jison-lex'

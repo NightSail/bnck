@@ -1,0 +1,8 @@
+id = 'perl-extutils-parsexs'
+name = 'perl-ExtUtils-ParseXS'
+
+homepage = 'https://metacpan.org/release/ExtUtils-ParseXS'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-ExtUtils-ParseXS'

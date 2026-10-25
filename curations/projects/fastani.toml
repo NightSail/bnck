@@ -1,0 +1,12 @@
+id = 'fastani'
+name = 'fastani'
+
+repository = 'https://github.com/ParBLiSS/FastANI.git'
+
+[[package]]
+channel = 'debian'
+name = 'fastani'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastani'

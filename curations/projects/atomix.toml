@@ -1,0 +1,12 @@
+id = 'atomix'
+name = 'atomix'
+
+homepage = 'https://wiki.gnome.org/Apps/Atomix'
+
+[[package]]
+channel = 'arch'
+name = 'atomix'
+
+[[package]]
+channel = 'fedora'
+name = 'atomix'

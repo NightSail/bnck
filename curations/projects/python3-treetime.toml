@@ -1,0 +1,8 @@
+id = 'python3-treetime'
+name = 'python3-treetime'
+
+homepage = 'https://github.com/neherlab/treetime'
+
+[[package]]
+channel = 'debian'
+name = 'python3-treetime'

@@ -1,0 +1,12 @@
+id = 'monotone'
+name = 'monotone'
+
+homepage = 'http://monotone.ca'
+
+[[package]]
+channel = 'fedora'
+name = 'monotone'
+
+[[package]]
+channel = 'fedora'
+name = 'monotone-server'

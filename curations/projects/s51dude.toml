@@ -1,0 +1,8 @@
+id = 's51dude'
+name = 's51dude'
+
+homepage = 'http://tulku.bitbucket.org/s51dude'
+
+[[package]]
+channel = 'debian'
+name = 's51dude'

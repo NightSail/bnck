@@ -1,0 +1,8 @@
+id = 'xperia-flashtool'
+name = 'xperia-flashtool'
+
+homepage = 'https://github.com/Androxyde/Flashtool'
+
+[[package]]
+channel = 'debian'
+name = 'xperia-flashtool'

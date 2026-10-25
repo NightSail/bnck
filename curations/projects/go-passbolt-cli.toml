@@ -1,0 +1,9 @@
+id = 'go-passbolt-cli'
+name = 'go-passbolt-cli'
+
+homepage = 'https://www.passbolt.com'
+repository = 'https://github.com/passbolt/go-passbolt-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-passbolt-cli'

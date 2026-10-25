@@ -1,0 +1,8 @@
+id = 'cyclograph'
+name = 'cyclograph'
+
+homepage = 'http://cyclograph.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cyclograph'

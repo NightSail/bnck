@@ -1,0 +1,8 @@
+id = 'paleomix'
+name = 'paleomix'
+
+homepage = 'https://geogenetics.ku.dk/publications/paleomix'
+
+[[package]]
+channel = 'debian'
+name = 'paleomix'

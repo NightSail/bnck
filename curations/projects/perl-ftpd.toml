@@ -1,0 +1,8 @@
+id = 'perl-ftpd'
+name = 'perl-ftpd'
+
+homepage = 'https://metacpan.org/release/Net-FTPServer'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-ftpd'

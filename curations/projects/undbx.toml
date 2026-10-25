@@ -1,0 +1,12 @@
+id = 'undbx'
+name = 'undbx'
+
+homepage = 'https://github.com/ZungBang/undbx'
+
+[[package]]
+channel = 'debian'
+name = 'undbx'
+
+[[package]]
+channel = 'fedora'
+name = 'undbx'

@@ -1,0 +1,8 @@
+id = 'bdflib'
+name = 'bdflib'
+
+homepage = 'https://gitlab.com/Screwtapello/bdflib'
+
+[[package]]
+channel = 'debian'
+name = 'bdflib'

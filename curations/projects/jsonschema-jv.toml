@@ -1,0 +1,8 @@
+id = 'jsonschema-jv'
+name = 'jsonschema-jv'
+
+homepage = 'https://github.com/santhosh-tekuri/jsonschema'
+
+[[package]]
+channel = 'debian'
+name = 'jsonschema-jv'

@@ -1,0 +1,12 @@
+id = 'tld'
+name = 'tld'
+
+homepage = 'https://github.com/barseghyanartur/tld'
+
+[[package]]
+channel = 'arch'
+name = 'python-tld'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tld'

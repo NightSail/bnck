@@ -1,0 +1,12 @@
+id = 'ansible-builder'
+name = 'ansible-builder'
+
+homepage = 'https://ansible-builder.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'ansible-builder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible-builder'

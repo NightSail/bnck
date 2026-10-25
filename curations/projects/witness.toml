@@ -1,0 +1,13 @@
+id = 'witness'
+name = 'witness'
+
+homepage = 'https://witness.dev'
+repository = 'https://github.com/in-toto/witness.git'
+
+[[package]]
+channel = 'debian'
+name = 'witness'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/witness'

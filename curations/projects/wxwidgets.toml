@@ -1,0 +1,28 @@
+id = 'wxwidgets'
+name = 'wxwidgets'
+
+homepage = 'https://www.wxwidgets.org'
+
+[[package]]
+channel = 'arch'
+name = 'wxwidgets-common'
+
+[[package]]
+channel = 'arch'
+name = 'wxwidgets-gtk3'
+
+[[package]]
+channel = 'arch'
+name = 'wxwidgets-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'wx-common'
+
+[[package]]
+channel = 'fedora'
+name = 'wxBase-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wxwidgets@3.2'

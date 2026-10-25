@@ -1,0 +1,8 @@
+id = 'gnome-phone-manager'
+name = 'gnome-phone-manager'
+
+homepage = 'https://wiki.gnome.org/PhoneManager'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-phone-manager'

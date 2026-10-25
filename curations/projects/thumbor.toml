@@ -1,0 +1,8 @@
+id = 'thumbor'
+name = 'thumbor'
+
+homepage = 'https://github.com/thumbor/thumbor'
+
+[[package]]
+channel = 'debian'
+name = 'thumbor'

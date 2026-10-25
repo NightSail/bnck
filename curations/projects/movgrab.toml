@@ -1,0 +1,8 @@
+id = 'movgrab'
+name = 'movgrab'
+
+homepage = 'https://github.com/ColumPaget/Movgrab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/movgrab'

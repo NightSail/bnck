@@ -1,0 +1,8 @@
+id = 'tunnelx'
+name = 'tunnelx'
+
+homepage = 'https://github.com/goatchurchprime/tunnelx.git'
+
+[[package]]
+channel = 'debian'
+name = 'tunnelx'

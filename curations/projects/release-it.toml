@@ -1,0 +1,8 @@
+id = 'release-it'
+name = 'release-it'
+
+homepage = 'https://github.com/release-it/release-it'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/release-it'

@@ -1,0 +1,16 @@
+id = 'jshon'
+name = 'jshon'
+
+homepage = 'https://github.com/keenerd/jshon'
+
+[[package]]
+channel = 'arch'
+name = 'jshon'
+
+[[package]]
+channel = 'debian'
+name = 'jshon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jshon'

@@ -1,0 +1,16 @@
+id = 'waitress'
+name = 'waitress'
+
+homepage = 'https://github.com/Pylons/waitress'
+
+[[package]]
+channel = 'arch'
+name = 'python-waitress'
+
+[[package]]
+channel = 'debian'
+name = 'python3-waitress'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-waitress'

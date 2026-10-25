@@ -1,0 +1,8 @@
+id = 'poa'
+name = 'poa'
+
+homepage = 'http://poamsa.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'poa'

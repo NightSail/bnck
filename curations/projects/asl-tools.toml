@@ -1,0 +1,8 @@
+id = 'asl-tools'
+name = 'asl-tools'
+
+homepage = 'http://asl.org.il'
+
+[[package]]
+channel = 'debian'
+name = 'asl-tools'

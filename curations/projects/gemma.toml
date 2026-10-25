@@ -1,0 +1,8 @@
+id = 'gemma'
+name = 'gemma'
+
+homepage = 'https://www.xzlab.org/software.html'
+
+[[package]]
+channel = 'debian'
+name = 'gemma'

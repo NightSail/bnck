@@ -1,0 +1,8 @@
+id = 'libmodsecurity'
+name = 'libmodsecurity'
+
+homepage = 'https://github.com/owasp-modsecurity/ModSecurity/tree/v3/master'
+
+[[package]]
+channel = 'arch'
+name = 'libmodsecurity'

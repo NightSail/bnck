@@ -4,6 +4,10 @@ name = 'xmake'
 homepage = 'https://xmake.io'
 
 [[package]]
+channel = 'arch'
+name = 'xmake'
+
+[[package]]
 channel = 'debian'
 name = 'xmake'
 

@@ -1,0 +1,16 @@
+id = 'bolt'
+name = 'bolt'
+
+homepage = 'https://gitlab.freedesktop.org/bolt/bolt'
+
+[[package]]
+channel = 'arch'
+name = 'bolt'
+
+[[package]]
+channel = 'debian'
+name = 'bolt'
+
+[[package]]
+channel = 'fedora'
+name = 'bolt'

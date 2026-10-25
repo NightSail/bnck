@@ -1,0 +1,12 @@
+id = 'cura'
+name = 'cura'
+
+homepage = 'https://github.com/Ultimaker/Cura'
+
+[[package]]
+channel = 'debian'
+name = 'cura'
+
+[[package]]
+channel = 'fedora'
+name = 'cura'

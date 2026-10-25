@@ -1,0 +1,8 @@
+id = 'cargo-generate-rpm'
+name = 'cargo-generate-rpm'
+
+homepage = 'https://github.com/cat-in-136/cargo-generate-rpm'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-generate-rpm'

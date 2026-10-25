@@ -1,0 +1,8 @@
+id = 'tj3'
+name = 'tj3'
+
+homepage = 'http://www.taskjuggler.org'
+
+[[package]]
+channel = 'debian'
+name = 'tj3'

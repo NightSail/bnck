@@ -1,0 +1,8 @@
+id = 'pumba'
+name = 'pumba'
+
+repository = 'https://github.com/alexei-led/pumba.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pumba'

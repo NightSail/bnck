@@ -1,0 +1,8 @@
+id = 'cargo-shuttle'
+name = 'cargo-shuttle'
+
+homepage = 'https://github.com/shuttle-hq/shuttle'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-shuttle'

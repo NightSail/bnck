@@ -1,0 +1,9 @@
+id = 'datafusion'
+name = 'datafusion'
+
+homepage = 'https://arrow.apache.org/datafusion'
+repository = 'https://github.com/apache/datafusion.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/datafusion'

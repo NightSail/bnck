@@ -1,0 +1,9 @@
+id = 'timoni'
+name = 'timoni'
+
+homepage = 'https://timoni.sh'
+repository = 'https://github.com/stefanprodan/timoni.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/timoni'

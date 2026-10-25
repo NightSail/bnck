@@ -1,0 +1,8 @@
+id = 'python3-doxysphinx'
+name = 'python3-doxysphinx'
+
+homepage = 'https://github.com/boschglobal/doxysphinx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-doxysphinx'

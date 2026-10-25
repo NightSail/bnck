@@ -1,0 +1,16 @@
+id = 'usermode'
+name = 'usermode'
+
+homepage = 'https://pagure.io/usermode'
+
+[[package]]
+channel = 'debian'
+name = 'usermode'
+
+[[package]]
+channel = 'fedora'
+name = 'usermode'
+
+[[package]]
+channel = 'fedora'
+name = 'usermode-gtk'

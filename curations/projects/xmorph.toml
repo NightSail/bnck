@@ -1,0 +1,8 @@
+id = 'xmorph'
+name = 'xmorph'
+
+homepage = 'http://xmorph.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xmorph'

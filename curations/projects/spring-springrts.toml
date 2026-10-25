@@ -1,0 +1,8 @@
+id = 'spring-springrts'
+name = 'spring'
+
+homepage = 'http://springrts.com'
+
+[[package]]
+channel = 'arch'
+name = 'spring'

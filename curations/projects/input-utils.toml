@@ -1,0 +1,8 @@
+id = 'input-utils'
+name = 'input-utils'
+
+homepage = 'https://www.kraxel.org/blog/linux/input'
+
+[[package]]
+channel = 'debian'
+name = 'input-utils'

@@ -1,0 +1,16 @@
+id = 'xmakemol'
+name = 'xmakemol'
+
+homepage = 'http://www.nongnu.org/xmakemol'
+
+[[package]]
+channel = 'debian'
+name = 'xmakemol'
+
+[[package]]
+channel = 'debian'
+name = 'xmakemol-gl'
+
+[[package]]
+channel = 'fedora'
+name = 'xmakemol'

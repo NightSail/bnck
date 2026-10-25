@@ -1,0 +1,9 @@
+id = 'glew-nigels-com'
+name = 'glew'
+
+homepage = 'https://glew.sourceforge.net'
+repository = 'https://github.com/nigels-com/glew.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glew'

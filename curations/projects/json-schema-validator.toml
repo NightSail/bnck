@@ -1,0 +1,8 @@
+id = 'json-schema-validator'
+name = 'json-schema-validator'
+
+homepage = 'https://github.com/pboettch/json-schema-validator'
+
+[[package]]
+channel = 'arch'
+name = 'json-schema-validator'

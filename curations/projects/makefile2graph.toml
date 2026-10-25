@@ -1,0 +1,12 @@
+id = 'makefile2graph'
+name = 'makefile2graph'
+
+repository = 'https://github.com/lindenb/makefile2graph.git'
+
+[[package]]
+channel = 'debian'
+name = 'makefile2graph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/makefile2graph'

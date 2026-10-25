@@ -1,0 +1,12 @@
+id = 'xcur2png'
+name = 'xcur2png'
+
+homepage = 'https://github.com/eworm-de/xcur2png'
+
+[[package]]
+channel = 'arch'
+name = 'xcur2png'
+
+[[package]]
+channel = 'debian'
+name = 'xcur2png'

@@ -1,0 +1,16 @@
+id = 'fcgiwrap'
+name = 'fcgiwrap'
+
+homepage = 'https://www.nginx.com/resources/wiki/start/topics/examples/fcgiwrap'
+
+[[package]]
+channel = 'arch'
+name = 'fcgiwrap'
+
+[[package]]
+channel = 'debian'
+name = 'fcgiwrap'
+
+[[package]]
+channel = 'fedora'
+name = 'fcgiwrap'

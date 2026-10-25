@@ -1,0 +1,8 @@
+id = 'ghasher'
+name = 'ghasher'
+
+homepage = 'http://asgaard.homelinux.org/code/ghasher'
+
+[[package]]
+channel = 'fedora'
+name = 'ghasher'

@@ -1,0 +1,9 @@
+id = 'libsql'
+name = 'libsql'
+
+homepage = 'https://turso.tech/libsql'
+repository = 'https://github.com/tursodatabase/libsql.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsql'

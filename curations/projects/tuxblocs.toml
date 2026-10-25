@@ -1,0 +1,8 @@
+id = 'tuxblocs'
+name = 'tuxblocs'
+
+homepage = 'https://educajou.forge.apps.education.fr/tuxblocs'
+
+[[package]]
+channel = 'debian'
+name = 'tuxblocs'

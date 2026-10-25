@@ -1,0 +1,12 @@
+id = 'nose2'
+name = 'nose2'
+
+homepage = 'https://github.com/nose-devs/nose2'
+
+[[package]]
+channel = 'arch'
+name = 'python-nose2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nose2'

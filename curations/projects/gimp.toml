@@ -1,0 +1,24 @@
+id = 'gimp'
+name = 'gimp'
+
+homepage = 'https://www.gimp.org'
+
+[[package]]
+channel = 'arch'
+name = 'gimp'
+
+[[package]]
+channel = 'debian'
+name = 'gimp'
+
+[[package]]
+channel = 'debian'
+name = 'libgimp-3.0-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gimp'
+
+[[package]]
+channel = 'fedora'
+name = 'gimp-devel-tools'

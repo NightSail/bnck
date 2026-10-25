@@ -1,0 +1,16 @@
+id = 'ksystemlog'
+name = 'ksystemlog'
+
+homepage = 'https://apps.kde.org/ksystemlog'
+
+[[package]]
+channel = 'arch'
+name = 'ksystemlog'
+
+[[package]]
+channel = 'debian'
+name = 'ksystemlog'
+
+[[package]]
+channel = 'fedora'
+name = 'ksystemlog'

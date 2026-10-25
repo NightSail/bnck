@@ -1,0 +1,8 @@
+id = 'httest'
+name = 'httest'
+
+homepage = 'http://htt.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'httest'

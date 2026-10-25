@@ -1,0 +1,8 @@
+id = 'peony-intelligent-data-management-service'
+name = 'peony-intelligent-data-management-service'
+
+homepage = 'https://gitee.com/openkylin/peony-extensions'
+
+[[package]]
+channel = 'debian'
+name = 'peony-intelligent-data-management-service'

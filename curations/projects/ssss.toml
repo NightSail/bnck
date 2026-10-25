@@ -1,0 +1,16 @@
+id = 'ssss'
+name = 'ssss'
+
+homepage = 'http://point-at-infinity.org/ssss'
+
+[[package]]
+channel = 'debian'
+name = 'ssss'
+
+[[package]]
+channel = 'fedora'
+name = 'ssss'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssss'

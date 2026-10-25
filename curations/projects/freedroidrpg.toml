@@ -1,0 +1,12 @@
+id = 'freedroidrpg'
+name = 'freedroidrpg'
+
+homepage = 'https://gitlab.com/freedroid/freedroid-src'
+
+[[package]]
+channel = 'arch'
+name = 'freedroidrpg'
+
+[[package]]
+channel = 'fedora'
+name = 'freedroidrpg'

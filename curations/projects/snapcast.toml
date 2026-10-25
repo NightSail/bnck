@@ -1,0 +1,12 @@
+id = 'snapcast'
+name = 'snapcast'
+
+homepage = 'https://github.com/badaix/snapcast'
+
+[[package]]
+channel = 'debian'
+name = 'snapclient'
+
+[[package]]
+channel = 'debian'
+name = 'snapserver'

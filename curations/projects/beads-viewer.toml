@@ -1,0 +1,8 @@
+id = 'beads-viewer'
+name = 'beads_viewer'
+
+homepage = 'https://github.com/Dicklesworthstone/beads_viewer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beads_viewer'

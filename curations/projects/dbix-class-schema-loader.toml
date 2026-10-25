@@ -1,0 +1,12 @@
+id = 'dbix-class-schema-loader'
+name = 'DBIx-Class-Schema-Loader'
+
+homepage = 'https://metacpan.org/release/DBIx-Class-Schema-Loader'
+
+[[package]]
+channel = 'debian'
+name = 'libdbix-class-schema-loader-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBIx-Class-Schema-Loader'

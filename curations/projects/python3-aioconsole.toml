@@ -1,0 +1,8 @@
+id = 'python3-aioconsole'
+name = 'python3-aioconsole'
+
+homepage = 'https://github.com/vxgmichel/aioconsole'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aioconsole'

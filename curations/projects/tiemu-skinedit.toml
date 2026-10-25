@@ -1,0 +1,8 @@
+id = 'tiemu-skinedit'
+name = 'tiemu-skinedit'
+
+homepage = 'https://github.com/debrouxl/tiemu'
+
+[[package]]
+channel = 'debian'
+name = 'tiemu-skinedit'

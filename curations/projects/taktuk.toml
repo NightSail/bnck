@@ -1,0 +1,12 @@
+id = 'taktuk'
+name = 'taktuk'
+
+homepage = 'https://taktuk.gitlabpages.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'taktuk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taktuk'

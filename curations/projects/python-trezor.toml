@@ -1,0 +1,12 @@
+id = 'python-trezor'
+name = 'python'
+
+homepage = 'https://github.com/trezor/trezor-firmware/tree/main/python'
+
+[[package]]
+channel = 'debian'
+name = 'trezor'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-trezor'

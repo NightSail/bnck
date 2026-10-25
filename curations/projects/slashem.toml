@@ -1,0 +1,12 @@
+id = 'slashem'
+name = 'slashem'
+
+homepage = 'https://slashem.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'slashem'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slashem'

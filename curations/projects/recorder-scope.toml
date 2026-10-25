@@ -1,0 +1,8 @@
+id = 'recorder-scope'
+name = 'recorder-scope'
+
+homepage = 'https://github.com/tao-3D/recorder'
+
+[[package]]
+channel = 'fedora'
+name = 'recorder-scope'

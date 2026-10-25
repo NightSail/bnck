@@ -1,0 +1,8 @@
+id = 'kxkb2locale1'
+name = 'kxkb2locale1'
+
+homepage = 'https://invent.kde.org/aleasto/kxkb2locale1'
+
+[[package]]
+channel = 'fedora'
+name = 'kxkb2locale1'

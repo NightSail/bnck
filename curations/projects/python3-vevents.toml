@@ -1,0 +1,8 @@
+id = 'python3-vevents'
+name = 'python3-vevents'
+
+homepage = 'https://github.com/dnaeon/py-vevents'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vevents'

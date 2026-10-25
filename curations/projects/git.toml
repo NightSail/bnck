@@ -1,0 +1,21 @@
+id = 'git'
+name = 'git'
+
+homepage = 'https://git-scm.com'
+repository = 'https://github.com/git/git.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-credential-libsecret'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-svn'

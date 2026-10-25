@@ -1,0 +1,12 @@
+id = 'smenu'
+name = 'smenu'
+
+homepage = 'https://github.com/p-gen/smenu'
+
+[[package]]
+channel = 'debian'
+name = 'smenu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smenu'

@@ -1,0 +1,12 @@
+id = 'blackbox-terminal'
+name = 'blackbox-terminal'
+
+homepage = 'https://gitlab.gnome.org/raggesilver/blackbox'
+
+[[package]]
+channel = 'debian'
+name = 'blackbox-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'blackbox-terminal'

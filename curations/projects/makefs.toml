@@ -1,0 +1,8 @@
+id = 'makefs'
+name = 'makefs'
+
+homepage = 'http://cvs.mirbsd.de/src/usr.sbin/makefs'
+
+[[package]]
+channel = 'debian'
+name = 'makefs'

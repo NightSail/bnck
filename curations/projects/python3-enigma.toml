@@ -1,0 +1,8 @@
+id = 'python3-enigma'
+name = 'python3-enigma'
+
+homepage = 'https://bitbucket.org/bgneal/enigma'
+
+[[package]]
+channel = 'debian'
+name = 'python3-enigma'

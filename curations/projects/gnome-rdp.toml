@@ -1,0 +1,8 @@
+id = 'gnome-rdp'
+name = 'gnome-rdp'
+
+homepage = 'http://sourceforge.net/projects/gnome-rdp'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-rdp'

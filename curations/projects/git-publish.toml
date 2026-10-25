@@ -1,0 +1,12 @@
+id = 'git-publish'
+name = 'git-publish'
+
+homepage = 'https://github.com/stefanha/git-publish'
+
+[[package]]
+channel = 'debian'
+name = 'git-publish'
+
+[[package]]
+channel = 'fedora'
+name = 'git-publish'

@@ -1,0 +1,8 @@
+id = 'tuna-pub'
+name = 'tuna'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/tuna/tuna.git'
+
+[[package]]
+channel = 'arch'
+name = 'tuna'

@@ -1,0 +1,8 @@
+id = 'golang-github-containerd-fuse-overlayfs-snapshotter'
+name = 'golang-github-containerd-fuse-overlayfs-snapshotter'
+
+homepage = 'https://github.com/containerd/fuse-overlayfs-snapshotter'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-containerd-fuse-overlayfs-snapshotter'

@@ -1,0 +1,9 @@
+id = 'hookdeck'
+name = 'hookdeck'
+
+homepage = 'https://hookdeck.com'
+repository = 'https://github.com/hookdeck/hookdeck-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hookdeck'

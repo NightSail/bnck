@@ -1,0 +1,8 @@
+id = 'duplicacy-cli'
+name = 'duplicacy-cli'
+
+homepage = 'https://duplicacy.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/duplicacy-cli'

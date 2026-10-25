@@ -1,0 +1,8 @@
+id = 'sdpb'
+name = 'sdpb'
+
+homepage = 'https://github.com/davidsd/sdpb'
+
+[[package]]
+channel = 'debian'
+name = 'sdpb'

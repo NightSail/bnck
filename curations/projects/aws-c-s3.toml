@@ -1,0 +1,8 @@
+id = 'aws-c-s3'
+name = 'aws-c-s3'
+
+homepage = 'https://github.com/awslabs/aws-c-s3'
+
+[[package]]
+channel = 'arch'
+name = 'aws-c-s3'

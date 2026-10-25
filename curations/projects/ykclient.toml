@@ -1,0 +1,8 @@
+id = 'ykclient'
+name = 'ykclient'
+
+homepage = 'http://opensource.yubico.com/yubico-c-client'
+
+[[package]]
+channel = 'fedora'
+name = 'ykclient'

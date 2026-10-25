@@ -1,0 +1,8 @@
+id = 'onionbalance'
+name = 'onionbalance'
+
+homepage = 'https://onionservices.torproject.org/apps/base/onionbalance'
+
+[[package]]
+channel = 'debian'
+name = 'onionbalance'

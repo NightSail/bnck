@@ -1,0 +1,12 @@
+id = 'text-textile'
+name = 'Text-Textile'
+
+homepage = 'https://metacpan.org/release/Text-Textile'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-textile-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-Textile'

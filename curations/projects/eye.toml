@@ -1,0 +1,8 @@
+id = 'eye'
+name = 'eye'
+
+homepage = 'https://eyereasoner.github.io/eye'
+
+[[package]]
+channel = 'debian'
+name = 'eye'

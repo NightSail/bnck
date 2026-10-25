@@ -1,0 +1,8 @@
+id = 'python3-xraylarch'
+name = 'python3-xraylarch'
+
+homepage = 'https://xraypy.github.io/xraylarch'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xraylarch'

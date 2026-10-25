@@ -1,0 +1,8 @@
+id = 'libapache2-mod-log-sql'
+name = 'libapache2-mod-log-sql'
+
+homepage = 'https://www.outoforder.cc/projects/httpd/mod_log_sql'
+
+[[package]]
+channel = 'debian'
+name = 'libapache2-mod-log-sql'

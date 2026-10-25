@@ -1,0 +1,20 @@
+id = 'sox'
+name = 'sox'
+
+homepage = 'http://sox.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'sox'
+
+[[package]]
+channel = 'debian'
+name = 'sox'
+
+[[package]]
+channel = 'fedora'
+name = 'sox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sox'

@@ -1,0 +1,20 @@
+id = 'monit'
+name = 'monit'
+
+homepage = 'https://mmonit.com/monit'
+
+[[package]]
+channel = 'arch'
+name = 'monit'
+
+[[package]]
+channel = 'debian'
+name = 'monit'
+
+[[package]]
+channel = 'fedora'
+name = 'monit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/monit'

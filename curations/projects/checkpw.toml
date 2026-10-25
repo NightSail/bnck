@@ -1,0 +1,6 @@
+id = 'checkpw'
+name = 'checkpw'
+
+[[package]]
+channel = 'debian'
+name = 'checkpw'

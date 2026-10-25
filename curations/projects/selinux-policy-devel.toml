@@ -1,0 +1,8 @@
+id = 'selinux-policy-devel'
+name = 'selinux-policy-devel'
+
+homepage = 'https://github.com/fedora-selinux/selinux-policy'
+
+[[package]]
+channel = 'fedora'
+name = 'selinux-policy-devel'

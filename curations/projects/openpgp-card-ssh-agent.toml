@@ -1,0 +1,8 @@
+id = 'openpgp-card-ssh-agent'
+name = 'openpgp-card-ssh-agent'
+
+homepage = 'https://codeberg.org/openpgp-card/ssh-agent'
+
+[[package]]
+channel = 'arch'
+name = 'openpgp-card-ssh-agent'

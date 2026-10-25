@@ -1,0 +1,8 @@
+id = 'bsdsfv'
+name = 'bsdsfv'
+
+homepage = 'https://bsdsfv.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bsdsfv'

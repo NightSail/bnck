@@ -1,0 +1,8 @@
+id = 'python-openstackclient'
+name = 'python-openstackclient'
+
+homepage = 'https://docs.openstack.org/python-openstackclient/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-openstackclient'

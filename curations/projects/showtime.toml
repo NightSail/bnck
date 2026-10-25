@@ -1,0 +1,16 @@
+id = 'showtime'
+name = 'showtime'
+
+homepage = 'https://apps.gnome.org/Showtime'
+
+[[package]]
+channel = 'arch'
+name = 'showtime'
+
+[[package]]
+channel = 'debian'
+name = 'showtime'
+
+[[package]]
+channel = 'fedora'
+name = 'showtime'

@@ -1,0 +1,6 @@
+id = 'python3-igor2'
+name = 'python3-igor2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-igor2'

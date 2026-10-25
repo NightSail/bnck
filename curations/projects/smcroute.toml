@@ -1,0 +1,12 @@
+id = 'smcroute'
+name = 'smcroute'
+
+homepage = 'http://troglobit.com/smcroute.html'
+
+[[package]]
+channel = 'debian'
+name = 'smcroute'
+
+[[package]]
+channel = 'fedora'
+name = 'smcroute'

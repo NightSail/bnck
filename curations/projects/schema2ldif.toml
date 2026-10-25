@@ -1,0 +1,8 @@
+id = 'schema2ldif'
+name = 'schema2ldif'
+
+homepage = 'https://gitlab.fusiondirectory.org/fusiondirectory/schema2ldif'
+
+[[package]]
+channel = 'debian'
+name = 'schema2ldif'

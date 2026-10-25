@@ -1,0 +1,8 @@
+id = 'uboot-tools'
+name = 'uboot-tools'
+
+homepage = 'https://www.denx.de/wiki/U-Boot/WebHome'
+
+[[package]]
+channel = 'arch'
+name = 'uboot-tools'

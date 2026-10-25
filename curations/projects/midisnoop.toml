@@ -1,0 +1,8 @@
+id = 'midisnoop'
+name = 'midisnoop'
+
+homepage = 'https://github.com/surfacepatterns/midisnoop'
+
+[[package]]
+channel = 'debian'
+name = 'midisnoop'

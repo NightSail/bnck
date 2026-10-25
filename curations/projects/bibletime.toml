@@ -1,0 +1,16 @@
+id = 'bibletime'
+name = 'bibletime'
+
+homepage = 'https://www.bibletime.info'
+
+[[package]]
+channel = 'arch'
+name = 'bibletime'
+
+[[package]]
+channel = 'debian'
+name = 'bibletime'
+
+[[package]]
+channel = 'fedora'
+name = 'bibletime'

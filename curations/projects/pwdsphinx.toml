@@ -1,0 +1,12 @@
+id = 'pwdsphinx'
+name = 'pwdsphinx'
+
+homepage = 'https://github.com/stef/pwdsphinx'
+
+[[package]]
+channel = 'debian'
+name = 'pwdsphinx'
+
+[[package]]
+channel = 'debian'
+name = 'pwdsphinx-tools'

@@ -1,0 +1,16 @@
+id = 'praat'
+name = 'praat'
+
+homepage = 'https://www.praat.org'
+
+[[package]]
+channel = 'arch'
+name = 'praat'
+
+[[package]]
+channel = 'debian'
+name = 'praat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/praat'

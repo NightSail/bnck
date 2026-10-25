@@ -1,0 +1,8 @@
+id = 'avarice'
+name = 'avarice'
+
+homepage = 'http://avarice.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'avarice'

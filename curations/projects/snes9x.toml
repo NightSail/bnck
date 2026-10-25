@@ -1,0 +1,12 @@
+id = 'snes9x'
+name = 'snes9x'
+
+homepage = 'http://www.snes9x.com'
+
+[[package]]
+channel = 'arch'
+name = 'snes9x'
+
+[[package]]
+channel = 'arch'
+name = 'snes9x-gtk'

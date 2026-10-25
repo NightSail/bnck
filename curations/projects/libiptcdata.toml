@@ -1,0 +1,20 @@
+id = 'libiptcdata'
+name = 'libiptcdata'
+
+homepage = 'https://libiptcdata.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libiptcdata'
+
+[[package]]
+channel = 'debian'
+name = 'libiptcdata-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libiptcdata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libiptcdata'

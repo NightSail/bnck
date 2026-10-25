@@ -1,0 +1,8 @@
+id = 'starpu-tools'
+name = 'starpu-tools'
+
+homepage = 'https://starpu.gitlabpages.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'starpu-tools'

@@ -1,0 +1,9 @@
+id = 'buildpulse-test-reporter'
+name = 'buildpulse-test-reporter'
+
+homepage = 'https://buildpulse.io'
+repository = 'https://github.com/buildpulse/test-reporter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buildpulse-test-reporter'

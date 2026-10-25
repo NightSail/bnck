@@ -1,0 +1,16 @@
+id = 'tpm2-tools'
+name = 'tpm2-tools'
+
+homepage = 'https://github.com/tpm2-software/tpm2-tools'
+
+[[package]]
+channel = 'arch'
+name = 'tpm2-tools'
+
+[[package]]
+channel = 'debian'
+name = 'tpm2-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'tpm2-tools'

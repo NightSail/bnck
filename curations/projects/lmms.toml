@@ -1,0 +1,16 @@
+id = 'lmms'
+name = 'lmms'
+
+homepage = 'https://lmms.io'
+
+[[package]]
+channel = 'arch'
+name = 'lmms'
+
+[[package]]
+channel = 'debian'
+name = 'lmms'
+
+[[package]]
+channel = 'fedora'
+name = 'lmms'

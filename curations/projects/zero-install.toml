@@ -1,0 +1,9 @@
+id = 'zero-install'
+name = 'zero-install'
+
+homepage = 'https://0install.net'
+repository = 'https://github.com/0install/0install.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zero-install'

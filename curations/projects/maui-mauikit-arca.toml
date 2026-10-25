@@ -1,0 +1,8 @@
+id = 'maui-mauikit-arca'
+name = 'maui-mauikit-arca'
+
+homepage = 'https://apps.kde.org/maui-mauikit-arca'
+
+[[package]]
+channel = 'fedora'
+name = 'maui-mauikit-arca'

@@ -1,0 +1,9 @@
+id = 'nmstatectl'
+name = 'nmstatectl'
+
+homepage = 'https://nmstate.io'
+repository = 'https://github.com/nmstate/nmstate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nmstatectl'

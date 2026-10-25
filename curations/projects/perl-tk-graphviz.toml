@@ -1,0 +1,8 @@
+id = 'perl-tk-graphviz'
+name = 'perl-Tk-GraphViz'
+
+homepage = 'https://metacpan.org/release/Tk-GraphViz'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Tk-GraphViz'

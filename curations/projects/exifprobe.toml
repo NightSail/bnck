@@ -1,0 +1,8 @@
+id = 'exifprobe'
+name = 'exifprobe'
+
+homepage = 'https://github.com/hfiguiere/exifprobe'
+
+[[package]]
+channel = 'debian'
+name = 'exifprobe'

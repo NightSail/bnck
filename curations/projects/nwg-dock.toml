@@ -1,0 +1,16 @@
+id = 'nwg-dock'
+name = 'nwg-dock'
+
+homepage = 'https://github.com/nwg-piotr/nwg-dock'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-dock'
+
+[[package]]
+channel = 'debian'
+name = 'nwg-dock'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-dock'

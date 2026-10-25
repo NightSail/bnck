@@ -1,0 +1,8 @@
+id = 'google-cpu-features'
+name = 'google-cpu_features'
+
+homepage = 'https://github.com/google/cpu_features'
+
+[[package]]
+channel = 'fedora'
+name = 'google-cpu_features'

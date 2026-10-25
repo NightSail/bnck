@@ -1,0 +1,6 @@
+id = 'nast'
+name = 'nast'
+
+[[package]]
+channel = 'debian'
+name = 'nast'

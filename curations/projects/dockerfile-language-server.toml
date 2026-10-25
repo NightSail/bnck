@@ -1,0 +1,12 @@
+id = 'dockerfile-language-server'
+name = 'dockerfile-language-server'
+
+homepage = 'https://github.com/rcjsuen/dockerfile-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'dockerfile-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockerfile-language-server'

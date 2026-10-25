@@ -1,0 +1,12 @@
+id = 'gopass-hibp'
+name = 'gopass-hibp'
+
+homepage = 'https://github.com/gopasspw/gopass-hibp'
+
+[[package]]
+channel = 'arch'
+name = 'gopass-hibp'
+
+[[package]]
+channel = 'fedora'
+name = 'gopass-hibp'

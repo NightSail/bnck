@@ -1,0 +1,12 @@
+id = 'ocamlmod'
+name = 'ocamlmod'
+
+homepage = 'https://github.com/gildor478/ocamlmod'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlmod'
+
+[[package]]
+channel = 'fedora'
+name = 'ocamlmod'

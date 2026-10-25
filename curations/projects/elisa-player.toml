@@ -1,0 +1,8 @@
+id = 'elisa-player'
+name = 'elisa-player'
+
+homepage = 'https://community.kde.org/Elisa'
+
+[[package]]
+channel = 'fedora'
+name = 'elisa-player'

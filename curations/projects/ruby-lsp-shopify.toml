@@ -1,0 +1,9 @@
+id = 'ruby-lsp-shopify'
+name = 'ruby-lsp'
+
+homepage = 'https://shopify.github.io/ruby-lsp'
+repository = 'https://github.com/Shopify/ruby-lsp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby-lsp'

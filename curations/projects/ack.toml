@@ -1,0 +1,17 @@
+id = 'ack'
+name = 'ack'
+
+homepage = 'https://beyondgrep.com'
+repository = 'https://github.com/beyondgrep/ack3.git'
+
+[[package]]
+channel = 'debian'
+name = 'ack'
+
+[[package]]
+channel = 'fedora'
+name = 'ack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ack'

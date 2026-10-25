@@ -1,0 +1,8 @@
+id = 'webtorrent-cli'
+name = 'webtorrent-cli'
+
+homepage = 'https://webtorrent.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webtorrent-cli'

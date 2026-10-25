@@ -1,0 +1,8 @@
+id = 'libmojolicious-perl'
+name = 'libmojolicious-perl'
+
+homepage = 'https://mojolicious.org'
+
+[[package]]
+channel = 'debian'
+name = 'libmojolicious-perl'

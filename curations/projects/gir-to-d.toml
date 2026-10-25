@@ -1,0 +1,12 @@
+id = 'gir-to-d'
+name = 'gir-to-d'
+
+homepage = 'https://github.com/gtkd-developers/gir-to-d'
+
+[[package]]
+channel = 'debian'
+name = 'gir-to-d'
+
+[[package]]
+channel = 'fedora'
+name = 'gir-to-d'

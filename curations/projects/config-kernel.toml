@@ -1,0 +1,8 @@
+id = 'config-kernel'
+name = 'config-kernel'
+
+homepage = 'https://github.com/pjps/config-kernel'
+
+[[package]]
+channel = 'fedora'
+name = 'config-kernel'

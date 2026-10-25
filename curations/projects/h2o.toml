@@ -1,0 +1,8 @@
+id = 'h2o'
+name = 'h2o'
+
+homepage = 'https://github.com/h2o/h2o'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/h2o'

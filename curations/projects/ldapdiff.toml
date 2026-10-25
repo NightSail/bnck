@@ -1,0 +1,8 @@
+id = 'ldapdiff'
+name = 'ldapdiff'
+
+homepage = 'https://launchpad.net/ldapdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'ldapdiff'

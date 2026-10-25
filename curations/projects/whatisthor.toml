@@ -1,0 +1,12 @@
+id = 'whatisthor'
+name = 'whatisthor'
+
+homepage = 'http://whatisthor.com'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-thor'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-thor'

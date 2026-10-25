@@ -1,0 +1,8 @@
+id = 'ldpl'
+name = 'ldpl'
+
+homepage = 'https://www.ldpl-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldpl'

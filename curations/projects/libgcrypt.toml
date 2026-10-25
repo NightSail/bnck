@@ -1,0 +1,8 @@
+id = 'libgcrypt'
+name = 'libgcrypt'
+
+homepage = 'https://gnupg.org/related_software/libgcrypt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgcrypt'

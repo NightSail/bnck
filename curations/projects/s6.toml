@@ -1,0 +1,13 @@
+id = 's6'
+name = 's6'
+
+homepage = 'https://skarnet.org/software/s6'
+repository = 'git://git.skarnet.org/s6.git'
+
+[[package]]
+channel = 'debian'
+name = 's6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s6'

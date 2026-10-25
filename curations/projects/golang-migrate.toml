@@ -1,0 +1,8 @@
+id = 'golang-migrate'
+name = 'golang-migrate'
+
+repository = 'https://github.com/golang-migrate/migrate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/golang-migrate'

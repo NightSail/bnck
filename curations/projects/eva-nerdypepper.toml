@@ -1,0 +1,8 @@
+id = 'eva-nerdypepper'
+name = 'eva'
+
+repository = 'https://github.com/nerdypepper/eva'
+
+[[package]]
+channel = 'crates.io'
+name = 'eva'

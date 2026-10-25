@@ -1,0 +1,8 @@
+id = 'vrq'
+name = 'vrq'
+
+homepage = 'http://vrq.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'vrq'

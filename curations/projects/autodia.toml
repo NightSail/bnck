@@ -1,0 +1,8 @@
+id = 'autodia'
+name = 'autodia'
+
+homepage = 'http://www.aarontrevena.co.uk/opensource/autodia'
+
+[[package]]
+channel = 'debian'
+name = 'autodia'

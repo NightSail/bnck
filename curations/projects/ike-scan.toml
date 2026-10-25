@@ -1,0 +1,12 @@
+id = 'ike-scan'
+name = 'ike-scan'
+
+repository = 'https://github.com/royhills/ike-scan.git'
+
+[[package]]
+channel = 'debian'
+name = 'ike-scan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ike-scan'

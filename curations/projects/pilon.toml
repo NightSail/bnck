@@ -1,0 +1,8 @@
+id = 'pilon'
+name = 'pilon'
+
+homepage = 'https://github.com/broadinstitute/pilon/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'pilon'

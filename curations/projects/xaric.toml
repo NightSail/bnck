@@ -1,0 +1,8 @@
+id = 'xaric'
+name = 'xaric'
+
+homepage = 'https://xaric.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xaric'

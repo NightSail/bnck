@@ -1,0 +1,8 @@
+id = 'yuview'
+name = 'yuview'
+
+homepage = 'https://github.com/IENT/YUView'
+
+[[package]]
+channel = 'debian'
+name = 'yuview'

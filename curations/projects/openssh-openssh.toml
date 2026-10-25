@@ -1,0 +1,32 @@
+id = 'openssh-openssh'
+name = 'openssh'
+
+homepage = 'https://www.openssh.com/portable.html'
+
+[[package]]
+channel = 'arch'
+name = 'openssh'
+
+[[package]]
+channel = 'fedora'
+name = 'gsi-openssh'
+
+[[package]]
+channel = 'fedora'
+name = 'gsi-openssh-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'gsi-openssh-server'
+
+[[package]]
+channel = 'fedora'
+name = 'openssh'
+
+[[package]]
+channel = 'fedora'
+name = 'openssh-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'openssh-server'

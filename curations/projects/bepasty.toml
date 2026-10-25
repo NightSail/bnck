@@ -1,0 +1,8 @@
+id = 'bepasty'
+name = 'bepasty'
+
+homepage = 'https://github.com/bepasty/bepasty-server'
+
+[[package]]
+channel = 'debian'
+name = 'bepasty'

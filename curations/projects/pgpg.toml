@@ -1,0 +1,8 @@
+id = 'pgpg'
+name = 'pgpg'
+
+homepage = 'https://github.com/johnkerl/pgpg'
+
+[[package]]
+channel = 'debian'
+name = 'pgpg'

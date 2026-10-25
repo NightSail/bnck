@@ -1,0 +1,16 @@
+id = 'doge'
+name = 'doge'
+
+homepage = 'https://dog.ramfield.net'
+
+[[package]]
+channel = 'arch'
+name = 'doge'
+
+[[package]]
+channel = 'fedora'
+name = 'doge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doge'

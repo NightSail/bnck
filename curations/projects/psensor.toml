@@ -1,0 +1,16 @@
+id = 'psensor'
+name = 'psensor'
+
+homepage = 'https://gitlab.com/jeanfi/psensor'
+
+[[package]]
+channel = 'arch'
+name = 'psensor'
+
+[[package]]
+channel = 'debian'
+name = 'psensor'
+
+[[package]]
+channel = 'debian'
+name = 'psensor-server'

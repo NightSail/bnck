@@ -1,0 +1,16 @@
+id = 'xdot'
+name = 'xdot'
+
+repository = 'https://github.com/jrfonseca/xdot.py.git'
+
+[[package]]
+channel = 'arch'
+name = 'xdot'
+
+[[package]]
+channel = 'debian'
+name = 'xdot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xdot'

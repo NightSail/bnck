@@ -1,0 +1,8 @@
+id = 'lv2-c-tools-devel'
+name = 'lv2-c++-tools-devel'
+
+homepage = 'http://ll-plugins.nongnu.org/hacking.html'
+
+[[package]]
+channel = 'fedora'
+name = 'lv2-c++-tools-devel'

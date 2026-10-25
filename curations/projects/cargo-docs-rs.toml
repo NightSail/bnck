@@ -1,0 +1,8 @@
+id = 'cargo-docs-rs'
+name = 'cargo-docs-rs'
+
+homepage = 'https://github.com/dtolnay/cargo-docs-rs'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-docs-rs'

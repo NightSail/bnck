@@ -1,0 +1,8 @@
+id = 'php-gettext-languages'
+name = 'php-gettext-languages'
+
+homepage = 'https://github.com/mlocati/cldr-to-gettext-plural-rules'
+
+[[package]]
+channel = 'fedora'
+name = 'php-gettext-languages'

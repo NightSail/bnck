@@ -1,0 +1,8 @@
+id = 'crabz'
+name = 'crabz'
+
+repository = 'https://github.com/sstadick/crabz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crabz'

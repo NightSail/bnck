@@ -1,0 +1,8 @@
+id = 'hexglass'
+name = 'hexglass'
+
+homepage = 'http://code.google.com/p/hexglass'
+
+[[package]]
+channel = 'fedora'
+name = 'hexglass'

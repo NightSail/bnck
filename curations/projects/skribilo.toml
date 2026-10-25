@@ -1,0 +1,8 @@
+id = 'skribilo'
+name = 'skribilo'
+
+homepage = 'https://www.nongnu.org/skribilo'
+
+[[package]]
+channel = 'fedora'
+name = 'skribilo'

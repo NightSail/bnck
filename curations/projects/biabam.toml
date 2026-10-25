@@ -1,0 +1,8 @@
+id = 'biabam'
+name = 'biabam'
+
+homepage = 'http://mmj.dk/biabam'
+
+[[package]]
+channel = 'debian'
+name = 'biabam'

@@ -1,0 +1,10 @@
+id = 'finger'
+name = 'finger'
+
+[[package]]
+channel = 'fedora'
+name = 'finger'
+
+[[package]]
+channel = 'fedora'
+name = 'finger-server'

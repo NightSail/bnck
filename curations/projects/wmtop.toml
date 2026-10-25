@@ -1,0 +1,8 @@
+id = 'wmtop'
+name = 'wmtop'
+
+homepage = 'https://www.dockapps.net/wmtop'
+
+[[package]]
+channel = 'debian'
+name = 'wmtop'

@@ -1,0 +1,12 @@
+id = 'html-wikiconverter'
+name = 'HTML-WikiConverter'
+
+homepage = 'https://metacpan.org/release/HTML-WikiConverter'
+
+[[package]]
+channel = 'debian'
+name = 'libhtml-wikiconverter-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'html2wiki'

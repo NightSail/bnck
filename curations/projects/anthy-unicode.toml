@@ -1,0 +1,8 @@
+id = 'anthy-unicode'
+name = 'anthy-unicode'
+
+homepage = 'https://github.com/fujiwarat/anthy-unicode/wiki'
+
+[[package]]
+channel = 'fedora'
+name = 'anthy-unicode'

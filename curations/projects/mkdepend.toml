@@ -1,0 +1,8 @@
+id = 'mkdepend'
+name = 'mkdepend'
+
+homepage = 'https://projects.ibt.lt/repositories/projects/mkdepend'
+
+[[package]]
+channel = 'debian'
+name = 'mkdepend'

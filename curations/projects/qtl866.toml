@@ -1,0 +1,8 @@
+id = 'qtl866'
+name = 'qtl866'
+
+homepage = 'https://github.com/wd5gnr/qtl866'
+
+[[package]]
+channel = 'fedora'
+name = 'qtl866'

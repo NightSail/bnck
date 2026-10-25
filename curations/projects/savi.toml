@@ -1,0 +1,8 @@
+id = 'savi'
+name = 'savi'
+
+homepage = 'https://savi.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'savi'

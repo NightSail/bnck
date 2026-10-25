@@ -1,0 +1,28 @@
+id = 'linuxaudio-linuxaudio'
+name = 'linuxaudio'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'japa'
+
+[[package]]
+channel = 'debian'
+name = 'ambdec'
+
+[[package]]
+channel = 'debian'
+name = 'jaaa'
+
+[[package]]
+channel = 'debian'
+name = 'jnoise'
+
+[[package]]
+channel = 'debian'
+name = 'tetraproc'
+
+[[package]]
+channel = 'fedora'
+name = 'jconvolver'

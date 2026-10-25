@@ -1,0 +1,8 @@
+id = 'libmetkit-utils'
+name = 'libmetkit-utils'
+
+homepage = 'https://github.com/ecmwf/metkit'
+
+[[package]]
+channel = 'debian'
+name = 'libmetkit-utils'

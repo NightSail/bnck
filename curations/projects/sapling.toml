@@ -1,0 +1,9 @@
+id = 'sapling'
+name = 'sapling'
+
+homepage = 'https://sapling-scm.com'
+repository = 'https://github.com/facebook/sapling.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sapling'

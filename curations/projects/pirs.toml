@@ -1,0 +1,8 @@
+id = 'pirs'
+name = 'pirs'
+
+homepage = 'https://github.com/galaxy001/pirs'
+
+[[package]]
+channel = 'debian'
+name = 'pirs'

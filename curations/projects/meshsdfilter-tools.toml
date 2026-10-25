@@ -1,0 +1,8 @@
+id = 'meshsdfilter-tools'
+name = 'meshsdfilter-tools'
+
+homepage = 'https://github.com/bldeng/MeshSDFilter'
+
+[[package]]
+channel = 'debian'
+name = 'meshsdfilter-tools'

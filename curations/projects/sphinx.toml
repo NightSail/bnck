@@ -1,0 +1,8 @@
+id = 'sphinx'
+name = 'sphinx'
+
+homepage = 'http://sphinxsearch.com'
+
+[[package]]
+channel = 'fedora'
+name = 'sphinx'

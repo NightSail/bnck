@@ -1,0 +1,8 @@
+id = 'alpm-pkgbuild-bridge'
+name = 'alpm-pkgbuild-bridge'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/alpm/alpm-pkgbuild-bridge'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-pkgbuild-bridge'

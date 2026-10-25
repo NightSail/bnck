@@ -1,0 +1,20 @@
+id = 'alpineapp'
+name = 'alpineapp'
+
+homepage = 'https://alpineapp.email'
+
+[[package]]
+channel = 'debian'
+name = 'alpine'
+
+[[package]]
+channel = 'debian'
+name = 'alpine-pico'
+
+[[package]]
+channel = 'debian'
+name = 'pilot'
+
+[[package]]
+channel = 'fedora'
+name = 'alpine'

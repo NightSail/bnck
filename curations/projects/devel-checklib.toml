@@ -1,0 +1,12 @@
+id = 'devel-checklib'
+name = 'Devel-CheckLib'
+
+homepage = 'https://metacpan.org/release/Devel-CheckLib'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-checklib-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-CheckLib'

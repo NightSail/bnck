@@ -1,0 +1,8 @@
+id = 'perl-locale-msgfmt'
+name = 'perl-Locale-Msgfmt'
+
+homepage = 'https://metacpan.org/release/Locale-Msgfmt'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Locale-Msgfmt'

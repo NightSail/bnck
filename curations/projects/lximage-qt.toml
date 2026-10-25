@@ -1,0 +1,12 @@
+id = 'lximage-qt'
+name = 'lximage-qt'
+
+homepage = 'https://github.com/lxqt/lximage-qt'
+
+[[package]]
+channel = 'arch'
+name = 'lximage-qt'
+
+[[package]]
+channel = 'debian'
+name = 'lximage-qt'

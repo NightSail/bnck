@@ -1,0 +1,8 @@
+id = 'urbanterror'
+name = 'urbanterror'
+
+homepage = 'http://www.urbanterror.net'
+
+[[package]]
+channel = 'fedora'
+name = 'urbanterror'

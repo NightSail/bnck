@@ -1,0 +1,8 @@
+id = 'consolekit'
+name = 'consolekit'
+
+homepage = 'https://consolekit2.github.io/ConsoleKit2'
+
+[[package]]
+channel = 'debian'
+name = 'consolekit'

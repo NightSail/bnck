@@ -1,0 +1,13 @@
+id = 'lastz'
+name = 'lastz'
+
+homepage = 'https://lastz.github.io/lastz'
+repository = 'https://github.com/lastz/lastz.git'
+
+[[package]]
+channel = 'debian'
+name = 'lastz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lastz'

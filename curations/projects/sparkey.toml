@@ -1,0 +1,8 @@
+id = 'sparkey'
+name = 'sparkey'
+
+homepage = 'https://github.com/spotify/sparkey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sparkey'

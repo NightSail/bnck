@@ -1,0 +1,16 @@
+id = 'xfce4-terminal'
+name = 'xfce4-terminal'
+
+homepage = 'https://docs.xfce.org/apps/terminal/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-terminal'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-terminal'

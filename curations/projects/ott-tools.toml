@@ -1,0 +1,8 @@
+id = 'ott-tools'
+name = 'ott-tools'
+
+homepage = 'https://github.com/ott-lang/ott'
+
+[[package]]
+channel = 'debian'
+name = 'ott-tools'

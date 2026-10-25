@@ -1,0 +1,20 @@
+id = 'gherkin'
+name = 'gherkin'
+
+homepage = 'http://github.com/cucumber/gherkin'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-cucumber-gherkin'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-gherkin'
+
+[[package]]
+channel = 'fedora'
+name = 'gherkin-cpp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-cucumber-gherkin'

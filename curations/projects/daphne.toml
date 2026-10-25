@@ -1,0 +1,12 @@
+id = 'daphne'
+name = 'daphne'
+
+homepage = 'https://github.com/django/daphne'
+
+[[package]]
+channel = 'debian'
+name = 'daphne'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-daphne'

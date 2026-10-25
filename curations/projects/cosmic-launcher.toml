@@ -1,0 +1,12 @@
+id = 'cosmic-launcher'
+name = 'cosmic-launcher'
+
+homepage = 'https://github.com/pop-os/cosmic-launcher'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-launcher'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-launcher'

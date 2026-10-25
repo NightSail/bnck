@@ -1,0 +1,8 @@
+id = 'python-hypothesis'
+name = 'python-hypothesis'
+
+homepage = 'https://hypothesis.readthedocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-hypothesis'

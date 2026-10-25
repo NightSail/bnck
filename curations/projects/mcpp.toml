@@ -1,0 +1,16 @@
+id = 'mcpp'
+name = 'mcpp'
+
+homepage = 'https://mcpp.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'mcpp'
+
+[[package]]
+channel = 'debian'
+name = 'mcpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcpp'

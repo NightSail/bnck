@@ -1,0 +1,12 @@
+id = 'calcmysky'
+name = 'CalcMySky'
+
+homepage = 'https://github.com/10110111/CalcMySky'
+
+[[package]]
+channel = 'arch'
+name = 'calcmysky'
+
+[[package]]
+channel = 'fedora'
+name = 'CalcMySky'

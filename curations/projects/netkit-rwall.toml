@@ -1,0 +1,10 @@
+id = 'netkit-rwall'
+name = 'netkit-rwall'
+
+[[package]]
+channel = 'debian'
+name = 'rwall'
+
+[[package]]
+channel = 'debian'
+name = 'rwalld'

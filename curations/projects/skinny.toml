@@ -1,0 +1,8 @@
+id = 'skinny'
+name = 'skinny'
+
+homepage = 'https://skinny-framework.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skinny'

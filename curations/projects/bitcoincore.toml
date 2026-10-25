@@ -1,0 +1,16 @@
+id = 'bitcoincore'
+name = 'bitcoincore'
+
+homepage = 'https://bitcoin.org/en/wallets/desktop/linux/bitcoincore'
+
+[[package]]
+channel = 'arch'
+name = 'bitcoin-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'bitcoin-qt'
+
+[[package]]
+channel = 'arch'
+name = 'bitcoin-tx'

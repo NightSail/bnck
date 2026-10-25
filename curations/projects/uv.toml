@@ -1,0 +1,16 @@
+id = 'uv'
+name = 'uv'
+
+homepage = 'https://github.com/astral-sh/uv'
+
+[[package]]
+channel = 'arch'
+name = 'python-uv-build'
+
+[[package]]
+channel = 'arch'
+name = 'uv'
+
+[[package]]
+channel = 'fedora'
+name = 'uv'

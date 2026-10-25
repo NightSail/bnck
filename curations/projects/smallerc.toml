@@ -1,0 +1,8 @@
+id = 'smallerc'
+name = 'smallerc'
+
+homepage = 'https://github.com/alexfru/SmallerC'
+
+[[package]]
+channel = 'debian'
+name = 'smallerc'

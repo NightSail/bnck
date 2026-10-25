@@ -1,0 +1,8 @@
+id = 'regldg'
+name = 'regldg'
+
+homepage = 'https://regldg.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regldg'

@@ -12,5 +12,13 @@ channel = 'crates.io'
 name = 'tokei'
 
 [[package]]
+channel = 'debian'
+name = 'tokei'
+
+[[package]]
+channel = 'fedora'
+name = 'tokei'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tokei'

@@ -1,0 +1,8 @@
+id = 'dctrl-tools'
+name = 'dctrl-tools'
+
+homepage = 'https://github.com/ajkaijanaho/dctrl-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dctrl-tools'

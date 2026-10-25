@@ -1,0 +1,12 @@
+id = 'gpsprune'
+name = 'gpsprune'
+
+homepage = 'https://activityworkshop.net/software/gpsprune'
+
+[[package]]
+channel = 'arch'
+name = 'gpsprune'
+
+[[package]]
+channel = 'debian'
+name = 'gpsprune'

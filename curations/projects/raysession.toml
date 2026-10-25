@@ -1,0 +1,12 @@
+id = 'raysession'
+name = 'raysession'
+
+homepage = 'https://github.com/Houston4444/RaySession'
+
+[[package]]
+channel = 'debian'
+name = 'raysession'
+
+[[package]]
+channel = 'fedora'
+name = 'raysession'

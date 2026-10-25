@@ -1,0 +1,12 @@
+id = 'blobwars'
+name = 'blobwars'
+
+homepage = 'https://sourceforge.net/projects/blobwars'
+
+[[package]]
+channel = 'arch'
+name = 'blobwars'
+
+[[package]]
+channel = 'fedora'
+name = 'blobwars'

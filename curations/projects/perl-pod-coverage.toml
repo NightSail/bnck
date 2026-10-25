@@ -1,0 +1,8 @@
+id = 'perl-pod-coverage'
+name = 'perl-Pod-Coverage'
+
+homepage = 'https://metacpan.org/release/Pod-Coverage'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Coverage'

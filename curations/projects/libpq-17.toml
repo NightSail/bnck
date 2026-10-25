@@ -1,0 +1,8 @@
+id = 'libpq-17'
+name = 'libpq@17'
+
+homepage = 'https://www.postgresql.org/docs/17/libpq.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpq@17'

@@ -1,0 +1,8 @@
+id = 'tmd710-tncsetup'
+name = 'tmd710-tncsetup'
+
+homepage = 'https://github.com/fmarier/tmd710_tncsetup'
+
+[[package]]
+channel = 'debian'
+name = 'tmd710-tncsetup'

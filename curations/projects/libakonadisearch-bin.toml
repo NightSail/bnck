@@ -1,0 +1,8 @@
+id = 'libakonadisearch-bin'
+name = 'libakonadisearch-bin'
+
+homepage = 'https://invent.kde.org/pim/akonadi-search'
+
+[[package]]
+channel = 'debian'
+name = 'libakonadisearch-bin'

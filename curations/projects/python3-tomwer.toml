@@ -1,0 +1,8 @@
+id = 'python3-tomwer'
+name = 'python3-tomwer'
+
+homepage = 'https://gitlab.esrf.fr/tomotools/tomwer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tomwer'

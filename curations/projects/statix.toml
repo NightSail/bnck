@@ -1,0 +1,8 @@
+id = 'statix'
+name = 'statix'
+
+repository = 'https://github.com/oppiliappan/statix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/statix'

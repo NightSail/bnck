@@ -1,0 +1,8 @@
+id = 'waffle-utils'
+name = 'waffle-utils'
+
+homepage = 'https://waffle.freedesktop.org'
+
+[[package]]
+channel = 'debian'
+name = 'waffle-utils'

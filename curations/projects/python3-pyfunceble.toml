@@ -1,0 +1,8 @@
+id = 'python3-pyfunceble'
+name = 'python3-pyfunceble'
+
+homepage = 'https://github.com/funilrys/PyFunceble'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyfunceble'

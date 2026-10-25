@@ -1,0 +1,6 @@
+id = 'libmodule-starter-plugin-cgiapp-perl'
+name = 'libmodule-starter-plugin-cgiapp-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-starter-plugin-cgiapp-perl'

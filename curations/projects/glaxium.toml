@@ -1,0 +1,8 @@
+id = 'glaxium'
+name = 'glaxium'
+
+homepage = 'http://xhosxe.free.fr/glaxium'
+
+[[package]]
+channel = 'fedora'
+name = 'glaxium'

@@ -1,0 +1,8 @@
+id = 'python3-pyspf'
+name = 'python3-pyspf'
+
+homepage = 'http://pypi.python.org/pypi/pyspf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyspf'

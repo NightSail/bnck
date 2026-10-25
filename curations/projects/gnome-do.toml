@@ -1,0 +1,8 @@
+id = 'gnome-do'
+name = 'gnome-do'
+
+homepage = 'http://do.cooperteam.net'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-do'

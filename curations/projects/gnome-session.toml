@@ -1,0 +1,16 @@
+id = 'gnome-session'
+name = 'gnome-session'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-session'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-session'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-session-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-session'

@@ -1,0 +1,16 @@
+id = 'golly'
+name = 'golly'
+
+homepage = 'https://golly.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'golly'
+
+[[package]]
+channel = 'fedora'
+name = 'golly'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/golly'

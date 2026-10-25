@@ -1,0 +1,8 @@
+id = 'chipass'
+name = 'chipass'
+
+homepage = 'https://chipass.org'
+
+[[package]]
+channel = 'arch'
+name = 'chipass'

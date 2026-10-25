@@ -1,0 +1,21 @@
+id = 'ddclient'
+name = 'ddclient'
+
+homepage = 'https://ddclient.net'
+repository = 'https://github.com/ddclient/ddclient.git'
+
+[[package]]
+channel = 'arch'
+name = 'ddclient'
+
+[[package]]
+channel = 'debian'
+name = 'ddclient'
+
+[[package]]
+channel = 'fedora'
+name = 'ddclient'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddclient'

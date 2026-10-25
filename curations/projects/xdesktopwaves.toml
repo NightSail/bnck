@@ -1,0 +1,8 @@
+id = 'xdesktopwaves'
+name = 'xdesktopwaves'
+
+homepage = 'http://xdesktopwaves.sf.net'
+
+[[package]]
+channel = 'fedora'
+name = 'xdesktopwaves'

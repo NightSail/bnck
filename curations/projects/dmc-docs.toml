@@ -1,0 +1,20 @@
+id = 'dmc-docs'
+name = 'dmc-docs'
+
+homepage = 'https://dmc-docs.web.cern.ch/dmc-docs/davix.html'
+
+[[package]]
+channel = 'debian'
+name = 'davix'
+
+[[package]]
+channel = 'debian'
+name = 'davix-tests'
+
+[[package]]
+channel = 'fedora'
+name = 'davix'
+
+[[package]]
+channel = 'fedora'
+name = 'davix-tests'

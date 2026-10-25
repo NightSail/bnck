@@ -1,0 +1,8 @@
+id = 'sc-membench'
+name = 'sc-membench'
+
+homepage = 'https://github.com/SpareCores/sc-membench'
+
+[[package]]
+channel = 'debian'
+name = 'sc-membench'

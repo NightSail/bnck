@@ -1,0 +1,12 @@
+id = 'privatebin-cli'
+name = 'privatebin-cli'
+
+homepage = 'https://github.com/gearnode/privatebin'
+
+[[package]]
+channel = 'debian'
+name = 'privatebin-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/privatebin-cli'

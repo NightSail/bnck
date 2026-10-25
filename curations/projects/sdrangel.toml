@@ -1,0 +1,12 @@
+id = 'sdrangel'
+name = 'sdrangel'
+
+homepage = 'https://github.com/f4exb/sdrangel'
+
+[[package]]
+channel = 'debian'
+name = 'sdrangel'
+
+[[package]]
+channel = 'fedora'
+name = 'sdrangel'

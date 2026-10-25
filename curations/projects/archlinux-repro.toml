@@ -1,0 +1,8 @@
+id = 'archlinux-repro'
+name = 'archlinux-repro'
+
+homepage = 'https://github.com/archlinux/archlinux-repro'
+
+[[package]]
+channel = 'arch'
+name = 'archlinux-repro'

@@ -1,0 +1,8 @@
+id = 'mprocs'
+name = 'mprocs'
+
+repository = 'https://github.com/pvolok/dekit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mprocs'

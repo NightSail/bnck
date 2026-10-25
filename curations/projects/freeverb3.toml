@@ -1,0 +1,8 @@
+id = 'freeverb3'
+name = 'freeverb3'
+
+homepage = 'http://www.nongnu.org/freeverb3'
+
+[[package]]
+channel = 'arch'
+name = 'freeverb3'

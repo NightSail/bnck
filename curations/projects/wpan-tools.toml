@@ -1,0 +1,10 @@
+id = 'wpan-tools'
+name = 'wpan-tools'
+
+[[package]]
+channel = 'debian'
+name = 'wpan-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'wpan-tools'

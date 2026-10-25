@@ -1,0 +1,8 @@
+id = 'node-less'
+name = 'node-less'
+
+homepage = 'https://lesscss.org'
+
+[[package]]
+channel = 'debian'
+name = 'node-less'

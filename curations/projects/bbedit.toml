@@ -1,0 +1,12 @@
+id = 'bbedit'
+name = 'bbedit'
+
+homepage = 'https://www.barebones.com/products/bbedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/bbedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/bbedit@14'

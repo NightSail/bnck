@@ -1,0 +1,8 @@
+id = 'ccmux'
+name = 'ccmux'
+
+homepage = 'https://github.com/epilande/ccmux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccmux'

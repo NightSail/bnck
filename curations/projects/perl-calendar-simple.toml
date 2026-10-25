@@ -1,0 +1,8 @@
+id = 'perl-calendar-simple'
+name = 'perl-Calendar-Simple'
+
+homepage = 'https://metacpan.org/release/Calendar-Simple'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Calendar-Simple'

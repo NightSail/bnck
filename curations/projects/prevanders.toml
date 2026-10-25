@@ -1,0 +1,12 @@
+id = 'prevanders'
+name = 'prevanders'
+
+homepage = 'https://www.prevanders.net/dwarf.html'
+
+[[package]]
+channel = 'arch'
+name = 'libdwarf'
+
+[[package]]
+channel = 'fedora'
+name = 'libdwarf-tools'

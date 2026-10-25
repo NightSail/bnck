@@ -1,0 +1,8 @@
+id = 'todo-txt-gtd'
+name = 'todo.txt-gtd'
+
+homepage = 'https://github.com/davesteele/todo.txt-gtd'
+
+[[package]]
+channel = 'debian'
+name = 'todo.txt-gtd'

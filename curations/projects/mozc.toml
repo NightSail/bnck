@@ -1,0 +1,12 @@
+id = 'mozc'
+name = 'mozc'
+
+homepage = 'https://github.com/google/mozc'
+
+[[package]]
+channel = 'debian'
+name = 'emacs-mozc-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'mozc'

@@ -1,0 +1,8 @@
+id = 'python3-lupupy'
+name = 'python3-lupupy'
+
+homepage = 'https://github.com/majuss/lupupy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-lupupy'

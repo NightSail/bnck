@@ -1,0 +1,8 @@
+id = 'oscillatord'
+name = 'oscillatord'
+
+homepage = 'https://github.com/Orolia2s/oscillatord'
+
+[[package]]
+channel = 'fedora'
+name = 'oscillatord'

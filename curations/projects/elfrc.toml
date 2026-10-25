@@ -1,0 +1,6 @@
+id = 'elfrc'
+name = 'elfrc'
+
+[[package]]
+channel = 'debian'
+name = 'elfrc'

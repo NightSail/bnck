@@ -1,0 +1,12 @@
+id = 'paper-clip'
+name = 'paper-clip'
+
+homepage = 'https://apps.gnome.org/PdfMetadataEditor'
+
+[[package]]
+channel = 'arch'
+name = 'paper-clip'
+
+[[package]]
+channel = 'debian'
+name = 'paper-clip'

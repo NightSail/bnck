@@ -1,0 +1,16 @@
+id = 'reprotest'
+name = 'reprotest'
+
+homepage = 'https://salsa.debian.org/reproducible-builds/reprotest'
+
+[[package]]
+channel = 'arch'
+name = 'reprotest'
+
+[[package]]
+channel = 'debian'
+name = 'reprotest'
+
+[[package]]
+channel = 'fedora'
+name = 'reprotest'

@@ -1,0 +1,13 @@
+id = 'mu'
+name = 'mu'
+
+homepage = 'https://github.com/mu-editor/mu'
+repository = 'https://github.com/djcb/mu.git'
+
+[[package]]
+channel = 'fedora'
+name = 'mu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mu'

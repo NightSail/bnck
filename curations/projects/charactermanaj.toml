@@ -1,0 +1,8 @@
+id = 'charactermanaj'
+name = 'charactermanaj'
+
+homepage = 'https://osdn.net/projects/charactermanaj'
+
+[[package]]
+channel = 'debian'
+name = 'charactermanaj'

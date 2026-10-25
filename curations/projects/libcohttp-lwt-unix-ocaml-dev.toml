@@ -1,0 +1,8 @@
+id = 'libcohttp-lwt-unix-ocaml-dev'
+name = 'libcohttp-lwt-unix-ocaml-dev'
+
+homepage = 'https://github.com/mirage/ocaml-cohttp'
+
+[[package]]
+channel = 'debian'
+name = 'libcohttp-lwt-unix-ocaml-dev'

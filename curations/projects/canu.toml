@@ -1,0 +1,8 @@
+id = 'canu'
+name = 'canu'
+
+homepage = 'https://canu.readthedocs.org/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'canu'

@@ -1,0 +1,8 @@
+id = 'mcpm'
+name = 'mcpm'
+
+homepage = 'https://mcpm.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcpm'

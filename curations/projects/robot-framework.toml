@@ -1,0 +1,9 @@
+id = 'robot-framework'
+name = 'robot-framework'
+
+homepage = 'https://robotframework.org'
+repository = 'https://github.com/robotframework/robotframework.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/robot-framework'

@@ -1,0 +1,8 @@
+id = 'ruby-vimrunner'
+name = 'ruby-vimrunner'
+
+homepage = 'https://github.com/AndrewRadev/vimrunner'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-vimrunner'

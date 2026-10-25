@@ -1,0 +1,8 @@
+id = 'libprotoident'
+name = 'libprotoident'
+
+homepage = 'https://github.com/LibtraceTeam/libprotoident'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libprotoident'

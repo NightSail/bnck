@@ -1,0 +1,8 @@
+id = 'haskell-isocline'
+name = 'haskell-isocline'
+
+homepage = 'https://github.com/daanx/isocline'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-isocline'

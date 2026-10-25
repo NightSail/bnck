@@ -1,0 +1,8 @@
+id = 'pacman-offline'
+name = 'pacman-offline'
+
+homepage = 'https://github.com/eworm-de/pacman-offline'
+
+[[package]]
+channel = 'arch'
+name = 'pacman-offline'

@@ -1,0 +1,8 @@
+id = 'perl-app-mymeta-requires'
+name = 'perl-App-mymeta_requires'
+
+homepage = 'https://metacpan.org/release/App-mymeta_requires'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-mymeta_requires'

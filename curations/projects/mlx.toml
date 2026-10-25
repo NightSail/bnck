@@ -1,0 +1,9 @@
+id = 'mlx'
+name = 'mlx'
+
+homepage = 'https://ml-explore.github.io/mlx/build/html/index.html'
+repository = 'https://github.com/ml-explore/mlx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlx'

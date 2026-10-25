@@ -1,0 +1,8 @@
+id = 'ices2'
+name = 'ices2'
+
+homepage = 'https://www.icecast.org/ices'
+
+[[package]]
+channel = 'debian'
+name = 'ices2'

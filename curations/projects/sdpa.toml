@@ -1,0 +1,8 @@
+id = 'sdpa'
+name = 'sdpa'
+
+homepage = 'http://sdpa.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sdpa'

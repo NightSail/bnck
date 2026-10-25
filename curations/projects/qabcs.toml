@@ -1,0 +1,8 @@
+id = 'qabcs'
+name = 'qabcs'
+
+homepage = 'https://bitbucket.org/admsasha/qabcs'
+
+[[package]]
+channel = 'debian'
+name = 'qabcs'

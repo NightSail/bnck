@@ -1,0 +1,8 @@
+id = 'usbmuxctl'
+name = 'usbmuxctl'
+
+homepage = 'https://github.com/linux-automation/usbmuxctl'
+
+[[package]]
+channel = 'debian'
+name = 'usbmuxctl'

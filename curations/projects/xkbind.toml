@@ -1,0 +1,8 @@
+id = 'xkbind'
+name = 'xkbind'
+
+homepage = 'https://xkbind.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xkbind'

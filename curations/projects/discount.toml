@@ -1,0 +1,21 @@
+id = 'discount'
+name = 'discount'
+
+homepage = 'https://www.pell.portland.or.us/~orc/Code/discount'
+repository = 'https://github.com/Orc/discount.git'
+
+[[package]]
+channel = 'arch'
+name = 'discount'
+
+[[package]]
+channel = 'debian'
+name = 'discount'
+
+[[package]]
+channel = 'fedora'
+name = 'discount'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/discount'

@@ -1,0 +1,12 @@
+id = 'en-us'
+name = 'en-us'
+
+homepage = 'https://dotnet.microsoft.com/en-us'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dotnet-runtime@preview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dotnet-sdk@preview'

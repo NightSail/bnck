@@ -1,0 +1,8 @@
+id = 'cargo-license'
+name = 'cargo-license'
+
+homepage = 'https://github.com/onur/cargo-license'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-license'

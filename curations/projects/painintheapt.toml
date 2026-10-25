@@ -1,0 +1,8 @@
+id = 'painintheapt'
+name = 'painintheapt'
+
+homepage = 'https://salsa.debian.org/debacle/painintheapt'
+
+[[package]]
+channel = 'debian'
+name = 'painintheapt'

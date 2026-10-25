@@ -1,0 +1,8 @@
+id = 'oscar'
+name = 'oscar'
+
+homepage = 'https://www.sleepfiles.com/OSCAR'
+
+[[package]]
+channel = 'debian'
+name = 'oscar'

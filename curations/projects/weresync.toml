@@ -1,0 +1,8 @@
+id = 'weresync'
+name = 'weresync'
+
+homepage = 'https://github.com/DonyorM/weresync'
+
+[[package]]
+channel = 'debian'
+name = 'weresync'

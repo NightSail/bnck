@@ -1,0 +1,8 @@
+id = 'clang-include-graph'
+name = 'clang-include-graph'
+
+repository = 'https://github.com/bkryza/clang-include-graph.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clang-include-graph'

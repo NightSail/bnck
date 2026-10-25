@@ -1,0 +1,8 @@
+id = 'libmujoco-samples'
+name = 'libmujoco-samples'
+
+homepage = 'https://mujoco.org'
+
+[[package]]
+channel = 'debian'
+name = 'libmujoco-samples'

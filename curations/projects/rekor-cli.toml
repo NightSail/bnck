@@ -1,0 +1,8 @@
+id = 'rekor-cli'
+name = 'rekor-cli'
+
+homepage = 'https://docs.sigstore.dev/logging/overview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rekor-cli'

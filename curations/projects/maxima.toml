@@ -1,0 +1,24 @@
+id = 'maxima'
+name = 'maxima'
+
+homepage = 'https://maxima.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'maxima'
+
+[[package]]
+channel = 'debian'
+name = 'xmaxima'
+
+[[package]]
+channel = 'fedora'
+name = 'maxima'
+
+[[package]]
+channel = 'fedora'
+name = 'maxima-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/maxima'

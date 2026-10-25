@@ -1,0 +1,6 @@
+id = 'dpkg-awk'
+name = 'dpkg-awk'
+
+[[package]]
+channel = 'debian'
+name = 'dpkg-awk'

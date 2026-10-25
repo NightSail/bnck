@@ -1,0 +1,8 @@
+id = 'rattler-index'
+name = 'rattler-index'
+
+repository = 'https://github.com/conda/rattler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rattler-index'

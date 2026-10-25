@@ -1,0 +1,8 @@
+id = 'sheepdog'
+name = 'sheepdog'
+
+homepage = 'http://sheepdog.github.io/sheepdog'
+
+[[package]]
+channel = 'fedora'
+name = 'sheepdog'

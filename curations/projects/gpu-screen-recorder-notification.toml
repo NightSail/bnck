@@ -1,0 +1,8 @@
+id = 'gpu-screen-recorder-notification'
+name = 'gpu-screen-recorder-notification'
+
+homepage = 'https://git.dec05eba.com/gpu-screen-recorder-notification'
+
+[[package]]
+channel = 'arch'
+name = 'gpu-screen-recorder-notification'

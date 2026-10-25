@@ -1,0 +1,8 @@
+id = 'vdr-plugin-epgsearch'
+name = 'vdr-plugin-epgsearch'
+
+homepage = 'http://winni.vdr-developer.org/epgsearch'
+
+[[package]]
+channel = 'debian'
+name = 'vdr-plugin-epgsearch'

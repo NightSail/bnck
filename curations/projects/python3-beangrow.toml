@@ -1,0 +1,8 @@
+id = 'python3-beangrow'
+name = 'python3-beangrow'
+
+homepage = 'https://github.com/beancount/beangrow'
+
+[[package]]
+channel = 'debian'
+name = 'python3-beangrow'

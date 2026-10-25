@@ -1,0 +1,9 @@
+id = 'teku'
+name = 'teku'
+
+homepage = 'https://docs.teku.consensys.net'
+repository = 'https://github.com/ConsenSys/teku.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/teku'

@@ -1,0 +1,12 @@
+id = 'picard-tools'
+name = 'picard-tools'
+
+homepage = 'https://broadinstitute.github.io/picard'
+
+[[package]]
+channel = 'debian'
+name = 'picard-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picard-tools'

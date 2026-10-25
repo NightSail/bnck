@@ -1,0 +1,8 @@
+id = 'python-location'
+name = 'python-location'
+
+homepage = 'https://git.ipfire.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-location'

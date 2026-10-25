@@ -1,0 +1,12 @@
+id = 'easyrpg-player'
+name = 'easyrpg-player'
+
+homepage = 'https://easyrpg.org'
+
+[[package]]
+channel = 'fedora'
+name = 'easyrpg-player'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/easyrpg-player'

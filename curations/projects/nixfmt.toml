@@ -1,0 +1,8 @@
+id = 'nixfmt'
+name = 'nixfmt'
+
+repository = 'https://github.com/NixOS/nixfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nixfmt'

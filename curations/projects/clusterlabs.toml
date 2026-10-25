@@ -1,0 +1,28 @@
+id = 'clusterlabs'
+name = 'clusterlabs'
+
+homepage = 'https://www.clusterlabs.org'
+
+[[package]]
+channel = 'debian'
+name = 'pacemaker'
+
+[[package]]
+channel = 'debian'
+name = 'pacemaker-cli-utils'
+
+[[package]]
+channel = 'debian'
+name = 'pacemaker-remote'
+
+[[package]]
+channel = 'fedora'
+name = 'pacemaker'
+
+[[package]]
+channel = 'fedora'
+name = 'pacemaker-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'pacemaker-remote'

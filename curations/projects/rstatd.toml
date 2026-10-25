@@ -1,0 +1,20 @@
+id = 'rstatd'
+name = 'rstatd'
+
+homepage = 'http://rstatd.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'rstat-client'
+
+[[package]]
+channel = 'debian'
+name = 'rstatd'
+
+[[package]]
+channel = 'fedora'
+name = 'rusers'
+
+[[package]]
+channel = 'fedora'
+name = 'rusers-server'

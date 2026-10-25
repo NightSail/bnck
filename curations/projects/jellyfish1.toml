@@ -1,0 +1,8 @@
+id = 'jellyfish1'
+name = 'jellyfish1'
+
+homepage = 'https://www.cbcb.umd.edu/software/jellyfish'
+
+[[package]]
+channel = 'debian'
+name = 'jellyfish1'

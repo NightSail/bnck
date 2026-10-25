@@ -1,0 +1,6 @@
+id = 'vim-addon-manager'
+name = 'vim-addon-manager'
+
+[[package]]
+channel = 'debian'
+name = 'vim-addon-manager'

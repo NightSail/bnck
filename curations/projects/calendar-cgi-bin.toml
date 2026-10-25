@@ -1,0 +1,8 @@
+id = 'calendar-cgi-bin'
+name = 'calendar'
+
+homepage = 'http://www.openbsd.org/cgi-bin/cvsweb/src/usr.bin/calendar'
+
+[[package]]
+channel = 'fedora'
+name = 'calendar'

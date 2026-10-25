@@ -1,0 +1,9 @@
+id = 'gut'
+name = 'gut'
+
+homepage = 'https://gut-cli.dev'
+repository = 'https://github.com/julien040/gut.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gut'

@@ -1,0 +1,16 @@
+id = 'deepin-shortcut-viewer'
+name = 'deepin-shortcut-viewer'
+
+homepage = 'https://github.com/linuxdeepin/deepin-shortcut-viewer'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-shortcut-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-shortcut-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-shortcut-viewer'

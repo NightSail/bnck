@@ -1,0 +1,16 @@
+id = 'cinnamon-screensaver'
+name = 'cinnamon-screensaver'
+
+homepage = 'https://github.com/linuxmint/cinnamon-screensaver'
+
+[[package]]
+channel = 'arch'
+name = 'cinnamon-screensaver'
+
+[[package]]
+channel = 'debian'
+name = 'cinnamon-screensaver'
+
+[[package]]
+channel = 'fedora'
+name = 'cinnamon-screensaver'

@@ -1,0 +1,9 @@
+id = 'cloudflare-quiche'
+name = 'cloudflare-quiche'
+
+homepage = 'https://docs.quic.tech/quiche'
+repository = 'https://github.com/cloudflare/quiche.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudflare-quiche'

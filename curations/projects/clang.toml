@@ -1,0 +1,8 @@
+id = 'clang'
+name = 'clang'
+
+homepage = 'https://clang.llvm.org'
+
+[[package]]
+channel = 'arch'
+name = 'clang'

@@ -1,0 +1,8 @@
+id = 'wordxtr'
+name = 'wordxtr'
+
+homepage = 'https://pagure.io/wordxtr'
+
+[[package]]
+channel = 'fedora'
+name = 'wordxtr'

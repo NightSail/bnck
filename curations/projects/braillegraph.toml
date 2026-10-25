@@ -1,0 +1,8 @@
+id = 'braillegraph'
+name = 'braillegraph'
+
+homepage = 'https://github.com/kilobyte/braillegraph'
+
+[[package]]
+channel = 'debian'
+name = 'braillegraph'

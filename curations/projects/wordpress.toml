@@ -1,0 +1,8 @@
+id = 'wordpress'
+name = 'wordpress'
+
+homepage = 'https://wordpress.org'
+
+[[package]]
+channel = 'debian'
+name = 'wordpress'

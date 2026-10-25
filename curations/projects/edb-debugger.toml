@@ -1,0 +1,8 @@
+id = 'edb-debugger'
+name = 'edb-debugger'
+
+homepage = 'https://github.com/eteran/edb-debugger'
+
+[[package]]
+channel = 'debian'
+name = 'edb-debugger'

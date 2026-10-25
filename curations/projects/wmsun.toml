@@ -1,0 +1,8 @@
+id = 'wmsun'
+name = 'wmsun'
+
+homepage = 'https://www.dockapps.net/wmsun'
+
+[[package]]
+channel = 'debian'
+name = 'wmsun'

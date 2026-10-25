@@ -1,0 +1,8 @@
+id = 'haskell-dbus-hslogger-utils'
+name = 'haskell-dbus-hslogger-utils'
+
+homepage = 'https://github.com/IvanMalison/dbus-hslogger'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-dbus-hslogger-utils'

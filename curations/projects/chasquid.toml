@@ -1,0 +1,8 @@
+id = 'chasquid'
+name = 'chasquid'
+
+homepage = 'https://blitiri.com.ar/p/chasquid'
+
+[[package]]
+channel = 'debian'
+name = 'chasquid'

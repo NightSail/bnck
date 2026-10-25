@@ -1,0 +1,76 @@
+id = 'alsa-project'
+name = 'alsa-project'
+
+homepage = 'https://www.alsa-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'alsa-lib'
+
+[[package]]
+channel = 'arch'
+name = 'alsa-oss'
+
+[[package]]
+channel = 'arch'
+name = 'alsa-tools'
+
+[[package]]
+channel = 'arch'
+name = 'alsa-utils'
+
+[[package]]
+channel = 'debian'
+name = 'alsa-oss'
+
+[[package]]
+channel = 'debian'
+name = 'alsa-tools'
+
+[[package]]
+channel = 'debian'
+name = 'alsa-tools-gui'
+
+[[package]]
+channel = 'debian'
+name = 'alsa-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ld10k1'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-lib'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-tools-firmware'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-topology-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-ucm-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'alsa-utils-alsabat'
+
+[[package]]
+channel = 'fedora'
+name = 'tinycompress-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alsa-lib'

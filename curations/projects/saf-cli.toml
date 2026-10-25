@@ -1,0 +1,8 @@
+id = 'saf-cli'
+name = 'saf-cli'
+
+homepage = 'https://saf-cli.mitre.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/saf-cli'

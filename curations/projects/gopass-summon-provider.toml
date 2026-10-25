@@ -1,0 +1,8 @@
+id = 'gopass-summon-provider'
+name = 'gopass-summon-provider'
+
+homepage = 'https://github.com/gopasspw/gopass-summon-provider'
+
+[[package]]
+channel = 'arch'
+name = 'gopass-summon-provider'

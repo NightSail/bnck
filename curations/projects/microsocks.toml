@@ -1,0 +1,16 @@
+id = 'microsocks'
+name = 'microsocks'
+
+repository = 'https://github.com/rofl0r/microsocks.git'
+
+[[package]]
+channel = 'arch'
+name = 'microsocks'
+
+[[package]]
+channel = 'debian'
+name = 'microsocks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/microsocks'

@@ -1,0 +1,12 @@
+id = 'urdfdom'
+name = 'urdfdom'
+
+homepage = 'https://wiki.ros.org/urdf'
+
+[[package]]
+channel = 'fedora'
+name = 'urdfdom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urdfdom'

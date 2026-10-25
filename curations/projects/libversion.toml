@@ -1,0 +1,8 @@
+id = 'libversion'
+name = 'libversion'
+
+homepage = 'https://github.com/repology/libversion'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libversion'

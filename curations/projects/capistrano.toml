@@ -1,0 +1,8 @@
+id = 'capistrano'
+name = 'capistrano'
+
+homepage = 'https://capistranorb.com'
+
+[[package]]
+channel = 'debian'
+name = 'capistrano'

@@ -1,0 +1,8 @@
+id = 'pacmc'
+name = 'pacmc'
+
+homepage = 'https://github.com/jakobkmar/pacmc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pacmc'

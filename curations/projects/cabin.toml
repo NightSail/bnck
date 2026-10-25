@@ -1,0 +1,9 @@
+id = 'cabin'
+name = 'cabin'
+
+homepage = 'https://cabinpkg.com'
+repository = 'https://github.com/cabinpkg/cabin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cabin'

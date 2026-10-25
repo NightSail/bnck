@@ -1,0 +1,16 @@
+id = 'e2tools'
+name = 'e2tools'
+
+homepage = 'https://e2tools.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'e2tools'
+
+[[package]]
+channel = 'fedora'
+name = 'e2tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/e2tools'

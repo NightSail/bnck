@@ -1,0 +1,8 @@
+id = 'taskim'
+name = 'taskim'
+
+homepage = 'https://github.com/RohanAdwankar/taskim'
+
+[[package]]
+channel = 'arch'
+name = 'taskim'

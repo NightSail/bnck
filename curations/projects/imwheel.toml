@@ -1,0 +1,16 @@
+id = 'imwheel'
+name = 'imwheel'
+
+homepage = 'http://imwheel.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'imwheel'
+
+[[package]]
+channel = 'debian'
+name = 'imwheel'
+
+[[package]]
+channel = 'fedora'
+name = 'imwheel'

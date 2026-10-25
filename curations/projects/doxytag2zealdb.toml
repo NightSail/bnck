@@ -1,0 +1,8 @@
+id = 'doxytag2zealdb'
+name = 'doxytag2zealdb'
+
+homepage = 'https://gitlab.com/vedvyas/doxytag2zealdb'
+
+[[package]]
+channel = 'fedora'
+name = 'doxytag2zealdb'

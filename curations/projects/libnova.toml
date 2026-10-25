@@ -1,0 +1,21 @@
+id = 'libnova'
+name = 'libnova'
+
+homepage = 'http://libnova.sourceforge.net'
+repository = 'https://git.code.sf.net/p/libnova/libnova.git'
+
+[[package]]
+channel = 'arch'
+name = 'libnova'
+
+[[package]]
+channel = 'debian'
+name = 'libnova-dev-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libnova'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnova'

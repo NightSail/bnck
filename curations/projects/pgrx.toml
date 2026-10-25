@@ -1,0 +1,12 @@
+id = 'pgrx'
+name = 'pgrx'
+
+homepage = 'https://github.com/pgcentralfoundation/pgrx'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-pgrx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgrx'

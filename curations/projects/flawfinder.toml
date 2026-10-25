@@ -1,0 +1,21 @@
+id = 'flawfinder'
+name = 'flawfinder'
+
+homepage = 'https://dwheeler.com/flawfinder'
+repository = 'https://github.com/david-a-wheeler/flawfinder.git'
+
+[[package]]
+channel = 'arch'
+name = 'flawfinder'
+
+[[package]]
+channel = 'debian'
+name = 'flawfinder'
+
+[[package]]
+channel = 'fedora'
+name = 'flawfinder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flawfinder'

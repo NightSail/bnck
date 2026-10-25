@@ -1,0 +1,8 @@
+id = 'socklog'
+name = 'socklog'
+
+homepage = 'https://smarden.org/socklog'
+
+[[package]]
+channel = 'debian'
+name = 'socklog'

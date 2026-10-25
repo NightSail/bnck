@@ -1,0 +1,12 @@
+id = 'zps'
+name = 'zps'
+
+homepage = 'https://github.com/orhun/zps'
+
+[[package]]
+channel = 'arch'
+name = 'zps'
+
+[[package]]
+channel = 'fedora'
+name = 'zps'

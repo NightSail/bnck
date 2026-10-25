@@ -1,0 +1,8 @@
+id = 'node-umd'
+name = 'node-umd'
+
+homepage = 'https://github.com/ForbesLindesay/umd'
+
+[[package]]
+channel = 'debian'
+name = 'node-umd'

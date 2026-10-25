@@ -1,0 +1,16 @@
+id = 'par'
+name = 'par'
+
+homepage = 'http://www.nicemice.net/par'
+
+[[package]]
+channel = 'debian'
+name = 'par'
+
+[[package]]
+channel = 'fedora'
+name = 'par'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/par'

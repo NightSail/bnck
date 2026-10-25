@@ -1,0 +1,8 @@
+id = 'btllib-tools'
+name = 'btllib-tools'
+
+homepage = 'https://github.com/bcgsc/btllib'
+
+[[package]]
+channel = 'debian'
+name = 'btllib-tools'

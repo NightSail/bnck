@@ -1,0 +1,12 @@
+id = 'octavia'
+name = 'octavia'
+
+homepage = 'https://github.com/openstack/octavia'
+
+[[package]]
+channel = 'debian'
+name = 'octavia-agent'
+
+[[package]]
+channel = 'debian'
+name = 'python3-octavia'

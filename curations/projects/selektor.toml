@@ -1,0 +1,8 @@
+id = 'selektor'
+name = 'selektor'
+
+homepage = 'http://www.dazzleships.net'
+
+[[package]]
+channel = 'debian'
+name = 'selektor'

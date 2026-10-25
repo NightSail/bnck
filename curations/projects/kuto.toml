@@ -1,0 +1,8 @@
+id = 'kuto'
+name = 'kuto'
+
+homepage = 'https://github.com/samthor/kuto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kuto'

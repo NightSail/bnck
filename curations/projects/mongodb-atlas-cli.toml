@@ -1,0 +1,9 @@
+id = 'mongodb-atlas-cli'
+name = 'mongodb-atlas-cli'
+
+homepage = 'https://www.mongodb.com/docs/atlas/cli/stable'
+repository = 'https://github.com/mongodb/mongodb-atlas-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mongodb-atlas-cli'

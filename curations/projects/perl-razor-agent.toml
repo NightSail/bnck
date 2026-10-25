@@ -1,0 +1,8 @@
+id = 'perl-razor-agent'
+name = 'perl-Razor-Agent'
+
+homepage = 'https://metacpan.org/release/Razor2-Client-Agent'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Razor-Agent'

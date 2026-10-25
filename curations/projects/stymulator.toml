@@ -1,0 +1,8 @@
+id = 'stymulator'
+name = 'stymulator'
+
+homepage = 'http://atariarea.krap.pl/stymulator'
+
+[[package]]
+channel = 'debian'
+name = 'stymulator'

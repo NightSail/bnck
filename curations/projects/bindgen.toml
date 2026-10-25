@@ -1,0 +1,13 @@
+id = 'bindgen'
+name = 'bindgen'
+
+homepage = 'https://rust-lang.github.io/rust-bindgen'
+repository = 'https://github.com/rust-lang/rust-bindgen.git'
+
+[[package]]
+channel = 'debian'
+name = 'bindgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bindgen'

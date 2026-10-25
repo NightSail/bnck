@@ -1,0 +1,8 @@
+id = 'conky-manager2'
+name = 'conky-manager2'
+
+homepage = 'https://github.com/zcot/conky-manager2'
+
+[[package]]
+channel = 'arch'
+name = 'conky-manager2'

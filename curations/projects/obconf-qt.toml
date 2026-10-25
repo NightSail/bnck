@@ -1,0 +1,16 @@
+id = 'obconf-qt'
+name = 'obconf-qt'
+
+homepage = 'https://github.com/lxqt/obconf-qt'
+
+[[package]]
+channel = 'arch'
+name = 'obconf-qt'
+
+[[package]]
+channel = 'debian'
+name = 'obconf-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'obconf-qt'

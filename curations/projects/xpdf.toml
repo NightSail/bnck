@@ -1,0 +1,20 @@
+id = 'xpdf'
+name = 'xpdf'
+
+homepage = 'https://www.xpdfreader.com'
+
+[[package]]
+channel = 'arch'
+name = 'xpdf'
+
+[[package]]
+channel = 'debian'
+name = 'xpdf'
+
+[[package]]
+channel = 'fedora'
+name = 'xpdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xpdf'

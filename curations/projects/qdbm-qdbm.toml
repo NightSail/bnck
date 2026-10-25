@@ -1,0 +1,8 @@
+id = 'qdbm-qdbm'
+name = 'qdbm'
+
+homepage = 'https://dbmx.net/qdbm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qdbm'

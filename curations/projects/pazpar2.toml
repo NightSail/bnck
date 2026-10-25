@@ -1,0 +1,9 @@
+id = 'pazpar2'
+name = 'pazpar2'
+
+homepage = 'https://www.indexdata.com/resources/software/pazpar2'
+repository = 'https://github.com/indexdata/pazpar2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pazpar2'

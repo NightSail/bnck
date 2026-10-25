@@ -1,0 +1,12 @@
+id = 'mail'
+name = 'mail'
+
+homepage = 'https://github.com/elementary/mail'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-mail'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-mail'

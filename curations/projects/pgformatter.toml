@@ -1,0 +1,16 @@
+id = 'pgformatter'
+name = 'pgformatter'
+
+homepage = 'https://sqlformat.darold.net'
+
+[[package]]
+channel = 'arch'
+name = 'pgformatter'
+
+[[package]]
+channel = 'debian'
+name = 'pgformatter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgformatter'

@@ -1,0 +1,16 @@
+id = 'kvazaar'
+name = 'kvazaar'
+
+repository = 'https://github.com/ultravideo/kvazaar.git'
+
+[[package]]
+channel = 'arch'
+name = 'kvazaar'
+
+[[package]]
+channel = 'debian'
+name = 'kvazaar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kvazaar'

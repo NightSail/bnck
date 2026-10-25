@@ -1,0 +1,8 @@
+id = 'rekollect'
+name = 'rekollect'
+
+homepage = 'http://sourceforge.net/projects/rekollect'
+
+[[package]]
+channel = 'fedora'
+name = 'rekollect'

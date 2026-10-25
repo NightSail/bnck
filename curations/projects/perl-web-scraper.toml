@@ -1,0 +1,8 @@
+id = 'perl-web-scraper'
+name = 'perl-Web-Scraper'
+
+homepage = 'https://metacpan.org/release/Web-Scraper'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Web-Scraper'

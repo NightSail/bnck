@@ -1,0 +1,36 @@
+id = 'mysql-server'
+name = 'mysql-server'
+
+homepage = 'https://github.com/mysql/mysql-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql-client@8.0'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql-client@8.4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql-client@9.7'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql@8.0'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql@8.4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql@9.7'

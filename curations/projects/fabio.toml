@@ -1,0 +1,9 @@
+id = 'fabio'
+name = 'fabio'
+
+homepage = 'https://fabiolb.net'
+repository = 'https://github.com/fabiolb/fabio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fabio'

@@ -1,0 +1,20 @@
+id = 'libgpiod'
+name = 'libgpiod'
+
+homepage = 'https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git'
+
+[[package]]
+channel = 'arch'
+name = 'libgpiod'
+
+[[package]]
+channel = 'debian'
+name = 'gpiod'
+
+[[package]]
+channel = 'fedora'
+name = 'libgpiod-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'libgpiod-utils'

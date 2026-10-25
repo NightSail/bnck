@@ -1,0 +1,8 @@
+id = 'remrun'
+name = 'remrun'
+
+homepage = 'https://devel.ringlet.net/sysutils/remrun'
+
+[[package]]
+channel = 'debian'
+name = 'remrun'

@@ -1,0 +1,8 @@
+id = 'git-pkgs-brief'
+name = 'git-pkgs-brief'
+
+repository = 'https://github.com/git-pkgs/brief.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-pkgs-brief'

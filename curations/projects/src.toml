@@ -1,0 +1,12 @@
+id = 'src'
+name = 'src'
+
+homepage = 'https://gitlab.com/esr/src'
+
+[[package]]
+channel = 'debian'
+name = 'simple-revision-control'
+
+[[package]]
+channel = 'fedora'
+name = 'src'

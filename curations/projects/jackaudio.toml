@@ -1,0 +1,28 @@
+id = 'jackaudio'
+name = 'jackaudio'
+
+homepage = 'https://jackaudio.org'
+
+[[package]]
+channel = 'debian'
+name = 'jack-example-tools'
+
+[[package]]
+channel = 'debian'
+name = 'jackd1'
+
+[[package]]
+channel = 'debian'
+name = 'jackd2'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-audio-connection-kit'
+
+[[package]]
+channel = 'fedora'
+name = 'jack-audio-connection-kit-dbus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jack'

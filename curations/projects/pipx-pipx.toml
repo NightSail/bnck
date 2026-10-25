@@ -1,0 +1,8 @@
+id = 'pipx-pipx'
+name = 'pipx'
+
+homepage = 'https://pypa.github.io/pipx'
+
+[[package]]
+channel = 'fedora'
+name = 'pipx'

@@ -1,0 +1,8 @@
+id = 'smithwaterman'
+name = 'smithwaterman'
+
+homepage = 'https://github.com/ekg/smithwaterman'
+
+[[package]]
+channel = 'debian'
+name = 'smithwaterman'

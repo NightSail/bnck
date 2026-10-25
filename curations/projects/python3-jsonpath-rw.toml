@@ -1,0 +1,12 @@
+id = 'python3-jsonpath-rw'
+name = 'python3-jsonpath-rw'
+
+homepage = 'https://github.com/kennknowles/python-jsonpath-rw'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jsonpath-rw'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jsonpath-rw'

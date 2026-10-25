@@ -1,0 +1,8 @@
+id = 'minizip'
+name = 'minizip'
+
+homepage = 'http://zlib.net'
+
+[[package]]
+channel = 'debian'
+name = 'minizip'

@@ -1,0 +1,8 @@
+id = 'getparty'
+name = 'getparty'
+
+repository = 'https://github.com/vbauerster/getparty.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/getparty'

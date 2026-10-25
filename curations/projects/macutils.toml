@@ -1,0 +1,6 @@
+id = 'macutils'
+name = 'macutils'
+
+[[package]]
+channel = 'debian'
+name = 'macutils'

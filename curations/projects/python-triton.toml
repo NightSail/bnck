@@ -1,0 +1,8 @@
+id = 'python-triton'
+name = 'python-triton'
+
+homepage = 'https://triton-lang.org/main/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'python-triton'

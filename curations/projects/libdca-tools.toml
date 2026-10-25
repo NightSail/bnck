@@ -1,0 +1,8 @@
+id = 'libdca-tools'
+name = 'libdca-tools'
+
+homepage = 'https://code.videolan.org/videolan/libdca'
+
+[[package]]
+channel = 'fedora'
+name = 'libdca-tools'

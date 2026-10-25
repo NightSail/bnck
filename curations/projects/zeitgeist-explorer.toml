@@ -1,0 +1,8 @@
+id = 'zeitgeist-explorer'
+name = 'zeitgeist-explorer'
+
+homepage = 'https://launchpad.net/zeitgeist-explorer'
+
+[[package]]
+channel = 'arch'
+name = 'zeitgeist-explorer'

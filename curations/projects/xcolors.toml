@@ -1,0 +1,6 @@
+id = 'xcolors'
+name = 'xcolors'
+
+[[package]]
+channel = 'debian'
+name = 'xcolors'

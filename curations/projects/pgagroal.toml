@@ -1,0 +1,8 @@
+id = 'pgagroal'
+name = 'pgagroal'
+
+homepage = 'https://github.com/agroal/pgagroal'
+
+[[package]]
+channel = 'debian'
+name = 'pgagroal'

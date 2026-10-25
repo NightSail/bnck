@@ -1,0 +1,12 @@
+id = 'fierce'
+name = 'fierce'
+
+repository = 'https://github.com/mschwager/fierce.git'
+
+[[package]]
+channel = 'debian'
+name = 'fierce'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fierce'

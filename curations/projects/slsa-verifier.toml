@@ -1,0 +1,8 @@
+id = 'slsa-verifier'
+name = 'slsa-verifier'
+
+repository = 'https://github.com/slsa-framework/slsa-verifier.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slsa-verifier'

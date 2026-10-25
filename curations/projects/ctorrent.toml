@@ -1,0 +1,8 @@
+id = 'ctorrent'
+name = 'ctorrent'
+
+homepage = 'http://www.rahul.net/dholmes/ctorrent'
+
+[[package]]
+channel = 'debian'
+name = 'ctorrent'

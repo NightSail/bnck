@@ -1,0 +1,8 @@
+id = 'webfont-kit-generator'
+name = 'webfont-kit-generator'
+
+homepage = 'https://apps.gnome.org/WebfontKitGenerator'
+
+[[package]]
+channel = 'arch'
+name = 'webfont-kit-generator'

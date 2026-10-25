@@ -1,0 +1,8 @@
+id = 'lib3ds-dev'
+name = 'lib3ds-dev'
+
+homepage = 'http://www.lib3ds.org'
+
+[[package]]
+channel = 'debian'
+name = 'lib3ds-dev'

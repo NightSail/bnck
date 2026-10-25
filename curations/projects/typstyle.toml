@@ -1,0 +1,13 @@
+id = 'typstyle'
+name = 'typstyle'
+
+homepage = 'https://typstyle-rs.github.io/typstyle'
+repository = 'https://github.com/typstyle-rs/typstyle.git'
+
+[[package]]
+channel = 'arch'
+name = 'typstyle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typstyle'

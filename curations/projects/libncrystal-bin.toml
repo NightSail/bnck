@@ -1,0 +1,8 @@
+id = 'libncrystal-bin'
+name = 'libncrystal-bin'
+
+homepage = 'https://mctools.github.io/ncrystal'
+
+[[package]]
+channel = 'debian'
+name = 'libncrystal-bin'

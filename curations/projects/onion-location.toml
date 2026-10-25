@@ -1,0 +1,8 @@
+id = 'onion-location'
+name = 'onion-location'
+
+repository = 'https://codeberg.org/Freso/python-onion-location.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/onion-location'

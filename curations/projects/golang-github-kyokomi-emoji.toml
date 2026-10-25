@@ -1,0 +1,8 @@
+id = 'golang-github-kyokomi-emoji'
+name = 'golang-github-kyokomi-emoji'
+
+homepage = 'https://github.com/kyokomi/emoji'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-kyokomi-emoji'

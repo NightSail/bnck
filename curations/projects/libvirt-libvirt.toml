@@ -1,0 +1,16 @@
+id = 'libvirt-libvirt'
+name = 'libvirt'
+
+homepage = 'https://libvirt.org/daemons.html'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-daemon-lock'
+
+[[package]]
+channel = 'debian'
+name = 'libvirt-daemon-log'

@@ -1,0 +1,8 @@
+id = 'osdlyrics'
+name = 'osdlyrics'
+
+homepage = 'https://github.com/osdlyrics/osdlyrics'
+
+[[package]]
+channel = 'debian'
+name = 'osdlyrics'

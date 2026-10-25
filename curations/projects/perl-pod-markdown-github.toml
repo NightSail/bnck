@@ -1,0 +1,8 @@
+id = 'perl-pod-markdown-github'
+name = 'perl-Pod-Markdown-Github'
+
+homepage = 'https://metacpan.org/release/Pod-Markdown-Github'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Markdown-Github'

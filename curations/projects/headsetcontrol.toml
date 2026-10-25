@@ -1,0 +1,12 @@
+id = 'headsetcontrol'
+name = 'headsetcontrol'
+
+homepage = 'https://github.com/Sapd/HeadsetControl'
+
+[[package]]
+channel = 'arch'
+name = 'headsetcontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'headsetcontrol'

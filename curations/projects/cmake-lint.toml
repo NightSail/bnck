@@ -1,0 +1,8 @@
+id = 'cmake-lint'
+name = 'cmake-lint'
+
+homepage = 'https://github.com/cmake-lint/cmake-lint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmake-lint'

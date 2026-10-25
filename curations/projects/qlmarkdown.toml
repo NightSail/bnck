@@ -1,0 +1,8 @@
+id = 'qlmarkdown'
+name = 'qlmarkdown'
+
+homepage = 'https://github.com/sbarex/QLMarkdown'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/qlmarkdown'

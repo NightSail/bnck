@@ -1,0 +1,8 @@
+id = 'pwninit'
+name = 'pwninit'
+
+homepage = 'https://github.com/io12/pwninit'
+
+[[package]]
+channel = 'arch'
+name = 'pwninit'

@@ -1,0 +1,8 @@
+id = 'munin-node-c'
+name = 'munin-node-c'
+
+homepage = 'https://github.com/munin-monitoring/munin-c'
+
+[[package]]
+channel = 'debian'
+name = 'munin-node-c'

@@ -1,0 +1,20 @@
+id = 'stun'
+name = 'stun'
+
+homepage = 'http://sourceforge.net/projects/stun'
+
+[[package]]
+channel = 'debian'
+name = 'stun-client'
+
+[[package]]
+channel = 'debian'
+name = 'stun-server'
+
+[[package]]
+channel = 'fedora'
+name = 'stun'
+
+[[package]]
+channel = 'fedora'
+name = 'stun-server'

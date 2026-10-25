@@ -1,0 +1,8 @@
+id = 'shortest'
+name = 'shortest'
+
+homepage = 'https://shortest.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shortest'

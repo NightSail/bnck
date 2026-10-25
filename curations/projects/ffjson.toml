@@ -1,0 +1,12 @@
+id = 'ffjson'
+name = 'ffjson'
+
+homepage = 'https://github.com/pquerna/ffjson'
+
+[[package]]
+channel = 'debian'
+name = 'ffjson'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pquerna-ffjson'

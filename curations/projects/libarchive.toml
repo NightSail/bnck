@@ -1,0 +1,32 @@
+id = 'libarchive'
+name = 'libarchive'
+
+homepage = 'https://www.libarchive.org'
+
+[[package]]
+channel = 'arch'
+name = 'libarchive'
+
+[[package]]
+channel = 'debian'
+name = 'libarchive-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'bsdcat'
+
+[[package]]
+channel = 'fedora'
+name = 'bsdcpio'
+
+[[package]]
+channel = 'fedora'
+name = 'bsdtar'
+
+[[package]]
+channel = 'fedora'
+name = 'bsdunzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libarchive'

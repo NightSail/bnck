@@ -1,0 +1,12 @@
+id = 'swhid'
+name = 'swhid'
+
+homepage = 'https://github.com/swhid/swhid-rs'
+
+[[package]]
+channel = 'arch'
+name = 'swhid'
+
+[[package]]
+channel = 'debian'
+name = 'swhid'

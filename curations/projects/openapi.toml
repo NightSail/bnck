@@ -1,0 +1,9 @@
+id = 'openapi'
+name = 'openapi'
+
+homepage = 'https://www.speakeasy.com'
+repository = 'https://github.com/speakeasy-api/openapi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openapi'

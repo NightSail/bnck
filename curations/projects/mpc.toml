@@ -1,0 +1,16 @@
+id = 'mpc'
+name = 'mpc'
+
+homepage = 'https://www.musicpd.org/clients/mpc'
+
+[[package]]
+channel = 'arch'
+name = 'mpc'
+
+[[package]]
+channel = 'debian'
+name = 'mpc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpc'

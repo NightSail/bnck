@@ -1,0 +1,8 @@
+id = 'quicktun'
+name = 'quicktun'
+
+homepage = 'http://wiki.ucis.nl/QuickTun'
+
+[[package]]
+channel = 'debian'
+name = 'quicktun'

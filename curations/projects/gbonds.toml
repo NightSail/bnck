@@ -1,0 +1,8 @@
+id = 'gbonds'
+name = 'gbonds'
+
+homepage = 'http://gbonds.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gbonds'

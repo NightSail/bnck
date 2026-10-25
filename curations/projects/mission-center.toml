@@ -1,0 +1,8 @@
+id = 'mission-center'
+name = 'mission-center'
+
+homepage = 'https://missioncenter.io'
+
+[[package]]
+channel = 'arch'
+name = 'mission-center'

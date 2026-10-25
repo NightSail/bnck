@@ -1,0 +1,8 @@
+id = 'bltk'
+name = 'bltk'
+
+homepage = 'http://www.lesswatts.org/projects/bltk'
+
+[[package]]
+channel = 'fedora'
+name = 'bltk'

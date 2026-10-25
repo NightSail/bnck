@@ -1,0 +1,12 @@
+id = 'screenshot'
+name = 'screenshot'
+
+homepage = 'https://github.com/elementary/screenshot'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-screenshot'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-screenshot'

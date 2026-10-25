@@ -1,0 +1,8 @@
+id = 'wmdate'
+name = 'wmdate'
+
+homepage = 'https://web.archive.org/web/20070614044714/http://solfertje.student.utwente.nl/~dalroi/wmdate'
+
+[[package]]
+channel = 'debian'
+name = 'wmdate'

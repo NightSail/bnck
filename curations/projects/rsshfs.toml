@@ -1,0 +1,8 @@
+id = 'rsshfs'
+name = 'rsshfs'
+
+homepage = 'https://github.com/rom1v/rsshfs'
+
+[[package]]
+channel = 'debian'
+name = 'rsshfs'

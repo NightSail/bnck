@@ -1,0 +1,12 @@
+id = 'scriptisto'
+name = 'scriptisto'
+
+homepage = 'https://github.com/igor-petruk/scriptisto'
+
+[[package]]
+channel = 'debian'
+name = 'scriptisto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scriptisto'

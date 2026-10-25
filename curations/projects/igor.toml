@@ -1,0 +1,8 @@
+id = 'igor'
+name = 'igor'
+
+homepage = 'https://github.com/qmarcou/IGoR'
+
+[[package]]
+channel = 'debian'
+name = 'igor'

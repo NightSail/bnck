@@ -1,0 +1,8 @@
+id = 'photofilmstrip'
+name = 'photofilmstrip'
+
+homepage = 'https://www.photofilmstrip.org'
+
+[[package]]
+channel = 'debian'
+name = 'photofilmstrip'

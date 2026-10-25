@@ -1,0 +1,20 @@
+id = 'zeitgeist'
+name = 'zeitgeist'
+
+homepage = 'https://launchpad.net/zeitgeist'
+
+[[package]]
+channel = 'arch'
+name = 'zeitgeist'
+
+[[package]]
+channel = 'debian'
+name = 'zeitgeist-core'
+
+[[package]]
+channel = 'debian'
+name = 'zeitgeist-datahub'
+
+[[package]]
+channel = 'fedora'
+name = 'zeitgeist'

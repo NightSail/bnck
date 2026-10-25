@@ -1,0 +1,12 @@
+id = 'nwg-dock-hyprland'
+name = 'nwg-dock-hyprland'
+
+homepage = 'https://github.com/nwg-piotr/nwg-dock-hyprland'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-dock-hyprland'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-dock-hyprland'

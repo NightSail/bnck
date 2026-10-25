@@ -1,0 +1,8 @@
+id = 'confy'
+name = 'confy'
+
+homepage = 'https://confy.kirgroup.net'
+
+[[package]]
+channel = 'debian'
+name = 'confy'

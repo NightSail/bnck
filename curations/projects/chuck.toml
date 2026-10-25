@@ -1,0 +1,17 @@
+id = 'chuck'
+name = 'chuck'
+
+homepage = 'https://chuck.cs.princeton.edu'
+repository = 'https://github.com/ccrma/chuck.git'
+
+[[package]]
+channel = 'arch'
+name = 'chuck'
+
+[[package]]
+channel = 'debian'
+name = 'chuck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chuck'

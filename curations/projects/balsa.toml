@@ -1,0 +1,12 @@
+id = 'balsa'
+name = 'balsa'
+
+homepage = 'https://pawsa.fedorapeople.org/balsa'
+
+[[package]]
+channel = 'arch'
+name = 'balsa'
+
+[[package]]
+channel = 'debian'
+name = 'balsa'

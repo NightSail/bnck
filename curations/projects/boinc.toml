@@ -1,0 +1,32 @@
+id = 'boinc'
+name = 'boinc'
+
+homepage = 'https://boinc.berkeley.edu'
+
+[[package]]
+channel = 'arch'
+name = 'boinc'
+
+[[package]]
+channel = 'arch'
+name = 'boinc-nox'
+
+[[package]]
+channel = 'debian'
+name = 'boinc-client'
+
+[[package]]
+channel = 'debian'
+name = 'boinc-manager'
+
+[[package]]
+channel = 'debian'
+name = 'boinc-screensaver'
+
+[[package]]
+channel = 'fedora'
+name = 'boinc-client'
+
+[[package]]
+channel = 'fedora'
+name = 'boinc-manager'

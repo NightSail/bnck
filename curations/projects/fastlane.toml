@@ -1,0 +1,9 @@
+id = 'fastlane'
+name = 'fastlane'
+
+homepage = 'https://fastlane.tools'
+repository = 'https://github.com/fastlane/fastlane.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastlane'

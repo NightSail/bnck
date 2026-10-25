@@ -1,0 +1,8 @@
+id = 'lockrun'
+name = 'lockrun'
+
+homepage = 'http://unixwiz.net/tools/lockrun.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lockrun'

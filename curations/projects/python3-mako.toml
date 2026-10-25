@@ -1,0 +1,12 @@
+id = 'python3-mako'
+name = 'python3-mako'
+
+homepage = 'https://www.makotemplates.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mako'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mako'

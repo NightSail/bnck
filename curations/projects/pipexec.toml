@@ -1,0 +1,8 @@
+id = 'pipexec'
+name = 'pipexec'
+
+homepage = 'https://github.com/flonatel/pipexec'
+
+[[package]]
+channel = 'debian'
+name = 'pipexec'

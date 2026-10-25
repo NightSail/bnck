@@ -1,0 +1,8 @@
+id = 'scalasca'
+name = 'scalasca'
+
+homepage = 'http://www.scalasca.org'
+
+[[package]]
+channel = 'fedora'
+name = 'scalasca'

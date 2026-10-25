@@ -1,0 +1,16 @@
+id = 'swaylock'
+name = 'swaylock'
+
+homepage = 'https://github.com/swaywm/swaylock'
+
+[[package]]
+channel = 'arch'
+name = 'swaylock'
+
+[[package]]
+channel = 'debian'
+name = 'swaylock'
+
+[[package]]
+channel = 'fedora'
+name = 'swaylock'

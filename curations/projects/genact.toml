@@ -1,0 +1,12 @@
+id = 'genact'
+name = 'genact'
+
+homepage = 'https://svenstaro.github.io/genact'
+
+[[package]]
+channel = 'arch'
+name = 'genact'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/genact'

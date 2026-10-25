@@ -1,0 +1,12 @@
+id = 'git-pages-cli'
+name = 'git-pages-cli'
+
+repository = 'https://codeberg.org/git-pages/git-pages-cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'git-pages-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-pages-cli'

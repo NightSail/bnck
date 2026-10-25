@@ -1,0 +1,20 @@
+id = 'simple-scan'
+name = 'simple-scan'
+
+homepage = 'https://gitlab.gnome.org/GNOME/simple-scan'
+
+[[package]]
+channel = 'arch'
+name = 'simple-scan'
+
+[[package]]
+channel = 'debian'
+name = 'simple-scan'
+
+[[package]]
+channel = 'fedora'
+name = 'simple-scan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/simple-scan'

@@ -1,0 +1,44 @@
+id = 'gluster'
+name = 'gluster'
+
+homepage = 'https://www.gluster.org'
+
+[[package]]
+channel = 'arch'
+name = 'glusterfs'
+
+[[package]]
+channel = 'debian'
+name = 'glusterfs-cli'
+
+[[package]]
+channel = 'debian'
+name = 'glusterfs-client'
+
+[[package]]
+channel = 'debian'
+name = 'glusterfs-common'
+
+[[package]]
+channel = 'debian'
+name = 'glusterfs-server'
+
+[[package]]
+channel = 'fedora'
+name = 'glusterfs-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'glusterfs-events'
+
+[[package]]
+channel = 'fedora'
+name = 'glusterfs-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'glusterfs-geo-replication'
+
+[[package]]
+channel = 'fedora'
+name = 'glusterfs-server'

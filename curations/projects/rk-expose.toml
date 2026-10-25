@@ -1,0 +1,8 @@
+id = 'rk-expose'
+name = 'rk-expose'
+
+homepage = 'https://codeberg.org/hillu/rk-expose'
+
+[[package]]
+channel = 'arch'
+name = 'rk-expose'

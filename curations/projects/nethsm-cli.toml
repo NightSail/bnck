@@ -1,0 +1,8 @@
+id = 'nethsm-cli'
+name = 'nethsm-cli'
+
+homepage = 'https://signstar.archlinux.page/nethsm-cli'
+
+[[package]]
+channel = 'arch'
+name = 'nethsm-cli'

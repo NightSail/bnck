@@ -1,0 +1,8 @@
+id = 'xorg-xkbutils'
+name = 'xorg-xkbutils'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xkbutils'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xkbutils'

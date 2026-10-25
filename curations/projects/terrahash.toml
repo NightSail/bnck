@@ -1,0 +1,8 @@
+id = 'terrahash'
+name = 'terrahash'
+
+repository = 'https://github.com/ned1313/terrahash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terrahash'

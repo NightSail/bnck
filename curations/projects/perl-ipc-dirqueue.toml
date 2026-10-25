@@ -1,0 +1,8 @@
+id = 'perl-ipc-dirqueue'
+name = 'perl-IPC-DirQueue'
+
+homepage = 'https://metacpan.org/release/IPC-DirQueue'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-IPC-DirQueue'

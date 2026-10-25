@@ -1,0 +1,9 @@
+id = 'zsxd'
+name = 'zsxd'
+
+homepage = 'https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd'
+repository = 'https://gitlab.com/solarus-games/games/zsxd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zsxd'

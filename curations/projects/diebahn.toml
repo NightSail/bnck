@@ -1,0 +1,12 @@
+id = 'diebahn'
+name = 'DieBahn'
+
+homepage = 'https://apps.gnome.org/DieBahn'
+
+[[package]]
+channel = 'arch'
+name = 'railway'
+
+[[package]]
+channel = 'debian'
+name = 'railway-gtk'

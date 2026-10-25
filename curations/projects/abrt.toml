@@ -1,0 +1,96 @@
+id = 'abrt'
+name = 'abrt'
+
+homepage = 'https://abrt.readthedocs.org'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-addon-ccpp'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-addon-kerneloops'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-addon-pstoreoops'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-addon-upload-watch'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-addon-vmcore'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-addon-xorg'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-atomic'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-dbus'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-plugin-bodhi'
+
+[[package]]
+channel = 'fedora'
+name = 'abrt-tui'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-newt'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-bugzilla'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-kerneloops'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-logger'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-mailx'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-mantisbt'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-reportuploader'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-systemd-journal'
+
+[[package]]
+channel = 'fedora'
+name = 'libreport-plugin-ureport'

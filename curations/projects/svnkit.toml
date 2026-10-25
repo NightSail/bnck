@@ -1,0 +1,8 @@
+id = 'svnkit'
+name = 'svnkit'
+
+homepage = 'https://svnkit.com'
+
+[[package]]
+channel = 'debian'
+name = 'svnkit'

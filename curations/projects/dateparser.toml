@@ -1,0 +1,16 @@
+id = 'dateparser'
+name = 'dateparser'
+
+homepage = 'https://github.com/scrapinghub/dateparser'
+
+[[package]]
+channel = 'arch'
+name = 'python-dateparser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dateparser'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dateparser'

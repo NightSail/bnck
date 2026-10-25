@@ -1,0 +1,8 @@
+id = 'smartypants'
+name = 'smartypants'
+
+homepage = 'https://daringfireball.net/projects/smartypants'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smartypants'

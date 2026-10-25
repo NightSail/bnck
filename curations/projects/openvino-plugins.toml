@@ -1,0 +1,8 @@
+id = 'openvino-plugins'
+name = 'openvino-plugins'
+
+homepage = 'https://github.com/openvinotoolkit/openvino'
+
+[[package]]
+channel = 'fedora'
+name = 'openvino-plugins'

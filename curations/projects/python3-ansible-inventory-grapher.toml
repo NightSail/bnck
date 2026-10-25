@@ -1,0 +1,8 @@
+id = 'python3-ansible-inventory-grapher'
+name = 'python3-ansible-inventory-grapher'
+
+homepage = 'https://github.com/willthames/ansible-inventory-grapher'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ansible-inventory-grapher'

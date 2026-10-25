@@ -1,0 +1,12 @@
+id = 'at'
+name = 'at'
+
+homepage = 'https://salsa.debian.org/debian/at'
+
+[[package]]
+channel = 'arch'
+name = 'at'
+
+[[package]]
+channel = 'fedora'
+name = 'at'

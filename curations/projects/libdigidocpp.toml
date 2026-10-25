@@ -1,0 +1,8 @@
+id = 'libdigidocpp'
+name = 'libdigidocpp'
+
+homepage = 'https://github.com/open-eid/libdigidocpp'
+
+[[package]]
+channel = 'fedora'
+name = 'libdigidocpp'

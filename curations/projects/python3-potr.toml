@@ -1,0 +1,8 @@
+id = 'python3-potr'
+name = 'python3-potr'
+
+homepage = 'https://github.com/python-otr/pure-python-otr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-potr'

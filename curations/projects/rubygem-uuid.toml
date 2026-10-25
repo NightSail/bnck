@@ -1,0 +1,8 @@
+id = 'rubygem-uuid'
+name = 'rubygem-uuid'
+
+homepage = 'http://github.com/assaf/uuid'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-uuid'

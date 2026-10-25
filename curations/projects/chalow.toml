@@ -1,0 +1,8 @@
+id = 'chalow'
+name = 'chalow'
+
+homepage = 'https://chalow.org'
+
+[[package]]
+channel = 'debian'
+name = 'chalow'

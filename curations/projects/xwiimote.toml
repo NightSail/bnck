@@ -1,0 +1,8 @@
+id = 'xwiimote'
+name = 'xwiimote'
+
+homepage = 'https://github.com/xwiimote/xwiimote'
+
+[[package]]
+channel = 'debian'
+name = 'xwiimote'

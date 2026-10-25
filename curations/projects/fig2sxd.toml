@@ -1,0 +1,8 @@
+id = 'fig2sxd'
+name = 'fig2sxd'
+
+homepage = 'https://gitlab.com/acfbuerger/fig2sxd'
+
+[[package]]
+channel = 'debian'
+name = 'fig2sxd'

@@ -1,0 +1,12 @@
+id = 'authenticator'
+name = 'authenticator'
+
+homepage = 'https://apps.gnome.org/Authenticator'
+
+[[package]]
+channel = 'arch'
+name = 'authenticator'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-authenticator'

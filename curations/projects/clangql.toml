@@ -1,0 +1,9 @@
+id = 'clangql'
+name = 'clangql'
+
+homepage = 'https://amrdeveloper.github.io/ClangQL'
+repository = 'https://github.com/AmrDeveloper/ClangQL.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clangql'

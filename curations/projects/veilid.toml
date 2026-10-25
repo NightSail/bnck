@@ -1,0 +1,9 @@
+id = 'veilid'
+name = 'veilid'
+
+homepage = 'https://veilid.com'
+repository = 'https://gitlab.com/veilid/veilid.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/veilid'

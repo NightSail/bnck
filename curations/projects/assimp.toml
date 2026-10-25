@@ -1,0 +1,25 @@
+id = 'assimp'
+name = 'assimp'
+
+homepage = 'https://assimp.org'
+repository = 'https://github.com/assimp/assimp.git'
+
+[[package]]
+channel = 'arch'
+name = 'assimp'
+
+[[package]]
+channel = 'debian'
+name = 'assimp-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'assimp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/assimp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/assimp@5'

@@ -1,0 +1,8 @@
+id = 'python3-sciunit'
+name = 'python3-sciunit'
+
+homepage = 'https://github.com/scidash/sciunit'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sciunit'

@@ -1,0 +1,8 @@
+id = 'yast2-devtools'
+name = 'yast2-devtools'
+
+homepage = 'https://yast.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'yast2-devtools'

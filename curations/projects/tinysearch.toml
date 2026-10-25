@@ -1,0 +1,8 @@
+id = 'tinysearch'
+name = 'tinysearch'
+
+repository = 'https://github.com/tinysearch/tinysearch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinysearch'

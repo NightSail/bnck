@@ -1,0 +1,9 @@
+id = 'clarinet'
+name = 'clarinet'
+
+homepage = 'https://stackslabs.com'
+repository = 'https://github.com/stx-labs/clarinet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clarinet'

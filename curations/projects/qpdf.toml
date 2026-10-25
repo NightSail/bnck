@@ -1,0 +1,20 @@
+id = 'qpdf'
+name = 'qpdf'
+
+homepage = 'https://qpdf.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qpdf'
+
+[[package]]
+channel = 'debian'
+name = 'qpdf'
+
+[[package]]
+channel = 'fedora'
+name = 'qpdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qpdf'

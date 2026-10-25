@@ -1,0 +1,8 @@
+id = 'fileql'
+name = 'fileql'
+
+repository = 'https://github.com/AmrDeveloper/FileQL.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fileql'

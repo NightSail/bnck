@@ -1,0 +1,9 @@
+id = 'apache-pulsar'
+name = 'apache-pulsar'
+
+homepage = 'https://pulsar.apache.org'
+repository = 'https://github.com/apache/pulsar.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-pulsar'

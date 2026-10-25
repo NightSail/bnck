@@ -1,0 +1,13 @@
+id = 'vramsteg'
+name = 'vramsteg'
+
+homepage = 'http://tasktools.org/projects/vramsteg.html'
+repository = 'https://github.com/GothenburgBitFactory/vramsteg.git'
+
+[[package]]
+channel = 'debian'
+name = 'vramsteg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vramsteg'

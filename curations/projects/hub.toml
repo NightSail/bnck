@@ -1,0 +1,17 @@
+id = 'hub'
+name = 'hub'
+
+homepage = 'https://hub.github.com'
+repository = 'https://github.com/mislav/hub.git'
+
+[[package]]
+channel = 'arch'
+name = 'hub'
+
+[[package]]
+channel = 'debian'
+name = 'hub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hub'

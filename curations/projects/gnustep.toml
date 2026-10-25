@@ -1,0 +1,52 @@
+id = 'gnustep'
+name = 'gnustep'
+
+homepage = 'https://www.gnustep.org'
+
+[[package]]
+channel = 'arch'
+name = 'gnustep-base'
+
+[[package]]
+channel = 'arch'
+name = 'gnustep-make'
+
+[[package]]
+channel = 'debian'
+name = 'dbuskit-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-back-common'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-base-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-common'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-gui-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-make'
+
+[[package]]
+channel = 'debian'
+name = 'renaissance-dev-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gnustep-base'
+
+[[package]]
+channel = 'fedora'
+name = 'gnustep-make'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnustep-base'

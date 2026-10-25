@@ -1,0 +1,8 @@
+id = 'abbyy-finereader-pdf'
+name = 'abbyy-finereader-pdf'
+
+homepage = 'https://pdf.abbyy.com/finereader-pdf-for-mac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/abbyy-finereader-pdf'

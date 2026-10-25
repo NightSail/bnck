@@ -1,0 +1,8 @@
+id = 'python3-jpylyzer'
+name = 'python3-jpylyzer'
+
+homepage = 'https://github.com/openpreserve/jpylyzer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jpylyzer'

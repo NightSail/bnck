@@ -1,0 +1,8 @@
+id = 'sergueis-destiny'
+name = 'sergueis-destiny'
+
+homepage = 'http://membres.lycos.fr/agisite/serguei.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'sergueis-destiny'

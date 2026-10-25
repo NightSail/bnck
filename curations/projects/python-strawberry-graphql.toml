@@ -1,0 +1,8 @@
+id = 'python-strawberry-graphql'
+name = 'python-strawberry-graphql'
+
+homepage = 'https://strawberry.rocks'
+
+[[package]]
+channel = 'arch'
+name = 'python-strawberry-graphql'

@@ -1,0 +1,12 @@
+id = 'skychart'
+name = 'skychart'
+
+homepage = 'http://www.ap-i.net/skychart'
+
+[[package]]
+channel = 'fedora'
+name = 'skychart'
+
+[[package]]
+channel = 'fedora'
+name = 'skychart-catgen'

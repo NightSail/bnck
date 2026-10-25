@@ -1,0 +1,8 @@
+id = 'dhcpstarv'
+name = 'dhcpstarv'
+
+homepage = 'http://dhcpstarv.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpstarv'

@@ -1,0 +1,12 @@
+id = 'surf'
+name = 'surf'
+
+homepage = 'https://surf.suckless.org'
+
+[[package]]
+channel = 'debian'
+name = 'surf'
+
+[[package]]
+channel = 'fedora'
+name = 'surf'

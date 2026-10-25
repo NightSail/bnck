@@ -1,0 +1,8 @@
+id = 'markdown-preview'
+name = 'markdown-preview'
+
+homepage = 'https://markdownpreview.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/markdown-preview'

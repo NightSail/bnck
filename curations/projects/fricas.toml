@@ -1,0 +1,12 @@
+id = 'fricas'
+name = 'fricas'
+
+homepage = 'https://fricas.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'fricas'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fricas'

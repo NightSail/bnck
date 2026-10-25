@@ -1,0 +1,8 @@
+id = 'prometheus-wireguard-exporter'
+name = 'prometheus-wireguard-exporter'
+
+homepage = 'https://github.com/MindFlavor/prometheus_wireguard_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-wireguard-exporter'

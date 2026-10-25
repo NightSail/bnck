@@ -1,0 +1,8 @@
+id = 'python3-versioneer'
+name = 'python3-versioneer'
+
+homepage = 'https://github.com/warner/python-versioneer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-versioneer'

@@ -1,0 +1,8 @@
+id = 'minio-mc'
+name = 'minio-mc'
+
+repository = 'https://github.com/minio/mc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minio-mc'

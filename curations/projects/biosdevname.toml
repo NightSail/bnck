@@ -1,0 +1,8 @@
+id = 'biosdevname'
+name = 'biosdevname'
+
+homepage = 'http://linux.dell.com/files/biosdevname'
+
+[[package]]
+channel = 'fedora'
+name = 'biosdevname'

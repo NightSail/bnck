@@ -1,0 +1,16 @@
+id = 'signond'
+name = 'signond'
+
+homepage = 'https://gitlab.com/accounts-sso/signond'
+
+[[package]]
+channel = 'arch'
+name = 'signond'
+
+[[package]]
+channel = 'debian'
+name = 'signond'
+
+[[package]]
+channel = 'fedora'
+name = 'signon'

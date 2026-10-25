@@ -1,0 +1,8 @@
+id = 'lltag'
+name = 'lltag'
+
+homepage = 'http://bgoglin.free.fr/lltag'
+
+[[package]]
+channel = 'debian'
+name = 'lltag'

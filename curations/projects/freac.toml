@@ -1,0 +1,8 @@
+id = 'freac'
+name = 'freac'
+
+homepage = 'https://www.freac.org'
+
+[[package]]
+channel = 'debian'
+name = 'freac'

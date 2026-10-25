@@ -1,0 +1,12 @@
+id = 'xmonad'
+name = 'xmonad'
+
+homepage = 'https://xmonad.org'
+
+[[package]]
+channel = 'arch'
+name = 'xmonad'
+
+[[package]]
+channel = 'debian'
+name = 'xmonad'

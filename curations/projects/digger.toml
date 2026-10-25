@@ -1,0 +1,8 @@
+id = 'digger'
+name = 'digger'
+
+homepage = 'https://github.com/tobagin/digger'
+
+[[package]]
+channel = 'debian'
+name = 'digger'

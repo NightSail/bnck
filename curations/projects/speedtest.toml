@@ -1,0 +1,8 @@
+id = 'speedtest'
+name = 'speedtest'
+
+homepage = 'https://github.com/Ketok4321/speedtest'
+
+[[package]]
+channel = 'fedora'
+name = 'speedtest'

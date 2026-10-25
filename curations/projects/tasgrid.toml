@@ -1,0 +1,8 @@
+id = 'tasgrid'
+name = 'tasgrid'
+
+homepage = 'https://github.com/ORNL/TASMANIAN'
+
+[[package]]
+channel = 'debian'
+name = 'tasgrid'

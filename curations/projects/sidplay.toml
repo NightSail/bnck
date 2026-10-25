@@ -1,0 +1,8 @@
+id = 'sidplay'
+name = 'sidplay'
+
+homepage = 'http://sidplay2.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sidplay'

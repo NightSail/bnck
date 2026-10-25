@@ -1,0 +1,8 @@
+id = 'python-threat9-test-bed'
+name = 'python-threat9-test-bed'
+
+homepage = 'https://github.com/threat9/threat9-test-bed'
+
+[[package]]
+channel = 'arch'
+name = 'python-threat9-test-bed'

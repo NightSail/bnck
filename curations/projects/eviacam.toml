@@ -1,0 +1,6 @@
+id = 'eviacam'
+name = 'eviacam'
+
+[[package]]
+channel = 'debian'
+name = 'eviacam'

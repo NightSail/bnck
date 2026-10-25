@@ -1,0 +1,12 @@
+id = 'hey'
+name = 'hey'
+
+homepage = 'https://github.com/rakyll/hey'
+
+[[package]]
+channel = 'debian'
+name = 'hey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hey'

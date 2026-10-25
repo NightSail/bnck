@@ -1,0 +1,8 @@
+id = 'weasyprint-weasyprint'
+name = 'weasyprint'
+
+homepage = 'https://www.courtbouillon.org/weasyprint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weasyprint'

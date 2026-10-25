@@ -1,0 +1,8 @@
+id = 'media-downloader'
+name = 'media-downloader'
+
+homepage = 'https://github.com/mhogomchungu/media-downloader'
+
+[[package]]
+channel = 'fedora'
+name = 'media-downloader'

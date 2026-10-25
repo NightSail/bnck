@@ -1,0 +1,8 @@
+id = 'pound'
+name = 'pound'
+
+homepage = 'https://github.com/graygnuorg/pound'
+
+[[package]]
+channel = 'debian'
+name = 'pound'

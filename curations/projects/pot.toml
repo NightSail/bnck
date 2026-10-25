@@ -1,0 +1,8 @@
+id = 'pot'
+name = 'pot'
+
+homepage = 'https://pot-app.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/pot'

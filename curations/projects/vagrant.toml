@@ -1,0 +1,12 @@
+id = 'vagrant'
+name = 'vagrant'
+
+homepage = 'https://www.vagrantup.com'
+
+[[package]]
+channel = 'debian'
+name = 'vagrant'
+
+[[package]]
+channel = 'fedora'
+name = 'vagrant'

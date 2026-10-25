@@ -1,0 +1,8 @@
+id = 'pngmeta'
+name = 'pngmeta'
+
+homepage = 'https://pmt.sourceforge.io/pngmeta'
+
+[[package]]
+channel = 'debian'
+name = 'pngmeta'

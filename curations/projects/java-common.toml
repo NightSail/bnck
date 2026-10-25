@@ -1,0 +1,12 @@
+id = 'java-common'
+name = 'java-common'
+
+homepage = 'https://www.archlinux.org/packages/extra/any/java-common'
+
+[[package]]
+channel = 'arch'
+name = 'java-environment-common'
+
+[[package]]
+channel = 'arch'
+name = 'java-runtime-common'

@@ -1,0 +1,8 @@
+id = 'kuickshow'
+name = 'kuickshow'
+
+homepage = 'https://userbase.kde.org/KuickShow'
+
+[[package]]
+channel = 'arch'
+name = 'kuickshow'

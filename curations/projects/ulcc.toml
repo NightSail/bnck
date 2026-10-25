@@ -1,0 +1,8 @@
+id = 'ulcc'
+name = 'ulcc'
+
+homepage = 'https://bitbucket.org/admsasha/ulcc'
+
+[[package]]
+channel = 'debian'
+name = 'ulcc'

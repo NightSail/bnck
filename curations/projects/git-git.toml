@@ -1,0 +1,16 @@
+id = 'git-git'
+name = 'git'
+
+homepage = 'http://git.0pointer.de'
+
+[[package]]
+channel = 'fedora'
+name = 'libatasmart'
+
+[[package]]
+channel = 'fedora'
+name = 'libcanberra'
+
+[[package]]
+channel = 'fedora'
+name = 'libcanberra-gtk3'

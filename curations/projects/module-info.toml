@@ -1,0 +1,12 @@
+id = 'module-info'
+name = 'Module-Info'
+
+homepage = 'https://metacpan.org/release/Module-Info'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-info-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Info'

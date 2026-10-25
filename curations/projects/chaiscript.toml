@@ -1,0 +1,9 @@
+id = 'chaiscript'
+name = 'chaiscript'
+
+homepage = 'https://chaiscript.com'
+repository = 'https://github.com/ChaiScript/ChaiScript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chaiscript'

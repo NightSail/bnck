@@ -1,0 +1,20 @@
+id = 'janus'
+name = 'janus'
+
+homepage = 'https://janus.conf.meetecho.com'
+
+[[package]]
+channel = 'debian'
+name = 'janus'
+
+[[package]]
+channel = 'debian'
+name = 'janus-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'janus'
+
+[[package]]
+channel = 'fedora'
+name = 'janus-tools'

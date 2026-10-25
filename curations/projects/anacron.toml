@@ -1,0 +1,8 @@
+id = 'anacron'
+name = 'anacron'
+
+homepage = 'http://sourceforge.net/projects/anacron'
+
+[[package]]
+channel = 'debian'
+name = 'anacron'

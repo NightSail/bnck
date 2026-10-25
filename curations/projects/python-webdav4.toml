@@ -1,0 +1,8 @@
+id = 'python-webdav4'
+name = 'python-webdav4'
+
+homepage = 'https://skshetry.github.io/webdav4'
+
+[[package]]
+channel = 'arch'
+name = 'python-webdav4'

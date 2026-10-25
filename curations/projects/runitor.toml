@@ -1,0 +1,8 @@
+id = 'runitor'
+name = 'runitor'
+
+repository = 'https://github.com/bdd/runitor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/runitor'

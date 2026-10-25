@@ -1,0 +1,9 @@
+id = 'imgproxy'
+name = 'imgproxy'
+
+homepage = 'https://imgproxy.net'
+repository = 'https://github.com/imgproxy/imgproxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imgproxy'

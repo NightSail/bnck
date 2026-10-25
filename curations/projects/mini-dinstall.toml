@@ -1,0 +1,6 @@
+id = 'mini-dinstall'
+name = 'mini-dinstall'
+
+[[package]]
+channel = 'debian'
+name = 'mini-dinstall'

@@ -1,0 +1,16 @@
+id = 'atftp'
+name = 'atftp'
+
+homepage = 'https://sourceforge.net/projects/atftp'
+
+[[package]]
+channel = 'arch'
+name = 'atftp'
+
+[[package]]
+channel = 'debian'
+name = 'atftp'
+
+[[package]]
+channel = 'debian'
+name = 'atftpd'

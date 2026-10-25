@@ -1,0 +1,12 @@
+id = 'loook'
+name = 'loook'
+
+homepage = 'http://mechtilde.de/Loook'
+
+[[package]]
+channel = 'debian'
+name = 'loook'
+
+[[package]]
+channel = 'fedora'
+name = 'loook'

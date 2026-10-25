@@ -1,0 +1,13 @@
+id = 'python-launcher'
+name = 'python-launcher'
+
+homepage = 'https://crates.io/crates/python-launcher'
+repository = 'https://github.com/brettcannon/python-launcher.git'
+
+[[package]]
+channel = 'fedora'
+name = 'python-launcher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-launcher'

@@ -1,0 +1,64 @@
+id = 'objfw'
+name = 'objfw'
+
+homepage = 'https://objfw.nil.im'
+
+[[package]]
+channel = 'debian'
+name = 'libobjfw1-dev'
+
+[[package]]
+channel = 'debian'
+name = 'ofarc'
+
+[[package]]
+channel = 'debian'
+name = 'ofdns'
+
+[[package]]
+channel = 'debian'
+name = 'ofgctester'
+
+[[package]]
+channel = 'debian'
+name = 'ofhash'
+
+[[package]]
+channel = 'debian'
+name = 'ofhttp'
+
+[[package]]
+channel = 'fedora'
+name = 'libobjfw-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-objfw'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-objfw'
+
+[[package]]
+channel = 'fedora'
+name = 'ofarc'
+
+[[package]]
+channel = 'fedora'
+name = 'ofdns'
+
+[[package]]
+channel = 'fedora'
+name = 'ofgctester'
+
+[[package]]
+channel = 'fedora'
+name = 'ofhash'
+
+[[package]]
+channel = 'fedora'
+name = 'ofhttp'
+
+[[package]]
+channel = 'fedora'
+name = 'ucrt64-objfw'

@@ -1,0 +1,9 @@
+id = 'zerolang'
+name = 'zerolang'
+
+homepage = 'https://zerolang.ai'
+repository = 'https://github.com/vercel-labs/zerolang.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zerolang'

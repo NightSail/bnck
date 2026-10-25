@@ -1,0 +1,8 @@
+id = 'startup-disk'
+name = 'startup-disk'
+
+homepage = 'https://crates.io/crates/startup-disk'
+
+[[package]]
+channel = 'fedora'
+name = 'startup-disk'

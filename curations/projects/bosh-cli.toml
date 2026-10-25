@@ -1,0 +1,9 @@
+id = 'bosh-cli'
+name = 'bosh-cli'
+
+homepage = 'https://bosh.io/docs/cli-v2'
+repository = 'https://github.com/cloudfoundry/bosh-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bosh-cli'

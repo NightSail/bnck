@@ -1,0 +1,12 @@
+id = 'elfkickers'
+name = 'elfkickers'
+
+homepage = 'https://www.muppetlabs.com/~breadbox/software/elfkickers.html'
+
+[[package]]
+channel = 'arch'
+name = 'elfkickers'
+
+[[package]]
+channel = 'debian'
+name = 'elfkickers'

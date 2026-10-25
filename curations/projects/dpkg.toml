@@ -1,0 +1,28 @@
+id = 'dpkg'
+name = 'dpkg'
+
+homepage = 'https://wiki.debian.org/Teams/Dpkg'
+
+[[package]]
+channel = 'debian'
+name = 'dlocate'
+
+[[package]]
+channel = 'debian'
+name = 'dpkg'
+
+[[package]]
+channel = 'debian'
+name = 'dpkg-dev'
+
+[[package]]
+channel = 'debian'
+name = 'dpkg-repack'
+
+[[package]]
+channel = 'debian'
+name = 'dselect'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dpkg'

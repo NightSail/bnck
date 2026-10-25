@@ -1,0 +1,6 @@
+id = 'bootcd'
+name = 'bootcd'
+
+[[package]]
+channel = 'debian'
+name = 'bootcd'

@@ -1,0 +1,12 @@
+id = 'qimgv'
+name = 'qimgv'
+
+homepage = 'https://github.com/easymodo/qimgv'
+
+[[package]]
+channel = 'debian'
+name = 'qimgv'
+
+[[package]]
+channel = 'fedora'
+name = 'qimgv'

@@ -1,0 +1,9 @@
+id = 'kustomizer'
+name = 'kustomizer'
+
+homepage = 'https://kustomizer.dev'
+repository = 'https://github.com/stefanprodan/kustomizer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kustomizer'

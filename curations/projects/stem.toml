@@ -1,0 +1,12 @@
+id = 'stem'
+name = 'stem'
+
+homepage = 'https://stem.torproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-stem'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-stem'

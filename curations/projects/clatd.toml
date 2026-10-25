@@ -1,0 +1,12 @@
+id = 'clatd'
+name = 'clatd'
+
+homepage = 'https://github.com/toreanderson/clatd'
+
+[[package]]
+channel = 'debian'
+name = 'clatd'
+
+[[package]]
+channel = 'fedora'
+name = 'clatd'

@@ -1,0 +1,8 @@
+id = 'guncat'
+name = 'guncat'
+
+homepage = 'https://fbb-git.gitlab.io/guncat'
+
+[[package]]
+channel = 'debian'
+name = 'guncat'

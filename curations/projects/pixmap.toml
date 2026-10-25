@@ -1,0 +1,6 @@
+id = 'pixmap'
+name = 'pixmap'
+
+[[package]]
+channel = 'debian'
+name = 'pixmap'

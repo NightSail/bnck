@@ -1,0 +1,8 @@
+id = 'parla'
+name = 'parla'
+
+homepage = 'https://github.com/trufae/parla'
+
+[[package]]
+channel = 'arch'
+name = 'parla'

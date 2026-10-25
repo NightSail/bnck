@@ -1,0 +1,20 @@
+id = 'clojure'
+name = 'clojure'
+
+homepage = 'https://clojure.org'
+
+[[package]]
+channel = 'arch'
+name = 'clojure'
+
+[[package]]
+channel = 'debian'
+name = 'clojure'
+
+[[package]]
+channel = 'fedora'
+name = 'clojure'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clojure'

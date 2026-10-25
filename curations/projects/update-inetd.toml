@@ -1,0 +1,6 @@
+id = 'update-inetd'
+name = 'update-inetd'
+
+[[package]]
+channel = 'debian'
+name = 'update-inetd'

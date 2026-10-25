@@ -1,0 +1,8 @@
+id = 'python3-tempestconf'
+name = 'python3-tempestconf'
+
+homepage = 'https://opendev.org/openinfra/python-tempestconf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tempestconf'

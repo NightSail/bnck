@@ -1,0 +1,12 @@
+id = 'activemq'
+name = 'activemq'
+
+homepage = 'https://activemq.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'activemq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/activemq'

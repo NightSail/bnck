@@ -1,0 +1,6 @@
+id = 'user-setup'
+name = 'user-setup'
+
+[[package]]
+channel = 'debian'
+name = 'user-setup'

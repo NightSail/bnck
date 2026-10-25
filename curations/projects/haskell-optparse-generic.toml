@@ -1,0 +1,8 @@
+id = 'haskell-optparse-generic'
+name = 'haskell-optparse-generic'
+
+homepage = 'https://github.com/Gabriella439/Haskell-Optparse-Generic-Library'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-optparse-generic'

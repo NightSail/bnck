@@ -1,0 +1,9 @@
+id = 'edgevpn'
+name = 'edgevpn'
+
+homepage = 'https://mudler.github.io/edgevpn'
+repository = 'https://github.com/mudler/edgevpn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/edgevpn'

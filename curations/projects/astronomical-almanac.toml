@@ -1,0 +1,8 @@
+id = 'astronomical-almanac'
+name = 'astronomical-almanac'
+
+homepage = 'http://www.moshier.net'
+
+[[package]]
+channel = 'debian'
+name = 'astronomical-almanac'

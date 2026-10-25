@@ -1,0 +1,12 @@
+id = 'xtermcontrol'
+name = 'xtermcontrol'
+
+homepage = 'https://thrysoee.dk/xtermcontrol'
+
+[[package]]
+channel = 'debian'
+name = 'xtermcontrol'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xtermcontrol'

@@ -1,0 +1,8 @@
+id = 'python3-awscurl'
+name = 'python3-awscurl'
+
+homepage = 'http://github.com/okigan/awscurl'
+
+[[package]]
+channel = 'debian'
+name = 'python3-awscurl'

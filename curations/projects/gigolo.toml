@@ -1,0 +1,16 @@
+id = 'gigolo'
+name = 'gigolo'
+
+homepage = 'https://docs.xfce.org/apps/gigolo/start'
+
+[[package]]
+channel = 'arch'
+name = 'gigolo'
+
+[[package]]
+channel = 'debian'
+name = 'gigolo'
+
+[[package]]
+channel = 'fedora'
+name = 'gigolo'

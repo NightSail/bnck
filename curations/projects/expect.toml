@@ -1,0 +1,24 @@
+id = 'expect'
+name = 'expect'
+
+homepage = 'https://core.tcl-lang.org/expect/index'
+
+[[package]]
+channel = 'arch'
+name = 'expect'
+
+[[package]]
+channel = 'debian'
+name = 'expect'
+
+[[package]]
+channel = 'fedora'
+name = 'expect'
+
+[[package]]
+channel = 'fedora'
+name = 'expectk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/expect'

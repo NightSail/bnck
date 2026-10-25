@@ -1,0 +1,9 @@
+id = 'kubeshark'
+name = 'kubeshark'
+
+homepage = 'https://kubeshark.com'
+repository = 'https://github.com/kubeshark/kubeshark.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubeshark'

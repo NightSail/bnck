@@ -1,0 +1,16 @@
+id = 'setzer'
+name = 'setzer'
+
+homepage = 'https://github.com/cvfosammmm/setzer'
+
+[[package]]
+channel = 'arch'
+name = 'setzer'
+
+[[package]]
+channel = 'debian'
+name = 'setzer'
+
+[[package]]
+channel = 'fedora'
+name = 'setzer'

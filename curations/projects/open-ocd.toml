@@ -1,0 +1,21 @@
+id = 'open-ocd'
+name = 'open-ocd'
+
+homepage = 'https://openocd.org'
+repository = 'https://github.com/openocd-org/openocd.git'
+
+[[package]]
+channel = 'arch'
+name = 'openocd'
+
+[[package]]
+channel = 'debian'
+name = 'openocd'
+
+[[package]]
+channel = 'fedora'
+name = 'openocd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-ocd'

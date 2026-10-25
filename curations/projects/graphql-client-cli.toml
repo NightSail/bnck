@@ -1,0 +1,8 @@
+id = 'graphql-client-cli'
+name = 'graphql-client-cli'
+
+homepage = 'https://github.com/graphql-rust/graphql-client'
+
+[[package]]
+channel = 'arch'
+name = 'graphql-client-cli'

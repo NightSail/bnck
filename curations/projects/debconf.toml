@@ -1,0 +1,18 @@
+id = 'debconf'
+name = 'debconf'
+
+[[package]]
+channel = 'debian'
+name = 'debconf'
+
+[[package]]
+channel = 'debian'
+name = 'debconf-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'debconf'
+
+[[package]]
+channel = 'fedora'
+name = 'debconf-utils'

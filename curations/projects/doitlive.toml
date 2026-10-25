@@ -1,0 +1,9 @@
+id = 'doitlive'
+name = 'doitlive'
+
+homepage = 'https://doitlive.readthedocs.io/en/latest'
+repository = 'https://github.com/sloria/doitlive.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doitlive'

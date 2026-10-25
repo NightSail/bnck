@@ -1,0 +1,9 @@
+id = 'bbot'
+name = 'bbot'
+
+homepage = 'https://www.blacklanternsecurity.com/bbot'
+repository = 'https://github.com/blacklanternsecurity/bbot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bbot'

@@ -1,0 +1,16 @@
+id = 'libportal'
+name = 'libportal'
+
+homepage = 'https://github.com/flatpak/libportal'
+
+[[package]]
+channel = 'debian'
+name = 'libportal-tests-gtk3'
+
+[[package]]
+channel = 'debian'
+name = 'libportal-tests-gtk4'
+
+[[package]]
+channel = 'debian'
+name = 'libportal-tests-qt5'

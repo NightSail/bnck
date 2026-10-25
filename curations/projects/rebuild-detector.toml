@@ -1,0 +1,8 @@
+id = 'rebuild-detector'
+name = 'rebuild-detector'
+
+homepage = 'https://github.com/maximbaz/rebuild-detector'
+
+[[package]]
+channel = 'arch'
+name = 'rebuild-detector'

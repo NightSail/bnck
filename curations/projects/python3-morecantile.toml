@@ -1,0 +1,8 @@
+id = 'python3-morecantile'
+name = 'python3-morecantile'
+
+homepage = 'https://github.com/developmentseed/morecantile'
+
+[[package]]
+channel = 'debian'
+name = 'python3-morecantile'

@@ -1,0 +1,20 @@
+id = 're2c'
+name = 're2c'
+
+homepage = 'https://re2c.org'
+
+[[package]]
+channel = 'arch'
+name = 're2c'
+
+[[package]]
+channel = 'debian'
+name = 're2c'
+
+[[package]]
+channel = 'fedora'
+name = 're2c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/re2c'

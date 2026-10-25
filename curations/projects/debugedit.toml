@@ -1,0 +1,16 @@
+id = 'debugedit'
+name = 'debugedit'
+
+homepage = 'https://sourceware.org/debugedit'
+
+[[package]]
+channel = 'arch'
+name = 'debugedit'
+
+[[package]]
+channel = 'debian'
+name = 'debugedit'
+
+[[package]]
+channel = 'fedora'
+name = 'debugedit'

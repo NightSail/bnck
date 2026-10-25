@@ -1,0 +1,8 @@
+id = 'easygen'
+name = 'easygen'
+
+homepage = 'https://github.com/go-easygen/easygen'
+
+[[package]]
+channel = 'debian'
+name = 'easygen'

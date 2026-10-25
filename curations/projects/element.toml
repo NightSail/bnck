@@ -1,0 +1,8 @@
+id = 'element'
+name = 'element'
+
+homepage = 'https://github.com/kushview/element'
+
+[[package]]
+channel = 'arch'
+name = 'element'

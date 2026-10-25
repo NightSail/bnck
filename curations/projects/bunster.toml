@@ -1,0 +1,9 @@
+id = 'bunster'
+name = 'bunster'
+
+homepage = 'https://bunster.netlify.app'
+repository = 'https://github.com/yassinebenaid/bunster.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bunster'

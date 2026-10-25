@@ -1,0 +1,8 @@
+id = 'controku'
+name = 'controku'
+
+homepage = 'https://github.com/benthetechguy/controku'
+
+[[package]]
+channel = 'debian'
+name = 'controku'

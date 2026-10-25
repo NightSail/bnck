@@ -1,0 +1,8 @@
+id = 'konclude'
+name = 'konclude'
+
+homepage = 'http://www.konclude.com'
+
+[[package]]
+channel = 'debian'
+name = 'konclude'

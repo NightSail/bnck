@@ -1,0 +1,8 @@
+id = 'subuser'
+name = 'subuser'
+
+homepage = 'https://subuser.org'
+
+[[package]]
+channel = 'debian'
+name = 'subuser'

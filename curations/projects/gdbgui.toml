@@ -1,0 +1,8 @@
+id = 'gdbgui'
+name = 'gdbgui'
+
+homepage = 'https://www.gdbgui.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdbgui'

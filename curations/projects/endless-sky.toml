@@ -1,0 +1,12 @@
+id = 'endless-sky'
+name = 'endless-sky'
+
+homepage = 'https://endless-sky.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'endless-sky'
+
+[[package]]
+channel = 'fedora'
+name = 'endless-sky'

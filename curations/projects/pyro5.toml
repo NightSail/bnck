@@ -1,0 +1,12 @@
+id = 'pyro5'
+name = 'pyro5'
+
+homepage = 'https://github.com/irmen/Pyro5'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyro'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyro5'

@@ -1,0 +1,8 @@
+id = 'perl-rename'
+name = 'perl-rename'
+
+homepage = 'https://metacpan.org/dist/App-rename'
+
+[[package]]
+channel = 'arch'
+name = 'perl-rename'

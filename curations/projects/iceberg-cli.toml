@@ -1,0 +1,8 @@
+id = 'iceberg-cli'
+name = 'iceberg-cli'
+
+homepage = 'https://go.iceberg.apache.org/cli.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iceberg-cli'

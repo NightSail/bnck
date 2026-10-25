@@ -1,0 +1,12 @@
+id = 'python3-pyramid'
+name = 'python3-pyramid'
+
+homepage = 'https://trypyramid.com'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyramid'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyramid'

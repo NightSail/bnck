@@ -1,0 +1,12 @@
+id = 'goattracker'
+name = 'goattracker'
+
+homepage = 'https://sourceforge.net/projects/goattracker2'
+
+[[package]]
+channel = 'arch'
+name = 'goattracker'
+
+[[package]]
+channel = 'debian'
+name = 'goattracker'

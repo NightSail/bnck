@@ -1,0 +1,12 @@
+id = 'fbset'
+name = 'fbset'
+
+homepage = 'http://users.telenet.be/geertu/Linux/fbdev'
+
+[[package]]
+channel = 'arch'
+name = 'fbset'
+
+[[package]]
+channel = 'debian'
+name = 'fbset'

@@ -1,0 +1,8 @@
+id = 'inspektor-gadget'
+name = 'inspektor-gadget'
+
+homepage = 'https://github.com/inspektor-gadget/inspektor-gadget'
+
+[[package]]
+channel = 'fedora'
+name = 'inspektor-gadget'

@@ -1,0 +1,13 @@
+id = 'fades'
+name = 'fades'
+
+homepage = 'https://fades.readthedocs.io'
+repository = 'https://github.com/PyAr/fades.git'
+
+[[package]]
+channel = 'debian'
+name = 'fades'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fades'

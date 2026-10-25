@@ -1,0 +1,8 @@
+id = 'serverspec-runner'
+name = 'serverspec-runner'
+
+homepage = 'https://github.com/hiracy/serverspec-runner'
+
+[[package]]
+channel = 'debian'
+name = 'serverspec-runner'

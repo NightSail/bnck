@@ -1,0 +1,12 @@
+id = 'perl-version'
+name = 'Perl-Version'
+
+homepage = 'https://metacpan.org/release/Perl-Version'
+
+[[package]]
+channel = 'debian'
+name = 'libperl-version-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-Version'

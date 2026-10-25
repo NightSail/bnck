@@ -1,0 +1,8 @@
+id = 'ap51-flash'
+name = 'ap51-flash'
+
+homepage = 'https://github.com/ap51-flash/ap51-flash'
+
+[[package]]
+channel = 'debian'
+name = 'ap51-flash'

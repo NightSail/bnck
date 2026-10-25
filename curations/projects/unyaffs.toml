@@ -1,0 +1,12 @@
+id = 'unyaffs'
+name = 'unyaffs'
+
+homepage = 'https://packages.debian.org/sid/unyaffs'
+
+[[package]]
+channel = 'debian'
+name = 'unyaffs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unyaffs'

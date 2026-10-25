@@ -1,0 +1,8 @@
+id = 'virt-firmware-rs'
+name = 'virt-firmware-rs'
+
+homepage = 'https://gitlab.com/kraxel/virt-firmware-rs'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-firmware-rs'

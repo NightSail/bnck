@@ -1,0 +1,8 @@
+id = 'cxxbridge-cmd'
+name = 'cxxbridge-cmd'
+
+homepage = 'https://cxx.rs'
+
+[[package]]
+channel = 'debian'
+name = 'cxxbridge-cmd'

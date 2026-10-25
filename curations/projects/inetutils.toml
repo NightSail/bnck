@@ -1,0 +1,56 @@
+id = 'inetutils'
+name = 'inetutils'
+
+homepage = 'https://www.gnu.org/software/inetutils'
+
+[[package]]
+channel = 'arch'
+name = 'inetutils'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-ftp'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-ftpd'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-inetd'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-ping'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-syslogd'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-talk'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-talkd'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-telnet'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-telnetd'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-tools'
+
+[[package]]
+channel = 'debian'
+name = 'inetutils-traceroute'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inetutils'

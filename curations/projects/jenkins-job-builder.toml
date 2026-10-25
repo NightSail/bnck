@@ -1,0 +1,12 @@
+id = 'jenkins-job-builder'
+name = 'jenkins-job-builder'
+
+homepage = 'https://docs.openstack.org/infra/jenkins-job-builder'
+
+[[package]]
+channel = 'debian'
+name = 'jenkins-job-builder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jenkins-job-builder'

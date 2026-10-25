@@ -1,0 +1,17 @@
+id = 'zydis'
+name = 'zydis'
+
+homepage = 'https://zydis.re'
+repository = 'https://github.com/zyantific/zydis.git'
+
+[[package]]
+channel = 'arch'
+name = 'zydis'
+
+[[package]]
+channel = 'debian'
+name = 'zydis-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zydis'

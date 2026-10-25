@@ -1,0 +1,8 @@
+id = 'python3-biom-format'
+name = 'python3-biom-format'
+
+homepage = 'https://biom-format.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-biom-format'

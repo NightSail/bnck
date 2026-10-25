@@ -1,0 +1,8 @@
+id = 'python3-doc8'
+name = 'python3-doc8'
+
+homepage = 'https://github.com/PyCQA/doc8'
+
+[[package]]
+channel = 'debian'
+name = 'python3-doc8'

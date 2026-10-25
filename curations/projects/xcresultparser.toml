@@ -1,0 +1,8 @@
+id = 'xcresultparser'
+name = 'xcresultparser'
+
+repository = 'https://github.com/a7ex/xcresultparser.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcresultparser'

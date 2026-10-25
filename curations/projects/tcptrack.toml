@@ -1,0 +1,12 @@
+id = 'tcptrack'
+name = 'tcptrack'
+
+homepage = 'https://github.com/bchretien/tcptrack'
+
+[[package]]
+channel = 'debian'
+name = 'tcptrack'
+
+[[package]]
+channel = 'fedora'
+name = 'tcptrack'

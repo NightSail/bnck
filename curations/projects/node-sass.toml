@@ -1,0 +1,8 @@
+id = 'node-sass'
+name = 'node-sass'
+
+homepage = 'https://github.com/sass/dart-sass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/node-sass'

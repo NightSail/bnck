@@ -1,0 +1,6 @@
+id = 'bsd-mailx'
+name = 'bsd-mailx'
+
+[[package]]
+channel = 'debian'
+name = 'bsd-mailx'

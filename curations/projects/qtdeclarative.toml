@@ -1,0 +1,9 @@
+id = 'qtdeclarative'
+name = 'qtdeclarative'
+
+homepage = 'https://www.qt.io'
+repository = 'https://code.qt.io/qt/qtdeclarative.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qtdeclarative'

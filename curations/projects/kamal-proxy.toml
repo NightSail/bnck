@@ -1,0 +1,9 @@
+id = 'kamal-proxy'
+name = 'kamal-proxy'
+
+homepage = 'https://kamal-deploy.org'
+repository = 'https://github.com/basecamp/kamal-proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kamal-proxy'

@@ -1,0 +1,16 @@
+id = 'fpart'
+name = 'fpart'
+
+homepage = 'https://fpart.org'
+
+[[package]]
+channel = 'debian'
+name = 'fpart'
+
+[[package]]
+channel = 'fedora'
+name = 'fpart'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fpart'

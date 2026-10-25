@@ -1,0 +1,8 @@
+id = 'bruno-cli'
+name = 'bruno-cli'
+
+homepage = 'https://www.usebruno.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bruno-cli'

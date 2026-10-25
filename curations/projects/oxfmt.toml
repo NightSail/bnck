@@ -1,0 +1,8 @@
+id = 'oxfmt'
+name = 'oxfmt'
+
+homepage = 'https://oxc.rs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oxfmt'

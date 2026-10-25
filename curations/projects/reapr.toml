@@ -1,0 +1,8 @@
+id = 'reapr'
+name = 'reapr'
+
+homepage = 'https://www.sanger.ac.uk/science/tools/reapr'
+
+[[package]]
+channel = 'debian'
+name = 'reapr'

@@ -1,0 +1,8 @@
+id = 'python3-ovn-octavia-provider'
+name = 'python3-ovn-octavia-provider'
+
+homepage = 'https://opendev.org/openstack/ovn-octavia-provider'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ovn-octavia-provider'

@@ -1,0 +1,8 @@
+id = 'nfstrace'
+name = 'nfstrace'
+
+homepage = 'https://github.com/epam/nfstrace'
+
+[[package]]
+channel = 'debian'
+name = 'nfstrace'

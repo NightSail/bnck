@@ -1,0 +1,8 @@
+id = 'libais-tools'
+name = 'libais-tools'
+
+homepage = 'https://github.com/schwehr/libais'
+
+[[package]]
+channel = 'debian'
+name = 'libais-tools'

@@ -1,0 +1,37 @@
+id = 'gnuplot'
+name = 'gnuplot'
+
+homepage = 'http://www.gnuplot.info'
+repository = 'https://git.code.sf.net/p/gnuplot/gnuplot-main.git'
+
+[[package]]
+channel = 'arch'
+name = 'gnuplot'
+
+[[package]]
+channel = 'debian'
+name = 'gnuplot-nox'
+
+[[package]]
+channel = 'debian'
+name = 'gnuplot-qt'
+
+[[package]]
+channel = 'debian'
+name = 'gnuplot-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'gnuplot'
+
+[[package]]
+channel = 'fedora'
+name = 'gnuplot-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'gnuplot-wx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnuplot'

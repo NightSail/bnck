@@ -1,0 +1,8 @@
+id = 'qemubuilder'
+name = 'qemubuilder'
+
+homepage = 'https://wiki.debian.org/qemubuilder'
+
+[[package]]
+channel = 'debian'
+name = 'qemubuilder'

@@ -1,0 +1,29 @@
+id = 'redis'
+name = 'redis'
+
+homepage = 'https://redis.io'
+repository = 'https://github.com/redis/redis.git'
+
+[[package]]
+channel = 'debian'
+name = 'redis-sentinel'
+
+[[package]]
+channel = 'debian'
+name = 'redis-server'
+
+[[package]]
+channel = 'debian'
+name = 'redis-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redis@6.2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redis@8.2'

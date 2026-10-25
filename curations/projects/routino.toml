@@ -1,0 +1,16 @@
+id = 'routino'
+name = 'routino'
+
+homepage = 'https://www.routino.org'
+
+[[package]]
+channel = 'arch'
+name = 'routino'
+
+[[package]]
+channel = 'debian'
+name = 'routino'
+
+[[package]]
+channel = 'fedora'
+name = 'routino'

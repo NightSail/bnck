@@ -1,0 +1,8 @@
+id = 'iannix'
+name = 'iannix'
+
+homepage = 'https://iannix.org'
+
+[[package]]
+channel = 'debian'
+name = 'iannix'

@@ -1,0 +1,8 @@
+id = 'iina'
+name = 'iina'
+
+homepage = 'https://iina.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/iina'

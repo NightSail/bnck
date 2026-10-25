@@ -1,0 +1,20 @@
+id = 'cmark'
+name = 'cmark'
+
+homepage = 'https://commonmark.org'
+
+[[package]]
+channel = 'arch'
+name = 'cmark'
+
+[[package]]
+channel = 'debian'
+name = 'cmark'
+
+[[package]]
+channel = 'fedora'
+name = 'cmark'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmark'

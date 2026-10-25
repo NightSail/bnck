@@ -1,0 +1,21 @@
+id = 'memcached'
+name = 'memcached'
+
+homepage = 'https://memcached.org'
+repository = 'https://github.com/memcached/memcached.git'
+
+[[package]]
+channel = 'arch'
+name = 'memcached'
+
+[[package]]
+channel = 'debian'
+name = 'memcached'
+
+[[package]]
+channel = 'fedora'
+name = 'memcached'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/memcached'

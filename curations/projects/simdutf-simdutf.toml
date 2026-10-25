@@ -1,0 +1,9 @@
+id = 'simdutf-simdutf'
+name = 'simdutf'
+
+homepage = 'https://simdutf.github.io/simdutf'
+repository = 'https://github.com/simdutf/simdutf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/simdutf'

@@ -1,0 +1,16 @@
+id = 'direwolf'
+name = 'direwolf'
+
+repository = 'https://github.com/wb2osz/direwolf.git'
+
+[[package]]
+channel = 'debian'
+name = 'direwolf'
+
+[[package]]
+channel = 'fedora'
+name = 'direwolf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/direwolf'

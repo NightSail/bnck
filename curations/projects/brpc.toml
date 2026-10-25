@@ -1,0 +1,9 @@
+id = 'brpc'
+name = 'brpc'
+
+homepage = 'https://brpc.apache.org'
+repository = 'https://github.com/apache/brpc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brpc'

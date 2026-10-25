@@ -1,0 +1,9 @@
+id = 'cxgo'
+name = 'cxgo'
+
+homepage = 'https://gotranspile.dev'
+repository = 'https://github.com/gotranspile/cxgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cxgo'

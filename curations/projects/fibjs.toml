@@ -1,0 +1,9 @@
+id = 'fibjs'
+name = 'fibjs'
+
+homepage = 'https://fibjs.org'
+repository = 'https://github.com/fibjs/fibjs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fibjs'

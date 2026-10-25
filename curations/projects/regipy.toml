@@ -1,0 +1,8 @@
+id = 'regipy'
+name = 'regipy'
+
+repository = 'https://github.com/mkorman90/regipy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regipy'

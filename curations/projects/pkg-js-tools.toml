@@ -1,0 +1,12 @@
+id = 'pkg-js-tools'
+name = 'pkg-js-tools'
+
+homepage = 'https://salsa.debian.org/js-team/pkg-js-tools'
+
+[[package]]
+channel = 'debian'
+name = 'dh-nodejs'
+
+[[package]]
+channel = 'debian'
+name = 'pkg-js-tools'

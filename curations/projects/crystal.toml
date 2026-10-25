@@ -1,0 +1,9 @@
+id = 'crystal'
+name = 'crystal'
+
+homepage = 'https://crystal-lang.org'
+repository = 'https://github.com/crystal-lang/crystal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crystal'

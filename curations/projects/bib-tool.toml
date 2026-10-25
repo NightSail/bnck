@@ -1,0 +1,20 @@
+id = 'bib-tool'
+name = 'bib-tool'
+
+homepage = 'https://www.gerd-neugebauer.de/software/TeX/BibTool/en'
+
+[[package]]
+channel = 'arch'
+name = 'bibtool'
+
+[[package]]
+channel = 'debian'
+name = 'bibtool'
+
+[[package]]
+channel = 'fedora'
+name = 'BibTool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bib-tool'

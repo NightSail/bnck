@@ -1,0 +1,8 @@
+id = 'monitord-exporter'
+name = 'monitord-exporter'
+
+homepage = 'https://crates.io/crates/monitord-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'monitord-exporter'

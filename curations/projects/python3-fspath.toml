@@ -1,0 +1,8 @@
+id = 'python3-fspath'
+name = 'python3-fspath'
+
+homepage = 'http://return42.github.io/fspath'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fspath'

@@ -1,0 +1,8 @@
+id = 'snyk-cli'
+name = 'snyk-cli'
+
+homepage = 'https://snyk.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snyk-cli'

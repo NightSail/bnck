@@ -1,0 +1,25 @@
+id = 'nghttp2'
+name = 'nghttp2'
+
+homepage = 'https://nghttp2.org'
+repository = 'https://github.com/nghttp2/nghttp2.git'
+
+[[package]]
+channel = 'debian'
+name = 'nghttp2-client'
+
+[[package]]
+channel = 'debian'
+name = 'nghttp2-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'nghttp2-server'
+
+[[package]]
+channel = 'fedora'
+name = 'nghttp2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nghttp2'

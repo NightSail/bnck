@@ -1,0 +1,12 @@
+id = 'smartypants-py'
+name = 'smartypants.py'
+
+homepage = 'https://github.com/justinmayer/smartypants.py'
+
+[[package]]
+channel = 'arch'
+name = 'python-smartypants'
+
+[[package]]
+channel = 'debian'
+name = 'python3-smartypants'

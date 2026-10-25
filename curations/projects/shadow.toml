@@ -1,0 +1,24 @@
+id = 'shadow'
+name = 'shadow'
+
+homepage = 'https://github.com/shadow-maint/shadow'
+
+[[package]]
+channel = 'arch'
+name = 'shadow'
+
+[[package]]
+channel = 'debian'
+name = 'passwd'
+
+[[package]]
+channel = 'debian'
+name = 'uidmap'
+
+[[package]]
+channel = 'fedora'
+name = 'shadow-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'shadow-utils-subid'

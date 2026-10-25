@@ -1,0 +1,8 @@
+id = 'oxigraph'
+name = 'oxigraph'
+
+homepage = 'https://github.com/oxigraph/oxigraph'
+
+[[package]]
+channel = 'debian'
+name = 'oxigraph'

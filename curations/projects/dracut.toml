@@ -6,3 +6,7 @@ homepage = 'https://github.com/dracut-ng/dracut-ng'
 [[package]]
 channel = 'arch'
 name = 'dracut'
+
+[[package]]
+channel = 'debian'
+name = 'dracut'

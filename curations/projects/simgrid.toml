@@ -1,0 +1,12 @@
+id = 'simgrid'
+name = 'simgrid'
+
+homepage = 'https://simgrid.org'
+
+[[package]]
+channel = 'debian'
+name = 'libsimgrid-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/simgrid'

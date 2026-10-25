@@ -1,0 +1,8 @@
+id = 'sim4'
+name = 'sim4'
+
+homepage = 'https://globin.bx.psu.edu/html/docs/sim4.html'
+
+[[package]]
+channel = 'debian'
+name = 'sim4'

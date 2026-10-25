@@ -1,0 +1,8 @@
+id = 'python3-alarmdecoder'
+name = 'python3-alarmdecoder'
+
+homepage = 'http://github.com/nutechsoftware/alarmdecoder'
+
+[[package]]
+channel = 'debian'
+name = 'python3-alarmdecoder'

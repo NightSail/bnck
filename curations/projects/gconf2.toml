@@ -1,0 +1,8 @@
+id = 'gconf2'
+name = 'GConf2'
+
+homepage = 'https://gitlab.gnome.org/Archive/gconf'
+
+[[package]]
+channel = 'fedora'
+name = 'GConf2'

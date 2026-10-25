@@ -1,0 +1,9 @@
+id = 'cmu-pocketsphinx'
+name = 'cmu-pocketsphinx'
+
+homepage = 'https://cmusphinx.github.io'
+repository = 'https://github.com/cmusphinx/pocketsphinx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmu-pocketsphinx'

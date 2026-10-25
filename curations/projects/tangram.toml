@@ -1,0 +1,8 @@
+id = 'tangram'
+name = 'tangram'
+
+homepage = 'https://apps.gnome.org/Tangram'
+
+[[package]]
+channel = 'arch'
+name = 'tangram'

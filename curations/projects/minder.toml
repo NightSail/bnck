@@ -1,0 +1,21 @@
+id = 'minder'
+name = 'minder'
+
+homepage = 'https://github.com/phase1geo/Minder'
+repository = 'https://github.com/mindersec/minder.git'
+
+[[package]]
+channel = 'arch'
+name = 'minder'
+
+[[package]]
+channel = 'debian'
+name = 'minder'
+
+[[package]]
+channel = 'fedora'
+name = 'minder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minder'

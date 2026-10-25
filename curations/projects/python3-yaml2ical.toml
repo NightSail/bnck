@@ -1,0 +1,8 @@
+id = 'python3-yaml2ical'
+name = 'python3-yaml2ical'
+
+homepage = 'https://opendev.org/opendev/yaml2ical'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-yaml2ical'

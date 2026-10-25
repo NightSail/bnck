@@ -1,0 +1,28 @@
+id = 'aalib'
+name = 'aalib'
+
+homepage = 'https://aa-project.sourceforge.net/aalib'
+
+[[package]]
+channel = 'arch'
+name = 'aalib'
+
+[[package]]
+channel = 'debian'
+name = 'libaa-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libaa1-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'aalib'
+
+[[package]]
+channel = 'fedora'
+name = 'aalib-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aalib'

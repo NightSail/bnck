@@ -1,0 +1,12 @@
+id = 'cargo-depgraph'
+name = 'cargo-depgraph'
+
+homepage = 'https://sr.ht/~jplatte/cargo-depgraph'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-depgraph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-depgraph'

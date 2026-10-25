@@ -1,0 +1,8 @@
+id = 'rgf'
+name = 'rgf'
+
+homepage = 'https://github.com/RGF-team/rgf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rgf'

@@ -1,0 +1,8 @@
+id = 'mmc'
+name = 'mmc'
+
+homepage = 'http://mcx.space/mmc'
+
+[[package]]
+channel = 'fedora'
+name = 'mmc'

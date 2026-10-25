@@ -1,0 +1,8 @@
+id = 'hyperestraier-hyperestraier'
+name = 'hyperestraier'
+
+homepage = 'https://dbmx.net/hyperestraier'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hyperestraier'

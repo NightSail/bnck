@@ -1,0 +1,6 @@
+id = 'kdump-tools'
+name = 'kdump-tools'
+
+[[package]]
+channel = 'debian'
+name = 'kdump-tools'

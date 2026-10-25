@@ -1,0 +1,13 @@
+id = 'epics-base'
+name = 'epics-base'
+
+homepage = 'https://epics-controls.org'
+repository = 'https://github.com/epics-base/epics-base.git'
+
+[[package]]
+channel = 'debian'
+name = 'epics-base'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epics-base'

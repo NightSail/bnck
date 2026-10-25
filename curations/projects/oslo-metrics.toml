@@ -1,0 +1,12 @@
+id = 'oslo-metrics'
+name = 'oslo.metrics'
+
+homepage = 'https://opendev.org/openstack/oslo.metrics'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslo.metrics'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-oslo-metrics'

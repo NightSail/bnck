@@ -1,0 +1,8 @@
+id = 'haskell-constraints-extras'
+name = 'haskell-constraints-extras'
+
+homepage = 'https://github.com/obsidiansystems/constraints-extras'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-constraints-extras'

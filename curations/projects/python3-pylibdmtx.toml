@@ -1,0 +1,8 @@
+id = 'python3-pylibdmtx'
+name = 'python3-pylibdmtx'
+
+homepage = 'https://github.com/NaturalHistoryMuseum/pylibdmtx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pylibdmtx'

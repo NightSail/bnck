@@ -1,0 +1,16 @@
+id = 'projecteur'
+name = 'projecteur'
+
+homepage = 'https://github.com/jahnf/Projecteur'
+
+[[package]]
+channel = 'debian'
+name = 'projecteur'
+
+[[package]]
+channel = 'debian'
+name = 'projecteur-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'projecteur'

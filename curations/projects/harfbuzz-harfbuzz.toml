@@ -1,0 +1,8 @@
+id = 'harfbuzz-harfbuzz'
+name = 'harfbuzz'
+
+repository = 'https://github.com/harfbuzz/harfbuzz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/harfbuzz'

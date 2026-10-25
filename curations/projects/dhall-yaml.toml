@@ -1,0 +1,8 @@
+id = 'dhall-yaml'
+name = 'dhall-yaml'
+
+homepage = 'https://github.com/dhall-lang/dhall-haskell/tree/master/dhall-yaml'
+
+[[package]]
+channel = 'arch'
+name = 'dhall-yaml'

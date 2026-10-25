@@ -1,0 +1,8 @@
+id = 'switcheroo'
+name = 'switcheroo'
+
+homepage = 'https://apps.gnome.org/Converter'
+
+[[package]]
+channel = 'arch'
+name = 'switcheroo'

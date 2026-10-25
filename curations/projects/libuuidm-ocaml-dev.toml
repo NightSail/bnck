@@ -1,0 +1,8 @@
+id = 'libuuidm-ocaml-dev'
+name = 'libuuidm-ocaml-dev'
+
+homepage = 'http://erratique.ch/software/uuidm'
+
+[[package]]
+channel = 'debian'
+name = 'libuuidm-ocaml-dev'

@@ -1,0 +1,6 @@
+id = 'newpid'
+name = 'newpid'
+
+[[package]]
+channel = 'debian'
+name = 'newpid'

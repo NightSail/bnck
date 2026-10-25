@@ -1,0 +1,12 @@
+id = 'locale-maketext-gettext'
+name = 'Locale-Maketext-Gettext'
+
+homepage = 'https://metacpan.org/release/Locale-Maketext-Gettext'
+
+[[package]]
+channel = 'debian'
+name = 'liblocale-maketext-gettext-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Locale-Maketext-Gettext'

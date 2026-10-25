@@ -1,0 +1,8 @@
+id = 'perl-xml-libxml-prettyprint'
+name = 'perl-XML-LibXML-PrettyPrint'
+
+homepage = 'https://metacpan.org/release/XML-LibXML-PrettyPrint'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-LibXML-PrettyPrint'

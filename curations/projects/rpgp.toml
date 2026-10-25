@@ -1,0 +1,8 @@
+id = 'rpgp'
+name = 'rpgp'
+
+homepage = 'https://codeberg.org/heiko/rpgpie'
+
+[[package]]
+channel = 'arch'
+name = 'rpgp'

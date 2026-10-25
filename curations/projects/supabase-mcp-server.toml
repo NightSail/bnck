@@ -1,0 +1,8 @@
+id = 'supabase-mcp-server'
+name = 'supabase-mcp-server'
+
+homepage = 'https://supabase.com/docs/guides/getting-started/mcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/supabase-mcp-server'

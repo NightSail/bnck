@@ -1,0 +1,8 @@
+id = 'swift-outdated'
+name = 'swift-outdated'
+
+repository = 'https://github.com/kiliankoe/swift-outdated.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swift-outdated'

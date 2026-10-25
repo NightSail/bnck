@@ -16,6 +16,10 @@ channel = 'debian'
 name = 'links'
 
 [[package]]
+channel = 'debian'
+name = 'links2'
+
+[[package]]
 channel = 'fedora'
 name = 'links'
 

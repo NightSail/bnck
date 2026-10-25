@@ -1,0 +1,12 @@
+id = 'ettercap-project'
+name = 'ettercap-project'
+
+homepage = 'https://www.ettercap-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'ettercap'
+
+[[package]]
+channel = 'arch'
+name = 'ettercap-gtk'

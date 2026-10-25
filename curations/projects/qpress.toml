@@ -1,0 +1,8 @@
+id = 'qpress'
+name = 'qpress'
+
+homepage = 'https://www.quicklz.com'
+
+[[package]]
+channel = 'fedora'
+name = 'qpress'

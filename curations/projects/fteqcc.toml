@@ -1,0 +1,8 @@
+id = 'fteqcc'
+name = 'fteqcc'
+
+homepage = 'http://fteqw.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fteqcc'

@@ -1,0 +1,8 @@
+id = 'unicode'
+name = 'unicode'
+
+homepage = 'http://kassiopeia.juls.savba.sk/~garabik/software/unicode.html'
+
+[[package]]
+channel = 'debian'
+name = 'unicode'

@@ -1,0 +1,8 @@
+id = 'nwg-menu'
+name = 'nwg-menu'
+
+homepage = 'https://github.com/nwg-piotr/nwg-menu'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-menu'

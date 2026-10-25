@@ -1,0 +1,8 @@
+id = 'icp-cli'
+name = 'icp-cli'
+
+homepage = 'https://dfinity.github.io/icp-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icp-cli'

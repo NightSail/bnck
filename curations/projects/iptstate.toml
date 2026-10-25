@@ -1,0 +1,16 @@
+id = 'iptstate'
+name = 'iptstate'
+
+homepage = 'https://www.phildev.net/iptstate'
+
+[[package]]
+channel = 'arch'
+name = 'iptstate'
+
+[[package]]
+channel = 'debian'
+name = 'iptstate'
+
+[[package]]
+channel = 'fedora'
+name = 'iptstate'

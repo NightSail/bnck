@@ -1,0 +1,8 @@
+id = 'sane'
+name = 'sane'
+
+homepage = 'https://gitlab.com/sane-project/backends'
+
+[[package]]
+channel = 'arch'
+name = 'sane'

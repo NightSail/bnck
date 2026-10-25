@@ -1,0 +1,12 @@
+id = 'tmuxinator'
+name = 'tmuxinator'
+
+repository = 'https://github.com/tmuxinator/tmuxinator.git'
+
+[[package]]
+channel = 'debian'
+name = 'tmuxinator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmuxinator'

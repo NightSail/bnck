@@ -1,0 +1,8 @@
+id = 'mono-zeroconf'
+name = 'mono-zeroconf'
+
+homepage = 'http://banshee-project.org/files/mono-zeroconf'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-zeroconf'

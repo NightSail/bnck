@@ -1,0 +1,8 @@
+id = 'nmodl'
+name = 'nmodl'
+
+homepage = 'https://github.com/BlueBrain/nmodl'
+
+[[package]]
+channel = 'debian'
+name = 'nmodl'

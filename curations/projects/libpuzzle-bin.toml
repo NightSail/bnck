@@ -1,0 +1,8 @@
+id = 'libpuzzle-bin'
+name = 'libpuzzle-bin'
+
+homepage = 'https://github.com/jedisct1/libpuzzle'
+
+[[package]]
+channel = 'debian'
+name = 'libpuzzle-bin'

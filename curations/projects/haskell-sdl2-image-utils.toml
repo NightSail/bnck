@@ -1,0 +1,8 @@
+id = 'haskell-sdl2-image-utils'
+name = 'haskell-sdl2-image-utils'
+
+homepage = 'https://hackage.haskell.org/package/sdl2-image'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-sdl2-image-utils'

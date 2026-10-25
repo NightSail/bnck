@@ -1,0 +1,8 @@
+id = 'parafly'
+name = 'parafly'
+
+homepage = 'https://github.com/ParaFly/ParaFly'
+
+[[package]]
+channel = 'debian'
+name = 'parafly'

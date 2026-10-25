@@ -1,0 +1,8 @@
+id = 'fw'
+name = 'fw'
+
+homepage = 'https://github.com/brocode/fw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fw'

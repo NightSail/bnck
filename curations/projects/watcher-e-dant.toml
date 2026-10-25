@@ -1,0 +1,8 @@
+id = 'watcher-e-dant'
+name = 'watcher'
+
+repository = 'https://github.com/e-dant/watcher.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/watcher'

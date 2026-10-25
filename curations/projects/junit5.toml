@@ -1,0 +1,8 @@
+id = 'junit5'
+name = 'junit5'
+
+homepage = 'https://junit.org/junit5'
+
+[[package]]
+channel = 'fedora'
+name = 'junit5'

@@ -1,0 +1,8 @@
+id = 'python3-spyking-circus'
+name = 'python3-spyking-circus'
+
+homepage = 'https://github.com/spyking-circus/spyking-circus'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-spyking-circus'

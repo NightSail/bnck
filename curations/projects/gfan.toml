@@ -1,0 +1,16 @@
+id = 'gfan'
+name = 'gfan'
+
+homepage = 'https://users-math.au.dk/jensen/software/gfan/gfan.html'
+
+[[package]]
+channel = 'arch'
+name = 'gfan'
+
+[[package]]
+channel = 'debian'
+name = 'gfan'
+
+[[package]]
+channel = 'fedora'
+name = 'gfan'

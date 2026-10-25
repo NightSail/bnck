@@ -1,0 +1,8 @@
+id = 'sidekick'
+name = 'sidekick'
+
+homepage = 'https://github.com/MightyMoud/sidekick'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sidekick'

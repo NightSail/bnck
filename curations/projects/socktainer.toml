@@ -1,0 +1,9 @@
+id = 'socktainer'
+name = 'socktainer'
+
+homepage = 'https://socktainer.github.io'
+repository = 'https://github.com/socktainer/socktainer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/socktainer'

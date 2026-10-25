@@ -1,0 +1,8 @@
+id = 'haskell-xcffib'
+name = 'haskell-xcffib'
+
+homepage = 'https://github.com/tych0/xcffib'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-xcffib'

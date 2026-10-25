@@ -1,0 +1,8 @@
+id = 'embulk'
+name = 'embulk'
+
+homepage = 'https://www.embulk.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/embulk'

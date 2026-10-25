@@ -1,0 +1,12 @@
+id = 'cosmic-notifications'
+name = 'cosmic-notifications'
+
+homepage = 'https://github.com/pop-os/cosmic-notifications'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-notifications'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-notifications'

@@ -1,0 +1,12 @@
+id = 'diskscan'
+name = 'diskscan'
+
+homepage = 'https://github.com/baruch/diskscan'
+
+[[package]]
+channel = 'debian'
+name = 'diskscan'
+
+[[package]]
+channel = 'fedora'
+name = 'diskscan'

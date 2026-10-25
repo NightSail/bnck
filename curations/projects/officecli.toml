@@ -1,0 +1,8 @@
+id = 'officecli'
+name = 'officecli'
+
+homepage = 'https://github.com/iOfficeAI/OfficeCLI'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/officecli'

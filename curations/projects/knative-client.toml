@@ -1,0 +1,8 @@
+id = 'knative-client'
+name = 'knative-client'
+
+homepage = 'https://github.com/knative/client'
+
+[[package]]
+channel = 'arch'
+name = 'knative-client'

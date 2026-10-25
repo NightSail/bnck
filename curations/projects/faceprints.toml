@@ -1,0 +1,8 @@
+id = 'faceprints'
+name = 'faceprints'
+
+repository = 'https://github.com/Nexuist/faceprints.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faceprints'

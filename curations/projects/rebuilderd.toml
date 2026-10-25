@@ -1,0 +1,24 @@
+id = 'rebuilderd'
+name = 'rebuilderd'
+
+homepage = 'https://github.com/kpcyrd/rebuilderd'
+
+[[package]]
+channel = 'arch'
+name = 'rebuilderd'
+
+[[package]]
+channel = 'arch'
+name = 'rebuilderd-tools'
+
+[[package]]
+channel = 'debian'
+name = 'rebuildctl'
+
+[[package]]
+channel = 'debian'
+name = 'rebuilderd'
+
+[[package]]
+channel = 'debian'
+name = 'rebuilderd-worker'

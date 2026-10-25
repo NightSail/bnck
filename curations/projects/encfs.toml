@@ -1,0 +1,12 @@
+id = 'encfs'
+name = 'encfs'
+
+homepage = 'https://vgough.github.io/encfs'
+
+[[package]]
+channel = 'arch'
+name = 'encfs'
+
+[[package]]
+channel = 'debian'
+name = 'encfs'

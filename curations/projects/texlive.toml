@@ -4,5 +4,1073 @@ name = 'texlive'
 homepage = 'https://www.tug.org/texlive'
 
 [[package]]
+channel = 'arch'
+name = 'texlive-basic'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-bibtexextra'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-bin'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-binextra'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-context'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-fontutils'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-games'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-humanities'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-langcjk'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-langcyrillic'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-langgreek'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-langjapanese'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-langkorean'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-langother'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-latex'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-latexextra'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-latexrecommended'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-luatex'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-mathscience'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-music'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-pictures'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-plaingeneric'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-pstricks'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-publishers'
+
+[[package]]
+channel = 'arch'
+name = 'texlive-xetex'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-base'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-bibtex-extra'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-binaries'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-binaries-sse2'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-extra-utils'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-font-utils'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-formats-extra'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-games'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-humanities'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-cjk'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-cyrillic'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-czechslovak'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-greek'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-japanese'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-korean'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-lang-polish'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-latex-base'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-latex-extra'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-latex-recommended'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-luatex'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-music'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-pictures'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-plain-generic'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-pstricks'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-publishers'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-science'
+
+[[package]]
+channel = 'debian'
+name = 'texlive-xetex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-a2ping'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-accfonts'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-adhocfilelist'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-afm2pl'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-albatross'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-aleph'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-amstex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-arara'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-attachfile2'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-authorindex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-autosp'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-axodraw2'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bib2gls'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bibcop'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bibexport'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bibtex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bibtex8'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bibtexu'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-bundledoc'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-cachepic'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-checkcites'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-checklistings'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-chklref'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-chktex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-citation-style-language'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-cjkutils'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-clojure-pamphlet'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-cluttex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-context'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-convbkmk'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-crossrefware'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-cslatex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-csplain'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ctan-o-mat'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ctanbib'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ctanify'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ctanupload'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ctie'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-cweb'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-cyrillic'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-de-macro'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-detex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-diadia'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-digestif'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dosepsbin'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dtl'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dtxgen'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvi2tty'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dviasm'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvicopy'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvidvi'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dviinfox'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dviljk'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dviout-util'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvipdfmx'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvipng'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvipos'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvips'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-dvisvgm'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ebong'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-eplain'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-epspdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-epstopdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-exceltex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-fig4latex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-findhyph'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-fontinst'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-fontools'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-fontware'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-fragmaster'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-getmap'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-git-latexdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-glossaries'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-gregoriotex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-gsftopk'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-hitex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-hyperxmp'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-installfont'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-jadetex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-jfmutil'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ketcindy'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-kotex-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-kpathsea'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-l3build'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-lacheck'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latex-git-log'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latex-papersize'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latex2man'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latex2nemeth'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latexdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latexfileversion'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latexindent'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-latexpand'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-lcdftypetools'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-light-latex-make'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-lilyglyphs'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-listbib'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-listings-ext'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-lollipop'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ltxfileinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ltximg'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-luafindfont'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-luahbtex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-luajittex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-luaotfload'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-luatex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-lwarp'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-m-tx'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-make4ht'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-makedtx'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-makeindex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-match_parens'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mathspic'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-metafont'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-metapost'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mf2pt1'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mflua'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mfware'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mkgrkindex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mkjobtexmf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mkpic'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mltex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-mptopdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-multibibliography'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-musixtex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-musixtnt'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-omegaware'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-optex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-optexcount'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pagelayout'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-patgen'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pax'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdfbook2'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdfcrop'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdfjam'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdflatexpicscale'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdftex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdftex-quiet'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdftosrc'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pdfxup'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pedigree-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-perltex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-petri-nets'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pfarrei'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pkfix'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pkfix-helper'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pmx'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pmxchords'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ps2eps'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ps2pk'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pst-pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pst2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-psutils'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ptex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ptex-fontmaps'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ptex2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-purifyeps'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pygmentex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-pythontex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-rubik'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-seetexk'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-spix'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-splitindex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-srcredact'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-sty2dtx'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-svn-multi'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-synctex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-tex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-tex4ebook'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-tex4ht'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texaccents'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texcount'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texdef'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texdirflatten'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texdoctk'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texfot'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texlive-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texlive-scripts-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texlive.infra'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texliveonfly'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texloganalyser'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texlogfilter'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texlogsieve'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texosquery'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texplate'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texsis'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-texware'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-thumbpdf'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-tie'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-tikztosvg'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-tpic2pdftex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ttfutils'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-typeoutfileinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-ulqda'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-upmendex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-uptex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-urlbst'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-velthuis'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-vlna'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-vpe'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-web'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-webquiz'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-wordcount'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xdvi'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xetex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xindex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xindy'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xml2pmx'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xmltex'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-xpdfopen'
+
+[[package]]
+channel = 'fedora'
+name = 'texlive-yplan'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/texlive'

@@ -1,0 +1,8 @@
+id = 'professor-is-missing'
+name = 'professor-is-missing'
+
+homepage = 'http://membres.lycos.fr/agisite/prof.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'professor-is-missing'

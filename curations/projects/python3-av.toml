@@ -1,0 +1,8 @@
+id = 'python3-av'
+name = 'python3-av'
+
+homepage = 'https://pyav.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-av'

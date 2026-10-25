@@ -1,0 +1,8 @@
+id = 'lomiri-thumbnailer-service'
+name = 'lomiri-thumbnailer-service'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-thumbnailer-service'

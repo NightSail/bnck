@@ -1,0 +1,12 @@
+id = 'pyftdi'
+name = 'pyftdi'
+
+homepage = 'https://github.com/eblot/pyftdi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ftdi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyftdi'

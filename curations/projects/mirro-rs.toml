@@ -1,0 +1,8 @@
+id = 'mirro-rs'
+name = 'mirro-rs'
+
+homepage = 'https://github.com/rtkay123/mirro-rs'
+
+[[package]]
+channel = 'arch'
+name = 'mirro-rs'

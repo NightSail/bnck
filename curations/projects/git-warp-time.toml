@@ -1,0 +1,8 @@
+id = 'git-warp-time'
+name = 'git-warp-time'
+
+homepage = 'https://github.com/alerque/git-warp-time'
+
+[[package]]
+channel = 'arch'
+name = 'git-warp-time'

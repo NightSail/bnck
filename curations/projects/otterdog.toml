@@ -1,0 +1,9 @@
+id = 'otterdog'
+name = 'otterdog'
+
+homepage = 'https://otterdog.readthedocs.io/en/latest'
+repository = 'https://github.com/eclipse-csi/otterdog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/otterdog'

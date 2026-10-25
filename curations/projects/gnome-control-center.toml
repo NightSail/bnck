@@ -1,0 +1,16 @@
+id = 'gnome-control-center'
+name = 'gnome-control-center'
+
+homepage = 'https://apps.gnome.org/Settings'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-control-center'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-control-center'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-control-center'

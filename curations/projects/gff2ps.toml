@@ -1,0 +1,8 @@
+id = 'gff2ps'
+name = 'gff2ps'
+
+homepage = 'https://genome.crg.es/software/gff2ps'
+
+[[package]]
+channel = 'debian'
+name = 'gff2ps'

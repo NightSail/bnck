@@ -1,0 +1,8 @@
+id = 'python3-isodatetime'
+name = 'python3-isodatetime'
+
+homepage = 'https://github.com/metomi/isodatetime'
+
+[[package]]
+channel = 'debian'
+name = 'python3-isodatetime'

@@ -1,0 +1,16 @@
+id = 'binutils-binutils-2'
+name = 'binutils'
+
+homepage = 'https://www.gnu.org/software/binutils/binutils.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arm-linux-gnueabihf-binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/binutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x86_64-linux-gnu-binutils'

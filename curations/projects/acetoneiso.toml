@@ -1,0 +1,12 @@
+id = 'acetoneiso'
+name = 'acetoneiso'
+
+homepage = 'https://sourceforge.net/projects/acetoneiso'
+
+[[package]]
+channel = 'debian'
+name = 'acetoneiso'
+
+[[package]]
+channel = 'fedora'
+name = 'AcetoneISO'

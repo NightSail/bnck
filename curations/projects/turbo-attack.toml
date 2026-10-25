@@ -1,0 +1,8 @@
+id = 'turbo-attack'
+name = 'turbo-attack'
+
+homepage = 'https://github.com/mytechnotalent/turbo-attack'
+
+[[package]]
+channel = 'fedora'
+name = 'turbo-attack'

@@ -1,0 +1,8 @@
+id = 'mender-client'
+name = 'mender-client'
+
+homepage = 'https://github.com/mendersoftware/mender'
+
+[[package]]
+channel = 'debian'
+name = 'mender-client'

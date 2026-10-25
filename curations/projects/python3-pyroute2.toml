@@ -1,0 +1,12 @@
+id = 'python3-pyroute2'
+name = 'python3-pyroute2'
+
+homepage = 'https://github.com/svinota/pyroute2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyroute2'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyroute2'

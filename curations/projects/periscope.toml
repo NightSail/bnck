@@ -1,0 +1,9 @@
+id = 'periscope'
+name = 'periscope'
+
+homepage = 'https://anishathalye.com/periscope'
+repository = 'https://github.com/anishathalye/periscope.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/periscope'

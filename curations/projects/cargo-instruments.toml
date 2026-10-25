@@ -1,0 +1,8 @@
+id = 'cargo-instruments'
+name = 'cargo-instruments'
+
+homepage = 'https://github.com/cmyr/cargo-instruments'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-instruments'

@@ -1,0 +1,8 @@
+id = 'iso2mesh-tools'
+name = 'iso2mesh-tools'
+
+homepage = 'https://iso2mesh.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'iso2mesh-tools'

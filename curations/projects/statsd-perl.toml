@@ -1,0 +1,8 @@
+id = 'statsd-perl'
+name = 'statsd-perl'
+
+homepage = 'https://metacpan.org/release/Net-Statsd-Server'
+
+[[package]]
+channel = 'fedora'
+name = 'statsd-perl'

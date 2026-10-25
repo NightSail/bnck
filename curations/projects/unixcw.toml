@@ -1,0 +1,20 @@
+id = 'unixcw'
+name = 'unixcw'
+
+homepage = 'http://unixcw.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cw'
+
+[[package]]
+channel = 'debian'
+name = 'cwcp'
+
+[[package]]
+channel = 'debian'
+name = 'xcwcp'
+
+[[package]]
+channel = 'fedora'
+name = 'unixcw'

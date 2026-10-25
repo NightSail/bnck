@@ -1,0 +1,8 @@
+id = 'hf-mcp-server'
+name = 'hf-mcp-server'
+
+homepage = 'https://github.com/evalstate/hf-mcp-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hf-mcp-server'

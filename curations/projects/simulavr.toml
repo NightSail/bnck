@@ -1,0 +1,8 @@
+id = 'simulavr'
+name = 'simulavr'
+
+homepage = 'https://www.nongnu.org/simulavr'
+
+[[package]]
+channel = 'debian'
+name = 'simulavr'

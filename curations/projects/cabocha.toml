@@ -1,0 +1,8 @@
+id = 'cabocha'
+name = 'cabocha'
+
+homepage = 'https://taku910.github.io/cabocha'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cabocha'

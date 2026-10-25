@@ -1,0 +1,10 @@
+id = 'rubygems'
+name = 'rubygems'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-bundler'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rubygems'

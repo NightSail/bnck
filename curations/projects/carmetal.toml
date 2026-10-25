@@ -1,0 +1,6 @@
+id = 'carmetal'
+name = 'carmetal'
+
+[[package]]
+channel = 'debian'
+name = 'carmetal'

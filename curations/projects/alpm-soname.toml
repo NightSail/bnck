@@ -1,0 +1,8 @@
+id = 'alpm-soname'
+name = 'alpm-soname'
+
+homepage = 'https://alpm.archlinux.page/alpm-soname/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-soname'

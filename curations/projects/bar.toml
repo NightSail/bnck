@@ -1,0 +1,12 @@
+id = 'bar'
+name = 'bar'
+
+homepage = 'http://www.theiling.de/projects/bar.html'
+
+[[package]]
+channel = 'debian'
+name = 'bar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bar'

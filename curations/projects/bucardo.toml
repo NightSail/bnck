@@ -1,0 +1,8 @@
+id = 'bucardo'
+name = 'bucardo'
+
+homepage = 'https://bucardo.org'
+
+[[package]]
+channel = 'debian'
+name = 'bucardo'

@@ -1,0 +1,16 @@
+id = 'hatari-emu'
+name = 'hatari-emu'
+
+homepage = 'https://www.hatari-emu.org'
+
+[[package]]
+channel = 'arch'
+name = 'hatari'
+
+[[package]]
+channel = 'fedora'
+name = 'hatari'
+
+[[package]]
+channel = 'fedora'
+name = 'hatari-ui'

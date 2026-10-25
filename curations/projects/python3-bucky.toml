@@ -1,0 +1,8 @@
+id = 'python3-bucky'
+name = 'python3-bucky'
+
+homepage = 'https://github.com/trbs/bucky'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bucky'

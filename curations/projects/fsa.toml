@@ -1,0 +1,8 @@
+id = 'fsa'
+name = 'fsa'
+
+homepage = 'http://fsa.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fsa'

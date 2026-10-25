@@ -1,0 +1,8 @@
+id = 'wbar'
+name = 'wbar'
+
+homepage = 'https://github.com/rodolf0/wbar'
+
+[[package]]
+channel = 'debian'
+name = 'wbar'

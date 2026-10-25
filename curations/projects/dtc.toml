@@ -1,0 +1,8 @@
+id = 'dtc'
+name = 'dtc'
+
+repository = 'https://git.kernel.org/pub/scm/utils/dtc/dtc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtc'

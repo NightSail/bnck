@@ -1,0 +1,12 @@
+id = 'aisleriot'
+name = 'aisleriot'
+
+homepage = 'https://wiki.gnome.org/Apps/Aisleriot'
+
+[[package]]
+channel = 'arch'
+name = 'aisleriot'
+
+[[package]]
+channel = 'fedora'
+name = 'aisleriot'

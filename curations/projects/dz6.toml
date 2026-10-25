@@ -1,0 +1,12 @@
+id = 'dz6'
+name = 'dz6'
+
+homepage = 'https://dz6.dev.br'
+
+[[package]]
+channel = 'debian'
+name = 'dz6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dz6'

@@ -1,0 +1,12 @@
+id = 'python3-oslo-config'
+name = 'python3-oslo.config'
+
+homepage = 'https://github.com/openstack/oslo.config'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslo.config'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-oslo-config'

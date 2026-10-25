@@ -1,0 +1,8 @@
+id = 'libcouchbase-tools'
+name = 'libcouchbase-tools'
+
+homepage = 'https://docs.couchbase.com/c-sdk/current/project-docs/sdk-release-notes.html'
+
+[[package]]
+channel = 'fedora'
+name = 'libcouchbase-tools'

@@ -1,0 +1,12 @@
+id = 'interimap'
+name = 'interimap'
+
+homepage = 'https://guilhem.org/interimap'
+
+[[package]]
+channel = 'debian'
+name = 'interimap'
+
+[[package]]
+channel = 'debian'
+name = 'pullimap'

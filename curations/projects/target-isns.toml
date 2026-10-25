@@ -1,0 +1,8 @@
+id = 'target-isns'
+name = 'target-isns'
+
+homepage = 'https://github.com/cvubrugier/target-isns'
+
+[[package]]
+channel = 'fedora'
+name = 'target-isns'

@@ -1,0 +1,8 @@
+id = 'jami-qt'
+name = 'jami-qt'
+
+homepage = 'https://jami.net'
+
+[[package]]
+channel = 'arch'
+name = 'jami-qt'

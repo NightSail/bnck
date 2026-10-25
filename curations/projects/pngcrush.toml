@@ -4,5 +4,17 @@ name = 'pngcrush'
 homepage = 'https://pmt.sourceforge.io/pngcrush'
 
 [[package]]
+channel = 'arch'
+name = 'pngcrush'
+
+[[package]]
+channel = 'debian'
+name = 'pngcrush'
+
+[[package]]
+channel = 'fedora'
+name = 'pngcrush'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/pngcrush'

@@ -1,0 +1,8 @@
+id = 'lilv'
+name = 'lilv'
+
+homepage = 'https://drobilla.net/software/lilv'
+
+[[package]]
+channel = 'fedora'
+name = 'lilv'

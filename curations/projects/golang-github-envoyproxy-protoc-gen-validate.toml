@@ -1,0 +1,8 @@
+id = 'golang-github-envoyproxy-protoc-gen-validate'
+name = 'golang-github-envoyproxy-protoc-gen-validate'
+
+homepage = 'https://github.com/envoyproxy/protoc-gen-validate'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-envoyproxy-protoc-gen-validate'

@@ -1,0 +1,8 @@
+id = 'perl-datetime-format-natural'
+name = 'perl-DateTime-Format-Natural'
+
+homepage = 'https://metacpan.org/release/DateTime-Format-Natural'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DateTime-Format-Natural'

@@ -1,0 +1,24 @@
+id = 'iaxclient'
+name = 'iaxclient'
+
+homepage = 'http://iaxclient.wiki.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'iaxclient'
+
+[[package]]
+channel = 'fedora'
+name = 'iaxclient-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'iaxclient-libiax-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'tkiaxphone'
+
+[[package]]
+channel = 'fedora'
+name = 'wxiax'

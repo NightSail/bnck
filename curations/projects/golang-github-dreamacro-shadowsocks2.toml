@@ -1,0 +1,8 @@
+id = 'golang-github-dreamacro-shadowsocks2'
+name = 'golang-github-dreamacro-shadowsocks2'
+
+homepage = 'https://github.com/Dreamacro/go-shadowsocks2'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-dreamacro-shadowsocks2'

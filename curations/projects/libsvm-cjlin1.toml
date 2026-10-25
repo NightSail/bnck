@@ -1,0 +1,9 @@
+id = 'libsvm-cjlin1'
+name = 'libsvm'
+
+homepage = 'https://www.csie.ntu.edu.tw/~cjlin/libsvm'
+repository = 'https://github.com/cjlin1/libsvm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsvm'

@@ -1,0 +1,32 @@
+id = 'pulseaudio'
+name = 'pulseaudio'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/PulseAudio'
+
+[[package]]
+channel = 'arch'
+name = 'libpulse'
+
+[[package]]
+channel = 'arch'
+name = 'pulseaudio'
+
+[[package]]
+channel = 'arch'
+name = 'pulseaudio-equalizer'
+
+[[package]]
+channel = 'fedora'
+name = 'pulseaudio'
+
+[[package]]
+channel = 'fedora'
+name = 'pulseaudio-module-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'pulseaudio-qpaeq'
+
+[[package]]
+channel = 'fedora'
+name = 'pulseaudio-utils'

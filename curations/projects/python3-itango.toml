@@ -1,0 +1,8 @@
+id = 'python3-itango'
+name = 'python3-itango'
+
+homepage = 'https://pythonhosted.org/itango'
+
+[[package]]
+channel = 'debian'
+name = 'python3-itango'

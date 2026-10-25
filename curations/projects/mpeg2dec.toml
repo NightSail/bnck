@@ -1,0 +1,12 @@
+id = 'mpeg2dec'
+name = 'mpeg2dec'
+
+homepage = 'http://libmpeg2.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mpeg2dec'
+
+[[package]]
+channel = 'fedora'
+name = 'mpeg2dec'

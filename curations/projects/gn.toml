@@ -1,0 +1,16 @@
+id = 'gn'
+name = 'gn'
+
+homepage = 'https://gn.googlesource.com/gn'
+
+[[package]]
+channel = 'arch'
+name = 'gn'
+
+[[package]]
+channel = 'debian'
+name = 'generate-ninja'
+
+[[package]]
+channel = 'fedora'
+name = 'gn'

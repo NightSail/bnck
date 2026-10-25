@@ -1,0 +1,20 @@
+id = 'jan'
+name = '~jan'
+
+homepage = 'http://user.it.uu.se/~jan/html2ps.html'
+
+[[package]]
+channel = 'debian'
+name = 'html2ps'
+
+[[package]]
+channel = 'debian'
+name = 'xhtml2ps'
+
+[[package]]
+channel = 'fedora'
+name = 'html2ps'
+
+[[package]]
+channel = 'fedora'
+name = 'xhtml2ps'

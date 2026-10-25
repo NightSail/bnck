@@ -1,0 +1,8 @@
+id = 'python3-borgstore'
+name = 'python3-borgstore'
+
+homepage = 'https://github.com/borgbackup/borgstore'
+
+[[package]]
+channel = 'debian'
+name = 'python3-borgstore'

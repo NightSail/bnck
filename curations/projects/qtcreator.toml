@@ -1,0 +1,12 @@
+id = 'qtcreator'
+name = 'qtcreator'
+
+homepage = 'https://doc.qt.io/qt-5/topics-app-development.html'
+
+[[package]]
+channel = 'debian'
+name = 'qtcreator'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-creator'

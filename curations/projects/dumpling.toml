@@ -1,0 +1,8 @@
+id = 'dumpling'
+name = 'dumpling'
+
+repository = 'https://github.com/pingcap/tidb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dumpling'

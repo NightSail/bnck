@@ -1,0 +1,12 @@
+id = 'python3-ppft'
+name = 'python3-ppft'
+
+homepage = 'https://github.com/uqfoundation/ppft'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ppft'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ppft'

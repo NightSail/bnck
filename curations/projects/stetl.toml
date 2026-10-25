@@ -1,0 +1,8 @@
+id = 'stetl'
+name = 'stetl'
+
+homepage = 'http://stetl.org'
+
+[[package]]
+channel = 'debian'
+name = 'stetl'

@@ -1,0 +1,20 @@
+id = 'jo'
+name = 'jo'
+
+repository = 'https://github.com/jpmens/jo.git'
+
+[[package]]
+channel = 'arch'
+name = 'jo'
+
+[[package]]
+channel = 'debian'
+name = 'jo'
+
+[[package]]
+channel = 'fedora'
+name = 'jo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jo'

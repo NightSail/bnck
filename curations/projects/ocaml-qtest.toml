@@ -1,0 +1,12 @@
+id = 'ocaml-qtest'
+name = 'ocaml-qtest'
+
+homepage = 'https://github.com/vincent-hugot/qtest'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-qtest'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-qtest'

@@ -1,0 +1,20 @@
+id = 'vorbis-tools'
+name = 'vorbis-tools'
+
+homepage = 'https://github.com/xiph/vorbis-tools'
+
+[[package]]
+channel = 'arch'
+name = 'vorbis-tools'
+
+[[package]]
+channel = 'debian'
+name = 'vorbis-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'vorbis-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vorbis-tools'

@@ -1,0 +1,16 @@
+id = 'epstool'
+name = 'epstool'
+
+homepage = 'http://www.ghostgum.com.au/software/epstool.htm'
+
+[[package]]
+channel = 'debian'
+name = 'epstool'
+
+[[package]]
+channel = 'fedora'
+name = 'epstool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epstool'

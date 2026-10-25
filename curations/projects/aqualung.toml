@@ -1,0 +1,8 @@
+id = 'aqualung'
+name = 'aqualung'
+
+homepage = 'https://aqualung.jeremyevans.net'
+
+[[package]]
+channel = 'fedora'
+name = 'aqualung'

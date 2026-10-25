@@ -1,0 +1,12 @@
+id = 'pixelmed'
+name = 'pixelmed'
+
+homepage = 'http://www.pixelmed.com'
+
+[[package]]
+channel = 'debian'
+name = 'pixelmed-apps'
+
+[[package]]
+channel = 'debian'
+name = 'pixelmed-webstart-apps'

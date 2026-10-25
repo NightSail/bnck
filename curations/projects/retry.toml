@@ -1,0 +1,16 @@
+id = 'retry'
+name = 'retry'
+
+homepage = 'https://github.com/minfrin/retry'
+
+[[package]]
+channel = 'arch'
+name = 'retry'
+
+[[package]]
+channel = 'debian'
+name = 'retry'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/retry'

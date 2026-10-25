@@ -1,0 +1,8 @@
+id = 'conda-build'
+name = 'conda-build'
+
+homepage = 'https://github.com/conda/conda-build'
+
+[[package]]
+channel = 'fedora'
+name = 'conda-build'

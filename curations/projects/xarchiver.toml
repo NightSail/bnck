@@ -1,0 +1,16 @@
+id = 'xarchiver'
+name = 'xarchiver'
+
+homepage = 'https://github.com/ib/xarchiver'
+
+[[package]]
+channel = 'arch'
+name = 'xarchiver'
+
+[[package]]
+channel = 'debian'
+name = 'xarchiver'
+
+[[package]]
+channel = 'fedora'
+name = 'xarchiver'

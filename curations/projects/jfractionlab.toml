@@ -1,0 +1,8 @@
+id = 'jfractionlab'
+name = 'jfractionlab'
+
+homepage = 'https://jfractionlab.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jfractionlab'

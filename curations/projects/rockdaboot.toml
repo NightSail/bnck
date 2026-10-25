@@ -1,0 +1,16 @@
+id = 'rockdaboot'
+name = 'rockdaboot'
+
+homepage = 'https://rockdaboot.github.io/libpsl'
+
+[[package]]
+channel = 'fedora'
+name = 'psl'
+
+[[package]]
+channel = 'fedora'
+name = 'psl-make-dafsa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpsl'

@@ -1,0 +1,16 @@
+id = 'automat'
+name = 'automat'
+
+homepage = 'https://github.com/glyph/automat'
+
+[[package]]
+channel = 'arch'
+name = 'python-automat'
+
+[[package]]
+channel = 'debian'
+name = 'python3-automat'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-Automat'

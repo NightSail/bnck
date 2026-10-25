@@ -1,0 +1,8 @@
+id = 'parsyncfp2'
+name = 'parsyncfp2'
+
+homepage = 'https://github.com/hjmangalam/parsyncfp2'
+
+[[package]]
+channel = 'debian'
+name = 'parsyncfp2'

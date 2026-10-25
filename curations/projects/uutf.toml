@@ -1,0 +1,12 @@
+id = 'uutf'
+name = 'uutf'
+
+homepage = 'https://erratique.ch/software/uutf'
+
+[[package]]
+channel = 'debian'
+name = 'libuutf-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-uutf'

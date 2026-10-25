@@ -1,0 +1,8 @@
+id = 'libgfal2-2t64'
+name = 'libgfal2-2t64'
+
+homepage = 'https://dmc-docs.web.cern.ch/dmc-docs/gfal2/gfal2.html'
+
+[[package]]
+channel = 'debian'
+name = 'libgfal2-2t64'

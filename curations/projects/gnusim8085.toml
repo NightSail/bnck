@@ -1,0 +1,8 @@
+id = 'gnusim8085'
+name = 'gnusim8085'
+
+homepage = 'http://www.gnusim8085.org'
+
+[[package]]
+channel = 'debian'
+name = 'gnusim8085'

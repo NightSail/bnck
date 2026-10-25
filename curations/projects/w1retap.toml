@@ -1,0 +1,8 @@
+id = 'w1retap'
+name = 'w1retap'
+
+homepage = 'http://www.zen35309.zen.co.uk/wx/tech.html'
+
+[[package]]
+channel = 'debian'
+name = 'w1retap'

@@ -1,0 +1,16 @@
+id = 'spidermonkey'
+name = 'SpiderMonkey'
+
+homepage = 'https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey'
+
+[[package]]
+channel = 'fedora'
+name = 'mozjs115-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mozjs128-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mozjs140-devel'

@@ -1,0 +1,8 @@
+id = 'cryptopant'
+name = 'cryptopant'
+
+homepage = 'https://ant.isi.edu/software/cryptopANT'
+
+[[package]]
+channel = 'debian'
+name = 'cryptopant'

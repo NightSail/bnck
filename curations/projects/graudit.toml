@@ -1,0 +1,8 @@
+id = 'graudit'
+name = 'graudit'
+
+homepage = 'https://github.com/wireghoul/graudit'
+
+[[package]]
+channel = 'debian'
+name = 'graudit'

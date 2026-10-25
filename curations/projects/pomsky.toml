@@ -1,0 +1,9 @@
+id = 'pomsky'
+name = 'pomsky'
+
+homepage = 'https://pomsky-lang.org'
+repository = 'https://github.com/pomsky-lang/pomsky.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pomsky'

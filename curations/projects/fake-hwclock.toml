@@ -1,0 +1,6 @@
+id = 'fake-hwclock'
+name = 'fake-hwclock'
+
+[[package]]
+channel = 'debian'
+name = 'fake-hwclock'

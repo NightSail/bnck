@@ -1,0 +1,6 @@
+id = 'upgrade-system'
+name = 'upgrade-system'
+
+[[package]]
+channel = 'debian'
+name = 'upgrade-system'

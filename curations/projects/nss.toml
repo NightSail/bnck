@@ -1,0 +1,12 @@
+id = 'nss'
+name = 'nss'
+
+homepage = 'https://firefox-source-docs.mozilla.org/security/nss/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'nss'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nss'

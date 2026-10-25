@@ -1,0 +1,8 @@
+id = 'python3-sqlalchemy-collectd'
+name = 'python3-sqlalchemy-collectd'
+
+homepage = 'https://github.com/sqlalchemy/sqlalchemy-collectd'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sqlalchemy-collectd'

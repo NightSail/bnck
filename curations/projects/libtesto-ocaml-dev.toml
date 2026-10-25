@@ -1,0 +1,8 @@
+id = 'libtesto-ocaml-dev'
+name = 'libtesto-ocaml-dev'
+
+homepage = 'https://github.com/mjambon/testo'
+
+[[package]]
+channel = 'debian'
+name = 'libtesto-ocaml-dev'

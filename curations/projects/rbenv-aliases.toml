@@ -1,0 +1,8 @@
+id = 'rbenv-aliases'
+name = 'rbenv-aliases'
+
+repository = 'https://github.com/tpope/rbenv-aliases.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-aliases'

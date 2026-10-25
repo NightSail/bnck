@@ -1,0 +1,8 @@
+id = 'rpki'
+name = 'rpki'
+
+homepage = 'https://crates.io/crates/rpki'
+
+[[package]]
+channel = 'fedora'
+name = 'rpki'

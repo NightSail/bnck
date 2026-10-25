@@ -1,0 +1,12 @@
+id = 'ofx'
+name = 'ofx'
+
+homepage = 'https://github.com/libofx/libofx'
+
+[[package]]
+channel = 'debian'
+name = 'ofx'
+
+[[package]]
+channel = 'fedora'
+name = 'ofx'

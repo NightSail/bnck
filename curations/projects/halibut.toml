@@ -1,0 +1,21 @@
+id = 'halibut'
+name = 'halibut'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/halibut'
+repository = 'https://git.tartarus.org/simon/halibut.git'
+
+[[package]]
+channel = 'arch'
+name = 'halibut'
+
+[[package]]
+channel = 'debian'
+name = 'halibut'
+
+[[package]]
+channel = 'fedora'
+name = 'halibut'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/halibut'

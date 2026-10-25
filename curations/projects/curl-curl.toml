@@ -1,0 +1,20 @@
+id = 'curl-curl'
+name = 'curl'
+
+homepage = 'https://curl.se'
+
+[[package]]
+channel = 'arch'
+name = 'curl-rustls'
+
+[[package]]
+channel = 'debian'
+name = 'libcurl4-gnutls-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libcurl4-openssl-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libcurl-devel'

@@ -1,0 +1,9 @@
+id = 'blastem'
+name = 'blastem'
+
+homepage = 'https://www.retrodev.com/blastem'
+repository = 'https://www.retrodev.com/repos/blastem'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blastem'

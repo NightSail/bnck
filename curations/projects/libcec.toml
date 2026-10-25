@@ -1,0 +1,28 @@
+id = 'libcec'
+name = 'libcec'
+
+homepage = 'https://libcec.pulse-eight.com'
+
+[[package]]
+channel = 'arch'
+name = 'libcec'
+
+[[package]]
+channel = 'debian'
+name = 'cec-utils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-libcec'
+
+[[package]]
+channel = 'fedora'
+name = 'libcec'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-libcec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcec'

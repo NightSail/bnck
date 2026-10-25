@@ -1,0 +1,8 @@
+id = 'tahoe-lafs'
+name = 'tahoe-lafs'
+
+homepage = 'https://www.tahoe-lafs.org'
+
+[[package]]
+channel = 'debian'
+name = 'tahoe-lafs'

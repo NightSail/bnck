@@ -1,0 +1,8 @@
+id = 'odyssey'
+name = 'odyssey'
+
+homepage = 'https://github.com/yandex/odyssey'
+
+[[package]]
+channel = 'debian'
+name = 'odyssey'

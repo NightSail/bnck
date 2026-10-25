@@ -1,0 +1,8 @@
+id = 'spectrographic'
+name = 'spectrographic'
+
+homepage = 'https://github.com/LeviBorodenko/spectrographic'
+
+[[package]]
+channel = 'fedora'
+name = 'spectrographic'

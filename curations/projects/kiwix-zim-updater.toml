@@ -1,0 +1,6 @@
+id = 'kiwix-zim-updater'
+name = 'kiwix-zim-updater'
+
+[[package]]
+channel = 'debian'
+name = 'kiwix-zim-updater'

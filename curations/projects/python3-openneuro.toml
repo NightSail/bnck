@@ -1,0 +1,8 @@
+id = 'python3-openneuro'
+name = 'python3-openneuro'
+
+homepage = 'https://github.com/hoechenberger/openneuro-py'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openneuro'

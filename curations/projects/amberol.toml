@@ -1,0 +1,12 @@
+id = 'amberol'
+name = 'amberol'
+
+homepage = 'https://apps.gnome.org/Amberol'
+
+[[package]]
+channel = 'arch'
+name = 'amberol'
+
+[[package]]
+channel = 'debian'
+name = 'amberol'

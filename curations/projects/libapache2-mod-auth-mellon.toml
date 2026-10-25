@@ -1,0 +1,8 @@
+id = 'libapache2-mod-auth-mellon'
+name = 'libapache2-mod-auth-mellon'
+
+homepage = 'https://github.com/latchset/mod_auth_mellon'
+
+[[package]]
+channel = 'debian'
+name = 'libapache2-mod-auth-mellon'

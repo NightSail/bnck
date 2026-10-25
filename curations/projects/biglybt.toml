@@ -1,0 +1,12 @@
+id = 'biglybt'
+name = 'biglybt'
+
+homepage = 'http://www.biglybt.com'
+
+[[package]]
+channel = 'debian'
+name = 'biglybt'
+
+[[package]]
+channel = 'debian'
+name = 'biglybtd'

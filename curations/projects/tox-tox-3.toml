@@ -1,0 +1,8 @@
+id = 'tox-tox-3'
+name = 'tox'
+
+homepage = 'https://tox.wiki/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tox'

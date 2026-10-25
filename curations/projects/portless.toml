@@ -1,0 +1,8 @@
+id = 'portless'
+name = 'portless'
+
+homepage = 'https://portless.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/portless'

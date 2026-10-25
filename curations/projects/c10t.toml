@@ -1,0 +1,8 @@
+id = 'c10t'
+name = 'c10t'
+
+homepage = 'https://github.com/udoprog/c10t'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c10t'

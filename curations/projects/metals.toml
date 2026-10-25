@@ -1,0 +1,8 @@
+id = 'metals'
+name = 'metals'
+
+homepage = 'https://scalameta.org/metals'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metals'

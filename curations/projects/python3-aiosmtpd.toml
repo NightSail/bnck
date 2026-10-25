@@ -1,0 +1,8 @@
+id = 'python3-aiosmtpd'
+name = 'python3-aiosmtpd'
+
+homepage = 'https://aiosmtpd.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiosmtpd'

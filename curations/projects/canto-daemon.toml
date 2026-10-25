@@ -1,0 +1,8 @@
+id = 'canto-daemon'
+name = 'canto-daemon'
+
+homepage = 'https://github.com/themoken/canto-next'
+
+[[package]]
+channel = 'arch'
+name = 'canto-daemon'

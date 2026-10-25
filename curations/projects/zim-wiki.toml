@@ -1,0 +1,16 @@
+id = 'zim-wiki'
+name = 'zim-wiki'
+
+homepage = 'https://zim-wiki.org'
+
+[[package]]
+channel = 'arch'
+name = 'zim'
+
+[[package]]
+channel = 'debian'
+name = 'zim'
+
+[[package]]
+channel = 'fedora'
+name = 'Zim'

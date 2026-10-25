@@ -1,0 +1,8 @@
+id = 'cwlformat'
+name = 'cwlformat'
+
+homepage = 'https://github.com/rabix/cwl-format'
+
+[[package]]
+channel = 'debian'
+name = 'cwlformat'

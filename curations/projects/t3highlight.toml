@@ -1,0 +1,8 @@
+id = 't3highlight'
+name = 't3highlight'
+
+homepage = 'https://os.ghalkes.nl/t3/libt3highlight.html'
+
+[[package]]
+channel = 'debian'
+name = 't3highlight'

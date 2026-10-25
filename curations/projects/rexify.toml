@@ -1,0 +1,16 @@
+id = 'rexify'
+name = 'rexify'
+
+homepage = 'https://www.rexify.org'
+
+[[package]]
+channel = 'debian'
+name = 'rex'
+
+[[package]]
+channel = 'fedora'
+name = 'Rex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rex'

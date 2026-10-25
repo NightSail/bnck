@@ -1,0 +1,16 @@
+id = 'klevernotes'
+name = 'klevernotes'
+
+homepage = 'https://apps.kde.org/klevernotes'
+
+[[package]]
+channel = 'arch'
+name = 'klevernotes'
+
+[[package]]
+channel = 'debian'
+name = 'klevernotes'
+
+[[package]]
+channel = 'fedora'
+name = 'klevernotes'

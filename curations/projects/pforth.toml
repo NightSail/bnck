@@ -1,0 +1,8 @@
+id = 'pforth'
+name = 'pforth'
+
+homepage = 'https://github.com/philburk/pforth'
+
+[[package]]
+channel = 'debian'
+name = 'pforth'

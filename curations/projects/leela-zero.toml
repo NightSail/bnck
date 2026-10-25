@@ -1,0 +1,9 @@
+id = 'leela-zero'
+name = 'leela-zero'
+
+homepage = 'https://zero.sjeng.org'
+repository = 'https://github.com/leela-zero/leela-zero.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leela-zero'

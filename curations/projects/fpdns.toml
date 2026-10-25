@@ -1,0 +1,12 @@
+id = 'fpdns'
+name = 'fpdns'
+
+homepage = 'https://github.com/kirei/fpdns'
+
+[[package]]
+channel = 'debian'
+name = 'fpdns'
+
+[[package]]
+channel = 'fedora'
+name = 'fpdns'

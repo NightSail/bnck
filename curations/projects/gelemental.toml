@@ -1,0 +1,8 @@
+id = 'gelemental'
+name = 'gelemental'
+
+homepage = 'https://github.com/ginggs/gelemental'
+
+[[package]]
+channel = 'debian'
+name = 'gelemental'

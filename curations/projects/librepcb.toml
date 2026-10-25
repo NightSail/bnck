@@ -1,0 +1,8 @@
+id = 'librepcb'
+name = 'librepcb'
+
+homepage = 'https://librepcb.org'
+
+[[package]]
+channel = 'debian'
+name = 'librepcb'

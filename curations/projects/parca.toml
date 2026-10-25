@@ -1,0 +1,9 @@
+id = 'parca'
+name = 'parca'
+
+homepage = 'https://www.parca.dev'
+repository = 'https://github.com/parca-dev/parca.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/parca'

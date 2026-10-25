@@ -1,0 +1,6 @@
+id = 'kernel-wedge'
+name = 'kernel-wedge'
+
+[[package]]
+channel = 'debian'
+name = 'kernel-wedge'

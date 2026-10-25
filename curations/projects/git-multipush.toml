@@ -1,0 +1,8 @@
+id = 'git-multipush'
+name = 'git-multipush'
+
+repository = 'https://github.com/gavinbeatty/git-multipush.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-multipush'

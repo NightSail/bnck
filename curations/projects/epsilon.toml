@@ -1,0 +1,8 @@
+id = 'epsilon'
+name = 'epsilon'
+
+homepage = 'https://sourceforge.net/projects/epsilon-project'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epsilon'

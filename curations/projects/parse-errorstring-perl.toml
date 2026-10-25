@@ -1,0 +1,12 @@
+id = 'parse-errorstring-perl'
+name = 'Parse-ErrorString-Perl'
+
+homepage = 'https://metacpan.org/release/Parse-ErrorString-Perl'
+
+[[package]]
+channel = 'debian'
+name = 'libparse-errorstring-perl-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Parse-ErrorString-Perl'

@@ -1,0 +1,8 @@
+id = 'fccexam'
+name = 'fccexam'
+
+homepage = 'https://launchpad.net/~jnogatch/+archive/ubuntu/fccexam'
+
+[[package]]
+channel = 'debian'
+name = 'fccexam'

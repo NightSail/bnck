@@ -1,0 +1,8 @@
+id = 'bumpfontversion'
+name = 'bumpfontversion'
+
+homepage = 'https://github.com/simoncozens/bumpfontversion'
+
+[[package]]
+channel = 'debian'
+name = 'bumpfontversion'

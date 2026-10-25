@@ -1,0 +1,12 @@
+id = 'gphotofs'
+name = 'gphotofs'
+
+homepage = 'http://www.gphoto.org/proj/gphotofs'
+
+[[package]]
+channel = 'debian'
+name = 'gphotofs'
+
+[[package]]
+channel = 'fedora'
+name = 'gphotofs'

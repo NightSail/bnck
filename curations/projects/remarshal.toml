@@ -1,0 +1,8 @@
+id = 'remarshal'
+name = 'remarshal'
+
+repository = 'https://github.com/remarshal-project/remarshal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/remarshal'

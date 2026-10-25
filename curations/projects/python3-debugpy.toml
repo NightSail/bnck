@@ -1,0 +1,8 @@
+id = 'python3-debugpy'
+name = 'python3-debugpy'
+
+homepage = 'https://github.com/microsoft/debugpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-debugpy'

@@ -1,0 +1,9 @@
+id = 'pitchfork'
+name = 'pitchfork'
+
+homepage = 'https://pitchfork.jdx.dev'
+repository = 'https://github.com/jdx/pitchfork.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pitchfork'

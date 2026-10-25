@@ -1,0 +1,9 @@
+id = 'clair'
+name = 'clair'
+
+homepage = 'https://quay.github.io/clair'
+repository = 'https://github.com/quay/clair.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clair'

@@ -1,0 +1,16 @@
+id = 'gdb-s'
+name = 'gdb'
+
+homepage = 'https://www.gnu.org/s/gdb'
+
+[[package]]
+channel = 'debian'
+name = 'gdb-avr'
+
+[[package]]
+channel = 'debian'
+name = 'gdb-multiarch'
+
+[[package]]
+channel = 'debian'
+name = 'gdbserver'

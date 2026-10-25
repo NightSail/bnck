@@ -1,0 +1,16 @@
+id = 'sunxi-tools'
+name = 'sunxi-tools'
+
+homepage = 'https://github.com/linux-sunxi/sunxi-tools'
+
+[[package]]
+channel = 'arch'
+name = 'sunxi-tools'
+
+[[package]]
+channel = 'debian'
+name = 'sunxi-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'sunxi-tools'

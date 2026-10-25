@@ -1,0 +1,12 @@
+id = 'crunch'
+name = 'crunch'
+
+homepage = 'https://sourceforge.net/projects/crunch-wordlist'
+
+[[package]]
+channel = 'debian'
+name = 'crunch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crunch'

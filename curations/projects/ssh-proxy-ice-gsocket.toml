@@ -1,0 +1,8 @@
+id = 'ssh-proxy-ice-gsocket'
+name = 'ssh-proxy-ice-gsocket'
+
+homepage = 'https://gitlab.com/grandpaul/ssh-proxy-ice-gsocket'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-proxy-ice-gsocket'

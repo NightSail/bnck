@@ -1,0 +1,8 @@
+id = 'winrmcp'
+name = 'winrmcp'
+
+homepage = 'https://github.com/packer-community/winrmcp'
+
+[[package]]
+channel = 'debian'
+name = 'winrmcp'

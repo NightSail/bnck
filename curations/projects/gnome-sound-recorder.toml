@@ -1,0 +1,16 @@
+id = 'gnome-sound-recorder'
+name = 'gnome-sound-recorder'
+
+homepage = 'https://wiki.gnome.org/Apps/SoundRecorder'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-sound-recorder'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-sound-recorder'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-sound-recorder'

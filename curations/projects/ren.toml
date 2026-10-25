@@ -1,0 +1,8 @@
+id = 'ren'
+name = 'ren'
+
+homepage = 'https://pdb.finkproject.org/pdb/package.php/ren'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ren'

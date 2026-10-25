@@ -1,0 +1,8 @@
+id = 'mptp'
+name = 'mptp'
+
+homepage = 'https://github.com/Pas-Kapli/mptp'
+
+[[package]]
+channel = 'debian'
+name = 'mptp'

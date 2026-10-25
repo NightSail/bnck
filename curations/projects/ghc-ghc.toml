@@ -1,0 +1,9 @@
+id = 'ghc-ghc'
+name = 'ghc'
+
+homepage = 'https://haskell.org/ghc'
+repository = 'https://gitlab.haskell.org/ghc/ghc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghc'

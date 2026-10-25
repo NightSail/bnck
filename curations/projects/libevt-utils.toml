@@ -1,0 +1,8 @@
+id = 'libevt-utils'
+name = 'libevt-utils'
+
+homepage = 'https://github.com/libyal/libevt'
+
+[[package]]
+channel = 'debian'
+name = 'libevt-utils'

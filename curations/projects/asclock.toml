@@ -1,0 +1,6 @@
+id = 'asclock'
+name = 'asclock'
+
+[[package]]
+channel = 'debian'
+name = 'asclock'

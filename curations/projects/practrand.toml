@@ -1,0 +1,8 @@
+id = 'practrand'
+name = 'practrand'
+
+homepage = 'https://sourceforge.net/projects/pracrand'
+
+[[package]]
+channel = 'fedora'
+name = 'practrand'

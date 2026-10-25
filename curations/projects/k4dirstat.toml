@@ -1,0 +1,8 @@
+id = 'k4dirstat'
+name = 'k4dirstat'
+
+homepage = 'https://github.com/jeromerobert/k4dirstat'
+
+[[package]]
+channel = 'debian'
+name = 'k4dirstat'

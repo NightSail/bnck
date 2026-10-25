@@ -1,0 +1,16 @@
+id = 'lightdm'
+name = 'lightdm'
+
+homepage = 'https://github.com/canonical/lightdm'
+
+[[package]]
+channel = 'arch'
+name = 'lightdm'
+
+[[package]]
+channel = 'debian'
+name = 'lightdm'
+
+[[package]]
+channel = 'fedora'
+name = 'lightdm'

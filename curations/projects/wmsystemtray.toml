@@ -1,0 +1,8 @@
+id = 'wmsystemtray'
+name = 'wmsystemtray'
+
+homepage = 'https://sourceforge.net/projects/wmsystemtray'
+
+[[package]]
+channel = 'debian'
+name = 'wmsystemtray'

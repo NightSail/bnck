@@ -1,0 +1,12 @@
+id = 'f2c'
+name = 'f2c'
+
+homepage = 'https://netlib.org/f2c'
+
+[[package]]
+channel = 'debian'
+name = 'f2c'
+
+[[package]]
+channel = 'fedora'
+name = 'f2c'

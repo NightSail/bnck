@@ -1,0 +1,12 @@
+id = 'walinuxagent'
+name = 'WALinuxAgent'
+
+homepage = 'https://github.com/Azure/WALinuxAgent'
+
+[[package]]
+channel = 'debian'
+name = 'waagent'
+
+[[package]]
+channel = 'fedora'
+name = 'WALinuxAgent'

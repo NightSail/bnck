@@ -1,0 +1,16 @@
+id = 'mp3splt'
+name = 'mp3splt'
+
+homepage = 'https://mp3splt.sourceforge.net/mp3splt_page/home.php'
+
+[[package]]
+channel = 'debian'
+name = 'mp3splt'
+
+[[package]]
+channel = 'debian'
+name = 'mp3splt-gtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3splt'

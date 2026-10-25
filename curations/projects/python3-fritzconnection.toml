@@ -1,0 +1,8 @@
+id = 'python3-fritzconnection'
+name = 'python3-fritzconnection'
+
+homepage = 'https://github.com/kbr/fritzconnection'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fritzconnection'

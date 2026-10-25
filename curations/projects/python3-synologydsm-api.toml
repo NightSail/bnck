@@ -1,0 +1,8 @@
+id = 'python3-synologydsm-api'
+name = 'python3-synologydsm-api'
+
+homepage = 'https://github.com/mib1185/py-synologydsm-api'
+
+[[package]]
+channel = 'debian'
+name = 'python3-synologydsm-api'

@@ -1,0 +1,9 @@
+id = 'dune-ocaml'
+name = 'dune'
+
+homepage = 'https://dune.build'
+repository = 'https://github.com/ocaml/dune.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dune'

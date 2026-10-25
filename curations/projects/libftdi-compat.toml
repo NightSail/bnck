@@ -1,0 +1,8 @@
+id = 'libftdi-compat'
+name = 'libftdi-compat'
+
+homepage = 'https://www.intra2net.com/en/developer/libftdi/download.php'
+
+[[package]]
+channel = 'arch'
+name = 'libftdi-compat'

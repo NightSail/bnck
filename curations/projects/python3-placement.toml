@@ -1,0 +1,8 @@
+id = 'python3-placement'
+name = 'python3-placement'
+
+homepage = 'https://github.com/openstack/placement'
+
+[[package]]
+channel = 'debian'
+name = 'python3-placement'

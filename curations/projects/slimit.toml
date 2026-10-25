@@ -1,0 +1,8 @@
+id = 'slimit'
+name = 'slimit'
+
+homepage = 'https://slimit.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'slimit'

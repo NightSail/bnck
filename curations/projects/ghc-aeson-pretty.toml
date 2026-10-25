@@ -1,0 +1,8 @@
+id = 'ghc-aeson-pretty'
+name = 'ghc-aeson-pretty'
+
+homepage = 'https://hackage.haskell.org/package/aeson-pretty'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-aeson-pretty'

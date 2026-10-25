@@ -1,0 +1,8 @@
+id = 'stagit'
+name = 'stagit'
+
+homepage = 'https://codemadness.org/stagit.html'
+
+[[package]]
+channel = 'debian'
+name = 'stagit'

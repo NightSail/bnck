@@ -1,0 +1,16 @@
+id = 'redcarpet'
+name = 'redcarpet'
+
+homepage = 'https://github.com/vmg/redcarpet'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-redcarpet'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-redcarpet'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-redcarpet'

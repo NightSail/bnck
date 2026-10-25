@@ -1,0 +1,8 @@
+id = 'python-curl-cffi'
+name = 'python-curl_cffi'
+
+homepage = 'https://github.com/lexiforest/curl_cffi'
+
+[[package]]
+channel = 'arch'
+name = 'python-curl_cffi'

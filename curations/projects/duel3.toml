@@ -1,0 +1,6 @@
+id = 'duel3'
+name = 'duel3'
+
+[[package]]
+channel = 'fedora'
+name = 'duel3'

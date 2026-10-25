@@ -1,0 +1,8 @@
+id = 'autodock-vina'
+name = 'autodock-vina'
+
+homepage = 'https://vina.scripps.edu'
+
+[[package]]
+channel = 'debian'
+name = 'autodock-vina'

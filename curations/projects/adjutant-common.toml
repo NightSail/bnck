@@ -1,0 +1,8 @@
+id = 'adjutant-common'
+name = 'adjutant-common'
+
+homepage = 'https://github.com/openstack/adjutant'
+
+[[package]]
+channel = 'debian'
+name = 'adjutant-common'

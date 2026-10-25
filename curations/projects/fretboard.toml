@@ -1,0 +1,12 @@
+id = 'fretboard'
+name = 'fretboard'
+
+homepage = 'https://apps.gnome.org/Fretboard'
+
+[[package]]
+channel = 'arch'
+name = 'fretboard'
+
+[[package]]
+channel = 'debian'
+name = 'fretboard'

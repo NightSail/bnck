@@ -1,0 +1,12 @@
+id = 'diffoci'
+name = 'diffoci'
+
+repository = 'https://github.com/reproducible-containers/diffoci.git'
+
+[[package]]
+channel = 'arch'
+name = 'diffoci'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diffoci'

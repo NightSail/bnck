@@ -1,0 +1,16 @@
+id = 'a2jmidid'
+name = 'a2jmidid'
+
+homepage = 'https://github.com/jackaudio/a2jmidid'
+
+[[package]]
+channel = 'arch'
+name = 'a2jmidid'
+
+[[package]]
+channel = 'debian'
+name = 'a2jmidid'
+
+[[package]]
+channel = 'fedora'
+name = 'a2jmidid'

@@ -1,0 +1,10 @@
+id = 'engauge-digitizer'
+name = 'engauge-digitizer'
+
+[[package]]
+channel = 'debian'
+name = 'engauge-digitizer'
+
+[[package]]
+channel = 'fedora'
+name = 'engauge-digitizer'

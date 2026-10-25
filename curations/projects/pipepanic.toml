@@ -1,0 +1,8 @@
+id = 'pipepanic'
+name = 'pipepanic'
+
+homepage = 'http://www.users.waitrose.com/~thunor/pipepanic'
+
+[[package]]
+channel = 'fedora'
+name = 'pipepanic'

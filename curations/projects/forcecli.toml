@@ -1,0 +1,9 @@
+id = 'forcecli'
+name = 'forcecli'
+
+homepage = 'https://force-cli.herokuapp.com'
+repository = 'https://github.com/ForceCLI/force.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forcecli'

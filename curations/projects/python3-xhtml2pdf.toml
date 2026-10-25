@@ -1,0 +1,8 @@
+id = 'python3-xhtml2pdf'
+name = 'python3-xhtml2pdf'
+
+homepage = 'https://github.com/xhtml2pdf/xhtml2pdf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-xhtml2pdf'

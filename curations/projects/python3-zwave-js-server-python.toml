@@ -1,0 +1,8 @@
+id = 'python3-zwave-js-server-python'
+name = 'python3-zwave-js-server-python'
+
+homepage = 'https://github.com/home-assistant-libs/zwave-js-server-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zwave-js-server-python'

@@ -1,0 +1,8 @@
+id = 'binstats'
+name = 'binstats'
+
+homepage = 'http://www.nottingham.ac.uk/~etzpc/binstats.html'
+
+[[package]]
+channel = 'debian'
+name = 'binstats'

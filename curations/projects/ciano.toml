@@ -1,0 +1,8 @@
+id = 'ciano'
+name = 'ciano'
+
+homepage = 'https://robertsanseries.github.io/ciano'
+
+[[package]]
+channel = 'arch'
+name = 'ciano'

@@ -1,0 +1,8 @@
+id = 'pytermgui'
+name = 'pytermgui'
+
+homepage = 'https://github.com/bczsalba/pytermgui'
+
+[[package]]
+channel = 'debian'
+name = 'pytermgui'

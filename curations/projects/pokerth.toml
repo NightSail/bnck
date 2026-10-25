@@ -1,0 +1,8 @@
+id = 'pokerth'
+name = 'pokerth'
+
+homepage = 'http://www.pokerth.net'
+
+[[package]]
+channel = 'fedora'
+name = 'pokerth'

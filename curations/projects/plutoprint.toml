@@ -1,0 +1,8 @@
+id = 'plutoprint'
+name = 'plutoprint'
+
+homepage = 'https://github.com/plutoprint/plutoprint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plutoprint'

@@ -1,0 +1,12 @@
+id = 'gffread'
+name = 'gffread'
+
+homepage = 'https://github.com/gpertea/gffread'
+
+[[package]]
+channel = 'debian'
+name = 'gffread'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gffread'

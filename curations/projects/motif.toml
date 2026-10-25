@@ -1,0 +1,16 @@
+id = 'motif'
+name = 'motif'
+
+homepage = 'https://motif.ics.com'
+
+[[package]]
+channel = 'arch'
+name = 'openmotif'
+
+[[package]]
+channel = 'debian'
+name = 'mwm'
+
+[[package]]
+channel = 'debian'
+name = 'uil'

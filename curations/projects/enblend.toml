@@ -1,0 +1,20 @@
+id = 'enblend'
+name = 'enblend'
+
+homepage = 'http://enblend.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'enblend-enfuse'
+
+[[package]]
+channel = 'debian'
+name = 'enblend'
+
+[[package]]
+channel = 'debian'
+name = 'enfuse'
+
+[[package]]
+channel = 'fedora'
+name = 'enblend'

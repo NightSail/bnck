@@ -1,0 +1,8 @@
+id = 'pullseq'
+name = 'pullseq'
+
+homepage = 'https://github.com/bcthomas/pullseq'
+
+[[package]]
+channel = 'debian'
+name = 'pullseq'

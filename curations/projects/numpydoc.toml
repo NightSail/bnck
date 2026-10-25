@@ -1,0 +1,12 @@
+id = 'numpydoc'
+name = 'numpydoc'
+
+homepage = 'https://github.com/numpy/numpydoc'
+
+[[package]]
+channel = 'arch'
+name = 'python-numpydoc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-numpydoc'

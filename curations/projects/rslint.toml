@@ -1,0 +1,9 @@
+id = 'rslint'
+name = 'rslint'
+
+homepage = 'https://rslint.org'
+repository = 'https://github.com/rslint/rslint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rslint'

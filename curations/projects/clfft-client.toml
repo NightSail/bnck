@@ -1,0 +1,8 @@
+id = 'clfft-client'
+name = 'clfft-client'
+
+homepage = 'https://github.com/clMathLibraries/clFFT'
+
+[[package]]
+channel = 'debian'
+name = 'clfft-client'

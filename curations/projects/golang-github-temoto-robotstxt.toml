@@ -1,0 +1,8 @@
+id = 'golang-github-temoto-robotstxt'
+name = 'golang-github-temoto-robotstxt'
+
+homepage = 'https://github.com/temoto/robotstxt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-temoto-robotstxt'

@@ -1,0 +1,17 @@
+id = 'anubis'
+name = 'anubis'
+
+homepage = 'https://anubis.techaro.lol'
+repository = 'https://github.com/TecharoHQ/anubis.git'
+
+[[package]]
+channel = 'arch'
+name = 'anubis'
+
+[[package]]
+channel = 'fedora'
+name = 'anubis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/anubis'

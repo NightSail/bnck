@@ -1,0 +1,12 @@
+id = 'gnome-packagekit'
+name = 'gnome-packagekit'
+
+homepage = 'https://help.gnome.org/users/gnome-packagekit/stable'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-package-updater'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-packagekit'

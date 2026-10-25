@@ -1,0 +1,8 @@
+id = 'msgvault'
+name = 'msgvault'
+
+repository = 'https://github.com/kenn-io/msgvault.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msgvault'

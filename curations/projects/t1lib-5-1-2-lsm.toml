@@ -1,0 +1,12 @@
+id = 't1lib-5-1-2-lsm'
+name = 't1lib-5.1.2.lsm'
+
+homepage = 'ftp://sunsite.unc.edu/pub/Linux/libs/graphics/t1lib-5.1.2.lsm'
+
+[[package]]
+channel = 'fedora'
+name = 't1lib'
+
+[[package]]
+channel = 'fedora'
+name = 't1lib-apps'

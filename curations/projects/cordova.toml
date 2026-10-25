@@ -1,0 +1,8 @@
+id = 'cordova'
+name = 'cordova'
+
+homepage = 'https://cordova.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'cordova'

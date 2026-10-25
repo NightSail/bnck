@@ -1,0 +1,8 @@
+id = 'thanos'
+name = 'thanos'
+
+homepage = 'https://thanos.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/thanos'

@@ -1,0 +1,20 @@
+id = 'psutils'
+name = 'psutils'
+
+homepage = 'https://github.com/rrthomas/psutils'
+
+[[package]]
+channel = 'arch'
+name = 'psutils'
+
+[[package]]
+channel = 'debian'
+name = 'psutils'
+
+[[package]]
+channel = 'fedora'
+name = 'psutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psutils'

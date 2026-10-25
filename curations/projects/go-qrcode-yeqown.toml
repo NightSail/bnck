@@ -1,0 +1,8 @@
+id = 'go-qrcode-yeqown'
+name = 'go-qrcode-yeqown'
+
+homepage = 'https://github.com/yeqown/go-qrcode'
+
+[[package]]
+channel = 'debian'
+name = 'go-qrcode-yeqown'

@@ -1,0 +1,16 @@
+id = 'appstream-generator'
+name = 'appstream-generator'
+
+homepage = 'https://github.com/ximion/appstream-generator'
+
+[[package]]
+channel = 'arch'
+name = 'appstream-generator'
+
+[[package]]
+channel = 'debian'
+name = 'appstream-generator'
+
+[[package]]
+channel = 'fedora'
+name = 'appstream-generator'

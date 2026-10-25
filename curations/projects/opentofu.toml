@@ -1,0 +1,17 @@
+id = 'opentofu'
+name = 'opentofu'
+
+homepage = 'https://opentofu.org'
+repository = 'https://github.com/opentofu/opentofu.git'
+
+[[package]]
+channel = 'arch'
+name = 'opentofu'
+
+[[package]]
+channel = 'fedora'
+name = 'opentofu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opentofu'

@@ -1,0 +1,12 @@
+id = 'zypper'
+name = 'zypper'
+
+homepage = 'https://github.com/openSUSE/zypper'
+
+[[package]]
+channel = 'arch'
+name = 'zypper'
+
+[[package]]
+channel = 'debian'
+name = 'zypper'

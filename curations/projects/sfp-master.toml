@@ -1,0 +1,12 @@
+id = 'sfp-master'
+name = 'sfp-master'
+
+homepage = 'https://github.com/bigbigmdm/SFP-Master'
+
+[[package]]
+channel = 'debian'
+name = 'sfp-master'
+
+[[package]]
+channel = 'fedora'
+name = 'sfp-master'

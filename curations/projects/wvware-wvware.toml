@@ -1,0 +1,12 @@
+id = 'wvware-wvware'
+name = 'wvware'
+
+homepage = 'http://wvware.sourceforge.net/libwmf.html'
+
+[[package]]
+channel = 'debian'
+name = 'libwmf-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libwmf-dev'

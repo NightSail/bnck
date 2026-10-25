@@ -1,0 +1,20 @@
+id = 'opencryptoki'
+name = 'opencryptoki'
+
+homepage = 'https://github.com/opencryptoki/opencryptoki'
+
+[[package]]
+channel = 'debian'
+name = 'opencryptoki'
+
+[[package]]
+channel = 'fedora'
+name = 'opencryptoki'
+
+[[package]]
+channel = 'fedora'
+name = 'opencryptoki-ccatok'
+
+[[package]]
+channel = 'fedora'
+name = 'opencryptoki-icsftok'

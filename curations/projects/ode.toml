@@ -1,0 +1,17 @@
+id = 'ode'
+name = 'ode'
+
+homepage = 'https://www.ode.org'
+repository = 'https://bitbucket.org/odedevs/ode.git'
+
+[[package]]
+channel = 'arch'
+name = 'ode'
+
+[[package]]
+channel = 'fedora'
+name = 'ode-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ode'

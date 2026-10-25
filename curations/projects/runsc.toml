@@ -1,0 +1,8 @@
+id = 'runsc'
+name = 'runsc'
+
+homepage = 'https://github.com/google/gvisor'
+
+[[package]]
+channel = 'debian'
+name = 'runsc'

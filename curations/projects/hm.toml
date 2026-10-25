@@ -1,0 +1,16 @@
+id = 'hm'
+name = 'hm'
+
+homepage = 'https://hevc.hhi.fraunhofer.de'
+
+[[package]]
+channel = 'arch'
+name = 'hm'
+
+[[package]]
+channel = 'debian'
+name = 'hm'
+
+[[package]]
+channel = 'debian'
+name = 'hm-highbitdepth'

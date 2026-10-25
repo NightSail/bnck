@@ -1,0 +1,8 @@
+id = 'srg'
+name = 'srg'
+
+homepage = 'http://www.crc.net.nz/software/srg.php'
+
+[[package]]
+channel = 'debian'
+name = 'srg'

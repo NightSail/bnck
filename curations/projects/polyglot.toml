@@ -1,0 +1,9 @@
+id = 'polyglot'
+name = 'polyglot'
+
+homepage = 'https://www.chessprogramming.org/PolyGlot'
+repository = 'https://hgm.nubati.net/git/polyglot.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/polyglot'

@@ -1,0 +1,8 @@
+id = 'wmxmms2'
+name = 'wmxmms2'
+
+homepage = 'https://reboli.nl'
+
+[[package]]
+channel = 'debian'
+name = 'wmxmms2'

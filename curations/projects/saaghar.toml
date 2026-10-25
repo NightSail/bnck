@@ -1,0 +1,8 @@
+id = 'saaghar'
+name = 'Saaghar'
+
+homepage = 'http://pozh.org/saaghar'
+
+[[package]]
+channel = 'fedora'
+name = 'Saaghar'

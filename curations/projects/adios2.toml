@@ -1,0 +1,24 @@
+id = 'adios2'
+name = 'adios2'
+
+homepage = 'https://github.com/ornladios/ADIOS2'
+
+[[package]]
+channel = 'debian'
+name = 'adios2-mpi-bin'
+
+[[package]]
+channel = 'debian'
+name = 'adios2-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'adios2-serial-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libadios2-mpi-core-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libadios2-serial-core-dev'

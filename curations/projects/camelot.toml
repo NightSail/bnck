@@ -1,0 +1,8 @@
+id = 'camelot'
+name = 'camelot'
+
+homepage = 'http://camelot-py.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'camelot'

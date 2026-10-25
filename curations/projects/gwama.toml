@@ -1,0 +1,8 @@
+id = 'gwama'
+name = 'gwama'
+
+homepage = 'https://genomics.ut.ee/en/tools'
+
+[[package]]
+channel = 'debian'
+name = 'gwama'

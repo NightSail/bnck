@@ -1,0 +1,8 @@
+id = 'komodo'
+name = 'komodo'
+
+homepage = 'https://apps.kde.org/komodo'
+
+[[package]]
+channel = 'arch'
+name = 'komodo'

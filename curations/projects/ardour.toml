@@ -1,0 +1,28 @@
+id = 'ardour'
+name = 'ardour'
+
+homepage = 'https://ardour.org'
+
+[[package]]
+channel = 'arch'
+name = 'ardour'
+
+[[package]]
+channel = 'debian'
+name = 'ardour'
+
+[[package]]
+channel = 'debian'
+name = 'ardour-video-timeline'
+
+[[package]]
+channel = 'fedora'
+name = 'ardour6'
+
+[[package]]
+channel = 'fedora'
+name = 'ardour7'
+
+[[package]]
+channel = 'fedora'
+name = 'ardour8'

@@ -1,0 +1,8 @@
+id = 'debsigs'
+name = 'debsigs'
+
+homepage = 'https://gitlab.com/debsigs/debsigs'
+
+[[package]]
+channel = 'debian'
+name = 'debsigs'

@@ -1,0 +1,8 @@
+id = 'xfpanel-switch'
+name = 'xfpanel-switch'
+
+homepage = 'https://launchpad.net/xfpanel-switch'
+
+[[package]]
+channel = 'fedora'
+name = 'xfpanel-switch'

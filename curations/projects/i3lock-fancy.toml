@@ -1,0 +1,8 @@
+id = 'i3lock-fancy'
+name = 'i3lock-fancy'
+
+homepage = 'https://github.com/meskarune/i3lock-fancy'
+
+[[package]]
+channel = 'debian'
+name = 'i3lock-fancy'

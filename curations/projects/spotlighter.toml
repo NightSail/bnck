@@ -1,0 +1,6 @@
+id = 'spotlighter'
+name = 'spotlighter'
+
+[[package]]
+channel = 'debian'
+name = 'spotlighter'

@@ -1,0 +1,8 @@
+id = 'compiledb'
+name = 'compiledb'
+
+repository = 'https://github.com/nickdiego/compiledb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/compiledb'

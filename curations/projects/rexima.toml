@@ -1,0 +1,8 @@
+id = 'rexima'
+name = 'rexima'
+
+homepage = 'https://www.svgalib.org/rus/rexima.html'
+
+[[package]]
+channel = 'debian'
+name = 'rexima'

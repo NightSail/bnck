@@ -1,0 +1,10 @@
+id = 'ekeyd'
+name = 'ekeyd'
+
+[[package]]
+channel = 'debian'
+name = 'ekeyd'
+
+[[package]]
+channel = 'debian'
+name = 'ekeyd-egd-linux'

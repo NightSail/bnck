@@ -1,0 +1,8 @@
+id = 'cyclonedds-tools'
+name = 'cyclonedds-tools'
+
+homepage = 'https://projects.eclipse.org/projects/iot.cyclonedds'
+
+[[package]]
+channel = 'debian'
+name = 'cyclonedds-tools'

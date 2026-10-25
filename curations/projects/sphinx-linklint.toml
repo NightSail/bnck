@@ -1,0 +1,8 @@
+id = 'sphinx-linklint'
+name = 'sphinx-linklint'
+
+homepage = 'https://github.com/nedbat/sphinx-linklint'
+
+[[package]]
+channel = 'debian'
+name = 'sphinx-linklint'

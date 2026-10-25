@@ -1,0 +1,8 @@
+id = 'robotraconteurgen'
+name = 'robotraconteurgen'
+
+homepage = 'https://github.com/robotraconteur/robotraconteur'
+
+[[package]]
+channel = 'debian'
+name = 'robotraconteurgen'

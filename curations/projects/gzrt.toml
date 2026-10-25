@@ -1,0 +1,12 @@
+id = 'gzrt'
+name = 'gzrt'
+
+homepage = 'https://www.urbanophile.com/arenn/coding/gzrt/gzrt.html'
+
+[[package]]
+channel = 'debian'
+name = 'gzrt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gzrt'

@@ -1,0 +1,6 @@
+id = 'openbsd-inetd'
+name = 'openbsd-inetd'
+
+[[package]]
+channel = 'debian'
+name = 'openbsd-inetd'

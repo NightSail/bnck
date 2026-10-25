@@ -1,0 +1,20 @@
+id = 'oggz'
+name = 'oggz'
+
+homepage = 'https://www.xiph.org/oggz'
+
+[[package]]
+channel = 'arch'
+name = 'liboggz'
+
+[[package]]
+channel = 'debian'
+name = 'oggz-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'liboggz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oggz'

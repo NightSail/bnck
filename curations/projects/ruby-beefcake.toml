@@ -1,0 +1,8 @@
+id = 'ruby-beefcake'
+name = 'ruby-beefcake'
+
+homepage = 'https://github.com/protobuf-ruby/beefcake'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-beefcake'

@@ -1,0 +1,8 @@
+id = 'jest'
+name = 'jest'
+
+homepage = 'https://jestjs.io'
+
+[[package]]
+channel = 'debian'
+name = 'jest'

@@ -1,0 +1,8 @@
+id = 'gff2aplot'
+name = 'gff2aplot'
+
+homepage = 'https://genome.crg.es/software/gfftools/GFF2APLOT.html'
+
+[[package]]
+channel = 'debian'
+name = 'gff2aplot'

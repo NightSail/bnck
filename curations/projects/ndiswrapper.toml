@@ -1,0 +1,8 @@
+id = 'ndiswrapper'
+name = 'ndiswrapper'
+
+homepage = 'https://sourceforge.net/projects/ndiswrapper'
+
+[[package]]
+channel = 'arch'
+name = 'ndiswrapper'

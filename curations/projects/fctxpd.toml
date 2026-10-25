@@ -1,0 +1,8 @@
+id = 'fctxpd'
+name = 'fctxpd'
+
+homepage = 'https://github.com/brocade/bsn-fc-txptd'
+
+[[package]]
+channel = 'fedora'
+name = 'fctxpd'

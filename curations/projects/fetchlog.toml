@@ -1,0 +1,8 @@
+id = 'fetchlog'
+name = 'fetchlog'
+
+homepage = 'http://sourceforge.net/projects/fetchlog'
+
+[[package]]
+channel = 'fedora'
+name = 'fetchlog'

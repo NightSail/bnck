@@ -1,0 +1,17 @@
+id = 'vapoursynth'
+name = 'vapoursynth'
+
+homepage = 'http://www.vapoursynth.com'
+repository = 'https://github.com/vapoursynth/vapoursynth.git'
+
+[[package]]
+channel = 'arch'
+name = 'vapoursynth'
+
+[[package]]
+channel = 'fedora'
+name = 'vapoursynth-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vapoursynth'

@@ -1,0 +1,8 @@
+id = 'w3cam'
+name = 'w3cam'
+
+homepage = 'http://mpx.freeshell.net'
+
+[[package]]
+channel = 'debian'
+name = 'w3cam'

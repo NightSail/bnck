@@ -1,0 +1,21 @@
+id = 'gammaray'
+name = 'gammaray'
+
+homepage = 'https://www.kdab.com/gammaray'
+repository = 'https://github.com/KDAB/GammaRay.git'
+
+[[package]]
+channel = 'arch'
+name = 'gammaray'
+
+[[package]]
+channel = 'debian'
+name = 'gammaray'
+
+[[package]]
+channel = 'fedora'
+name = 'gammaray'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gammaray'

@@ -1,0 +1,8 @@
+id = 'cling'
+name = 'cling'
+
+homepage = 'https://root.cern/cling'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cling'

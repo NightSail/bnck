@@ -1,0 +1,8 @@
+id = 'hellwal'
+name = 'hellwal'
+
+homepage = 'https://github.com/danihek/hellwal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hellwal'

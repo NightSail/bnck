@@ -1,0 +1,8 @@
+id = 'binoculars'
+name = 'binoculars'
+
+homepage = 'https://github.com/picca/binoculars'
+
+[[package]]
+channel = 'debian'
+name = 'binoculars'

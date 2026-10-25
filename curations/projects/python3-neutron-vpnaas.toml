@@ -1,0 +1,8 @@
+id = 'python3-neutron-vpnaas'
+name = 'python3-neutron-vpnaas'
+
+homepage = 'https://github.com/openstack/neutron-vpnaas'
+
+[[package]]
+channel = 'debian'
+name = 'python3-neutron-vpnaas'

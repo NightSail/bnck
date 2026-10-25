@@ -1,0 +1,8 @@
+id = 'qucs'
+name = 'qucs'
+
+homepage = 'http://qucs.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'qucs'

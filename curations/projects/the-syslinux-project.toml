@@ -1,0 +1,16 @@
+id = 'the-syslinux-project'
+name = 'The_Syslinux_Project'
+
+homepage = 'http://syslinux.zytor.com/wiki/index.php/The_Syslinux_Project'
+
+[[package]]
+channel = 'fedora'
+name = 'syslinux'
+
+[[package]]
+channel = 'fedora'
+name = 'syslinux-extlinux'
+
+[[package]]
+channel = 'fedora'
+name = 'syslinux-perl'

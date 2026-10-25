@@ -1,0 +1,8 @@
+id = 'golang-google-grpc'
+name = 'golang-google-grpc'
+
+homepage = 'https://github.com/grpc/grpc-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-google-grpc'

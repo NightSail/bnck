@@ -1,0 +1,8 @@
+id = 'pawk'
+name = 'pawk'
+
+homepage = 'https://github.com/alecthomas/pawk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pawk'

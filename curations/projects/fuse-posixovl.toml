@@ -1,0 +1,8 @@
+id = 'fuse-posixovl'
+name = 'fuse-posixovl'
+
+homepage = 'https://sourceforge.net/projects/posixovl'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-posixovl'

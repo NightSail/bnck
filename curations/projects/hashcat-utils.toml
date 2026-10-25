@@ -1,0 +1,8 @@
+id = 'hashcat-utils'
+name = 'hashcat-utils'
+
+homepage = 'https://github.com/hashcat/hashcat-utils'
+
+[[package]]
+channel = 'arch'
+name = 'hashcat-utils'

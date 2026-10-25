@@ -1,0 +1,52 @@
+id = 'ros-comm'
+name = 'ros_comm'
+
+homepage = 'https://wiki.ros.org/ros_comm'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosbag'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosgraph'
+
+[[package]]
+channel = 'debian'
+name = 'python3-roslaunch'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosmaster'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosmsg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosnode'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosparam'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rospy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosservice'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rostest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rostopic'
+
+[[package]]
+channel = 'debian'
+name = 'python3-roswtf'

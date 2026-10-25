@@ -1,0 +1,12 @@
+id = 'nitrocli'
+name = 'nitrocli'
+
+homepage = 'https://github.com/d-e-s-o/nitrocli'
+
+[[package]]
+channel = 'arch'
+name = 'nitrocli'
+
+[[package]]
+channel = 'debian'
+name = 'nitrocli'

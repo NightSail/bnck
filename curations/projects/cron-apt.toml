@@ -1,0 +1,6 @@
+id = 'cron-apt'
+name = 'cron-apt'
+
+[[package]]
+channel = 'debian'
+name = 'cron-apt'

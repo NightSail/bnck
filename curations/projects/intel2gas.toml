@@ -1,0 +1,6 @@
+id = 'intel2gas'
+name = 'intel2gas'
+
+[[package]]
+channel = 'debian'
+name = 'intel2gas'

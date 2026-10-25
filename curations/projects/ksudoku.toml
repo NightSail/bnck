@@ -1,0 +1,12 @@
+id = 'ksudoku'
+name = 'ksudoku'
+
+homepage = 'https://apps.kde.org/ksudoku'
+
+[[package]]
+channel = 'arch'
+name = 'ksudoku'
+
+[[package]]
+channel = 'fedora'
+name = 'ksudoku'

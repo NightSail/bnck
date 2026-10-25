@@ -1,0 +1,8 @@
+id = 'freebasic'
+name = 'freebasic'
+
+homepage = 'https://www.freebasic.net'
+
+[[package]]
+channel = 'arch'
+name = 'freebasic'

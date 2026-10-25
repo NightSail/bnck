@@ -1,0 +1,16 @@
+id = 'opensips'
+name = 'opensips'
+
+homepage = 'https://www.opensips.org'
+
+[[package]]
+channel = 'arch'
+name = 'opensips'
+
+[[package]]
+channel = 'fedora'
+name = 'opensips'
+
+[[package]]
+channel = 'fedora'
+name = 'opensips-db_berkeley'

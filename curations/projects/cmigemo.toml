@@ -1,0 +1,21 @@
+id = 'cmigemo'
+name = 'cmigemo'
+
+homepage = 'http://www.kaoriya.net/software/cmigemo'
+repository = 'https://github.com/koron/cmigemo.git'
+
+[[package]]
+channel = 'debian'
+name = 'cmigemo'
+
+[[package]]
+channel = 'debian'
+name = 'cmigemo-common'
+
+[[package]]
+channel = 'fedora'
+name = 'cmigemo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmigemo'

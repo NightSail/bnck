@@ -1,0 +1,8 @@
+id = 'csstidy'
+name = 'csstidy'
+
+homepage = 'https://csstidy.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'csstidy'

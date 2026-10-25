@@ -1,0 +1,12 @@
+id = 'cciss'
+name = 'cciss'
+
+homepage = 'https://cciss.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cciss-vol-status'
+
+[[package]]
+channel = 'fedora'
+name = 'cciss_vol_status'

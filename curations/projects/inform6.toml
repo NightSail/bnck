@@ -1,0 +1,9 @@
+id = 'inform6'
+name = 'inform6'
+
+homepage = 'https://inform-fiction.org/inform6.html'
+repository = 'https://gitlab.com/DavidGriffith/inform6unix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inform6'

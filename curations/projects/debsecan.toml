@@ -1,0 +1,8 @@
+id = 'debsecan'
+name = 'debsecan'
+
+homepage = 'https://security-team.debian.org/security_tracker.html'
+
+[[package]]
+channel = 'debian'
+name = 'debsecan'

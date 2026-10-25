@@ -1,0 +1,16 @@
+id = 'zxing-cpp'
+name = 'zxing-cpp'
+
+repository = 'https://github.com/zxing-cpp/zxing-cpp.git'
+
+[[package]]
+channel = 'arch'
+name = 'zxing-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'zxing-cpp-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zxing-cpp'

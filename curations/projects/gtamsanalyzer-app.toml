@@ -1,0 +1,8 @@
+id = 'gtamsanalyzer-app'
+name = 'gtamsanalyzer.app'
+
+homepage = 'http://tamsys.sourceforge.net/gtams'
+
+[[package]]
+channel = 'debian'
+name = 'gtamsanalyzer.app'

@@ -1,0 +1,8 @@
+id = 'haskell-shake'
+name = 'haskell-shake'
+
+homepage = 'https://shakebuild.com'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-shake'

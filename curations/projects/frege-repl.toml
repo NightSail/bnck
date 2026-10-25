@@ -1,0 +1,8 @@
+id = 'frege-repl'
+name = 'frege-repl'
+
+homepage = 'https://github.com/Frege/frege-repl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/frege-repl'

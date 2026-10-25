@@ -1,0 +1,184 @@
+id = 'python'
+name = 'python'
+
+homepage = 'https://www.python.org'
+
+[[package]]
+channel = 'arch'
+name = 'python'
+
+[[package]]
+channel = 'debian'
+name = 'idle'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'libpython3-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dbg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3-minimal'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nopie'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-python3'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-python3'
+
+[[package]]
+channel = 'fedora'
+name = 'python-unversioned-command'
+
+[[package]]
+channel = 'fedora'
+name = 'python3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.10'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.10-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.10-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.10-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.11'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.11-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.11-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.11-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.12'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.12-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.12-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.12-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.13'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.13-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.13-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.13-freethreading'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.13-freethreading-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.13-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.14-freethreading'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.14-freethreading-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.6'
+
+[[package]]
+channel = 'fedora'
+name = 'python3.9'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-freethreading'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python@3.10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python@3.11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python@3.12'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python@3.13'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python@3.14'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python@3.9'

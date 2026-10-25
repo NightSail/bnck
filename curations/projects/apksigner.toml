@@ -1,0 +1,8 @@
+id = 'apksigner'
+name = 'apksigner'
+
+homepage = 'https://source.android.com/source/developing.html'
+
+[[package]]
+channel = 'debian'
+name = 'apksigner'

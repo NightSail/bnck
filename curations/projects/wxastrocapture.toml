@@ -1,0 +1,8 @@
+id = 'wxastrocapture'
+name = 'wxastrocapture'
+
+homepage = 'https://github.com/wxAstro/wxAstroCapture'
+
+[[package]]
+channel = 'debian'
+name = 'wxastrocapture'

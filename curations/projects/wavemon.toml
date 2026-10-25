@@ -1,0 +1,12 @@
+id = 'wavemon'
+name = 'wavemon'
+
+homepage = 'https://github.com/uoaerg/wavemon'
+
+[[package]]
+channel = 'arch'
+name = 'wavemon'
+
+[[package]]
+channel = 'debian'
+name = 'wavemon'

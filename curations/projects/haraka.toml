@@ -1,0 +1,8 @@
+id = 'haraka'
+name = 'haraka'
+
+homepage = 'https://haraka.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haraka'

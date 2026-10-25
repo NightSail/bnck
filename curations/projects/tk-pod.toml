@@ -1,0 +1,12 @@
+id = 'tk-pod'
+name = 'Tk-Pod'
+
+homepage = 'https://metacpan.org/release/Tk-Pod'
+
+[[package]]
+channel = 'debian'
+name = 'libtk-pod-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Tk-Pod'

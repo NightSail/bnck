@@ -1,0 +1,16 @@
+id = 'budgie-desktop'
+name = 'budgie-desktop'
+
+homepage = 'https://github.com/BuddiesOfBudgie/budgie-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'budgie-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'budgie-core'
+
+[[package]]
+channel = 'fedora'
+name = 'budgie-desktop'

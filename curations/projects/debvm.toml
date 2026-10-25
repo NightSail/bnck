@@ -1,0 +1,8 @@
+id = 'debvm'
+name = 'debvm'
+
+homepage = 'https://salsa.debian.org/helmutg/debvm'
+
+[[package]]
+channel = 'debian'
+name = 'debvm'

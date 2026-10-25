@@ -1,0 +1,12 @@
+id = 'authoscope'
+name = 'authoscope'
+
+homepage = 'https://github.com/kpcyrd/authoscope'
+
+[[package]]
+channel = 'arch'
+name = 'authoscope'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/authoscope'

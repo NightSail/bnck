@@ -1,0 +1,8 @@
+id = 'uffizzi'
+name = 'uffizzi'
+
+homepage = 'https://uffizzi.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uffizzi'

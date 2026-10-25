@@ -1,0 +1,8 @@
+id = 're-flex'
+name = 're-flex'
+
+homepage = 'https://www.genivia.com/doc/reflex/html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/re-flex'

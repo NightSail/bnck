@@ -1,0 +1,8 @@
+id = 'structure-synth'
+name = 'structure-synth'
+
+homepage = 'http://structuresynth.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'structure-synth'

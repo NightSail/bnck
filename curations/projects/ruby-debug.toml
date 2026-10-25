@@ -1,0 +1,8 @@
+id = 'ruby-debug'
+name = 'ruby-debug'
+
+homepage = 'https://github.com/ruby/debug'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-debug'

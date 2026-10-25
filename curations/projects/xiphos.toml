@@ -1,0 +1,16 @@
+id = 'xiphos'
+name = 'xiphos'
+
+homepage = 'https://xiphos.org'
+
+[[package]]
+channel = 'arch'
+name = 'xiphos'
+
+[[package]]
+channel = 'debian'
+name = 'xiphos'
+
+[[package]]
+channel = 'fedora'
+name = 'xiphos'

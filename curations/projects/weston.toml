@@ -1,0 +1,8 @@
+id = 'weston'
+name = 'weston'
+
+homepage = 'https://wayland.pages.freedesktop.org/weston'
+
+[[package]]
+channel = 'debian'
+name = 'weston'

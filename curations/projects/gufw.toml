@@ -1,0 +1,12 @@
+id = 'gufw'
+name = 'gufw'
+
+homepage = 'https://costales.github.io/projects/gufw'
+
+[[package]]
+channel = 'arch'
+name = 'gufw'
+
+[[package]]
+channel = 'debian'
+name = 'gufw'

@@ -1,0 +1,20 @@
+id = 'tinycdb'
+name = 'tinycdb'
+
+homepage = 'https://www.corpit.ru/mjt/tinycdb.html'
+
+[[package]]
+channel = 'arch'
+name = 'tinycdb'
+
+[[package]]
+channel = 'debian'
+name = 'tinycdb'
+
+[[package]]
+channel = 'fedora'
+name = 'tinycdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinycdb'

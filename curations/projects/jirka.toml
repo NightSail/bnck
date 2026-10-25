@@ -1,0 +1,16 @@
+id = 'jirka'
+name = 'jirka'
+
+homepage = 'https://www.jirka.org/genius.html'
+
+[[package]]
+channel = 'arch'
+name = 'genius'
+
+[[package]]
+channel = 'fedora'
+name = 'genius'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-genius'

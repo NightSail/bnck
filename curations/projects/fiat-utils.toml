@@ -1,0 +1,8 @@
+id = 'fiat-utils'
+name = 'fiat-utils'
+
+homepage = 'https://github.com/ecmwf-ifs/fiat'
+
+[[package]]
+channel = 'debian'
+name = 'fiat-utils'

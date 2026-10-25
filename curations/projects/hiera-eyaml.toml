@@ -1,0 +1,12 @@
+id = 'hiera-eyaml'
+name = 'hiera-eyaml'
+
+homepage = 'https://github.com/voxpupuli/hiera-eyaml'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-hiera-eyaml'
+
+[[package]]
+channel = 'debian'
+name = 'hiera-eyaml'

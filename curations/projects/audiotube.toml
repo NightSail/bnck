@@ -1,0 +1,12 @@
+id = 'audiotube'
+name = 'audiotube'
+
+homepage = 'https://apps.kde.org/audiotube'
+
+[[package]]
+channel = 'arch'
+name = 'audiotube'
+
+[[package]]
+channel = 'fedora'
+name = 'audiotube'

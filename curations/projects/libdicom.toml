@@ -1,0 +1,20 @@
+id = 'libdicom'
+name = 'libdicom'
+
+homepage = 'https://github.com/ImagingDataCommons/libdicom'
+
+[[package]]
+channel = 'arch'
+name = 'libdicom'
+
+[[package]]
+channel = 'debian'
+name = 'libdicom-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libdicom-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdicom'

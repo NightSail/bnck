@@ -1,0 +1,8 @@
+id = 'htmlcxx-gcc-libs'
+name = 'htmlcxx'
+
+homepage = 'http://gcc-libs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'htmlcxx'

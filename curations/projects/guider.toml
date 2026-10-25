@@ -1,0 +1,8 @@
+id = 'guider'
+name = 'guider'
+
+homepage = 'https://github.com/iipeace/guider'
+
+[[package]]
+channel = 'debian'
+name = 'guider'

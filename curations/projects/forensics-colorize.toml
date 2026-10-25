@@ -1,0 +1,8 @@
+id = 'forensics-colorize'
+name = 'forensics-colorize'
+
+homepage = 'https://github.com/jessek/colorize'
+
+[[package]]
+channel = 'debian'
+name = 'forensics-colorize'

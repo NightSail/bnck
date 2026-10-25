@@ -1,0 +1,8 @@
+id = 'python3-mystic'
+name = 'python3-mystic'
+
+homepage = 'https://github.com/uqfoundation/mystic'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mystic'

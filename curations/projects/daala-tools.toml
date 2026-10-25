@@ -1,0 +1,8 @@
+id = 'daala-tools'
+name = 'daala-tools'
+
+homepage = 'http://xiph.org/daala'
+
+[[package]]
+channel = 'fedora'
+name = 'daala-tools'

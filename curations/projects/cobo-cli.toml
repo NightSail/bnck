@@ -1,0 +1,8 @@
+id = 'cobo-cli'
+name = 'cobo-cli'
+
+repository = 'https://github.com/CoboGlobal/cobo-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cobo-cli'

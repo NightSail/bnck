@@ -1,0 +1,8 @@
+id = 'paperwork'
+name = 'paperwork'
+
+homepage = 'https://gitlab.gnome.org/World/OpenPaperwork/paperwork'
+
+[[package]]
+channel = 'fedora'
+name = 'paperwork'

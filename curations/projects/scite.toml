@@ -1,0 +1,12 @@
+id = 'scite'
+name = 'scite'
+
+homepage = 'https://www.scintilla.org/SciTE.html'
+
+[[package]]
+channel = 'arch'
+name = 'scite'
+
+[[package]]
+channel = 'debian'
+name = 'scite'

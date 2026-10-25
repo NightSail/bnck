@@ -1,0 +1,8 @@
+id = 'boats'
+name = 'boats'
+
+homepage = 'http://boats.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'boats'

@@ -1,0 +1,8 @@
+id = 'obitools'
+name = 'obitools'
+
+homepage = 'https://metabarcoding.org/obitools3'
+
+[[package]]
+channel = 'debian'
+name = 'obitools'

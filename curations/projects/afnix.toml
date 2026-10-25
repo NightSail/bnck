@@ -1,0 +1,8 @@
+id = 'afnix'
+name = 'afnix'
+
+homepage = 'http://www.afnix.org'
+
+[[package]]
+channel = 'debian'
+name = 'afnix'

@@ -1,0 +1,6 @@
+id = 'libperldoc-search-perl'
+name = 'libperldoc-search-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libperldoc-search-perl'

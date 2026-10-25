@@ -1,0 +1,8 @@
+id = 'fkill'
+name = 'fkill'
+
+homepage = 'https://github.com/sindresorhus/fkill-cli'
+
+[[package]]
+channel = 'arch'
+name = 'fkill'

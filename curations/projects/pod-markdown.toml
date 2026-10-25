@@ -1,0 +1,12 @@
+id = 'pod-markdown'
+name = 'Pod-Markdown'
+
+homepage = 'https://metacpan.org/release/Pod-Markdown'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-markdown-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Markdown'

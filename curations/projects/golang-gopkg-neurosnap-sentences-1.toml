@@ -1,0 +1,8 @@
+id = 'golang-gopkg-neurosnap-sentences-1'
+name = 'golang-gopkg-neurosnap-sentences-1'
+
+homepage = 'https://github.com/neurosnap/sentences'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-gopkg-neurosnap-sentences-1'

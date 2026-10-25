@@ -1,0 +1,12 @@
+id = 'largetifftools'
+name = 'largetifftools'
+
+homepage = 'https://pperso.ijclab.in2p3.fr/page_perso/Deroulers/software/largetifftools'
+
+[[package]]
+channel = 'debian'
+name = 'largetifftools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/largetifftools'

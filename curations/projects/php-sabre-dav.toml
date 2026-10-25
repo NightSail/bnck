@@ -1,0 +1,8 @@
+id = 'php-sabre-dav'
+name = 'php-sabre-dav'
+
+homepage = 'http://sabre.io/dav'
+
+[[package]]
+channel = 'debian'
+name = 'php-sabre-dav'

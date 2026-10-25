@@ -1,0 +1,8 @@
+id = 'fontrpmspec'
+name = 'fontrpmspec'
+
+homepage = 'https://github.com/fedora-i18n/font-rpm-spec-generator'
+
+[[package]]
+channel = 'fedora'
+name = 'fontrpmspec'

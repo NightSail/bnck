@@ -1,0 +1,16 @@
+id = 'gwenview'
+name = 'gwenview'
+
+homepage = 'https://apps.kde.org/gwenview'
+
+[[package]]
+channel = 'arch'
+name = 'gwenview'
+
+[[package]]
+channel = 'debian'
+name = 'gwenview'
+
+[[package]]
+channel = 'fedora'
+name = 'gwenview'

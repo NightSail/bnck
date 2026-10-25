@@ -1,0 +1,8 @@
+id = 'libdaq-dev'
+name = 'libdaq-dev'
+
+homepage = 'https://www.snort.org/downloads'
+
+[[package]]
+channel = 'debian'
+name = 'libdaq-dev'

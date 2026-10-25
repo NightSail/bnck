@@ -4,5 +4,9 @@ name = 'git-bug'
 repository = 'https://github.com/git-bug/git-bug'
 
 [[package]]
+channel = 'arch'
+name = 'git-bug'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/git-bug'

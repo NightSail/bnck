@@ -1,0 +1,8 @@
+id = 'switchdesk'
+name = 'switchdesk'
+
+homepage = 'https://github.com/ngothan/switchdesk'
+
+[[package]]
+channel = 'fedora'
+name = 'switchdesk'

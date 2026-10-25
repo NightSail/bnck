@@ -1,0 +1,8 @@
+id = 'moose'
+name = 'moose'
+
+homepage = 'http://moose.ncbs.res.in'
+
+[[package]]
+channel = 'fedora'
+name = 'moose'

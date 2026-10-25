@@ -1,0 +1,8 @@
+id = 'gns3-net-converter'
+name = 'gns3-net-converter'
+
+homepage = 'https://pypi.org/project/gns3-net-converter'
+
+[[package]]
+channel = 'fedora'
+name = 'gns3-net-converter'

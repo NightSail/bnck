@@ -1,0 +1,21 @@
+id = 'polyml'
+name = 'polyml'
+
+homepage = 'https://polyml.org'
+repository = 'https://github.com/polyml/polyml.git'
+
+[[package]]
+channel = 'arch'
+name = 'polyml'
+
+[[package]]
+channel = 'debian'
+name = 'polyml'
+
+[[package]]
+channel = 'fedora'
+name = 'polyml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/polyml'

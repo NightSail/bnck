@@ -1,0 +1,8 @@
+id = 'commit'
+name = 'commit'
+
+homepage = 'https://apps.gnome.org/Commit'
+
+[[package]]
+channel = 'arch'
+name = 'commit'

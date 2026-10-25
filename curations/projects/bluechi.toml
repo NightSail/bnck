@@ -1,0 +1,12 @@
+id = 'bluechi'
+name = 'bluechi'
+
+homepage = 'https://github.com/eclipse-bluechi/bluechi'
+
+[[package]]
+channel = 'fedora'
+name = 'bluechi-ctl'
+
+[[package]]
+channel = 'fedora'
+name = 'bluechi-is-online'

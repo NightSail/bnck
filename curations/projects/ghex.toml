@@ -1,0 +1,20 @@
+id = 'ghex'
+name = 'ghex'
+
+homepage = 'https://wiki.gnome.org/Apps/Ghex'
+
+[[package]]
+channel = 'arch'
+name = 'ghex'
+
+[[package]]
+channel = 'debian'
+name = 'ghex'
+
+[[package]]
+channel = 'fedora'
+name = 'ghex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghex'

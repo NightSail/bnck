@@ -1,0 +1,12 @@
+id = 'markdown'
+name = 'markdown'
+
+homepage = 'https://daringfireball.net/projects/markdown'
+
+[[package]]
+channel = 'debian'
+name = 'markdown'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/markdown'

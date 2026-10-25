@@ -1,0 +1,12 @@
+id = 'ceilometer'
+name = 'ceilometer'
+
+homepage = 'http://wiki.openstack.org/Ceilometer'
+
+[[package]]
+channel = 'debian'
+name = 'ceilometer-agent-notification'
+
+[[package]]
+channel = 'debian'
+name = 'ceilometer-common'

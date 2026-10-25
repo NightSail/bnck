@@ -1,0 +1,8 @@
+id = 'prometheus-nextcloud-exporter'
+name = 'prometheus-nextcloud-exporter'
+
+homepage = 'https://github.com/xperimental/nextcloud-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-nextcloud-exporter'

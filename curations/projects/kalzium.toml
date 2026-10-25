@@ -1,0 +1,16 @@
+id = 'kalzium'
+name = 'kalzium'
+
+homepage = 'https://apps.kde.org/kalzium'
+
+[[package]]
+channel = 'arch'
+name = 'kalzium'
+
+[[package]]
+channel = 'debian'
+name = 'kalzium'
+
+[[package]]
+channel = 'fedora'
+name = 'kalzium'

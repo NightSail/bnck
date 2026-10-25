@@ -1,0 +1,8 @@
+id = 'coterm'
+name = 'coterm'
+
+homepage = 'https://docs.datadoghq.com/coterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/coterm'

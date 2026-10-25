@@ -1,0 +1,16 @@
+id = 'flameshot'
+name = 'flameshot'
+
+homepage = 'https://github.com/flameshot-org/flameshot'
+
+[[package]]
+channel = 'arch'
+name = 'flameshot'
+
+[[package]]
+channel = 'debian'
+name = 'flameshot'
+
+[[package]]
+channel = 'fedora'
+name = 'flameshot'

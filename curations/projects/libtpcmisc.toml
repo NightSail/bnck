@@ -1,0 +1,8 @@
+id = 'libtpcmisc'
+name = 'libtpcmisc'
+
+homepage = 'https://gitlab.utu.fi/vesoik/tpcclib'
+
+[[package]]
+channel = 'fedora'
+name = 'libtpcmisc'

@@ -1,0 +1,8 @@
+id = 'libxsmm-devel'
+name = 'libxsmm-devel'
+
+homepage = 'https://github.com/hfp/libxsmm'
+
+[[package]]
+channel = 'fedora'
+name = 'libxsmm-devel'

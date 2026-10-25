@@ -1,0 +1,20 @@
+id = 'xa'
+name = 'xa'
+
+homepage = 'https://www.floodgap.com/retrotech/xa'
+
+[[package]]
+channel = 'arch'
+name = 'xa'
+
+[[package]]
+channel = 'debian'
+name = 'xa65'
+
+[[package]]
+channel = 'fedora'
+name = 'xa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xa'

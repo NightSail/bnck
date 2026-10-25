@@ -1,0 +1,8 @@
+id = 'wys'
+name = 'wys'
+
+homepage = 'https://source.puri.sm/Librem5/wys'
+
+[[package]]
+channel = 'debian'
+name = 'wys'

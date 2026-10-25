@@ -1,0 +1,8 @@
+id = 'i2p'
+name = 'i2p'
+
+homepage = 'https://geti2p.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i2p'

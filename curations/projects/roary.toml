@@ -1,0 +1,8 @@
+id = 'roary'
+name = 'roary'
+
+homepage = 'https://sanger-pathogens.github.io/Roary'
+
+[[package]]
+channel = 'debian'
+name = 'roary'

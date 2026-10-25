@@ -1,0 +1,8 @@
+id = 'refstack-client'
+name = 'refstack-client'
+
+homepage = 'https://opendev.org/openinfra/refstack-client'
+
+[[package]]
+channel = 'debian'
+name = 'refstack-client'

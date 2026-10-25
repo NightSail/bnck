@@ -1,0 +1,12 @@
+id = 'vkbasalt-cli'
+name = 'vkbasalt-cli'
+
+homepage = 'https://gitlab.com/TheEvilSkeleton/vkbasalt-cli'
+
+[[package]]
+channel = 'debian'
+name = 'vkbasalt-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vkbasalt-cli'

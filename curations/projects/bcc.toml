@@ -1,0 +1,32 @@
+id = 'bcc'
+name = 'bcc'
+
+homepage = 'https://github.com/iovisor/bcc'
+
+[[package]]
+channel = 'arch'
+name = 'bcc-libbpf-tools'
+
+[[package]]
+channel = 'debian'
+name = 'bpfcc-introspection'
+
+[[package]]
+channel = 'debian'
+name = 'bpfcc-lua'
+
+[[package]]
+channel = 'debian'
+name = 'bpfcc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libbpf-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'bcc-lua'
+
+[[package]]
+channel = 'fedora'
+name = 'libbpf-tools'

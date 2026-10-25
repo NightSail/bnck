@@ -1,0 +1,12 @@
+id = 'locust'
+name = 'locust'
+
+homepage = 'https://locust.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-locust'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/locust'

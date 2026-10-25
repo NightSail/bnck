@@ -1,0 +1,16 @@
+id = 'gnome-multi-writer'
+name = 'gnome-multi-writer'
+
+homepage = 'https://wiki.gnome.org/Apps/MultiWriter'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-multi-writer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-multi-writer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-multi-writer'

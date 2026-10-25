@@ -1,0 +1,8 @@
+id = 'python3-ipfix'
+name = 'python3-ipfix'
+
+homepage = 'https://github.com/britram/python-ipfix'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ipfix'

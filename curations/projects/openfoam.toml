@@ -1,0 +1,8 @@
+id = 'openfoam'
+name = 'openfoam'
+
+homepage = 'https://openfoam.com'
+
+[[package]]
+channel = 'debian'
+name = 'openfoam'

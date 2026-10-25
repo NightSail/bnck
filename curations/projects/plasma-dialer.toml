@@ -1,0 +1,12 @@
+id = 'plasma-dialer'
+name = 'plasma-dialer'
+
+homepage = 'https://invent.kde.org/plasma-mobile/plasma-dialer'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-dialer'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-dialer'

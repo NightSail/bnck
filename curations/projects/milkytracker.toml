@@ -1,0 +1,16 @@
+id = 'milkytracker'
+name = 'milkytracker'
+
+homepage = 'https://milkytracker.titandemo.org'
+
+[[package]]
+channel = 'arch'
+name = 'milkytracker'
+
+[[package]]
+channel = 'debian'
+name = 'milkytracker'
+
+[[package]]
+channel = 'fedora'
+name = 'milkytracker'

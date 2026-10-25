@@ -1,0 +1,8 @@
+id = 'gr-dab'
+name = 'gr-dab'
+
+homepage = 'https://github.com/andrmuel/gr-dab'
+
+[[package]]
+channel = 'debian'
+name = 'gr-dab'

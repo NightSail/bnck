@@ -1,0 +1,9 @@
+id = 'coder'
+name = 'coder'
+
+homepage = 'https://coder.com'
+repository = 'https://github.com/coder/coder.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coder'

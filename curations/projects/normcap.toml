@@ -1,0 +1,8 @@
+id = 'normcap'
+name = 'normcap'
+
+homepage = 'https://github.com/dynobo/normcap'
+
+[[package]]
+channel = 'debian'
+name = 'normcap'

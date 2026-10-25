@@ -1,0 +1,9 @@
+id = 'prowler'
+name = 'prowler'
+
+homepage = 'https://prowler.com'
+repository = 'https://github.com/prowler-cloud/prowler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prowler'

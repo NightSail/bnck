@@ -1,0 +1,16 @@
+id = 'supermin'
+name = 'supermin'
+
+homepage = 'http://people.redhat.com/~rjones/supermin'
+
+[[package]]
+channel = 'arch'
+name = 'supermin'
+
+[[package]]
+channel = 'debian'
+name = 'supermin'
+
+[[package]]
+channel = 'fedora'
+name = 'supermin'

@@ -1,0 +1,8 @@
+id = 'openguides'
+name = 'openguides'
+
+homepage = 'https://metacpan.org/release/OpenGuides'
+
+[[package]]
+channel = 'debian'
+name = 'openguides'

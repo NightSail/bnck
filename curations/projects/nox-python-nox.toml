@@ -1,0 +1,6 @@
+id = 'nox-python-nox'
+name = 'nox'
+
+[[package]]
+channel = 'debian'
+name = 'nox'

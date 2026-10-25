@@ -1,0 +1,8 @@
+id = 'braillefont'
+name = 'braillefont'
+
+homepage = 'https://github.com/kilobyte/braillefont'
+
+[[package]]
+channel = 'debian'
+name = 'braillefont'

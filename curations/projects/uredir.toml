@@ -1,0 +1,8 @@
+id = 'uredir'
+name = 'uredir'
+
+homepage = 'https://github.com/troglobit/uredir'
+
+[[package]]
+channel = 'fedora'
+name = 'uredir'

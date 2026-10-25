@@ -1,0 +1,12 @@
+id = 'svt-vp9'
+name = 'svt-vp9'
+
+homepage = 'https://github.com/OpenVisualCloud/SVT-VP9'
+
+[[package]]
+channel = 'arch'
+name = 'svt-vp9'
+
+[[package]]
+channel = 'fedora'
+name = 'svt-vp9'

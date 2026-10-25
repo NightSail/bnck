@@ -1,0 +1,8 @@
+id = 'gcolor2'
+name = 'gcolor2'
+
+homepage = 'http://gcolor2.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'gcolor2'

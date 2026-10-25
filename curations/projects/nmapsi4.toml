@@ -1,0 +1,8 @@
+id = 'nmapsi4'
+name = 'nmapsi4'
+
+homepage = 'https://www.nmapsi4.org'
+
+[[package]]
+channel = 'debian'
+name = 'nmapsi4'

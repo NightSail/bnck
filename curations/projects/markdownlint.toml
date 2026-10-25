@@ -1,0 +1,12 @@
+id = 'markdownlint'
+name = 'markdownlint'
+
+homepage = 'https://github.com/markdownlint/markdownlint'
+
+[[package]]
+channel = 'arch'
+name = 'markdownlint'
+
+[[package]]
+channel = 'debian'
+name = 'markdownlint'

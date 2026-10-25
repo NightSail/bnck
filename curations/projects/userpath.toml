@@ -1,0 +1,16 @@
+id = 'userpath'
+name = 'userpath'
+
+homepage = 'https://github.com/ofek/userpath'
+
+[[package]]
+channel = 'arch'
+name = 'python-userpath'
+
+[[package]]
+channel = 'debian'
+name = 'userpath'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-userpath'

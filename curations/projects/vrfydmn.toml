@@ -1,0 +1,8 @@
+id = 'vrfydmn'
+name = 'vrfydmn'
+
+homepage = 'https://github.com/croessner/vrfydmn'
+
+[[package]]
+channel = 'debian'
+name = 'vrfydmn'

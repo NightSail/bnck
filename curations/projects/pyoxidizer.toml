@@ -1,0 +1,8 @@
+id = 'pyoxidizer'
+name = 'pyoxidizer'
+
+repository = 'https://github.com/indygreg/PyOxidizer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyoxidizer'

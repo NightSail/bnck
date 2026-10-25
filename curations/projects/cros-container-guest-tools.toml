@@ -1,0 +1,12 @@
+id = 'cros-container-guest-tools'
+name = 'cros-container-guest-tools'
+
+homepage = 'https://chromium.googlesource.com/chromiumos/containers/cros-container-guest-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'cros-garcon'
+
+[[package]]
+channel = 'fedora'
+name = 'cros-sommelier'

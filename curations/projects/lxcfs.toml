@@ -1,0 +1,8 @@
+id = 'lxcfs'
+name = 'lxcfs'
+
+homepage = 'https://linuxcontainers.org/lxcfs'
+
+[[package]]
+channel = 'fedora'
+name = 'lxcfs'

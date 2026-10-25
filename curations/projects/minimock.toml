@@ -1,0 +1,8 @@
+id = 'minimock'
+name = 'minimock'
+
+homepage = 'https://github.com/gojuno/minimock'
+
+[[package]]
+channel = 'fedora'
+name = 'minimock'

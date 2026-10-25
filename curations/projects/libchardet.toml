@@ -1,0 +1,16 @@
+id = 'libchardet'
+name = 'libchardet'
+
+homepage = 'https://github.com/Joungkyun/libchardet'
+
+[[package]]
+channel = 'arch'
+name = 'libchardet'
+
+[[package]]
+channel = 'fedora'
+name = 'libchardet-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libchardet'

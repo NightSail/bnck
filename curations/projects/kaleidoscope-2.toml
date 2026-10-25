@@ -1,0 +1,8 @@
+id = 'kaleidoscope-2'
+name = 'kaleidoscope@2'
+
+homepage = 'https://kaleidoscope.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kaleidoscope@2'

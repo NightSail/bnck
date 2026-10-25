@@ -1,0 +1,8 @@
+id = 'ruby-unparser'
+name = 'ruby-unparser'
+
+homepage = 'https://github.com/mbj/unparser'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-unparser'

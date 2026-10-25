@@ -1,0 +1,8 @@
+id = 'libart'
+name = 'libart'
+
+homepage = 'https://gitlab.gnome.org/Archive/libart_lgpl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libart'

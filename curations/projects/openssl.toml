@@ -1,0 +1,16 @@
+id = 'openssl'
+name = 'openssl'
+
+homepage = 'https://www.openssl.org'
+
+[[package]]
+channel = 'arch'
+name = 'openssl'
+
+[[package]]
+channel = 'fedora'
+name = 'openssl'
+
+[[package]]
+channel = 'fedora'
+name = 'openssl-perl'

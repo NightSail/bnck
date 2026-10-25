@@ -1,0 +1,12 @@
+id = 'lm-sensors'
+name = 'lm-sensors'
+
+homepage = 'https://github.com/hramrach/lm-sensors'
+
+[[package]]
+channel = 'debian'
+name = 'fancontrol'
+
+[[package]]
+channel = 'debian'
+name = 'lm-sensors'

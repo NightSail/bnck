@@ -1,0 +1,8 @@
+id = 'dte-decisiontoolkit'
+name = 'dte'
+
+repository = 'https://github.com/DecisionToolkit/dte.git'
+
+[[package]]
+channel = 'crates.io'
+name = 'dte'

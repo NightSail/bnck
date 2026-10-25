@@ -1,0 +1,12 @@
+id = 'gconjugue'
+name = 'gconjugue'
+
+homepage = 'https://github.com/jalvesaq/gconjugue'
+
+[[package]]
+channel = 'debian'
+name = 'conjugar'
+
+[[package]]
+channel = 'debian'
+name = 'gconjugue'

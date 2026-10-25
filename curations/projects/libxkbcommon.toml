@@ -1,0 +1,9 @@
+id = 'libxkbcommon'
+name = 'libxkbcommon'
+
+homepage = 'https://xkbcommon.org'
+repository = 'https://github.com/xkbcommon/libxkbcommon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxkbcommon'

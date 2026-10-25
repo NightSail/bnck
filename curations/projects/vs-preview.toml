@@ -1,0 +1,8 @@
+id = 'vs-preview'
+name = 'vs-preview'
+
+repository = 'https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vs-preview'

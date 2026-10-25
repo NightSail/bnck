@@ -1,0 +1,9 @@
+id = 'gravity'
+name = 'gravity'
+
+homepage = 'https://www.gravity-lang.org'
+repository = 'https://github.com/marcobambini/gravity.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gravity'

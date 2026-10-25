@@ -1,0 +1,8 @@
+id = 'jameica'
+name = 'jameica'
+
+homepage = 'https://www.willuhn.de/products/jameica'
+
+[[package]]
+channel = 'debian'
+name = 'jameica'

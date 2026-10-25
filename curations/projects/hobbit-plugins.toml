@@ -1,0 +1,8 @@
+id = 'hobbit-plugins'
+name = 'hobbit-plugins'
+
+homepage = 'https://salsa.debian.org/debian/hobbit-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'hobbit-plugins'

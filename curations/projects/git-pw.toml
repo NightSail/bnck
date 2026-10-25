@@ -1,0 +1,8 @@
+id = 'git-pw'
+name = 'git-pw'
+
+homepage = 'https://github.com/getpatchwork/git-pw'
+
+[[package]]
+channel = 'debian'
+name = 'git-pw'

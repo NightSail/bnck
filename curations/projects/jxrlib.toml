@@ -1,0 +1,16 @@
+id = 'jxrlib'
+name = 'jxrlib'
+
+homepage = 'https://tracker.debian.org/pkg/jxrlib'
+
+[[package]]
+channel = 'arch'
+name = 'jxrlib'
+
+[[package]]
+channel = 'fedora'
+name = 'jxrlib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jxrlib'

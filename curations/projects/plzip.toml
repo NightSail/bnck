@@ -1,0 +1,12 @@
+id = 'plzip'
+name = 'plzip'
+
+homepage = 'https://www.nongnu.org/lzip/plzip.html'
+
+[[package]]
+channel = 'debian'
+name = 'plzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plzip'

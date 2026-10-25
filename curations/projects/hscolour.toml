@@ -1,0 +1,10 @@
+id = 'hscolour'
+name = 'hscolour'
+
+[[package]]
+channel = 'debian'
+name = 'hscolour'
+
+[[package]]
+channel = 'fedora'
+name = 'hscolour'

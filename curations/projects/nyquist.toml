@@ -1,0 +1,8 @@
+id = 'nyquist'
+name = 'nyquist'
+
+homepage = 'https://www.cs.cmu.edu/~music/nyquist'
+
+[[package]]
+channel = 'debian'
+name = 'nyquist'

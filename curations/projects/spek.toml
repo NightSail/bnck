@@ -1,0 +1,16 @@
+id = 'spek'
+name = 'spek'
+
+homepage = 'https://www.spek.cc'
+
+[[package]]
+channel = 'arch'
+name = 'spek'
+
+[[package]]
+channel = 'debian'
+name = 'spek'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spek'

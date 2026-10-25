@@ -1,0 +1,8 @@
+id = 'wmail'
+name = 'wmail'
+
+homepage = 'https://www.dockapps.net/wmail'
+
+[[package]]
+channel = 'debian'
+name = 'wmail'

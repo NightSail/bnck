@@ -1,0 +1,33 @@
+id = 'nginx'
+name = 'nginx'
+
+homepage = 'https://nginx.org'
+repository = 'https://github.com/nginx/nginx.git'
+
+[[package]]
+channel = 'arch'
+name = 'nginx'
+
+[[package]]
+channel = 'arch'
+name = 'nginx-mainline'
+
+[[package]]
+channel = 'debian'
+name = 'nginx'
+
+[[package]]
+channel = 'debian'
+name = 'nginx-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'nginx'
+
+[[package]]
+channel = 'fedora'
+name = 'nginx-core'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nginx'

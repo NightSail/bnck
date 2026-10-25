@@ -1,0 +1,13 @@
+id = 'skaffold'
+name = 'skaffold'
+
+homepage = 'https://skaffold.dev'
+repository = 'https://github.com/GoogleContainerTools/skaffold.git'
+
+[[package]]
+channel = 'arch'
+name = 'skaffold'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skaffold'

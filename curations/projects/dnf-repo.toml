@@ -1,0 +1,8 @@
+id = 'dnf-repo'
+name = 'dnf-repo'
+
+homepage = 'https://hackage.haskell.org/package/dnf-repo'
+
+[[package]]
+channel = 'fedora'
+name = 'dnf-repo'

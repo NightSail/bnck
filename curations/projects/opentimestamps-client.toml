@@ -1,0 +1,9 @@
+id = 'opentimestamps-client'
+name = 'opentimestamps-client'
+
+homepage = 'https://opentimestamps.org'
+repository = 'https://github.com/opentimestamps/opentimestamps-client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opentimestamps-client'

@@ -1,0 +1,8 @@
+id = 'git-smash'
+name = 'git-smash'
+
+homepage = 'https://github.com/anthraxx/git-smash'
+
+[[package]]
+channel = 'arch'
+name = 'git-smash'

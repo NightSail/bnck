@@ -1,0 +1,20 @@
+id = 'rkhunter'
+name = 'rkhunter'
+
+homepage = 'https://rkhunter.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'rkhunter'
+
+[[package]]
+channel = 'debian'
+name = 'rkhunter'
+
+[[package]]
+channel = 'fedora'
+name = 'rkhunter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rkhunter'

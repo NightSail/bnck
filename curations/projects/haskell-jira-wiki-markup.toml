@@ -1,0 +1,8 @@
+id = 'haskell-jira-wiki-markup'
+name = 'haskell-jira-wiki-markup'
+
+homepage = 'https://github.com/tarleb/jira-wiki-markup'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-jira-wiki-markup'

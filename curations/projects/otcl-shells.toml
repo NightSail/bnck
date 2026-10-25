@@ -1,0 +1,8 @@
+id = 'otcl-shells'
+name = 'otcl-shells'
+
+homepage = 'https://otcl-tclcl.sourceforge.net/otcl'
+
+[[package]]
+channel = 'debian'
+name = 'otcl-shells'

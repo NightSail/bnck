@@ -1,0 +1,8 @@
+id = 'golang-github-leveldb'
+name = 'golang-github-leveldb'
+
+homepage = 'https://github.com/golang/leveldb'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-leveldb'

@@ -1,0 +1,8 @@
+id = 'barnowl'
+name = 'barnowl'
+
+homepage = 'https://barnowl.mit.edu'
+
+[[package]]
+channel = 'debian'
+name = 'barnowl'

@@ -1,0 +1,6 @@
+id = 'autodep8'
+name = 'autodep8'
+
+[[package]]
+channel = 'debian'
+name = 'autodep8'

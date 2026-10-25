@@ -1,0 +1,9 @@
+id = 'go-feature-flag-relay-proxy'
+name = 'go-feature-flag-relay-proxy'
+
+homepage = 'https://gofeatureflag.org'
+repository = 'https://github.com/thomaspoignant/go-feature-flag.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-feature-flag-relay-proxy'

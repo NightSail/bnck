@@ -1,0 +1,16 @@
+id = 'gnome-screenshot'
+name = 'gnome-screenshot'
+
+homepage = 'https://gitlab.gnome.org/Archive/gnome-screenshot'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-screenshot'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-screenshot'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-screenshot'

@@ -1,0 +1,8 @@
+id = 'git-gerrit'
+name = 'git-gerrit'
+
+repository = 'https://github.com/fbzhong/git-gerrit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-gerrit'

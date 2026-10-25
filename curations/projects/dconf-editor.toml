@@ -1,0 +1,12 @@
+id = 'dconf-editor'
+name = 'dconf-editor'
+
+homepage = 'https://apps.gnome.org/DconfEditor'
+
+[[package]]
+channel = 'arch'
+name = 'dconf-editor'
+
+[[package]]
+channel = 'debian'
+name = 'dconf-editor'

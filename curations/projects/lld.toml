@@ -1,0 +1,24 @@
+id = 'lld'
+name = 'lld'
+
+homepage = 'https://lld.llvm.org'
+
+[[package]]
+channel = 'arch'
+name = 'lld'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lld@19'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lld@20'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lld@21'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lld@22'

@@ -1,0 +1,12 @@
+id = 'concordance'
+name = 'concordance'
+
+homepage = 'https://www.phildev.net/concordance'
+
+[[package]]
+channel = 'debian'
+name = 'concordance'
+
+[[package]]
+channel = 'fedora'
+name = 'concordance'

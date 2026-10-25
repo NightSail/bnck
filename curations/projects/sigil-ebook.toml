@@ -1,0 +1,32 @@
+id = 'sigil-ebook'
+name = 'sigil-ebook'
+
+homepage = 'https://sigil-ebook.com'
+
+[[package]]
+channel = 'arch'
+name = 'sigil'
+
+[[package]]
+channel = 'debian'
+name = 'pageedit'
+
+[[package]]
+channel = 'debian'
+name = 'sigil'
+
+[[package]]
+channel = 'fedora'
+name = 'FlightCrew-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'FlightCrew-sigil-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'pageedit'
+
+[[package]]
+channel = 'fedora'
+name = 'sigil'

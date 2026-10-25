@@ -1,0 +1,8 @@
+id = 'libvsapm-utils'
+name = 'libvsapm-utils'
+
+homepage = 'https://github.com/libyal/libvsapm'
+
+[[package]]
+channel = 'debian'
+name = 'libvsapm-utils'

@@ -1,0 +1,9 @@
+id = 'cloudfoundry-cli'
+name = 'cloudfoundry-cli'
+
+homepage = 'https://docs.cloudfoundry.org/cf-cli'
+repository = 'https://github.com/cloudfoundry/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudfoundry-cli'

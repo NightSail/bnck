@@ -1,0 +1,13 @@
+id = 'hickory-dns'
+name = 'hickory-dns'
+
+homepage = 'https://hickory-dns.org'
+repository = 'https://github.com/hickory-dns/hickory-dns.git'
+
+[[package]]
+channel = 'debian'
+name = 'hickory-dns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hickory-dns'

@@ -1,0 +1,16 @@
+id = 'setuptools-scm'
+name = 'setuptools-scm'
+
+homepage = 'https://github.com/pypa/setuptools-scm'
+
+[[package]]
+channel = 'arch'
+name = 'python-setuptools-scm'
+
+[[package]]
+channel = 'arch'
+name = 'python-vcs-versioning'
+
+[[package]]
+channel = 'debian'
+name = 'python3-setuptools-scm'

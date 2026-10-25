@@ -1,0 +1,13 @@
+id = 'operator-sdk'
+name = 'operator-sdk'
+
+homepage = 'https://sdk.operatorframework.io'
+repository = 'https://github.com/operator-framework/operator-sdk.git'
+
+[[package]]
+channel = 'arch'
+name = 'operator-sdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/operator-sdk'

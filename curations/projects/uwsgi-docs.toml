@@ -1,0 +1,48 @@
+id = 'uwsgi-docs'
+name = 'uwsgi-docs'
+
+homepage = 'https://uwsgi-docs.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'uwsgi'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-gccgo'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-glusterfs'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-java'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-lua5.1'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-luajit'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-php'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-psgi'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-python3'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-rados'
+
+[[package]]
+channel = 'debian'
+name = 'uwsgi-plugin-ruby'

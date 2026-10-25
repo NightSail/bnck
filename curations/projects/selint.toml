@@ -1,0 +1,12 @@
+id = 'selint'
+name = 'selint'
+
+homepage = 'https://github.com/SELinuxProject/selint'
+
+[[package]]
+channel = 'debian'
+name = 'selint'
+
+[[package]]
+channel = 'fedora'
+name = 'selint'

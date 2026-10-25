@@ -1,0 +1,8 @@
+id = 'tomboy-ng'
+name = 'tomboy-ng'
+
+homepage = 'https://github.com/tomboy-notes/tomboy-ng'
+
+[[package]]
+channel = 'debian'
+name = 'tomboy-ng'

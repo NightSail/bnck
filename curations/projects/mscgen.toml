@@ -1,0 +1,16 @@
+id = 'mscgen'
+name = 'mscgen'
+
+homepage = 'https://www.mcternan.me.uk/mscgen'
+
+[[package]]
+channel = 'debian'
+name = 'mscgen'
+
+[[package]]
+channel = 'fedora'
+name = 'mscgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mscgen'

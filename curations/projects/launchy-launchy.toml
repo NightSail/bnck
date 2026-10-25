@@ -1,0 +1,12 @@
+id = 'launchy-launchy'
+name = 'launchy'
+
+homepage = 'https://www.launchy.net'
+
+[[package]]
+channel = 'arch'
+name = 'launchy'
+
+[[package]]
+channel = 'fedora'
+name = 'launchy'

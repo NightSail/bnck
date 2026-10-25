@@ -1,0 +1,21 @@
+id = 'netpbm'
+name = 'netpbm'
+
+homepage = 'http://netpbm.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/netpbm/code/trunk'
+
+[[package]]
+channel = 'arch'
+name = 'netpbm'
+
+[[package]]
+channel = 'debian'
+name = 'netpbm'
+
+[[package]]
+channel = 'fedora'
+name = 'netpbm-progs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netpbm'

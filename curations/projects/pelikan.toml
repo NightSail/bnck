@@ -1,0 +1,9 @@
+id = 'pelikan'
+name = 'pelikan'
+
+homepage = 'https://twitter.github.io/pelikan'
+repository = 'https://github.com/twitter/pelikan.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pelikan'

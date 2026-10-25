@@ -1,0 +1,8 @@
+id = 'savana'
+name = 'savana'
+
+homepage = 'https://github.com/codehaus/savana'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/savana'

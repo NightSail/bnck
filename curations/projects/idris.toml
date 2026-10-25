@@ -1,0 +1,8 @@
+id = 'idris'
+name = 'idris'
+
+homepage = 'https://hackage.haskell.org/package/idris'
+
+[[package]]
+channel = 'fedora'
+name = 'idris'

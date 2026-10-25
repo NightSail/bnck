@@ -1,0 +1,8 @@
+id = 'commandpost'
+name = 'commandpost'
+
+homepage = 'https://commandpost.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/commandpost'

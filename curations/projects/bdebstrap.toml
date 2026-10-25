@@ -1,0 +1,8 @@
+id = 'bdebstrap'
+name = 'bdebstrap'
+
+homepage = 'https://github.com/bdrung/bdebstrap'
+
+[[package]]
+channel = 'debian'
+name = 'bdebstrap'

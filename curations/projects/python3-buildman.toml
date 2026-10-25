@@ -1,0 +1,8 @@
+id = 'python3-buildman'
+name = 'python3-buildman'
+
+homepage = 'https://docs.u-boot.org/en/latest/build/buildman.html'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-buildman'

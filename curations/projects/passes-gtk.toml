@@ -1,0 +1,8 @@
+id = 'passes-gtk'
+name = 'passes-gtk'
+
+homepage = 'https://github.com/pablo-s/passes'
+
+[[package]]
+channel = 'debian'
+name = 'passes-gtk'

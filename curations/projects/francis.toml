@@ -1,0 +1,12 @@
+id = 'francis'
+name = 'francis'
+
+homepage = 'https://apps.kde.org/francis'
+
+[[package]]
+channel = 'arch'
+name = 'francis'
+
+[[package]]
+channel = 'fedora'
+name = 'francis'

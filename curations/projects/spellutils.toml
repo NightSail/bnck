@@ -1,0 +1,6 @@
+id = 'spellutils'
+name = 'spellutils'
+
+[[package]]
+channel = 'debian'
+name = 'spellutils'

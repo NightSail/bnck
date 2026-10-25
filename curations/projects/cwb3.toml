@@ -1,0 +1,9 @@
+id = 'cwb3'
+name = 'cwb3'
+
+homepage = 'https://cwb.sourceforge.io'
+repository = 'svn://svn.code.sf.net/p/cwb/code/cwb/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cwb3'

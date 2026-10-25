@@ -1,0 +1,8 @@
+id = 'drat-trim'
+name = 'drat-trim'
+
+homepage = 'https://www.cs.utexas.edu/~marijn/drat-trim'
+
+[[package]]
+channel = 'debian'
+name = 'drat-trim'

@@ -1,0 +1,21 @@
+id = 'meson'
+name = 'meson'
+
+homepage = 'https://mesonbuild.com'
+repository = 'https://github.com/mesonbuild/meson.git'
+
+[[package]]
+channel = 'arch'
+name = 'meson'
+
+[[package]]
+channel = 'debian'
+name = 'meson'
+
+[[package]]
+channel = 'fedora'
+name = 'meson'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/meson'

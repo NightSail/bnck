@@ -1,0 +1,6 @@
+id = 'dh-shell-completions'
+name = 'dh-shell-completions'
+
+[[package]]
+channel = 'debian'
+name = 'dh-shell-completions'

@@ -1,0 +1,8 @@
+id = 'clasp'
+name = 'clasp'
+
+homepage = 'https://www.potassco.org/clasp'
+
+[[package]]
+channel = 'debian'
+name = 'clasp'

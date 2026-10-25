@@ -1,0 +1,12 @@
+id = 'coolreader'
+name = 'coolreader'
+
+homepage = 'https://github.com/buggins/coolreader'
+
+[[package]]
+channel = 'debian'
+name = 'coolreader'
+
+[[package]]
+channel = 'fedora'
+name = 'coolreader'

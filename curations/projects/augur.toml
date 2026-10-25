@@ -1,0 +1,8 @@
+id = 'augur'
+name = 'augur'
+
+homepage = 'https://github.com/nextstrain/augur'
+
+[[package]]
+channel = 'debian'
+name = 'augur'

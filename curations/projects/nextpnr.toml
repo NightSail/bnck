@@ -1,0 +1,60 @@
+id = 'nextpnr'
+name = 'nextpnr'
+
+homepage = 'https://github.com/YosysHQ/nextpnr'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-ecp5'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-ecp5-qt'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-generic'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-gowin'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-gowin-qt'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-himbaechel-gatemate'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-himbaechel-gatemate-qt'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-himbaechel-gowin'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-himbaechel-gowin-qt'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-himbaechel-xilinx'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-himbaechel-xilinx-qt'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-ice40'
+
+[[package]]
+channel = 'debian'
+name = 'nextpnr-ice40-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'nextpnr'

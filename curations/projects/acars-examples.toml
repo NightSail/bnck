@@ -1,0 +1,8 @@
+id = 'acars-examples'
+name = 'acars-examples'
+
+homepage = 'https://github.com/szpajder/libacars'
+
+[[package]]
+channel = 'fedora'
+name = 'acars-examples'

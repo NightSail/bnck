@@ -1,0 +1,12 @@
+id = 'xfoil'
+name = 'xfoil'
+
+homepage = 'https://web.mit.edu/drela/Public/web/xfoil'
+
+[[package]]
+channel = 'debian'
+name = 'xfoil'
+
+[[package]]
+channel = 'fedora'
+name = 'xfoil'

@@ -1,0 +1,8 @@
+id = 'golang-github-c-bata-prompt'
+name = 'golang-github-c-bata-prompt'
+
+homepage = 'https://github.com/c-bata/go-prompt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-c-bata-prompt'

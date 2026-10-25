@@ -1,0 +1,12 @@
+id = 'ecdsautils'
+name = 'ecdsautils'
+
+homepage = 'https://github.com/freifunk-gluon/ecdsautils'
+
+[[package]]
+channel = 'debian'
+name = 'ecdsautils'
+
+[[package]]
+channel = 'fedora'
+name = 'ecdsautils'

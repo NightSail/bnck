@@ -1,0 +1,8 @@
+id = 'excalidraw-converter'
+name = 'excalidraw-converter'
+
+repository = 'https://github.com/sindrel/excalidraw-converter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/excalidraw-converter'

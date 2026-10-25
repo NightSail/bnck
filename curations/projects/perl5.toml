@@ -1,0 +1,28 @@
+id = 'perl5'
+name = 'perl5'
+
+homepage = 'https://dev.perl.org/perl5'
+
+[[package]]
+channel = 'debian'
+name = 'libperl5.40'
+
+[[package]]
+channel = 'debian'
+name = 'libperl5.42'
+
+[[package]]
+channel = 'debian'
+name = 'perl'
+
+[[package]]
+channel = 'debian'
+name = 'perl-base'
+
+[[package]]
+channel = 'debian'
+name = 'perl-debug'
+
+[[package]]
+channel = 'debian'
+name = 'perl-doc'

@@ -1,0 +1,8 @@
+id = 'stalld'
+name = 'stalld'
+
+homepage = 'https://gitlab.com/rt-linux-tools/stalld/stalld.git'
+
+[[package]]
+channel = 'fedora'
+name = 'stalld'

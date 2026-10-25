@@ -1,0 +1,8 @@
+id = 'busco'
+name = 'busco'
+
+homepage = 'https://gitlab.com/ezlab/busco'
+
+[[package]]
+channel = 'debian'
+name = 'busco'

@@ -1,0 +1,12 @@
+id = 'gplcver'
+name = 'gplcver'
+
+homepage = 'https://gplcver.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gplcver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gplcver'

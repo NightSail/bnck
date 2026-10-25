@@ -1,0 +1,8 @@
+id = 'keepassc'
+name = 'keepassc'
+
+homepage = 'https://github.com/raymontag/keepassc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keepassc'

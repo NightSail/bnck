@@ -1,0 +1,8 @@
+id = 'libevtx-utils'
+name = 'libevtx-utils'
+
+homepage = 'https://github.com/libyal/libevtx'
+
+[[package]]
+channel = 'debian'
+name = 'libevtx-utils'

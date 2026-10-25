@@ -1,0 +1,6 @@
+id = 'apt-cacher'
+name = 'apt-cacher'
+
+[[package]]
+channel = 'debian'
+name = 'apt-cacher'

@@ -1,0 +1,6 @@
+id = 'winregfs'
+name = 'winregfs'
+
+[[package]]
+channel = 'debian'
+name = 'winregfs'

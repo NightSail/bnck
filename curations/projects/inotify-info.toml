@@ -1,0 +1,8 @@
+id = 'inotify-info'
+name = 'inotify-info'
+
+homepage = 'https://github.com/mikesart/inotify-info'
+
+[[package]]
+channel = 'debian'
+name = 'inotify-info'

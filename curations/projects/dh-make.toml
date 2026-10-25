@@ -1,0 +1,12 @@
+id = 'dh-make'
+name = 'dh-make'
+
+homepage = 'https://salsa.debian.org/debian/dh-make'
+
+[[package]]
+channel = 'debian'
+name = 'dh-make'
+
+[[package]]
+channel = 'fedora'
+name = 'dh-make'

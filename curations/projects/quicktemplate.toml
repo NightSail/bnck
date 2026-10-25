@@ -1,0 +1,12 @@
+id = 'quicktemplate'
+name = 'quicktemplate'
+
+homepage = 'https://github.com/valyala/quicktemplate'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-valyala-quicktemplate-dev'
+
+[[package]]
+channel = 'debian'
+name = 'qtc'

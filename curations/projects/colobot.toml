@@ -1,0 +1,8 @@
+id = 'colobot'
+name = 'colobot'
+
+homepage = 'https://colobot.info'
+
+[[package]]
+channel = 'fedora'
+name = 'colobot'

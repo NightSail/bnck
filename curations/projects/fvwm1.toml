@@ -1,0 +1,6 @@
+id = 'fvwm1'
+name = 'fvwm1'
+
+[[package]]
+channel = 'debian'
+name = 'fvwm1'

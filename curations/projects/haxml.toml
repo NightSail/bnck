@@ -1,0 +1,12 @@
+id = 'haxml'
+name = 'haxml'
+
+homepage = 'https://github.com/HaXml/HaXml'
+
+[[package]]
+channel = 'debian'
+name = 'haxml'
+
+[[package]]
+channel = 'fedora'
+name = 'HaXml'

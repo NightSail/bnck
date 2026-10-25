@@ -1,0 +1,8 @@
+id = 'chainsaw'
+name = 'chainsaw'
+
+repository = 'https://github.com/WithSecureLabs/chainsaw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chainsaw'

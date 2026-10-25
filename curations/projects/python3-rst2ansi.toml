@@ -1,0 +1,8 @@
+id = 'python3-rst2ansi'
+name = 'python3-rst2ansi'
+
+homepage = 'https://github.com/Snaipe/python-rst2ansi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rst2ansi'

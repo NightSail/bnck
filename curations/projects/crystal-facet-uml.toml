@@ -1,0 +1,8 @@
+id = 'crystal-facet-uml'
+name = 'crystal-facet-uml'
+
+homepage = 'https://andreaswarnke.de/crystal-facet-uml/html/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'crystal-facet-uml'

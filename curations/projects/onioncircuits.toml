@@ -1,0 +1,8 @@
+id = 'onioncircuits'
+name = 'onioncircuits'
+
+homepage = 'https://gitlab.tails.boum.org/tails/onioncircuits'
+
+[[package]]
+channel = 'debian'
+name = 'onioncircuits'

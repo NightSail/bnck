@@ -1,0 +1,12 @@
+id = 'airrac'
+name = 'airrac'
+
+homepage = 'https://github.com/airsim/airrac'
+
+[[package]]
+channel = 'fedora'
+name = 'airrac'
+
+[[package]]
+channel = 'fedora'
+name = 'airrac-devel'

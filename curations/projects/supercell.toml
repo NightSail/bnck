@@ -1,0 +1,8 @@
+id = 'supercell'
+name = 'supercell'
+
+homepage = 'https://github.com/orex/supercell'
+
+[[package]]
+channel = 'debian'
+name = 'supercell'

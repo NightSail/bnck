@@ -1,0 +1,8 @@
+id = 'qodem'
+name = 'qodem'
+
+homepage = 'https://qodem.sourceforge.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qodem'

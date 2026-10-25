@@ -1,0 +1,8 @@
+id = 'myst-nb'
+name = 'myst-nb'
+
+homepage = 'https://myst-nb.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'myst-nb'

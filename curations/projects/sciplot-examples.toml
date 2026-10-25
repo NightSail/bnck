@@ -1,0 +1,8 @@
+id = 'sciplot-examples'
+name = 'sciplot-examples'
+
+homepage = 'https://sciplot.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'sciplot-examples'

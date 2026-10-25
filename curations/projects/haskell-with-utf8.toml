@@ -1,0 +1,8 @@
+id = 'haskell-with-utf8'
+name = 'haskell-with-utf8'
+
+homepage = 'https://github.com/serokell/haskell-with-utf8'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-with-utf8'

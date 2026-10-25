@@ -1,0 +1,8 @@
+id = 'drone-runner-ssh'
+name = 'drone-runner-ssh'
+
+homepage = 'https://github.com/drone-runners/drone-runner-ssh'
+
+[[package]]
+channel = 'arch'
+name = 'drone-runner-ssh'

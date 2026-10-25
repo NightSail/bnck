@@ -1,0 +1,16 @@
+id = 'dnstop'
+name = 'dnstop'
+
+homepage = 'http://dns.measurement-factory.com/tools/dnstop/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'dnstop'
+
+[[package]]
+channel = 'fedora'
+name = 'dnstop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnstop'

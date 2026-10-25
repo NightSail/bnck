@@ -9,4 +9,8 @@ name = 'tukai'
 
 [[package]]
 channel = 'crates.io'
+name = 'tuicam'
+
+[[package]]
+channel = 'crates.io'
 name = 'tukai'

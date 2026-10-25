@@ -1,0 +1,28 @@
+id = 'cube-4-x'
+name = 'cube-4.x'
+
+homepage = 'https://scalasca.org/software/cube-4.x/download.html'
+
+[[package]]
+channel = 'fedora'
+name = 'cube'
+
+[[package]]
+channel = 'fedora'
+name = 'cube-guilib-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'cube-libs'
+
+[[package]]
+channel = 'fedora'
+name = 'cube-libs-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'jcuber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cubelib'

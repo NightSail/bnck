@@ -1,0 +1,16 @@
+id = 'vmpk'
+name = 'vmpk'
+
+homepage = 'https://vmpk.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'vmpk'
+
+[[package]]
+channel = 'debian'
+name = 'vmpk'
+
+[[package]]
+channel = 'fedora'
+name = 'vmpk'

@@ -1,0 +1,8 @@
+id = 'libapache2-mod-security2'
+name = 'libapache2-mod-security2'
+
+homepage = 'https://github.com/SpiderLabs/ModSecurity'
+
+[[package]]
+channel = 'debian'
+name = 'libapache2-mod-security2'

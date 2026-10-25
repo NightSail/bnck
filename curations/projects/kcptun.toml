@@ -1,0 +1,8 @@
+id = 'kcptun'
+name = 'kcptun'
+
+homepage = 'https://github.com/xtaci/kcptun'
+
+[[package]]
+channel = 'debian'
+name = 'kcptun'

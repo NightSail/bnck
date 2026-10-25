@@ -1,0 +1,13 @@
+id = 'stringtie'
+name = 'stringtie'
+
+homepage = 'https://ccb.jhu.edu/software/stringtie'
+repository = 'https://github.com/gpertea/stringtie.git'
+
+[[package]]
+channel = 'debian'
+name = 'stringtie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stringtie'

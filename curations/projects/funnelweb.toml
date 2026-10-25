@@ -1,0 +1,8 @@
+id = 'funnelweb'
+name = 'funnelweb'
+
+homepage = 'http://www.ross.net/funnelweb'
+
+[[package]]
+channel = 'debian'
+name = 'funnelweb'

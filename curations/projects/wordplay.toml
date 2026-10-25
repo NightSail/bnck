@@ -1,0 +1,8 @@
+id = 'wordplay'
+name = 'wordplay'
+
+homepage = 'https://hsvmovies.com/static_subpages/personal_orig/wordplay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wordplay'

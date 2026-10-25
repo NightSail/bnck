@@ -1,0 +1,60 @@
+id = 'uim'
+name = 'uim'
+
+homepage = 'https://github.com/uim/uim/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'uim'
+
+[[package]]
+channel = 'debian'
+name = 'uim-el'
+
+[[package]]
+channel = 'debian'
+name = 'uim-fep'
+
+[[package]]
+channel = 'debian'
+name = 'uim-gtk2.0'
+
+[[package]]
+channel = 'debian'
+name = 'uim-gtk3'
+
+[[package]]
+channel = 'debian'
+name = 'uim-mozc'
+
+[[package]]
+channel = 'debian'
+name = 'uim-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'uim-qt6'
+
+[[package]]
+channel = 'debian'
+name = 'uim-wayland'
+
+[[package]]
+channel = 'debian'
+name = 'uim-xim'
+
+[[package]]
+channel = 'fedora'
+name = 'uim'
+
+[[package]]
+channel = 'fedora'
+name = 'uim-gtk3'
+
+[[package]]
+channel = 'fedora'
+name = 'uim-m17n'
+
+[[package]]
+channel = 'fedora'
+name = 'uim-qt'

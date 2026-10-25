@@ -1,0 +1,8 @@
+id = 'libcaqti-ocaml-dev'
+name = 'libcaqti-ocaml-dev'
+
+homepage = 'https://github.com/paurkedal/ocaml-caqti'
+
+[[package]]
+channel = 'debian'
+name = 'libcaqti-ocaml-dev'

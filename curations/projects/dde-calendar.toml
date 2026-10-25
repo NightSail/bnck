@@ -1,0 +1,16 @@
+id = 'dde-calendar'
+name = 'dde-calendar'
+
+homepage = 'https://github.com/linuxdeepin/dde-calendar'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-calendar'
+
+[[package]]
+channel = 'debian'
+name = 'dde-calendar'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-calendar'

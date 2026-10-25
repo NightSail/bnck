@@ -1,0 +1,8 @@
+id = 'jacoco'
+name = 'jacoco'
+
+homepage = 'http://www.eclemma.org/jacoco'
+
+[[package]]
+channel = 'fedora'
+name = 'jacoco'

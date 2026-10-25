@@ -1,0 +1,8 @@
+id = 'b2sum'
+name = 'b2sum'
+
+homepage = 'https://github.com/BLAKE2/BLAKE2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/b2sum'

@@ -1,0 +1,12 @@
+id = 'arduino-language-server'
+name = 'arduino-language-server'
+
+homepage = 'https://github.com/arduino/arduino-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'arduino-language-server'
+
+[[package]]
+channel = 'debian'
+name = 'arduino-language-server'

@@ -1,0 +1,24 @@
+id = 'ipe-tools'
+name = 'ipe-tools'
+
+homepage = 'https://github.com/otfried/ipe-tools'
+
+[[package]]
+channel = 'debian'
+name = 'figtoipe'
+
+[[package]]
+channel = 'debian'
+name = 'ipe5toxml'
+
+[[package]]
+channel = 'debian'
+name = 'pdftoipe'
+
+[[package]]
+channel = 'debian'
+name = 'svgtoipe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdftoipe'

@@ -1,0 +1,8 @@
+id = 'snyk-agent-scan'
+name = 'snyk-agent-scan'
+
+homepage = 'https://github.com/snyk/agent-scan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snyk-agent-scan'

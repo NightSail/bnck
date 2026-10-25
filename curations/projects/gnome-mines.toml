@@ -1,0 +1,12 @@
+id = 'gnome-mines'
+name = 'gnome-mines'
+
+homepage = 'https://wiki.gnome.org/Apps/Mines'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-mines'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-mines'

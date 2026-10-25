@@ -1,0 +1,8 @@
+id = 'donkey'
+name = 'donkey'
+
+homepage = 'https://devel.ringlet.net/security/donkey'
+
+[[package]]
+channel = 'debian'
+name = 'donkey'

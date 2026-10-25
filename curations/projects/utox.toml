@@ -1,0 +1,16 @@
+id = 'utox'
+name = 'utox'
+
+homepage = 'https://github.com/uTox/uTox'
+
+[[package]]
+channel = 'arch'
+name = 'utox'
+
+[[package]]
+channel = 'debian'
+name = 'utox'
+
+[[package]]
+channel = 'fedora'
+name = 'utox'

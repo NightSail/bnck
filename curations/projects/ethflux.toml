@@ -1,0 +1,8 @@
+id = 'ethflux'
+name = 'ethflux'
+
+homepage = 'https://github.com/DCSO/ethflux'
+
+[[package]]
+channel = 'debian'
+name = 'ethflux'

@@ -1,0 +1,8 @@
+id = 'golang-k8s-code-generator'
+name = 'golang-k8s-code-generator'
+
+homepage = 'https://github.com/kubernetes/code-generator'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-k8s-code-generator'

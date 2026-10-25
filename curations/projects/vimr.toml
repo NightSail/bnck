@@ -1,0 +1,8 @@
+id = 'vimr'
+name = 'vimr'
+
+homepage = 'https://github.com/qvacua/vimr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/vimr'

@@ -1,0 +1,12 @@
+id = 'tintin'
+name = 'tintin'
+
+homepage = 'https://tintin.mudhalla.net'
+
+[[package]]
+channel = 'fedora'
+name = 'tintin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tintin'

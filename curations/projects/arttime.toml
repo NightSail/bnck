@@ -1,0 +1,8 @@
+id = 'arttime'
+name = 'arttime'
+
+repository = 'https://github.com/poetaman/arttime.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arttime'

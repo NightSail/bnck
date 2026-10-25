@@ -1,0 +1,13 @@
+id = 'chocolate-doom'
+name = 'chocolate-doom'
+
+homepage = 'http://chocolate-doom.org'
+repository = 'https://github.com/chocolate-doom/chocolate-doom.git'
+
+[[package]]
+channel = 'fedora'
+name = 'chocolate-doom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chocolate-doom'

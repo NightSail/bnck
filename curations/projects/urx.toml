@@ -1,0 +1,8 @@
+id = 'urx'
+name = 'urx'
+
+homepage = 'https://urx.hahwul.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urx'

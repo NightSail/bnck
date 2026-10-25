@@ -1,0 +1,12 @@
+id = 'sid-project'
+name = 'sid-project'
+
+homepage = 'http://sid-project.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'sid'
+
+[[package]]
+channel = 'fedora'
+name = 'sid-tools'

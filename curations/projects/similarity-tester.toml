@@ -1,0 +1,8 @@
+id = 'similarity-tester'
+name = 'similarity-tester'
+
+homepage = 'https://dickgrune.com/Programs/similarity_tester'
+
+[[package]]
+channel = 'debian'
+name = 'similarity-tester'

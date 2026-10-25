@@ -1,0 +1,8 @@
+id = 'changeo'
+name = 'changeo'
+
+homepage = 'https://changeo.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'changeo'

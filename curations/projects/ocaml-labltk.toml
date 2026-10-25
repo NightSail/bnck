@@ -1,0 +1,8 @@
+id = 'ocaml-labltk'
+name = 'ocaml-labltk'
+
+homepage = 'https://garrigue.github.io/labltk'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-labltk'

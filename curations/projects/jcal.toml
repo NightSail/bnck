@@ -1,0 +1,16 @@
+id = 'jcal'
+name = 'jcal'
+
+homepage = 'https://savannah.nongnu.org/projects/jcal'
+
+[[package]]
+channel = 'debian'
+name = 'jcal'
+
+[[package]]
+channel = 'fedora'
+name = 'jcal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jcal'

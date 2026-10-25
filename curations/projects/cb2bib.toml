@@ -1,0 +1,8 @@
+id = 'cb2bib'
+name = 'cb2bib'
+
+homepage = 'http://www.molspaces.com/cb2bib'
+
+[[package]]
+channel = 'debian'
+name = 'cb2bib'

@@ -1,0 +1,8 @@
+id = 'gudhi-utils'
+name = 'gudhi-utils'
+
+homepage = 'https://gudhi.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'gudhi-utils'

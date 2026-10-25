@@ -1,0 +1,8 @@
+id = 'nncp'
+name = 'nncp'
+
+homepage = 'http://www.nncpgo.org'
+
+[[package]]
+channel = 'debian'
+name = 'nncp'

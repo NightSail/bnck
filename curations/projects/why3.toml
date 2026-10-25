@@ -1,0 +1,10 @@
+id = 'why3'
+name = 'why3'
+
+[[package]]
+channel = 'debian'
+name = 'why3'
+
+[[package]]
+channel = 'fedora'
+name = 'why3'

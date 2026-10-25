@@ -1,0 +1,16 @@
+id = 'pio'
+name = 'pio'
+
+homepage = 'https://pio.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'pioneers'
+
+[[package]]
+channel = 'fedora'
+name = 'pioneers-editor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pioneers'

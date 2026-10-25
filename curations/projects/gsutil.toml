@@ -1,0 +1,6 @@
+id = 'gsutil'
+name = 'gsutil'
+
+[[package]]
+channel = 'debian'
+name = 'gsutil'

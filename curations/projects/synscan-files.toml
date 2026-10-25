@@ -1,0 +1,8 @@
+id = 'synscan-files'
+name = 'synscan'
+
+homepage = 'https://digit-labs.org/files/tools/synscan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/synscan'

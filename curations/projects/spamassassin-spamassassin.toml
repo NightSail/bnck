@@ -1,0 +1,12 @@
+id = 'spamassassin-spamassassin'
+name = 'spamassassin'
+
+homepage = 'https://spamassassin.apache.org'
+
+[[package]]
+channel = 'fedora'
+name = 'spamassassin'
+
+[[package]]
+channel = 'fedora'
+name = 'spamassassin-compile'

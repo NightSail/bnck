@@ -1,0 +1,8 @@
+id = 's390utils'
+name = 's390utils'
+
+homepage = 'https://github.com/ibm-s390-linux/s390-tools'
+
+[[package]]
+channel = 'fedora'
+name = 's390utils'

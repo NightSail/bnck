@@ -1,0 +1,8 @@
+id = 'python3-pcbasic'
+name = 'python3-pcbasic'
+
+homepage = 'http://pc-basic.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pcbasic'

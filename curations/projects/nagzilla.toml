@@ -1,0 +1,8 @@
+id = 'nagzilla'
+name = 'nagzilla'
+
+homepage = 'http://code.google.com/p/nagzilla'
+
+[[package]]
+channel = 'debian'
+name = 'nagzilla'

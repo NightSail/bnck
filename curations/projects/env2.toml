@@ -1,0 +1,8 @@
+id = 'env2'
+name = 'env2'
+
+homepage = 'https://sourceforge.net/projects/env2'
+
+[[package]]
+channel = 'debian'
+name = 'env2'

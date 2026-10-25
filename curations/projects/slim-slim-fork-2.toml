@@ -1,0 +1,8 @@
+id = 'slim-slim-fork-2'
+name = 'slim'
+
+homepage = 'https://slim-fork.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'slim'

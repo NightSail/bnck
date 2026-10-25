@@ -1,0 +1,9 @@
+id = 'devspace'
+name = 'devspace'
+
+homepage = 'https://devspace.sh'
+repository = 'https://github.com/devspace-sh/devspace.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/devspace'

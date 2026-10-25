@@ -1,0 +1,12 @@
+id = 'kubrick'
+name = 'kubrick'
+
+homepage = 'https://apps.kde.org/kubrick'
+
+[[package]]
+channel = 'arch'
+name = 'kubrick'
+
+[[package]]
+channel = 'fedora'
+name = 'kubrick'

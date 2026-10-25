@@ -1,0 +1,8 @@
+id = 'golang-github-olekukonko-tablewriter'
+name = 'golang-github-olekukonko-tablewriter'
+
+homepage = 'https://github.com/olekukonko/tablewriter'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-olekukonko-tablewriter'

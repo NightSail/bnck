@@ -1,0 +1,8 @@
+id = 'iva'
+name = 'iva'
+
+homepage = 'https://github.com/sanger-pathogens/iva'
+
+[[package]]
+channel = 'debian'
+name = 'iva'

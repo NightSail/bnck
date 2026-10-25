@@ -1,0 +1,6 @@
+id = 'sepol-utils'
+name = 'sepol-utils'
+
+[[package]]
+channel = 'debian'
+name = 'sepol-utils'

@@ -1,0 +1,16 @@
+id = 'jruby'
+name = 'jruby'
+
+homepage = 'https://www.jruby.org'
+
+[[package]]
+channel = 'arch'
+name = 'jruby'
+
+[[package]]
+channel = 'debian'
+name = 'jruby'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jruby'

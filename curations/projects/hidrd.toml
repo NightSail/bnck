@@ -1,0 +1,8 @@
+id = 'hidrd'
+name = 'hidrd'
+
+homepage = 'https://github.com/DIGImend/hidrd'
+
+[[package]]
+channel = 'fedora'
+name = 'hidrd'

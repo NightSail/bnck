@@ -1,0 +1,20 @@
+id = 'gtk-doc'
+name = 'gtk-doc'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gtk-doc'
+
+[[package]]
+channel = 'arch'
+name = 'gtk-doc'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-doc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk-doc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtk-doc'

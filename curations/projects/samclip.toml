@@ -1,0 +1,8 @@
+id = 'samclip'
+name = 'samclip'
+
+homepage = 'https://github.com/tseemann/samclip'
+
+[[package]]
+channel = 'debian'
+name = 'samclip'

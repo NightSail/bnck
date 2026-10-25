@@ -1,0 +1,8 @@
+id = 'cai'
+name = 'cai'
+
+repository = 'https://github.com/ad-si/cai.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cai'

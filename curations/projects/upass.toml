@@ -1,0 +1,8 @@
+id = 'upass'
+name = 'upass'
+
+homepage = 'https://github.com/Kwpolska/upass'
+
+[[package]]
+channel = 'debian'
+name = 'upass'

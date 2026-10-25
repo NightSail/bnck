@@ -1,0 +1,12 @@
+id = 'markdownlint-cli2'
+name = 'markdownlint-cli2'
+
+homepage = 'https://github.com/DavidAnson/markdownlint-cli2'
+
+[[package]]
+channel = 'arch'
+name = 'markdownlint-cli2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/markdownlint-cli2'

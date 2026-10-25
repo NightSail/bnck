@@ -1,0 +1,12 @@
+id = 'speedtest-go'
+name = 'speedtest-go'
+
+repository = 'https://github.com/showwin/speedtest-go.git'
+
+[[package]]
+channel = 'debian'
+name = 'speedtest-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speedtest-go'

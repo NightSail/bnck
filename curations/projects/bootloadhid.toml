@@ -1,0 +1,8 @@
+id = 'bootloadhid'
+name = 'bootloadhid'
+
+homepage = 'https://www.obdev.at/products/vusb/bootloadhid.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bootloadhid'

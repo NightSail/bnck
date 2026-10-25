@@ -1,0 +1,16 @@
+id = 'aravis'
+name = 'aravis'
+
+homepage = 'https://github.com/AravisProject/aravis'
+
+[[package]]
+channel = 'debian'
+name = 'aravis-tools'
+
+[[package]]
+channel = 'debian'
+name = 'aravis-tools-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aravis'

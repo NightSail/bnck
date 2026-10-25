@@ -1,0 +1,8 @@
+id = 'bundletool'
+name = 'bundletool'
+
+homepage = 'https://github.com/google/bundletool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bundletool'

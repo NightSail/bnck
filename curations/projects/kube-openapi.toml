@@ -1,0 +1,12 @@
+id = 'kube-openapi'
+name = 'kube-openapi'
+
+homepage = 'https://github.com/kubernetes/kube-openapi'
+
+[[package]]
+channel = 'debian'
+name = 'kube-openapi'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-k8s-kube-openapi'

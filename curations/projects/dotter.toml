@@ -1,0 +1,8 @@
+id = 'dotter'
+name = 'dotter'
+
+homepage = 'https://github.com/SuperCuber/dotter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotter'

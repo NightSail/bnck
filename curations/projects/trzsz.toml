@@ -1,0 +1,12 @@
+id = 'trzsz'
+name = 'trzsz'
+
+homepage = 'https://trzsz.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trzsz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trzsz-go'

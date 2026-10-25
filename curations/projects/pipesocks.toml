@@ -1,0 +1,8 @@
+id = 'pipesocks'
+name = 'pipesocks'
+
+homepage = 'https://github.com/pipesocks/pipesocks'
+
+[[package]]
+channel = 'arch'
+name = 'pipesocks'

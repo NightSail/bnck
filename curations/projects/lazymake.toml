@@ -1,0 +1,8 @@
+id = 'lazymake'
+name = 'lazymake'
+
+homepage = 'https://lazymake.vercel.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazymake'

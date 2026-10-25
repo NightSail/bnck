@@ -1,0 +1,20 @@
+id = 'nfdump'
+name = 'nfdump'
+
+repository = 'https://github.com/phaag/nfdump.git'
+
+[[package]]
+channel = 'debian'
+name = 'nfdump'
+
+[[package]]
+channel = 'debian'
+name = 'nfdump-sflow'
+
+[[package]]
+channel = 'fedora'
+name = 'nfdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nfdump'

@@ -1,0 +1,8 @@
+id = 'libcrypto-utils'
+name = 'libcrypto++-utils'
+
+homepage = 'https://www.cryptopp.com'
+
+[[package]]
+channel = 'debian'
+name = 'libcrypto++-utils'

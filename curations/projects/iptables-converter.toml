@@ -1,0 +1,8 @@
+id = 'iptables-converter'
+name = 'iptables-converter'
+
+homepage = 'https://github.com/sl0/conv'
+
+[[package]]
+channel = 'debian'
+name = 'iptables-converter'

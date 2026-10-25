@@ -1,0 +1,12 @@
+id = 'opencode'
+name = 'opencode'
+
+homepage = 'https://opencode.ai'
+
+[[package]]
+channel = 'arch'
+name = 'opencode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opencode'

@@ -1,0 +1,8 @@
+id = 'uptoc'
+name = 'uptoc'
+
+repository = 'https://github.com/bonaysoft/uptoc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uptoc'

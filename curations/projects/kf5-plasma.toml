@@ -1,0 +1,8 @@
+id = 'kf5-plasma'
+name = 'kf5-plasma'
+
+homepage = 'https://invent.kde.org/frameworks/plasma'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-plasma'

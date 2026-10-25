@@ -1,0 +1,20 @@
+id = 'luit'
+name = 'luit'
+
+homepage = 'https://invisible-island.net/luit'
+
+[[package]]
+channel = 'arch'
+name = 'luit'
+
+[[package]]
+channel = 'debian'
+name = 'luit'
+
+[[package]]
+channel = 'fedora'
+name = 'luit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/luit'

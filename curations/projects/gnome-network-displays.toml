@@ -1,0 +1,12 @@
+id = 'gnome-network-displays'
+name = 'gnome-network-displays'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-network-displays'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-network-displays'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-network-displays'

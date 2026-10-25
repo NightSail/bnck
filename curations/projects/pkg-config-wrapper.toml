@@ -1,0 +1,8 @@
+id = 'pkg-config-wrapper'
+name = 'pkg-config-wrapper'
+
+repository = 'https://github.com/influxdata/pkg-config.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pkg-config-wrapper'

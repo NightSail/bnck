@@ -1,0 +1,8 @@
+id = 'pageedit'
+name = 'pageedit'
+
+homepage = 'https://github.com/Sigil-Ebook/PageEdit'
+
+[[package]]
+channel = 'arch'
+name = 'pageedit'

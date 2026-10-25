@@ -1,0 +1,8 @@
+id = 'battery-stats'
+name = 'battery-stats'
+
+homepage = 'https://github.com/petterreinholdtsen/battery-stats'
+
+[[package]]
+channel = 'debian'
+name = 'battery-stats'

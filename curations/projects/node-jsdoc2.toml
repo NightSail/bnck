@@ -1,0 +1,8 @@
+id = 'node-jsdoc2'
+name = 'node-jsdoc2'
+
+homepage = 'https://github.com/wronex/node-jsdoc2'
+
+[[package]]
+channel = 'debian'
+name = 'node-jsdoc2'

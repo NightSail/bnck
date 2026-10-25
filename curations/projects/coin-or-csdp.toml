@@ -1,0 +1,12 @@
+id = 'coin-or-csdp'
+name = 'coin-or-csdp'
+
+homepage = 'https://projects.coin-or.org/Csdp'
+
+[[package]]
+channel = 'arch'
+name = 'coin-or-csdp'
+
+[[package]]
+channel = 'debian'
+name = 'coinor-csdp'

@@ -1,0 +1,8 @@
+id = 'chaoskube'
+name = 'chaoskube'
+
+repository = 'https://github.com/linki/chaoskube.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chaoskube'

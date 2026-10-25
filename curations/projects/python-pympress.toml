@@ -1,0 +1,8 @@
+id = 'python-pympress'
+name = 'python-pympress'
+
+homepage = 'https://cimbali.github.io/pympress'
+
+[[package]]
+channel = 'arch'
+name = 'python-pympress'

@@ -1,0 +1,8 @@
+id = 'xdx'
+name = 'xdx'
+
+homepage = 'https://sourceforge.net/projects/xdxclusterclient'
+
+[[package]]
+channel = 'debian'
+name = 'xdx'

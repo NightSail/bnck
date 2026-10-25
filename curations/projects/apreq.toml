@@ -1,0 +1,12 @@
+id = 'apreq'
+name = 'apreq'
+
+homepage = 'https://httpd.apache.org/apreq'
+
+[[package]]
+channel = 'debian'
+name = 'libapreq2-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libapreq2-devel'

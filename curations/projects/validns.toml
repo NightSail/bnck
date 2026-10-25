@@ -1,0 +1,6 @@
+id = 'validns'
+name = 'validns'
+
+[[package]]
+channel = 'debian'
+name = 'validns'

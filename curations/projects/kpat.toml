@@ -1,0 +1,12 @@
+id = 'kpat'
+name = 'kpat'
+
+homepage = 'https://apps.kde.org/kpat'
+
+[[package]]
+channel = 'arch'
+name = 'kpat'
+
+[[package]]
+channel = 'fedora'
+name = 'kpat'

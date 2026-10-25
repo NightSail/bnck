@@ -1,0 +1,8 @@
+id = 'copydeps'
+name = 'copydeps'
+
+homepage = 'https://crates.io/crates/copydeps'
+
+[[package]]
+channel = 'fedora'
+name = 'copydeps'

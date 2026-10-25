@@ -1,0 +1,12 @@
+id = 'tlpi'
+name = 'tlpi'
+
+homepage = 'https://man7.org/tlpi/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'tlpi'
+
+[[package]]
+channel = 'fedora'
+name = 'tlpi-examples-bin'

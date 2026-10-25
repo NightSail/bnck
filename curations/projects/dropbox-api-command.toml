@@ -1,0 +1,8 @@
+id = 'dropbox-api-command'
+name = 'dropbox-api-command'
+
+homepage = 'https://github.com/s-aska/dropbox-api-command'
+
+[[package]]
+channel = 'fedora'
+name = 'dropbox-api-command'

@@ -1,0 +1,8 @@
+id = 'swagger2markup-cli'
+name = 'swagger2markup-cli'
+
+homepage = 'https://github.com/Swagger2Markup/swagger2markup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swagger2markup-cli'

@@ -1,0 +1,12 @@
+id = 'tldr'
+name = 'tldr'
+
+homepage = 'https://github.com/tldr-pages/tldr-python-client'
+
+[[package]]
+channel = 'arch'
+name = 'tldr'
+
+[[package]]
+channel = 'fedora'
+name = 'tldr'

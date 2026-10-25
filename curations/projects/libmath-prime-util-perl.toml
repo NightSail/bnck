@@ -1,0 +1,8 @@
+id = 'libmath-prime-util-perl'
+name = 'libmath-prime-util-perl'
+
+homepage = 'https://metacpan.org/release/Math-Prime-Util'
+
+[[package]]
+channel = 'debian'
+name = 'libmath-prime-util-perl'

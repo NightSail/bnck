@@ -1,0 +1,9 @@
+id = 'spicedb'
+name = 'spicedb'
+
+homepage = 'https://authzed.com/docs/spicedb/getting-started/discovering-spicedb'
+repository = 'https://github.com/authzed/spicedb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spicedb'

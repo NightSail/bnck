@@ -1,0 +1,8 @@
+id = 'ags'
+name = 'ags'
+
+homepage = 'http://www.adventuregamestudio.co.uk/site/ags'
+
+[[package]]
+channel = 'fedora'
+name = 'ags'

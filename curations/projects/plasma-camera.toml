@@ -1,0 +1,16 @@
+id = 'plasma-camera'
+name = 'plasma-camera'
+
+homepage = 'https://apps.kde.org/plasma.camera'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-camera'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-camera'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-camera'

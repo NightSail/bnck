@@ -6,3 +6,7 @@ repository = 'https://github.com/mikf/gallery-dl'
 [[package]]
 channel = 'debian'
 name = 'gallery-dl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gallery-dl'

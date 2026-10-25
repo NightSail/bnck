@@ -1,0 +1,8 @@
+id = 'ddir'
+name = 'ddir'
+
+homepage = 'https://github.com/jaalto/project-ddir'
+
+[[package]]
+channel = 'debian'
+name = 'ddir'

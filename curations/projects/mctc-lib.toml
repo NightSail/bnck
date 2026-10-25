@@ -1,0 +1,8 @@
+id = 'mctc-lib'
+name = 'mctc-lib'
+
+homepage = 'https://grimme-lab.github.io/mctc-lib'
+
+[[package]]
+channel = 'fedora'
+name = 'mctc-lib'

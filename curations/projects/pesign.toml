@@ -1,0 +1,16 @@
+id = 'pesign'
+name = 'pesign'
+
+homepage = 'https://github.com/rhboot/pesign'
+
+[[package]]
+channel = 'arch'
+name = 'pesign'
+
+[[package]]
+channel = 'debian'
+name = 'pesign'
+
+[[package]]
+channel = 'fedora'
+name = 'pesign'

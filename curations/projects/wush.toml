@@ -1,0 +1,8 @@
+id = 'wush'
+name = 'wush'
+
+homepage = 'https://github.com/coder/wush'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wush'

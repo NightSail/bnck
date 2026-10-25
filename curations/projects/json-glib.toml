@@ -1,0 +1,20 @@
+id = 'json-glib'
+name = 'json-glib'
+
+homepage = 'https://wiki.gnome.org/Projects/JsonGlib'
+
+[[package]]
+channel = 'arch'
+name = 'json-glib'
+
+[[package]]
+channel = 'debian'
+name = 'json-glib-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'json-glib-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/json-glib'

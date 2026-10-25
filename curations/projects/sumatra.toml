@@ -1,0 +1,8 @@
+id = 'sumatra'
+name = 'sumatra'
+
+homepage = 'http://metabarcoding.org/sumatra'
+
+[[package]]
+channel = 'debian'
+name = 'sumatra'

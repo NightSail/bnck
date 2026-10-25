@@ -1,0 +1,12 @@
+id = 'lingua-translit'
+name = 'Lingua-Translit'
+
+homepage = 'https://metacpan.org/release/Lingua-Translit'
+
+[[package]]
+channel = 'debian'
+name = 'liblingua-translit-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Lingua-Translit'

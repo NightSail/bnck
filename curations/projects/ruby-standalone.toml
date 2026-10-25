@@ -1,0 +1,6 @@
+id = 'ruby-standalone'
+name = 'ruby-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-standalone'

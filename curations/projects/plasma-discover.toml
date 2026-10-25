@@ -1,0 +1,12 @@
+id = 'plasma-discover'
+name = 'plasma-discover'
+
+homepage = 'https://invent.kde.org/plasma/discover'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-discover'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-discover'

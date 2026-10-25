@@ -1,0 +1,9 @@
+id = 'killswitch'
+name = 'killswitch'
+
+homepage = 'https://killswitch.network'
+repository = 'https://github.com/vpn-kill-switch/killswitch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/killswitch'

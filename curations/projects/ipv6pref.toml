@@ -1,0 +1,8 @@
+id = 'ipv6pref'
+name = 'ipv6pref'
+
+homepage = 'https://github.com/wertarbyte/ipv6pref'
+
+[[package]]
+channel = 'debian'
+name = 'ipv6pref'

@@ -1,0 +1,8 @@
+id = 'ghc-what4-devel'
+name = 'ghc-what4-devel'
+
+homepage = 'https://hackage.haskell.org/package/what4'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-what4-devel'

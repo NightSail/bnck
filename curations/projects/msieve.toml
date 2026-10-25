@@ -1,0 +1,8 @@
+id = 'msieve'
+name = 'msieve'
+
+homepage = 'https://sourceforge.net/projects/msieve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msieve'

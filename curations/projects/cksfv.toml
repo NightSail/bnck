@@ -1,0 +1,20 @@
+id = 'cksfv'
+name = 'cksfv'
+
+homepage = 'http://zakalwe.fi/~shd/foss/cksfv'
+
+[[package]]
+channel = 'arch'
+name = 'cksfv'
+
+[[package]]
+channel = 'debian'
+name = 'cksfv'
+
+[[package]]
+channel = 'fedora'
+name = 'cksfv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cksfv'

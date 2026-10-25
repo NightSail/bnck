@@ -1,0 +1,8 @@
+id = 'libambix-utils'
+name = 'libambix-utils'
+
+homepage = 'https://ambisonics.iem.at/xchange/format'
+
+[[package]]
+channel = 'debian'
+name = 'libambix-utils'

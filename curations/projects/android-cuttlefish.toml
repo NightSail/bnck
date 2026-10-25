@@ -1,0 +1,12 @@
+id = 'android-cuttlefish'
+name = 'android-cuttlefish'
+
+homepage = 'https://github.com/google/android-cuttlefish'
+
+[[package]]
+channel = 'debian'
+name = 'cuttlefish-base'
+
+[[package]]
+channel = 'debian'
+name = 'cuttlefish-integration'

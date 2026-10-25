@@ -1,0 +1,8 @@
+id = 'goo'
+name = 'goo'
+
+homepage = 'https://people.csail.mit.edu/jrb/goo'
+
+[[package]]
+channel = 'debian'
+name = 'goo'

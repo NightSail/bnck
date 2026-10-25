@@ -1,0 +1,8 @@
+id = 'python3-patiencediff'
+name = 'python3-patiencediff'
+
+homepage = 'https://github.com/breezy-team/patiencediff'
+
+[[package]]
+channel = 'debian'
+name = 'python3-patiencediff'

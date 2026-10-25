@@ -1,0 +1,12 @@
+id = 'ksuid'
+name = 'ksuid'
+
+homepage = 'https://github.com/segmentio/ksuid'
+
+[[package]]
+channel = 'debian'
+name = 'ksuid'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-segmentio-ksuid'

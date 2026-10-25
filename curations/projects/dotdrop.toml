@@ -1,0 +1,12 @@
+id = 'dotdrop'
+name = 'dotdrop'
+
+repository = 'https://github.com/deadc0de6/dotdrop.git'
+
+[[package]]
+channel = 'debian'
+name = 'dotdrop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotdrop'

@@ -1,0 +1,12 @@
+id = 'nutcracker'
+name = 'nutcracker'
+
+repository = 'https://github.com/twitter/twemproxy.git'
+
+[[package]]
+channel = 'debian'
+name = 'nutcracker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nutcracker'

@@ -1,0 +1,8 @@
+id = 'kephra'
+name = 'kephra'
+
+homepage = 'http://kephra.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'kephra'

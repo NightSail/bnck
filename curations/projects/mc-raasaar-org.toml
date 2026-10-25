@@ -1,0 +1,8 @@
+id = 'mc-raasaar-org'
+name = 'mc'
+
+repository = 'https://github.com/RaaSaaR-org/mission-control'
+
+[[package]]
+channel = 'crates.io'
+name = 'mc'

@@ -1,0 +1,8 @@
+id = 'go-arch-lint'
+name = 'go-arch-lint'
+
+repository = 'https://github.com/fe3dback/go-arch-lint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-arch-lint'

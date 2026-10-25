@@ -1,0 +1,8 @@
+id = 'ocaml-cppo'
+name = 'ocaml-cppo'
+
+homepage = 'https://ocaml-community.github.io/cppo'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-cppo'

@@ -1,0 +1,8 @@
+id = 'feishu2md'
+name = 'feishu2md'
+
+repository = 'https://github.com/Wsine/feishu2md.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/feishu2md'

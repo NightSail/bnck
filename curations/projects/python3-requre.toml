@@ -1,0 +1,8 @@
+id = 'python3-requre'
+name = 'python3-requre'
+
+homepage = 'https://github.com/packit/requre'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-requre'

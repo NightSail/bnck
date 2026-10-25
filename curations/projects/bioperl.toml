@@ -1,0 +1,13 @@
+id = 'bioperl'
+name = 'bioperl'
+
+homepage = 'http://www.bioperl.org'
+repository = 'https://github.com/bioperl/bioperl-live.git'
+
+[[package]]
+channel = 'debian'
+name = 'bioperl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bioperl'

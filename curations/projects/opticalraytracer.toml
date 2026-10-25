@@ -1,0 +1,8 @@
+id = 'opticalraytracer'
+name = 'opticalraytracer'
+
+homepage = 'https://arachnoid.com/OpticalRayTracer'
+
+[[package]]
+channel = 'debian'
+name = 'opticalraytracer'

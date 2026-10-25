@@ -1,0 +1,12 @@
+id = 'glome'
+name = 'glome'
+
+homepage = 'https://github.com/google/glome'
+
+[[package]]
+channel = 'debian'
+name = 'glome-cli'
+
+[[package]]
+channel = 'debian'
+name = 'glome-login'

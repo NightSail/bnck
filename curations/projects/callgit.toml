@@ -1,0 +1,8 @@
+id = 'callgit'
+name = 'callgit'
+
+homepage = 'http://www.hamsoftware.org'
+
+[[package]]
+channel = 'fedora'
+name = 'callgit'

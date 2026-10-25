@@ -1,0 +1,8 @@
+id = 'locateme'
+name = 'locateme'
+
+homepage = 'https://iharder.sourceforge.net/current/macosx/locateme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/locateme'

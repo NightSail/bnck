@@ -1,0 +1,16 @@
+id = 'open-image-denoise'
+name = 'open-image-denoise'
+
+homepage = 'https://openimagedenoise.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'openimagedenoise'
+
+[[package]]
+channel = 'fedora'
+name = 'oidn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-image-denoise'

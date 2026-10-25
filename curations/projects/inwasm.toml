@@ -1,0 +1,8 @@
+id = 'inwasm'
+name = 'inwasm'
+
+homepage = 'https://github.com/jerch/inwasm'
+
+[[package]]
+channel = 'debian'
+name = 'inwasm'

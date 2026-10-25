@@ -1,0 +1,8 @@
+id = 'datree'
+name = 'datree'
+
+homepage = 'https://github.com/datreeio/datree'
+
+[[package]]
+channel = 'arch'
+name = 'datree'

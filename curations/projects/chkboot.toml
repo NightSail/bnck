@@ -1,0 +1,8 @@
+id = 'chkboot'
+name = 'chkboot'
+
+homepage = 'https://github.com/grazzolini/chkboot'
+
+[[package]]
+channel = 'debian'
+name = 'chkboot'

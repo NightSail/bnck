@@ -1,0 +1,20 @@
+id = 'libwmf'
+name = 'libwmf'
+
+homepage = 'https://github.com/caolanm/libwmf'
+
+[[package]]
+channel = 'arch'
+name = 'libwmf'
+
+[[package]]
+channel = 'fedora'
+name = 'libwmf'
+
+[[package]]
+channel = 'fedora'
+name = 'libwmf-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libwmf'

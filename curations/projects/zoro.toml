@@ -1,0 +1,8 @@
+id = 'zoro'
+name = 'zoro'
+
+homepage = 'https://www.txthinking.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zoro'

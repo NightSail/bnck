@@ -1,0 +1,6 @@
+id = 'kylin-scanner'
+name = 'kylin-scanner'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-scanner'

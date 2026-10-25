@@ -1,0 +1,16 @@
+id = 'aegisub'
+name = 'aegisub'
+
+homepage = 'http://www.aegisub.org'
+
+[[package]]
+channel = 'arch'
+name = 'aegisub'
+
+[[package]]
+channel = 'debian'
+name = 'aegisub'
+
+[[package]]
+channel = 'fedora'
+name = 'aegisub'

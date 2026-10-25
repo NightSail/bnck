@@ -1,0 +1,8 @@
+id = 'progress-linux-container'
+name = 'progress-linux-container'
+
+homepage = 'https://progress-linux.org'
+
+[[package]]
+channel = 'debian'
+name = 'progress-linux-container'

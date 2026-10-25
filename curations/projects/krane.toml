@@ -1,0 +1,8 @@
+id = 'krane'
+name = 'krane'
+
+homepage = 'https://github.com/Shopify/krane'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/krane'

@@ -1,0 +1,8 @@
+id = 'cde'
+name = 'cde'
+
+homepage = 'http://www.pgbovine.net/cde.html'
+
+[[package]]
+channel = 'debian'
+name = 'cde'

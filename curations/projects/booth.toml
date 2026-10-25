@@ -1,0 +1,16 @@
+id = 'booth'
+name = 'booth'
+
+homepage = 'https://github.com/ClusterLabs/booth'
+
+[[package]]
+channel = 'debian'
+name = 'booth'
+
+[[package]]
+channel = 'fedora'
+name = 'booth-core'
+
+[[package]]
+channel = 'fedora'
+name = 'booth-site'

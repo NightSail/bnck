@@ -1,0 +1,8 @@
+id = 'bashly'
+name = 'bashly'
+
+homepage = 'https://bashly.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bashly'

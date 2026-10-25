@@ -1,0 +1,21 @@
+id = 'most'
+name = 'most'
+
+homepage = 'https://www.jedsoft.org/most/index.html'
+repository = 'git://git.jedsoft.org/git/most.git'
+
+[[package]]
+channel = 'arch'
+name = 'most'
+
+[[package]]
+channel = 'debian'
+name = 'most'
+
+[[package]]
+channel = 'fedora'
+name = 'most'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/most'

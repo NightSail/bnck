@@ -1,0 +1,17 @@
+id = 'cherrytree'
+name = 'cherrytree'
+
+homepage = 'https://www.giuspen.com/cherrytree'
+repository = 'https://github.com/giuspen/cherrytree.git'
+
+[[package]]
+channel = 'arch'
+name = 'cherrytree'
+
+[[package]]
+channel = 'debian'
+name = 'cherrytree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cherrytree'

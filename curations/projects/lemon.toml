@@ -1,0 +1,16 @@
+id = 'lemon'
+name = 'lemon'
+
+homepage = 'http://lemon.cs.elte.hu/trac/lemon'
+
+[[package]]
+channel = 'arch'
+name = 'coin-or-lemon'
+
+[[package]]
+channel = 'debian'
+name = 'liblemon-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'coin-or-lemon-tools'

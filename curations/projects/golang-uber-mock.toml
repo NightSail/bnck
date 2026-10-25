@@ -1,0 +1,8 @@
+id = 'golang-uber-mock'
+name = 'golang-uber-mock'
+
+homepage = 'https://github.com/uber/mock'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-uber-mock'

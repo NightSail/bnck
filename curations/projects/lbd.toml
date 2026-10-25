@@ -1,0 +1,8 @@
+id = 'lbd'
+name = 'lbd'
+
+homepage = 'https://github.com/craig/ge.mine.nu/tree/master/lbd'
+
+[[package]]
+channel = 'fedora'
+name = 'lbd'

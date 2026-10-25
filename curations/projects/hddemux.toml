@@ -1,0 +1,8 @@
+id = 'hddemux'
+name = 'hddemux'
+
+homepage = 'https://0xacab.org/dkg/hddemux'
+
+[[package]]
+channel = 'debian'
+name = 'hddemux'

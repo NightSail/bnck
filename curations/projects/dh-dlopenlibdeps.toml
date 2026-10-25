@@ -1,0 +1,8 @@
+id = 'dh-dlopenlibdeps'
+name = 'dh-dlopenlibdeps'
+
+homepage = 'https://systemd.io/ELF_PACKAGE_METADATA'
+
+[[package]]
+channel = 'debian'
+name = 'dh-dlopenlibdeps'

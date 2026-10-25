@@ -1,0 +1,8 @@
+id = 'quickroute-gps'
+name = 'quickroute-gps'
+
+homepage = 'https://github.com/ralovich/quickroute-linux'
+
+[[package]]
+channel = 'debian'
+name = 'quickroute-gps'

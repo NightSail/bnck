@@ -1,0 +1,608 @@
+id = 'fence-agents'
+name = 'fence-agents'
+
+homepage = 'https://github.com/ClusterLabs/fence-agents'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ack-manual'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-aliyun'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-alom'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-amt'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-apc'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-apc-snmp'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-aws'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-aws-vpc-net'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-azure-arm'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-bladecenter'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-brocade'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-cdu'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-cisco-mds'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-cisco-ucs'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-compute'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-crosslink'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-cyberpower-ssh'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-docker'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-drac'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-drac5'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-dummy'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-eaton-snmp'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-eaton-ssh'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ecloud'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-emerson'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-eps'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-gce'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-hds-cb'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-hetzner-cloud'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-heuristics-ping'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-hpblade'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ibm-powervs'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ibm-vpc'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ibmblade'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ibmz'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ifmib'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ilo-moonshot'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ilo-mp'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ilo-ssh'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ilo2'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-intelmodular'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ipdu'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ipmilan'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ironic'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-kdump'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-kubevirt'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ldom'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-lindy-pdu'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-lpar'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-mpath'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-netio'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-nutanix-ahv'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-openstack'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ovh'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-ovm'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-powerman'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-pve'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-raritan'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-raritan-px3'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-rcd-serial'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-redfish'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-rhevm'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-rsa'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-rsb'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-sanbox2'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-sbd'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-scsi'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-shelly'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-skalar'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-vbox'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-virsh'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-vmware'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-vmware-rest'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-vmware-soap'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-vmware-vcloud'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-wti'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-xenapi'
+
+[[package]]
+channel = 'debian'
+name = 'fence-agents-zvm'
+
+[[package]]
+channel = 'debian'
+name = 'fence-virt'
+
+[[package]]
+channel = 'debian'
+name = 'fence-virtd'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-aliyun'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-alom'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-amt'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-amt-ws'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-apc'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-apc-snmp'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-aws'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-azure-arm'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-bladecenter'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-brocade'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-cdu'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-cisco-mds'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-cisco-ucs'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-compute'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-cyberpower-ssh'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-docker'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-drac'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-drac5'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-eaton-snmp'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-eaton-ssh'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ecloud'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-emerson'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-eps'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-gce'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-hds-cb'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-heuristics-ping'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-hpblade'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ibm-powervs'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ibm-vpc'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ibmblade'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ibmz'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ifmib'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ilo-moonshot'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ilo-mp'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ilo-ssh'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ilo2'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-intelmodular'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ipdu'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ipmilan'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ironic'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-kdump'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-kubevirt'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ldom'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-lpar'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-mpath'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-netio'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-nutanix-ahv'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-openstack'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ovh'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-ovm'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-pve'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-raritan'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-rcd-serial'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-redfish'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-rhevm'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-rsa'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-rsb'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-sanbox2'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-sbd'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-scsi'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-vbox'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-virsh'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-vmware'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-vmware-rest'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-vmware-soap'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-vmware-vcloud'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-wti'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-xenapi'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-agents-zvm'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-virt'
+
+[[package]]
+channel = 'fedora'
+name = 'fence-virtd'

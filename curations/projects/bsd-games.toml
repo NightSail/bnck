@@ -1,0 +1,12 @@
+id = 'bsd-games'
+name = 'bsd-games'
+
+homepage = 'https://sourceforge.net/projects/bsd-games'
+
+[[package]]
+channel = 'arch'
+name = 'bsd-games'
+
+[[package]]
+channel = 'fedora'
+name = 'bsd-games'

@@ -1,0 +1,8 @@
+id = 'rubygem-rbvmomi'
+name = 'rubygem-rbvmomi'
+
+homepage = 'https://github.com/vmware/rbvmomi'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rbvmomi'

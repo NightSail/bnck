@@ -1,0 +1,9 @@
+id = 'kpt'
+name = 'kpt'
+
+homepage = 'https://kpt.dev'
+repository = 'https://github.com/kptdev/kpt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kpt'

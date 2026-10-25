@@ -1,0 +1,8 @@
+id = 'maui-mauikit-pix'
+name = 'maui-mauikit-pix'
+
+homepage = 'https://mauikit.org/apps/pix'
+
+[[package]]
+channel = 'fedora'
+name = 'maui-mauikit-pix'

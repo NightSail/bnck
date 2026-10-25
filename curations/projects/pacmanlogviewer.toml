@@ -1,0 +1,8 @@
+id = 'pacmanlogviewer'
+name = 'pacmanlogviewer'
+
+homepage = 'https://github.com/gcala/pacmanlogviewer'
+
+[[package]]
+channel = 'arch'
+name = 'pacmanlogviewer'

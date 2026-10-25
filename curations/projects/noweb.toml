@@ -1,0 +1,12 @@
+id = 'noweb'
+name = 'noweb'
+
+homepage = 'https://www.cs.tufts.edu/~nr/noweb'
+
+[[package]]
+channel = 'debian'
+name = 'noweb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/noweb'

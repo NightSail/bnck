@@ -1,0 +1,8 @@
+id = 'esphome-device-builder'
+name = 'esphome-device-builder'
+
+homepage = 'https://desktop.esphome.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/esphome-device-builder'

@@ -1,0 +1,8 @@
+id = 'rpick'
+name = 'rpick'
+
+homepage = 'https://crates.io/crates/rpick'
+
+[[package]]
+channel = 'fedora'
+name = 'rpick'

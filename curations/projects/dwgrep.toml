@@ -1,0 +1,8 @@
+id = 'dwgrep'
+name = 'dwgrep'
+
+homepage = 'http://pmachata.github.io/dwgrep/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'dwgrep'

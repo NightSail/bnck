@@ -1,0 +1,12 @@
+id = 'convert-binary-c'
+name = 'Convert-Binary-C'
+
+homepage = 'https://metacpan.org/release/Convert-Binary-C'
+
+[[package]]
+channel = 'debian'
+name = 'libconvert-binary-c-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Convert-Binary-C'

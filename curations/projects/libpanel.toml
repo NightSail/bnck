@@ -1,0 +1,8 @@
+id = 'libpanel'
+name = 'libpanel'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libpanel'
+
+[[package]]
+channel = 'arch'
+name = 'libpanel'

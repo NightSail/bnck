@@ -1,0 +1,8 @@
+id = 'mock-rpm-software-management'
+name = 'mock'
+
+homepage = 'https://github.com/rpm-software-management/mock'
+
+[[package]]
+channel = 'fedora'
+name = 'mock'

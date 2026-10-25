@@ -1,0 +1,16 @@
+id = 'kafs'
+name = 'kafs'
+
+homepage = 'https://www.infradead.org/~dhowells/kafs'
+
+[[package]]
+channel = 'debian'
+name = 'kafs-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kafs-client'
+
+[[package]]
+channel = 'fedora'
+name = 'kafs-client-compat'

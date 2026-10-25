@@ -1,0 +1,9 @@
+id = 'legitify'
+name = 'legitify'
+
+homepage = 'https://legitify.dev'
+repository = 'https://github.com/Legit-Labs/legitify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/legitify'

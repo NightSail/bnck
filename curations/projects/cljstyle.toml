@@ -1,0 +1,8 @@
+id = 'cljstyle'
+name = 'cljstyle'
+
+homepage = 'https://github.com/greglook/cljstyle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/cljstyle'

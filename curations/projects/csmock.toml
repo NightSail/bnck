@@ -1,0 +1,12 @@
+id = 'csmock'
+name = 'csmock'
+
+homepage = 'https://github.com/csutils/csmock'
+
+[[package]]
+channel = 'fedora'
+name = 'csbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'csmock-common'

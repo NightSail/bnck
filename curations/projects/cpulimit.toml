@@ -1,0 +1,17 @@
+id = 'cpulimit'
+name = 'cpulimit'
+
+homepage = 'https://limitcpu.sourceforge.net'
+repository = 'https://github.com/opsengine/cpulimit.git'
+
+[[package]]
+channel = 'debian'
+name = 'cpulimit'
+
+[[package]]
+channel = 'fedora'
+name = 'cpulimit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpulimit'

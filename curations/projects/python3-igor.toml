@@ -1,0 +1,8 @@
+id = 'python3-igor'
+name = 'python3-igor'
+
+homepage = 'http://git.tremily.us'
+
+[[package]]
+channel = 'debian'
+name = 'python3-igor'

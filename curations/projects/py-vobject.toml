@@ -1,0 +1,12 @@
+id = 'py-vobject'
+name = 'py-vobject'
+
+homepage = 'http://py-vobject.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-vobject'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vobject'

@@ -1,0 +1,8 @@
+id = 'dvbackup'
+name = 'dvbackup'
+
+homepage = 'http://dvbackup.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dvbackup'

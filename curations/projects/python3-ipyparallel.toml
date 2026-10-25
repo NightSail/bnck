@@ -1,0 +1,12 @@
+id = 'python3-ipyparallel'
+name = 'python3-ipyparallel'
+
+homepage = 'https://github.com/ipython/ipyparallel'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ipyparallel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ipyparallel'

@@ -1,0 +1,12 @@
+id = 'wheel'
+name = 'wheel'
+
+homepage = 'https://github.com/pypa/wheel'
+
+[[package]]
+channel = 'debian'
+name = 'python-wheel-common'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-wheel'

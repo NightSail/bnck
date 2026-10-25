@@ -1,0 +1,8 @@
+id = 'minc-tools'
+name = 'minc-tools'
+
+homepage = 'https://www.bic.mni.mcgill.ca/ServicesSoftware/HomePage'
+
+[[package]]
+channel = 'debian'
+name = 'minc-tools'

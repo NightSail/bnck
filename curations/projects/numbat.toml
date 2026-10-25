@@ -12,5 +12,9 @@ channel = 'crates.io'
 name = 'numbat-cli'
 
 [[package]]
+channel = 'debian'
+name = 'numbat'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/numbat'

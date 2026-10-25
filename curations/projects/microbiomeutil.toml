@@ -1,0 +1,20 @@
+id = 'microbiomeutil'
+name = 'microbiomeutil'
+
+homepage = 'https://microbiomeutil.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'chimeraslayer'
+
+[[package]]
+channel = 'debian'
+name = 'microbiomeutil'
+
+[[package]]
+channel = 'debian'
+name = 'nast-ier'
+
+[[package]]
+channel = 'debian'
+name = 'wigeon'

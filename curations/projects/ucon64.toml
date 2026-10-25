@@ -1,0 +1,9 @@
+id = 'ucon64'
+name = 'ucon64'
+
+homepage = 'https://ucon64.sourceforge.io'
+repository = 'https://svn.code.sf.net/p/ucon64/svn/trunk/ucon64'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ucon64'

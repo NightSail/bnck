@@ -1,0 +1,8 @@
+id = 'isponsorblocktv'
+name = 'isponsorblocktv'
+
+homepage = 'https://github.com/dmunozv04/iSponsorBlockTV'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/isponsorblocktv'

@@ -1,0 +1,12 @@
+id = 'refine'
+name = 'refine'
+
+homepage = 'https://tesk.page/refine'
+
+[[package]]
+channel = 'arch'
+name = 'refine'
+
+[[package]]
+channel = 'debian'
+name = 'refine'

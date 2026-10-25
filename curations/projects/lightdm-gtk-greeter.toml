@@ -1,0 +1,16 @@
+id = 'lightdm-gtk-greeter'
+name = 'lightdm-gtk-greeter'
+
+homepage = 'https://github.com/Xubuntu/lightdm-gtk-greeter'
+
+[[package]]
+channel = 'arch'
+name = 'lightdm-gtk-greeter'
+
+[[package]]
+channel = 'debian'
+name = 'lightdm-gtk-greeter'
+
+[[package]]
+channel = 'fedora'
+name = 'lightdm-gtk'

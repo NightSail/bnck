@@ -1,0 +1,9 @@
+id = 'trojan-go'
+name = 'trojan-go'
+
+homepage = 'https://p4gefau1t.github.io/trojan-go'
+repository = 'https://github.com/p4gefau1t/trojan-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trojan-go'

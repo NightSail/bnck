@@ -1,0 +1,8 @@
+id = 'smokegen-devel'
+name = 'smokegen-devel'
+
+homepage = 'https://projects.kde.org/projects/kde/kdebindings/smoke'
+
+[[package]]
+channel = 'fedora'
+name = 'smokegen-devel'

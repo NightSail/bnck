@@ -1,0 +1,12 @@
+id = 'mini-buildd'
+name = 'mini-buildd'
+
+homepage = 'http://mini-buildd.installiert.net'
+
+[[package]]
+channel = 'debian'
+name = 'mini-buildd'
+
+[[package]]
+channel = 'debian'
+name = 'mini-buildd-utils'

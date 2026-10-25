@@ -1,0 +1,8 @@
+id = 'srrdb-terminal-client'
+name = 'srrdb-terminal-client'
+
+homepage = 'https://github.com/hashworks/srrdb-Terminal-Client'
+
+[[package]]
+channel = 'arch'
+name = 'srrdb-terminal-client'

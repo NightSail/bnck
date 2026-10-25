@@ -1,0 +1,12 @@
+id = 'spidermonkey-spidermonkey'
+name = 'spidermonkey'
+
+homepage = 'https://spidermonkey.dev'
+
+[[package]]
+channel = 'arch'
+name = 'js128'
+
+[[package]]
+channel = 'arch'
+name = 'js140'

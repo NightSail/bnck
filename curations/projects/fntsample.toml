@@ -1,0 +1,12 @@
+id = 'fntsample'
+name = 'fntsample'
+
+homepage = 'https://github.com/eugmes/fntsample'
+
+[[package]]
+channel = 'debian'
+name = 'fntsample'
+
+[[package]]
+channel = 'fedora'
+name = 'fntsample'

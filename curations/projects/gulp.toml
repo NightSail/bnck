@@ -1,0 +1,12 @@
+id = 'gulp'
+name = 'gulp'
+
+homepage = 'https://gulpjs.com'
+
+[[package]]
+channel = 'arch'
+name = 'gulp'
+
+[[package]]
+channel = 'debian'
+name = 'gulp'

@@ -1,0 +1,8 @@
+id = 'cbfmt'
+name = 'cbfmt'
+
+homepage = 'https://github.com/lukas-reineke/cbfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cbfmt'

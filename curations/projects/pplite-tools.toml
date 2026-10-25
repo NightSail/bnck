@@ -1,0 +1,8 @@
+id = 'pplite-tools'
+name = 'pplite-tools'
+
+homepage = 'https://www.cs.unipr.it/~zaffanella/PPLite'
+
+[[package]]
+channel = 'fedora'
+name = 'pplite-tools'

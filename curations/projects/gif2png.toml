@@ -1,0 +1,17 @@
+id = 'gif2png'
+name = 'gif2png'
+
+homepage = 'http://www.catb.org/~esr/gif2png'
+repository = 'https://gitlab.com/esr/gif2png.git'
+
+[[package]]
+channel = 'arch'
+name = 'gif2png'
+
+[[package]]
+channel = 'fedora'
+name = 'gif2png'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gif2png'

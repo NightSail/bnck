@@ -1,0 +1,8 @@
+id = 'nodeunit'
+name = 'nodeunit'
+
+homepage = 'https://github.com/caolan/nodeunit'
+
+[[package]]
+channel = 'debian'
+name = 'nodeunit'

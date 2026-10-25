@@ -1,0 +1,12 @@
+id = 'openpgp-ca'
+name = 'openpgp-ca'
+
+homepage = 'https://openpgp-ca.org'
+
+[[package]]
+channel = 'arch'
+name = 'openpgp-ca'
+
+[[package]]
+channel = 'arch'
+name = 'openpgp-ca-restd'

@@ -1,0 +1,8 @@
+id = 'python3-jenkinsapi'
+name = 'python3-jenkinsapi'
+
+homepage = 'https://pypi.python.org/pypi/jenkinsapi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jenkinsapi'

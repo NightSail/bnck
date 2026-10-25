@@ -1,0 +1,17 @@
+id = 'premake'
+name = 'premake'
+
+homepage = 'https://premake.github.io'
+repository = 'https://github.com/premake/premake-core.git'
+
+[[package]]
+channel = 'arch'
+name = 'premake'
+
+[[package]]
+channel = 'fedora'
+name = 'premake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/premake'

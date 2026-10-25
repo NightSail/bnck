@@ -1,0 +1,8 @@
+id = 'photodedupe'
+name = 'photodedupe'
+
+homepage = 'https://github.com/InexplicableMagic/photodedupe'
+
+[[package]]
+channel = 'debian'
+name = 'photodedupe'

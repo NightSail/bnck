@@ -1,0 +1,16 @@
+id = 'dunst'
+name = 'dunst'
+
+homepage = 'https://dunst-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'dunst'
+
+[[package]]
+channel = 'debian'
+name = 'dunst'
+
+[[package]]
+channel = 'fedora'
+name = 'dunst'

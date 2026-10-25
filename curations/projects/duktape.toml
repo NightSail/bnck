@@ -1,0 +1,12 @@
+id = 'duktape'
+name = 'duktape'
+
+homepage = 'https://duktape.org'
+
+[[package]]
+channel = 'debian'
+name = 'duktape'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duktape'

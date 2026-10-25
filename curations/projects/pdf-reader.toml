@@ -1,0 +1,12 @@
+id = 'pdf-reader'
+name = 'pdf-reader'
+
+homepage = 'https://github.com/yob/pdf-reader'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-pdf-reader'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-pdf-reader'

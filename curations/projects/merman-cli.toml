@@ -1,0 +1,8 @@
+id = 'merman-cli'
+name = 'merman-cli'
+
+homepage = 'https://frankorz.com/merman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/merman-cli'

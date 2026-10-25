@@ -1,0 +1,8 @@
+id = 'python3-tcx2gpx'
+name = 'python3-tcx2gpx'
+
+homepage = 'https://gitlab.com/nshephard/tcx2gpx'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tcx2gpx'

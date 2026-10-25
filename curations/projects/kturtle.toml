@@ -1,0 +1,16 @@
+id = 'kturtle'
+name = 'kturtle'
+
+homepage = 'https://apps.kde.org/kturtle'
+
+[[package]]
+channel = 'arch'
+name = 'kturtle'
+
+[[package]]
+channel = 'debian'
+name = 'kturtle'
+
+[[package]]
+channel = 'fedora'
+name = 'kturtle'

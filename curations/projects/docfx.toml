@@ -1,0 +1,8 @@
+id = 'docfx'
+name = 'docfx'
+
+homepage = 'https://dotnet.github.io/docfx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docfx'

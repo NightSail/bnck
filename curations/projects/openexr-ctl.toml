@@ -1,0 +1,8 @@
+id = 'openexr-ctl'
+name = 'OpenEXR_CTL'
+
+homepage = 'http://github.com/ampas/CTL'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenEXR_CTL'

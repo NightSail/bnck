@@ -1,0 +1,21 @@
+id = 'tealdeer'
+name = 'tealdeer'
+
+homepage = 'https://crates.io/crates/tealdeer'
+repository = 'https://github.com/tealdeer-rs/tealdeer.git'
+
+[[package]]
+channel = 'arch'
+name = 'tealdeer'
+
+[[package]]
+channel = 'debian'
+name = 'tealdeer'
+
+[[package]]
+channel = 'fedora'
+name = 'tealdeer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tealdeer'

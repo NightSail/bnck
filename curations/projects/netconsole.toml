@@ -1,0 +1,8 @@
+id = 'netconsole'
+name = 'netconsole'
+
+homepage = 'https://github.com/ionos-cloud/netconsole'
+
+[[package]]
+channel = 'debian'
+name = 'netconsole'

@@ -1,0 +1,16 @@
+id = 'recutils'
+name = 'recutils'
+
+homepage = 'https://www.gnu.org/software/recutils'
+
+[[package]]
+channel = 'debian'
+name = 'recutils'
+
+[[package]]
+channel = 'fedora'
+name = 'recutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recutils'

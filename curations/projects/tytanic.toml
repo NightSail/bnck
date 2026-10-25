@@ -1,0 +1,9 @@
+id = 'tytanic'
+name = 'tytanic'
+
+homepage = 'https://typst-community.github.io/tytanic'
+repository = 'https://github.com/typst-community/tytanic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tytanic'

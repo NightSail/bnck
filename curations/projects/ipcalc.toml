@@ -1,0 +1,24 @@
+id = 'ipcalc'
+name = 'ipcalc'
+
+homepage = 'https://jodies.de/ipcalc'
+
+[[package]]
+channel = 'arch'
+name = 'ipcalc'
+
+[[package]]
+channel = 'debian'
+name = 'ipcalc'
+
+[[package]]
+channel = 'debian'
+name = 'ipcalc-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'ipcalc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipcalc'

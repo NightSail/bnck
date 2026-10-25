@@ -1,0 +1,8 @@
+id = 'libsail'
+name = 'libsail'
+
+homepage = 'https://sail.software'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libsail'

@@ -1,0 +1,8 @@
+id = 'clairvoyant'
+name = 'clairvoyant'
+
+homepage = 'https://apps.gnome.org/Clairvoyant'
+
+[[package]]
+channel = 'arch'
+name = 'clairvoyant'

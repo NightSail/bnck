@@ -1,0 +1,8 @@
+id = 'hledger-interest'
+name = 'hledger-interest'
+
+homepage = 'https://github.com/peti/hledger-interest'
+
+[[package]]
+channel = 'debian'
+name = 'hledger-interest'

@@ -1,0 +1,12 @@
+id = 'spatialite-tools'
+name = 'spatialite-tools'
+
+homepage = 'https://www.gaia-gis.it/fossil/spatialite-tools'
+
+[[package]]
+channel = 'debian'
+name = 'spatialite-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'spatialite-tools'

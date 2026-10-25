@@ -1,0 +1,12 @@
+id = 'golang-petname'
+name = 'golang-petname'
+
+homepage = 'https://github.com/dustinkirkland/golang-petname'
+
+[[package]]
+channel = 'debian'
+name = 'golang-petname'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-dustinkirkland-petname'

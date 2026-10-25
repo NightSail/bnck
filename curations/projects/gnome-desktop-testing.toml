@@ -1,0 +1,12 @@
+id = 'gnome-desktop-testing'
+name = 'gnome-desktop-testing'
+
+homepage = 'https://wiki.gnome.org/Initiatives/GnomeGoals/InstalledTests'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-desktop-testing'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-desktop-testing'

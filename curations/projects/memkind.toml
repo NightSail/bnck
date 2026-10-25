@@ -1,0 +1,8 @@
+id = 'memkind'
+name = 'memkind'
+
+homepage = 'http://memkind.github.io/memkind'
+
+[[package]]
+channel = 'fedora'
+name = 'memkind'

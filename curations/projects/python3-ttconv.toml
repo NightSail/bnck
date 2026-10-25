@@ -1,0 +1,8 @@
+id = 'python3-ttconv'
+name = 'python3-ttconv'
+
+homepage = 'https://github.com/sandflow/ttconv'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ttconv'

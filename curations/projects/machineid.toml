@@ -1,0 +1,12 @@
+id = 'machineid'
+name = 'machineid'
+
+homepage = 'https://github.com/denisbrodbeck/machineid'
+
+[[package]]
+channel = 'debian'
+name = 'machineid'
+
+[[package]]
+channel = 'fedora'
+name = 'machineid'

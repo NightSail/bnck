@@ -1,0 +1,8 @@
+id = 'libwww-finger-perl'
+name = 'libwww-finger-perl'
+
+homepage = 'https://metacpan.org/release/WWW-Finger'
+
+[[package]]
+channel = 'debian'
+name = 'libwww-finger-perl'

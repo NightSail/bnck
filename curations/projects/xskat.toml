@@ -1,0 +1,8 @@
+id = 'xskat'
+name = 'xskat'
+
+homepage = 'http://www.xskat.de/xskat.html'
+
+[[package]]
+channel = 'fedora'
+name = 'xskat'

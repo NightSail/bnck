@@ -1,0 +1,12 @@
+id = 'ascii2binary'
+name = 'ascii2binary'
+
+homepage = 'https://billposer.org/Software/a2b.html'
+
+[[package]]
+channel = 'debian'
+name = 'ascii2binary'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ascii2binary'

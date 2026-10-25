@@ -1,0 +1,8 @@
+id = 'topplot'
+name = 'topplot'
+
+homepage = 'https://gitlab.com/eBardie/topplot'
+
+[[package]]
+channel = 'debian'
+name = 'topplot'

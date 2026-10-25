@@ -1,0 +1,12 @@
+id = 'cvs-cvs'
+name = 'cvs'
+
+homepage = 'https://www.nongnu.org/cvs'
+
+[[package]]
+channel = 'debian'
+name = 'cvs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cvs'

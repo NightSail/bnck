@@ -1,0 +1,8 @@
+id = 'fet'
+name = 'fet'
+
+homepage = 'https://lalescu.ro/liviu/fet'
+
+[[package]]
+channel = 'debian'
+name = 'fet'

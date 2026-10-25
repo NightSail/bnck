@@ -1,0 +1,33 @@
+id = 'cppcheck'
+name = 'cppcheck'
+
+homepage = 'http://cppcheck.sourceforge.net'
+repository = 'https://github.com/cppcheck-opensource/cppcheck.git'
+
+[[package]]
+channel = 'arch'
+name = 'cppcheck'
+
+[[package]]
+channel = 'debian'
+name = 'cppcheck'
+
+[[package]]
+channel = 'debian'
+name = 'cppcheck-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'cppcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'cppcheck-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'cppcheck-htmlreport'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cppcheck'

@@ -1,0 +1,8 @@
+id = 'pagetools'
+name = 'pagetools'
+
+homepage = 'https://sourceforge.net/projects/pagetools'
+
+[[package]]
+channel = 'debian'
+name = 'pagetools'

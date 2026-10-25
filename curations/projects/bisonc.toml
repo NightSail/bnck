@@ -1,0 +1,8 @@
+id = 'bisonc'
+name = 'bisonc++'
+
+homepage = 'https://fbb-git.gitlab.io/bisoncpp'
+
+[[package]]
+channel = 'debian'
+name = 'bisonc++'

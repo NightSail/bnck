@@ -1,0 +1,8 @@
+id = 'jjui'
+name = 'jjui'
+
+homepage = 'https://idursun.github.io/jjui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jjui'

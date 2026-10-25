@@ -1,0 +1,8 @@
+id = 'vtracer'
+name = 'vtracer'
+
+homepage = 'http://www.visioncortex.org/vtracer'
+
+[[package]]
+channel = 'debian'
+name = 'vtracer'

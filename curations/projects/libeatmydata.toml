@@ -1,0 +1,13 @@
+id = 'libeatmydata'
+name = 'libeatmydata'
+
+homepage = 'https://www.flamingspork.com/projects/libeatmydata'
+repository = 'https://github.com/stewartsmith/libeatmydata.git'
+
+[[package]]
+channel = 'arch'
+name = 'libeatmydata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libeatmydata'

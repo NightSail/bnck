@@ -1,0 +1,8 @@
+id = 'touca'
+name = 'touca'
+
+homepage = 'https://github.com/trytouca/trytouca/tree/main/sdk/python'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/touca'

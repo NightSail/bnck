@@ -1,0 +1,12 @@
+id = 'gmobile'
+name = 'gmobile'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/gmobile'
+
+[[package]]
+channel = 'arch'
+name = 'libgmobile'
+
+[[package]]
+channel = 'debian'
+name = 'libgmobile-examples'

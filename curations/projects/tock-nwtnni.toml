@@ -1,0 +1,8 @@
+id = 'tock-nwtnni'
+name = 'tock'
+
+repository = 'https://github.com/nwtnni/tock'
+
+[[package]]
+channel = 'crates.io'
+name = 'tock'

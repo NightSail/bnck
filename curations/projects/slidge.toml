@@ -1,0 +1,12 @@
+id = 'slidge'
+name = 'slidge'
+
+homepage = 'https://slidge.im'
+
+[[package]]
+channel = 'debian'
+name = 'python3-matridge'
+
+[[package]]
+channel = 'debian'
+name = 'python3-slidge'

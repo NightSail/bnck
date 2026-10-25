@@ -1,0 +1,9 @@
+id = 'swc'
+name = 'swc'
+
+homepage = 'https://swc.rs'
+repository = 'https://github.com/swc-project/swc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swc'

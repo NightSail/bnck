@@ -1,0 +1,9 @@
+id = 'ykman'
+name = 'ykman'
+
+homepage = 'https://developers.yubico.com/yubikey-manager'
+repository = 'https://github.com/Yubico/yubikey-manager.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ykman'

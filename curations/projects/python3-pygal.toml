@@ -1,0 +1,8 @@
+id = 'python3-pygal'
+name = 'python3-pygal'
+
+homepage = 'https://pypi.io/project/pygal'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pygal'

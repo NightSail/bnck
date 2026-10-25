@@ -1,0 +1,20 @@
+id = 'smpeg'
+name = 'smpeg'
+
+homepage = 'https://icculus.org/smpeg'
+
+[[package]]
+channel = 'arch'
+name = 'smpeg'
+
+[[package]]
+channel = 'debian'
+name = 'libsmpeg-dev'
+
+[[package]]
+channel = 'debian'
+name = 'smpeg-plaympeg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smpeg'

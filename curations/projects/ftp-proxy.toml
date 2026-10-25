@@ -1,0 +1,8 @@
+id = 'ftp-proxy'
+name = 'ftp-proxy'
+
+homepage = 'https://web.archive.org/web/20051227084039/http://www.suse.com/en/whitepapers/proxy_suite'
+
+[[package]]
+channel = 'debian'
+name = 'ftp-proxy'

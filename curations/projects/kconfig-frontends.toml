@@ -1,0 +1,12 @@
+id = 'kconfig-frontends'
+name = 'kconfig-frontends'
+
+homepage = 'http://ymorin.is-a-geek.org/projects/kconfig-frontends'
+
+[[package]]
+channel = 'debian'
+name = 'kconfig-frontends'
+
+[[package]]
+channel = 'debian'
+name = 'kconfig-frontends-nox'

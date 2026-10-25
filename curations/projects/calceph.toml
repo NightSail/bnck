@@ -1,0 +1,16 @@
+id = 'calceph'
+name = 'calceph'
+
+homepage = 'https://calceph.imcce.fr'
+
+[[package]]
+channel = 'debian'
+name = 'calceph'
+
+[[package]]
+channel = 'fedora'
+name = 'calceph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/calceph'

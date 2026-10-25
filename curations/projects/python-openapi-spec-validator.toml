@@ -1,0 +1,8 @@
+id = 'python-openapi-spec-validator'
+name = 'python-openapi-spec-validator'
+
+homepage = 'https://github.com/p1c2u/openapi-spec-validator'
+
+[[package]]
+channel = 'arch'
+name = 'python-openapi-spec-validator'

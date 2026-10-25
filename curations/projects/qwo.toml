@@ -1,0 +1,8 @@
+id = 'qwo'
+name = 'qwo'
+
+homepage = 'http://www.nongnu.org/qwo'
+
+[[package]]
+channel = 'debian'
+name = 'qwo'

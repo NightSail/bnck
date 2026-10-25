@@ -1,0 +1,8 @@
+id = 'iwatch'
+name = 'iwatch'
+
+homepage = 'http://iwatch.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'iwatch'

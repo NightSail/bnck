@@ -1,0 +1,8 @@
+id = 'neobio'
+name = 'neobio'
+
+homepage = 'http://neobio.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'neobio'

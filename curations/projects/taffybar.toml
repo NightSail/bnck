@@ -1,0 +1,12 @@
+id = 'taffybar'
+name = 'taffybar'
+
+homepage = 'https://github.com/taffybar/taffybar'
+
+[[package]]
+channel = 'arch'
+name = 'taffybar'
+
+[[package]]
+channel = 'debian'
+name = 'taffybar'

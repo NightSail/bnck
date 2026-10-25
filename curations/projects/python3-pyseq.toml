@@ -1,0 +1,8 @@
+id = 'python3-pyseq'
+name = 'python3-pyseq'
+
+homepage = 'https://github.com/rsgalloway/pyseq'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyseq'

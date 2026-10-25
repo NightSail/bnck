@@ -1,0 +1,16 @@
+id = 'md4c'
+name = 'md4c'
+
+homepage = 'https://github.com/mity/md4c'
+
+[[package]]
+channel = 'arch'
+name = 'md4c'
+
+[[package]]
+channel = 'debian'
+name = 'md2html'
+
+[[package]]
+channel = 'fedora'
+name = 'md4c'

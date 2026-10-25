@@ -1,0 +1,9 @@
+id = 'sqlite3-to-mysql'
+name = 'sqlite3-to-mysql'
+
+homepage = 'https://techouse.github.io/sqlite3-to-mysql'
+repository = 'https://github.com/techouse/sqlite3-to-mysql.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlite3-to-mysql'

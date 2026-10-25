@@ -1,0 +1,8 @@
+id = 'put-dns'
+name = 'put-dns'
+
+homepage = 'https://gitlab.com/JohnLines/put-dns'
+
+[[package]]
+channel = 'debian'
+name = 'put-dns'

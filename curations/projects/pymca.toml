@@ -1,0 +1,12 @@
+id = 'pymca'
+name = 'pymca'
+
+homepage = 'https://github.com/vasole/pymca'
+
+[[package]]
+channel = 'debian'
+name = 'pymca'
+
+[[package]]
+channel = 'fedora'
+name = 'PyMca'

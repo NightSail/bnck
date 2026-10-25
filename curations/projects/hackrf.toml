@@ -1,0 +1,21 @@
+id = 'hackrf'
+name = 'hackrf'
+
+homepage = 'http://greatscottgadgets.com/hackrf'
+repository = 'https://github.com/greatscottgadgets/hackrf.git'
+
+[[package]]
+channel = 'arch'
+name = 'hackrf'
+
+[[package]]
+channel = 'debian'
+name = 'hackrf'
+
+[[package]]
+channel = 'fedora'
+name = 'hackrf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hackrf'

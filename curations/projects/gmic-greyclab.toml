@@ -1,0 +1,9 @@
+id = 'gmic-greyclab'
+name = 'gmic'
+
+homepage = 'https://gmic.eu'
+repository = 'https://github.com/GreycLab/gmic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gmic'

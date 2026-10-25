@@ -1,0 +1,12 @@
+id = 'gfeeds'
+name = 'gfeeds'
+
+homepage = 'https://gfeeds.gabmus.org'
+
+[[package]]
+channel = 'arch'
+name = 'gfeeds'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-feeds'

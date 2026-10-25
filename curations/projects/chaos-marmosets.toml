@@ -1,0 +1,8 @@
+id = 'chaos-marmosets'
+name = 'chaos-marmosets'
+
+homepage = 'https://github.com/bdrung/chaos-marmosets'
+
+[[package]]
+channel = 'debian'
+name = 'chaos-marmosets'

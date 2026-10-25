@@ -1,0 +1,8 @@
+id = 'meshy'
+name = 'meshy'
+
+homepage = 'https://meshy-app.org'
+
+[[package]]
+channel = 'debian'
+name = 'meshy'

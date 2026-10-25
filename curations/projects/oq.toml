@@ -1,0 +1,8 @@
+id = 'oq'
+name = 'oq'
+
+homepage = 'https://blacksmoke16.github.io/oq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oq'

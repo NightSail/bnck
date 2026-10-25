@@ -1,0 +1,12 @@
+id = 'gnome-chess'
+name = 'gnome-chess'
+
+homepage = 'https://wiki.gnome.org/Apps/Chess'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-chess'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-chess'

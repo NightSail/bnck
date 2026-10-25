@@ -1,0 +1,12 @@
+id = 'vali'
+name = 'vali'
+
+homepage = 'https://gitlab.freedesktop.org/emersion/vali'
+
+[[package]]
+channel = 'arch'
+name = 'vali'
+
+[[package]]
+channel = 'debian'
+name = 'vali'

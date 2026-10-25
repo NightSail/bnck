@@ -1,0 +1,9 @@
+id = 'czmq'
+name = 'czmq'
+
+homepage = 'http://czmq.zeromq.org'
+repository = 'https://github.com/zeromq/czmq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/czmq'

@@ -1,0 +1,8 @@
+id = 'sway-config-fedora'
+name = 'sway-config-fedora'
+
+homepage = 'https://gitlab.com/fedora/sigs/sway/sway-config-fedora'
+
+[[package]]
+channel = 'fedora'
+name = 'sway-config-fedora'

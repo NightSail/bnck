@@ -1,0 +1,12 @@
+id = 'python3-demjson'
+name = 'python3-demjson'
+
+homepage = 'https://github.com/nielstron/demjson'
+
+[[package]]
+channel = 'debian'
+name = 'python3-demjson'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-demjson'

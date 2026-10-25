@@ -1,0 +1,8 @@
+id = 'ddskk'
+name = 'ddskk'
+
+homepage = 'https://github.com/skk-dev/ddskk'
+
+[[package]]
+channel = 'debian'
+name = 'ddskk'

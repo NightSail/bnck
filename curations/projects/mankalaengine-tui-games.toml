@@ -1,0 +1,8 @@
+id = 'mankalaengine-tui-games'
+name = 'mankalaengine-tui-games'
+
+homepage = 'https://invent.kde.org/joaotgouveia/mankalaengine'
+
+[[package]]
+channel = 'fedora'
+name = 'mankalaengine-tui-games'

@@ -1,0 +1,8 @@
+id = 'bartycrouch'
+name = 'bartycrouch'
+
+repository = 'https://github.com/FlineDev/BartyCrouch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bartycrouch'

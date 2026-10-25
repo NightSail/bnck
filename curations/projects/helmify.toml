@@ -1,0 +1,8 @@
+id = 'helmify'
+name = 'helmify'
+
+repository = 'https://github.com/arttor/helmify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helmify'

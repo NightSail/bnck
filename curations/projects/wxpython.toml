@@ -1,0 +1,16 @@
+id = 'wxpython'
+name = 'wxpython'
+
+homepage = 'https://www.wxpython.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-wxpython'
+
+[[package]]
+channel = 'debian'
+name = 'wxpython-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wxpython'

@@ -1,0 +1,8 @@
+id = 'plink'
+name = 'plink'
+
+homepage = 'http://zzz.bwh.harvard.edu/plink'
+
+[[package]]
+channel = 'debian'
+name = 'plink'

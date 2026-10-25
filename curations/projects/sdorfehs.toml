@@ -1,0 +1,8 @@
+id = 'sdorfehs'
+name = 'sdorfehs'
+
+homepage = 'https://github.com/jcs/sdorfehs'
+
+[[package]]
+channel = 'fedora'
+name = 'sdorfehs'

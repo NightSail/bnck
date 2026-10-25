@@ -1,0 +1,8 @@
+id = 'awffull'
+name = 'awffull'
+
+homepage = 'http://www.stedee.id.au/awffull'
+
+[[package]]
+channel = 'debian'
+name = 'awffull'

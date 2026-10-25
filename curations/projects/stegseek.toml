@@ -1,0 +1,8 @@
+id = 'stegseek'
+name = 'stegseek'
+
+homepage = 'https://github.com/RickdeJager/stegseek'
+
+[[package]]
+channel = 'debian'
+name = 'stegseek'

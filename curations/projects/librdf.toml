@@ -1,0 +1,28 @@
+id = 'librdf'
+name = 'librdf'
+
+homepage = 'https://librdf.org'
+
+[[package]]
+channel = 'arch'
+name = 'redland'
+
+[[package]]
+channel = 'debian'
+name = 'librdf0-dev'
+
+[[package]]
+channel = 'debian'
+name = 'redland-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'redland'
+
+[[package]]
+channel = 'fedora'
+name = 'redland-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redland'

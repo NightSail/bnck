@@ -1,0 +1,8 @@
+id = 'exomizer'
+name = 'exomizer'
+
+repository = 'https://bitbucket.org/magli143/exomizer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exomizer'

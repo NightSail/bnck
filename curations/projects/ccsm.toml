@@ -1,0 +1,12 @@
+id = 'ccsm'
+name = 'ccsm'
+
+homepage = 'https://gitlab.com/compiz/ccsm'
+
+[[package]]
+channel = 'debian'
+name = 'compizconfig-settings-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'ccsm'

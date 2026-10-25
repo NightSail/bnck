@@ -1,0 +1,12 @@
+id = 'libgbinder-tools'
+name = 'libgbinder-tools'
+
+homepage = 'https://github.com/mer-hybris/libgbinder'
+
+[[package]]
+channel = 'debian'
+name = 'libgbinder-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libgbinder-tools'

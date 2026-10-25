@@ -1,0 +1,8 @@
+id = 'pinfish'
+name = 'pinfish'
+
+homepage = 'https://github.com/nanoporetech/pinfish'
+
+[[package]]
+channel = 'debian'
+name = 'pinfish'

@@ -1,0 +1,8 @@
+id = 'deepin-printer'
+name = 'deepin-printer'
+
+homepage = 'https://github.com/linuxdeepin/dde-printer'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-printer'

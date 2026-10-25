@@ -1,0 +1,12 @@
+id = 'plugins'
+name = 'plugins'
+
+homepage = 'https://plugins.iem.at'
+
+[[package]]
+channel = 'arch'
+name = 'iempluginsuite-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'iem-plugin-suite-standalone'

@@ -1,0 +1,12 @@
+id = 'sylpheed'
+name = 'sylpheed'
+
+homepage = 'https://sylpheed.sraoss.jp'
+
+[[package]]
+channel = 'debian'
+name = 'sylph-searcher'
+
+[[package]]
+channel = 'fedora'
+name = 'sylpheed'

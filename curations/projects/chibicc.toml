@@ -1,0 +1,10 @@
+id = 'chibicc'
+name = 'chibicc'
+
+[[package]]
+channel = 'debian'
+name = 'chibicc'
+
+[[package]]
+channel = 'fedora'
+name = 'chibicc'

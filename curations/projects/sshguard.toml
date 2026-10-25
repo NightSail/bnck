@@ -1,0 +1,21 @@
+id = 'sshguard'
+name = 'sshguard'
+
+homepage = 'https://www.sshguard.net'
+repository = 'https://bitbucket.org/sshguard/sshguard.git'
+
+[[package]]
+channel = 'arch'
+name = 'sshguard'
+
+[[package]]
+channel = 'debian'
+name = 'sshguard'
+
+[[package]]
+channel = 'fedora'
+name = 'sshguard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshguard'

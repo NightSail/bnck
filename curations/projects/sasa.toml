@@ -1,0 +1,8 @@
+id = 'sasa'
+name = 'sasa'
+
+homepage = 'https://git.devuan.org/leepen/standalone-socket-activate'
+
+[[package]]
+channel = 'debian'
+name = 'sasa'

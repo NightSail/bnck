@@ -1,0 +1,8 @@
+id = 'rtptools'
+name = 'rtptools'
+
+repository = 'https://github.com/irtlab/rtptools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtptools'

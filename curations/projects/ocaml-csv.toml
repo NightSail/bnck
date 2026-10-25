@@ -1,0 +1,12 @@
+id = 'ocaml-csv'
+name = 'ocaml-csv'
+
+homepage = 'https://github.com/Chris00/ocaml-csv'
+
+[[package]]
+channel = 'debian'
+name = 'csvtool'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-csv'

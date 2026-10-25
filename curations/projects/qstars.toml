@@ -1,0 +1,8 @@
+id = 'qstars'
+name = 'qstars'
+
+homepage = 'http://qt.osdn.org.ua/qstars.html'
+
+[[package]]
+channel = 'fedora'
+name = 'qstars'

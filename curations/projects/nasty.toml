@@ -1,0 +1,8 @@
+id = 'nasty'
+name = 'nasty'
+
+homepage = 'https://github.com/folkertvanheusden/nasty'
+
+[[package]]
+channel = 'debian'
+name = 'nasty'

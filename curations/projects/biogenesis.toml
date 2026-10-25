@@ -1,0 +1,8 @@
+id = 'biogenesis'
+name = 'biogenesis'
+
+homepage = 'http://biogenesis.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'biogenesis'

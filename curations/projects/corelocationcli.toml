@@ -1,0 +1,8 @@
+id = 'corelocationcli'
+name = 'corelocationcli'
+
+homepage = 'https://github.com/fulldecent/corelocationcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/corelocationcli'

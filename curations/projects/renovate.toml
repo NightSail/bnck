@@ -1,0 +1,8 @@
+id = 'renovate'
+name = 'renovate'
+
+homepage = 'https://github.com/renovatebot/renovate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/renovate'

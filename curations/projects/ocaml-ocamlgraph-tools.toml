@@ -1,0 +1,8 @@
+id = 'ocaml-ocamlgraph-tools'
+name = 'ocaml-ocamlgraph-tools'
+
+homepage = 'https://backtracking.github.io/ocamlgraph'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ocamlgraph-tools'

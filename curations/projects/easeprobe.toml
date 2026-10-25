@@ -1,0 +1,8 @@
+id = 'easeprobe'
+name = 'easeprobe'
+
+repository = 'https://github.com/megaease/easeprobe.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/easeprobe'

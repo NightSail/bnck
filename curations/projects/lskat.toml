@@ -1,0 +1,12 @@
+id = 'lskat'
+name = 'lskat'
+
+homepage = 'https://apps.kde.org/lskat'
+
+[[package]]
+channel = 'arch'
+name = 'lskat'
+
+[[package]]
+channel = 'fedora'
+name = 'lskat'

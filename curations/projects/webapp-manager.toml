@@ -1,0 +1,8 @@
+id = 'webapp-manager'
+name = 'webapp-manager'
+
+homepage = 'https://github.com/linuxmint/webapp-manager'
+
+[[package]]
+channel = 'arch'
+name = 'webapp-manager'

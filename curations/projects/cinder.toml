@@ -1,0 +1,24 @@
+id = 'cinder'
+name = 'cinder'
+
+homepage = 'https://github.com/openstack/cinder'
+
+[[package]]
+channel = 'debian'
+name = 'cinder-api'
+
+[[package]]
+channel = 'debian'
+name = 'cinder-backup'
+
+[[package]]
+channel = 'debian'
+name = 'cinder-common'
+
+[[package]]
+channel = 'debian'
+name = 'cinder-scheduler'
+
+[[package]]
+channel = 'debian'
+name = 'cinder-volume'

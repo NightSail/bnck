@@ -1,0 +1,8 @@
+id = 'rbenv-binstubs'
+name = 'rbenv-binstubs'
+
+repository = 'https://github.com/Purple-Devs/rbenv-binstubs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-binstubs'

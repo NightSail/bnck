@@ -1,0 +1,8 @@
+id = 'wmfocus'
+name = 'wmfocus'
+
+homepage = 'https://github.com/svenstaro/wmfocus'
+
+[[package]]
+channel = 'arch'
+name = 'wmfocus'

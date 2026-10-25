@@ -4,5 +4,17 @@ name = 'vifm'
 repository = 'https://github.com/vifm/vifm'
 
 [[package]]
+channel = 'arch'
+name = 'vifm'
+
+[[package]]
+channel = 'debian'
+name = 'vifm'
+
+[[package]]
+channel = 'fedora'
+name = 'vifm'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/vifm'

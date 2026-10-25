@@ -1,0 +1,8 @@
+id = 'ec2-hibinit-agent'
+name = 'ec2-hibinit-agent'
+
+homepage = 'https://github.com/aws/amazon-ec2-hibinit-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'ec2-hibinit-agent'

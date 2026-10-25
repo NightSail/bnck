@@ -1,0 +1,8 @@
+id = 'virt-who'
+name = 'virt-who'
+
+homepage = 'https://github.com/candlepin/virt-who'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-who'

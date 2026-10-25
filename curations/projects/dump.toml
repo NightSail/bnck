@@ -1,0 +1,12 @@
+id = 'dump'
+name = 'dump'
+
+homepage = 'http://dump.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dump'
+
+[[package]]
+channel = 'fedora'
+name = 'dump'

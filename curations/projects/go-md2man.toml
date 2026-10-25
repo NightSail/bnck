@@ -1,0 +1,16 @@
+id = 'go-md2man'
+name = 'go-md2man'
+
+homepage = 'https://github.com/cpuguy83/go-md2man'
+
+[[package]]
+channel = 'arch'
+name = 'go-md2man'
+
+[[package]]
+channel = 'debian'
+name = 'go-md2man'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cpuguy83-md2man'

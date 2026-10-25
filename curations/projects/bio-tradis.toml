@@ -1,0 +1,8 @@
+id = 'bio-tradis'
+name = 'bio-tradis'
+
+homepage = 'https://github.com/sanger-pathogens/Bio-Tradis'
+
+[[package]]
+channel = 'debian'
+name = 'bio-tradis'

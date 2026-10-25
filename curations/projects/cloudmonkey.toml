@@ -1,0 +1,8 @@
+id = 'cloudmonkey'
+name = 'cloudmonkey'
+
+repository = 'https://github.com/apache/cloudstack-cloudmonkey.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudmonkey'

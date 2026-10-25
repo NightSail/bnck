@@ -1,0 +1,8 @@
+id = 'mactel-boot'
+name = 'mactel-boot'
+
+homepage = 'http://www.codon.org.uk/~mjg59/mactel-boot'
+
+[[package]]
+channel = 'fedora'
+name = 'mactel-boot'

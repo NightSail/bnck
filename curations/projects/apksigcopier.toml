@@ -1,0 +1,12 @@
+id = 'apksigcopier'
+name = 'apksigcopier'
+
+homepage = 'https://github.com/obfusk/apksigcopier'
+
+[[package]]
+channel = 'arch'
+name = 'apksigcopier'
+
+[[package]]
+channel = 'debian'
+name = 'apksigcopier'

@@ -1,0 +1,8 @@
+id = 'lightdm-pantheon-greeter'
+name = 'lightdm-pantheon-greeter'
+
+homepage = 'https://github.com/elementary/greeter'
+
+[[package]]
+channel = 'arch'
+name = 'lightdm-pantheon-greeter'

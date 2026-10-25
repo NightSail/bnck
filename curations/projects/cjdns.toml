@@ -1,0 +1,12 @@
+id = 'cjdns'
+name = 'cjdns'
+
+repository = 'https://github.com/cjdelisle/cjdns.git'
+
+[[package]]
+channel = 'arch'
+name = 'cjdns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cjdns'

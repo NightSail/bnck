@@ -1,0 +1,16 @@
+id = 'pacman'
+name = 'pacman'
+
+homepage = 'https://www.archlinux.org/pacman'
+
+[[package]]
+channel = 'arch'
+name = 'pacman'
+
+[[package]]
+channel = 'debian'
+name = 'makepkg'
+
+[[package]]
+channel = 'debian'
+name = 'pacman-package-manager'

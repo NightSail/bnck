@@ -1,0 +1,12 @@
+id = 'accessibility-inspector'
+name = 'accessibility-inspector'
+
+homepage = 'https://apps.kde.org/accessibilityinspector'
+
+[[package]]
+channel = 'arch'
+name = 'accessibility-inspector'
+
+[[package]]
+channel = 'fedora'
+name = 'accessibility-inspector'

@@ -1,0 +1,12 @@
+id = '9wm'
+name = '9wm'
+
+homepage = 'https://github.com/9wm/9wm'
+
+[[package]]
+channel = 'debian'
+name = '9wm'
+
+[[package]]
+channel = 'fedora'
+name = '9wm'

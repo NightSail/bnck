@@ -1,0 +1,16 @@
+id = 'd-spy'
+name = 'd-spy'
+
+homepage = 'https://apps.gnome.org/Dspy'
+
+[[package]]
+channel = 'arch'
+name = 'd-spy'
+
+[[package]]
+channel = 'debian'
+name = 'd-spy'
+
+[[package]]
+channel = 'fedora'
+name = 'd-spy'

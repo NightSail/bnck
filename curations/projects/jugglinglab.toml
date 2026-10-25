@@ -1,0 +1,8 @@
+id = 'jugglinglab'
+name = 'jugglinglab'
+
+homepage = 'http://jugglinglab.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jugglinglab'

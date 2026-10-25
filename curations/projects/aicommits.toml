@@ -1,0 +1,8 @@
+id = 'aicommits'
+name = 'aicommits'
+
+homepage = 'https://github.com/Nutlope/aicommits'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aicommits'

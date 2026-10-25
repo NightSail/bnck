@@ -1,0 +1,16 @@
+id = 'kdf'
+name = 'kdf'
+
+homepage = 'https://apps.kde.org/kdf'
+
+[[package]]
+channel = 'arch'
+name = 'kdf'
+
+[[package]]
+channel = 'debian'
+name = 'kdf'
+
+[[package]]
+channel = 'fedora'
+name = 'kdf'

@@ -1,0 +1,12 @@
+id = 'ntwox'
+name = 'ntwox'
+
+homepage = 'http://ntwox.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'netwag'
+
+[[package]]
+channel = 'debian'
+name = 'netwox'

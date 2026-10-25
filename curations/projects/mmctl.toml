@@ -1,0 +1,9 @@
+id = 'mmctl'
+name = 'mmctl'
+
+homepage = 'https://mattermost.com'
+repository = 'https://github.com/mattermost/mattermost.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmctl'

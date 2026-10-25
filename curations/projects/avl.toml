@@ -1,0 +1,8 @@
+id = 'avl'
+name = 'avl'
+
+homepage = 'http://web.mit.edu/drela/Public/web/avl'
+
+[[package]]
+channel = 'fedora'
+name = 'avl'

@@ -1,0 +1,20 @@
+id = 'duplicity'
+name = 'duplicity'
+
+homepage = 'https://gitlab.com/duplicity/duplicity'
+
+[[package]]
+channel = 'arch'
+name = 'duplicity'
+
+[[package]]
+channel = 'debian'
+name = 'duplicity'
+
+[[package]]
+channel = 'fedora'
+name = 'duplicity'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duplicity'

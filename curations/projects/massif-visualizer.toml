@@ -1,0 +1,16 @@
+id = 'massif-visualizer'
+name = 'massif-visualizer'
+
+homepage = 'https://apps.kde.org/massif_visualizer'
+
+[[package]]
+channel = 'arch'
+name = 'massif-visualizer'
+
+[[package]]
+channel = 'debian'
+name = 'massif-visualizer'
+
+[[package]]
+channel = 'fedora'
+name = 'massif-visualizer'

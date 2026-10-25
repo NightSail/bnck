@@ -1,0 +1,8 @@
+id = 'joplin-cli'
+name = 'joplin-cli'
+
+homepage = 'https://joplinapp.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/joplin-cli'

@@ -1,0 +1,12 @@
+id = 'svn2cl'
+name = 'svn2cl'
+
+homepage = 'https://arthurdejong.org/svn2cl'
+
+[[package]]
+channel = 'debian'
+name = 'svn2cl'
+
+[[package]]
+channel = 'fedora'
+name = 'svn2cl'

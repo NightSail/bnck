@@ -1,0 +1,8 @@
+id = 'httraqt'
+name = 'httraqt'
+
+homepage = 'https://httraqt.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'httraqt'

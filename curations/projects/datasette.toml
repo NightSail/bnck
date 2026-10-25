@@ -1,0 +1,13 @@
+id = 'datasette'
+name = 'datasette'
+
+homepage = 'https://datasette.io'
+repository = 'https://github.com/simonw/datasette.git'
+
+[[package]]
+channel = 'debian'
+name = 'datasette'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/datasette'

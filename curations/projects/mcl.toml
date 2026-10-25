@@ -1,0 +1,8 @@
+id = 'mcl'
+name = 'mcl'
+
+homepage = 'https://micans.org/mcl'
+
+[[package]]
+channel = 'debian'
+name = 'mcl'

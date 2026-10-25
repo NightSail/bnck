@@ -1,0 +1,8 @@
+id = 'apvlv'
+name = 'apvlv'
+
+homepage = 'https://naihe2010.github.io/apvlv'
+
+[[package]]
+channel = 'debian'
+name = 'apvlv'

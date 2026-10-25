@@ -1,0 +1,16 @@
+id = 'ltrace'
+name = 'ltrace'
+
+homepage = 'https://www.ltrace.org'
+
+[[package]]
+channel = 'arch'
+name = 'ltrace'
+
+[[package]]
+channel = 'debian'
+name = 'ltrace'
+
+[[package]]
+channel = 'fedora'
+name = 'ltrace'

@@ -1,0 +1,16 @@
+id = 'dmtx-utils'
+name = 'dmtx-utils'
+
+homepage = 'https://github.com/dmtx/dmtx-utils'
+
+[[package]]
+channel = 'debian'
+name = 'dmtx-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'dmtx-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dmtx-utils'

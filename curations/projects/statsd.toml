@@ -1,0 +1,8 @@
+id = 'statsd'
+name = 'statsd'
+
+homepage = 'https://github.com/statsd/statsd'
+
+[[package]]
+channel = 'fedora'
+name = 'statsd'

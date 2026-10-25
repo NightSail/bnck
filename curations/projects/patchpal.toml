@@ -1,0 +1,8 @@
+id = 'patchpal'
+name = 'patchpal'
+
+homepage = 'https://gitlab.com/patchpal-ai/patchpal-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/patchpal'

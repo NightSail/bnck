@@ -1,0 +1,9 @@
+id = 'jfrog-cli'
+name = 'jfrog-cli'
+
+homepage = 'https://docs.jfrog.com/integrations/docs/jfrog-cli'
+repository = 'https://github.com/jfrog/jfrog-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jfrog-cli'

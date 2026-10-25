@@ -1,0 +1,8 @@
+id = 'critterding'
+name = 'critterding'
+
+homepage = 'https://critterding.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'critterding'

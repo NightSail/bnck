@@ -1,0 +1,16 @@
+id = 'sipcalc'
+name = 'sipcalc'
+
+homepage = 'https://www.routemeister.net/projects/sipcalc'
+
+[[package]]
+channel = 'debian'
+name = 'sipcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'sipcalc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sipcalc'

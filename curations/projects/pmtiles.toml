@@ -1,0 +1,8 @@
+id = 'pmtiles'
+name = 'pmtiles'
+
+homepage = 'https://protomaps.com/docs/pmtiles'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pmtiles'

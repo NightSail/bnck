@@ -1,0 +1,6 @@
+id = 'greylistd'
+name = 'greylistd'
+
+[[package]]
+channel = 'debian'
+name = 'greylistd'

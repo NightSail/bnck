@@ -1,0 +1,8 @@
+id = 'sredird'
+name = 'sredird'
+
+homepage = 'http://www.ibiblio.org/pub/linux/system/serial'
+
+[[package]]
+channel = 'debian'
+name = 'sredird'

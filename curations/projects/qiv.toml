@@ -1,0 +1,12 @@
+id = 'qiv'
+name = 'qiv'
+
+homepage = 'http://qiv.spiegl.de'
+
+[[package]]
+channel = 'debian'
+name = 'qiv'
+
+[[package]]
+channel = 'fedora'
+name = 'qiv'

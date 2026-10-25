@@ -1,0 +1,8 @@
+id = 'mencal'
+name = 'mencal'
+
+homepage = 'https://kyberdigi.cz/projects/mencal'
+
+[[package]]
+channel = 'debian'
+name = 'mencal'

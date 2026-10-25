@@ -1,0 +1,16 @@
+id = 'luksmeta'
+name = 'luksmeta'
+
+homepage = 'https://github.com/latchset/luksmeta'
+
+[[package]]
+channel = 'arch'
+name = 'luksmeta'
+
+[[package]]
+channel = 'debian'
+name = 'luksmeta'
+
+[[package]]
+channel = 'fedora'
+name = 'luksmeta'

@@ -1,0 +1,8 @@
+id = 'kaptive'
+name = 'kaptive'
+
+homepage = 'https://github.com/katholt/Kaptive'
+
+[[package]]
+channel = 'debian'
+name = 'kaptive'

@@ -1,0 +1,9 @@
+id = 'resticprofile'
+name = 'resticprofile'
+
+homepage = 'https://creativeprojects.github.io/resticprofile'
+repository = 'https://github.com/creativeprojects/resticprofile.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/resticprofile'

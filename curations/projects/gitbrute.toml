@@ -1,0 +1,8 @@
+id = 'gitbrute'
+name = 'gitbrute'
+
+homepage = 'https://github.com/bradfitz/gitbrute'
+
+[[package]]
+channel = 'debian'
+name = 'gitbrute'

@@ -1,0 +1,8 @@
+id = 'ffind'
+name = 'ffind'
+
+homepage = 'https://github.com/sjl/friendly-find'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffind'

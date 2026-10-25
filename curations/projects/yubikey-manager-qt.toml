@@ -1,0 +1,12 @@
+id = 'yubikey-manager-qt'
+name = 'yubikey-manager-qt'
+
+homepage = 'https://developers.yubico.com/yubikey-manager-qt'
+
+[[package]]
+channel = 'debian'
+name = 'yubikey-manager-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'yubikey-manager-qt'

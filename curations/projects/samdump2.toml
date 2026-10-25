@@ -1,0 +1,8 @@
+id = 'samdump2'
+name = 'samdump2'
+
+homepage = 'http://sourceforge.net/projects/ophcrack/files/samdump2'
+
+[[package]]
+channel = 'fedora'
+name = 'samdump2'

@@ -1,0 +1,8 @@
+id = 'vagalume'
+name = 'vagalume'
+
+homepage = 'https://github.com/bertogg/vagalume'
+
+[[package]]
+channel = 'debian'
+name = 'vagalume'

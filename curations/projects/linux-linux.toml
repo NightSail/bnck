@@ -1,0 +1,12 @@
+id = 'linux-linux'
+name = 'linux'
+
+homepage = 'https://www.silicondust.com/support/linux'
+
+[[package]]
+channel = 'debian'
+name = 'hdhomerun-config'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libhdhomerun'

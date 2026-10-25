@@ -1,0 +1,12 @@
+id = 'lagan'
+name = 'lagan'
+
+homepage = 'http://lagan.stanford.edu/lagan_web/index.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'lagan'
+
+[[package]]
+channel = 'fedora'
+name = 'lagan'

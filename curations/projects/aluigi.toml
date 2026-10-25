@@ -1,0 +1,20 @@
+id = 'aluigi'
+name = 'aluigi'
+
+homepage = 'http://aluigi.altervista.org/mytoolz.htm'
+
+[[package]]
+channel = 'debian'
+name = 'dtmf2num'
+
+[[package]]
+channel = 'debian'
+name = 'morse2ascii'
+
+[[package]]
+channel = 'debian'
+name = 'morsegen'
+
+[[package]]
+channel = 'fedora'
+name = 'daa2iso'

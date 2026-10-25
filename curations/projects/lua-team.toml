@@ -1,0 +1,12 @@
+id = 'lua-team'
+name = 'lua-team'
+
+homepage = 'https://salsa.debian.org/lua-team'
+
+[[package]]
+channel = 'debian'
+name = 'dh-lua'
+
+[[package]]
+channel = 'debian'
+name = 'lua-any'

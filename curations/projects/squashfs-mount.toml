@@ -1,0 +1,8 @@
+id = 'squashfs-mount'
+name = 'squashfs-mount'
+
+homepage = 'https://github.com/eth-cscs/squashfs-mount'
+
+[[package]]
+channel = 'debian'
+name = 'squashfs-mount'

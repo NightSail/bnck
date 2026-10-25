@@ -1,0 +1,8 @@
+id = 'archlinux-userland-fs-cmp'
+name = 'archlinux-userland-fs-cmp'
+
+homepage = 'https://github.com/kpcyrd/archlinux-userland-fs-cmp'
+
+[[package]]
+channel = 'arch'
+name = 'archlinux-userland-fs-cmp'

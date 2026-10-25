@@ -1,0 +1,8 @@
+id = 'dockerfilegraph'
+name = 'dockerfilegraph'
+
+repository = 'https://github.com/patrickhoefler/dockerfilegraph.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockerfilegraph'

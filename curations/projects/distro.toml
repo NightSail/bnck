@@ -1,0 +1,12 @@
+id = 'distro'
+name = 'distro'
+
+homepage = 'https://github.com/python-distro/distro'
+
+[[package]]
+channel = 'arch'
+name = 'python-distro'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-distro'

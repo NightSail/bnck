@@ -1,0 +1,8 @@
+id = 'mamba'
+name = 'mamba'
+
+homepage = 'https://github.com/mamba-org/mamba'
+
+[[package]]
+channel = 'fedora'
+name = 'mamba'

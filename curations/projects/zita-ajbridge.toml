@@ -1,0 +1,8 @@
+id = 'zita-ajbridge'
+name = 'zita-ajbridge'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/zita-ajbridge-doc/quickguide.html'
+
+[[package]]
+channel = 'arch'
+name = 'zita-ajbridge'

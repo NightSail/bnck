@@ -1,0 +1,8 @@
+id = 'libusermetrics-tools'
+name = 'libusermetrics-tools'
+
+homepage = 'https://gitlab.com/ubports/development/core/libusermetrics'
+
+[[package]]
+channel = 'debian'
+name = 'libusermetrics-tools'

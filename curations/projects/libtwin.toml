@@ -1,0 +1,8 @@
+id = 'libtwin'
+name = 'libtwin'
+
+homepage = 'http://ozlabs.org/~jk/projects/petitboot'
+
+[[package]]
+channel = 'fedora'
+name = 'libtwin'

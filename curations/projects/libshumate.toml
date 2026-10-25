@@ -1,0 +1,8 @@
+id = 'libshumate'
+name = 'libshumate'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libshumate'
+
+[[package]]
+channel = 'arch'
+name = 'libshumate'

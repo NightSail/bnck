@@ -1,0 +1,8 @@
+id = 'apt-listbugs'
+name = 'apt-listbugs'
+
+homepage = 'https://salsa.debian.org/frx-guest/apt-listbugs'
+
+[[package]]
+channel = 'debian'
+name = 'apt-listbugs'

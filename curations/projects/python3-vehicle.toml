@@ -1,0 +1,8 @@
+id = 'python3-vehicle'
+name = 'python3-vehicle'
+
+homepage = 'https://github.com/frenck/python-vehicle'
+
+[[package]]
+channel = 'debian'
+name = 'python3-vehicle'

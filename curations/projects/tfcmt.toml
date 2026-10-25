@@ -1,0 +1,9 @@
+id = 'tfcmt'
+name = 'tfcmt'
+
+homepage = 'https://suzuki-shunsuke.github.io/tfcmt'
+repository = 'https://github.com/suzuki-shunsuke/tfcmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfcmt'

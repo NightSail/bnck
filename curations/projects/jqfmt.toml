@@ -1,0 +1,8 @@
+id = 'jqfmt'
+name = 'jqfmt'
+
+repository = 'https://github.com/noperator/jqfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jqfmt'

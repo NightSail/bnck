@@ -1,0 +1,8 @@
+id = 'udcli'
+name = 'udcli'
+
+homepage = 'https://github.com/canihavesomecoffee/udis86'
+
+[[package]]
+channel = 'debian'
+name = 'udcli'

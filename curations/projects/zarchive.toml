@@ -1,0 +1,12 @@
+id = 'zarchive'
+name = 'zarchive'
+
+homepage = 'https://github.com/Exzap/ZArchive'
+
+[[package]]
+channel = 'arch'
+name = 'zarchive'
+
+[[package]]
+channel = 'debian'
+name = 'zarchive-tools'

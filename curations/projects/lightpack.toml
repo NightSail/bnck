@@ -1,0 +1,8 @@
+id = 'lightpack'
+name = 'lightpack'
+
+homepage = 'https://github.com/psieg/Lightpack'
+
+[[package]]
+channel = 'fedora'
+name = 'lightpack'

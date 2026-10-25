@@ -1,0 +1,12 @@
+id = 'tetgen'
+name = 'tetgen'
+
+homepage = 'http://www.tetgen.org'
+
+[[package]]
+channel = 'debian'
+name = 'tetgen'
+
+[[package]]
+channel = 'fedora'
+name = 'tetgen'

@@ -1,0 +1,8 @@
+id = 'aide-app'
+name = 'aide-app'
+
+homepage = 'https://github.com/codestoryai/aide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/aide-app'

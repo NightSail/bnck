@@ -1,0 +1,8 @@
+id = 'lxqt-config-randr'
+name = 'lxqt-config-randr'
+
+homepage = 'https://github.com/zballina/lxqt-config-randr'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-config-randr'

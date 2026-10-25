@@ -1,0 +1,12 @@
+id = 'b2-command-line-tool'
+name = 'b2_command_line_tool'
+
+homepage = 'https://github.com/Backblaze/B2_Command_Line_Tool'
+
+[[package]]
+channel = 'debian'
+name = 'backblaze-b2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/b2-tools'

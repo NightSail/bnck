@@ -1,0 +1,8 @@
+id = 'vtclock'
+name = 'vtclock'
+
+repository = 'https://github.com/dse/vtclock.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vtclock'

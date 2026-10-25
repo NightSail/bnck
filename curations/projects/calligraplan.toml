@@ -1,0 +1,8 @@
+id = 'calligraplan'
+name = 'calligraplan'
+
+homepage = 'https://www.calligra.org/plan'
+
+[[package]]
+channel = 'debian'
+name = 'calligraplan'

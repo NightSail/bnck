@@ -1,0 +1,8 @@
+id = 'flank'
+name = 'flank'
+
+homepage = 'https://firebase.community'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flank'

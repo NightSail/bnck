@@ -1,0 +1,8 @@
+id = 'd8'
+name = 'd8'
+
+homepage = 'https://v8.dev/docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/v8'

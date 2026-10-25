@@ -1,0 +1,12 @@
+id = 'xfwm4'
+name = 'xfwm4'
+
+homepage = 'https://docs.xfce.org/xfce/xfwm4/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfwm4'
+
+[[package]]
+channel = 'debian'
+name = 'xfwm4'

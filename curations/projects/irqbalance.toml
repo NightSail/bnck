@@ -1,0 +1,16 @@
+id = 'irqbalance'
+name = 'irqbalance'
+
+homepage = 'https://github.com/irqbalance/irqbalance'
+
+[[package]]
+channel = 'arch'
+name = 'irqbalance'
+
+[[package]]
+channel = 'debian'
+name = 'irqbalance'
+
+[[package]]
+channel = 'fedora'
+name = 'irqbalance'

@@ -1,0 +1,8 @@
+id = 'python3-pbcore'
+name = 'python3-pbcore'
+
+homepage = 'https://github.com/PacificBiosciences/pbcore'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pbcore'

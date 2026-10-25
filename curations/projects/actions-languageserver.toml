@@ -1,0 +1,8 @@
+id = 'actions-languageserver'
+name = 'actions-languageserver'
+
+homepage = 'https://github.com/actions/languageservices/tree/main/languageserver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/actions-languageserver'

@@ -1,0 +1,8 @@
+id = 'slack-mcp-server'
+name = 'slack-mcp-server'
+
+repository = 'https://github.com/korotovsky/slack-mcp-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slack-mcp-server'

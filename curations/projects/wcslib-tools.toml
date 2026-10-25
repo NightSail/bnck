@@ -1,0 +1,8 @@
+id = 'wcslib-tools'
+name = 'wcslib-tools'
+
+homepage = 'https://www.atnf.csiro.au/people/mcalabre/WCS'
+
+[[package]]
+channel = 'debian'
+name = 'wcslib-tools'

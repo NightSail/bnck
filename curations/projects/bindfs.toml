@@ -1,0 +1,12 @@
+id = 'bindfs'
+name = 'bindfs'
+
+homepage = 'https://bindfs.org'
+
+[[package]]
+channel = 'debian'
+name = 'bindfs'
+
+[[package]]
+channel = 'fedora'
+name = 'bindfs'

@@ -4,5 +4,9 @@ name = 'gitlab'
 homepage = 'https://narkoz.github.io/gitlab'
 
 [[package]]
+channel = 'arch'
+name = 'gitlab'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gitlab-gem'

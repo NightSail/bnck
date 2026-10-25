@@ -1,0 +1,8 @@
+id = 'scantailor-advanced'
+name = 'scantailor-advanced'
+
+homepage = 'https://github.com/ScanTailor-Advanced/scantailor-advanced'
+
+[[package]]
+channel = 'arch'
+name = 'scantailor-advanced'

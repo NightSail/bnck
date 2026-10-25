@@ -1,0 +1,8 @@
+id = 'twitch-cli'
+name = 'twitch-cli'
+
+repository = 'https://github.com/twitchdev/twitch-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/twitch-cli'

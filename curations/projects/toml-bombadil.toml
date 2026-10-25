@@ -1,0 +1,12 @@
+id = 'toml-bombadil'
+name = 'toml-bombadil'
+
+repository = 'https://github.com/oknozor/toml-bombadil.git'
+
+[[package]]
+channel = 'arch'
+name = 'toml-bombadil'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toml-bombadil'

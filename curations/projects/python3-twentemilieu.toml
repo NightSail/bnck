@@ -1,0 +1,8 @@
+id = 'python3-twentemilieu'
+name = 'python3-twentemilieu'
+
+homepage = 'https://github.com/frenck/python-twentemilieu'
+
+[[package]]
+channel = 'debian'
+name = 'python3-twentemilieu'

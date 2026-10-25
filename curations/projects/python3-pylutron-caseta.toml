@@ -1,0 +1,8 @@
+id = 'python3-pylutron-caseta'
+name = 'python3-pylutron-caseta'
+
+homepage = 'https://github.com/gurumitts/pylutron-caseta'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pylutron-caseta'

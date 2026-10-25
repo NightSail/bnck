@@ -1,0 +1,28 @@
+id = '5b4az-5b4az'
+name = '5b4az'
+
+homepage = 'http://www.5b4az.org'
+
+[[package]]
+channel = 'fedora'
+name = 'lpsk31'
+
+[[package]]
+channel = 'fedora'
+name = 'wxapt'
+
+[[package]]
+channel = 'fedora'
+name = 'xfhell'
+
+[[package]]
+channel = 'fedora'
+name = 'xnec2c'
+
+[[package]]
+channel = 'fedora'
+name = 'xpsk31'
+
+[[package]]
+channel = 'fedora'
+name = 'xwxapt'

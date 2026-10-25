@@ -1,0 +1,24 @@
+id = 'mamedev'
+name = 'mamedev'
+
+homepage = 'https://mamedev.org'
+
+[[package]]
+channel = 'arch'
+name = 'mame'
+
+[[package]]
+channel = 'arch'
+name = 'mame-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mame-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mame'
+
+[[package]]
+channel = 'fedora'
+name = 'mame-tools'

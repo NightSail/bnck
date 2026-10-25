@@ -1,0 +1,9 @@
+id = 'cyphernetes'
+name = 'cyphernetes'
+
+homepage = 'https://cyphernet.es'
+repository = 'https://github.com/AvitalTamir/cyphernetes.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyphernetes'

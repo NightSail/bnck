@@ -1,0 +1,8 @@
+id = 'linuxwave'
+name = 'linuxwave'
+
+homepage = 'https://github.com/orhun/linuxwave'
+
+[[package]]
+channel = 'arch'
+name = 'linuxwave'

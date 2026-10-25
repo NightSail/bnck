@@ -1,0 +1,8 @@
+id = 'oo7'
+name = 'oo7'
+
+homepage = 'https://linux-credentials.github.io/oo7/oo7'
+
+[[package]]
+channel = 'arch'
+name = 'oo7'

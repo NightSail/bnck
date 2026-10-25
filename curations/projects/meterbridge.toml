@@ -1,0 +1,12 @@
+id = 'meterbridge'
+name = 'meterbridge'
+
+homepage = 'http://plugin.org.uk/meterbridge'
+
+[[package]]
+channel = 'debian'
+name = 'meterbridge'
+
+[[package]]
+channel = 'fedora'
+name = 'meterbridge'

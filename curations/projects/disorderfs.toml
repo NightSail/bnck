@@ -1,0 +1,8 @@
+id = 'disorderfs'
+name = 'disorderfs'
+
+homepage = 'https://salsa.debian.org/reproducible-builds/disorderfs'
+
+[[package]]
+channel = 'fedora'
+name = 'disorderfs'

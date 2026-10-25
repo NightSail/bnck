@@ -1,0 +1,52 @@
+id = 'openstack'
+name = 'openstack'
+
+homepage = 'https://openstack.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aodhclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cloudkittyclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ironicclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-magnumclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-os-ken'
+
+[[package]]
+channel = 'debian'
+name = 'python3-reno'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tackerclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-troveclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openstacksdk'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-reno'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-troveclient'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openstackclient'

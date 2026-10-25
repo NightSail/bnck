@@ -1,0 +1,16 @@
+id = 'xfburn'
+name = 'xfburn'
+
+homepage = 'https://docs.xfce.org/apps/xfburn/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfburn'
+
+[[package]]
+channel = 'debian'
+name = 'xfburn'
+
+[[package]]
+channel = 'fedora'
+name = 'xfburn'

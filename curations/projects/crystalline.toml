@@ -1,0 +1,8 @@
+id = 'crystalline'
+name = 'crystalline'
+
+homepage = 'https://github.com/elbywan/crystalline'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crystalline'

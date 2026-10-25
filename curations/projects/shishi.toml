@@ -1,0 +1,16 @@
+id = 'shishi'
+name = 'shishi'
+
+homepage = 'https://www.gnu.org/software/shishi'
+
+[[package]]
+channel = 'debian'
+name = 'shisa'
+
+[[package]]
+channel = 'debian'
+name = 'shishi'
+
+[[package]]
+channel = 'debian'
+name = 'shishi-kdc'

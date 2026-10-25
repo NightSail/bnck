@@ -1,0 +1,12 @@
+id = 'rkdeveloptool'
+name = 'rkdeveloptool'
+
+homepage = 'https://opensource.rock-chips.com/wiki_Rkdeveloptool'
+
+[[package]]
+channel = 'debian'
+name = 'rkdeveloptool'
+
+[[package]]
+channel = 'fedora'
+name = 'rkdeveloptool'

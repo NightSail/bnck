@@ -1,0 +1,8 @@
+id = 'python3-usbsdmux'
+name = 'python3-usbsdmux'
+
+homepage = 'https://github.com/linux-automation/usbsdmux'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-usbsdmux'

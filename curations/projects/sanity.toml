@@ -1,0 +1,8 @@
+id = 'sanity'
+name = 'sanity'
+
+homepage = 'https://www.sanity.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sanity'

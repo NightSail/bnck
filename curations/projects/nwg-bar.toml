@@ -1,0 +1,16 @@
+id = 'nwg-bar'
+name = 'nwg-bar'
+
+homepage = 'https://github.com/nwg-piotr/nwg-bar'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-bar'
+
+[[package]]
+channel = 'debian'
+name = 'nwg-bar'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-bar'

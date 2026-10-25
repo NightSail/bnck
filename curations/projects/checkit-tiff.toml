@@ -1,0 +1,8 @@
+id = 'checkit-tiff'
+name = 'checkit-tiff'
+
+homepage = 'https://git.fsfe.org/art1pirat/checkit_tiff'
+
+[[package]]
+channel = 'debian'
+name = 'checkit-tiff'

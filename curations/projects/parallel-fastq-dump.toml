@@ -1,0 +1,8 @@
+id = 'parallel-fastq-dump'
+name = 'parallel-fastq-dump'
+
+homepage = 'https://github.com/rvalieris/parallel-fastq-dump'
+
+[[package]]
+channel = 'debian'
+name = 'parallel-fastq-dump'

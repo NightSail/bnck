@@ -1,0 +1,16 @@
+id = 'keysmith'
+name = 'keysmith'
+
+homepage = 'https://apps.kde.org/keysmith'
+
+[[package]]
+channel = 'arch'
+name = 'keysmith'
+
+[[package]]
+channel = 'debian'
+name = 'keysmith'
+
+[[package]]
+channel = 'fedora'
+name = 'keysmith'

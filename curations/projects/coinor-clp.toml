@@ -1,0 +1,8 @@
+id = 'coinor-clp'
+name = 'coinor-clp'
+
+homepage = 'https://projects.coin-or.org/Clp'
+
+[[package]]
+channel = 'debian'
+name = 'coinor-clp'

@@ -1,0 +1,8 @@
+id = 'sinfo'
+name = 'sinfo'
+
+homepage = 'http://www.ant.uni-bremen.de/whomes/rinas/sinfo'
+
+[[package]]
+channel = 'debian'
+name = 'sinfo'

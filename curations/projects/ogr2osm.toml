@@ -1,0 +1,8 @@
+id = 'ogr2osm'
+name = 'ogr2osm'
+
+homepage = 'https://github.com/roelderickx/ogr2osm'
+
+[[package]]
+channel = 'fedora'
+name = 'ogr2osm'

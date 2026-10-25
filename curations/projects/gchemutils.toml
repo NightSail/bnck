@@ -1,0 +1,28 @@
+id = 'gchemutils'
+name = 'gchemutils'
+
+homepage = 'http://www.nongnu.org/gchemutils'
+
+[[package]]
+channel = 'fedora'
+name = 'gchem3d'
+
+[[package]]
+channel = 'fedora'
+name = 'gchemcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'gchempaint'
+
+[[package]]
+channel = 'fedora'
+name = 'gchemtable'
+
+[[package]]
+channel = 'fedora'
+name = 'gcrystal'
+
+[[package]]
+channel = 'fedora'
+name = 'gspectrum'

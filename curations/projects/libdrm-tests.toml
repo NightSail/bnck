@@ -1,0 +1,6 @@
+id = 'libdrm-tests'
+name = 'libdrm-tests'
+
+[[package]]
+channel = 'debian'
+name = 'libdrm-tests'

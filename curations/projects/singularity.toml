@@ -1,0 +1,8 @@
+id = 'singularity'
+name = 'singularity'
+
+homepage = 'http://emhsoft.com/singularity/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'singularity'

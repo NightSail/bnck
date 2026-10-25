@@ -1,0 +1,6 @@
+id = 'doxyqml'
+name = 'doxyqml'
+
+[[package]]
+channel = 'debian'
+name = 'doxyqml'

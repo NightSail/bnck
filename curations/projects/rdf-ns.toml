@@ -1,0 +1,12 @@
+id = 'rdf-ns'
+name = 'RDF-NS'
+
+homepage = 'https://metacpan.org/release/RDF-NS'
+
+[[package]]
+channel = 'debian'
+name = 'librdf-ns-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-RDF-NS'

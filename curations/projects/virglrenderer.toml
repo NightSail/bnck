@@ -1,0 +1,8 @@
+id = 'virglrenderer'
+name = 'virglrenderer'
+
+homepage = 'https://gitlab.freedesktop.org/virgl/virglrenderer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virglrenderer'

@@ -1,0 +1,8 @@
+id = 'blag'
+name = 'blag'
+
+homepage = 'https://github.com/venthur/blag'
+
+[[package]]
+channel = 'debian'
+name = 'blag'

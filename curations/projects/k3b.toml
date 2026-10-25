@@ -1,0 +1,16 @@
+id = 'k3b'
+name = 'k3b'
+
+homepage = 'https://apps.kde.org/k3b'
+
+[[package]]
+channel = 'arch'
+name = 'k3b'
+
+[[package]]
+channel = 'debian'
+name = 'k3b'
+
+[[package]]
+channel = 'fedora'
+name = 'k3b'

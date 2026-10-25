@@ -1,0 +1,8 @@
+id = 'backup2l'
+name = 'backup2l'
+
+homepage = 'https://github.com/gkiefer/backup2l'
+
+[[package]]
+channel = 'debian'
+name = 'backup2l'

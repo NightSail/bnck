@@ -1,0 +1,8 @@
+id = 'r-knitr'
+name = 'R-knitr'
+
+homepage = 'https://CRAN.R-project.org/package=knitr'
+
+[[package]]
+channel = 'fedora'
+name = 'R-knitr'

@@ -1,0 +1,6 @@
+id = 'ngraph-gtk'
+name = 'ngraph-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'ngraph-gtk'

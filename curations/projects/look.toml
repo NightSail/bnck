@@ -1,0 +1,8 @@
+id = 'look'
+name = 'look'
+
+homepage = 'https://github.com/kunkka19xx/look'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/look'

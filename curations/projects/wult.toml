@@ -1,0 +1,8 @@
+id = 'wult'
+name = 'wult'
+
+homepage = 'https://github.com/intel/wult'
+
+[[package]]
+channel = 'fedora'
+name = 'wult'

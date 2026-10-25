@@ -1,0 +1,16 @@
+id = 'kget'
+name = 'kget'
+
+homepage = 'https://apps.kde.org/kget'
+
+[[package]]
+channel = 'arch'
+name = 'kget'
+
+[[package]]
+channel = 'debian'
+name = 'kget'
+
+[[package]]
+channel = 'fedora'
+name = 'kget'

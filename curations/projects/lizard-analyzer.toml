@@ -1,0 +1,8 @@
+id = 'lizard-analyzer'
+name = 'lizard-analyzer'
+
+homepage = 'https://github.com/terryyin/lizard'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lizard-analyzer'

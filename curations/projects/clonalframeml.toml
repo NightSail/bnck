@@ -1,0 +1,8 @@
+id = 'clonalframeml'
+name = 'clonalframeml'
+
+homepage = 'https://github.com/xavierdidelot/ClonalFrameML'
+
+[[package]]
+channel = 'debian'
+name = 'clonalframeml'

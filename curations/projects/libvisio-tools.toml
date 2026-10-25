@@ -1,0 +1,6 @@
+id = 'libvisio-tools'
+name = 'libvisio-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libvisio-tools'

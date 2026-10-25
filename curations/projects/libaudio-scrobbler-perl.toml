@@ -1,0 +1,8 @@
+id = 'libaudio-scrobbler-perl'
+name = 'libaudio-scrobbler-perl'
+
+homepage = 'https://metacpan.org/release/Audio-Scrobbler'
+
+[[package]]
+channel = 'debian'
+name = 'libaudio-scrobbler-perl'

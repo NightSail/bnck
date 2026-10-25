@@ -1,0 +1,8 @@
+id = 'python3-versioningit'
+name = 'python3-versioningit'
+
+homepage = 'https://pypi.org/pypi/versioningit'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-versioningit'

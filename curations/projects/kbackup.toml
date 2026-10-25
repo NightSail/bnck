@@ -1,0 +1,16 @@
+id = 'kbackup'
+name = 'kbackup'
+
+homepage = 'https://apps.kde.org/kbackup'
+
+[[package]]
+channel = 'arch'
+name = 'kbackup'
+
+[[package]]
+channel = 'debian'
+name = 'kbackup'
+
+[[package]]
+channel = 'fedora'
+name = 'kbackup'

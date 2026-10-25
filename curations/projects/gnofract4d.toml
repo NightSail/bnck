@@ -1,0 +1,8 @@
+id = 'gnofract4d'
+name = 'gnofract4d'
+
+homepage = 'https://fract4d.github.io/gnofract4d'
+
+[[package]]
+channel = 'fedora'
+name = 'gnofract4d'

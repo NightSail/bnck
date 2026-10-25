@@ -1,0 +1,8 @@
+id = 'pylama'
+name = 'pylama'
+
+homepage = 'https://github.com/klen/pylama'
+
+[[package]]
+channel = 'debian'
+name = 'pylama'

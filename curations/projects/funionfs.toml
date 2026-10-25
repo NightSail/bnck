@@ -1,0 +1,8 @@
+id = 'funionfs'
+name = 'funionfs'
+
+homepage = 'http://funionfs.apiou.org'
+
+[[package]]
+channel = 'fedora'
+name = 'funionfs'

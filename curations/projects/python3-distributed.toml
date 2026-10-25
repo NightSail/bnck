@@ -1,0 +1,12 @@
+id = 'python3-distributed'
+name = 'python3-distributed'
+
+homepage = 'https://distributed.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-distributed'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-distributed'

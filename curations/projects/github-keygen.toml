@@ -1,0 +1,8 @@
+id = 'github-keygen'
+name = 'github-keygen'
+
+repository = 'https://github.com/dolmen/github-keygen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/github-keygen'

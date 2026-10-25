@@ -1,0 +1,21 @@
+id = 'chibi-scheme'
+name = 'chibi-scheme'
+
+homepage = 'http://synthcode.com/wiki/chibi-scheme'
+repository = 'https://github.com/ashinn/chibi-scheme.git'
+
+[[package]]
+channel = 'debian'
+name = 'chibi-scheme'
+
+[[package]]
+channel = 'fedora'
+name = 'chibi-scheme'
+
+[[package]]
+channel = 'fedora'
+name = 'chibi-scheme-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chibi-scheme'

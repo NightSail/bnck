@@ -1,0 +1,8 @@
+id = 'cardpeek'
+name = 'cardpeek'
+
+homepage = 'http://pannetrat.com/Cardpeek'
+
+[[package]]
+channel = 'debian'
+name = 'cardpeek'

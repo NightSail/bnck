@@ -1,0 +1,8 @@
+id = 'perl-date-manip'
+name = 'perl-Date-Manip'
+
+homepage = 'https://metacpan.org/release/Date-Manip'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Date-Manip'

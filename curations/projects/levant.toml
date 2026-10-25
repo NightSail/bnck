@@ -1,0 +1,8 @@
+id = 'levant'
+name = 'levant'
+
+repository = 'https://github.com/hashicorp/levant.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/levant'

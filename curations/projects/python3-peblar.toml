@@ -1,0 +1,8 @@
+id = 'python3-peblar'
+name = 'python3-peblar'
+
+homepage = 'https://github.com/frenck/python-peblar'
+
+[[package]]
+channel = 'debian'
+name = 'python3-peblar'

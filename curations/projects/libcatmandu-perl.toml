@@ -1,0 +1,8 @@
+id = 'libcatmandu-perl'
+name = 'libcatmandu-perl'
+
+homepage = 'https://librecat.org/Catmandu'
+
+[[package]]
+channel = 'debian'
+name = 'libcatmandu-perl'

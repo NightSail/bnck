@@ -1,0 +1,16 @@
+id = 'galeracluster'
+name = 'galeracluster'
+
+homepage = 'https://galeracluster.com'
+
+[[package]]
+channel = 'arch'
+name = 'galera'
+
+[[package]]
+channel = 'debian'
+name = 'galera-arbitrator-4'
+
+[[package]]
+channel = 'fedora'
+name = 'galera'

@@ -1,0 +1,12 @@
+id = 'nomacs'
+name = 'nomacs'
+
+homepage = 'https://nomacs.org'
+
+[[package]]
+channel = 'debian'
+name = 'nomacs'
+
+[[package]]
+channel = 'fedora'
+name = 'nomacs'

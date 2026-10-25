@@ -1,0 +1,8 @@
+id = 'make-dynpart-mappings'
+name = 'make-dynpart-mappings'
+
+homepage = 'https://gitlab.com/flamingradian/make-dynpart-mappings'
+
+[[package]]
+channel = 'debian'
+name = 'make-dynpart-mappings'

@@ -1,0 +1,8 @@
+id = 'regextester'
+name = 'regextester'
+
+homepage = 'https://github.com/artemanufrij/regextester'
+
+[[package]]
+channel = 'fedora'
+name = 'regextester'

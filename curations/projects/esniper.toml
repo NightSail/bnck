@@ -1,0 +1,8 @@
+id = 'esniper'
+name = 'esniper'
+
+homepage = 'https://sourceforge.net/projects/esniper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/esniper'

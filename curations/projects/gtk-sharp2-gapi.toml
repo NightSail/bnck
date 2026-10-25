@@ -1,0 +1,8 @@
+id = 'gtk-sharp2-gapi'
+name = 'gtk-sharp2-gapi'
+
+homepage = 'http://www.mono-project.com/GtkSharp'
+
+[[package]]
+channel = 'fedora'
+name = 'gtk-sharp2-gapi'

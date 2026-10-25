@@ -1,0 +1,12 @@
+id = 'lscolors'
+name = 'lscolors'
+
+homepage = 'https://github.com/sharkdp/lscolors'
+
+[[package]]
+channel = 'debian'
+name = 'lscolors'
+
+[[package]]
+channel = 'fedora'
+name = 'lscolors'

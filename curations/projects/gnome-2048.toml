@@ -1,0 +1,12 @@
+id = 'gnome-2048'
+name = 'gnome-2048'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-2048'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-2048'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-2048'

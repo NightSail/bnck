@@ -1,0 +1,25 @@
+id = 'vde'
+name = 'vde'
+
+homepage = 'http://vde.sourceforge.net'
+repository = 'https://github.com/virtualsquare/vde-2.git'
+
+[[package]]
+channel = 'debian'
+name = 'vde-switch'
+
+[[package]]
+channel = 'debian'
+name = 'vde-wirefilter'
+
+[[package]]
+channel = 'debian'
+name = 'vde2'
+
+[[package]]
+channel = 'debian'
+name = 'vde2-cryptcab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vde'

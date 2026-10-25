@@ -1,0 +1,16 @@
+id = 'gnome-maps'
+name = 'gnome-maps'
+
+homepage = 'https://apps.gnome.org/Maps'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-maps'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-maps'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-maps'

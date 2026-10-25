@@ -1,0 +1,12 @@
+id = 'ruby-cucumber-html-formatter'
+name = 'ruby-cucumber-html-formatter'
+
+homepage = 'https://github.com/cucumber/html-formatter/tree/main/ruby'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-cucumber-html-formatter'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-cucumber-html-formatter'

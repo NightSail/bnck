@@ -1,0 +1,8 @@
+id = 'golang-github-fvbommel-util'
+name = 'golang-github-fvbommel-util'
+
+homepage = 'https://github.com/fvbommel/util'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-fvbommel-util'

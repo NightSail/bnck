@@ -1,0 +1,8 @@
+id = 'latexdraw'
+name = 'latexdraw'
+
+homepage = 'http://latexdraw.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'latexdraw'

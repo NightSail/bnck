@@ -1,0 +1,8 @@
+id = 'foomatic-filters'
+name = 'foomatic-filters'
+
+homepage = 'https://wiki.linuxfoundation.org/openprinting/start'
+
+[[package]]
+channel = 'debian'
+name = 'foomatic-filters'

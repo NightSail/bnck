@@ -1,0 +1,8 @@
+id = 'signal-tlsd'
+name = 'signal-tlsd'
+
+homepage = 'https://github.com/kpcyrd/signal-tlsd'
+
+[[package]]
+channel = 'debian'
+name = 'signal-tlsd'

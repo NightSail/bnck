@@ -1,0 +1,8 @@
+id = 'fbrnch'
+name = 'fbrnch'
+
+homepage = 'https://hackage.haskell.org/package/fbrnch'
+
+[[package]]
+channel = 'fedora'
+name = 'fbrnch'

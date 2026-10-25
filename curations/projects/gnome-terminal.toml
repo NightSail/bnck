@@ -1,0 +1,16 @@
+id = 'gnome-terminal'
+name = 'gnome-terminal'
+
+homepage = 'https://wiki.gnome.org/Apps/Terminal'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-terminal'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-terminal'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-terminal'

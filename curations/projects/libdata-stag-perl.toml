@@ -1,0 +1,8 @@
+id = 'libdata-stag-perl'
+name = 'libdata-stag-perl'
+
+homepage = 'https://stag.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libdata-stag-perl'

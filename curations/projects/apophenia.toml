@@ -1,0 +1,8 @@
+id = 'apophenia'
+name = 'apophenia'
+
+homepage = 'https://github.com/b-k/apophenia'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apophenia'

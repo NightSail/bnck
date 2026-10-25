@@ -1,0 +1,9 @@
+id = 'aws-sam-cli'
+name = 'aws-sam-cli'
+
+homepage = 'https://aws.amazon.com/serverless/sam'
+repository = 'https://github.com/aws/aws-sam-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-sam-cli'

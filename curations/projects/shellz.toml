@@ -1,0 +1,8 @@
+id = 'shellz'
+name = 'shellz'
+
+homepage = 'https://github.com/evilsocket/shellz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shellz'

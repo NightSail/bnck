@@ -1,0 +1,12 @@
+id = 'tint2'
+name = 'tint2'
+
+homepage = 'https://gitlab.com/o9000/tint2'
+
+[[package]]
+channel = 'arch'
+name = 'tint2'
+
+[[package]]
+channel = 'debian'
+name = 'tint2'

@@ -1,0 +1,8 @@
+id = 'jardiff'
+name = 'jardiff'
+
+homepage = 'http://www.osjava.org/jardiff'
+
+[[package]]
+channel = 'debian'
+name = 'jardiff'

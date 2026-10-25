@@ -1,0 +1,8 @@
+id = 'bfh-container'
+name = 'bfh-container'
+
+homepage = 'https://bfh.science'
+
+[[package]]
+channel = 'debian'
+name = 'bfh-container'

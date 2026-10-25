@@ -1,0 +1,8 @@
+id = 'uhdm'
+name = 'uhdm'
+
+repository = 'https://github.com/chipsalliance/UHDM.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uhdm'

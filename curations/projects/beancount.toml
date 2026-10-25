@@ -1,0 +1,17 @@
+id = 'beancount'
+name = 'beancount'
+
+homepage = 'https://github.com/beancount'
+repository = 'https://github.com/beancount/beancount.git'
+
+[[package]]
+channel = 'debian'
+name = 'beancount'
+
+[[package]]
+channel = 'fedora'
+name = 'beancount'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beancount'

@@ -1,0 +1,16 @@
+id = 'git-review'
+name = 'git-review'
+
+repository = 'https://opendev.org/opendev/git-review.git'
+
+[[package]]
+channel = 'debian'
+name = 'git-review'
+
+[[package]]
+channel = 'fedora'
+name = 'git-review'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-review'

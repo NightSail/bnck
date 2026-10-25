@@ -1,0 +1,8 @@
+id = 'sysnews'
+name = 'sysnews'
+
+homepage = 'https://www.ibiblio.org/pub/Linux/system/admin/login'
+
+[[package]]
+channel = 'debian'
+name = 'sysnews'

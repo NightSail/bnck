@@ -1,0 +1,8 @@
+id = 'frysk'
+name = 'frysk'
+
+homepage = 'http://sourceware.org/frysk'
+
+[[package]]
+channel = 'fedora'
+name = 'frysk'

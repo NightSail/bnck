@@ -1,0 +1,8 @@
+id = 'qdl'
+name = 'qdl'
+
+homepage = 'https://github.com/linux-msm/qdl'
+
+[[package]]
+channel = 'debian'
+name = 'qdl'

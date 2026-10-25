@@ -1,0 +1,20 @@
+id = 'c-kermit'
+name = 'c-kermit'
+
+homepage = 'https://www.kermitproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'ckermit'
+
+[[package]]
+channel = 'debian'
+name = 'ckermit'
+
+[[package]]
+channel = 'fedora'
+name = 'ckermit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c-kermit'

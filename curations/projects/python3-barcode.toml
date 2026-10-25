@@ -1,0 +1,8 @@
+id = 'python3-barcode'
+name = 'python3-barcode'
+
+homepage = 'https://github.com/WhyNotHugo/python-barcode'
+
+[[package]]
+channel = 'debian'
+name = 'python3-barcode'

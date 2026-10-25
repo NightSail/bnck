@@ -1,0 +1,8 @@
+id = 'revolt'
+name = 'revolt'
+
+homepage = 'https://github.com/aperezdc/revolt'
+
+[[package]]
+channel = 'debian'
+name = 'revolt'

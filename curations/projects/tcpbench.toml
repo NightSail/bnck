@@ -1,0 +1,8 @@
+id = 'tcpbench'
+name = 'tcpbench'
+
+homepage = 'https://github.com/bluhm/tcpbench-portable'
+
+[[package]]
+channel = 'debian'
+name = 'tcpbench'

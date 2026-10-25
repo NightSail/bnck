@@ -1,0 +1,8 @@
+id = 'abricate'
+name = 'abricate'
+
+repository = 'https://github.com/tseemann/abricate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abricate'

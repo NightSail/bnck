@@ -1,0 +1,16 @@
+id = 'rhythmbox'
+name = 'rhythmbox'
+
+homepage = 'https://gitlab.gnome.org/GNOME/rhythmbox'
+
+[[package]]
+channel = 'arch'
+name = 'rhythmbox'
+
+[[package]]
+channel = 'debian'
+name = 'rhythmbox'
+
+[[package]]
+channel = 'fedora'
+name = 'rhythmbox'

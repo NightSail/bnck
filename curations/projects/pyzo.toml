@@ -1,0 +1,12 @@
+id = 'pyzo'
+name = 'pyzo'
+
+homepage = 'https://pyzo.org'
+
+[[package]]
+channel = 'arch'
+name = 'pyzo'
+
+[[package]]
+channel = 'debian'
+name = 'pyzo'

@@ -1,0 +1,80 @@
+id = 'pyhoca-cli'
+name = 'pyhoca-cli'
+
+homepage = 'https://wiki.x2go.org'
+
+[[package]]
+channel = 'debian'
+name = 'pinentry-x2go'
+
+[[package]]
+channel = 'debian'
+name = 'pyhoca-cli'
+
+[[package]]
+channel = 'debian'
+name = 'pyhoca-gui'
+
+[[package]]
+channel = 'debian'
+name = 'x2gobroker'
+
+[[package]]
+channel = 'debian'
+name = 'x2gobroker-agent'
+
+[[package]]
+channel = 'debian'
+name = 'x2gobroker-authservice'
+
+[[package]]
+channel = 'debian'
+name = 'x2gobroker-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'x2gobroker-loadchecker'
+
+[[package]]
+channel = 'debian'
+name = 'x2gobroker-ssh'
+
+[[package]]
+channel = 'debian'
+name = 'x2goclient'
+
+[[package]]
+channel = 'debian'
+name = 'x2godesktopsharing'
+
+[[package]]
+channel = 'debian'
+name = 'x2gokdriveclient'
+
+[[package]]
+channel = 'debian'
+name = 'x2goserver'
+
+[[package]]
+channel = 'debian'
+name = 'x2goserver-desktopsharing'
+
+[[package]]
+channel = 'debian'
+name = 'x2goserver-extensions'
+
+[[package]]
+channel = 'debian'
+name = 'x2goserver-fmbindings'
+
+[[package]]
+channel = 'debian'
+name = 'x2goserver-printing'
+
+[[package]]
+channel = 'debian'
+name = 'x2goserver-x2goagent'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-x2gokdrive'

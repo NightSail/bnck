@@ -1,0 +1,8 @@
+id = 'trzsz-ssh'
+name = 'trzsz-ssh'
+
+homepage = 'https://trzsz.github.io/tssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trzsz-ssh'

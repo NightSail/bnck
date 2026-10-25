@@ -1,0 +1,8 @@
+id = 'node-esm2umd'
+name = 'node-esm2umd'
+
+homepage = 'https://github.com/dcodeIO/esm2umd'
+
+[[package]]
+channel = 'debian'
+name = 'node-esm2umd'

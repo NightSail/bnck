@@ -1,0 +1,12 @@
+id = 'srs'
+name = 'srs'
+
+homepage = 'https://github.com/ossrs/srs'
+
+[[package]]
+channel = 'arch'
+name = 'srs'
+
+[[package]]
+channel = 'debian'
+name = 'srs'

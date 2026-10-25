@@ -1,0 +1,8 @@
+id = 'cleware-traffic-light'
+name = 'cleware-traffic-light'
+
+homepage = 'https://github.com/joshuarost/cleware-traffic-light'
+
+[[package]]
+channel = 'debian'
+name = 'cleware-traffic-light'

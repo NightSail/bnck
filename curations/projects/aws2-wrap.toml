@@ -1,0 +1,8 @@
+id = 'aws2-wrap'
+name = 'aws2-wrap'
+
+homepage = 'https://github.com/linaro-its/aws2-wrap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws2-wrap'

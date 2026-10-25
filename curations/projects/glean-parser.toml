@@ -1,0 +1,8 @@
+id = 'glean-parser'
+name = 'glean-parser'
+
+homepage = 'https://mozilla.github.io/glean_parser'
+
+[[package]]
+channel = 'debian'
+name = 'glean-parser'

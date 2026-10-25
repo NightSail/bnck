@@ -1,0 +1,17 @@
+id = 'stubby'
+name = 'stubby'
+
+homepage = 'https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby'
+repository = 'https://github.com/getdnsapi/stubby.git'
+
+[[package]]
+channel = 'arch'
+name = 'stubby'
+
+[[package]]
+channel = 'fedora'
+name = 'stubby'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stubby'

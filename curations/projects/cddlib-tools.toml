@@ -1,0 +1,8 @@
+id = 'cddlib-tools'
+name = 'cddlib-tools'
+
+homepage = 'https://people.inf.ethz.ch/fukudak/cdd_home'
+
+[[package]]
+channel = 'fedora'
+name = 'cddlib-tools'

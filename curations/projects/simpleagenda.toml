@@ -1,0 +1,12 @@
+id = 'simpleagenda'
+name = 'simpleagenda'
+
+homepage = 'https://github.com/poroussel/simpleagenda'
+
+[[package]]
+channel = 'debian'
+name = 'agenda.app'
+
+[[package]]
+channel = 'debian'
+name = 'simpleagenda.app'

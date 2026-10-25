@@ -1,0 +1,8 @@
+id = 'helpviewer-app'
+name = 'helpviewer.app'
+
+homepage = 'https://gap.nongnu.org/helpviewer/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'helpviewer.app'

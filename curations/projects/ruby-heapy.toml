@@ -1,0 +1,8 @@
+id = 'ruby-heapy'
+name = 'ruby-heapy'
+
+homepage = 'https://github.com/schneems/heapy'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-heapy'

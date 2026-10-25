@@ -1,0 +1,12 @@
+id = 'vhost-device-vsock'
+name = 'vhost-device-vsock'
+
+homepage = 'https://crates.io/crates/vhost-device-vsock'
+
+[[package]]
+channel = 'debian'
+name = 'vhost-device-vsock'
+
+[[package]]
+channel = 'fedora'
+name = 'vhost-device-vsock'

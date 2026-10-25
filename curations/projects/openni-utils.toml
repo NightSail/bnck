@@ -1,0 +1,6 @@
+id = 'openni-utils'
+name = 'openni-utils'
+
+[[package]]
+channel = 'debian'
+name = 'openni-utils'

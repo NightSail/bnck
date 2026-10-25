@@ -1,0 +1,8 @@
+id = 'dns-flood-detector'
+name = 'dns-flood-detector'
+
+homepage = 'http://www.adotout.com'
+
+[[package]]
+channel = 'debian'
+name = 'dns-flood-detector'

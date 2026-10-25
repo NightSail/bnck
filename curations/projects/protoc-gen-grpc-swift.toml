@@ -1,0 +1,8 @@
+id = 'protoc-gen-grpc-swift'
+name = 'protoc-gen-grpc-swift'
+
+repository = 'https://github.com/grpc/grpc-swift-protobuf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-grpc-swift'

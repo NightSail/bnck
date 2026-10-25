@@ -1,0 +1,8 @@
+id = 'ssmping'
+name = 'ssmping'
+
+homepage = 'http://www.venaas.no/multicast/ssmping'
+
+[[package]]
+channel = 'debian'
+name = 'ssmping'

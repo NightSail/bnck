@@ -1,0 +1,8 @@
+id = 'zdbsp'
+name = 'zdbsp'
+
+homepage = 'https://github.com/rheit/zdbsp'
+
+[[package]]
+channel = 'debian'
+name = 'zdbsp'

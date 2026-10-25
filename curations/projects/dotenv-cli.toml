@@ -1,0 +1,8 @@
+id = 'dotenv-cli'
+name = 'dotenv-cli'
+
+homepage = 'https://github.com/venthur/dotenv-cli'
+
+[[package]]
+channel = 'debian'
+name = 'dotenv-cli'

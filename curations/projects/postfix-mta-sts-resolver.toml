@@ -1,0 +1,12 @@
+id = 'postfix-mta-sts-resolver'
+name = 'postfix-mta-sts-resolver'
+
+homepage = 'https://github.com/Snawoot/postfix-mta-sts-resolver'
+
+[[package]]
+channel = 'debian'
+name = 'postfix-mta-sts-resolver'
+
+[[package]]
+channel = 'fedora'
+name = 'postfix-mta-sts-resolver'

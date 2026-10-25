@@ -1,0 +1,8 @@
+id = 'wayout'
+name = 'wayout'
+
+homepage = 'https://git.sr.ht/~proycon/wayout'
+
+[[package]]
+channel = 'debian'
+name = 'wayout'

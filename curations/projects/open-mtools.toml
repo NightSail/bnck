@@ -1,0 +1,8 @@
+id = 'open-mtools'
+name = 'open-mtools'
+
+homepage = 'https://marketplace.informatica.com/solutions/informatica_mtools'
+
+[[package]]
+channel = 'fedora'
+name = 'open-mtools'

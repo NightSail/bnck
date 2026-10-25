@@ -1,0 +1,12 @@
+id = 'caja-actions'
+name = 'caja-actions'
+
+homepage = 'https://github.com/mate-desktop/caja-actions'
+
+[[package]]
+channel = 'debian'
+name = 'caja-actions'
+
+[[package]]
+channel = 'fedora'
+name = 'caja-actions'

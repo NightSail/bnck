@@ -1,0 +1,12 @@
+id = 'vue-language-server'
+name = 'vue-language-server'
+
+homepage = 'https://deepwiki.com/vuejs/language-tools'
+
+[[package]]
+channel = 'arch'
+name = 'vue-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vue-language-server'

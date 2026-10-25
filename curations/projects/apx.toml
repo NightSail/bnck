@@ -1,0 +1,8 @@
+id = 'apx'
+name = 'apx'
+
+homepage = 'https://github.com/tstriker/apx'
+
+[[package]]
+channel = 'fedora'
+name = 'apx'

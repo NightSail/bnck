@@ -1,0 +1,8 @@
+id = 'python3-pylems'
+name = 'python3-PyLEMS'
+
+homepage = 'https://github.com/LEMS/pylems'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-PyLEMS'

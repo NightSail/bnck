@@ -1,0 +1,8 @@
+id = 'cil'
+name = 'cil'
+
+homepage = 'https://github.com/chilts/cil'
+
+[[package]]
+channel = 'debian'
+name = 'cil'

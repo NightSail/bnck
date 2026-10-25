@@ -1,0 +1,9 @@
+id = 'libpng'
+name = 'libpng'
+
+homepage = 'https://www.libpng.org/pub/png/libpng.html'
+repository = 'https://github.com/pnggroup/libpng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpng'

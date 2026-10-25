@@ -1,0 +1,8 @@
+id = 'svtools'
+name = 'svtools'
+
+homepage = 'https://github.com/kayahr/svtools'
+
+[[package]]
+channel = 'debian'
+name = 'svtools'

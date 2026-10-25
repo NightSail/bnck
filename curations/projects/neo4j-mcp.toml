@@ -1,0 +1,9 @@
+id = 'neo4j-mcp'
+name = 'neo4j-mcp'
+
+homepage = 'https://neo4j.com/docs/mcp/current'
+repository = 'https://github.com/neo4j/mcp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neo4j-mcp'

@@ -4,5 +4,13 @@ name = 'duperemove'
 homepage = 'https://markfasheh.github.io/duperemove'
 
 [[package]]
+channel = 'arch'
+name = 'duperemove'
+
+[[package]]
 channel = 'debian'
+name = 'duperemove'
+
+[[package]]
+channel = 'fedora'
 name = 'duperemove'

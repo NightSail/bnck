@@ -1,0 +1,8 @@
+id = 'pnmixer'
+name = 'pnmixer'
+
+homepage = 'https://github.com/nicklan/pnmixer'
+
+[[package]]
+channel = 'debian'
+name = 'pnmixer'

@@ -1,0 +1,8 @@
+id = 'gnome-paint'
+name = 'gnome-paint'
+
+homepage = 'https://launchpad.net/gnome-paint'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-paint'

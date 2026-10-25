@@ -1,0 +1,9 @@
+id = 'kahip'
+name = 'kahip'
+
+homepage = 'https://algo2.iti.kit.edu/documents/kahip/index.html'
+repository = 'https://github.com/KaHIP/KaHIP.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kahip'

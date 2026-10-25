@@ -1,0 +1,8 @@
+id = 'ssw-align'
+name = 'ssw-align'
+
+homepage = 'https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library'
+
+[[package]]
+channel = 'debian'
+name = 'ssw-align'

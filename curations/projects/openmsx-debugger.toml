@@ -1,0 +1,6 @@
+id = 'openmsx-debugger'
+name = 'openmsx-debugger'
+
+[[package]]
+channel = 'debian'
+name = 'openmsx-debugger'

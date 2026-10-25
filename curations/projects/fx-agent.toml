@@ -1,0 +1,9 @@
+id = 'fx-agent'
+name = 'fx-agent'
+
+homepage = 'https://fx.sh'
+repository = 'https://github.com/vercel-labs/fx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fx-agent'

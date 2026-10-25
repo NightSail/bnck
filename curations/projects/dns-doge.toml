@@ -1,0 +1,6 @@
+id = 'dns-doge'
+name = 'dns-doge'
+
+[[package]]
+channel = 'crates.io'
+name = 'dns-doge'

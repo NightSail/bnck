@@ -1,0 +1,12 @@
+id = 'pinpoint'
+name = 'pinpoint'
+
+homepage = 'https://wiki.gnome.org/action/show/Apps/Pinpoint'
+
+[[package]]
+channel = 'debian'
+name = 'pinpoint'
+
+[[package]]
+channel = 'fedora'
+name = 'pinpoint'

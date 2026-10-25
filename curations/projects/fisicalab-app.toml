@@ -1,0 +1,8 @@
+id = 'fisicalab-app'
+name = 'fisicalab.app'
+
+homepage = 'https://gnu.org/software/fisicalab'
+
+[[package]]
+channel = 'debian'
+name = 'fisicalab.app'

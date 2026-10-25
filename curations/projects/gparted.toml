@@ -1,0 +1,16 @@
+id = 'gparted'
+name = 'gparted'
+
+homepage = 'https://gparted.org'
+
+[[package]]
+channel = 'arch'
+name = 'gparted'
+
+[[package]]
+channel = 'debian'
+name = 'gparted'
+
+[[package]]
+channel = 'fedora'
+name = 'gparted'

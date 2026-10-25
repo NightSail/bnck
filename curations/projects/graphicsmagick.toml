@@ -1,0 +1,40 @@
+id = 'graphicsmagick'
+name = 'GraphicsMagick'
+
+homepage = 'http://www.graphicsmagick.org'
+
+[[package]]
+channel = 'arch'
+name = 'graphicsmagick'
+
+[[package]]
+channel = 'debian'
+name = 'graphicsmagick'
+
+[[package]]
+channel = 'debian'
+name = 'graphicsmagick-imagemagick-compat'
+
+[[package]]
+channel = 'debian'
+name = 'graphicsmagick-libmagick-dev-compat'
+
+[[package]]
+channel = 'debian'
+name = 'libgraphicsmagick++1-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libgraphicsmagick1-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'GraphicsMagick'
+
+[[package]]
+channel = 'fedora'
+name = 'GraphicsMagick-c++-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'GraphicsMagick-devel'

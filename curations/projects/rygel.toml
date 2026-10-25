@@ -1,0 +1,20 @@
+id = 'rygel'
+name = 'rygel'
+
+homepage = 'https://gitlab.gnome.org/GNOME/rygel'
+
+[[package]]
+channel = 'arch'
+name = 'rygel'
+
+[[package]]
+channel = 'debian'
+name = 'rygel'
+
+[[package]]
+channel = 'debian'
+name = 'rygel-preferences'
+
+[[package]]
+channel = 'fedora'
+name = 'rygel'

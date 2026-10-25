@@ -1,0 +1,12 @@
+id = 'net-snmp-net-snmp'
+name = 'Net-SNMP'
+
+homepage = 'https://metacpan.org/release/Net-SNMP'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-snmp-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-SNMP'

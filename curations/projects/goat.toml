@@ -1,0 +1,8 @@
+id = 'goat'
+name = 'goat'
+
+repository = 'https://github.com/bluesky-social/goat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goat'

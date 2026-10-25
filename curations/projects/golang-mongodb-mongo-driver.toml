@@ -1,0 +1,8 @@
+id = 'golang-mongodb-mongo-driver'
+name = 'golang-mongodb-mongo-driver'
+
+homepage = 'https://github.com/mongodb/mongo-go-driver'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-mongodb-mongo-driver'

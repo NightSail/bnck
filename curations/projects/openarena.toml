@@ -1,0 +1,8 @@
+id = 'openarena'
+name = 'openarena'
+
+homepage = 'http://openarena.ws'
+
+[[package]]
+channel = 'fedora'
+name = 'openarena'

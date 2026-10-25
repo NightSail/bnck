@@ -1,0 +1,8 @@
+id = 'asahi-wifisync'
+name = 'asahi-wifisync'
+
+homepage = 'https://crates.io/crates/asahi-wifisync'
+
+[[package]]
+channel = 'fedora'
+name = 'asahi-wifisync'

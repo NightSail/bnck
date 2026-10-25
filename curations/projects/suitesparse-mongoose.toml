@@ -1,0 +1,8 @@
+id = 'suitesparse-mongoose'
+name = 'suitesparse-mongoose'
+
+homepage = 'http://suitesparse.com'
+
+[[package]]
+channel = 'debian'
+name = 'suitesparse-mongoose'

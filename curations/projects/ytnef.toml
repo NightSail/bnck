@@ -1,0 +1,16 @@
+id = 'ytnef'
+name = 'ytnef'
+
+homepage = 'https://github.com/Yeraze/ytnef'
+
+[[package]]
+channel = 'arch'
+name = 'libytnef'
+
+[[package]]
+channel = 'debian'
+name = 'ytnef-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ytnef'

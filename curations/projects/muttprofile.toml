@@ -1,0 +1,6 @@
+id = 'muttprofile'
+name = 'muttprofile'
+
+[[package]]
+channel = 'debian'
+name = 'muttprofile'

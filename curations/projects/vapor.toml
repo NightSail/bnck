@@ -1,0 +1,9 @@
+id = 'vapor'
+name = 'vapor'
+
+homepage = 'https://vapor.codes'
+repository = 'https://github.com/vapor/toolbox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vapor'

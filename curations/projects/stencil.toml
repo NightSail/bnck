@@ -1,0 +1,9 @@
+id = 'stencil'
+name = 'stencil'
+
+homepage = 'https://stencil.rgst.io'
+repository = 'https://git.rgst.io/rgst-io/stencil.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stencil'

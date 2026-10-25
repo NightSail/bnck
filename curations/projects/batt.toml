@@ -1,0 +1,8 @@
+id = 'batt'
+name = 'batt'
+
+repository = 'https://github.com/charlie0129/batt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/batt'

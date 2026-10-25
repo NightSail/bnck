@@ -1,0 +1,12 @@
+id = 'libraw1394'
+name = 'libraw1394'
+
+homepage = 'https://ieee1394.wiki.kernel.org/index.php/Main_Page'
+
+[[package]]
+channel = 'arch'
+name = 'libraw1394'
+
+[[package]]
+channel = 'fedora'
+name = 'libraw1394'

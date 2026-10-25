@@ -1,0 +1,6 @@
+id = 'bart'
+name = 'bart'
+
+[[package]]
+channel = 'debian'
+name = 'bart'

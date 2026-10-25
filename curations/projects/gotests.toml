@@ -1,0 +1,8 @@
+id = 'gotests'
+name = 'gotests'
+
+repository = 'https://github.com/cweill/gotests.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotests'

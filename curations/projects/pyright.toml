@@ -1,0 +1,12 @@
+id = 'pyright'
+name = 'pyright'
+
+homepage = 'https://github.com/microsoft/pyright'
+
+[[package]]
+channel = 'arch'
+name = 'pyright'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyright'

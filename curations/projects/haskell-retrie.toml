@@ -1,0 +1,8 @@
+id = 'haskell-retrie'
+name = 'haskell-retrie'
+
+homepage = 'https://github.com/facebookincubator/retrie'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-retrie'

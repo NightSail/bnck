@@ -1,0 +1,8 @@
+id = 'larch'
+name = 'larch'
+
+homepage = 'https://github.com/rgrove/larch'
+
+[[package]]
+channel = 'debian'
+name = 'larch'

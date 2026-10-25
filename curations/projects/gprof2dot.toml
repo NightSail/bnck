@@ -1,0 +1,12 @@
+id = 'gprof2dot'
+name = 'gprof2dot'
+
+repository = 'https://github.com/jrfonseca/gprof2dot.git'
+
+[[package]]
+channel = 'fedora'
+name = 'gprof2dot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gprof2dot'

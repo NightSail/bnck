@@ -1,0 +1,12 @@
+id = 'toxic'
+name = 'toxic'
+
+homepage = 'https://github.com/JFreegman/toxic'
+
+[[package]]
+channel = 'arch'
+name = 'toxic'
+
+[[package]]
+channel = 'debian'
+name = 'toxic'

@@ -1,0 +1,6 @@
+id = 'windowlab'
+name = 'windowlab'
+
+[[package]]
+channel = 'debian'
+name = 'windowlab'

@@ -1,0 +1,9 @@
+id = 'openshift-cli'
+name = 'openshift-cli'
+
+homepage = 'https://www.openshift.com'
+repository = 'https://github.com/openshift/oc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openshift-cli'

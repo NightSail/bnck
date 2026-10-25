@@ -1,0 +1,8 @@
+id = 'prospector'
+name = 'prospector'
+
+homepage = 'https://prospector.readthedocs.org/en/master'
+
+[[package]]
+channel = 'debian'
+name = 'prospector'

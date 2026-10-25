@@ -1,0 +1,12 @@
+id = 'pbjelly'
+name = 'pbjelly'
+
+homepage = 'http://sourceforge.net/projects/pb-jelly'
+
+[[package]]
+channel = 'debian'
+name = 'pbhoney'
+
+[[package]]
+channel = 'debian'
+name = 'pbjelly'

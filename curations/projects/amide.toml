@@ -1,0 +1,8 @@
+id = 'amide'
+name = 'amide'
+
+homepage = 'https://github.com/ferdymercury/amide'
+
+[[package]]
+channel = 'debian'
+name = 'amide'

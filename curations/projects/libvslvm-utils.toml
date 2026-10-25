@@ -1,0 +1,8 @@
+id = 'libvslvm-utils'
+name = 'libvslvm-utils'
+
+homepage = 'https://github.com/libyal/libvslvm'
+
+[[package]]
+channel = 'debian'
+name = 'libvslvm-utils'

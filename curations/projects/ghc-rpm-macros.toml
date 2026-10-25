@@ -1,0 +1,8 @@
+id = 'ghc-rpm-macros'
+name = 'ghc-rpm-macros'
+
+homepage = 'https://src.fedoraproject.org/rpms/ghc-rpm-macros'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-rpm-macros'

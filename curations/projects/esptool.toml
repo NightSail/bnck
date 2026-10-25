@@ -4,5 +4,17 @@ name = 'esptool'
 homepage = 'https://docs.espressif.com/projects/esptool/en/latest/esp32'
 
 [[package]]
+channel = 'arch'
+name = 'esptool'
+
+[[package]]
+channel = 'debian'
+name = 'esptool'
+
+[[package]]
+channel = 'fedora'
+name = 'esptool'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/esptool'

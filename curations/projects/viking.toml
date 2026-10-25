@@ -1,0 +1,16 @@
+id = 'viking'
+name = 'viking'
+
+homepage = 'https://sourceforge.net/projects/viking'
+
+[[package]]
+channel = 'arch'
+name = 'viking'
+
+[[package]]
+channel = 'debian'
+name = 'viking'
+
+[[package]]
+channel = 'fedora'
+name = 'viking'

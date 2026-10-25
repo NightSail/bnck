@@ -1,0 +1,6 @@
+id = 'king'
+name = 'king'
+
+[[package]]
+channel = 'debian'
+name = 'king'

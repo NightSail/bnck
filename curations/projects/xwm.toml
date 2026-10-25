@@ -1,0 +1,8 @@
+id = 'xwm'
+name = 'xwm'
+
+homepage = 'https://github.com/mcpcpc/xwm'
+
+[[package]]
+channel = 'fedora'
+name = 'xwm'

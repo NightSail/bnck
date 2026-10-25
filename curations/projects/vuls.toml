@@ -1,0 +1,9 @@
+id = 'vuls'
+name = 'vuls'
+
+homepage = 'https://vuls.io'
+repository = 'https://github.com/future-architect/vuls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vuls'

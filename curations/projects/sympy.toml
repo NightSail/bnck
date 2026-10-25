@@ -1,0 +1,16 @@
+id = 'sympy'
+name = 'sympy'
+
+homepage = 'https://sympy.org'
+
+[[package]]
+channel = 'debian'
+name = 'isympy-common'
+
+[[package]]
+channel = 'debian'
+name = 'isympy3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sympy'

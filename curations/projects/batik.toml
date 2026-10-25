@@ -1,0 +1,36 @@
+id = 'batik'
+name = 'batik'
+
+homepage = 'https://xmlgraphics.apache.org/batik'
+
+[[package]]
+channel = 'debian'
+name = 'batik'
+
+[[package]]
+channel = 'debian'
+name = 'libbatik-java'
+
+[[package]]
+channel = 'fedora'
+name = 'batik-rasterizer'
+
+[[package]]
+channel = 'fedora'
+name = 'batik-slideshow'
+
+[[package]]
+channel = 'fedora'
+name = 'batik-squiggle'
+
+[[package]]
+channel = 'fedora'
+name = 'batik-svgpp'
+
+[[package]]
+channel = 'fedora'
+name = 'batik-ttf2svg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/batik'

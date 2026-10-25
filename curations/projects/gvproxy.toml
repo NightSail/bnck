@@ -1,0 +1,8 @@
+id = 'gvproxy'
+name = 'gvproxy'
+
+homepage = 'https://github.com/containers/gvisor-tap-vsock'
+
+[[package]]
+channel = 'debian'
+name = 'gvproxy'

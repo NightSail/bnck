@@ -1,0 +1,8 @@
+id = 'sqlline'
+name = 'sqlline'
+
+homepage = 'https://sqlline.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sqlline'

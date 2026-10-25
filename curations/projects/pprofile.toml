@@ -1,0 +1,12 @@
+id = 'pprofile'
+name = 'pprofile'
+
+homepage = 'https://github.com/vpelletier/pprofile'
+
+[[package]]
+channel = 'arch'
+name = 'python-pprofile'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pprofile'

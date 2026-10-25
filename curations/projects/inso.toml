@@ -1,0 +1,12 @@
+id = 'inso'
+name = 'inso'
+
+homepage = 'https://insomnia.rest/products/inso'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/inso'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/inso@beta'

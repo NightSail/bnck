@@ -1,0 +1,8 @@
+id = 'pack'
+name = 'pack'
+
+homepage = 'https://github.com/buildpacks/pack'
+
+[[package]]
+channel = 'fedora'
+name = 'pack'

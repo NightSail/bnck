@@ -1,0 +1,6 @@
+id = 'dist'
+name = 'dist'
+
+[[package]]
+channel = 'debian'
+name = 'dist'

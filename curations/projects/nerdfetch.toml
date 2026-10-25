@@ -1,0 +1,8 @@
+id = 'nerdfetch'
+name = 'nerdfetch'
+
+repository = 'https://github.com/ThatOneCalculator/NerdFetch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nerdfetch'

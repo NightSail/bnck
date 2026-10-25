@@ -1,0 +1,8 @@
+id = 'arpage'
+name = 'arpage'
+
+homepage = 'http://arpage.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'arpage'

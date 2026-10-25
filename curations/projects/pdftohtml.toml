@@ -1,0 +1,8 @@
+id = 'pdftohtml'
+name = 'pdftohtml'
+
+homepage = 'https://pdftohtml.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdftohtml'

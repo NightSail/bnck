@@ -1,0 +1,12 @@
+id = 'limine'
+name = 'limine'
+
+homepage = 'https://github.com/Limine-Bootloader/Limine'
+
+[[package]]
+channel = 'arch'
+name = 'limine'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/limine'

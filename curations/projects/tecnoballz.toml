@@ -1,0 +1,8 @@
+id = 'tecnoballz'
+name = 'tecnoballz'
+
+homepage = 'http://linux.tlk.fr/games/TecnoballZ'
+
+[[package]]
+channel = 'fedora'
+name = 'tecnoballz'

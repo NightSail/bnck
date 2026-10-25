@@ -1,0 +1,16 @@
+id = 'gcolor3'
+name = 'gcolor3'
+
+homepage = 'https://www.hjdskes.nl/projects/gcolor3'
+
+[[package]]
+channel = 'arch'
+name = 'gcolor3'
+
+[[package]]
+channel = 'debian'
+name = 'gcolor3'
+
+[[package]]
+channel = 'fedora'
+name = 'gcolor3'

@@ -1,0 +1,8 @@
+id = 'dhcpcd-gtk'
+name = 'dhcpcd-gtk'
+
+homepage = 'https://roy.marples.name/projects/dhcpcd-ui'
+
+[[package]]
+channel = 'debian'
+name = 'dhcpcd-gtk'

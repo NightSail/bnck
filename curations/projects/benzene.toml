@@ -1,0 +1,8 @@
+id = 'benzene'
+name = 'benzene'
+
+homepage = 'http://www.grinvin.org'
+
+[[package]]
+channel = 'arch'
+name = 'benzene'

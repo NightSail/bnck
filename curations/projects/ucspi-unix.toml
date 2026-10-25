@@ -1,0 +1,8 @@
+id = 'ucspi-unix'
+name = 'ucspi-unix'
+
+homepage = 'https://untroubled.org/ucspi-unix'
+
+[[package]]
+channel = 'debian'
+name = 'ucspi-unix'

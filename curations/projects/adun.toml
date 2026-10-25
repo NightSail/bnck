@@ -1,0 +1,12 @@
+id = 'adun'
+name = 'Adun'
+
+homepage = 'http://wiki.gnustep.org/index.php/Adun'
+
+[[package]]
+channel = 'debian'
+name = 'adun-core'
+
+[[package]]
+channel = 'debian'
+name = 'adun.app'

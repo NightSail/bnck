@@ -1,0 +1,12 @@
+id = 'cstream'
+name = 'cstream'
+
+homepage = 'http://www.cons.org/cracauer/cstream.html'
+
+[[package]]
+channel = 'debian'
+name = 'cstream'
+
+[[package]]
+channel = 'fedora'
+name = 'cstream'

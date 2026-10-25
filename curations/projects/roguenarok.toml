@@ -1,0 +1,8 @@
+id = 'roguenarok'
+name = 'roguenarok'
+
+homepage = 'https://github.com/aberer/RogueNaRok'
+
+[[package]]
+channel = 'debian'
+name = 'roguenarok'

@@ -1,0 +1,8 @@
+id = 'python3-send2trash'
+name = 'python3-send2trash'
+
+homepage = 'https://github.com/arsenetar/send2trash'
+
+[[package]]
+channel = 'debian'
+name = 'python3-send2trash'

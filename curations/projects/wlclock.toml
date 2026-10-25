@@ -1,0 +1,8 @@
+id = 'wlclock'
+name = 'wlclock'
+
+homepage = 'https://sr.ht/~leon_plickat/wlclock'
+
+[[package]]
+channel = 'debian'
+name = 'wlclock'

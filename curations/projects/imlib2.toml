@@ -1,0 +1,12 @@
+id = 'imlib2'
+name = 'imlib2'
+
+homepage = 'https://sourceforge.net/projects/enlightenment'
+
+[[package]]
+channel = 'arch'
+name = 'imlib2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imlib2'

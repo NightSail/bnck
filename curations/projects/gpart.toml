@@ -1,0 +1,16 @@
+id = 'gpart'
+name = 'gpart'
+
+homepage = 'https://github.com/baruch/gpart'
+
+[[package]]
+channel = 'arch'
+name = 'gpart'
+
+[[package]]
+channel = 'debian'
+name = 'gpart'
+
+[[package]]
+channel = 'fedora'
+name = 'gpart'

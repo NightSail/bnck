@@ -1,0 +1,12 @@
+id = 'rclone-browser'
+name = 'rclone-browser'
+
+homepage = 'https://github.com/kapitainsky/RcloneBrowser'
+
+[[package]]
+channel = 'debian'
+name = 'rclone-browser'
+
+[[package]]
+channel = 'fedora'
+name = 'rclone-browser'

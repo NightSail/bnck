@@ -1,0 +1,12 @@
+id = 'scmpuff'
+name = 'scmpuff'
+
+repository = 'https://github.com/mroth/scmpuff.git'
+
+[[package]]
+channel = 'arch'
+name = 'scmpuff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scmpuff'

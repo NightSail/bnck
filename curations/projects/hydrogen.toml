@@ -1,0 +1,16 @@
+id = 'hydrogen'
+name = 'hydrogen'
+
+homepage = 'http://www.hydrogen-music.org'
+
+[[package]]
+channel = 'arch'
+name = 'hydrogen'
+
+[[package]]
+channel = 'debian'
+name = 'hydrogen'
+
+[[package]]
+channel = 'fedora'
+name = 'hydrogen'

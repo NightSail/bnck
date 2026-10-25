@@ -1,0 +1,12 @@
+id = 'python3-whisper'
+name = 'python3-whisper'
+
+homepage = 'https://graphiteapp.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-whisper'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-whisper'

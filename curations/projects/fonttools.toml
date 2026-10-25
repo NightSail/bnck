@@ -1,0 +1,16 @@
+id = 'fonttools'
+name = 'fonttools'
+
+homepage = 'https://github.com/fonttools/fonttools'
+
+[[package]]
+channel = 'arch'
+name = 'python-fonttools'
+
+[[package]]
+channel = 'debian'
+name = 'fonttools'
+
+[[package]]
+channel = 'fedora'
+name = 'fonttools'

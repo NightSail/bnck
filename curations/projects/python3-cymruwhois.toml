@@ -1,0 +1,12 @@
+id = 'python3-cymruwhois'
+name = 'python3-cymruwhois'
+
+homepage = 'https://pythonhosted.org/cymruwhois'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cymruwhois'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cymruwhois'

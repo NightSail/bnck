@@ -1,0 +1,9 @@
+id = 'elixir-ls'
+name = 'elixir-ls'
+
+homepage = 'https://elixir-lsp.github.io/elixir-ls'
+repository = 'https://github.com/elixir-lsp/elixir-ls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elixir-ls'

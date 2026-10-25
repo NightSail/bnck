@@ -1,0 +1,8 @@
+id = 'pod2pandoc'
+name = 'pod2pandoc'
+
+homepage = 'https://metacpan.org/release/Pod-Pandoc'
+
+[[package]]
+channel = 'debian'
+name = 'pod2pandoc'

@@ -1,0 +1,8 @@
+id = 'textdistance'
+name = 'textdistance'
+
+homepage = 'https://github.com/life4/textdistance.rs'
+
+[[package]]
+channel = 'debian'
+name = 'textdistance'

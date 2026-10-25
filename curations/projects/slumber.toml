@@ -12,5 +12,13 @@ channel = 'crates.io'
 name = 'slumber'
 
 [[package]]
+channel = 'crates.io'
+name = 'slumber_cli'
+
+[[package]]
+channel = 'crates.io'
+name = 'slumber_tui'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/slumber'

@@ -1,0 +1,8 @@
+id = 'phyml'
+name = 'phyml'
+
+homepage = 'http://www.atgc-montpellier.fr/phyml'
+
+[[package]]
+channel = 'debian'
+name = 'phyml'

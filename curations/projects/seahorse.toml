@@ -1,0 +1,24 @@
+id = 'seahorse'
+name = 'seahorse'
+
+homepage = 'https://wiki.gnome.org/Apps/Seahorse'
+
+[[package]]
+channel = 'arch'
+name = 'seahorse'
+
+[[package]]
+channel = 'debian'
+name = 'seahorse'
+
+[[package]]
+channel = 'debian'
+name = 'seahorse-nautilus'
+
+[[package]]
+channel = 'fedora'
+name = 'seahorse'
+
+[[package]]
+channel = 'fedora'
+name = 'seahorse-nautilus'

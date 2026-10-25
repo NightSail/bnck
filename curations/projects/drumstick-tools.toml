@@ -1,0 +1,8 @@
+id = 'drumstick-tools'
+name = 'drumstick-tools'
+
+homepage = 'https://drumstick.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'drumstick-tools'

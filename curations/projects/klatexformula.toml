@@ -1,0 +1,12 @@
+id = 'klatexformula'
+name = 'klatexformula'
+
+homepage = 'https://klatexformula.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'klatexformula'
+
+[[package]]
+channel = 'fedora'
+name = 'klatexformula'

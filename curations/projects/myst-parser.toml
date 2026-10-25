@@ -1,0 +1,16 @@
+id = 'myst-parser'
+name = 'myst-parser'
+
+homepage = 'https://github.com/executablebooks/MyST-Parser'
+
+[[package]]
+channel = 'arch'
+name = 'python-myst-parser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-myst-parser'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-myst-parser'

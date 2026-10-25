@@ -1,0 +1,16 @@
+id = 'jflex'
+name = 'jflex'
+
+homepage = 'https://jflex.de'
+
+[[package]]
+channel = 'debian'
+name = 'jflex'
+
+[[package]]
+channel = 'fedora'
+name = 'jflex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jflex'

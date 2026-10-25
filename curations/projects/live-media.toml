@@ -1,0 +1,12 @@
+id = 'live-media'
+name = 'live-media'
+
+homepage = 'http://live555.com/liveMedia'
+
+[[package]]
+channel = 'arch'
+name = 'live-media'
+
+[[package]]
+channel = 'fedora'
+name = 'live555-tools'

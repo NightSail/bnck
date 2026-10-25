@@ -1,0 +1,8 @@
+id = 'perl-carmel'
+name = 'perl-Carmel'
+
+homepage = 'https://metacpan.org/dist/Carmel'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Carmel'

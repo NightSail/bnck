@@ -1,0 +1,13 @@
+id = 'ijq'
+name = 'ijq'
+
+homepage = 'https://git.sr.ht/~gpanders/ijq'
+repository = 'https://codeberg.org/gpanders/ijq.git'
+
+[[package]]
+channel = 'arch'
+name = 'ijq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ijq'

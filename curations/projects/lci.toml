@@ -5,4 +5,8 @@ repository = 'https://github.com/justinmeza/lci'
 
 [[package]]
 channel = 'homebrew'
+name = 'homebrew/core/lci'
+
+[[package]]
+channel = 'homebrew'
 name = 'homebrew/core/lolcode'

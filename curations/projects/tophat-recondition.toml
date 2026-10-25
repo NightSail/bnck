@@ -1,0 +1,8 @@
+id = 'tophat-recondition'
+name = 'tophat-recondition'
+
+homepage = 'https://github.com/cbrueffer/tophat-recondition'
+
+[[package]]
+channel = 'debian'
+name = 'tophat-recondition'

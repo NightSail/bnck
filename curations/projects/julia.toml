@@ -1,0 +1,9 @@
+id = 'julia'
+name = 'julia'
+
+homepage = 'https://julialang.org'
+repository = 'https://github.com/JuliaLang/julia.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/julia'

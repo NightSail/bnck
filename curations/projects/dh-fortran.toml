@@ -1,0 +1,6 @@
+id = 'dh-fortran'
+name = 'dh-fortran'
+
+[[package]]
+channel = 'debian'
+name = 'dh-fortran'

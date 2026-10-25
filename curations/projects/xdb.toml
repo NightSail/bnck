@@ -1,0 +1,12 @@
+id = 'xdb'
+name = 'xdb'
+
+homepage = 'http://linux.techass.com/projects/xdb'
+
+[[package]]
+channel = 'fedora'
+name = 'xbase-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'xbase-utils'

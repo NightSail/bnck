@@ -1,0 +1,12 @@
+id = 'tuigreet'
+name = 'tuigreet'
+
+homepage = 'https://github.com/apognu/tuigreet'
+
+[[package]]
+channel = 'debian'
+name = 'tuigreet'
+
+[[package]]
+channel = 'fedora'
+name = 'tuigreet'

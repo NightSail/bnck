@@ -1,0 +1,20 @@
+id = 'hylafax'
+name = 'hylafax'
+
+homepage = 'http://www.hylafax.org'
+
+[[package]]
+channel = 'debian'
+name = 'hylafax-client'
+
+[[package]]
+channel = 'debian'
+name = 'hylafax-server'
+
+[[package]]
+channel = 'fedora'
+name = 'hylafax+'
+
+[[package]]
+channel = 'fedora'
+name = 'hylafax+-client'

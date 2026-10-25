@@ -1,0 +1,8 @@
+id = 'dxvk'
+name = 'dxvk'
+
+homepage = 'https://github.com/doitsujin/dxvk'
+
+[[package]]
+channel = 'debian'
+name = 'dxvk'

@@ -1,0 +1,16 @@
+id = 'falconframework'
+name = 'falconframework'
+
+homepage = 'https://falconframework.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-falcon'
+
+[[package]]
+channel = 'debian'
+name = 'python3-falcon'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-falcon'

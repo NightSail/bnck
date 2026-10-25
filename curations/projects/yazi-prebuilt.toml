@@ -1,0 +1,9 @@
+id = 'yazi-prebuilt'
+name = 'yazi-prebuilt'
+
+homepage = 'https://github.com/sxyazi/yazi'
+repository = 'https://github.com/yazi-rs/prebuilt'
+
+[[package]]
+channel = 'crates.io'
+name = 'yazi-prebuilt'

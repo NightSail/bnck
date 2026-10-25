@@ -1,0 +1,8 @@
+id = 'python3-wakeonlan'
+name = 'python3-wakeonlan'
+
+homepage = 'https://github.com/remcohaszing/pywakeonlan'
+
+[[package]]
+channel = 'debian'
+name = 'python3-wakeonlan'

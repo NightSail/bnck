@@ -1,0 +1,8 @@
+id = 'python-hachoir'
+name = 'python-hachoir'
+
+homepage = 'https://hachoir.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-hachoir'

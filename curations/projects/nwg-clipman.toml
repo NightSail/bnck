@@ -1,0 +1,12 @@
+id = 'nwg-clipman'
+name = 'nwg-clipman'
+
+homepage = 'https://github.com/nwg-piotr/nwg-clipman'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-clipman'
+
+[[package]]
+channel = 'debian'
+name = 'nwg-clipman'

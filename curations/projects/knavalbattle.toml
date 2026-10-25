@@ -1,0 +1,12 @@
+id = 'knavalbattle'
+name = 'knavalbattle'
+
+homepage = 'https://apps.kde.org/knavalbattle'
+
+[[package]]
+channel = 'arch'
+name = 'knavalbattle'
+
+[[package]]
+channel = 'fedora'
+name = 'knavalbattle'

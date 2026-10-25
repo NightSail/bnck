@@ -1,0 +1,12 @@
+id = 'recoverjpeg'
+name = 'recoverjpeg'
+
+homepage = 'https://rfc1149.net/devel/recoverjpeg.html'
+
+[[package]]
+channel = 'debian'
+name = 'recoverjpeg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recoverjpeg'

@@ -1,0 +1,8 @@
+id = 'snippy'
+name = 'snippy'
+
+homepage = 'https://github.com/tseemann/snippy'
+
+[[package]]
+channel = 'debian'
+name = 'snippy'

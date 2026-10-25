@@ -1,0 +1,8 @@
+id = 'clamfs'
+name = 'clamfs'
+
+homepage = 'https://github.com/burghardt/clamfs'
+
+[[package]]
+channel = 'debian'
+name = 'clamfs'

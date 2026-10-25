@@ -1,0 +1,8 @@
+id = 'qla-tools'
+name = 'qla-tools'
+
+homepage = 'http://driverdownloads.qlogic.com'
+
+[[package]]
+channel = 'debian'
+name = 'qla-tools'

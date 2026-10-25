@@ -1,0 +1,21 @@
+id = 'httping'
+name = 'httping'
+
+homepage = 'https://www.vanheusden.com/httping'
+repository = 'https://github.com/folkertvanheusden/HTTPing.git'
+
+[[package]]
+channel = 'arch'
+name = 'httping'
+
+[[package]]
+channel = 'debian'
+name = 'httping'
+
+[[package]]
+channel = 'fedora'
+name = 'httping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httping'

@@ -1,0 +1,8 @@
+id = 'hostsed'
+name = 'hostsed'
+
+homepage = 'https://github.com/socrateslee/hostsed'
+
+[[package]]
+channel = 'debian'
+name = 'hostsed'

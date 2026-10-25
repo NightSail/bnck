@@ -1,0 +1,12 @@
+id = 'perl-critic'
+name = 'Perl-Critic'
+
+homepage = 'https://metacpan.org/release/Perl-Critic'
+
+[[package]]
+channel = 'debian'
+name = 'libperl-critic-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-Critic'

@@ -1,0 +1,12 @@
+id = 'afew'
+name = 'afew'
+
+homepage = 'https://github.com/afewmail/afew'
+
+[[package]]
+channel = 'arch'
+name = 'afew'
+
+[[package]]
+channel = 'debian'
+name = 'afew'

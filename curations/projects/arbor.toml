@@ -1,0 +1,8 @@
+id = 'arbor'
+name = 'arbor'
+
+homepage = 'https://github.com/arbor-sim/arbor'
+
+[[package]]
+channel = 'fedora'
+name = 'arbor'

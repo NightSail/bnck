@@ -1,0 +1,8 @@
+id = 'imaptest'
+name = 'imaptest'
+
+homepage = 'https://dovecot.github.io/imaptest'
+
+[[package]]
+channel = 'fedora'
+name = 'imaptest'

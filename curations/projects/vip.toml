@@ -1,0 +1,8 @@
+id = 'vip'
+name = 'vip'
+
+homepage = 'https://users.cs.duke.edu/~des/vip.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vip'

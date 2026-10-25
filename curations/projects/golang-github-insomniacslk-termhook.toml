@@ -1,0 +1,8 @@
+id = 'golang-github-insomniacslk-termhook'
+name = 'golang-github-insomniacslk-termhook'
+
+homepage = 'https://github.com/insomniacslk/termhook'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-insomniacslk-termhook'

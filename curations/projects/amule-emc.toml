@@ -1,0 +1,8 @@
+id = 'amule-emc'
+name = 'amule-emc'
+
+homepage = 'https://github.com/palopezv/amule-emc'
+
+[[package]]
+channel = 'debian'
+name = 'amule-emc'

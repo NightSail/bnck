@@ -1,0 +1,8 @@
+id = 'pika-backup'
+name = 'pika-backup'
+
+homepage = 'https://apps.gnome.org/PikaBackup'
+
+[[package]]
+channel = 'arch'
+name = 'pika-backup'

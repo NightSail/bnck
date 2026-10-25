@@ -1,0 +1,8 @@
+id = 'librespeed-cli'
+name = 'librespeed-cli'
+
+homepage = 'https://github.com/librespeed/speedtest-cli'
+
+[[package]]
+channel = 'debian'
+name = 'librespeed-cli'

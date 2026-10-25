@@ -1,0 +1,16 @@
+id = 'charliecloud'
+name = 'charliecloud'
+
+homepage = 'https://charliecloud.io/v0.40'
+
+[[package]]
+channel = 'fedora'
+name = 'charliecloud'
+
+[[package]]
+channel = 'fedora'
+name = 'charliecloud-image'
+
+[[package]]
+channel = 'fedora'
+name = 'charliecloud-test'

@@ -1,0 +1,8 @@
+id = 'bandcamp-dl'
+name = 'bandcamp-dl'
+
+repository = 'https://github.com/evolution0/bandcamp-dl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bandcamp-dl'

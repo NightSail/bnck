@@ -1,0 +1,24 @@
+id = 'awf-extended'
+name = 'awf-extended'
+
+homepage = 'https://github.com/luigifab/awf-extended'
+
+[[package]]
+channel = 'debian'
+name = 'awf-gtk3'
+
+[[package]]
+channel = 'debian'
+name = 'awf-gtk4'
+
+[[package]]
+channel = 'fedora'
+name = 'awf-gtk2'
+
+[[package]]
+channel = 'fedora'
+name = 'awf-gtk3'
+
+[[package]]
+channel = 'fedora'
+name = 'awf-gtk4'

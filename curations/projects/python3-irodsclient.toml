@@ -1,0 +1,8 @@
+id = 'python3-irodsclient'
+name = 'python3-irodsclient'
+
+homepage = 'https://github.com/irods/python-irodsclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-irodsclient'

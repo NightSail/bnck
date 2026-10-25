@@ -1,0 +1,20 @@
+id = 'fop'
+name = 'fop'
+
+homepage = 'https://xmlgraphics.apache.org/fop/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'fop'
+
+[[package]]
+channel = 'debian'
+name = 'fop'
+
+[[package]]
+channel = 'fedora'
+name = 'fop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fop'

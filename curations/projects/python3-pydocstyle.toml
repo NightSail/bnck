@@ -1,0 +1,8 @@
+id = 'python3-pydocstyle'
+name = 'python3-pydocstyle'
+
+homepage = 'https://github.com/PyCQA/pydocstyle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pydocstyle'

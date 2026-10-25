@@ -1,0 +1,12 @@
+id = 'zaz'
+name = 'zaz'
+
+homepage = 'http://sourceforge.net/projects/zaz'
+
+[[package]]
+channel = 'arch'
+name = 'zaz'
+
+[[package]]
+channel = 'fedora'
+name = 'zaz'

@@ -1,0 +1,12 @@
+id = 'fluidsynth'
+name = 'fluidsynth'
+
+homepage = 'https://www.fluidsynth.org'
+
+[[package]]
+channel = 'arch'
+name = 'fluidsynth'
+
+[[package]]
+channel = 'fedora'
+name = 'fluidsynth'

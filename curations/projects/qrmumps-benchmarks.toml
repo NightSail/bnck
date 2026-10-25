@@ -1,0 +1,8 @@
+id = 'qrmumps-benchmarks'
+name = 'qrmumps-benchmarks'
+
+homepage = 'http://buttari.perso.enseeiht.fr/qr_mumps'
+
+[[package]]
+channel = 'fedora'
+name = 'qrmumps-benchmarks'

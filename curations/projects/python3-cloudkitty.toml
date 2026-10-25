@@ -1,0 +1,8 @@
+id = 'python3-cloudkitty'
+name = 'python3-cloudkitty'
+
+homepage = 'https://github.com/openstack/cloudkitty'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cloudkitty'

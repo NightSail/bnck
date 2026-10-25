@@ -1,0 +1,12 @@
+id = 'garli'
+name = 'garli'
+
+homepage = 'https://github.com/Ashod/garli'
+
+[[package]]
+channel = 'debian'
+name = 'garli'
+
+[[package]]
+channel = 'debian'
+name = 'garli-mpi'

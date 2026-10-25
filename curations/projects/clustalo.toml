@@ -1,0 +1,8 @@
+id = 'clustalo'
+name = 'clustalo'
+
+homepage = 'http://www.clustal.org/omega'
+
+[[package]]
+channel = 'debian'
+name = 'clustalo'

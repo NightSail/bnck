@@ -1,0 +1,8 @@
+id = 'tftp-proxy'
+name = 'tftp-proxy'
+
+homepage = 'https://github.com/openfibernet/tftp-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'tftp-proxy'

@@ -1,0 +1,8 @@
+id = 'fedfind'
+name = 'fedfind'
+
+homepage = 'https://pagure.io/fedora-qa/fedfind'
+
+[[package]]
+channel = 'fedora'
+name = 'fedfind'

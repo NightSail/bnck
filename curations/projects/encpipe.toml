@@ -1,0 +1,8 @@
+id = 'encpipe'
+name = 'encpipe'
+
+homepage = 'https://github.com/jedisct1/encpipe'
+
+[[package]]
+channel = 'arch'
+name = 'encpipe'

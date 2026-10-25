@@ -1,0 +1,8 @@
+id = 'go-fdo-client'
+name = 'go-fdo-client'
+
+homepage = 'https://github.com/fido-device-onboard/go-fdo-client'
+
+[[package]]
+channel = 'fedora'
+name = 'go-fdo-client'

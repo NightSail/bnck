@@ -1,0 +1,8 @@
+id = 'kakoune-lsp'
+name = 'kakoune-lsp'
+
+homepage = 'https://github.com/kakoune-lsp/kakoune-lsp'
+
+[[package]]
+channel = 'arch'
+name = 'kakoune-lsp'

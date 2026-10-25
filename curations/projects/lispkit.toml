@@ -1,0 +1,8 @@
+id = 'lispkit'
+name = 'lispkit'
+
+homepage = 'https://lisppad.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lispkit'

@@ -1,0 +1,8 @@
+id = 'vulsio-gost'
+name = 'vulsio-gost'
+
+homepage = 'https://github.com/vulsio/gost'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vulsio-gost'

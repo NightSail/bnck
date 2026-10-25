@@ -1,0 +1,8 @@
+id = 'nodejs-nopt'
+name = 'nodejs-nopt'
+
+homepage = 'https://github.com/npm/nopt'
+
+[[package]]
+channel = 'arch'
+name = 'nodejs-nopt'

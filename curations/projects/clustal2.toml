@@ -1,0 +1,12 @@
+id = 'clustal2'
+name = 'clustal2'
+
+homepage = 'http://www.clustal.org/clustal2'
+
+[[package]]
+channel = 'debian'
+name = 'clustalw'
+
+[[package]]
+channel = 'debian'
+name = 'clustalx'

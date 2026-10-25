@@ -1,0 +1,8 @@
+id = 'perl-image-exiftool'
+name = 'perl-Image-ExifTool'
+
+homepage = 'http://www.sno.phy.queensu.ca/%7Ephil/exiftool'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Image-ExifTool'

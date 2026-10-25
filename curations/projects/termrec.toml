@@ -1,0 +1,13 @@
+id = 'termrec'
+name = 'termrec'
+
+homepage = 'https://angband.pl/termrec.html'
+repository = 'https://github.com/kilobyte/termrec.git'
+
+[[package]]
+channel = 'debian'
+name = 'termrec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termrec'

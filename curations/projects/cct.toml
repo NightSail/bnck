@@ -1,0 +1,8 @@
+id = 'cct'
+name = 'cct'
+
+homepage = 'http://stothard.afns.ualberta.ca/downloads/CCT'
+
+[[package]]
+channel = 'debian'
+name = 'cct'

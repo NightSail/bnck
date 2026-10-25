@@ -1,0 +1,10 @@
+id = 'evolver'
+name = 'evolver'
+
+[[package]]
+channel = 'debian'
+name = 'evolver-nox'
+
+[[package]]
+channel = 'debian'
+name = 'evolver-ogl'

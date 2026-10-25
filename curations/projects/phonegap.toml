@@ -1,0 +1,8 @@
+id = 'phonegap'
+name = 'phonegap'
+
+homepage = 'https://github.com/phonegap/phonegap-cli'
+
+[[package]]
+channel = 'arch'
+name = 'phonegap'

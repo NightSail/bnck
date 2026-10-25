@@ -1,0 +1,9 @@
+id = 'aqtinstall'
+name = 'aqtinstall'
+
+homepage = 'https://aqtinstall.readthedocs.io/en/latest'
+repository = 'https://github.com/miurahr/aqtinstall.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aqtinstall'

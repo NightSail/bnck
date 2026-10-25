@@ -1,0 +1,8 @@
+id = 'foxglove-cli'
+name = 'foxglove-cli'
+
+repository = 'https://github.com/foxglove/foxglove-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/foxglove-cli'

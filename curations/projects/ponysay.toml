@@ -1,0 +1,12 @@
+id = 'ponysay'
+name = 'ponysay'
+
+repository = 'https://github.com/erkin/ponysay.git'
+
+[[package]]
+channel = 'arch'
+name = 'ponysay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ponysay'

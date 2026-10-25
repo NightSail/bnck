@@ -1,0 +1,8 @@
+id = 'dosage'
+name = 'dosage'
+
+homepage = 'https://dosage.rocks'
+
+[[package]]
+channel = 'debian'
+name = 'dosage'

@@ -1,0 +1,12 @@
+id = 'icmake'
+name = 'icmake'
+
+homepage = 'https://fbb-git.gitlab.io/icmake'
+
+[[package]]
+channel = 'arch'
+name = 'icmake'
+
+[[package]]
+channel = 'debian'
+name = 'icmake'

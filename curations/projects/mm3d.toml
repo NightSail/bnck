@@ -1,0 +1,12 @@
+id = 'mm3d'
+name = 'mm3d'
+
+homepage = 'https://clover.moe/mm3d'
+
+[[package]]
+channel = 'debian'
+name = 'mm3d'
+
+[[package]]
+channel = 'fedora'
+name = 'mm3d'

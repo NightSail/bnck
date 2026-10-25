@@ -1,0 +1,8 @@
+id = 'libgulkan-utils'
+name = 'libgulkan-utils'
+
+homepage = 'https://gitlab.freedesktop.org/xrdesktop/gulkan'
+
+[[package]]
+channel = 'debian'
+name = 'libgulkan-utils'

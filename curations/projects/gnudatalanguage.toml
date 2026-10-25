@@ -1,0 +1,8 @@
+id = 'gnudatalanguage'
+name = 'gnudatalanguage'
+
+homepage = 'https://github.com/gnudatalanguage/gdl'
+
+[[package]]
+channel = 'debian'
+name = 'gnudatalanguage'

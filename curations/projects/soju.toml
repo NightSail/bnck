@@ -1,0 +1,16 @@
+id = 'soju'
+name = 'soju'
+
+homepage = 'https://soju.im'
+
+[[package]]
+channel = 'arch'
+name = 'soju'
+
+[[package]]
+channel = 'debian'
+name = 'soju'
+
+[[package]]
+channel = 'debian'
+name = 'soju-utils'

@@ -1,0 +1,8 @@
+id = 'activemq-cpp'
+name = 'activemq-cpp'
+
+homepage = 'https://activemq.apache.org/components/cms'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/activemq-cpp'

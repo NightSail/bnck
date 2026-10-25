@@ -1,0 +1,8 @@
+id = 'twclock'
+name = 'twclock'
+
+homepage = 'http://wa0eir.bcts.info/twclock.html'
+
+[[package]]
+channel = 'debian'
+name = 'twclock'

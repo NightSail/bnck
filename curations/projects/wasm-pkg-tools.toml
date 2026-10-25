@@ -1,0 +1,8 @@
+id = 'wasm-pkg-tools'
+name = 'wasm-pkg-tools'
+
+homepage = 'https://github.com/bytecodealliance/wasm-pkg-tools'
+
+[[package]]
+channel = 'arch'
+name = 'wasm-pkg-tools'

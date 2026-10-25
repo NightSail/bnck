@@ -1,0 +1,8 @@
+id = 'node-jasmine'
+name = 'node-jasmine'
+
+homepage = 'https://jasmine.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'node-jasmine'

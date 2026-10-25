@@ -1,0 +1,8 @@
+id = 'halloy'
+name = 'halloy'
+
+homepage = 'https://halloy.chat'
+
+[[package]]
+channel = 'arch'
+name = 'halloy'

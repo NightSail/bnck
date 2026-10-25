@@ -1,0 +1,12 @@
+id = 'freeplane'
+name = 'freeplane'
+
+homepage = 'http://freeplane.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'freeplane'
+
+[[package]]
+channel = 'debian'
+name = 'freeplane'

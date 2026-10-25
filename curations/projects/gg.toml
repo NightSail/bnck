@@ -1,0 +1,8 @@
+id = 'gg'
+name = 'gg'
+
+homepage = 'https://github.com/gulbanana/gg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gg'

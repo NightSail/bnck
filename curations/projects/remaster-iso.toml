@@ -1,0 +1,8 @@
+id = 'remaster-iso'
+name = 'remaster-iso'
+
+homepage = 'https://github.com/unixabg/remaster-iso'
+
+[[package]]
+channel = 'debian'
+name = 'remaster-iso'

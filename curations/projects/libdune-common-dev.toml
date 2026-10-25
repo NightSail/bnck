@@ -1,0 +1,8 @@
+id = 'libdune-common-dev'
+name = 'libdune-common-dev'
+
+homepage = 'https://www.dune-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'libdune-common-dev'

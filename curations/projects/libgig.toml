@@ -1,0 +1,16 @@
+id = 'libgig'
+name = 'libgig'
+
+homepage = 'https://www.linuxsampler.org/libgig'
+
+[[package]]
+channel = 'arch'
+name = 'libgig'
+
+[[package]]
+channel = 'debian'
+name = 'gigtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgig'

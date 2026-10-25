@@ -1,0 +1,8 @@
+id = 'porcupine'
+name = 'porcupine'
+
+homepage = 'https://github.com/micahflee/porcupine'
+
+[[package]]
+channel = 'fedora'
+name = 'porcupine'

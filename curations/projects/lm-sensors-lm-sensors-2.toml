@@ -1,0 +1,8 @@
+id = 'lm-sensors-lm-sensors-2'
+name = 'lm_sensors'
+
+homepage = 'https://hwmon.wiki.kernel.org/lm_sensors'
+
+[[package]]
+channel = 'arch'
+name = 'lm_sensors'

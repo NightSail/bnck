@@ -1,0 +1,8 @@
+id = 'check-jsonschema-python-jsonschema'
+name = 'check-jsonschema'
+
+repository = 'https://github.com/python-jsonschema/check-jsonschema.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/check-jsonschema'

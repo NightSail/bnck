@@ -1,0 +1,6 @@
+id = 'mdp-mdp'
+name = 'mdp'
+
+[[package]]
+channel = 'crates.io'
+name = 'mdp'

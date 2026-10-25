@@ -1,0 +1,10 @@
+id = 'mklibs'
+name = 'mklibs'
+
+[[package]]
+channel = 'debian'
+name = 'mklibs'
+
+[[package]]
+channel = 'debian'
+name = 'mklibs-copy'

@@ -1,0 +1,8 @@
+id = 'xrgears'
+name = 'xrgears'
+
+homepage = 'https://gitlab.freedesktop.org/monado/demos/xrgears'
+
+[[package]]
+channel = 'fedora'
+name = 'xrgears'

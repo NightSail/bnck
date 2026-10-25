@@ -1,0 +1,8 @@
+id = 'dwarves'
+name = 'dwarves'
+
+homepage = 'http://acmel.wordpress.com'
+
+[[package]]
+channel = 'fedora'
+name = 'dwarves'

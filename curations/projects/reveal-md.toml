@@ -1,0 +1,8 @@
+id = 'reveal-md'
+name = 'reveal-md'
+
+homepage = 'https://github.com/webpro/reveal-md'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reveal-md'

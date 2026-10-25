@@ -1,0 +1,12 @@
+id = 'prerex'
+name = 'prerex'
+
+homepage = 'http://www.ctan.org/tex-archive/graphics/prerex'
+
+[[package]]
+channel = 'debian'
+name = 'prerex'
+
+[[package]]
+channel = 'debian'
+name = 'vprerex'

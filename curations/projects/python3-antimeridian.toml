@@ -1,0 +1,8 @@
+id = 'python3-antimeridian'
+name = 'python3-antimeridian'
+
+homepage = 'https://github.com/gadomski/antimeridian'
+
+[[package]]
+channel = 'debian'
+name = 'python3-antimeridian'

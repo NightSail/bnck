@@ -1,0 +1,8 @@
+id = 'wig'
+name = 'wig'
+
+homepage = 'https://github.com/jekyc/wig'
+
+[[package]]
+channel = 'debian'
+name = 'wig'

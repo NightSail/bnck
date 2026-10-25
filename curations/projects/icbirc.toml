@@ -1,0 +1,8 @@
+id = 'icbirc'
+name = 'icbirc'
+
+homepage = 'https://www.benzedrine.ch/icbirc.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icbirc'

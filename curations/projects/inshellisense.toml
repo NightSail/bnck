@@ -1,0 +1,8 @@
+id = 'inshellisense'
+name = 'inshellisense'
+
+homepage = 'https://github.com/microsoft/inshellisense'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inshellisense'

@@ -1,0 +1,12 @@
+id = 'atomes'
+name = 'atomes'
+
+homepage = 'https://atomes.ipcms.fr'
+
+[[package]]
+channel = 'debian'
+name = 'atomes'
+
+[[package]]
+channel = 'fedora'
+name = 'atomes'

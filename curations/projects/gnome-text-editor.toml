@@ -1,0 +1,16 @@
+id = 'gnome-text-editor'
+name = 'gnome-text-editor'
+
+homepage = 'https://apps.gnome.org/TextEditor'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-text-editor'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-text-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-text-editor'

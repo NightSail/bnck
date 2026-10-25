@@ -1,0 +1,12 @@
+id = 'fusion-icon'
+name = 'fusion-icon'
+
+homepage = 'https://gitlab.com/compiz/fusion-icon'
+
+[[package]]
+channel = 'debian'
+name = 'fusion-icon'
+
+[[package]]
+channel = 'fedora'
+name = 'fusion-icon'

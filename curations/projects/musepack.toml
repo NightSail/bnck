@@ -1,0 +1,28 @@
+id = 'musepack'
+name = 'musepack'
+
+homepage = 'https://www.musepack.net'
+
+[[package]]
+channel = 'arch'
+name = 'musepack-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mppenc'
+
+[[package]]
+channel = 'debian'
+name = 'musepack-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mppenc'
+
+[[package]]
+channel = 'fedora'
+name = 'musepack-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/musepack'

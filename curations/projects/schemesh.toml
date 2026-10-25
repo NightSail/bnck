@@ -1,0 +1,8 @@
+id = 'schemesh'
+name = 'schemesh'
+
+homepage = 'https://github.com/cosmos72/schemesh'
+
+[[package]]
+channel = 'fedora'
+name = 'schemesh'

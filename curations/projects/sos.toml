@@ -1,0 +1,16 @@
+id = 'sos'
+name = 'sos'
+
+homepage = 'https://github.com/sosreport/sos'
+
+[[package]]
+channel = 'debian'
+name = 'sos'
+
+[[package]]
+channel = 'debian'
+name = 'sosreport'
+
+[[package]]
+channel = 'fedora'
+name = 'sos'

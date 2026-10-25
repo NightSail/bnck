@@ -1,0 +1,8 @@
+id = 'memstomp'
+name = 'memstomp'
+
+homepage = 'git://fedorapeople.org/home/fedora/wcohen/public_git/memstomp'
+
+[[package]]
+channel = 'fedora'
+name = 'memstomp'

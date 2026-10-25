@@ -1,0 +1,12 @@
+id = 'dumb-init'
+name = 'dumb-init'
+
+homepage = 'https://github.com/Yelp/dumb-init'
+
+[[package]]
+channel = 'debian'
+name = 'dumb-init'
+
+[[package]]
+channel = 'fedora'
+name = 'dumb-init'

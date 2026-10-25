@@ -1,0 +1,36 @@
+id = 'apr'
+name = 'apr'
+
+homepage = 'https://apr.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'apr'
+
+[[package]]
+channel = 'arch'
+name = 'apr-util'
+
+[[package]]
+channel = 'debian'
+name = 'libapr1-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libaprutil1-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'apr-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'apr-util-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apr-util'

@@ -1,0 +1,8 @@
+id = 'perl-html-formfu'
+name = 'perl-HTML-FormFu'
+
+homepage = 'https://metacpan.org/release/HTML-FormFu'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-FormFu'

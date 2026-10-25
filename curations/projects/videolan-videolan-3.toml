@@ -1,0 +1,20 @@
+id = 'videolan-videolan-3'
+name = 'videolan'
+
+homepage = 'https://www.videolan.org'
+
+[[package]]
+channel = 'fedora'
+name = 'vlc-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'vlc-gui-ncurses'
+
+[[package]]
+channel = 'fedora'
+name = 'vlc-gui-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'vlc-gui-skins2'

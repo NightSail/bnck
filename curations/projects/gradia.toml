@@ -1,0 +1,12 @@
+id = 'gradia'
+name = 'gradia'
+
+homepage = 'https://apps.gnome.org/Gradia'
+
+[[package]]
+channel = 'arch'
+name = 'gradia'
+
+[[package]]
+channel = 'debian'
+name = 'gradia'

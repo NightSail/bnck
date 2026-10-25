@@ -1,0 +1,20 @@
+id = 'libtasn1'
+name = 'libtasn1'
+
+homepage = 'https://www.gnu.org/software/libtasn1'
+
+[[package]]
+channel = 'arch'
+name = 'libtasn1'
+
+[[package]]
+channel = 'debian'
+name = 'libtasn1-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libtasn1-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libtasn1'

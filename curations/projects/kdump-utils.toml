@@ -1,0 +1,8 @@
+id = 'kdump-utils'
+name = 'kdump-utils'
+
+homepage = 'https://github.com/rhkdump/kdump-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'kdump-utils'

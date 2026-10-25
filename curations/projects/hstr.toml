@@ -10,3 +10,7 @@ name = 'hstr'
 [[package]]
 channel = 'fedora'
 name = 'hstr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hstr'

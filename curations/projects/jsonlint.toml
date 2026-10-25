@@ -1,0 +1,12 @@
+id = 'jsonlint'
+name = 'jsonlint'
+
+homepage = 'https://github.com/zaach/jsonlint'
+
+[[package]]
+channel = 'debian'
+name = 'jsonlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsonlint'

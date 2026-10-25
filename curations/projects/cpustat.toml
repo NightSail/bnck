@@ -1,0 +1,8 @@
+id = 'cpustat'
+name = 'cpustat'
+
+homepage = 'https://github.com/ColinIanKing/cpustat'
+
+[[package]]
+channel = 'debian'
+name = 'cpustat'

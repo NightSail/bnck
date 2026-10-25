@@ -1,0 +1,16 @@
+id = 'libqb'
+name = 'libqb'
+
+homepage = 'https://github.com/ClusterLabs/libqb'
+
+[[package]]
+channel = 'arch'
+name = 'libqb'
+
+[[package]]
+channel = 'fedora'
+name = 'doxygen2man'
+
+[[package]]
+channel = 'fedora'
+name = 'libqb'

@@ -1,0 +1,8 @@
+id = 'kremotecontrol'
+name = 'kremotecontrol'
+
+homepage = 'http://utils.kde.org/projects/kremotecontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'kremotecontrol'

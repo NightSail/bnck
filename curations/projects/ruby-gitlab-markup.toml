@@ -1,0 +1,8 @@
+id = 'ruby-gitlab-markup'
+name = 'ruby-gitlab-markup'
+
+homepage = 'https://gitlab.com/gitlab-org/gitlab-markup'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-gitlab-markup'

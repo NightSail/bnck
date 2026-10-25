@@ -1,0 +1,20 @@
+id = 'libteam'
+name = 'libteam'
+
+homepage = 'https://libteam.org'
+
+[[package]]
+channel = 'arch'
+name = 'libteam'
+
+[[package]]
+channel = 'debian'
+name = 'libteam-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libteam'
+
+[[package]]
+channel = 'fedora'
+name = 'teamd'

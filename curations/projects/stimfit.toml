@@ -1,0 +1,8 @@
+id = 'stimfit'
+name = 'stimfit'
+
+homepage = 'http://www.stimfit.org'
+
+[[package]]
+channel = 'debian'
+name = 'stimfit'

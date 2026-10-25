@@ -1,0 +1,9 @@
+id = 'notify'
+name = 'notify'
+
+homepage = 'https://docs.projectdiscovery.io/tools/notify/overview'
+repository = 'https://github.com/projectdiscovery/notify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notify'

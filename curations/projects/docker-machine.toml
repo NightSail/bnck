@@ -1,0 +1,13 @@
+id = 'docker-machine'
+name = 'docker-machine'
+
+homepage = 'https://github.com/docker/machine'
+repository = 'https://gitlab.com/gitlab-org/ci-cd/docker-machine.git'
+
+[[package]]
+channel = 'arch'
+name = 'docker-machine'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-machine'

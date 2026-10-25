@@ -1,0 +1,8 @@
+id = 'nagios-nagios-core'
+name = 'nagios'
+
+homepage = 'https://www.nagios.org/projects/nagios-core'
+
+[[package]]
+channel = 'fedora'
+name = 'nagios'

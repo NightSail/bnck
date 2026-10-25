@@ -1,0 +1,20 @@
+id = 'castxml'
+name = 'castxml'
+
+repository = 'https://github.com/CastXML/castxml.git'
+
+[[package]]
+channel = 'arch'
+name = 'castxml'
+
+[[package]]
+channel = 'debian'
+name = 'castxml'
+
+[[package]]
+channel = 'fedora'
+name = 'castxml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/castxml'

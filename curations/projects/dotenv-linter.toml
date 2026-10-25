@@ -1,0 +1,13 @@
+id = 'dotenv-linter'
+name = 'dotenv-linter'
+
+homepage = 'https://dotenv-linter.github.io'
+repository = 'https://github.com/dotenv-linter/dotenv-linter.git'
+
+[[package]]
+channel = 'debian'
+name = 'dotenv-linter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotenv-linter'

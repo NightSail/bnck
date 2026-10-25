@@ -1,0 +1,8 @@
+id = 'etktab'
+name = 'etktab'
+
+homepage = 'https://etktab.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'etktab'

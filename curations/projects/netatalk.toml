@@ -1,0 +1,34 @@
+id = 'netatalk'
+name = 'netatalk'
+
+[[package]]
+channel = 'debian'
+name = 'a2boot'
+
+[[package]]
+channel = 'debian'
+name = 'atalkd'
+
+[[package]]
+channel = 'debian'
+name = 'macipgw'
+
+[[package]]
+channel = 'debian'
+name = 'netatalk'
+
+[[package]]
+channel = 'debian'
+name = 'netatalk-tests'
+
+[[package]]
+channel = 'debian'
+name = 'netatalk-tools'
+
+[[package]]
+channel = 'debian'
+name = 'papd'
+
+[[package]]
+channel = 'debian'
+name = 'timelord'

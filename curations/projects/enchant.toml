@@ -1,0 +1,8 @@
+id = 'enchant'
+name = 'enchant'
+
+homepage = 'http://www.abisource.com'
+
+[[package]]
+channel = 'fedora'
+name = 'enchant'

@@ -1,0 +1,8 @@
+id = 'pgstream'
+name = 'pgstream'
+
+homepage = 'https://github.com/xataio/pgstream'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgstream'

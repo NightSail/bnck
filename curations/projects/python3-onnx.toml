@@ -1,0 +1,8 @@
+id = 'python3-onnx'
+name = 'python3-onnx'
+
+homepage = 'https://github.com/onnx/onnx'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-onnx'

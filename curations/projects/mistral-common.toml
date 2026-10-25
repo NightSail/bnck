@@ -1,0 +1,8 @@
+id = 'mistral-common'
+name = 'mistral-common'
+
+homepage = 'https://github.com/openstack/mistral'
+
+[[package]]
+channel = 'debian'
+name = 'mistral-common'

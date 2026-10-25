@@ -1,0 +1,8 @@
+id = 'wf'
+name = 'wf'
+
+homepage = 'http://www.async.com.br/~marcelo/wf'
+
+[[package]]
+channel = 'fedora'
+name = 'wf'

@@ -4,6 +4,10 @@ name = 'par2cmdline'
 homepage = 'https://github.com/Parchive/par2cmdline'
 
 [[package]]
+channel = 'arch'
+name = 'par2cmdline'
+
+[[package]]
 channel = 'debian'
 name = 'par2'
 

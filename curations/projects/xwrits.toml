@@ -1,0 +1,8 @@
+id = 'xwrits'
+name = 'xwrits'
+
+homepage = 'https://www.lcdf.org/~eddietwo/xwrits'
+
+[[package]]
+channel = 'debian'
+name = 'xwrits'

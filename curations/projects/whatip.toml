@@ -1,0 +1,8 @@
+id = 'whatip'
+name = 'whatip'
+
+homepage = 'https://gitlab.gnome.org/GabMus/whatip'
+
+[[package]]
+channel = 'fedora'
+name = 'whatip'

@@ -1,0 +1,12 @@
+id = 'firewalk'
+name = 'firewalk'
+
+homepage = 'http://packetfactory.openwall.net/projects/firewalk'
+
+[[package]]
+channel = 'debian'
+name = 'firewalk'
+
+[[package]]
+channel = 'fedora'
+name = 'firewalk'

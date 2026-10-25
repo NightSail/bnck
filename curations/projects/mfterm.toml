@@ -1,0 +1,8 @@
+id = 'mfterm'
+name = 'mfterm'
+
+repository = 'https://github.com/4ZM/mfterm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mfterm'

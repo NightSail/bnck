@@ -1,0 +1,8 @@
+id = 'kylin-virtual-keyboard'
+name = 'kylin-virtual-keyboard'
+
+homepage = 'https://gitee.com/openkylin/kylin-virtual-keyboard'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-virtual-keyboard'

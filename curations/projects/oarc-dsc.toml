@@ -1,0 +1,8 @@
+id = 'oarc-dsc'
+name = 'oarc-dsc'
+
+homepage = 'https://codeberg.org/DNS-OARC/dsc'
+
+[[package]]
+channel = 'debian'
+name = 'oarc-dsc'

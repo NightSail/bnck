@@ -1,0 +1,12 @@
+id = 'pkginfo'
+name = 'pkginfo'
+
+homepage = 'https://pypi.python.org/pypi/pkginfo'
+
+[[package]]
+channel = 'arch'
+name = 'python-pkginfo'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pkginfo'

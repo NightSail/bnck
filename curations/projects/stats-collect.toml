@@ -1,0 +1,8 @@
+id = 'stats-collect'
+name = 'stats-collect'
+
+homepage = 'https://github.com/intel/stats-collect'
+
+[[package]]
+channel = 'fedora'
+name = 'stats-collect'

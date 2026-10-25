@@ -1,0 +1,12 @@
+id = 'regionset'
+name = 'regionset'
+
+homepage = 'http://linvdr.org/projects/regionset'
+
+[[package]]
+channel = 'debian'
+name = 'regionset'
+
+[[package]]
+channel = 'fedora'
+name = 'regionset'

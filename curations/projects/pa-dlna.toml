@@ -1,0 +1,8 @@
+id = 'pa-dlna'
+name = 'pa-dlna'
+
+homepage = 'https://gitlab.com/xdegaye/pa-dlna'
+
+[[package]]
+channel = 'debian'
+name = 'pa-dlna'

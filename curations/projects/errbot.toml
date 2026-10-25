@@ -1,0 +1,8 @@
+id = 'errbot'
+name = 'errbot'
+
+homepage = 'http://errbot.io'
+
+[[package]]
+channel = 'debian'
+name = 'errbot'

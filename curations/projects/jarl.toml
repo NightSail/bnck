@@ -1,0 +1,8 @@
+id = 'jarl'
+name = 'jarl'
+
+homepage = 'https://jarl.etiennebacher.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jarl'

@@ -1,0 +1,8 @@
+id = 'udo'
+name = 'udo'
+
+homepage = 'https://www.udo-open-source.org'
+
+[[package]]
+channel = 'debian'
+name = 'udo'

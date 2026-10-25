@@ -1,0 +1,13 @@
+id = 'mp3unicode'
+name = 'mp3unicode'
+
+homepage = 'https://mp3unicode.sourceforge.net'
+repository = 'https://github.com/alonbl/mp3unicode.git'
+
+[[package]]
+channel = 'arch'
+name = 'mp3unicode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3unicode'

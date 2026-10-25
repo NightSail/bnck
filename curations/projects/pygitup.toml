@@ -1,0 +1,12 @@
+id = 'pygitup'
+name = 'pygitup'
+
+homepage = 'https://github.com/msiemens/PyGitUp'
+
+[[package]]
+channel = 'fedora'
+name = 'git-up'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pygitup'

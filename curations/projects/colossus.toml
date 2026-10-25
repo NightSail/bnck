@@ -1,0 +1,8 @@
+id = 'colossus'
+name = 'colossus'
+
+homepage = 'http://colossus.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'colossus'

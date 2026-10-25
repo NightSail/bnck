@@ -1,0 +1,8 @@
+id = 'seadrive-fuse'
+name = 'seadrive-fuse'
+
+homepage = 'https://github.com/haiwen/seadrive-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'seadrive-fuse'

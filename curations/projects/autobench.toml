@@ -1,0 +1,8 @@
+id = 'autobench'
+name = 'autobench'
+
+homepage = 'https://web.archive.org/web/20260501190636/http://www.xenoclast.org/autobench'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autobench'

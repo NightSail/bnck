@@ -1,0 +1,8 @@
+id = 'kiln'
+name = 'kiln'
+
+homepage = 'https://git.sr.ht/~adnano/kiln'
+
+[[package]]
+channel = 'fedora'
+name = 'kiln'

@@ -1,0 +1,13 @@
+id = 'sipp'
+name = 'sipp'
+
+homepage = 'https://sipp.sourceforge.net'
+repository = 'https://github.com/SIPp/sipp.git'
+
+[[package]]
+channel = 'fedora'
+name = 'sipp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sipp'

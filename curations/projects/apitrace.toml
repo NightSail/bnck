@@ -1,0 +1,24 @@
+id = 'apitrace'
+name = 'apitrace'
+
+homepage = 'https://github.com/apitrace/apitrace'
+
+[[package]]
+channel = 'arch'
+name = 'apitrace'
+
+[[package]]
+channel = 'debian'
+name = 'apitrace'
+
+[[package]]
+channel = 'debian'
+name = 'apitrace-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'apitrace'
+
+[[package]]
+channel = 'fedora'
+name = 'apitrace-gui'

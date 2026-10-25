@@ -1,0 +1,12 @@
+id = 'crip'
+name = 'crip'
+
+homepage = 'https://github.com/Hakky54/certificate-ripper'
+
+[[package]]
+channel = 'debian'
+name = 'crip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crip'

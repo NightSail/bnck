@@ -1,0 +1,8 @@
+id = 'ccdciel'
+name = 'ccdciel'
+
+homepage = 'http://www.ap-i.net/ccdciel'
+
+[[package]]
+channel = 'fedora'
+name = 'ccdciel'

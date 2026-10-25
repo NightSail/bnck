@@ -1,0 +1,8 @@
+id = 'welle-io'
+name = 'welle.io'
+
+homepage = 'https://www.welle.io'
+
+[[package]]
+channel = 'debian'
+name = 'welle.io'

@@ -1,0 +1,40 @@
+id = 'nmap'
+name = 'nmap'
+
+homepage = 'https://nmap.org'
+
+[[package]]
+channel = 'arch'
+name = 'ndiff'
+
+[[package]]
+channel = 'arch'
+name = 'nmap'
+
+[[package]]
+channel = 'arch'
+name = 'zenmap'
+
+[[package]]
+channel = 'debian'
+name = 'ncat'
+
+[[package]]
+channel = 'debian'
+name = 'ndiff'
+
+[[package]]
+channel = 'debian'
+name = 'nmap'
+
+[[package]]
+channel = 'debian'
+name = 'zenmap'
+
+[[package]]
+channel = 'fedora'
+name = 'nmap'
+
+[[package]]
+channel = 'fedora'
+name = 'nmap-ncat'

@@ -1,0 +1,8 @@
+id = 'python-softlayer'
+name = 'python-softlayer'
+
+homepage = 'https://github.com/softlayer/softlayer-python'
+
+[[package]]
+channel = 'arch'
+name = 'python-softlayer'

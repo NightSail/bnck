@@ -1,0 +1,8 @@
+id = 'perl-io-stty'
+name = 'perl-IO-Stty'
+
+homepage = 'https://metacpan.org/release/IO-Stty'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-IO-Stty'

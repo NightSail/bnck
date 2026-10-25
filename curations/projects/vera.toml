@@ -1,0 +1,8 @@
+id = 'vera'
+name = 'vera++'
+
+homepage = 'https://bitbucket.org/verateam/vera/wiki/Home'
+
+[[package]]
+channel = 'debian'
+name = 'vera++'

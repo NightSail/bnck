@@ -1,0 +1,8 @@
+id = 'genometester'
+name = 'genometester'
+
+homepage = 'https://github.com/bioinfo-ut/GenomeTester4'
+
+[[package]]
+channel = 'debian'
+name = 'genometester'

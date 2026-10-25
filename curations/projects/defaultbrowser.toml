@@ -1,0 +1,8 @@
+id = 'defaultbrowser'
+name = 'defaultbrowser'
+
+homepage = 'https://github.com/kerma/defaultbrowser'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/defaultbrowser'

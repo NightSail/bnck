@@ -1,0 +1,8 @@
+id = 'umis'
+name = 'umis'
+
+homepage = 'https://github.com/vals/umis'
+
+[[package]]
+channel = 'debian'
+name = 'umis'

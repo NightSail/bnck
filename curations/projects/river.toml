@@ -1,0 +1,17 @@
+id = 'river'
+name = 'river'
+
+homepage = 'https://isaacfreund.com/software/river'
+repository = 'https://github.com/memorysafety/river.git'
+
+[[package]]
+channel = 'arch'
+name = 'river'
+
+[[package]]
+channel = 'fedora'
+name = 'river'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/river'

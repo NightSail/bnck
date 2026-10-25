@@ -1,0 +1,12 @@
+id = 'nagelfar'
+name = 'nagelfar'
+
+homepage = 'http://nagelfar.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'nagelfar'
+
+[[package]]
+channel = 'fedora'
+name = 'nagelfar'

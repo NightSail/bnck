@@ -1,0 +1,13 @@
+id = 'actionlint'
+name = 'actionlint'
+
+homepage = 'https://rhysd.github.io/actionlint'
+repository = 'https://github.com/rhysd/actionlint.git'
+
+[[package]]
+channel = 'arch'
+name = 'actionlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/actionlint'

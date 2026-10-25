@@ -1,0 +1,8 @@
+id = 'kmerresistance'
+name = 'kmerresistance'
+
+homepage = 'https://bitbucket.org/genomicepidemiology/kmerresistance'
+
+[[package]]
+channel = 'debian'
+name = 'kmerresistance'

@@ -1,0 +1,8 @@
+id = 'env-assert'
+name = 'env-assert'
+
+homepage = 'https://metacpan.org/release/Env-Assert'
+
+[[package]]
+channel = 'debian'
+name = 'env-assert'

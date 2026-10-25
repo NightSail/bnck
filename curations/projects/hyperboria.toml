@@ -1,0 +1,20 @@
+id = 'hyperboria'
+name = 'hyperboria'
+
+homepage = 'http://hyperboria.net'
+
+[[package]]
+channel = 'fedora'
+name = 'cjdns'
+
+[[package]]
+channel = 'fedora'
+name = 'cjdns-graph'
+
+[[package]]
+channel = 'fedora'
+name = 'cjdns-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cjdns'

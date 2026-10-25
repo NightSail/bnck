@@ -1,0 +1,8 @@
+id = 'swftools'
+name = 'swftools'
+
+homepage = 'https://github.com/swftools/swftools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swftools'

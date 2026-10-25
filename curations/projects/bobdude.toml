@@ -1,0 +1,8 @@
+id = 'bobdude'
+name = 'bobdude'
+
+homepage = 'https://www.bob3.org'
+
+[[package]]
+channel = 'debian'
+name = 'bobdude'

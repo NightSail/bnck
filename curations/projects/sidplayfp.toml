@@ -1,0 +1,12 @@
+id = 'sidplayfp'
+name = 'sidplayfp'
+
+homepage = 'https://github.com/libsidplayfp/sidplayfp/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'sidplayfp'
+
+[[package]]
+channel = 'debian'
+name = 'stilview'

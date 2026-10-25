@@ -1,0 +1,20 @@
+id = 'tcl-tcl'
+name = 'tcl'
+
+homepage = 'http://www.tcl.tk'
+
+[[package]]
+channel = 'debian'
+name = 'tcl8.6'
+
+[[package]]
+channel = 'debian'
+name = 'tcl9.0'
+
+[[package]]
+channel = 'debian'
+name = 'tk8.6'
+
+[[package]]
+channel = 'debian'
+name = 'tk9.0'

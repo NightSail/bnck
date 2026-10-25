@@ -1,0 +1,8 @@
+id = 'kubent'
+name = 'kubent'
+
+repository = 'https://github.com/doitintl/kube-no-trouble.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubent'

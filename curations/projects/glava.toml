@@ -1,0 +1,8 @@
+id = 'glava'
+name = 'glava'
+
+homepage = 'https://github.com/jarcode-foss/glava'
+
+[[package]]
+channel = 'fedora'
+name = 'glava'

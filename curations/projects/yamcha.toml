@@ -1,0 +1,8 @@
+id = 'yamcha'
+name = 'yamcha'
+
+homepage = 'http://chasen.org/~taku/software/yamcha'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yamcha'

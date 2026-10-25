@@ -1,0 +1,16 @@
+id = 'libdc1394'
+name = 'libdc1394'
+
+homepage = 'https://damien.douxchamps.net/ieee1394/libdc1394'
+
+[[package]]
+channel = 'arch'
+name = 'libdc1394'
+
+[[package]]
+channel = 'debian'
+name = 'libdc1394-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libdc1394-tools'

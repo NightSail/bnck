@@ -1,0 +1,6 @@
+id = 'dds2tar'
+name = 'dds2tar'
+
+[[package]]
+channel = 'debian'
+name = 'dds2tar'

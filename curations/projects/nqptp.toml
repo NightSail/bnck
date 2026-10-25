@@ -1,0 +1,12 @@
+id = 'nqptp'
+name = 'nqptp'
+
+homepage = 'https://github.com/mikebrady/nqptp'
+
+[[package]]
+channel = 'arch'
+name = 'nqptp'
+
+[[package]]
+channel = 'debian'
+name = 'nqptp'

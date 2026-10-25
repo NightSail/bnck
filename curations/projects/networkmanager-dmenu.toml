@@ -1,0 +1,8 @@
+id = 'networkmanager-dmenu'
+name = 'networkmanager-dmenu'
+
+homepage = 'https://github.com/firecat53/networkmanager-dmenu'
+
+[[package]]
+channel = 'arch'
+name = 'networkmanager-dmenu'

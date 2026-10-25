@@ -1,0 +1,12 @@
+id = 'grub-grub'
+name = 'grub'
+
+homepage = 'https://savannah.gnu.org/projects/grub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/i686-elf-grub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x86_64-elf-grub'

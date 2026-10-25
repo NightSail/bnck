@@ -1,0 +1,12 @@
+id = 'libusb'
+name = 'libusb'
+
+homepage = 'https://libusb.info'
+
+[[package]]
+channel = 'fedora'
+name = 'libusb1-tests-examples'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libusb-compat'

@@ -1,0 +1,8 @@
+id = 'lios'
+name = 'lios'
+
+homepage = 'http://sourceforge.net/projects/lios'
+
+[[package]]
+channel = 'debian'
+name = 'lios'

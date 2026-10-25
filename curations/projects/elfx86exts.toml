@@ -1,0 +1,16 @@
+id = 'elfx86exts'
+name = 'elfx86exts'
+
+repository = 'https://github.com/pkgw/elfx86exts.git'
+
+[[package]]
+channel = 'arch'
+name = 'elfx86exts'
+
+[[package]]
+channel = 'debian'
+name = 'elfx86exts'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elfx86exts'

@@ -1,0 +1,8 @@
+id = 'yasr'
+name = 'yasr'
+
+homepage = 'https://yasr.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'yasr'

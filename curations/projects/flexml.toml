@@ -1,0 +1,8 @@
+id = 'flexml'
+name = 'flexml'
+
+homepage = 'http://flexml.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'flexml'

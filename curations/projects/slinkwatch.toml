@@ -1,0 +1,8 @@
+id = 'slinkwatch'
+name = 'slinkwatch'
+
+homepage = 'https://github.com/DCSO/slinkwatch'
+
+[[package]]
+channel = 'debian'
+name = 'slinkwatch'

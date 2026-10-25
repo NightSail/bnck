@@ -1,0 +1,17 @@
+id = 'ii'
+name = 'ii'
+
+homepage = 'https://tools.suckless.org/ii'
+repository = 'https://git.suckless.org/ii'
+
+[[package]]
+channel = 'debian'
+name = 'ii'
+
+[[package]]
+channel = 'fedora'
+name = 'ii'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ii'

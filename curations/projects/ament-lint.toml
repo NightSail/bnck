@@ -1,0 +1,56 @@
+id = 'ament-lint'
+name = 'ament_lint'
+
+homepage = 'https://github.com/ament/ament_lint'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-clang-format'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-clang-tidy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-copyright'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-cppcheck'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-cpplint'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-flake8'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-lint-cmake'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-mypy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-pep257'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-pycodestyle'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-pyflakes'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-uncrustify'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ament-xmllint'

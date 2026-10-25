@@ -1,0 +1,16 @@
+id = 'python-jsonpatch'
+name = 'python-jsonpatch'
+
+homepage = 'https://github.com/stefankoegl/python-json-patch'
+
+[[package]]
+channel = 'arch'
+name = 'python-jsonpatch'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jsonpatch'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jsonpatch'

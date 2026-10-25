@@ -1,0 +1,12 @@
+id = 'man-pages'
+name = 'man-pages'
+
+homepage = 'https://www.kernel.org/doc/man-pages'
+
+[[package]]
+channel = 'arch'
+name = 'man-pages-utils'
+
+[[package]]
+channel = 'debian'
+name = 'manpages-utils'

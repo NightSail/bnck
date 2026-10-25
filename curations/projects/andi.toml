@@ -1,0 +1,8 @@
+id = 'andi'
+name = 'andi'
+
+homepage = 'https://github.com/EvolBioInf/andi'
+
+[[package]]
+channel = 'debian'
+name = 'andi'

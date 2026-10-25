@@ -1,0 +1,8 @@
+id = 'klutshnik'
+name = 'klutshnik'
+
+homepage = 'https://github.com/stef/klutshnik'
+
+[[package]]
+channel = 'debian'
+name = 'klutshnik'

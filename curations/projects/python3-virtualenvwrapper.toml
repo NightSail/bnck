@@ -1,0 +1,8 @@
+id = 'python3-virtualenvwrapper'
+name = 'python3-virtualenvwrapper'
+
+homepage = 'https://github.com/python-virtualenvwrapper/virtualenvwrapper'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-virtualenvwrapper'

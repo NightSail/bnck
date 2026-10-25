@@ -1,0 +1,8 @@
+id = 'wmcalc'
+name = 'wmcalc'
+
+homepage = 'https://www.dockapps.net/wmcalc'
+
+[[package]]
+channel = 'debian'
+name = 'wmcalc'

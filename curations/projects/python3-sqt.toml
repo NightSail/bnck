@@ -1,0 +1,8 @@
+id = 'python3-sqt'
+name = 'python3-sqt'
+
+homepage = 'https://bitbucket.org/marcelm/sqt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sqt'

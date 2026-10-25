@@ -1,0 +1,12 @@
+id = 'dee'
+name = 'dee'
+
+homepage = 'https://launchpad.net/dee'
+
+[[package]]
+channel = 'debian'
+name = 'dee-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'dee'

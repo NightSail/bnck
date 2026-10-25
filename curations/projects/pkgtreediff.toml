@@ -1,0 +1,8 @@
+id = 'pkgtreediff'
+name = 'pkgtreediff'
+
+homepage = 'https://hackage.haskell.org/package/pkgtreediff'
+
+[[package]]
+channel = 'fedora'
+name = 'pkgtreediff'

@@ -1,0 +1,8 @@
+id = 'parasail'
+name = 'parasail'
+
+homepage = 'https://github.com/jeffdaily/parasail'
+
+[[package]]
+channel = 'debian'
+name = 'parasail'

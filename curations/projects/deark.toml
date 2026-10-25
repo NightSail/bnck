@@ -1,0 +1,8 @@
+id = 'deark'
+name = 'deark'
+
+homepage = 'https://entropymine.com/deark'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deark'

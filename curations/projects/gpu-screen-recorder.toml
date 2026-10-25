@@ -4,5 +4,9 @@ name = 'gpu-screen-recorder'
 homepage = 'https://git.dec05eba.com/gpu-screen-recorder/about'
 
 [[package]]
+channel = 'arch'
+name = 'gpu-screen-recorder'
+
+[[package]]
 channel = 'debian'
 name = 'gpu-screen-recorder-cli'

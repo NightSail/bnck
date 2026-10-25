@@ -1,0 +1,12 @@
+id = 'zipstream-ng'
+name = 'zipstream-ng'
+
+homepage = 'https://github.com/pR0Ps/zipstream-ng'
+
+[[package]]
+channel = 'arch'
+name = 'python-zipstream-ng'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zipstream-ng'

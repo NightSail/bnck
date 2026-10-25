@@ -1,0 +1,16 @@
+id = 'gnome-power-manager'
+name = 'gnome-power-manager'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-power-manager'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-power-manager'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-power-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-power-manager'

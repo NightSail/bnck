@@ -1,0 +1,16 @@
+id = 'poster'
+name = 'poster'
+
+homepage = 'https://schrfr.github.io/poster'
+
+[[package]]
+channel = 'debian'
+name = 'poster'
+
+[[package]]
+channel = 'fedora'
+name = 'poster'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poster'

@@ -1,0 +1,8 @@
+id = 'mocassin'
+name = 'mocassin'
+
+homepage = 'http://www.3d-mocassin.net'
+
+[[package]]
+channel = 'debian'
+name = 'mocassin'

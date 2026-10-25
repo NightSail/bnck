@@ -1,0 +1,8 @@
+id = 'geonkick-standalone'
+name = 'geonkick-standalone'
+
+homepage = 'https://geonkick.org'
+
+[[package]]
+channel = 'arch'
+name = 'geonkick-standalone'

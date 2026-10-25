@@ -1,0 +1,12 @@
+id = 'rss-glx'
+name = 'rss-glx'
+
+homepage = 'http://rss-glx.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'rss-glx'
+
+[[package]]
+channel = 'fedora'
+name = 'rss-glx'

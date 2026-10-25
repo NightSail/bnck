@@ -1,0 +1,17 @@
+id = 'lolcat'
+name = 'lolcat'
+
+homepage = 'https://github.com/jaseg/lolcat'
+repository = 'https://github.com/busyloop/lolcat.git'
+
+[[package]]
+channel = 'arch'
+name = 'lolcat'
+
+[[package]]
+channel = 'fedora'
+name = 'lolcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lolcat'

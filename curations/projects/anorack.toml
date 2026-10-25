@@ -1,0 +1,8 @@
+id = 'anorack'
+name = 'anorack'
+
+homepage = 'https://jwilk.net/software/anorack'
+
+[[package]]
+channel = 'debian'
+name = 'anorack'

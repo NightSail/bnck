@@ -1,0 +1,8 @@
+id = 'otel-cli'
+name = 'otel-cli'
+
+repository = 'https://github.com/equinix-labs/otel-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/otel-cli'

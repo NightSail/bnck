@@ -1,0 +1,20 @@
+id = 'namazu'
+name = 'namazu'
+
+homepage = 'http://namazu.org'
+
+[[package]]
+channel = 'arch'
+name = 'namazu'
+
+[[package]]
+channel = 'debian'
+name = 'libnmz7-dev'
+
+[[package]]
+channel = 'debian'
+name = 'namazu2'
+
+[[package]]
+channel = 'debian'
+name = 'namazu2-index-tools'

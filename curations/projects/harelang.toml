@@ -1,0 +1,20 @@
+id = 'harelang'
+name = 'harelang'
+
+homepage = 'https://harelang.org'
+
+[[package]]
+channel = 'arch'
+name = 'hare'
+
+[[package]]
+channel = 'arch'
+name = 'harec'
+
+[[package]]
+channel = 'debian'
+name = 'hare'
+
+[[package]]
+channel = 'debian'
+name = 'harec'

@@ -1,0 +1,16 @@
+id = 'yggdrasil'
+name = 'yggdrasil'
+
+homepage = 'https://github.com/yggdrasil-network/yggdrasil-go'
+
+[[package]]
+channel = 'arch'
+name = 'yggdrasil'
+
+[[package]]
+channel = 'debian'
+name = 'yggdrasil'
+
+[[package]]
+channel = 'fedora'
+name = 'yggdrasil'

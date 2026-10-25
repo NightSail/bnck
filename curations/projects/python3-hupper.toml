@@ -1,0 +1,12 @@
+id = 'python3-hupper'
+name = 'python3-hupper'
+
+homepage = 'https://github.com/Pylons/hupper'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hupper'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hupper'

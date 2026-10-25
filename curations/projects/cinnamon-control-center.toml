@@ -1,0 +1,10 @@
+id = 'cinnamon-control-center'
+name = 'cinnamon-control-center'
+
+[[package]]
+channel = 'debian'
+name = 'cinnamon-control-center'
+
+[[package]]
+channel = 'fedora'
+name = 'cinnamon-control-center'

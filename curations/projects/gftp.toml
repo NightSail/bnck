@@ -1,0 +1,16 @@
+id = 'gftp'
+name = 'gftp'
+
+homepage = 'https://www.gftp.org'
+
+[[package]]
+channel = 'debian'
+name = 'gftp-common'
+
+[[package]]
+channel = 'debian'
+name = 'gftp-text'
+
+[[package]]
+channel = 'fedora'
+name = 'gftp'

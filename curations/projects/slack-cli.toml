@@ -1,0 +1,8 @@
+id = 'slack-cli'
+name = 'slack-cli'
+
+homepage = 'https://docs.slack.dev/tools/slack-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/slack-cli'

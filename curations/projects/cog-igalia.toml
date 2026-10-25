@@ -1,0 +1,8 @@
+id = 'cog-igalia'
+name = 'cog'
+
+homepage = 'https://github.com/Igalia/cog'
+
+[[package]]
+channel = 'debian'
+name = 'cog'

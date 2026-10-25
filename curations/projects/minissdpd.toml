@@ -1,0 +1,8 @@
+id = 'minissdpd'
+name = 'minissdpd'
+
+homepage = 'http://miniupnp.free.fr/minissdpd.html'
+
+[[package]]
+channel = 'debian'
+name = 'minissdpd'

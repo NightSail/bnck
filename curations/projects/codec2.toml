@@ -1,0 +1,16 @@
+id = 'codec2'
+name = 'codec2'
+
+homepage = 'https://www.rowetel.com'
+
+[[package]]
+channel = 'arch'
+name = 'codec2'
+
+[[package]]
+channel = 'debian'
+name = 'codec2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codec2'

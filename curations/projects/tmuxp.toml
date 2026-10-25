@@ -1,0 +1,12 @@
+id = 'tmuxp'
+name = 'tmuxp'
+
+homepage = 'https://tmuxp.git-pull.com'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tmuxp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmuxp'

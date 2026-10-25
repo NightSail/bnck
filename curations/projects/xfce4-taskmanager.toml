@@ -1,0 +1,16 @@
+id = 'xfce4-taskmanager'
+name = 'xfce4-taskmanager'
+
+homepage = 'https://docs.xfce.org/apps/xfce4-taskmanager/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-taskmanager'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-taskmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-taskmanager'

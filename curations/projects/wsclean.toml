@@ -1,0 +1,8 @@
+id = 'wsclean'
+name = 'wsclean'
+
+homepage = 'https://gitlab.com/aroffringa/wsclean'
+
+[[package]]
+channel = 'debian'
+name = 'wsclean'

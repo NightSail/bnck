@@ -1,0 +1,12 @@
+id = 'pinta'
+name = 'pinta'
+
+homepage = 'https://pinta-project.com'
+
+[[package]]
+channel = 'arch'
+name = 'pinta'
+
+[[package]]
+channel = 'fedora'
+name = 'pinta'

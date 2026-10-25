@@ -1,0 +1,8 @@
+id = 'quicktype'
+name = 'quicktype'
+
+homepage = 'https://app.quicktype.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quicktype'

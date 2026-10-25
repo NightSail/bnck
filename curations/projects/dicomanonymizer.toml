@@ -1,0 +1,8 @@
+id = 'dicomanonymizer'
+name = 'dicomanonymizer'
+
+homepage = 'https://github.com/mmiv-center/DICOMAnonymizer'
+
+[[package]]
+channel = 'fedora'
+name = 'dicomanonymizer'

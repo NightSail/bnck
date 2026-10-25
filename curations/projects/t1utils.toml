@@ -1,0 +1,17 @@
+id = 't1utils'
+name = 't1utils'
+
+homepage = 'http://www.lcdf.org/~eddietwo/type'
+repository = 'https://github.com/kohler/t1utils.git'
+
+[[package]]
+channel = 'arch'
+name = 't1utils'
+
+[[package]]
+channel = 'fedora'
+name = 't1utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/t1utils'

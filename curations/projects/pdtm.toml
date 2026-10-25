@@ -1,0 +1,9 @@
+id = 'pdtm'
+name = 'pdtm'
+
+homepage = 'https://projectdiscovery.io'
+repository = 'https://github.com/projectdiscovery/pdtm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdtm'

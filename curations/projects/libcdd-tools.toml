@@ -1,0 +1,8 @@
+id = 'libcdd-tools'
+name = 'libcdd-tools'
+
+homepage = 'https://github.com/cddlib/cddlib'
+
+[[package]]
+channel = 'debian'
+name = 'libcdd-tools'

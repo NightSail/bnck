@@ -1,0 +1,16 @@
+id = 'nwchemgit'
+name = 'nwchemgit'
+
+homepage = 'https://nwchemgit.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'nwchem-mpich'
+
+[[package]]
+channel = 'debian'
+name = 'nwchem-openmpi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nwchem'

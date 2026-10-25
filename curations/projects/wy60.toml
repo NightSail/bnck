@@ -1,0 +1,8 @@
+id = 'wy60'
+name = 'wy60'
+
+homepage = 'https://code.google.com/archive/p/wy60'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wy60'

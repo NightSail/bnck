@@ -1,0 +1,8 @@
+id = 'libcarp-datum-perl'
+name = 'libcarp-datum-perl'
+
+homepage = 'https://metacpan.org/release/Carp-Datum'
+
+[[package]]
+channel = 'debian'
+name = 'libcarp-datum-perl'

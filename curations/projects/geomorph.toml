@@ -1,0 +1,8 @@
+id = 'geomorph'
+name = 'geomorph'
+
+homepage = 'http://geomorph.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'geomorph'

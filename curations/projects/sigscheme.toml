@@ -1,0 +1,12 @@
+id = 'sigscheme'
+name = 'sigscheme'
+
+homepage = 'https://github.com/uim/sigscheme'
+
+[[package]]
+channel = 'debian'
+name = 'sigscheme'
+
+[[package]]
+channel = 'fedora'
+name = 'sigscheme'

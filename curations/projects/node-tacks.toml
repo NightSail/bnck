@@ -1,0 +1,8 @@
+id = 'node-tacks'
+name = 'node-tacks'
+
+homepage = 'https://github.com/iarna/tacks'
+
+[[package]]
+channel = 'debian'
+name = 'node-tacks'

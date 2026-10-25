@@ -1,0 +1,8 @@
+id = 'icloudpd'
+name = 'icloudpd'
+
+repository = 'https://github.com/icloud-photos-downloader/icloud_photos_downloader.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icloudpd'

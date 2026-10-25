@@ -1,0 +1,8 @@
+id = 'rp'
+name = 'rp'
+
+repository = 'https://github.com/0vercl0k/rp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rp'

@@ -1,0 +1,9 @@
+id = 'noir'
+name = 'noir'
+
+homepage = 'https://owasp.org/www-project-noir'
+repository = 'https://github.com/owasp-noir/noir.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/noir'

@@ -1,0 +1,12 @@
+id = 'zcfan'
+name = 'zcfan'
+
+homepage = 'https://github.com/cdown/zcfan'
+
+[[package]]
+channel = 'debian'
+name = 'zcfan'
+
+[[package]]
+channel = 'fedora'
+name = 'zcfan'

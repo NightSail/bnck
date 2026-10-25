@@ -1,0 +1,8 @@
+id = 'pdfposter'
+name = 'pdfposter'
+
+homepage = 'https://pdfposter.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'pdfposter'

@@ -1,0 +1,9 @@
+id = 'dmd'
+name = 'dmd'
+
+homepage = 'https://dlang.org'
+repository = 'https://github.com/dlang/dmd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dmd'

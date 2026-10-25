@@ -1,0 +1,16 @@
+id = 'drumgizmo'
+name = 'drumgizmo'
+
+homepage = 'https://www.drumgizmo.org'
+
+[[package]]
+channel = 'arch'
+name = 'drumgizmo-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'dgedit'
+
+[[package]]
+channel = 'debian'
+name = 'drumgizmo'

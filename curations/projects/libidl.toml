@@ -1,0 +1,12 @@
+id = 'libidl'
+name = 'libidl'
+
+homepage = 'https://download.gnome.org/sources/libIDL/0.8'
+
+[[package]]
+channel = 'fedora'
+name = 'libIDL-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libidl'

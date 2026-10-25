@@ -1,0 +1,12 @@
+id = 'cargo-sort'
+name = 'cargo-sort'
+
+repository = 'https://github.com/devinr528/cargo-sort.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-sort'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-sort'

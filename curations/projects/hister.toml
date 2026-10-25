@@ -1,0 +1,9 @@
+id = 'hister'
+name = 'hister'
+
+homepage = 'https://hister.org'
+repository = 'https://github.com/asciimoo/hister.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hister'

@@ -1,0 +1,8 @@
+id = 'perl-ppi-tester'
+name = 'perl-PPI-Tester'
+
+homepage = 'https://metacpan.org/release/PPI-Tester'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-PPI-Tester'

@@ -1,0 +1,12 @@
+id = 'umlet'
+name = 'umlet'
+
+homepage = 'https://www.umlet.com'
+
+[[package]]
+channel = 'debian'
+name = 'umlet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/umlet'

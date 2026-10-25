@@ -1,0 +1,8 @@
+id = 'kubebuilder'
+name = 'kubebuilder'
+
+repository = 'https://github.com/kubernetes-sigs/kubebuilder.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubebuilder'

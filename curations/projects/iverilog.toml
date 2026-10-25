@@ -1,0 +1,16 @@
+id = 'iverilog'
+name = 'iverilog'
+
+homepage = 'https://github.com/steveicarus/iverilog'
+
+[[package]]
+channel = 'arch'
+name = 'iverilog'
+
+[[package]]
+channel = 'debian'
+name = 'iverilog'
+
+[[package]]
+channel = 'fedora'
+name = 'iverilog'

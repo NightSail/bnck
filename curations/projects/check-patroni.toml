@@ -1,0 +1,8 @@
+id = 'check-patroni'
+name = 'check-patroni'
+
+homepage = 'https://github.com/dalibo/check_patroni'
+
+[[package]]
+channel = 'debian'
+name = 'check-patroni'

@@ -1,0 +1,8 @@
+id = 'millet'
+name = 'millet'
+
+repository = 'https://github.com/azdavis/millet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/millet'

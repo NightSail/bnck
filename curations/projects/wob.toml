@@ -1,0 +1,16 @@
+id = 'wob'
+name = 'wob'
+
+homepage = 'https://github.com/francma/wob'
+
+[[package]]
+channel = 'arch'
+name = 'wob'
+
+[[package]]
+channel = 'debian'
+name = 'wob'
+
+[[package]]
+channel = 'fedora'
+name = 'wob'

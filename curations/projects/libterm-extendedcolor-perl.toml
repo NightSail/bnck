@@ -1,0 +1,8 @@
+id = 'libterm-extendedcolor-perl'
+name = 'libterm-extendedcolor-perl'
+
+homepage = 'https://metacpan.org/release/Term-ExtendedColor'
+
+[[package]]
+channel = 'debian'
+name = 'libterm-extendedcolor-perl'

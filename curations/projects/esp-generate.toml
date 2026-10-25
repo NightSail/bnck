@@ -1,0 +1,8 @@
+id = 'esp-generate'
+name = 'esp-generate'
+
+homepage = 'https://github.com/esp-rs/esp-generate'
+
+[[package]]
+channel = 'arch'
+name = 'esp-generate'

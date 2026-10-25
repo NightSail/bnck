@@ -1,0 +1,12 @@
+id = 'latte'
+name = '~latte'
+
+homepage = 'https://www.math.ucdavis.edu/~latte/software.php'
+
+[[package]]
+channel = 'debian'
+name = 'latte-int'
+
+[[package]]
+channel = 'fedora'
+name = 'latte-integrale'

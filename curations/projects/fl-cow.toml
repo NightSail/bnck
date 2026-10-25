@@ -1,0 +1,8 @@
+id = 'fl-cow'
+name = 'fl-cow'
+
+homepage = 'http://www.xmailserver.org/flcow.html'
+
+[[package]]
+channel = 'debian'
+name = 'fl-cow'

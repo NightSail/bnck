@@ -1,0 +1,9 @@
+id = 'cyrus-sasl'
+name = 'cyrus-sasl'
+
+homepage = 'https://www.cyrusimap.org/sasl'
+repository = 'https://github.com/cyrusimap/cyrus-sasl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyrus-sasl'

@@ -1,0 +1,8 @@
+id = 'rpmrebuild'
+name = 'rpmrebuild'
+
+homepage = 'http://rpmrebuild.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmrebuild'

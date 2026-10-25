@@ -1,0 +1,21 @@
+id = 'translate-toolkit'
+name = 'translate-toolkit'
+
+homepage = 'https://toolkit.translatehouse.org'
+repository = 'https://github.com/translate/translate.git'
+
+[[package]]
+channel = 'arch'
+name = 'translate-toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'translate-toolkit'
+
+[[package]]
+channel = 'fedora'
+name = 'translate-toolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/translate-toolkit'

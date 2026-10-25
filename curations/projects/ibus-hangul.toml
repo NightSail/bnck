@@ -1,0 +1,12 @@
+id = 'ibus-hangul'
+name = 'ibus-hangul'
+
+homepage = 'https://github.com/libhangul/ibus-hangul'
+
+[[package]]
+channel = 'arch'
+name = 'ibus-hangul'
+
+[[package]]
+channel = 'debian'
+name = 'ibus-hangul'

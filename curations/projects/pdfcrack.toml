@@ -1,0 +1,20 @@
+id = 'pdfcrack'
+name = 'pdfcrack'
+
+homepage = 'https://pdfcrack.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'pdfcrack'
+
+[[package]]
+channel = 'debian'
+name = 'pdfcrack'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfcrack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfcrack'

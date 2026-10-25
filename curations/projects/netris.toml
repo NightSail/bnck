@@ -1,0 +1,8 @@
+id = 'netris'
+name = 'netris'
+
+homepage = 'https://packages.debian.org/sid/netris'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netris'

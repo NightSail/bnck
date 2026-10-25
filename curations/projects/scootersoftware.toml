@@ -1,0 +1,12 @@
+id = 'scootersoftware'
+name = 'scootersoftware'
+
+homepage = 'https://www.scootersoftware.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/beyond-compare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/beyond-compare@4'

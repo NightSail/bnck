@@ -1,0 +1,8 @@
+id = 'log2ram'
+name = 'log2ram'
+
+homepage = 'https://github.com/azlux/log2ram'
+
+[[package]]
+channel = 'debian'
+name = 'log2ram'

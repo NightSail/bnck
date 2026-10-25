@@ -1,0 +1,17 @@
+id = 'scrypt'
+name = 'scrypt'
+
+homepage = 'https://www.tarsnap.com/scrypt.html'
+repository = 'https://github.com/Tarsnap/scrypt.git'
+
+[[package]]
+channel = 'arch'
+name = 'scrypt'
+
+[[package]]
+channel = 'debian'
+name = 'scrypt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scrypt'

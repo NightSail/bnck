@@ -1,0 +1,8 @@
+id = 'sucrack'
+name = 'sucrack'
+
+homepage = 'https://labs.portcullis.co.uk/tools/sucrack'
+
+[[package]]
+channel = 'debian'
+name = 'sucrack'

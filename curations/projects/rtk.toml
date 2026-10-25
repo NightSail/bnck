@@ -1,0 +1,9 @@
+id = 'rtk'
+name = 'rtk'
+
+homepage = 'https://www.rtk-ai.app'
+repository = 'https://github.com/rtk-ai/rtk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtk'

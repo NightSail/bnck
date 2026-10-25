@@ -1,0 +1,21 @@
+id = 'flite'
+name = 'flite'
+
+homepage = 'http://www.festvox.org/flite'
+repository = 'https://github.com/festvox/flite.git'
+
+[[package]]
+channel = 'arch'
+name = 'flite'
+
+[[package]]
+channel = 'debian'
+name = 'flite'
+
+[[package]]
+channel = 'fedora'
+name = 'flite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flite'

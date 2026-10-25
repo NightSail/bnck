@@ -1,0 +1,12 @@
+id = 'fnlfmt'
+name = 'fnlfmt'
+
+homepage = 'https://git.sr.ht/~technomancy/fnlfmt'
+
+[[package]]
+channel = 'arch'
+name = 'fnlfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fnlfmt'

@@ -1,0 +1,8 @@
+id = 'worm-scraper'
+name = 'worm-scraper'
+
+repository = 'https://github.com/domenic/worm-scraper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/worm-scraper'

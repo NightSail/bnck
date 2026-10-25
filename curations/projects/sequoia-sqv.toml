@@ -1,0 +1,13 @@
+id = 'sequoia-sqv'
+name = 'sequoia-sqv'
+
+homepage = 'https://crates.io/crates/sequoia-sqv'
+repository = 'https://gitlab.com/sequoia-pgp/sequoia-sqv.git'
+
+[[package]]
+channel = 'fedora'
+name = 'sequoia-sqv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sequoia-sqv'

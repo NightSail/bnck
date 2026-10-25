@@ -1,0 +1,24 @@
+id = 'scilab'
+name = 'scilab'
+
+homepage = 'https://www.scilab.org'
+
+[[package]]
+channel = 'debian'
+name = 'scilab'
+
+[[package]]
+channel = 'debian'
+name = 'scilab-cli'
+
+[[package]]
+channel = 'debian'
+name = 'scilab-full-bin'
+
+[[package]]
+channel = 'debian'
+name = 'scilab-minimal-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/scilab'

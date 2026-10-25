@@ -1,0 +1,12 @@
+id = 'griffe'
+name = 'griffe'
+
+homepage = 'https://github.com/mkdocstrings/griffe'
+
+[[package]]
+channel = 'debian'
+name = 'python3-griffe'
+
+[[package]]
+channel = 'debian'
+name = 'python3-griffecli'

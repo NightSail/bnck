@@ -1,0 +1,8 @@
+id = 'xterm-console'
+name = 'xterm-console'
+
+homepage = 'https://github.com/os-autoinst/xterm_console'
+
+[[package]]
+channel = 'fedora'
+name = 'xterm-console'

@@ -1,0 +1,16 @@
+id = 'kdenlive'
+name = 'kdenlive'
+
+homepage = 'https://apps.kde.org/kdenlive'
+
+[[package]]
+channel = 'arch'
+name = 'kdenlive'
+
+[[package]]
+channel = 'debian'
+name = 'kdenlive'
+
+[[package]]
+channel = 'fedora'
+name = 'kdenlive'

@@ -1,0 +1,8 @@
+id = 'libopencsg-example'
+name = 'libopencsg-example'
+
+homepage = 'https://opencsg.org'
+
+[[package]]
+channel = 'debian'
+name = 'libopencsg-example'

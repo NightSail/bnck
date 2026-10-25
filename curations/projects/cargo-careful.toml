@@ -1,0 +1,8 @@
+id = 'cargo-careful'
+name = 'cargo-careful'
+
+repository = 'https://github.com/RalfJung/cargo-careful.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-careful'

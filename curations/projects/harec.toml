@@ -1,0 +1,8 @@
+id = 'harec'
+name = 'harec'
+
+homepage = 'https://git.sr.ht/~sircmpwn/harec'
+
+[[package]]
+channel = 'fedora'
+name = 'harec'

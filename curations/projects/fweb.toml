@@ -1,0 +1,8 @@
+id = 'fweb'
+name = 'fweb'
+
+homepage = 'https://w3.pppl.gov/~krommes'
+
+[[package]]
+channel = 'debian'
+name = 'fweb'

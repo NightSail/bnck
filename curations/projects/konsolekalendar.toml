@@ -1,0 +1,8 @@
+id = 'konsolekalendar'
+name = 'konsolekalendar'
+
+homepage = 'https://invent.kde.org/pim/akonadi-calendar-tools'
+
+[[package]]
+channel = 'debian'
+name = 'konsolekalendar'

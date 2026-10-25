@@ -1,0 +1,8 @@
+id = 'aime'
+name = 'aime'
+
+homepage = 'http://aime-embedded.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'aime'

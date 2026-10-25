@@ -1,0 +1,12 @@
+id = 'webfs'
+name = 'webfs'
+
+homepage = 'https://linux.bytesex.org/misc/webfs.html'
+
+[[package]]
+channel = 'debian'
+name = 'webfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webfs'

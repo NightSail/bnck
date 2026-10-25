@@ -1,0 +1,8 @@
+id = 'gossip'
+name = 'gossip'
+
+repository = 'https://github.com/mikedilger/gossip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gossip'

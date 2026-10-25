@@ -1,0 +1,8 @@
+id = 'uncalled'
+name = 'uncalled'
+
+homepage = 'https://github.com/skovaka/UNCALLED'
+
+[[package]]
+channel = 'debian'
+name = 'uncalled'

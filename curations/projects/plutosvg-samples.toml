@@ -1,0 +1,8 @@
+id = 'plutosvg-samples'
+name = 'plutosvg-samples'
+
+homepage = 'https://github.com/sammycage/plutosvg'
+
+[[package]]
+channel = 'fedora'
+name = 'plutosvg-samples'

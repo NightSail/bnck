@@ -1,0 +1,16 @@
+id = 'libnotify'
+name = 'libnotify'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libnotify'
+
+[[package]]
+channel = 'arch'
+name = 'libnotify'
+
+[[package]]
+channel = 'fedora'
+name = 'libnotify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnotify'

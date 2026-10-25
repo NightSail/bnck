@@ -1,0 +1,8 @@
+id = 'mint'
+name = 'mint'
+
+homepage = 'https://github.com/yonaskolb/Mint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mint'

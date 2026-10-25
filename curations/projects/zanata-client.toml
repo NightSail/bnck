@@ -1,0 +1,8 @@
+id = 'zanata-client'
+name = 'zanata-client'
+
+homepage = 'http://zanata.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zanata-client'

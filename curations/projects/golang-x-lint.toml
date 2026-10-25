@@ -1,0 +1,8 @@
+id = 'golang-x-lint'
+name = 'golang-x-lint'
+
+homepage = 'https://github.com/golang/lint'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-x-lint'

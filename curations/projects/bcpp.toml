@@ -1,0 +1,12 @@
+id = 'bcpp'
+name = 'bcpp'
+
+homepage = 'https://invisible-island.net/bcpp'
+
+[[package]]
+channel = 'debian'
+name = 'bcpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bcpp'

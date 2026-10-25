@@ -1,0 +1,12 @@
+id = 'calamares'
+name = 'calamares'
+
+homepage = 'https://github.com/calamares/calamares'
+
+[[package]]
+channel = 'debian'
+name = 'calamares'
+
+[[package]]
+channel = 'fedora'
+name = 'calamares'

@@ -1,0 +1,8 @@
+id = 'ontospy'
+name = 'ontospy'
+
+homepage = 'https://lambdamusic.github.io/Ontospy'
+
+[[package]]
+channel = 'debian'
+name = 'ontospy'

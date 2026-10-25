@@ -1,0 +1,12 @@
+id = 'faker-faker'
+name = 'faker'
+
+homepage = 'https://faker.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-faker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faker'

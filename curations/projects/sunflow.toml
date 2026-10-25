@@ -1,0 +1,8 @@
+id = 'sunflow'
+name = 'sunflow'
+
+homepage = 'http://sunflow.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sunflow'

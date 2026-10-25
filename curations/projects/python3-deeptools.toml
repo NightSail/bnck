@@ -1,0 +1,8 @@
+id = 'python3-deeptools'
+name = 'python3-deeptools'
+
+homepage = 'https://github.com/deeptools/deepTools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-deeptools'

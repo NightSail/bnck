@@ -1,0 +1,12 @@
+id = 'audex'
+name = 'audex'
+
+homepage = 'https://apps.kde.org/audex'
+
+[[package]]
+channel = 'arch'
+name = 'audex'
+
+[[package]]
+channel = 'fedora'
+name = 'audex'

@@ -1,0 +1,20 @@
+id = 'figlet'
+name = 'figlet'
+
+homepage = 'https://www.figlet.org'
+
+[[package]]
+channel = 'arch'
+name = 'figlet'
+
+[[package]]
+channel = 'debian'
+name = 'figlet'
+
+[[package]]
+channel = 'fedora'
+name = 'figlet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/figlet'

@@ -1,0 +1,16 @@
+id = 'civetweb'
+name = 'civetweb'
+
+repository = 'https://github.com/civetweb/civetweb.git'
+
+[[package]]
+channel = 'debian'
+name = 'civetweb'
+
+[[package]]
+channel = 'fedora'
+name = 'civetweb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/civetweb'

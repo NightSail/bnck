@@ -1,0 +1,8 @@
+id = 'lomiri-terminal-app'
+name = 'lomiri-terminal-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-terminal-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-terminal-app'

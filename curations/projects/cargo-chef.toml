@@ -1,0 +1,8 @@
+id = 'cargo-chef'
+name = 'cargo-chef'
+
+homepage = 'https://github.com/LukeMathWalker/cargo-chef'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-chef'

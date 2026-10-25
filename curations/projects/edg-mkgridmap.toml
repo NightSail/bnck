@@ -1,0 +1,8 @@
+id = 'edg-mkgridmap'
+name = 'edg-mkgridmap'
+
+homepage = 'https://gitlab.cern.ch/curios/edg-mkgridmap'
+
+[[package]]
+channel = 'fedora'
+name = 'edg-mkgridmap'

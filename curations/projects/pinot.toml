@@ -1,0 +1,13 @@
+id = 'pinot'
+name = 'pinot'
+
+homepage = 'https://github.com/FabriceColin/pinot'
+repository = 'https://github.com/apache/pinot.git'
+
+[[package]]
+channel = 'debian'
+name = 'pinot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pinot'

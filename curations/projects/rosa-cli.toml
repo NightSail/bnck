@@ -1,0 +1,9 @@
+id = 'rosa-cli'
+name = 'rosa-cli'
+
+homepage = 'https://www.openshift.com/products/amazon-openshift'
+repository = 'https://github.com/openshift/rosa.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rosa-cli'

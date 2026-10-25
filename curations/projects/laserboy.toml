@@ -1,0 +1,8 @@
+id = 'laserboy'
+name = 'laserboy'
+
+homepage = 'http://laserboy.org'
+
+[[package]]
+channel = 'debian'
+name = 'laserboy'

@@ -1,0 +1,8 @@
+id = 'config-package-dev'
+name = 'config-package-dev'
+
+homepage = 'https://debathena.mit.edu/config-package-dev'
+
+[[package]]
+channel = 'debian'
+name = 'config-package-dev'

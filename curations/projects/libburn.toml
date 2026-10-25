@@ -1,0 +1,8 @@
+id = 'libburn'
+name = 'libburn'
+
+homepage = 'https://dev.lovelyhq.com/libburnia/libburn'
+
+[[package]]
+channel = 'arch'
+name = 'libburn'

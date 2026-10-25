@@ -1,0 +1,9 @@
+id = 'apm'
+name = 'apm'
+
+homepage = 'https://microsoft.github.io/apm'
+repository = 'https://github.com/microsoft/apm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apm'

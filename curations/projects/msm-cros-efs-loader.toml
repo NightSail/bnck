@@ -1,0 +1,8 @@
+id = 'msm-cros-efs-loader'
+name = 'msm-cros-efs-loader'
+
+homepage = 'https://gitlab.postmarketos.org/postmarketOS/msm-cros-efs-loader'
+
+[[package]]
+channel = 'fedora'
+name = 'msm-cros-efs-loader'

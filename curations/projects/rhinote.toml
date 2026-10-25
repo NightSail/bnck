@@ -1,0 +1,8 @@
+id = 'rhinote'
+name = 'rhinote'
+
+homepage = 'https://rhinote.tuxfamily.org'
+
+[[package]]
+channel = 'debian'
+name = 'rhinote'

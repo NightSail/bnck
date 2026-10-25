@@ -1,0 +1,20 @@
+id = 'neovim-qt'
+name = 'neovim-qt'
+
+repository = 'https://github.com/equalsraf/neovim-qt.git'
+
+[[package]]
+channel = 'arch'
+name = 'neovim-qt'
+
+[[package]]
+channel = 'debian'
+name = 'neovim-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'neovim-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neovim-qt'

@@ -1,0 +1,28 @@
+id = 'libcamera'
+name = 'libcamera'
+
+homepage = 'https://libcamera.org'
+
+[[package]]
+channel = 'arch'
+name = 'libcamera'
+
+[[package]]
+channel = 'arch'
+name = 'libcamera-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libcamera-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libcamera-qcam'
+
+[[package]]
+channel = 'fedora'
+name = 'libcamera-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libcamera-v4l2'

@@ -1,0 +1,16 @@
+id = 'libzmf'
+name = 'libzmf'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libzmf'
+
+[[package]]
+channel = 'arch'
+name = 'libzmf'
+
+[[package]]
+channel = 'debian'
+name = 'libzmf-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libzmf-tools'

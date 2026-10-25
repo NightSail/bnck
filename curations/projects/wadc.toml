@@ -1,0 +1,8 @@
+id = 'wadc'
+name = 'wadc'
+
+homepage = 'https://jmtd.net/wadc'
+
+[[package]]
+channel = 'debian'
+name = 'wadc'

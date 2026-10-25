@@ -1,0 +1,12 @@
+id = 'nspr'
+name = 'nspr'
+
+homepage = 'https://hg.mozilla.org/projects/nspr'
+
+[[package]]
+channel = 'arch'
+name = 'nspr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nspr'

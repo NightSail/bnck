@@ -1,0 +1,8 @@
+id = 'libassuan'
+name = 'libassuan'
+
+homepage = 'https://www.gnupg.org/related_software/libassuan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libassuan'

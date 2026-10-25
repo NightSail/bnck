@@ -1,0 +1,8 @@
+id = 'rabbitmqadmin'
+name = 'rabbitmqadmin'
+
+homepage = 'https://www.rabbitmq.com/docs/management-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rabbitmqadmin'

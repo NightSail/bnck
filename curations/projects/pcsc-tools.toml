@@ -1,0 +1,20 @@
+id = 'pcsc-tools'
+name = 'pcsc-tools'
+
+homepage = 'https://pcsc-tools.apdu.fr'
+
+[[package]]
+channel = 'arch'
+name = 'pcsc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pcsc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pcsc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pcsc-tools-gscriptor'

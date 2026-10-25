@@ -1,0 +1,8 @@
+id = 'tilem'
+name = 'tilem'
+
+homepage = 'http://lpg.ticalc.org/prj_tilem'
+
+[[package]]
+channel = 'debian'
+name = 'tilem'

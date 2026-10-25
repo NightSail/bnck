@@ -1,0 +1,8 @@
+id = 'python3-pytest-watcher'
+name = 'python3-pytest-watcher'
+
+homepage = 'https://github.com/olzhasar/pytest-watcher'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pytest-watcher'

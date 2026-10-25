@@ -1,0 +1,12 @@
+id = 'decasify'
+name = 'decasify'
+
+repository = 'https://github.com/alerque/decasify.git'
+
+[[package]]
+channel = 'arch'
+name = 'decasify'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/decasify'

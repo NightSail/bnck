@@ -1,0 +1,8 @@
+id = 'xilinx-bootgen'
+name = 'xilinx-bootgen'
+
+homepage = 'https://github.com/Xilinx/bootgen'
+
+[[package]]
+channel = 'debian'
+name = 'xilinx-bootgen'

@@ -1,0 +1,8 @@
+id = 'wiiuse-examples'
+name = 'wiiuse-examples'
+
+homepage = 'https://github.com/rpavlik/wiiuse'
+
+[[package]]
+channel = 'fedora'
+name = 'wiiuse-examples'

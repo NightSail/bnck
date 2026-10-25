@@ -1,0 +1,16 @@
+id = 'qiime2'
+name = 'qiime2'
+
+homepage = 'https://qiime2.org'
+
+[[package]]
+channel = 'debian'
+name = 'q2-dada2'
+
+[[package]]
+channel = 'debian'
+name = 'q2-quality-control'
+
+[[package]]
+channel = 'debian'
+name = 'q2cli'

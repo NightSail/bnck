@@ -1,0 +1,16 @@
+id = 'micropython'
+name = 'micropython'
+
+homepage = 'https://www.micropython.org'
+
+[[package]]
+channel = 'debian'
+name = 'micropython'
+
+[[package]]
+channel = 'fedora'
+name = 'micropython'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/micropython'

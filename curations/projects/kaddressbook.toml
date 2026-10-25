@@ -1,0 +1,16 @@
+id = 'kaddressbook'
+name = 'kaddressbook'
+
+homepage = 'https://apps.kde.org/kaddressbook'
+
+[[package]]
+channel = 'arch'
+name = 'kaddressbook'
+
+[[package]]
+channel = 'debian'
+name = 'kaddressbook'
+
+[[package]]
+channel = 'fedora'
+name = 'kaddressbook'

@@ -1,0 +1,8 @@
+id = 'ofxstatement'
+name = 'ofxstatement'
+
+homepage = 'https://github.com/kedder/ofxstatement'
+
+[[package]]
+channel = 'debian'
+name = 'ofxstatement'

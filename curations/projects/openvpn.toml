@@ -1,0 +1,20 @@
+id = 'openvpn'
+name = 'openvpn'
+
+homepage = 'https://openvpn.net/community'
+
+[[package]]
+channel = 'arch'
+name = 'openvpn'
+
+[[package]]
+channel = 'debian'
+name = 'openvpn'
+
+[[package]]
+channel = 'fedora'
+name = 'openvpn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openvpn'

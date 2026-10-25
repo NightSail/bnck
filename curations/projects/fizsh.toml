@@ -1,0 +1,13 @@
+id = 'fizsh'
+name = 'fizsh'
+
+homepage = 'http://sourceforge.net/projects/fizsh'
+repository = 'https://github.com/zsh-users/fizsh.git'
+
+[[package]]
+channel = 'debian'
+name = 'fizsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fizsh'

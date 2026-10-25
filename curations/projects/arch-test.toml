@@ -1,0 +1,10 @@
+id = 'arch-test'
+name = 'arch-test'
+
+[[package]]
+channel = 'debian'
+name = 'arch-test'
+
+[[package]]
+channel = 'fedora'
+name = 'arch-test'

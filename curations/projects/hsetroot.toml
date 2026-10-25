@@ -1,0 +1,16 @@
+id = 'hsetroot'
+name = 'hsetroot'
+
+homepage = 'https://github.com/himdel/hsetroot'
+
+[[package]]
+channel = 'arch'
+name = 'hsetroot'
+
+[[package]]
+channel = 'debian'
+name = 'hsetroot'
+
+[[package]]
+channel = 'fedora'
+name = 'hsetroot'

@@ -1,0 +1,12 @@
+id = 'opensaml'
+name = 'opensaml'
+
+homepage = 'https://wiki.shibboleth.net/confluence/display/OpenSAML/Home'
+
+[[package]]
+channel = 'debian'
+name = 'opensaml-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opensaml'

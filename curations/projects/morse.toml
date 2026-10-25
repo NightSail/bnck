@@ -1,0 +1,12 @@
+id = 'morse'
+name = 'morse'
+
+homepage = 'http://www.catb.org/~esr/morse'
+
+[[package]]
+channel = 'debian'
+name = 'morse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/morse'

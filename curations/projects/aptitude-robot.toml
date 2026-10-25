@@ -1,0 +1,8 @@
+id = 'aptitude-robot'
+name = 'aptitude-robot'
+
+homepage = 'https://github.com/elmar/aptitude-robot'
+
+[[package]]
+channel = 'debian'
+name = 'aptitude-robot'

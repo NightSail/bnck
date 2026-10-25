@@ -1,0 +1,8 @@
+id = 'grandorgue'
+name = 'grandorgue'
+
+homepage = 'https://github.com/GrandOrgue/grandorgue'
+
+[[package]]
+channel = 'debian'
+name = 'grandorgue'

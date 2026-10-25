@@ -1,0 +1,8 @@
+id = 'libjmac-java'
+name = 'libjmac-java'
+
+homepage = 'http://jmac.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libjmac-java'

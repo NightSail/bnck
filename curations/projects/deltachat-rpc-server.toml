@@ -1,0 +1,8 @@
+id = 'deltachat-rpc-server'
+name = 'deltachat-rpc-server'
+
+homepage = 'https://github.com/deltachat/deltachat-core-rust/tree/main/deltachat-rpc-server'
+
+[[package]]
+channel = 'arch'
+name = 'deltachat-rpc-server'

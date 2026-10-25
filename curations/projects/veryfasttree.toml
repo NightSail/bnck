@@ -1,0 +1,12 @@
+id = 'veryfasttree'
+name = 'veryfasttree'
+
+repository = 'https://github.com/citiususc/veryfasttree.git'
+
+[[package]]
+channel = 'debian'
+name = 'veryfasttree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/veryfasttree'

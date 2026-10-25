@@ -1,0 +1,8 @@
+id = 'jack'
+name = 'jack'
+
+homepage = 'https://github.com/jack-cli-cd-ripper/jack'
+
+[[package]]
+channel = 'debian'
+name = 'jack'

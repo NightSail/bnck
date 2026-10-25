@@ -1,0 +1,12 @@
+id = 'tvlsim'
+name = 'tvlsim'
+
+homepage = 'https://github.com/airsim/tvlsim'
+
+[[package]]
+channel = 'fedora'
+name = 'tvlsim'
+
+[[package]]
+channel = 'fedora'
+name = 'tvlsim-devel'

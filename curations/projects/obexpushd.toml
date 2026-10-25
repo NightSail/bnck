@@ -1,0 +1,6 @@
+id = 'obexpushd'
+name = 'obexpushd'
+
+[[package]]
+channel = 'debian'
+name = 'obexpushd'

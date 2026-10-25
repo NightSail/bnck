@@ -1,0 +1,8 @@
+id = 'netcat-traditional'
+name = 'netcat-traditional'
+
+homepage = 'http://www.stearns.org/nc'
+
+[[package]]
+channel = 'debian'
+name = 'netcat-traditional'

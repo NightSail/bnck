@@ -1,0 +1,16 @@
+id = 'libdazzle'
+name = 'libdazzle'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libdazzle'
+
+[[package]]
+channel = 'arch'
+name = 'libdazzle'
+
+[[package]]
+channel = 'fedora'
+name = 'libdazzle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdazzle'

@@ -1,0 +1,12 @@
+id = 'mmsd-tng'
+name = 'mmsd-tng'
+
+homepage = 'https://gitlab.com/kop316/mmsd'
+
+[[package]]
+channel = 'debian'
+name = 'mmsd-tng'
+
+[[package]]
+channel = 'fedora'
+name = 'mmsd-tng'

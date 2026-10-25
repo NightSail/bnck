@@ -1,0 +1,12 @@
+id = 'go-org'
+name = 'go-org'
+
+homepage = 'https://github.com/niklasfasching/go-org'
+
+[[package]]
+channel = 'debian'
+name = 'go-org'
+
+[[package]]
+channel = 'fedora'
+name = 'go-org'

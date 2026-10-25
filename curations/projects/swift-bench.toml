@@ -1,0 +1,8 @@
+id = 'swift-bench'
+name = 'swift-bench'
+
+homepage = 'https://github.com/openstack/swift-bench'
+
+[[package]]
+channel = 'debian'
+name = 'swift-bench'

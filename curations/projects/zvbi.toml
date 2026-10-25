@@ -1,0 +1,21 @@
+id = 'zvbi'
+name = 'zvbi'
+
+homepage = 'http://zapping.sourceforge.net/cgi-bin/view/ZVBI/WebHome'
+repository = 'https://github.com/zapping-vbi/zvbi.git'
+
+[[package]]
+channel = 'arch'
+name = 'zvbi'
+
+[[package]]
+channel = 'debian'
+name = 'zvbi'
+
+[[package]]
+channel = 'fedora'
+name = 'zvbi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zvbi'

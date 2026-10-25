@@ -1,0 +1,12 @@
+id = 'fityk'
+name = 'fityk'
+
+homepage = 'https://fityk.nieto.pl'
+
+[[package]]
+channel = 'debian'
+name = 'fityk'
+
+[[package]]
+channel = 'fedora'
+name = 'fityk'

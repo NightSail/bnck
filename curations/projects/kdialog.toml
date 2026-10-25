@@ -1,0 +1,8 @@
+id = 'kdialog'
+name = 'kdialog'
+
+homepage = 'https://invent.kde.org/utilities/kdialog'
+
+[[package]]
+channel = 'debian'
+name = 'kdialog'

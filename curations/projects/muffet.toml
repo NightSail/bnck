@@ -1,0 +1,8 @@
+id = 'muffet'
+name = 'muffet'
+
+repository = 'https://github.com/raviqqe/muffet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/muffet'

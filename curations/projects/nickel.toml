@@ -1,0 +1,9 @@
+id = 'nickel'
+name = 'nickel'
+
+homepage = 'https://nickel-lang.org'
+repository = 'https://github.com/nickel-lang/nickel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nickel'

@@ -1,0 +1,8 @@
+id = 'goodls'
+name = 'goodls'
+
+repository = 'https://github.com/tanaikech/goodls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goodls'

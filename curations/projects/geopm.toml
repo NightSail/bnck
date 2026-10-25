@@ -1,0 +1,24 @@
+id = 'geopm'
+name = 'geopm'
+
+homepage = 'https://geopm.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'geopm-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'geopmd'
+
+[[package]]
+channel = 'fedora'
+name = 'geopmd-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-geopmdpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-geopmpy'

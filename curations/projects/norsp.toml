@@ -1,0 +1,8 @@
+id = 'norsp'
+name = 'norsp'
+
+homepage = 'https://rostlab.org/owiki/index.php/NORSp_-_predictor_of_NOn-Regular_Secondary_Structure'
+
+[[package]]
+channel = 'debian'
+name = 'norsp'

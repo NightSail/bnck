@@ -1,0 +1,12 @@
+id = 'cobalt'
+name = 'cobalt'
+
+homepage = 'https://cobalt-org.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'cobalt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cobalt'

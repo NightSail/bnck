@@ -1,0 +1,8 @@
+id = 'health'
+name = 'health'
+
+homepage = 'https://gitlab.gnome.org/World/Health'
+
+[[package]]
+channel = 'arch'
+name = 'health'

@@ -1,0 +1,8 @@
+id = 'vtgamma'
+name = 'vtgamma'
+
+homepage = 'https://github.com/kilobyte/vtgamma'
+
+[[package]]
+channel = 'debian'
+name = 'vtgamma'

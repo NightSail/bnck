@@ -1,0 +1,12 @@
+id = 'torf-cli'
+name = 'torf-cli'
+
+homepage = 'https://github.com/rndusr/torf-cli'
+
+[[package]]
+channel = 'debian'
+name = 'torf-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/torf-cli'

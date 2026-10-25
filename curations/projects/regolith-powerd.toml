@@ -1,0 +1,8 @@
+id = 'regolith-powerd'
+name = 'regolith-powerd'
+
+homepage = 'https://github.com/regolith-linux/regolith-powerd'
+
+[[package]]
+channel = 'debian'
+name = 'regolith-powerd'

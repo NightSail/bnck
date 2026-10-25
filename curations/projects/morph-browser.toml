@@ -1,0 +1,12 @@
+id = 'morph-browser'
+name = 'morph-browser'
+
+homepage = 'https://gitlab.com/ubports/development/core/morph-browser'
+
+[[package]]
+channel = 'debian'
+name = 'morph-browser'
+
+[[package]]
+channel = 'debian'
+name = 'morph-webapp-container'

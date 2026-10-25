@@ -1,0 +1,8 @@
+id = 'foolsm'
+name = 'foolsm'
+
+homepage = 'https://lsm.foobar.fi'
+
+[[package]]
+channel = 'debian'
+name = 'foolsm'

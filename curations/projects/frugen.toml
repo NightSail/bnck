@@ -1,0 +1,8 @@
+id = 'frugen'
+name = 'frugen'
+
+homepage = 'https://codeberg.org/IPMITool/frugen'
+
+[[package]]
+channel = 'debian'
+name = 'frugen'

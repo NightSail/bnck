@@ -1,0 +1,12 @@
+id = 'lablgl'
+name = 'lablgl'
+
+homepage = 'https://github.com/garrigue/lablgl'
+
+[[package]]
+channel = 'debian'
+name = 'liblablgl-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-lablgl'

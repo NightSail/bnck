@@ -1,0 +1,9 @@
+id = 'qcli'
+name = 'qcli'
+
+homepage = 'https://bavc.org/preserve-media/preservation-tools'
+repository = 'https://github.com/bavc/qctools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qcli'

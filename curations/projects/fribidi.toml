@@ -1,0 +1,16 @@
+id = 'fribidi'
+name = 'fribidi'
+
+homepage = 'https://github.com/fribidi/fribidi'
+
+[[package]]
+channel = 'arch'
+name = 'fribidi'
+
+[[package]]
+channel = 'fedora'
+name = 'fribidi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fribidi'

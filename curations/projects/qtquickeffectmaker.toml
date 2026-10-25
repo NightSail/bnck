@@ -1,0 +1,9 @@
+id = 'qtquickeffectmaker'
+name = 'qtquickeffectmaker'
+
+homepage = 'https://www.qt.io'
+repository = 'https://code.qt.io/qt/qtquickeffectmaker.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qtquickeffectmaker'

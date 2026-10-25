@@ -1,0 +1,8 @@
+id = 'gnarwl'
+name = 'gnarwl'
+
+homepage = 'https://github.com/fln/gnarwl'
+
+[[package]]
+channel = 'debian'
+name = 'gnarwl'

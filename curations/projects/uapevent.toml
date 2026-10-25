@@ -1,0 +1,6 @@
+id = 'uapevent'
+name = 'uapevent'
+
+[[package]]
+channel = 'debian'
+name = 'uapevent'

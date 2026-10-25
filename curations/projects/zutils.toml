@@ -1,0 +1,8 @@
+id = 'zutils'
+name = 'zutils'
+
+homepage = 'http://www.nongnu.org/zutils/zutils.html'
+
+[[package]]
+channel = 'debian'
+name = 'zutils'

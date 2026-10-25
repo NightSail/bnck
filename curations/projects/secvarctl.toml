@@ -1,0 +1,8 @@
+id = 'secvarctl'
+name = 'secvarctl'
+
+homepage = 'https://github.com/open-power/secvarctl'
+
+[[package]]
+channel = 'fedora'
+name = 'secvarctl'

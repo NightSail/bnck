@@ -1,0 +1,12 @@
+id = 'perl-prereqscanner'
+name = 'Perl-PrereqScanner'
+
+homepage = 'https://metacpan.org/release/Perl-PrereqScanner'
+
+[[package]]
+channel = 'debian'
+name = 'libperl-prereqscanner-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-PrereqScanner'

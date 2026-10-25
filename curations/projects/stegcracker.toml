@@ -1,0 +1,8 @@
+id = 'stegcracker'
+name = 'stegcracker'
+
+homepage = 'https://github.com/Paradoxis/StegCracker'
+
+[[package]]
+channel = 'debian'
+name = 'stegcracker'

@@ -1,0 +1,12 @@
+id = 'protobuf-compiler'
+name = 'protobuf-compiler'
+
+homepage = 'https://github.com/google/protobuf'
+
+[[package]]
+channel = 'debian'
+name = 'protobuf-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'protobuf-compiler'

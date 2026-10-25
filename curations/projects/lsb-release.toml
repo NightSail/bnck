@@ -1,0 +1,16 @@
+id = 'lsb-release'
+name = 'lsb-release'
+
+homepage = 'https://refspecs.linuxfoundation.org/lsb.shtml'
+
+[[package]]
+channel = 'arch'
+name = 'lsb-release'
+
+[[package]]
+channel = 'debian'
+name = 'lsb-release'
+
+[[package]]
+channel = 'fedora'
+name = 'lsb_release'

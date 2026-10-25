@@ -1,0 +1,8 @@
+id = 'awscli2'
+name = 'awscli2'
+
+homepage = 'https://github.com/aws/aws-cli/tree/v2'
+
+[[package]]
+channel = 'fedora'
+name = 'awscli2'

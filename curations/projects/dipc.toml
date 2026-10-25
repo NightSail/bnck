@@ -1,0 +1,8 @@
+id = 'dipc'
+name = 'dipc'
+
+homepage = 'https://github.com/doprz/dipc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dipc'

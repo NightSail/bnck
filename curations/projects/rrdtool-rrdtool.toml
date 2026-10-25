@@ -1,0 +1,8 @@
+id = 'rrdtool-rrdtool'
+name = 'rrdtool'
+
+homepage = 'https://www.rrdtool.org'
+
+[[package]]
+channel = 'arch'
+name = 'rrdtool'

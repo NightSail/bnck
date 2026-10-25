@@ -1,0 +1,8 @@
+id = 'oath-toolkit-oath-toolkit'
+name = 'oath-toolkit'
+
+homepage = 'https://oath-toolkit.codeberg.page'
+
+[[package]]
+channel = 'arch'
+name = 'oath-toolkit'

@@ -1,0 +1,8 @@
+id = 'python3-mailmerge'
+name = 'python3-mailmerge'
+
+homepage = 'https://github.com/awdeorio/mailmerge'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mailmerge'

@@ -1,0 +1,16 @@
+id = 'kmplot'
+name = 'kmplot'
+
+homepage = 'https://apps.kde.org/kmplot'
+
+[[package]]
+channel = 'arch'
+name = 'kmplot'
+
+[[package]]
+channel = 'debian'
+name = 'kmplot'
+
+[[package]]
+channel = 'fedora'
+name = 'kmplot'

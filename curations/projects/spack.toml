@@ -1,0 +1,9 @@
+id = 'spack'
+name = 'spack'
+
+homepage = 'https://spack.io'
+repository = 'https://github.com/spack/spack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spack'

@@ -1,0 +1,8 @@
+id = 'cenon-app'
+name = 'cenon.app'
+
+homepage = 'https://www.cenon.info'
+
+[[package]]
+channel = 'debian'
+name = 'cenon.app'

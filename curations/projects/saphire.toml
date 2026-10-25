@@ -1,0 +1,8 @@
+id = 'saphire'
+name = 'saphire'
+
+homepage = 'http://ab25cq.wiki.fc2.com'
+
+[[package]]
+channel = 'fedora'
+name = 'saphire'

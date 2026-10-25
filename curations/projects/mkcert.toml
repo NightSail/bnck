@@ -1,0 +1,20 @@
+id = 'mkcert'
+name = 'mkcert'
+
+repository = 'https://github.com/FiloSottile/mkcert.git'
+
+[[package]]
+channel = 'arch'
+name = 'mkcert'
+
+[[package]]
+channel = 'debian'
+name = 'mkcert'
+
+[[package]]
+channel = 'fedora'
+name = 'mkcert'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkcert'

@@ -1,0 +1,8 @@
+id = 'bdsync'
+name = 'bdsync'
+
+homepage = 'http://bdsync.rolf-fokkens.nl'
+
+[[package]]
+channel = 'fedora'
+name = 'bdsync'

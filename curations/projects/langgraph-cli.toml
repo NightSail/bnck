@@ -1,0 +1,8 @@
+id = 'langgraph-cli'
+name = 'langgraph-cli'
+
+homepage = 'https://www.github.com/langchain-ai/langgraph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/langgraph-cli'

@@ -1,0 +1,8 @@
+id = 'elpi'
+name = 'elpi'
+
+homepage = 'https://github.com/LPCIC/elpi'
+
+[[package]]
+channel = 'debian'
+name = 'elpi'

@@ -1,0 +1,16 @@
+id = 'tecla'
+name = 'tecla'
+
+homepage = 'https://gitlab.gnome.org/GNOME/tecla'
+
+[[package]]
+channel = 'arch'
+name = 'tecla'
+
+[[package]]
+channel = 'debian'
+name = 'tecla'
+
+[[package]]
+channel = 'fedora'
+name = 'tecla'

@@ -1,0 +1,12 @@
+id = 'klickety'
+name = 'klickety'
+
+homepage = 'https://apps.kde.org/klickety'
+
+[[package]]
+channel = 'arch'
+name = 'klickety'
+
+[[package]]
+channel = 'fedora'
+name = 'klickety'

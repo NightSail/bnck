@@ -1,0 +1,8 @@
+id = 'foosnapper'
+name = 'foosnapper'
+
+homepage = 'https://github.com/FoobarOy/foosnapper'
+
+[[package]]
+channel = 'fedora'
+name = 'foosnapper'

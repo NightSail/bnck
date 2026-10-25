@@ -1,0 +1,8 @@
+id = 'vi-sql'
+name = 'vi-sql'
+
+homepage = 'https://vi-sql.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vi-sql'

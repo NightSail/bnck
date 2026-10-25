@@ -1,0 +1,8 @@
+id = 'jsvc'
+name = 'jsvc'
+
+homepage = 'https://commons.apache.org/daemon/jsvc.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsvc'

@@ -1,0 +1,24 @@
+id = 'kio'
+name = 'kio'
+
+homepage = 'https://invent.kde.org/frameworks/kio'
+
+[[package]]
+channel = 'debian'
+name = 'kio'
+
+[[package]]
+channel = 'debian'
+name = 'kio6'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kio-core'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kio-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kio-core'

@@ -1,0 +1,8 @@
+id = 'python-nkdfu'
+name = 'python-nkdfu'
+
+homepage = 'https://github.com/Nitrokey/nkdfu'
+
+[[package]]
+channel = 'arch'
+name = 'python-nkdfu'

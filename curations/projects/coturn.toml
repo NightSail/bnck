@@ -1,0 +1,24 @@
+id = 'coturn'
+name = 'coturn'
+
+homepage = 'https://github.com/coturn/coturn'
+
+[[package]]
+channel = 'arch'
+name = 'coturn'
+
+[[package]]
+channel = 'debian'
+name = 'coturn'
+
+[[package]]
+channel = 'fedora'
+name = 'coturn'
+
+[[package]]
+channel = 'fedora'
+name = 'coturn-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/coturn'

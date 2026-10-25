@@ -1,0 +1,12 @@
+id = 'psi-notify'
+name = 'psi-notify'
+
+homepage = 'https://github.com/cdown/psi-notify'
+
+[[package]]
+channel = 'debian'
+name = 'psi-notify'
+
+[[package]]
+channel = 'fedora'
+name = 'psi-notify'

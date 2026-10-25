@@ -1,0 +1,8 @@
+id = 'varcode'
+name = 'varcode'
+
+homepage = 'https://github.com/openvax/varcode'
+
+[[package]]
+channel = 'debian'
+name = 'varcode'

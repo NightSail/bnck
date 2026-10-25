@@ -1,0 +1,9 @@
+id = 'pg-cli'
+name = 'pg-cli'
+
+homepage = 'https://github.com/encryption4all/postguard/tree/main/pg-cli'
+repository = 'https://github.com/encryption4all/postguard'
+
+[[package]]
+channel = 'crates.io'
+name = 'pg-cli'

@@ -1,0 +1,12 @@
+id = 'ffe'
+name = 'ffe'
+
+homepage = 'https://ff-extractor.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ffe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffe'

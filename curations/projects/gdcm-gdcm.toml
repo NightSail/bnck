@@ -1,0 +1,12 @@
+id = 'gdcm-gdcm'
+name = 'gdcm'
+
+homepage = 'http://gdcm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libgdcm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libvtkgdcm-tools'

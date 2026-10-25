@@ -1,0 +1,8 @@
+id = 'crytic-compile'
+name = 'crytic-compile'
+
+repository = 'https://github.com/crytic/crytic-compile.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crytic-compile'

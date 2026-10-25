@@ -1,0 +1,8 @@
+id = 'libnih'
+name = 'libnih'
+
+homepage = 'https://launchpad.net/libnih'
+
+[[package]]
+channel = 'arch'
+name = 'libnih'

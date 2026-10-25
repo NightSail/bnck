@@ -1,0 +1,8 @@
+id = 'opencore-amr'
+name = 'opencore-amr'
+
+homepage = 'https://sourceforge.net/projects/opencore-amr'
+
+[[package]]
+channel = 'arch'
+name = 'opencore-amr'

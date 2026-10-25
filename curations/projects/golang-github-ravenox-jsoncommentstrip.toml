@@ -1,0 +1,8 @@
+id = 'golang-github-ravenox-jsoncommentstrip'
+name = 'golang-github-ravenox-jsoncommentstrip'
+
+homepage = 'https://github.com/RaveNoX/go-jsoncommentstrip'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-ravenox-jsoncommentstrip'

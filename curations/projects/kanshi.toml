@@ -1,0 +1,16 @@
+id = 'kanshi'
+name = 'kanshi'
+
+homepage = 'https://gitlab.freedesktop.org/emersion/kanshi'
+
+[[package]]
+channel = 'arch'
+name = 'kanshi'
+
+[[package]]
+channel = 'debian'
+name = 'kanshi'
+
+[[package]]
+channel = 'fedora'
+name = 'kanshi'

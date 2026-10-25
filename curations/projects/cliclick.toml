@@ -1,0 +1,9 @@
+id = 'cliclick'
+name = 'cliclick'
+
+homepage = 'https://www.bluem.net/jump/cliclick'
+repository = 'https://github.com/BlueM/cliclick.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cliclick'

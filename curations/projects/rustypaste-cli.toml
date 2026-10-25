@@ -1,0 +1,13 @@
+id = 'rustypaste-cli'
+name = 'rustypaste-cli'
+
+homepage = 'https://blog.orhun.dev/blazingly-fast-file-sharing'
+repository = 'https://github.com/orhun/rustypaste-cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'rustypaste-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustypaste-cli'

@@ -1,0 +1,216 @@
+id = 'xorg-xorg'
+name = 'xorg'
+
+homepage = 'https://xorg.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'imake'
+
+[[package]]
+channel = 'arch'
+name = 'libxpm'
+
+[[package]]
+channel = 'arch'
+name = 'xcompmgr'
+
+[[package]]
+channel = 'arch'
+name = 'xf86-input-synaptics'
+
+[[package]]
+channel = 'arch'
+name = 'xf86-input-vmmouse'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-bdftopcf'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-font-util'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-oclock'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-server'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-server-xephyr'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-server-xnest'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-server-xvfb'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-sessreg'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-setxkbmap'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-smproxy'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-twm'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xbacklight'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xbiff'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xclipboard'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xcmsdb'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xconsole'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xcursorgen'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xdm'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xdpyinfo'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xdriinfo'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xeyes'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xfd'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xgamma'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xhost'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xinit'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xinput'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xkbevd'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xkill'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xload'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xlogo'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xlsatoms'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xlsclients'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xmag'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xman'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xmodmap'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xrandr'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xrdb'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xset'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xsetroot'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xvidtune'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xvinfo'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xwayland'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xwd'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xwininfo'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xwud'
+
+[[package]]
+channel = 'fedora'
+name = 'xcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'xedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imake'

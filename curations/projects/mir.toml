@@ -1,0 +1,18 @@
+id = 'mir'
+name = 'mir'
+
+[[package]]
+channel = 'debian'
+name = 'libmirwayland-bin'
+
+[[package]]
+channel = 'debian'
+name = 'mir-demos'
+
+[[package]]
+channel = 'debian'
+name = 'mir-test-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mir-x11-kiosk'

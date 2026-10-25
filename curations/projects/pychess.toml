@@ -1,0 +1,12 @@
+id = 'pychess'
+name = 'pychess'
+
+homepage = 'https://pychess.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'pychess'
+
+[[package]]
+channel = 'fedora'
+name = 'pychess'

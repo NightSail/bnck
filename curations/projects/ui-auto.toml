@@ -1,0 +1,8 @@
+id = 'ui-auto'
+name = 'ui-auto'
+
+homepage = 'http://ui-auto.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ui-auto'

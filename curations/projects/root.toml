@@ -1,0 +1,44 @@
+id = 'root'
+name = 'root'
+
+homepage = 'https://root.cern'
+
+[[package]]
+channel = 'arch'
+name = 'root'
+
+[[package]]
+channel = 'arch'
+name = 'root-cuda'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyroot'
+
+[[package]]
+channel = 'fedora'
+name = 'root'
+
+[[package]]
+channel = 'fedora'
+name = 'root-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'root-cling'
+
+[[package]]
+channel = 'fedora'
+name = 'root-core'
+
+[[package]]
+channel = 'fedora'
+name = 'root-hbook'
+
+[[package]]
+channel = 'fedora'
+name = 'root-hist-factory'
+
+[[package]]
+channel = 'fedora'
+name = 'root-proof'

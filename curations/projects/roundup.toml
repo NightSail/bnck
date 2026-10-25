@@ -1,0 +1,9 @@
+id = 'roundup'
+name = 'roundup'
+
+homepage = 'https://bmizerany.github.io/roundup'
+repository = 'https://github.com/bmizerany/roundup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/roundup'

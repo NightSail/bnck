@@ -1,0 +1,12 @@
+id = 'freedoom'
+name = 'freedoom'
+
+homepage = 'https://freedoom.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'freedoom'
+
+[[package]]
+channel = 'fedora'
+name = 'freedoom2'

@@ -1,0 +1,8 @@
+id = 'unclutter'
+name = 'unclutter'
+
+homepage = 'https://web.archive.org/web/20151129214845/http://ftp.x.org/contrib/utilities'
+
+[[package]]
+channel = 'debian'
+name = 'unclutter'

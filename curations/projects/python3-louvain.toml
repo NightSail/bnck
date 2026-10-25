@@ -1,0 +1,8 @@
+id = 'python3-louvain'
+name = 'python3-louvain'
+
+homepage = 'https://github.com/taynaud/python-louvain'
+
+[[package]]
+channel = 'debian'
+name = 'python3-louvain'

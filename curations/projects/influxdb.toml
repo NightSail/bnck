@@ -1,0 +1,17 @@
+id = 'influxdb'
+name = 'influxdb'
+
+homepage = 'https://influxdata.com/time-series-platform/influxdb'
+repository = 'https://github.com/influxdata/influxdb.git'
+
+[[package]]
+channel = 'arch'
+name = 'influxdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/influxdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/influxdb@2'

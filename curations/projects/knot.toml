@@ -1,0 +1,9 @@
+id = 'knot'
+name = 'knot'
+
+homepage = 'https://www.knot-dns.cz'
+repository = 'https://gitlab.nic.cz/knot/knot-dns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/knot'

@@ -1,0 +1,16 @@
+id = 'megatools'
+name = 'megatools'
+
+homepage = 'https://xff.cz/megatools'
+
+[[package]]
+channel = 'debian'
+name = 'megatools'
+
+[[package]]
+channel = 'fedora'
+name = 'megatools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/megatools'

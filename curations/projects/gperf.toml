@@ -1,0 +1,20 @@
+id = 'gperf'
+name = 'gperf'
+
+homepage = 'https://www.gnu.org/software/gperf'
+
+[[package]]
+channel = 'arch'
+name = 'gperf'
+
+[[package]]
+channel = 'debian'
+name = 'gperf'
+
+[[package]]
+channel = 'fedora'
+name = 'gperf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gperf'

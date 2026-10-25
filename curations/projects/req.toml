@@ -1,0 +1,8 @@
+id = 'req'
+name = 'req'
+
+homepage = 'https://github.com/andrewpillar/req'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/req'

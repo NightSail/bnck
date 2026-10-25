@@ -1,0 +1,12 @@
+id = 'module-path'
+name = 'Module-Path'
+
+homepage = 'https://metacpan.org/release/Module-Path'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-path-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Path'

@@ -1,0 +1,8 @@
+id = 'style-check'
+name = 'style-check'
+
+homepage = 'https://www.cs.umd.edu/~nspring/software/style-check-readme.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/style-check'

@@ -1,0 +1,12 @@
+id = 'klines'
+name = 'klines'
+
+homepage = 'https://apps.kde.org/klines'
+
+[[package]]
+channel = 'arch'
+name = 'klines'
+
+[[package]]
+channel = 'fedora'
+name = 'klines'

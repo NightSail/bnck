@@ -1,0 +1,32 @@
+id = 'maelstrom-software'
+name = 'maelstrom-software'
+
+homepage = 'https://maelstrom-software.com'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-maelstrom'
+
+[[package]]
+channel = 'arch'
+name = 'maelstrom-broker'
+
+[[package]]
+channel = 'arch'
+name = 'maelstrom-client'
+
+[[package]]
+channel = 'arch'
+name = 'maelstrom-go-test'
+
+[[package]]
+channel = 'arch'
+name = 'maelstrom-pytest'
+
+[[package]]
+channel = 'arch'
+name = 'maelstrom-run'
+
+[[package]]
+channel = 'arch'
+name = 'maelstrom-worker'

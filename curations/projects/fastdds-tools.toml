@@ -1,0 +1,8 @@
+id = 'fastdds-tools'
+name = 'fastdds-tools'
+
+homepage = 'https://github.com/eProsima/Fast-DDS'
+
+[[package]]
+channel = 'debian'
+name = 'fastdds-tools'

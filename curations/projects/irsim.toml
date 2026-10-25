@@ -1,0 +1,12 @@
+id = 'irsim'
+name = 'irsim'
+
+homepage = 'http://opencircuitdesign.com/irsim'
+
+[[package]]
+channel = 'debian'
+name = 'irsim'
+
+[[package]]
+channel = 'fedora'
+name = 'irsim'

@@ -1,0 +1,16 @@
+id = 'pan'
+name = 'pan'
+
+homepage = 'https://gitlab.gnome.org/GNOME/pan'
+
+[[package]]
+channel = 'arch'
+name = 'pan'
+
+[[package]]
+channel = 'debian'
+name = 'pan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pan'

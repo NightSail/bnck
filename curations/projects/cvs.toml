@@ -1,0 +1,16 @@
+id = 'cvs'
+name = 'cvs'
+
+homepage = 'https://cvs.nongnu.org'
+
+[[package]]
+channel = 'arch'
+name = 'cvs'
+
+[[package]]
+channel = 'fedora'
+name = 'cvs'
+
+[[package]]
+channel = 'fedora'
+name = 'cvs-contrib'

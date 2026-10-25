@@ -1,0 +1,8 @@
+id = 'flintqs'
+name = 'flintqs'
+
+homepage = 'https://github.com/sagemath/FlintQS'
+
+[[package]]
+channel = 'debian'
+name = 'flintqs'

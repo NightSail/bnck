@@ -1,0 +1,8 @@
+id = 'sq'
+name = 'sq'
+
+homepage = 'https://sq.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sq'

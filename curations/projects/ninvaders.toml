@@ -1,0 +1,8 @@
+id = 'ninvaders'
+name = 'ninvaders'
+
+homepage = 'https://ninvaders.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ninvaders'

@@ -4,12 +4,20 @@ name = 'tre'
 repository = 'https://github.com/dduan/tre'
 
 [[package]]
+channel = 'arch'
+name = 'tre'
+
+[[package]]
 channel = 'crates.io'
 name = 'tre-command'
 
 [[package]]
 channel = 'debian'
 name = 'tre-command'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tre'
 
 [[package]]
 channel = 'homebrew'

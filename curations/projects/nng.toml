@@ -1,0 +1,16 @@
+id = 'nng'
+name = 'nng'
+
+homepage = 'https://nng.nanomsg.org'
+
+[[package]]
+channel = 'arch'
+name = 'nng'
+
+[[package]]
+channel = 'debian'
+name = 'nng-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nng'

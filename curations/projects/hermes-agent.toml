@@ -1,0 +1,9 @@
+id = 'hermes-agent'
+name = 'hermes-agent'
+
+homepage = 'https://hermes-agent.nousresearch.com'
+repository = 'https://github.com/NousResearch/hermes-agent.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hermes-agent'

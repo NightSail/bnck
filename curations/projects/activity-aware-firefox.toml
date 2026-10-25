@@ -1,0 +1,8 @@
+id = 'activity-aware-firefox'
+name = 'activity-aware-firefox'
+
+homepage = 'https://gitlab.com/hook/activity-aware-firefox'
+
+[[package]]
+channel = 'debian'
+name = 'activity-aware-firefox'

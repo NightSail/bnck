@@ -1,0 +1,16 @@
+id = 'zanshin'
+name = 'zanshin'
+
+homepage = 'https://apps.kde.org/zanshin'
+
+[[package]]
+channel = 'arch'
+name = 'zanshin'
+
+[[package]]
+channel = 'debian'
+name = 'zanshin'
+
+[[package]]
+channel = 'fedora'
+name = 'zanshin'

@@ -1,0 +1,16 @@
+id = 'kgeography'
+name = 'kgeography'
+
+homepage = 'https://apps.kde.org/kgeography'
+
+[[package]]
+channel = 'arch'
+name = 'kgeography'
+
+[[package]]
+channel = 'debian'
+name = 'kgeography'
+
+[[package]]
+channel = 'fedora'
+name = 'kgeography'

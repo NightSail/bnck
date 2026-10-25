@@ -1,0 +1,8 @@
+id = 'battray'
+name = 'battray'
+
+homepage = 'https://github.com/arp242/battray'
+
+[[package]]
+channel = 'fedora'
+name = 'battray'

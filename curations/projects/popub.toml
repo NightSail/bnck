@@ -1,0 +1,12 @@
+id = 'popub'
+name = 'popub'
+
+homepage = 'https://github.com/m13253/popub'
+
+[[package]]
+channel = 'fedora'
+name = 'popub-local'
+
+[[package]]
+channel = 'fedora'
+name = 'popub-relay'

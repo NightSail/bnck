@@ -1,0 +1,8 @@
+id = 'check-sieve'
+name = 'check-sieve'
+
+homepage = 'https://github.com/dburkart/check-sieve'
+
+[[package]]
+channel = 'arch'
+name = 'check-sieve'

@@ -1,0 +1,17 @@
+id = 'ne'
+name = 'ne'
+
+homepage = 'https://ne.di.unimi.it'
+repository = 'https://github.com/vigna/ne.git'
+
+[[package]]
+channel = 'debian'
+name = 'ne'
+
+[[package]]
+channel = 'fedora'
+name = 'ne'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ne'

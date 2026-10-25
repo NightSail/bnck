@@ -1,0 +1,44 @@
+id = 'strongswan'
+name = 'strongswan'
+
+homepage = 'https://www.strongswan.org'
+
+[[package]]
+channel = 'arch'
+name = 'strongswan'
+
+[[package]]
+channel = 'debian'
+name = 'charon-cmd'
+
+[[package]]
+channel = 'debian'
+name = 'charon-systemd'
+
+[[package]]
+channel = 'debian'
+name = 'libcharon-extra-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'libstrongswan-extra-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'strongswan-pki'
+
+[[package]]
+channel = 'debian'
+name = 'strongswan-starter'
+
+[[package]]
+channel = 'debian'
+name = 'strongswan-swanctl'
+
+[[package]]
+channel = 'fedora'
+name = 'strongswan'
+
+[[package]]
+channel = 'fedora'
+name = 'strongswan-tnc-imcvs'

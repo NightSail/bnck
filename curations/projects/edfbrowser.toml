@@ -1,0 +1,8 @@
+id = 'edfbrowser'
+name = 'edfbrowser'
+
+homepage = 'https://www.teuniz.net/edfbrowser'
+
+[[package]]
+channel = 'debian'
+name = 'edfbrowser'

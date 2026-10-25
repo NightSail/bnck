@@ -1,0 +1,8 @@
+id = 'wmifinfo'
+name = 'wmifinfo'
+
+homepage = 'https://www.dockapps.net/wmifinfo'
+
+[[package]]
+channel = 'debian'
+name = 'wmifinfo'

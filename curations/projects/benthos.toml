@@ -1,0 +1,8 @@
+id = 'benthos'
+name = 'benthos'
+
+repository = 'https://github.com/redpanda-data/benthos.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/benthos'

@@ -1,0 +1,12 @@
+id = 'sgml-common'
+name = 'sgml-common'
+
+homepage = 'https://www.docbook.org/xml'
+
+[[package]]
+channel = 'arch'
+name = 'sgml-common'
+
+[[package]]
+channel = 'fedora'
+name = 'sgml-common'

@@ -1,0 +1,8 @@
+id = 'python3-pywws'
+name = 'python3-pywws'
+
+homepage = 'https://github.com/jim-easterbrook/pywws'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pywws'

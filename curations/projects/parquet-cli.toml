@@ -1,0 +1,9 @@
+id = 'parquet-cli'
+name = 'parquet-cli'
+
+homepage = 'https://parquet.apache.org'
+repository = 'https://github.com/apache/parquet-java.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/parquet-cli'

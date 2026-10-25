@@ -1,0 +1,8 @@
+id = 'liburdfdom-tools'
+name = 'liburdfdom-tools'
+
+homepage = 'https://github.com/ros/urdfdom'
+
+[[package]]
+channel = 'debian'
+name = 'liburdfdom-tools'

@@ -1,0 +1,8 @@
+id = 'solarpowerlog'
+name = 'solarpowerlog'
+
+homepage = 'https://github.com/coldtobi/solarpowerlog'
+
+[[package]]
+channel = 'debian'
+name = 'solarpowerlog'

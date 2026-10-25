@@ -1,0 +1,20 @@
+id = 'foremost'
+name = 'foremost'
+
+homepage = 'http://foremost.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'foremost'
+
+[[package]]
+channel = 'debian'
+name = 'foremost'
+
+[[package]]
+channel = 'fedora'
+name = 'foremost'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/foremost'

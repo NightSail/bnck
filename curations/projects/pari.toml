@@ -1,0 +1,36 @@
+id = 'pari'
+name = 'pari'
+
+homepage = 'https://pari.math.u-bordeaux.fr'
+
+[[package]]
+channel = 'arch'
+name = 'pari'
+
+[[package]]
+channel = 'debian'
+name = 'pari-doc'
+
+[[package]]
+channel = 'debian'
+name = 'pari-gp'
+
+[[package]]
+channel = 'debian'
+name = 'pari-gp2c'
+
+[[package]]
+channel = 'debian'
+name = 'xeus-gp'
+
+[[package]]
+channel = 'fedora'
+name = 'gp2c'
+
+[[package]]
+channel = 'fedora'
+name = 'pari-gp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pari'

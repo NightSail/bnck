@@ -1,0 +1,6 @@
+id = 'powermgmt-base'
+name = 'powermgmt-base'
+
+[[package]]
+channel = 'debian'
+name = 'powermgmt-base'

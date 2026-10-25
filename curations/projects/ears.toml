@@ -1,0 +1,8 @@
+id = 'ears'
+name = 'ears'
+
+homepage = 'https://retina.studio/ears'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/ears'

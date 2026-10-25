@@ -1,0 +1,9 @@
+id = 'kubecm'
+name = 'kubecm'
+
+homepage = 'https://kubecm.cloud'
+repository = 'https://github.com/sunny0826/kubecm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubecm'

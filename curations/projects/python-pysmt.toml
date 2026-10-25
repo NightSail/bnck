@@ -1,0 +1,8 @@
+id = 'python-pysmt'
+name = 'python-pysmt'
+
+homepage = 'https://github.com/pysmt/pysmt'
+
+[[package]]
+channel = 'arch'
+name = 'python-pysmt'

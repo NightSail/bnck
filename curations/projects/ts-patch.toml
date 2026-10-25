@@ -1,0 +1,8 @@
+id = 'ts-patch'
+name = 'ts-patch'
+
+homepage = 'https://github.com/nonara/ts-patch'
+
+[[package]]
+channel = 'debian'
+name = 'ts-patch'

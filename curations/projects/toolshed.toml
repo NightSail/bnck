@@ -1,0 +1,8 @@
+id = 'toolshed'
+name = 'toolshed'
+
+homepage = 'http://sourceforge.net/projects/toolshed'
+
+[[package]]
+channel = 'fedora'
+name = 'toolshed'

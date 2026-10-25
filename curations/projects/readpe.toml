@@ -1,0 +1,13 @@
+id = 'readpe'
+name = 'readpe'
+
+homepage = 'https://github.com/mentebinaria/readpe/wiki'
+repository = 'https://github.com/mentebinaria/readpe.git'
+
+[[package]]
+channel = 'debian'
+name = 'readpe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/readpe'

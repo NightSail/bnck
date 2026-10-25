@@ -1,0 +1,8 @@
+id = 'proxyfuzz'
+name = 'proxyfuzz'
+
+homepage = 'https://github.com/SECFORCE'
+
+[[package]]
+channel = 'fedora'
+name = 'proxyfuzz'

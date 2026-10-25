@@ -1,0 +1,16 @@
+id = 'texstudio'
+name = 'texstudio'
+
+homepage = 'http://texstudio.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'texstudio'
+
+[[package]]
+channel = 'debian'
+name = 'texstudio'
+
+[[package]]
+channel = 'fedora'
+name = 'texstudio'

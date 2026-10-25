@@ -1,0 +1,8 @@
+id = 'myrepos-utils'
+name = 'myrepos-utils'
+
+homepage = 'https://git.sr.ht/~michel-slm/myrepos-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'myrepos-utils'

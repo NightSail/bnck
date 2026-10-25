@@ -1,0 +1,12 @@
+id = 'extractpdfmark'
+name = 'extractpdfmark'
+
+homepage = 'https://github.com/trueroad/extractpdfmark'
+
+[[package]]
+channel = 'debian'
+name = 'extractpdfmark'
+
+[[package]]
+channel = 'fedora'
+name = 'extractpdfmark'

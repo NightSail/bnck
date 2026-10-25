@@ -1,0 +1,8 @@
+id = 'ruby-gitlab'
+name = 'ruby-gitlab'
+
+homepage = 'https://github.com/NARKOZ/gitlab'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-gitlab'

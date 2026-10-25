@@ -1,0 +1,8 @@
+id = 'python3-zope-testrunner'
+name = 'python3-zope-testrunner'
+
+homepage = 'https://pypi.python.org/pypi/zope.testrunner'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-zope-testrunner'

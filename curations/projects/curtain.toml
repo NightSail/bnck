@@ -1,0 +1,8 @@
+id = 'curtain'
+name = 'curtain'
+
+homepage = 'https://github.com/gfreeau/ardesia'
+
+[[package]]
+channel = 'debian'
+name = 'curtain'

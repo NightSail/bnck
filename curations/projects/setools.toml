@@ -1,0 +1,24 @@
+id = 'setools'
+name = 'setools'
+
+homepage = 'https://github.com/SELinuxProject/setools/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'setools'
+
+[[package]]
+channel = 'debian'
+name = 'setools-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'setools-console'
+
+[[package]]
+channel = 'fedora'
+name = 'setools-console-analyses'
+
+[[package]]
+channel = 'fedora'
+name = 'setools-gui'

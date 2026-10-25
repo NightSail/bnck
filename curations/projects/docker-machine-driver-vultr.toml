@@ -1,0 +1,8 @@
+id = 'docker-machine-driver-vultr'
+name = 'docker-machine-driver-vultr'
+
+repository = 'https://github.com/vultr/docker-machine-driver-vultr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-machine-driver-vultr'

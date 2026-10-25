@@ -1,0 +1,8 @@
+id = 'mallard-ducktype'
+name = 'mallard-ducktype'
+
+homepage = 'http://projectmallard.org'
+
+[[package]]
+channel = 'arch'
+name = 'mallard-ducktype'

@@ -1,0 +1,8 @@
+id = 'python3-pdbfixer'
+name = 'python3-pdbfixer'
+
+homepage = 'https://github.com/openmm/pdbfixer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pdbfixer'

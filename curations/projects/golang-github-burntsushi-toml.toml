@@ -1,0 +1,8 @@
+id = 'golang-github-burntsushi-toml'
+name = 'golang-github-burntsushi-toml'
+
+homepage = 'https://github.com/BurntSushi/toml'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-burntsushi-toml'

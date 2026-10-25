@@ -1,0 +1,9 @@
+id = 'stellar-core'
+name = 'stellar-core'
+
+homepage = 'https://www.stellar.org'
+repository = 'https://github.com/stellar/stellar-core.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stellar-core'

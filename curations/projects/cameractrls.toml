@@ -1,0 +1,8 @@
+id = 'cameractrls'
+name = 'cameractrls'
+
+homepage = 'https://github.com/soyersoyer/cameractrls'
+
+[[package]]
+channel = 'arch'
+name = 'cameractrls'

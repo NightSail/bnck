@@ -1,0 +1,12 @@
+id = 'udpcast'
+name = 'udpcast'
+
+homepage = 'https://udpcast.linux.lu'
+
+[[package]]
+channel = 'debian'
+name = 'udpcast'
+
+[[package]]
+channel = 'fedora'
+name = 'udpcast'

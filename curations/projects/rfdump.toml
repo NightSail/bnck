@@ -1,0 +1,12 @@
+id = 'rfdump'
+name = 'rfdump'
+
+homepage = 'http://www.rfdump.org'
+
+[[package]]
+channel = 'arch'
+name = 'rfdump'
+
+[[package]]
+channel = 'debian'
+name = 'rfdump'

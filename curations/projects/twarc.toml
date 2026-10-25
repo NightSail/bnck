@@ -1,0 +1,8 @@
+id = 'twarc'
+name = 'twarc'
+
+homepage = 'https://github.com/DocNow/twarc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/twarc'

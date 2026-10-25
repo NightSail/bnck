@@ -1,0 +1,12 @@
+id = 'unit-translator'
+name = 'unit-translator'
+
+homepage = 'https://git.devuan.org/leepen/unit-translator'
+
+[[package]]
+channel = 'debian'
+name = 'utrans'
+
+[[package]]
+channel = 'debian'
+name = 'utrans-rc'

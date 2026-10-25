@@ -1,0 +1,8 @@
+id = 'stacks'
+name = 'stacks'
+
+homepage = 'https://creskolab.uoregon.edu/stacks'
+
+[[package]]
+channel = 'debian'
+name = 'stacks'

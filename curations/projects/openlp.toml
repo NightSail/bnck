@@ -1,0 +1,12 @@
+id = 'openlp'
+name = 'OpenLP'
+
+homepage = 'https://openlp.org'
+
+[[package]]
+channel = 'debian'
+name = 'openlp'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenLP'

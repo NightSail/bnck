@@ -1,0 +1,16 @@
+id = 'videolan-videolan'
+name = 'videolan'
+
+homepage = 'https://www.videolan.org/developers/libdca.html'
+
+[[package]]
+channel = 'arch'
+name = 'libdca'
+
+[[package]]
+channel = 'debian'
+name = 'libdca-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdca'

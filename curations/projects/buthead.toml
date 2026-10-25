@@ -1,0 +1,6 @@
+id = 'buthead'
+name = 'buthead'
+
+[[package]]
+channel = 'debian'
+name = 'buthead'

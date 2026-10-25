@@ -1,0 +1,13 @@
+id = 'spades'
+name = 'spades'
+
+homepage = 'https://ablab.github.io/spades'
+repository = 'https://github.com/ablab/spades.git'
+
+[[package]]
+channel = 'debian'
+name = 'spades'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spades'

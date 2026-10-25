@@ -1,0 +1,9 @@
+id = 'kube-score'
+name = 'kube-score'
+
+homepage = 'https://kube-score.com'
+repository = 'https://github.com/zegl/kube-score.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kube-score'

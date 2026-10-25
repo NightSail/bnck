@@ -1,0 +1,8 @@
+id = 'python3-pytest-bdd'
+name = 'python3-pytest-bdd'
+
+homepage = 'https://pytest-bdd.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytest-bdd'

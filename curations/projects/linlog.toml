@@ -1,0 +1,8 @@
+id = 'linlog'
+name = 'LinLog'
+
+homepage = 'http://linlogbook.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'LinLog'

@@ -1,0 +1,12 @@
+id = 'hash-slinger'
+name = 'hash-slinger'
+
+homepage = 'https://github.com/letoams/hash-slinger'
+
+[[package]]
+channel = 'debian'
+name = 'hash-slinger'
+
+[[package]]
+channel = 'fedora'
+name = 'hash-slinger'

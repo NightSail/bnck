@@ -1,0 +1,8 @@
+id = 'webvfx'
+name = 'webvfx'
+
+homepage = 'https://github.com/mltframework/webvfx'
+
+[[package]]
+channel = 'fedora'
+name = 'webvfx'

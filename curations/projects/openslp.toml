@@ -1,0 +1,16 @@
+id = 'openslp'
+name = 'openslp'
+
+homepage = 'http://www.openslp.org'
+
+[[package]]
+channel = 'fedora'
+name = 'openslp'
+
+[[package]]
+channel = 'fedora'
+name = 'openslp-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openslp'

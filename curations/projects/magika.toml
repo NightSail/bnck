@@ -1,0 +1,9 @@
+id = 'magika'
+name = 'magika'
+
+homepage = 'https://securityresearch.google/magika'
+repository = 'https://github.com/google/magika.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/magika'

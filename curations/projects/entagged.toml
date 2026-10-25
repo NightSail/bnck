@@ -1,0 +1,8 @@
+id = 'entagged'
+name = 'entagged'
+
+homepage = 'https://sourceforge.net/projects/entagged'
+
+[[package]]
+channel = 'debian'
+name = 'entagged'

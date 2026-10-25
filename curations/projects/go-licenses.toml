@@ -1,0 +1,8 @@
+id = 'go-licenses'
+name = 'go-licenses'
+
+homepage = 'https://github.com/google/go-licenses'
+
+[[package]]
+channel = 'arch'
+name = 'go-licenses'

@@ -1,0 +1,8 @@
+id = 'shellcheck-sarif'
+name = 'shellcheck-sarif'
+
+homepage = 'https://crates.io/crates/shellcheck-sarif'
+
+[[package]]
+channel = 'fedora'
+name = 'shellcheck-sarif'

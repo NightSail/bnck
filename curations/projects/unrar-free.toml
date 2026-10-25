@@ -1,0 +1,20 @@
+id = 'unrar-free'
+name = 'unrar-free'
+
+homepage = 'https://gitlab.com/bgermann/unrar-free'
+
+[[package]]
+channel = 'arch'
+name = 'unrar-free'
+
+[[package]]
+channel = 'debian'
+name = 'unrar-free'
+
+[[package]]
+channel = 'fedora'
+name = 'unrar'
+
+[[package]]
+channel = 'fedora'
+name = 'unrar-free'

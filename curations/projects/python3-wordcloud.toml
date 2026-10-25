@@ -1,0 +1,12 @@
+id = 'python3-wordcloud'
+name = 'python3-wordcloud'
+
+homepage = 'https://github.com/amueller/word_cloud'
+
+[[package]]
+channel = 'debian'
+name = 'python3-wordcloud'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-wordcloud'

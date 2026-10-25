@@ -1,0 +1,6 @@
+id = 'dkim-rotate'
+name = 'dkim-rotate'
+
+[[package]]
+channel = 'debian'
+name = 'dkim-rotate'

@@ -1,0 +1,8 @@
+id = 'hwdetect'
+name = 'hwdetect'
+
+homepage = 'https://archlinux.org/packages/extra/any/hwdetect'
+
+[[package]]
+channel = 'arch'
+name = 'hwdetect'

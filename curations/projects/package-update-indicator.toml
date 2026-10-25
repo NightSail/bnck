@@ -1,0 +1,8 @@
+id = 'package-update-indicator'
+name = 'package-update-indicator'
+
+homepage = 'https://code.guido-berhoerster.org/projects/package-update-indicator'
+
+[[package]]
+channel = 'debian'
+name = 'package-update-indicator'

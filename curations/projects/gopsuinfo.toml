@@ -1,0 +1,8 @@
+id = 'gopsuinfo'
+name = 'gopsuinfo'
+
+homepage = 'https://github.com/nwg-piotr/gopsuinfo'
+
+[[package]]
+channel = 'arch'
+name = 'gopsuinfo'

@@ -1,0 +1,8 @@
+id = 'python3-exchange-calendars'
+name = 'python3-exchange-calendars'
+
+homepage = 'https://github.com/gerrymanoim/exchange_calendars'
+
+[[package]]
+channel = 'debian'
+name = 'python3-exchange-calendars'

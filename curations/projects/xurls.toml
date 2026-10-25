@@ -1,0 +1,8 @@
+id = 'xurls'
+name = 'xurls'
+
+repository = 'https://github.com/mvdan/xurls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xurls'

@@ -1,0 +1,8 @@
+id = 'atomist-cli'
+name = 'atomist-cli'
+
+homepage = 'https://github.com/atomist/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atomist-cli'

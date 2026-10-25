@@ -1,0 +1,8 @@
+id = 'pwkickstart'
+name = 'pwkickstart'
+
+homepage = 'https://github.com/lzap/pwkickstart'
+
+[[package]]
+channel = 'fedora'
+name = 'pwkickstart'

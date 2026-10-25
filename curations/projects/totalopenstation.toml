@@ -1,0 +1,8 @@
+id = 'totalopenstation'
+name = 'totalopenstation'
+
+homepage = 'https://tops.iosa.it'
+
+[[package]]
+channel = 'debian'
+name = 'totalopenstation'

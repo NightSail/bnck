@@ -1,0 +1,8 @@
+id = 'ruby-em-proxy'
+name = 'ruby-em-proxy'
+
+homepage = 'https://github.com/igrigorik/em-proxy'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-em-proxy'

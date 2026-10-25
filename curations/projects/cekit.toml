@@ -1,0 +1,12 @@
+id = 'cekit'
+name = 'cekit'
+
+homepage = 'https://cekit.io'
+
+[[package]]
+channel = 'fedora'
+name = 'cekit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cekit'

@@ -1,0 +1,10 @@
+id = 'xzgv'
+name = 'xzgv'
+
+[[package]]
+channel = 'debian'
+name = 'xzgv'
+
+[[package]]
+channel = 'fedora'
+name = 'xzgv'

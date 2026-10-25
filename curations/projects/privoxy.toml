@@ -1,0 +1,20 @@
+id = 'privoxy'
+name = 'privoxy'
+
+homepage = 'https://www.privoxy.org'
+
+[[package]]
+channel = 'arch'
+name = 'privoxy'
+
+[[package]]
+channel = 'debian'
+name = 'privoxy'
+
+[[package]]
+channel = 'fedora'
+name = 'privoxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/privoxy'

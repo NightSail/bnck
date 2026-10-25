@@ -1,0 +1,16 @@
+id = 'kiconthemes'
+name = 'kiconthemes'
+
+homepage = 'https://invent.kde.org/frameworks/kiconthemes'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5iconthemes-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6iconthemes-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kiconthemes'

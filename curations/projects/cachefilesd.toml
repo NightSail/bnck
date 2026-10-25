@@ -1,0 +1,10 @@
+id = 'cachefilesd'
+name = 'cachefilesd'
+
+[[package]]
+channel = 'debian'
+name = 'cachefilesd'
+
+[[package]]
+channel = 'fedora'
+name = 'cachefilesd'

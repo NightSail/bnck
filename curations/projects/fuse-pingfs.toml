@@ -1,0 +1,8 @@
+id = 'fuse-pingfs'
+name = 'fuse-pingfs'
+
+homepage = 'https://github.com/yarrick/pingfs'
+
+[[package]]
+channel = 'fedora'
+name = 'fuse-pingfs'

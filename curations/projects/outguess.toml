@@ -1,0 +1,8 @@
+id = 'outguess'
+name = 'outguess'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/outguess'
+
+[[package]]
+channel = 'debian'
+name = 'outguess'

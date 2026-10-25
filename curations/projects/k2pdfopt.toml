@@ -1,0 +1,8 @@
+id = 'k2pdfopt'
+name = 'k2pdfopt'
+
+homepage = 'https://www.willus.com/k2pdfopt'
+
+[[package]]
+channel = 'debian'
+name = 'k2pdfopt'

@@ -1,0 +1,12 @@
+id = 'swish'
+name = 'swish'
+
+homepage = 'https://gitlab.com/dburke/swish'
+
+[[package]]
+channel = 'debian'
+name = 'swish'
+
+[[package]]
+channel = 'debian'
+name = 'swish++'

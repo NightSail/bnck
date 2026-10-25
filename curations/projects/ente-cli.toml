@@ -1,0 +1,9 @@
+id = 'ente-cli'
+name = 'ente-cli'
+
+homepage = 'https://github.com/ente-io'
+repository = 'https://github.com/ente/ente.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ente-cli'

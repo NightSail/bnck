@@ -1,0 +1,12 @@
+id = 'bowtie'
+name = 'bowtie'
+
+homepage = 'https://bowtie-bio.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'bowtie'
+
+[[package]]
+channel = 'fedora'
+name = 'bowtie'

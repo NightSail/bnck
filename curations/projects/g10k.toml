@@ -1,0 +1,8 @@
+id = 'g10k'
+name = 'g10k'
+
+homepage = 'https://github.com/xorpaul/g10k'
+
+[[package]]
+channel = 'debian'
+name = 'g10k'

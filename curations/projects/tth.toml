@@ -1,0 +1,20 @@
+id = 'tth'
+name = 'tth'
+
+homepage = 'http://silas.psfc.mit.edu/tth'
+
+[[package]]
+channel = 'debian'
+name = 'tth'
+
+[[package]]
+channel = 'debian'
+name = 'tth-common'
+
+[[package]]
+channel = 'fedora'
+name = 'tth'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tth'

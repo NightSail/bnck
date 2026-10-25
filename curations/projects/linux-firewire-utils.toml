@@ -1,0 +1,8 @@
+id = 'linux-firewire-utils'
+name = 'linux-firewire-utils'
+
+homepage = 'https://git.kernel.org/pub/scm/utils/ieee1394/linux-firewire-utils.git'
+
+[[package]]
+channel = 'debian'
+name = 'linux-firewire-utils'

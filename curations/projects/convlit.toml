@@ -1,0 +1,8 @@
+id = 'convlit'
+name = 'convlit'
+
+homepage = 'https://www.kyzer.me.uk/pack/convlit'
+
+[[package]]
+channel = 'debian'
+name = 'convlit'

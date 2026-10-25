@@ -1,0 +1,12 @@
+id = 'tikzit'
+name = 'tikzit'
+
+homepage = 'https://tikzit.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'tikzit'
+
+[[package]]
+channel = 'fedora'
+name = 'tikzit'

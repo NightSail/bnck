@@ -1,0 +1,8 @@
+id = 'ec2-instance-connect'
+name = 'ec2-instance-connect'
+
+homepage = 'https://github.com/aws/aws-ec2-instance-connect-config'
+
+[[package]]
+channel = 'fedora'
+name = 'ec2-instance-connect'

@@ -1,0 +1,8 @@
+id = 'magnus'
+name = 'magnus'
+
+homepage = 'https://github.com/stuartlangridge/magnus'
+
+[[package]]
+channel = 'debian'
+name = 'magnus'

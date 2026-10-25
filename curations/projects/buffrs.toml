@@ -1,0 +1,8 @@
+id = 'buffrs'
+name = 'buffrs'
+
+repository = 'https://github.com/helsing-ai/buffrs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/buffrs'

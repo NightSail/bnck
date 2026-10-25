@@ -1,0 +1,12 @@
+id = 'trustedqsl'
+name = 'trustedqsl'
+
+homepage = 'https://sourceforge.net/projects/trustedqsl'
+
+[[package]]
+channel = 'debian'
+name = 'trustedqsl'
+
+[[package]]
+channel = 'fedora'
+name = 'trustedqsl'

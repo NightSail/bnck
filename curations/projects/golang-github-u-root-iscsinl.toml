@@ -1,0 +1,8 @@
+id = 'golang-github-u-root-iscsinl'
+name = 'golang-github-u-root-iscsinl'
+
+homepage = 'https://github.com/u-root/iscsinl'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-u-root-iscsinl'

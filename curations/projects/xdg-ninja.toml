@@ -1,0 +1,8 @@
+id = 'xdg-ninja'
+name = 'xdg-ninja'
+
+repository = 'https://github.com/b3nj5m1n/xdg-ninja.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xdg-ninja'

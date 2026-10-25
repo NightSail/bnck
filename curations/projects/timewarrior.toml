@@ -1,0 +1,16 @@
+id = 'timewarrior'
+name = 'timewarrior'
+
+homepage = 'https://timewarrior.net'
+
+[[package]]
+channel = 'arch'
+name = 'timew'
+
+[[package]]
+channel = 'debian'
+name = 'timewarrior'
+
+[[package]]
+channel = 'fedora'
+name = 'timew'

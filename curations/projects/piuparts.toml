@@ -1,0 +1,12 @@
+id = 'piuparts'
+name = 'piuparts'
+
+homepage = 'https://piuparts.debian.org'
+
+[[package]]
+channel = 'debian'
+name = 'piuparts'
+
+[[package]]
+channel = 'debian'
+name = 'piuparts-slave'

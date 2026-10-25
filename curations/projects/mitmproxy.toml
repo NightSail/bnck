@@ -1,0 +1,16 @@
+id = 'mitmproxy'
+name = 'mitmproxy'
+
+homepage = 'https://mitmproxy.org'
+
+[[package]]
+channel = 'arch'
+name = 'mitmproxy'
+
+[[package]]
+channel = 'debian'
+name = 'mitmproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/mitmproxy'

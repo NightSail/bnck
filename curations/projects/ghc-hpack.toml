@@ -1,0 +1,8 @@
+id = 'ghc-hpack'
+name = 'ghc-hpack'
+
+homepage = 'https://hackage.haskell.org/package/hpack'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-hpack'

@@ -1,0 +1,8 @@
+id = 'bookletimposer'
+name = 'bookletimposer'
+
+homepage = 'https://kjo.herbesfolles.org/bookletimposer'
+
+[[package]]
+channel = 'debian'
+name = 'bookletimposer'

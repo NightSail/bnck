@@ -1,0 +1,20 @@
+id = 'gammastep'
+name = 'gammastep'
+
+homepage = 'https://gitlab.com/chinstrap/gammastep'
+
+[[package]]
+channel = 'arch'
+name = 'gammastep'
+
+[[package]]
+channel = 'debian'
+name = 'gammastep'
+
+[[package]]
+channel = 'fedora'
+name = 'gammastep'
+
+[[package]]
+channel = 'fedora'
+name = 'gammastep-indicator'

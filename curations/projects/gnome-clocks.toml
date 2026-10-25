@@ -1,0 +1,16 @@
+id = 'gnome-clocks'
+name = 'gnome-clocks'
+
+homepage = 'https://apps.gnome.org/Clocks'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-clocks'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-clocks'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-clocks'

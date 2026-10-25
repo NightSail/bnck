@@ -1,0 +1,8 @@
+id = 'wicked'
+name = 'wicked'
+
+homepage = 'https://en.opensuse.org/Portal:Wicked'
+
+[[package]]
+channel = 'fedora'
+name = 'wicked'

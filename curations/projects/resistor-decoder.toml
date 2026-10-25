@@ -1,0 +1,8 @@
+id = 'resistor-decoder'
+name = 'resistor-decoder'
+
+homepage = 'https://github.com/VoxelCubes/ResistorDecoder'
+
+[[package]]
+channel = 'debian'
+name = 'resistor-decoder'

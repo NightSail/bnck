@@ -1,0 +1,8 @@
+id = 'mididings'
+name = 'mididings'
+
+homepage = 'https://github.com/mididings/mididings'
+
+[[package]]
+channel = 'arch'
+name = 'mididings'

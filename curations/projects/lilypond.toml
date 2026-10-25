@@ -1,0 +1,21 @@
+id = 'lilypond'
+name = 'lilypond'
+
+homepage = 'https://lilypond.org'
+repository = 'https://gitlab.com/lilypond/lilypond.git'
+
+[[package]]
+channel = 'arch'
+name = 'lilypond'
+
+[[package]]
+channel = 'debian'
+name = 'lilypond'
+
+[[package]]
+channel = 'fedora'
+name = 'lilypond'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lilypond'

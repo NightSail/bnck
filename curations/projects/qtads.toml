@@ -1,0 +1,9 @@
+id = 'qtads'
+name = 'qtads'
+
+homepage = 'https://realnc.github.io/qtads'
+repository = 'https://github.com/realnc/qtads.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qtads'

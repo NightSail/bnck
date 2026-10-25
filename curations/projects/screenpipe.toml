@@ -1,0 +1,8 @@
+id = 'screenpipe'
+name = 'screenpipe'
+
+homepage = 'https://github.com/mediar-ai/screenpipe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/screenpipe'

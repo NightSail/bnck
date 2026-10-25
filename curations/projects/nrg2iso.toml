@@ -1,0 +1,20 @@
+id = 'nrg2iso'
+name = 'nrg2iso'
+
+homepage = 'http://gregory.kokanosky.free.fr/v4/linux/nrg2iso.en.html'
+
+[[package]]
+channel = 'arch'
+name = 'nrg2iso'
+
+[[package]]
+channel = 'debian'
+name = 'nrg2iso'
+
+[[package]]
+channel = 'fedora'
+name = 'nrg2iso'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nrg2iso'

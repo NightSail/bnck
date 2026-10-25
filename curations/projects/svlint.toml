@@ -1,0 +1,8 @@
+id = 'svlint'
+name = 'svlint'
+
+repository = 'https://github.com/dalance/svlint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svlint'

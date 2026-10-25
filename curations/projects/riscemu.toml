@@ -1,0 +1,8 @@
+id = 'riscemu'
+name = 'riscemu'
+
+homepage = 'https://github.com/AntonLydike/riscemu'
+
+[[package]]
+channel = 'debian'
+name = 'riscemu'

@@ -1,0 +1,8 @@
+id = 'tfmcp'
+name = 'tfmcp'
+
+repository = 'https://github.com/nwiizo/tfmcp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfmcp'

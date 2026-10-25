@@ -1,0 +1,6 @@
+id = 'command-not-found'
+name = 'command-not-found'
+
+[[package]]
+channel = 'debian'
+name = 'command-not-found'

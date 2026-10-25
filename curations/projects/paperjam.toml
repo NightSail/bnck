@@ -1,0 +1,8 @@
+id = 'paperjam'
+name = 'paperjam'
+
+homepage = 'https://mj.ucw.cz/sw/paperjam'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/paperjam'

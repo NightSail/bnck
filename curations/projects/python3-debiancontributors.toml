@@ -1,0 +1,8 @@
+id = 'python3-debiancontributors'
+name = 'python3-debiancontributors'
+
+homepage = 'https://salsa.debian.org/python-team/modules/python-debiancontributors'
+
+[[package]]
+channel = 'debian'
+name = 'python3-debiancontributors'

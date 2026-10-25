@@ -1,0 +1,9 @@
+id = 'regclient'
+name = 'regclient'
+
+homepage = 'https://regclient.org'
+repository = 'https://github.com/regclient/regclient.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regclient'

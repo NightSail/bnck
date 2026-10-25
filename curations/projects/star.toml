@@ -1,0 +1,20 @@
+id = 'star'
+name = 'star'
+
+homepage = 'http://freecode.com/projects/star'
+
+[[package]]
+channel = 'fedora'
+name = 'rmt'
+
+[[package]]
+channel = 'fedora'
+name = 'scpio'
+
+[[package]]
+channel = 'fedora'
+name = 'spax'
+
+[[package]]
+channel = 'fedora'
+name = 'star'

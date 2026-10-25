@@ -1,0 +1,20 @@
+id = 'openscanhub'
+name = 'openscanhub'
+
+homepage = 'https://github.com/openscanhub/openscanhub'
+
+[[package]]
+channel = 'fedora'
+name = 'osh-client'
+
+[[package]]
+channel = 'fedora'
+name = 'osh-hub'
+
+[[package]]
+channel = 'fedora'
+name = 'osh-worker'
+
+[[package]]
+channel = 'fedora'
+name = 'osh-worker-manager'

@@ -1,0 +1,29 @@
+id = 'fontforge'
+name = 'fontforge'
+
+homepage = 'https://fontforge.github.io'
+repository = 'https://github.com/fontforge/fontforge.git'
+
+[[package]]
+channel = 'arch'
+name = 'fontforge'
+
+[[package]]
+channel = 'debian'
+name = 'fontforge'
+
+[[package]]
+channel = 'debian'
+name = 'fontforge-extras'
+
+[[package]]
+channel = 'debian'
+name = 'fontforge-nox'
+
+[[package]]
+channel = 'fedora'
+name = 'fontforge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fontforge'

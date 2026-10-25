@@ -1,0 +1,12 @@
+id = 'gitea-runner'
+name = 'gitea-runner'
+
+homepage = 'https://gitea.com/gitea/runner'
+
+[[package]]
+channel = 'arch'
+name = 'gitea-runner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitea-runner'

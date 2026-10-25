@@ -1,0 +1,8 @@
+id = 'massren'
+name = 'massren'
+
+repository = 'https://github.com/laurent22/massren.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/massren'

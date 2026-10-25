@@ -1,0 +1,12 @@
+id = 'python3-jupyter-cache'
+name = 'python3-jupyter-cache'
+
+homepage = 'https://github.com/executablebooks/jupyter-cache'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jupyter-cache'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyter-cache'

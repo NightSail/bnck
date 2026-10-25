@@ -1,0 +1,8 @@
+id = 'rocm-toolchain'
+name = 'rocm-toolchain'
+
+homepage = 'https://gitlab.archlinux.org/tpkessler/rocm-toolchain'
+
+[[package]]
+channel = 'arch'
+name = 'rocm-toolchain'

@@ -1,0 +1,8 @@
+id = 'sqlite-sqlite'
+name = 'sqlite'
+
+homepage = 'https://sqlite.org/index.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlite'

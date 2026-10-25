@@ -1,0 +1,13 @@
+id = 'wasm-component-ld'
+name = 'wasm-component-ld'
+
+homepage = 'https://wasi.dev'
+repository = 'https://github.com/bytecodealliance/wasm-component-ld.git'
+
+[[package]]
+channel = 'arch'
+name = 'wasm-component-ld'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasm-component-ld'

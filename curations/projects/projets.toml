@@ -1,0 +1,12 @@
+id = 'projets'
+name = 'projets'
+
+homepage = 'http://tnemeth.free.fr/projets/dockapps.html'
+
+[[package]]
+channel = 'debian'
+name = 'wmdiskmon'
+
+[[package]]
+channel = 'fedora'
+name = 'wmapmload'

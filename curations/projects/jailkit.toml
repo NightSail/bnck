@@ -1,0 +1,12 @@
+id = 'jailkit'
+name = 'jailkit'
+
+homepage = 'https://olivier.sessink.nl/jailkit'
+
+[[package]]
+channel = 'debian'
+name = 'jailkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jailkit'

@@ -1,0 +1,9 @@
+id = 'kool'
+name = 'kool'
+
+homepage = 'https://kool.dev'
+repository = 'https://github.com/kool-dev/kool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kool'

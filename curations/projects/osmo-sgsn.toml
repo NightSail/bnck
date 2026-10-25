@@ -1,0 +1,12 @@
+id = 'osmo-sgsn'
+name = 'osmo-sgsn'
+
+homepage = 'https://osmocom.org/projects/osmosgsn/wiki/OsmoSGSN'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-gtphub'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-sgsn'

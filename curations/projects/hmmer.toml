@@ -1,0 +1,20 @@
+id = 'hmmer'
+name = 'hmmer'
+
+homepage = 'http://hmmer.org'
+
+[[package]]
+channel = 'debian'
+name = 'hmmer'
+
+[[package]]
+channel = 'fedora'
+name = 'hmmer'
+
+[[package]]
+channel = 'fedora'
+name = 'hmmer-easel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hmmer'

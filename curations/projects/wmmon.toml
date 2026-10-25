@@ -1,0 +1,8 @@
+id = 'wmmon'
+name = 'wmmon'
+
+homepage = 'https://www.dockapps.net/wmmon'
+
+[[package]]
+channel = 'debian'
+name = 'wmmon'

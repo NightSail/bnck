@@ -1,0 +1,8 @@
+id = 'soapaligner'
+name = 'soapaligner'
+
+homepage = 'https://web.archive.org/web/20190127081222/http://soap.genomics.org.cn/soapaligner.html'
+
+[[package]]
+channel = 'debian'
+name = 'soapaligner'

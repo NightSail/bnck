@@ -1,0 +1,8 @@
+id = 'gnustep-examples'
+name = 'gnustep-examples'
+
+homepage = 'http://www.gnustep.org/experience/examples.html'
+
+[[package]]
+channel = 'debian'
+name = 'gnustep-examples'

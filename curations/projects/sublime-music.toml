@@ -1,0 +1,8 @@
+id = 'sublime-music'
+name = 'sublime-music'
+
+homepage = 'https://gitlab.com/sumner/sublime-music'
+
+[[package]]
+channel = 'debian'
+name = 'sublime-music'

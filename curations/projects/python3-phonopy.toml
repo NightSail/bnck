@@ -1,0 +1,8 @@
+id = 'python3-phonopy'
+name = 'python3-phonopy'
+
+homepage = 'https://phonopy.github.io/phonopy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-phonopy'

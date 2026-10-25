@@ -1,0 +1,8 @@
+id = 'dropshare'
+name = 'dropshare'
+
+homepage = 'https://dropshare.app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dropshare'

@@ -1,0 +1,6 @@
+id = 'libmoe1-5'
+name = 'libmoe1.5'
+
+[[package]]
+channel = 'debian'
+name = 'libmoe1.5'

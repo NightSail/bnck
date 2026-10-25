@@ -1,0 +1,16 @@
+id = 'tdb'
+name = 'tdb'
+
+homepage = 'https://tdb.samba.org'
+
+[[package]]
+channel = 'arch'
+name = 'tdb'
+
+[[package]]
+channel = 'fedora'
+name = 'tdb-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tdb'

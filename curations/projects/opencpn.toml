@@ -1,0 +1,8 @@
+id = 'opencpn'
+name = 'opencpn'
+
+homepage = 'https://opencpn.org'
+
+[[package]]
+channel = 'debian'
+name = 'opencpn'

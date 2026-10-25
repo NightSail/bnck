@@ -1,0 +1,8 @@
+id = 'cljfmt'
+name = 'cljfmt'
+
+homepage = 'https://github.com/weavejester/cljfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cljfmt'

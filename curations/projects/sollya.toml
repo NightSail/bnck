@@ -1,0 +1,12 @@
+id = 'sollya'
+name = 'sollya'
+
+homepage = 'https://www.sollya.org'
+
+[[package]]
+channel = 'debian'
+name = 'sollya'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sollya'

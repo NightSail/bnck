@@ -1,0 +1,8 @@
+id = 'stanc3'
+name = 'stanc3'
+
+repository = 'https://github.com/stan-dev/stanc3.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stanc3'

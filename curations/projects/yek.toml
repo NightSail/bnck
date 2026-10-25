@@ -1,0 +1,8 @@
+id = 'yek'
+name = 'yek'
+
+repository = 'https://github.com/mohsen1/yek.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yek'

@@ -1,0 +1,12 @@
+id = 'iucode-tool'
+name = 'iucode-tool'
+
+homepage = 'https://gitlab.com/iucode-tool/iucode-tool/wikis/home'
+
+[[package]]
+channel = 'arch'
+name = 'iucode-tool'
+
+[[package]]
+channel = 'debian'
+name = 'iucode-tool'

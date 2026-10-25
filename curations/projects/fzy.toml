@@ -1,0 +1,16 @@
+id = 'fzy'
+name = 'fzy'
+
+repository = 'https://github.com/jhawthorn/fzy.git'
+
+[[package]]
+channel = 'arch'
+name = 'fzy'
+
+[[package]]
+channel = 'debian'
+name = 'fzy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fzy'

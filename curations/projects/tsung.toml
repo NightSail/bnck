@@ -1,0 +1,17 @@
+id = 'tsung'
+name = 'tsung'
+
+homepage = 'http://tsung.erlang-projects.org'
+repository = 'https://github.com/processone/tsung.git'
+
+[[package]]
+channel = 'debian'
+name = 'tsung'
+
+[[package]]
+channel = 'fedora'
+name = 'tsung'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tsung'

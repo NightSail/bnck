@@ -1,0 +1,8 @@
+id = 'sptag'
+name = 'sptag'
+
+homepage = 'https://github.com/microsoft/SPTAG'
+
+[[package]]
+channel = 'debian'
+name = 'sptag'

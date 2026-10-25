@@ -1,0 +1,29 @@
+id = 'opam'
+name = 'opam'
+
+homepage = 'https://opam.ocaml.org'
+repository = 'https://github.com/ocaml/opam.git'
+
+[[package]]
+channel = 'arch'
+name = 'opam'
+
+[[package]]
+channel = 'debian'
+name = 'opam'
+
+[[package]]
+channel = 'debian'
+name = 'opam-installer'
+
+[[package]]
+channel = 'fedora'
+name = 'opam'
+
+[[package]]
+channel = 'fedora'
+name = 'opam-installer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opam'

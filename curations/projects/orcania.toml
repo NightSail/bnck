@@ -1,0 +1,12 @@
+id = 'orcania'
+name = 'orcania'
+
+homepage = 'https://babelouest.github.io/orcania'
+
+[[package]]
+channel = 'arch'
+name = 'orcania'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/orcania'

@@ -1,0 +1,8 @@
+id = 'qemu-rdp'
+name = 'qemu-rdp'
+
+homepage = 'https://crates.io/crates/qemu-rdp'
+
+[[package]]
+channel = 'fedora'
+name = 'qemu-rdp'

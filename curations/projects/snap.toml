@@ -1,0 +1,12 @@
+id = 'snap'
+name = 'snap'
+
+homepage = 'https://snapcraft.io'
+
+[[package]]
+channel = 'debian'
+name = 'snap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snap'

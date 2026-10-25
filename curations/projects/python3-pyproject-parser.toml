@@ -1,0 +1,8 @@
+id = 'python3-pyproject-parser'
+name = 'python3-pyproject-parser'
+
+homepage = 'https://github.com/repo-helper/pyproject-parser'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyproject-parser'

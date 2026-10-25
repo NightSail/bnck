@@ -1,0 +1,16 @@
+id = 'gforth'
+name = 'gforth'
+
+homepage = 'http://www.gnu.org/software/gforth'
+
+[[package]]
+channel = 'debian'
+name = 'gforth'
+
+[[package]]
+channel = 'fedora'
+name = 'gforth'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gforth'

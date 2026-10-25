@@ -1,0 +1,8 @@
+id = 'golang-github-hashicorp-serf'
+name = 'golang-github-hashicorp-serf'
+
+homepage = 'https://github.com/hashicorp/serf'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-hashicorp-serf'

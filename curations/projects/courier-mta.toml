@@ -1,0 +1,48 @@
+id = 'courier-mta'
+name = 'courier-mta'
+
+homepage = 'https://www.courier-mta.org'
+
+[[package]]
+channel = 'debian'
+name = 'courier-authdaemon'
+
+[[package]]
+channel = 'debian'
+name = 'courier-authlib'
+
+[[package]]
+channel = 'debian'
+name = 'courier-authlib-dev'
+
+[[package]]
+channel = 'debian'
+name = 'courier-authlib-userdb'
+
+[[package]]
+channel = 'debian'
+name = 'courier-base'
+
+[[package]]
+channel = 'debian'
+name = 'courier-imap'
+
+[[package]]
+channel = 'debian'
+name = 'courier-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'courier-mlm'
+
+[[package]]
+channel = 'debian'
+name = 'courier-mta'
+
+[[package]]
+channel = 'debian'
+name = 'courier-pop'
+
+[[package]]
+channel = 'debian'
+name = 'sqwebmail'

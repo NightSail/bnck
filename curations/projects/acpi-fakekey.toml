@@ -1,0 +1,6 @@
+id = 'acpi-fakekey'
+name = 'acpi-fakekey'
+
+[[package]]
+channel = 'debian'
+name = 'acpi-fakekey'

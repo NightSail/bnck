@@ -1,0 +1,9 @@
+id = 'gator'
+name = 'gator'
+
+homepage = 'https://open-policy-agent.github.io/gatekeeper'
+repository = 'https://github.com/open-policy-agent/gatekeeper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gator'

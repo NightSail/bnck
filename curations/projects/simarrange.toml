@@ -1,0 +1,8 @@
+id = 'simarrange'
+name = 'simarrange'
+
+homepage = 'https://github.com/kliment/simarrange'
+
+[[package]]
+channel = 'fedora'
+name = 'simarrange'

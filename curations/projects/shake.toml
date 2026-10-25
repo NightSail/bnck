@@ -1,0 +1,16 @@
+id = 'shake'
+name = 'shake'
+
+homepage = 'https://vleu.net/shake'
+
+[[package]]
+channel = 'arch'
+name = 'shake'
+
+[[package]]
+channel = 'debian'
+name = 'shake'
+
+[[package]]
+channel = 'fedora'
+name = 'shake'

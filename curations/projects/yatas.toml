@@ -1,0 +1,8 @@
+id = 'yatas'
+name = 'yatas'
+
+repository = 'https://github.com/padok-team/yatas.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yatas'

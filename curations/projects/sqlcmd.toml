@@ -1,0 +1,8 @@
+id = 'sqlcmd'
+name = 'sqlcmd'
+
+homepage = 'https://github.com/microsoft/go-sqlcmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlcmd'

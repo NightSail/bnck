@@ -1,0 +1,12 @@
+id = 'esbonio'
+name = 'esbonio'
+
+homepage = 'https://github.com/swyddfa/esbonio'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-esbonio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/esbonio'

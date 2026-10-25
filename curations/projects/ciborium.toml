@@ -1,0 +1,8 @@
+id = 'ciborium'
+name = 'ciborium'
+
+homepage = 'https://gitlab.com/ubports/development/core/ciborium'
+
+[[package]]
+channel = 'debian'
+name = 'ciborium'

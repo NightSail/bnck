@@ -1,0 +1,8 @@
+id = 'kurchu'
+name = 'kurchu'
+
+homepage = 'https://gitlab.com/VelocityLimitless/Projects/kurchu'
+
+[[package]]
+channel = 'fedora'
+name = 'kurchu'

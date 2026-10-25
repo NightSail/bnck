@@ -1,0 +1,8 @@
+id = 'yade'
+name = 'yade'
+
+homepage = 'https://yade-dem.org/doc'
+
+[[package]]
+channel = 'debian'
+name = 'yade'

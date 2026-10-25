@@ -1,0 +1,16 @@
+id = 'pudb'
+name = 'pudb'
+
+homepage = 'https://github.com/inducer/pudb'
+
+[[package]]
+channel = 'arch'
+name = 'python-pudb'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pudb'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pudb'

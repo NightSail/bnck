@@ -1,0 +1,8 @@
+id = 'gifshuffle'
+name = 'gifshuffle'
+
+homepage = 'https://www.darkside.com.au/gifshuffle'
+
+[[package]]
+channel = 'debian'
+name = 'gifshuffle'

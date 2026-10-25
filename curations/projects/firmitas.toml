@@ -1,0 +1,8 @@
+id = 'firmitas'
+name = 'firmitas'
+
+homepage = 'https://gitlab.com/t0xic0der/firmitas'
+
+[[package]]
+channel = 'fedora'
+name = 'firmitas'

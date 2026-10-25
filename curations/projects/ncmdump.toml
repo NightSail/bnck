@@ -1,0 +1,8 @@
+id = 'ncmdump'
+name = 'ncmdump'
+
+repository = 'https://github.com/taurusxin/ncmdump.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncmdump'

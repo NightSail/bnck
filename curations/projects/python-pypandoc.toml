@@ -1,0 +1,8 @@
+id = 'python-pypandoc'
+name = 'python-pypandoc'
+
+homepage = 'https://github.com/JessicaTegner/pypandoc'
+
+[[package]]
+channel = 'arch'
+name = 'python-pypandoc'

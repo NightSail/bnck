@@ -1,0 +1,9 @@
+id = 'cql'
+name = 'cql'
+
+homepage = 'https://covenantsql.io'
+repository = 'https://github.com/CovenantSQL/CovenantSQL.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cql'

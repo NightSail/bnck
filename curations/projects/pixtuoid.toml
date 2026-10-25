@@ -1,0 +1,8 @@
+id = 'pixtuoid'
+name = 'pixtuoid'
+
+repository = 'https://github.com/IvanWng97/pixtuoid.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixtuoid'

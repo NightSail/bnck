@@ -1,0 +1,8 @@
+id = 'systembus-notify'
+name = 'systembus-notify'
+
+homepage = 'https://github.com/rfjakob/systembus-notify'
+
+[[package]]
+channel = 'arch'
+name = 'systembus-notify'

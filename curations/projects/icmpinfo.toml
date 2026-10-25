@@ -1,0 +1,8 @@
+id = 'icmpinfo'
+name = 'icmpinfo'
+
+homepage = 'http://www.demailly.com/~dl/softs.html'
+
+[[package]]
+channel = 'debian'
+name = 'icmpinfo'

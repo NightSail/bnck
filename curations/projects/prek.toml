@@ -1,0 +1,9 @@
+id = 'prek'
+name = 'prek'
+
+homepage = 'https://prek.j178.dev'
+repository = 'https://github.com/j178/prek.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prek'

@@ -1,0 +1,8 @@
+id = 'crates-tui'
+name = 'crates-tui'
+
+repository = 'https://github.com/ratatui/crates-tui.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crates-tui'

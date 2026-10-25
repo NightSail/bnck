@@ -1,0 +1,24 @@
+id = 'mtools'
+name = 'mtools'
+
+homepage = 'https://www.gnu.org/software/mtools'
+
+[[package]]
+channel = 'arch'
+name = 'mtools'
+
+[[package]]
+channel = 'debian'
+name = 'floppyd'
+
+[[package]]
+channel = 'debian'
+name = 'mtools'
+
+[[package]]
+channel = 'fedora'
+name = 'mtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mtools'

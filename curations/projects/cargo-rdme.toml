@@ -1,0 +1,8 @@
+id = 'cargo-rdme'
+name = 'cargo-rdme'
+
+homepage = 'https://github.com/orium/cargo-rdme'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-rdme'

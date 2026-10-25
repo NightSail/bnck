@@ -1,0 +1,8 @@
+id = 'fusesoc'
+name = 'fusesoc'
+
+homepage = 'https://fusesoc.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fusesoc'

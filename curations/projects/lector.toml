@@ -1,0 +1,8 @@
+id = 'lector'
+name = 'lector'
+
+homepage = 'https://github.com/BasioMeusPuga/Lector'
+
+[[package]]
+channel = 'fedora'
+name = 'lector'

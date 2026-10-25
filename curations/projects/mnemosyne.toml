@@ -1,0 +1,8 @@
+id = 'mnemosyne'
+name = 'mnemosyne'
+
+homepage = 'https://www.mnemosyne-proj.org'
+
+[[package]]
+channel = 'debian'
+name = 'mnemosyne'

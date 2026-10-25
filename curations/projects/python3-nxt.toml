@@ -1,0 +1,8 @@
+id = 'python3-nxt'
+name = 'python3-nxt'
+
+homepage = 'https://sr.ht/~ni/nxt-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nxt'

@@ -1,0 +1,8 @@
+id = 'bindechexascii'
+name = 'bindechexascii'
+
+homepage = 'https://github.com/xfuw89/BinDecHexAscii'
+
+[[package]]
+channel = 'debian'
+name = 'bindechexascii'

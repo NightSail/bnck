@@ -1,0 +1,8 @@
+id = 'python3-httpx'
+name = 'python3-httpx'
+
+homepage = 'https://www.python-httpx.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-httpx'

@@ -1,0 +1,8 @@
+id = 'rapidhash'
+name = 'rapidhash'
+
+homepage = 'https://github.com/hoxxep/rapidhash'
+
+[[package]]
+channel = 'debian'
+name = 'rapidhash'

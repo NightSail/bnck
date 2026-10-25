@@ -1,0 +1,8 @@
+id = 'python-identify'
+name = 'python-identify'
+
+homepage = 'https://github.com/pre-commit/identify'
+
+[[package]]
+channel = 'arch'
+name = 'python-identify'

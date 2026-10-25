@@ -1,0 +1,16 @@
+id = 'linalg'
+name = 'linalg'
+
+homepage = 'https://linalg.org'
+
+[[package]]
+channel = 'arch'
+name = 'linbox'
+
+[[package]]
+channel = 'debian'
+name = 'liblinbox-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'linbox-devel'

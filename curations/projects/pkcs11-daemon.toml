@@ -1,0 +1,6 @@
+id = 'pkcs11-daemon'
+name = 'pkcs11-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'pkcs11-daemon'

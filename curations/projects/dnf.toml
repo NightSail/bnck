@@ -1,0 +1,16 @@
+id = 'dnf'
+name = 'dnf'
+
+homepage = 'https://github.com/rpm-software-management/dnf'
+
+[[package]]
+channel = 'arch'
+name = 'dnf'
+
+[[package]]
+channel = 'debian'
+name = 'dnf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dnf'

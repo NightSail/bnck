@@ -1,0 +1,12 @@
+id = 'openwsman'
+name = 'openwsman'
+
+homepage = 'http://www.openwsman.org'
+
+[[package]]
+channel = 'fedora'
+name = 'openwsman-server'
+
+[[package]]
+channel = 'fedora'
+name = 'wsmancli'

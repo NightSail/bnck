@@ -1,0 +1,8 @@
+id = 'spell'
+name = 'spell'
+
+homepage = 'http://directory.fsf.org/project/spell'
+
+[[package]]
+channel = 'debian'
+name = 'spell'

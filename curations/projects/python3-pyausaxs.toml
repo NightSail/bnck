@@ -1,0 +1,8 @@
+id = 'python3-pyausaxs'
+name = 'python3-pyausaxs'
+
+homepage = 'https://github.com/AUSAXS/pyAUSAXS'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyausaxs'

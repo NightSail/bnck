@@ -1,0 +1,16 @@
+id = 'cinnamon-settings-daemon'
+name = 'cinnamon-settings-daemon'
+
+homepage = 'https://github.com/linuxmint/cinnamon-settings-daemon'
+
+[[package]]
+channel = 'arch'
+name = 'cinnamon-settings-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'cinnamon-settings-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'cinnamon-settings-daemon'

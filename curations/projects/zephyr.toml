@@ -1,0 +1,16 @@
+id = 'zephyr'
+name = 'zephyr'
+
+homepage = 'https://github.com/zephyr-im/zephyr'
+
+[[package]]
+channel = 'debian'
+name = 'zephyr-clients'
+
+[[package]]
+channel = 'debian'
+name = 'zephyr-server'
+
+[[package]]
+channel = 'debian'
+name = 'zephyr-server-krb5'

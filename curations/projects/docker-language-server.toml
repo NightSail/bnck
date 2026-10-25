@@ -1,0 +1,9 @@
+id = 'docker-language-server'
+name = 'docker-language-server'
+
+homepage = 'https://www.docker.com'
+repository = 'https://github.com/docker/docker-language-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-language-server'

@@ -1,0 +1,16 @@
+id = 'gerbv'
+name = 'gerbv'
+
+homepage = 'https://gerbv.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'gerbv'
+
+[[package]]
+channel = 'fedora'
+name = 'gerbv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gerbv'

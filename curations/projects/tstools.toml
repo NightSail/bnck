@@ -1,0 +1,8 @@
+id = 'tstools'
+name = 'tstools'
+
+homepage = 'https://github.com/kynesim/tstools'
+
+[[package]]
+channel = 'debian'
+name = 'tstools'

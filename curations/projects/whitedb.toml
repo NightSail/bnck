@@ -1,0 +1,12 @@
+id = 'whitedb'
+name = 'whitedb'
+
+homepage = 'https://github.com/priitj/whitedb'
+
+[[package]]
+channel = 'arch'
+name = 'whitedb'
+
+[[package]]
+channel = 'debian'
+name = 'whitedb'

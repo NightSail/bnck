@@ -1,0 +1,16 @@
+id = 'vitis'
+name = 'vitis'
+
+homepage = 'https://www.xilinx.com/products/design-tools/vitis/xrt.html'
+
+[[package]]
+channel = 'debian'
+name = 'libxrt-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libxrt-utils-alveo'
+
+[[package]]
+channel = 'debian'
+name = 'libxrt-utils-npu'

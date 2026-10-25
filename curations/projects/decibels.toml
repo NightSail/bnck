@@ -1,0 +1,8 @@
+id = 'decibels'
+name = 'decibels'
+
+homepage = 'https://apps.gnome.org/Decibels'
+
+[[package]]
+channel = 'arch'
+name = 'decibels'

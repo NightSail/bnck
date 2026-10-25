@@ -1,0 +1,12 @@
+id = 'quickjs-ng'
+name = 'quickjs-ng'
+
+homepage = 'https://quickjs-ng.github.io/quickjs'
+
+[[package]]
+channel = 'arch'
+name = 'quickjs-ng'
+
+[[package]]
+channel = 'debian'
+name = 'qjs'

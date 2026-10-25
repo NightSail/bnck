@@ -1,0 +1,8 @@
+id = 'python3-xnat4tests'
+name = 'python3-xnat4tests'
+
+homepage = 'https://github.com/australian-imaging-service/xnat4tests'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xnat4tests'

@@ -1,0 +1,20 @@
+id = 'libopenmpt'
+name = 'libopenmpt'
+
+homepage = 'https://lib.openmpt.org/libopenmpt'
+
+[[package]]
+channel = 'arch'
+name = 'libopenmpt'
+
+[[package]]
+channel = 'debian'
+name = 'openmpt123'
+
+[[package]]
+channel = 'fedora'
+name = 'openmpt123'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libopenmpt'

@@ -1,0 +1,8 @@
+id = 'kryoptic-tools'
+name = 'kryoptic-tools'
+
+homepage = 'https://github.com/latchset/kryoptic'
+
+[[package]]
+channel = 'fedora'
+name = 'kryoptic-tools'

@@ -1,0 +1,8 @@
+id = 'pstree'
+name = 'pstree'
+
+homepage = 'https://github.com/FredHucht/pstree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pstree'

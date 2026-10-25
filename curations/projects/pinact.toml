@@ -1,0 +1,8 @@
+id = 'pinact'
+name = 'pinact'
+
+repository = 'https://github.com/suzuki-shunsuke/pinact.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pinact'

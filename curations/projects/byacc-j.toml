@@ -1,0 +1,12 @@
+id = 'byacc-j'
+name = 'byacc-j'
+
+homepage = 'http://byaccj.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'byacc-j'
+
+[[package]]
+channel = 'fedora'
+name = 'byaccj'

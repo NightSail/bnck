@@ -1,0 +1,12 @@
+id = 'scotch-scotch'
+name = 'scotch'
+
+homepage = 'https://gitlab.inria.fr/scotch/scotch'
+
+[[package]]
+channel = 'arch'
+name = 'scotch'
+
+[[package]]
+channel = 'arch'
+name = 'scotch-metis'

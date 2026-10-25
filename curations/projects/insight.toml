@@ -1,0 +1,8 @@
+id = 'insight'
+name = 'insight'
+
+homepage = 'https://www.sourceware.org/insight'
+
+[[package]]
+channel = 'fedora'
+name = 'insight'

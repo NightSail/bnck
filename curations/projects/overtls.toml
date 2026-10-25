@@ -1,0 +1,8 @@
+id = 'overtls'
+name = 'overtls'
+
+repository = 'https://github.com/ShadowsocksR-Live/overtls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/overtls'

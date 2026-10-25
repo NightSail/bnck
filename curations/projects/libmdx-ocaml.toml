@@ -1,0 +1,8 @@
+id = 'libmdx-ocaml'
+name = 'libmdx-ocaml'
+
+homepage = 'https://github.com/realworldocaml/mdx'
+
+[[package]]
+channel = 'debian'
+name = 'libmdx-ocaml'

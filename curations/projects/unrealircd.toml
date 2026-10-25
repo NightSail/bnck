@@ -1,0 +1,12 @@
+id = 'unrealircd'
+name = 'unrealircd'
+
+homepage = 'https://www.unrealircd.org'
+
+[[package]]
+channel = 'arch'
+name = 'unrealircd'
+
+[[package]]
+channel = 'fedora'
+name = 'unrealircd'

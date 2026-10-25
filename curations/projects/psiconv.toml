@@ -1,0 +1,12 @@
+id = 'psiconv'
+name = 'psiconv'
+
+homepage = 'http://software.frodo.looijaard.name/psiconv'
+
+[[package]]
+channel = 'fedora'
+name = 'psiconv'
+
+[[package]]
+channel = 'fedora'
+name = 'psiconv-devel'

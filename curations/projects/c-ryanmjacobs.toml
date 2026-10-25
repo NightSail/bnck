@@ -1,0 +1,8 @@
+id = 'c-ryanmjacobs'
+name = 'c'
+
+repository = 'https://github.com/ryanmjacobs/c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c'

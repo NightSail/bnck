@@ -1,0 +1,16 @@
+id = 'gdm'
+name = 'gdm'
+
+homepage = 'https://wiki.gnome.org/Projects/GDM'
+
+[[package]]
+channel = 'debian'
+name = 'gdm3'
+
+[[package]]
+channel = 'debian'
+name = 'libgdm1'
+
+[[package]]
+channel = 'fedora'
+name = 'gdm'

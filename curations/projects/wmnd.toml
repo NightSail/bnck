@@ -1,0 +1,12 @@
+id = 'wmnd'
+name = 'wmnd'
+
+homepage = 'https://www.thregr.org/~wavexx/software/wmnd'
+
+[[package]]
+channel = 'debian'
+name = 'wmnd'
+
+[[package]]
+channel = 'debian'
+name = 'wmnd-snmp'

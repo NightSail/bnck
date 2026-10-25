@@ -1,0 +1,21 @@
+id = 'haxe'
+name = 'haxe'
+
+homepage = 'https://haxe.org'
+repository = 'https://github.com/HaxeFoundation/haxe.git'
+
+[[package]]
+channel = 'arch'
+name = 'haxe'
+
+[[package]]
+channel = 'debian'
+name = 'haxe'
+
+[[package]]
+channel = 'fedora'
+name = 'haxe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haxe'

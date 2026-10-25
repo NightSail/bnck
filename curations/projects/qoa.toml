@@ -1,0 +1,8 @@
+id = 'qoa'
+name = 'qoa'
+
+homepage = 'https://github.com/phoboslab/qoa'
+
+[[package]]
+channel = 'debian'
+name = 'qoa'

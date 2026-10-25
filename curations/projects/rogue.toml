@@ -1,0 +1,12 @@
+id = 'rogue'
+name = 'rogue'
+
+homepage = 'https://sourceforge.net/projects/roguelike'
+
+[[package]]
+channel = 'fedora'
+name = 'rogue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rogue'

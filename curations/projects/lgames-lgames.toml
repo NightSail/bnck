@@ -1,0 +1,12 @@
+id = 'lgames-lgames'
+name = 'lgames'
+
+homepage = 'http://lgames.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'lbreakout2'
+
+[[package]]
+channel = 'fedora'
+name = 'lbrickbuster2'

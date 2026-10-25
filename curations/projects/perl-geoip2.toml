@@ -1,0 +1,8 @@
+id = 'perl-geoip2'
+name = 'perl-GeoIP2'
+
+homepage = 'https://metacpan.org/release/GeoIP2'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-GeoIP2'

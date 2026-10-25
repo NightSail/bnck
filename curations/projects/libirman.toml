@@ -1,0 +1,12 @@
+id = 'libirman'
+name = 'libirman'
+
+homepage = 'https://sourceforge.net/projects/libirman'
+
+[[package]]
+channel = 'debian'
+name = 'libirman-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libirman'

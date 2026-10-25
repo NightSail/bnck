@@ -1,0 +1,9 @@
+id = 'srt-haivision'
+name = 'srt'
+
+homepage = 'https://www.srtalliance.org'
+repository = 'https://github.com/Haivision/srt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/srt'

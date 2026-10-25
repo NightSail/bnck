@@ -1,0 +1,12 @@
+id = 'transactional-update'
+name = 'transactional-update'
+
+homepage = 'https://github.com/openSUSE/transactional-update'
+
+[[package]]
+channel = 'fedora'
+name = 'tukit'
+
+[[package]]
+channel = 'fedora'
+name = 'tukitd'

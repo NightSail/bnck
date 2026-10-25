@@ -1,0 +1,8 @@
+id = 'opentsdb'
+name = 'opentsdb'
+
+homepage = 'http://opentsdb.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opentsdb'

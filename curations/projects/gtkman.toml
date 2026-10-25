@@ -1,0 +1,8 @@
+id = 'gtkman'
+name = 'gtkman'
+
+homepage = 'https://github.com/gapan/gtkman'
+
+[[package]]
+channel = 'debian'
+name = 'gtkman'

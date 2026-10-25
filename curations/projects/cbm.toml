@@ -1,0 +1,8 @@
+id = 'cbm'
+name = 'cbm'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/cbm'
+
+[[package]]
+channel = 'debian'
+name = 'cbm'

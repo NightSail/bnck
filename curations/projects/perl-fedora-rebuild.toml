@@ -1,0 +1,8 @@
+id = 'perl-fedora-rebuild'
+name = 'perl-Fedora-Rebuild'
+
+homepage = 'http://ppisar.fedorapeople.org/Fedora-Rebuild'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Fedora-Rebuild'

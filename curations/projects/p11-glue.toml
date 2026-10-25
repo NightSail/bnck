@@ -1,0 +1,12 @@
+id = 'p11-glue'
+name = 'p11-glue'
+
+homepage = 'http://p11-glue.freedesktop.org/p11-kit.html'
+
+[[package]]
+channel = 'fedora'
+name = 'p11-kit'
+
+[[package]]
+channel = 'fedora'
+name = 'p11-kit-trust'

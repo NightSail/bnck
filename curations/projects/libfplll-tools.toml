@@ -1,0 +1,8 @@
+id = 'libfplll-tools'
+name = 'libfplll-tools'
+
+homepage = 'https://fplll.github.io/fplll'
+
+[[package]]
+channel = 'fedora'
+name = 'libfplll-tools'

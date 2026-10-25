@@ -1,0 +1,8 @@
+id = 'libjpeg-turbo-utils'
+name = 'libjpeg-turbo-utils'
+
+homepage = 'https://github.com/libjpeg-turbo/libjpeg-turbo'
+
+[[package]]
+channel = 'fedora'
+name = 'libjpeg-turbo-utils'

@@ -1,0 +1,8 @@
+id = 'readwise-cli'
+name = 'readwise-cli'
+
+homepage = 'https://readwise.io/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/readwise-cli'

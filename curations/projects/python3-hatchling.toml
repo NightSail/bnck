@@ -1,0 +1,12 @@
+id = 'python3-hatchling'
+name = 'python3-hatchling'
+
+homepage = 'https://hatch.pypa.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hatchling'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hatchling'

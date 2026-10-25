@@ -1,0 +1,12 @@
+id = 'browserpass'
+name = 'browserpass'
+
+homepage = 'https://github.com/browserpass/browserpass-native'
+
+[[package]]
+channel = 'arch'
+name = 'browserpass'
+
+[[package]]
+channel = 'fedora'
+name = 'browserpass'

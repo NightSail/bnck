@@ -1,0 +1,9 @@
+id = 'asdf'
+name = 'asdf'
+
+homepage = 'https://asdf-vm.com'
+repository = 'https://github.com/asdf-vm/asdf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asdf'

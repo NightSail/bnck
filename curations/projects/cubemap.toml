@@ -1,0 +1,8 @@
+id = 'cubemap'
+name = 'cubemap'
+
+homepage = 'http://git.sesse.net'
+
+[[package]]
+channel = 'debian'
+name = 'cubemap'

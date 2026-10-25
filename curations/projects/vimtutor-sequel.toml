@@ -1,0 +1,8 @@
+id = 'vimtutor-sequel'
+name = 'vimtutor-sequel'
+
+homepage = 'https://github.com/micahkepe/vimtutor-sequel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vimtutor-sequel'

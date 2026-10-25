@@ -1,0 +1,8 @@
+id = 'python-pipenv-to-requirements'
+name = 'python-pipenv-to-requirements'
+
+homepage = 'https://github.com/gsemet/pipenv-to-requirements'
+
+[[package]]
+channel = 'arch'
+name = 'python-pipenv-to-requirements'

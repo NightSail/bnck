@@ -1,0 +1,8 @@
+id = 'rauc-hawkbit-updater'
+name = 'rauc-hawkbit-updater'
+
+homepage = 'https://github.com/rauc/rauc-hawkbit-updater'
+
+[[package]]
+channel = 'debian'
+name = 'rauc-hawkbit-updater'

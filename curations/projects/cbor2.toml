@@ -1,0 +1,16 @@
+id = 'cbor2'
+name = 'cbor2'
+
+homepage = 'https://github.com/agronholm/cbor2'
+
+[[package]]
+channel = 'arch'
+name = 'python-cbor2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cbor2'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cbor2'

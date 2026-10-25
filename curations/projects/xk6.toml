@@ -1,0 +1,9 @@
+id = 'xk6'
+name = 'xk6'
+
+homepage = 'https://k6.io'
+repository = 'https://github.com/grafana/xk6.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xk6'

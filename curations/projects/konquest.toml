@@ -1,0 +1,12 @@
+id = 'konquest'
+name = 'konquest'
+
+homepage = 'https://apps.kde.org/konquest'
+
+[[package]]
+channel = 'arch'
+name = 'konquest'
+
+[[package]]
+channel = 'fedora'
+name = 'konquest'

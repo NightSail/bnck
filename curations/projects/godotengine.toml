@@ -1,0 +1,68 @@
+id = 'godotengine'
+name = 'godotengine'
+
+homepage = 'https://godotengine.org'
+
+[[package]]
+channel = 'arch'
+name = 'godot'
+
+[[package]]
+channel = 'arch'
+name = 'godot-mono'
+
+[[package]]
+channel = 'debian'
+name = 'godot'
+
+[[package]]
+channel = 'debian'
+name = 'godot-template-debug'
+
+[[package]]
+channel = 'debian'
+name = 'godot-template-release'
+
+[[package]]
+channel = 'debian'
+name = 'godot3'
+
+[[package]]
+channel = 'debian'
+name = 'godot3-runner'
+
+[[package]]
+channel = 'debian'
+name = 'godot3-server'
+
+[[package]]
+channel = 'fedora'
+name = 'godot'
+
+[[package]]
+channel = 'fedora'
+name = 'godot-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'godot3'
+
+[[package]]
+channel = 'fedora'
+name = 'godot3-headless'
+
+[[package]]
+channel = 'fedora'
+name = 'godot3-runner'
+
+[[package]]
+channel = 'fedora'
+name = 'godot3-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/godot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/godot@3'

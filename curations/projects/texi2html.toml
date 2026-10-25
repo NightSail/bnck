@@ -1,0 +1,20 @@
+id = 'texi2html'
+name = 'texi2html'
+
+homepage = 'https://www.nongnu.org/texi2html'
+
+[[package]]
+channel = 'arch'
+name = 'texi2html'
+
+[[package]]
+channel = 'debian'
+name = 'texi2html'
+
+[[package]]
+channel = 'fedora'
+name = 'texi2html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texi2html'

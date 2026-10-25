@@ -1,0 +1,29 @@
+id = 'open-babel'
+name = 'open-babel'
+
+homepage = 'https://openbabel.org'
+repository = 'https://github.com/openbabel/openbabel.git'
+
+[[package]]
+channel = 'arch'
+name = 'openbabel'
+
+[[package]]
+channel = 'debian'
+name = 'openbabel'
+
+[[package]]
+channel = 'debian'
+name = 'openbabel-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'openbabel'
+
+[[package]]
+channel = 'fedora'
+name = 'openbabel-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-babel'

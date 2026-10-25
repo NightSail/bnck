@@ -1,0 +1,12 @@
+id = 'pygrib'
+name = 'pygrib'
+
+homepage = 'https://github.com/jswhit/pygrib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-grib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pygrib'

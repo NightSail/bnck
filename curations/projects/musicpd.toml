@@ -1,0 +1,20 @@
+id = 'musicpd'
+name = 'musicpd'
+
+homepage = 'https://www.musicpd.org'
+
+[[package]]
+channel = 'arch'
+name = 'mpd'
+
+[[package]]
+channel = 'debian'
+name = 'mpd'
+
+[[package]]
+channel = 'fedora'
+name = 'mpc'
+
+[[package]]
+channel = 'fedora'
+name = 'ncmpc'

@@ -1,0 +1,8 @@
+id = 'ical2html'
+name = 'ical2html'
+
+homepage = 'http://www.w3.org/Tools/Ical2html'
+
+[[package]]
+channel = 'debian'
+name = 'ical2html'

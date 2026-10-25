@@ -1,0 +1,12 @@
+id = 'python3-netmiko'
+name = 'python3-netmiko'
+
+homepage = 'https://github.com/ktbyers/netmiko'
+
+[[package]]
+channel = 'debian'
+name = 'python3-netmiko'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-netmiko'

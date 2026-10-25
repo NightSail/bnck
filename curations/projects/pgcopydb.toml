@@ -1,0 +1,12 @@
+id = 'pgcopydb'
+name = 'pgcopydb'
+
+repository = 'https://github.com/dimitri/pgcopydb.git'
+
+[[package]]
+channel = 'debian'
+name = 'pgcopydb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgcopydb'

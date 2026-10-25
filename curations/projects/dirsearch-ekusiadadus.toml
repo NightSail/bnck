@@ -1,0 +1,8 @@
+id = 'dirsearch-ekusiadadus'
+name = 'dirsearch'
+
+repository = 'https://github.com/ekusiadadus/rust-cli-template'
+
+[[package]]
+channel = 'crates.io'
+name = 'dirsearch'

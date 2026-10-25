@@ -1,0 +1,8 @@
+id = 'rolo'
+name = 'rolo'
+
+homepage = 'https://github.com/libvc/rolo'
+
+[[package]]
+channel = 'debian'
+name = 'rolo'

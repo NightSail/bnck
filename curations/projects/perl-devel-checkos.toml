@@ -1,0 +1,8 @@
+id = 'perl-devel-checkos'
+name = 'perl-Devel-CheckOS'
+
+homepage = 'https://metacpan.org/release/Devel-CheckOS'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-CheckOS'

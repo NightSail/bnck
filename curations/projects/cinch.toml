@@ -1,0 +1,8 @@
+id = 'cinch'
+name = 'cinch'
+
+homepage = 'http://github.com/RedHatQE/cinch'
+
+[[package]]
+channel = 'fedora'
+name = 'cinch'

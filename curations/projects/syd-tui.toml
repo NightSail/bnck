@@ -1,0 +1,8 @@
+id = 'syd-tui'
+name = 'syd-tui'
+
+homepage = 'https://gitlab.exherbo.org/sydbox/sydbox/-/tree/main/tui'
+
+[[package]]
+channel = 'arch'
+name = 'syd-tui'

@@ -1,0 +1,8 @@
+id = 'cargo-component'
+name = 'cargo-component'
+
+repository = 'https://github.com/bytecodealliance/cargo-component.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-component'

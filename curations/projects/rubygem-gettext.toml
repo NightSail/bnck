@@ -1,0 +1,8 @@
+id = 'rubygem-gettext'
+name = 'rubygem-gettext'
+
+homepage = 'http://www.yotabanana.com/hiki/ruby-gettext.html'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-gettext'

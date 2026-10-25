@@ -1,0 +1,8 @@
+id = 'accelerated-container-image'
+name = 'accelerated-container-image'
+
+homepage = 'https://github.com/containerd/accelerated-container-image'
+
+[[package]]
+channel = 'debian'
+name = 'accelerated-container-image'

@@ -1,0 +1,16 @@
+id = 'pybind11'
+name = 'pybind11'
+
+homepage = 'https://github.com/pybind/pybind11'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pybind11'
+
+[[package]]
+channel = 'fedora'
+name = 'pybind11-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pybind11'

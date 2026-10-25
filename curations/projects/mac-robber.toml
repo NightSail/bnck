@@ -1,0 +1,16 @@
+id = 'mac-robber'
+name = 'mac-robber'
+
+homepage = 'https://www.sleuthkit.org/mac-robber'
+
+[[package]]
+channel = 'debian'
+name = 'mac-robber'
+
+[[package]]
+channel = 'fedora'
+name = 'mac-robber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mac-robber'

@@ -1,0 +1,8 @@
+id = 'python3-freezerclient'
+name = 'python3-freezerclient'
+
+homepage = 'https://github.com/openstack/python-freezerclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-freezerclient'

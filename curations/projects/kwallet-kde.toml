@@ -1,0 +1,8 @@
+id = 'kwallet-kde'
+name = 'kwallet'
+
+homepage = 'https://projects.kde.org/projects/kde/kdeutils/kwallet'
+
+[[package]]
+channel = 'fedora'
+name = 'kwallet'

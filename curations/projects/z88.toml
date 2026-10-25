@@ -1,0 +1,8 @@
+id = 'z88'
+name = 'z88'
+
+homepage = 'https://en.z88.de/z88os'
+
+[[package]]
+channel = 'debian'
+name = 'z88'

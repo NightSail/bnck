@@ -1,0 +1,8 @@
+id = 'node-bcryptjs'
+name = 'node-bcryptjs'
+
+homepage = 'https://github.com/dcodeIO/bcrypt.js'
+
+[[package]]
+channel = 'debian'
+name = 'node-bcryptjs'

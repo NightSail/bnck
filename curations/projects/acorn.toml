@@ -1,0 +1,8 @@
+id = 'acorn'
+name = 'acorn'
+
+homepage = 'https://github.com/acornjs/acorn'
+
+[[package]]
+channel = 'arch'
+name = 'acorn'

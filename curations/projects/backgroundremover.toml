@@ -1,0 +1,8 @@
+id = 'backgroundremover'
+name = 'backgroundremover'
+
+homepage = 'https://backgroundremoverai.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/backgroundremover'

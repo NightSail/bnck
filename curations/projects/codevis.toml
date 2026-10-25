@@ -1,0 +1,8 @@
+id = 'codevis'
+name = 'codevis'
+
+repository = 'https://github.com/sloganking/codevis.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codevis'

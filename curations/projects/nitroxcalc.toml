@@ -1,0 +1,8 @@
+id = 'nitroxcalc'
+name = 'nitroxcalc'
+
+homepage = 'https://codeberg.org/ltworf/nitroxcalc'
+
+[[package]]
+channel = 'debian'
+name = 'nitroxcalc'

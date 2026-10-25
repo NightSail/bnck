@@ -1,0 +1,12 @@
+id = 'glx'
+name = 'glx'
+
+homepage = 'http://glx.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'gle-graphics'
+
+[[package]]
+channel = 'debian'
+name = 'gle-graphics-glebtool'

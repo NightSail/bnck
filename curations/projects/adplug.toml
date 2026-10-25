@@ -1,0 +1,16 @@
+id = 'adplug'
+name = 'adplug'
+
+homepage = 'https://adplug.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'adplay'
+
+[[package]]
+channel = 'debian'
+name = 'adplug-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'adplug'

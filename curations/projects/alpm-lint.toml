@@ -1,0 +1,8 @@
+id = 'alpm-lint'
+name = 'alpm-lint'
+
+homepage = 'https://alpm.archlinux.page/alpm-lint'
+
+[[package]]
+channel = 'arch'
+name = 'alpm-lint'

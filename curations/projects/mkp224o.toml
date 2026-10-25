@@ -1,0 +1,8 @@
+id = 'mkp224o'
+name = 'mkp224o'
+
+repository = 'https://github.com/cathugger/mkp224o.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkp224o'

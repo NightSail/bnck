@@ -1,0 +1,8 @@
+id = 'python3-plaso'
+name = 'python3-plaso'
+
+homepage = 'https://github.com/log2timeline/plaso'
+
+[[package]]
+channel = 'debian'
+name = 'python3-plaso'

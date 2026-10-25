@@ -1,0 +1,16 @@
+id = 'launchy'
+name = 'launchy'
+
+homepage = 'https://github.com/copiousfreetime/launchy'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-launchy'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-launchy'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-launchy'

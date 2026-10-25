@@ -1,0 +1,16 @@
+id = 'dvgrab'
+name = 'dvgrab'
+
+homepage = 'http://www.kinodv.org'
+
+[[package]]
+channel = 'arch'
+name = 'dvgrab'
+
+[[package]]
+channel = 'debian'
+name = 'dvgrab'
+
+[[package]]
+channel = 'fedora'
+name = 'dvgrab'

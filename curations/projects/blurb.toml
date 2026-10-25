@@ -1,0 +1,8 @@
+id = 'blurb'
+name = 'blurb'
+
+homepage = 'https://github.com/python/blurb'
+
+[[package]]
+channel = 'fedora'
+name = 'blurb'

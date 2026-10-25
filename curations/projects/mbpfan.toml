@@ -1,0 +1,12 @@
+id = 'mbpfan'
+name = 'mbpfan'
+
+homepage = 'https://github.com/dgraziotin/mbpfan'
+
+[[package]]
+channel = 'debian'
+name = 'mbpfan'
+
+[[package]]
+channel = 'fedora'
+name = 'mbpfan'

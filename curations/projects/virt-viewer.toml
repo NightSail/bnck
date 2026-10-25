@@ -1,0 +1,12 @@
+id = 'virt-viewer'
+name = 'virt-viewer'
+
+homepage = 'https://gitlab.com/virt-viewer/virt-viewer'
+
+[[package]]
+channel = 'arch'
+name = 'virt-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-viewer'

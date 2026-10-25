@@ -1,0 +1,12 @@
+id = 'libvisual'
+name = 'libvisual'
+
+homepage = 'https://github.com/Libvisual/libvisual'
+
+[[package]]
+channel = 'fedora'
+name = 'libvisual-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libvisual'

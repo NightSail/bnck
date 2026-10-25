@@ -1,0 +1,8 @@
+id = 'sch-rnd-core'
+name = 'sch-rnd-core'
+
+homepage = 'http://repo.hu/projects/sch-rnd'
+
+[[package]]
+channel = 'debian'
+name = 'sch-rnd-core'

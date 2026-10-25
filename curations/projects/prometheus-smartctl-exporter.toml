@@ -1,0 +1,12 @@
+id = 'prometheus-smartctl-exporter'
+name = 'prometheus-smartctl-exporter'
+
+homepage = 'https://github.com/prometheus-community/smartctl_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-smartctl-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-smartctl-exporter'

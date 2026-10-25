@@ -1,0 +1,20 @@
+id = 'r-project'
+name = 'r-project'
+
+homepage = 'https://www.r-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'r'
+
+[[package]]
+channel = 'debian'
+name = 'r-base-core'
+
+[[package]]
+channel = 'fedora'
+name = 'R-core'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/r'

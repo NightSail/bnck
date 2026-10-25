@@ -1,0 +1,6 @@
+id = 'scsitools'
+name = 'scsitools'
+
+[[package]]
+channel = 'debian'
+name = 'scsitools'

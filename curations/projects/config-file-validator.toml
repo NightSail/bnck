@@ -1,0 +1,9 @@
+id = 'config-file-validator'
+name = 'config-file-validator'
+
+homepage = 'https://boeing.github.io/config-file-validator'
+repository = 'https://github.com/Boeing/config-file-validator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/config-file-validator'

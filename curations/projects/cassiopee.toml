@@ -1,0 +1,8 @@
+id = 'cassiopee'
+name = 'cassiopee'
+
+homepage = 'https://github.com/osallou/cassiopee-c'
+
+[[package]]
+channel = 'debian'
+name = 'cassiopee'

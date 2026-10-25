@@ -1,0 +1,8 @@
+id = 'vncpwd'
+name = 'vncpwd'
+
+homepage = 'https://github.com/jeroennijhof/vncpwd'
+
+[[package]]
+channel = 'fedora'
+name = 'vncpwd'

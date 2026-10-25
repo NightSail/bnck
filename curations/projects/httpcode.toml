@@ -1,0 +1,8 @@
+id = 'httpcode'
+name = 'httpcode'
+
+homepage = 'https://github.com/rspivak/httpcode'
+
+[[package]]
+channel = 'debian'
+name = 'httpcode'

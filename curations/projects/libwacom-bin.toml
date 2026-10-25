@@ -1,0 +1,6 @@
+id = 'libwacom-bin'
+name = 'libwacom-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libwacom-bin'

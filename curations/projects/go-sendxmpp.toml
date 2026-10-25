@@ -1,0 +1,8 @@
+id = 'go-sendxmpp'
+name = 'go-sendxmpp'
+
+homepage = 'https://salsa.debian.org/mdosch/go-sendxmpp'
+
+[[package]]
+channel = 'debian'
+name = 'go-sendxmpp'

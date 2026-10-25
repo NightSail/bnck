@@ -1,0 +1,8 @@
+id = 'unburden-home-dir'
+name = 'unburden-home-dir'
+
+homepage = 'https://github.com/xtaran/unburden-home-dir'
+
+[[package]]
+channel = 'debian'
+name = 'unburden-home-dir'

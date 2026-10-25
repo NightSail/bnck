@@ -1,0 +1,8 @@
+id = 'asimov'
+name = 'asimov'
+
+repository = 'https://github.com/AsimovMac/asimov.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asimov'

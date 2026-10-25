@@ -1,0 +1,12 @@
+id = 'kolf'
+name = 'kolf'
+
+homepage = 'https://apps.kde.org/kolf'
+
+[[package]]
+channel = 'arch'
+name = 'kolf'
+
+[[package]]
+channel = 'fedora'
+name = 'kolf'

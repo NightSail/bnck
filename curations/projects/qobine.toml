@@ -1,0 +1,12 @@
+id = 'qobine'
+name = 'qobine'
+
+repository = 'https://github.com/sofusa/qobine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qobine-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qobine-web'

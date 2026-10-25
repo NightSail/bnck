@@ -1,0 +1,12 @@
+id = 'elementary'
+name = 'elementary'
+
+homepage = 'https://github.com/elementary/code'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-code'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-code'

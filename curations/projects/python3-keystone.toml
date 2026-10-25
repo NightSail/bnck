@@ -1,0 +1,8 @@
+id = 'python3-keystone'
+name = 'python3-keystone'
+
+homepage = 'http://keystone.openstack.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-keystone'

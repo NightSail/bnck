@@ -1,0 +1,8 @@
+id = 'hera-utils'
+name = 'hera-utils'
+
+homepage = 'https://github.com/anigmetov/hera'
+
+[[package]]
+channel = 'debian'
+name = 'hera-utils'

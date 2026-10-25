@@ -1,0 +1,8 @@
+id = 'golang-github-evanphx-json-patch'
+name = 'golang-github-evanphx-json-patch'
+
+homepage = 'https://github.com/evanphx/json-patch'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-evanphx-json-patch'

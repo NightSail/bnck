@@ -1,0 +1,20 @@
+id = 'vsftpd'
+name = 'vsftpd'
+
+homepage = 'https://security.appspot.com/vsftpd.html'
+
+[[package]]
+channel = 'arch'
+name = 'vsftpd'
+
+[[package]]
+channel = 'debian'
+name = 'vsftpd'
+
+[[package]]
+channel = 'fedora'
+name = 'vsftpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vsftpd'

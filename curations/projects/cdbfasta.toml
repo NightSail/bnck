@@ -1,0 +1,8 @@
+id = 'cdbfasta'
+name = 'cdbfasta'
+
+homepage = 'https://github.com/gpertea/cdbfasta'
+
+[[package]]
+channel = 'debian'
+name = 'cdbfasta'

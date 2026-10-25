@@ -1,0 +1,9 @@
+id = 'ratify'
+name = 'ratify'
+
+homepage = 'https://ratify.dev'
+repository = 'https://github.com/notaryproject/ratify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ratify'

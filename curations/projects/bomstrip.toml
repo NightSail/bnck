@@ -1,0 +1,8 @@
+id = 'bomstrip'
+name = 'bomstrip'
+
+homepage = 'https://www.ueber.net/who/mjl/projects/bomstrip'
+
+[[package]]
+channel = 'debian'
+name = 'bomstrip'

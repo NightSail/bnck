@@ -1,0 +1,8 @@
+id = 'ree'
+name = 'ree'
+
+homepage = 'https://github.com/alexmyczko/ree'
+
+[[package]]
+channel = 'debian'
+name = 'ree'

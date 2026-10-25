@@ -1,0 +1,9 @@
+id = 'cayley'
+name = 'cayley'
+
+homepage = 'https://cayley.io'
+repository = 'https://github.com/cayleygraph/cayley.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cayley'

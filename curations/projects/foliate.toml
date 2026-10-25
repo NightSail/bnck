@@ -1,0 +1,16 @@
+id = 'foliate'
+name = 'foliate'
+
+homepage = 'https://johnfactotum.github.io/foliate'
+
+[[package]]
+channel = 'arch'
+name = 'foliate'
+
+[[package]]
+channel = 'debian'
+name = 'foliate'
+
+[[package]]
+channel = 'fedora'
+name = 'foliate'

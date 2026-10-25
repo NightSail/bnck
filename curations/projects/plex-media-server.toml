@@ -1,0 +1,8 @@
+id = 'plex-media-server'
+name = 'plex-media-server'
+
+homepage = 'https://www.plex.tv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/plex-media-server'

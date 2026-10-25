@@ -1,0 +1,12 @@
+id = 'python3-guessit'
+name = 'python3-guessit'
+
+homepage = 'https://guessit.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-guessit'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-guessit'

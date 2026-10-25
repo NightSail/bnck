@@ -1,0 +1,8 @@
+id = 'nsscache'
+name = 'nsscache'
+
+homepage = 'https://github.com/google/nsscache'
+
+[[package]]
+channel = 'debian'
+name = 'nsscache'

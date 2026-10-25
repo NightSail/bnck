@@ -1,0 +1,6 @@
+id = 'setcd'
+name = 'setcd'
+
+[[package]]
+channel = 'debian'
+name = 'setcd'

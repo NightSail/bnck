@@ -1,0 +1,8 @@
+id = 'foreman'
+name = 'foreman'
+
+homepage = 'https://ddollar.github.io/foreman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/foreman'

@@ -1,0 +1,12 @@
+id = 'conda-package-handling'
+name = 'conda-package-handling'
+
+homepage = 'https://github.com/conda/conda-package-handling'
+
+[[package]]
+channel = 'debian'
+name = 'conda-package-handling'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-conda-package-handling'

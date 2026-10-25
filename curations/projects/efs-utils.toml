@@ -1,0 +1,8 @@
+id = 'efs-utils'
+name = 'efs-utils'
+
+homepage = 'https://github.com/aws/efs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'efs-utils'

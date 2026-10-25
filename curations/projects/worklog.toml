@@ -1,0 +1,8 @@
+id = 'worklog'
+name = 'worklog'
+
+homepage = 'https://github.com/atsb/worklog'
+
+[[package]]
+channel = 'debian'
+name = 'worklog'

@@ -1,0 +1,9 @@
+id = 'clojure-lsp'
+name = 'clojure-lsp'
+
+homepage = 'https://clojure-lsp.io'
+repository = 'https://github.com/clojure-lsp/clojure-lsp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clojure-lsp'

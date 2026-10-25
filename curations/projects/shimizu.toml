@@ -1,0 +1,12 @@
+id = 'shimizu'
+name = 'shimizu'
+
+homepage = 'http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/download.html'
+
+[[package]]
+channel = 'debian'
+name = 'mbmon'
+
+[[package]]
+channel = 'debian'
+name = 'xmbmon'

@@ -1,0 +1,8 @@
+id = 'btfs-johang'
+name = 'btfs'
+
+repository = 'https://github.com/johang/btfs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btfs'

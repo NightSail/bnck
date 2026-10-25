@@ -1,0 +1,17 @@
+id = 'bomber'
+name = 'bomber'
+
+homepage = 'https://apps.kde.org/bomber'
+repository = 'https://github.com/devops-kung-fu/bomber.git'
+
+[[package]]
+channel = 'arch'
+name = 'bomber'
+
+[[package]]
+channel = 'fedora'
+name = 'bomber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bomber'

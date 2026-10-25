@@ -1,0 +1,8 @@
+id = 'aws-c-mqtt'
+name = 'aws-c-mqtt'
+
+homepage = 'https://github.com/awslabs/aws-c-mqtt'
+
+[[package]]
+channel = 'arch'
+name = 'aws-c-mqtt'

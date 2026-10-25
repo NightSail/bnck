@@ -1,0 +1,8 @@
+id = 'rammap'
+name = 'rammap'
+
+repository = 'https://github.com/jwanglab/rammap.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rammap'

@@ -1,0 +1,16 @@
+id = 'composefs'
+name = 'composefs'
+
+homepage = 'https://github.com/containers/composefs'
+
+[[package]]
+channel = 'arch'
+name = 'composefs'
+
+[[package]]
+channel = 'debian'
+name = 'composefs'
+
+[[package]]
+channel = 'fedora'
+name = 'composefs'

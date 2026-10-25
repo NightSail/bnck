@@ -1,0 +1,12 @@
+id = 'ladvd'
+name = 'ladvd'
+
+homepage = 'https://github.com/sspans/ladvd'
+
+[[package]]
+channel = 'debian'
+name = 'ladvd'
+
+[[package]]
+channel = 'fedora'
+name = 'ladvd'

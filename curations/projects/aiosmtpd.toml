@@ -1,0 +1,12 @@
+id = 'aiosmtpd'
+name = 'aiosmtpd'
+
+homepage = 'https://github.com/aio-libs/aiosmtpd'
+
+[[package]]
+channel = 'arch'
+name = 'python-aiosmtpd'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-aiosmtpd'

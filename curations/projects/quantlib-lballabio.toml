@@ -1,0 +1,9 @@
+id = 'quantlib-lballabio'
+name = 'quantlib'
+
+homepage = 'https://www.quantlib.org'
+repository = 'https://github.com/lballabio/quantlib.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quantlib'

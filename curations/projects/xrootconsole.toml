@@ -1,0 +1,8 @@
+id = 'xrootconsole'
+name = 'xrootconsole'
+
+homepage = 'https://sourceforge.net/projects/xrootconsole'
+
+[[package]]
+channel = 'debian'
+name = 'xrootconsole'

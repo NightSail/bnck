@@ -1,0 +1,8 @@
+id = 'pmailq'
+name = 'pmailq'
+
+homepage = 'https://github.com/k0lter/pmailq'
+
+[[package]]
+channel = 'debian'
+name = 'pmailq'

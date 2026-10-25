@@ -1,0 +1,8 @@
+id = 'golang-github-deepmap-oapi-codegen'
+name = 'golang-github-deepmap-oapi-codegen'
+
+homepage = 'https://github.com/deepmap/oapi-codegen'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-deepmap-oapi-codegen'

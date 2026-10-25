@@ -1,0 +1,12 @@
+id = 'mmark'
+name = 'mmark'
+
+homepage = 'https://github.com/mmarkdown/mmark'
+
+[[package]]
+channel = 'debian'
+name = 'mmark'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-mmarkdown-mmark'

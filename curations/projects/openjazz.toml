@@ -1,0 +1,9 @@
+id = 'openjazz'
+name = 'openjazz'
+
+homepage = 'https://www.alister.eu/jazz/oj'
+repository = 'https://github.com/AlisterT/openjazz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjazz'

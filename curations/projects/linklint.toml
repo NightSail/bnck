@@ -1,0 +1,8 @@
+id = 'linklint'
+name = 'linklint'
+
+homepage = 'http://www.linklint.org'
+
+[[package]]
+channel = 'debian'
+name = 'linklint'

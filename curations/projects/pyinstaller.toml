@@ -1,0 +1,13 @@
+id = 'pyinstaller'
+name = 'pyinstaller'
+
+homepage = 'https://pyinstaller.org/en/stable'
+repository = 'https://github.com/pyinstaller/pyinstaller.git'
+
+[[package]]
+channel = 'debian'
+name = 'pyinstaller'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyinstaller'

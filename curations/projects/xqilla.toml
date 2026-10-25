@@ -1,0 +1,8 @@
+id = 'xqilla'
+name = 'xqilla'
+
+homepage = 'https://xqilla.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xqilla'

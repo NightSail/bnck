@@ -1,0 +1,9 @@
+id = 'nfpm'
+name = 'nfpm'
+
+homepage = 'https://nfpm.goreleaser.com'
+repository = 'https://github.com/goreleaser/nfpm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nfpm'

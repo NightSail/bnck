@@ -1,0 +1,12 @@
+id = 'ucarp'
+name = 'ucarp'
+
+homepage = 'https://www.pureftpd.org/project/ucarp'
+
+[[package]]
+channel = 'arch'
+name = 'ucarp'
+
+[[package]]
+channel = 'debian'
+name = 'ucarp'

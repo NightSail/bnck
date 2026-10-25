@@ -1,0 +1,9 @@
+id = 'tenv'
+name = 'tenv'
+
+homepage = 'https://tofuutils.github.io/tenv'
+repository = 'https://github.com/tofuutils/tenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tenv'

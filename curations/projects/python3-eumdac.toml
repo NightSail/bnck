@@ -1,0 +1,8 @@
+id = 'python3-eumdac'
+name = 'python3-eumdac'
+
+homepage = 'https://gitlab.eumetsat.int/eumetlab/data-services/eumdac'
+
+[[package]]
+channel = 'debian'
+name = 'python3-eumdac'

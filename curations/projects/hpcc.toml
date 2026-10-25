@@ -1,0 +1,8 @@
+id = 'hpcc'
+name = 'hpcc'
+
+homepage = 'https://hpcchallenge.org/hpcc'
+
+[[package]]
+channel = 'debian'
+name = 'hpcc'

@@ -1,0 +1,20 @@
+id = 'gnumeric'
+name = 'gnumeric'
+
+homepage = 'https://projects.gnome.org/gnumeric'
+
+[[package]]
+channel = 'arch'
+name = 'gnumeric'
+
+[[package]]
+channel = 'debian'
+name = 'gnumeric'
+
+[[package]]
+channel = 'fedora'
+name = 'gnumeric'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnumeric'

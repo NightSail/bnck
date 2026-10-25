@@ -1,0 +1,8 @@
+id = 'theli'
+name = 'theli'
+
+homepage = 'https://github.com/schirmermischa/THELI'
+
+[[package]]
+channel = 'debian'
+name = 'theli'

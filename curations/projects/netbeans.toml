@@ -1,0 +1,8 @@
+id = 'netbeans'
+name = 'netbeans'
+
+homepage = 'https://netbeans.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'netbeans'

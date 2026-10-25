@@ -1,0 +1,21 @@
+id = 'dub'
+name = 'dub'
+
+homepage = 'https://code.dlang.org'
+repository = 'https://github.com/dlang/dub.git'
+
+[[package]]
+channel = 'arch'
+name = 'dub'
+
+[[package]]
+channel = 'debian'
+name = 'dub'
+
+[[package]]
+channel = 'fedora'
+name = 'dub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dub'

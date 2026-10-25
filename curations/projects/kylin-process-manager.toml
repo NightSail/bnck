@@ -1,0 +1,12 @@
+id = 'kylin-process-manager'
+name = 'kylin-process-manager'
+
+homepage = 'https://gitee.com/openkylin/kylin-process-manager'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-process-manager'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-process-manager-daemon'

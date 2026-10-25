@@ -1,0 +1,8 @@
+id = 'icecream-sundae'
+name = 'icecream-sundae'
+
+homepage = 'https://github.com/JPEWdev/icecream-sundae'
+
+[[package]]
+channel = 'debian'
+name = 'icecream-sundae'

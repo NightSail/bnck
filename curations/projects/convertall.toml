@@ -1,0 +1,12 @@
+id = 'convertall'
+name = 'convertall'
+
+homepage = 'https://convertall.bellz.org'
+
+[[package]]
+channel = 'debian'
+name = 'convertall'
+
+[[package]]
+channel = 'fedora'
+name = 'convertall'

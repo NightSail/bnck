@@ -1,0 +1,8 @@
+id = 'ksmbd-tools'
+name = 'ksmbd-tools'
+
+homepage = 'https://github.com/cifsd-team/ksmbd-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ksmbd-tools'

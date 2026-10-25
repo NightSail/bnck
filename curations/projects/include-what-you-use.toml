@@ -1,0 +1,9 @@
+id = 'include-what-you-use'
+name = 'include-what-you-use'
+
+homepage = 'https://include-what-you-use.org'
+repository = 'https://github.com/include-what-you-use/include-what-you-use.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/include-what-you-use'

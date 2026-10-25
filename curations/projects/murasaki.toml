@@ -1,0 +1,12 @@
+id = 'murasaki'
+name = 'murasaki'
+
+homepage = 'http://murasaki.dna.bio.keio.ac.jp/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'murasaki'
+
+[[package]]
+channel = 'debian'
+name = 'murasaki-mpi'

@@ -1,0 +1,20 @@
+id = 'yubihsm-shell'
+name = 'yubihsm-shell'
+
+homepage = 'https://github.com/Yubico/yubihsm-shell'
+
+[[package]]
+channel = 'arch'
+name = 'yubihsm-auth'
+
+[[package]]
+channel = 'arch'
+name = 'yubihsm-shell'
+
+[[package]]
+channel = 'arch'
+name = 'yubihsm-wrap'
+
+[[package]]
+channel = 'fedora'
+name = 'yubihsm-shell'

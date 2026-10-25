@@ -1,0 +1,9 @@
+id = 'naga-cli'
+name = 'naga-cli'
+
+homepage = 'https://wgpu.rs'
+repository = 'https://github.com/gfx-rs/wgpu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/naga-cli'

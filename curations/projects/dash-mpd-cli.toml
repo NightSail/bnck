@@ -1,0 +1,9 @@
+id = 'dash-mpd-cli'
+name = 'dash-mpd-cli'
+
+homepage = 'https://emarsden.github.io/dash-mpd-cli'
+repository = 'https://github.com/emarsden/dash-mpd-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dash-mpd-cli'

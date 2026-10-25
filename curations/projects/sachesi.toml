@@ -1,0 +1,8 @@
+id = 'sachesi'
+name = 'sachesi'
+
+homepage = 'https://github.com/xsacha/Sachesi'
+
+[[package]]
+channel = 'debian'
+name = 'sachesi'

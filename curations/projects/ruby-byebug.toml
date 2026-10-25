@@ -1,0 +1,12 @@
+id = 'ruby-byebug'
+name = 'ruby-byebug'
+
+homepage = 'https://github.com/deivid-rodriguez/byebug'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-byebug'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-byebug'

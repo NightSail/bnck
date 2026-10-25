@@ -1,0 +1,8 @@
+id = 'pads'
+name = 'pads'
+
+homepage = 'http://passive.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'pads'

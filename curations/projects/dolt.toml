@@ -1,0 +1,13 @@
+id = 'dolt'
+name = 'dolt'
+
+homepage = 'https://www.dolthub.com'
+repository = 'https://github.com/dolthub/dolt.git'
+
+[[package]]
+channel = 'arch'
+name = 'dolt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dolt'

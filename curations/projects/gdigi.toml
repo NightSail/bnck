@@ -1,0 +1,12 @@
+id = 'gdigi'
+name = 'gdigi'
+
+homepage = 'https://desowin.org/gdigi'
+
+[[package]]
+channel = 'debian'
+name = 'gdigi'
+
+[[package]]
+channel = 'fedora'
+name = 'gdigi'

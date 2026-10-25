@@ -1,0 +1,8 @@
+id = 'node-tshy'
+name = 'node-tshy'
+
+homepage = 'https://github.com/isaacs/tshy'
+
+[[package]]
+channel = 'debian'
+name = 'node-tshy'

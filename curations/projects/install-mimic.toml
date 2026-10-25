@@ -1,0 +1,8 @@
+id = 'install-mimic'
+name = 'install-mimic'
+
+homepage = 'https://devel.ringlet.net/misc/install-mimic'
+
+[[package]]
+channel = 'debian'
+name = 'install-mimic'

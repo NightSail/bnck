@@ -1,0 +1,16 @@
+id = 'etherape'
+name = 'etherape'
+
+homepage = 'https://etherape.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'etherape'
+
+[[package]]
+channel = 'debian'
+name = 'etherape'
+
+[[package]]
+channel = 'fedora'
+name = 'etherape'

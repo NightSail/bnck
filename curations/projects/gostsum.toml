@@ -1,0 +1,12 @@
+id = 'gostsum'
+name = 'gostsum'
+
+homepage = 'https://github.com/gost-engine/engine'
+
+[[package]]
+channel = 'debian'
+name = 'gostsum'
+
+[[package]]
+channel = 'fedora'
+name = 'gostsum'

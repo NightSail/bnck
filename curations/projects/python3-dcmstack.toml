@@ -1,0 +1,8 @@
+id = 'python3-dcmstack'
+name = 'python3-dcmstack'
+
+homepage = 'https://github.com/moloney/dcmstack'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dcmstack'

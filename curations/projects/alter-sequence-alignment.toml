@@ -1,0 +1,8 @@
+id = 'alter-sequence-alignment'
+name = 'alter-sequence-alignment'
+
+homepage = 'http://sing.ei.uvigo.es/ALTER'
+
+[[package]]
+channel = 'debian'
+name = 'alter-sequence-alignment'

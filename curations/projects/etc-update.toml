@@ -1,0 +1,8 @@
+id = 'etc-update'
+name = 'etc-update'
+
+homepage = 'https://wiki.gentoo.org/wiki/Handbook:X86/Portage/Tools'
+
+[[package]]
+channel = 'arch'
+name = 'etc-update'

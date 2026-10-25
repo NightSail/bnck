@@ -1,0 +1,8 @@
+id = 'harsh'
+name = 'harsh'
+
+repository = 'https://github.com/wakatara/harsh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/harsh'

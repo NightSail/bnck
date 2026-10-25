@@ -1,0 +1,8 @@
+id = 'varlink-cli'
+name = 'varlink-cli'
+
+homepage = 'https://crates.io/crates/varlink-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'varlink-cli'

@@ -1,0 +1,8 @@
+id = 'lloconv'
+name = 'lloconv'
+
+homepage = 'https://gitlab.com/ojwb/lloconv'
+
+[[package]]
+channel = 'debian'
+name = 'lloconv'

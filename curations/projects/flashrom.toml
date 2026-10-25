@@ -1,0 +1,21 @@
+id = 'flashrom'
+name = 'flashrom'
+
+homepage = 'https://www.flashrom.org'
+repository = 'https://review.coreboot.org/flashrom.git'
+
+[[package]]
+channel = 'arch'
+name = 'flashrom'
+
+[[package]]
+channel = 'debian'
+name = 'flashrom'
+
+[[package]]
+channel = 'fedora'
+name = 'flashrom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flashrom'

@@ -1,0 +1,12 @@
+id = 'four-in-a-row'
+name = 'four-in-a-row'
+
+homepage = 'https://gitlab.gnome.org/GNOME/four-in-a-row'
+
+[[package]]
+channel = 'arch'
+name = 'four-in-a-row'
+
+[[package]]
+channel = 'fedora'
+name = 'four-in-a-row'

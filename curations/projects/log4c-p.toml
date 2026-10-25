@@ -1,0 +1,9 @@
+id = 'log4c-p'
+name = 'log4c'
+
+homepage = 'https://log4c.sourceforge.net'
+repository = 'https://git.code.sf.net/p/log4c/log4c.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/log4c'

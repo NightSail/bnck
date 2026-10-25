@@ -1,0 +1,8 @@
+id = 'go-xgettext'
+name = 'go-xgettext'
+
+homepage = 'https://github.com/gosexy/gettext'
+
+[[package]]
+channel = 'fedora'
+name = 'go-xgettext'

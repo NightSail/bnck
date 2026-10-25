@@ -1,0 +1,16 @@
+id = 'waypipe'
+name = 'waypipe'
+
+homepage = 'https://gitlab.freedesktop.org/mstoeckl/waypipe'
+
+[[package]]
+channel = 'arch'
+name = 'waypipe'
+
+[[package]]
+channel = 'debian'
+name = 'waypipe'
+
+[[package]]
+channel = 'fedora'
+name = 'waypipe'

@@ -1,0 +1,8 @@
+id = 'golang-aead-minisign'
+name = 'golang-aead-minisign'
+
+homepage = 'https://github.com/aead/minisign'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-aead-minisign'

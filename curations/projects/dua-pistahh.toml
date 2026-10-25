@@ -1,0 +1,8 @@
+id = 'dua-pistahh'
+name = 'dua'
+
+repository = 'https://github.com/Pistahh/dua'
+
+[[package]]
+channel = 'crates.io'
+name = 'dua'

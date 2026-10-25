@@ -1,0 +1,8 @@
+id = 'commitlint'
+name = 'commitlint'
+
+homepage = 'https://commitlint.js.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/commitlint'

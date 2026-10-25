@@ -1,0 +1,12 @@
+id = 'dataurl'
+name = 'dataurl'
+
+homepage = 'https://github.com/vincent-petithory/dataurl'
+
+[[package]]
+channel = 'debian'
+name = 'dataurl'
+
+[[package]]
+channel = 'fedora'
+name = 'dataurl'

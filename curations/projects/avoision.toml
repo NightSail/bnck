@@ -1,0 +1,8 @@
+id = 'avoision'
+name = 'avoision'
+
+homepage = 'http://avsn.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'avoision'

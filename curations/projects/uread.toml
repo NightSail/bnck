@@ -1,0 +1,8 @@
+id = 'uread'
+name = 'uread'
+
+homepage = 'http://www.engineers.auckland.ac.nz/~snor007/software.html'
+
+[[package]]
+channel = 'fedora'
+name = 'uread'

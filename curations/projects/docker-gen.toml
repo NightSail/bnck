@@ -1,0 +1,8 @@
+id = 'docker-gen'
+name = 'docker-gen'
+
+repository = 'https://github.com/nginx-proxy/docker-gen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-gen'

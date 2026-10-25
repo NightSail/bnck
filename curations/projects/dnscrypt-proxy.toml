@@ -1,0 +1,21 @@
+id = 'dnscrypt-proxy'
+name = 'dnscrypt-proxy'
+
+homepage = 'https://dnscrypt.info'
+repository = 'https://github.com/DNSCrypt/dnscrypt-proxy.git'
+
+[[package]]
+channel = 'arch'
+name = 'dnscrypt-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'dnscrypt-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'dnscrypt-proxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnscrypt-proxy'

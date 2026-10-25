@@ -1,0 +1,12 @@
+id = 'jeuclid'
+name = 'jeuclid'
+
+homepage = 'http://jeuclid.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jeuclid-cli'
+
+[[package]]
+channel = 'debian'
+name = 'jeuclid-mathviewer'

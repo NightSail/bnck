@@ -1,0 +1,8 @@
+id = 'git-pkgs-proxy'
+name = 'git-pkgs-proxy'
+
+repository = 'https://github.com/git-pkgs/proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-pkgs-proxy'

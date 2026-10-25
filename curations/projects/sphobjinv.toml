@@ -1,0 +1,12 @@
+id = 'sphobjinv'
+name = 'sphobjinv'
+
+homepage = 'https://github.com/bskinn/sphobjinv'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphobjinv'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphobjinv'

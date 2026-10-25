@@ -1,0 +1,8 @@
+id = 'repeatmasker-recon'
+name = 'repeatmasker-recon'
+
+homepage = 'https://www.repeatmasker.org'
+
+[[package]]
+channel = 'debian'
+name = 'repeatmasker-recon'

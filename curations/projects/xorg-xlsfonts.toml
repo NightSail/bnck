@@ -1,0 +1,8 @@
+id = 'xorg-xlsfonts'
+name = 'xorg-xlsfonts'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xlsfonts'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xlsfonts'

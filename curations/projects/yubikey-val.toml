@@ -1,0 +1,8 @@
+id = 'yubikey-val'
+name = 'yubikey-val'
+
+homepage = 'https://developers.yubico.com/yubikey-val'
+
+[[package]]
+channel = 'fedora'
+name = 'yubikey-val'

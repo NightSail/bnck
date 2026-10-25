@@ -1,0 +1,9 @@
+id = 'spr'
+name = 'spr'
+
+homepage = 'https://spacedentist.github.io/spr'
+repository = 'https://github.com/spacedentist/spr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spr'

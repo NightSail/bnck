@@ -1,0 +1,12 @@
+id = 'check-dfsg-status'
+name = 'check-dfsg-status'
+
+homepage = 'https://debian.pages.debian.net/check-dfsg-status'
+
+[[package]]
+channel = 'debian'
+name = 'check-dfsg-status'
+
+[[package]]
+channel = 'debian'
+name = 'vrms'

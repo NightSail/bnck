@@ -1,0 +1,9 @@
+id = 'mox'
+name = 'mox'
+
+homepage = 'https://www.xmox.nl'
+repository = 'https://github.com/mjl-/mox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mox'

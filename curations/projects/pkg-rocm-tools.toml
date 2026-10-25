@@ -1,0 +1,16 @@
+id = 'pkg-rocm-tools'
+name = 'pkg-rocm-tools'
+
+homepage = 'https://salsa.debian.org/rocm-team/pkg-rocm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pkg-rocm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'rocm-podman-support'
+
+[[package]]
+channel = 'debian'
+name = 'rocm-qemu-support'

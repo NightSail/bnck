@@ -1,0 +1,40 @@
+id = 'spice-space'
+name = 'spice-space'
+
+homepage = 'https://www.spice-space.org'
+
+[[package]]
+channel = 'arch'
+name = 'spice-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'spice-vdagent'
+
+[[package]]
+channel = 'debian'
+name = 'spice-client-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'spice-vdagent'
+
+[[package]]
+channel = 'debian'
+name = 'usbredirect'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xspice'
+
+[[package]]
+channel = 'fedora'
+name = 'spice-vdagent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spice-gtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/usbredir'

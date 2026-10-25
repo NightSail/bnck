@@ -1,0 +1,10 @@
+id = 'kmscube'
+name = 'kmscube'
+
+[[package]]
+channel = 'debian'
+name = 'kmscube'
+
+[[package]]
+channel = 'fedora'
+name = 'kmscube'

@@ -1,0 +1,8 @@
+id = 'libiksemel-utils'
+name = 'libiksemel-utils'
+
+homepage = 'https://github.com/meduketto/iksemel'
+
+[[package]]
+channel = 'debian'
+name = 'libiksemel-utils'

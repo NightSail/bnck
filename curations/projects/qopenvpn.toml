@@ -1,0 +1,8 @@
+id = 'qopenvpn'
+name = 'qopenvpn'
+
+homepage = 'https://github.com/xmikos/qopenvpn'
+
+[[package]]
+channel = 'arch'
+name = 'qopenvpn'

@@ -1,0 +1,12 @@
+id = 'multicat'
+name = 'multicat'
+
+homepage = 'http://www.videolan.org/projects/multicat.html'
+
+[[package]]
+channel = 'debian'
+name = 'multicat'
+
+[[package]]
+channel = 'fedora'
+name = 'multicat'

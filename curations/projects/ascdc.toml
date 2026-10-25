@@ -1,0 +1,8 @@
+id = 'ascdc'
+name = 'ascdc'
+
+homepage = 'https://www.cs.mun.ca/~gstarkes/wmaker/dockapps/mmedia.html'
+
+[[package]]
+channel = 'debian'
+name = 'ascdc'

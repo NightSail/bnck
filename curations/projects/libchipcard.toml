@@ -1,0 +1,12 @@
+id = 'libchipcard'
+name = 'libchipcard'
+
+homepage = 'https://www.aquamaniac.de/rdm/projects/libchipcard'
+
+[[package]]
+channel = 'debian'
+name = 'libchipcard-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libchipcard'

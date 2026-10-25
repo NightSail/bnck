@@ -1,0 +1,16 @@
+id = 'nltk'
+name = 'nltk'
+
+homepage = 'https://www.nltk.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-nltk'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nltk'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nltk'

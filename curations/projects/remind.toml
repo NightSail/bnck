@@ -1,0 +1,32 @@
+id = 'remind'
+name = 'remind'
+
+homepage = 'https://dianne.skoll.ca/projects/remind'
+
+[[package]]
+channel = 'arch'
+name = 'remind'
+
+[[package]]
+channel = 'debian'
+name = 'remind'
+
+[[package]]
+channel = 'debian'
+name = 'remind-tools'
+
+[[package]]
+channel = 'debian'
+name = 'tkremind'
+
+[[package]]
+channel = 'fedora'
+name = 'remind'
+
+[[package]]
+channel = 'fedora'
+name = 'remind-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'remind-tools'

@@ -1,0 +1,9 @@
+id = 'cruft'
+name = 'cruft'
+
+homepage = 'https://cruft.github.io/cruft'
+repository = 'https://github.com/cruft/cruft.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cruft'

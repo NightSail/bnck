@@ -1,0 +1,8 @@
+id = 'xpaint'
+name = 'xpaint'
+
+homepage = 'https://sourceforge.net/projects/sf-xpaint'
+
+[[package]]
+channel = 'debian'
+name = 'xpaint'

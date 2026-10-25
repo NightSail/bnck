@@ -1,0 +1,12 @@
+id = 'openmolcas'
+name = 'OpenMolcas'
+
+homepage = 'https://gitlab.com/Molcas/OpenMolcas'
+
+[[package]]
+channel = 'debian'
+name = 'openmolcas'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenMolcas'

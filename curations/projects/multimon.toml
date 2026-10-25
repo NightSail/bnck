@@ -1,0 +1,6 @@
+id = 'multimon'
+name = 'multimon'
+
+[[package]]
+channel = 'debian'
+name = 'multimon'

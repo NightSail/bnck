@@ -1,0 +1,8 @@
+id = 'zbd-utils'
+name = 'zbd-utils'
+
+homepage = 'https://zonedstorage.io/projects/libzbd'
+
+[[package]]
+channel = 'debian'
+name = 'zbd-utils'

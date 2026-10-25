@@ -1,0 +1,8 @@
+id = 'rust-update-set'
+name = 'rust-update-set'
+
+homepage = 'https://pagure.io/fedora-rust/rust-update-set'
+
+[[package]]
+channel = 'fedora'
+name = 'rust-update-set'

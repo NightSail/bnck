@@ -1,0 +1,6 @@
+id = 'synadm'
+name = 'synadm'
+
+[[package]]
+channel = 'debian'
+name = 'synadm'

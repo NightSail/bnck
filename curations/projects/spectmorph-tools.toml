@@ -1,0 +1,8 @@
+id = 'spectmorph-tools'
+name = 'spectmorph-tools'
+
+homepage = 'https://spectmorph.org'
+
+[[package]]
+channel = 'arch'
+name = 'spectmorph-tools'

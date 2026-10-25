@@ -1,0 +1,8 @@
+id = 'ccbuild'
+name = 'ccbuild'
+
+homepage = 'https://github.com/bneijt/ccbuild'
+
+[[package]]
+channel = 'debian'
+name = 'ccbuild'

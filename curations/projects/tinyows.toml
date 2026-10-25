@@ -1,0 +1,8 @@
+id = 'tinyows'
+name = 'tinyows'
+
+homepage = 'https://mapserver.org/tinyows'
+
+[[package]]
+channel = 'fedora'
+name = 'tinyows'

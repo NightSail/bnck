@@ -1,0 +1,28 @@
+id = 'xz'
+name = 'xz'
+
+homepage = 'https://tukaani.org/xz'
+
+[[package]]
+channel = 'arch'
+name = 'xz'
+
+[[package]]
+channel = 'debian'
+name = 'xz-utils'
+
+[[package]]
+channel = 'debian'
+name = 'xzdec'
+
+[[package]]
+channel = 'fedora'
+name = 'xz'
+
+[[package]]
+channel = 'fedora'
+name = 'xz-lzma-compat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xz'

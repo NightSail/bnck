@@ -1,0 +1,17 @@
+id = 'puzzles'
+name = 'puzzles'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/puzzles'
+repository = 'https://git.tartarus.org/simon/puzzles.git'
+
+[[package]]
+channel = 'arch'
+name = 'puzzles'
+
+[[package]]
+channel = 'fedora'
+name = 'puzzles'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/puzzles'

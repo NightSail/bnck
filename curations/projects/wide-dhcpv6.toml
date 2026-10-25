@@ -1,0 +1,20 @@
+id = 'wide-dhcpv6'
+name = 'wide-dhcpv6'
+
+homepage = 'https://wide-dhcpv6.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wide-dhcpv6-client'
+
+[[package]]
+channel = 'debian'
+name = 'wide-dhcpv6-relay'
+
+[[package]]
+channel = 'debian'
+name = 'wide-dhcpv6-server'
+
+[[package]]
+channel = 'fedora'
+name = 'wide-dhcpv6'

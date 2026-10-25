@@ -1,0 +1,12 @@
+id = 'qmk'
+name = 'qmk'
+
+homepage = 'https://github.com/qmk/qmk_cli'
+
+[[package]]
+channel = 'arch'
+name = 'qmk'
+
+[[package]]
+channel = 'debian'
+name = 'qmk'

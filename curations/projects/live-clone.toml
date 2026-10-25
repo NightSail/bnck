@@ -1,0 +1,6 @@
+id = 'live-clone'
+name = 'live-clone'
+
+[[package]]
+channel = 'debian'
+name = 'live-clone'

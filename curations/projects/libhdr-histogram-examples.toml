@@ -1,0 +1,8 @@
+id = 'libhdr-histogram-examples'
+name = 'libhdr-histogram-examples'
+
+homepage = 'https://github.com/HdrHistogram/HdrHistogram_c'
+
+[[package]]
+channel = 'debian'
+name = 'libhdr-histogram-examples'

@@ -1,0 +1,8 @@
+id = 'l-smash'
+name = 'l-smash'
+
+homepage = 'https://github.com/l-smash/l-smash'
+
+[[package]]
+channel = 'arch'
+name = 'l-smash'

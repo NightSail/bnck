@@ -1,0 +1,8 @@
+id = 'gr-satellites'
+name = 'gr-satellites'
+
+homepage = 'https://github.com/daniestevez/gr-satellites'
+
+[[package]]
+channel = 'debian'
+name = 'gr-satellites'

@@ -1,0 +1,8 @@
+id = 'dory'
+name = 'dory'
+
+homepage = 'https://github.com/freedomben/dory'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dory'

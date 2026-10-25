@@ -1,0 +1,12 @@
+id = 'flake8'
+name = 'flake8'
+
+homepage = 'https://github.com/pycqa/flake8'
+
+[[package]]
+channel = 'debian'
+name = 'flake8'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-flake8'

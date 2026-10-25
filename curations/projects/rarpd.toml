@@ -1,0 +1,10 @@
+id = 'rarpd'
+name = 'rarpd'
+
+[[package]]
+channel = 'debian'
+name = 'rarpd'
+
+[[package]]
+channel = 'fedora'
+name = 'rarpd'

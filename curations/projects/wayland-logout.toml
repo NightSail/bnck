@@ -1,0 +1,8 @@
+id = 'wayland-logout'
+name = 'wayland-logout'
+
+homepage = 'https://github.com/soreau/wayland-logout'
+
+[[package]]
+channel = 'fedora'
+name = 'wayland-logout'

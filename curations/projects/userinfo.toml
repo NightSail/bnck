@@ -1,0 +1,8 @@
+id = 'userinfo'
+name = 'userinfo'
+
+homepage = 'http://bjk.sourceforge.net/userinfo'
+
+[[package]]
+channel = 'debian'
+name = 'userinfo'

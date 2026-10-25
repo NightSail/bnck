@@ -1,0 +1,8 @@
+id = 'clearance'
+name = 'clearance'
+
+homepage = 'https://github.com/prime-radiant-inc/clearance/blob/main/apps/macos/README.md'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/clearance'

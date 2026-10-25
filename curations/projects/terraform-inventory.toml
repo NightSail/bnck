@@ -1,0 +1,8 @@
+id = 'terraform-inventory'
+name = 'terraform-inventory'
+
+repository = 'https://github.com/adammck/terraform-inventory.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-inventory'

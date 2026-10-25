@@ -1,0 +1,8 @@
+id = 'rt5-extension-mergeusers'
+name = 'rt5-extension-mergeusers'
+
+homepage = 'https://metacpan.org/release/RT-Extension-MergeUsers'
+
+[[package]]
+channel = 'debian'
+name = 'rt5-extension-mergeusers'

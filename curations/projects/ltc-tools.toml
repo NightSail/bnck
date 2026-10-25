@@ -1,0 +1,8 @@
+id = 'ltc-tools'
+name = 'ltc-tools'
+
+repository = 'https://github.com/x42/ltc-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ltc-tools'

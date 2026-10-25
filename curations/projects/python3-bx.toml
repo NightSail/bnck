@@ -1,0 +1,8 @@
+id = 'python3-bx'
+name = 'python3-bx'
+
+homepage = 'https://github.com/bxlab/bx-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bx'

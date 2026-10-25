@@ -1,0 +1,6 @@
+id = 'python3-anta'
+name = 'python3-anta'
+
+[[package]]
+channel = 'debian'
+name = 'python3-anta'

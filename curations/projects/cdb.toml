@@ -1,0 +1,12 @@
+id = 'cdb'
+name = 'cdb'
+
+homepage = 'https://cdb.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'freecdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdb'

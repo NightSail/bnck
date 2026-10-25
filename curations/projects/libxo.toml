@@ -1,0 +1,12 @@
+id = 'libxo'
+name = 'libxo'
+
+homepage = 'https://juniper.github.io/libxo/libxo-manual.html'
+
+[[package]]
+channel = 'fedora'
+name = 'libxo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxo'

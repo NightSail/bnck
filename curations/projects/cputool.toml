@@ -1,0 +1,6 @@
+id = 'cputool'
+name = 'cputool'
+
+[[package]]
+channel = 'debian'
+name = 'cputool'

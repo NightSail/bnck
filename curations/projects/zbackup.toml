@@ -1,0 +1,8 @@
+id = 'zbackup'
+name = 'zbackup'
+
+homepage = 'https://github.com/davidbartonau/zbackup'
+
+[[package]]
+channel = 'debian'
+name = 'zbackup'

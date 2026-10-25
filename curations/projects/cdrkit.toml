@@ -1,0 +1,20 @@
+id = 'cdrkit'
+name = 'cdrkit'
+
+homepage = 'http://cdrkit.org'
+
+[[package]]
+channel = 'fedora'
+name = 'dirsplit'
+
+[[package]]
+channel = 'fedora'
+name = 'genisoimage'
+
+[[package]]
+channel = 'fedora'
+name = 'icedax'
+
+[[package]]
+channel = 'fedora'
+name = 'wodim'

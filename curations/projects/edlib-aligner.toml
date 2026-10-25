@@ -1,0 +1,8 @@
+id = 'edlib-aligner'
+name = 'edlib-aligner'
+
+homepage = 'https://github.com/Martinsos/edlib'
+
+[[package]]
+channel = 'debian'
+name = 'edlib-aligner'

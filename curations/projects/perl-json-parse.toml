@@ -1,0 +1,8 @@
+id = 'perl-json-parse'
+name = 'perl-JSON-Parse'
+
+homepage = 'https://metacpan.org/release/JSON-Parse'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-JSON-Parse'

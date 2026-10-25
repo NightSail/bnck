@@ -1,0 +1,8 @@
+id = 'xpython'
+name = 'xpython'
+
+homepage = 'https://github.com/jupyter-xeus/xeus-python'
+
+[[package]]
+channel = 'debian'
+name = 'xpython'

@@ -1,0 +1,8 @@
+id = 'quilt-installer'
+name = 'quilt-installer'
+
+homepage = 'https://quiltmc.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quilt-installer'

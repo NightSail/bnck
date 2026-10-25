@@ -1,0 +1,8 @@
+id = 'icu4x-datagen'
+name = 'icu4x-datagen'
+
+homepage = 'https://icu4x.unicode.org'
+
+[[package]]
+channel = 'debian'
+name = 'icu4x-datagen'

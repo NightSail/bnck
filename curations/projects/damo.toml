@@ -1,0 +1,12 @@
+id = 'damo'
+name = 'damo'
+
+homepage = 'https://damonitor.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'damo'
+
+[[package]]
+channel = 'fedora'
+name = 'damo'

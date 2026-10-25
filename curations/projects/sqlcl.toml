@@ -1,0 +1,8 @@
+id = 'sqlcl'
+name = 'sqlcl'
+
+homepage = 'https://www.oracle.com/database/sqldeveloper/technologies/sqlcl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sqlcl'

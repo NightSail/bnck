@@ -1,0 +1,8 @@
+id = 'gnome-session-canberra'
+name = 'gnome-session-canberra'
+
+homepage = 'https://0pointer.de/lennart/projects/libcanberra'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-session-canberra'

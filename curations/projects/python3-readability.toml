@@ -1,0 +1,8 @@
+id = 'python3-readability'
+name = 'python3-readability'
+
+homepage = 'https://github.com/andreasvc/readability'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-readability'

@@ -1,0 +1,12 @@
+id = 'mkdocstrings'
+name = 'mkdocstrings'
+
+homepage = 'https://mkdocstrings.github.io/griffe'
+
+[[package]]
+channel = 'arch'
+name = 'python-griffe'
+
+[[package]]
+channel = 'arch'
+name = 'python-griffecli'

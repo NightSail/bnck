@@ -1,0 +1,8 @@
+id = 'pulseaudio-equalizer-ladspa'
+name = 'pulseaudio-equalizer-ladspa'
+
+homepage = 'https://github.com/pulseaudio-equalizer-ladspa/equalizer'
+
+[[package]]
+channel = 'arch'
+name = 'pulseaudio-equalizer-ladspa'

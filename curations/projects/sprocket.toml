@@ -1,0 +1,9 @@
+id = 'sprocket'
+name = 'sprocket'
+
+homepage = 'https://sprocket.bio'
+repository = 'https://github.com/stjude-rust-labs/sprocket.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sprocket'

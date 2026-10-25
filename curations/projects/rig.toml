@@ -1,0 +1,16 @@
+id = 'rig'
+name = 'rig'
+
+homepage = 'https://rig.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'rig'
+
+[[package]]
+channel = 'fedora'
+name = 'rig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rig'

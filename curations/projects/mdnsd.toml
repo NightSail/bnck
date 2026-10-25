@@ -1,0 +1,12 @@
+id = 'mdnsd'
+name = 'mdnsd'
+
+homepage = 'https://github.com/troglobit/mdnsd'
+
+[[package]]
+channel = 'debian'
+name = 'mdnsd'
+
+[[package]]
+channel = 'debian'
+name = 'mdnsd-tools'

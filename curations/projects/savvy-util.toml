@@ -1,0 +1,8 @@
+id = 'savvy-util'
+name = 'savvy-util'
+
+homepage = 'https://github.com/statgen/savvy'
+
+[[package]]
+channel = 'debian'
+name = 'savvy-util'

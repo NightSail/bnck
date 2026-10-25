@@ -1,0 +1,8 @@
+id = 'sproxy'
+name = 'sproxy'
+
+homepage = 'https://www.joedog.org/sproxy-home'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sproxy'

@@ -1,0 +1,8 @@
+id = 'labwc-tweaks'
+name = 'labwc-tweaks'
+
+homepage = 'https://github.com/labwc/labwc-tweaks'
+
+[[package]]
+channel = 'debian'
+name = 'labwc-tweaks'

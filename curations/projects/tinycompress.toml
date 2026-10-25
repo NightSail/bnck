@@ -1,0 +1,8 @@
+id = 'tinycompress'
+name = 'tinycompress'
+
+homepage = 'https://github.com/alsa-project/tinycompress'
+
+[[package]]
+channel = 'arch'
+name = 'tinycompress'

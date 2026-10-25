@@ -1,0 +1,48 @@
+id = 'gnome'
+name = 'gnome'
+
+homepage = 'https://www.gnome.org'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-common'
+
+[[package]]
+channel = 'arch'
+name = 'libidl2'
+
+[[package]]
+channel = 'fedora'
+name = 'bijiben'
+
+[[package]]
+channel = 'fedora'
+name = 'decibels'
+
+[[package]]
+channel = 'fedora'
+name = 'gconf-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-system-log'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-vfs2'
+
+[[package]]
+channel = 'fedora'
+name = 'libart_lgpl-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libbonoboui-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libgnome'
+
+[[package]]
+channel = 'fedora'
+name = 'mutter'

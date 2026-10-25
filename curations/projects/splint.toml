@@ -1,0 +1,17 @@
+id = 'splint'
+name = 'splint'
+
+homepage = 'https://repo.or.cz/splint-patched.git'
+repository = 'https://github.com/splintchecker/splint.git'
+
+[[package]]
+channel = 'arch'
+name = 'splint'
+
+[[package]]
+channel = 'debian'
+name = 'splint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/splint'

@@ -1,0 +1,8 @@
+id = 'vokoscreenng'
+name = 'vokoscreenNG'
+
+homepage = 'https://github.com/vkohaupt/vokoscreenNG'
+
+[[package]]
+channel = 'fedora'
+name = 'vokoscreenNG'

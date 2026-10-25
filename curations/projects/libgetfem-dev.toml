@@ -1,0 +1,8 @@
+id = 'libgetfem-dev'
+name = 'libgetfem-dev'
+
+homepage = 'http://getfem.org'
+
+[[package]]
+channel = 'debian'
+name = 'libgetfem-dev'

@@ -1,0 +1,12 @@
+id = 'dbeaver'
+name = 'dbeaver'
+
+homepage = 'https://dbeaver.io'
+
+[[package]]
+channel = 'arch'
+name = 'dbeaver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/dbeaver-community'

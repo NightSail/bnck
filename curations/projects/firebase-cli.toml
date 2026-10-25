@@ -1,0 +1,8 @@
+id = 'firebase-cli'
+name = 'firebase-cli'
+
+homepage = 'https://firebase.google.com/docs/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/firebase-cli'

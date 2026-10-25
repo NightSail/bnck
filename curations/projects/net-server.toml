@@ -1,0 +1,12 @@
+id = 'net-server'
+name = 'Net-Server'
+
+homepage = 'https://metacpan.org/release/Net-Server'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-server-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-Server'

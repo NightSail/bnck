@@ -1,0 +1,8 @@
+id = 'rtax'
+name = 'rtax'
+
+homepage = 'https://github.com/davidsoergel/rtax'
+
+[[package]]
+channel = 'debian'
+name = 'rtax'

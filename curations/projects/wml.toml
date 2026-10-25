@@ -1,0 +1,8 @@
+id = 'wml'
+name = 'wml'
+
+homepage = 'https://www.shlomifish.org/open-source/projects/website-meta-language'
+
+[[package]]
+channel = 'debian'
+name = 'wml'

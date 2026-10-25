@@ -1,0 +1,8 @@
+id = 'cd5'
+name = 'cd5'
+
+homepage = 'http://projects.meuh.org/cd5'
+
+[[package]]
+channel = 'debian'
+name = 'cd5'

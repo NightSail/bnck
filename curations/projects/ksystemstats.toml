@@ -1,0 +1,8 @@
+id = 'ksystemstats'
+name = 'ksystemstats'
+
+homepage = 'https://invent.kde.org/plasma/ksystemstats'
+
+[[package]]
+channel = 'fedora'
+name = 'ksystemstats'

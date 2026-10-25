@@ -1,0 +1,12 @@
+id = 'libzbd'
+name = 'libzbd'
+
+homepage = 'https://github.com/westerndigitalcorporation/libzbd'
+
+[[package]]
+channel = 'fedora'
+name = 'libzbd-cli-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libzbd-gtk-tools'

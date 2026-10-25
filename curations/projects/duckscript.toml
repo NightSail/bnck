@@ -1,0 +1,9 @@
+id = 'duckscript'
+name = 'duckscript'
+
+homepage = 'https://sagiegurari.github.io/duckscript'
+repository = 'https://github.com/sagiegurari/duckscript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duckscript'

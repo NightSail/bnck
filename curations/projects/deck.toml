@@ -1,0 +1,13 @@
+id = 'deck'
+name = 'deck'
+
+homepage = 'https://github.com/kong/deck'
+repository = 'https://github.com/k1LoW/deck.git'
+
+[[package]]
+channel = 'debian'
+name = 'deck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deck'

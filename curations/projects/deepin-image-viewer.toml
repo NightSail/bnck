@@ -1,0 +1,16 @@
+id = 'deepin-image-viewer'
+name = 'deepin-image-viewer'
+
+homepage = 'https://github.com/linuxdeepin/deepin-image-viewer'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-image-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-image-viewer'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-image-viewer'

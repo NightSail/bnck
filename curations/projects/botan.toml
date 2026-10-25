@@ -1,0 +1,25 @@
+id = 'botan'
+name = 'botan'
+
+homepage = 'https://botan.randombit.net'
+repository = 'https://github.com/randombit/botan.git'
+
+[[package]]
+channel = 'arch'
+name = 'botan'
+
+[[package]]
+channel = 'debian'
+name = 'botan'
+
+[[package]]
+channel = 'fedora'
+name = 'botan-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'botan2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/botan'

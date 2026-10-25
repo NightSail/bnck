@@ -1,0 +1,13 @@
+id = 'rustypaste'
+name = 'rustypaste'
+
+homepage = 'https://blog.orhun.dev/blazingly-fast-file-sharing'
+repository = 'https://github.com/orhun/rustypaste.git'
+
+[[package]]
+channel = 'arch'
+name = 'rustypaste'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rustypaste'

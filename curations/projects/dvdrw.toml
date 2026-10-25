@@ -1,0 +1,16 @@
+id = 'dvdrw'
+name = 'DVD+RW'
+
+homepage = 'http://fy.chalmers.se/~appro/linux/DVD+RW'
+
+[[package]]
+channel = 'debian'
+name = 'dvd+rw-tools'
+
+[[package]]
+channel = 'debian'
+name = 'growisofs'
+
+[[package]]
+channel = 'fedora'
+name = 'dvd+rw-tools'

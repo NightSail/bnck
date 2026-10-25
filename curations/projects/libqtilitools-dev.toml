@@ -1,0 +1,8 @@
+id = 'libqtilitools-dev'
+name = 'libqtilitools-dev'
+
+homepage = 'https://qtilities.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'libqtilitools-dev'

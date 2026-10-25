@@ -1,0 +1,12 @@
+id = 'tmpreaper'
+name = 'tmpreaper'
+
+homepage = 'https://packages.debian.org/sid/tmpreaper'
+
+[[package]]
+channel = 'debian'
+name = 'tmpreaper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmpreaper'

@@ -1,0 +1,16 @@
+id = 'tomee'
+name = 'tomee'
+
+homepage = 'https://tomee.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tomee-plume'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tomee-plus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tomee-webprofile'

@@ -1,0 +1,8 @@
+id = 'enex2notion'
+name = 'enex2notion'
+
+homepage = 'https://github.com/vzhd1701/enex2notion'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enex2notion'

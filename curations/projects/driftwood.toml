@@ -1,0 +1,9 @@
+id = 'driftwood'
+name = 'driftwood'
+
+homepage = 'https://trufflesecurity.com'
+repository = 'https://github.com/trufflesecurity/driftwood.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/driftwood'

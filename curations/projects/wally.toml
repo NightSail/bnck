@@ -1,0 +1,9 @@
+id = 'wally'
+name = 'wally'
+
+homepage = 'https://wally.run'
+repository = 'https://github.com/UpliftGames/wally.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wally'

@@ -1,0 +1,8 @@
+id = 'perl-sgmls'
+name = 'perl-sgmls'
+
+homepage = 'https://search.cpan.org/dist/SGMLSpm'
+
+[[package]]
+channel = 'arch'
+name = 'perl-sgmls'

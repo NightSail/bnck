@@ -1,0 +1,12 @@
+id = 'yubikey-touch-detector'
+name = 'yubikey-touch-detector'
+
+homepage = 'https://github.com/maximbaz/yubikey-touch-detector'
+
+[[package]]
+channel = 'arch'
+name = 'yubikey-touch-detector'
+
+[[package]]
+channel = 'debian'
+name = 'yubikey-touch-detector'

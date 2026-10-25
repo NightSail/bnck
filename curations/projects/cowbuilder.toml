@@ -1,0 +1,6 @@
+id = 'cowbuilder'
+name = 'cowbuilder'
+
+[[package]]
+channel = 'debian'
+name = 'cowbuilder'

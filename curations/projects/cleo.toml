@@ -1,0 +1,8 @@
+id = 'cleo'
+name = 'cleo'
+
+homepage = 'https://metacpan.org/release/App-Cleo'
+
+[[package]]
+channel = 'debian'
+name = 'cleo'

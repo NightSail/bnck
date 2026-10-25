@@ -1,0 +1,8 @@
+id = 'python3-aioimaplib'
+name = 'python3-aioimaplib'
+
+homepage = 'https://github.com/bamthomas/aioimaplib'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aioimaplib'

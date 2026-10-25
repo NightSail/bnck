@@ -1,0 +1,12 @@
+id = 'shape'
+name = '~shape'
+
+homepage = 'http://swt.cs.tu-berlin.de/~shape/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'atfs'
+
+[[package]]
+channel = 'debian'
+name = 'shapetools'

@@ -1,0 +1,36 @@
+id = 'eiskaltdcpp'
+name = 'eiskaltdcpp'
+
+homepage = 'https://github.com/eiskaltdcpp/eiskaltdcpp'
+
+[[package]]
+channel = 'debian'
+name = 'eiskaltdcpp-cli'
+
+[[package]]
+channel = 'debian'
+name = 'eiskaltdcpp-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'eiskaltdcpp-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'eiskaltdcpp-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'eiskaltdcpp'
+
+[[package]]
+channel = 'fedora'
+name = 'eiskaltdcpp-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'eiskaltdcpp-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'eiskaltdcpp-xmlrpc'

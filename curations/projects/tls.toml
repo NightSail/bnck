@@ -1,0 +1,12 @@
+id = 'tls'
+name = 'tls'
+
+homepage = 'https://tls.mbed.org'
+
+[[package]]
+channel = 'arch'
+name = 'mbedtls'
+
+[[package]]
+channel = 'arch'
+name = 'mbedtls3'

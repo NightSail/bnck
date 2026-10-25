@@ -1,0 +1,8 @@
+id = 'isrcsubmit'
+name = 'isrcsubmit'
+
+homepage = 'https://jonnyjd.github.io/musicbrainz-isrcsubmit'
+
+[[package]]
+channel = 'debian'
+name = 'isrcsubmit'

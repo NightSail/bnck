@@ -1,0 +1,12 @@
+id = 'birdfont'
+name = 'birdfont'
+
+homepage = 'https://birdfont.org'
+
+[[package]]
+channel = 'arch'
+name = 'birdfont'
+
+[[package]]
+channel = 'debian'
+name = 'birdfont'

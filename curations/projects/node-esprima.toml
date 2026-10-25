@@ -1,0 +1,8 @@
+id = 'node-esprima'
+name = 'node-esprima'
+
+homepage = 'https://esprima.org'
+
+[[package]]
+channel = 'debian'
+name = 'node-esprima'

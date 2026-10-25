@@ -1,0 +1,16 @@
+id = 'xq'
+name = 'xq'
+
+repository = 'https://github.com/sibprogrammer/xq.git'
+
+[[package]]
+channel = 'debian'
+name = 'xq'
+
+[[package]]
+channel = 'fedora'
+name = 'xq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xq'

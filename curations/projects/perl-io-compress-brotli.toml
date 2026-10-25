@@ -1,0 +1,8 @@
+id = 'perl-io-compress-brotli'
+name = 'perl-IO-Compress-Brotli'
+
+homepage = 'https://metacpan.org/release/IO-Compress-Brotli'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-IO-Compress-Brotli'

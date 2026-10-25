@@ -1,0 +1,8 @@
+id = 'maq'
+name = 'maq'
+
+homepage = 'http://maq.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'maq'

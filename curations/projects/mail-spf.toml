@@ -1,0 +1,12 @@
+id = 'mail-spf'
+name = 'Mail-SPF'
+
+homepage = 'https://metacpan.org/release/Mail-SPF'
+
+[[package]]
+channel = 'debian'
+name = 'spf-tools-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mail-SPF'

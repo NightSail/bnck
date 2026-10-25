@@ -1,0 +1,12 @@
+id = 'perftest'
+name = 'perftest'
+
+homepage = 'https://github.com/linux-rdma/perftest'
+
+[[package]]
+channel = 'debian'
+name = 'perftest'
+
+[[package]]
+channel = 'fedora'
+name = 'perftest'

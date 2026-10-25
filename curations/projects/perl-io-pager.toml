@@ -1,0 +1,8 @@
+id = 'perl-io-pager'
+name = 'perl-IO-Pager'
+
+homepage = 'https://metacpan.org/release/IO-Pager'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-IO-Pager'

@@ -1,0 +1,12 @@
+id = 'puppet-lint'
+name = 'puppet-lint'
+
+homepage = 'https://github.com/puppetlabs/puppet-lint'
+
+[[package]]
+channel = 'debian'
+name = 'puppet-lint'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-puppet-lint'

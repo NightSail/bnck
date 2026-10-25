@@ -1,0 +1,12 @@
+id = 'httparty'
+name = 'httparty'
+
+homepage = 'https://github.com/jnunemaker/httparty'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-httparty'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-httparty'

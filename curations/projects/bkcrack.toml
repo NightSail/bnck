@@ -1,0 +1,8 @@
+id = 'bkcrack'
+name = 'bkcrack'
+
+repository = 'https://github.com/kimci86/bkcrack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bkcrack'

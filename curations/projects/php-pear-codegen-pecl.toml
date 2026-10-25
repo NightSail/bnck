@@ -1,0 +1,8 @@
+id = 'php-pear-codegen-pecl'
+name = 'php-pear-CodeGen-PECL'
+
+homepage = 'https://pear.php.net/package/CodeGen_PECL'
+
+[[package]]
+channel = 'fedora'
+name = 'php-pear-CodeGen-PECL'

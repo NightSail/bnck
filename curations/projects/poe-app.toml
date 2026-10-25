@@ -1,0 +1,8 @@
+id = 'poe-app'
+name = 'poe.app'
+
+homepage = 'https://www.eskimo.com/~pburns/Poe'
+
+[[package]]
+channel = 'debian'
+name = 'poe.app'

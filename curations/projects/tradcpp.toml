@@ -1,0 +1,8 @@
+id = 'tradcpp'
+name = 'tradcpp'
+
+homepage = 'https://www.netbsd.org/~dholland/tradcpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tradcpp'

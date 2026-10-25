@@ -1,0 +1,188 @@
+id = 'mariadb'
+name = 'mariadb'
+
+homepage = 'https://mariadb.org'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb-clients'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb-libs'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb-lts'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb-lts-clients'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb-lts-libs'
+
+[[package]]
+channel = 'arch'
+name = 'mariadb-mytop'
+
+[[package]]
+channel = 'debian'
+name = 'libmariadb-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libmariadb-dev-compat'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-backup'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-client'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-client-compat'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-client-core'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-plugin-rocksdb'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-plugin-s3'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-server'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-server-compat'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-server-core'
+
+[[package]]
+channel = 'debian'
+name = 'mariadb-test'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-backup'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-client-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-connector-c-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-embedded'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-rocksdb-engine'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-s3-engine'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-server'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-server-galera'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-server-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb-test'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-backup'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-client-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-embedded'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-rocksdb-engine'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-s3-engine'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-server'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-server-galera'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-server-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mariadb11.8-test'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb@10.11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb@10.5'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb@10.6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb@11.4'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mariadb@11.8'

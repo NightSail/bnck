@@ -1,0 +1,9 @@
+id = 'ld-find-code-refs'
+name = 'ld-find-code-refs'
+
+homepage = 'https://launchdarkly.com'
+repository = 'https://github.com/launchdarkly/ld-find-code-refs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ld-find-code-refs'

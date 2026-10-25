@@ -1,0 +1,28 @@
+id = 'proftpd'
+name = 'proftpd'
+
+homepage = 'http://www.proftpd.org'
+
+[[package]]
+channel = 'debian'
+name = 'proftpd-core'
+
+[[package]]
+channel = 'debian'
+name = 'proftpd-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'proftpd'
+
+[[package]]
+channel = 'fedora'
+name = 'proftpd-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'proftpd-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proftpd'

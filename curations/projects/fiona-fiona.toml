@@ -1,0 +1,8 @@
+id = 'fiona-fiona'
+name = 'fiona'
+
+homepage = 'https://fiona.readthedocs.io/en/stable'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fiona'

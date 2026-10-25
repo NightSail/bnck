@@ -1,0 +1,12 @@
+id = 'koules'
+name = 'koules'
+
+homepage = 'http://www.ucw.cz/~hubicka/koules'
+
+[[package]]
+channel = 'fedora'
+name = 'koules-sdl'
+
+[[package]]
+channel = 'fedora'
+name = 'koules-x11'

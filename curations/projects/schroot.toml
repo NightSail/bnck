@@ -1,0 +1,12 @@
+id = 'schroot'
+name = 'schroot'
+
+homepage = 'https://packages.qa.debian.org/s/schroot.html'
+
+[[package]]
+channel = 'arch'
+name = 'schroot'
+
+[[package]]
+channel = 'debian'
+name = 'schroot'

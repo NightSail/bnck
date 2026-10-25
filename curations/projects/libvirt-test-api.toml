@@ -1,0 +1,8 @@
+id = 'libvirt-test-api'
+name = 'libvirt-test-API'
+
+homepage = 'https://github.com/libvirt/libvirt-test-API'
+
+[[package]]
+channel = 'fedora'
+name = 'libvirt-test-API'

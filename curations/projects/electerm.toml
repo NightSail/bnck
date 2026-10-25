@@ -1,0 +1,8 @@
+id = 'electerm'
+name = 'electerm'
+
+homepage = 'https://electerm.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/electerm'

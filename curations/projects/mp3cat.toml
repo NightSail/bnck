@@ -1,0 +1,8 @@
+id = 'mp3cat'
+name = 'mp3cat'
+
+homepage = 'https://tomclegg.ca/mp3cat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3cat'

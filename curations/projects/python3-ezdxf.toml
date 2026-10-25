@@ -1,0 +1,12 @@
+id = 'python3-ezdxf'
+name = 'python3-ezdxf'
+
+homepage = 'https://github.com/mozman/ezdxf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ezdxf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ezdxf'

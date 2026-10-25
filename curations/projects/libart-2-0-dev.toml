@@ -1,0 +1,6 @@
+id = 'libart-2-0-dev'
+name = 'libart-2.0-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libart-2.0-dev'

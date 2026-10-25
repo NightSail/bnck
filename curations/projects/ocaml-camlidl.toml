@@ -1,0 +1,8 @@
+id = 'ocaml-camlidl'
+name = 'ocaml-camlidl'
+
+homepage = 'https://xavierleroy.org/camlidl'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-camlidl'

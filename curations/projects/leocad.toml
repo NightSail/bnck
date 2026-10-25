@@ -1,0 +1,12 @@
+id = 'leocad'
+name = 'leocad'
+
+homepage = 'http://leocad.org'
+
+[[package]]
+channel = 'arch'
+name = 'leocad'
+
+[[package]]
+channel = 'debian'
+name = 'leocad'

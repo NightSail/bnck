@@ -1,0 +1,16 @@
+id = 'clamtk'
+name = 'clamtk'
+
+homepage = 'https://gitlab.com/dave_m/clamtk/-/wikis/home'
+
+[[package]]
+channel = 'arch'
+name = 'clamtk'
+
+[[package]]
+channel = 'debian'
+name = 'clamtk'
+
+[[package]]
+channel = 'fedora'
+name = 'clamtk'

@@ -1,0 +1,6 @@
+id = 'xbattbar'
+name = 'xbattbar'
+
+[[package]]
+channel = 'debian'
+name = 'xbattbar'

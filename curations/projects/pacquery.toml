@@ -1,0 +1,8 @@
+id = 'pacquery'
+name = 'pacquery'
+
+homepage = 'https://github.com/jelly/pacquery'
+
+[[package]]
+channel = 'arch'
+name = 'pacquery'

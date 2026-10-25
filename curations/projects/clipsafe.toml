@@ -1,0 +1,8 @@
+id = 'clipsafe'
+name = 'clipsafe'
+
+homepage = 'https://waxandwane.org/clipsafe.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clipsafe'

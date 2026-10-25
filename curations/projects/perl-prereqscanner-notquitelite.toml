@@ -1,0 +1,12 @@
+id = 'perl-prereqscanner-notquitelite'
+name = 'Perl-PrereqScanner-NotQuiteLite'
+
+homepage = 'https://metacpan.org/release/Perl-PrereqScanner-NotQuiteLite'
+
+[[package]]
+channel = 'debian'
+name = 'libperl-prereqscanner-notquitelite-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Perl-PrereqScanner-NotQuiteLite'

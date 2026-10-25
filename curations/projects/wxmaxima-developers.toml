@@ -1,0 +1,12 @@
+id = 'wxmaxima-developers'
+name = 'wxmaxima-developers'
+
+homepage = 'http://wxmaxima-developers.github.io/wxmaxima'
+
+[[package]]
+channel = 'debian'
+name = 'wxmaxima'
+
+[[package]]
+channel = 'fedora'
+name = 'wxMaxima'

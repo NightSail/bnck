@@ -1,0 +1,8 @@
+id = 'rubygem-sequel'
+name = 'rubygem-sequel'
+
+homepage = 'http://sequel.jeremyevans.net'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-sequel'

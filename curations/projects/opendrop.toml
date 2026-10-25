@@ -1,0 +1,8 @@
+id = 'opendrop'
+name = 'opendrop'
+
+homepage = 'https://github.com/jdber1/opendrop'
+
+[[package]]
+channel = 'debian'
+name = 'opendrop'

@@ -1,0 +1,8 @@
+id = 'gdrive'
+name = 'gdrive'
+
+repository = 'https://github.com/glotlabs/gdrive.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdrive'

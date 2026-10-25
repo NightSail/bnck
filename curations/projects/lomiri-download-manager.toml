@@ -1,0 +1,12 @@
+id = 'lomiri-download-manager'
+name = 'lomiri-download-manager'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-download-manager'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-download-manager'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-upload-manager'

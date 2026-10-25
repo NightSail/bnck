@@ -1,0 +1,8 @@
+id = 'alien-hunter'
+name = 'alien-hunter'
+
+homepage = 'https://www.sanger.ac.uk/science/tools/alien-hunter'
+
+[[package]]
+channel = 'debian'
+name = 'alien-hunter'

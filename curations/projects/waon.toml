@@ -1,0 +1,8 @@
+id = 'waon'
+name = 'waon'
+
+homepage = 'https://kichiki.github.io/WaoN'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/waon'

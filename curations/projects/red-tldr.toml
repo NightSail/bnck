@@ -1,0 +1,9 @@
+id = 'red-tldr'
+name = 'red-tldr'
+
+homepage = 'https://payloads.online/red-tldr'
+repository = 'https://github.com/Rvn0xsy/red-tldr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/red-tldr'

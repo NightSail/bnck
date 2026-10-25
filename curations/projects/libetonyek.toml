@@ -1,0 +1,16 @@
+id = 'libetonyek'
+name = 'libetonyek'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libetonyek'
+
+[[package]]
+channel = 'arch'
+name = 'libetonyek'
+
+[[package]]
+channel = 'fedora'
+name = 'libetonyek-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libetonyek'

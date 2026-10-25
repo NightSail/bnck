@@ -1,0 +1,8 @@
+id = 'snotes'
+name = 'snotes'
+
+homepage = 'https://github.com/v4hn/snotes'
+
+[[package]]
+channel = 'fedora'
+name = 'snotes'

@@ -1,0 +1,8 @@
+id = 'covtobed'
+name = 'covtobed'
+
+homepage = 'https://github.com/telatin/covtobed'
+
+[[package]]
+channel = 'debian'
+name = 'covtobed'

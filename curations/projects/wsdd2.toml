@@ -1,0 +1,8 @@
+id = 'wsdd2'
+name = 'wsdd2'
+
+homepage = 'https://github.com/Andy2244/wsdd2'
+
+[[package]]
+channel = 'debian'
+name = 'wsdd2'

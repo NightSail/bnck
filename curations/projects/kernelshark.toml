@@ -1,0 +1,16 @@
+id = 'kernelshark'
+name = 'kernelshark'
+
+homepage = 'https://kernelshark.org'
+
+[[package]]
+channel = 'arch'
+name = 'kernelshark'
+
+[[package]]
+channel = 'debian'
+name = 'kernelshark'
+
+[[package]]
+channel = 'fedora'
+name = 'kernelshark'

@@ -1,0 +1,8 @@
+id = 'sdate'
+name = 'sdate'
+
+homepage = 'https://www.df7cb.de/projects/sdate'
+
+[[package]]
+channel = 'debian'
+name = 'sdate'

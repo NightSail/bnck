@@ -1,0 +1,41 @@
+id = 'syncthing'
+name = 'syncthing'
+
+homepage = 'https://syncthing.net'
+repository = 'https://github.com/syncthing/syncthing.git'
+
+[[package]]
+channel = 'arch'
+name = 'syncthing'
+
+[[package]]
+channel = 'arch'
+name = 'syncthing-discosrv'
+
+[[package]]
+channel = 'arch'
+name = 'syncthing-relaysrv'
+
+[[package]]
+channel = 'debian'
+name = 'syncthing'
+
+[[package]]
+channel = 'debian'
+name = 'syncthing-discosrv'
+
+[[package]]
+channel = 'debian'
+name = 'syncthing-relaysrv'
+
+[[package]]
+channel = 'fedora'
+name = 'syncthing'
+
+[[package]]
+channel = 'fedora'
+name = 'syncthing-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/syncthing'

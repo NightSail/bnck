@@ -1,0 +1,10 @@
+id = 'python3-breathe'
+name = 'python3-breathe'
+
+[[package]]
+channel = 'debian'
+name = 'python3-breathe'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-breathe'

@@ -1,0 +1,8 @@
+id = 'cubicsdr'
+name = 'cubicsdr'
+
+homepage = 'https://cubicsdr.com'
+
+[[package]]
+channel = 'debian'
+name = 'cubicsdr'

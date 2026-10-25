@@ -1,0 +1,32 @@
+id = 'vtk'
+name = 'vtk'
+
+homepage = 'https://www.vtk.org'
+
+[[package]]
+channel = 'arch'
+name = 'vtk'
+
+[[package]]
+channel = 'debian'
+name = 'libvtk9-java'
+
+[[package]]
+channel = 'debian'
+name = 'python3-vtk9'
+
+[[package]]
+channel = 'debian'
+name = 'vtk9'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vtk'
+
+[[package]]
+channel = 'fedora'
+name = 'vtk-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'vtk-testing'

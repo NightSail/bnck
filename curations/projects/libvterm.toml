@@ -1,0 +1,20 @@
+id = 'libvterm'
+name = 'libvterm'
+
+homepage = 'https://www.leonerd.org.uk/code/libvterm'
+
+[[package]]
+channel = 'arch'
+name = 'libvterm'
+
+[[package]]
+channel = 'debian'
+name = 'libvterm-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libvterm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libvterm'

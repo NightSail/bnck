@@ -1,0 +1,16 @@
+id = 'miniupnp-miniupnp'
+name = 'miniupnp'
+
+homepage = 'http://miniupnp.free.fr/libnatpmp.html'
+
+[[package]]
+channel = 'arch'
+name = 'libnatpmp'
+
+[[package]]
+channel = 'debian'
+name = 'natpmpc'
+
+[[package]]
+channel = 'fedora'
+name = 'libnatpmp'

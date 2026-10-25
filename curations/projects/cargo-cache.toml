@@ -1,0 +1,12 @@
+id = 'cargo-cache'
+name = 'cargo-cache'
+
+repository = 'https://github.com/matthiaskrgr/cargo-cache.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-cache'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-cache'

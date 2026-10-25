@@ -1,0 +1,9 @@
+id = 'rocq'
+name = 'rocq'
+
+homepage = 'https://rocq-prover.org'
+repository = 'https://github.com/rocq-prover/rocq.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rocq'

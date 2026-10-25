@@ -1,0 +1,9 @@
+id = 'zboy'
+name = 'zboy'
+
+homepage = 'https://zboy.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/zboy/code/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zboy'

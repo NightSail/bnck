@@ -1,0 +1,8 @@
+id = 'shellex'
+name = 'shellex'
+
+homepage = 'http://github.com/Merovius/shellex'
+
+[[package]]
+channel = 'debian'
+name = 'shellex'

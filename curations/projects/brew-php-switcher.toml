@@ -1,0 +1,8 @@
+id = 'brew-php-switcher'
+name = 'brew-php-switcher'
+
+repository = 'https://github.com/philcook/brew-php-switcher.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brew-php-switcher'

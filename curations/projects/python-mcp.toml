@@ -1,0 +1,8 @@
+id = 'python-mcp'
+name = 'python-mcp'
+
+homepage = 'https://github.com/modelcontextprotocol/python-sdk'
+
+[[package]]
+channel = 'arch'
+name = 'python-mcp'

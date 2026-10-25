@@ -1,0 +1,16 @@
+id = 'ccls'
+name = 'ccls'
+
+repository = 'https://github.com/MaskRay/ccls.git'
+
+[[package]]
+channel = 'arch'
+name = 'ccls'
+
+[[package]]
+channel = 'debian'
+name = 'ccls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccls'

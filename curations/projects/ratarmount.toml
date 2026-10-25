@@ -1,0 +1,12 @@
+id = 'ratarmount'
+name = 'ratarmount'
+
+repository = 'https://github.com/mxmlnkn/ratarmount.git'
+
+[[package]]
+channel = 'arch'
+name = 'ratarmount'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ratarmount'

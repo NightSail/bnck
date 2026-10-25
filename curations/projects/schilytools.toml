@@ -1,0 +1,12 @@
+id = 'schilytools'
+name = 'schilytools'
+
+homepage = 'https://codeberg.org/schilytools/schilytools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/star'

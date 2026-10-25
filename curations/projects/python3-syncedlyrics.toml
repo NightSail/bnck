@@ -1,0 +1,8 @@
+id = 'python3-syncedlyrics'
+name = 'python3-syncedlyrics'
+
+homepage = 'https://github.com/moehmeni/syncedlyrics'
+
+[[package]]
+channel = 'debian'
+name = 'python3-syncedlyrics'

@@ -1,0 +1,8 @@
+id = 'durep'
+name = 'durep'
+
+homepage = 'https://web.archive.org/web/20040404065120/http://www.hibernaculum.net/durep.html'
+
+[[package]]
+channel = 'debian'
+name = 'durep'

@@ -1,0 +1,8 @@
+id = 'tty-record'
+name = 'tty-record'
+
+homepage = 'https://github.com/elisescu/tty-record'
+
+[[package]]
+channel = 'debian'
+name = 'tty-record'

@@ -1,0 +1,8 @@
+id = 'ntk'
+name = 'ntk'
+
+homepage = 'https://non.tuxfamily.org/wiki/NTK'
+
+[[package]]
+channel = 'arch'
+name = 'ntk'

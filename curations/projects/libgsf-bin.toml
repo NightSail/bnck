@@ -1,0 +1,8 @@
+id = 'libgsf-bin'
+name = 'libgsf-bin'
+
+homepage = 'http://projects.gnome.org/libgsf'
+
+[[package]]
+channel = 'debian'
+name = 'libgsf-bin'

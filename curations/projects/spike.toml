@@ -1,0 +1,12 @@
+id = 'spike'
+name = 'spike'
+
+homepage = 'https://github.com/riscv/riscv-isa-sim'
+
+[[package]]
+channel = 'arch'
+name = 'spike'
+
+[[package]]
+channel = 'debian'
+name = 'spike'

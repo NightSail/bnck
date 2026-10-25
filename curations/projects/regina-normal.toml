@@ -1,0 +1,12 @@
+id = 'regina-normal'
+name = 'regina-normal'
+
+homepage = 'https://regina-normal.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'regina'
+
+[[package]]
+channel = 'debian'
+name = 'regina-normal'

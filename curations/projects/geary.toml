@@ -1,0 +1,16 @@
+id = 'geary'
+name = 'geary'
+
+homepage = 'https://wiki.gnome.org/Apps/Geary'
+
+[[package]]
+channel = 'arch'
+name = 'geary'
+
+[[package]]
+channel = 'debian'
+name = 'geary'
+
+[[package]]
+channel = 'fedora'
+name = 'geary'

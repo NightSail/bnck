@@ -1,0 +1,6 @@
+id = 'pysatellites'
+name = 'pysatellites'
+
+[[package]]
+channel = 'debian'
+name = 'pysatellites'

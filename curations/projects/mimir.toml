@@ -1,0 +1,8 @@
+id = 'mimir'
+name = 'mimir'
+
+homepage = 'https://grafana.com/oss/mimir'
+
+[[package]]
+channel = 'arch'
+name = 'mimir'

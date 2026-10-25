@@ -1,0 +1,6 @@
+id = 'daa2iso'
+name = 'daa2iso'
+
+[[package]]
+channel = 'debian'
+name = 'daa2iso'

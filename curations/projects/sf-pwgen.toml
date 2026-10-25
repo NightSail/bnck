@@ -1,0 +1,8 @@
+id = 'sf-pwgen'
+name = 'sf-pwgen'
+
+repository = 'https://github.com/anders/pwgen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sf-pwgen'

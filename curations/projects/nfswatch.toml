@@ -1,0 +1,12 @@
+id = 'nfswatch'
+name = 'nfswatch'
+
+homepage = 'http://nfswatch.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'nfswatch'
+
+[[package]]
+channel = 'fedora'
+name = 'nfswatch'

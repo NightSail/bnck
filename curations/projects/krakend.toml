@@ -1,0 +1,9 @@
+id = 'krakend'
+name = 'krakend'
+
+homepage = 'https://www.krakend.io'
+repository = 'https://github.com/krakend/krakend-ce.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/krakend'

@@ -1,0 +1,12 @@
+id = 'tcputils'
+name = 'tcputils'
+
+homepage = 'https://git.lysator.liu.se/tcputils/tcputils'
+
+[[package]]
+channel = 'debian'
+name = 'tcputils'
+
+[[package]]
+channel = 'fedora'
+name = 'tcputils'

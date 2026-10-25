@@ -1,0 +1,6 @@
+id = 'patroni'
+name = 'patroni'
+
+[[package]]
+channel = 'debian'
+name = 'patroni'

@@ -1,0 +1,8 @@
+id = 'safeeyes'
+name = 'safeeyes'
+
+homepage = 'https://github.com/slgobinath/SafeEyes'
+
+[[package]]
+channel = 'debian'
+name = 'safeeyes'

@@ -1,0 +1,8 @@
+id = 'libslirp-helper'
+name = 'libslirp-helper'
+
+homepage = 'https://gitlab.freedesktop.org/slirp/libslirp-rs'
+
+[[package]]
+channel = 'debian'
+name = 'libslirp-helper'

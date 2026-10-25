@@ -1,0 +1,9 @@
+id = 'sonar-scanner'
+name = 'sonar-scanner'
+
+homepage = 'https://docs.sonarqube.org/latest/analysis/scan/sonarscanner'
+repository = 'https://github.com/SonarSource/sonar-scanner-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sonar-scanner'

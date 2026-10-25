@@ -1,0 +1,20 @@
+id = 'x2gothinclient'
+name = 'x2gothinclient'
+
+homepage = 'https://code.x2go.org/releases/source/x2gothinclient'
+
+[[package]]
+channel = 'debian'
+name = 'x2gothinclient-cdmanager'
+
+[[package]]
+channel = 'debian'
+name = 'x2gothinclient-displaymanager'
+
+[[package]]
+channel = 'debian'
+name = 'x2gothinclient-management'
+
+[[package]]
+channel = 'debian'
+name = 'x2gothinclient-minidesktop'

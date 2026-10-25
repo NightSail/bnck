@@ -1,0 +1,12 @@
+id = 'xar'
+name = 'xar'
+
+homepage = 'https://github.com/apple-oss-distributions/xar'
+
+[[package]]
+channel = 'debian'
+name = 'xar'
+
+[[package]]
+channel = 'fedora'
+name = 'xar'

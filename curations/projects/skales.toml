@@ -1,0 +1,8 @@
+id = 'skales'
+name = 'skales'
+
+homepage = 'https://git.codelinaro.org/clo/qsdk/oss/tools/skales'
+
+[[package]]
+channel = 'debian'
+name = 'skales'

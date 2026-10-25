@@ -1,0 +1,8 @@
+id = 'upmpdcli'
+name = 'upmpdcli'
+
+homepage = 'https://www.lesbonscomptes.com/upmpdcli'
+
+[[package]]
+channel = 'arch'
+name = 'upmpdcli'

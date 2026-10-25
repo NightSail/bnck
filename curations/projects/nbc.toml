@@ -1,0 +1,12 @@
+id = 'nbc'
+name = 'nbc'
+
+homepage = 'https://bricxcc.sourceforge.net/nbc'
+
+[[package]]
+channel = 'debian'
+name = 'nbc'
+
+[[package]]
+channel = 'fedora'
+name = 'nbc'

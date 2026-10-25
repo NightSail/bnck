@@ -1,0 +1,16 @@
+id = 'tbtools'
+name = 'tbtools'
+
+homepage = 'https://github.com/intel/tbtools'
+
+[[package]]
+channel = 'arch'
+name = 'tbtools'
+
+[[package]]
+channel = 'debian'
+name = 'tbtools'
+
+[[package]]
+channel = 'fedora'
+name = 'tbtools'

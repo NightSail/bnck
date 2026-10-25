@@ -1,0 +1,8 @@
+id = 'shibboleth-sp'
+name = 'shibboleth-sp'
+
+homepage = 'https://wiki.shibboleth.net/confluence/display/SHIB2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shibboleth-sp'

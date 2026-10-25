@@ -1,0 +1,8 @@
+id = 'directx-shader-compiler'
+name = 'directx-shader-compiler'
+
+homepage = 'https://github.com/microsoft/DirectXShaderCompiler'
+
+[[package]]
+channel = 'arch'
+name = 'directx-shader-compiler'

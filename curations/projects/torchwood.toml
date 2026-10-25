@@ -1,0 +1,8 @@
+id = 'torchwood'
+name = 'torchwood'
+
+homepage = 'https://github.com/FiloSottile/torchwood'
+
+[[package]]
+channel = 'debian'
+name = 'torchwood'

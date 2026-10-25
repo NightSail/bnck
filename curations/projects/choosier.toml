@@ -1,0 +1,8 @@
+id = 'choosier'
+name = 'choosier'
+
+homepage = 'https://crates.io/crates/choosier'
+
+[[package]]
+channel = 'fedora'
+name = 'choosier'

@@ -1,0 +1,8 @@
+id = 'jmacro'
+name = 'jmacro'
+
+homepage = 'https://hackage.haskell.org/package/jmacro'
+
+[[package]]
+channel = 'debian'
+name = 'jmacro'

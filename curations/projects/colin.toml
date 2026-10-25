@@ -1,0 +1,8 @@
+id = 'colin'
+name = 'colin'
+
+homepage = 'https://github.com/user-cont/colin'
+
+[[package]]
+channel = 'fedora'
+name = 'colin'

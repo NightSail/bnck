@@ -1,0 +1,6 @@
+id = 'apt-show-versions'
+name = 'apt-show-versions'
+
+[[package]]
+channel = 'debian'
+name = 'apt-show-versions'

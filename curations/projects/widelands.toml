@@ -1,0 +1,16 @@
+id = 'widelands'
+name = 'widelands'
+
+homepage = 'https://www.widelands.org'
+
+[[package]]
+channel = 'arch'
+name = 'widelands'
+
+[[package]]
+channel = 'fedora'
+name = 'widelands'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/widelands'

@@ -1,0 +1,8 @@
+id = 'sword-sword'
+name = 'sword'
+
+homepage = 'https://www.crosswire.org/sword/index.jsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sword'

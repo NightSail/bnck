@@ -1,0 +1,8 @@
+id = 'terminews'
+name = 'terminews'
+
+homepage = 'https://github.com/antavelos/terminews'
+
+[[package]]
+channel = 'debian'
+name = 'terminews'

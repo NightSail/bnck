@@ -1,0 +1,8 @@
+id = 'wapiti'
+name = 'wapiti'
+
+homepage = 'https://wapiti.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wapiti'

@@ -1,0 +1,8 @@
+id = 'python3-debrepo'
+name = 'python3-debrepo'
+
+homepage = 'https://pagure.io/debrepo'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-debrepo'

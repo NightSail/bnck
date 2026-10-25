@@ -1,0 +1,8 @@
+id = 'apkverifier'
+name = 'apkverifier'
+
+homepage = 'https://github.com/avast/apkverifier'
+
+[[package]]
+channel = 'debian'
+name = 'apkverifier'

@@ -1,0 +1,12 @@
+id = 'psalm'
+name = 'psalm'
+
+homepage = 'https://psalm.dev'
+
+[[package]]
+channel = 'arch'
+name = 'psalm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psalm'

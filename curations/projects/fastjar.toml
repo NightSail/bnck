@@ -1,0 +1,16 @@
+id = 'fastjar'
+name = 'fastjar'
+
+homepage = 'https://savannah.nongnu.org/projects/fastjar'
+
+[[package]]
+channel = 'arch'
+name = 'fastjar'
+
+[[package]]
+channel = 'debian'
+name = 'fastjar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastjar'

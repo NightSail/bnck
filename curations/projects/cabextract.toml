@@ -1,0 +1,20 @@
+id = 'cabextract'
+name = 'cabextract'
+
+homepage = 'https://www.cabextract.org.uk'
+
+[[package]]
+channel = 'arch'
+name = 'cabextract'
+
+[[package]]
+channel = 'debian'
+name = 'cabextract'
+
+[[package]]
+channel = 'fedora'
+name = 'cabextract'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cabextract'

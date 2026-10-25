@@ -1,0 +1,17 @@
+id = 'cargo-deny'
+name = 'cargo-deny'
+
+homepage = 'https://crates.io/crates/cargo-deny'
+repository = 'https://github.com/EmbarkStudios/cargo-deny.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-deny'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo-deny'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-deny'

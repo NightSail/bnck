@@ -1,0 +1,20 @@
+id = 'useplanify'
+name = 'useplanify'
+
+homepage = 'https://useplanify.com'
+
+[[package]]
+channel = 'arch'
+name = 'planify'
+
+[[package]]
+channel = 'debian'
+name = 'planify'
+
+[[package]]
+channel = 'debian'
+name = 'planify-cli'
+
+[[package]]
+channel = 'debian'
+name = 'planify-quick-add'

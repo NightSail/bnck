@@ -1,0 +1,8 @@
+id = 'cli-spinner'
+name = 'cli-spinner'
+
+homepage = 'https://github.com/odeke-em/cli-spinner'
+
+[[package]]
+channel = 'debian'
+name = 'cli-spinner'

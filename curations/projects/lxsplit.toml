@@ -1,0 +1,12 @@
+id = 'lxsplit'
+name = 'lxsplit'
+
+homepage = 'https://lxsplit.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'lxsplit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lxsplit'

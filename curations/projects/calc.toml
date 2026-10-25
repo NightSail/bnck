@@ -1,0 +1,21 @@
+id = 'calc'
+name = 'calc'
+
+homepage = 'http://www.isthe.com/chongo/tech/comp/calc'
+repository = 'https://github.com/lcn2/calc.git'
+
+[[package]]
+channel = 'arch'
+name = 'calc'
+
+[[package]]
+channel = 'debian'
+name = 'calc'
+
+[[package]]
+channel = 'fedora'
+name = 'calc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/calc'

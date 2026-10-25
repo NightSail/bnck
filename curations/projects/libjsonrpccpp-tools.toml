@@ -1,0 +1,8 @@
+id = 'libjsonrpccpp-tools'
+name = 'libjsonrpccpp-tools'
+
+homepage = 'https://github.com/cinemast/libjson-rpc-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'libjsonrpccpp-tools'

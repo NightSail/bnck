@@ -1,0 +1,8 @@
+id = 'wmnut'
+name = 'wmnut'
+
+homepage = 'https://github.com/networkupstools/wmnut'
+
+[[package]]
+channel = 'debian'
+name = 'wmnut'

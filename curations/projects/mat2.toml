@@ -4,9 +4,17 @@ name = 'mat2'
 homepage = 'https://0xacab.org/jvoisin/mat2'
 
 [[package]]
+channel = 'arch'
+name = 'mat2'
+
+[[package]]
 channel = 'debian'
 name = 'mat2'
 
 [[package]]
 channel = 'fedora'
 name = 'mat2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mat2'

@@ -1,0 +1,8 @@
+id = 'android-platform-tools-base'
+name = 'android-platform-tools-base'
+
+homepage = 'https://android.googlesource.com/platform/tools/base'
+
+[[package]]
+channel = 'debian'
+name = 'android-platform-tools-base'

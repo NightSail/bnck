@@ -1,0 +1,8 @@
+id = 'perl-www-shorten'
+name = 'perl-WWW-Shorten'
+
+homepage = 'https://metacpan.org/release/WWW-Shorten'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-WWW-Shorten'

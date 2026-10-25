@@ -1,0 +1,21 @@
+id = 'zzuf'
+name = 'zzuf'
+
+homepage = 'https://caca.zoy.org/wiki/zzuf'
+repository = 'https://github.com/samhocevar/zzuf.git'
+
+[[package]]
+channel = 'arch'
+name = 'zzuf'
+
+[[package]]
+channel = 'debian'
+name = 'zzuf'
+
+[[package]]
+channel = 'fedora'
+name = 'zzuf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zzuf'

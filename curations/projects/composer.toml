@@ -1,0 +1,20 @@
+id = 'composer'
+name = 'composer'
+
+homepage = 'https://getcomposer.org'
+
+[[package]]
+channel = 'arch'
+name = 'composer'
+
+[[package]]
+channel = 'debian'
+name = 'composer'
+
+[[package]]
+channel = 'fedora'
+name = 'composer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/composer'

@@ -1,0 +1,25 @@
+id = 'knot-resolver'
+name = 'knot-resolver'
+
+homepage = 'https://www.knot-resolver.cz'
+repository = 'https://gitlab.labs.nic.cz/knot/knot-resolver.git'
+
+[[package]]
+channel = 'arch'
+name = 'knot-resolver'
+
+[[package]]
+channel = 'debian'
+name = 'knot-resolver'
+
+[[package]]
+channel = 'debian'
+name = 'knot-resolver6'
+
+[[package]]
+channel = 'fedora'
+name = 'knot-resolver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/knot-resolver'

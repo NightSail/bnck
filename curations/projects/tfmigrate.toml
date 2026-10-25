@@ -1,0 +1,8 @@
+id = 'tfmigrate'
+name = 'tfmigrate'
+
+repository = 'https://github.com/minamijoyo/tfmigrate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfmigrate'

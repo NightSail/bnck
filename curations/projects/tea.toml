@@ -8,5 +8,13 @@ channel = 'arch'
 name = 'tea'
 
 [[package]]
+channel = 'debian'
+name = 'tea'
+
+[[package]]
+channel = 'debian'
+name = 'tea-cli'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/tea'

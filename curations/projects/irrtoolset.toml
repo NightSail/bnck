@@ -1,0 +1,8 @@
+id = 'irrtoolset'
+name = 'irrtoolset'
+
+repository = 'https://github.com/irrtoolset/irrtoolset.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/irrtoolset'

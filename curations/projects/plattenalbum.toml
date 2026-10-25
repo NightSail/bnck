@@ -1,0 +1,8 @@
+id = 'plattenalbum'
+name = 'plattenalbum'
+
+homepage = 'https://github.com/SoongNoonien/plattenalbum'
+
+[[package]]
+channel = 'debian'
+name = 'plattenalbum'

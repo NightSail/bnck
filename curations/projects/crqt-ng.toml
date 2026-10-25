@@ -1,0 +1,8 @@
+id = 'crqt-ng'
+name = 'crqt-ng'
+
+homepage = 'https://gitlab.com/coolreader-ng/crqt-ng'
+
+[[package]]
+channel = 'debian'
+name = 'crqt-ng'

@@ -1,0 +1,8 @@
+id = 'restream'
+name = 'reStream'
+
+homepage = 'https://github.com/rien/reStream'
+
+[[package]]
+channel = 'fedora'
+name = 'reStream'

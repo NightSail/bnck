@@ -1,0 +1,8 @@
+id = 'attest-tool'
+name = 'attest-tool'
+
+homepage = 'https://github.com/google/go-attestation'
+
+[[package]]
+channel = 'debian'
+name = 'attest-tool'

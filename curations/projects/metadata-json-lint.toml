@@ -1,0 +1,12 @@
+id = 'metadata-json-lint'
+name = 'metadata-json-lint'
+
+homepage = 'https://github.com/voxpupuli/metadata-json-lint'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-metadata-json-lint'
+
+[[package]]
+channel = 'debian'
+name = 'metadata-json-lint'

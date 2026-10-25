@@ -1,0 +1,16 @@
+id = 'pypa'
+name = 'pypa'
+
+homepage = 'https://github.com/pypa/build'
+
+[[package]]
+channel = 'arch'
+name = 'python-build'
+
+[[package]]
+channel = 'debian'
+name = 'python3-build'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-build'

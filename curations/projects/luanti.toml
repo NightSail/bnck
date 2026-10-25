@@ -1,0 +1,20 @@
+id = 'luanti'
+name = 'luanti'
+
+homepage = 'https://www.luanti.org'
+
+[[package]]
+channel = 'arch'
+name = 'luanti'
+
+[[package]]
+channel = 'arch'
+name = 'luanti-server'
+
+[[package]]
+channel = 'fedora'
+name = 'minetest'
+
+[[package]]
+channel = 'fedora'
+name = 'minetest-server'

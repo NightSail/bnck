@@ -1,0 +1,8 @@
+id = 'qtqr'
+name = 'qtqr'
+
+homepage = 'https://launchpad.net/qr-tools'
+
+[[package]]
+channel = 'debian'
+name = 'qtqr'

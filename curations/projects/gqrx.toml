@@ -1,0 +1,16 @@
+id = 'gqrx'
+name = 'gqrx'
+
+homepage = 'https://www.gqrx.dk'
+
+[[package]]
+channel = 'arch'
+name = 'gqrx'
+
+[[package]]
+channel = 'debian'
+name = 'gqrx-sdr'
+
+[[package]]
+channel = 'fedora'
+name = 'gqrx'

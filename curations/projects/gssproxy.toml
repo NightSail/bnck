@@ -1,0 +1,16 @@
+id = 'gssproxy'
+name = 'gssproxy'
+
+homepage = 'https://github.com/gssapi/gssproxy'
+
+[[package]]
+channel = 'arch'
+name = 'gssproxy'
+
+[[package]]
+channel = 'debian'
+name = 'gssproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'gssproxy'

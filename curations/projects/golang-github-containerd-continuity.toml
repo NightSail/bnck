@@ -1,0 +1,8 @@
+id = 'golang-github-containerd-continuity'
+name = 'golang-github-containerd-continuity'
+
+homepage = 'https://github.com/containerd/continuity'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-containerd-continuity'

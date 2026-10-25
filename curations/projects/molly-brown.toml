@@ -1,0 +1,8 @@
+id = 'molly-brown'
+name = 'molly-brown'
+
+homepage = 'https://tildegit.org/solderpunk/molly-brown'
+
+[[package]]
+channel = 'debian'
+name = 'molly-brown'

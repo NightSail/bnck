@@ -1,0 +1,8 @@
+id = 'brazilian-conjugate'
+name = 'brazilian-conjugate'
+
+homepage = 'https://www.ime.usp.br/~ueda/br.ispell'
+
+[[package]]
+channel = 'debian'
+name = 'brazilian-conjugate'

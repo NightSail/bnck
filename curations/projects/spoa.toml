@@ -1,0 +1,12 @@
+id = 'spoa'
+name = 'spoa'
+
+homepage = 'https://github.com/rvaser/spoa'
+
+[[package]]
+channel = 'debian'
+name = 'spoa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spoa'

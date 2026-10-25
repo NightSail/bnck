@@ -1,0 +1,20 @@
+id = 'printrun'
+name = 'printrun'
+
+homepage = 'https://github.com/kliment/Printrun'
+
+[[package]]
+channel = 'fedora'
+name = 'plater'
+
+[[package]]
+channel = 'fedora'
+name = 'printrun-common'
+
+[[package]]
+channel = 'fedora'
+name = 'pronsole'
+
+[[package]]
+channel = 'fedora'
+name = 'pronterface'

@@ -1,0 +1,8 @@
+id = 'uperf'
+name = 'uperf'
+
+homepage = 'http://www.uperf.org'
+
+[[package]]
+channel = 'fedora'
+name = 'uperf'

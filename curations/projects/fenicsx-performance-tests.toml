@@ -1,0 +1,8 @@
+id = 'fenicsx-performance-tests'
+name = 'fenicsx-performance-tests'
+
+homepage = 'https://github.com/FEniCS/performance-test'
+
+[[package]]
+channel = 'debian'
+name = 'fenicsx-performance-tests'

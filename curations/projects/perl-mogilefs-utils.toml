@@ -1,0 +1,8 @@
+id = 'perl-mogilefs-utils'
+name = 'perl-MogileFS-Utils'
+
+homepage = 'https://metacpan.org/release/MogileFS-Utils'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-MogileFS-Utils'

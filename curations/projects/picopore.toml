@@ -1,0 +1,8 @@
+id = 'picopore'
+name = 'picopore'
+
+homepage = 'https://github.com/scottgigante/picopore'
+
+[[package]]
+channel = 'debian'
+name = 'picopore'

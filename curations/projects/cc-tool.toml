@@ -1,0 +1,8 @@
+id = 'cc-tool'
+name = 'cc-tool'
+
+homepage = 'https://github.com/dashesy/cc-tool'
+
+[[package]]
+channel = 'debian'
+name = 'cc-tool'

@@ -1,0 +1,8 @@
+id = 'uucp'
+name = 'uucp'
+
+homepage = 'https://www.gnu.org/software/uucp/uucp.html'
+
+[[package]]
+channel = 'arch'
+name = 'uucp'

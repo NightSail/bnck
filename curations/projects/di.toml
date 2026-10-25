@@ -1,0 +1,12 @@
+id = 'di'
+name = 'di'
+
+homepage = 'https://diskinfo-di.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'di'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/di'

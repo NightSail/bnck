@@ -1,0 +1,8 @@
+id = 'livescript'
+name = 'livescript'
+
+homepage = 'https://livescript.net'
+
+[[package]]
+channel = 'debian'
+name = 'livescript'

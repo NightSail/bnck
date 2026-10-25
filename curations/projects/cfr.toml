@@ -1,0 +1,12 @@
+id = 'cfr'
+name = 'cfr'
+
+homepage = 'https://www.benf.org/other/cfr'
+
+[[package]]
+channel = 'arch'
+name = 'cfr'
+
+[[package]]
+channel = 'fedora'
+name = 'CFR'

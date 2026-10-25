@@ -1,0 +1,8 @@
+id = 'yavta'
+name = 'yavta'
+
+homepage = 'https://git.ideasonboard.org/yavta.git'
+
+[[package]]
+channel = 'debian'
+name = 'yavta'

@@ -1,0 +1,9 @@
+id = 'gf'
+name = 'gf'
+
+homepage = 'https://goframe.org'
+repository = 'https://github.com/gogf/gf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gf'

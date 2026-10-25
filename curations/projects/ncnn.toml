@@ -1,0 +1,16 @@
+id = 'ncnn'
+name = 'ncnn'
+
+repository = 'https://github.com/Tencent/ncnn.git'
+
+[[package]]
+channel = 'arch'
+name = 'ncnn'
+
+[[package]]
+channel = 'fedora'
+name = 'ncnn-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncnn'

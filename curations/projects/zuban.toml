@@ -1,0 +1,9 @@
+id = 'zuban'
+name = 'zuban'
+
+homepage = 'https://zubanls.com'
+repository = 'https://github.com/zubanls/zuban.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zuban'

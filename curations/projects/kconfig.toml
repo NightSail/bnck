@@ -1,0 +1,20 @@
+id = 'kconfig'
+name = 'kconfig'
+
+homepage = 'https://invent.kde.org/frameworks/kconfig'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5config-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6config-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kconfig-core'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kconfig'

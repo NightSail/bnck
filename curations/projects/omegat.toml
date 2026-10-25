@@ -1,0 +1,8 @@
+id = 'omegat'
+name = 'omegat'
+
+homepage = 'https://www.omegat.org'
+
+[[package]]
+channel = 'debian'
+name = 'omegat'

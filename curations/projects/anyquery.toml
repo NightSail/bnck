@@ -1,0 +1,9 @@
+id = 'anyquery'
+name = 'anyquery'
+
+homepage = 'https://anyquery.dev'
+repository = 'https://github.com/julien040/anyquery.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/anyquery'

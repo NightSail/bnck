@@ -1,0 +1,16 @@
+id = 'persepolis'
+name = 'persepolis'
+
+homepage = 'https://persepolisdm.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'persepolis'
+
+[[package]]
+channel = 'debian'
+name = 'persepolis'
+
+[[package]]
+channel = 'fedora'
+name = 'persepolis'

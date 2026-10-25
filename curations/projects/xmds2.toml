@@ -1,0 +1,8 @@
+id = 'xmds2'
+name = 'xmds2'
+
+homepage = 'http://xmds.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xmds2'

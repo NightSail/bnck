@@ -1,0 +1,20 @@
+id = 'grsync'
+name = 'grsync'
+
+homepage = 'https://www.opbyte.it/grsync'
+
+[[package]]
+channel = 'arch'
+name = 'grsync'
+
+[[package]]
+channel = 'debian'
+name = 'grsync'
+
+[[package]]
+channel = 'fedora'
+name = 'grsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grsync'

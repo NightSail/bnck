@@ -1,0 +1,8 @@
+id = 'evans'
+name = 'evans'
+
+repository = 'https://github.com/ktr0731/evans.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/evans'

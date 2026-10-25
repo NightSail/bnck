@@ -1,0 +1,20 @@
+id = 'openmsx'
+name = 'openmsx'
+
+homepage = 'https://openmsx.org'
+
+[[package]]
+channel = 'debian'
+name = 'dmktools'
+
+[[package]]
+channel = 'debian'
+name = 'openmsx'
+
+[[package]]
+channel = 'debian'
+name = 'openmsx-catapult'
+
+[[package]]
+channel = 'fedora'
+name = 'openmsx'

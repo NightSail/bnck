@@ -1,0 +1,9 @@
+id = 'recc'
+name = 'recc'
+
+homepage = 'https://buildgrid.gitlab.io/recc'
+repository = 'https://gitlab.com/BuildGrid/buildbox/buildbox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recc'

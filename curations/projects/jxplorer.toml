@@ -1,0 +1,8 @@
+id = 'jxplorer'
+name = 'jxplorer'
+
+homepage = 'http://jxplorer.org'
+
+[[package]]
+channel = 'debian'
+name = 'jxplorer'

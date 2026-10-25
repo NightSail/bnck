@@ -1,0 +1,8 @@
+id = 'ivar'
+name = 'ivar'
+
+homepage = 'https://github.com/andersen-lab/ivar'
+
+[[package]]
+channel = 'debian'
+name = 'ivar'

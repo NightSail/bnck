@@ -1,0 +1,8 @@
+id = 'libnatpmp'
+name = 'libnatpmp'
+
+homepage = 'https://miniupnp.tuxfamily.org/libnatpmp.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnatpmp'

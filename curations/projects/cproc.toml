@@ -1,0 +1,8 @@
+id = 'cproc'
+name = 'cproc'
+
+homepage = 'https://git.sr.ht/~mcf/cproc'
+
+[[package]]
+channel = 'fedora'
+name = 'cproc'

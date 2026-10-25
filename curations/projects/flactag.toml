@@ -1,0 +1,12 @@
+id = 'flactag'
+name = 'flactag'
+
+homepage = 'https://flactag.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'flactag'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flactag'

@@ -1,0 +1,8 @@
+id = 'node-loose-envify'
+name = 'node-loose-envify'
+
+homepage = 'https://github.com/zertosh/loose-envify'
+
+[[package]]
+channel = 'debian'
+name = 'node-loose-envify'

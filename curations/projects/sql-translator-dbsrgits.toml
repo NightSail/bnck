@@ -1,0 +1,8 @@
+id = 'sql-translator-dbsrgits'
+name = 'sql-translator'
+
+homepage = 'https://github.com/dbsrgits/sql-translator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sql-translator'

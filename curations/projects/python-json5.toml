@@ -1,0 +1,8 @@
+id = 'python-json5'
+name = 'python-json5'
+
+homepage = 'https://pypi.org/project/json5'
+
+[[package]]
+channel = 'arch'
+name = 'python-json5'

@@ -1,0 +1,8 @@
+id = 'falco'
+name = 'falco'
+
+repository = 'https://github.com/ysugimoto/falco.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/falco'

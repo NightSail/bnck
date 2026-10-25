@@ -1,0 +1,8 @@
+id = 'ctpv'
+name = 'ctpv'
+
+homepage = 'https://www.nikitaivanov.com/man1/ctpv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctpv'

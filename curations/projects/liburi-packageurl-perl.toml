@@ -1,0 +1,8 @@
+id = 'liburi-packageurl-perl'
+name = 'liburi-packageurl-perl'
+
+homepage = 'https://metacpan.org/release/URI-PackageURL'
+
+[[package]]
+channel = 'debian'
+name = 'liburi-packageurl-perl'

@@ -1,0 +1,9 @@
+id = 'trunk-rs-trunk-rs'
+name = 'trunk-rs'
+
+homepage = 'https://trunk-rs.github.io/trunk'
+repository = 'https://github.com/trunk-rs/trunk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trunk'

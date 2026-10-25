@@ -1,0 +1,9 @@
+id = 'gdal-osgeo'
+name = 'gdal'
+
+homepage = 'https://gdal.org/en/stable'
+repository = 'https://github.com/OSGeo/gdal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdal'

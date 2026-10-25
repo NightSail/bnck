@@ -1,0 +1,8 @@
+id = 'vibes'
+name = 'vibes'
+
+homepage = 'https://enstabretagnerobotics.github.io/VIBES'
+
+[[package]]
+channel = 'debian'
+name = 'vibes'

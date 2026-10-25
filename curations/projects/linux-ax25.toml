@@ -1,0 +1,12 @@
+id = 'linux-ax25'
+name = 'linux-ax25'
+
+homepage = 'https://linux-ax25.in-berlin.de/wiki/Main_Page'
+
+[[package]]
+channel = 'debian'
+name = 'ax25-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ax25-xtools'

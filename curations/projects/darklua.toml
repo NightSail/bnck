@@ -1,0 +1,9 @@
+id = 'darklua'
+name = 'darklua'
+
+homepage = 'https://darklua.com'
+repository = 'https://github.com/seaofvoices/darklua.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/darklua'

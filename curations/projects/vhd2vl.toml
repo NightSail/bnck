@@ -1,0 +1,8 @@
+id = 'vhd2vl'
+name = 'vhd2vl'
+
+homepage = 'http://doolittle.icarus.com/~larry/vhd2vl'
+
+[[package]]
+channel = 'fedora'
+name = 'vhd2vl'

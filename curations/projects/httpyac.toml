@@ -1,0 +1,8 @@
+id = 'httpyac'
+name = 'httpyac'
+
+homepage = 'https://httpyac.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpyac'

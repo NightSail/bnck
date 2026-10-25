@@ -1,0 +1,16 @@
+id = 'primer3'
+name = 'primer3'
+
+homepage = 'https://primer3.org'
+
+[[package]]
+channel = 'debian'
+name = 'primer3'
+
+[[package]]
+channel = 'fedora'
+name = 'primer3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/primer3'

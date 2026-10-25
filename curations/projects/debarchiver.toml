@@ -1,0 +1,6 @@
+id = 'debarchiver'
+name = 'debarchiver'
+
+[[package]]
+channel = 'debian'
+name = 'debarchiver'

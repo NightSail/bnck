@@ -1,0 +1,8 @@
+id = 'blosc-bench'
+name = 'blosc-bench'
+
+homepage = 'https://github.com/Blosc/c-blosc'
+
+[[package]]
+channel = 'fedora'
+name = 'blosc-bench'

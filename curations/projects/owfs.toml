@@ -1,0 +1,60 @@
+id = 'owfs'
+name = 'owfs'
+
+homepage = 'https://owfs.org'
+
+[[package]]
+channel = 'debian'
+name = 'ow-shell'
+
+[[package]]
+channel = 'debian'
+name = 'ow-tools'
+
+[[package]]
+channel = 'debian'
+name = 'owfs-fuse'
+
+[[package]]
+channel = 'debian'
+name = 'owftpd'
+
+[[package]]
+channel = 'debian'
+name = 'owhttpd'
+
+[[package]]
+channel = 'debian'
+name = 'owserver'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-fs'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-ftpd'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-httpd'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-mon'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-server'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'owfs-tap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/owfs'

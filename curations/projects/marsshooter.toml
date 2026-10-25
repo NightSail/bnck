@@ -1,0 +1,8 @@
+id = 'marsshooter'
+name = 'marsshooter'
+
+homepage = 'https://mars-game.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'marsshooter'

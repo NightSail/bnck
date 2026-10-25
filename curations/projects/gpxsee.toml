@@ -1,0 +1,12 @@
+id = 'gpxsee'
+name = 'gpxsee'
+
+homepage = 'https://www.gpxsee.org'
+
+[[package]]
+channel = 'arch'
+name = 'gpxsee'
+
+[[package]]
+channel = 'fedora'
+name = 'gpxsee'

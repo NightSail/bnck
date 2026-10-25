@@ -1,0 +1,12 @@
+id = 'pwru'
+name = 'pwru'
+
+homepage = 'https://github.com/cilium/pwru'
+
+[[package]]
+channel = 'arch'
+name = 'pwru'
+
+[[package]]
+channel = 'debian'
+name = 'pwru'

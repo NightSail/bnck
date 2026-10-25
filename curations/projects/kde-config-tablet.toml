@@ -1,0 +1,8 @@
+id = 'kde-config-tablet'
+name = 'kde-config-tablet'
+
+homepage = 'https://invent.kde.org/plasma/wacomtablet'
+
+[[package]]
+channel = 'debian'
+name = 'kde-config-tablet'

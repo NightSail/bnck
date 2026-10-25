@@ -1,0 +1,8 @@
+id = 'ovn-bgp-agent'
+name = 'ovn-bgp-agent'
+
+homepage = 'https://github.com/openstack/ovn-bgp-agent'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-bgp-agent'

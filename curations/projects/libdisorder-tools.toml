@@ -1,0 +1,8 @@
+id = 'libdisorder-tools'
+name = 'libdisorder-tools'
+
+homepage = 'https://github.com/locasto/libdisorder'
+
+[[package]]
+channel = 'debian'
+name = 'libdisorder-tools'

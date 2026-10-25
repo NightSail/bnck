@@ -1,0 +1,8 @@
+id = 'acedb-other'
+name = 'acedb-other'
+
+homepage = 'https://www.sanger.ac.uk/tool/acedb'
+
+[[package]]
+channel = 'debian'
+name = 'acedb-other'

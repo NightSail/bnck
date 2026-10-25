@@ -1,0 +1,8 @@
+id = 'gpcslots2'
+name = 'gpcslots2'
+
+homepage = 'https://sourceforge.net/projects/gpcslots2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpcslots2'

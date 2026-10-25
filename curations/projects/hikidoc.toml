@@ -1,0 +1,12 @@
+id = 'hikidoc'
+name = 'hikidoc'
+
+homepage = 'https://github.com/hiki/hikidoc'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-hikidoc'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-hikidoc'

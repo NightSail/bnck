@@ -1,0 +1,16 @@
+id = 'gpaste'
+name = 'gpaste'
+
+homepage = 'https://www.imagination-land.org/tags/GPaste.html'
+
+[[package]]
+channel = 'arch'
+name = 'gpaste'
+
+[[package]]
+channel = 'debian'
+name = 'gpaste-2'
+
+[[package]]
+channel = 'fedora'
+name = 'gpaste'

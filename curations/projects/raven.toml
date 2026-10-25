@@ -1,0 +1,12 @@
+id = 'raven'
+name = 'raven'
+
+homepage = 'https://github.com/CycodeLabs/raven'
+
+[[package]]
+channel = 'debian'
+name = 'raven'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/raven'

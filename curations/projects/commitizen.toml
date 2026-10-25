@@ -1,0 +1,13 @@
+id = 'commitizen'
+name = 'commitizen'
+
+homepage = 'https://commitizen-tools.github.io/commitizen'
+repository = 'https://github.com/commitizen-tools/commitizen.git'
+
+[[package]]
+channel = 'debian'
+name = 'commitizen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/commitizen'

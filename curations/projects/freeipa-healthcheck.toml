@@ -1,0 +1,12 @@
+id = 'freeipa-healthcheck'
+name = 'freeipa-healthcheck'
+
+homepage = 'https://github.com/freeipa/freeipa-healthcheck'
+
+[[package]]
+channel = 'debian'
+name = 'freeipa-healthcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'freeipa-healthcheck'

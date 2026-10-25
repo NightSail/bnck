@@ -1,0 +1,8 @@
+id = 'haskell-criterion'
+name = 'haskell-criterion'
+
+homepage = 'https://github.com/haskell/criterion'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-criterion'

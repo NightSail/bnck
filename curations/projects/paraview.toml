@@ -1,0 +1,32 @@
+id = 'paraview'
+name = 'paraview'
+
+homepage = 'https://www.paraview.org'
+
+[[package]]
+channel = 'arch'
+name = 'paraview'
+
+[[package]]
+channel = 'debian'
+name = 'paraview'
+
+[[package]]
+channel = 'debian'
+name = 'paraview-dev'
+
+[[package]]
+channel = 'debian'
+name = 'python3-paraview'
+
+[[package]]
+channel = 'fedora'
+name = 'paraview'
+
+[[package]]
+channel = 'fedora'
+name = 'paraview-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/paraview'

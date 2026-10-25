@@ -1,0 +1,12 @@
+id = 'music'
+name = 'music'
+
+homepage = 'https://github.com/elementary/music'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-music'
+
+[[package]]
+channel = 'fedora'
+name = 'elementary-music'

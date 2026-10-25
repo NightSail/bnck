@@ -1,0 +1,8 @@
+id = 'tremulous'
+name = 'tremulous'
+
+homepage = 'http://tremulous.net'
+
+[[package]]
+channel = 'fedora'
+name = 'tremulous'

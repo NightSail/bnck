@@ -1,0 +1,12 @@
+id = 'libvma'
+name = 'libvma'
+
+homepage = 'https://github.com/Mellanox/libvma'
+
+[[package]]
+channel = 'fedora'
+name = 'libvma'
+
+[[package]]
+channel = 'fedora'
+name = 'libvma-utils'

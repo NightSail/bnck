@@ -1,0 +1,16 @@
+id = 'ahcpd'
+name = 'ahcpd'
+
+homepage = 'https://www.irif.fr/~jch/software/ahcp'
+
+[[package]]
+channel = 'debian'
+name = 'ahcpd'
+
+[[package]]
+channel = 'fedora'
+name = 'ahcpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ahcpd'

@@ -1,0 +1,8 @@
+id = 'python3-snap7'
+name = 'python3-snap7'
+
+homepage = 'https://github.com/gijzelaerr/python-snap7'
+
+[[package]]
+channel = 'debian'
+name = 'python3-snap7'

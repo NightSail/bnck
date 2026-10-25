@@ -1,0 +1,20 @@
+id = 'jbig2dec'
+name = 'jbig2dec'
+
+homepage = 'https://github.com/ArtifexSoftware/jbig2dec'
+
+[[package]]
+channel = 'arch'
+name = 'jbig2dec'
+
+[[package]]
+channel = 'debian'
+name = 'jbig2dec'
+
+[[package]]
+channel = 'fedora'
+name = 'jbig2dec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jbig2dec'

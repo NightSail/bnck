@@ -1,0 +1,12 @@
+id = 'gnome-taquin'
+name = 'gnome-taquin'
+
+homepage = 'https://wiki.gnome.org/Apps/Taquin'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-taquin'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-taquin'

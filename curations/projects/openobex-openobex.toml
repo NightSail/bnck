@@ -1,0 +1,12 @@
+id = 'openobex-openobex'
+name = 'openobex'
+
+homepage = 'http://sourceforge.net/projects/openobex'
+
+[[package]]
+channel = 'debian'
+name = 'libopenobex2'
+
+[[package]]
+channel = 'debian'
+name = 'openobex-apps'

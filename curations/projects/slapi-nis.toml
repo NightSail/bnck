@@ -1,0 +1,8 @@
+id = 'slapi-nis'
+name = 'slapi-nis'
+
+homepage = 'https://pagure.io/slapi-nis'
+
+[[package]]
+channel = 'debian'
+name = 'slapi-nis'

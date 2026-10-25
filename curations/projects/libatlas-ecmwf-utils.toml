@@ -1,0 +1,8 @@
+id = 'libatlas-ecmwf-utils'
+name = 'libatlas-ecmwf-utils'
+
+homepage = 'https://github.com/ecmwf/atlas'
+
+[[package]]
+channel = 'debian'
+name = 'libatlas-ecmwf-utils'

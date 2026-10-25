@@ -1,0 +1,12 @@
+id = 'ruby-maruku'
+name = 'ruby-maruku'
+
+homepage = 'https://github.com/bhollis/maruku'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-maruku'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-maruku'

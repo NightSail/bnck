@@ -1,0 +1,8 @@
+id = 'op1svg'
+name = 'op1svg'
+
+homepage = 'https://github.com/op1hacks/op1svg'
+
+[[package]]
+channel = 'fedora'
+name = 'op1svg'

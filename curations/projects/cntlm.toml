@@ -1,0 +1,16 @@
+id = 'cntlm'
+name = 'cntlm'
+
+homepage = 'http://cntlm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cntlm'
+
+[[package]]
+channel = 'fedora'
+name = 'cntlm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cntlm'

@@ -1,0 +1,8 @@
+id = 'ghc-doctest-devel'
+name = 'ghc-doctest-devel'
+
+homepage = 'https://hackage.haskell.org/package/doctest'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-doctest-devel'

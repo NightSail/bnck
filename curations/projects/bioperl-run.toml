@@ -1,0 +1,8 @@
+id = 'bioperl-run'
+name = 'bioperl-run'
+
+homepage = 'https://metacpan.org/release/BioPerl-Run'
+
+[[package]]
+channel = 'debian'
+name = 'bioperl-run'

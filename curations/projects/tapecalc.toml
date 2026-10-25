@@ -1,0 +1,8 @@
+id = 'tapecalc'
+name = 'tapecalc'
+
+homepage = 'https://invisible-island.net/add/add.html'
+
+[[package]]
+channel = 'debian'
+name = 'tapecalc'

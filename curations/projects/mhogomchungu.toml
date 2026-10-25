@@ -1,0 +1,12 @@
+id = 'mhogomchungu'
+name = 'mhogomchungu'
+
+homepage = 'https://mhogomchungu.github.io/zuluCrypt'
+
+[[package]]
+channel = 'fedora'
+name = 'zulucrypt'
+
+[[package]]
+channel = 'fedora'
+name = 'zulucrypt-console'

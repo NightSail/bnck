@@ -1,0 +1,8 @@
+id = 'pywhat'
+name = 'pywhat'
+
+repository = 'https://github.com/bee-san/pyWhat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pywhat'

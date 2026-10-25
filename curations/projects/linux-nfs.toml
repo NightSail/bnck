@@ -1,0 +1,32 @@
+id = 'linux-nfs'
+name = 'linux-nfs'
+
+homepage = 'https://linux-nfs.org'
+
+[[package]]
+channel = 'debian'
+name = 'nfs-common'
+
+[[package]]
+channel = 'debian'
+name = 'nfs-kernel-server'
+
+[[package]]
+channel = 'debian'
+name = 'nfs4-acl-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'nfs-stats-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'nfs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'nfs-utils-coreos'
+
+[[package]]
+channel = 'fedora'
+name = 'nfsv4-client-utils'

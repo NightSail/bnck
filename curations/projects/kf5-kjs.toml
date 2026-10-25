@@ -1,0 +1,8 @@
+id = 'kf5-kjs'
+name = 'kf5-kjs'
+
+homepage = 'https://invent.kde.org/frameworks/kjs'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kjs'

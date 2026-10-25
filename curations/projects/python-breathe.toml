@@ -1,0 +1,8 @@
+id = 'python-breathe'
+name = 'python-breathe'
+
+homepage = 'https://breathe.readthedocs.org/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-breathe'

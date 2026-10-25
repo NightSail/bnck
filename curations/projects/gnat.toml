@@ -1,0 +1,6 @@
+id = 'gnat'
+name = 'gnat'
+
+[[package]]
+channel = 'debian'
+name = 'gnat'

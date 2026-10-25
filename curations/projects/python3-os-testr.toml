@@ -1,0 +1,8 @@
+id = 'python3-os-testr'
+name = 'python3-os-testr'
+
+homepage = 'https://github.com/openstack/os-testr'
+
+[[package]]
+channel = 'debian'
+name = 'python3-os-testr'

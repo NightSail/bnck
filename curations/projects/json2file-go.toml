@@ -1,0 +1,8 @@
+id = 'json2file-go'
+name = 'json2file-go'
+
+homepage = 'https://salsa.debian.org/sto/json2file-go'
+
+[[package]]
+channel = 'debian'
+name = 'json2file-go'

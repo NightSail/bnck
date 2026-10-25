@@ -1,0 +1,20 @@
+id = 'softether'
+name = 'softether'
+
+homepage = 'https://www.softether.org'
+
+[[package]]
+channel = 'debian'
+name = 'softether-vpnbridge'
+
+[[package]]
+channel = 'debian'
+name = 'softether-vpnclient'
+
+[[package]]
+channel = 'debian'
+name = 'softether-vpncmd'
+
+[[package]]
+channel = 'debian'
+name = 'softether-vpnserver'

@@ -1,0 +1,21 @@
+id = 'ascii'
+name = 'ascii'
+
+homepage = 'http://www.catb.org/~esr/ascii'
+repository = 'https://gitlab.com/esr/ascii.git'
+
+[[package]]
+channel = 'arch'
+name = 'ascii'
+
+[[package]]
+channel = 'debian'
+name = 'ascii'
+
+[[package]]
+channel = 'fedora'
+name = 'ascii'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ascii'

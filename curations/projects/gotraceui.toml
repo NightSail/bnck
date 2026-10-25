@@ -1,0 +1,8 @@
+id = 'gotraceui'
+name = 'gotraceui'
+
+homepage = 'https://github.com/dominikh/gotraceui'
+
+[[package]]
+channel = 'arch'
+name = 'gotraceui'

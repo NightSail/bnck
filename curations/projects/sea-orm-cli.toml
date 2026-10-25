@@ -1,0 +1,8 @@
+id = 'sea-orm-cli'
+name = 'sea-orm-cli'
+
+homepage = 'https://www.sea-ql.org/SeaORM'
+
+[[package]]
+channel = 'arch'
+name = 'sea-orm-cli'

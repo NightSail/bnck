@@ -1,0 +1,20 @@
+id = 'rakudo'
+name = 'rakudo'
+
+homepage = 'https://rakudo.org'
+
+[[package]]
+channel = 'debian'
+name = 'rakudo'
+
+[[package]]
+channel = 'fedora'
+name = 'rakudo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rakudo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rakudo-star'

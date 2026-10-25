@@ -1,0 +1,8 @@
+id = 'python3-pyro'
+name = 'python3-pyro'
+
+homepage = 'https://github.com/irmen/Pyro4'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyro'

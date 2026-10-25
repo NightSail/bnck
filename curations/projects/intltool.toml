@@ -1,0 +1,20 @@
+id = 'intltool'
+name = 'intltool'
+
+homepage = 'https://wiki.freedesktop.org/www/Software/intltool'
+
+[[package]]
+channel = 'arch'
+name = 'intltool'
+
+[[package]]
+channel = 'debian'
+name = 'intltool'
+
+[[package]]
+channel = 'fedora'
+name = 'intltool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/intltool'

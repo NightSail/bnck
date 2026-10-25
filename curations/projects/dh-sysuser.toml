@@ -1,0 +1,12 @@
+id = 'dh-sysuser'
+name = 'dh-sysuser'
+
+homepage = 'https://salsa.debian.org/debian/dh-sysuser'
+
+[[package]]
+channel = 'debian'
+name = 'dh-sysuser'
+
+[[package]]
+channel = 'debian'
+name = 'sysuser-helper'

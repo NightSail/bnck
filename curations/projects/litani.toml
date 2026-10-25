@@ -1,0 +1,9 @@
+id = 'litani'
+name = 'litani'
+
+homepage = 'https://awslabs.github.io/aws-build-accumulator'
+repository = 'https://github.com/awslabs/aws-build-accumulator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/litani'

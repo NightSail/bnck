@@ -1,0 +1,8 @@
+id = 'mlnx-tools'
+name = 'mlnx-tools'
+
+homepage = 'https://github.com/Mellanox/mlnx-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mlnx-tools'

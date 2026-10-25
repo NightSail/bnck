@@ -1,0 +1,24 @@
+id = 'brltty'
+name = 'brltty'
+
+homepage = 'https://brltty.app'
+
+[[package]]
+channel = 'arch'
+name = 'brltty'
+
+[[package]]
+channel = 'arch'
+name = 'tcl-brltty'
+
+[[package]]
+channel = 'fedora'
+name = 'brlapi'
+
+[[package]]
+channel = 'fedora'
+name = 'brltty'
+
+[[package]]
+channel = 'fedora'
+name = 'brltty-minimal'

@@ -1,0 +1,8 @@
+id = 'offpunk'
+name = 'offpunk'
+
+homepage = 'https://offpunk.net'
+
+[[package]]
+channel = 'debian'
+name = 'offpunk'

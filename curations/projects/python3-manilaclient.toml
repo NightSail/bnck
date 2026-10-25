@@ -1,0 +1,12 @@
+id = 'python3-manilaclient'
+name = 'python3-manilaclient'
+
+homepage = 'https://github.com/openstack/python-manilaclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-manilaclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-manilaclient'

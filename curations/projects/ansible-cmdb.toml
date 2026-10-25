@@ -1,0 +1,8 @@
+id = 'ansible-cmdb'
+name = 'ansible-cmdb'
+
+homepage = 'https://github.com/fboender/ansible-cmdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible-cmdb'

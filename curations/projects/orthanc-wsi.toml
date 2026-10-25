@@ -1,0 +1,8 @@
+id = 'orthanc-wsi'
+name = 'orthanc-wsi'
+
+homepage = 'https://orthanc.uclouvain.be/book/plugins/wsi.html'
+
+[[package]]
+channel = 'debian'
+name = 'orthanc-wsi'

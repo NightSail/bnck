@@ -1,0 +1,8 @@
+id = 'taopm'
+name = 'taopm'
+
+homepage = 'http://taopm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'taopm'

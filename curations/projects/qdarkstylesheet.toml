@@ -1,0 +1,24 @@
+id = 'qdarkstylesheet'
+name = 'qdarkstylesheet'
+
+homepage = 'https://github.com/ColinDuquesnoy/QDarkStyleSheet'
+
+[[package]]
+channel = 'arch'
+name = 'python-qdarkstyle'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qdarkstyle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qdarkstyle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qdarkstyle+develop'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-qdarkstyle+example'

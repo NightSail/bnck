@@ -1,0 +1,12 @@
+id = 'sphinx-theme-builder'
+name = 'sphinx-theme-builder'
+
+homepage = 'https://github.com/pradyunsg/sphinx-theme-builder'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphinx-theme-builder'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-theme-builder'

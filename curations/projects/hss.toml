@@ -1,0 +1,12 @@
+id = 'hss'
+name = 'hss'
+
+homepage = 'https://github.com/six-ddc/hss'
+
+[[package]]
+channel = 'arch'
+name = 'hss'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hss'

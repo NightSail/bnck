@@ -1,0 +1,8 @@
+id = 'gqlclient'
+name = 'gqlclient'
+
+homepage = 'https://sr.ht/~emersion/gqlclient'
+
+[[package]]
+channel = 'debian'
+name = 'gqlclient'

@@ -1,0 +1,8 @@
+id = 'ijs'
+name = 'ijs'
+
+homepage = 'https://www.openprinting.org/download/ijs'
+
+[[package]]
+channel = 'arch'
+name = 'ijs'

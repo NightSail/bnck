@@ -1,0 +1,12 @@
+id = 'aspectj'
+name = 'aspectj'
+
+homepage = 'https://eclipse.dev/aspectj'
+
+[[package]]
+channel = 'debian'
+name = 'aspectj'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aspectj'

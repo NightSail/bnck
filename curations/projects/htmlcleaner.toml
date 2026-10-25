@@ -1,0 +1,8 @@
+id = 'htmlcleaner'
+name = 'htmlcleaner'
+
+homepage = 'https://htmlcleaner.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmlcleaner'

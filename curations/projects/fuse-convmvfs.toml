@@ -1,0 +1,8 @@
+id = 'fuse-convmvfs'
+name = 'fuse-convmvfs'
+
+homepage = 'http://fuse-convmvfs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fuse-convmvfs'

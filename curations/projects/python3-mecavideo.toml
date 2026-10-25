@@ -1,0 +1,6 @@
+id = 'python3-mecavideo'
+name = 'python3-mecavideo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mecavideo'

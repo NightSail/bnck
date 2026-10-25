@@ -1,0 +1,8 @@
+id = 'dosr'
+name = 'dosr'
+
+homepage = 'https://lechatp.github.io/RootAsRole'
+
+[[package]]
+channel = 'debian'
+name = 'dosr'

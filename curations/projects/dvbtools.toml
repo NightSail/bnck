@@ -1,0 +1,12 @@
+id = 'dvbtools'
+name = 'dvbtools'
+
+homepage = 'http://sourceforge.net/projects/dvbtools'
+
+[[package]]
+channel = 'debian'
+name = 'dvbstream'
+
+[[package]]
+channel = 'debian'
+name = 'dvbtune'

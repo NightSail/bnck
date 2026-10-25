@@ -1,0 +1,8 @@
+id = 'python3-ironic-neutron-agent'
+name = 'python3-ironic-neutron-agent'
+
+homepage = 'https://github.com/openstack/networking-baremetal'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ironic-neutron-agent'

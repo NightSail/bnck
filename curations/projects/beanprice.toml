@@ -1,0 +1,12 @@
+id = 'beanprice'
+name = 'beanprice'
+
+homepage = 'https://github.com/beancount/beanprice'
+
+[[package]]
+channel = 'debian'
+name = 'python3-beanprice'
+
+[[package]]
+channel = 'fedora'
+name = 'beanprice'

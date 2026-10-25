@@ -1,0 +1,8 @@
+id = 'dexter-lsp'
+name = 'dexter-lsp'
+
+repository = 'https://github.com/remoteoss/dexter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dexter-lsp'

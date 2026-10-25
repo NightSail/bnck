@@ -1,0 +1,8 @@
+id = 'pax-runner'
+name = 'pax-runner'
+
+homepage = 'https://ops4j1.jira.com/wiki/spaces/paxrunner/overview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pax-runner'

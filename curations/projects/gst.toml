@@ -1,0 +1,8 @@
+id = 'gst'
+name = 'gst'
+
+homepage = 'https://gitlab.com/leinardi/gst'
+
+[[package]]
+channel = 'fedora'
+name = 'gst'

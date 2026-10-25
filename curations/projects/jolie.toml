@@ -1,0 +1,8 @@
+id = 'jolie'
+name = 'jolie'
+
+homepage = 'https://www.jolie-lang.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jolie'

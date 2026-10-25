@@ -1,0 +1,21 @@
+id = 'audacious'
+name = 'audacious'
+
+homepage = 'https://audacious-media-player.org'
+repository = 'https://github.com/audacious-media-player/audacious.git'
+
+[[package]]
+channel = 'arch'
+name = 'audacious'
+
+[[package]]
+channel = 'debian'
+name = 'audacious'
+
+[[package]]
+channel = 'fedora'
+name = 'audacious'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/audacious'

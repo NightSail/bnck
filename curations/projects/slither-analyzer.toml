@@ -1,0 +1,9 @@
+id = 'slither-analyzer'
+name = 'slither-analyzer'
+
+homepage = 'https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework'
+repository = 'https://github.com/crytic/slither.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slither-analyzer'

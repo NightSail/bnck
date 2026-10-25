@@ -1,0 +1,12 @@
+id = 'http-dav'
+name = 'HTTP-DAV'
+
+homepage = 'https://metacpan.org/release/HTTP-DAV'
+
+[[package]]
+channel = 'debian'
+name = 'libhttp-dav-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTTP-DAV'

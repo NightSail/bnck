@@ -1,0 +1,12 @@
+id = 'python3-pysrt'
+name = 'python3-pysrt'
+
+homepage = 'https://github.com/byroot/pysrt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysrt'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pysrt'

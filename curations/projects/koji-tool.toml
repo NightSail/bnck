@@ -1,0 +1,8 @@
+id = 'koji-tool'
+name = 'koji-tool'
+
+homepage = 'https://hackage.haskell.org/package/koji-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'koji-tool'

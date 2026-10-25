@@ -1,0 +1,8 @@
+id = 'csview'
+name = 'csview'
+
+repository = 'https://github.com/wfxr/csview.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csview'

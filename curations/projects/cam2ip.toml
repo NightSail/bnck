@@ -1,0 +1,8 @@
+id = 'cam2ip'
+name = 'cam2ip'
+
+homepage = 'https://github.com/gen2brain/cam2ip'
+
+[[package]]
+channel = 'debian'
+name = 'cam2ip'

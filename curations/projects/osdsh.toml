@@ -1,0 +1,8 @@
+id = 'osdsh'
+name = 'osdsh'
+
+homepage = 'https://osdsh.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'osdsh'

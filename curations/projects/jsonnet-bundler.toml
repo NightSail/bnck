@@ -1,0 +1,8 @@
+id = 'jsonnet-bundler'
+name = 'jsonnet-bundler'
+
+repository = 'https://github.com/jsonnet-bundler/jsonnet-bundler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsonnet-bundler'

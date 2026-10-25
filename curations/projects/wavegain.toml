@@ -1,0 +1,8 @@
+id = 'wavegain'
+name = 'wavegain'
+
+homepage = 'http://rarewares.org/others.php'
+
+[[package]]
+channel = 'arch'
+name = 'wavegain'

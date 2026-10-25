@@ -1,0 +1,12 @@
+id = 'convertlit'
+name = 'convertlit'
+
+homepage = 'http://www.convertlit.com'
+
+[[package]]
+channel = 'arch'
+name = 'convertlit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/convertlit'

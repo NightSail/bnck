@@ -1,0 +1,8 @@
+id = 'libpdl-perldl2-perl'
+name = 'libpdl-perldl2-perl'
+
+homepage = 'https://metacpan.org/release/PDL-Perldl2'
+
+[[package]]
+channel = 'debian'
+name = 'libpdl-perldl2-perl'

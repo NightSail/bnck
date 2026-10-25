@@ -1,0 +1,16 @@
+id = 'kvirc'
+name = 'kvirc'
+
+homepage = 'https://www.kvirc.net'
+
+[[package]]
+channel = 'arch'
+name = 'kvirc'
+
+[[package]]
+channel = 'debian'
+name = 'kvirc'
+
+[[package]]
+channel = 'fedora'
+name = 'kvirc'

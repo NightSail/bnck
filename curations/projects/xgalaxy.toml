@@ -1,0 +1,8 @@
+id = 'xgalaxy'
+name = 'xgalaxy'
+
+homepage = 'http://sourceforge.net/projects/xgalaga'
+
+[[package]]
+channel = 'fedora'
+name = 'xgalaxy'

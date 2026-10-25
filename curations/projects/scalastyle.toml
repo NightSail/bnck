@@ -1,0 +1,8 @@
+id = 'scalastyle'
+name = 'scalastyle'
+
+homepage = 'http://www.scalastyle.org/command-line.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scalastyle'

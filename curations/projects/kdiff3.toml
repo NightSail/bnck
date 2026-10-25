@@ -1,0 +1,16 @@
+id = 'kdiff3'
+name = 'kdiff3'
+
+homepage = 'https://apps.kde.org/kdiff3'
+
+[[package]]
+channel = 'arch'
+name = 'kdiff3'
+
+[[package]]
+channel = 'debian'
+name = 'kdiff3'
+
+[[package]]
+channel = 'fedora'
+name = 'kdiff3'

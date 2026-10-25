@@ -1,0 +1,8 @@
+id = 'mkchromecast'
+name = 'mkchromecast'
+
+homepage = 'https://mkchromecast.com'
+
+[[package]]
+channel = 'debian'
+name = 'mkchromecast'

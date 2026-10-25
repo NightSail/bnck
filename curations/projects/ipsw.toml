@@ -1,0 +1,9 @@
+id = 'ipsw'
+name = 'ipsw'
+
+homepage = 'https://blacktop.github.io/ipsw'
+repository = 'https://github.com/blacktop/ipsw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipsw'

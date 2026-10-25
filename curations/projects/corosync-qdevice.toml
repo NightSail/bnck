@@ -1,0 +1,20 @@
+id = 'corosync-qdevice'
+name = 'corosync-qdevice'
+
+homepage = 'https://github.com/corosync/corosync-qdevice'
+
+[[package]]
+channel = 'debian'
+name = 'corosync-qdevice'
+
+[[package]]
+channel = 'debian'
+name = 'corosync-qnetd'
+
+[[package]]
+channel = 'fedora'
+name = 'corosync-qdevice'
+
+[[package]]
+channel = 'fedora'
+name = 'corosync-qnetd'

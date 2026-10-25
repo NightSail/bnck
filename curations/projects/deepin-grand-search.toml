@@ -1,0 +1,8 @@
+id = 'deepin-grand-search'
+name = 'deepin-grand-search'
+
+homepage = 'https://github.com/linuxdeepin/dde-grand-search'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-grand-search'

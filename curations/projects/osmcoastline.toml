@@ -1,0 +1,12 @@
+id = 'osmcoastline'
+name = 'osmcoastline'
+
+homepage = 'https://osmcode.org/osmcoastline'
+
+[[package]]
+channel = 'debian'
+name = 'osmcoastline'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osmcoastline'

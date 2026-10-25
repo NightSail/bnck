@@ -1,0 +1,16 @@
+id = 'kdesvn'
+name = 'kdesvn'
+
+homepage = 'https://apps.kde.org/kdesvn'
+
+[[package]]
+channel = 'arch'
+name = 'kdesvn'
+
+[[package]]
+channel = 'debian'
+name = 'kdesvn'
+
+[[package]]
+channel = 'fedora'
+name = 'kdesvn'

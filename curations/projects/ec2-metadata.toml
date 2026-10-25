@@ -1,0 +1,8 @@
+id = 'ec2-metadata'
+name = 'ec2-metadata'
+
+homepage = 'http://aws.amazon.com/code/1825'
+
+[[package]]
+channel = 'fedora'
+name = 'ec2-metadata'

@@ -1,0 +1,8 @@
+id = 'ksops'
+name = 'ksops'
+
+repository = 'https://github.com/viaduct-ai/kustomize-sops.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ksops'

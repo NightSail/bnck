@@ -1,0 +1,8 @@
+id = 'perl-template-toolkit-simple'
+name = 'perl-Template-Toolkit-Simple'
+
+homepage = 'https://metacpan.org/release/Template-Toolkit-Simple'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Template-Toolkit-Simple'

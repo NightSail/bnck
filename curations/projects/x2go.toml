@@ -1,0 +1,52 @@
+id = 'x2go'
+name = 'x2go'
+
+homepage = 'http://www.x2go.org'
+
+[[package]]
+channel = 'fedora'
+name = 'pyhoca-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'pyhoca-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'x2goagent'
+
+[[package]]
+channel = 'fedora'
+name = 'x2goclient'
+
+[[package]]
+channel = 'fedora'
+name = 'x2godesktopsharing'
+
+[[package]]
+channel = 'fedora'
+name = 'x2gokdriveclient'
+
+[[package]]
+channel = 'fedora'
+name = 'x2goserver'
+
+[[package]]
+channel = 'fedora'
+name = 'x2goserver-desktopsharing'
+
+[[package]]
+channel = 'fedora'
+name = 'x2goserver-fmbindings'
+
+[[package]]
+channel = 'fedora'
+name = 'x2goserver-printing'
+
+[[package]]
+channel = 'fedora'
+name = 'x2gowswrapper'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-x2gokdrive'

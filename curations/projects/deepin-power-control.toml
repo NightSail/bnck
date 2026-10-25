@@ -1,0 +1,8 @@
+id = 'deepin-power-control'
+name = 'deepin-power-control'
+
+homepage = 'https://www.deepin.org'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-power-control'

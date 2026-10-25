@@ -1,0 +1,8 @@
+id = 'topology-toolkit'
+name = 'topology-toolkit'
+
+homepage = 'https://github.com/topology-tool-kit/ttk'
+
+[[package]]
+channel = 'arch'
+name = 'topology-toolkit'

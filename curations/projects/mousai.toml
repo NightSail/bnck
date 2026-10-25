@@ -1,0 +1,12 @@
+id = 'mousai'
+name = 'mousai'
+
+homepage = 'https://apps.gnome.org/Mousai'
+
+[[package]]
+channel = 'arch'
+name = 'mousai'
+
+[[package]]
+channel = 'debian'
+name = 'mousai'

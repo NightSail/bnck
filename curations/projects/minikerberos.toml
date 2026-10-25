@@ -1,0 +1,8 @@
+id = 'minikerberos'
+name = 'minikerberos'
+
+homepage = 'https://github.com/skelsec/minikerberos'
+
+[[package]]
+channel = 'fedora'
+name = 'minikerberos'

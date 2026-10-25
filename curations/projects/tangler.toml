@@ -1,0 +1,8 @@
+id = 'tangler'
+name = 'tangler'
+
+homepage = 'https://github.com/wiktor-k/tangler'
+
+[[package]]
+channel = 'arch'
+name = 'tangler'

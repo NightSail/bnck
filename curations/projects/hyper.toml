@@ -1,0 +1,12 @@
+id = 'hyper'
+name = 'hyper'
+
+homepage = 'https://hyper.is'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/hyper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/hyper@canary'

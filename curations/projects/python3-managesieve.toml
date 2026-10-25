@@ -1,0 +1,8 @@
+id = 'python3-managesieve'
+name = 'python3-managesieve'
+
+homepage = 'https://managesieve.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-managesieve'

@@ -1,0 +1,8 @@
+id = 'ta-lib'
+name = 'ta-lib'
+
+homepage = 'https://ta-lib.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ta-lib'

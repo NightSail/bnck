@@ -1,0 +1,8 @@
+id = 'gnome-classic'
+name = 'gnome-classic'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeShell/Extensions'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-classic'

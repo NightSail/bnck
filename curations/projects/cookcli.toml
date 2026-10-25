@@ -1,0 +1,9 @@
+id = 'cookcli'
+name = 'cookcli'
+
+homepage = 'https://cooklang.org'
+repository = 'https://github.com/cooklang/cookcli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cookcli'

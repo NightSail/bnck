@@ -1,0 +1,8 @@
+id = 'linpac'
+name = 'linpac'
+
+homepage = 'https://sourceforge.net/projects/linpac'
+
+[[package]]
+channel = 'debian'
+name = 'linpac'

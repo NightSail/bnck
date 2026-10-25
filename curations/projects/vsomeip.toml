@@ -1,0 +1,16 @@
+id = 'vsomeip'
+name = 'vsomeip'
+
+homepage = 'https://github.com/COVESA/vsomeip'
+
+[[package]]
+channel = 'fedora'
+name = 'vsomeip3-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'vsomeip3-routingmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'vsomeip3-tools'

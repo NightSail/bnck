@@ -1,0 +1,8 @@
+id = 'ghalint'
+name = 'ghalint'
+
+repository = 'https://github.com/suzuki-shunsuke/ghalint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghalint'

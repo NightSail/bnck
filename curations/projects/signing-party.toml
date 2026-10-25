@@ -1,0 +1,12 @@
+id = 'signing-party'
+name = 'signing-party'
+
+homepage = 'https://salsa.debian.org/signing-party-team/signing-party'
+
+[[package]]
+channel = 'arch'
+name = 'signing-party'
+
+[[package]]
+channel = 'debian'
+name = 'signing-party'

@@ -1,0 +1,8 @@
+id = 'wdq2wav'
+name = 'wdq2wav'
+
+homepage = 'https://web.archive.org/web/20150403094830/http://files.b9.com/wdq2wav'
+
+[[package]]
+channel = 'debian'
+name = 'wdq2wav'

@@ -1,0 +1,12 @@
+id = 'protobuf'
+name = 'protobuf'
+
+homepage = 'https://github.com/gogo/protobuf'
+
+[[package]]
+channel = 'debian'
+name = 'gogoprotobuf'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gogo-protobuf'

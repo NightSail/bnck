@@ -1,0 +1,16 @@
+id = 'radscan'
+name = 'radscan'
+
+homepage = 'https://radscan.com/nas.html'
+
+[[package]]
+channel = 'debian'
+name = 'nas'
+
+[[package]]
+channel = 'debian'
+name = 'nas-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'nas'

@@ -1,0 +1,8 @@
+id = 'mcptools'
+name = 'mcptools'
+
+repository = 'https://github.com/f/mcptools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcptools'

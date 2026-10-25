@@ -1,0 +1,8 @@
+id = 'python3-xlrd2'
+name = 'python3-xlrd2'
+
+homepage = 'https://github.com/DissectMalware/xlrd2'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xlrd2'

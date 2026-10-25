@@ -1,0 +1,9 @@
+id = 'proto'
+name = 'proto'
+
+homepage = 'https://moonrepo.dev/proto'
+repository = 'https://github.com/moonrepo/proto.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proto'

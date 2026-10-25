@@ -1,0 +1,8 @@
+id = 'nwg-shell'
+name = 'nwg-shell'
+
+homepage = 'https://nwg-piotr.github.io/nwg-shell'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-shell'

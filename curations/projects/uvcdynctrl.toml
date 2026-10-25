@@ -1,0 +1,12 @@
+id = 'uvcdynctrl'
+name = 'uvcdynctrl'
+
+homepage = 'https://sourceforge.net/projects/libwebcam'
+
+[[package]]
+channel = 'debian'
+name = 'uvcdynctrl'
+
+[[package]]
+channel = 'fedora'
+name = 'uvcdynctrl'

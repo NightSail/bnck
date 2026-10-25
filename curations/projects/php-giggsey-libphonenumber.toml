@@ -1,0 +1,8 @@
+id = 'php-giggsey-libphonenumber'
+name = 'php-giggsey-libphonenumber'
+
+homepage = 'https://github.com/giggsey/libphonenumber-for-php'
+
+[[package]]
+channel = 'debian'
+name = 'php-giggsey-libphonenumber'

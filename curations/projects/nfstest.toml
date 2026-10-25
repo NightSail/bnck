@@ -1,0 +1,12 @@
+id = 'nfstest'
+name = 'NFStest'
+
+homepage = 'https://wiki.linux-nfs.org/wiki/index.php/NFStest'
+
+[[package]]
+channel = 'debian'
+name = 'nfstest'
+
+[[package]]
+channel = 'fedora'
+name = 'NFStest'

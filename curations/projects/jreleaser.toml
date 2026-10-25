@@ -1,0 +1,8 @@
+id = 'jreleaser'
+name = 'jreleaser'
+
+homepage = 'https://jreleaser.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jreleaser'

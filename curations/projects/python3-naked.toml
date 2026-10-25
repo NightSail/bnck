@@ -1,0 +1,8 @@
+id = 'python3-naked'
+name = 'python3-Naked'
+
+homepage = 'http://naked-py.com'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-Naked'

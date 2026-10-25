@@ -1,0 +1,8 @@
+id = 'benchi'
+name = 'benchi'
+
+repository = 'https://github.com/ConduitIO/benchi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/benchi'

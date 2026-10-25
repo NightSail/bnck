@@ -1,0 +1,6 @@
+id = 'wxglade'
+name = 'wxglade'
+
+[[package]]
+channel = 'debian'
+name = 'wxglade'

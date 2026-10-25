@@ -1,0 +1,12 @@
+id = 'text-pdf'
+name = 'Text-PDF'
+
+homepage = 'https://metacpan.org/release/Text-PDF'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-pdf-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'pdf-tools'

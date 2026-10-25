@@ -1,0 +1,36 @@
+id = 'tlp'
+name = 'tlp'
+
+homepage = 'https://linrunner.de/en/tlp/tlp.html'
+
+[[package]]
+channel = 'arch'
+name = 'tlp'
+
+[[package]]
+channel = 'arch'
+name = 'tlp-pd'
+
+[[package]]
+channel = 'arch'
+name = 'tlp-rdw'
+
+[[package]]
+channel = 'debian'
+name = 'tlp'
+
+[[package]]
+channel = 'debian'
+name = 'tlp-pd'
+
+[[package]]
+channel = 'debian'
+name = 'tlp-rdw'
+
+[[package]]
+channel = 'fedora'
+name = 'tlp'
+
+[[package]]
+channel = 'fedora'
+name = 'tlp-rdw'

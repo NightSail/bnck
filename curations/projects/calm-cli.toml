@@ -1,0 +1,8 @@
+id = 'calm-cli'
+name = 'calm-cli'
+
+homepage = 'https://github.com/finos/architecture-as-code/tree/main/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/calm-cli'

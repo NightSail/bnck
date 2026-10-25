@@ -1,0 +1,16 @@
+id = 'taku910'
+name = 'taku910'
+
+homepage = 'https://taku910.github.io/mecab'
+
+[[package]]
+channel = 'debian'
+name = 'libmecab-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mecab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mecab'

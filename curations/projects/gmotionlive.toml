@@ -1,0 +1,8 @@
+id = 'gmotionlive'
+name = 'gmotionlive'
+
+homepage = 'http://gate.vitsch.net/~pe1rxq/gmotionlive'
+
+[[package]]
+channel = 'debian'
+name = 'gmotionlive'

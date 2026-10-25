@@ -1,0 +1,8 @@
+id = 'latexindent'
+name = 'latexindent'
+
+homepage = 'https://latexindentpl.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/latexindent'

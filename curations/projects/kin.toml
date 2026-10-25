@@ -1,0 +1,8 @@
+id = 'kin'
+name = 'kin'
+
+repository = 'https://github.com/Serchinastico/Kin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kin'

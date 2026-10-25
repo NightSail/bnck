@@ -1,0 +1,8 @@
+id = 'leetcode-cli'
+name = 'leetcode-cli'
+
+repository = 'https://github.com/clearloop/leetcode-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leetcode-cli'

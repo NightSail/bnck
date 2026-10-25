@@ -1,0 +1,12 @@
+id = 'gnome-sudoku'
+name = 'gnome-sudoku'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-sudoku'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-sudoku'

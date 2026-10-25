@@ -1,0 +1,8 @@
+id = 'align'
+name = 'align'
+
+homepage = 'https://kinzler.com/me/align'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/align'

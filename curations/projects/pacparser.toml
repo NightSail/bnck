@@ -1,0 +1,12 @@
+id = 'pacparser'
+name = 'pacparser'
+
+homepage = 'https://github.com/manugarg/pacparser'
+
+[[package]]
+channel = 'arch'
+name = 'pacparser'
+
+[[package]]
+channel = 'debian'
+name = 'libpacparser1'

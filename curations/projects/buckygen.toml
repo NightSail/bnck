@@ -1,0 +1,8 @@
+id = 'buckygen'
+name = 'buckygen'
+
+homepage = 'https://caagt.ugent.be/buckygen'
+
+[[package]]
+channel = 'arch'
+name = 'buckygen'

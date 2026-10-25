@@ -1,0 +1,8 @@
+id = 'mcp-grafana'
+name = 'mcp-grafana'
+
+repository = 'https://github.com/grafana/mcp-grafana.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-grafana'

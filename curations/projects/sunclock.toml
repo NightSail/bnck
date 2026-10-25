@@ -1,0 +1,8 @@
+id = 'sunclock'
+name = 'sunclock'
+
+homepage = 'https://github.com/nongiach/Sunclock'
+
+[[package]]
+channel = 'debian'
+name = 'sunclock'

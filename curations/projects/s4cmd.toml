@@ -1,0 +1,12 @@
+id = 's4cmd'
+name = 's4cmd'
+
+repository = 'https://github.com/bloomreach/s4cmd.git'
+
+[[package]]
+channel = 'debian'
+name = 's4cmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/s4cmd'

@@ -1,0 +1,16 @@
+id = 'deja-dup'
+name = 'deja-dup'
+
+homepage = 'https://apps.gnome.org/DejaDup'
+
+[[package]]
+channel = 'arch'
+name = 'deja-dup'
+
+[[package]]
+channel = 'debian'
+name = 'deja-dup'
+
+[[package]]
+channel = 'fedora'
+name = 'deja-dup'

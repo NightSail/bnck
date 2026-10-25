@@ -1,0 +1,8 @@
+id = 'fastrace'
+name = 'fastrace'
+
+homepage = 'https://github.com/davidesantangelo/fastrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastrace'

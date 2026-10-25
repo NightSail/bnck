@@ -1,0 +1,12 @@
+id = 'apt-dater'
+name = 'apt-dater'
+
+homepage = 'https://github.com/DE-IBH/apt-dater'
+
+[[package]]
+channel = 'debian'
+name = 'apt-dater'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apt-dater'

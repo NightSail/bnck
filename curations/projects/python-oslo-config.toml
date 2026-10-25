@@ -1,0 +1,8 @@
+id = 'python-oslo-config'
+name = 'python-oslo-config'
+
+homepage = 'https://pypi.org/project/oslo.config'
+
+[[package]]
+channel = 'arch'
+name = 'python-oslo-config'

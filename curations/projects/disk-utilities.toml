@@ -1,0 +1,8 @@
+id = 'disk-utilities'
+name = 'disk-utilities'
+
+homepage = 'https://github.com/keirf/Disk-Utilities'
+
+[[package]]
+channel = 'fedora'
+name = 'disk-utilities'

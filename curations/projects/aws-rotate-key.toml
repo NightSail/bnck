@@ -1,0 +1,8 @@
+id = 'aws-rotate-key'
+name = 'aws-rotate-key'
+
+repository = 'https://github.com/stefansundin/aws-rotate-key.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-rotate-key'

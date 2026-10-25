@@ -1,0 +1,8 @@
+id = 'gitqlient'
+name = 'gitqlient'
+
+homepage = 'https://github.com/francescmm/GitQlient'
+
+[[package]]
+channel = 'fedora'
+name = 'gitqlient'

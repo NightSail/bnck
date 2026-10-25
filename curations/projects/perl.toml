@@ -1,0 +1,37 @@
+id = 'perl'
+name = 'perl'
+
+homepage = 'https://www.perl.org'
+repository = 'https://github.com/perl/perl5.git'
+
+[[package]]
+channel = 'arch'
+name = 'perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Html'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-diagnostics'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-interpreter'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-libnetcfg'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/perl'

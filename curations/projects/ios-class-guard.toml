@@ -1,0 +1,8 @@
+id = 'ios-class-guard'
+name = 'ios-class-guard'
+
+repository = 'https://github.com/Polidea/ios-class-guard.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ios-class-guard'

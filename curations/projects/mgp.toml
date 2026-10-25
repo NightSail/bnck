@@ -1,0 +1,12 @@
+id = 'mgp'
+name = 'mgp'
+
+homepage = 'http://member.wide.ad.jp/wg/mgp'
+
+[[package]]
+channel = 'debian'
+name = 'mgp'
+
+[[package]]
+channel = 'fedora'
+name = 'MagicPoint'

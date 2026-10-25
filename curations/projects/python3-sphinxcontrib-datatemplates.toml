@@ -1,0 +1,8 @@
+id = 'python3-sphinxcontrib-datatemplates'
+name = 'python3-sphinxcontrib.datatemplates'
+
+homepage = 'https://github.com/sphinx-contrib/datatemplates'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinxcontrib.datatemplates'

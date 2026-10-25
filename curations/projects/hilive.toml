@@ -1,0 +1,8 @@
+id = 'hilive'
+name = 'hilive'
+
+homepage = 'https://gitlab.com/rki_bioinformatics/HiLive2'
+
+[[package]]
+channel = 'debian'
+name = 'hilive'

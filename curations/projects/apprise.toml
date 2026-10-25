@@ -1,0 +1,20 @@
+id = 'apprise'
+name = 'apprise'
+
+homepage = 'https://pypi.org/project/apprise'
+
+[[package]]
+channel = 'arch'
+name = 'apprise'
+
+[[package]]
+channel = 'debian'
+name = 'apprise'
+
+[[package]]
+channel = 'fedora'
+name = 'apprise'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apprise'

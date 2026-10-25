@@ -1,0 +1,8 @@
+id = 'systemd-ui'
+name = 'systemd-ui'
+
+homepage = 'https://github.com/systemd/systemd-ui'
+
+[[package]]
+channel = 'arch'
+name = 'systemd-ui'

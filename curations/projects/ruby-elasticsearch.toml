@@ -1,0 +1,8 @@
+id = 'ruby-elasticsearch'
+name = 'ruby-elasticsearch'
+
+homepage = 'https://github.com/elasticsearch/elasticsearch-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-elasticsearch'

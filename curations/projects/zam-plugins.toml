@@ -1,0 +1,16 @@
+id = 'zam-plugins'
+name = 'zam-plugins'
+
+homepage = 'https://github.com/zamaudio/zam-plugins'
+
+[[package]]
+channel = 'arch'
+name = 'zam-plugins-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'zam-plugins'
+
+[[package]]
+channel = 'fedora'
+name = 'zam-plugins'

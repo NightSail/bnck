@@ -1,0 +1,8 @@
+id = 'mcds'
+name = 'mcds'
+
+homepage = 'https://github.com/t-brown/mcds'
+
+[[package]]
+channel = 'debian'
+name = 'mcds'

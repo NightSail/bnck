@@ -4,5 +4,13 @@ name = 'gpac'
 repository = 'https://github.com/gpac/gpac'
 
 [[package]]
+channel = 'arch'
+name = 'gpac'
+
+[[package]]
+channel = 'fedora'
+name = 'gpac'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/gpac'

@@ -1,0 +1,13 @@
+id = 'oh-my-posh'
+name = 'oh-my-posh'
+
+homepage = 'https://ohmyposh.dev'
+repository = 'https://github.com/JanDeDobbeleer/oh-my-posh.git'
+
+[[package]]
+channel = 'fedora'
+name = 'oh-my-posh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oh-my-posh'

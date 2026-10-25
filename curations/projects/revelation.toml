@@ -1,0 +1,12 @@
+id = 'revelation'
+name = 'revelation'
+
+homepage = 'https://revelation.olasagasti.info'
+
+[[package]]
+channel = 'debian'
+name = 'revelation'
+
+[[package]]
+channel = 'fedora'
+name = 'revelation'

@@ -1,0 +1,16 @@
+id = 'klettres'
+name = 'klettres'
+
+homepage = 'https://apps.kde.org/klettres'
+
+[[package]]
+channel = 'arch'
+name = 'klettres'
+
+[[package]]
+channel = 'debian'
+name = 'klettres'
+
+[[package]]
+channel = 'fedora'
+name = 'klettres'

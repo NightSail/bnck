@@ -1,0 +1,16 @@
+id = 'mpdist'
+name = 'mpdist'
+
+homepage = 'https://crd.lbl.gov/~dhbailey/mpdist'
+
+[[package]]
+channel = 'debian'
+name = 'libqd-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'arprec-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'arprec-tools'

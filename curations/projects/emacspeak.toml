@@ -1,0 +1,12 @@
+id = 'emacspeak'
+name = 'emacspeak'
+
+homepage = 'http://emacspeak.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'emacspeak'
+
+[[package]]
+channel = 'fedora'
+name = 'emacspeak'

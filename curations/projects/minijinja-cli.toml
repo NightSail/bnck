@@ -1,0 +1,9 @@
+id = 'minijinja-cli'
+name = 'minijinja-cli'
+
+homepage = 'https://docs.rs/minijinja/latest/minijinja'
+repository = 'https://github.com/mitsuhiko/minijinja.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minijinja-cli'

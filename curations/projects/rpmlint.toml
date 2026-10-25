@@ -1,0 +1,12 @@
+id = 'rpmlint'
+name = 'rpmlint'
+
+homepage = 'https://github.com/rpm-software-management/rpmlint'
+
+[[package]]
+channel = 'debian'
+name = 'rpmlint'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmlint'

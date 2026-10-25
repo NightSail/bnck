@@ -1,0 +1,8 @@
+id = 'tfstate-lookup'
+name = 'tfstate-lookup'
+
+homepage = 'https://github.com/fujiwara/tfstate-lookup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfstate-lookup'

@@ -1,0 +1,8 @@
+id = 'spf-tools-python'
+name = 'spf-tools-python'
+
+homepage = 'https://github.com/sdgathman/pyspf'
+
+[[package]]
+channel = 'debian'
+name = 'spf-tools-python'

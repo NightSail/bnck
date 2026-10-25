@@ -1,0 +1,8 @@
+id = 'adr-viewer'
+name = 'adr-viewer'
+
+homepage = 'https://github.com/mrwilson/adr-viewer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/adr-viewer'

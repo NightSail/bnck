@@ -1,0 +1,8 @@
+id = 'origami-pdf'
+name = 'origami-pdf'
+
+homepage = 'http://github.com/gdelugre/origami'
+
+[[package]]
+channel = 'debian'
+name = 'origami-pdf'

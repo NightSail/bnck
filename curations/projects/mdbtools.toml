@@ -1,0 +1,16 @@
+id = 'mdbtools'
+name = 'mdbtools'
+
+homepage = 'https://github.com/mdbtools/mdbtools'
+
+[[package]]
+channel = 'debian'
+name = 'mdbtools'
+
+[[package]]
+channel = 'fedora'
+name = 'mdbtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdbtools'

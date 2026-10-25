@@ -1,0 +1,8 @@
+id = 'dug-penryu'
+name = 'dug'
+
+repository = 'https://git.penryu.dev/penryu/dug'
+
+[[package]]
+channel = 'crates.io'
+name = 'dug'

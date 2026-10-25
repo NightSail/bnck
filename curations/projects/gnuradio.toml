@@ -1,0 +1,29 @@
+id = 'gnuradio'
+name = 'gnuradio'
+
+homepage = 'https://gnuradio.org'
+repository = 'https://github.com/gnuradio/gnuradio.git'
+
+[[package]]
+channel = 'arch'
+name = 'gnuradio'
+
+[[package]]
+channel = 'arch'
+name = 'gnuradio-companion'
+
+[[package]]
+channel = 'arch'
+name = 'gnuradio-utils'
+
+[[package]]
+channel = 'debian'
+name = 'gnuradio'
+
+[[package]]
+channel = 'fedora'
+name = 'gnuradio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnuradio'

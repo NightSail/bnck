@@ -1,0 +1,8 @@
+id = 'kubectl-ai'
+name = 'kubectl-ai'
+
+repository = 'https://github.com/GoogleCloudPlatform/kubectl-ai.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectl-ai'

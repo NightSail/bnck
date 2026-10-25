@@ -1,0 +1,8 @@
+id = 'sonata'
+name = 'sonata'
+
+homepage = 'https://www.nongnu.org/sonata'
+
+[[package]]
+channel = 'debian'
+name = 'sonata'

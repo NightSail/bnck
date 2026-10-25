@@ -1,0 +1,12 @@
+id = 'bingrep'
+name = 'bingrep'
+
+homepage = 'https://github.com/m4b/bingrep'
+
+[[package]]
+channel = 'arch'
+name = 'bingrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bingrep'

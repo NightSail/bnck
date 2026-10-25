@@ -1,0 +1,8 @@
+id = 'iselect'
+name = 'iselect'
+
+homepage = 'http://www.ossp.org/pkg/tool/iselect'
+
+[[package]]
+channel = 'debian'
+name = 'iselect'

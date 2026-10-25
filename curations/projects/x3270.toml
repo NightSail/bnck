@@ -1,0 +1,36 @@
+id = 'x3270'
+name = 'x3270'
+
+homepage = 'https://x3270.bgp.nu'
+
+[[package]]
+channel = 'debian'
+name = '3270-common'
+
+[[package]]
+channel = 'debian'
+name = 'b3270'
+
+[[package]]
+channel = 'debian'
+name = 'c3270'
+
+[[package]]
+channel = 'debian'
+name = 'pr3287'
+
+[[package]]
+channel = 'debian'
+name = 's3270'
+
+[[package]]
+channel = 'debian'
+name = 'tcl3270'
+
+[[package]]
+channel = 'debian'
+name = 'x3270'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/x3270'

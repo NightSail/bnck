@@ -1,0 +1,8 @@
+id = 'tlpui'
+name = 'tlpui'
+
+homepage = 'https://github.com/d4nj1/TLPUI'
+
+[[package]]
+channel = 'arch'
+name = 'tlpui'

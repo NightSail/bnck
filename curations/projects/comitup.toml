@@ -1,0 +1,8 @@
+id = 'comitup'
+name = 'comitup'
+
+homepage = 'https://davesteele.github.io/comitup'
+
+[[package]]
+channel = 'debian'
+name = 'comitup'

@@ -1,0 +1,8 @@
+id = 'rubygem-gem2rpm'
+name = 'rubygem-gem2rpm'
+
+homepage = 'https://github.com/fedora-ruby/gem2rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-gem2rpm'

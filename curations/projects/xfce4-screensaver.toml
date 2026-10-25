@@ -1,0 +1,16 @@
+id = 'xfce4-screensaver'
+name = 'xfce4-screensaver'
+
+homepage = 'https://docs.xfce.org/apps/screensaver/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-screensaver'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-screensaver'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-screensaver'

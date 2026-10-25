@@ -1,0 +1,8 @@
+id = 'webpod'
+name = 'webpod'
+
+homepage = 'https://webpod.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webpod'

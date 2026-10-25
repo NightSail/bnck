@@ -1,0 +1,8 @@
+id = 'dioptas'
+name = 'dioptas'
+
+homepage = 'https://github.com/Dioptas/Dioptas'
+
+[[package]]
+channel = 'debian'
+name = 'dioptas'

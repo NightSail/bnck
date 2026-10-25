@@ -1,0 +1,8 @@
+id = 'vfit'
+name = 'vfit'
+
+homepage = 'https://github.com/jonpalmisc/vfit'
+
+[[package]]
+channel = 'debian'
+name = 'vfit'

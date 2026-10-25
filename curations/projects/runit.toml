@@ -1,0 +1,16 @@
+id = 'runit'
+name = 'runit'
+
+homepage = 'https://smarden.org/runit'
+
+[[package]]
+channel = 'debian'
+name = 'runit'
+
+[[package]]
+channel = 'debian'
+name = 'runit-init'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/runit'

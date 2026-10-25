@@ -1,0 +1,8 @@
+id = 'ibus-braille'
+name = 'ibus-braille'
+
+homepage = 'http://ibus-sharada-braille.blogspot.in'
+
+[[package]]
+channel = 'debian'
+name = 'ibus-braille'

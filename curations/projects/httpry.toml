@@ -10,3 +10,7 @@ name = 'httpry'
 [[package]]
 channel = 'fedora'
 name = 'httpry'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpry'

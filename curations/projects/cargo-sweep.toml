@@ -1,0 +1,12 @@
+id = 'cargo-sweep'
+name = 'cargo-sweep'
+
+repository = 'https://github.com/holmgr/cargo-sweep.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-sweep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-sweep'

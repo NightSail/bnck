@@ -1,0 +1,8 @@
+id = 'node-jsonstream'
+name = 'node-jsonstream'
+
+homepage = 'https://github.com/dominictarr/JSONStream'
+
+[[package]]
+channel = 'debian'
+name = 'node-jsonstream'

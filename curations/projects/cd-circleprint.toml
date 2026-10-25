@@ -1,0 +1,8 @@
+id = 'cd-circleprint'
+name = 'cd-circleprint'
+
+homepage = 'http://sourceforge.net/projects/cd-circle-print'
+
+[[package]]
+channel = 'debian'
+name = 'cd-circleprint'

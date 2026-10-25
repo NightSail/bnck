@@ -1,0 +1,12 @@
+id = 'bullet'
+name = 'bullet'
+
+homepage = 'http://www.bulletphysics.com/Bullet'
+
+[[package]]
+channel = 'arch'
+name = 'bullet'
+
+[[package]]
+channel = 'arch'
+name = 'bullet-dp'

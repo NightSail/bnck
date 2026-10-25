@@ -1,0 +1,12 @@
+id = 'toxiproxy'
+name = 'toxiproxy'
+
+homepage = 'https://github.com/shopify/toxiproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'toxiproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toxiproxy'

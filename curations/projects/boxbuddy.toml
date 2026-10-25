@@ -1,0 +1,8 @@
+id = 'boxbuddy'
+name = 'boxbuddy'
+
+homepage = 'https://github.com/Dvlv/BoxBuddyRS'
+
+[[package]]
+channel = 'arch'
+name = 'boxbuddy'

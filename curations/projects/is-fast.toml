@@ -1,0 +1,8 @@
+id = 'is-fast'
+name = 'is-fast'
+
+repository = 'https://github.com/Magic-JD/is-fast.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/is-fast'

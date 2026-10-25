@@ -1,0 +1,20 @@
+id = 'hexer'
+name = 'hexer'
+
+homepage = 'https://devel.ringlet.net/editors/hexer'
+
+[[package]]
+channel = 'arch'
+name = 'hexer'
+
+[[package]]
+channel = 'debian'
+name = 'hexer'
+
+[[package]]
+channel = 'fedora'
+name = 'hexer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexer'

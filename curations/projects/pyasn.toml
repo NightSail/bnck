@@ -1,0 +1,16 @@
+id = 'pyasn'
+name = 'pyasn'
+
+homepage = 'https://github.com/hadiasghari/pyasn'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyasn'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyasn'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyasn'

@@ -1,0 +1,8 @@
+id = 'python3-sphinx-gallery'
+name = 'python3-sphinx-gallery'
+
+homepage = 'https://sphinx-gallery.github.io/stable/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx-gallery'

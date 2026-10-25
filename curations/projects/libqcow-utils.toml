@@ -1,0 +1,8 @@
+id = 'libqcow-utils'
+name = 'libqcow-utils'
+
+homepage = 'https://github.com/libyal/libqcow'
+
+[[package]]
+channel = 'debian'
+name = 'libqcow-utils'

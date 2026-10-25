@@ -1,0 +1,20 @@
+id = 'mpv-mpv'
+name = 'mpv'
+
+homepage = 'https://mpv.io'
+
+[[package]]
+channel = 'arch'
+name = 'mpv'
+
+[[package]]
+channel = 'debian'
+name = 'mpv'
+
+[[package]]
+channel = 'fedora'
+name = 'mpv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/stolendata-mpv'

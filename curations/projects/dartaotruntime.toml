@@ -1,0 +1,8 @@
+id = 'dartaotruntime'
+name = 'dartaotruntime'
+
+homepage = 'https://dart.dev/tools/dartaotruntime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dartaotruntime'

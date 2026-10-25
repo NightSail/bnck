@@ -1,0 +1,12 @@
+id = 'arctica-greeter'
+name = 'arctica-greeter'
+
+homepage = 'https://github.com/ArcticaProject/arctica-greeter'
+
+[[package]]
+channel = 'debian'
+name = 'arctica-greeter'
+
+[[package]]
+channel = 'debian'
+name = 'arctica-greeter-guest-session'

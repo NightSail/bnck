@@ -1,0 +1,8 @@
+id = 'jsurf-alggeo'
+name = 'jsurf-alggeo'
+
+homepage = 'https://imaginary.org/program/jsurf'
+
+[[package]]
+channel = 'debian'
+name = 'jsurf-alggeo'

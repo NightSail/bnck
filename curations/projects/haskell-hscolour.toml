@@ -1,0 +1,8 @@
+id = 'haskell-hscolour'
+name = 'haskell-hscolour'
+
+homepage = 'http://code.haskell.org/~malcolm/hscolour'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hscolour'

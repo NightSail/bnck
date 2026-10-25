@@ -1,0 +1,8 @@
+id = 'hmmer2'
+name = 'hmmer2'
+
+homepage = 'https://hmmer.janelia.org'
+
+[[package]]
+channel = 'debian'
+name = 'hmmer2'

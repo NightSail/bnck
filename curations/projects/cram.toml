@@ -1,0 +1,20 @@
+id = 'cram'
+name = 'cram'
+
+homepage = 'https://bitheap.org/cram'
+
+[[package]]
+channel = 'arch'
+name = 'python-cram'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cram'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cram'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cram'

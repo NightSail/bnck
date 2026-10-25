@@ -1,0 +1,8 @@
+id = 'wdm'
+name = 'wdm'
+
+homepage = 'https://github.com/voins/wdm'
+
+[[package]]
+channel = 'debian'
+name = 'wdm'

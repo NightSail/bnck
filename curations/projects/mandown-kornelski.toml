@@ -1,0 +1,9 @@
+id = 'mandown-kornelski'
+name = 'mandown'
+
+homepage = 'https://lib.rs/mandown'
+repository = 'https://gitlab.com/kornelski/mandown.git'
+
+[[package]]
+channel = 'crates.io'
+name = 'mandown'

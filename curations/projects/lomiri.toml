@@ -1,0 +1,16 @@
+id = 'lomiri'
+name = 'lomiri'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-greeter'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-tests'

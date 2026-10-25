@@ -1,0 +1,8 @@
+id = 'mars'
+name = 'Mars'
+
+homepage = 'http://courses.missouristate.edu/KenVollmar/MARS'
+
+[[package]]
+channel = 'fedora'
+name = 'Mars'

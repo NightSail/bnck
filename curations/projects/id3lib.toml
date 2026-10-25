@@ -1,0 +1,20 @@
+id = 'id3lib'
+name = 'id3lib'
+
+homepage = 'https://id3lib.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'id3lib'
+
+[[package]]
+channel = 'debian'
+name = 'libid3-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'id3lib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/id3lib'

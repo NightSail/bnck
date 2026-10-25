@@ -1,0 +1,12 @@
+id = 'xfce4-appfinder'
+name = 'xfce4-appfinder'
+
+homepage = 'https://docs.xfce.org/xfce/xfce4-appfinder/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-appfinder'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-appfinder'

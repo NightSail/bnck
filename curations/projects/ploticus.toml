@@ -1,0 +1,8 @@
+id = 'ploticus'
+name = 'ploticus'
+
+homepage = 'http://ploticus.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ploticus'

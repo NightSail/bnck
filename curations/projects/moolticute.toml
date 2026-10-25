@@ -1,0 +1,8 @@
+id = 'moolticute'
+name = 'moolticute'
+
+homepage = 'https://github.com/mooltipass/moolticute'
+
+[[package]]
+channel = 'fedora'
+name = 'moolticute'

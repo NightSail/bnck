@@ -1,0 +1,8 @@
+id = 'stripe-mock'
+name = 'stripe-mock'
+
+homepage = 'https://github.com/stripe/stripe-mock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stripe-mock'

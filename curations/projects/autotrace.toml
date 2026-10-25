@@ -1,0 +1,13 @@
+id = 'autotrace'
+name = 'autotrace'
+
+homepage = 'http://autotrace.sourceforge.net'
+repository = 'https://github.com/autotrace/autotrace.git'
+
+[[package]]
+channel = 'fedora'
+name = 'autotrace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autotrace'

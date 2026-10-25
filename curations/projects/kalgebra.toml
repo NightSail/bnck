@@ -1,0 +1,20 @@
+id = 'kalgebra'
+name = 'kalgebra'
+
+homepage = 'https://apps.kde.org/kalgebramobile'
+
+[[package]]
+channel = 'arch'
+name = 'kalgebra'
+
+[[package]]
+channel = 'debian'
+name = 'kalgebra'
+
+[[package]]
+channel = 'debian'
+name = 'kalgebramobile'
+
+[[package]]
+channel = 'fedora'
+name = 'kalgebra'

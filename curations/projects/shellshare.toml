@@ -1,0 +1,9 @@
+id = 'shellshare'
+name = 'shellshare'
+
+homepage = 'https://shellshare.net'
+repository = 'https://github.com/vitorbaptista/shellshare.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shellshare'

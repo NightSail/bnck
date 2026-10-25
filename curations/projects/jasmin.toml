@@ -1,0 +1,8 @@
+id = 'jasmin'
+name = 'jasmin'
+
+homepage = 'https://jasmin.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jasmin'

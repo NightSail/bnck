@@ -1,0 +1,25 @@
+id = 'beats'
+name = 'beats'
+
+homepage = 'https://www.elastic.co/beats/auditbeat'
+repository = 'https://github.com/elastic/beats.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/auditbeat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/filebeat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/heartbeat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/metricbeat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/packetbeat'

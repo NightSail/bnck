@@ -1,0 +1,8 @@
+id = 'python3-robosignatory'
+name = 'python3-robosignatory'
+
+homepage = 'https://pagure.io/robosignatory'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-robosignatory'

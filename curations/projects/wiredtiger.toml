@@ -1,0 +1,12 @@
+id = 'wiredtiger'
+name = 'wiredtiger'
+
+homepage = 'https://source.wiredtiger.com'
+
+[[package]]
+channel = 'debian'
+name = 'wiredtiger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wiredtiger'

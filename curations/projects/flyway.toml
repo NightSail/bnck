@@ -1,0 +1,8 @@
+id = 'flyway'
+name = 'flyway'
+
+homepage = 'https://www.red-gate.com/products/flyway/community'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flyway'

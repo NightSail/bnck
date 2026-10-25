@@ -1,0 +1,8 @@
+id = 'numa'
+name = 'numa'
+
+homepage = 'https://github.com/razvandimescu/numa'
+
+[[package]]
+channel = 'arch'
+name = 'numa'

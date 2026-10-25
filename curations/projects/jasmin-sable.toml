@@ -1,0 +1,8 @@
+id = 'jasmin-sable'
+name = 'jasmin-sable'
+
+homepage = 'https://github.com/Sable/jasmin'
+
+[[package]]
+channel = 'debian'
+name = 'jasmin-sable'

@@ -1,0 +1,8 @@
+id = 'eukleides'
+name = 'eukleides'
+
+homepage = 'http://www.eukleides.org'
+
+[[package]]
+channel = 'debian'
+name = 'eukleides'

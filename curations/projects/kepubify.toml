@@ -1,0 +1,9 @@
+id = 'kepubify'
+name = 'kepubify'
+
+homepage = 'https://pgaskin.net/kepubify'
+repository = 'https://github.com/pgaskin/kepubify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kepubify'

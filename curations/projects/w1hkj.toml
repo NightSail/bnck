@@ -1,0 +1,44 @@
+id = 'w1hkj'
+name = 'w1hkj'
+
+homepage = 'http://www.w1hkj.com'
+
+[[package]]
+channel = 'debian'
+name = 'comptext'
+
+[[package]]
+channel = 'debian'
+name = 'comptty'
+
+[[package]]
+channel = 'debian'
+name = 'fldigi'
+
+[[package]]
+channel = 'debian'
+name = 'flwrap'
+
+[[package]]
+channel = 'fedora'
+name = 'flamp'
+
+[[package]]
+channel = 'fedora'
+name = 'flcluster'
+
+[[package]]
+channel = 'fedora'
+name = 'flmsg'
+
+[[package]]
+channel = 'fedora'
+name = 'flrig'
+
+[[package]]
+channel = 'fedora'
+name = 'flwkey'
+
+[[package]]
+channel = 'fedora'
+name = 'linsim'

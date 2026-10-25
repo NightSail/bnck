@@ -1,0 +1,8 @@
+id = 'frizbee'
+name = 'frizbee'
+
+repository = 'https://github.com/stacklok/frizbee.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/frizbee'

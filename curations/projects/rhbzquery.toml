@@ -1,0 +1,8 @@
+id = 'rhbzquery'
+name = 'rhbzquery'
+
+homepage = 'https://hackage.haskell.org/package/rhbzquery'
+
+[[package]]
+channel = 'fedora'
+name = 'rhbzquery'

@@ -1,0 +1,8 @@
+id = 'arpoison'
+name = 'arpoison'
+
+homepage = 'http://www.arpoison.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arpoison'

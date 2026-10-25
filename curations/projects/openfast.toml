@@ -1,0 +1,9 @@
+id = 'openfast'
+name = 'openfast'
+
+homepage = 'https://openfast.readthedocs.io'
+repository = 'https://github.com/openfast/openfast.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openfast'

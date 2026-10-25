@@ -1,0 +1,28 @@
+id = 'breezy-vcs'
+name = 'breezy-vcs'
+
+homepage = 'https://www.breezy-vcs.org'
+
+[[package]]
+channel = 'arch'
+name = 'breezy'
+
+[[package]]
+channel = 'arch'
+name = 'python-patiencediff'
+
+[[package]]
+channel = 'debian'
+name = 'brz'
+
+[[package]]
+channel = 'fedora'
+name = 'breezy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-merge3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-patiencediff'

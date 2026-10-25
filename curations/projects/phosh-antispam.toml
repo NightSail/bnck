@@ -1,0 +1,8 @@
+id = 'phosh-antispam'
+name = 'phosh-antispam'
+
+homepage = 'https://gitlab.com/kop316/phosh-antispam'
+
+[[package]]
+channel = 'debian'
+name = 'phosh-antispam'

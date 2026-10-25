@@ -1,0 +1,12 @@
+id = 'ydiff'
+name = 'ydiff'
+
+homepage = 'https://github.com/ymattw/ydiff'
+
+[[package]]
+channel = 'fedora'
+name = 'ydiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ydiff'

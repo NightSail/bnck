@@ -1,0 +1,20 @@
+id = 'zenity'
+name = 'zenity'
+
+homepage = 'https://gitlab.gnome.org/GNOME/zenity'
+
+[[package]]
+channel = 'arch'
+name = 'zenity'
+
+[[package]]
+channel = 'debian'
+name = 'zenity'
+
+[[package]]
+channel = 'fedora'
+name = 'zenity'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zenity'

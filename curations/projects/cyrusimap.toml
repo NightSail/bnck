@@ -1,0 +1,24 @@
+id = 'cyrusimap'
+name = 'cyrusimap'
+
+homepage = 'https://www.cyrusimap.org'
+
+[[package]]
+channel = 'debian'
+name = 'cyrus-admin'
+
+[[package]]
+channel = 'debian'
+name = 'cyrus-common'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-imapd'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-imapd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-imapd-virusscan'

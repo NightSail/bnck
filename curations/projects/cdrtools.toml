@@ -1,0 +1,12 @@
+id = 'cdrtools'
+name = 'cdrtools'
+
+homepage = 'https://cdrtools.sourceforge.net/private/cdrecord.html'
+
+[[package]]
+channel = 'arch'
+name = 'cdrtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdrtools'

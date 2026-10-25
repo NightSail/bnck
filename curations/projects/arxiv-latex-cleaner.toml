@@ -1,0 +1,8 @@
+id = 'arxiv-latex-cleaner'
+name = 'arxiv_latex_cleaner'
+
+repository = 'https://github.com/google-research/arxiv-latex-cleaner.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arxiv_latex_cleaner'

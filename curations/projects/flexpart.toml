@@ -1,0 +1,12 @@
+id = 'flexpart'
+name = 'flexpart'
+
+homepage = 'https://www.flexpart.eu'
+
+[[package]]
+channel = 'debian'
+name = 'flexpart'
+
+[[package]]
+channel = 'debian'
+name = 'flextra'

@@ -1,0 +1,82 @@
+id = 'debian-med'
+name = 'debian-med'
+
+[[package]]
+channel = 'debian'
+name = 'med-bio'
+
+[[package]]
+channel = 'debian'
+name = 'med-bio-dev'
+
+[[package]]
+channel = 'debian'
+name = 'med-cloud'
+
+[[package]]
+channel = 'debian'
+name = 'med-config'
+
+[[package]]
+channel = 'debian'
+name = 'med-data'
+
+[[package]]
+channel = 'debian'
+name = 'med-dental'
+
+[[package]]
+channel = 'debian'
+name = 'med-epi'
+
+[[package]]
+channel = 'debian'
+name = 'med-his'
+
+[[package]]
+channel = 'debian'
+name = 'med-imaging'
+
+[[package]]
+channel = 'debian'
+name = 'med-imaging-dev'
+
+[[package]]
+channel = 'debian'
+name = 'med-laboratory'
+
+[[package]]
+channel = 'debian'
+name = 'med-oncology'
+
+[[package]]
+channel = 'debian'
+name = 'med-pharmacy'
+
+[[package]]
+channel = 'debian'
+name = 'med-physics'
+
+[[package]]
+channel = 'debian'
+name = 'med-practice'
+
+[[package]]
+channel = 'debian'
+name = 'med-psychology'
+
+[[package]]
+channel = 'debian'
+name = 'med-research'
+
+[[package]]
+channel = 'debian'
+name = 'med-statistics'
+
+[[package]]
+channel = 'debian'
+name = 'med-tools'
+
+[[package]]
+channel = 'debian'
+name = 'med-typesetting'

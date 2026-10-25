@@ -1,0 +1,12 @@
+id = 'cgoban'
+name = 'cgoban'
+
+homepage = 'https://cgoban1.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'cgoban'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cgoban'

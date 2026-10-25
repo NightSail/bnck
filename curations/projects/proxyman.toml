@@ -1,0 +1,8 @@
+id = 'proxyman'
+name = 'proxyman'
+
+homepage = 'https://proxyman.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/proxyman'

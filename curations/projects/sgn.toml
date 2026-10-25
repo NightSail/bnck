@@ -1,0 +1,8 @@
+id = 'sgn'
+name = 'sgn'
+
+repository = 'https://github.com/EgeBalci/sgn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sgn'

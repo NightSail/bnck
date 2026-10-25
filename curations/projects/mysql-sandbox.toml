@@ -1,0 +1,8 @@
+id = 'mysql-sandbox'
+name = 'mysql-sandbox'
+
+homepage = 'https://metacpan.org/dist/MySQL-Sandbox'
+
+[[package]]
+channel = 'debian'
+name = 'mysql-sandbox'

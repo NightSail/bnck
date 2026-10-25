@@ -1,0 +1,9 @@
+id = 'atlantis'
+name = 'atlantis'
+
+homepage = 'https://www.runatlantis.io'
+repository = 'https://github.com/runatlantis/atlantis.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atlantis'

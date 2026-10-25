@@ -1,0 +1,8 @@
+id = 'kalendarac'
+name = 'kalendarac'
+
+homepage = 'https://invent.kde.org/pim/akonadi-calendar'
+
+[[package]]
+channel = 'debian'
+name = 'kalendarac'

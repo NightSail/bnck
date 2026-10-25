@@ -1,0 +1,12 @@
+id = 'python3-doxypypy'
+name = 'python3-doxypypy'
+
+homepage = 'https://github.com/Feneric/doxypypy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-doxypypy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-doxypypy'

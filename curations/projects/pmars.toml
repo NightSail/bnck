@@ -1,0 +1,8 @@
+id = 'pmars'
+name = 'pmars'
+
+homepage = 'http://www.koth.org/pmars'
+
+[[package]]
+channel = 'fedora'
+name = 'pmars'

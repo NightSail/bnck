@@ -1,0 +1,8 @@
+id = 'gitslave'
+name = 'gitslave'
+
+homepage = 'https://gitslave.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitslave'

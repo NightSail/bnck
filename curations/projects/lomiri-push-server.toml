@@ -1,0 +1,8 @@
+id = 'lomiri-push-server'
+name = 'lomiri-push-server'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-push-service'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-push-server'

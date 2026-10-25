@@ -1,0 +1,8 @@
+id = 'intel-npu-compiler'
+name = 'intel-npu-compiler'
+
+homepage = 'https://github.com/openvinotoolkit/npu_compiler'
+
+[[package]]
+channel = 'arch'
+name = 'intel-npu-compiler'

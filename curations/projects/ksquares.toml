@@ -1,0 +1,12 @@
+id = 'ksquares'
+name = 'ksquares'
+
+homepage = 'https://apps.kde.org/ksquares'
+
+[[package]]
+channel = 'arch'
+name = 'ksquares'
+
+[[package]]
+channel = 'fedora'
+name = 'ksquares'

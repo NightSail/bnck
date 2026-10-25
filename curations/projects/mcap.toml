@@ -1,0 +1,9 @@
+id = 'mcap'
+name = 'mcap'
+
+homepage = 'https://mcap.dev'
+repository = 'https://github.com/foxglove/mcap.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcap'

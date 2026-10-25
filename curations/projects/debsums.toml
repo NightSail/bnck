@@ -1,0 +1,6 @@
+id = 'debsums'
+name = 'debsums'
+
+[[package]]
+channel = 'debian'
+name = 'debsums'

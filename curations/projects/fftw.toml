@@ -1,0 +1,20 @@
+id = 'fftw'
+name = 'fftw'
+
+homepage = 'https://fftw.org'
+
+[[package]]
+channel = 'arch'
+name = 'fftw'
+
+[[package]]
+channel = 'debian'
+name = 'libfftw3-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'fftw'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fftw'

@@ -1,0 +1,8 @@
+id = 'dkfilter'
+name = 'dkfilter'
+
+homepage = 'http://jason.long.name/dkfilter'
+
+[[package]]
+channel = 'arch'
+name = 'dkfilter'

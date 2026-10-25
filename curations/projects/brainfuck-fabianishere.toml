@@ -1,0 +1,8 @@
+id = 'brainfuck-fabianishere'
+name = 'brainfuck'
+
+repository = 'https://github.com/fabianishere/brainfuck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brainfuck'

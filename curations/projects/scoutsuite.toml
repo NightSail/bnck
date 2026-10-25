@@ -1,0 +1,8 @@
+id = 'scoutsuite'
+name = 'scoutsuite'
+
+repository = 'https://github.com/nccgroup/ScoutSuite.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scoutsuite'

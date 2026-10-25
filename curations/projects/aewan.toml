@@ -1,0 +1,8 @@
+id = 'aewan'
+name = 'aewan'
+
+homepage = 'http://aewan.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'aewan'

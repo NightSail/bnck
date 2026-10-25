@@ -1,0 +1,12 @@
+id = 'snapshot'
+name = 'snapshot'
+
+homepage = 'https://gitlab.gnome.org/GNOME/snapshot'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-snapshot'
+
+[[package]]
+channel = 'fedora'
+name = 'snapshot'

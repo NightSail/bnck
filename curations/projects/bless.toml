@@ -1,0 +1,8 @@
+id = 'bless'
+name = 'bless'
+
+homepage = 'https://github.com/afrantzis/bless'
+
+[[package]]
+channel = 'fedora'
+name = 'bless'

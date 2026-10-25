@@ -1,0 +1,16 @@
+id = 'libunity'
+name = 'libunity'
+
+homepage = 'https://launchpad.net/libunity'
+
+[[package]]
+channel = 'debian'
+name = 'libunity-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libunity9'
+
+[[package]]
+channel = 'fedora'
+name = 'libunity'

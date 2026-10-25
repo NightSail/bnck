@@ -1,0 +1,12 @@
+id = 'pulldown-cmark'
+name = 'pulldown-cmark'
+
+homepage = 'https://github.com/raphlinus/pulldown-cmark'
+
+[[package]]
+channel = 'debian'
+name = 'pulldown-cmark'
+
+[[package]]
+channel = 'fedora'
+name = 'pulldown-cmark'

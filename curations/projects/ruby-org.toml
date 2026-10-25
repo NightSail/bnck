@@ -1,0 +1,8 @@
+id = 'ruby-org'
+name = 'ruby-org'
+
+homepage = 'https://github.com/bdewey/org-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-org'

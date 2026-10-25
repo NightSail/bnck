@@ -1,0 +1,21 @@
+id = 'gedit'
+name = 'gedit'
+
+homepage = 'https://gedit-text-editor.org'
+repository = 'https://gitlab.gnome.org/World/gedit/gedit.git'
+
+[[package]]
+channel = 'arch'
+name = 'gedit'
+
+[[package]]
+channel = 'debian'
+name = 'gedit'
+
+[[package]]
+channel = 'fedora'
+name = 'gedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gedit'

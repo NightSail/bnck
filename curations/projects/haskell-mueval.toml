@@ -1,0 +1,8 @@
+id = 'haskell-mueval'
+name = 'haskell-mueval'
+
+homepage = 'https://github.com/gwern/mueval'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-mueval'

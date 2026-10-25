@@ -1,0 +1,24 @@
+id = 'fcitx5-qt'
+name = 'fcitx5-qt'
+
+homepage = 'https://github.com/fcitx/fcitx5-qt'
+
+[[package]]
+channel = 'arch'
+name = 'fcitx5-qt'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-frontend-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5-frontend-qt6'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-qt5'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5-qt6'

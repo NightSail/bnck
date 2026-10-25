@@ -1,0 +1,20 @@
+id = 'sshpass'
+name = 'sshpass'
+
+homepage = 'https://sourceforge.net/projects/sshpass'
+
+[[package]]
+channel = 'arch'
+name = 'sshpass'
+
+[[package]]
+channel = 'debian'
+name = 'sshpass'
+
+[[package]]
+channel = 'fedora'
+name = 'sshpass'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sshpass'

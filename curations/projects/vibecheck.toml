@@ -1,0 +1,9 @@
+id = 'vibecheck'
+name = 'vibecheck'
+
+homepage = 'https://vibe.raashed.xyz'
+repository = 'https://github.com/rshdhere/vibecheck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vibecheck'

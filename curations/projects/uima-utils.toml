@@ -1,0 +1,8 @@
+id = 'uima-utils'
+name = 'uima-utils'
+
+homepage = 'https://uima.apache.org'
+
+[[package]]
+channel = 'debian'
+name = 'uima-utils'

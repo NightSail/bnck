@@ -1,0 +1,12 @@
+id = 'mandos'
+name = 'mandos'
+
+homepage = 'https://www.recompile.se/mandos'
+
+[[package]]
+channel = 'debian'
+name = 'mandos'
+
+[[package]]
+channel = 'debian'
+name = 'mandos-client'

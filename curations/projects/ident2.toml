@@ -1,0 +1,8 @@
+id = 'ident2'
+name = 'ident2'
+
+homepage = 'https://github.com/mbacarella/ident2'
+
+[[package]]
+channel = 'debian'
+name = 'ident2'

@@ -1,0 +1,8 @@
+id = 'csv'
+name = 'csv'
+
+homepage = 'https://metacpan.org/release/App-CSV'
+
+[[package]]
+channel = 'fedora'
+name = 'csv'

@@ -1,0 +1,6 @@
+id = 'grub-legacy'
+name = 'grub-legacy'
+
+[[package]]
+channel = 'debian'
+name = 'grub-legacy'

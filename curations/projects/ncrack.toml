@@ -1,0 +1,21 @@
+id = 'ncrack'
+name = 'ncrack'
+
+homepage = 'https://nmap.org/ncrack'
+repository = 'https://github.com/nmap/ncrack.git'
+
+[[package]]
+channel = 'arch'
+name = 'ncrack'
+
+[[package]]
+channel = 'debian'
+name = 'ncrack'
+
+[[package]]
+channel = 'fedora'
+name = 'ncrack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncrack'

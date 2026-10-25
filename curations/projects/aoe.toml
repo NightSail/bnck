@@ -1,0 +1,8 @@
+id = 'aoe'
+name = 'aoe'
+
+repository = 'https://github.com/agent-of-empires/agent-of-empires.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aoe'

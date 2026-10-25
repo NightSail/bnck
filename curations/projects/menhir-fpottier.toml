@@ -1,0 +1,8 @@
+id = 'menhir-fpottier'
+name = 'menhir'
+
+homepage = 'http://cristal.inria.fr/~fpottier/menhir'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/menhir'

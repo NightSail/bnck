@@ -1,0 +1,16 @@
+id = 'xaos'
+name = 'xaos'
+
+homepage = 'https://xaos-project.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'xaos'
+
+[[package]]
+channel = 'debian'
+name = 'xaos'
+
+[[package]]
+channel = 'fedora'
+name = 'xaos'

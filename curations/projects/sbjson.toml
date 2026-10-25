@@ -1,0 +1,8 @@
+id = 'sbjson'
+name = 'sbjson'
+
+repository = 'https://github.com/SBJson/SBJson.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sbjson'

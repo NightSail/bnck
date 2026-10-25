@@ -1,0 +1,8 @@
+id = 'gip'
+name = 'gip'
+
+homepage = 'http://code.google.com/p/gip'
+
+[[package]]
+channel = 'fedora'
+name = 'gip'

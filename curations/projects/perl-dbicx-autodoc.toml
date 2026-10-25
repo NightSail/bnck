@@ -1,0 +1,8 @@
+id = 'perl-dbicx-autodoc'
+name = 'perl-DBICx-AutoDoc'
+
+homepage = 'https://metacpan.org/dist/DBICx-AutoDoc'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBICx-AutoDoc'

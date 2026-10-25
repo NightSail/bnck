@@ -1,0 +1,9 @@
+id = 'vroom'
+name = 'vroom'
+
+homepage = 'http://vroom-project.org'
+repository = 'https://github.com/VROOM-Project/vroom.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vroom'

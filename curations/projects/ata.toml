@@ -1,0 +1,8 @@
+id = 'ata'
+name = 'ata'
+
+homepage = 'https://github.com/transformrs/ata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ata'

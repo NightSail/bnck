@@ -1,0 +1,8 @@
+id = 'seqan-raptor'
+name = 'seqan-raptor'
+
+homepage = 'https://github.com/seqan/raptor'
+
+[[package]]
+channel = 'debian'
+name = 'seqan-raptor'

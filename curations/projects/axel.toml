@@ -1,0 +1,20 @@
+id = 'axel'
+name = 'axel'
+
+repository = 'https://github.com/axel-download-accelerator/axel.git'
+
+[[package]]
+channel = 'arch'
+name = 'axel'
+
+[[package]]
+channel = 'debian'
+name = 'axel'
+
+[[package]]
+channel = 'fedora'
+name = 'axel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/axel'

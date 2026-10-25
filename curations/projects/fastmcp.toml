@@ -1,0 +1,9 @@
+id = 'fastmcp'
+name = 'fastmcp'
+
+homepage = 'https://gofastmcp.com/getting-started/welcome'
+repository = 'https://github.com/jlowin/fastmcp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastmcp'

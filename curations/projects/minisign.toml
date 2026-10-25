@@ -4,7 +4,15 @@ name = 'minisign'
 homepage = 'https://jedisct1.github.io/minisign'
 
 [[package]]
+channel = 'arch'
+name = 'minisign'
+
+[[package]]
 channel = 'debian'
+name = 'minisign'
+
+[[package]]
+channel = 'fedora'
 name = 'minisign'
 
 [[package]]

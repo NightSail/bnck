@@ -1,0 +1,9 @@
+id = 'yaz-indexdata'
+name = 'yaz'
+
+homepage = 'https://www.indexdata.com/resources/software/yaz'
+repository = 'https://github.com/indexdata/yaz.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yaz'

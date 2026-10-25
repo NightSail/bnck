@@ -1,0 +1,8 @@
+id = 'trinculo'
+name = 'trinculo'
+
+homepage = 'https://sourceforge.net/projects/trinculo'
+
+[[package]]
+channel = 'debian'
+name = 'trinculo'

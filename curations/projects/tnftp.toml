@@ -1,0 +1,20 @@
+id = 'tnftp'
+name = 'tnftp'
+
+homepage = 'https://cdn.netbsd.org/pub/NetBSD/misc/tnftp'
+
+[[package]]
+channel = 'arch'
+name = 'tnftp'
+
+[[package]]
+channel = 'debian'
+name = 'tnftp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tnftp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tnftpd'

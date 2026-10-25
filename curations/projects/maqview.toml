@@ -1,0 +1,8 @@
+id = 'maqview'
+name = 'maqview'
+
+homepage = 'https://maq.sourceforge.net/maqview.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'maqview'

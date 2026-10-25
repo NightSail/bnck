@@ -1,0 +1,16 @@
+id = 'konversation'
+name = 'konversation'
+
+homepage = 'https://apps.kde.org/konversation'
+
+[[package]]
+channel = 'arch'
+name = 'konversation'
+
+[[package]]
+channel = 'debian'
+name = 'konversation'
+
+[[package]]
+channel = 'fedora'
+name = 'konversation'

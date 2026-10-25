@@ -1,0 +1,20 @@
+id = 'sword'
+name = 'sword'
+
+homepage = 'https://www.crosswire.org/sword'
+
+[[package]]
+channel = 'arch'
+name = 'sword'
+
+[[package]]
+channel = 'debian'
+name = 'diatheke'
+
+[[package]]
+channel = 'debian'
+name = 'libsword-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'sword-utils'

@@ -1,0 +1,8 @@
+id = 'pdb-tools'
+name = 'pdb-tools'
+
+homepage = 'https://www.bonvinlab.org/pdb-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pdb-tools'

@@ -1,0 +1,8 @@
+id = 'proxysql'
+name = 'proxysql'
+
+homepage = 'https://proxysql.com'
+
+[[package]]
+channel = 'fedora'
+name = 'proxysql'

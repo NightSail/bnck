@@ -1,0 +1,12 @@
+id = 'xxhash-xxhash'
+name = 'xxhash'
+
+homepage = 'https://xxhash.com'
+
+[[package]]
+channel = 'fedora'
+name = 'xxhash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xxhash'

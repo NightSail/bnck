@@ -1,0 +1,24 @@
+id = 'cracklib'
+name = 'cracklib'
+
+repository = 'https://github.com/cracklib/cracklib.git'
+
+[[package]]
+channel = 'arch'
+name = 'cracklib'
+
+[[package]]
+channel = 'debian'
+name = 'cracklib-runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'cracklib'
+
+[[package]]
+channel = 'fedora'
+name = 'cracklib-dicts'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cracklib'

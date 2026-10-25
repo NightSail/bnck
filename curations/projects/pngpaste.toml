@@ -1,0 +1,8 @@
+id = 'pngpaste'
+name = 'pngpaste'
+
+homepage = 'https://github.com/jcsalterego/pngpaste'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pngpaste'

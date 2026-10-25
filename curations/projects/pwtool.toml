@@ -1,0 +1,8 @@
+id = 'pwtool'
+name = 'pwtool'
+
+homepage = 'https://www.usenix.org.uk/content/pwtool.html'
+
+[[package]]
+channel = 'debian'
+name = 'pwtool'

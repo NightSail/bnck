@@ -1,0 +1,8 @@
+id = 'kbtin'
+name = 'kbtin'
+
+homepage = 'https://git.sr.ht/~kilobyte/kbtin'
+
+[[package]]
+channel = 'debian'
+name = 'kbtin'

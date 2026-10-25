@@ -1,0 +1,8 @@
+id = 'python3-pytest-split'
+name = 'python3-pytest-split'
+
+homepage = 'https://github.com/jerry-git/pytest-split'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytest-split'

@@ -1,0 +1,9 @@
+id = 'ssh-vault'
+name = 'ssh-vault'
+
+homepage = 'https://ssh-vault.com'
+repository = 'https://github.com/ssh-vault/ssh-vault.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssh-vault'

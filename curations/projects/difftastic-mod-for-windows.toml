@@ -1,0 +1,9 @@
+id = 'difftastic-mod-for-windows'
+name = 'difftastic_mod_for_windows'
+
+homepage = 'http://difftastic.wilfred.me.uk'
+repository = 'https://github.com/jessesna/difftastic'
+
+[[package]]
+channel = 'crates.io'
+name = 'difftastic_mod_for_windows'

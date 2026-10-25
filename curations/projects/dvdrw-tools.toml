@@ -1,0 +1,8 @@
+id = 'dvdrw-tools'
+name = 'dvd+rw-tools'
+
+homepage = 'https://web.archive.org/web/20250512175714/https://fy.chalmers.se/~appro/linux/DVD+RW'
+
+[[package]]
+channel = 'arch'
+name = 'dvd+rw-tools'

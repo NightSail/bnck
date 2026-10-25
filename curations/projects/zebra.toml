@@ -1,0 +1,12 @@
+id = 'zebra'
+name = 'zebra'
+
+homepage = 'https://www.indexdata.com/resources/software/zebra'
+
+[[package]]
+channel = 'debian'
+name = 'idzebra-2.0-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zebra'

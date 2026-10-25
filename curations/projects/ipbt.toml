@@ -1,0 +1,12 @@
+id = 'ipbt'
+name = 'ipbt'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/ipbt'
+
+[[package]]
+channel = 'debian'
+name = 'its-playback-time'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipbt'

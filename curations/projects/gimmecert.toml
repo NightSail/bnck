@@ -1,0 +1,8 @@
+id = 'gimmecert'
+name = 'gimmecert'
+
+repository = 'https://github.com/azaghal/gimmecert.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gimmecert'

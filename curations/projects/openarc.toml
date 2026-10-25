@@ -1,0 +1,8 @@
+id = 'openarc'
+name = 'openarc'
+
+homepage = 'https://github.com/trusteddomainproject/OpenARC'
+
+[[package]]
+channel = 'fedora'
+name = 'openarc'

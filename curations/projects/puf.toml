@@ -1,0 +1,8 @@
+id = 'puf'
+name = 'puf'
+
+homepage = 'https://puf.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/puf'

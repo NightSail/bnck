@@ -1,0 +1,16 @@
+id = 'hyphy'
+name = 'hyphy'
+
+homepage = 'https://www.hyphy.org'
+
+[[package]]
+channel = 'debian'
+name = 'hyphy-mpi'
+
+[[package]]
+channel = 'debian'
+name = 'hyphy-pt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hyphy'

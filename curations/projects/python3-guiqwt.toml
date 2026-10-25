@@ -1,0 +1,8 @@
+id = 'python3-guiqwt'
+name = 'python3-guiqwt'
+
+homepage = 'https://github.com/PierreRaybaut/guiqwt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-guiqwt'

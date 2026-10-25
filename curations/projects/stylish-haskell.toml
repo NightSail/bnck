@@ -1,0 +1,16 @@
+id = 'stylish-haskell'
+name = 'stylish-haskell'
+
+repository = 'https://github.com/haskell/stylish-haskell.git'
+
+[[package]]
+channel = 'arch'
+name = 'stylish-haskell'
+
+[[package]]
+channel = 'debian'
+name = 'stylish-haskell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stylish-haskell'

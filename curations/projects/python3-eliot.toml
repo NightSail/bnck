@@ -1,0 +1,8 @@
+id = 'python3-eliot'
+name = 'python3-eliot'
+
+homepage = 'https://github.com/itamarst/eliot'
+
+[[package]]
+channel = 'debian'
+name = 'python3-eliot'

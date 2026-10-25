@@ -1,0 +1,8 @@
+id = 'libkdsoap-bin'
+name = 'libkdsoap-bin'
+
+homepage = 'https://www.kdab.com/development-resources/qt-tools/kd-soap'
+
+[[package]]
+channel = 'debian'
+name = 'libkdsoap-bin'

@@ -1,0 +1,8 @@
+id = 'lazycut'
+name = 'lazycut'
+
+homepage = 'https://github.com/ozemin/lazycut'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lazycut'

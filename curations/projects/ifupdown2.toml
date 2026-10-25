@@ -1,0 +1,8 @@
+id = 'ifupdown2'
+name = 'ifupdown2'
+
+homepage = 'https://github.com/cumulusnetworks/ifupdown2'
+
+[[package]]
+channel = 'debian'
+name = 'ifupdown2'

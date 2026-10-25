@@ -1,0 +1,8 @@
+id = 'chardet'
+name = 'chardet'
+
+homepage = 'https://chardet.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chardet'

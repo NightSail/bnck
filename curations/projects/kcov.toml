@@ -1,0 +1,21 @@
+id = 'kcov'
+name = 'kcov'
+
+homepage = 'https://simonkagstrom.github.io/kcov'
+repository = 'https://github.com/SimonKagstrom/kcov.git'
+
+[[package]]
+channel = 'arch'
+name = 'kcov'
+
+[[package]]
+channel = 'debian'
+name = 'kcov'
+
+[[package]]
+channel = 'fedora'
+name = 'kcov'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kcov'

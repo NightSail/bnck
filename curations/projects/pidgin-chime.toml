@@ -1,0 +1,8 @@
+id = 'pidgin-chime'
+name = 'pidgin-chime'
+
+homepage = 'https://github.com/awslabs/pidgin-chime'
+
+[[package]]
+channel = 'fedora'
+name = 'pidgin-chime'

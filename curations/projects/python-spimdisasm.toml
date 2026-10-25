@@ -1,0 +1,8 @@
+id = 'python-spimdisasm'
+name = 'python-spimdisasm'
+
+homepage = 'https://github.com/Decompollaborate/spimdisasm'
+
+[[package]]
+channel = 'arch'
+name = 'python-spimdisasm'

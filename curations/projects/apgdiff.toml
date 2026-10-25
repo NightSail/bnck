@@ -1,0 +1,13 @@
+id = 'apgdiff'
+name = 'apgdiff'
+
+homepage = 'https://www.apgdiff.com'
+repository = 'https://github.com/fordfrog/apgdiff.git'
+
+[[package]]
+channel = 'debian'
+name = 'apgdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apgdiff'

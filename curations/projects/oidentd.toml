@@ -1,0 +1,16 @@
+id = 'oidentd'
+name = 'oidentd'
+
+homepage = 'https://oidentd.janikrabe.com'
+
+[[package]]
+channel = 'arch'
+name = 'oidentd'
+
+[[package]]
+channel = 'debian'
+name = 'oidentd'
+
+[[package]]
+channel = 'fedora'
+name = 'oidentd'

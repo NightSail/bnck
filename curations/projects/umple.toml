@@ -1,0 +1,8 @@
+id = 'umple'
+name = 'umple'
+
+homepage = 'https://cruise.umple.org/umple'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/umple'

@@ -1,0 +1,6 @@
+id = 'debian-installer-launcher'
+name = 'debian-installer-launcher'
+
+[[package]]
+channel = 'debian'
+name = 'debian-installer-launcher'

@@ -1,0 +1,8 @@
+id = 'sof-tools'
+name = 'sof-tools'
+
+homepage = 'https://www.sofproject.org'
+
+[[package]]
+channel = 'arch'
+name = 'sof-tools'

@@ -1,0 +1,8 @@
+id = 'perl-rdf-trine'
+name = 'perl-RDF-Trine'
+
+homepage = 'https://metacpan.org/release/RDF-Trine'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-RDF-Trine'

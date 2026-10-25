@@ -1,0 +1,8 @@
+id = 'libfreesrp-dev'
+name = 'libfreesrp-dev'
+
+homepage = 'http://freesrp.org'
+
+[[package]]
+channel = 'debian'
+name = 'libfreesrp-dev'

@@ -1,0 +1,12 @@
+id = 'scour'
+name = 'scour'
+
+homepage = 'https://github.com/scour-project/scour'
+
+[[package]]
+channel = 'arch'
+name = 'scour'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-scour'

@@ -1,0 +1,8 @@
+id = 'cross'
+name = 'cross'
+
+homepage = 'https://github.com/rust-embedded/cross'
+
+[[package]]
+channel = 'arch'
+name = 'cross'

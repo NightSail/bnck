@@ -1,0 +1,6 @@
+id = 'linux-base'
+name = 'linux-base'
+
+[[package]]
+channel = 'debian'
+name = 'linux-base'

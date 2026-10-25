@@ -1,0 +1,24 @@
+id = 'kde-connect'
+name = 'kde-connect'
+
+homepage = 'https://kdeconnect.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'kdeconnect'
+
+[[package]]
+channel = 'debian'
+name = 'kdeconnect'
+
+[[package]]
+channel = 'fedora'
+name = 'kde-connect'
+
+[[package]]
+channel = 'fedora'
+name = 'kdeconnectd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kde-connect'

@@ -1,0 +1,8 @@
+id = 'chitose'
+name = 'chitose'
+
+homepage = 'https://github.com/taoky/chitose'
+
+[[package]]
+channel = 'arch'
+name = 'chitose'

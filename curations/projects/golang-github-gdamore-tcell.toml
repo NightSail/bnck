@@ -1,0 +1,8 @@
+id = 'golang-github-gdamore-tcell'
+name = 'golang-github-gdamore-tcell'
+
+homepage = 'https://github.com/gdamore/tcell'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gdamore-tcell'

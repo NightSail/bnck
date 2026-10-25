@@ -1,0 +1,8 @@
+id = 'pgstat'
+name = 'pgstat'
+
+homepage = 'https://github.com/gleu/pgstats'
+
+[[package]]
+channel = 'debian'
+name = 'pgstat'

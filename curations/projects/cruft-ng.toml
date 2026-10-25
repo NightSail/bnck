@@ -1,0 +1,12 @@
+id = 'cruft-ng'
+name = 'cruft-ng'
+
+homepage = 'https://salsa.debian.org/pkg-security-team/cruft-ng'
+
+[[package]]
+channel = 'debian'
+name = 'cruft-ng'
+
+[[package]]
+channel = 'debian'
+name = 'dh-cruft'

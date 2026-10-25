@@ -1,0 +1,8 @@
+id = 'xorg-mkfontscale'
+name = 'xorg-mkfontscale'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/mkfontscale'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-mkfontscale'

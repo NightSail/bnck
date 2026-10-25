@@ -1,0 +1,8 @@
+id = 'nsight-systems'
+name = 'nsight-systems'
+
+homepage = 'https://developer.nvidia.com/nsight-systems'
+
+[[package]]
+channel = 'arch'
+name = 'nsight-systems'

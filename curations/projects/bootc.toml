@@ -1,0 +1,12 @@
+id = 'bootc'
+name = 'bootc'
+
+homepage = 'https://github.com/bootc-dev/bootc'
+
+[[package]]
+channel = 'fedora'
+name = 'bootc'
+
+[[package]]
+channel = 'fedora'
+name = 'system-reinstall-bootc'

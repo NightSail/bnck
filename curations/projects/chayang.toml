@@ -1,0 +1,8 @@
+id = 'chayang'
+name = 'chayang'
+
+homepage = 'https://git.sr.ht/~emersion/chayang'
+
+[[package]]
+channel = 'fedora'
+name = 'chayang'

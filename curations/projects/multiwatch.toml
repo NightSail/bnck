@@ -1,0 +1,12 @@
+id = 'multiwatch'
+name = 'multiwatch'
+
+homepage = 'http://redmine.lighttpd.net/projects/multiwatch'
+
+[[package]]
+channel = 'debian'
+name = 'multiwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'multiwatch'

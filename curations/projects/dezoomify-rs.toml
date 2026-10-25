@@ -1,0 +1,9 @@
+id = 'dezoomify-rs'
+name = 'dezoomify-rs'
+
+homepage = 'https://dezoomify-rs.ophir.dev'
+repository = 'https://github.com/lovasoa/dezoomify-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dezoomify-rs'

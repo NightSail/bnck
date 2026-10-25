@@ -1,0 +1,12 @@
+id = 'jdim'
+name = 'jdim'
+
+homepage = 'https://github.com/JDimproved/JDim'
+
+[[package]]
+channel = 'debian'
+name = 'jdim'
+
+[[package]]
+channel = 'fedora'
+name = 'jd'

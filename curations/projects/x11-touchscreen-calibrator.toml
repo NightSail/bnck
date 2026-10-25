@@ -1,0 +1,8 @@
+id = 'x11-touchscreen-calibrator'
+name = 'x11-touchscreen-calibrator'
+
+homepage = 'http://fourdollars.github.io/x11-touchscreen-calibrator'
+
+[[package]]
+channel = 'debian'
+name = 'x11-touchscreen-calibrator'

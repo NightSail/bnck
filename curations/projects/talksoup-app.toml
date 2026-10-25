@@ -1,0 +1,8 @@
+id = 'talksoup-app'
+name = 'talksoup.app'
+
+homepage = 'http://gap.nongnu.org/talksoup'
+
+[[package]]
+channel = 'debian'
+name = 'talksoup.app'

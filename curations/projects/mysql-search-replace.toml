@@ -1,0 +1,8 @@
+id = 'mysql-search-replace'
+name = 'mysql-search-replace'
+
+homepage = 'https://interconnectit.com/products/search-and-replace-for-wordpress-databases'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mysql-search-replace'

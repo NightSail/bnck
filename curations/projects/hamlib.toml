@@ -1,0 +1,12 @@
+id = 'hamlib'
+name = 'hamlib'
+
+homepage = 'http://www.hamlib.org'
+
+[[package]]
+channel = 'debian'
+name = 'libhamlib-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'hamlib'

@@ -1,0 +1,9 @@
+id = 'glslviewer'
+name = 'glslviewer'
+
+homepage = 'https://patriciogonzalezvivo.com/2015/glslViewer'
+repository = 'https://github.com/patriciogonzalezvivo/glslViewer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glslviewer'

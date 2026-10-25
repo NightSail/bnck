@@ -1,0 +1,8 @@
+id = 'nant'
+name = 'nant'
+
+homepage = 'http://nant.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'nant'

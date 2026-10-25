@@ -1,0 +1,8 @@
+id = 'gnac'
+name = 'gnac'
+
+homepage = 'https://gitlab.gnome.org/Archive/gnac'
+
+[[package]]
+channel = 'arch'
+name = 'gnac'

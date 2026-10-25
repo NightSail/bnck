@@ -1,0 +1,9 @@
+id = 'bluez-pub'
+name = 'bluez'
+
+homepage = 'https://www.bluez.org'
+repository = 'https://git.kernel.org/pub/scm/bluetooth/bluez.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bluez'

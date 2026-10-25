@@ -1,0 +1,8 @@
+id = 'qshell'
+name = 'qshell'
+
+repository = 'https://github.com/qiniu/qshell.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qshell'

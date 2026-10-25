@@ -1,0 +1,10 @@
+id = 'netkit-ntalk'
+name = 'netkit-ntalk'
+
+[[package]]
+channel = 'debian'
+name = 'talk'
+
+[[package]]
+channel = 'debian'
+name = 'talkd'

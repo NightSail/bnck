@@ -1,0 +1,8 @@
+id = 'golang-github-nats-io-nkeys'
+name = 'golang-github-nats-io-nkeys'
+
+homepage = 'https://github.com/nats-io/nkeys'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-nats-io-nkeys'

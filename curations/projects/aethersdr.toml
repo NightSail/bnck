@@ -1,0 +1,8 @@
+id = 'aethersdr'
+name = 'aethersdr'
+
+homepage = 'https://github.com/aethersdr/AetherSDR'
+
+[[package]]
+channel = 'debian'
+name = 'aethersdr'

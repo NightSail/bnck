@@ -1,0 +1,16 @@
+id = 'pyosmium'
+name = 'pyosmium'
+
+homepage = 'https://osmcode.org/pyosmium'
+
+[[package]]
+channel = 'arch'
+name = 'python-osmium'
+
+[[package]]
+channel = 'debian'
+name = 'pyosmium'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-osmium'

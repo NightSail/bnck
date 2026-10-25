@@ -1,0 +1,17 @@
+id = 'flit'
+name = 'flit'
+
+homepage = 'https://flit.readthedocs.io/en/latest'
+repository = 'https://github.com/pypa/flit.git'
+
+[[package]]
+channel = 'debian'
+name = 'flit'
+
+[[package]]
+channel = 'fedora'
+name = 'flit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flit'

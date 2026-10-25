@@ -1,0 +1,8 @@
+id = 'uuidcdef'
+name = 'uuidcdef'
+
+homepage = 'https://xplc.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'uuidcdef'

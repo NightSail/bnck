@@ -1,0 +1,12 @@
+id = 'pyzor'
+name = 'pyzor'
+
+homepage = 'https://github.com/SpamExperts/pyzor'
+
+[[package]]
+channel = 'debian'
+name = 'pyzor'
+
+[[package]]
+channel = 'fedora'
+name = 'pyzor'

@@ -1,0 +1,60 @@
+id = 'zeroc'
+name = 'zeroc'
+
+homepage = 'https://zeroc.com'
+
+[[package]]
+channel = 'arch'
+name = 'zeroc-ice'
+
+[[package]]
+channel = 'debian'
+name = 'libzeroc-ice-dev'
+
+[[package]]
+channel = 'debian'
+name = 'php-zeroc-ice'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zeroc-ice'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-dsnode'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-glacier2'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-ice-compilers'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-ice-utils'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-icebox'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-icebridge'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-icegrid'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-icegridgui'
+
+[[package]]
+channel = 'debian'
+name = 'zeroc-icepatch2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ice'

@@ -1,0 +1,12 @@
+id = 'scheme48'
+name = 'scheme48'
+
+homepage = 'https://www.s48.org'
+
+[[package]]
+channel = 'debian'
+name = 'scheme48'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scheme48'

@@ -1,0 +1,12 @@
+id = 'mkcue'
+name = 'mkcue'
+
+homepage = 'https://packages.debian.org/sid/mkcue'
+
+[[package]]
+channel = 'debian'
+name = 'mkcue'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkcue'

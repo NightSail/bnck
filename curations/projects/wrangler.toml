@@ -1,0 +1,8 @@
+id = 'wrangler'
+name = 'wrangler'
+
+homepage = 'https://github.com/cloudflare/workers-sdk'
+
+[[package]]
+channel = 'arch'
+name = 'wrangler'

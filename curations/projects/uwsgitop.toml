@@ -1,0 +1,8 @@
+id = 'uwsgitop'
+name = 'uwsgitop'
+
+homepage = 'https://github.com/xrmx/uwsgitop'
+
+[[package]]
+channel = 'arch'
+name = 'uwsgitop'

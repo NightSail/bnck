@@ -1,0 +1,8 @@
+id = 'golang-github-krishicks-yaml-patch'
+name = 'golang-github-krishicks-yaml-patch'
+
+homepage = 'https://github.com/krishicks/yaml-patch'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-krishicks-yaml-patch'

@@ -1,0 +1,8 @@
+id = 'hstsparser'
+name = 'hstsparser'
+
+homepage = 'https://github.com/thebeanogamer/hstsparser'
+
+[[package]]
+channel = 'fedora'
+name = 'hstsparser'

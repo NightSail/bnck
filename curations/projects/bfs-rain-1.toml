@@ -1,0 +1,8 @@
+id = 'bfs-rain-1'
+name = 'bfs'
+
+repository = 'https://github.com/rain-1/bfs'
+
+[[package]]
+channel = 'crates.io'
+name = 'bfs'

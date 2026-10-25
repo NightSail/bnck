@@ -1,0 +1,21 @@
+id = 'atomicparsley'
+name = 'atomicparsley'
+
+homepage = 'http://atomicparsley.sourceforge.net'
+repository = 'https://github.com/wez/atomicparsley.git'
+
+[[package]]
+channel = 'arch'
+name = 'atomicparsley'
+
+[[package]]
+channel = 'debian'
+name = 'atomicparsley'
+
+[[package]]
+channel = 'fedora'
+name = 'AtomicParsley'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atomicparsley'

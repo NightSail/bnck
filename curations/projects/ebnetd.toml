@@ -1,0 +1,20 @@
+id = 'ebnetd'
+name = 'ebnetd'
+
+homepage = 'http://www.sra.co.jp/people/m-kasahr/ebnetd'
+
+[[package]]
+channel = 'fedora'
+name = 'ebhttpd'
+
+[[package]]
+channel = 'fedora'
+name = 'ebnetd'
+
+[[package]]
+channel = 'fedora'
+name = 'ebnetd-common'
+
+[[package]]
+channel = 'fedora'
+name = 'ndtpd'

@@ -1,0 +1,12 @@
+id = 'hdr10plus-tool'
+name = 'hdr10plus_tool'
+
+repository = 'https://github.com/quietvoid/hdr10plus_tool.git'
+
+[[package]]
+channel = 'arch'
+name = 'hdr10plus-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hdr10plus_tool'

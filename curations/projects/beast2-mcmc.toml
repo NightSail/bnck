@@ -1,0 +1,8 @@
+id = 'beast2-mcmc'
+name = 'beast2-mcmc'
+
+homepage = 'https://www.beast2.org'
+
+[[package]]
+channel = 'debian'
+name = 'beast2-mcmc'

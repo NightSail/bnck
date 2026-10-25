@@ -1,0 +1,8 @@
+id = 'rtsp-server-perl'
+name = 'rtsp-server-perl'
+
+homepage = 'https://metacpan.org/release/RTSP-Server'
+
+[[package]]
+channel = 'debian'
+name = 'rtsp-server-perl'

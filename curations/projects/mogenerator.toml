@@ -1,0 +1,9 @@
+id = 'mogenerator'
+name = 'mogenerator'
+
+homepage = 'https://rentzsch.github.io/mogenerator'
+repository = 'https://github.com/rentzsch/mogenerator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mogenerator'

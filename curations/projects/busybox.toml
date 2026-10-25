@@ -12,5 +12,29 @@ channel = 'debian'
 name = 'busybox'
 
 [[package]]
+channel = 'debian'
+name = 'busybox-static'
+
+[[package]]
+channel = 'debian'
+name = 'busybox-syslogd'
+
+[[package]]
+channel = 'debian'
+name = 'udhcpc'
+
+[[package]]
+channel = 'debian'
+name = 'udhcpd'
+
+[[package]]
 channel = 'fedora'
 name = 'busybox'
+
+[[package]]
+channel = 'fedora'
+name = 'busybox-petitboot'
+
+[[package]]
+channel = 'fedora'
+name = 'busybox-shared'

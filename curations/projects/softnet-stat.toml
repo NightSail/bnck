@@ -1,0 +1,8 @@
+id = 'softnet-stat'
+name = 'softnet-stat'
+
+homepage = 'https://github.com/hjr3/softnet-stat'
+
+[[package]]
+channel = 'fedora'
+name = 'softnet-stat'

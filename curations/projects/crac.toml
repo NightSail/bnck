@@ -1,0 +1,8 @@
+id = 'crac'
+name = 'crac'
+
+homepage = 'https://crac.gforge.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'crac'

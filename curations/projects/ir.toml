@@ -1,0 +1,12 @@
+id = 'ir'
+name = 'ir'
+
+homepage = 'http://iguanaworks.net/ir'
+
+[[package]]
+channel = 'fedora'
+name = 'iguanaIR'
+
+[[package]]
+channel = 'fedora'
+name = 'iguanaIR-reflasher'

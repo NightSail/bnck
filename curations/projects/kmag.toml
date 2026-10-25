@@ -1,0 +1,16 @@
+id = 'kmag'
+name = 'kmag'
+
+homepage = 'https://apps.kde.org/kmag'
+
+[[package]]
+channel = 'arch'
+name = 'kmag'
+
+[[package]]
+channel = 'debian'
+name = 'kmag'
+
+[[package]]
+channel = 'fedora'
+name = 'kmag'

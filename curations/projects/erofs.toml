@@ -1,0 +1,12 @@
+id = 'erofs'
+name = 'erofs'
+
+homepage = 'https://erofs.docs.kernel.org'
+
+[[package]]
+channel = 'fedora'
+name = 'erofs-fuse'
+
+[[package]]
+channel = 'fedora'
+name = 'erofs-utils'

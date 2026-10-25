@@ -1,0 +1,8 @@
+id = 'libyui-ncurses-tools'
+name = 'libyui-ncurses-tools'
+
+homepage = 'https://github.com/libyui/libyui'
+
+[[package]]
+channel = 'fedora'
+name = 'libyui-ncurses-tools'

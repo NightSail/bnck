@@ -1,0 +1,8 @@
+id = 'canid'
+name = 'canid'
+
+homepage = 'https://github.com/britram/canid'
+
+[[package]]
+channel = 'debian'
+name = 'canid'

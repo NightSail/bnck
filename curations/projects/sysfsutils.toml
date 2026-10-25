@@ -1,0 +1,16 @@
+id = 'sysfsutils'
+name = 'sysfsutils'
+
+homepage = 'http://linux-diag.sourceforge.net/Sysfsutils.html'
+
+[[package]]
+channel = 'arch'
+name = 'sysfsutils'
+
+[[package]]
+channel = 'debian'
+name = 'sysfsutils'
+
+[[package]]
+channel = 'fedora'
+name = 'sysfsutils'

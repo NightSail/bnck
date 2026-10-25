@@ -1,0 +1,8 @@
+id = 'httpx-projectdiscovery'
+name = 'httpx'
+
+repository = 'https://github.com/projectdiscovery/httpx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpx'

@@ -1,0 +1,8 @@
+id = 'libssm-bin'
+name = 'libssm-bin'
+
+homepage = 'http://www.ccp4.ac.uk'
+
+[[package]]
+channel = 'debian'
+name = 'libssm-bin'

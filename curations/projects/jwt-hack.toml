@@ -1,0 +1,8 @@
+id = 'jwt-hack'
+name = 'jwt-hack'
+
+repository = 'https://github.com/hahwul/jwt-hack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jwt-hack'

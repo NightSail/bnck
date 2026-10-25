@@ -1,0 +1,56 @@
+id = 'hipercontracer'
+name = 'hipercontracer'
+
+homepage = 'https://www.nntb.no/~dreibh/hipercontracer'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-collector'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-dbeaver-tools'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-dbshell'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-importer'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-node'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-query'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-results'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-rtunnel'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-sync'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-trigger'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-udp-echo-server'
+
+[[package]]
+channel = 'debian'
+name = 'hipercontracer-viewer'

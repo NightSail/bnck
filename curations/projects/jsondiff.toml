@@ -1,0 +1,12 @@
+id = 'jsondiff'
+name = 'jsondiff'
+
+homepage = 'https://github.com/xlwings/jsondiff'
+
+[[package]]
+channel = 'arch'
+name = 'python-jsondiff'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jsondiff'

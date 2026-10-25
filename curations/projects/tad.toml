@@ -1,0 +1,12 @@
+id = 'tad'
+name = 'tad'
+
+homepage = 'https://www.tadviewer.com'
+
+[[package]]
+channel = 'debian'
+name = 'tad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/tad'

@@ -1,0 +1,12 @@
+id = 'playwright'
+name = 'playwright'
+
+homepage = 'https://playwright.dev'
+
+[[package]]
+channel = 'debian'
+name = 'node-playwright'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/playwright-cli'

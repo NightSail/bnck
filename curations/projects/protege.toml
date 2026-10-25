@@ -1,0 +1,8 @@
+id = 'protege'
+name = 'protege'
+
+homepage = 'https://protege.stanford.edu'
+
+[[package]]
+channel = 'arch'
+name = 'protege'

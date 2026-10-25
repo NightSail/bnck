@@ -1,0 +1,8 @@
+id = 'ssh-keyonly'
+name = 'ssh-keyonly'
+
+homepage = 'https://codeberg.org/kpcyrd/ssh-keyonly'
+
+[[package]]
+channel = 'arch'
+name = 'ssh-keyonly'

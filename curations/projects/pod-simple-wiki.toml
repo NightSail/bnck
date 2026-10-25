@@ -1,0 +1,12 @@
+id = 'pod-simple-wiki'
+name = 'Pod-Simple-Wiki'
+
+homepage = 'https://metacpan.org/release/Pod-Simple-Wiki'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-simple-wiki-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Simple-Wiki'

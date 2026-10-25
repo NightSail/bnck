@@ -1,0 +1,12 @@
+id = 'cargo-machete'
+name = 'cargo-machete'
+
+homepage = 'https://github.com/bnjbvr/cargo-machete'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-machete'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-machete'

@@ -1,0 +1,12 @@
+id = 'git-grab'
+name = 'git-grab'
+
+homepage = 'https://codeberg.org/wezm/git-grab'
+
+[[package]]
+channel = 'arch'
+name = 'git-grab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-grab'

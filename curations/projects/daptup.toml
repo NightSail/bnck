@@ -1,0 +1,6 @@
+id = 'daptup'
+name = 'daptup'
+
+[[package]]
+channel = 'debian'
+name = 'daptup'

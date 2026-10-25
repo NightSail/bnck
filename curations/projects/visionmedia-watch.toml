@@ -1,0 +1,8 @@
+id = 'visionmedia-watch'
+name = 'visionmedia-watch'
+
+repository = 'https://github.com/tj/watch.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/visionmedia-watch'

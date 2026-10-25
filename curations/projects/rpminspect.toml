@@ -1,0 +1,8 @@
+id = 'rpminspect'
+name = 'rpminspect'
+
+homepage = 'https://github.com/rpminspect/rpminspect'
+
+[[package]]
+channel = 'fedora'
+name = 'rpminspect'

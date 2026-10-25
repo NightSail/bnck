@@ -1,0 +1,12 @@
+id = 'pidcat'
+name = 'pidcat'
+
+repository = 'https://github.com/JakeWharton/pidcat.git'
+
+[[package]]
+channel = 'debian'
+name = 'pidcat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pidcat'

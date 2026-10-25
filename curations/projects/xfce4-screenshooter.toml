@@ -6,3 +6,11 @@ homepage = 'https://docs.xfce.org/apps/xfce4-screenshooter/start'
 [[package]]
 channel = 'arch'
 name = 'xfce4-screenshooter'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-screenshooter'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-screenshooter'

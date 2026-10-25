@@ -1,0 +1,9 @@
+id = 'synergy-core'
+name = 'synergy-core'
+
+homepage = 'https://symless.com/synergy'
+repository = 'https://github.com/symless/synergy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/synergy-core'

@@ -1,0 +1,8 @@
+id = 'ifcplusplus'
+name = 'ifcplusplus'
+
+homepage = 'https://www.ifcquery.com'
+
+[[package]]
+channel = 'debian'
+name = 'ifcplusplus'

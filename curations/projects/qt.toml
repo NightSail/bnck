@@ -1,0 +1,180 @@
+id = 'qt'
+name = 'qt'
+
+homepage = 'https://www.qt.io'
+
+[[package]]
+channel = 'arch'
+name = 'pyside6-tools'
+
+[[package]]
+channel = 'arch'
+name = 'qt5-base'
+
+[[package]]
+channel = 'arch'
+name = 'qt5-declarative'
+
+[[package]]
+channel = 'arch'
+name = 'qt5-tools'
+
+[[package]]
+channel = 'arch'
+name = 'qt5-wayland'
+
+[[package]]
+channel = 'arch'
+name = 'qt5-xmlpatterns'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-base'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-connectivity'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-declarative'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-quick3dphysics'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-quickeffectmaker'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-serialbus'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-tools'
+
+[[package]]
+channel = 'arch'
+name = 'qt6-webengine'
+
+[[package]]
+channel = 'arch'
+name = 'qtcreator'
+
+[[package]]
+channel = 'arch'
+name = 'shiboken6-generator'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-qt5-qmake'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-qt5-qttools-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-qt6-qtbase'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-qt5-qmake'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-qt5-qttools-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-qt6-qtbase'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-assistant'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-designer'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-doctools'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-linguist'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qdbusviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qtconnectivity'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qtdeclarative-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qttools'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qttools-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qtxmlpatterns-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-assistant'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-designer'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-doctools'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-linguist'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qdbusviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qtdeclarative-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qtquick3d-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qtshadertools'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qttools'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qttools-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qt@5'

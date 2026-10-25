@@ -1,0 +1,12 @@
+id = 'pcmanfm-qt'
+name = 'pcmanfm-qt'
+
+homepage = 'https://github.com/lxqt/pcmanfm-qt'
+
+[[package]]
+channel = 'arch'
+name = 'pcmanfm-qt'
+
+[[package]]
+channel = 'debian'
+name = 'pcmanfm-qt'

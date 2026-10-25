@@ -1,0 +1,8 @@
+id = 'libgcrypt-bin'
+name = 'libgcrypt-bin'
+
+homepage = 'https://gnupg.org/software/libgcrypt'
+
+[[package]]
+channel = 'debian'
+name = 'libgcrypt-bin'

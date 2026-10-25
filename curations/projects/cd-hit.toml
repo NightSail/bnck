@@ -1,0 +1,8 @@
+id = 'cd-hit'
+name = 'cd-hit'
+
+homepage = 'http://weizhongli-lab.org/cd-hit'
+
+[[package]]
+channel = 'debian'
+name = 'cd-hit'

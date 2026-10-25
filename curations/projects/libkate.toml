@@ -1,0 +1,9 @@
+id = 'libkate'
+name = 'libkate'
+
+homepage = 'https://wiki.xiph.org/index.php/OggKate'
+repository = 'https://gitlab.xiph.org/xiph/kate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libkate'

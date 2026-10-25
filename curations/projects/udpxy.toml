@@ -1,0 +1,12 @@
+id = 'udpxy'
+name = 'udpxy'
+
+homepage = 'https://github.com/pcherenkov/udpxy'
+
+[[package]]
+channel = 'arch'
+name = 'udpxy'
+
+[[package]]
+channel = 'fedora'
+name = 'udpxy'

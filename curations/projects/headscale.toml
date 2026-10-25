@@ -1,0 +1,16 @@
+id = 'headscale'
+name = 'headscale'
+
+homepage = 'https://github.com/juanfont/headscale'
+
+[[package]]
+channel = 'arch'
+name = 'headscale'
+
+[[package]]
+channel = 'fedora'
+name = 'headscale'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/headscale-cli'

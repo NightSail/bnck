@@ -1,0 +1,6 @@
+id = 'apt-file'
+name = 'apt-file'
+
+[[package]]
+channel = 'debian'
+name = 'apt-file'

@@ -1,0 +1,8 @@
+id = 'gitup-app'
+name = 'gitup-app'
+
+homepage = 'https://gitup.co'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gitup-app'

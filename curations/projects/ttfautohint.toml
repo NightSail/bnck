@@ -1,0 +1,21 @@
+id = 'ttfautohint'
+name = 'ttfautohint'
+
+homepage = 'https://www.freetype.org/ttfautohint'
+repository = 'https://repo.or.cz/ttfautohint.git'
+
+[[package]]
+channel = 'debian'
+name = 'ttfautohint'
+
+[[package]]
+channel = 'fedora'
+name = 'ttfautohint'
+
+[[package]]
+channel = 'fedora'
+name = 'ttfautohint-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ttfautohint'

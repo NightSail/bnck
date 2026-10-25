@@ -1,0 +1,8 @@
+id = 'nanopub'
+name = 'nanopub'
+
+homepage = 'https://vemonet.github.io/nanopub-rs'
+
+[[package]]
+channel = 'debian'
+name = 'nanopub'

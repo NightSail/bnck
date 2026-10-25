@@ -1,0 +1,12 @@
+id = 'text-bibtex'
+name = 'Text-BibTeX'
+
+homepage = 'https://metacpan.org/release/Text-BibTeX'
+
+[[package]]
+channel = 'arch'
+name = 'perl-text-bibtex'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-BibTeX'

@@ -1,0 +1,12 @@
+id = 'xschem'
+name = 'xschem'
+
+homepage = 'https://xschem.sourceforge.io/stefan/xschem.html'
+
+[[package]]
+channel = 'debian'
+name = 'xschem'
+
+[[package]]
+channel = 'fedora'
+name = 'xschem'

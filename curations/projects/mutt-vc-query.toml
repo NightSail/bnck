@@ -1,0 +1,8 @@
+id = 'mutt-vc-query'
+name = 'mutt-vc-query'
+
+homepage = 'https://github.com/libvc/mutt_vc_query'
+
+[[package]]
+channel = 'debian'
+name = 'mutt-vc-query'

@@ -1,0 +1,40 @@
+id = 'lazarus-ide'
+name = 'lazarus-ide'
+
+homepage = 'https://www.lazarus-ide.org'
+
+[[package]]
+channel = 'debian'
+name = 'lazarus-ide-4.0'
+
+[[package]]
+channel = 'debian'
+name = 'lazarus-ide-4.6'
+
+[[package]]
+channel = 'debian'
+name = 'lazarus-ide-4.8'
+
+[[package]]
+channel = 'debian'
+name = 'lazbuild'
+
+[[package]]
+channel = 'debian'
+name = 'lcl-utils-4.0'
+
+[[package]]
+channel = 'debian'
+name = 'lcl-utils-4.6'
+
+[[package]]
+channel = 'debian'
+name = 'lcl-utils-4.8'
+
+[[package]]
+channel = 'fedora'
+name = 'lazarus-ide'
+
+[[package]]
+channel = 'fedora'
+name = 'lazarus-tools'

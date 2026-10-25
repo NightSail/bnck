@@ -1,0 +1,8 @@
+id = 'python-novaclient'
+name = 'python-novaclient'
+
+homepage = 'https://docs.openstack.org/python-novaclient/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-novaclient'

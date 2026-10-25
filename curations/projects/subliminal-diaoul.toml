@@ -1,0 +1,9 @@
+id = 'subliminal-diaoul'
+name = 'subliminal'
+
+homepage = 'https://subliminal.readthedocs.io'
+repository = 'https://github.com/Diaoul/subliminal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/subliminal'

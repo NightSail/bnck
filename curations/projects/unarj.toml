@@ -1,0 +1,8 @@
+id = 'unarj'
+name = 'unarj'
+
+homepage = 'http://www.arjsoftware.com'
+
+[[package]]
+channel = 'arch'
+name = 'unarj'

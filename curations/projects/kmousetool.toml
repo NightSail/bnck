@@ -1,0 +1,16 @@
+id = 'kmousetool'
+name = 'kmousetool'
+
+homepage = 'https://apps.kde.org/kmousetool'
+
+[[package]]
+channel = 'arch'
+name = 'kmousetool'
+
+[[package]]
+channel = 'debian'
+name = 'kmousetool'
+
+[[package]]
+channel = 'fedora'
+name = 'kmousetool'

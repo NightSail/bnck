@@ -1,0 +1,8 @@
+id = 'python-gitlabber'
+name = 'python-gitlabber'
+
+homepage = 'https://github.com/ezbz/gitlabber'
+
+[[package]]
+channel = 'arch'
+name = 'python-gitlabber'

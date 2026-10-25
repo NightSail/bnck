@@ -1,0 +1,9 @@
+id = 'rggen'
+name = 'rggen'
+
+homepage = 'https://rggen.github.io/rggen-webui'
+repository = 'https://github.com/rggen/rggen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rggen'

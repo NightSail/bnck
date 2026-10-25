@@ -1,0 +1,8 @@
+id = 'libredwg'
+name = 'libredwg'
+
+homepage = 'https://www.gnu.org/software/libredwg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libredwg'

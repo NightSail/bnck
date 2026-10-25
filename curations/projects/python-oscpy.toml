@@ -1,0 +1,8 @@
+id = 'python-oscpy'
+name = 'python-oscpy'
+
+homepage = 'https://github.com/kivy/oscpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-oscpy'

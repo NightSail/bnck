@@ -1,0 +1,20 @@
+id = 'libfyaml'
+name = 'libfyaml'
+
+homepage = 'https://github.com/pantoniou/libfyaml'
+
+[[package]]
+channel = 'arch'
+name = 'libfyaml'
+
+[[package]]
+channel = 'debian'
+name = 'libfyaml-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libfyaml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfyaml'

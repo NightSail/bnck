@@ -1,0 +1,6 @@
+id = 'mimefilter'
+name = 'mimefilter'
+
+[[package]]
+channel = 'debian'
+name = 'mimefilter'

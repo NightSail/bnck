@@ -1,0 +1,8 @@
+id = 'tracy'
+name = 'tracy'
+
+homepage = 'https://tracy.nereid.pl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tracy'

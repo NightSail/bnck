@@ -1,0 +1,8 @@
+id = 'nield'
+name = 'nield'
+
+homepage = 'https://github.com/t2mune/nield'
+
+[[package]]
+channel = 'debian'
+name = 'nield'

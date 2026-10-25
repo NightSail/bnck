@@ -1,0 +1,9 @@
+id = 'bibtexconv-dreibh'
+name = 'bibtexconv'
+
+homepage = 'https://www.nntb.no/~dreibh/bibtexconv'
+repository = 'https://github.com/dreibh/bibtexconv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bibtexconv'

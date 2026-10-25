@@ -1,0 +1,9 @@
+id = 'dtm'
+name = 'dtm'
+
+homepage = 'https://en.dtm.pub'
+repository = 'https://github.com/dtm-labs/dtm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtm'

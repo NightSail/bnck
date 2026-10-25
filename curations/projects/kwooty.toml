@@ -1,0 +1,8 @@
+id = 'kwooty'
+name = 'kwooty'
+
+homepage = 'http://kwooty.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'kwooty'

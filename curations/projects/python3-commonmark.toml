@@ -1,0 +1,8 @@
+id = 'python3-commonmark'
+name = 'python3-commonmark'
+
+homepage = 'https://github.com/rtfd/commonmark.py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-commonmark'

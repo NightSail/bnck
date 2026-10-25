@@ -1,0 +1,16 @@
+id = 'spatialite-gui'
+name = 'spatialite-gui'
+
+homepage = 'https://www.gaia-gis.it/fossil/spatialite_gui/index'
+
+[[package]]
+channel = 'debian'
+name = 'spatialite-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'spatialite-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spatialite-gui'

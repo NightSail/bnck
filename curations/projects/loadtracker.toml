@@ -1,0 +1,8 @@
+id = 'loadtracker'
+name = 'loadtracker'
+
+homepage = 'https://github.com/libsidplayfp/loadtracker'
+
+[[package]]
+channel = 'arch'
+name = 'loadtracker'

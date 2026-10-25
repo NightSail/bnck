@@ -1,0 +1,8 @@
+id = 'fedpkg-minimal'
+name = 'fedpkg-minimal'
+
+homepage = 'https://pagure.io/fedpkg-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'fedpkg-minimal'

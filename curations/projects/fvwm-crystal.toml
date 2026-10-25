@@ -1,0 +1,8 @@
+id = 'fvwm-crystal'
+name = 'fvwm-crystal'
+
+homepage = 'http://fvwm-crystal.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'fvwm-crystal'

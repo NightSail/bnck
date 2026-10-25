@@ -1,0 +1,8 @@
+id = 'prometheus-script-exporter'
+name = 'prometheus-script-exporter'
+
+homepage = 'https://github.com/ricoberger/script_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-script-exporter'

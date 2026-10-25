@@ -1,0 +1,8 @@
+id = 'common-lisp-controller'
+name = 'common-lisp-controller'
+
+homepage = 'https://alioth.debian.org/projects/clc'
+
+[[package]]
+channel = 'fedora'
+name = 'common-lisp-controller'

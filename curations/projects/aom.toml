@@ -1,0 +1,17 @@
+id = 'aom'
+name = 'aom'
+
+homepage = 'https://aomedia.org'
+repository = 'https://aomedia.googlesource.com/aom.git'
+
+[[package]]
+channel = 'arch'
+name = 'aom'
+
+[[package]]
+channel = 'fedora'
+name = 'aom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aom'

@@ -1,0 +1,8 @@
+id = 'makedepf90'
+name = 'makedepf90'
+
+homepage = 'https://github.com/amckinstry/makedepf90'
+
+[[package]]
+channel = 'debian'
+name = 'makedepf90'

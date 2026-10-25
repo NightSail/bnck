@@ -1,0 +1,16 @@
+id = 'gscan2pdf'
+name = 'gscan2pdf'
+
+homepage = 'http://gscan2pdf.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gscan2pdf'
+
+[[package]]
+channel = 'debian'
+name = 'gscan2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'gscan2pdf'

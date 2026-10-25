@@ -1,0 +1,12 @@
+id = 'ansible-bender'
+name = 'ansible-bender'
+
+homepage = 'https://github.com/ansible-community/ansible-bender'
+
+[[package]]
+channel = 'arch'
+name = 'ansible-bender'
+
+[[package]]
+channel = 'fedora'
+name = 'ansible-bender'

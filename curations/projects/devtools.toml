@@ -1,0 +1,8 @@
+id = 'devtools'
+name = 'devtools'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/devtools'
+
+[[package]]
+channel = 'arch'
+name = 'devtools'

@@ -1,0 +1,10 @@
+id = 'nomarch'
+name = 'nomarch'
+
+[[package]]
+channel = 'debian'
+name = 'nomarch'
+
+[[package]]
+channel = 'fedora'
+name = 'nomarch'

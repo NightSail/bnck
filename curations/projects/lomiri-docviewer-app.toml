@@ -1,0 +1,8 @@
+id = 'lomiri-docviewer-app'
+name = 'lomiri-docviewer-app'
+
+homepage = 'https://gitlab.com/ubports/development/apps/lomiri-docviewer-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-docviewer-app'

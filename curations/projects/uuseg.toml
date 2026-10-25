@@ -1,0 +1,12 @@
+id = 'uuseg'
+name = 'uuseg'
+
+homepage = 'https://erratique.ch/software/uuseg'
+
+[[package]]
+channel = 'debian'
+name = 'libuuseg-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-uuseg'

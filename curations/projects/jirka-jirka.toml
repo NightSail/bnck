@@ -1,0 +1,12 @@
+id = 'jirka-jirka'
+name = 'jirka'
+
+homepage = 'https://www.5z.com/jirka/genius.html'
+
+[[package]]
+channel = 'debian'
+name = 'genius'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-genius'

@@ -1,0 +1,8 @@
+id = 'kleborate'
+name = 'kleborate'
+
+homepage = 'https://github.com/katholt/Kleborate'
+
+[[package]]
+channel = 'debian'
+name = 'kleborate'

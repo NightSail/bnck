@@ -1,0 +1,12 @@
+id = 'tkey-ssh-agent'
+name = 'tkey-ssh-agent'
+
+homepage = 'https://tillitis.se'
+
+[[package]]
+channel = 'debian'
+name = 'tkey-ssh-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tkey-ssh-agent'

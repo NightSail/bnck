@@ -1,0 +1,8 @@
+id = 'mcp-google-sheets'
+name = 'mcp-google-sheets'
+
+homepage = 'https://github.com/xing5/mcp-google-sheets'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-google-sheets'

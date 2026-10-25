@@ -1,0 +1,16 @@
+id = 'kmouth'
+name = 'kmouth'
+
+homepage = 'https://apps.kde.org/kmouth'
+
+[[package]]
+channel = 'arch'
+name = 'kmouth'
+
+[[package]]
+channel = 'debian'
+name = 'kmouth'
+
+[[package]]
+channel = 'fedora'
+name = 'kmouth'

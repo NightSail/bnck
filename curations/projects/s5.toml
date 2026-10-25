@@ -1,0 +1,8 @@
+id = 's5'
+name = 's5'
+
+homepage = 'https://meyerweb.com/eric/tools/s5'
+
+[[package]]
+channel = 'debian'
+name = 's5'

@@ -1,0 +1,17 @@
+id = 'rtmpdump'
+name = 'rtmpdump'
+
+homepage = 'https://rtmpdump.mplayerhq.hu'
+repository = 'git://git.ffmpeg.org/rtmpdump.git'
+
+[[package]]
+channel = 'arch'
+name = 'rtmpdump'
+
+[[package]]
+channel = 'debian'
+name = 'rtmpdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rtmpdump'

@@ -1,0 +1,8 @@
+id = 'perl-jemplate'
+name = 'perl-Jemplate'
+
+homepage = 'https://metacpan.org/release/Jemplate'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Jemplate'

@@ -1,0 +1,12 @@
+id = 'qsampler'
+name = 'qsampler'
+
+homepage = 'https://qsampler.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qsampler'
+
+[[package]]
+channel = 'debian'
+name = 'qsampler'

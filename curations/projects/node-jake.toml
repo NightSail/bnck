@@ -1,0 +1,8 @@
+id = 'node-jake'
+name = 'node-jake'
+
+homepage = 'https://github.com/mde/jake'
+
+[[package]]
+channel = 'debian'
+name = 'node-jake'

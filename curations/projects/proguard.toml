@@ -1,0 +1,16 @@
+id = 'proguard'
+name = 'proguard'
+
+homepage = 'https://www.guardsquare.com/en/products/proguard'
+
+[[package]]
+channel = 'debian'
+name = 'proguard-cli'
+
+[[package]]
+channel = 'debian'
+name = 'proguard-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proguard'

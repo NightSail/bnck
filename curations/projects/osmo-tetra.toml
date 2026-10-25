@@ -1,0 +1,8 @@
+id = 'osmo-tetra'
+name = 'osmo-tetra'
+
+homepage = 'https://osmocom.org/projects/tetra/wiki/OsmocomTETRA'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-tetra'

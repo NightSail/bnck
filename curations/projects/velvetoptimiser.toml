@@ -1,0 +1,8 @@
+id = 'velvetoptimiser'
+name = 'velvetoptimiser'
+
+homepage = 'https://github.com/tseemann/VelvetOptimiser'
+
+[[package]]
+channel = 'debian'
+name = 'velvetoptimiser'

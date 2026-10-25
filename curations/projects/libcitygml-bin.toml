@@ -1,0 +1,8 @@
+id = 'libcitygml-bin'
+name = 'libcitygml-bin'
+
+homepage = 'https://github.com/jklimke/libcitygml'
+
+[[package]]
+channel = 'debian'
+name = 'libcitygml-bin'

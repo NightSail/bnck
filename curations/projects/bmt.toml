@@ -1,0 +1,8 @@
+id = 'bmt'
+name = 'bmt'
+
+homepage = 'https://github.com/tautschnig/bmt'
+
+[[package]]
+channel = 'debian'
+name = 'bmt'

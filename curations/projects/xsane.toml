@@ -1,0 +1,17 @@
+id = 'xsane'
+name = 'xsane'
+
+homepage = 'http://www.xsane.org'
+repository = 'https://gitlab.com/sane-project/frontend/xsane.git'
+
+[[package]]
+channel = 'debian'
+name = 'xsane'
+
+[[package]]
+channel = 'fedora'
+name = 'xsane'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xsane'

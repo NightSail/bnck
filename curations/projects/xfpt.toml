@@ -1,0 +1,8 @@
+id = 'xfpt'
+name = 'xfpt'
+
+homepage = 'https://github.com/PhilipHazel/xfpt'
+
+[[package]]
+channel = 'debian'
+name = 'xfpt'

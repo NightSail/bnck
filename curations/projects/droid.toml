@@ -1,0 +1,8 @@
+id = 'droid'
+name = 'droid'
+
+homepage = 'https://docs.factory.ai/cli/getting-started/overview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/droid'

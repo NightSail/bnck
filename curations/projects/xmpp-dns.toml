@@ -1,0 +1,8 @@
+id = 'xmpp-dns'
+name = 'xmpp-dns'
+
+homepage = 'https://salsa.debian.org/mdosch/xmpp-dns'
+
+[[package]]
+channel = 'debian'
+name = 'xmpp-dns'

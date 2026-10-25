@@ -1,0 +1,8 @@
+id = 'nacl-tools'
+name = 'nacl-tools'
+
+homepage = 'https://nacl.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'nacl-tools'

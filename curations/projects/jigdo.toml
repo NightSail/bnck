@@ -1,0 +1,17 @@
+id = 'jigdo'
+name = 'jigdo'
+
+homepage = 'https://www.einval.com/~steve/software/jigdo'
+repository = 'https://git.einval.com/git/jigdo.git'
+
+[[package]]
+channel = 'debian'
+name = 'jigdo-file'
+
+[[package]]
+channel = 'fedora'
+name = 'jigdo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jigdo'

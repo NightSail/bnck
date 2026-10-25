@@ -1,0 +1,8 @@
+id = 'last-align'
+name = 'last-align'
+
+homepage = 'https://gitlab.com/mcfrith/last'
+
+[[package]]
+channel = 'debian'
+name = 'last-align'

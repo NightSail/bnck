@@ -1,0 +1,8 @@
+id = 'libwww-dict-leo-org-perl'
+name = 'libwww-dict-leo-org-perl'
+
+homepage = 'https://metacpan.org/release/WWW-Dict-Leo-Org'
+
+[[package]]
+channel = 'debian'
+name = 'libwww-dict-leo-org-perl'

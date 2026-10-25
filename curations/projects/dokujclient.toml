@@ -1,0 +1,8 @@
+id = 'dokujclient'
+name = 'dokujclient'
+
+homepage = 'https://github.com/gturri/dokuJClient'
+
+[[package]]
+channel = 'debian'
+name = 'dokujclient'

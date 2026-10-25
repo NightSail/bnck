@@ -1,0 +1,8 @@
+id = 'erbium'
+name = 'erbium'
+
+homepage = 'https://github.com/isomer/erbium'
+
+[[package]]
+channel = 'debian'
+name = 'erbium'

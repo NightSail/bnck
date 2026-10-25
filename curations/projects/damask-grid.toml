@@ -1,0 +1,8 @@
+id = 'damask-grid'
+name = 'damask-grid'
+
+homepage = 'https://damask-multiphysics.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/damask-grid'

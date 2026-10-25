@@ -1,0 +1,12 @@
+id = 'spreadsheet-writeexcel'
+name = 'Spreadsheet-WriteExcel'
+
+homepage = 'https://metacpan.org/release/Spreadsheet-WriteExcel'
+
+[[package]]
+channel = 'debian'
+name = 'libspreadsheet-writeexcel-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Spreadsheet-WriteExcel'

@@ -1,0 +1,8 @@
+id = 'shell2http'
+name = 'shell2http'
+
+repository = 'https://github.com/msoap/shell2http.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shell2http'

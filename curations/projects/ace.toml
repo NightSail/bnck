@@ -1,0 +1,8 @@
+id = 'ace'
+name = 'ace'
+
+homepage = 'https://github.com/yosssi/ace'
+
+[[package]]
+channel = 'debian'
+name = 'ace'

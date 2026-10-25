@@ -1,0 +1,8 @@
+id = 'mergelog'
+name = 'mergelog'
+
+homepage = 'https://mergelog.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mergelog'

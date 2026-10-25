@@ -1,0 +1,12 @@
+id = 'mpsolve-mpsolve'
+name = 'mpsolve'
+
+homepage = 'https://numpi.dm.unipi.it/software/mpsolve'
+
+[[package]]
+channel = 'fedora'
+name = 'mpsolve'
+
+[[package]]
+channel = 'fedora'
+name = 'xmpsolve'

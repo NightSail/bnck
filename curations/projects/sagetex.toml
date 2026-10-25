@@ -1,0 +1,8 @@
+id = 'sagetex'
+name = 'sagetex'
+
+homepage = 'https://github.com/sagemath/sagetex'
+
+[[package]]
+channel = 'arch'
+name = 'sagetex'

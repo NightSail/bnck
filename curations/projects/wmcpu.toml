@@ -1,0 +1,8 @@
+id = 'wmcpu'
+name = 'wmcpu'
+
+homepage = 'https://web.archive.org/web/20111004173903/http://www.dockapps.org:80/file.php/id/306'
+
+[[package]]
+channel = 'debian'
+name = 'wmcpu'

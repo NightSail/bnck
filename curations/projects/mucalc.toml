@@ -1,0 +1,8 @@
+id = 'mucalc'
+name = 'mucalc'
+
+homepage = 'https://marlam.de/mucalc'
+
+[[package]]
+channel = 'fedora'
+name = 'mucalc'

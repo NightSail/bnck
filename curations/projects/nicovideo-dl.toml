@@ -1,0 +1,8 @@
+id = 'nicovideo-dl'
+name = 'nicovideo-dl'
+
+homepage = 'https://osdn.net/projects/nicovideo-dl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nicovideo-dl'

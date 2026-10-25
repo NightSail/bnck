@@ -1,0 +1,8 @@
+id = 'arno-iptables-firewall'
+name = 'arno-iptables-firewall'
+
+homepage = 'https://github.com/arno-iptables-firewall/aif'
+
+[[package]]
+channel = 'debian'
+name = 'arno-iptables-firewall'

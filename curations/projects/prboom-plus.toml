@@ -1,0 +1,8 @@
+id = 'prboom-plus'
+name = 'prboom-plus'
+
+homepage = 'https://github.com/coelckers/prboom-plus/tags'
+
+[[package]]
+channel = 'fedora'
+name = 'prboom-plus'

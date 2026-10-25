@@ -1,0 +1,12 @@
+id = 'ruby-async-service'
+name = 'ruby-async-service'
+
+homepage = 'https://github.com/socketry/async-service'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-async-service'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-async-service'

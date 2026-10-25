@@ -1,0 +1,28 @@
+id = 'lizardfs'
+name = 'lizardfs'
+
+homepage = 'http://www.lizardfs.org'
+
+[[package]]
+channel = 'fedora'
+name = 'lizardfs-adm'
+
+[[package]]
+channel = 'fedora'
+name = 'lizardfs-cgiserv'
+
+[[package]]
+channel = 'fedora'
+name = 'lizardfs-chunkserver'
+
+[[package]]
+channel = 'fedora'
+name = 'lizardfs-client'
+
+[[package]]
+channel = 'fedora'
+name = 'lizardfs-master'
+
+[[package]]
+channel = 'fedora'
+name = 'lizardfs-metalogger'

@@ -1,0 +1,8 @@
+id = 'openvdb-academysoftwarefoundation'
+name = 'openvdb'
+
+homepage = 'https://github.com/AcademySoftwareFoundation/openvdb'
+
+[[package]]
+channel = 'arch'
+name = 'openvdb'

@@ -1,0 +1,16 @@
+id = 'cargo-edit'
+name = 'cargo-edit'
+
+homepage = 'https://killercup.github.io/cargo-edit'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-edit'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-edit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-edit'

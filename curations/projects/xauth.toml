@@ -1,0 +1,6 @@
+id = 'xauth'
+name = 'xauth'
+
+[[package]]
+channel = 'debian'
+name = 'xauth'

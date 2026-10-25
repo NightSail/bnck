@@ -1,0 +1,8 @@
+id = 'vte-devel'
+name = 'vte-devel'
+
+homepage = 'http://developer.gnome.org/vte'
+
+[[package]]
+channel = 'fedora'
+name = 'vte-devel'

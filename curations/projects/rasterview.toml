@@ -1,0 +1,12 @@
+id = 'rasterview'
+name = 'rasterview'
+
+homepage = 'https://github.com/michaelrsweet/rasterview'
+
+[[package]]
+channel = 'debian'
+name = 'rasterview'
+
+[[package]]
+channel = 'fedora'
+name = 'rasterview'

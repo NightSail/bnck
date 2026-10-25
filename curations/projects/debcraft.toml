@@ -1,0 +1,8 @@
+id = 'debcraft'
+name = 'debcraft'
+
+homepage = 'https://salsa.debian.org/debian/debcraft'
+
+[[package]]
+channel = 'debian'
+name = 'debcraft'

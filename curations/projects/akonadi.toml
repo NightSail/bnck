@@ -1,0 +1,16 @@
+id = 'akonadi'
+name = 'akonadi'
+
+homepage = 'https://invent.kde.org/pim/akonadi'
+
+[[package]]
+channel = 'debian'
+name = 'akonadi-server'
+
+[[package]]
+channel = 'debian'
+name = 'libakonadi-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libakonadi-dev-bin'

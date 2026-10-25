@@ -1,0 +1,28 @@
+id = 'pcsc-lite'
+name = 'pcsc-lite'
+
+homepage = 'https://pcsclite.apdu.fr'
+
+[[package]]
+channel = 'arch'
+name = 'pcsclite'
+
+[[package]]
+channel = 'debian'
+name = 'libpcsclite-dev'
+
+[[package]]
+channel = 'debian'
+name = 'pcscd'
+
+[[package]]
+channel = 'fedora'
+name = 'pcsc-lite'
+
+[[package]]
+channel = 'fedora'
+name = 'pcsc-lite-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcsc-lite'

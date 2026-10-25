@@ -1,0 +1,12 @@
+id = 'airtsp'
+name = 'airtsp'
+
+homepage = 'https://github.com/airsim/airtsp'
+
+[[package]]
+channel = 'fedora'
+name = 'airtsp'
+
+[[package]]
+channel = 'fedora'
+name = 'airtsp-devel'

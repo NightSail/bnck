@@ -1,0 +1,8 @@
+id = 'cdcollect'
+name = 'cdcollect'
+
+homepage = 'http://cdcollect.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'cdcollect'

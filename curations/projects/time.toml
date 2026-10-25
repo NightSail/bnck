@@ -1,0 +1,20 @@
+id = 'time'
+name = 'time'
+
+homepage = 'https://www.gnu.org/software/time'
+
+[[package]]
+channel = 'arch'
+name = 'time'
+
+[[package]]
+channel = 'debian'
+name = 'time'
+
+[[package]]
+channel = 'fedora'
+name = 'time'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-time'

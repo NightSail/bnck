@@ -1,0 +1,8 @@
+id = 'bedtk'
+name = 'bedtk'
+
+homepage = 'https://github.com/lh3/bedtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bedtk'

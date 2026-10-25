@@ -1,0 +1,12 @@
+id = 'libbpf-cargo'
+name = 'libbpf-cargo'
+
+homepage = 'https://github.com/libbpf/libbpf-rs'
+
+[[package]]
+channel = 'debian'
+name = 'libbpf-cargo'
+
+[[package]]
+channel = 'fedora'
+name = 'libbpf-cargo'

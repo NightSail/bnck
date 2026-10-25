@@ -1,0 +1,12 @@
+id = 'glaxnimate'
+name = 'glaxnimate'
+
+homepage = 'https://glaxnimate.org'
+
+[[package]]
+channel = 'arch'
+name = 'glaxnimate'
+
+[[package]]
+channel = 'fedora'
+name = 'glaxnimate'

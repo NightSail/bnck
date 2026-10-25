@@ -1,0 +1,8 @@
+id = 'updlockfiles'
+name = 'updlockfiles'
+
+homepage = 'https://github.com/kpcyrd/updlockfiles'
+
+[[package]]
+channel = 'arch'
+name = 'updlockfiles'

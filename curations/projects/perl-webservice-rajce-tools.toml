@@ -1,0 +1,8 @@
+id = 'perl-webservice-rajce-tools'
+name = 'perl-WebService-Rajce-tools'
+
+homepage = 'https://metacpan.org/release/WebService-Rajce'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-WebService-Rajce-tools'

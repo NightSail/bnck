@@ -1,0 +1,8 @@
+id = 'jome'
+name = 'jome'
+
+homepage = 'https://github.com/eepp/jome'
+
+[[package]]
+channel = 'debian'
+name = 'jome'

@@ -1,0 +1,8 @@
+id = 'asused'
+name = 'asused'
+
+homepage = 'https://ftp.ripe.net/tools/OLD'
+
+[[package]]
+channel = 'debian'
+name = 'asused'

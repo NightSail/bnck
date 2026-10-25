@@ -1,0 +1,16 @@
+id = 'retroarch'
+name = 'retroarch'
+
+homepage = 'http://www.libretro.com'
+
+[[package]]
+channel = 'arch'
+name = 'retroarch'
+
+[[package]]
+channel = 'debian'
+name = 'retroarch'
+
+[[package]]
+channel = 'fedora'
+name = 'retroarch'

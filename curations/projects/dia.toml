@@ -1,0 +1,12 @@
+id = 'dia'
+name = 'dia'
+
+homepage = 'https://wiki.gnome.org/Apps/Dia'
+
+[[package]]
+channel = 'debian'
+name = 'dia'
+
+[[package]]
+channel = 'fedora'
+name = 'dia'

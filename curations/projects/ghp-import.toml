@@ -1,0 +1,12 @@
+id = 'ghp-import'
+name = 'ghp-import'
+
+homepage = 'https://github.com/c-w/ghp-import'
+
+[[package]]
+channel = 'arch'
+name = 'python-ghp-import'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ghp-import'

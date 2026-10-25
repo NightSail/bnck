@@ -1,0 +1,12 @@
+id = 'kanif'
+name = 'kanif'
+
+homepage = 'https://packages.debian.org/stable/net/kanif'
+
+[[package]]
+channel = 'debian'
+name = 'kanif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kanif'

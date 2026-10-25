@@ -1,0 +1,8 @@
+id = 'littlewizard'
+name = 'littlewizard'
+
+homepage = 'http://littlewizard.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'littlewizard'

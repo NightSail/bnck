@@ -1,0 +1,12 @@
+id = 'proton-bridge'
+name = 'proton-bridge'
+
+homepage = 'https://github.com/ProtonMail/proton-bridge'
+
+[[package]]
+channel = 'arch'
+name = 'protonmail-bridge'
+
+[[package]]
+channel = 'arch'
+name = 'protonmail-bridge-core'

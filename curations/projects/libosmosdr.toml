@@ -1,0 +1,8 @@
+id = 'libosmosdr'
+name = 'libosmosdr'
+
+homepage = 'https://sdr.osmocom.org/trac'
+
+[[package]]
+channel = 'arch'
+name = 'libosmosdr'

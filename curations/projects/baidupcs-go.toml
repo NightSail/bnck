@@ -1,0 +1,12 @@
+id = 'baidupcs-go'
+name = 'baidupcs-go'
+
+repository = 'https://github.com/qjfoidnh/BaiduPCS-Go.git'
+
+[[package]]
+channel = 'arch'
+name = 'baidupcs-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/baidupcs-go'

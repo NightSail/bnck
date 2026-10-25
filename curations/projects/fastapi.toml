@@ -1,0 +1,12 @@
+id = 'fastapi'
+name = 'fastapi'
+
+homepage = 'https://github.com/fastapi/fastapi'
+
+[[package]]
+channel = 'arch'
+name = 'python-fastapi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fastapi-slim'

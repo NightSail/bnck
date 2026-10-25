@@ -1,0 +1,8 @@
+id = 'cvc4'
+name = 'cvc4'
+
+homepage = 'https://cvc4.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'cvc4'

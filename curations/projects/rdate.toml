@@ -1,0 +1,12 @@
+id = 'rdate'
+name = 'rdate'
+
+homepage = 'https://www.aelius.com/njh/rdate'
+
+[[package]]
+channel = 'debian'
+name = 'rdate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rdate'

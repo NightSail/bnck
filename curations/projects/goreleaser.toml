@@ -1,0 +1,13 @@
+id = 'goreleaser'
+name = 'goreleaser'
+
+homepage = 'https://goreleaser.com'
+repository = 'https://github.com/goreleaser/goreleaser.git'
+
+[[package]]
+channel = 'arch'
+name = 'goreleaser'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goreleaser'

@@ -1,0 +1,8 @@
+id = 'u-boot-menu'
+name = 'u-boot-menu'
+
+homepage = 'https://github.com/suihkulokki/u-boot-menu'
+
+[[package]]
+channel = 'debian'
+name = 'u-boot-menu'

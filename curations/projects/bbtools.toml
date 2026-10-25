@@ -1,0 +1,16 @@
+id = 'bbtools'
+name = 'bbtools'
+
+homepage = 'https://sourceforge.net/projects/bbtools'
+
+[[package]]
+channel = 'arch'
+name = 'bbpager'
+
+[[package]]
+channel = 'debian'
+name = 'bbmail'
+
+[[package]]
+channel = 'debian'
+name = 'bbpager'

@@ -1,0 +1,16 @@
+id = 'groovy-lang'
+name = 'groovy-lang'
+
+homepage = 'https://www.groovy-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'groovy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/groovy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/groovysdk'

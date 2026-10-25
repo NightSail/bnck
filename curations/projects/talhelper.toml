@@ -1,0 +1,9 @@
+id = 'talhelper'
+name = 'talhelper'
+
+homepage = 'https://budimanjojo.github.io/talhelper/latest'
+repository = 'https://github.com/budimanjojo/talhelper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/talhelper'

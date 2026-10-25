@@ -1,0 +1,8 @@
+id = 'typesetter'
+name = 'typesetter'
+
+homepage = 'https://codeberg.org/haydn/typesetter'
+
+[[package]]
+channel = 'arch'
+name = 'typesetter'

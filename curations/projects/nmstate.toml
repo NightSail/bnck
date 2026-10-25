@@ -1,0 +1,8 @@
+id = 'nmstate'
+name = 'nmstate'
+
+homepage = 'https://github.com/nmstate/nmstate'
+
+[[package]]
+channel = 'fedora'
+name = 'nmstate'

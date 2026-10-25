@@ -1,0 +1,8 @@
+id = 'voa'
+name = 'voa'
+
+homepage = 'https://voa.archlinux.page'
+
+[[package]]
+channel = 'arch'
+name = 'voa'

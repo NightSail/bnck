@@ -1,0 +1,9 @@
+id = 'ytt'
+name = 'ytt'
+
+homepage = 'https://carvel.dev/ytt'
+repository = 'https://github.com/carvel-dev/ytt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ytt'

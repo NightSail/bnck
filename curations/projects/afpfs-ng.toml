@@ -1,0 +1,8 @@
+id = 'afpfs-ng'
+name = 'afpfs-ng'
+
+homepage = 'http://alexthepuffin.googlepages.com'
+
+[[package]]
+channel = 'arch'
+name = 'afpfs-ng'

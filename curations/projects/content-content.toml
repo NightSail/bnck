@@ -1,0 +1,12 @@
+id = 'content-content'
+name = 'content'
+
+homepage = 'https://www.opencascade.com/content/overview'
+
+[[package]]
+channel = 'fedora'
+name = 'opencascade-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'opencascade-draw'

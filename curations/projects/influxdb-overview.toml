@@ -1,0 +1,12 @@
+id = 'influxdb-overview'
+name = 'influxdb-overview'
+
+homepage = 'https://www.influxdata.com/products/influxdb-overview'
+
+[[package]]
+channel = 'debian'
+name = 'influxdb'
+
+[[package]]
+channel = 'debian'
+name = 'influxdb-client'

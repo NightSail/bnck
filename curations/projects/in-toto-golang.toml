@@ -1,0 +1,8 @@
+id = 'in-toto-golang'
+name = 'in-toto-golang'
+
+homepage = 'https://github.com/in-toto/in-toto-golang'
+
+[[package]]
+channel = 'debian'
+name = 'in-toto-golang'

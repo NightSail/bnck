@@ -1,0 +1,16 @@
+id = 'seatd'
+name = 'seatd'
+
+homepage = 'https://sr.ht/~kennylevinsen/seatd'
+
+[[package]]
+channel = 'arch'
+name = 'seatd'
+
+[[package]]
+channel = 'debian'
+name = 'seatd'
+
+[[package]]
+channel = 'fedora'
+name = 'seatd'

@@ -1,0 +1,8 @@
+id = 'haskell-crypton-socks'
+name = 'haskell-crypton-socks'
+
+homepage = 'http://github.com/mpilgrem/crypton-socks'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-crypton-socks'

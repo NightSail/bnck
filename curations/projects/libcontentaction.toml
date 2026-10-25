@@ -1,0 +1,8 @@
+id = 'libcontentaction'
+name = 'libcontentaction'
+
+homepage = 'https://github.com/sailfishos/libcontentaction'
+
+[[package]]
+channel = 'arch'
+name = 'libcontentaction'

@@ -1,0 +1,8 @@
+id = 'libmp4v2'
+name = 'libmp4v2'
+
+homepage = 'http://code.google.com/p/mp4v2'
+
+[[package]]
+channel = 'fedora'
+name = 'libmp4v2'

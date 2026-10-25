@@ -1,0 +1,8 @@
+id = 'bolzplatz2006'
+name = 'bolzplatz2006'
+
+homepage = 'http://www.bolzplatz2006.de'
+
+[[package]]
+channel = 'fedora'
+name = 'bolzplatz2006'

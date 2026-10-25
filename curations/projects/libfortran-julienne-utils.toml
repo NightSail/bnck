@@ -1,0 +1,8 @@
+id = 'libfortran-julienne-utils'
+name = 'libfortran-julienne-utils'
+
+homepage = 'https://github.com/berkeleylab/julienne'
+
+[[package]]
+channel = 'debian'
+name = 'libfortran-julienne-utils'

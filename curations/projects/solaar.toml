@@ -1,0 +1,16 @@
+id = 'solaar'
+name = 'solaar'
+
+homepage = 'https://pwr-solaar.github.io/Solaar'
+
+[[package]]
+channel = 'arch'
+name = 'solaar'
+
+[[package]]
+channel = 'debian'
+name = 'solaar'
+
+[[package]]
+channel = 'fedora'
+name = 'solaar'

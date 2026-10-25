@@ -1,0 +1,8 @@
+id = 'gcviewer'
+name = 'gcviewer'
+
+homepage = 'https://github.com/chewiebug/GCViewer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcviewer'

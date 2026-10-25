@@ -1,0 +1,8 @@
+id = 'hatch-hatch'
+name = 'hatch'
+
+homepage = 'https://hatch.pypa.io/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hatch'

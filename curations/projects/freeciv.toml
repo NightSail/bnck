@@ -1,0 +1,37 @@
+id = 'freeciv'
+name = 'freeciv'
+
+homepage = 'https://www.freeciv.org'
+repository = 'https://github.com/freeciv/freeciv.git'
+
+[[package]]
+channel = 'arch'
+name = 'freeciv-common'
+
+[[package]]
+channel = 'arch'
+name = 'freeciv-gtk3'
+
+[[package]]
+channel = 'arch'
+name = 'freeciv-gtk4'
+
+[[package]]
+channel = 'arch'
+name = 'freeciv-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'freeciv-common'
+
+[[package]]
+channel = 'fedora'
+name = 'freeciv-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'freeciv-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freeciv'

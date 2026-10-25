@@ -1,0 +1,16 @@
+id = 'gts'
+name = 'gts'
+
+homepage = 'https://gts.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gts'
+
+[[package]]
+channel = 'debian'
+name = 'libgts-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gts'

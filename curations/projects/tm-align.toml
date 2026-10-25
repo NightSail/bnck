@@ -1,0 +1,8 @@
+id = 'tm-align'
+name = 'tm-align'
+
+homepage = 'https://zhanglab.ccmb.med.umich.edu/TM-align'
+
+[[package]]
+channel = 'debian'
+name = 'tm-align'

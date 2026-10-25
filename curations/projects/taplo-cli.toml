@@ -1,0 +1,8 @@
+id = 'taplo-cli'
+name = 'taplo-cli'
+
+homepage = 'https://taplo.tamasfe.dev/cli/introduction.html'
+
+[[package]]
+channel = 'arch'
+name = 'taplo-cli'

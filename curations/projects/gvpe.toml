@@ -1,0 +1,8 @@
+id = 'gvpe'
+name = 'gvpe'
+
+homepage = 'http://software.schmorp.de/pkg/gvpe.html'
+
+[[package]]
+channel = 'debian'
+name = 'gvpe'

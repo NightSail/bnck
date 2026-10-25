@@ -1,0 +1,8 @@
+id = 'python3-bincopy'
+name = 'python3-bincopy'
+
+homepage = 'https://github.com/eerimoq/bincopy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bincopy'

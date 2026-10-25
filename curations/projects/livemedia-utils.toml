@@ -1,0 +1,8 @@
+id = 'livemedia-utils'
+name = 'livemedia-utils'
+
+homepage = 'http://live555.com'
+
+[[package]]
+channel = 'debian'
+name = 'livemedia-utils'

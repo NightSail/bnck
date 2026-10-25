@@ -1,0 +1,8 @@
+id = 'hayagriva'
+name = 'hayagriva'
+
+repository = 'https://github.com/typst/hayagriva.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hayagriva'

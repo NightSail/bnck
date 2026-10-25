@@ -10,3 +10,11 @@ name = 'memray'
 [[package]]
 channel = 'debian'
 name = 'python3-memray'
+
+[[package]]
+channel = 'fedora'
+name = 'memray'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/memray'

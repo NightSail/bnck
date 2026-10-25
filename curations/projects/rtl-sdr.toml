@@ -1,0 +1,16 @@
+id = 'rtl-sdr'
+name = 'rtl-sdr'
+
+homepage = 'https://osmocom.org/projects/rtl-sdr/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'rtl-sdr'
+
+[[package]]
+channel = 'debian'
+name = 'rtl-sdr'
+
+[[package]]
+channel = 'fedora'
+name = 'rtl-sdr'

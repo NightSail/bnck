@@ -1,0 +1,16 @@
+id = 'attr'
+name = 'attr'
+
+homepage = 'https://savannah.nongnu.org/projects/attr'
+
+[[package]]
+channel = 'arch'
+name = 'attr'
+
+[[package]]
+channel = 'debian'
+name = 'attr'
+
+[[package]]
+channel = 'fedora'
+name = 'attr'

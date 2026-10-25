@@ -1,0 +1,8 @@
+id = 'stdoutisatty'
+name = 'stdoutisatty'
+
+homepage = 'https://github.com/lilydjwg/stdoutisatty'
+
+[[package]]
+channel = 'arch'
+name = 'stdoutisatty'

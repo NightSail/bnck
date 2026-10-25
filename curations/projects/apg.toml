@@ -1,0 +1,10 @@
+id = 'apg'
+name = 'apg'
+
+[[package]]
+channel = 'debian'
+name = 'apg'
+
+[[package]]
+channel = 'fedora'
+name = 'apg'

@@ -1,0 +1,8 @@
+id = 'pythonprop'
+name = 'pythonprop'
+
+homepage = 'https://www.qsl.net/hz1jw/pythonprop/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'pythonprop'

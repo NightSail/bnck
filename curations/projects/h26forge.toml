@@ -1,0 +1,8 @@
+id = 'h26forge'
+name = 'h26forge'
+
+homepage = 'https://github.com/h26forge/h26forge'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/h26forge'

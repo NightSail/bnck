@@ -1,0 +1,8 @@
+id = 'darkradiant'
+name = 'darkradiant'
+
+homepage = 'http://darkradiant.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'darkradiant'

@@ -1,0 +1,12 @@
+id = 'string-shellquote'
+name = 'String-ShellQuote'
+
+homepage = 'https://metacpan.org/release/String-ShellQuote'
+
+[[package]]
+channel = 'debian'
+name = 'libstring-shellquote-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-String-ShellQuote'

@@ -1,0 +1,8 @@
+id = 'dialign'
+name = 'dialign'
+
+homepage = 'https://dialign.gobics.de'
+
+[[package]]
+channel = 'debian'
+name = 'dialign'

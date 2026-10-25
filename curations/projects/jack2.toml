@@ -1,0 +1,12 @@
+id = 'jack2'
+name = 'jack2'
+
+homepage = 'https://github.com/jackaudio/jack2'
+
+[[package]]
+channel = 'arch'
+name = 'jack2'
+
+[[package]]
+channel = 'arch'
+name = 'jack2-dbus'

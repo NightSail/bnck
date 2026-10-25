@@ -1,0 +1,8 @@
+id = 'rubypick'
+name = 'rubypick'
+
+homepage = 'https://github.com/fedora-ruby/rubypick'
+
+[[package]]
+channel = 'fedora'
+name = 'rubypick'

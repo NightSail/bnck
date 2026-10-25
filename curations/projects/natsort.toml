@@ -1,0 +1,16 @@
+id = 'natsort'
+name = 'natsort'
+
+homepage = 'https://github.com/SethMMorton/natsort'
+
+[[package]]
+channel = 'arch'
+name = 'python-natsort'
+
+[[package]]
+channel = 'debian'
+name = 'python3-natsort'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-natsort'

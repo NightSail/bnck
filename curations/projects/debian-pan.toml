@@ -1,0 +1,72 @@
+id = 'debian-pan'
+name = 'debian-pan'
+
+homepage = 'https://wiki.debian.org/DebianPAN'
+
+[[package]]
+channel = 'debian'
+name = 'pan-coherent-diffraction'
+
+[[package]]
+channel = 'debian'
+name = 'pan-config'
+
+[[package]]
+channel = 'debian'
+name = 'pan-control-systems'
+
+[[package]]
+channel = 'debian'
+name = 'pan-control-systems-dev'
+
+[[package]]
+channel = 'debian'
+name = 'pan-data-reduction-frameworks'
+
+[[package]]
+channel = 'debian'
+name = 'pan-data-reduction-frameworks-dev'
+
+[[package]]
+channel = 'debian'
+name = 'pan-diffraction'
+
+[[package]]
+channel = 'debian'
+name = 'pan-grazing-incidence'
+
+[[package]]
+channel = 'debian'
+name = 'pan-imaging'
+
+[[package]]
+channel = 'debian'
+name = 'pan-machine-learning'
+
+[[package]]
+channel = 'debian'
+name = 'pan-modelling'
+
+[[package]]
+channel = 'debian'
+name = 'pan-mx'
+
+[[package]]
+channel = 'debian'
+name = 'pan-powder'
+
+[[package]]
+channel = 'debian'
+name = 'pan-small-angle-scattering'
+
+[[package]]
+channel = 'debian'
+name = 'pan-spectroscopy'
+
+[[package]]
+channel = 'debian'
+name = 'pan-tomography'
+
+[[package]]
+channel = 'debian'
+name = 'pan-xas'

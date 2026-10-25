@@ -1,0 +1,12 @@
+id = 'darkice'
+name = 'darkice'
+
+homepage = 'http://www.darkice.org'
+
+[[package]]
+channel = 'debian'
+name = 'darkice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/darkice'

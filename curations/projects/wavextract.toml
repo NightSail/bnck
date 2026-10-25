@@ -1,0 +1,8 @@
+id = 'wavextract'
+name = 'wavextract'
+
+homepage = 'http://developer.berlios.de/projects/wavextract'
+
+[[package]]
+channel = 'fedora'
+name = 'wavextract'

@@ -1,0 +1,12 @@
+id = 'rtl-wmbus'
+name = 'rtl-wmbus'
+
+homepage = 'https://github.com/xaelsouth/rtl-wmbus'
+
+[[package]]
+channel = 'debian'
+name = 'rtl-wmbus'
+
+[[package]]
+channel = 'fedora'
+name = 'rtl-wmbus'

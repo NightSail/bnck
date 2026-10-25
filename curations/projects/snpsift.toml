@@ -1,0 +1,8 @@
+id = 'snpsift'
+name = 'snpsift'
+
+homepage = 'https://pcingola.github.io/SnpEff/ss_introduction'
+
+[[package]]
+channel = 'debian'
+name = 'snpsift'

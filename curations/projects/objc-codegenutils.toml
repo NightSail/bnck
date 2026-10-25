@@ -1,0 +1,8 @@
+id = 'objc-codegenutils'
+name = 'objc-codegenutils'
+
+repository = 'https://github.com/puls/objc-codegenutils.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/objc-codegenutils'

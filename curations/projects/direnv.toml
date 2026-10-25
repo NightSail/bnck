@@ -4,6 +4,14 @@ name = 'direnv'
 repository = 'https://github.com/direnv/direnv'
 
 [[package]]
+channel = 'arch'
+name = 'direnv'
+
+[[package]]
+channel = 'debian'
+name = 'direnv'
+
+[[package]]
 channel = 'fedora'
 name = 'direnv'
 

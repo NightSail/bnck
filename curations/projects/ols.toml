@@ -1,0 +1,20 @@
+id = 'ols'
+name = 'ols'
+
+homepage = 'https://github.com/DanielGavin/ols'
+
+[[package]]
+channel = 'arch'
+name = 'odinfmt'
+
+[[package]]
+channel = 'arch'
+name = 'ols'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/odinfmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ols'

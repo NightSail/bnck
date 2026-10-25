@@ -1,0 +1,6 @@
+id = 'g2p-sk'
+name = 'g2p-sk'
+
+[[package]]
+channel = 'debian'
+name = 'g2p-sk'

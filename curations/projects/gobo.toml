@@ -1,0 +1,8 @@
+id = 'gobo'
+name = 'gobo'
+
+homepage = 'https://www.gobosoft.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gobo'

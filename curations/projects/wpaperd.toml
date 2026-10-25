@@ -1,0 +1,8 @@
+id = 'wpaperd'
+name = 'wpaperd'
+
+homepage = 'https://github.com/danyspin97/wpaperd'
+
+[[package]]
+channel = 'arch'
+name = 'wpaperd'

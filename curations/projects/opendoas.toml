@@ -1,0 +1,16 @@
+id = 'opendoas'
+name = 'opendoas'
+
+homepage = 'https://github.com/Duncaen/OpenDoas'
+
+[[package]]
+channel = 'arch'
+name = 'opendoas'
+
+[[package]]
+channel = 'debian'
+name = 'opendoas'
+
+[[package]]
+channel = 'fedora'
+name = 'opendoas'

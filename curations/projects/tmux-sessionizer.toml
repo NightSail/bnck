@@ -1,0 +1,8 @@
+id = 'tmux-sessionizer'
+name = 'tmux-sessionizer'
+
+homepage = 'https://github.com/jrmoulton/tmux-sessionizer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmux-sessionizer'

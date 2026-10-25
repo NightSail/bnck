@@ -1,0 +1,12 @@
+id = 'electrum-aionostr'
+name = 'electrum-aionostr'
+
+homepage = 'https://github.com/spesmilo/electrum-aionostr'
+
+[[package]]
+channel = 'arch'
+name = 'python-electrum-aionostr'
+
+[[package]]
+channel = 'debian'
+name = 'aionostr'

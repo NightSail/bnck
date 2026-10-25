@@ -1,0 +1,8 @@
+id = 'pv-migrate'
+name = 'pv-migrate'
+
+repository = 'https://github.com/utkuozdemir/pv-migrate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pv-migrate'

@@ -1,0 +1,8 @@
+id = 'pantheon-print'
+name = 'pantheon-print'
+
+homepage = 'https://github.com/elementary/pantheon-print'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-print'

@@ -1,0 +1,9 @@
+id = 'wxmaxima'
+name = 'wxmaxima'
+
+homepage = 'https://wxmaxima-developers.github.io/wxmaxima'
+repository = 'https://github.com/wxMaxima-developers/wxmaxima.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wxmaxima'

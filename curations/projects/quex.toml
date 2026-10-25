@@ -1,0 +1,9 @@
+id = 'quex'
+name = 'quex'
+
+homepage = 'https://quex.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/quex/code/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quex'

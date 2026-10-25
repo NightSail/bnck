@@ -1,0 +1,13 @@
+id = 'bamtools'
+name = 'bamtools'
+
+homepage = 'https://github.com/pezmaster31/bamtools/wiki'
+repository = 'https://github.com/pezmaster31/bamtools.git'
+
+[[package]]
+channel = 'debian'
+name = 'bamtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bamtools'

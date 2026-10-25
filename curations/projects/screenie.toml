@@ -1,0 +1,8 @@
+id = 'screenie'
+name = 'screenie'
+
+homepage = 'http://screenie.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'screenie'

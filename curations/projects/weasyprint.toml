@@ -1,0 +1,16 @@
+id = 'weasyprint'
+name = 'weasyprint'
+
+homepage = 'https://weasyprint.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-weasyprint'
+
+[[package]]
+channel = 'debian'
+name = 'weasyprint'
+
+[[package]]
+channel = 'fedora'
+name = 'weasyprint'

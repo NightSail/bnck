@@ -1,0 +1,12 @@
+id = 'tippecanoe'
+name = 'tippecanoe'
+
+homepage = 'https://github.com/felt/tippecanoe'
+
+[[package]]
+channel = 'debian'
+name = 'tippecanoe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tippecanoe'

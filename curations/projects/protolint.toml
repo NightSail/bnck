@@ -1,0 +1,8 @@
+id = 'protolint'
+name = 'protolint'
+
+repository = 'https://github.com/yoheimuta/protolint.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protolint'

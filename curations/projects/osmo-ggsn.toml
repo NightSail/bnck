@@ -1,0 +1,8 @@
+id = 'osmo-ggsn'
+name = 'osmo-ggsn'
+
+homepage = 'https://projects.osmocom.org/projects/openggsn'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-ggsn'

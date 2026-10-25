@@ -1,0 +1,8 @@
+id = 'pict'
+name = 'pict'
+
+homepage = 'https://github.com/Microsoft/pict'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pict'

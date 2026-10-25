@@ -1,0 +1,8 @@
+id = 'fprobe-ulog'
+name = 'fprobe-ulog'
+
+homepage = 'https://github.com/opoplawski/fprobe-ulog'
+
+[[package]]
+channel = 'fedora'
+name = 'fprobe-ulog'

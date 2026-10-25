@@ -1,0 +1,8 @@
+id = 'spago'
+name = 'spago'
+
+repository = 'https://github.com/purescript/spago.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spago'

@@ -1,0 +1,8 @@
+id = 'zigmod'
+name = 'zigmod'
+
+homepage = 'https://nektro.github.io/zigmod'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zigmod'

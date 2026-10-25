@@ -1,0 +1,8 @@
+id = 'pygtail'
+name = 'pygtail'
+
+homepage = 'https://github.com/bgreenlee/pygtail'
+
+[[package]]
+channel = 'debian'
+name = 'pygtail'

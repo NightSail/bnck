@@ -1,0 +1,8 @@
+id = 'ceph-iscsi'
+name = 'ceph-iscsi'
+
+homepage = 'https://github.com/ceph/ceph-iscsi'
+
+[[package]]
+channel = 'debian'
+name = 'ceph-iscsi'

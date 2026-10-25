@@ -1,0 +1,8 @@
+id = 'alp'
+name = 'alp'
+
+repository = 'https://github.com/tkuchiki/alp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alp'

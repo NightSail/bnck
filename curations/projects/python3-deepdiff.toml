@@ -1,0 +1,6 @@
+id = 'python3-deepdiff'
+name = 'python3-deepdiff'
+
+[[package]]
+channel = 'debian'
+name = 'python3-deepdiff'

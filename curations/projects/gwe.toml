@@ -1,0 +1,8 @@
+id = 'gwe'
+name = 'gwe'
+
+homepage = 'https://gitlab.com/leinardi/gwe'
+
+[[package]]
+channel = 'fedora'
+name = 'gwe'

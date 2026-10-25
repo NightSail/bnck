@@ -1,0 +1,6 @@
+id = 'mccs'
+name = 'mccs'
+
+[[package]]
+channel = 'debian'
+name = 'mccs'

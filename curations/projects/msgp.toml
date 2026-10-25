@@ -1,0 +1,12 @@
+id = 'msgp'
+name = 'msgp'
+
+homepage = 'https://github.com/tinylib/msgp'
+
+[[package]]
+channel = 'debian'
+name = 'msgp'
+
+[[package]]
+channel = 'fedora'
+name = 'msgp'

@@ -1,0 +1,9 @@
+id = 'autobrr'
+name = 'autobrr'
+
+homepage = 'https://autobrr.com'
+repository = 'https://github.com/autobrr/autobrr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autobrr'

@@ -1,0 +1,10 @@
+id = 'setserial'
+name = 'setserial'
+
+[[package]]
+channel = 'debian'
+name = 'setserial'
+
+[[package]]
+channel = 'fedora'
+name = 'setserial'

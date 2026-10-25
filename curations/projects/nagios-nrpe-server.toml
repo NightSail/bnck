@@ -1,0 +1,8 @@
+id = 'nagios-nrpe-server'
+name = 'nagios-nrpe-server'
+
+homepage = 'https://github.com/NagiosEnterprises/nrpe'
+
+[[package]]
+channel = 'debian'
+name = 'nagios-nrpe-server'

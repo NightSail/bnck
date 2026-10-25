@@ -1,0 +1,8 @@
+id = 'shfs-utils'
+name = 'shfs-utils'
+
+homepage = 'http://shfs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'shfs-utils'

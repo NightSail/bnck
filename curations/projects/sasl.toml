@@ -1,0 +1,28 @@
+id = 'sasl'
+name = 'sasl'
+
+homepage = 'https://www.cyrusimap.org/sasl'
+
+[[package]]
+channel = 'arch'
+name = 'cyrus-sasl'
+
+[[package]]
+channel = 'arch'
+name = 'libsasl'
+
+[[package]]
+channel = 'debian'
+name = 'sasl2-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-sasl'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-sasl-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'cyrus-sasl-lib'

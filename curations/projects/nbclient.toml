@@ -1,0 +1,12 @@
+id = 'nbclient'
+name = 'nbclient'
+
+homepage = 'https://github.com/jupyter/nbclient'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-nbclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nbclient'

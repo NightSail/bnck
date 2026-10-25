@@ -1,0 +1,8 @@
+id = 'multimail'
+name = 'multimail'
+
+homepage = 'https://wmcbrine.com/MultiMail'
+
+[[package]]
+channel = 'debian'
+name = 'multimail'

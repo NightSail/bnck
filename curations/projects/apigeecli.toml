@@ -1,0 +1,9 @@
+id = 'apigeecli'
+name = 'apigeecli'
+
+homepage = 'https://cloud.google.com/apigee/docs'
+repository = 'https://github.com/apigee/apigeecli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apigeecli'

@@ -1,0 +1,8 @@
+id = 'ratpoints'
+name = 'ratpoints'
+
+homepage = 'https://www.mathe2.uni-bayreuth.de/stoll/programs'
+
+[[package]]
+channel = 'debian'
+name = 'ratpoints'

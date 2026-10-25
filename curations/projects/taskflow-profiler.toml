@@ -1,0 +1,8 @@
+id = 'taskflow-profiler'
+name = 'taskflow-profiler'
+
+homepage = 'https://taskflow.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'taskflow-profiler'

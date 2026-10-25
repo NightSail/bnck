@@ -1,0 +1,8 @@
+id = 'libfishsound-tools'
+name = 'libfishsound-tools'
+
+homepage = 'http://www.xiph.org/fishsound'
+
+[[package]]
+channel = 'fedora'
+name = 'libfishsound-tools'

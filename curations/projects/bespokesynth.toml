@@ -1,0 +1,12 @@
+id = 'bespokesynth'
+name = 'bespokesynth'
+
+homepage = 'https://www.bespokesynth.com'
+
+[[package]]
+channel = 'arch'
+name = 'bespokesynth'
+
+[[package]]
+channel = 'debian'
+name = 'bespokesynth'

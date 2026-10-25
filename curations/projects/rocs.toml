@@ -1,0 +1,16 @@
+id = 'rocs'
+name = 'rocs'
+
+homepage = 'https://apps.kde.org/rocs'
+
+[[package]]
+channel = 'arch'
+name = 'rocs'
+
+[[package]]
+channel = 'debian'
+name = 'rocs'
+
+[[package]]
+channel = 'fedora'
+name = 'rocs'

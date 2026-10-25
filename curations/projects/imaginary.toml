@@ -1,0 +1,12 @@
+id = 'imaginary'
+name = 'imaginary'
+
+homepage = 'https://github.com/h2non/imaginary'
+
+[[package]]
+channel = 'arch'
+name = 'imaginary'
+
+[[package]]
+channel = 'debian'
+name = 'imaginary'

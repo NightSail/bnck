@@ -1,0 +1,8 @@
+id = 'python3-hassil'
+name = 'python3-hassil'
+
+homepage = 'https://github.com/home-assistant/hassil'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hassil'

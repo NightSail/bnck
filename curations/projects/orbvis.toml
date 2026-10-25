@@ -1,0 +1,8 @@
+id = 'orbvis'
+name = 'orbvis'
+
+homepage = 'https://github.com/wojciech-graj/OrbVis'
+
+[[package]]
+channel = 'debian'
+name = 'orbvis'

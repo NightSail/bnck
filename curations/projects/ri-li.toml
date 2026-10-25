@@ -1,0 +1,8 @@
+id = 'ri-li'
+name = 'Ri-li'
+
+homepage = 'http://ri-li.sourceforge.net/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'Ri-li'

@@ -1,0 +1,8 @@
+id = 'simstring-bin'
+name = 'simstring-bin'
+
+homepage = 'http://www.chokkan.org/software/simstring/index.html.en'
+
+[[package]]
+channel = 'debian'
+name = 'simstring-bin'

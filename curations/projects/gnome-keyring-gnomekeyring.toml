@@ -1,0 +1,8 @@
+id = 'gnome-keyring-gnomekeyring'
+name = 'gnome-keyring'
+
+homepage = 'https://wiki.gnome.org/GnomeKeyring'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-keyring'

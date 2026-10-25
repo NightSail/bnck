@@ -1,0 +1,8 @@
+id = 'lomiri-camerascanner-app'
+name = 'lomiri-camerascanner-app'
+
+homepage = 'https://open-store.io/app/camerascanner.jonnius'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-camerascanner-app'

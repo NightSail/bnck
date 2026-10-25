@@ -1,0 +1,8 @@
+id = 'fastml'
+name = 'fastml'
+
+homepage = 'http://fastml.tau.ac.il'
+
+[[package]]
+channel = 'debian'
+name = 'fastml'

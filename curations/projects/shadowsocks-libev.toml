@@ -4,5 +4,9 @@ name = 'shadowsocks-libev'
 repository = 'https://github.com/shadowsocks/shadowsocks-libev'
 
 [[package]]
+channel = 'debian'
+name = 'shadowsocks-libev'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/shadowsocks-libev'

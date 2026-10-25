@@ -1,0 +1,9 @@
+id = 'cloudprober'
+name = 'cloudprober'
+
+homepage = 'https://cloudprober.org'
+repository = 'https://github.com/cloudprober/cloudprober.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudprober'

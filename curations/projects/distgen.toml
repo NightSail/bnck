@@ -1,0 +1,8 @@
+id = 'distgen'
+name = 'distgen'
+
+homepage = 'https://github.com/devexp-db/distgen'
+
+[[package]]
+channel = 'fedora'
+name = 'distgen'

@@ -1,0 +1,9 @@
+id = 'dagu'
+name = 'dagu'
+
+homepage = 'https://dagu.sh'
+repository = 'https://github.com/dagucloud/dagu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dagu'

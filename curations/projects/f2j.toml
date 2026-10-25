@@ -1,0 +1,8 @@
+id = 'f2j'
+name = 'f2j'
+
+homepage = 'http://sourceforge.net/projects/f2j'
+
+[[package]]
+channel = 'debian'
+name = 'f2j'

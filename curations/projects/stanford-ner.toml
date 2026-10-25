@@ -1,0 +1,8 @@
+id = 'stanford-ner'
+name = 'stanford-ner'
+
+homepage = 'https://nlp.stanford.edu/software/CRF-NER.shtml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stanford-ner'

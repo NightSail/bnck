@@ -1,0 +1,8 @@
+id = 'python3-fiona'
+name = 'python3-fiona'
+
+homepage = 'https://fiona.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fiona'

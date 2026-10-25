@@ -1,0 +1,8 @@
+id = 'md2term'
+name = 'md2term'
+
+homepage = 'https://codeberg.org/blau_araujo/md2term'
+
+[[package]]
+channel = 'debian'
+name = 'md2term'

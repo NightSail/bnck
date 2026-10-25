@@ -1,0 +1,8 @@
+id = 'subunit-subunit'
+name = 'subunit'
+
+homepage = 'https://code.launchpad.net/subunit'
+
+[[package]]
+channel = 'debian'
+name = 'subunit'

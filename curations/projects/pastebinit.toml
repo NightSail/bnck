@@ -1,0 +1,21 @@
+id = 'pastebinit'
+name = 'pastebinit'
+
+homepage = 'https://launchpad.net/pastebinit'
+repository = 'https://github.com/pastebinit/pastebinit.git'
+
+[[package]]
+channel = 'arch'
+name = 'pastebinit'
+
+[[package]]
+channel = 'debian'
+name = 'pastebinit'
+
+[[package]]
+channel = 'fedora'
+name = 'pastebinit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pastebinit'

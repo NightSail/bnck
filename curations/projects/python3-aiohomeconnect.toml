@@ -1,0 +1,8 @@
+id = 'python3-aiohomeconnect'
+name = 'python3-aiohomeconnect'
+
+homepage = 'https://github.com/MartinHjelmare/aiohomeconnect'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiohomeconnect'

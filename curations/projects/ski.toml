@@ -1,0 +1,13 @@
+id = 'ski'
+name = 'ski'
+
+homepage = 'https://github.com/trofi/ski'
+repository = 'https://gitlab.com/esr/ski.git'
+
+[[package]]
+channel = 'fedora'
+name = 'ski'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ski'

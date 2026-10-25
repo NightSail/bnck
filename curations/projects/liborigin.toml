@@ -1,0 +1,16 @@
+id = 'liborigin'
+name = 'liborigin'
+
+homepage = 'https://sourceforge.net/projects/liborigin'
+
+[[package]]
+channel = 'arch'
+name = 'liborigin'
+
+[[package]]
+channel = 'fedora'
+name = 'liborigin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liborigin'

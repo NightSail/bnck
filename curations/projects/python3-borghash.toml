@@ -1,0 +1,8 @@
+id = 'python3-borghash'
+name = 'python3-borghash'
+
+homepage = 'https://github.com/borgbackup/borghash'
+
+[[package]]
+channel = 'debian'
+name = 'python3-borghash'

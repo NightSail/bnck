@@ -1,0 +1,8 @@
+id = 'somo'
+name = 'somo'
+
+homepage = 'https://github.com/theopfr/somo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/somo'

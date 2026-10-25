@@ -1,0 +1,12 @@
+id = 'unison-bcpierce'
+name = 'unison'
+
+homepage = 'http://www.cis.upenn.edu/~bcpierce/unison'
+
+[[package]]
+channel = 'debian'
+name = 'unison-2.53'
+
+[[package]]
+channel = 'debian'
+name = 'unison-2.53-gtk'

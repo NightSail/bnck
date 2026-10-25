@@ -1,0 +1,24 @@
+id = 'xterm'
+name = 'xterm'
+
+homepage = 'https://invisible-island.net/xterm'
+
+[[package]]
+channel = 'arch'
+name = 'xterm'
+
+[[package]]
+channel = 'debian'
+name = 'colortest'
+
+[[package]]
+channel = 'fedora'
+name = 'xterm'
+
+[[package]]
+channel = 'fedora'
+name = 'xterm-resize'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xterm'

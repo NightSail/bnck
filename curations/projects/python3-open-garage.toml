@@ -1,0 +1,8 @@
+id = 'python3-open-garage'
+name = 'python3-open-garage'
+
+homepage = 'https://github.com/Danielhiversen/pyOpenGarage'
+
+[[package]]
+channel = 'debian'
+name = 'python3-open-garage'

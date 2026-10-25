@@ -1,0 +1,16 @@
+id = 'gdk-pixbuf'
+name = 'gdk-pixbuf'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gdk-pixbuf'
+
+[[package]]
+channel = 'arch'
+name = 'gdk-pixbuf2'
+
+[[package]]
+channel = 'fedora'
+name = 'gdk-pixbuf2'
+
+[[package]]
+channel = 'fedora'
+name = 'gdk-pixbuf2-devel'

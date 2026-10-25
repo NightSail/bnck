@@ -1,0 +1,8 @@
+id = 'networkd-dispatcher'
+name = 'networkd-dispatcher'
+
+homepage = 'https://gitlab.com/craftyguy/networkd-dispatcher'
+
+[[package]]
+channel = 'debian'
+name = 'networkd-dispatcher'

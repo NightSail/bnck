@@ -1,0 +1,20 @@
+id = 'devicetree'
+name = 'devicetree'
+
+homepage = 'https://www.devicetree.org'
+
+[[package]]
+channel = 'arch'
+name = 'dtc'
+
+[[package]]
+channel = 'debian'
+name = 'dt-schema'
+
+[[package]]
+channel = 'fedora'
+name = 'dt-schema'
+
+[[package]]
+channel = 'fedora'
+name = 'dtc'

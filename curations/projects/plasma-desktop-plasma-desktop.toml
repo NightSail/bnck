@@ -1,0 +1,132 @@
+id = 'plasma-desktop-plasma-desktop'
+name = 'plasma-desktop'
+
+homepage = 'https://kde.org/plasma-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'bluedevil'
+
+[[package]]
+channel = 'arch'
+name = 'breeze'
+
+[[package]]
+channel = 'arch'
+name = 'cxx-rust-cssparser'
+
+[[package]]
+channel = 'arch'
+name = 'drkonqi'
+
+[[package]]
+channel = 'arch'
+name = 'kde-cli-tools'
+
+[[package]]
+channel = 'arch'
+name = 'kinfocenter'
+
+[[package]]
+channel = 'arch'
+name = 'kmenuedit'
+
+[[package]]
+channel = 'arch'
+name = 'krdp'
+
+[[package]]
+channel = 'arch'
+name = 'kscreen'
+
+[[package]]
+channel = 'arch'
+name = 'ksshaskpass'
+
+[[package]]
+channel = 'arch'
+name = 'ksystemstats'
+
+[[package]]
+channel = 'arch'
+name = 'kwin'
+
+[[package]]
+channel = 'arch'
+name = 'kwin-x11'
+
+[[package]]
+channel = 'arch'
+name = 'libkscreen'
+
+[[package]]
+channel = 'arch'
+name = 'libksysguard'
+
+[[package]]
+channel = 'arch'
+name = 'oxygen'
+
+[[package]]
+channel = 'arch'
+name = 'oxygen5'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-activities'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-browser-integration'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-keyboard'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-login-manager'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-sdk'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-welcome'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-workspace'
+
+[[package]]
+channel = 'arch'
+name = 'plymouth-kcm'
+
+[[package]]
+channel = 'arch'
+name = 'print-manager'
+
+[[package]]
+channel = 'arch'
+name = 'sddm-kcm'
+
+[[package]]
+channel = 'arch'
+name = 'spectacle'
+
+[[package]]
+channel = 'arch'
+name = 'systemsettings'
+
+[[package]]
+channel = 'arch'
+name = 'union'
+
+[[package]]
+channel = 'arch'
+name = 'wacomtablet'

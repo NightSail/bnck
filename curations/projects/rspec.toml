@@ -1,0 +1,12 @@
+id = 'rspec'
+name = 'rspec'
+
+homepage = 'https://rspec.info'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rspec-core'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rspec-core'

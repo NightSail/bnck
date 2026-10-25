@@ -1,0 +1,8 @@
+id = 'ruby-dotenv'
+name = 'ruby-dotenv'
+
+homepage = 'https://github.com/bkeepers/dotenv'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-dotenv'

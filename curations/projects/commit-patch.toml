@@ -1,0 +1,8 @@
+id = 'commit-patch'
+name = 'commit-patch'
+
+homepage = 'https://porkrind.org/commit-patch'
+
+[[package]]
+channel = 'debian'
+name = 'commit-patch'

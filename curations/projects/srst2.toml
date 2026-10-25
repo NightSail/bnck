@@ -1,0 +1,8 @@
+id = 'srst2'
+name = 'srst2'
+
+homepage = 'https://katholt.github.io/srst2'
+
+[[package]]
+channel = 'debian'
+name = 'srst2'

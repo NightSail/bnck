@@ -1,0 +1,16 @@
+id = 'kexec-tools'
+name = 'kexec-tools'
+
+homepage = 'https://kernel.org/pub/linux/utils/kernel/kexec'
+
+[[package]]
+channel = 'arch'
+name = 'kexec-tools'
+
+[[package]]
+channel = 'debian'
+name = 'kexec-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kexec-tools'

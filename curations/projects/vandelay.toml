@@ -1,0 +1,8 @@
+id = 'vandelay'
+name = 'vandelay'
+
+homepage = 'https://github.com/stalwartlabs/vandelay'
+
+[[package]]
+channel = 'arch'
+name = 'vandelay'

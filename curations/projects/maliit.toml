@@ -1,0 +1,16 @@
+id = 'maliit'
+name = 'maliit'
+
+homepage = 'https://maliit.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'maliit-framework'
+
+[[package]]
+channel = 'fedora'
+name = 'maliit-framework-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'maliit-keyboard'

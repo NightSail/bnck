@@ -1,0 +1,12 @@
+id = 'mackup'
+name = 'mackup'
+
+repository = 'https://github.com/lra/mackup.git'
+
+[[package]]
+channel = 'fedora'
+name = 'mackup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mackup'

@@ -1,0 +1,9 @@
+id = 'groestlcoin'
+name = 'groestlcoin'
+
+homepage = 'https://www.groestlcoin.org/groestlcoin-core-wallet'
+repository = 'https://github.com/groestlcoin/groestlcoin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/groestlcoin'

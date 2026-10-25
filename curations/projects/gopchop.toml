@@ -1,0 +1,8 @@
+id = 'gopchop'
+name = 'gopchop'
+
+homepage = 'http://gopchop.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gopchop'

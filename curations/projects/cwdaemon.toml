@@ -1,0 +1,10 @@
+id = 'cwdaemon'
+name = 'cwdaemon'
+
+[[package]]
+channel = 'debian'
+name = 'cwdaemon'
+
+[[package]]
+channel = 'fedora'
+name = 'cwdaemon'

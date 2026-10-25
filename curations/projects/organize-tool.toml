@@ -1,0 +1,8 @@
+id = 'organize-tool'
+name = 'organize-tool'
+
+repository = 'https://github.com/tfeldmann/organize.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/organize-tool'

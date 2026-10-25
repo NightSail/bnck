@@ -1,0 +1,8 @@
+id = 'aprx'
+name = 'aprx'
+
+homepage = 'https://thelifeofkenneth.com/aprx'
+
+[[package]]
+channel = 'debian'
+name = 'aprx'

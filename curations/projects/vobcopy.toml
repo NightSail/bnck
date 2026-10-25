@@ -1,0 +1,10 @@
+id = 'vobcopy'
+name = 'vobcopy'
+
+[[package]]
+channel = 'debian'
+name = 'vobcopy'
+
+[[package]]
+channel = 'fedora'
+name = 'vobcopy'

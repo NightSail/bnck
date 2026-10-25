@@ -1,0 +1,12 @@
+id = 'python3-dynaconf'
+name = 'python3-dynaconf'
+
+homepage = 'https://github.com/rochacbruno/dynaconf'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dynaconf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dynaconf'

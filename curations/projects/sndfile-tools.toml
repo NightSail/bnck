@@ -1,0 +1,12 @@
+id = 'sndfile-tools'
+name = 'sndfile-tools'
+
+homepage = 'http://www.mega-nerd.com/libsndfile/tools'
+
+[[package]]
+channel = 'debian'
+name = 'sndfile-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'sndfile-tools'

@@ -1,0 +1,16 @@
+id = 'jfsutils'
+name = 'jfsutils'
+
+homepage = 'http://jfs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'jfsutils'
+
+[[package]]
+channel = 'debian'
+name = 'jfsutils'
+
+[[package]]
+channel = 'fedora'
+name = 'jfsutils'

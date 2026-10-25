@@ -1,0 +1,17 @@
+id = 'bumblebee'
+name = 'bumblebee'
+
+homepage = 'http://www.bumblebee-project.org'
+repository = 'https://github.com/perplexityai/bumblebee.git'
+
+[[package]]
+channel = 'arch'
+name = 'bumblebee'
+
+[[package]]
+channel = 'debian'
+name = 'bumblebee'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bumblebee'

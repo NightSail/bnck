@@ -1,0 +1,8 @@
+id = 'ftpmirror'
+name = 'ftpmirror'
+
+homepage = 'ftp://ftp.sai.msu.su/pub/unix/FTP/mirror'
+
+[[package]]
+channel = 'debian'
+name = 'ftpmirror'

@@ -1,0 +1,8 @@
+id = 'gostatic'
+name = 'gostatic'
+
+repository = 'https://github.com/piranha/gostatic.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gostatic'

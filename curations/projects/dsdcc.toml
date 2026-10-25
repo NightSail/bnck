@@ -1,0 +1,12 @@
+id = 'dsdcc'
+name = 'dsdcc'
+
+homepage = 'https://github.com/f4exb/dsdcc'
+
+[[package]]
+channel = 'arch'
+name = 'dsdcc'
+
+[[package]]
+channel = 'debian'
+name = 'dsdcc'

@@ -1,0 +1,9 @@
+id = 'idris2'
+name = 'idris2'
+
+homepage = 'https://www.idris-lang.org'
+repository = 'https://github.com/idris-lang/Idris2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/idris2'

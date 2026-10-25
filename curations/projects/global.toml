@@ -1,0 +1,21 @@
+id = 'global'
+name = 'global'
+
+homepage = 'https://www.gnu.org/software/global'
+repository = ':pserver:anonymous:@cvs.savannah.gnu.org:/sources/global'
+
+[[package]]
+channel = 'arch'
+name = 'global'
+
+[[package]]
+channel = 'debian'
+name = 'global'
+
+[[package]]
+channel = 'fedora'
+name = 'global'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/global'

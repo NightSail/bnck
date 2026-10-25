@@ -1,0 +1,8 @@
+id = 'cyanrip'
+name = 'cyanrip'
+
+homepage = 'https://github.com/cyanreg/cyanrip'
+
+[[package]]
+channel = 'debian'
+name = 'cyanrip'

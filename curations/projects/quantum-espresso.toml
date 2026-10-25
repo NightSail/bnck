@@ -1,0 +1,12 @@
+id = 'quantum-espresso'
+name = 'quantum-espresso'
+
+homepage = 'http://www.quantum-espresso.org'
+
+[[package]]
+channel = 'debian'
+name = 'quantum-espresso'
+
+[[package]]
+channel = 'fedora'
+name = 'quantum-espresso'

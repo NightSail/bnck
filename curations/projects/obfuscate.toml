@@ -1,0 +1,12 @@
+id = 'obfuscate'
+name = 'obfuscate'
+
+homepage = 'https://apps.gnome.org/Obfuscate'
+
+[[package]]
+channel = 'arch'
+name = 'obfuscate'
+
+[[package]]
+channel = 'debian'
+name = 'obfuscate'

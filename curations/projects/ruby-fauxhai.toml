@@ -1,0 +1,8 @@
+id = 'ruby-fauxhai'
+name = 'ruby-fauxhai'
+
+homepage = 'https://github.com/chefspec/fauxhai'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-fauxhai'

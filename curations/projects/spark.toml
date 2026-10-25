@@ -1,0 +1,8 @@
+id = 'spark'
+name = 'spark'
+
+homepage = 'https://zachholman.com/spark'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spark'

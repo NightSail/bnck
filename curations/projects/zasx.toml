@@ -1,0 +1,8 @@
+id = 'zasx'
+name = 'zasx'
+
+homepage = 'https://www.allegro.cc/depot/Zasx'
+
+[[package]]
+channel = 'fedora'
+name = 'zasx'

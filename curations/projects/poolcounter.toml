@@ -1,0 +1,8 @@
+id = 'poolcounter'
+name = 'poolcounter'
+
+homepage = 'https://www.mediawiki.org/wiki/PoolCounter'
+
+[[package]]
+channel = 'debian'
+name = 'poolcounter'

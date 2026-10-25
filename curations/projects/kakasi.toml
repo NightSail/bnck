@@ -1,0 +1,24 @@
+id = 'kakasi'
+name = 'kakasi'
+
+homepage = 'http://kakasi.namazu.org'
+
+[[package]]
+channel = 'arch'
+name = 'kakasi'
+
+[[package]]
+channel = 'debian'
+name = 'kakasi'
+
+[[package]]
+channel = 'debian'
+name = 'libkakasi2-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'kakasi'
+
+[[package]]
+channel = 'fedora'
+name = 'kakasi-devel'

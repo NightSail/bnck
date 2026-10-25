@@ -1,0 +1,12 @@
+id = 'hollywood'
+name = 'hollywood'
+
+homepage = 'https://hollywood.computer'
+
+[[package]]
+channel = 'debian'
+name = 'hollywood'
+
+[[package]]
+channel = 'debian'
+name = 'wallstreet'

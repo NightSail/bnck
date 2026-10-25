@@ -1,0 +1,12 @@
+id = 'openfst'
+name = 'openfst'
+
+homepage = 'https://www.openfst.org'
+
+[[package]]
+channel = 'debian'
+name = 'libfst-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'openfst-tools'

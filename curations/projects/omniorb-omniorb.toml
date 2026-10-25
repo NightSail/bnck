@@ -1,0 +1,8 @@
+id = 'omniorb-omniorb'
+name = 'omniorb'
+
+homepage = 'https://omniorb.sourceforge.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/omniorb'

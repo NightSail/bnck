@@ -1,0 +1,8 @@
+id = 'ethstats'
+name = 'ethstats'
+
+homepage = 'https://devel.ringlet.net/net/ethstats'
+
+[[package]]
+channel = 'debian'
+name = 'ethstats'

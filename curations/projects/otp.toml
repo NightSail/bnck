@@ -1,0 +1,8 @@
+id = 'otp'
+name = 'otp'
+
+homepage = 'http://www.fourmilab.ch/onetime/otpgen.html'
+
+[[package]]
+channel = 'debian'
+name = 'otp'

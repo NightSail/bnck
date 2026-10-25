@@ -1,0 +1,8 @@
+id = 'swiftdraw'
+name = 'swiftdraw'
+
+repository = 'https://github.com/swhitty/SwiftDraw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swiftdraw'

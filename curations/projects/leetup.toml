@@ -1,0 +1,8 @@
+id = 'leetup'
+name = 'leetup'
+
+repository = 'https://github.com/dragfire/leetup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leetup'

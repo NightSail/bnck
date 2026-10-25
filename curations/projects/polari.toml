@@ -1,0 +1,16 @@
+id = 'polari'
+name = 'polari'
+
+homepage = 'https://apps.gnome.org/Polari'
+
+[[package]]
+channel = 'arch'
+name = 'polari'
+
+[[package]]
+channel = 'debian'
+name = 'polari'
+
+[[package]]
+channel = 'fedora'
+name = 'polari'

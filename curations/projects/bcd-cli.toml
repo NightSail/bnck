@@ -1,0 +1,8 @@
+id = 'bcd-cli'
+name = 'bcd-cli'
+
+homepage = 'https://github.com/superboubek/bcd'
+
+[[package]]
+channel = 'fedora'
+name = 'bcd-cli'

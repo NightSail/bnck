@@ -1,0 +1,8 @@
+id = 'dunesh'
+name = 'dunesh'
+
+homepage = 'https://github.com/adam-mcdaniel/dune'
+
+[[package]]
+channel = 'arch'
+name = 'dunesh'

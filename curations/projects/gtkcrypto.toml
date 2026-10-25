@@ -1,0 +1,8 @@
+id = 'gtkcrypto'
+name = 'gtkcrypto'
+
+homepage = 'https://github.com/paolostivanin/GTKCrypto'
+
+[[package]]
+channel = 'debian'
+name = 'gtkcrypto'

@@ -1,0 +1,8 @@
+id = 'docbook5-schemas'
+name = 'docbook5-schemas'
+
+homepage = 'http://www.oasis-open.org/docbook'
+
+[[package]]
+channel = 'fedora'
+name = 'docbook5-schemas'

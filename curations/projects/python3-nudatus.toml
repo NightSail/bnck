@@ -1,0 +1,12 @@
+id = 'python3-nudatus'
+name = 'python3-nudatus'
+
+homepage = 'https://github.com/ZanderBrown/nudatus'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nudatus'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nudatus'

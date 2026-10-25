@@ -1,0 +1,21 @@
+id = 'openjph'
+name = 'openjph'
+
+homepage = 'https://openjph.org'
+repository = 'https://github.com/aous72/OpenJPH.git'
+
+[[package]]
+channel = 'arch'
+name = 'openjph'
+
+[[package]]
+channel = 'debian'
+name = 'openjph-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'openjph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openjph'

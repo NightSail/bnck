@@ -1,0 +1,8 @@
+id = 'gatos'
+name = 'gatos'
+
+homepage = 'http://gatos.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gatos'

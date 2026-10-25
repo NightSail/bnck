@@ -1,0 +1,8 @@
+id = 'perl-devel-fastprof'
+name = 'perl-Devel-FastProf'
+
+homepage = 'https://metacpan.org/release/Devel-FastProf'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-FastProf'

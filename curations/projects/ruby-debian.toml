@@ -1,0 +1,6 @@
+id = 'ruby-debian'
+name = 'ruby-debian'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-debian'

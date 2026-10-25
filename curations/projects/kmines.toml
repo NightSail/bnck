@@ -1,0 +1,12 @@
+id = 'kmines'
+name = 'kmines'
+
+homepage = 'https://apps.kde.org/kmines'
+
+[[package]]
+channel = 'arch'
+name = 'kmines'
+
+[[package]]
+channel = 'fedora'
+name = 'kmines'

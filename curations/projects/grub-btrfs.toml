@@ -1,0 +1,8 @@
+id = 'grub-btrfs'
+name = 'grub-btrfs'
+
+homepage = 'https://github.com/Antynea/grub-btrfs'
+
+[[package]]
+channel = 'arch'
+name = 'grub-btrfs'

@@ -1,0 +1,16 @@
+id = 'topgit'
+name = 'topgit'
+
+homepage = 'https://repo.or.cz/topgit/pro.git'
+
+[[package]]
+channel = 'debian'
+name = 'topgit'
+
+[[package]]
+channel = 'fedora'
+name = 'topgit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/topgit'

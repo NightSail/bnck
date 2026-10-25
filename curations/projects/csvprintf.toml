@@ -1,0 +1,8 @@
+id = 'csvprintf'
+name = 'csvprintf'
+
+homepage = 'https://github.com/archiecobbs/csvprintf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csvprintf'

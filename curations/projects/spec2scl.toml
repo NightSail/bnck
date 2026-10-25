@@ -1,0 +1,8 @@
+id = 'spec2scl'
+name = 'spec2scl'
+
+homepage = 'https://github.com/sclorg/spec2scl'
+
+[[package]]
+channel = 'fedora'
+name = 'spec2scl'

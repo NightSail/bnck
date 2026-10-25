@@ -1,0 +1,8 @@
+id = 'did'
+name = 'did'
+
+homepage = 'https://github.com/psss/did'
+
+[[package]]
+channel = 'fedora'
+name = 'did'

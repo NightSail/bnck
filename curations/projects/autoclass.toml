@@ -1,0 +1,8 @@
+id = 'autoclass'
+name = 'autoclass'
+
+homepage = 'http://ti.arc.nasa.gov/tech/rse/synthesis-projects-applications/autoclass'
+
+[[package]]
+channel = 'debian'
+name = 'autoclass'

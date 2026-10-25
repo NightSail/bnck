@@ -1,0 +1,12 @@
+id = 'xml-tidy'
+name = 'XML-Tidy'
+
+homepage = 'https://metacpan.org/release/XML-Tidy'
+
+[[package]]
+channel = 'debian'
+name = 'libxml-tidy-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-Tidy'

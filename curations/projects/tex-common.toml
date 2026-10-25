@@ -1,0 +1,6 @@
+id = 'tex-common'
+name = 'tex-common'
+
+[[package]]
+channel = 'debian'
+name = 'tex-common'

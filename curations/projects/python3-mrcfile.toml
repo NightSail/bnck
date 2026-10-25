@@ -1,0 +1,12 @@
+id = 'python3-mrcfile'
+name = 'python3-mrcfile'
+
+homepage = 'https://github.com/ccpem/mrcfile'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mrcfile'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mrcfile'

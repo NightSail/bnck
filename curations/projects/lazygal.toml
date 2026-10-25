@@ -1,0 +1,12 @@
+id = 'lazygal'
+name = 'lazygal'
+
+homepage = 'https://sml.zincube.net/~niol/repositories.git/lazygal/about'
+
+[[package]]
+channel = 'debian'
+name = 'lazygal'
+
+[[package]]
+channel = 'fedora'
+name = 'lazygal'

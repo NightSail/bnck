@@ -1,0 +1,8 @@
+id = 'gnome-todo'
+name = 'gnome-todo'
+
+homepage = 'https://gitlab.gnome.org/World/Endeavour'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-todo'

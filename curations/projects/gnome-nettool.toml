@@ -1,0 +1,16 @@
+id = 'gnome-nettool'
+name = 'gnome-nettool'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-nettool'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-nettool'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-nettool'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-nettool'

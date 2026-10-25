@@ -1,0 +1,8 @@
+id = 'ifcopenshell'
+name = 'ifcopenshell'
+
+homepage = 'https://ifcopenshell.org'
+
+[[package]]
+channel = 'debian'
+name = 'ifcopenshell'

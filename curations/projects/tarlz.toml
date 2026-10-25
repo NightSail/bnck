@@ -1,0 +1,12 @@
+id = 'tarlz'
+name = 'tarlz'
+
+homepage = 'https://www.nongnu.org/lzip/tarlz.html'
+
+[[package]]
+channel = 'debian'
+name = 'tarlz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tarlz'

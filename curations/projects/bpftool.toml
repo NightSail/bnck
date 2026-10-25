@@ -1,0 +1,8 @@
+id = 'bpftool'
+name = 'bpftool'
+
+homepage = 'https://github.com/libbpf/bpftool'
+
+[[package]]
+channel = 'fedora'
+name = 'bpftool'

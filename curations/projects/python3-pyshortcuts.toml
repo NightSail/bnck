@@ -1,0 +1,8 @@
+id = 'python3-pyshortcuts'
+name = 'python3-pyshortcuts'
+
+homepage = 'https://github.com/newville/pyshortcuts'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyshortcuts'

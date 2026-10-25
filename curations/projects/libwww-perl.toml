@@ -1,0 +1,12 @@
+id = 'libwww-perl'
+name = 'libwww-perl'
+
+homepage = 'https://metacpan.org/release/libwww-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libwww-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-libwww-perl'

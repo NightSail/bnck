@@ -1,0 +1,8 @@
+id = 'ulfius-ulfius'
+name = 'ulfius'
+
+homepage = 'https://babelouest.github.io/ulfius'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ulfius'

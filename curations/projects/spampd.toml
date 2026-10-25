@@ -1,0 +1,12 @@
+id = 'spampd'
+name = 'spampd'
+
+homepage = 'https://github.com/mpaperno/spampd'
+
+[[package]]
+channel = 'debian'
+name = 'spampd'
+
+[[package]]
+channel = 'fedora'
+name = 'spampd'

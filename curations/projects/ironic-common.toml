@@ -1,0 +1,8 @@
+id = 'ironic-common'
+name = 'ironic-common'
+
+homepage = 'https://github.com/openstack/ironic'
+
+[[package]]
+channel = 'debian'
+name = 'ironic-common'

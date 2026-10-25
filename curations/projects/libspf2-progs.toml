@@ -1,0 +1,8 @@
+id = 'libspf2-progs'
+name = 'libspf2-progs'
+
+homepage = 'http://www.libspf2.org'
+
+[[package]]
+channel = 'fedora'
+name = 'libspf2-progs'

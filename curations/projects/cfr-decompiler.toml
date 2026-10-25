@@ -1,0 +1,9 @@
+id = 'cfr-decompiler'
+name = 'cfr-decompiler'
+
+homepage = 'https://www.benf.org/other/cfr'
+repository = 'https://github.com/leibnitz27/cfr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfr-decompiler'

@@ -1,0 +1,8 @@
+id = 'gxtuner'
+name = 'gxtuner'
+
+homepage = 'https://guitarix.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'gxtuner'

@@ -1,0 +1,20 @@
+id = 'libpinyin'
+name = 'libpinyin'
+
+repository = 'https://github.com/libpinyin/libpinyin.git'
+
+[[package]]
+channel = 'arch'
+name = 'libpinyin'
+
+[[package]]
+channel = 'debian'
+name = 'libpinyin-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libpinyin-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpinyin'

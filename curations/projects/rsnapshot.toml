@@ -1,0 +1,21 @@
+id = 'rsnapshot'
+name = 'rsnapshot'
+
+homepage = 'https://www.rsnapshot.org'
+repository = 'https://github.com/rsnapshot/rsnapshot.git'
+
+[[package]]
+channel = 'arch'
+name = 'rsnapshot'
+
+[[package]]
+channel = 'debian'
+name = 'rsnapshot'
+
+[[package]]
+channel = 'fedora'
+name = 'rsnapshot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsnapshot'

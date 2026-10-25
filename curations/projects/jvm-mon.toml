@@ -1,0 +1,9 @@
+id = 'jvm-mon'
+name = 'jvm-mon'
+
+homepage = 'https://ajermakovics.github.io/jvm-mon'
+repository = 'https://github.com/ajermakovics/jvm-mon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jvm-mon'

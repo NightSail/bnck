@@ -1,0 +1,8 @@
+id = 'cycle'
+name = 'cycle'
+
+homepage = 'https://github.com/metlov/cycle'
+
+[[package]]
+channel = 'debian'
+name = 'cycle'

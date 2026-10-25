@@ -1,0 +1,8 @@
+id = 'prove6'
+name = 'prove6'
+
+homepage = 'https://github.com/Leont/app-prove6'
+
+[[package]]
+channel = 'debian'
+name = 'prove6'

@@ -1,0 +1,24 @@
+id = 'musl'
+name = 'musl'
+
+homepage = 'https://musl.libc.org'
+
+[[package]]
+channel = 'debian'
+name = 'musl'
+
+[[package]]
+channel = 'debian'
+name = 'musl-dev'
+
+[[package]]
+channel = 'debian'
+name = 'musl-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'musl-clang'
+
+[[package]]
+channel = 'fedora'
+name = 'musl-gcc'

@@ -1,0 +1,8 @@
+id = 'jsonfmt'
+name = 'jsonfmt'
+
+repository = 'https://github.com/caarlos0/jsonfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsonfmt'

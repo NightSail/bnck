@@ -1,0 +1,8 @@
+id = 'mapcode'
+name = 'mapcode'
+
+homepage = 'http://www.mapcode.com'
+
+[[package]]
+channel = 'debian'
+name = 'mapcode'

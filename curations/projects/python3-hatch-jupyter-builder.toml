@@ -1,0 +1,12 @@
+id = 'python3-hatch-jupyter-builder'
+name = 'python3-hatch-jupyter-builder'
+
+homepage = 'https://github.com/jupyterlab/hatch-jupyter-builder'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hatch-jupyter-builder'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hatch-jupyter-builder'

@@ -1,0 +1,8 @@
+id = 'dualsensectl'
+name = 'dualsensectl'
+
+homepage = 'https://github.com/nowrep/dualsensectl'
+
+[[package]]
+channel = 'debian'
+name = 'dualsensectl'

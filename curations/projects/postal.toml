@@ -1,0 +1,8 @@
+id = 'postal'
+name = 'postal'
+
+homepage = 'https://doc.coker.com.au/projects/postal'
+
+[[package]]
+channel = 'debian'
+name = 'postal'

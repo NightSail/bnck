@@ -1,0 +1,12 @@
+id = 'inchi'
+name = 'inchi'
+
+homepage = 'https://github.com/IUPAC-InChI/InChI'
+
+[[package]]
+channel = 'arch'
+name = 'inchi'
+
+[[package]]
+channel = 'fedora'
+name = 'inchi'

@@ -1,0 +1,8 @@
+id = 'ipmctl'
+name = 'ipmctl'
+
+homepage = 'https://github.com/intel/ipmctl'
+
+[[package]]
+channel = 'fedora'
+name = 'ipmctl'

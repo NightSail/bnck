@@ -1,0 +1,8 @@
+id = 'pinentry-bemenu'
+name = 'pinentry-bemenu'
+
+homepage = 'https://github.com/t-8ch/pinentry-bemenu'
+
+[[package]]
+channel = 'arch'
+name = 'pinentry-bemenu'

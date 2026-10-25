@@ -1,0 +1,24 @@
+id = 'ziglang'
+name = 'ziglang'
+
+homepage = 'https://ziglang.org'
+
+[[package]]
+channel = 'arch'
+name = 'zig'
+
+[[package]]
+channel = 'fedora'
+name = 'zig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zig@0.14'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zig@0.15'

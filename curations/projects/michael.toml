@@ -1,0 +1,12 @@
+id = 'michael'
+name = 'michael'
+
+homepage = 'http://www.kapiti.co.nz/michael/vhman2html.html'
+
+[[package]]
+channel = 'fedora'
+name = 'man2html'
+
+[[package]]
+channel = 'fedora'
+name = 'man2html-core'

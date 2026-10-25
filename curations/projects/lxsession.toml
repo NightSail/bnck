@@ -1,0 +1,36 @@
+id = 'lxsession'
+name = 'lxsession'
+
+homepage = 'https://github.com/lxde/lxsession'
+
+[[package]]
+channel = 'arch'
+name = 'lxsession'
+
+[[package]]
+channel = 'debian'
+name = 'lxde-settings-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'lxlock'
+
+[[package]]
+channel = 'debian'
+name = 'lxpolkit'
+
+[[package]]
+channel = 'debian'
+name = 'lxsession'
+
+[[package]]
+channel = 'debian'
+name = 'lxsession-default-apps'
+
+[[package]]
+channel = 'debian'
+name = 'lxsession-edit'
+
+[[package]]
+channel = 'debian'
+name = 'lxsession-logout'

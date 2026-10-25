@@ -1,0 +1,28 @@
+id = 'cdemu'
+name = 'cdemu'
+
+homepage = 'https://cdemu.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'cdemu-client'
+
+[[package]]
+channel = 'arch'
+name = 'cdemu-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'cdemu-client'
+
+[[package]]
+channel = 'debian'
+name = 'cdemu-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'gcdemu'
+
+[[package]]
+channel = 'debian'
+name = 'image-analyzer'

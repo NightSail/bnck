@@ -1,0 +1,12 @@
+id = 'flpsed'
+name = 'flpsed'
+
+homepage = 'https://flpsed.org/flpsed.html'
+
+[[package]]
+channel = 'debian'
+name = 'flpsed'
+
+[[package]]
+channel = 'fedora'
+name = 'flpsed'

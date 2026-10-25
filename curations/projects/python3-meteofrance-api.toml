@@ -1,0 +1,8 @@
+id = 'python3-meteofrance-api'
+name = 'python3-meteofrance-api'
+
+homepage = 'https://github.com/hacf-fr/meteofrance-api'
+
+[[package]]
+channel = 'debian'
+name = 'python3-meteofrance-api'

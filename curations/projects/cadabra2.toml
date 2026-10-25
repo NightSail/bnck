@@ -1,0 +1,8 @@
+id = 'cadabra2'
+name = 'cadabra2'
+
+homepage = 'https://cadabra.science'
+
+[[package]]
+channel = 'debian'
+name = 'cadabra2'

@@ -1,0 +1,8 @@
+id = 'lxqt-wallet'
+name = 'lxqt-wallet'
+
+homepage = 'https://github.com/lxqt/lxqt_wallet'
+
+[[package]]
+channel = 'fedora'
+name = 'lxqt-wallet'

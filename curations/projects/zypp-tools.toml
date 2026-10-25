@@ -1,0 +1,8 @@
+id = 'zypp-tools'
+name = 'zypp-tools'
+
+homepage = 'https://en.opensuse.org/Portal:Libzypp'
+
+[[package]]
+channel = 'fedora'
+name = 'zypp-tools'

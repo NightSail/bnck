@@ -5,5 +5,17 @@ homepage = 'https://orbiton.zip'
 repository = 'https://github.com/xyproto/orbiton'
 
 [[package]]
+channel = 'arch'
+name = 'orbiton'
+
+[[package]]
+channel = 'arch'
+name = 'orbiton-gtk3'
+
+[[package]]
+channel = 'arch'
+name = 'orbiton-nano'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/orbiton'

@@ -1,0 +1,12 @@
+id = 'npm'
+name = 'npm'
+
+homepage = 'https://www.npmjs.com'
+
+[[package]]
+channel = 'arch'
+name = 'npm'
+
+[[package]]
+channel = 'debian'
+name = 'npm'

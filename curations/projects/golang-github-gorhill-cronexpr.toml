@@ -1,0 +1,8 @@
+id = 'golang-github-gorhill-cronexpr'
+name = 'golang-github-gorhill-cronexpr'
+
+homepage = 'https://github.com/gorhill/cronexpr'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gorhill-cronexpr'

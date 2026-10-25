@@ -1,0 +1,21 @@
+id = 'shared-mime-info'
+name = 'shared-mime-info'
+
+homepage = 'https://www.freedesktop.org/wiki/Specifications/shared-mime-info-spec'
+repository = 'https://gitlab.freedesktop.org/xdg/shared-mime-info.git'
+
+[[package]]
+channel = 'arch'
+name = 'shared-mime-info'
+
+[[package]]
+channel = 'debian'
+name = 'shared-mime-info'
+
+[[package]]
+channel = 'fedora'
+name = 'shared-mime-info'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shared-mime-info'

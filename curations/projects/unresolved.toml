@@ -1,0 +1,8 @@
+id = 'unresolved'
+name = 'unresolved'
+
+homepage = 'https://github.com/pemensik/unresolved'
+
+[[package]]
+channel = 'fedora'
+name = 'unresolved'

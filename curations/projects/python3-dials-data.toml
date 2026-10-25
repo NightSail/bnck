@@ -1,0 +1,8 @@
+id = 'python3-dials-data'
+name = 'python3-dials-data'
+
+homepage = 'https://github.com/dials/data'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dials-data'

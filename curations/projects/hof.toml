@@ -1,0 +1,9 @@
+id = 'hof'
+name = 'hof'
+
+homepage = 'https://hofstadter.io'
+repository = 'https://github.com/hofstadter-io/hof.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hof'

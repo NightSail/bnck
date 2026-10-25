@@ -1,0 +1,8 @@
+id = 'cvs2cl'
+name = 'cvs2cl'
+
+homepage = 'http://www.red-bean.com/cvs2cl'
+
+[[package]]
+channel = 'fedora'
+name = 'cvs2cl'

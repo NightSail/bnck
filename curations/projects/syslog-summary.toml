@@ -1,0 +1,8 @@
+id = 'syslog-summary'
+name = 'syslog-summary'
+
+homepage = 'https://github.com/shtrom/syslog-summary'
+
+[[package]]
+channel = 'debian'
+name = 'syslog-summary'

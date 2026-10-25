@@ -1,0 +1,8 @@
+id = 'golang-github-meilisearch-meilisearch-go-dev'
+name = 'golang-github-meilisearch-meilisearch-go-dev'
+
+homepage = 'https://github.com/meilisearch/meilisearch-go'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-meilisearch-meilisearch-go-dev'

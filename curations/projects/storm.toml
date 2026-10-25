@@ -1,0 +1,8 @@
+id = 'storm'
+name = 'storm'
+
+homepage = 'https://storm.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/storm'

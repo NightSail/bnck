@@ -1,0 +1,24 @@
+id = 'lirc'
+name = 'lirc'
+
+homepage = 'http://www.lirc.org'
+
+[[package]]
+channel = 'arch'
+name = 'libirman'
+
+[[package]]
+channel = 'arch'
+name = 'lirc'
+
+[[package]]
+channel = 'fedora'
+name = 'lirc-config'
+
+[[package]]
+channel = 'fedora'
+name = 'lirc-core'
+
+[[package]]
+channel = 'fedora'
+name = 'lirc-tools-gui'

@@ -1,0 +1,12 @@
+id = 'sextractor'
+name = 'sextractor'
+
+homepage = 'https://www.astromatic.net/software/sextractor'
+
+[[package]]
+channel = 'debian'
+name = 'source-extractor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sextractor'

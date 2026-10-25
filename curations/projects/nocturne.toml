@@ -1,0 +1,8 @@
+id = 'nocturne'
+name = 'nocturne'
+
+homepage = 'https://jeffser.com/nocturne'
+
+[[package]]
+channel = 'debian'
+name = 'nocturne'

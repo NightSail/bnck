@@ -1,0 +1,8 @@
+id = 'simhash'
+name = 'simhash'
+
+homepage = 'http://wiki.cs.pdx.edu/forge/simhash.html'
+
+[[package]]
+channel = 'debian'
+name = 'simhash'

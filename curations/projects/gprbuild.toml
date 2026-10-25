@@ -1,0 +1,12 @@
+id = 'gprbuild'
+name = 'gprbuild'
+
+homepage = 'https://github.com/AdaCore/gprbuild'
+
+[[package]]
+channel = 'debian'
+name = 'gprbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'gprbuild'

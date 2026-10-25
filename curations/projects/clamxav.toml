@@ -1,0 +1,8 @@
+id = 'clamxav'
+name = 'clamxav'
+
+homepage = 'https://www.clamxav.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/clamxav'

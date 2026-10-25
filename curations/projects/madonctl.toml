@@ -1,0 +1,8 @@
+id = 'madonctl'
+name = 'madonctl'
+
+homepage = 'https://github.com/McKael/madonctl'
+
+[[package]]
+channel = 'debian'
+name = 'madonctl'

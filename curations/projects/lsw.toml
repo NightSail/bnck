@@ -1,0 +1,12 @@
+id = 'lsw'
+name = 'lsw'
+
+homepage = 'https://tools.suckless.org/x/lsw'
+
+[[package]]
+channel = 'arch'
+name = 'lsw'
+
+[[package]]
+channel = 'fedora'
+name = 'lsw'

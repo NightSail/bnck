@@ -1,0 +1,8 @@
+id = 'vpoller'
+name = 'vpoller'
+
+homepage = 'https://github.com/dnaeon/py-vpoller'
+
+[[package]]
+channel = 'fedora'
+name = 'vpoller'

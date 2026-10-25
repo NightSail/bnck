@@ -1,0 +1,8 @@
+id = 'node-debbundle-insert-module-globals'
+name = 'node-debbundle-insert-module-globals'
+
+homepage = 'https://github.com/browserify/insert-module-globals'
+
+[[package]]
+channel = 'debian'
+name = 'node-debbundle-insert-module-globals'

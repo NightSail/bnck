@@ -1,0 +1,8 @@
+id = 'system-tools-backends'
+name = 'system-tools-backends'
+
+homepage = 'https://system-tools-backends.freedesktop.org'
+
+[[package]]
+channel = 'debian'
+name = 'system-tools-backends'

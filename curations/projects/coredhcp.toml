@@ -1,0 +1,12 @@
+id = 'coredhcp'
+name = 'coredhcp'
+
+homepage = 'https://github.com/coredhcp/coredhcp'
+
+[[package]]
+channel = 'debian'
+name = 'coredhcp-client'
+
+[[package]]
+channel = 'debian'
+name = 'coredhcp-server'

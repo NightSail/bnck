@@ -1,0 +1,8 @@
+id = 'libmessage-passing-perl'
+name = 'libmessage-passing-perl'
+
+homepage = 'https://metacpan.org/release/Message-Passing'
+
+[[package]]
+channel = 'debian'
+name = 'libmessage-passing-perl'

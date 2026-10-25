@@ -1,0 +1,16 @@
+id = 'arch-install-scripts'
+name = 'arch-install-scripts'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/arch-install-scripts'
+
+[[package]]
+channel = 'arch'
+name = 'arch-install-scripts'
+
+[[package]]
+channel = 'debian'
+name = 'arch-install-scripts'
+
+[[package]]
+channel = 'fedora'
+name = 'arch-install-scripts'

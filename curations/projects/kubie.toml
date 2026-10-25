@@ -10,3 +10,7 @@ name = 'kubie'
 [[package]]
 channel = 'debian'
 name = 'kubie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubie'

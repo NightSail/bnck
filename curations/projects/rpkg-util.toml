@@ -1,0 +1,16 @@
+id = 'rpkg-util'
+name = 'rpkg-util'
+
+homepage = 'https://pagure.io/rpkg-util.git'
+
+[[package]]
+channel = 'fedora'
+name = 'preproc'
+
+[[package]]
+channel = 'fedora'
+name = 'rpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'rpkg-macros'

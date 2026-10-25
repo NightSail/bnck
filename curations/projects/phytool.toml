@@ -1,0 +1,8 @@
+id = 'phytool'
+name = 'phytool'
+
+homepage = 'https://github.com/wkz/phytool'
+
+[[package]]
+channel = 'fedora'
+name = 'phytool'

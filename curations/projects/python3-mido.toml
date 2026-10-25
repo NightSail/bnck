@@ -1,0 +1,8 @@
+id = 'python3-mido'
+name = 'python3-mido'
+
+homepage = 'https://github.com/mido/mido'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mido'

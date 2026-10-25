@@ -1,0 +1,12 @@
+id = 'thin-provisioning-tools'
+name = 'thin-provisioning-tools'
+
+homepage = 'https://github.com/jthornber/thin-provisioning-tools'
+
+[[package]]
+channel = 'arch'
+name = 'thin-provisioning-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'device-mapper-persistent-data'

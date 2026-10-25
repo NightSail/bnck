@@ -1,0 +1,8 @@
+id = 'openorienteering-mapper'
+name = 'openorienteering-mapper'
+
+homepage = 'https://www.openorienteering.org/apps/mapper'
+
+[[package]]
+channel = 'debian'
+name = 'openorienteering-mapper'

@@ -1,0 +1,8 @@
+id = 'ruby-erubis'
+name = 'ruby-erubis'
+
+homepage = 'https://rubygems.org/gems/erubis'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-erubis'

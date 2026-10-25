@@ -1,0 +1,8 @@
+id = 'redlib'
+name = 'redlib'
+
+homepage = 'https://crates.io/crates/redlib'
+
+[[package]]
+channel = 'fedora'
+name = 'redlib'

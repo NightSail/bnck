@@ -1,0 +1,8 @@
+id = 'lomiri-account-polld'
+name = 'lomiri-account-polld'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-account-polld'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-account-polld'

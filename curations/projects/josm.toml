@@ -1,0 +1,12 @@
+id = 'josm'
+name = 'josm'
+
+homepage = 'https://josm.openstreetmap.de'
+
+[[package]]
+channel = 'arch'
+name = 'josm'
+
+[[package]]
+channel = 'debian'
+name = 'josm'

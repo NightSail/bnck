@@ -1,0 +1,12 @@
+id = 'log4c'
+name = 'log4c'
+
+homepage = 'https://log4c.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'liblog4c-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'log4c-devel'

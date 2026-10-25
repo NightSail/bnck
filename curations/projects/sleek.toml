@@ -1,0 +1,8 @@
+id = 'sleek'
+name = 'sleek'
+
+homepage = 'https://github.com/nrempel/sleek'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sleek'

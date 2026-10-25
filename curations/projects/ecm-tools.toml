@@ -1,0 +1,8 @@
+id = 'ecm-tools'
+name = 'ecm-tools'
+
+homepage = 'https://github.com/alucryd/ecm-tools'
+
+[[package]]
+channel = 'arch'
+name = 'ecm-tools'

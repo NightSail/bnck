@@ -1,0 +1,16 @@
+id = 'frogr'
+name = 'frogr'
+
+homepage = 'https://wiki.gnome.org/Apps/Frogr'
+
+[[package]]
+channel = 'arch'
+name = 'frogr'
+
+[[package]]
+channel = 'debian'
+name = 'frogr'
+
+[[package]]
+channel = 'fedora'
+name = 'frogr'

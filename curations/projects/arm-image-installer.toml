@@ -1,0 +1,8 @@
+id = 'arm-image-installer'
+name = 'arm-image-installer'
+
+homepage = 'https://github.com/fedora-arm/arm-image-installer'
+
+[[package]]
+channel = 'fedora'
+name = 'arm-image-installer'

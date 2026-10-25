@@ -1,0 +1,8 @@
+id = 'python3-hostlist'
+name = 'python3-hostlist'
+
+homepage = 'https://www.nsc.liu.se/~kent/python-hostlist'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hostlist'

@@ -8,5 +8,9 @@ channel = 'arch'
 name = 'podlet'
 
 [[package]]
+channel = 'fedora'
+name = 'podlet'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/podlet'

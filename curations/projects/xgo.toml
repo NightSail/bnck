@@ -1,0 +1,9 @@
+id = 'xgo'
+name = 'xgo'
+
+homepage = 'https://xgo.dev'
+repository = 'https://github.com/goplus/xgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xgo'

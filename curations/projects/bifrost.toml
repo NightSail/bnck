@@ -1,0 +1,8 @@
+id = 'bifrost'
+name = 'bifrost'
+
+homepage = 'https://github.com/pmelsted/bifrost'
+
+[[package]]
+channel = 'debian'
+name = 'bifrost'

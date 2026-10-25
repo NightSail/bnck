@@ -1,0 +1,8 @@
+id = 'policy-engine'
+name = 'policy-engine'
+
+repository = 'https://github.com/snyk/policy-engine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/policy-engine'

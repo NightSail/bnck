@@ -1,0 +1,9 @@
+id = 'gnu-apl'
+name = 'gnu-apl'
+
+homepage = 'https://www.gnu.org/software/apl'
+repository = 'https://svn.savannah.gnu.org/svn/apl/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-apl'

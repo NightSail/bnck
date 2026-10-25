@@ -1,0 +1,8 @@
+id = 'avanor'
+name = 'avanor'
+
+homepage = 'https://avanor.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/avanor'

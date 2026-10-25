@@ -1,0 +1,12 @@
+id = 'python3-nipy'
+name = 'python3-nipy'
+
+homepage = 'https://nipy.org/nipy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nipy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nipy'

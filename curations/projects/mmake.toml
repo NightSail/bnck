@@ -1,0 +1,8 @@
+id = 'mmake'
+name = 'mmake'
+
+homepage = 'https://www.tildeslash.com/mmake'
+
+[[package]]
+channel = 'debian'
+name = 'mmake'

@@ -1,0 +1,9 @@
+id = 'rocksdb'
+name = 'rocksdb'
+
+homepage = 'https://rocksdb.org'
+repository = 'https://github.com/facebook/rocksdb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rocksdb'

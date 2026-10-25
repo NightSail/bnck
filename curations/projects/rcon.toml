@@ -1,0 +1,8 @@
+id = 'rcon'
+name = 'rcon'
+
+homepage = 'https://github.com/conqp/rcon'
+
+[[package]]
+channel = 'debian'
+name = 'rcon'

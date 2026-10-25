@@ -1,0 +1,8 @@
+id = 'ubloxcfg'
+name = 'ubloxcfg'
+
+homepage = 'https://github.com/phkehl/ubloxcfg'
+
+[[package]]
+channel = 'fedora'
+name = 'ubloxcfg'

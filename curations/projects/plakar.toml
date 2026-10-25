@@ -1,0 +1,8 @@
+id = 'plakar'
+name = 'plakar'
+
+homepage = 'https://plakar.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plakar'

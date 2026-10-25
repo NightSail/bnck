@@ -1,0 +1,9 @@
+id = 'expert'
+name = 'expert'
+
+homepage = 'https://expert-lsp.org'
+repository = 'https://github.com/expert-lsp/expert.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/expert'

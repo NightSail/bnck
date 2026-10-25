@@ -1,0 +1,20 @@
+id = 'libgusb'
+name = 'libgusb'
+
+repository = 'https://github.com/hughsie/libgusb.git'
+
+[[package]]
+channel = 'arch'
+name = 'libgusb'
+
+[[package]]
+channel = 'debian'
+name = 'libgusb-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libgusb-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgusb'

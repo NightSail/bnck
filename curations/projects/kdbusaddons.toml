@@ -1,0 +1,20 @@
+id = 'kdbusaddons'
+name = 'kdbusaddons'
+
+homepage = 'https://invent.kde.org/frameworks/kdbusaddons'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5dbusaddons-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6dbusaddons-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kdbusaddons'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kdbusaddons'

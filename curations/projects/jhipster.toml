@@ -1,0 +1,8 @@
+id = 'jhipster'
+name = 'jhipster'
+
+homepage = 'https://www.jhipster.tech'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jhipster'

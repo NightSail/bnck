@@ -1,0 +1,8 @@
+id = 'vasttrafik-cli'
+name = 'vasttrafik-cli'
+
+homepage = 'https://codeberg.org/ltworf/vasttrafik-cli'
+
+[[package]]
+channel = 'debian'
+name = 'vasttrafik-cli'

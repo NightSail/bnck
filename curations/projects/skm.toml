@@ -1,0 +1,9 @@
+id = 'skm'
+name = 'skm'
+
+homepage = 'https://timothyye.github.io/skm'
+repository = 'https://github.com/TimothyYe/skm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skm'

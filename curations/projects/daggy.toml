@@ -1,0 +1,8 @@
+id = 'daggy'
+name = 'daggy'
+
+homepage = 'https://github.com/synacker/daggy'
+
+[[package]]
+channel = 'fedora'
+name = 'daggy'

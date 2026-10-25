@@ -1,0 +1,8 @@
+id = 'eg25-manager'
+name = 'eg25-manager'
+
+homepage = 'https://gitlab.com/mobian1/eg25-manager'
+
+[[package]]
+channel = 'debian'
+name = 'eg25-manager'

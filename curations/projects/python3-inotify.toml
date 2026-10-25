@@ -1,0 +1,8 @@
+id = 'python3-inotify'
+name = 'python3-inotify'
+
+homepage = 'https://github.com/seb-m/pyinotify'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-inotify'

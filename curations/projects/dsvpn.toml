@@ -1,0 +1,8 @@
+id = 'dsvpn'
+name = 'dsvpn'
+
+repository = 'https://github.com/jedisct1/dsvpn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dsvpn'

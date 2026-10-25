@@ -1,0 +1,16 @@
+id = 'multi-git-status'
+name = 'multi-git-status'
+
+homepage = 'https://github.com/fboender/multi-git-status'
+
+[[package]]
+channel = 'debian'
+name = 'mgitstatus'
+
+[[package]]
+channel = 'fedora'
+name = 'multi-git-status'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/multi-git-status'

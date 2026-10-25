@@ -1,0 +1,8 @@
+id = 'fennel-ls'
+name = 'fennel-ls'
+
+homepage = 'https://git.sr.ht/~xerool/fennel-ls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fennel-ls'

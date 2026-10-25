@@ -1,0 +1,8 @@
+id = 'leapp-cli'
+name = 'leapp-cli'
+
+homepage = 'https://www.leapp.cloud'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leapp-cli'

@@ -1,0 +1,8 @@
+id = 'das-watchdog'
+name = 'das-watchdog'
+
+homepage = 'https://github.com/kmatheussen/das_watchdog'
+
+[[package]]
+channel = 'debian'
+name = 'das-watchdog'

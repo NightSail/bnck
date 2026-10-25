@@ -1,0 +1,16 @@
+id = 'rabbitmq-c'
+name = 'rabbitmq-c'
+
+homepage = 'https://github.com/alanxz/rabbitmq-c'
+
+[[package]]
+channel = 'arch'
+name = 'librabbitmq-c'
+
+[[package]]
+channel = 'debian'
+name = 'amqp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'librabbitmq-tools'

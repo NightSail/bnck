@@ -1,0 +1,8 @@
+id = 'slackdump'
+name = 'slackdump'
+
+repository = 'https://github.com/rusq/slackdump.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slackdump'

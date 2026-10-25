@@ -1,0 +1,8 @@
+id = 'scalpel'
+name = 'scalpel'
+
+homepage = 'https://github.com/nolaforensix/scalpel-1.60'
+
+[[package]]
+channel = 'debian'
+name = 'scalpel'

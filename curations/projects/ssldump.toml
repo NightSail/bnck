@@ -1,0 +1,16 @@
+id = 'ssldump'
+name = 'ssldump'
+
+homepage = 'https://adulau.github.io/ssldump'
+
+[[package]]
+channel = 'debian'
+name = 'ssldump'
+
+[[package]]
+channel = 'fedora'
+name = 'ssldump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssldump'

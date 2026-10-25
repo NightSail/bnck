@@ -1,0 +1,12 @@
+id = 'gosop'
+name = 'gosop'
+
+homepage = 'https://github.com/ProtonMail/gosop'
+
+[[package]]
+channel = 'arch'
+name = 'gosop'
+
+[[package]]
+channel = 'debian'
+name = 'gosop'

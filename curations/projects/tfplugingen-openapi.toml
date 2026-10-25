@@ -1,0 +1,8 @@
+id = 'tfplugingen-openapi'
+name = 'tfplugingen-openapi'
+
+repository = 'https://github.com/hashicorp/terraform-plugin-codegen-openapi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfplugingen-openapi'

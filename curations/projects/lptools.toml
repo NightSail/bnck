@@ -1,0 +1,8 @@
+id = 'lptools'
+name = 'lptools'
+
+homepage = 'https://launchpad.net/lptools'
+
+[[package]]
+channel = 'debian'
+name = 'lptools'

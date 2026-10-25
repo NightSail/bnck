@@ -1,0 +1,8 @@
+id = 'png2ico'
+name = 'png2ico'
+
+homepage = 'https://www.freshports.org/graphics/png2ico'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/png2ico'

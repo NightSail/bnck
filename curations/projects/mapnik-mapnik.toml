@@ -1,0 +1,9 @@
+id = 'mapnik-mapnik'
+name = 'mapnik'
+
+homepage = 'https://mapnik.org'
+repository = 'https://github.com/mapnik/mapnik.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mapnik'

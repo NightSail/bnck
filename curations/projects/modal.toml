@@ -1,0 +1,8 @@
+id = 'modal'
+name = 'modal'
+
+homepage = 'https://modal.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/modal'

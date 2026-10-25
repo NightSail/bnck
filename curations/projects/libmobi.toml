@@ -1,0 +1,12 @@
+id = 'libmobi'
+name = 'libmobi'
+
+homepage = 'https://github.com/bfabiszewski/libmobi'
+
+[[package]]
+channel = 'debian'
+name = 'libmobi-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmobi'

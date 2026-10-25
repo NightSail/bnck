@@ -1,0 +1,8 @@
+id = 'qrterminal'
+name = 'qrterminal'
+
+homepage = 'https://github.com/mdp/qrterminal'
+
+[[package]]
+channel = 'debian'
+name = 'qrterminal'

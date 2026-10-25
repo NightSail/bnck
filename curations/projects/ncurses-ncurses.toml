@@ -1,0 +1,12 @@
+id = 'ncurses-ncurses'
+name = 'ncurses'
+
+homepage = 'https://invisible-island.net/ncurses'
+
+[[package]]
+channel = 'debian'
+name = 'libncurses-dev'
+
+[[package]]
+channel = 'debian'
+name = 'ncurses-bin'

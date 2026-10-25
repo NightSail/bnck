@@ -1,0 +1,8 @@
+id = 'pdf2image'
+name = 'pdf2image'
+
+homepage = 'https://code.google.com/p/pdf2image'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdf2image'

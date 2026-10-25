@@ -1,0 +1,6 @@
+id = 'mp3rename'
+name = 'mp3rename'
+
+[[package]]
+channel = 'debian'
+name = 'mp3rename'

@@ -1,0 +1,12 @@
+id = 'kbounce'
+name = 'kbounce'
+
+homepage = 'https://apps.kde.org/kbounce'
+
+[[package]]
+channel = 'arch'
+name = 'kbounce'
+
+[[package]]
+channel = 'fedora'
+name = 'kbounce'

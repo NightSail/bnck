@@ -1,0 +1,6 @@
+id = 'apt-listdifferences'
+name = 'apt-listdifferences'
+
+[[package]]
+channel = 'debian'
+name = 'apt-listdifferences'

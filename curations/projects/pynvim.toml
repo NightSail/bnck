@@ -1,0 +1,16 @@
+id = 'pynvim'
+name = 'pynvim'
+
+homepage = 'https://github.com/neovim/pynvim'
+
+[[package]]
+channel = 'arch'
+name = 'python-pynvim'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pynvim'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-neovim'

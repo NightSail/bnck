@@ -1,0 +1,16 @@
+id = 'devhelp'
+name = 'devhelp'
+
+homepage = 'https://gitlab.gnome.org/Archive/devhelp'
+
+[[package]]
+channel = 'arch'
+name = 'devhelp'
+
+[[package]]
+channel = 'debian'
+name = 'devhelp'
+
+[[package]]
+channel = 'fedora'
+name = 'devhelp'

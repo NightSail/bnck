@@ -1,0 +1,12 @@
+id = 'teckit'
+name = 'teckit'
+
+homepage = 'https://github.com/silnrsi/teckit'
+
+[[package]]
+channel = 'debian'
+name = 'teckit'
+
+[[package]]
+channel = 'fedora'
+name = 'teckit'

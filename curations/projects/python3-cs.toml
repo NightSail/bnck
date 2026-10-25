@@ -1,0 +1,8 @@
+id = 'python3-cs'
+name = 'python3-cs'
+
+homepage = 'https://github.com/ngine-io/cs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cs'

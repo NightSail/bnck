@@ -1,0 +1,8 @@
+id = 'notedeln'
+name = 'notedeln'
+
+homepage = 'https://www.danielwagenaar.net/eln'
+
+[[package]]
+channel = 'debian'
+name = 'notedeln'

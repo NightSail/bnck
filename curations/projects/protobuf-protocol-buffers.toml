@@ -1,0 +1,8 @@
+id = 'protobuf-protocol-buffers'
+name = 'protobuf'
+
+homepage = 'https://developers.google.com/protocol-buffers'
+
+[[package]]
+channel = 'arch'
+name = 'protobuf'

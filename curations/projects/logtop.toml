@@ -1,0 +1,8 @@
+id = 'logtop'
+name = 'logtop'
+
+homepage = 'https://github.com/JulienPalard/logtop'
+
+[[package]]
+channel = 'debian'
+name = 'logtop'

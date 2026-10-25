@@ -1,0 +1,8 @@
+id = 'ratex'
+name = 'ratex'
+
+repository = 'https://github.com/leoliu0/ratex.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ratex'

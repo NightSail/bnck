@@ -1,0 +1,8 @@
+id = 'rospack-tools'
+name = 'rospack-tools'
+
+homepage = 'https://wiki.ros.org/rospack'
+
+[[package]]
+channel = 'debian'
+name = 'rospack-tools'

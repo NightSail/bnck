@@ -1,0 +1,8 @@
+id = 'lyskom-server'
+name = 'lyskom-server'
+
+homepage = 'http://www.lysator.liu.se/lyskom/lyskom-server'
+
+[[package]]
+channel = 'debian'
+name = 'lyskom-server'

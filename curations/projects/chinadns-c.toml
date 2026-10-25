@@ -1,0 +1,8 @@
+id = 'chinadns-c'
+name = 'chinadns-c'
+
+repository = 'https://github.com/shadowsocks/ChinaDNS.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chinadns-c'

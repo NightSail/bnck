@@ -1,0 +1,8 @@
+id = 'lwm'
+name = 'lwm'
+
+homepage = 'https://www.jfc.org.uk/software/lwm.html'
+
+[[package]]
+channel = 'debian'
+name = 'lwm'

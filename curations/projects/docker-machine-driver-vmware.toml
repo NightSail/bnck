@@ -1,0 +1,9 @@
+id = 'docker-machine-driver-vmware'
+name = 'docker-machine-driver-vmware'
+
+homepage = 'https://www.vmware.com/products/personal-desktop-virtualization.html'
+repository = 'https://github.com/machine-drivers/docker-machine-driver-vmware.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-machine-driver-vmware'

@@ -1,0 +1,8 @@
+id = 'libmbim-utils'
+name = 'libmbim-utils'
+
+homepage = 'https://gitlab.freedesktop.org/mobile-broadband/libmbim'
+
+[[package]]
+channel = 'fedora'
+name = 'libmbim-utils'

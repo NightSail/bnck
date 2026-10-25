@@ -1,0 +1,8 @@
+id = 'flintrock'
+name = 'flintrock'
+
+homepage = 'https://github.com/nchammas/flintrock'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flintrock'

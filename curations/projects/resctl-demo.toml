@@ -1,0 +1,8 @@
+id = 'resctl-demo'
+name = 'resctl-demo'
+
+homepage = 'https://crates.io/crates/resctl-demo'
+
+[[package]]
+channel = 'fedora'
+name = 'resctl-demo'

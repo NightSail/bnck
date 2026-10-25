@@ -1,0 +1,32 @@
+id = 'calligra'
+name = 'calligra'
+
+homepage = 'https://www.calligra.org'
+
+[[package]]
+channel = 'debian'
+name = 'calligra'
+
+[[package]]
+channel = 'debian'
+name = 'calligra-libs'
+
+[[package]]
+channel = 'fedora'
+name = 'calligra'
+
+[[package]]
+channel = 'fedora'
+name = 'calligra-karbon'
+
+[[package]]
+channel = 'fedora'
+name = 'calligra-sheets'
+
+[[package]]
+channel = 'fedora'
+name = 'calligra-stage'
+
+[[package]]
+channel = 'fedora'
+name = 'calligra-words'

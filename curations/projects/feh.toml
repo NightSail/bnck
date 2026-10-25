@@ -1,0 +1,20 @@
+id = 'feh'
+name = 'feh'
+
+homepage = 'https://feh.finalrewind.org'
+
+[[package]]
+channel = 'arch'
+name = 'feh'
+
+[[package]]
+channel = 'debian'
+name = 'feh'
+
+[[package]]
+channel = 'fedora'
+name = 'feh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/feh'

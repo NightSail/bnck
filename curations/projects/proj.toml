@@ -1,0 +1,21 @@
+id = 'proj'
+name = 'proj'
+
+homepage = 'https://proj.org'
+repository = 'https://github.com/OSGeo/proj.git'
+
+[[package]]
+channel = 'arch'
+name = 'proj'
+
+[[package]]
+channel = 'debian'
+name = 'proj-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'proj'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proj'

@@ -1,0 +1,8 @@
+id = 'urweb'
+name = 'urweb'
+
+homepage = 'http://www.impredicative.com/ur'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/urweb'

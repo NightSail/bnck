@@ -1,0 +1,16 @@
+id = 'sentencepiece'
+name = 'sentencepiece'
+
+repository = 'https://github.com/google/sentencepiece.git'
+
+[[package]]
+channel = 'debian'
+name = 'sentencepiece'
+
+[[package]]
+channel = 'fedora'
+name = 'sentencepiece-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sentencepiece'

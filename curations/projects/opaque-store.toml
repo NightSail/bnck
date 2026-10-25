@@ -1,0 +1,8 @@
+id = 'opaque-store'
+name = 'opaque-store'
+
+homepage = 'https://github.com/stef/opaque-store'
+
+[[package]]
+channel = 'debian'
+name = 'opaque-store'

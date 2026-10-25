@@ -1,0 +1,8 @@
+id = 'ppsh'
+name = 'ppsh'
+
+homepage = 'http://wiki.github.com/yav/pretty-show'
+
+[[package]]
+channel = 'debian'
+name = 'ppsh'

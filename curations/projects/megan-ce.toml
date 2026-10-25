@@ -1,0 +1,8 @@
+id = 'megan-ce'
+name = 'megan-ce'
+
+homepage = 'https://github.com/danielhuson/megan-ce'
+
+[[package]]
+channel = 'debian'
+name = 'megan-ce'

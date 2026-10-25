@@ -1,0 +1,8 @@
+id = 'codanna'
+name = 'codanna'
+
+homepage = 'https://docs.codanna.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codanna'

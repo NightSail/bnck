@@ -1,0 +1,12 @@
+id = 'qtscrob'
+name = 'qtscrob'
+
+homepage = 'http://qtscrob.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'qtscrob'
+
+[[package]]
+channel = 'debian'
+name = 'scrobbler'

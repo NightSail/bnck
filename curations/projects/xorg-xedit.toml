@@ -1,0 +1,8 @@
+id = 'xorg-xedit'
+name = 'xorg-xedit'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xedit'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xedit'

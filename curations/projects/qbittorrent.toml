@@ -1,0 +1,28 @@
+id = 'qbittorrent'
+name = 'qbittorrent'
+
+homepage = 'https://www.qbittorrent.org'
+
+[[package]]
+channel = 'arch'
+name = 'qbittorrent'
+
+[[package]]
+channel = 'arch'
+name = 'qbittorrent-nox'
+
+[[package]]
+channel = 'debian'
+name = 'qbittorrent'
+
+[[package]]
+channel = 'debian'
+name = 'qbittorrent-nox'
+
+[[package]]
+channel = 'fedora'
+name = 'qbittorrent'
+
+[[package]]
+channel = 'fedora'
+name = 'qbittorrent-nox'

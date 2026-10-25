@@ -1,0 +1,8 @@
+id = 'unoserver'
+name = 'unoserver'
+
+homepage = 'https://github.com/unoconv/unoserver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unoserver'

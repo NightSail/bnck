@@ -1,0 +1,8 @@
+id = 'signal-desktop'
+name = 'signal-desktop'
+
+homepage = 'https://signal.org'
+
+[[package]]
+channel = 'arch'
+name = 'signal-desktop'

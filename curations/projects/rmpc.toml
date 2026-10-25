@@ -1,0 +1,12 @@
+id = 'rmpc'
+name = 'rmpc'
+
+homepage = 'https://mierak.github.io/rmpc'
+
+[[package]]
+channel = 'arch'
+name = 'rmpc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmpc'

@@ -1,0 +1,21 @@
+id = 'itstool'
+name = 'itstool'
+
+homepage = 'https://itstool.org'
+repository = 'https://github.com/itstool/itstool.git'
+
+[[package]]
+channel = 'arch'
+name = 'itstool'
+
+[[package]]
+channel = 'debian'
+name = 'itstool'
+
+[[package]]
+channel = 'fedora'
+name = 'itstool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/itstool'

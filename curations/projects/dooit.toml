@@ -1,0 +1,9 @@
+id = 'dooit'
+name = 'dooit'
+
+homepage = 'https://dooit-org.github.io/dooit'
+repository = 'https://github.com/dooit-org/dooit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dooit'

@@ -1,0 +1,17 @@
+id = 'git-absorb'
+name = 'git-absorb'
+
+homepage = 'https://crates.io/crates/git-absorb'
+repository = 'https://github.com/tummychow/git-absorb.git'
+
+[[package]]
+channel = 'arch'
+name = 'git-absorb'
+
+[[package]]
+channel = 'fedora'
+name = 'git-absorb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-absorb'

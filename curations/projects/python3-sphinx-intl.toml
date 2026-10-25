@@ -1,0 +1,8 @@
+id = 'python3-sphinx-intl'
+name = 'python3-sphinx-intl'
+
+homepage = 'https://pypi.python.org/pypi/sphinx-intl'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx-intl'

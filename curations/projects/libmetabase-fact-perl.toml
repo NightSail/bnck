@@ -1,0 +1,8 @@
+id = 'libmetabase-fact-perl'
+name = 'libmetabase-fact-perl'
+
+homepage = 'https://metacpan.org/release/Metabase-Fact'
+
+[[package]]
+channel = 'debian'
+name = 'libmetabase-fact-perl'

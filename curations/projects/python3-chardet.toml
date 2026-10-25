@@ -1,0 +1,12 @@
+id = 'python3-chardet'
+name = 'python3-chardet'
+
+homepage = 'https://github.com/chardet/chardet'
+
+[[package]]
+channel = 'debian'
+name = 'python3-chardet'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-chardet'

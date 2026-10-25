@@ -1,0 +1,8 @@
+id = 'k2tf'
+name = 'k2tf'
+
+repository = 'https://github.com/sl1pm4t/k2tf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/k2tf'

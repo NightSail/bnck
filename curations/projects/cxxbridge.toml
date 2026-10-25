@@ -1,0 +1,8 @@
+id = 'cxxbridge'
+name = 'cxxbridge'
+
+homepage = 'https://github.com/dtolnay/cxx'
+
+[[package]]
+channel = 'arch'
+name = 'cxxbridge'

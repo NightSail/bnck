@@ -1,0 +1,8 @@
+id = 'mtdev-tools'
+name = 'mtdev-tools'
+
+homepage = 'https://bitmath.se/org/code/mtdev'
+
+[[package]]
+channel = 'debian'
+name = 'mtdev-tools'

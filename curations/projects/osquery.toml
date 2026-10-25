@@ -1,0 +1,8 @@
+id = 'osquery'
+name = 'osquery'
+
+homepage = 'https://osquery.io'
+
+[[package]]
+channel = 'arch'
+name = 'osquery'

@@ -1,0 +1,12 @@
+id = 'archive-zip'
+name = 'Archive-Zip'
+
+homepage = 'https://metacpan.org/release/Archive-Zip'
+
+[[package]]
+channel = 'debian'
+name = 'libarchive-zip-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Archive-Zip'

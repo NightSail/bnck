@@ -1,0 +1,20 @@
+id = 'rostlab'
+name = 'rostlab'
+
+homepage = 'https://rostlab.org'
+
+[[package]]
+channel = 'debian'
+name = 'freecontact'
+
+[[package]]
+channel = 'debian'
+name = 'profphd-utils'
+
+[[package]]
+channel = 'debian'
+name = 'proftmb'
+
+[[package]]
+channel = 'debian'
+name = 'reprof'

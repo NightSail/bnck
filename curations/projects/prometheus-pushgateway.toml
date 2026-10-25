@@ -1,0 +1,8 @@
+id = 'prometheus-pushgateway'
+name = 'prometheus-pushgateway'
+
+homepage = 'https://github.com/prometheus/pushgateway'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-pushgateway'

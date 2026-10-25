@@ -1,0 +1,28 @@
+id = 'evince'
+name = 'evince'
+
+homepage = 'https://apps.gnome.org/Evince'
+
+[[package]]
+channel = 'arch'
+name = 'evince'
+
+[[package]]
+channel = 'debian'
+name = 'evince'
+
+[[package]]
+channel = 'fedora'
+name = 'evince'
+
+[[package]]
+channel = 'fedora'
+name = 'evince-previewer'
+
+[[package]]
+channel = 'fedora'
+name = 'evince-thumbnailer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/evince'

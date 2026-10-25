@@ -1,0 +1,8 @@
+id = 'runcircos-gui'
+name = 'runcircos-gui'
+
+homepage = 'https://github.com/narunlifescience/runcircos-gui'
+
+[[package]]
+channel = 'debian'
+name = 'runcircos-gui'

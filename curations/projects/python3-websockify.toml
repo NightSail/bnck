@@ -1,0 +1,8 @@
+id = 'python3-websockify'
+name = 'python3-websockify'
+
+homepage = 'https://github.com/kanaka/websockify'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-websockify'

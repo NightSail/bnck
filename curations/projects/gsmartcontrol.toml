@@ -1,0 +1,20 @@
+id = 'gsmartcontrol'
+name = 'gsmartcontrol'
+
+homepage = 'https://gsmartcontrol.shaduri.dev'
+
+[[package]]
+channel = 'arch'
+name = 'gsmartcontrol'
+
+[[package]]
+channel = 'debian'
+name = 'gsmartcontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'gsmartcontrol'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gsmartcontrol'

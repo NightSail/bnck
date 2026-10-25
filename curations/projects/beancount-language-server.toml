@@ -1,0 +1,8 @@
+id = 'beancount-language-server'
+name = 'beancount-language-server'
+
+repository = 'https://github.com/polarmutex/beancount-language-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/beancount-language-server'

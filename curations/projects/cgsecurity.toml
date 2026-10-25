@@ -1,0 +1,16 @@
+id = 'cgsecurity'
+name = 'cgsecurity'
+
+homepage = 'https://www.cgsecurity.org'
+
+[[package]]
+channel = 'debian'
+name = 'photorec'
+
+[[package]]
+channel = 'debian'
+name = 'qphotorec'
+
+[[package]]
+channel = 'debian'
+name = 'testdisk'

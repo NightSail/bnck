@@ -1,0 +1,8 @@
+id = 'ooo2txt'
+name = 'ooo2txt'
+
+homepage = 'http://ooo2txt.fr.st'
+
+[[package]]
+channel = 'fedora'
+name = 'ooo2txt'

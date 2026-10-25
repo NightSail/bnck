@@ -1,0 +1,8 @@
+id = 'libmodi-utils'
+name = 'libmodi-utils'
+
+homepage = 'https://github.com/libyal/libmodi'
+
+[[package]]
+channel = 'debian'
+name = 'libmodi-utils'

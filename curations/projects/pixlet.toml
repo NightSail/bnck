@@ -1,0 +1,8 @@
+id = 'pixlet'
+name = 'pixlet'
+
+repository = 'https://github.com/tronbyt/pixlet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixlet'

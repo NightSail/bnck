@@ -1,0 +1,17 @@
+id = 'makeself'
+name = 'makeself'
+
+homepage = 'http://www.megastep.org/makeself'
+repository = 'https://github.com/megastep/makeself.git'
+
+[[package]]
+channel = 'debian'
+name = 'makeself'
+
+[[package]]
+channel = 'fedora'
+name = 'makeself'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/makeself'

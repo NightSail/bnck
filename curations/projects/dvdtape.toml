@@ -1,0 +1,6 @@
+id = 'dvdtape'
+name = 'dvdtape'
+
+[[package]]
+channel = 'debian'
+name = 'dvdtape'

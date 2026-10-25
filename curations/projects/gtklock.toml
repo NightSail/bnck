@@ -1,0 +1,12 @@
+id = 'gtklock'
+name = 'gtklock'
+
+homepage = 'https://github.com/jovanlanik/gtklock'
+
+[[package]]
+channel = 'arch'
+name = 'gtklock'
+
+[[package]]
+channel = 'debian'
+name = 'gtklock'

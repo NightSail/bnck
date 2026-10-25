@@ -1,0 +1,8 @@
+id = 'git-fame'
+name = 'git-fame'
+
+homepage = 'https://pypi.python.org/pypi/git-fame'
+
+[[package]]
+channel = 'fedora'
+name = 'git-fame'

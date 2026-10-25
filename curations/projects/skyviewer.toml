@@ -1,0 +1,8 @@
+id = 'skyviewer'
+name = 'skyviewer'
+
+homepage = 'http://lambda.gsfc.nasa.gov/toolbox/tb_skyviewer_ov.cfm'
+
+[[package]]
+channel = 'fedora'
+name = 'skyviewer'

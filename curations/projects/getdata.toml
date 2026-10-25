@@ -1,0 +1,16 @@
+id = 'getdata'
+name = 'getdata'
+
+homepage = 'https://getdata.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libgetdata-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'getdata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgetdata'

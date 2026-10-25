@@ -1,0 +1,16 @@
+id = 'phoc'
+name = 'phoc'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/phoc'
+
+[[package]]
+channel = 'arch'
+name = 'phoc'
+
+[[package]]
+channel = 'debian'
+name = 'phoc'
+
+[[package]]
+channel = 'fedora'
+name = 'phoc'

@@ -1,0 +1,8 @@
+id = 'erlang-gpb'
+name = 'erlang-gpb'
+
+homepage = 'https://github.com/tomas-abrahamsson/gpb'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-gpb'

@@ -1,0 +1,12 @@
+id = 'altermime'
+name = 'altermime'
+
+homepage = 'https://pldaniels.com/altermime'
+
+[[package]]
+channel = 'debian'
+name = 'altermime'
+
+[[package]]
+channel = 'fedora'
+name = 'altermime'

@@ -1,0 +1,8 @@
+id = 'spass'
+name = 'spass'
+
+homepage = 'http://www.mpi-inf.mpg.de/departments/automation-of-logic/software/spass-workbench/classic-spass-theorem-prover'
+
+[[package]]
+channel = 'debian'
+name = 'spass'

@@ -1,0 +1,8 @@
+id = 'libalkimia'
+name = 'libalkimia'
+
+homepage = 'https://community.kde.org/Alkimia/libalkimia'
+
+[[package]]
+channel = 'arch'
+name = 'libalkimia'

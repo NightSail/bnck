@@ -1,0 +1,9 @@
+id = 'planck'
+name = 'planck'
+
+homepage = 'https://planck-repl.org'
+repository = 'https://github.com/planck-repl/planck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/planck'

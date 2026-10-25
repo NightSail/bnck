@@ -1,0 +1,12 @@
+id = 'glew-glew'
+name = 'glew'
+
+homepage = 'http://glew.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'eglew-utils'
+
+[[package]]
+channel = 'debian'
+name = 'glew-utils'

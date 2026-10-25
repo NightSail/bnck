@@ -1,0 +1,8 @@
+id = 'python3-netaddr-shell'
+name = 'python3-netaddr-shell'
+
+homepage = 'https://github.com/netaddr/netaddr'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-netaddr-shell'

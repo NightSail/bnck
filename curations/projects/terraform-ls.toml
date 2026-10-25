@@ -1,0 +1,8 @@
+id = 'terraform-ls'
+name = 'terraform-ls'
+
+repository = 'https://github.com/hashicorp/terraform-ls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-ls'

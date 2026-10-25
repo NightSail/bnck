@@ -1,0 +1,8 @@
+id = 'wmbattery'
+name = 'wmbattery'
+
+homepage = 'https://www.dockapps.net/wmbattery'
+
+[[package]]
+channel = 'debian'
+name = 'wmbattery'

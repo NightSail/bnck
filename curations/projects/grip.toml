@@ -1,0 +1,16 @@
+id = 'grip'
+name = 'grip'
+
+homepage = 'https://github.com/joeyespo/grip'
+
+[[package]]
+channel = 'debian'
+name = 'grip'
+
+[[package]]
+channel = 'fedora'
+name = 'grip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grip'

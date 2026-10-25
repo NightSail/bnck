@@ -1,0 +1,12 @@
+id = 'grout'
+name = 'grout'
+
+homepage = 'https://github.com/DPDK/grout'
+
+[[package]]
+channel = 'debian'
+name = 'grout'
+
+[[package]]
+channel = 'fedora'
+name = 'grout'

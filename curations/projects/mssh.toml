@@ -1,0 +1,8 @@
+id = 'mssh'
+name = 'mssh'
+
+homepage = 'https://hgarcia.es'
+
+[[package]]
+channel = 'debian'
+name = 'mssh'

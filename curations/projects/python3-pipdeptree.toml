@@ -1,0 +1,12 @@
+id = 'python3-pipdeptree'
+name = 'python3-pipdeptree'
+
+homepage = 'https://github.com/naiquevin/pipdeptree'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pipdeptree'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pipdeptree'

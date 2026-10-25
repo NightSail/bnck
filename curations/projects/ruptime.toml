@@ -1,0 +1,12 @@
+id = 'ruptime'
+name = 'ruptime'
+
+homepage = 'https://github.com/alexmyczko/ruptime'
+
+[[package]]
+channel = 'debian'
+name = 'ruptime'
+
+[[package]]
+channel = 'debian'
+name = 'ruptimed'

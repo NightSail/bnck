@@ -1,0 +1,8 @@
+id = 'voltron'
+name = 'voltron'
+
+homepage = 'https://github.com/snare/voltron'
+
+[[package]]
+channel = 'debian'
+name = 'voltron'

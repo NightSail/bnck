@@ -1,0 +1,8 @@
+id = 'caire'
+name = 'caire'
+
+repository = 'https://github.com/esimov/caire.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/caire'

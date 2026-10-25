@@ -1,0 +1,8 @@
+id = 'csync2'
+name = 'csync2'
+
+homepage = 'https://github.com/LINBIT/csync2'
+
+[[package]]
+channel = 'debian'
+name = 'csync2'

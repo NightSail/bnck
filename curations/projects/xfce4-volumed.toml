@@ -1,0 +1,8 @@
+id = 'xfce4-volumed'
+name = 'xfce4-volumed'
+
+homepage = 'https://git.xfce.org/apps/xfce4-volumed-pulse'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-volumed'

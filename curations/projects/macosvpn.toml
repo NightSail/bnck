@@ -1,0 +1,8 @@
+id = 'macosvpn'
+name = 'macosvpn'
+
+homepage = 'https://github.com/halo/macosvpn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macosvpn'

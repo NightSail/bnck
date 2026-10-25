@@ -1,0 +1,8 @@
+id = 'atomgit-cli'
+name = 'atomgit-cli'
+
+repository = 'https://atomgit.com/hust-open-atom-club/atomgit-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atomgit-cli'

@@ -1,0 +1,8 @@
+id = 'suckless-tools'
+name = 'suckless-tools'
+
+homepage = 'https://www.suckless.org'
+
+[[package]]
+channel = 'debian'
+name = 'suckless-tools'

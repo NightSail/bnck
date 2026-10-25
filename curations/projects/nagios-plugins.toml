@@ -1,0 +1,8 @@
+id = 'nagios-plugins'
+name = 'nagios-plugins'
+
+homepage = 'https://www.nagios-plugins.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nagios-plugins'

@@ -1,0 +1,12 @@
+id = 'hqx'
+name = 'hqx'
+
+repository = 'https://github.com/grom358/hqx.git'
+
+[[package]]
+channel = 'fedora'
+name = 'hqx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hqx'

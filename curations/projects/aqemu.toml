@@ -1,0 +1,8 @@
+id = 'aqemu'
+name = 'aqemu'
+
+homepage = 'https://github.com/tobimensch/aqemu'
+
+[[package]]
+channel = 'debian'
+name = 'aqemu'

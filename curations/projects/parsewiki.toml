@@ -1,0 +1,6 @@
+id = 'parsewiki'
+name = 'parsewiki'
+
+[[package]]
+channel = 'debian'
+name = 'parsewiki'

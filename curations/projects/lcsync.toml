@@ -1,0 +1,8 @@
+id = 'lcsync'
+name = 'lcsync'
+
+homepage = 'https://librecast.net/lcsync.html'
+
+[[package]]
+channel = 'debian'
+name = 'lcsync'

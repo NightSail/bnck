@@ -1,0 +1,8 @@
+id = 'python3-inema'
+name = 'python3-inema'
+
+homepage = 'http://git.sysmocom.de/python-inema'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-inema'

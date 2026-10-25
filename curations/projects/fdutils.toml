@@ -1,0 +1,8 @@
+id = 'fdutils'
+name = 'fdutils'
+
+homepage = 'https://fdutils.linux.lu'
+
+[[package]]
+channel = 'debian'
+name = 'fdutils'

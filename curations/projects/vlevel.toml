@@ -1,0 +1,8 @@
+id = 'vlevel'
+name = 'vlevel'
+
+homepage = 'https://github.com/radiocicletta/vlevel'
+
+[[package]]
+channel = 'debian'
+name = 'vlevel'

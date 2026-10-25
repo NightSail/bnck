@@ -50,3 +50,7 @@ name = 'transmission-gtk'
 [[package]]
 channel = 'fedora'
 name = 'transmission-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/transmission-cli'

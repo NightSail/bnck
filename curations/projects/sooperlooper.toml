@@ -1,0 +1,12 @@
+id = 'sooperlooper'
+name = 'sooperlooper'
+
+homepage = 'https://sonosaurus.com/sooperlooper'
+
+[[package]]
+channel = 'debian'
+name = 'sooperlooper'
+
+[[package]]
+channel = 'fedora'
+name = 'sooperlooper'

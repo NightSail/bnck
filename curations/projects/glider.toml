@@ -1,0 +1,12 @@
+id = 'glider'
+name = 'glider'
+
+repository = 'https://github.com/nadoo/glider.git'
+
+[[package]]
+channel = 'arch'
+name = 'glider'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glider'

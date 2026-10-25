@@ -1,0 +1,8 @@
+id = 'gmemusage'
+name = 'gmemusage'
+
+homepage = 'https://svn.tliquest.net/viewvc'
+
+[[package]]
+channel = 'debian'
+name = 'gmemusage'

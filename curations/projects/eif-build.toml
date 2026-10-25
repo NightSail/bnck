@@ -1,0 +1,8 @@
+id = 'eif-build'
+name = 'eif_build'
+
+homepage = 'https://crates.io/crates/eif_build'
+
+[[package]]
+channel = 'fedora'
+name = 'eif_build'

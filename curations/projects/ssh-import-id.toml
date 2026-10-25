@@ -1,0 +1,8 @@
+id = 'ssh-import-id'
+name = 'ssh-import-id'
+
+homepage = 'https://launchpad.net/ssh-import-id'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-import-id'

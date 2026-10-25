@@ -4,5 +4,17 @@ name = 'hlint'
 homepage = 'https://hackage.haskell.org/package/hlint'
 
 [[package]]
+channel = 'arch'
+name = 'hlint'
+
+[[package]]
+channel = 'debian'
+name = 'hlint'
+
+[[package]]
 channel = 'fedora'
 name = 'hlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hlint'

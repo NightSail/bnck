@@ -1,0 +1,8 @@
+id = 'libkate-tools'
+name = 'libkate-tools'
+
+homepage = 'https://wiki.xiph.org/index.php/OggKate'
+
+[[package]]
+channel = 'debian'
+name = 'libkate-tools'

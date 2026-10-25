@@ -1,0 +1,37 @@
+id = 'open-scene-graph'
+name = 'open-scene-graph'
+
+homepage = 'http://www.openscenegraph.org'
+repository = 'https://github.com/openscenegraph/OpenSceneGraph.git'
+
+[[package]]
+channel = 'arch'
+name = 'openscenegraph'
+
+[[package]]
+channel = 'debian'
+name = 'openscenegraph'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenSceneGraph'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenSceneGraph-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenSceneGraph-examples-SDL'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenSceneGraph-examples-fltk'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenSceneGraph-examples-gtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-scene-graph'

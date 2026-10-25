@@ -1,0 +1,8 @@
+id = 'autorest'
+name = 'autorest'
+
+homepage = 'https://github.com/Azure/autorest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autorest'

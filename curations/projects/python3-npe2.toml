@@ -1,0 +1,8 @@
+id = 'python3-npe2'
+name = 'python3-npe2'
+
+homepage = 'https://github.com/napari/npe2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-npe2'

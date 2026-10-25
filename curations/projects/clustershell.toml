@@ -1,0 +1,12 @@
+id = 'clustershell'
+name = 'clustershell'
+
+homepage = 'https://clustershell.github.io/clustershell'
+
+[[package]]
+channel = 'arch'
+name = 'clustershell'
+
+[[package]]
+channel = 'debian'
+name = 'clustershell'

@@ -1,0 +1,20 @@
+id = 'oar'
+name = 'oar'
+
+homepage = 'http://oar.imag.fr'
+
+[[package]]
+channel = 'debian'
+name = 'oar-common'
+
+[[package]]
+channel = 'debian'
+name = 'oar-node'
+
+[[package]]
+channel = 'debian'
+name = 'oar-server'
+
+[[package]]
+channel = 'debian'
+name = 'oar-user'

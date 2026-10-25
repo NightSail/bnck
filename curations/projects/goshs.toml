@@ -1,0 +1,9 @@
+id = 'goshs'
+name = 'goshs'
+
+homepage = 'https://goshs.de'
+repository = 'https://github.com/goshs-labs/goshs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goshs'

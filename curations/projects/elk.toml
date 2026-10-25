@@ -1,0 +1,20 @@
+id = 'elk'
+name = 'elk'
+
+homepage = 'http://sam.zoy.org/elk'
+
+[[package]]
+channel = 'debian'
+name = 'elk'
+
+[[package]]
+channel = 'debian'
+name = 'elk-lapw'
+
+[[package]]
+channel = 'fedora'
+name = 'elk'
+
+[[package]]
+channel = 'fedora'
+name = 'elk-common'

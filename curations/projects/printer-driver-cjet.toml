@@ -1,0 +1,6 @@
+id = 'printer-driver-cjet'
+name = 'printer-driver-cjet'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-cjet'

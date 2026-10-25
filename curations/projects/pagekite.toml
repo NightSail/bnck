@@ -1,0 +1,8 @@
+id = 'pagekite'
+name = 'pagekite'
+
+homepage = 'https://pagekite.net'
+
+[[package]]
+channel = 'debian'
+name = 'pagekite'

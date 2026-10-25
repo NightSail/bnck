@@ -1,0 +1,8 @@
+id = 'phing'
+name = 'phing'
+
+homepage = 'https://www.phing.info'
+
+[[package]]
+channel = 'debian'
+name = 'phing'

@@ -1,0 +1,8 @@
+id = 'xinput-calibrator'
+name = 'xinput-calibrator'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xinput-calibrator'
+
+[[package]]
+channel = 'debian'
+name = 'xinput-calibrator'

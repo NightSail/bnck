@@ -1,0 +1,6 @@
+id = 'gcc-or1k-elf'
+name = 'gcc-or1k-elf'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-or1k-elf'

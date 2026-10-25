@@ -1,0 +1,8 @@
+id = 'files-to-prompt'
+name = 'files-to-prompt'
+
+homepage = 'https://github.com/simonw/files-to-prompt'
+
+[[package]]
+channel = 'debian'
+name = 'files-to-prompt'

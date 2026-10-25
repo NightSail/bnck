@@ -1,0 +1,8 @@
+id = 'npd6'
+name = 'npd6'
+
+homepage = 'https://github.com/npd6/npd6'
+
+[[package]]
+channel = 'debian'
+name = 'npd6'

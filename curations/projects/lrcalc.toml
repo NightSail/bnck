@@ -1,0 +1,12 @@
+id = 'lrcalc'
+name = 'lrcalc'
+
+homepage = 'https://math.rutgers.edu/~asbuch/lrcalc'
+
+[[package]]
+channel = 'arch'
+name = 'lrcalc'
+
+[[package]]
+channel = 'debian'
+name = 'lrcalc'

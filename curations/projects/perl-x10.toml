@@ -1,0 +1,8 @@
+id = 'perl-x10'
+name = 'perl-X10'
+
+homepage = 'https://metacpan.org/release/X10'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-X10'

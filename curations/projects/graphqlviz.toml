@@ -1,0 +1,8 @@
+id = 'graphqlviz'
+name = 'graphqlviz'
+
+homepage = 'https://github.com/sheerun/graphqlviz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphqlviz'

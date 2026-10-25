@@ -1,0 +1,8 @@
+id = 'ukui-session-manager'
+name = 'ukui-session-manager'
+
+homepage = 'https://gitee.com/openkylin/ukui-session-manager'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-session-manager'

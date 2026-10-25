@@ -1,0 +1,8 @@
+id = 'fabric-ai'
+name = 'fabric-ai'
+
+repository = 'https://github.com/danielmiessler/fabric.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fabric-ai'

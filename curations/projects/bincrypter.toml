@@ -1,0 +1,8 @@
+id = 'bincrypter'
+name = 'bincrypter'
+
+homepage = 'https://github.com/hackerschoice/bincrypter'
+
+[[package]]
+channel = 'debian'
+name = 'bincrypter'

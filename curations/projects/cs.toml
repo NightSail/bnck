@@ -1,0 +1,8 @@
+id = 'cs'
+name = 'cs'
+
+homepage = 'https://github.com/exoscale/cs'
+
+[[package]]
+channel = 'debian'
+name = 'cs'

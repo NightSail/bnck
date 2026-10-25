@@ -1,0 +1,8 @@
+id = 'duma'
+name = 'duma'
+
+homepage = 'https://github.com/johnsonjh/duma'
+
+[[package]]
+channel = 'debian'
+name = 'duma'

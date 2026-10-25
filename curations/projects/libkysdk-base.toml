@@ -1,0 +1,12 @@
+id = 'libkysdk-base'
+name = 'libkysdk-base'
+
+homepage = 'https://gitee.com/openkylin/libkysdk-base'
+
+[[package]]
+channel = 'arch'
+name = 'libkysdk-base'
+
+[[package]]
+channel = 'debian'
+name = 'libkysdk-base'

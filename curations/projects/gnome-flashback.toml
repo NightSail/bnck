@@ -1,0 +1,16 @@
+id = 'gnome-flashback'
+name = 'gnome-flashback'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeFlashback'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-flashback'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-flashback'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-flashback'

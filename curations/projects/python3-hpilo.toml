@@ -1,0 +1,12 @@
+id = 'python3-hpilo'
+name = 'python3-hpilo'
+
+homepage = 'https://github.com/seveas/python-hpilo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hpilo'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hpilo'

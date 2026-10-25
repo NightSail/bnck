@@ -1,0 +1,16 @@
+id = 'mako'
+name = 'mako'
+
+homepage = 'https://makojs.dev'
+
+[[package]]
+channel = 'arch'
+name = 'mako'
+
+[[package]]
+channel = 'fedora'
+name = 'mako'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mako'

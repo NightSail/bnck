@@ -1,0 +1,8 @@
+id = 'rt-app'
+name = 'rt-app'
+
+homepage = 'https://github.com/scheduler-tools/rt-app'
+
+[[package]]
+channel = 'debian'
+name = 'rt-app'

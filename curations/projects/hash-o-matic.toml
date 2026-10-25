@@ -1,0 +1,12 @@
+id = 'hash-o-matic'
+name = 'hash-o-matic'
+
+homepage = 'https://apps.kde.org/hashomatic'
+
+[[package]]
+channel = 'arch'
+name = 'hash-o-matic'
+
+[[package]]
+channel = 'fedora'
+name = 'hash-o-matic'

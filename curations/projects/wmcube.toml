@@ -1,0 +1,8 @@
+id = 'wmcube'
+name = 'wmcube'
+
+homepage = 'https://www.dockapps.net/wmcube'
+
+[[package]]
+channel = 'debian'
+name = 'wmcube'

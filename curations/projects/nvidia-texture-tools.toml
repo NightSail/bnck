@@ -1,0 +1,8 @@
+id = 'nvidia-texture-tools'
+name = 'nvidia-texture-tools'
+
+homepage = 'https://github.com/castano/nvidia-texture-tools/wiki'
+
+[[package]]
+channel = 'fedora'
+name = 'nvidia-texture-tools'

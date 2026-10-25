@@ -1,0 +1,8 @@
+id = 'genxdr'
+name = 'genxdr'
+
+homepage = 'https://github.com/calmh/xdr'
+
+[[package]]
+channel = 'debian'
+name = 'genxdr'

@@ -1,0 +1,8 @@
+id = 'assetfinder'
+name = 'assetfinder'
+
+homepage = 'https://github.com/tomnomnom/assetfinder'
+
+[[package]]
+channel = 'debian'
+name = 'assetfinder'

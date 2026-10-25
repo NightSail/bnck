@@ -1,0 +1,8 @@
+id = 'osmo-sdr'
+name = 'osmo-sdr'
+
+homepage = 'https://osmocom.org/projects/osmosdr'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-sdr'

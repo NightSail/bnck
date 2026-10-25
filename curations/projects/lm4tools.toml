@@ -1,0 +1,16 @@
+id = 'lm4tools'
+name = 'lm4tools'
+
+homepage = 'https://github.com/utzig/lm4tools'
+
+[[package]]
+channel = 'debian'
+name = 'lm4flash'
+
+[[package]]
+channel = 'debian'
+name = 'lmicdiusb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lm4tools'

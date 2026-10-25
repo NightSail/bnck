@@ -1,0 +1,12 @@
+id = 'kajongg'
+name = 'kajongg'
+
+homepage = 'https://apps.kde.org/kajongg'
+
+[[package]]
+channel = 'arch'
+name = 'kajongg'
+
+[[package]]
+channel = 'fedora'
+name = 'kajongg'

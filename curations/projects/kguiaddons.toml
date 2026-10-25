@@ -1,0 +1,12 @@
+id = 'kguiaddons'
+name = 'kguiaddons'
+
+homepage = 'https://invent.kde.org/frameworks/kguiaddons'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6guiaddons-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kguiaddons'

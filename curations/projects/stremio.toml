@@ -1,0 +1,8 @@
+id = 'stremio'
+name = 'stremio'
+
+homepage = 'https://www.stremio.com'
+
+[[package]]
+channel = 'debian'
+name = 'stremio'

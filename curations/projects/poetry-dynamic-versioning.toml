@@ -1,0 +1,16 @@
+id = 'poetry-dynamic-versioning'
+name = 'poetry-dynamic-versioning'
+
+homepage = 'https://github.com/mtkennerly/poetry-dynamic-versioning'
+
+[[package]]
+channel = 'arch'
+name = 'python-poetry-dynamic-versioning'
+
+[[package]]
+channel = 'debian'
+name = 'python3-poetry-dynamic-versioning'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-poetry-dynamic-versioning'

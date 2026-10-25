@@ -1,0 +1,16 @@
+id = 'moor'
+name = 'moor'
+
+repository = 'https://github.com/walles/moor.git'
+
+[[package]]
+channel = 'arch'
+name = 'moor'
+
+[[package]]
+channel = 'debian'
+name = 'moor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moor'

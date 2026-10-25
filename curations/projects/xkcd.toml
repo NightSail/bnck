@@ -1,0 +1,9 @@
+id = 'xkcd'
+name = 'xkcd'
+
+homepage = 'https://git.hanabi.in/xkcd-go'
+repository = 'https://git.hanabi.in/repos/xkcd-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xkcd'

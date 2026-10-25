@@ -1,0 +1,12 @@
+id = 'dictionaries-common'
+name = 'dictionaries-common'
+
+homepage = 'https://salsa.debian.org/debian/dictionaries-common'
+
+[[package]]
+channel = 'debian'
+name = 'dictionaries-common'
+
+[[package]]
+channel = 'debian'
+name = 'dictionaries-common-dev'

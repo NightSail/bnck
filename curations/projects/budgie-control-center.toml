@@ -1,0 +1,16 @@
+id = 'budgie-control-center'
+name = 'budgie-control-center'
+
+homepage = 'https://github.com/BuddiesOfBudgie/budgie-control-center'
+
+[[package]]
+channel = 'arch'
+name = 'budgie-control-center'
+
+[[package]]
+channel = 'debian'
+name = 'budgie-control-center'
+
+[[package]]
+channel = 'fedora'
+name = 'budgie-control-center'

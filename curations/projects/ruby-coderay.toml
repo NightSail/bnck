@@ -1,0 +1,8 @@
+id = 'ruby-coderay'
+name = 'ruby-coderay'
+
+homepage = 'https://github.com/rubychan/coderay'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-coderay'

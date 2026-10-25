@@ -1,0 +1,8 @@
+id = 'arduino-fwuploader'
+name = 'arduino-fwuploader'
+
+homepage = 'https://github.com/arduino/arduino-fwuploader'
+
+[[package]]
+channel = 'arch'
+name = 'arduino-fwuploader'

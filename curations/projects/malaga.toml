@@ -1,0 +1,8 @@
+id = 'malaga'
+name = 'malaga'
+
+homepage = 'http://home.arcor.de/bjoern-beutel/malaga'
+
+[[package]]
+channel = 'fedora'
+name = 'malaga'

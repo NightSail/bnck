@@ -1,0 +1,8 @@
+id = 'catcodec'
+name = 'catcodec'
+
+homepage = 'https://github.com/OpenTTD/catcodec'
+
+[[package]]
+channel = 'debian'
+name = 'catcodec'

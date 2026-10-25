@@ -1,0 +1,21 @@
+id = 'passt'
+name = 'passt'
+
+homepage = 'https://passt.top/passt/about'
+repository = 'git://passt.top/passt'
+
+[[package]]
+channel = 'arch'
+name = 'passt'
+
+[[package]]
+channel = 'debian'
+name = 'passt'
+
+[[package]]
+channel = 'fedora'
+name = 'passt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/passt'

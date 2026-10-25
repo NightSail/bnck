@@ -1,0 +1,12 @@
+id = 'dancer'
+name = 'Dancer'
+
+homepage = 'https://metacpan.org/release/Dancer'
+
+[[package]]
+channel = 'debian'
+name = 'libdancer-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Dancer'

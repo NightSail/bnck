@@ -1,0 +1,16 @@
+id = 'xblast'
+name = 'xblast'
+
+homepage = 'http://xblast.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'xblast'
+
+[[package]]
+channel = 'fedora'
+name = 'xblast-common'
+
+[[package]]
+channel = 'fedora'
+name = 'xblast-x11'

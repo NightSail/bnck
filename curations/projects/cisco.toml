@@ -1,0 +1,16 @@
+id = 'cisco'
+name = 'cisco'
+
+homepage = 'https://cisco.github.io/ChezScheme'
+
+[[package]]
+channel = 'debian'
+name = 'chezscheme'
+
+[[package]]
+channel = 'fedora'
+name = 'chez-scheme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chezscheme'

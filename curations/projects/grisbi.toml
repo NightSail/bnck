@@ -1,0 +1,12 @@
+id = 'grisbi'
+name = 'grisbi'
+
+homepage = 'https://www.grisbi.org'
+
+[[package]]
+channel = 'debian'
+name = 'grisbi'
+
+[[package]]
+channel = 'fedora'
+name = 'grisbi'

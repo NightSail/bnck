@@ -1,0 +1,8 @@
+id = 'external-editor-revived'
+name = 'external-editor-revived'
+
+homepage = 'https://github.com/Frederick888/external-editor-revived'
+
+[[package]]
+channel = 'fedora'
+name = 'external-editor-revived'

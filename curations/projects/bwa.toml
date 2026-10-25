@@ -1,0 +1,17 @@
+id = 'bwa'
+name = 'bwa'
+
+homepage = 'https://bio-bwa.sourceforge.net'
+repository = 'https://github.com/lh3/bwa.git'
+
+[[package]]
+channel = 'debian'
+name = 'bwa'
+
+[[package]]
+channel = 'fedora'
+name = 'bwa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bwa'

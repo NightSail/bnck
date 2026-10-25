@@ -1,0 +1,12 @@
+id = 'xrdp'
+name = 'xrdp'
+
+homepage = 'https://www.xrdp.org'
+
+[[package]]
+channel = 'debian'
+name = 'xrdp'
+
+[[package]]
+channel = 'fedora'
+name = 'xrdp'

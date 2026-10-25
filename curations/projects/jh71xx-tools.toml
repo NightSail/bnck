@@ -1,0 +1,8 @@
+id = 'jh71xx-tools'
+name = 'jh71xx-tools'
+
+homepage = 'https://github.com/kprasadvnsi/JH71xx-tools'
+
+[[package]]
+channel = 'debian'
+name = 'jh71xx-tools'

@@ -1,0 +1,36 @@
+id = 'scipopt'
+name = 'scipopt'
+
+homepage = 'https://www.scipopt.org'
+
+[[package]]
+channel = 'arch'
+name = 'papilo'
+
+[[package]]
+channel = 'arch'
+name = 'scip'
+
+[[package]]
+channel = 'arch'
+name = 'soplex'
+
+[[package]]
+channel = 'debian'
+name = 'scip'
+
+[[package]]
+channel = 'fedora'
+name = 'papilo'
+
+[[package]]
+channel = 'fedora'
+name = 'scip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/papilo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scip'

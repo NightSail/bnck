@@ -1,0 +1,8 @@
+id = 'python3-basis-set-exchange'
+name = 'python3-basis_set_exchange'
+
+homepage = 'https://github.com/MolSSI-BSE/basis_set_exchange'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-basis_set_exchange'

@@ -1,0 +1,8 @@
+id = 'python3-sphinx-ablog'
+name = 'python3-sphinx-ablog'
+
+homepage = 'https://github.com/sunpy/ablog'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-ablog'

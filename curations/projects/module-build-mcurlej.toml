@@ -1,0 +1,8 @@
+id = 'module-build-mcurlej'
+name = 'module-build'
+
+homepage = 'https://github.com/mcurlej/module-build'
+
+[[package]]
+channel = 'fedora'
+name = 'module-build'

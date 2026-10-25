@@ -1,0 +1,8 @@
+id = 'letterize'
+name = 'letterize'
+
+homepage = 'http://www.catb.org/~esr/letterize'
+
+[[package]]
+channel = 'debian'
+name = 'letterize'

@@ -1,0 +1,8 @@
+id = 'hinge'
+name = 'hinge'
+
+homepage = 'https://github.com/HingeAssembler/HINGE'
+
+[[package]]
+channel = 'debian'
+name = 'hinge'

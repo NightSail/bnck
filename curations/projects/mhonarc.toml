@@ -1,0 +1,17 @@
+id = 'mhonarc'
+name = 'mhonarc'
+
+homepage = 'https://metacpan.org/dist/MHonArc/view/mhonarc'
+repository = 'https://github.com/sympa-community/mhonarc.git'
+
+[[package]]
+channel = 'debian'
+name = 'mhonarc'
+
+[[package]]
+channel = 'fedora'
+name = 'mhonarc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mhonarc'

@@ -1,0 +1,13 @@
+id = 'tcpstat'
+name = 'tcpstat'
+
+homepage = 'http://www.frenchfries.net/paul/tcpstat'
+repository = 'https://github.com/jtt/tcpstat.git'
+
+[[package]]
+channel = 'debian'
+name = 'tcpstat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcpstat'

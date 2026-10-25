@@ -1,0 +1,8 @@
+id = 'python3-dataclass-wizard'
+name = 'python3-dataclass-wizard'
+
+homepage = 'https://github.com/rnag/dataclass-wizard'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dataclass-wizard'

@@ -1,0 +1,12 @@
+id = 'systray-x'
+name = 'systray-x'
+
+homepage = 'https://github.com/Ximi1970/systray-x'
+
+[[package]]
+channel = 'arch'
+name = 'systray-x-common'
+
+[[package]]
+channel = 'arch'
+name = 'systray-x-kde'

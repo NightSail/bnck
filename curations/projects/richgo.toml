@@ -1,0 +1,8 @@
+id = 'richgo'
+name = 'richgo'
+
+repository = 'https://github.com/kyoh86/richgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/richgo'

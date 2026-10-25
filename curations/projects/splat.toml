@@ -1,0 +1,12 @@
+id = 'splat'
+name = 'splat'
+
+homepage = 'http://www.qsl.net/kd2bd/splat.html'
+
+[[package]]
+channel = 'debian'
+name = 'splat'
+
+[[package]]
+channel = 'fedora'
+name = 'splat'

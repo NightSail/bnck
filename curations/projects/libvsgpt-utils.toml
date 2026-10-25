@@ -1,0 +1,8 @@
+id = 'libvsgpt-utils'
+name = 'libvsgpt-utils'
+
+homepage = 'https://github.com/libyal/libvsgpt'
+
+[[package]]
+channel = 'debian'
+name = 'libvsgpt-utils'

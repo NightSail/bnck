@@ -1,0 +1,8 @@
+id = 'peruse'
+name = 'peruse'
+
+homepage = 'https://peruse.kde.org'
+
+[[package]]
+channel = 'debian'
+name = 'peruse'

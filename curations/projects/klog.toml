@@ -1,0 +1,17 @@
+id = 'klog'
+name = 'klog'
+
+homepage = 'https://github.com/ea4k/klog'
+repository = 'https://github.com/jotaen/klog.git'
+
+[[package]]
+channel = 'debian'
+name = 'klog'
+
+[[package]]
+channel = 'fedora'
+name = 'klog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/klog'

@@ -1,0 +1,9 @@
+id = 'lanraragi'
+name = 'lanraragi'
+
+homepage = 'https://lrr.tvc-16.science'
+repository = 'https://github.com/Difegue/LANraragi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lanraragi'

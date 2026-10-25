@@ -1,0 +1,8 @@
+id = 'blast'
+name = 'blast'
+
+homepage = 'https://blast.ncbi.nlm.nih.gov'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blast'

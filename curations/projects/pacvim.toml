@@ -1,0 +1,8 @@
+id = 'pacvim'
+name = 'pacvim'
+
+repository = 'https://github.com/jmoon018/PacVim.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pacvim'

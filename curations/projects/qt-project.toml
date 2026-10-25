@@ -1,0 +1,48 @@
+id = 'qt-project'
+name = 'qt-project'
+
+homepage = 'https://qt-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'qtchooser'
+
+[[package]]
+channel = 'fedora'
+name = 'qt'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-assistant'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-config'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-qdbusviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'qt-qvfb'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-qtbase-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qtbase'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-qtbase-devel'

@@ -1,0 +1,8 @@
+id = 'pgpainless-cli'
+name = 'pgpainless-cli'
+
+homepage = 'https://pgpainless.org'
+
+[[package]]
+channel = 'debian'
+name = 'pgpainless-cli'

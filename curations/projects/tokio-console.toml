@@ -1,0 +1,8 @@
+id = 'tokio-console'
+name = 'tokio-console'
+
+homepage = 'https://github.com/tokio-rs/console'
+
+[[package]]
+channel = 'arch'
+name = 'tokio-console'

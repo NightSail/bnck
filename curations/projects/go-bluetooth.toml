@@ -1,0 +1,8 @@
+id = 'go-bluetooth'
+name = 'go-bluetooth'
+
+homepage = 'https://github.com/muka/go-bluetooth'
+
+[[package]]
+channel = 'debian'
+name = 'go-bluetooth'

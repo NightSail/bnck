@@ -1,0 +1,12 @@
+id = 'avfs'
+name = 'avfs'
+
+homepage = 'http://avf.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'avfs'
+
+[[package]]
+channel = 'debian'
+name = 'avfs'

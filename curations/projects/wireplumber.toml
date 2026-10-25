@@ -8,6 +8,10 @@ channel = 'arch'
 name = 'wireplumber'
 
 [[package]]
+channel = 'debian'
+name = 'wireplumber'
+
+[[package]]
 channel = 'fedora'
 name = 'wireplumber'
 

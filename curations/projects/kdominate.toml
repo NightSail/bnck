@@ -1,0 +1,8 @@
+id = 'kdominate'
+name = 'kdominate'
+
+homepage = 'https://apps.kde.org/kdominate'
+
+[[package]]
+channel = 'arch'
+name = 'kdominate'

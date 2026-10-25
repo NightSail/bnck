@@ -1,0 +1,22 @@
+id = 'sreview'
+name = 'sreview'
+
+[[package]]
+channel = 'debian'
+name = 'sreview-common'
+
+[[package]]
+channel = 'debian'
+name = 'sreview-detect'
+
+[[package]]
+channel = 'debian'
+name = 'sreview-encoder'
+
+[[package]]
+channel = 'debian'
+name = 'sreview-master'
+
+[[package]]
+channel = 'debian'
+name = 'sreview-web'

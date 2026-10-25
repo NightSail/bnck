@@ -1,0 +1,8 @@
+id = 'epeg'
+name = 'epeg'
+
+repository = 'https://github.com/mattes/epeg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epeg'

@@ -1,0 +1,12 @@
+id = 'elph'
+name = 'elph'
+
+homepage = 'https://www.cbcb.umd.edu/software/ELPH'
+
+[[package]]
+channel = 'debian'
+name = 'elph'
+
+[[package]]
+channel = 'fedora'
+name = 'elph'

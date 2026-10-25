@@ -1,0 +1,17 @@
+id = 'udunits'
+name = 'udunits'
+
+homepage = 'https://www.unidata.ucar.edu/software/udunits'
+repository = 'https://github.com/Unidata/UDUNITS-2.git'
+
+[[package]]
+channel = 'debian'
+name = 'udunits-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'udunits2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/udunits'

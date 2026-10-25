@@ -1,0 +1,9 @@
+id = 'aztfexport'
+name = 'aztfexport'
+
+homepage = 'https://azure.github.io/aztfexport'
+repository = 'https://github.com/Azure/aztfexport.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aztfexport'

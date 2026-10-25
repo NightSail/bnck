@@ -1,0 +1,8 @@
+id = 'marcli'
+name = 'marcli'
+
+repository = 'https://github.com/hectorcorrea/marcli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/marcli'

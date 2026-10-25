@@ -1,0 +1,12 @@
+id = 'dsq'
+name = 'dsq'
+
+repository = 'https://github.com/multiprocessio/dsq.git'
+
+[[package]]
+channel = 'arch'
+name = 'dsq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dsq'

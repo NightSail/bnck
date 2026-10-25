@@ -1,0 +1,10 @@
+id = 'xdrawchem'
+name = 'xdrawchem'
+
+[[package]]
+channel = 'debian'
+name = 'xdrawchem'
+
+[[package]]
+channel = 'fedora'
+name = 'xdrawchem'

@@ -1,0 +1,12 @@
+id = 'blog'
+name = 'blog'
+
+homepage = 'https://0pointer.de/blog/projects/being-smart.html'
+
+[[package]]
+channel = 'arch'
+name = 'libatasmart'
+
+[[package]]
+channel = 'debian'
+name = 'libatasmart-bin'

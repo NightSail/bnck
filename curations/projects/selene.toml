@@ -1,0 +1,13 @@
+id = 'selene'
+name = 'selene'
+
+homepage = 'https://kampfkarren.github.io/selene'
+repository = 'https://github.com/Kampfkarren/selene.git'
+
+[[package]]
+channel = 'arch'
+name = 'selene'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/selene'

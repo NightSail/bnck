@@ -1,0 +1,8 @@
+id = 'python3-pyjokes'
+name = 'python3-pyjokes'
+
+homepage = 'http://pyjok.es'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyjokes'

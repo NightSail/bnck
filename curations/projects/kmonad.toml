@@ -1,0 +1,8 @@
+id = 'kmonad'
+name = 'kmonad'
+
+homepage = 'https://hackage.haskell.org/package/kmonad'
+
+[[package]]
+channel = 'arch'
+name = 'kmonad'

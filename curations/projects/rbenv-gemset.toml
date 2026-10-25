@@ -1,0 +1,8 @@
+id = 'rbenv-gemset'
+name = 'rbenv-gemset'
+
+repository = 'https://github.com/jf/rbenv-gemset.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbenv-gemset'

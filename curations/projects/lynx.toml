@@ -1,0 +1,20 @@
+id = 'lynx'
+name = 'lynx'
+
+homepage = 'https://invisible-island.net/lynx'
+
+[[package]]
+channel = 'arch'
+name = 'lynx'
+
+[[package]]
+channel = 'debian'
+name = 'lynx'
+
+[[package]]
+channel = 'fedora'
+name = 'lynx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lynx'

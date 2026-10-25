@@ -1,0 +1,12 @@
+id = 'salmon'
+name = 'salmon'
+
+repository = 'https://github.com/COMBINE-lab/salmon.git'
+
+[[package]]
+channel = 'debian'
+name = 'salmon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/salmon'

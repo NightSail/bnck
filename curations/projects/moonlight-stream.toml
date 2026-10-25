@@ -1,0 +1,12 @@
+id = 'moonlight-stream'
+name = 'moonlight-stream'
+
+homepage = 'https://moonlight-stream.org'
+
+[[package]]
+channel = 'arch'
+name = 'moonlight-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/moonlight'

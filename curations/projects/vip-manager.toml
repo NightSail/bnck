@@ -1,0 +1,12 @@
+id = 'vip-manager'
+name = 'vip-manager'
+
+homepage = 'https://github.com/cybertec-postgresql/vip-manager'
+
+[[package]]
+channel = 'debian'
+name = 'vip-manager'
+
+[[package]]
+channel = 'debian'
+name = 'vip-manager2'

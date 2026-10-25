@@ -1,0 +1,8 @@
+id = 'one-ml'
+name = 'one-ml'
+
+homepage = 'https://people.mpi-sws.org/~rossberg/1ml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/one-ml'

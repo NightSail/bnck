@@ -1,0 +1,9 @@
+id = 'massdriver'
+name = 'massdriver'
+
+homepage = 'https://www.massdriver.cloud'
+repository = 'https://github.com/massdriver-cloud/mass.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/massdriver'

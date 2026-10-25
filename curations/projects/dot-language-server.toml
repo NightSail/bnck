@@ -1,0 +1,8 @@
+id = 'dot-language-server'
+name = 'dot-language-server'
+
+homepage = 'https://github.com/nikeee/dot-language-server'
+
+[[package]]
+channel = 'arch'
+name = 'dot-language-server'

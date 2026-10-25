@@ -1,0 +1,8 @@
+id = 'sugar-sugarlabs'
+name = 'sugar'
+
+homepage = 'https://github.com/sugarlabs/sugar'
+
+[[package]]
+channel = 'arch'
+name = 'sugar'

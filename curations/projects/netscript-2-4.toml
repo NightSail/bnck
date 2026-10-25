@@ -1,0 +1,10 @@
+id = 'netscript-2-4'
+name = 'netscript-2.4'
+
+[[package]]
+channel = 'debian'
+name = 'netscript-2.4'
+
+[[package]]
+channel = 'debian'
+name = 'netscript-ipfilter'

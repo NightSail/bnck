@@ -1,0 +1,16 @@
+id = 'aggregate'
+name = 'aggregate'
+
+homepage = 'https://ftp.isc.org/isc/aggregate'
+
+[[package]]
+channel = 'debian'
+name = 'aggregate'
+
+[[package]]
+channel = 'fedora'
+name = 'aggregate'
+
+[[package]]
+channel = 'fedora'
+name = 'aggregate-ios'

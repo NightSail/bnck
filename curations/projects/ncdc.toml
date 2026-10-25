@@ -1,0 +1,17 @@
+id = 'ncdc'
+name = 'ncdc'
+
+homepage = 'https://dev.yorhel.nl/ncdc'
+repository = 'https://g.blicky.net/ncdc.git'
+
+[[package]]
+channel = 'debian'
+name = 'ncdc'
+
+[[package]]
+channel = 'fedora'
+name = 'ncdc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncdc'

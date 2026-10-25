@@ -1,0 +1,20 @@
+id = 'alot'
+name = 'alot'
+
+repository = 'https://github.com/pazz/alot.git'
+
+[[package]]
+channel = 'arch'
+name = 'alot'
+
+[[package]]
+channel = 'debian'
+name = 'alot'
+
+[[package]]
+channel = 'fedora'
+name = 'alot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alot'

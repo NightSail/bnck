@@ -1,0 +1,8 @@
+id = 'bmf'
+name = 'bmf'
+
+homepage = 'http://sourceforge.net/projects/bmf'
+
+[[package]]
+channel = 'debian'
+name = 'bmf'

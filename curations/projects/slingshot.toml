@@ -1,0 +1,8 @@
+id = 'slingshot'
+name = 'slingshot'
+
+homepage = 'https://github.com/ryanakca/slingshot'
+
+[[package]]
+channel = 'fedora'
+name = 'slingshot'

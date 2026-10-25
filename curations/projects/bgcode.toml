@@ -1,0 +1,8 @@
+id = 'bgcode'
+name = 'bgcode'
+
+homepage = 'https://github.com/prusa3d/libbgcode'
+
+[[package]]
+channel = 'debian'
+name = 'bgcode'

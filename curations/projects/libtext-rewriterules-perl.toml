@@ -1,0 +1,6 @@
+id = 'libtext-rewriterules-perl'
+name = 'libtext-rewriterules-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-rewriterules-perl'

@@ -1,0 +1,8 @@
+id = 'remote-logon-config-agent'
+name = 'remote-logon-config-agent'
+
+homepage = 'https://github.com/ArcticaProject/remote-logon-config-agent'
+
+[[package]]
+channel = 'debian'
+name = 'remote-logon-config-agent'

@@ -1,0 +1,12 @@
+id = 'plasma-browser-integration'
+name = 'plasma-browser-integration'
+
+homepage = 'https://invent.kde.org/plasma/plasma-browser-integration'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-browser-integration'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-browser-integration'

@@ -1,0 +1,17 @@
+id = 'hercules'
+name = 'hercules'
+
+homepage = 'http://www.hercules-390.eu'
+repository = 'https://github.com/SDL-Hercules-390/hyperion.git'
+
+[[package]]
+channel = 'debian'
+name = 'hercules'
+
+[[package]]
+channel = 'fedora'
+name = 'hercules'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hercules'

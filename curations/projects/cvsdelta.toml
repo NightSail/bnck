@@ -1,0 +1,8 @@
+id = 'cvsdelta'
+name = 'cvsdelta'
+
+homepage = 'https://sourceforge.net/projects/cvsdelta'
+
+[[package]]
+channel = 'debian'
+name = 'cvsdelta'

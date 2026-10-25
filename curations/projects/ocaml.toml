@@ -1,0 +1,36 @@
+id = 'ocaml'
+name = 'ocaml'
+
+homepage = 'https://ocaml.org'
+
+[[package]]
+channel = 'arch'
+name = 'ocaml'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-base'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-interp'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ocamldoc'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-runtime'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocaml@4'

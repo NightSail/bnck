@@ -1,0 +1,8 @@
+id = 'sasview'
+name = 'sasview'
+
+homepage = 'https://www.sasview.org'
+
+[[package]]
+channel = 'debian'
+name = 'sasview'

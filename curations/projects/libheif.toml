@@ -1,0 +1,12 @@
+id = 'libheif'
+name = 'libheif'
+
+homepage = 'https://github.com/strukturag/libheif'
+
+[[package]]
+channel = 'arch'
+name = 'libheif'
+
+[[package]]
+channel = 'fedora'
+name = 'libheif-tools'

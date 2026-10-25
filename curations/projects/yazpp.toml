@@ -1,0 +1,8 @@
+id = 'yazpp'
+name = 'yazpp'
+
+homepage = 'https://www.indexdata.com/resources/software/yazpp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yazpp'

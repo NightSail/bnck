@@ -1,0 +1,44 @@
+id = 'tuned-project'
+name = 'tuned-project'
+
+homepage = 'https://tuned-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'tuned'
+
+[[package]]
+channel = 'debian'
+name = 'tuned-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'tuned-ppd'
+
+[[package]]
+channel = 'debian'
+name = 'tuned-utils'
+
+[[package]]
+channel = 'debian'
+name = 'tuned-utils-systemtap'
+
+[[package]]
+channel = 'fedora'
+name = 'tuned'
+
+[[package]]
+channel = 'fedora'
+name = 'tuned-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'tuned-ppd'
+
+[[package]]
+channel = 'fedora'
+name = 'tuned-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'tuned-utils-systemtap'

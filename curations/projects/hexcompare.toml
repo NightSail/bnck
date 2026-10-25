@@ -1,0 +1,8 @@
+id = 'hexcompare'
+name = 'hexcompare'
+
+homepage = 'https://sourceforge.net/projects/hexcompare'
+
+[[package]]
+channel = 'debian'
+name = 'hexcompare'

@@ -1,0 +1,16 @@
+id = 'gst-thumbnailers'
+name = 'gst-thumbnailers'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gst-thumbnailers'
+
+[[package]]
+channel = 'arch'
+name = 'gst-thumbnailers'
+
+[[package]]
+channel = 'debian'
+name = 'gst-audio-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'gst-video-thumbnailer'

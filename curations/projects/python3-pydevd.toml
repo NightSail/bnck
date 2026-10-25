@@ -1,0 +1,8 @@
+id = 'python3-pydevd'
+name = 'python3-pydevd'
+
+homepage = 'https://github.com/fabioz/PyDev.Debugger'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pydevd'

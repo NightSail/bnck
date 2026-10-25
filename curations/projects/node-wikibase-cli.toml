@@ -1,0 +1,8 @@
+id = 'node-wikibase-cli'
+name = 'node-wikibase-cli'
+
+homepage = 'https://github.com/maxlath/wikibase-cli'
+
+[[package]]
+channel = 'debian'
+name = 'node-wikibase-cli'

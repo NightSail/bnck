@@ -1,0 +1,8 @@
+id = 'libidl-dev'
+name = 'libidl-dev'
+
+homepage = 'http://ftp.acc.umu.se/pub/gnome/sources/libIDL'
+
+[[package]]
+channel = 'debian'
+name = 'libidl-dev'

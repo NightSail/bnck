@@ -1,0 +1,16 @@
+id = 'pavucontrol'
+name = 'pavucontrol'
+
+homepage = 'https://freedesktop.org/software/pulseaudio/pavucontrol'
+
+[[package]]
+channel = 'arch'
+name = 'pavucontrol'
+
+[[package]]
+channel = 'debian'
+name = 'pavucontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'pavucontrol'

@@ -1,0 +1,8 @@
+id = 'node-nearley'
+name = 'node-nearley'
+
+homepage = 'https://github.com/hardmath123/nearley'
+
+[[package]]
+channel = 'debian'
+name = 'node-nearley'

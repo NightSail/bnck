@@ -1,0 +1,8 @@
+id = 'smap'
+name = 'smap'
+
+repository = 'https://github.com/s0md3v/Smap.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smap'

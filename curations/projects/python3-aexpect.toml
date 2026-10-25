@@ -1,0 +1,8 @@
+id = 'python3-aexpect'
+name = 'python3-aexpect'
+
+homepage = 'https://github.com/avocado-framework/aexpect'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-aexpect'

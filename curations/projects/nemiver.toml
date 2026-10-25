@@ -1,0 +1,8 @@
+id = 'nemiver'
+name = 'nemiver'
+
+homepage = 'http://projects.gnome.org/nemiver'
+
+[[package]]
+channel = 'fedora'
+name = 'nemiver'

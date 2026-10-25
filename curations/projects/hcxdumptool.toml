@@ -1,0 +1,12 @@
+id = 'hcxdumptool'
+name = 'hcxdumptool'
+
+homepage = 'https://github.com/ZerBea/hcxdumptool'
+
+[[package]]
+channel = 'arch'
+name = 'hcxdumptool'
+
+[[package]]
+channel = 'debian'
+name = 'hcxdumptool'

@@ -1,0 +1,8 @@
+id = 'soundcraft-utils'
+name = 'soundcraft-utils'
+
+homepage = 'https://github.com/lack/soundcraft-utils'
+
+[[package]]
+channel = 'debian'
+name = 'soundcraft-utils'

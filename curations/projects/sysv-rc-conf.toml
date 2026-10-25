@@ -1,0 +1,6 @@
+id = 'sysv-rc-conf'
+name = 'sysv-rc-conf'
+
+[[package]]
+channel = 'debian'
+name = 'sysv-rc-conf'

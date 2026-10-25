@@ -1,0 +1,12 @@
+id = 'mintlocale'
+name = 'mintlocale'
+
+homepage = 'https://github.com/linuxmint/mintlocale'
+
+[[package]]
+channel = 'fedora'
+name = 'mintlocale'
+
+[[package]]
+channel = 'fedora'
+name = 'mintlocale-set-default-locale'

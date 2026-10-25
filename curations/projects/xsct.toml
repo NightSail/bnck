@@ -1,0 +1,8 @@
+id = 'xsct'
+name = 'xsct'
+
+homepage = 'https://github.com/faf0/sct'
+
+[[package]]
+channel = 'debian'
+name = 'xsct'

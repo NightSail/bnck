@@ -1,0 +1,9 @@
+id = 'sponge'
+name = 'sponge'
+
+homepage = 'https://joeyh.name/code/moreutils'
+repository = 'https://git.joeyh.name/git/moreutils.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sponge'

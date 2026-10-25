@@ -1,0 +1,8 @@
+id = 'json-table'
+name = 'json-table'
+
+repository = 'https://github.com/micha/json-table.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/json-table'

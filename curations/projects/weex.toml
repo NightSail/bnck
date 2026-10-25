@@ -1,0 +1,6 @@
+id = 'weex'
+name = 'weex'
+
+[[package]]
+channel = 'debian'
+name = 'weex'

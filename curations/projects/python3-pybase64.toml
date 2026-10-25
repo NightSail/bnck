@@ -1,0 +1,8 @@
+id = 'python3-pybase64'
+name = 'python3-pybase64'
+
+homepage = 'https://github.com/mayeut/pybase64'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pybase64'

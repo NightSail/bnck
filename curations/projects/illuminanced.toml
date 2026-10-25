@@ -1,0 +1,8 @@
+id = 'illuminanced'
+name = 'illuminanced'
+
+homepage = 'https://github.com/mikhail-m1/illuminanced'
+
+[[package]]
+channel = 'arch'
+name = 'illuminanced'

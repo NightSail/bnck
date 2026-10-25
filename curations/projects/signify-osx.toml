@@ -1,0 +1,9 @@
+id = 'signify-osx'
+name = 'signify-osx'
+
+homepage = 'https://man.openbsd.org/signify.1'
+repository = 'https://github.com/jpouellet/signify-osx.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/signify-osx'

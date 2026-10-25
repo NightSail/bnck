@@ -1,0 +1,21 @@
+id = 'unrtf'
+name = 'unrtf'
+
+homepage = 'https://www.gnu.org/software/unrtf/unrtf.html'
+repository = 'https://hg.savannah.gnu.org/hgweb/unrtf'
+
+[[package]]
+channel = 'arch'
+name = 'unrtf'
+
+[[package]]
+channel = 'debian'
+name = 'unrtf'
+
+[[package]]
+channel = 'fedora'
+name = 'unrtf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unrtf'

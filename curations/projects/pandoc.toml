@@ -13,5 +13,9 @@ channel = 'debian'
 name = 'pandoc'
 
 [[package]]
+channel = 'fedora'
+name = 'pandoc'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/pandoc'

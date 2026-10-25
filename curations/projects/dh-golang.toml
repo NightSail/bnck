@@ -1,0 +1,6 @@
+id = 'dh-golang'
+name = 'dh-golang'
+
+[[package]]
+channel = 'debian'
+name = 'dh-golang'

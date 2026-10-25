@@ -1,0 +1,8 @@
+id = 'protoc-gen-go'
+name = 'protoc-gen-go'
+
+repository = 'https://github.com/protocolbuffers/protobuf-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protoc-gen-go'

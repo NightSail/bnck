@@ -1,0 +1,8 @@
+id = 'jackminimix'
+name = 'jackminimix'
+
+homepage = 'https://www.aelius.com/njh/jackminimix'
+
+[[package]]
+channel = 'arch'
+name = 'jackminimix'

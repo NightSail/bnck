@@ -1,0 +1,8 @@
+id = 'arm-none-eabi-binutils-cs'
+name = 'arm-none-eabi-binutils-cs'
+
+homepage = 'http://www.codesourcery.com/sgpp/lite/arm'
+
+[[package]]
+channel = 'fedora'
+name = 'arm-none-eabi-binutils-cs'

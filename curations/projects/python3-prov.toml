@@ -1,0 +1,8 @@
+id = 'python3-prov'
+name = 'python3-prov'
+
+homepage = 'https://pypi.python.org/pypi/prov'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-prov'

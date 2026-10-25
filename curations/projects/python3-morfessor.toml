@@ -1,0 +1,8 @@
+id = 'python3-morfessor'
+name = 'python3-morfessor'
+
+homepage = 'http://morpho.aalto.fi/projects/morpho/morfessor2.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-morfessor'

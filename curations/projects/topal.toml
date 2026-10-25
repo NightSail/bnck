@@ -1,0 +1,8 @@
+id = 'topal'
+name = 'topal'
+
+homepage = 'https://green-pike.co.uk/topal'
+
+[[package]]
+channel = 'debian'
+name = 'topal'

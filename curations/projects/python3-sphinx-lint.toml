@@ -1,0 +1,8 @@
+id = 'python3-sphinx-lint'
+name = 'python3-sphinx-lint'
+
+homepage = 'https://github.com/sphinx-contrib/sphinx-lint'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx-lint'

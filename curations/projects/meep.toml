@@ -1,0 +1,12 @@
+id = 'meep'
+name = 'meep'
+
+homepage = 'https://meep.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'meep'
+
+[[package]]
+channel = 'debian'
+name = 'meep-mpi-default'

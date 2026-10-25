@@ -1,0 +1,8 @@
+id = 'go2chef'
+name = 'go2chef'
+
+homepage = 'https://github.com/facebookincubator/go2chef'
+
+[[package]]
+channel = 'fedora'
+name = 'go2chef'

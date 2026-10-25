@@ -1,0 +1,8 @@
+id = 'libam7xxx0-1-bin'
+name = 'libam7xxx0.1-bin'
+
+homepage = 'https://git.ao2.it/libam7xxx.git'
+
+[[package]]
+channel = 'debian'
+name = 'libam7xxx0.1-bin'

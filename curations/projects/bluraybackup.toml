@@ -1,0 +1,8 @@
+id = 'bluraybackup'
+name = 'bluraybackup'
+
+homepage = 'https://git.golem.linux.it/matteobin/bluraybackup'
+
+[[package]]
+channel = 'debian'
+name = 'bluraybackup'

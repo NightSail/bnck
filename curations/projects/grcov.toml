@@ -1,0 +1,12 @@
+id = 'grcov'
+name = 'grcov'
+
+homepage = 'https://github.com/mozilla/grcov'
+
+[[package]]
+channel = 'arch'
+name = 'grcov'
+
+[[package]]
+channel = 'debian'
+name = 'grcov'

@@ -1,0 +1,20 @@
+id = 'gzip'
+name = 'gzip'
+
+homepage = 'https://www.gnu.org/software/gzip'
+
+[[package]]
+channel = 'arch'
+name = 'gzip'
+
+[[package]]
+channel = 'debian'
+name = 'gzip'
+
+[[package]]
+channel = 'fedora'
+name = 'gzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gzip'

@@ -1,0 +1,16 @@
+id = 'ocl-icd'
+name = 'ocl-icd'
+
+repository = 'https://github.com/OCL-dev/ocl-icd.git'
+
+[[package]]
+channel = 'arch'
+name = 'ocl-icd'
+
+[[package]]
+channel = 'fedora'
+name = 'ocl-icd-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocl-icd'

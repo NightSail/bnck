@@ -1,0 +1,8 @@
+id = 'virtdetect'
+name = 'virtdetect'
+
+homepage = 'https://metacpan.org/release/Sys-Detect-Virtualization'
+
+[[package]]
+channel = 'fedora'
+name = 'virtdetect'

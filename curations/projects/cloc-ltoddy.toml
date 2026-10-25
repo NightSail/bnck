@@ -1,0 +1,8 @@
+id = 'cloc-ltoddy'
+name = 'cloc'
+
+repository = 'https://github.com/ltoddy/cloc-rs'
+
+[[package]]
+channel = 'crates.io'
+name = 'cloc'

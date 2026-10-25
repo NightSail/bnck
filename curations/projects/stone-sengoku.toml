@@ -1,0 +1,8 @@
+id = 'stone-sengoku'
+name = 'stone'
+
+homepage = 'https://www.gcd.org/sengoku/stone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stone'

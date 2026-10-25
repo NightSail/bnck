@@ -1,0 +1,8 @@
+id = 'bash-snippets'
+name = 'bash-snippets'
+
+homepage = 'https://github.com/alexanderepstein/Bash-Snippets'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bash-snippets'

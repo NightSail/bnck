@@ -1,0 +1,8 @@
+id = 'blueutil'
+name = 'blueutil'
+
+repository = 'https://github.com/toy/blueutil.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/blueutil'

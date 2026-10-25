@@ -1,0 +1,16 @@
+id = 'katagotraining'
+name = 'katagotraining'
+
+homepage = 'https://katagotraining.org'
+
+[[package]]
+channel = 'fedora'
+name = 'katago-eigen'
+
+[[package]]
+channel = 'fedora'
+name = 'katago-opencl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/katago'

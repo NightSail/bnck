@@ -1,0 +1,16 @@
+id = 'go-jose'
+name = 'go-jose'
+
+homepage = 'https://github.com/go-jose/go-jose'
+
+[[package]]
+channel = 'debian'
+name = 'jose-util'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-jose-3'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-gopkg-square-jose-2'

@@ -1,0 +1,8 @@
+id = 'orbuculum'
+name = 'orbuculum'
+
+homepage = 'https://github.com/orbcode/orbuculum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/orbuculum'

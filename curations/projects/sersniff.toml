@@ -1,0 +1,8 @@
+id = 'sersniff'
+name = 'sersniff'
+
+homepage = 'https://www.earth.li/projectpurple/progs/sersniff.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sersniff'

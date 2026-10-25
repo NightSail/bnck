@@ -1,0 +1,8 @@
+id = 'openriichi'
+name = 'openriichi'
+
+homepage = 'https://github.com/FluffyStuff/Engine'
+
+[[package]]
+channel = 'fedora'
+name = 'openriichi'

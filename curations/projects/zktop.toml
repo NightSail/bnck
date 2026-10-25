@@ -1,0 +1,8 @@
+id = 'zktop'
+name = 'zktop'
+
+homepage = 'https://github.com/phunt/zktop'
+
+[[package]]
+channel = 'debian'
+name = 'zktop'

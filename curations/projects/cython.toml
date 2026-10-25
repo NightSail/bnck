@@ -1,0 +1,16 @@
+id = 'cython'
+name = 'cython'
+
+homepage = 'https://cython.org'
+
+[[package]]
+channel = 'arch'
+name = 'cython'
+
+[[package]]
+channel = 'debian'
+name = 'cython3'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cython'

@@ -1,0 +1,8 @@
+id = 'm2kcli'
+name = 'm2kcli'
+
+homepage = 'https://github.com/analogdevicesinc/libm2k'
+
+[[package]]
+channel = 'debian'
+name = 'm2kcli'

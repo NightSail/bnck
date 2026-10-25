@@ -1,0 +1,8 @@
+id = 'python3-arcam-fmj'
+name = 'python3-arcam-fmj'
+
+homepage = 'https://github.com/elupus/arcam_fmj'
+
+[[package]]
+channel = 'debian'
+name = 'python3-arcam-fmj'

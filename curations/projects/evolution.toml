@@ -1,0 +1,16 @@
+id = 'evolution'
+name = 'evolution'
+
+homepage = 'https://gitlab.gnome.org/GNOME/evolution/-/wikis/home'
+
+[[package]]
+channel = 'arch'
+name = 'evolution'
+
+[[package]]
+channel = 'debian'
+name = 'evolution'
+
+[[package]]
+channel = 'fedora'
+name = 'evolution'

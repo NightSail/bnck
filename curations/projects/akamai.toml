@@ -1,0 +1,8 @@
+id = 'akamai'
+name = 'akamai'
+
+repository = 'https://github.com/akamai/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/akamai'

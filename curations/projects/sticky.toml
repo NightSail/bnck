@@ -1,0 +1,12 @@
+id = 'sticky'
+name = 'sticky'
+
+homepage = 'https://github.com/linuxmint/sticky'
+
+[[package]]
+channel = 'arch'
+name = 'sticky'
+
+[[package]]
+channel = 'debian'
+name = 'mint-sticky'

@@ -1,0 +1,8 @@
+id = 'yapps2'
+name = 'yapps2'
+
+homepage = 'https://theory.stanford.edu/~amitp/yapps'
+
+[[package]]
+channel = 'debian'
+name = 'yapps2'

@@ -1,0 +1,12 @@
+id = 'voro'
+name = 'voro++'
+
+homepage = 'http://math.lbl.gov/voro++'
+
+[[package]]
+channel = 'debian'
+name = 'voro++'
+
+[[package]]
+channel = 'fedora'
+name = 'voro++'

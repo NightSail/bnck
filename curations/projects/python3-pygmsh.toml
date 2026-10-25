@@ -1,0 +1,8 @@
+id = 'python3-pygmsh'
+name = 'python3-pygmsh'
+
+homepage = 'https://github.com/nschloe/pygmsh'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pygmsh'

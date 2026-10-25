@@ -1,0 +1,12 @@
+id = 'pmtools'
+name = 'pmtools'
+
+homepage = 'https://metacpan.org/release/pmtools'
+
+[[package]]
+channel = 'debian'
+name = 'pmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-pmtools'

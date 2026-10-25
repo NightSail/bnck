@@ -1,0 +1,12 @@
+id = 'python3-catkin-pkg'
+name = 'python3-catkin-pkg'
+
+homepage = 'https://wiki.ros.org/catkin_pkg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-catkin-pkg'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-catkin_pkg'

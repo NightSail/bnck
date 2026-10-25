@@ -1,0 +1,8 @@
+id = 'falcoctl'
+name = 'falcoctl'
+
+repository = 'https://github.com/falcosecurity/falcoctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/falcoctl'

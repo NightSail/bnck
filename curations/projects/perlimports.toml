@@ -1,0 +1,8 @@
+id = 'perlimports'
+name = 'perlimports'
+
+homepage = 'https://metacpan.org/release/App-perlimports'
+
+[[package]]
+channel = 'debian'
+name = 'perlimports'

@@ -1,0 +1,8 @@
+id = 'pybind11-pybind11'
+name = 'pybind11'
+
+homepage = 'https://pybind11.readthedocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'pybind11'

@@ -1,0 +1,8 @@
+id = 'mp3cd'
+name = 'mp3cd'
+
+homepage = 'https://outflux.net/software/pkgs/mp3cd'
+
+[[package]]
+channel = 'debian'
+name = 'mp3cd'

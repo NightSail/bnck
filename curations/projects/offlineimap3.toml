@@ -1,0 +1,8 @@
+id = 'offlineimap3'
+name = 'offlineimap3'
+
+homepage = 'https://github.com/OfflineIMAP/offlineimap3'
+
+[[package]]
+channel = 'debian'
+name = 'offlineimap3'

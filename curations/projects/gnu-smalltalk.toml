@@ -1,0 +1,9 @@
+id = 'gnu-smalltalk'
+name = 'gnu-smalltalk'
+
+homepage = 'https://www.gnu.org/software/smalltalk'
+repository = 'https://github.com/gnu-smalltalk/smalltalk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-smalltalk'

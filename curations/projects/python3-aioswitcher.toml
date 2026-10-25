@@ -1,0 +1,8 @@
+id = 'python3-aioswitcher'
+name = 'python3-aioswitcher'
+
+homepage = 'https://github.com/TomerFi/aioswitcher'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aioswitcher'

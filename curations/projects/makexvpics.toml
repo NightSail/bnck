@@ -1,0 +1,6 @@
+id = 'makexvpics'
+name = 'makexvpics'
+
+[[package]]
+channel = 'debian'
+name = 'makexvpics'

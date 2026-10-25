@@ -1,0 +1,12 @@
+id = 'tlog'
+name = 'tlog'
+
+homepage = 'https://github.com/Scribery/tlog'
+
+[[package]]
+channel = 'debian'
+name = 'tlog'
+
+[[package]]
+channel = 'fedora'
+name = 'tlog'

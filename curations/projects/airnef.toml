@@ -1,0 +1,8 @@
+id = 'airnef'
+name = 'airnef'
+
+homepage = 'http://www.testcams.com/airnef'
+
+[[package]]
+channel = 'fedora'
+name = 'airnef'

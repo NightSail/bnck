@@ -1,0 +1,8 @@
+id = 'cdktf'
+name = 'cdktf'
+
+homepage = 'https://github.com/hashicorp/terraform-cdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdktf'

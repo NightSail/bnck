@@ -1,0 +1,9 @@
+id = 'phoneinfoga'
+name = 'phoneinfoga'
+
+homepage = 'https://sundowndev.github.io/phoneinfoga'
+repository = 'https://github.com/sundowndev/phoneinfoga.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phoneinfoga'

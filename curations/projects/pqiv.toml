@@ -1,0 +1,16 @@
+id = 'pqiv'
+name = 'pqiv'
+
+repository = 'https://github.com/phillipberndt/pqiv.git'
+
+[[package]]
+channel = 'arch'
+name = 'pqiv'
+
+[[package]]
+channel = 'debian'
+name = 'pqiv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pqiv'

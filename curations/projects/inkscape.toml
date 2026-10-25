@@ -1,0 +1,20 @@
+id = 'inkscape'
+name = 'inkscape'
+
+homepage = 'https://inkscape.org'
+
+[[package]]
+channel = 'arch'
+name = 'inkscape'
+
+[[package]]
+channel = 'debian'
+name = 'inkscape'
+
+[[package]]
+channel = 'fedora'
+name = 'inkscape'
+
+[[package]]
+channel = 'fedora'
+name = 'inkscape-view'

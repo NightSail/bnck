@@ -5,4 +5,16 @@ repository = 'https://github.com/ipinfo/cli'
 
 [[package]]
 channel = 'homebrew'
+name = 'homebrew/core/cidr2range'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grepip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipinfo'
+
+[[package]]
+channel = 'homebrew'
 name = 'homebrew/core/ipinfo-cli'

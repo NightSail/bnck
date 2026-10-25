@@ -1,0 +1,8 @@
+id = 'hgsvn'
+name = 'hgsvn'
+
+homepage = 'http://pypi.python.org/pypi/hgsvn'
+
+[[package]]
+channel = 'fedora'
+name = 'hgsvn'

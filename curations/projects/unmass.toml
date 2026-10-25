@@ -1,0 +1,8 @@
+id = 'unmass'
+name = 'unmass'
+
+homepage = 'http://mirex.mypage.sk/index.php'
+
+[[package]]
+channel = 'debian'
+name = 'unmass'

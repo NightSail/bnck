@@ -1,0 +1,16 @@
+id = 'odfpy'
+name = 'odfpy'
+
+homepage = 'https://github.com/eea/odfpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-odfpy'
+
+[[package]]
+channel = 'debian'
+name = 'python-odf-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-odfpy'

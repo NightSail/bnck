@@ -1,0 +1,8 @@
+id = 'kylin-aiassistant'
+name = 'kylin-aiassistant'
+
+homepage = 'https://gitee.com/openkylin/kylin-aiassistant'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-aiassistant'

@@ -1,0 +1,12 @@
+id = 'gifski'
+name = 'gifski'
+
+homepage = 'https://gif.ski'
+
+[[package]]
+channel = 'arch'
+name = 'gifski'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gifski'

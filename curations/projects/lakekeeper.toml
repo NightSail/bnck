@@ -1,0 +1,9 @@
+id = 'lakekeeper'
+name = 'lakekeeper'
+
+homepage = 'https://docs.lakekeeper.io'
+repository = 'https://github.com/lakekeeper/lakekeeper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lakekeeper'

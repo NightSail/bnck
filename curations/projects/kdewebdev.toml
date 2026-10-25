@@ -1,0 +1,8 @@
+id = 'kdewebdev'
+name = 'kdewebdev'
+
+homepage = 'http://kdewebdev.org'
+
+[[package]]
+channel = 'fedora'
+name = 'kdewebdev'

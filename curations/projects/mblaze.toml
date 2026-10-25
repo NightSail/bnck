@@ -1,0 +1,8 @@
+id = 'mblaze'
+name = 'mblaze'
+
+homepage = 'https://git.vuxu.org/mblaze/about'
+
+[[package]]
+channel = 'debian'
+name = 'mblaze'

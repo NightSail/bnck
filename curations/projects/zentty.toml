@@ -1,0 +1,8 @@
+id = 'zentty'
+name = 'zentty'
+
+homepage = 'https://zentty.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/zentty'

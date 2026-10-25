@@ -1,0 +1,8 @@
+id = 'jackett'
+name = 'jackett'
+
+repository = 'https://github.com/Jackett/Jackett.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jackett'

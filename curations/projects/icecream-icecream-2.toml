@@ -1,0 +1,8 @@
+id = 'icecream-icecream-2'
+name = 'icecream'
+
+homepage = 'http://icecream.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'icecream'

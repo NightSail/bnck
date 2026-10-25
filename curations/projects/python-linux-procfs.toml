@@ -1,0 +1,12 @@
+id = 'python-linux-procfs'
+name = 'python-linux-procfs'
+
+homepage = 'https://git.kernel.org/pub/scm/libs/python/python-linux-procfs/python-linux-procfs.git'
+
+[[package]]
+channel = 'arch'
+name = 'python-linux-procfs'
+
+[[package]]
+channel = 'debian'
+name = 'python3-linux-procfs'

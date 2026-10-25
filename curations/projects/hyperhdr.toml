@@ -1,0 +1,8 @@
+id = 'hyperhdr'
+name = 'hyperhdr'
+
+homepage = 'https://github.com/awawa-dev/HyperHDR'
+
+[[package]]
+channel = 'fedora'
+name = 'hyperhdr'

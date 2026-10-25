@@ -1,0 +1,12 @@
+id = 'psfex'
+name = 'psfex'
+
+homepage = 'https://www.astromatic.net/software/psfex'
+
+[[package]]
+channel = 'debian'
+name = 'psfex'
+
+[[package]]
+channel = 'fedora'
+name = 'psfex'

@@ -1,0 +1,88 @@
+id = 'openvswitch'
+name = 'openvswitch'
+
+homepage = 'http://openvswitch.org'
+
+[[package]]
+channel = 'arch'
+name = 'openvswitch'
+
+[[package]]
+channel = 'debian'
+name = 'openvswitch-common'
+
+[[package]]
+channel = 'debian'
+name = 'openvswitch-switch'
+
+[[package]]
+channel = 'debian'
+name = 'openvswitch-test'
+
+[[package]]
+channel = 'debian'
+name = 'openvswitch-testcontroller'
+
+[[package]]
+channel = 'debian'
+name = 'openvswitch-vtep'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-central'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-common'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-controller-vtep'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-docker'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-host'
+
+[[package]]
+channel = 'debian'
+name = 'ovn-ic'
+
+[[package]]
+channel = 'fedora'
+name = 'openvswitch'
+
+[[package]]
+channel = 'fedora'
+name = 'openvswitch-dpdk'
+
+[[package]]
+channel = 'fedora'
+name = 'openvswitch-test'
+
+[[package]]
+channel = 'fedora'
+name = 'openvswitch-testcontroller'
+
+[[package]]
+channel = 'fedora'
+name = 'ovn'
+
+[[package]]
+channel = 'fedora'
+name = 'ovn-central'
+
+[[package]]
+channel = 'fedora'
+name = 'ovn-host'
+
+[[package]]
+channel = 'fedora'
+name = 'ovn-vtep'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openvswitch'

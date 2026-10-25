@@ -1,0 +1,8 @@
+id = 'sox-ng'
+name = 'sox_ng'
+
+repository = 'https://codeberg.org/sox_ng/sox_ng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sox_ng'

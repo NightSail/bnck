@@ -1,0 +1,20 @@
+id = 'libwpg'
+name = 'libwpg'
+
+homepage = 'https://libwpg.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libwpg'
+
+[[package]]
+channel = 'debian'
+name = 'libwpg-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libwpg-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libwpg'

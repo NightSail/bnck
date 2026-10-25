@@ -1,0 +1,16 @@
+id = 'workrave'
+name = 'workrave'
+
+homepage = 'https://workrave.org'
+
+[[package]]
+channel = 'arch'
+name = 'workrave'
+
+[[package]]
+channel = 'debian'
+name = 'workrave'
+
+[[package]]
+channel = 'fedora'
+name = 'workrave'

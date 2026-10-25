@@ -1,0 +1,8 @@
+id = 'fairymax'
+name = 'fairymax'
+
+homepage = 'https://www.chessvariants.com/index/msdisplay.php'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fairymax'

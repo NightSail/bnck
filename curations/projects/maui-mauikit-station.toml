@@ -1,0 +1,8 @@
+id = 'maui-mauikit-station'
+name = 'maui-mauikit-station'
+
+homepage = 'https://mauikit.org/apps/station'
+
+[[package]]
+channel = 'fedora'
+name = 'maui-mauikit-station'

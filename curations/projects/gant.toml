@@ -1,0 +1,8 @@
+id = 'gant'
+name = 'gant'
+
+homepage = 'https://github.com/Gant/Gant'
+
+[[package]]
+channel = 'debian'
+name = 'gant'

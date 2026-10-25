@@ -1,0 +1,8 @@
+id = 'skesa'
+name = 'skesa'
+
+homepage = 'https://github.com/ncbi/SKESA'
+
+[[package]]
+channel = 'debian'
+name = 'skesa'

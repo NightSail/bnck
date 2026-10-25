@@ -1,0 +1,8 @@
+id = 'wajig'
+name = 'wajig'
+
+homepage = 'https://wajig.togaware.com'
+
+[[package]]
+channel = 'debian'
+name = 'wajig'

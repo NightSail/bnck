@@ -1,0 +1,16 @@
+id = 'xfce4-dev-tools'
+name = 'xfce4-dev-tools'
+
+homepage = 'https://docs.xfce.org/xfce/xfce4-dev-tools/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-dev-tools'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-dev-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-dev-tools'

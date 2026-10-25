@@ -1,0 +1,8 @@
+id = 'ruby-cutest'
+name = 'ruby-cutest'
+
+homepage = 'https://github.com/djanowski/cutest'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-cutest'

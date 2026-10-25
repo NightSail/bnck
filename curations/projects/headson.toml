@@ -1,0 +1,9 @@
+id = 'headson'
+name = 'headson'
+
+homepage = 'https://docs.rs/headson/latest/headson'
+repository = 'https://github.com/kantord/headson.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/headson'

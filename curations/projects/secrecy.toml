@@ -1,0 +1,8 @@
+id = 'secrecy'
+name = 'secrecy'
+
+homepage = 'https://gitlab.com/german.tischler/libsecrecy'
+
+[[package]]
+channel = 'debian'
+name = 'secrecy'

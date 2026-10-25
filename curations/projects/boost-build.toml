@@ -1,0 +1,9 @@
+id = 'boost-build'
+name = 'boost-build'
+
+homepage = 'https://www.boost.org/build'
+repository = 'https://github.com/boostorg/build.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boost-build'

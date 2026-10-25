@@ -1,0 +1,8 @@
+id = 'sigma-align'
+name = 'sigma-align'
+
+homepage = 'https://www.imsc.res.in/~rsidd/sigma'
+
+[[package]]
+channel = 'debian'
+name = 'sigma-align'

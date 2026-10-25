@@ -1,0 +1,8 @@
+id = 'system-storage-manager'
+name = 'system-storage-manager'
+
+homepage = 'https://system-storage-manager.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'system-storage-manager'

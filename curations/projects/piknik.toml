@@ -1,0 +1,8 @@
+id = 'piknik'
+name = 'piknik'
+
+repository = 'https://github.com/jedisct1/piknik.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/piknik'

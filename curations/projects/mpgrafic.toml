@@ -1,0 +1,8 @@
+id = 'mpgrafic'
+name = 'mpgrafic'
+
+homepage = 'http://www2.iap.fr/users/pichon/mpgrafic.html'
+
+[[package]]
+channel = 'debian'
+name = 'mpgrafic'

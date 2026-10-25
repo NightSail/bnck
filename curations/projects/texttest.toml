@@ -1,0 +1,8 @@
+id = 'texttest'
+name = 'texttest'
+
+homepage = 'https://www.texttest.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texttest'

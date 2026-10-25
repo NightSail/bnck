@@ -1,0 +1,8 @@
+id = 'dirac'
+name = 'dirac'
+
+homepage = 'https://sourceforge.net/projects/dirac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dirac'

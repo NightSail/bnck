@@ -1,0 +1,8 @@
+id = 'python3-linuxdoc'
+name = 'python3-linuxdoc'
+
+homepage = 'https://return42.github.io/linuxdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-linuxdoc'

@@ -1,0 +1,20 @@
+id = 'recode'
+name = 'recode'
+
+homepage = 'https://github.com/rrthomas/recode'
+
+[[package]]
+channel = 'arch'
+name = 'recode'
+
+[[package]]
+channel = 'debian'
+name = 'recode'
+
+[[package]]
+channel = 'fedora'
+name = 'recode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/recode'

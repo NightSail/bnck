@@ -1,0 +1,8 @@
+id = 'terminalimageviewer'
+name = 'terminalimageviewer'
+
+repository = 'https://github.com/stefanhaustein/TerminalImageViewer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terminalimageviewer'

@@ -1,0 +1,8 @@
+id = 'fuzzy-find'
+name = 'fuzzy-find'
+
+repository = 'https://github.com/silentbicycle/ff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fuzzy-find'

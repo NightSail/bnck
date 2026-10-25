@@ -1,0 +1,8 @@
+id = 'wannier90'
+name = 'wannier90'
+
+homepage = 'https://www.wannier.org'
+
+[[package]]
+channel = 'debian'
+name = 'wannier90'

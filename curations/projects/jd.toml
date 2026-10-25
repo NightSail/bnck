@@ -1,0 +1,8 @@
+id = 'jd'
+name = 'jd'
+
+repository = 'https://github.com/josephburnett/jd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jd'

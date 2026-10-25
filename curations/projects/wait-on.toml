@@ -1,0 +1,8 @@
+id = 'wait-on'
+name = 'wait_on'
+
+homepage = 'https://www.freshports.org/sysutils/wait_on'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wait_on'

@@ -1,0 +1,21 @@
+id = 'agda'
+name = 'agda'
+
+homepage = 'https://wiki.portal.chalmers.se/agda'
+repository = 'https://github.com/agda/agda.git'
+
+[[package]]
+channel = 'arch'
+name = 'agda'
+
+[[package]]
+channel = 'debian'
+name = 'agda-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'Agda'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/agda'

@@ -1,0 +1,8 @@
+id = 'btllib'
+name = 'btllib'
+
+homepage = 'https://github.com/BirolLab/btllib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btllib'

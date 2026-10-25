@@ -1,0 +1,9 @@
+id = 'taplo'
+name = 'taplo'
+
+homepage = 'https://taplo.tamasfe.dev'
+repository = 'https://github.com/tamasfe/taplo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/taplo'

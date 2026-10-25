@@ -1,0 +1,16 @@
+id = 'dunamai'
+name = 'dunamai'
+
+homepage = 'https://github.com/mtkennerly/dunamai'
+
+[[package]]
+channel = 'arch'
+name = 'python-dunamai'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dunamai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dunamai'

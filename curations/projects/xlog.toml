@@ -1,0 +1,12 @@
+id = 'xlog'
+name = 'xlog'
+
+homepage = 'https://xlog.nongnu.org'
+
+[[package]]
+channel = 'debian'
+name = 'xlog'
+
+[[package]]
+channel = 'fedora'
+name = 'xlog'

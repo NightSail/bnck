@@ -1,0 +1,8 @@
+id = 'cargo-docset'
+name = 'cargo-docset'
+
+repository = 'https://github.com/Robzz/cargo-docset.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-docset'

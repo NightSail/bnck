@@ -1,0 +1,8 @@
+id = 'evolvotron'
+name = 'evolvotron'
+
+homepage = 'http://timday.com/share/evolvotron/index.htm'
+
+[[package]]
+channel = 'debian'
+name = 'evolvotron'

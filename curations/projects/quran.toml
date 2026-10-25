@@ -1,0 +1,9 @@
+id = 'quran'
+name = 'quran'
+
+homepage = 'https://git.hanabi.in/quran-go'
+repository = 'https://git.hanabi.in/repos/quran-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/quran'

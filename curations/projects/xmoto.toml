@@ -1,0 +1,8 @@
+id = 'xmoto'
+name = 'xmoto'
+
+homepage = 'http://xmoto.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'xmoto'

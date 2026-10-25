@@ -1,0 +1,8 @@
+id = 'juce-tools'
+name = 'juce-tools'
+
+homepage = 'https://www.juce.com'
+
+[[package]]
+channel = 'debian'
+name = 'juce-tools'

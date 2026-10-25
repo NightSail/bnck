@@ -1,0 +1,12 @@
+id = 'simdutf'
+name = 'simdutf'
+
+homepage = 'https://simdutf.github.io/simdutf'
+
+[[package]]
+channel = 'arch'
+name = 'simdutf'
+
+[[package]]
+channel = 'debian'
+name = 'libsimdutf-tools'

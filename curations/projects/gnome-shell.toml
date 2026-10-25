@@ -1,0 +1,20 @@
+id = 'gnome-shell'
+name = 'gnome-shell'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-shell'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-shell'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-shell'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-shell-extension-prefs'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-extensions-app'

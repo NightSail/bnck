@@ -1,0 +1,8 @@
+id = 'viz1090'
+name = 'viz1090'
+
+homepage = 'https://github.com/nmatsuda/viz1090'
+
+[[package]]
+channel = 'debian'
+name = 'viz1090'

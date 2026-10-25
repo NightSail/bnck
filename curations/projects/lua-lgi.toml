@@ -1,0 +1,8 @@
+id = 'lua-lgi'
+name = 'lua-lgi'
+
+homepage = 'https://github.com/pavouk/lgi'
+
+[[package]]
+channel = 'arch'
+name = 'lua-lgi'

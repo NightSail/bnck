@@ -1,0 +1,12 @@
+id = 'tcplay'
+name = 'tcplay'
+
+homepage = 'https://github.com/bwalex/tc-play'
+
+[[package]]
+channel = 'arch'
+name = 'tcplay'
+
+[[package]]
+channel = 'debian'
+name = 'tcplay'

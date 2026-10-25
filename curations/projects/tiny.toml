@@ -1,0 +1,16 @@
+id = 'tiny'
+name = 'tiny'
+
+repository = 'https://github.com/osa1/tiny.git'
+
+[[package]]
+channel = 'arch'
+name = 'tiny'
+
+[[package]]
+channel = 'debian'
+name = 'tiny'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tiny'

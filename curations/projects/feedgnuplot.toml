@@ -1,0 +1,12 @@
+id = 'feedgnuplot'
+name = 'feedgnuplot'
+
+homepage = 'https://github.com/dkogan/feedgnuplot'
+
+[[package]]
+channel = 'debian'
+name = 'feedgnuplot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/feedgnuplot'

@@ -1,0 +1,9 @@
+id = 'raxml-ng'
+name = 'raxml-ng'
+
+homepage = 'https://cme.h-its.org/exelixis/web/software/raxml'
+repository = 'https://github.com/amkozlov/raxml-ng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/raxml-ng'

@@ -1,0 +1,25 @@
+id = 'handbrake'
+name = 'handbrake'
+
+homepage = 'https://handbrake.fr'
+repository = 'https://github.com/HandBrake/HandBrake.git'
+
+[[package]]
+channel = 'arch'
+name = 'handbrake'
+
+[[package]]
+channel = 'arch'
+name = 'handbrake-cli'
+
+[[package]]
+channel = 'debian'
+name = 'handbrake'
+
+[[package]]
+channel = 'debian'
+name = 'handbrake-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/handbrake'

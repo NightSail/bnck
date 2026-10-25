@@ -1,0 +1,8 @@
+id = 'g15daemon'
+name = 'g15daemon'
+
+homepage = 'https://sourceforge.net/projects/g15daemon'
+
+[[package]]
+channel = 'debian'
+name = 'g15daemon'

@@ -1,0 +1,8 @@
+id = 'xbar'
+name = 'xbar'
+
+homepage = 'https://github.com/mcpcpc/xbar'
+
+[[package]]
+channel = 'fedora'
+name = 'xbar'

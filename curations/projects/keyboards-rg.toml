@@ -1,0 +1,6 @@
+id = 'keyboards-rg'
+name = 'keyboards-rg'
+
+[[package]]
+channel = 'debian'
+name = 'keyboards-rg'

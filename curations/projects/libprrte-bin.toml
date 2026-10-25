@@ -1,0 +1,8 @@
+id = 'libprrte-bin'
+name = 'libprrte-bin'
+
+homepage = 'https://github.com/pmix/prrte'
+
+[[package]]
+channel = 'debian'
+name = 'libprrte-bin'

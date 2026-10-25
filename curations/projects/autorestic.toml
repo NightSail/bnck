@@ -1,0 +1,13 @@
+id = 'autorestic'
+name = 'autorestic'
+
+homepage = 'https://autorestic.vercel.app'
+repository = 'https://github.com/cupcakearmy/autorestic.git'
+
+[[package]]
+channel = 'fedora'
+name = 'autorestic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/autorestic'

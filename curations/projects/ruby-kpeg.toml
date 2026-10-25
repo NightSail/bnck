@@ -1,0 +1,12 @@
+id = 'ruby-kpeg'
+name = 'ruby-kpeg'
+
+homepage = 'https://github.com/evanphx/kpeg'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-kpeg'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-kpeg'

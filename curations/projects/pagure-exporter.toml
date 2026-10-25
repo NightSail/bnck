@@ -1,0 +1,8 @@
+id = 'pagure-exporter'
+name = 'pagure-exporter'
+
+homepage = 'https://github.com/gridhead/pagure-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'pagure-exporter'

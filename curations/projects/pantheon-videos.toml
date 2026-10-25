@@ -1,0 +1,8 @@
+id = 'pantheon-videos'
+name = 'pantheon-videos'
+
+homepage = 'https://github.com/elementary/videos'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-videos'

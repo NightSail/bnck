@@ -1,0 +1,12 @@
+id = 'kdbg'
+name = 'kdbg'
+
+homepage = 'http://www.kdbg.org'
+
+[[package]]
+channel = 'arch'
+name = 'kdbg'
+
+[[package]]
+channel = 'fedora'
+name = 'kdbg'

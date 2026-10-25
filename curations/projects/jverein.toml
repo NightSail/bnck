@@ -1,0 +1,8 @@
+id = 'jverein'
+name = 'jverein'
+
+homepage = 'https://github.com/jverein/jverein'
+
+[[package]]
+channel = 'debian'
+name = 'jverein'

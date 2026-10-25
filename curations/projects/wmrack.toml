@@ -1,0 +1,8 @@
+id = 'wmrack'
+name = 'wmrack'
+
+homepage = 'http://wmrack.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wmrack'

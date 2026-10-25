@@ -1,0 +1,8 @@
+id = 'css2xslfo'
+name = 'css2xslfo'
+
+homepage = 'http://www.re.be/css2xslfo'
+
+[[package]]
+channel = 'debian'
+name = 'css2xslfo'

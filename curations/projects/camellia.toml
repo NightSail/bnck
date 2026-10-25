@@ -1,0 +1,8 @@
+id = 'camellia'
+name = 'camellia'
+
+homepage = 'https://camellia.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/camellia'

@@ -1,0 +1,8 @@
+id = 'repro-threshold'
+name = 'repro-threshold'
+
+homepage = 'https://github.com/kpcyrd/repro-threshold'
+
+[[package]]
+channel = 'debian'
+name = 'repro-threshold'

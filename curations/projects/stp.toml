@@ -1,0 +1,17 @@
+id = 'stp'
+name = 'stp'
+
+homepage = 'https://stp.github.io'
+repository = 'https://github.com/stp/stp.git'
+
+[[package]]
+channel = 'arch'
+name = 'stp'
+
+[[package]]
+channel = 'fedora'
+name = 'stp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stp'

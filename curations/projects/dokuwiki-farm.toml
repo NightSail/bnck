@@ -1,0 +1,6 @@
+id = 'dokuwiki-farm'
+name = 'dokuwiki-farm'
+
+[[package]]
+channel = 'debian'
+name = 'dokuwiki-farm'

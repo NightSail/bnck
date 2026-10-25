@@ -1,0 +1,8 @@
+id = 'cmake-fedora'
+name = 'cmake-fedora'
+
+homepage = 'https://pagure.io/cmake-fedora'
+
+[[package]]
+channel = 'fedora'
+name = 'cmake-fedora'

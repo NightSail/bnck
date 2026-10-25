@@ -1,0 +1,8 @@
+id = 'liblbfgsb-examples'
+name = 'liblbfgsb-examples'
+
+homepage = 'https://users.iems.northwestern.edu/~nocedal/lbfgsb.html'
+
+[[package]]
+channel = 'debian'
+name = 'liblbfgsb-examples'

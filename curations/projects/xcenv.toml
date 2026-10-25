@@ -1,0 +1,8 @@
+id = 'xcenv'
+name = 'xcenv'
+
+repository = 'https://github.com/xcenv/xcenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcenv'

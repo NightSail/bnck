@@ -1,0 +1,8 @@
+id = 'ccusage'
+name = 'ccusage'
+
+homepage = 'https://github.com/ccusage/ccusage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccusage'

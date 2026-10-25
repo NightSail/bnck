@@ -1,0 +1,8 @@
+id = 'seriation'
+name = 'seriation'
+
+homepage = 'https://github.com/amamory/seriation'
+
+[[package]]
+channel = 'debian'
+name = 'seriation'

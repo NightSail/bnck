@@ -1,0 +1,8 @@
+id = 'fwup'
+name = 'fwup'
+
+homepage = 'https://github.com/fwup-home/fwup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fwup'

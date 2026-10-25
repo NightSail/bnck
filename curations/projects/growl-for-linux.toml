@@ -1,0 +1,8 @@
+id = 'growl-for-linux'
+name = 'growl-for-linux'
+
+homepage = 'https://mattn.github.io/growl-for-linux'
+
+[[package]]
+channel = 'debian'
+name = 'growl-for-linux'

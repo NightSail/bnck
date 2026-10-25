@@ -1,0 +1,12 @@
+id = 'javascript-beautifier'
+name = 'JavaScript-Beautifier'
+
+homepage = 'https://metacpan.org/release/JavaScript-Beautifier'
+
+[[package]]
+channel = 'debian'
+name = 'libjavascript-beautifier-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-JavaScript-Beautifier'

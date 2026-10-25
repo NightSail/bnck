@@ -1,0 +1,8 @@
+id = 'lunarr'
+name = 'lunarr'
+
+repository = 'https://github.com/lunarr-app/lunarr-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lunarr'

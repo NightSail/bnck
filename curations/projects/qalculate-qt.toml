@@ -1,0 +1,9 @@
+id = 'qalculate-qt'
+name = 'qalculate-qt'
+
+homepage = 'https://qalculate.github.io'
+repository = 'https://github.com/Qalculate/qalculate-qt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qalculate-qt'

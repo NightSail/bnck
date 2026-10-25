@@ -1,0 +1,13 @@
+id = 'sing-box'
+name = 'sing-box'
+
+homepage = 'https://sing-box.sagernet.org'
+repository = 'https://github.com/SagerNet/sing-box.git'
+
+[[package]]
+channel = 'arch'
+name = 'sing-box'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sing-box'

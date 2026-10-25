@@ -1,0 +1,8 @@
+id = 'rawtoaces'
+name = 'rawtoaces'
+
+homepage = 'https://github.com/AcademySoftwareFoundation/rawtoaces'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rawtoaces'

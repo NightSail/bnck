@@ -1,0 +1,8 @@
+id = 'pg-statviz'
+name = 'pg-statviz'
+
+homepage = 'https://github.com/vyruss/pg_statviz'
+
+[[package]]
+channel = 'debian'
+name = 'pg-statviz'

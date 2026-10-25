@@ -1,0 +1,8 @@
+id = 'python3-pyina'
+name = 'python3-pyina'
+
+homepage = 'https://github.com/uqfoundation/pyina'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyina'

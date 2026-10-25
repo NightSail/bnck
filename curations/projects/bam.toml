@@ -1,0 +1,21 @@
+id = 'bam'
+name = 'bam'
+
+homepage = 'https://matricks.github.com/bam'
+repository = 'https://github.com/matricks/bam.git'
+
+[[package]]
+channel = 'arch'
+name = 'bam'
+
+[[package]]
+channel = 'debian'
+name = 'bam'
+
+[[package]]
+channel = 'fedora'
+name = 'bam'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bam'

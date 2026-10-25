@@ -1,0 +1,8 @@
+id = 'sexpect'
+name = 'sexpect'
+
+homepage = 'https://github.com/clarkwang/sexpect'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sexpect'

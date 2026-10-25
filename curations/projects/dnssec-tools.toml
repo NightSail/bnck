@@ -1,0 +1,20 @@
+id = 'dnssec-tools'
+name = 'dnssec-tools'
+
+homepage = 'http://www.dnssec-tools.org'
+
+[[package]]
+channel = 'arch'
+name = 'dnssec-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'dnssec-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'dnssec-tools-libs-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'lookup'

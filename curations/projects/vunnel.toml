@@ -1,0 +1,8 @@
+id = 'vunnel'
+name = 'vunnel'
+
+repository = 'https://github.com/anchore/vunnel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vunnel'

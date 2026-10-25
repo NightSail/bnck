@@ -1,0 +1,9 @@
+id = 'lisette'
+name = 'lisette'
+
+homepage = 'https://lisette.run'
+repository = 'https://github.com/ivov/lisette.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lisette'

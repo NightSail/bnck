@@ -1,0 +1,9 @@
+id = 'libbi'
+name = 'libbi'
+
+homepage = 'https://libbi.org'
+repository = 'https://github.com/lawmurray/LibBi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libbi'

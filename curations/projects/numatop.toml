@@ -1,0 +1,12 @@
+id = 'numatop'
+name = 'numatop'
+
+homepage = 'https://github.com/intel/numatop'
+
+[[package]]
+channel = 'debian'
+name = 'numatop'
+
+[[package]]
+channel = 'fedora'
+name = 'numatop'

@@ -1,0 +1,8 @@
+id = 'python3-catkin-lint'
+name = 'python3-catkin_lint'
+
+homepage = 'https://pypi.python.org/pypi/catkin_lint'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-catkin_lint'

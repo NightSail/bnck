@@ -1,0 +1,12 @@
+id = 'uniutils'
+name = 'uniutils'
+
+homepage = 'https://billposer.org/Software/unidesc.html'
+
+[[package]]
+channel = 'debian'
+name = 'uniutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uniutils'

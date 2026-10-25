@@ -13,4 +13,8 @@ name = 'skim'
 
 [[package]]
 channel = 'homebrew'
+name = 'homebrew/cask/skim'
+
+[[package]]
+channel = 'homebrew'
 name = 'homebrew/core/sk'

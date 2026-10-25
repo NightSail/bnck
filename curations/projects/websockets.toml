@@ -1,0 +1,12 @@
+id = 'websockets'
+name = 'websockets'
+
+homepage = 'https://github.com/aaugustin/websockets'
+
+[[package]]
+channel = 'arch'
+name = 'python-websockets'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-websockets'

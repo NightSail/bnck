@@ -1,0 +1,21 @@
+id = 'abduco'
+name = 'abduco'
+
+homepage = 'http://www.brain-dump.org/projects/abduco'
+repository = 'https://github.com/martanne/abduco.git'
+
+[[package]]
+channel = 'arch'
+name = 'abduco'
+
+[[package]]
+channel = 'debian'
+name = 'abduco'
+
+[[package]]
+channel = 'fedora'
+name = 'abduco'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abduco'

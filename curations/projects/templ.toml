@@ -1,0 +1,12 @@
+id = 'templ'
+name = 'templ'
+
+homepage = 'https://templ.guide'
+
+[[package]]
+channel = 'debian'
+name = 'templ'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/templ'

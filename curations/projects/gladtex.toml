@@ -1,0 +1,8 @@
+id = 'gladtex'
+name = 'gladtex'
+
+homepage = 'https://humenda.github.io/GladTeX'
+
+[[package]]
+channel = 'debian'
+name = 'gladtex'

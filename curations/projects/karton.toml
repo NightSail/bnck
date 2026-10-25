@@ -1,0 +1,8 @@
+id = 'karton'
+name = 'karton'
+
+homepage = 'https://invent.kde.org/sitter/karton'
+
+[[package]]
+channel = 'fedora'
+name = 'karton'

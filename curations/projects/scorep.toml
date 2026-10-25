@@ -1,0 +1,24 @@
+id = 'scorep'
+name = 'scorep'
+
+homepage = 'https://www.vi-hps.org/projects/score-p'
+
+[[package]]
+channel = 'debian'
+name = 'libotf2-trace-dev'
+
+[[package]]
+channel = 'debian'
+name = 'otf2-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'opari2'
+
+[[package]]
+channel = 'fedora'
+name = 'scorep'
+
+[[package]]
+channel = 'fedora'
+name = 'scorep-config'

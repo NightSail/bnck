@@ -1,0 +1,8 @@
+id = 'neatvi'
+name = 'neatvi'
+
+repository = 'https://repo.or.cz/neatvi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neatvi'

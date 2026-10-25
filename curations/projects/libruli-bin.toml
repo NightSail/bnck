@@ -1,0 +1,8 @@
+id = 'libruli-bin'
+name = 'libruli-bin'
+
+homepage = 'https://www.nongnu.org/ruli'
+
+[[package]]
+channel = 'debian'
+name = 'libruli-bin'

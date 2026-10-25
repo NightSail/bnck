@@ -1,0 +1,12 @@
+id = 'getfedora'
+name = 'getfedora'
+
+homepage = 'https://getfedora.org'
+
+[[package]]
+channel = 'fedora'
+name = 'qt5-rpm-macros'
+
+[[package]]
+channel = 'fedora'
+name = 'qt6-rpm-macros'

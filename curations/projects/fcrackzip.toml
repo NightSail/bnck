@@ -1,0 +1,16 @@
+id = 'fcrackzip'
+name = 'fcrackzip'
+
+homepage = 'https://oldhome.schmorp.de/marc/fcrackzip.html'
+
+[[package]]
+channel = 'arch'
+name = 'fcrackzip'
+
+[[package]]
+channel = 'debian'
+name = 'fcrackzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fcrackzip'

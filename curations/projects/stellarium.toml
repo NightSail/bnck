@@ -1,0 +1,16 @@
+id = 'stellarium'
+name = 'stellarium'
+
+homepage = 'https://stellarium.org'
+
+[[package]]
+channel = 'arch'
+name = 'stellarium'
+
+[[package]]
+channel = 'debian'
+name = 'stellarium'
+
+[[package]]
+channel = 'fedora'
+name = 'stellarium'

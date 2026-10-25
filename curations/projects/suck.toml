@@ -1,0 +1,8 @@
+id = 'suck'
+name = 'suck'
+
+homepage = 'https://github.com/lazarus-pkgs/suck'
+
+[[package]]
+channel = 'debian'
+name = 'suck'

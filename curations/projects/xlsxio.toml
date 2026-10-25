@@ -1,0 +1,8 @@
+id = 'xlsxio'
+name = 'xlsxio'
+
+repository = 'https://github.com/brechtsanders/xlsxio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xlsxio'

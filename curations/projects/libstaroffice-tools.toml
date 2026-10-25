@@ -1,0 +1,8 @@
+id = 'libstaroffice-tools'
+name = 'libstaroffice-tools'
+
+homepage = 'https://github.com/fosnola/libstaroffice/wiki'
+
+[[package]]
+channel = 'fedora'
+name = 'libstaroffice-tools'

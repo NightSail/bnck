@@ -1,0 +1,12 @@
+id = 'ocserv'
+name = 'ocserv'
+
+homepage = 'https://www.infradead.org/ocserv'
+
+[[package]]
+channel = 'debian'
+name = 'ocserv'
+
+[[package]]
+channel = 'fedora'
+name = 'ocserv'

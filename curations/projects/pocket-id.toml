@@ -1,0 +1,9 @@
+id = 'pocket-id'
+name = 'pocket-id'
+
+homepage = 'https://pocket-id.org'
+repository = 'https://github.com/pocket-id/pocket-id.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pocket-id'

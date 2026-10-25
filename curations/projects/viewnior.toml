@@ -1,0 +1,16 @@
+id = 'viewnior'
+name = 'viewnior'
+
+homepage = 'https://siyanpanayotov.com/project/viewnior'
+
+[[package]]
+channel = 'arch'
+name = 'viewnior'
+
+[[package]]
+channel = 'debian'
+name = 'viewnior'
+
+[[package]]
+channel = 'fedora'
+name = 'viewnior'

@@ -1,0 +1,8 @@
+id = 'codex-acp'
+name = 'codex-acp'
+
+repository = 'https://github.com/agentclientprotocol/codex-acp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codex-acp'

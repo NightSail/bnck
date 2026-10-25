@@ -1,0 +1,12 @@
+id = 'otf'
+name = 'otf'
+
+homepage = 'http://www.tu-dresden.de/zih/otf'
+
+[[package]]
+channel = 'debian'
+name = 'libopen-trace-format-dev'
+
+[[package]]
+channel = 'debian'
+name = 'otf-trace'

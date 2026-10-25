@@ -1,0 +1,8 @@
+id = 'gitfourchette'
+name = 'gitfourchette'
+
+homepage = 'https://gitfourchette.org'
+
+[[package]]
+channel = 'arch'
+name = 'gitfourchette'

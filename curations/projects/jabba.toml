@@ -1,0 +1,8 @@
+id = 'jabba'
+name = 'jabba'
+
+repository = 'https://github.com/Jabba-Team/jabba.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jabba'

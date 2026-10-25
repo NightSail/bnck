@@ -1,0 +1,16 @@
+id = 'shutter'
+name = 'shutter'
+
+homepage = 'https://shutter-project.org'
+
+[[package]]
+channel = 'arch'
+name = 'shutter'
+
+[[package]]
+channel = 'debian'
+name = 'shutter'
+
+[[package]]
+channel = 'fedora'
+name = 'shutter'

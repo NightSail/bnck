@@ -1,0 +1,12 @@
+id = 'oz'
+name = 'oz'
+
+homepage = 'https://github.com/clalancette/oz/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'oz'
+
+[[package]]
+channel = 'fedora'
+name = 'oz'

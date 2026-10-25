@@ -1,0 +1,32 @@
+id = 'mumble'
+name = 'mumble'
+
+homepage = 'https://www.mumble.info'
+
+[[package]]
+channel = 'arch'
+name = 'mumble'
+
+[[package]]
+channel = 'arch'
+name = 'mumble-server'
+
+[[package]]
+channel = 'debian'
+name = 'mumble'
+
+[[package]]
+channel = 'debian'
+name = 'mumble-server'
+
+[[package]]
+channel = 'fedora'
+name = 'mumble'
+
+[[package]]
+channel = 'fedora'
+name = 'mumble-overlay'
+
+[[package]]
+channel = 'fedora'
+name = 'mumble-server'

@@ -1,0 +1,8 @@
+id = 'aws-crt-cpp'
+name = 'aws-crt-cpp'
+
+homepage = 'https://github.com/awslabs/aws-crt-cpp'
+
+[[package]]
+channel = 'arch'
+name = 'aws-crt-cpp'

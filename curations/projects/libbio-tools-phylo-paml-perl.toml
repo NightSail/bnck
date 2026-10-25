@@ -1,0 +1,8 @@
+id = 'libbio-tools-phylo-paml-perl'
+name = 'libbio-tools-phylo-paml-perl'
+
+homepage = 'https://metacpan.org/release/Bio-Tools-Phylo-PAML'
+
+[[package]]
+channel = 'debian'
+name = 'libbio-tools-phylo-paml-perl'

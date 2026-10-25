@@ -1,0 +1,12 @@
+id = 'wgetpaste'
+name = 'wgetpaste'
+
+homepage = 'https://wgetpaste.zlin.dk'
+
+[[package]]
+channel = 'arch'
+name = 'wgetpaste'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wgetpaste'

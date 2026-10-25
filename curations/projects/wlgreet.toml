@@ -1,0 +1,8 @@
+id = 'wlgreet'
+name = 'wlgreet'
+
+homepage = 'https://git.sr.ht/~kennylevinsen/wlgreet'
+
+[[package]]
+channel = 'debian'
+name = 'wlgreet'

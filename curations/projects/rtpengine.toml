@@ -1,0 +1,20 @@
+id = 'rtpengine'
+name = 'rtpengine'
+
+homepage = 'https://github.com/sipwise/rtpengine'
+
+[[package]]
+channel = 'debian'
+name = 'rtpengine-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'rtpengine-perftest'
+
+[[package]]
+channel = 'debian'
+name = 'rtpengine-recording-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'rtpengine-utils'

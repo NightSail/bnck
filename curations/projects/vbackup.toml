@@ -1,0 +1,6 @@
+id = 'vbackup'
+name = 'vbackup'
+
+[[package]]
+channel = 'debian'
+name = 'vbackup'

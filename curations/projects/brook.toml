@@ -1,0 +1,13 @@
+id = 'brook'
+name = 'brook'
+
+homepage = 'https://brook.app'
+repository = 'https://github.com/txthinking/brook.git'
+
+[[package]]
+channel = 'arch'
+name = 'brook'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brook'

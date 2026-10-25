@@ -4,6 +4,10 @@ name = 'picom'
 homepage = 'https://github.com/yshui/picom'
 
 [[package]]
+channel = 'arch'
+name = 'picom'
+
+[[package]]
 channel = 'debian'
 name = 'picom'
 

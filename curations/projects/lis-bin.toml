@@ -1,0 +1,8 @@
+id = 'lis-bin'
+name = 'lis-bin'
+
+homepage = 'http://www.ssisc.org/lis/index.en.html'
+
+[[package]]
+channel = 'fedora'
+name = 'lis-bin'

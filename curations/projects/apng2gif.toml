@@ -1,0 +1,12 @@
+id = 'apng2gif'
+name = 'apng2gif'
+
+homepage = 'https://apng2gif.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'apng2gif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apng2gif'

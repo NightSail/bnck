@@ -1,0 +1,8 @@
+id = 'dae'
+name = 'dae'
+
+homepage = 'https://github.com/daeuniverse/dae'
+
+[[package]]
+channel = 'arch'
+name = 'dae'

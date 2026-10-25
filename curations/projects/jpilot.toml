@@ -1,0 +1,8 @@
+id = 'jpilot'
+name = 'jpilot'
+
+homepage = 'https://www.jpilot.org'
+
+[[package]]
+channel = 'fedora'
+name = 'jpilot'

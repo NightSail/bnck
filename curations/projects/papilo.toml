@@ -1,0 +1,8 @@
+id = 'papilo'
+name = 'papilo'
+
+homepage = 'https://github.com/scipopt/papilo'
+
+[[package]]
+channel = 'debian'
+name = 'papilo'

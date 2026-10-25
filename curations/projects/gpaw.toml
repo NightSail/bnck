@@ -1,0 +1,12 @@
+id = 'gpaw'
+name = 'gpaw'
+
+homepage = 'https://wiki.fysik.dtu.dk/gpaw'
+
+[[package]]
+channel = 'debian'
+name = 'gpaw'
+
+[[package]]
+channel = 'fedora'
+name = 'gpaw-common'

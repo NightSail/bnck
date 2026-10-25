@@ -1,0 +1,9 @@
+id = 'lego-go-acme'
+name = 'lego'
+
+homepage = 'https://go-acme.github.io/lego'
+repository = 'https://github.com/go-acme/lego.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lego'

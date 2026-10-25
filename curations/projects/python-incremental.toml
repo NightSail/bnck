@@ -1,0 +1,8 @@
+id = 'python-incremental'
+name = 'python-incremental'
+
+homepage = 'https://github.com/twisted/incremental'
+
+[[package]]
+channel = 'arch'
+name = 'python-incremental'

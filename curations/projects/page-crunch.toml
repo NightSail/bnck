@@ -1,0 +1,8 @@
+id = 'page-crunch'
+name = 'page-crunch'
+
+homepage = 'https://web.archive.org/web/20120120035354/http://wfr.tcl.tk/279'
+
+[[package]]
+channel = 'debian'
+name = 'page-crunch'

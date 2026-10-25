@@ -1,0 +1,8 @@
+id = 'nocache'
+name = 'nocache'
+
+homepage = 'https://github.com/Feh/nocache'
+
+[[package]]
+channel = 'debian'
+name = 'nocache'

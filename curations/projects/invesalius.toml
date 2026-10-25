@@ -1,0 +1,8 @@
+id = 'invesalius'
+name = 'invesalius'
+
+homepage = 'https://www.cti.gov.br/invesalius'
+
+[[package]]
+channel = 'debian'
+name = 'invesalius'

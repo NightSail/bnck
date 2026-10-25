@@ -1,0 +1,8 @@
+id = 'snapcast-snapcast'
+name = 'snapcast'
+
+homepage = 'https://github.com/snapcast/snapcast'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snapcast'

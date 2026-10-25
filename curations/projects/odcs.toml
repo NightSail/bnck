@@ -1,0 +1,12 @@
+id = 'odcs'
+name = 'odcs'
+
+homepage = 'https://pagure.io/odcs'
+
+[[package]]
+channel = 'fedora'
+name = 'odcs'
+
+[[package]]
+channel = 'fedora'
+name = 'odcs-client'

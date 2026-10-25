@@ -1,0 +1,8 @@
+id = 'hcl2json'
+name = 'hcl2json'
+
+repository = 'https://github.com/tmccombs/hcl2json.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hcl2json'

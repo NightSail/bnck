@@ -1,0 +1,8 @@
+id = 'embedded-mono-img'
+name = 'embedded-mono-img'
+
+homepage = 'https://github.com/kpcyrd/embedded-mono-img'
+
+[[package]]
+channel = 'arch'
+name = 'embedded-mono-img'

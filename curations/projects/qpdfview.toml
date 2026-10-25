@@ -1,0 +1,16 @@
+id = 'qpdfview'
+name = 'qpdfview'
+
+homepage = 'https://launchpad.net/qpdfview'
+
+[[package]]
+channel = 'debian'
+name = 'qpdfview'
+
+[[package]]
+channel = 'fedora'
+name = 'qpdfview-qt5'
+
+[[package]]
+channel = 'fedora'
+name = 'qpdfview-qt6'

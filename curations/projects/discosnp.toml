@@ -1,0 +1,8 @@
+id = 'discosnp'
+name = 'discosnp'
+
+homepage = 'http://colibread.inria.fr/discosnp'
+
+[[package]]
+channel = 'debian'
+name = 'discosnp'

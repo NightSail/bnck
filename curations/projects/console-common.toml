@@ -1,0 +1,10 @@
+id = 'console-common'
+name = 'console-common'
+
+[[package]]
+channel = 'debian'
+name = 'console-common'
+
+[[package]]
+channel = 'debian'
+name = 'dh-consoledata'

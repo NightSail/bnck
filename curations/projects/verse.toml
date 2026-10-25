@@ -1,0 +1,6 @@
+id = 'verse'
+name = 'verse'
+
+[[package]]
+channel = 'debian'
+name = 'verse'

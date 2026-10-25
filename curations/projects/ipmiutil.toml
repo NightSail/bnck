@@ -1,0 +1,12 @@
+id = 'ipmiutil'
+name = 'ipmiutil'
+
+homepage = 'https://ipmiutil.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ipmiutil'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipmiutil'

@@ -1,0 +1,21 @@
+id = 'sqlcipher'
+name = 'sqlcipher'
+
+homepage = 'https://www.zetetic.net/sqlcipher'
+repository = 'https://github.com/sqlcipher/sqlcipher.git'
+
+[[package]]
+channel = 'arch'
+name = 'sqlcipher'
+
+[[package]]
+channel = 'debian'
+name = 'sqlcipher'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlcipher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlcipher'

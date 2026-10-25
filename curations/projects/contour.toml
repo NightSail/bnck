@@ -1,0 +1,16 @@
+id = 'contour'
+name = 'contour'
+
+homepage = 'https://github.com/contour-terminal/contour'
+
+[[package]]
+channel = 'arch'
+name = 'contour'
+
+[[package]]
+channel = 'fedora'
+name = 'contour-terminal'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/contour'

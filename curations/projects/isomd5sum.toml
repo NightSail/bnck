@@ -1,0 +1,16 @@
+id = 'isomd5sum'
+name = 'isomd5sum'
+
+homepage = 'https://github.com/rhinstaller/isomd5sum'
+
+[[package]]
+channel = 'arch'
+name = 'isomd5sum'
+
+[[package]]
+channel = 'debian'
+name = 'isomd5sum'
+
+[[package]]
+channel = 'fedora'
+name = 'isomd5sum'

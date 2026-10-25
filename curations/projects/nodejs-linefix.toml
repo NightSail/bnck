@@ -1,0 +1,8 @@
+id = 'nodejs-linefix'
+name = 'nodejs-linefix'
+
+homepage = 'https://github.com/jhoff/linefix'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-linefix'

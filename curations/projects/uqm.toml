@@ -1,0 +1,12 @@
+id = 'uqm'
+name = 'uqm'
+
+homepage = 'http://sc2.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'uqm'
+
+[[package]]
+channel = 'fedora'
+name = 'uqm'

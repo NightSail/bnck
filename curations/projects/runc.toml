@@ -1,0 +1,21 @@
+id = 'runc'
+name = 'runc'
+
+homepage = 'https://runc.io'
+repository = 'https://github.com/opencontainers/runc.git'
+
+[[package]]
+channel = 'arch'
+name = 'runc'
+
+[[package]]
+channel = 'debian'
+name = 'runc'
+
+[[package]]
+channel = 'fedora'
+name = 'runc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/runc'

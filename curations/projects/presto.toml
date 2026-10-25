@@ -1,0 +1,8 @@
+id = 'presto'
+name = 'presto'
+
+homepage = 'https://presto.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'presto'

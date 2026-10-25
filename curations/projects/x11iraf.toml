@@ -1,0 +1,12 @@
+id = 'x11iraf'
+name = 'x11iraf'
+
+homepage = 'https://github.com/iraf-community/x11iraf'
+
+[[package]]
+channel = 'debian'
+name = 'xgterm'
+
+[[package]]
+channel = 'debian'
+name = 'ximtool'

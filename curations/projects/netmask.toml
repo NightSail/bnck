@@ -1,0 +1,16 @@
+id = 'netmask'
+name = 'netmask'
+
+homepage = 'https://github.com/tlby/netmask'
+
+[[package]]
+channel = 'debian'
+name = 'netmask'
+
+[[package]]
+channel = 'fedora'
+name = 'netmask'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/netmask'

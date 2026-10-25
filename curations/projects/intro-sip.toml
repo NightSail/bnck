@@ -1,0 +1,16 @@
+id = 'intro-sip'
+name = 'intro'
+
+homepage = 'http://www.riverbankcomputing.com/software/sip/intro'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw32-sip'
+
+[[package]]
+channel = 'fedora'
+name = 'mingw64-sip'
+
+[[package]]
+channel = 'fedora'
+name = 'sip'

@@ -1,0 +1,6 @@
+id = 'xtv'
+name = 'xtv'
+
+[[package]]
+channel = 'debian'
+name = 'xtv'

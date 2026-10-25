@@ -1,0 +1,16 @@
+id = 'tucnak'
+name = 'tucnak'
+
+homepage = 'http://tucnak.nagano.cz'
+
+[[package]]
+channel = 'debian'
+name = 'tucnak'
+
+[[package]]
+channel = 'fedora'
+name = 'libzia-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'tucnak'

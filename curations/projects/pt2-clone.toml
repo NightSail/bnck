@@ -1,0 +1,12 @@
+id = 'pt2-clone'
+name = 'pt2-clone'
+
+homepage = 'https://16-bits.org/pt2.php'
+
+[[package]]
+channel = 'arch'
+name = 'pt2-clone'
+
+[[package]]
+channel = 'debian'
+name = 'pt2-clone'

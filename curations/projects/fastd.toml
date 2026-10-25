@@ -1,0 +1,21 @@
+id = 'fastd'
+name = 'fastd'
+
+homepage = 'https://github.com/NeoRaider/fastd'
+repository = 'https://github.com/neocturne/fastd.git'
+
+[[package]]
+channel = 'arch'
+name = 'fastd'
+
+[[package]]
+channel = 'debian'
+name = 'fastd'
+
+[[package]]
+channel = 'fedora'
+name = 'fastd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastd'

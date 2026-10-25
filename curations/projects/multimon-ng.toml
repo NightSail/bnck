@@ -1,0 +1,12 @@
+id = 'multimon-ng'
+name = 'multimon-ng'
+
+homepage = 'https://github.com/EliasOenal/multimon-ng'
+
+[[package]]
+channel = 'arch'
+name = 'multimon-ng'
+
+[[package]]
+channel = 'debian'
+name = 'multimon-ng'

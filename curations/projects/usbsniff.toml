@@ -1,0 +1,8 @@
+id = 'usbsniff'
+name = 'usbsniff'
+
+homepage = 'https://github.com/vdudouyt/usbsniff'
+
+[[package]]
+channel = 'fedora'
+name = 'usbsniff'

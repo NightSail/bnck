@@ -1,0 +1,8 @@
+id = 'grdesktop'
+name = 'grdesktop'
+
+homepage = 'http://www.nongnu.org/grdesktop'
+
+[[package]]
+channel = 'debian'
+name = 'grdesktop'

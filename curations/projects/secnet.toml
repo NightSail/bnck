@@ -1,0 +1,6 @@
+id = 'secnet'
+name = 'secnet'
+
+[[package]]
+channel = 'debian'
+name = 'secnet'

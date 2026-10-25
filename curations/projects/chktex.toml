@@ -1,0 +1,8 @@
+id = 'chktex'
+name = 'chktex'
+
+homepage = 'https://www.nongnu.org/chktex'
+
+[[package]]
+channel = 'debian'
+name = 'chktex'

@@ -1,0 +1,12 @@
+id = 'pcm'
+name = 'pcm'
+
+homepage = 'https://github.com/opcm/pcm'
+
+[[package]]
+channel = 'debian'
+name = 'pcm'
+
+[[package]]
+channel = 'fedora'
+name = 'pcm'

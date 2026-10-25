@@ -1,0 +1,12 @@
+id = 'quickshell'
+name = 'quickshell'
+
+homepage = 'https://git.outfoxxed.me/quickshell/quickshell'
+
+[[package]]
+channel = 'arch'
+name = 'quickshell'
+
+[[package]]
+channel = 'debian'
+name = 'quickshell'

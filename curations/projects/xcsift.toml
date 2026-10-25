@@ -1,0 +1,9 @@
+id = 'xcsift'
+name = 'xcsift'
+
+homepage = 'https://ldomaradzki.github.io/xcsift'
+repository = 'https://github.com/ldomaradzki/xcsift.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcsift'

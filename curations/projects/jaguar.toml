@@ -1,0 +1,9 @@
+id = 'jaguar'
+name = 'jaguar'
+
+homepage = 'https://toitlang.org'
+repository = 'https://github.com/toitlang/jaguar.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jaguar'

@@ -1,0 +1,8 @@
+id = 'go-proto-validators'
+name = 'go-proto-validators'
+
+homepage = 'https://github.com/mwitkow/go-proto-validators'
+
+[[package]]
+channel = 'debian'
+name = 'go-proto-validators'

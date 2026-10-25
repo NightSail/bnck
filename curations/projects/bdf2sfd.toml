@@ -1,0 +1,8 @@
+id = 'bdf2sfd'
+name = 'bdf2sfd'
+
+homepage = 'https://github.com/fcambus/bdf2sfd'
+
+[[package]]
+channel = 'debian'
+name = 'bdf2sfd'

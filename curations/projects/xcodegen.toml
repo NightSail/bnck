@@ -1,0 +1,8 @@
+id = 'xcodegen'
+name = 'xcodegen'
+
+repository = 'https://github.com/yonaskolb/XcodeGen.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcodegen'

@@ -1,0 +1,8 @@
+id = 'resctl-bench'
+name = 'resctl-bench'
+
+homepage = 'https://crates.io/crates/resctl-bench'
+
+[[package]]
+channel = 'fedora'
+name = 'resctl-bench'

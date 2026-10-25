@@ -1,0 +1,12 @@
+id = 'rink'
+name = 'rink'
+
+homepage = 'https://rinkcalc.app/about'
+
+[[package]]
+channel = 'arch'
+name = 'rink'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rink'

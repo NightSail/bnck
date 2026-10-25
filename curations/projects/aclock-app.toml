@@ -1,0 +1,8 @@
+id = 'aclock-app'
+name = 'aclock.app'
+
+homepage = 'https://gap.nongnu.org/aclock'
+
+[[package]]
+channel = 'debian'
+name = 'aclock.app'

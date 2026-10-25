@@ -1,0 +1,12 @@
+id = 'icemon'
+name = 'icemon'
+
+homepage = 'https://kfunk.org/tag/icemon'
+
+[[package]]
+channel = 'fedora'
+name = 'icemon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icemon'

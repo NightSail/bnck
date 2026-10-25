@@ -1,0 +1,8 @@
+id = 'libsmraw-utils'
+name = 'libsmraw-utils'
+
+homepage = 'https://github.com/libyal/libsmraw'
+
+[[package]]
+channel = 'debian'
+name = 'libsmraw-utils'

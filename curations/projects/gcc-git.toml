@@ -1,0 +1,9 @@
+id = 'gcc-git'
+name = 'gcc'
+
+homepage = 'https://gcc.gnu.org'
+repository = 'https://gcc.gnu.org/git/gcc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcc'

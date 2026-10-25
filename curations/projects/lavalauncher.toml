@@ -1,0 +1,8 @@
+id = 'lavalauncher'
+name = 'lavalauncher'
+
+homepage = 'https://git.sr.ht/~leon_plickat/lavalauncher'
+
+[[package]]
+channel = 'fedora'
+name = 'lavalauncher'

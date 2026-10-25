@@ -1,0 +1,8 @@
+id = 'advai-cli'
+name = 'advai-cli'
+
+homepage = 'https://github.com/Advai-X/advai-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/advai-cli'

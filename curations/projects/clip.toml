@@ -1,0 +1,8 @@
+id = 'clip'
+name = 'clip'
+
+repository = 'https://github.com/asmuth/clip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clip'

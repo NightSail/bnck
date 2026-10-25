@@ -1,0 +1,8 @@
+id = 'sha1collisiondetection'
+name = 'sha1collisiondetection'
+
+homepage = 'https://crates.io/crates/sha1collisiondetection'
+
+[[package]]
+channel = 'fedora'
+name = 'sha1collisiondetection'

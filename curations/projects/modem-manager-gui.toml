@@ -1,0 +1,16 @@
+id = 'modem-manager-gui'
+name = 'modem-manager-gui'
+
+homepage = 'https://sourceforge.net/projects/modem-manager-gui'
+
+[[package]]
+channel = 'arch'
+name = 'modem-manager-gui'
+
+[[package]]
+channel = 'debian'
+name = 'modem-manager-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'modem-manager-gui'

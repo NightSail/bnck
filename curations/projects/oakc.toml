@@ -1,0 +1,8 @@
+id = 'oakc'
+name = 'oakc'
+
+repository = 'https://github.com/adam-mcdaniel/oakc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oakc'

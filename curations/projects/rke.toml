@@ -1,0 +1,8 @@
+id = 'rke'
+name = 'rke'
+
+homepage = 'https://rke.docs.rancher.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rke'

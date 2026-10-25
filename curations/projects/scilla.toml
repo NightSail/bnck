@@ -1,0 +1,9 @@
+id = 'scilla'
+name = 'scilla'
+
+homepage = 'https://edoardottt.com'
+repository = 'https://github.com/edoardottt/scilla.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scilla'

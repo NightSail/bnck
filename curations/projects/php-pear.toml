@@ -1,0 +1,12 @@
+id = 'php-pear'
+name = 'php-pear'
+
+homepage = 'https://pear.php.net/package/PEAR'
+
+[[package]]
+channel = 'debian'
+name = 'php-pear'
+
+[[package]]
+channel = 'fedora'
+name = 'php-pear'

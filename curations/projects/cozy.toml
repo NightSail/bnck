@@ -1,0 +1,12 @@
+id = 'cozy'
+name = 'cozy'
+
+homepage = 'https://cozy.sh'
+
+[[package]]
+channel = 'debian'
+name = 'cozy'
+
+[[package]]
+channel = 'fedora'
+name = 'cozy'

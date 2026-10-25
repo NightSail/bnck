@@ -1,0 +1,8 @@
+id = 'libfvde-utils'
+name = 'libfvde-utils'
+
+homepage = 'https://github.com/libyal/libfvde'
+
+[[package]]
+channel = 'debian'
+name = 'libfvde-utils'

@@ -1,0 +1,8 @@
+id = 'python3-pyongc'
+name = 'python3-pyongc'
+
+homepage = 'https://pypi.python.org/pypi/PyOngc'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyongc'

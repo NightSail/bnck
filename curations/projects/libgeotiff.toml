@@ -1,0 +1,17 @@
+id = 'libgeotiff'
+name = 'libgeotiff'
+
+homepage = 'http://trac.osgeo.org/geotiff'
+repository = 'https://github.com/OSGeo/libgeotiff.git'
+
+[[package]]
+channel = 'arch'
+name = 'libgeotiff'
+
+[[package]]
+channel = 'fedora'
+name = 'libgeotiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgeotiff'

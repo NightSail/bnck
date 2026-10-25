@@ -1,0 +1,8 @@
+id = 'mdns-reflector'
+name = 'mdns-reflector'
+
+homepage = 'https://github.com/vfreex/mdns-reflector'
+
+[[package]]
+channel = 'debian'
+name = 'mdns-reflector'

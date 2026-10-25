@@ -1,0 +1,8 @@
+id = 'qtscriptbindings'
+name = 'qtscriptbindings'
+
+homepage = 'http://code.google.com/p/qtscriptgenerator'
+
+[[package]]
+channel = 'fedora'
+name = 'qtscriptbindings'

@@ -1,0 +1,12 @@
+id = 'nikola'
+name = 'nikola'
+
+homepage = 'https://getnikola.com'
+
+[[package]]
+channel = 'arch'
+name = 'nikola'
+
+[[package]]
+channel = 'fedora'
+name = 'nikola'

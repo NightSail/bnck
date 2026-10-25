@@ -1,0 +1,8 @@
+id = 'haskell-cryptohash-sha256'
+name = 'haskell-cryptohash-sha256'
+
+homepage = 'https://github.com/hvr/cryptohash-sha256'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-cryptohash-sha256'

@@ -1,0 +1,8 @@
+id = 'erg'
+name = 'erg'
+
+homepage = 'https://github.com/erg-lang/erg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/erg'

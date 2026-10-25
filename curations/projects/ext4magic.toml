@@ -1,0 +1,8 @@
+id = 'ext4magic'
+name = 'ext4magic'
+
+homepage = 'http://ext4magic.sf.net/ext4magic_en.html'
+
+[[package]]
+channel = 'debian'
+name = 'ext4magic'

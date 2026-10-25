@@ -1,0 +1,8 @@
+id = 'honcho'
+name = 'honcho'
+
+repository = 'https://github.com/nickstenning/honcho.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/honcho'

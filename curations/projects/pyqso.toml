@@ -1,0 +1,6 @@
+id = 'pyqso'
+name = 'pyqso'
+
+[[package]]
+channel = 'debian'
+name = 'pyqso'

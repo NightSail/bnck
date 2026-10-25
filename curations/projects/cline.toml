@@ -1,0 +1,8 @@
+id = 'cline'
+name = 'cline'
+
+homepage = 'https://cline.bot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cline'

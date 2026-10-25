@@ -1,0 +1,12 @@
+id = 'sysconftool'
+name = 'sysconftool'
+
+homepage = 'http://www.courier-mta.org/sysconftool'
+
+[[package]]
+channel = 'debian'
+name = 'sysconftool'
+
+[[package]]
+channel = 'fedora'
+name = 'sysconftool'

@@ -1,0 +1,12 @@
+id = 'repowerd'
+name = 'repowerd'
+
+homepage = 'https://gitlab.com/ubports/development/core/repowerd'
+
+[[package]]
+channel = 'debian'
+name = 'repowerd'
+
+[[package]]
+channel = 'debian'
+name = 'repowerd-tools'

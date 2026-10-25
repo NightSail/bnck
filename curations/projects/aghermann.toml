@@ -1,0 +1,8 @@
+id = 'aghermann'
+name = 'aghermann'
+
+homepage = 'https://johnhommer.com/academic/code/aghermann'
+
+[[package]]
+channel = 'debian'
+name = 'aghermann'

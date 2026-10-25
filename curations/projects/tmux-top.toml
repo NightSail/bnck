@@ -1,0 +1,8 @@
+id = 'tmux-top'
+name = 'tmux-top'
+
+homepage = 'https://github.com/TomasTomecek/tmux-top'
+
+[[package]]
+channel = 'fedora'
+name = 'tmux-top'

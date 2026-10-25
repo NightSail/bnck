@@ -1,0 +1,8 @@
+id = 'apophenia-bin'
+name = 'apophenia-bin'
+
+homepage = 'http://apophenia.info'
+
+[[package]]
+channel = 'debian'
+name = 'apophenia-bin'

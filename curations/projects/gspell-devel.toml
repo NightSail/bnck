@@ -1,0 +1,8 @@
+id = 'gspell-devel'
+name = 'gspell-devel'
+
+homepage = 'https://wiki.gnome.org/Projects/gspell'
+
+[[package]]
+channel = 'fedora'
+name = 'gspell-devel'

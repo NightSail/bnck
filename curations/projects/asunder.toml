@@ -1,0 +1,12 @@
+id = 'asunder'
+name = 'asunder'
+
+homepage = 'http://www.littlesvr.ca/asunder'
+
+[[package]]
+channel = 'debian'
+name = 'asunder'
+
+[[package]]
+channel = 'fedora'
+name = 'asunder'

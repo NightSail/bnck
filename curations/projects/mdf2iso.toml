@@ -1,0 +1,16 @@
+id = 'mdf2iso'
+name = 'mdf2iso'
+
+homepage = 'https://packages.debian.org/sid/mdf2iso'
+
+[[package]]
+channel = 'arch'
+name = 'mdf2iso'
+
+[[package]]
+channel = 'debian'
+name = 'mdf2iso'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdf2iso'

@@ -1,0 +1,32 @@
+id = 'keepassxc'
+name = 'keepassxc'
+
+homepage = 'https://keepassxc.org'
+
+[[package]]
+channel = 'arch'
+name = 'keepassxc'
+
+[[package]]
+channel = 'debian'
+name = 'keepassxc-full'
+
+[[package]]
+channel = 'debian'
+name = 'keepassxc-minimal'
+
+[[package]]
+channel = 'fedora'
+name = 'keepassxc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/keepassxc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/keepassxc@beta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/keepassxc@snapshot'

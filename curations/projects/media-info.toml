@@ -1,0 +1,9 @@
+id = 'media-info'
+name = 'media-info'
+
+homepage = 'https://mediaarea.net'
+repository = 'https://github.com/MediaArea/MediaInfo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/media-info'

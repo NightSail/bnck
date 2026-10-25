@@ -1,0 +1,8 @@
+id = 'fluxcd'
+name = 'fluxcd'
+
+homepage = 'https://fluxcd.io'
+
+[[package]]
+channel = 'arch'
+name = 'fluxcd'

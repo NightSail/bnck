@@ -1,0 +1,12 @@
+id = 'pocketbase'
+name = 'pocketbase'
+
+homepage = 'https://pocketbase.io'
+
+[[package]]
+channel = 'debian'
+name = 'pocketbase'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pocketbase'

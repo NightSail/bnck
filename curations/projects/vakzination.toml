@@ -1,0 +1,8 @@
+id = 'vakzination'
+name = 'vakzination'
+
+homepage = 'https://invent.kde.org/plasma-mobile/vakzination'
+
+[[package]]
+channel = 'fedora'
+name = 'vakzination'

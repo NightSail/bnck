@@ -1,0 +1,6 @@
+id = 'python3-apsw'
+name = 'python3-apsw'
+
+[[package]]
+channel = 'debian'
+name = 'python3-apsw'

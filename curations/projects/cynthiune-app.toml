@@ -1,0 +1,8 @@
+id = 'cynthiune-app'
+name = 'cynthiune.app'
+
+homepage = 'https://gap.nongnu.org/cynthiune'
+
+[[package]]
+channel = 'debian'
+name = 'cynthiune.app'

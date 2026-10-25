@@ -1,0 +1,21 @@
+id = 'xsel'
+name = 'xsel'
+
+homepage = 'https://vergenet.net/~conrad/software/xsel'
+repository = 'https://github.com/kfish/xsel.git'
+
+[[package]]
+channel = 'arch'
+name = 'xsel'
+
+[[package]]
+channel = 'debian'
+name = 'xsel'
+
+[[package]]
+channel = 'fedora'
+name = 'xsel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xsel'

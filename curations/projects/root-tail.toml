@@ -1,0 +1,12 @@
+id = 'root-tail'
+name = 'root-tail'
+
+homepage = 'http://software.schmorp.de/pkg/root-tail.html'
+
+[[package]]
+channel = 'debian'
+name = 'root-tail'
+
+[[package]]
+channel = 'fedora'
+name = 'root-tail'

@@ -1,0 +1,16 @@
+id = 'mednafen'
+name = 'mednafen'
+
+homepage = 'https://mednafen.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'mednafen'
+
+[[package]]
+channel = 'fedora'
+name = 'mednafen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mednafen'

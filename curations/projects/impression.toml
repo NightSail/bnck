@@ -1,0 +1,12 @@
+id = 'impression'
+name = 'impression'
+
+homepage = 'https://apps.gnome.org/Impression'
+
+[[package]]
+channel = 'arch'
+name = 'impression'
+
+[[package]]
+channel = 'debian'
+name = 'impression'

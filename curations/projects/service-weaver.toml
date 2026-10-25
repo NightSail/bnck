@@ -1,0 +1,9 @@
+id = 'service-weaver'
+name = 'service-weaver'
+
+homepage = 'https://serviceweaver.dev'
+repository = 'https://github.com/ServiceWeaver/weaver.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/service-weaver'

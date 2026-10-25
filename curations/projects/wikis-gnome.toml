@@ -1,0 +1,16 @@
+id = 'wikis-gnome'
+name = 'wikis'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home'
+
+[[package]]
+channel = 'arch'
+name = 'libxslt'
+
+[[package]]
+channel = 'debian'
+name = 'libxslt1-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xsltproc'

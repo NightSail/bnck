@@ -1,0 +1,12 @@
+id = 'ormolu'
+name = 'ormolu'
+
+homepage = 'https://github.com/tweag/ormolu'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-ormolu'
+
+[[package]]
+channel = 'debian'
+name = 'ormolu'

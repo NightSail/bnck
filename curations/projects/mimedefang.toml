@@ -1,0 +1,16 @@
+id = 'mimedefang'
+name = 'mimedefang'
+
+homepage = 'https://www.mimedefang.org'
+
+[[package]]
+channel = 'debian'
+name = 'graphdefang'
+
+[[package]]
+channel = 'debian'
+name = 'mimedefang'
+
+[[package]]
+channel = 'fedora'
+name = 'mimedefang'

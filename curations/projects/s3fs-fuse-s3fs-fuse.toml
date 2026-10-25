@@ -1,0 +1,8 @@
+id = 's3fs-fuse-s3fs-fuse'
+name = 's3fs-fuse'
+
+homepage = 'https://github.com/s3fs-fuse/s3fs-fuse/wiki'
+
+[[package]]
+channel = 'arch'
+name = 's3fs-fuse'

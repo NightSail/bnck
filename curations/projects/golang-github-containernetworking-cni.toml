@@ -1,0 +1,8 @@
+id = 'golang-github-containernetworking-cni'
+name = 'golang-github-containernetworking-cni'
+
+homepage = 'https://github.com/containernetworking/cni'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-containernetworking-cni'

@@ -1,0 +1,24 @@
+id = 'sendmail'
+name = 'sendmail'
+
+homepage = 'http://www.sendmail.org'
+
+[[package]]
+channel = 'debian'
+name = 'rmail'
+
+[[package]]
+channel = 'debian'
+name = 'sendmail-base'
+
+[[package]]
+channel = 'debian'
+name = 'sendmail-bin'
+
+[[package]]
+channel = 'debian'
+name = 'sensible-mda'
+
+[[package]]
+channel = 'fedora'
+name = 'sendmail'

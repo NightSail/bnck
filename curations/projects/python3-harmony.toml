@@ -1,0 +1,8 @@
+id = 'python3-harmony'
+name = 'python3-harmony'
+
+homepage = 'https://github.com/taylordotfish/harmony'
+
+[[package]]
+channel = 'debian'
+name = 'python3-harmony'

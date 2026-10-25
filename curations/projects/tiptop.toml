@@ -1,0 +1,12 @@
+id = 'tiptop'
+name = 'tiptop'
+
+homepage = 'http://tiptop.gforge.inria.fr'
+
+[[package]]
+channel = 'debian'
+name = 'tiptop'
+
+[[package]]
+channel = 'fedora'
+name = 'tiptop'

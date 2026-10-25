@@ -1,0 +1,28 @@
+id = 'ncl'
+name = 'ncl'
+
+homepage = 'https://www.ncl.ucar.edu'
+
+[[package]]
+channel = 'debian'
+name = 'libncarg-bin'
+
+[[package]]
+channel = 'debian'
+name = 'ncl-ncarg'
+
+[[package]]
+channel = 'fedora'
+name = 'ncl'
+
+[[package]]
+channel = 'fedora'
+name = 'ncl-common'
+
+[[package]]
+channel = 'fedora'
+name = 'ncl-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'ncl-examples'

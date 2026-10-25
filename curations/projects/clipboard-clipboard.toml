@@ -1,0 +1,12 @@
+id = 'clipboard-clipboard'
+name = 'Clipboard'
+
+homepage = 'https://metacpan.org/release/Clipboard'
+
+[[package]]
+channel = 'debian'
+name = 'libclipboard-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Clipboard'

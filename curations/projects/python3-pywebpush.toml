@@ -1,0 +1,8 @@
+id = 'python3-pywebpush'
+name = 'python3-pywebpush'
+
+homepage = 'https://github.com/web-push-libs/pywebpush'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pywebpush'

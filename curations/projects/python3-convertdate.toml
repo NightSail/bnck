@@ -1,0 +1,12 @@
+id = 'python3-convertdate'
+name = 'python3-convertdate'
+
+homepage = 'https://github.com/fitnr/convertdate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-convertdate'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-convertdate'

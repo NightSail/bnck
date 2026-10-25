@@ -10,6 +10,10 @@ name = 'zellij'
 
 [[package]]
 channel = 'crates.io'
+name = 'tmux'
+
+[[package]]
+channel = 'crates.io'
 name = 'zellij'
 
 [[package]]

@@ -1,0 +1,8 @@
+id = 'boxer'
+name = 'boxer'
+
+homepage = 'https://wiki.debian.org/Boxer'
+
+[[package]]
+channel = 'debian'
+name = 'boxer'

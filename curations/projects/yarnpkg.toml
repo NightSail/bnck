@@ -1,0 +1,12 @@
+id = 'yarnpkg'
+name = 'yarnpkg'
+
+homepage = 'https://github.com/yarnpkg/berry'
+
+[[package]]
+channel = 'debian'
+name = 'yarnpkg'
+
+[[package]]
+channel = 'fedora'
+name = 'yarnpkg'

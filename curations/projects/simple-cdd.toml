@@ -1,0 +1,6 @@
+id = 'simple-cdd'
+name = 'simple-cdd'
+
+[[package]]
+channel = 'debian'
+name = 'simple-cdd'

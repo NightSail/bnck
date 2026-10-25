@@ -1,0 +1,8 @@
+id = 'ingress2gateway'
+name = 'ingress2gateway'
+
+repository = 'https://github.com/kubernetes-sigs/ingress2gateway.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ingress2gateway'

@@ -1,0 +1,8 @@
+id = 'hacksaw'
+name = 'hacksaw'
+
+homepage = 'https://github.com/neXromancers/hacksaw'
+
+[[package]]
+channel = 'arch'
+name = 'hacksaw'

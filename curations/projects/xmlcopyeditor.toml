@@ -1,0 +1,8 @@
+id = 'xmlcopyeditor'
+name = 'xmlcopyeditor'
+
+homepage = 'https://xml-copy-editor.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xmlcopyeditor'

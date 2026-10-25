@@ -1,0 +1,8 @@
+id = 'libvirt-dbus'
+name = 'libvirt-dbus'
+
+homepage = 'https://libvirt.org/dbus.html'
+
+[[package]]
+channel = 'arch'
+name = 'libvirt-dbus'

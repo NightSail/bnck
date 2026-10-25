@@ -1,0 +1,8 @@
+id = 'ufbt'
+name = 'ufbt'
+
+homepage = 'https://pypi.org/project/ufbt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ufbt'

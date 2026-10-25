@@ -1,0 +1,8 @@
+id = 'dbar'
+name = 'dbar'
+
+homepage = 'http://sites.google.com/site/gotmor'
+
+[[package]]
+channel = 'debian'
+name = 'dbar'

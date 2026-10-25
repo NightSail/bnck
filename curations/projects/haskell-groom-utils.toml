@@ -1,0 +1,8 @@
+id = 'haskell-groom-utils'
+name = 'haskell-groom-utils'
+
+homepage = 'https://hackage.haskell.org/package/groom'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-groom-utils'

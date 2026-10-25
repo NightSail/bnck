@@ -1,0 +1,8 @@
+id = 'm1ddc'
+name = 'm1ddc'
+
+repository = 'https://github.com/waydabber/m1ddc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/m1ddc'

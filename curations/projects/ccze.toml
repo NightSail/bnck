@@ -1,0 +1,12 @@
+id = 'ccze'
+name = 'ccze'
+
+homepage = 'https://git.madhouse-project.org/archive/ccze'
+
+[[package]]
+channel = 'debian'
+name = 'ccze'
+
+[[package]]
+channel = 'fedora'
+name = 'ccze'

@@ -1,0 +1,16 @@
+id = 'vultr-cli'
+name = 'vultr-cli'
+
+repository = 'https://github.com/vultr/vultr-cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'vultr-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'vultr-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vultr-cli'

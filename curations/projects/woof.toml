@@ -1,0 +1,9 @@
+id = 'woof'
+name = 'woof'
+
+homepage = 'https://www.home.unix-ag.org/simon/woof.html'
+repository = 'https://codeberg.org/nomis/woof.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/woof'

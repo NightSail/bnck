@@ -1,0 +1,8 @@
+id = 'matroxset'
+name = 'matroxset'
+
+homepage = 'https://www.bglug.ca/matrox_tvout'
+
+[[package]]
+channel = 'debian'
+name = 'matroxset'

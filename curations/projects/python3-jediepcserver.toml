@@ -1,0 +1,8 @@
+id = 'python3-jediepcserver'
+name = 'python3-jediepcserver'
+
+homepage = 'https://tkf.github.io/emacs-jedi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jediepcserver'

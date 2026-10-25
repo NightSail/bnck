@@ -1,0 +1,16 @@
+id = 'netplan'
+name = 'netplan'
+
+homepage = 'https://github.com/canonical/netplan'
+
+[[package]]
+channel = 'arch'
+name = 'netplan'
+
+[[package]]
+channel = 'debian'
+name = 'netplan.io'
+
+[[package]]
+channel = 'fedora'
+name = 'netplan'

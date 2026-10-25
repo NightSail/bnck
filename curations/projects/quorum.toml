@@ -1,0 +1,8 @@
+id = 'quorum'
+name = 'quorum'
+
+homepage = 'https://github.com/gmarcais/Quorum'
+
+[[package]]
+channel = 'debian'
+name = 'quorum'

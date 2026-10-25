@@ -1,0 +1,16 @@
+id = 'peewee'
+name = 'peewee'
+
+homepage = 'https://github.com/coleifer/peewee'
+
+[[package]]
+channel = 'arch'
+name = 'python-peewee'
+
+[[package]]
+channel = 'debian'
+name = 'peewee'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-peewee'

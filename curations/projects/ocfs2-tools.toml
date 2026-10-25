@@ -1,0 +1,12 @@
+id = 'ocfs2-tools'
+name = 'ocfs2-tools'
+
+homepage = 'https://ocfs2.wiki.kernel.org'
+
+[[package]]
+channel = 'debian'
+name = 'ocfs2-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ocfs2-tools'

@@ -1,0 +1,16 @@
+id = 'gnatcoll-db'
+name = 'gnatcoll-db'
+
+homepage = 'https://github.com/AdaCore/gnatcoll-db'
+
+[[package]]
+channel = 'debian'
+name = 'libgnatcoll-db-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gnatcoll-sql-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'gnatcoll-xref'

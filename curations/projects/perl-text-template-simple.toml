@@ -1,0 +1,8 @@
+id = 'perl-text-template-simple'
+name = 'perl-Text-Template-Simple'
+
+homepage = 'https://metacpan.org/release/Text-Template-Simple'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-Template-Simple'

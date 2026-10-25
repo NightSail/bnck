@@ -1,0 +1,8 @@
+id = 'hdate-applet'
+name = 'hdate-applet'
+
+homepage = 'http://hdateapplet.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'hdate-applet'

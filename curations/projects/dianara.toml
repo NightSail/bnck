@@ -1,0 +1,8 @@
+id = 'dianara'
+name = 'dianara'
+
+homepage = 'http://jancoding.wordpress.com/dianara'
+
+[[package]]
+channel = 'debian'
+name = 'dianara'

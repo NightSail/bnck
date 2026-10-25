@@ -1,0 +1,8 @@
+id = 'vmdktool'
+name = 'vmdktool'
+
+homepage = 'https://manned.org/vmdktool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vmdktool'

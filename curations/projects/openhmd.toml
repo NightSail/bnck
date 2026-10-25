@@ -1,0 +1,9 @@
+id = 'openhmd'
+name = 'openhmd'
+
+homepage = 'http://openhmd.net'
+repository = 'https://github.com/OpenHMD/OpenHMD.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openhmd'

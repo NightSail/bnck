@@ -1,0 +1,16 @@
+id = 'l3afpad'
+name = 'l3afpad'
+
+homepage = 'https://github.com/stevenhoneyman/l3afpad'
+
+[[package]]
+channel = 'arch'
+name = 'l3afpad'
+
+[[package]]
+channel = 'debian'
+name = 'l3afpad'
+
+[[package]]
+channel = 'fedora'
+name = 'l3afpad'

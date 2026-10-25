@@ -1,0 +1,12 @@
+id = 'sphinx-intl'
+name = 'sphinx-intl'
+
+homepage = 'https://github.com/sphinx-doc/sphinx-intl'
+
+[[package]]
+channel = 'arch'
+name = 'python-sphinx-intl'
+
+[[package]]
+channel = 'debian'
+name = 'sphinx-intl'

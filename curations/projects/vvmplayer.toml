@@ -1,0 +1,8 @@
+id = 'vvmplayer'
+name = 'vvmplayer'
+
+homepage = 'https://gitlab.com/kop316/vvmplayer'
+
+[[package]]
+channel = 'debian'
+name = 'vvmplayer'

@@ -1,0 +1,16 @@
+id = 'pdfminer-six'
+name = 'pdfminer.six'
+
+homepage = 'https://github.com/pdfminer/pdfminer.six'
+
+[[package]]
+channel = 'arch'
+name = 'python-pdfminer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pdfminer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pdfminer'

@@ -1,0 +1,8 @@
+id = 'lomiri-online-accounts-client'
+name = 'lomiri-online-accounts-client'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-online-accounts'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-online-accounts-client'

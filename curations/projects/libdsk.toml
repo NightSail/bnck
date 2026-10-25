@@ -1,0 +1,16 @@
+id = 'libdsk'
+name = 'libdsk'
+
+homepage = 'https://www.seasip.info/Unix/LibDsk'
+
+[[package]]
+channel = 'debian'
+name = 'libdsk-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libdsk-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdsk'

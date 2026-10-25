@@ -1,0 +1,8 @@
+id = 'esbuild-esbuild'
+name = 'esbuild'
+
+homepage = 'https://esbuild.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'esbuild'

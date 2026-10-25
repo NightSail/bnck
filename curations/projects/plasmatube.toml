@@ -1,0 +1,12 @@
+id = 'plasmatube'
+name = 'plasmatube'
+
+homepage = 'https://apps.kde.org/plasmatube'
+
+[[package]]
+channel = 'arch'
+name = 'plasmatube'
+
+[[package]]
+channel = 'fedora'
+name = 'plasmatube'

@@ -1,0 +1,21 @@
+id = 'qbe'
+name = 'qbe'
+
+homepage = 'https://c9x.me/compile'
+repository = 'git://c9x.me/qbe.git'
+
+[[package]]
+channel = 'arch'
+name = 'qbe'
+
+[[package]]
+channel = 'debian'
+name = 'qbe'
+
+[[package]]
+channel = 'fedora'
+name = 'qbe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qbe'

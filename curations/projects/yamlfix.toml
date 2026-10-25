@@ -1,0 +1,8 @@
+id = 'yamlfix'
+name = 'yamlfix'
+
+homepage = 'https://lyz-code.github.io/yamlfix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yamlfix'

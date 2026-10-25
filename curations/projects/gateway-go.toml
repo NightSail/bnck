@@ -1,0 +1,9 @@
+id = 'gateway-go'
+name = 'gateway-go'
+
+homepage = 'https://github.com/OpenIoTHub'
+repository = 'https://github.com/OpenIoTHub/gateway-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gateway-go'

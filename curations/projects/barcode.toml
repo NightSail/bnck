@@ -1,0 +1,20 @@
+id = 'barcode'
+name = 'barcode'
+
+homepage = 'https://www.gnu.org/software/barcode'
+
+[[package]]
+channel = 'arch'
+name = 'barcode'
+
+[[package]]
+channel = 'debian'
+name = 'barcode'
+
+[[package]]
+channel = 'fedora'
+name = 'barcode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-barcode'

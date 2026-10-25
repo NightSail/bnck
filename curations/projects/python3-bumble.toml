@@ -1,0 +1,8 @@
+id = 'python3-bumble'
+name = 'python3-bumble'
+
+homepage = 'https://github.com/google/bumble'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bumble'

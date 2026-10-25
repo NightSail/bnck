@@ -1,0 +1,8 @@
+id = 'fruit'
+name = 'fruit'
+
+homepage = 'https://arctrix.com/nas/chess/fruit'
+
+[[package]]
+channel = 'fedora'
+name = 'fruit'

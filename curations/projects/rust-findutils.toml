@@ -1,0 +1,8 @@
+id = 'rust-findutils'
+name = 'rust-findutils'
+
+homepage = 'https://github.com/uutils/findutils'
+
+[[package]]
+channel = 'debian'
+name = 'rust-findutils'

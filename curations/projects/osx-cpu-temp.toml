@@ -1,0 +1,8 @@
+id = 'osx-cpu-temp'
+name = 'osx-cpu-temp'
+
+homepage = 'https://github.com/lavoiesl/osx-cpu-temp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osx-cpu-temp'

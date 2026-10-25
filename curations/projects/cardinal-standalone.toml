@@ -1,0 +1,8 @@
+id = 'cardinal-standalone'
+name = 'cardinal-standalone'
+
+homepage = 'https://github.com/DISTRHO/Cardinal'
+
+[[package]]
+channel = 'arch'
+name = 'cardinal-standalone'

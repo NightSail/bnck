@@ -1,0 +1,13 @@
+id = 'cargo-mutants'
+name = 'cargo-mutants'
+
+homepage = 'https://mutants.rs'
+repository = 'https://github.com/sourcefrog/cargo-mutants.git'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-mutants'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-mutants'

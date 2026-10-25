@@ -1,0 +1,8 @@
+id = 'coolmail'
+name = 'coolmail'
+
+homepage = 'https://packages.debian.org/coolmail'
+
+[[package]]
+channel = 'debian'
+name = 'coolmail'

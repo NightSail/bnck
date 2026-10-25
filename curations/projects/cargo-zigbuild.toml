@@ -1,0 +1,12 @@
+id = 'cargo-zigbuild'
+name = 'cargo-zigbuild'
+
+repository = 'https://github.com/rust-cross/cargo-zigbuild.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-zigbuild'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-zigbuild'

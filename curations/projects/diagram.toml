@@ -1,0 +1,8 @@
+id = 'diagram'
+name = 'diagram'
+
+repository = 'https://github.com/esimov/diagram.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diagram'

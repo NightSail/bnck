@@ -1,0 +1,8 @@
+id = 'quitcount'
+name = 'quitcount'
+
+homepage = 'http://quitcount.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'quitcount'

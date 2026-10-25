@@ -1,0 +1,8 @@
+id = 'xorg-xev'
+name = 'xorg-xev'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xev'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xev'

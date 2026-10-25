@@ -1,0 +1,8 @@
+id = 'pandorafms-agent'
+name = 'pandorafms-agent'
+
+homepage = 'https://pandorafms.org'
+
+[[package]]
+channel = 'debian'
+name = 'pandorafms-agent'

@@ -1,0 +1,12 @@
+id = 'im-chooser'
+name = 'im-chooser'
+
+homepage = 'http://pagure.io/im-chooser'
+
+[[package]]
+channel = 'fedora'
+name = 'im-chooser'
+
+[[package]]
+channel = 'fedora'
+name = 'im-chooser-xfce'

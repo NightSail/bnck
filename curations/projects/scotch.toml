@@ -1,0 +1,28 @@
+id = 'scotch'
+name = 'scotch'
+
+homepage = 'http://www.labri.fr/perso/pelegrin/scotch'
+
+[[package]]
+channel = 'debian'
+name = 'ptscotch'
+
+[[package]]
+channel = 'debian'
+name = 'ptscotch-64'
+
+[[package]]
+channel = 'debian'
+name = 'ptscotch-64i'
+
+[[package]]
+channel = 'debian'
+name = 'scotch'
+
+[[package]]
+channel = 'debian'
+name = 'scotch-64'
+
+[[package]]
+channel = 'debian'
+name = 'scotch-64i'

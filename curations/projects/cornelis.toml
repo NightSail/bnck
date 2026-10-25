@@ -1,0 +1,8 @@
+id = 'cornelis'
+name = 'cornelis'
+
+repository = 'https://github.com/agda/cornelis.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cornelis'

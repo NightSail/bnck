@@ -1,0 +1,8 @@
+id = 'stdsyslog'
+name = 'stdsyslog'
+
+homepage = 'https://devel.ringlet.net/sysutils/stdsyslog'
+
+[[package]]
+channel = 'debian'
+name = 'stdsyslog'

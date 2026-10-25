@@ -1,0 +1,12 @@
+id = 'cosmic-idle'
+name = 'cosmic-idle'
+
+homepage = 'https://github.com/pop-os/cosmic-idle'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-idle'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-idle'

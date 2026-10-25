@@ -1,0 +1,16 @@
+id = 'gummi'
+name = 'gummi'
+
+homepage = 'https://alexandervdm.github.io/gummi'
+
+[[package]]
+channel = 'arch'
+name = 'gummi'
+
+[[package]]
+channel = 'debian'
+name = 'gummi'
+
+[[package]]
+channel = 'fedora'
+name = 'gummi'

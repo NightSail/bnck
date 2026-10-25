@@ -1,0 +1,12 @@
+id = 'opensm'
+name = 'opensm'
+
+homepage = 'https://github.com/linux-rdma/opensm'
+
+[[package]]
+channel = 'debian'
+name = 'opensm'
+
+[[package]]
+channel = 'fedora'
+name = 'opensm'

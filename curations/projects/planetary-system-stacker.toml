@@ -1,0 +1,8 @@
+id = 'planetary-system-stacker'
+name = 'planetary-system-stacker'
+
+homepage = 'https://github.com/Rolf-Hempel/PlanetarySystemStacker'
+
+[[package]]
+channel = 'debian'
+name = 'planetary-system-stacker'

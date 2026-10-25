@@ -1,0 +1,9 @@
+id = 'ideviceinstaller'
+name = 'ideviceinstaller'
+
+homepage = 'https://libimobiledevice.org'
+repository = 'https://github.com/libimobiledevice/ideviceinstaller.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ideviceinstaller'

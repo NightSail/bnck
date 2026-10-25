@@ -1,0 +1,8 @@
+id = 'osmo-mgw'
+name = 'osmo-mgw'
+
+homepage = 'https://osmocom.org/projects/osmo-mgw'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-mgw'

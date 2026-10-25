@@ -1,0 +1,8 @@
+id = 'gpiod-sysfs-proxy'
+name = 'gpiod-sysfs-proxy'
+
+homepage = 'https://github.com/brgl/gpiod-sysfs-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'gpiod-sysfs-proxy'

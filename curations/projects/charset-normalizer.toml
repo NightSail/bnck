@@ -1,0 +1,16 @@
+id = 'charset-normalizer'
+name = 'charset_normalizer'
+
+homepage = 'https://github.com/Ousret/charset_normalizer'
+
+[[package]]
+channel = 'arch'
+name = 'python-charset-normalizer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-charset-normalizer'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-charset-normalizer'

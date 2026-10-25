@@ -1,0 +1,12 @@
+id = 'exaile'
+name = 'exaile'
+
+homepage = 'https://exaile.org'
+
+[[package]]
+channel = 'debian'
+name = 'exaile'
+
+[[package]]
+channel = 'fedora'
+name = 'exaile'

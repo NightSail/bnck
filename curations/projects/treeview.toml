@@ -1,0 +1,8 @@
+id = 'treeview'
+name = 'treeview'
+
+homepage = 'https://jtreeview.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'treeview'

@@ -1,0 +1,12 @@
+id = 'primus-vk'
+name = 'primus-vk'
+
+homepage = 'https://github.com/felixdoerre/primus_vk'
+
+[[package]]
+channel = 'arch'
+name = 'primus_vk'
+
+[[package]]
+channel = 'debian'
+name = 'primus-vk'

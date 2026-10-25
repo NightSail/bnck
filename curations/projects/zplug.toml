@@ -1,0 +1,8 @@
+id = 'zplug'
+name = 'zplug'
+
+repository = 'https://github.com/zplug/zplug.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zplug'

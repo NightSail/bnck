@@ -1,0 +1,8 @@
+id = 'wham-align'
+name = 'wham-align'
+
+homepage = 'http://research.cs.wisc.edu/wham'
+
+[[package]]
+channel = 'debian'
+name = 'wham-align'

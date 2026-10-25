@@ -1,0 +1,12 @@
+id = 'xmount'
+name = 'xmount'
+
+homepage = 'https://www.sits.lu/xmount'
+
+[[package]]
+channel = 'debian'
+name = 'xmount'
+
+[[package]]
+channel = 'fedora'
+name = 'xmount'

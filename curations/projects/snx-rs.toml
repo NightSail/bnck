@@ -1,0 +1,8 @@
+id = 'snx-rs'
+name = 'snx-rs'
+
+repository = 'https://github.com/ancwrd1/snx-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snx-rs'

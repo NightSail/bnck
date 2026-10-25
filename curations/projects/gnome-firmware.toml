@@ -1,0 +1,16 @@
+id = 'gnome-firmware'
+name = 'gnome-firmware'
+
+homepage = 'https://gitlab.gnome.org/World/gnome-firmware'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-firmware'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-firmware'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-firmware'

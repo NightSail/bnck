@@ -1,0 +1,17 @@
+id = 'bgpq3'
+name = 'bgpq3'
+
+homepage = 'http://snar.spb.ru/prog/bgpq3'
+repository = 'https://github.com/snar/bgpq3.git'
+
+[[package]]
+channel = 'debian'
+name = 'bgpq3'
+
+[[package]]
+channel = 'fedora'
+name = 'bgpq3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bgpq3'

@@ -1,0 +1,8 @@
+id = 'nautilus-compare'
+name = 'nautilus-compare'
+
+homepage = 'https://launchpad.net/nautilus-compare'
+
+[[package]]
+channel = 'debian'
+name = 'nautilus-compare'

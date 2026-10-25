@@ -1,0 +1,8 @@
+id = 'fortran-fpm'
+name = 'fortran-fpm'
+
+homepage = 'https://github.com/fortran-lang/fpm'
+
+[[package]]
+channel = 'debian'
+name = 'fortran-fpm'

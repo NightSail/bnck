@@ -1,0 +1,8 @@
+id = 'zita-at1'
+name = 'zita-at1'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/zita-at1-doc/quickguide.html'
+
+[[package]]
+channel = 'arch'
+name = 'zita-at1'

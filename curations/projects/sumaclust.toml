@@ -1,0 +1,8 @@
+id = 'sumaclust'
+name = 'sumaclust'
+
+homepage = 'http://metabarcoding.org/sumaclust'
+
+[[package]]
+channel = 'debian'
+name = 'sumaclust'

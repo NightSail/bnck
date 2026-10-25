@@ -1,0 +1,12 @@
+id = 'qps'
+name = 'qps'
+
+homepage = 'https://github.com/lxqt/qps'
+
+[[package]]
+channel = 'arch'
+name = 'qps'
+
+[[package]]
+channel = 'debian'
+name = 'qps'

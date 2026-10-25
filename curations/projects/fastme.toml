@@ -1,0 +1,8 @@
+id = 'fastme'
+name = 'fastme'
+
+homepage = 'http://www.atgc-montpellier.fr/fastme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastme'

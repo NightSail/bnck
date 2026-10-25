@@ -1,0 +1,13 @@
+id = 'flowgrind'
+name = 'flowgrind'
+
+homepage = 'https://flowgrind.github.io'
+repository = 'https://github.com/flowgrind/flowgrind.git'
+
+[[package]]
+channel = 'debian'
+name = 'flowgrind'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flowgrind'

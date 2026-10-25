@@ -1,0 +1,9 @@
+id = 'woof-doom'
+name = 'woof-doom'
+
+homepage = 'https://fabiangreffrath.github.io/woof'
+repository = 'https://github.com/fabiangreffrath/woof.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/woof-doom'

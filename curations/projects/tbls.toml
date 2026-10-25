@@ -1,0 +1,8 @@
+id = 'tbls'
+name = 'tbls'
+
+repository = 'https://github.com/k1LoW/tbls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tbls'

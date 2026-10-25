@@ -1,0 +1,8 @@
+id = 'python3-fastapi'
+name = 'python3-fastapi'
+
+homepage = 'https://github.com/tiangolo/fastapi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-fastapi'

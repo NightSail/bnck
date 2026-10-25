@@ -1,0 +1,8 @@
+id = 'dynamic-wallpaper-editor'
+name = 'dynamic-wallpaper-editor'
+
+homepage = 'https://github.com/maoschanz/dynamic-wallpaper-editor'
+
+[[package]]
+channel = 'fedora'
+name = 'dynamic-wallpaper-editor'

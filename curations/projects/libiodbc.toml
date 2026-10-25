@@ -1,0 +1,8 @@
+id = 'libiodbc'
+name = 'libiodbc'
+
+homepage = 'http://www.iodbc.org/dataspace/doc/iodbc/wiki/iodbcWiki'
+
+[[package]]
+channel = 'arch'
+name = 'libiodbc'

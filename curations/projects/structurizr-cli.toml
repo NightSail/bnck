@@ -1,0 +1,8 @@
+id = 'structurizr-cli'
+name = 'structurizr-cli'
+
+homepage = 'https://docs.structurizr.com/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/structurizr-cli'

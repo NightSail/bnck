@@ -1,0 +1,8 @@
+id = 'blueprint-tools'
+name = 'blueprint-tools'
+
+homepage = 'https://github.com/google/blueprint'
+
+[[package]]
+channel = 'debian'
+name = 'blueprint-tools'

@@ -1,0 +1,12 @@
+id = 'lxqt-runner'
+name = 'lxqt-runner'
+
+homepage = 'https://github.com/lxqt/lxqt-runner'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-runner'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-runner'

@@ -4,6 +4,10 @@ name = 'kitty'
 homepage = 'https://sw.kovidgoyal.net/kitty'
 
 [[package]]
+channel = 'arch'
+name = 'kitty'
+
+[[package]]
 channel = 'debian'
 name = 'kitty'
 

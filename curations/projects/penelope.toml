@@ -1,0 +1,8 @@
+id = 'penelope'
+name = 'penelope'
+
+homepage = 'https://github.com/brightio/penelope'
+
+[[package]]
+channel = 'debian'
+name = 'penelope'

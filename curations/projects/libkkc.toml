@@ -1,0 +1,16 @@
+id = 'libkkc'
+name = 'libkkc'
+
+homepage = 'https://github.com/ueno/libkkc'
+
+[[package]]
+channel = 'arch'
+name = 'libkkc'
+
+[[package]]
+channel = 'debian'
+name = 'libkkc-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libkkc-tools'

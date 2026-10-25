@@ -1,0 +1,8 @@
+id = 'python-rapidgzip'
+name = 'python-rapidgzip'
+
+homepage = 'https://github.com/mxmlnkn/rapidgzip'
+
+[[package]]
+channel = 'arch'
+name = 'python-rapidgzip'

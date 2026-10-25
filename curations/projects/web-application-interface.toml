@@ -1,0 +1,12 @@
+id = 'web-application-interface'
+name = 'web-application-interface'
+
+homepage = 'https://www.yesodweb.com/book/web-application-interface'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-wai-app-static'
+
+[[package]]
+channel = 'debian'
+name = 'libghc-wai-app-static-dev'

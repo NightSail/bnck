@@ -1,0 +1,8 @@
+id = 'osmo-trx'
+name = 'osmo-trx'
+
+homepage = 'http://openbsc.osmocom.org/trac/wiki/OsmoTRX'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-trx'

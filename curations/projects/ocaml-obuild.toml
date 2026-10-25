@@ -1,0 +1,12 @@
+id = 'ocaml-obuild'
+name = 'ocaml-obuild'
+
+homepage = 'https://github.com/ocaml-obuild/obuild'
+
+[[package]]
+channel = 'debian'
+name = 'ocaml-obuild'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-obuild'

@@ -1,0 +1,8 @@
+id = 'python3-xnat'
+name = 'python3-xnat'
+
+homepage = 'https://gitlab.com/radiology/infrastructure/xnatpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xnat'

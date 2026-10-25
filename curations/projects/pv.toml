@@ -1,0 +1,20 @@
+id = 'pv'
+name = 'pv'
+
+homepage = 'https://www.ivarch.com/programs/pv.shtml'
+
+[[package]]
+channel = 'arch'
+name = 'pv'
+
+[[package]]
+channel = 'debian'
+name = 'pv'
+
+[[package]]
+channel = 'fedora'
+name = 'pv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pv'

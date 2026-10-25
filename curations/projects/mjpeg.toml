@@ -1,0 +1,20 @@
+id = 'mjpeg'
+name = 'mjpeg'
+
+homepage = 'https://mjpeg.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'mjpegtools'
+
+[[package]]
+channel = 'fedora'
+name = 'mjpegtools'
+
+[[package]]
+channel = 'fedora'
+name = 'mjpegtools-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mjpegtools'

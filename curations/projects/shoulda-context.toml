@@ -1,0 +1,16 @@
+id = 'shoulda-context'
+name = 'shoulda-context'
+
+homepage = 'https://github.com/thoughtbot/shoulda-context'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-shoulda-context'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-shoulda-context'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-shoulda-context'

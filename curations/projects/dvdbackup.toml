@@ -1,0 +1,20 @@
+id = 'dvdbackup'
+name = 'dvdbackup'
+
+homepage = 'https://dvdbackup.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'dvdbackup'
+
+[[package]]
+channel = 'debian'
+name = 'dvdbackup'
+
+[[package]]
+channel = 'fedora'
+name = 'dvdbackup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvdbackup'

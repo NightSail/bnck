@@ -1,0 +1,16 @@
+id = 'ancient'
+name = 'ancient'
+
+homepage = 'https://github.com/temisu/ancient'
+
+[[package]]
+channel = 'debian'
+name = 'ancient'
+
+[[package]]
+channel = 'fedora'
+name = 'ancient'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ancient'

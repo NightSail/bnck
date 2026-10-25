@@ -1,0 +1,8 @@
+id = 'python-pygal'
+name = 'python-pygal'
+
+homepage = 'https://www.pygal.org/en/stable'
+
+[[package]]
+channel = 'arch'
+name = 'python-pygal'

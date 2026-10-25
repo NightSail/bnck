@@ -1,0 +1,8 @@
+id = 'formiko'
+name = 'formiko'
+
+homepage = 'https://github.com/ondratu/formiko'
+
+[[package]]
+channel = 'debian'
+name = 'formiko'

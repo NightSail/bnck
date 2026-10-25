@@ -1,0 +1,8 @@
+id = 'fitsh'
+name = 'fitsh'
+
+homepage = 'https://fitsh.net'
+
+[[package]]
+channel = 'debian'
+name = 'fitsh'

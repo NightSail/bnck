@@ -1,0 +1,13 @@
+id = 'fheroes2'
+name = 'fheroes2'
+
+homepage = 'https://ihhub.github.io/fheroes2'
+repository = 'https://github.com/ihhub/fheroes2.git'
+
+[[package]]
+channel = 'fedora'
+name = 'fheroes2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fheroes2'

@@ -1,0 +1,12 @@
+id = 'sneklang'
+name = 'sneklang'
+
+homepage = 'https://sneklang.org'
+
+[[package]]
+channel = 'debian'
+name = 'snek'
+
+[[package]]
+channel = 'debian'
+name = 'snek-bin'

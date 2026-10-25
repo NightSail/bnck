@@ -1,0 +1,8 @@
+id = 'tronbyt-server'
+name = 'tronbyt-server'
+
+repository = 'https://github.com/tronbyt/server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tronbyt-server'

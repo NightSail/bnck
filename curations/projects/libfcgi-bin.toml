@@ -1,0 +1,8 @@
+id = 'libfcgi-bin'
+name = 'libfcgi-bin'
+
+homepage = 'https://github.com/FastCGI-Archives'
+
+[[package]]
+channel = 'debian'
+name = 'libfcgi-bin'

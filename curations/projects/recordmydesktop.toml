@@ -1,0 +1,12 @@
+id = 'recordmydesktop'
+name = 'recordmydesktop'
+
+homepage = 'https://github.com/Enselic/recordmydesktop'
+
+[[package]]
+channel = 'arch'
+name = 'recordmydesktop'
+
+[[package]]
+channel = 'debian'
+name = 'recordmydesktop'

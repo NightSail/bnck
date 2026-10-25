@@ -1,0 +1,8 @@
+id = 'tfprovidercheck'
+name = 'tfprovidercheck'
+
+repository = 'https://github.com/suzuki-shunsuke/tfprovidercheck.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tfprovidercheck'

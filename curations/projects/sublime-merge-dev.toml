@@ -1,0 +1,8 @@
+id = 'sublime-merge-dev'
+name = 'sublime-merge@dev'
+
+homepage = 'https://www.sublimemerge.com/dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/sublime-merge@dev'

@@ -1,0 +1,8 @@
+id = 'mlat-client-adsbfi'
+name = 'mlat-client-adsbfi'
+
+homepage = 'https://github.com/adsbfi/mlat-client-adsbfi'
+
+[[package]]
+channel = 'debian'
+name = 'mlat-client-adsbfi'

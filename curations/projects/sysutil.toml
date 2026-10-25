@@ -1,0 +1,8 @@
+id = 'sysutil'
+name = 'sysutil'
+
+homepage = 'https://github.com/knq/sysutil'
+
+[[package]]
+channel = 'fedora'
+name = 'sysutil'

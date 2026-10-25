@@ -1,0 +1,8 @@
+id = 'libcorkipset-utils'
+name = 'libcorkipset-utils'
+
+homepage = 'https://github.com/dcreager/libcorkipset'
+
+[[package]]
+channel = 'debian'
+name = 'libcorkipset-utils'

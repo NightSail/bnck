@@ -1,0 +1,8 @@
+id = 'perl-goo-canvas'
+name = 'perl-Goo-Canvas'
+
+homepage = 'https://metacpan.org/release/Goo-Canvas'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Goo-Canvas'

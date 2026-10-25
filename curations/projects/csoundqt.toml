@@ -1,0 +1,12 @@
+id = 'csoundqt'
+name = 'csoundqt'
+
+homepage = 'https://csoundqt.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'csoundqt'
+
+[[package]]
+channel = 'debian'
+name = 'csoundqt'

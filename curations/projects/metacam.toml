@@ -1,0 +1,8 @@
+id = 'metacam'
+name = 'metacam'
+
+homepage = 'http://www.cheeseplant.org/~daniel/pages/metacam.html'
+
+[[package]]
+channel = 'debian'
+name = 'metacam'

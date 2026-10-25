@@ -1,0 +1,20 @@
+id = 'masscan'
+name = 'masscan'
+
+repository = 'https://github.com/robertdavidgraham/masscan.git'
+
+[[package]]
+channel = 'arch'
+name = 'masscan'
+
+[[package]]
+channel = 'debian'
+name = 'masscan'
+
+[[package]]
+channel = 'fedora'
+name = 'masscan'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/masscan'

@@ -1,0 +1,12 @@
+id = 'complete'
+name = 'complete'
+
+homepage = 'https://github.com/posener/complete'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-posener-complete'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-posener-complete-2'

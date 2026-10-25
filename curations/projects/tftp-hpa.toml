@@ -1,0 +1,12 @@
+id = 'tftp-hpa'
+name = 'tftp-hpa'
+
+homepage = 'https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git'
+
+[[package]]
+channel = 'debian'
+name = 'tftp-hpa'
+
+[[package]]
+channel = 'debian'
+name = 'tftpd-hpa'

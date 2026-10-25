@@ -1,0 +1,8 @@
+id = 'saldo'
+name = 'saldo'
+
+homepage = 'https://gitlab.com/tabos/saldo'
+
+[[package]]
+channel = 'debian'
+name = 'saldo'

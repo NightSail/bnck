@@ -1,0 +1,8 @@
+id = 'claude-hooks'
+name = 'claude-hooks'
+
+homepage = 'https://github.com/johnlindquist/claude-hooks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claude-hooks'

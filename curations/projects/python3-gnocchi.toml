@@ -1,0 +1,8 @@
+id = 'python3-gnocchi'
+name = 'python3-gnocchi'
+
+homepage = 'https://gnocchi.xyz'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gnocchi'

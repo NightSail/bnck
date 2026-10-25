@@ -1,0 +1,12 @@
+id = 'rubyonrails'
+name = 'rubyonrails'
+
+homepage = 'https://rubyonrails.org'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-railties'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-railties'

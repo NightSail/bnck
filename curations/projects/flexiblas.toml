@@ -1,0 +1,21 @@
+id = 'flexiblas'
+name = 'flexiblas'
+
+homepage = 'https://www.mpi-magdeburg.mpg.de/projects/flexiblas'
+repository = 'https://gitlab.mpi-magdeburg.mpg.de/software/flexiblas-release.git'
+
+[[package]]
+channel = 'fedora'
+name = 'flexiblas-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'flexiblas-netlib'
+
+[[package]]
+channel = 'fedora'
+name = 'flexiblas-netlib64'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flexiblas'

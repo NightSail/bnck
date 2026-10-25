@@ -1,0 +1,8 @@
+id = 'python3-pynetdicom-utils'
+name = 'python3-pynetdicom-utils'
+
+homepage = 'https://github.com/pydicom/pynetdicom'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pynetdicom-utils'

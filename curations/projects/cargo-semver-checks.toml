@@ -1,0 +1,8 @@
+id = 'cargo-semver-checks'
+name = 'cargo-semver-checks'
+
+homepage = 'https://github.com/obi1kenobi/cargo-semver-checks'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-semver-checks'

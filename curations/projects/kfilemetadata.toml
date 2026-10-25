@@ -1,0 +1,12 @@
+id = 'kfilemetadata'
+name = 'kfilemetadata'
+
+homepage = 'https://invent.kde.org/frameworks/kfilemetadata'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6filemetadata-dev-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kfilemetadata'

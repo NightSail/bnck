@@ -1,0 +1,8 @@
+id = 'tt'
+name = 'tt'
+
+homepage = 'https://github.com/tarantool/tt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tt'

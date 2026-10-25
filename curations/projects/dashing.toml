@@ -1,0 +1,8 @@
+id = 'dashing'
+name = 'dashing'
+
+repository = 'https://github.com/technosophos/dashing.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dashing'

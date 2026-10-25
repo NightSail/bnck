@@ -1,0 +1,13 @@
+id = 'kore'
+name = 'kore'
+
+homepage = 'https://kore.io'
+repository = 'https://github.com/jorisvink/kore.git'
+
+[[package]]
+channel = 'debian'
+name = 'kore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kore'

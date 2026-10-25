@@ -1,0 +1,8 @@
+id = 'tse3play'
+name = 'tse3play'
+
+homepage = 'http://tse3.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'tse3play'

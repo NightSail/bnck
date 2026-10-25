@@ -1,0 +1,8 @@
+id = 'geoip-bin'
+name = 'geoip-bin'
+
+homepage = 'https://www.maxmind.com'
+
+[[package]]
+channel = 'debian'
+name = 'geoip-bin'

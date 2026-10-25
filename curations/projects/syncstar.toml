@@ -1,0 +1,8 @@
+id = 'syncstar'
+name = 'syncstar'
+
+homepage = 'https://github.com/gridhead/syncstar'
+
+[[package]]
+channel = 'fedora'
+name = 'syncstar'

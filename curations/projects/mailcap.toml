@@ -1,0 +1,6 @@
+id = 'mailcap'
+name = 'mailcap'
+
+[[package]]
+channel = 'debian'
+name = 'mailcap'

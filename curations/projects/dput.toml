@@ -1,0 +1,8 @@
+id = 'dput'
+name = 'dput'
+
+homepage = 'https://packages.debian.org/source/sid/dput'
+
+[[package]]
+channel = 'debian'
+name = 'dput'

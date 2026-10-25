@@ -1,0 +1,8 @@
+id = 'swgp-go'
+name = 'swgp-go'
+
+repository = 'https://github.com/database64128/swgp-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swgp-go'

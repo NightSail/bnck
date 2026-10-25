@@ -1,0 +1,16 @@
+id = 'pssh'
+name = 'pssh'
+
+repository = 'https://github.com/lilydjwg/pssh.git'
+
+[[package]]
+channel = 'debian'
+name = 'pssh'
+
+[[package]]
+channel = 'fedora'
+name = 'pssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pssh'

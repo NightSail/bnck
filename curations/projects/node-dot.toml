@@ -1,0 +1,8 @@
+id = 'node-dot'
+name = 'node-dot'
+
+homepage = 'https://github.com/olado/doT'
+
+[[package]]
+channel = 'debian'
+name = 'node-dot'

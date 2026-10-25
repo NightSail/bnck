@@ -1,0 +1,8 @@
+id = 'tftp-hpa-pub'
+name = 'tftp-hpa'
+
+homepage = 'https://www.kernel.org/pub/software/network/tftp/tftp-hpa'
+
+[[package]]
+channel = 'arch'
+name = 'tftp-hpa'

@@ -1,0 +1,8 @@
+id = 'catkin-lint'
+name = 'catkin-lint'
+
+homepage = 'https://github.com/fkie/catkin_lint'
+
+[[package]]
+channel = 'debian'
+name = 'catkin-lint'

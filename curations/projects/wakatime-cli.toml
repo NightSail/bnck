@@ -1,0 +1,9 @@
+id = 'wakatime-cli'
+name = 'wakatime-cli'
+
+homepage = 'https://wakatime.com'
+repository = 'https://github.com/wakatime/wakatime-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wakatime-cli'

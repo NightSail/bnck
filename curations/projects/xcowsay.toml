@@ -1,0 +1,8 @@
+id = 'xcowsay'
+name = 'xcowsay'
+
+homepage = 'http://www.doof.me.uk/xcowsay'
+
+[[package]]
+channel = 'fedora'
+name = 'xcowsay'

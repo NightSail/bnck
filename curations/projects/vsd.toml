@@ -1,0 +1,8 @@
+id = 'vsd'
+name = 'vsd'
+
+homepage = 'https://clitic.github.io/vsd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vsd'

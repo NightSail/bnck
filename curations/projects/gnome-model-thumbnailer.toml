@@ -1,0 +1,8 @@
+id = 'gnome-model-thumbnailer'
+name = 'gnome-model-thumbnailer'
+
+homepage = 'https://gitlab.com/Kazade/gnome-model-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-model-thumbnailer'

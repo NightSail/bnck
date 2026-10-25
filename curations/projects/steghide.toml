@@ -1,0 +1,12 @@
+id = 'steghide'
+name = 'steghide'
+
+homepage = 'http://steghide.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'steghide'
+
+[[package]]
+channel = 'fedora'
+name = 'steghide'

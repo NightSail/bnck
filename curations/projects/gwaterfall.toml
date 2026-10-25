@@ -1,0 +1,8 @@
+id = 'gwaterfall'
+name = 'gwaterfall'
+
+homepage = 'https://web.archive.org/web/20130503154757/http://keithp.com/cgi-bin/gitweb.cgi'
+
+[[package]]
+channel = 'debian'
+name = 'gwaterfall'

@@ -1,0 +1,12 @@
+id = 'nbformat'
+name = 'nbformat'
+
+homepage = 'https://pypi.python.org/pypi/nbformat'
+
+[[package]]
+channel = 'arch'
+name = 'jupyter-nbformat'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nbformat'

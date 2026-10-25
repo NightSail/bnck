@@ -1,0 +1,8 @@
+id = 'ip-relay'
+name = 'ip_relay'
+
+homepage = 'https://stewart.com.au/ip_relay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ip_relay'

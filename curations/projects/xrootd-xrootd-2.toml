@@ -1,0 +1,9 @@
+id = 'xrootd-xrootd-2'
+name = 'xrootd'
+
+homepage = 'https://xrootd.org'
+repository = 'https://github.com/xrootd/xrootd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xrootd'

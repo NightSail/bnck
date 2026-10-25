@@ -1,0 +1,8 @@
+id = 'trelby'
+name = 'trelby'
+
+homepage = 'https://github.com/trelby/trelby'
+
+[[package]]
+channel = 'fedora'
+name = 'trelby'

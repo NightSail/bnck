@@ -1,0 +1,8 @@
+id = 'dwarf'
+name = 'dwarf'
+
+homepage = 'https://github.com/elboza/dwarf-ng'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dwarf'

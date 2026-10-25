@@ -1,0 +1,8 @@
+id = 'tcpxtract'
+name = 'tcpxtract'
+
+homepage = 'http://tcpxtract.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'tcpxtract'

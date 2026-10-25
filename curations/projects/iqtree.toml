@@ -1,0 +1,6 @@
+id = 'iqtree'
+name = 'iqtree'
+
+[[package]]
+channel = 'debian'
+name = 'iqtree'

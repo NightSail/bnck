@@ -1,0 +1,8 @@
+id = 'libnfc'
+name = 'libnfc'
+
+repository = 'https://github.com/nfc-tools/libnfc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libnfc'

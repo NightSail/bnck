@@ -1,0 +1,12 @@
+id = 'lxqt-config'
+name = 'lxqt-config'
+
+homepage = 'https://github.com/lxqt/lxqt-config'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-config'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-config'

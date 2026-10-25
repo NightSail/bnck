@@ -1,0 +1,12 @@
+id = 'font-manager'
+name = 'font-manager'
+
+homepage = 'https://fontmanager.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'font-manager'
+
+[[package]]
+channel = 'debian'
+name = 'font-manager'

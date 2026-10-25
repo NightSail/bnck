@@ -1,0 +1,8 @@
+id = 'foxlibf-devel'
+name = 'FoXlibf-devel'
+
+homepage = 'http://www1.gly.bris.ac.uk/~walker/FoX'
+
+[[package]]
+channel = 'fedora'
+name = 'FoXlibf-devel'

@@ -1,0 +1,8 @@
+id = 'nvptx-tools'
+name = 'nvptx-tools'
+
+homepage = 'https://github.com/MentorEmbedded/nvptx-tools'
+
+[[package]]
+channel = 'debian'
+name = 'nvptx-tools'

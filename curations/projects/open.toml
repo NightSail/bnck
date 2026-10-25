@@ -1,0 +1,12 @@
+id = 'open'
+name = 'open'
+
+homepage = 'https://open.qa'
+
+[[package]]
+channel = 'debian'
+name = 'openqa-client'
+
+[[package]]
+channel = 'debian'
+name = 'os-autoinst'

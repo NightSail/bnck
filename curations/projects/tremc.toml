@@ -1,0 +1,8 @@
+id = 'tremc'
+name = 'tremc'
+
+homepage = 'https://github.com/tremc/tremc'
+
+[[package]]
+channel = 'debian'
+name = 'tremc'

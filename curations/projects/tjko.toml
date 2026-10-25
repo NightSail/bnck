@@ -1,0 +1,20 @@
+id = 'tjko'
+name = 'tjko'
+
+homepage = 'https://www.kokkonen.net/tjko/projects.html'
+
+[[package]]
+channel = 'debian'
+name = 'jpeginfo'
+
+[[package]]
+channel = 'debian'
+name = 'jpegoptim'
+
+[[package]]
+channel = 'fedora'
+name = 'jpeginfo'
+
+[[package]]
+channel = 'fedora'
+name = 'jpegoptim'

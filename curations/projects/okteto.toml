@@ -1,0 +1,9 @@
+id = 'okteto'
+name = 'okteto'
+
+homepage = 'https://okteto.com'
+repository = 'https://github.com/okteto/okteto.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/okteto'

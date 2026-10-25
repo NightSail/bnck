@@ -1,0 +1,8 @@
+id = 'mwc'
+name = 'mwc'
+
+homepage = 'https://github.com/Debianguru/MailWebsiteChanges'
+
+[[package]]
+channel = 'debian'
+name = 'mwc'

@@ -1,0 +1,8 @@
+id = 'cwebx'
+name = 'cwebx'
+
+homepage = 'http://www-math.univ-poitiers.fr/~maavl/CWEBx'
+
+[[package]]
+channel = 'debian'
+name = 'cwebx'

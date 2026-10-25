@@ -1,0 +1,48 @@
+id = 'qalculate'
+name = 'qalculate'
+
+homepage = 'https://qalculate.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'libqalculate'
+
+[[package]]
+channel = 'arch'
+name = 'qalculate-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'qalculate-qt'
+
+[[package]]
+channel = 'debian'
+name = 'qalc'
+
+[[package]]
+channel = 'debian'
+name = 'qalculate-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'qalculate-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'qalculate'
+
+[[package]]
+channel = 'fedora'
+name = 'qalculate-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'qalculate-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libqalculate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qalculate-gtk'

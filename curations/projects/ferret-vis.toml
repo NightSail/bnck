@@ -1,0 +1,8 @@
+id = 'ferret-vis'
+name = 'ferret-vis'
+
+homepage = 'https://ferret.pmel.noaa.gov/Ferret/home'
+
+[[package]]
+channel = 'debian'
+name = 'ferret-vis'

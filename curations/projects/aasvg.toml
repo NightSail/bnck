@@ -1,0 +1,8 @@
+id = 'aasvg'
+name = 'aasvg'
+
+homepage = 'https://github.com/martinthomson/aasvg'
+
+[[package]]
+channel = 'debian'
+name = 'aasvg'

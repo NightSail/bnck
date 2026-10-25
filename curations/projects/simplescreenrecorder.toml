@@ -1,0 +1,8 @@
+id = 'simplescreenrecorder'
+name = 'simplescreenrecorder'
+
+homepage = 'https://www.maartenbaert.be/simplescreenrecorder'
+
+[[package]]
+channel = 'debian'
+name = 'simplescreenrecorder'

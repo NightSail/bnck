@@ -1,0 +1,13 @@
+id = 'grafana-alloy'
+name = 'grafana-alloy'
+
+homepage = 'https://grafana.com/oss/alloy-opentelemetry-collector'
+repository = 'https://github.com/grafana/alloy.git'
+
+[[package]]
+channel = 'arch'
+name = 'grafana-alloy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grafana-alloy'

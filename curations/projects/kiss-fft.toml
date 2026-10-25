@@ -1,0 +1,12 @@
+id = 'kiss-fft'
+name = 'kiss-fft'
+
+homepage = 'https://github.com/mborgerding/kissfft'
+
+[[package]]
+channel = 'debian'
+name = 'kissfft-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kiss-fft'

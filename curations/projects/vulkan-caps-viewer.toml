@@ -1,0 +1,12 @@
+id = 'vulkan-caps-viewer'
+name = 'vulkan-caps-viewer'
+
+homepage = 'https://github.com/SaschaWillems/VulkanCapsViewer'
+
+[[package]]
+channel = 'debian'
+name = 'vulkan-caps-viewer-wayland'
+
+[[package]]
+channel = 'debian'
+name = 'vulkan-caps-viewer-x11'

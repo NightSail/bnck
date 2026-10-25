@@ -1,0 +1,6 @@
+id = 'swisswatch'
+name = 'swisswatch'
+
+[[package]]
+channel = 'debian'
+name = 'swisswatch'

@@ -1,0 +1,9 @@
+id = 'gptscript'
+name = 'gptscript'
+
+homepage = 'https://docs.gptscript.ai'
+repository = 'https://github.com/gptscript-ai/gptscript.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gptscript'

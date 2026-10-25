@@ -1,0 +1,12 @@
+id = 'libwpd-tools'
+name = 'libwpd-tools'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libwpd'
+
+[[package]]
+channel = 'debian'
+name = 'libwpd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libwpd-tools'

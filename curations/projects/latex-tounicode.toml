@@ -1,0 +1,12 @@
+id = 'latex-tounicode'
+name = 'LaTeX-ToUnicode'
+
+homepage = 'https://metacpan.org/release/LaTeX-ToUnicode'
+
+[[package]]
+channel = 'debian'
+name = 'liblatex-tounicode-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-LaTeX-ToUnicode'

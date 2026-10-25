@@ -1,0 +1,8 @@
+id = 'gnome-battery-bench'
+name = 'gnome-battery-bench'
+
+homepage = 'https://git.gnome.org/browse/gnome-battery-bench'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-battery-bench'

@@ -1,0 +1,12 @@
+id = 'gnome-nibbles'
+name = 'gnome-nibbles'
+
+homepage = 'https://wiki.gnome.org/Apps/Nibbles'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-nibbles'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-nibbles'

@@ -1,0 +1,12 @@
+id = 'dox'
+name = 'dox'
+
+homepage = 'http://poptop.sourceforge.net/dox'
+
+[[package]]
+channel = 'debian'
+name = 'bcrelay'
+
+[[package]]
+channel = 'debian'
+name = 'pptpd'

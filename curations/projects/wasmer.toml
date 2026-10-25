@@ -1,0 +1,13 @@
+id = 'wasmer'
+name = 'wasmer'
+
+homepage = 'https://wasmer.io'
+repository = 'https://github.com/wasmerio/wasmer.git'
+
+[[package]]
+channel = 'arch'
+name = 'wasmer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasmer'

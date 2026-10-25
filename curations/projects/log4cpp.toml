@@ -1,0 +1,12 @@
+id = 'log4cpp'
+name = 'log4cpp'
+
+homepage = 'https://log4cpp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'liblog4cpp5-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/log4cpp'

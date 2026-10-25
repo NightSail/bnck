@@ -1,0 +1,8 @@
+id = 'osdctl'
+name = 'osdctl'
+
+repository = 'https://github.com/openshift/osdctl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osdctl'

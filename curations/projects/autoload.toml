@@ -1,0 +1,12 @@
+id = 'autoload'
+name = 'autoload'
+
+homepage = 'https://github.com/theseer/Autoload'
+
+[[package]]
+channel = 'debian'
+name = 'phpab'
+
+[[package]]
+channel = 'fedora'
+name = 'php-theseer-autoload'

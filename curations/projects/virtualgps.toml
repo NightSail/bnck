@@ -1,0 +1,8 @@
+id = 'virtualgps'
+name = 'virtualgps'
+
+homepage = 'https://github.com/rkaczorek/virtualgps'
+
+[[package]]
+channel = 'debian'
+name = 'virtualgps'

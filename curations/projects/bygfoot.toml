@@ -1,0 +1,8 @@
+id = 'bygfoot'
+name = 'bygfoot'
+
+homepage = 'http://www.bygfoot.com'
+
+[[package]]
+channel = 'fedora'
+name = 'bygfoot'

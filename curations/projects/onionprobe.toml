@@ -1,0 +1,13 @@
+id = 'onionprobe'
+name = 'onionprobe'
+
+homepage = 'https://tpo.pages.torproject.net/onion-services/onionprobe'
+repository = 'https://gitlab.torproject.org/tpo/onion-services/onionprobe.git'
+
+[[package]]
+channel = 'debian'
+name = 'onionprobe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/onionprobe'

@@ -1,0 +1,16 @@
+id = 'png-pub'
+name = 'png'
+
+homepage = 'http://www.libpng.org/pub/png'
+
+[[package]]
+channel = 'fedora'
+name = 'libpng-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libpng-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libpng12-devel'

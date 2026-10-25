@@ -1,0 +1,8 @@
+id = 'dcp'
+name = 'dcp'
+
+repository = 'https://github.com/exdx/dcp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcp'

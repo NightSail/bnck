@@ -1,0 +1,13 @@
+id = 'daq'
+name = 'daq'
+
+homepage = 'https://www.snort.org'
+repository = 'https://github.com/snort3/libdaq.git'
+
+[[package]]
+channel = 'fedora'
+name = 'daq-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/daq'

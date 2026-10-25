@@ -1,0 +1,9 @@
+id = 'carapace'
+name = 'carapace'
+
+homepage = 'https://carapace.sh'
+repository = 'https://github.com/carapace-sh/carapace-bin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/carapace'

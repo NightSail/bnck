@@ -1,0 +1,8 @@
+id = 'perl-pod-usage'
+name = 'perl-Pod-Usage'
+
+homepage = 'https://metacpan.org/release/Pod-Usage'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Usage'

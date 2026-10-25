@@ -1,0 +1,16 @@
+id = 'itinerary'
+name = 'itinerary'
+
+homepage = 'https://apps.kde.org/itinerary'
+
+[[package]]
+channel = 'arch'
+name = 'itinerary'
+
+[[package]]
+channel = 'debian'
+name = 'itinerary'
+
+[[package]]
+channel = 'fedora'
+name = 'itinerary'

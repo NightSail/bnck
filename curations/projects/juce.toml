@@ -1,0 +1,8 @@
+id = 'juce'
+name = 'juce'
+
+homepage = 'https://github.com/juce-framework/juce'
+
+[[package]]
+channel = 'arch'
+name = 'juce'

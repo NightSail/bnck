@@ -1,0 +1,12 @@
+id = 'pipectl'
+name = 'pipectl'
+
+homepage = 'https://github.com/Ferdi265/pipectl'
+
+[[package]]
+channel = 'arch'
+name = 'pipectl'
+
+[[package]]
+channel = 'debian'
+name = 'pipectl'

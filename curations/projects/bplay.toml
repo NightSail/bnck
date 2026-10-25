@@ -1,0 +1,6 @@
+id = 'bplay'
+name = 'bplay'
+
+[[package]]
+channel = 'debian'
+name = 'bplay'

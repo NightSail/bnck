@@ -1,0 +1,8 @@
+id = 'luadoc'
+name = 'luadoc'
+
+homepage = 'http://luadoc.luaforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'luadoc'

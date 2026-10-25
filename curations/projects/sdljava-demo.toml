@@ -1,0 +1,8 @@
+id = 'sdljava-demo'
+name = 'sdljava-demo'
+
+homepage = 'http://sdljava.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'sdljava-demo'

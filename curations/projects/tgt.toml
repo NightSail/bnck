@@ -1,0 +1,12 @@
+id = 'tgt'
+name = 'tgt'
+
+homepage = 'https://github.com/fujita/tgt'
+
+[[package]]
+channel = 'arch'
+name = 'tgt'
+
+[[package]]
+channel = 'debian'
+name = 'tgt'

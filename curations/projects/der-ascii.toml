@@ -1,0 +1,8 @@
+id = 'der-ascii'
+name = 'der-ascii'
+
+repository = 'https://github.com/google/der-ascii.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/der-ascii'

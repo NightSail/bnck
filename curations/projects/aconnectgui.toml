@@ -1,0 +1,8 @@
+id = 'aconnectgui'
+name = 'aconnectgui'
+
+homepage = 'https://github.com/radiganm/aconnectgui'
+
+[[package]]
+channel = 'debian'
+name = 'aconnectgui'

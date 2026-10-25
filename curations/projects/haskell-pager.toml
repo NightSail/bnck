@@ -1,0 +1,8 @@
+id = 'haskell-pager'
+name = 'haskell-pager'
+
+homepage = 'https://github.com/pharpend/pager'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-pager'

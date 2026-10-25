@@ -1,0 +1,8 @@
+id = 'botch'
+name = 'botch'
+
+homepage = 'https://salsa.debian.org/debian-bootstrap-team/botch/-/wikis/home'
+
+[[package]]
+channel = 'debian'
+name = 'botch'

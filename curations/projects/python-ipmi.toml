@@ -1,0 +1,12 @@
+id = 'python-ipmi'
+name = 'python-ipmi'
+
+homepage = 'https://github.com/kontron/python-ipmi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyipmi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ipmi'

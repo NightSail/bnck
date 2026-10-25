@@ -1,0 +1,8 @@
+id = 'disulfinder'
+name = 'disulfinder'
+
+homepage = 'https://disulfind.dsi.unifi.it'
+
+[[package]]
+channel = 'debian'
+name = 'disulfinder'

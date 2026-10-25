@@ -1,0 +1,20 @@
+id = 'jasper'
+name = 'jasper'
+
+homepage = 'https://ece.engr.uvic.ca/~frodo/jasper'
+
+[[package]]
+channel = 'arch'
+name = 'jasper'
+
+[[package]]
+channel = 'fedora'
+name = 'jasper'
+
+[[package]]
+channel = 'fedora'
+name = 'jasper-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jasper'

@@ -1,0 +1,20 @@
+id = 'dfandrich'
+name = 'dfandrich'
+
+homepage = 'https://dfandrich.github.io/gpscorrelate'
+
+[[package]]
+channel = 'arch'
+name = 'gpscorrelate'
+
+[[package]]
+channel = 'debian'
+name = 'gpscorrelate'
+
+[[package]]
+channel = 'debian'
+name = 'gpscorrelate-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'gpscorrelate'

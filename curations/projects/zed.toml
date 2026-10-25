@@ -1,0 +1,16 @@
+id = 'zed'
+name = 'zed'
+
+homepage = 'https://zed.dev'
+
+[[package]]
+channel = 'arch'
+name = 'zed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/zed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/zed@preview'

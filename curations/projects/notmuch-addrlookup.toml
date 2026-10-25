@@ -1,0 +1,8 @@
+id = 'notmuch-addrlookup'
+name = 'notmuch-addrlookup'
+
+homepage = 'https://github.com/aperezdc/notmuch-addrlookup-c'
+
+[[package]]
+channel = 'debian'
+name = 'notmuch-addrlookup'

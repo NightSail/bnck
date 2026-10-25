@@ -1,0 +1,8 @@
+id = 'valinor'
+name = 'valinor'
+
+homepage = 'https://github.com/ARMmbed/valinor'
+
+[[package]]
+channel = 'debian'
+name = 'valinor'

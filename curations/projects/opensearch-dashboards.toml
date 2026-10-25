@@ -1,0 +1,13 @@
+id = 'opensearch-dashboards'
+name = 'opensearch-dashboards'
+
+homepage = 'https://docs.opensearch.org/latest/dashboards'
+repository = 'https://github.com/opensearch-project/OpenSearch-Dashboards.git'
+
+[[package]]
+channel = 'arch'
+name = 'opensearch-dashboards'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opensearch-dashboards'

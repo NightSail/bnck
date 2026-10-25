@@ -1,0 +1,8 @@
+id = 'lattice'
+name = 'lattice'
+
+homepage = 'https://codeberg.org/DaZhi-the-Revelator/lattice'
+
+[[package]]
+channel = 'arch'
+name = 'lattice'

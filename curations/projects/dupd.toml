@@ -1,0 +1,8 @@
+id = 'dupd'
+name = 'dupd'
+
+homepage = 'https://github.com/jvirkki/dupd'
+
+[[package]]
+channel = 'debian'
+name = 'dupd'

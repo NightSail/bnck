@@ -1,0 +1,8 @@
+id = 'golang-github-cactus-statsd-client'
+name = 'golang-github-cactus-statsd-client'
+
+homepage = 'https://github.com/cactus/go-statsd-client'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-cactus-statsd-client'

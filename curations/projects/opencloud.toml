@@ -1,0 +1,8 @@
+id = 'opencloud'
+name = 'opencloud'
+
+homepage = 'https://opencloud.eu'
+
+[[package]]
+channel = 'arch'
+name = 'opencloud'

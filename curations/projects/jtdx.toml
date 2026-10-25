@@ -1,0 +1,8 @@
+id = 'jtdx'
+name = 'jtdx'
+
+homepage = 'https://sourceforge.net/projects/jtdx-improved'
+
+[[package]]
+channel = 'debian'
+name = 'jtdx'

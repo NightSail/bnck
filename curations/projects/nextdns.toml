@@ -1,0 +1,13 @@
+id = 'nextdns'
+name = 'nextdns'
+
+homepage = 'https://nextdns.io'
+repository = 'https://github.com/nextdns/nextdns.git'
+
+[[package]]
+channel = 'debian'
+name = 'nextdns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nextdns'

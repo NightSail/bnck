@@ -1,0 +1,8 @@
+id = 'golang-github-gocolly-colly-2'
+name = 'golang-github-gocolly-colly-2'
+
+homepage = 'https://github.com/gocolly/colly'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-gocolly-colly-2'

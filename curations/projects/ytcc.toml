@@ -1,0 +1,8 @@
+id = 'ytcc'
+name = 'ytcc'
+
+homepage = 'https://github.com/woefe/ytcc'
+
+[[package]]
+channel = 'debian'
+name = 'ytcc'

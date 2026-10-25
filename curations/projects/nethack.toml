@@ -1,0 +1,17 @@
+id = 'nethack'
+name = 'nethack'
+
+homepage = 'https://www.nethack.org'
+repository = 'https://github.com/NetHack/NetHack.git'
+
+[[package]]
+channel = 'arch'
+name = 'nethack'
+
+[[package]]
+channel = 'fedora'
+name = 'nethack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nethack'

@@ -1,0 +1,16 @@
+id = 'scrub'
+name = 'scrub'
+
+repository = 'https://github.com/chaos/scrub.git'
+
+[[package]]
+channel = 'debian'
+name = 'scrub'
+
+[[package]]
+channel = 'fedora'
+name = 'scrub'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scrub'

@@ -1,0 +1,8 @@
+id = 'concalc'
+name = 'concalc'
+
+homepage = 'https://extcalc-linux.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'concalc'

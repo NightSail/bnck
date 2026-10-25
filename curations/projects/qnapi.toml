@@ -1,0 +1,8 @@
+id = 'qnapi'
+name = 'qnapi'
+
+homepage = 'https://qnapi.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'qnapi'

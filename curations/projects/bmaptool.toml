@@ -1,0 +1,12 @@
+id = 'bmaptool'
+name = 'bmaptool'
+
+homepage = 'https://github.com/yoctoproject/bmaptool'
+
+[[package]]
+channel = 'debian'
+name = 'bmaptool'
+
+[[package]]
+channel = 'fedora'
+name = 'bmap-tools'

@@ -1,0 +1,8 @@
+id = 'safetyblanket'
+name = 'safetyblanket'
+
+homepage = 'http://tangramgames.dk/games/safetyblanket'
+
+[[package]]
+channel = 'fedora'
+name = 'safetyblanket'

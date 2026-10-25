@@ -1,0 +1,8 @@
+id = 'batalert'
+name = 'batalert'
+
+homepage = 'https://github.com/utkarsh2102/batalert'
+
+[[package]]
+channel = 'debian'
+name = 'batalert'

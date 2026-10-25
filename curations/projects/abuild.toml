@@ -1,0 +1,8 @@
+id = 'abuild'
+name = 'abuild'
+
+homepage = 'https://gitlab.alpinelinux.org/alpine/abuild'
+
+[[package]]
+channel = 'arch'
+name = 'abuild'

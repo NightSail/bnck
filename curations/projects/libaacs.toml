@@ -1,0 +1,9 @@
+id = 'libaacs'
+name = 'libaacs'
+
+homepage = 'https://www.videolan.org/developers/libaacs.html'
+repository = 'https://code.videolan.org/videolan/libaacs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libaacs'

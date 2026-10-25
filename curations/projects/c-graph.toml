@@ -1,0 +1,8 @@
+id = 'c-graph'
+name = 'c-graph'
+
+homepage = 'http://www.gnu.org/software/c-graph'
+
+[[package]]
+channel = 'fedora'
+name = 'c-graph'

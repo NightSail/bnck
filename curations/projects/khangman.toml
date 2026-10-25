@@ -1,0 +1,16 @@
+id = 'khangman'
+name = 'khangman'
+
+homepage = 'https://apps.kde.org/khangman'
+
+[[package]]
+channel = 'arch'
+name = 'khangman'
+
+[[package]]
+channel = 'debian'
+name = 'khangman'
+
+[[package]]
+channel = 'fedora'
+name = 'khangman'

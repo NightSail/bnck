@@ -1,0 +1,8 @@
+id = 'antlrworks'
+name = 'antlrworks'
+
+homepage = 'http://www.antlr3.org/works'
+
+[[package]]
+channel = 'fedora'
+name = 'antlrworks'

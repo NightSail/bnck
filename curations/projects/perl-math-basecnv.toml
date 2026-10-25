@@ -1,0 +1,8 @@
+id = 'perl-math-basecnv'
+name = 'perl-Math-BaseCnv'
+
+homepage = 'https://metacpan.org/release/Math-BaseCnv'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Math-BaseCnv'

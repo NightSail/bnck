@@ -1,0 +1,12 @@
+id = 'pybugz'
+name = 'pybugz'
+
+homepage = 'https://github.com/williamh/pybugz'
+
+[[package]]
+channel = 'debian'
+name = 'bugz'
+
+[[package]]
+channel = 'fedora'
+name = 'pybugz'

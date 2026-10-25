@@ -1,0 +1,8 @@
+id = 'staticsite'
+name = 'staticsite'
+
+homepage = 'https://github.com/spanezz/staticsite'
+
+[[package]]
+channel = 'debian'
+name = 'staticsite'

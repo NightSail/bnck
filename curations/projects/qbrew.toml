@@ -1,0 +1,12 @@
+id = 'qbrew'
+name = 'qbrew'
+
+homepage = 'http://www.usermode.org/code.html'
+
+[[package]]
+channel = 'debian'
+name = 'qbrew'
+
+[[package]]
+channel = 'fedora'
+name = 'qbrew'

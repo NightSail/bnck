@@ -1,0 +1,16 @@
+id = 'libmspub'
+name = 'libmspub'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libmspub'
+
+[[package]]
+channel = 'arch'
+name = 'libmspub'
+
+[[package]]
+channel = 'fedora'
+name = 'libmspub-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmspub'

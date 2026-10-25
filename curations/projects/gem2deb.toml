@@ -1,0 +1,10 @@
+id = 'gem2deb'
+name = 'gem2deb'
+
+[[package]]
+channel = 'debian'
+name = 'gem2deb'
+
+[[package]]
+channel = 'debian'
+name = 'gem2deb-test-runner'

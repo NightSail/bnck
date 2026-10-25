@@ -1,0 +1,37 @@
+id = 'mkvtoolnix'
+name = 'mkvtoolnix'
+
+homepage = 'https://mkvtoolnix.download'
+repository = 'https://codeberg.org/mbunkus/mkvtoolnix.git'
+
+[[package]]
+channel = 'arch'
+name = 'mkvtoolnix-cli'
+
+[[package]]
+channel = 'arch'
+name = 'mkvtoolnix-gui'
+
+[[package]]
+channel = 'debian'
+name = 'mkvtoolnix'
+
+[[package]]
+channel = 'debian'
+name = 'mkvtoolnix-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'mkvtoolnix'
+
+[[package]]
+channel = 'fedora'
+name = 'mkvtoolnix-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/mkvtoolnix-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkvtoolnix'

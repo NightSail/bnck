@@ -1,0 +1,12 @@
+id = 'jpnevulator'
+name = 'jpnevulator'
+
+homepage = 'http://jpnevulator.snarl.nl'
+
+[[package]]
+channel = 'debian'
+name = 'jpnevulator'
+
+[[package]]
+channel = 'fedora'
+name = 'jpnevulator'

@@ -1,0 +1,8 @@
+id = 'nelm'
+name = 'nelm'
+
+repository = 'https://github.com/werf/nelm.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nelm'

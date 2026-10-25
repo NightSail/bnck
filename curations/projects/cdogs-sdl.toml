@@ -1,0 +1,13 @@
+id = 'cdogs-sdl'
+name = 'cdogs-sdl'
+
+homepage = 'http://cxong.github.io/cdogs-sdl'
+repository = 'https://github.com/cxong/cdogs-sdl.git'
+
+[[package]]
+channel = 'fedora'
+name = 'cdogs-sdl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdogs-sdl'

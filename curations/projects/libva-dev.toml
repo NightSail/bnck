@@ -1,0 +1,8 @@
+id = 'libva-dev'
+name = 'libva-dev'
+
+homepage = 'https://github.com/intel/libva'
+
+[[package]]
+channel = 'debian'
+name = 'libva-dev'

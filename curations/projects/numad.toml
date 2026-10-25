@@ -1,0 +1,12 @@
+id = 'numad'
+name = 'numad'
+
+homepage = 'https://pagure.io/numad'
+
+[[package]]
+channel = 'debian'
+name = 'numad'
+
+[[package]]
+channel = 'fedora'
+name = 'numad'

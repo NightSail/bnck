@@ -1,0 +1,8 @@
+id = 'abi3audit'
+name = 'abi3audit'
+
+homepage = 'https://github.com/pypa/abi3audit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abi3audit'

@@ -1,0 +1,8 @@
+id = 'game-music-emu-player'
+name = 'game-music-emu-player'
+
+homepage = 'https://github.com/libgme/game-music-emu'
+
+[[package]]
+channel = 'fedora'
+name = 'game-music-emu-player'

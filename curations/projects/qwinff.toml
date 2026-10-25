@@ -1,0 +1,8 @@
+id = 'qwinff'
+name = 'qwinff'
+
+homepage = 'https://qwinff.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'qwinff'

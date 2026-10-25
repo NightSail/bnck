@@ -1,0 +1,8 @@
+id = 'go-statik'
+name = 'go-statik'
+
+repository = 'https://github.com/rakyll/statik.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-statik'

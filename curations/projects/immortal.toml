@@ -1,0 +1,9 @@
+id = 'immortal'
+name = 'immortal'
+
+homepage = 'https://immortal.run'
+repository = 'https://github.com/immortal/immortal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/immortal'

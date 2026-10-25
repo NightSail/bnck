@@ -1,0 +1,28 @@
+id = 'pcre'
+name = 'pcre'
+
+homepage = 'https://www.pcre.org'
+
+[[package]]
+channel = 'arch'
+name = 'pcre'
+
+[[package]]
+channel = 'fedora'
+name = 'pcre-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'pcre-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pcre2-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'pcre2-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcre'

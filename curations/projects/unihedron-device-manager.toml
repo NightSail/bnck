@@ -1,0 +1,8 @@
+id = 'unihedron-device-manager'
+name = 'unihedron-device-manager'
+
+homepage = 'https://unihedron.com'
+
+[[package]]
+channel = 'debian'
+name = 'unihedron-device-manager'

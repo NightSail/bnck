@@ -1,0 +1,12 @@
+id = 'lxqt-wayland-session'
+name = 'lxqt-wayland-session'
+
+homepage = 'https://github.com/lxqt/lxqt-wayland-session'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-wayland-session'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-wayland-session'

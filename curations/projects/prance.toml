@@ -1,0 +1,8 @@
+id = 'prance'
+name = 'prance'
+
+homepage = 'https://github.com/RonnyPfannschmidt/prance'
+
+[[package]]
+channel = 'debian'
+name = 'prance'

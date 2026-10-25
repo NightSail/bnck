@@ -1,0 +1,16 @@
+id = 'blueman'
+name = 'blueman'
+
+homepage = 'https://github.com/blueman-project/blueman'
+
+[[package]]
+channel = 'arch'
+name = 'blueman'
+
+[[package]]
+channel = 'debian'
+name = 'blueman'
+
+[[package]]
+channel = 'fedora'
+name = 'blueman'

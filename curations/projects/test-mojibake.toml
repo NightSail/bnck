@@ -1,0 +1,12 @@
+id = 'test-mojibake'
+name = 'Test-Mojibake'
+
+homepage = 'https://metacpan.org/release/Test-Mojibake'
+
+[[package]]
+channel = 'debian'
+name = 'libtest-mojibake-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Mojibake'

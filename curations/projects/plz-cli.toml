@@ -1,0 +1,8 @@
+id = 'plz-cli'
+name = 'plz-cli'
+
+repository = 'https://github.com/m1guelpf/plz-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/plz-cli'

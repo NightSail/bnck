@@ -1,0 +1,8 @@
+id = 'perl-test-smoke'
+name = 'perl-Test-Smoke'
+
+homepage = 'https://metacpan.org/release/Test-Smoke'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Test-Smoke'

@@ -1,0 +1,12 @@
+id = 'languagemachines'
+name = 'languagemachines'
+
+homepage = 'http://languagemachines.github.io/mbt'
+
+[[package]]
+channel = 'debian'
+name = 'mbt'
+
+[[package]]
+channel = 'debian'
+name = 'mbtserver'

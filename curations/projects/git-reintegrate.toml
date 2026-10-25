@@ -1,0 +1,8 @@
+id = 'git-reintegrate'
+name = 'git-reintegrate'
+
+homepage = 'https://github.com/felipec/git-reintegrate'
+
+[[package]]
+channel = 'debian'
+name = 'git-reintegrate'

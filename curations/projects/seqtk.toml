@@ -1,0 +1,12 @@
+id = 'seqtk'
+name = 'seqtk'
+
+homepage = 'https://github.com/lh3/seqtk'
+
+[[package]]
+channel = 'debian'
+name = 'seqtk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seqtk'

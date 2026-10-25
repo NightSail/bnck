@@ -1,0 +1,8 @@
+id = 'python-plotly'
+name = 'python-plotly'
+
+homepage = 'https://github.com/plotly/plotly.py'
+
+[[package]]
+channel = 'arch'
+name = 'python-plotly'

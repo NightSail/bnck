@@ -1,0 +1,8 @@
+id = 'creds'
+name = 'creds'
+
+homepage = 'https://github.com/joemiller/creds'
+
+[[package]]
+channel = 'fedora'
+name = 'creds'

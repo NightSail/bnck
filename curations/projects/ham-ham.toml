@@ -1,0 +1,12 @@
+id = 'ham-ham'
+name = 'ham'
+
+homepage = 'http://fkurz.net/ham/dxcc.html'
+
+[[package]]
+channel = 'fedora'
+name = 'dxcc'
+
+[[package]]
+channel = 'fedora'
+name = 'dxcc-gui'

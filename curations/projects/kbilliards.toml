@@ -1,0 +1,8 @@
+id = 'kbilliards'
+name = 'kbilliards'
+
+homepage = 'http://www.hostnotfound.it/kbilliards.php'
+
+[[package]]
+channel = 'fedora'
+name = 'kbilliards'

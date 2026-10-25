@@ -1,0 +1,16 @@
+id = 'kcalc'
+name = 'kcalc'
+
+homepage = 'https://apps.kde.org/kcalc'
+
+[[package]]
+channel = 'arch'
+name = 'kcalc'
+
+[[package]]
+channel = 'debian'
+name = 'kcalc'
+
+[[package]]
+channel = 'fedora'
+name = 'kcalc'

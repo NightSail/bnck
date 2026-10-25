@@ -1,0 +1,13 @@
+id = 'mdsh'
+name = 'mdsh'
+
+homepage = 'https://crates.io/crates/mdsh'
+repository = 'https://github.com/zimbatm/mdsh.git'
+
+[[package]]
+channel = 'fedora'
+name = 'mdsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdsh'

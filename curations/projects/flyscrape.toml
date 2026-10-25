@@ -1,0 +1,9 @@
+id = 'flyscrape'
+name = 'flyscrape'
+
+homepage = 'https://flyscrape.com'
+repository = 'https://github.com/philippta/flyscrape.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flyscrape'

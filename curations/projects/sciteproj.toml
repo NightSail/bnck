@@ -1,0 +1,8 @@
+id = 'sciteproj'
+name = 'sciteproj'
+
+homepage = 'https://www.nongnu.org/sciteproj'
+
+[[package]]
+channel = 'debian'
+name = 'sciteproj'

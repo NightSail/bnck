@@ -1,0 +1,8 @@
+id = 'saga'
+name = 'saga'
+
+homepage = 'http://www.saga-gis.org'
+
+[[package]]
+channel = 'debian'
+name = 'saga'

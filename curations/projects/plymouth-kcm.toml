@@ -1,0 +1,12 @@
+id = 'plymouth-kcm'
+name = 'plymouth-kcm'
+
+homepage = 'https://invent.kde.org/plasma/plymouth-kcm'
+
+[[package]]
+channel = 'debian'
+name = 'kde-config-plymouth'
+
+[[package]]
+channel = 'fedora'
+name = 'plymouth-kcm'

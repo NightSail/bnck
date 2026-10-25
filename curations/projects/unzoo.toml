@@ -1,0 +1,8 @@
+id = 'unzoo'
+name = 'unzoo'
+
+homepage = 'http://archives.math.utk.edu/software/multi-platform/gap/util/unzoo.c'
+
+[[package]]
+channel = 'fedora'
+name = 'unzoo'

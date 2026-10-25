@@ -1,0 +1,8 @@
+id = 'cdsetool'
+name = 'cdsetool'
+
+homepage = 'https://github.com/CDSETool/CDSETool'
+
+[[package]]
+channel = 'debian'
+name = 'cdsetool'

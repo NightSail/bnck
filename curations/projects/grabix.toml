@@ -1,0 +1,8 @@
+id = 'grabix'
+name = 'grabix'
+
+homepage = 'https://github.com/arq5x/grabix'
+
+[[package]]
+channel = 'debian'
+name = 'grabix'

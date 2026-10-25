@@ -1,0 +1,8 @@
+id = 'mtpfs'
+name = 'mtpfs'
+
+homepage = 'https://www.adebenham.com/mtpfs'
+
+[[package]]
+channel = 'arch'
+name = 'mtpfs'

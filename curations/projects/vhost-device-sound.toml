@@ -1,0 +1,8 @@
+id = 'vhost-device-sound'
+name = 'vhost-device-sound'
+
+homepage = 'https://crates.io/crates/vhost-device-sound'
+
+[[package]]
+channel = 'fedora'
+name = 'vhost-device-sound'

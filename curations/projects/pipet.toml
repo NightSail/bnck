@@ -1,0 +1,8 @@
+id = 'pipet'
+name = 'pipet'
+
+repository = 'https://github.com/bjesus/pipet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipet'

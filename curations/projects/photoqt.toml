@@ -1,0 +1,12 @@
+id = 'photoqt'
+name = 'photoqt'
+
+homepage = 'https://photoqt.org'
+
+[[package]]
+channel = 'debian'
+name = 'photoqt'
+
+[[package]]
+channel = 'fedora'
+name = 'photoqt'

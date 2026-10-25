@@ -1,0 +1,12 @@
+id = 'milc'
+name = 'milc'
+
+homepage = 'https://milc.clueboard.co'
+
+[[package]]
+channel = 'arch'
+name = 'python-milc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-milc'

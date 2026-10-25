@@ -1,0 +1,8 @@
+id = 'python3-pyscss'
+name = 'python3-pyscss'
+
+homepage = 'https://github.com/Kronuz/pyScss'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyscss'

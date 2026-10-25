@@ -1,0 +1,8 @@
+id = 'nfd2nfc'
+name = 'nfd2nfc'
+
+repository = 'https://github.com/elgar328/nfd2nfc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nfd2nfc'

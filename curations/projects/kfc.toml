@@ -1,0 +1,8 @@
+id = 'kfc'
+name = 'kfc'
+
+homepage = 'https://github.com/mcpcpc/kfc'
+
+[[package]]
+channel = 'fedora'
+name = 'kfc'

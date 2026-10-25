@@ -1,0 +1,16 @@
+id = 'rcm'
+name = 'rcm'
+
+homepage = 'https://thoughtbot.github.io/rcm/rcm.7.html'
+
+[[package]]
+channel = 'debian'
+name = 'rcm'
+
+[[package]]
+channel = 'fedora'
+name = 'rcm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rcm'

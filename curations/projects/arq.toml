@@ -1,0 +1,8 @@
+id = 'arq'
+name = 'arq'
+
+homepage = 'https://www.arqbackup.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/arq'

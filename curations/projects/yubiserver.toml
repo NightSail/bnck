@@ -1,0 +1,8 @@
+id = 'yubiserver'
+name = 'yubiserver'
+
+homepage = 'http://www.include.gr/debian/yubiserver'
+
+[[package]]
+channel = 'debian'
+name = 'yubiserver'

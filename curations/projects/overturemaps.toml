@@ -1,0 +1,9 @@
+id = 'overturemaps'
+name = 'overturemaps'
+
+homepage = 'https://overturemaps.org'
+repository = 'https://github.com/OvertureMaps/overturemaps-py.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/overturemaps'

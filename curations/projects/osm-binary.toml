@@ -1,0 +1,12 @@
+id = 'osm-binary'
+name = 'osm-binary'
+
+homepage = 'https://github.com/openstreetmap/OSM-binary'
+
+[[package]]
+channel = 'debian'
+name = 'osmpbf-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'osmpbf-tools'

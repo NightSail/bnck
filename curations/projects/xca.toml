@@ -1,0 +1,16 @@
+id = 'xca'
+name = 'xca'
+
+homepage = 'https://hohnstaedt.de/xca'
+
+[[package]]
+channel = 'arch'
+name = 'xca'
+
+[[package]]
+channel = 'debian'
+name = 'xca'
+
+[[package]]
+channel = 'fedora'
+name = 'xca'

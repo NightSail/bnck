@@ -1,0 +1,16 @@
+id = 'mdk'
+name = 'mdk'
+
+homepage = 'https://www.gnu.org/software/mdk/mdk.html'
+
+[[package]]
+channel = 'debian'
+name = 'mdk'
+
+[[package]]
+channel = 'fedora'
+name = 'mdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdk'

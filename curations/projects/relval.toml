@@ -1,0 +1,8 @@
+id = 'relval'
+name = 'relval'
+
+homepage = 'https://pagure.io/fedora-qa/relval'
+
+[[package]]
+channel = 'fedora'
+name = 'relval'

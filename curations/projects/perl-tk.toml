@@ -1,0 +1,10 @@
+id = 'perl-tk'
+name = 'perl-tk'
+
+[[package]]
+channel = 'debian'
+name = 'perl-tk'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Tk'

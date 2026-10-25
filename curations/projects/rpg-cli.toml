@@ -1,0 +1,12 @@
+id = 'rpg-cli'
+name = 'rpg-cli'
+
+homepage = 'https://olano.dev/blog/deconstructing-the-role-playing-videogame'
+
+[[package]]
+channel = 'arch'
+name = 'rpg-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpg-cli'

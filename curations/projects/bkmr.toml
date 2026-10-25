@@ -1,0 +1,8 @@
+id = 'bkmr'
+name = 'bkmr'
+
+repository = 'https://github.com/sysid/bkmr.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bkmr'

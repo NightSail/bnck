@@ -1,0 +1,12 @@
+id = 'libxls'
+name = 'libxls'
+
+homepage = 'https://github.com/libxls/libxls'
+
+[[package]]
+channel = 'fedora'
+name = 'libxls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxls'

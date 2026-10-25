@@ -1,0 +1,12 @@
+id = 'rocksdb-tools'
+name = 'rocksdb-tools'
+
+homepage = 'https://rocksdb.org'
+
+[[package]]
+channel = 'debian'
+name = 'rocksdb-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'rocksdb-tools'

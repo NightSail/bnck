@@ -1,0 +1,8 @@
+id = 'custodia'
+name = 'custodia'
+
+homepage = 'https://github.com/latchset/custodia'
+
+[[package]]
+channel = 'debian'
+name = 'custodia'

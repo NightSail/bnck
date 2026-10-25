@@ -1,0 +1,12 @@
+id = 'python3-trx-python'
+name = 'python3-trx-python'
+
+homepage = 'https://tee-ar-ex.github.io/trx-python/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'python3-trx-python'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-trx-python'

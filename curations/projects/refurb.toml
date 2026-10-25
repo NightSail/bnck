@@ -1,0 +1,8 @@
+id = 'refurb'
+name = 'refurb'
+
+homepage = 'https://github.com/dosisod/refurb'
+
+[[package]]
+channel = 'debian'
+name = 'refurb'

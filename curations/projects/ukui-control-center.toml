@@ -1,0 +1,8 @@
+id = 'ukui-control-center'
+name = 'ukui-control-center'
+
+homepage = 'https://gitee.com/openkylin/ukui-control-center'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-control-center'

@@ -1,0 +1,8 @@
+id = 'haskell-implicit-hie'
+name = 'haskell-implicit-hie'
+
+homepage = 'https://github.com/Avi-D-coder/implicit-hie'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-implicit-hie'

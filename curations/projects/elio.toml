@@ -1,0 +1,8 @@
+id = 'elio'
+name = 'elio'
+
+homepage = 'https://elio-fm.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/elio'

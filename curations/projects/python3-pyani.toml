@@ -1,0 +1,8 @@
+id = 'python3-pyani'
+name = 'python3-pyani'
+
+homepage = 'https://github.com/widdowquinn/pyani'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyani'

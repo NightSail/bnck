@@ -1,0 +1,8 @@
+id = 'kitutuki'
+name = 'kitutuki'
+
+homepage = 'http://ab25cq.web.fc2.com'
+
+[[package]]
+channel = 'fedora'
+name = 'kitutuki'

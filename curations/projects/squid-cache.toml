@@ -1,0 +1,28 @@
+id = 'squid-cache'
+name = 'squid-cache'
+
+homepage = 'http://www.squid-cache.org'
+
+[[package]]
+channel = 'arch'
+name = 'squid'
+
+[[package]]
+channel = 'debian'
+name = 'squid'
+
+[[package]]
+channel = 'debian'
+name = 'squid-openssl'
+
+[[package]]
+channel = 'debian'
+name = 'squid-purge'
+
+[[package]]
+channel = 'debian'
+name = 'squidclient'
+
+[[package]]
+channel = 'fedora'
+name = 'squid'

@@ -1,0 +1,12 @@
+id = 'linuxax25'
+name = 'LinuxAX25'
+
+homepage = 'http://www.linux-ax25.org/wiki/LinuxAX25'
+
+[[package]]
+channel = 'fedora'
+name = 'ax25-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ax25-tools-x'

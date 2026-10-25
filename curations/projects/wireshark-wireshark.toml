@@ -1,0 +1,9 @@
+id = 'wireshark-wireshark'
+name = 'wireshark'
+
+homepage = 'https://www.wireshark.org'
+repository = 'https://gitlab.com/wireshark/wireshark.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wireshark'

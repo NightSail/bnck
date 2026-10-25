@@ -14,3 +14,7 @@ name = 'scdoc'
 [[package]]
 channel = 'fedora'
 name = 'scdoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scdoc'

@@ -1,0 +1,8 @@
+id = 'perl-package-stash'
+name = 'perl-Package-Stash'
+
+homepage = 'https://metacpan.org/release/Package-Stash'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Package-Stash'

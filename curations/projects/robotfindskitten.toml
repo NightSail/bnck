@@ -1,0 +1,17 @@
+id = 'robotfindskitten'
+name = 'robotfindskitten'
+
+homepage = 'http://robotfindskitten.org'
+repository = 'https://codeberg.org/robotfindskitten/robotfindskitten.git'
+
+[[package]]
+channel = 'arch'
+name = 'robotfindskitten'
+
+[[package]]
+channel = 'fedora'
+name = 'robotfindskitten'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/robotfindskitten'

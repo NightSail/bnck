@@ -1,0 +1,8 @@
+id = 'swift-section'
+name = 'swift-section'
+
+repository = 'https://github.com/MxIris-Reverse-Engineering/MachOSwiftSection.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swift-section'

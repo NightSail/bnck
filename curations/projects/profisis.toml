@@ -1,0 +1,8 @@
+id = 'profisis'
+name = 'profisis'
+
+homepage = 'https://rostlab.org/owiki/index.php/PROFisis'
+
+[[package]]
+channel = 'debian'
+name = 'profisis'

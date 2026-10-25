@@ -1,0 +1,8 @@
+id = 'deepin-device-formatter'
+name = 'deepin-device-formatter'
+
+homepage = 'https://github.com/linuxdeepin/dde-device-formatter'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-device-formatter'

@@ -1,0 +1,12 @@
+id = 'allure'
+name = 'allure'
+
+homepage = 'https://allurereport.org'
+
+[[package]]
+channel = 'arch'
+name = 'allure'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/allure'

@@ -1,0 +1,8 @@
+id = 'gitea-mcp-server'
+name = 'gitea-mcp-server'
+
+repository = 'https://gitea.com/gitea/gitea-mcp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitea-mcp-server'

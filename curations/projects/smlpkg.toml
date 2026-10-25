@@ -1,0 +1,8 @@
+id = 'smlpkg'
+name = 'smlpkg'
+
+repository = 'https://github.com/diku-dk/smlpkg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smlpkg'

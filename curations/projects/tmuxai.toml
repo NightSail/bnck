@@ -1,0 +1,8 @@
+id = 'tmuxai'
+name = 'tmuxai'
+
+homepage = 'https://tmuxai.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmuxai'

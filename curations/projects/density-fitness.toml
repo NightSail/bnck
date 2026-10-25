@@ -1,0 +1,8 @@
+id = 'density-fitness'
+name = 'density-fitness'
+
+homepage = 'https://github.com/PDB-REDO/density-fitness'
+
+[[package]]
+channel = 'debian'
+name = 'density-fitness'

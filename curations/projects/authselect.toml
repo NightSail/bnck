@@ -1,0 +1,12 @@
+id = 'authselect'
+name = 'authselect'
+
+homepage = 'https://github.com/authselect/authselect'
+
+[[package]]
+channel = 'debian'
+name = 'authselect'
+
+[[package]]
+channel = 'fedora'
+name = 'authselect'

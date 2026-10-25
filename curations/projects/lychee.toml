@@ -4,6 +4,10 @@ name = 'lychee'
 repository = 'https://github.com/lycheeverse/lychee'
 
 [[package]]
+channel = 'arch'
+name = 'lychee'
+
+[[package]]
 channel = 'crates.io'
 name = 'lychee'
 

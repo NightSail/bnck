@@ -1,0 +1,8 @@
+id = 'giac'
+name = 'giac'
+
+homepage = 'https://www-fourier.univ-grenoble-alpes.fr/~parisse/giac.html'
+
+[[package]]
+channel = 'arch'
+name = 'giac'

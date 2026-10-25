@@ -1,0 +1,16 @@
+id = 'pulseaudio-pulseaudio'
+name = 'pulseaudio'
+
+homepage = 'http://pulseaudio.org'
+
+[[package]]
+channel = 'debian'
+name = 'pulseaudio'
+
+[[package]]
+channel = 'debian'
+name = 'pulseaudio-equalizer'
+
+[[package]]
+channel = 'debian'
+name = 'pulseaudio-utils'

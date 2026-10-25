@@ -1,0 +1,8 @@
+id = 'dhall-json'
+name = 'dhall-json'
+
+homepage = 'https://hackage.haskell.org/package/dhall-json'
+
+[[package]]
+channel = 'fedora'
+name = 'dhall-json'

@@ -1,0 +1,8 @@
+id = 'gtorrentviewer'
+name = 'gtorrentviewer'
+
+homepage = 'http://gtorrentviewer.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'gtorrentviewer'

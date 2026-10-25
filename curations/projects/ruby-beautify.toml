@@ -1,0 +1,8 @@
+id = 'ruby-beautify'
+name = 'ruby-beautify'
+
+homepage = 'https://github.com/erniebrodeur/ruby-beautify'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-beautify'

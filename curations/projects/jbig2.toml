@@ -1,0 +1,8 @@
+id = 'jbig2'
+name = 'jbig2'
+
+homepage = 'https://github.com/agl/jbig2enc'
+
+[[package]]
+channel = 'debian'
+name = 'jbig2'

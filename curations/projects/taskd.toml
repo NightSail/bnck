@@ -1,0 +1,8 @@
+id = 'taskd'
+name = 'taskd'
+
+homepage = 'https://github.com/goldenHairDafo/taskd'
+
+[[package]]
+channel = 'fedora'
+name = 'taskd'

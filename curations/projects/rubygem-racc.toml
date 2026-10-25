@@ -1,0 +1,8 @@
+id = 'rubygem-racc'
+name = 'rubygem-racc'
+
+homepage = 'https://github.com/tenderlove/racc'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-racc'

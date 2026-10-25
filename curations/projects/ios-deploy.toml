@@ -1,0 +1,8 @@
+id = 'ios-deploy'
+name = 'ios-deploy'
+
+repository = 'https://github.com/ios-control/ios-deploy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ios-deploy'

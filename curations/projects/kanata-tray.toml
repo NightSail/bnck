@@ -1,0 +1,8 @@
+id = 'kanata-tray'
+name = 'kanata-tray'
+
+repository = 'https://github.com/rszyma/kanata-tray.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kanata-tray'

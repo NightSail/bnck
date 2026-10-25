@@ -1,0 +1,12 @@
+id = 'qrtr'
+name = 'qrtr'
+
+homepage = 'https://github.com/linux-msm/qrtr'
+
+[[package]]
+channel = 'debian'
+name = 'qrtr-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'qrtr'

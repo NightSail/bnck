@@ -1,0 +1,60 @@
+id = 'systemtap'
+name = 'systemtap'
+
+homepage = 'https://sourceware.org/systemtap'
+
+[[package]]
+channel = 'arch'
+name = 'systemtap'
+
+[[package]]
+channel = 'debian'
+name = 'systemtap'
+
+[[package]]
+channel = 'debian'
+name = 'systemtap-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'systemtap-sdt-dev'
+
+[[package]]
+channel = 'debian'
+name = 'systemtap-server'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-client'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-initscript'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-jupyter'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-runtime'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-runtime-virthost'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-sdt-dtrace'
+
+[[package]]
+channel = 'fedora'
+name = 'systemtap-server'

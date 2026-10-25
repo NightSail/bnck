@@ -1,0 +1,16 @@
+id = 'triehash'
+name = 'triehash'
+
+homepage = 'https://github.com/julian-klode/triehash'
+
+[[package]]
+channel = 'arch'
+name = 'triehash'
+
+[[package]]
+channel = 'debian'
+name = 'triehash'
+
+[[package]]
+channel = 'fedora'
+name = 'triehash'

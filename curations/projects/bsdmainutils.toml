@@ -1,0 +1,10 @@
+id = 'bsdmainutils'
+name = 'bsdmainutils'
+
+[[package]]
+channel = 'debian'
+name = 'calendar'
+
+[[package]]
+channel = 'debian'
+name = 'ncal'

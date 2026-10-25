@@ -1,0 +1,8 @@
+id = 'souffle'
+name = 'souffle'
+
+homepage = 'https://souffle-lang.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/souffle'

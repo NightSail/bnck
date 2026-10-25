@@ -1,0 +1,9 @@
+id = 'porter'
+name = 'porter'
+
+homepage = 'https://porter.sh'
+repository = 'https://github.com/getporter/porter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/porter'

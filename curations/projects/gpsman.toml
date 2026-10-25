@@ -1,0 +1,8 @@
+id = 'gpsman'
+name = 'gpsman'
+
+homepage = 'https://sourceforge.net/projects/gpsman'
+
+[[package]]
+channel = 'debian'
+name = 'gpsman'

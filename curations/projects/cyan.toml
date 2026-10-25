@@ -1,0 +1,8 @@
+id = 'cyan'
+name = 'cyan'
+
+repository = 'https://github.com/asdfzxcvbn/pyzule-rw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyan'

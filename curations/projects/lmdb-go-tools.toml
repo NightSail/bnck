@@ -1,0 +1,8 @@
+id = 'lmdb-go-tools'
+name = 'lmdb-go-tools'
+
+homepage = 'https://github.com/bmatsuo/lmdb-go'
+
+[[package]]
+channel = 'debian'
+name = 'lmdb-go-tools'

@@ -1,0 +1,8 @@
+id = 'shrinksafe'
+name = 'shrinksafe'
+
+homepage = 'https://dojotoolkit.org'
+
+[[package]]
+channel = 'debian'
+name = 'shrinksafe'

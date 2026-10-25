@@ -1,0 +1,8 @@
+id = 'virtiofsd'
+name = 'virtiofsd'
+
+homepage = 'https://gitlab.com/virtio-fs/virtiofsd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/virtiofsd'

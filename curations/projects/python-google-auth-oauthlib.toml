@@ -1,0 +1,8 @@
+id = 'python-google-auth-oauthlib'
+name = 'python-google-auth-oauthlib'
+
+homepage = 'http://google-auth-oauthlib.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-google-auth-oauthlib'

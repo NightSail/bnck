@@ -1,0 +1,12 @@
+id = 'socnetv'
+name = 'socnetv'
+
+homepage = 'https://socnetv.org'
+
+[[package]]
+channel = 'debian'
+name = 'socnetv'
+
+[[package]]
+channel = 'fedora'
+name = 'socnetv'

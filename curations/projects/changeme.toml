@@ -1,0 +1,8 @@
+id = 'changeme'
+name = 'changeme'
+
+homepage = 'https://github.com/ztgrace/changeme'
+
+[[package]]
+channel = 'debian'
+name = 'changeme'

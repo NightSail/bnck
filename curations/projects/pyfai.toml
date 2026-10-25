@@ -1,0 +1,8 @@
+id = 'pyfai'
+name = 'pyfai'
+
+homepage = 'https://github.com/silx-kit/pyFAI'
+
+[[package]]
+channel = 'debian'
+name = 'pyfai'

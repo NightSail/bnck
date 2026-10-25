@@ -1,0 +1,8 @@
+id = 'toulbar2'
+name = 'toulbar2'
+
+homepage = 'http://www.inra.fr/mia/T/toulbar2'
+
+[[package]]
+channel = 'debian'
+name = 'toulbar2'

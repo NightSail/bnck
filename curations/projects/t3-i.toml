@@ -1,0 +1,12 @@
+id = 't3-i'
+name = 't3-i'
+
+homepage = 'http://www.t3-i.com/cstacker.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'crystal-stacker'
+
+[[package]]
+channel = 'fedora'
+name = 'crystal-stacker-theme-editor'

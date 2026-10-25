@@ -1,0 +1,8 @@
+id = 'cluster-glue'
+name = 'cluster-glue'
+
+homepage = 'https://github.com/ClusterLabs/cluster-glue'
+
+[[package]]
+channel = 'debian'
+name = 'cluster-glue'

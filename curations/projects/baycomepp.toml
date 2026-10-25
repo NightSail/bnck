@@ -1,0 +1,6 @@
+id = 'baycomepp'
+name = 'baycomepp'
+
+[[package]]
+channel = 'debian'
+name = 'baycomepp'

@@ -1,0 +1,12 @@
+id = 'dovi-tool'
+name = 'dovi_tool'
+
+repository = 'https://github.com/quietvoid/dovi_tool.git'
+
+[[package]]
+channel = 'arch'
+name = 'dovi-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dovi_tool'

@@ -1,0 +1,8 @@
+id = 'karma-tools'
+name = 'karma-tools'
+
+homepage = 'https://www.freakysoft.de/libkarma'
+
+[[package]]
+channel = 'debian'
+name = 'karma-tools'

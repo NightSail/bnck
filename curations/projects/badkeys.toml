@@ -1,0 +1,9 @@
+id = 'badkeys'
+name = 'badkeys'
+
+homepage = 'https://badkeys.info'
+repository = 'https://github.com/badkeys/badkeys.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/badkeys'

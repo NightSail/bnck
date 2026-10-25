@@ -1,0 +1,8 @@
+id = 'db-vcs'
+name = 'db-vcs'
+
+homepage = 'https://github.com/infostreams/db'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/db-vcs'

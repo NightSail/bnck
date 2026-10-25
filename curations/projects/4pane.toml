@@ -1,0 +1,12 @@
+id = '4pane'
+name = '4Pane'
+
+homepage = 'https://www.4Pane.co.uk'
+
+[[package]]
+channel = 'debian'
+name = '4pane'
+
+[[package]]
+channel = 'fedora'
+name = '4Pane'

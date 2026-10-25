@@ -1,0 +1,12 @@
+id = 'fcode-utils'
+name = 'fcode-utils'
+
+homepage = 'https://github.com/openbios/fcode-utils'
+
+[[package]]
+channel = 'debian'
+name = 'fcode-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'fcode-utils'

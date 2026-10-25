@@ -1,0 +1,8 @@
+id = 'docbook-xsl'
+name = 'docbook-xsl'
+
+homepage = 'https://github.com/docbook/xslt10-stylesheets'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docbook-xsl'

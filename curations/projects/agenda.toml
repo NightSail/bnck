@@ -1,0 +1,8 @@
+id = 'agenda'
+name = 'agenda'
+
+homepage = 'https://github.com/dahenson/agenda'
+
+[[package]]
+channel = 'fedora'
+name = 'agenda'

@@ -1,0 +1,12 @@
+id = 'irker'
+name = 'irker'
+
+homepage = 'https://gitlab.com/esr/irker'
+
+[[package]]
+channel = 'arch'
+name = 'irker'
+
+[[package]]
+channel = 'debian'
+name = 'irker'

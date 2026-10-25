@@ -1,0 +1,8 @@
+id = 'dumbpipe'
+name = 'dumbpipe'
+
+homepage = 'https://dumbpipe.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dumbpipe'

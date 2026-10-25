@@ -1,0 +1,16 @@
+id = 'towncrier'
+name = 'towncrier'
+
+homepage = 'https://github.com/twisted/towncrier'
+
+[[package]]
+channel = 'arch'
+name = 'towncrier'
+
+[[package]]
+channel = 'debian'
+name = 'towncrier'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-towncrier'

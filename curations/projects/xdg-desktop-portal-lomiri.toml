@@ -1,0 +1,8 @@
+id = 'xdg-desktop-portal-lomiri'
+name = 'xdg-desktop-portal-lomiri'
+
+homepage = 'https://gitlab.com/ubports/development/core/xdg-desktop-portal-lomiri'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-desktop-portal-lomiri'

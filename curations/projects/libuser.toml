@@ -1,0 +1,12 @@
+id = 'libuser'
+name = 'libuser'
+
+homepage = 'https://pagure.io/libuser'
+
+[[package]]
+channel = 'debian'
+name = 'libuser'
+
+[[package]]
+channel = 'fedora'
+name = 'libuser'

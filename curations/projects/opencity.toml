@@ -1,0 +1,8 @@
+id = 'opencity'
+name = 'opencity'
+
+homepage = 'http://www.opencity.info'
+
+[[package]]
+channel = 'fedora'
+name = 'opencity'

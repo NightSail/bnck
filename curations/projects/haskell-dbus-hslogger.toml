@@ -1,0 +1,8 @@
+id = 'haskell-dbus-hslogger'
+name = 'haskell-dbus-hslogger'
+
+homepage = 'https://github.com/taffybar/dbus-hslogger'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-dbus-hslogger'

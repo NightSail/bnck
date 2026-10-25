@@ -1,0 +1,8 @@
+id = 'apib'
+name = 'apib'
+
+repository = 'https://github.com/apigee/apib.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apib'

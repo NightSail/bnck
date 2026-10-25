@@ -1,0 +1,8 @@
+id = 'drill'
+name = 'drill'
+
+repository = 'https://github.com/fcsonline/drill.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/drill'

@@ -1,0 +1,8 @@
+id = 'lzd'
+name = 'lzd'
+
+homepage = 'http://www.nongnu.org/lzip/lzd.html'
+
+[[package]]
+channel = 'debian'
+name = 'lzd'

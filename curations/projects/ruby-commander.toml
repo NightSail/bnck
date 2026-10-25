@@ -1,0 +1,8 @@
+id = 'ruby-commander'
+name = 'ruby-commander'
+
+homepage = 'https://github.com/commander-rb/commander'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-commander'

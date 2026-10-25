@@ -1,0 +1,12 @@
+id = 'goldendict-ng'
+name = 'goldendict-ng'
+
+homepage = 'https://github.com/xiaoyifang/goldendict-ng'
+
+[[package]]
+channel = 'debian'
+name = 'goldendict-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'goldendict-ng'

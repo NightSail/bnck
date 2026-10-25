@@ -1,0 +1,12 @@
+id = 'mail-dmarc'
+name = 'Mail-DMARC'
+
+homepage = 'https://metacpan.org/dist/Mail-DMARC'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mail-DMARC'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mail-DMARC-HTTP'

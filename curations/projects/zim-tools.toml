@@ -1,0 +1,12 @@
+id = 'zim-tools'
+name = 'zim-tools'
+
+homepage = 'https://github.com/openzim/zim-tools'
+
+[[package]]
+channel = 'arch'
+name = 'zim-tools'
+
+[[package]]
+channel = 'debian'
+name = 'zim-tools'

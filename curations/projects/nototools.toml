@@ -1,0 +1,12 @@
+id = 'nototools'
+name = 'nototools'
+
+homepage = 'https://github.com/googlefonts/nototools'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nototools'
+
+[[package]]
+channel = 'fedora'
+name = 'nototools'

@@ -1,0 +1,8 @@
+id = 'novnc'
+name = 'novnc'
+
+homepage = 'https://github.com/novnc/noVNC'
+
+[[package]]
+channel = 'fedora'
+name = 'novnc'

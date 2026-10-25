@@ -1,0 +1,8 @@
+id = 'dublin-traceroute'
+name = 'dublin-traceroute'
+
+homepage = 'https://dublin-traceroute.net'
+
+[[package]]
+channel = 'debian'
+name = 'dublin-traceroute'

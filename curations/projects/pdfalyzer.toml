@@ -1,0 +1,8 @@
+id = 'pdfalyzer'
+name = 'pdfalyzer'
+
+repository = 'https://github.com/michelcrypt4d4mus/pdfalyzer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfalyzer'

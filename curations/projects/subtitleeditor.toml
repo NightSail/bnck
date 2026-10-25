@@ -1,0 +1,10 @@
+id = 'subtitleeditor'
+name = 'subtitleeditor'
+
+[[package]]
+channel = 'debian'
+name = 'subtitleeditor'
+
+[[package]]
+channel = 'fedora'
+name = 'subtitleeditor'

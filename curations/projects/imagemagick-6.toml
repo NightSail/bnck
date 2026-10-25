@@ -1,0 +1,9 @@
+id = 'imagemagick-6'
+name = 'imagemagick@6'
+
+homepage = 'https://legacy.imagemagick.org'
+repository = 'https://github.com/imagemagick/imagemagick6.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imagemagick@6'

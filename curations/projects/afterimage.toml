@@ -1,0 +1,12 @@
+id = 'afterimage'
+name = 'afterimage'
+
+homepage = 'http://www.afterstep.org/afterimage/index.php'
+
+[[package]]
+channel = 'fedora'
+name = 'libAfterImage-apps'
+
+[[package]]
+channel = 'fedora'
+name = 'libAfterImage-devel'

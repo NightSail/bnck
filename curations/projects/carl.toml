@@ -1,0 +1,8 @@
+id = 'carl'
+name = 'carl'
+
+repository = 'https://codeberg.org/birger/carl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/carl'

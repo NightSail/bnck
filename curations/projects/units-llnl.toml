@@ -1,0 +1,8 @@
+id = 'units-llnl'
+name = 'units-llnl'
+
+homepage = 'https://github.com/LLNL/units'
+
+[[package]]
+channel = 'fedora'
+name = 'units-llnl'

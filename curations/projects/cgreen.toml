@@ -1,0 +1,12 @@
+id = 'cgreen'
+name = 'cgreen'
+
+homepage = 'https://github.com/cgreen-devs/cgreen'
+
+[[package]]
+channel = 'debian'
+name = 'cgreen1'
+
+[[package]]
+channel = 'fedora'
+name = 'cgreen-runner'

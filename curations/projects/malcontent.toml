@@ -1,0 +1,29 @@
+id = 'malcontent'
+name = 'malcontent'
+
+homepage = 'https://gitlab.freedesktop.org/pwithnall/malcontent'
+repository = 'https://github.com/chainguard-dev/malcontent.git'
+
+[[package]]
+channel = 'arch'
+name = 'malcontent'
+
+[[package]]
+channel = 'debian'
+name = 'malcontent'
+
+[[package]]
+channel = 'debian'
+name = 'malcontent-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'malcontent-control'
+
+[[package]]
+channel = 'fedora'
+name = 'malcontent-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/malcontent'

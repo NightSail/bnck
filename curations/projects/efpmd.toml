@@ -1,0 +1,8 @@
+id = 'efpmd'
+name = 'efpmd'
+
+homepage = 'https://libefp.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'efpmd'

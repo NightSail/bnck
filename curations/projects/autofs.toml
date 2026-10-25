@@ -1,0 +1,12 @@
+id = 'autofs'
+name = 'autofs'
+
+homepage = 'https://www.kernel.org/pub/linux/daemons/autofs/v5'
+
+[[package]]
+channel = 'debian'
+name = 'autofs'
+
+[[package]]
+channel = 'fedora'
+name = 'autofs'

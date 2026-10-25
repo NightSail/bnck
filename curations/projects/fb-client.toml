@@ -1,0 +1,12 @@
+id = 'fb-client'
+name = 'fb-client'
+
+homepage = 'https://paste.xinu.at'
+
+[[package]]
+channel = 'arch'
+name = 'fb-client'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fb-client'

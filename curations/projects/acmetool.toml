@@ -1,0 +1,8 @@
+id = 'acmetool'
+name = 'acmetool'
+
+homepage = 'https://hlandau.github.io/acmetool'
+
+[[package]]
+channel = 'debian'
+name = 'acmetool'

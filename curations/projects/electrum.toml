@@ -1,0 +1,16 @@
+id = 'electrum'
+name = 'electrum'
+
+homepage = 'https://electrum.org'
+
+[[package]]
+channel = 'arch'
+name = 'electrum'
+
+[[package]]
+channel = 'debian'
+name = 'electrum'
+
+[[package]]
+channel = 'fedora'
+name = 'electrum'

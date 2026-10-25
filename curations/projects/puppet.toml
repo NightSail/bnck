@@ -4,5 +4,13 @@ name = 'puppet'
 homepage = 'https://github.com/puppetlabs/puppet'
 
 [[package]]
+channel = 'arch'
+name = 'puppet'
+
+[[package]]
 channel = 'debian'
 name = 'puppet-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'puppet'

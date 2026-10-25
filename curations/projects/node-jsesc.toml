@@ -1,0 +1,8 @@
+id = 'node-jsesc'
+name = 'node-jsesc'
+
+homepage = 'http://mths.be/jsesc'
+
+[[package]]
+channel = 'debian'
+name = 'node-jsesc'

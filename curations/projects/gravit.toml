@@ -1,0 +1,8 @@
+id = 'gravit'
+name = 'gravit'
+
+homepage = 'https://github.com/gak/gravit'
+
+[[package]]
+channel = 'debian'
+name = 'gravit'

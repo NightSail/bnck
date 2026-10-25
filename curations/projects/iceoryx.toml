@@ -1,0 +1,8 @@
+id = 'iceoryx'
+name = 'iceoryx'
+
+homepage = 'https://projects.eclipse.org/projects/technology.iceoryx'
+
+[[package]]
+channel = 'debian'
+name = 'iceoryx'

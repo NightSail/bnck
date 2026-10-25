@@ -1,0 +1,8 @@
+id = 'sgml-spell-checker'
+name = 'sgml-spell-checker'
+
+homepage = 'https://peter.eisentraut.org/sgml-spell-checker'
+
+[[package]]
+channel = 'debian'
+name = 'sgml-spell-checker'

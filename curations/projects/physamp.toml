@@ -1,0 +1,8 @@
+id = 'physamp'
+name = 'physamp'
+
+homepage = 'https://jydu.github.io/physamp'
+
+[[package]]
+channel = 'debian'
+name = 'physamp'

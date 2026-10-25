@@ -1,0 +1,8 @@
+id = 'cabal-fmt'
+name = 'cabal-fmt'
+
+homepage = 'https://github.com/phadej/cabal-fmt.git'
+
+[[package]]
+channel = 'arch'
+name = 'cabal-fmt'

@@ -1,0 +1,8 @@
+id = 'mpdcon-app'
+name = 'mpdcon.app'
+
+homepage = 'http://gap.nongnu.org/mpdcon'
+
+[[package]]
+channel = 'debian'
+name = 'mpdcon.app'

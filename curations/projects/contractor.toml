@@ -1,0 +1,8 @@
+id = 'contractor'
+name = 'contractor'
+
+homepage = 'https://github.com/elementary/contractor'
+
+[[package]]
+channel = 'arch'
+name = 'contractor'

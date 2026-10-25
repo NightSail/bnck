@@ -1,0 +1,8 @@
+id = 'python-faust-cchardet'
+name = 'python-faust-cchardet'
+
+homepage = 'https://github.com/faust-streaming/cChardet'
+
+[[package]]
+channel = 'arch'
+name = 'python-faust-cchardet'

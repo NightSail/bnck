@@ -1,0 +1,8 @@
+id = 'all-knowing-dns'
+name = 'all-knowing-dns'
+
+homepage = 'https://metacpan.org/release/AllKnowingDNS'
+
+[[package]]
+channel = 'debian'
+name = 'all-knowing-dns'

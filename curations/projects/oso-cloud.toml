@@ -1,0 +1,8 @@
+id = 'oso-cloud'
+name = 'oso-cloud'
+
+homepage = 'https://www.osohq.com/docs/app-integration/client-apis/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/oso-cloud'

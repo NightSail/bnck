@@ -1,0 +1,8 @@
+id = 'rathole'
+name = 'rathole'
+
+homepage = 'https://github.com/rathole-org/rathole'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rathole'

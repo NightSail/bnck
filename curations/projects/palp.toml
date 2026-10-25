@@ -1,0 +1,16 @@
+id = 'palp'
+name = 'palp'
+
+homepage = 'http://hep.itp.tuwien.ac.at/~kreuzer/CY/CYpalp.html'
+
+[[package]]
+channel = 'arch'
+name = 'palp'
+
+[[package]]
+channel = 'debian'
+name = 'palp'
+
+[[package]]
+channel = 'fedora'
+name = 'palp'

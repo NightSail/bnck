@@ -1,0 +1,8 @@
+id = 'scep'
+name = 'scep'
+
+homepage = 'https://github.com/micromdm/scep'
+
+[[package]]
+channel = 'debian'
+name = 'scep'

@@ -1,0 +1,9 @@
+id = 'picoclaw'
+name = 'picoclaw'
+
+homepage = 'https://picoclaw.io'
+repository = 'https://github.com/sipeed/picoclaw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/picoclaw'

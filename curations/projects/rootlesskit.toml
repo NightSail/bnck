@@ -1,0 +1,20 @@
+id = 'rootlesskit'
+name = 'rootlesskit'
+
+homepage = 'https://github.com/rootless-containers/rootlesskit'
+
+[[package]]
+channel = 'arch'
+name = 'rootlesskit'
+
+[[package]]
+channel = 'debian'
+name = 'rootlesskit'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-rootless-containers-rootlesskit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rootlesskit'

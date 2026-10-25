@@ -1,0 +1,8 @@
+id = 'mandelbulber2'
+name = 'mandelbulber2'
+
+homepage = 'https://github.com/buddhi1980/mandelbulber2'
+
+[[package]]
+channel = 'debian'
+name = 'mandelbulber2'

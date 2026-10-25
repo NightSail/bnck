@@ -1,0 +1,16 @@
+id = 'twistedmatrix'
+name = 'twistedmatrix'
+
+homepage = 'https://twistedmatrix.com'
+
+[[package]]
+channel = 'arch'
+name = 'python-twisted'
+
+[[package]]
+channel = 'debian'
+name = 'python3-twisted'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-twisted'

@@ -1,0 +1,8 @@
+id = 'hq'
+name = 'hq'
+
+homepage = 'https://orf.github.io/html-query'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hq'

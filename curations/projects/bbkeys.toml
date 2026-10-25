@@ -1,0 +1,8 @@
+id = 'bbkeys'
+name = 'bbkeys'
+
+homepage = 'http://bbkeys.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'bbkeys'

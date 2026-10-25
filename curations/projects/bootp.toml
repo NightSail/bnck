@@ -1,0 +1,8 @@
+id = 'bootp'
+name = 'bootp'
+
+homepage = 'ftp://ftp.ntplx.net/pub/networking/bootp'
+
+[[package]]
+channel = 'debian'
+name = 'bootp'

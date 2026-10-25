@@ -1,0 +1,13 @@
+id = 'genometools'
+name = 'genometools'
+
+homepage = 'http://genometools.org'
+repository = 'https://github.com/genometools/genometools.git'
+
+[[package]]
+channel = 'debian'
+name = 'genometools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/genometools'

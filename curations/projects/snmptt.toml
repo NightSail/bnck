@@ -1,0 +1,8 @@
+id = 'snmptt'
+name = 'snmptt'
+
+homepage = 'http://www.snmptt.org'
+
+[[package]]
+channel = 'debian'
+name = 'snmptt'

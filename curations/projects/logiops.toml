@@ -1,0 +1,12 @@
+id = 'logiops'
+name = 'logiops'
+
+homepage = 'https://github.com/PixlOne/logiops'
+
+[[package]]
+channel = 'debian'
+name = 'logiops'
+
+[[package]]
+channel = 'fedora'
+name = 'logiops'

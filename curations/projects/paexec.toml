@@ -1,0 +1,8 @@
+id = 'paexec'
+name = 'paexec'
+
+homepage = 'https://sourceforge.net/projects/paexec'
+
+[[package]]
+channel = 'debian'
+name = 'paexec'

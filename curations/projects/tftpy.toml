@@ -1,0 +1,12 @@
+id = 'tftpy'
+name = 'tftpy'
+
+homepage = 'https://github.com/msoulier/tftpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-tftpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tftpy'

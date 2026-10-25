@@ -1,0 +1,8 @@
+id = 'wallutils'
+name = 'wallutils'
+
+homepage = 'https://github.com/xyproto/wallutils'
+
+[[package]]
+channel = 'arch'
+name = 'wallutils'

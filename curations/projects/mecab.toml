@@ -1,0 +1,12 @@
+id = 'mecab'
+name = 'mecab'
+
+homepage = 'http://mecab.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'mecab'
+
+[[package]]
+channel = 'fedora'
+name = 'mecab-devel'

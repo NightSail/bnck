@@ -1,0 +1,8 @@
+id = 'phasex'
+name = 'phasex'
+
+homepage = 'https://github.com/williamweston/phasex'
+
+[[package]]
+channel = 'debian'
+name = 'phasex'

@@ -1,0 +1,8 @@
+id = 'megahit'
+name = 'megahit'
+
+homepage = 'https://github.com/voutcn/megahit'
+
+[[package]]
+channel = 'debian'
+name = 'megahit'

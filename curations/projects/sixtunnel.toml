@@ -1,0 +1,8 @@
+id = 'sixtunnel'
+name = 'sixtunnel'
+
+repository = 'https://github.com/wojtekka/6tunnel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sixtunnel'

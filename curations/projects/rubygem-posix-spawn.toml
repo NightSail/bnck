@@ -1,0 +1,8 @@
+id = 'rubygem-posix-spawn'
+name = 'rubygem-posix-spawn'
+
+homepage = 'https://github.com/rtomayko/posix-spawn'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-posix-spawn'

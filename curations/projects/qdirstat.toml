@@ -1,0 +1,12 @@
+id = 'qdirstat'
+name = 'qdirstat'
+
+homepage = 'https://github.com/shundhammer/qdirstat'
+
+[[package]]
+channel = 'debian'
+name = 'qdirstat'
+
+[[package]]
+channel = 'fedora'
+name = 'qdirstat'

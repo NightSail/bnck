@@ -1,0 +1,6 @@
+id = 'drool'
+name = 'drool'
+
+[[package]]
+channel = 'debian'
+name = 'drool'

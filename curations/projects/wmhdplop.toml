@@ -1,0 +1,8 @@
+id = 'wmhdplop'
+name = 'wmhdplop'
+
+homepage = 'https://www.dockapps.net/wmhdplop'
+
+[[package]]
+channel = 'debian'
+name = 'wmhdplop'

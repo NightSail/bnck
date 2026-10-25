@@ -1,0 +1,12 @@
+id = 'lwtools'
+name = 'lwtools'
+
+homepage = 'https://www.lwtools.ca'
+
+[[package]]
+channel = 'fedora'
+name = 'lwtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lwtools'

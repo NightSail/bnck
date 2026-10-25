@@ -1,0 +1,8 @@
+id = 'geotranz'
+name = 'geotranz'
+
+homepage = 'http://earth-info.nga.mil/GandG/geotrans'
+
+[[package]]
+channel = 'debian'
+name = 'geotranz'

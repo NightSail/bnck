@@ -1,0 +1,8 @@
+id = 'dmenu-wayland'
+name = 'dmenu-wayland'
+
+homepage = 'https://github.com/nyyManni/dmenu-wayland'
+
+[[package]]
+channel = 'fedora'
+name = 'dmenu-wayland'

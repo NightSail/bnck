@@ -1,0 +1,8 @@
+id = 'python3-geotiler'
+name = 'python3-geotiler'
+
+homepage = 'https://github.com/wrobell/geotiler'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-geotiler'

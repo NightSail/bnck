@@ -1,0 +1,8 @@
+id = 'ruby-rotp'
+name = 'ruby-rotp'
+
+homepage = 'https://github.com/mdp/rotp'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rotp'

@@ -1,0 +1,8 @@
+id = 'zyre'
+name = 'zyre'
+
+repository = 'https://github.com/zeromq/zyre.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zyre'

@@ -1,0 +1,24 @@
+id = 'mosquitto'
+name = 'mosquitto'
+
+homepage = 'https://mosquitto.org'
+
+[[package]]
+channel = 'arch'
+name = 'mosquitto'
+
+[[package]]
+channel = 'debian'
+name = 'mosquitto'
+
+[[package]]
+channel = 'debian'
+name = 'mosquitto-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'mosquitto'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mosquitto'

@@ -1,0 +1,12 @@
+id = 'zonefs-tools'
+name = 'zonefs-tools'
+
+homepage = 'https://github.com/westerndigitalcorporation/zonefs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'zonefs-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'zonefs-tools'

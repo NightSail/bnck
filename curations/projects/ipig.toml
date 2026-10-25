@@ -1,0 +1,8 @@
+id = 'ipig'
+name = 'ipig'
+
+homepage = 'http://sourceforge.net/projects/ipig'
+
+[[package]]
+channel = 'debian'
+name = 'ipig'

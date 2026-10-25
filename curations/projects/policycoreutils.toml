@@ -1,0 +1,10 @@
+id = 'policycoreutils'
+name = 'policycoreutils'
+
+[[package]]
+channel = 'debian'
+name = 'newrole'
+
+[[package]]
+channel = 'debian'
+name = 'policycoreutils'

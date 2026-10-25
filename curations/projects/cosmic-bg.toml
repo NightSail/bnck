@@ -1,0 +1,12 @@
+id = 'cosmic-bg'
+name = 'cosmic-bg'
+
+homepage = 'https://github.com/pop-os/cosmic-bg'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-bg'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-bg'

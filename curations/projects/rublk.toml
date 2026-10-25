@@ -1,0 +1,8 @@
+id = 'rublk'
+name = 'rublk'
+
+homepage = 'https://crates.io/crates/rublk'
+
+[[package]]
+channel = 'fedora'
+name = 'rublk'

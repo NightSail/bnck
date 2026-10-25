@@ -1,0 +1,8 @@
+id = 'wikibase-cli'
+name = 'wikibase-cli'
+
+homepage = 'https://codeberg.org/maxlath/wikibase-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wikibase-cli'

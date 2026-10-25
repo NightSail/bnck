@@ -1,0 +1,8 @@
+id = 'agrep'
+name = 'agrep'
+
+homepage = 'http://laurikari.net/tre'
+
+[[package]]
+channel = 'fedora'
+name = 'agrep'

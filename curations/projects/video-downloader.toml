@@ -1,0 +1,16 @@
+id = 'video-downloader'
+name = 'video-downloader'
+
+homepage = 'https://github.com/Unrud/video-downloader'
+
+[[package]]
+channel = 'arch'
+name = 'video-downloader'
+
+[[package]]
+channel = 'debian'
+name = 'video-downloader'
+
+[[package]]
+channel = 'fedora'
+name = 'video-downloader'

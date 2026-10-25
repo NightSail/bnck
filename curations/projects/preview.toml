@@ -1,0 +1,12 @@
+id = 'preview'
+name = 'preview'
+
+homepage = 'https://developer.android.com/studio/preview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/android-studio-preview@beta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/android-studio-preview@canary'

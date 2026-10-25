@@ -1,0 +1,16 @@
+id = 'abcm2ps'
+name = 'abcm2ps'
+
+homepage = 'http://moinejf.free.fr'
+
+[[package]]
+channel = 'debian'
+name = 'abcm2ps'
+
+[[package]]
+channel = 'fedora'
+name = 'abcm2ps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abcm2ps'

@@ -1,0 +1,8 @@
+id = 'uthash-tools'
+name = 'uthash-tools'
+
+homepage = 'http://troydhanson.github.io/uthash'
+
+[[package]]
+channel = 'fedora'
+name = 'uthash-tools'

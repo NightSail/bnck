@@ -1,0 +1,10 @@
+id = 'kfloppy'
+name = 'kfloppy'
+
+[[package]]
+channel = 'debian'
+name = 'kfloppy'
+
+[[package]]
+channel = 'fedora'
+name = 'kfloppy'

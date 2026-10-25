@@ -1,0 +1,8 @@
+id = 'fizmo'
+name = 'fizmo'
+
+homepage = 'https://fizmo.spellbreaker.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fizmo'

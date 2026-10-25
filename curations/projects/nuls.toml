@@ -1,0 +1,8 @@
+id = 'nuls'
+name = 'nuls'
+
+repository = 'https://github.com/cesarferreira/nuls.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuls'

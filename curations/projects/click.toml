@@ -1,0 +1,17 @@
+id = 'click'
+name = 'click'
+
+homepage = 'https://gitlab.com/ubports/development/core/click'
+repository = 'https://github.com/databricks/click.git'
+
+[[package]]
+channel = 'debian'
+name = 'click'
+
+[[package]]
+channel = 'debian'
+name = 'click-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/click'

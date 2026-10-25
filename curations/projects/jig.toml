@@ -1,0 +1,8 @@
+id = 'jig'
+name = 'jig'
+
+homepage = 'https://github.com/avitacco/jig'
+
+[[package]]
+channel = 'arch'
+name = 'jig'

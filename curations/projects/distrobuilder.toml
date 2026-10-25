@@ -1,0 +1,12 @@
+id = 'distrobuilder'
+name = 'distrobuilder'
+
+homepage = 'https://linuxcontainers.org/distrobuilder'
+
+[[package]]
+channel = 'arch'
+name = 'distrobuilder'
+
+[[package]]
+channel = 'debian'
+name = 'distrobuilder'

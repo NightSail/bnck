@@ -1,0 +1,8 @@
+id = 'raider'
+name = 'raider'
+
+homepage = 'https://apps.gnome.org/Raider'
+
+[[package]]
+channel = 'arch'
+name = 'raider'

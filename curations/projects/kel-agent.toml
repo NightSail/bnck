@@ -1,0 +1,8 @@
+id = 'kel-agent'
+name = 'kel-agent'
+
+homepage = 'https://github.com/k0swe/kel-agent'
+
+[[package]]
+channel = 'debian'
+name = 'kel-agent'

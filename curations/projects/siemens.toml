@@ -1,0 +1,12 @@
+id = 'siemens'
+name = 'siemens'
+
+homepage = 'https://siemens.github.io/sso-mib'
+
+[[package]]
+channel = 'debian'
+name = 'sso-mib-gch-smtp-o365'
+
+[[package]]
+channel = 'debian'
+name = 'sso-mib-tool'

@@ -1,0 +1,16 @@
+id = 'sad'
+name = 'sad'
+
+repository = 'https://github.com/ms-jpq/sad.git'
+
+[[package]]
+channel = 'arch'
+name = 'sad'
+
+[[package]]
+channel = 'fedora'
+name = 'sad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sad'

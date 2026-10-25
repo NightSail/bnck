@@ -1,0 +1,12 @@
+id = 'rpc-xml'
+name = 'RPC-XML'
+
+homepage = 'https://metacpan.org/release/RPC-XML'
+
+[[package]]
+channel = 'debian'
+name = 'librpc-xml-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-RPC-XML'

@@ -1,0 +1,6 @@
+id = 'field3d-tools'
+name = 'field3d-tools'
+
+[[package]]
+channel = 'debian'
+name = 'field3d-tools'

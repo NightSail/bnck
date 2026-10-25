@@ -1,0 +1,8 @@
+id = 'fbzx'
+name = 'fbzx'
+
+homepage = 'https://www.rastersoft.com/programas/fbzx.html'
+
+[[package]]
+channel = 'fedora'
+name = 'fbzx'

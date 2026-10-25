@@ -1,0 +1,8 @@
+id = 'ephoto'
+name = 'ephoto'
+
+homepage = 'https://www.enlightenment.org/about-ephoto'
+
+[[package]]
+channel = 'debian'
+name = 'ephoto'

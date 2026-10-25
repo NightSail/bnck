@@ -1,0 +1,8 @@
+id = 'nvidia-settings'
+name = 'nvidia-settings'
+
+homepage = 'https://github.com/NVIDIA/nvidia-settings'
+
+[[package]]
+channel = 'arch'
+name = 'nvidia-settings'

@@ -1,0 +1,12 @@
+id = 'kcat'
+name = 'kcat'
+
+homepage = 'https://github.com/edenhill/kcat'
+
+[[package]]
+channel = 'debian'
+name = 'kcat'
+
+[[package]]
+channel = 'fedora'
+name = 'kcat'

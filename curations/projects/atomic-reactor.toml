@@ -1,0 +1,8 @@
+id = 'atomic-reactor'
+name = 'atomic-reactor'
+
+homepage = 'https://github.com/projectatomic/atomic-reactor'
+
+[[package]]
+channel = 'fedora'
+name = 'atomic-reactor'

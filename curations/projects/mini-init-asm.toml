@@ -1,0 +1,8 @@
+id = 'mini-init-asm'
+name = 'mini-init-asm'
+
+homepage = 'https://github.com/roots666/mini-init-asm'
+
+[[package]]
+channel = 'debian'
+name = 'mini-init-asm'

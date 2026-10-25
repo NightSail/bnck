@@ -1,0 +1,8 @@
+id = 'kor'
+name = 'kor'
+
+repository = 'https://github.com/yonahd/kor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kor'

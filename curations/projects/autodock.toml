@@ -1,0 +1,16 @@
+id = 'autodock'
+name = 'autodock'
+
+homepage = 'http://autodock.scripps.edu'
+
+[[package]]
+channel = 'debian'
+name = 'autodock'
+
+[[package]]
+channel = 'debian'
+name = 'autogrid'
+
+[[package]]
+channel = 'fedora'
+name = 'autodocksuite'

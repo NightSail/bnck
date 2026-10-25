@@ -1,0 +1,12 @@
+id = 'soap'
+name = 'soap'
+
+homepage = 'http://soap.genomics.org.cn/soapdenovo.html'
+
+[[package]]
+channel = 'debian'
+name = 'soapdenovo'
+
+[[package]]
+channel = 'debian'
+name = 'soapdenovo2'

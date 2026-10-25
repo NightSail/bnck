@@ -1,0 +1,16 @@
+id = 'numactl'
+name = 'numactl'
+
+homepage = 'https://github.com/numactl/numactl'
+
+[[package]]
+channel = 'arch'
+name = 'numactl'
+
+[[package]]
+channel = 'debian'
+name = 'numactl'
+
+[[package]]
+channel = 'fedora'
+name = 'numactl'

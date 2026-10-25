@@ -1,0 +1,8 @@
+id = 'wapua'
+name = 'wapua'
+
+homepage = 'https://fsinfo.noone.org/~abe/wApua'
+
+[[package]]
+channel = 'debian'
+name = 'wapua'

@@ -1,0 +1,6 @@
+id = 'virglrenderer-test-server'
+name = 'virglrenderer-test-server'
+
+[[package]]
+channel = 'fedora'
+name = 'virglrenderer-test-server'

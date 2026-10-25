@@ -1,0 +1,9 @@
+id = 'jlog'
+name = 'jlog'
+
+homepage = 'https://labs.omniti.com/labs/jlog'
+repository = 'https://github.com/omniti-labs/jlog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jlog'

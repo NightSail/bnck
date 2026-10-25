@@ -1,0 +1,16 @@
+id = 'scribus'
+name = 'scribus'
+
+homepage = 'https://www.scribus.net'
+
+[[package]]
+channel = 'arch'
+name = 'scribus'
+
+[[package]]
+channel = 'debian'
+name = 'scribus'
+
+[[package]]
+channel = 'fedora'
+name = 'scribus'

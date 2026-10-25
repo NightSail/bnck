@@ -1,0 +1,8 @@
+id = 'lightdm-webkit2-greeter'
+name = 'lightdm-webkit2-greeter'
+
+homepage = 'https://github.com/antergos/web-greeter'
+
+[[package]]
+channel = 'arch'
+name = 'lightdm-webkit2-greeter'

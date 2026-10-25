@@ -1,0 +1,6 @@
+id = 'slib'
+name = 'slib'
+
+[[package]]
+channel = 'debian'
+name = 'slib'

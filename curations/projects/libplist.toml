@@ -1,0 +1,9 @@
+id = 'libplist'
+name = 'libplist'
+
+homepage = 'https://libimobiledevice.org'
+repository = 'https://github.com/libimobiledevice/libplist.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libplist'

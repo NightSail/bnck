@@ -1,0 +1,8 @@
+id = 'yanagiba'
+name = 'yanagiba'
+
+homepage = 'https://github.com/Adamtaranto/Yanagiba'
+
+[[package]]
+channel = 'debian'
+name = 'yanagiba'

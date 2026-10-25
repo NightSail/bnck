@@ -1,0 +1,8 @@
+id = 'node-pegjs'
+name = 'node-pegjs'
+
+homepage = 'https://github.com/dmajda/pegjs'
+
+[[package]]
+channel = 'debian'
+name = 'node-pegjs'

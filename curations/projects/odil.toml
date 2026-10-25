@@ -1,0 +1,8 @@
+id = 'odil'
+name = 'odil'
+
+homepage = 'https://github.com/lamyj/odil'
+
+[[package]]
+channel = 'debian'
+name = 'odil'

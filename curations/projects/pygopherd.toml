@@ -1,0 +1,8 @@
+id = 'pygopherd'
+name = 'pygopherd'
+
+homepage = 'https://github.com/michael-lazar/pygopherd'
+
+[[package]]
+channel = 'debian'
+name = 'pygopherd'

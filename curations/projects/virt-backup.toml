@@ -1,0 +1,8 @@
+id = 'virt-backup'
+name = 'virt-backup'
+
+homepage = 'https://git.fws.fr/fws/virt-backup'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-backup'

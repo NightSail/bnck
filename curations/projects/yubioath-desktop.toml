@@ -1,0 +1,8 @@
+id = 'yubioath-desktop'
+name = 'yubioath-desktop'
+
+homepage = 'https://developers.yubico.com/yubioath-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'yubioath-desktop'

@@ -1,0 +1,12 @@
+id = 'crypt-argon2'
+name = 'Crypt-Argon2'
+
+homepage = 'https://metacpan.org/release/Crypt-Argon2'
+
+[[package]]
+channel = 'debian'
+name = 'libcrypt-argon2-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Crypt-Argon2'

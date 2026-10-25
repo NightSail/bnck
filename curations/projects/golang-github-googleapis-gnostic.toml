@@ -1,0 +1,8 @@
+id = 'golang-github-googleapis-gnostic'
+name = 'golang-github-googleapis-gnostic'
+
+homepage = 'https://github.com/googleapis/gnostic'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-googleapis-gnostic'

@@ -1,0 +1,12 @@
+id = 'eiciel'
+name = 'eiciel'
+
+homepage = 'https://rofi.roger-ferrer.org/eiciel'
+
+[[package]]
+channel = 'debian'
+name = 'eiciel'
+
+[[package]]
+channel = 'fedora'
+name = 'eiciel'

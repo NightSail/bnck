@@ -1,0 +1,12 @@
+id = 'lhapdf'
+name = 'lhapdf'
+
+homepage = 'https://lhapdf.hepforge.org'
+
+[[package]]
+channel = 'fedora'
+name = 'lhapdf-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-lhapdf'

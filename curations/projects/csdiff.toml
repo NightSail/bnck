@@ -1,0 +1,8 @@
+id = 'csdiff'
+name = 'csdiff'
+
+homepage = 'https://github.com/csutils/csdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'csdiff'

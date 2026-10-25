@@ -1,0 +1,12 @@
+id = 'wmacpi'
+name = 'wmacpi'
+
+homepage = 'https://www.dockapps.net/wmacpi'
+
+[[package]]
+channel = 'debian'
+name = 'wmacpi'
+
+[[package]]
+channel = 'fedora'
+name = 'wmacpi'

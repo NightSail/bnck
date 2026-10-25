@@ -1,0 +1,8 @@
+id = 'saxon-saxonica'
+name = 'saxon'
+
+homepage = 'https://github.com/Saxonica/Saxon-HE'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/saxon'

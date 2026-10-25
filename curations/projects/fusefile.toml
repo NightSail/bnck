@@ -1,0 +1,8 @@
+id = 'fusefile'
+name = 'fusefile'
+
+homepage = 'https://git.devuan.org/rrq/fusefile.git'
+
+[[package]]
+channel = 'debian'
+name = 'fusefile'

@@ -1,0 +1,60 @@
+id = 'apertium'
+name = 'apertium'
+
+homepage = 'https://apertium.org'
+
+[[package]]
+channel = 'debian'
+name = 'apertium'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-anaphora'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-apy'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-dev'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-eval-translator'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-get'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-lex-tools'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-lex-tools-dev'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-recursive'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-regtest'
+
+[[package]]
+channel = 'debian'
+name = 'apertium-separable'
+
+[[package]]
+channel = 'debian'
+name = 'lexd'
+
+[[package]]
+channel = 'debian'
+name = 'lttoolbox'
+
+[[package]]
+channel = 'debian'
+name = 'lttoolbox-dev'

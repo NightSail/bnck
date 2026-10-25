@@ -1,0 +1,10 @@
+id = 'isenkram'
+name = 'isenkram'
+
+[[package]]
+channel = 'debian'
+name = 'isenkram'
+
+[[package]]
+channel = 'debian'
+name = 'isenkram-cli'

@@ -1,0 +1,8 @@
+id = 'qad'
+name = 'qad'
+
+homepage = 'https://gitlab.com/CodethinkLabs/qad/qad'
+
+[[package]]
+channel = 'debian'
+name = 'qad'

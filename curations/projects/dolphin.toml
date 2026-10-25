@@ -10,3 +10,7 @@ name = 'dolphin'
 [[package]]
 channel = 'debian'
 name = 'dolphin'
+
+[[package]]
+channel = 'fedora'
+name = 'dolphin'

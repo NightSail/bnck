@@ -1,0 +1,8 @@
+id = 'python3-exif'
+name = 'python3-exif'
+
+homepage = 'https://github.com/ianare/exif-py'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-exif'

@@ -1,0 +1,12 @@
+id = 'cargo-expand'
+name = 'cargo-expand'
+
+repository = 'https://github.com/dtolnay/cargo-expand.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-expand'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-expand'

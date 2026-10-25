@@ -1,0 +1,20 @@
+id = 'zssh'
+name = 'zssh'
+
+homepage = 'https://zssh.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'zssh'
+
+[[package]]
+channel = 'debian'
+name = 'zssh'
+
+[[package]]
+channel = 'fedora'
+name = 'zssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zssh'

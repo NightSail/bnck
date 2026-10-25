@@ -1,0 +1,20 @@
+id = 'pbzip2'
+name = 'pbzip2'
+
+homepage = 'http://compression.great-site.net/pbzip2'
+
+[[package]]
+channel = 'arch'
+name = 'pbzip2'
+
+[[package]]
+channel = 'debian'
+name = 'pbzip2'
+
+[[package]]
+channel = 'fedora'
+name = 'pbzip2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pbzip2'

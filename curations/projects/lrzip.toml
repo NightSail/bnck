@@ -1,0 +1,17 @@
+id = 'lrzip'
+name = 'lrzip'
+
+homepage = 'http://ck.kolivas.org/apps/lrzip/README.md'
+repository = 'https://github.com/ckolivas/lrzip.git'
+
+[[package]]
+channel = 'arch'
+name = 'lrzip'
+
+[[package]]
+channel = 'debian'
+name = 'lrzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lrzip'

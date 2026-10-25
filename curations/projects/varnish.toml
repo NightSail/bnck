@@ -1,0 +1,12 @@
+id = 'varnish'
+name = 'varnish'
+
+homepage = 'https://www.varnish-cache.org'
+
+[[package]]
+channel = 'fedora'
+name = 'varnish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/varnish'

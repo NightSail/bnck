@@ -1,0 +1,8 @@
+id = 'libdoxygen-filter-perl'
+name = 'libdoxygen-filter-perl'
+
+homepage = 'https://github.com/jordan2175/doxygen-filter-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libdoxygen-filter-perl'

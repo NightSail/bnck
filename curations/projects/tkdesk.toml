@@ -1,0 +1,8 @@
+id = 'tkdesk'
+name = 'tkdesk'
+
+homepage = 'http://tkdesk.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'tkdesk'

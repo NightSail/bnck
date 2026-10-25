@@ -1,0 +1,8 @@
+id = 'apricots'
+name = 'apricots'
+
+homepage = 'https://github.com/moggers87/apricots'
+
+[[package]]
+channel = 'fedora'
+name = 'apricots'

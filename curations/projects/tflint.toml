@@ -1,0 +1,8 @@
+id = 'tflint'
+name = 'tflint'
+
+homepage = 'https://github.com/terraform-linters/tflint'
+
+[[package]]
+channel = 'arch'
+name = 'tflint'

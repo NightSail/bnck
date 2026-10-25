@@ -1,0 +1,12 @@
+id = 'python3-rosdistro'
+name = 'python3-rosdistro'
+
+homepage = 'https://wiki.ros.org/rosdistro'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosdistro'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rosdistro'

@@ -1,0 +1,9 @@
+id = 'go-jsonnet'
+name = 'go-jsonnet'
+
+homepage = 'https://jsonnet.org'
+repository = 'https://github.com/google/go-jsonnet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/go-jsonnet'

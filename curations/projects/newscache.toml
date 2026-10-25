@@ -1,0 +1,8 @@
+id = 'newscache'
+name = 'newscache'
+
+homepage = 'http://www.linuxhacker.at/newscache'
+
+[[package]]
+channel = 'fedora'
+name = 'newscache'

@@ -1,0 +1,8 @@
+id = 'fabio-viewer'
+name = 'fabio-viewer'
+
+homepage = 'https://github.com/silx-kit/fabio'
+
+[[package]]
+channel = 'debian'
+name = 'fabio-viewer'

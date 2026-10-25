@@ -8,5 +8,25 @@ channel = 'crates.io'
 name = 'koji'
 
 [[package]]
+channel = 'fedora'
+name = 'koji'
+
+[[package]]
+channel = 'fedora'
+name = 'koji-builder'
+
+[[package]]
+channel = 'fedora'
+name = 'koji-hub'
+
+[[package]]
+channel = 'fedora'
+name = 'koji-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'koji-vm'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/koji'

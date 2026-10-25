@@ -1,0 +1,17 @@
+id = 'soapysdr'
+name = 'soapysdr'
+
+homepage = 'https://github.com/pothosware/SoapySDR/wiki'
+repository = 'https://github.com/pothosware/SoapySDR.git'
+
+[[package]]
+channel = 'arch'
+name = 'soapysdr'
+
+[[package]]
+channel = 'fedora'
+name = 'SoapySDR'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/soapysdr'

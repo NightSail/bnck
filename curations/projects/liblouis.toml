@@ -1,0 +1,33 @@
+id = 'liblouis'
+name = 'liblouis'
+
+homepage = 'https://liblouis.io'
+repository = 'https://github.com/liblouis/liblouis.git'
+
+[[package]]
+channel = 'arch'
+name = 'liblouis'
+
+[[package]]
+channel = 'debian'
+name = 'liblouis-bin'
+
+[[package]]
+channel = 'debian'
+name = 'liblouisutdml-bin'
+
+[[package]]
+channel = 'debian'
+name = 'liblouisxml-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'liblouis-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'liblouisutdml-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liblouis'

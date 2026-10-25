@@ -4,5 +4,9 @@ name = 'git-flow'
 repository = 'https://github.com/nvie/gitflow'
 
 [[package]]
+channel = 'debian'
+name = 'git-flow'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/git-flow'

@@ -1,0 +1,8 @@
+id = 'shuttle-cli'
+name = 'shuttle-cli'
+
+repository = 'https://github.com/lunarway/shuttle.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shuttle-cli'

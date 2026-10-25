@@ -1,0 +1,8 @@
+id = 'banner'
+name = 'banner'
+
+homepage = 'https://github.com/pronovic/banner'
+
+[[package]]
+channel = 'fedora'
+name = 'banner'

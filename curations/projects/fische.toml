@@ -1,0 +1,8 @@
+id = 'fische'
+name = 'fische'
+
+homepage = 'https://26elf.at'
+
+[[package]]
+channel = 'debian'
+name = 'fische'

@@ -1,0 +1,28 @@
+id = 'djvu'
+name = 'djvu'
+
+homepage = 'https://djvu.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'djvulibre'
+
+[[package]]
+channel = 'debian'
+name = 'djview4'
+
+[[package]]
+channel = 'debian'
+name = 'djvulibre-bin'
+
+[[package]]
+channel = 'debian'
+name = 'djvuserve'
+
+[[package]]
+channel = 'fedora'
+name = 'djvulibre'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djvulibre'

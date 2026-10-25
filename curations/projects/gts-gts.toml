@@ -1,0 +1,12 @@
+id = 'gts-gts'
+name = 'gts'
+
+homepage = 'http://gts.sourceforge.net/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'gts'
+
+[[package]]
+channel = 'fedora'
+name = 'gts-devel'

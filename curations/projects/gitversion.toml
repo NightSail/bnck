@@ -1,0 +1,8 @@
+id = 'gitversion'
+name = 'gitversion'
+
+homepage = 'https://gitversion.net/docs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitversion'

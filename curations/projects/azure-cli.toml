@@ -1,0 +1,21 @@
+id = 'azure-cli'
+name = 'azure-cli'
+
+homepage = 'https://docs.microsoft.com/cli/azure/overview'
+repository = 'https://github.com/Azure/azure-cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'azure-cli'
+
+[[package]]
+channel = 'debian'
+name = 'azure-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'azure-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azure-cli'

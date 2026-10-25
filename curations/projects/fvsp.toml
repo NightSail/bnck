@@ -1,0 +1,8 @@
+id = 'fvsp'
+name = 'fvsp'
+
+homepage = 'https://ppisar.fedorapeople.org/fvsp'
+
+[[package]]
+channel = 'fedora'
+name = 'fvsp'

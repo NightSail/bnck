@@ -1,0 +1,20 @@
+id = 'nuspell'
+name = 'nuspell'
+
+homepage = 'https://nuspell.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'nuspell'
+
+[[package]]
+channel = 'debian'
+name = 'nuspell'
+
+[[package]]
+channel = 'fedora'
+name = 'nuspell'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nuspell'

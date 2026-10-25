@@ -1,0 +1,8 @@
+id = 'python3-litestar'
+name = 'python3-litestar'
+
+homepage = 'https://github.com/litestar-org/litestar'
+
+[[package]]
+channel = 'debian'
+name = 'python3-litestar'

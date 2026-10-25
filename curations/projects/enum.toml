@@ -1,0 +1,12 @@
+id = 'enum'
+name = 'enum'
+
+homepage = 'https://web.archive.org/web/20161230030558/https://fedorahosted.org/enum'
+
+[[package]]
+channel = 'debian'
+name = 'enum'
+
+[[package]]
+channel = 'fedora'
+name = 'enum'

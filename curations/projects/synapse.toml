@@ -1,0 +1,16 @@
+id = 'synapse'
+name = 'synapse'
+
+homepage = 'https://launchpad.net/synapse-project'
+
+[[package]]
+channel = 'arch'
+name = 'synapse'
+
+[[package]]
+channel = 'debian'
+name = 'synapse'
+
+[[package]]
+channel = 'fedora'
+name = 'synapse'

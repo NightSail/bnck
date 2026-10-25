@@ -1,0 +1,12 @@
+id = 'hpack'
+name = 'hpack'
+
+homepage = 'https://github.com/sol/hpack'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hpack'
+
+[[package]]
+channel = 'debian'
+name = 'hpack'

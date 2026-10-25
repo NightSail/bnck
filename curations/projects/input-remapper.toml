@@ -1,0 +1,16 @@
+id = 'input-remapper'
+name = 'input-remapper'
+
+homepage = 'https://github.com/sezanzeb/input-remapper'
+
+[[package]]
+channel = 'debian'
+name = 'input-remapper-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'input-remapper-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'input-remapper'

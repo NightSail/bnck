@@ -1,0 +1,12 @@
+id = 'pydocstyle'
+name = 'pydocstyle'
+
+homepage = 'http://www.pydocstyle.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-pydocstyle'
+
+[[package]]
+channel = 'debian'
+name = 'pydocstyle'

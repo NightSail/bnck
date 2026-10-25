@@ -1,0 +1,20 @@
+id = 'cryptominisat'
+name = 'cryptominisat'
+
+homepage = 'https://www.msoos.org/cryptominisat5'
+
+[[package]]
+channel = 'arch'
+name = 'cryptominisat'
+
+[[package]]
+channel = 'debian'
+name = 'cryptominisat'
+
+[[package]]
+channel = 'fedora'
+name = 'cryptominisat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cryptominisat'

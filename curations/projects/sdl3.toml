@@ -1,0 +1,8 @@
+id = 'sdl3'
+name = 'sdl3'
+
+homepage = 'https://www.libsdl.org'
+
+[[package]]
+channel = 'arch'
+name = 'sdl3'

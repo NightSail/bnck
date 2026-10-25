@@ -1,0 +1,12 @@
+id = 'netopeer2'
+name = 'netopeer2'
+
+homepage = 'https://github.com/CESNET/netopeer2'
+
+[[package]]
+channel = 'fedora'
+name = 'netopeer2-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'netopeer2-server'

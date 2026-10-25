@@ -1,0 +1,8 @@
+id = 'staq'
+name = 'staq'
+
+homepage = 'https://iopscience.iop.org/article/10.1088/2058-9565/ab9359/pdf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/staq'

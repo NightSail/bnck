@@ -1,0 +1,8 @@
+id = 'libmarc-schema-perl'
+name = 'libmarc-schema-perl'
+
+homepage = 'https://metacpan.org/release/MARC-Schema'
+
+[[package]]
+channel = 'debian'
+name = 'libmarc-schema-perl'

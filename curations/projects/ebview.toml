@@ -1,0 +1,8 @@
+id = 'ebview'
+name = 'ebview'
+
+homepage = 'http://packages.qa.debian.org/e/ebview.html'
+
+[[package]]
+channel = 'fedora'
+name = 'ebview'

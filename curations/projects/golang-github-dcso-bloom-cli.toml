@@ -1,0 +1,8 @@
+id = 'golang-github-dcso-bloom-cli'
+name = 'golang-github-dcso-bloom-cli'
+
+homepage = 'https://github.com/DCSO/bloom'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-dcso-bloom-cli'

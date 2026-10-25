@@ -1,0 +1,8 @@
+id = 'genomicsdb-tools'
+name = 'genomicsdb-tools'
+
+homepage = 'https://www.genomicsdb.org'
+
+[[package]]
+channel = 'debian'
+name = 'genomicsdb-tools'

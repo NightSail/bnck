@@ -1,0 +1,12 @@
+id = 'buffer'
+name = 'buffer'
+
+homepage = 'https://web.archive.org/web/20031108104719/http://sunsite.org.uk/public/public/packages/buffer'
+
+[[package]]
+channel = 'debian'
+name = 'buffer'
+
+[[package]]
+channel = 'fedora'
+name = 'buffer'

@@ -1,0 +1,12 @@
+id = 'sambamba'
+name = 'sambamba'
+
+homepage = 'https://lomereiter.github.io/sambamba'
+
+[[package]]
+channel = 'debian'
+name = 'sambamba'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sambamba'

@@ -1,0 +1,16 @@
+id = 'deepin-gettext-tools'
+name = 'deepin-gettext-tools'
+
+homepage = 'https://github.com/linuxdeepin/deepin-gettext-tools'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-gettext-tools'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-gettext-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-gettext-tools'

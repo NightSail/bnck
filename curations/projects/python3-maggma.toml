@@ -1,0 +1,8 @@
+id = 'python3-maggma'
+name = 'python3-maggma'
+
+homepage = 'https://github.com/materialsproject/maggma'
+
+[[package]]
+channel = 'debian'
+name = 'python3-maggma'

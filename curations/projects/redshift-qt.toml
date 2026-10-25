@@ -1,0 +1,8 @@
+id = 'redshift-qt'
+name = 'redshift-qt'
+
+homepage = 'https://github.com/Chemrat/redshift-qt'
+
+[[package]]
+channel = 'debian'
+name = 'redshift-qt'

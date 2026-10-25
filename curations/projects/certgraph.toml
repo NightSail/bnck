@@ -1,0 +1,9 @@
+id = 'certgraph'
+name = 'certgraph'
+
+homepage = 'https://lanrat.github.io/certgraph'
+repository = 'https://github.com/lanrat/certgraph.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/certgraph'

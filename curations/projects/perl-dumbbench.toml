@@ -1,0 +1,8 @@
+id = 'perl-dumbbench'
+name = 'perl-Dumbbench'
+
+homepage = 'https://metacpan.org/release/Dumbbench'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Dumbbench'

@@ -1,0 +1,8 @@
+id = 'yp-tools'
+name = 'yp-tools'
+
+homepage = 'https://www.thkukuk.de/nis/nis/yp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'yp-tools'

@@ -1,0 +1,12 @@
+id = 'libfabric'
+name = 'libfabric'
+
+homepage = 'https://github.com/ofiwg/libfabric'
+
+[[package]]
+channel = 'fedora'
+name = 'fabtests'
+
+[[package]]
+channel = 'fedora'
+name = 'libfabric'

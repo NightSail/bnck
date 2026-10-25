@@ -1,0 +1,9 @@
+id = 'c2patool'
+name = 'c2patool'
+
+homepage = 'https://contentauthenticity.org'
+repository = 'https://github.com/contentauth/c2pa-rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c2patool'

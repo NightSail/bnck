@@ -1,0 +1,8 @@
+id = 'fcheck'
+name = 'fcheck'
+
+homepage = 'http://web.archive.org/web/20050415074059/www.geocities.com/fcheck2000'
+
+[[package]]
+channel = 'debian'
+name = 'fcheck'

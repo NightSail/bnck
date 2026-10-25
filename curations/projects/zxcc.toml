@@ -1,0 +1,8 @@
+id = 'zxcc'
+name = 'zxcc'
+
+homepage = 'https://www.seasip.info/Unix/Zxcc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zxcc'

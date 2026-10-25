@@ -4,5 +4,37 @@ name = 'ghdl'
 homepage = 'https://ghdl.github.io/ghdl'
 
 [[package]]
+channel = 'debian'
+name = 'ghdl-common'
+
+[[package]]
+channel = 'debian'
+name = 'ghdl-gcc'
+
+[[package]]
+channel = 'debian'
+name = 'ghdl-llvm'
+
+[[package]]
+channel = 'debian'
+name = 'ghdl-mcode'
+
+[[package]]
+channel = 'debian'
+name = 'ghdl-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ghdl'
+
+[[package]]
+channel = 'fedora'
+name = 'ghdl-llvm'
+
+[[package]]
+channel = 'fedora'
+name = 'ghdl-mcode'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/cask/ghdl'

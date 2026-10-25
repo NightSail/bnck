@@ -1,0 +1,12 @@
+id = 'vice-emu'
+name = 'vice-emu'
+
+homepage = 'https://vice-emu.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'vice'
+
+[[package]]
+channel = 'arch'
+name = 'vice-sdl2'

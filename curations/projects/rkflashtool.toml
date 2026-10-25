@@ -1,0 +1,13 @@
+id = 'rkflashtool'
+name = 'rkflashtool'
+
+homepage = 'https://github.com/linux-rockchip/rkflashtool'
+repository = 'https://git.code.sf.net/p/rkflashtool/Git.git'
+
+[[package]]
+channel = 'debian'
+name = 'rkflashtool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rkflashtool'

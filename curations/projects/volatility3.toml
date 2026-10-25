@@ -1,0 +1,8 @@
+id = 'volatility3'
+name = 'volatility3'
+
+homepage = 'https://github.com/volatilityfoundation/volatility3'
+
+[[package]]
+channel = 'arch'
+name = 'volatility3'

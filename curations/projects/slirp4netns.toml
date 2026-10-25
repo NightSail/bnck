@@ -1,0 +1,20 @@
+id = 'slirp4netns'
+name = 'slirp4netns'
+
+homepage = 'https://github.com/rootless-containers/slirp4netns'
+
+[[package]]
+channel = 'arch'
+name = 'slirp4netns'
+
+[[package]]
+channel = 'debian'
+name = 'slirp4netns'
+
+[[package]]
+channel = 'fedora'
+name = 'slirp4netns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slirp4netns'

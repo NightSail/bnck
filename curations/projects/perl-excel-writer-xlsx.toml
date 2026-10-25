@@ -1,0 +1,8 @@
+id = 'perl-excel-writer-xlsx'
+name = 'perl-Excel-Writer-XLSX'
+
+homepage = 'https://metacpan.org/release/Excel-Writer-XLSX'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Excel-Writer-XLSX'

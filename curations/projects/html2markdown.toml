@@ -1,0 +1,9 @@
+id = 'html2markdown'
+name = 'html2markdown'
+
+homepage = 'https://html-to-markdown.com'
+repository = 'https://github.com/JohannesKaufmann/html-to-markdown.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/html2markdown'

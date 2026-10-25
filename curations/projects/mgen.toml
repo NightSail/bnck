@@ -1,0 +1,6 @@
+id = 'mgen'
+name = 'mgen'
+
+[[package]]
+channel = 'debian'
+name = 'mgen'

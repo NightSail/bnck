@@ -1,0 +1,12 @@
+id = 'lxqt-openssh-askpass'
+name = 'lxqt-openssh-askpass'
+
+homepage = 'https://github.com/lxqt/lxqt-openssh-askpass'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-openssh-askpass'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-openssh-askpass'

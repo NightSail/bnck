@@ -1,0 +1,12 @@
+id = 'fvm'
+name = 'fvm'
+
+homepage = 'https://fvm.app'
+
+[[package]]
+channel = 'arch'
+name = 'fvm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fvm'

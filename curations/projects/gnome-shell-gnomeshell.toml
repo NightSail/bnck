@@ -1,0 +1,8 @@
+id = 'gnome-shell-gnomeshell'
+name = 'gnome-shell'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeShell'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-shell'

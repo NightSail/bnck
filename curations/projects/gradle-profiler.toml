@@ -1,0 +1,8 @@
+id = 'gradle-profiler'
+name = 'gradle-profiler'
+
+homepage = 'https://github.com/gradle/gradle-profiler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gradle-profiler'

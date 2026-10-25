@@ -1,0 +1,40 @@
+id = 'copr'
+name = 'copr'
+
+homepage = 'https://github.com/fedora-copr/copr'
+
+[[package]]
+channel = 'arch'
+name = 'copr-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-backend'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-builder'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-dist-git'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-frontend'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-keygen'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-rpmbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'copr-selinux'

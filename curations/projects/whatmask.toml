@@ -1,0 +1,8 @@
+id = 'whatmask'
+name = 'whatmask'
+
+homepage = 'http://www.laffeycomputer.com/whatmask.html'
+
+[[package]]
+channel = 'fedora'
+name = 'whatmask'

@@ -1,0 +1,8 @@
+id = 'haskell-ghcide'
+name = 'haskell-ghcide'
+
+homepage = 'https://github.com/haskell/haskell-language-server/tree/master/ghcide'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-ghcide'

@@ -1,0 +1,8 @@
+id = 'qwertone'
+name = 'qwertone'
+
+homepage = 'https://gitlab.com/azymohliad/qwertone'
+
+[[package]]
+channel = 'debian'
+name = 'qwertone'

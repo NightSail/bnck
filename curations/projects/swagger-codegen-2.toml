@@ -1,0 +1,8 @@
+id = 'swagger-codegen-2'
+name = 'swagger-codegen@2'
+
+homepage = 'https://swagger.io/tools/swagger-codegen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swagger-codegen@2'

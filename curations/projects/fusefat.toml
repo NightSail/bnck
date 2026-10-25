@@ -1,0 +1,8 @@
+id = 'fusefat'
+name = 'fusefat'
+
+homepage = 'https://github.com/virtualsquare/fusefatfs'
+
+[[package]]
+channel = 'debian'
+name = 'fusefat'

@@ -1,0 +1,8 @@
+id = 'libode-dev'
+name = 'libode-dev'
+
+homepage = 'https://www.ode.org'
+
+[[package]]
+channel = 'debian'
+name = 'libode-dev'

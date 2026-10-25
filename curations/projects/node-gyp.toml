@@ -1,0 +1,12 @@
+id = 'node-gyp'
+name = 'node-gyp'
+
+homepage = 'https://github.com/nodejs/node-gyp'
+
+[[package]]
+channel = 'arch'
+name = 'node-gyp'
+
+[[package]]
+channel = 'debian'
+name = 'node-gyp'

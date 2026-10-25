@@ -1,0 +1,8 @@
+id = 'sblg'
+name = 'sblg'
+
+homepage = 'https://kristaps.bsd.lv/sblg'
+
+[[package]]
+channel = 'fedora'
+name = 'sblg'

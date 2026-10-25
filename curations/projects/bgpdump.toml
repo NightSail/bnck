@@ -1,0 +1,16 @@
+id = 'bgpdump'
+name = 'bgpdump'
+
+homepage = 'https://github.com/RIPE-NCC/bgpdump/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'bgpdump'
+
+[[package]]
+channel = 'fedora'
+name = 'bgpdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bgpdump'

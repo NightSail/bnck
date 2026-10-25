@@ -1,0 +1,6 @@
+id = 'ethstatus'
+name = 'ethstatus'
+
+[[package]]
+channel = 'debian'
+name = 'ethstatus'

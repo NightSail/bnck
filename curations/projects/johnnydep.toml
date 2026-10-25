@@ -1,0 +1,8 @@
+id = 'johnnydep'
+name = 'johnnydep'
+
+homepage = 'https://github.com/wimglenn/johnnydep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/johnnydep'

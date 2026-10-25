@@ -1,0 +1,8 @@
+id = 'qpakman'
+name = 'qpakman'
+
+homepage = 'https://github.com/LibreQuake/qpakman'
+
+[[package]]
+channel = 'debian'
+name = 'qpakman'

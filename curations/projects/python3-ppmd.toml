@@ -1,0 +1,8 @@
+id = 'python3-ppmd'
+name = 'python3-ppmd'
+
+homepage = 'https://github.com/miurahr/ppmd'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ppmd'

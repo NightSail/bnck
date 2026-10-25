@@ -1,0 +1,8 @@
+id = 'perl-pod-stripper'
+name = 'perl-Pod-Stripper'
+
+homepage = 'https://metacpan.org/release/Pod-Stripper'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Stripper'

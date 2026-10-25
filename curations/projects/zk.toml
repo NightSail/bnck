@@ -1,0 +1,13 @@
+id = 'zk'
+name = 'zk'
+
+homepage = 'https://zk-org.github.io/zk'
+repository = 'https://github.com/zk-org/zk.git'
+
+[[package]]
+channel = 'arch'
+name = 'zk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zk'

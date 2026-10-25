@@ -1,0 +1,8 @@
+id = 'sludge-compiler'
+name = 'sludge-compiler'
+
+homepage = 'https://opensludge.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'sludge-compiler'

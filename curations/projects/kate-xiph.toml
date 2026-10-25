@@ -1,0 +1,12 @@
+id = 'kate-xiph'
+name = 'kate'
+
+homepage = 'https://gitlab.xiph.org/xiph/kate'
+
+[[package]]
+channel = 'arch'
+name = 'libkate'
+
+[[package]]
+channel = 'fedora'
+name = 'libkate-utils'

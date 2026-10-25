@@ -1,0 +1,8 @@
+id = 'scancode-toolkit'
+name = 'scancode-toolkit'
+
+homepage = 'https://scancode-toolkit.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'scancode-toolkit'

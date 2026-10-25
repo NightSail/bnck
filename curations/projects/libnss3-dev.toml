@@ -1,0 +1,8 @@
+id = 'libnss3-dev'
+name = 'libnss3-dev'
+
+homepage = 'https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS'
+
+[[package]]
+channel = 'debian'
+name = 'libnss3-dev'

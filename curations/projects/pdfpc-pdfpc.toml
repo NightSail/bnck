@@ -1,0 +1,9 @@
+id = 'pdfpc-pdfpc'
+name = 'pdfpc'
+
+homepage = 'https://pdfpc.github.io'
+repository = 'https://github.com/pdfpc/pdfpc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdfpc'

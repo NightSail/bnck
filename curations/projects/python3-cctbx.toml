@@ -1,0 +1,8 @@
+id = 'python3-cctbx'
+name = 'python3-cctbx'
+
+homepage = 'https://github.com/cctbx/cctbx_project'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cctbx'

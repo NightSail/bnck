@@ -1,0 +1,8 @@
+id = 'xml-commons-resolver'
+name = 'xml-commons-resolver'
+
+homepage = 'https://xerces.apache.org/xml-commons/components/resolver'
+
+[[package]]
+channel = 'fedora'
+name = 'xml-commons-resolver'

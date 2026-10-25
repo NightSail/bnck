@@ -1,0 +1,8 @@
+id = 'findbugs'
+name = 'findbugs'
+
+homepage = 'https://findbugs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'findbugs'

@@ -1,0 +1,12 @@
+id = 'dri'
+name = 'dri'
+
+homepage = 'https://dri.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'libdrm'
+
+[[package]]
+channel = 'fedora'
+name = 'drm-utils'

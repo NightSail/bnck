@@ -1,0 +1,16 @@
+id = 'rackup'
+name = 'rackup'
+
+homepage = 'https://github.com/rack/rackup'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rackup'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rackup'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rackup'

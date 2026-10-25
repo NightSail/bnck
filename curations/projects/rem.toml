@@ -1,0 +1,8 @@
+id = 'rem'
+name = 'rem'
+
+homepage = 'https://github.com/kykim/rem'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rem'

@@ -1,0 +1,8 @@
+id = 'lambdabot'
+name = 'lambdabot'
+
+homepage = 'https://wiki.haskell.org/Lambdabot'
+
+[[package]]
+channel = 'debian'
+name = 'lambdabot'

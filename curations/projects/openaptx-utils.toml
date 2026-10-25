@@ -1,0 +1,8 @@
+id = 'openaptx-utils'
+name = 'openaptx-utils'
+
+homepage = 'https://github.com/pali/libopenaptx'
+
+[[package]]
+channel = 'debian'
+name = 'openaptx-utils'

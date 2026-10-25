@@ -1,0 +1,8 @@
+id = 'sphde-utils'
+name = 'sphde-utils'
+
+homepage = 'https://github.com/sphde/sphde'
+
+[[package]]
+channel = 'debian'
+name = 'sphde-utils'

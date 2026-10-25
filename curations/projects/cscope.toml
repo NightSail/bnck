@@ -1,0 +1,20 @@
+id = 'cscope'
+name = 'cscope'
+
+homepage = 'https://cscope.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'cscope'
+
+[[package]]
+channel = 'debian'
+name = 'cscope'
+
+[[package]]
+channel = 'fedora'
+name = 'cscope'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cscope'

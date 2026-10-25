@@ -1,0 +1,9 @@
+id = 'kiota'
+name = 'kiota'
+
+homepage = 'https://aka.ms/kiota/docs'
+repository = 'https://github.com/microsoft/kiota.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kiota'

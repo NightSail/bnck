@@ -1,0 +1,9 @@
+id = 'tinyice'
+name = 'tinyice'
+
+homepage = 'https://datanoisetv.github.io/tinyice'
+repository = 'https://github.com/DatanoiseTV/tinyice.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinyice'

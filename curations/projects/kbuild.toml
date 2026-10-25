@@ -1,0 +1,12 @@
+id = 'kbuild'
+name = 'kBuild'
+
+homepage = 'https://svn.netlabs.org/kbuild'
+
+[[package]]
+channel = 'debian'
+name = 'kbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'kBuild'

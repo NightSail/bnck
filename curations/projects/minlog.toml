@@ -1,0 +1,8 @@
+id = 'minlog'
+name = 'minlog'
+
+homepage = 'http://www.minlog-system.de'
+
+[[package]]
+channel = 'debian'
+name = 'minlog'

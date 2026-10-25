@@ -1,0 +1,16 @@
+id = 'openiked'
+name = 'openiked'
+
+homepage = 'https://www.openiked.org'
+
+[[package]]
+channel = 'debian'
+name = 'openiked'
+
+[[package]]
+channel = 'fedora'
+name = 'openiked'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openiked'

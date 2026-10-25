@@ -1,0 +1,16 @@
+id = 'haveged'
+name = 'haveged'
+
+homepage = 'https://github.com/jirka-h/haveged'
+
+[[package]]
+channel = 'arch'
+name = 'haveged'
+
+[[package]]
+channel = 'debian'
+name = 'haveged'
+
+[[package]]
+channel = 'fedora'
+name = 'haveged'

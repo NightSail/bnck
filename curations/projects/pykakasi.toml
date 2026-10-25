@@ -1,0 +1,16 @@
+id = 'pykakasi'
+name = 'pykakasi'
+
+homepage = 'https://codeberg.org/miurahr/pykakasi'
+
+[[package]]
+channel = 'arch'
+name = 'python-pykakasi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pykakasi'
+
+[[package]]
+channel = 'fedora'
+name = 'pykakasi'

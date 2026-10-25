@@ -1,0 +1,21 @@
+id = 'datamash'
+name = 'datamash'
+
+homepage = 'https://www.gnu.org/software/datamash'
+repository = 'https://git.savannah.gnu.org/git/datamash.git'
+
+[[package]]
+channel = 'arch'
+name = 'datamash'
+
+[[package]]
+channel = 'debian'
+name = 'datamash'
+
+[[package]]
+channel = 'fedora'
+name = 'datamash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/datamash'

@@ -1,0 +1,12 @@
+id = 'dragonfly-reverb-standalone'
+name = 'dragonfly-reverb-standalone'
+
+homepage = 'https://michaelwillis.github.io/dragonfly-reverb'
+
+[[package]]
+channel = 'arch'
+name = 'dragonfly-reverb-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'dragonfly-reverb-standalone'

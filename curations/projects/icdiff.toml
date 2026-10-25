@@ -1,0 +1,13 @@
+id = 'icdiff'
+name = 'icdiff'
+
+homepage = 'https://www.jefftk.com/icdiff'
+repository = 'https://github.com/jeffkaufman/icdiff.git'
+
+[[package]]
+channel = 'debian'
+name = 'icdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icdiff'

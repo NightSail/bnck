@@ -1,0 +1,9 @@
+id = 'juju'
+name = 'juju'
+
+homepage = 'https://canonical.com/juju'
+repository = 'https://github.com/juju/juju.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/juju'

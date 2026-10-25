@@ -1,0 +1,8 @@
+id = 'python3-docformatter'
+name = 'python3-docformatter'
+
+homepage = 'https://github.com/PyCQA/docformatter'
+
+[[package]]
+channel = 'debian'
+name = 'python3-docformatter'

@@ -1,0 +1,8 @@
+id = 'vscodium'
+name = 'vscodium'
+
+homepage = 'https://github.com/VSCodium/vscodium'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/vscodium'

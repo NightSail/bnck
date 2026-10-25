@@ -1,0 +1,13 @@
+id = 'terragrunt'
+name = 'terragrunt'
+
+homepage = 'https://terragrunt.gruntwork.io'
+repository = 'https://github.com/gruntwork-io/terragrunt.git'
+
+[[package]]
+channel = 'arch'
+name = 'terragrunt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terragrunt'

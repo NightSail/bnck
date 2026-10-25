@@ -1,0 +1,9 @@
+id = 'objfw-objfw'
+name = 'objfw'
+
+homepage = 'https://objfw.nil.im'
+repository = 'https://git.nil.im/ObjFW/ObjFW.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/objfw'

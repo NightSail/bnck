@@ -1,0 +1,8 @@
+id = 'docker-debug'
+name = 'docker-debug'
+
+repository = 'https://github.com/zeromake/docker-debug.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-debug'

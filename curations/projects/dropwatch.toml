@@ -1,0 +1,12 @@
+id = 'dropwatch'
+name = 'dropwatch'
+
+homepage = 'https://github.com/nhorman/dropwatch'
+
+[[package]]
+channel = 'debian'
+name = 'dropwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'dropwatch'

@@ -1,0 +1,8 @@
+id = 'switchboard'
+name = 'switchboard'
+
+homepage = 'https://github.com/elementary/switchboard'
+
+[[package]]
+channel = 'arch'
+name = 'switchboard'

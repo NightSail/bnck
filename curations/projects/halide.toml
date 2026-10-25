@@ -1,0 +1,9 @@
+id = 'halide'
+name = 'halide'
+
+homepage = 'https://halide-lang.org'
+repository = 'https://github.com/halide/Halide.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/halide'

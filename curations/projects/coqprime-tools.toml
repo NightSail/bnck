@@ -1,0 +1,8 @@
+id = 'coqprime-tools'
+name = 'coqprime-tools'
+
+homepage = 'https://github.com/thery/coqprime'
+
+[[package]]
+channel = 'debian'
+name = 'coqprime-tools'

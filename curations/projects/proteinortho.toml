@@ -1,0 +1,12 @@
+id = 'proteinortho'
+name = 'proteinortho'
+
+homepage = 'https://gitlab.com/paulklemm_PHD/proteinortho'
+
+[[package]]
+channel = 'debian'
+name = 'proteinortho'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/proteinortho'

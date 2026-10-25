@@ -1,0 +1,8 @@
+id = 'gjh-asl-json'
+name = 'gjh-asl-json'
+
+homepage = 'https://github.com/ghackebeil/gjh_asl_json'
+
+[[package]]
+channel = 'debian'
+name = 'gjh-asl-json'

@@ -1,0 +1,8 @@
+id = 'golang-github-pierrec-lz4'
+name = 'golang-github-pierrec-lz4'
+
+homepage = 'https://github.com/pierrec/lz4'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-pierrec-lz4'

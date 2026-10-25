@@ -1,0 +1,8 @@
+id = 'lostfiles'
+name = 'lostfiles'
+
+homepage = 'https://github.com/graysky2/lostfiles'
+
+[[package]]
+channel = 'arch'
+name = 'lostfiles'

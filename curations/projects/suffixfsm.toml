@@ -1,0 +1,8 @@
+id = 'suffixfsm'
+name = 'suffixfsm'
+
+homepage = 'https://github.com/dataence/porter2'
+
+[[package]]
+channel = 'debian'
+name = 'suffixfsm'

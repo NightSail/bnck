@@ -1,0 +1,8 @@
+id = 'radioclk'
+name = 'radioclk'
+
+homepage = 'http://www.buzzard.me.uk/jonathan/radioclock.html'
+
+[[package]]
+channel = 'debian'
+name = 'radioclk'

@@ -1,0 +1,8 @@
+id = 'rust-i18n-cli'
+name = 'rust-i18n-cli'
+
+homepage = 'https://github.com/longbridge/rust-i18n'
+
+[[package]]
+channel = 'debian'
+name = 'rust-i18n-cli'

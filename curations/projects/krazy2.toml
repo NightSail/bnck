@@ -1,0 +1,8 @@
+id = 'krazy2'
+name = 'krazy2'
+
+homepage = 'http://techbase.kde.org/Development/Tutorials/Code_Checking'
+
+[[package]]
+channel = 'fedora'
+name = 'krazy2'

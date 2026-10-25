@@ -1,0 +1,9 @@
+id = 'k8sgpt'
+name = 'k8sgpt'
+
+homepage = 'https://k8sgpt.ai'
+repository = 'https://github.com/k8sgpt-ai/k8sgpt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/k8sgpt'

@@ -1,0 +1,8 @@
+id = 'llgal'
+name = 'llgal'
+
+homepage = 'http://bgoglin.free.fr/llgal'
+
+[[package]]
+channel = 'debian'
+name = 'llgal'

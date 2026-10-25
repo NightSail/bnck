@@ -1,0 +1,8 @@
+id = 'ghc-hjsmin-devel'
+name = 'ghc-hjsmin-devel'
+
+homepage = 'https://hackage.haskell.org/package/hjsmin'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-hjsmin-devel'

@@ -1,0 +1,8 @@
+id = 'libiec61883-dev'
+name = 'libiec61883-dev'
+
+homepage = 'https://ieee1394.docs.kernel.org/en/latest/libiec61883.html'
+
+[[package]]
+channel = 'debian'
+name = 'libiec61883-dev'

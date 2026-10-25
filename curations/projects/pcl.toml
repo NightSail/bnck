@@ -1,0 +1,9 @@
+id = 'pcl'
+name = 'pcl'
+
+homepage = 'https://pointclouds.org'
+repository = 'https://github.com/PointCloudLibrary/pcl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pcl'

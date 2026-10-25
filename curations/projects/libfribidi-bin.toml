@@ -1,0 +1,8 @@
+id = 'libfribidi-bin'
+name = 'libfribidi-bin'
+
+homepage = 'http://www.fribidi.org'
+
+[[package]]
+channel = 'debian'
+name = 'libfribidi-bin'

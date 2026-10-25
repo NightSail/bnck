@@ -4,5 +4,21 @@ name = 'wordgrinder'
 repository = 'https://github.com/davidgiven/wordgrinder'
 
 [[package]]
+channel = 'debian'
+name = 'wordgrinder-ncurses'
+
+[[package]]
+channel = 'debian'
+name = 'wordgrinder-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'wordgrinder'
+
+[[package]]
+channel = 'fedora'
+name = 'wordgrinder-x11'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/wordgrinder'

@@ -1,0 +1,9 @@
+id = 'fedify'
+name = 'fedify'
+
+homepage = 'https://fedify.dev/cli'
+repository = 'https://github.com/fedify-dev/fedify.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fedify'

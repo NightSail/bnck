@@ -1,0 +1,9 @@
+id = 'shellspec'
+name = 'shellspec'
+
+homepage = 'https://shellspec.info'
+repository = 'https://github.com/shellspec/shellspec.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shellspec'

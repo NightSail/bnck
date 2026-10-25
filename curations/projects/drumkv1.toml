@@ -1,0 +1,16 @@
+id = 'drumkv1'
+name = 'drumkv1'
+
+homepage = 'https://drumkv1.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'drumkv1-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'drumkv1'
+
+[[package]]
+channel = 'fedora'
+name = 'drumkv1'

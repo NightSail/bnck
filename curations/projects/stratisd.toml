@@ -1,0 +1,12 @@
+id = 'stratisd'
+name = 'stratisd'
+
+homepage = 'https://github.com/stratis-storage/stratisd'
+
+[[package]]
+channel = 'fedora'
+name = 'stratisd'
+
+[[package]]
+channel = 'fedora'
+name = 'stratisd-tools'

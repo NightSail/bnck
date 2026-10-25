@@ -1,0 +1,8 @@
+id = 'python3-surfer'
+name = 'python3-surfer'
+
+homepage = 'https://pysurfer.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-surfer'

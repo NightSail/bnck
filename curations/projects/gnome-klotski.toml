@@ -1,0 +1,12 @@
+id = 'gnome-klotski'
+name = 'gnome-klotski'
+
+homepage = 'https://wiki.gnome.org/Apps/Klotski'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-klotski'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-klotski'

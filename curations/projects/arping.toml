@@ -1,0 +1,8 @@
+id = 'arping'
+name = 'arping'
+
+homepage = 'https://github.com/ThomasHabets/arping'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arping'

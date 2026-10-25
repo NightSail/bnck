@@ -1,0 +1,12 @@
+id = 'gr-osmosdr'
+name = 'gr-osmosdr'
+
+homepage = 'https://osmocom.org/projects/gr-osmosdr/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'gr-osmosdr'
+
+[[package]]
+channel = 'fedora'
+name = 'gr-osmosdr'

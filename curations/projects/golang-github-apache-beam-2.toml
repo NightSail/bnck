@@ -1,0 +1,8 @@
+id = 'golang-github-apache-beam-2'
+name = 'golang-github-apache-beam-2'
+
+homepage = 'https://github.com/apache/beam'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-apache-beam-2'

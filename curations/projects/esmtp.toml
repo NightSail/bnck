@@ -1,0 +1,16 @@
+id = 'esmtp'
+name = 'esmtp'
+
+homepage = 'http://esmtp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'esmtp'
+
+[[package]]
+channel = 'debian'
+name = 'esmtp-run'
+
+[[package]]
+channel = 'fedora'
+name = 'esmtp'

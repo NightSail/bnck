@@ -1,0 +1,12 @@
+id = 'kde-workspace'
+name = 'kde-workspace'
+
+homepage = 'https://github.com/KDE/kde-workspace'
+
+[[package]]
+channel = 'fedora'
+name = 'kdm'
+
+[[package]]
+channel = 'fedora'
+name = 'ksystraycmd'

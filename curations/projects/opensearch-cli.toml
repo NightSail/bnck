@@ -1,0 +1,8 @@
+id = 'opensearch-cli'
+name = 'opensearch-cli'
+
+homepage = 'https://opensearch.org/docs/latest/clients/cli'
+
+[[package]]
+channel = 'arch'
+name = 'opensearch-cli'

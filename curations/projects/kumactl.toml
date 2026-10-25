@@ -1,0 +1,9 @@
+id = 'kumactl'
+name = 'kumactl'
+
+homepage = 'https://kuma.io'
+repository = 'https://github.com/kumahq/kuma.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kumactl'

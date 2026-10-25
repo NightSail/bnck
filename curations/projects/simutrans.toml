@@ -1,0 +1,13 @@
+id = 'simutrans'
+name = 'simutrans'
+
+homepage = 'https://www.simutrans.com'
+repository = 'https://github.com/simutrans/simutrans.git'
+
+[[package]]
+channel = 'arch'
+name = 'simutrans'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/simutrans'

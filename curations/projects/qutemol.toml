@@ -1,0 +1,8 @@
+id = 'qutemol'
+name = 'qutemol'
+
+homepage = 'http://qutemol.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'qutemol'

@@ -1,0 +1,16 @@
+id = 'xfsdump'
+name = 'xfsdump'
+
+homepage = 'http://xfs.org'
+
+[[package]]
+channel = 'arch'
+name = 'xfsdump'
+
+[[package]]
+channel = 'debian'
+name = 'xfsdump'
+
+[[package]]
+channel = 'fedora'
+name = 'xfsdump'

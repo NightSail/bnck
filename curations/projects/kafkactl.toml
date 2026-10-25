@@ -1,0 +1,9 @@
+id = 'kafkactl'
+name = 'kafkactl'
+
+homepage = 'https://deviceinsight.github.io/kafkactl'
+repository = 'https://github.com/deviceinsight/kafkactl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kafkactl'

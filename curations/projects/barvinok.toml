@@ -1,0 +1,8 @@
+id = 'barvinok'
+name = 'barvinok'
+
+homepage = 'https://barvinok.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'barvinok'

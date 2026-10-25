@@ -1,0 +1,24 @@
+id = 'usbguard'
+name = 'usbguard'
+
+homepage = 'https://github.com/USBGuard/usbguard'
+
+[[package]]
+channel = 'arch'
+name = 'usbguard'
+
+[[package]]
+channel = 'debian'
+name = 'usbguard'
+
+[[package]]
+channel = 'fedora'
+name = 'usbguard'
+
+[[package]]
+channel = 'fedora'
+name = 'usbguard-dbus'
+
+[[package]]
+channel = 'fedora'
+name = 'usbguard-tools'

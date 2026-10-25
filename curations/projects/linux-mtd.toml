@@ -1,0 +1,20 @@
+id = 'linux-mtd'
+name = 'linux-mtd'
+
+homepage = 'http://www.linux-mtd.infradead.org'
+
+[[package]]
+channel = 'arch'
+name = 'mtd-utils'
+
+[[package]]
+channel = 'debian'
+name = 'mtd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mtd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mtd-utils-ubi'

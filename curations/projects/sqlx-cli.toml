@@ -1,0 +1,8 @@
+id = 'sqlx-cli'
+name = 'sqlx-cli'
+
+homepage = 'https://github.com/transact-rs/sqlx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlx-cli'

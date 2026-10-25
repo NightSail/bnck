@@ -1,0 +1,12 @@
+id = 'hydrapaper'
+name = 'hydrapaper'
+
+homepage = 'https://gitlab.com/gabmus/HydraPaper'
+
+[[package]]
+channel = 'debian'
+name = 'hydrapaper'
+
+[[package]]
+channel = 'fedora'
+name = 'hydrapaper'

@@ -1,0 +1,8 @@
+id = 'draw-things-cli'
+name = 'draw-things-cli'
+
+homepage = 'https://github.com/drawthingsai/draw-things-community'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/draw-things-cli'

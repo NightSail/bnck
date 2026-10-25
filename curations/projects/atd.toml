@@ -1,0 +1,48 @@
+id = 'atd'
+name = 'atd'
+
+homepage = 'https://github.com/ahrefs/atd'
+
+[[package]]
+channel = 'debian'
+name = 'atdts'
+
+[[package]]
+channel = 'debian'
+name = 'libatd-ocaml-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libatdgen-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atd'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atdcpp'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atdd'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atdgen'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atdj'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atdpy'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atds'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-atdts'

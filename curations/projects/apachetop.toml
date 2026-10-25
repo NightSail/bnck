@@ -1,0 +1,16 @@
+id = 'apachetop'
+name = 'apachetop'
+
+homepage = 'https://github.com/tessus/apachetop'
+
+[[package]]
+channel = 'debian'
+name = 'apachetop'
+
+[[package]]
+channel = 'fedora'
+name = 'apachetop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apachetop'

@@ -1,0 +1,8 @@
+id = 'ballview'
+name = 'ballview'
+
+homepage = 'http://www.ball-project.org'
+
+[[package]]
+channel = 'debian'
+name = 'ballview'

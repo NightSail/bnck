@@ -1,0 +1,8 @@
+id = 'ft2-clone'
+name = 'ft2-clone'
+
+homepage = 'https://16-bits.org/ft2.php'
+
+[[package]]
+channel = 'arch'
+name = 'ft2-clone'

@@ -1,0 +1,16 @@
+id = 'nkf'
+name = 'nkf'
+
+homepage = 'https://github.com/nurse/nkf'
+
+[[package]]
+channel = 'debian'
+name = 'nkf'
+
+[[package]]
+channel = 'fedora'
+name = 'nkf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nkf'

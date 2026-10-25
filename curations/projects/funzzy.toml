@@ -1,0 +1,8 @@
+id = 'funzzy'
+name = 'funzzy'
+
+repository = 'https://github.com/cristianoliveira/funzzy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/funzzy'

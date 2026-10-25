@@ -1,0 +1,9 @@
+id = 'vimpc'
+name = 'vimpc'
+
+homepage = 'https://sourceforge.net/projects/vimpc'
+repository = 'https://github.com/boysetsfrog/vimpc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vimpc'

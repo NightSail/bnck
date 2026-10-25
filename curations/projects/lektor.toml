@@ -1,0 +1,8 @@
+id = 'lektor'
+name = 'lektor'
+
+homepage = 'https://www.getlektor.com'
+
+[[package]]
+channel = 'debian'
+name = 'lektor'

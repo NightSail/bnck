@@ -1,0 +1,8 @@
+id = 'puppetserver'
+name = 'puppetserver'
+
+homepage = 'https://github.com/puppetlabs/puppetserver'
+
+[[package]]
+channel = 'debian'
+name = 'puppetserver'

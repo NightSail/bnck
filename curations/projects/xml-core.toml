@@ -1,0 +1,6 @@
+id = 'xml-core'
+name = 'xml-core'
+
+[[package]]
+channel = 'debian'
+name = 'xml-core'

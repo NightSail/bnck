@@ -1,0 +1,6 @@
+id = 'baycomusb'
+name = 'baycomusb'
+
+[[package]]
+channel = 'debian'
+name = 'baycomusb'

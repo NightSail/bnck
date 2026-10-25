@@ -1,0 +1,12 @@
+id = 'kafka'
+name = 'kafka'
+
+homepage = 'https://kafka.apache.org'
+
+[[package]]
+channel = 'arch'
+name = 'kafka'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kafka'

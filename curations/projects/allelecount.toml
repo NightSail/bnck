@@ -1,0 +1,12 @@
+id = 'allelecount'
+name = 'allelecount'
+
+homepage = 'https://github.com/cancerit/alleleCount'
+
+[[package]]
+channel = 'debian'
+name = 'allelecount'
+
+[[package]]
+channel = 'debian'
+name = 'liballelecount-perl'

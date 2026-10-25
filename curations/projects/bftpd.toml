@@ -1,0 +1,8 @@
+id = 'bftpd'
+name = 'bftpd'
+
+homepage = 'http://bftpd.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'bftpd'

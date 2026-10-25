@@ -1,0 +1,6 @@
+id = 'liquidprompt'
+name = 'liquidprompt'
+
+[[package]]
+channel = 'debian'
+name = 'liquidprompt'

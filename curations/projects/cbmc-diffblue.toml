@@ -1,0 +1,9 @@
+id = 'cbmc-diffblue'
+name = 'cbmc'
+
+homepage = 'https://www.cprover.org/cbmc'
+repository = 'https://github.com/diffblue/cbmc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cbmc'

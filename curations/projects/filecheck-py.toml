@@ -1,0 +1,12 @@
+id = 'filecheck-py'
+name = 'filecheck.py'
+
+homepage = 'https://github.com/mull-project/FileCheck.py'
+
+[[package]]
+channel = 'debian'
+name = 'filecheck'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-filecheck'

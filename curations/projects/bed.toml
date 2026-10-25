@@ -1,0 +1,8 @@
+id = 'bed'
+name = 'bed'
+
+repository = 'https://github.com/itchyny/bed.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bed'

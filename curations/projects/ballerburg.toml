@@ -1,0 +1,13 @@
+id = 'ballerburg'
+name = 'ballerburg'
+
+homepage = 'https://baller.frama.io'
+repository = 'https://framagit.org/baller/ballerburg.git'
+
+[[package]]
+channel = 'fedora'
+name = 'ballerburg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ballerburg'

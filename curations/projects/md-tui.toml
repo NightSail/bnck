@@ -1,0 +1,12 @@
+id = 'md-tui'
+name = 'md-tui'
+
+homepage = 'https://github.com/henriklovhaug/md-tui'
+
+[[package]]
+channel = 'arch'
+name = 'md-tui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/md-tui'

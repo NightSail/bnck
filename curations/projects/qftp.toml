@@ -1,0 +1,8 @@
+id = 'qftp'
+name = 'qftp'
+
+homepage = 'http://nbpfaus.net/~pfau/ftplib-4'
+
+[[package]]
+channel = 'fedora'
+name = 'qftp'

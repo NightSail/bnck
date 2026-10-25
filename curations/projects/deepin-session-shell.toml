@@ -1,0 +1,12 @@
+id = 'deepin-session-shell'
+name = 'deepin-session-shell'
+
+homepage = 'https://github.com/linuxdeepin/dde-session-shell-snipe'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-session-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-session-shell'

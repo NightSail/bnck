@@ -1,0 +1,12 @@
+id = 'howdoi'
+name = 'howdoi'
+
+homepage = 'https://github.com/gleitz/howdoi'
+
+[[package]]
+channel = 'fedora'
+name = 'howdoi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/howdoi'

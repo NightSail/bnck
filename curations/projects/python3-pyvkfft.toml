@@ -1,0 +1,8 @@
+id = 'python3-pyvkfft'
+name = 'python3-pyvkfft'
+
+homepage = 'https://github.com/vincefn/pyvkfft'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyvkfft'

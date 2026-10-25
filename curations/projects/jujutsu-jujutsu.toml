@@ -1,0 +1,6 @@
+id = 'jujutsu-jujutsu'
+name = 'jujutsu'
+
+[[package]]
+channel = 'crates.io'
+name = 'jujutsu'

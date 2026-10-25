@@ -1,0 +1,8 @@
+id = 'zemberek-java-demo'
+name = 'zemberek-java-demo'
+
+homepage = 'https://github.com/ahmetaa/zemberek-nlp'
+
+[[package]]
+channel = 'debian'
+name = 'zemberek-java-demo'

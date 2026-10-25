@@ -1,0 +1,8 @@
+id = 'mpc-qt'
+name = 'mpc-qt'
+
+homepage = 'https://mpc-qt.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'mpc-qt'

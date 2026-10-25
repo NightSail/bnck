@@ -1,0 +1,8 @@
+id = 'dbus-cpp-bin'
+name = 'dbus-cpp-bin'
+
+homepage = 'https://gitlab.com/ubports/development/core/lib-cpp/dbus-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'dbus-cpp-bin'

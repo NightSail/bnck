@@ -1,0 +1,8 @@
+id = 'simple-whip-client'
+name = 'simple-whip-client'
+
+homepage = 'https://github.com/meetecho/simple-whip-client'
+
+[[package]]
+channel = 'debian'
+name = 'simple-whip-client'

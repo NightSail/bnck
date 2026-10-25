@@ -1,0 +1,8 @@
+id = 'xmpi'
+name = 'xmpi'
+
+homepage = 'https://www.dcs.ed.ac.uk/home/trollius/www.osc.edu/Lam/lam/xmpi.html'
+
+[[package]]
+channel = 'debian'
+name = 'xmpi'

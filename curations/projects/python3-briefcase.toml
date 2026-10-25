@@ -1,0 +1,8 @@
+id = 'python3-briefcase'
+name = 'python3-briefcase'
+
+homepage = 'https://github.com/beeware/briefcase'
+
+[[package]]
+channel = 'debian'
+name = 'python3-briefcase'

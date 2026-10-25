@@ -1,0 +1,21 @@
+id = 'freetds'
+name = 'freetds'
+
+homepage = 'https://www.freetds.org'
+repository = 'https://github.com/FreeTDS/freetds.git'
+
+[[package]]
+channel = 'arch'
+name = 'freetds'
+
+[[package]]
+channel = 'debian'
+name = 'freetds-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'freetds'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freetds'

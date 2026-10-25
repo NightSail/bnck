@@ -1,0 +1,6 @@
+id = 'obexftp'
+name = 'obexftp'
+
+[[package]]
+channel = 'debian'
+name = 'obexftp'

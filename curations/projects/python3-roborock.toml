@@ -1,0 +1,8 @@
+id = 'python3-roborock'
+name = 'python3-roborock'
+
+homepage = 'https://github.com/humbertogontijo/python-roborock'
+
+[[package]]
+channel = 'debian'
+name = 'python3-roborock'

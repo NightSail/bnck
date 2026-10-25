@@ -1,0 +1,8 @@
+id = 'emacs-clang-complete-async'
+name = 'emacs-clang-complete-async'
+
+repository = 'https://github.com/Golevka/emacs-clang-complete-async.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/emacs-clang-complete-async'

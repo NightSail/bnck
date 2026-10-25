@@ -1,0 +1,20 @@
+id = 'iodbc'
+name = 'iodbc'
+
+homepage = 'https://www.iodbc.org'
+
+[[package]]
+channel = 'debian'
+name = 'libiodbc2-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libiodbc'
+
+[[package]]
+channel = 'fedora'
+name = 'libiodbc-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libiodbc'

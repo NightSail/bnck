@@ -1,0 +1,8 @@
+id = 'robotcode'
+name = 'robotcode'
+
+homepage = 'https://robotcode.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/robotcode'

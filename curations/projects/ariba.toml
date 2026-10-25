@@ -1,0 +1,8 @@
+id = 'ariba'
+name = 'ariba'
+
+homepage = 'https://github.com/sanger-pathogens/ariba'
+
+[[package]]
+channel = 'debian'
+name = 'ariba'

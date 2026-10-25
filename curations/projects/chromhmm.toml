@@ -1,0 +1,8 @@
+id = 'chromhmm'
+name = 'chromhmm'
+
+homepage = 'https://compbio.mit.edu/ChromHMM'
+
+[[package]]
+channel = 'debian'
+name = 'chromhmm'

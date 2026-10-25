@@ -1,0 +1,8 @@
+id = 'fontship'
+name = 'fontship'
+
+homepage = 'https://github.com/theleagueof/fontship'
+
+[[package]]
+channel = 'debian'
+name = 'fontship'

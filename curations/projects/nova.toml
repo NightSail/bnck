@@ -1,0 +1,28 @@
+id = 'nova'
+name = 'nova'
+
+homepage = 'https://nova.app'
+
+[[package]]
+channel = 'debian'
+name = 'nova-common'
+
+[[package]]
+channel = 'debian'
+name = 'nova-compute'
+
+[[package]]
+channel = 'debian'
+name = 'nova-conductor'
+
+[[package]]
+channel = 'debian'
+name = 'nova-consoleproxy'
+
+[[package]]
+channel = 'debian'
+name = 'nova-scheduler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/nova'

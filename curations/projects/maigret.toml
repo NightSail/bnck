@@ -1,0 +1,8 @@
+id = 'maigret'
+name = 'maigret'
+
+repository = 'https://github.com/soxoj/maigret.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/maigret'

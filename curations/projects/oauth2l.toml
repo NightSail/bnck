@@ -1,0 +1,8 @@
+id = 'oauth2l'
+name = 'oauth2l'
+
+repository = 'https://github.com/google/oauth2l.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oauth2l'

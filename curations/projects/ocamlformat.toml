@@ -1,0 +1,8 @@
+id = 'ocamlformat'
+name = 'ocamlformat'
+
+homepage = 'https://github.com/ocaml-ppx/ocamlformat'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlformat'

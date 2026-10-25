@@ -1,0 +1,13 @@
+id = 'firefoxpwa'
+name = 'firefoxpwa'
+
+homepage = 'https://pwasforfirefox.filips.si'
+repository = 'https://github.com/filips123/PWAsForFirefox.git'
+
+[[package]]
+channel = 'arch'
+name = 'firefoxpwa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/firefoxpwa'

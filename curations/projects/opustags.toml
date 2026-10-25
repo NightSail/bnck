@@ -1,0 +1,12 @@
+id = 'opustags'
+name = 'opustags'
+
+homepage = 'https://github.com/fmang/opustags'
+
+[[package]]
+channel = 'debian'
+name = 'opustags'
+
+[[package]]
+channel = 'fedora'
+name = 'opustags'

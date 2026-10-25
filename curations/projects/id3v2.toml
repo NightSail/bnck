@@ -1,0 +1,20 @@
+id = 'id3v2'
+name = 'id3v2'
+
+homepage = 'https://id3v2.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'id3v2'
+
+[[package]]
+channel = 'debian'
+name = 'id3v2'
+
+[[package]]
+channel = 'fedora'
+name = 'id3v2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/id3v2'

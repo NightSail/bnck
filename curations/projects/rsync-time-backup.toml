@@ -1,0 +1,8 @@
+id = 'rsync-time-backup'
+name = 'rsync-time-backup'
+
+repository = 'https://github.com/laurent22/rsync-time-backup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsync-time-backup'

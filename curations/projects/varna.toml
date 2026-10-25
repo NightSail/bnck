@@ -1,0 +1,8 @@
+id = 'varna'
+name = 'varna'
+
+homepage = 'https://varna.lri.fr'
+
+[[package]]
+channel = 'debian'
+name = 'varna'

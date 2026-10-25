@@ -1,0 +1,8 @@
+id = 'libapache2-mod-qos'
+name = 'libapache2-mod-qos'
+
+homepage = 'https://mod-qos.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libapache2-mod-qos'

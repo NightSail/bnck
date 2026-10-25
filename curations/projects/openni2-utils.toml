@@ -1,0 +1,8 @@
+id = 'openni2-utils'
+name = 'openni2-utils'
+
+homepage = 'https://structure.io/openni'
+
+[[package]]
+channel = 'debian'
+name = 'openni2-utils'

@@ -1,0 +1,8 @@
+id = 'freesolid-devel'
+name = 'FreeSOLID-devel'
+
+homepage = 'http://sourceforge.net/projects/freesolid'
+
+[[package]]
+channel = 'fedora'
+name = 'FreeSOLID-devel'

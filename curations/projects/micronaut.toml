@@ -1,0 +1,8 @@
+id = 'micronaut'
+name = 'micronaut'
+
+homepage = 'https://micronaut.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/micronaut'

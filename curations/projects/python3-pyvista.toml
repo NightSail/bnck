@@ -1,0 +1,8 @@
+id = 'python3-pyvista'
+name = 'python3-pyvista'
+
+homepage = 'https://github.com/pyvista/pyvista'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyvista'

@@ -1,0 +1,16 @@
+id = 'wmenu'
+name = 'wmenu'
+
+homepage = 'https://codeberg.org/adnano/wmenu'
+
+[[package]]
+channel = 'arch'
+name = 'wmenu'
+
+[[package]]
+channel = 'debian'
+name = 'wmenu'
+
+[[package]]
+channel = 'fedora'
+name = 'wmenu'

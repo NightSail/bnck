@@ -1,0 +1,12 @@
+id = 'deepin-boot-maker'
+name = 'deepin-boot-maker'
+
+homepage = 'https://github.com/linuxdeepin/deepin-boot-maker'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-boot-maker'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-boot-maker'

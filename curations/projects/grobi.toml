@@ -1,0 +1,8 @@
+id = 'grobi'
+name = 'grobi'
+
+homepage = 'https://github.com/fd0/grobi'
+
+[[package]]
+channel = 'arch'
+name = 'grobi'

@@ -1,0 +1,8 @@
+id = 'sspace'
+name = 'sspace'
+
+homepage = 'https://github.com/nsoranzo/sspace_basic'
+
+[[package]]
+channel = 'debian'
+name = 'sspace'

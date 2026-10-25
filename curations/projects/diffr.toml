@@ -1,0 +1,12 @@
+id = 'diffr'
+name = 'diffr'
+
+homepage = 'https://github.com/mookid/diffr'
+
+[[package]]
+channel = 'debian'
+name = 'diffr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diffr'

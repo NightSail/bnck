@@ -1,0 +1,8 @@
+id = 'power-calibrate'
+name = 'power-calibrate'
+
+homepage = 'https://github.com/ColinIanKing/power-calibrate'
+
+[[package]]
+channel = 'debian'
+name = 'power-calibrate'

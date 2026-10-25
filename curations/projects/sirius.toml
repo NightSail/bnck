@@ -1,0 +1,6 @@
+id = 'sirius'
+name = 'sirius'
+
+[[package]]
+channel = 'fedora'
+name = 'sirius'

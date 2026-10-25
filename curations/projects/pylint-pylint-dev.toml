@@ -1,0 +1,12 @@
+id = 'pylint-pylint-dev'
+name = 'pylint'
+
+homepage = 'https://github.com/pylint-dev/pylint'
+
+[[package]]
+channel = 'fedora'
+name = 'pylint'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pylint'

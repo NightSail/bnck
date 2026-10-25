@@ -1,0 +1,8 @@
+id = 'libomxil-bellagio'
+name = 'libomxil-bellagio'
+
+homepage = 'http://omxil.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libomxil-bellagio'

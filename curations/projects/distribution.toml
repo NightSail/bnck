@@ -1,0 +1,16 @@
+id = 'distribution'
+name = 'distribution'
+
+homepage = 'https://github.com/docker/distribution'
+
+[[package]]
+channel = 'debian'
+name = 'docker-registry'
+
+[[package]]
+channel = 'fedora'
+name = 'docker-distribution'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-docker-distribution'

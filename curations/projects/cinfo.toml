@@ -1,0 +1,8 @@
+id = 'cinfo'
+name = 'cinfo'
+
+homepage = 'https://github.com/mrdotx/cinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'cinfo'

@@ -1,0 +1,8 @@
+id = 'cliam'
+name = 'cliam'
+
+repository = 'https://github.com/securisec/cliam.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cliam'

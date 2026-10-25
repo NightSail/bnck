@@ -1,0 +1,8 @@
+id = 'udfclient'
+name = 'udfclient'
+
+homepage = 'https://www.13thmonkey.org/udfclient'
+
+[[package]]
+channel = 'debian'
+name = 'udfclient'

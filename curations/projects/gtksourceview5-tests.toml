@@ -1,0 +1,8 @@
+id = 'gtksourceview5-tests'
+name = 'gtksourceview5-tests'
+
+homepage = 'https://wiki.gnome.org/Projects/GtkSourceView'
+
+[[package]]
+channel = 'fedora'
+name = 'gtksourceview5-tests'

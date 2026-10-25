@@ -1,0 +1,8 @@
+id = 'jrsonnet'
+name = 'jrsonnet'
+
+repository = 'https://github.com/deltarocks/jrsonnet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jrsonnet'

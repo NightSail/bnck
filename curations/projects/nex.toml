@@ -1,0 +1,12 @@
+id = 'nex'
+name = 'nex'
+
+homepage = 'https://github.com/blynn/nex'
+
+[[package]]
+channel = 'debian'
+name = 'nex'
+
+[[package]]
+channel = 'fedora'
+name = 'nex'

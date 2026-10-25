@@ -1,0 +1,12 @@
+id = 'ghidra'
+name = 'ghidra'
+
+homepage = 'https://github.com/NationalSecurityAgency/ghidra'
+
+[[package]]
+channel = 'arch'
+name = 'ghidra'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghidra'

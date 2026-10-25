@@ -1,0 +1,8 @@
+id = 'python-tensile'
+name = 'python-tensile'
+
+homepage = 'https://rocm.docs.amd.com/projects/Tensile/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'python-tensile'

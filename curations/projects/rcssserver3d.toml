@@ -1,0 +1,8 @@
+id = 'rcssserver3d'
+name = 'rcssserver3d'
+
+homepage = 'http://sourceforge.net/projects/simspark'
+
+[[package]]
+channel = 'fedora'
+name = 'rcssserver3d'

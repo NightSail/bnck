@@ -1,0 +1,8 @@
+id = 'opendetex'
+name = 'opendetex'
+
+homepage = 'https://github.com/pkubowicz/opendetex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opendetex'

@@ -1,0 +1,8 @@
+id = 'tnat64'
+name = 'tnat64'
+
+homepage = 'https://github.com/andrewshadura/tnat64'
+
+[[package]]
+channel = 'debian'
+name = 'tnat64'

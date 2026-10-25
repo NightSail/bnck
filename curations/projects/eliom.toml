@@ -1,0 +1,8 @@
+id = 'eliom'
+name = 'eliom'
+
+homepage = 'http://ocsigen.org/eliom'
+
+[[package]]
+channel = 'debian'
+name = 'eliom'

@@ -1,0 +1,13 @@
+id = 'toxcore'
+name = 'toxcore'
+
+homepage = 'https://tox.chat'
+repository = 'https://github.com/TokTok/c-toxcore.git'
+
+[[package]]
+channel = 'fedora'
+name = 'toxcore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/toxcore'

@@ -1,0 +1,8 @@
+id = 'ssake'
+name = 'ssake'
+
+homepage = 'https://www.bcgsc.ca/platform/bioinfo/software/ssake'
+
+[[package]]
+channel = 'debian'
+name = 'ssake'

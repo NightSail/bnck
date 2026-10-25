@@ -1,0 +1,8 @@
+id = 'ruby-install'
+name = 'ruby-install'
+
+repository = 'https://github.com/postmodern/ruby-install.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby-install'

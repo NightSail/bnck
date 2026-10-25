@@ -1,0 +1,9 @@
+id = 'befunge93'
+name = 'befunge93'
+
+homepage = 'https://catseye.tc/article/Languages.md'
+repository = 'https://github.com/catseye/Befunge-93.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/befunge93'

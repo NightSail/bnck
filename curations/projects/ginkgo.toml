@@ -1,0 +1,12 @@
+id = 'ginkgo'
+name = 'ginkgo'
+
+homepage = 'https://github.com/onsi/ginkgo'
+
+[[package]]
+channel = 'debian'
+name = 'ginkgo'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-onsi-ginkgo-2'

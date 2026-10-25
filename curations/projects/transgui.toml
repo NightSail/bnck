@@ -1,0 +1,8 @@
+id = 'transgui'
+name = 'transgui'
+
+homepage = 'https://github.com/transmission-remote-gui/transgui'
+
+[[package]]
+channel = 'debian'
+name = 'transgui'

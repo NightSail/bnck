@@ -1,0 +1,6 @@
+id = 'scim-modules-table'
+name = 'scim-modules-table'
+
+[[package]]
+channel = 'debian'
+name = 'scim-modules-table'

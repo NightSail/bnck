@@ -1,0 +1,13 @@
+id = 'odin'
+name = 'odin'
+
+homepage = 'https://odin-lang.org'
+repository = 'https://github.com/odin-lang/Odin.git'
+
+[[package]]
+channel = 'arch'
+name = 'odin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/odin'

@@ -1,0 +1,12 @@
+id = 'swami'
+name = 'swami'
+
+homepage = 'https://github.com/swami/swami'
+
+[[package]]
+channel = 'debian'
+name = 'swami'
+
+[[package]]
+channel = 'fedora'
+name = 'swami'

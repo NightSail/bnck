@@ -1,0 +1,8 @@
+id = 'ruby-prof'
+name = 'ruby-prof'
+
+homepage = 'https://github.com/ruby-prof/ruby-prof'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-prof'

@@ -1,0 +1,8 @@
+id = 'sigdigger'
+name = 'sigdigger'
+
+homepage = 'https://github.com/BatchDrake/SigDigger'
+
+[[package]]
+channel = 'arch'
+name = 'sigdigger'

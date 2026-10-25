@@ -1,0 +1,8 @@
+id = 'tutka'
+name = 'tutka'
+
+homepage = 'http://www.nongnu.org/tutka'
+
+[[package]]
+channel = 'debian'
+name = 'tutka'

@@ -1,0 +1,20 @@
+id = 'fcitx'
+name = 'fcitx'
+
+homepage = 'https://github.com/fcitx/fcitx'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx-bin'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx-devel'

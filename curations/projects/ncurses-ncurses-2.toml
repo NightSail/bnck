@@ -1,0 +1,8 @@
+id = 'ncurses-ncurses-2'
+name = 'ncurses'
+
+homepage = 'https://invisible-island.net/ncurses/announce.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ncurses'

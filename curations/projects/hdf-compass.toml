@@ -1,0 +1,8 @@
+id = 'hdf-compass'
+name = 'hdf-compass'
+
+homepage = 'https://www.hdfgroup.org/projects/compass'
+
+[[package]]
+channel = 'debian'
+name = 'hdf-compass'

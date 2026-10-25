@@ -1,0 +1,6 @@
+id = 'snmptrapfmt'
+name = 'snmptrapfmt'
+
+[[package]]
+channel = 'debian'
+name = 'snmptrapfmt'

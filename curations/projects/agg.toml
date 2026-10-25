@@ -1,0 +1,9 @@
+id = 'agg'
+name = 'agg'
+
+homepage = 'https://docs.asciinema.org/manual/agg'
+repository = 'https://github.com/asciinema/agg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/agg'

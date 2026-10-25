@@ -1,0 +1,8 @@
+id = 'gdb-gef'
+name = 'gdb-gef'
+
+homepage = 'https://github.com/hugsy/gef'
+
+[[package]]
+channel = 'fedora'
+name = 'gdb-gef'

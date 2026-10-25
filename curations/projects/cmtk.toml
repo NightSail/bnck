@@ -1,0 +1,8 @@
+id = 'cmtk'
+name = 'cmtk'
+
+homepage = 'http://www.nitrc.org/projects/cmtk'
+
+[[package]]
+channel = 'debian'
+name = 'cmtk'

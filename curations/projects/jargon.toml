@@ -1,0 +1,6 @@
+id = 'jargon'
+name = 'jargon'
+
+[[package]]
+channel = 'debian'
+name = 'jargon'

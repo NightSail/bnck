@@ -1,0 +1,8 @@
+id = 'changelogen'
+name = 'changelogen'
+
+homepage = 'https://github.com/unjs/changelogen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/changelogen'

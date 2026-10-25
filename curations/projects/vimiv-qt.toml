@@ -1,0 +1,8 @@
+id = 'vimiv-qt'
+name = 'vimiv-qt'
+
+homepage = 'https://karlch.github.io/vimiv-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'vimiv-qt'

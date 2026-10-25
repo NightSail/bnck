@@ -1,0 +1,8 @@
+id = 'tomo'
+name = 'tomo'
+
+homepage = 'https://github.com/mattbrictson/tomo'
+
+[[package]]
+channel = 'debian'
+name = 'tomo'

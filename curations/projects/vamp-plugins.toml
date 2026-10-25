@@ -1,0 +1,12 @@
+id = 'vamp-plugins'
+name = 'vamp-plugins'
+
+homepage = 'https://www.vamp-plugins.org'
+
+[[package]]
+channel = 'debian'
+name = 'vamp-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'vamp-plugin-sdk-devel'

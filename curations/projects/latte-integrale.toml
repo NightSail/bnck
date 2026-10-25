@@ -1,0 +1,8 @@
+id = 'latte-integrale'
+name = 'latte-integrale'
+
+homepage = 'https://www.math.ucdavis.edu/~latte'
+
+[[package]]
+channel = 'arch'
+name = 'latte-integrale'

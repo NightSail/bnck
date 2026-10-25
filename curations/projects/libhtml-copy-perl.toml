@@ -1,0 +1,8 @@
+id = 'libhtml-copy-perl'
+name = 'libhtml-copy-perl'
+
+homepage = 'https://metacpan.org/release/HTML-Copy'
+
+[[package]]
+channel = 'debian'
+name = 'libhtml-copy-perl'

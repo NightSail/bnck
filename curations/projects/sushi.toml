@@ -1,0 +1,16 @@
+id = 'sushi'
+name = 'sushi'
+
+homepage = 'https://gitlab.gnome.org/GNOME/sushi'
+
+[[package]]
+channel = 'arch'
+name = 'sushi'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-sushi'
+
+[[package]]
+channel = 'fedora'
+name = 'sushi'

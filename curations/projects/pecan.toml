@@ -1,0 +1,12 @@
+id = 'pecan'
+name = 'pecan'
+
+homepage = 'https://github.com/pecan/pecan'
+
+[[package]]
+channel = 'arch'
+name = 'python-pecan'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pecan'

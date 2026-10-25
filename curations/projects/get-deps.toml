@@ -1,0 +1,12 @@
+id = 'get-deps'
+name = 'get-deps'
+
+homepage = 'https://github.com/mkdocs/get-deps'
+
+[[package]]
+channel = 'debian'
+name = 'mkdocs-get-deps'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mkdocs-get-deps'

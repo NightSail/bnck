@@ -1,0 +1,8 @@
+id = 'python3-openstacksdk'
+name = 'python3-openstacksdk'
+
+homepage = 'https://opendev.org/openstack/openstacksdk'
+
+[[package]]
+channel = 'debian'
+name = 'python3-openstacksdk'

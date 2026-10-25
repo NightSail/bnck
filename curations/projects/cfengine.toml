@@ -1,0 +1,8 @@
+id = 'cfengine'
+name = 'cfengine'
+
+homepage = 'https://cfengine.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfengine'

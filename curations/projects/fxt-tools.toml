@@ -1,0 +1,8 @@
+id = 'fxt-tools'
+name = 'fxt-tools'
+
+homepage = 'https://savannah.nongnu.org/p/fkt'
+
+[[package]]
+channel = 'debian'
+name = 'fxt-tools'

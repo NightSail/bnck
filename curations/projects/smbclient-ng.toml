@@ -1,0 +1,8 @@
+id = 'smbclient-ng'
+name = 'smbclient-ng'
+
+repository = 'https://github.com/p0dalirius/smbclient-ng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smbclient-ng'

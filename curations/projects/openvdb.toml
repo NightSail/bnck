@@ -1,0 +1,20 @@
+id = 'openvdb'
+name = 'openvdb'
+
+homepage = 'http://openvdb.org'
+
+[[package]]
+channel = 'debian'
+name = 'libnanovdb-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libopenvdb-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'openvdb'
+
+[[package]]
+channel = 'fedora'
+name = 'openvdb-nanovdb'

@@ -1,0 +1,20 @@
+id = 'memtester'
+name = 'memtester'
+
+homepage = 'http://pyropus.ca/software/memtester'
+
+[[package]]
+channel = 'arch'
+name = 'memtester'
+
+[[package]]
+channel = 'debian'
+name = 'memtester'
+
+[[package]]
+channel = 'fedora'
+name = 'memtester'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/memtester'

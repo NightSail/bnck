@@ -1,0 +1,8 @@
+id = 'python3-temperusb'
+name = 'python3-temperusb'
+
+homepage = 'https://github.com/padelt/temper-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-temperusb'

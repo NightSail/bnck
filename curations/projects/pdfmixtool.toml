@@ -1,0 +1,16 @@
+id = 'pdfmixtool'
+name = 'pdfmixtool'
+
+homepage = 'https://scarpetta.eu/pdfmixtool'
+
+[[package]]
+channel = 'arch'
+name = 'pdfmixtool'
+
+[[package]]
+channel = 'debian'
+name = 'pdfmixtool'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfmixtool'

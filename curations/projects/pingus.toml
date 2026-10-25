@@ -1,0 +1,12 @@
+id = 'pingus'
+name = 'pingus'
+
+homepage = 'https://pingus.seul.org'
+
+[[package]]
+channel = 'arch'
+name = 'pingus'
+
+[[package]]
+channel = 'fedora'
+name = 'pingus'

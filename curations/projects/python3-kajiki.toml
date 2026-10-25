@@ -1,0 +1,12 @@
+id = 'python3-kajiki'
+name = 'python3-kajiki'
+
+homepage = 'https://github.com/jackrosenthal/kajiki'
+
+[[package]]
+channel = 'debian'
+name = 'python3-kajiki'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-kajiki'

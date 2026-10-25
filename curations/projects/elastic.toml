@@ -1,0 +1,8 @@
+id = 'elastic'
+name = 'elastic'
+
+homepage = 'https://apps.gnome.org/Elastic'
+
+[[package]]
+channel = 'arch'
+name = 'elastic'

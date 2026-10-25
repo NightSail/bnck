@@ -1,0 +1,8 @@
+id = 'python3-sphinx-theme-buildercli'
+name = 'python3-sphinx-theme-builder+cli'
+
+homepage = 'https://sphinx-theme-builder.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx-theme-builder+cli'

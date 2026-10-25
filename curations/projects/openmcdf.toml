@@ -1,0 +1,8 @@
+id = 'openmcdf'
+name = 'openmcdf'
+
+homepage = 'http://openmcdf.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'openmcdf'

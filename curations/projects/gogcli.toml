@@ -1,0 +1,9 @@
+id = 'gogcli'
+name = 'gogcli'
+
+homepage = 'https://gogcli.sh'
+repository = 'https://github.com/openclaw/gogcli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gogcli'

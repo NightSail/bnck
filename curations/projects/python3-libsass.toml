@@ -1,0 +1,8 @@
+id = 'python3-libsass'
+name = 'python3-libsass'
+
+homepage = 'https://github.com/dahlia/libsass-python'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-libsass'

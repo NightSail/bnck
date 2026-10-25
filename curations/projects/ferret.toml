@@ -1,0 +1,8 @@
+id = 'ferret'
+name = 'ferret'
+
+homepage = 'https://www.gnu.org/software/ferret'
+
+[[package]]
+channel = 'debian'
+name = 'ferret'

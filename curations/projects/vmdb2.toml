@@ -1,0 +1,8 @@
+id = 'vmdb2'
+name = 'vmdb2'
+
+homepage = 'https://gitlab.com/larswirzenius/vmdb2'
+
+[[package]]
+channel = 'debian'
+name = 'vmdb2'

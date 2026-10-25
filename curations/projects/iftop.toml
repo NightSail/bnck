@@ -1,0 +1,16 @@
+id = 'iftop'
+name = 'iftop'
+
+homepage = 'http://www.ex-parrot.com/~pdw/iftop'
+
+[[package]]
+channel = 'arch'
+name = 'iftop'
+
+[[package]]
+channel = 'debian'
+name = 'iftop'
+
+[[package]]
+channel = 'fedora'
+name = 'iftop'

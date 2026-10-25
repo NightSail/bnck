@@ -1,0 +1,12 @@
+id = 'munipack'
+name = 'munipack'
+
+homepage = 'https://munipack.physics.muni.cz'
+
+[[package]]
+channel = 'debian'
+name = 'munipack-cli'
+
+[[package]]
+channel = 'debian'
+name = 'munipack-gui'

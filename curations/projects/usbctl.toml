@@ -1,0 +1,8 @@
+id = 'usbctl'
+name = 'usbctl'
+
+homepage = 'https://github.com/anthraxx/usbctl'
+
+[[package]]
+channel = 'arch'
+name = 'usbctl'

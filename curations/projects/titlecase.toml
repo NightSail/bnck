@@ -1,0 +1,9 @@
+id = 'titlecase'
+name = 'titlecase'
+
+homepage = 'http://plasmasturm.org/code/titlecase'
+repository = 'https://github.com/ap/titlecase.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/titlecase'

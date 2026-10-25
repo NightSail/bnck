@@ -1,0 +1,21 @@
+id = 'xonsh'
+name = 'xonsh'
+
+homepage = 'https://xon.sh'
+repository = 'https://github.com/xonsh/xonsh.git'
+
+[[package]]
+channel = 'arch'
+name = 'xonsh'
+
+[[package]]
+channel = 'debian'
+name = 'xonsh'
+
+[[package]]
+channel = 'fedora'
+name = 'xonsh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xonsh'

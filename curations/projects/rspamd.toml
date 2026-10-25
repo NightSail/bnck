@@ -1,0 +1,12 @@
+id = 'rspamd'
+name = 'rspamd'
+
+homepage = 'https://rspamd.com'
+
+[[package]]
+channel = 'arch'
+name = 'rspamd'
+
+[[package]]
+channel = 'debian'
+name = 'rspamd'

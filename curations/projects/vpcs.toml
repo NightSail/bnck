@@ -1,0 +1,12 @@
+id = 'vpcs'
+name = 'vpcs'
+
+homepage = 'https://vpcs.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'vpcs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vpcs'

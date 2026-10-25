@@ -1,0 +1,12 @@
+id = 'python-shamir-mnemonic'
+name = 'python-shamir-mnemonic'
+
+homepage = 'https://github.com/trezor/python-shamir-mnemonic'
+
+[[package]]
+channel = 'debian'
+name = 'shamir'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-shamir-mnemonic'

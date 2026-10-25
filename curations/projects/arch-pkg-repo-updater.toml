@@ -1,0 +1,8 @@
+id = 'arch-pkg-repo-updater'
+name = 'arch-pkg-repo-updater'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/buildbtw/-/tree/main/src/bin/repo-updater'
+
+[[package]]
+channel = 'arch'
+name = 'arch-pkg-repo-updater'

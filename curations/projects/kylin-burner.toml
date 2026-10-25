@@ -1,0 +1,6 @@
+id = 'kylin-burner'
+name = 'kylin-burner'
+
+[[package]]
+channel = 'debian'
+name = 'kylin-burner'

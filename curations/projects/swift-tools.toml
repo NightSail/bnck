@@ -1,0 +1,8 @@
+id = 'swift-tools'
+name = 'swift-tools'
+
+homepage = 'https://salsa.debian.org/openstack-team/third-party/swift-tools'
+
+[[package]]
+channel = 'debian'
+name = 'swift-tools'

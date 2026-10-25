@@ -1,0 +1,8 @@
+id = 'playitagainsam'
+name = 'playitagainsam'
+
+homepage = 'https://github.com/rfk/playitagainsam'
+
+[[package]]
+channel = 'fedora'
+name = 'playitagainsam'

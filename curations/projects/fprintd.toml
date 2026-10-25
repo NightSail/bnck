@@ -6,3 +6,11 @@ homepage = 'https://fprint.freedesktop.org'
 [[package]]
 channel = 'arch'
 name = 'fprintd'
+
+[[package]]
+channel = 'debian'
+name = 'fprintd'
+
+[[package]]
+channel = 'fedora'
+name = 'fprintd'

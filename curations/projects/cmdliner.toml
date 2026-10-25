@@ -1,0 +1,12 @@
+id = 'cmdliner'
+name = 'cmdliner'
+
+homepage = 'https://erratique.ch/software/cmdliner'
+
+[[package]]
+channel = 'arch'
+name = 'ocaml-cmdliner'
+
+[[package]]
+channel = 'debian'
+name = 'libcmdliner-ocaml-dev'

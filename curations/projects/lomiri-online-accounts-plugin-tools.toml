@@ -1,0 +1,8 @@
+id = 'lomiri-online-accounts-plugin-tools'
+name = 'lomiri-online-accounts-plugin-tools'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-online-accounts-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-online-accounts-plugin-tools'

@@ -1,0 +1,12 @@
+id = 'kubeconform'
+name = 'kubeconform'
+
+repository = 'https://github.com/yannh/kubeconform.git'
+
+[[package]]
+channel = 'arch'
+name = 'kubeconform'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubeconform'

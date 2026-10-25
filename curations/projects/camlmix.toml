@@ -1,0 +1,8 @@
+id = 'camlmix'
+name = 'camlmix'
+
+homepage = 'http://mjambon.com/camlmix'
+
+[[package]]
+channel = 'debian'
+name = 'camlmix'

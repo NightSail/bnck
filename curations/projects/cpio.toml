@@ -1,0 +1,20 @@
+id = 'cpio'
+name = 'cpio'
+
+homepage = 'https://www.gnu.org/software/cpio'
+
+[[package]]
+channel = 'arch'
+name = 'cpio'
+
+[[package]]
+channel = 'debian'
+name = 'cpio'
+
+[[package]]
+channel = 'fedora'
+name = 'cpio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpio'

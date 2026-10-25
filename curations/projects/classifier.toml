@@ -1,0 +1,8 @@
+id = 'classifier'
+name = 'classifier'
+
+homepage = 'https://rubyclassifier.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/classifier'

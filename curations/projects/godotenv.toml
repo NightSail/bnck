@@ -1,0 +1,12 @@
+id = 'godotenv'
+name = 'godotenv'
+
+homepage = 'https://github.com/joho/godotenv'
+
+[[package]]
+channel = 'fedora'
+name = 'godotenv'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-joho-godotenv'

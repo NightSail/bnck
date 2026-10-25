@@ -1,0 +1,8 @@
+id = 'fastapi-fastapi'
+name = 'fastapi'
+
+homepage = 'https://fastapi.tiangolo.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastapi'

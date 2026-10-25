@@ -1,0 +1,12 @@
+id = 'module-corelist'
+name = 'Module-CoreList'
+
+homepage = 'https://metacpan.org/release/Module-CoreList'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-corelist-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-CoreList-tools'

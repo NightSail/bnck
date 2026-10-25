@@ -1,0 +1,8 @@
+id = 'fastk'
+name = 'fastk'
+
+repository = 'https://github.com/thegenemyers/FASTK.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastk'

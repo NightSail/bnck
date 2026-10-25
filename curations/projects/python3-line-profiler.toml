@@ -1,0 +1,8 @@
+id = 'python3-line-profiler'
+name = 'python3-line-profiler'
+
+homepage = 'https://github.com/pyutils/line_profiler'
+
+[[package]]
+channel = 'debian'
+name = 'python3-line-profiler'

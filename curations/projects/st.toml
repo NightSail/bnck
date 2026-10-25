@@ -4,5 +4,9 @@ name = 'st'
 repository = 'https://github.com/nferraz/st'
 
 [[package]]
+channel = 'debian'
+name = 'st-console'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/st'

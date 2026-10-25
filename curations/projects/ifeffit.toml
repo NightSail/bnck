@@ -1,0 +1,8 @@
+id = 'ifeffit'
+name = 'ifeffit'
+
+homepage = 'https://cars.uchicago.edu/ifeffit/Documentation'
+
+[[package]]
+channel = 'debian'
+name = 'ifeffit'

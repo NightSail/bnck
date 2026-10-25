@@ -1,0 +1,8 @@
+id = 'muchsync'
+name = 'muchsync'
+
+homepage = 'http://www.muchsync.org'
+
+[[package]]
+channel = 'debian'
+name = 'muchsync'

@@ -1,0 +1,8 @@
+id = 'libfastjet-dev'
+name = 'libfastjet-dev'
+
+homepage = 'http://fastjet.fr'
+
+[[package]]
+channel = 'debian'
+name = 'libfastjet-dev'

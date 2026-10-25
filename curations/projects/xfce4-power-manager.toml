@@ -1,0 +1,16 @@
+id = 'xfce4-power-manager'
+name = 'xfce4-power-manager'
+
+homepage = 'https://docs.xfce.org/xfce/xfce4-power-manager/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-power-manager'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-power-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-power-manager'

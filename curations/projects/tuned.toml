@@ -1,0 +1,12 @@
+id = 'tuned'
+name = 'tuned'
+
+homepage = 'https://github.com/redhat-performance/tuned'
+
+[[package]]
+channel = 'arch'
+name = 'tuned'
+
+[[package]]
+channel = 'arch'
+name = 'tuned-ppd'

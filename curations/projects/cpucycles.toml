@@ -1,0 +1,12 @@
+id = 'cpucycles'
+name = 'cpucycles'
+
+homepage = 'https://cpucycles.cr.yp.to'
+
+[[package]]
+channel = 'debian'
+name = 'cpucycles'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcpucycles'

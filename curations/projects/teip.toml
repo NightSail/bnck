@@ -1,0 +1,8 @@
+id = 'teip'
+name = 'teip'
+
+repository = 'https://github.com/greymd/teip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/teip'

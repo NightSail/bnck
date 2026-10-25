@@ -1,0 +1,8 @@
+id = 'llnode'
+name = 'llnode'
+
+homepage = 'https://github.com/nodejs/llnode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llnode'

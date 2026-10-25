@@ -1,0 +1,8 @@
+id = 'imessage-ruby'
+name = 'imessage-ruby'
+
+repository = 'https://github.com/linjunpop/imessage.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imessage-ruby'

@@ -1,0 +1,17 @@
+id = 'teem'
+name = 'teem'
+
+homepage = 'http://teem.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/teem/code/teem/trunk'
+
+[[package]]
+channel = 'debian'
+name = 'teem-apps'
+
+[[package]]
+channel = 'fedora'
+name = 'teem'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/teem'

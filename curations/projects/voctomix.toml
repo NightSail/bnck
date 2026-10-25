@@ -1,0 +1,12 @@
+id = 'voctomix'
+name = 'voctomix'
+
+homepage = 'https://github.com/voc/voctomix'
+
+[[package]]
+channel = 'debian'
+name = 'voctomix-core'
+
+[[package]]
+channel = 'debian'
+name = 'voctomix-gui'

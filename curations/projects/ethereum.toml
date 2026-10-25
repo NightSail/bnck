@@ -1,0 +1,9 @@
+id = 'ethereum'
+name = 'ethereum'
+
+homepage = 'https://geth.ethereum.org'
+repository = 'https://github.com/ethereum/go-ethereum.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ethereum'

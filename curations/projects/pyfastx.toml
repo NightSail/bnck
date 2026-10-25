@@ -1,0 +1,8 @@
+id = 'pyfastx'
+name = 'pyfastx'
+
+homepage = 'https://github.com/lmdu/pyfastx'
+
+[[package]]
+channel = 'debian'
+name = 'pyfastx'

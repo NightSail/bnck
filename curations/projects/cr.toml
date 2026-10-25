@@ -1,0 +1,36 @@
+id = 'cr'
+name = 'cr'
+
+homepage = 'https://cr.yp.to/djbdns.html'
+
+[[package]]
+channel = 'debian'
+name = 'axfrdns'
+
+[[package]]
+channel = 'debian'
+name = 'djbdns-conf'
+
+[[package]]
+channel = 'debian'
+name = 'djbdns-utils'
+
+[[package]]
+channel = 'debian'
+name = 'dnscache'
+
+[[package]]
+channel = 'debian'
+name = 'rbldns'
+
+[[package]]
+channel = 'debian'
+name = 'tinydns'
+
+[[package]]
+channel = 'debian'
+name = 'walldns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/djbdns'

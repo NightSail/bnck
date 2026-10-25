@@ -1,0 +1,8 @@
+id = 'repmgr-common'
+name = 'repmgr-common'
+
+homepage = 'https://www.repmgr.org'
+
+[[package]]
+channel = 'debian'
+name = 'repmgr-common'

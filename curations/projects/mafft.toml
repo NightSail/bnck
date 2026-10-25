@@ -1,0 +1,13 @@
+id = 'mafft'
+name = 'mafft'
+
+homepage = 'https://mafft.cbrc.jp/alignment/software'
+repository = 'https://gitlab.com/sysimm/mafft.git'
+
+[[package]]
+channel = 'debian'
+name = 'mafft'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mafft'

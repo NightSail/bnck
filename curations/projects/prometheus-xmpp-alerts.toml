@@ -1,0 +1,8 @@
+id = 'prometheus-xmpp-alerts'
+name = 'prometheus-xmpp-alerts'
+
+homepage = 'https://jelmer.uk/code/prometheus-xmpp-alerts'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-xmpp-alerts'

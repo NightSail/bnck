@@ -1,0 +1,8 @@
+id = 'tremotesf'
+name = 'tremotesf'
+
+homepage = 'https://github.com/equeim/tremotesf2'
+
+[[package]]
+channel = 'debian'
+name = 'tremotesf'

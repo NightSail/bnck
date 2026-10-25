@@ -1,0 +1,8 @@
+id = 'nodejs-packaging-bundler'
+name = 'nodejs-packaging-bundler'
+
+homepage = 'https://fedoraproject.org/wiki/Node.js/Packagers'
+
+[[package]]
+channel = 'fedora'
+name = 'nodejs-packaging-bundler'

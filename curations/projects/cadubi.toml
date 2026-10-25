@@ -1,0 +1,12 @@
+id = 'cadubi'
+name = 'cadubi'
+
+homepage = 'https://github.com/statico/cadubi'
+
+[[package]]
+channel = 'debian'
+name = 'cadubi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cadubi'

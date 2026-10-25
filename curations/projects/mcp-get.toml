@@ -1,0 +1,8 @@
+id = 'mcp-get'
+name = 'mcp-get'
+
+homepage = 'https://github.com/michaellatman/mcp-get'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-get'

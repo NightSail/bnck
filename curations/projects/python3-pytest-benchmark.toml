@@ -1,0 +1,8 @@
+id = 'python3-pytest-benchmark'
+name = 'python3-pytest-benchmark'
+
+homepage = 'https://pytest-benchmark.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pytest-benchmark'

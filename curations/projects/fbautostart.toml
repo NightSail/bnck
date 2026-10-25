@@ -1,0 +1,8 @@
+id = 'fbautostart'
+name = 'fbautostart'
+
+homepage = 'https://launchpad.net/fbautostart'
+
+[[package]]
+channel = 'debian'
+name = 'fbautostart'

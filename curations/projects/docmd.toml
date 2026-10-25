@@ -1,0 +1,8 @@
+id = 'docmd'
+name = 'docmd'
+
+homepage = 'https://docmd.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docmd'

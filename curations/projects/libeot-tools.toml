@@ -1,0 +1,8 @@
+id = 'libeot-tools'
+name = 'libeot-tools'
+
+homepage = 'https://github.com/umanwizard/libeot'
+
+[[package]]
+channel = 'fedora'
+name = 'libeot-tools'

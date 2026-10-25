@@ -1,0 +1,16 @@
+id = 'js-beautify'
+name = 'js-beautify'
+
+homepage = 'https://github.com/beautify-web/js-beautify'
+
+[[package]]
+channel = 'arch'
+name = 'python-cssbeautifier'
+
+[[package]]
+channel = 'arch'
+name = 'python-jsbeautifier'
+
+[[package]]
+channel = 'debian'
+name = 'jsbeautifier'

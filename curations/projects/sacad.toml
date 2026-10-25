@@ -1,0 +1,12 @@
+id = 'sacad'
+name = 'sacad'
+
+repository = 'https://github.com/desbma/sacad.git'
+
+[[package]]
+channel = 'debian'
+name = 'sacad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sacad'

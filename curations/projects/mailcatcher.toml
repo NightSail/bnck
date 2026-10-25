@@ -1,0 +1,12 @@
+id = 'mailcatcher'
+name = 'mailcatcher'
+
+homepage = 'https://mailcatcher.me'
+
+[[package]]
+channel = 'debian'
+name = 'mailcatcher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mailcatcher'

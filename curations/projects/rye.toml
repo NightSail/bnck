@@ -1,0 +1,8 @@
+id = 'rye'
+name = 'rye'
+
+homepage = 'https://rye.astral.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rye'

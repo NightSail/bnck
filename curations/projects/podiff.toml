@@ -1,0 +1,12 @@
+id = 'podiff'
+name = 'podiff'
+
+homepage = 'https://puszcza.gnu.org.ua/software/podiff'
+
+[[package]]
+channel = 'debian'
+name = 'podiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podiff'

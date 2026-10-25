@@ -1,0 +1,12 @@
+id = 'veristat'
+name = 'veristat'
+
+homepage = 'https://github.com/libbpf/veristat'
+
+[[package]]
+channel = 'debian'
+name = 'veristat'
+
+[[package]]
+channel = 'fedora'
+name = 'veristat'

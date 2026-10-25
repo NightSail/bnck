@@ -1,0 +1,16 @@
+id = 'zziplib'
+name = 'zziplib'
+
+homepage = 'https://github.com/gdraheim/zziplib'
+
+[[package]]
+channel = 'arch'
+name = 'zziplib'
+
+[[package]]
+channel = 'debian'
+name = 'zziplib-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libzzip'

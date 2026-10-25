@@ -1,0 +1,8 @@
+id = 'node-husky'
+name = 'node-husky'
+
+homepage = 'https://github.com/typicode/husky'
+
+[[package]]
+channel = 'debian'
+name = 'node-husky'

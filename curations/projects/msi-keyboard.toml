@@ -1,0 +1,8 @@
+id = 'msi-keyboard'
+name = 'msi-keyboard'
+
+homepage = 'https://github.com/bparker06/msi-keyboard'
+
+[[package]]
+channel = 'debian'
+name = 'msi-keyboard'

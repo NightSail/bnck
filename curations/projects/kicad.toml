@@ -1,0 +1,20 @@
+id = 'kicad'
+name = 'kicad'
+
+homepage = 'https://kicad.org'
+
+[[package]]
+channel = 'arch'
+name = 'kicad'
+
+[[package]]
+channel = 'debian'
+name = 'kicad'
+
+[[package]]
+channel = 'fedora'
+name = 'kicad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/kicad'

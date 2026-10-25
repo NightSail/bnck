@@ -1,0 +1,8 @@
+id = 'um'
+name = 'um'
+
+homepage = 'https://github.com/sinclairtarget/um'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/um'

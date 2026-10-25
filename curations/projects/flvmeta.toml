@@ -1,0 +1,13 @@
+id = 'flvmeta'
+name = 'flvmeta'
+
+homepage = 'https://flvmeta.com'
+repository = 'https://github.com/noirotm/flvmeta.git'
+
+[[package]]
+channel = 'debian'
+name = 'flvmeta'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flvmeta'

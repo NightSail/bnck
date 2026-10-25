@@ -1,0 +1,8 @@
+id = 'scmxx'
+name = 'scmxx'
+
+homepage = 'http://www.hendrik-sattler.de/scmxx'
+
+[[package]]
+channel = 'fedora'
+name = 'scmxx'

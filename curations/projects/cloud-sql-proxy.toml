@@ -1,0 +1,8 @@
+id = 'cloud-sql-proxy'
+name = 'cloud-sql-proxy'
+
+repository = 'https://github.com/GoogleCloudPlatform/cloud-sql-proxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloud-sql-proxy'

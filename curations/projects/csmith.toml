@@ -1,0 +1,17 @@
+id = 'csmith'
+name = 'csmith'
+
+homepage = 'https://embed.cs.utah.edu/csmith'
+repository = 'https://github.com/csmith-project/csmith.git'
+
+[[package]]
+channel = 'debian'
+name = 'csmith'
+
+[[package]]
+channel = 'fedora'
+name = 'csmith'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/csmith'

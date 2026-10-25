@@ -1,0 +1,8 @@
+id = 'rows'
+name = 'rows'
+
+homepage = 'https://github.com/turicas/rows'
+
+[[package]]
+channel = 'debian'
+name = 'rows'

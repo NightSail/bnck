@@ -1,0 +1,20 @@
+id = 'libpaper'
+name = 'libpaper'
+
+homepage = 'https://github.com/rrthomas/libpaper'
+
+[[package]]
+channel = 'arch'
+name = 'libpaper'
+
+[[package]]
+channel = 'debian'
+name = 'libpaper-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'paper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpaper'

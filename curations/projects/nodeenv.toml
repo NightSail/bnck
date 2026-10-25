@@ -1,0 +1,12 @@
+id = 'nodeenv'
+name = 'nodeenv'
+
+homepage = 'https://ekalinin.github.io/nodeenv'
+
+[[package]]
+channel = 'debian'
+name = 'nodeenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nodeenv'

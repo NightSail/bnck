@@ -1,0 +1,8 @@
+id = 'classified-ads'
+name = 'classified-ads'
+
+homepage = 'http://katiska.org/classified_ads'
+
+[[package]]
+channel = 'fedora'
+name = 'classified-ads'

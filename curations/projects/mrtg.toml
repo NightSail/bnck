@@ -1,0 +1,16 @@
+id = 'mrtg'
+name = 'mrtg'
+
+homepage = 'https://oss.oetiker.ch/mrtg'
+
+[[package]]
+channel = 'debian'
+name = 'mrtg'
+
+[[package]]
+channel = 'fedora'
+name = 'mrtg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mrtg'

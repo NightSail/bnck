@@ -1,0 +1,8 @@
+id = 'wxsvg-wxsvg'
+name = 'wxsvg'
+
+homepage = 'https://sourceforge.net/projects/wxsvg'
+
+[[package]]
+channel = 'fedora'
+name = 'wxsvg'

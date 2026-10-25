@@ -1,0 +1,20 @@
+id = 'onionshare'
+name = 'onionshare'
+
+homepage = 'https://github.com/onionshare/onionshare'
+
+[[package]]
+channel = 'arch'
+name = 'onionshare'
+
+[[package]]
+channel = 'debian'
+name = 'onionshare'
+
+[[package]]
+channel = 'debian'
+name = 'onionshare-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'onionshare'

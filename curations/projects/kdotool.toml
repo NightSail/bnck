@@ -1,0 +1,8 @@
+id = 'kdotool'
+name = 'kdotool'
+
+homepage = 'https://crates.io/crates/kdotool'
+
+[[package]]
+channel = 'fedora'
+name = 'kdotool'

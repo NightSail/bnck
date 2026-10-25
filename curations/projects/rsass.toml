@@ -1,0 +1,8 @@
+id = 'rsass'
+name = 'rsass'
+
+homepage = 'https://github.com/kaj/rsass'
+
+[[package]]
+channel = 'debian'
+name = 'rsass'

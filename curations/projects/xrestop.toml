@@ -1,0 +1,10 @@
+id = 'xrestop'
+name = 'xrestop'
+
+[[package]]
+channel = 'debian'
+name = 'xrestop'
+
+[[package]]
+channel = 'fedora'
+name = 'xrestop'

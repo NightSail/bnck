@@ -4,5 +4,13 @@ name = 'aws-vault'
 homepage = 'https://github.com/99designs/aws-vault'
 
 [[package]]
+channel = 'arch'
+name = 'aws-vault'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/cask/aws-vault-binary'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aws-vault'

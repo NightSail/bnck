@@ -1,0 +1,8 @@
+id = 'kalamine'
+name = 'kalamine'
+
+homepage = 'https://github.com/OneDeadKey/kalamine'
+
+[[package]]
+channel = 'debian'
+name = 'kalamine'

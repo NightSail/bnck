@@ -1,0 +1,8 @@
+id = 'centrifuge'
+name = 'centrifuge'
+
+homepage = 'https://ccb.jhu.edu/software/centrifuge'
+
+[[package]]
+channel = 'debian'
+name = 'centrifuge'

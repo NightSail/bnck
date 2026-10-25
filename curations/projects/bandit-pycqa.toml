@@ -1,0 +1,8 @@
+id = 'bandit-pycqa'
+name = 'bandit'
+
+repository = 'https://github.com/PyCQA/bandit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bandit'

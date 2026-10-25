@@ -1,0 +1,8 @@
+id = 'bsp'
+name = 'bsp'
+
+homepage = 'http://games.moria.org.uk/doom/bsp'
+
+[[package]]
+channel = 'fedora'
+name = 'bsp'

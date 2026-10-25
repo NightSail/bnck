@@ -1,0 +1,8 @@
+id = 'xephem'
+name = 'xephem'
+
+homepage = 'https://xephem.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'xephem'

@@ -1,0 +1,8 @@
+id = 'odiff'
+name = 'odiff'
+
+repository = 'https://github.com/dmtrKovalenko/odiff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/odiff'

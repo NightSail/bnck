@@ -1,0 +1,8 @@
+id = 'addrwatch'
+name = 'addrwatch'
+
+homepage = 'https://github.com/fln/addrwatch'
+
+[[package]]
+channel = 'fedora'
+name = 'addrwatch'

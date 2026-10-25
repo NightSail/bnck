@@ -1,0 +1,8 @@
+id = 'tailor'
+name = 'tailor'
+
+homepage = 'https://sleekbyte.github.io/tailor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tailor'

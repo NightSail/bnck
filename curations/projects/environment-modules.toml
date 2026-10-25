@@ -1,0 +1,8 @@
+id = 'environment-modules'
+name = 'environment-modules'
+
+homepage = 'https://envmodules.io'
+
+[[package]]
+channel = 'arch'
+name = 'environment-modules'

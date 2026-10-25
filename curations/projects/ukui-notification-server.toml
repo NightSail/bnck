@@ -1,0 +1,8 @@
+id = 'ukui-notification-server'
+name = 'ukui-notification-server'
+
+homepage = 'https://gitee.com/openkylin/ukui-notification.git'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-notification-server'

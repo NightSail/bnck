@@ -1,0 +1,8 @@
+id = 'email2trac'
+name = 'email2trac'
+
+homepage = 'https://gitlab.com/surfsara/email2trac'
+
+[[package]]
+channel = 'fedora'
+name = 'email2trac'

@@ -1,0 +1,8 @@
+id = 'python-jsonpointer'
+name = 'python-jsonpointer'
+
+homepage = 'https://python-json-pointer.readthedocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-jsonpointer'

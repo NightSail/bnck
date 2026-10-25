@@ -1,0 +1,8 @@
+id = 'dh-nss'
+name = 'dh-nss'
+
+homepage = 'https://salsa.debian.org/gioele/dh-nss'
+
+[[package]]
+channel = 'debian'
+name = 'dh-nss'

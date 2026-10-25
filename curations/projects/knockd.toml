@@ -1,0 +1,8 @@
+id = 'knockd'
+name = 'knockd'
+
+homepage = 'https://github.com/jvinet/knock'
+
+[[package]]
+channel = 'arch'
+name = 'knockd'

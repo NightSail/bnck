@@ -1,0 +1,20 @@
+id = 'libstatgrab'
+name = 'libstatgrab'
+
+homepage = 'https://www.i-scream.org/libstatgrab'
+
+[[package]]
+channel = 'arch'
+name = 'libstatgrab'
+
+[[package]]
+channel = 'fedora'
+name = 'libstatgrab-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'saidar'
+
+[[package]]
+channel = 'fedora'
+name = 'statgrab'

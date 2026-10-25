@@ -1,0 +1,8 @@
+id = 'tilp2'
+name = 'tilp2'
+
+homepage = 'https://github.com/debrouxl/tilp_and_gfm'
+
+[[package]]
+channel = 'debian'
+name = 'tilp2'

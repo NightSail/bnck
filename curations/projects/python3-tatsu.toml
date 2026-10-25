@@ -1,0 +1,12 @@
+id = 'python3-tatsu'
+name = 'python3-tatsu'
+
+homepage = 'https://github.com/neogeny/TatSu'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tatsu'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tatsu'

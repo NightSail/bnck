@@ -1,0 +1,588 @@
+id = 'llvm-llvm'
+name = 'llvm'
+
+homepage = 'https://llvm.org'
+
+[[package]]
+channel = 'arch'
+name = 'llvm'
+
+[[package]]
+channel = 'arch'
+name = 'llvm18'
+
+[[package]]
+channel = 'arch'
+name = 'llvm19'
+
+[[package]]
+channel = 'arch'
+name = 'llvm20'
+
+[[package]]
+channel = 'arch'
+name = 'llvm21'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-17'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-18'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-19'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-21'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-22'
+
+[[package]]
+channel = 'debian'
+name = 'bolt-23'
+
+[[package]]
+channel = 'debian'
+name = 'clang-17'
+
+[[package]]
+channel = 'debian'
+name = 'clang-18'
+
+[[package]]
+channel = 'debian'
+name = 'clang-19'
+
+[[package]]
+channel = 'debian'
+name = 'clang-21'
+
+[[package]]
+channel = 'debian'
+name = 'clang-22'
+
+[[package]]
+channel = 'debian'
+name = 'clang-23'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format-17'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format-18'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format-19'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format-21'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format-22'
+
+[[package]]
+channel = 'debian'
+name = 'clang-format-23'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy-17'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy-18'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy-19'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy-21'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy-22'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tidy-23'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools-17'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools-18'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools-19'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools-21'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools-22'
+
+[[package]]
+channel = 'debian'
+name = 'clang-tools-23'
+
+[[package]]
+channel = 'debian'
+name = 'clangd-17'
+
+[[package]]
+channel = 'debian'
+name = 'clangd-18'
+
+[[package]]
+channel = 'debian'
+name = 'clangd-19'
+
+[[package]]
+channel = 'debian'
+name = 'clangd-21'
+
+[[package]]
+channel = 'debian'
+name = 'clangd-22'
+
+[[package]]
+channel = 'debian'
+name = 'clangd-23'
+
+[[package]]
+channel = 'debian'
+name = 'flang-17'
+
+[[package]]
+channel = 'debian'
+name = 'flang-18'
+
+[[package]]
+channel = 'debian'
+name = 'flang-19'
+
+[[package]]
+channel = 'debian'
+name = 'flang-21'
+
+[[package]]
+channel = 'debian'
+name = 'flang-22'
+
+[[package]]
+channel = 'debian'
+name = 'flang-23'
+
+[[package]]
+channel = 'debian'
+name = 'liboffload-19-dev'
+
+[[package]]
+channel = 'debian'
+name = 'liboffload-21-dev'
+
+[[package]]
+channel = 'debian'
+name = 'liboffload-22-dev'
+
+[[package]]
+channel = 'debian'
+name = 'liboffload-23-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libomp-17-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libomp-18-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libomp-19-dev'
+
+[[package]]
+channel = 'debian'
+name = 'lld-17'
+
+[[package]]
+channel = 'debian'
+name = 'lld-18'
+
+[[package]]
+channel = 'debian'
+name = 'lld-19'
+
+[[package]]
+channel = 'debian'
+name = 'lld-21'
+
+[[package]]
+channel = 'debian'
+name = 'lld-22'
+
+[[package]]
+channel = 'debian'
+name = 'lld-23'
+
+[[package]]
+channel = 'debian'
+name = 'lldb-17'
+
+[[package]]
+channel = 'debian'
+name = 'lldb-18'
+
+[[package]]
+channel = 'debian'
+name = 'lldb-19'
+
+[[package]]
+channel = 'debian'
+name = 'lldb-21'
+
+[[package]]
+channel = 'debian'
+name = 'lldb-22'
+
+[[package]]
+channel = 'debian'
+name = 'lldb-23'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-17'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-17-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-17-tools'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-18'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-18-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-18-tools'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-19'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-19-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-19-tools'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-21'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-21-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-21-tools'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-22'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-22-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-22-tools'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-23'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-23-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'llvm-23-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mlir-17-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mlir-18-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mlir-19-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mlir-21-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mlir-22-tools'
+
+[[package]]
+channel = 'debian'
+name = 'mlir-23-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'clang'
+
+[[package]]
+channel = 'fedora'
+name = 'clang-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'clang-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'clang-tools-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'clang15'
+
+[[package]]
+channel = 'fedora'
+name = 'clang17'
+
+[[package]]
+channel = 'fedora'
+name = 'clang17-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'clang17-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'clang17-tools-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'clang18'
+
+[[package]]
+channel = 'fedora'
+name = 'clang18-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'clang18-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'clang18-tools-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'clang19'
+
+[[package]]
+channel = 'fedora'
+name = 'clang19-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'clang19-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'clang19-tools-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'clang20'
+
+[[package]]
+channel = 'fedora'
+name = 'clang20-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'clang20-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'clang20-tools-extra'
+
+[[package]]
+channel = 'fedora'
+name = 'git-clang-format'
+
+[[package]]
+channel = 'fedora'
+name = 'git-clang-format17'
+
+[[package]]
+channel = 'fedora'
+name = 'git-clang-format18'
+
+[[package]]
+channel = 'fedora'
+name = 'git-clang-format19'
+
+[[package]]
+channel = 'fedora'
+name = 'git-clang-format20'
+
+[[package]]
+channel = 'fedora'
+name = 'lld'
+
+[[package]]
+channel = 'fedora'
+name = 'lld17'
+
+[[package]]
+channel = 'fedora'
+name = 'lld18'
+
+[[package]]
+channel = 'fedora'
+name = 'lld19'
+
+[[package]]
+channel = 'fedora'
+name = 'lld20'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm-test'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm11'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm12'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm13'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm14'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm15'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm17'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm18'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm19'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm19-test'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm20'
+
+[[package]]
+channel = 'fedora'
+name = 'llvm20-test'
+
+[[package]]
+channel = 'fedora'
+name = 'mlir-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-lit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@14'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@15'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@16'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@17'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@18'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@19'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@20'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@21'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/llvm@22'

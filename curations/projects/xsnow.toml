@@ -1,0 +1,8 @@
+id = 'xsnow'
+name = 'xsnow'
+
+homepage = 'https://sourceforge.net/projects/xsnow'
+
+[[package]]
+channel = 'fedora'
+name = 'xsnow'

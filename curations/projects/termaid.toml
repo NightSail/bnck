@@ -1,0 +1,8 @@
+id = 'termaid'
+name = 'termaid'
+
+homepage = 'https://github.com/fasouto/termaid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/termaid'

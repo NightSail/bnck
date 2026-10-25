@@ -1,0 +1,8 @@
+id = 'opentimelineio'
+name = 'opentimelineio'
+
+homepage = 'http://opentimeline.io'
+
+[[package]]
+channel = 'arch'
+name = 'opentimelineio'

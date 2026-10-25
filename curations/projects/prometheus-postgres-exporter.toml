@@ -1,0 +1,12 @@
+id = 'prometheus-postgres-exporter'
+name = 'prometheus-postgres-exporter'
+
+homepage = 'https://github.com/prometheus-community/postgres_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-postgres-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-postgres-exporter'

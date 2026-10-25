@@ -1,0 +1,12 @@
+id = 'hyx'
+name = 'hyx'
+
+homepage = 'https://yx7.cc/code'
+
+[[package]]
+channel = 'debian'
+name = 'hyx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hyx'

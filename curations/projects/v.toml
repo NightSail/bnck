@@ -1,0 +1,8 @@
+id = 'v'
+name = 'v'
+
+repository = 'https://github.com/rupa/v.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/v'

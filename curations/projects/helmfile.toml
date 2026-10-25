@@ -1,0 +1,12 @@
+id = 'helmfile'
+name = 'helmfile'
+
+repository = 'https://github.com/helmfile/helmfile.git'
+
+[[package]]
+channel = 'arch'
+name = 'helmfile'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helmfile'

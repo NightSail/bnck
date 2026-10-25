@@ -1,0 +1,8 @@
+id = 'hip-runtime-nvidia'
+name = 'hip-runtime-nvidia'
+
+homepage = 'https://rocm.docs.amd.com/projects/HIP/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'hip-runtime-nvidia'

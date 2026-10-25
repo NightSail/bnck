@@ -1,0 +1,8 @@
+id = 'pdftk-java'
+name = 'pdftk-java'
+
+repository = 'https://gitlab.com/pdftk-java/pdftk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdftk-java'

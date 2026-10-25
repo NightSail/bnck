@@ -1,0 +1,8 @@
+id = 'coteditor'
+name = 'coteditor'
+
+homepage = 'https://coteditor.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/coteditor'

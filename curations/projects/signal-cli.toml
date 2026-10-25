@@ -1,0 +1,8 @@
+id = 'signal-cli'
+name = 'signal-cli'
+
+homepage = 'https://github.com/AsamK/signal-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/signal-cli'

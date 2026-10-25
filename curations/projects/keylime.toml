@@ -1,0 +1,28 @@
+id = 'keylime'
+name = 'keylime'
+
+homepage = 'https://github.com/keylime/keylime'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-base'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-registrar'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-tenant'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'keylime-verifier'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-keylime'

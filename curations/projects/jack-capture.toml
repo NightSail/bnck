@@ -1,0 +1,8 @@
+id = 'jack-capture'
+name = 'jack-capture'
+
+homepage = 'https://github.com/kmatheussen/jack_capture'
+
+[[package]]
+channel = 'debian'
+name = 'jack-capture'

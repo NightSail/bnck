@@ -1,0 +1,12 @@
+id = 'zita-mu1'
+name = 'zita-mu1'
+
+homepage = 'https://kokkinizita.linuxaudio.org/linuxaudio/zita-mu1-doc/quickguide.html'
+
+[[package]]
+channel = 'arch'
+name = 'zita-mu1'
+
+[[package]]
+channel = 'debian'
+name = 'zita-mu1'

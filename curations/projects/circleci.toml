@@ -1,0 +1,9 @@
+id = 'circleci'
+name = 'circleci'
+
+homepage = 'https://cli.circleci.com'
+repository = 'https://github.com/CircleCI-Public/circleci-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/circleci'

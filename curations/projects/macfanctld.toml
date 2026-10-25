@@ -1,0 +1,8 @@
+id = 'macfanctld'
+name = 'macfanctld'
+
+homepage = 'https://github.com/MikaelStrom/macfanctld'
+
+[[package]]
+channel = 'debian'
+name = 'macfanctld'

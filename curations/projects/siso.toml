@@ -1,0 +1,8 @@
+id = 'siso'
+name = 'siso'
+
+homepage = 'https://chromium.googlesource.com/build/+/refs/heads/main/siso'
+
+[[package]]
+channel = 'debian'
+name = 'siso'

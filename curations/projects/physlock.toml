@@ -1,0 +1,8 @@
+id = 'physlock'
+name = 'physlock'
+
+homepage = 'https://github.com/muennich/physlock'
+
+[[package]]
+channel = 'debian'
+name = 'physlock'

@@ -1,0 +1,8 @@
+id = 'dockerize'
+name = 'dockerize'
+
+repository = 'https://github.com/jwilder/dockerize.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockerize'

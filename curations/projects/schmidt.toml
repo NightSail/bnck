@@ -1,0 +1,16 @@
+id = 'schmidt'
+name = '~schmidt'
+
+homepage = 'https://www.dre.vanderbilt.edu/~schmidt/ACE.html'
+
+[[package]]
+channel = 'debian'
+name = 'ace-gperf'
+
+[[package]]
+channel = 'debian'
+name = 'ace-netsvcs'
+
+[[package]]
+channel = 'debian'
+name = 'mpc-ace'

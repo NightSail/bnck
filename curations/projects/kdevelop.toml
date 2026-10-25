@@ -1,0 +1,20 @@
+id = 'kdevelop'
+name = 'kdevelop'
+
+homepage = 'http://www.kdevelop.org'
+
+[[package]]
+channel = 'arch'
+name = 'kdevelop'
+
+[[package]]
+channel = 'arch'
+name = 'kdevelop-pg-qt'
+
+[[package]]
+channel = 'debian'
+name = 'kdevelop'
+
+[[package]]
+channel = 'fedora'
+name = 'kdevelop'

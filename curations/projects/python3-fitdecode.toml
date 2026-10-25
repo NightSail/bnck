@@ -1,0 +1,8 @@
+id = 'python3-fitdecode'
+name = 'python3-fitdecode'
+
+homepage = 'https://github.com/polyvertex/fitdecode'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fitdecode'

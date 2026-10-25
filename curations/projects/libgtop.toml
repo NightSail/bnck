@@ -1,0 +1,8 @@
+id = 'libgtop'
+name = 'libgtop'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libgtop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgtop'

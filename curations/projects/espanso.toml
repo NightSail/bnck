@@ -1,0 +1,8 @@
+id = 'espanso'
+name = 'espanso'
+
+homepage = 'https://espanso.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/espanso'

@@ -1,0 +1,8 @@
+id = 'ssh-cron'
+name = 'ssh-cron'
+
+homepage = 'https://fbb-git.gitlab.io/ssh-cron'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-cron'

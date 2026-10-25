@@ -1,0 +1,6 @@
+id = 'binkd'
+name = 'binkd'
+
+[[package]]
+channel = 'debian'
+name = 'binkd'

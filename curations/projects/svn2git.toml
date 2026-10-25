@@ -1,0 +1,8 @@
+id = 'svn2git'
+name = 'svn2git'
+
+homepage = 'https://github.com/nirvdrum/svn2git'
+
+[[package]]
+channel = 'debian'
+name = 'svn2git'

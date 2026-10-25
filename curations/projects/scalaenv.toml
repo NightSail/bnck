@@ -1,0 +1,8 @@
+id = 'scalaenv'
+name = 'scalaenv'
+
+repository = 'https://github.com/scalaenv/scalaenv.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scalaenv'

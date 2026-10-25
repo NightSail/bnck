@@ -1,0 +1,12 @@
+id = 'gabedit'
+name = 'gabedit'
+
+homepage = 'https://gabedit.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'gabedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gabedit'

@@ -1,0 +1,6 @@
+id = 'git-dpm'
+name = 'git-dpm'
+
+[[package]]
+channel = 'debian'
+name = 'git-dpm'

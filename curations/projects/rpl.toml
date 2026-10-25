@@ -1,0 +1,16 @@
+id = 'rpl'
+name = 'rpl'
+
+homepage = 'https://github.com/rrthomas/rpl'
+
+[[package]]
+channel = 'debian'
+name = 'rpl'
+
+[[package]]
+channel = 'fedora'
+name = 'rpl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpl'

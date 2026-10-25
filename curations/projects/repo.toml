@@ -1,0 +1,17 @@
+id = 'repo'
+name = 'repo'
+
+homepage = 'https://android.googlesource.com/tools/repo'
+repository = 'https://gerrit.googlesource.com/git-repo.git'
+
+[[package]]
+channel = 'arch'
+name = 'repo'
+
+[[package]]
+channel = 'fedora'
+name = 'repo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/repo'

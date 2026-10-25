@@ -1,0 +1,8 @@
+id = 'tmatrix'
+name = 'tmatrix'
+
+homepage = 'https://github.com/M4444/TMatrix'
+
+[[package]]
+channel = 'debian'
+name = 'tmatrix'

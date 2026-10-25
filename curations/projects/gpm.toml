@@ -1,0 +1,16 @@
+id = 'gpm'
+name = 'gpm'
+
+homepage = 'https://www.nico.schottelius.org/software/gpm'
+
+[[package]]
+channel = 'arch'
+name = 'gpm'
+
+[[package]]
+channel = 'debian'
+name = 'gpm'
+
+[[package]]
+channel = 'fedora'
+name = 'gpm'

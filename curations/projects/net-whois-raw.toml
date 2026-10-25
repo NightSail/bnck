@@ -1,0 +1,12 @@
+id = 'net-whois-raw'
+name = 'Net-Whois-Raw'
+
+homepage = 'https://metacpan.org/release/Net-Whois-Raw'
+
+[[package]]
+channel = 'debian'
+name = 'libnet-whois-raw-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'pwhois'

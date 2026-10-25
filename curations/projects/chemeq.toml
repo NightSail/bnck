@@ -1,0 +1,6 @@
+id = 'chemeq'
+name = 'chemeq'
+
+[[package]]
+channel = 'debian'
+name = 'chemeq'

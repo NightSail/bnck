@@ -1,0 +1,9 @@
+id = 'systemd-systemd-2'
+name = 'systemd'
+
+homepage = 'https://systemd.io'
+repository = 'https://github.com/systemd/systemd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/systemd'

@@ -1,0 +1,16 @@
+id = 'os-prober'
+name = 'os-prober'
+
+homepage = 'https://joeyh.name/code/os-prober'
+
+[[package]]
+channel = 'arch'
+name = 'os-prober'
+
+[[package]]
+channel = 'debian'
+name = 'os-prober'
+
+[[package]]
+channel = 'fedora'
+name = 'os-prober'

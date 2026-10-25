@@ -1,0 +1,8 @@
+id = 'volumeicon-alsa'
+name = 'volumeicon-alsa'
+
+homepage = 'http://nullwise.com/volumeicon.html'
+
+[[package]]
+channel = 'debian'
+name = 'volumeicon-alsa'

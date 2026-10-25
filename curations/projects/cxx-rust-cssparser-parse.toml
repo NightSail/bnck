@@ -1,0 +1,8 @@
+id = 'cxx-rust-cssparser-parse'
+name = 'cxx-rust-cssparser-parse'
+
+homepage = 'https://invent.kde.org/libraries/cxx-rust-cssparser'
+
+[[package]]
+channel = 'debian'
+name = 'cxx-rust-cssparser-parse'

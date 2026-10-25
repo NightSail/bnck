@@ -1,0 +1,12 @@
+id = 'plasma-sdk'
+name = 'plasma-sdk'
+
+homepage = 'https://invent.kde.org/plasma/plasma-sdk'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-sdk'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-sdk'

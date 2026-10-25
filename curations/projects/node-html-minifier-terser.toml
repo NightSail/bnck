@@ -1,0 +1,8 @@
+id = 'node-html-minifier-terser'
+name = 'node-html-minifier-terser'
+
+homepage = 'https://github.com/terser/html-minifier-terser'
+
+[[package]]
+channel = 'debian'
+name = 'node-html-minifier-terser'

@@ -1,0 +1,12 @@
+id = 'epiphany'
+name = 'epiphany'
+
+homepage = 'https://apps.gnome.org/Epiphany'
+
+[[package]]
+channel = 'arch'
+name = 'epiphany'
+
+[[package]]
+channel = 'debian'
+name = 'epiphany-browser'

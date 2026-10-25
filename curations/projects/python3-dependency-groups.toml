@@ -1,0 +1,12 @@
+id = 'python3-dependency-groups'
+name = 'python3-dependency-groups'
+
+homepage = 'https://dependency-groups.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dependency-groups'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dependency-groups'

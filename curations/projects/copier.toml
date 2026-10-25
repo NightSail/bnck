@@ -1,0 +1,8 @@
+id = 'copier'
+name = 'copier'
+
+homepage = 'https://copier.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/copier'

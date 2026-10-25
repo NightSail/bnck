@@ -1,0 +1,8 @@
+id = 'rpm-git-tag-sort'
+name = 'rpm-git-tag-sort'
+
+homepage = 'https://pagure.io/rpm-git-tag-sort'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm-git-tag-sort'

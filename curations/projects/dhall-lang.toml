@@ -1,0 +1,20 @@
+id = 'dhall-lang'
+name = 'dhall-lang'
+
+homepage = 'https://dhall-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'dhall'
+
+[[package]]
+channel = 'arch'
+name = 'dhall-bash'
+
+[[package]]
+channel = 'arch'
+name = 'dhall-json'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dhall'

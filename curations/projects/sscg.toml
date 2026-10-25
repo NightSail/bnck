@@ -1,0 +1,16 @@
+id = 'sscg'
+name = 'sscg'
+
+homepage = 'https://github.com/sgallagher/sscg'
+
+[[package]]
+channel = 'arch'
+name = 'sscg'
+
+[[package]]
+channel = 'debian'
+name = 'sscg'
+
+[[package]]
+channel = 'fedora'
+name = 'sscg'

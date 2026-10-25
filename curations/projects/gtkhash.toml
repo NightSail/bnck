@@ -1,0 +1,12 @@
+id = 'gtkhash'
+name = 'gtkhash'
+
+homepage = 'https://gtkhash.org'
+
+[[package]]
+channel = 'debian'
+name = 'gtkhash'
+
+[[package]]
+channel = 'fedora'
+name = 'gtkhash'

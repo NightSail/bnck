@@ -1,0 +1,13 @@
+id = 'exercism'
+name = 'exercism'
+
+homepage = 'https://exercism.io/cli'
+repository = 'https://github.com/exercism/cli.git'
+
+[[package]]
+channel = 'fedora'
+name = 'exercism'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exercism'

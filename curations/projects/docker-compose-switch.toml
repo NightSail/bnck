@@ -1,0 +1,8 @@
+id = 'docker-compose-switch'
+name = 'docker-compose-switch'
+
+homepage = 'https://github.com/docker/compose-switch'
+
+[[package]]
+channel = 'fedora'
+name = 'docker-compose-switch'

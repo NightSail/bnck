@@ -1,0 +1,8 @@
+id = 'pysubs2'
+name = 'pysubs2'
+
+homepage = 'https://github.com/tkarabela/pysubs2'
+
+[[package]]
+channel = 'debian'
+name = 'pysubs2'

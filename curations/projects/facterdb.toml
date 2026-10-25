@@ -1,0 +1,8 @@
+id = 'facterdb'
+name = 'facterdb'
+
+homepage = 'https://github.com/voxpupuli/facterdb'
+
+[[package]]
+channel = 'debian'
+name = 'facterdb'

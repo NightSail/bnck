@@ -1,0 +1,8 @@
+id = 'ruby-ruby-memcheck'
+name = 'ruby-ruby_memcheck'
+
+homepage = 'https://github.com/Shopify/ruby_memcheck'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-ruby_memcheck'

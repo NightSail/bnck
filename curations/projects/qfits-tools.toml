@@ -1,0 +1,8 @@
+id = 'qfits-tools'
+name = 'qfits-tools'
+
+homepage = 'http://www.eso.org/sci/software/eclipse/qfits'
+
+[[package]]
+channel = 'debian'
+name = 'qfits-tools'

@@ -1,0 +1,20 @@
+id = 'baobab'
+name = 'baobab'
+
+homepage = 'https://apps.gnome.org/Baobab'
+
+[[package]]
+channel = 'arch'
+name = 'baobab'
+
+[[package]]
+channel = 'debian'
+name = 'baobab'
+
+[[package]]
+channel = 'fedora'
+name = 'baobab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/baobab'

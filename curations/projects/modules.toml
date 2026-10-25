@@ -1,0 +1,16 @@
+id = 'modules'
+name = 'modules'
+
+homepage = 'https://modules.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'environment-modules'
+
+[[package]]
+channel = 'fedora'
+name = 'environment-modules'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/modules'

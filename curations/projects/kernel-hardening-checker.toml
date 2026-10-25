@@ -1,0 +1,12 @@
+id = 'kernel-hardening-checker'
+name = 'kernel-hardening-checker'
+
+homepage = 'https://github.com/a13xp0p0v/kernel-hardening-checker'
+
+[[package]]
+channel = 'arch'
+name = 'kernel-hardening-checker'
+
+[[package]]
+channel = 'debian'
+name = 'kernel-hardening-checker'

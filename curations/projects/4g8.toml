@@ -1,0 +1,6 @@
+id = '4g8'
+name = '4g8'
+
+[[package]]
+channel = 'debian'
+name = '4g8'

@@ -1,0 +1,12 @@
+id = 'cosmic-screenshot'
+name = 'cosmic-screenshot'
+
+homepage = 'https://github.com/pop-os/cosmic-screenshot'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-screenshot'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-screenshot'

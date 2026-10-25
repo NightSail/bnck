@@ -1,0 +1,20 @@
+id = 'renameutils'
+name = 'renameutils'
+
+homepage = 'https://www.nongnu.org/renameutils'
+
+[[package]]
+channel = 'arch'
+name = 'renameutils'
+
+[[package]]
+channel = 'debian'
+name = 'renameutils'
+
+[[package]]
+channel = 'fedora'
+name = 'renameutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/renameutils'

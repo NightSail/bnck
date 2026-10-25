@@ -1,0 +1,10 @@
+id = 'tfdocgen'
+name = 'tfdocgen'
+
+[[package]]
+channel = 'debian'
+name = 'tfdocgen'
+
+[[package]]
+channel = 'fedora'
+name = 'tfdocgen'

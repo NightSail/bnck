@@ -1,0 +1,20 @@
+id = 'tinyproxy'
+name = 'tinyproxy'
+
+homepage = 'https://tinyproxy.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'tinyproxy'
+
+[[package]]
+channel = 'debian'
+name = 'tinyproxy-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'tinyproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinyproxy'

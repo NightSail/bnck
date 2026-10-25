@@ -1,0 +1,8 @@
+id = 'prometheus-bind-exporter'
+name = 'prometheus-bind-exporter'
+
+homepage = 'https://github.com/prometheus-community/bind_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-bind-exporter'

@@ -1,0 +1,13 @@
+id = 'okta-aws-cli'
+name = 'okta-aws-cli'
+
+homepage = 'https://github.com/okta-awscli/okta-awscli'
+repository = 'https://github.com/okta/okta-aws-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/okta-aws-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/okta-awscli'

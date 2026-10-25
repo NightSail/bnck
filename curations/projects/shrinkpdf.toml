@@ -1,0 +1,8 @@
+id = 'shrinkpdf'
+name = 'shrinkpdf'
+
+homepage = 'http://www.alfredklomp.com/programming/shrinkpdf'
+
+[[package]]
+channel = 'fedora'
+name = 'shrinkpdf'

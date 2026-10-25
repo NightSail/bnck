@@ -1,0 +1,12 @@
+id = 'theecflowpre-processor'
+name = 'The+ECFLOW+Pre-processor'
+
+homepage = 'https://software.ecmwf.int/wiki/display/ECFLOW/The+ECFLOW+Pre-processor'
+
+[[package]]
+channel = 'debian'
+name = 'ecflow-client'
+
+[[package]]
+channel = 'debian'
+name = 'ecflow-server'

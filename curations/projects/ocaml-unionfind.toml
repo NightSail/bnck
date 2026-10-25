@@ -1,0 +1,8 @@
+id = 'ocaml-unionfind'
+name = 'ocaml-unionfind'
+
+homepage = 'https://gitlab.inria.fr/fpottier/unionfind'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-unionfind'

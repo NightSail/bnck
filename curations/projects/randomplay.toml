@@ -1,0 +1,6 @@
+id = 'randomplay'
+name = 'randomplay'
+
+[[package]]
+channel = 'debian'
+name = 'randomplay'

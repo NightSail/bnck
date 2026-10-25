@@ -1,0 +1,8 @@
+id = 'csb'
+name = 'csb'
+
+homepage = 'https://github.com/csb-toolbox/CSB'
+
+[[package]]
+channel = 'debian'
+name = 'csb'

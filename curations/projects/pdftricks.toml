@@ -1,0 +1,8 @@
+id = 'pdftricks'
+name = 'pdftricks'
+
+homepage = 'https://github.com/muriloventuroso/pdftricks'
+
+[[package]]
+channel = 'arch'
+name = 'pdftricks'

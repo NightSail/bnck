@@ -1,0 +1,8 @@
+id = 'rust-bindgen'
+name = 'rust-bindgen'
+
+homepage = 'https://github.com/rust-lang/rust-bindgen'
+
+[[package]]
+channel = 'arch'
+name = 'rust-bindgen'

@@ -1,0 +1,16 @@
+id = 'rss2email'
+name = 'rss2email'
+
+homepage = 'https://github.com/rss2email/rss2email'
+
+[[package]]
+channel = 'arch'
+name = 'rss2email'
+
+[[package]]
+channel = 'debian'
+name = 'rss2email'
+
+[[package]]
+channel = 'fedora'
+name = 'rss2email'

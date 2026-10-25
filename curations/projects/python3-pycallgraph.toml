@@ -1,0 +1,8 @@
+id = 'python3-pycallgraph'
+name = 'python3-pycallgraph'
+
+homepage = 'https://github.com/daneads/pycallgraph2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pycallgraph'

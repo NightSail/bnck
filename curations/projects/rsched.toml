@@ -1,0 +1,8 @@
+id = 'rsched'
+name = 'rsched'
+
+homepage = 'https://github.com/masoncl/rsched'
+
+[[package]]
+channel = 'debian'
+name = 'rsched'

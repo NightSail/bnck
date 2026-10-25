@@ -1,0 +1,16 @@
+id = 'libiio'
+name = 'libiio'
+
+homepage = 'https://github.com/analogdevicesinc/libiio'
+
+[[package]]
+channel = 'arch'
+name = 'libiio'
+
+[[package]]
+channel = 'debian'
+name = 'iiod'
+
+[[package]]
+channel = 'debian'
+name = 'libiio-utils'

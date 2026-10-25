@@ -1,0 +1,12 @@
+id = 'pinball'
+name = 'pinball'
+
+homepage = 'http://pinball.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'pinball'
+
+[[package]]
+channel = 'fedora'
+name = 'pinball-devel'

@@ -1,0 +1,8 @@
+id = 'bcoin'
+name = 'bcoin'
+
+repository = 'https://github.com/bcoin-org/bcoin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bcoin'

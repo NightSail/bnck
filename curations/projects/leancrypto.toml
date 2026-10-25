@@ -1,0 +1,8 @@
+id = 'leancrypto'
+name = 'leancrypto'
+
+homepage = 'https://leancrypto.org'
+
+[[package]]
+channel = 'arch'
+name = 'leancrypto'

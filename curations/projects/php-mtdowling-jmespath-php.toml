@@ -1,0 +1,8 @@
+id = 'php-mtdowling-jmespath-php'
+name = 'php-mtdowling-jmespath-php'
+
+homepage = 'https://github.com/jmespath/jmespath.php'
+
+[[package]]
+channel = 'fedora'
+name = 'php-mtdowling-jmespath-php'

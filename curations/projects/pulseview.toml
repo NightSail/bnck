@@ -1,0 +1,12 @@
+id = 'pulseview'
+name = 'pulseview'
+
+homepage = 'https://sigrok.org/wiki/Main_Page'
+
+[[package]]
+channel = 'arch'
+name = 'pulseview'
+
+[[package]]
+channel = 'debian'
+name = 'pulseview'

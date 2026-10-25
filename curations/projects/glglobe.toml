@@ -1,0 +1,8 @@
+id = 'glglobe'
+name = 'glglobe'
+
+homepage = 'http://www.geocities.com/harpin_floh/glglobe_page.html'
+
+[[package]]
+channel = 'fedora'
+name = 'glglobe'

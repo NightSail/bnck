@@ -1,0 +1,8 @@
+id = 'rmux'
+name = 'rmux'
+
+homepage = 'https://rmux.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmux'

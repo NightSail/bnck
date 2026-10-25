@@ -1,0 +1,12 @@
+id = 'html-html5-parser'
+name = 'HTML-HTML5-Parser'
+
+homepage = 'https://metacpan.org/release/HTML-HTML5-Parser'
+
+[[package]]
+channel = 'debian'
+name = 'libhtml-html5-parser-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-HTML5-Parser'

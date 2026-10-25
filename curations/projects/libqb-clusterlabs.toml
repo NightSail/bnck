@@ -1,0 +1,12 @@
+id = 'libqb-clusterlabs'
+name = 'libqb'
+
+homepage = 'https://github.com/clusterlabs/libqb/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'doxygen2man'
+
+[[package]]
+channel = 'debian'
+name = 'libqb-tools'

@@ -1,0 +1,8 @@
+id = 'progman'
+name = 'progman'
+
+homepage = 'https://github.com/jcs/progman'
+
+[[package]]
+channel = 'fedora'
+name = 'progman'

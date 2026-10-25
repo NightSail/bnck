@@ -1,0 +1,8 @@
+id = 'hledger-iadd'
+name = 'hledger-iadd'
+
+homepage = 'https://github.com/hpdeifel/hledger-iadd'
+
+[[package]]
+channel = 'arch'
+name = 'hledger-iadd'

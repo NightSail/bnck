@@ -1,0 +1,16 @@
+id = 'liferea'
+name = 'liferea'
+
+homepage = 'https://lzone.de/liferea'
+
+[[package]]
+channel = 'arch'
+name = 'liferea'
+
+[[package]]
+channel = 'debian'
+name = 'liferea'
+
+[[package]]
+channel = 'fedora'
+name = 'liferea'

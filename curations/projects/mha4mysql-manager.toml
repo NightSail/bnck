@@ -1,0 +1,8 @@
+id = 'mha4mysql-manager'
+name = 'mha4mysql-manager'
+
+homepage = 'https://github.com/yoshinorim/mha4mysql-manager'
+
+[[package]]
+channel = 'debian'
+name = 'mha4mysql-manager'

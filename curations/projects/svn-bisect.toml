@@ -1,0 +1,8 @@
+id = 'svn-bisect'
+name = 'svn-bisect'
+
+homepage = 'https://metacpan.org/release/App-SVN-Bisect'
+
+[[package]]
+channel = 'fedora'
+name = 'svn-bisect'

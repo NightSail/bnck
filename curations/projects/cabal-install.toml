@@ -1,0 +1,21 @@
+id = 'cabal-install'
+name = 'cabal-install'
+
+homepage = 'https://hackage.haskell.org/package/cabal-install'
+repository = 'https://github.com/haskell/cabal.git'
+
+[[package]]
+channel = 'arch'
+name = 'cabal-install'
+
+[[package]]
+channel = 'debian'
+name = 'cabal-install'
+
+[[package]]
+channel = 'fedora'
+name = 'cabal-install'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cabal-install'

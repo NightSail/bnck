@@ -1,0 +1,12 @@
+id = 'xwayland-run'
+name = 'xwayland-run'
+
+homepage = 'https://gitlab.freedesktop.org/ofourdan/xwayland-run'
+
+[[package]]
+channel = 'debian'
+name = 'xwayland-run'
+
+[[package]]
+channel = 'fedora'
+name = 'xwayland-run'

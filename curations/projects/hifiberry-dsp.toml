@@ -1,0 +1,8 @@
+id = 'hifiberry-dsp'
+name = 'hifiberry-dsp'
+
+homepage = 'https://github.com/hifiberry/hifiberry-dsp'
+
+[[package]]
+channel = 'debian'
+name = 'hifiberry-dsp'

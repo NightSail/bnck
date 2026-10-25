@@ -1,0 +1,8 @@
+id = 'aamath'
+name = 'aamath'
+
+homepage = 'https://web.archive.org/web/20260501180020/http://fuse.superglue.se/aamath'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aamath'

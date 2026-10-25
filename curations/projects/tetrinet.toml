@@ -1,0 +1,8 @@
+id = 'tetrinet'
+name = 'tetrinet'
+
+homepage = 'http://tetrinet.or.cz'
+
+[[package]]
+channel = 'arch'
+name = 'tetrinet'

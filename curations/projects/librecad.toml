@@ -1,0 +1,16 @@
+id = 'librecad'
+name = 'librecad'
+
+homepage = 'https://www.librecad.org'
+
+[[package]]
+channel = 'arch'
+name = 'librecad'
+
+[[package]]
+channel = 'debian'
+name = 'librecad'
+
+[[package]]
+channel = 'fedora'
+name = 'librecad'

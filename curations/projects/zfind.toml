@@ -1,0 +1,12 @@
+id = 'zfind'
+name = 'zfind'
+
+repository = 'https://github.com/laktak/zfind.git'
+
+[[package]]
+channel = 'debian'
+name = 'zfind'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zfind'

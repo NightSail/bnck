@@ -1,0 +1,8 @@
+id = 'aegean'
+name = 'aegean'
+
+homepage = 'https://standage.github.io/AEGeAn'
+
+[[package]]
+channel = 'debian'
+name = 'aegean'

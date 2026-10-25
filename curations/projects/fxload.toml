@@ -1,0 +1,12 @@
+id = 'fxload'
+name = 'fxload'
+
+homepage = 'http://sourceforge.net/projects/linux-hotplug'
+
+[[package]]
+channel = 'debian'
+name = 'fxload'
+
+[[package]]
+channel = 'fedora'
+name = 'fxload'

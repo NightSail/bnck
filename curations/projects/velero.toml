@@ -1,0 +1,12 @@
+id = 'velero'
+name = 'velero'
+
+homepage = 'https://velero.io'
+
+[[package]]
+channel = 'arch'
+name = 'velero'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/velero'

@@ -1,0 +1,12 @@
+id = 'bsh'
+name = 'bsh'
+
+homepage = 'http://www.beanshell.org'
+
+[[package]]
+channel = 'debian'
+name = 'bsh'
+
+[[package]]
+channel = 'fedora'
+name = 'bsh'

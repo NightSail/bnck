@@ -1,0 +1,8 @@
+id = 'spotify-launcher'
+name = 'spotify-launcher'
+
+homepage = 'https://github.com/kpcyrd/spotify-launcher'
+
+[[package]]
+channel = 'arch'
+name = 'spotify-launcher'

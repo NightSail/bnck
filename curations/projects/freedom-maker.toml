@@ -1,0 +1,8 @@
+id = 'freedom-maker'
+name = 'freedom-maker'
+
+homepage = 'https://freedombox.org'
+
+[[package]]
+channel = 'debian'
+name = 'freedom-maker'

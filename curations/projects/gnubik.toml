@@ -1,0 +1,8 @@
+id = 'gnubik'
+name = 'gnubik'
+
+homepage = 'http://www.gnu.org/software/gnubik'
+
+[[package]]
+channel = 'fedora'
+name = 'gnubik'

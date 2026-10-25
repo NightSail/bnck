@@ -1,0 +1,6 @@
+id = 'ftpwatch'
+name = 'ftpwatch'
+
+[[package]]
+channel = 'debian'
+name = 'ftpwatch'

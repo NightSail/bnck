@@ -1,0 +1,8 @@
+id = 'asahi-nvram-crates'
+name = 'asahi-nvram'
+
+homepage = 'https://crates.io/crates/asahi-nvram'
+
+[[package]]
+channel = 'fedora'
+name = 'asahi-nvram'

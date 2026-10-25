@@ -1,0 +1,12 @@
+id = 'packetq'
+name = 'packetq'
+
+homepage = 'https://www.dns-oarc.net/tools/packetq'
+
+[[package]]
+channel = 'debian'
+name = 'packetq'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/packetq'

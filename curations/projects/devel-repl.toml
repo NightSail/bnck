@@ -1,0 +1,12 @@
+id = 'devel-repl'
+name = 'Devel-REPL'
+
+homepage = 'https://metacpan.org/release/Devel-REPL'
+
+[[package]]
+channel = 'debian'
+name = 'libdevel-repl-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Devel-REPL'

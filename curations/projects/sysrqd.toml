@@ -1,0 +1,8 @@
+id = 'sysrqd'
+name = 'sysrqd'
+
+homepage = 'https://github.com/jd/sysrqd'
+
+[[package]]
+channel = 'debian'
+name = 'sysrqd'

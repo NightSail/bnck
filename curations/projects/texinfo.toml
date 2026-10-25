@@ -1,0 +1,36 @@
+id = 'texinfo'
+name = 'texinfo'
+
+homepage = 'https://www.gnu.org/software/texinfo'
+
+[[package]]
+channel = 'arch'
+name = 'texinfo'
+
+[[package]]
+channel = 'debian'
+name = 'info'
+
+[[package]]
+channel = 'debian'
+name = 'install-info'
+
+[[package]]
+channel = 'debian'
+name = 'texinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'info'
+
+[[package]]
+channel = 'fedora'
+name = 'texinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'texinfo-tex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/texinfo'

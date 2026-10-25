@@ -1,0 +1,16 @@
+id = 'kweather'
+name = 'kweather'
+
+homepage = 'https://apps.kde.org/kweather'
+
+[[package]]
+channel = 'arch'
+name = 'kweather'
+
+[[package]]
+channel = 'debian'
+name = 'kweather'
+
+[[package]]
+channel = 'fedora'
+name = 'kweather'

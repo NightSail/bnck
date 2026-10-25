@@ -1,0 +1,17 @@
+id = 'nzbget'
+name = 'nzbget'
+
+homepage = 'https://nzbget.com'
+repository = 'https://github.com/nzbgetcom/nzbget.git'
+
+[[package]]
+channel = 'arch'
+name = 'nzbget'
+
+[[package]]
+channel = 'debian'
+name = 'nzbget'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nzbget'

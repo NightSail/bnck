@@ -1,0 +1,9 @@
+id = 'treefrog'
+name = 'treefrog'
+
+homepage = 'https://www.treefrogframework.org'
+repository = 'https://github.com/treefrogframework/treefrog-framework.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/treefrog'

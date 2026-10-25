@@ -1,0 +1,8 @@
+id = 'bubblefishymon'
+name = 'bubblefishymon'
+
+homepage = 'https://github.com/JNRowe/bfm'
+
+[[package]]
+channel = 'debian'
+name = 'bubblefishymon'

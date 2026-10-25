@@ -1,0 +1,8 @@
+id = 'installation-birthday'
+name = 'installation-birthday'
+
+homepage = 'https://chris-lamb.co.uk/projects/installation-birthday'
+
+[[package]]
+channel = 'debian'
+name = 'installation-birthday'

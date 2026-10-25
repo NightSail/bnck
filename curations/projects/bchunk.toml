@@ -1,0 +1,21 @@
+id = 'bchunk'
+name = 'bchunk'
+
+homepage = 'http://he.fi/bchunk'
+repository = 'https://github.com/hessu/bchunk.git'
+
+[[package]]
+channel = 'arch'
+name = 'bchunk'
+
+[[package]]
+channel = 'debian'
+name = 'bchunk'
+
+[[package]]
+channel = 'fedora'
+name = 'bchunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bchunk'

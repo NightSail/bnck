@@ -1,0 +1,20 @@
+id = 'xtide'
+name = 'xtide'
+
+homepage = 'http://www.flaterco.com/xtide'
+
+[[package]]
+channel = 'fedora'
+name = 'tcd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'tideEditor'
+
+[[package]]
+channel = 'fedora'
+name = 'xtide'
+
+[[package]]
+channel = 'fedora'
+name = 'xtide-common'

@@ -1,0 +1,12 @@
+id = 'mp3check'
+name = 'mp3check'
+
+homepage = 'https://code.google.com/archive/p/mp3check'
+
+[[package]]
+channel = 'debian'
+name = 'mp3check'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3check'

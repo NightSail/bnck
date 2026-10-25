@@ -1,0 +1,8 @@
+id = 'zincati'
+name = 'zincati'
+
+homepage = 'https://crates.io/crates/zincati'
+
+[[package]]
+channel = 'fedora'
+name = 'zincati'

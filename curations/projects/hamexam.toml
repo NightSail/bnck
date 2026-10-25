@@ -1,0 +1,6 @@
+id = 'hamexam'
+name = 'hamexam'
+
+[[package]]
+channel = 'debian'
+name = 'hamexam'

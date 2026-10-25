@@ -1,0 +1,8 @@
+id = 'gdf-tools'
+name = 'gdf-tools'
+
+homepage = 'https://github.com/mbillingr/libgdf'
+
+[[package]]
+channel = 'debian'
+name = 'gdf-tools'

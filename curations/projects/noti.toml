@@ -1,0 +1,8 @@
+id = 'noti'
+name = 'noti'
+
+repository = 'https://codeberg.org/roble/noti.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/noti'

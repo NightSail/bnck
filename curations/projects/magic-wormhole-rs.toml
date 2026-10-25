@@ -1,0 +1,8 @@
+id = 'magic-wormhole-rs'
+name = 'magic-wormhole.rs'
+
+repository = 'https://github.com/magic-wormhole/magic-wormhole.rs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/magic-wormhole.rs'

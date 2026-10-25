@@ -1,0 +1,8 @@
+id = 'python3-nxtomomill'
+name = 'python3-nxtomomill'
+
+homepage = 'https://gitlab.esrf.fr/tomotools/nxtomomill'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nxtomomill'

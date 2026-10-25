@@ -1,0 +1,20 @@
+id = 'kde-dev-utils'
+name = 'kde-dev-utils'
+
+homepage = 'https://invent.kde.org/sdk/kde-dev-utils'
+
+[[package]]
+channel = 'debian'
+name = 'kpartloader'
+
+[[package]]
+channel = 'debian'
+name = 'kuiviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'kpartloader'
+
+[[package]]
+channel = 'fedora'
+name = 'kuiviewer'

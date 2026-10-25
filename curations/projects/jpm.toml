@@ -1,0 +1,8 @@
+id = 'jpm'
+name = 'jpm'
+
+homepage = 'https://github.com/janet-lang/jpm'
+
+[[package]]
+channel = 'arch'
+name = 'jpm'

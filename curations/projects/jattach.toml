@@ -1,0 +1,8 @@
+id = 'jattach'
+name = 'jattach'
+
+homepage = 'https://github.com/apangin/jattach'
+
+[[package]]
+channel = 'debian'
+name = 'jattach'

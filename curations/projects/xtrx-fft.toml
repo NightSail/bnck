@@ -1,0 +1,8 @@
+id = 'xtrx-fft'
+name = 'xtrx-fft'
+
+homepage = 'https://github.com/xtrx-sdr/libxtrx'
+
+[[package]]
+channel = 'debian'
+name = 'xtrx-fft'

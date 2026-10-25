@@ -1,0 +1,12 @@
+id = 'xandikos'
+name = 'xandikos'
+
+homepage = 'https://www.xandikos.org'
+
+[[package]]
+channel = 'arch'
+name = 'xandikos'
+
+[[package]]
+channel = 'debian'
+name = 'xandikos'

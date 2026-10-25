@@ -1,0 +1,8 @@
+id = 'gorm-app'
+name = 'gorm.app'
+
+homepage = 'http://www.gnustep.org/experience/Gorm.html'
+
+[[package]]
+channel = 'debian'
+name = 'gorm.app'

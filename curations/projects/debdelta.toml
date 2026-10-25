@@ -1,0 +1,8 @@
+id = 'debdelta'
+name = 'debdelta'
+
+homepage = 'http://debdelta.debian.net'
+
+[[package]]
+channel = 'debian'
+name = 'debdelta'

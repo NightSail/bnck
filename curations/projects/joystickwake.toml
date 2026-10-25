@@ -1,0 +1,8 @@
+id = 'joystickwake'
+name = 'joystickwake'
+
+homepage = 'https://codeberg.org/forestix/joystickwake'
+
+[[package]]
+channel = 'debian'
+name = 'joystickwake'

@@ -1,0 +1,8 @@
+id = 'wuppiefuzz'
+name = 'wuppiefuzz'
+
+homepage = 'https://github.com/TNO-S3/WuppieFuzz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wuppiefuzz'

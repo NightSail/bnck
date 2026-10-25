@@ -1,0 +1,12 @@
+id = 'opentype-sanitizer'
+name = 'opentype-sanitizer'
+
+homepage = 'https://github.com/khaledhosny/ots'
+
+[[package]]
+channel = 'debian'
+name = 'opentype-sanitizer'
+
+[[package]]
+channel = 'fedora'
+name = 'opentype-sanitizer'

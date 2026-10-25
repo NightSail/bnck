@@ -1,0 +1,8 @@
+id = 'videotrans'
+name = 'videotrans'
+
+homepage = 'http://videotrans.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'videotrans'

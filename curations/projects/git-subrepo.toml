@@ -1,0 +1,12 @@
+id = 'git-subrepo'
+name = 'git-subrepo'
+
+repository = 'https://github.com/ingydotnet/git-subrepo.git'
+
+[[package]]
+channel = 'debian'
+name = 'git-subrepo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-subrepo'

@@ -1,0 +1,8 @@
+id = 'zoekt'
+name = 'zoekt'
+
+homepage = 'https://github.com/sourcegraph/zoekt'
+
+[[package]]
+channel = 'arch'
+name = 'zoekt'

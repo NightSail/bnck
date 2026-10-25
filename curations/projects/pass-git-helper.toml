@@ -1,0 +1,12 @@
+id = 'pass-git-helper'
+name = 'pass-git-helper'
+
+homepage = 'https://github.com/languitar/pass-git-helper'
+
+[[package]]
+channel = 'debian'
+name = 'pass-git-helper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pass-git-helper'

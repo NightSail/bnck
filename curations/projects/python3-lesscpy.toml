@@ -1,0 +1,12 @@
+id = 'python3-lesscpy'
+name = 'python3-lesscpy'
+
+homepage = 'https://pypi.python.org/pypi/lesscpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-lesscpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-lesscpy'

@@ -1,0 +1,20 @@
+id = 'libxmlb'
+name = 'libxmlb'
+
+repository = 'https://github.com/hughsie/libxmlb.git'
+
+[[package]]
+channel = 'arch'
+name = 'libxmlb'
+
+[[package]]
+channel = 'debian'
+name = 'libxmlb-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libxmlb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxmlb'

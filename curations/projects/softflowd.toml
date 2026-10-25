@@ -1,0 +1,8 @@
+id = 'softflowd'
+name = 'softflowd'
+
+homepage = 'https://github.com/irino/softflowd'
+
+[[package]]
+channel = 'debian'
+name = 'softflowd'

@@ -1,0 +1,12 @@
+id = 'mythes'
+name = 'mythes'
+
+homepage = 'https://github.com/hunspell/mythes'
+
+[[package]]
+channel = 'arch'
+name = 'libmythes'
+
+[[package]]
+channel = 'fedora'
+name = 'mythes-devel'

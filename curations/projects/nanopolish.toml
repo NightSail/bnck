@@ -1,0 +1,8 @@
+id = 'nanopolish'
+name = 'nanopolish'
+
+homepage = 'https://github.com/jts/nanopolish'
+
+[[package]]
+channel = 'debian'
+name = 'nanopolish'

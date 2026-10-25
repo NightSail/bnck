@@ -1,0 +1,8 @@
+id = 'fantasdic'
+name = 'fantasdic'
+
+homepage = 'http://www.gnome.org/projects/fantasdic'
+
+[[package]]
+channel = 'fedora'
+name = 'fantasdic'

@@ -1,0 +1,8 @@
+id = 'ladspalist'
+name = 'ladspalist'
+
+homepage = 'https://github.com/supercollider/sc3-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'ladspalist'

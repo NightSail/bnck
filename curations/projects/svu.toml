@@ -1,0 +1,8 @@
+id = 'svu'
+name = 'svu'
+
+repository = 'https://github.com/caarlos0/svu.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svu'

@@ -1,0 +1,12 @@
+id = 'icu-site'
+name = 'icu'
+
+homepage = 'http://site.icu-project.org'
+
+[[package]]
+channel = 'fedora'
+name = 'icu'
+
+[[package]]
+channel = 'fedora'
+name = 'libicu-devel'

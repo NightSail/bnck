@@ -1,0 +1,16 @@
+id = 'corectrl'
+name = 'corectrl'
+
+homepage = 'https://gitlab.com/corectrl/corectrl'
+
+[[package]]
+channel = 'arch'
+name = 'corectrl'
+
+[[package]]
+channel = 'debian'
+name = 'corectrl'
+
+[[package]]
+channel = 'fedora'
+name = 'corectrl'

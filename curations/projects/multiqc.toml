@@ -1,0 +1,8 @@
+id = 'multiqc'
+name = 'multiqc'
+
+homepage = 'https://multiqc.info'
+
+[[package]]
+channel = 'debian'
+name = 'multiqc'

@@ -1,0 +1,8 @@
+id = 'fontmatrix'
+name = 'fontmatrix'
+
+homepage = 'https://github.com/eniac111/fontmatrix'
+
+[[package]]
+channel = 'debian'
+name = 'fontmatrix'

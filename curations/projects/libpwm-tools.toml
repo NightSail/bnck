@@ -1,0 +1,6 @@
+id = 'libpwm-tools'
+name = 'libpwm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libpwm-tools'

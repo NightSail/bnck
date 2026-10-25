@@ -1,0 +1,8 @@
+id = 'python3-renderspec'
+name = 'python3-renderspec'
+
+homepage = 'http://docs.openstack.org/developer/renderspec'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-renderspec'

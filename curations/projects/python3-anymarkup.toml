@@ -1,0 +1,8 @@
+id = 'python3-anymarkup'
+name = 'python3-anymarkup'
+
+homepage = 'https://github.com/bkabrda/anymarkup'
+
+[[package]]
+channel = 'debian'
+name = 'python3-anymarkup'

@@ -1,0 +1,136 @@
+id = 'indi-3rdparty'
+name = 'indi-3rdparty'
+
+homepage = 'https://github.com/indilib/indi-3rdparty'
+
+[[package]]
+channel = 'debian'
+name = 'indi-aagcloudwatcher-ng'
+
+[[package]]
+channel = 'debian'
+name = 'indi-aok'
+
+[[package]]
+channel = 'debian'
+name = 'indi-apogee'
+
+[[package]]
+channel = 'debian'
+name = 'indi-armadillo-platypus'
+
+[[package]]
+channel = 'debian'
+name = 'indi-astrolink4'
+
+[[package]]
+channel = 'debian'
+name = 'indi-astromechfoc'
+
+[[package]]
+channel = 'debian'
+name = 'indi-avalon'
+
+[[package]]
+channel = 'debian'
+name = 'indi-beefocus'
+
+[[package]]
+channel = 'debian'
+name = 'indi-bresserexos2'
+
+[[package]]
+channel = 'debian'
+name = 'indi-dreamfocuser'
+
+[[package]]
+channel = 'debian'
+name = 'indi-dsi'
+
+[[package]]
+channel = 'debian'
+name = 'indi-eqmod'
+
+[[package]]
+channel = 'debian'
+name = 'indi-ffmv'
+
+[[package]]
+channel = 'debian'
+name = 'indi-fli'
+
+[[package]]
+channel = 'debian'
+name = 'indi-gige'
+
+[[package]]
+channel = 'debian'
+name = 'indi-gphoto'
+
+[[package]]
+channel = 'debian'
+name = 'indi-gpsd'
+
+[[package]]
+channel = 'debian'
+name = 'indi-gpsnmea'
+
+[[package]]
+channel = 'debian'
+name = 'indi-limesdr'
+
+[[package]]
+channel = 'debian'
+name = 'indi-maxdomeii'
+
+[[package]]
+channel = 'debian'
+name = 'indi-mgen'
+
+[[package]]
+channel = 'debian'
+name = 'indi-nexdome'
+
+[[package]]
+channel = 'debian'
+name = 'indi-nightscape'
+
+[[package]]
+channel = 'debian'
+name = 'indi-orion-ssg3'
+
+[[package]]
+channel = 'debian'
+name = 'indi-rtklib'
+
+[[package]]
+channel = 'debian'
+name = 'indi-shelyak'
+
+[[package]]
+channel = 'debian'
+name = 'indi-spectracyber'
+
+[[package]]
+channel = 'debian'
+name = 'indi-starbook'
+
+[[package]]
+channel = 'debian'
+name = 'indi-starbook-ten'
+
+[[package]]
+channel = 'debian'
+name = 'indi-sx'
+
+[[package]]
+channel = 'debian'
+name = 'indi-talon6'
+
+[[package]]
+channel = 'debian'
+name = 'indi-webcam'
+
+[[package]]
+channel = 'debian'
+name = 'indi-weewx-json'

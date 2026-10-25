@@ -1,0 +1,8 @@
+id = 'antpm'
+name = 'antpm'
+
+homepage = 'https://github.com/ralovich/antpm'
+
+[[package]]
+channel = 'debian'
+name = 'antpm'

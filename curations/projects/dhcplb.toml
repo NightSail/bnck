@@ -1,0 +1,8 @@
+id = 'dhcplb'
+name = 'dhcplb'
+
+homepage = 'https://github.com/facebookincubator/dhcplb'
+
+[[package]]
+channel = 'fedora'
+name = 'dhcplb'

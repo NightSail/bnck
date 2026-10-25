@@ -1,0 +1,13 @@
+id = 'mkbrr'
+name = 'mkbrr'
+
+homepage = 'https://mkbrr.com/introduction'
+repository = 'https://github.com/autobrr/mkbrr.git'
+
+[[package]]
+channel = 'debian'
+name = 'mkbrr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkbrr'

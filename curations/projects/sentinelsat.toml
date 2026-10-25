@@ -1,0 +1,8 @@
+id = 'sentinelsat'
+name = 'sentinelsat'
+
+homepage = 'https://github.com/sentinelsat/sentinelsat'
+
+[[package]]
+channel = 'debian'
+name = 'sentinelsat'

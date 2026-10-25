@@ -1,0 +1,8 @@
+id = 'mailfilter'
+name = 'mailfilter'
+
+homepage = 'https://mailfilter.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'mailfilter'

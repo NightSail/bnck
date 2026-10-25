@@ -1,0 +1,8 @@
+id = 'eb-utils'
+name = 'eb-utils'
+
+homepage = 'https://www.mistys-internet.website/eb/index-en.html'
+
+[[package]]
+channel = 'debian'
+name = 'eb-utils'

@@ -1,0 +1,12 @@
+id = 'warzone2100'
+name = 'warzone2100'
+
+homepage = 'https://wz2100.net'
+
+[[package]]
+channel = 'arch'
+name = 'warzone2100'
+
+[[package]]
+channel = 'fedora'
+name = 'warzone2100'

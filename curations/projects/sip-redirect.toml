@@ -1,0 +1,8 @@
+id = 'sip-redirect'
+name = 'sip-redirect'
+
+homepage = 'https://ftp.robert-scheck.de/linux/sip-redirect'
+
+[[package]]
+channel = 'fedora'
+name = 'sip-redirect'

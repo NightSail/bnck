@@ -1,0 +1,12 @@
+id = 'open-vmdk'
+name = 'open-vmdk'
+
+homepage = 'https://github.com/vmware/open-vmdk'
+
+[[package]]
+channel = 'debian'
+name = 'open-vmdk'
+
+[[package]]
+channel = 'fedora'
+name = 'open-vmdk'

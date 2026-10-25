@@ -1,0 +1,12 @@
+id = 'pythran'
+name = 'pythran'
+
+homepage = 'https://github.com/serge-sans-paille/pythran'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pythran'
+
+[[package]]
+channel = 'fedora'
+name = 'pythran'

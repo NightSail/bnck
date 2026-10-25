@@ -1,0 +1,8 @@
+id = 'cf2tf'
+name = 'cf2tf'
+
+repository = 'https://github.com/DontShaveTheYak/cf2tf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cf2tf'

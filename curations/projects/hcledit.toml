@@ -1,0 +1,8 @@
+id = 'hcledit'
+name = 'hcledit'
+
+repository = 'https://github.com/minamijoyo/hcledit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hcledit'

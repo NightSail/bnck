@@ -1,0 +1,8 @@
+id = 'gotify-desktop'
+name = 'gotify-desktop'
+
+homepage = 'https://github.com/desbma/gotify-desktop'
+
+[[package]]
+channel = 'fedora'
+name = 'gotify-desktop'

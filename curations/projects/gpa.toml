@@ -1,0 +1,13 @@
+id = 'gpa'
+name = 'gpa'
+
+homepage = 'https://gnupg.org/software/gpa/index.html'
+repository = 'https://dev.gnupg.org/source/gpa.git'
+
+[[package]]
+channel = 'debian'
+name = 'gpa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpa'

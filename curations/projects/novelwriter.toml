@@ -1,0 +1,8 @@
+id = 'novelwriter'
+name = 'novelwriter'
+
+homepage = 'https://novelwriter.io'
+
+[[package]]
+channel = 'fedora'
+name = 'novelwriter'

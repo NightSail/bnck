@@ -1,0 +1,6 @@
+id = 'gnome-nds-thumbnailer'
+name = 'gnome-nds-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-nds-thumbnailer'

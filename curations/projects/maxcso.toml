@@ -1,0 +1,8 @@
+id = 'maxcso'
+name = 'maxcso'
+
+homepage = 'https://github.com/unknownbrackets/maxcso'
+
+[[package]]
+channel = 'arch'
+name = 'maxcso'

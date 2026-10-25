@@ -1,0 +1,12 @@
+id = 'libsrm-examples'
+name = 'libsrm-examples'
+
+homepage = 'https://cuarzosoftware.github.io/SRM'
+
+[[package]]
+channel = 'debian'
+name = 'libsrm-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'libsrm-examples'

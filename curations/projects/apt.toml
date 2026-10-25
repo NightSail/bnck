@@ -1,0 +1,28 @@
+id = 'apt'
+name = 'apt'
+
+homepage = 'https://wiki.debian.org/Apt'
+
+[[package]]
+channel = 'arch'
+name = 'apt'
+
+[[package]]
+channel = 'debian'
+name = 'apt'
+
+[[package]]
+channel = 'debian'
+name = 'apt-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'apt'
+
+[[package]]
+channel = 'fedora'
+name = 'apt-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apt'

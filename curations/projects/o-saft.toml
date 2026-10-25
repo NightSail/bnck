@@ -1,0 +1,8 @@
+id = 'o-saft'
+name = 'o-saft'
+
+homepage = 'https://owasp.org/www-project-o-saft'
+
+[[package]]
+channel = 'debian'
+name = 'o-saft'

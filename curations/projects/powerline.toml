@@ -1,0 +1,16 @@
+id = 'powerline'
+name = 'powerline'
+
+homepage = 'https://github.com/powerline/powerline'
+
+[[package]]
+channel = 'arch'
+name = 'powerline'
+
+[[package]]
+channel = 'debian'
+name = 'powerline'
+
+[[package]]
+channel = 'fedora'
+name = 'powerline'

@@ -1,0 +1,12 @@
+id = 'cups-filters'
+name = 'cups-filters'
+
+homepage = 'https://github.com/OpenPrinting/cups-filters'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-filters'
+
+[[package]]
+channel = 'fedora'
+name = 'cups-filters-driverless'

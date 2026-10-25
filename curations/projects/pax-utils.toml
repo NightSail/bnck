@@ -1,0 +1,16 @@
+id = 'pax-utils'
+name = 'pax-utils'
+
+homepage = 'https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities'
+
+[[package]]
+channel = 'arch'
+name = 'pax-utils'
+
+[[package]]
+channel = 'debian'
+name = 'pax-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'pax-utils'

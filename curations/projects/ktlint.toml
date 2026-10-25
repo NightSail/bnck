@@ -1,0 +1,12 @@
+id = 'ktlint'
+name = 'ktlint'
+
+homepage = 'https://ktlint.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'ktlint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktlint'

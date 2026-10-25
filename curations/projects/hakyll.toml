@@ -1,0 +1,12 @@
+id = 'hakyll'
+name = 'hakyll'
+
+homepage = 'https://jaspervdj.be/hakyll'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-hakyll'
+
+[[package]]
+channel = 'debian'
+name = 'libghc-hakyll-dev'

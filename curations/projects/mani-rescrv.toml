@@ -1,0 +1,8 @@
+id = 'mani-rescrv'
+name = 'mani'
+
+repository = 'https://github.com/rescrv/blue'
+
+[[package]]
+channel = 'crates.io'
+name = 'mani'

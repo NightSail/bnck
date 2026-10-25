@@ -1,0 +1,8 @@
+id = 'id3ren'
+name = 'id3ren'
+
+homepage = 'http://cbothamy.free.fr/projects/id3ren'
+
+[[package]]
+channel = 'debian'
+name = 'id3ren'

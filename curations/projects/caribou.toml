@@ -1,0 +1,12 @@
+id = 'caribou'
+name = 'caribou'
+
+homepage = 'https://wiki.gnome.org/Projects/Caribou'
+
+[[package]]
+channel = 'debian'
+name = 'caribou'
+
+[[package]]
+channel = 'fedora'
+name = 'caribou'

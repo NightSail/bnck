@@ -1,0 +1,8 @@
+id = 'sql-formatter'
+name = 'sql-formatter'
+
+homepage = 'https://sql-formatter-org.github.io/sql-formatter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sql-formatter'

@@ -1,0 +1,16 @@
+id = 'libndp'
+name = 'libndp'
+
+homepage = 'http://libndp.org'
+
+[[package]]
+channel = 'arch'
+name = 'libndp'
+
+[[package]]
+channel = 'debian'
+name = 'libndp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libndp'

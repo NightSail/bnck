@@ -1,0 +1,6 @@
+id = 'packagesearch'
+name = 'packagesearch'
+
+[[package]]
+channel = 'debian'
+name = 'packagesearch'

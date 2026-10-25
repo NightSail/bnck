@@ -1,0 +1,6 @@
+id = 'ftp'
+name = 'ftp'
+
+[[package]]
+channel = 'fedora'
+name = 'ftp'

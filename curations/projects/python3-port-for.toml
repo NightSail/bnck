@@ -1,0 +1,12 @@
+id = 'python3-port-for'
+name = 'python3-port-for'
+
+homepage = 'https://github.com/kmike/port-for'
+
+[[package]]
+channel = 'debian'
+name = 'python3-port-for'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-port-for'

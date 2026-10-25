@@ -1,0 +1,8 @@
+id = 'sinit'
+name = 'sinit'
+
+homepage = 'https://crates.io/crates/sinit'
+
+[[package]]
+channel = 'fedora'
+name = 'sinit'

@@ -1,0 +1,12 @@
+id = 'cffi'
+name = 'cffi'
+
+homepage = 'https://cffi.readthedocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-cffi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cffi'

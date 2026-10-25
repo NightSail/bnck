@@ -1,0 +1,16 @@
+id = 'gnome-pomodoro'
+name = 'gnome-pomodoro'
+
+homepage = 'https://gnomepomodoro.org'
+
+[[package]]
+channel = 'debian'
+name = 'focus-timer'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-shell-pomodoro'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-pomodoro'

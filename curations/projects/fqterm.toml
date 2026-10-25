@@ -1,0 +1,8 @@
+id = 'fqterm'
+name = 'fqterm'
+
+homepage = 'https://github.com/mytbk/fqterm'
+
+[[package]]
+channel = 'debian'
+name = 'fqterm'

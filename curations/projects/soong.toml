@@ -1,0 +1,8 @@
+id = 'soong'
+name = 'soong'
+
+homepage = 'https://android.googlesource.com/platform/build/soong'
+
+[[package]]
+channel = 'debian'
+name = 'soong'

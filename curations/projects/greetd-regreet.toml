@@ -1,0 +1,8 @@
+id = 'greetd-regreet'
+name = 'greetd-regreet'
+
+homepage = 'https://github.com/rharish101/ReGreet'
+
+[[package]]
+channel = 'arch'
+name = 'greetd-regreet'

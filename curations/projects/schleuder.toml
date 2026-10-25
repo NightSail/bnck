@@ -1,0 +1,12 @@
+id = 'schleuder'
+name = 'schleuder'
+
+homepage = 'https://schleuder.org'
+
+[[package]]
+channel = 'debian'
+name = 'schleuder'
+
+[[package]]
+channel = 'debian'
+name = 'schleuder-cli'

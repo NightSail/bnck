@@ -1,0 +1,8 @@
+id = 'warmux'
+name = 'warmux'
+
+homepage = 'http://gna.org/projects/warmux'
+
+[[package]]
+channel = 'fedora'
+name = 'warmux'

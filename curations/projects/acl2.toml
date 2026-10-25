@@ -1,0 +1,12 @@
+id = 'acl2'
+name = 'acl2'
+
+homepage = 'https://www.cs.utexas.edu/~moore/acl2'
+
+[[package]]
+channel = 'debian'
+name = 'acl2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/acl2'

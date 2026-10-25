@@ -1,0 +1,8 @@
+id = 'mhcseqs'
+name = 'mhcseqs'
+
+homepage = 'https://github.com/pirl-unc/mhcseqs'
+
+[[package]]
+channel = 'debian'
+name = 'mhcseqs'

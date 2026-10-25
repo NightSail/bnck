@@ -1,0 +1,8 @@
+id = 'debdate'
+name = 'debdate'
+
+homepage = 'http://git.trueelena.org/cgit.cgi/software/debdate/about'
+
+[[package]]
+channel = 'debian'
+name = 'debdate'

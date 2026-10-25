@@ -1,0 +1,8 @@
+id = 'python3-pdf2docx'
+name = 'python3-pdf2docx'
+
+homepage = 'https://pdf2docx.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pdf2docx'

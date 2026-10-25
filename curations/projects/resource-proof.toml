@@ -1,0 +1,8 @@
+id = 'resource-proof'
+name = 'resource-proof'
+
+homepage = 'https://github.com/maidsafe/resource_proof'
+
+[[package]]
+channel = 'debian'
+name = 'resource-proof'

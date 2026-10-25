@@ -1,0 +1,8 @@
+id = 'atools'
+name = 'atools'
+
+homepage = 'https://gitlab.alpinelinux.org/Leo/atools'
+
+[[package]]
+channel = 'arch'
+name = 'atools'

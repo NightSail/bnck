@@ -1,0 +1,8 @@
+id = 'ot-cryptid-standalone'
+name = 'ot-cryptid-standalone'
+
+homepage = 'https://punklabs.com/ot-cryptid'
+
+[[package]]
+channel = 'arch'
+name = 'ot-cryptid-standalone'

@@ -1,0 +1,8 @@
+id = 'python3-multiecho'
+name = 'python3-multiecho'
+
+homepage = 'https://github.com/Donders-Institute/multiecho'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-multiecho'

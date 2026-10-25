@@ -1,0 +1,12 @@
+id = 'python3-pymodbus'
+name = 'python3-pymodbus'
+
+homepage = 'https://github.com/pymodbus-dev/pymodbus'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pymodbus'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pymodbus'

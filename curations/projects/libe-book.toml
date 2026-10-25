@@ -1,0 +1,12 @@
+id = 'libe-book'
+name = 'libe-book'
+
+homepage = 'https://sourceforge.net/projects/libebook'
+
+[[package]]
+channel = 'arch'
+name = 'libe-book'
+
+[[package]]
+channel = 'fedora'
+name = 'libe-book-tools'

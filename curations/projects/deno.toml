@@ -1,0 +1,13 @@
+id = 'deno'
+name = 'deno'
+
+homepage = 'https://deno.com'
+repository = 'https://github.com/denoland/deno.git'
+
+[[package]]
+channel = 'arch'
+name = 'deno'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deno'

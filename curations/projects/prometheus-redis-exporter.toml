@@ -1,0 +1,12 @@
+id = 'prometheus-redis-exporter'
+name = 'prometheus-redis-exporter'
+
+homepage = 'https://github.com/oliver006/redis_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-redis-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-redis-exporter'

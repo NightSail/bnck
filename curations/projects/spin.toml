@@ -1,0 +1,12 @@
+id = 'spin'
+name = 'spin'
+
+homepage = 'https://spinroot.com/spin/whatispin.html'
+
+[[package]]
+channel = 'debian'
+name = 'spin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spin'

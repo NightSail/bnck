@@ -1,0 +1,8 @@
+id = 'instead'
+name = 'instead'
+
+homepage = 'https://instead.hugeping.ru'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/instead'

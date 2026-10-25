@@ -1,0 +1,13 @@
+id = 'wireguard-go'
+name = 'wireguard-go'
+
+homepage = 'https://git.zx2c4.com/wireguard-go/about'
+repository = 'https://git.zx2c4.com/wireguard-go.git'
+
+[[package]]
+channel = 'debian'
+name = 'wireguard-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wireguard-go'

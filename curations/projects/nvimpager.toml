@@ -1,0 +1,12 @@
+id = 'nvimpager'
+name = 'nvimpager'
+
+repository = 'https://github.com/lucc/nvimpager.git'
+
+[[package]]
+channel = 'debian'
+name = 'nvimpager'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nvimpager'

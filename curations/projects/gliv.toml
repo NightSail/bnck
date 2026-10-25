@@ -1,0 +1,8 @@
+id = 'gliv'
+name = 'gliv'
+
+homepage = 'http://guichaz.free.fr/gliv'
+
+[[package]]
+channel = 'fedora'
+name = 'gliv'

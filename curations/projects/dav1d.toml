@@ -1,0 +1,20 @@
+id = 'dav1d'
+name = 'dav1d'
+
+homepage = 'https://code.videolan.org/videolan/dav1d'
+
+[[package]]
+channel = 'arch'
+name = 'dav1d'
+
+[[package]]
+channel = 'debian'
+name = 'dav1d'
+
+[[package]]
+channel = 'fedora'
+name = 'dav1d'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dav1d'

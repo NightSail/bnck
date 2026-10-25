@@ -1,0 +1,21 @@
+id = 'cadaver'
+name = 'cadaver'
+
+homepage = 'https://notroj.github.io/cadaver'
+repository = 'https://github.com/notroj/cadaver.git'
+
+[[package]]
+channel = 'arch'
+name = 'cadaver'
+
+[[package]]
+channel = 'debian'
+name = 'cadaver'
+
+[[package]]
+channel = 'fedora'
+name = 'cadaver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cadaver'

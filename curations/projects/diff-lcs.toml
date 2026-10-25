@@ -1,0 +1,12 @@
+id = 'diff-lcs'
+name = 'diff-lcs'
+
+homepage = 'https://github.com/halostatue/diff-lcs'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-diff-lcs'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-diff-lcs'

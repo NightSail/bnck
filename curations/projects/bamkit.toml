@@ -1,0 +1,8 @@
+id = 'bamkit'
+name = 'bamkit'
+
+homepage = 'https://github.com/hall-lab/bamkit'
+
+[[package]]
+channel = 'debian'
+name = 'bamkit'

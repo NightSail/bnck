@@ -1,0 +1,8 @@
+id = 'sarsen'
+name = 'sarsen'
+
+homepage = 'https://github.com/bopen/sarsen'
+
+[[package]]
+channel = 'debian'
+name = 'sarsen'

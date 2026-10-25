@@ -1,0 +1,8 @@
+id = 'plots'
+name = 'plots'
+
+homepage = 'https://github.com/alexhuntley/Plots'
+
+[[package]]
+channel = 'debian'
+name = 'plots'

@@ -1,0 +1,8 @@
+id = 'go-msgauth'
+name = 'go-msgauth'
+
+homepage = 'https://github.com/emersion/go-msgauth'
+
+[[package]]
+channel = 'debian'
+name = 'go-msgauth'

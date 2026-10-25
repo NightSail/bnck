@@ -1,0 +1,6 @@
+id = 'tix'
+name = 'tix'
+
+[[package]]
+channel = 'debian'
+name = 'tix'

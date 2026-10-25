@@ -1,0 +1,8 @@
+id = 'xapers'
+name = 'xapers'
+
+homepage = 'https://finestructure.net/xapers'
+
+[[package]]
+channel = 'debian'
+name = 'xapers'

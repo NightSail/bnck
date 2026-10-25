@@ -1,0 +1,17 @@
+id = 'faac'
+name = 'faac'
+
+homepage = 'https://sourceforge.net/projects/faac'
+repository = 'https://github.com/knik0/faac.git'
+
+[[package]]
+channel = 'arch'
+name = 'faac'
+
+[[package]]
+channel = 'debian'
+name = 'faac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/faac'

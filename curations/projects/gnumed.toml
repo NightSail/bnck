@@ -1,0 +1,16 @@
+id = 'gnumed'
+name = 'gnumed'
+
+homepage = 'https://www.gnumed.de'
+
+[[package]]
+channel = 'debian'
+name = 'gnumed-client'
+
+[[package]]
+channel = 'debian'
+name = 'gnumed-client-de'
+
+[[package]]
+channel = 'debian'
+name = 'gnumed-server'

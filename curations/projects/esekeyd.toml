@@ -1,0 +1,8 @@
+id = 'esekeyd'
+name = 'esekeyd'
+
+homepage = 'https://github.com/burghardt/esekeyd'
+
+[[package]]
+channel = 'debian'
+name = 'esekeyd'

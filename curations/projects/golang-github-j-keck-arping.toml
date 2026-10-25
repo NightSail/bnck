@@ -1,0 +1,8 @@
+id = 'golang-github-j-keck-arping'
+name = 'golang-github-j-keck-arping'
+
+homepage = 'https://github.com/j-keck/arping'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-j-keck-arping'

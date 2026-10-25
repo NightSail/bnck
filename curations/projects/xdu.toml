@@ -1,0 +1,6 @@
+id = 'xdu'
+name = 'xdu'
+
+[[package]]
+channel = 'debian'
+name = 'xdu'

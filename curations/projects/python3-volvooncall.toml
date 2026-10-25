@@ -1,0 +1,8 @@
+id = 'python3-volvooncall'
+name = 'python3-volvooncall'
+
+homepage = 'https://github.com/molobrakos/volvooncall'
+
+[[package]]
+channel = 'debian'
+name = 'python3-volvooncall'

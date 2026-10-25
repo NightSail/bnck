@@ -1,0 +1,8 @@
+id = 'flexget'
+name = 'flexget'
+
+homepage = 'https://www.flexget.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flexget'

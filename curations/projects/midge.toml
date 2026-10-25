@@ -1,0 +1,8 @@
+id = 'midge'
+name = 'midge'
+
+homepage = 'http://www.undef.org.uk/code/midge'
+
+[[package]]
+channel = 'debian'
+name = 'midge'

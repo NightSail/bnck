@@ -1,0 +1,8 @@
+id = 'python-perf'
+name = 'python-perf'
+
+homepage = 'https://github.com/psf/pyperf'
+
+[[package]]
+channel = 'arch'
+name = 'python-perf'

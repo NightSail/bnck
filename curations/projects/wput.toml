@@ -1,0 +1,12 @@
+id = 'wput'
+name = 'wput'
+
+homepage = 'https://wput.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wput'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wput'

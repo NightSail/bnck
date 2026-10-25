@@ -1,0 +1,8 @@
+id = 'kubectl-radar'
+name = 'kubectl-radar'
+
+homepage = 'https://radarhq.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectl-radar'

@@ -1,0 +1,8 @@
+id = 'ykls'
+name = 'ykls'
+
+homepage = 'https://github.com/paultag/go-ykpiv'
+
+[[package]]
+channel = 'debian'
+name = 'ykls'

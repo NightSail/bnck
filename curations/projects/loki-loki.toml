@@ -1,0 +1,6 @@
+id = 'loki-loki'
+name = 'loki'
+
+[[package]]
+channel = 'debian'
+name = 'loki'

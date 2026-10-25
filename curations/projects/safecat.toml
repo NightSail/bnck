@@ -1,0 +1,8 @@
+id = 'safecat'
+name = 'safecat'
+
+homepage = 'https://github.com/aperezdc/safecat'
+
+[[package]]
+channel = 'debian'
+name = 'safecat'

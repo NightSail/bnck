@@ -1,0 +1,12 @@
+id = 'devio'
+name = 'devio'
+
+homepage = 'http://devio.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'devio'
+
+[[package]]
+channel = 'fedora'
+name = 'devio'

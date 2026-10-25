@@ -1,0 +1,8 @@
+id = 'doublecmd-common'
+name = 'doublecmd-common'
+
+homepage = 'https://doublecmd.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'doublecmd-common'

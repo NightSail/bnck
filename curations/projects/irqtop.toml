@@ -1,0 +1,8 @@
+id = 'irqtop'
+name = 'irqtop'
+
+homepage = 'https://github.com/aabc/ipt-netflow'
+
+[[package]]
+channel = 'debian'
+name = 'irqtop'

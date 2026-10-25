@@ -1,0 +1,8 @@
+id = 'apache-flink-1'
+name = 'apache-flink@1'
+
+homepage = 'https://flink.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-flink@1'

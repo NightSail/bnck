@@ -1,0 +1,8 @@
+id = 'sfizz-standalone'
+name = 'sfizz-standalone'
+
+homepage = 'https://github.com/sfztools/sfizz'
+
+[[package]]
+channel = 'arch'
+name = 'sfizz-standalone'

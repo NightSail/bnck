@@ -1,0 +1,16 @@
+id = 'bh'
+name = '~bh'
+
+homepage = 'https://people.eecs.berkeley.edu/~bh/logo.html'
+
+[[package]]
+channel = 'debian'
+name = 'ucblogo'
+
+[[package]]
+channel = 'fedora'
+name = 'ucblogo'
+
+[[package]]
+channel = 'fedora'
+name = 'ucblogo-x11'

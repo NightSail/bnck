@@ -1,0 +1,12 @@
+id = 'module-signature'
+name = 'Module-Signature'
+
+homepage = 'https://metacpan.org/release/Module-Signature'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-signature-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Signature'

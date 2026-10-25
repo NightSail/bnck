@@ -1,0 +1,9 @@
+id = 'liblcf'
+name = 'liblcf'
+
+homepage = 'https://easyrpg.org'
+repository = 'https://github.com/EasyRPG/liblcf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liblcf'

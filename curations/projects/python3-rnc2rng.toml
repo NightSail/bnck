@@ -1,0 +1,12 @@
+id = 'python3-rnc2rng'
+name = 'python3-rnc2rng'
+
+homepage = 'https://github.com/djc/rnc2rng'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rnc2rng'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rnc2rng'

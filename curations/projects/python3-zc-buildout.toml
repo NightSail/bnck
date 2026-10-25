@@ -1,0 +1,8 @@
+id = 'python3-zc-buildout'
+name = 'python3-zc.buildout'
+
+homepage = 'https://pypi.python.org/pypi/zc.buildout'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zc.buildout'

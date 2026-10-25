@@ -1,0 +1,8 @@
+id = 'jclassinfo'
+name = 'jclassinfo'
+
+homepage = 'http://jclassinfo.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'jclassinfo'

@@ -1,0 +1,8 @@
+id = 'handlr-regex'
+name = 'handlr-regex'
+
+homepage = 'https://github.com/Anomalocaridid/handlr-regex'
+
+[[package]]
+channel = 'arch'
+name = 'handlr-regex'

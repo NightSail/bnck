@@ -1,0 +1,6 @@
+id = 'netfilter-persistent'
+name = 'netfilter-persistent'
+
+[[package]]
+channel = 'debian'
+name = 'netfilter-persistent'

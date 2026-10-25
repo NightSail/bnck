@@ -1,0 +1,8 @@
+id = 'libcangjie-dev-tools'
+name = 'libcangjie-dev-tools'
+
+homepage = 'https://gitlab.freedesktop.org/cangjie/libcangjie'
+
+[[package]]
+channel = 'debian'
+name = 'libcangjie-dev-tools'

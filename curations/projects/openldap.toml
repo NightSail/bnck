@@ -1,0 +1,24 @@
+id = 'openldap'
+name = 'openldap'
+
+homepage = 'https://www.openldap.org'
+
+[[package]]
+channel = 'arch'
+name = 'openldap'
+
+[[package]]
+channel = 'debian'
+name = 'ldap-utils'
+
+[[package]]
+channel = 'debian'
+name = 'slapd'
+
+[[package]]
+channel = 'fedora'
+name = 'openldap-clients'
+
+[[package]]
+channel = 'fedora'
+name = 'openldap-servers'

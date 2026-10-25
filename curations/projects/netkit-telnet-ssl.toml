@@ -1,0 +1,10 @@
+id = 'netkit-telnet-ssl'
+name = 'netkit-telnet-ssl'
+
+[[package]]
+channel = 'debian'
+name = 'telnet-ssl'
+
+[[package]]
+channel = 'debian'
+name = 'telnetd-ssl'

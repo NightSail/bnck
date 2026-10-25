@@ -1,0 +1,8 @@
+id = 'perl-mason-tidy'
+name = 'perl-Mason-Tidy'
+
+homepage = 'https://metacpan.org/release/Mason-Tidy'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Mason-Tidy'

@@ -1,0 +1,8 @@
+id = 'gcr3'
+name = 'gcr3'
+
+homepage = 'https://wiki.gnome.org/Projects/CryptoGlue'
+
+[[package]]
+channel = 'fedora'
+name = 'gcr3'

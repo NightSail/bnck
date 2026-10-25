@@ -1,0 +1,8 @@
+id = 'trailscraper'
+name = 'trailscraper'
+
+repository = 'https://github.com/flosell/trailscraper.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trailscraper'

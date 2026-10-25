@@ -1,0 +1,8 @@
+id = 'adljack'
+name = 'adljack'
+
+homepage = 'https://github.com/jpcima/adljack'
+
+[[package]]
+channel = 'arch'
+name = 'adljack'

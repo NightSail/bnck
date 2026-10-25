@@ -1,0 +1,12 @@
+id = 'hw-probe'
+name = 'hw-probe'
+
+homepage = 'https://github.com/linuxhw/hw-probe'
+
+[[package]]
+channel = 'debian'
+name = 'hw-probe'
+
+[[package]]
+channel = 'fedora'
+name = 'hw-probe'

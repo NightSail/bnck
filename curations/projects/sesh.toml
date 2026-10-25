@@ -1,0 +1,8 @@
+id = 'sesh'
+name = 'sesh'
+
+repository = 'https://github.com/joshmedeski/sesh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sesh'

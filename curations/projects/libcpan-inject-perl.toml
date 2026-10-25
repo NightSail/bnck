@@ -1,0 +1,6 @@
+id = 'libcpan-inject-perl'
+name = 'libcpan-inject-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libcpan-inject-perl'

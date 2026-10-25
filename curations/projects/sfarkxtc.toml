@@ -1,0 +1,8 @@
+id = 'sfarkxtc'
+name = 'sfarkxtc'
+
+homepage = 'https://github.com/raboof/sfarkxtc'
+
+[[package]]
+channel = 'debian'
+name = 'sfarkxtc'

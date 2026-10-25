@@ -1,0 +1,12 @@
+id = 'idna'
+name = 'idna'
+
+homepage = 'https://github.com/kjd/idna'
+
+[[package]]
+channel = 'arch'
+name = 'python-idna'
+
+[[package]]
+channel = 'debian'
+name = 'python3-idna'

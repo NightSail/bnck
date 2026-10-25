@@ -1,0 +1,8 @@
+id = 'bind-to-tinydns'
+name = 'bind-to-tinydns'
+
+homepage = 'http://www.erat.org'
+
+[[package]]
+channel = 'fedora'
+name = 'bind-to-tinydns'

@@ -1,0 +1,24 @@
+id = 'asymptote'
+name = 'asymptote'
+
+homepage = 'https://asymptote.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'asymptote'
+
+[[package]]
+channel = 'debian'
+name = 'asymptote'
+
+[[package]]
+channel = 'debian'
+name = 'asymptote-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'asymptote'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asymptote'

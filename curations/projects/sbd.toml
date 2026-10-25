@@ -1,0 +1,12 @@
+id = 'sbd'
+name = 'sbd'
+
+homepage = 'https://github.com/ClusterLabs/sbd'
+
+[[package]]
+channel = 'debian'
+name = 'sbd'
+
+[[package]]
+channel = 'fedora'
+name = 'sbd'

@@ -1,0 +1,13 @@
+id = 'fortran-language-server'
+name = 'fortran-language-server'
+
+homepage = 'https://fortls.fortran-lang.org'
+repository = 'https://github.com/hansec/fortran-language-server.git'
+
+[[package]]
+channel = 'debian'
+name = 'fortran-language-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fortran-language-server'

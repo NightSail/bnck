@@ -1,0 +1,12 @@
+id = 'imsettings'
+name = 'imsettings'
+
+homepage = 'https://gitlab.com/tagoh/imsettings'
+
+[[package]]
+channel = 'fedora'
+name = 'imsettings'
+
+[[package]]
+channel = 'fedora'
+name = 'imsettings-xim'

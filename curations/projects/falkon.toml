@@ -1,0 +1,16 @@
+id = 'falkon'
+name = 'falkon'
+
+homepage = 'https://www.falkon.org'
+
+[[package]]
+channel = 'arch'
+name = 'falkon'
+
+[[package]]
+channel = 'debian'
+name = 'falkon'
+
+[[package]]
+channel = 'fedora'
+name = 'falkon'

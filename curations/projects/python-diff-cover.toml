@@ -1,0 +1,8 @@
+id = 'python-diff-cover'
+name = 'python-diff-cover'
+
+homepage = 'https://github.com/Bachmann1234/diff_cover'
+
+[[package]]
+channel = 'arch'
+name = 'python-diff-cover'

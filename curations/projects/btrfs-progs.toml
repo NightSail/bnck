@@ -1,0 +1,16 @@
+id = 'btrfs-progs'
+name = 'btrfs-progs'
+
+homepage = 'https://btrfs.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'btrfs-progs'
+
+[[package]]
+channel = 'debian'
+name = 'btrfs-progs'
+
+[[package]]
+channel = 'fedora'
+name = 'btrfs-progs'

@@ -1,0 +1,8 @@
+id = 'python3-ipdb'
+name = 'python3-ipdb'
+
+homepage = 'https://github.com/gotcha/ipdb'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ipdb'

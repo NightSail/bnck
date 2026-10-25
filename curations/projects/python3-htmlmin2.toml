@@ -1,0 +1,8 @@
+id = 'python3-htmlmin2'
+name = 'python3-htmlmin2'
+
+homepage = 'https://github.com/wilhelmer/htmlmin'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-htmlmin2'

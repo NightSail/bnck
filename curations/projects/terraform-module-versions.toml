@@ -1,0 +1,8 @@
+id = 'terraform-module-versions'
+name = 'terraform-module-versions'
+
+repository = 'https://github.com/keilerkonzept/terraform-module-versions.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-module-versions'

@@ -1,0 +1,6 @@
+id = 'libdb1-compat'
+name = 'libdb1-compat'
+
+[[package]]
+channel = 'debian'
+name = 'libdb1-compat'

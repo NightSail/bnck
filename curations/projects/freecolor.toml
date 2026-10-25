@@ -1,0 +1,8 @@
+id = 'freecolor'
+name = 'freecolor'
+
+homepage = 'http://www.rkeene.org/oss/freecolor'
+
+[[package]]
+channel = 'fedora'
+name = 'freecolor'

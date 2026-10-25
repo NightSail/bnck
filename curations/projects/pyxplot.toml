@@ -1,0 +1,8 @@
+id = 'pyxplot'
+name = 'pyxplot'
+
+homepage = 'http://www.pyxplot.org.uk'
+
+[[package]]
+channel = 'debian'
+name = 'pyxplot'

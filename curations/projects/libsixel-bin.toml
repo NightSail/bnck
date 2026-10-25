@@ -1,0 +1,6 @@
+id = 'libsixel-bin'
+name = 'libsixel-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libsixel-bin'

@@ -1,0 +1,8 @@
+id = 'modrinth-app'
+name = 'modrinth-app'
+
+homepage = 'https://modrinth.com/app'
+
+[[package]]
+channel = 'arch'
+name = 'modrinth-app'

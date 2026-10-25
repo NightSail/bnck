@@ -4,5 +4,17 @@ name = 'pdfgrep'
 repository = 'https://gitlab.com/pdfgrep/pdfgrep'
 
 [[package]]
+channel = 'arch'
+name = 'pdfgrep'
+
+[[package]]
+channel = 'debian'
+name = 'pdfgrep'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfgrep'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/pdfgrep'

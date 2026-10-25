@@ -1,0 +1,13 @@
+id = 'rattler-build'
+name = 'rattler-build'
+
+homepage = 'https://rattler.build'
+repository = 'https://github.com/prefix-dev/rattler-build.git'
+
+[[package]]
+channel = 'arch'
+name = 'rattler-build'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rattler-build'

@@ -1,0 +1,8 @@
+id = 'perl-convert-uu'
+name = 'perl-Convert-UU'
+
+homepage = 'https://metacpan.org/release/Convert-UU'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Convert-UU'

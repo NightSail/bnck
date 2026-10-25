@@ -1,0 +1,8 @@
+id = 'needrestart-session'
+name = 'needrestart-session'
+
+homepage = 'https://github.com/liske/needrestart-session'
+
+[[package]]
+channel = 'debian'
+name = 'needrestart-session'

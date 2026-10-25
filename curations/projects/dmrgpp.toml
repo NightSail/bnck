@@ -1,0 +1,8 @@
+id = 'dmrgpp'
+name = 'dmrgpp'
+
+homepage = 'https://github.com/g1257/dmrgpp'
+
+[[package]]
+channel = 'debian'
+name = 'dmrgpp'

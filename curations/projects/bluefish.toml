@@ -1,0 +1,16 @@
+id = 'bluefish'
+name = 'bluefish'
+
+homepage = 'http://bluefish.openoffice.nl'
+
+[[package]]
+channel = 'arch'
+name = 'bluefish'
+
+[[package]]
+channel = 'debian'
+name = 'bluefish'
+
+[[package]]
+channel = 'fedora'
+name = 'bluefish'

@@ -1,0 +1,8 @@
+id = 'mod-md'
+name = 'mod_md'
+
+homepage = 'https://icing.github.io/mod_md'
+
+[[package]]
+channel = 'fedora'
+name = 'mod_md'

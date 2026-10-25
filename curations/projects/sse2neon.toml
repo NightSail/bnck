@@ -1,0 +1,8 @@
+id = 'sse2neon'
+name = 'sse2neon'
+
+homepage = 'https://github.com/DLTcollab/sse2neon'
+
+[[package]]
+channel = 'arch'
+name = 'sse2neon'

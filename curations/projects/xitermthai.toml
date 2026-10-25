@@ -1,0 +1,8 @@
+id = 'xitermthai'
+name = 'xiterm+thai'
+
+homepage = 'https://linux.thai.net/projects/xiterm+thai'
+
+[[package]]
+channel = 'debian'
+name = 'xiterm+thai'

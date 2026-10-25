@@ -1,0 +1,8 @@
+id = 'ghc-hspec-discover-devel'
+name = 'ghc-hspec-discover-devel'
+
+homepage = 'https://hackage.haskell.org/package/hspec-discover'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-hspec-discover-devel'

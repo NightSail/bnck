@@ -1,0 +1,8 @@
+id = 'molsketch'
+name = 'molsketch'
+
+homepage = 'http://molsketch.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'molsketch'

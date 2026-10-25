@@ -1,0 +1,8 @@
+id = 'qgo'
+name = 'qgo'
+
+homepage = 'https://github.com/johndaniels/qgo'
+
+[[package]]
+channel = 'arch'
+name = 'qgo'

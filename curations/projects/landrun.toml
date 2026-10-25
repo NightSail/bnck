@@ -1,0 +1,8 @@
+id = 'landrun'
+name = 'landrun'
+
+homepage = 'https://github.com/zouuup/landrun'
+
+[[package]]
+channel = 'debian'
+name = 'landrun'

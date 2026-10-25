@@ -1,0 +1,6 @@
+id = 'python3-pyocd'
+name = 'python3-pyocd'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyocd'

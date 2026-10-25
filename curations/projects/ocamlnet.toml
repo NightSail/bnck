@@ -1,0 +1,12 @@
+id = 'ocamlnet'
+name = 'ocamlnet'
+
+homepage = 'http://projects.camlcity.org/projects/ocamlnet.html'
+
+[[package]]
+channel = 'debian'
+name = 'libocamlnet-ocaml-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ocamlnet'

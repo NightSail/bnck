@@ -1,0 +1,12 @@
+id = 'asus-linux'
+name = 'asus-linux'
+
+homepage = 'https://asus-linux.org'
+
+[[package]]
+channel = 'arch'
+name = 'asusctl'
+
+[[package]]
+channel = 'arch'
+name = 'rog-control-center'

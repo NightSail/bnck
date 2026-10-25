@@ -1,0 +1,16 @@
+id = 'avidemux'
+name = 'avidemux'
+
+homepage = 'https://www.avidemux.org'
+
+[[package]]
+channel = 'arch'
+name = 'avidemux-cli'
+
+[[package]]
+channel = 'arch'
+name = 'avidemux-qt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/avidemux'

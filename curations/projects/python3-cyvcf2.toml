@@ -1,0 +1,8 @@
+id = 'python3-cyvcf2'
+name = 'python3-cyvcf2'
+
+homepage = 'https://github.com/brentp/cyvcf2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cyvcf2'

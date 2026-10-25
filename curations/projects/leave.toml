@@ -1,0 +1,6 @@
+id = 'leave'
+name = 'leave'
+
+[[package]]
+channel = 'debian'
+name = 'leave'

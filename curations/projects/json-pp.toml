@@ -1,0 +1,12 @@
+id = 'json-pp'
+name = 'JSON-PP'
+
+homepage = 'https://metacpan.org/release/JSON-PP'
+
+[[package]]
+channel = 'debian'
+name = 'libjson-pp-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-JSON-PP'

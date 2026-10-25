@@ -1,0 +1,21 @@
+id = 'unifdef'
+name = 'unifdef'
+
+homepage = 'https://dotat.at/prog/unifdef'
+repository = 'https://github.com/fanf2/unifdef.git'
+
+[[package]]
+channel = 'arch'
+name = 'unifdef'
+
+[[package]]
+channel = 'debian'
+name = 'unifdef'
+
+[[package]]
+channel = 'fedora'
+name = 'unifdef'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unifdef'

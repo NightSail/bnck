@@ -1,0 +1,28 @@
+id = 'mediaconch'
+name = 'mediaconch'
+
+homepage = 'https://mediaarea.net/MediaConch'
+
+[[package]]
+channel = 'debian'
+name = 'mediaconch'
+
+[[package]]
+channel = 'debian'
+name = 'mediaconch-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'mediaconch'
+
+[[package]]
+channel = 'fedora'
+name = 'mediaconch-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'mediaconch-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mediaconch'

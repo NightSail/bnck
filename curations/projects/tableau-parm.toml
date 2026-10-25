@@ -1,0 +1,8 @@
+id = 'tableau-parm'
+name = 'tableau-parm'
+
+homepage = 'http://projects.sentinelchicken.org/tableau-parm'
+
+[[package]]
+channel = 'debian'
+name = 'tableau-parm'

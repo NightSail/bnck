@@ -1,0 +1,12 @@
+id = 'tqftpserv'
+name = 'tqftpserv'
+
+homepage = 'https://github.com/linux-msm/tqftpserv'
+
+[[package]]
+channel = 'debian'
+name = 'tqftpserv'
+
+[[package]]
+channel = 'fedora'
+name = 'tqftpserv'

@@ -1,0 +1,8 @@
+id = 'libstoragedisplay-perl'
+name = 'libstoragedisplay-perl'
+
+homepage = 'https://metacpan.org/release/StorageDisplay'
+
+[[package]]
+channel = 'debian'
+name = 'libstoragedisplay-perl'

@@ -1,0 +1,9 @@
+id = 'brev'
+name = 'brev'
+
+homepage = 'https://developer.nvidia.com/brev'
+repository = 'https://github.com/brevdev/brev-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/brev'

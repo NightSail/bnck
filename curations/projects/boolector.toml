@@ -1,0 +1,6 @@
+id = 'boolector'
+name = 'boolector'
+
+[[package]]
+channel = 'debian'
+name = 'boolector'

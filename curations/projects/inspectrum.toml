@@ -1,0 +1,16 @@
+id = 'inspectrum'
+name = 'inspectrum'
+
+repository = 'https://github.com/miek/inspectrum.git'
+
+[[package]]
+channel = 'arch'
+name = 'inspectrum'
+
+[[package]]
+channel = 'debian'
+name = 'inspectrum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inspectrum'

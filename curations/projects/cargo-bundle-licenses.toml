@@ -1,0 +1,8 @@
+id = 'cargo-bundle-licenses'
+name = 'cargo-bundle-licenses'
+
+homepage = 'https://github.com/sstadick/cargo-bundle-licenses'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-bundle-licenses'

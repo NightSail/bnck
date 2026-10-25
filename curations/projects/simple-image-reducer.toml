@@ -1,0 +1,8 @@
+id = 'simple-image-reducer'
+name = 'simple-image-reducer'
+
+homepage = 'https://github.com/henrythasler/simple-image-reducer'
+
+[[package]]
+channel = 'debian'
+name = 'simple-image-reducer'

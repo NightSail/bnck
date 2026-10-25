@@ -1,0 +1,8 @@
+id = 'python3-pylero'
+name = 'python3-pylero'
+
+homepage = 'https://github.com/RedHatQE/pylero'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pylero'

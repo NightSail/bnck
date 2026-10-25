@@ -1,0 +1,8 @@
+id = 'pgreplay'
+name = 'pgreplay'
+
+homepage = 'https://laurenz.github.io/pgreplay'
+
+[[package]]
+channel = 'debian'
+name = 'pgreplay'

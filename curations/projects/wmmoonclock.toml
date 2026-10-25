@@ -1,0 +1,8 @@
+id = 'wmmoonclock'
+name = 'wmmoonclock'
+
+homepage = 'https://www.dockapps.net/wmmoonclock'
+
+[[package]]
+channel = 'debian'
+name = 'wmmoonclock'

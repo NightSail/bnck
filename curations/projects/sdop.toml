@@ -1,0 +1,8 @@
+id = 'sdop'
+name = 'sdop'
+
+homepage = 'https://github.com/PhilipHazel/SDoP'
+
+[[package]]
+channel = 'debian'
+name = 'sdop'

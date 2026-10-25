@@ -1,0 +1,12 @@
+id = 'basez'
+name = 'basez'
+
+homepage = 'http://www.quarkline.net/basez'
+
+[[package]]
+channel = 'debian'
+name = 'basez'
+
+[[package]]
+channel = 'fedora'
+name = 'basez'

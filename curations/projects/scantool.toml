@@ -1,0 +1,8 @@
+id = 'scantool'
+name = 'scantool'
+
+homepage = 'https://github.com/kees/scantool'
+
+[[package]]
+channel = 'debian'
+name = 'scantool'

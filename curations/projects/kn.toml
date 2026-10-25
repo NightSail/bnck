@@ -1,0 +1,8 @@
+id = 'kn'
+name = 'kn'
+
+repository = 'https://github.com/knative/client.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kn'

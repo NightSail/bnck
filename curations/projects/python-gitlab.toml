@@ -1,0 +1,16 @@
+id = 'python-gitlab'
+name = 'python-gitlab'
+
+homepage = 'https://github.com/python-gitlab/python-gitlab'
+
+[[package]]
+channel = 'arch'
+name = 'python-gitlab'
+
+[[package]]
+channel = 'debian'
+name = 'gitlab-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gitlab'

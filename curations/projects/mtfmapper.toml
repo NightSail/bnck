@@ -1,0 +1,8 @@
+id = 'mtfmapper'
+name = 'mtfmapper'
+
+homepage = 'https://sourceforge.net/p/mtfmapper'
+
+[[package]]
+channel = 'debian'
+name = 'mtfmapper'

@@ -1,0 +1,12 @@
+id = 'hnsky'
+name = 'hnsky'
+
+homepage = 'https://www.hnsky.org/astap.htm'
+
+[[package]]
+channel = 'debian'
+name = 'astap'
+
+[[package]]
+channel = 'debian'
+name = 'astap-cli'

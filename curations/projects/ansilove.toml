@@ -1,0 +1,12 @@
+id = 'ansilove'
+name = 'ansilove'
+
+homepage = 'https://www.ansilove.org'
+
+[[package]]
+channel = 'debian'
+name = 'ansilove'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansilove'

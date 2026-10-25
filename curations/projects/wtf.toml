@@ -1,0 +1,8 @@
+id = 'wtf'
+name = 'wtf'
+
+homepage = 'https://sourceforge.net/projects/bsdwtf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wtf'

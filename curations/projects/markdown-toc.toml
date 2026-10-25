@@ -1,0 +1,8 @@
+id = 'markdown-toc'
+name = 'markdown-toc'
+
+homepage = 'https://github.com/jonschlinkert/markdown-toc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/markdown-toc'

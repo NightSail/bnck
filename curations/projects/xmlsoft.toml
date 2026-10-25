@@ -1,0 +1,20 @@
+id = 'xmlsoft'
+name = 'xmlsoft'
+
+homepage = 'http://xmlsoft.org'
+
+[[package]]
+channel = 'debian'
+name = 'libxml2-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libxml2-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libxml2.9-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libxml2.9-utils'

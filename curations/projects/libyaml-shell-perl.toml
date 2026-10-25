@@ -1,0 +1,8 @@
+id = 'libyaml-shell-perl'
+name = 'libyaml-shell-perl'
+
+homepage = 'http://search.cpan.org/~ingy'
+
+[[package]]
+channel = 'debian'
+name = 'libyaml-shell-perl'

@@ -1,0 +1,8 @@
+id = 'tdfsb'
+name = 'tdfsb'
+
+homepage = 'http://www.determinate.net/webdata/seg/tdfsb.html'
+
+[[package]]
+channel = 'debian'
+name = 'tdfsb'

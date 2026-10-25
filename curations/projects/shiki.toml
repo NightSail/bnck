@@ -1,0 +1,8 @@
+id = 'shiki'
+name = 'shiki'
+
+homepage = 'https://shiki.style'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shiki'

@@ -1,0 +1,16 @@
+id = 'deskflow'
+name = 'deskflow'
+
+homepage = 'https://deskflow.org'
+
+[[package]]
+channel = 'arch'
+name = 'deskflow'
+
+[[package]]
+channel = 'debian'
+name = 'deskflow'
+
+[[package]]
+channel = 'fedora'
+name = 'deskflow'

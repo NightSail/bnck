@@ -1,0 +1,8 @@
+id = 'debian-edu-artwork-spacefun'
+name = 'debian-edu-artwork-spacefun'
+
+homepage = 'https://wiki.debian.org/DebianEdu/Teams/ArtWork'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-spacefun'

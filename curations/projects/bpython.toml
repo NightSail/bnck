@@ -1,0 +1,9 @@
+id = 'bpython'
+name = 'bpython'
+
+homepage = 'https://bpython-interpreter.org'
+repository = 'https://github.com/bpython/bpython.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bpython'

@@ -1,0 +1,8 @@
+id = 'gbutils'
+name = 'gbutils'
+
+homepage = 'http://cafim.sssup.it/~giulio/software/gbutils'
+
+[[package]]
+channel = 'debian'
+name = 'gbutils'

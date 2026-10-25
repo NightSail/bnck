@@ -1,0 +1,8 @@
+id = 'emmax'
+name = 'emmax'
+
+homepage = 'http://genome.sph.umich.edu/wiki/EMMAX'
+
+[[package]]
+channel = 'debian'
+name = 'emmax'

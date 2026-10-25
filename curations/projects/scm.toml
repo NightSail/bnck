@@ -1,0 +1,6 @@
+id = 'scm'
+name = 'scm'
+
+[[package]]
+channel = 'debian'
+name = 'scm'

@@ -1,0 +1,8 @@
+id = 'circle-backend'
+name = 'circle-backend'
+
+homepage = 'https://metacpan.org/release/circle-be'
+
+[[package]]
+channel = 'debian'
+name = 'circle-backend'

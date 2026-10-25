@@ -1,0 +1,12 @@
+id = 'xxhash'
+name = 'xxhash'
+
+homepage = 'https://cyan4973.github.io/xxHash'
+
+[[package]]
+channel = 'arch'
+name = 'xxhash'
+
+[[package]]
+channel = 'debian'
+name = 'xxhash'

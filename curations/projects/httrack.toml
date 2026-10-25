@@ -1,0 +1,28 @@
+id = 'httrack'
+name = 'httrack'
+
+homepage = 'https://www.httrack.com'
+
+[[package]]
+channel = 'arch'
+name = 'httrack'
+
+[[package]]
+channel = 'debian'
+name = 'httrack'
+
+[[package]]
+channel = 'debian'
+name = 'proxytrack'
+
+[[package]]
+channel = 'debian'
+name = 'webhttrack'
+
+[[package]]
+channel = 'fedora'
+name = 'httrack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httrack'

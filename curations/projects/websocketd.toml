@@ -1,0 +1,12 @@
+id = 'websocketd'
+name = 'websocketd'
+
+homepage = 'http://websocketd.com'
+
+[[package]]
+channel = 'debian'
+name = 'websocketd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/websocketd'

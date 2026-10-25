@@ -1,0 +1,8 @@
+id = 'heartbeat'
+name = 'heartbeat'
+
+homepage = 'http://www.linux-ha.org'
+
+[[package]]
+channel = 'debian'
+name = 'heartbeat'

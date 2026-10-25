@@ -1,0 +1,12 @@
+id = 'virt-top'
+name = 'virt-top'
+
+homepage = 'http://people.redhat.com/~rjones/virt-top'
+
+[[package]]
+channel = 'debian'
+name = 'virt-top'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-top'

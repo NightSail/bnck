@@ -1,0 +1,6 @@
+id = 'ewipe'
+name = 'ewipe'
+
+[[package]]
+channel = 'debian'
+name = 'ewipe'

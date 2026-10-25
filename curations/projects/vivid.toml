@@ -1,0 +1,16 @@
+id = 'vivid'
+name = 'vivid'
+
+homepage = 'https://github.com/sharkdp/vivid'
+
+[[package]]
+channel = 'arch'
+name = 'vivid'
+
+[[package]]
+channel = 'debian'
+name = 'vivid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vivid'

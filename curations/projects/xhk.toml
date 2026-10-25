@@ -1,0 +1,8 @@
+id = 'xhk'
+name = 'xhk'
+
+homepage = 'https://github.com/kbingham/xhk'
+
+[[package]]
+channel = 'debian'
+name = 'xhk'

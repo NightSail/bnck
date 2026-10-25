@@ -1,0 +1,8 @@
+id = 'ghcitty'
+name = 'ghcitty'
+
+homepage = 'https://github.com/mattlianje/ghcitty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghcitty'

@@ -1,0 +1,8 @@
+id = 'python3-dtoc'
+name = 'python3-dtoc'
+
+homepage = 'https://docs.u-boot.org/en/latest/develop/driver-model/of-plat.html'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dtoc'

@@ -1,0 +1,8 @@
+id = 'sui'
+name = 'sui'
+
+homepage = 'https://sui.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sui'

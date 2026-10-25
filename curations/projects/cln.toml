@@ -1,0 +1,12 @@
+id = 'cln'
+name = 'cln'
+
+homepage = 'https://www.ginac.de/CLN'
+
+[[package]]
+channel = 'arch'
+name = 'cln'
+
+[[package]]
+channel = 'debian'
+name = 'pi'

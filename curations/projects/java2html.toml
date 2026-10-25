@@ -1,0 +1,6 @@
+id = 'java2html'
+name = 'java2html'
+
+[[package]]
+channel = 'debian'
+name = 'java2html'

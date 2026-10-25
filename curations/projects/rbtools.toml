@@ -1,0 +1,13 @@
+id = 'rbtools'
+name = 'rbtools'
+
+homepage = 'https://www.reviewboard.org/downloads/rbtools'
+repository = 'https://github.com/reviewboard/rbtools.git'
+
+[[package]]
+channel = 'fedora'
+name = 'RBTools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rbtools'

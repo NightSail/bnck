@@ -1,0 +1,8 @@
+id = 'hvcc'
+name = 'hvcc'
+
+homepage = 'https://wasted-audio.github.io/hvcc'
+
+[[package]]
+channel = 'debian'
+name = 'hvcc'

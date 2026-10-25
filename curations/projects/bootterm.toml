@@ -1,0 +1,12 @@
+id = 'bootterm'
+name = 'bootterm'
+
+repository = 'https://github.com/wtarreau/bootterm.git'
+
+[[package]]
+channel = 'debian'
+name = 'bootterm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bootterm'

@@ -1,0 +1,8 @@
+id = 'perl-authen-modauthpubtkt'
+name = 'perl-Authen-ModAuthPubTkt'
+
+homepage = 'https://metacpan.org/dist/Authen-ModAuthPubTkt'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Authen-ModAuthPubTkt'

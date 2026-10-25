@@ -1,0 +1,8 @@
+id = 'sowing'
+name = 'sowing'
+
+homepage = 'http://wgropp.cs.illinois.edu/projects/software/sowing'
+
+[[package]]
+channel = 'arch'
+name = 'sowing'

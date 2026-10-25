@@ -1,0 +1,8 @@
+id = 'samloader'
+name = 'samloader'
+
+homepage = 'https://github.com/nlscc/samloader'
+
+[[package]]
+channel = 'fedora'
+name = 'samloader'

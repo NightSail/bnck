@@ -1,0 +1,12 @@
+id = 'vcfanno'
+name = 'vcfanno'
+
+homepage = 'https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0973-5'
+
+[[package]]
+channel = 'debian'
+name = 'vcfanno'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vcfanno'

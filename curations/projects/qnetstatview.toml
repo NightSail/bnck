@@ -1,0 +1,8 @@
+id = 'qnetstatview'
+name = 'qnetstatview'
+
+homepage = 'https://bitbucket.org/admsasha/qnetstatview'
+
+[[package]]
+channel = 'debian'
+name = 'qnetstatview'

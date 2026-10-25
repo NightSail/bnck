@@ -1,0 +1,20 @@
+id = 'speechd'
+name = 'speechd'
+
+homepage = 'http://devel.freebsoft.org/speechd'
+
+[[package]]
+channel = 'debian'
+name = 'python3-speechd'
+
+[[package]]
+channel = 'debian'
+name = 'speech-dispatcher'
+
+[[package]]
+channel = 'fedora'
+name = 'speech-dispatcher'
+
+[[package]]
+channel = 'fedora'
+name = 'speech-dispatcher-utils'

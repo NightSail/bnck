@@ -1,0 +1,8 @@
+id = 'jboss-forge'
+name = 'jboss-forge'
+
+homepage = 'https://forge.jboss.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jboss-forge'

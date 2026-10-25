@@ -1,0 +1,8 @@
+id = 'python3-robot'
+name = 'python3-robot'
+
+homepage = 'https://robotframework.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-robot'

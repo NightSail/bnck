@@ -1,0 +1,16 @@
+id = 'i3blocks'
+name = 'i3blocks'
+
+homepage = 'https://github.com/vivien/i3blocks'
+
+[[package]]
+channel = 'arch'
+name = 'i3blocks'
+
+[[package]]
+channel = 'debian'
+name = 'i3blocks'
+
+[[package]]
+channel = 'fedora'
+name = 'i3blocks'

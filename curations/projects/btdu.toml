@@ -1,0 +1,8 @@
+id = 'btdu'
+name = 'btdu'
+
+homepage = 'https://github.com/CyberShadow/btdu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/btdu'

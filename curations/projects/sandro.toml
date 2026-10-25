@@ -1,0 +1,12 @@
+id = 'sandro'
+name = 'sandro'
+
+homepage = 'http://www.sigala.it/sandro/software.php'
+
+[[package]]
+channel = 'debian'
+name = 'cutils'
+
+[[package]]
+channel = 'debian'
+name = 'hp48cc'

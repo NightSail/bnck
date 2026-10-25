@@ -1,0 +1,8 @@
+id = 'colorhug-client'
+name = 'colorhug-client'
+
+homepage = 'https://github.com/hughski/colorhug-client'
+
+[[package]]
+channel = 'debian'
+name = 'colorhug-client'

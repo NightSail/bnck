@@ -1,0 +1,8 @@
+id = 'spectral-cli'
+name = 'spectral-cli'
+
+homepage = 'https://stoplight.io/open-source/spectral'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spectral-cli'

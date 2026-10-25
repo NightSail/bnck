@@ -1,0 +1,13 @@
+id = 'cargo-audit'
+name = 'cargo-audit'
+
+homepage = 'https://github.com/RustSec/cargo-audit'
+repository = 'https://github.com/rustsec/rustsec.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-audit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-audit'

@@ -1,0 +1,8 @@
+id = 'wings3d'
+name = 'wings3d'
+
+homepage = 'http://www.wings3d.com'
+
+[[package]]
+channel = 'debian'
+name = 'wings3d'

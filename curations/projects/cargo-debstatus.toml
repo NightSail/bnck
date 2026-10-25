@@ -1,0 +1,12 @@
+id = 'cargo-debstatus'
+name = 'cargo-debstatus'
+
+homepage = 'https://github.com/kpcyrd/cargo-debstatus'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-debstatus'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-debstatus'

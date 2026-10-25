@@ -1,0 +1,8 @@
+id = 'gitmoji'
+name = 'gitmoji'
+
+homepage = 'https://gitmoji.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitmoji'

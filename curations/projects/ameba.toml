@@ -1,0 +1,8 @@
+id = 'ameba'
+name = 'ameba'
+
+homepage = 'https://github.com/crystal-ameba/ameba'
+
+[[package]]
+channel = 'arch'
+name = 'ameba'

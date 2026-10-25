@@ -1,0 +1,12 @@
+id = 'dill'
+name = 'dill'
+
+homepage = 'https://github.com/uqfoundation/dill'
+
+[[package]]
+channel = 'arch'
+name = 'python-dill'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dill'

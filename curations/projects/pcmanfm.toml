@@ -1,0 +1,12 @@
+id = 'pcmanfm'
+name = 'pcmanfm'
+
+homepage = 'https://github.com/lxde/pcmanfm'
+
+[[package]]
+channel = 'arch'
+name = 'pcmanfm'
+
+[[package]]
+channel = 'debian'
+name = 'pcmanfm'

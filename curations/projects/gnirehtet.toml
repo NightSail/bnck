@@ -1,0 +1,8 @@
+id = 'gnirehtet'
+name = 'gnirehtet'
+
+repository = 'https://github.com/Genymobile/gnirehtet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnirehtet'

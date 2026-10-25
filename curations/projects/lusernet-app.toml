@@ -1,0 +1,8 @@
+id = 'lusernet-app'
+name = 'lusernet.app'
+
+homepage = 'http://wiki.gnustep.org/index.php/LuserNET.app'
+
+[[package]]
+channel = 'debian'
+name = 'lusernet.app'

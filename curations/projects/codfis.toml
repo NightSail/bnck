@@ -1,0 +1,8 @@
+id = 'codfis'
+name = 'codfis'
+
+homepage = 'http://www.digitazero.org'
+
+[[package]]
+channel = 'debian'
+name = 'codfis'

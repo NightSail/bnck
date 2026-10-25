@@ -1,0 +1,8 @@
+id = 'python3-jmespath'
+name = 'python3-jmespath'
+
+homepage = 'https://github.com/jmespath/jmespath.py'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jmespath'

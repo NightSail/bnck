@@ -1,0 +1,12 @@
+id = 'lunzip'
+name = 'lunzip'
+
+homepage = 'https://www.nongnu.org/lzip/lunzip.html'
+
+[[package]]
+channel = 'debian'
+name = 'lunzip'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lunzip'

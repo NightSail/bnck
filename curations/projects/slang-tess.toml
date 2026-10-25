@@ -1,0 +1,8 @@
+id = 'slang-tess'
+name = 'slang-tess'
+
+homepage = 'http://space.mit.edu/cxc/software/slang/modules/tess'
+
+[[package]]
+channel = 'debian'
+name = 'slang-tess'

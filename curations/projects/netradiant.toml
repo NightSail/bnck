@@ -1,0 +1,12 @@
+id = 'netradiant'
+name = 'netradiant'
+
+homepage = 'https://netradiant.gitlab.io'
+
+[[package]]
+channel = 'debian'
+name = 'netradiant'
+
+[[package]]
+channel = 'debian'
+name = 'netradiant-tools'

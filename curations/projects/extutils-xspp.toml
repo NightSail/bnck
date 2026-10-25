@@ -1,0 +1,12 @@
+id = 'extutils-xspp'
+name = 'ExtUtils-XSpp'
+
+homepage = 'https://metacpan.org/release/ExtUtils-XSpp'
+
+[[package]]
+channel = 'debian'
+name = 'libextutils-xspp-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-ExtUtils-XSpp'

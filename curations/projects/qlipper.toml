@@ -1,0 +1,12 @@
+id = 'qlipper'
+name = 'qlipper'
+
+homepage = 'https://github.com/pvanek/qlipper'
+
+[[package]]
+channel = 'debian'
+name = 'qlipper'
+
+[[package]]
+channel = 'fedora'
+name = 'qlipper'

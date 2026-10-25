@@ -1,0 +1,9 @@
+id = 'nullclaw'
+name = 'nullclaw'
+
+homepage = 'https://nullclaw.io'
+repository = 'https://github.com/nullclaw/nullclaw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nullclaw'

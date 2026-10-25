@@ -1,0 +1,8 @@
+id = 'dependabot'
+name = 'dependabot'
+
+repository = 'https://github.com/dependabot/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dependabot'

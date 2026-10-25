@@ -1,0 +1,12 @@
+id = 'liblognorm-utils'
+name = 'liblognorm-utils'
+
+homepage = 'https://www.liblognorm.com'
+
+[[package]]
+channel = 'debian'
+name = 'liblognorm-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'liblognorm-utils'

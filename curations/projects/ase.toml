@@ -1,0 +1,12 @@
+id = 'ase'
+name = 'ase'
+
+homepage = 'https://wiki.fysik.dtu.dk/ase'
+
+[[package]]
+channel = 'debian'
+name = 'ase'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ase'

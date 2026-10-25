@@ -1,0 +1,8 @@
+id = 'jsampler'
+name = 'jsampler'
+
+homepage = 'http://jsampler.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'jsampler'

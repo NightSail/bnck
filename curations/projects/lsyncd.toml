@@ -4,5 +4,13 @@ name = 'lsyncd'
 homepage = 'https://github.com/lsyncd/lsyncd'
 
 [[package]]
+channel = 'debian'
+name = 'lsyncd'
+
+[[package]]
+channel = 'fedora'
+name = 'lsyncd'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/lsyncd'

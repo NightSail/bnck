@@ -1,0 +1,8 @@
+id = 'pizzly'
+name = 'pizzly'
+
+homepage = 'https://github.com/pmelsted/pizzly'
+
+[[package]]
+channel = 'debian'
+name = 'pizzly'

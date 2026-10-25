@@ -1,0 +1,12 @@
+id = 'hxtools'
+name = 'hxtools'
+
+homepage = 'https://inai.de/projects/hxtools'
+
+[[package]]
+channel = 'debian'
+name = 'hxtools'
+
+[[package]]
+channel = 'fedora'
+name = 'hxtools'

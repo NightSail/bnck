@@ -1,0 +1,8 @@
+id = 'ergochat-ldap'
+name = 'ergochat-ldap'
+
+homepage = 'https://github.com/ergochat/ergo-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'ergochat-ldap'

@@ -1,0 +1,20 @@
+id = 'rtklib'
+name = 'rtklib'
+
+homepage = 'http://www.rtklib.com'
+
+[[package]]
+channel = 'debian'
+name = 'rtklib'
+
+[[package]]
+channel = 'debian'
+name = 'rtklib-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'rtklib'
+
+[[package]]
+channel = 'fedora'
+name = 'rtklib-qt'

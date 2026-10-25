@@ -1,0 +1,8 @@
+id = 'perl-wx'
+name = 'perl-Wx'
+
+homepage = 'https://metacpan.org/release/Wx'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Wx'

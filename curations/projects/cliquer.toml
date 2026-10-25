@@ -1,0 +1,16 @@
+id = 'cliquer'
+name = 'cliquer'
+
+homepage = 'https://users.aalto.fi/~pat/cliquer.html'
+
+[[package]]
+channel = 'arch'
+name = 'cliquer'
+
+[[package]]
+channel = 'debian'
+name = 'cliquer'
+
+[[package]]
+channel = 'fedora'
+name = 'cliquer'

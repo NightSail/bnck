@@ -1,0 +1,8 @@
+id = 'pscan-chip'
+name = 'pscan-chip'
+
+homepage = 'http://www.beaconlab.it/pscan_chip_dev'
+
+[[package]]
+channel = 'debian'
+name = 'pscan-chip'

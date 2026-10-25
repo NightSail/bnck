@@ -1,0 +1,16 @@
+id = 'kubectx'
+name = 'kubectx'
+
+repository = 'https://github.com/ahmetb/kubectx.git'
+
+[[package]]
+channel = 'arch'
+name = 'kubectx'
+
+[[package]]
+channel = 'debian'
+name = 'kubectx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectx'

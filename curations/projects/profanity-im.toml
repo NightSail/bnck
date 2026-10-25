@@ -1,0 +1,24 @@
+id = 'profanity-im'
+name = 'profanity-im'
+
+homepage = 'https://profanity-im.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'profanity'
+
+[[package]]
+channel = 'arch'
+name = 'profanity-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'profanity'
+
+[[package]]
+channel = 'debian'
+name = 'profanity-light'
+
+[[package]]
+channel = 'fedora'
+name = 'profanity'

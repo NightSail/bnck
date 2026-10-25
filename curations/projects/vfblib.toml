@@ -1,0 +1,8 @@
+id = 'vfblib'
+name = 'vfblib'
+
+homepage = 'https://github.com/LucasFonts/vfbLib'
+
+[[package]]
+channel = 'debian'
+name = 'vfblib'

@@ -1,0 +1,8 @@
+id = 'ibazel'
+name = 'ibazel'
+
+repository = 'https://github.com/bazelbuild/bazel-watcher.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ibazel'

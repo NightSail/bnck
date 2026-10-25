@@ -1,0 +1,16 @@
+id = 'aespipe'
+name = 'aespipe'
+
+homepage = 'http://loop-aes.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'aespipe'
+
+[[package]]
+channel = 'fedora'
+name = 'aespipe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aespipe'

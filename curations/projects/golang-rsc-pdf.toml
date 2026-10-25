@@ -1,0 +1,8 @@
+id = 'golang-rsc-pdf'
+name = 'golang-rsc-pdf'
+
+homepage = 'https://github.com/rsc/pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-rsc-pdf'

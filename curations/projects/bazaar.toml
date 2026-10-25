@@ -1,0 +1,16 @@
+id = 'bazaar'
+name = 'bazaar'
+
+homepage = 'https://apps.gnome.org/Bazaar'
+
+[[package]]
+channel = 'arch'
+name = 'bazaar'
+
+[[package]]
+channel = 'debian'
+name = 'bazaar'
+
+[[package]]
+channel = 'debian'
+name = 'bge-demo'

@@ -1,0 +1,8 @@
+id = 'redis-leveldb'
+name = 'redis-leveldb'
+
+repository = 'https://github.com/KDr2/redis-leveldb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redis-leveldb'

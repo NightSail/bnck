@@ -1,0 +1,12 @@
+id = 'memory-profiler'
+name = 'memory_profiler'
+
+homepage = 'https://github.com/SamSaffron/memory_profiler'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-memory_profiler'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-memory-profiler'

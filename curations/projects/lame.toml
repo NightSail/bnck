@@ -1,0 +1,20 @@
+id = 'lame'
+name = 'lame'
+
+homepage = 'https://lame.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'lame'
+
+[[package]]
+channel = 'debian'
+name = 'lame'
+
+[[package]]
+channel = 'fedora'
+name = 'lame'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lame'

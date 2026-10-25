@@ -1,0 +1,16 @@
+id = 'spirv-cross'
+name = 'spirv-cross'
+
+repository = 'https://github.com/KhronosGroup/SPIRV-Cross.git'
+
+[[package]]
+channel = 'arch'
+name = 'spirv-cross'
+
+[[package]]
+channel = 'debian'
+name = 'spirv-cross'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spirv-cross'

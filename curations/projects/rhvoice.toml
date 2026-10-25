@@ -1,0 +1,8 @@
+id = 'rhvoice'
+name = 'rhvoice'
+
+homepage = 'https://github.com/RHVoice/RHVoice'
+
+[[package]]
+channel = 'arch'
+name = 'rhvoice'

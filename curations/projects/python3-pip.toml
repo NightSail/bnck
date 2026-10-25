@@ -1,0 +1,8 @@
+id = 'python3-pip'
+name = 'python3-pip'
+
+homepage = 'https://pip.pypa.io/en/stable'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pip'

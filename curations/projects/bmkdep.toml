@@ -1,0 +1,8 @@
+id = 'bmkdep'
+name = 'bmkdep'
+
+homepage = 'https://github.com/trociny/bmkdep'
+
+[[package]]
+channel = 'arch'
+name = 'bmkdep'

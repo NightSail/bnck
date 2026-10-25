@@ -1,0 +1,12 @@
+id = 'docbook-tools'
+name = 'docbook-tools'
+
+homepage = 'http://sources.redhat.com/docbook-tools'
+
+[[package]]
+channel = 'debian'
+name = 'docbook-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'docbook-utils-pdf'

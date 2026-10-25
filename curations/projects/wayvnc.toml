@@ -1,0 +1,16 @@
+id = 'wayvnc'
+name = 'wayvnc'
+
+homepage = 'https://github.com/any1/wayvnc'
+
+[[package]]
+channel = 'arch'
+name = 'wayvnc'
+
+[[package]]
+channel = 'debian'
+name = 'wayvnc'
+
+[[package]]
+channel = 'fedora'
+name = 'wayvnc'

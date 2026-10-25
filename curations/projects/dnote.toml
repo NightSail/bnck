@@ -1,0 +1,9 @@
+id = 'dnote'
+name = 'dnote'
+
+homepage = 'https://www.getdnote.com'
+repository = 'https://github.com/dnote/dnote.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnote'

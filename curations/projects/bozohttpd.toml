@@ -1,0 +1,8 @@
+id = 'bozohttpd'
+name = 'bozohttpd'
+
+homepage = 'https://pkgsrc.se/www/bozohttpd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bozohttpd'

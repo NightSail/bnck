@@ -1,0 +1,32 @@
+id = 'vlc'
+name = 'vlc'
+
+homepage = 'https://www.videolan.org/vlc'
+
+[[package]]
+channel = 'arch'
+name = 'vlc-cli'
+
+[[package]]
+channel = 'arch'
+name = 'vlc-gui-ncurses'
+
+[[package]]
+channel = 'arch'
+name = 'vlc-gui-qt'
+
+[[package]]
+channel = 'arch'
+name = 'vlc-gui-skins2'
+
+[[package]]
+channel = 'debian'
+name = 'vlc-bin'
+
+[[package]]
+channel = 'debian'
+name = 'vlc-plugin-qt'
+
+[[package]]
+channel = 'debian'
+name = 'vlc-plugin-skins2'

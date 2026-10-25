@@ -1,0 +1,8 @@
+id = 'python3-sphinxcontrib-images'
+name = 'python3-sphinxcontrib.images'
+
+homepage = 'https://github.com/sphinx-contrib/images'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinxcontrib.images'

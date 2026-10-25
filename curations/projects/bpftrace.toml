@@ -1,0 +1,16 @@
+id = 'bpftrace'
+name = 'bpftrace'
+
+homepage = 'https://github.com/iovisor/bpftrace'
+
+[[package]]
+channel = 'arch'
+name = 'bpftrace'
+
+[[package]]
+channel = 'debian'
+name = 'bpftrace'
+
+[[package]]
+channel = 'fedora'
+name = 'bpftrace'

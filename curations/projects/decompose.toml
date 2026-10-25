@@ -1,0 +1,8 @@
+id = 'decompose'
+name = 'decompose'
+
+repository = 'https://github.com/s0rg/decompose.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/decompose'

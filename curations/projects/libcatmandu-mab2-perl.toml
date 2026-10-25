@@ -1,0 +1,8 @@
+id = 'libcatmandu-mab2-perl'
+name = 'libcatmandu-mab2-perl'
+
+homepage = 'https://github.com/jorol/Catmandu-MAB2'
+
+[[package]]
+channel = 'debian'
+name = 'libcatmandu-mab2-perl'

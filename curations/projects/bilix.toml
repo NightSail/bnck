@@ -1,0 +1,8 @@
+id = 'bilix'
+name = 'bilix'
+
+repository = 'https://github.com/HFrost0/bilix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bilix'

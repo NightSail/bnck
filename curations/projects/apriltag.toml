@@ -1,0 +1,8 @@
+id = 'apriltag'
+name = 'apriltag'
+
+homepage = 'https://april.eecs.umich.edu/software/apriltag.html'
+
+[[package]]
+channel = 'debian'
+name = 'apriltag'

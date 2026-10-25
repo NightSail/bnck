@@ -1,0 +1,32 @@
+id = 'gap-system'
+name = 'gap-system'
+
+homepage = 'https://www.gap-system.org'
+
+[[package]]
+channel = 'arch'
+name = 'gap'
+
+[[package]]
+channel = 'arch'
+name = 'gap-packages'
+
+[[package]]
+channel = 'debian'
+name = 'gap-core'
+
+[[package]]
+channel = 'debian'
+name = 'gap-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'gap'
+
+[[package]]
+channel = 'fedora'
+name = 'gap-core'
+
+[[package]]
+channel = 'fedora'
+name = 'gap-devel'

@@ -1,0 +1,8 @@
+id = 'perl-gd'
+name = 'perl-GD'
+
+homepage = 'https://metacpan.org/release/GD'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-GD'

@@ -1,0 +1,13 @@
+id = 'minica'
+name = 'minica'
+
+homepage = 'https://github.com/paultag/minica'
+repository = 'https://github.com/jsha/minica.git'
+
+[[package]]
+channel = 'debian'
+name = 'minica'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minica'

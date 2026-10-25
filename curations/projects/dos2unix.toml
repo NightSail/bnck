@@ -1,0 +1,20 @@
+id = 'dos2unix'
+name = 'dos2unix'
+
+homepage = 'https://waterlander.net/dos2unix'
+
+[[package]]
+channel = 'arch'
+name = 'dos2unix'
+
+[[package]]
+channel = 'debian'
+name = 'dos2unix'
+
+[[package]]
+channel = 'fedora'
+name = 'dos2unix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dos2unix'

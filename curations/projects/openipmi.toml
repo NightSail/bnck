@@ -1,0 +1,20 @@
+id = 'openipmi'
+name = 'openipmi'
+
+homepage = 'http://openipmi.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'openipmi'
+
+[[package]]
+channel = 'debian'
+name = 'openipmi'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenIPMI'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenIPMI-lanserv'

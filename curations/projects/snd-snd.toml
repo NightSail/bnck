@@ -1,0 +1,6 @@
+id = 'snd-snd'
+name = 'snd'
+
+[[package]]
+channel = 'crates.io'
+name = 'snd'

@@ -1,0 +1,8 @@
+id = 'xorg-appres'
+name = 'xorg-appres'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/appres'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-appres'

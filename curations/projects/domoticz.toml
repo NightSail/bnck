@@ -1,0 +1,8 @@
+id = 'domoticz'
+name = 'domoticz'
+
+homepage = 'http://www.domoticz.com'
+
+[[package]]
+channel = 'fedora'
+name = 'domoticz'

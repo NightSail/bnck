@@ -1,0 +1,8 @@
+id = 'mboxgrep'
+name = 'mboxgrep'
+
+homepage = 'http://www.mboxgrep.org'
+
+[[package]]
+channel = 'debian'
+name = 'mboxgrep'

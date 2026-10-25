@@ -1,0 +1,8 @@
+id = 'cargo-modules'
+name = 'cargo-modules'
+
+homepage = 'https://github.com/regexident/cargo-modules'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-modules'

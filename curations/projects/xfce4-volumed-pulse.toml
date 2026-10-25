@@ -1,0 +1,8 @@
+id = 'xfce4-volumed-pulse'
+name = 'xfce4-volumed-pulse'
+
+homepage = 'https://gitlab.xfce.org/apps/xfce4-volumed-pulse'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-volumed-pulse'

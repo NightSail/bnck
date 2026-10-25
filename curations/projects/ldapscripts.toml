@@ -1,0 +1,8 @@
+id = 'ldapscripts'
+name = 'ldapscripts'
+
+homepage = 'http://ldapscripts.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ldapscripts'

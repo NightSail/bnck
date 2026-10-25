@@ -1,0 +1,24 @@
+id = 'pstoedit'
+name = 'pstoedit'
+
+homepage = 'http://www.pstoedit.net'
+
+[[package]]
+channel = 'arch'
+name = 'pstoedit'
+
+[[package]]
+channel = 'debian'
+name = 'pstoedit'
+
+[[package]]
+channel = 'debian'
+name = 'pstoedit-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'pstoedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pstoedit'

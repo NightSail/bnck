@@ -1,0 +1,16 @@
+id = 'listen'
+name = 'listen'
+
+homepage = 'https://github.com/guard/listen'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-listen'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-listen'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-listen'

@@ -1,0 +1,12 @@
+id = 'darkman'
+name = 'darkman'
+
+homepage = 'https://darkman.whynothugo.nl'
+
+[[package]]
+channel = 'arch'
+name = 'darkman'
+
+[[package]]
+channel = 'fedora'
+name = 'darkman'

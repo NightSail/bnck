@@ -10,3 +10,7 @@ name = 'kew'
 [[package]]
 channel = 'debian'
 name = 'kew'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kew'

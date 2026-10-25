@@ -1,0 +1,8 @@
+id = 'pylint-pylint'
+name = 'pylint'
+
+homepage = 'https://pylint.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pylint'

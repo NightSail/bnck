@@ -1,0 +1,16 @@
+id = 'marknote'
+name = 'marknote'
+
+homepage = 'https://apps.kde.org/marknote'
+
+[[package]]
+channel = 'arch'
+name = 'marknote'
+
+[[package]]
+channel = 'debian'
+name = 'marknote'
+
+[[package]]
+channel = 'fedora'
+name = 'marknote'

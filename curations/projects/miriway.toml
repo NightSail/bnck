@@ -1,0 +1,16 @@
+id = 'miriway'
+name = 'miriway'
+
+homepage = 'https://miriway.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'miriway'
+
+[[package]]
+channel = 'fedora'
+name = 'miriway'
+
+[[package]]
+channel = 'fedora'
+name = 'miriway-session'

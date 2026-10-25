@@ -1,0 +1,8 @@
+id = 'wavesurfer'
+name = 'wavesurfer'
+
+homepage = 'https://sourceforge.net/projects/wavesurfer'
+
+[[package]]
+channel = 'debian'
+name = 'wavesurfer'

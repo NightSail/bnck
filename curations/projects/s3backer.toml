@@ -1,0 +1,8 @@
+id = 's3backer'
+name = 's3backer'
+
+homepage = 'https://github.com/archiecobbs/s3backer'
+
+[[package]]
+channel = 'debian'
+name = 's3backer'

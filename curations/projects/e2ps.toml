@@ -1,0 +1,6 @@
+id = 'e2ps'
+name = 'e2ps'
+
+[[package]]
+channel = 'debian'
+name = 'e2ps'

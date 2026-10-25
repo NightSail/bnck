@@ -1,0 +1,8 @@
+id = 'lecm'
+name = 'lecm'
+
+homepage = 'https://github.com/Spredzy/lecm'
+
+[[package]]
+channel = 'debian'
+name = 'lecm'

@@ -1,0 +1,8 @@
+id = 'switch-lan-play'
+name = 'switch-lan-play'
+
+repository = 'https://github.com/spacemeowx2/switch-lan-play.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/switch-lan-play'

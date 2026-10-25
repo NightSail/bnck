@@ -1,0 +1,20 @@
+id = 'checksec'
+name = 'checksec'
+
+homepage = 'https://slimm609.github.io/checksec'
+
+[[package]]
+channel = 'arch'
+name = 'checksec'
+
+[[package]]
+channel = 'debian'
+name = 'checksec'
+
+[[package]]
+channel = 'fedora'
+name = 'checksec'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checksec'

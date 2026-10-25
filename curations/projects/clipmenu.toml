@@ -1,0 +1,8 @@
+id = 'clipmenu'
+name = 'clipmenu'
+
+homepage = 'https://github.com/cdown/clipmenu'
+
+[[package]]
+channel = 'arch'
+name = 'clipmenu'

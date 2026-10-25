@@ -1,0 +1,8 @@
+id = 'python3-guidata'
+name = 'python3-guidata'
+
+homepage = 'https://github.com/PierreRaybaut/guidata'
+
+[[package]]
+channel = 'debian'
+name = 'python3-guidata'

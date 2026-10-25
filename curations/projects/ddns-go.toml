@@ -1,0 +1,8 @@
+id = 'ddns-go'
+name = 'ddns-go'
+
+repository = 'https://github.com/jeessy2/ddns-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddns-go'

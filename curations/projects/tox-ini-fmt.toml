@@ -1,0 +1,8 @@
+id = 'tox-ini-fmt'
+name = 'tox-ini-fmt'
+
+homepage = 'https://github.com/tox-dev/tox-ini-fmt'
+
+[[package]]
+channel = 'debian'
+name = 'tox-ini-fmt'

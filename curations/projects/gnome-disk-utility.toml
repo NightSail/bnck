@@ -1,0 +1,16 @@
+id = 'gnome-disk-utility'
+name = 'gnome-disk-utility'
+
+homepage = 'https://apps.gnome.org/DiskUtility'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-disk-utility'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-disk-utility'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-disk-utility'

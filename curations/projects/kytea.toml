@@ -1,0 +1,9 @@
+id = 'kytea'
+name = 'kytea'
+
+homepage = 'https://www.phontron.com/kytea'
+repository = 'https://github.com/neubig/kytea.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kytea'

@@ -1,0 +1,8 @@
+id = 'golang-github-bifurcation-mint'
+name = 'golang-github-bifurcation-mint'
+
+homepage = 'https://github.com/bifurcation/mint'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-bifurcation-mint'

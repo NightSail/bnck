@@ -1,0 +1,8 @@
+id = 'onedriver'
+name = 'onedriver'
+
+homepage = 'https://github.com/jstaf/onedriver'
+
+[[package]]
+channel = 'debian'
+name = 'onedriver'

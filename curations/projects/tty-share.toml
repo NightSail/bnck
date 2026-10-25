@@ -1,0 +1,12 @@
+id = 'tty-share'
+name = 'tty-share'
+
+homepage = 'https://tty-share.com'
+
+[[package]]
+channel = 'debian'
+name = 'tty-share'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tty-share'

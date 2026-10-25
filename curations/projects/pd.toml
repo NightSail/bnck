@@ -1,0 +1,8 @@
+id = 'pd'
+name = 'pd'
+
+homepage = 'http://msp.ucsd.edu/software.html'
+
+[[package]]
+channel = 'arch'
+name = 'pd'

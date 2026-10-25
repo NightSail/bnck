@@ -1,0 +1,21 @@
+id = 'wireguard-tools'
+name = 'wireguard-tools'
+
+homepage = 'https://www.wireguard.com'
+repository = 'https://git.zx2c4.com/wireguard-tools.git'
+
+[[package]]
+channel = 'arch'
+name = 'wireguard-tools'
+
+[[package]]
+channel = 'debian'
+name = 'wireguard-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'wireguard-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wireguard-tools'

@@ -1,0 +1,16 @@
+id = 'rplay'
+name = 'rplay'
+
+homepage = 'http://rplay.doit.org'
+
+[[package]]
+channel = 'debian'
+name = 'rplay-client'
+
+[[package]]
+channel = 'debian'
+name = 'rplay-contrib'
+
+[[package]]
+channel = 'debian'
+name = 'rplay-server'

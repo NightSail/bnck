@@ -1,0 +1,8 @@
+id = 'fonts-tweak-tool'
+name = 'fonts-tweak-tool'
+
+homepage = 'https://gitlab.com/tagoh/fonts-tweak-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'fonts-tweak-tool'

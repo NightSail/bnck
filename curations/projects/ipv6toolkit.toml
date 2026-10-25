@@ -1,0 +1,17 @@
+id = 'ipv6toolkit'
+name = 'ipv6toolkit'
+
+homepage = 'http://www.si6networks.com/tools/ipv6toolkit'
+repository = 'https://github.com/fgont/ipv6toolkit.git'
+
+[[package]]
+channel = 'debian'
+name = 'ipv6toolkit'
+
+[[package]]
+channel = 'fedora'
+name = 'ipv6toolkit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipv6toolkit'

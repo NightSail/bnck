@@ -1,0 +1,8 @@
+id = 'psychopy'
+name = 'psychopy'
+
+homepage = 'https://www.psychopy.org'
+
+[[package]]
+channel = 'debian'
+name = 'psychopy'

@@ -1,0 +1,8 @@
+id = 'curl-impersonate'
+name = 'curl-impersonate'
+
+homepage = 'https://github.com/lexiforest/curl-impersonate'
+
+[[package]]
+channel = 'arch'
+name = 'curl-impersonate'

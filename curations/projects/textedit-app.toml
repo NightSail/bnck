@@ -1,0 +1,8 @@
+id = 'textedit-app'
+name = 'textedit.app'
+
+homepage = 'https://github.com/ericwa/TextEdit'
+
+[[package]]
+channel = 'debian'
+name = 'textedit.app'

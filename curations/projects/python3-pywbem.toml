@@ -1,0 +1,8 @@
+id = 'python3-pywbem'
+name = 'python3-pywbem'
+
+homepage = 'https://github.com/pywbem/pywbem'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pywbem'

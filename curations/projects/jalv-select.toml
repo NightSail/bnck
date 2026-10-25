@@ -1,0 +1,8 @@
+id = 'jalv-select'
+name = 'jalv_select'
+
+homepage = 'https://github.com/brummer10/jalv_select'
+
+[[package]]
+channel = 'fedora'
+name = 'jalv_select'

@@ -1,0 +1,8 @@
+id = 'fim'
+name = 'fim'
+
+homepage = 'https://www.nongnu.org/fbi-improved'
+
+[[package]]
+channel = 'debian'
+name = 'fim'

@@ -1,0 +1,20 @@
+id = 'pptpclient'
+name = 'pptpclient'
+
+homepage = 'http://pptpclient.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'pptpclient'
+
+[[package]]
+channel = 'debian'
+name = 'pptp-linux'
+
+[[package]]
+channel = 'fedora'
+name = 'pptp'
+
+[[package]]
+channel = 'fedora'
+name = 'pptp-setup'

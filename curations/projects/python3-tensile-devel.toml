@@ -1,0 +1,8 @@
+id = 'python3-tensile-devel'
+name = 'python3-tensile-devel'
+
+homepage = 'https://github.com/ROCmSoftwarePlatform/Tensile'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tensile-devel'

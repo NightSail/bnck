@@ -1,0 +1,8 @@
+id = 'spectacle'
+name = 'spectacle'
+
+homepage = 'https://www.kde.org/applications/graphics/spectacle'
+
+[[package]]
+channel = 'fedora'
+name = 'spectacle'

@@ -1,0 +1,8 @@
+id = 'python3-reentry'
+name = 'python3-reentry'
+
+homepage = 'https://github.com/DropD/reentry'
+
+[[package]]
+channel = 'debian'
+name = 'python3-reentry'

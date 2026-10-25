@@ -1,0 +1,12 @@
+id = 'json-xs'
+name = 'JSON-XS'
+
+homepage = 'https://metacpan.org/release/JSON-XS'
+
+[[package]]
+channel = 'debian'
+name = 'libjson-xs-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-JSON-XS'

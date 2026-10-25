@@ -1,0 +1,12 @@
+id = 'app-fatpacker'
+name = 'App-FatPacker'
+
+homepage = 'https://metacpan.org/release/App-FatPacker'
+
+[[package]]
+channel = 'debian'
+name = 'libapp-fatpacker-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-FatPacker'

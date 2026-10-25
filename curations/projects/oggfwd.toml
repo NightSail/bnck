@@ -1,0 +1,8 @@
+id = 'oggfwd'
+name = 'oggfwd'
+
+homepage = 'https://r-w-x.org/r/oggfwd'
+
+[[package]]
+channel = 'debian'
+name = 'oggfwd'

@@ -1,0 +1,8 @@
+id = 'afdko'
+name = 'afdko'
+
+homepage = 'https://adobe-type-tools.github.io/afdko'
+
+[[package]]
+channel = 'debian'
+name = 'afdko'

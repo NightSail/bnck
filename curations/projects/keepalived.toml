@@ -1,0 +1,16 @@
+id = 'keepalived'
+name = 'keepalived'
+
+homepage = 'https://www.keepalived.org'
+
+[[package]]
+channel = 'arch'
+name = 'keepalived'
+
+[[package]]
+channel = 'debian'
+name = 'keepalived'
+
+[[package]]
+channel = 'fedora'
+name = 'keepalived'

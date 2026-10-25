@@ -1,0 +1,16 @@
+id = 'smplayer'
+name = 'smplayer'
+
+homepage = 'https://www.smplayer.info'
+
+[[package]]
+channel = 'arch'
+name = 'smplayer'
+
+[[package]]
+channel = 'debian'
+name = 'smplayer'
+
+[[package]]
+channel = 'fedora'
+name = 'smplayer'

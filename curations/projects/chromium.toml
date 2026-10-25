@@ -1,0 +1,32 @@
+id = 'chromium'
+name = 'chromium'
+
+homepage = 'https://www.chromium.org/Home'
+
+[[package]]
+channel = 'arch'
+name = 'chromium'
+
+[[package]]
+channel = 'debian'
+name = 'chromium'
+
+[[package]]
+channel = 'debian'
+name = 'chromium-driver'
+
+[[package]]
+channel = 'debian'
+name = 'chromium-headless-shell'
+
+[[package]]
+channel = 'debian'
+name = 'chromium-shell'
+
+[[package]]
+channel = 'fedora'
+name = 'chromedriver'
+
+[[package]]
+channel = 'fedora'
+name = 'chromium'

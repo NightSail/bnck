@@ -1,0 +1,8 @@
+id = 'coco-coq'
+name = 'coco-coq'
+
+homepage = 'http://membres.lycos.fr/agisite/coco-c.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'coco-coq'

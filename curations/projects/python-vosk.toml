@@ -1,0 +1,8 @@
+id = 'python-vosk'
+name = 'python-vosk'
+
+homepage = 'https://alphacephei.com/vosk'
+
+[[package]]
+channel = 'arch'
+name = 'python-vosk'

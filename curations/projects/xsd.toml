@@ -1,0 +1,12 @@
+id = 'xsd'
+name = 'xsd'
+
+homepage = 'https://www.codesynthesis.com/products/xsd'
+
+[[package]]
+channel = 'fedora'
+name = 'xsd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xsd'

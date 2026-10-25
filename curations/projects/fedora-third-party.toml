@@ -1,0 +1,8 @@
+id = 'fedora-third-party'
+name = 'fedora-third-party'
+
+homepage = 'https://pagure.io/fedora-third-party'
+
+[[package]]
+channel = 'fedora'
+name = 'fedora-third-party'

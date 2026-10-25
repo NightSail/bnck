@@ -1,0 +1,8 @@
+id = 'aspectc'
+name = 'aspectc++'
+
+homepage = 'http://www.aspectc.org'
+
+[[package]]
+channel = 'debian'
+name = 'aspectc++'

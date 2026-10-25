@@ -1,0 +1,16 @@
+id = 'libxosd'
+name = 'libxosd'
+
+homepage = 'https://sourceforge.net/projects/libxosd'
+
+[[package]]
+channel = 'arch'
+name = 'xosd'
+
+[[package]]
+channel = 'fedora'
+name = 'xosd'
+
+[[package]]
+channel = 'fedora'
+name = 'xosd-devel'

@@ -1,0 +1,8 @@
+id = 'trayscale'
+name = 'trayscale'
+
+homepage = 'https://github.com/DeedleFake/trayscale'
+
+[[package]]
+channel = 'fedora'
+name = 'trayscale'

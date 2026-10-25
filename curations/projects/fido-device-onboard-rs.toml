@@ -1,0 +1,12 @@
+id = 'fido-device-onboard-rs'
+name = 'fido-device-onboard-rs'
+
+homepage = 'https://github.com/fdo-rs/fido-device-onboard-rs'
+
+[[package]]
+channel = 'fedora'
+name = 'fdo-admin-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'fdo-owner-cli'

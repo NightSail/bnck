@@ -1,0 +1,12 @@
+id = 'cutecom'
+name = 'cutecom'
+
+homepage = 'https://gitlab.com/cutecom/cutecom'
+
+[[package]]
+channel = 'debian'
+name = 'cutecom'
+
+[[package]]
+channel = 'fedora'
+name = 'cutecom'

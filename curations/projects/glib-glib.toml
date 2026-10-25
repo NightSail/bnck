@@ -1,0 +1,8 @@
+id = 'glib-glib'
+name = 'glib'
+
+homepage = 'https://docs.gtk.org/glib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glib'

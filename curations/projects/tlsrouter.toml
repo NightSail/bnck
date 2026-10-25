@@ -1,0 +1,8 @@
+id = 'tlsrouter'
+name = 'tlsrouter'
+
+homepage = 'https://github.com/inetaf/tcpproxy'
+
+[[package]]
+channel = 'debian'
+name = 'tlsrouter'

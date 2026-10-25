@@ -1,0 +1,12 @@
+id = 'openkim'
+name = 'openkim'
+
+homepage = 'https://openkim.org'
+
+[[package]]
+channel = 'debian'
+name = 'libkim-api-dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kim-api'

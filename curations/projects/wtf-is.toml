@@ -1,0 +1,8 @@
+id = 'wtf-is'
+name = 'wtf-is'
+
+repository = 'https://github.com/samuelvanderwaal/wtf-is'
+
+[[package]]
+channel = 'crates.io'
+name = 'wtf-is'

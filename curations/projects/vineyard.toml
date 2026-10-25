@@ -1,0 +1,8 @@
+id = 'vineyard'
+name = 'vineyard'
+
+homepage = 'https://v6d.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vineyard'

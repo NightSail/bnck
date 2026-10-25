@@ -1,0 +1,12 @@
+id = 'clips'
+name = 'clips'
+
+homepage = 'http://clipsrules.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'clips'
+
+[[package]]
+channel = 'fedora'
+name = 'clips'

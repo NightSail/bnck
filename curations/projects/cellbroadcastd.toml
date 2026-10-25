@@ -1,0 +1,16 @@
+id = 'cellbroadcastd'
+name = 'cellbroadcastd'
+
+homepage = 'https://gitlab.freedesktop.org/devrtz/cellbroadcastd'
+
+[[package]]
+channel = 'arch'
+name = 'cellbroadcastd'
+
+[[package]]
+channel = 'debian'
+name = 'cellbroadcastd'
+
+[[package]]
+channel = 'fedora'
+name = 'cellbroadcastd'

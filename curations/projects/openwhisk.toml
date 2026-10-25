@@ -1,0 +1,12 @@
+id = 'openwhisk'
+name = 'openwhisk'
+
+homepage = 'https://openwhisk.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wsk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wskdeploy'

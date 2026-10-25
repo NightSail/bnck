@@ -1,0 +1,8 @@
+id = 'ghc-wai-websockets-devel'
+name = 'ghc-wai-websockets-devel'
+
+homepage = 'https://hackage.haskell.org/package/wai-websockets'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-wai-websockets-devel'

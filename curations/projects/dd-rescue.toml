@@ -1,0 +1,12 @@
+id = 'dd-rescue'
+name = 'dd_rescue'
+
+homepage = 'http://www.garloff.de/kurt/linux/ddrescue'
+
+[[package]]
+channel = 'arch'
+name = 'dd_rescue'
+
+[[package]]
+channel = 'fedora'
+name = 'dd_rescue'

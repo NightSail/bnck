@@ -1,0 +1,8 @@
+id = 'nfs-utils'
+name = 'nfs-utils'
+
+homepage = 'http://nfs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'nfs-utils'

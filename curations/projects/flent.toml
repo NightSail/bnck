@@ -1,0 +1,12 @@
+id = 'flent'
+name = 'flent'
+
+homepage = 'https://flent.org'
+
+[[package]]
+channel = 'debian'
+name = 'flent'
+
+[[package]]
+channel = 'fedora'
+name = 'flent'

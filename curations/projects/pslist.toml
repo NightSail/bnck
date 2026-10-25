@@ -1,0 +1,12 @@
+id = 'pslist'
+name = 'pslist'
+
+homepage = 'https://devel.ringlet.net/sysutils/pslist'
+
+[[package]]
+channel = 'arch'
+name = 'pslist'
+
+[[package]]
+channel = 'debian'
+name = 'pslist'

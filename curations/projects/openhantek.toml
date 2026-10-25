@@ -1,0 +1,8 @@
+id = 'openhantek'
+name = 'openhantek'
+
+homepage = 'https://github.com/OpenHantek/OpenHantek6022'
+
+[[package]]
+channel = 'fedora'
+name = 'openhantek'

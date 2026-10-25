@@ -1,0 +1,8 @@
+id = 'dep-tree'
+name = 'dep-tree'
+
+repository = 'https://github.com/gabotechs/dep-tree.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dep-tree'

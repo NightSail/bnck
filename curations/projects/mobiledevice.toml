@@ -1,0 +1,8 @@
+id = 'mobiledevice'
+name = 'mobiledevice'
+
+homepage = 'https://github.com/imkira/mobiledevice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mobiledevice'

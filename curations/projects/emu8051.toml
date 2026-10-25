@@ -1,0 +1,12 @@
+id = 'emu8051'
+name = 'emu8051'
+
+homepage = 'http://www.hugovil.com/projet.php'
+
+[[package]]
+channel = 'debian'
+name = 'emu8051'
+
+[[package]]
+channel = 'fedora'
+name = 'emu8051'

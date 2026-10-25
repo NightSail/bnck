@@ -1,0 +1,8 @@
+id = 'elogind'
+name = 'elogind'
+
+homepage = 'https://github.com/elogind/elogind'
+
+[[package]]
+channel = 'debian'
+name = 'elogind'

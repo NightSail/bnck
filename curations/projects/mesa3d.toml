@@ -1,0 +1,44 @@
+id = 'mesa3d'
+name = 'mesa3d'
+
+homepage = 'https://www.mesa3d.org'
+
+[[package]]
+channel = 'arch'
+name = 'mesa-demos'
+
+[[package]]
+channel = 'arch'
+name = 'mesa-utils'
+
+[[package]]
+channel = 'arch'
+name = 'vulkan-dzn'
+
+[[package]]
+channel = 'arch'
+name = 'vulkan-mesa-layers'
+
+[[package]]
+channel = 'debian'
+name = 'mesa-utils'
+
+[[package]]
+channel = 'debian'
+name = 'mesa-utils-bin'
+
+[[package]]
+channel = 'debian'
+name = 'mesa-vulkan-drivers'
+
+[[package]]
+channel = 'fedora'
+name = 'egl-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'glx-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mesa-dxil-devel'

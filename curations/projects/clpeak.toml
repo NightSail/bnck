@@ -1,0 +1,20 @@
+id = 'clpeak'
+name = 'clpeak'
+
+homepage = 'https://github.com/krrishnarraj/clpeak'
+
+[[package]]
+channel = 'arch'
+name = 'clpeak'
+
+[[package]]
+channel = 'arch'
+name = 'clpeak-cuda'
+
+[[package]]
+channel = 'debian'
+name = 'clpeak'
+
+[[package]]
+channel = 'fedora'
+name = 'clpeak'

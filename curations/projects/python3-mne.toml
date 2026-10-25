@@ -1,0 +1,8 @@
+id = 'python3-mne'
+name = 'python3-mne'
+
+homepage = 'https://martinos.org/mne'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mne'

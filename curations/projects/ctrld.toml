@@ -1,0 +1,8 @@
+id = 'ctrld'
+name = 'ctrld'
+
+homepage = 'https://github.com/Control-D-Inc/ctrld'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctrld'

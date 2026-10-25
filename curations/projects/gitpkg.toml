@@ -1,0 +1,6 @@
+id = 'gitpkg'
+name = 'gitpkg'
+
+[[package]]
+channel = 'debian'
+name = 'gitpkg'

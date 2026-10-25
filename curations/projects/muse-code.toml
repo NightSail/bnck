@@ -1,0 +1,8 @@
+id = 'muse-code'
+name = 'muse-code'
+
+homepage = 'https://dev.meta.ai'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/muse-code'

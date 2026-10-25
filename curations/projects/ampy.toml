@@ -1,0 +1,8 @@
+id = 'ampy'
+name = 'ampy'
+
+homepage = 'https://github.com/adafruit/ampy'
+
+[[package]]
+channel = 'fedora'
+name = 'ampy'

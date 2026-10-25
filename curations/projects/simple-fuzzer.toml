@@ -1,0 +1,8 @@
+id = 'simple-fuzzer'
+name = 'Simple-Fuzzer'
+
+homepage = 'http://aconole.bytheb.org/programs/sfuzz.html'
+
+[[package]]
+channel = 'fedora'
+name = 'Simple-Fuzzer'

@@ -1,0 +1,20 @@
+id = 'postfwd'
+name = 'postfwd'
+
+homepage = 'https://postfwd.org'
+
+[[package]]
+channel = 'arch'
+name = 'postfwd'
+
+[[package]]
+channel = 'debian'
+name = 'hapolicy'
+
+[[package]]
+channel = 'debian'
+name = 'postfwd'
+
+[[package]]
+channel = 'fedora'
+name = 'postfwd'

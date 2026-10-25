@@ -1,0 +1,8 @@
+id = 'apngopt'
+name = 'apngopt'
+
+homepage = 'http://apng.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'apngopt'

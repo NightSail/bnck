@@ -1,0 +1,6 @@
+id = 'casacore-data-tai-utc'
+name = 'casacore-data-tai-utc'
+
+[[package]]
+channel = 'debian'
+name = 'casacore-data-tai-utc'

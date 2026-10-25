@@ -1,0 +1,8 @@
+id = 'perl-app-grindperl'
+name = 'perl-App-grindperl'
+
+homepage = 'https://metacpan.org/release/App-grindperl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-grindperl'

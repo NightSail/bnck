@@ -1,0 +1,8 @@
+id = 'net-acct'
+name = 'net-acct'
+
+homepage = 'https://web.archive.org/web/20090228224107/http://exorsus.net/projects/net-acct'
+
+[[package]]
+channel = 'debian'
+name = 'net-acct'

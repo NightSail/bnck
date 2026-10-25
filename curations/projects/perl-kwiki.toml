@@ -1,0 +1,8 @@
+id = 'perl-kwiki'
+name = 'perl-Kwiki'
+
+homepage = 'https://metacpan.org/release/Kwiki'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Kwiki'

@@ -1,0 +1,8 @@
+id = 'pg-partman'
+name = 'pg_partman'
+
+homepage = 'https://github.com/pgpartman/pg_partman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pg_partman'

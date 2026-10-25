@@ -1,0 +1,8 @@
+id = 'darker'
+name = 'darker'
+
+homepage = 'https://github.com/akaihola/darker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/darker'

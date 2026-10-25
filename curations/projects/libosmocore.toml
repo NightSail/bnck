@@ -1,0 +1,8 @@
+id = 'libosmocore'
+name = 'libosmocore'
+
+homepage = 'https://osmocom.org/projects/libosmocore'
+
+[[package]]
+channel = 'fedora'
+name = 'libosmocore'

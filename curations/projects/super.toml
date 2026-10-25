@@ -1,0 +1,12 @@
+id = 'super'
+name = 'super'
+
+homepage = 'https://github.com/brimdata/super'
+
+[[package]]
+channel = 'debian'
+name = 'super'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/super'

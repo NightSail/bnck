@@ -1,0 +1,8 @@
+id = 'python-numba'
+name = 'python-numba'
+
+homepage = 'https://numba.pydata.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-numba'

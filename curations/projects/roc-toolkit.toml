@@ -1,0 +1,12 @@
+id = 'roc-toolkit'
+name = 'roc-toolkit'
+
+homepage = 'https://github.com/roc-streaming/roc-toolkit'
+
+[[package]]
+channel = 'arch'
+name = 'roc-toolkit'
+
+[[package]]
+channel = 'fedora'
+name = 'roc-toolkit-utils'

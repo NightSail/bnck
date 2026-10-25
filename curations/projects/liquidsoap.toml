@@ -1,0 +1,13 @@
+id = 'liquidsoap'
+name = 'liquidsoap'
+
+homepage = 'https://www.liquidsoap.info'
+repository = 'https://github.com/savonet/liquidsoap.git'
+
+[[package]]
+channel = 'debian'
+name = 'liquidsoap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liquidsoap'

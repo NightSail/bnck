@@ -1,0 +1,6 @@
+id = 'farpd'
+name = 'farpd'
+
+[[package]]
+channel = 'debian'
+name = 'farpd'

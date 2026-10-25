@@ -1,0 +1,8 @@
+id = 'try'
+name = 'try'
+
+repository = 'https://github.com/tobi/try.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/try'

@@ -1,0 +1,8 @@
+id = 'gnuski'
+name = 'gnuski'
+
+homepage = 'https://gnuski.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnuski'

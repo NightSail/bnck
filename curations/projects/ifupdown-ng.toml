@@ -1,0 +1,12 @@
+id = 'ifupdown-ng'
+name = 'ifupdown-ng'
+
+homepage = 'https://github.com/ifupdown-ng/ifupdown-ng'
+
+[[package]]
+channel = 'debian'
+name = 'ifupdown-ng'
+
+[[package]]
+channel = 'debian'
+name = 'ifupdown-ng-compat'

@@ -1,0 +1,6 @@
+id = 'u2f-server'
+name = 'u2f-server'
+
+[[package]]
+channel = 'debian'
+name = 'u2f-server'

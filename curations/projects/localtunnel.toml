@@ -1,0 +1,8 @@
+id = 'localtunnel'
+name = 'localtunnel'
+
+homepage = 'https://theboroer.github.io/localtunnel-www'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/localtunnel'

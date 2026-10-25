@@ -1,0 +1,8 @@
+id = 'glam2'
+name = 'glam2'
+
+homepage = 'https://meme-suite.org/meme/doc/glam2.html'
+
+[[package]]
+channel = 'debian'
+name = 'glam2'

@@ -1,0 +1,6 @@
+id = 'svn-load'
+name = 'svn-load'
+
+[[package]]
+channel = 'debian'
+name = 'svn-load'

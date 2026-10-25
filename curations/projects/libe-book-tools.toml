@@ -1,0 +1,8 @@
+id = 'libe-book-tools'
+name = 'libe-book-tools'
+
+homepage = 'http://www.freedesktop.org/wiki/Software/libe-book'
+
+[[package]]
+channel = 'debian'
+name = 'libe-book-tools'

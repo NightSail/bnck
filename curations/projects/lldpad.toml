@@ -1,0 +1,12 @@
+id = 'lldpad'
+name = 'lldpad'
+
+homepage = 'https://github.com/intel/openlldp'
+
+[[package]]
+channel = 'debian'
+name = 'lldpad'
+
+[[package]]
+channel = 'fedora'
+name = 'lldpad'

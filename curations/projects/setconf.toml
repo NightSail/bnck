@@ -1,0 +1,17 @@
+id = 'setconf'
+name = 'setconf'
+
+homepage = 'https://setconf.roboticoverlords.org'
+repository = 'https://github.com/xyproto/setconf.git'
+
+[[package]]
+channel = 'arch'
+name = 'setconf'
+
+[[package]]
+channel = 'fedora'
+name = 'setconf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/setconf'

@@ -1,0 +1,8 @@
+id = 'unciv'
+name = 'unciv'
+
+homepage = 'https://github.com/yairm210/Unciv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unciv'

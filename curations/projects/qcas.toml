@@ -1,0 +1,12 @@
+id = 'qcas'
+name = 'qcas'
+
+homepage = 'http://webusers.imj-prg.fr/~frederic.han/qcas'
+
+[[package]]
+channel = 'fedora'
+name = 'qcas'
+
+[[package]]
+channel = 'fedora'
+name = 'qcas-qt4'

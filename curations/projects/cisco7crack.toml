@@ -1,0 +1,8 @@
+id = 'cisco7crack'
+name = 'cisco7crack'
+
+homepage = 'https://github.com/madrisan/cisco7crack'
+
+[[package]]
+channel = 'debian'
+name = 'cisco7crack'

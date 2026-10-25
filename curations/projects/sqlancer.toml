@@ -1,0 +1,8 @@
+id = 'sqlancer'
+name = 'sqlancer'
+
+repository = 'https://github.com/sqlancer/sqlancer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlancer'

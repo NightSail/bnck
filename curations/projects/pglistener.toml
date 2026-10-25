@@ -1,0 +1,8 @@
+id = 'pglistener'
+name = 'pglistener'
+
+homepage = 'https://gitlab.collabora.com/sysadmin/pglistener'
+
+[[package]]
+channel = 'debian'
+name = 'pglistener'

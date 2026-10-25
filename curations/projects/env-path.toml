@@ -1,0 +1,12 @@
+id = 'env-path'
+name = 'Env-Path'
+
+homepage = 'https://metacpan.org/release/Env-Path'
+
+[[package]]
+channel = 'debian'
+name = 'libenv-path-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Env-Path'

@@ -1,0 +1,16 @@
+id = 'compface'
+name = 'compface'
+
+homepage = 'http://ftp.xemacs.org/pub/xemacs/aux'
+
+[[package]]
+channel = 'arch'
+name = 'compface'
+
+[[package]]
+channel = 'debian'
+name = 'compface'
+
+[[package]]
+channel = 'fedora'
+name = 'compface'

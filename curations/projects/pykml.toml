@@ -1,0 +1,8 @@
+id = 'pykml'
+name = 'pykml'
+
+homepage = 'https://github.com/tylere/pykml'
+
+[[package]]
+channel = 'debian'
+name = 'pykml'

@@ -1,0 +1,8 @@
+id = 'openredir'
+name = 'openredir'
+
+homepage = 'https://github.com/lilydjwg/openredir'
+
+[[package]]
+channel = 'arch'
+name = 'openredir'

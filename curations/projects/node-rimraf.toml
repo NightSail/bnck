@@ -1,0 +1,8 @@
+id = 'node-rimraf'
+name = 'node-rimraf'
+
+homepage = 'https://github.com/isaacs/rimraf'
+
+[[package]]
+channel = 'debian'
+name = 'node-rimraf'

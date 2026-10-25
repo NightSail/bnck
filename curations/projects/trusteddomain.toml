@@ -1,0 +1,12 @@
+id = 'trusteddomain'
+name = 'trusteddomain'
+
+homepage = 'http://www.trusteddomain.org/opendmarc.html'
+
+[[package]]
+channel = 'fedora'
+name = 'opendmarc'
+
+[[package]]
+channel = 'fedora'
+name = 'opendmarc-tools'

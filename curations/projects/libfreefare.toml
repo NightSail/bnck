@@ -1,0 +1,8 @@
+id = 'libfreefare'
+name = 'libfreefare'
+
+homepage = 'https://github.com/nfc-tools/libfreefare'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libfreefare'

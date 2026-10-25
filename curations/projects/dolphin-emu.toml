@@ -1,0 +1,24 @@
+id = 'dolphin-emu'
+name = 'dolphin-emu'
+
+homepage = 'https://dolphin-emu.org'
+
+[[package]]
+channel = 'arch'
+name = 'dolphin-emu'
+
+[[package]]
+channel = 'arch'
+name = 'dolphin-emu-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'dolphin-emu'
+
+[[package]]
+channel = 'fedora'
+name = 'dolphin-emu-nogui'
+
+[[package]]
+channel = 'fedora'
+name = 'dolphin-emu-tool'

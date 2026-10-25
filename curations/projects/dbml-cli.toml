@@ -1,0 +1,8 @@
+id = 'dbml-cli'
+name = 'dbml-cli'
+
+homepage = 'https://www.dbml.org/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbml-cli'

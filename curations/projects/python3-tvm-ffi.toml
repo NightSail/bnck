@@ -1,0 +1,8 @@
+id = 'python3-tvm-ffi'
+name = 'python3-tvm-ffi'
+
+homepage = 'https://github.com/apache/tvm-ffi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tvm-ffi'

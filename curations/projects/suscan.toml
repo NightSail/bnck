@@ -1,0 +1,8 @@
+id = 'suscan'
+name = 'suscan'
+
+homepage = 'https://github.com/BatchDrake/suscan'
+
+[[package]]
+channel = 'arch'
+name = 'suscan'

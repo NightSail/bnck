@@ -1,0 +1,13 @@
+id = 'seaweedfs'
+name = 'seaweedfs'
+
+homepage = 'https://seaweedfs.com'
+repository = 'https://github.com/seaweedfs/seaweedfs.git'
+
+[[package]]
+channel = 'arch'
+name = 'seaweedfs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/seaweedfs'

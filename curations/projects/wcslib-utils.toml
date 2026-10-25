@@ -1,0 +1,8 @@
+id = 'wcslib-utils'
+name = 'wcslib-utils'
+
+homepage = 'https://www.atnf.csiro.au/computing/software/wcs/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'wcslib-utils'

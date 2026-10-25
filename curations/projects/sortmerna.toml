@@ -1,0 +1,8 @@
+id = 'sortmerna'
+name = 'sortmerna'
+
+homepage = 'https://github.com/sortmerna/sortmerna'
+
+[[package]]
+channel = 'debian'
+name = 'sortmerna'

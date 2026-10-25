@@ -1,0 +1,8 @@
+id = 'lefse'
+name = 'lefse'
+
+homepage = 'https://github.com/SegataLab/lefse'
+
+[[package]]
+channel = 'debian'
+name = 'lefse'

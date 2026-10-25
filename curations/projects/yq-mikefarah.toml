@@ -1,0 +1,16 @@
+id = 'yq-mikefarah'
+name = 'yq'
+
+homepage = 'https://github.com/mikefarah/yq'
+
+[[package]]
+channel = 'arch'
+name = 'go-yq'
+
+[[package]]
+channel = 'debian'
+name = 'yq-go'
+
+[[package]]
+channel = 'fedora'
+name = 'yq'

@@ -1,0 +1,8 @@
+id = 'peru'
+name = 'peru'
+
+repository = 'https://github.com/buildinspace/peru.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/peru'

@@ -1,0 +1,12 @@
+id = 'cookiecutter'
+name = 'cookiecutter'
+
+homepage = 'https://github.com/cookiecutter/cookiecutter'
+
+[[package]]
+channel = 'arch'
+name = 'python-cookiecutter'
+
+[[package]]
+channel = 'debian'
+name = 'cookiecutter'

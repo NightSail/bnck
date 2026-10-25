@@ -1,0 +1,8 @@
+id = 'goarrange'
+name = 'goarrange'
+
+homepage = 'https://github.com/jdeflander/goarrange'
+
+[[package]]
+channel = 'fedora'
+name = 'goarrange'

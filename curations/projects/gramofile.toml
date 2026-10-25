@@ -1,0 +1,8 @@
+id = 'gramofile'
+name = 'gramofile'
+
+homepage = 'http://www.opensourcepartners.nl/~costar/gramofile'
+
+[[package]]
+channel = 'debian'
+name = 'gramofile'

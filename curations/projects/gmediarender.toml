@@ -1,0 +1,8 @@
+id = 'gmediarender'
+name = 'gmediarender'
+
+homepage = 'https://github.com/hzeller/gmrender-resurrect'
+
+[[package]]
+channel = 'debian'
+name = 'gmediarender'

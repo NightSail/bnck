@@ -1,0 +1,8 @@
+id = 'hugo-mx-gateway'
+name = 'hugo-mx-gateway'
+
+homepage = 'https://github.com/rchakode/hugo-mx-gateway'
+
+[[package]]
+channel = 'debian'
+name = 'hugo-mx-gateway'

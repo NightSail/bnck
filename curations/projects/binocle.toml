@@ -1,0 +1,12 @@
+id = 'binocle'
+name = 'binocle'
+
+repository = 'https://github.com/sharkdp/binocle.git'
+
+[[package]]
+channel = 'arch'
+name = 'binocle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/binocle'

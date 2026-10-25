@@ -1,0 +1,12 @@
+id = 'kdb'
+name = 'kdb'
+
+homepage = 'https://community.kde.org/KDb'
+
+[[package]]
+channel = 'debian'
+name = 'libkdb3-driver-sqlite'
+
+[[package]]
+channel = 'fedora'
+name = 'kdb'

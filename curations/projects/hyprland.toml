@@ -1,0 +1,12 @@
+id = 'hyprland'
+name = 'hyprland'
+
+homepage = 'https://github.com/hyprwm/Hyprland'
+
+[[package]]
+channel = 'arch'
+name = 'hyprland'
+
+[[package]]
+channel = 'arch'
+name = 'hyprpm'

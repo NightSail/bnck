@@ -1,0 +1,8 @@
+id = 'identme'
+name = 'identme'
+
+homepage = 'https://www.ident.me'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/identme'

@@ -1,0 +1,20 @@
+id = 'inn'
+name = 'inn'
+
+homepage = 'https://www.eyrie.org/~eagle/software/inn'
+
+[[package]]
+channel = 'debian'
+name = 'inn2'
+
+[[package]]
+channel = 'debian'
+name = 'inn2-inews'
+
+[[package]]
+channel = 'fedora'
+name = 'inews'
+
+[[package]]
+channel = 'fedora'
+name = 'inn'

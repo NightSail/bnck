@@ -1,0 +1,24 @@
+id = 'mono-project-main-page'
+name = 'mono-project'
+
+homepage = 'http://www.mono-project.com/Main_Page'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-addins'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-basic'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mono-tools-gendarme'
+
+[[package]]
+channel = 'fedora'
+name = 'xsp'

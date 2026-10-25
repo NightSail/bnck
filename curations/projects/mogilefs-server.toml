@@ -1,0 +1,12 @@
+id = 'mogilefs-server'
+name = 'MogileFS-Server'
+
+homepage = 'https://metacpan.org/release/MogileFS-Server'
+
+[[package]]
+channel = 'fedora'
+name = 'mogilefsd'
+
+[[package]]
+channel = 'fedora'
+name = 'mogstored'

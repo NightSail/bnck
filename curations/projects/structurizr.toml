@@ -1,0 +1,8 @@
+id = 'structurizr'
+name = 'structurizr'
+
+homepage = 'https://structurizr.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/structurizr'

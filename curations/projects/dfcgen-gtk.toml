@@ -1,0 +1,6 @@
+id = 'dfcgen-gtk'
+name = 'dfcgen-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'dfcgen-gtk'

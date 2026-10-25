@@ -1,0 +1,13 @@
+id = 'ponyc'
+name = 'ponyc'
+
+homepage = 'https://ponylang.org'
+repository = 'https://github.com/ponylang/ponyc.git'
+
+[[package]]
+channel = 'arch'
+name = 'ponyc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ponyc'

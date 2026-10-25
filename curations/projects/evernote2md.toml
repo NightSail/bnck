@@ -1,0 +1,8 @@
+id = 'evernote2md'
+name = 'evernote2md'
+
+repository = 'https://github.com/wormi4ok/evernote2md.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/evernote2md'

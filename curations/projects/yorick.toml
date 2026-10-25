@@ -1,0 +1,16 @@
+id = 'yorick'
+name = 'yorick'
+
+homepage = 'http://yorick.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'yorick'
+
+[[package]]
+channel = 'debian'
+name = 'yorick-dev'
+
+[[package]]
+channel = 'debian'
+name = 'yorick-doc'

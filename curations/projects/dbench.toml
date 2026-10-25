@@ -1,0 +1,12 @@
+id = 'dbench'
+name = 'dbench'
+
+homepage = 'http://samba.org/ftp/tridge/dbench'
+
+[[package]]
+channel = 'debian'
+name = 'dbench'
+
+[[package]]
+channel = 'fedora'
+name = 'dbench'

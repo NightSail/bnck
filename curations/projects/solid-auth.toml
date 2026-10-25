@@ -1,0 +1,8 @@
+id = 'solid-auth'
+name = 'solid-auth'
+
+homepage = 'https://metacpan.org/release/Web-Solid-Auth'
+
+[[package]]
+channel = 'debian'
+name = 'solid-auth'

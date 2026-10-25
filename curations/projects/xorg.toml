@@ -1,0 +1,332 @@
+id = 'xorg'
+name = 'xorg'
+
+homepage = 'https://www.x.org'
+
+[[package]]
+channel = 'arch'
+name = 'xf86-video-qxl'
+
+[[package]]
+channel = 'debian'
+name = 'x11-common'
+
+[[package]]
+channel = 'debian'
+name = 'xnest'
+
+[[package]]
+channel = 'debian'
+name = 'xpmutils'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xephyr'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xorg-core'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xorg-dev'
+
+[[package]]
+channel = 'debian'
+name = 'xserver-xorg-video-intel'
+
+[[package]]
+channel = 'debian'
+name = 'xvfb'
+
+[[package]]
+channel = 'debian'
+name = 'xwayland'
+
+[[package]]
+channel = 'fedora'
+name = 'appres'
+
+[[package]]
+channel = 'fedora'
+name = 'bdftopcf'
+
+[[package]]
+channel = 'fedora'
+name = 'bitmap'
+
+[[package]]
+channel = 'fedora'
+name = 'editres'
+
+[[package]]
+channel = 'fedora'
+name = 'fonttosfnt'
+
+[[package]]
+channel = 'fedora'
+name = 'iceauth'
+
+[[package]]
+channel = 'fedora'
+name = 'imake'
+
+[[package]]
+channel = 'fedora'
+name = 'libXpm-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'libxkbcommon-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mkfontscale'
+
+[[package]]
+channel = 'fedora'
+name = 'oclock'
+
+[[package]]
+channel = 'fedora'
+name = 'rgb'
+
+[[package]]
+channel = 'fedora'
+name = 'sessreg'
+
+[[package]]
+channel = 'fedora'
+name = 'setxkbmap'
+
+[[package]]
+channel = 'fedora'
+name = 'x11perf'
+
+[[package]]
+channel = 'fedora'
+name = 'xclipboard'
+
+[[package]]
+channel = 'fedora'
+name = 'xclock'
+
+[[package]]
+channel = 'fedora'
+name = 'xcursorgen'
+
+[[package]]
+channel = 'fedora'
+name = 'xdpyinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'xev'
+
+[[package]]
+channel = 'fedora'
+name = 'xeyes'
+
+[[package]]
+channel = 'fedora'
+name = 'xfontsel'
+
+[[package]]
+channel = 'fedora'
+name = 'xgamma'
+
+[[package]]
+channel = 'fedora'
+name = 'xhost'
+
+[[package]]
+channel = 'fedora'
+name = 'xinput'
+
+[[package]]
+channel = 'fedora'
+name = 'xisxwayland'
+
+[[package]]
+channel = 'fedora'
+name = 'xkbcomp'
+
+[[package]]
+channel = 'fedora'
+name = 'xkill'
+
+[[package]]
+channel = 'fedora'
+name = 'xload'
+
+[[package]]
+channel = 'fedora'
+name = 'xlogo'
+
+[[package]]
+channel = 'fedora'
+name = 'xlsatoms'
+
+[[package]]
+channel = 'fedora'
+name = 'xlsclients'
+
+[[package]]
+channel = 'fedora'
+name = 'xlsfonts'
+
+[[package]]
+channel = 'fedora'
+name = 'xmessage'
+
+[[package]]
+channel = 'fedora'
+name = 'xmodmap'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-drv-intel'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-drv-synaptics-legacy'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-drv-wacom'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-drv-wacom-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-drv-wacom-serial-support'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-font-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-Xephyr'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-Xnest'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-Xorg'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-Xspice'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-Xvfb'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-Xwayland'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-server-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-xauth'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-xdm'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-xinit'
+
+[[package]]
+channel = 'fedora'
+name = 'xprop'
+
+[[package]]
+channel = 'fedora'
+name = 'xrandr'
+
+[[package]]
+channel = 'fedora'
+name = 'xrdb'
+
+[[package]]
+channel = 'fedora'
+name = 'xrefresh'
+
+[[package]]
+channel = 'fedora'
+name = 'xset'
+
+[[package]]
+channel = 'fedora'
+name = 'xsetroot'
+
+[[package]]
+channel = 'fedora'
+name = 'xstdcmap'
+
+[[package]]
+channel = 'fedora'
+name = 'xvidtune'
+
+[[package]]
+channel = 'fedora'
+name = 'xvinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'xwd'
+
+[[package]]
+channel = 'fedora'
+name = 'xwininfo'
+
+[[package]]
+channel = 'fedora'
+name = 'xwud'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/font-util'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libxpm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/makedepend'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkfontscale'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xauth'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xdpyinfo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xkbcomp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xorg-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xorgrgb'

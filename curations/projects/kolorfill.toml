@@ -1,0 +1,8 @@
+id = 'kolorfill'
+name = 'kolorfill'
+
+homepage = 'https://apps.kde.org/kolorfill'
+
+[[package]]
+channel = 'fedora'
+name = 'kolorfill'

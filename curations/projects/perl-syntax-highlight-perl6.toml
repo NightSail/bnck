@@ -1,0 +1,8 @@
+id = 'perl-syntax-highlight-perl6'
+name = 'perl-Syntax-Highlight-Perl6'
+
+homepage = 'https://metacpan.org/release/Syntax-Highlight-Perl6'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Syntax-Highlight-Perl6'

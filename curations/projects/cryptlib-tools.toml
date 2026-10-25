@@ -1,0 +1,8 @@
+id = 'cryptlib-tools'
+name = 'cryptlib-tools'
+
+homepage = 'https://github.com/cryptlib/cryptlib'
+
+[[package]]
+channel = 'fedora'
+name = 'cryptlib-tools'

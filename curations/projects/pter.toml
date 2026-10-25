@@ -1,0 +1,8 @@
+id = 'pter'
+name = 'pter'
+
+homepage = 'https://vonshednob.cc/pter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pter'

@@ -1,0 +1,24 @@
+id = 'fte'
+name = 'fte'
+
+homepage = 'https://fte.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'fte'
+
+[[package]]
+channel = 'debian'
+name = 'fte'
+
+[[package]]
+channel = 'debian'
+name = 'fte-console'
+
+[[package]]
+channel = 'debian'
+name = 'fte-terminal'
+
+[[package]]
+channel = 'debian'
+name = 'fte-xwindow'

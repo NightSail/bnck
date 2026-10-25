@@ -1,0 +1,16 @@
+id = 'gajim'
+name = 'gajim'
+
+homepage = 'https://gajim.org'
+
+[[package]]
+channel = 'arch'
+name = 'gajim'
+
+[[package]]
+channel = 'debian'
+name = 'gajim'
+
+[[package]]
+channel = 'fedora'
+name = 'gajim'

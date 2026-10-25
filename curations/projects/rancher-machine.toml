@@ -1,0 +1,8 @@
+id = 'rancher-machine'
+name = 'rancher-machine'
+
+repository = 'https://github.com/rancher/machine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rancher-machine'

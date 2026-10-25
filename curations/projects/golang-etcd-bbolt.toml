@@ -1,0 +1,8 @@
+id = 'golang-etcd-bbolt'
+name = 'golang-etcd-bbolt'
+
+homepage = 'https://github.com/etcd-io/bbolt'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-etcd-bbolt'

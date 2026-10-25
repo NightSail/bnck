@@ -1,0 +1,8 @@
+id = 'itzam-core'
+name = 'itzam-core'
+
+homepage = 'http://www.coyotegulch.com/products/itzam/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'itzam-core'

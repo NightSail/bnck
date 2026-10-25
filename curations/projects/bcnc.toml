@@ -1,0 +1,8 @@
+id = 'bcnc'
+name = 'bcnc'
+
+homepage = 'https://github.com/vlachoudis/bCNC'
+
+[[package]]
+channel = 'debian'
+name = 'bcnc'

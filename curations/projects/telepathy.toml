@@ -1,0 +1,24 @@
+id = 'telepathy'
+name = 'telepathy'
+
+homepage = 'https://telepathy.freedesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'telepathy-gabble'
+
+[[package]]
+channel = 'arch'
+name = 'telepathy-mission-control'
+
+[[package]]
+channel = 'debian'
+name = 'telepathy-mission-control-5'
+
+[[package]]
+channel = 'fedora'
+name = 'telepathy-gabble'
+
+[[package]]
+channel = 'fedora'
+name = 'telepathy-mission-control'

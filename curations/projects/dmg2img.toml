@@ -1,0 +1,16 @@
+id = 'dmg2img'
+name = 'dmg2img'
+
+homepage = 'http://vu1tur.eu.org/tools'
+
+[[package]]
+channel = 'debian'
+name = 'dmg2img'
+
+[[package]]
+channel = 'fedora'
+name = 'dmg2img'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dmg2img'

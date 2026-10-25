@@ -1,0 +1,8 @@
+id = 'meshcore-cli'
+name = 'meshcore-cli'
+
+homepage = 'https://github.com/meshcore-dev/meshcore-cli'
+
+[[package]]
+channel = 'debian'
+name = 'meshcore-cli'

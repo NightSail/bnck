@@ -1,0 +1,8 @@
+id = 'thriftgo'
+name = 'thriftgo'
+
+repository = 'https://github.com/cloudwego/thriftgo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/thriftgo'

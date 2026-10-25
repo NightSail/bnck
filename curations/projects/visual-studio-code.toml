@@ -1,0 +1,8 @@
+id = 'visual-studio-code'
+name = 'visual-studio-code'
+
+homepage = 'https://code.visualstudio.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/visual-studio-code'

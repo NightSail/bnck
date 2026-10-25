@@ -1,0 +1,8 @@
+id = 'gitso'
+name = 'gitso'
+
+homepage = 'https://code.google.com/archive/p/gitso'
+
+[[package]]
+channel = 'debian'
+name = 'gitso'

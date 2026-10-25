@@ -1,0 +1,16 @@
+id = 'msr-tools'
+name = 'msr-tools'
+
+homepage = 'https://01.org/msr-tools'
+
+[[package]]
+channel = 'arch'
+name = 'msr-tools'
+
+[[package]]
+channel = 'debian'
+name = 'msr-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'msr-tools'

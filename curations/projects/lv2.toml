@@ -1,0 +1,9 @@
+id = 'lv2'
+name = 'lv2'
+
+homepage = 'https://lv2plug.in'
+repository = 'https://gitlab.com/lv2/lv2.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lv2'

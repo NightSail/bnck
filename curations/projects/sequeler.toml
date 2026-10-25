@@ -1,0 +1,12 @@
+id = 'sequeler'
+name = 'sequeler'
+
+homepage = 'https://github.com/Alecaddd/sequeler'
+
+[[package]]
+channel = 'debian'
+name = 'sequeler'
+
+[[package]]
+channel = 'fedora'
+name = 'sequeler'

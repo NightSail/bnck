@@ -1,0 +1,8 @@
+id = 'plotmm-examples'
+name = 'plotmm-examples'
+
+homepage = 'http://plotmm.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'plotmm-examples'

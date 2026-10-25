@@ -1,0 +1,8 @@
+id = 'visualboyadvance'
+name = 'visualboyadvance'
+
+homepage = 'http://sourceforge.net/projects/vba'
+
+[[package]]
+channel = 'debian'
+name = 'visualboyadvance'

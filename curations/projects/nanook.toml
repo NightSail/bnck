@@ -1,0 +1,8 @@
+id = 'nanook'
+name = 'nanook'
+
+homepage = 'https://documentation.tgac.ac.uk/display/NANOOK/NanoOK'
+
+[[package]]
+channel = 'debian'
+name = 'nanook'

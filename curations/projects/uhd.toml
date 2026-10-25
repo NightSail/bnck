@@ -1,0 +1,16 @@
+id = 'uhd'
+name = 'uhd'
+
+homepage = 'https://github.com/EttusResearch/uhd'
+
+[[package]]
+channel = 'arch'
+name = 'libuhd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'uhd'
+
+[[package]]
+channel = 'fedora'
+name = 'uhd-tools'

@@ -1,0 +1,8 @@
+id = 'abcmidi'
+name = 'abcmidi'
+
+homepage = 'https://github.com/sshlien/abcmidi'
+
+[[package]]
+channel = 'arch'
+name = 'abcmidi'

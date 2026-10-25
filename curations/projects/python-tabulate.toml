@@ -1,0 +1,20 @@
+id = 'python-tabulate'
+name = 'python-tabulate'
+
+homepage = 'https://github.com/astanin/python-tabulate'
+
+[[package]]
+channel = 'arch'
+name = 'python-tabulate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tabulate'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-tabulate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/python-tabulate'

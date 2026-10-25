@@ -1,0 +1,8 @@
+id = 'radium-compressor'
+name = 'radium-compressor'
+
+homepage = 'https://github.com/kmatheussen/radium_compressor'
+
+[[package]]
+channel = 'debian'
+name = 'radium-compressor'

@@ -1,0 +1,8 @@
+id = 'shigofumi'
+name = 'shigofumi'
+
+homepage = 'http://xpisar.wz.cz/shigofumi'
+
+[[package]]
+channel = 'fedora'
+name = 'shigofumi'

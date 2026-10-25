@@ -1,0 +1,16 @@
+id = 'osbuild'
+name = 'osbuild'
+
+homepage = 'https://www.osbuild.org'
+
+[[package]]
+channel = 'arch'
+name = 'osbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'osbuild'
+
+[[package]]
+channel = 'fedora'
+name = 'osbuild-tools'

@@ -1,0 +1,8 @@
+id = 'loqui'
+name = 'loqui'
+
+homepage = 'https://github.com/sunnyone/loqui'
+
+[[package]]
+channel = 'debian'
+name = 'loqui'

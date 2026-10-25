@@ -1,0 +1,8 @@
+id = 'migraphx'
+name = 'migraphx'
+
+homepage = 'https://github.com/ROCm/AMDMIGraphX'
+
+[[package]]
+channel = 'debian'
+name = 'migraphx'

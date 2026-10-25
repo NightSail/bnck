@@ -1,0 +1,12 @@
+id = 'chasen-legacy'
+name = 'chasen-legacy'
+
+homepage = 'https://chasen-legacy.osdn.jp'
+
+[[package]]
+channel = 'debian'
+name = 'chasen'
+
+[[package]]
+channel = 'debian'
+name = 'chasen-dictutils'

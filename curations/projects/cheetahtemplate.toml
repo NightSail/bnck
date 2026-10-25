@@ -1,0 +1,16 @@
+id = 'cheetahtemplate'
+name = 'cheetahtemplate'
+
+homepage = 'https://cheetahtemplate.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-cheetah3'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cheetah'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cheetah'

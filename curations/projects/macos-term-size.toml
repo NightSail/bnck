@@ -1,0 +1,8 @@
+id = 'macos-term-size'
+name = 'macos-term-size'
+
+repository = 'https://github.com/sindresorhus/macos-terminal-size.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macos-term-size'

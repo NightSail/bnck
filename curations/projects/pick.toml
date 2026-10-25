@@ -1,0 +1,16 @@
+id = 'pick'
+name = 'pick'
+
+repository = 'https://github.com/mptre/pick.git'
+
+[[package]]
+channel = 'debian'
+name = 'pick'
+
+[[package]]
+channel = 'fedora'
+name = 'pick'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pick'

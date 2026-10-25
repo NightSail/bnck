@@ -1,0 +1,8 @@
+id = 'pytrainer'
+name = 'pytrainer'
+
+homepage = 'https://github.com/pytrainer/pytrainer'
+
+[[package]]
+channel = 'debian'
+name = 'pytrainer'

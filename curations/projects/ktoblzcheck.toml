@@ -1,0 +1,12 @@
+id = 'ktoblzcheck'
+name = 'ktoblzcheck'
+
+homepage = 'https://ktoblzcheck.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'ktoblzcheck'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ktoblzcheck'

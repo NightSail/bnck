@@ -1,0 +1,12 @@
+id = 'quodlibet'
+name = 'quodlibet'
+
+homepage = 'https://github.com/quodlibet/quodlibet'
+
+[[package]]
+channel = 'debian'
+name = 'exfalso'
+
+[[package]]
+channel = 'debian'
+name = 'quodlibet'

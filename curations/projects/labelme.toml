@@ -1,0 +1,8 @@
+id = 'labelme'
+name = 'labelme'
+
+homepage = 'https://github.com/wkentaro/labelme'
+
+[[package]]
+channel = 'debian'
+name = 'labelme'

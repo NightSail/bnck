@@ -1,0 +1,8 @@
+id = 'packagekit-packagekit'
+name = 'packagekit'
+
+homepage = 'https://packagekit.freedesktop.org'
+
+[[package]]
+channel = 'debian'
+name = 'packagekit'

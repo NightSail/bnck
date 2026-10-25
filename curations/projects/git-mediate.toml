@@ -1,0 +1,12 @@
+id = 'git-mediate'
+name = 'git-mediate'
+
+homepage = 'https://github.com/Peaker/git-mediate'
+
+[[package]]
+channel = 'debian'
+name = 'git-mediate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-mediate'

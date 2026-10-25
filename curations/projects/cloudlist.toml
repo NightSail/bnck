@@ -1,0 +1,8 @@
+id = 'cloudlist'
+name = 'cloudlist'
+
+repository = 'https://github.com/projectdiscovery/cloudlist.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudlist'

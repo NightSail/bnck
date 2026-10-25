@@ -1,0 +1,8 @@
+id = 'cryptobone'
+name = 'cryptobone'
+
+homepage = 'https://crypto-bone.com'
+
+[[package]]
+channel = 'fedora'
+name = 'cryptobone'

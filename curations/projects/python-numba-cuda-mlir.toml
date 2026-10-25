@@ -1,0 +1,8 @@
+id = 'python-numba-cuda-mlir'
+name = 'python-numba-cuda-mlir'
+
+homepage = 'https://github.com/NVIDIA/numba-cuda-mlir'
+
+[[package]]
+channel = 'arch'
+name = 'python-numba-cuda-mlir'

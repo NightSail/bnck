@@ -1,0 +1,8 @@
+id = 'rambo-k'
+name = 'rambo-k'
+
+homepage = 'http://rambok.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'rambo-k'

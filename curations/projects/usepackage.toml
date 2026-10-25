@@ -1,0 +1,8 @@
+id = 'usepackage'
+name = 'usepackage'
+
+homepage = 'https://github.com/jonathanhogg/usepackage'
+
+[[package]]
+channel = 'debian'
+name = 'usepackage'

@@ -1,0 +1,20 @@
+id = 'ldns'
+name = 'ldns'
+
+homepage = 'https://www.nlnetlabs.nl/projects/ldns'
+
+[[package]]
+channel = 'arch'
+name = 'ldns'
+
+[[package]]
+channel = 'fedora'
+name = 'ldns-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'ldns-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldns'

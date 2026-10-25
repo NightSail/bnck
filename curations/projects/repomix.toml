@@ -1,0 +1,8 @@
+id = 'repomix'
+name = 'repomix'
+
+homepage = 'https://repomix.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/repomix'

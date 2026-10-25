@@ -1,0 +1,8 @@
+id = 'signstar-request-signature'
+name = 'signstar-request-signature'
+
+homepage = 'https://signstar.archlinux.page/signstar-request-signature'
+
+[[package]]
+channel = 'arch'
+name = 'signstar-request-signature'

@@ -1,0 +1,12 @@
+id = 'bittwist'
+name = 'bittwist'
+
+homepage = 'https://bittwist.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'bittwist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bittwist'

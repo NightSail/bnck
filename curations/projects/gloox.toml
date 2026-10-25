@@ -1,0 +1,16 @@
+id = 'gloox'
+name = 'gloox'
+
+homepage = 'https://camaya.net/gloox'
+
+[[package]]
+channel = 'arch'
+name = 'gloox'
+
+[[package]]
+channel = 'fedora'
+name = 'gloox-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gloox'

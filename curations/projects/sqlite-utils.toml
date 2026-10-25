@@ -1,0 +1,13 @@
+id = 'sqlite-utils'
+name = 'sqlite-utils'
+
+homepage = 'https://sqlite-utils.datasette.io'
+repository = 'https://github.com/simonw/sqlite-utils.git'
+
+[[package]]
+channel = 'debian'
+name = 'sqlite-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlite-utils'

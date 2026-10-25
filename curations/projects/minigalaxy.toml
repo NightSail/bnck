@@ -1,0 +1,8 @@
+id = 'minigalaxy'
+name = 'minigalaxy'
+
+homepage = 'https://sharkwouter.github.io/minigalaxy'
+
+[[package]]
+channel = 'fedora'
+name = 'minigalaxy'

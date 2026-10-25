@@ -1,0 +1,12 @@
+id = 'icecream'
+name = 'icecream'
+
+homepage = 'https://github.com/icecc/icecream'
+
+[[package]]
+channel = 'debian'
+name = 'icecc'
+
+[[package]]
+channel = 'fedora'
+name = 'icecream'

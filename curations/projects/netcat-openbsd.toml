@@ -1,0 +1,6 @@
+id = 'netcat-openbsd'
+name = 'netcat-openbsd'
+
+[[package]]
+channel = 'debian'
+name = 'netcat-openbsd'

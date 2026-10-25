@@ -1,0 +1,20 @@
+id = 'opendht'
+name = 'opendht'
+
+homepage = 'https://github.com/savoirfairelinux/opendht'
+
+[[package]]
+channel = 'arch'
+name = 'opendht'
+
+[[package]]
+channel = 'debian'
+name = 'dhtnode'
+
+[[package]]
+channel = 'debian'
+name = 'opendht-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/opendht'

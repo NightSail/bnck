@@ -1,0 +1,8 @@
+id = 'kubernetes-mcp-server'
+name = 'kubernetes-mcp-server'
+
+repository = 'https://github.com/containers/kubernetes-mcp-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubernetes-mcp-server'

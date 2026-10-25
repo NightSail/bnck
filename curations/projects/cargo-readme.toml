@@ -1,0 +1,8 @@
+id = 'cargo-readme'
+name = 'cargo-readme'
+
+homepage = 'https://crates.io/crates/cargo-readme'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo-readme'

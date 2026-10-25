@@ -1,0 +1,8 @@
+id = 'biosig-tools'
+name = 'biosig-tools'
+
+homepage = 'https://biosig.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'biosig-tools'

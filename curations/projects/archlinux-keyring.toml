@@ -1,0 +1,12 @@
+id = 'archlinux-keyring'
+name = 'archlinux-keyring'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/archlinux-keyring'
+
+[[package]]
+channel = 'arch'
+name = 'archlinux-keyring'
+
+[[package]]
+channel = 'fedora'
+name = 'archlinux-keyring'

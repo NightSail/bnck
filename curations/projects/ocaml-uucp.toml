@@ -1,0 +1,8 @@
+id = 'ocaml-uucp'
+name = 'ocaml-uucp'
+
+homepage = 'https://erratique.ch/software/uucp'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-uucp'

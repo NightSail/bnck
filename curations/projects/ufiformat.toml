@@ -1,0 +1,12 @@
+id = 'ufiformat'
+name = 'ufiformat'
+
+homepage = 'https://github.com/tedigh/ufiformat'
+
+[[package]]
+channel = 'debian'
+name = 'ufiformat'
+
+[[package]]
+channel = 'fedora'
+name = 'ufiformat'

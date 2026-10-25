@@ -1,0 +1,28 @@
+id = 'ros'
+name = 'ROS'
+
+homepage = 'https://wiki.ros.org/ROS'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosboost-cfg'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosclean'
+
+[[package]]
+channel = 'debian'
+name = 'python3-roscreate'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosmake'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosunit'
+
+[[package]]
+channel = 'debian'
+name = 'rosbash'

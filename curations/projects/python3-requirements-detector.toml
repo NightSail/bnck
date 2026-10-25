@@ -1,0 +1,8 @@
+id = 'python3-requirements-detector'
+name = 'python3-requirements-detector'
+
+homepage = 'https://github.com/landscapeio/requirements-detector'
+
+[[package]]
+channel = 'debian'
+name = 'python3-requirements-detector'

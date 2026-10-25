@@ -1,0 +1,8 @@
+id = 'exuberant-ctags'
+name = 'exuberant-ctags'
+
+homepage = 'https://ctags.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'exuberant-ctags'

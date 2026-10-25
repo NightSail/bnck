@@ -1,0 +1,8 @@
+id = 'mom'
+name = 'mom'
+
+homepage = 'https://www.ovirt.org/develop/projects/mom'
+
+[[package]]
+channel = 'debian'
+name = 'mom'

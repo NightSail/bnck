@@ -1,0 +1,36 @@
+id = 'groff'
+name = 'groff'
+
+homepage = 'https://www.gnu.org/software/groff'
+
+[[package]]
+channel = 'arch'
+name = 'groff'
+
+[[package]]
+channel = 'debian'
+name = 'groff'
+
+[[package]]
+channel = 'debian'
+name = 'groff-base'
+
+[[package]]
+channel = 'fedora'
+name = 'groff'
+
+[[package]]
+channel = 'fedora'
+name = 'groff-base'
+
+[[package]]
+channel = 'fedora'
+name = 'groff-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'groff-x11'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/groff'

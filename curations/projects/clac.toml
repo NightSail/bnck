@@ -1,0 +1,8 @@
+id = 'clac'
+name = 'clac'
+
+homepage = 'https://github.com/soveran/clac'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clac'

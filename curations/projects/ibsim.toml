@@ -1,0 +1,12 @@
+id = 'ibsim'
+name = 'ibsim'
+
+homepage = 'https://github.com/linux-rdma/ibsim'
+
+[[package]]
+channel = 'debian'
+name = 'ibsim-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'ibsim'

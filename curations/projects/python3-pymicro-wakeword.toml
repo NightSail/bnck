@@ -1,0 +1,8 @@
+id = 'python3-pymicro-wakeword'
+name = 'python3-pymicro-wakeword'
+
+homepage = 'https://github.com/OHF-Voice/pymicro-wakeword'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pymicro-wakeword'

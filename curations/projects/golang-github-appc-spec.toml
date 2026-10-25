@@ -1,0 +1,8 @@
+id = 'golang-github-appc-spec'
+name = 'golang-github-appc-spec'
+
+homepage = 'https://github.com/appc/spec'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-appc-spec'

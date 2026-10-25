@@ -1,0 +1,8 @@
+id = 'valuta'
+name = 'valuta'
+
+homepage = 'https://apps.gnome.org/Valuta'
+
+[[package]]
+channel = 'arch'
+name = 'valuta'

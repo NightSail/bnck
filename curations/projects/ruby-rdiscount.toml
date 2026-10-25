@@ -1,0 +1,6 @@
+id = 'ruby-rdiscount'
+name = 'ruby-rdiscount'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rdiscount'

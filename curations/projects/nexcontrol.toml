@@ -1,0 +1,8 @@
+id = 'nexcontrol'
+name = 'nexcontrol'
+
+homepage = 'http://www.mybrainhurts.com/projects/nexcontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'nexcontrol'

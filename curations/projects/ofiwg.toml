@@ -1,0 +1,12 @@
+id = 'ofiwg'
+name = 'ofiwg'
+
+homepage = 'https://ofiwg.github.io/libfabric'
+
+[[package]]
+channel = 'arch'
+name = 'libfabric'
+
+[[package]]
+channel = 'debian'
+name = 'libfabric-bin'

@@ -1,0 +1,16 @@
+id = 'anthy'
+name = 'anthy'
+
+homepage = 'https://es.osdn.net/projects/anthy'
+
+[[package]]
+channel = 'arch'
+name = 'anthy'
+
+[[package]]
+channel = 'debian'
+name = 'anthy'
+
+[[package]]
+channel = 'fedora'
+name = 'anthy'

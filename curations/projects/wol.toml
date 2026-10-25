@@ -4,5 +4,9 @@ name = 'wol'
 homepage = 'http://sourceforge.net/projects/wake-on-lan'
 
 [[package]]
+channel = 'arch'
+name = 'wol'
+
+[[package]]
 channel = 'fedora'
 name = 'wol'

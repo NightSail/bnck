@@ -1,0 +1,8 @@
+id = 'perl-pod-perldoc'
+name = 'perl-Pod-Perldoc'
+
+homepage = 'https://metacpan.org/release/Pod-Perldoc'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Perldoc'

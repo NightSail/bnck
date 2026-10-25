@@ -1,0 +1,16 @@
+id = 'soplex'
+name = 'soplex'
+
+homepage = 'https://soplex.zib.de'
+
+[[package]]
+channel = 'debian'
+name = 'soplex'
+
+[[package]]
+channel = 'fedora'
+name = 'soplex'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/soplex'

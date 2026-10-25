@@ -1,0 +1,8 @@
+id = 'debug-me'
+name = 'debug-me'
+
+homepage = 'https://debug-me.branchable.com'
+
+[[package]]
+channel = 'debian'
+name = 'debug-me'

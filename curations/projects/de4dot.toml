@@ -1,0 +1,8 @@
+id = 'de4dot'
+name = 'de4dot'
+
+homepage = 'https://github.com/0xd4d/de4dot'
+
+[[package]]
+channel = 'debian'
+name = 'de4dot'

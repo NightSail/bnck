@@ -1,0 +1,8 @@
+id = 'otf2'
+name = 'otf2'
+
+homepage = 'https://www.vi-hps.org/projects/score-p/overview/overview.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/otf2'

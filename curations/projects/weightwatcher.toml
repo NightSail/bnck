@@ -1,0 +1,8 @@
+id = 'weightwatcher'
+name = 'weightwatcher'
+
+homepage = 'https://www.astromatic.net/software/weightwatcher'
+
+[[package]]
+channel = 'debian'
+name = 'weightwatcher'

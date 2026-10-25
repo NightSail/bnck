@@ -1,0 +1,8 @@
+id = 'pkgstats'
+name = 'pkgstats'
+
+homepage = 'https://pkgstats.archlinux.de'
+
+[[package]]
+channel = 'arch'
+name = 'pkgstats'

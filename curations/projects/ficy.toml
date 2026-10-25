@@ -1,0 +1,9 @@
+id = 'ficy'
+name = 'ficy'
+
+homepage = 'https://www.thregr.org/wavexx/software/fIcy'
+repository = 'https://gitlab.com/wavexx/fIcy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ficy'

@@ -1,0 +1,8 @@
+id = 'whiff'
+name = 'whiff'
+
+homepage = 'https://metacpan.org/release/App-Whiff'
+
+[[package]]
+channel = 'debian'
+name = 'whiff'

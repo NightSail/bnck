@@ -1,0 +1,8 @@
+id = 'crypto-auditing-log-parser'
+name = 'crypto-auditing-log-parser'
+
+homepage = 'https://crates.io/crates/crypto-auditing-log-parser'
+
+[[package]]
+channel = 'fedora'
+name = 'crypto-auditing-log-parser'

@@ -1,0 +1,17 @@
+id = 'montage'
+name = 'montage'
+
+homepage = 'http://montage.ipac.caltech.edu'
+repository = 'https://github.com/Caltech-IPAC/Montage.git'
+
+[[package]]
+channel = 'debian'
+name = 'montage'
+
+[[package]]
+channel = 'debian'
+name = 'montage-gridtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/montage'

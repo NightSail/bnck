@@ -1,0 +1,8 @@
+id = 'autodownloader'
+name = 'autodownloader'
+
+homepage = 'https://github.com/frenzymadness/AutoDownloader'
+
+[[package]]
+channel = 'fedora'
+name = 'autodownloader'

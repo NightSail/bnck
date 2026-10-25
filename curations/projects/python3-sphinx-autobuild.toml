@@ -1,0 +1,12 @@
+id = 'python3-sphinx-autobuild'
+name = 'python3-sphinx-autobuild'
+
+homepage = 'https://github.com/GaretJax/sphinx-autobuild'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sphinx-autobuild'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx-autobuild'

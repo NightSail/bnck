@@ -1,0 +1,8 @@
+id = 'w2do'
+name = 'w2do'
+
+homepage = 'http://w2do.blackened.cz'
+
+[[package]]
+channel = 'debian'
+name = 'w2do'

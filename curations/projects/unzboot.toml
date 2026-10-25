@@ -1,0 +1,8 @@
+id = 'unzboot'
+name = 'unzboot'
+
+homepage = 'https://github.com/eballetbo/unzboot'
+
+[[package]]
+channel = 'fedora'
+name = 'unzboot'

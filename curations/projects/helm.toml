@@ -1,0 +1,21 @@
+id = 'helm'
+name = 'helm'
+
+homepage = 'https://helm.sh'
+repository = 'https://github.com/helm/helm.git'
+
+[[package]]
+channel = 'arch'
+name = 'helm'
+
+[[package]]
+channel = 'fedora'
+name = 'helm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/helm@3'

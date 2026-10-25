@@ -1,0 +1,12 @@
+id = 'scaleway'
+name = 'scaleway'
+
+homepage = 'https://www.scaleway.com/en/cli'
+
+[[package]]
+channel = 'arch'
+name = 'scaleway-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scw'

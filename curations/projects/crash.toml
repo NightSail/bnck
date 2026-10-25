@@ -1,0 +1,20 @@
+id = 'crash'
+name = 'crash'
+
+homepage = 'https://web.archive.org/web/20250415141850/https://www.crashub.org'
+
+[[package]]
+channel = 'arch'
+name = 'crash'
+
+[[package]]
+channel = 'debian'
+name = 'crash'
+
+[[package]]
+channel = 'fedora'
+name = 'crash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crash'

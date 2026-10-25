@@ -1,0 +1,8 @@
+id = 'dnstap-ldns'
+name = 'dnstap-ldns'
+
+homepage = 'https://github.com/dnstap/dnstap-ldns'
+
+[[package]]
+channel = 'debian'
+name = 'dnstap-ldns'

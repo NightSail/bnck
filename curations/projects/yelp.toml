@@ -1,0 +1,16 @@
+id = 'yelp'
+name = 'yelp'
+
+homepage = 'https://apps.gnome.org/Yelp'
+
+[[package]]
+channel = 'arch'
+name = 'yelp'
+
+[[package]]
+channel = 'debian'
+name = 'yelp'
+
+[[package]]
+channel = 'fedora'
+name = 'yelp'

@@ -1,0 +1,8 @@
+id = 'miri-sdr'
+name = 'miri-sdr'
+
+homepage = 'https://github.com/f4exb/libmirisdr-4'
+
+[[package]]
+channel = 'debian'
+name = 'miri-sdr'

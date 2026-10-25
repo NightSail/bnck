@@ -1,0 +1,8 @@
+id = 'morphosis'
+name = 'morphosis'
+
+homepage = 'https://gitlab.gnome.org/World/morphosis'
+
+[[package]]
+channel = 'arch'
+name = 'morphosis'

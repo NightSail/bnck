@@ -1,0 +1,12 @@
+id = 'dsp'
+name = 'dsp'
+
+homepage = 'https://github.com/bmc0/dsp'
+
+[[package]]
+channel = 'arch'
+name = 'dsp'
+
+[[package]]
+channel = 'fedora'
+name = 'dsp'

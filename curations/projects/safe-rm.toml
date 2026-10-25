@@ -1,0 +1,13 @@
+id = 'safe-rm'
+name = 'safe-rm'
+
+homepage = 'https://launchpad.net/safe-rm'
+repository = 'https://git.launchpad.net/safe-rm'
+
+[[package]]
+channel = 'debian'
+name = 'safe-rm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/safe-rm'

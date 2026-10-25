@@ -1,0 +1,8 @@
+id = 'qrcp'
+name = 'qrcp'
+
+homepage = 'https://qrcp.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qrcp'

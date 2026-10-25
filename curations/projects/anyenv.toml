@@ -1,0 +1,8 @@
+id = 'anyenv'
+name = 'anyenv'
+
+homepage = 'https://anyenv.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/anyenv'

@@ -1,0 +1,8 @@
+id = 'libwlocate'
+name = 'libwlocate'
+
+homepage = 'https://sourceforge.net/projects/libwlocate'
+
+[[package]]
+channel = 'arch'
+name = 'libwlocate'

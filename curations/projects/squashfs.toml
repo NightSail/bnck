@@ -1,0 +1,8 @@
+id = 'squashfs'
+name = 'squashfs'
+
+repository = 'https://github.com/plougher/squashfs-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/squashfs'

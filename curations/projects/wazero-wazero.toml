@@ -1,0 +1,8 @@
+id = 'wazero-wazero'
+name = 'wazero'
+
+homepage = 'https://wazero.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wazero'

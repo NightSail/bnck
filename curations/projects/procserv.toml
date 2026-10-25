@@ -1,0 +1,12 @@
+id = 'procserv'
+name = 'procServ'
+
+homepage = 'https://github.com/ralphlange/procServ'
+
+[[package]]
+channel = 'debian'
+name = 'procserv'
+
+[[package]]
+channel = 'fedora'
+name = 'procServ'

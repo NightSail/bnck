@@ -1,0 +1,12 @@
+id = 'swell-foop'
+name = 'swell-foop'
+
+homepage = 'https://gitlab.gnome.org/GNOME/swell-foop'
+
+[[package]]
+channel = 'arch'
+name = 'swell-foop'
+
+[[package]]
+channel = 'fedora'
+name = 'swell-foop'

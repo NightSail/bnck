@@ -1,0 +1,20 @@
+id = 'raptor'
+name = 'raptor'
+
+homepage = 'https://librdf.org/raptor'
+
+[[package]]
+channel = 'arch'
+name = 'raptor'
+
+[[package]]
+channel = 'debian'
+name = 'raptor2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'raptor2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/raptor'

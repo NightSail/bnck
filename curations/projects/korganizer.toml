@@ -1,0 +1,16 @@
+id = 'korganizer'
+name = 'korganizer'
+
+homepage = 'https://apps.kde.org/korganizer'
+
+[[package]]
+channel = 'arch'
+name = 'korganizer'
+
+[[package]]
+channel = 'debian'
+name = 'korganizer'
+
+[[package]]
+channel = 'fedora'
+name = 'korganizer'

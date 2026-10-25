@@ -1,0 +1,8 @@
+id = 'deal'
+name = 'deal'
+
+homepage = 'https://github.com/gtwilliams/deal'
+
+[[package]]
+channel = 'fedora'
+name = 'deal'

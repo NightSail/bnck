@@ -1,0 +1,8 @@
+id = 'basis-universal-binomialllc'
+name = 'basis_universal'
+
+repository = 'https://github.com/BinomialLLC/basis_universal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/basis_universal'

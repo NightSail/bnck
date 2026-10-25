@@ -1,0 +1,8 @@
+id = 'osk-sdl'
+name = 'osk-sdl'
+
+homepage = 'https://gitlab.com/postmarketOS/osk-sdl'
+
+[[package]]
+channel = 'debian'
+name = 'osk-sdl'

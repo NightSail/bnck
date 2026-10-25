@@ -1,0 +1,8 @@
+id = 'php-bartlett-php-compatinfo'
+name = 'php-bartlett-PHP-CompatInfo'
+
+homepage = 'https://github.com/llaville/php-compatinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'php-bartlett-PHP-CompatInfo'

@@ -6,3 +6,11 @@ repository = 'https://github.com/dbcli/mycli'
 [[package]]
 channel = 'debian'
 name = 'mycli'
+
+[[package]]
+channel = 'fedora'
+name = 'mycli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mycli'

@@ -1,0 +1,8 @@
+id = 'python3-ghdiff'
+name = 'python3-ghdiff'
+
+homepage = 'https://github.com/kilink/ghdiff'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ghdiff'

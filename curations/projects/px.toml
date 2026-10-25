@@ -1,0 +1,12 @@
+id = 'px'
+name = 'px'
+
+homepage = 'https://github.com/walles/px'
+
+[[package]]
+channel = 'debian'
+name = 'px'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/px'

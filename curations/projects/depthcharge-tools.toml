@@ -1,0 +1,8 @@
+id = 'depthcharge-tools'
+name = 'depthcharge-tools'
+
+homepage = 'https://github.com/alpernebbi/depthcharge-tools'
+
+[[package]]
+channel = 'debian'
+name = 'depthcharge-tools'

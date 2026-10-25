@@ -1,0 +1,8 @@
+id = 'uni'
+name = 'uni'
+
+homepage = 'https://github.com/arp242/uni'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/uni'

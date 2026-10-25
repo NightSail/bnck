@@ -1,0 +1,8 @@
+id = 'hex-fiend'
+name = 'hex-fiend'
+
+homepage = 'https://hexfiend.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/hex-fiend'

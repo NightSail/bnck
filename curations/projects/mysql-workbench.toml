@@ -1,0 +1,8 @@
+id = 'mysql-workbench'
+name = 'mysql-workbench'
+
+homepage = 'https://www.mysql.com/products/workbench'
+
+[[package]]
+channel = 'arch'
+name = 'mysql-workbench'

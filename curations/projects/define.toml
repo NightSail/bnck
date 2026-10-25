@@ -1,0 +1,8 @@
+id = 'define'
+name = 'define'
+
+repository = 'https://github.com/Rican7/define.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/define'

@@ -1,0 +1,8 @@
+id = 'redstore'
+name = 'redstore'
+
+homepage = 'https://www.aelius.com/njh/redstore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redstore'

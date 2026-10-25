@@ -1,0 +1,12 @@
+id = 'metamath'
+name = 'metamath'
+
+homepage = 'https://us.metamath.org'
+
+[[package]]
+channel = 'debian'
+name = 'metamath'
+
+[[package]]
+channel = 'fedora'
+name = 'metamath'

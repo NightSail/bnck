@@ -1,0 +1,8 @@
+id = 'dphys-config'
+name = 'dphys-config'
+
+homepage = 'http://neil.franklin.ch/Projects/dphys-config'
+
+[[package]]
+channel = 'debian'
+name = 'dphys-config'

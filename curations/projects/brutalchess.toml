@@ -1,0 +1,8 @@
+id = 'brutalchess'
+name = 'brutalchess'
+
+homepage = 'http://sf.net/projects/brutalchess'
+
+[[package]]
+channel = 'fedora'
+name = 'brutalchess'

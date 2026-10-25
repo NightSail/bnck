@@ -1,0 +1,16 @@
+id = 'switcheroo-control'
+name = 'switcheroo-control'
+
+homepage = 'https://gitlab.freedesktop.org/hadess/switcheroo-control'
+
+[[package]]
+channel = 'arch'
+name = 'switcheroo-control'
+
+[[package]]
+channel = 'debian'
+name = 'switcheroo-control'
+
+[[package]]
+channel = 'fedora'
+name = 'switcheroo-control'

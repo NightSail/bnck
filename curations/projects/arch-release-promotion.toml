@@ -1,0 +1,8 @@
+id = 'arch-release-promotion'
+name = 'arch-release-promotion'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/arch-release-promotion'
+
+[[package]]
+channel = 'arch'
+name = 'arch-release-promotion'

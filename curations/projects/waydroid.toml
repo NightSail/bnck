@@ -1,0 +1,16 @@
+id = 'waydroid'
+name = 'waydroid'
+
+homepage = 'https://waydro.id'
+
+[[package]]
+channel = 'arch'
+name = 'waydroid'
+
+[[package]]
+channel = 'debian'
+name = 'waydroid'
+
+[[package]]
+channel = 'fedora'
+name = 'waydroid'

@@ -1,0 +1,12 @@
+id = 'midish'
+name = 'midish'
+
+homepage = 'https://midish.org'
+
+[[package]]
+channel = 'arch'
+name = 'midish'
+
+[[package]]
+channel = 'debian'
+name = 'midish'

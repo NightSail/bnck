@@ -1,0 +1,8 @@
+id = 'systing'
+name = 'systing'
+
+homepage = 'https://github.com/josefbacik/systing'
+
+[[package]]
+channel = 'arch'
+name = 'systing'

@@ -1,0 +1,8 @@
+id = 'eiffelstudio'
+name = 'eiffelstudio'
+
+homepage = 'https://www.eiffel.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eiffelstudio'

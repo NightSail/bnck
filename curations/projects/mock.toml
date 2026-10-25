@@ -1,0 +1,12 @@
+id = 'mock'
+name = 'mock'
+
+homepage = 'https://github.com/golang/mock'
+
+[[package]]
+channel = 'debian'
+name = 'mockgen'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-mock'

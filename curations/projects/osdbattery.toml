@@ -1,0 +1,8 @@
+id = 'osdbattery'
+name = 'osdbattery'
+
+homepage = 'http://osdbattery.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'osdbattery'

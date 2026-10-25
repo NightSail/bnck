@@ -1,0 +1,6 @@
+id = 'checksecurity'
+name = 'checksecurity'
+
+[[package]]
+channel = 'debian'
+name = 'checksecurity'

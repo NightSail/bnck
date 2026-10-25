@@ -1,0 +1,8 @@
+id = 'esnacc'
+name = 'esnacc'
+
+homepage = 'http://esnacc.org'
+
+[[package]]
+channel = 'debian'
+name = 'esnacc'

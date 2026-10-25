@@ -1,0 +1,8 @@
+id = 'iblinter'
+name = 'iblinter'
+
+repository = 'https://github.com/IBDecodable/IBLinter.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iblinter'

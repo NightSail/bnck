@@ -1,0 +1,6 @@
+id = 'daisy-player'
+name = 'daisy-player'
+
+[[package]]
+channel = 'debian'
+name = 'daisy-player'

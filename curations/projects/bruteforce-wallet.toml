@@ -1,0 +1,8 @@
+id = 'bruteforce-wallet'
+name = 'bruteforce-wallet'
+
+homepage = 'https://github.com/glv2/bruteforce-wallet'
+
+[[package]]
+channel = 'debian'
+name = 'bruteforce-wallet'

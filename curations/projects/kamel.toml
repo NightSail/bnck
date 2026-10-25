@@ -1,0 +1,9 @@
+id = 'kamel'
+name = 'kamel'
+
+homepage = 'https://camel.apache.org'
+repository = 'https://github.com/apache/camel-k.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kamel'

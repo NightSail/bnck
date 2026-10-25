@@ -1,0 +1,8 @@
+id = 'micasa'
+name = 'micasa'
+
+homepage = 'https://micasa.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/micasa'

@@ -1,0 +1,8 @@
+id = 'dxpc'
+name = 'dxpc'
+
+homepage = 'http://www.vigor.nu/dxpc'
+
+[[package]]
+channel = 'fedora'
+name = 'dxpc'

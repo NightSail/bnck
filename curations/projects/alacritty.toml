@@ -1,0 +1,20 @@
+id = 'alacritty'
+name = 'alacritty'
+
+homepage = 'https://github.com/alacritty/alacritty'
+
+[[package]]
+channel = 'arch'
+name = 'alacritty'
+
+[[package]]
+channel = 'debian'
+name = 'alacritty'
+
+[[package]]
+channel = 'fedora'
+name = 'alacritty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/alacritty'

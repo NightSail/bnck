@@ -1,0 +1,8 @@
+id = 'libcangjie-devel'
+name = 'libcangjie-devel'
+
+homepage = 'http://cangjians.github.io/projects/libcangjie'
+
+[[package]]
+channel = 'fedora'
+name = 'libcangjie-devel'

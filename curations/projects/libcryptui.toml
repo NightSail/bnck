@@ -1,0 +1,8 @@
+id = 'libcryptui'
+name = 'libcryptui'
+
+homepage = 'http://projects.gnome.org/seahorse'
+
+[[package]]
+channel = 'fedora'
+name = 'libcryptui'

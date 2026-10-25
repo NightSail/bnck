@@ -1,0 +1,8 @@
+id = 'python3-nose2'
+name = 'python3-nose2'
+
+homepage = 'https://nose2.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-nose2'

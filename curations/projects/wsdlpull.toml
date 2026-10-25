@@ -1,0 +1,8 @@
+id = 'wsdlpull'
+name = 'wsdlpull'
+
+homepage = 'http://wsdlpull.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'wsdlpull'

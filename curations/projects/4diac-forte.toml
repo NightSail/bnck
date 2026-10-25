@@ -1,0 +1,8 @@
+id = '4diac-forte'
+name = '4diac-forte'
+
+homepage = 'http://eclipse.org/4diac'
+
+[[package]]
+channel = 'fedora'
+name = '4diac-forte'

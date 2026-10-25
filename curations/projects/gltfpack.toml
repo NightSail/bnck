@@ -1,0 +1,8 @@
+id = 'gltfpack'
+name = 'gltfpack'
+
+homepage = 'https://github.com/zeux/meshoptimizer'
+
+[[package]]
+channel = 'debian'
+name = 'gltfpack'

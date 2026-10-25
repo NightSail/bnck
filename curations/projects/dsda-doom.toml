@@ -1,0 +1,12 @@
+id = 'dsda-doom'
+name = 'dsda-doom'
+
+repository = 'https://github.com/kraflab/dsda-doom.git'
+
+[[package]]
+channel = 'fedora'
+name = 'dsda-doom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dsda-doom'

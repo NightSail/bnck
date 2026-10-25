@@ -1,0 +1,16 @@
+id = 'sane-airscan'
+name = 'sane-airscan'
+
+homepage = 'https://github.com/alexpevzner/sane-airscan'
+
+[[package]]
+channel = 'arch'
+name = 'sane-airscan'
+
+[[package]]
+channel = 'debian'
+name = 'sane-airscan'
+
+[[package]]
+channel = 'fedora'
+name = 'sane-airscan'

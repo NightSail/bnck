@@ -1,0 +1,8 @@
+id = 'perl-cpan'
+name = 'perl-CPAN'
+
+homepage = 'https://metacpan.org/release/CPAN'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPAN'

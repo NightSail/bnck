@@ -1,0 +1,12 @@
+id = 'fork'
+name = 'fork'
+
+homepage = 'https://fork.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/fork'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/fork@dev'

@@ -1,0 +1,16 @@
+id = 'art'
+name = 'art'
+
+homepage = 'https://android.googlesource.com/platform/art'
+
+[[package]]
+channel = 'debian'
+name = 'dexdump'
+
+[[package]]
+channel = 'debian'
+name = 'dexlist'
+
+[[package]]
+channel = 'debian'
+name = 'dmtracedump'

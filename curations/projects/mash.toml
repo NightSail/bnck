@@ -1,0 +1,8 @@
+id = 'mash'
+name = 'mash'
+
+homepage = 'https://mash.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'mash'

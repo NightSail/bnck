@@ -1,0 +1,8 @@
+id = 'tn5250'
+name = 'tn5250'
+
+homepage = 'https://github.com/tn5250/tn5250'
+
+[[package]]
+channel = 'fedora'
+name = 'tn5250'

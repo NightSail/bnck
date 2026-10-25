@@ -1,0 +1,8 @@
+id = 'cargo-tarpaulin'
+name = 'cargo-tarpaulin'
+
+homepage = 'https://github.com/xd009642/tarpaulin'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-tarpaulin'

@@ -1,0 +1,8 @@
+id = 'gdtoolkit'
+name = 'gdtoolkit'
+
+repository = 'https://github.com/Scony/godot-gdscript-toolkit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gdtoolkit'

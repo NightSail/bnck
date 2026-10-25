@@ -1,0 +1,12 @@
+id = 'string-mkpasswd'
+name = 'String-MkPasswd'
+
+homepage = 'https://metacpan.org/release/String-MkPasswd'
+
+[[package]]
+channel = 'debian'
+name = 'libstring-mkpasswd-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-String-MkPasswd-scripts'

@@ -1,0 +1,12 @@
+id = 'pub'
+name = 'pub'
+
+homepage = 'http://pub.mate-desktop.org'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-power-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'mate-screensaver'

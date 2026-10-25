@@ -1,0 +1,12 @@
+id = 'dasm'
+name = 'dasm'
+
+homepage = 'https://dasm-assembler.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'dasm'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dasm'

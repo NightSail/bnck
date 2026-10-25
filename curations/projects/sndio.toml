@@ -1,0 +1,16 @@
+id = 'sndio'
+name = 'sndio'
+
+homepage = 'https://sndio.org'
+
+[[package]]
+channel = 'arch'
+name = 'sndio'
+
+[[package]]
+channel = 'debian'
+name = 'sndio-tools'
+
+[[package]]
+channel = 'debian'
+name = 'sndiod'

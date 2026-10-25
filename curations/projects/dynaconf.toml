@@ -1,0 +1,8 @@
+id = 'dynaconf'
+name = 'dynaconf'
+
+homepage = 'https://www.dynaconf.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dynaconf'

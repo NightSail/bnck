@@ -1,0 +1,8 @@
+id = 'hyprshade'
+name = 'hyprshade'
+
+homepage = 'https://github.com/loqusion/hyprshade'
+
+[[package]]
+channel = 'debian'
+name = 'hyprshade'

@@ -1,0 +1,20 @@
+id = 'lp-solve'
+name = 'lp_solve'
+
+homepage = 'https://lp-solve.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'lpsolve'
+
+[[package]]
+channel = 'debian'
+name = 'lp-solve'
+
+[[package]]
+channel = 'fedora'
+name = 'lpsolve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lp_solve'

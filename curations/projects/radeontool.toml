@@ -1,0 +1,16 @@
+id = 'radeontool'
+name = 'radeontool'
+
+homepage = 'https://airlied.livejournal.com'
+
+[[package]]
+channel = 'arch'
+name = 'radeontool'
+
+[[package]]
+channel = 'debian'
+name = 'radeontool'
+
+[[package]]
+channel = 'fedora'
+name = 'radeontool'

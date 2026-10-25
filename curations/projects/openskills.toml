@@ -1,0 +1,8 @@
+id = 'openskills'
+name = 'openskills'
+
+homepage = 'https://github.com/numman-ali/openskills'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openskills'

@@ -1,0 +1,13 @@
+id = 'moon-buggy'
+name = 'moon-buggy'
+
+homepage = 'https://seehuhn.de/pages/moon-buggy'
+repository = 'https://github.com/seehuhn/moon-buggy.git'
+
+[[package]]
+channel = 'fedora'
+name = 'moon-buggy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/moon-buggy'

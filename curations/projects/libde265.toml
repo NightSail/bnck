@@ -1,0 +1,12 @@
+id = 'libde265'
+name = 'libde265'
+
+homepage = 'https://github.com/strukturag/libde265'
+
+[[package]]
+channel = 'arch'
+name = 'libde265'
+
+[[package]]
+channel = 'debian'
+name = 'libde265-examples'

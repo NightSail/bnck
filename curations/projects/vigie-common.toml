@@ -1,0 +1,8 @@
+id = 'vigie-common'
+name = 'vigie-common'
+
+homepage = 'https://salsa.debian.org/openstack-team/services/vigie'
+
+[[package]]
+channel = 'debian'
+name = 'vigie-common'

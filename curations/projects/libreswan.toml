@@ -1,0 +1,12 @@
+id = 'libreswan'
+name = 'libreswan'
+
+homepage = 'https://libreswan.org'
+
+[[package]]
+channel = 'debian'
+name = 'libreswan'
+
+[[package]]
+channel = 'fedora'
+name = 'libreswan-minimal'

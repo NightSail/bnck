@@ -1,0 +1,8 @@
+id = 'node-rollup-plugin-terser'
+name = 'node-rollup-plugin-terser'
+
+homepage = 'https://github.com/TrySound/rollup-plugin-terser'
+
+[[package]]
+channel = 'debian'
+name = 'node-rollup-plugin-terser'

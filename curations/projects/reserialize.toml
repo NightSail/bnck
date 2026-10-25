@@ -1,0 +1,8 @@
+id = 'reserialize'
+name = 'reserialize'
+
+homepage = 'https://github.com/grawity/code/blob/master/bin/reserialize'
+
+[[package]]
+channel = 'debian'
+name = 'reserialize'

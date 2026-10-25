@@ -1,0 +1,16 @@
+id = '3cpio'
+name = '3cpio'
+
+homepage = 'https://github.com/bdrung/3cpio'
+
+[[package]]
+channel = 'arch'
+name = '3cpio'
+
+[[package]]
+channel = 'debian'
+name = '3cpio'
+
+[[package]]
+channel = 'fedora'
+name = '3cpio'

@@ -1,0 +1,8 @@
+id = 'super-productivity'
+name = 'super-productivity'
+
+homepage = 'https://super-productivity.com'
+
+[[package]]
+channel = 'arch'
+name = 'super-productivity'

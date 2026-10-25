@@ -1,0 +1,8 @@
+id = 'repro-get'
+name = 'repro-get'
+
+homepage = 'https://github.com/reproducible-containers/repro-get'
+
+[[package]]
+channel = 'arch'
+name = 'repro-get'

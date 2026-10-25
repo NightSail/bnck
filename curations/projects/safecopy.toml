@@ -1,0 +1,8 @@
+id = 'safecopy'
+name = 'safecopy'
+
+homepage = 'http://safecopy.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'safecopy'

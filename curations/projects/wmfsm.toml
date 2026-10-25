@@ -1,0 +1,8 @@
+id = 'wmfsm'
+name = 'wmfsm'
+
+homepage = 'https://www.dockapps.net/wmfsm'
+
+[[package]]
+channel = 'debian'
+name = 'wmfsm'

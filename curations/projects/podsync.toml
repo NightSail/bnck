@@ -1,0 +1,8 @@
+id = 'podsync'
+name = 'podsync'
+
+repository = 'https://github.com/mxpv/podsync.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podsync'

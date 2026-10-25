@@ -1,0 +1,12 @@
+id = 'dnsconfd'
+name = 'dnsconfd'
+
+homepage = 'https://github.com/InfrastructureServices/dnsconfd'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsconfd'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsconfd-micro'

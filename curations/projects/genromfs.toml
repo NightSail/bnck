@@ -1,0 +1,10 @@
+id = 'genromfs'
+name = 'genromfs'
+
+[[package]]
+channel = 'debian'
+name = 'genromfs'
+
+[[package]]
+channel = 'fedora'
+name = 'genromfs'

@@ -1,0 +1,12 @@
+id = 'zurl'
+name = 'zurl'
+
+repository = 'https://github.com/fanout/zurl.git'
+
+[[package]]
+channel = 'debian'
+name = 'zurl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zurl'

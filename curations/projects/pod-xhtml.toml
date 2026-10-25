@@ -1,0 +1,12 @@
+id = 'pod-xhtml'
+name = 'Pod-Xhtml'
+
+homepage = 'https://metacpan.org/release/Pod-Xhtml'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-xhtml-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Xhtml'

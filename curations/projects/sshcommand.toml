@@ -1,0 +1,8 @@
+id = 'sshcommand'
+name = 'sshcommand'
+
+homepage = 'https://github.com/dokku/sshcommand'
+
+[[package]]
+channel = 'debian'
+name = 'sshcommand'

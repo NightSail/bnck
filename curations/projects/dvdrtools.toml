@@ -1,0 +1,8 @@
+id = 'dvdrtools'
+name = 'dvdrtools'
+
+homepage = 'https://savannah.nongnu.org/projects/dvdrtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvdrtools'

@@ -1,0 +1,8 @@
+id = 'opennds-daemon'
+name = 'opennds-daemon'
+
+homepage = 'https://github.com/opennds/opennds'
+
+[[package]]
+channel = 'debian'
+name = 'opennds-daemon'

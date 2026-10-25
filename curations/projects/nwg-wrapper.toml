@@ -1,0 +1,8 @@
+id = 'nwg-wrapper'
+name = 'nwg-wrapper'
+
+homepage = 'https://github.com/nwg-piotr/nwg-wrapper'
+
+[[package]]
+channel = 'fedora'
+name = 'nwg-wrapper'

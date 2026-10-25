@@ -1,0 +1,8 @@
+id = 'libpandoc-wrapper-perl'
+name = 'libpandoc-wrapper-perl'
+
+homepage = 'https://github.com/nichtich/Pandoc-Wrapper'
+
+[[package]]
+channel = 'debian'
+name = 'libpandoc-wrapper-perl'

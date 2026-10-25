@@ -1,0 +1,8 @@
+id = 'perl-std'
+name = 'perl-STD'
+
+homepage = 'https://metacpan.org/release/STD'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-STD'

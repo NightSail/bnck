@@ -1,0 +1,16 @@
+id = 'gnome-panel'
+name = 'gnome-panel'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomePanel'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-panel'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-panel'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-panel'

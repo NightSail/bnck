@@ -1,0 +1,8 @@
+id = 'mrchem'
+name = 'mrchem'
+
+homepage = 'https://github.com/MRChemSoft/mrchem'
+
+[[package]]
+channel = 'fedora'
+name = 'mrchem'

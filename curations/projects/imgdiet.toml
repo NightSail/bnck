@@ -1,0 +1,8 @@
+id = 'imgdiet'
+name = 'imgdiet'
+
+repository = 'https://git.sr.ht/~jamesponddotco/imgdiet-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imgdiet'

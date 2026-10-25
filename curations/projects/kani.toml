@@ -1,0 +1,8 @@
+id = 'kani'
+name = 'kani'
+
+homepage = 'https://github.com/model-checking/kani'
+
+[[package]]
+channel = 'arch'
+name = 'kani'

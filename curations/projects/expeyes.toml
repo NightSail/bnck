@@ -1,0 +1,20 @@
+id = 'expeyes'
+name = 'expeyes'
+
+homepage = 'https://expeyes.in'
+
+[[package]]
+channel = 'debian'
+name = 'expeyes'
+
+[[package]]
+channel = 'debian'
+name = 'expeyes-doc-common'
+
+[[package]]
+channel = 'debian'
+name = 'eyes17'
+
+[[package]]
+channel = 'debian'
+name = 'microhope'

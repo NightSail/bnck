@@ -1,0 +1,8 @@
+id = 'python-openvino-telemetry'
+name = 'python-openvino-telemetry'
+
+homepage = 'https://github.com/openvinotoolkit/telemetry'
+
+[[package]]
+channel = 'arch'
+name = 'python-openvino-telemetry'

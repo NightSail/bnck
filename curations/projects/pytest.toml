@@ -1,0 +1,8 @@
+id = 'pytest'
+name = 'pytest'
+
+homepage = 'https://docs.pytest.org/en/latest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pytest'

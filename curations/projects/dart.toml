@@ -1,0 +1,16 @@
+id = 'dart'
+name = 'dart'
+
+homepage = 'https://dart.dev'
+
+[[package]]
+channel = 'arch'
+name = 'dart'
+
+[[package]]
+channel = 'debian'
+name = 'dart-sdk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dart-sdk'

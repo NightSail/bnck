@@ -1,0 +1,8 @@
+id = 'suricata-update'
+name = 'suricata-update'
+
+homepage = 'https://github.com/OISF/suricata-update'
+
+[[package]]
+channel = 'debian'
+name = 'suricata-update'

@@ -1,0 +1,12 @@
+id = 'qbittorrent-cli'
+name = 'qbittorrent-cli'
+
+repository = 'https://github.com/ludviglundgren/qbittorrent-cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'qbittorrent-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qbittorrent-cli'

@@ -1,0 +1,8 @@
+id = 'device-tree-compiler'
+name = 'device-tree-compiler'
+
+homepage = 'https://git.kernel.org/cgit/utils/dtc/dtc.git'
+
+[[package]]
+channel = 'debian'
+name = 'device-tree-compiler'

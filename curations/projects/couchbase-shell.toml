@@ -1,0 +1,9 @@
+id = 'couchbase-shell'
+name = 'couchbase-shell'
+
+homepage = 'https://couchbase.sh'
+repository = 'https://github.com/couchbaselabs/couchbase-shell.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/couchbase-shell'

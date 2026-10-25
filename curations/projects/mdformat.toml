@@ -1,0 +1,16 @@
+id = 'mdformat'
+name = 'mdformat'
+
+homepage = 'https://mdformat.readthedocs.io/en/stable'
+
+[[package]]
+channel = 'arch'
+name = 'mdformat'
+
+[[package]]
+channel = 'debian'
+name = 'mdformat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdformat'

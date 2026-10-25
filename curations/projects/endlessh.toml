@@ -1,0 +1,16 @@
+id = 'endlessh'
+name = 'endlessh'
+
+repository = 'https://github.com/skeeto/endlessh.git'
+
+[[package]]
+channel = 'debian'
+name = 'endlessh'
+
+[[package]]
+channel = 'fedora'
+name = 'endlessh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/endlessh'

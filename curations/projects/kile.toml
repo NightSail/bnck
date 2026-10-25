@@ -1,0 +1,16 @@
+id = 'kile'
+name = 'kile'
+
+homepage = 'https://apps.kde.org/kile'
+
+[[package]]
+channel = 'arch'
+name = 'kile'
+
+[[package]]
+channel = 'debian'
+name = 'kile'
+
+[[package]]
+channel = 'fedora'
+name = 'kile'

@@ -1,0 +1,8 @@
+id = 'keep-sorted'
+name = 'keep-sorted'
+
+repository = 'https://github.com/google/keep-sorted.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keep-sorted'

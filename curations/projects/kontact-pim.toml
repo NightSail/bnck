@@ -1,0 +1,8 @@
+id = 'kontact-pim'
+name = 'kontact'
+
+homepage = 'https://invent.kde.org/pim/kontact'
+
+[[package]]
+channel = 'fedora'
+name = 'kontact'

@@ -1,0 +1,8 @@
+id = 'python3-uvcclient'
+name = 'python3-uvcclient'
+
+homepage = 'https://github.com/uilibs/uvcclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-uvcclient'

@@ -1,0 +1,8 @@
+id = 'librda-bin'
+name = 'librda-bin'
+
+homepage = 'https://github.com/ArcticaProject/librda'
+
+[[package]]
+channel = 'debian'
+name = 'librda-bin'

@@ -1,0 +1,8 @@
+id = 'blobsaver'
+name = 'blobsaver'
+
+homepage = 'https://github.com/airsquared/blobsaver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/blobsaver'

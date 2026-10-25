@@ -1,0 +1,8 @@
+id = 'qtox'
+name = 'qtox'
+
+homepage = 'https://qtox.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'qtox'

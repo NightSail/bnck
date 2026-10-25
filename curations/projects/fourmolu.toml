@@ -1,0 +1,13 @@
+id = 'fourmolu'
+name = 'fourmolu'
+
+homepage = 'https://fourmolu.github.io'
+repository = 'https://github.com/fourmolu/fourmolu.git'
+
+[[package]]
+channel = 'debian'
+name = 'fourmolu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fourmolu'

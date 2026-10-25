@@ -1,0 +1,8 @@
+id = 'libvisam-tools'
+name = 'libvisam-tools'
+
+homepage = 'http://inglenet.ca/Products/GnuCOBOL'
+
+[[package]]
+channel = 'debian'
+name = 'libvisam-tools'

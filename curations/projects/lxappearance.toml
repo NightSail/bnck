@@ -1,0 +1,12 @@
+id = 'lxappearance'
+name = 'lxappearance'
+
+homepage = 'https://github.com/lxde/lxappearance'
+
+[[package]]
+channel = 'arch'
+name = 'lxappearance'
+
+[[package]]
+channel = 'debian'
+name = 'lxappearance'

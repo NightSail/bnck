@@ -1,0 +1,12 @@
+id = 'powerman'
+name = 'powerman'
+
+repository = 'https://github.com/chaos/powerman.git'
+
+[[package]]
+channel = 'debian'
+name = 'powerman'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/powerman'

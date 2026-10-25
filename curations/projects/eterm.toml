@@ -1,0 +1,20 @@
+id = 'eterm'
+name = 'eterm'
+
+homepage = 'http://www.eterm.org'
+
+[[package]]
+channel = 'debian'
+name = 'eterm'
+
+[[package]]
+channel = 'debian'
+name = 'libast2-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'eterm'
+
+[[package]]
+channel = 'fedora'
+name = 'libast-devel'

@@ -1,0 +1,16 @@
+id = 'ncid'
+name = 'ncid'
+
+homepage = 'http://ncid.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'ncid'
+
+[[package]]
+channel = 'fedora'
+name = 'ncid-client'
+
+[[package]]
+channel = 'fedora'
+name = 'ncid-gateways'

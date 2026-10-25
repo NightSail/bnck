@@ -1,0 +1,12 @@
+id = 'sdl-image'
+name = 'sdl_image'
+
+homepage = 'https://github.com/libsdl-org/SDL_image'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL2_image'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL3_image-devel'

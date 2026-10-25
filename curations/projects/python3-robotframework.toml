@@ -1,0 +1,8 @@
+id = 'python3-robotframework'
+name = 'python3-robotframework'
+
+homepage = 'https://github.com/robotframework/robotframework'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-robotframework'

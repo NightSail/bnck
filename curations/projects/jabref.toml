@@ -1,0 +1,8 @@
+id = 'jabref'
+name = 'jabref'
+
+homepage = 'https://www.jabref.org'
+
+[[package]]
+channel = 'debian'
+name = 'jabref'

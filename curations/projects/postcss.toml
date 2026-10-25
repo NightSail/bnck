@@ -1,0 +1,12 @@
+id = 'postcss'
+name = 'postcss'
+
+homepage = 'https://postcss.org'
+
+[[package]]
+channel = 'debian'
+name = 'node-postcss'
+
+[[package]]
+channel = 'fedora'
+name = 'postcss-cli'

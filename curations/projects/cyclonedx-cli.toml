@@ -1,0 +1,8 @@
+id = 'cyclonedx-cli'
+name = 'cyclonedx-cli'
+
+homepage = 'https://cyclonedx.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cyclonedx-cli'

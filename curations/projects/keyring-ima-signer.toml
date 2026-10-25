@@ -1,0 +1,8 @@
+id = 'keyring-ima-signer'
+name = 'keyring-ima-signer'
+
+homepage = 'https://github.com/fedora-iot/keyring-ima-signer'
+
+[[package]]
+channel = 'fedora'
+name = 'keyring-ima-signer'

@@ -1,0 +1,8 @@
+id = 'tpack'
+name = 'tpack'
+
+homepage = 'https://github.com/tmuxpack/tpack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tpack'

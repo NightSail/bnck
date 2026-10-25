@@ -1,0 +1,12 @@
+id = 'pid1'
+name = 'pid1'
+
+homepage = 'https://github.com/fpco/pid1'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-pid1'
+
+[[package]]
+channel = 'debian'
+name = 'pid1'

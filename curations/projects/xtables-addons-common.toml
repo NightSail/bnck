@@ -1,0 +1,8 @@
+id = 'xtables-addons-common'
+name = 'xtables-addons-common'
+
+homepage = 'https://inai.de/projects/xtables-addons'
+
+[[package]]
+channel = 'debian'
+name = 'xtables-addons-common'

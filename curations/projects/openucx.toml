@@ -1,0 +1,20 @@
+id = 'openucx'
+name = 'openucx'
+
+homepage = 'https://openucx.org'
+
+[[package]]
+channel = 'arch'
+name = 'openucx'
+
+[[package]]
+channel = 'debian'
+name = 'ucc-utils'
+
+[[package]]
+channel = 'debian'
+name = 'ucx-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'ucx'

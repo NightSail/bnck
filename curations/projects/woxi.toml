@@ -1,0 +1,8 @@
+id = 'woxi'
+name = 'woxi'
+
+repository = 'https://github.com/ad-si/Woxi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/woxi'

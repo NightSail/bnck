@@ -1,0 +1,8 @@
+id = 'sourcextractor'
+name = 'sourcextractor++'
+
+homepage = 'https://github.com/astrorama/sourcextractorplusplus'
+
+[[package]]
+channel = 'fedora'
+name = 'sourcextractor++'

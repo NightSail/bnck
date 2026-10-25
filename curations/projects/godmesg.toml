@@ -1,0 +1,8 @@
+id = 'godmesg'
+name = 'godmesg'
+
+homepage = 'https://github.com/euank/go-kmsg-parser'
+
+[[package]]
+channel = 'fedora'
+name = 'godmesg'

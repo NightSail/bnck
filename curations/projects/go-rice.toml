@@ -1,0 +1,12 @@
+id = 'go-rice'
+name = 'go.rice'
+
+homepage = 'https://github.com/GeertJohan/go.rice'
+
+[[package]]
+channel = 'debian'
+name = 'golang-rice'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-geertjohan-rice'

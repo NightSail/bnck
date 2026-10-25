@@ -1,0 +1,8 @@
+id = 'gitmux'
+name = 'gitmux'
+
+homepage = 'https://github.com/arl/gitmux'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitmux'

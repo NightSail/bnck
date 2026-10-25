@@ -1,0 +1,8 @@
+id = 'yacpi'
+name = 'yacpi'
+
+homepage = 'http://www.ngolde.de/yacpi'
+
+[[package]]
+channel = 'debian'
+name = 'yacpi'

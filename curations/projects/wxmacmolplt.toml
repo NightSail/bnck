@@ -1,0 +1,8 @@
+id = 'wxmacmolplt'
+name = 'wxmacmolplt'
+
+homepage = 'http://brettbode.github.io/wxmacmolplt'
+
+[[package]]
+channel = 'fedora'
+name = 'wxmacmolplt'

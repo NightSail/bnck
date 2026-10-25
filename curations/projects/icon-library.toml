@@ -1,0 +1,8 @@
+id = 'icon-library'
+name = 'icon-library'
+
+homepage = 'https://gitlab.gnome.org/World/design/icon-library'
+
+[[package]]
+channel = 'arch'
+name = 'icon-library'

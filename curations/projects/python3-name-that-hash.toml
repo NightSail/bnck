@@ -1,0 +1,8 @@
+id = 'python3-name-that-hash'
+name = 'python3-name-that-hash'
+
+homepage = 'https://github.com/HashPals/Name-That-Hash'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-name-that-hash'

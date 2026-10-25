@@ -1,0 +1,8 @@
+id = 'kobo-admin'
+name = 'kobo-admin'
+
+homepage = 'https://github.com/release-engineering/kobo'
+
+[[package]]
+channel = 'fedora'
+name = 'kobo-admin'

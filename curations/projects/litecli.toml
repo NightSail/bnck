@@ -1,0 +1,16 @@
+id = 'litecli'
+name = 'litecli'
+
+homepage = 'https://litecli.com'
+
+[[package]]
+channel = 'debian'
+name = 'litecli'
+
+[[package]]
+channel = 'fedora'
+name = 'litecli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/litecli'

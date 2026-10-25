@@ -1,0 +1,20 @@
+id = 'foot'
+name = 'foot'
+
+homepage = 'https://codeberg.org/dnkl/foot'
+
+[[package]]
+channel = 'arch'
+name = 'foot'
+
+[[package]]
+channel = 'debian'
+name = 'foot'
+
+[[package]]
+channel = 'fedora'
+name = 'foot'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/foot'

@@ -7,3 +7,7 @@ repository = 'https://github.com/mywave82/opencubicplayer'
 [[package]]
 channel = 'debian'
 name = 'opencubicplayer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocp'

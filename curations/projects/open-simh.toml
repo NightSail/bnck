@@ -1,0 +1,9 @@
+id = 'open-simh'
+name = 'open-simh'
+
+homepage = 'https://opensimh.org'
+repository = 'https://github.com/open-simh/simh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/open-simh'

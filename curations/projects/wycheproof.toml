@@ -1,0 +1,8 @@
+id = 'wycheproof'
+name = 'wycheproof'
+
+homepage = 'https://github.com/c2sp/wycheproof'
+
+[[package]]
+channel = 'debian'
+name = 'wycheproof'

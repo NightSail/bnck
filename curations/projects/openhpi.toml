@@ -1,0 +1,20 @@
+id = 'openhpi'
+name = 'openhpi'
+
+homepage = 'http://openhpi.org'
+
+[[package]]
+channel = 'debian'
+name = 'openhpi-clients'
+
+[[package]]
+channel = 'debian'
+name = 'openhpid'
+
+[[package]]
+channel = 'fedora'
+name = 'openhpi'
+
+[[package]]
+channel = 'fedora'
+name = 'openhpi-subagent'

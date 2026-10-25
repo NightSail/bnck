@@ -1,0 +1,8 @@
+id = 'raidem'
+name = 'raidem'
+
+homepage = 'http://home.exetel.com.au/tjaden/raidem'
+
+[[package]]
+channel = 'fedora'
+name = 'raidem'

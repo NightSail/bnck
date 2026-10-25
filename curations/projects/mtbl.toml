@@ -1,0 +1,8 @@
+id = 'mtbl'
+name = 'mtbl'
+
+repository = 'https://github.com/farsightsec/mtbl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mtbl'

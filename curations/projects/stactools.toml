@@ -1,0 +1,8 @@
+id = 'stactools'
+name = 'stactools'
+
+homepage = 'https://github.com/stac-utils/stactools'
+
+[[package]]
+channel = 'debian'
+name = 'stactools'

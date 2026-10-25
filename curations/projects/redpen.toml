@@ -1,0 +1,8 @@
+id = 'redpen'
+name = 'redpen'
+
+homepage = 'https://redpen.cc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redpen'

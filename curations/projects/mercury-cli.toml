@@ -1,0 +1,8 @@
+id = 'mercury-cli'
+name = 'mercury-cli'
+
+homepage = 'https://github.com/MercuryTechnologies/mercury-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mercury-cli'

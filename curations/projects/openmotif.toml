@@ -1,0 +1,8 @@
+id = 'openmotif'
+name = 'openmotif'
+
+homepage = 'https://motif.ics.com/motif'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openmotif'

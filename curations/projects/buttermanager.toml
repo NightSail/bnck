@@ -1,0 +1,8 @@
+id = 'buttermanager'
+name = 'buttermanager'
+
+homepage = 'https://github.com/egara/buttermanager'
+
+[[package]]
+channel = 'fedora'
+name = 'buttermanager'

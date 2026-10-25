@@ -1,0 +1,12 @@
+id = 'webdis'
+name = 'webdis'
+
+homepage = 'https://webd.is'
+
+[[package]]
+channel = 'debian'
+name = 'webdis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webdis'

@@ -1,0 +1,12 @@
+id = 'git-tools'
+name = 'git-tools'
+
+repository = 'https://github.com/MestreLion/git-tools.git'
+
+[[package]]
+channel = 'fedora'
+name = 'git-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-tools'

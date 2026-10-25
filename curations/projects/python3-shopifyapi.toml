@@ -1,0 +1,8 @@
+id = 'python3-shopifyapi'
+name = 'python3-shopifyapi'
+
+homepage = 'https://github.com/Shopify/shopify_python_api'
+
+[[package]]
+channel = 'debian'
+name = 'python3-shopifyapi'

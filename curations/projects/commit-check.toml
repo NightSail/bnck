@@ -1,0 +1,8 @@
+id = 'commit-check'
+name = 'commit-check'
+
+homepage = 'https://github.com/commit-check/commit-check'
+
+[[package]]
+channel = 'debian'
+name = 'commit-check'

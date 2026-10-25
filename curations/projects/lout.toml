@@ -1,0 +1,16 @@
+id = 'lout'
+name = 'lout'
+
+homepage = 'http://savannah.nongnu.org/projects/lout'
+
+[[package]]
+channel = 'arch'
+name = 'lout'
+
+[[package]]
+channel = 'fedora'
+name = 'lout'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lout'

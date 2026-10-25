@@ -1,0 +1,8 @@
+id = 'python3-socksipychain'
+name = 'python3-socksipychain'
+
+homepage = 'http://pagekite.net/wiki/Floss/PySocksipyChain'
+
+[[package]]
+channel = 'debian'
+name = 'python3-socksipychain'

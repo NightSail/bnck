@@ -1,0 +1,12 @@
+id = 'typos-lsp'
+name = 'typos-lsp'
+
+homepage = 'https://github.com/tekumara/typos-lsp'
+
+[[package]]
+channel = 'arch'
+name = 'typos-lsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/typos-lsp'

@@ -1,0 +1,8 @@
+id = 'mp3guessenc'
+name = 'mp3guessenc'
+
+homepage = 'https://mp3guessenc.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'mp3guessenc'

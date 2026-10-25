@@ -1,0 +1,16 @@
+id = 'rdesktop'
+name = 'rdesktop'
+
+homepage = 'https://www.rdesktop.org'
+
+[[package]]
+channel = 'arch'
+name = 'rdesktop'
+
+[[package]]
+channel = 'debian'
+name = 'rdesktop'
+
+[[package]]
+channel = 'fedora'
+name = 'rdesktop'

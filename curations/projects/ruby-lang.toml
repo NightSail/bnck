@@ -1,0 +1,48 @@
+id = 'ruby-lang'
+name = 'ruby-lang'
+
+homepage = 'https://www.ruby-lang.org'
+
+[[package]]
+channel = 'debian'
+name = 'ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby3.3'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby-bundled-gems'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby-default-gems'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-irb'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rbs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/portable-ruby'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby@3.2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby@3.3'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby@3.4'

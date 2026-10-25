@@ -1,0 +1,12 @@
+id = 'websocket-client'
+name = 'websocket-client'
+
+homepage = 'https://github.com/websocket-client/websocket-client'
+
+[[package]]
+channel = 'arch'
+name = 'python-websocket-client'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-websocket-client'

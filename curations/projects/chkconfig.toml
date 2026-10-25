@@ -1,0 +1,16 @@
+id = 'chkconfig'
+name = 'chkconfig'
+
+homepage = 'https://github.com/fedora-sysv/chkconfig'
+
+[[package]]
+channel = 'fedora'
+name = 'alternatives'
+
+[[package]]
+channel = 'fedora'
+name = 'chkconfig'
+
+[[package]]
+channel = 'fedora'
+name = 'ntsysv'

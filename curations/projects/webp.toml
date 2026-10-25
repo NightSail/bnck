@@ -1,0 +1,12 @@
+id = 'webp'
+name = 'webp'
+
+homepage = 'https://developers.google.com/speed/webp'
+
+[[package]]
+channel = 'arch'
+name = 'libwebp-utils'
+
+[[package]]
+channel = 'debian'
+name = 'webp'

@@ -1,0 +1,20 @@
+id = 'scons'
+name = 'scons'
+
+homepage = 'https://www.scons.org'
+
+[[package]]
+channel = 'arch'
+name = 'scons'
+
+[[package]]
+channel = 'debian'
+name = 'scons'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-scons'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scons'

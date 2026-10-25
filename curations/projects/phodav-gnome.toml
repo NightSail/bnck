@@ -1,0 +1,8 @@
+id = 'phodav-gnome'
+name = 'phodav'
+
+repository = 'https://gitlab.gnome.org/GNOME/phodav.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phodav'

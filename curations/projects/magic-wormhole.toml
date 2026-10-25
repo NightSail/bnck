@@ -1,0 +1,17 @@
+id = 'magic-wormhole'
+name = 'magic-wormhole'
+
+homepage = 'https://github.com/warner/magic-wormhole'
+repository = 'https://github.com/magic-wormhole/magic-wormhole.git'
+
+[[package]]
+channel = 'arch'
+name = 'magic-wormhole'
+
+[[package]]
+channel = 'debian'
+name = 'magic-wormhole'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/magic-wormhole'

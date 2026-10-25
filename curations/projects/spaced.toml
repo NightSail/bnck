@@ -1,0 +1,8 @@
+id = 'spaced'
+name = 'spaced'
+
+homepage = 'https://spaced.gobics.de'
+
+[[package]]
+channel = 'debian'
+name = 'spaced'

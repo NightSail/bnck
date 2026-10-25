@@ -1,0 +1,8 @@
+id = 'edk2-tools'
+name = 'edk2-tools'
+
+homepage = 'https://github.com/tianocore/tianocore.github.io/wiki/BaseTools'
+
+[[package]]
+channel = 'fedora'
+name = 'edk2-tools'

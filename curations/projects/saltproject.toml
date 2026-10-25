@@ -1,0 +1,32 @@
+id = 'saltproject'
+name = 'saltproject'
+
+homepage = 'https://saltproject.io'
+
+[[package]]
+channel = 'fedora'
+name = 'salt'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-api'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-cloud'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-master'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-minion'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-ssh'
+
+[[package]]
+channel = 'fedora'
+name = 'salt-syndic'

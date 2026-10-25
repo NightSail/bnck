@@ -1,0 +1,8 @@
+id = 'kcm-wacomtablet'
+name = 'kcm_wacomtablet'
+
+homepage = 'https://invent.kde.org/system/wacomtablet'
+
+[[package]]
+channel = 'fedora'
+name = 'kcm_wacomtablet'

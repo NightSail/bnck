@@ -1,0 +1,12 @@
+id = 'sonic'
+name = 'sonic'
+
+homepage = 'https://github.com/valeriansaliou/sonic'
+
+[[package]]
+channel = 'arch'
+name = 'sonic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sonic'

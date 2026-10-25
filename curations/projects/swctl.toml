@@ -1,0 +1,9 @@
+id = 'swctl'
+name = 'swctl'
+
+homepage = 'https://skywalking.apache.org'
+repository = 'https://github.com/apache/skywalking-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swctl'

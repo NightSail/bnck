@@ -1,0 +1,8 @@
+id = 'sigma-cli'
+name = 'sigma-cli'
+
+repository = 'https://github.com/SigmaHQ/sigma-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sigma-cli'

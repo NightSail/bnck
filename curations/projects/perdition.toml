@@ -1,0 +1,24 @@
+id = 'perdition'
+name = 'perdition'
+
+homepage = 'https://horms.net/projects/perdition'
+
+[[package]]
+channel = 'debian'
+name = 'perdition'
+
+[[package]]
+channel = 'debian'
+name = 'perdition-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'perdition-mysql'
+
+[[package]]
+channel = 'debian'
+name = 'perdition-odbc'
+
+[[package]]
+channel = 'debian'
+name = 'perdition-postgresql'

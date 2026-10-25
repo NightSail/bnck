@@ -1,0 +1,13 @@
+id = 'git-town'
+name = 'git-town'
+
+homepage = 'https://www.git-town.com'
+repository = 'https://github.com/git-town/git-town.git'
+
+[[package]]
+channel = 'arch'
+name = 'git-town'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-town'

@@ -1,0 +1,12 @@
+id = 'rebar'
+name = 'rebar'
+
+homepage = 'https://github.com/rebar/rebar'
+
+[[package]]
+channel = 'debian'
+name = 'rebar'
+
+[[package]]
+channel = 'fedora'
+name = 'erlang-rebar'

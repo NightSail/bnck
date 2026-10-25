@@ -1,0 +1,25 @@
+id = 'mlton'
+name = 'mlton'
+
+homepage = 'http://mlton.org'
+repository = 'https://github.com/MLton/mlton.git'
+
+[[package]]
+channel = 'arch'
+name = 'mlton'
+
+[[package]]
+channel = 'debian'
+name = 'mlton-compiler'
+
+[[package]]
+channel = 'debian'
+name = 'mlton-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'mlton'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mlton'

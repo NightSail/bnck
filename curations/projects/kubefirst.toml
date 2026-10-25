@@ -1,0 +1,9 @@
+id = 'kubefirst'
+name = 'kubefirst'
+
+homepage = 'https://kubefirst.konstruct.io/docs'
+repository = 'https://github.com/konstructio/kubefirst.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubefirst'

@@ -1,0 +1,8 @@
+id = 'pep8-simul'
+name = 'pep8-simul'
+
+homepage = 'http://computersystemsbook.com/4th-edition/pep8'
+
+[[package]]
+channel = 'debian'
+name = 'pep8-simul'

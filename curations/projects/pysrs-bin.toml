@@ -1,0 +1,8 @@
+id = 'pysrs-bin'
+name = 'pysrs-bin'
+
+homepage = 'https://bmsi.com/python/pysrs.html'
+
+[[package]]
+channel = 'debian'
+name = 'pysrs-bin'

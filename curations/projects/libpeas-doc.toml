@@ -1,0 +1,8 @@
+id = 'libpeas-doc'
+name = 'libpeas-doc'
+
+homepage = 'https://wiki.gnome.org/Projects/Libpeas'
+
+[[package]]
+channel = 'debian'
+name = 'libpeas-doc'

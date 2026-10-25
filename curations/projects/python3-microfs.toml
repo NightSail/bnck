@@ -1,0 +1,8 @@
+id = 'python3-microfs'
+name = 'python3-microfs'
+
+homepage = 'https://github.com/ntoll/microfs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-microfs'

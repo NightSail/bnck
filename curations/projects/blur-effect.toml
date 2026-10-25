@@ -1,0 +1,12 @@
+id = 'blur-effect'
+name = 'blur-effect'
+
+homepage = 'https://github.com/sonald/blur-effect'
+
+[[package]]
+channel = 'arch'
+name = 'blur-effect'
+
+[[package]]
+channel = 'debian'
+name = 'blur-effect'

@@ -1,0 +1,12 @@
+id = 'derby'
+name = 'derby'
+
+homepage = 'https://db.apache.org/derby'
+
+[[package]]
+channel = 'debian'
+name = 'derby-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/derby'

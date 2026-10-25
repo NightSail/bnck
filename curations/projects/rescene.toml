@@ -1,0 +1,8 @@
+id = 'rescene'
+name = 'rescene'
+
+homepage = 'http://rescene.wikidot.com'
+
+[[package]]
+channel = 'fedora'
+name = 'rescene'

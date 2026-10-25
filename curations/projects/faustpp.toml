@@ -1,0 +1,8 @@
+id = 'faustpp'
+name = 'faustpp'
+
+homepage = 'https://github.com/jpcima/faustpp'
+
+[[package]]
+channel = 'arch'
+name = 'faustpp'

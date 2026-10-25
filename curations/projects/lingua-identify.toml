@@ -1,0 +1,12 @@
+id = 'lingua-identify'
+name = 'Lingua-Identify'
+
+homepage = 'https://metacpan.org/release/Lingua-Identify'
+
+[[package]]
+channel = 'debian'
+name = 'liblingua-identify-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Lingua-Identify-tools'

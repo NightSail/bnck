@@ -1,0 +1,8 @@
+id = 'fern-api'
+name = 'fern-api'
+
+homepage = 'https://buildwithfern.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fern-api'

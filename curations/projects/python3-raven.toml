@@ -1,0 +1,8 @@
+id = 'python3-raven'
+name = 'python3-raven'
+
+homepage = 'https://pypi.python.org/pypi/raven'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-raven'

@@ -1,0 +1,8 @@
+id = 'vimpal'
+name = 'vimpal'
+
+homepage = 'http://vimpal.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'vimpal'

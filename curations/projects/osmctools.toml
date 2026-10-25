@@ -1,0 +1,12 @@
+id = 'osmctools'
+name = 'osmctools'
+
+homepage = 'https://gitlab.com/osm-c-tools/osmctools'
+
+[[package]]
+channel = 'debian'
+name = 'osmctools'
+
+[[package]]
+channel = 'fedora'
+name = 'osmctools'

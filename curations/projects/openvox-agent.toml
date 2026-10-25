@@ -1,0 +1,8 @@
+id = 'openvox-agent'
+name = 'openvox-agent'
+
+homepage = 'https://github.com/OpenVoxProject/openvox'
+
+[[package]]
+channel = 'debian'
+name = 'openvox-agent'

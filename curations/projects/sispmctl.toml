@@ -1,0 +1,12 @@
+id = 'sispmctl'
+name = 'sispmctl'
+
+homepage = 'https://sispmctl.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'sispmctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sispmctl'

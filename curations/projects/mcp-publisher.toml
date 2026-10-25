@@ -1,0 +1,8 @@
+id = 'mcp-publisher'
+name = 'mcp-publisher'
+
+repository = 'https://github.com/modelcontextprotocol/registry.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-publisher'

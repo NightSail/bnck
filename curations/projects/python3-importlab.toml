@@ -1,0 +1,8 @@
+id = 'python3-importlab'
+name = 'python3-importlab'
+
+homepage = 'https://github.com/google/importlab'
+
+[[package]]
+channel = 'debian'
+name = 'python3-importlab'

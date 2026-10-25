@@ -1,0 +1,12 @@
+id = 'fotocx'
+name = 'fotocx'
+
+homepage = 'https://kornelix.net/fotocx/fotocx.html'
+
+[[package]]
+channel = 'debian'
+name = 'fotocx'
+
+[[package]]
+channel = 'fedora'
+name = 'fotocx'

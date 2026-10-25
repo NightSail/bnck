@@ -1,0 +1,12 @@
+id = 'python3-mygpoclient'
+name = 'python3-mygpoclient'
+
+homepage = 'https://mygpoclient.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mygpoclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mygpoclient'

@@ -1,0 +1,8 @@
+id = 'obs-signd'
+name = 'obs-signd'
+
+homepage = 'https://github.com/openSUSE/obs-sign'
+
+[[package]]
+channel = 'fedora'
+name = 'obs-signd'

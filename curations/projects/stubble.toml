@@ -1,0 +1,8 @@
+id = 'stubble'
+name = 'stubble'
+
+homepage = 'https://github.com/ubuntu/stubble'
+
+[[package]]
+channel = 'debian'
+name = 'stubble'

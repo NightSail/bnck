@@ -1,0 +1,12 @@
+id = 'html-lint'
+name = 'HTML-Lint'
+
+homepage = 'https://metacpan.org/release/HTML-Lint'
+
+[[package]]
+channel = 'debian'
+name = 'weblint-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-Lint'

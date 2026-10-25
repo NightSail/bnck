@@ -1,0 +1,8 @@
+id = 'dlwrap'
+name = 'dlwrap'
+
+homepage = 'https://crates.io/crates/dlwrap'
+
+[[package]]
+channel = 'fedora'
+name = 'dlwrap'

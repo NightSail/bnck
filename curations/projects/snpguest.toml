@@ -1,0 +1,8 @@
+id = 'snpguest'
+name = 'snpguest'
+
+homepage = 'https://crates.io/crates/snpguest'
+
+[[package]]
+channel = 'fedora'
+name = 'snpguest'

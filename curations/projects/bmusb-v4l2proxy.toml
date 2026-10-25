@@ -1,0 +1,6 @@
+id = 'bmusb-v4l2proxy'
+name = 'bmusb-v4l2proxy'
+
+[[package]]
+channel = 'debian'
+name = 'bmusb-v4l2proxy'

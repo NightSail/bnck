@@ -1,0 +1,24 @@
+id = 'recoll'
+name = 'recoll'
+
+homepage = 'https://www.recoll.org'
+
+[[package]]
+channel = 'arch'
+name = 'recoll'
+
+[[package]]
+channel = 'debian'
+name = 'recollcmd'
+
+[[package]]
+channel = 'debian'
+name = 'recollgui'
+
+[[package]]
+channel = 'fedora'
+name = 'recoll'
+
+[[package]]
+channel = 'fedora'
+name = 'recoll-gssp'

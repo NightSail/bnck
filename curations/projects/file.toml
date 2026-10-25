@@ -1,0 +1,16 @@
+id = 'file'
+name = 'file'
+
+homepage = 'https://www.darwinsys.com/file'
+
+[[package]]
+channel = 'arch'
+name = 'file'
+
+[[package]]
+channel = 'debian'
+name = 'file'
+
+[[package]]
+channel = 'fedora'
+name = 'file'

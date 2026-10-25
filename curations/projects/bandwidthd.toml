@@ -1,0 +1,12 @@
+id = 'bandwidthd'
+name = 'bandwidthd'
+
+homepage = 'http://bandwidthd.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'bandwidthd'
+
+[[package]]
+channel = 'debian'
+name = 'bandwidthd-pgsql'

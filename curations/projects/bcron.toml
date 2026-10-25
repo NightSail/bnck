@@ -1,0 +1,8 @@
+id = 'bcron'
+name = 'bcron'
+
+homepage = 'https://untroubled.org/bcron'
+
+[[package]]
+channel = 'debian'
+name = 'bcron'

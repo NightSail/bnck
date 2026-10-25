@@ -1,0 +1,8 @@
+id = 'orsa'
+name = 'orsa'
+
+homepage = 'http://orsa.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'orsa'

@@ -1,0 +1,12 @@
+id = 'theora'
+name = 'theora'
+
+homepage = 'https://www.theora.org'
+
+[[package]]
+channel = 'debian'
+name = 'libtheora-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'theora-tools'

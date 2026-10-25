@@ -1,0 +1,20 @@
+id = 'haml'
+name = 'haml'
+
+homepage = 'https://haml.info'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-haml'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-haml'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-html2haml'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-haml'

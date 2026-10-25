@@ -1,0 +1,8 @@
+id = 'ont-fast5-api'
+name = 'ont-fast5-api'
+
+homepage = 'https://github.com/nanoporetech/ont_fast5_api'
+
+[[package]]
+channel = 'debian'
+name = 'ont-fast5-api'

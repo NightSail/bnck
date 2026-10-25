@@ -1,0 +1,8 @@
+id = 'units-units'
+name = 'units'
+
+homepage = 'https://www.gnu.org/software/units/units.html'
+
+[[package]]
+channel = 'fedora'
+name = 'units'

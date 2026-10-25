@@ -1,0 +1,8 @@
+id = 'rally'
+name = 'rally'
+
+homepage = 'https://github.com/openstack/rally'
+
+[[package]]
+channel = 'debian'
+name = 'rally'

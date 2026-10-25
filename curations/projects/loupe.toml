@@ -1,0 +1,16 @@
+id = 'loupe'
+name = 'loupe'
+
+homepage = 'https://apps.gnome.org/Loupe'
+
+[[package]]
+channel = 'arch'
+name = 'loupe'
+
+[[package]]
+channel = 'debian'
+name = 'loupe'
+
+[[package]]
+channel = 'fedora'
+name = 'loupe'

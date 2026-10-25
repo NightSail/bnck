@@ -1,0 +1,8 @@
+id = 'ired'
+name = 'ired'
+
+homepage = 'https://github.com/radare/ired'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ired'

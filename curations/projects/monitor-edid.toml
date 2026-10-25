@@ -1,0 +1,8 @@
+id = 'monitor-edid'
+name = 'monitor-edid'
+
+homepage = 'http://gitweb.mageia.org/software/monitor-edid'
+
+[[package]]
+channel = 'fedora'
+name = 'monitor-edid'

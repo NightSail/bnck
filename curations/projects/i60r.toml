@@ -1,0 +1,8 @@
+id = 'i60r'
+name = 'i60r'
+
+repository = 'https://github.com/I60R/page.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/page'

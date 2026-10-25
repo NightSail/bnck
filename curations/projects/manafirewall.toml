@@ -1,0 +1,8 @@
+id = 'manafirewall'
+name = 'manafirewall'
+
+homepage = 'https://github.com/manatools/manafirewall'
+
+[[package]]
+channel = 'fedora'
+name = 'manafirewall'

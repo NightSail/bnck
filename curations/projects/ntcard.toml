@@ -1,0 +1,8 @@
+id = 'ntcard'
+name = 'ntcard'
+
+homepage = 'https://github.com/bcgsc/ntCard'
+
+[[package]]
+channel = 'debian'
+name = 'ntcard'

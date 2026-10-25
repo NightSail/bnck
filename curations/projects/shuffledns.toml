@@ -1,0 +1,9 @@
+id = 'shuffledns'
+name = 'shuffledns'
+
+homepage = 'https://projectdiscovery.io'
+repository = 'https://github.com/projectdiscovery/shuffledns.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shuffledns'

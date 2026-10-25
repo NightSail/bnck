@@ -1,0 +1,12 @@
+id = 'physfs'
+name = 'physfs'
+
+homepage = 'https://www.icculus.org/physfs'
+
+[[package]]
+channel = 'debian'
+name = 'libphysfs-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'physfs-devel'

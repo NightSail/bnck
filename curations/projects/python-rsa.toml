@@ -1,0 +1,8 @@
+id = 'python-rsa'
+name = 'python-rsa'
+
+homepage = 'https://github.com/sybrenstuvel/python-rsa'
+
+[[package]]
+channel = 'arch'
+name = 'python-rsa'

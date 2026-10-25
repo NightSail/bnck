@@ -1,0 +1,52 @@
+id = 'htcondor'
+name = 'htcondor'
+
+homepage = 'https://htcondor.org'
+
+[[package]]
+channel = 'debian'
+name = 'condor'
+
+[[package]]
+channel = 'debian'
+name = 'condor-kbdd'
+
+[[package]]
+channel = 'debian'
+name = 'condor-test'
+
+[[package]]
+channel = 'debian'
+name = 'condor-upgrade-checks'
+
+[[package]]
+channel = 'debian'
+name = 'condor-vm-gahp'
+
+[[package]]
+channel = 'fedora'
+name = 'condor'
+
+[[package]]
+channel = 'fedora'
+name = 'condor-credmon-local'
+
+[[package]]
+channel = 'fedora'
+name = 'condor-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'condor-kbdd'
+
+[[package]]
+channel = 'fedora'
+name = 'condor-upgrade-checks'
+
+[[package]]
+channel = 'fedora'
+name = 'condor-vm-gahp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-condor'

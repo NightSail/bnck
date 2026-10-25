@@ -1,0 +1,12 @@
+id = 'gpxviewer'
+name = 'gpxviewer'
+
+homepage = 'https://github.com/andrewgee/gpxviewer'
+
+[[package]]
+channel = 'debian'
+name = 'gpxviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'gpx-viewer'

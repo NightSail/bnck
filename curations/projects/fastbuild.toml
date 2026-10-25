@@ -1,0 +1,8 @@
+id = 'fastbuild'
+name = 'fastbuild'
+
+homepage = 'https://fastbuild.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastbuild'

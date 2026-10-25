@@ -1,0 +1,12 @@
+id = 'phonon-qt6'
+name = 'phonon-qt6'
+
+homepage = 'https://community.kde.org/Phonon'
+
+[[package]]
+channel = 'arch'
+name = 'phonon-qt6'
+
+[[package]]
+channel = 'fedora'
+name = 'phonon-qt6'

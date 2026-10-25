@@ -1,0 +1,13 @@
+id = 'mpich'
+name = 'mpich'
+
+homepage = 'https://www.mpich.org'
+repository = 'https://github.com/pmodels/mpich.git'
+
+[[package]]
+channel = 'debian'
+name = 'mpich'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpich'

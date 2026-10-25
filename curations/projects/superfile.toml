@@ -1,0 +1,12 @@
+id = 'superfile'
+name = 'superfile'
+
+homepage = 'https://superfile.dev'
+
+[[package]]
+channel = 'arch'
+name = 'superfile'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/superfile'

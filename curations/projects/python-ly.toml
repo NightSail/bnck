@@ -1,0 +1,16 @@
+id = 'python-ly'
+name = 'python-ly'
+
+homepage = 'https://github.com/frescobaldi/python-ly'
+
+[[package]]
+channel = 'arch'
+name = 'python-ly'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ly'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ly'

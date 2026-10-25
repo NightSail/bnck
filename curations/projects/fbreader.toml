@@ -1,0 +1,16 @@
+id = 'fbreader'
+name = 'fbreader'
+
+homepage = 'http://www.fbreader.org'
+
+[[package]]
+channel = 'arch'
+name = 'fbreader'
+
+[[package]]
+channel = 'debian'
+name = 'fbreader'
+
+[[package]]
+channel = 'fedora'
+name = 'fbreader'

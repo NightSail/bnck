@@ -1,0 +1,8 @@
+id = 'pulumictl'
+name = 'pulumictl'
+
+repository = 'https://github.com/pulumi/pulumictl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulumictl'

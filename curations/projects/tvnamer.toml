@@ -1,0 +1,12 @@
+id = 'tvnamer'
+name = 'tvnamer'
+
+repository = 'https://github.com/dbr/tvnamer.git'
+
+[[package]]
+channel = 'debian'
+name = 'tvnamer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tvnamer'

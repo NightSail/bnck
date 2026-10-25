@@ -1,0 +1,8 @@
+id = 'pantheon-shortcut-overlay'
+name = 'pantheon-shortcut-overlay'
+
+homepage = 'https://github.com/elementary/shortcut-overlay'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-shortcut-overlay'

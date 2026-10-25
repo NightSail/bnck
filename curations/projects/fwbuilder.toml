@@ -1,0 +1,12 @@
+id = 'fwbuilder'
+name = 'fwbuilder'
+
+homepage = 'https://github.com/fwbuilder'
+
+[[package]]
+channel = 'arch'
+name = 'fwbuilder'
+
+[[package]]
+channel = 'debian'
+name = 'fwbuilder'

@@ -1,0 +1,16 @@
+id = 'orca'
+name = 'orca'
+
+homepage = 'https://orca.gnome.org'
+
+[[package]]
+channel = 'arch'
+name = 'orca'
+
+[[package]]
+channel = 'debian'
+name = 'orca'
+
+[[package]]
+channel = 'fedora'
+name = 'orca'

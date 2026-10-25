@@ -1,0 +1,16 @@
+id = 'qtpass'
+name = 'qtpass'
+
+homepage = 'https://qtpass.org'
+
+[[package]]
+channel = 'arch'
+name = 'qtpass'
+
+[[package]]
+channel = 'debian'
+name = 'qtpass'
+
+[[package]]
+channel = 'fedora'
+name = 'qtpass'

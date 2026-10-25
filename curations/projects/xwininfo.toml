@@ -1,0 +1,8 @@
+id = 'xwininfo'
+name = 'xwininfo'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xwininfo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xwininfo'

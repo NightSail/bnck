@@ -1,0 +1,12 @@
+id = 'signal-estimator'
+name = 'signal-estimator'
+
+homepage = 'https://github.com/gavv/signal-estimator'
+
+[[package]]
+channel = 'debian'
+name = 'signal-estimator'
+
+[[package]]
+channel = 'debian'
+name = 'signal-estimator-gui'

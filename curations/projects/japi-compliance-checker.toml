@@ -1,0 +1,8 @@
+id = 'japi-compliance-checker'
+name = 'japi-compliance-checker'
+
+homepage = 'https://lvc.github.io/japi-compliance-checker'
+
+[[package]]
+channel = 'debian'
+name = 'japi-compliance-checker'

@@ -1,0 +1,21 @@
+id = 'qbs'
+name = 'qbs'
+
+homepage = 'https://wiki.qt.io/Qbs'
+repository = 'https://code.qt.io/qbs/qbs.git'
+
+[[package]]
+channel = 'arch'
+name = 'qbs'
+
+[[package]]
+channel = 'debian'
+name = 'qbs'
+
+[[package]]
+channel = 'fedora'
+name = 'qbs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qbs'

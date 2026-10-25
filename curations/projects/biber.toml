@@ -1,0 +1,16 @@
+id = 'biber'
+name = 'biber'
+
+homepage = 'https://sourceforge.net/projects/biblatex-biber'
+
+[[package]]
+channel = 'debian'
+name = 'biber'
+
+[[package]]
+channel = 'fedora'
+name = 'biber'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/biber'

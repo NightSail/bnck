@@ -1,0 +1,9 @@
+id = 'gsan'
+name = 'gsan'
+
+homepage = 'https://franccesco.github.io/getaltname'
+repository = 'https://github.com/franccesco/getaltname.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gsan'

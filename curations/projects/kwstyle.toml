@@ -1,0 +1,8 @@
+id = 'kwstyle'
+name = 'kwstyle'
+
+homepage = 'https://kitware.github.io/KWStyle'
+
+[[package]]
+channel = 'debian'
+name = 'kwstyle'

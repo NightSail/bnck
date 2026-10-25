@@ -1,0 +1,8 @@
+id = 'nagios-plugins-rabbitmq'
+name = 'nagios-plugins-rabbitmq'
+
+homepage = 'https://github.com/jamesc/nagios-plugins-rabbitmq'
+
+[[package]]
+channel = 'debian'
+name = 'nagios-plugins-rabbitmq'

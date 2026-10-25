@@ -1,0 +1,8 @@
+id = 'folio'
+name = 'folio'
+
+homepage = 'https://github.com/toolstack/Folio'
+
+[[package]]
+channel = 'fedora'
+name = 'folio'

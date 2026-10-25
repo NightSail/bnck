@@ -1,0 +1,12 @@
+id = 'icedtea-web'
+name = 'icedtea-web'
+
+homepage = 'https://github.com/AdoptOpenJDK/IcedTea-Web'
+
+[[package]]
+channel = 'arch'
+name = 'icedtea-web'
+
+[[package]]
+channel = 'fedora'
+name = 'icedtea-web'

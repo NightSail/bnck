@@ -1,0 +1,16 @@
+id = 'markdown-it-py'
+name = 'markdown-it-py'
+
+homepage = 'https://github.com/executablebooks/markdown-it-py'
+
+[[package]]
+channel = 'arch'
+name = 'python-markdown-it-py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-markdown-it'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-markdown-it-py'

@@ -1,0 +1,16 @@
+id = 'kgpg'
+name = 'kgpg'
+
+homepage = 'https://apps.kde.org/kgpg'
+
+[[package]]
+channel = 'arch'
+name = 'kgpg'
+
+[[package]]
+channel = 'debian'
+name = 'kgpg'
+
+[[package]]
+channel = 'fedora'
+name = 'kgpg'

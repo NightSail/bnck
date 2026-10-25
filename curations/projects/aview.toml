@@ -1,0 +1,12 @@
+id = 'aview'
+name = 'aview'
+
+homepage = 'https://aa-project.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'aview'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aview'

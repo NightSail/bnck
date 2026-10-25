@@ -1,0 +1,16 @@
+id = 'acme'
+name = 'acme'
+
+homepage = 'https://sourceforge.net/projects/acme-crossass'
+
+[[package]]
+channel = 'arch'
+name = 'acme'
+
+[[package]]
+channel = 'debian'
+name = 'acme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/acme'

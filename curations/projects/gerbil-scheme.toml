@@ -1,0 +1,8 @@
+id = 'gerbil-scheme'
+name = 'gerbil-scheme'
+
+homepage = 'https://cons.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gerbil-scheme'

@@ -1,0 +1,8 @@
+id = 'grpcui'
+name = 'grpcui'
+
+repository = 'https://github.com/fullstorydev/grpcui.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grpcui'

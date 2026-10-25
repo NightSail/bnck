@@ -1,0 +1,8 @@
+id = 'python-ndg-httpsclient'
+name = 'python-ndg-httpsclient'
+
+homepage = 'https://pypi.python.org/pypi/ndg-httpsclient'
+
+[[package]]
+channel = 'arch'
+name = 'python-ndg-httpsclient'

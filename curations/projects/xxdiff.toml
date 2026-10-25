@@ -1,0 +1,12 @@
+id = 'xxdiff'
+name = 'xxdiff'
+
+homepage = 'https://furius.ca/xxdiff'
+
+[[package]]
+channel = 'debian'
+name = 'xxdiff'
+
+[[package]]
+channel = 'debian'
+name = 'xxdiff-scripts'

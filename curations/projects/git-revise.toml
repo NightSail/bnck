@@ -1,0 +1,21 @@
+id = 'git-revise'
+name = 'git-revise'
+
+homepage = 'https://mystor.github.io/git-revise.html'
+repository = 'https://github.com/mystor/git-revise.git'
+
+[[package]]
+channel = 'arch'
+name = 'git-revise'
+
+[[package]]
+channel = 'debian'
+name = 'git-revise'
+
+[[package]]
+channel = 'fedora'
+name = 'git-revise'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-revise'

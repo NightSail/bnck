@@ -1,0 +1,8 @@
+id = 'python3-pyprobeplus'
+name = 'python3-pyprobeplus'
+
+homepage = 'https://github.com/pantherale0/pyprobeplus'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyprobeplus'

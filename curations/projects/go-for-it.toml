@@ -1,0 +1,8 @@
+id = 'go-for-it'
+name = 'go-for-it'
+
+homepage = 'https://jmoerman.github.io/go-for-it'
+
+[[package]]
+channel = 'debian'
+name = 'go-for-it'

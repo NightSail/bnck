@@ -1,0 +1,12 @@
+id = 'yagf'
+name = 'yagf'
+
+homepage = 'https://sourceforge.net/projects/yagf-ocr'
+
+[[package]]
+channel = 'debian'
+name = 'yagf'
+
+[[package]]
+channel = 'fedora'
+name = 'yagf'

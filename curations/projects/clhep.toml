@@ -1,0 +1,9 @@
+id = 'clhep'
+name = 'clhep'
+
+homepage = 'https://proj-clhep.web.cern.ch/proj-clhep'
+repository = 'https://gitlab.cern.ch/CLHEP/CLHEP.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clhep'

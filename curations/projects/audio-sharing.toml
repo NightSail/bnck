@@ -1,0 +1,8 @@
+id = 'audio-sharing'
+name = 'audio-sharing'
+
+homepage = 'https://apps.gnome.org/AudioSharing'
+
+[[package]]
+channel = 'arch'
+name = 'audio-sharing'

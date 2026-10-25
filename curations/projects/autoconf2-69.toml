@@ -1,0 +1,6 @@
+id = 'autoconf2-69'
+name = 'autoconf2.69'
+
+[[package]]
+channel = 'debian'
+name = 'autoconf2.69'

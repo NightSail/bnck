@@ -1,0 +1,16 @@
+id = 'leptonica'
+name = 'leptonica'
+
+homepage = 'http://www.leptonica.org'
+
+[[package]]
+channel = 'arch'
+name = 'leptonica'
+
+[[package]]
+channel = 'debian'
+name = 'leptonica-progs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leptonica'

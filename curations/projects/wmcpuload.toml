@@ -1,0 +1,8 @@
+id = 'wmcpuload'
+name = 'wmcpuload'
+
+homepage = 'https://www.dockapps.net/wmcpuload'
+
+[[package]]
+channel = 'debian'
+name = 'wmcpuload'

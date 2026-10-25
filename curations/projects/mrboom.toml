@@ -1,0 +1,8 @@
+id = 'mrboom'
+name = 'mrboom'
+
+homepage = 'https://mrboom.mumblecore.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mrboom'

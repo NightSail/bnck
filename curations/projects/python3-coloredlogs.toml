@@ -1,0 +1,8 @@
+id = 'python3-coloredlogs'
+name = 'python3-coloredlogs'
+
+homepage = 'https://coloredlogs.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-coloredlogs'

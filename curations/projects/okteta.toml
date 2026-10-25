@@ -1,0 +1,16 @@
+id = 'okteta'
+name = 'okteta'
+
+homepage = 'https://apps.kde.org/okteta'
+
+[[package]]
+channel = 'arch'
+name = 'okteta'
+
+[[package]]
+channel = 'debian'
+name = 'okteta'
+
+[[package]]
+channel = 'fedora'
+name = 'okteta'

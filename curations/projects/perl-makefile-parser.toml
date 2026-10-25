@@ -1,0 +1,8 @@
+id = 'perl-makefile-parser'
+name = 'perl-Makefile-Parser'
+
+homepage = 'https://metacpan.org/release/Makefile-Parser'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Makefile-Parser'

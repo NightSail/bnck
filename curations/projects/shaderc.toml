@@ -1,0 +1,16 @@
+id = 'shaderc'
+name = 'shaderc'
+
+homepage = 'https://github.com/google/shaderc'
+
+[[package]]
+channel = 'arch'
+name = 'shaderc'
+
+[[package]]
+channel = 'debian'
+name = 'glslc'
+
+[[package]]
+channel = 'fedora'
+name = 'glslc'

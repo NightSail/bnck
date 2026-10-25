@@ -1,0 +1,12 @@
+id = 'monitorix'
+name = 'monitorix'
+
+homepage = 'https://www.monitorix.org'
+
+[[package]]
+channel = 'debian'
+name = 'monitorix'
+
+[[package]]
+channel = 'fedora'
+name = 'monitorix'

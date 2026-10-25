@@ -1,0 +1,20 @@
+id = 'linux-atm'
+name = 'linux-atm'
+
+homepage = 'http://linux-atm.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'linux-atm'
+
+[[package]]
+channel = 'debian'
+name = 'atm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'br2684ctl'
+
+[[package]]
+channel = 'fedora'
+name = 'linux-atm'

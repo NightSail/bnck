@@ -1,0 +1,8 @@
+id = 'rubygem-drake'
+name = 'rubygem-drake'
+
+homepage = 'http://quix.github.io/rake'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-drake'

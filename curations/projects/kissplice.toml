@@ -1,0 +1,8 @@
+id = 'kissplice'
+name = 'kissplice'
+
+homepage = 'https://kissplice.prabi.fr'
+
+[[package]]
+channel = 'debian'
+name = 'kissplice'

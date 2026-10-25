@@ -1,0 +1,12 @@
+id = 'endeavour'
+name = 'endeavour'
+
+homepage = 'https://wiki.gnome.org/Apps/Todo'
+
+[[package]]
+channel = 'arch'
+name = 'endeavour'
+
+[[package]]
+channel = 'debian'
+name = 'endeavour'

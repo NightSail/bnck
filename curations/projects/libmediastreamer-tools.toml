@@ -1,0 +1,8 @@
+id = 'libmediastreamer-tools'
+name = 'libmediastreamer-tools'
+
+homepage = 'https://www.linphone.org/technical-corner/mediastreamer2/overview'
+
+[[package]]
+channel = 'debian'
+name = 'libmediastreamer-tools'

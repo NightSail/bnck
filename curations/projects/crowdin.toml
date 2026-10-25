@@ -1,0 +1,8 @@
+id = 'crowdin'
+name = 'crowdin'
+
+homepage = 'https://support.crowdin.com/cli-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/crowdin'

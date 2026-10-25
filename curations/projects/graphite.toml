@@ -1,0 +1,12 @@
+id = 'graphite'
+name = 'graphite'
+
+homepage = 'https://graphite.sil.org'
+
+[[package]]
+channel = 'arch'
+name = 'graphite'
+
+[[package]]
+channel = 'debian'
+name = 'libgraphite2-utils'

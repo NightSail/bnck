@@ -1,0 +1,8 @@
+id = 'gh-ost'
+name = 'gh-ost'
+
+repository = 'https://github.com/github/gh-ost.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gh-ost'

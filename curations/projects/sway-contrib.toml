@@ -1,0 +1,20 @@
+id = 'sway-contrib'
+name = 'sway-contrib'
+
+homepage = 'https://github.com/OctopusET/sway-contrib'
+
+[[package]]
+channel = 'arch'
+name = 'sway-contrib'
+
+[[package]]
+channel = 'debian'
+name = 'grimshot'
+
+[[package]]
+channel = 'fedora'
+name = 'grimpicker'
+
+[[package]]
+channel = 'fedora'
+name = 'grimshot'

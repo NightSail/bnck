@@ -1,0 +1,12 @@
+id = 'apt-offline'
+name = 'apt-offline'
+
+homepage = 'https://github.com/rickysarraf/apt-offline'
+
+[[package]]
+channel = 'debian'
+name = 'apt-offline'
+
+[[package]]
+channel = 'debian'
+name = 'apt-offline-gui'

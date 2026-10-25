@@ -1,0 +1,12 @@
+id = 'nicstat'
+name = 'nicstat'
+
+homepage = 'https://sourceforge.net/projects/nicstat'
+
+[[package]]
+channel = 'debian'
+name = 'nicstat'
+
+[[package]]
+channel = 'fedora'
+name = 'nicstat'

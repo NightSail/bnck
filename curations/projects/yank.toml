@@ -1,0 +1,20 @@
+id = 'yank'
+name = 'yank'
+
+homepage = 'https://github.com/mptre/yank'
+
+[[package]]
+channel = 'arch'
+name = 'yank'
+
+[[package]]
+channel = 'debian'
+name = 'yank'
+
+[[package]]
+channel = 'fedora'
+name = 'yank'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yank'

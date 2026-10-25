@@ -1,0 +1,8 @@
+id = 'gfarm2fs'
+name = 'gfarm2fs'
+
+homepage = 'https://github.com/oss-tsukuba/gfarm2fs'
+
+[[package]]
+channel = 'debian'
+name = 'gfarm2fs'

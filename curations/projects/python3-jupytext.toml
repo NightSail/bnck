@@ -1,0 +1,12 @@
+id = 'python3-jupytext'
+name = 'python3-jupytext'
+
+homepage = 'https://github.com/mwouts/jupytext'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jupytext'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupytext'

@@ -1,0 +1,8 @@
+id = 'python3-blacken-docs'
+name = 'python3-blacken-docs'
+
+homepage = 'https://github.com/adamchainz/blacken-docs'
+
+[[package]]
+channel = 'debian'
+name = 'python3-blacken-docs'

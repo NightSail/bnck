@@ -1,0 +1,8 @@
+id = 'libbio-db-ace-perl'
+name = 'libbio-db-ace-perl'
+
+homepage = 'https://metacpan.org/release/Bio-DB-Ace'
+
+[[package]]
+channel = 'debian'
+name = 'libbio-db-ace-perl'

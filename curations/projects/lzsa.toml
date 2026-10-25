@@ -1,0 +1,8 @@
+id = 'lzsa'
+name = 'lzsa'
+
+homepage = 'https://github.com/emmanuel-marty/lzsa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lzsa'

@@ -1,0 +1,8 @@
+id = 'email-reminder'
+name = 'email-reminder'
+
+homepage = 'https://launchpad.net/email-reminder'
+
+[[package]]
+channel = 'debian'
+name = 'email-reminder'

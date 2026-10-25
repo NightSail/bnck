@@ -1,0 +1,8 @@
+id = 'coin'
+name = 'coin'
+
+homepage = 'https://github.com/coin3d/coin'
+
+[[package]]
+channel = 'arch'
+name = 'coin'

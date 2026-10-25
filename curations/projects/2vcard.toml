@@ -1,0 +1,8 @@
+id = '2vcard'
+name = '2vcard'
+
+homepage = 'https://www.netmeister.org/apps/2vcard'
+
+[[package]]
+channel = 'debian'
+name = '2vcard'

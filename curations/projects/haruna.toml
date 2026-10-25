@@ -1,0 +1,16 @@
+id = 'haruna'
+name = 'haruna'
+
+homepage = 'https://apps.kde.org/haruna'
+
+[[package]]
+channel = 'arch'
+name = 'haruna'
+
+[[package]]
+channel = 'debian'
+name = 'haruna'
+
+[[package]]
+channel = 'fedora'
+name = 'haruna'

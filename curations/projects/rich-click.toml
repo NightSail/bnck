@@ -1,0 +1,16 @@
+id = 'rich-click'
+name = 'rich-click'
+
+homepage = 'https://github.com/ewels/rich-click'
+
+[[package]]
+channel = 'arch'
+name = 'python-rich-click'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rich-click'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rich-click'

@@ -1,0 +1,8 @@
+id = 'biff'
+name = 'biff'
+
+homepage = 'https://ftp.gwdg.de/pub/linux/misc/linux.org.uk/people/linux/Networking/netkit'
+
+[[package]]
+channel = 'debian'
+name = 'biff'

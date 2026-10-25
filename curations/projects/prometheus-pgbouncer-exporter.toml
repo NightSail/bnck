@@ -1,0 +1,8 @@
+id = 'prometheus-pgbouncer-exporter'
+name = 'prometheus-pgbouncer-exporter'
+
+homepage = 'https://github.com/prometheus-community/pgbouncer_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-pgbouncer-exporter'

@@ -1,0 +1,12 @@
+id = 'janino'
+name = 'janino'
+
+homepage = 'https://janino-compiler.github.io/janino'
+
+[[package]]
+channel = 'debian'
+name = 'janino'
+
+[[package]]
+channel = 'fedora'
+name = 'janino'

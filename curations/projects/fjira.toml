@@ -1,0 +1,8 @@
+id = 'fjira'
+name = 'fjira'
+
+repository = 'https://github.com/mk-5/fjira.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fjira'

@@ -1,0 +1,8 @@
+id = 'blockoutii'
+name = 'BlockOutII'
+
+homepage = 'http://www.blockout.net/blockout2'
+
+[[package]]
+channel = 'fedora'
+name = 'BlockOutII'

@@ -1,0 +1,16 @@
+id = 'admesh'
+name = 'admesh'
+
+homepage = 'https://github.com/admesh/admesh'
+
+[[package]]
+channel = 'debian'
+name = 'admesh'
+
+[[package]]
+channel = 'fedora'
+name = 'admesh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/admesh'

@@ -1,0 +1,8 @@
+id = 'ussp-push'
+name = 'ussp-push'
+
+homepage = 'http://www.xmailserver.org/ussp-push.html'
+
+[[package]]
+channel = 'debian'
+name = 'ussp-push'

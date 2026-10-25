@@ -1,0 +1,8 @@
+id = 'ocamlviz'
+name = 'ocamlviz'
+
+homepage = 'http://ocamlviz.forge.ocamlcore.org'
+
+[[package]]
+channel = 'debian'
+name = 'ocamlviz'

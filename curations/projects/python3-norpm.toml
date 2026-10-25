@@ -1,0 +1,8 @@
+id = 'python3-norpm'
+name = 'python3-norpm'
+
+homepage = 'https://github.com/praiskup/norpm'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-norpm'

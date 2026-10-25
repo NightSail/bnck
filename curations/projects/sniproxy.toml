@@ -1,0 +1,12 @@
+id = 'sniproxy'
+name = 'sniproxy'
+
+homepage = 'https://github.com/dlundquist/sniproxy'
+
+[[package]]
+channel = 'arch'
+name = 'sniproxy'
+
+[[package]]
+channel = 'debian'
+name = 'sniproxy'

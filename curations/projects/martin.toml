@@ -1,0 +1,8 @@
+id = 'martin'
+name = 'martin'
+
+homepage = 'https://martin.maplibre.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/martin'

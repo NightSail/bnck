@@ -1,0 +1,12 @@
+id = 'biopp'
+name = 'biopp'
+
+homepage = 'http://biopp.univ-montp2.fr/wiki/index.php/Main_Page'
+
+[[package]]
+channel = 'debian'
+name = 'bppphyview'
+
+[[package]]
+channel = 'debian'
+name = 'bppsuite'

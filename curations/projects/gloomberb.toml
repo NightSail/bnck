@@ -1,0 +1,8 @@
+id = 'gloomberb'
+name = 'gloomberb'
+
+homepage = 'https://gloom.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gloomberb'

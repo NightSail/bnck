@@ -1,0 +1,13 @@
+id = 'eksctl'
+name = 'eksctl'
+
+homepage = 'https://eksctl.io'
+repository = 'https://github.com/eksctl-io/eksctl.git'
+
+[[package]]
+channel = 'arch'
+name = 'eksctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eksctl'

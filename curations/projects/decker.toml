@@ -1,0 +1,8 @@
+id = 'decker'
+name = 'decker'
+
+homepage = 'https://beyondloom.com/decker'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/decker'

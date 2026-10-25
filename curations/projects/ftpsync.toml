@@ -1,0 +1,6 @@
+id = 'ftpsync'
+name = 'ftpsync'
+
+[[package]]
+channel = 'debian'
+name = 'ftpsync'

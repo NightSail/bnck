@@ -1,0 +1,32 @@
+id = 'cups'
+name = 'cups'
+
+homepage = 'https://github.com/OpenPrinting/cups'
+
+[[package]]
+channel = 'debian'
+name = 'cups'
+
+[[package]]
+channel = 'debian'
+name = 'cups-bsd'
+
+[[package]]
+channel = 'debian'
+name = 'cups-client'
+
+[[package]]
+channel = 'debian'
+name = 'cups-daemon'
+
+[[package]]
+channel = 'debian'
+name = 'cups-ipp-utils'
+
+[[package]]
+channel = 'debian'
+name = 'cups-ppdc'
+
+[[package]]
+channel = 'debian'
+name = 'libcups2-dev'

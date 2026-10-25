@@ -1,0 +1,8 @@
+id = 'omping'
+name = 'omping'
+
+homepage = 'https://github.com/jfriesse/omping'
+
+[[package]]
+channel = 'fedora'
+name = 'omping'

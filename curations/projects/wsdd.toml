@@ -1,0 +1,16 @@
+id = 'wsdd'
+name = 'wsdd'
+
+homepage = 'https://github.com/christgau/wsdd'
+
+[[package]]
+channel = 'arch'
+name = 'wsdd'
+
+[[package]]
+channel = 'debian'
+name = 'wsdd'
+
+[[package]]
+channel = 'fedora'
+name = 'wsdd'

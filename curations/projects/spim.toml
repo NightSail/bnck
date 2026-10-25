@@ -1,0 +1,17 @@
+id = 'spim'
+name = 'spim'
+
+homepage = 'http://pages.cs.wisc.edu/~larus/spim.html'
+repository = 'https://svn.code.sf.net/p/spimsimulator/code'
+
+[[package]]
+channel = 'debian'
+name = 'spim'
+
+[[package]]
+channel = 'fedora'
+name = 'spim'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spim'

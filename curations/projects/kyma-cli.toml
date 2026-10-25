@@ -1,0 +1,9 @@
+id = 'kyma-cli'
+name = 'kyma-cli'
+
+homepage = 'https://kyma-project.io'
+repository = 'https://github.com/kyma-project/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kyma-cli'

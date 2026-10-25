@@ -1,0 +1,20 @@
+id = 'docbook2x'
+name = 'docbook2X'
+
+homepage = 'https://docbook2x.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'docbook2x'
+
+[[package]]
+channel = 'debian'
+name = 'docbook2x'
+
+[[package]]
+channel = 'fedora'
+name = 'docbook2X'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docbook2x'

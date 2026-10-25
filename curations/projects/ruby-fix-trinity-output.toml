@@ -1,0 +1,8 @@
+id = 'ruby-fix-trinity-output'
+name = 'ruby-fix-trinity-output'
+
+homepage = 'http://rubygems.org/gems/fix-trinity-output'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-fix-trinity-output'

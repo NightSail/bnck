@@ -1,0 +1,8 @@
+id = 'dextractor'
+name = 'dextractor'
+
+homepage = 'https://github.com/thegenemyers/DEXTRACTOR'
+
+[[package]]
+channel = 'debian'
+name = 'dextractor'

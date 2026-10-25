@@ -1,0 +1,8 @@
+id = 'golang-github-rwcarlsen-goexif'
+name = 'golang-github-rwcarlsen-goexif'
+
+homepage = 'https://github.com/rwcarlsen/goexif'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-rwcarlsen-goexif'

@@ -1,0 +1,12 @@
+id = 'pcmanfm-pcmanfm'
+name = 'pcmanfm'
+
+homepage = 'http://pcmanfm.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'libfm-gtk-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'pcmanfm'

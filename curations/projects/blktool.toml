@@ -1,0 +1,8 @@
+id = 'blktool'
+name = 'blktool'
+
+homepage = 'https://sourceforge.net/projects/gkernel/files/blktool'
+
+[[package]]
+channel = 'debian'
+name = 'blktool'

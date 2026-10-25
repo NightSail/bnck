@@ -1,0 +1,13 @@
+id = 'rust-analyzer'
+name = 'rust-analyzer'
+
+homepage = 'https://rust-analyzer.github.io'
+repository = 'https://github.com/rust-lang/rust-analyzer.git'
+
+[[package]]
+channel = 'arch'
+name = 'rust-analyzer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rust-analyzer'

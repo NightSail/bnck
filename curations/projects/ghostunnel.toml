@@ -1,0 +1,9 @@
+id = 'ghostunnel'
+name = 'ghostunnel'
+
+homepage = 'https://ghostunnel.dev'
+repository = 'https://github.com/ghostunnel/ghostunnel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghostunnel'

@@ -1,0 +1,8 @@
+id = 'placnet'
+name = 'placnet'
+
+homepage = 'http://sourceforge.net/projects/placnet'
+
+[[package]]
+channel = 'debian'
+name = 'placnet'

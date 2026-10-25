@@ -1,0 +1,8 @@
+id = 'weggli'
+name = 'weggli'
+
+repository = 'https://github.com/weggli-rs/weggli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weggli'

@@ -1,0 +1,8 @@
+id = 'nak'
+name = 'nak'
+
+repository = 'https://github.com/fiatjaf/nak.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nak'

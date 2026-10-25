@@ -1,0 +1,12 @@
+id = 'websocat'
+name = 'websocat'
+
+homepage = 'https://github.com/vi/websocat'
+
+[[package]]
+channel = 'arch'
+name = 'websocat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/websocat'

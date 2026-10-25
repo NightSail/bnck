@@ -1,0 +1,8 @@
+id = 'xwin'
+name = 'xwin'
+
+homepage = 'https://github.com/Jake-Shadle/xwin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xwin'

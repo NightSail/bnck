@@ -1,0 +1,20 @@
+id = 'scim'
+name = 'scim'
+
+homepage = 'https://github.com/scim-im/scim'
+
+[[package]]
+channel = 'arch'
+name = 'scim'
+
+[[package]]
+channel = 'debian'
+name = 'scim'
+
+[[package]]
+channel = 'debian'
+name = 'scim-im-agent'
+
+[[package]]
+channel = 'fedora'
+name = 'scim'

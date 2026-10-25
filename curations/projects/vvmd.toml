@@ -1,0 +1,8 @@
+id = 'vvmd'
+name = 'vvmd'
+
+homepage = 'https://gitlab.com/kop316/vvmd'
+
+[[package]]
+channel = 'debian'
+name = 'vvmd'

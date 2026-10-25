@@ -1,0 +1,8 @@
+id = 'httpdirfs'
+name = 'httpdirfs'
+
+homepage = 'https://github.com/fangfufu/httpdirfs'
+
+[[package]]
+channel = 'debian'
+name = 'httpdirfs'

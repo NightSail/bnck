@@ -1,0 +1,8 @@
+id = 'kali'
+name = 'kali'
+
+homepage = 'http://www.geom.uiuc.edu/software/download/kali.html'
+
+[[package]]
+channel = 'debian'
+name = 'kali'

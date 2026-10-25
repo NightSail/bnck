@@ -1,0 +1,12 @@
+id = 'python3-gnocchiclient'
+name = 'python3-gnocchiclient'
+
+homepage = 'https://github.com/gnocchixyz/python-gnocchiclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-gnocchiclient'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gnocchiclient'

@@ -1,0 +1,16 @@
+id = 'stone'
+name = 'stone'
+
+homepage = 'https://github.com/dropbox/stone'
+
+[[package]]
+channel = 'arch'
+name = 'python-stone'
+
+[[package]]
+channel = 'debian'
+name = 'python3-stone'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-stone'

@@ -1,0 +1,8 @@
+id = 'ptpd'
+name = 'ptpd'
+
+homepage = 'http://sourceforge.net/projects/ptpd'
+
+[[package]]
+channel = 'debian'
+name = 'ptpd'

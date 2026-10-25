@@ -1,0 +1,8 @@
+id = 'air'
+name = 'air'
+
+homepage = 'https://posit-dev.github.io/air'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/air'

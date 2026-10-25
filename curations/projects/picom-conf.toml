@@ -1,0 +1,8 @@
+id = 'picom-conf'
+name = 'picom-conf'
+
+homepage = 'https://github.com/qtilities/picom-conf'
+
+[[package]]
+channel = 'debian'
+name = 'picom-conf'

@@ -1,0 +1,12 @@
+id = 'zerotier'
+name = 'zerotier'
+
+homepage = 'https://www.zerotier.com'
+
+[[package]]
+channel = 'arch'
+name = 'zerotier-one'
+
+[[package]]
+channel = 'arch'
+name = 'zerotier-one-full'

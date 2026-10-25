@@ -1,0 +1,8 @@
+id = 'karn'
+name = 'karn'
+
+repository = 'https://github.com/prydonius/karn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/karn'

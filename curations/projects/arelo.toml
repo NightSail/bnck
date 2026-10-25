@@ -1,0 +1,8 @@
+id = 'arelo'
+name = 'arelo'
+
+repository = 'https://github.com/makiuchi-d/arelo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arelo'

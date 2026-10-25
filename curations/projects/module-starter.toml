@@ -1,0 +1,12 @@
+id = 'module-starter'
+name = 'Module-Starter'
+
+homepage = 'https://metacpan.org/release/Module-Starter'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-starter-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Starter'

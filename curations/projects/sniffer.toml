@@ -1,0 +1,8 @@
+id = 'sniffer'
+name = 'sniffer'
+
+homepage = 'https://github.com/chenjiandongx/sniffer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sniffer'

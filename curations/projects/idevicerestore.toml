@@ -1,0 +1,8 @@
+id = 'idevicerestore'
+name = 'idevicerestore'
+
+homepage = 'https://github.com/libimobiledevice/idevicerestore'
+
+[[package]]
+channel = 'fedora'
+name = 'idevicerestore'

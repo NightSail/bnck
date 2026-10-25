@@ -1,0 +1,8 @@
+id = 'python-pipenv'
+name = 'python-pipenv'
+
+homepage = 'https://pipenv.pypa.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-pipenv'

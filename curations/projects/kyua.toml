@@ -1,0 +1,17 @@
+id = 'kyua'
+name = 'kyua'
+
+homepage = 'https://github.com/jmmv/kyua'
+repository = 'https://github.com/freebsd/kyua.git'
+
+[[package]]
+channel = 'debian'
+name = 'kyua'
+
+[[package]]
+channel = 'fedora'
+name = 'kyua'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kyua'

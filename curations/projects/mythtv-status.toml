@@ -1,0 +1,8 @@
+id = 'mythtv-status'
+name = 'mythtv-status'
+
+homepage = 'http://www.etc.gen.nz/projects/mythtv/mythtv-status.html'
+
+[[package]]
+channel = 'debian'
+name = 'mythtv-status'

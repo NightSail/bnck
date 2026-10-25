@@ -1,0 +1,8 @@
+id = 'phpmd'
+name = 'phpmd'
+
+homepage = 'https://phpmd.org'
+
+[[package]]
+channel = 'debian'
+name = 'phpmd'

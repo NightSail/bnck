@@ -1,0 +1,8 @@
+id = 'jdtls'
+name = 'jdtls'
+
+homepage = 'https://github.com/eclipse-jdtls/eclipse.jdt.ls'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jdtls'

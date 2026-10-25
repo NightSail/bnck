@@ -1,0 +1,12 @@
+id = 'icu'
+name = 'icu'
+
+homepage = 'https://icu.unicode.org'
+
+[[package]]
+channel = 'arch'
+name = 'icu'
+
+[[package]]
+channel = 'debian'
+name = 'icu-devtools'

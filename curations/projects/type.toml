@@ -1,0 +1,12 @@
+id = 'type'
+name = 'type'
+
+homepage = 'https://www.lcdf.org/type'
+
+[[package]]
+channel = 'debian'
+name = 'lcdf-typetools'
+
+[[package]]
+channel = 'debian'
+name = 't1utils'

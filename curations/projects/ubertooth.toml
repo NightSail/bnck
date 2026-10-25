@@ -1,0 +1,21 @@
+id = 'ubertooth'
+name = 'ubertooth'
+
+homepage = 'http://ubertooth.sourceforge.net'
+repository = 'https://github.com/greatscottgadgets/ubertooth.git'
+
+[[package]]
+channel = 'debian'
+name = 'ubertooth'
+
+[[package]]
+channel = 'fedora'
+name = 'ubertooth'
+
+[[package]]
+channel = 'fedora'
+name = 'ubertooth-specan-ui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ubertooth'

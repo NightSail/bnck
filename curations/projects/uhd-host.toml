@@ -1,0 +1,8 @@
+id = 'uhd-host'
+name = 'uhd-host'
+
+homepage = 'https://www.ettus.com/sdr-software/uhd-usrp-hardware-driver'
+
+[[package]]
+channel = 'debian'
+name = 'uhd-host'

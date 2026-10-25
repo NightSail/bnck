@@ -1,0 +1,8 @@
+id = 'asciitex'
+name = 'asciitex'
+
+homepage = 'https://asciitex.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asciitex'

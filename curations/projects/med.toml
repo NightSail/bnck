@@ -1,0 +1,12 @@
+id = 'med'
+name = 'med'
+
+homepage = 'https://github.com/chennes/med'
+
+[[package]]
+channel = 'arch'
+name = 'med'
+
+[[package]]
+channel = 'arch'
+name = 'med-openmpi'

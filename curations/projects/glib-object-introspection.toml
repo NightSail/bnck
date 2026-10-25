@@ -1,0 +1,12 @@
+id = 'glib-object-introspection'
+name = 'Glib-Object-Introspection'
+
+homepage = 'https://metacpan.org/release/Glib-Object-Introspection'
+
+[[package]]
+channel = 'debian'
+name = 'libglib-object-introspection-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perli11ndoc'

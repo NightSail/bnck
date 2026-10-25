@@ -1,0 +1,8 @@
+id = 'jxl-oxide'
+name = 'jxl-oxide'
+
+homepage = 'https://github.com/tirr-c/jxl-oxide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jxl-oxide'

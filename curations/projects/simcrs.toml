@@ -1,0 +1,12 @@
+id = 'simcrs'
+name = 'simcrs'
+
+homepage = 'https://github.com/airsim/simcrs'
+
+[[package]]
+channel = 'fedora'
+name = 'simcrs'
+
+[[package]]
+channel = 'fedora'
+name = 'simcrs-devel'

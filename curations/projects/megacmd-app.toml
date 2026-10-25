@@ -1,0 +1,8 @@
+id = 'megacmd-app'
+name = 'megacmd-app'
+
+homepage = 'https://mega.nz/cmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/megacmd-app'

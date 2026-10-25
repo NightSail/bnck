@@ -1,0 +1,20 @@
+id = 'logrotate'
+name = 'logrotate'
+
+homepage = 'https://github.com/logrotate/logrotate'
+
+[[package]]
+channel = 'arch'
+name = 'logrotate'
+
+[[package]]
+channel = 'debian'
+name = 'logrotate'
+
+[[package]]
+channel = 'fedora'
+name = 'logrotate'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logrotate'

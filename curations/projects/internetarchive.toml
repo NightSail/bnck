@@ -1,0 +1,12 @@
+id = 'internetarchive'
+name = 'internetarchive'
+
+homepage = 'https://github.com/jjjake/internetarchive'
+
+[[package]]
+channel = 'arch'
+name = 'python-internetarchive'
+
+[[package]]
+channel = 'debian'
+name = 'internetarchive'

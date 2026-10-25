@@ -1,0 +1,8 @@
+id = 'xorg-xkbprint'
+name = 'xorg-xkbprint'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xkbprint'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xkbprint'

@@ -1,0 +1,9 @@
+id = 'dwarfutils'
+name = 'dwarfutils'
+
+homepage = 'https://www.prevanders.net/dwarf.html'
+repository = 'https://github.com/davea42/libdwarf-code.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dwarfutils'

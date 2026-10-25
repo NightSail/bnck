@@ -1,0 +1,13 @@
+id = 'cgvg'
+name = 'cgvg'
+
+homepage = 'https://uzix.org/cgvg.html'
+repository = 'https://github.com/uzi/cgvg.git'
+
+[[package]]
+channel = 'debian'
+name = 'cgvg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cgvg'

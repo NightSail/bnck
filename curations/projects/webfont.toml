@@ -1,0 +1,8 @@
+id = 'webfont'
+name = 'webfont'
+
+homepage = 'https://webfont.js.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/webfont'

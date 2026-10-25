@@ -1,0 +1,8 @@
+id = 'ruby-github-markup'
+name = 'ruby-github-markup'
+
+homepage = 'https://github.com/github/markup'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-github-markup'

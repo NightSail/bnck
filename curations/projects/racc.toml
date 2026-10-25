@@ -1,0 +1,12 @@
+id = 'racc'
+name = 'racc'
+
+homepage = 'https://github.com/ruby/racc'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-racc'
+
+[[package]]
+channel = 'debian'
+name = 'racc'

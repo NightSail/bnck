@@ -4,5 +4,17 @@ name = 'shellcheck'
 repository = 'https://github.com/koalaman/shellcheck'
 
 [[package]]
+channel = 'arch'
+name = 'shellcheck'
+
+[[package]]
+channel = 'debian'
+name = 'shellcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'ShellCheck'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/shellcheck'

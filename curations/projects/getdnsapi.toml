@@ -1,0 +1,20 @@
+id = 'getdnsapi'
+name = 'getdnsapi'
+
+homepage = 'https://getdnsapi.net'
+
+[[package]]
+channel = 'arch'
+name = 'getdns'
+
+[[package]]
+channel = 'debian'
+name = 'getdns-utils'
+
+[[package]]
+channel = 'debian'
+name = 'stubby'
+
+[[package]]
+channel = 'fedora'
+name = 'getdns-utils'

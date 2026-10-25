@@ -1,0 +1,8 @@
+id = 'git-svn-abandon'
+name = 'git-svn-abandon'
+
+repository = 'https://github.com/nothingmuch/git-svn-abandon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-svn-abandon'

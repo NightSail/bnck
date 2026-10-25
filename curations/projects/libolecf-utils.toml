@@ -1,0 +1,8 @@
+id = 'libolecf-utils'
+name = 'libolecf-utils'
+
+homepage = 'https://github.com/libyal/libolecf'
+
+[[package]]
+channel = 'debian'
+name = 'libolecf-utils'

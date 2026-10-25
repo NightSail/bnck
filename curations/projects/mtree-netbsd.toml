@@ -1,0 +1,8 @@
+id = 'mtree-netbsd'
+name = 'mtree-netbsd'
+
+homepage = 'https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/pkgtools/mtree/README.html'
+
+[[package]]
+channel = 'debian'
+name = 'mtree-netbsd'

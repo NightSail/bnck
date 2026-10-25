@@ -1,0 +1,12 @@
+id = 'kanata'
+name = 'kanata'
+
+repository = 'https://github.com/jtroo/kanata.git'
+
+[[package]]
+channel = 'debian'
+name = 'kanata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kanata'

@@ -1,0 +1,8 @@
+id = 'python3-aiolifx'
+name = 'python3-aiolifx'
+
+homepage = 'https://github.com/aiolifx/aiolifx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiolifx'

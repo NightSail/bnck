@@ -1,0 +1,8 @@
+id = 'lomiri-mediaplayer-app'
+name = 'lomiri-mediaplayer-app'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-mediaplayer-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-mediaplayer-app'

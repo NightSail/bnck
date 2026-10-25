@@ -8,5 +8,9 @@ channel = 'crates.io'
 name = 'nomino'
 
 [[package]]
+channel = 'crates.io'
+name = 'simino'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/nomino'

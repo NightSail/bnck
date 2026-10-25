@@ -1,0 +1,9 @@
+id = 'gickup'
+name = 'gickup'
+
+homepage = 'https://cooperspencer.github.io/gickup-documentation'
+repository = 'https://github.com/cooperspencer/gickup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gickup'

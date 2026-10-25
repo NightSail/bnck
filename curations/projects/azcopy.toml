@@ -1,0 +1,12 @@
+id = 'azcopy'
+name = 'azcopy'
+
+repository = 'https://github.com/Azure/azure-storage-azcopy.git'
+
+[[package]]
+channel = 'arch'
+name = 'azcopy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azcopy'

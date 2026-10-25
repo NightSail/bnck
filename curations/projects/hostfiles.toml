@@ -1,0 +1,8 @@
+id = 'hostfiles'
+name = 'hostfiles'
+
+homepage = 'https://metacpan.org/release/Hostfile-Manager'
+
+[[package]]
+channel = 'debian'
+name = 'hostfiles'

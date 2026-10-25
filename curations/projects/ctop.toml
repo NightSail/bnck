@@ -4,5 +4,9 @@ name = 'ctop'
 repository = 'https://github.com/bcicen/ctop'
 
 [[package]]
+channel = 'arch'
+name = 'ctop'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/ctop'

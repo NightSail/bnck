@@ -1,0 +1,20 @@
+id = 'automake'
+name = 'automake'
+
+homepage = 'https://www.gnu.org/software/automake'
+
+[[package]]
+channel = 'arch'
+name = 'automake'
+
+[[package]]
+channel = 'debian'
+name = 'automake'
+
+[[package]]
+channel = 'fedora'
+name = 'automake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/automake'

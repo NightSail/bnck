@@ -1,0 +1,8 @@
+id = 'pjsua'
+name = 'pjsua'
+
+homepage = 'http://www.pjsip.org'
+
+[[package]]
+channel = 'fedora'
+name = 'pjsua'

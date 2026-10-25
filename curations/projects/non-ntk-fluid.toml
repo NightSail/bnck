@@ -1,0 +1,8 @@
+id = 'non-ntk-fluid'
+name = 'non-ntk-fluid'
+
+homepage = 'http://non.tuxfamily.org'
+
+[[package]]
+channel = 'fedora'
+name = 'non-ntk-fluid'

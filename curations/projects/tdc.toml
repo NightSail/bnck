@@ -1,0 +1,8 @@
+id = 'tdc'
+name = 'tdc'
+
+homepage = 'https://github.com/MTecknology/tdc'
+
+[[package]]
+channel = 'debian'
+name = 'tdc'

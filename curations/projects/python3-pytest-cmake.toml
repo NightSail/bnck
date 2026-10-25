@@ -1,0 +1,6 @@
+id = 'python3-pytest-cmake'
+name = 'python3-pytest-cmake'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pytest-cmake'

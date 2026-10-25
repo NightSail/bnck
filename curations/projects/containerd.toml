@@ -1,0 +1,20 @@
+id = 'containerd'
+name = 'containerd'
+
+homepage = 'https://containerd.io'
+
+[[package]]
+channel = 'arch'
+name = 'containerd'
+
+[[package]]
+channel = 'debian'
+name = 'containerd'
+
+[[package]]
+channel = 'fedora'
+name = 'containerd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/containerd'

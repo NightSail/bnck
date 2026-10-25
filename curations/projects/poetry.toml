@@ -1,0 +1,9 @@
+id = 'poetry'
+name = 'poetry'
+
+homepage = 'https://python-poetry.org'
+repository = 'https://github.com/python-poetry/poetry.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/poetry'

@@ -1,0 +1,8 @@
+id = 'hfd-service-tools'
+name = 'hfd-service-tools'
+
+homepage = 'https://gitlab.com/ubports/development/core/hfd-service'
+
+[[package]]
+channel = 'debian'
+name = 'hfd-service-tools'

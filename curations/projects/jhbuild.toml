@@ -1,0 +1,8 @@
+id = 'jhbuild'
+name = 'jhbuild'
+
+homepage = 'https://wiki.gnome.org/Projects/Jhbuild'
+
+[[package]]
+channel = 'debian'
+name = 'jhbuild'

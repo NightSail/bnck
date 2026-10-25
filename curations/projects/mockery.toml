@@ -1,0 +1,13 @@
+id = 'mockery'
+name = 'mockery'
+
+homepage = 'https://vektra.github.io/mockery'
+repository = 'https://github.com/vektra/mockery.git'
+
+[[package]]
+channel = 'debian'
+name = 'mockery'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mockery'

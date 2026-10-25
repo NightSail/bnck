@@ -1,0 +1,9 @@
+id = 'boring'
+name = 'boring'
+
+homepage = 'https://alebeck.github.io/boring'
+repository = 'https://github.com/alebeck/boring.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/boring'

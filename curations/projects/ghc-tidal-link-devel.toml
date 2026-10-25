@@ -1,0 +1,8 @@
+id = 'ghc-tidal-link-devel'
+name = 'ghc-tidal-link-devel'
+
+homepage = 'https://hackage.haskell.org/package/tidal'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-tidal-link-devel'

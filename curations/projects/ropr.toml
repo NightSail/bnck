@@ -1,0 +1,8 @@
+id = 'ropr'
+name = 'ropr'
+
+homepage = 'https://github.com/Ben-Lichtman/ropr'
+
+[[package]]
+channel = 'arch'
+name = 'ropr'

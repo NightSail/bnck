@@ -1,0 +1,20 @@
+id = 'protobuf-c'
+name = 'protobuf-c'
+
+repository = 'https://github.com/protobuf-c/protobuf-c.git'
+
+[[package]]
+channel = 'arch'
+name = 'protobuf-c'
+
+[[package]]
+channel = 'debian'
+name = 'protobuf-c-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'protobuf-c-compiler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/protobuf-c'

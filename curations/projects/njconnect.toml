@@ -1,0 +1,8 @@
+id = 'njconnect'
+name = 'njconnect'
+
+homepage = 'https://sourceforge.net/projects/njconnect'
+
+[[package]]
+channel = 'arch'
+name = 'njconnect'

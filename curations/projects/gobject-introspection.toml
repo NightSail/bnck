@@ -1,0 +1,24 @@
+id = 'gobject-introspection'
+name = 'gobject-introspection'
+
+homepage = 'https://gi.readthedocs.io/en/latest'
+
+[[package]]
+channel = 'arch'
+name = 'gobject-introspection'
+
+[[package]]
+channel = 'debian'
+name = 'gobject-introspection'
+
+[[package]]
+channel = 'debian'
+name = 'gobject-introspection-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'gobject-introspection-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gobject-introspection'

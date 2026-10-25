@@ -1,0 +1,20 @@
+id = 'cronie'
+name = 'cronie'
+
+homepage = 'https://github.com/cronie-crond/cronie'
+
+[[package]]
+channel = 'arch'
+name = 'cronie'
+
+[[package]]
+channel = 'debian'
+name = 'cronie'
+
+[[package]]
+channel = 'fedora'
+name = 'cronie'
+
+[[package]]
+channel = 'fedora'
+name = 'cronie-anacron'

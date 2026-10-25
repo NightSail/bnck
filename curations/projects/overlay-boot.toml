@@ -1,0 +1,8 @@
+id = 'overlay-boot'
+name = 'overlay-boot'
+
+homepage = 'https://git.devuan.org/devuan/overlay-boot.git'
+
+[[package]]
+channel = 'debian'
+name = 'overlay-boot'

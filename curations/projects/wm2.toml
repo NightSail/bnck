@@ -1,0 +1,8 @@
+id = 'wm2'
+name = 'wm2'
+
+homepage = 'http://www.all-day-breakfast.com/wm2'
+
+[[package]]
+channel = 'debian'
+name = 'wm2'

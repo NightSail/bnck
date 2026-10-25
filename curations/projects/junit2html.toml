@@ -1,0 +1,8 @@
+id = 'junit2html'
+name = 'junit2html'
+
+homepage = 'https://gitlab.com/inorton/junit2html'
+
+[[package]]
+channel = 'debian'
+name = 'junit2html'

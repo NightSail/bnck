@@ -1,0 +1,8 @@
+id = 'kcgi'
+name = 'kcgi'
+
+homepage = 'https://kristaps.bsd.lv/kcgi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kcgi'

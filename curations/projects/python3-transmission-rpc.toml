@@ -1,0 +1,8 @@
+id = 'python3-transmission-rpc'
+name = 'python3-transmission-rpc'
+
+homepage = 'https://github.com/Trim21/transmission-rpc'
+
+[[package]]
+channel = 'debian'
+name = 'python3-transmission-rpc'

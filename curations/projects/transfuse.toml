@@ -1,0 +1,8 @@
+id = 'transfuse'
+name = 'transfuse'
+
+homepage = 'https://github.com/TinoDidriksen/transfuse'
+
+[[package]]
+channel = 'debian'
+name = 'transfuse'

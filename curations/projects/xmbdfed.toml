@@ -1,0 +1,8 @@
+id = 'xmbdfed'
+name = 'xmbdfed'
+
+homepage = 'http://crl.nmsu.edu/~mleisher/xmbdfed.html'
+
+[[package]]
+channel = 'fedora'
+name = 'xmbdfed'

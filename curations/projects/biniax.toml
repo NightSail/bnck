@@ -1,0 +1,8 @@
+id = 'biniax'
+name = 'biniax'
+
+homepage = 'http://www.biniax.com'
+
+[[package]]
+channel = 'fedora'
+name = 'biniax'

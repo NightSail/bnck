@@ -1,0 +1,6 @@
+id = 'dh-puppet'
+name = 'dh-puppet'
+
+[[package]]
+channel = 'debian'
+name = 'dh-puppet'

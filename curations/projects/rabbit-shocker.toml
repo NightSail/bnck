@@ -1,0 +1,12 @@
+id = 'rabbit-shocker'
+name = 'rabbit-shocker'
+
+homepage = 'https://rabbit-shocker.org'
+
+[[package]]
+channel = 'debian'
+name = 'rabbit'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rabbit'

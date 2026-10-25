@@ -1,0 +1,8 @@
+id = 'txr'
+name = 'txr'
+
+homepage = 'https://www.nongnu.org/txr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/txr'

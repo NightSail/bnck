@@ -1,0 +1,9 @@
+id = 'libmaxminddb'
+name = 'libmaxminddb'
+
+homepage = 'https://maxmind.github.io/libmaxminddb'
+repository = 'https://github.com/maxmind/libmaxminddb.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libmaxminddb'

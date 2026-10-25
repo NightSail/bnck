@@ -1,0 +1,8 @@
+id = 'python3-m2r2'
+name = 'python3-m2r2'
+
+homepage = 'https://github.com/crossnox/m2r2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-m2r2'

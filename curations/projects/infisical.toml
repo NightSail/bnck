@@ -1,0 +1,9 @@
+id = 'infisical'
+name = 'infisical'
+
+homepage = 'https://infisical.com/docs/cli/overview'
+repository = 'https://github.com/Infisical/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/infisical'

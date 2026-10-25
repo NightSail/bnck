@@ -1,0 +1,8 @@
+id = 'cosmic-monitor'
+name = 'cosmic-monitor'
+
+homepage = 'https://github.com/pop-os/cosmic-monitor'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-monitor'

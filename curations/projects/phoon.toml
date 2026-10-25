@@ -1,0 +1,8 @@
+id = 'phoon'
+name = 'phoon'
+
+homepage = 'https://www.acme.com/software/phoon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phoon'

@@ -1,0 +1,12 @@
+id = 'kchmviewer'
+name = 'kchmviewer'
+
+homepage = 'https://github.com/gyunaev/kchmviewer'
+
+[[package]]
+channel = 'debian'
+name = 'kchmviewer'
+
+[[package]]
+channel = 'fedora'
+name = 'kchmviewer'

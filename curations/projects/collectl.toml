@@ -1,0 +1,10 @@
+id = 'collectl'
+name = 'collectl'
+
+[[package]]
+channel = 'debian'
+name = 'collectl'
+
+[[package]]
+channel = 'fedora'
+name = 'collectl'

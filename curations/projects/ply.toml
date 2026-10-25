@@ -1,0 +1,8 @@
+id = 'ply'
+name = 'ply'
+
+homepage = 'https://wkz.github.io/ply'
+
+[[package]]
+channel = 'debian'
+name = 'ply'

@@ -1,0 +1,16 @@
+id = 'khelpcenter'
+name = 'khelpcenter'
+
+homepage = 'https://apps.kde.org/khelpcenter'
+
+[[package]]
+channel = 'arch'
+name = 'khelpcenter'
+
+[[package]]
+channel = 'debian'
+name = 'khelpcenter'
+
+[[package]]
+channel = 'fedora'
+name = 'khelpcenter'

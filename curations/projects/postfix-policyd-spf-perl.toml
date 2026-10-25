@@ -1,0 +1,8 @@
+id = 'postfix-policyd-spf-perl'
+name = 'postfix-policyd-spf-perl'
+
+homepage = 'https://launchpad.net/postfix-policyd-spf-perl'
+
+[[package]]
+channel = 'debian'
+name = 'postfix-policyd-spf-perl'

@@ -1,0 +1,8 @@
+id = 'dtsroll'
+name = 'dtsroll'
+
+homepage = 'https://github.com/privatenumber/dtsroll'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dtsroll'

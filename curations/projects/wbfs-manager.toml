@@ -1,0 +1,8 @@
+id = 'wbfs-manager'
+name = 'wbfs-manager'
+
+homepage = 'http://code.google.com/p/linux-wbfs-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'wbfs-manager'

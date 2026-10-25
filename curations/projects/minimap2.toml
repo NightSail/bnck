@@ -1,0 +1,12 @@
+id = 'minimap2'
+name = 'minimap2'
+
+homepage = 'https://github.com/lh3/minimap2'
+
+[[package]]
+channel = 'debian'
+name = 'minimap2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mappy'

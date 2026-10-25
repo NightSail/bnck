@@ -1,0 +1,8 @@
+id = 'survivor'
+name = 'survivor'
+
+homepage = 'https://github.com/fritzsedlazeck/SURVIVOR'
+
+[[package]]
+channel = 'debian'
+name = 'survivor'

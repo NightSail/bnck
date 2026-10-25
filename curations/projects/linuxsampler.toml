@@ -1,0 +1,12 @@
+id = 'linuxsampler'
+name = 'linuxsampler'
+
+homepage = 'https://www.linuxsampler.org'
+
+[[package]]
+channel = 'arch'
+name = 'gigedit'
+
+[[package]]
+channel = 'arch'
+name = 'linuxsampler'

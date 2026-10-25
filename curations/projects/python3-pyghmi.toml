@@ -1,0 +1,12 @@
+id = 'python3-pyghmi'
+name = 'python3-pyghmi'
+
+homepage = 'https://opendev.org/x/pyghmi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyghmi'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyghmi'

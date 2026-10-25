@@ -1,0 +1,6 @@
+id = 'ruby-tioga'
+name = 'ruby-tioga'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-tioga'

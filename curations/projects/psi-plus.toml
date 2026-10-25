@@ -1,0 +1,14 @@
+id = 'psi-plus'
+name = 'psi-plus'
+
+[[package]]
+channel = 'debian'
+name = 'psi-plus'
+
+[[package]]
+channel = 'debian'
+name = 'psi-plus-webkit'
+
+[[package]]
+channel = 'fedora'
+name = 'psi-plus'

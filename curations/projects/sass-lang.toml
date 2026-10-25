@@ -1,0 +1,24 @@
+id = 'sass-lang'
+name = 'sass-lang'
+
+homepage = 'http://sass-lang.com'
+
+[[package]]
+channel = 'arch'
+name = 'dart-sass'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-sass'
+
+[[package]]
+channel = 'arch'
+name = 'sassc'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-sass'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-sass'

@@ -1,0 +1,8 @@
+id = 'terraform-provider-libvirt'
+name = 'terraform-provider-libvirt'
+
+homepage = 'https://github.com/dmacvicar/terraform-provider-libvirt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-provider-libvirt'

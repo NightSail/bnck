@@ -1,0 +1,8 @@
+id = 'stolon'
+name = 'stolon'
+
+homepage = 'https://talk.stolon.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stolon'

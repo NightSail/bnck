@@ -1,0 +1,9 @@
+id = 'nut'
+name = 'nut'
+
+homepage = 'https://networkupstools.org'
+repository = 'https://github.com/networkupstools/nut.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nut'

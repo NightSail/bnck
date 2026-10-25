@@ -1,0 +1,9 @@
+id = 'mimirtool'
+name = 'mimirtool'
+
+homepage = 'https://grafana.com/docs/mimir/latest/operators-guide/tools/mimirtool'
+repository = 'https://github.com/grafana/mimir.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mimirtool'

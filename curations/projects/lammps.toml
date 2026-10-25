@@ -1,0 +1,16 @@
+id = 'lammps'
+name = 'lammps'
+
+homepage = 'https://docs.lammps.org'
+
+[[package]]
+channel = 'debian'
+name = 'lammps'
+
+[[package]]
+channel = 'fedora'
+name = 'lammps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lammps'

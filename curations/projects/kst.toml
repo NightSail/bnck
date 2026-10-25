@@ -1,0 +1,16 @@
+id = 'kst'
+name = 'kst'
+
+homepage = 'https://kst-plot.kde.org'
+
+[[package]]
+channel = 'arch'
+name = 'kst'
+
+[[package]]
+channel = 'debian'
+name = 'kst'
+
+[[package]]
+channel = 'fedora'
+name = 'kst'

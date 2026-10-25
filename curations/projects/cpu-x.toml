@@ -1,0 +1,16 @@
+id = 'cpu-x'
+name = 'cpu-x'
+
+homepage = 'https://thetumultuousunicornofdarkness.github.io/CPU-X'
+
+[[package]]
+channel = 'arch'
+name = 'cpu-x'
+
+[[package]]
+channel = 'debian'
+name = 'cpu-x'
+
+[[package]]
+channel = 'fedora'
+name = 'cpu-x'

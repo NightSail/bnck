@@ -1,0 +1,14 @@
+id = 'sysvinit'
+name = 'sysvinit'
+
+[[package]]
+channel = 'debian'
+name = 'bootlogd'
+
+[[package]]
+channel = 'debian'
+name = 'sysvinit-core'
+
+[[package]]
+channel = 'debian'
+name = 'sysvinit-utils'

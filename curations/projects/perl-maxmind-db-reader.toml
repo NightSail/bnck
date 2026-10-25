@@ -1,0 +1,8 @@
+id = 'perl-maxmind-db-reader'
+name = 'perl-MaxMind-DB-Reader'
+
+homepage = 'https://metacpan.org/release/MaxMind-DB-Reader'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-MaxMind-DB-Reader'

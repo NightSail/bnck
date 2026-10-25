@@ -1,0 +1,12 @@
+id = 'lesspipe'
+name = 'lesspipe'
+
+homepage = 'https://lesspipe.org'
+
+[[package]]
+channel = 'arch'
+name = 'lesspipe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lesspipe'

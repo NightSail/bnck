@@ -1,0 +1,8 @@
+id = 'python-cython-lint'
+name = 'python-cython-lint'
+
+homepage = 'https://github.com/MarcoGorelli/cython-lint'
+
+[[package]]
+channel = 'arch'
+name = 'python-cython-lint'

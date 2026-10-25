@@ -1,0 +1,12 @@
+id = 'flac123'
+name = 'flac123'
+
+homepage = 'https://github.com/flac123/flac123'
+
+[[package]]
+channel = 'fedora'
+name = 'flac123'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/flac123'

@@ -1,0 +1,8 @@
+id = 'fsverity-utils-ebiggers'
+name = 'fsverity-utils'
+
+homepage = 'https://github.com/ebiggers/fsverity-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'fsverity-utils'

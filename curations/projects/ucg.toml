@@ -1,0 +1,9 @@
+id = 'ucg'
+name = 'ucg'
+
+homepage = 'https://gvansickle.github.io/ucg'
+repository = 'https://github.com/gvansickle/ucg.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ucg'

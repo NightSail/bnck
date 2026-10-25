@@ -1,0 +1,8 @@
+id = 'virtnbdbackup'
+name = 'virtnbdbackup'
+
+homepage = 'https://github.com/abbbi/virtnbdbackup'
+
+[[package]]
+channel = 'debian'
+name = 'virtnbdbackup'

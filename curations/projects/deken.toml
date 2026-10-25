@@ -1,0 +1,8 @@
+id = 'deken'
+name = 'deken'
+
+homepage = 'https://github.com/pure-data/deken'
+
+[[package]]
+channel = 'debian'
+name = 'deken'

@@ -1,0 +1,8 @@
+id = 'knowthelist'
+name = 'knowthelist'
+
+homepage = 'https://knowthelist.github.io/knowthelist'
+
+[[package]]
+channel = 'debian'
+name = 'knowthelist'

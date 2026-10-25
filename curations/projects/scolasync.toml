@@ -1,0 +1,6 @@
+id = 'scolasync'
+name = 'scolasync'
+
+[[package]]
+channel = 'debian'
+name = 'scolasync'

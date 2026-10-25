@@ -1,0 +1,8 @@
+id = 'centos-packager'
+name = 'centos-packager'
+
+homepage = 'https://git.centos.org/centos/centos-packager'
+
+[[package]]
+channel = 'fedora'
+name = 'centos-packager'

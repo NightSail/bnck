@@ -1,0 +1,8 @@
+id = 'rocqnavi'
+name = 'rocqnavi'
+
+homepage = 'https://github.com/affeldt-aist/rocqnavi'
+
+[[package]]
+channel = 'debian'
+name = 'rocqnavi'

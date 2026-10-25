@@ -1,0 +1,8 @@
+id = 'python-ladybug-core'
+name = 'python-ladybug-core'
+
+homepage = 'https://github.com/ladybug-tools/ladybug'
+
+[[package]]
+channel = 'arch'
+name = 'python-ladybug-core'

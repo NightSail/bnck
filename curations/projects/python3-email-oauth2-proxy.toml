@@ -1,0 +1,8 @@
+id = 'python3-email-oauth2-proxy'
+name = 'python3-email-oauth2-proxy'
+
+homepage = 'https://github.com/simonrob/email-oauth2-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-email-oauth2-proxy'

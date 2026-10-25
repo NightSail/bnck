@@ -1,0 +1,8 @@
+id = 'ks-install'
+name = 'ks-install'
+
+homepage = 'https://github.com/cmadamsgit/ks-install'
+
+[[package]]
+channel = 'fedora'
+name = 'ks-install'

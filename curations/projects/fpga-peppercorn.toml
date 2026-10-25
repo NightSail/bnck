@@ -1,0 +1,8 @@
+id = 'fpga-peppercorn'
+name = 'fpga-peppercorn'
+
+homepage = 'https://github.com/YosysHQ/prjpeppercorn'
+
+[[package]]
+channel = 'debian'
+name = 'fpga-peppercorn'

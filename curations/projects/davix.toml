@@ -1,0 +1,8 @@
+id = 'davix'
+name = 'davix'
+
+repository = 'https://github.com/cern-fts/davix.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/davix'

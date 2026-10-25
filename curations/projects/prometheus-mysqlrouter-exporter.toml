@@ -1,0 +1,8 @@
+id = 'prometheus-mysqlrouter-exporter'
+name = 'prometheus-mysqlrouter-exporter'
+
+homepage = 'https://github.com/rluisr/mysqlrouter_exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-mysqlrouter-exporter'

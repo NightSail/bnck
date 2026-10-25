@@ -1,0 +1,16 @@
+id = 'dvtm'
+name = 'dvtm'
+
+homepage = 'https://www.brain-dump.org/projects/dvtm'
+
+[[package]]
+channel = 'arch'
+name = 'dvtm'
+
+[[package]]
+channel = 'debian'
+name = 'dvtm'
+
+[[package]]
+channel = 'fedora'
+name = 'dvtm'

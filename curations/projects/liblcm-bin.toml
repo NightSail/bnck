@@ -1,0 +1,8 @@
+id = 'liblcm-bin'
+name = 'liblcm-bin'
+
+homepage = 'http://lcm-proj.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'liblcm-bin'

@@ -1,0 +1,8 @@
+id = 'tuxpuck'
+name = 'tuxpuck'
+
+homepage = 'http://www.efd.lth.se/~d00jkr/tuxpuck'
+
+[[package]]
+channel = 'fedora'
+name = 'tuxpuck'

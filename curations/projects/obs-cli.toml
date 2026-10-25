@@ -1,0 +1,8 @@
+id = 'obs-cli'
+name = 'obs-cli'
+
+homepage = 'https://github.com/muesli/obs-cli'
+
+[[package]]
+channel = 'debian'
+name = 'obs-cli'

@@ -1,0 +1,16 @@
+id = 'sight'
+name = 'sight'
+
+homepage = 'https://git.ircad.fr/Sight/sight'
+
+[[package]]
+channel = 'debian'
+name = 'libsight'
+
+[[package]]
+channel = 'debian'
+name = 'sightcalibrator'
+
+[[package]]
+channel = 'debian'
+name = 'sightviewer'

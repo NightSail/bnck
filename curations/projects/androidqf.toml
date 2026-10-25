@@ -1,0 +1,8 @@
+id = 'androidqf'
+name = 'androidqf'
+
+homepage = 'https://github.com/mvt-project/androidqf'
+
+[[package]]
+channel = 'arch'
+name = 'androidqf'

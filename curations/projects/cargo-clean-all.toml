@@ -1,0 +1,8 @@
+id = 'cargo-clean-all'
+name = 'cargo-clean-all'
+
+homepage = 'https://github.com/dnlmlr/cargo-clean-all'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-clean-all'

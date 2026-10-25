@@ -1,0 +1,8 @@
+id = 'atlantik'
+name = 'atlantik'
+
+homepage = 'https://apps.kde.org/atlantik'
+
+[[package]]
+channel = 'fedora'
+name = 'atlantik'

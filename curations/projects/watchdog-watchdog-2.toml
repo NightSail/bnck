@@ -1,0 +1,8 @@
+id = 'watchdog-watchdog-2'
+name = 'watchdog'
+
+homepage = 'http://watchdog.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'watchdog'

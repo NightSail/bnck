@@ -1,0 +1,9 @@
+id = 'baml'
+name = 'baml'
+
+homepage = 'https://boundaryml.com'
+repository = 'https://github.com/BoundaryML/baml.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/baml'

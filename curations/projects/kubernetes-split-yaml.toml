@@ -1,0 +1,8 @@
+id = 'kubernetes-split-yaml'
+name = 'kubernetes-split-yaml'
+
+homepage = 'https://salsa.debian.org/kubernetes-team/packages/kubernetes-split-yaml'
+
+[[package]]
+channel = 'debian'
+name = 'kubernetes-split-yaml'

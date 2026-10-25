@@ -1,0 +1,8 @@
+id = 'cleanmymac-cli'
+name = 'cleanmymac-cli'
+
+homepage = 'https://github.com/MacPaw/cleanmymac-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/cleanmymac-cli'

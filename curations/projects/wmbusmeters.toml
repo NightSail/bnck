@@ -1,0 +1,17 @@
+id = 'wmbusmeters'
+name = 'wmbusmeters'
+
+homepage = 'https://github.com/weetmuts/wmbusmeters'
+repository = 'https://github.com/wmbusmeters/wmbusmeters.git'
+
+[[package]]
+channel = 'debian'
+name = 'wmbusmeters'
+
+[[package]]
+channel = 'fedora'
+name = 'wmbusmeters'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wmbusmeters'

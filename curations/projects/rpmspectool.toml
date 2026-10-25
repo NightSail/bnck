@@ -1,0 +1,8 @@
+id = 'rpmspectool'
+name = 'rpmspectool'
+
+homepage = 'https://github.com/nphilipp/rpmspectool'
+
+[[package]]
+channel = 'fedora'
+name = 'rpmspectool'

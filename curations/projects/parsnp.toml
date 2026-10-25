@@ -1,0 +1,8 @@
+id = 'parsnp'
+name = 'parsnp'
+
+homepage = 'https://harvest.readthedocs.org/en/latest/content/parsnp.html'
+
+[[package]]
+channel = 'debian'
+name = 'parsnp'

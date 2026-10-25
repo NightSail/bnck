@@ -1,0 +1,12 @@
+id = 'gotestsum'
+name = 'gotestsum'
+
+repository = 'https://github.com/gotestyourself/gotestsum.git'
+
+[[package]]
+channel = 'debian'
+name = 'gotestsum'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotestsum'

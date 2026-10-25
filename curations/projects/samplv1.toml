@@ -1,0 +1,16 @@
+id = 'samplv1'
+name = 'samplv1'
+
+homepage = 'https://samplv1.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'samplv1-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'samplv1'
+
+[[package]]
+channel = 'fedora'
+name = 'samplv1'

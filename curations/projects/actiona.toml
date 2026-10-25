@@ -1,0 +1,8 @@
+id = 'actiona'
+name = 'actiona'
+
+homepage = 'https://actiona.tools'
+
+[[package]]
+channel = 'debian'
+name = 'actiona'

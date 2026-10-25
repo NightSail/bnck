@@ -1,0 +1,20 @@
+id = 'brendangregg'
+name = 'brendangregg'
+
+homepage = 'http://www.brendangregg.com/flamegraphs.html'
+
+[[package]]
+channel = 'fedora'
+name = 'flamegraph'
+
+[[package]]
+channel = 'fedora'
+name = 'flamegraph-stackcollapse'
+
+[[package]]
+channel = 'fedora'
+name = 'flamegraph-stackcollapse-perf'
+
+[[package]]
+channel = 'fedora'
+name = 'flamegraph-stackcollapse-php'

@@ -1,0 +1,8 @@
+id = 'iccdev'
+name = 'iccdev'
+
+homepage = 'https://github.com/InternationalColorConsortium/iccDEV'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iccdev'

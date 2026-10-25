@@ -1,0 +1,16 @@
+id = 'eot-utils'
+name = 'eot-utils'
+
+homepage = 'https://www.w3.org/Tools/eot-utils'
+
+[[package]]
+channel = 'debian'
+name = 'eot-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'eot-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eot-utils'

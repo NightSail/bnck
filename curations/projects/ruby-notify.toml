@@ -1,0 +1,8 @@
+id = 'ruby-notify'
+name = 'ruby-notify'
+
+homepage = 'https://github.com/jugyo/notify'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-notify'

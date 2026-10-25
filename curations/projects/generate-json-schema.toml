@@ -1,0 +1,8 @@
+id = 'generate-json-schema'
+name = 'generate-json-schema'
+
+repository = 'https://github.com/Nijikokun/generate-schema.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/generate-json-schema'

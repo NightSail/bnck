@@ -1,0 +1,8 @@
+id = 'golang-github-zaf-g711'
+name = 'golang-github-zaf-g711'
+
+homepage = 'https://github.com/zaf/g711'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-zaf-g711'

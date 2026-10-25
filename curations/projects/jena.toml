@@ -1,0 +1,8 @@
+id = 'jena'
+name = 'jena'
+
+homepage = 'https://jena.apache.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jena'

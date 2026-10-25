@@ -1,0 +1,21 @@
+id = 'ngspice'
+name = 'ngspice'
+
+homepage = 'https://ngspice.sourceforge.net'
+repository = 'https://git.code.sf.net/p/ngspice/ngspice.git'
+
+[[package]]
+channel = 'arch'
+name = 'ngspice'
+
+[[package]]
+channel = 'debian'
+name = 'ngspice'
+
+[[package]]
+channel = 'fedora'
+name = 'ngspice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ngspice'

@@ -1,0 +1,8 @@
+id = 'httplz'
+name = 'httplz'
+
+homepage = 'https://github.com/thecoshman/http'
+
+[[package]]
+channel = 'arch'
+name = 'httplz'

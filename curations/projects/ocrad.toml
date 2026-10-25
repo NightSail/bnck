@@ -1,0 +1,20 @@
+id = 'ocrad'
+name = 'ocrad'
+
+homepage = 'https://www.gnu.org/software/ocrad'
+
+[[package]]
+channel = 'arch'
+name = 'ocrad'
+
+[[package]]
+channel = 'debian'
+name = 'ocrad'
+
+[[package]]
+channel = 'fedora'
+name = 'ocrad'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ocrad'

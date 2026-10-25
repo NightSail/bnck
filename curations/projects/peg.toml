@@ -1,0 +1,16 @@
+id = 'peg'
+name = 'peg'
+
+homepage = 'https://www.piumarta.com/software/peg'
+
+[[package]]
+channel = 'arch'
+name = 'peg'
+
+[[package]]
+channel = 'debian'
+name = 'peg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/peg'

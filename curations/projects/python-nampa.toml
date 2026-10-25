@@ -1,0 +1,8 @@
+id = 'python-nampa'
+name = 'python-nampa'
+
+homepage = 'https://github.com/thebabush/nampa'
+
+[[package]]
+channel = 'arch'
+name = 'python-nampa'

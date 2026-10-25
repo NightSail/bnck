@@ -1,0 +1,8 @@
+id = 'standardebooks'
+name = 'standardebooks'
+
+repository = 'https://github.com/standardebooks/tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/standardebooks'

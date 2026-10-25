@@ -1,0 +1,8 @@
+id = 'vmfs6-tools'
+name = 'vmfs6-tools'
+
+homepage = 'https://salsa.debian.org/debian/vmfs6-tools'
+
+[[package]]
+channel = 'debian'
+name = 'vmfs6-tools'

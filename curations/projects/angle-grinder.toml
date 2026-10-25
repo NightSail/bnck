@@ -1,0 +1,12 @@
+id = 'angle-grinder'
+name = 'angle-grinder'
+
+homepage = 'https://github.com/rcoh/angle-grinder'
+
+[[package]]
+channel = 'arch'
+name = 'angle-grinder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/angle-grinder'

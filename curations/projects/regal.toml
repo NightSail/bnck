@@ -1,0 +1,9 @@
+id = 'regal'
+name = 'regal'
+
+homepage = 'https://www.openpolicyagent.org/projects/regal'
+repository = 'https://github.com/open-policy-agent/regal.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/regal'

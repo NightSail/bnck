@@ -1,0 +1,12 @@
+id = 'www-search'
+name = 'WWW-Search'
+
+homepage = 'https://metacpan.org/release/WWW-Search'
+
+[[package]]
+channel = 'debian'
+name = 'libwww-search-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-WWW-Search'

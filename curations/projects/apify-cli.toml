@@ -1,0 +1,8 @@
+id = 'apify-cli'
+name = 'apify-cli'
+
+homepage = 'https://docs.apify.com/cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apify-cli'

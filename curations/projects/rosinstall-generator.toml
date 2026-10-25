@@ -1,0 +1,12 @@
+id = 'rosinstall-generator'
+name = 'rosinstall_generator'
+
+homepage = 'https://wiki.ros.org/rosinstall_generator'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rosinstall-generator'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-rosinstall_generator'

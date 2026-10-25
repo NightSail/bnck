@@ -1,0 +1,8 @@
+id = 'gcc-aarch64-embedded'
+name = 'gcc-aarch64-embedded'
+
+homepage = 'https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gcc-aarch64-embedded'

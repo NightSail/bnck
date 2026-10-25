@@ -1,0 +1,9 @@
+id = 'pidgin-pidgin'
+name = 'pidgin'
+
+homepage = 'https://pidgin.im'
+repository = 'https://keep.imfreedom.org/pidgin/pidgin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pidgin'

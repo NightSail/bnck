@@ -1,0 +1,8 @@
+id = 'mlucas'
+name = 'mlucas'
+
+homepage = 'https://www.mersenneforum.org/mayer/README.html'
+
+[[package]]
+channel = 'debian'
+name = 'mlucas'

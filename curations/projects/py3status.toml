@@ -1,0 +1,16 @@
+id = 'py3status'
+name = 'py3status'
+
+homepage = 'https://ultrabug.github.io/py3status'
+
+[[package]]
+channel = 'arch'
+name = 'py3status'
+
+[[package]]
+channel = 'debian'
+name = 'py3status'
+
+[[package]]
+channel = 'fedora'
+name = 'py3status'

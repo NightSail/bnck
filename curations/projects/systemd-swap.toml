@@ -1,0 +1,8 @@
+id = 'systemd-swap'
+name = 'systemd-swap'
+
+homepage = 'https://github.com/Nefelim4ag/systemd-swap'
+
+[[package]]
+channel = 'fedora'
+name = 'systemd-swap'

@@ -1,0 +1,8 @@
+id = 'python3-bokeh'
+name = 'python3-bokeh'
+
+homepage = 'https://github.com/bokeh/bokeh'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-bokeh'

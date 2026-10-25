@@ -1,0 +1,12 @@
+id = 'cfv'
+name = 'cfv'
+
+homepage = 'https://github.com/cfv-project/cfv'
+
+[[package]]
+channel = 'debian'
+name = 'cfv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cfv'

@@ -1,0 +1,8 @@
+id = 'chemical-structures'
+name = 'chemical-structures'
+
+homepage = 'https://chem-file.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'chemical-structures'

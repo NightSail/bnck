@@ -1,0 +1,10 @@
+id = 'gworldclock'
+name = 'gworldclock'
+
+[[package]]
+channel = 'debian'
+name = 'gworldclock'
+
+[[package]]
+channel = 'debian'
+name = 'tzwatch'

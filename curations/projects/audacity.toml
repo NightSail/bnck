@@ -1,0 +1,16 @@
+id = 'audacity'
+name = 'audacity'
+
+homepage = 'https://audacityteam.org'
+
+[[package]]
+channel = 'arch'
+name = 'audacity'
+
+[[package]]
+channel = 'debian'
+name = 'audacity'
+
+[[package]]
+channel = 'fedora'
+name = 'audacity'

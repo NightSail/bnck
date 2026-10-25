@@ -1,0 +1,8 @@
+id = 'railcontrol'
+name = 'railcontrol'
+
+homepage = 'https://www.railcontrol.org'
+
+[[package]]
+channel = 'debian'
+name = 'railcontrol'

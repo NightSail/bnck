@@ -1,0 +1,21 @@
+id = 'torsocks'
+name = 'torsocks'
+
+homepage = 'https://gitweb.torproject.org/torsocks.git'
+repository = 'https://gitlab.torproject.org/tpo/core/torsocks.git'
+
+[[package]]
+channel = 'arch'
+name = 'torsocks'
+
+[[package]]
+channel = 'debian'
+name = 'torsocks'
+
+[[package]]
+channel = 'fedora'
+name = 'torsocks'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/torsocks'

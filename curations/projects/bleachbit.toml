@@ -1,0 +1,16 @@
+id = 'bleachbit'
+name = 'bleachbit'
+
+homepage = 'https://www.bleachbit.org'
+
+[[package]]
+channel = 'arch'
+name = 'bleachbit'
+
+[[package]]
+channel = 'debian'
+name = 'bleachbit'
+
+[[package]]
+channel = 'fedora'
+name = 'bleachbit'

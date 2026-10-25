@@ -1,0 +1,9 @@
+id = 'gtk4'
+name = 'gtk4'
+
+homepage = 'https://gtk.org'
+repository = 'https://gitlab.gnome.org/GNOME/gtk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gtk4'

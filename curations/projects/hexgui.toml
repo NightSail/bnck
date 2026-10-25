@@ -1,0 +1,9 @@
+id = 'hexgui'
+name = 'hexgui'
+
+homepage = 'https://sourceforge.net/p/benzene/hexgui'
+repository = 'https://github.com/apetresc/hexgui.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hexgui'

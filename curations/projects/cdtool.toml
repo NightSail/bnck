@@ -1,0 +1,8 @@
+id = 'cdtool'
+name = 'cdtool'
+
+homepage = 'https://hinterhof.net/cdtool'
+
+[[package]]
+channel = 'debian'
+name = 'cdtool'

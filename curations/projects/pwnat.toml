@@ -1,0 +1,9 @@
+id = 'pwnat'
+name = 'pwnat'
+
+homepage = 'https://samy.pl/pwnat'
+repository = 'https://github.com/samyk/pwnat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pwnat'

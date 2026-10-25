@@ -1,0 +1,8 @@
+id = 'nsjail'
+name = 'nsjail'
+
+homepage = 'https://nsjail.com'
+
+[[package]]
+channel = 'arch'
+name = 'nsjail'

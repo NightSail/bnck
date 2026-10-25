@@ -1,0 +1,14 @@
+id = 'openstack-debian-images'
+name = 'openstack-debian-images'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-debian-images'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-debian-images-build-farm'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-debian-images-updater'

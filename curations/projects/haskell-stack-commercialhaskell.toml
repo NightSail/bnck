@@ -1,0 +1,9 @@
+id = 'haskell-stack-commercialhaskell'
+name = 'haskell-stack'
+
+homepage = 'https://haskellstack.org'
+repository = 'https://github.com/commercialhaskell/stack.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haskell-stack'

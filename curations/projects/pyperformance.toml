@@ -1,0 +1,8 @@
+id = 'pyperformance'
+name = 'pyperformance'
+
+repository = 'https://github.com/python/pyperformance.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyperformance'

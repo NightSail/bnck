@@ -1,0 +1,8 @@
+id = 'fmdiff'
+name = 'fmdiff'
+
+repository = 'https://github.com/brunodefraine/fmscripts.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fmdiff'

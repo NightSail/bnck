@@ -1,0 +1,6 @@
+id = 'sphinxsearch'
+name = 'sphinxsearch'
+
+[[package]]
+channel = 'debian'
+name = 'sphinxsearch'

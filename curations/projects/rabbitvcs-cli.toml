@@ -1,0 +1,12 @@
+id = 'rabbitvcs-cli'
+name = 'rabbitvcs-cli'
+
+homepage = 'http://www.rabbitvcs.org'
+
+[[package]]
+channel = 'debian'
+name = 'rabbitvcs-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'rabbitvcs-cli'

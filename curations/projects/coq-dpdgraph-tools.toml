@@ -1,0 +1,8 @@
+id = 'coq-dpdgraph-tools'
+name = 'coq-dpdgraph-tools'
+
+homepage = 'https://github.com/coq-community/coq-dpdgraph'
+
+[[package]]
+channel = 'debian'
+name = 'coq-dpdgraph-tools'

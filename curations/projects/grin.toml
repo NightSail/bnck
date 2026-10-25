@@ -1,0 +1,16 @@
+id = 'grin'
+name = 'grin'
+
+homepage = 'https://grin.mw'
+
+[[package]]
+channel = 'fedora'
+name = 'grin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grin-wallet'

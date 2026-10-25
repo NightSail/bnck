@@ -1,0 +1,12 @@
+id = 'colmap'
+name = 'colmap'
+
+homepage = 'https://colmap.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'colmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/colmap'

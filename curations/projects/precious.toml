@@ -1,0 +1,12 @@
+id = 'precious'
+name = 'precious'
+
+repository = 'https://github.com/houseabsolute/precious.git'
+
+[[package]]
+channel = 'debian'
+name = 'precious'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/precious'

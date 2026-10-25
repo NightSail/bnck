@@ -1,0 +1,9 @@
+id = 'gql'
+name = 'gql'
+
+homepage = 'https://amrdeveloper.github.io/GQL'
+repository = 'https://github.com/AmrDeveloper/GQL.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gql'

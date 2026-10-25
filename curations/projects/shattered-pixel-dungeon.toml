@@ -1,0 +1,8 @@
+id = 'shattered-pixel-dungeon'
+name = 'shattered-pixel-dungeon'
+
+homepage = 'https://shatteredpixel.com/shatteredpd'
+
+[[package]]
+channel = 'arch'
+name = 'shattered-pixel-dungeon'

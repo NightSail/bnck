@@ -1,0 +1,12 @@
+id = 'python3-dipy'
+name = 'python3-dipy'
+
+homepage = 'https://dipy.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dipy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dipy'

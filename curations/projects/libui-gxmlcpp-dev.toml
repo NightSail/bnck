@@ -1,0 +1,8 @@
+id = 'libui-gxmlcpp-dev'
+name = 'libui-gxmlcpp-dev'
+
+homepage = 'http://ui-gxmlcpp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libui-gxmlcpp-dev'

@@ -1,0 +1,8 @@
+id = 'libsql-translator-perl'
+name = 'libsql-translator-perl'
+
+homepage = 'https://sqlfairy.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libsql-translator-perl'

@@ -1,0 +1,8 @@
+id = 'vigor'
+name = 'vigor'
+
+homepage = 'https://vigor.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'vigor'

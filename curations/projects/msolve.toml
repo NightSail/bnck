@@ -1,0 +1,21 @@
+id = 'msolve'
+name = 'msolve'
+
+homepage = 'https://msolve.lip6.fr'
+repository = 'https://github.com/algebraic-solving/msolve.git'
+
+[[package]]
+channel = 'arch'
+name = 'msolve'
+
+[[package]]
+channel = 'debian'
+name = 'msolve'
+
+[[package]]
+channel = 'fedora'
+name = 'msolve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msolve'

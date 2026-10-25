@@ -1,0 +1,8 @@
+id = 'fonts-rpm-macros'
+name = 'fonts-rpm-macros'
+
+homepage = 'https://docs.fedoraproject.org/en-US/packaging-guidelines/FontsPolicy'
+
+[[package]]
+channel = 'fedora'
+name = 'fonts-rpm-macros'

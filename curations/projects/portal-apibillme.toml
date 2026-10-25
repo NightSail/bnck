@@ -1,0 +1,8 @@
+id = 'portal-apibillme'
+name = 'portal'
+
+repository = 'https://github.com/apibillme/portal'
+
+[[package]]
+channel = 'crates.io'
+name = 'portal'

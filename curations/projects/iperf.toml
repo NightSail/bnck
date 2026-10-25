@@ -1,0 +1,20 @@
+id = 'iperf'
+name = 'iperf'
+
+homepage = 'https://sourceforge.net/projects/iperf2'
+
+[[package]]
+channel = 'arch'
+name = 'iperf'
+
+[[package]]
+channel = 'debian'
+name = 'iperf'
+
+[[package]]
+channel = 'fedora'
+name = 'iperf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iperf'

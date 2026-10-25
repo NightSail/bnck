@@ -1,0 +1,8 @@
+id = 'libmstoolkit-tools'
+name = 'libmstoolkit-tools'
+
+homepage = 'https://github.com/mhoopmann/mstoolkit'
+
+[[package]]
+channel = 'debian'
+name = 'libmstoolkit-tools'

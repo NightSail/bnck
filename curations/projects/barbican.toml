@@ -1,0 +1,12 @@
+id = 'barbican'
+name = 'barbican'
+
+homepage = 'https://github.com/openstack/barbican'
+
+[[package]]
+channel = 'debian'
+name = 'barbican-common'
+
+[[package]]
+channel = 'debian'
+name = 'python3-barbicanclient'

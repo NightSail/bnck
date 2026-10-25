@@ -1,0 +1,8 @@
+id = 'system76-scheduler'
+name = 'system76-scheduler'
+
+homepage = 'https://github.com/pop-os/system76-scheduler'
+
+[[package]]
+channel = 'arch'
+name = 'system76-scheduler'

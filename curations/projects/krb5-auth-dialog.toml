@@ -1,0 +1,12 @@
+id = 'krb5-auth-dialog'
+name = 'krb5-auth-dialog'
+
+homepage = 'https://honk.sigxcpu.org/piki/projects/krb5-auth-dialog'
+
+[[package]]
+channel = 'debian'
+name = 'krb5-auth-dialog'
+
+[[package]]
+channel = 'fedora'
+name = 'krb5-auth-dialog'

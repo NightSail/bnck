@@ -1,0 +1,17 @@
+id = 'golangci-lint'
+name = 'golangci-lint'
+
+homepage = 'https://golangci-lint.run'
+repository = 'https://github.com/golangci/golangci-lint.git'
+
+[[package]]
+channel = 'arch'
+name = 'golangci-lint'
+
+[[package]]
+channel = 'fedora'
+name = 'golangci-lint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/golangci-lint'

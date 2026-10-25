@@ -1,0 +1,12 @@
+id = 'touchegg'
+name = 'touchegg'
+
+homepage = 'https://github.com/JoseExposito/touchegg'
+
+[[package]]
+channel = 'arch'
+name = 'touchegg'
+
+[[package]]
+channel = 'fedora'
+name = 'touchegg'

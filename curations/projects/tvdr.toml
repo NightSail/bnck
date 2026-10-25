@@ -1,0 +1,20 @@
+id = 'tvdr'
+name = 'tvdr'
+
+homepage = 'http://www.tvdr.de'
+
+[[package]]
+channel = 'debian'
+name = 'vdr'
+
+[[package]]
+channel = 'debian'
+name = 'vdr-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'vdr'
+
+[[package]]
+channel = 'fedora'
+name = 'vdr-devel'

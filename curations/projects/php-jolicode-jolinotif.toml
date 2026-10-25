@@ -1,0 +1,8 @@
+id = 'php-jolicode-jolinotif'
+name = 'php-jolicode-jolinotif'
+
+homepage = 'https://github.com/jolicode/JoliNotif'
+
+[[package]]
+channel = 'debian'
+name = 'php-jolicode-jolinotif'

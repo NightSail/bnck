@@ -1,0 +1,8 @@
+id = 'amiga-fdisk-cross'
+name = 'amiga-fdisk-cross'
+
+homepage = 'https://salsa.debian.org/cts/amiga-fdisk'
+
+[[package]]
+channel = 'debian'
+name = 'amiga-fdisk-cross'

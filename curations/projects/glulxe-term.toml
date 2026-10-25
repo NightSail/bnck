@@ -1,0 +1,8 @@
+id = 'glulxe-term'
+name = 'glulxe-term'
+
+homepage = 'http://www.eblong.com/zarf/glulx'
+
+[[package]]
+channel = 'arch'
+name = 'glulxe-term'

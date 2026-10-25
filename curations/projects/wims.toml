@@ -1,0 +1,10 @@
+id = 'wims'
+name = 'wims'
+
+[[package]]
+channel = 'debian'
+name = 'flydraw'
+
+[[package]]
+channel = 'debian'
+name = 'wims'

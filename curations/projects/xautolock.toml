@@ -1,0 +1,12 @@
+id = 'xautolock'
+name = 'xautolock'
+
+homepage = 'http://freshmeat.net/projects/xautolock'
+
+[[package]]
+channel = 'debian'
+name = 'xautolock'
+
+[[package]]
+channel = 'fedora'
+name = 'xautolock'

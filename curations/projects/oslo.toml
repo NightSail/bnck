@@ -1,0 +1,24 @@
+id = 'oslo'
+name = 'oslo'
+
+homepage = 'https://launchpad.net/oslo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslo.privsep'
+
+[[package]]
+channel = 'debian'
+name = 'python3-oslotest'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-oslo-concurrency'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-oslo-log'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-oslotest'

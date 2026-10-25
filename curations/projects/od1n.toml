@@ -1,0 +1,12 @@
+id = 'od1n'
+name = 'od1n'
+
+homepage = 'https://od1n.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mitools'
+
+[[package]]
+channel = 'debian'
+name = 'odin'

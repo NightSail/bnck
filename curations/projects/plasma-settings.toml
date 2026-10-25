@@ -1,0 +1,16 @@
+id = 'plasma-settings'
+name = 'plasma-settings'
+
+homepage = 'https://invent.kde.org/plasma-mobile/plasma-settings'
+
+[[package]]
+channel = 'arch'
+name = 'plasma-settings'
+
+[[package]]
+channel = 'debian'
+name = 'plasma-settings'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-settings'

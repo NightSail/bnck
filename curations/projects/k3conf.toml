@@ -1,0 +1,8 @@
+id = 'k3conf'
+name = 'k3conf'
+
+homepage = 'https://git.ti.com/cgit/k3conf/k3conf'
+
+[[package]]
+channel = 'debian'
+name = 'k3conf'

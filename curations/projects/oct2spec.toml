@@ -1,0 +1,8 @@
+id = 'oct2spec'
+name = 'oct2spec'
+
+homepage = 'https://pagure.io/oct2spec'
+
+[[package]]
+channel = 'fedora'
+name = 'oct2spec'

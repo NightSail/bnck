@@ -1,0 +1,12 @@
+id = 'stardict-4'
+name = 'stardict-4'
+
+homepage = 'http://stardict-4.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'stardict'
+
+[[package]]
+channel = 'debian'
+name = 'stardict-gtk'

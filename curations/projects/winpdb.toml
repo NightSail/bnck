@@ -1,0 +1,8 @@
+id = 'winpdb'
+name = 'winpdb'
+
+homepage = 'https://pypi.org/project/winpdb-reborn'
+
+[[package]]
+channel = 'fedora'
+name = 'winpdb'

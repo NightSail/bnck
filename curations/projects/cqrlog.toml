@@ -1,0 +1,12 @@
+id = 'cqrlog'
+name = 'cqrlog'
+
+homepage = 'https://www.cqrlog.com'
+
+[[package]]
+channel = 'debian'
+name = 'cqrlog'
+
+[[package]]
+channel = 'fedora'
+name = 'cqrlog'

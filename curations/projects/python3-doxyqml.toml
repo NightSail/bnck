@@ -1,0 +1,8 @@
+id = 'python3-doxyqml'
+name = 'python3-doxyqml'
+
+homepage = 'https://invent.kde.org/sdk/doxyqml'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-doxyqml'

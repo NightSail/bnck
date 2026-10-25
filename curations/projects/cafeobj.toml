@@ -1,0 +1,13 @@
+id = 'cafeobj'
+name = 'cafeobj'
+
+homepage = 'http://cafeobj.org'
+repository = 'https://github.com/CafeOBJ/cafeobj.git'
+
+[[package]]
+channel = 'debian'
+name = 'cafeobj'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cafeobj'

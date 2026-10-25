@@ -1,0 +1,16 @@
+id = 'duply'
+name = 'duply'
+
+homepage = 'https://duply.net/Main_Page'
+
+[[package]]
+channel = 'debian'
+name = 'duply'
+
+[[package]]
+channel = 'fedora'
+name = 'duply'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duply'

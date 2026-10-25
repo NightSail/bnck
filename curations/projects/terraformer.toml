@@ -1,0 +1,8 @@
+id = 'terraformer'
+name = 'terraformer'
+
+repository = 'https://github.com/GoogleCloudPlatform/terraformer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraformer'

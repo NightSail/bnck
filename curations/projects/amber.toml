@@ -1,0 +1,12 @@
+id = 'amber'
+name = 'amber'
+
+homepage = 'https://github.com/eknkc/amber'
+
+[[package]]
+channel = 'debian'
+name = 'amber'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-eknkc-amber'

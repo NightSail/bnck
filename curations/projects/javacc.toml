@@ -1,0 +1,24 @@
+id = 'javacc'
+name = 'javacc'
+
+homepage = 'https://javacc.github.io/javacc'
+
+[[package]]
+channel = 'debian'
+name = 'javacc'
+
+[[package]]
+channel = 'debian'
+name = 'javacc4'
+
+[[package]]
+channel = 'debian'
+name = 'javacc5'
+
+[[package]]
+channel = 'fedora'
+name = 'javacc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/javacc'

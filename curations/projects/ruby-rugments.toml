@@ -1,0 +1,6 @@
+id = 'ruby-rugments'
+name = 'ruby-rugments'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rugments'

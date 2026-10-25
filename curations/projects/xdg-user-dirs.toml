@@ -1,0 +1,20 @@
+id = 'xdg-user-dirs'
+name = 'xdg-user-dirs'
+
+homepage = 'https://www.freedesktop.org/wiki/Software/xdg-user-dirs'
+
+[[package]]
+channel = 'arch'
+name = 'xdg-user-dirs'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-user-dirs'
+
+[[package]]
+channel = 'debian'
+name = 'xdg-user-dirs-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'xdg-user-dirs'

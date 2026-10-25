@@ -1,0 +1,8 @@
+id = 'needle'
+name = 'needle'
+
+homepage = 'https://github.com/uber/needle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/needle'

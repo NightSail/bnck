@@ -1,0 +1,8 @@
+id = 'ironbar'
+name = 'ironbar'
+
+homepage = 'https://github.com/JakeStanger/ironbar'
+
+[[package]]
+channel = 'arch'
+name = 'ironbar'

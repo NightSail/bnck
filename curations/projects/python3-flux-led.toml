@@ -1,0 +1,8 @@
+id = 'python3-flux-led'
+name = 'python3-flux-led'
+
+homepage = 'https://github.com/Danielhiversen/flux_led'
+
+[[package]]
+channel = 'debian'
+name = 'python3-flux-led'

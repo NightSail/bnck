@@ -1,0 +1,17 @@
+id = 'mpdas'
+name = 'mpdas'
+
+homepage = 'https://50hz.ws/mpdas'
+repository = 'https://github.com/hrkfdn/mpdas.git'
+
+[[package]]
+channel = 'debian'
+name = 'mpdas'
+
+[[package]]
+channel = 'fedora'
+name = 'mpdas'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpdas'

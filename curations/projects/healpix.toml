@@ -1,0 +1,16 @@
+id = 'healpix'
+name = 'healpix'
+
+homepage = 'https://healpix.sourceforge.io'
+
+[[package]]
+channel = 'fedora'
+name = 'healpix'
+
+[[package]]
+channel = 'fedora'
+name = 'healpix-c++'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/healpix'

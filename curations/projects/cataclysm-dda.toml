@@ -1,0 +1,20 @@
+id = 'cataclysm-dda'
+name = 'cataclysm-dda'
+
+homepage = 'https://cataclysmdda.org'
+
+[[package]]
+channel = 'arch'
+name = 'cataclysm-dda'
+
+[[package]]
+channel = 'arch'
+name = 'cataclysm-dda-tiles'
+
+[[package]]
+channel = 'fedora'
+name = 'cataclysm-dda'
+
+[[package]]
+channel = 'fedora'
+name = 'cataclysm-dda-tiles'

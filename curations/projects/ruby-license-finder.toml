@@ -1,0 +1,8 @@
+id = 'ruby-license-finder'
+name = 'ruby-license-finder'
+
+homepage = 'https://github.com/pivotal/LicenseFinder'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-license-finder'

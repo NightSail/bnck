@@ -1,0 +1,13 @@
+id = 'yle-dl'
+name = 'yle-dl'
+
+homepage = 'https://aajanki.github.io/yle-dl/index-en.html'
+repository = 'https://github.com/aajanki/yle-dl.git'
+
+[[package]]
+channel = 'fedora'
+name = 'yle-dl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yle-dl'

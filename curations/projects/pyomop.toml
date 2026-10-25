@@ -1,0 +1,8 @@
+id = 'pyomop'
+name = 'pyomop'
+
+homepage = 'https://github.com/dermatologist/pyomop'
+
+[[package]]
+channel = 'debian'
+name = 'pyomop'

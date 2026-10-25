@@ -1,0 +1,8 @@
+id = 'microplane'
+name = 'microplane'
+
+repository = 'https://github.com/Clever/microplane.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/microplane'

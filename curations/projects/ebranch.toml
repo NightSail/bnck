@@ -1,0 +1,8 @@
+id = 'ebranch'
+name = 'ebranch'
+
+homepage = 'https://pagure.io/epel/ebranch'
+
+[[package]]
+channel = 'fedora'
+name = 'ebranch'

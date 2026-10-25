@@ -1,0 +1,12 @@
+id = 'gitlab-runner'
+name = 'gitlab-runner'
+
+repository = 'https://gitlab.com/gitlab-org/gitlab-runner.git'
+
+[[package]]
+channel = 'arch'
+name = 'gitlab-runner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitlab-runner'

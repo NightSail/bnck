@@ -1,0 +1,16 @@
+id = 'kongress'
+name = 'kongress'
+
+homepage = 'https://apps.kde.org/kongress'
+
+[[package]]
+channel = 'arch'
+name = 'kongress'
+
+[[package]]
+channel = 'debian'
+name = 'kongress'
+
+[[package]]
+channel = 'fedora'
+name = 'kongress'

@@ -1,0 +1,20 @@
+id = 'cifs-utils'
+name = 'cifs-utils'
+
+homepage = 'https://wiki.samba.org/index.php/LinuxCIFS_utils'
+
+[[package]]
+channel = 'arch'
+name = 'cifs-utils'
+
+[[package]]
+channel = 'debian'
+name = 'cifs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'cifs-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'cifs-utils-info'

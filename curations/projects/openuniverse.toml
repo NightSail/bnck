@@ -1,0 +1,8 @@
+id = 'openuniverse'
+name = 'openuniverse'
+
+homepage = 'http://openuniverse.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'openuniverse'

@@ -1,0 +1,8 @@
+id = 'pandemics'
+name = 'pandemics'
+
+homepage = 'https://pandemics.gitlab.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pandemics'

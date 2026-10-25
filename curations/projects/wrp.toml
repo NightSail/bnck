@@ -1,0 +1,8 @@
+id = 'wrp'
+name = 'wrp'
+
+homepage = 'https://github.com/tenox7/wrp'
+
+[[package]]
+channel = 'fedora'
+name = 'wrp'

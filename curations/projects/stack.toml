@@ -1,0 +1,8 @@
+id = 'stack'
+name = 'stack'
+
+homepage = 'https://github.com/commercialhaskell/stack'
+
+[[package]]
+channel = 'arch'
+name = 'stack'

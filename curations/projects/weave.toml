@@ -1,0 +1,9 @@
+id = 'weave'
+name = 'weave'
+
+homepage = 'https://ataraxy-labs.github.io/weave'
+repository = 'https://github.com/Ataraxy-Labs/weave.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/weave'

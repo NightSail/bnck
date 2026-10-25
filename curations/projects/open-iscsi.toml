@@ -1,0 +1,16 @@
+id = 'open-iscsi'
+name = 'open-iscsi'
+
+homepage = 'https://www.open-iscsi.com'
+
+[[package]]
+channel = 'arch'
+name = 'open-iscsi'
+
+[[package]]
+channel = 'debian'
+name = 'iscsiuio'
+
+[[package]]
+channel = 'debian'
+name = 'open-iscsi'

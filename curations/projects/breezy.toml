@@ -1,0 +1,9 @@
+id = 'breezy'
+name = 'breezy'
+
+homepage = 'https://www.breezy-vcs.org'
+repository = 'https://github.com/breezy-team/breezy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/breezy'

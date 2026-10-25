@@ -1,0 +1,16 @@
+id = 'gtkada'
+name = 'GtkAda'
+
+homepage = 'https://github.com/AdaCore/gtkada'
+
+[[package]]
+channel = 'debian'
+name = 'libgtkada-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'GtkAda-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'GtkAda3-devel'

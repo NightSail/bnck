@@ -1,0 +1,8 @@
+id = 'python3-ironic-inspector'
+name = 'python3-ironic-inspector'
+
+homepage = 'https://github.com/openstack/ironic-inspector'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ironic-inspector'

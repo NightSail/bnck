@@ -1,0 +1,8 @@
+id = 'crwx-ng'
+name = 'crwx-ng'
+
+homepage = 'https://gitlab.com/coolreader-ng/crwx-ng'
+
+[[package]]
+channel = 'debian'
+name = 'crwx-ng'

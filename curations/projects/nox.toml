@@ -1,0 +1,16 @@
+id = 'nox'
+name = 'nox'
+
+homepage = 'https://github.com/wntrblm/nox'
+
+[[package]]
+channel = 'arch'
+name = 'python-nox'
+
+[[package]]
+channel = 'fedora'
+name = 'nox'
+
+[[package]]
+channel = 'fedora'
+name = 'nox+tox_to_nox'

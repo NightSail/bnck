@@ -1,0 +1,8 @@
+id = 'dh-make-golang'
+name = 'dh-make-golang'
+
+homepage = 'https://github.com/Debian/dh-make-golang'
+
+[[package]]
+channel = 'debian'
+name = 'dh-make-golang'

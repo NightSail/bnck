@@ -1,0 +1,8 @@
+id = 'python3-napari'
+name = 'python3-napari'
+
+homepage = 'https://napari.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-napari'

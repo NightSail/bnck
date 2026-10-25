@@ -1,0 +1,8 @@
+id = 'pipgrip'
+name = 'pipgrip'
+
+repository = 'https://github.com/ddelange/pipgrip.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipgrip'

@@ -1,0 +1,8 @@
+id = 'tpp'
+name = 'tpp'
+
+homepage = 'https://github.com/akrennmair/tpp'
+
+[[package]]
+channel = 'debian'
+name = 'tpp'

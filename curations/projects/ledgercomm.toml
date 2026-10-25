@@ -1,0 +1,8 @@
+id = 'ledgercomm'
+name = 'ledgercomm'
+
+homepage = 'https://github.com/LedgerHQ/ledgercomm'
+
+[[package]]
+channel = 'debian'
+name = 'ledgercomm'

@@ -1,0 +1,8 @@
+id = 'bwa-mem2'
+name = 'bwa-mem2'
+
+homepage = 'https://github.com/bwa-mem2/bwa-mem2'
+
+[[package]]
+channel = 'debian'
+name = 'bwa-mem2'

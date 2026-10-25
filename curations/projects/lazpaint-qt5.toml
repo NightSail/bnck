@@ -1,0 +1,6 @@
+id = 'lazpaint-qt5'
+name = 'lazpaint-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'lazpaint-qt5'

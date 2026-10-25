@@ -1,0 +1,8 @@
+id = 'w9wm'
+name = 'w9wm'
+
+homepage = 'http://www.drieu.org/code/w9wm.en.html'
+
+[[package]]
+channel = 'debian'
+name = 'w9wm'

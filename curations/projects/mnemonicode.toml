@@ -1,0 +1,8 @@
+id = 'mnemonicode'
+name = 'mnemonicode'
+
+homepage = 'https://github.com/schollz/mnemonicode'
+
+[[package]]
+channel = 'fedora'
+name = 'mnemonicode'

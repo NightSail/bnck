@@ -1,0 +1,8 @@
+id = 'gotpm'
+name = 'gotpm'
+
+repository = 'https://github.com/google/go-tpm-tools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gotpm'

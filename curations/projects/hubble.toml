@@ -1,0 +1,8 @@
+id = 'hubble'
+name = 'hubble'
+
+repository = 'https://github.com/cilium/hubble.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hubble'

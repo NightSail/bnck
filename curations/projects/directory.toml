@@ -1,0 +1,12 @@
+id = 'directory'
+name = 'directory'
+
+homepage = 'https://directory.fedoraproject.org'
+
+[[package]]
+channel = 'debian'
+name = '389-ds-base'
+
+[[package]]
+channel = 'debian'
+name = 'python3-lib389'

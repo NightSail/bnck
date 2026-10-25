@@ -1,0 +1,13 @@
+id = 'robodoc'
+name = 'robodoc'
+
+homepage = 'http://rfsber.home.xs4all.nl/Robo'
+repository = 'https://github.com/gumpu/ROBODoc.git'
+
+[[package]]
+channel = 'fedora'
+name = 'robodoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/robodoc'

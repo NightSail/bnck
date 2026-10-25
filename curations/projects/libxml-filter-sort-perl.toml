@@ -1,0 +1,8 @@
+id = 'libxml-filter-sort-perl'
+name = 'libxml-filter-sort-perl'
+
+homepage = 'https://metacpan.org/release/XML-Filter-Sort'
+
+[[package]]
+channel = 'debian'
+name = 'libxml-filter-sort-perl'

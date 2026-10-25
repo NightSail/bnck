@@ -1,0 +1,8 @@
+id = 'python3-jupyter-server'
+name = 'python3-jupyter-server'
+
+homepage = 'https://jupyter-server.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jupyter-server'

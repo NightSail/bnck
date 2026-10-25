@@ -1,0 +1,9 @@
+id = 'pieces-cli'
+name = 'pieces-cli'
+
+homepage = 'https://docs.pieces.app/products/cli'
+repository = 'https://github.com/pieces-app/cli-agent.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pieces-cli'

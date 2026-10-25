@@ -1,0 +1,8 @@
+id = 'libetonyek-tools'
+name = 'libetonyek-tools'
+
+homepage = 'http://www.freedesktop.org/wiki/Software/libetonyek'
+
+[[package]]
+channel = 'debian'
+name = 'libetonyek-tools'

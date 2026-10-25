@@ -1,0 +1,8 @@
+id = 'ebnflint'
+name = 'ebnflint'
+
+homepage = 'https://golang.org/x/exp'
+
+[[package]]
+channel = 'debian'
+name = 'ebnflint'

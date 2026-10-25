@@ -1,0 +1,8 @@
+id = 'exiflooter'
+name = 'exiflooter'
+
+homepage = 'https://github.com/aydinnyunus/exiflooter'
+
+[[package]]
+channel = 'debian'
+name = 'exiflooter'

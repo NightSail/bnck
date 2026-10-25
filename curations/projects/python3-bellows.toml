@@ -1,0 +1,8 @@
+id = 'python3-bellows'
+name = 'python3-bellows'
+
+homepage = 'https://github.com/zigpy/bellows'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bellows'

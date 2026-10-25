@@ -1,0 +1,8 @@
+id = 'pysysbot'
+name = 'pysysbot'
+
+homepage = 'http://affolter-engineering.ch/pysysbot'
+
+[[package]]
+channel = 'fedora'
+name = 'pysysbot'

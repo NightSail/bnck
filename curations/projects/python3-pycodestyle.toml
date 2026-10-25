@@ -1,0 +1,8 @@
+id = 'python3-pycodestyle'
+name = 'python3-pycodestyle'
+
+homepage = 'https://pypi.python.org/pypi/pycodestyle'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pycodestyle'

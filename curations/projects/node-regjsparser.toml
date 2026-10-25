@@ -1,0 +1,8 @@
+id = 'node-regjsparser'
+name = 'node-regjsparser'
+
+homepage = 'https://github.com/jviereck/regjsparser'
+
+[[package]]
+channel = 'debian'
+name = 'node-regjsparser'

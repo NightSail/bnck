@@ -1,0 +1,6 @@
+id = 'bootpc'
+name = 'bootpc'
+
+[[package]]
+channel = 'debian'
+name = 'bootpc'

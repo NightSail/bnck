@@ -1,0 +1,8 @@
+id = 'awscurl'
+name = 'awscurl'
+
+repository = 'https://github.com/okigan/awscurl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awscurl'

@@ -1,0 +1,8 @@
+id = 'avr-evtd'
+name = 'avr-evtd'
+
+homepage = 'https://github.com/rbrito/avr-evtd'
+
+[[package]]
+channel = 'debian'
+name = 'avr-evtd'

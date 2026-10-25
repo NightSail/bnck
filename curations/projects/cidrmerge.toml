@@ -1,0 +1,8 @@
+id = 'cidrmerge'
+name = 'cidrmerge'
+
+homepage = 'https://cidrmerge.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cidrmerge'

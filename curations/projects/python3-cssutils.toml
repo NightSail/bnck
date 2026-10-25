@@ -1,0 +1,12 @@
+id = 'python3-cssutils'
+name = 'python3-cssutils'
+
+homepage = 'https://cthedot.de/cssutils'
+
+[[package]]
+channel = 'debian'
+name = 'python3-cssutils'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cssutils'

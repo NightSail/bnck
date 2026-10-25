@@ -1,0 +1,8 @@
+id = 'minicomputer'
+name = 'minicomputer'
+
+homepage = 'http://minicomputer.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'minicomputer'

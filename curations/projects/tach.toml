@@ -1,0 +1,9 @@
+id = 'tach'
+name = 'tach'
+
+homepage = 'https://docs.gauge.sh/getting-started/introduction'
+repository = 'https://github.com/tach-org/tach.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tach'

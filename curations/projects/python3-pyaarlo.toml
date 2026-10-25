@@ -1,0 +1,8 @@
+id = 'python3-pyaarlo'
+name = 'python3-pyaarlo'
+
+homepage = 'https://github.com/twrecked/pyaarlo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyaarlo'

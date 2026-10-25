@@ -1,0 +1,8 @@
+id = 'cozy-stack'
+name = 'cozy-stack'
+
+homepage = 'https://cozy.io'
+
+[[package]]
+channel = 'arch'
+name = 'cozy-stack'

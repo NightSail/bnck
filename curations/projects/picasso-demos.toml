@@ -1,0 +1,8 @@
+id = 'picasso-demos'
+name = 'picasso-demos'
+
+homepage = 'http://onecoolx.github.io/picasso'
+
+[[package]]
+channel = 'fedora'
+name = 'picasso-demos'

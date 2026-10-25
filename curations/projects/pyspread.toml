@@ -1,0 +1,8 @@
+id = 'pyspread'
+name = 'pyspread'
+
+homepage = 'https://pyspread.gitlab.io'
+
+[[package]]
+channel = 'debian'
+name = 'pyspread'

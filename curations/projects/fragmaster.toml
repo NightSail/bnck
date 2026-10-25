@@ -1,0 +1,8 @@
+id = 'fragmaster'
+name = 'fragmaster'
+
+homepage = 'https://gitlab.com/agmartin/fragmaster'
+
+[[package]]
+channel = 'debian'
+name = 'fragmaster'

@@ -1,0 +1,8 @@
+id = 'ldid-procursus'
+name = 'ldid-procursus'
+
+repository = 'https://github.com/ProcursusTeam/ldid.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldid-procursus'

@@ -1,0 +1,8 @@
+id = 'ddcctl'
+name = 'ddcctl'
+
+homepage = 'https://github.com/kfix/ddcctl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddcctl'

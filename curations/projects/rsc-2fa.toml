@@ -1,0 +1,8 @@
+id = 'rsc-2fa'
+name = 'rsc_2fa'
+
+homepage = 'https://pkg.go.dev/rsc.io/2fa'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rsc_2fa'

@@ -1,0 +1,8 @@
+id = 'psurface'
+name = 'psurface'
+
+homepage = 'http://numerik.mi.fu-berlin.de/dune/psurface'
+
+[[package]]
+channel = 'debian'
+name = 'psurface'

@@ -1,0 +1,8 @@
+id = 'iamy'
+name = 'iamy'
+
+repository = 'https://github.com/99designs/iamy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/iamy'

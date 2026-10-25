@@ -1,0 +1,8 @@
+id = 'prometheus-podman-exporter'
+name = 'prometheus-podman-exporter'
+
+homepage = 'https://github.com/containers/prometheus-podman-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'prometheus-podman-exporter'

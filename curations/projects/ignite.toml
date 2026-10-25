@@ -1,0 +1,9 @@
+id = 'ignite'
+name = 'ignite'
+
+homepage = 'https://docs.ignite.com'
+repository = 'https://github.com/ignite/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ignite'

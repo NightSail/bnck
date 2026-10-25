@@ -1,0 +1,8 @@
+id = 'beaker-client'
+name = 'beaker-client'
+
+homepage = 'https://beaker-project.org'
+
+[[package]]
+channel = 'fedora'
+name = 'beaker-client'

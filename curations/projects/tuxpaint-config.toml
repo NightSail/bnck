@@ -1,0 +1,8 @@
+id = 'tuxpaint-config'
+name = 'tuxpaint-config'
+
+homepage = 'http://www.newbreedsoftware.com/tuxpaint'
+
+[[package]]
+channel = 'debian'
+name = 'tuxpaint-config'

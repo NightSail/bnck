@@ -1,0 +1,16 @@
+id = 'tpm2-abrmd'
+name = 'tpm2-abrmd'
+
+homepage = 'https://github.com/tpm2-software/tpm2-abrmd'
+
+[[package]]
+channel = 'arch'
+name = 'tpm2-abrmd'
+
+[[package]]
+channel = 'debian'
+name = 'tpm2-abrmd'
+
+[[package]]
+channel = 'fedora'
+name = 'tpm2-abrmd'

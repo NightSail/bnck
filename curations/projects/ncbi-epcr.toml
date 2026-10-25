@@ -1,0 +1,8 @@
+id = 'ncbi-epcr'
+name = 'ncbi-epcr'
+
+homepage = 'https://www.ncbi.nlm.nih.gov/tools/epcr'
+
+[[package]]
+channel = 'debian'
+name = 'ncbi-epcr'

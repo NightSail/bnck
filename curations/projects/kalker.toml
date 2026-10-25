@@ -1,0 +1,8 @@
+id = 'kalker'
+name = 'kalker'
+
+homepage = 'https://kalker.strct.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kalker'

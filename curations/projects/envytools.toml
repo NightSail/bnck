@@ -1,0 +1,8 @@
+id = 'envytools'
+name = 'envytools'
+
+homepage = 'https://github.com/envytools/envytools'
+
+[[package]]
+channel = 'fedora'
+name = 'envytools'

@@ -1,0 +1,8 @@
+id = 'dvd-slideshow'
+name = 'dvd-slideshow'
+
+homepage = 'http://dvd-slideshow.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dvd-slideshow'

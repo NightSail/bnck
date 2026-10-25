@@ -1,0 +1,8 @@
+id = 'python3-ssdpy'
+name = 'python3-ssdpy'
+
+homepage = 'https://github.com/MoshiBin/ssdpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ssdpy'

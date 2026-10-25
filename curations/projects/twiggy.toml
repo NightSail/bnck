@@ -1,0 +1,8 @@
+id = 'twiggy'
+name = 'twiggy'
+
+homepage = 'https://metacpan.org/release/Twiggy'
+
+[[package]]
+channel = 'debian'
+name = 'twiggy'

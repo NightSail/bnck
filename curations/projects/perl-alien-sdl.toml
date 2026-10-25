@@ -1,0 +1,8 @@
+id = 'perl-alien-sdl'
+name = 'perl-Alien-SDL'
+
+homepage = 'https://metacpan.org/release/Alien-SDL'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Alien-SDL'

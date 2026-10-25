@@ -1,0 +1,8 @@
+id = 'rubygem-bootsnap'
+name = 'rubygem-bootsnap'
+
+homepage = 'https://github.com/Shopify/bootsnap'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-bootsnap'

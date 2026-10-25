@@ -1,0 +1,13 @@
+id = 'kubeone'
+name = 'kubeone'
+
+homepage = 'https://kubeone.io'
+repository = 'https://github.com/kubermatic/kubeone.git'
+
+[[package]]
+channel = 'arch'
+name = 'kubeone'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubeone'

@@ -1,0 +1,8 @@
+id = 'circle-term'
+name = 'circle-term'
+
+homepage = 'https://metacpan.org/release/circle-fe-term'
+
+[[package]]
+channel = 'debian'
+name = 'circle-term'

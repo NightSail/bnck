@@ -1,0 +1,17 @@
+id = 'd2'
+name = 'd2'
+
+homepage = 'https://d2lang.com'
+repository = 'https://github.com/d2lang/d2.git'
+
+[[package]]
+channel = 'arch'
+name = 'd2'
+
+[[package]]
+channel = 'fedora'
+name = 'd2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/d2'

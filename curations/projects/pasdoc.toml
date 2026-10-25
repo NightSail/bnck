@@ -1,0 +1,20 @@
+id = 'pasdoc'
+name = 'pasdoc'
+
+homepage = 'https://github.com/pasdoc/pasdoc/wiki'
+
+[[package]]
+channel = 'debian'
+name = 'pasdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'pasdoc'
+
+[[package]]
+channel = 'fedora'
+name = 'pasdoc-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'pasdoc-tools'

@@ -1,0 +1,8 @@
+id = 'textcat'
+name = 'textcat'
+
+homepage = 'http://www.let.rug.nl/~vannoord/TextCat'
+
+[[package]]
+channel = 'fedora'
+name = 'textcat'

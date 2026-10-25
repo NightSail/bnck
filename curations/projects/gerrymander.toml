@@ -1,0 +1,8 @@
+id = 'gerrymander'
+name = 'gerrymander'
+
+homepage = 'https://pypi.python.org/pypi/gerrymander'
+
+[[package]]
+channel = 'fedora'
+name = 'gerrymander'

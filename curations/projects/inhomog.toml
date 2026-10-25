@@ -1,0 +1,8 @@
+id = 'inhomog'
+name = 'inhomog'
+
+homepage = 'https://bitbucket.org/broukema/inhomog'
+
+[[package]]
+channel = 'debian'
+name = 'inhomog'

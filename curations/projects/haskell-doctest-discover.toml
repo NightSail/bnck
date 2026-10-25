@@ -1,0 +1,8 @@
+id = 'haskell-doctest-discover'
+name = 'haskell-doctest-discover'
+
+homepage = 'http://github.com/karun012/doctest-discover'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-doctest-discover'

@@ -1,0 +1,8 @@
+id = 'pk'
+name = 'pk'
+
+homepage = 'https://github.com/johnmorrow/pk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pk'

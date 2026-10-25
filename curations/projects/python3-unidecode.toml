@@ -1,0 +1,8 @@
+id = 'python3-unidecode'
+name = 'python3-unidecode'
+
+homepage = 'https://pypi.python.org/pypi/Unidecode/1.4.0'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-unidecode'

@@ -1,0 +1,8 @@
+id = 'swaykbdd'
+name = 'swaykbdd'
+
+homepage = 'https://github.com/artemsen/swaykbdd'
+
+[[package]]
+channel = 'debian'
+name = 'swaykbdd'

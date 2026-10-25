@@ -1,0 +1,8 @@
+id = 'python-qtconsole'
+name = 'python-qtconsole'
+
+homepage = 'https://qtconsole.readthedocs.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-qtconsole'

@@ -1,0 +1,12 @@
+id = 'knxd'
+name = 'knxd'
+
+homepage = 'https://github.com/knxd/knxd'
+
+[[package]]
+channel = 'debian'
+name = 'knxd'
+
+[[package]]
+channel = 'debian'
+name = 'knxd-tools'

@@ -1,0 +1,8 @@
+id = 'solhint'
+name = 'solhint'
+
+homepage = 'https://protofire.github.io/solhint'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solhint'

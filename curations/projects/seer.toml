@@ -1,0 +1,8 @@
+id = 'seer'
+name = 'seer'
+
+homepage = 'https://github.com/johnlees/seer'
+
+[[package]]
+channel = 'debian'
+name = 'seer'

@@ -1,0 +1,9 @@
+id = 'mycorrhiza'
+name = 'mycorrhiza'
+
+homepage = 'https://mycorrhiza.wiki'
+repository = 'https://github.com/bouncepaw/mycorrhiza.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mycorrhiza'

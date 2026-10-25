@@ -1,0 +1,8 @@
+id = 'cloudformation-cli'
+name = 'cloudformation-cli'
+
+repository = 'https://github.com/aws-cloudformation/cloudformation-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudformation-cli'

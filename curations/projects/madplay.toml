@@ -1,0 +1,12 @@
+id = 'madplay'
+name = 'madplay'
+
+homepage = 'https://www.underbit.com/products/mad'
+
+[[package]]
+channel = 'debian'
+name = 'madplay'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/madplay'

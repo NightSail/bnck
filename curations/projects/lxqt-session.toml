@@ -1,0 +1,12 @@
+id = 'lxqt-session'
+name = 'lxqt-session'
+
+homepage = 'https://github.com/lxqt/lxqt-session'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-session'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-session'

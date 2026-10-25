@@ -1,0 +1,8 @@
+id = 'cvt12'
+name = 'cvt12'
+
+homepage = 'https://github.com/kevinlekiller/cvt_modeline_calculator_12'
+
+[[package]]
+channel = 'fedora'
+name = 'cvt12'

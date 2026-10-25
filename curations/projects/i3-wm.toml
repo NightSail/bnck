@@ -1,0 +1,16 @@
+id = 'i3-wm'
+name = 'i3-wm'
+
+homepage = 'https://i3wm.org'
+
+[[package]]
+channel = 'arch'
+name = 'i3-wm'
+
+[[package]]
+channel = 'debian'
+name = 'i3-wm'
+
+[[package]]
+channel = 'fedora'
+name = 'i3'

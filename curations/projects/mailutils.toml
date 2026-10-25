@@ -1,0 +1,36 @@
+id = 'mailutils'
+name = 'mailutils'
+
+homepage = 'https://www.gnu.org/software/mailutils'
+
+[[package]]
+channel = 'arch'
+name = 'mailutils'
+
+[[package]]
+channel = 'debian'
+name = 'libmailutils-dev'
+
+[[package]]
+channel = 'debian'
+name = 'mailutils'
+
+[[package]]
+channel = 'debian'
+name = 'mailutils-comsatd'
+
+[[package]]
+channel = 'debian'
+name = 'mailutils-guile'
+
+[[package]]
+channel = 'debian'
+name = 'mailutils-imap4d'
+
+[[package]]
+channel = 'debian'
+name = 'mailutils-mda'
+
+[[package]]
+channel = 'debian'
+name = 'mailutils-pop3d'

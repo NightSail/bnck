@@ -1,0 +1,12 @@
+id = 'muscle'
+name = 'muscle'
+
+homepage = 'https://www.drive5.com/muscle'
+
+[[package]]
+channel = 'debian'
+name = 'muscle'
+
+[[package]]
+channel = 'debian'
+name = 'muscle3'

@@ -1,0 +1,13 @@
+id = 'geogram'
+name = 'geogram'
+
+homepage = 'https://github.com/BrunoLevy/geogram/wiki'
+repository = 'https://github.com/BrunoLevy/geogram.git'
+
+[[package]]
+channel = 'arch'
+name = 'geogram'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geogram'

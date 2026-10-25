@@ -1,0 +1,8 @@
+id = 'perl-html-tree'
+name = 'perl-HTML-Tree'
+
+homepage = 'https://metacpan.org/release/HTML-Tree'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-HTML-Tree'

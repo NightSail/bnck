@@ -1,0 +1,8 @@
+id = 'vector'
+name = 'vector'
+
+homepage = 'https://vector.dev'
+
+[[package]]
+channel = 'arch'
+name = 'vector'

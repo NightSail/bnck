@@ -1,0 +1,8 @@
+id = 'openmeeg'
+name = 'openmeeg'
+
+homepage = 'http://openmeeg.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'openmeeg'

@@ -1,0 +1,8 @@
+id = 'servus'
+name = 'servus'
+
+homepage = 'https://github.com/HBPVIS/Servus'
+
+[[package]]
+channel = 'fedora'
+name = 'servus'

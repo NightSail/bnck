@@ -1,0 +1,12 @@
+id = 'jellyfish'
+name = 'jellyfish'
+
+homepage = 'https://github.com/gmarcais/Jellyfish'
+
+[[package]]
+channel = 'debian'
+name = 'jellyfish'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jellyfish'

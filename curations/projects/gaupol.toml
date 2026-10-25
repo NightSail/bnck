@@ -1,0 +1,16 @@
+id = 'gaupol'
+name = 'gaupol'
+
+homepage = 'https://otsaloma.io/gaupol'
+
+[[package]]
+channel = 'arch'
+name = 'gaupol'
+
+[[package]]
+channel = 'debian'
+name = 'gaupol'
+
+[[package]]
+channel = 'fedora'
+name = 'gaupol'

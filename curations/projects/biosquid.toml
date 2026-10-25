@@ -1,0 +1,8 @@
+id = 'biosquid'
+name = 'biosquid'
+
+homepage = 'http://eddylab.org/software.html'
+
+[[package]]
+channel = 'debian'
+name = 'biosquid'

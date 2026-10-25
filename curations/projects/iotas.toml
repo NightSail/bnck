@@ -1,0 +1,12 @@
+id = 'iotas'
+name = 'iotas'
+
+homepage = 'https://apps.gnome.org/Iotas'
+
+[[package]]
+channel = 'arch'
+name = 'iotas'
+
+[[package]]
+channel = 'debian'
+name = 'iotas'

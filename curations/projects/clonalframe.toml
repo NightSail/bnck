@@ -1,0 +1,8 @@
+id = 'clonalframe'
+name = 'clonalframe'
+
+homepage = 'http://www.xavierdidelot.xtreemhost.com/clonalframe.htm'
+
+[[package]]
+channel = 'debian'
+name = 'clonalframe'

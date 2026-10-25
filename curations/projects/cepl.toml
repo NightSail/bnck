@@ -1,0 +1,8 @@
+id = 'cepl'
+name = 'cepl'
+
+homepage = 'https://github.com/alyptik/cepl'
+
+[[package]]
+channel = 'arch'
+name = 'cepl'

@@ -1,0 +1,36 @@
+id = 'mysql'
+name = 'mysql'
+
+homepage = 'http://www.mysql.com'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql-server'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql-test'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql8.0'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql8.0-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql8.0-server'
+
+[[package]]
+channel = 'fedora'
+name = 'mysql8.0-test'

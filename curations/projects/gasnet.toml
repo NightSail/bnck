@@ -1,0 +1,8 @@
+id = 'gasnet'
+name = 'gasnet'
+
+homepage = 'https://gasnet.lbl.gov'
+
+[[package]]
+channel = 'debian'
+name = 'gasnet'

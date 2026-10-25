@@ -1,0 +1,8 @@
+id = 'openj9'
+name = 'openj9'
+
+homepage = 'https://www.eclipse.org/openj9'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openj9'

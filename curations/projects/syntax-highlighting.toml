@@ -1,0 +1,20 @@
+id = 'syntax-highlighting'
+name = 'syntax-highlighting'
+
+homepage = 'https://invent.kde.org/frameworks/syntax-highlighting'
+
+[[package]]
+channel = 'debian'
+name = 'libkf5syntaxhighlighting-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6syntaxhighlighting-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-syntax-highlighting'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-syntax-highlighting'

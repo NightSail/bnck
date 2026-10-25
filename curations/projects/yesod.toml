@@ -1,0 +1,8 @@
+id = 'yesod'
+name = 'yesod'
+
+homepage = 'https://www.yesodweb.com'
+
+[[package]]
+channel = 'debian'
+name = 'yesod'

@@ -1,0 +1,8 @@
+id = 'perl-www-splunk'
+name = 'perl-WWW-Splunk'
+
+homepage = 'https://metacpan.org/release/WWW-Splunk'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-WWW-Splunk'

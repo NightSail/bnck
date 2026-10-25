@@ -1,0 +1,8 @@
+id = 'style-dictionary'
+name = 'style-dictionary'
+
+homepage = 'https://styledictionary.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/style-dictionary'

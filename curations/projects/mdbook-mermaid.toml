@@ -1,0 +1,8 @@
+id = 'mdbook-mermaid'
+name = 'mdbook-mermaid'
+
+homepage = 'https://github.com/badboy/mdbook-mermaid'
+
+[[package]]
+channel = 'arch'
+name = 'mdbook-mermaid'

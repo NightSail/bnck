@@ -1,0 +1,12 @@
+id = 'xml-handler-yawriter'
+name = 'XML-Handler-YAWriter'
+
+homepage = 'https://metacpan.org/release/XML-Handler-YAWriter'
+
+[[package]]
+channel = 'debian'
+name = 'libxml-handler-yawriter-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-XML-Handler-YAWriter'

@@ -1,0 +1,20 @@
+id = 'sofia-sip'
+name = 'sofia-sip'
+
+homepage = 'https://sofia-sip.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'sofia-sip'
+
+[[package]]
+channel = 'debian'
+name = 'sofia-sip-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'sofia-sip-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sofia-sip'

@@ -1,0 +1,8 @@
+id = 'jack-tools'
+name = 'jack-tools'
+
+homepage = 'http://slavepianos.org/rd'
+
+[[package]]
+channel = 'debian'
+name = 'jack-tools'

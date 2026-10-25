@@ -1,0 +1,12 @@
+id = 'digest-sha3'
+name = 'Digest-SHA3'
+
+homepage = 'https://metacpan.org/release/Digest-SHA3'
+
+[[package]]
+channel = 'debian'
+name = 'libdigest-sha3-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'sha3sum'

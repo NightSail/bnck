@@ -1,0 +1,12 @@
+id = 'gprename'
+name = 'gprename'
+
+homepage = 'https://gprename.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gprename'
+
+[[package]]
+channel = 'debian'
+name = 'gprename'

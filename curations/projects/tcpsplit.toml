@@ -1,0 +1,8 @@
+id = 'tcpsplit'
+name = 'tcpsplit'
+
+homepage = 'https://www.icir.org/mallman/software/tcpsplit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcpsplit'

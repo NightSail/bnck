@@ -1,0 +1,8 @@
+id = 'ruby-cucumber-gherkin'
+name = 'ruby-cucumber-gherkin'
+
+homepage = 'https://github.com/cucumber/gherkin/blob/main/ruby'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-cucumber-gherkin'

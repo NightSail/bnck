@@ -1,0 +1,12 @@
+id = 'maildrop'
+name = 'maildrop'
+
+homepage = 'http://www.courier-mta.org/maildrop'
+
+[[package]]
+channel = 'debian'
+name = 'maildrop'
+
+[[package]]
+channel = 'fedora'
+name = 'maildrop'

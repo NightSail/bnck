@@ -1,0 +1,9 @@
+id = 'ffmate'
+name = 'ffmate'
+
+homepage = 'https://docs.ffmate.io'
+repository = 'https://github.com/welovemedia/ffmate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmate'

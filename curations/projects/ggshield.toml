@@ -1,0 +1,9 @@
+id = 'ggshield'
+name = 'ggshield'
+
+homepage = 'https://www.gitguardian.com'
+repository = 'https://github.com/GitGuardian/ggshield.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ggshield'

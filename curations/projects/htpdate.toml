@@ -1,0 +1,8 @@
+id = 'htpdate'
+name = 'htpdate'
+
+homepage = 'https://github.com/twekkel/htpdate'
+
+[[package]]
+channel = 'debian'
+name = 'htpdate'

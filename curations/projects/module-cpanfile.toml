@@ -1,0 +1,12 @@
+id = 'module-cpanfile'
+name = 'Module-CPANfile'
+
+homepage = 'https://metacpan.org/release/Module-CPANfile'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-cpanfile-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-CPANfile'

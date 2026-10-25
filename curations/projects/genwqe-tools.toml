@@ -1,0 +1,8 @@
+id = 'genwqe-tools'
+name = 'genwqe-tools'
+
+homepage = 'https://github.com/ibm-genwqe/genwqe-user'
+
+[[package]]
+channel = 'debian'
+name = 'genwqe-tools'

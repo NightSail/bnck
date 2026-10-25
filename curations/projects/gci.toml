@@ -1,0 +1,8 @@
+id = 'gci'
+name = 'gci'
+
+repository = 'https://github.com/daixiang0/gci.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gci'

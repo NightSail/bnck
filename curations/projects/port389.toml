@@ -1,0 +1,20 @@
+id = 'port389'
+name = 'port389'
+
+homepage = 'http://port389.org'
+
+[[package]]
+channel = 'arch'
+name = '389-ds-base'
+
+[[package]]
+channel = 'fedora'
+name = '389-ds-base'
+
+[[package]]
+channel = 'fedora'
+name = '389-ds-base-snmp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-lib389'

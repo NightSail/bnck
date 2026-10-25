@@ -1,0 +1,12 @@
+id = 'mediasdk'
+name = 'mediasdk'
+
+homepage = 'https://github.com/Intel-Media-SDK/MediaSDK'
+
+[[package]]
+channel = 'arch'
+name = 'intel-media-sdk'
+
+[[package]]
+channel = 'fedora'
+name = 'intel-mediasdk-tracer'

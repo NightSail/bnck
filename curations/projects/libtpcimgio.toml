@@ -1,0 +1,8 @@
+id = 'libtpcimgio'
+name = 'libtpcimgio'
+
+homepage = 'http://www.turkupetcentre.net/software/libdoc/libtpcimgio/index.html'
+
+[[package]]
+channel = 'fedora'
+name = 'libtpcimgio'

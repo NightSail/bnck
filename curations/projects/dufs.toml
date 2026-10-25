@@ -1,0 +1,8 @@
+id = 'dufs'
+name = 'dufs'
+
+homepage = 'https://github.com/sigoden/dufs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dufs'

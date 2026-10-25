@@ -1,0 +1,8 @@
+id = 'borg'
+name = 'borg'
+
+homepage = 'https://borgbackup.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'borg'

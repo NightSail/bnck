@@ -1,0 +1,8 @@
+id = 'ldeep'
+name = 'ldeep'
+
+repository = 'https://github.com/franc-pentest/ldeep.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ldeep'

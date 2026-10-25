@@ -1,0 +1,9 @@
+id = 'isort-pycqa'
+name = 'isort'
+
+homepage = 'https://pycqa.github.io/isort'
+repository = 'https://github.com/PyCQA/isort.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/isort'

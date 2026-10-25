@@ -1,0 +1,8 @@
+id = 'cloudpan189-go'
+name = 'cloudpan189-go'
+
+repository = 'https://github.com/tickstep/cloudpan189-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudpan189-go'

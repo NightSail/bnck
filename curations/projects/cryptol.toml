@@ -1,0 +1,13 @@
+id = 'cryptol'
+name = 'cryptol'
+
+homepage = 'https://tools.galois.com/cryptol'
+repository = 'https://github.com/GaloisInc/cryptol.git'
+
+[[package]]
+channel = 'arch'
+name = 'cryptol'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cryptol'

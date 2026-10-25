@@ -1,0 +1,16 @@
+id = 'drgn'
+name = 'drgn'
+
+homepage = 'https://github.com/osandov/drgn'
+
+[[package]]
+channel = 'arch'
+name = 'drgn'
+
+[[package]]
+channel = 'debian'
+name = 'python3-drgn'
+
+[[package]]
+channel = 'fedora'
+name = 'drgn'

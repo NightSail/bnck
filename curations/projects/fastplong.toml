@@ -1,0 +1,8 @@
+id = 'fastplong'
+name = 'fastplong'
+
+repository = 'https://github.com/OpenGene/fastplong.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fastplong'

@@ -1,0 +1,8 @@
+id = 'tetex-dvipost'
+name = 'tetex-dvipost'
+
+homepage = 'http://efeu.cybertec.at'
+
+[[package]]
+channel = 'fedora'
+name = 'tetex-dvipost'

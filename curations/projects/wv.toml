@@ -1,0 +1,16 @@
+id = 'wv'
+name = 'wv'
+
+homepage = 'https://github.com/AbiWord/wv'
+
+[[package]]
+channel = 'arch'
+name = 'wv'
+
+[[package]]
+channel = 'debian'
+name = 'wv'
+
+[[package]]
+channel = 'fedora'
+name = 'wv'

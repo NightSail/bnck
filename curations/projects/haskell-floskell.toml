@@ -1,0 +1,8 @@
+id = 'haskell-floskell'
+name = 'haskell-floskell'
+
+homepage = 'https://github.com/ennocramer/floskell'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-floskell'

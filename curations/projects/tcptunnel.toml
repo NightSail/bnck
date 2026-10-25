@@ -1,0 +1,8 @@
+id = 'tcptunnel'
+name = 'tcptunnel'
+
+homepage = 'https://vakuumverpackt.de/tcptunnel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcptunnel'

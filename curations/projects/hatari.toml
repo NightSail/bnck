@@ -1,0 +1,13 @@
+id = 'hatari'
+name = 'hatari'
+
+homepage = 'http://www.hatari-emu.org'
+repository = 'https://framagit.org/hatari/hatari.git'
+
+[[package]]
+channel = 'debian'
+name = 'hatari'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hatari'

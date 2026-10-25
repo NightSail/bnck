@@ -10,3 +10,7 @@ name = 'tracexec'
 [[package]]
 channel = 'crates.io'
 name = 'tracexec'
+
+[[package]]
+channel = 'crates.io'
+name = 'tracexec-backend-ebpf'

@@ -10,3 +10,7 @@ name = 'drawing'
 [[package]]
 channel = 'debian'
 name = 'drawing'
+
+[[package]]
+channel = 'fedora'
+name = 'drawing'

@@ -1,0 +1,8 @@
+id = 'tpm2-initramfs-tool'
+name = 'tpm2-initramfs-tool'
+
+homepage = 'https://github.com/timchen119/tpm2-initramfs-tool'
+
+[[package]]
+channel = 'debian'
+name = 'tpm2-initramfs-tool'

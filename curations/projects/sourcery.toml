@@ -1,0 +1,8 @@
+id = 'sourcery'
+name = 'sourcery'
+
+repository = 'https://github.com/krzysztofzablocki/Sourcery.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sourcery'

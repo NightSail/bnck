@@ -1,0 +1,6 @@
+id = 'policy-rcd-declarative'
+name = 'policy-rcd-declarative'
+
+[[package]]
+channel = 'debian'
+name = 'policy-rcd-declarative'

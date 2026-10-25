@@ -1,0 +1,12 @@
+id = 'ofono'
+name = 'ofono'
+
+homepage = 'https://git.kernel.org/pub/scm/network/ofono/ofono.git'
+
+[[package]]
+channel = 'debian'
+name = 'ofono'
+
+[[package]]
+channel = 'fedora'
+name = 'ofono'

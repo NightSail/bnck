@@ -1,0 +1,8 @@
+id = 'kanzi'
+name = 'kanzi'
+
+homepage = 'https://github.com/flanglet/kanzi-cpp'
+
+[[package]]
+channel = 'debian'
+name = 'kanzi'

@@ -1,0 +1,8 @@
+id = 'python3-pysyncobj'
+name = 'python3-pysyncobj'
+
+homepage = 'https://github.com/bakwc/PySyncObj'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysyncobj'

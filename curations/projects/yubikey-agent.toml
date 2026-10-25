@@ -1,0 +1,12 @@
+id = 'yubikey-agent'
+name = 'yubikey-agent'
+
+repository = 'https://github.com/FiloSottile/yubikey-agent.git'
+
+[[package]]
+channel = 'debian'
+name = 'yubikey-agent'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yubikey-agent'

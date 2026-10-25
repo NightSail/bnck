@@ -1,0 +1,13 @@
+id = 'oci-cli'
+name = 'oci-cli'
+
+homepage = 'https://docs.cloud.oracle.com/iaas/Content/API/Concepts/cliconcepts.htm'
+repository = 'https://github.com/oracle/oci-cli.git'
+
+[[package]]
+channel = 'fedora'
+name = 'oci-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oci-cli'

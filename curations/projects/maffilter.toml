@@ -1,0 +1,8 @@
+id = 'maffilter'
+name = 'maffilter'
+
+homepage = 'https://jydu.github.io/maffilter'
+
+[[package]]
+channel = 'debian'
+name = 'maffilter'

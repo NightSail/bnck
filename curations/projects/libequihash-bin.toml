@@ -1,0 +1,8 @@
+id = 'libequihash-bin'
+name = 'libequihash-bin'
+
+homepage = 'https://github.com/stef/equihash'
+
+[[package]]
+channel = 'debian'
+name = 'libequihash-bin'

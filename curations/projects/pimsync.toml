@@ -1,0 +1,8 @@
+id = 'pimsync'
+name = 'pimsync'
+
+homepage = 'https://pimsync.whynothugo.nl'
+
+[[package]]
+channel = 'arch'
+name = 'pimsync'

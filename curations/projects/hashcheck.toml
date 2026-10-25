@@ -1,0 +1,8 @@
+id = 'hashcheck'
+name = 'hashcheck'
+
+homepage = 'https://gitlab.com/paddatrapper/hashcheck'
+
+[[package]]
+channel = 'debian'
+name = 'hashcheck'

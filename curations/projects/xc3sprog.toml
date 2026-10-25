@@ -1,0 +1,8 @@
+id = 'xc3sprog'
+name = 'xc3sprog'
+
+homepage = 'http://xc3sprog.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xc3sprog'

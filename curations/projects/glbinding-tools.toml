@@ -1,0 +1,8 @@
+id = 'glbinding-tools'
+name = 'glbinding-tools'
+
+homepage = 'https://github.com/cginternals/glbinding'
+
+[[package]]
+channel = 'debian'
+name = 'glbinding-tools'

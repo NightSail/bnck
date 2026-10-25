@@ -1,0 +1,16 @@
+id = 'ktimer'
+name = 'ktimer'
+
+homepage = 'https://apps.kde.org/ktimer'
+
+[[package]]
+channel = 'arch'
+name = 'ktimer'
+
+[[package]]
+channel = 'debian'
+name = 'ktimer'
+
+[[package]]
+channel = 'fedora'
+name = 'ktimer'

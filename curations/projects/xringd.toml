@@ -1,0 +1,6 @@
+id = 'xringd'
+name = 'xringd'
+
+[[package]]
+channel = 'debian'
+name = 'xringd'

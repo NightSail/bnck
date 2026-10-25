@@ -1,0 +1,16 @@
+id = 'xfce4-places-plugin'
+name = 'xfce4-places-plugin'
+
+homepage = 'https://docs.xfce.org/panel-plugins/xfce4-places-plugin/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-places-plugin'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-places-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-places-plugin'

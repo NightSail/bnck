@@ -1,0 +1,8 @@
+id = 'golang-github-projectdiscovery-mapcidr'
+name = 'golang-github-projectdiscovery-mapcidr'
+
+homepage = 'https://github.com/projectdiscovery/mapcidr'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-projectdiscovery-mapcidr'

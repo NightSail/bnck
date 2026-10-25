@@ -1,0 +1,8 @@
+id = 'doomretro'
+name = 'doomretro'
+
+homepage = 'http://doomretro.com'
+
+[[package]]
+channel = 'arch'
+name = 'doomretro'

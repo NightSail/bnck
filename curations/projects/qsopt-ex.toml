@@ -1,0 +1,16 @@
+id = 'qsopt-ex'
+name = 'qsopt-ex'
+
+homepage = 'https://github.com/jonls/qsopt-ex'
+
+[[package]]
+channel = 'arch'
+name = 'qsopt-ex'
+
+[[package]]
+channel = 'debian'
+name = 'qsopt-ex'
+
+[[package]]
+channel = 'fedora'
+name = 'qsopt-ex'

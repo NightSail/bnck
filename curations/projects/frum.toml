@@ -1,0 +1,8 @@
+id = 'frum'
+name = 'frum'
+
+repository = 'https://github.com/TaKO8Ki/frum.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/frum'

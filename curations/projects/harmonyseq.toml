@@ -1,0 +1,8 @@
+id = 'harmonyseq'
+name = 'harmonyseq'
+
+homepage = 'https://harmonyseq.wordpress.com'
+
+[[package]]
+channel = 'fedora'
+name = 'harmonyseq'

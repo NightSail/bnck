@@ -1,0 +1,9 @@
+id = 'git-vendor'
+name = 'git-vendor'
+
+homepage = 'https://brettlangdon.github.io/git-vendor'
+repository = 'https://github.com/brettlangdon/git-vendor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-vendor'

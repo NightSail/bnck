@@ -1,0 +1,16 @@
+id = 'davfs2'
+name = 'davfs2'
+
+homepage = 'https://github.com/alisarctl/davfs2'
+
+[[package]]
+channel = 'arch'
+name = 'davfs2'
+
+[[package]]
+channel = 'debian'
+name = 'davfs2'
+
+[[package]]
+channel = 'fedora'
+name = 'davfs2'

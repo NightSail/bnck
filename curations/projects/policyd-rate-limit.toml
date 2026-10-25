@@ -1,0 +1,6 @@
+id = 'policyd-rate-limit'
+name = 'policyd-rate-limit'
+
+[[package]]
+channel = 'debian'
+name = 'policyd-rate-limit'

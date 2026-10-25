@@ -1,0 +1,8 @@
+id = 'fuzzylite'
+name = 'fuzzylite'
+
+homepage = 'https://www.fuzzylite.com/cpp'
+
+[[package]]
+channel = 'debian'
+name = 'fuzzylite'

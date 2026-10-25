@@ -1,0 +1,6 @@
+id = 'chiark-tcl-applet'
+name = 'chiark-tcl-applet'
+
+[[package]]
+channel = 'debian'
+name = 'chiark-tcl-applet'

@@ -1,0 +1,6 @@
+id = 'choosewm'
+name = 'choosewm'
+
+[[package]]
+channel = 'debian'
+name = 'choosewm'

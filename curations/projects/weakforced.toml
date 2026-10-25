@@ -1,0 +1,16 @@
+id = 'weakforced'
+name = 'weakforced'
+
+homepage = 'https://github.com/PowerDNS/weakforced'
+
+[[package]]
+channel = 'debian'
+name = 'weakforced'
+
+[[package]]
+channel = 'debian'
+name = 'weakforced-replfwd'
+
+[[package]]
+channel = 'debian'
+name = 'weakforced-trackalert'

@@ -1,0 +1,8 @@
+id = 'leakcanary-shark'
+name = 'leakcanary-shark'
+
+homepage = 'https://square.github.io/leakcanary/shark'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leakcanary-shark'

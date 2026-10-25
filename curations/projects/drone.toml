@@ -1,0 +1,12 @@
+id = 'drone'
+name = 'drone'
+
+homepage = 'https://drone.io'
+
+[[package]]
+channel = 'arch'
+name = 'drone'
+
+[[package]]
+channel = 'arch'
+name = 'drone-oss'

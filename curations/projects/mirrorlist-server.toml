@@ -1,0 +1,8 @@
+id = 'mirrorlist-server'
+name = 'mirrorlist-server'
+
+homepage = 'https://github.com/adrianreber/mirrorlist-server'
+
+[[package]]
+channel = 'fedora'
+name = 'mirrorlist-server'

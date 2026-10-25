@@ -1,0 +1,8 @@
+id = 'freight'
+name = 'freight'
+
+homepage = 'https://github.com/freight-team/freight'
+
+[[package]]
+channel = 'fedora'
+name = 'freight'

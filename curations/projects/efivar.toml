@@ -1,0 +1,16 @@
+id = 'efivar'
+name = 'efivar'
+
+homepage = 'https://github.com/rhboot/efivar'
+
+[[package]]
+channel = 'arch'
+name = 'efivar'
+
+[[package]]
+channel = 'debian'
+name = 'efivar'
+
+[[package]]
+channel = 'fedora'
+name = 'efivar'

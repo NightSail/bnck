@@ -1,0 +1,13 @@
+id = 'dbx-cli'
+name = 'dbx-cli'
+
+homepage = 'https://dbxio.com'
+repository = 'https://github.com/dropbox/dbxcli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbx-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dbxcli'

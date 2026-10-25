@@ -1,0 +1,8 @@
+id = 'node-smash'
+name = 'node-smash'
+
+homepage = 'https://github.com/mbostock/smash'
+
+[[package]]
+channel = 'debian'
+name = 'node-smash'

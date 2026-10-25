@@ -1,0 +1,8 @@
+id = 'threemux'
+name = 'threemux'
+
+repository = 'https://github.com/aaronjanse/3mux.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/threemux'

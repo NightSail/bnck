@@ -1,0 +1,9 @@
+id = 'goproxy'
+name = 'goproxy'
+
+homepage = 'https://goproxy.io'
+repository = 'https://github.com/goproxyio/goproxy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goproxy'

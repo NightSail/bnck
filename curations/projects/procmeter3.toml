@@ -1,0 +1,8 @@
+id = 'procmeter3'
+name = 'procmeter3'
+
+homepage = 'https://www.gedanken.org.uk/software/procmeter3'
+
+[[package]]
+channel = 'debian'
+name = 'procmeter3'

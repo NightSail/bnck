@@ -1,0 +1,8 @@
+id = 'eyedropper'
+name = 'eyedropper'
+
+homepage = 'https://apps.gnome.org/Eyedropper'
+
+[[package]]
+channel = 'arch'
+name = 'eyedropper'

@@ -1,0 +1,8 @@
+id = 'awsdac'
+name = 'awsdac'
+
+repository = 'https://github.com/awslabs/diagram-as-code.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awsdac'

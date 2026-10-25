@@ -1,0 +1,8 @@
+id = 'lsgpus'
+name = 'lsgpus'
+
+homepage = 'https://github.com/AGuyMarc/lsgpu'
+
+[[package]]
+channel = 'debian'
+name = 'lsgpus'

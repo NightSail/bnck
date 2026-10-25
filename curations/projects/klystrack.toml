@@ -1,0 +1,8 @@
+id = 'klystrack'
+name = 'klystrack'
+
+homepage = 'https://github.com/kometbomb/klystrack'
+
+[[package]]
+channel = 'debian'
+name = 'klystrack'

@@ -1,0 +1,17 @@
+id = 'xmrig'
+name = 'xmrig'
+
+homepage = 'https://xmrig.com'
+repository = 'https://github.com/xmrig/xmrig.git'
+
+[[package]]
+channel = 'arch'
+name = 'xmrig'
+
+[[package]]
+channel = 'debian'
+name = 'xmrig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xmrig'

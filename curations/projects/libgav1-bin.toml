@@ -1,0 +1,8 @@
+id = 'libgav1-bin'
+name = 'libgav1-bin'
+
+homepage = 'https://chromium.googlesource.com/codecs/libgav1'
+
+[[package]]
+channel = 'debian'
+name = 'libgav1-bin'

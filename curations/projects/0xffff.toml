@@ -1,0 +1,12 @@
+id = '0xffff'
+name = '0xffff'
+
+homepage = 'https://github.com/pali/0xFFFF'
+
+[[package]]
+channel = 'debian'
+name = '0xffff'
+
+[[package]]
+channel = 'fedora'
+name = '0xFFFF'

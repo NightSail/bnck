@@ -1,0 +1,8 @@
+id = 'go-multihash'
+name = 'go-multihash'
+
+homepage = 'https://github.com/multiformats/go-multihash'
+
+[[package]]
+channel = 'debian'
+name = 'go-multihash'

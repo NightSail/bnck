@@ -1,0 +1,8 @@
+id = 'pigment64'
+name = 'pigment64'
+
+homepage = 'https://github.com/decompals/pigment64'
+
+[[package]]
+channel = 'arch'
+name = 'pigment64'

@@ -1,0 +1,16 @@
+id = 'xpilot'
+name = 'xpilot'
+
+homepage = 'http://xpilot.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'xpilot-ng'
+
+[[package]]
+channel = 'fedora'
+name = 'xpilot-ng-server'
+
+[[package]]
+channel = 'fedora'
+name = 'xpilot-ng-x11'

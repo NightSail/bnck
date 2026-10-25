@@ -1,0 +1,13 @@
+id = 'bagel'
+name = 'bagel'
+
+homepage = 'http://www.nubakery.org'
+repository = 'https://github.com/boostsecurityio/bagel.git'
+
+[[package]]
+channel = 'debian'
+name = 'bagel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bagel'

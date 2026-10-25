@@ -1,0 +1,8 @@
+id = 'python-mako'
+name = 'python-mako'
+
+homepage = 'https://github.com/sqlalchemy/mako'
+
+[[package]]
+channel = 'arch'
+name = 'python-mako'

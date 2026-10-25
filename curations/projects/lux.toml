@@ -1,0 +1,8 @@
+id = 'lux'
+name = 'lux'
+
+repository = 'https://github.com/iawia002/lux.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lux'

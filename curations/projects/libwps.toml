@@ -1,0 +1,20 @@
+id = 'libwps'
+name = 'libwps'
+
+homepage = 'http://libwps.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libwps'
+
+[[package]]
+channel = 'debian'
+name = 'libwps-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libwps-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libwps'

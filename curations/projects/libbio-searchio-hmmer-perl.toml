@@ -1,0 +1,8 @@
+id = 'libbio-searchio-hmmer-perl'
+name = 'libbio-searchio-hmmer-perl'
+
+homepage = 'https://metacpan.org/release/Bio-SearchIO-hmmer'
+
+[[package]]
+channel = 'debian'
+name = 'libbio-searchio-hmmer-perl'

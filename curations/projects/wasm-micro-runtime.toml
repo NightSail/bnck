@@ -1,0 +1,8 @@
+id = 'wasm-micro-runtime'
+name = 'wasm-micro-runtime'
+
+repository = 'https://github.com/bytecodealliance/wasm-micro-runtime.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasm-micro-runtime'

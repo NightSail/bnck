@@ -1,0 +1,16 @@
+id = 'mmv'
+name = 'mmv'
+
+homepage = 'https://github.com/rrthomas/mmv'
+
+[[package]]
+channel = 'debian'
+name = 'mmv'
+
+[[package]]
+channel = 'fedora'
+name = 'mmv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mmv'

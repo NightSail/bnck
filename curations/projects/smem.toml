@@ -1,0 +1,16 @@
+id = 'smem'
+name = 'smem'
+
+homepage = 'https://www.selenic.com/smem'
+
+[[package]]
+channel = 'debian'
+name = 'smem'
+
+[[package]]
+channel = 'debian'
+name = 'smemcap'
+
+[[package]]
+channel = 'fedora'
+name = 'smem'

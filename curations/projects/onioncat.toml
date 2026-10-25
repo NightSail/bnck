@@ -1,0 +1,8 @@
+id = 'onioncat'
+name = 'onioncat'
+
+repository = 'https://github.com/rahra/onioncat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/onioncat'

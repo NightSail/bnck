@@ -1,0 +1,12 @@
+id = 'file-find-rule'
+name = 'File-Find-Rule'
+
+homepage = 'https://metacpan.org/release/File-Find-Rule'
+
+[[package]]
+channel = 'debian'
+name = 'libfile-find-rule-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-File-Find-Rule'

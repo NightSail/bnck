@@ -1,0 +1,8 @@
+id = 'modplug-tools'
+name = 'modplug-tools'
+
+homepage = 'http://modplug-xmms.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'modplug-tools'

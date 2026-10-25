@@ -1,0 +1,24 @@
+id = 'mkosi'
+name = 'mkosi'
+
+homepage = 'https://github.com/systemd/mkosi'
+
+[[package]]
+channel = 'arch'
+name = 'mkosi'
+
+[[package]]
+channel = 'debian'
+name = 'mkosi'
+
+[[package]]
+channel = 'fedora'
+name = 'mkosi'
+
+[[package]]
+channel = 'fedora'
+name = 'mkosi-addon'
+
+[[package]]
+channel = 'fedora'
+name = 'mkosi-initrd'

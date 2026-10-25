@@ -1,0 +1,8 @@
+id = 'hershey-font-gnuplot'
+name = 'hershey-font-gnuplot'
+
+homepage = 'http://www.whence.com/hershey-fonts'
+
+[[package]]
+channel = 'debian'
+name = 'hershey-font-gnuplot'

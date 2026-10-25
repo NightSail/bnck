@@ -1,0 +1,12 @@
+id = 'peony'
+name = 'peony'
+
+homepage = 'https://gitee.com/openkylin/peony'
+
+[[package]]
+channel = 'debian'
+name = 'peony'
+
+[[package]]
+channel = 'debian'
+name = 'peony-utils'

@@ -1,0 +1,12 @@
+id = 'netkit-ftp-linux-org-uk'
+name = 'netkit'
+
+homepage = 'ftp://ftp.linux.org.uk/pub/linux/Networking/netkit'
+
+[[package]]
+channel = 'fedora'
+name = 'rwall'
+
+[[package]]
+channel = 'fedora'
+name = 'rwall-server'

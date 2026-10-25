@@ -1,0 +1,8 @@
+id = 'sfwbar'
+name = 'sfwbar'
+
+homepage = 'https://github.com/LBCrion/sfwbar'
+
+[[package]]
+channel = 'fedora'
+name = 'sfwbar'

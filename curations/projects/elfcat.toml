@@ -1,0 +1,8 @@
+id = 'elfcat'
+name = 'elfcat'
+
+homepage = 'https://crates.io/crates/elfcat'
+
+[[package]]
+channel = 'fedora'
+name = 'elfcat'

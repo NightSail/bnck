@@ -1,0 +1,9 @@
+id = 'ghcup'
+name = 'ghcup'
+
+homepage = 'https://www.haskell.org/ghcup'
+repository = 'https://github.com/haskell/ghcup-hs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghcup'

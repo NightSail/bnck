@@ -1,0 +1,8 @@
+id = 'powershell'
+name = 'powershell'
+
+repository = 'https://github.com/PowerShell/PowerShell.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/powershell'

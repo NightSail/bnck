@@ -1,0 +1,9 @@
+id = 'freeradius-server'
+name = 'freeradius-server'
+
+homepage = 'https://freeradius.org'
+repository = 'https://github.com/FreeRADIUS/freeradius-server.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freeradius-server'

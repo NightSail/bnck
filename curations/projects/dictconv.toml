@@ -1,0 +1,8 @@
+id = 'dictconv'
+name = 'dictconv'
+
+homepage = 'http://ktranslator.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dictconv'

@@ -1,0 +1,12 @@
+id = 'dvdisaster'
+name = 'dvdisaster'
+
+homepage = 'https://dvdisaster.jcea.es'
+
+[[package]]
+channel = 'debian'
+name = 'dvdisaster'
+
+[[package]]
+channel = 'fedora'
+name = 'dvdisaster'

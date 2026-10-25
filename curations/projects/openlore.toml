@@ -1,0 +1,8 @@
+id = 'openlore'
+name = 'openlore'
+
+homepage = 'https://github.com/clay-good/OpenLore'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openlore'

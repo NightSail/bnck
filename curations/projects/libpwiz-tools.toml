@@ -1,0 +1,8 @@
+id = 'libpwiz-tools'
+name = 'libpwiz-tools'
+
+homepage = 'http://proteowizard.sourceforge.net/downloads.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'libpwiz-tools'

@@ -1,0 +1,8 @@
+id = 'lomiri-addressbook-app'
+name = 'lomiri-addressbook-app'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-addressbook-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-addressbook-app'

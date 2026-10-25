@@ -1,0 +1,16 @@
+id = 'latex-mk'
+name = 'latex-mk'
+
+homepage = 'http://latex-mk.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'latex-mk'
+
+[[package]]
+channel = 'debian'
+name = 'latexmk'
+
+[[package]]
+channel = 'fedora'
+name = 'latexmk'

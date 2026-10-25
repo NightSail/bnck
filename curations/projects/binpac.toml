@@ -1,0 +1,8 @@
+id = 'binpac'
+name = 'binpac'
+
+homepage = 'http://www.bro.org'
+
+[[package]]
+channel = 'debian'
+name = 'binpac'

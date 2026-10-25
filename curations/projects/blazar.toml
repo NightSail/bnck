@@ -1,0 +1,16 @@
+id = 'blazar'
+name = 'blazar'
+
+homepage = 'https://github.com/openstack/blazar'
+
+[[package]]
+channel = 'debian'
+name = 'blazar-api'
+
+[[package]]
+channel = 'debian'
+name = 'blazar-common'
+
+[[package]]
+channel = 'debian'
+name = 'blazar-manager'

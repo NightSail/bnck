@@ -1,0 +1,8 @@
+id = 'tofi'
+name = 'tofi'
+
+homepage = 'https://github.com/philj56/tofi'
+
+[[package]]
+channel = 'debian'
+name = 'tofi'

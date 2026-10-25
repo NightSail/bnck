@@ -1,0 +1,8 @@
+id = 'ppp-gatekeeper'
+name = 'ppp-gatekeeper'
+
+homepage = 'http://gitlab.devlabs.linuxassist.net/ppp-gatekeeper/ppp-gatekeeper'
+
+[[package]]
+channel = 'debian'
+name = 'ppp-gatekeeper'

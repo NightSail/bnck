@@ -1,0 +1,8 @@
+id = 'mceliece'
+name = 'mceliece'
+
+homepage = 'https://lib.mceliece.org'
+
+[[package]]
+channel = 'debian'
+name = 'mceliece'

@@ -1,0 +1,12 @@
+id = 'solidity'
+name = 'solidity'
+
+homepage = 'https://soliditylang.org'
+
+[[package]]
+channel = 'fedora'
+name = 'solidity'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solidity'

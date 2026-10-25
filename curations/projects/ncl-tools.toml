@@ -1,0 +1,8 @@
+id = 'ncl-tools'
+name = 'ncl-tools'
+
+homepage = 'https://github.com/mtholder/ncl'
+
+[[package]]
+channel = 'debian'
+name = 'ncl-tools'

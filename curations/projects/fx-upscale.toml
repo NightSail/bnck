@@ -1,0 +1,8 @@
+id = 'fx-upscale'
+name = 'fx-upscale'
+
+homepage = 'https://github.com/finnvoor/fx-upscale'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fx-upscale'

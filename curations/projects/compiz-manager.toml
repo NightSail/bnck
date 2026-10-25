@@ -1,0 +1,8 @@
+id = 'compiz-manager'
+name = 'compiz-manager'
+
+homepage = 'https://github.com/raveit65/compiz-manager'
+
+[[package]]
+channel = 'fedora'
+name = 'compiz-manager'

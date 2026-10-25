@@ -1,0 +1,8 @@
+id = 'mcp-server-kubernetes'
+name = 'mcp-server-kubernetes'
+
+homepage = 'https://github.com/Flux159/mcp-server-kubernetes'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-server-kubernetes'

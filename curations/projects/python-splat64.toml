@@ -1,0 +1,8 @@
+id = 'python-splat64'
+name = 'python-splat64'
+
+homepage = 'https://github.com/ethteck/splat'
+
+[[package]]
+channel = 'arch'
+name = 'python-splat64'

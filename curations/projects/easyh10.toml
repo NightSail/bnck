@@ -1,0 +1,8 @@
+id = 'easyh10'
+name = 'easyh10'
+
+homepage = 'https://easyh10.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'easyh10'

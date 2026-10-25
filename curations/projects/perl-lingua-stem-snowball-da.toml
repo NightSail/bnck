@@ -1,0 +1,8 @@
+id = 'perl-lingua-stem-snowball-da'
+name = 'perl-Lingua-Stem-Snowball-Da'
+
+homepage = 'https://metacpan.org/release/Lingua-Stem-Snowball-Da'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Lingua-Stem-Snowball-Da'

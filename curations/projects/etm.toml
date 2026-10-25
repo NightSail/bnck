@@ -1,0 +1,8 @@
+id = 'etm'
+name = 'etm'
+
+homepage = 'https://people.duke.edu/~dgraham/etmtk'
+
+[[package]]
+channel = 'debian'
+name = 'etm'

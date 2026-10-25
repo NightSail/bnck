@@ -1,0 +1,8 @@
+id = 'python3-dbusdeviation'
+name = 'python3-dbusdeviation'
+
+homepage = 'https://tecnocode.co.uk/dbus-deviation'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dbusdeviation'

@@ -1,0 +1,16 @@
+id = 'wlopm'
+name = 'wlopm'
+
+homepage = 'https://sr.ht/~leon_plickat/wlopm'
+
+[[package]]
+channel = 'arch'
+name = 'wlopm'
+
+[[package]]
+channel = 'debian'
+name = 'wlopm'
+
+[[package]]
+channel = 'fedora'
+name = 'wlopm'

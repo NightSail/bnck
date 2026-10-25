@@ -1,0 +1,8 @@
+id = 'python3-imagecodecs'
+name = 'python3-imagecodecs'
+
+homepage = 'https://pypi.org/project/imagecodecs'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-imagecodecs'

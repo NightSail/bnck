@@ -1,0 +1,8 @@
+id = 'r-rig'
+name = 'r-rig'
+
+homepage = 'https://github.com/r-lib/rig'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/r-rig'

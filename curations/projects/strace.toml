@@ -1,0 +1,21 @@
+id = 'strace'
+name = 'strace'
+
+homepage = 'https://strace.io'
+repository = 'https://github.com/strace/strace.git'
+
+[[package]]
+channel = 'arch'
+name = 'strace'
+
+[[package]]
+channel = 'debian'
+name = 'strace'
+
+[[package]]
+channel = 'fedora'
+name = 'strace'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/strace'

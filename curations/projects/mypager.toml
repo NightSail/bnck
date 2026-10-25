@@ -1,0 +1,8 @@
+id = 'mypager'
+name = 'mypager'
+
+homepage = 'https://romuald.github.io/mypager'
+
+[[package]]
+channel = 'debian'
+name = 'mypager'

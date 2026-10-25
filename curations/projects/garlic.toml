@@ -1,0 +1,8 @@
+id = 'garlic'
+name = 'garlic'
+
+homepage = 'http://www.zucic.org/garlic'
+
+[[package]]
+channel = 'debian'
+name = 'garlic'

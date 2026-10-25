@@ -1,0 +1,12 @@
+id = 'coinor-ipopt'
+name = 'coinor-ipopt'
+
+homepage = 'https://github.com/coin-or/Ipopt'
+
+[[package]]
+channel = 'debian'
+name = 'coinor-ipopt'
+
+[[package]]
+channel = 'fedora'
+name = 'coin-or-Ipopt'

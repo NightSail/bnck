@@ -1,0 +1,8 @@
+id = 'prt'
+name = 'prt'
+
+homepage = 'https://metacpan.org/release/App-PRT'
+
+[[package]]
+channel = 'debian'
+name = 'prt'

@@ -1,0 +1,8 @@
+id = 'liblas'
+name = 'liblas'
+
+homepage = 'https://liblas.org'
+
+[[package]]
+channel = 'arch'
+name = 'liblas'

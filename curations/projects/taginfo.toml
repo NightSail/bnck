@@ -1,0 +1,8 @@
+id = 'taginfo'
+name = 'taginfo'
+
+homepage = 'http://grecni.com/software/taginfo'
+
+[[package]]
+channel = 'fedora'
+name = 'taginfo'

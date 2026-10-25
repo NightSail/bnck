@@ -1,0 +1,8 @@
+id = 'felix-rs'
+name = 'felix-rs'
+
+homepage = 'https://github.com/kyoheiu/felix'
+
+[[package]]
+channel = 'arch'
+name = 'felix-rs'

@@ -1,0 +1,12 @@
+id = 'tsocks'
+name = 'tsocks'
+
+homepage = 'http://tsocks.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'tsocks'
+
+[[package]]
+channel = 'debian'
+name = 'tsocks'

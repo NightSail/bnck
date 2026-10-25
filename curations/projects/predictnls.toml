@@ -1,0 +1,8 @@
+id = 'predictnls'
+name = 'predictnls'
+
+homepage = 'https://rostlab.org/services/predictNLS'
+
+[[package]]
+channel = 'debian'
+name = 'predictnls'

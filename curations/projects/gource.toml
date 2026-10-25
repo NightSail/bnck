@@ -1,0 +1,21 @@
+id = 'gource'
+name = 'gource'
+
+homepage = 'https://gource.io'
+repository = 'https://github.com/acaudwell/Gource.git'
+
+[[package]]
+channel = 'arch'
+name = 'gource'
+
+[[package]]
+channel = 'debian'
+name = 'gource'
+
+[[package]]
+channel = 'fedora'
+name = 'gource'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gource'

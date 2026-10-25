@@ -1,0 +1,24 @@
+id = 'nyancat'
+name = 'nyancat'
+
+homepage = 'https://nyancat.dakko.us'
+
+[[package]]
+channel = 'arch'
+name = 'nyancat'
+
+[[package]]
+channel = 'debian'
+name = 'nyancat'
+
+[[package]]
+channel = 'debian'
+name = 'nyancat-server'
+
+[[package]]
+channel = 'fedora'
+name = 'nyancat'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nyancat'

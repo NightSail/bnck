@@ -1,0 +1,28 @@
+id = 'swtpm'
+name = 'swtpm'
+
+homepage = 'https://github.com/stefanberger/swtpm'
+
+[[package]]
+channel = 'arch'
+name = 'swtpm'
+
+[[package]]
+channel = 'debian'
+name = 'swtpm'
+
+[[package]]
+channel = 'debian'
+name = 'swtpm-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'swtpm'
+
+[[package]]
+channel = 'fedora'
+name = 'swtpm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/swtpm'

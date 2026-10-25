@@ -1,0 +1,12 @@
+id = 'golang'
+name = 'golang'
+
+homepage = 'https://golang.org'
+
+[[package]]
+channel = 'arch'
+name = 'go-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-go'

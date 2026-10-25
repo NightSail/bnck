@@ -1,0 +1,9 @@
+id = 'vtk-vtk'
+name = 'vtk'
+
+homepage = 'https://www.vtk.org'
+repository = 'https://gitlab.kitware.com/vtk/vtk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vtk'

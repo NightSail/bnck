@@ -1,0 +1,8 @@
+id = 'wm-icons'
+name = 'wm-icons'
+
+homepage = 'http://wm-icons.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wm-icons'

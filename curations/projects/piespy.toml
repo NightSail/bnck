@@ -1,0 +1,8 @@
+id = 'piespy'
+name = 'piespy'
+
+homepage = 'http://www.jibble.org/piespy'
+
+[[package]]
+channel = 'debian'
+name = 'piespy'

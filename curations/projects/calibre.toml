@@ -1,0 +1,20 @@
+id = 'calibre'
+name = 'calibre'
+
+homepage = 'https://calibre-ebook.com'
+
+[[package]]
+channel = 'arch'
+name = 'calibre'
+
+[[package]]
+channel = 'debian'
+name = 'calibre'
+
+[[package]]
+channel = 'fedora'
+name = 'calibre'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/calibre'

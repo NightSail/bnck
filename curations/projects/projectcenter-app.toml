@@ -1,0 +1,8 @@
+id = 'projectcenter-app'
+name = 'projectcenter.app'
+
+homepage = 'http://gnustep.org/experience/ProjectCenter.html'
+
+[[package]]
+channel = 'debian'
+name = 'projectcenter.app'

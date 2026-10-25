@@ -1,0 +1,8 @@
+id = 'mozjpeg'
+name = 'mozjpeg'
+
+homepage = 'https://github.com/mozilla/mozjpeg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mozjpeg'

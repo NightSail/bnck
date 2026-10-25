@@ -1,0 +1,17 @@
+id = 'smartdns'
+name = 'smartdns'
+
+homepage = 'https://github.com/pymumu/smartdns'
+repository = 'https://github.com/mokeyish/smartdns-rs.git'
+
+[[package]]
+channel = 'arch'
+name = 'smartdns'
+
+[[package]]
+channel = 'debian'
+name = 'smartdns'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smartdns'

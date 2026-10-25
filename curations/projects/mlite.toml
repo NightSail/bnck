@@ -1,0 +1,8 @@
+id = 'mlite'
+name = 'mlite'
+
+homepage = 'https://github.com/sailfishos/mlite'
+
+[[package]]
+channel = 'arch'
+name = 'mlite'

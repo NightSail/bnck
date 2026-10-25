@@ -1,0 +1,8 @@
+id = 'libpmix-bin'
+name = 'libpmix-bin'
+
+homepage = 'https://github.com/pmix/pmix'
+
+[[package]]
+channel = 'debian'
+name = 'libpmix-bin'

@@ -1,0 +1,20 @@
+id = 'ccd2iso'
+name = 'ccd2iso'
+
+homepage = 'http://ccd2iso.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'ccd2iso'
+
+[[package]]
+channel = 'debian'
+name = 'ccd2iso'
+
+[[package]]
+channel = 'fedora'
+name = 'ccd2iso'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ccd2iso'

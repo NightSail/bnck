@@ -1,0 +1,12 @@
+id = 'libeconf-utils'
+name = 'libeconf-utils'
+
+homepage = 'https://github.com/openSUSE/libeconf'
+
+[[package]]
+channel = 'debian'
+name = 'libeconf-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libeconf-utils'

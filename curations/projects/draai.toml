@@ -1,0 +1,8 @@
+id = 'draai'
+name = 'draai'
+
+homepage = 'http://mdcc.cx/draai'
+
+[[package]]
+channel = 'debian'
+name = 'draai'

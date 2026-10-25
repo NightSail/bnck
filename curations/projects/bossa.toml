@@ -1,0 +1,21 @@
+id = 'bossa'
+name = 'bossa'
+
+homepage = 'https://www.shumatech.com/web/products/bossa'
+repository = 'https://github.com/shumatech/BOSSA.git'
+
+[[package]]
+channel = 'debian'
+name = 'bossa'
+
+[[package]]
+channel = 'debian'
+name = 'bossa-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/bossa-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bossa'

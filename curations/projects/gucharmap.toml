@@ -1,0 +1,20 @@
+id = 'gucharmap'
+name = 'gucharmap'
+
+homepage = 'https://wiki.gnome.org/Apps/Gucharmap'
+
+[[package]]
+channel = 'arch'
+name = 'gucharmap'
+
+[[package]]
+channel = 'debian'
+name = 'gucharmap'
+
+[[package]]
+channel = 'fedora'
+name = 'gucharmap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gucharmap'

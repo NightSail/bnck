@@ -1,0 +1,16 @@
+id = 'fcitx5'
+name = 'fcitx5'
+
+homepage = 'https://github.com/fcitx/fcitx5'
+
+[[package]]
+channel = 'arch'
+name = 'fcitx5'
+
+[[package]]
+channel = 'debian'
+name = 'fcitx5'
+
+[[package]]
+channel = 'fedora'
+name = 'fcitx5'

@@ -1,0 +1,8 @@
+id = 'google-compute-engine-guest-configs'
+name = 'google-compute-engine-guest-configs'
+
+homepage = 'https://github.com/GoogleCloudPlatform/guest-configs'
+
+[[package]]
+channel = 'fedora'
+name = 'google-compute-engine-guest-configs'

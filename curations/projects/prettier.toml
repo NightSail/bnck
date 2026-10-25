@@ -1,0 +1,13 @@
+id = 'prettier'
+name = 'prettier'
+
+homepage = 'https://prettier.io'
+repository = 'https://github.com/prettier/prettier.git'
+
+[[package]]
+channel = 'arch'
+name = 'prettier'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prettier'

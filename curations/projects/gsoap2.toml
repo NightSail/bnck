@@ -1,0 +1,12 @@
+id = 'gsoap2'
+name = 'gsoap2'
+
+homepage = 'https://gsoap2.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gsoap'
+
+[[package]]
+channel = 'fedora'
+name = 'gsoap-devel'

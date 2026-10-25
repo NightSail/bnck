@@ -1,0 +1,9 @@
+id = 'doxymacs'
+name = 'doxymacs'
+
+homepage = 'https://doxymacs.sourceforge.net'
+repository = 'https://git.code.sf.net/p/doxymacs/code.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doxymacs'

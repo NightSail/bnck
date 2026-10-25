@@ -1,0 +1,24 @@
+id = 'fvwm'
+name = 'fvwm'
+
+homepage = 'https://www.fvwm.org'
+
+[[package]]
+channel = 'arch'
+name = 'fvwm3'
+
+[[package]]
+channel = 'debian'
+name = 'fvwm'
+
+[[package]]
+channel = 'debian'
+name = 'fvwm3'
+
+[[package]]
+channel = 'fedora'
+name = 'fvwm'
+
+[[package]]
+channel = 'fedora'
+name = 'fvwm3'

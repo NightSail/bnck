@@ -1,0 +1,8 @@
+id = 'buskill'
+name = 'buskill'
+
+homepage = 'https://www.buskill.in'
+
+[[package]]
+channel = 'debian'
+name = 'buskill'

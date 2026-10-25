@@ -1,0 +1,8 @@
+id = 'canmatrix-utils'
+name = 'canmatrix-utils'
+
+homepage = 'https://github.com/ebroecker/canmatrix'
+
+[[package]]
+channel = 'debian'
+name = 'canmatrix-utils'

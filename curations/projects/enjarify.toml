@@ -1,0 +1,16 @@
+id = 'enjarify'
+name = 'enjarify'
+
+homepage = 'https://github.com/google/enjarify'
+
+[[package]]
+channel = 'arch'
+name = 'enjarify'
+
+[[package]]
+channel = 'debian'
+name = 'enjarify'
+
+[[package]]
+channel = 'fedora'
+name = 'enjarify'

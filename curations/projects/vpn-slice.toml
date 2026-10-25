@@ -1,0 +1,8 @@
+id = 'vpn-slice'
+name = 'vpn-slice'
+
+repository = 'https://github.com/dlenski/vpn-slice.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vpn-slice'

@@ -1,0 +1,8 @@
+id = 'libndpi-bin'
+name = 'libndpi-bin'
+
+homepage = 'http://www.ntop.org/products/ndpi'
+
+[[package]]
+channel = 'debian'
+name = 'libndpi-bin'

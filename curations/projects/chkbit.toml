@@ -1,0 +1,9 @@
+id = 'chkbit'
+name = 'chkbit'
+
+homepage = 'https://laktak.github.io/chkbit'
+repository = 'https://github.com/laktak/chkbit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chkbit'

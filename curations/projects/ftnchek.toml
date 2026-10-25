@@ -1,0 +1,16 @@
+id = 'ftnchek'
+name = 'ftnchek'
+
+homepage = 'http://www.dsm.fordham.edu/~ftnchek'
+
+[[package]]
+channel = 'debian'
+name = 'ftnchek'
+
+[[package]]
+channel = 'fedora'
+name = 'ftnchek'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ftnchek'

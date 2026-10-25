@@ -1,0 +1,8 @@
+id = 'python3-mcp-freecad'
+name = 'python3-mcp-freecad'
+
+homepage = 'https://github.com/neka-nat/freecad-mcp.git'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mcp-freecad'

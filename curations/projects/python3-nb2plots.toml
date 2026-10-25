@@ -1,0 +1,8 @@
+id = 'python3-nb2plots'
+name = 'python3-nb2plots'
+
+homepage = 'https://github.com/matthew-brett/nb2plots'
+
+[[package]]
+channel = 'debian'
+name = 'python3-nb2plots'

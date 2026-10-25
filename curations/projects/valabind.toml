@@ -1,0 +1,16 @@
+id = 'valabind'
+name = 'valabind'
+
+repository = 'https://github.com/radare/valabind.git'
+
+[[package]]
+channel = 'arch'
+name = 'valabind'
+
+[[package]]
+channel = 'debian'
+name = 'valabind'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/valabind'

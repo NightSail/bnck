@@ -1,0 +1,8 @@
+id = 'mirrormagic'
+name = 'mirrormagic'
+
+homepage = 'http://www.artsoft.org/mirrormagic'
+
+[[package]]
+channel = 'fedora'
+name = 'mirrormagic'

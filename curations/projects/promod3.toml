@@ -1,0 +1,8 @@
+id = 'promod3'
+name = 'promod3'
+
+homepage = 'https://openstructure.org/promod3'
+
+[[package]]
+channel = 'debian'
+name = 'promod3'

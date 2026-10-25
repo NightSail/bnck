@@ -1,0 +1,8 @@
+id = 'qtwaifu2x'
+name = 'qtwaifu2x'
+
+homepage = 'https://github.com/cmdrkotori/qtwaifu2x'
+
+[[package]]
+channel = 'fedora'
+name = 'qtwaifu2x'

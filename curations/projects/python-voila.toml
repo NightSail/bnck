@@ -1,0 +1,8 @@
+id = 'python-voila'
+name = 'python-voila'
+
+homepage = 'https://github.com/voila-dashboards/voila'
+
+[[package]]
+channel = 'arch'
+name = 'python-voila'

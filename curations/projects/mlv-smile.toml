@@ -1,0 +1,8 @@
+id = 'mlv-smile'
+name = 'mlv-smile'
+
+homepage = 'http://www-igm.univ-mlv.fr/~marsan/smile_english.html'
+
+[[package]]
+channel = 'debian'
+name = 'mlv-smile'

@@ -1,0 +1,8 @@
+id = 'phpstan'
+name = 'phpstan'
+
+homepage = 'https://phpstan.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/phpstan'

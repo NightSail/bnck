@@ -1,0 +1,12 @@
+id = 'chemps2'
+name = 'CheMPS2'
+
+homepage = 'https://github.com/SebWouters/CheMPS2'
+
+[[package]]
+channel = 'debian'
+name = 'chemps2'
+
+[[package]]
+channel = 'fedora'
+name = 'CheMPS2'

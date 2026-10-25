@@ -1,0 +1,16 @@
+id = 'shellinabox'
+name = 'shellinabox'
+
+homepage = 'https://github.com/shellinabox/shellinabox'
+
+[[package]]
+channel = 'debian'
+name = 'shellinabox'
+
+[[package]]
+channel = 'fedora'
+name = 'shellinabox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shellinabox'

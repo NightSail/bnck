@@ -1,0 +1,24 @@
+id = 'amarok'
+name = 'amarok'
+
+homepage = 'https://apps.kde.org/amarok'
+
+[[package]]
+channel = 'arch'
+name = 'amarok'
+
+[[package]]
+channel = 'debian'
+name = 'amarok'
+
+[[package]]
+channel = 'debian'
+name = 'amarok-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'amarok'
+
+[[package]]
+channel = 'fedora'
+name = 'amarok-utils'

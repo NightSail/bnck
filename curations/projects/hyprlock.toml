@@ -1,0 +1,12 @@
+id = 'hyprlock'
+name = 'hyprlock'
+
+homepage = 'https://github.com/hyprwm/hyprlock'
+
+[[package]]
+channel = 'arch'
+name = 'hyprlock'
+
+[[package]]
+channel = 'debian'
+name = 'hyprlock'

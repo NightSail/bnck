@@ -1,0 +1,20 @@
+id = 'rdfind'
+name = 'rdfind'
+
+homepage = 'https://rdfind.pauldreik.se'
+
+[[package]]
+channel = 'arch'
+name = 'rdfind'
+
+[[package]]
+channel = 'debian'
+name = 'rdfind'
+
+[[package]]
+channel = 'fedora'
+name = 'rdfind'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rdfind'

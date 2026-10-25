@@ -1,0 +1,6 @@
+id = 'wrapperfactory-app'
+name = 'wrapperfactory.app'
+
+[[package]]
+channel = 'debian'
+name = 'wrapperfactory.app'

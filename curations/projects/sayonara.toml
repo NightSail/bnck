@@ -1,0 +1,12 @@
+id = 'sayonara'
+name = 'sayonara'
+
+homepage = 'https://sayonara-player.com'
+
+[[package]]
+channel = 'debian'
+name = 'sayonara'
+
+[[package]]
+channel = 'fedora'
+name = 'sayonara'

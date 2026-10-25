@@ -1,0 +1,16 @@
+id = 'openargus'
+name = 'openargus'
+
+homepage = 'https://openargus.org'
+
+[[package]]
+channel = 'debian'
+name = 'argus-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argus'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argus-clients'

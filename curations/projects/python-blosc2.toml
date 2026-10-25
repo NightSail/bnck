@@ -1,0 +1,8 @@
+id = 'python-blosc2'
+name = 'python-blosc2'
+
+homepage = 'https://github.com/Blosc/python-blosc2'
+
+[[package]]
+channel = 'arch'
+name = 'python-blosc2'

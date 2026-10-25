@@ -1,0 +1,8 @@
+id = 'singularity-ce'
+name = 'singularity-ce'
+
+homepage = 'https://www.sylabs.io/singularity'
+
+[[package]]
+channel = 'fedora'
+name = 'singularity-ce'

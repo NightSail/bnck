@@ -1,0 +1,8 @@
+id = 'extremetuxracer'
+name = 'extremetuxracer'
+
+homepage = 'http://extremetuxracer.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'extremetuxracer'

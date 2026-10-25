@@ -1,0 +1,8 @@
+id = 'easygit'
+name = 'easygit'
+
+homepage = 'https://people.gnome.org/~newren/eg'
+
+[[package]]
+channel = 'debian'
+name = 'easygit'

@@ -1,0 +1,8 @@
+id = 'hack-browser-data'
+name = 'hack-browser-data'
+
+repository = 'https://github.com/moonD4rk/HackBrowserData.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hack-browser-data'

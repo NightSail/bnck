@@ -1,0 +1,8 @@
+id = 'filtermail'
+name = 'filtermail'
+
+homepage = 'https://fbb-git.gitlab.io/filtermail'
+
+[[package]]
+channel = 'debian'
+name = 'filtermail'

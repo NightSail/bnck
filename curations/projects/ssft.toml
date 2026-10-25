@@ -1,0 +1,6 @@
+id = 'ssft'
+name = 'ssft'
+
+[[package]]
+channel = 'debian'
+name = 'ssft'

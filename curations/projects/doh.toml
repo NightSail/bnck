@@ -1,0 +1,12 @@
+id = 'doh'
+name = 'doh'
+
+repository = 'https://github.com/curl/doh.git'
+
+[[package]]
+channel = 'fedora'
+name = 'doh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doh'

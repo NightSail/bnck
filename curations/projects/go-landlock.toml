@@ -1,0 +1,8 @@
+id = 'go-landlock'
+name = 'go-landlock'
+
+homepage = 'https://github.com/landlock-lsm/go-landlock'
+
+[[package]]
+channel = 'debian'
+name = 'go-landlock'

@@ -1,0 +1,8 @@
+id = 'prometheus-nginx-exporter'
+name = 'prometheus-nginx-exporter'
+
+homepage = 'https://github.com/nginx/nginx-prometheus-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-nginx-exporter'

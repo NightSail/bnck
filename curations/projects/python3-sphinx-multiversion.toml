@@ -1,0 +1,8 @@
+id = 'python3-sphinx-multiversion'
+name = 'python3-sphinx-multiversion'
+
+homepage = 'https://holzhaus.github.io/sphinx-multiversion'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-sphinx-multiversion'

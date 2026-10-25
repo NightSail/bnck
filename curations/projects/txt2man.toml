@@ -1,0 +1,20 @@
+id = 'txt2man'
+name = 'txt2man'
+
+homepage = 'https://github.com/mvertes/txt2man'
+
+[[package]]
+channel = 'arch'
+name = 'txt2man'
+
+[[package]]
+channel = 'debian'
+name = 'txt2man'
+
+[[package]]
+channel = 'fedora'
+name = 'txt2man'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/txt2man'

@@ -1,0 +1,8 @@
+id = 'python3-yaswfp'
+name = 'python3-yaswfp'
+
+homepage = 'https://github.com/facundobatista/yaswfp'
+
+[[package]]
+channel = 'debian'
+name = 'python3-yaswfp'

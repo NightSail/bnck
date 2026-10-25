@@ -1,0 +1,8 @@
+id = 'login-duo'
+name = 'login-duo'
+
+homepage = 'https://github.com/duosecurity/duo_unix'
+
+[[package]]
+channel = 'debian'
+name = 'login-duo'

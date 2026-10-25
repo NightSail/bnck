@@ -1,0 +1,10 @@
+id = 'hipcc'
+name = 'hipcc'
+
+[[package]]
+channel = 'debian'
+name = 'hipcc'
+
+[[package]]
+channel = 'fedora'
+name = 'hipcc'

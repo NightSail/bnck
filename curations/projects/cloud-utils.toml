@@ -12,6 +12,14 @@ channel = 'arch'
 name = 'cloud-image-utils'
 
 [[package]]
+channel = 'debian'
+name = 'cloud-guest-utils'
+
+[[package]]
+channel = 'debian'
+name = 'cloud-image-utils'
+
+[[package]]
 channel = 'fedora'
 name = 'cloud-utils-cloud-localds'
 

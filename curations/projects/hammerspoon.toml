@@ -1,0 +1,8 @@
+id = 'hammerspoon'
+name = 'hammerspoon'
+
+homepage = 'https://www.hammerspoon.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/hammerspoon'

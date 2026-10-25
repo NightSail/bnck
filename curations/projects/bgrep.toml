@@ -1,0 +1,8 @@
+id = 'bgrep'
+name = 'bgrep'
+
+repository = 'https://github.com/tmbinc/bgrep.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bgrep'

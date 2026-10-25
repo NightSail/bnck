@@ -1,0 +1,12 @@
+id = 'aioesphomeapi'
+name = 'aioesphomeapi'
+
+homepage = 'https://github.com/esphome/aioesphomeapi'
+
+[[package]]
+channel = 'arch'
+name = 'python-aioesphomeapi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aioesphomeapi'

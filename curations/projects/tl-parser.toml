@@ -1,0 +1,8 @@
+id = 'tl-parser'
+name = 'tl-parser'
+
+homepage = 'https://github.com/vysheng/tl-parser'
+
+[[package]]
+channel = 'debian'
+name = 'tl-parser'

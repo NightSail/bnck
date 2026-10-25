@@ -1,0 +1,8 @@
+id = 'xorg-xrefresh'
+name = 'xorg-xrefresh'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xrefresh'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xrefresh'

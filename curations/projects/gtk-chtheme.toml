@@ -1,0 +1,8 @@
+id = 'gtk-chtheme'
+name = 'gtk-chtheme'
+
+homepage = 'http://plasmasturm.org/code/gtk-chtheme'
+
+[[package]]
+channel = 'debian'
+name = 'gtk-chtheme'

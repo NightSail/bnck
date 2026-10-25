@@ -1,0 +1,16 @@
+id = 'libqxp'
+name = 'libqxp'
+
+homepage = 'https://wiki.documentfoundation.org/DLP/Libraries/libqxp'
+
+[[package]]
+channel = 'arch'
+name = 'libqxp'
+
+[[package]]
+channel = 'debian'
+name = 'libqxp-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libqxp-tools'

@@ -1,0 +1,8 @@
+id = 'vaulted'
+name = 'vaulted'
+
+repository = 'https://github.com/miquella/vaulted.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vaulted'

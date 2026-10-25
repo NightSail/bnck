@@ -1,0 +1,8 @@
+id = 'tomcli'
+name = 'tomcli'
+
+homepage = 'https://sr.ht/~gotmax23/tomcli'
+
+[[package]]
+channel = 'fedora'
+name = 'tomcli'

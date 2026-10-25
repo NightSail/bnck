@@ -1,0 +1,8 @@
+id = 'jump'
+name = 'jump'
+
+repository = 'https://github.com/gsamokovarov/jump.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jump'

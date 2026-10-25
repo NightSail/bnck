@@ -1,0 +1,8 @@
+id = 'perl-mce-tools'
+name = 'perl-MCE-tools'
+
+homepage = 'https://metacpan.org/release/MCE'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-MCE-tools'

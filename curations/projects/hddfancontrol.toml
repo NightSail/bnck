@@ -1,0 +1,8 @@
+id = 'hddfancontrol'
+name = 'hddfancontrol'
+
+homepage = 'https://github.com/desbma/hddfancontrol'
+
+[[package]]
+channel = 'fedora'
+name = 'hddfancontrol'

@@ -1,0 +1,8 @@
+id = 'java-jd-decompiler'
+name = 'java-jd-decompiler'
+
+homepage = 'https://github.com/java-decompiler/jd-core'
+
+[[package]]
+channel = 'fedora'
+name = 'java-jd-decompiler'

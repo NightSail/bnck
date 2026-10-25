@@ -1,0 +1,8 @@
+id = 'wmwave'
+name = 'wmwave'
+
+homepage = 'https://wmwave.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'wmwave'

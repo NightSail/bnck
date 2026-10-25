@@ -1,0 +1,8 @@
+id = 'dovi-convert'
+name = 'dovi_convert'
+
+homepage = 'https://docs.doviconvert.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dovi_convert'

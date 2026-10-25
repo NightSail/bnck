@@ -1,0 +1,8 @@
+id = 'smpq'
+name = 'smpq'
+
+homepage = 'https://launchpad.net/smpq'
+
+[[package]]
+channel = 'debian'
+name = 'smpq'

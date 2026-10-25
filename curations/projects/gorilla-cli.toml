@@ -1,0 +1,8 @@
+id = 'gorilla-cli'
+name = 'gorilla-cli'
+
+homepage = 'https://gorilla.cs.berkeley.edu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gorilla-cli'

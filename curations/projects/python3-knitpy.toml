@@ -1,0 +1,8 @@
+id = 'python3-knitpy'
+name = 'python3-knitpy'
+
+homepage = 'https://github.com/janschulz/knitpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-knitpy'

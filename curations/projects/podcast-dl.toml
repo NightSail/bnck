@@ -1,0 +1,8 @@
+id = 'podcast-dl'
+name = 'podcast-dl'
+
+repository = 'https://github.com/lightpohl/podcast-dl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podcast-dl'

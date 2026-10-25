@@ -1,0 +1,8 @@
+id = 'ssshtest'
+name = 'ssshtest'
+
+homepage = 'https://github.com/ryanlayer/ssshtest'
+
+[[package]]
+channel = 'debian'
+name = 'ssshtest'

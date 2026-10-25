@@ -1,0 +1,8 @@
+id = 'sd-mux-ctrl'
+name = 'sd-mux-ctrl'
+
+homepage = 'https://gitlab.com/perezmeyer/sd-mux-ctrl'
+
+[[package]]
+channel = 'debian'
+name = 'sd-mux-ctrl'

@@ -1,0 +1,8 @@
+id = 'liblnk-utils'
+name = 'liblnk-utils'
+
+homepage = 'https://github.com/libyal/liblnk'
+
+[[package]]
+channel = 'debian'
+name = 'liblnk-utils'

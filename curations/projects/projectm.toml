@@ -1,0 +1,40 @@
+id = 'projectm'
+name = 'projectm'
+
+homepage = 'https://github.com/projectM-visualizer/projectm'
+
+[[package]]
+channel = 'arch'
+name = 'projectm-pulseaudio'
+
+[[package]]
+channel = 'arch'
+name = 'projectm-sdl'
+
+[[package]]
+channel = 'debian'
+name = 'projectm-jack'
+
+[[package]]
+channel = 'debian'
+name = 'projectm-pulseaudio'
+
+[[package]]
+channel = 'debian'
+name = 'projectm-sdl'
+
+[[package]]
+channel = 'fedora'
+name = 'libprojectM-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'projectM-SDL'
+
+[[package]]
+channel = 'fedora'
+name = 'projectM-jack'
+
+[[package]]
+channel = 'fedora'
+name = 'projectM-pulseaudio'

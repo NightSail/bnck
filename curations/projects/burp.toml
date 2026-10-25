@@ -1,0 +1,13 @@
+id = 'burp'
+name = 'burp'
+
+homepage = 'https://burp.grke.net'
+repository = 'https://github.com/grke/burp.git'
+
+[[package]]
+channel = 'debian'
+name = 'burp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/burp'

@@ -1,0 +1,8 @@
+id = 'noss'
+name = 'noss'
+
+homepage = 'https://codeberg.org/1-1sam/noss'
+
+[[package]]
+channel = 'debian'
+name = 'noss'

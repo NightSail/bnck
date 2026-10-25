@@ -1,0 +1,12 @@
+id = 'terminology'
+name = 'terminology'
+
+homepage = 'https://www.enlightenment.org/about-terminology'
+
+[[package]]
+channel = 'arch'
+name = 'terminology'
+
+[[package]]
+channel = 'debian'
+name = 'terminology'

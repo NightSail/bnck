@@ -1,0 +1,8 @@
+id = 'pdftilecut'
+name = 'pdftilecut'
+
+homepage = 'https://github.com/oxplot/pdftilecut'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pdftilecut'

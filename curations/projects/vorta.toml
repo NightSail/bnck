@@ -1,0 +1,16 @@
+id = 'vorta'
+name = 'vorta'
+
+homepage = 'https://vorta.borgbase.com'
+
+[[package]]
+channel = 'arch'
+name = 'vorta'
+
+[[package]]
+channel = 'debian'
+name = 'vorta'
+
+[[package]]
+channel = 'fedora'
+name = 'vorta'

@@ -1,0 +1,8 @@
+id = 'glyph'
+name = 'glyph'
+
+homepage = 'https://github.com/seatedro/glyph'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/glyph'

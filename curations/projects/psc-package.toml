@@ -1,0 +1,8 @@
+id = 'psc-package'
+name = 'psc-package'
+
+homepage = 'https://psc-package.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psc-package'

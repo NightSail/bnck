@@ -1,0 +1,8 @@
+id = 'sopwith'
+name = 'sopwith'
+
+homepage = 'https://github.com/fragglet/sdl-sopwith'
+
+[[package]]
+channel = 'fedora'
+name = 'sopwith'

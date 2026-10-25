@@ -1,0 +1,8 @@
+id = 'todotxt-cli'
+name = 'todotxt-cli'
+
+homepage = 'http://todotxt.com'
+
+[[package]]
+channel = 'debian'
+name = 'todotxt-cli'

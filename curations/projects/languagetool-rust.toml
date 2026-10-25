@@ -1,0 +1,9 @@
+id = 'languagetool-rust'
+name = 'languagetool-rust'
+
+homepage = 'https://docs.rs/languagetool-rust'
+repository = 'https://github.com/jeertmans/languagetool-rust.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/languagetool-rust'

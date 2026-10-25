@@ -1,0 +1,8 @@
+id = 'crest'
+name = 'crest'
+
+homepage = 'https://crest-lab.github.io/crest-docs'
+
+[[package]]
+channel = 'fedora'
+name = 'crest'

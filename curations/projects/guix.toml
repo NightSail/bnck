@@ -1,0 +1,8 @@
+id = 'guix'
+name = 'guix'
+
+homepage = 'https://guix.gnu.org'
+
+[[package]]
+channel = 'debian'
+name = 'guix'

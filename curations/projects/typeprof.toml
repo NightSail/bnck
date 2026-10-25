@@ -1,0 +1,12 @@
+id = 'typeprof'
+name = 'typeprof'
+
+homepage = 'https://github.com/ruby/typeprof'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-typeprof'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-typeprof'

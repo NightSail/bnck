@@ -1,0 +1,8 @@
+id = 'reattach-to-user-namespace'
+name = 'reattach-to-user-namespace'
+
+repository = 'https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reattach-to-user-namespace'

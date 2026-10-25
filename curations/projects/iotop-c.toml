@@ -1,0 +1,16 @@
+id = 'iotop-c'
+name = 'iotop-c'
+
+homepage = 'https://github.com/Tomas-M/iotop'
+
+[[package]]
+channel = 'arch'
+name = 'iotop-c'
+
+[[package]]
+channel = 'debian'
+name = 'iotop-c'
+
+[[package]]
+channel = 'fedora'
+name = 'iotop-c'

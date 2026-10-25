@@ -1,0 +1,12 @@
+id = 'kgoldrunner'
+name = 'kgoldrunner'
+
+homepage = 'https://apps.kde.org/kgoldrunner'
+
+[[package]]
+channel = 'arch'
+name = 'kgoldrunner'
+
+[[package]]
+channel = 'fedora'
+name = 'kgoldrunner'

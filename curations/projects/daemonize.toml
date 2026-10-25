@@ -6,3 +6,7 @@ homepage = 'http://software.clapper.org/daemonize'
 [[package]]
 channel = 'debian'
 name = 'daemonize'
+
+[[package]]
+channel = 'fedora'
+name = 'daemonize'

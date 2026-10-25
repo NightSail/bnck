@@ -1,0 +1,8 @@
+id = 'drawterm-9front'
+name = 'drawterm-9front'
+
+homepage = 'http://drawterm.9front.org'
+
+[[package]]
+channel = 'debian'
+name = 'drawterm-9front'

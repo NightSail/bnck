@@ -1,0 +1,8 @@
+id = 'golang-modernc-lex'
+name = 'golang-modernc-lex'
+
+homepage = 'https://gitlab.com/cznic/lex'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-modernc-lex'

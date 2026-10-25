@@ -1,0 +1,8 @@
+id = 'golang-github-microcosm-cc-bluemonday'
+name = 'golang-github-microcosm-cc-bluemonday'
+
+homepage = 'https://github.com/microcosm-cc/bluemonday'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-microcosm-cc-bluemonday'

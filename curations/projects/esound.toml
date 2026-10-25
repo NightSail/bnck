@@ -1,0 +1,16 @@
+id = 'esound'
+name = 'esound'
+
+homepage = 'https://ftp.gnome.org/pub/GNOME/sources/esound'
+
+[[package]]
+channel = 'fedora'
+name = 'esound-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'esound-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'esound-tools'

@@ -1,0 +1,8 @@
+id = 'hinawa-utils'
+name = 'hinawa-utils'
+
+homepage = 'https://github.com/takaswie/hinawa-utils'
+
+[[package]]
+channel = 'debian'
+name = 'hinawa-utils'

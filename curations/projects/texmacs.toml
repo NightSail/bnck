@@ -1,0 +1,12 @@
+id = 'texmacs'
+name = 'TeXmacs'
+
+homepage = 'https://www.texmacs.org'
+
+[[package]]
+channel = 'debian'
+name = 'texmacs-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'TeXmacs'

@@ -1,0 +1,12 @@
+id = 'cdsclient'
+name = 'cdsclient'
+
+homepage = 'https://cdsarc.cds.unistra.fr/doc/cdsclient.html'
+
+[[package]]
+channel = 'fedora'
+name = 'cdsclient'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdsclient'

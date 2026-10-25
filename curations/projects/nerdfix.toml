@@ -1,0 +1,8 @@
+id = 'nerdfix'
+name = 'nerdfix'
+
+homepage = 'https://github.com/loichyan/nerdfix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nerdfix'

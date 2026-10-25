@@ -1,0 +1,12 @@
+id = 'openttd'
+name = 'openttd'
+
+homepage = 'https://www.openttd.org'
+
+[[package]]
+channel = 'arch'
+name = 'openttd'
+
+[[package]]
+channel = 'fedora'
+name = 'openttd'

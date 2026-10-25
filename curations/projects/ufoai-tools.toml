@@ -1,0 +1,8 @@
+id = 'ufoai-tools'
+name = 'ufoai-tools'
+
+homepage = 'https://ufoai.org'
+
+[[package]]
+channel = 'debian'
+name = 'ufoai-tools'

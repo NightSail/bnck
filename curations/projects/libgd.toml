@@ -1,0 +1,16 @@
+id = 'libgd'
+name = 'libgd'
+
+homepage = 'https://libgd.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'gd'
+
+[[package]]
+channel = 'debian'
+name = 'libgd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'gd-progs'

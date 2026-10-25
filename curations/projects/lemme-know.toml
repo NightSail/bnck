@@ -1,0 +1,8 @@
+id = 'lemme-know'
+name = 'lemme-know'
+
+repository = 'https://github.com/deg4uss3r/lk'
+
+[[package]]
+channel = 'crates.io'
+name = 'lemme-know'

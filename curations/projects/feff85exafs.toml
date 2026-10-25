@@ -1,0 +1,8 @@
+id = 'feff85exafs'
+name = 'feff85exafs'
+
+homepage = 'https://github.com/xraypy/feff85exafs'
+
+[[package]]
+channel = 'debian'
+name = 'feff85exafs'

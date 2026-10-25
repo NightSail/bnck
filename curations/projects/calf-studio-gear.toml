@@ -1,0 +1,16 @@
+id = 'calf-studio-gear'
+name = 'calf-studio-gear'
+
+homepage = 'https://calf-studio-gear.org'
+
+[[package]]
+channel = 'debian'
+name = 'calf-plugins'
+
+[[package]]
+channel = 'fedora'
+name = 'calf'
+
+[[package]]
+channel = 'fedora'
+name = 'dssi-calf-plugins'

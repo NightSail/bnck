@@ -1,0 +1,9 @@
+id = 'stuntman'
+name = 'stuntman'
+
+homepage = 'https://www.stunprotocol.org'
+repository = 'https://github.com/jselbie/stunserver.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/stuntman'

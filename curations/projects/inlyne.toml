@@ -1,0 +1,8 @@
+id = 'inlyne'
+name = 'inlyne'
+
+repository = 'https://github.com/Inlyne-Project/inlyne.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inlyne'

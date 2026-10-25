@@ -1,0 +1,8 @@
+id = 'claudekit'
+name = 'claudekit'
+
+homepage = 'https://github.com/carlrannaberg/claudekit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claudekit'

@@ -1,0 +1,16 @@
+id = 'iio-sensor-proxy'
+name = 'iio-sensor-proxy'
+
+homepage = 'https://gitlab.freedesktop.org/hadess/iio-sensor-proxy'
+
+[[package]]
+channel = 'arch'
+name = 'iio-sensor-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'iio-sensor-proxy'
+
+[[package]]
+channel = 'fedora'
+name = 'iio-sensor-proxy'

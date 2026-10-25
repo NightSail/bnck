@@ -1,0 +1,22 @@
+id = 'sbuild'
+name = 'sbuild'
+
+[[package]]
+channel = 'debian'
+name = 'buildd'
+
+[[package]]
+channel = 'debian'
+name = 'sbuild'
+
+[[package]]
+channel = 'debian'
+name = 'sbuild-debian-developer-setup'
+
+[[package]]
+channel = 'debian'
+name = 'sbuild-qemu'
+
+[[package]]
+channel = 'debian'
+name = 'sbuild-schroot'

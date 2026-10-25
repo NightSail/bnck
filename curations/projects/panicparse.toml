@@ -1,0 +1,8 @@
+id = 'panicparse'
+name = 'panicparse'
+
+homepage = 'https://github.com/maruel/panicparse'
+
+[[package]]
+channel = 'debian'
+name = 'panicparse'

@@ -1,0 +1,8 @@
+id = 'tabix'
+name = 'tabix'
+
+homepage = 'https://github.com/samtools/htslib'
+
+[[package]]
+channel = 'debian'
+name = 'tabix'

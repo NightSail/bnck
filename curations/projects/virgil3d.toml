@@ -1,0 +1,12 @@
+id = 'virgil3d'
+name = 'virgil3d'
+
+homepage = 'https://virgil3d.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'virglrenderer'
+
+[[package]]
+channel = 'debian'
+name = 'virgl-server'

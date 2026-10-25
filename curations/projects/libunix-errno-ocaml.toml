@@ -1,0 +1,8 @@
+id = 'libunix-errno-ocaml'
+name = 'libunix-errno-ocaml'
+
+homepage = 'https://github.com/xapi-project/ocaml-unix-errno'
+
+[[package]]
+channel = 'debian'
+name = 'libunix-errno-ocaml'

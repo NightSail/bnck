@@ -1,0 +1,16 @@
+id = 'libexttextcat'
+name = 'libexttextcat'
+
+homepage = 'https://wiki.documentfoundation.org/Libexttextcat'
+
+[[package]]
+channel = 'arch'
+name = 'libexttextcat'
+
+[[package]]
+channel = 'debian'
+name = 'createfp'
+
+[[package]]
+channel = 'fedora'
+name = 'libexttextcat-tools'

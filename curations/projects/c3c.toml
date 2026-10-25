@@ -1,0 +1,13 @@
+id = 'c3c'
+name = 'c3c'
+
+homepage = 'https://c3-lang.org'
+repository = 'https://github.com/c3lang/c3c.git'
+
+[[package]]
+channel = 'arch'
+name = 'c3c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/c3c'

@@ -1,0 +1,12 @@
+id = 'five-or-more'
+name = 'five-or-more'
+
+homepage = 'https://gitlab.gnome.org/GNOME/five-or-more'
+
+[[package]]
+channel = 'arch'
+name = 'five-or-more'
+
+[[package]]
+channel = 'fedora'
+name = 'five-or-more'

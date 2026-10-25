@@ -1,0 +1,16 @@
+id = 'connman'
+name = 'connman'
+
+homepage = 'https://git.kernel.org/pub/scm/network/connman/connman.git'
+
+[[package]]
+channel = 'arch'
+name = 'connman'
+
+[[package]]
+channel = 'debian'
+name = 'connman'
+
+[[package]]
+channel = 'debian'
+name = 'connman-vpn'

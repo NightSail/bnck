@@ -1,0 +1,8 @@
+id = 'bbtools-bbmap'
+name = 'bbtools'
+
+homepage = 'https://bbmap.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bbtools'

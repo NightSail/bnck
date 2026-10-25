@@ -1,0 +1,16 @@
+id = 'qsynth'
+name = 'qsynth'
+
+homepage = 'https://qsynth.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qsynth'
+
+[[package]]
+channel = 'debian'
+name = 'qsynth'
+
+[[package]]
+channel = 'fedora'
+name = 'qsynth'

@@ -1,0 +1,20 @@
+id = 'lzop'
+name = 'lzop'
+
+homepage = 'https://www.lzop.org'
+
+[[package]]
+channel = 'arch'
+name = 'lzop'
+
+[[package]]
+channel = 'debian'
+name = 'lzop'
+
+[[package]]
+channel = 'fedora'
+name = 'lzop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lzop'

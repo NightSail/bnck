@@ -1,0 +1,28 @@
+id = 'dante'
+name = 'dante'
+
+homepage = 'https://www.inet.no/dante'
+
+[[package]]
+channel = 'arch'
+name = 'dante'
+
+[[package]]
+channel = 'debian'
+name = 'dante-client'
+
+[[package]]
+channel = 'debian'
+name = 'dante-server'
+
+[[package]]
+channel = 'fedora'
+name = 'dante'
+
+[[package]]
+channel = 'fedora'
+name = 'dante-server'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dante'

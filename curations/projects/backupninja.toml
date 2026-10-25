@@ -1,0 +1,16 @@
+id = 'backupninja'
+name = 'backupninja'
+
+homepage = 'https://0xacab.org/liberate/backupninja'
+
+[[package]]
+channel = 'debian'
+name = 'backupninja'
+
+[[package]]
+channel = 'fedora'
+name = 'backupninja'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/backupninja'

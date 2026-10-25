@@ -1,0 +1,6 @@
+id = 'gotop-gotop'
+name = 'gotop'
+
+[[package]]
+channel = 'crates.io'
+name = 'gotop'

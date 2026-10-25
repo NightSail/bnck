@@ -1,0 +1,12 @@
+id = 'ssed'
+name = 'ssed'
+
+homepage = 'https://packages.debian.org/sid/ssed'
+
+[[package]]
+channel = 'debian'
+name = 'ssed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssed'

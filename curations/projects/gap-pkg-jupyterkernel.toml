@@ -1,0 +1,8 @@
+id = 'gap-pkg-jupyterkernel'
+name = 'gap-pkg-jupyterkernel'
+
+homepage = 'https://gap-packages.github.io/JupyterKernel'
+
+[[package]]
+channel = 'fedora'
+name = 'gap-pkg-jupyterkernel'

@@ -1,0 +1,8 @@
+id = 'payload-dumper-go'
+name = 'payload-dumper-go'
+
+homepage = 'https://github.com/ssut/payload-dumper-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/payload-dumper-go'

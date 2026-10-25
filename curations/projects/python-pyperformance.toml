@@ -1,0 +1,8 @@
+id = 'python-pyperformance'
+name = 'python-pyperformance'
+
+homepage = 'https://github.com/python/pyperformance'
+
+[[package]]
+channel = 'arch'
+name = 'python-pyperformance'

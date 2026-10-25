@@ -1,0 +1,8 @@
+id = 'python3-bloom'
+name = 'python3-bloom'
+
+homepage = 'https://wiki.ros.org/bloom'
+
+[[package]]
+channel = 'debian'
+name = 'python3-bloom'

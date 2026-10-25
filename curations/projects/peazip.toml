@@ -1,0 +1,8 @@
+id = 'peazip'
+name = 'peazip'
+
+homepage = 'https://peazip.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'peazip'

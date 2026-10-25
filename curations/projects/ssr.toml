@@ -1,0 +1,20 @@
+id = 'ssr'
+name = 'ssr'
+
+homepage = 'http://spatialaudio.net/ssr'
+
+[[package]]
+channel = 'arch'
+name = 'ssr'
+
+[[package]]
+channel = 'debian'
+name = 'soundscaperenderer'
+
+[[package]]
+channel = 'debian'
+name = 'soundscaperenderer-common'
+
+[[package]]
+channel = 'debian'
+name = 'soundscaperenderer-nox'

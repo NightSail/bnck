@@ -1,0 +1,8 @@
+id = 'perl-app-pft'
+name = 'perl-App-PFT'
+
+homepage = 'https://github.com/dacav/App-PFT'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-App-PFT'

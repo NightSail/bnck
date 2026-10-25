@@ -1,0 +1,8 @@
+id = 'pantheon-sideload'
+name = 'pantheon-sideload'
+
+homepage = 'https://github.com/elementary/sideload'
+
+[[package]]
+channel = 'arch'
+name = 'pantheon-sideload'

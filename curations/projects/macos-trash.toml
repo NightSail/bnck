@@ -1,0 +1,8 @@
+id = 'macos-trash'
+name = 'macos-trash'
+
+repository = 'https://github.com/sindresorhus/macos-trash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/macos-trash'

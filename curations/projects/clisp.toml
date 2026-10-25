@@ -1,0 +1,25 @@
+id = 'clisp'
+name = 'clisp'
+
+homepage = 'https://clisp.sourceforge.io'
+repository = 'https://gitlab.com/gnu-clisp/clisp.git'
+
+[[package]]
+channel = 'arch'
+name = 'clisp'
+
+[[package]]
+channel = 'debian'
+name = 'clisp'
+
+[[package]]
+channel = 'fedora'
+name = 'clisp'
+
+[[package]]
+channel = 'fedora'
+name = 'clisp-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clisp'

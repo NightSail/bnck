@@ -1,0 +1,8 @@
+id = 'h3-devel'
+name = 'h3-devel'
+
+homepage = 'https://github.com/uber/h3'
+
+[[package]]
+channel = 'fedora'
+name = 'h3-devel'

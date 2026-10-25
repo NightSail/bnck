@@ -1,0 +1,16 @@
+id = 'srecord'
+name = 'srecord'
+
+homepage = 'https://srecord.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'srecord'
+
+[[package]]
+channel = 'fedora'
+name = 'srecord'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/srecord'

@@ -1,0 +1,8 @@
+id = 'python3-petl'
+name = 'python3-petl'
+
+homepage = 'https://github.com/petl-developers/petl'
+
+[[package]]
+channel = 'debian'
+name = 'python3-petl'

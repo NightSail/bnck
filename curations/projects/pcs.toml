@@ -1,0 +1,12 @@
+id = 'pcs'
+name = 'pcs'
+
+homepage = 'https://github.com/ClusterLabs/pcs'
+
+[[package]]
+channel = 'debian'
+name = 'pcs'
+
+[[package]]
+channel = 'fedora'
+name = 'pcs'

@@ -1,0 +1,12 @@
+id = 'python3-invoke'
+name = 'python3-invoke'
+
+homepage = 'https://docs.pyinvoke.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-invoke'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-invoke'

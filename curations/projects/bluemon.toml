@@ -1,0 +1,8 @@
+id = 'bluemon'
+name = 'bluemon'
+
+homepage = 'http://www.matthew.ath.cx/projects/bluemon'
+
+[[package]]
+channel = 'debian'
+name = 'bluemon'

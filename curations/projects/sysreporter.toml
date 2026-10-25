@@ -1,0 +1,8 @@
+id = 'sysreporter'
+name = 'sysreporter'
+
+homepage = 'https://github.com/onesimus-systems/sysreporter'
+
+[[package]]
+channel = 'fedora'
+name = 'sysreporter'

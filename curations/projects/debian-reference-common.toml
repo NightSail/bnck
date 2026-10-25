@@ -1,0 +1,8 @@
+id = 'debian-reference-common'
+name = 'debian-reference-common'
+
+homepage = 'https://www.debian.org/doc/user-manuals'
+
+[[package]]
+channel = 'debian'
+name = 'debian-reference-common'

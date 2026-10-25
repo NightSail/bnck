@@ -1,0 +1,8 @@
+id = 'ostree-push'
+name = 'ostree-push'
+
+homepage = 'https://github.com/dbnicholson/ostree-push'
+
+[[package]]
+channel = 'debian'
+name = 'ostree-push'

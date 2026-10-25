@@ -1,0 +1,9 @@
+id = 'fltk-fltk'
+name = 'fltk'
+
+homepage = 'https://www.fltk.org'
+repository = 'https://github.com/fltk/fltk.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fltk'

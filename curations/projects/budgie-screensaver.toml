@@ -1,0 +1,8 @@
+id = 'budgie-screensaver'
+name = 'budgie-screensaver'
+
+homepage = 'https://github.com/BuddiesOfBudgie/budgie-screensaver'
+
+[[package]]
+channel = 'fedora'
+name = 'budgie-screensaver'

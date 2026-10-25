@@ -1,0 +1,12 @@
+id = 'lemonade'
+name = 'lemonade'
+
+homepage = 'https://github.com/lemonade-sdk/lemonade'
+
+[[package]]
+channel = 'arch'
+name = 'lemonade-desktop'
+
+[[package]]
+channel = 'arch'
+name = 'lemonade-server'

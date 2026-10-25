@@ -1,0 +1,16 @@
+id = 'linuxdoc-tools'
+name = 'linuxdoc-tools'
+
+homepage = 'https://packages.debian.org/sid/linuxdoc-tools'
+
+[[package]]
+channel = 'arch'
+name = 'linuxdoc-tools'
+
+[[package]]
+channel = 'debian'
+name = 'linuxdoc-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'linuxdoc-tools'

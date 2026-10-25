@@ -1,0 +1,8 @@
+id = 'parsec-service'
+name = 'parsec-service'
+
+homepage = 'https://github.com/parallaxsecond/parsec'
+
+[[package]]
+channel = 'debian'
+name = 'parsec-service'

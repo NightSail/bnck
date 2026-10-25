@@ -1,0 +1,16 @@
+id = 'osslsigncode'
+name = 'osslsigncode'
+
+homepage = 'https://github.com/mtrojnar/osslsigncode'
+
+[[package]]
+channel = 'debian'
+name = 'osslsigncode'
+
+[[package]]
+channel = 'fedora'
+name = 'osslsigncode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osslsigncode'

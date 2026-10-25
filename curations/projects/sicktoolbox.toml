@@ -1,0 +1,8 @@
+id = 'sicktoolbox'
+name = 'sicktoolbox'
+
+homepage = 'http://sicktoolbox.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'sicktoolbox'

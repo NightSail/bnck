@@ -1,0 +1,8 @@
+id = 'subtle'
+name = 'subtle'
+
+homepage = 'https://subforge.org/projects/subtle'
+
+[[package]]
+channel = 'debian'
+name = 'subtle'

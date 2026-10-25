@@ -1,0 +1,20 @@
+id = 'cbmc'
+name = 'cbmc'
+
+homepage = 'http://www.cprover.org/cbmc'
+
+[[package]]
+channel = 'debian'
+name = 'cbmc'
+
+[[package]]
+channel = 'debian'
+name = 'jbmc'
+
+[[package]]
+channel = 'fedora'
+name = 'cbmc'
+
+[[package]]
+channel = 'fedora'
+name = 'cbmc-utils'

@@ -1,0 +1,8 @@
+id = 'perl-rpm-build-perl-scripts'
+name = 'perl-rpm-build-perl-scripts'
+
+homepage = 'https://metacpan.org/release/rpm-build-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-rpm-build-perl-scripts'

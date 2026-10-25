@@ -1,0 +1,8 @@
+id = 'mpris-scrobbler'
+name = 'mpris-scrobbler'
+
+homepage = 'https://github.com/mariusor/mpris-scrobbler'
+
+[[package]]
+channel = 'fedora'
+name = 'mpris-scrobbler'

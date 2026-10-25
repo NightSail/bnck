@@ -1,0 +1,12 @@
+id = 'ucpp'
+name = 'ucpp'
+
+homepage = 'http://http://code.google.com/p/ucpp'
+
+[[package]]
+channel = 'debian'
+name = 'ucpp'
+
+[[package]]
+channel = 'fedora'
+name = 'ucpp'

@@ -1,0 +1,48 @@
+id = 'powerdns'
+name = 'powerdns'
+
+homepage = 'https://www.powerdns.com'
+
+[[package]]
+channel = 'arch'
+name = 'powerdns'
+
+[[package]]
+channel = 'arch'
+name = 'powerdns-recursor'
+
+[[package]]
+channel = 'debian'
+name = 'pdns-backend-ldap'
+
+[[package]]
+channel = 'debian'
+name = 'pdns-ixfrdist'
+
+[[package]]
+channel = 'debian'
+name = 'pdns-recursor'
+
+[[package]]
+channel = 'debian'
+name = 'pdns-server'
+
+[[package]]
+channel = 'debian'
+name = 'pdns-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pdns'
+
+[[package]]
+channel = 'fedora'
+name = 'pdns-ixfrdist'
+
+[[package]]
+channel = 'fedora'
+name = 'pdns-recursor'
+
+[[package]]
+channel = 'fedora'
+name = 'pdns-tools'

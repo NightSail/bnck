@@ -1,0 +1,20 @@
+id = 'cscppc'
+name = 'cscppc'
+
+homepage = 'https://github.com/csutils/cscppc'
+
+[[package]]
+channel = 'fedora'
+name = 'csclng'
+
+[[package]]
+channel = 'fedora'
+name = 'cscppc'
+
+[[package]]
+channel = 'fedora'
+name = 'csgcca'
+
+[[package]]
+channel = 'fedora'
+name = 'csmatch'

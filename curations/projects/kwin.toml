@@ -1,0 +1,12 @@
+id = 'kwin'
+name = 'kwin'
+
+homepage = 'https://userbase.kde.org/KWin'
+
+[[package]]
+channel = 'fedora'
+name = 'kwin'
+
+[[package]]
+channel = 'fedora'
+name = 'kwin-x11'

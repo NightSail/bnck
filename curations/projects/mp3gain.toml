@@ -1,0 +1,16 @@
+id = 'mp3gain'
+name = 'mp3gain'
+
+homepage = 'https://mp3gain.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mp3gain'
+
+[[package]]
+channel = 'fedora'
+name = 'mp3gain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3gain'

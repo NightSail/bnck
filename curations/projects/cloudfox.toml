@@ -1,0 +1,9 @@
+id = 'cloudfox'
+name = 'cloudfox'
+
+homepage = 'https://bishopfox.com/blog/introducing-cloudfox'
+repository = 'https://github.com/BishopFox/cloudfox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cloudfox'

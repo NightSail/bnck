@@ -1,0 +1,12 @@
+id = 'cosmic-initial-setup'
+name = 'cosmic-initial-setup'
+
+homepage = 'https://github.com/pop-os/cosmic-initial-setup'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-initial-setup'
+
+[[package]]
+channel = 'fedora'
+name = 'cosmic-initial-setup'

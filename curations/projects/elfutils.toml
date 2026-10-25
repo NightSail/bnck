@@ -1,0 +1,20 @@
+id = 'elfutils'
+name = 'elfutils'
+
+homepage = 'https://sourceware.org/elfutils'
+
+[[package]]
+channel = 'arch'
+name = 'debuginfod'
+
+[[package]]
+channel = 'arch'
+name = 'elfutils'
+
+[[package]]
+channel = 'debian'
+name = 'debuginfod'
+
+[[package]]
+channel = 'debian'
+name = 'elfutils'

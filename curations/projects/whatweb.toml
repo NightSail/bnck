@@ -6,3 +6,7 @@ homepage = 'https://github.com/urbanadventurer/WhatWeb'
 [[package]]
 channel = 'debian'
 name = 'whatweb'
+
+[[package]]
+channel = 'fedora'
+name = 'whatweb'

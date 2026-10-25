@@ -1,0 +1,16 @@
+id = 'watchdog'
+name = 'watchdog'
+
+homepage = 'https://github.com/gorakhargosh/watchdog'
+
+[[package]]
+channel = 'arch'
+name = 'python-watchdog'
+
+[[package]]
+channel = 'debian'
+name = 'python3-watchdog'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-watchdog'

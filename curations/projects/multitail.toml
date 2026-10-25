@@ -1,0 +1,17 @@
+id = 'multitail'
+name = 'multitail'
+
+homepage = 'https://www.vanheusden.com/multitail'
+repository = 'https://github.com/folkertvanheusden/multitail.git'
+
+[[package]]
+channel = 'debian'
+name = 'multitail'
+
+[[package]]
+channel = 'fedora'
+name = 'multitail'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/multitail'

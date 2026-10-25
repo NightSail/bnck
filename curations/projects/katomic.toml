@@ -1,0 +1,12 @@
+id = 'katomic'
+name = 'katomic'
+
+homepage = 'https://apps.kde.org/katomic'
+
+[[package]]
+channel = 'arch'
+name = 'katomic'
+
+[[package]]
+channel = 'fedora'
+name = 'katomic'

@@ -1,0 +1,9 @@
+id = 'rust'
+name = 'rust'
+
+homepage = 'https://www.rust-lang.org'
+repository = 'https://github.com/rust-lang/rust.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rust'

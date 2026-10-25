@@ -1,0 +1,8 @@
+id = 'detachtty'
+name = 'detachtty'
+
+homepage = 'https://github.com/cosmos72/detachtty'
+
+[[package]]
+channel = 'debian'
+name = 'detachtty'

@@ -1,0 +1,8 @@
+id = 'ivy'
+name = 'ivy'
+
+homepage = 'https://ant.apache.org/ivy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ivy'

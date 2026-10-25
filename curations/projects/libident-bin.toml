@@ -1,0 +1,8 @@
+id = 'libident-bin'
+name = 'libident-bin'
+
+homepage = 'https://www.remlab.net/files/libident'
+
+[[package]]
+channel = 'debian'
+name = 'libident-bin'

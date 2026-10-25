@@ -1,0 +1,12 @@
+id = 'mp4v2'
+name = 'mp4v2'
+
+homepage = 'https://mp4v2.org'
+
+[[package]]
+channel = 'arch'
+name = 'libmp4v2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp4v2'

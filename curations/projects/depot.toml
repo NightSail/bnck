@@ -1,0 +1,9 @@
+id = 'depot'
+name = 'depot'
+
+homepage = 'https://depot.dev'
+repository = 'https://github.com/depot/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/depot'

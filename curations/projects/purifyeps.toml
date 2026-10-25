@@ -1,0 +1,8 @@
+id = 'purifyeps'
+name = 'purifyeps'
+
+homepage = 'https://www.ctan.org/pkg/purifyeps'
+
+[[package]]
+channel = 'debian'
+name = 'purifyeps'

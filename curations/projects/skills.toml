@@ -1,0 +1,8 @@
+id = 'skills'
+name = 'skills'
+
+homepage = 'https://skills.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/skills'

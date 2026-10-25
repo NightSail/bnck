@@ -1,0 +1,12 @@
+id = 'term-ansicolor'
+name = 'term-ansicolor'
+
+homepage = 'http://flori.github.com/term-ansicolor'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-term-ansicolor'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-term-ansicolor-examples'

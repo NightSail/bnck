@@ -1,0 +1,8 @@
+id = 'logapp'
+name = 'logapp'
+
+homepage = 'http://logapp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'logapp'

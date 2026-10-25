@@ -1,0 +1,8 @@
+id = 'bti'
+name = 'bti'
+
+homepage = 'https://gregkh.github.io/bti'
+
+[[package]]
+channel = 'debian'
+name = 'bti'

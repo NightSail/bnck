@@ -1,0 +1,9 @@
+id = 'bitchx'
+name = 'bitchx'
+
+homepage = 'https://bitchx.sourceforge.net'
+repository = 'https://git.code.sf.net/p/bitchx/git.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bitchx'

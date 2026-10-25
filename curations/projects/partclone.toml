@@ -1,0 +1,16 @@
+id = 'partclone'
+name = 'partclone'
+
+homepage = 'https://partclone.org'
+
+[[package]]
+channel = 'arch'
+name = 'partclone'
+
+[[package]]
+channel = 'debian'
+name = 'partclone'
+
+[[package]]
+channel = 'fedora'
+name = 'partclone'

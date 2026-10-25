@@ -1,0 +1,12 @@
+id = 'cargo-public-api'
+name = 'cargo-public-api'
+
+repository = 'https://github.com/cargo-public-api/cargo-public-api.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-public-api'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-public-api'

@@ -1,0 +1,9 @@
+id = 'keeper-commander'
+name = 'keeper-commander'
+
+homepage = 'https://docs.keeper.io/en/privileged-access-manager/commander-cli/overview'
+repository = 'https://github.com/Keeper-Security/Commander.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/keeper-commander'

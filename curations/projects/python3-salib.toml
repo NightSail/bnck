@@ -1,0 +1,12 @@
+id = 'python3-salib'
+name = 'python3-salib'
+
+homepage = 'https://salib.readthedocs.io'
+
+[[package]]
+channel = 'debian'
+name = 'python3-salib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-salib'

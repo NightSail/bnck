@@ -1,0 +1,8 @@
+id = 'trustee-guest-components'
+name = 'trustee-guest-components'
+
+homepage = 'https://github.com/confidential-containers/guest-components'
+
+[[package]]
+channel = 'fedora'
+name = 'trustee-guest-components'

@@ -1,0 +1,12 @@
+id = 'ndppd'
+name = 'ndppd'
+
+homepage = 'https://github.com/DanielAdolfsson/ndppd'
+
+[[package]]
+channel = 'debian'
+name = 'ndppd'
+
+[[package]]
+channel = 'fedora'
+name = 'ndppd'

@@ -1,0 +1,8 @@
+id = 'unagi'
+name = 'unagi'
+
+homepage = 'http://projects.mini-dweeb.org/projects/unagi'
+
+[[package]]
+channel = 'debian'
+name = 'unagi'

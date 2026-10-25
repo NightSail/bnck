@@ -1,0 +1,20 @@
+id = 'buildbot'
+name = 'buildbot'
+
+homepage = 'https://buildbot.net'
+
+[[package]]
+channel = 'debian'
+name = 'buildbot'
+
+[[package]]
+channel = 'debian'
+name = 'buildbot-worker'
+
+[[package]]
+channel = 'fedora'
+name = 'buildbot-master'
+
+[[package]]
+channel = 'fedora'
+name = 'buildbot-worker'

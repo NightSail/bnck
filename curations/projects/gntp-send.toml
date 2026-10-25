@@ -1,0 +1,8 @@
+id = 'gntp-send'
+name = 'gntp-send'
+
+homepage = 'https://github.com/mattn/gntp-send'
+
+[[package]]
+channel = 'debian'
+name = 'gntp-send'

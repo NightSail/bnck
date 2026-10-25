@@ -12,5 +12,9 @@ channel = 'crates.io'
 name = 'jj-cli'
 
 [[package]]
+channel = 'debian'
+name = 'jujutsu'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/jj'

@@ -1,0 +1,8 @@
+id = 'workerd'
+name = 'workerd'
+
+homepage = 'https://github.com/cloudflare/workerd'
+
+[[package]]
+channel = 'arch'
+name = 'workerd'

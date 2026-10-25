@@ -1,0 +1,8 @@
+id = 'pristine-lfs'
+name = 'pristine-lfs'
+
+homepage = 'https://salsa.debian.org/pristine-lfs-team/pristine-lfs'
+
+[[package]]
+channel = 'debian'
+name = 'pristine-lfs'

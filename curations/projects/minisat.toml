@@ -1,0 +1,25 @@
+id = 'minisat'
+name = 'minisat'
+
+homepage = 'http://minisat.se'
+repository = 'https://github.com/stp/minisat.git'
+
+[[package]]
+channel = 'arch'
+name = 'minisat'
+
+[[package]]
+channel = 'debian'
+name = 'minisat'
+
+[[package]]
+channel = 'debian'
+name = 'minisat+'
+
+[[package]]
+channel = 'fedora'
+name = 'minisat2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minisat'

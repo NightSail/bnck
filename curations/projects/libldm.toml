@@ -1,0 +1,16 @@
+id = 'libldm'
+name = 'libldm'
+
+homepage = 'https://github.com/mdbooth/libldm'
+
+[[package]]
+channel = 'arch'
+name = 'libldm'
+
+[[package]]
+channel = 'debian'
+name = 'ldmtool'
+
+[[package]]
+channel = 'fedora'
+name = 'libldm'

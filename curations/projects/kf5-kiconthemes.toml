@@ -1,0 +1,8 @@
+id = 'kf5-kiconthemes'
+name = 'kf5-kiconthemes'
+
+homepage = 'https://api.kde.org/frameworks/kiconthemes'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kiconthemes'

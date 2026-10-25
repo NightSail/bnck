@@ -1,0 +1,12 @@
+id = 'snow'
+name = 'snow'
+
+homepage = 'https://darkside.com.au/snow'
+
+[[package]]
+channel = 'debian'
+name = 'stegsnow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/snow'

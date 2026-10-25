@@ -1,0 +1,8 @@
+id = 'python3-tado'
+name = 'python3-tado'
+
+homepage = 'https://github.com/wmalgadey/PyTado'
+
+[[package]]
+channel = 'debian'
+name = 'python3-tado'

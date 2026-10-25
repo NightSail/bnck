@@ -1,0 +1,32 @@
+id = 'libidn'
+name = 'libidn'
+
+homepage = 'https://www.gnu.org/software/libidn'
+
+[[package]]
+channel = 'arch'
+name = 'libidn'
+
+[[package]]
+channel = 'arch'
+name = 'libidn2'
+
+[[package]]
+channel = 'debian'
+name = 'idn'
+
+[[package]]
+channel = 'debian'
+name = 'idn2'
+
+[[package]]
+channel = 'fedora'
+name = 'idn2'
+
+[[package]]
+channel = 'fedora'
+name = 'libidn'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libidn'

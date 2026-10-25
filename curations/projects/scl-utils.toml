@@ -1,0 +1,8 @@
+id = 'scl-utils'
+name = 'scl-utils'
+
+homepage = 'https://github.com/sclorg/scl-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'scl-utils'

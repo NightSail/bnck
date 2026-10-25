@@ -1,0 +1,9 @@
+id = 'spoofdpi'
+name = 'spoofdpi'
+
+homepage = 'https://spoofdpi.dev'
+repository = 'https://github.com/xvzc/SpoofDPI.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spoofdpi'

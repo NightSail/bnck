@@ -1,0 +1,12 @@
+id = 'libyuv'
+name = 'libyuv'
+
+homepage = 'https://chromium.googlesource.com/libyuv/libyuv'
+
+[[package]]
+channel = 'arch'
+name = 'libyuv'
+
+[[package]]
+channel = 'debian'
+name = 'libyuv-utils'

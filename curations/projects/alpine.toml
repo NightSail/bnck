@@ -1,0 +1,9 @@
+id = 'alpine'
+name = 'alpine'
+
+homepage = 'https://alpineapp.email'
+repository = 'https://repo.or.cz/alpine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/alpine'

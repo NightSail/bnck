@@ -1,0 +1,37 @@
+id = 'rpm'
+name = 'rpm'
+
+homepage = 'https://rpm.org'
+repository = 'https://github.com/rpm-software-management/rpm.git'
+
+[[package]]
+channel = 'arch'
+name = 'rpm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'rpm'
+
+[[package]]
+channel = 'debian'
+name = 'rpm2cpio'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm-build'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'rpm-sign'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rpm'

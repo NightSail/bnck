@@ -1,0 +1,8 @@
+id = 'exmh'
+name = 'exmh'
+
+homepage = 'http://www.exmh.org'
+
+[[package]]
+channel = 'debian'
+name = 'exmh'

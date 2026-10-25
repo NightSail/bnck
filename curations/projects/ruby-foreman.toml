@@ -1,0 +1,8 @@
+id = 'ruby-foreman'
+name = 'ruby-foreman'
+
+homepage = 'https://github.com/ddollar/foreman'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-foreman'

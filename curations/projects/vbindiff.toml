@@ -1,0 +1,20 @@
+id = 'vbindiff'
+name = 'vbindiff'
+
+homepage = 'https://www.cjmweb.net/vbindiff'
+
+[[package]]
+channel = 'arch'
+name = 'vbindiff'
+
+[[package]]
+channel = 'debian'
+name = 'vbindiff'
+
+[[package]]
+channel = 'fedora'
+name = 'vbindiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vbindiff'

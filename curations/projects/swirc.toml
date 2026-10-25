@@ -1,0 +1,8 @@
+id = 'swirc'
+name = 'swirc'
+
+homepage = 'https://www.nifty-networks.net/swirc'
+
+[[package]]
+channel = 'debian'
+name = 'swirc'

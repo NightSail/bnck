@@ -1,0 +1,20 @@
+id = 'dnsdist'
+name = 'dnsdist'
+
+homepage = 'https://www.dnsdist.org'
+
+[[package]]
+channel = 'arch'
+name = 'dnsdist'
+
+[[package]]
+channel = 'debian'
+name = 'dnsdist'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsdist'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsdist'

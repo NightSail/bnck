@@ -1,0 +1,12 @@
+id = 'srt'
+name = 'srt'
+
+homepage = 'https://github.com/cdown/srt'
+
+[[package]]
+channel = 'arch'
+name = 'python-srt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-srt'

@@ -1,0 +1,13 @@
+id = 'pyqt-builder'
+name = 'pyqt-builder'
+
+homepage = 'https://pypi.org/project/PyQt-builder'
+repository = 'https://github.com/Python-PyQt/PyQt-builder.git'
+
+[[package]]
+channel = 'arch'
+name = 'pyqt-builder'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pyqt-builder'

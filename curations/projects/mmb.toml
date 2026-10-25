@@ -1,0 +1,8 @@
+id = 'mmb'
+name = 'mmb'
+
+homepage = 'https://simtk.org/projects/rnatoolbox'
+
+[[package]]
+channel = 'debian'
+name = 'mmb'

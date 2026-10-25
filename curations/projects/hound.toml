@@ -1,0 +1,8 @@
+id = 'hound'
+name = 'hound'
+
+homepage = 'https://github.com/hound-search/hound'
+
+[[package]]
+channel = 'arch'
+name = 'hound'

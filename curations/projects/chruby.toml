@@ -1,0 +1,8 @@
+id = 'chruby'
+name = 'chruby'
+
+repository = 'https://github.com/postmodern/chruby.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chruby'

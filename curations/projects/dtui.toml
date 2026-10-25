@@ -1,0 +1,8 @@
+id = 'dtui'
+name = 'dtui'
+
+homepage = 'https://github.com/Troels51/dtui'
+
+[[package]]
+channel = 'debian'
+name = 'dtui'

@@ -1,0 +1,13 @@
+id = 'miniupnpc'
+name = 'miniupnpc'
+
+homepage = 'http://miniupnp.free.fr'
+repository = 'https://github.com/miniupnp/miniupnp.git'
+
+[[package]]
+channel = 'fedora'
+name = 'miniupnpc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/miniupnpc'

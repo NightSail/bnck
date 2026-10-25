@@ -1,0 +1,9 @@
+id = 'ctags-p'
+name = 'ctags'
+
+homepage = 'https://ctags.sourceforge.net'
+repository = 'https://svn.code.sf.net/p/ctags/code/trunk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctags'

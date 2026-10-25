@@ -1,0 +1,16 @@
+id = 'nedit'
+name = 'nedit'
+
+homepage = 'https://sourceforge.net/projects/nedit'
+
+[[package]]
+channel = 'debian'
+name = 'nedit'
+
+[[package]]
+channel = 'fedora'
+name = 'nedit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nedit'

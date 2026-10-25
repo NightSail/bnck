@@ -1,0 +1,8 @@
+id = 'deepin-editor'
+name = 'deepin-editor'
+
+homepage = 'https://github.com/linuxdeepin/deepin-editor'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-editor'

@@ -1,0 +1,8 @@
+id = 'presage'
+name = 'presage'
+
+homepage = 'https://presage.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'presage'

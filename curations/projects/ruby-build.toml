@@ -1,0 +1,21 @@
+id = 'ruby-build'
+name = 'ruby-build'
+
+homepage = 'https://rbenv.org/man/ruby-build.1'
+repository = 'https://github.com/rbenv/ruby-build.git'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-build'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-build'
+
+[[package]]
+channel = 'fedora'
+name = 'ruby-build'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruby-build'

@@ -1,0 +1,8 @@
+id = 'smatch'
+name = 'smatch'
+
+homepage = 'https://smatch.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'smatch'

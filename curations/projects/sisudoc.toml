@@ -1,0 +1,20 @@
+id = 'sisudoc'
+name = 'sisudoc'
+
+homepage = 'https://www.sisudoc.org'
+
+[[package]]
+channel = 'debian'
+name = 'sisu'
+
+[[package]]
+channel = 'debian'
+name = 'sisu-pdf'
+
+[[package]]
+channel = 'debian'
+name = 'sisu-postgresql'
+
+[[package]]
+channel = 'debian'
+name = 'sisu-sqlite'

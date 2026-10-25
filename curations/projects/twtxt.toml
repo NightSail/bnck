@@ -1,0 +1,8 @@
+id = 'twtxt'
+name = 'twtxt'
+
+homepage = 'https://github.com/buckket/twtxt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/twtxt'

@@ -1,0 +1,8 @@
+id = 'literate-git'
+name = 'literate-git'
+
+homepage = 'https://github.com/bennorth/literate-git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/literate-git'

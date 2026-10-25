@@ -1,0 +1,8 @@
+id = 'vv'
+name = 'vv'
+
+homepage = 'https://github.com/vv-vim/vv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/vv'

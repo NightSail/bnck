@@ -1,0 +1,6 @@
+id = 'tasksel'
+name = 'tasksel'
+
+[[package]]
+channel = 'debian'
+name = 'tasksel'

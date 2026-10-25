@@ -1,0 +1,8 @@
+id = 'mcp-toolbox'
+name = 'mcp-toolbox'
+
+homepage = 'https://github.com/googleapis/mcp-toolbox'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-toolbox'

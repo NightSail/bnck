@@ -1,0 +1,12 @@
+id = 'radicle'
+name = 'radicle'
+
+homepage = 'https://radicle.xyz'
+
+[[package]]
+channel = 'arch'
+name = 'radicle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/radicle'

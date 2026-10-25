@@ -1,0 +1,16 @@
+id = 'iwd'
+name = 'iwd'
+
+homepage = 'https://git.kernel.org/cgit/network/wireless/iwd.git'
+
+[[package]]
+channel = 'arch'
+name = 'iwd'
+
+[[package]]
+channel = 'debian'
+name = 'iwd'
+
+[[package]]
+channel = 'fedora'
+name = 'iwd'

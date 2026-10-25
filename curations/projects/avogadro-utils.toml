@@ -1,0 +1,6 @@
+id = 'avogadro-utils'
+name = 'avogadro-utils'
+
+[[package]]
+channel = 'debian'
+name = 'avogadro-utils'

@@ -1,0 +1,8 @@
+id = 'forego'
+name = 'forego'
+
+repository = 'https://github.com/ddollar/forego.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forego'

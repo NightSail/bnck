@@ -1,0 +1,8 @@
+id = 'golang-github-appc-docker2aci'
+name = 'golang-github-appc-docker2aci'
+
+homepage = 'https://github.com/appc/docker2aci'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-appc-docker2aci'

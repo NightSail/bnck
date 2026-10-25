@@ -1,0 +1,12 @@
+id = 'opentoonz'
+name = 'opentoonz'
+
+homepage = 'https://opentoonz.github.io/e'
+
+[[package]]
+channel = 'arch'
+name = 'opentoonz'
+
+[[package]]
+channel = 'fedora'
+name = 'opentoonz'

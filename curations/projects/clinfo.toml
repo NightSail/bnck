@@ -1,0 +1,20 @@
+id = 'clinfo'
+name = 'clinfo'
+
+repository = 'https://github.com/Oblomov/clinfo.git'
+
+[[package]]
+channel = 'arch'
+name = 'clinfo'
+
+[[package]]
+channel = 'debian'
+name = 'clinfo'
+
+[[package]]
+channel = 'fedora'
+name = 'clinfo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clinfo'

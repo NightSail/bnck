@@ -1,0 +1,8 @@
+id = 'libh3-bin'
+name = 'libh3-bin'
+
+homepage = 'https://h3geo.org'
+
+[[package]]
+channel = 'debian'
+name = 'libh3-bin'

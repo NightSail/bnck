@@ -1,0 +1,8 @@
+id = 'colortest-python'
+name = 'colortest-python'
+
+homepage = 'https://github.com/eikenb/terminal-colors'
+
+[[package]]
+channel = 'debian'
+name = 'colortest-python'

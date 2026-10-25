@@ -1,0 +1,12 @@
+id = 'docker-squash'
+name = 'docker-squash'
+
+homepage = 'https://github.com/goldmann/docker-squash'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-docker-squash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/docker-squash'

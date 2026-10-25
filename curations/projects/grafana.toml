@@ -1,0 +1,17 @@
+id = 'grafana'
+name = 'grafana'
+
+homepage = 'https://grafana.com'
+repository = 'https://github.com/grafana/grafana.git'
+
+[[package]]
+channel = 'arch'
+name = 'grafana'
+
+[[package]]
+channel = 'fedora'
+name = 'grafana'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grafana'

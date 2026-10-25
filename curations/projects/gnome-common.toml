@@ -1,0 +1,10 @@
+id = 'gnome-common'
+name = 'gnome-common'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-common'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-common'

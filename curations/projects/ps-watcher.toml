@@ -1,0 +1,8 @@
+id = 'ps-watcher'
+name = 'ps-watcher'
+
+homepage = 'https://ps-watcher.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ps-watcher'

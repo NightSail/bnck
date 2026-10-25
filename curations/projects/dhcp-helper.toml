@@ -1,0 +1,12 @@
+id = 'dhcp-helper'
+name = 'dhcp-helper'
+
+homepage = 'http://thekelleys.org.uk/dhcp-helper'
+
+[[package]]
+channel = 'arch'
+name = 'dhcp-helper'
+
+[[package]]
+channel = 'debian'
+name = 'dhcp-helper'

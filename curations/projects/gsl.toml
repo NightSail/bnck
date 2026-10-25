@@ -1,0 +1,24 @@
+id = 'gsl'
+name = 'gsl'
+
+homepage = 'https://www.gnu.org/software/gsl'
+
+[[package]]
+channel = 'debian'
+name = 'gsl-bin'
+
+[[package]]
+channel = 'debian'
+name = 'libgsl-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'gsl'
+
+[[package]]
+channel = 'fedora'
+name = 'gsl-devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gsl'

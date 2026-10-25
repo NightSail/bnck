@@ -1,0 +1,9 @@
+id = 'solarus'
+name = 'solarus'
+
+homepage = 'https://www.solarus-games.org'
+repository = 'https://gitlab.com/solarus-games/solarus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/solarus'

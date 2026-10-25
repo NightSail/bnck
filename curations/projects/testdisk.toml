@@ -1,0 +1,16 @@
+id = 'testdisk'
+name = 'testdisk'
+
+homepage = 'https://www.cgsecurity.org/wiki/TestDisk'
+
+[[package]]
+channel = 'fedora'
+name = 'qphotorec'
+
+[[package]]
+channel = 'fedora'
+name = 'testdisk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/testdisk'

@@ -1,0 +1,8 @@
+id = 'kubectl-tree'
+name = 'kubectl-tree'
+
+repository = 'https://github.com/ahmetb/kubectl-tree.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubectl-tree'

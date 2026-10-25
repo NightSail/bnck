@@ -1,0 +1,8 @@
+id = 'librarian-puppet-simple'
+name = 'librarian-puppet-simple'
+
+homepage = 'https://github.com/bodepd/librarian-puppet-simple'
+
+[[package]]
+channel = 'debian'
+name = 'librarian-puppet-simple'

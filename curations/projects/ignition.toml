@@ -1,0 +1,12 @@
+id = 'ignition'
+name = 'ignition'
+
+homepage = 'https://github.com/coreos/ignition'
+
+[[package]]
+channel = 'debian'
+name = 'ignition'
+
+[[package]]
+channel = 'fedora'
+name = 'ignition-validate'

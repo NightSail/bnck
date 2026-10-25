@@ -1,0 +1,20 @@
+id = 'fstrm'
+name = 'fstrm'
+
+repository = 'https://github.com/farsightsec/fstrm.git'
+
+[[package]]
+channel = 'arch'
+name = 'fstrm'
+
+[[package]]
+channel = 'debian'
+name = 'fstrm-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'fstrm-utils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fstrm'

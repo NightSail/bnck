@@ -1,0 +1,8 @@
+id = 'pkwalify'
+name = 'pkwalify'
+
+homepage = 'https://github.com/eserte/p5-Kwalify'
+
+[[package]]
+channel = 'debian'
+name = 'pkwalify'

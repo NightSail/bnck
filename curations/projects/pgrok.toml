@@ -1,0 +1,8 @@
+id = 'pgrok'
+name = 'pgrok'
+
+homepage = 'https://github.com/pgrok/pgrok'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgrok'

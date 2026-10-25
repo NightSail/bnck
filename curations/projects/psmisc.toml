@@ -1,0 +1,16 @@
+id = 'psmisc'
+name = 'psmisc'
+
+homepage = 'https://gitlab.com/psmisc/psmisc'
+
+[[package]]
+channel = 'arch'
+name = 'psmisc'
+
+[[package]]
+channel = 'debian'
+name = 'psmisc'
+
+[[package]]
+channel = 'fedora'
+name = 'psmisc'

@@ -1,0 +1,6 @@
+id = 'gpt'
+name = 'gpt'
+
+[[package]]
+channel = 'debian'
+name = 'gpt'

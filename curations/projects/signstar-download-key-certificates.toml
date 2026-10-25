@@ -1,0 +1,8 @@
+id = 'signstar-download-key-certificates'
+name = 'signstar-download-key-certificates'
+
+homepage = 'https://signstar.archlinux.page/signstar-download-key-certificates'
+
+[[package]]
+channel = 'arch'
+name = 'signstar-download-key-certificates'

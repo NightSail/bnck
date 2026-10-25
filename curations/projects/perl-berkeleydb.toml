@@ -1,0 +1,8 @@
+id = 'perl-berkeleydb'
+name = 'perl-BerkeleyDB'
+
+homepage = 'https://metacpan.org/release/BerkeleyDB'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-BerkeleyDB'

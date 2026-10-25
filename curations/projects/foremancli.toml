@@ -1,0 +1,8 @@
+id = 'foremancli'
+name = 'foremancli'
+
+homepage = 'https://github.com/ohadlevy/foreman/blob/master/extras/cli/foremancli'
+
+[[package]]
+channel = 'debian'
+name = 'foremancli'

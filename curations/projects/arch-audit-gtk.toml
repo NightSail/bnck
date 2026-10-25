@@ -1,0 +1,8 @@
+id = 'arch-audit-gtk'
+name = 'arch-audit-gtk'
+
+homepage = 'https://github.com/kpcyrd/arch-audit-gtk'
+
+[[package]]
+channel = 'arch'
+name = 'arch-audit-gtk'

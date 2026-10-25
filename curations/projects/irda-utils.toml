@@ -1,0 +1,8 @@
+id = 'irda-utils'
+name = 'irda-utils'
+
+homepage = 'http://irda.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'irda-utils'

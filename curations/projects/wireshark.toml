@@ -1,0 +1,44 @@
+id = 'wireshark'
+name = 'wireshark'
+
+homepage = 'https://www.wireshark.org'
+
+[[package]]
+channel = 'arch'
+name = 'wireshark-cli'
+
+[[package]]
+channel = 'arch'
+name = 'wireshark-qt'
+
+[[package]]
+channel = 'debian'
+name = 'stratoshark'
+
+[[package]]
+channel = 'debian'
+name = 'tshark'
+
+[[package]]
+channel = 'debian'
+name = 'wireshark'
+
+[[package]]
+channel = 'debian'
+name = 'wireshark-common'
+
+[[package]]
+channel = 'debian'
+name = 'wireshark-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'wireshark'
+
+[[package]]
+channel = 'fedora'
+name = 'wireshark-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wireshark-app'

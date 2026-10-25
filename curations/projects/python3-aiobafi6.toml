@@ -1,0 +1,8 @@
+id = 'python3-aiobafi6'
+name = 'python3-aiobafi6'
+
+homepage = 'https://github.com/jfroy/aiobafi6'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiobafi6'

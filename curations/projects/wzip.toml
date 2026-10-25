@@ -1,0 +1,6 @@
+id = 'wzip'
+name = 'wzip'
+
+[[package]]
+channel = 'debian'
+name = 'wzip'

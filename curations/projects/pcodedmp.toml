@@ -1,0 +1,8 @@
+id = 'pcodedmp'
+name = 'pcodedmp'
+
+homepage = 'https://github.com/bontchev/pcodedmp'
+
+[[package]]
+channel = 'fedora'
+name = 'pcodedmp'

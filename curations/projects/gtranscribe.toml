@@ -1,0 +1,8 @@
+id = 'gtranscribe'
+name = 'gtranscribe'
+
+homepage = 'https://github.com/innir/gtranscribe'
+
+[[package]]
+channel = 'debian'
+name = 'gtranscribe'

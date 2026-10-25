@@ -1,0 +1,16 @@
+id = 'libfaketime'
+name = 'libfaketime'
+
+homepage = 'https://github.com/wolfcw/libfaketime'
+
+[[package]]
+channel = 'arch'
+name = 'libfaketime'
+
+[[package]]
+channel = 'debian'
+name = 'faketime'
+
+[[package]]
+channel = 'fedora'
+name = 'libfaketime'

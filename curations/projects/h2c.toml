@@ -1,0 +1,8 @@
+id = 'h2c'
+name = 'h2c'
+
+homepage = 'https://curl.se/h2c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/h2c'

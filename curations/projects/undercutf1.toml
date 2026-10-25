@@ -1,0 +1,9 @@
+id = 'undercutf1'
+name = 'undercutf1'
+
+homepage = 'https://amandhoot.com'
+repository = 'https://github.com/JustAman62/undercut-f1.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/undercutf1'

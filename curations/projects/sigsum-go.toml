@@ -1,0 +1,12 @@
+id = 'sigsum-go'
+name = 'sigsum-go'
+
+homepage = 'https://sigsum.org'
+
+[[package]]
+channel = 'debian'
+name = 'sigsum-go'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sigsum-go'

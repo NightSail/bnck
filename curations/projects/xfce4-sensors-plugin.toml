@@ -1,0 +1,16 @@
+id = 'xfce4-sensors-plugin'
+name = 'xfce4-sensors-plugin'
+
+homepage = 'https://docs.xfce.org/panel-plugins/xfce4-sensors-plugin/start'
+
+[[package]]
+channel = 'arch'
+name = 'xfce4-sensors-plugin'
+
+[[package]]
+channel = 'debian'
+name = 'xfce4-sensors-plugin'
+
+[[package]]
+channel = 'fedora'
+name = 'xfce4-sensors-plugin'

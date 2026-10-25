@@ -1,0 +1,8 @@
+id = 'rswift'
+name = 'rswift'
+
+repository = 'https://github.com/mac-cain13/R.swift.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rswift'

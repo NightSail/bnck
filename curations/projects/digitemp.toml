@@ -1,0 +1,17 @@
+id = 'digitemp'
+name = 'digitemp'
+
+homepage = 'https://www.digitemp.com'
+repository = 'https://github.com/bcl/digitemp.git'
+
+[[package]]
+channel = 'debian'
+name = 'digitemp'
+
+[[package]]
+channel = 'fedora'
+name = 'digitemp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/digitemp'

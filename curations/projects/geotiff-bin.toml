@@ -1,0 +1,8 @@
+id = 'geotiff-bin'
+name = 'geotiff-bin'
+
+homepage = 'https://geotiff.osgeo.org'
+
+[[package]]
+channel = 'debian'
+name = 'geotiff-bin'

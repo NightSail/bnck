@@ -1,0 +1,12 @@
+id = 'glyphslib'
+name = 'glyphslib'
+
+homepage = 'https://github.com/googlefonts/glyphsLib'
+
+[[package]]
+channel = 'debian'
+name = 'glyphslib'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-glyphsLib'

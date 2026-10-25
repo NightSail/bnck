@@ -1,0 +1,8 @@
+id = 'maelstrom'
+name = 'Maelstrom'
+
+homepage = 'http://www.libsdl.org/projects/Maelstrom'
+
+[[package]]
+channel = 'fedora'
+name = 'Maelstrom'

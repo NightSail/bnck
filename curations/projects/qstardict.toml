@@ -1,0 +1,16 @@
+id = 'qstardict'
+name = 'qstardict'
+
+homepage = 'http://qstardict.ylsoftware.com/index.php'
+
+[[package]]
+channel = 'arch'
+name = 'qstardict'
+
+[[package]]
+channel = 'debian'
+name = 'qstardict'
+
+[[package]]
+channel = 'fedora'
+name = 'qstardict'

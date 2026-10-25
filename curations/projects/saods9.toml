@@ -1,0 +1,8 @@
+id = 'saods9'
+name = 'saods9'
+
+homepage = 'http://ds9.si.edu'
+
+[[package]]
+channel = 'debian'
+name = 'saods9'

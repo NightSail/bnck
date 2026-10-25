@@ -1,0 +1,12 @@
+id = 'freedv'
+name = 'freedv'
+
+homepage = 'https://freedv.org'
+
+[[package]]
+channel = 'debian'
+name = 'freedv'
+
+[[package]]
+channel = 'fedora'
+name = 'freedv'

@@ -1,0 +1,12 @@
+id = 'mpssh'
+name = 'mpssh'
+
+repository = 'https://github.com/ndenev/mpssh.git'
+
+[[package]]
+channel = 'fedora'
+name = 'mpssh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mpssh'

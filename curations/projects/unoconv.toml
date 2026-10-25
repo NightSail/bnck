@@ -1,0 +1,12 @@
+id = 'unoconv'
+name = 'unoconv'
+
+repository = 'https://github.com/unoconv/unoconv.git'
+
+[[package]]
+channel = 'fedora'
+name = 'unoconv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unoconv'

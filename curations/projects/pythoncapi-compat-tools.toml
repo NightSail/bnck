@@ -1,0 +1,8 @@
+id = 'pythoncapi-compat-tools'
+name = 'pythoncapi-compat-tools'
+
+homepage = 'https://github.com/python/pythoncapi-compat'
+
+[[package]]
+channel = 'fedora'
+name = 'pythoncapi-compat-tools'

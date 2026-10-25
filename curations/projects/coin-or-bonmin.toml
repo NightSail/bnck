@@ -1,0 +1,8 @@
+id = 'coin-or-bonmin'
+name = 'coin-or-Bonmin'
+
+homepage = 'https://projects.coin-or.org/Bonmin'
+
+[[package]]
+channel = 'fedora'
+name = 'coin-or-Bonmin'

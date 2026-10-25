@@ -1,0 +1,8 @@
+id = 'slirp'
+name = 'slirp'
+
+homepage = 'http://slirp.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'slirp'

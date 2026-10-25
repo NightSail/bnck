@@ -1,0 +1,8 @@
+id = 'mauve-aligner'
+name = 'mauve-aligner'
+
+homepage = 'https://darlinglab.org/mauve'
+
+[[package]]
+channel = 'debian'
+name = 'mauve-aligner'

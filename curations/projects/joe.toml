@@ -1,0 +1,20 @@
+id = 'joe'
+name = 'joe'
+
+homepage = 'https://joe-editor.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'joe'
+
+[[package]]
+channel = 'debian'
+name = 'joe'
+
+[[package]]
+channel = 'fedora'
+name = 'joe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/joe'

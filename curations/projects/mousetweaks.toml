@@ -1,0 +1,16 @@
+id = 'mousetweaks'
+name = 'mousetweaks'
+
+homepage = 'https://wiki.gnome.org/Projects/Mousetweaks'
+
+[[package]]
+channel = 'arch'
+name = 'mousetweaks'
+
+[[package]]
+channel = 'debian'
+name = 'mousetweaks'
+
+[[package]]
+channel = 'fedora'
+name = 'mousetweaks'

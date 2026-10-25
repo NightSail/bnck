@@ -1,0 +1,8 @@
+id = 'espctag'
+name = 'espctag'
+
+homepage = 'https://sourceforge.net/projects/espctag'
+
+[[package]]
+channel = 'debian'
+name = 'espctag'

@@ -1,0 +1,8 @@
+id = 'aggregate6'
+name = 'aggregate6'
+
+homepage = 'https://github.com/job/aggregate6'
+
+[[package]]
+channel = 'fedora'
+name = 'aggregate6'

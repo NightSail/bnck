@@ -1,0 +1,6 @@
+id = 'rdiff-backup-fs'
+name = 'rdiff-backup-fs'
+
+[[package]]
+channel = 'debian'
+name = 'rdiff-backup-fs'

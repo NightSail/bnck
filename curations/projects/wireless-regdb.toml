@@ -1,0 +1,12 @@
+id = 'wireless-regdb'
+name = 'wireless-regdb'
+
+homepage = 'https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb'
+
+[[package]]
+channel = 'arch'
+name = 'wireless-regdb'
+
+[[package]]
+channel = 'fedora'
+name = 'wireless-regdb'

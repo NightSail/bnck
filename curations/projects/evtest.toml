@@ -1,0 +1,16 @@
+id = 'evtest'
+name = 'evtest'
+
+homepage = 'https://cgit.freedesktop.org/evtest'
+
+[[package]]
+channel = 'arch'
+name = 'evtest'
+
+[[package]]
+channel = 'debian'
+name = 'evtest'
+
+[[package]]
+channel = 'fedora'
+name = 'evtest'

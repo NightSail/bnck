@@ -1,0 +1,8 @@
+id = 'python-debugpy'
+name = 'python-debugpy'
+
+homepage = 'https://aka.ms/debugpy'
+
+[[package]]
+channel = 'arch'
+name = 'python-debugpy'

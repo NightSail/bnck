@@ -1,0 +1,8 @@
+id = 'dt'
+name = 'dt'
+
+homepage = 'https://github.com/RobinTMiller/dt'
+
+[[package]]
+channel = 'fedora'
+name = 'dt'

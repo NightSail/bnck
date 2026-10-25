@@ -1,0 +1,28 @@
+id = 'colord'
+name = 'colord'
+
+homepage = 'https://www.freedesktop.org/software/colord'
+
+[[package]]
+channel = 'arch'
+name = 'colord'
+
+[[package]]
+channel = 'arch'
+name = 'colord-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'colord'
+
+[[package]]
+channel = 'debian'
+name = 'colord-gtk-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'colord'
+
+[[package]]
+channel = 'fedora'
+name = 'colord-gtk'

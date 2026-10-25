@@ -1,0 +1,8 @@
+id = 'kiwix'
+name = 'kiwix'
+
+homepage = 'https://www.kiwix.org'
+
+[[package]]
+channel = 'debian'
+name = 'kiwix'

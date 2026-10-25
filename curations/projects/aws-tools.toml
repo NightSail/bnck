@@ -1,0 +1,8 @@
+id = 'aws-tools'
+name = 'aws-tools'
+
+homepage = 'https://github.com/AdaCore/aws'
+
+[[package]]
+channel = 'fedora'
+name = 'aws-tools'

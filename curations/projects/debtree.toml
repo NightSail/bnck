@@ -1,0 +1,8 @@
+id = 'debtree'
+name = 'debtree'
+
+homepage = 'https://salsa.debian.org/debian/debtree'
+
+[[package]]
+channel = 'debian'
+name = 'debtree'

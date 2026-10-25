@@ -1,0 +1,8 @@
+id = 'osptoolkit'
+name = 'osptoolkit'
+
+homepage = 'https://sourceforge.net/projects/osp-toolkit'
+
+[[package]]
+channel = 'debian'
+name = 'osptoolkit'

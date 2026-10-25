@@ -1,0 +1,12 @@
+id = 'pdfresurrect'
+name = 'pdfresurrect'
+
+homepage = 'https://github.com/enferex/pdfresurrect'
+
+[[package]]
+channel = 'debian'
+name = 'pdfresurrect'
+
+[[package]]
+channel = 'fedora'
+name = 'pdfresurrect'

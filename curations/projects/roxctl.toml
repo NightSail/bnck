@@ -1,0 +1,9 @@
+id = 'roxctl'
+name = 'roxctl'
+
+homepage = 'https://www.stackrox.io'
+repository = 'https://github.com/stackrox/stackrox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/roxctl'

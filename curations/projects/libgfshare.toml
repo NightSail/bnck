@@ -1,0 +1,16 @@
+id = 'libgfshare'
+name = 'libgfshare'
+
+homepage = 'https://github.com/kinnison/libgfshare'
+
+[[package]]
+channel = 'arch'
+name = 'libgfshare'
+
+[[package]]
+channel = 'debian'
+name = 'libgfshare-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgfshare'

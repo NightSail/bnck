@@ -1,0 +1,12 @@
+id = 'ioquake3'
+name = 'ioquake3'
+
+homepage = 'http://ioquake3.org'
+
+[[package]]
+channel = 'fedora'
+name = 'quake3'
+
+[[package]]
+channel = 'fedora'
+name = 'quake3-demo'

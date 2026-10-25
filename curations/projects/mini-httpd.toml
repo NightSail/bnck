@@ -1,0 +1,8 @@
+id = 'mini-httpd'
+name = 'mini-httpd'
+
+homepage = 'https://www.acme.com/software/mini_httpd'
+
+[[package]]
+channel = 'debian'
+name = 'mini-httpd'

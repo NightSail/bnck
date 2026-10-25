@@ -1,0 +1,8 @@
+id = 'pampi'
+name = 'pampi'
+
+homepage = 'http://pascal.peter.free.fr/pampi.html'
+
+[[package]]
+channel = 'debian'
+name = 'pampi'

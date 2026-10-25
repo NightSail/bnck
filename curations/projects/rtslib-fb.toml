@@ -1,0 +1,12 @@
+id = 'rtslib-fb'
+name = 'rtslib-fb'
+
+homepage = 'https://github.com/open-iscsi/rtslib-fb'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rtslib-fb'
+
+[[package]]
+channel = 'fedora'
+name = 'target-restore'

@@ -1,0 +1,24 @@
+id = 'iptables'
+name = 'iptables'
+
+homepage = 'https://www.netfilter.org/projects/iptables/index.html'
+
+[[package]]
+channel = 'arch'
+name = 'iptables'
+
+[[package]]
+channel = 'arch'
+name = 'iptables-legacy'
+
+[[package]]
+channel = 'fedora'
+name = 'iptables-legacy'
+
+[[package]]
+channel = 'fedora'
+name = 'iptables-nft'
+
+[[package]]
+channel = 'fedora'
+name = 'iptables-utils'

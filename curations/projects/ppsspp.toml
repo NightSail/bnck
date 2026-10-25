@@ -1,0 +1,13 @@
+id = 'ppsspp'
+name = 'ppsspp'
+
+homepage = 'https://www.ppsspp.org'
+repository = 'https://github.com/hrydgard/ppsspp.git'
+
+[[package]]
+channel = 'arch'
+name = 'ppsspp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ppsspp'

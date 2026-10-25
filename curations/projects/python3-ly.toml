@@ -1,0 +1,8 @@
+id = 'python3-ly'
+name = 'python3-ly'
+
+homepage = 'https://pypi.python.org/pypi/python-ly'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-ly'

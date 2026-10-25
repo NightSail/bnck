@@ -1,0 +1,12 @@
+id = 'openntpd'
+name = 'openntpd'
+
+homepage = 'https://www.openntpd.org'
+
+[[package]]
+channel = 'arch'
+name = 'openntpd'
+
+[[package]]
+channel = 'debian'
+name = 'openntpd'

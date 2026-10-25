@@ -1,0 +1,8 @@
+id = 'theme-d-intr-dev'
+name = 'theme-d-intr-dev'
+
+homepage = 'http://www.iki.fi/tohoyn/theme-d-intr'
+
+[[package]]
+channel = 'debian'
+name = 'theme-d-intr-dev'

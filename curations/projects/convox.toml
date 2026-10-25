@@ -1,0 +1,9 @@
+id = 'convox'
+name = 'convox'
+
+homepage = 'https://convox.com'
+repository = 'https://github.com/convox/convox.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/convox'

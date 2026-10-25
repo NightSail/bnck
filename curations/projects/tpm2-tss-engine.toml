@@ -1,0 +1,16 @@
+id = 'tpm2-tss-engine'
+name = 'tpm2-tss-engine'
+
+homepage = 'https://github.com/tpm2-software/tpm2-tss-engine'
+
+[[package]]
+channel = 'arch'
+name = 'tpm2-tss-engine'
+
+[[package]]
+channel = 'debian'
+name = 'tpm2-tss-engine-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'tpm2-tss-engine-utilities'

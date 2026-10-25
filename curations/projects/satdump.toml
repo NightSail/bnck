@@ -1,0 +1,12 @@
+id = 'satdump'
+name = 'satdump'
+
+homepage = 'https://www.satdump.org'
+
+[[package]]
+channel = 'debian'
+name = 'satdump'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/satdump'

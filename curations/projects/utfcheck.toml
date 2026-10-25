@@ -1,0 +1,8 @@
+id = 'utfcheck'
+name = 'utfcheck'
+
+homepage = 'https://unifoundry.com/utfcheck'
+
+[[package]]
+channel = 'debian'
+name = 'utfcheck'

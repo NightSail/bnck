@@ -1,0 +1,12 @@
+id = 'dontpanic'
+name = 'dontpanic'
+
+homepage = 'https://github.com/Perl5-Alien/dontpanic'
+
+[[package]]
+channel = 'arch'
+name = 'dontpanic'
+
+[[package]]
+channel = 'fedora'
+name = 'dontpanic'

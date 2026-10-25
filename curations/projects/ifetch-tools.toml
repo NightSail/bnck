@@ -1,0 +1,8 @@
+id = 'ifetch-tools'
+name = 'ifetch-tools'
+
+homepage = 'https://fyeox.com/ifetch-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ifetch-tools'

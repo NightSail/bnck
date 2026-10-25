@@ -1,0 +1,6 @@
+id = 'atlc'
+name = 'atlc'
+
+[[package]]
+channel = 'debian'
+name = 'atlc'

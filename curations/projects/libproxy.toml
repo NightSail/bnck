@@ -1,0 +1,21 @@
+id = 'libproxy'
+name = 'libproxy'
+
+homepage = 'https://libproxy.github.io/libproxy'
+repository = 'https://github.com/libproxy/libproxy.git'
+
+[[package]]
+channel = 'arch'
+name = 'libproxy'
+
+[[package]]
+channel = 'debian'
+name = 'libproxy-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'libproxy-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libproxy'

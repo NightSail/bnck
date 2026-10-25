@@ -1,0 +1,8 @@
+id = 'python3-samsungctl'
+name = 'python3-samsungctl'
+
+homepage = 'https://github.com/Ape/samsungctl'
+
+[[package]]
+channel = 'debian'
+name = 'python3-samsungctl'

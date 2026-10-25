@@ -1,0 +1,8 @@
+id = 'tk2'
+name = 'tk2'
+
+homepage = 'http://parnass.org/tk2'
+
+[[package]]
+channel = 'debian'
+name = 'tk2'

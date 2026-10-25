@@ -1,0 +1,12 @@
+id = 'srpc'
+name = 'srpc'
+
+homepage = 'https://github.com/sogou/srpc'
+
+[[package]]
+channel = 'debian'
+name = 'libsrpc-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'srpc'

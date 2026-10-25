@@ -1,0 +1,8 @@
+id = 'organize'
+name = 'organize'
+
+homepage = 'https://github.com/tfeldmann/organize'
+
+[[package]]
+channel = 'debian'
+name = 'organize'

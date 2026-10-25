@@ -1,0 +1,12 @@
+id = 'minicoredumper'
+name = 'minicoredumper'
+
+homepage = 'https://www.linutronix.de/minicoredumper'
+
+[[package]]
+channel = 'debian'
+name = 'minicoredumper'
+
+[[package]]
+channel = 'debian'
+name = 'minicoredumper-utils'

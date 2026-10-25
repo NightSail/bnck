@@ -1,0 +1,8 @@
+id = 'lv2proc'
+name = 'lv2proc'
+
+homepage = 'http://naspro.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'lv2proc'

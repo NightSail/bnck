@@ -1,0 +1,12 @@
+id = 'jags'
+name = 'jags'
+
+homepage = 'https://mcmc-jags.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'jags'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jags'

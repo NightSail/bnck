@@ -1,0 +1,16 @@
+id = 'lokalize'
+name = 'lokalize'
+
+homepage = 'https://apps.kde.org/lokalize'
+
+[[package]]
+channel = 'arch'
+name = 'lokalize'
+
+[[package]]
+channel = 'debian'
+name = 'lokalize'
+
+[[package]]
+channel = 'fedora'
+name = 'lokalize'

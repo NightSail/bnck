@@ -1,0 +1,13 @@
+id = 'cgrep'
+name = 'cgrep'
+
+homepage = 'https://awgn.github.io/cgrep'
+repository = 'https://github.com/awgn/cgrep.git'
+
+[[package]]
+channel = 'arch'
+name = 'cgrep'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cgrep'

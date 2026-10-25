@@ -1,0 +1,8 @@
+id = 'rubygem-safe-yaml'
+name = 'rubygem-safe_yaml'
+
+homepage = 'http://dtao.github.com/safe_yaml'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-safe_yaml'

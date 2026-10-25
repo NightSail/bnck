@@ -1,0 +1,8 @@
+id = 'python3-pkginfo'
+name = 'python3-pkginfo'
+
+homepage = 'https://pythonhosted.org/pkginfo'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pkginfo'

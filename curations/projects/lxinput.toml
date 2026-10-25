@@ -1,0 +1,12 @@
+id = 'lxinput'
+name = 'lxinput'
+
+homepage = 'https://github.com/lxde/lxinput'
+
+[[package]]
+channel = 'arch'
+name = 'lxinput'
+
+[[package]]
+channel = 'debian'
+name = 'lxinput'

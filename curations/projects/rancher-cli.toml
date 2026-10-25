@@ -1,0 +1,8 @@
+id = 'rancher-cli'
+name = 'rancher-cli'
+
+repository = 'https://github.com/rancher/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rancher-cli'

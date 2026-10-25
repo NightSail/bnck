@@ -1,0 +1,12 @@
+id = 'oomd'
+name = 'oomd'
+
+homepage = 'https://github.com/facebookincubator/oomd'
+
+[[package]]
+channel = 'debian'
+name = 'oomd'
+
+[[package]]
+channel = 'fedora'
+name = 'oomd'

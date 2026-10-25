@@ -1,0 +1,36 @@
+id = 'svxlink'
+name = 'svxlink'
+
+homepage = 'https://www.svxlink.org'
+
+[[package]]
+channel = 'debian'
+name = 'qtel'
+
+[[package]]
+channel = 'debian'
+name = 'remotetrx'
+
+[[package]]
+channel = 'debian'
+name = 'svxlink-calibration-tools'
+
+[[package]]
+channel = 'debian'
+name = 'svxlink-server'
+
+[[package]]
+channel = 'debian'
+name = 'svxreflector'
+
+[[package]]
+channel = 'fedora'
+name = 'qtel'
+
+[[package]]
+channel = 'fedora'
+name = 'svxlink-reflector'
+
+[[package]]
+channel = 'fedora'
+name = 'svxlink-server'

@@ -1,0 +1,9 @@
+id = 'ferron'
+name = 'ferron'
+
+homepage = 'https://www.ferronweb.org'
+repository = 'https://github.com/ferronweb/ferron.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ferron'

@@ -1,0 +1,8 @@
+id = 'python3-mhcgnomes'
+name = 'python3-mhcgnomes'
+
+homepage = 'https://github.com/pirl-unc/mhcgnomes'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mhcgnomes'

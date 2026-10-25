@@ -1,0 +1,9 @@
+id = 'ssh-copy-id'
+name = 'ssh-copy-id'
+
+homepage = 'https://www.openssh.com'
+repository = 'https://github.com/openssh/openssh-portable.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssh-copy-id'

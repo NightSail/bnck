@@ -1,0 +1,28 @@
+id = 'graphviz'
+name = 'graphviz'
+
+homepage = 'https://www.graphviz.org'
+
+[[package]]
+channel = 'arch'
+name = 'graphviz'
+
+[[package]]
+channel = 'debian'
+name = 'graphviz'
+
+[[package]]
+channel = 'debian'
+name = 'graphviz-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libgvc6'
+
+[[package]]
+channel = 'fedora'
+name = 'graphviz'
+
+[[package]]
+channel = 'fedora'
+name = 'graphviz-smyrna'

@@ -1,0 +1,8 @@
+id = 'cargo-features-manager'
+name = 'cargo-features-manager'
+
+repository = 'https://tangled.org/tobinio.dev/cargo-features-manager.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-features-manager'

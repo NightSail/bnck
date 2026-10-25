@@ -1,0 +1,8 @@
+id = 'tsnet-serve'
+name = 'tsnet-serve'
+
+repository = 'https://github.com/shayne/tsnet-serve.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tsnet-serve'

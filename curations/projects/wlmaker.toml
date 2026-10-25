@@ -1,0 +1,12 @@
+id = 'wlmaker'
+name = 'wlmaker'
+
+homepage = 'https://github.com/phkaeser/wlmaker'
+
+[[package]]
+channel = 'debian'
+name = 'wlmaker'
+
+[[package]]
+channel = 'fedora'
+name = 'wlmaker'

@@ -1,0 +1,8 @@
+id = 'perl-svk'
+name = 'perl-SVK'
+
+homepage = 'https://metacpan.org/release/SVK'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SVK'

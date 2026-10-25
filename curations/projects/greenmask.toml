@@ -1,0 +1,9 @@
+id = 'greenmask'
+name = 'greenmask'
+
+homepage = 'https://www.greenmask.io'
+repository = 'https://github.com/GreenmaskIO/greenmask.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/greenmask'

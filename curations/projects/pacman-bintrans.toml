@@ -1,0 +1,12 @@
+id = 'pacman-bintrans'
+name = 'pacman-bintrans'
+
+homepage = 'https://github.com/kpcyrd/pacman-bintrans'
+
+[[package]]
+channel = 'arch'
+name = 'pacman-bintrans'
+
+[[package]]
+channel = 'arch'
+name = 'pacman-bintrans-tools'

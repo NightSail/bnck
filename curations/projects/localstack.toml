@@ -1,0 +1,16 @@
+id = 'localstack'
+name = 'localstack'
+
+homepage = 'https://www.localstack.cloud'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/awscli-local'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/localstack'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-local'

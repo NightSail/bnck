@@ -1,0 +1,8 @@
+id = 'gifwrap'
+name = 'gifwrap'
+
+homepage = 'https://github.com/liamg/gifwrap'
+
+[[package]]
+channel = 'debian'
+name = 'gifwrap'

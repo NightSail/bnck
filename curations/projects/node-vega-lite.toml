@@ -1,0 +1,8 @@
+id = 'node-vega-lite'
+name = 'node-vega-lite'
+
+homepage = 'https://vega.github.io/vega-lite'
+
+[[package]]
+channel = 'debian'
+name = 'node-vega-lite'

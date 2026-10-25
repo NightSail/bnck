@@ -1,0 +1,21 @@
+id = 'unpaper'
+name = 'unpaper'
+
+homepage = 'https://www.flameeyes.eu/projects/unpaper'
+repository = 'https://github.com/unpaper/unpaper.git'
+
+[[package]]
+channel = 'arch'
+name = 'unpaper'
+
+[[package]]
+channel = 'debian'
+name = 'unpaper'
+
+[[package]]
+channel = 'fedora'
+name = 'unpaper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/unpaper'

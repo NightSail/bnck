@@ -1,0 +1,100 @@
+id = 'rust-lang'
+name = 'rust-lang'
+
+homepage = 'https://www.rust-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'rust'
+
+[[package]]
+channel = 'debian'
+name = 'cargo'
+
+[[package]]
+channel = 'debian'
+name = 'cargo-web'
+
+[[package]]
+channel = 'debian'
+name = 'rust-analyzer'
+
+[[package]]
+channel = 'debian'
+name = 'rust-clippy'
+
+[[package]]
+channel = 'debian'
+name = 'rust-gdb'
+
+[[package]]
+channel = 'debian'
+name = 'rust-lldb'
+
+[[package]]
+channel = 'debian'
+name = 'rust-llvm'
+
+[[package]]
+channel = 'debian'
+name = 'rust-web-analyzer'
+
+[[package]]
+channel = 'debian'
+name = 'rust-web-clippy'
+
+[[package]]
+channel = 'debian'
+name = 'rust-web-gdb'
+
+[[package]]
+channel = 'debian'
+name = 'rust-web-lldb'
+
+[[package]]
+channel = 'debian'
+name = 'rust-web-llvm'
+
+[[package]]
+channel = 'debian'
+name = 'rustc'
+
+[[package]]
+channel = 'debian'
+name = 'rustc-web'
+
+[[package]]
+channel = 'debian'
+name = 'rustfmt'
+
+[[package]]
+channel = 'debian'
+name = 'rustfmt-web'
+
+[[package]]
+channel = 'fedora'
+name = 'cargo'
+
+[[package]]
+channel = 'fedora'
+name = 'clippy'
+
+[[package]]
+channel = 'fedora'
+name = 'rust'
+
+[[package]]
+channel = 'fedora'
+name = 'rust-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'rust-gdb'
+
+[[package]]
+channel = 'fedora'
+name = 'rust-lldb'
+
+[[package]]
+channel = 'fedora'
+name = 'rustfmt'

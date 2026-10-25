@@ -1,0 +1,12 @@
+id = 'nsxiv'
+name = 'nsxiv'
+
+homepage = 'https://nsxiv.codeberg.page'
+
+[[package]]
+channel = 'arch'
+name = 'nsxiv'
+
+[[package]]
+channel = 'debian'
+name = 'nsxiv'

@@ -1,0 +1,9 @@
+id = 'mob'
+name = 'mob'
+
+homepage = 'https://mob.sh'
+repository = 'https://github.com/remotemobprogramming/mob.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mob'

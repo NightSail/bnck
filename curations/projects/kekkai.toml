@@ -1,0 +1,8 @@
+id = 'kekkai'
+name = 'kekkai'
+
+repository = 'https://github.com/catatsuy/kekkai.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kekkai'

@@ -1,0 +1,8 @@
+id = 'ufo2otf'
+name = 'ufo2otf'
+
+homepage = 'https://github.com/fonts/ufo2otf'
+
+[[package]]
+channel = 'debian'
+name = 'ufo2otf'

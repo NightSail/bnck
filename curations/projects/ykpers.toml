@@ -1,0 +1,12 @@
+id = 'ykpers'
+name = 'ykpers'
+
+homepage = 'https://developers.yubico.com/yubikey-personalization'
+
+[[package]]
+channel = 'fedora'
+name = 'ykpers'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ykpers'

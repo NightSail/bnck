@@ -1,0 +1,12 @@
+id = 'rust-script'
+name = 'rust-script'
+
+homepage = 'https://rust-script.org'
+
+[[package]]
+channel = 'arch'
+name = 'rust-script'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rust-script'

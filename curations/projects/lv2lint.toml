@@ -1,0 +1,8 @@
+id = 'lv2lint'
+name = 'lv2lint'
+
+homepage = 'https://git.open-music-kontrollers.ch/~hp/lv2lint'
+
+[[package]]
+channel = 'arch'
+name = 'lv2lint'

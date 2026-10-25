@@ -1,0 +1,8 @@
+id = 'kapacitor'
+name = 'kapacitor'
+
+repository = 'https://github.com/influxdata/kapacitor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kapacitor'

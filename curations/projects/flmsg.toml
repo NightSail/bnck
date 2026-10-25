@@ -1,0 +1,8 @@
+id = 'flmsg'
+name = 'flmsg'
+
+homepage = 'http://www.w1hkj.com/flmsg-help'
+
+[[package]]
+channel = 'debian'
+name = 'flmsg'

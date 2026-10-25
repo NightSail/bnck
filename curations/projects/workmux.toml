@@ -1,0 +1,8 @@
+id = 'workmux'
+name = 'workmux'
+
+homepage = 'https://workmux.raine.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/workmux'

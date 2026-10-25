@@ -1,0 +1,8 @@
+id = 'git-buildpackage'
+name = 'git-buildpackage'
+
+homepage = 'https://honk.sigxcpu.org/piki/projects/git-buildpackage'
+
+[[package]]
+channel = 'debian'
+name = 'git-buildpackage'

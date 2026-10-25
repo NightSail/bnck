@@ -1,0 +1,8 @@
+id = 'ser2net-ser2net-2'
+name = 'ser2net'
+
+homepage = 'https://ser2net.sourceforge.net'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ser2net'

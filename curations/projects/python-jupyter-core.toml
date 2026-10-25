@@ -1,0 +1,8 @@
+id = 'python-jupyter-core'
+name = 'python-jupyter-core'
+
+homepage = 'https://pypi.python.org/pypi/jupyter_core'
+
+[[package]]
+channel = 'arch'
+name = 'python-jupyter-core'

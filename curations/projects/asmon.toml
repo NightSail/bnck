@@ -1,0 +1,8 @@
+id = 'asmon'
+name = 'asmon'
+
+homepage = 'http://rio.vg/asmon'
+
+[[package]]
+channel = 'debian'
+name = 'asmon'

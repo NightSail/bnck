@@ -1,0 +1,8 @@
+id = 'fosfat'
+name = 'fosfat'
+
+homepage = 'https://skywalker13.github.io/Fosfat'
+
+[[package]]
+channel = 'debian'
+name = 'fosfat'

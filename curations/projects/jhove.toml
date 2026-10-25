@@ -1,0 +1,8 @@
+id = 'jhove'
+name = 'jhove'
+
+homepage = 'https://github.com/openpreserve/jhove'
+
+[[package]]
+channel = 'debian'
+name = 'jhove'

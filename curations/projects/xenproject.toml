@@ -1,0 +1,12 @@
+id = 'xenproject'
+name = 'xenproject'
+
+homepage = 'https://xenproject.org'
+
+[[package]]
+channel = 'debian'
+name = 'xen-utils-common'
+
+[[package]]
+channel = 'debian'
+name = 'xenstore-utils'

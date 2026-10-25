@@ -1,0 +1,16 @@
+id = 'woodpecker-ci'
+name = 'woodpecker-ci'
+
+homepage = 'https://woodpecker-ci.org'
+
+[[package]]
+channel = 'arch'
+name = 'woodpecker-agent'
+
+[[package]]
+channel = 'arch'
+name = 'woodpecker-cli'
+
+[[package]]
+channel = 'arch'
+name = 'woodpecker-server'

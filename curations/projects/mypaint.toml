@@ -1,0 +1,16 @@
+id = 'mypaint'
+name = 'mypaint'
+
+homepage = 'https://www.mypaint.app'
+
+[[package]]
+channel = 'arch'
+name = 'mypaint'
+
+[[package]]
+channel = 'debian'
+name = 'mypaint'
+
+[[package]]
+channel = 'fedora'
+name = 'mypaint'

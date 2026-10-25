@@ -1,0 +1,8 @@
+id = 'tcl-combat'
+name = 'tcl-combat'
+
+homepage = 'http://www.fpx.de/Combat'
+
+[[package]]
+channel = 'debian'
+name = 'tcl-combat'

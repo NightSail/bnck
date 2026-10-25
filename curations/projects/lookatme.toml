@@ -1,0 +1,8 @@
+id = 'lookatme'
+name = 'lookatme'
+
+homepage = 'https://github.com/d0c-s4vage/lookatme'
+
+[[package]]
+channel = 'debian'
+name = 'lookatme'

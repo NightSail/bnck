@@ -1,0 +1,6 @@
+id = 'slack'
+name = 'slack'
+
+[[package]]
+channel = 'debian'
+name = 'slack'

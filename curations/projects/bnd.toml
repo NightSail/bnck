@@ -1,0 +1,16 @@
+id = 'bnd'
+name = 'bnd'
+
+homepage = 'https://bnd.bndtools.org'
+
+[[package]]
+channel = 'debian'
+name = 'bnd'
+
+[[package]]
+channel = 'fedora'
+name = 'aqute-bnd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bnd'

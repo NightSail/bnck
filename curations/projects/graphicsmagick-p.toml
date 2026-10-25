@@ -1,0 +1,9 @@
+id = 'graphicsmagick-p'
+name = 'graphicsmagick'
+
+homepage = 'https://graphicsmagick.sourceforge.io'
+repository = 'http://hg.code.sf.net/p/graphicsmagick/code'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphicsmagick'

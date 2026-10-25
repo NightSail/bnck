@@ -1,0 +1,20 @@
+id = 'compute-runtime'
+name = 'compute-runtime'
+
+homepage = 'https://github.com/intel/compute-runtime'
+
+[[package]]
+channel = 'arch'
+name = 'intel-compute-runtime'
+
+[[package]]
+channel = 'debian'
+name = 'intel-ocloc'
+
+[[package]]
+channel = 'debian'
+name = 'intel-ocloc-legacy'
+
+[[package]]
+channel = 'fedora'
+name = 'intel-ocloc'

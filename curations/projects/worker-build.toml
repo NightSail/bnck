@@ -1,0 +1,8 @@
+id = 'worker-build'
+name = 'worker-build'
+
+homepage = 'https://github.com/cloudflare/workers-rs/tree/main/worker-build'
+
+[[package]]
+channel = 'arch'
+name = 'worker-build'

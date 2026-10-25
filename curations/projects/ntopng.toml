@@ -1,0 +1,9 @@
+id = 'ntopng'
+name = 'ntopng'
+
+homepage = 'https://www.ntop.org/products/traffic-analysis/ntop'
+repository = 'https://github.com/ntop/ntopng.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ntopng'

@@ -1,0 +1,8 @@
+id = 'wxmedit'
+name = 'wxmedit'
+
+homepage = 'https://github.com/wxMEdit/wxMEdit'
+
+[[package]]
+channel = 'fedora'
+name = 'wxmedit'

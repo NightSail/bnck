@@ -1,0 +1,8 @@
+id = 'golang-github-leonelquinteros-gotext'
+name = 'golang-github-leonelquinteros-gotext'
+
+homepage = 'https://github.com/leonelquinteros/gotext'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-leonelquinteros-gotext'

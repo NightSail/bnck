@@ -1,0 +1,12 @@
+id = 'goldencheetah'
+name = 'GoldenCheetah'
+
+homepage = 'https://www.goldencheetah.org'
+
+[[package]]
+channel = 'debian'
+name = 'goldencheetah'
+
+[[package]]
+channel = 'fedora'
+name = 'GoldenCheetah'

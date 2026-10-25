@@ -1,0 +1,8 @@
+id = 'tamarin-prover'
+name = 'tamarin-prover'
+
+homepage = 'https://tamarin-prover.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'tamarin-prover'

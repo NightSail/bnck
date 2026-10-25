@@ -1,0 +1,8 @@
+id = 'sunpinyin-data'
+name = 'sunpinyin-data'
+
+homepage = 'http://code.google.com/p/sunpinyin'
+
+[[package]]
+channel = 'fedora'
+name = 'sunpinyin-data'

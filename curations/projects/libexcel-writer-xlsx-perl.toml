@@ -1,0 +1,8 @@
+id = 'libexcel-writer-xlsx-perl'
+name = 'libexcel-writer-xlsx-perl'
+
+homepage = 'http://jmcnamara.github.com/excel-writer-xlsx'
+
+[[package]]
+channel = 'debian'
+name = 'libexcel-writer-xlsx-perl'

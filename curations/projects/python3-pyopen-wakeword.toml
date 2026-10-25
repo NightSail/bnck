@@ -1,0 +1,8 @@
+id = 'python3-pyopen-wakeword'
+name = 'python3-pyopen-wakeword'
+
+homepage = 'https://github.com/rhasspy/pyopen-wakeword'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyopen-wakeword'

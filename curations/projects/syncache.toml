@@ -1,0 +1,8 @@
+id = 'syncache'
+name = 'syncache'
+
+homepage = 'http://samizdat.nongnu.org'
+
+[[package]]
+channel = 'debian'
+name = 'syncache'

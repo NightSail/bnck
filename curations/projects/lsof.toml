@@ -1,0 +1,20 @@
+id = 'lsof'
+name = 'lsof'
+
+homepage = 'https://github.com/lsof-org/lsof'
+
+[[package]]
+channel = 'arch'
+name = 'lsof'
+
+[[package]]
+channel = 'debian'
+name = 'lsof'
+
+[[package]]
+channel = 'fedora'
+name = 'lsof'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lsof'

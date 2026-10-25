@@ -1,0 +1,8 @@
+id = 'timekpr-next'
+name = 'timekpr-next'
+
+homepage = 'https://launchpad.net/timekpr-next'
+
+[[package]]
+channel = 'debian'
+name = 'timekpr-next'

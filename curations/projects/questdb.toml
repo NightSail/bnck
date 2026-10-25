@@ -1,0 +1,8 @@
+id = 'questdb'
+name = 'questdb'
+
+homepage = 'https://questdb.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/questdb'

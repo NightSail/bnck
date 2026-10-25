@@ -1,0 +1,8 @@
+id = 'riseup-vpn'
+name = 'riseup-vpn'
+
+homepage = 'https://0xacab.org/leap/bitmask-vpn'
+
+[[package]]
+channel = 'debian'
+name = 'riseup-vpn'

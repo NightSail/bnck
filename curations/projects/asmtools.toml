@@ -1,0 +1,12 @@
+id = 'asmtools'
+name = 'asmtools'
+
+homepage = 'https://github.com/openjdk/asmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'openjdk-asmtools'
+
+[[package]]
+channel = 'fedora'
+name = 'openjdk-asmtools7'

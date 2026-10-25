@@ -1,0 +1,12 @@
+id = 'nqc'
+name = 'nqc'
+
+homepage = 'https://bricxcc.sourceforge.net/nqc'
+
+[[package]]
+channel = 'debian'
+name = 'nqc'
+
+[[package]]
+channel = 'fedora'
+name = 'nqc'

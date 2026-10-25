@@ -1,0 +1,8 @@
+id = 'libpaho-mqtt'
+name = 'libpaho-mqtt'
+
+homepage = 'https://eclipse-paho.github.io/paho.mqtt.c/MQTTClient/html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpaho-mqtt'

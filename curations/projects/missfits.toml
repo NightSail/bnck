@@ -1,0 +1,8 @@
+id = 'missfits'
+name = 'missfits'
+
+homepage = 'https://www.astromatic.net/software/missfits'
+
+[[package]]
+channel = 'debian'
+name = 'missfits'

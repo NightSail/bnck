@@ -1,0 +1,12 @@
+id = 'looptools'
+name = 'looptools'
+
+homepage = 'http://www.feynarts.de/looptools'
+
+[[package]]
+channel = 'debian'
+name = 'fcc'
+
+[[package]]
+channel = 'debian'
+name = 'looptools'

@@ -1,0 +1,8 @@
+id = 'feenox'
+name = 'feenox'
+
+homepage = 'https://www.seamplex.com/feenox'
+
+[[package]]
+channel = 'debian'
+name = 'feenox'

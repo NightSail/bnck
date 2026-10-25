@@ -1,0 +1,8 @@
+id = 'pgn2web'
+name = 'pgn2web'
+
+homepage = 'http://sourceforge.net/projects/pgn2web'
+
+[[package]]
+channel = 'debian'
+name = 'pgn2web'

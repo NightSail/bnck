@@ -1,0 +1,8 @@
+id = 'openstack-pkg-tools'
+name = 'openstack-pkg-tools'
+
+homepage = 'https://salsa.debian.org/openstack-team/debian/openstack-pkg-tools'
+
+[[package]]
+channel = 'debian'
+name = 'openstack-pkg-tools'

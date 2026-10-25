@@ -1,0 +1,8 @@
+id = 'performous'
+name = 'performous'
+
+homepage = 'https://performous.org'
+
+[[package]]
+channel = 'arch'
+name = 'performous'

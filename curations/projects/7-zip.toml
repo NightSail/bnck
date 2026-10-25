@@ -1,0 +1,12 @@
+id = '7-zip'
+name = '7-zip'
+
+homepage = 'http://www.7-zip.org/sdk.html'
+
+[[package]]
+channel = 'debian'
+name = 'lzma'
+
+[[package]]
+channel = 'debian'
+name = 'lzma-alone'

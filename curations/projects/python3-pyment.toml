@@ -1,0 +1,8 @@
+id = 'python3-pyment'
+name = 'python3-pyment'
+
+homepage = 'https://github.com/dadadel/pyment'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pyment'

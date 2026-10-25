@@ -1,0 +1,12 @@
+id = 'himalaya'
+name = 'himalaya'
+
+homepage = 'https://pimalaya.org'
+
+[[package]]
+channel = 'arch'
+name = 'himalaya'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/himalaya'

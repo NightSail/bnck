@@ -1,0 +1,8 @@
+id = 'spec2nii'
+name = 'spec2nii'
+
+homepage = 'https://github.com/wtclarke/spec2nii'
+
+[[package]]
+channel = 'fedora'
+name = 'spec2nii'

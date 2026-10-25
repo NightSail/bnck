@@ -1,0 +1,16 @@
+id = 'vtable-dumper'
+name = 'vtable-dumper'
+
+homepage = 'https://github.com/lvc/vtable-dumper'
+
+[[package]]
+channel = 'arch'
+name = 'vtable-dumper'
+
+[[package]]
+channel = 'debian'
+name = 'vtable-dumper'
+
+[[package]]
+channel = 'fedora'
+name = 'vtable-dumper'

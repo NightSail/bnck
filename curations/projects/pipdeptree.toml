@@ -1,0 +1,8 @@
+id = 'pipdeptree'
+name = 'pipdeptree'
+
+homepage = 'https://github.com/tox-dev/pipdeptree'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipdeptree'

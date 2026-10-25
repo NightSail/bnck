@@ -1,0 +1,8 @@
+id = 'weirdx'
+name = 'weirdx'
+
+homepage = 'http://www.jcraft.com/weirdx'
+
+[[package]]
+channel = 'debian'
+name = 'weirdx'

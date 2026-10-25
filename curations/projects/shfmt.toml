@@ -1,0 +1,8 @@
+id = 'shfmt'
+name = 'shfmt'
+
+repository = 'https://github.com/mvdan/sh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shfmt'

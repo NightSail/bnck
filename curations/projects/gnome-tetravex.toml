@@ -1,0 +1,12 @@
+id = 'gnome-tetravex'
+name = 'gnome-tetravex'
+
+homepage = 'https://gitlab.gnome.org/GNOME/gnome-tetravex'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-tetravex'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-tetravex'

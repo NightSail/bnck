@@ -1,0 +1,8 @@
+id = 'forbidden'
+name = 'forbidden'
+
+repository = 'https://github.com/ivan-sincek/forbidden.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/forbidden'

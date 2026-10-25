@@ -1,0 +1,8 @@
+id = 'rerun'
+name = 'rerun'
+
+homepage = 'https://github.com/alexch/rerun'
+
+[[package]]
+channel = 'debian'
+name = 'rerun'

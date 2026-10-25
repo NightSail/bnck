@@ -1,0 +1,8 @@
+id = 'netcdf4-python'
+name = 'netcdf4-python'
+
+homepage = 'https://github.com/Unidata/netcdf4-python'
+
+[[package]]
+channel = 'fedora'
+name = 'netcdf4-python'

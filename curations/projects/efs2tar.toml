@@ -1,0 +1,8 @@
+id = 'efs2tar'
+name = 'efs2tar'
+
+homepage = 'https://github.com/sophaskins/efs2tar'
+
+[[package]]
+channel = 'fedora'
+name = 'efs2tar'

@@ -1,0 +1,8 @@
+id = 'poi-tracker'
+name = 'poi-tracker'
+
+homepage = 'https://pagure.io/michel-slm/poi-tracker'
+
+[[package]]
+channel = 'fedora'
+name = 'poi-tracker'

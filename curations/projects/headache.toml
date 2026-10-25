@@ -1,0 +1,8 @@
+id = 'headache'
+name = 'headache'
+
+homepage = 'https://github.com/Frama-C/headache'
+
+[[package]]
+channel = 'debian'
+name = 'headache'

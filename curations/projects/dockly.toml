@@ -1,0 +1,8 @@
+id = 'dockly'
+name = 'dockly'
+
+homepage = 'https://lirantal.github.io/dockly'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockly'

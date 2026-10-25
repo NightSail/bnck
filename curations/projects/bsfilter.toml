@@ -1,0 +1,12 @@
+id = 'bsfilter'
+name = 'bsfilter'
+
+homepage = 'https://nbkenichi.github.io/bsfilter/index-e.html'
+
+[[package]]
+channel = 'debian'
+name = 'bsfilter'
+
+[[package]]
+channel = 'fedora'
+name = 'bsfilter'

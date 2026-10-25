@@ -1,0 +1,8 @@
+id = 'nessie'
+name = 'nessie'
+
+homepage = 'https://projectnessie.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nessie'

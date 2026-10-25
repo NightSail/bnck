@@ -1,0 +1,48 @@
+id = 'knot-dns'
+name = 'knot-dns'
+
+homepage = 'https://www.knot-dns.cz'
+
+[[package]]
+channel = 'arch'
+name = 'knot'
+
+[[package]]
+channel = 'debian'
+name = 'knot'
+
+[[package]]
+channel = 'debian'
+name = 'knot-dnssecutils'
+
+[[package]]
+channel = 'debian'
+name = 'knot-dnsutils'
+
+[[package]]
+channel = 'debian'
+name = 'knot-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'knot-host'
+
+[[package]]
+channel = 'debian'
+name = 'knot-keymgr'
+
+[[package]]
+channel = 'fedora'
+name = 'knot'
+
+[[package]]
+channel = 'fedora'
+name = 'knot-dnssecutils'
+
+[[package]]
+channel = 'fedora'
+name = 'knot-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'knot-utils'

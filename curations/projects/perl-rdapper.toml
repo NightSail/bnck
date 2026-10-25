@@ -1,0 +1,8 @@
+id = 'perl-rdapper'
+name = 'perl-rdapper'
+
+homepage = 'https://metacpan.org/dist/App-rdapper'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-rdapper'

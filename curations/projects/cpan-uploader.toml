@@ -1,0 +1,12 @@
+id = 'cpan-uploader'
+name = 'CPAN-Uploader'
+
+homepage = 'https://metacpan.org/release/CPAN-Uploader'
+
+[[package]]
+channel = 'debian'
+name = 'libcpan-uploader-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPAN-Uploader'

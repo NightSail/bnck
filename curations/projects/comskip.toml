@@ -1,0 +1,12 @@
+id = 'comskip'
+name = 'comskip'
+
+homepage = 'https://comskip.org'
+
+[[package]]
+channel = 'debian'
+name = 'comskip'
+
+[[package]]
+channel = 'debian'
+name = 'comskip-gui'

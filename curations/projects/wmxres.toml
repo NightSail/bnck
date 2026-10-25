@@ -1,0 +1,8 @@
+id = 'wmxres'
+name = 'wmxres'
+
+homepage = 'https://www.dockapps.net/wmxres'
+
+[[package]]
+channel = 'debian'
+name = 'wmxres'

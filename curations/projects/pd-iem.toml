@@ -1,0 +1,8 @@
+id = 'pd-iem'
+name = 'pd-iem'
+
+homepage = 'https://git.iem.at/pd/iem_utils'
+
+[[package]]
+channel = 'debian'
+name = 'pd-iem'

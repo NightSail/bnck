@@ -1,0 +1,8 @@
+id = 'slimevolley'
+name = 'slimevolley'
+
+homepage = 'https://slime.tuxfamily.org/index.php'
+
+[[package]]
+channel = 'arch'
+name = 'slimevolley'

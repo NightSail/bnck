@@ -1,0 +1,8 @@
+id = 'sysaidmin'
+name = 'sysaidmin'
+
+homepage = 'https://github.com/skorokithakis/sysaidmin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sysaidmin'

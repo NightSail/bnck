@@ -1,0 +1,8 @@
+id = 'node-opener'
+name = 'node-opener'
+
+homepage = 'https://github.com/domenic/opener'
+
+[[package]]
+channel = 'debian'
+name = 'node-opener'

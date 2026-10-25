@@ -1,0 +1,12 @@
+id = 'hdapsd'
+name = 'hdapsd'
+
+homepage = 'https://github.com/evgeni/hdapsd'
+
+[[package]]
+channel = 'arch'
+name = 'hdapsd'
+
+[[package]]
+channel = 'debian'
+name = 'hdapsd'

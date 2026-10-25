@@ -1,0 +1,20 @@
+id = 'sdl-sound'
+name = 'sdl_sound'
+
+homepage = 'https://icculus.org/SDL_sound'
+
+[[package]]
+channel = 'arch'
+name = 'sdl_sound'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL2_sound'
+
+[[package]]
+channel = 'fedora'
+name = 'SDL3_sound'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdl2_sound'

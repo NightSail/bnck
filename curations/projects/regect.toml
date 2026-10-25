@@ -1,0 +1,8 @@
+id = 'regect'
+name = 'regect'
+
+homepage = 'https://github.com/kloki/regect'
+
+[[package]]
+channel = 'arch'
+name = 'regect'

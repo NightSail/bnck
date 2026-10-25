@@ -1,0 +1,13 @@
+id = 'ondir'
+name = 'ondir'
+
+homepage = 'https://swapoff.org/ondir.html'
+repository = 'https://github.com/alecthomas/ondir.git'
+
+[[package]]
+channel = 'debian'
+name = 'ondir'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ondir'

@@ -1,0 +1,8 @@
+id = 'grml-hwinfo'
+name = 'grml-hwinfo'
+
+homepage = 'https://github.com/grml/grml-hwinfo'
+
+[[package]]
+channel = 'debian'
+name = 'grml-hwinfo'

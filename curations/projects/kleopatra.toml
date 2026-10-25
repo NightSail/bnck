@@ -1,0 +1,16 @@
+id = 'kleopatra'
+name = 'kleopatra'
+
+homepage = 'https://apps.kde.org/kleopatra'
+
+[[package]]
+channel = 'arch'
+name = 'kleopatra'
+
+[[package]]
+channel = 'debian'
+name = 'kleopatra'
+
+[[package]]
+channel = 'fedora'
+name = 'kleopatra'

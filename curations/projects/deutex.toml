@@ -1,0 +1,8 @@
+id = 'deutex'
+name = 'deutex'
+
+homepage = 'https://github.com/Doom-Utils/deutex'
+
+[[package]]
+channel = 'fedora'
+name = 'deutex'

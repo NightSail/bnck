@@ -1,0 +1,8 @@
+id = 'yamale'
+name = 'yamale'
+
+repository = 'https://github.com/23andMe/Yamale.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yamale'

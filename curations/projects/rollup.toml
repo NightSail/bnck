@@ -1,0 +1,12 @@
+id = 'rollup'
+name = 'rollup'
+
+homepage = 'https://rollupjs.org'
+
+[[package]]
+channel = 'debian'
+name = 'rollup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rollup'

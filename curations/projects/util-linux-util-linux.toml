@@ -1,0 +1,20 @@
+id = 'util-linux-util-linux'
+name = 'util-linux'
+
+homepage = 'https://en.wikipedia.org/wiki/Util-linux'
+
+[[package]]
+channel = 'fedora'
+name = 'util-linux'
+
+[[package]]
+channel = 'fedora'
+name = 'util-linux-core'
+
+[[package]]
+channel = 'fedora'
+name = 'util-linux-script'
+
+[[package]]
+channel = 'fedora'
+name = 'uuidd'

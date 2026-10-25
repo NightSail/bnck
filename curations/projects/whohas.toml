@@ -1,0 +1,8 @@
+id = 'whohas'
+name = 'whohas'
+
+homepage = 'http://www.philippwesche.org/200811/whohas/intro.html'
+
+[[package]]
+channel = 'debian'
+name = 'whohas'

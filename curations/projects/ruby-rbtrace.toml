@@ -1,0 +1,8 @@
+id = 'ruby-rbtrace'
+name = 'ruby-rbtrace'
+
+homepage = 'https://github.com/tmm1/rbtrace'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-rbtrace'

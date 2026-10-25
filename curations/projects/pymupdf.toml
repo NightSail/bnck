@@ -1,0 +1,12 @@
+id = 'pymupdf'
+name = 'pymupdf'
+
+homepage = 'https://github.com/pymupdf/PyMuPDF'
+
+[[package]]
+channel = 'arch'
+name = 'python-pymupdf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-PyMuPDF'

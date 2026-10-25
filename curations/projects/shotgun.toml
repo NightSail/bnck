@@ -1,0 +1,8 @@
+id = 'shotgun'
+name = 'shotgun'
+
+homepage = 'https://github.com/neXromancers/shotgun'
+
+[[package]]
+channel = 'arch'
+name = 'shotgun'

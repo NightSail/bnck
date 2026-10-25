@@ -1,0 +1,8 @@
+id = 'snapper-gui'
+name = 'snapper-gui'
+
+homepage = 'https://github.com/ricardomv/snapper-gui'
+
+[[package]]
+channel = 'debian'
+name = 'snapper-gui'

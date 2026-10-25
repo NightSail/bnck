@@ -1,0 +1,8 @@
+id = 'ruby-pathspec'
+name = 'ruby-pathspec'
+
+homepage = 'https://github.com/highb/pathspec-ruby'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-pathspec'

@@ -1,0 +1,16 @@
+id = 'yubihsm-shell-yubihsm-shell'
+name = 'yubihsm-shell'
+
+homepage = 'https://developers.yubico.com/yubihsm-shell'
+
+[[package]]
+channel = 'debian'
+name = 'yubihsm-auth'
+
+[[package]]
+channel = 'debian'
+name = 'yubihsm-shell'
+
+[[package]]
+channel = 'debian'
+name = 'yubihsm-wrap'

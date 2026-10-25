@@ -1,0 +1,12 @@
+id = 'cargo-update'
+name = 'cargo-update'
+
+repository = 'https://github.com/nabijaczleweli/cargo-update.git'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-update'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cargo-update'

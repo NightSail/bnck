@@ -1,0 +1,8 @@
+id = 'one-gadget'
+name = 'one_gadget'
+
+homepage = 'https://github.com/david942j/one_gadget'
+
+[[package]]
+channel = 'arch'
+name = 'one_gadget'

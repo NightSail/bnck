@@ -1,0 +1,172 @@
+id = 'debian-science'
+name = 'debian-science'
+
+homepage = 'https://wiki.debian.org/DebianScience'
+
+[[package]]
+channel = 'debian'
+name = 'science-biology'
+
+[[package]]
+channel = 'debian'
+name = 'science-chemistry'
+
+[[package]]
+channel = 'debian'
+name = 'science-config'
+
+[[package]]
+channel = 'debian'
+name = 'science-dataacquisition'
+
+[[package]]
+channel = 'debian'
+name = 'science-dataacquisition-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-datamanagement'
+
+[[package]]
+channel = 'debian'
+name = 'science-distributedcomputing'
+
+[[package]]
+channel = 'debian'
+name = 'science-economics'
+
+[[package]]
+channel = 'debian'
+name = 'science-electrophysiology'
+
+[[package]]
+channel = 'debian'
+name = 'science-engineering'
+
+[[package]]
+channel = 'debian'
+name = 'science-engineering-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-financial'
+
+[[package]]
+channel = 'debian'
+name = 'science-geography'
+
+[[package]]
+channel = 'debian'
+name = 'science-geometry'
+
+[[package]]
+channel = 'debian'
+name = 'science-highenergy-physics'
+
+[[package]]
+channel = 'debian'
+name = 'science-highenergy-physics-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-imageanalysis'
+
+[[package]]
+channel = 'debian'
+name = 'science-imageanalysis-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-linguistics'
+
+[[package]]
+channel = 'debian'
+name = 'science-logic'
+
+[[package]]
+channel = 'debian'
+name = 'science-machine-learning'
+
+[[package]]
+channel = 'debian'
+name = 'science-mathematics'
+
+[[package]]
+channel = 'debian'
+name = 'science-mathematics-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-meteorology'
+
+[[package]]
+channel = 'debian'
+name = 'science-meteorology-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-nanoscale-physics'
+
+[[package]]
+channel = 'debian'
+name = 'science-nanoscale-physics-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-neuroscience-cognitive'
+
+[[package]]
+channel = 'debian'
+name = 'science-neuroscience-modeling'
+
+[[package]]
+channel = 'debian'
+name = 'science-numericalcomputation'
+
+[[package]]
+channel = 'debian'
+name = 'science-physics'
+
+[[package]]
+channel = 'debian'
+name = 'science-physics-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-presentation'
+
+[[package]]
+channel = 'debian'
+name = 'science-psychophysics'
+
+[[package]]
+channel = 'debian'
+name = 'science-robotics'
+
+[[package]]
+channel = 'debian'
+name = 'science-robotics-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-simulations'
+
+[[package]]
+channel = 'debian'
+name = 'science-statistics'
+
+[[package]]
+channel = 'debian'
+name = 'science-typesetting'
+
+[[package]]
+channel = 'debian'
+name = 'science-viewing'
+
+[[package]]
+channel = 'debian'
+name = 'science-viewing-dev'
+
+[[package]]
+channel = 'debian'
+name = 'science-workflow'

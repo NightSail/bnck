@@ -1,0 +1,12 @@
+id = 'aptitude'
+name = 'aptitude'
+
+homepage = 'https://wiki.debian.org/Aptitude'
+
+[[package]]
+channel = 'debian'
+name = 'aptitude'
+
+[[package]]
+channel = 'debian'
+name = 'aptitude-common'

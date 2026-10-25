@@ -1,0 +1,9 @@
+id = 'logdy'
+name = 'logdy'
+
+homepage = 'https://logdy.dev'
+repository = 'https://github.com/logdyhq/logdy-core.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/logdy'

@@ -1,0 +1,8 @@
+id = 'python3-static3'
+name = 'python3-static3'
+
+homepage = 'https://github.com/rmohr/static3'
+
+[[package]]
+channel = 'debian'
+name = 'python3-static3'

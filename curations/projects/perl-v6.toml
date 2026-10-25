@@ -1,0 +1,8 @@
+id = 'perl-v6'
+name = 'perl-v6'
+
+homepage = 'https://metacpan.org/release/v6'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-v6'

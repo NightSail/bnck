@@ -1,0 +1,12 @@
+id = 'units'
+name = 'units'
+
+homepage = 'https://www.gnu.org/software/units'
+
+[[package]]
+channel = 'debian'
+name = 'units'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gnu-units'

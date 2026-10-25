@@ -1,0 +1,16 @@
+id = 'qterminal'
+name = 'qterminal'
+
+homepage = 'https://github.com/lxqt/qterminal'
+
+[[package]]
+channel = 'arch'
+name = 'qterminal'
+
+[[package]]
+channel = 'debian'
+name = 'qterminal'
+
+[[package]]
+channel = 'fedora'
+name = 'qterminal'

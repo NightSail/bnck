@@ -1,0 +1,8 @@
+id = 'mgmt'
+name = 'mgmt'
+
+homepage = 'https://github.com/purpleidea/mgmt'
+
+[[package]]
+channel = 'debian'
+name = 'mgmt'

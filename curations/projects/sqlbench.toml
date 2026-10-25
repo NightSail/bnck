@@ -1,0 +1,8 @@
+id = 'sqlbench'
+name = 'sqlbench'
+
+repository = 'https://github.com/felixge/sqlbench.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlbench'

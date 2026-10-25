@@ -1,0 +1,8 @@
+id = 'pylyzer'
+name = 'pylyzer'
+
+homepage = 'https://github.com/mtshiba/pylyzer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pylyzer'

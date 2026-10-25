@@ -1,0 +1,8 @@
+id = 'mkgmap-splitter'
+name = 'mkgmap-splitter'
+
+homepage = 'https://www.mkgmap.org.uk/doc/splitter.html'
+
+[[package]]
+channel = 'debian'
+name = 'mkgmap-splitter'

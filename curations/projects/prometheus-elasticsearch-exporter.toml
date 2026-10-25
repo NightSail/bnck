@@ -1,0 +1,12 @@
+id = 'prometheus-elasticsearch-exporter'
+name = 'prometheus-elasticsearch-exporter'
+
+homepage = 'https://github.com/prometheus-community/elasticsearch_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-elasticsearch-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-elasticsearch-exporter'

@@ -1,0 +1,6 @@
+id = 'hfsplus'
+name = 'hfsplus'
+
+[[package]]
+channel = 'debian'
+name = 'hfsplus'

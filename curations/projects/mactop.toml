@@ -1,0 +1,8 @@
+id = 'mactop'
+name = 'mactop'
+
+repository = 'https://github.com/metaspartan/mactop.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mactop'

@@ -1,0 +1,8 @@
+id = 'openxr-simple-playground'
+name = 'openxr-simple-playground'
+
+homepage = 'https://gitlab.freedesktop.org/monado/demos/openxr-simple-playground'
+
+[[package]]
+channel = 'fedora'
+name = 'openxr-simple-playground'

@@ -1,0 +1,8 @@
+id = 'probabel'
+name = 'probabel'
+
+homepage = 'http://www.genabel.org'
+
+[[package]]
+channel = 'debian'
+name = 'probabel'

@@ -1,0 +1,8 @@
+id = 'yuque-dl'
+name = 'yuque-dl'
+
+homepage = 'https://github.com/gxr404/yuque-dl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/yuque-dl'

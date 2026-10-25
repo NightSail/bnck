@@ -1,0 +1,8 @@
+id = 'spot'
+name = 'spot'
+
+homepage = 'https://spot.lre.epita.fr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/spot'

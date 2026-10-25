@@ -1,0 +1,8 @@
+id = 'amap-align'
+name = 'amap-align'
+
+homepage = 'https://github.com/mes5k/amap-align'
+
+[[package]]
+channel = 'debian'
+name = 'amap-align'

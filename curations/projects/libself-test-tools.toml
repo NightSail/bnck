@@ -1,0 +1,8 @@
+id = 'libself-test-tools'
+name = 'libself-test-tools'
+
+homepage = 'https://wiki.ros.org/diagnostics'
+
+[[package]]
+channel = 'debian'
+name = 'libself-test-tools'

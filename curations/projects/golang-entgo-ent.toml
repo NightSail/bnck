@@ -1,0 +1,8 @@
+id = 'golang-entgo-ent'
+name = 'golang-entgo-ent'
+
+homepage = 'https://github.com/ent/ent'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-entgo-ent'

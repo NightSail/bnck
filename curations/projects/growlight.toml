@@ -1,0 +1,12 @@
+id = 'growlight'
+name = 'growlight'
+
+homepage = 'https://nick-black.com/dankwiki/index.php/Growlight'
+
+[[package]]
+channel = 'debian'
+name = 'growlight'
+
+[[package]]
+channel = 'fedora'
+name = 'growlight'

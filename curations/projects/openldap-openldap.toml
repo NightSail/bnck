@@ -1,0 +1,8 @@
+id = 'openldap-openldap'
+name = 'openldap'
+
+homepage = 'https://www.openldap.org/software'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openldap'

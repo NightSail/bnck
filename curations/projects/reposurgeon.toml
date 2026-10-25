@@ -1,0 +1,17 @@
+id = 'reposurgeon'
+name = 'reposurgeon'
+
+homepage = 'http://www.catb.org/esr/reposurgeon'
+repository = 'https://gitlab.com/esr/reposurgeon.git'
+
+[[package]]
+channel = 'debian'
+name = 'reposurgeon'
+
+[[package]]
+channel = 'fedora'
+name = 'reposurgeon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/reposurgeon'

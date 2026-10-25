@@ -1,0 +1,21 @@
+id = 'osm2pgsql'
+name = 'osm2pgsql'
+
+homepage = 'https://osm2pgsql.org'
+repository = 'https://github.com/osm2pgsql-dev/osm2pgsql.git'
+
+[[package]]
+channel = 'arch'
+name = 'osm2pgsql'
+
+[[package]]
+channel = 'debian'
+name = 'osm2pgsql'
+
+[[package]]
+channel = 'fedora'
+name = 'osm2pgsql'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osm2pgsql'

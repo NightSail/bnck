@@ -1,0 +1,8 @@
+id = 'rz-cutter'
+name = 'rz-cutter'
+
+homepage = 'https://github.com/rizinorg/cutter'
+
+[[package]]
+channel = 'arch'
+name = 'rz-cutter'

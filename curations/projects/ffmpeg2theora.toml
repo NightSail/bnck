@@ -1,0 +1,8 @@
+id = 'ffmpeg2theora'
+name = 'ffmpeg2theora'
+
+repository = 'https://gitlab.xiph.org/xiph/ffmpeg2theora.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ffmpeg2theora'

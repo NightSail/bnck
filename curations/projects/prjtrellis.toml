@@ -1,0 +1,20 @@
+id = 'prjtrellis'
+name = 'prjtrellis'
+
+homepage = 'https://github.com/YosysHQ/prjtrellis'
+
+[[package]]
+channel = 'arch'
+name = 'prjtrellis'
+
+[[package]]
+channel = 'debian'
+name = 'fpga-trellis'
+
+[[package]]
+channel = 'fedora'
+name = 'trellis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prjtrellis'

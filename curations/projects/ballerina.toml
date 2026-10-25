@@ -1,0 +1,8 @@
+id = 'ballerina'
+name = 'ballerina'
+
+homepage = 'https://ballerina.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ballerina'

@@ -1,0 +1,8 @@
+id = 'python3-certipy'
+name = 'python3-certipy'
+
+homepage = 'https://github.com/LLNL/certipy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-certipy'

@@ -1,0 +1,8 @@
+id = 'pypi2deb'
+name = 'pypi2deb'
+
+homepage = 'https://salsa.debian.org/python-team/tools/pypi2deb'
+
+[[package]]
+channel = 'debian'
+name = 'pypi2deb'

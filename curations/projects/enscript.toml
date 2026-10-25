@@ -1,0 +1,21 @@
+id = 'enscript'
+name = 'enscript'
+
+homepage = 'https://git.savannah.gnu.org/cgit/enscript.git'
+repository = 'https://git.savannah.gnu.org/git/enscript.git'
+
+[[package]]
+channel = 'arch'
+name = 'enscript'
+
+[[package]]
+channel = 'debian'
+name = 'enscript'
+
+[[package]]
+channel = 'fedora'
+name = 'enscript'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enscript'

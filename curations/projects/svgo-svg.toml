@@ -1,0 +1,8 @@
+id = 'svgo-svg'
+name = 'svgo'
+
+homepage = 'https://github.com/svg/svgo'
+
+[[package]]
+channel = 'arch'
+name = 'svgo'

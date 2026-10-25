@@ -1,0 +1,9 @@
+id = 'inko'
+name = 'inko'
+
+homepage = 'https://inko-lang.org'
+repository = 'https://github.com/inko-lang/inko.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inko'

@@ -1,0 +1,29 @@
+id = 'hwloc'
+name = 'hwloc'
+
+homepage = 'https://www.open-mpi.org/projects/hwloc'
+repository = 'https://github.com/open-mpi/hwloc.git'
+
+[[package]]
+channel = 'arch'
+name = 'hwloc'
+
+[[package]]
+channel = 'debian'
+name = 'hwloc'
+
+[[package]]
+channel = 'debian'
+name = 'hwloc-nox'
+
+[[package]]
+channel = 'fedora'
+name = 'hwloc'
+
+[[package]]
+channel = 'fedora'
+name = 'hwloc-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hwloc'

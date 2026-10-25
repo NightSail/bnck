@@ -1,0 +1,8 @@
+id = 'sinntp'
+name = 'sinntp'
+
+homepage = 'https://jwilk.net/software/sinntp'
+
+[[package]]
+channel = 'debian'
+name = 'sinntp'

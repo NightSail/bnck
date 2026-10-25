@@ -1,0 +1,8 @@
+id = 'homeworlds'
+name = 'homeworlds'
+
+homepage = 'https://github.com/Quuxplusone/Homeworlds'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/homeworlds'

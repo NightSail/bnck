@@ -1,0 +1,8 @@
+id = 'rar'
+name = 'rar'
+
+homepage = 'https://www.rarlab.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/rar'

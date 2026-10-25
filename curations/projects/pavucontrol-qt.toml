@@ -1,0 +1,12 @@
+id = 'pavucontrol-qt'
+name = 'pavucontrol-qt'
+
+homepage = 'https://github.com/lxqt/pavucontrol-qt'
+
+[[package]]
+channel = 'arch'
+name = 'pavucontrol-qt'
+
+[[package]]
+channel = 'debian'
+name = 'pavucontrol-qt'

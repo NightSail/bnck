@@ -1,0 +1,8 @@
+id = 'gotosocial'
+name = 'gotosocial'
+
+homepage = 'https://gotosocial.org'
+
+[[package]]
+channel = 'arch'
+name = 'gotosocial'

@@ -1,0 +1,12 @@
+id = 'fractal'
+name = 'fractal'
+
+homepage = 'https://gitlab.gnome.org/World/fractal'
+
+[[package]]
+channel = 'arch'
+name = 'fractal'
+
+[[package]]
+channel = 'fedora'
+name = 'fractal'

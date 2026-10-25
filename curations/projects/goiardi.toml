@@ -1,0 +1,8 @@
+id = 'goiardi'
+name = 'goiardi'
+
+homepage = 'https://github.com/ctdk/goiardi'
+
+[[package]]
+channel = 'debian'
+name = 'goiardi'

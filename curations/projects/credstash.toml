@@ -1,0 +1,8 @@
+id = 'credstash'
+name = 'credstash'
+
+repository = 'https://github.com/fugue/credstash.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/credstash'

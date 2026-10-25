@@ -1,0 +1,12 @@
+id = 'neuron'
+name = 'neuron'
+
+homepage = 'https://www.neuron.yale.edu/neuron'
+
+[[package]]
+channel = 'debian'
+name = 'neuron'
+
+[[package]]
+channel = 'debian'
+name = 'neuron-dev'

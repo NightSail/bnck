@@ -1,0 +1,8 @@
+id = 'frog'
+name = 'frog'
+
+homepage = 'https://languagemachines.github.io/frog'
+
+[[package]]
+channel = 'debian'
+name = 'frog'

@@ -1,0 +1,9 @@
+id = 'gomplate'
+name = 'gomplate'
+
+homepage = 'https://gomplate.ca'
+repository = 'https://github.com/hairyhenderson/gomplate.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gomplate'

@@ -1,0 +1,9 @@
+id = 'dsocks'
+name = 'dsocks'
+
+homepage = 'https://monkey.org/~dugsong/dsocks'
+repository = 'https://github.com/dugsong/dsocks.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dsocks'

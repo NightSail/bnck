@@ -1,0 +1,12 @@
+id = 'eblook'
+name = 'eblook'
+
+homepage = 'http://openlab.jp/edict/eblook'
+
+[[package]]
+channel = 'debian'
+name = 'eblook'
+
+[[package]]
+channel = 'fedora'
+name = 'eblook'

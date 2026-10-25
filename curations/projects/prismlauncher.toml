@@ -1,0 +1,12 @@
+id = 'prismlauncher'
+name = 'prismlauncher'
+
+homepage = 'https://prismlauncher.org'
+
+[[package]]
+channel = 'arch'
+name = 'prismlauncher'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/prismlauncher'

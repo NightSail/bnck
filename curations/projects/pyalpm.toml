@@ -1,0 +1,8 @@
+id = 'pyalpm'
+name = 'pyalpm'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/pyalpm'
+
+[[package]]
+channel = 'arch'
+name = 'pyalpm'

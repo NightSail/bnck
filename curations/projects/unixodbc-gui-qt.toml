@@ -1,0 +1,8 @@
+id = 'unixodbc-gui-qt'
+name = 'unixODBC-gui-qt'
+
+homepage = 'http://sourceforge.net/projects/unixodbc-gui-qt'
+
+[[package]]
+channel = 'fedora'
+name = 'unixODBC-gui-qt'

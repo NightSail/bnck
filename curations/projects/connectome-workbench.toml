@@ -1,0 +1,8 @@
+id = 'connectome-workbench'
+name = 'connectome-workbench'
+
+homepage = 'http://www.nitrc.org/projects/workbench'
+
+[[package]]
+channel = 'debian'
+name = 'connectome-workbench'

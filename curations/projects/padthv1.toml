@@ -1,0 +1,16 @@
+id = 'padthv1'
+name = 'padthv1'
+
+homepage = 'https://padthv1.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'padthv1-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'padthv1'
+
+[[package]]
+channel = 'fedora'
+name = 'padthv1'

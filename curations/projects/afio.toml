@@ -1,0 +1,12 @@
+id = 'afio'
+name = 'afio'
+
+repository = 'https://github.com/kholtman/afio.git'
+
+[[package]]
+channel = 'debian'
+name = 'afio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/afio'

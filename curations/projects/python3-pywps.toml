@@ -1,0 +1,8 @@
+id = 'python3-pywps'
+name = 'python3-pywps'
+
+homepage = 'https://pywps.org'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pywps'

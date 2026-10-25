@@ -1,0 +1,8 @@
+id = 'leaf-proxy'
+name = 'leaf-proxy'
+
+repository = 'https://github.com/eycorsican/leaf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/leaf-proxy'

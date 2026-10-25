@@ -1,0 +1,8 @@
+id = 'xforms-devel'
+name = 'xforms-devel'
+
+homepage = 'http://xforms-toolkit.org'
+
+[[package]]
+channel = 'fedora'
+name = 'xforms-devel'

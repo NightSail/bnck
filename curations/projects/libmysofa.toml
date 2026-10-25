@@ -1,0 +1,16 @@
+id = 'libmysofa'
+name = 'libmysofa'
+
+homepage = 'https://github.com/hoene/libmysofa'
+
+[[package]]
+channel = 'arch'
+name = 'libmysofa'
+
+[[package]]
+channel = 'debian'
+name = 'libmysofa-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'mysofa'

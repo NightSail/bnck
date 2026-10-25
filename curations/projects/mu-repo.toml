@@ -1,0 +1,8 @@
+id = 'mu-repo'
+name = 'mu-repo'
+
+homepage = 'https://github.com/fabioz/mu-repo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mu-repo'

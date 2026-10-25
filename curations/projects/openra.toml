@@ -1,0 +1,8 @@
+id = 'openra'
+name = 'openra'
+
+homepage = 'https://www.openra.net'
+
+[[package]]
+channel = 'arch'
+name = 'openra'

@@ -1,0 +1,12 @@
+id = 'tilt'
+name = 'tilt'
+
+homepage = 'https://github.com/jeremyevans/tilt'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-tilt'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-tilt'

@@ -1,0 +1,8 @@
+id = 'asciidoctorj'
+name = 'asciidoctorj'
+
+homepage = 'https://github.com/asciidoctor/asciidoctorj'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asciidoctorj'

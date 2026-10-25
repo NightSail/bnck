@@ -1,0 +1,17 @@
+id = 'rubocop'
+name = 'rubocop'
+
+homepage = 'https://rubocop.org'
+repository = 'https://github.com/rubocop/rubocop.git'
+
+[[package]]
+channel = 'arch'
+name = 'rubocop'
+
+[[package]]
+channel = 'debian'
+name = 'rubocop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rubocop'

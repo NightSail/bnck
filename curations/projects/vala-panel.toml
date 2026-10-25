@@ -1,0 +1,8 @@
+id = 'vala-panel'
+name = 'vala-panel'
+
+homepage = 'https://github.com/rilian-la-te/vala-panel'
+
+[[package]]
+channel = 'debian'
+name = 'vala-panel'

@@ -1,0 +1,9 @@
+id = 'verapdf'
+name = 'verapdf'
+
+homepage = 'https://verapdf.org/home'
+repository = 'https://github.com/veraPDF/veraPDF-apps.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/verapdf'

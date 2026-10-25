@@ -1,0 +1,8 @@
+id = 'python3-sparqlwrapper'
+name = 'python3-sparqlwrapper'
+
+homepage = 'https://rdflib.github.io/sparqlwrapper'
+
+[[package]]
+channel = 'debian'
+name = 'python3-sparqlwrapper'

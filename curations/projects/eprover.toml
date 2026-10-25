@@ -1,0 +1,16 @@
+id = 'eprover'
+name = 'eprover'
+
+homepage = 'https://eprover.org'
+
+[[package]]
+channel = 'debian'
+name = 'eprover'
+
+[[package]]
+channel = 'fedora'
+name = 'E'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/eprover'

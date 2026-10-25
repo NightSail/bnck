@@ -1,0 +1,8 @@
+id = 'openvr-samples'
+name = 'openvr-samples'
+
+homepage = 'https://github.com/ValveSoftware/openvr'
+
+[[package]]
+channel = 'fedora'
+name = 'openvr-samples'

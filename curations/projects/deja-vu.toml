@@ -1,0 +1,13 @@
+id = 'deja-vu'
+name = 'deja-vu'
+
+homepage = 'https://automorphisms.org'
+repository = 'https://github.com/vshulcz/deja-vu.git'
+
+[[package]]
+channel = 'debian'
+name = 'dejavu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deja-vu'

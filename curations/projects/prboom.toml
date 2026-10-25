@@ -1,0 +1,8 @@
+id = 'prboom'
+name = 'prboom'
+
+homepage = 'http://prboom.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'prboom'

@@ -1,0 +1,12 @@
+id = 'libbytesize'
+name = 'libbytesize'
+
+homepage = 'https://github.com/storaged-project/libbytesize'
+
+[[package]]
+channel = 'arch'
+name = 'libbytesize'
+
+[[package]]
+channel = 'fedora'
+name = 'libbytesize-tools'

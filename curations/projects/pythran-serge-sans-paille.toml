@@ -1,0 +1,9 @@
+id = 'pythran-serge-sans-paille'
+name = 'pythran'
+
+homepage = 'https://pythran.readthedocs.io'
+repository = 'https://github.com/serge-sans-paille/pythran.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pythran'

@@ -1,0 +1,8 @@
+id = 'astcenc'
+name = 'astcenc'
+
+homepage = 'https://github.com/ARM-software/astc-encoder'
+
+[[package]]
+channel = 'debian'
+name = 'astcenc'

@@ -1,0 +1,6 @@
+id = 'svn-buildpackage'
+name = 'svn-buildpackage'
+
+[[package]]
+channel = 'debian'
+name = 'svn-buildpackage'

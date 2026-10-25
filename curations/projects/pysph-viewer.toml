@@ -1,0 +1,8 @@
+id = 'pysph-viewer'
+name = 'pysph-viewer'
+
+homepage = 'https://github.com/pypr/pysph'
+
+[[package]]
+channel = 'debian'
+name = 'pysph-viewer'

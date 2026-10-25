@@ -1,0 +1,12 @@
+id = 'radsecproxy'
+name = 'radsecproxy'
+
+homepage = 'https://radsecproxy.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'radsecproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'radsecproxy'

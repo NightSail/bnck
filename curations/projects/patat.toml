@@ -8,5 +8,9 @@ channel = 'debian'
 name = 'patat'
 
 [[package]]
+channel = 'fedora'
+name = 'patat'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/patat'

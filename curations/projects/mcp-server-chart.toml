@@ -1,0 +1,8 @@
+id = 'mcp-server-chart'
+name = 'mcp-server-chart'
+
+homepage = 'https://github.com/antvis/mcp-server-chart'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-server-chart'

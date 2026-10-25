@@ -1,0 +1,25 @@
+id = 'sparse'
+name = 'sparse'
+
+homepage = 'https://sparse.docs.kernel.org/en/latest'
+repository = 'https://git.kernel.org/pub/scm/devel/sparse/sparse.git'
+
+[[package]]
+channel = 'arch'
+name = 'sparse'
+
+[[package]]
+channel = 'debian'
+name = 'sparse'
+
+[[package]]
+channel = 'debian'
+name = 'sparse-test-inspect'
+
+[[package]]
+channel = 'fedora'
+name = 'sparse'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sparse'

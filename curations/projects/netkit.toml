@@ -1,0 +1,12 @@
+id = 'netkit'
+name = 'netkit'
+
+homepage = 'http://ftp.linux.org.uk/pub/linux/Networking/netkit'
+
+[[package]]
+channel = 'debian'
+name = 'finger'
+
+[[package]]
+channel = 'debian'
+name = 'fingerd'

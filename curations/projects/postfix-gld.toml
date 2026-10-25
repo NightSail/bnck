@@ -1,0 +1,6 @@
+id = 'postfix-gld'
+name = 'postfix-gld'
+
+[[package]]
+channel = 'debian'
+name = 'postfix-gld'

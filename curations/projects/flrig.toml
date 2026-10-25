@@ -1,0 +1,8 @@
+id = 'flrig'
+name = 'flrig'
+
+homepage = 'http://www.w1hkj.com/flrig-help'
+
+[[package]]
+channel = 'debian'
+name = 'flrig'

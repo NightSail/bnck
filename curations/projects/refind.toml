@@ -1,0 +1,16 @@
+id = 'refind'
+name = 'refind'
+
+homepage = 'https://www.rodsbooks.com/refind'
+
+[[package]]
+channel = 'arch'
+name = 'refind'
+
+[[package]]
+channel = 'debian'
+name = 'refind'
+
+[[package]]
+channel = 'fedora'
+name = 'rEFInd-tools'

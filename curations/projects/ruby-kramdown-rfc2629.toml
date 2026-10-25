@@ -1,0 +1,8 @@
+id = 'ruby-kramdown-rfc2629'
+name = 'ruby-kramdown-rfc2629'
+
+homepage = 'https://github.com/cabo/kramdown-rfc'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-kramdown-rfc2629'

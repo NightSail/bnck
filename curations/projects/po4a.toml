@@ -1,0 +1,17 @@
+id = 'po4a'
+name = 'po4a'
+
+homepage = 'https://po4a.org'
+repository = 'https://github.com/mquinson/po4a.git'
+
+[[package]]
+channel = 'debian'
+name = 'po4a'
+
+[[package]]
+channel = 'fedora'
+name = 'po4a'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/po4a'

@@ -1,0 +1,8 @@
+id = 'hellfire'
+name = 'hellfire'
+
+homepage = 'https://pathspider.net/hellfire'
+
+[[package]]
+channel = 'debian'
+name = 'hellfire'

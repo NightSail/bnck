@@ -1,0 +1,17 @@
+id = 'trivy'
+name = 'trivy'
+
+homepage = 'https://trivy.dev'
+repository = 'https://github.com/aquasecurity/trivy.git'
+
+[[package]]
+channel = 'arch'
+name = 'trivy'
+
+[[package]]
+channel = 'fedora'
+name = 'trivy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trivy'

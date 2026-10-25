@@ -1,0 +1,8 @@
+id = 'dvbpsi-utils'
+name = 'dvbpsi-utils'
+
+homepage = 'https://www.videolan.org/developers/libdvbpsi.html'
+
+[[package]]
+channel = 'debian'
+name = 'dvbpsi-utils'

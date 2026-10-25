@@ -1,0 +1,8 @@
+id = 'git-remote-codecommit'
+name = 'git-remote-codecommit'
+
+repository = 'https://github.com/aws/git-remote-codecommit.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-remote-codecommit'

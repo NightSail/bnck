@@ -1,0 +1,16 @@
+id = 'lgames'
+name = 'lgames'
+
+homepage = 'http://lgames.sourceforge.net/index.php'
+
+[[package]]
+channel = 'arch'
+name = 'barrage'
+
+[[package]]
+channel = 'fedora'
+name = 'barrage'
+
+[[package]]
+channel = 'fedora'
+name = 'lpairs'

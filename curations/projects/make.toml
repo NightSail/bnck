@@ -1,0 +1,25 @@
+id = 'make'
+name = 'make'
+
+homepage = 'https://www.gnu.org/software/make'
+repository = 'https://git.savannah.gnu.org/git/make.git'
+
+[[package]]
+channel = 'arch'
+name = 'make'
+
+[[package]]
+channel = 'debian'
+name = 'make'
+
+[[package]]
+channel = 'debian'
+name = 'make-guile'
+
+[[package]]
+channel = 'fedora'
+name = 'make'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/make'

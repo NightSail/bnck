@@ -1,0 +1,12 @@
+id = 'openal'
+name = 'openal'
+
+homepage = 'https://www.openal.org'
+
+[[package]]
+channel = 'arch'
+name = 'freealut'
+
+[[package]]
+channel = 'fedora'
+name = 'freealut-devel'

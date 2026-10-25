@@ -1,0 +1,8 @@
+id = 'nvi2'
+name = 'nvi2'
+
+homepage = 'https://github.com/lichray/nvi2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nvi2'

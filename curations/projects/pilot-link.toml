@@ -1,0 +1,12 @@
+id = 'pilot-link'
+name = 'pilot-link'
+
+homepage = 'http://www.pilot-link.org'
+
+[[package]]
+channel = 'fedora'
+name = 'pilot-link'
+
+[[package]]
+channel = 'fedora'
+name = 'pilot-link-perl'

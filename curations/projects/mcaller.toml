@@ -1,0 +1,8 @@
+id = 'mcaller'
+name = 'mcaller'
+
+homepage = 'https://github.com/al-mcintyre/mCaller'
+
+[[package]]
+channel = 'debian'
+name = 'mcaller'

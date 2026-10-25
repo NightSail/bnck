@@ -1,0 +1,8 @@
+id = 'harfbuzz-devel'
+name = 'harfbuzz-devel'
+
+homepage = 'https://github.com/harfbuzz/harfbuzz'
+
+[[package]]
+channel = 'fedora'
+name = 'harfbuzz-devel'

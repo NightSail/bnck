@@ -1,0 +1,8 @@
+id = 'libelixirfm-perl'
+name = 'libelixirfm-perl'
+
+homepage = 'http://elixir-fm.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libelixirfm-perl'

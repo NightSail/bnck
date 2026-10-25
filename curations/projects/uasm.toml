@@ -1,0 +1,8 @@
+id = 'uasm'
+name = 'uasm'
+
+homepage = 'http://www.terraspace.co.uk/uasm.html'
+
+[[package]]
+channel = 'arch'
+name = 'uasm'

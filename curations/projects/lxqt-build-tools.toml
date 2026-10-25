@@ -1,0 +1,20 @@
+id = 'lxqt-build-tools'
+name = 'lxqt-build-tools'
+
+homepage = 'https://github.com/lxqt/lxqt-build-tools'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-build-tools'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-build-tools-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-build-tools'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-build-tools-qt5'

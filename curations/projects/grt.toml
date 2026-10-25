@@ -1,0 +1,8 @@
+id = 'grt'
+name = 'grt'
+
+homepage = 'https://nickgillian.com/grt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/grt'

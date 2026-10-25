@@ -1,0 +1,16 @@
+id = 'shairplay'
+name = 'shairplay'
+
+homepage = 'https://github.com/juhovh/shairplay'
+
+[[package]]
+channel = 'debian'
+name = 'shairplay'
+
+[[package]]
+channel = 'fedora'
+name = 'airtv'
+
+[[package]]
+channel = 'fedora'
+name = 'shairplay'

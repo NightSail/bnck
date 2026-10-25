@@ -1,0 +1,12 @@
+id = 'systemsettings'
+name = 'systemsettings'
+
+homepage = 'https://invent.kde.org/plasma/systemsettings'
+
+[[package]]
+channel = 'debian'
+name = 'systemsettings'
+
+[[package]]
+channel = 'fedora'
+name = 'plasma-systemsettings'

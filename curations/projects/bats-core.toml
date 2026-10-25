@@ -1,0 +1,20 @@
+id = 'bats-core'
+name = 'bats-core'
+
+homepage = 'https://github.com/bats-core/bats-core'
+
+[[package]]
+channel = 'arch'
+name = 'bats'
+
+[[package]]
+channel = 'debian'
+name = 'bats'
+
+[[package]]
+channel = 'fedora'
+name = 'bats'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bats-core'

@@ -1,0 +1,8 @@
+id = 'deepin-service-manager'
+name = 'deepin-service-manager'
+
+homepage = 'https://github.com/linuxdeepin/deepin-service-manager'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-service-manager'

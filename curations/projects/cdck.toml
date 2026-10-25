@@ -1,0 +1,8 @@
+id = 'cdck'
+name = 'cdck'
+
+homepage = 'http://swaj.net/unix/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'cdck'

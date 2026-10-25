@@ -1,0 +1,8 @@
+id = 'python3-pysmi'
+name = 'python3-pysmi'
+
+homepage = 'https://github.com/etingof/pysmi'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysmi'

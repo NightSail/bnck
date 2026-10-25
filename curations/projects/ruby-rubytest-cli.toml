@@ -1,0 +1,8 @@
+id = 'ruby-rubytest-cli'
+name = 'ruby-rubytest-cli'
+
+homepage = 'https://github.com/rubyworks/rubytest-cli'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-rubytest-cli'

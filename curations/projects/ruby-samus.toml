@@ -1,0 +1,8 @@
+id = 'ruby-samus'
+name = 'ruby-samus'
+
+homepage = 'https://github.com/lsegal/samus'
+
+[[package]]
+channel = 'arch'
+name = 'ruby-samus'

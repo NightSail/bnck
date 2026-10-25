@@ -1,0 +1,8 @@
+id = 'health-check'
+name = 'health-check'
+
+homepage = 'https://github.com/ColinIanKing/health-check'
+
+[[package]]
+channel = 'debian'
+name = 'health-check'

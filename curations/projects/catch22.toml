@@ -1,0 +1,8 @@
+id = 'catch22'
+name = 'catch22'
+
+homepage = 'https://github.com/chlubba/catch22'
+
+[[package]]
+channel = 'fedora'
+name = 'catch22'

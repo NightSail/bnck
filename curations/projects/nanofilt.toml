@@ -1,0 +1,8 @@
+id = 'nanofilt'
+name = 'nanofilt'
+
+homepage = 'https://github.com/wdecoster/nanofilt'
+
+[[package]]
+channel = 'debian'
+name = 'nanofilt'

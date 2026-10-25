@@ -1,0 +1,8 @@
+id = 'crypto-auditing-client'
+name = 'crypto-auditing-client'
+
+homepage = 'https://crates.io/crates/crypto-auditing-client'
+
+[[package]]
+channel = 'fedora'
+name = 'crypto-auditing-client'

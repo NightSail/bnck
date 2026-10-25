@@ -1,0 +1,8 @@
+id = 'qcalcfilehash'
+name = 'qcalcfilehash'
+
+homepage = 'https://bitbucket.org/admsasha/qcalcfilehash'
+
+[[package]]
+channel = 'debian'
+name = 'qcalcfilehash'

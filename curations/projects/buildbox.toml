@@ -1,0 +1,12 @@
+id = 'buildbox'
+name = 'buildbox'
+
+homepage = 'https://buildgrid.gitlab.io/buildbox/buildbox-home'
+
+[[package]]
+channel = 'debian'
+name = 'buildbox'
+
+[[package]]
+channel = 'fedora'
+name = 'buildbox'

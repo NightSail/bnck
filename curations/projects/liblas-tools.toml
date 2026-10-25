@@ -1,0 +1,8 @@
+id = 'liblas-tools'
+name = 'liblas-tools'
+
+homepage = 'https://github.com/libLAS/libLAS'
+
+[[package]]
+channel = 'fedora'
+name = 'liblas-tools'

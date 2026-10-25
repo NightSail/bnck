@@ -1,0 +1,16 @@
+id = 'gmic-gmic'
+name = 'gmic'
+
+homepage = 'http://gmic.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'gmic'
+
+[[package]]
+channel = 'debian'
+name = 'gmic-zart'
+
+[[package]]
+channel = 'debian'
+name = 'krita-gmic'

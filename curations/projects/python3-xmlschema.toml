@@ -1,0 +1,8 @@
+id = 'python3-xmlschema'
+name = 'python3-xmlschema'
+
+homepage = 'https://github.com/brunato/xmlschema'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-xmlschema'

@@ -1,0 +1,16 @@
+id = 'libpsl'
+name = 'libpsl'
+
+homepage = 'https://github.com/rockdaboot/libpsl'
+
+[[package]]
+channel = 'arch'
+name = 'libpsl'
+
+[[package]]
+channel = 'debian'
+name = 'psl'
+
+[[package]]
+channel = 'debian'
+name = 'psl-make-dafsa'

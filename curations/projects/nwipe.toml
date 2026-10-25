@@ -1,0 +1,12 @@
+id = 'nwipe'
+name = 'nwipe'
+
+homepage = 'https://github.com/martijnvanbrummelen/nwipe'
+
+[[package]]
+channel = 'debian'
+name = 'nwipe'
+
+[[package]]
+channel = 'fedora'
+name = 'nwipe'

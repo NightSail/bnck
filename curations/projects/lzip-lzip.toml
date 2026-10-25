@@ -1,0 +1,12 @@
+id = 'lzip-lzip'
+name = 'lzip'
+
+homepage = 'http://www.nongnu.org/lzip/lzlib.html'
+
+[[package]]
+channel = 'arch'
+name = 'lzlib'
+
+[[package]]
+channel = 'debian'
+name = 'minilzip'

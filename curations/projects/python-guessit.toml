@@ -1,0 +1,8 @@
+id = 'python-guessit'
+name = 'python-guessit'
+
+homepage = 'https://github.com/guessit-io/guessit'
+
+[[package]]
+channel = 'arch'
+name = 'python-guessit'

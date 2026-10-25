@@ -1,0 +1,8 @@
+id = 'google-osconfig-agent'
+name = 'google-osconfig-agent'
+
+homepage = 'https://github.com/GoogleCloudPlatform/osconfig'
+
+[[package]]
+channel = 'fedora'
+name = 'google-osconfig-agent'

@@ -1,0 +1,8 @@
+id = 'ncoils'
+name = 'ncoils'
+
+homepage = 'http://www.russelllab.org/coils'
+
+[[package]]
+channel = 'debian'
+name = 'ncoils'

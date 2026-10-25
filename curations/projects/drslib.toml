@@ -1,0 +1,8 @@
+id = 'drslib'
+name = 'drslib'
+
+homepage = 'https://github.com/ESGF/esgf-drslib'
+
+[[package]]
+channel = 'debian'
+name = 'drslib'

@@ -1,0 +1,8 @@
+id = 'liblopsub-bin'
+name = 'liblopsub-bin'
+
+homepage = 'https://people.tuebingen.mpg.de/maan/lopsub'
+
+[[package]]
+channel = 'debian'
+name = 'liblopsub-bin'

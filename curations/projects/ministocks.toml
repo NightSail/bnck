@@ -1,0 +1,8 @@
+id = 'ministocks'
+name = 'ministocks'
+
+homepage = 'https://github.com/Dakostu/MiniStocks'
+
+[[package]]
+channel = 'debian'
+name = 'ministocks'

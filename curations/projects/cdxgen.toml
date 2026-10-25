@@ -1,0 +1,8 @@
+id = 'cdxgen'
+name = 'cdxgen'
+
+homepage = 'https://github.com/CycloneDX/cdxgen'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdxgen'

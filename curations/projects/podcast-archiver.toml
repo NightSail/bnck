@@ -1,0 +1,8 @@
+id = 'podcast-archiver'
+name = 'podcast-archiver'
+
+homepage = 'https://codeberg.org/janw/podcast-archiver'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/podcast-archiver'

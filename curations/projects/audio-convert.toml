@@ -1,0 +1,8 @@
+id = 'audio-convert'
+name = 'audio-convert'
+
+homepage = 'https://savannah.nongnu.org/projects/audio-convert'
+
+[[package]]
+channel = 'arch'
+name = 'audio-convert'

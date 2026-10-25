@@ -1,0 +1,12 @@
+id = 'libsearpc'
+name = 'libsearpc'
+
+homepage = 'https://github.com/haiwen/libsearpc'
+
+[[package]]
+channel = 'debian'
+name = 'libsearpc-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libsearpc'

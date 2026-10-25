@@ -1,0 +1,8 @@
+id = 'pdfslicer'
+name = 'pdfslicer'
+
+homepage = 'https://junrrein.github.io/pdfslicer'
+
+[[package]]
+channel = 'arch'
+name = 'pdfslicer'

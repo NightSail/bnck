@@ -1,0 +1,8 @@
+id = 'rdf2rml'
+name = 'rdf2rml'
+
+homepage = 'https://github.com/VladimirAlexiev/rdf2rml'
+
+[[package]]
+channel = 'debian'
+name = 'rdf2rml'

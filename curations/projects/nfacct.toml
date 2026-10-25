@@ -1,0 +1,12 @@
+id = 'nfacct'
+name = 'nfacct'
+
+homepage = 'https://www.netfilter.org/projects/nfacct'
+
+[[package]]
+channel = 'arch'
+name = 'nfacct'
+
+[[package]]
+channel = 'debian'
+name = 'nfacct'

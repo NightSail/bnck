@@ -1,0 +1,12 @@
+id = 'python3-textfsm'
+name = 'python3-textfsm'
+
+homepage = 'https://github.com/google/textfsm'
+
+[[package]]
+channel = 'debian'
+name = 'python3-textfsm'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-textfsm'

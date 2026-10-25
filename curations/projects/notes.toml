@@ -1,0 +1,12 @@
+id = 'notes'
+name = 'Notes'
+
+homepage = 'https://wiki.gnome.org/Apps/Notes'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-notes'
+
+[[package]]
+channel = 'debian'
+name = 'bijiben'

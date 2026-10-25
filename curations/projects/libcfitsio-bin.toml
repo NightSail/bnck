@@ -1,0 +1,8 @@
+id = 'libcfitsio-bin'
+name = 'libcfitsio-bin'
+
+homepage = 'https://heasarc.gsfc.nasa.gov/fitsio/fitsio.html'
+
+[[package]]
+channel = 'debian'
+name = 'libcfitsio-bin'

@@ -1,0 +1,20 @@
+id = 'argyll-cms'
+name = 'argyll-cms'
+
+homepage = 'https://www.argyllcms.com'
+
+[[package]]
+channel = 'arch'
+name = 'argyllcms'
+
+[[package]]
+channel = 'debian'
+name = 'argyll'
+
+[[package]]
+channel = 'fedora'
+name = 'argyllcms'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/argyll-cms'

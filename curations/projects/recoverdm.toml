@@ -1,0 +1,8 @@
+id = 'recoverdm'
+name = 'recoverdm'
+
+homepage = 'https://www.vanheusden.com/recoverdm'
+
+[[package]]
+channel = 'debian'
+name = 'recoverdm'

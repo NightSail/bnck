@@ -1,0 +1,6 @@
+id = 'as31'
+name = 'as31'
+
+[[package]]
+channel = 'debian'
+name = 'as31'

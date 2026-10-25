@@ -1,0 +1,8 @@
+id = 'container-structure-test'
+name = 'container-structure-test'
+
+repository = 'https://github.com/GoogleContainerTools/container-structure-test.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/container-structure-test'

@@ -1,0 +1,16 @@
+id = 'stalonetray'
+name = 'stalonetray'
+
+homepage = 'https://github.com/d3adb5/stalonetray'
+
+[[package]]
+channel = 'arch'
+name = 'stalonetray'
+
+[[package]]
+channel = 'debian'
+name = 'stalonetray'
+
+[[package]]
+channel = 'fedora'
+name = 'stalonetray'

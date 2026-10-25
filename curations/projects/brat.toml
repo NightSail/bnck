@@ -1,0 +1,8 @@
+id = 'brat'
+name = 'brat'
+
+homepage = 'https://codeberg.org/sstephenson/brat'
+
+[[package]]
+channel = 'arch'
+name = 'brat'

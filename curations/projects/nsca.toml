@@ -1,0 +1,12 @@
+id = 'nsca'
+name = 'nsca'
+
+homepage = 'https://github.com/NagiosEnterprises/nsca'
+
+[[package]]
+channel = 'debian'
+name = 'nsca'
+
+[[package]]
+channel = 'debian'
+name = 'nsca-client'

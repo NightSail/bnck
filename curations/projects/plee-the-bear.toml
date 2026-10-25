@@ -1,0 +1,8 @@
+id = 'plee-the-bear'
+name = 'plee-the-bear'
+
+homepage = 'https://github.com/j-jorge/plee-the-bear'
+
+[[package]]
+channel = 'fedora'
+name = 'plee-the-bear'

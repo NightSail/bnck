@@ -1,0 +1,8 @@
+id = 'centpkg-minimal'
+name = 'centpkg-minimal'
+
+homepage = 'https://git.centos.org/centos-git-common'
+
+[[package]]
+channel = 'fedora'
+name = 'centpkg-minimal'

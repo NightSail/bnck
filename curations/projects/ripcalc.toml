@@ -1,0 +1,8 @@
+id = 'ripcalc'
+name = 'ripcalc'
+
+homepage = 'https://www.usenix.org.uk/content/ripcalc.html'
+
+[[package]]
+channel = 'debian'
+name = 'ripcalc'

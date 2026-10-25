@@ -1,0 +1,16 @@
+id = 'libwbxml'
+name = 'libwbxml'
+
+repository = 'https://github.com/libwbxml/libwbxml.git'
+
+[[package]]
+channel = 'debian'
+name = 'libwbxml2-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libwbxml'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libwbxml'

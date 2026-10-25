@@ -1,0 +1,12 @@
+id = 'xinput'
+name = 'xinput'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xinput'
+
+[[package]]
+channel = 'debian'
+name = 'xinput'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xinput'

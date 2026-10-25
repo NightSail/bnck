@@ -1,0 +1,8 @@
+id = 'gap-nq'
+name = 'gap-nq'
+
+homepage = 'http://www.gap-system.org/Packages/nq.html'
+
+[[package]]
+channel = 'debian'
+name = 'gap-nq'

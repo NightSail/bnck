@@ -1,0 +1,12 @@
+id = 'prometheus-systemd-exporter'
+name = 'prometheus-systemd-exporter'
+
+homepage = 'https://github.com/prometheus-community/systemd_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-systemd-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-systemd-exporter'

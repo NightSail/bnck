@@ -1,0 +1,8 @@
+id = 'cewl'
+name = 'cewl'
+
+homepage = 'https://github.com/digininja/CeWL'
+
+[[package]]
+channel = 'debian'
+name = 'cewl'

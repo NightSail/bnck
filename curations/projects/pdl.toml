@@ -1,0 +1,12 @@
+id = 'pdl'
+name = 'pdl'
+
+homepage = 'https://pdl.perl.org'
+
+[[package]]
+channel = 'debian'
+name = 'pdl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-PDL'

@@ -1,0 +1,8 @@
+id = 'parser3-cgi'
+name = 'parser3-cgi'
+
+homepage = 'http://www.parser.ru/en'
+
+[[package]]
+channel = 'debian'
+name = 'parser3-cgi'

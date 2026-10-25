@@ -1,0 +1,16 @@
+id = 'macos'
+name = 'MacOS'
+
+homepage = 'https://wiki.winehq.org/MacOS'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wine-stable'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wine@devel'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/wine@staging'

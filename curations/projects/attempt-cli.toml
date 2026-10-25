@@ -1,0 +1,8 @@
+id = 'attempt-cli'
+name = 'attempt-cli'
+
+repository = 'https://github.com/MaxBondABE/attempt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/attempt-cli'

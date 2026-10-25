@@ -1,0 +1,12 @@
+id = 'onnx'
+name = 'onnx'
+
+homepage = 'https://onnx.ai'
+
+[[package]]
+channel = 'arch'
+name = 'python-onnx'
+
+[[package]]
+channel = 'debian'
+name = 'python3-onnx'

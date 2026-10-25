@@ -1,0 +1,8 @@
+id = 'laurel'
+name = 'laurel'
+
+homepage = 'https://github.com/threathunters-io/laurel'
+
+[[package]]
+channel = 'debian'
+name = 'laurel'

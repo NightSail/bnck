@@ -1,0 +1,8 @@
+id = 'filter'
+name = 'filter'
+
+homepage = 'https://www.bolthole.com/filter'
+
+[[package]]
+channel = 'debian'
+name = 'filter'

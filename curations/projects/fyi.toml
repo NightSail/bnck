@@ -1,0 +1,16 @@
+id = 'fyi'
+name = 'fyi'
+
+homepage = 'https://codeberg.org/dnkl/fyi'
+
+[[package]]
+channel = 'arch'
+name = 'fyi'
+
+[[package]]
+channel = 'debian'
+name = 'fyi'
+
+[[package]]
+channel = 'fedora'
+name = 'fyi'

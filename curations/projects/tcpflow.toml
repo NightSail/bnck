@@ -1,0 +1,24 @@
+id = 'tcpflow'
+name = 'tcpflow'
+
+repository = 'https://github.com/simsong/tcpflow.git'
+
+[[package]]
+channel = 'arch'
+name = 'tcpflow'
+
+[[package]]
+channel = 'debian'
+name = 'tcpflow'
+
+[[package]]
+channel = 'debian'
+name = 'tcpflow-nox'
+
+[[package]]
+channel = 'fedora'
+name = 'tcpflow'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tcpflow'

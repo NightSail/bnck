@@ -1,0 +1,12 @@
+id = 'bedops'
+name = 'bedops'
+
+homepage = 'https://github.com/bedops/bedops'
+
+[[package]]
+channel = 'debian'
+name = 'bedops'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bedops'

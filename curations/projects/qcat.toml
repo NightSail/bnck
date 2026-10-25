@@ -1,0 +1,8 @@
+id = 'qcat'
+name = 'qcat'
+
+homepage = 'https://github.com/nanoporetech/qcat'
+
+[[package]]
+channel = 'debian'
+name = 'qcat'

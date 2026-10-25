@@ -1,0 +1,8 @@
+id = 'munin-libvirt-plugins'
+name = 'munin-libvirt-plugins'
+
+homepage = 'https://honk.sigxcpu.org/projects/libvirt'
+
+[[package]]
+channel = 'debian'
+name = 'munin-libvirt-plugins'

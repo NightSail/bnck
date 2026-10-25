@@ -1,0 +1,16 @@
+id = 'install'
+name = 'install'
+
+homepage = 'https://nextcloud.com/install'
+
+[[package]]
+channel = 'debian'
+name = 'nextcloud-desktop'
+
+[[package]]
+channel = 'debian'
+name = 'nextcloud-desktop-cmd'
+
+[[package]]
+channel = 'fedora'
+name = 'nextcloud-client'

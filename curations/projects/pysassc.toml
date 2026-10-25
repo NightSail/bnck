@@ -1,0 +1,8 @@
+id = 'pysassc'
+name = 'pysassc'
+
+homepage = 'https://sass.github.io/libsass-python'
+
+[[package]]
+channel = 'debian'
+name = 'pysassc'

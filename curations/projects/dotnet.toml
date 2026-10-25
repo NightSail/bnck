@@ -1,0 +1,21 @@
+id = 'dotnet'
+name = 'dotnet'
+
+homepage = 'https://dotnet.microsoft.com'
+repository = 'https://github.com/dotnet/dotnet.git'
+
+[[package]]
+channel = 'arch'
+name = 'dotnet-host'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotnet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotnet@8'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotnet@9'

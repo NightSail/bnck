@@ -1,0 +1,9 @@
+id = 'tirith'
+name = 'tirith'
+
+homepage = 'https://tirith.sh'
+repository = 'https://github.com/sheeki03/tirith.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tirith'

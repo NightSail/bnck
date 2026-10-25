@@ -1,0 +1,8 @@
+id = 'aodh-common'
+name = 'aodh-common'
+
+homepage = 'https://github.com/openstack/aodh'
+
+[[package]]
+channel = 'debian'
+name = 'aodh-common'

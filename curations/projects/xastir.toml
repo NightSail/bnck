@@ -1,0 +1,12 @@
+id = 'xastir'
+name = 'xastir'
+
+homepage = 'https://www.xastir.org'
+
+[[package]]
+channel = 'debian'
+name = 'xastir'
+
+[[package]]
+channel = 'fedora'
+name = 'xastir'

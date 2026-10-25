@@ -1,0 +1,9 @@
+id = 'oak'
+name = 'oak'
+
+homepage = 'https://oaklang.org'
+repository = 'https://github.com/thesephist/oak.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oak'

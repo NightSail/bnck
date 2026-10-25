@@ -1,0 +1,8 @@
+id = 'xorg-xpr'
+name = 'xorg-xpr'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xpr'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xpr'

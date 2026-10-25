@@ -1,0 +1,16 @@
+id = 'uudeview'
+name = 'uudeview'
+
+homepage = 'https://github.com/hannob/uudeview'
+
+[[package]]
+channel = 'arch'
+name = 'uudeview'
+
+[[package]]
+channel = 'debian'
+name = 'uudeview'
+
+[[package]]
+channel = 'debian'
+name = 'xdeview'

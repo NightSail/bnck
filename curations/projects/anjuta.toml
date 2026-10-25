@@ -1,0 +1,8 @@
+id = 'anjuta'
+name = 'anjuta'
+
+homepage = 'http://www.anjuta.org'
+
+[[package]]
+channel = 'fedora'
+name = 'anjuta'

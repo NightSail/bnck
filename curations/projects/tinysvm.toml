@@ -1,0 +1,8 @@
+id = 'tinysvm'
+name = 'tinysvm'
+
+homepage = 'http://chasen.org/~taku/software/TinySVM'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tinysvm'

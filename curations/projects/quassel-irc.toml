@@ -1,0 +1,48 @@
+id = 'quassel-irc'
+name = 'quassel-irc'
+
+homepage = 'https://quassel-irc.org'
+
+[[package]]
+channel = 'arch'
+name = 'quassel-client'
+
+[[package]]
+channel = 'arch'
+name = 'quassel-client-qt'
+
+[[package]]
+channel = 'arch'
+name = 'quassel-core'
+
+[[package]]
+channel = 'arch'
+name = 'quassel-monolithic'
+
+[[package]]
+channel = 'arch'
+name = 'quassel-monolithic-qt'
+
+[[package]]
+channel = 'debian'
+name = 'quassel'
+
+[[package]]
+channel = 'debian'
+name = 'quassel-client'
+
+[[package]]
+channel = 'debian'
+name = 'quassel-core'
+
+[[package]]
+channel = 'fedora'
+name = 'quassel'
+
+[[package]]
+channel = 'fedora'
+name = 'quassel-client'
+
+[[package]]
+channel = 'fedora'
+name = 'quassel-core'

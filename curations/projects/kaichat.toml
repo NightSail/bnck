@@ -1,0 +1,8 @@
+id = 'kaichat'
+name = 'kaichat'
+
+homepage = 'https://apps.kde.org/kaichat'
+
+[[package]]
+channel = 'fedora'
+name = 'kaichat'

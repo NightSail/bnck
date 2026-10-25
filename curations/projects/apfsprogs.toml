@@ -1,0 +1,12 @@
+id = 'apfsprogs'
+name = 'apfsprogs'
+
+homepage = 'https://github.com/linux-apfs/apfsprogs'
+
+[[package]]
+channel = 'arch'
+name = 'apfsprogs'
+
+[[package]]
+channel = 'debian'
+name = 'apfsprogs'

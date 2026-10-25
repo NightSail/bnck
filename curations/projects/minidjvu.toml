@@ -1,0 +1,12 @@
+id = 'minidjvu'
+name = 'minidjvu'
+
+homepage = 'https://minidjvu.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'minidjvu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/minidjvu'

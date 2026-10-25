@@ -1,0 +1,16 @@
+id = 'tkcvs'
+name = 'tkcvs'
+
+homepage = 'https://sourceforge.net/projects/tkcvs'
+
+[[package]]
+channel = 'debian'
+name = 'tkcvs'
+
+[[package]]
+channel = 'debian'
+name = 'tkdiff'
+
+[[package]]
+channel = 'debian'
+name = 'tkrev'

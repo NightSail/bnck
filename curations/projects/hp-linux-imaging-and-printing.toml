@@ -1,0 +1,24 @@
+id = 'hp-linux-imaging-and-printing'
+name = 'hp-linux-imaging-and-printing'
+
+homepage = 'https://developers.hp.com/hp-linux-imaging-and-printing'
+
+[[package]]
+channel = 'debian'
+name = 'hplip'
+
+[[package]]
+channel = 'debian'
+name = 'hplip-gui'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-hpijs'
+
+[[package]]
+channel = 'fedora'
+name = 'hplip'
+
+[[package]]
+channel = 'fedora'
+name = 'hplip-gui'

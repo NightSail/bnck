@@ -1,0 +1,8 @@
+id = 'cowdancer'
+name = 'cowdancer'
+
+homepage = 'https://www.netfort.gr.jp/~dancer/software/cowdancer.html'
+
+[[package]]
+channel = 'debian'
+name = 'cowdancer'

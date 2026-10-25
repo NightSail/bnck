@@ -1,0 +1,12 @@
+id = 'closure-compiler'
+name = 'closure-compiler'
+
+homepage = 'https://developers.google.com/closure/compiler'
+
+[[package]]
+channel = 'debian'
+name = 'closure-compiler'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/closure-compiler'

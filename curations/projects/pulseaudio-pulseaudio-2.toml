@@ -1,0 +1,9 @@
+id = 'pulseaudio-pulseaudio-2'
+name = 'pulseaudio'
+
+homepage = 'https://wiki.freedesktop.org/www/Software/PulseAudio'
+repository = 'https://gitlab.freedesktop.org/pulseaudio/pulseaudio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pulseaudio'

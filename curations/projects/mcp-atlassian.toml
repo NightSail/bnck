@@ -1,0 +1,8 @@
+id = 'mcp-atlassian'
+name = 'mcp-atlassian'
+
+repository = 'https://github.com/sooperset/mcp-atlassian.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mcp-atlassian'

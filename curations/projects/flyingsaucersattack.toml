@@ -1,0 +1,8 @@
+id = 'flyingsaucersattack'
+name = 'flyingsaucersattack'
+
+homepage = 'http://www.dennisbusch.de/fsa.php'
+
+[[package]]
+channel = 'fedora'
+name = 'flyingsaucersattack'

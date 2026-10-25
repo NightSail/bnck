@@ -1,0 +1,8 @@
+id = 'claude-code-templates'
+name = 'claude-code-templates'
+
+homepage = 'https://www.aitmpl.com/agents'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claude-code-templates'

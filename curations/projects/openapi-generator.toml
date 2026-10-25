@@ -1,0 +1,13 @@
+id = 'openapi-generator'
+name = 'openapi-generator'
+
+homepage = 'https://openapi-generator.tech'
+repository = 'https://github.com/OpenAPITools/openapi-generator.git'
+
+[[package]]
+channel = 'arch'
+name = 'openapi-generator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/openapi-generator'

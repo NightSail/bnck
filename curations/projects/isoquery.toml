@@ -1,0 +1,8 @@
+id = 'isoquery'
+name = 'isoquery'
+
+homepage = 'https://codeberg.org/toddy/isoquery'
+
+[[package]]
+channel = 'debian'
+name = 'isoquery'

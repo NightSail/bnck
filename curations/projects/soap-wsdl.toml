@@ -1,0 +1,12 @@
+id = 'soap-wsdl'
+name = 'SOAP-WSDL'
+
+homepage = 'https://metacpan.org/release/SOAP-WSDL'
+
+[[package]]
+channel = 'debian'
+name = 'libsoap-wsdl-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-SOAP-WSDL'

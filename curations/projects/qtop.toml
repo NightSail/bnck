@@ -1,0 +1,8 @@
+id = 'qtop'
+name = 'qtop'
+
+homepage = 'http://hugo.pereira.free.fr/software'
+
+[[package]]
+channel = 'debian'
+name = 'qtop'

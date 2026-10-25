@@ -1,0 +1,8 @@
+id = 'ctstream'
+name = 'ctstream'
+
+homepage = 'http://xpisar.wz.cz/ctstream'
+
+[[package]]
+channel = 'fedora'
+name = 'ctstream'

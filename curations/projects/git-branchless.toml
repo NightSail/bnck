@@ -1,0 +1,12 @@
+id = 'git-branchless'
+name = 'git-branchless'
+
+repository = 'https://github.com/arxanas/git-branchless.git'
+
+[[package]]
+channel = 'arch'
+name = 'git-branchless'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-branchless'

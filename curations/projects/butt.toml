@@ -1,0 +1,12 @@
+id = 'butt'
+name = 'butt'
+
+homepage = 'https://danielnoethen.de'
+
+[[package]]
+channel = 'debian'
+name = 'butt'
+
+[[package]]
+channel = 'fedora'
+name = 'butt'

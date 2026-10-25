@@ -1,0 +1,12 @@
+id = 'text-multimarkdown'
+name = 'Text-MultiMarkdown'
+
+homepage = 'https://metacpan.org/release/Text-MultiMarkdown'
+
+[[package]]
+channel = 'debian'
+name = 'libtext-multimarkdown-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Text-MultiMarkdown'

@@ -1,0 +1,8 @@
+id = 'node-speech-rule-engine'
+name = 'node-speech-rule-engine'
+
+homepage = 'https://github.com/zorkow/speech-rule-engine'
+
+[[package]]
+channel = 'debian'
+name = 'node-speech-rule-engine'

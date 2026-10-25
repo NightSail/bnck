@@ -1,0 +1,16 @@
+id = 'cxxtest'
+name = 'cxxtest'
+
+homepage = 'https://github.com/CxxTest/cxxtest'
+
+[[package]]
+channel = 'debian'
+name = 'cxxtest'
+
+[[package]]
+channel = 'fedora'
+name = 'cxxtest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cxxtest'

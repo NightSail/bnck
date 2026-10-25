@@ -1,0 +1,8 @@
+id = 'libei-utils'
+name = 'libei-utils'
+
+homepage = 'http://gitlab.freedesktop.org/libinput/libei'
+
+[[package]]
+channel = 'fedora'
+name = 'libei-utils'

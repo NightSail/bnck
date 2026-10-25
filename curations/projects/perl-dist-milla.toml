@@ -1,0 +1,8 @@
+id = 'perl-dist-milla'
+name = 'perl-Dist-Milla'
+
+homepage = 'https://metacpan.org/release/Dist-Milla'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Dist-Milla'

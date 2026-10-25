@@ -1,0 +1,8 @@
+id = 'addchain'
+name = 'addchain'
+
+homepage = 'https://github.com/mmcloughlin/addchain'
+
+[[package]]
+channel = 'debian'
+name = 'addchain'

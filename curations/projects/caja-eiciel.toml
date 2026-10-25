@@ -1,0 +1,8 @@
+id = 'caja-eiciel'
+name = 'caja-eiciel'
+
+homepage = 'https://github.com/darkshram/mate-eiciel'
+
+[[package]]
+channel = 'debian'
+name = 'caja-eiciel'

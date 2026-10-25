@@ -1,0 +1,21 @@
+id = 'wasmedge'
+name = 'wasmedge'
+
+homepage = 'https://wasmedge.org'
+repository = 'https://github.com/WasmEdge/WasmEdge.git'
+
+[[package]]
+channel = 'debian'
+name = 'wasmedge'
+
+[[package]]
+channel = 'fedora'
+name = 'wasmedge'
+
+[[package]]
+channel = 'fedora'
+name = 'wasmedge-rt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wasmedge'

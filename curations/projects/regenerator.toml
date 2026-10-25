@@ -1,0 +1,12 @@
+id = 'regenerator'
+name = 'regenerator'
+
+homepage = 'https://github.com/facebook/regenerator'
+
+[[package]]
+channel = 'debian'
+name = 'node-commoner'
+
+[[package]]
+channel = 'debian'
+name = 'node-regenerator'

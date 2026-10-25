@@ -1,0 +1,8 @@
+id = 'eb'
+name = 'eb'
+
+homepage = 'http://www.sra.co.jp/people/m-kasahr/eb'
+
+[[package]]
+channel = 'fedora'
+name = 'eb'

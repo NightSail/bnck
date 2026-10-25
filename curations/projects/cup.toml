@@ -1,0 +1,12 @@
+id = 'cup'
+name = 'cup'
+
+homepage = 'http://www2.cs.tum.edu/projects/cup'
+
+[[package]]
+channel = 'debian'
+name = 'cup'
+
+[[package]]
+channel = 'fedora'
+name = 'java_cup'

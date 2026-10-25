@@ -1,0 +1,8 @@
+id = 'geesefs'
+name = 'geesefs'
+
+repository = 'https://github.com/yandex-cloud/geesefs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geesefs'

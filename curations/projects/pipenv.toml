@@ -1,0 +1,12 @@
+id = 'pipenv'
+name = 'pipenv'
+
+repository = 'https://github.com/pypa/pipenv.git'
+
+[[package]]
+channel = 'debian'
+name = 'pipenv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pipenv'

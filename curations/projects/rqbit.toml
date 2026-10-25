@@ -1,0 +1,16 @@
+id = 'rqbit'
+name = 'rqbit'
+
+repository = 'https://github.com/ikatson/rqbit.git'
+
+[[package]]
+channel = 'arch'
+name = 'rqbit'
+
+[[package]]
+channel = 'arch'
+name = 'rqbit-desktop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rqbit'

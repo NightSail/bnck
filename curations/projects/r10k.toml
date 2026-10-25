@@ -1,0 +1,12 @@
+id = 'r10k'
+name = 'r10k'
+
+homepage = 'https://github.com/puppetlabs/r10k'
+
+[[package]]
+channel = 'arch'
+name = 'r10k'
+
+[[package]]
+channel = 'debian'
+name = 'r10k'

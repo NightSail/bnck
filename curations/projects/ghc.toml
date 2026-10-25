@@ -1,0 +1,144 @@
+id = 'ghc'
+name = 'ghc'
+
+homepage = 'https://haskell.org/ghc'
+
+[[package]]
+channel = 'arch'
+name = 'ghc'
+
+[[package]]
+channel = 'arch'
+name = 'ghc-libs'
+
+[[package]]
+channel = 'debian'
+name = 'ghc'
+
+[[package]]
+channel = 'debian'
+name = 'hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc8.10-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc8.10-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.0-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.0-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.10-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.10-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.10-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.12-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.12-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.12-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.14-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.14-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.14-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.2-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.2-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.2-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.4-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.4-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.4-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.6-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.6-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.6-hadrian'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.8-compiler'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.8-compiler-default'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc9.8-hadrian'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghc@9.10'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghc@9.12'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghc@9.6'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ghc@9.8'

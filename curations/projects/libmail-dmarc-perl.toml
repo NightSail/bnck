@@ -1,0 +1,8 @@
+id = 'libmail-dmarc-perl'
+name = 'libmail-dmarc-perl'
+
+homepage = 'https://metacpan.org/release/Mail-DMARC'
+
+[[package]]
+channel = 'debian'
+name = 'libmail-dmarc-perl'

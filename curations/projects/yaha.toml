@@ -1,0 +1,8 @@
+id = 'yaha'
+name = 'yaha'
+
+homepage = 'https://github.com/GregoryFaust/yaha'
+
+[[package]]
+channel = 'debian'
+name = 'yaha'

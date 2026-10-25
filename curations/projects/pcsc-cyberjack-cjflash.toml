@@ -1,0 +1,8 @@
+id = 'pcsc-cyberjack-cjflash'
+name = 'pcsc-cyberjack-cjflash'
+
+homepage = 'https://www.reiner-sct.com'
+
+[[package]]
+channel = 'fedora'
+name = 'pcsc-cyberjack-cjflash'

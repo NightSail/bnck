@@ -1,0 +1,20 @@
+id = 'poissonboltzmann'
+name = 'poissonboltzmann'
+
+homepage = 'http://www.poissonboltzmann.org'
+
+[[package]]
+channel = 'debian'
+name = 'apbs'
+
+[[package]]
+channel = 'debian'
+name = 'pdb2pqr'
+
+[[package]]
+channel = 'fedora'
+name = 'apbs'
+
+[[package]]
+channel = 'fedora'
+name = 'apbs-tools'

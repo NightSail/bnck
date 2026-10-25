@@ -1,0 +1,16 @@
+id = 'ktorrent'
+name = 'ktorrent'
+
+homepage = 'https://apps.kde.org/ktorrent'
+
+[[package]]
+channel = 'arch'
+name = 'ktorrent'
+
+[[package]]
+channel = 'debian'
+name = 'ktorrent'
+
+[[package]]
+channel = 'fedora'
+name = 'ktorrent'

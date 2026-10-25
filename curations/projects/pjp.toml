@@ -1,0 +1,16 @@
+id = 'pjp'
+name = 'pjp'
+
+homepage = 'http://pjp.dgplug.org/tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pem'
+
+[[package]]
+channel = 'fedora'
+name = 'ptrash'
+
+[[package]]
+channel = 'fedora'
+name = 'tlock'

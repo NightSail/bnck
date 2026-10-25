@@ -1,0 +1,8 @@
+id = 'at51'
+name = 'at51'
+
+homepage = 'https://github.com/8051Enthusiast/at51'
+
+[[package]]
+channel = 'arch'
+name = 'at51'

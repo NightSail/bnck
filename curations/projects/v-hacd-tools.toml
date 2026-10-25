@@ -1,0 +1,8 @@
+id = 'v-hacd-tools'
+name = 'v-hacd-tools'
+
+homepage = 'https://github.com/kmammou/v-hacd'
+
+[[package]]
+channel = 'fedora'
+name = 'v-hacd-tools'

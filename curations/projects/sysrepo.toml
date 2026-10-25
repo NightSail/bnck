@@ -1,0 +1,20 @@
+id = 'sysrepo'
+name = 'sysrepo'
+
+homepage = 'https://github.com/sysrepo/sysrepo'
+
+[[package]]
+channel = 'debian'
+name = 'sysrepo'
+
+[[package]]
+channel = 'debian'
+name = 'sysrepo-plugind'
+
+[[package]]
+channel = 'fedora'
+name = 'sysrepo-plugind'
+
+[[package]]
+channel = 'fedora'
+name = 'sysrepo-tools'

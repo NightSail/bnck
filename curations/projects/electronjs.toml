@@ -1,0 +1,36 @@
+id = 'electronjs'
+name = 'electronjs'
+
+homepage = 'https://electronjs.org'
+
+[[package]]
+channel = 'arch'
+name = 'electron'
+
+[[package]]
+channel = 'arch'
+name = 'electron39'
+
+[[package]]
+channel = 'arch'
+name = 'electron40'
+
+[[package]]
+channel = 'arch'
+name = 'electron41'
+
+[[package]]
+channel = 'arch'
+name = 'electron42'
+
+[[package]]
+channel = 'arch'
+name = 'electron43'
+
+[[package]]
+channel = 'arch'
+name = 'electron44'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/electron'

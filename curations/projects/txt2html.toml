@@ -1,0 +1,8 @@
+id = 'txt2html'
+name = 'txt2html'
+
+homepage = 'https://github.com/resurrecting-open-source-projects/txt2html'
+
+[[package]]
+channel = 'debian'
+name = 'txt2html'

@@ -1,0 +1,12 @@
+id = 'stdair'
+name = 'stdair'
+
+homepage = 'https://github.com/airsim/stdair'
+
+[[package]]
+channel = 'fedora'
+name = 'stdair'
+
+[[package]]
+channel = 'fedora'
+name = 'stdair-devel'

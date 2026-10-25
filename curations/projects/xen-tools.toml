@@ -1,0 +1,8 @@
+id = 'xen-tools'
+name = 'xen-tools'
+
+homepage = 'https://xen-tools.org/software/xen-tools'
+
+[[package]]
+channel = 'debian'
+name = 'xen-tools'

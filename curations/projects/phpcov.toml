@@ -1,0 +1,8 @@
+id = 'phpcov'
+name = 'phpcov'
+
+homepage = 'https://github.com/sebastianbergmann/phpcov'
+
+[[package]]
+channel = 'fedora'
+name = 'phpcov'

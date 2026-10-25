@@ -1,0 +1,8 @@
+id = 'python-scikit-build-core'
+name = 'python-scikit-build-core'
+
+homepage = 'https://github.com/scikit-build/scikit-build-core'
+
+[[package]]
+channel = 'arch'
+name = 'python-scikit-build-core'

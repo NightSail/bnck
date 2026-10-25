@@ -1,0 +1,12 @@
+id = 'arpon'
+name = 'ArpON'
+
+homepage = 'https://arpon.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'arpon'
+
+[[package]]
+channel = 'fedora'
+name = 'ArpON'

@@ -1,0 +1,8 @@
+id = 'kubetrim'
+name = 'kubetrim'
+
+repository = 'https://github.com/alexellis/kubetrim.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubetrim'

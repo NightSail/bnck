@@ -1,0 +1,17 @@
+id = 'liblinear'
+name = 'liblinear'
+
+homepage = 'https://www.csie.ntu.edu.tw/~cjlin/liblinear'
+repository = 'https://github.com/cjlin1/liblinear.git'
+
+[[package]]
+channel = 'debian'
+name = 'liblinear-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'liblinear-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/liblinear'

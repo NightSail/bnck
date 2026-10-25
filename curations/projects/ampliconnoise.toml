@@ -1,0 +1,8 @@
+id = 'ampliconnoise'
+name = 'ampliconnoise'
+
+homepage = 'https://github.com/lanzen/ampliconnoise'
+
+[[package]]
+channel = 'debian'
+name = 'ampliconnoise'

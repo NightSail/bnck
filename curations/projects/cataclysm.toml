@@ -1,0 +1,8 @@
+id = 'cataclysm'
+name = 'cataclysm'
+
+repository = 'https://github.com/CleverRaven/Cataclysm-DDA.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cataclysm'

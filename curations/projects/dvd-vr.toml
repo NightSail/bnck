@@ -1,0 +1,8 @@
+id = 'dvd-vr'
+name = 'dvd-vr'
+
+homepage = 'https://www.pixelbeat.org/programs/dvd-vr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dvd-vr'

@@ -1,0 +1,12 @@
+id = 'pktanon'
+name = 'pktanon'
+
+homepage = 'https://www.tm.kit.edu/software/pktanon/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'pktanon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pktanon'

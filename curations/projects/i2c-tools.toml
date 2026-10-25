@@ -1,0 +1,20 @@
+id = 'i2c-tools'
+name = 'i2c-tools'
+
+homepage = 'https://i2c.wiki.kernel.org/index.php/I2C_Tools'
+
+[[package]]
+channel = 'arch'
+name = 'i2c-tools'
+
+[[package]]
+channel = 'debian'
+name = 'i2c-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'i2c-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'i2c-tools-perl'

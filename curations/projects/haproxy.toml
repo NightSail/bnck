@@ -1,0 +1,24 @@
+id = 'haproxy'
+name = 'haproxy'
+
+homepage = 'https://www.haproxy.org'
+
+[[package]]
+channel = 'arch'
+name = 'haproxy'
+
+[[package]]
+channel = 'debian'
+name = 'haproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'haproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haproxy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/haproxy@2.8'

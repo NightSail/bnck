@@ -1,0 +1,24 @@
+id = 'v4l-utils-v4l-utils'
+name = 'v4l-utils'
+
+homepage = 'https://linuxtv.org/wiki/index.php/V4l-utils'
+
+[[package]]
+channel = 'debian'
+name = 'dvb-tools'
+
+[[package]]
+channel = 'debian'
+name = 'ir-keytable'
+
+[[package]]
+channel = 'debian'
+name = 'qv4l2'
+
+[[package]]
+channel = 'debian'
+name = 'qvidcap'
+
+[[package]]
+channel = 'debian'
+name = 'v4l-utils'

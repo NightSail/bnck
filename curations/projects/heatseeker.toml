@@ -1,0 +1,8 @@
+id = 'heatseeker'
+name = 'heatseeker'
+
+homepage = 'https://crates.io/crates/heatseeker'
+
+[[package]]
+channel = 'fedora'
+name = 'heatseeker'

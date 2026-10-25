@@ -1,0 +1,12 @@
+id = 'websockify'
+name = 'websockify'
+
+homepage = 'https://pypi.python.org/pypi/websockify'
+
+[[package]]
+channel = 'debian'
+name = 'python3-websockify'
+
+[[package]]
+channel = 'debian'
+name = 'websockify'

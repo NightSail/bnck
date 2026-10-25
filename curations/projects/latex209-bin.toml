@@ -1,0 +1,8 @@
+id = 'latex209-bin'
+name = 'latex209-bin'
+
+homepage = 'https://ctan.org/pkg/latex209'
+
+[[package]]
+channel = 'debian'
+name = 'latex209-bin'

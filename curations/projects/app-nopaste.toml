@@ -1,0 +1,12 @@
+id = 'app-nopaste'
+name = 'App-Nopaste'
+
+homepage = 'https://metacpan.org/release/App-Nopaste'
+
+[[package]]
+channel = 'debian'
+name = 'libapp-nopaste-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'nopaste'

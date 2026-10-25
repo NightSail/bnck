@@ -1,0 +1,16 @@
+id = 'shotcut'
+name = 'shotcut'
+
+homepage = 'https://www.shotcut.org'
+
+[[package]]
+channel = 'arch'
+name = 'shotcut'
+
+[[package]]
+channel = 'debian'
+name = 'shotcut'
+
+[[package]]
+channel = 'fedora'
+name = 'shotcut'

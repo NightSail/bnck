@@ -1,0 +1,8 @@
+id = 'rbootd'
+name = 'rbootd'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/deller/rbootd.git'
+
+[[package]]
+channel = 'debian'
+name = 'rbootd'

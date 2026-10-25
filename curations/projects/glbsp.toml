@@ -1,0 +1,6 @@
+id = 'glbsp'
+name = 'glbsp'
+
+[[package]]
+channel = 'debian'
+name = 'glbsp'

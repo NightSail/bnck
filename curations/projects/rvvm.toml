@@ -1,0 +1,8 @@
+id = 'rvvm'
+name = 'rvvm'
+
+repository = 'https://github.com/LekKit/RVVM.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rvvm'

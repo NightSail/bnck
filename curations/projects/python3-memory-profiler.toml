@@ -1,0 +1,8 @@
+id = 'python3-memory-profiler'
+name = 'python3-memory-profiler'
+
+homepage = 'https://github.com/pythonprofilers/memory_profiler'
+
+[[package]]
+channel = 'debian'
+name = 'python3-memory-profiler'

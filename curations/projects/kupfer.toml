@@ -1,0 +1,12 @@
+id = 'kupfer'
+name = 'kupfer'
+
+homepage = 'https://kupferlauncher.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'kupfer'
+
+[[package]]
+channel = 'debian'
+name = 'kupfer'

@@ -1,0 +1,8 @@
+id = 'pacman-pacman'
+name = 'pacman'
+
+homepage = 'https://gitlab.archlinux.org/pacman/pacman'
+
+[[package]]
+channel = 'fedora'
+name = 'pacman'

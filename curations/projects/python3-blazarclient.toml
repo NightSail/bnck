@@ -1,0 +1,8 @@
+id = 'python3-blazarclient'
+name = 'python3-blazarclient'
+
+homepage = 'https://github.com/openstack/python-blazarclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-blazarclient'

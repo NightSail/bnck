@@ -1,0 +1,8 @@
+id = 'twa'
+name = 'twa'
+
+homepage = 'https://github.com/trailofbits/twa'
+
+[[package]]
+channel = 'fedora'
+name = 'twa'

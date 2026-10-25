@@ -1,0 +1,8 @@
+id = 'action-validator'
+name = 'action-validator'
+
+repository = 'https://github.com/mpalmer/action-validator.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/action-validator'

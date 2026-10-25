@@ -1,0 +1,16 @@
+id = 'hyprwayland-scanner'
+name = 'hyprwayland-scanner'
+
+homepage = 'https://github.com/hyprwm/hyprwayland-scanner'
+
+[[package]]
+channel = 'arch'
+name = 'hyprwayland-scanner'
+
+[[package]]
+channel = 'debian'
+name = 'hyprwayland-scanner'
+
+[[package]]
+channel = 'fedora'
+name = 'hyprwayland-scanner-devel'

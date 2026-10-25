@@ -1,0 +1,9 @@
+id = 'code-cli'
+name = 'code-cli'
+
+homepage = 'https://code.visualstudio.com'
+repository = 'https://github.com/microsoft/vscode.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/code-cli'

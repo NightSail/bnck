@@ -1,0 +1,8 @@
+id = 'system-switch-mail'
+name = 'system-switch-mail'
+
+homepage = 'http://than.fedorapeople.org/system-switch-mail'
+
+[[package]]
+channel = 'fedora'
+name = 'system-switch-mail'

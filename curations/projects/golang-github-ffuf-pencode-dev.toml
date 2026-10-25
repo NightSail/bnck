@@ -1,0 +1,8 @@
+id = 'golang-github-ffuf-pencode-dev'
+name = 'golang-github-ffuf-pencode-dev'
+
+homepage = 'https://github.com/ffuf/pencode'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-ffuf-pencode-dev'

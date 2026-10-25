@@ -1,0 +1,8 @@
+id = 'itamae'
+name = 'itamae'
+
+homepage = 'https://itamae.kitchen'
+
+[[package]]
+channel = 'debian'
+name = 'itamae'

@@ -1,0 +1,8 @@
+id = 'cairo-dock'
+name = 'cairo-dock'
+
+homepage = 'https://github.com/Cairo-Dock/cairo-dock-core'
+
+[[package]]
+channel = 'arch'
+name = 'cairo-dock'

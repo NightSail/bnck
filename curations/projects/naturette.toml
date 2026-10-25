@@ -1,0 +1,8 @@
+id = 'naturette'
+name = 'naturette'
+
+homepage = 'http://membres.lycos.fr/agisite/rette.htm'
+
+[[package]]
+channel = 'fedora'
+name = 'naturette'

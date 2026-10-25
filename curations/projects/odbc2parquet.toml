@@ -1,0 +1,8 @@
+id = 'odbc2parquet'
+name = 'odbc2parquet'
+
+repository = 'https://github.com/pacman82/odbc2parquet.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/odbc2parquet'

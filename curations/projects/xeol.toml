@@ -1,0 +1,8 @@
+id = 'xeol'
+name = 'xeol'
+
+homepage = 'https://www.xeol.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xeol'

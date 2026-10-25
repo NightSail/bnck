@@ -1,0 +1,8 @@
+id = 'addons-linter'
+name = 'addons-linter'
+
+homepage = 'https://github.com/mozilla/addons-linter'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/addons-linter'

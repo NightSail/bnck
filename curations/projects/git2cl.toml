@@ -1,0 +1,12 @@
+id = 'git2cl'
+name = 'git2cl'
+
+homepage = 'https://savannah.nongnu.org/projects/git2cl'
+
+[[package]]
+channel = 'debian'
+name = 'git2cl'
+
+[[package]]
+channel = 'fedora'
+name = 'git2cl'

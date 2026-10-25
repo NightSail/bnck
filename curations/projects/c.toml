@@ -1,0 +1,16 @@
+id = 'c'
+name = 'C'
+
+homepage = 'http://cgm.cs.mcgill.ca/~avis/C/lrs.html'
+
+[[package]]
+channel = 'arch'
+name = 'lrs'
+
+[[package]]
+channel = 'debian'
+name = 'lrslib'
+
+[[package]]
+channel = 'debian'
+name = 'mplrs'

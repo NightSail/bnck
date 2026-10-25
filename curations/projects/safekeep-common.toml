@@ -1,0 +1,8 @@
+id = 'safekeep-common'
+name = 'safekeep-common'
+
+homepage = 'http://safekeep.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'safekeep-common'

@@ -1,0 +1,48 @@
+id = 'deluge-torrent'
+name = 'deluge-torrent'
+
+homepage = 'https://deluge-torrent.org'
+
+[[package]]
+channel = 'arch'
+name = 'deluge'
+
+[[package]]
+channel = 'arch'
+name = 'deluge-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'deluge'
+
+[[package]]
+channel = 'debian'
+name = 'deluge-console'
+
+[[package]]
+channel = 'debian'
+name = 'deluge-gtk'
+
+[[package]]
+channel = 'debian'
+name = 'deluge-web'
+
+[[package]]
+channel = 'debian'
+name = 'deluged'
+
+[[package]]
+channel = 'fedora'
+name = 'deluge-console'
+
+[[package]]
+channel = 'fedora'
+name = 'deluge-daemon'
+
+[[package]]
+channel = 'fedora'
+name = 'deluge-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'deluge-web'

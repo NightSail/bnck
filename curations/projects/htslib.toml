@@ -1,0 +1,32 @@
+id = 'htslib'
+name = 'htslib'
+
+homepage = 'https://www.htslib.org'
+
+[[package]]
+channel = 'debian'
+name = 'samtools'
+
+[[package]]
+channel = 'fedora'
+name = 'bcftools'
+
+[[package]]
+channel = 'fedora'
+name = 'htslib-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'samtools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bcftools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htslib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/samtools'

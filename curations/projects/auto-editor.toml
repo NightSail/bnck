@@ -1,0 +1,13 @@
+id = 'auto-editor'
+name = 'auto-editor'
+
+homepage = 'https://auto-editor.com'
+repository = 'https://github.com/WyattBlue/auto-editor.git'
+
+[[package]]
+channel = 'debian'
+name = 'auto-editor'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/auto-editor'

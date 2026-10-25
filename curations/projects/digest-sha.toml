@@ -1,0 +1,12 @@
+id = 'digest-sha'
+name = 'Digest-SHA'
+
+homepage = 'https://metacpan.org/release/Digest-SHA'
+
+[[package]]
+channel = 'debian'
+name = 'libdigest-sha-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Digest-SHA'

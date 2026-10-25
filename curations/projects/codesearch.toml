@@ -1,0 +1,8 @@
+id = 'codesearch'
+name = 'codesearch'
+
+homepage = 'https://github.com/google/codesearch'
+
+[[package]]
+channel = 'debian'
+name = 'codesearch'

@@ -1,0 +1,8 @@
+id = 'python3-beanie'
+name = 'python3-beanie'
+
+homepage = 'https://github.com/BeanieODM/beanie'
+
+[[package]]
+channel = 'debian'
+name = 'python3-beanie'

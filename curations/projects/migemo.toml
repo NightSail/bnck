@@ -1,0 +1,8 @@
+id = 'migemo'
+name = 'migemo'
+
+homepage = 'http://0xcc.net/migemo'
+
+[[package]]
+channel = 'fedora'
+name = 'migemo'

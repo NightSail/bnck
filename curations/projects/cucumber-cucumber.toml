@@ -1,0 +1,6 @@
+id = 'cucumber-cucumber'
+name = 'cucumber'
+
+[[package]]
+channel = 'debian'
+name = 'cucumber'

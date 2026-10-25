@@ -1,0 +1,8 @@
+id = 'ballz'
+name = 'ballz'
+
+homepage = 'https://gitlab.com/groups/ballz'
+
+[[package]]
+channel = 'fedora'
+name = 'ballz'

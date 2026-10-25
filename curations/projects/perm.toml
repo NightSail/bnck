@@ -1,0 +1,6 @@
+id = 'perm'
+name = 'perm'
+
+[[package]]
+channel = 'debian'
+name = 'perm'

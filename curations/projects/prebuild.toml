@@ -1,0 +1,13 @@
+id = 'prebuild'
+name = 'prebuild'
+
+homepage = 'https://github.com/sxyazi/yazi'
+repository = 'https://github.com/yazi-rs/prebuild'
+
+[[package]]
+channel = 'crates.io'
+name = 'prebuild'
+
+[[package]]
+channel = 'crates.io'
+name = 'yazi-prebuild'

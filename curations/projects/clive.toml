@@ -1,0 +1,8 @@
+id = 'clive'
+name = 'clive'
+
+repository = 'https://github.com/koki-develop/clive.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/clive'

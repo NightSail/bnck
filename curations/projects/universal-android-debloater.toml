@@ -1,0 +1,8 @@
+id = 'universal-android-debloater'
+name = 'universal-android-debloater'
+
+homepage = 'https://github.com/0x192/universal-android-debloater'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/universal-android-debloater'

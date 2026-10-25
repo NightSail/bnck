@@ -1,0 +1,9 @@
+id = 'slimerjs'
+name = 'slimerjs'
+
+homepage = 'https://slimerjs.org'
+repository = 'https://github.com/laurentj/slimerjs.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/slimerjs'

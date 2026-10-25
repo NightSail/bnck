@@ -1,0 +1,8 @@
+id = 'git-fixup'
+name = 'git-fixup'
+
+repository = 'https://github.com/keis/git-fixup.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-fixup'

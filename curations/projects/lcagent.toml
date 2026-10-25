@@ -1,0 +1,8 @@
+id = 'lcagent'
+name = 'lcagent'
+
+homepage = 'https://librecast.net/lcagent.html'
+
+[[package]]
+channel = 'debian'
+name = 'lcagent'

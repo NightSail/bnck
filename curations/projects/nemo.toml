@@ -1,0 +1,20 @@
+id = 'nemo'
+name = 'nemo'
+
+homepage = 'https://github.com/linuxmint/nemo'
+
+[[package]]
+channel = 'arch'
+name = 'nemo'
+
+[[package]]
+channel = 'debian'
+name = 'nemo'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo'
+
+[[package]]
+channel = 'fedora'
+name = 'nemo-search-helpers'

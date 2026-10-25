@@ -1,0 +1,8 @@
+id = 'jurand'
+name = 'jurand'
+
+homepage = 'https://github.com/fedora-java/jurand'
+
+[[package]]
+channel = 'fedora'
+name = 'jurand'

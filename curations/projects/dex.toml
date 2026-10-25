@@ -10,3 +10,11 @@ name = 'dex'
 [[package]]
 channel = 'debian'
 name = 'dex'
+
+[[package]]
+channel = 'fedora'
+name = 'dex-autostart'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dex'

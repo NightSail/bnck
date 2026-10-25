@@ -1,0 +1,9 @@
+id = 'chainloop-cli'
+name = 'chainloop-cli'
+
+homepage = 'https://docs.chainloop.dev'
+repository = 'https://github.com/chainloop-dev/chainloop.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/chainloop-cli'

@@ -1,0 +1,16 @@
+id = 'xwax'
+name = 'xwax'
+
+homepage = 'https://www.xwax.co.uk'
+
+[[package]]
+channel = 'arch'
+name = 'xwax'
+
+[[package]]
+channel = 'debian'
+name = 'xwax'
+
+[[package]]
+channel = 'fedora'
+name = 'xwax'

@@ -1,0 +1,8 @@
+id = 'pgcluu'
+name = 'pgcluu'
+
+homepage = 'https://pgcluu.darold.net'
+
+[[package]]
+channel = 'debian'
+name = 'pgcluu'

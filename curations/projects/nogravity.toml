@@ -1,0 +1,8 @@
+id = 'nogravity'
+name = 'nogravity'
+
+homepage = 'http://www.realtech-vr.com/nogravity'
+
+[[package]]
+channel = 'fedora'
+name = 'nogravity'

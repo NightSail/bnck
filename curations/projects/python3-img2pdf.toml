@@ -1,0 +1,8 @@
+id = 'python3-img2pdf'
+name = 'python3-img2pdf'
+
+homepage = 'https://pypi.org/project/img2pdf'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-img2pdf'

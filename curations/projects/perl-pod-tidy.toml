@@ -1,0 +1,8 @@
+id = 'perl-pod-tidy'
+name = 'perl-Pod-Tidy'
+
+homepage = 'https://metacpan.org/release/Pod-Tidy'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Tidy'

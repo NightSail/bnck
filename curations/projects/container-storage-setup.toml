@@ -1,0 +1,8 @@
+id = 'container-storage-setup'
+name = 'container-storage-setup'
+
+homepage = 'https://github.com/projectatomic/container-storage-setup'
+
+[[package]]
+channel = 'fedora'
+name = 'container-storage-setup'

@@ -1,0 +1,8 @@
+id = 'readest'
+name = 'readest'
+
+homepage = 'https://github.com/readest/readest'
+
+[[package]]
+channel = 'arch'
+name = 'readest'

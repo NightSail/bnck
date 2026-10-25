@@ -1,0 +1,8 @@
+id = 'fmt-ptrn'
+name = 'fmt-ptrn'
+
+homepage = 'http://www.flyn.org'
+
+[[package]]
+channel = 'fedora'
+name = 'fmt-ptrn'

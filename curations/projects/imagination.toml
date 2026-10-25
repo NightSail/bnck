@@ -1,0 +1,8 @@
+id = 'imagination'
+name = 'imagination'
+
+homepage = 'https://imagination.sf.net'
+
+[[package]]
+channel = 'debian'
+name = 'imagination'

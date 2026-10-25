@@ -1,0 +1,36 @@
+id = 's3d'
+name = 's3d'
+
+homepage = 'http://s3d.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'dotmcp'
+
+[[package]]
+channel = 'debian'
+name = 'kism3d'
+
+[[package]]
+channel = 'debian'
+name = 'meshs3d'
+
+[[package]]
+channel = 'debian'
+name = 's3d'
+
+[[package]]
+channel = 'debian'
+name = 's3dfm'
+
+[[package]]
+channel = 'debian'
+name = 's3dosm'
+
+[[package]]
+channel = 'debian'
+name = 's3dvt'
+
+[[package]]
+channel = 'debian'
+name = 's3dx11gate'

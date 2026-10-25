@@ -1,0 +1,8 @@
+id = 'pam-yubico'
+name = 'pam_yubico'
+
+homepage = 'https://developers.yubico.com/yubico-pam'
+
+[[package]]
+channel = 'fedora'
+name = 'pam_yubico'

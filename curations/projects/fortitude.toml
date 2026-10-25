@@ -1,0 +1,9 @@
+id = 'fortitude'
+name = 'fortitude'
+
+homepage = 'https://fortitude.readthedocs.io/en/stable'
+repository = 'https://github.com/PlasmaFAIR/fortitude.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fortitude'

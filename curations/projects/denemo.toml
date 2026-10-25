@@ -1,0 +1,16 @@
+id = 'denemo'
+name = 'denemo'
+
+homepage = 'http://www.denemo.org'
+
+[[package]]
+channel = 'debian'
+name = 'denemo'
+
+[[package]]
+channel = 'debian'
+name = 'denemo-data'
+
+[[package]]
+channel = 'fedora'
+name = 'denemo'

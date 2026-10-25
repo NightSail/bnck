@@ -1,0 +1,8 @@
+id = 'cosmic-osk'
+name = 'cosmic-osk'
+
+homepage = 'https://github.com/pop-os/cosmic-osk'
+
+[[package]]
+channel = 'arch'
+name = 'cosmic-osk'

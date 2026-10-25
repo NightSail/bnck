@@ -1,0 +1,226 @@
+id = 'gcc-defaults-mipsen'
+name = 'gcc-defaults-mipsen'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'cpp-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'g++-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gcc-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gccgo-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gdc-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gfortran-mipsisa64r6el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mips-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mips64-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mips64el-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mipsel-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mipsisa32r6-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mipsisa32r6el-linux-gnu'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mipsisa64r6-linux-gnuabi64'
+
+[[package]]
+channel = 'debian'
+name = 'gm2-mipsisa64r6el-linux-gnuabi64'

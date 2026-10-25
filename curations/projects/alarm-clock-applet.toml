@@ -1,0 +1,8 @@
+id = 'alarm-clock-applet'
+name = 'alarm-clock-applet'
+
+homepage = 'https://alarm-clock-applet.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'alarm-clock-applet'

@@ -1,0 +1,12 @@
+id = 'seahorse-caja'
+name = 'seahorse-caja'
+
+homepage = 'https://github.com/darkshram/seahorse-caja'
+
+[[package]]
+channel = 'debian'
+name = 'caja-seahorse'
+
+[[package]]
+channel = 'fedora'
+name = 'seahorse-caja'

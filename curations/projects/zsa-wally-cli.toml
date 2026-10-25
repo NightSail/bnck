@@ -1,0 +1,8 @@
+id = 'zsa-wally-cli'
+name = 'zsa-wally-cli'
+
+homepage = 'https://github.com/zsa/wally-cli'
+
+[[package]]
+channel = 'arch'
+name = 'zsa-wally-cli'

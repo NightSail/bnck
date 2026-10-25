@@ -1,0 +1,12 @@
+id = 'gv'
+name = 'gv'
+
+homepage = 'http://www.gnu.org/software/gv'
+
+[[package]]
+channel = 'debian'
+name = 'gv'
+
+[[package]]
+channel = 'fedora'
+name = 'gv'

@@ -1,0 +1,25 @@
+id = 'redict'
+name = 'redict'
+
+homepage = 'https://redict.io'
+repository = 'https://codeberg.org/redict/redict.git'
+
+[[package]]
+channel = 'debian'
+name = 'redict-sentinel'
+
+[[package]]
+channel = 'debian'
+name = 'redict-server'
+
+[[package]]
+channel = 'debian'
+name = 'redict-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'redict'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/redict'

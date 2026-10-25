@@ -1,0 +1,9 @@
+id = 'remind-skollsoft-public'
+name = 'remind'
+
+homepage = 'https://dianne.skoll.ca/projects/remind'
+repository = 'https://git.skoll.ca/Skollsoft-Public/Remind.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/remind'

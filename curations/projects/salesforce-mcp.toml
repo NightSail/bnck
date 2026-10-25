@@ -1,0 +1,8 @@
+id = 'salesforce-mcp'
+name = 'salesforce-mcp'
+
+homepage = 'https://github.com/salesforcecli/mcp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/salesforce-mcp'

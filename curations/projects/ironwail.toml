@@ -1,0 +1,8 @@
+id = 'ironwail'
+name = 'ironwail'
+
+homepage = 'https://github.com/andrei-drexler/ironwail'
+
+[[package]]
+channel = 'arch'
+name = 'ironwail'

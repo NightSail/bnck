@@ -1,0 +1,37 @@
+id = 'cmake'
+name = 'cmake'
+
+homepage = 'https://www.cmake.org'
+repository = 'https://gitlab.kitware.com/cmake/cmake.git'
+
+[[package]]
+channel = 'arch'
+name = 'cmake'
+
+[[package]]
+channel = 'debian'
+name = 'cmake'
+
+[[package]]
+channel = 'debian'
+name = 'cmake-curses-gui'
+
+[[package]]
+channel = 'debian'
+name = 'cmake-qt-gui'
+
+[[package]]
+channel = 'fedora'
+name = 'cmake'
+
+[[package]]
+channel = 'fedora'
+name = 'cmake-gui'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/cmake-app'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cmake'

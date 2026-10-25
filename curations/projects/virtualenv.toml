@@ -1,0 +1,12 @@
+id = 'virtualenv'
+name = 'virtualenv'
+
+homepage = 'https://virtualenv.pypa.io'
+
+[[package]]
+channel = 'arch'
+name = 'python-virtualenv'
+
+[[package]]
+channel = 'debian'
+name = 'python3-virtualenv'

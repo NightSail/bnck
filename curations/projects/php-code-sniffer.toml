@@ -1,0 +1,16 @@
+id = 'php-code-sniffer'
+name = 'php-code-sniffer'
+
+homepage = 'https://github.com/PHPCSStandards/PHP_CodeSniffer'
+
+[[package]]
+channel = 'debian'
+name = 'php-codesniffer'
+
+[[package]]
+channel = 'fedora'
+name = 'php-pear-PHP-CodeSniffer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/php-code-sniffer'

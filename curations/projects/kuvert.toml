@@ -1,0 +1,8 @@
+id = 'kuvert'
+name = 'kuvert'
+
+homepage = 'http://www.snafu.priv.at/mystuff/kuvert'
+
+[[package]]
+channel = 'debian'
+name = 'kuvert'

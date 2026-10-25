@@ -1,0 +1,8 @@
+id = 'quvi'
+name = 'quvi'
+
+homepage = 'http://quvi.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'quvi'

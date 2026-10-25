@@ -1,0 +1,12 @@
+id = 'motifzone'
+name = 'motifzone'
+
+homepage = 'http://www.motifzone.net'
+
+[[package]]
+channel = 'fedora'
+name = 'motif'
+
+[[package]]
+channel = 'fedora'
+name = 'motif-devel'

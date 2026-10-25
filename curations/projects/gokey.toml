@@ -1,0 +1,12 @@
+id = 'gokey'
+name = 'gokey'
+
+repository = 'https://github.com/cloudflare/gokey.git'
+
+[[package]]
+channel = 'debian'
+name = 'gokey'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gokey'

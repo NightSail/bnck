@@ -1,0 +1,8 @@
+id = '3depict'
+name = '3depict'
+
+homepage = 'http://threedepict.sourceforge.net/index.html'
+
+[[package]]
+channel = 'debian'
+name = '3depict'

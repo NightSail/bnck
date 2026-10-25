@@ -1,0 +1,8 @@
+id = 'debocker'
+name = 'debocker'
+
+homepage = 'https://people.debian.org/~tomasz/debocker.html'
+
+[[package]]
+channel = 'debian'
+name = 'debocker'

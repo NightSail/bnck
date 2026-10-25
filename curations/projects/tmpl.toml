@@ -1,0 +1,8 @@
+id = 'tmpl'
+name = 'tmpl'
+
+homepage = 'https://github.com/benbjohnson/tmpl'
+
+[[package]]
+channel = 'debian'
+name = 'tmpl'

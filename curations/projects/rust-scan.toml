@@ -1,0 +1,8 @@
+id = 'rust-scan'
+name = 'rust_scan'
+
+repository = 'https://github.com/brandonskerritt/rustscan'
+
+[[package]]
+channel = 'crates.io'
+name = 'rust_scan'

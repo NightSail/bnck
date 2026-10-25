@@ -1,0 +1,12 @@
+id = 'vfu'
+name = 'vfu'
+
+homepage = 'https://cade.noxrun.com/projects/vfu'
+
+[[package]]
+channel = 'debian'
+name = 'vfu-ncurses'
+
+[[package]]
+channel = 'debian'
+name = 'vfu-yascreen'

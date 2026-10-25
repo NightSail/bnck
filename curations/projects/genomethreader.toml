@@ -1,0 +1,8 @@
+id = 'genomethreader'
+name = 'genomethreader'
+
+homepage = 'https://genomethreader.org'
+
+[[package]]
+channel = 'debian'
+name = 'genomethreader'

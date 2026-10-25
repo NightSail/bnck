@@ -1,0 +1,8 @@
+id = 'openpgp-card-tools'
+name = 'openpgp-card-tools'
+
+homepage = 'https://codeberg.org/openpgp-card/openpgp-card-tools'
+
+[[package]]
+channel = 'arch'
+name = 'openpgp-card-tools'

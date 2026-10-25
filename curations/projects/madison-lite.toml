@@ -1,0 +1,6 @@
+id = 'madison-lite'
+name = 'madison-lite'
+
+[[package]]
+channel = 'debian'
+name = 'madison-lite'

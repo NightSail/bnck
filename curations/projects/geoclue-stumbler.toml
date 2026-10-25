@@ -1,0 +1,8 @@
+id = 'geoclue-stumbler'
+name = 'geoclue-stumbler'
+
+homepage = 'https://gitlab.com/kop316/geoclue-stumbler'
+
+[[package]]
+channel = 'debian'
+name = 'geoclue-stumbler'

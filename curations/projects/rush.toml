@@ -1,0 +1,16 @@
+id = 'rush'
+name = 'rush'
+
+homepage = 'https://www.gnu.org.ua/software/rush'
+
+[[package]]
+channel = 'debian'
+name = 'rush'
+
+[[package]]
+channel = 'fedora'
+name = 'rush'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rush'

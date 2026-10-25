@@ -1,0 +1,12 @@
+id = 'perlindex'
+name = 'perlindex'
+
+homepage = 'https://metacpan.org/release/perlindex'
+
+[[package]]
+channel = 'debian'
+name = 'perlindex'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-perlindex'

@@ -1,0 +1,8 @@
+id = 'perlconsole'
+name = 'perlconsole'
+
+homepage = 'http://www.sukria.net/perlconsole.html'
+
+[[package]]
+channel = 'debian'
+name = 'perlconsole'

@@ -1,0 +1,12 @@
+id = 'inspircd'
+name = 'inspircd'
+
+homepage = 'https://www.inspircd.org'
+
+[[package]]
+channel = 'debian'
+name = 'inspircd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/inspircd'

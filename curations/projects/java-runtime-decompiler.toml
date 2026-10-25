@@ -1,0 +1,8 @@
+id = 'java-runtime-decompiler'
+name = 'java-runtime-decompiler'
+
+homepage = 'https://github.com/pmikova/java-runtime-decompiler'
+
+[[package]]
+channel = 'fedora'
+name = 'java-runtime-decompiler'

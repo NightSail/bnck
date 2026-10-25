@@ -1,0 +1,20 @@
+id = 'christophe'
+name = 'christophe'
+
+homepage = 'http://christophe.varoqui.free.fr'
+
+[[package]]
+channel = 'debian'
+name = 'kpartx'
+
+[[package]]
+channel = 'debian'
+name = 'multipath-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'device-mapper-multipath'
+
+[[package]]
+channel = 'fedora'
+name = 'kpartx'

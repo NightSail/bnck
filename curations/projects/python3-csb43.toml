@@ -1,0 +1,8 @@
+id = 'python3-csb43'
+name = 'python3-csb43'
+
+homepage = 'https://bitbucket.org/wmj/csb43'
+
+[[package]]
+channel = 'debian'
+name = 'python3-csb43'

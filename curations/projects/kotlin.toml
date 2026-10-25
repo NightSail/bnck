@@ -1,0 +1,16 @@
+id = 'kotlin'
+name = 'kotlin'
+
+homepage = 'https://kotlinlang.org'
+
+[[package]]
+channel = 'arch'
+name = 'kotlin'
+
+[[package]]
+channel = 'debian'
+name = 'kotlin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kotlin'

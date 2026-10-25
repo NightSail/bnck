@@ -1,0 +1,12 @@
+id = 'daemonlogger'
+name = 'daemonlogger'
+
+homepage = 'https://sourceforge.net/projects/daemonlogger'
+
+[[package]]
+channel = 'debian'
+name = 'daemonlogger'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/daemonlogger'

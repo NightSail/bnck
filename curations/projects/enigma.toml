@@ -1,0 +1,17 @@
+id = 'enigma'
+name = 'enigma'
+
+homepage = 'https://www.chiark.greenend.org.uk/~sgtatham/enigma'
+repository = 'https://github.com/Enigma-Game/Enigma.git'
+
+[[package]]
+channel = 'arch'
+name = 'enigma'
+
+[[package]]
+channel = 'fedora'
+name = 'enigma'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/enigma'

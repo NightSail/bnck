@@ -1,0 +1,8 @@
+id = 'rankwidth'
+name = 'rankwidth'
+
+homepage = 'https://sourceforge.net/projects/rankwidth'
+
+[[package]]
+channel = 'arch'
+name = 'rankwidth'

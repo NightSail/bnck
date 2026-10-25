@@ -1,0 +1,12 @@
+id = 'cart'
+name = 'cart'
+
+homepage = 'https://github.com/CybercentreCanada/cart'
+
+[[package]]
+channel = 'arch'
+name = 'python-cart'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-cart'

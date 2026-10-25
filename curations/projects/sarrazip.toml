@@ -1,0 +1,20 @@
+id = 'sarrazip'
+name = 'sarrazip'
+
+homepage = 'http://sarrazip.com/dev/verbiste.html'
+
+[[package]]
+channel = 'debian'
+name = 'verbiste'
+
+[[package]]
+channel = 'debian'
+name = 'verbiste-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'verbiste'
+
+[[package]]
+channel = 'fedora'
+name = 'verbiste-gnome'

@@ -1,0 +1,9 @@
+id = 'zbctl'
+name = 'zbctl'
+
+homepage = 'https://docs.camunda.io/docs/apis-tools/community-clients/cli-client'
+repository = 'https://github.com/camunda-community-hub/zeebe-client-go.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zbctl'

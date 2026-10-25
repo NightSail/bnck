@@ -1,0 +1,16 @@
+id = 'pahole'
+name = 'pahole'
+
+homepage = 'https://git.kernel.org/pub/scm/devel/pahole/pahole.git'
+
+[[package]]
+channel = 'arch'
+name = 'ostra-cg'
+
+[[package]]
+channel = 'arch'
+name = 'pahole'
+
+[[package]]
+channel = 'debian'
+name = 'pahole'

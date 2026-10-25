@@ -1,0 +1,8 @@
+id = 'trec-eval'
+name = 'trec_eval'
+
+homepage = 'https://trec.nist.gov'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/trec_eval'

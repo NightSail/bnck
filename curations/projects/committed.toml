@@ -1,0 +1,12 @@
+id = 'committed'
+name = 'committed'
+
+repository = 'https://github.com/crate-ci/committed.git'
+
+[[package]]
+channel = 'arch'
+name = 'committed'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/committed'

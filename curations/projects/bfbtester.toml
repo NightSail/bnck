@@ -1,0 +1,6 @@
+id = 'bfbtester'
+name = 'bfbtester'
+
+[[package]]
+channel = 'debian'
+name = 'bfbtester'

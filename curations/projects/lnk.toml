@@ -1,0 +1,8 @@
+id = 'lnk'
+name = 'lnk'
+
+homepage = 'https://github.com/yarlson/lnk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lnk'

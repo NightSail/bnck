@@ -1,0 +1,16 @@
+id = 'xsecurelock'
+name = 'xsecurelock'
+
+homepage = 'https://github.com/google/xsecurelock'
+
+[[package]]
+channel = 'arch'
+name = 'xsecurelock'
+
+[[package]]
+channel = 'debian'
+name = 'xsecurelock'
+
+[[package]]
+channel = 'fedora'
+name = 'xsecurelock'

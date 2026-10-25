@@ -1,0 +1,8 @@
+id = 'perl-build'
+name = 'perl-build'
+
+repository = 'https://github.com/tokuhirom/perl-build.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/perl-build'

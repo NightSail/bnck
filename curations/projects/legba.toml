@@ -1,0 +1,13 @@
+id = 'legba'
+name = 'legba'
+
+homepage = 'https://legba.evilsocket.net'
+repository = 'https://github.com/evilsocket/legba.git'
+
+[[package]]
+channel = 'arch'
+name = 'legba'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/legba'

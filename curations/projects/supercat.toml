@@ -1,0 +1,8 @@
+id = 'supercat'
+name = 'supercat'
+
+homepage = 'http://supercat.nosredna.net'
+
+[[package]]
+channel = 'debian'
+name = 'supercat'

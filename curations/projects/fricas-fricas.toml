@@ -1,0 +1,16 @@
+id = 'fricas-fricas'
+name = 'fricas'
+
+homepage = 'http://fricas.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'elpa-fricas'
+
+[[package]]
+channel = 'debian'
+name = 'fricas'
+
+[[package]]
+channel = 'debian'
+name = 'fricas-test'

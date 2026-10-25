@@ -1,0 +1,8 @@
+id = 'newmail'
+name = 'newmail'
+
+homepage = 'https://www.infodrom.org/projects/newmail'
+
+[[package]]
+channel = 'debian'
+name = 'newmail'

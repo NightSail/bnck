@@ -1,0 +1,16 @@
+id = 'kuserfeedback'
+name = 'kuserfeedback'
+
+homepage = 'https://invent.kde.org/frameworks/kuserfeedback'
+
+[[package]]
+channel = 'debian'
+name = 'libkf6userfeedback-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kuserfeedback'
+
+[[package]]
+channel = 'fedora'
+name = 'kf6-kuserfeedback-console'

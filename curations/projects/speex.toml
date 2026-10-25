@@ -1,0 +1,21 @@
+id = 'speex'
+name = 'speex'
+
+homepage = 'https://www.speex.org'
+repository = 'https://gitlab.xiph.org/xiph/speex.git'
+
+[[package]]
+channel = 'arch'
+name = 'speex'
+
+[[package]]
+channel = 'debian'
+name = 'speex'
+
+[[package]]
+channel = 'fedora'
+name = 'speex-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/speex'

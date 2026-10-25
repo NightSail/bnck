@@ -1,0 +1,12 @@
+id = 'unearth'
+name = 'unearth'
+
+homepage = 'https://github.com/frostming/unearth'
+
+[[package]]
+channel = 'arch'
+name = 'python-unearth'
+
+[[package]]
+channel = 'debian'
+name = 'python3-unearth'

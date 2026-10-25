@@ -1,0 +1,8 @@
+id = 'ikarus'
+name = 'ikarus'
+
+homepage = 'http://ikarus-scheme.org'
+
+[[package]]
+channel = 'debian'
+name = 'ikarus'

@@ -1,0 +1,8 @@
+id = 'dkopp'
+name = 'dkopp'
+
+homepage = 'https://kornelix.net/dkopp/dkopp.html'
+
+[[package]]
+channel = 'debian'
+name = 'dkopp'

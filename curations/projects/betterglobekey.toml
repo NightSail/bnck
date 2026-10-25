@@ -1,0 +1,8 @@
+id = 'betterglobekey'
+name = 'betterglobekey'
+
+repository = 'https://github.com/Serpentiel/betterglobekey.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/betterglobekey'

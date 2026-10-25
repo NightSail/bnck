@@ -1,0 +1,8 @@
+id = 'virulencefinder'
+name = 'virulencefinder'
+
+homepage = 'https://bitbucket.org/genomicepidemiology/virulencefinder'
+
+[[package]]
+channel = 'debian'
+name = 'virulencefinder'

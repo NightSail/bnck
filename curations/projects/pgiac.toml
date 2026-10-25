@@ -1,0 +1,8 @@
+id = 'pgiac'
+name = 'pgiac'
+
+homepage = 'http://melusine.eu.org/syracuse/giac/pgiac'
+
+[[package]]
+channel = 'fedora'
+name = 'pgiac'

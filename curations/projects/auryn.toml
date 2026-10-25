@@ -1,0 +1,8 @@
+id = 'auryn'
+name = 'auryn'
+
+homepage = 'http://www.fzenke.net/auryn'
+
+[[package]]
+channel = 'fedora'
+name = 'auryn'

@@ -1,0 +1,9 @@
+id = 'envoy'
+name = 'envoy'
+
+homepage = 'https://www.envoyproxy.io/index.html'
+repository = 'https://github.com/envoyproxy/envoy.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/envoy'

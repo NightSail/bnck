@@ -1,0 +1,8 @@
+id = 'horst'
+name = 'horst'
+
+homepage = 'https://github.com/br101/horst'
+
+[[package]]
+channel = 'debian'
+name = 'horst'

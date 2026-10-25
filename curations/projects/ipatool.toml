@@ -1,0 +1,8 @@
+id = 'ipatool'
+name = 'ipatool'
+
+repository = 'https://github.com/majd/ipatool.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ipatool'

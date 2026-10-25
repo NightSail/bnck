@@ -1,0 +1,12 @@
+id = 'mew'
+name = 'mew'
+
+homepage = 'https://www.mew.org'
+
+[[package]]
+channel = 'debian'
+name = 'mew-beta-bin'
+
+[[package]]
+channel = 'debian'
+name = 'mew-bin'

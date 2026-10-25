@@ -1,0 +1,13 @@
+id = 'traefik'
+name = 'traefik'
+
+homepage = 'https://traefik.io'
+repository = 'https://github.com/traefik/traefik.git'
+
+[[package]]
+channel = 'arch'
+name = 'traefik'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/traefik'

@@ -1,0 +1,8 @@
+id = 'libifp'
+name = 'libifp'
+
+homepage = 'http://ifp-driver.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'libifp'

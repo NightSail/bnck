@@ -1,0 +1,8 @@
+id = 'libcpuid-anrieff'
+name = 'libcpuid'
+
+repository = 'https://github.com/anrieff/libcpuid.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libcpuid'

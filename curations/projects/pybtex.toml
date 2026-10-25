@@ -1,0 +1,12 @@
+id = 'pybtex'
+name = 'pybtex'
+
+homepage = 'https://pybtex.org'
+
+[[package]]
+channel = 'debian'
+name = 'pybtex'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pybtex'

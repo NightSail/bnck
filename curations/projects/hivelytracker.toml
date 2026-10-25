@@ -1,0 +1,8 @@
+id = 'hivelytracker'
+name = 'hivelytracker'
+
+homepage = 'http://www.hivelytracker.co.uk'
+
+[[package]]
+channel = 'debian'
+name = 'hivelytracker'

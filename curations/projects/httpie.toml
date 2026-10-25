@@ -1,0 +1,21 @@
+id = 'httpie'
+name = 'httpie'
+
+homepage = 'https://httpie.io'
+repository = 'https://github.com/httpie/cli.git'
+
+[[package]]
+channel = 'arch'
+name = 'httpie'
+
+[[package]]
+channel = 'debian'
+name = 'httpie'
+
+[[package]]
+channel = 'fedora'
+name = 'httpie'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/httpie'

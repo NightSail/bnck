@@ -1,0 +1,20 @@
+id = 'opensource'
+name = 'opensource'
+
+homepage = 'https://opensource.apple.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bsdmake'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mtoc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/telnet'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/telnetd'

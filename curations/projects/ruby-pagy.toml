@@ -1,0 +1,8 @@
+id = 'ruby-pagy'
+name = 'ruby-pagy'
+
+homepage = 'https://github.com/ddnexus/pagy'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-pagy'

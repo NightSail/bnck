@@ -1,0 +1,16 @@
+id = 'nunit'
+name = 'nunit'
+
+homepage = 'http://www.nunit.org'
+
+[[package]]
+channel = 'fedora'
+name = 'nunit'
+
+[[package]]
+channel = 'fedora'
+name = 'nunit2'
+
+[[package]]
+channel = 'fedora'
+name = 'nunit2-gui'

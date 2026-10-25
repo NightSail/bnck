@@ -1,0 +1,12 @@
+id = 'ksirk'
+name = 'ksirk'
+
+homepage = 'https://apps.kde.org/ksirk'
+
+[[package]]
+channel = 'arch'
+name = 'ksirk'
+
+[[package]]
+channel = 'fedora'
+name = 'ksirk'

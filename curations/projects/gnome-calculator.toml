@@ -1,0 +1,12 @@
+id = 'gnome-calculator'
+name = 'gnome-calculator'
+
+homepage = 'https://apps.gnome.org/Calculator'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-calculator'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-calculator'

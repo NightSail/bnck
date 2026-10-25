@@ -1,0 +1,8 @@
+id = 'libzthread-dev'
+name = 'libzthread-dev'
+
+homepage = 'http://zthread.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'libzthread-dev'

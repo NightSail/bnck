@@ -1,0 +1,8 @@
+id = 'camv-rnd-core'
+name = 'camv-rnd-core'
+
+homepage = 'http://repo.hu/projects/camv-rnd'
+
+[[package]]
+channel = 'debian'
+name = 'camv-rnd-core'

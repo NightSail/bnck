@@ -1,0 +1,8 @@
+id = 'golang-github-dgrijalva-jwt'
+name = 'golang-github-dgrijalva-jwt'
+
+homepage = 'https://github.com/dgrijalva/jwt-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-dgrijalva-jwt'

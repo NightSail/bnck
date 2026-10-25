@@ -1,0 +1,16 @@
+id = 'gnome-connections'
+name = 'gnome-connections'
+
+homepage = 'https://apps.gnome.org/Connections'
+
+[[package]]
+channel = 'arch'
+name = 'gnome-connections'
+
+[[package]]
+channel = 'debian'
+name = 'gnome-connections'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-connections'

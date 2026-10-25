@@ -1,0 +1,12 @@
+id = 'ebtables'
+name = 'ebtables'
+
+homepage = 'http://ebtables.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'arptables-legacy'
+
+[[package]]
+channel = 'fedora'
+name = 'ebtables-legacy'

@@ -1,0 +1,8 @@
+id = 'wyrd'
+name = 'wyrd'
+
+homepage = 'https://gitlab.com/wyrd-calendar/wyrd'
+
+[[package]]
+channel = 'debian'
+name = 'wyrd'

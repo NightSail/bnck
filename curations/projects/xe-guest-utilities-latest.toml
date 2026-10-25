@@ -1,0 +1,8 @@
+id = 'xe-guest-utilities-latest'
+name = 'xe-guest-utilities-latest'
+
+homepage = 'https://github.com/xenserver/xe-guest-utilities'
+
+[[package]]
+channel = 'fedora'
+name = 'xe-guest-utilities-latest'

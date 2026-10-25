@@ -1,0 +1,8 @@
+id = 'disc-cover'
+name = 'disc-cover'
+
+homepage = 'https://sourceforge.net/projects/disc-cover'
+
+[[package]]
+channel = 'debian'
+name = 'disc-cover'

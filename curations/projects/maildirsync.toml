@@ -1,0 +1,6 @@
+id = 'maildirsync'
+name = 'maildirsync'
+
+[[package]]
+channel = 'debian'
+name = 'maildirsync'

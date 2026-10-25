@@ -1,0 +1,9 @@
+id = 'scryer-prolog'
+name = 'scryer-prolog'
+
+homepage = 'https://www.scryer.pl'
+repository = 'https://github.com/mthom/scryer-prolog.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scryer-prolog'

@@ -1,0 +1,8 @@
+id = 'fanyi'
+name = 'fanyi'
+
+homepage = 'https://github.com/afc163/fanyi'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fanyi'

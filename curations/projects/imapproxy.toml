@@ -1,0 +1,12 @@
+id = 'imapproxy'
+name = 'imapproxy'
+
+homepage = 'http://www.imapproxy.org'
+
+[[package]]
+channel = 'debian'
+name = 'imapproxy'
+
+[[package]]
+channel = 'fedora'
+name = 'up-imapproxy'

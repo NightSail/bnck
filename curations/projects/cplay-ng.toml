@@ -1,0 +1,8 @@
+id = 'cplay-ng'
+name = 'cplay-ng'
+
+homepage = 'https://github.com/xi/cplay-ng'
+
+[[package]]
+channel = 'debian'
+name = 'cplay-ng'

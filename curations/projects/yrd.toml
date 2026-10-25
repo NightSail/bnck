@@ -1,0 +1,8 @@
+id = 'yrd'
+name = 'yrd'
+
+homepage = 'https://github.com/kpcyrd/yrd'
+
+[[package]]
+channel = 'arch'
+name = 'yrd'

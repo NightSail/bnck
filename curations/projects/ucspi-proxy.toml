@@ -1,0 +1,8 @@
+id = 'ucspi-proxy'
+name = 'ucspi-proxy'
+
+homepage = 'https://untroubled.org/ucspi-proxy'
+
+[[package]]
+channel = 'debian'
+name = 'ucspi-proxy'

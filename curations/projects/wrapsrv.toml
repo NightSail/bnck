@@ -1,0 +1,8 @@
+id = 'wrapsrv'
+name = 'wrapsrv'
+
+homepage = 'https://github.com/farsightsec/wrapsrv'
+
+[[package]]
+channel = 'debian'
+name = 'wrapsrv'

@@ -1,0 +1,8 @@
+id = 'colfer'
+name = 'colfer'
+
+repository = 'https://github.com/pascaldekloe/colfer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/colfer'

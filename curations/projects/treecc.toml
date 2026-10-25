@@ -1,0 +1,8 @@
+id = 'treecc'
+name = 'treecc'
+
+homepage = 'https://gnu.org/software/dotgnu/treecc/treecc.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/treecc'

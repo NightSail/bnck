@@ -1,0 +1,9 @@
+id = 'jsign'
+name = 'jsign'
+
+homepage = 'https://ebourg.github.io/jsign'
+repository = 'https://github.com/ebourg/jsign.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jsign'

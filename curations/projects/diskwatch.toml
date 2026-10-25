@@ -1,0 +1,8 @@
+id = 'diskwatch'
+name = 'diskwatch'
+
+homepage = 'https://www.netwatchlabs.com/labs/diskwatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/diskwatch'

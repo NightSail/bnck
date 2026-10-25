@@ -1,0 +1,8 @@
+id = 'udp514-journal'
+name = 'udp514-journal'
+
+homepage = 'https://github.com/eworm-de/udp514-journal'
+
+[[package]]
+channel = 'arch'
+name = 'udp514-journal'

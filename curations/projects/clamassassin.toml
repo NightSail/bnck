@@ -1,0 +1,6 @@
+id = 'clamassassin'
+name = 'clamassassin'
+
+[[package]]
+channel = 'debian'
+name = 'clamassassin'

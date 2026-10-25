@@ -1,0 +1,8 @@
+id = 'topnfiles'
+name = 'topnfiles'
+
+homepage = 'https://gitlab.com/troelsarvin/topnfiles'
+
+[[package]]
+channel = 'debian'
+name = 'topnfiles'

@@ -1,0 +1,12 @@
+id = 'openxr-sdk-source'
+name = 'openxr-sdk-source'
+
+homepage = 'https://github.com/KhronosGroup/OpenXR-SDK-Source'
+
+[[package]]
+channel = 'debian'
+name = 'libopenxr-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'openxr'

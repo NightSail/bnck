@@ -1,0 +1,8 @@
+id = 'apt-rdepends'
+name = 'apt-rdepends'
+
+homepage = 'https://www.sfllaw.ca/programs'
+
+[[package]]
+channel = 'debian'
+name = 'apt-rdepends'

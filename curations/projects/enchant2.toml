@@ -1,0 +1,8 @@
+id = 'enchant2'
+name = 'enchant2'
+
+homepage = 'https://github.com/rrthomas/enchant'
+
+[[package]]
+channel = 'fedora'
+name = 'enchant2'

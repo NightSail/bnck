@@ -1,0 +1,8 @@
+id = 'phpdox'
+name = 'phpdox'
+
+homepage = 'https://phpdox.de'
+
+[[package]]
+channel = 'debian'
+name = 'phpdox'

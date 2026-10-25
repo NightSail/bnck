@@ -1,0 +1,16 @@
+id = 'tin'
+name = 'tin'
+
+homepage = 'http://www.tin.org'
+
+[[package]]
+channel = 'debian'
+name = 'tin'
+
+[[package]]
+channel = 'fedora'
+name = 'tin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tin'

@@ -1,0 +1,8 @@
+id = 'system-switch-java'
+name = 'system-switch-java'
+
+homepage = 'https://pagure.io/system-switch-java'
+
+[[package]]
+channel = 'fedora'
+name = 'system-switch-java'

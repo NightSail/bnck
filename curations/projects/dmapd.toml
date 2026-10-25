@@ -1,0 +1,8 @@
+id = 'dmapd'
+name = 'dmapd'
+
+homepage = 'http://www.flyn.org/projects/dmapd'
+
+[[package]]
+channel = 'fedora'
+name = 'dmapd'

@@ -1,0 +1,12 @@
+id = 'pwntools'
+name = 'pwntools'
+
+homepage = 'https://github.com/Gallopsled/pwntools'
+
+[[package]]
+channel = 'arch'
+name = 'python-pwntools'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pwntools'

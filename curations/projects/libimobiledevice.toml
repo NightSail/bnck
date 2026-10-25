@@ -1,0 +1,80 @@
+id = 'libimobiledevice'
+name = 'libimobiledevice'
+
+homepage = 'https://libimobiledevice.org'
+
+[[package]]
+channel = 'arch'
+name = 'ifuse'
+
+[[package]]
+channel = 'arch'
+name = 'libimobiledevice'
+
+[[package]]
+channel = 'arch'
+name = 'libplist'
+
+[[package]]
+channel = 'arch'
+name = 'libusbmuxd'
+
+[[package]]
+channel = 'debian'
+name = 'ideviceactivation'
+
+[[package]]
+channel = 'debian'
+name = 'ideviceinstaller'
+
+[[package]]
+channel = 'debian'
+name = 'idevicerestore'
+
+[[package]]
+channel = 'debian'
+name = 'ifuse'
+
+[[package]]
+channel = 'debian'
+name = 'irecovery'
+
+[[package]]
+channel = 'debian'
+name = 'libimobiledevice-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libplist-utils'
+
+[[package]]
+channel = 'debian'
+name = 'libusbmuxd-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ideviceinstaller'
+
+[[package]]
+channel = 'fedora'
+name = 'ifuse'
+
+[[package]]
+channel = 'fedora'
+name = 'libideviceactivation-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libimobiledevice-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libplist'
+
+[[package]]
+channel = 'fedora'
+name = 'libusbmuxd-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'usbmuxd'

@@ -1,0 +1,20 @@
+id = 'svt-av1'
+name = 'svt-av1'
+
+repository = 'https://gitlab.com/AOMediaCodec/SVT-AV1.git'
+
+[[package]]
+channel = 'arch'
+name = 'svt-av1'
+
+[[package]]
+channel = 'debian'
+name = 'svt-av1'
+
+[[package]]
+channel = 'fedora'
+name = 'svt-av1'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svt-av1'

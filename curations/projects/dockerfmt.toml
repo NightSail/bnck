@@ -1,0 +1,8 @@
+id = 'dockerfmt'
+name = 'dockerfmt'
+
+repository = 'https://github.com/reteps/dockerfmt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dockerfmt'

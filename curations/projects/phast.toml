@@ -1,0 +1,8 @@
+id = 'phast'
+name = 'phast'
+
+homepage = 'http://compgen.cshl.edu/phast'
+
+[[package]]
+channel = 'debian'
+name = 'phast'

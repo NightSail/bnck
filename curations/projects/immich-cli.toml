@@ -1,0 +1,8 @@
+id = 'immich-cli'
+name = 'immich-cli'
+
+homepage = 'https://immich.app/docs/features/command-line-interface'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/immich-cli'

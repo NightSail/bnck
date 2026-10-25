@@ -1,0 +1,9 @@
+id = 'libusbmuxd'
+name = 'libusbmuxd'
+
+homepage = 'https://www.libimobiledevice.org'
+repository = 'https://github.com/libimobiledevice/libusbmuxd.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libusbmuxd'

@@ -1,0 +1,8 @@
+id = 'sass-grass'
+name = 'sass-grass'
+
+homepage = 'https://github.com/connorskees/grass'
+
+[[package]]
+channel = 'debian'
+name = 'sass-grass'

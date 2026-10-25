@@ -1,0 +1,8 @@
+id = 'claude-cmd'
+name = 'claude-cmd'
+
+homepage = 'https://github.com/kiliczsh/claude-cmd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/claude-cmd'

@@ -1,0 +1,8 @@
+id = 'dromeaudio'
+name = 'dromeaudio'
+
+repository = 'https://github.com/joshb/dromeaudio.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dromeaudio'

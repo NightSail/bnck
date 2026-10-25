@@ -1,0 +1,20 @@
+id = 'abi-dumper'
+name = 'abi-dumper'
+
+repository = 'https://github.com/lvc/abi-dumper.git'
+
+[[package]]
+channel = 'arch'
+name = 'abi-dumper'
+
+[[package]]
+channel = 'debian'
+name = 'abi-dumper'
+
+[[package]]
+channel = 'fedora'
+name = 'abi-dumper'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/abi-dumper'

@@ -1,0 +1,12 @@
+id = 'tk-objscanner'
+name = 'Tk-ObjScanner'
+
+homepage = 'https://metacpan.org/release/Tk-ObjScanner'
+
+[[package]]
+channel = 'debian'
+name = 'libtk-objscanner-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Tk-ObjScanner'

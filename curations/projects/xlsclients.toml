@@ -1,0 +1,8 @@
+id = 'xlsclients'
+name = 'xlsclients'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xlsclients'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xlsclients'

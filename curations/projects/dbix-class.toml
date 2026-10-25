@@ -1,0 +1,12 @@
+id = 'dbix-class'
+name = 'DBIx-Class'
+
+homepage = 'https://metacpan.org/release/DBIx-Class'
+
+[[package]]
+channel = 'debian'
+name = 'libdbix-class-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-DBIx-Class'

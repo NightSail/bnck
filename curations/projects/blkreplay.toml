@@ -1,0 +1,8 @@
+id = 'blkreplay'
+name = 'blkreplay'
+
+homepage = 'http://blkreplay.org'
+
+[[package]]
+channel = 'debian'
+name = 'blkreplay'

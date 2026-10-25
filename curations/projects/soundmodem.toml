@@ -1,0 +1,12 @@
+id = 'soundmodem'
+name = 'soundmodem'
+
+homepage = 'https://gitlab.com/tsailer/soundmodem'
+
+[[package]]
+channel = 'debian'
+name = 'soundmodem'
+
+[[package]]
+channel = 'fedora'
+name = 'soundmodem'

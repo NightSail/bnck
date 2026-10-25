@@ -1,0 +1,8 @@
+id = 'xymonq'
+name = 'xymonq'
+
+homepage = 'http://www.it-eckert.com/software/xymonq'
+
+[[package]]
+channel = 'debian'
+name = 'xymonq'

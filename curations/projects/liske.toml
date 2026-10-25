@@ -1,0 +1,20 @@
+id = 'liske'
+name = '~liske'
+
+homepage = 'http://micky.ibh.net/~liske/imvirt.html'
+
+[[package]]
+channel = 'arch'
+name = 'imvirt'
+
+[[package]]
+channel = 'debian'
+name = 'imvirt'
+
+[[package]]
+channel = 'debian'
+name = 'imvirt-helper'
+
+[[package]]
+channel = 'fedora'
+name = 'imvirt'

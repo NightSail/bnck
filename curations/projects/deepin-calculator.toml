@@ -1,0 +1,16 @@
+id = 'deepin-calculator'
+name = 'deepin-calculator'
+
+homepage = 'https://github.com/linuxdeepin/deepin-calculator'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-calculator'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-calculator'
+
+[[package]]
+channel = 'fedora'
+name = 'deepin-calculator'

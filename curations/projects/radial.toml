@@ -1,0 +1,8 @@
+id = 'radial'
+name = 'radial'
+
+homepage = 'http://www.nhn.ou.edu/~hegarty/radial'
+
+[[package]]
+channel = 'fedora'
+name = 'radial'

@@ -1,0 +1,8 @@
+id = 'iitii'
+name = 'iitii'
+
+homepage = 'https://github.com/ekg/iitii'
+
+[[package]]
+channel = 'debian'
+name = 'iitii'

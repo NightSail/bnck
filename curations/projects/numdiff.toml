@@ -1,0 +1,12 @@
+id = 'numdiff'
+name = 'numdiff'
+
+homepage = 'https://www.nongnu.org/numdiff'
+
+[[package]]
+channel = 'debian'
+name = 'numdiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/numdiff'

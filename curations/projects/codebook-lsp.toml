@@ -1,0 +1,12 @@
+id = 'codebook-lsp'
+name = 'codebook-lsp'
+
+repository = 'https://github.com/blopker/codebook.git'
+
+[[package]]
+channel = 'arch'
+name = 'codebook-lsp'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codebook-lsp'

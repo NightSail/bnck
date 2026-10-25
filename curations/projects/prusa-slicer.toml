@@ -1,0 +1,16 @@
+id = 'prusa-slicer'
+name = 'prusa-slicer'
+
+homepage = 'https://github.com/prusa3d/PrusaSlicer'
+
+[[package]]
+channel = 'arch'
+name = 'prusa-slicer'
+
+[[package]]
+channel = 'debian'
+name = 'prusa-slicer'
+
+[[package]]
+channel = 'fedora'
+name = 'prusa-slicer'

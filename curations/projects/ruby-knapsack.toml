@@ -1,0 +1,8 @@
+id = 'ruby-knapsack'
+name = 'ruby-knapsack'
+
+homepage = 'https://github.com/ArturT/knapsack'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-knapsack'

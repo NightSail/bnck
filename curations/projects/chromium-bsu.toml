@@ -1,0 +1,12 @@
+id = 'chromium-bsu'
+name = 'chromium-bsu'
+
+homepage = 'http://chromium-bsu.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'chromium-bsu'
+
+[[package]]
+channel = 'fedora'
+name = 'chromium-bsu'

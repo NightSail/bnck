@@ -1,0 +1,12 @@
+id = 'delly'
+name = 'delly'
+
+repository = 'https://github.com/dellytools/delly.git'
+
+[[package]]
+channel = 'debian'
+name = 'delly'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/delly'

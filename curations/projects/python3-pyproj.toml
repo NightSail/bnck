@@ -1,0 +1,8 @@
+id = 'python3-pyproj'
+name = 'python3-pyproj'
+
+homepage = 'https://github.com/jswhit/pyproj'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pyproj'

@@ -1,0 +1,9 @@
+id = 'kagent'
+name = 'kagent'
+
+homepage = 'https://kagent.dev'
+repository = 'https://github.com/kagent-dev/kagent.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kagent'

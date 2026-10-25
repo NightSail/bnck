@@ -1,0 +1,8 @@
+id = 'node-cbor'
+name = 'node-cbor'
+
+homepage = 'https://github.com/hildjj/node-cbor/tree/main/packages/cbor'
+
+[[package]]
+channel = 'debian'
+name = 'node-cbor'

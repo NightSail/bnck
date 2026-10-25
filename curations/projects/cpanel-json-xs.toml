@@ -1,0 +1,12 @@
+id = 'cpanel-json-xs'
+name = 'Cpanel-JSON-XS'
+
+homepage = 'https://metacpan.org/release/Cpanel-JSON-XS'
+
+[[package]]
+channel = 'debian'
+name = 'libcpanel-json-xs-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Cpanel-JSON-XS'

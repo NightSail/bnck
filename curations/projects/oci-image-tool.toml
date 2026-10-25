@@ -1,0 +1,8 @@
+id = 'oci-image-tool'
+name = 'oci-image-tool'
+
+homepage = 'https://github.com/opencontainers/image-tools'
+
+[[package]]
+channel = 'debian'
+name = 'oci-image-tool'

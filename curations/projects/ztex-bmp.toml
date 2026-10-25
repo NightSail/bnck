@@ -1,0 +1,8 @@
+id = 'ztex-bmp'
+name = 'ztex-bmp'
+
+homepage = 'http://wiki.ztex.de/doku.php'
+
+[[package]]
+channel = 'debian'
+name = 'ztex-bmp'

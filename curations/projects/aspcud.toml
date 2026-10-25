@@ -1,0 +1,12 @@
+id = 'aspcud'
+name = 'aspcud'
+
+homepage = 'https://potassco.org/aspcud'
+
+[[package]]
+channel = 'debian'
+name = 'aspcud'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aspcud'

@@ -1,0 +1,12 @@
+id = 'gsequencer'
+name = 'gsequencer'
+
+homepage = 'https://nongnu.org/gsequencer'
+
+[[package]]
+channel = 'debian'
+name = 'gsequencer'
+
+[[package]]
+channel = 'fedora'
+name = 'gsequencer'

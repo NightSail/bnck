@@ -1,0 +1,8 @@
+id = 'capsule-nextflow'
+name = 'capsule-nextflow'
+
+homepage = 'https://github.com/nextflow-io/capsule'
+
+[[package]]
+channel = 'debian'
+name = 'capsule-nextflow'

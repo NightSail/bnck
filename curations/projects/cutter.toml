@@ -1,0 +1,8 @@
+id = 'cutter'
+name = 'cutter'
+
+homepage = 'http://www.digitage.co.uk/digitage/software/linux-security/cutter'
+
+[[package]]
+channel = 'arch'
+name = 'cutter'

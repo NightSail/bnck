@@ -1,0 +1,8 @@
+id = 'parchive'
+name = 'parchive'
+
+homepage = 'http://parchive.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'parchive'

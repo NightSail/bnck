@@ -1,0 +1,12 @@
+id = 'wpewebkit'
+name = 'wpewebkit'
+
+homepage = 'https://wpewebkit.org'
+
+[[package]]
+channel = 'arch'
+name = 'wpewebkit'
+
+[[package]]
+channel = 'debian'
+name = 'wpewebkit-webdriver'

@@ -1,0 +1,8 @@
+id = 'python3-landslide'
+name = 'python3-landslide'
+
+homepage = 'https://pypi.python.org/pypi/landslide'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-landslide'

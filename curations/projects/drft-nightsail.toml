@@ -1,0 +1,8 @@
+id = 'drft-nightsail'
+name = 'drft'
+
+repository = 'https://codeberg.org/nightsail/drft'
+
+[[package]]
+channel = 'crates.io'
+name = 'drft'

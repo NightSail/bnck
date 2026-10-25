@@ -1,0 +1,16 @@
+id = 'tidy'
+name = 'tidy'
+
+homepage = 'https://www.html-tidy.org'
+
+[[package]]
+channel = 'arch'
+name = 'tidy'
+
+[[package]]
+channel = 'debian'
+name = 'tidy'
+
+[[package]]
+channel = 'fedora'
+name = 'tidy'

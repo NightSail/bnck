@@ -1,0 +1,16 @@
+id = 'jing-trang'
+name = 'jing-trang'
+
+homepage = 'https://github.com/relaxng/jing-trang'
+
+[[package]]
+channel = 'debian'
+name = 'dtdinst'
+
+[[package]]
+channel = 'debian'
+name = 'jing'
+
+[[package]]
+channel = 'debian'
+name = 'trang'

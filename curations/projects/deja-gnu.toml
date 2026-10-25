@@ -1,0 +1,21 @@
+id = 'deja-gnu'
+name = 'deja-gnu'
+
+homepage = 'https://www.gnu.org/software/dejagnu'
+repository = 'https://git.savannah.gnu.org/git/dejagnu.git'
+
+[[package]]
+channel = 'arch'
+name = 'dejagnu'
+
+[[package]]
+channel = 'debian'
+name = 'dejagnu'
+
+[[package]]
+channel = 'fedora'
+name = 'dejagnu'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/deja-gnu'

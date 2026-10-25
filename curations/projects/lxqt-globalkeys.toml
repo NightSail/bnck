@@ -1,0 +1,12 @@
+id = 'lxqt-globalkeys'
+name = 'lxqt-globalkeys'
+
+homepage = 'https://github.com/lxqt/lxqt-globalkeys'
+
+[[package]]
+channel = 'arch'
+name = 'lxqt-globalkeys'
+
+[[package]]
+channel = 'debian'
+name = 'lxqt-globalkeys'

@@ -1,0 +1,8 @@
+id = 'odoo-19'
+name = 'odoo-19'
+
+homepage = 'http://www.odoo.com'
+
+[[package]]
+channel = 'debian'
+name = 'odoo-19'

@@ -1,0 +1,8 @@
+id = 'ybaas'
+name = 'ybaas'
+
+homepage = 'https://crates.io/crates/ybaas'
+
+[[package]]
+channel = 'fedora'
+name = 'ybaas'

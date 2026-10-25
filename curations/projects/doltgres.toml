@@ -1,0 +1,8 @@
+id = 'doltgres'
+name = 'doltgres'
+
+repository = 'https://github.com/dolthub/doltgresql.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/doltgres'

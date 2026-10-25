@@ -1,0 +1,16 @@
+id = 'libs'
+name = 'libs'
+
+homepage = 'http://www.slack.net/~ant/libs/ntsc.html'
+
+[[package]]
+channel = 'fedora'
+name = 'nes_ntsc-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'sms_ntsc-demos'
+
+[[package]]
+channel = 'fedora'
+name = 'snes_ntsc-demos'

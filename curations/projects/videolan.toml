@@ -1,0 +1,16 @@
+id = 'videolan'
+name = 'videolan'
+
+homepage = 'https://www.videolan.org/developers/libbluray.html'
+
+[[package]]
+channel = 'arch'
+name = 'libbluray'
+
+[[package]]
+channel = 'debian'
+name = 'libbluray-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libbluray-utils'

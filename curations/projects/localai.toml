@@ -1,0 +1,9 @@
+id = 'localai'
+name = 'localai'
+
+homepage = 'https://localai.io'
+repository = 'https://github.com/mudler/LocalAI.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/localai'

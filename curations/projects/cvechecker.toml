@@ -1,0 +1,8 @@
+id = 'cvechecker'
+name = 'cvechecker'
+
+homepage = 'https://github.com/sjvermeu/cvechecker'
+
+[[package]]
+channel = 'fedora'
+name = 'cvechecker'

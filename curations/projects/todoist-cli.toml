@@ -1,0 +1,8 @@
+id = 'todoist-cli'
+name = 'todoist-cli'
+
+homepage = 'https://github.com/Doist/todoist-cli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/todoist-cli'

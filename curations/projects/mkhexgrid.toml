@@ -1,0 +1,8 @@
+id = 'mkhexgrid'
+name = 'mkhexgrid'
+
+homepage = 'https://www.nomic.net/~uckelman/mkhexgrid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mkhexgrid'

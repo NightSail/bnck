@@ -1,0 +1,6 @@
+id = 'matchbox-panel-manager'
+name = 'matchbox-panel-manager'
+
+[[package]]
+channel = 'debian'
+name = 'matchbox-panel-manager'

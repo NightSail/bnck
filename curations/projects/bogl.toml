@@ -1,0 +1,18 @@
+id = 'bogl'
+name = 'bogl'
+
+[[package]]
+channel = 'debian'
+name = 'bogl-bterm'
+
+[[package]]
+channel = 'debian'
+name = 'bogl-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'bogl-bterm'
+
+[[package]]
+channel = 'fedora'
+name = 'bogl-devel'

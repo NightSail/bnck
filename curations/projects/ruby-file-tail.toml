@@ -1,0 +1,8 @@
+id = 'ruby-file-tail'
+name = 'ruby-file-tail'
+
+homepage = 'http://www.ping.de/~flori'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-file-tail'

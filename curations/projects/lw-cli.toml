@@ -1,0 +1,8 @@
+id = 'lw-cli'
+name = 'lw-cli'
+
+homepage = 'https://github.com/liquidweb/liquidweb-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'lw-cli'

@@ -1,0 +1,16 @@
+id = 'ddd'
+name = 'ddd'
+
+homepage = 'https://www.gnu.org/software/ddd'
+
+[[package]]
+channel = 'debian'
+name = 'ddd'
+
+[[package]]
+channel = 'fedora'
+name = 'ddd'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ddd'

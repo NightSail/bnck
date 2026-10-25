@@ -1,0 +1,8 @@
+id = 'csv2latex'
+name = 'csv2latex'
+
+homepage = 'http://brouits.free.fr/csv2latex'
+
+[[package]]
+channel = 'debian'
+name = 'csv2latex'

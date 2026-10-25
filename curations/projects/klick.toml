@@ -1,0 +1,8 @@
+id = 'klick'
+name = 'klick'
+
+homepage = 'http://das.nasophon.de/klick'
+
+[[package]]
+channel = 'debian'
+name = 'klick'

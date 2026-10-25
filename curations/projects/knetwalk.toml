@@ -1,0 +1,12 @@
+id = 'knetwalk'
+name = 'knetwalk'
+
+homepage = 'https://apps.kde.org/knetwalk'
+
+[[package]]
+channel = 'arch'
+name = 'knetwalk'
+
+[[package]]
+channel = 'fedora'
+name = 'knetwalk'

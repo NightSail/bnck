@@ -1,0 +1,12 @@
+id = 'rarcrack'
+name = 'rarcrack'
+
+homepage = 'https://github.com/ziman/rarcrack'
+
+[[package]]
+channel = 'arch'
+name = 'rarcrack'
+
+[[package]]
+channel = 'debian'
+name = 'rarcrack'

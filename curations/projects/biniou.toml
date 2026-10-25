@@ -1,0 +1,12 @@
+id = 'biniou'
+name = 'biniou'
+
+homepage = 'https://github.com/ocaml-community/biniou'
+
+[[package]]
+channel = 'debian'
+name = 'libbiniou-ocaml-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-biniou-devel'

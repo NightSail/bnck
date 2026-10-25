@@ -1,0 +1,8 @@
+id = 'blurble'
+name = 'blurble'
+
+homepage = 'https://gitlab.gnome.org/World/Blurble'
+
+[[package]]
+channel = 'arch'
+name = 'blurble'

@@ -1,0 +1,16 @@
+id = 'libskk'
+name = 'libskk'
+
+homepage = 'https://github.com/ueno/libskk'
+
+[[package]]
+channel = 'arch'
+name = 'libskk'
+
+[[package]]
+channel = 'debian'
+name = 'libskk-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'libskk-tools'

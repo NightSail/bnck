@@ -1,0 +1,16 @@
+id = 'grim'
+name = 'grim'
+
+homepage = 'https://gitlab.freedesktop.org/emersion/grim'
+
+[[package]]
+channel = 'arch'
+name = 'grim'
+
+[[package]]
+channel = 'debian'
+name = 'grim'
+
+[[package]]
+channel = 'fedora'
+name = 'grim'

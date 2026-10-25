@@ -1,0 +1,8 @@
+id = 'imap-backup'
+name = 'imap-backup'
+
+homepage = 'https://github.com/joeyates/imap-backup'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/imap-backup'

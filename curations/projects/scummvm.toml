@@ -1,0 +1,25 @@
+id = 'scummvm'
+name = 'scummvm'
+
+homepage = 'http://www.scummvm.org'
+repository = 'https://github.com/scummvm/scummvm.git'
+
+[[package]]
+channel = 'arch'
+name = 'scummvm'
+
+[[package]]
+channel = 'arch'
+name = 'scummvm-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'scummvm'
+
+[[package]]
+channel = 'fedora'
+name = 'scummvm-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/scummvm'

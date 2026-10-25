@@ -1,0 +1,8 @@
+id = 'python-hatchling'
+name = 'python-hatchling'
+
+homepage = 'https://github.com/pypa/hatch/tree/master/backend'
+
+[[package]]
+channel = 'arch'
+name = 'python-hatchling'

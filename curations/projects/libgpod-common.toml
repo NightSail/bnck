@@ -1,0 +1,8 @@
+id = 'libgpod-common'
+name = 'libgpod-common'
+
+homepage = 'http://www.gtkpod.org/wiki/Libgpod'
+
+[[package]]
+channel = 'debian'
+name = 'libgpod-common'

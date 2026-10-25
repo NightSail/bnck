@@ -1,0 +1,8 @@
+id = 'python3-circuits'
+name = 'python3-circuits'
+
+homepage = 'https://github.com/circuits/circuits'
+
+[[package]]
+channel = 'debian'
+name = 'python3-circuits'

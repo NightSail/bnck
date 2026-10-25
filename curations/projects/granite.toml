@@ -1,0 +1,28 @@
+id = 'granite'
+name = 'granite'
+
+homepage = 'https://github.com/elementary/granite'
+
+[[package]]
+channel = 'arch'
+name = 'granite'
+
+[[package]]
+channel = 'arch'
+name = 'granite7'
+
+[[package]]
+channel = 'debian'
+name = 'granite-7-demo'
+
+[[package]]
+channel = 'debian'
+name = 'granite-demo'
+
+[[package]]
+channel = 'fedora'
+name = 'granite-7-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'granite-devel'

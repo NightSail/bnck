@@ -1,0 +1,8 @@
+id = 'tzsp2pcap'
+name = 'tzsp2pcap'
+
+homepage = 'https://github.com/thefloweringash/tzsp2pcap'
+
+[[package]]
+channel = 'debian'
+name = 'tzsp2pcap'

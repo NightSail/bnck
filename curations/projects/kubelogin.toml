@@ -1,0 +1,8 @@
+id = 'kubelogin'
+name = 'kubelogin'
+
+repository = 'https://github.com/int128/kubelogin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubelogin'

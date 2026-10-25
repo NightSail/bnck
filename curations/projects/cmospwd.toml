@@ -1,0 +1,12 @@
+id = 'cmospwd'
+name = 'cmospwd'
+
+homepage = 'http://www.cgsecurity.org/wiki/CmosPwd'
+
+[[package]]
+channel = 'debian'
+name = 'cmospwd'
+
+[[package]]
+channel = 'fedora'
+name = 'cmospwd'

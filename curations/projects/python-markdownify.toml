@@ -1,0 +1,12 @@
+id = 'python-markdownify'
+name = 'python-markdownify'
+
+homepage = 'https://github.com/matthewwithanm/python-markdownify'
+
+[[package]]
+channel = 'arch'
+name = 'python-markdownify'
+
+[[package]]
+channel = 'debian'
+name = 'python3-markdownify'

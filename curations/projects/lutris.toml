@@ -1,0 +1,12 @@
+id = 'lutris'
+name = 'lutris'
+
+homepage = 'https://lutris.net'
+
+[[package]]
+channel = 'arch'
+name = 'lutris'
+
+[[package]]
+channel = 'fedora'
+name = 'lutris'

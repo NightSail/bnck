@@ -1,0 +1,8 @@
+id = 'fastdnaml'
+name = 'fastdnaml'
+
+homepage = 'https://www.life.illinois.edu/gary/programs/fastDNAml.html'
+
+[[package]]
+channel = 'debian'
+name = 'fastdnaml'

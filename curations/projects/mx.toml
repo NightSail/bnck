@@ -1,0 +1,8 @@
+id = 'mx'
+name = 'mx'
+
+homepage = 'https://github.com/graalvm/mx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mx'

@@ -1,0 +1,16 @@
+id = 'nfs-ganesha-nfs-ganesha'
+name = 'nfs-ganesha'
+
+homepage = 'https://github.com/nfs-ganesha/nfs-ganesha/wiki'
+
+[[package]]
+channel = 'fedora'
+name = 'nfs-ganesha'
+
+[[package]]
+channel = 'fedora'
+name = 'nfs-ganesha-rados-grace'
+
+[[package]]
+channel = 'fedora'
+name = 'nfs-ganesha-utils'

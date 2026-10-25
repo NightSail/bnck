@@ -1,0 +1,12 @@
+id = 'python3-jsonschema'
+name = 'python3-jsonschema'
+
+homepage = 'https://github.com/Julian/jsonschema'
+
+[[package]]
+channel = 'debian'
+name = 'python3-jsonschema'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-jsonschema'

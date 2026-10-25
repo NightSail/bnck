@@ -1,0 +1,16 @@
+id = 'xineliboutput'
+name = 'xineliboutput'
+
+homepage = 'http://sourceforge.net/projects/xineliboutput'
+
+[[package]]
+channel = 'debian'
+name = 'xineliboutput-fbfe'
+
+[[package]]
+channel = 'debian'
+name = 'xineliboutput-sxfe'
+
+[[package]]
+channel = 'debian'
+name = 'xineliboutput-wlfe'

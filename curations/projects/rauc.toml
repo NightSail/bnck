@@ -1,0 +1,16 @@
+id = 'rauc'
+name = 'rauc'
+
+homepage = 'https://rauc.io'
+
+[[package]]
+channel = 'arch'
+name = 'rauc'
+
+[[package]]
+channel = 'debian'
+name = 'rauc'
+
+[[package]]
+channel = 'fedora'
+name = 'rauc'

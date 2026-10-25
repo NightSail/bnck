@@ -1,0 +1,8 @@
+id = 'pigx-rnaseq'
+name = 'pigx-rnaseq'
+
+homepage = 'https://github.com/BIMSBbioinfo/pigx_rnaseq'
+
+[[package]]
+channel = 'debian'
+name = 'pigx-rnaseq'

@@ -1,0 +1,16 @@
+id = 'pasystray'
+name = 'pasystray'
+
+homepage = 'https://github.com/christophgysin/pasystray'
+
+[[package]]
+channel = 'arch'
+name = 'pasystray'
+
+[[package]]
+channel = 'debian'
+name = 'pasystray'
+
+[[package]]
+channel = 'fedora'
+name = 'pasystray'

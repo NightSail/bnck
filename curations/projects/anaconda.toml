@@ -1,0 +1,12 @@
+id = 'anaconda'
+name = 'anaconda'
+
+homepage = 'http://fedoraproject.org/wiki/Anaconda'
+
+[[package]]
+channel = 'fedora'
+name = 'anaconda-core'
+
+[[package]]
+channel = 'fedora'
+name = 'anaconda-live'

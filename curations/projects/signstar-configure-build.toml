@@ -1,0 +1,8 @@
+id = 'signstar-configure-build'
+name = 'signstar-configure-build'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/signstar/-/tree/main/signstar-configure-build'
+
+[[package]]
+channel = 'arch'
+name = 'signstar-configure-build'

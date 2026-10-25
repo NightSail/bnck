@@ -4,5 +4,17 @@ name = 'newsboat'
 repository = 'https://github.com/newsboat/newsboat'
 
 [[package]]
+channel = 'arch'
+name = 'newsboat'
+
+[[package]]
+channel = 'debian'
+name = 'newsboat'
+
+[[package]]
+channel = 'fedora'
+name = 'newsboat'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/newsboat'

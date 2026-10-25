@@ -1,0 +1,8 @@
+id = 'jgit-cli'
+name = 'jgit-cli'
+
+homepage = 'https://www.eclipse.org/jgit'
+
+[[package]]
+channel = 'debian'
+name = 'jgit-cli'

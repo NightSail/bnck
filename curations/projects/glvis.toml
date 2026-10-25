@@ -1,0 +1,8 @@
+id = 'glvis'
+name = 'glvis'
+
+homepage = 'https://github.com/GLVis/glvis'
+
+[[package]]
+channel = 'debian'
+name = 'glvis'

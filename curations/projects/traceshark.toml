@@ -1,0 +1,8 @@
+id = 'traceshark'
+name = 'traceshark'
+
+homepage = 'https://github.com/cunctator/traceshark'
+
+[[package]]
+channel = 'debian'
+name = 'traceshark'

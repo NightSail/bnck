@@ -1,0 +1,13 @@
+id = 'graphite2'
+name = 'graphite2'
+
+homepage = 'https://sourceforge.net/projects/silgraphite'
+repository = 'https://github.com/silnrsi/graphite.git'
+
+[[package]]
+channel = 'fedora'
+name = 'graphite2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphite2'

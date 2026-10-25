@@ -1,0 +1,16 @@
+id = 'alertmanager'
+name = 'alertmanager'
+
+homepage = 'https://github.com/prometheus/alertmanager'
+
+[[package]]
+channel = 'arch'
+name = 'alertmanager'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-alertmanager'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-prometheus-alertmanager'

@@ -1,0 +1,12 @@
+id = 'ijg'
+name = 'ijg'
+
+homepage = 'https://www.ijg.org'
+
+[[package]]
+channel = 'debian'
+name = 'libjpeg-progs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jpeg'

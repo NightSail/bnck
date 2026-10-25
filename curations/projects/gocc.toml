@@ -1,0 +1,8 @@
+id = 'gocc'
+name = 'gocc'
+
+homepage = 'https://github.com/goccmack/gocc'
+
+[[package]]
+channel = 'debian'
+name = 'gocc'

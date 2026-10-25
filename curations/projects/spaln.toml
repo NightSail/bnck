@@ -1,0 +1,8 @@
+id = 'spaln'
+name = 'spaln'
+
+homepage = 'https://github.com/ogotoh/spaln'
+
+[[package]]
+channel = 'debian'
+name = 'spaln'

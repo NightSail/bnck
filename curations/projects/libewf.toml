@@ -1,0 +1,8 @@
+id = 'libewf'
+name = 'libewf'
+
+repository = 'https://github.com/libyal/libewf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libewf'

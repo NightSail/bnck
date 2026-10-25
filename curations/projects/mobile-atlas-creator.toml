@@ -1,0 +1,8 @@
+id = 'mobile-atlas-creator'
+name = 'mobile-atlas-creator'
+
+homepage = 'https://sourceforge.net/projects/mobac'
+
+[[package]]
+channel = 'debian'
+name = 'mobile-atlas-creator'

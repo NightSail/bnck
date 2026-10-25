@@ -1,0 +1,8 @@
+id = 'termshark-pro-2684'
+name = 'termshark'
+
+repository = 'https://github.com/PRO-2684/termshark'
+
+[[package]]
+channel = 'crates.io'
+name = 'termshark'

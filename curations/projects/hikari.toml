@@ -1,0 +1,8 @@
+id = 'hikari'
+name = 'hikari'
+
+homepage = 'https://hikari.acmelabs.space'
+
+[[package]]
+channel = 'fedora'
+name = 'hikari'

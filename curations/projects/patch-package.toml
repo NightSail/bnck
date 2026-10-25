@@ -1,0 +1,8 @@
+id = 'patch-package'
+name = 'patch-package'
+
+homepage = 'https://github.com/ds300/patch-package'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/patch-package'

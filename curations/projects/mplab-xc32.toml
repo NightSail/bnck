@@ -1,0 +1,8 @@
+id = 'mplab-xc32'
+name = 'mplab-xc32'
+
+homepage = 'https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc32'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/mplab-xc32'

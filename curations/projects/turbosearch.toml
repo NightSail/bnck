@@ -1,0 +1,8 @@
+id = 'turbosearch'
+name = 'turbosearch'
+
+homepage = 'https://github.com/helviojunior/turbosearch'
+
+[[package]]
+channel = 'debian'
+name = 'turbosearch'

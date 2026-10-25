@@ -1,0 +1,16 @@
+id = 'azote'
+name = 'azote'
+
+homepage = 'https://github.com/nwg-piotr/azote'
+
+[[package]]
+channel = 'arch'
+name = 'azote'
+
+[[package]]
+channel = 'debian'
+name = 'azote'
+
+[[package]]
+channel = 'fedora'
+name = 'azote'

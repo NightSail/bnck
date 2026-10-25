@@ -1,0 +1,8 @@
+id = 'python3-radexreader'
+name = 'python3-radexreader'
+
+homepage = 'https://github.com/luigifab/python-radexreader'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-radexreader'

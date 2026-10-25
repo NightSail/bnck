@@ -1,0 +1,8 @@
+id = 'rpminspect-data-centos'
+name = 'rpminspect-data-centos'
+
+homepage = 'https://gitlab.com/redhat/centos-stream/ci-cd/rpminspect-data-centos'
+
+[[package]]
+channel = 'fedora'
+name = 'rpminspect-data-centos'

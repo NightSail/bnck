@@ -1,0 +1,6 @@
+id = 'python3-distutils-extra'
+name = 'python3-distutils-extra'
+
+[[package]]
+channel = 'debian'
+name = 'python3-distutils-extra'

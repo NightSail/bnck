@@ -4,6 +4,10 @@ name = 'translate-shell'
 repository = 'https://github.com/soimort/translate-shell'
 
 [[package]]
+channel = 'arch'
+name = 'translate-shell'
+
+[[package]]
 channel = 'fedora'
 name = 'translate-shell'
 

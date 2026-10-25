@@ -1,0 +1,8 @@
+id = 'matcha'
+name = 'matcha'
+
+repository = 'https://github.com/piqoni/matcha.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/matcha'

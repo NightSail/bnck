@@ -1,0 +1,8 @@
+id = 'ska'
+name = 'ska'
+
+homepage = 'https://github.com/simonrharris/SKA'
+
+[[package]]
+channel = 'debian'
+name = 'ska'

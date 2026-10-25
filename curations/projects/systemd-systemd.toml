@@ -1,0 +1,20 @@
+id = 'systemd-systemd'
+name = 'systemd'
+
+homepage = 'https://www.github.com/systemd/systemd'
+
+[[package]]
+channel = 'arch'
+name = 'systemd'
+
+[[package]]
+channel = 'arch'
+name = 'systemd-resolvconf'
+
+[[package]]
+channel = 'arch'
+name = 'systemd-sysvcompat'
+
+[[package]]
+channel = 'arch'
+name = 'systemd-ukify'

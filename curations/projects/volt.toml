@@ -1,0 +1,8 @@
+id = 'volt'
+name = 'volt'
+
+repository = 'https://github.com/vim-volt/volt.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/volt'

@@ -1,0 +1,8 @@
+id = 'wmitime'
+name = 'wmitime'
+
+homepage = 'https://dockapps.net/wmitime'
+
+[[package]]
+channel = 'debian'
+name = 'wmitime'

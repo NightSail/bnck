@@ -1,0 +1,8 @@
+id = 'shoelaces'
+name = 'shoelaces'
+
+homepage = 'https://github.com/thousandeyes/shoelaces'
+
+[[package]]
+channel = 'debian'
+name = 'shoelaces'

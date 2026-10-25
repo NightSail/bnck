@@ -1,0 +1,12 @@
+id = 'pod-spell'
+name = 'Pod-Spell'
+
+homepage = 'https://metacpan.org/release/Pod-Spell'
+
+[[package]]
+channel = 'debian'
+name = 'libpod-spell-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Pod-Spell'

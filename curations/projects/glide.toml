@@ -1,0 +1,16 @@
+id = 'glide'
+name = 'glide'
+
+homepage = 'https://glidewm.org'
+
+[[package]]
+channel = 'arch'
+name = 'glide'
+
+[[package]]
+channel = 'fedora'
+name = 'glide'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/glide'

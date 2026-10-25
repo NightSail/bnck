@@ -1,0 +1,12 @@
+id = 'perlbrew'
+name = 'perlbrew'
+
+homepage = 'https://metacpan.org/release/App-perlbrew'
+
+[[package]]
+channel = 'debian'
+name = 'perlbrew'
+
+[[package]]
+channel = 'fedora'
+name = 'perlbrew'

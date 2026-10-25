@@ -1,0 +1,9 @@
+id = 'kdoctools-frameworks'
+name = 'kdoctools'
+
+homepage = 'https://l10n.kde.org/docs/doc-primer'
+repository = 'https://invent.kde.org/frameworks/kdoctools.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kdoctools'

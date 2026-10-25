@@ -1,0 +1,8 @@
+id = 'soar'
+name = 'soar'
+
+homepage = 'https://soar.qaidvoid.dev'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/soar'

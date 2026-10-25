@@ -1,0 +1,8 @@
+id = 'info2man'
+name = 'info2man'
+
+homepage = 'https://www.cskk.ezoshosting.com/cs/css/info2pod.html'
+
+[[package]]
+channel = 'debian'
+name = 'info2man'

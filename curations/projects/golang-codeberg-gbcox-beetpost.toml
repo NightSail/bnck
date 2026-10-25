@@ -1,0 +1,8 @@
+id = 'golang-codeberg-gbcox-beetpost'
+name = 'golang-codeberg-gbcox-beetpost'
+
+homepage = 'https://codeberg.org/gbcox/beetpost'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-codeberg-gbcox-beetpost'

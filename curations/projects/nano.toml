@@ -1,0 +1,9 @@
+id = 'nano'
+name = 'nano'
+
+homepage = 'https://www.nano-editor.org'
+repository = 'https://git.savannah.gnu.org/git/nano.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nano'

@@ -1,0 +1,9 @@
+id = 'wumpus'
+name = 'wumpus'
+
+homepage = 'http://www.catb.org/~esr/wumpus'
+repository = 'https://gitlab.com/esr/wumpus.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wumpus'

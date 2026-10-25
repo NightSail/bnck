@@ -1,0 +1,8 @@
+id = 'gweled'
+name = 'gweled'
+
+homepage = 'http://launchpad.net/gweled'
+
+[[package]]
+channel = 'fedora'
+name = 'gweled'

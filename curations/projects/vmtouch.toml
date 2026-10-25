@@ -1,0 +1,17 @@
+id = 'vmtouch'
+name = 'vmtouch'
+
+homepage = 'https://hoytech.com/vmtouch'
+repository = 'https://github.com/hoytech/vmtouch.git'
+
+[[package]]
+channel = 'debian'
+name = 'vmtouch'
+
+[[package]]
+channel = 'fedora'
+name = 'vmtouch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vmtouch'

@@ -1,0 +1,16 @@
+id = 'vttest'
+name = 'vttest'
+
+homepage = 'https://invisible-island.net/vttest'
+
+[[package]]
+channel = 'debian'
+name = 'vttest'
+
+[[package]]
+channel = 'fedora'
+name = 'vttest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vttest'

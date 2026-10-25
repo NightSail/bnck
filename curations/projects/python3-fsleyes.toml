@@ -1,0 +1,8 @@
+id = 'python3-fsleyes'
+name = 'python3-fsleyes'
+
+homepage = 'https://github.com/pauldmccarthy/fsleyes'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fsleyes'

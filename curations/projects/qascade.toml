@@ -1,0 +1,8 @@
+id = 'qascade'
+name = 'qascade'
+
+homepage = 'http://www.bitsnpieces.org.uk/qascade'
+
+[[package]]
+channel = 'fedora'
+name = 'qascade'

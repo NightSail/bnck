@@ -1,0 +1,12 @@
+id = 'ares-emu'
+name = 'ares-emu'
+
+homepage = 'https://ares-emu.net'
+
+[[package]]
+channel = 'arch'
+name = 'ares-emu'
+
+[[package]]
+channel = 'debian'
+name = 'ares'

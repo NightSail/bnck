@@ -1,0 +1,8 @@
+id = 'pdepend'
+name = 'pdepend'
+
+homepage = 'https://pdepend.org'
+
+[[package]]
+channel = 'debian'
+name = 'pdepend'

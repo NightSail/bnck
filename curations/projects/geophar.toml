@@ -1,0 +1,8 @@
+id = 'geophar'
+name = 'geophar'
+
+homepage = 'http://sourceforge.net/projects/geophar'
+
+[[package]]
+channel = 'debian'
+name = 'geophar'

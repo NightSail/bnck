@@ -1,0 +1,20 @@
+id = 'openal-soft-openal-soft'
+name = 'openal-soft'
+
+homepage = 'https://openal-soft.org'
+
+[[package]]
+channel = 'fedora'
+name = 'openal-soft'
+
+[[package]]
+channel = 'fedora'
+name = 'openal-soft-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'openal-soft-examples'
+
+[[package]]
+channel = 'fedora'
+name = 'openal-soft-qt'

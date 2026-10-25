@@ -1,0 +1,8 @@
+id = 'maui-mauikit-index-fm'
+name = 'maui-mauikit-index-fm'
+
+homepage = 'https://apps.kde.org/maui-mauikit-index-fm'
+
+[[package]]
+channel = 'fedora'
+name = 'maui-mauikit-index-fm'

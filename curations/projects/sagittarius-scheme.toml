@@ -1,0 +1,8 @@
+id = 'sagittarius-scheme'
+name = 'sagittarius-scheme'
+
+homepage = 'https://github.com/ktakashi/sagittarius-scheme'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sagittarius-scheme'

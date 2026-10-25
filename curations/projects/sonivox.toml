@@ -1,0 +1,8 @@
+id = 'sonivox'
+name = 'sonivox'
+
+homepage = 'https://github.com/EmbeddedSynth/sonivox'
+
+[[package]]
+channel = 'arch'
+name = 'sonivox'

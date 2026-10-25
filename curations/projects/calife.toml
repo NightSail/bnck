@@ -1,0 +1,8 @@
+id = 'calife'
+name = 'calife'
+
+homepage = 'https://www.keltia.net/programs/calife'
+
+[[package]]
+channel = 'debian'
+name = 'calife'

@@ -1,0 +1,12 @@
+id = 'pydoctor'
+name = 'pydoctor'
+
+homepage = 'https://github.com/twisted/pydoctor'
+
+[[package]]
+channel = 'debian'
+name = 'pydoctor'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pydoctor'

@@ -1,0 +1,8 @@
+id = 'cargo2junit'
+name = 'cargo2junit'
+
+homepage = 'https://github.com/johnterickson/cargo2junit'
+
+[[package]]
+channel = 'arch'
+name = 'cargo2junit'

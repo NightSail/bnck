@@ -1,0 +1,16 @@
+id = 'suricata'
+name = 'suricata'
+
+homepage = 'https://suricata.io'
+
+[[package]]
+channel = 'debian'
+name = 'suricata'
+
+[[package]]
+channel = 'fedora'
+name = 'suricata'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/suricata'

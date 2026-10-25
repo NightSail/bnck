@@ -1,0 +1,12 @@
+id = 'partio'
+name = 'partio'
+
+homepage = 'https://www.disneyanimation.com/open-source/partio'
+
+[[package]]
+channel = 'fedora'
+name = 'partio'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/partio'

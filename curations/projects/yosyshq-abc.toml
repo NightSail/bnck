@@ -1,0 +1,8 @@
+id = 'yosyshq-abc'
+name = 'yosyshq-abc'
+
+homepage = 'http://github.com/YosysHQ/abc'
+
+[[package]]
+channel = 'fedora'
+name = 'yosyshq-abc'

@@ -1,0 +1,6 @@
+id = 'hyphen-show'
+name = 'hyphen-show'
+
+[[package]]
+channel = 'debian'
+name = 'hyphen-show'

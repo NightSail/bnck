@@ -1,0 +1,8 @@
+id = 'vim-csound'
+name = 'vim-csound'
+
+homepage = 'https://github.com/luisjure/csound-vim'
+
+[[package]]
+channel = 'arch'
+name = 'vim-csound'

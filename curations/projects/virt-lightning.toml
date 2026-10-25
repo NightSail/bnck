@@ -1,0 +1,8 @@
+id = 'virt-lightning'
+name = 'virt-lightning'
+
+homepage = 'https://virt-lightning.org'
+
+[[package]]
+channel = 'fedora'
+name = 'virt-lightning'

@@ -6,3 +6,7 @@ homepage = 'https://github.com/electron/asar'
 [[package]]
 channel = 'arch'
 name = 'asar'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/asar'

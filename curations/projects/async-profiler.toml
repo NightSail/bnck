@@ -1,0 +1,8 @@
+id = 'async-profiler'
+name = 'async-profiler'
+
+repository = 'https://github.com/async-profiler/async-profiler.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/async-profiler'

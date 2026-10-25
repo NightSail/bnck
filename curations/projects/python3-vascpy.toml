@@ -1,0 +1,8 @@
+id = 'python3-vascpy'
+name = 'python3-vascpy'
+
+homepage = 'https://github.com/BlueBrain/vascpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-vascpy'

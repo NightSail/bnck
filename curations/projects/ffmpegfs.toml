@@ -1,0 +1,8 @@
+id = 'ffmpegfs'
+name = 'ffmpegfs'
+
+homepage = 'https://nschlia.github.io/ffmpegfs'
+
+[[package]]
+channel = 'debian'
+name = 'ffmpegfs'

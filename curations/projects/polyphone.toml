@@ -1,0 +1,12 @@
+id = 'polyphone'
+name = 'polyphone'
+
+homepage = 'https://polyphone-soundfonts.com/en'
+
+[[package]]
+channel = 'arch'
+name = 'polyphone'
+
+[[package]]
+channel = 'debian'
+name = 'polyphone'

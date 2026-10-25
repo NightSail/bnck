@@ -1,0 +1,8 @@
+id = 'pss'
+name = 'pss'
+
+homepage = 'https://github.com/eliben/pss'
+
+[[package]]
+channel = 'fedora'
+name = 'pss'

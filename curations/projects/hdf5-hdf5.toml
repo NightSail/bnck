@@ -1,0 +1,20 @@
+id = 'hdf5-hdf5'
+name = 'hdf5'
+
+homepage = 'http://hdfgroup.org/HDF5'
+
+[[package]]
+channel = 'debian'
+name = 'hdf5-helpers'
+
+[[package]]
+channel = 'debian'
+name = 'hdf5-tools'
+
+[[package]]
+channel = 'debian'
+name = 'libhdf5-mpich-dev'
+
+[[package]]
+channel = 'debian'
+name = 'libhdf5-openmpi-dev'

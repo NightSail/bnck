@@ -1,0 +1,40 @@
+id = 'zeek'
+name = 'zeek'
+
+homepage = 'https://www.zeek.org'
+
+[[package]]
+channel = 'debian'
+name = 'bifcl'
+
+[[package]]
+channel = 'debian'
+name = 'btest'
+
+[[package]]
+channel = 'debian'
+name = 'capstats'
+
+[[package]]
+channel = 'debian'
+name = 'trace-summary'
+
+[[package]]
+channel = 'fedora'
+name = 'zeek-btest'
+
+[[package]]
+channel = 'fedora'
+name = 'zeek-core'
+
+[[package]]
+channel = 'fedora'
+name = 'zeek-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'zeek-zkg'
+
+[[package]]
+channel = 'fedora'
+name = 'zeekctl'

@@ -1,0 +1,16 @@
+id = 'cr-cr'
+name = 'cr'
+
+homepage = 'https://cr.yp.to/daemontools.html'
+
+[[package]]
+channel = 'debian'
+name = 'daemontools'
+
+[[package]]
+channel = 'debian'
+name = 'daemontools-run'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/daemontools'

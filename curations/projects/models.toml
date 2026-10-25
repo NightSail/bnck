@@ -1,0 +1,9 @@
+id = 'models'
+name = 'models'
+
+homepage = 'https://reyamira.github.io/models'
+repository = 'https://github.com/reyamira/models.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/models'

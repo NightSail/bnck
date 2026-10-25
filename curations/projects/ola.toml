@@ -1,0 +1,9 @@
+id = 'ola'
+name = 'ola'
+
+homepage = 'https://www.openlighting.org/ola'
+repository = 'https://github.com/OpenLightingProject/ola.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ola'

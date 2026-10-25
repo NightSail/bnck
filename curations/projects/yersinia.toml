@@ -1,0 +1,8 @@
+id = 'yersinia'
+name = 'yersinia'
+
+homepage = 'https://github.com/tomac/yersinia'
+
+[[package]]
+channel = 'debian'
+name = 'yersinia'

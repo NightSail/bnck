@@ -1,0 +1,8 @@
+id = 'hackage-tracker'
+name = 'hackage-tracker'
+
+homepage = 'https://hackage-tracker.debian.net'
+
+[[package]]
+channel = 'debian'
+name = 'hackage-tracker'

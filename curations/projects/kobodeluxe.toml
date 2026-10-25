@@ -1,0 +1,8 @@
+id = 'kobodeluxe'
+name = 'KoboDeluxe'
+
+homepage = 'http://olofson.net/kobodl'
+
+[[package]]
+channel = 'fedora'
+name = 'KoboDeluxe'

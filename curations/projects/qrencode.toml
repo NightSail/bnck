@@ -1,0 +1,21 @@
+id = 'qrencode'
+name = 'qrencode'
+
+homepage = 'https://fukuchi.org/works/qrencode'
+repository = 'https://github.com/fukuchi/libqrencode.git'
+
+[[package]]
+channel = 'arch'
+name = 'qrencode'
+
+[[package]]
+channel = 'debian'
+name = 'qrencode'
+
+[[package]]
+channel = 'fedora'
+name = 'qrencode'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/qrencode'

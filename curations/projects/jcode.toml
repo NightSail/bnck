@@ -1,0 +1,8 @@
+id = 'jcode'
+name = 'jcode'
+
+homepage = 'https://jcode.sh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/jcode'

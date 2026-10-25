@@ -1,0 +1,8 @@
+id = 'jool-tools'
+name = 'jool-tools'
+
+homepage = 'https://nicmx.github.io/Jool'
+
+[[package]]
+channel = 'debian'
+name = 'jool-tools'

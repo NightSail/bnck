@@ -1,0 +1,16 @@
+id = 'xkeycaps'
+name = 'xkeycaps'
+
+homepage = 'https://www.jwz.org/xkeycaps'
+
+[[package]]
+channel = 'arch'
+name = 'xkeycaps'
+
+[[package]]
+channel = 'debian'
+name = 'xkeycaps'
+
+[[package]]
+channel = 'fedora'
+name = 'xkeycaps'

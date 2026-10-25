@@ -1,0 +1,8 @@
+id = 'rocm-bandwidth-test'
+name = 'rocm-bandwidth-test'
+
+homepage = 'https://github.com/ROCm/rocm_bandwidth_test'
+
+[[package]]
+channel = 'fedora'
+name = 'rocm-bandwidth-test'

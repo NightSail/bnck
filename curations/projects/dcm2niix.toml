@@ -1,0 +1,17 @@
+id = 'dcm2niix'
+name = 'dcm2niix'
+
+homepage = 'https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage'
+repository = 'https://github.com/rordenlab/dcm2niix.git'
+
+[[package]]
+channel = 'debian'
+name = 'dcm2niix'
+
+[[package]]
+channel = 'fedora'
+name = 'dcm2niix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dcm2niix'

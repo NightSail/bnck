@@ -1,0 +1,8 @@
+id = 'psysh'
+name = 'psysh'
+
+homepage = 'https://psysh.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/psysh'

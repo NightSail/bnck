@@ -1,0 +1,9 @@
+id = 'apache-flink-cdc'
+name = 'apache-flink-cdc'
+
+homepage = 'https://nightlies.apache.org/flink/flink-cdc-docs-stable'
+repository = 'https://github.com/apache/flink-cdc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apache-flink-cdc'

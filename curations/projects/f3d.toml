@@ -1,0 +1,20 @@
+id = 'f3d'
+name = 'f3d'
+
+homepage = 'https://f3d.app'
+
+[[package]]
+channel = 'arch'
+name = 'f3d'
+
+[[package]]
+channel = 'debian'
+name = 'f3d'
+
+[[package]]
+channel = 'fedora'
+name = 'f3d'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/f3d'

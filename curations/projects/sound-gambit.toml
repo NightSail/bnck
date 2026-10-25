@@ -1,0 +1,8 @@
+id = 'sound-gambit'
+name = 'sound-gambit'
+
+homepage = 'https://github.com/x42/sound-gambit'
+
+[[package]]
+channel = 'arch'
+name = 'sound-gambit'

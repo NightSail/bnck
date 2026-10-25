@@ -1,0 +1,12 @@
+id = 'kollision'
+name = 'kollision'
+
+homepage = 'https://apps.kde.org/kollision'
+
+[[package]]
+channel = 'arch'
+name = 'kollision'
+
+[[package]]
+channel = 'fedora'
+name = 'kollision'

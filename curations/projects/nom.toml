@@ -1,0 +1,13 @@
+id = 'nom'
+name = 'nom'
+
+homepage = 'https://github.com/blinry/nom'
+repository = 'https://github.com/guyfedwards/nom.git'
+
+[[package]]
+channel = 'debian'
+name = 'nom'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nom'

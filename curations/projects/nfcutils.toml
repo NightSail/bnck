@@ -1,0 +1,8 @@
+id = 'nfcutils'
+name = 'nfcutils'
+
+homepage = 'https://github.com/nfc-tools/nfcutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nfcutils'

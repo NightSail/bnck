@@ -1,0 +1,8 @@
+id = 'golang-github-coreos-semver'
+name = 'golang-github-coreos-semver'
+
+homepage = 'https://github.com/coreos/go-semver'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-coreos-semver'

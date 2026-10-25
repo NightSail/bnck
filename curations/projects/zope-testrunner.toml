@@ -1,0 +1,12 @@
+id = 'zope-testrunner'
+name = 'zope.testrunner'
+
+homepage = 'https://github.com/zopefoundation/zope.testrunner'
+
+[[package]]
+channel = 'arch'
+name = 'python-zope-testrunner'
+
+[[package]]
+channel = 'debian'
+name = 'python3-zope.testrunner'

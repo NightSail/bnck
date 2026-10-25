@@ -1,0 +1,8 @@
+id = 'inputplug'
+name = 'inputplug'
+
+homepage = 'https://github.com/andrewshadura/inputplug'
+
+[[package]]
+channel = 'debian'
+name = 'inputplug'

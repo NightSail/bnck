@@ -1,0 +1,8 @@
+id = 'libnvidia-container'
+name = 'libnvidia-container'
+
+homepage = 'https://github.com/NVIDIA/libnvidia-container'
+
+[[package]]
+channel = 'arch'
+name = 'libnvidia-container'

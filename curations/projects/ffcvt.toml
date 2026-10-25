@@ -1,0 +1,8 @@
+id = 'ffcvt'
+name = 'ffcvt'
+
+homepage = 'https://github.com/suntong/ffcvt'
+
+[[package]]
+channel = 'debian'
+name = 'ffcvt'

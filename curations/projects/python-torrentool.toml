@@ -1,0 +1,8 @@
+id = 'python-torrentool'
+name = 'python-torrentool'
+
+homepage = 'https://github.com/idlesign/torrentool'
+
+[[package]]
+channel = 'arch'
+name = 'python-torrentool'

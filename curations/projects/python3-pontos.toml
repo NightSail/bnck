@@ -1,0 +1,8 @@
+id = 'python3-pontos'
+name = 'python3-pontos'
+
+homepage = 'https://github.com/greenbone/pontos'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pontos'

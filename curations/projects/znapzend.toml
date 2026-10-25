@@ -1,0 +1,9 @@
+id = 'znapzend'
+name = 'znapzend'
+
+homepage = 'https://www.znapzend.org'
+repository = 'https://github.com/oetiker/znapzend.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/znapzend'

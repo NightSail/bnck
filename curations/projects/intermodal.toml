@@ -1,0 +1,8 @@
+id = 'intermodal'
+name = 'intermodal'
+
+homepage = 'https://imdl.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/intermodal'

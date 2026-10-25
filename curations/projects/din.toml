@@ -1,0 +1,12 @@
+id = 'din'
+name = 'din'
+
+homepage = 'https://dinisnoise.org'
+
+[[package]]
+channel = 'arch'
+name = 'din'
+
+[[package]]
+channel = 'debian'
+name = 'din'

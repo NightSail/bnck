@@ -1,0 +1,9 @@
+id = 'ruff-astral-sh'
+name = 'ruff'
+
+homepage = 'https://docs.astral.sh/ruff'
+repository = 'https://github.com/astral-sh/ruff.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ruff'

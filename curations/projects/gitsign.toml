@@ -1,0 +1,16 @@
+id = 'gitsign'
+name = 'gitsign'
+
+repository = 'https://github.com/sigstore/gitsign.git'
+
+[[package]]
+channel = 'arch'
+name = 'gitsign'
+
+[[package]]
+channel = 'debian'
+name = 'gitsign'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gitsign'

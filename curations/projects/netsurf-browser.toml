@@ -1,0 +1,24 @@
+id = 'netsurf-browser'
+name = 'netsurf-browser'
+
+homepage = 'https://www.netsurf-browser.org'
+
+[[package]]
+channel = 'arch'
+name = 'netsurf'
+
+[[package]]
+channel = 'debian'
+name = 'netsurf-fb'
+
+[[package]]
+channel = 'debian'
+name = 'netsurf-gtk'
+
+[[package]]
+channel = 'fedora'
+name = 'netsurf'
+
+[[package]]
+channel = 'fedora'
+name = 'netsurf-fb'

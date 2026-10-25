@@ -1,0 +1,12 @@
+id = 'fasm'
+name = 'fasm'
+
+homepage = 'https://flatassembler.net'
+
+[[package]]
+channel = 'arch'
+name = 'fasm'
+
+[[package]]
+channel = 'debian'
+name = 'fasm'

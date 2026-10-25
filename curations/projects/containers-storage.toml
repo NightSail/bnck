@@ -1,0 +1,8 @@
+id = 'containers-storage'
+name = 'containers-storage'
+
+homepage = 'https://github.com/containers/storage'
+
+[[package]]
+channel = 'debian'
+name = 'containers-storage'

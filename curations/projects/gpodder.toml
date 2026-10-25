@@ -1,0 +1,16 @@
+id = 'gpodder'
+name = 'gpodder'
+
+homepage = 'https://gpodder.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'gpodder'
+
+[[package]]
+channel = 'debian'
+name = 'gpodder'
+
+[[package]]
+channel = 'fedora'
+name = 'gpodder'

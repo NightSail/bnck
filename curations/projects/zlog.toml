@@ -1,0 +1,8 @@
+id = 'zlog'
+name = 'zlog'
+
+homepage = 'https://github.com/HardySimpson/zlog'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zlog'

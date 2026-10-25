@@ -1,0 +1,8 @@
+id = 'node-runmd'
+name = 'node-runmd'
+
+homepage = 'https://github.com/broofa/runmd'
+
+[[package]]
+channel = 'debian'
+name = 'node-runmd'

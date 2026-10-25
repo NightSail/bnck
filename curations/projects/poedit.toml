@@ -1,0 +1,16 @@
+id = 'poedit'
+name = 'poedit'
+
+homepage = 'https://www.poedit.net'
+
+[[package]]
+channel = 'arch'
+name = 'poedit'
+
+[[package]]
+channel = 'debian'
+name = 'poedit'
+
+[[package]]
+channel = 'fedora'
+name = 'poedit'

@@ -1,0 +1,8 @@
+id = 'uruk'
+name = 'uruk'
+
+homepage = 'http://mdcc.cx/uruk'
+
+[[package]]
+channel = 'debian'
+name = 'uruk'

@@ -1,0 +1,8 @@
+id = 'fastq-pair'
+name = 'fastq-pair'
+
+homepage = 'https://github.com/linsalrob/fastq-pair'
+
+[[package]]
+channel = 'debian'
+name = 'fastq-pair'

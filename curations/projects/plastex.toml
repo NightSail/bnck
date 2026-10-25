@@ -1,0 +1,8 @@
+id = 'plastex'
+name = 'plastex'
+
+homepage = 'https://github.com/plastex/plastex'
+
+[[package]]
+channel = 'debian'
+name = 'plastex'

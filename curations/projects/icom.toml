@@ -1,0 +1,6 @@
+id = 'icom'
+name = 'icom'
+
+[[package]]
+channel = 'debian'
+name = 'icom'

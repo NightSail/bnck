@@ -1,0 +1,8 @@
+id = 'lerna'
+name = 'lerna'
+
+homepage = 'https://lerna.js.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lerna'

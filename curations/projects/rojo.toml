@@ -1,0 +1,9 @@
+id = 'rojo'
+name = 'rojo'
+
+homepage = 'https://rojo.space'
+repository = 'https://github.com/rojo-rbx/rojo.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rojo'

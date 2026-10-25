@@ -1,0 +1,8 @@
+id = 'cassowary'
+name = 'cassowary'
+
+repository = 'https://github.com/rogerwelin/cassowary.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cassowary'

@@ -1,0 +1,12 @@
+id = 'daehwankimlab'
+name = 'daehwankimlab'
+
+homepage = 'https://daehwankimlab.github.io/hisat2'
+
+[[package]]
+channel = 'debian'
+name = 'hisat2'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hisat2'

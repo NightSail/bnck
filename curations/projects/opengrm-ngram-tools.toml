@@ -1,0 +1,8 @@
+id = 'opengrm-ngram-tools'
+name = 'opengrm-ngram-tools'
+
+homepage = 'http://www.opengrm.org'
+
+[[package]]
+channel = 'fedora'
+name = 'opengrm-ngram-tools'

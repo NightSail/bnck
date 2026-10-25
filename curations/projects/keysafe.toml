@@ -1,0 +1,8 @@
+id = 'keysafe'
+name = 'keysafe'
+
+homepage = 'https://miln.eu/keysafe'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/keysafe'

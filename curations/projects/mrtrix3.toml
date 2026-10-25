@@ -1,0 +1,8 @@
+id = 'mrtrix3'
+name = 'mrtrix3'
+
+homepage = 'https://www.mrtrix.org'
+
+[[package]]
+channel = 'debian'
+name = 'mrtrix3'

@@ -1,0 +1,8 @@
+id = 'luckyluks'
+name = 'luckyluks'
+
+homepage = 'https://github.com/jas-per/luckyLUKS'
+
+[[package]]
+channel = 'debian'
+name = 'luckyluks'

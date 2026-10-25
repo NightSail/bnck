@@ -1,0 +1,12 @@
+id = 'sylfilter'
+name = 'sylfilter'
+
+homepage = 'https://sylpheed.sraoss.jp/sylfilter'
+
+[[package]]
+channel = 'debian'
+name = 'sylfilter'
+
+[[package]]
+channel = 'fedora'
+name = 'sylfilter'

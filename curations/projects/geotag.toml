@@ -1,0 +1,8 @@
+id = 'geotag'
+name = 'geotag'
+
+homepage = 'http://geotag.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'geotag'

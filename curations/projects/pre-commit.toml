@@ -4,6 +4,10 @@ name = 'pre-commit'
 homepage = 'https://pre-commit.com'
 
 [[package]]
+channel = 'arch'
+name = 'pre-commit'
+
+[[package]]
 channel = 'debian'
 name = 'pre-commit'
 

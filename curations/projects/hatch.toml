@@ -1,0 +1,12 @@
+id = 'hatch'
+name = 'hatch'
+
+homepage = 'https://github.com/pypa/hatch'
+
+[[package]]
+channel = 'arch'
+name = 'python-hatch'
+
+[[package]]
+channel = 'fedora'
+name = 'hatch'

@@ -1,0 +1,13 @@
+id = 'ssocr'
+name = 'ssocr'
+
+homepage = 'https://www.unix-ag.uni-kl.de/~auerswal/ssocr'
+repository = 'https://github.com/auerswal/ssocr.git'
+
+[[package]]
+channel = 'debian'
+name = 'ssocr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssocr'

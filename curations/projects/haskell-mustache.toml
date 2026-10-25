@@ -1,0 +1,8 @@
+id = 'haskell-mustache'
+name = 'haskell-mustache'
+
+homepage = 'https://github.com/JustusAdam/mustache'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-mustache'

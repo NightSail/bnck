@@ -1,0 +1,12 @@
+id = 'click-man'
+name = 'click-man'
+
+homepage = 'https://github.com/click-contrib/click-man'
+
+[[package]]
+channel = 'debian'
+name = 'click-man'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-click-man'

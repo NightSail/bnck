@@ -1,0 +1,21 @@
+id = 'patchelf'
+name = 'patchelf'
+
+homepage = 'https://nixos.org/patchelf.html'
+repository = 'https://github.com/NixOS/patchelf.git'
+
+[[package]]
+channel = 'arch'
+name = 'patchelf'
+
+[[package]]
+channel = 'debian'
+name = 'patchelf'
+
+[[package]]
+channel = 'fedora'
+name = 'patchelf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/patchelf'

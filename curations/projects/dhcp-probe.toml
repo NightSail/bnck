@@ -1,0 +1,8 @@
+id = 'dhcp-probe'
+name = 'dhcp-probe'
+
+homepage = 'http://www.net.princeton.edu/software/dhcp_probe'
+
+[[package]]
+channel = 'debian'
+name = 'dhcp-probe'

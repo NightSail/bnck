@@ -1,0 +1,8 @@
+id = 'python3-monascaclient'
+name = 'python3-monascaclient'
+
+homepage = 'https://github.com/openstack/python-monascaclient'
+
+[[package]]
+channel = 'debian'
+name = 'python3-monascaclient'

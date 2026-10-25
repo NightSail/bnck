@@ -1,0 +1,8 @@
+id = 'tinygltf-examples'
+name = 'tinygltf-examples'
+
+homepage = 'https://github.com/syoyo/tinygltf'
+
+[[package]]
+channel = 'fedora'
+name = 'tinygltf-examples'

@@ -1,0 +1,20 @@
+id = 'icoutils'
+name = 'icoutils'
+
+homepage = 'https://www.nongnu.org/icoutils'
+
+[[package]]
+channel = 'arch'
+name = 'icoutils'
+
+[[package]]
+channel = 'debian'
+name = 'icoutils'
+
+[[package]]
+channel = 'fedora'
+name = 'icoutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/icoutils'

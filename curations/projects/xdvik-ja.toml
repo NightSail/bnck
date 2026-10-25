@@ -1,0 +1,6 @@
+id = 'xdvik-ja'
+name = 'xdvik-ja'
+
+[[package]]
+channel = 'debian'
+name = 'xdvik-ja'

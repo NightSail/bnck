@@ -1,0 +1,8 @@
+id = 'genparse'
+name = 'genparse'
+
+homepage = 'https://sourceforge.net/p/genparse'
+
+[[package]]
+channel = 'debian'
+name = 'genparse'

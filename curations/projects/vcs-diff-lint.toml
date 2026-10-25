@@ -1,0 +1,8 @@
+id = 'vcs-diff-lint'
+name = 'vcs-diff-lint'
+
+homepage = 'https://github.com/fedora-copr/vcs-diff-lint'
+
+[[package]]
+channel = 'fedora'
+name = 'vcs-diff-lint'

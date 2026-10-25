@@ -1,0 +1,8 @@
+id = 'psst'
+name = 'psst'
+
+homepage = 'https://github.com/intel/psst'
+
+[[package]]
+channel = 'debian'
+name = 'psst'

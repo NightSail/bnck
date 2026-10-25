@@ -1,0 +1,12 @@
+id = 'iwyu'
+name = 'iwyu'
+
+homepage = 'https://include-what-you-use.org'
+
+[[package]]
+channel = 'debian'
+name = 'iwyu'
+
+[[package]]
+channel = 'fedora'
+name = 'iwyu'

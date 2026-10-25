@@ -1,0 +1,8 @@
+id = 'php-symfony-requirements-checker'
+name = 'php-symfony-requirements-checker'
+
+homepage = 'https://github.com/symfony/requirements-checker'
+
+[[package]]
+channel = 'fedora'
+name = 'php-symfony-requirements-checker'

@@ -1,0 +1,17 @@
+id = 'bettercap'
+name = 'bettercap'
+
+homepage = 'https://www.bettercap.org'
+repository = 'https://github.com/bettercap/bettercap.git'
+
+[[package]]
+channel = 'arch'
+name = 'bettercap'
+
+[[package]]
+channel = 'debian'
+name = 'bettercap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bettercap'

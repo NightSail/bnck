@@ -1,0 +1,12 @@
+id = 'primus'
+name = 'primus'
+
+homepage = 'https://github.com/amonakov/primus'
+
+[[package]]
+channel = 'arch'
+name = 'primus'
+
+[[package]]
+channel = 'debian'
+name = 'primus'

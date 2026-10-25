@@ -1,0 +1,20 @@
+id = 'smartmontools'
+name = 'smartmontools'
+
+homepage = 'https://www.smartmontools.org'
+
+[[package]]
+channel = 'arch'
+name = 'smartmontools'
+
+[[package]]
+channel = 'debian'
+name = 'smartmontools'
+
+[[package]]
+channel = 'fedora'
+name = 'smartmontools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/smartmontools'

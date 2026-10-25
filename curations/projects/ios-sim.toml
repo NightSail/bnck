@@ -1,0 +1,8 @@
+id = 'ios-sim'
+name = 'ios-sim'
+
+repository = 'https://github.com/ios-control/ios-sim.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ios-sim'

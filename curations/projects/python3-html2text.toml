@@ -1,0 +1,8 @@
+id = 'python3-html2text'
+name = 'python3-html2text'
+
+homepage = 'https://alir3z4.github.io/html2text'
+
+[[package]]
+channel = 'debian'
+name = 'python3-html2text'

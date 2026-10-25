@@ -1,0 +1,20 @@
+id = 'woff2'
+name = 'woff2'
+
+homepage = 'https://github.com/google/woff2'
+
+[[package]]
+channel = 'arch'
+name = 'woff2'
+
+[[package]]
+channel = 'debian'
+name = 'woff2'
+
+[[package]]
+channel = 'fedora'
+name = 'woff2-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/woff2'

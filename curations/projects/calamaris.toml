@@ -1,0 +1,12 @@
+id = 'calamaris'
+name = 'calamaris'
+
+homepage = 'http://cord.de/tools/squid/calamaris'
+
+[[package]]
+channel = 'debian'
+name = 'calamaris'
+
+[[package]]
+channel = 'fedora'
+name = 'calamaris'

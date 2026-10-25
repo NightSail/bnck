@@ -1,0 +1,12 @@
+id = 'tengo'
+name = 'tengo'
+
+homepage = 'https://tengolang.com'
+
+[[package]]
+channel = 'debian'
+name = 'tengo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tengo'

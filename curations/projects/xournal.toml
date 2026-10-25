@@ -1,0 +1,12 @@
+id = 'xournal'
+name = 'xournal'
+
+homepage = 'http://xournal.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'xournal'
+
+[[package]]
+channel = 'fedora'
+name = 'xournal'

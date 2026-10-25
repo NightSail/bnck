@@ -1,0 +1,8 @@
+id = 'gydl'
+name = 'gydl'
+
+homepage = 'https://github.com/JannikHv/gydl'
+
+[[package]]
+channel = 'fedora'
+name = 'gydl'

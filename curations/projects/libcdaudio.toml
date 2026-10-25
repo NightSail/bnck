@@ -1,0 +1,20 @@
+id = 'libcdaudio'
+name = 'libcdaudio'
+
+homepage = 'http://libcdaudio.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'libcdaudio'
+
+[[package]]
+channel = 'debian'
+name = 'cdcd'
+
+[[package]]
+channel = 'debian'
+name = 'libcdaudio-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'libcdaudio-devel'

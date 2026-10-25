@@ -1,0 +1,8 @@
+id = 'auctex'
+name = 'auctex'
+
+homepage = 'https://www.gnu.org/software/auctex'
+
+[[package]]
+channel = 'debian'
+name = 'auctex'

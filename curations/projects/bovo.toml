@@ -1,0 +1,12 @@
+id = 'bovo'
+name = 'bovo'
+
+homepage = 'https://apps.kde.org/bovo'
+
+[[package]]
+channel = 'arch'
+name = 'bovo'
+
+[[package]]
+channel = 'fedora'
+name = 'bovo'

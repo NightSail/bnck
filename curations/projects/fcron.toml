@@ -1,0 +1,8 @@
+id = 'fcron'
+name = 'fcron'
+
+homepage = 'http://fcron.free.fr'
+
+[[package]]
+channel = 'arch'
+name = 'fcron'

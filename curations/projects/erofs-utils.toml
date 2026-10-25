@@ -1,0 +1,20 @@
+id = 'erofs-utils'
+name = 'erofs-utils'
+
+homepage = 'https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git'
+
+[[package]]
+channel = 'arch'
+name = 'erofs-utils'
+
+[[package]]
+channel = 'arch'
+name = 'erofsfuse'
+
+[[package]]
+channel = 'debian'
+name = 'erofs-utils'
+
+[[package]]
+channel = 'debian'
+name = 'erofsfuse'

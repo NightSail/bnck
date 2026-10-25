@@ -1,0 +1,8 @@
+id = 'libation'
+name = 'libation'
+
+homepage = 'https://getlibation.com'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/libation'

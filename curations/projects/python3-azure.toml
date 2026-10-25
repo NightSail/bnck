@@ -1,0 +1,8 @@
+id = 'python3-azure'
+name = 'python3-azure'
+
+homepage = 'https://github.com/Azure/azure-sdk-for-python'
+
+[[package]]
+channel = 'debian'
+name = 'python3-azure'

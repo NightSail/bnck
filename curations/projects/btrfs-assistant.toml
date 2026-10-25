@@ -1,0 +1,16 @@
+id = 'btrfs-assistant'
+name = 'btrfs-assistant'
+
+homepage = 'https://gitlab.com/btrfs-assistant/btrfs-assistant'
+
+[[package]]
+channel = 'arch'
+name = 'btrfs-assistant'
+
+[[package]]
+channel = 'debian'
+name = 'btrfs-assistant'
+
+[[package]]
+channel = 'fedora'
+name = 'btrfs-assistant'

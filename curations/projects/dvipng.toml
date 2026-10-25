@@ -1,0 +1,8 @@
+id = 'dvipng'
+name = 'dvipng'
+
+homepage = 'https://ctan.org/pkg/dvipng'
+
+[[package]]
+channel = 'debian'
+name = 'dvipng'

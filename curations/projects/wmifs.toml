@@ -1,0 +1,8 @@
+id = 'wmifs'
+name = 'wmifs'
+
+homepage = 'https://www.dockapps.net/wmifs'
+
+[[package]]
+channel = 'debian'
+name = 'wmifs'

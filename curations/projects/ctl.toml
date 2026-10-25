@@ -1,0 +1,8 @@
+id = 'ctl'
+name = 'ctl'
+
+repository = 'https://github.com/aces-aswf/CTL.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ctl'

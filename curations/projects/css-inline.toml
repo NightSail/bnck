@@ -1,0 +1,8 @@
+id = 'css-inline'
+name = 'css-inline'
+
+homepage = 'https://github.com/Stranger6667/css-inline'
+
+[[package]]
+channel = 'debian'
+name = 'css-inline'

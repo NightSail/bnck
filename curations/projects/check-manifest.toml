@@ -1,0 +1,8 @@
+id = 'check-manifest'
+name = 'check-manifest'
+
+homepage = 'https://github.com/mgedmin/check-manifest'
+
+[[package]]
+channel = 'debian'
+name = 'check-manifest'

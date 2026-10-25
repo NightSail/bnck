@@ -1,0 +1,8 @@
+id = 'fasjson-client'
+name = 'fasjson-client'
+
+homepage = 'https://github.com/fedora-infra/fasjson-client'
+
+[[package]]
+channel = 'fedora'
+name = 'fasjson-client'

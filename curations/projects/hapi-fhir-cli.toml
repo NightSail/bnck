@@ -1,0 +1,8 @@
+id = 'hapi-fhir-cli'
+name = 'hapi-fhir-cli'
+
+homepage = 'https://hapifhir.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/hapi-fhir-cli'

@@ -1,0 +1,8 @@
+id = 'libocas-tools'
+name = 'libocas-tools'
+
+homepage = 'https://cmp.felk.cvut.cz/~xfrancv/ocas/html'
+
+[[package]]
+channel = 'debian'
+name = 'libocas-tools'

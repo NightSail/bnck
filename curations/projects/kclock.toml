@@ -1,0 +1,16 @@
+id = 'kclock'
+name = 'kclock'
+
+homepage = 'https://apps.kde.org/kclock'
+
+[[package]]
+channel = 'arch'
+name = 'kclock'
+
+[[package]]
+channel = 'debian'
+name = 'kclock'
+
+[[package]]
+channel = 'fedora'
+name = 'kclock'

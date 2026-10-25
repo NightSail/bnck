@@ -1,0 +1,8 @@
+id = 'terminus'
+name = 'terminus'
+
+homepage = 'https://gitlab.com/rastersoft/terminus'
+
+[[package]]
+channel = 'debian'
+name = 'terminus'

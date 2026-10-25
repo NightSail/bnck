@@ -1,0 +1,8 @@
+id = 'pikopixel-app'
+name = 'pikopixel.app'
+
+homepage = 'http://twilightedge.com/mac/pikopixel'
+
+[[package]]
+channel = 'debian'
+name = 'pikopixel.app'

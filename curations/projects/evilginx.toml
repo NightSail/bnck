@@ -1,0 +1,8 @@
+id = 'evilginx'
+name = 'evilginx'
+
+homepage = 'https://github.com/kgretzky/evilginx2'
+
+[[package]]
+channel = 'arch'
+name = 'evilginx'

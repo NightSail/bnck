@@ -1,0 +1,8 @@
+id = 'ghc-lumberjack-devel'
+name = 'ghc-lumberjack-devel'
+
+homepage = 'https://hackage.haskell.org/package/lumberjack'
+
+[[package]]
+channel = 'fedora'
+name = 'ghc-lumberjack-devel'

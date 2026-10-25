@@ -1,0 +1,12 @@
+id = 'osmo-fl2k'
+name = 'osmo-fl2k'
+
+homepage = 'https://projects.osmocom.org/projects/osmo-fl2k'
+
+[[package]]
+channel = 'debian'
+name = 'osmo-fl2k'
+
+[[package]]
+channel = 'fedora'
+name = 'osmo-fl2k'

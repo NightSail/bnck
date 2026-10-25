@@ -1,0 +1,8 @@
+id = 'somalier'
+name = 'somalier'
+
+repository = 'https://github.com/brentp/somalier.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/somalier'

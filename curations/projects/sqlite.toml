@@ -1,0 +1,64 @@
+id = 'sqlite'
+name = 'sqlite'
+
+homepage = 'https://www.sqlite.org'
+
+[[package]]
+channel = 'arch'
+name = 'lemon'
+
+[[package]]
+channel = 'arch'
+name = 'sqlite'
+
+[[package]]
+channel = 'arch'
+name = 'sqlite-analyzer'
+
+[[package]]
+channel = 'arch'
+name = 'sqlite-tcl'
+
+[[package]]
+channel = 'debian'
+name = 'lemon'
+
+[[package]]
+channel = 'debian'
+name = 'sqlite3'
+
+[[package]]
+channel = 'debian'
+name = 'sqlite3-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'lemon'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlite'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlite-analyzer'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlite-debug'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlite-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'sqlite2'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlite-analyzer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sqlite-rsync'

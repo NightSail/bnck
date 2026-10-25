@@ -1,0 +1,12 @@
+id = 'colorgcc'
+name = 'colorgcc'
+
+homepage = 'https://github.com/colorgcc/colorgcc'
+
+[[package]]
+channel = 'arch'
+name = 'colorgcc'
+
+[[package]]
+channel = 'fedora'
+name = 'colorgcc'

@@ -1,0 +1,8 @@
+id = 'lino'
+name = 'lino'
+
+homepage = 'https://crates.io/crates/lino'
+
+[[package]]
+channel = 'fedora'
+name = 'lino'

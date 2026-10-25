@@ -1,0 +1,8 @@
+id = 'python-kikit'
+name = 'python-kikit'
+
+homepage = 'https://github.com/yaqwsx/KiKit'
+
+[[package]]
+channel = 'arch'
+name = 'python-kikit'

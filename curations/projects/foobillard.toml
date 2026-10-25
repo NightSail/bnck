@@ -1,0 +1,8 @@
+id = 'foobillard'
+name = 'foobillard'
+
+homepage = 'http://foobillard.sunsite.dk'
+
+[[package]]
+channel = 'fedora'
+name = 'foobillard'

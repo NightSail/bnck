@@ -1,0 +1,16 @@
+id = 'perceptualdiff'
+name = 'perceptualdiff'
+
+homepage = 'https://pdiff.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'perceptualdiff'
+
+[[package]]
+channel = 'fedora'
+name = 'PerceptualDiff'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/perceptualdiff'

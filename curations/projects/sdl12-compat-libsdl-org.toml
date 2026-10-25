@@ -1,0 +1,8 @@
+id = 'sdl12-compat-libsdl-org'
+name = 'sdl12-compat'
+
+repository = 'https://github.com/libsdl-org/sdl12-compat.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sdl12-compat'

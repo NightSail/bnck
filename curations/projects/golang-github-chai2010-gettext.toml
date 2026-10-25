@@ -1,0 +1,8 @@
+id = 'golang-github-chai2010-gettext'
+name = 'golang-github-chai2010-gettext'
+
+homepage = 'https://github.com/chai2010/gettext-go'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-chai2010-gettext'

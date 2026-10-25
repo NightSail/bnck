@@ -1,0 +1,8 @@
+id = 'langford-utils'
+name = 'langford-utils'
+
+homepage = 'http://www.pervices.com'
+
+[[package]]
+channel = 'debian'
+name = 'langford-utils'

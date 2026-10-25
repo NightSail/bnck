@@ -1,0 +1,8 @@
+id = 'process-viewer'
+name = 'process-viewer'
+
+homepage = 'https://github.com/GuillaumeGomez/process-viewer'
+
+[[package]]
+channel = 'debian'
+name = 'process-viewer'

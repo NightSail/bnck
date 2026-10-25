@@ -1,0 +1,16 @@
+id = 'crystal-lang'
+name = 'crystal-lang'
+
+homepage = 'https://crystal-lang.org'
+
+[[package]]
+channel = 'arch'
+name = 'crystal'
+
+[[package]]
+channel = 'debian'
+name = 'crystal'
+
+[[package]]
+channel = 'debian'
+name = 'shards'

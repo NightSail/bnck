@@ -1,0 +1,16 @@
+id = 'ctpl'
+name = 'ctpl'
+
+homepage = 'https://ctpl.tuxfamily.org'
+
+[[package]]
+channel = 'arch'
+name = 'ctpl'
+
+[[package]]
+channel = 'debian'
+name = 'ctpl'
+
+[[package]]
+channel = 'fedora'
+name = 'ctpl'

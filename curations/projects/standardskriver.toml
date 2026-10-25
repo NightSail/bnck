@@ -1,0 +1,8 @@
+id = 'standardskriver'
+name = 'standardskriver'
+
+homepage = 'https://code.it-zukunft-schule.de/cgit/standardskriver'
+
+[[package]]
+channel = 'debian'
+name = 'standardskriver'

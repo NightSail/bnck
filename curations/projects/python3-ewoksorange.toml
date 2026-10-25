@@ -1,0 +1,8 @@
+id = 'python3-ewoksorange'
+name = 'python3-ewoksorange'
+
+homepage = 'https://gitlab.esrf.fr/workflow/ewoks/ewoksorange'
+
+[[package]]
+channel = 'debian'
+name = 'python3-ewoksorange'

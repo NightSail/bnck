@@ -1,0 +1,8 @@
+id = 'astral'
+name = 'astral'
+
+homepage = 'https://github.com/sj14/astral'
+
+[[package]]
+channel = 'fedora'
+name = 'astral'

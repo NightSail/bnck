@@ -1,0 +1,8 @@
+id = 'yubikey-full-disk-encryption'
+name = 'yubikey-full-disk-encryption'
+
+homepage = 'https://github.com/agherzan/yubikey-full-disk-encryption'
+
+[[package]]
+channel = 'arch'
+name = 'yubikey-full-disk-encryption'

@@ -1,0 +1,8 @@
+id = 'stratagus'
+name = 'stratagus'
+
+homepage = 'https://github.com/Wargus/Stratagus'
+
+[[package]]
+channel = 'fedora'
+name = 'stratagus'

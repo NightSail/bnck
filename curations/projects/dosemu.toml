@@ -1,0 +1,8 @@
+id = 'dosemu'
+name = 'dosemu'
+
+homepage = 'http://www.dosemu.org'
+
+[[package]]
+channel = 'arch'
+name = 'dosemu'

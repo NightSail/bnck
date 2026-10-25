@@ -1,0 +1,9 @@
+id = 'precomp'
+name = 'precomp'
+
+homepage = 'http://schnaader.info/precomp.php'
+repository = 'https://github.com/schnaader/precomp-cpp.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/precomp'

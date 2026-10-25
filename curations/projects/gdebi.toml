@@ -1,0 +1,10 @@
+id = 'gdebi'
+name = 'gdebi'
+
+[[package]]
+channel = 'debian'
+name = 'gdebi'
+
+[[package]]
+channel = 'debian'
+name = 'gdebi-core'

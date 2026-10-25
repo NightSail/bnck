@@ -1,0 +1,8 @@
+id = 'repro-go'
+name = 'repro-go'
+
+homepage = 'https://github.com/kpcyrd/repro-go'
+
+[[package]]
+channel = 'arch'
+name = 'repro-go'

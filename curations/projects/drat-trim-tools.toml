@@ -1,0 +1,8 @@
+id = 'drat-trim-tools'
+name = 'drat-trim-tools'
+
+homepage = 'https://github.com/marijnheule/drat-trim'
+
+[[package]]
+channel = 'fedora'
+name = 'drat-trim-tools'

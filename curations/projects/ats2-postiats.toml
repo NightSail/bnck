@@ -1,0 +1,8 @@
+id = 'ats2-postiats'
+name = 'ats2-postiats'
+
+homepage = 'https://www.cs.bu.edu/~hwxi/atslangweb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ats2-postiats'

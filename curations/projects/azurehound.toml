@@ -1,0 +1,8 @@
+id = 'azurehound'
+name = 'azurehound'
+
+repository = 'https://github.com/SpecterOps/AzureHound.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/azurehound'

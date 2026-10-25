@@ -1,0 +1,8 @@
+id = 'zeitfetch'
+name = 'zeitfetch'
+
+homepage = 'https://crates.io/crates/zeitfetch'
+
+[[package]]
+channel = 'fedora'
+name = 'zeitfetch'

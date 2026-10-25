@@ -1,0 +1,12 @@
+id = 'nwg-hello'
+name = 'nwg-hello'
+
+homepage = 'https://github.com/nwg-piotr/nwg-hello'
+
+[[package]]
+channel = 'arch'
+name = 'nwg-hello'
+
+[[package]]
+channel = 'debian'
+name = 'nwg-hello'

@@ -1,0 +1,12 @@
+id = 'pbs-installer'
+name = 'pbs-installer'
+
+homepage = 'https://github.com/frostming/pbs-installer'
+
+[[package]]
+channel = 'arch'
+name = 'python-pbs-installer'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pbs-installer'

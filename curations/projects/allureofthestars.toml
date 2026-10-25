@@ -1,0 +1,9 @@
+id = 'allureofthestars'
+name = 'allureofthestars'
+
+homepage = 'https://allureofthestars.com'
+repository = 'https://github.com/AllureOfTheStars/Allure.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/allureofthestars'

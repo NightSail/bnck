@@ -1,0 +1,8 @@
+id = 'megadepth'
+name = 'megadepth'
+
+homepage = 'https://github.com/ChristopherWilks/megadepth'
+
+[[package]]
+channel = 'debian'
+name = 'megadepth'

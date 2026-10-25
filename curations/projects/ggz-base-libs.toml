@@ -1,0 +1,8 @@
+id = 'ggz-base-libs'
+name = 'ggz-base-libs'
+
+homepage = 'http://www.ggzgamingzone.org'
+
+[[package]]
+channel = 'fedora'
+name = 'ggz-base-libs'

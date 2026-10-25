@@ -1,0 +1,13 @@
+id = 'bench'
+name = 'bench'
+
+homepage = 'https://hackage.haskell.org/package/bench'
+repository = 'https://github.com/Gabriella439/bench.git'
+
+[[package]]
+channel = 'fedora'
+name = 'bench'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bench'

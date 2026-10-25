@@ -1,0 +1,16 @@
+id = 'osmium-tool'
+name = 'osmium-tool'
+
+homepage = 'https://osmcode.org/osmium-tool'
+
+[[package]]
+channel = 'debian'
+name = 'osmium-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'osmium-tool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osmium-tool'

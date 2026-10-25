@@ -1,0 +1,8 @@
+id = 'console-image-viewer'
+name = 'console-image-viewer'
+
+homepage = 'https://github.com/judovana/ConsoleImageViewer'
+
+[[package]]
+channel = 'fedora'
+name = 'console-image-viewer'

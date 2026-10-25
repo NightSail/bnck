@@ -1,0 +1,8 @@
+id = 'mapivi'
+name = 'mapivi'
+
+homepage = 'http://mapivi.sourceforge.net/mapivi.shtml'
+
+[[package]]
+channel = 'debian'
+name = 'mapivi'

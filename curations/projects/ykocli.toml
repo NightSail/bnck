@@ -1,0 +1,8 @@
+id = 'ykocli'
+name = 'ykocli'
+
+homepage = 'https://bitbucket.org/gbcox/ykocli'
+
+[[package]]
+channel = 'fedora'
+name = 'ykocli'

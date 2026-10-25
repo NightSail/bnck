@@ -1,0 +1,8 @@
+id = 'python3-mbed-host-tests'
+name = 'python3-mbed-host-tests'
+
+homepage = 'https://github.com/ARMmbed/htrun'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mbed-host-tests'

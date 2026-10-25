@@ -1,0 +1,8 @@
+id = 'dice'
+name = 'dice'
+
+homepage = 'https://github.com/ncfavier/dice'
+
+[[package]]
+channel = 'arch'
+name = 'dice'

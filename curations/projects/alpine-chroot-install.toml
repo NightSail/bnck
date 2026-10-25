@@ -1,0 +1,12 @@
+id = 'alpine-chroot-install'
+name = 'alpine-chroot-install'
+
+homepage = 'https://github.com/alpinelinux/alpine-chroot-install'
+
+[[package]]
+channel = 'arch'
+name = 'alpine-chroot-install'
+
+[[package]]
+channel = 'debian'
+name = 'alpine-chroot-install'

@@ -1,0 +1,12 @@
+id = 'base16384'
+name = 'base16384'
+
+repository = 'https://github.com/fumiama/base16384.git'
+
+[[package]]
+channel = 'debian'
+name = 'base16384'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/base16384'

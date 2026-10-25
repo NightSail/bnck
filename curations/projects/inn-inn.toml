@@ -1,0 +1,6 @@
+id = 'inn-inn'
+name = 'inn'
+
+[[package]]
+channel = 'debian'
+name = 'inn'

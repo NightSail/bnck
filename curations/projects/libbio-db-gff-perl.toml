@@ -1,0 +1,8 @@
+id = 'libbio-db-gff-perl'
+name = 'libbio-db-gff-perl'
+
+homepage = 'https://metacpan.org/release/Bio-DB-GFF'
+
+[[package]]
+channel = 'debian'
+name = 'libbio-db-gff-perl'

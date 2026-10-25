@@ -1,0 +1,8 @@
+id = 'python3-gertty'
+name = 'python3-gertty'
+
+homepage = 'https://pypi.python.org/pypi/gertty'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-gertty'

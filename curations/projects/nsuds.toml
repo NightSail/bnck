@@ -1,0 +1,9 @@
+id = 'nsuds'
+name = 'nsuds'
+
+homepage = 'https://nsuds.sourceforge.net'
+repository = 'https://git.code.sf.net/p/nsuds/code.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nsuds'

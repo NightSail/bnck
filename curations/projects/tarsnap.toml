@@ -1,0 +1,13 @@
+id = 'tarsnap'
+name = 'tarsnap'
+
+homepage = 'https://www.tarsnap.com'
+repository = 'https://github.com/Tarsnap/tarsnap.git'
+
+[[package]]
+channel = 'arch'
+name = 'tarsnap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tarsnap'

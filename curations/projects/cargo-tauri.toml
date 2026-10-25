@@ -1,0 +1,8 @@
+id = 'cargo-tauri'
+name = 'cargo-tauri'
+
+homepage = 'https://github.com/tauri-apps/tauri'
+
+[[package]]
+channel = 'arch'
+name = 'cargo-tauri'

@@ -1,0 +1,8 @@
+id = 'nydus-snapshotter'
+name = 'nydus-snapshotter'
+
+homepage = 'https://github.com/containerd/nydus-snapshotter'
+
+[[package]]
+channel = 'debian'
+name = 'nydus-snapshotter'

@@ -1,0 +1,12 @@
+id = 'bulky'
+name = 'bulky'
+
+homepage = 'https://github.com/linuxmint/bulky'
+
+[[package]]
+channel = 'arch'
+name = 'bulky'
+
+[[package]]
+channel = 'debian'
+name = 'bulky'

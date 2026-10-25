@@ -1,0 +1,16 @@
+id = 'squashfs-tools'
+name = 'squashfs-tools'
+
+homepage = 'https://github.com/plougher/squashfs-tools'
+
+[[package]]
+channel = 'arch'
+name = 'squashfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'squashfs-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'squashfs-tools'

@@ -1,0 +1,8 @@
+id = 'treeify'
+name = 'treeify'
+
+homepage = 'https://github.com/grawity/code/blob/master/misc/treeify'
+
+[[package]]
+channel = 'arch'
+name = 'treeify'

@@ -1,0 +1,8 @@
+id = 'ot-simian-standalone'
+name = 'ot-simian-standalone'
+
+homepage = 'https://punklabs.com/ot-simian'
+
+[[package]]
+channel = 'arch'
+name = 'ot-simian-standalone'

@@ -1,0 +1,13 @@
+id = 'ty'
+name = 'ty'
+
+homepage = 'https://docs.astral.sh/ty'
+repository = 'https://github.com/astral-sh/ty.git'
+
+[[package]]
+channel = 'arch'
+name = 'ty'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ty'

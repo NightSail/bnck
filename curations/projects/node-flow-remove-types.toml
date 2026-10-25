@@ -1,0 +1,8 @@
+id = 'node-flow-remove-types'
+name = 'node-flow-remove-types'
+
+homepage = 'https://github.com/flowtype/flow-remove-types'
+
+[[package]]
+channel = 'debian'
+name = 'node-flow-remove-types'

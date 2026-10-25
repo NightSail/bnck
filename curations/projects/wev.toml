@@ -1,0 +1,16 @@
+id = 'wev'
+name = 'wev'
+
+homepage = 'https://git.sr.ht/~sircmpwn/wev'
+
+[[package]]
+channel = 'arch'
+name = 'wev'
+
+[[package]]
+channel = 'debian'
+name = 'wev'
+
+[[package]]
+channel = 'fedora'
+name = 'wev'

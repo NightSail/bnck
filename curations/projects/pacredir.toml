@@ -1,0 +1,8 @@
+id = 'pacredir'
+name = 'pacredir'
+
+homepage = 'https://github.com/eworm-de/pacredir'
+
+[[package]]
+channel = 'arch'
+name = 'pacredir'

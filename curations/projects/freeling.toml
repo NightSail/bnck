@@ -1,0 +1,8 @@
+id = 'freeling'
+name = 'freeling'
+
+homepage = 'https://nlp.lsi.upc.edu/freeling'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/freeling'

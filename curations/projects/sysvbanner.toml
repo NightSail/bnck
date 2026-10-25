@@ -1,0 +1,6 @@
+id = 'sysvbanner'
+name = 'sysvbanner'
+
+[[package]]
+channel = 'debian'
+name = 'sysvbanner'

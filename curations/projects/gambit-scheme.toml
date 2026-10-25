@@ -1,0 +1,20 @@
+id = 'gambit-scheme'
+name = 'gambit-scheme'
+
+homepage = 'https://gambitscheme.org'
+
+[[package]]
+channel = 'debian'
+name = 'gambc'
+
+[[package]]
+channel = 'debian'
+name = 'gambc-doc'
+
+[[package]]
+channel = 'fedora'
+name = 'gambit-c'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gambit-scheme'

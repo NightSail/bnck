@@ -1,0 +1,8 @@
+id = 'cmaple'
+name = 'cmaple'
+
+homepage = 'https://github.com/iqtree/cmaple'
+
+[[package]]
+channel = 'debian'
+name = 'cmaple'

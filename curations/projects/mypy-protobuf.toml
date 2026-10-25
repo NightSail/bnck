@@ -1,0 +1,8 @@
+id = 'mypy-protobuf'
+name = 'mypy-protobuf'
+
+homepage = 'https://github.com/dropbox/mypy-protobuf'
+
+[[package]]
+channel = 'debian'
+name = 'mypy-protobuf'

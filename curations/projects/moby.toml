@@ -1,0 +1,12 @@
+id = 'moby'
+name = 'moby'
+
+homepage = 'https://github.com/moby/moby'
+
+[[package]]
+channel = 'fedora'
+name = 'docker-cli'
+
+[[package]]
+channel = 'fedora'
+name = 'moby-engine'

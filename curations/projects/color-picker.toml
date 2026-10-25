@@ -1,0 +1,8 @@
+id = 'color-picker'
+name = 'color-picker'
+
+homepage = 'https://github.com/keshavbhatt/ColorPicker'
+
+[[package]]
+channel = 'debian'
+name = 'color-picker'

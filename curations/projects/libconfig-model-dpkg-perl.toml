@@ -1,0 +1,6 @@
+id = 'libconfig-model-dpkg-perl'
+name = 'libconfig-model-dpkg-perl'
+
+[[package]]
+channel = 'debian'
+name = 'libconfig-model-dpkg-perl'

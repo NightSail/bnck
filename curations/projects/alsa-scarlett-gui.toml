@@ -1,0 +1,12 @@
+id = 'alsa-scarlett-gui'
+name = 'alsa-scarlett-gui'
+
+homepage = 'https://github.com/geoffreybennett/alsa-scarlett-gui'
+
+[[package]]
+channel = 'arch'
+name = 'alsa-scarlett-gui'
+
+[[package]]
+channel = 'debian'
+name = 'alsa-scarlett-gui'

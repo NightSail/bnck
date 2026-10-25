@@ -1,0 +1,16 @@
+id = 'libheif-libheif'
+name = 'libheif'
+
+homepage = 'http://www.libheif.org'
+
+[[package]]
+channel = 'debian'
+name = 'heif-thumbnailer'
+
+[[package]]
+channel = 'debian'
+name = 'heif-view'
+
+[[package]]
+channel = 'debian'
+name = 'libheif-examples'

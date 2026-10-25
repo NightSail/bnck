@@ -1,0 +1,16 @@
+id = 'python-dotenv'
+name = 'python-dotenv'
+
+homepage = 'https://github.com/theskumar/python-dotenv'
+
+[[package]]
+channel = 'arch'
+name = 'python-dotenv'
+
+[[package]]
+channel = 'debian'
+name = 'python3-dotenv'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-dotenv+cli'

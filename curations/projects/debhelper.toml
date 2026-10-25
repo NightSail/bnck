@@ -1,0 +1,10 @@
+id = 'debhelper'
+name = 'debhelper'
+
+[[package]]
+channel = 'debian'
+name = 'debhelper'
+
+[[package]]
+channel = 'fedora'
+name = 'debhelper'

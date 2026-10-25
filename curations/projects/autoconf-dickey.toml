@@ -1,0 +1,8 @@
+id = 'autoconf-dickey'
+name = 'autoconf-dickey'
+
+homepage = 'https://invisible-island.net/autoconf/autoconf.html'
+
+[[package]]
+channel = 'debian'
+name = 'autoconf-dickey'

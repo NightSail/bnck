@@ -1,0 +1,12 @@
+id = 'module-util'
+name = 'Module-Util'
+
+homepage = 'https://metacpan.org/release/Module-Util'
+
+[[package]]
+channel = 'debian'
+name = 'libmodule-util-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Module-Util'

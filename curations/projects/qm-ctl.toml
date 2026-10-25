@@ -1,0 +1,8 @@
+id = 'qm-ctl'
+name = 'qm-ctl'
+
+homepage = 'https://github.com/containers/qm'
+
+[[package]]
+channel = 'fedora'
+name = 'qm-ctl'

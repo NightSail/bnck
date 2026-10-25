@@ -1,0 +1,12 @@
+id = 'openmesh'
+name = 'OpenMesh'
+
+homepage = 'http://www.openmesh.org'
+
+[[package]]
+channel = 'debian'
+name = 'libopenmesh-apps'
+
+[[package]]
+channel = 'fedora'
+name = 'OpenMesh-tools'

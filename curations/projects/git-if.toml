@@ -1,0 +1,9 @@
+id = 'git-if'
+name = 'git-if'
+
+homepage = 'https://ifarchive.org/indexes/if-archive/programming/glulx/interpreters/git'
+repository = 'https://github.com/DavidKinder/Git.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-if'

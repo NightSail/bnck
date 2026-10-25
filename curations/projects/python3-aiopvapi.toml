@@ -1,0 +1,8 @@
+id = 'python3-aiopvapi'
+name = 'python3-aiopvapi'
+
+homepage = 'https://github.com/sander76/aio-powerview-api'
+
+[[package]]
+channel = 'debian'
+name = 'python3-aiopvapi'

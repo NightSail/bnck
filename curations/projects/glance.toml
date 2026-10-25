@@ -1,0 +1,12 @@
+id = 'glance'
+name = 'glance'
+
+homepage = 'https://github.com/openstack/glance'
+
+[[package]]
+channel = 'debian'
+name = 'glance-api'
+
+[[package]]
+channel = 'debian'
+name = 'glance-common'

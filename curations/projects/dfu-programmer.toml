@@ -1,0 +1,17 @@
+id = 'dfu-programmer'
+name = 'dfu-programmer'
+
+homepage = 'http://dfu-programmer.sourceforge.net'
+repository = 'https://github.com/dfu-programmer/dfu-programmer.git'
+
+[[package]]
+channel = 'arch'
+name = 'dfu-programmer'
+
+[[package]]
+channel = 'debian'
+name = 'dfu-programmer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dfu-programmer'

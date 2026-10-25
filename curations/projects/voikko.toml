@@ -1,0 +1,20 @@
+id = 'voikko'
+name = 'voikko'
+
+homepage = 'https://voikko.puimula.org'
+
+[[package]]
+channel = 'debian'
+name = 'libvoikko-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'tmispell-voikko'
+
+[[package]]
+channel = 'fedora'
+name = 'voikko-tools'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libvoikko'

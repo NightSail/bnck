@@ -1,0 +1,8 @@
+id = 'kwalletcli'
+name = 'kwalletcli'
+
+homepage = 'http://www.mirbsd.org/kwalletcli.htm'
+
+[[package]]
+channel = 'debian'
+name = 'kwalletcli'

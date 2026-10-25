@@ -1,0 +1,8 @@
+id = 'cl-launch'
+name = 'cl-launch'
+
+homepage = 'http://www.cliki.net/cl-launch'
+
+[[package]]
+channel = 'debian'
+name = 'cl-launch'

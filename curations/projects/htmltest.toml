@@ -1,0 +1,12 @@
+id = 'htmltest'
+name = 'htmltest'
+
+repository = 'https://github.com/wjdp/htmltest.git'
+
+[[package]]
+channel = 'fedora'
+name = 'htmltest'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/htmltest'

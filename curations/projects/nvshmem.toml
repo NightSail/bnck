@@ -1,0 +1,8 @@
+id = 'nvshmem'
+name = 'nvshmem'
+
+homepage = 'https://developer.nvidia.com/nvshmem'
+
+[[package]]
+channel = 'arch'
+name = 'nvshmem'

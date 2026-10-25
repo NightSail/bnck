@@ -1,0 +1,8 @@
+id = 'ksh93'
+name = 'ksh93'
+
+repository = 'https://github.com/ksh93/ksh.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ksh93'

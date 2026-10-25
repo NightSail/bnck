@@ -1,0 +1,8 @@
+id = 'python3-keycloak-httpd-client-install'
+name = 'python3-keycloak-httpd-client-install'
+
+homepage = 'https://github.com/latchset/keycloak-httpd-client-install'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-keycloak-httpd-client-install'

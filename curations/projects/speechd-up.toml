@@ -1,0 +1,8 @@
+id = 'speechd-up'
+name = 'speechd-up'
+
+homepage = 'https://github.com/williamh/speechd-up.git'
+
+[[package]]
+channel = 'debian'
+name = 'speechd-up'

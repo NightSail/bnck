@@ -1,0 +1,16 @@
+id = 'node-exporter'
+name = 'node-exporter'
+
+homepage = 'https://github.com/prometheus/node_exporter'
+
+[[package]]
+channel = 'arch'
+name = 'prometheus-node-exporter'
+
+[[package]]
+channel = 'debian'
+name = 'prometheus-node-exporter'
+
+[[package]]
+channel = 'fedora'
+name = 'node-exporter'

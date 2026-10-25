@@ -1,0 +1,8 @@
+id = 'kaf'
+name = 'kaf'
+
+repository = 'https://github.com/birdayz/kaf.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kaf'

@@ -1,0 +1,16 @@
+id = 'vflib'
+name = 'VFlib'
+
+homepage = 'https://kakugawa.math.ryukoku.ac.jp/VFlib'
+
+[[package]]
+channel = 'debian'
+name = 'vflib3'
+
+[[package]]
+channel = 'debian'
+name = 'vflib3-bin'
+
+[[package]]
+channel = 'debian'
+name = 'vflib3-dev'

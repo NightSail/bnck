@@ -1,0 +1,8 @@
+id = 'certsync'
+name = 'certsync'
+
+homepage = 'https://github.com/zblurx/certsync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/certsync'

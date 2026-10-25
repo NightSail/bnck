@@ -1,0 +1,6 @@
+id = 'aewm-goodies'
+name = 'aewm++-goodies'
+
+[[package]]
+channel = 'debian'
+name = 'aewm++-goodies'

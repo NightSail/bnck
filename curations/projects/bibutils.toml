@@ -1,0 +1,20 @@
+id = 'bibutils'
+name = 'bibutils'
+
+homepage = 'http://sourceforge.net/p/bibutils/home/Bibutils'
+
+[[package]]
+channel = 'arch'
+name = 'bibutils'
+
+[[package]]
+channel = 'debian'
+name = 'bibutils'
+
+[[package]]
+channel = 'fedora'
+name = 'bibutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bibutils'

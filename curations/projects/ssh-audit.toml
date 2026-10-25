@@ -1,0 +1,20 @@
+id = 'ssh-audit'
+name = 'ssh-audit'
+
+repository = 'https://github.com/jtesta/ssh-audit.git'
+
+[[package]]
+channel = 'arch'
+name = 'ssh-audit'
+
+[[package]]
+channel = 'debian'
+name = 'ssh-audit'
+
+[[package]]
+channel = 'fedora'
+name = 'ssh-audit'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ssh-audit'

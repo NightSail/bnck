@@ -1,0 +1,12 @@
+id = 'duo-unix'
+name = 'duo_unix'
+
+homepage = 'https://www.duosecurity.com/docs/duounix'
+
+[[package]]
+channel = 'fedora'
+name = 'duo_unix'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/duo_unix'

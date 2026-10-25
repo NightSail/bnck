@@ -1,0 +1,8 @@
+id = 'pgweb'
+name = 'pgweb'
+
+homepage = 'https://sosedoff.github.io/pgweb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgweb'

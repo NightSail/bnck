@@ -1,0 +1,6 @@
+id = 'vlock'
+name = 'vlock'
+
+[[package]]
+channel = 'debian'
+name = 'vlock'

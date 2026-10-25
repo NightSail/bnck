@@ -1,0 +1,24 @@
+id = 'h5l'
+name = 'h5l'
+
+homepage = 'http://www.h5l.org'
+
+[[package]]
+channel = 'debian'
+name = 'heimdal-clients'
+
+[[package]]
+channel = 'debian'
+name = 'heimdal-dev'
+
+[[package]]
+channel = 'debian'
+name = 'heimdal-kcm'
+
+[[package]]
+channel = 'debian'
+name = 'heimdal-kdc'
+
+[[package]]
+channel = 'debian'
+name = 'heimdal-multidev'

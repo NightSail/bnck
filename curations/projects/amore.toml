@@ -1,0 +1,8 @@
+id = 'amore'
+name = 'amore'
+
+homepage = 'https://amore.computer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/amore'

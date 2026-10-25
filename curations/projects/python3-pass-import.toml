@@ -1,0 +1,8 @@
+id = 'python3-pass-import'
+name = 'python3-pass-import'
+
+homepage = 'https://github.com/roddhjav/pass-import'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pass-import'

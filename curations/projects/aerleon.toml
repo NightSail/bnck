@@ -1,0 +1,9 @@
+id = 'aerleon'
+name = 'aerleon'
+
+homepage = 'https://aerleon.readthedocs.io/en/latest'
+repository = 'https://github.com/aerleon/aerleon.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/aerleon'

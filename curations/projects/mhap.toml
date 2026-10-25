@@ -1,0 +1,8 @@
+id = 'mhap'
+name = 'mhap'
+
+homepage = 'http://mhap.readthedocs.org/en/stable'
+
+[[package]]
+channel = 'debian'
+name = 'mhap'

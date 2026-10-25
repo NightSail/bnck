@@ -4,5 +4,17 @@ name = 'convmv'
 homepage = 'https://www.j3e.de/linux/convmv/man'
 
 [[package]]
+channel = 'arch'
+name = 'convmv'
+
+[[package]]
 channel = 'debian'
 name = 'convmv'
+
+[[package]]
+channel = 'fedora'
+name = 'convmv'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/convmv'

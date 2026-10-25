@@ -1,0 +1,12 @@
+id = 'pdd'
+name = 'pdd'
+
+homepage = 'https://github.com/jarun/pdd'
+
+[[package]]
+channel = 'debian'
+name = 'pdd'
+
+[[package]]
+channel = 'fedora'
+name = 'pdd'

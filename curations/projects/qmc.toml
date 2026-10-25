@@ -1,0 +1,6 @@
+id = 'qmc'
+name = 'qmc'
+
+[[package]]
+channel = 'debian'
+name = 'qmc'

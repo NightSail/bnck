@@ -1,0 +1,8 @@
+id = 'context'
+name = 'context'
+
+homepage = 'https://www.pragma-ade.nl'
+
+[[package]]
+channel = 'debian'
+name = 'context'

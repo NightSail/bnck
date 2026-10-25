@@ -1,0 +1,8 @@
+id = 'vtk-dicom-tools'
+name = 'vtk-dicom-tools'
+
+homepage = 'https://github.com/dgobbi/vtk-dicom'
+
+[[package]]
+channel = 'debian'
+name = 'vtk-dicom-tools'

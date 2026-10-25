@@ -1,0 +1,8 @@
+id = 'libbg-dev'
+name = 'libbg-dev'
+
+homepage = 'https://untroubled.org/bglibs'
+
+[[package]]
+channel = 'debian'
+name = 'libbg-dev'

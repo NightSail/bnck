@@ -1,0 +1,8 @@
+id = 'terraform-iam-policy-validator'
+name = 'terraform-iam-policy-validator'
+
+homepage = 'https://github.com/awslabs/terraform-iam-policy-validator'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-iam-policy-validator'

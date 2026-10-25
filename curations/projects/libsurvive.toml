@@ -1,0 +1,12 @@
+id = 'libsurvive'
+name = 'libsurvive'
+
+homepage = 'https://github.com/collabora/libsurvive'
+
+[[package]]
+channel = 'fedora'
+name = 'libsurvive'
+
+[[package]]
+channel = 'fedora'
+name = 'libsurvive-devel'

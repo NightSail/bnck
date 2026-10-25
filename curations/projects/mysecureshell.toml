@@ -1,0 +1,8 @@
+id = 'mysecureshell'
+name = 'mysecureshell'
+
+homepage = 'https://mysecureshell.readthedocs.org'
+
+[[package]]
+channel = 'debian'
+name = 'mysecureshell'

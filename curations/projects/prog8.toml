@@ -1,0 +1,8 @@
+id = 'prog8'
+name = 'prog8'
+
+homepage = 'https://prog8.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/prog8'

@@ -1,0 +1,8 @@
+id = 'pbsim'
+name = 'pbsim'
+
+homepage = 'https://github.com/pfaucon/PBSIM-PacBio-Simulator'
+
+[[package]]
+channel = 'debian'
+name = 'pbsim'

@@ -1,0 +1,8 @@
+id = 'compton'
+name = 'compton'
+
+homepage = 'https://github.com/chjj/compton'
+
+[[package]]
+channel = 'debian'
+name = 'compton'

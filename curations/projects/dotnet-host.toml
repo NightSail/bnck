@@ -1,0 +1,8 @@
+id = 'dotnet-host'
+name = 'dotnet-host'
+
+homepage = 'https://github.com/dotnet'
+
+[[package]]
+channel = 'fedora'
+name = 'dotnet-host'

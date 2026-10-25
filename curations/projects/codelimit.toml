@@ -1,0 +1,8 @@
+id = 'codelimit'
+name = 'codelimit'
+
+homepage = 'https://getcodelimit.github.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/codelimit'

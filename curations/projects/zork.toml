@@ -1,0 +1,12 @@
+id = 'zork'
+name = 'zork'
+
+repository = 'https://github.com/devshane/zork.git'
+
+[[package]]
+channel = 'fedora'
+name = 'zork'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zork'

@@ -1,0 +1,8 @@
+id = 'python3-stem'
+name = 'python3-stem'
+
+homepage = 'https://gitweb.torproject.org/stem.git'
+
+[[package]]
+channel = 'debian'
+name = 'python3-stem'

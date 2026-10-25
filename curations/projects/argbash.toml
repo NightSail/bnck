@@ -1,0 +1,12 @@
+id = 'argbash'
+name = 'argbash'
+
+homepage = 'https://argbash.dev'
+
+[[package]]
+channel = 'arch'
+name = 'argbash'
+
+[[package]]
+channel = 'fedora'
+name = 'argbash'

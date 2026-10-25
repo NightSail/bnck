@@ -1,0 +1,9 @@
+id = 'libdrawtext'
+name = 'libdrawtext'
+
+homepage = 'http://nuclear.mutantstargoat.com/sw/libdrawtext'
+repository = 'https://github.com/jtsiomb/libdrawtext.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libdrawtext'

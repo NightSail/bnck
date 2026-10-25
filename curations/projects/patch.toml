@@ -1,0 +1,16 @@
+id = 'patch'
+name = 'patch'
+
+homepage = 'https://savannah.gnu.org/projects/patch'
+
+[[package]]
+channel = 'debian'
+name = 'patch'
+
+[[package]]
+channel = 'fedora'
+name = 'patch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gpatch'

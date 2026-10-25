@@ -1,0 +1,6 @@
+id = 'dh-php'
+name = 'dh-php'
+
+[[package]]
+channel = 'debian'
+name = 'dh-php'

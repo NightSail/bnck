@@ -1,0 +1,8 @@
+id = 'vtr'
+name = 'vtr'
+
+homepage = 'https://verilogtorouting.org'
+
+[[package]]
+channel = 'arch'
+name = 'vtr'

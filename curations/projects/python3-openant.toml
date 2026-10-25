@@ -1,0 +1,8 @@
+id = 'python3-openant'
+name = 'python3-openant'
+
+homepage = 'https://github.com/Tigge/openant'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-openant'

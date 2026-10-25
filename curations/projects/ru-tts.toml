@@ -1,0 +1,8 @@
+id = 'ru-tts'
+name = 'ru-tts'
+
+homepage = 'https://github.com/poretsky/ru_tts'
+
+[[package]]
+channel = 'debian'
+name = 'ru-tts'

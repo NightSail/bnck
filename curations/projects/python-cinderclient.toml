@@ -1,0 +1,8 @@
+id = 'python-cinderclient'
+name = 'python-cinderclient'
+
+homepage = 'https://docs.openstack.org/developer/python-cinderclient'
+
+[[package]]
+channel = 'arch'
+name = 'python-cinderclient'

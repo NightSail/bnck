@@ -1,0 +1,8 @@
+id = 'openelp'
+name = 'openelp'
+
+homepage = 'https://github.com/cottsay/openelp'
+
+[[package]]
+channel = 'fedora'
+name = 'openelp'

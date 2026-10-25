@@ -1,0 +1,21 @@
+id = 'pixiewps'
+name = 'pixiewps'
+
+homepage = 'https://github.com/wiire/pixiewps'
+repository = 'https://github.com/wiire-a/pixiewps.git'
+
+[[package]]
+channel = 'arch'
+name = 'pixiewps'
+
+[[package]]
+channel = 'debian'
+name = 'pixiewps'
+
+[[package]]
+channel = 'fedora'
+name = 'pixiewps'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pixiewps'

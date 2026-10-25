@@ -1,0 +1,8 @@
+id = 'norsnet'
+name = 'norsnet'
+
+homepage = 'https://www.rostlab.org/owiki/index.php/Norsnet'
+
+[[package]]
+channel = 'debian'
+name = 'norsnet'

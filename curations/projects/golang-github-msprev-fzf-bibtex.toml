@@ -1,0 +1,8 @@
+id = 'golang-github-msprev-fzf-bibtex'
+name = 'golang-github-msprev-fzf-bibtex'
+
+homepage = 'https://github.com/msprev/fzf-bibtex'
+
+[[package]]
+channel = 'fedora'
+name = 'golang-github-msprev-fzf-bibtex'

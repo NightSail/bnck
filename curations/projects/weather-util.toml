@@ -1,0 +1,8 @@
+id = 'weather-util'
+name = 'weather-util'
+
+homepage = 'https://fungi.yuggoth.org/weather'
+
+[[package]]
+channel = 'debian'
+name = 'weather-util'

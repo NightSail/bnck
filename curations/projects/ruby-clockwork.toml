@@ -1,0 +1,8 @@
+id = 'ruby-clockwork'
+name = 'ruby-clockwork'
+
+homepage = 'https://github.com/Rykian/clockwork'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-clockwork'

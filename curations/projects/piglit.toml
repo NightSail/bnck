@@ -1,0 +1,8 @@
+id = 'piglit'
+name = 'piglit'
+
+homepage = 'http://piglit.freedesktop.org'
+
+[[package]]
+channel = 'debian'
+name = 'piglit'

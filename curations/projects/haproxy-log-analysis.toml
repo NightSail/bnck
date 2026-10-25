@@ -1,0 +1,8 @@
+id = 'haproxy-log-analysis'
+name = 'haproxy-log-analysis'
+
+homepage = 'https://github.com/gforcada/haproxy_log_analysis'
+
+[[package]]
+channel = 'debian'
+name = 'haproxy-log-analysis'

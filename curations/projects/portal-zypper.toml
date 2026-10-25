@@ -1,0 +1,16 @@
+id = 'portal-zypper'
+name = 'Portal:Zypper'
+
+homepage = 'http://en.opensuse.org/Portal:Zypper'
+
+[[package]]
+channel = 'fedora'
+name = 'zypper'
+
+[[package]]
+channel = 'fedora'
+name = 'zypper-aptitude'
+
+[[package]]
+channel = 'fedora'
+name = 'zypper-log'

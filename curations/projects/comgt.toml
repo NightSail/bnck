@@ -1,0 +1,8 @@
+id = 'comgt'
+name = 'comgt'
+
+homepage = 'http://www.pharscape.org'
+
+[[package]]
+channel = 'debian'
+name = 'comgt'

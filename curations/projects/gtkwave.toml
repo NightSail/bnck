@@ -1,0 +1,20 @@
+id = 'gtkwave'
+name = 'gtkwave'
+
+homepage = 'https://gtkwave.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'gtkwave'
+
+[[package]]
+channel = 'debian'
+name = 'gtkwave'
+
+[[package]]
+channel = 'fedora'
+name = 'gtkwave'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/gtkwave'

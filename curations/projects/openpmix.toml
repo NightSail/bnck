@@ -1,0 +1,8 @@
+id = 'openpmix'
+name = 'openpmix'
+
+homepage = 'https://github.com/openpmix/openpmix'
+
+[[package]]
+channel = 'arch'
+name = 'openpmix'

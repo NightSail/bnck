@@ -1,0 +1,12 @@
+id = 'reorg'
+name = 'reorg'
+
+homepage = 'http://reorg.github.io/pg_repack'
+
+[[package]]
+channel = 'fedora'
+name = 'pg_repack'
+
+[[package]]
+channel = 'fedora'
+name = 'postgresql16-pg_repack'

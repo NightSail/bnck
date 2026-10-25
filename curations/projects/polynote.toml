@@ -1,0 +1,8 @@
+id = 'polynote'
+name = 'polynote'
+
+homepage = 'https://polynote.org'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/polynote'

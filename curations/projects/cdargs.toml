@@ -1,0 +1,17 @@
+id = 'cdargs'
+name = 'cdargs'
+
+homepage = 'http://www.skamphausen.de/cgi-bin/ska/CDargs'
+repository = 'https://github.com/cbxbiker61/cdargs.git'
+
+[[package]]
+channel = 'debian'
+name = 'cdargs'
+
+[[package]]
+channel = 'fedora'
+name = 'cdargs'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cdargs'

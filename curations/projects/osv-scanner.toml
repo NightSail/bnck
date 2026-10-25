@@ -1,0 +1,13 @@
+id = 'osv-scanner'
+name = 'osv-scanner'
+
+homepage = 'https://google.github.io/osv-scanner'
+repository = 'https://github.com/google/osv-scanner.git'
+
+[[package]]
+channel = 'arch'
+name = 'osv-scanner'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/osv-scanner'

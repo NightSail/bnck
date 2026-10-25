@@ -1,0 +1,20 @@
+id = 'rawtherapee'
+name = 'rawtherapee'
+
+homepage = 'https://rawtherapee.com'
+
+[[package]]
+channel = 'arch'
+name = 'rawtherapee'
+
+[[package]]
+channel = 'debian'
+name = 'rawtherapee'
+
+[[package]]
+channel = 'fedora'
+name = 'rawtherapee'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/rawtherapee'

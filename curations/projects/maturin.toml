@@ -1,0 +1,16 @@
+id = 'maturin'
+name = 'maturin'
+
+homepage = 'https://github.com/PyO3/maturin'
+
+[[package]]
+channel = 'arch'
+name = 'maturin'
+
+[[package]]
+channel = 'debian'
+name = 'python3-maturin'
+
+[[package]]
+channel = 'fedora'
+name = 'maturin'

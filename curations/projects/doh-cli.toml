@@ -1,0 +1,8 @@
+id = 'doh-cli'
+name = 'doh-cli'
+
+homepage = 'https://gitlab.com/libreops/doh-cli'
+
+[[package]]
+channel = 'debian'
+name = 'doh-cli'

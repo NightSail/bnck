@@ -1,0 +1,8 @@
+id = 'libfsfat-utils'
+name = 'libfsfat-utils'
+
+homepage = 'https://github.com/libyal/libfsfat'
+
+[[package]]
+channel = 'debian'
+name = 'libfsfat-utils'

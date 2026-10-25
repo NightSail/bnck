@@ -1,0 +1,12 @@
+id = 'tmt'
+name = 'tmt'
+
+homepage = 'https://tmt.readthedocs.io'
+
+[[package]]
+channel = 'fedora'
+name = 'tmt'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tmt'

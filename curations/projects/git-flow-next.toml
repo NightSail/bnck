@@ -1,0 +1,9 @@
+id = 'git-flow-next'
+name = 'git-flow-next'
+
+homepage = 'https://git-flow.sh'
+repository = 'https://github.com/gittower/git-flow-next.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-flow-next'

@@ -1,0 +1,9 @@
+id = 'tailwindcss'
+name = 'tailwindcss'
+
+homepage = 'https://tailwindcss.com'
+repository = 'https://github.com/tailwindlabs/tailwindcss.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/tailwindcss'

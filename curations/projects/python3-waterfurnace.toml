@@ -1,0 +1,8 @@
+id = 'python3-waterfurnace'
+name = 'python3-waterfurnace'
+
+homepage = 'https://github.com/sdague/waterfurnace'
+
+[[package]]
+channel = 'debian'
+name = 'python3-waterfurnace'

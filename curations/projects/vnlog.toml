@@ -1,0 +1,12 @@
+id = 'vnlog'
+name = 'vnlog'
+
+homepage = 'https://github.com/dkogan/vnlog'
+
+[[package]]
+channel = 'debian'
+name = 'libvnlog-dev'
+
+[[package]]
+channel = 'debian'
+name = 'vnlog'

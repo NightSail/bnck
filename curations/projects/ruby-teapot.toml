@@ -1,0 +1,8 @@
+id = 'ruby-teapot'
+name = 'ruby-teapot'
+
+homepage = 'https://github.com/ioquatix/teapot'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-teapot'

@@ -1,0 +1,8 @@
+id = 'nvidia-prime'
+name = 'nvidia-prime'
+
+homepage = 'https://www.archlinux.org/packages/extra/any/nvidia-prime'
+
+[[package]]
+channel = 'arch'
+name = 'nvidia-prime'

@@ -1,0 +1,8 @@
+id = 'time-decode'
+name = 'time-decode'
+
+homepage = 'https://github.com/digitalsleuth/time_decode'
+
+[[package]]
+channel = 'debian'
+name = 'time-decode'

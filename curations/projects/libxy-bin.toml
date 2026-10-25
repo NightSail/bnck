@@ -1,0 +1,8 @@
+id = 'libxy-bin'
+name = 'libxy-bin'
+
+homepage = 'https://github.com/wojdyr/xylib'
+
+[[package]]
+channel = 'debian'
+name = 'libxy-bin'

@@ -1,0 +1,16 @@
+id = 'gerbera'
+name = 'gerbera'
+
+homepage = 'https://github.com/gerbera/gerbera'
+
+[[package]]
+channel = 'arch'
+name = 'gerbera'
+
+[[package]]
+channel = 'debian'
+name = 'gerbera'
+
+[[package]]
+channel = 'fedora'
+name = 'gerbera'

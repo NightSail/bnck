@@ -1,0 +1,9 @@
+id = 'oxlint'
+name = 'oxlint'
+
+homepage = 'https://oxc.rs'
+repository = 'https://github.com/oxc-project/oxc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oxlint'

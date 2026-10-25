@@ -1,0 +1,8 @@
+id = 'hpanel'
+name = 'hpanel'
+
+homepage = 'http://phrat.de/downloads.html'
+
+[[package]]
+channel = 'debian'
+name = 'hpanel'

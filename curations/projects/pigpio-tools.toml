@@ -1,0 +1,8 @@
+id = 'pigpio-tools'
+name = 'pigpio-tools'
+
+homepage = 'http://abyz.co.uk/rpi/pigpio'
+
+[[package]]
+channel = 'debian'
+name = 'pigpio-tools'

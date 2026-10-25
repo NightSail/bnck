@@ -1,0 +1,17 @@
+id = 'mruby'
+name = 'mruby'
+
+homepage = 'https://mruby.org'
+repository = 'https://github.com/mruby/mruby.git'
+
+[[package]]
+channel = 'arch'
+name = 'mruby'
+
+[[package]]
+channel = 'debian'
+name = 'mruby'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mruby'

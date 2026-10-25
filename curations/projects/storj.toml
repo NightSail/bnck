@@ -1,0 +1,8 @@
+id = 'storj'
+name = 'storj'
+
+homepage = 'https://github.com/Storj/libstorj'
+
+[[package]]
+channel = 'debian'
+name = 'storj'

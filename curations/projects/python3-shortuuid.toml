@@ -1,0 +1,12 @@
+id = 'python3-shortuuid'
+name = 'python3-shortuuid'
+
+homepage = 'https://github.com/skorokithakis/shortuuid'
+
+[[package]]
+channel = 'debian'
+name = 'python3-shortuuid'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-shortuuid'

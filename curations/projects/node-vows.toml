@@ -1,0 +1,8 @@
+id = 'node-vows'
+name = 'node-vows'
+
+homepage = 'https://vowsjs.org'
+
+[[package]]
+channel = 'debian'
+name = 'node-vows'

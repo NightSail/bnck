@@ -1,0 +1,9 @@
+id = 'cpi'
+name = 'cpi'
+
+homepage = 'https://treefrogframework.github.io/cpi'
+repository = 'https://github.com/treefrogframework/cpi.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cpi'

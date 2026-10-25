@@ -1,0 +1,8 @@
+id = 'junit'
+name = 'junit'
+
+homepage = 'http://www.junit.org'
+
+[[package]]
+channel = 'debian'
+name = 'junit'

@@ -1,0 +1,8 @@
+id = 'threeb'
+name = 'threeb'
+
+homepage = 'https://www.coxphysics.com/3b/index.html'
+
+[[package]]
+channel = 'debian'
+name = 'threeb'

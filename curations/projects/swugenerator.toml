@@ -1,0 +1,8 @@
+id = 'swugenerator'
+name = 'swugenerator'
+
+homepage = 'https://github.com/sbabic/swugenerator'
+
+[[package]]
+channel = 'debian'
+name = 'swugenerator'

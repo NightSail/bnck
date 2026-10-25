@@ -1,0 +1,12 @@
+id = 'retext'
+name = 'retext'
+
+homepage = 'https://github.com/retext-project/retext'
+
+[[package]]
+channel = 'arch'
+name = 'retext'
+
+[[package]]
+channel = 'debian'
+name = 'retext'

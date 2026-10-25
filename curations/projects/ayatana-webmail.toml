@@ -1,0 +1,8 @@
+id = 'ayatana-webmail'
+name = 'ayatana-webmail'
+
+homepage = 'https://tari.in/www/software/ayatana-webmail'
+
+[[package]]
+channel = 'debian'
+name = 'ayatana-webmail'

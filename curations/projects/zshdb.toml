@@ -1,0 +1,13 @@
+id = 'zshdb'
+name = 'zshdb'
+
+homepage = 'https://github.com/rocky/zshdb'
+repository = 'https://github.com/Trepan-Debuggers/zshdb.git'
+
+[[package]]
+channel = 'arch'
+name = 'zshdb'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/zshdb'

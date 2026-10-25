@@ -1,0 +1,8 @@
+id = 'infgen'
+name = 'infgen'
+
+homepage = 'https://github.com/madler/infgen'
+
+[[package]]
+channel = 'debian'
+name = 'infgen'

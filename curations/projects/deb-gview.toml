@@ -1,0 +1,8 @@
+id = 'deb-gview'
+name = 'deb-gview'
+
+homepage = 'https://salsa.debian.org/debian/deb-gview'
+
+[[package]]
+channel = 'debian'
+name = 'deb-gview'

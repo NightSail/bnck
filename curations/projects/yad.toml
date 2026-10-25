@@ -1,0 +1,16 @@
+id = 'yad'
+name = 'yad'
+
+homepage = 'https://github.com/v1cont/yad'
+
+[[package]]
+channel = 'arch'
+name = 'yad'
+
+[[package]]
+channel = 'debian'
+name = 'yad'
+
+[[package]]
+channel = 'fedora'
+name = 'yad'

@@ -1,0 +1,8 @@
+id = 'yokadi'
+name = 'yokadi'
+
+homepage = 'https://yokadi.github.io'
+
+[[package]]
+channel = 'debian'
+name = 'yokadi'

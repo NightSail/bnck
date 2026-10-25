@@ -1,0 +1,8 @@
+id = 'zoitechat'
+name = 'zoitechat'
+
+homepage = 'https://zoitechat.org'
+
+[[package]]
+channel = 'debian'
+name = 'zoitechat'

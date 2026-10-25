@@ -1,0 +1,12 @@
+id = 'targetcli-fb'
+name = 'targetcli-fb'
+
+homepage = 'https://github.com/open-iscsi/targetcli-fb'
+
+[[package]]
+channel = 'debian'
+name = 'targetcli-fb'
+
+[[package]]
+channel = 'fedora'
+name = 'targetcli'

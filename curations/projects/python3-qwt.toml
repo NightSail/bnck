@@ -1,0 +1,8 @@
+id = 'python3-qwt'
+name = 'python3-qwt'
+
+homepage = 'https://github.com/PlotPyStack/qwt'
+
+[[package]]
+channel = 'debian'
+name = 'python3-qwt'

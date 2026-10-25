@@ -1,0 +1,21 @@
+id = 'dateutils'
+name = 'dateutils'
+
+homepage = 'https://www.fresse.org/dateutils'
+repository = 'https://github.com/hroptatyr/dateutils.git'
+
+[[package]]
+channel = 'arch'
+name = 'dateutils'
+
+[[package]]
+channel = 'debian'
+name = 'dateutils'
+
+[[package]]
+channel = 'fedora'
+name = 'dateutils'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dateutils'

@@ -1,0 +1,12 @@
+id = 'git-archive-all'
+name = 'git-archive-all'
+
+repository = 'https://github.com/Kentzo/git-archive-all.git'
+
+[[package]]
+channel = 'fedora'
+name = 'git-archive-all'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/git-archive-all'

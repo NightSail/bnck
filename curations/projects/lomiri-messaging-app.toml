@@ -1,0 +1,8 @@
+id = 'lomiri-messaging-app'
+name = 'lomiri-messaging-app'
+
+homepage = 'https://gitlab.com/ubports/development/core/lomiri-messaging-app'
+
+[[package]]
+channel = 'debian'
+name = 'lomiri-messaging-app'

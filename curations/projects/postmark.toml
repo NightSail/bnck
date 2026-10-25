@@ -1,0 +1,8 @@
+id = 'postmark'
+name = 'postmark'
+
+homepage = 'https://web.archive.org/web/20050909143319/http://www.netapp.com:80/tech_library/postmark.html'
+
+[[package]]
+channel = 'debian'
+name = 'postmark'

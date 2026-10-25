@@ -1,0 +1,9 @@
+id = 'goclone'
+name = 'goclone'
+
+homepage = 'https://goclone.dev'
+repository = 'https://github.com/goclone-dev/goclone.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/goclone'

@@ -1,0 +1,8 @@
+id = 'qtmir-tests'
+name = 'qtmir-tests'
+
+homepage = 'https://gitlab.com/ubports/development/core/qtmir'
+
+[[package]]
+channel = 'debian'
+name = 'qtmir-tests'

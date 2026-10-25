@@ -1,0 +1,8 @@
+id = 'tuxmanager'
+name = 'tuxmanager'
+
+homepage = 'https://github.com/benapetr/TuxManager'
+
+[[package]]
+channel = 'arch'
+name = 'tuxmanager'

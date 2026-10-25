@@ -1,0 +1,8 @@
+id = 'ruby-bluefeather'
+name = 'ruby-bluefeather'
+
+homepage = 'http://ruby.morphball.net/bluefeather'
+
+[[package]]
+channel = 'debian'
+name = 'ruby-bluefeather'

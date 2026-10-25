@@ -1,0 +1,8 @@
+id = 'rt5-extension-repeatticket'
+name = 'rt5-extension-repeatticket'
+
+homepage = 'https://metacpan.org/release/RT-Extension-RepeatTicket'
+
+[[package]]
+channel = 'debian'
+name = 'rt5-extension-repeatticket'

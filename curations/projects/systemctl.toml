@@ -1,0 +1,8 @@
+id = 'systemctl'
+name = 'systemctl'
+
+homepage = 'https://github.com/gdraheim/docker-systemctl-replacement'
+
+[[package]]
+channel = 'debian'
+name = 'systemctl'

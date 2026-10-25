@@ -1,0 +1,9 @@
+id = 'kubevpn'
+name = 'kubevpn'
+
+homepage = 'https://www.kubevpn.dev'
+repository = 'https://github.com/kubenetworks/kubevpn.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kubevpn'

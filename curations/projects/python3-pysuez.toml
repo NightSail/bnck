@@ -1,0 +1,8 @@
+id = 'python3-pysuez'
+name = 'python3-pysuez'
+
+homepage = 'https://github.com/ooii/pySuez'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pysuez'

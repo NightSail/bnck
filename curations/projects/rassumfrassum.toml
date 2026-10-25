@@ -1,0 +1,8 @@
+id = 'rassumfrassum'
+name = 'rassumfrassum'
+
+homepage = 'https://github.com/joaotavora/rassumfrassum'
+
+[[package]]
+channel = 'debian'
+name = 'rassumfrassum'

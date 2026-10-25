@@ -1,0 +1,6 @@
+id = 'manderlbot'
+name = 'manderlbot'
+
+[[package]]
+channel = 'debian'
+name = 'manderlbot'

@@ -1,0 +1,12 @@
+id = 'python3-pint'
+name = 'python3-pint'
+
+homepage = 'https://github.com/hgrecco/pint'
+
+[[package]]
+channel = 'debian'
+name = 'python3-pint'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-pint'

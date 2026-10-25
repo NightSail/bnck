@@ -1,0 +1,8 @@
+id = 'python3-rapidarchive'
+name = 'python3-rapidarchive'
+
+homepage = 'https://github.com/mxmlnkn/librapidarchive'
+
+[[package]]
+channel = 'debian'
+name = 'python3-rapidarchive'

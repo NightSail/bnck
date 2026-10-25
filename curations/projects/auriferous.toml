@@ -1,0 +1,8 @@
+id = 'auriferous'
+name = 'auriferous'
+
+homepage = 'http://auriferous.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'auriferous'

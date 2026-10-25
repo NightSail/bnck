@@ -1,0 +1,8 @@
+id = 'systemdgenie'
+name = 'systemdgenie'
+
+homepage = 'https://invent.kde.org/system/systemdgenie'
+
+[[package]]
+channel = 'arch'
+name = 'systemdgenie'

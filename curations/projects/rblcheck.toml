@@ -1,0 +1,10 @@
+id = 'rblcheck'
+name = 'rblcheck'
+
+[[package]]
+channel = 'debian'
+name = 'rblcheck'
+
+[[package]]
+channel = 'fedora'
+name = 'rblcheck'

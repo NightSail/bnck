@@ -1,0 +1,12 @@
+id = 'usbtop'
+name = 'usbtop'
+
+homepage = 'https://github.com/aguinet/usbtop'
+
+[[package]]
+channel = 'debian'
+name = 'usbtop'
+
+[[package]]
+channel = 'fedora'
+name = 'usbtop'

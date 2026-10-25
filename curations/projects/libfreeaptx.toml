@@ -1,0 +1,8 @@
+id = 'libfreeaptx'
+name = 'libfreeaptx'
+
+homepage = 'https://github.com/regularhunter/libfreeaptx'
+
+[[package]]
+channel = 'arch'
+name = 'libfreeaptx'

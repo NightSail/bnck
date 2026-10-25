@@ -1,0 +1,17 @@
+id = 'nco'
+name = 'nco'
+
+homepage = 'http://nco.sourceforge.net'
+repository = 'https://github.com/nco/nco.git'
+
+[[package]]
+channel = 'debian'
+name = 'nco'
+
+[[package]]
+channel = 'fedora'
+name = 'nco'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/nco'

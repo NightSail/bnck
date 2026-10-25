@@ -1,0 +1,8 @@
+id = 'pocket-tts'
+name = 'pocket-tts'
+
+repository = 'https://github.com/kyutai-labs/pocket-tts.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pocket-tts'

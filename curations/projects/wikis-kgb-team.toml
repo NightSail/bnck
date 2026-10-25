@@ -1,0 +1,12 @@
+id = 'wikis-kgb-team'
+name = 'wikis'
+
+homepage = 'https://salsa.debian.org/kgb-team/kgb/wikis/home'
+
+[[package]]
+channel = 'debian'
+name = 'kgb-bot'
+
+[[package]]
+channel = 'debian'
+name = 'kgb-client'

@@ -1,0 +1,8 @@
+id = 'statsvn'
+name = 'statsvn'
+
+homepage = 'http://www.statsvn.org'
+
+[[package]]
+channel = 'debian'
+name = 'statsvn'

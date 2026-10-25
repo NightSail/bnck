@@ -1,0 +1,12 @@
+id = 'rdtool'
+name = 'rdtool'
+
+homepage = 'https://github.com/uwabami/rdtool'
+
+[[package]]
+channel = 'debian'
+name = 'rdtool'
+
+[[package]]
+channel = 'fedora'
+name = 'rubygem-rdtool'

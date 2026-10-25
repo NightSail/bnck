@@ -1,0 +1,16 @@
+id = 'yoshimi'
+name = 'yoshimi'
+
+homepage = 'https://yoshimi.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'yoshimi-standalone'
+
+[[package]]
+channel = 'debian'
+name = 'yoshimi'
+
+[[package]]
+channel = 'fedora'
+name = 'yoshimi'

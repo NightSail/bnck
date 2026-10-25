@@ -1,0 +1,8 @@
+id = 'sketch'
+name = 'sketch'
+
+homepage = 'http://www.frontiernet.net/~eugene.ressler'
+
+[[package]]
+channel = 'debian'
+name = 'sketch'

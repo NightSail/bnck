@@ -1,0 +1,12 @@
+id = 'gdnsd'
+name = 'gdnsd'
+
+homepage = 'https://gdnsd.org'
+
+[[package]]
+channel = 'arch'
+name = 'gdnsd'
+
+[[package]]
+channel = 'debian'
+name = 'gdnsd'

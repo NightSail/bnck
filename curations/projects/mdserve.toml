@@ -1,0 +1,12 @@
+id = 'mdserve'
+name = 'mdserve'
+
+repository = 'https://github.com/jfernandez/mdserve.git'
+
+[[package]]
+channel = 'arch'
+name = 'mdserve'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mdserve'

@@ -1,0 +1,12 @@
+id = 'openbgpd'
+name = 'openbgpd'
+
+homepage = 'https://www.openbgpd.org'
+
+[[package]]
+channel = 'debian'
+name = 'openbgpd'
+
+[[package]]
+channel = 'fedora'
+name = 'openbgpd'

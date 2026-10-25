@@ -1,0 +1,6 @@
+id = 'texify'
+name = 'texify'
+
+[[package]]
+channel = 'debian'
+name = 'texify'

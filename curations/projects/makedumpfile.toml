@@ -1,0 +1,16 @@
+id = 'makedumpfile'
+name = 'makedumpfile'
+
+homepage = 'https://github.com/makedumpfile/makedumpfile'
+
+[[package]]
+channel = 'arch'
+name = 'makedumpfile'
+
+[[package]]
+channel = 'debian'
+name = 'makedumpfile'
+
+[[package]]
+channel = 'fedora'
+name = 'makedumpfile'

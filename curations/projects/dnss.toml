@@ -1,0 +1,8 @@
+id = 'dnss'
+name = 'dnss'
+
+homepage = 'https://blitiri.com.ar/git/r/dnss/b/master/t/f=README.md.html'
+
+[[package]]
+channel = 'debian'
+name = 'dnss'

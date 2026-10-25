@@ -1,0 +1,32 @@
+id = 'edu'
+name = 'edu'
+
+homepage = 'https://blends.debian.org/edu'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-buster'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-ceratopsian'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-emerald'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-futureprototype'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-homeworld'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-artwork-softwaves'
+
+[[package]]
+channel = 'debian'
+name = 'debian-edu-config'

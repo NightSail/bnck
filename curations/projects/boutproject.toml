@@ -1,0 +1,12 @@
+id = 'boutproject'
+name = 'boutproject'
+
+homepage = 'http://boutproject.github.io'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-boutdata'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-zoidberg'

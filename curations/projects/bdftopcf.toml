@@ -1,0 +1,8 @@
+id = 'bdftopcf'
+name = 'bdftopcf'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/util/bdftopcf'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bdftopcf'

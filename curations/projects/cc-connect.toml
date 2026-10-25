@@ -1,0 +1,8 @@
+id = 'cc-connect'
+name = 'cc-connect'
+
+homepage = 'https://github.com/chenhg5/cc-connect'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cc-connect'

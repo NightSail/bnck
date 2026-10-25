@@ -1,0 +1,12 @@
+id = 'ann'
+name = 'ann'
+
+homepage = 'https://www.cs.umd.edu/~mount/ANN'
+
+[[package]]
+channel = 'debian'
+name = 'ann-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'ann'

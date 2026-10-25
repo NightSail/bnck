@@ -1,0 +1,6 @@
+id = 'obsession'
+name = 'obsession'
+
+[[package]]
+channel = 'debian'
+name = 'obsession'

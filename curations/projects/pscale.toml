@@ -1,0 +1,9 @@
+id = 'pscale'
+name = 'pscale'
+
+homepage = 'https://www.planetscale.com'
+repository = 'https://github.com/planetscale/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pscale'

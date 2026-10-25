@@ -1,0 +1,8 @@
+id = 'deepin-shell'
+name = 'deepin-shell'
+
+homepage = 'https://github.com/linuxdeepin/dde-shell'
+
+[[package]]
+channel = 'arch'
+name = 'deepin-shell'

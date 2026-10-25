@@ -1,0 +1,12 @@
+id = 'the-silver-searcher'
+name = 'the_silver_searcher'
+
+homepage = 'https://github.com/ggreer/the_silver_searcher'
+
+[[package]]
+channel = 'debian'
+name = 'silversearcher-ag'
+
+[[package]]
+channel = 'fedora'
+name = 'the_silver_searcher'

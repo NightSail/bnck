@@ -1,0 +1,8 @@
+id = 'compose-spec'
+name = 'compose-spec'
+
+homepage = 'https://github.com/compose-spec/compose-go'
+
+[[package]]
+channel = 'debian'
+name = 'compose-spec'

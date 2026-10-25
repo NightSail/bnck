@@ -1,0 +1,6 @@
+id = 'fact'
+name = 'fact++'
+
+[[package]]
+channel = 'debian'
+name = 'fact++'

@@ -1,0 +1,8 @@
+id = 'coq-serapi'
+name = 'coq-serapi'
+
+homepage = 'https://github.com/ejgallego/coq-serapi'
+
+[[package]]
+channel = 'debian'
+name = 'coq-serapi'

@@ -1,0 +1,12 @@
+id = 'hddtemp'
+name = 'hddtemp'
+
+homepage = 'https://savannah.nongnu.org/projects/hddtemp'
+
+[[package]]
+channel = 'arch'
+name = 'hddtemp'
+
+[[package]]
+channel = 'fedora'
+name = 'hddtemp'

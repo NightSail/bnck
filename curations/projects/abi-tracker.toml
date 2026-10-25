@@ -1,0 +1,12 @@
+id = 'abi-tracker'
+name = 'abi-tracker'
+
+homepage = 'https://github.com/lvc/abi-tracker'
+
+[[package]]
+channel = 'debian'
+name = 'abi-tracker'
+
+[[package]]
+channel = 'fedora'
+name = 'abi-tracker'

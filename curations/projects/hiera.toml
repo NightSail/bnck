@@ -1,0 +1,12 @@
+id = 'hiera'
+name = 'hiera'
+
+homepage = 'https://github.com/puppetlabs/hiera'
+
+[[package]]
+channel = 'debian'
+name = 'hiera'
+
+[[package]]
+channel = 'fedora'
+name = 'hiera'

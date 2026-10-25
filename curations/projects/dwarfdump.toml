@@ -1,0 +1,8 @@
+id = 'dwarfdump'
+name = 'dwarfdump'
+
+homepage = 'https://github.com/davea42/libdwarf-code'
+
+[[package]]
+channel = 'debian'
+name = 'dwarfdump'

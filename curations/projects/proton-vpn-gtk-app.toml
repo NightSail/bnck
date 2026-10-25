@@ -1,0 +1,12 @@
+id = 'proton-vpn-gtk-app'
+name = 'proton-vpn-gtk-app'
+
+homepage = 'https://github.com/ProtonVPN/proton-vpn-gtk-app'
+
+[[package]]
+channel = 'arch'
+name = 'proton-vpn-gtk-app'
+
+[[package]]
+channel = 'debian'
+name = 'proton-vpn-gtk-app'

@@ -1,0 +1,8 @@
+id = 'fastahack'
+name = 'fastahack'
+
+homepage = 'https://github.com/ekg/fastahack'
+
+[[package]]
+channel = 'debian'
+name = 'fastahack'

@@ -1,0 +1,8 @@
+id = 'wikicurses'
+name = 'wikicurses'
+
+homepage = 'https://github.com/ids1024/wikicurses'
+
+[[package]]
+channel = 'arch'
+name = 'wikicurses'

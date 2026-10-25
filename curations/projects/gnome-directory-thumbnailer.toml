@@ -1,0 +1,8 @@
+id = 'gnome-directory-thumbnailer'
+name = 'gnome-directory-thumbnailer'
+
+homepage = 'https://wiki.gnome.org/Projects/GnomeDirectoryThumbnailer'
+
+[[package]]
+channel = 'fedora'
+name = 'gnome-directory-thumbnailer'

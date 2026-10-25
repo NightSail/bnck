@@ -1,0 +1,8 @@
+id = 'waybackpy'
+name = 'waybackpy'
+
+homepage = 'https://pypi.org/project/waybackpy'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/waybackpy'

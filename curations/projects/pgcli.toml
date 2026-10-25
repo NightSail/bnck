@@ -4,8 +4,20 @@ name = 'pgcli'
 repository = 'https://github.com/dbcli/pgcli'
 
 [[package]]
+channel = 'arch'
+name = 'pgcli'
+
+[[package]]
 channel = 'debian'
 name = 'pgcli'
+
+[[package]]
+channel = 'fedora'
+name = 'pgcli'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/pgcli'
 
 [[package]]
 channel = 'pypi'

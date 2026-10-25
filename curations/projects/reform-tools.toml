@@ -1,0 +1,8 @@
+id = 'reform-tools'
+name = 'reform-tools'
+
+homepage = 'https://source.mnt.re/reform/reform-tools'
+
+[[package]]
+channel = 'debian'
+name = 'reform-tools'

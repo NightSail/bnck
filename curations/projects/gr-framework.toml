@@ -1,0 +1,12 @@
+id = 'gr-framework'
+name = 'gr-framework'
+
+homepage = 'https://gr-framework.org'
+
+[[package]]
+channel = 'debian'
+name = 'gr-framework-bin'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libgr'

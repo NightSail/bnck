@@ -1,0 +1,8 @@
+id = 'fuego-firestore'
+name = 'fuego-firestore'
+
+repository = 'https://github.com/sgarciac/fuego.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fuego-firestore'

@@ -1,0 +1,8 @@
+id = 'progressline'
+name = 'progressline'
+
+repository = 'https://github.com/kattouf/ProgressLine.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/progressline'

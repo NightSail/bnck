@@ -1,0 +1,8 @@
+id = 'unibetacode'
+name = 'unibetacode'
+
+homepage = 'https://unifoundry.com/unibetacode'
+
+[[package]]
+channel = 'debian'
+name = 'unibetacode'

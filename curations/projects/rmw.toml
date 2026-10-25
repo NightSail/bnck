@@ -1,0 +1,9 @@
+id = 'rmw'
+name = 'rmw'
+
+homepage = 'https://theimpossibleastronaut.github.io/rmw-website'
+repository = 'https://github.com/theimpossibleastronaut/rmw.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/rmw'

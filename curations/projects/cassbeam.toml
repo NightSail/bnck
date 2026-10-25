@@ -1,0 +1,8 @@
+id = 'cassbeam'
+name = 'cassbeam'
+
+homepage = 'https://github.com/ratt-ru/cassbeam'
+
+[[package]]
+channel = 'debian'
+name = 'cassbeam'

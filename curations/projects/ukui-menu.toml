@@ -1,0 +1,6 @@
+id = 'ukui-menu'
+name = 'ukui-menu'
+
+[[package]]
+channel = 'debian'
+name = 'ukui-menu'

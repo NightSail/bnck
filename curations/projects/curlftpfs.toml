@@ -1,0 +1,16 @@
+id = 'curlftpfs'
+name = 'curlftpfs'
+
+homepage = 'http://curlftpfs.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'curlftpfs'
+
+[[package]]
+channel = 'debian'
+name = 'curlftpfs'
+
+[[package]]
+channel = 'fedora'
+name = 'curlftpfs'

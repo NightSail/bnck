@@ -1,0 +1,8 @@
+id = 'elasticsearch-curator'
+name = 'elasticsearch-curator'
+
+homepage = 'https://github.com/elasticsearch/curator'
+
+[[package]]
+channel = 'debian'
+name = 'elasticsearch-curator'

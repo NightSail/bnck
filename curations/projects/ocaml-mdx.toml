@@ -1,0 +1,8 @@
+id = 'ocaml-mdx'
+name = 'ocaml-mdx'
+
+homepage = 'https://realworldocaml.github.io/mdx'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-mdx'

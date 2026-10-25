@@ -1,0 +1,12 @@
+id = 'cpanplus'
+name = 'CPANPLUS'
+
+homepage = 'https://metacpan.org/release/CPANPLUS'
+
+[[package]]
+channel = 'debian'
+name = 'libcpanplus-perl'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-CPANPLUS'

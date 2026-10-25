@@ -1,0 +1,8 @@
+id = 'codelite'
+name = 'codelite'
+
+homepage = 'https://codelite.org'
+
+[[package]]
+channel = 'debian'
+name = 'codelite'

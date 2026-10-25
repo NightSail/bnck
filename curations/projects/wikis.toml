@@ -1,0 +1,16 @@
+id = 'wikis'
+name = 'wikis'
+
+homepage = 'https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home'
+
+[[package]]
+channel = 'arch'
+name = 'libxml2'
+
+[[package]]
+channel = 'fedora'
+name = 'libxml2'
+
+[[package]]
+channel = 'fedora'
+name = 'libxml2-devel'

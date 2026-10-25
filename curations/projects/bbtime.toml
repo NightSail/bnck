@@ -1,0 +1,8 @@
+id = 'bbtime'
+name = 'bbtime'
+
+homepage = 'http://bbtools.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'bbtime'

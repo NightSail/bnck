@@ -1,0 +1,8 @@
+id = 'tcalc'
+name = 'tcalc'
+
+homepage = 'http://sites.google.com/site/mohammedisam2000/home/projects'
+
+[[package]]
+channel = 'fedora'
+name = 'tcalc'

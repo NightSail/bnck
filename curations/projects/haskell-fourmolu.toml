@@ -1,0 +1,8 @@
+id = 'haskell-fourmolu'
+name = 'haskell-fourmolu'
+
+homepage = 'https://github.com/parsonsmatt/fourmolu'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-fourmolu'

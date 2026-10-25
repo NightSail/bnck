@@ -1,0 +1,8 @@
+id = 'potool'
+name = 'potool'
+
+homepage = 'https://marcin.owsiany.pl/potool-page'
+
+[[package]]
+channel = 'debian'
+name = 'potool'

@@ -1,0 +1,16 @@
+id = 'lazarus'
+name = 'lazarus'
+
+homepage = 'http://www.lazarus.freepascal.org'
+
+[[package]]
+channel = 'arch'
+name = 'lazarus'
+
+[[package]]
+channel = 'arch'
+name = 'lazarus-qt5'
+
+[[package]]
+channel = 'arch'
+name = 'lazarus-qt6'

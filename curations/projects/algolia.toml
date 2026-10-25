@@ -1,0 +1,9 @@
+id = 'algolia'
+name = 'algolia'
+
+homepage = 'https://www.algolia.com/doc/tools/cli/get-started'
+repository = 'https://github.com/algolia/cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/algolia'

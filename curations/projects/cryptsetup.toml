@@ -1,0 +1,36 @@
+id = 'cryptsetup'
+name = 'cryptsetup'
+
+homepage = 'https://gitlab.com/cryptsetup/cryptsetup'
+
+[[package]]
+channel = 'arch'
+name = 'cryptsetup'
+
+[[package]]
+channel = 'debian'
+name = 'cryptsetup'
+
+[[package]]
+channel = 'debian'
+name = 'cryptsetup-bin'
+
+[[package]]
+channel = 'debian'
+name = 'cryptsetup-ssh'
+
+[[package]]
+channel = 'fedora'
+name = 'cryptsetup'
+
+[[package]]
+channel = 'fedora'
+name = 'cryptsetup-ssh-token'
+
+[[package]]
+channel = 'fedora'
+name = 'integritysetup'
+
+[[package]]
+channel = 'fedora'
+name = 'veritysetup'

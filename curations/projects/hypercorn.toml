@@ -1,0 +1,16 @@
+id = 'hypercorn'
+name = 'hypercorn'
+
+homepage = 'https://github.com/pgjones/hypercorn'
+
+[[package]]
+channel = 'arch'
+name = 'hypercorn'
+
+[[package]]
+channel = 'debian'
+name = 'python3-hypercorn'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-hypercorn'

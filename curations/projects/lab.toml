@@ -1,0 +1,9 @@
+id = 'lab'
+name = 'lab'
+
+homepage = 'https://zaquestion.github.io/lab'
+repository = 'https://github.com/zaquestion/lab.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/lab'

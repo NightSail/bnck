@@ -1,0 +1,21 @@
+id = 'xdotool'
+name = 'xdotool'
+
+homepage = 'https://www.semicomplete.com/projects/xdotool'
+repository = 'https://github.com/jordansissel/xdotool.git'
+
+[[package]]
+channel = 'arch'
+name = 'xdotool'
+
+[[package]]
+channel = 'debian'
+name = 'xdotool'
+
+[[package]]
+channel = 'fedora'
+name = 'xdotool'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xdotool'

@@ -1,0 +1,8 @@
+id = 'fortune'
+name = 'fortune'
+
+homepage = 'https://www.ibiblio.org/pub/linux/games/amusements/fortune/!INDEX.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/fortune'

@@ -1,0 +1,8 @@
+id = 'cspice'
+name = 'cspice'
+
+homepage = 'https://naif.jpl.nasa.gov/naif/toolkit.html'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cspice'

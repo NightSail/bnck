@@ -1,0 +1,8 @@
+id = 'coreos-installer'
+name = 'coreos-installer'
+
+homepage = 'https://crates.io/crates/coreos-installer'
+
+[[package]]
+channel = 'fedora'
+name = 'coreos-installer'

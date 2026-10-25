@@ -1,0 +1,12 @@
+id = 'osbs-client'
+name = 'osbs-client'
+
+homepage = 'https://github.com/projectatomic/osbs-client'
+
+[[package]]
+channel = 'fedora'
+name = 'osbs-client'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-osbs-client'

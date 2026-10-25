@@ -1,0 +1,8 @@
+id = 'kdoctor'
+name = 'kdoctor'
+
+repository = 'https://github.com/Kotlin/kdoctor.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kdoctor'

@@ -1,0 +1,12 @@
+id = 'slowloris'
+name = 'slowloris'
+
+homepage = 'https://github.com/gkbrk/slowloris'
+
+[[package]]
+channel = 'debian'
+name = 'slowloris'
+
+[[package]]
+channel = 'fedora'
+name = 'slowloris'

@@ -1,0 +1,8 @@
+id = 'wwwoffle'
+name = 'wwwoffle'
+
+homepage = 'https://www.gedanken.org.uk/software/wwwoffle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/wwwoffle'

@@ -1,0 +1,28 @@
+id = 'android'
+name = 'android'
+
+homepage = 'https://android.googlesource.com/platform/build'
+
+[[package]]
+channel = 'debian'
+name = 'android-logtags-tools'
+
+[[package]]
+channel = 'debian'
+name = 'makeparallel'
+
+[[package]]
+channel = 'debian'
+name = 'signapk'
+
+[[package]]
+channel = 'debian'
+name = 'signtos'
+
+[[package]]
+channel = 'debian'
+name = 'zipalign'
+
+[[package]]
+channel = 'debian'
+name = 'ziptime'

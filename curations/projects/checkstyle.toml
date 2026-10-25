@@ -1,0 +1,12 @@
+id = 'checkstyle'
+name = 'checkstyle'
+
+homepage = 'https://checkstyle.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'checkstyle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/checkstyle'

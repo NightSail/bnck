@@ -1,0 +1,8 @@
+id = 'archivetools'
+name = 'archivetools'
+
+homepage = 'https://gitlab.archlinux.org/archlinux/archivetools'
+
+[[package]]
+channel = 'arch'
+name = 'archivetools'

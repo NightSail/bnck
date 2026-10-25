@@ -1,0 +1,8 @@
+id = 'i18nspector'
+name = 'i18nspector'
+
+homepage = 'https://jwilk.net/software/i18nspector'
+
+[[package]]
+channel = 'debian'
+name = 'i18nspector'

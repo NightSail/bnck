@@ -1,0 +1,16 @@
+id = 'mutagen'
+name = 'mutagen'
+
+homepage = 'https://github.com/quodlibet/mutagen'
+
+[[package]]
+channel = 'arch'
+name = 'python-mutagen'
+
+[[package]]
+channel = 'debian'
+name = 'python3-mutagen'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-mutagen'

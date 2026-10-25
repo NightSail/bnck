@@ -1,0 +1,8 @@
+id = 'espup'
+name = 'espup'
+
+homepage = 'https://github.com/esp-rs/espup'
+
+[[package]]
+channel = 'arch'
+name = 'espup'

@@ -1,0 +1,8 @@
+id = 'samblaster'
+name = 'samblaster'
+
+homepage = 'https://github.com/GregoryFaust/samblaster'
+
+[[package]]
+channel = 'debian'
+name = 'samblaster'

@@ -1,0 +1,12 @@
+id = 'lirc-p'
+name = 'lirc'
+
+homepage = 'https://sf.net/p/lirc'
+
+[[package]]
+channel = 'debian'
+name = 'lirc'
+
+[[package]]
+channel = 'debian'
+name = 'lirc-x'

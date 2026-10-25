@@ -1,0 +1,8 @@
+id = 'utrac'
+name = 'utrac'
+
+homepage = 'http://utrac.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'utrac'

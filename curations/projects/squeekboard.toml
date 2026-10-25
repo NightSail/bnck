@@ -1,0 +1,16 @@
+id = 'squeekboard'
+name = 'squeekboard'
+
+homepage = 'https://gitlab.gnome.org/World/Phosh/squeekboard'
+
+[[package]]
+channel = 'arch'
+name = 'squeekboard'
+
+[[package]]
+channel = 'debian'
+name = 'squeekboard'
+
+[[package]]
+channel = 'debian'
+name = 'squeekboard-devel'

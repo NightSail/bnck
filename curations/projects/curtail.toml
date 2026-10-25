@@ -1,0 +1,8 @@
+id = 'curtail'
+name = 'curtail'
+
+homepage = 'https://apps.gnome.org/Curtail'
+
+[[package]]
+channel = 'arch'
+name = 'curtail'

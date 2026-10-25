@@ -1,0 +1,12 @@
+id = 'svgo'
+name = 'svgo'
+
+homepage = 'https://svgo.dev'
+
+[[package]]
+channel = 'debian'
+name = 'node-svgo'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/svgo'

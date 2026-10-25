@@ -1,0 +1,12 @@
+id = 'kinit'
+name = 'kinit'
+
+homepage = 'https://invent.kde.org/frameworks/kinit'
+
+[[package]]
+channel = 'debian'
+name = 'kinit'
+
+[[package]]
+channel = 'fedora'
+name = 'kf5-kinit'

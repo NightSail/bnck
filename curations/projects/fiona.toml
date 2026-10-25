@@ -1,0 +1,12 @@
+id = 'fiona'
+name = 'fiona'
+
+homepage = 'https://github.com/Toblerity/Fiona'
+
+[[package]]
+channel = 'arch'
+name = 'python-fiona'
+
+[[package]]
+channel = 'debian'
+name = 'fiona'

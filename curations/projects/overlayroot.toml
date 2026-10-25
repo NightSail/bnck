@@ -1,0 +1,8 @@
+id = 'overlayroot'
+name = 'overlayroot'
+
+homepage = 'https://launchpad.net/cloud-initramfs-tools'
+
+[[package]]
+channel = 'debian'
+name = 'overlayroot'

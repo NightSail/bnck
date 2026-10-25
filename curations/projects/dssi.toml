@@ -1,0 +1,28 @@
+id = 'dssi'
+name = 'dssi'
+
+homepage = 'https://dssi.sourceforge.net'
+
+[[package]]
+channel = 'arch'
+name = 'dssi'
+
+[[package]]
+channel = 'debian'
+name = 'dssi-example-plugins'
+
+[[package]]
+channel = 'debian'
+name = 'dssi-host-jack'
+
+[[package]]
+channel = 'debian'
+name = 'dssi-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'dssi'
+
+[[package]]
+channel = 'fedora'
+name = 'dssi-examples'

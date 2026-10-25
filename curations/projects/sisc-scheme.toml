@@ -1,0 +1,12 @@
+id = 'sisc-scheme'
+name = 'sisc-scheme'
+
+homepage = 'https://sisc-scheme.org'
+
+[[package]]
+channel = 'debian'
+name = 'sisc'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/sisc-scheme'

@@ -1,0 +1,8 @@
+id = 'deepin-deb-installer'
+name = 'deepin-deb-installer'
+
+homepage = 'https://github.com/linuxdeepin/deepin-deb-installer'
+
+[[package]]
+channel = 'debian'
+name = 'deepin-deb-installer'

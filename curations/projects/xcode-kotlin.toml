@@ -1,0 +1,9 @@
+id = 'xcode-kotlin'
+name = 'xcode-kotlin'
+
+homepage = 'https://touchlab.co/xcodekotlin'
+repository = 'https://github.com/touchlab/xcode-kotlin.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xcode-kotlin'

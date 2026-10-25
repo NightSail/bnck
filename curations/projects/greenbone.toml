@@ -1,0 +1,32 @@
+id = 'greenbone'
+name = 'greenbone'
+
+homepage = 'https://www.greenbone.net'
+
+[[package]]
+channel = 'debian'
+name = 'gsad'
+
+[[package]]
+channel = 'debian'
+name = 'gvm'
+
+[[package]]
+channel = 'debian'
+name = 'gvm-tools'
+
+[[package]]
+channel = 'debian'
+name = 'gvmd'
+
+[[package]]
+channel = 'debian'
+name = 'gvmd-common'
+
+[[package]]
+channel = 'debian'
+name = 'openvas-scanner'
+
+[[package]]
+channel = 'debian'
+name = 'ospd-openvas'

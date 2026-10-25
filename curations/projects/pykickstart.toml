@@ -1,0 +1,8 @@
+id = 'pykickstart'
+name = 'pykickstart'
+
+homepage = 'http://fedoraproject.org/wiki/pykickstart'
+
+[[package]]
+channel = 'fedora'
+name = 'pykickstart'

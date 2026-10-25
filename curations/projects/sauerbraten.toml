@@ -1,0 +1,8 @@
+id = 'sauerbraten'
+name = 'sauerbraten'
+
+homepage = 'http://www.sauerbraten.org'
+
+[[package]]
+channel = 'arch'
+name = 'sauerbraten'

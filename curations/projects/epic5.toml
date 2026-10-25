@@ -1,0 +1,9 @@
+id = 'epic5'
+name = 'epic5'
+
+homepage = 'https://www.epicsol.org'
+repository = 'https://git.epicsol.org/epic5.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/epic5'

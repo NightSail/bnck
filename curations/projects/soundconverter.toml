@@ -1,0 +1,16 @@
+id = 'soundconverter'
+name = 'soundconverter'
+
+homepage = 'https://soundconverter.org'
+
+[[package]]
+channel = 'arch'
+name = 'soundconverter'
+
+[[package]]
+channel = 'debian'
+name = 'soundconverter'
+
+[[package]]
+channel = 'fedora'
+name = 'soundconverter'

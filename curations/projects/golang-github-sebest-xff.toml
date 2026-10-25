@@ -1,0 +1,8 @@
+id = 'golang-github-sebest-xff'
+name = 'golang-github-sebest-xff'
+
+homepage = 'https://github.com/sebest/xff'
+
+[[package]]
+channel = 'debian'
+name = 'golang-github-sebest-xff'

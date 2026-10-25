@@ -1,0 +1,8 @@
+id = 'harbor-cli'
+name = 'harbor-cli'
+
+repository = 'https://github.com/goharbor/harbor-cli.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/harbor-cli'

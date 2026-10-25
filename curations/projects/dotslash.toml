@@ -1,0 +1,12 @@
+id = 'dotslash'
+name = 'dotslash'
+
+homepage = 'https://dotslash-cli.com'
+
+[[package]]
+channel = 'arch'
+name = 'dotslash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dotslash'

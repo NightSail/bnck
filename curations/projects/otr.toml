@@ -1,0 +1,20 @@
+id = 'otr'
+name = 'otr'
+
+homepage = 'https://otr.cypherpunks.ca'
+
+[[package]]
+channel = 'arch'
+name = 'libotr'
+
+[[package]]
+channel = 'debian'
+name = 'libotr5-bin'
+
+[[package]]
+channel = 'fedora'
+name = 'libotr'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libotr'

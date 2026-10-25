@@ -1,0 +1,8 @@
+id = 'incant'
+name = 'incant'
+
+homepage = 'https://github.com/lnussbaum/incant'
+
+[[package]]
+channel = 'debian'
+name = 'incant'

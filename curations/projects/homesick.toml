@@ -1,0 +1,8 @@
+id = 'homesick'
+name = 'homesick'
+
+homepage = 'https://github.com/technicalpickles/homesick'
+
+[[package]]
+channel = 'debian'
+name = 'homesick'

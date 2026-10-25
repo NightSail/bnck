@@ -1,0 +1,12 @@
+id = 'openchrome'
+name = 'Openchrome'
+
+homepage = 'http://www.freedesktop.org/wiki/Openchrome'
+
+[[package]]
+channel = 'debian'
+name = 'openchrome-tool'
+
+[[package]]
+channel = 'fedora'
+name = 'xorg-x11-drv-openchrome'

@@ -1,0 +1,8 @@
+id = 'molten-vk'
+name = 'molten-vk'
+
+repository = 'https://github.com/KhronosGroup/MoltenVK.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/molten-vk'

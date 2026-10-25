@@ -1,0 +1,16 @@
+id = 'phodav'
+name = 'phodav'
+
+homepage = 'https://wiki.gnome.org/phodav'
+
+[[package]]
+channel = 'arch'
+name = 'phodav'
+
+[[package]]
+channel = 'fedora'
+name = 'chezdav'
+
+[[package]]
+channel = 'fedora'
+name = 'spice-webdavd'

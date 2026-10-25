@@ -1,0 +1,8 @@
+id = 'qmplay2'
+name = 'qmplay2'
+
+homepage = 'https://github.com/zaps166/QMPlay2'
+
+[[package]]
+channel = 'fedora'
+name = 'qmplay2'

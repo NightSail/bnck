@@ -1,0 +1,12 @@
+id = 'stomppy'
+name = 'stomppy'
+
+homepage = 'https://github.com/jasonrbriggs/stomp.py'
+
+[[package]]
+channel = 'debian'
+name = 'python3-stomp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-stomppy'

@@ -1,0 +1,16 @@
+id = 'kasts'
+name = 'kasts'
+
+homepage = 'https://apps.kde.org/kasts'
+
+[[package]]
+channel = 'arch'
+name = 'kasts'
+
+[[package]]
+channel = 'debian'
+name = 'kasts'
+
+[[package]]
+channel = 'fedora'
+name = 'kasts'

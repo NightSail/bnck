@@ -1,0 +1,8 @@
+id = 'python3-docxcompose'
+name = 'python3-docxcompose'
+
+homepage = 'https://github.com/4teamwork/docxcompose'
+
+[[package]]
+channel = 'debian'
+name = 'python3-docxcompose'

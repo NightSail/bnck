@@ -1,0 +1,16 @@
+id = 'pragha'
+name = 'pragha'
+
+homepage = 'https://pragha-music-player.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'pragha'
+
+[[package]]
+channel = 'debian'
+name = 'pragha'
+
+[[package]]
+channel = 'fedora'
+name = 'pragha'

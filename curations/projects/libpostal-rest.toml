@@ -1,0 +1,8 @@
+id = 'libpostal-rest'
+name = 'libpostal-rest'
+
+repository = 'https://github.com/johnlonganecker/libpostal-rest.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/libpostal-rest'

@@ -1,0 +1,8 @@
+id = 'sphinx-multiversion'
+name = 'sphinx-multiversion'
+
+homepage = 'https://github.com/Holzhaus/sphinx-multiversion'
+
+[[package]]
+channel = 'debian'
+name = 'sphinx-multiversion'

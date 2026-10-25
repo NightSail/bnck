@@ -1,0 +1,8 @@
+id = 'bsc'
+name = 'bsc'
+
+repository = 'https://github.com/B-Lang-org/bsc.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bsc'

@@ -1,0 +1,8 @@
+id = 'oxvg'
+name = 'oxvg'
+
+homepage = 'https://github.com/noahbald/oxvg'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oxvg'

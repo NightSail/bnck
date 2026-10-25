@@ -1,0 +1,12 @@
+id = 'aeson-diff'
+name = 'aeson-diff'
+
+homepage = 'https://github.com/ysangkok/aeson-diff'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-aeson-diff'
+
+[[package]]
+channel = 'debian'
+name = 'haskell-aeson-diff-utils'

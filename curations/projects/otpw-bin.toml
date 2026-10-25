@@ -1,0 +1,8 @@
+id = 'otpw-bin'
+name = 'otpw-bin'
+
+homepage = 'https://www.cl.cam.ac.uk/~mgk25/otpw.html'
+
+[[package]]
+channel = 'debian'
+name = 'otpw-bin'

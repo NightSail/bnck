@@ -1,0 +1,8 @@
+id = 'gp-saml-gui'
+name = 'gp-saml-gui'
+
+homepage = 'https://github.com/dlenski/gp-saml-gui'
+
+[[package]]
+channel = 'debian'
+name = 'gp-saml-gui'

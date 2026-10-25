@@ -1,0 +1,13 @@
+id = 'geographiclib'
+name = 'geographiclib'
+
+homepage = 'https://geographiclib.sourceforge.io'
+repository = 'https://github.com/geographiclib/geographiclib.git'
+
+[[package]]
+channel = 'fedora'
+name = 'GeographicLib'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/geographiclib'

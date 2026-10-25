@@ -1,0 +1,16 @@
+id = 'netatalk-netatalk'
+name = 'netatalk'
+
+homepage = 'http://netatalk.sourceforge.net'
+
+[[package]]
+channel = 'fedora'
+name = 'netatalk'
+
+[[package]]
+channel = 'fedora'
+name = 'netatalk-afptest'
+
+[[package]]
+channel = 'fedora'
+name = 'netatalk-appletalk'

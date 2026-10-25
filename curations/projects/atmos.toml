@@ -1,0 +1,9 @@
+id = 'atmos'
+name = 'atmos'
+
+homepage = 'https://atmos.tools'
+repository = 'https://github.com/cloudposse/atmos.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/atmos'

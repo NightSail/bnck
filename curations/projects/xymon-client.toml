@@ -1,0 +1,8 @@
+id = 'xymon-client'
+name = 'xymon-client'
+
+homepage = 'https://xymon.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'xymon-client'

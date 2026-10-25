@@ -1,0 +1,12 @@
+id = 'xprop'
+name = 'xprop'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xprop'
+
+[[package]]
+channel = 'arch'
+name = 'xorg-xprop'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/xprop'

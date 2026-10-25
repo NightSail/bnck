@@ -1,0 +1,8 @@
+id = 'notejot'
+name = 'notejot'
+
+homepage = 'https://github.com/lainsce/notejot'
+
+[[package]]
+channel = 'fedora'
+name = 'notejot'

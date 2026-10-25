@@ -1,0 +1,8 @@
+id = 'candle'
+name = 'candle'
+
+homepage = 'https://github.com/Denvi/Candle'
+
+[[package]]
+channel = 'debian'
+name = 'candle'

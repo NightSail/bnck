@@ -1,0 +1,8 @@
+id = 'cardmanager'
+name = 'CardManager'
+
+homepage = 'http://cardmanager.wz.cz'
+
+[[package]]
+channel = 'fedora'
+name = 'CardManager'

@@ -1,0 +1,12 @@
+id = 'xbacklight'
+name = 'xbacklight'
+
+homepage = 'https://gitlab.freedesktop.org/xorg/app/xbacklight'
+
+[[package]]
+channel = 'debian'
+name = 'xbacklight'
+
+[[package]]
+channel = 'fedora'
+name = 'xbacklight'

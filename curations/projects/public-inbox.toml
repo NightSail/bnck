@@ -1,0 +1,24 @@
+id = 'public-inbox'
+name = 'public-inbox'
+
+homepage = 'https://public-inbox.org'
+
+[[package]]
+channel = 'debian'
+name = 'lei'
+
+[[package]]
+channel = 'debian'
+name = 'public-inbox'
+
+[[package]]
+channel = 'fedora'
+name = 'lei'
+
+[[package]]
+channel = 'fedora'
+name = 'public-inbox'
+
+[[package]]
+channel = 'fedora'
+name = 'public-inbox-server'

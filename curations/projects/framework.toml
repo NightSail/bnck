@@ -1,0 +1,16 @@
+id = 'framework'
+name = 'framework'
+
+homepage = 'https://github.com/maliit/framework'
+
+[[package]]
+channel = 'debian'
+name = 'maliit-framework'
+
+[[package]]
+channel = 'debian'
+name = 'maliit-server-qt5'
+
+[[package]]
+channel = 'debian'
+name = 'maliit-server-qt6'

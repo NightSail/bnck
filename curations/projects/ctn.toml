@@ -1,0 +1,8 @@
+id = 'ctn'
+name = 'ctn'
+
+homepage = 'http://sourceforge.net/projects/mirctn'
+
+[[package]]
+channel = 'debian'
+name = 'ctn'

@@ -1,0 +1,76 @@
+id = 'libreoffice'
+name = 'libreoffice'
+
+homepage = 'https://www.libreoffice.org'
+
+[[package]]
+channel = 'arch'
+name = 'libreoffice-fresh'
+
+[[package]]
+channel = 'arch'
+name = 'libreoffice-still'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-base'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-calc'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-common'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-draw'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-impress'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-math'
+
+[[package]]
+channel = 'debian'
+name = 'libreoffice-writer'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-base'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-calc'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-core'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-draw'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-impress'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-math'
+
+[[package]]
+channel = 'fedora'
+name = 'libreoffice-writer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/libreoffice'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/cask/libreoffice-still'

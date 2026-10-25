@@ -1,0 +1,8 @@
+id = 'ipgrab'
+name = 'ipgrab'
+
+homepage = 'https://sourceforge.net/projects/ipgrab'
+
+[[package]]
+channel = 'debian'
+name = 'ipgrab'

@@ -1,0 +1,32 @@
+id = 'xmms2'
+name = 'xmms2'
+
+homepage = 'https://github.com/xmms2/wiki/wiki'
+
+[[package]]
+channel = 'arch'
+name = 'xmms2'
+
+[[package]]
+channel = 'debian'
+name = 'xmms2-client-avahi'
+
+[[package]]
+channel = 'debian'
+name = 'xmms2-client-cli'
+
+[[package]]
+channel = 'debian'
+name = 'xmms2-client-medialib-updater'
+
+[[package]]
+channel = 'debian'
+name = 'xmms2-client-nycli'
+
+[[package]]
+channel = 'debian'
+name = 'xmms2-core'
+
+[[package]]
+channel = 'fedora'
+name = 'xmms2'

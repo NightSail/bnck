@@ -1,0 +1,16 @@
+id = 'mle'
+name = 'mle'
+
+homepage = 'https://github.com/adsr/mle'
+
+[[package]]
+channel = 'debian'
+name = 'mle'
+
+[[package]]
+channel = 'fedora'
+name = 'mle'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mle'

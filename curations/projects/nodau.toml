@@ -1,0 +1,8 @@
+id = 'nodau'
+name = 'nodau'
+
+homepage = 'https://github.com/TicklishHoneyBee/nodau'
+
+[[package]]
+channel = 'debian'
+name = 'nodau'

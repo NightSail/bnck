@@ -1,0 +1,21 @@
+id = 'apptainer'
+name = 'apptainer'
+
+homepage = 'https://apptainer.org'
+repository = 'https://github.com/apptainer/apptainer.git'
+
+[[package]]
+channel = 'arch'
+name = 'apptainer'
+
+[[package]]
+channel = 'debian'
+name = 'apptainer'
+
+[[package]]
+channel = 'fedora'
+name = 'apptainer'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/apptainer'

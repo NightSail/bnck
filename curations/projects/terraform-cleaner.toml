@@ -1,0 +1,8 @@
+id = 'terraform-cleaner'
+name = 'terraform-cleaner'
+
+repository = 'https://github.com/sylwit/terraform-cleaner.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/terraform-cleaner'

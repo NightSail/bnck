@@ -1,0 +1,9 @@
+id = 'kiesel'
+name = 'kiesel'
+
+homepage = 'https://kiesel.dev'
+repository = 'https://codeberg.org/kiesel-js/kiesel.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/kiesel'

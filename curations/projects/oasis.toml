@@ -1,0 +1,13 @@
+id = 'oasis'
+name = 'oasis'
+
+homepage = 'http://oasis.forge.ocamlcore.org'
+repository = 'https://github.com/oasisprotocol/cli.git'
+
+[[package]]
+channel = 'debian'
+name = 'oasis'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oasis'

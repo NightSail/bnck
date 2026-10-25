@@ -1,0 +1,9 @@
+id = 'graphqxl'
+name = 'graphqxl'
+
+homepage = 'https://gabotechs.github.io/graphqxl'
+repository = 'https://github.com/gabotechs/graphqxl.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/graphqxl'

@@ -1,0 +1,8 @@
+id = 'guayadeque'
+name = 'guayadeque'
+
+homepage = 'https://github.com/thothix/guayadeque'
+
+[[package]]
+channel = 'fedora'
+name = 'guayadeque'

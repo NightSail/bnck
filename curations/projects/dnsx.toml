@@ -1,0 +1,12 @@
+id = 'dnsx'
+name = 'dnsx'
+
+repository = 'https://github.com/projectdiscovery/dnsx.git'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsx'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsx'

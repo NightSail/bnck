@@ -1,0 +1,16 @@
+id = 'pps-tools'
+name = 'pps-tools'
+
+homepage = 'http://linuxpps.org'
+
+[[package]]
+channel = 'arch'
+name = 'pps-tools'
+
+[[package]]
+channel = 'debian'
+name = 'pps-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'pps-tools'

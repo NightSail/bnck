@@ -1,0 +1,8 @@
+id = 'cssc'
+name = 'cssc'
+
+homepage = 'http://www.gnu.org/software/cssc'
+
+[[package]]
+channel = 'debian'
+name = 'cssc'

@@ -1,0 +1,12 @@
+id = 'vals'
+name = 'vals'
+
+repository = 'https://github.com/helmfile/vals.git'
+
+[[package]]
+channel = 'arch'
+name = 'vals'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/vals'

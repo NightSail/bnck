@@ -1,0 +1,24 @@
+id = 'gkrellm'
+name = 'gkrellm'
+
+homepage = 'https://billw2.github.io/gkrellm/gkrellm.html'
+
+[[package]]
+channel = 'debian'
+name = 'gkrellm'
+
+[[package]]
+channel = 'debian'
+name = 'gkrellmd'
+
+[[package]]
+channel = 'fedora'
+name = 'gkrellm'
+
+[[package]]
+channel = 'fedora'
+name = 'gkrellm-daemon'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gkrellm'

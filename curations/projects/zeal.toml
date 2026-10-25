@@ -1,0 +1,16 @@
+id = 'zeal'
+name = 'zeal'
+
+homepage = 'https://zealdocs.org'
+
+[[package]]
+channel = 'arch'
+name = 'zeal'
+
+[[package]]
+channel = 'debian'
+name = 'zeal'
+
+[[package]]
+channel = 'fedora'
+name = 'zeal'

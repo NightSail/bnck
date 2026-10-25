@@ -1,0 +1,8 @@
+id = 'lie'
+name = 'lie'
+
+homepage = 'http://young.sp2mi.univ-poitiers.fr/~marc/LiE'
+
+[[package]]
+channel = 'debian'
+name = 'lie'

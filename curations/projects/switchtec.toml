@@ -1,0 +1,8 @@
+id = 'switchtec'
+name = 'switchtec'
+
+homepage = 'https://github.com/Microsemi/switchtec-user'
+
+[[package]]
+channel = 'fedora'
+name = 'switchtec'

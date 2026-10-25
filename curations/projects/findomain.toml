@@ -1,0 +1,12 @@
+id = 'findomain'
+name = 'findomain'
+
+homepage = 'https://github.com/Findomain/Findomain'
+
+[[package]]
+channel = 'arch'
+name = 'findomain'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/findomain'

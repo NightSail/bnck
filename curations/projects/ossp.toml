@@ -1,0 +1,12 @@
+id = 'ossp'
+name = 'ossp'
+
+homepage = 'https://github.com/OpenMandrivaSoftware/ossp'
+
+[[package]]
+channel = 'arch'
+name = 'ossp'
+
+[[package]]
+channel = 'debian'
+name = 'osspd'

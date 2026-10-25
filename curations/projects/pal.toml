@@ -1,0 +1,12 @@
+id = 'pal'
+name = 'pal'
+
+homepage = 'https://palcal.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pal'
+
+[[package]]
+channel = 'fedora'
+name = 'pal'

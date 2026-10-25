@@ -1,0 +1,8 @@
+id = 'ansible-lint-ansible-lint'
+name = 'ansible-lint'
+
+homepage = 'https://ansible-lint.readthedocs.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/ansible-lint'

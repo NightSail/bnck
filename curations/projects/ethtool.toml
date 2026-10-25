@@ -1,0 +1,16 @@
+id = 'ethtool'
+name = 'ethtool'
+
+homepage = 'https://www.kernel.org/pub/software/network/ethtool'
+
+[[package]]
+channel = 'arch'
+name = 'ethtool'
+
+[[package]]
+channel = 'debian'
+name = 'ethtool'
+
+[[package]]
+channel = 'fedora'
+name = 'ethtool'

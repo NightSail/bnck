@@ -1,0 +1,8 @@
+id = 'python3-fypp'
+name = 'python3-fypp'
+
+homepage = 'https://github.com/aradi/fypp'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-fypp'

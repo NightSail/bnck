@@ -1,0 +1,12 @@
+id = 'foo2zjs-foo2zjs'
+name = 'foo2zjs'
+
+homepage = 'http://foo2zjs.rkkda.com'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-foo2zjs'
+
+[[package]]
+channel = 'debian'
+name = 'printer-driver-foo2zjs-common'

@@ -1,0 +1,8 @@
+id = 'rapiddisk'
+name = 'rapiddisk'
+
+homepage = 'https://github.com/pkoutoupis/rapiddisk'
+
+[[package]]
+channel = 'debian'
+name = 'rapiddisk'

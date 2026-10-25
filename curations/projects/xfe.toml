@@ -1,0 +1,12 @@
+id = 'xfe'
+name = 'xfe'
+
+homepage = 'http://roland65.free.fr/xfe'
+
+[[package]]
+channel = 'debian'
+name = 'xfe'
+
+[[package]]
+channel = 'fedora'
+name = 'xfe'

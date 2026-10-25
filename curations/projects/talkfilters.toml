@@ -1,0 +1,8 @@
+id = 'talkfilters'
+name = 'talkfilters'
+
+homepage = 'https://www.hyperrealm.com/talkfilters/talkfilters.html'
+
+[[package]]
+channel = 'arch'
+name = 'talkfilters'

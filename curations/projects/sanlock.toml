@@ -1,0 +1,12 @@
+id = 'sanlock'
+name = 'sanlock'
+
+homepage = 'https://www.pagure.io/sanlock'
+
+[[package]]
+channel = 'debian'
+name = 'sanlk-reset'
+
+[[package]]
+channel = 'fedora'
+name = 'sanlock'

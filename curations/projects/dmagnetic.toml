@@ -1,0 +1,8 @@
+id = 'dmagnetic'
+name = 'dmagnetic'
+
+homepage = 'https://www.dettus.net/dMagnetic'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dmagnetic'

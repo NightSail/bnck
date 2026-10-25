@@ -1,0 +1,36 @@
+id = 'glmark2'
+name = 'glmark2'
+
+homepage = 'https://github.com/glmark2/glmark2'
+
+[[package]]
+channel = 'arch'
+name = 'glmark2'
+
+[[package]]
+channel = 'debian'
+name = 'glmark2-drm'
+
+[[package]]
+channel = 'debian'
+name = 'glmark2-es2-drm'
+
+[[package]]
+channel = 'debian'
+name = 'glmark2-es2-wayland'
+
+[[package]]
+channel = 'debian'
+name = 'glmark2-es2-x11'
+
+[[package]]
+channel = 'debian'
+name = 'glmark2-wayland'
+
+[[package]]
+channel = 'debian'
+name = 'glmark2-x11'
+
+[[package]]
+channel = 'fedora'
+name = 'glmark2'

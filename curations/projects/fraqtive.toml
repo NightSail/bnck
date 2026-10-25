@@ -1,0 +1,8 @@
+id = 'fraqtive'
+name = 'fraqtive'
+
+homepage = 'https://fraqtive.mimec.org'
+
+[[package]]
+channel = 'debian'
+name = 'fraqtive'

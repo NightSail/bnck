@@ -1,0 +1,13 @@
+id = 'notmuch'
+name = 'notmuch'
+
+homepage = 'https://notmuchmail.org'
+repository = 'https://git.notmuchmail.org/git/notmuch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notmuch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/notmuch-mutt'

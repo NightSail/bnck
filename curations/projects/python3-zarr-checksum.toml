@@ -1,0 +1,8 @@
+id = 'python3-zarr-checksum'
+name = 'python3-zarr-checksum'
+
+homepage = 'https://github.com/dandi/zarr_checksum'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-zarr-checksum'

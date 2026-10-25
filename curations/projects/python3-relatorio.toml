@@ -1,0 +1,12 @@
+id = 'python3-relatorio'
+name = 'python3-relatorio'
+
+homepage = 'https://code.tryton.org/relatorio'
+
+[[package]]
+channel = 'debian'
+name = 'python3-relatorio'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-relatorio'

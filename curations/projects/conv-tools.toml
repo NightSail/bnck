@@ -1,0 +1,8 @@
+id = 'conv-tools'
+name = 'conv-tools'
+
+homepage = 'https://github.com/dag-erling/conv-tools'
+
+[[package]]
+channel = 'debian'
+name = 'conv-tools'

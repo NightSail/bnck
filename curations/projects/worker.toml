@@ -1,0 +1,12 @@
+id = 'worker'
+name = 'worker'
+
+homepage = 'http://www.boomerangsworld.de/worker'
+
+[[package]]
+channel = 'debian'
+name = 'worker'
+
+[[package]]
+channel = 'fedora'
+name = 'worker'

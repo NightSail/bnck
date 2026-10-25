@@ -1,0 +1,12 @@
+id = 'git-autofixup'
+name = 'git-autofixup'
+
+homepage = 'https://github.com/torbiak/git-autofixup'
+
+[[package]]
+channel = 'debian'
+name = 'git-autofixup'
+
+[[package]]
+channel = 'fedora'
+name = 'git-autofixup'

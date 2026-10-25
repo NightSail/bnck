@@ -1,0 +1,8 @@
+id = 'squealer'
+name = 'squealer'
+
+repository = 'https://github.com/owenrumney/squealer.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/squealer'

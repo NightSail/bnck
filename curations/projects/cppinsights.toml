@@ -1,0 +1,8 @@
+id = 'cppinsights'
+name = 'cppinsights'
+
+homepage = 'https://cppinsights.io'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cppinsights'

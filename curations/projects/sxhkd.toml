@@ -1,0 +1,16 @@
+id = 'sxhkd'
+name = 'sxhkd'
+
+homepage = 'https://github.com/baskerville/sxhkd'
+
+[[package]]
+channel = 'arch'
+name = 'sxhkd'
+
+[[package]]
+channel = 'debian'
+name = 'sxhkd'
+
+[[package]]
+channel = 'fedora'
+name = 'sxhkd'

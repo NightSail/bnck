@@ -1,0 +1,12 @@
+id = 'puremagic'
+name = 'puremagic'
+
+homepage = 'https://github.com/cdgriffith/puremagic'
+
+[[package]]
+channel = 'arch'
+name = 'python-puremagic'
+
+[[package]]
+channel = 'debian'
+name = 'python3-puremagic'

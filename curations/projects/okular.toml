@@ -1,0 +1,24 @@
+id = 'okular'
+name = 'okular'
+
+homepage = 'https://apps.kde.org/okular'
+
+[[package]]
+channel = 'arch'
+name = 'okular'
+
+[[package]]
+channel = 'debian'
+name = 'okular'
+
+[[package]]
+channel = 'debian'
+name = 'okular-mobile'
+
+[[package]]
+channel = 'fedora'
+name = 'okular'
+
+[[package]]
+channel = 'fedora'
+name = 'okular-mobile'

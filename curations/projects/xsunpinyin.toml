@@ -1,0 +1,8 @@
+id = 'xsunpinyin'
+name = 'xsunpinyin'
+
+homepage = 'https://github.com/sunpinyin/sunpinyin/tree/master/wrapper/xim'
+
+[[package]]
+channel = 'debian'
+name = 'xsunpinyin'

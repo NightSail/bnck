@@ -1,0 +1,8 @@
+id = 'libcorona-perl'
+name = 'libcorona-perl'
+
+homepage = 'https://metacpan.org/release/Corona'
+
+[[package]]
+channel = 'debian'
+name = 'libcorona-perl'

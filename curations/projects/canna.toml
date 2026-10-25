@@ -1,0 +1,10 @@
+id = 'canna'
+name = 'canna'
+
+[[package]]
+channel = 'debian'
+name = 'canna'
+
+[[package]]
+channel = 'debian'
+name = 'canna-utils'

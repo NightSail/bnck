@@ -1,0 +1,12 @@
+id = 'bupstash'
+name = 'bupstash'
+
+homepage = 'https://bupstash.io'
+
+[[package]]
+channel = 'arch'
+name = 'bupstash'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/bupstash'

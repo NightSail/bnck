@@ -1,0 +1,16 @@
+id = 'qtractor'
+name = 'qtractor'
+
+homepage = 'https://qtractor.sourceforge.io'
+
+[[package]]
+channel = 'arch'
+name = 'qtractor'
+
+[[package]]
+channel = 'debian'
+name = 'qtractor'
+
+[[package]]
+channel = 'fedora'
+name = 'qtractor'

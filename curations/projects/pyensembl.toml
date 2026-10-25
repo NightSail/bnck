@@ -1,0 +1,8 @@
+id = 'pyensembl'
+name = 'pyensembl'
+
+homepage = 'https://github.com/openvax/pyensembl'
+
+[[package]]
+channel = 'debian'
+name = 'pyensembl'

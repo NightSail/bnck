@@ -1,0 +1,8 @@
+id = 'syswatch'
+name = 'syswatch'
+
+homepage = 'https://www.netwatchlabs.com/labs/syswatch'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/syswatch'

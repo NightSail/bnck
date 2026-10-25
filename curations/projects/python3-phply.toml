@@ -1,0 +1,12 @@
+id = 'python3-phply'
+name = 'python3-phply'
+
+homepage = 'https://github.com/ramen/phply'
+
+[[package]]
+channel = 'debian'
+name = 'python3-phply'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-phply'

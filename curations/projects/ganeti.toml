@@ -1,0 +1,12 @@
+id = 'ganeti'
+name = 'ganeti'
+
+homepage = 'https://ganeti.org'
+
+[[package]]
+channel = 'debian'
+name = 'ganeti'
+
+[[package]]
+channel = 'debian'
+name = 'ganeti-htools'

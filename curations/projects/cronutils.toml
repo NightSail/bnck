@@ -1,0 +1,8 @@
+id = 'cronutils'
+name = 'cronutils'
+
+homepage = 'https://github.com/google/cronutils'
+
+[[package]]
+channel = 'debian'
+name = 'cronutils'

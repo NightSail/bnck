@@ -1,0 +1,8 @@
+id = 'aidl'
+name = 'aidl'
+
+homepage = 'https://android.googlesource.com/platform/system/tools/aidl'
+
+[[package]]
+channel = 'debian'
+name = 'aidl'

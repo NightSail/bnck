@@ -1,0 +1,16 @@
+id = 'gdisk'
+name = 'gdisk'
+
+homepage = 'https://www.rodsbooks.com/gdisk'
+
+[[package]]
+channel = 'arch'
+name = 'gptfdisk'
+
+[[package]]
+channel = 'fedora'
+name = 'gdisk'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gptfdisk'

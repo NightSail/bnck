@@ -1,0 +1,8 @@
+id = 'netmate'
+name = 'netmate'
+
+homepage = 'https://github.com/Rup0rt/netmate'
+
+[[package]]
+channel = 'debian'
+name = 'netmate'

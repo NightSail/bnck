@@ -1,0 +1,8 @@
+id = 'ttylog'
+name = 'ttylog'
+
+homepage = 'http://ttylog.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'ttylog'

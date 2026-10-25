@@ -1,0 +1,12 @@
+id = 'airinv'
+name = 'airinv'
+
+homepage = 'https://github.com/airsim/airinv'
+
+[[package]]
+channel = 'fedora'
+name = 'airinv'
+
+[[package]]
+channel = 'fedora'
+name = 'airinv-devel'

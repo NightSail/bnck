@@ -1,0 +1,9 @@
+id = 'neosync'
+name = 'neosync'
+
+homepage = 'https://www.neosync.dev'
+repository = 'https://github.com/nucleuscloud/neosync.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/neosync'

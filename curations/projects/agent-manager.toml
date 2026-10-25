@@ -1,0 +1,9 @@
+id = 'agent-manager'
+name = 'agent-manager'
+
+homepage = 'https://agent-manager.dev'
+repository = 'https://github.com/YoanWai/agent-manager.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/agent-manager'

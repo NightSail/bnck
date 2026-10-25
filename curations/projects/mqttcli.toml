@@ -1,0 +1,8 @@
+id = 'mqttcli'
+name = 'mqttcli'
+
+homepage = 'https://git.sr.ht/~spc/mqttcli'
+
+[[package]]
+channel = 'fedora'
+name = 'mqttcli'

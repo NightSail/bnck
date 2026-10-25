@@ -1,0 +1,8 @@
+id = 'ylva'
+name = 'ylva'
+
+homepage = 'https://github.com/nrosvall/ylva'
+
+[[package]]
+channel = 'debian'
+name = 'ylva'

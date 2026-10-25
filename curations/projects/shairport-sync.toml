@@ -1,0 +1,20 @@
+id = 'shairport-sync'
+name = 'shairport-sync'
+
+repository = 'https://github.com/mikebrady/shairport-sync.git'
+
+[[package]]
+channel = 'arch'
+name = 'shairport-sync'
+
+[[package]]
+channel = 'debian'
+name = 'shairport-sync'
+
+[[package]]
+channel = 'fedora'
+name = 'shairport-sync'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/shairport-sync'

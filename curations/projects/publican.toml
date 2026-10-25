@@ -1,0 +1,12 @@
+id = 'publican'
+name = 'publican'
+
+homepage = 'https://pagure.io/Publican/Publican'
+
+[[package]]
+channel = 'debian'
+name = 'publican'
+
+[[package]]
+channel = 'fedora'
+name = 'publican'

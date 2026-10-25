@@ -1,0 +1,12 @@
+id = 'gst123'
+name = 'gst123'
+
+homepage = 'https://space.twc.de/~stefan/gst123.php'
+
+[[package]]
+channel = 'debian'
+name = 'gst123'
+
+[[package]]
+channel = 'fedora'
+name = 'gst123'

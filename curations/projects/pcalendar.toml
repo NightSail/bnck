@@ -1,0 +1,8 @@
+id = 'pcalendar'
+name = 'pcalendar'
+
+homepage = 'https://linuxorg.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'pcalendar'

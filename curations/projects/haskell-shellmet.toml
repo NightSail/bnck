@@ -1,0 +1,8 @@
+id = 'haskell-shellmet'
+name = 'haskell-shellmet'
+
+homepage = 'https://github.com/kowainik/shellmet'
+
+[[package]]
+channel = 'arch'
+name = 'haskell-shellmet'

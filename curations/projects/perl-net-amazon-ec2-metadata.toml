@@ -1,0 +1,8 @@
+id = 'perl-net-amazon-ec2-metadata'
+name = 'perl-Net-Amazon-EC2-Metadata'
+
+homepage = 'https://metacpan.org/release/Net-Amazon-EC2-Metadata'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-Net-Amazon-EC2-Metadata'

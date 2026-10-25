@@ -1,0 +1,8 @@
+id = 'pyftfeatfreeze'
+name = 'pyftfeatfreeze'
+
+homepage = 'https://github.com/twardoch/fonttools-opentype-feature-freezer'
+
+[[package]]
+channel = 'debian'
+name = 'pyftfeatfreeze'

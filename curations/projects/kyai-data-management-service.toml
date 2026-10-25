@@ -1,0 +1,8 @@
+id = 'kyai-data-management-service'
+name = 'kyai-data-management-service'
+
+homepage = 'https://gitee.com/openkylin/kylin-ai-data-management-service'
+
+[[package]]
+channel = 'debian'
+name = 'kyai-data-management-service'
