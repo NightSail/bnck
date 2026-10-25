@@ -1,0 +1,17 @@
+id = 'cd-discid'
+name = 'cd-discid'
+
+homepage = 'http://linukz.org/cd-discid.shtml'
+repository = 'https://github.com/taem/cd-discid.git'
+
+[[package]]
+channel = 'debian'
+name = 'cd-discid'
+
+[[package]]
+channel = 'fedora'
+name = 'cd-discid'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/cd-discid'

@@ -1,0 +1,8 @@
+id = 'naml'
+name = 'naml'
+
+repository = 'https://github.com/krisnova/naml.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/naml'

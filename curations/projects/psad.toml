@@ -1,0 +1,12 @@
+id = 'psad'
+name = 'psad'
+
+homepage = 'https://www.cipherdyne.org/psad'
+
+[[package]]
+channel = 'debian'
+name = 'psad'
+
+[[package]]
+channel = 'fedora'
+name = 'psad'

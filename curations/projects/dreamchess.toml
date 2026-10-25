@@ -1,0 +1,12 @@
+id = 'dreamchess'
+name = 'dreamchess'
+
+homepage = 'https://www.dreamchess.org'
+
+[[package]]
+channel = 'fedora'
+name = 'dreamchess'
+
+[[package]]
+channel = 'fedora'
+name = 'dreamchess-engine'

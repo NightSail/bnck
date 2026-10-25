@@ -1,0 +1,24 @@
+id = 'numpy'
+name = 'numpy'
+
+homepage = 'https://www.numpy.org'
+
+[[package]]
+channel = 'arch'
+name = 'python-numpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-numpy'
+
+[[package]]
+channel = 'debian'
+name = 'python3-numpy-dev'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-numpy'
+
+[[package]]
+channel = 'fedora'
+name = 'python3-numpy-f2py'

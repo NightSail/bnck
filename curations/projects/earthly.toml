@@ -1,0 +1,9 @@
+id = 'earthly'
+name = 'earthly'
+
+homepage = 'https://earthly.dev'
+repository = 'https://github.com/earthly/earthly.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/earthly'

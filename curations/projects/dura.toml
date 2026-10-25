@@ -1,0 +1,8 @@
+id = 'dura'
+name = 'dura'
+
+homepage = 'https://github.com/tkellogg/dura'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dura'

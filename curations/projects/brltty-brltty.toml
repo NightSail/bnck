@@ -1,0 +1,12 @@
+id = 'brltty-brltty'
+name = 'brltty'
+
+homepage = 'https://brltty.com'
+
+[[package]]
+channel = 'debian'
+name = 'brltty'
+
+[[package]]
+channel = 'debian'
+name = 'xbrlapi'

@@ -1,0 +1,8 @@
+id = 'devtodo'
+name = 'devtodo'
+
+homepage = 'https://swapoff.org/devtodo1'
+
+[[package]]
+channel = 'debian'
+name = 'devtodo'

@@ -1,0 +1,12 @@
+id = 'yubihsm-connector'
+name = 'yubihsm-connector'
+
+homepage = 'https://developers.yubico.com/yubihsm-connector'
+
+[[package]]
+channel = 'debian'
+name = 'yubihsm-connector'
+
+[[package]]
+channel = 'fedora'
+name = 'yubihsm-connector'

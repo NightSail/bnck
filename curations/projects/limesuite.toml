@@ -1,0 +1,16 @@
+id = 'limesuite'
+name = 'limesuite'
+
+homepage = 'https://myriadrf.org/projects/software/lime-suite'
+
+[[package]]
+channel = 'arch'
+name = 'limesuite'
+
+[[package]]
+channel = 'debian'
+name = 'limesuite'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/limesuite'

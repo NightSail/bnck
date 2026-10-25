@@ -1,0 +1,8 @@
+id = 'grub-customizer'
+name = 'grub-customizer'
+
+homepage = 'https://launchpad.net/grub-customizer'
+
+[[package]]
+channel = 'debian'
+name = 'grub-customizer'

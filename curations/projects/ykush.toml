@@ -1,0 +1,12 @@
+id = 'ykush'
+name = 'ykush'
+
+homepage = 'https://github.com/Yepkit/ykush'
+
+[[package]]
+channel = 'debian'
+name = 'ykush-control'
+
+[[package]]
+channel = 'fedora'
+name = 'ykushcmd'

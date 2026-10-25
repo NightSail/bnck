@@ -1,0 +1,8 @@
+id = 'octobuild'
+name = 'octobuild'
+
+repository = 'https://github.com/octobuild/octobuild.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/octobuild'

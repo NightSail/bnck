@@ -1,0 +1,12 @@
+id = 'typerex'
+name = 'typerex'
+
+homepage = 'https://www.typerex.org/ocp-indent.html'
+
+[[package]]
+channel = 'debian'
+name = 'ocp-indent'
+
+[[package]]
+channel = 'fedora'
+name = 'ocaml-ocp-indent'

@@ -1,0 +1,12 @@
+id = 'gogglesmm'
+name = 'gogglesmm'
+
+homepage = 'https://gogglesmm.github.io'
+
+[[package]]
+channel = 'arch'
+name = 'gogglesmm'
+
+[[package]]
+channel = 'debian'
+name = 'gogglesmm'

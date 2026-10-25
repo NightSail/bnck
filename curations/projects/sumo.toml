@@ -1,0 +1,8 @@
+id = 'sumo'
+name = 'sumo'
+
+homepage = 'https://sumo.dlr.de'
+
+[[package]]
+channel = 'debian'
+name = 'sumo'

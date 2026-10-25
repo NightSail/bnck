@@ -1,0 +1,8 @@
+id = 'css-validator'
+name = 'css-validator'
+
+homepage = 'https://jigsaw.w3.org/css-validator'
+
+[[package]]
+channel = 'debian'
+name = 'css-validator'

@@ -1,0 +1,8 @@
+id = 'node-tldts'
+name = 'node-tldts'
+
+homepage = 'https://github.com/remusao/tldts'
+
+[[package]]
+channel = 'debian'
+name = 'node-tldts'

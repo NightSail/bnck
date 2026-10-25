@@ -1,0 +1,8 @@
+id = 'cffconvert'
+name = 'cffconvert'
+
+homepage = 'https://github.com/citation-file-format/cff-converter-python'
+
+[[package]]
+channel = 'fedora'
+name = 'cffconvert'

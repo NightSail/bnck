@@ -1,0 +1,8 @@
+id = 'ries'
+name = 'ries'
+
+homepage = 'https://mrob.com/pub/ries'
+
+[[package]]
+channel = 'debian'
+name = 'ries'

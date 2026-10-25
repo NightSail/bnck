@@ -12,5 +12,9 @@ channel = 'debian'
 name = 'b3sum'
 
 [[package]]
+channel = 'fedora'
+name = 'b3sum'
+
+[[package]]
 channel = 'homebrew'
 name = 'homebrew/core/b3sum'

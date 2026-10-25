@@ -1,0 +1,8 @@
+id = 'perl-podlators'
+name = 'perl-podlators'
+
+homepage = 'https://metacpan.org/release/podlators'
+
+[[package]]
+channel = 'fedora'
+name = 'perl-podlators'

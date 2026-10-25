@@ -1,0 +1,12 @@
+id = 'exact-image'
+name = 'exact-image'
+
+homepage = 'https://exactcode.com/opensource/exactimage'
+
+[[package]]
+channel = 'debian'
+name = 'exactimage'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/exact-image'

@@ -1,0 +1,12 @@
+id = 'code-minimap'
+name = 'code-minimap'
+
+homepage = 'https://github.com/wfxr/code-minimap'
+
+[[package]]
+channel = 'debian'
+name = 'code-minimap'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/code-minimap'

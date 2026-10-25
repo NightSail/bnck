@@ -1,0 +1,8 @@
+id = 'persalys'
+name = 'persalys'
+
+homepage = 'https://www.persalys.fr'
+
+[[package]]
+channel = 'debian'
+name = 'persalys'

@@ -1,0 +1,16 @@
+id = 'mussh'
+name = 'mussh'
+
+homepage = 'https://mussh.sourceforge.net'
+
+[[package]]
+channel = 'debian'
+name = 'mussh'
+
+[[package]]
+channel = 'fedora'
+name = 'mussh'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mussh'

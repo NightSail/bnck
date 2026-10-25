@@ -1,0 +1,32 @@
+id = 'msitools'
+name = 'msitools'
+
+homepage = 'https://wiki.gnome.org/msitools'
+
+[[package]]
+channel = 'arch'
+name = 'gcab'
+
+[[package]]
+channel = 'arch'
+name = 'msitools'
+
+[[package]]
+channel = 'debian'
+name = 'gcab'
+
+[[package]]
+channel = 'debian'
+name = 'msitools'
+
+[[package]]
+channel = 'debian'
+name = 'wixl'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/gcab'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/msitools'

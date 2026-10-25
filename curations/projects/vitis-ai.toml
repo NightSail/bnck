@@ -1,0 +1,12 @@
+id = 'vitis-ai'
+name = 'vitis-ai'
+
+homepage = 'https://github.com/Xilinx/Vitis-AI'
+
+[[package]]
+channel = 'debian'
+name = 'libxir-utils'
+
+[[package]]
+channel = 'debian'
+name = 'vart-bin'

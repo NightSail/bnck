@@ -1,0 +1,28 @@
+id = 'nss-security'
+name = 'nss'
+
+homepage = 'http://www.mozilla.org/projects/security/pki/nss'
+
+[[package]]
+channel = 'fedora'
+name = 'nspr-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'nss-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'nss-softokn-devel'
+
+[[package]]
+channel = 'fedora'
+name = 'nss-sysinit'
+
+[[package]]
+channel = 'fedora'
+name = 'nss-tools'
+
+[[package]]
+channel = 'fedora'
+name = 'nss-util-devel'

@@ -1,0 +1,8 @@
+id = 'mysql-zrm'
+name = 'MySQL-zrm'
+
+homepage = 'http://www.zmanda.com/backup-mysql.html'
+
+[[package]]
+channel = 'fedora'
+name = 'MySQL-zrm'

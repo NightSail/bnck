@@ -1,0 +1,8 @@
+id = 'pristine-tar'
+name = 'pristine-tar'
+
+homepage = 'https://kitenet.net/~joey/code/pristine-tar'
+
+[[package]]
+channel = 'debian'
+name = 'pristine-tar'

@@ -1,0 +1,16 @@
+id = 'dnsviz'
+name = 'dnsviz'
+
+homepage = 'https://github.com/dnsviz/dnsviz'
+
+[[package]]
+channel = 'debian'
+name = 'dnsviz'
+
+[[package]]
+channel = 'fedora'
+name = 'dnsviz'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/dnsviz'

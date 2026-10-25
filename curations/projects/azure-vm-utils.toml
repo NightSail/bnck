@@ -1,0 +1,12 @@
+id = 'azure-vm-utils'
+name = 'azure-vm-utils'
+
+homepage = 'https://github.com/Azure/azure-vm-utils'
+
+[[package]]
+channel = 'debian'
+name = 'azure-vm-utils'
+
+[[package]]
+channel = 'fedora'
+name = 'azure-vm-utils'

@@ -1,0 +1,12 @@
+id = 'mp3blaster'
+name = 'mp3blaster'
+
+homepage = 'https://mp3blaster.sourceforge.io'
+
+[[package]]
+channel = 'debian'
+name = 'mp3blaster'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/mp3blaster'

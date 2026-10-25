@@ -1,0 +1,12 @@
+id = 'spirv'
+name = 'spirv'
+
+homepage = 'https://www.khronos.org/spirv'
+
+[[package]]
+channel = 'arch'
+name = 'spirv-llvm-translator'
+
+[[package]]
+channel = 'arch'
+name = 'spirv-tools'

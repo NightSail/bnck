@@ -1,0 +1,9 @@
+id = 'arkade'
+name = 'arkade'
+
+homepage = 'https://blog.alexellis.io/kubernetes-marketplace-two-year-update'
+repository = 'https://github.com/alexellis/arkade.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/arkade'

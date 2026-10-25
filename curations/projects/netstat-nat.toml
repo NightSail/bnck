@@ -1,0 +1,16 @@
+id = 'netstat-nat'
+name = 'netstat-nat'
+
+homepage = 'https://tweegy.nl/projects/netstat-nat'
+
+[[package]]
+channel = 'arch'
+name = 'netstat-nat'
+
+[[package]]
+channel = 'debian'
+name = 'netstat-nat'
+
+[[package]]
+channel = 'fedora'
+name = 'netstat-nat'

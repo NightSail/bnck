@@ -1,0 +1,9 @@
+id = 'oranda'
+name = 'oranda'
+
+homepage = 'https://axodotdev.github.io/oranda'
+repository = 'https://github.com/axodotdev/oranda.git'
+
+[[package]]
+channel = 'homebrew'
+name = 'homebrew/core/oranda'
